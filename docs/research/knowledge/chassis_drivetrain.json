@@ -1,0 +1,4060 @@
+{
+ "slice": "chassis and drivetrain depth, MX bikes 2020-2026 (KTM family and Triumph first)",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "450 SX-F",
+   "350 SX-F",
+   "250 SX-F",
+   "Husqvarna FC 450",
+   "Husqvarna FC 350",
+   "Husqvarna FC 250",
+   "GasGas MC 450F",
+   "GasGas MC 350F",
+   "GasGas MC 250F",
+   "TF 450-X",
+   "TF 450-RC Edition",
+   "TF 250-X",
+   "YZ450F",
+   "YZ250F",
+   "CRF450R",
+   "CRF250R",
+   "KX450",
+   "KX250",
+   "KX450X"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "cd6-001",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split (tank full)",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On a magazine scale with a full tank the 2026 450 SX-F weighed 241 lb, 117 lb on the front wheel and 124 lb on the rear (48.5% front).",
+   "values": {
+    "weight_full_tank": "241 lb",
+    "front": "117 lb",
+    "rear": "124 lb",
+    "front_share_derived": "48.5%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2026 450 Motocross Shootout",
+    "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+    "date": "2025-11"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: tank full. Front share is BAK arithmetic (front / total x 100). Same scale session for all bikes in the shootout, so bikes in this record set compare fairly with each other; do not compare directly with no-fuel weights from other sources. Yamaha YZ450F 2026 from the same test (244 lb, 118/126) is already in yz450f_engine.json."
+  },
+  {
+   "id": "cd6-002",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split (tank full)",
+   "applies_to": {
+    "make": [
+     "Husqvarna"
+    ],
+    "models": [
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On a magazine scale with a full tank the 2026 Husqvarna FC 450 weighed 240 lb, 117 lb on the front wheel and 123 lb on the rear (48.8% front).",
+   "values": {
+    "weight_full_tank": "240 lb",
+    "front": "117 lb",
+    "rear": "123 lb",
+    "front_share_derived": "48.8%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2026 450 Motocross Shootout",
+    "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+    "date": "2025-11"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: tank full. Front share is BAK arithmetic (front / total x 100). Same scale session for all bikes in the shootout, so bikes in this record set compare fairly with each other; do not compare directly with no-fuel weights from other sources. Yamaha YZ450F 2026 from the same test (244 lb, 118/126) is already in yz450f_engine.json."
+  },
+  {
+   "id": "cd6-003",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split (tank full)",
+   "applies_to": {
+    "make": [
+     "GasGas"
+    ],
+    "models": [
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On a magazine scale with a full tank the 2026 GasGas MC 450F weighed 242 lb, 118 lb on the front wheel and 124 lb on the rear (48.8% front).",
+   "values": {
+    "weight_full_tank": "242 lb",
+    "front": "118 lb",
+    "rear": "124 lb",
+    "front_share_derived": "48.8%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2026 450 Motocross Shootout",
+    "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+    "date": "2025-11"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: tank full. Front share is BAK arithmetic (front / total x 100). Same scale session for all bikes in the shootout, so bikes in this record set compare fairly with each other; do not compare directly with no-fuel weights from other sources. Yamaha YZ450F 2026 from the same test (244 lb, 118/126) is already in yz450f_engine.json."
+  },
+  {
+   "id": "cd6-004",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split (tank full)",
+   "applies_to": {
+    "make": [
+     "Triumph"
+    ],
+    "models": [
+     "TF 450-X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On a magazine scale with a full tank the 2026 TF 450-X weighed 235 lb, 115 lb on the front wheel and 120 lb on the rear (48.9% front).",
+   "values": {
+    "weight_full_tank": "235 lb",
+    "front": "115 lb",
+    "rear": "120 lb",
+    "front_share_derived": "48.9%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2026 450 Motocross Shootout",
+    "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+    "date": "2025-11"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: tank full. Front share is BAK arithmetic (front / total x 100). Same scale session for all bikes in the shootout, so bikes in this record set compare fairly with each other; do not compare directly with no-fuel weights from other sources. Yamaha YZ450F 2026 from the same test (244 lb, 118/126) is already in yz450f_engine.json."
+  },
+  {
+   "id": "cd6-005",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split (tank full)",
+   "applies_to": {
+    "make": [
+     "Honda"
+    ],
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On a magazine scale with a full tank the 2026 CRF450R weighed 246 lb, 121 lb on the front wheel and 125 lb on the rear (49.2% front).",
+   "values": {
+    "weight_full_tank": "246 lb",
+    "front": "121 lb",
+    "rear": "125 lb",
+    "front_share_derived": "49.2%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2026 450 Motocross Shootout",
+    "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+    "date": "2025-11"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: tank full. Front share is BAK arithmetic (front / total x 100). Same scale session for all bikes in the shootout, so bikes in this record set compare fairly with each other; do not compare directly with no-fuel weights from other sources. Yamaha YZ450F 2026 from the same test (244 lb, 118/126) is already in yz450f_engine.json."
+  },
+  {
+   "id": "cd6-006",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split (tank full)",
+   "applies_to": {
+    "make": [
+     "Kawasaki"
+    ],
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On a magazine scale with a full tank the 2026 KX450 weighed 251 lb, 122 lb on the front wheel and 129 lb on the rear (48.6% front).",
+   "values": {
+    "weight_full_tank": "251 lb",
+    "front": "122 lb",
+    "rear": "129 lb",
+    "front_share_derived": "48.6%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2026 450 Motocross Shootout",
+    "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+    "date": "2025-11"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: tank full. Front share is BAK arithmetic (front / total x 100). Same scale session for all bikes in the shootout, so bikes in this record set compare fairly with each other; do not compare directly with no-fuel weights from other sources. Yamaha YZ450F 2026 from the same test (244 lb, 118/126) is already in yz450f_engine.json."
+  },
+  {
+   "id": "cd6-007",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split (tank full)",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "With a full tank the 2022 450 SX-F weighed 234 lb on a magazine scale, 113 lb front and 121 lb rear (48.3% front).",
+   "values": {
+    "weight_full_tank": "234 lb",
+    "front": "113 lb",
+    "rear": "121 lb",
+    "front_share_derived": "48.3%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2022 450 Shootout",
+    "url": "https://www.vitalmx.com/features/2022-Vital-MX-450-Shootout,7557",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: tank full (weights table). Front share is BAK arithmetic (front / total x 100). Only full-tank figures were published."
+  },
+  {
+   "id": "cd6-008",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split (tank full)",
+   "applies_to": {
+    "make": [
+     "GasGas"
+    ],
+    "models": [
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "With a full tank the 2022 GasGas MC 450F weighed 234 lb on a magazine scale, 114 lb front and 120 lb rear (48.7% front).",
+   "values": {
+    "weight_full_tank": "234 lb",
+    "front": "114 lb",
+    "rear": "120 lb",
+    "front_share_derived": "48.7%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2022 450 Shootout",
+    "url": "https://www.vitalmx.com/features/2022-Vital-MX-450-Shootout,7557",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: tank full (weights table). Front share is BAK arithmetic (front / total x 100). Only full-tank figures were published."
+  },
+  {
+   "id": "cd6-009",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split (tank full)",
+   "applies_to": {
+    "make": [
+     "Husqvarna"
+    ],
+    "models": [
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "With a full tank the 2022 Husqvarna FC 450 weighed 235 lb on a magazine scale, 114 lb front and 121 lb rear (48.5% front).",
+   "values": {
+    "weight_full_tank": "235 lb",
+    "front": "114 lb",
+    "rear": "121 lb",
+    "front_share_derived": "48.5%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2022 450 Shootout",
+    "url": "https://www.vitalmx.com/features/2022-Vital-MX-450-Shootout,7557",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: tank full (weights table). Front share is BAK arithmetic (front / total x 100). Only full-tank figures were published."
+  },
+  {
+   "id": "cd6-010",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split (tank full)",
+   "applies_to": {
+    "make": [
+     "Honda"
+    ],
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "With a full tank the 2022 CRF450R weighed 241 lb on a magazine scale, 118 lb front and 123 lb rear (49.0% front).",
+   "values": {
+    "weight_full_tank": "241 lb",
+    "front": "118 lb",
+    "rear": "123 lb",
+    "front_share_derived": "49.0%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2022 450 Shootout",
+    "url": "https://www.vitalmx.com/features/2022-Vital-MX-450-Shootout,7557",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: tank full (weights table). Front share is BAK arithmetic (front / total x 100). Only full-tank figures were published."
+  },
+  {
+   "id": "cd6-011",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split (tank full)",
+   "applies_to": {
+    "make": [
+     "Kawasaki"
+    ],
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "With a full tank the 2022 KX450 weighed 244 lb on a magazine scale, 119 lb front and 125 lb rear (48.8% front).",
+   "values": {
+    "weight_full_tank": "244 lb",
+    "front": "119 lb",
+    "rear": "125 lb",
+    "front_share_derived": "48.8%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2022 450 Shootout",
+    "url": "https://www.vitalmx.com/features/2022-Vital-MX-450-Shootout,7557",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: tank full (weights table). Front share is BAK arithmetic (front / total x 100). Only full-tank figures were published."
+  },
+  {
+   "id": "cd6-012",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split (tank full)",
+   "applies_to": {
+    "make": [
+     "Yamaha"
+    ],
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "With a full tank the 2022 YZ450F weighed 246 lb on a magazine scale, 119 lb front and 127 lb rear (48.4% front).",
+   "values": {
+    "weight_full_tank": "246 lb",
+    "front": "119 lb",
+    "rear": "127 lb",
+    "front_share_derived": "48.4%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2022 450 Shootout",
+    "url": "https://www.vitalmx.com/features/2022-Vital-MX-450-Shootout,7557",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: tank full (weights table). Front share is BAK arithmetic (front / total x 100). Only full-tank figures were published."
+  },
+  {
+   "id": "cd6-013",
+   "domain": "chassis",
+   "topic": "measured weight (tank full)",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "With a full tank the 2020 450 SX-F weighed 233.7 lb on a single-scale stand.",
+   "values": {
+    "weight_full_tank": "233.7 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2020 450 Shootout: Full Test",
+    "url": "https://www.vitalmx.com/features/2020-Vital-MX-450-Shootout-FULL-TEST,6707",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: tank full; single-scale centerstand. No front/rear split published. 2020 CRF450R (247.9 lb) and KX450 (242.8 lb) from the same weigh-in are already in triumph_gapfill.json."
+  },
+  {
+   "id": "cd6-014",
+   "domain": "chassis",
+   "topic": "measured weight (tank full)",
+   "applies_to": {
+    "make": [
+     "Husqvarna"
+    ],
+    "models": [
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "With a full tank the 2020 Husqvarna FC 450 weighed 234.0 lb on a single-scale stand.",
+   "values": {
+    "weight_full_tank": "234.0 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2020 450 Shootout: Full Test",
+    "url": "https://www.vitalmx.com/features/2020-Vital-MX-450-Shootout-FULL-TEST,6707",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: tank full; single-scale centerstand. No front/rear split published. 2020 CRF450R (247.9 lb) and KX450 (242.8 lb) from the same weigh-in are already in triumph_gapfill.json."
+  },
+  {
+   "id": "cd6-015",
+   "domain": "chassis",
+   "topic": "measured weight (tank full)",
+   "applies_to": {
+    "make": [
+     "Yamaha"
+    ],
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "With a full tank the 2020 YZ450F weighed 246.9 lb on a single-scale stand.",
+   "values": {
+    "weight_full_tank": "246.9 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2020 450 Shootout: Full Test",
+    "url": "https://www.vitalmx.com/features/2020-Vital-MX-450-Shootout-FULL-TEST,6707",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: tank full; single-scale centerstand. No front/rear split published. 2020 CRF450R (247.9 lb) and KX450 (242.8 lb) from the same weigh-in are already in triumph_gapfill.json."
+  },
+  {
+   "id": "cd6-016",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split (empty and full tank)",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "250 SX-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The 2022 250 SX-F weighed 219 lb with an empty tank (105 front / 114 rear) and 229 lb with a full tank (111 / 118), so fuel adds about 10 lb, mostly to the front.",
+   "values": {
+    "weight_empty_tank": "219 lb",
+    "empty_front_rear": "105 / 114 lb",
+    "empty_front_share_derived": "47.9%",
+    "weight_full_tank": "229 lb",
+    "full_front_rear": "111 / 118 lb",
+    "full_front_share_derived": "48.5%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2022 250 Shootout",
+    "url": "https://www.vitalmx.com/features/2022-Vital-MX-250-Shootout,7613",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Both fuel states published from one weigh-in. Front shares are BAK arithmetic. Split sums can differ from the total by 1 lb from rounding. The tank sits ahead of the centre of mass, so a full tank moves balance forward by about 0.5-1 percentage point on these bikes."
+  },
+  {
+   "id": "cd6-017",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split (empty and full tank)",
+   "applies_to": {
+    "make": [
+     "Husqvarna"
+    ],
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The 2022 Husqvarna FC 250 weighed 220 lb with an empty tank (106 front / 114 rear) and 230 lb with a full tank (112 / 119), so fuel adds about 10 lb, mostly to the front.",
+   "values": {
+    "weight_empty_tank": "220 lb",
+    "empty_front_rear": "106 / 114 lb",
+    "empty_front_share_derived": "48.2%",
+    "weight_full_tank": "230 lb",
+    "full_front_rear": "112 / 119 lb",
+    "full_front_share_derived": "48.7%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2022 250 Shootout",
+    "url": "https://www.vitalmx.com/features/2022-Vital-MX-250-Shootout,7613",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Both fuel states published from one weigh-in. Front shares are BAK arithmetic. Split sums can differ from the total by 1 lb from rounding. The tank sits ahead of the centre of mass, so a full tank moves balance forward by about 0.5-1 percentage point on these bikes."
+  },
+  {
+   "id": "cd6-018",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split (empty and full tank)",
+   "applies_to": {
+    "make": [
+     "GasGas"
+    ],
+    "models": [
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The 2022 GasGas MC 250F weighed 220 lb with an empty tank (105 front / 115 rear) and 230 lb with a full tank (111 / 119), so fuel adds about 10 lb, mostly to the front.",
+   "values": {
+    "weight_empty_tank": "220 lb",
+    "empty_front_rear": "105 / 115 lb",
+    "empty_front_share_derived": "47.7%",
+    "weight_full_tank": "230 lb",
+    "full_front_rear": "111 / 119 lb",
+    "full_front_share_derived": "48.3%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2022 250 Shootout",
+    "url": "https://www.vitalmx.com/features/2022-Vital-MX-250-Shootout,7613",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Both fuel states published from one weigh-in. Front shares are BAK arithmetic. Split sums can differ from the total by 1 lb from rounding. The tank sits ahead of the centre of mass, so a full tank moves balance forward by about 0.5-1 percentage point on these bikes."
+  },
+  {
+   "id": "cd6-019",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split (empty and full tank)",
+   "applies_to": {
+    "make": [
+     "Honda"
+    ],
+    "models": [
+     "CRF250R"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The 2022 CRF250R weighed 219 lb with an empty tank (108 front / 111 rear) and 230 lb with a full tank (114 / 116), so fuel adds about 11 lb, mostly to the front.",
+   "values": {
+    "weight_empty_tank": "219 lb",
+    "empty_front_rear": "108 / 111 lb",
+    "empty_front_share_derived": "49.3%",
+    "weight_full_tank": "230 lb",
+    "full_front_rear": "114 / 116 lb",
+    "full_front_share_derived": "49.6%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2022 250 Shootout",
+    "url": "https://www.vitalmx.com/features/2022-Vital-MX-250-Shootout,7613",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Both fuel states published from one weigh-in. Front shares are BAK arithmetic. Split sums can differ from the total by 1 lb from rounding. The tank sits ahead of the centre of mass, so a full tank moves balance forward by about 0.5-1 percentage point on these bikes."
+  },
+  {
+   "id": "cd6-020",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split (empty and full tank)",
+   "applies_to": {
+    "make": [
+     "Kawasaki"
+    ],
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The 2022 KX250 weighed 225 lb with an empty tank (109 front / 116 rear) and 237 lb with a full tank (115 / 122), so fuel adds about 12 lb, mostly to the front.",
+   "values": {
+    "weight_empty_tank": "225 lb",
+    "empty_front_rear": "109 / 116 lb",
+    "empty_front_share_derived": "48.4%",
+    "weight_full_tank": "237 lb",
+    "full_front_rear": "115 / 122 lb",
+    "full_front_share_derived": "48.5%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2022 250 Shootout",
+    "url": "https://www.vitalmx.com/features/2022-Vital-MX-250-Shootout,7613",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Both fuel states published from one weigh-in. Front shares are BAK arithmetic. Split sums can differ from the total by 1 lb from rounding. The tank sits ahead of the centre of mass, so a full tank moves balance forward by about 0.5-1 percentage point on these bikes."
+  },
+  {
+   "id": "cd6-021",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split (empty and full tank)",
+   "applies_to": {
+    "make": [
+     "Yamaha"
+    ],
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The 2022 YZ250F weighed 222 lb with an empty tank (106 front / 116 rear) and 234 lb with a full tank (112 / 122), so fuel adds about 12 lb, mostly to the front.",
+   "values": {
+    "weight_empty_tank": "222 lb",
+    "empty_front_rear": "106 / 116 lb",
+    "empty_front_share_derived": "47.7%",
+    "weight_full_tank": "234 lb",
+    "full_front_rear": "112 / 122 lb",
+    "full_front_share_derived": "47.9%"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2022 250 Shootout",
+    "url": "https://www.vitalmx.com/features/2022-Vital-MX-250-Shootout,7613",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Both fuel states published from one weigh-in. Front shares are BAK arithmetic. Split sums can differ from the total by 1 lb from rounding. The tank sits ahead of the centre of mass, so a full tank moves balance forward by about 0.5-1 percentage point on these bikes."
+  },
+  {
+   "id": "cd6-022",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "250 SX-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "The 2021 250 SX-F weighed 228 lb on a magazine scale, 109 lb front and 119 lb rear (47.8% front).",
+   "values": {
+    "weight": "228 lb",
+    "front": "109 lb",
+    "rear": "119 lb",
+    "front_share_derived": "47.8%",
+    "fuel_state": "not stated"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2021 250 Shootout: Full Test",
+    "url": "https://www.vitalmx.com/features/2021-Vital-MX-250-Shootout-Full-Test,7187",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "The article does not say whether the tank was full. The totals sit close to the 2022 full-tank figures from the same outlet, so a full tank is likely, but this is not confirmed."
+  },
+  {
+   "id": "cd6-023",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split",
+   "applies_to": {
+    "make": [
+     "Husqvarna"
+    ],
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "The 2021 Husqvarna FC 250 weighed 229 lb on a magazine scale, 110 lb front and 119 lb rear (48.0% front).",
+   "values": {
+    "weight": "229 lb",
+    "front": "110 lb",
+    "rear": "119 lb",
+    "front_share_derived": "48.0%",
+    "fuel_state": "not stated"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2021 250 Shootout: Full Test",
+    "url": "https://www.vitalmx.com/features/2021-Vital-MX-250-Shootout-Full-Test,7187",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "The article does not say whether the tank was full. The totals sit close to the 2022 full-tank figures from the same outlet, so a full tank is likely, but this is not confirmed."
+  },
+  {
+   "id": "cd6-024",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split",
+   "applies_to": {
+    "make": [
+     "Yamaha"
+    ],
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "The 2021 YZ250F weighed 235 lb on a magazine scale, 113 lb front and 122 lb rear (48.1% front).",
+   "values": {
+    "weight": "235 lb",
+    "front": "113 lb",
+    "rear": "122 lb",
+    "front_share_derived": "48.1%",
+    "fuel_state": "not stated"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2021 250 Shootout: Full Test",
+    "url": "https://www.vitalmx.com/features/2021-Vital-MX-250-Shootout-Full-Test,7187",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "The article does not say whether the tank was full. The totals sit close to the 2022 full-tank figures from the same outlet, so a full tank is likely, but this is not confirmed."
+  },
+  {
+   "id": "cd6-025",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split",
+   "applies_to": {
+    "make": [
+     "Honda"
+    ],
+    "models": [
+     "CRF250R"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "The 2021 CRF250R weighed 236 lb on a magazine scale, 116 lb front and 120 lb rear (49.2% front).",
+   "values": {
+    "weight": "236 lb",
+    "front": "116 lb",
+    "rear": "120 lb",
+    "front_share_derived": "49.2%",
+    "fuel_state": "not stated"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2021 250 Shootout: Full Test",
+    "url": "https://www.vitalmx.com/features/2021-Vital-MX-250-Shootout-Full-Test,7187",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "The article does not say whether the tank was full. The totals sit close to the 2022 full-tank figures from the same outlet, so a full tank is likely, but this is not confirmed."
+  },
+  {
+   "id": "cd6-026",
+   "domain": "chassis",
+   "topic": "measured weight and front/rear split",
+   "applies_to": {
+    "make": [
+     "Kawasaki"
+    ],
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "The 2021 KX250 weighed 237 lb on a magazine scale, 114 lb front and 123 lb rear (48.1% front).",
+   "values": {
+    "weight": "237 lb",
+    "front": "114 lb",
+    "rear": "123 lb",
+    "front_share_derived": "48.1%",
+    "fuel_state": "not stated"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2021 250 Shootout: Full Test",
+    "url": "https://www.vitalmx.com/features/2021-Vital-MX-250-Shootout-Full-Test,7187",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "The article does not say whether the tank was full. The totals sit close to the 2022 full-tank figures from the same outlet, so a full tank is likely, but this is not confirmed."
+  },
+  {
+   "id": "cd6-027",
+   "domain": "chassis",
+   "topic": "measured weight (tank full)",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "250 SX-F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "With the tank filled to the bottom of the filler neck (1.85 gal) the 2020 250 SX-F weighed 230.2 lb.",
+   "values": {
+    "weight_full_tank": "230.2 lb",
+    "fuel_load": "1.85 gal"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2020 250 Shootout: Full Test",
+    "url": "https://www.vitalmx.com/features/2020-Vital-MX-250-Shootout,6727",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: full to bottom of filler neck. No front/rear split published."
+  },
+  {
+   "id": "cd6-028",
+   "domain": "chassis",
+   "topic": "measured weight (tank full)",
+   "applies_to": {
+    "make": [
+     "Husqvarna"
+    ],
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "With the tank filled to the bottom of the filler neck (1.85 gal) the 2020 Husqvarna FC 250 weighed 232.2 lb.",
+   "values": {
+    "weight_full_tank": "232.2 lb",
+    "fuel_load": "1.85 gal"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2020 250 Shootout: Full Test",
+    "url": "https://www.vitalmx.com/features/2020-Vital-MX-250-Shootout,6727",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: full to bottom of filler neck. No front/rear split published."
+  },
+  {
+   "id": "cd6-029",
+   "domain": "chassis",
+   "topic": "measured weight (tank full)",
+   "applies_to": {
+    "make": [
+     "Kawasaki"
+    ],
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "With the tank filled to the bottom of the filler neck (1.69 gal) the 2020 KX250 weighed 234.1 lb.",
+   "values": {
+    "weight_full_tank": "234.1 lb",
+    "fuel_load": "1.69 gal"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2020 250 Shootout: Full Test",
+    "url": "https://www.vitalmx.com/features/2020-Vital-MX-250-Shootout,6727",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: full to bottom of filler neck. No front/rear split published."
+  },
+  {
+   "id": "cd6-030",
+   "domain": "chassis",
+   "topic": "measured weight (tank full)",
+   "applies_to": {
+    "make": [
+     "Honda"
+    ],
+    "models": [
+     "CRF250R"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "With the tank filled to the bottom of the filler neck (1.6 gal) the 2020 CRF250R weighed 235.4 lb.",
+   "values": {
+    "weight_full_tank": "235.4 lb",
+    "fuel_load": "1.6 gal"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2020 250 Shootout: Full Test",
+    "url": "https://www.vitalmx.com/features/2020-Vital-MX-250-Shootout,6727",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: full to bottom of filler neck. No front/rear split published."
+  },
+  {
+   "id": "cd6-031",
+   "domain": "chassis",
+   "topic": "measured weight (tank full)",
+   "applies_to": {
+    "make": [
+     "Yamaha"
+    ],
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "With the tank filled to the bottom of the filler neck (1.6 gal) the 2020 YZ250F weighed 235.6 lb.",
+   "values": {
+    "weight_full_tank": "235.6 lb",
+    "fuel_load": "1.6 gal"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2020 250 Shootout: Full Test",
+    "url": "https://www.vitalmx.com/features/2020-Vital-MX-250-Shootout,6727",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: full to bottom of filler neck. No front/rear split published."
+  },
+  {
+   "id": "cd6-032",
+   "domain": "chassis",
+   "topic": "wet weight in a 2025 250 comparison",
+   "applies_to": {
+    "make": [
+     "Triumph"
+    ],
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "In a 2025 250 four-stroke comparison the TF 250-X was listed at 230 lb wet.",
+   "values": {
+    "wet_weight": "230 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News 2025 250cc 4-Stroke Motocross Shootout",
+    "url": "https://www.cyclenews.com/2024/12/article/2025-250cc-4-stroke-motocross-shootout/",
+    "date": "2024-12"
+   },
+   "confidence": "medium",
+   "notes": "Listed as 'wet weight'; fuel level not stated and the article does not say the figures were measured by the magazine (could be claimed figures). Keep separate from no-fuel weights."
+  },
+  {
+   "id": "cd6-033",
+   "domain": "chassis",
+   "topic": "wet weight in a 2025 250 comparison",
+   "applies_to": {
+    "make": [
+     "Honda"
+    ],
+    "models": [
+     "CRF250R"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "In a 2025 250 four-stroke comparison the CRF250R was listed at 232 lb wet.",
+   "values": {
+    "wet_weight": "232 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News 2025 250cc 4-Stroke Motocross Shootout",
+    "url": "https://www.cyclenews.com/2024/12/article/2025-250cc-4-stroke-motocross-shootout/",
+    "date": "2024-12"
+   },
+   "confidence": "medium",
+   "notes": "Listed as 'wet weight'; fuel level not stated and the article does not say the figures were measured by the magazine (could be claimed figures). Keep separate from no-fuel weights."
+  },
+  {
+   "id": "cd6-034",
+   "domain": "chassis",
+   "topic": "wet weight in a 2025 250 comparison",
+   "applies_to": {
+    "make": [
+     "Husqvarna"
+    ],
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "In a 2025 250 four-stroke comparison the Husqvarna FC 250 was listed at 235 lb wet.",
+   "values": {
+    "wet_weight": "235 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News 2025 250cc 4-Stroke Motocross Shootout",
+    "url": "https://www.cyclenews.com/2024/12/article/2025-250cc-4-stroke-motocross-shootout/",
+    "date": "2024-12"
+   },
+   "confidence": "medium",
+   "notes": "Listed as 'wet weight'; fuel level not stated and the article does not say the figures were measured by the magazine (could be claimed figures). Keep separate from no-fuel weights."
+  },
+  {
+   "id": "cd6-035",
+   "domain": "chassis",
+   "topic": "wet weight in a 2025 250 comparison",
+   "applies_to": {
+    "make": [
+     "Yamaha"
+    ],
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "In a 2025 250 four-stroke comparison the YZ250F was listed at 236 lb wet.",
+   "values": {
+    "wet_weight": "236 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News 2025 250cc 4-Stroke Motocross Shootout",
+    "url": "https://www.cyclenews.com/2024/12/article/2025-250cc-4-stroke-motocross-shootout/",
+    "date": "2024-12"
+   },
+   "confidence": "medium",
+   "notes": "Listed as 'wet weight'; fuel level not stated and the article does not say the figures were measured by the magazine (could be claimed figures). Keep separate from no-fuel weights."
+  },
+  {
+   "id": "cd6-036",
+   "domain": "chassis",
+   "topic": "wet weight in a 2025 250 comparison",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "250 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "In a 2025 250 four-stroke comparison the 250 SX-F was listed at 236 lb wet.",
+   "values": {
+    "wet_weight": "236 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News 2025 250cc 4-Stroke Motocross Shootout",
+    "url": "https://www.cyclenews.com/2024/12/article/2025-250cc-4-stroke-motocross-shootout/",
+    "date": "2024-12"
+   },
+   "confidence": "medium",
+   "notes": "Listed as 'wet weight'; fuel level not stated and the article does not say the figures were measured by the magazine (could be claimed figures). Keep separate from no-fuel weights."
+  },
+  {
+   "id": "cd6-037",
+   "domain": "chassis",
+   "topic": "wet weight in a 2025 250 comparison",
+   "applies_to": {
+    "make": [
+     "GasGas"
+    ],
+    "models": [
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "In a 2025 250 four-stroke comparison the GasGas MC 250F was listed at 238 lb wet.",
+   "values": {
+    "wet_weight": "238 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News 2025 250cc 4-Stroke Motocross Shootout",
+    "url": "https://www.cyclenews.com/2024/12/article/2025-250cc-4-stroke-motocross-shootout/",
+    "date": "2024-12"
+   },
+   "confidence": "medium",
+   "notes": "Listed as 'wet weight'; fuel level not stated and the article does not say the figures were measured by the magazine (could be claimed figures). Keep separate from no-fuel weights."
+  },
+  {
+   "id": "cd6-038",
+   "domain": "chassis",
+   "topic": "wet weight in a 2025 250 comparison",
+   "applies_to": {
+    "make": [
+     "Kawasaki"
+    ],
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "In a 2025 250 four-stroke comparison the KX250 was listed at 240 lb wet.",
+   "values": {
+    "wet_weight": "240 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News 2025 250cc 4-Stroke Motocross Shootout",
+    "url": "https://www.cyclenews.com/2024/12/article/2025-250cc-4-stroke-motocross-shootout/",
+    "date": "2024-12"
+   },
+   "confidence": "medium",
+   "notes": "Listed as 'wet weight'; fuel level not stated and the article does not say the figures were measured by the magazine (could be claimed figures). Keep separate from no-fuel weights."
+  },
+  {
+   "id": "cd6-039",
+   "domain": "chassis",
+   "topic": "wet weight in a 2025 450 comparison",
+   "applies_to": {
+    "make": [
+     "GasGas"
+    ],
+    "models": [
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "In a 2025 450 comparison the GasGas MC 450F was listed at 241 lb wet.",
+   "values": {
+    "wet_weight": "241 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News 2025 450cc Four-Stroke Motocross Shootout",
+    "url": "https://www.cyclenews.com/2024/10/article/2025-450cc-four-stroke-motocross-shootout/",
+    "date": "2024-10"
+   },
+   "confidence": "medium",
+   "notes": "Listed as 'wet weight' (KTM described as 'fully fueled'). The article does not say these were scale readings by the magazine."
+  },
+  {
+   "id": "cd6-040",
+   "domain": "chassis",
+   "topic": "wet weight in a 2025 450 comparison",
+   "applies_to": {
+    "make": [
+     "Honda"
+    ],
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "In a 2025 450 comparison the CRF450R was listed at 247 lb wet.",
+   "values": {
+    "wet_weight": "247 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News 2025 450cc Four-Stroke Motocross Shootout",
+    "url": "https://www.cyclenews.com/2024/10/article/2025-450cc-four-stroke-motocross-shootout/",
+    "date": "2024-10"
+   },
+   "confidence": "medium",
+   "notes": "Listed as 'wet weight' (KTM described as 'fully fueled'). The article does not say these were scale readings by the magazine."
+  },
+  {
+   "id": "cd6-041",
+   "domain": "chassis",
+   "topic": "wet weight in a 2025 450 comparison",
+   "applies_to": {
+    "make": [
+     "Husqvarna"
+    ],
+    "models": [
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "In a 2025 450 comparison the Husqvarna FC 450 was listed at 240 lb wet.",
+   "values": {
+    "wet_weight": "240 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News 2025 450cc Four-Stroke Motocross Shootout",
+    "url": "https://www.cyclenews.com/2024/10/article/2025-450cc-four-stroke-motocross-shootout/",
+    "date": "2024-10"
+   },
+   "confidence": "medium",
+   "notes": "Listed as 'wet weight' (KTM described as 'fully fueled'). The article does not say these were scale readings by the magazine."
+  },
+  {
+   "id": "cd6-042",
+   "domain": "chassis",
+   "topic": "wet weight in a 2025 450 comparison",
+   "applies_to": {
+    "make": [
+     "Kawasaki"
+    ],
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "In a 2025 450 comparison the KX450 was listed at 247 lb wet.",
+   "values": {
+    "wet_weight": "247 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News 2025 450cc Four-Stroke Motocross Shootout",
+    "url": "https://www.cyclenews.com/2024/10/article/2025-450cc-four-stroke-motocross-shootout/",
+    "date": "2024-10"
+   },
+   "confidence": "medium",
+   "notes": "Listed as 'wet weight' (KTM described as 'fully fueled'). The article does not say these were scale readings by the magazine."
+  },
+  {
+   "id": "cd6-043",
+   "domain": "chassis",
+   "topic": "wet weight in a 2025 450 comparison",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "In a 2025 450 comparison the 450 SX-F was listed at 239 lb wet.",
+   "values": {
+    "wet_weight": "239 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News 2025 450cc Four-Stroke Motocross Shootout",
+    "url": "https://www.cyclenews.com/2024/10/article/2025-450cc-four-stroke-motocross-shootout/",
+    "date": "2024-10"
+   },
+   "confidence": "medium",
+   "notes": "Listed as 'wet weight' (KTM described as 'fully fueled'). The article does not say these were scale readings by the magazine."
+  },
+  {
+   "id": "cd6-044",
+   "domain": "chassis",
+   "topic": "wet weight in a 2025 450 comparison",
+   "applies_to": {
+    "make": [
+     "Yamaha"
+    ],
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "In a 2025 450 comparison the YZ450F was listed at 241 lb wet.",
+   "values": {
+    "wet_weight": "241 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News 2025 450cc Four-Stroke Motocross Shootout",
+    "url": "https://www.cyclenews.com/2024/10/article/2025-450cc-four-stroke-motocross-shootout/",
+    "date": "2024-10"
+   },
+   "confidence": "medium",
+   "notes": "Listed as 'wet weight' (KTM described as 'fully fueled'). The article does not say these were scale readings by the magazine."
+  },
+  {
+   "id": "cd6-045",
+   "domain": "chassis",
+   "topic": "weight without fuel in a 2026 450 comparison",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Without fuel the 450 SX-F weighed 229 lb in a 2026 450 comparison.",
+   "values": {
+    "weight_no_fuel": "229 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine 2026 450 MX Shootout",
+    "url": "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+    "date": "2026-02"
+   },
+   "confidence": "medium",
+   "notes": "Fuel state: no fuel. Taken from spec lines; method not described.  Triumph TF 450-X (231 lb) and YZ450F (231 lb) from this test are already covered in other files."
+  },
+  {
+   "id": "cd6-046",
+   "domain": "chassis",
+   "topic": "weight without fuel in a 2026 450 comparison",
+   "applies_to": {
+    "make": [
+     "GasGas"
+    ],
+    "models": [
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Without fuel the GasGas MC 450F weighed 229 lb in a 2026 450 comparison.",
+   "values": {
+    "weight_no_fuel": "229 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine 2026 450 MX Shootout",
+    "url": "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+    "date": "2026-02"
+   },
+   "confidence": "medium",
+   "notes": "Fuel state: no fuel. Taken from spec lines; method not described.  Triumph TF 450-X (231 lb) and YZ450F (231 lb) from this test are already covered in other files."
+  },
+  {
+   "id": "cd6-047",
+   "domain": "chassis",
+   "topic": "weight without fuel in a 2026 450 comparison",
+   "applies_to": {
+    "make": [
+     "Husqvarna"
+    ],
+    "models": [
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Without fuel the Husqvarna FC 450 weighed 229 lb in a 2026 450 comparison.",
+   "values": {
+    "weight_no_fuel": "229 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine 2026 450 MX Shootout",
+    "url": "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+    "date": "2026-02"
+   },
+   "confidence": "medium",
+   "notes": "Fuel state: no fuel. Taken from spec lines; method not described. The Husqvarna in this test was a 2025 standard model. Triumph TF 450-X (231 lb) and YZ450F (231 lb) from this test are already covered in other files."
+  },
+  {
+   "id": "cd6-048",
+   "domain": "chassis",
+   "topic": "weight without fuel in a 2026 450 comparison",
+   "applies_to": {
+    "make": [
+     "Honda"
+    ],
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Without fuel the CRF450R weighed 237 lb in a 2026 450 comparison.",
+   "values": {
+    "weight_no_fuel": "237 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine 2026 450 MX Shootout",
+    "url": "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+    "date": "2026-02"
+   },
+   "confidence": "medium",
+   "notes": "Fuel state: no fuel. Taken from spec lines; method not described.  Triumph TF 450-X (231 lb) and YZ450F (231 lb) from this test are already covered in other files."
+  },
+  {
+   "id": "cd6-049",
+   "domain": "chassis",
+   "topic": "weight without fuel in a 2026 450 comparison",
+   "applies_to": {
+    "make": [
+     "Kawasaki"
+    ],
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Without fuel the KX450 weighed 239 lb in a 2026 450 comparison.",
+   "values": {
+    "weight_no_fuel": "239 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine 2026 450 MX Shootout",
+    "url": "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+    "date": "2026-02"
+   },
+   "confidence": "medium",
+   "notes": "Fuel state: no fuel. Taken from spec lines; method not described.  Triumph TF 450-X (231 lb) and YZ450F (231 lb) from this test are already covered in other files."
+  },
+  {
+   "id": "cd6-050",
+   "domain": "chassis",
+   "topic": "measured weight without fuel",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The 2022 450 SX-F weighed 223 lb running weight without fuel; the same test put the Yamaha and Suzuki 450s at about 238 lb.",
+   "values": {
+    "weight_no_fuel": "223 lb",
+    "rivals_no_fuel": "about 238 lb (YZ450F, RM-Z450)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine 2022 KTM 450SX-F Full Test",
+    "url": "https://dirtbikemagazine.com/ktm-450sx-f-full-test/",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Fuel state: no fuel."
+  },
+  {
+   "id": "cd6-051",
+   "domain": "chassis",
+   "topic": "2025 250 comparison weights (with fluids)",
+   "applies_to": {
+    "make": [
+     "Honda",
+     "Yamaha"
+    ],
+    "models": [
+     "CRF250R",
+     "YZ250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "With all fluids the 2025 CRF250R Works Edition weighed 236 lb and the 2025 YZ250F 234 lb.",
+   "values": {
+    "CRF250R_Works_Edition": "236 lb with fluids",
+    "YZ250F": "234 lb with fluids"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX: 2025 Honda CRF250R Works Edition vs Yamaha YZ250F",
+    "url": "https://www.vitalmx.com/features/2025-honda-crf250r-works-edition-vs-yamaha-yz250f-which-best-250-class",
+    "date": "2025-03"
+   },
+   "confidence": "medium",
+   "notes": "'With fluids' assumed to include fuel. The Honda figure is the Works Edition, not the standard CRF250R. No front/rear split published."
+  },
+  {
+   "id": "cd6-052",
+   "domain": "chassis",
+   "topic": "how much a full tank weighs",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas",
+     "Honda",
+     "Kawasaki",
+     "Yamaha",
+     "Triumph"
+    ],
+    "models": [
+     "450 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450",
+     "Husqvarna FC 250",
+     "GasGas MC 450F",
+     "GasGas MC 250F",
+     "CRF450R",
+     "CRF250R",
+     "KX450",
+     "KX250",
+     "YZ450F",
+     "YZ250F",
+     "TF 450-X",
+     "TF 250-X"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A full tank adds roughly 10-12 lb: 1.85 gal on the KTM-family bikes works out to about 11.3 lb, and 1.6 gal on the Japanese bikes to about 9.8 lb, which matches the 10-12 lb gap seen between empty and full weigh-ins.",
+   "values": {
+    "ktm_1.85_gal": "about 11.3 lb",
+    "japanese_1.6_gal": "about 9.8 lb",
+    "kx_1.69_gal": "about 10.3 lb",
+    "measured_gap_2022_250s": "10-12 lb"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK calculation from published tank volumes and Vital MX 2022 250 Shootout empty/full weights",
+    "url": "https://www.vitalmx.com/features/2022-Vital-MX-250-Shootout,7613",
+    "date": "2026-10"
+   },
+   "confidence": "medium",
+   "notes": "Pump gasoline about 6.1 lb/gal (0.73 kg/L). 1.85 x 6.1 = 11.3; 1.60 x 6.1 = 9.8; 1.69 x 6.1 = 10.3. Measured empty-to-full differences in the 2022 250 weigh-in: KTM 10, Husqvarna 10, GasGas 10, Honda 11, Kawasaki 12, Yamaha 12 lb. Use this to convert no-fuel weights to full-tank weights when comparing sources."
+  },
+  {
+   "id": "cd6-053",
+   "domain": "chassis",
+   "topic": "2022 geometry and dimensions",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM lists a 63.9 degree steering head angle and 22 mm clamp offset for the 2022 450 SX-F, with a 1,485 mm wheelbase, 950-960 mm seat height and 100.5 kg weight without fuel.",
+   "values": {
+    "steering_head_angle": "63.9 deg (26.1 deg rake)",
+    "clamp_offset": "22 mm",
+    "wheelbase": "1,485 mm (58.5 in)",
+    "seat_height": "950 mm (spec reprint) / 960 mm (magazine spec sheet)",
+    "ground_clearance": "375 mm (spec reprint) / 370 mm (magazine spec sheet)",
+    "weight_no_fuel_claim": "100.5 kg",
+    "fuel": "7.5 L"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Total Motorcycle 2022 KTM 450 SX-F spec reprint; Dirt Bike Magazine 2022 spec sheet",
+    "url": "https://www.totalmotorcycle.com/motorcycles/2022/2022-ktm-450-sxf",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Secondary reprints of the KTM spec sheet; wheelbase from the magazine spec sheet. Head angle is the same 63.9 deg KTM lists for 2023-2026, so the 2023 frame did not change the published head angle. KTM does not publish trail."
+  },
+  {
+   "id": "cd6-054",
+   "domain": "chassis",
+   "topic": "aftermarket adjustable-offset clamps and stock clamp weight",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450",
+     "Husqvarna FC 350",
+     "Husqvarna FC 250",
+     "GasGas MC 450F",
+     "GasGas MC 350F",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Every KTM, Husqvarna and GasGas motocross bike since 2016 (GasGas since 2021) uses 22 mm clamp offset. One aftermarket set adjusts to 21, 22, 23 or 24 mm and weighs 2,140 g with bar mounts, against 2,229 g for the stock 2026 clamps and 2,300 g for the factory split clamps.",
+   "values": {
+    "stock_offset": "22 mm",
+    "aftermarket_offsets": "21 / 22 / 23 / 24 mm",
+    "aftermarket_weight": "2,140 g with 4-post mounts",
+    "stock_2026_weight": "2,229 g",
+    "factory_split_clamp_weight": "2,300 g",
+    "price": "$999.95 without bar mounts",
+    "older_bike_note": "2016-2022 KTM/Husqvarna and 2021-2023 GasGas need the 2023+ top bearing seal A46001086000"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Luxon MX Gen3 Pro triple clamps product page",
+    "url": "https://www.luxonmx.com/product-luxon-ktm-husqvarna-gasgas-triple-clamps-gen3-pro.html",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Vendor data, including claimed adjustable stiffness (optional lower brace). Weights are the vendor's own scale figures."
+  },
+  {
+   "id": "cd6-055",
+   "domain": "chassis",
+   "topic": "stock clamp feel: CNC vs cast/forged",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "GasGas"
+    ],
+    "models": [
+     "450 SX-F",
+     "GasGas MC 450F",
+     "250 SX-F",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2022,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers find the KTM's machined clamps a little too rigid, while the GasGas uses cheaper non-machined clamps that flex more and pass more feedback to the bars: some call that forgiving, others say it sends more chatter than needed.",
+   "values": {
+    "ktm_2022": "CNC-machined, 'a wee bit too rigid'",
+    "gasgas_2022": "cast clamps, more flex and feedback",
+    "gasgas_2026": "cast clamp and bars transmit more feedback than needed"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2022 450 and 250 Shootouts; Dirt Bike Magazine 2026 450 MX Shootout",
+    "url": "https://www.vitalmx.com/features/2022-Vital-MX-450-Shootout,7557",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Rider impressions. Sources disagree on whether the GasGas clamps are cast or forged (see conflicts). Applies to the 450 and 250F."
+  },
+  {
+   "id": "cd6-056",
+   "domain": "chassis",
+   "topic": "clamp swap tests on the KX450X",
+   "applies_to": {
+    "make": [
+     "Kawasaki"
+    ],
+    "models": [
+     "KX450X"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On the KX450X, the stock clamps felt soft and vague on corner entry. A stiffer upper clamp on the stock lower felt most precise without harshness. A 23 mm set steered sharply but was harsh in braking bumps. A 22 mm flexible set turned easily but felt nervous on fast ground and in sand.",
+   "values": {
+    "stock": "soft, flexy, vague",
+    "stock_lower_plus_aftermarket_upper": "preferred: precise, stable, not harsh",
+    "23mm_aftermarket": "very precise but harsh over chop",
+    "22mm_aftermarket": "nimble, unsettled in sand / high speed"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: Tuned Kawasaki KX450X triple clamp testing",
+    "url": "https://dirtbiketest.com/fresh-dirt/tuned-kawasaki-kx450x-triple-clamp-testing/",
+    "date": "2023-09"
+   },
+   "confidence": "medium",
+   "notes": "Model year not stated in the text; images suggest 2023. Off-road (West Coast) use with stiffer suspension. Stock offset not stated in article."
+  },
+  {
+   "id": "cd6-057",
+   "domain": "chassis",
+   "topic": "KX250 clamps on the 2024 KX450",
+   "applies_to": {
+    "make": [
+     "Kawasaki"
+    ],
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Fitting the stock 2024 KX250 clamps (23 mm offset, different flex) to a 2024 KX450 made the front feel lower and more planted in corners and better over square edges while leaned over, but busier on fast choppy tracks. Running the fork flush in the clamps rebalanced it.",
+   "values": {
+    "kx250_clamp_offset": "23 mm",
+    "fork_height_used": "flush",
+    "cost": "about $695 (stock clamps with stem)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested: Stock 2024 KX250 triple clamps on a 2024 KX450",
+    "url": "https://www.keeferinctesting.com/stock-2024-kx250-triple-clamps-on-a-2024-kx450/",
+    "date": "2024-04"
+   },
+   "confidence": "medium",
+   "notes": "KX450 stock offset not stated in this article. Tester also said the 2024 KX450 generally needs stiffer settings than the 2023."
+  },
+  {
+   "id": "cd6-058",
+   "domain": "chassis",
+   "topic": "24 mm offset clamps on the CRF450R",
+   "applies_to": {
+    "make": [
+     "Honda"
+    ],
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "On 2020-2023 CRF450Rs the stock 22 mm offset can feel twitchy and oversteer; a 24 mm setting gave more control into corners, better lean-angle stability and less deflection in ruts.",
+   "values": {
+    "stock_offset": "22 mm",
+    "tested_offset": "24 mm",
+    "insert_range": "19-25 mm",
+    "weight_saving": "181 g vs 2022 stock"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested: Talon Raptor clamps review (Honda CRF450R)",
+    "url": "https://www.keeferinctesting.com/tag/triple-clamps/feed/",
+    "date": "2023-05"
+   },
+   "confidence": "medium",
+   "notes": "Single aftermarket product with insert-adjustable offset."
+  },
+  {
+   "id": "cd6-059",
+   "domain": "chassis",
+   "topic": "rake-adjust headset cups",
+   "applies_to": {
+    "make": [
+     "Yamaha"
+    ],
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "One race build used offset headset cups to lay the fork out 20 minutes (0.3 degree) for a longer wheelbase and more stability, together with aftermarket engine mounts for bump compliance and lean-angle front feel.",
+   "values": {
+    "rake_change": "+0.3 deg (20 minutes) slacker",
+    "fork_height_limit": "no more than 5 mm up (more caused headshake and oversteer)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "PulpMX Final Draft: 2025 Yamaha YZ450F",
+    "url": "https://pulpmx.com/2025/08/24/final-draft-2025-yamaha-yz450f/",
+    "date": "2025-08"
+   },
+   "confidence": "medium",
+   "notes": "Modified bike with linkage, engine mounts, clutch kit and flywheel weight; effect of the cups alone not isolated."
+  },
+  {
+   "id": "cd6-060",
+   "domain": "chassis",
+   "topic": "2025-2026 optional chassis bolt torques",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Backing several chassis bolts below KTM's torque spec on the 2025 KTMs takes some of the harsh, edgy feel out when leaned over or accelerating, for example swingarm pivot 100 to 90 Nm, top engine hanger 25 to 20 Nm and top clamp pinch bolts 17 to 15 Nm. Check these bolts every other ride.",
+   "values": {
+    "top_engine_hanger": "25 -> 20 Nm",
+    "subframe_top": "35 -> 30 Nm",
+    "subframe_bottom": "30 Nm (no change)",
+    "top_clamp_pinch": "17 -> 15 Nm",
+    "bottom_clamp_pinch": "12 Nm (no change)",
+    "shock_bolts": "60 -> 52 Nm",
+    "rear_axle_nut": "80 -> 75 Nm",
+    "swingarm_pivot": "100 -> 90 Nm",
+    "bottom_engine_bolts": "60 -> 55 Nm",
+    "fork_lug_bolts": "15 Nm (no change)",
+    "pivot_to_axle": "600-606 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested: 2025 KTM 250/350/450 optional torque specs",
+    "url": "https://www.keeferinctesting.com/2025-ktm-250-350-450-optional-torque-specs/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Below OEM spec; the source warns to check bolts for backing out. Stock values as quoted in the article. Source says 2023-2025 KTMs also benefit from aftermarket clamps and engine hangers. Husqvarna/GasGas share the parts but were not named."
+  },
+  {
+   "id": "cd6-061",
+   "domain": "chassis",
+   "topic": "aftermarket aluminum engine mounts",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "GasGas"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Billet aluminum top engine mounts are sold for 2023-2026 KTM SX-Fs and 2023.5-2026 GasGas MC 450F; the maker claims they add torsional flex for a plusher feel and more bump absorption.",
+   "values": {
+    "price": "$449 (2023-2026); $429 for 2019-2022 450 SX-F",
+    "weight": "250 g",
+    "contents": "CNC aluminum top mounts, titanium front engine-mount bolt"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "FCP Racing KTM 450 SX-F 2023-2026 kit",
+    "url": "https://fcpracing.com/product/ktm-450-sx-f-2023-2026/",
+    "date": "2026"
+   },
+   "confidence": "low",
+   "notes": "Vendor claims; no stiffness numbers. A tester also listed these mounts on a 2025 YZ450F race build for bump compliance and lean-angle front feel. Medium/soft aluminum mount tests on the 2023 KTM 450 are in ktm_family_setups.json."
+  },
+  {
+   "id": "cd6-062",
+   "domain": "chassis",
+   "topic": "2022.5-2023 frame details",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F",
+     "250 SX-F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "The frame introduced on the 2022.5 Factory Edition and the 2023 models added a stamped gusset between the down tubes, a forged one-piece head-tube section, forged chromoly engine mounts and forged aluminum head stays, and it was stiffer and needed a longer break-in. KTM shrank the rear axle from 25 to 22 mm to put some flex back into the stiffer swingarm.",
+   "values": {
+    "down_tube_gusset": "stamped steel",
+    "head_tube": "forged one piece",
+    "engine_mounts": "forged chromoly",
+    "head_stays": "forged aluminum",
+    "backbone": "no longer joins shock tower; splits into parallel tubes",
+    "rear_axle": "25 -> 22 mm",
+    "shock_and_spring": "20 mm shorter, 100 g lighter",
+    "linkage_rate": "same rising rate as 2021",
+    "countershaft": "3 mm lower to reduce squat"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 20 innermost secrets of the 2022 KTM 450SXF Factory Edition",
+    "url": "https://motocrossactionmag.com/20-innermost-secrets-of-the-2023-ktm-450sxf/",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Magazine report of factory engineering details. Shared 250/450 frame. 25 mm aftermarket wheels fit with spacers. Shock shortening reported as 20 mm here (corrected from 15 mm); other records say 15 mm (see conflicts)."
+  },
+  {
+   "id": "cd6-063",
+   "domain": "chassis",
+   "topic": "2025 frame and linkage softening details",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "450 SX-F",
+     "Husqvarna FC 450",
+     "GasGas MC 450F",
+     "250 SX-F",
+     "350 SX-F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "For 2025 KTM cut relief holes in the shock tower, thinned the forged head-tube plates and the shock-tower-to-footpeg tubes, opened up the head stays and slimmed the linkage, all to make the chassis absorb more and kick less. The forged engine mounts stayed the same.",
+   "values": {
+    "linkage_arm_height": "16.2 -> 13.6 mm",
+    "linkage_arm_thickness": "-2 mm",
+    "bell_crank_rib_depth": "6.3 -> 5.3 mm",
+    "bell_crank_shock_bolt": "17 -> 15 mm",
+    "bell_crank_other_bolt": "17 -> 14 mm",
+    "engine_mounts": "forged, unchanged",
+    "engine_position": "tilted 2 deg back, 3 mm lower (since 2023)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action race test: 2025 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-ktm-450sxf/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Magazine report of KTM changes. Husqvarna 2025 linkage uses longer arms (lowered chassis); GasGas got a 'more flexible shock linkage' and shock-tower cut-outs (per a 2025 shootout)."
+  },
+  {
+   "id": "cd6-064",
+   "domain": "known_issues",
+   "topic": "chain wearing through the swingarm (2023-2024)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "450 SX-F",
+     "Husqvarna FC 450",
+     "250 SX-F",
+     "350 SX-F"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "Lowering the countershaft sprocket on the 2023 frame made the chain run at a steep angle, so it wore through the swingarm buffer pad and then into the aluminum swingarm. For 2025 KTM shaved the top of the swingarm and fitted a thicker pad.",
+   "values": {
+    "cause": "countershaft 3 mm lower, steeper chain line",
+    "fix_2025": "swingarm top shaved, thicker buffer pad"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action race test: 2025 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-ktm-450sxf/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "On 2023-2024 bikes, check the chain slider pad often and replace it before the chain reaches the swingarm. GasGas got the new chassis for 2024, so the GasGas exposure is mainly 2024."
+  },
+  {
+   "id": "cd6-065",
+   "domain": "chassis",
+   "topic": "steel frame flex: tester views",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas",
+     "Yamaha",
+     "Honda",
+     "Kawasaki"
+    ],
+    "models": [
+     "250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F",
+     "YZ250F",
+     "CRF250R",
+     "KX250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "In a 2022 250 test, the KTM-family steel frames gave more compliance but the KTM itself still felt fairly stiff, and the GasGas was the most forgiving at some cost to precision. The Honda felt rigid, the Yamaha's aluminum frame had good flex, and testers split on whether the Kawasaki was too rigid or too flexy in chop.",
+   "values": {
+    "ktm": "steel, fairly stiff",
+    "gasgas": "most forgiving, less precise",
+    "honda": "rigid, wants more comfort",
+    "yamaha": "aluminum with good compliance",
+    "kawasaki": "split opinions"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2022 250 Shootout",
+    "url": "https://www.vitalmx.com/features/2022-Vital-MX-250-Shootout,7613",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Rider impressions. Chassis tuning tools named: clamps, torque specs, engine hangers."
+  },
+  {
+   "id": "cd6-066",
+   "domain": "chassis",
+   "topic": "2026 TF 450-X chassis and clutch changes",
+   "applies_to": {
+    "make": [
+     "Triumph"
+    ],
+    "models": [
+     "TF 450-X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Triumph fitted new engine mounts tuned for a more refined chassis feel, a steel clutch basket, a high-capacity Exedy hub and a Belleville spring to the 2026 TF 450-X. Geometry stays 27.4 deg rake, 116 mm trail and 1,492 mm wheelbase.",
+   "values": {
+    "engine_mounts": "new, retuned",
+    "clutch_basket": "steel",
+    "clutch_hub": "high-capacity Exedy",
+    "clutch_spring": "Belleville",
+    "rake": "27.4 deg",
+    "trail": "116 mm",
+    "wheelbase": "1,492 mm",
+    "wet_weight_claim": "108.3 kg (239.4 lb), fuel state not given",
+    "chain": "D.I.D 520 SDH",
+    "sprockets": "JT lightweight"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph media kit: 2026 TF 450-X",
+    "url": "https://triumph-mediakits.com/en/all-motorcycles/motocross-and-enduro/2026-tf-450-x.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "A 2026 comparison test found the frame has about the right amount of flex and noted the upgraded mounts and clutch."
+  },
+  {
+   "id": "cd6-067",
+   "domain": "suspension",
+   "topic": "aftermarket linkage for 2023+ KTM-family big bikes",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "GasGas",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "GasGas MC 450F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "An aftermarket linkage for 2023-2024 KTM big bikes turns the stock fairly flat rising rate around: plusher early, firmer deep in the stroke. It needs a shock spring about 0.4 N/mm stiffer (4.0 to 4.4), gives more hard-pack corner traction and chop absorption, and fixes bottoming late in the stroke.",
+   "values": {
+    "price": "$455",
+    "spring_change": "+0.4 (e.g. 4.0 -> 4.4)",
+    "ride_height": "same static; feels slightly lower on track",
+    "best_for": "vet/novice, hard-pack; pros kept stock on soft tacky dirt"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action team tested: 2023-24 KTM Pro Circuit shock linkage",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-pro-circuit-ktm-husky-shock-linkage/",
+    "date": "2023-06"
+   },
+   "confidence": "medium",
+   "notes": "Fitment named: 2023 KTM big bikes, 2023.5 GasGas Factory Edition, Husqvarna FC 450 Rockstar Edition, 2024 GasGas big bikes. Spring units as printed (likely kg/mm-style shorthand for 40 -> 44 N/mm)."
+  },
+  {
+   "id": "cd6-068",
+   "domain": "suspension",
+   "topic": "lower-friction linkage (2025-2026)",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The newer KTM shock linkage has less friction, so testers add one or two clicks of shock compression to get the same feel.",
+   "values": {
+    "compression_change": "1-2 clicks in"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action race test: 2026 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2026-ktm-450sxf/",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Same test lists shock spring 45 N/mm (175 lb and up) or 42 N/mm (under 175 lb); stock went from 48 to 45 N/mm."
+  },
+  {
+   "id": "cd6-069",
+   "domain": "suspension",
+   "topic": "linkage and shock mod (2021-2022 CRF450R)",
+   "applies_to": {
+    "make": [
+     "Honda"
+    ],
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "An aftermarket linkage and shock re-valve on the 2021-2022 CRF450R kept rear ride height the same but cured the stink-bug feel into corners, cut harshness on acceleration chop and kept the bike flatter over braking bumps. It runs best at 105-106 mm sag with the normal spring for the rider's weight.",
+   "values": {
+    "linkage_price": "$455",
+    "sag": "105-106 mm",
+    "ride_height": "unchanged",
+    "spring": "same rate as normally recommended"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested: Factory Connection linkage/shock modification (2021-2022 CRF450R)",
+    "url": "https://www.keeferinctesting.com/factory-connection-linkage-shock-modification-2021-2022-honda-crf450r/",
+    "date": "2022-08"
+   },
+   "confidence": "medium",
+   "notes": "Maker did not disclose the rod length or rate change. Reduced but did not remove the stiff chassis feel."
+  },
+  {
+   "id": "cd6-070",
+   "domain": "suspension",
+   "topic": "pull-rod length tests (2021 CRF450R)",
+   "applies_to": {
+    "make": [
+     "Honda"
+    ],
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "A factory-supported team tested pull rods that lowered the rear 0.5, 1.0 and 1.5 mm on the 2021 CRF450R; both riders picked the 0.5 mm option for a lower rear feel and less wallow in rollers.",
+   "values": {
+    "options_tested": "0.5 / 1.0 / 1.5 mm lower",
+    "chosen": "0.5 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "race team",
+    "name": "KroozTune: Honda CRF450R 2021 linkage tested with factory Honda Australia",
+    "url": "https://krooztune.com/blogs/krooztune-setup/honda-crf450r-2021-linkage-tested-with-factory-honda-aus",
+    "date": "2020-12"
+   },
+   "confidence": "medium",
+   "notes": "Honda's 2025 update lengthened the pull rods by 0.5 mm (see honda450.json), the same direction."
+  },
+  {
+   "id": "cd6-071",
+   "domain": "chassis",
+   "topic": "rear axle position and chain slack (2019-2022 450 SX-F)",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "On the 2019-2022 450 SX-F a tester moved the axle from about 608 mm to 595 mm from the swingarm pivot, which gave more front grip out of corners and less squat on acceleration. Being 2-3 mm off is fine, but 10 mm changes the bike's character. Chain slack worked best at 65-68 mm: 60 mm felt harsh, over 68 mm felt disconnected.",
+   "values": {
+    "pivot_to_axle_before": "about 608 mm",
+    "pivot_to_axle_recommended": "595 mm",
+    "tolerance": "2-3 mm fine; 10 mm changes character",
+    "chain_slack_target": "65-68 mm",
+    "chain_slack_60mm": "harsh, packs",
+    "chain_slack_over_68mm": "less throttle connection",
+    "fork_height_paired": "5 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested: KTM 450 SX-F chain and axle position tips",
+    "url": "https://www.keeferinctesting.com/2021-9-18-ktm-450-sx-f-chain-and-axle-position-tips/",
+    "date": "2021-09"
+   },
+   "confidence": "medium",
+   "notes": "Stock gearing; model year not stated (article Sept 2021, so 2021/2022 bike). Measured centre of pivot bolt to centre of axle. For 2025 the same source suggests 600-606 mm (cd6 optional-torque record)."
+  },
+  {
+   "id": "cd6-072",
+   "domain": "chassis",
+   "topic": "what moving the axle back does",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Moving the rear axle back makes the shock feel softer, because the swingarm has more leverage on it, so you may need more compression. It also lengthens the wheelbase and puts more weight on the front tire, which improves high-speed stability but can slow cornering. The 2019 swingarm was 5 mm longer than before.",
+   "values": {
+    "shock_feel": "softer (more leverage)",
+    "wheelbase": "longer",
+    "front_weight": "more",
+    "stability": "better",
+    "cornering": "may slow",
+    "swingarm_2019_change": "+5 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: The long and short of moving your KTM axle rearward",
+    "url": "https://motocrossactionmag.com/ask-the-mxperts-the-long-and-short-of-moving-your-ktm-axle-rearward/",
+    "date": "2019-05"
+   },
+   "confidence": "medium",
+   "notes": "Written about the 2018.5 Factory Edition and 2019 450 SX-F; the principles apply to any linkage bike."
+  },
+  {
+   "id": "cd6-073",
+   "domain": "chassis",
+   "topic": "sprocket size moves the axle (TF 250-X)",
+   "applies_to": {
+    "make": [
+     "Triumph"
+    ],
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "On the TF 250-X a 51-tooth rear sprocket pulled the axle too far forward on the stock chain, so a longer chain is needed above 50 teeth; testers settled on 49 or 50.",
+   "values": {
+    "stock": "13/48",
+    "49T": "preferred by intermediate/pro",
+    "50T": "novice sweet spot",
+    "51T": "axle too far forward, needs longer chain"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action race test: 2025 Triumph TF250-X",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-triumph-tf250-x/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Each rear tooth moves the axle about half a chain pitch (about 8 mm) forward on a fixed chain (BAK note: 520 chain pitch 15.875 mm; one extra tooth wraps about half a pitch more chain)."
+  },
+  {
+   "id": "cd6-074",
+   "domain": "setups",
+   "topic": "tester gearing choice",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "On the 2020-2022 450 SX-F (stock 13/49) a tester's pick was 14/52, to settle the rear out of corners and over square-edge and braking bumps and smooth the 2nd-to-3rd change. The 2022 Factory Edition (13/51) went to 13/52.",
+   "values": {
+    "stock": "13/49 (3.769)",
+    "choice": "14/52 (3.714, about 1.5% taller)",
+    "factory_edition_2022": "13/51 -> 13/52"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested / PulpMX MX gearing guides 2020-2022",
+    "url": "https://www.keeferinctesting.com/2022-mx-gearing-guide-updated/",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Same choice in the 2020, 2021 and 2022 guides (https://pulpmx.com/2020/01/08/157969/, https://pulpmx.com/2021/05/13/2021-mx-gearing-set-up-guide-updated/). Stock or muffler-only engines."
+  },
+  {
+   "id": "cd6-075",
+   "domain": "setups",
+   "topic": "tester gearing choice",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "On the 2023-2025 450 SX-F (stock 13/51) one tester first tried 13/52 but it did not help 3rd gear enough. In 2023 and 2024 they ran slightly taller (13/50 or 14/50) to stay in 2nd and 3rd longer, and by 2025 they kept stock 13/51 because the long 2nd gear works, with 13/52 as an option for soft East Coast dirt.",
+   "values": {
+    "stock": "13/51 (3.923)",
+    "2023_choice": "13/50 (3.846)",
+    "2024_choice": "14/50 (3.571)",
+    "2025_choice": "13/51 stock; 13/52 (4.000) for soft dirt"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested MX gearing guides 2023-2025",
+    "url": "https://www.keeferinctesting.com/2025-mx-gearing-guide/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "2023 guide https://www.keeferinctesting.com/2023-mx-gearing-spec-guide/; 2024 guide https://www.keeferinctesting.com/2024-mx-gearing-guide/ lists stock as 14/51, which disagrees with KTM's 13/51 (see conflicts). Husqvarna FC 450 got identical advice."
+  },
+  {
+   "id": "cd6-076",
+   "domain": "setups",
+   "topic": "tester gearing choice",
+   "applies_to": {
+    "make": [
+     "Husqvarna"
+    ],
+    "models": [
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "The Husqvarna FC 450 gets the same gearing as the KTM: 14/52 instead of stock 13/49 on 2020-2022 bikes, then 13/50 in 2023-2024 and stock 13/51 in 2025 (13/52 for soft dirt).",
+   "values": {
+    "2020_2022": "13/49 -> 14/52",
+    "2023": "13/51 -> 13/50",
+    "2024": "13/51 -> 13/50",
+    "2025": "13/51 stock; 13/52 soft dirt"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested / PulpMX MX gearing guides 2020-2025",
+    "url": "https://www.keeferinctesting.com/2025-mx-gearing-guide/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Stock or muffler-only engines."
+  },
+  {
+   "id": "cd6-077",
+   "domain": "setups",
+   "topic": "tester gearing choice",
+   "applies_to": {
+    "make": [
+     "GasGas"
+    ],
+    "models": [
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "On the GasGas MC 450F a tester's pick every year has been 14/52, to calm the rear out of corners and smooth the 2nd-to-3rd shift on exits.",
+   "values": {
+    "stock_listed": "13/49",
+    "choice": "14/52"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested / PulpMX MX gearing guides 2021-2025",
+    "url": "https://www.keeferinctesting.com/2025-mx-gearing-guide/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "The guides list stock as 13/49 for every year including 2024-2025 on the new chassis; BAK should confirm stock from the GasGas manual."
+  },
+  {
+   "id": "cd6-078",
+   "domain": "setups",
+   "topic": "tester gearing choice",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "250 SX-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "On the 250 SX-F (stock 14/51) a tester's pick is one tooth up to 14/52 for better 3rd-gear drive out of corners in soft dirt, with little loss in 2nd. They keep stock on hard pack. In 2020 they went two teeth up to 14/53.",
+   "values": {
+    "stock": "14/51 (3.643)",
+    "choice_2021_2025": "14/52 (3.714)",
+    "choice_2020": "14/53 (3.786)",
+    "hard_pack": "stock"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested / PulpMX MX gearing guides 2020-2025",
+    "url": "https://www.keeferinctesting.com/2025-mx-gearing-guide/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Husqvarna FC 250 and GasGas MC 250F got 14/52 too."
+  },
+  {
+   "id": "cd6-079",
+   "domain": "setups",
+   "topic": "tester gearing choice",
+   "applies_to": {
+    "make": [
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "The Husqvarna FC 250 and GasGas MC 250F go one tooth up, from stock 14/51 to 14/52, to settle the rear end and help the 2nd-to-3rd shift on corner exits. Testers keep stock on hard pack.",
+   "values": {
+    "stock_listed": "14/51",
+    "choice": "14/52"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested / PulpMX MX gearing guides 2020-2025",
+    "url": "https://www.keeferinctesting.com/2025-mx-gearing-guide/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "GasGas MC 250F stock listed as 14/51 in these guides; another file records a 52T stock rear for 2024-2025 (see conflicts)."
+  },
+  {
+   "id": "cd6-080",
+   "domain": "setups",
+   "topic": "tester gearing choice",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "350 SX-F",
+     "Husqvarna FC 350",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "On the 350s a tester went from 14/51 to 14/53 on the 2020-2022 KTM, or 14/52 on the Husqvarna, and keeps the 2023-2025 KTM and Husqvarna at stock 14/52. The GasGas MC 350F (listed 14/51) goes to 14/52.",
+   "values": {
+    "ktm_2020_2022": "14/51 -> 14/53",
+    "husqvarna_2020_2022": "14/51 -> 14/52",
+    "ktm_husqvarna_2023_2025": "14/52 stock, no change",
+    "gasgas_2023_2025": "14/51 -> 14/52"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested / PulpMX MX gearing guides 2020-2025",
+    "url": "https://www.keeferinctesting.com/2025-mx-gearing-guide/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "No reason given for keeping 2023+ stock."
+  },
+  {
+   "id": "cd6-081",
+   "domain": "setups",
+   "topic": "tester gearing choice",
+   "applies_to": {
+    "make": [
+     "Triumph"
+    ],
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "On the TF 250-X (stock 13/48) testers go to 13/49 for better 3rd-gear recovery, so 3rd can be used earlier or held longer. Novices like 13/50.",
+   "values": {
+    "stock": "13/48 (3.692)",
+    "choice": "13/49 (3.769)",
+    "novice": "13/50 (3.846)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested 2025 MX gearing guide; Motocross Action 2025 TF250-X race test",
+    "url": "https://www.keeferinctesting.com/2025-mx-gearing-guide/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Two sources agree on 49T for faster riders."
+  },
+  {
+   "id": "cd6-082",
+   "domain": "setups",
+   "topic": "tester gearing choice",
+   "applies_to": {
+    "make": [
+     "Triumph"
+    ],
+    "models": [
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On the TF 450-RC (stock 48T rear) testers fitted a 49 with a longer chain for fast and heavier (about 195 lb) riders to close the 2nd-to-3rd gap, and a 50 for riding at 8,000 ft altitude.",
+   "values": {
+    "stock_rear": "48T",
+    "fast_or_195lb": "49T + longer chain",
+    "altitude_8000ft": "50T"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: 20-hour test Triumph TF450-RC",
+    "url": "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Altitude cuts power, so lower gearing makes up for it."
+  },
+  {
+   "id": "cd6-083",
+   "domain": "setups",
+   "topic": "tester gearing choice",
+   "applies_to": {
+    "make": [
+     "Yamaha"
+    ],
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "On 2020-2022 YZ450Fs (stock 13/49) a tester's alternative is 14/53, which settles the chassis on acceleration, calms it on deceleration and keeps 3rd usable on most tracks.",
+   "values": {
+    "stock": "13/49 (3.769)",
+    "alternative": "14/53 (3.786)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested / PulpMX MX gearing guides 2020-2022",
+    "url": "https://www.keeferinctesting.com/2022-mx-gearing-guide-updated/",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Paired with Power Tuner maps in the source."
+  },
+  {
+   "id": "cd6-084",
+   "domain": "setups",
+   "topic": "tester gearing choice",
+   "applies_to": {
+    "make": [
+     "Yamaha"
+    ],
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "On 2023-2025 YZ450Fs (stock 13/49) a tester runs 13/50 on deep East Coast dirt to recover 2nd and get into 3rd sooner. They suggest 14/52 for a smoother roll-on and less chain bind under load, and stock for West Coast hard pack. Another builder chose the opposite: 14/52 in the West and 13/49 in the East.",
+   "values": {
+    "stock": "13/49",
+    "deep_dirt": "13/50",
+    "smooth_option": "14/52",
+    "other_builder": "14/52 west, 13/49 east"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested MX gearing guides 2023-2025; PulpMX Final Draft 2025 YZ450F",
+    "url": "https://www.keeferinctesting.com/2025-mx-gearing-guide/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "See conflicts for the opposite East/West preference."
+  },
+  {
+   "id": "cd6-085",
+   "domain": "setups",
+   "topic": "tester gearing choice",
+   "applies_to": {
+    "make": [
+     "Yamaha"
+    ],
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "On 2020-2023 YZ250Fs a tester keeps stock 13/50 and adjusts power with the ECU map instead.",
+   "values": {
+    "stock": "13/50",
+    "choice": "13/50"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested / PulpMX MX gearing guides 2020-2023",
+    "url": "https://www.keeferinctesting.com/2023-mx-gearing-spec-guide/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "2021 guide lists 13/50 and 13/51 as stock. 2024-2025 13/49 advice is already in yamaha_250f_2t.json."
+  },
+  {
+   "id": "cd6-086",
+   "domain": "setups",
+   "topic": "tester gearing choice",
+   "applies_to": {
+    "make": [
+     "Honda"
+    ],
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "A tester ran 14/52 on the 2020 CRF450R to free up the rear over bumps. On 2021 and later CRF450Rs they stay with a 13T countershaft sprocket, because a 14T sits too close to the hydraulic clutch slave cylinder: 13/49 stock, 13/50 in 2024-2025 to help it pull in a higher gear.",
+   "values": {
+    "2020": "13/49 -> 14/52",
+    "2021_2022": "13/49 stock (14T too close to slave cylinder)",
+    "2023_2024": "13/49-50",
+    "2025": "13/50"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested / PulpMX MX gearing guides 2020-2025",
+    "url": "https://www.keeferinctesting.com/2025-mx-gearing-guide/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "The slave-cylinder clearance problem on 2021+ bikes is the key fact: avoid 14T fronts."
+  },
+  {
+   "id": "cd6-087",
+   "domain": "setups",
+   "topic": "tester gearing choice",
+   "applies_to": {
+    "make": [
+     "Honda"
+    ],
+    "models": [
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "On 2020-2021 CRF250Rs (stock 13/48) a tester went to 13/49 or 13/50 because 2nd and 3rd felt too close. On 2022-2025 bikes (stock 13/50) they run 13/51 to get into 3rd earlier, with stock fine on flowing tracks. The 2025 Works Edition stays at 13/50 unless the rider weighs over 190 lb.",
+   "values": {
+    "2020_2021": "13/48 -> 13/49 or 13/50",
+    "2022_2025": "13/50 -> 13/51",
+    "works_edition_2025": "13/50 (13/51 over 190 lb)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested / PulpMX MX gearing guides 2020-2025",
+    "url": "https://www.keeferinctesting.com/2025-mx-gearing-guide/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "cd6-088",
+   "domain": "setups",
+   "topic": "tester gearing choice",
+   "applies_to": {
+    "make": [
+     "Kawasaki"
+    ],
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "On the KX450 (stock 13/50) a tester usually runs 13/51 so 3rd pulls out of corners without heavy clutch use. On the 2024 they kept stock because 13/51 did not help bottom end and shortened the useful long 2nd gear, then went back to 13/51 in 2025.",
+   "values": {
+    "stock": "13/50",
+    "2020_2023": "13/51",
+    "2024": "13/50 (13/51 rejected)",
+    "2025": "13/51"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested / PulpMX MX gearing guides 2020-2025",
+    "url": "https://www.keeferinctesting.com/2025-mx-gearing-guide/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "See conflicts for 2024 vs 2025."
+  },
+  {
+   "id": "cd6-089",
+   "domain": "setups",
+   "topic": "tester gearing choice",
+   "applies_to": {
+    "make": [
+     "Kawasaki"
+    ],
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "On the KX250 (stock 13/50) a tester kept stock through 2022, then ran 13/51 from 2023 for 3rd-gear roll-on. On the 2025, the new airbox costs some bottom-end pickup, and the extra tooth gets back into the power sooner.",
+   "values": {
+    "stock": "13/50",
+    "2020_2022": "13/50",
+    "2023_2025": "13/51"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested / PulpMX MX gearing guides 2020-2025",
+    "url": "https://www.keeferinctesting.com/2025-mx-gearing-guide/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "cd6-090",
+   "domain": "setups",
+   "topic": "gearing for sand",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas",
+     "Triumph",
+     "Yamaha",
+     "Honda",
+     "Kawasaki"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450",
+     "Husqvarna FC 350",
+     "Husqvarna FC 250",
+     "GasGas MC 450F",
+     "GasGas MC 350F",
+     "GasGas MC 250F",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-X",
+     "YZ450F",
+     "YZ250F",
+     "CRF450R",
+     "CRF250R",
+     "KX450",
+     "KX250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Race teams usually add one rear tooth for sand (for example 50 to 51) so the engine pulls out of deep corners, and accept a little more shifting. They also add a few clicks of compression for the bigger sand bumps.",
+   "values": {
+    "rear_sprocket": "+1 tooth (e.g. 50 -> 51)",
+    "suspension": "a few clicks stiffer",
+    "tires": "hard-pack front with sand rear if the base is hard"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Racer X: The Breakdown: Walker on Sand",
+    "url": "https://racerxonline.com/2012/08/17/the-breakdown-walker-on-sand",
+    "date": "2012-08"
+   },
+   "confidence": "medium",
+   "notes": "General team practice, not model-specific; older article. A 2022 technical article agrees: deep sand or disced dirt calls for an extra rear tooth. A 2019 forum thread on a 250 two-stroke showed no agreement (one rider went taller to 48T to hold 3rd), so it depends on the bike's power."
+  },
+  {
+   "id": "cd6-091",
+   "domain": "setups",
+   "topic": "gearing by track type",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas",
+     "Triumph",
+     "Yamaha",
+     "Honda",
+     "Kawasaki"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450",
+     "Husqvarna FC 350",
+     "Husqvarna FC 250",
+     "GasGas MC 450F",
+     "GasGas MC 350F",
+     "GasGas MC 250F",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-X",
+     "YZ450F",
+     "YZ250F",
+     "CRF450R",
+     "CRF250R",
+     "KX450",
+     "KX250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "One technical column suggests 1-2 extra rear teeth for supercross-style tracks (stock 50 to 51-52 on a KX450) for instant acceleration, one tooth less (49) for wide-open motocross tracks, and 2-3 fewer (47-48) or a 14T front for desert. Hard pack can like taller gearing because a softer hit spins the tire less.",
+   "values": {
+    "supercross_style": "+1 to +2 rear teeth",
+    "fast_open_mx": "-1 rear tooth",
+    "desert": "-2 to -3 rear or +1 front",
+    "hard_pack": "taller to reduce wheelspin",
+    "altitude": "lower"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Gearing 101 (Mr. Know-It-All); Motocross Action Tech Spec on sprockets",
+    "url": "https://dirtbikemagazine.com/mr-know-it-all-july-2025/",
+    "date": "2025-07"
+   },
+   "confidence": "medium",
+   "notes": "Worked example was a 2025 KX450 (13/50); the logic is general. Bigger rear sprockets may need a longer chain. Arenacross-specific numbers not found."
+  },
+  {
+   "id": "cd6-092",
+   "domain": "setups",
+   "topic": "supercross vs motocross setup (factory view)",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F",
+     "250 SX-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "KTM says its factory supercross bikes are geared differently from motocross bikes, use firmer and more rigid suspension settings with the same hardware, and run stronger rims and hubs for big jumps.",
+   "values": {
+    "gearing": "different (numbers not published)",
+    "suspension": "firmer settings, same hardware",
+    "wheels": "stronger rims and hubs"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM: From the deepest rut to the stadium floor",
+    "url": "https://www.ktm.com/en-int/ktm-world/stories/from-the-deepest-rut-to-the-stadium-floor.html",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Qualitative only; no sprocket numbers published."
+  },
+  {
+   "id": "cd6-093",
+   "domain": "drivetrain",
+   "topic": "gear ratio comparison of common sprocket combos",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas",
+     "Triumph",
+     "Yamaha",
+     "Honda",
+     "Kawasaki"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450",
+     "Husqvarna FC 350",
+     "Husqvarna FC 250",
+     "GasGas MC 450F",
+     "GasGas MC 350F",
+     "GasGas MC 250F",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-X",
+     "YZ450F",
+     "YZ250F",
+     "CRF450R",
+     "CRF250R",
+     "KX450",
+     "KX250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Common combos ranked from tall to short: 14/50 3.571, 14/51 3.643, 13/48 3.692, 14/52 3.714, 13/49 3.769, 14/53 3.786, 13/50 3.846, 13/51 3.923, 13/52 4.000. So 14/52 is about 5% taller than KTM's stock 13/51, and 14/53 is almost the same as 13/49.",
+   "values": {
+    "14/50": "3.571",
+    "14/51": "3.643",
+    "13/48": "3.692",
+    "14/52": "3.714",
+    "13/49": "3.769",
+    "14/53": "3.786",
+    "13/50": "3.846",
+    "13/51": "3.923",
+    "13/52": "4.000",
+    "front_tooth_equivalent": "one front tooth = rear teeth / 14, about 3.5 (49T) to 3.7 (52T) rear teeth"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK calculation",
+    "url": "",
+    "date": "2026-10"
+   },
+   "confidence": "high",
+   "notes": "Ratio = rear teeth / front teeth. Going from 13 to 14 front at rear R gives ratio R/14; the same ratio on a 13 front needs 13R/14 rear teeth, so the step is R/14 teeth (49/14 = 3.5; 51/14 = 3.64; 52/14 = 3.71). Magazines quote 'about 3' (one) or '2.5-3' (another); the true figure at MX gearing is about 3.5-3.7. 13/51 -> 14/52: 3.923 / 3.714 = 1.056, so 5.3% taller."
+  },
+  {
+   "id": "cd6-094",
+   "domain": "drivetrain",
+   "topic": "countershaft size and chassis feel",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas",
+     "Triumph",
+     "Yamaha",
+     "Honda",
+     "Kawasaki"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450",
+     "Husqvarna FC 350",
+     "Husqvarna FC 250",
+     "GasGas MC 450F",
+     "GasGas MC 350F",
+     "GasGas MC 250F",
+     "TF 450-X",
+     "TF 450-RC Edition",
+     "TF 250-X",
+     "YZ450F",
+     "YZ250F",
+     "CRF450R",
+     "CRF250R",
+     "KX450",
+     "KX250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Testers often move to a 14T countershaft with a bigger rear sprocket (e.g. 14/52 instead of 13/49) because it settles the rear on acceleration and braking bumps. One rider reports a smaller countershaft adds squat and makes the bike easier to loft or seat-bounce. Small countershafts also wear chains faster, so going one tooth bigger in front and about three bigger at the back is common.",
+   "values": {
+    "tester_choice": "14T front + bigger rear to calm the rear",
+    "small_countershaft": "more squat (single rider report), faster chain wear",
+    "chain": "bigger combo needs a longer chain"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: Help settle a sprocket debate; Motocross Action gearing article",
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Help-settle-a-sprocket-debate,1364920",
+    "date": "2019-09"
+   },
+   "confidence": "low",
+   "notes": "The squat effect comes from one poster; most posters said the chain-wear difference is small. Do not use 14T on 2021+ CRF450R (slave cylinder clearance). KTM lowered its countershaft 3 mm in 2023 for the same anti-squat reason."
+  },
+  {
+   "id": "cd6-095",
+   "domain": "drivetrain",
+   "topic": "clutch robustness by brand",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "450 SX-F",
+     "Husqvarna FC 450",
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The KTM and Husqvarna 450s have the most robust clutch in the class, with a one-piece machined steel basket and machined-in primary gear, and the factory teams race the stock clutch. The GasGas uses cheaper BrakTec hydraulics; they improved for 2025 but still rate below the Brembo parts.",
+   "values": {
+    "ktm_husqvarna_basket": "one-piece CNC steel, machined-in primary gear",
+    "gasgas_hydraulics": "BrakTec (improved 2025)",
+    "ktm_husqvarna_hydraulics": "Brembo"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action 2025 450 four-stroke shootout",
+    "url": "https://motocrossactionmag.com/2025-mxa-450-four-stroke-shootout-suzuki-honda-gasgas-kawasaki-husqvarna-ktm-yamaha/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Another 2025 test rated the Husqvarna's Brembo clutch best in class (Cycle News)."
+  },
+  {
+   "id": "cd6-096",
+   "domain": "drivetrain",
+   "topic": "clutch feel (Austrian bikes, earlier years)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "250 SX-F",
+     "Husqvarna FC 250",
+     "450 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Testers called the 2021-2022 KTM-family hydraulic clutches a little on/off or vague in feel. Husqvarna used Magura parts then, and at least one tester preferred them to KTM's Brembo. Most rated Kawasaki's hydraulic clutch the best feeling.",
+   "values": {
+    "ktm_feel": "slightly on/off",
+    "husqvarna_actuation": "Magura (pre-2025)",
+    "ktm_actuation": "Brembo"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX 2021 and 2022 250 Shootouts",
+    "url": "https://www.vitalmx.com/features/2021-Vital-MX-250-Shootout-Full-Test,7187",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Rider impressions. Husqvarna switched to Brembo for 2025 (ktm350f.json)."
+  },
+  {
+   "id": "cd6-097",
+   "domain": "drivetrain",
+   "topic": "stiffer stock-option clutch spring",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "450 SX-F",
+     "Husqvarna FC 450",
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "KTM's heavier '280' Belleville clutch spring (part 78932005000) comes stock on Factory Edition 450 SX-Fs since 2013 and is a common way to stop slip. Check the hub rubber dampers every 20 hours on SX-F models.",
+   "values": {
+    "stiffer_spring_part": "78932005000 ('280' spring)",
+    "damper_check_interval_SXF": "20 h (30 h XC/EXC/XC-W)",
+    "damper_kit_aftermarket": "RMS-0213080"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "tuner",
+    "name": "Rekluse installation guide 191-6301 (KTM DDS clutch)",
+    "url": "https://www.rekluse.com/wp-content/uploads/2024/04/RMS-8313086.pdf",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Fitment of the 280 spring to 2023+ engines not confirmed by this source; check the KTM parts catalog. The stiffer spring increases lever effort."
+  },
+  {
+   "id": "cd6-098",
+   "domain": "engine_mods",
+   "topic": "aftermarket clutch packs for KTM-family 450s",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "450 SX-F",
+     "Husqvarna FC 450",
+     "GasGas MC 450F",
+     "250 SX-F",
+     "350 SX-F",
+     "Husqvarna FC 250",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A thin-plate friction pack (more discs in the stock basket) is sold for 2013-2026 KTM 450 SX-Fs with a claimed 25% more torque capacity and 10% lighter pull. A complete kit with a steel-pin hub, billet pressure plate and cover is sold for 2023+ 250/350 SX-F and FC models.",
+   "values": {
+    "torqdrive_pack": "RMS-2813086, $379, KTM 450 SX-F 2013-2026",
+    "claimed_capacity": "+25% torque capacity",
+    "claimed_lever_pull": "-10%",
+    "apex_kit": "RMS-7413198, $1,259, 2023+ 250/350 SX-F, FC 250/350, FC 450 Rockstar 2022",
+    "hinson_plate_spring_kits": "$199.99-299.99 (FSC series)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Rekluse product pages and dealer listings",
+    "url": "https://www.rekluse.com/product/manual-clutches/apex/apex-clutch-husqvarna-fc-450-rockstar-edition-2022/",
+    "date": "2026"
+   },
+   "confidence": "low",
+   "notes": "Vendor claims, no independent test found for the KTM fitment. Rekluse auto-clutch setup: 3-6 mm free-play gain at about 5,000 rpm, no 3rd-gear starts during break-in. Fitment tables on vendor pages are inconsistent; confirm by part number. Dealer listing: https://motohousemx.com/products/rekluse-racing-torqdrive-clutch-pack-2013-2020-ktm-450-sx-f-rms-2813086"
+  },
+  {
+   "id": "cd6-099",
+   "domain": "known_issues",
+   "topic": "clutch slip and drag causes (owner reports)",
+   "applies_to": {
+    "make": [
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Owners with slipping or dragging KTM clutches point to a few causes: Belleville spring set flatter than the factory position (burnt plates), very short levers, worn hub rubber dampers and warped pressure plates. No single cause was agreed.",
+   "values": {
+    "spring_setting": "factory position 2 worked; flat burnt plates",
+    "levers": "shorty levers blamed",
+    "dampers": "replace when worn"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: KTM clutch observation/issue",
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/KTM-Clutch-Observation-Issue-Anyone-Else,1382425",
+    "date": "2020-10"
+   },
+   "confidence": "low",
+   "notes": "Thread covered a 2019 450 SX-F plus other KTMs; about 15 posters, no consensus."
+  },
+  {
+   "id": "cd6-100",
+   "domain": "known_issues",
+   "topic": "TF 250-X clutch fix and basket design",
+   "applies_to": {
+    "make": [
+     "Triumph"
+    ],
+    "models": [
+     "TF 250-X",
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "Triumph issued a free fix for 2024 TF 250-X clutches: a new basket with oil and heat holes, new fiber plates and a new clutch sensor. The 250's basket is aluminum with a riveted primary gear, while the 2025 TF 450-RC uses a steel basket.",
+   "values": {
+    "fix_2024": "new basket with oil/heat holes, new fiber plates, new clutch sensor",
+    "basket_250": "aluminum, riveted primary",
+    "basket_450RC": "steel",
+    "actuation": "Brembo hydraulic, Belleville spring"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action race test: 2025 Triumph TF250-X",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-triumph-tf250-x/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Magazine report of the Triumph fix; testers had no failures but knew riders who broke plates. On the 450-RC a 20-hour test found engagement a little long, and a Hinson kit added bite (kit already in triumph_gapfill.json)."
+  },
+  {
+   "id": "cd6-101",
+   "domain": "known_issues",
+   "topic": "KX450 clutch fade and upgrades (2024-2026)",
+   "applies_to": {
+    "make": [
+     "Kawasaki"
+    ],
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2024-2026 KX450 clutch fades with light abuse and its engagement can drift mid-moto, partly because the steel plates notch the aluminum hub. A five-coil-spring replacement clutch and a steel-pin-hub kit both gave consistent engagement with no fade in deep sand.",
+   "values": {
+    "hinson_small_diameter": "HC663-2102, $1,224.99, 5 coil springs (stock single spring)",
+    "rekluse_apex": "$1,199.99, fixed-pin steel-on-steel hub, TorqDrive pack",
+    "stock_failure_mode": "hub notching, fade, vague lever"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested: Hinson small diameter clutch and Rekluse APEX reviews (2024-2026 KX450)",
+    "url": "https://www.keeferinctesting.com/hinson-racing-small-diameter-clutch-for-2024-2026-kx450/",
+    "date": "2026-02"
+   },
+   "confidence": "medium",
+   "notes": "Rekluse review: https://www.keeferinctesting.com/rekluse-apex-clutch-system-review-2024-2026-kawasaki-kx450/ . No hour counts given. Plate life about 20 h is in kawasaki.json."
+  },
+  {
+   "id": "cd6-102",
+   "domain": "drivetrain",
+   "topic": "CRF450R clutch consistency fix",
+   "applies_to": {
+    "make": [
+     "Honda"
+    ],
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Testers found the 2025 CRF450R hydraulic clutch inconsistent on starts; some riders fit a Kawasaki Nissin master cylinder to fix it.",
+   "values": {
+    "issue": "inconsistent on starts",
+    "owner_fix": "Kawasaki Nissin master cylinder"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action 2025 450 four-stroke shootout",
+    "url": "https://motocrossactionmag.com/2025-mxa-450-four-stroke-shootout-suzuki-honda-gasgas-kawasaki-husqvarna-ktm-yamaha/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "A 2026 test instead called the Honda clutch great; the 2026 change may matter."
+  },
+  {
+   "id": "cd6-103",
+   "domain": "known_issues",
+   "topic": "countershaft sprocket spinning on splines",
+   "applies_to": {
+    "make": [
+     "Honda"
+    ],
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2022,
+     2024
+    ]
+   },
+   "statement": "A CRF450R owner chasing a 'clutch' that would not drive found the countershaft and sprocket splines ground off; aftermarket sprockets of different thickness can stop the cup washer clamping the sprocket.",
+   "values": {
+    "symptom": "no drive, feels like clutch failure",
+    "cause": "stripped sprocket/countershaft splines",
+    "check": "sprocket thickness vs cup washer, bolt torque"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: 2022 Honda CRF450R clutch problem",
+    "url": "https://www.vitalmx.com/forums/tech-helprace-shop/2022-honda-crf450r-clutch-problem",
+    "date": "2024-05"
+   },
+   "confidence": "low",
+   "notes": "Single owner. Worth checking before replacing clutch parts."
+  },
+  {
+   "id": "cd6-104",
+   "domain": "drivetrain",
+   "topic": "YZ450F clutch upgrades",
+   "applies_to": {
+    "make": [
+     "Yamaha"
+    ],
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "On the 2023-2025 cable-clutch YZ450F, a full aftermarket clutch (basket, hub, pressure plate, plates) gave better lever control and longer plate life, and a factory accessory hydraulic kit self-adjusts for heat and wear. Riders split on the 2026 stock hydraulic clutch: one called it flimsy next to rivals, another said it works well.",
+   "values": {
+    "aftermarket_full_kit": "better control, longer plate life",
+    "accessory_hydraulic_kit": "self-adjusting, lighter pull (2023-2024)",
+    "2026_stock_hydraulic": "mixed opinions"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "PulpMX Final Draft 2025 YZ450F; Keefer Inc. Tested clutch category; Vital MX 2026 450 Shootout",
+    "url": "https://pulpmx.com/2025/08/24/final-draft-2025-yamaha-yz450f/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Clutch fade on 2023-2025 is in yz450f_engine.json; 2025 bleed holes tripled in the inner hub."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "2024 KTM 450 SX-F stock gearing",
+   "values": {
+    "KTM / ktm450sxf.json": "13/51",
+    "Keefer 2024 gearing guide": "14/51"
+   },
+   "spread": "one front tooth",
+   "note": "The guide's 14/51 is likely a typo; its 2023 and 2025 editions list 13/51."
+  },
+  {
+   "topic": "GasGas MC 250F stock rear sprocket",
+   "values": {
+    "ktm250f.json (magazine)": "52T",
+    "Keefer gearing guides 2021-2025": "14/51"
+   },
+   "spread": "1 rear tooth",
+   "note": "Check the GasGas owner's manual."
+  },
+  {
+   "topic": "GasGas MC 450F stock gearing on 2024-2025 chassis",
+   "values": {
+    "Keefer gearing guides": "13/49 every year"
+   },
+   "spread": "unknown",
+   "note": "Not confirmed against GasGas data; KTM/Husqvarna on the same chassis use 13/51."
+  },
+  {
+   "topic": "2023 KTM 450 SX-F shock length reduction",
+   "values": {
+    "ktm450sxf.json": "15 mm",
+    "Motocross Action secrets article (corrected)": "20 mm"
+   },
+   "spread": "5 mm"
+  },
+  {
+   "topic": "GasGas MC 450F triple clamp construction",
+   "values": {
+    "Vital MX 2022": "cast",
+    "Dirt Bike 2026": "cast",
+    "Motocross Action / Cycle News 2025": "forged"
+   },
+   "spread": "cast vs forged",
+   "note": "Both mean not CNC-machined like KTM; process unclear."
+  },
+  {
+   "topic": "2022 KTM 450 SX-F ground clearance / seat height",
+   "values": {
+    "spec reprint": "375 mm / 950 mm",
+    "magazine spec sheet": "370 mm / 960 mm"
+   },
+   "spread": "5 mm / 10 mm"
+  },
+  {
+   "topic": "KX450 2024+ gearing preference (same tester)",
+   "values": {
+    "2024 guide": "keep 13/50",
+    "2025 guide": "13/51"
+   },
+   "spread": "1 rear tooth"
+  },
+  {
+   "topic": "YZ450F 2023-2025 East vs West gearing",
+   "values": {
+    "Keefer": "13/50 east/deep dirt, stock 13/49 west, 14/52 optional",
+    "PulpMX Final Draft 2025": "14/52 west, 13/49 east"
+   },
+   "spread": "opposite direction"
+  },
+  {
+   "topic": "rear teeth equal to one countershaft tooth",
+   "values": {
+    "Motocross Action": "about 3",
+    "Dirt Bike": "2.5-3",
+    "BAK derived": "3.5-3.7 at 49-52T rear"
+   },
+   "spread": "2.5-3.7"
+  },
+  {
+   "topic": "2025 KTM 450 SX-F vs 2026 full-tank weight",
+   "values": {
+    "Cycle News 2025 (fully fueled)": "239 lb",
+    "Vital MX 2026 (tank full)": "241 lb"
+   },
+   "spread": "2 lb",
+   "note": "Different years and scales."
+  }
+ ],
+ "not_found": [
+  {
+   "item": "KTM/Husqvarna/GasGas trail figures by year",
+   "searched": "KTM spec sheets, magazine spec pages 2020-2026",
+   "note": "KTM publishes only steering head angle (63.9 deg) and 22 mm offset; trail not published."
+  },
+  {
+   "item": "Front/rear weight split for 2023-2025 450s and 2023-2026 250s",
+   "searched": "Vital MX 2023 450 Shootout and 2024 250 Shootout",
+   "note": "Both pages blocked: permission request not answered (https://www.vitalmx.com/features/2023-vital-mx-450-shootout , https://www.vitalmx.com/features/2024-vital-mx-250-shootout). The 2026 250 shootout page (swapmotolive.com) returned a fetch error."
+  },
+  {
+   "item": "Supercross and arenacross sprocket numbers used by factory teams",
+   "searched": "racer/team setup articles, gearing guides, KTM factory story",
+   "note": "Only qualitative ('geared differently') and general +1-2 rear teeth advice found."
+  },
+  {
+   "item": "Effect of frame guards on frame flex",
+   "searched": "frame guard stiffness tests, forum threads",
+   "note": "No test or measurement found; a forum thread mentions a team welding plates on frames, unverified."
+  },
+  {
+   "item": "Linkage ratio curves / pull-rod lengths for KTM, Husqvarna, GasGas, Triumph",
+   "searched": "aftermarket linkage tests",
+   "note": "Makers do not disclose; only qualitative progression changes."
+  },
+  {
+   "item": "Frame stiffness numbers for KTM-family and Triumph frames",
+   "searched": "OEM press material, magazine tests",
+   "note": "Only Honda publishes percentages (in honda450.json)."
+  },
+  {
+   "item": "Independent tests of Rekluse/Hinson on 2023+ KTM-family and Triumph 250",
+   "searched": "magazine and tester clutch reviews",
+   "note": "Only vendor claims for KTM fitments; Allthingsmoto supercross gearing forum blocked by robots."
+  }
+ ],
+ "sources": [
+  {
+   "name": "Vital MX 2026 450 Motocross Shootout",
+   "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+   "type": "magazine",
+   "date": "2025-11"
+  },
+  {
+   "name": "Vital MX 2022 450 Shootout",
+   "url": "https://www.vitalmx.com/features/2022-Vital-MX-450-Shootout,7557",
+   "type": "magazine",
+   "date": "2022"
+  },
+  {
+   "name": "Vital MX 2020 450 Shootout: Full Test",
+   "url": "https://www.vitalmx.com/features/2020-Vital-MX-450-Shootout-FULL-TEST,6707",
+   "type": "magazine",
+   "date": "2020"
+  },
+  {
+   "name": "Vital MX 2022 250 Shootout",
+   "url": "https://www.vitalmx.com/features/2022-Vital-MX-250-Shootout,7613",
+   "type": "magazine",
+   "date": "2022"
+  },
+  {
+   "name": "Vital MX 2021 250 Shootout: Full Test",
+   "url": "https://www.vitalmx.com/features/2021-Vital-MX-250-Shootout-Full-Test,7187",
+   "type": "magazine",
+   "date": "2021"
+  },
+  {
+   "name": "Vital MX 2020 250 Shootout: Full Test",
+   "url": "https://www.vitalmx.com/features/2020-Vital-MX-250-Shootout,6727",
+   "type": "magazine",
+   "date": "2020"
+  },
+  {
+   "name": "Cycle News 2025 250cc 4-Stroke Motocross Shootout",
+   "url": "https://www.cyclenews.com/2024/12/article/2025-250cc-4-stroke-motocross-shootout/",
+   "type": "magazine",
+   "date": "2024-12"
+  },
+  {
+   "name": "Cycle News 2025 450cc Four-Stroke Motocross Shootout",
+   "url": "https://www.cyclenews.com/2024/10/article/2025-450cc-four-stroke-motocross-shootout/",
+   "type": "magazine",
+   "date": "2024-10"
+  },
+  {
+   "name": "Dirt Bike Magazine 2026 450 MX Shootout",
+   "url": "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+   "type": "magazine",
+   "date": "2026-02"
+  },
+  {
+   "name": "Dirt Bike Magazine 2022 KTM 450SX-F Full Test",
+   "url": "https://dirtbikemagazine.com/ktm-450sx-f-full-test/",
+   "type": "magazine",
+   "date": "2021"
+  },
+  {
+   "name": "Vital MX: 2025 Honda CRF250R Works Edition vs Yamaha YZ250F",
+   "url": "https://www.vitalmx.com/features/2025-honda-crf250r-works-edition-vs-yamaha-yz250f-which-best-250-class",
+   "type": "magazine",
+   "date": "2025-03"
+  },
+  {
+   "name": "Total Motorcycle 2022 KTM 450 SX-F spec reprint; Dirt Bike Magazine 2022 spec sheet",
+   "url": "https://www.totalmotorcycle.com/motorcycles/2022/2022-ktm-450-sxf",
+   "type": "dealer",
+   "date": "2021"
+  },
+  {
+   "name": "Luxon MX Gen3 Pro triple clamps product page",
+   "url": "https://www.luxonmx.com/product-luxon-ktm-husqvarna-gasgas-triple-clamps-gen3-pro.html",
+   "type": "tuner",
+   "date": "2026"
+  },
+  {
+   "name": "Dirt Bike Test: Tuned Kawasaki KX450X triple clamp testing",
+   "url": "https://dirtbiketest.com/fresh-dirt/tuned-kawasaki-kx450x-triple-clamp-testing/",
+   "type": "magazine",
+   "date": "2023-09"
+  },
+  {
+   "name": "Keefer Inc. Tested: Stock 2024 KX250 triple clamps on a 2024 KX450",
+   "url": "https://www.keeferinctesting.com/stock-2024-kx250-triple-clamps-on-a-2024-kx450/",
+   "type": "magazine",
+   "date": "2024-04"
+  },
+  {
+   "name": "Keefer Inc. Tested: Talon Raptor clamps review (Honda CRF450R)",
+   "url": "https://www.keeferinctesting.com/tag/triple-clamps/feed/",
+   "type": "magazine",
+   "date": "2023-05"
+  },
+  {
+   "name": "PulpMX Final Draft: 2025 Yamaha YZ450F",
+   "url": "https://pulpmx.com/2025/08/24/final-draft-2025-yamaha-yz450f/",
+   "type": "magazine",
+   "date": "2025-08"
+  },
+  {
+   "name": "Keefer Inc. Tested: 2025 KTM 250/350/450 optional torque specs",
+   "url": "https://www.keeferinctesting.com/2025-ktm-250-350-450-optional-torque-specs/",
+   "type": "magazine",
+   "date": "2025"
+  },
+  {
+   "name": "FCP Racing KTM 450 SX-F 2023-2026 kit",
+   "url": "https://fcpracing.com/product/ktm-450-sx-f-2023-2026/",
+   "type": "tuner",
+   "date": "2026"
+  },
+  {
+   "name": "Motocross Action: 20 innermost secrets of the 2022 KTM 450SXF Factory Edition",
+   "url": "https://motocrossactionmag.com/20-innermost-secrets-of-the-2023-ktm-450sxf/",
+   "type": "magazine",
+   "date": "2022"
+  },
+  {
+   "name": "Motocross Action race test: 2025 KTM 450SXF",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2025-ktm-450sxf/",
+   "type": "magazine",
+   "date": "2025"
+  },
+  {
+   "name": "Triumph media kit: 2026 TF 450-X",
+   "url": "https://triumph-mediakits.com/en/all-motorcycles/motocross-and-enduro/2026-tf-450-x.html",
+   "type": "manufacturer",
+   "date": "2025"
+  },
+  {
+   "name": "Motocross Action team tested: 2023-24 KTM Pro Circuit shock linkage",
+   "url": "https://motocrossactionmag.com/mxa-team-tested-pro-circuit-ktm-husky-shock-linkage/",
+   "type": "magazine",
+   "date": "2023-06"
+  },
+  {
+   "name": "Motocross Action race test: 2026 KTM 450SXF",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2026-ktm-450sxf/",
+   "type": "magazine",
+   "date": "2026"
+  },
+  {
+   "name": "Keefer Inc. Tested: Factory Connection linkage/shock modification (2021-2022 CRF450R)",
+   "url": "https://www.keeferinctesting.com/factory-connection-linkage-shock-modification-2021-2022-honda-crf450r/",
+   "type": "magazine",
+   "date": "2022-08"
+  },
+  {
+   "name": "KroozTune: Honda CRF450R 2021 linkage tested with factory Honda Australia",
+   "url": "https://krooztune.com/blogs/krooztune-setup/honda-crf450r-2021-linkage-tested-with-factory-honda-aus",
+   "type": "race team",
+   "date": "2020-12"
+  },
+  {
+   "name": "Keefer Inc. Tested: KTM 450 SX-F chain and axle position tips",
+   "url": "https://www.keeferinctesting.com/2021-9-18-ktm-450-sx-f-chain-and-axle-position-tips/",
+   "type": "magazine",
+   "date": "2021-09"
+  },
+  {
+   "name": "Motocross Action: The long and short of moving your KTM axle rearward",
+   "url": "https://motocrossactionmag.com/ask-the-mxperts-the-long-and-short-of-moving-your-ktm-axle-rearward/",
+   "type": "magazine",
+   "date": "2019-05"
+  },
+  {
+   "name": "Motocross Action race test: 2025 Triumph TF250-X",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2025-triumph-tf250-x/",
+   "type": "magazine",
+   "date": "2025"
+  },
+  {
+   "name": "Keefer Inc. Tested / PulpMX MX gearing guides 2020-2022",
+   "url": "https://www.keeferinctesting.com/2022-mx-gearing-guide-updated/",
+   "type": "magazine",
+   "date": "2022"
+  },
+  {
+   "name": "Keefer Inc. Tested MX gearing guides 2023-2025",
+   "url": "https://www.keeferinctesting.com/2025-mx-gearing-guide/",
+   "type": "magazine",
+   "date": "2025"
+  },
+  {
+   "name": "Dirt Bike Test: 20-hour test Triumph TF450-RC",
+   "url": "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/",
+   "type": "magazine",
+   "date": "2025"
+  },
+  {
+   "name": "Keefer Inc. Tested / PulpMX MX gearing guides 2020-2023",
+   "url": "https://www.keeferinctesting.com/2023-mx-gearing-spec-guide/",
+   "type": "magazine",
+   "date": "2023"
+  },
+  {
+   "name": "Racer X: The Breakdown: Walker on Sand",
+   "url": "https://racerxonline.com/2012/08/17/the-breakdown-walker-on-sand",
+   "type": "magazine",
+   "date": "2012-08"
+  },
+  {
+   "name": "Dirt Bike Magazine: Gearing 101 (Mr. Know-It-All); Motocross Action Tech Spec on sprockets",
+   "url": "https://dirtbikemagazine.com/mr-know-it-all-july-2025/",
+   "type": "magazine",
+   "date": "2025-07"
+  },
+  {
+   "name": "KTM: From the deepest rut to the stadium floor",
+   "url": "https://www.ktm.com/en-int/ktm-world/stories/from-the-deepest-rut-to-the-stadium-floor.html",
+   "type": "manufacturer",
+   "date": "2025"
+  },
+  {
+   "name": "Vital MX forum: Help settle a sprocket debate; Motocross Action gearing article",
+   "url": "https://www.vitalmx.com/forums/Moto-Related,20/Help-settle-a-sprocket-debate,1364920",
+   "type": "forum",
+   "date": "2019-09"
+  },
+  {
+   "name": "Motocross Action 2025 450 four-stroke shootout",
+   "url": "https://motocrossactionmag.com/2025-mxa-450-four-stroke-shootout-suzuki-honda-gasgas-kawasaki-husqvarna-ktm-yamaha/",
+   "type": "magazine",
+   "date": "2024"
+  },
+  {
+   "name": "Rekluse installation guide 191-6301 (KTM DDS clutch)",
+   "url": "https://www.rekluse.com/wp-content/uploads/2024/04/RMS-8313086.pdf",
+   "type": "tuner",
+   "date": "2023"
+  },
+  {
+   "name": "Rekluse product pages and dealer listings",
+   "url": "https://www.rekluse.com/product/manual-clutches/apex/apex-clutch-husqvarna-fc-450-rockstar-edition-2022/",
+   "type": "tuner",
+   "date": "2026"
+  },
+  {
+   "name": "Vital MX forum: KTM clutch observation/issue",
+   "url": "https://www.vitalmx.com/forums/Moto-Related,20/KTM-Clutch-Observation-Issue-Anyone-Else,1382425",
+   "type": "forum",
+   "date": "2020-10"
+  },
+  {
+   "name": "Keefer Inc. Tested: Hinson small diameter clutch and Rekluse APEX reviews (2024-2026 KX450)",
+   "url": "https://www.keeferinctesting.com/hinson-racing-small-diameter-clutch-for-2024-2026-kx450/",
+   "type": "magazine",
+   "date": "2026-02"
+  },
+  {
+   "name": "Vital MX forum: 2022 Honda CRF450R clutch problem",
+   "url": "https://www.vitalmx.com/forums/tech-helprace-shop/2022-honda-crf450r-clutch-problem",
+   "type": "forum",
+   "date": "2024-05"
+  },
+  {
+   "name": "Keefer 2024 MX Gearing Guide",
+   "url": "https://www.keeferinctesting.com/2024-mx-gearing-guide/"
+  },
+  {
+   "name": "PulpMX 2021 MX Gearing Guide",
+   "url": "https://pulpmx.com/2021/05/13/2021-mx-gearing-set-up-guide-updated/"
+  },
+  {
+   "name": "PulpMX 2020 MX Gearing Specs",
+   "url": "https://pulpmx.com/2020/01/08/157969/"
+  },
+  {
+   "name": "Motocross Action Tech Spec: sprockets",
+   "url": "https://motocrossactionmag.com/mxa-tech-spec-why-going-up-on-the-rear-sprockets-is-actually-going-down/"
+  },
+  {
+   "name": "Motocross Action: To gear up or down",
+   "url": "https://motocrossactionmag.com/to-gear-up-or-to-gear-down-that-is-the-question/"
+  },
+  {
+   "name": "Vital MX forum: Sand gearing",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Sand-gearing,1355398"
+  },
+  {
+   "name": "Keefer: Rekluse APEX KX450",
+   "url": "https://www.keeferinctesting.com/rekluse-apex-clutch-system-review-2024-2026-kawasaki-kx450/"
+  },
+  {
+   "name": "Rekluse TorqDrive dealer listing",
+   "url": "https://motohousemx.com/products/rekluse-racing-torqdrive-clutch-pack-2013-2020-ktm-450-sx-f-rms-2813086"
+  }
+ ]
+}

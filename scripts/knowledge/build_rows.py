@@ -38,7 +38,9 @@ for f in sorted(glob.glob(os.path.join(root,'docs/research/knowledge/*.json'))):
         dom,tier,conf=r.get('domain'),r.get('tier'),r.get('confidence','medium')
         if dom not in DOMAINS or tier not in TIERS or conf not in CONF or not str(r.get('statement','')).strip():skipped['invalid']+=1;continue
         a=r.get('applies_to') or {};rmake=a.get('make') or make
-        if isinstance(rmake,list):rmake=rmake[0] if rmake else make  # multi-brand record: bare model names belong to the first brand; sister bikes carry their own prefix
+        makes=rmake if isinstance(rmake,list) else [rmake]  # multi-brand record: each bare model name belongs to whichever listed brand has it
+        rmake=makes[0] if makes else make
+        rosterModels={(a2,b2) for a2,b2,c2 in roster}
         hit=0
         # 'general' records (principles that hold for every engine in the file) apply to all of the file's platform models.
         models=[m for x in (a.get('models') or []) for m in ((d['platform'].get('models') or []) if x=='general' else [x])]
@@ -48,7 +50,7 @@ for f in sorted(glob.glob(os.path.join(root,'docs/research/knowledge/*.json'))):
             short=re.sub(r'^(KTM|Husqvarna|GasGas|Yamaha|Honda|Kawasaki|Triumph) ','',pm)
             if pm not in models and re.search(r'(?<![A-Za-z0-9])'+re.escape(short)+r'(?![A-Za-z0-9-])',text):models.append(pm)
         for model0 in models:
-            mk,model=rmake,model0
+            mk,model=next((m for m in makes if (m,model0) in rosterModels),rmake),model0
             # Sister bikes listed by model name only (e.g. 'FC 450' in a KTM file) belong to their own brand.
             if re.match(r'(FC|FE|FX|TC|TE|TX) ',model0):mk='Husqvarna'
             elif re.match(r'(MC|EX|EC) ',model0):mk='GasGas'

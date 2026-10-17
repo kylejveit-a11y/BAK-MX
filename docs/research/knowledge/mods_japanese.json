@@ -1,0 +1,1206 @@
+{
+ "slice": "engine modifications with measured before/after effects, Yamaha/Honda/Kawasaki 2020-2026",
+ "platform": {
+  "make": "Yamaha",
+  "models": [
+   "YZ450F",
+   "CRF450R",
+   "KX450",
+   "YZ250F",
+   "CRF250R",
+   "KX250",
+   "YZ125",
+   "YZ250"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "ej6-001",
+   "domain": "engine_mods",
+   "topic": "GYTR high-compression piston fitment (2023-on 450)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ450FX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "The GYTR high-compression piston kit BHR-E16A0-V0-00 is listed for the 2023-2025 YZ450F and 2024 YZ450FX at an MSRP of $462.49, and needs at least 100-octane race fuel.",
+   "values": {
+    "part_number": "BHR-E16A0-V0-00",
+    "msrp": "$462.49 USD (dealer price $332.99)",
+    "fuel": "minimum 100 octane race fuel",
+    "compression_ratio": "not published"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "PWC Parts listing: Yamaha OEM GYTR High Compression Piston Kit YZ450F 2023-2025 / YZ450FX 2024",
+    "url": "https://pwcparts.com/yamaha-oem-gytr-high-compression-piston-kit-yz450f-2023-2025-yz450fx-2024-bhr-e16a0-v0-00/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Fitment comes from a dealer listing of the OEM part; Yamaha's own pages give no model years. The 2026 YZ450F (revised head, intake cam timing and oil sprayer angle) is not listed, so check fitment for 2026. No compression ratio is published for this piston."
+  },
+  {
+   "id": "ej6-002",
+   "domain": "engine_mods",
+   "topic": "GYTR high-compression piston (2023-on 450): what it is",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Yamaha sells the 2023-on GYTR high-compression piston (CAD $589.95) as a race-only part that adds power across the rev range; its valve pockets are cut deeper to clear higher-lift cams, and it needs at least 100-octane race fuel.",
+   "values": {
+    "part_number": "BHR-E16A0-V0-00",
+    "price": "CAD $589.95",
+    "fuel": "minimum 100 octane race fuel"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor Canada accessory page, GYTR High Compression Piston Kit BHR-E16A0-V0-00",
+    "url": "https://www.yamaha-motor.ca/en/accessories/motorcycles/performance/gytr-high-compression-piston-kit/BHR-E16A0-V0-00",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Kit includes piston, rings, pin and clips (pin and clips are the same as stock). Closed-course competition only. No horsepower gain is quoted and no ratio is given."
+  },
+  {
+   "id": "ej6-003",
+   "domain": "engine_mods",
+   "topic": "GYTR high-compression piston (250F)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": []
+   },
+   "statement": "The GYTR high-compression piston kit B7B-E16A0-V0-00 raises compression to 14:1, costs CAD $364.95 and needs at least 100-octane race fuel.",
+   "values": {
+    "part_number": "B7B-E16A0-V0-00",
+    "compression_ratio": "14:1",
+    "price": "CAD $364.95",
+    "fuel": "minimum 100 octane race fuel"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor Canada accessory page, GYTR High Compression Piston Kit B7B-E16A0-V0-00",
+    "url": "https://www.yamaha-motor.ca/en/p/B7B-E16A0-V0-00",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Neither the Canadian nor US Yamaha page lists model years; the US page notes that 2014-2015 YZ250F need a newer oil nozzle (1SM-15155-10-00). The B7B prefix matches the 2019-on YZ250F, but years are left empty because no page states them. Same pocket-machining for higher-lift cams as the 450 kit. HELD by BAK: fitment model years not stated by any source.",
+   "status": "HELD"
+  },
+  {
+   "id": "ej6-004",
+   "domain": "engine_mods",
+   "topic": "aftermarket race piston (2023-2026 450)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "An aftermarket race piston with a coated wrist pin for the 2023-2026 YZ450F sells for $394.95; the maker does not publish its compression ratio or a power gain.",
+   "values": {
+    "price": "$394.95",
+    "fitment": "YZ450F 2023-2026",
+    "compression_ratio": "not published"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Pro Circuit High-Compression Piston YZ450F '23 (item RPY23450F)",
+    "url": "https://www.procircuit.com/high-compression-piston-yz450f-23.html",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Listed as a high-compression piston; fuel requirement not stated."
+  },
+  {
+   "id": "ej6-005",
+   "domain": "engine_mods",
+   "topic": "GYTR ported cylinder head (2024-on 250F)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F",
+     "WR250F"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The GYTR ported cylinder head for the 2024-2026 YZ250F comes fully assembled, has two matching Power Tuner maps from Yamaha, runs on T4 or Pro6-class fuel and gives 15.4:1 compression with the GYTR high-compression piston; it lists at AUD $4,997.95.",
+   "values": {
+    "part_number": "BMF-E11B0-V0",
+    "price": "AUD $4,997.95",
+    "compression_with_GYTR_piston": "15.4:1",
+    "fuel": "AMA-approved race fuel (T4, Pro6)",
+    "maps": "2 Yamaha-developed Power Tuner maps"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Procycles (Australia) listing of GYTR Ported Cylinder Head Assembly BMF-E11B0-V0",
+    "url": "https://www.procycles.com.au/products/yamaha-21386",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Fitment listed as YZ250F 2024-2026 and WR250F 2025-2026 (WR fitment would need the WR competition ECU for the maps). Claim is power and torque across the whole curve; no numbers. Piston sold separately."
+  },
+  {
+   "id": "ej6-006",
+   "domain": "engine_mods",
+   "topic": "GYTR ported head and cams (250F, earlier version)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F",
+     "YZ250FX"
+    ],
+    "years": []
+   },
+   "statement": "An earlier GYTR ported head for the YZ250F/FX ($2,099.99) bolts on with its own cams and the stock valve train on pump gas; a tester felt more low-end torque, a stronger top-end surge and more over-rev, so stock's early taper went away.",
+   "values": {
+    "price": "$2,099.99",
+    "fuel": "pump gas"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - YZ250F/FX GYTR Ported Cylinder Head",
+    "url": "https://dirtbiketest.com/product-tests/gytr-ported-cylinder-head/",
+    "date": ""
+   },
+   "confidence": "low",
+   "notes": "Model years not stated (pre-2024 head; the 2024 engine has a new head with its own GYTR part). Felt, not dynoed; the article says the porting was dyno-developed but gives no numbers. Long-term durability not yet reported. HELD by BAK: fitment model years not stated by any source.",
+   "status": "HELD"
+  },
+  {
+   "id": "ej6-007",
+   "domain": "engine_mods",
+   "topic": "GYTR ported head and cams (450, earlier generation)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Yamaha's GYTR catalogue lists a CNC-ported YZ450F cylinder head (BR9-E11B0-V0-00, stock valve train, ready to install) and GYTR performance camshafts (1SL-E21F0-V0-00) said to add mid-range and top-end without losing low end; no gains are quantified.",
+   "values": {
+    "ported_head": "BR9-E11B0-V0-00",
+    "cams": "1SL-E21F0-V0-00"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor Europe GYTR Performance Off-Road Competition catalogue (PDF)",
+    "url": "https://cdn.yamaha-motor.eu/local_assets/eu/binary/hq/racing/gytr/GYTRPerformanceOffRoadCompetition.pdf",
+    "date": ""
+   },
+   "confidence": "low",
+   "notes": "Catalogue gives no model years. A Yamaha NZ listing shows the BR9 GYTR cam kit (BR9-E21F0-V0) for 2018-2019 YZ450F at NZ$1,837.90, built for engines with the GYTR high-compression piston and requiring the GYTR oil sprayer; so the BR9 parts are for the 2018-2022 generation, not the 2023-on engine. No 2023-2026 GYTR head or cam was found. Years limited to the 2018-2022 engine the BR9 part numbers belong to."
+  },
+  {
+   "id": "ej6-008",
+   "domain": "engine_mods",
+   "topic": "domed filter kit dyno (2020 450)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "On a magazine dyno a domed filter, cage and plate kit took a 2020 YZ450F from 58.56 to 59.72 hp at 9,700 rpm and from 34.36 to 35.54 lb-ft; the gain was +2.2 hp at 6,000 rpm, +1.8 at 7,000, nothing at 8,000-9,000 and +1.7 at 10,000 rpm.",
+   "values": {
+    "stock_peak": "58.56 hp",
+    "kit_peak": "59.72 hp @ 9,700 rpm",
+    "torque": "34.36 -> 35.54 lb-ft",
+    "gain_6000": "+2.20 hp (36.68 -> 38.87)",
+    "gain_7000": "+1.77 hp (45.52 -> 47.29)",
+    "gain_8000_9000": "0",
+    "gain_10000": "+1.68 hp (58.04 -> 59.72)",
+    "price": "$259.95"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - crazy trick to get our 2021 Yamaha YZ450F over 60 horsepower",
+    "url": "https://motocrossactionmag.com/mxas-crazy-trick-to-get-our-2021-yamaha-yz450f-over-60-horsepower/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Twin Air Power Flow kit; stock 2020 map, stock exhaust; dyno brand and fuel not stated. Testers felt better throttle response and more usable over-rev. Applies to the 2018-2022 airbox (2020 test bike; 2021-2022 share the airbox). See conflicts: text says a 1.35 hp peak gain, figures give 1.16 hp. The kit removes the backfire screen."
+  },
+  {
+   "id": "ej6-009",
+   "domain": "engine_mods",
+   "topic": "enlarged airbox cover dyno (2020 450)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Adding a raised, enlarged airbox cover on top of the filter kit lifted the same 2020 YZ450F to 60.31 hp from 58.56 stock; more air above the filter helped more than more room inside it, and the engine revved through each gear faster.",
+   "values": {
+    "stock_peak": "58.56 hp",
+    "modified_peak": "60.31 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - crazy trick to get our 2021 Yamaha YZ450F over 60 horsepower",
+    "url": "https://motocrossactionmag.com/mxas-crazy-trick-to-get-our-2021-yamaha-yz450f-over-60-horsepower/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Homemade 'humpback' cover made by grafting an older raised filter-maker lid onto the 2020 lid; stock map and exhaust. A separate top-hat filter spacer alone made no significant gain. Commercial intake scoops ($75-$80) made less than this cover in the same magazine's testing."
+  },
+  {
+   "id": "ej6-010",
+   "domain": "engine_mods",
+   "topic": "aftermarket map with intake mods (2020 450)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "With the filter kit, enlarged cover and a tuner's Power Tuner map, the 2020 YZ450F peaked at 60.83 hp at 9,700 rpm and held over 59 hp across about 1,600 rpm; it felt smoother bottom to mid, picked up at 8,500 rpm and over-revved further.",
+   "values": {
+    "peak": "60.83 hp @ 9,700 rpm",
+    "stock_peak": "58.56 hp",
+    "plateau": ">59 hp over ~1,600 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - crazy trick to get our 2021 Yamaha YZ450F over 60 horsepower",
+    "url": "https://motocrossactionmag.com/mxas-crazy-trick-to-get-our-2021-yamaha-yz450f-over-60-horsepower/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Map built by an engine tuner (named in source). Total gain over stock about 2.3 hp at peak from intake plus map, stock exhaust, fuel not stated."
+  },
+  {
+   "id": "ej6-011",
+   "domain": "engine_mods",
+   "topic": "GYTR airflow kit (2018-2022 450, 2019-2022 250F)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The $149.99 GYTR airflow kit (bigger airbox volume, two filters) gave a noticeable gain in throttle response and more intake noise, but it has no backfire screen and the filter cage leaked dirt at the back until heavily greased.",
+   "values": {
+    "price": "$149.99",
+    "fitment": "YZ450F 2018-2022, YZ250F 2019-2022"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Yamaha GYTR YZ450F Airflow Kit team test",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-yamaha-gytr-yz450f-airflow-kit/",
+    "date": ""
+   },
+   "confidence": "medium",
+   "notes": "Described as a cheaper plastic-part version of a filter-maker's domed kit. No dyno figure for the kit itself. Dirt can drop into the intake when the filter is out; vacuum it at once."
+  },
+  {
+   "id": "ej6-012",
+   "domain": "engine_mods",
+   "topic": "filter kit plus vented airbox cover (2023-2025 450)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "A domed filter kit ($249.95) plus a vented high-flow airbox cover ($100) added over 2 hp to a 2024 YZ450F and made it rev quicker, which broadened the usable power rather than making it wheelie more; it is much louder and removes the backfire screen.",
+   "values": {
+    "gain": ">2 hp (baseline not given)",
+    "filter_kit": "$249.95",
+    "filter": "$36.95",
+    "cover": "$100"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2024 YZ450F Twin Air PowerFlow kit / SRP high-flow airbox cover",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-2024-yz450f-twin-air-powerflow-kit-srp-high-flow-airbox-cover/",
+    "date": "2024"
+   },
+   "confidence": "low",
+   "notes": "Twin Air PowerFlow kit and SRP cover. No baseline, rpm or dyno details published. The stock 2023-2024 filter can let dirt migrate under the cage at the front (tighten the rubber strap, grease heavily); the kit's grommets and L-bracket stop this. Magazine says the filter alone is enough for most riders; the full combo suits pros. 2025 race test also reported faster rev and more mid pull with the same kit."
+  },
+  {
+   "id": "ej6-013",
+   "domain": "engine_mods",
+   "topic": "2025 GYTR airbox on the 2026 450",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Testers preferred the 2026 YZ450F fitted with Yamaha's GYTR (2025-style) airbox, breather port blocked, and the 2025 stock exhaust over the stock 2026 setup, which is quieter but peaked 2.8 hp lower on their dyno (56.7 vs 59.5 hp).",
+   "values": {
+    "stock_2025": "59.5 hp @ 9,700 rpm / 36.2 lb-ft @ 7,300",
+    "stock_2026": "56.7 hp @ 9,600 rpm / 35.1 lb-ft @ 7,500",
+    "at_5500": "33 hp (2025) vs 29 hp (2026)",
+    "sound": "116 dB (2025) vs 108-109 dB (2026)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - race test 2026 Yamaha YZ450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2026-yamaha-yz450f/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "No dyno run published for the airbox/exhaust swap; preference is rider feel. The 2026 gets an intake resonator, quieter muffler with a mid-pipe resonator, 8% more flywheel inertia and intake cam timing 110 -> 107 degrees, which explains the lower peak and the case for undoing the intake restriction."
+  },
+  {
+   "id": "ej6-014",
+   "domain": "engine_mods",
+   "topic": "exhaust and airbox cover on the 2026 450",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On a long-term 2026 YZ450F, an aftermarket full exhaust plus the GYTR raised ram-air airbox cover gave a much stronger, more responsive feel with a clear bottom-end improvement.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Australasian Dirt Bike - long term test 10, 2026 Yamaha YZ450F",
+    "url": "https://adbmag.com.au/editorial/long-term-test-10-2026-yamaha-yz450f/",
+    "date": "2026"
+   },
+   "confidence": "low",
+   "notes": "Pro Circuit full system (race-team spec header) and GYTR airbox cover; felt, not dynoed; no map change mentioned."
+  },
+  {
+   "id": "ej6-015",
+   "domain": "engine_mods",
+   "topic": "titanium full exhaust claim (2026 450)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The maker of an aftermarket full exhaust for the 2026 YZ450F claims +9.3% power and +9.6% torque at 6,200 rpm, at the same 109 dB (2-metre max) as stock and 9.3 lb against stock's 9.4 lb.",
+   "values": {
+    "power_gain": "+9.3% @ 6,200 rpm",
+    "torque_gain": "+9.6% @ 6,200 rpm",
+    "weight": "9.3 lb vs 9.4 lb stock",
+    "sound": "109.0 dB vs 109.0 dB stock (2 m max, with insert)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yoshimura RS-12 Signature Series YZ450F exhaust, reported by Cycle News",
+    "url": "https://www.cyclenews.com/2026/03/article/yoshimura-yz450f-rs-12-signature-series-exhaust/",
+    "date": "2026-03"
+   },
+   "confidence": "low",
+   "notes": "Yoshimura RS-12 Hybrid Signature Series. Maker's claim, absolute figures, dyno and fuel not given. A big percentage at 6,200 rpm on the 2026 is plausible because the 2026 stock system is muffled hard at low-mid rpm (stock made 29 hp at 5,500 vs 33 hp on the 2025)."
+  },
+  {
+   "id": "ej6-016",
+   "domain": "engine_mods",
+   "topic": "titanium slip-on feel (2023 450)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "A titanium slip-on (about $800, a little over 1 lb lighter) on the 2023 YZ450F made low rpm smoother and more linear, took the sharp edge off the mid-range hit and gave better rear traction while revving out as far as stock; it did not improve lugging.",
+   "values": {
+    "price": "~$800",
+    "weight_saving": ">1 lb"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "PulpMX - FMF 4.1 slip-on 2023 Yamaha YZ450F",
+    "url": "https://pulpmx.com/2023/06/14/fmf-4-1-slip-on-2023-yamaha-yz450f/",
+    "date": "2023-06"
+   },
+   "confidence": "medium",
+   "notes": "FMF Factory 4.1 RCT slip-on; tester preferred it with the quiet insert in (smoother, better sound). Felt, not dynoed."
+  },
+  {
+   "id": "ej6-017",
+   "domain": "engine_mods",
+   "topic": "titanium slip-on feel (2024 450)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "A titanium slip-on (8.3 lb, $849.99; stainless $649.99) on the 2024 YZ450F removed the harsh initial crack and the low-to-mid lull, left the mid-range hit about the same and kept pulling in fourth gear.",
+   "values": {
+    "weight": "8.3 lb (slip-on)",
+    "price": "$849.99 titanium / $649.99 stainless",
+    "insert": "94 dB quiet insert included"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX - FMF Factory 4.1 slip-on 2024 Yamaha YZ450F tested",
+    "url": "https://www.vitalmx.com/features/fmf-factory-4-1-slip-2024-yamaha-yz450f-tested",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Compared with stock muffler on both stock and a mellow custom map; tester kept the stock map with the slip-on. Felt, not dynoed."
+  },
+  {
+   "id": "ej6-018",
+   "domain": "engine_mods",
+   "topic": "titanium full system feel (2024 450)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "A titanium full system ($1,352.95) saved almost 2 lb on the 2024 YZ450F; it was smoother off idle but a little soft at about 10% throttle, strongest in the mid-range with better corner drive, about the same on top with slightly more over-rev, and sounded deeper and quieter.",
+   "values": {
+    "price": "$1,352.95",
+    "weight_saving": "~2 lb"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc Testing - Pro Circuit Ti-6 YZ450F",
+    "url": "https://www.keeferinctesting.com/?p=27581",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Pro Circuit Ti-6 Pro. Run with a tester's Power Tuner map; a more aggressive map restored low-end pop. Tester felt it had more bottom than an Akrapovic system tried earlier. Felt, not dynoed."
+  },
+  {
+   "id": "ej6-019",
+   "domain": "engine_mods",
+   "topic": "GYTR titanium full system feel (Australia)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "The GYTR-branded titanium full system (AUD $2,399.95, 0.9 kg lighter) sharpened throttle response and sounded louder and more aggressive; bottom-end power was harder to control until the bike was remapped smoother.",
+   "values": {
+    "price": "AUD $2,399.95",
+    "weight_saving": "0.9 kg",
+    "maker_claim": "+1.8 kW, +1.5 Nm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Australasian Dirt Bike - product tests: (GYTR) Akrapovic titanium exhaust",
+    "url": "https://adbmag.com.au/editorial/product-test-2-gytr-akrapovic-titanium-exhaust/",
+    "date": "2024"
+   },
+   "confidence": "low",
+   "notes": "Akrapovic system sold through Yamaha Australia; model year of the long-term bike not stated (2023-2025 platform assumed from the fitment of the same system). Stated MA/FIM noise compliant. Felt, not dynoed; the +1.8 kW claim matches jp5-024."
+  },
+  {
+   "id": "ej6-020",
+   "domain": "engine_mods",
+   "topic": "what testers want from a 2023-2025 450 exhaust",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Magazine testers fitting pipes to the 2023-2025 YZ450F were after smoother, more linear bottom-end delivery, not more peak power; after back-to-back rides of five aftermarket brands and stock, votes split between two of them.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2024 and 2025 YZ450F race tests; YZ450 exhaust pipe shootout",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450f/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Brands tried: FMF, Pro Circuit, Yoshimura, DR.D, HGS; split between FMF and Pro Circuit. The shootout deliberately ran no dyno or sound tests. Testers also ran the mellowest map they could build."
+  },
+  {
+   "id": "ej6-021",
+   "domain": "ecu_electronics",
+   "topic": "aftermarket ECU feel (2018-2022 450)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "A plug-in aftermarket ECU (about $1,000, 10 preset maps and low/mid/high fuel trim knobs) with a custom map gave the 2020 YZ450F a smoother low-end hit, easier starting, a longer top end and over-rev and less engine braking, at the cost of a little third-gear lugging; it drops Power Tuner's hour meter and maintenance log.",
+   "values": {
+    "price": "~$1,000",
+    "maps": "10 preset",
+    "trim": "3 knobs (low, mid, high rpm fuel)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc Testing / PulpMX - Vortex ignition for 2020 YZ450F",
+    "url": "https://www.keeferinctesting.com/2020-4-28-vortex-ignition-for-2020-yz450f/",
+    "date": "2020-04"
+   },
+   "confidence": "medium",
+   "notes": "Vortex ECU with a tuner's custom map, Pro Circuit exhaust. On race fuel (VP Pro 6) the bike made too much low-end for hard pack; VP T4/pump was more manageable. No dyno numbers."
+  },
+  {
+   "id": "ej6-022",
+   "domain": "engine_mods",
+   "topic": "race fuel vs pump fuel feel (450)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Oxygenated race fuels gave quicker throttle response and more consistent power than pump gas on a tester's 450s with no remap; a 5-gallon pail cost about $85-$94 against $45 for an unleaded pump substitute, and fuel makers claim 2-5% more power.",
+   "values": {
+    "price_5gal": "MX4 $94, T4 ~$85, Pure 93 $45",
+    "maker_claims": "MX4 up to 4-5%, T4 2-3%"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc Testing - pump replacement fuel comparison",
+    "url": "https://www.keeferinctesting.com/2021-6-2-pump-replacement-fuel-comparison/",
+    "date": "2021-06"
+   },
+   "confidence": "low",
+   "notes": "Renegade MX4 and VP T4 on a YZ450F (and KTM 450 SX-F, CRF250R); F&L Pure 93 felt little different except a cleaner burn. Power claims are fuel makers', not measured."
+  },
+  {
+   "id": "ej6-023",
+   "domain": "engine_mods",
+   "topic": "factory Works Edition hop-up (2024 450)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Honda's 2024 Works Edition makes close to 60 hp and 37.30 lb-ft on a magazine dyno against 56.66 hp and 35.94 lb-ft for the standard bike; the gain comes from polished ports, a full aftermarket system, a longer intake boot, revised cam lobes and matching ECU maps.",
+   "values": {
+    "we_peak": "~60 hp",
+    "we_torque": "37.30 lb-ft",
+    "stock_peak": "56.66 hp",
+    "stock_torque": "35.94 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - race test 2024 Honda CRF450 Works Edition",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450-we/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Yoshimura RS-12 (stainless head and mid-pipe, titanium muffler). The Aggressive map felt stronger off the bottom but made less power top to bottom than Standard. Article mentions a 44 mm throttle body. Dyno brand and fuel not stated. Consistent with h45-073 (2.2-3.5 hp)."
+  },
+  {
+   "id": "ej6-024",
+   "domain": "engine_mods",
+   "topic": "aftermarket cam, piston and spring package (2021-on 450)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "A major US tuner's engine kit for the 2021-2025 CRF450R/RX (camshaft, piston and valve springs) costs $1,650; no compression ratio or power gain is published.",
+   "values": {
+    "price": "$1,650",
+    "contents": "cam, piston, valve springs"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Pro Circuit Engine Package CRF450R/RX '21-25 (21CRF450EK)",
+    "url": "https://procircuit.com/engine-performance-package-crf450r-rx-2021-2022.html",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Page title says 2021-25, URL says 2021-2022; confirm fitment."
+  },
+  {
+   "id": "ej6-025",
+   "domain": "engine_mods",
+   "topic": "titanium full exhaust claim (2025-on 450)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The maker of a titanium full exhaust for the 2025-2026 CRF450R/RX ($1,699) claims a maximum power gain of 3.7% and a torque gain of 1.3% over stock.",
+   "values": {
+    "power_gain": "+3.7% max",
+    "torque_gain": "+1.3%",
+    "price": "$1,699"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yoshimura RS-12 titanium full exhaust CRF450R/RX 2025 (225861S720)",
+    "url": "https://yoshimura-rd.com/products/crf450r-rx-rs-12-titanium-full-exhaust-w-titanium-muffler-225861s720",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Maker claim; rpm, dyno and fuel not stated."
+  },
+  {
+   "id": "ej6-026",
+   "domain": "engine_mods",
+   "topic": "stainless full exhaust feel (2022 250)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF250R"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "A stainless full system ($909-$949) on the 2022 CRF250R weighed just over 1 lb more than stock, kept the stock bottom-end response and added mid-range pickup and longer pulls in each gear, the mid-to-top change being the most obvious.",
+   "values": {
+    "price": "$909-$949",
+    "weight": "~1 lb heavier than stock"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc Testing - Yoshimura RS-12 stainless 2022 CRF250R",
+    "url": "https://keeferinctesting.com/?p=16876",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Yoshimura RS-12 stainless; map not stated; felt, not dynoed. Article gives two prices."
+  },
+  {
+   "id": "ej6-027",
+   "domain": "engine_mods",
+   "topic": "titanium full exhaust feel (2025 250)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "A titanium full system ($1,269.95; stainless $990.95) on the 2025 KX250 gave a clearly stronger mid-to-top pull with smoother over-rev and faster recovery after shifts, letting the rider hold second longer and use third in corners; the low-end gain was small.",
+   "values": {
+    "price": "$1,269.95 titanium / $990.95 stainless",
+    "sound": "meets AMA amateur limit"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX - Pro Circuit Ti-6 exhaust review 2025 Kawasaki KX250",
+    "url": "https://www.vitalmx.com/features/pro-circuit-ti-6-exhaust-review-2025-kawasaki-kx250",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Pro Circuit Ti-6; stock exhaust described as raspy and loud. Map and fuel not stated; felt, not dynoed."
+  },
+  {
+   "id": "ej6-028",
+   "domain": "ecu_electronics",
+   "topic": "KX FI Calibration Kit fitment and parts",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450",
+     "KX250",
+     "KX450X",
+     "KX250X"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Kawasaki's handheld KX FI Calibration Kit (99999-0615) rewrites the fuel-injection and ignition-timing maps by throttle position and rpm, holds seven preset settings, saves maps to SD card and shows live engine data; the 2019-2025 KX450 also needs sub-harness 26011-0933 and tube clamp 92037-1794.",
+   "values": {
+    "part_number": "99999-0615",
+    "price": "AUD $2,075.94 MSRP",
+    "presets": "7",
+    "extra_parts_KX450_19_25": "sub harness 26011-0933, tube clamp 92037-1794",
+    "extra_parts_KX250F_13_25": "sub harness 26011-0933, bracket 11056-0505"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki Australia accessory page, KX FI Calibration Kit (Handheld)",
+    "url": "https://kawasaki.com.au/en-au/shop/maintenance/15827/kx-fi-calibration-kit-(handheld)",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Fitment lines on the page are inconsistent (lists KX250 2019, 2020, 2022, 2023, 2025, 2026 and KX450 2019, 2020, 2023-2026 but also 'KX 250F (13-25)' and 'KX 450F (12-25)'); confirm with a dealer. kawasaki.json quotes about $700 US for the kit; this is the Australian price."
+  },
+  {
+   "id": "ej6-029",
+   "domain": "engine_mods",
+   "topic": "titanium slip-on feel (2019-2025 250F)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "A titanium slip-on ($849.99, about 3 lb lighter than stock) felt the same as stock off the crack but pulled harder from mid-range to the limiter, so riders could hold a gear longer, and sounded far better than the loud stock muffler.",
+   "values": {
+    "price": "$849.99",
+    "weight_saving": "~3 lb"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - FMF Racing 2025 Yamaha YZ250F slip-on muffler",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-fmf-racings-2025-yamaha-yz250f-slip-on-muffler/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "FMF Factory 4.1 slip-on, fitment 2019-2025 YZ250F. No dyno. Held up after six hours including tip-overs."
+  },
+  {
+   "id": "ej6-030",
+   "domain": "engine_mods",
+   "topic": "bolt-on engine package (2025 125)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "A $2,041 bolt-on package for the 2025 YZ125 (aftermarket pipe and silencer, ported cylinder and head, race piston, programmable CDI with remap, jetting kit and carbon reeds) on race fuel removed the soft low end and pulled strongly through the mid into the over-rev with no flat spot.",
+   "values": {
+    "total": "$2,041.24",
+    "pipe": "$306.95",
+    "silencer": "$171.95",
+    "cylinder_head_mod": "$349.95",
+    "piston": "$258.50",
+    "CDI": "$585.95",
+    "CDI_remap": "$99.95",
+    "GYTR_jetting_kit": "$99.99",
+    "reeds": "$168.00",
+    "gearing": "13/51",
+    "fuel": "VP MRX02 / C12 blend"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX - fastest YZ125 ever? project bike",
+    "url": "https://www.vitalmx.com/features/fastest-yz125-ever-project-bike-pro-circuit-yamaha-yz125",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Tuner-built (named in source); GET CDI, VForce4R reeds. No dyno numbers; ran clean all day as temperatures rose; no long-term durability data."
+  },
+  {
+   "id": "ej6-031",
+   "domain": "engine_mods",
+   "topic": "pipe and silencer feel (2005-2021 125)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "On the pre-2022 YZ125 one aftermarket pipe with a short silencer pulled a bit longer in the mid and further on top without adding over-rev, while another pipe gave more bottom and mid with a deeper sound but signed off a little earlier; the needle clip was moved from 3rd to 2nd.",
+   "values": {
+    "needle_clip": "3rd -> 2nd (sea level to 3,500 ft)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc Testing - YZ125 pipe comparison",
+    "url": "https://www.keeferinctesting.com/?p=13106",
+    "date": "2020-01"
+   },
+   "confidence": "low",
+   "notes": "FMF Factory Fatty + Shorty vs Pro Circuit Works + R-304. Model year not stated (posted Jan 2020; engine unchanged for years before the 2022 redesign). Felt, not dynoed."
+  },
+  {
+   "id": "ej6-032",
+   "domain": "engine_mods",
+   "topic": "pipe and silencer dyno (2003-2021 250 two-stroke)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "An aftermarket pipe for the 2003-2021 YZ250 added 3.46 hp at 8,000 rpm and peaked at 49.33 hp at 9,600 rpm, about 2.5 hp over stock, on premium pump gas with stock jetting; the stronger hit was too much for some vets on hard pack but good in sand.",
+   "values": {
+    "gain_8000": "+3.46 hp",
+    "peak": "49.33 hp @ 9,600 rpm",
+    "peak_gain": "~2.5 hp",
+    "prices": "pipe $262.46, carbon silencer $329.95, aluminium silencer $141.71"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Pro Circuit '03-'21 YZ250 pipe and silencer",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-pro-circuit-03-21-yz250-pipe-and-silencer/",
+    "date": "2021-05"
+   },
+   "confidence": "medium",
+   "notes": "Pro Circuit Works pipe; dyno brand not stated. Figures match the magazine's 2013 shootout (2t-066: 49.33 hp @ 8,600 there), so this is probably the same data republished; rpm of peak differs (9,600 here vs 8,600 there). Richen for cold or sand."
+  },
+  {
+   "id": "ej6-033",
+   "domain": "engine_mods",
+   "topic": "owner mods to soften the 2024-on 250 two-stroke",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Owners softening the 2024 YZ250 suggest a longer silencer in place of the shorty, a head with a milder dome insert, retarding ignition a few degrees, an earlier-opening power valve spring and a flywheel weight; one owner says a power-valve damper made it more linear while another says it can stop the valve opening fully.",
+   "values": {
+    "ignition": "retard 'a few degrees'"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum - 2024 YZ250 linear power",
+    "url": "https://www.vitalmx.com/comment/8689971",
+    "date": "2024"
+   },
+   "confidence": "low",
+   "notes": "Hitliss damper reported mixed. Advice to baseline jetting with stock exhaust and reeds first. No numbers beyond timing."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "domed filter kit peak gain (2020 YZ450F)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "values": {
+    "article text": "+1.35 hp peak",
+    "article figures": "58.56 -> 59.72 hp = +1.16 hp"
+   },
+   "spread": "1.16-1.35 hp",
+   "note": "Internal inconsistency in one source (ej6-008)."
+  },
+  {
+   "topic": "Pro Circuit YZ250 pipe peak rpm",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2013,
+     2021
+    ]
+   },
+   "values": {
+    "2013 shootout (2t-066)": "49.33 hp @ 8,600 rpm",
+    "2021 team test (ej6-032)": "49.33 hp @ 9,600 rpm"
+   },
+   "spread": "1,000 rpm",
+   "note": "Same peak figure, different rpm; likely one is a typo."
+  },
+  {
+   "topic": "stock 2025 vs 2026 YZ450F peak",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "values": {
+    "MXA dyno 2025": "59.5 hp @ 9,700",
+    "MXA dyno 2026": "56.7 hp @ 9,600",
+    "2025 race test": "59.48 hp"
+   },
+   "spread": "2.8 hp year to year on one dyno",
+   "note": "Not a disagreement: shows the 2026 intake/exhaust restriction that the GYTR airbox swap addresses."
+  },
+  {
+   "topic": "KX FI Calibration Kit price",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450",
+     "KX250"
+    ],
+    "years": []
+   },
+   "values": {
+    "kawasaki.json (US)": "about $700",
+    "Kawasaki Australia": "AUD $2,075.94"
+   },
+   "spread": "market/currency",
+   "note": "Different markets; not averaged."
+  }
+ ],
+ "not_found": [
+  {
+   "item": "Independent dyno before/after for any aftermarket exhaust (slip-on or full) on the 2023-2026 YZ450F",
+   "searched": "MXA team tests and pipe shootout (feel only), Vital MX, PulpMX, Keefer, ADB product tests, Dirt Rider dyno tests (stock only), 'YZ450F exhaust dyno 2023/2024'",
+   "result": "Only maker claims (Akrapovic +1.8 kW, Yoshimura 2026 +9.3% @ 6,200) and feel reports"
+  },
+  {
+   "item": "Compression ratio of the 2023-on GYTR high-compression piston BHR-E16A0",
+   "searched": "Yamaha Canada, yamahaonlineparts, PWC Parts listing",
+   "result": "Ratio not published (250F kit is 14:1)"
+  },
+  {
+   "item": "GYTR camshafts or ported head for the 2023-2026 YZ450F",
+   "searched": "GYTR EU catalogue, Yamaha NZ/Canada shops, 'GYTR ported cylinder head YZ450F 2023'",
+   "result": "Only 2018-2022-generation (BR9/1SL) parts found"
+  },
+  {
+   "item": "Dyno numbers for aftermarket ECUs (Vortex etc.) on 2023-on YZ450F, CRF450R, KX450",
+   "searched": "Vortex YZ450F 2023 dyno; Keefer/PulpMX",
+   "result": "Feel only (2020 YZ450F)"
+  },
+  {
+   "item": "Measured aftermarket exhaust dynos for CRF250R 2022+, KX250 2021+, YZ250F 2024+",
+   "searched": "Dirt Rider dyno tests (stock), Keefer, Vital, MXA team tests",
+   "result": "Feel reports and maker claims only"
+  },
+  {
+   "item": "Measured before/after for YZ125 2022+ or YZ250 2024+ pipes, heads, porting",
+   "searched": "Vital project YZ125, MXA, Dirt Bike, owner forums",
+   "result": "2022 YZ125 pipe dyno already in 2t-068; no new numbers"
+  },
+  {
+   "item": "Measured race fuel vs pump dyno on these bikes",
+   "searched": "race fuel dyno YZ450F/CRF450R/KX450",
+   "result": "Only fuel-maker % claims"
+  },
+  {
+   "item": "Big bore kits with measured gains on Japanese 450/250 four-strokes 2020-2026",
+   "searched": "folded into engine build searches",
+   "result": "Nothing measured found"
+  }
+ ],
+ "sources": [
+  "https://adbmag.com.au/editorial/long-term-test-10-2026-yamaha-yz450f/",
+  "https://adbmag.com.au/editorial/product-test-2-gytr-akrapovic-titanium-exhaust/",
+  "https://adbmag.com.au/editorial/product-test-akrapovic-titanium-exhaust/",
+  "https://cdn.yamaha-motor.eu/local_assets/eu/binary/hq/racing/gytr/GYTRPerformanceOffRoadCompetition.pdf",
+  "https://dirtbiketest.com/product-tests/gytr-ported-cylinder-head/",
+  "https://kawasaki.com.au/en-au/shop/maintenance/15827/kx-fi-calibration-kit-(handheld)",
+  "https://keeferinctesting.com/?p=16876",
+  "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450-we/",
+  "https://motocrossactionmag.com/mxa-race-test-2025-yamaha-yz450f/",
+  "https://motocrossactionmag.com/mxa-race-test-2026-yamaha-yz450f/",
+  "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450f/",
+  "https://motocrossactionmag.com/mxa-team-tested-2024-yz450f-twin-air-powerflow-kit-srp-high-flow-airbox-cover/",
+  "https://motocrossactionmag.com/mxa-team-tested-fmf-racings-2025-yamaha-yz250f-slip-on-muffler/",
+  "https://motocrossactionmag.com/mxa-team-tested-pro-circuit-03-21-yz250-pipe-and-silencer/",
+  "https://motocrossactionmag.com/mxa-team-tested-yamaha-gytr-yz450f-airflow-kit/",
+  "https://motocrossactionmag.com/mxas-crazy-trick-to-get-our-2021-yamaha-yz450f-over-60-horsepower/",
+  "https://motocrossactionmag.com/search-for-the-best-the-old-school-way-yamaha-yz450-exhaust-pipe-shootout/",
+  "https://procircuit.com/engine-performance-package-crf450r-rx-2021-2022.html",
+  "https://pulpmx.com/2023/06/14/fmf-4-1-slip-on-2023-yamaha-yz450f/",
+  "https://pulpmx.com/?p=159881",
+  "https://pwcparts.com/yamaha-oem-gytr-high-compression-piston-kit-yz450f-2023-2025-yz450fx-2024-bhr-e16a0-v0-00/",
+  "https://shop.yamaha-motor.co.nz/accessories/off-road/off-road/motocross/yz450f/br9-e21f0-v0",
+  "https://www.cyclenews.com/2026/03/article/yoshimura-yz450f-rs-12-signature-series-exhaust/",
+  "https://www.keeferinctesting.com/2020-4-28-vortex-ignition-for-2020-yz450f/",
+  "https://www.keeferinctesting.com/2021-6-2-pump-replacement-fuel-comparison/",
+  "https://www.keeferinctesting.com/?p=13106",
+  "https://www.keeferinctesting.com/?p=27581",
+  "https://www.procircuit.com/high-compression-piston-yz450f-23.html",
+  "https://www.procycles.com.au/products/yamaha-21386",
+  "https://www.vitalmx.com/comment/8689971",
+  "https://www.vitalmx.com/features/fastest-yz125-ever-project-bike-pro-circuit-yamaha-yz125",
+  "https://www.vitalmx.com/features/fmf-factory-4-1-slip-2024-yamaha-yz450f-tested",
+  "https://www.vitalmx.com/features/pro-circuit-ti-6-exhaust-review-2025-kawasaki-kx250",
+  "https://www.yamaha-motor.ca/en/accessories/motorcycles/performance/gytr-high-compression-piston-kit/BHR-E16A0-V0-00",
+  "https://www.yamaha-motor.ca/en/p/B7B-E16A0-V0-00",
+  "https://yamahaonlineparts.com/products/yamaha-bhr-e16a0-v0-00-gytr-high-comp-piston-yz450f",
+  "https://yoshimura-rd.com/products/crf450r-rx-rs-12-titanium-full-exhaust-w-titanium-muffler-225861s720"
+ ]
+}

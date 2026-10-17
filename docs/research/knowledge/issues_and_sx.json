@@ -1,0 +1,1344 @@
+{
+ "slice": "Round 2 slice A+B: known issues, recalls, supersessions (all makes 2020-2026) and supercross/arenacross setups",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "125 SX",
+   "125 XC",
+   "150 SX",
+   "250 SX",
+   "250 SX-F",
+   "250 XC-F",
+   "350 SX-F",
+   "450 SX-F",
+   "CRF250R",
+   "CRF250RX",
+   "CRF450R",
+   "CRF450RX",
+   "GasGas EC 250",
+   "GasGas EC 300",
+   "GasGas EC 450F",
+   "GasGas EX 250",
+   "GasGas EX 250F",
+   "GasGas EX 300",
+   "GasGas EX 350F",
+   "GasGas EX 450F",
+   "GasGas MC 125",
+   "GasGas MC 250",
+   "GasGas MC 250F",
+   "GasGas MC 350F",
+   "GasGas MC 450F",
+   "Husqvarna FC 250",
+   "Husqvarna FC 350",
+   "Husqvarna FC 450",
+   "Husqvarna FE 450",
+   "Husqvarna FX 350",
+   "Husqvarna FX 450",
+   "Husqvarna TC 125",
+   "Husqvarna TC 250",
+   "Husqvarna TE 150",
+   "Husqvarna TE 250",
+   "Husqvarna TE 300",
+   "Husqvarna TX 300",
+   "KX250",
+   "KX450",
+   "TF 250-X",
+   "TF 450-RC Edition",
+   "YZ125",
+   "YZ250",
+   "YZ250F",
+   "YZ450F"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "ki6-001",
+   "domain": "known_issues",
+   "topic": "front brake caliper recall (US/Canada, CPSC 25-283)",
+   "applies_to": {
+    "make": [
+     "GasGas",
+     "Husqvarna"
+    ],
+    "models": [
+     "GasGas MC 125",
+     "GasGas MC 250",
+     "GasGas MC 250F",
+     "GasGas MC 350F",
+     "GasGas MC 450F",
+     "GasGas EX 250",
+     "GasGas EX 250F",
+     "GasGas EX 300",
+     "GasGas EX 350F",
+     "GasGas EX 450F",
+     "GasGas EC 250",
+     "GasGas EC 300",
+     "GasGas EC 450F",
+     "Husqvarna FE 450",
+     "Husqvarna FX 350",
+     "Husqvarna FX 450",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "In May 2025 about 19,310 US and 3,870 Canadian GasGas and Husqvarna bikes from 2022-2025 were recalled because the front brake caliper can crack and lose braking; stop riding and have a dealer inspect and, if needed, repair it free.",
+   "values": {
+    "recall_number": "CPSC 25-283",
+    "date": "2025-05-15",
+    "units_us": "about 19,310",
+    "units_canada": "about 3,870",
+    "vin_10th_digit": "N (2022), P (2023), R (2024), S (2025)",
+    "incidents": "none reported"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "US Consumer Product Safety Commission recall notice (KTM AG / KTM North America)",
+    "url": "https://www.cpsc.gov/Recalls/2025/KTM-Recalls-Off-Road-Motorcycles-Due-to-Crash-Hazard-Recall",
+    "date": "2025-05"
+   },
+   "confidence": "high",
+   "notes": "Regulator notice. Covers GasGas MC/EX/EC 2023-2025 (EC 250/300 from 2022; MC 150, MC 300 and EW 500F also listed but not in the BAK roster) and Husqvarna 2022 TE 150i/250i/300i, FE 350/501; 2023 FE 450, FX 350, FX 450, TE 150/250/300, TX 300; 2024 FE 450, TE 150/250/300. This is the Braktec front-caliper recall an existing record mentions only for MC 250F; KTM-branded bikes (Brembo) are not included. Husqvarna MX models (FC/TC) are not listed. Owner line 888-985-6090."
+  },
+  {
+   "id": "ki6-002",
+   "domain": "known_issues",
+   "topic": "front brake caliper recall (Australia, PRA 2025/20439)",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 125",
+     "GasGas MC 250",
+     "GasGas MC 250F",
+     "GasGas MC 350F",
+     "GasGas MC 450F",
+     "GasGas EX 250",
+     "GasGas EX 300",
+     "GasGas EX 250F",
+     "GasGas EX 350F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Australia recalled 2022-2025 GasGas MC and EX bikes with Braktec brakes because the front caliper may crack and break, causing brake failure; stop riding and have a GasGas dealer inspect it free.",
+   "values": {
+    "recall_number": "PRA 2025/20439",
+    "model_years": "MY2022-2025"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Australian Competition and Consumer Commission Product Safety Australia recall (KTM Australia)",
+    "url": "https://www.productsafety.gov.au/node/32328",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Australian list also includes MC 150 and MC 300 (not in the BAK roster). Unit count not stated on the page (VIN list attached)."
+  },
+  {
+   "id": "ki6-003",
+   "domain": "known_issues",
+   "topic": "EC front brake caliper recall (Australia, REC-006266)",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EC 250",
+     "GasGas EC 300",
+     "GasGas EC 450F"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "In Australia 1,776 GasGas EC enduro bikes (EC 250 and EC 300 2022-2025, EC 450F 2024-2025) were recalled because a manufacturing defect can let the front brake caliper crack and break.",
+   "values": {
+    "recall_number": "REC-006266",
+    "campaign": "TI 13_2471096",
+    "units": "1,776"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Australian Government Vehicle Recalls (KTM Australia)",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-006266",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Page header gives a 2021-2024 model-year range but the variant list says 2022-2025; recorded in conflicts. Also covers EC 125, EC 250F, EC 350F, EC 500F (not in roster)."
+  },
+  {
+   "id": "ki6-004",
+   "domain": "known_issues",
+   "topic": "EC front caliper split-pin recall (Australia, REC-004948)",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "About 1,185 Australian GasGas EC bikes from 2021-2022 were recalled because the front caliper split pins that hold the pad bracket may be fitted backwards and fall out, letting the bracket detach; a dealer re-fits them free. Owners can check that the split pins are in place and secured.",
+   "values": {
+    "recall_number": "REC-004948",
+    "campaign": "TI 13_1945158",
+    "units": "1,185"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Australian Government Vehicle Recalls (KTM Australia)",
+    "url": "https://www.vehiclerecalls.gov.au/recalls/rec-004948",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Listing range says 2020-2021 but the defect text says MY21 and MY22. Also covers EC 250F and EC 350F (not in roster)."
+  },
+  {
+   "id": "ki6-005",
+   "domain": "known_issues",
+   "topic": "rear brake caliper recall: full model scope (CPSC fast-track, Aug 2026)",
+   "applies_to": {
+    "make": [
+     "GasGas",
+     "Husqvarna"
+    ],
+    "models": [
+     "GasGas MC 125",
+     "GasGas MC 250",
+     "GasGas MC 250F",
+     "GasGas MC 350F",
+     "GasGas MC 450F",
+     "GasGas EX 250",
+     "GasGas EX 250F",
+     "GasGas EX 300",
+     "GasGas EX 350F",
+     "GasGas EX 450F",
+     "GasGas EC 250",
+     "GasGas EC 300",
+     "GasGas EC 450F",
+     "Husqvarna FE 450",
+     "Husqvarna FX 350",
+     "Husqvarna FX 450",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "The August 2026 rear-caliper recall (about 21,040 US and 4,140 Canadian bikes) is wider than off-road models: it also covers 2021-2024 GasGas MC 125, MC 250, MC 250F, MC 350F and MC 450F plus EC/EX models, and 2022-2024 Husqvarna TE, TX, FE and FX models. The caliper can crack; stop riding until repaired.",
+   "values": {
+    "date": "2026-08-20",
+    "units_us": "about 21,040",
+    "units_canada": "about 4,140",
+    "type": "CPSC Fast Track, joint with Transport Canada"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "RideApart summary of the CPSC/Transport Canada notice",
+    "url": "https://www.rideapart.com/news/805637/husqvarna-gasgas-rear-brake-caliper-recall-stop-ride-notice/",
+    "date": "2026-08"
+   },
+   "confidence": "medium",
+   "notes": "Secondary report of the regulator notice; the existing ktm_offroad_4t record lists only Husqvarna FX/FE and GasGas EX/EC four-strokes. NHTSA documents 26V443 relate to this campaign. No injuries reported at announcement."
+  },
+  {
+   "id": "ki6-006",
+   "domain": "known_issues",
+   "topic": "2022 125/150 CDI rev-limiter connecting rod recall (US, CPSC 22-762)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "125 SX",
+     "125 XC",
+     "150 SX",
+     "Husqvarna TC 125",
+     "GasGas MC 125"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "About 3,310 2022 KTM 125 SX, 125 XC, 150 SX, Husqvarna TC 125 and GasGas MC 125 bikes were recalled in July 2022 because the CDI rev-limiter setting can let the connecting rod break; dealers replace the CDI box free. A 2022 125/150 bought used should be checked for this repair.",
+   "values": {
+    "recall_number": "CPSC 22-762",
+    "date": "2022-07-28",
+    "units_us": "about 3,310",
+    "remedy": "replace CDI box",
+    "canada": "Transport Canada 2022141 (published 2022-03-25)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "US CPSC recall alert (KTM North America); Transport Canada 2022141",
+    "url": "https://www.cpsc.gov/Recalls/2022/KTM-North-America-Recalls-Closed-Course-Competition-Motorcycles-Due-to-Crash-and-Injury-Hazards-Recall-Alert",
+    "date": "2022-07"
+   },
+   "confidence": "high",
+   "notes": "Transport Canada notice (https://recalls-rappels.canada.ca/en/alert-recall/transport-canada-recall-2022141) names the CDI rev-limiter as the cause and gives the same five models. No incidents reported in the US notice."
+  },
+  {
+   "id": "ki6-007",
+   "domain": "known_issues",
+   "topic": "2022 125/150 SX conrod recall (Australia, PRA 2022/19427)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX",
+     "150 SX"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "In Australia 260 2022 KTM 125 SX and 150 SX bikes were recalled because the rev-limiter setting may let the connecting rod break; the repair is free.",
+   "values": {
+    "recall_number": "PRA 2022/19427",
+    "units": "260 (extended 27 June 2022)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "ACCC Product Safety Australia (KTM Australia)",
+    "url": "https://www.productsafety.gov.au/node/21289",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ki6-008",
+   "domain": "known_issues",
+   "topic": "2022 MC 125 conrod recall (Australia, PRA 2022/19428)",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 125"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "In Australia 86 2022 GasGas MC 125 bikes were recalled because the rev-limiter setting may let the connecting rod break; repair is free.",
+   "values": {
+    "recall_number": "PRA 2022/19428",
+    "units": "86 (extended 27 Sept 2022)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "ACCC Product Safety Australia (KTM Australia)",
+    "url": "https://www.productsafety.gov.au/node/21290",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "A matching Husqvarna TC 125 Australian extended recall page exists (HQVA Pty Ltd) but was not fetched."
+  },
+  {
+   "id": "ki6-009",
+   "domain": "known_issues",
+   "topic": "2021 450 SX-F shift drum recall (Australia, PRA 2021/19116)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Five 2021 KTM 450 SX-F bikes in Australia were recalled because a defective shift drum may have been fitted and could break while riding; dealers replace it free.",
+   "values": {
+    "recall_number": "PRA 2021/19116",
+    "units": "5"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "ACCC Product Safety Australia (KTM Australia)",
+    "url": "https://www.productsafety.gov.au/node/20859",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Very small batch; no matching US/Canadian notice was found in this search round."
+  },
+  {
+   "id": "ki6-010",
+   "domain": "known_issues",
+   "topic": "2021 MC drive chain recall (Australia, PRA 2021/18842)",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 125",
+     "GasGas MC 250F",
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "2021 GasGas MC 125, MC 250F and MC 450F bikes built between 20 November 2020 and 13 January 2021 were recalled in Australia because the drive chain may break or come loose; dealers replace the chain free.",
+   "values": {
+    "recall_number": "PRA 2021/18842",
+    "units": "201 (ACCC page) / 197 (published notice copy)",
+    "build_window": "2020-11-20 to 2021-01-13",
+    "published": "2021-03-29"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "ACCC Product Safety Australia (KTM Australia)",
+    "url": "https://www.productsafety.gov.au/node/20646",
+    "date": "2021-03"
+   },
+   "confidence": "high",
+   "notes": "Unit count differs between the ACCC page (201) and a copy of the notice on a consumer forum (197); see conflicts. Same period as Honda's 2021 CRF450R drive-chain recall, suggesting a common chain batch issue is possible but not confirmed."
+  },
+  {
+   "id": "ki6-011",
+   "domain": "known_issues",
+   "topic": "handlebar clamp recall (Australia)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF250R",
+     "CRF250RX",
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Australia recalled CRF250R/RX/RW and CRF450R/RX/RW bikes built 25 July 2024 to 15 April 2026 because the handlebar may not be clamped tightly enough and can move; stop riding until inspected, with parts due mid-May 2026.",
+   "values": {
+    "build_window": "2024-07-25 to 2026-04-15",
+    "parts_available": "mid-May 2026"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "YourLifeChoices summary of the Honda Australia recall",
+    "url": "https://www.yourlifechoices.com.au/retail/dirt-bikes-recalled-over-deadly-defect-what-australian-riders-need-to-know/",
+    "date": "2026-04"
+   },
+   "confidence": "medium",
+   "notes": "Australian counterpart to US CPSC 26-458 (already in honda450/honda250 files). Unit count not stated; PRA number not given in the article."
+  },
+  {
+   "id": "ki6-012",
+   "domain": "known_issues",
+   "topic": "2022 fuel pump recall (Australia, PRA 2023/19769)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250",
+     "KX450"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Australian 2022 KX250 and KX450 bikes sold 1 June 2021 to 22 March 2023 were recalled because a badly made fuel pump can cause hard starting and a stall that will not restart; dealers check and replace the pump.",
+   "values": {
+    "recall_number": "PRA 2023/19769",
+    "sale_window": "2021-06-01 to 2023-03-22",
+    "model_codes": "KX252CNFNN/DNFNN, KX450JNFNN/KNFNN"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "ACCC recall advertisement (Kawasaki Motors Pty Ltd)",
+    "url": "https://www.productsafety.gov.au/system/files/recall/Recall%20Advertisement%20-%209%20May%202023.pdf",
+    "date": "2023-05"
+   },
+   "confidence": "high",
+   "notes": "Australian counterpart to the US 2022 KX fuel pump recall already in kawasaki.json. Symptom to watch: hard starting or stalling that will not restart."
+  },
+  {
+   "id": "ki6-013",
+   "domain": "known_issues",
+   "topic": "2022 YZ125 shift detent recall (US, CPSC 22-746)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "About 760 2022 YZ125s were recalled in April 2022 because the gear shift assembly can come loose from the crankcase and shift gears on its own; dealers repair it free.",
+   "values": {
+    "recall_number": "CPSC 22-746",
+    "date": "2022-04-28",
+    "units": "about 760",
+    "model_codes": "YZ125N2L, YZ125N2ME"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "US CPSC recall alert (Yamaha Motor Corp. USA)",
+    "url": "https://www.cpsc.gov/Recalls/2022/Yamaha-Recalls-Competition-Off-Road-Motorcycles-Due-to-Crash-Hazard-Recall-Alert",
+    "date": "2022-04"
+   },
+   "confidence": "high",
+   "notes": "Early warning signs: unexpected gear changes or failure to select a gear."
+  },
+  {
+   "id": "ki6-014",
+   "domain": "known_issues",
+   "topic": "2022 YZ125 detent spring recall (Australia/NZ)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Yamaha Australia says the 2022 YZ125 shift selector detent spring may dislodge, causing unexpected shifts or no gear selection; dealers did a free inspection and temporary fix, with repair parts from the end of February 2022.",
+   "values": {
+    "part": "shift selector detent spring",
+    "parts_available": "end of February 2022"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "ACCC Product Safety Australia (Yamaha Motor Australia)",
+    "url": "https://productsafety.gov.au/recalls/yamaha-motor-australia-pty-ltd-%E2%80%94-yamaha-yz125spnyz125n-motorcycles-my2022",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Names the exact failed part (detent spring) that the US notice describes only as the gear shift assembly."
+  },
+  {
+   "id": "ki6-015",
+   "domain": "known_issues",
+   "topic": "hydraulic clutch cuts out: pinched crankcase breather hose",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F",
+     "Husqvarna FC 250",
+     "Husqvarna FC 350",
+     "Husqvarna FC 450",
+     "GasGas MC 250F",
+     "GasGas MC 350F",
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "If the hydraulic clutch sometimes works and sometimes has no lever pressure, check the crankcase breather hose routing before replacing the slave cylinder: a pinched hose builds crankcase pressure that pushes the slave cylinder back. It is often caused by wrong routing after greasing the linkage.",
+   "values": {
+    "symptom": "intermittent engagement, zero lever pressure",
+    "false_fix": "new slave cylinder and bleed did not cure it"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing",
+    "url": "https://www.keeferinctesting.com/clutch-problems-proper-breather-hose-routing-on-husqvarna-ktm-gas-gas",
+    "date": "2022-07"
+   },
+   "confidence": "medium",
+   "notes": "Found on a 2023 Husqvarna FC 350 test bike; the tester says dealers and owners see the same after linkage service. Applied to the 2023-on four-stroke MX family that shares the hose layout; earlier and off-road models may be similar but are not confirmed."
+  },
+  {
+   "id": "ki6-016",
+   "domain": "known_issues",
+   "topic": "hard-to-find neutral: detent machining mod (disputed)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "One owner made neutral easier to find by machining the neutral notch of the shift star about 1/32 in (0.8 mm) deeper, a two-hour job; others warn it can cause false neutrals from 2nd and extra wear, so it is not recommended. The usual fix remains selecting neutral as revs drop with the clutch in.",
+   "values": {
+    "mod_depth": "about 1/32 in deeper neutral detent",
+    "labour": "about 2 h (clutch and side cover off)",
+    "part_cost": "US$20-30"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum thread",
+    "url": "https://www.vitalmx.com/comment/6071006",
+    "date": "2024-01"
+   },
+   "confidence": "low",
+   "notes": "Single owner's result, disputed by several replies (false-neutral and liability concerns). The owner says KTM changed the detent-lever part material in 2018. Model not named; recorded against the SX-F family as the likely bikes. Not a manufacturer fix."
+  },
+  {
+   "id": "ki6-017",
+   "domain": "known_issues",
+   "topic": "cam oil starvation report (2020 XC-F)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 XC-F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "One owner's 2020 250 XC-F seized its cams at about 20 hours after debris blocked an oil passage; he had seen metal on the drain-plug magnet at the first two oil changes. Metal on the magnet or filter early on is a warning sign worth a dealer check.",
+   "values": {
+    "hours_at_failure": "about 20 h",
+    "oil_changes_before_failure": "6 (first at 0.5 h)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum thread",
+    "url": "https://www.vitalmx.com/comment/3957465",
+    "date": "2020"
+   },
+   "confidence": "low",
+   "notes": "Single report; cause disputed (dealer blamed debris introduced at an oil change, owner disagreed). Not evidence of a pattern; recorded for its early-warning value only."
+  },
+  {
+   "id": "ki6-018",
+   "domain": "setups",
+   "topic": "supercross vs motocross suspension direction (pro)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas",
+     "Triumph",
+     "Yamaha",
+     "Honda",
+     "Kawasaki"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F",
+     "Husqvarna FC 250",
+     "Husqvarna FC 350",
+     "Husqvarna FC 450",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250",
+     "GasGas MC 125",
+     "GasGas MC 250",
+     "GasGas MC 250F",
+     "GasGas MC 350F",
+     "GasGas MC 450F",
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "YZ125",
+     "YZ250",
+     "YZ250F",
+     "YZ450F",
+     "CRF250R",
+     "CRF450R",
+     "KX250",
+     "KX450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Pro supercross bikes run up to about 25% more compression damping than for motocross, with stiffer fork springs, slightly stiffer shock springs and more rebound, and sit lower for stability in the whoops. The aim is not to bottom on big jumps and triples while keeping traction out of turns.",
+   "values": {
+    "compression_vs_mx": "up to about +25%",
+    "fork_spring": "stiffer",
+    "shock_spring": "slightly stiffer",
+    "ride_height": "lowered"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "race team",
+    "name": "World Supercross Championship technical feature (suspension specialist interview)",
+    "url": "https://worldsupercrosschampionship.com/tech-tuesday-refining-the-racing-with-suspension/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Pro-level kit suspension; about 90% of setup is done in pre-season testing and 10% on the day. Rider preference splits on the rear: some want it soft out of flat turns, others stiffer for traction on slick tracks. Amateurs on stock suspension should move in the same direction in smaller steps. Exact publication date not shown; year approximate."
+  },
+  {
+   "id": "ki6-019",
+   "domain": "setups",
+   "topic": "supercross gearing vs outdoor",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas",
+     "Triumph",
+     "Yamaha",
+     "Honda",
+     "Kawasaki"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F",
+     "Husqvarna FC 250",
+     "Husqvarna FC 350",
+     "Husqvarna FC 450",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250",
+     "GasGas MC 125",
+     "GasGas MC 250",
+     "GasGas MC 250F",
+     "GasGas MC 350F",
+     "GasGas MC 450F",
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "YZ125",
+     "YZ250",
+     "YZ250F",
+     "YZ450F",
+     "CRF250R",
+     "CRF450R",
+     "KX250",
+     "KX450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Supercross teams usually run a rear sprocket 2-3 teeth larger than for motocross for quicker pull out of short sections, then fine-tune by one rear tooth for dirt and weather while leaving the front sprocket alone (one front tooth equals about three rear).",
+   "values": {
+    "rear_vs_outdoor": "+2 to +3 teeth",
+    "fine_tune": "+/-1 rear tooth",
+    "front": "unchanged"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "race team",
+    "name": "Just Bikes feature on an Australian supercross team's YZ450F",
+    "url": "https://www.justbikes.com.au/news-and-reviews/setting-up-for-super-x/7959",
+    "date": "2011-02"
+   },
+   "confidence": "medium",
+   "notes": "Source predates 2020 (2010-11 YZ450F) but the principle is model-independent. A rider wanting a calmer bike went the other way: taller gearing and lower revs. For an amateur 450 this direction often means one or two teeth more on the rear; check against BAK speed-per-gear tables."
+  },
+  {
+   "id": "ki6-020",
+   "domain": "setups",
+   "topic": "supercross mapping and fuelling direction",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas",
+     "Triumph",
+     "Yamaha",
+     "Honda",
+     "Kawasaki"
+    ],
+    "models": [
+     "YZ450F",
+     "CRF450R",
+     "KX450",
+     "450 SX-F",
+     "Husqvarna FC 450",
+     "GasGas MC 450F",
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Supercross sections are short, so teams want sharper throttle response, but on hard-packed tracks they richen the low-range fuelling to soften the hit; wet rounds get a separate ignition curve.",
+   "values": {
+    "low_range": "richer on hard pack to mellow",
+    "track_change": "usually one curve per SX track; separate wet curve"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "race team",
+    "name": "Just Bikes feature on an Australian supercross team's YZ450F",
+    "url": "https://www.justbikes.com.au/news-and-reviews/setting-up-for-super-x/7959",
+    "date": "2011-02"
+   },
+   "confidence": "low",
+   "notes": "Older programmable-ignition era; on current bikes the equivalent is the mellow map or traction control on slick or hard-pack dirt. Exhaust was left unchanged."
+  },
+  {
+   "id": "ki6-021",
+   "domain": "setups",
+   "topic": "supercross tyres: compound choice",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas",
+     "Triumph",
+     "Yamaha",
+     "Honda",
+     "Kawasaki"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F",
+     "Husqvarna FC 250",
+     "Husqvarna FC 350",
+     "Husqvarna FC 450",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250",
+     "GasGas MC 125",
+     "GasGas MC 250",
+     "GasGas MC 250F",
+     "GasGas MC 350F",
+     "GasGas MC 450F",
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "YZ125",
+     "YZ250",
+     "YZ250F",
+     "YZ450F",
+     "CRF250R",
+     "CRF450R",
+     "KX250",
+     "KX450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Supercross dirt is usually harder-packed, so teams pick the hard-terrain tyre where an outdoor track would get an intermediate, switch to a soft or sand tyre in mud, and pick after sighting laps; scoop rear tyres show up on rutted or muddy nights.",
+   "values": {
+    "dry_hardpack": "hard-terrain tyre",
+    "outdoor_typical": "intermediate",
+    "mud": "soft/sand or scoop rear"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "race team",
+    "name": "Just Bikes team feature (2011); Vital MX Pit Bits 2024 Daytona and 2026 Indianapolis",
+    "url": "https://www.justbikes.com.au/news-and-reviews/setting-up-for-super-x/7959",
+    "date": "2011-02"
+   },
+   "confidence": "medium",
+   "notes": "The pit reports (https://www.vitalmx.com/features/vital-mx-pit-bits-2024-daytona-supercross, https://www.vitalmx.com/features/vital-mx-pit-bits-2026-indianapolis-supercross) note scoop tyres on the soft, rutted Daytona and Indianapolis tracks. No published supercross tyre pressures were found."
+  },
+  {
+   "id": "ki6-022",
+   "domain": "setups",
+   "topic": "tyre pressure baseline (useful indoors on hard pack)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas",
+     "Triumph",
+     "Yamaha",
+     "Honda",
+     "Kawasaki"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F",
+     "Husqvarna FC 250",
+     "Husqvarna FC 350",
+     "Husqvarna FC 450",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250",
+     "GasGas MC 125",
+     "GasGas MC 250",
+     "GasGas MC 250F",
+     "GasGas MC 350F",
+     "GasGas MC 450F",
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "YZ125",
+     "YZ250",
+     "YZ250F",
+     "YZ450F",
+     "CRF250R",
+     "CRF450R",
+     "KX250",
+     "KX450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A tester's 2025 pressure baseline runs 12-14 psi: Dunlop MX34 13 front/12.5 rear, MX33 12.5/12, Pirelli MX32 Mid Soft Stadium 13/13.5, MX32 Mid Hard 13.5/13. Riders over 220 lb add 0.5-1 psi, and pressure rises as tyres heat, so recheck after long sessions.",
+   "values": {
+    "MX34": "13 / 12.5 psi",
+    "MX34_race_spec": "12 / 12 psi",
+    "MX33": "12.5 / 12 psi",
+    "MX32_mid_soft_stadium": "13 / 13.5 psi",
+    "MX32_mid_hard": "13.5 / 13 psi",
+    "heavy_rider": "+0.5 to +1 psi over 220 lb"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing tire pressure settings 2025",
+    "url": "https://www.keeferinctesting.com/tire-pressure-settings-bible-2025/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "General motocross baselines with standard or HD tubes, not supercross-specific. Indoors the dirt is slick and hard, so most riders stay at the low end; heat build-up matters less in short arenacross motos."
+  },
+  {
+   "id": "ki6-023",
+   "domain": "setups",
+   "topic": "stadium vs supercross vs outdoor: pro teams swap setups",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas",
+     "Triumph",
+     "Yamaha",
+     "Honda",
+     "Kawasaki"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F",
+     "Husqvarna FC 250",
+     "Husqvarna FC 350",
+     "Husqvarna FC 450",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250",
+     "GasGas MC 125",
+     "GasGas MC 250",
+     "GasGas MC 250F",
+     "GasGas MC 350F",
+     "GasGas MC 450F",
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "YZ125",
+     "YZ250",
+     "YZ250F",
+     "YZ450F",
+     "CRF250R",
+     "CRF450R",
+     "KX250",
+     "KX450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "When a stadium round is built like an outdoor track, nearly every pro team swaps from its supercross suspension and chassis setup to its outdoor one, several move from air forks to spring forks, and some re-gear and cut new chains for the bigger layout. Supercross setup is a separate, firmer package, not a clicker tweak.",
+   "values": {
+    "change": "SX setup -> outdoor setup for open stadium layouts",
+    "forks": "some air -> spring",
+    "gearing": "changed for larger track"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "race team",
+    "name": "Vital MX Pit Bits, 2023 Chicago SuperMotocross",
+    "url": "https://www.vitalmx.com/features/vital-mx-pit-bits-2023-chicago-supermotocross-pre-race",
+    "date": "2023-09"
+   },
+   "confidence": "medium",
+   "notes": "One 250 team swapped from Showa A-kit (SX) to KYB with a PSF1 air cartridge (outdoors); another rider returned to stock clamps as used outdoors."
+  },
+  {
+   "id": "ki6-024",
+   "domain": "setups",
+   "topic": "air vs spring forks for supercross",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Honda"
+    ],
+    "models": [
+     "450 SX-F",
+     "CRF450R"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "Factory riders split on air versus spring forks for supercross: one switched from air to spring forks in 2026 for better front-end feel and traction, while a teammate went from spring back to air for better balance. Springs stay more consistent through a moto; air is lighter and quick to tune.",
+   "values": {
+    "2026_change_a": "air -> spring (front feel, traction)",
+    "2026_change_b": "spring -> air (balance)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "race team",
+    "name": "Vital MX Pit Bits, 2026 Indianapolis Supercross",
+    "url": "https://www.vitalmx.com/features/vital-mx-pit-bits-2026-indianapolis-supercross",
+    "date": "2026-03"
+   },
+   "confidence": "medium",
+   "notes": "A forum suspension tuner notes air pressure can rise 2-4 psi during a ride and air ramps up quickly, the main reason riders convert to springs (Vital MX forum, 2022 TC 250 thread). The same 2026 report says a factory 450 used a production 25 mm cartridge in works tubes with an 18 mm-shaft shock rather than the usual 27 mm kit cartridge."
+  },
+  {
+   "id": "ki6-025",
+   "domain": "setups",
+   "topic": "factory 250 supercross chassis details",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The factory TF 250-X supercross bikes ran the forks flush in the clamps, a solid (stiffer) top engine mount instead of the hollow production part, and slightly different shock pull-rod lengths per rider (139 and 139.5 mm).",
+   "values": {
+    "fork_height": "flush",
+    "pull_rod": "139.0 and 139.5 mm",
+    "top_engine_mount": "solid instead of hollow"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "race team",
+    "name": "Vital MX Pit Bits, 2024 Daytona Supercross",
+    "url": "https://www.vitalmx.com/features/vital-mx-pit-bits-2024-daytona-supercross",
+    "date": "2024-03"
+   },
+   "confidence": "medium",
+   "notes": "Factory bikes also had a different airbox, upgraded Brembo brakes and data logging. In 2024 Triumph raced only the 250 class in supercross, so this is assigned to the TF 250-X. Daytona is a hybrid sand-based track, not a typical stadium."
+  },
+  {
+   "id": "ki6-026",
+   "domain": "setups",
+   "topic": "factory 450 supercross chassis details",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Yamaha"
+    ],
+    "models": [
+     "450 SX-F",
+     "YZ450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "At 2024 Daytona the factory KTM 450 ran a modified production WP shock and new rubber-mounted top triple clamps, while a Yamaha team replaced the stacked front engine-mount plates with a thicker one-piece aluminium mount, both to tune frame flex and front feel.",
+   "values": {
+    "ktm_top_clamp": "rubber-mounted instead of solid",
+    "ktm_shock": "modified production WP",
+    "yamaha_front_mount": "one-piece thicker aluminium instead of two stacked plates"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "race team",
+    "name": "Vital MX Pit Bits, 2024 Daytona Supercross",
+    "url": "https://www.vitalmx.com/features/vital-mx-pit-bits-2024-daytona-supercross",
+    "date": "2024-03"
+   },
+   "confidence": "medium",
+   "notes": "The reason (flex tuning) is our reading; the report shows the parts but does not give the teams' stated aims. The Yamaha team ran hybrid KYB LSF forks."
+  },
+  {
+   "id": "ki6-027",
+   "domain": "setups",
+   "topic": "hydraulic clutch master cylinder swaps (2026 YZ450F)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Factory 2026 YZ450F supercross bikes did not use the production Nissin clutch master cylinder: one ran a complete aftermarket hydraulic unit and another an older Brembo unit, pointing to lever feel and consistency on hard starts as a priority indoors.",
+   "values": {
+    "stock": "Nissin hydraulic master cylinder",
+    "factory": "aftermarket complete unit or Brembo"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "race team",
+    "name": "Vital MX Pit Bits, 2026 Indianapolis Supercross",
+    "url": "https://www.vitalmx.com/features/vital-mx-pit-bits-2026-indianapolis-supercross",
+    "date": "2026-03"
+   },
+   "confidence": "low",
+   "notes": "Pit observation only; no performance data."
+  },
+  {
+   "id": "ki6-028",
+   "domain": "setups",
+   "topic": "fully built supercross 250F is hard on clutches",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "A fully built KX250 supercross engine is reported to be hard on clutches, so racers on modified KX250s indoors should plan more frequent clutch checks.",
+   "values": {
+    "note": "clutch wear increases with full SX engine build"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "race team",
+    "name": "Vital MX Pit Bits, 2026 Indianapolis Supercross",
+    "url": "https://www.vitalmx.com/features/vital-mx-pit-bits-2026-indianapolis-supercross",
+    "date": "2026-03"
+   },
+   "confidence": "low",
+   "notes": "Hearsay in the report ('has heard'); no hours or plate data given. The same bike used a start light on a Vortex ECU."
+  },
+  {
+   "id": "ki6-029",
+   "domain": "setups",
+   "topic": "arenacross vs supercross setup",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas",
+     "Triumph",
+     "Yamaha",
+     "Honda",
+     "Kawasaki"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F",
+     "Husqvarna FC 250",
+     "Husqvarna FC 350",
+     "Husqvarna FC 450",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250",
+     "GasGas MC 125",
+     "GasGas MC 250",
+     "GasGas MC 250F",
+     "GasGas MC 350F",
+     "GasGas MC 450F",
+     "TF 250-X",
+     "TF 450-RC Edition",
+     "YZ125",
+     "YZ250",
+     "YZ250F",
+     "YZ450F",
+     "CRF250R",
+     "CRF450R",
+     "KX250",
+     "KX450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Arenacross bikes are set up stiffer than supercross bikes because arena whoops are usually taller and steeper, jumps are steeper in the small space and turns are tighter at similar entry speeds; strong, controllable bottom-end power matters more than top end.",
+   "values": {
+    "suspension": "stiffer than SX",
+    "priority": "bottom-end torque over top end"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News (arenacross bike test feature)",
+    "url": "https://magazine.cyclenews.com/i/120650/63",
+    "date": "2013-04"
+   },
+   "confidence": "low",
+   "notes": "Source predates 2020 and gives no numbers; the direction is still consistent with current practice. Arenacross dirt is a thin layer over a concrete floor and gets slick, which also favours a soft, traction-friendly power map; that last point is general knowledge, not from this source."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "Husqvarna/GasGas rear brake caliper recall scope (Aug 2026)",
+   "ids": [
+    "ki6-005"
+   ],
+   "detail": "Existing ktm_offroad_4t record lists only Husqvarna FX 350/FX 450/FE 450 and GasGas EX/EC four-strokes; the recall summary used here also lists GasGas MC 125/250/250F/350F/450F (2021-2024), EC/EX two-strokes and Husqvarna TE/TX two-strokes. Unit counts agree (about 21,040 US, 4,140 Canada)."
+  },
+  {
+   "topic": "GasGas 2021 MC drive chain recall unit count",
+   "ids": [
+    "ki6-010"
+   ],
+   "detail": "ACCC page says 201 bikes; a copy of the published notice says 197."
+  },
+  {
+   "topic": "GasGas EC front caliper (Australia) model years",
+   "ids": [
+    "ki6-003"
+   ],
+   "detail": "Listing header 2021-2024 vs variant list 2022-2025."
+  },
+  {
+   "topic": "Air vs spring forks for supercross",
+   "ids": [
+    "ki6-024"
+   ],
+   "detail": "Factory riders moved in opposite directions in 2026 (air->spring for front feel; spring->air for balance); no consensus."
+  },
+  {
+   "topic": "Supercross rear suspension preference",
+   "ids": [
+    "ki6-018"
+   ],
+   "detail": "Some pros want a softer rear for drive out of flat turns, others stiffer for traction on slick tracks."
+  }
+ ],
+ "not_found": [
+  "KBA (Germany) recall details for KTM off-road models: the motorradundreisen.de list shows KTM recalls dated 07/2022 (ignition control unit able to break the conrod, 3 models - probably the 2022 125/150 CDI recall), 03/2023 (wiring harness), 11/2025 (fuel leak), 12/2025 (drive failure) and 01/2026, but gives no model mapping or KBA numbers; KBA database not searched directly.",
+  "Recurring KTM/Husqvarna/GasGas 2023-2026 four-stroke water pump, stator, cam chain or valve-recession failures: searches found no sourced pattern (only single anecdotes); no service bulletins found.",
+  "Triumph TF bulletins beyond those already in triumph_* files: none found; 2026 TF 250-X Exedy clutch already recorded.",
+  "Yamaha and Kawasaki 2023-2026 recalls for roster models beyond those already in the files: none found in CPSC/Transport Canada/ACCC searches (Canadian Yamaha notices found were road models).",
+  "Published arenacross setup numbers (gearing, tyre pressures, clicker counts, maps): none found; dirtrider.net arenacross tips thread failed to load (server error).",
+  "Amateur supercross baseline numbers per bike: none found; ThumperTalk 'Supercross settings' thread failed to load (client error).",
+  "Supercross-specific tyre pressures: no source gives pressures by surface; only general MX baselines.",
+  "Honda CRF450R 2021+ intake valve tightening rate: no measured data found; manual check interval 15 hours / 6 races cited by a parts site."
+ ],
+ "sources": [
+  "https://autoinformed.com/?p=103086",
+  "https://choice.community/t/ktm-australia-pty-ltd-gasgas-mc-125-mc-250f-and-mc-450f-motorcycles-my2021-recall/23921",
+  "https://enduro21.com/en/news/first-look-2026-triumph-tf-250-x-power-handling-and-end-user-changes-for-2026",
+  "https://magazine.cyclenews.com/i/120650/63",
+  "https://productsafety.gov.au/recalls/yamaha-motor-australia-pty-ltd-%E2%80%94-yamaha-yz125spnyz125n-motorcycles-my2022",
+  "https://recalls-rappels.canada.ca/en/alert-recall/transport-canada-recall-2022141",
+  "https://worldsupercrosschampionship.com/tech-tuesday-refining-the-racing-with-suspension/",
+  "https://www.cpsc.gov/Recalls/2022/KTM-North-America-Recalls-Closed-Course-Competition-Motorcycles-Due-to-Crash-and-Injury-Hazards-Recall-Alert",
+  "https://www.cpsc.gov/Recalls/2022/Yamaha-Recalls-Competition-Off-Road-Motorcycles-Due-to-Crash-Hazard-Recall-Alert",
+  "https://www.cpsc.gov/Recalls/2025/KTM-Recalls-Off-Road-Motorcycles-Due-to-Crash-Hazard-Recall",
+  "https://www.crfsonly.com/howto/450r/valve-check/450r-valve-check.php",
+  "https://www.justbikes.com.au/news-and-reviews/setting-up-for-super-x/7959",
+  "https://www.keeferinctesting.com/clutch-problems-proper-breather-hose-routing-on-husqvarna-ktm-gas-gas",
+  "https://www.keeferinctesting.com/tire-pressure-settings-bible-2025/",
+  "https://www.motorradundreisen.de/motorrad-rueckrufe/ktm/",
+  "https://www.mxlarge.com/news/suspension-wsx",
+  "https://www.productsafety.gov.au/node/20646",
+  "https://www.productsafety.gov.au/node/20859",
+  "https://www.productsafety.gov.au/node/21289",
+  "https://www.productsafety.gov.au/node/21290",
+  "https://www.productsafety.gov.au/node/32328",
+  "https://www.productsafety.gov.au/system/files/recall/Recall%20Advertisement%20-%209%20May%202023.pdf",
+  "https://www.rideapart.com/news/805637/husqvarna-gasgas-rear-brake-caliper-recall-stop-ride-notice/",
+  "https://www.vehiclerecalls.gov.au/recalls/rec-004948",
+  "https://www.vehiclerecalls.gov.au/recalls/rec-006266",
+  "https://www.vitalmx.com/comment/3957465",
+  "https://www.vitalmx.com/comment/6071006",
+  "https://www.vitalmx.com/features/vital-mx-pit-bits-2023-chicago-supermotocross-pre-race",
+  "https://www.vitalmx.com/features/vital-mx-pit-bits-2024-daytona-supercross",
+  "https://www.vitalmx.com/features/vital-mx-pit-bits-2026-indianapolis-supercross",
+  "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/22-TC250-for-returning-racer,1398795",
+  "https://www.webbikeworld.com/yamahas-competition-off-road-motorcycles-recalled-due-to-faulty-gear-shift/",
+  "https://www.yourlifechoices.com.au/retail/dirt-bikes-recalled-over-deadly-defect-what-australian-riders-need-to-know/"
+ ]
+}

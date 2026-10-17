@@ -1,0 +1,1059 @@
+{
+ "slice": "engine modifications with measured before/after effects: KTM, Husqvarna, GasGas, Triumph 2020-2026",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "450 SX-F",
+   "Husqvarna FC 450",
+   "GasGas MC 450F",
+   "250 SX-F",
+   "350 SX-F",
+   "125 SX",
+   "150 SX",
+   "250 SX",
+   "300 SX",
+   "Husqvarna TC 125",
+   "Husqvarna TC 150",
+   "Husqvarna TC 250",
+   "GasGas MC 125",
+   "GasGas MC 250",
+   "TF 250-X",
+   "TF 450-RC Edition",
+   "TF 450-X"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "em6-001",
+   "domain": "engine_mods",
+   "topic": "ECU reflash (mail-in, stock ECU)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F",
+     "450 XCF-W"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A $399 mail-in reflash of the stock ECU is advertised as raising output from about 50 to 55 rear-wheel hp on 93-octane pump fuel, with over 6 hp more at the top of the rev range where the stock map goes flat. The stock map stays on the white button and the tuned file goes on the green button.",
+   "values": {
+    "price": "$399",
+    "stock_peak": "50 whp (pump gas, 5th gear)",
+    "tuned_peak": "55 whp (93 pump gas, 5th gear)",
+    "top_end_gain": ">6 whp",
+    "torque_listed": "51 -> 56 'WTQ' (units as published)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "BT Moto: 20-27 KTM 450 (All) Mail-In ECU Tuning",
+    "url": "https://bt-moto.com/product/ktm-450-mail-in-ecu-tuning",
+    "date": "2026"
+   },
+   "confidence": "low",
+   "notes": "Vendor's own dyno; dyno brand, correction and model year of the test bike not stated. Changes listed: throttle/fuel de-restriction, reshaped torque model, ignition timing, lambda limiters, rev limit (value not given), engine braking, start fuelling. No handheld option; ECU must be shipped. Page accessed 2026-10."
+  },
+  {
+   "id": "em6-002",
+   "domain": "engine_mods",
+   "topic": "ported and decked cylinder head (2020 450)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "One tester's race build used a ported, decked head with new valve seats and a custom base gasket while keeping the stock piston and cams; together with an aftermarket ECU and exhaust it was described as the easiest-to-ride 450 SX-F the rider had tried, with strong holeshots and hill pull.",
+   "values": {
+    "head_work_section_cost": "$1,290",
+    "piston": "stock",
+    "cams": "stock"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2020 KTM 450 SX-F World Vet race build parts list",
+    "url": "https://www.keeferinctesting.com/2019-11-6-2020-ktm-450-sx-f-world-vet-race-build-parts-list/",
+    "date": "2019-11"
+   },
+   "confidence": "medium",
+   "notes": "No dyno numbers. Head built by an engine tuner; the $1,290 figure covers that tuner's whole section of the build. Feel combined with ECU, exhaust and race fuel, so effects cannot be separated."
+  },
+  {
+   "id": "em6-003",
+   "domain": "engine_mods",
+   "topic": "aftermarket ECU with tuner maps (2020 450)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "An aftermarket ECU with tuner maps ($950) gave stronger pull out of corners, a bigger midrange hit and more over-rev on a 2020 450 SX-F, letting the rider hold third gear much longer.",
+   "values": {
+    "price": "$950"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2020 KTM 450 SX-F World Vet race build parts list",
+    "url": "https://www.keeferinctesting.com/2019-11-6-2020-ktm-450-sx-f-world-vet-race-build-parts-list/",
+    "date": "2019-11"
+   },
+   "confidence": "medium",
+   "notes": "Vortex ECU with maps from an engine tuner; bike also had head work and a full exhaust. A race-fuel map (VP MR Pro 6 HT) was loaded for racing; the rider later went back to pump fuel. No dyno numbers."
+  },
+  {
+   "id": "em6-004",
+   "domain": "engine_mods",
+   "topic": "FMF 4.1 RCT full system (2020 450)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "An FMF 4.1 RCT system ($1,049) added low-end excitement and a broader mid-to-top pull on a 2020 450 SX-F.",
+   "values": {
+    "price": "$1,049"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2020 KTM 450 SX-F World Vet race build parts list",
+    "url": "https://www.keeferinctesting.com/2019-11-6-2020-ktm-450-sx-f-world-vet-race-build-parts-list/",
+    "date": "2019-11"
+   },
+   "confidence": "medium",
+   "notes": "No dyno numbers; tested together with an aftermarket ECU."
+  },
+  {
+   "id": "em6-005",
+   "domain": "engine_mods",
+   "topic": "FMF 4.1 RCT muffler on 2022 Factory Edition",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On the 2022.5 450 SX-F Factory Edition, an FMF 4.1 RCT titanium muffler saved almost 2 lb and gave more mid-rpm response and corner-exit pull, a slightly better top end and stock-like over-rev; with the insert in it lost a little low-end response but pulled longer in 2nd and 3rd.",
+   "values": {
+    "weight_saved": "almost 2 lb",
+    "repack_interval": "10-12 engine hours",
+    "install_time": "about 10 min"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: FMF 4.1 RCT muffler, 2022.5 KTM 450 SX-F Factory Edition",
+    "url": "https://www.keeferinctesting.com/?p=17937",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "No dyno numbers, price or dB given. Insert out gave more low-end response. A tuner's ECU flash was suggested to add more bottom and mid while keeping traction."
+  },
+  {
+   "id": "em6-006",
+   "domain": "engine_mods",
+   "topic": "race fuel vs pump fuel (stock-map 450)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On a 450 SX-F, oxygenated race fuels (Renegade MX4, VP T4, about $17-19 per gallon) gave more low-end pull and throttle response within a few laps with no remap needed; an unleaded 93-octane pump replacement (about $9 per gallon) burned cleaner but gave no noticeable low-end gain.",
+   "values": {
+    "MX4_price": "$94 / 5 gal (~$18.80/gal)",
+    "T4_price": "~$85 / 5 gal (~$17/gal)",
+    "Pure93_price": "$45 / 5 gal ($9/gal)",
+    "maker_claims": "VP 2-3%, Renegade up to 4-5% (not measured by tester)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: pump-replacement fuel comparison",
+    "url": "https://www.keeferinctesting.com/2021-6-2-pump-replacement-fuel-comparison/",
+    "date": "2021-06"
+   },
+   "confidence": "medium",
+   "notes": "Track impressions only; no dyno. Same ECU map run on stock and Vortex ECUs. The percentage gains are fuel makers' claims and are not measured."
+  },
+  {
+   "id": "em6-007",
+   "domain": "engine_mods",
+   "topic": "stock ECU remap vs aftermarket ECU (owner reports)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 SX-F",
+     "450 SX-F"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "Owners report that a remap of the stock ECU gets most of the benefit for much less money than an aftermarket ECU, which costs roughly $800 more; one owner estimated about a 10% gain from a $110 stock-ECU reprogram on a 2022 350 SX-F.",
+   "values": {
+    "aftermarket_ECU_premium": "~$800 over a stock remap",
+    "owner_estimate": "~10% from a $110 reflash (2022 350 SX-F)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: 2024 KTM 350 SX-F stock remap vs Vortex ECU",
+    "url": "https://www.vitalmx.com/comment/8469941",
+    "date": "2024"
+   },
+   "confidence": "low",
+   "notes": "Estimates, not measured. Some owners still prefer the aftermarket ECU for its extra maps and performance."
+  },
+  {
+   "id": "em6-008",
+   "domain": "engine_mods",
+   "topic": "Factory Edition vs standard engine (2023.5 450)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023.5 450 SX-F Factory Edition engine is the same as the standard 2023 engine; the hardware difference is an Akrapovic slip-on, and the 450 SX-F measured about 59.9 hp at 9,400 rpm with no separate Factory Edition dyno run published.",
+   "values": {
+    "peak_hp": "59.94 hp (text) / 59.85 hp @ 9,400 rpm (caption)",
+    "above_59hp_from": "9,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2023-1/2 KTM 450SXF Factory Edition",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-1-2-ktm-450-sxf-factory-edition-plus-video/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "MXA dyno (type not stated), stock map. The article also credits mapping and the airbox for a gain over production, contradicting itself. Recommended setup: 13/50 gearing with map 2 and the vented airbox cover."
+  },
+  {
+   "id": "em6-009",
+   "domain": "engine_mods",
+   "topic": "2026 Factory Edition parts (OEM)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "KTM's 2026 450 SX-F Factory Edition has a titanium Akrapovic slip-on said to sound slightly quieter and meet FIM and AMA sound rules, plus revised intake and mapping; KTM publishes no horsepower gain, weight or dB figure for it.",
+   "values": {
+    "msrp": "$13,699 + $690 freight",
+    "engine_weight": "59 lb (26.8 kg)",
+    "maps": "2 + TC, launch control, quickshifter, Connectivity Unit Offroad"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA: 2026 KTM 450 SX-F Factory Edition",
+    "url": "https://www.ktm.com/en-us/models/motocross/4-stroke/2026-ktm-450-sx-ffactoryedition.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Existing BAK record quotes a 63 hp KTM claim from press coverage; the official model page gives no figure."
+  },
+  {
+   "id": "em6-010",
+   "domain": "engine_mods",
+   "topic": "sister-bike airbox difference measured (2025)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On the same rear-wheel dyno, the 2025 Husqvarna FC 450 made 53.0 hp and 32.7 lb-ft, 0.2 hp and 0.2 lb-ft less than the KTM 450 SX-F, a gap the testers put down to the Husqvarna's different airbox.",
+   "values": {
+    "FC450_peak": "53.0 hp / 32.7 lb-ft",
+    "450SXF_peak": "53.2 hp / 32.9 lb-ft",
+    "gap": "-0.2 hp / -0.2 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2025 Husqvarna FC 450 dyno test",
+    "url": "https://dirtrider.com/tests/husqvarna-fc-450-dyno-test-2025",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Dynojet 250i, stock bikes, Dunlop D404 rear tire on the drum; fuel and map not stated. The cause is the testers' suggestion, not proven. 2025 FC 450 has a one-piece inlet sleeve and snorkel."
+  },
+  {
+   "id": "em6-011",
+   "domain": "engine_mods",
+   "topic": "sister bikes on one dyno (2026)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "450 SX-F",
+     "Husqvarna FC 450",
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On one dyno in the standard map, the 2026 Husqvarna FC 450 made 60.2 hp, the KTM 450 SX-F 59.5 hp and the GasGas MC 450F 57.9 hp; the GasGas, with its more restricted airbox and muffler and no map switch, made about 1.6 hp less than the KTM.",
+   "values": {
+    "FC450": "60.2 hp @ 9,400 / 36.5 lb-ft @ 7,100",
+    "450SXF": "59.5 hp @ 9,300 / 36.3 lb-ft @ 7,600",
+    "MC450F": "57.9 hp @ 9,200 / 35.9 lb-ft @ 6,900",
+    "GasGas_vs_KTM": "-1.6 hp / -0.4 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike: Twelve 450 motocross bikes on the dyno (2026)",
+    "url": "https://dirtbikemagazine.com/?p=101733",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Pro Circuit dyno, corrected, standard map on all bikes. The article does not attribute the gap to specific parts; the restriction link comes from other BAK records (k45-077/k45-078). Do not compare with Dynojet figures."
+  },
+  {
+   "id": "em6-012",
+   "domain": "engine_mods",
+   "topic": "KTM vs Husqvarna low-rpm gap (2022.5 editions)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On one dyno the 2022.5 Husqvarna FC 450 Rockstar Edition peaked at 60.4 hp at 9,600 rpm against 59.9 hp at 9,400 for the KTM 450 SX-F Factory Edition, but the KTM made about 1.2 hp more from off idle to 7,500 rpm and held over 59 hp for about 1,600 rpm versus 1,300 for the Husqvarna.",
+   "values": {
+    "FC450_Rockstar": "60.4 hp @ 9,600 rpm",
+    "450SXF_FE": "59.9 hp @ 9,400 rpm",
+    "KTM_advantage_low": "~1.2 hp off idle-7,500 rpm",
+    "above_59hp_band": "KTM ~1,600 rpm, Husqvarna ~1,300 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022-1/2 Husqvarna FC450 Rockstar Edition",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-1-2-husqvarna-fc450-rockstar-edition",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "MXA dyno, type not stated. Husqvarna side vents are 'fake' (air enters mainly through a rear slot), which fits the softer low-rpm numbers. Both Husqvarna maps were almost identical on the dyno; testers ran map 2. Rockstar weighed 231 lb, about 7 lb more than the production FC 450."
+  },
+  {
+   "id": "em6-013",
+   "domain": "engine_mods",
+   "topic": "Rockstar Edition FMF slip-on vs standard (2024)",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 Husqvarna FC 450 Rockstar Edition, whose only engine-related upgrade is a titanium FMF Factory 4.1 RCT slip-on, made 55.5 hp and 33.5 lb-ft, 0.1 hp and 0.4 lb-ft less than the standard FC 450 on the same dyno.",
+   "values": {
+    "Rockstar_peak": "55.5 hp / 33.5 lb-ft",
+    "standard_peak_implied": "~55.6 hp / ~33.9 lb-ft",
+    "difference": "-0.1 hp / -0.4 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2024 Husqvarna FC 450 Rockstar Edition dyno test",
+    "url": "https://dirtrider.com/tests/husqvarna-fc-450-rockstar-edition-dyno-test-2024",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Dynojet 250i, rear wheel, stock. Standard figures implied by the stated difference. Shows the slip-on is for weight/looks, not peak power."
+  },
+  {
+   "id": "em6-014",
+   "domain": "engine_mods",
+   "topic": "Factory Edition slip-on and maps (GasGas 450)",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "The 2024.5 GasGas MC 450F Factory Edition, with an Akrapovic slip-on and the Connectivity Unit Offroad maps, measured 59.94 hp at 9,400 rpm on one magazine dyno, while the standard 2025 MC 450F in its only (mellow) map made 57.9 hp at 9,200 rpm, about 2 hp less.",
+   "values": {
+    "FE_2024.5": "59.94 hp @ 9,400 rpm",
+    "standard_2025": "57.9 hp @ 9,200 rpm (mellow map)",
+    "difference": "~2.0 hp (59.94 - 57.9)",
+    "FE_price": "$12,449"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024-1/2 GasGas MC450F FE; 2025 GasGas MC450F video test",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-1-2-gasgas-mc450f-fe",
+    "date": "2024"
+   },
+   "confidence": "low",
+   "notes": "Difference = 59.94 - 57.9 = 2.04 hp, across two model years and two test sessions on the MXA dyno (type not stated). The FE engine is described as 'virtually identical' to standard; the gain mixes slip-on, map and airbox spec. 59.94 hp is exactly MXA's 2023 KTM 450SXF figure, so it may be reused. Second source: https://motocrossactionmag.com/2025-gasgas-mc450f-video-test. The accessory map switch unlocks the second map on the standard bike."
+  },
+  {
+   "id": "em6-015",
+   "domain": "engine_mods",
+   "topic": "GasGas without vented cover and map switch (2023)",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The standard 2023 GasGas MC 450F made 53.0 hp and 33.9 lb-ft but the least power and torque of its class from 4,000 to 6,500 rpm; testers linked the soft bottom end to the missing vented airbox cover and map switch, both sold as accessories.",
+   "values": {
+    "peak": "53.0 hp / 33.9 lb-ft",
+    "weak_band": "4,000-6,500 rpm (lowest in class)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2023 GasGas MC 450F dyno test",
+    "url": "https://www.dirtrider.com/tests/gasgas-mc-450f-dyno-test-2023",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "In-house dyno (Dynojet 250i on other Dirt Rider tests). Standard 2023 MC 450F used the 2019-2022 KTM platform. The 2023 MC 450F Factory Edition (new platform) made 55.2 hp @ 9,500 and 33.7 lb-ft @ 7,400 on the same dyno (https://dirtrider.com/tests/gasgas-mc-450f-factory-edition-dyno-test-2023, tested 2023-10-29), so that gap is platform plus parts, not parts alone."
+  },
+  {
+   "id": "em6-016",
+   "domain": "engine_mods",
+   "topic": "125 to 150 TBI big bore (measured difference)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "125 SX",
+     "Husqvarna TC 125",
+     "Husqvarna TC 150",
+     "GasGas MC 125"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "The 144 cc TBI engine (4 mm more bore on the same 54.5 mm stroke) made 36.2 hp and 17.1 lb-ft, 3.0 hp and 1.0 lb-ft more than a 2024 KTM 125 SX on the same dyno.",
+   "values": {
+    "TC150_2025": "36.2 hp / 17.1 lb-ft",
+    "125SX_2024_implied": "~33.2 hp / ~16.1 lb-ft",
+    "gain": "+3.0 hp / +1.0 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2025 Husqvarna TC 150 dyno test",
+    "url": "https://dirtrider.com/tests/husqvarna-tc-150-dyno-test-2025",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Rear-wheel in-house dyno, stock bikes, different model years. Also: 2025 KTM 125 XC made 33.0 hp / 15.8 lb-ft on the same dyno (https://www.dirtrider.com/tests/ktm-125-xc-dyno-test-2025), giving +3.2 hp / +1.3 lb-ft by subtraction, but the XC has a different setup."
+  },
+  {
+   "id": "em6-017",
+   "domain": "engine_mods",
+   "topic": "150 cylinder kit for TBI 125 (aftermarket)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "125 SX",
+     "125 XC",
+     "Husqvarna TC 125",
+     "GasGas MC 125"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A bolt-on 150 cylinder kit for the TBI 125 costs $1,209.99 without ECU; the 125 must have its ECU reflashed to 150 maps (dealer) or use a fuel module. The seller claims more low and mid power and torque on pump fuel with no loss of engine life.",
+   "values": {
+    "price": "$1,209.99 (no ECU)",
+    "fuel": "pump",
+    "includes": "cylinder, piston/rings/pin/clips, head insert, gaskets, 2 PV gaskets, plug"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Slavens Racing: Factory 150 kit for 125/150 TBI",
+    "url": "https://slavensracing.com/shop/factory-150-kit-for-125-150-tbi/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "No dyno numbers from the seller; see em6 125-to-150 measured record. Year range on page inconsistent (23-25 vs 23-26); GasGas fitment 2024-2026. KTM also offered a 150 kit in its PowerParts catalog for the 2024 125 SX (MXA 2024 race test), not tested."
+  },
+  {
+   "id": "em6-018",
+   "domain": "engine_mods",
+   "topic": "KTM factory cylinder kit 125 (carb era)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "125 SX",
+     "Husqvarna TC 125",
+     "GasGas MC 125"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "KTM's PowerParts factory cylinder kit (part 50530938000, 125 cc, with piston) is listed for the carbureted 125 SX and TC 125 through 2022 and the MC 125 through 2023, promising better response and more output across the rev range.",
+   "values": {
+    "part_number": "50530938000",
+    "displacement": "125 cc"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "KTM PowerParts (ktm-versand.de): Factory cylinder kit",
+    "url": "https://ktm-versand.de/en/powerparts/engine-parts/engine-parts-2-stroke/68526/factory-cylinder-kit",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Closed-course only. Price not shown; no gain figures published; not listed for TBI 125s."
+  },
+  {
+   "id": "em6-019",
+   "domain": "engine_mods",
+   "topic": "pipes on the TBI 125 SX (feel)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On a 2023 125 SX, an FMF Factory Fatty pipe improved low and mid power and cut clutch use, with a slightly weaker top end; a Pro Circuit pipe with shorty silencer gave the snappiest bottom, harder mid and top pull and the longest over-rev, bringing the 125 closer to a 150.",
+   "values": {
+    "premix": "40:1 pump fuel",
+    "hours_without_issue": "~20 h"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: 2023 KTM 125 SX test",
+    "url": "https://www.keeferinctesting.com/?p=27125",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "No dyno numbers. This tester saw no detonation, though others did (see existing record on detonation). Stock ECU locked at the time; no remap available."
+  },
+  {
+   "id": "em6-020",
+   "domain": "engine_mods",
+   "topic": "Pro Circuit Works pipe + R304 on 2025 250 SX",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On a 2025 250 SX a Pro Circuit Works pipe and R304 silencer kept the low end (one tester felt a slightly stronger hit), cleaned up the rich low-rpm feel, and added second-gear pull and much stronger top end where the stock system goes flat.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing: Pro Circuit pipe and silencer, 2025 KTM 250 SX",
+    "url": "https://www.keeferinctesting.com/?p=28755",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Two testers; no dyno, price or weight given."
+  },
+  {
+   "id": "em6-021",
+   "domain": "ecu_electronics",
+   "topic": "TBI 250/300 SX map choice and power valve",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX",
+     "300 SX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On the 2024 TBI 250 SX and 300 SX the white map opens the electronic power valve only 80%, muting power; the green map opens it fully. On one magazine's numbers the 300 SX made 55 hp at 8,500 rpm and the 250 SX 52.1 hp at 8,600 rpm, both running flat at high rpm on stock maps.",
+   "values": {
+    "white_map_PV_opening": "80%",
+    "green_map_PV_opening": "100%",
+    "300SX_peak": "55 hp @ 8,500 rpm",
+    "250SX_peak": "52.1 hp @ 8,600 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2024 KTM 250/300SX two-strokes",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250-300sx-two-strokes",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Dyno type and map for the peak figures not stated. A tuner remap stopped constant rev-limiter hits and a Pro Circuit pipe with the stock silencer on a remapped 300 SX let it carry 3rd gear and rev further (felt, not measured)."
+  },
+  {
+   "id": "em6-022",
+   "domain": "engine_mods",
+   "topic": "aftermarket ECU kit for TBI two-strokes",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "300 SX",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250",
+     "GasGas MC 125",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2023,
+     2024
+    ]
+   },
+   "statement": "A plug-in GET SX1 Pro ECU kit with two tuner maps, a handlebar controller and a Wi-Fi module lets owners change injection and ignition advance from a phone app on 2023-2024 TBI 125/250/300 models (GasGas 2024 only).",
+   "values": {
+    "maps": "2 pre-loaded + custom maps",
+    "adjustable": "injection, ignition advance (app)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Slavens Racing: Athena GET SX1 Pro 2T ECU kit (TBI)",
+    "url": "https://slavensracing.com/?p=445729",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Price and gains not published."
+  },
+  {
+   "id": "em6-023",
+   "domain": "engine_mods",
+   "topic": "high-compression head insert for TBI 300",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "300 SX",
+     "Husqvarna TX 300",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "A 25.50 cc high-compression head insert ($79.99, 1.90 mm squish, flat-top 72 mm bore) for the TBI 300 SX is sold for stronger low and mid torque, but it only fits the matching aftermarket head, not the stock head.",
+   "values": {
+    "insert_volume": "25.50 cc",
+    "squish": "1.90 mm",
+    "price": "$79.99",
+    "bore": "72 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Innteck USA: VHM insert KTM 300SX 2023-2025 (25.50cc)",
+    "url": "https://innteck-usa.com/?p=237325",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Compression ratio not published; insert choice depends on fuel, elevation and terrain per the maker's chart. Husqvarna TX 300 2023-2025, GasGas EX 300 2024-2025. Off-road XC-W version is 27.00 cc."
+  },
+  {
+   "id": "em6-024",
+   "domain": "engine_mods",
+   "topic": "Scalvini stamped pipe on 150 SX (carb)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "150 SX"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On a carbureted 2021 150 SX a stamped aftermarket pipe made about 2 hp more at peak, gave up a little low-end thrust, smoothed the midrange so third gear could be used and revved up faster.",
+   "values": {
+    "peak_gain": "~2 hp",
+    "pipe_price": "$219 (stamped), $289 (cone)",
+    "silencer_price": "$209 (alu/carbon), $315 (carbon)",
+    "jetting": "main 500 -> 510"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Team Tested Scalvini stamped KTM 125/150SX pipe/silencer",
+    "url": "https://motocrossactionmag.com/mxa-team-tested-scalvini-stamped-ktm-125-150sx-pipe-silencer",
+    "date": "2021"
+   },
+   "confidence": "low",
+   "notes": "Only the peak gain is given; no stock figure, curve or dyno type."
+  },
+  {
+   "id": "em6-025",
+   "domain": "engine_mods",
+   "topic": "Akrapovic map reflash (TF 250-X)",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "Triumph offers 2024 TF 250-X owners a free dealer reflash to the Akrapovic map, which adds fuel across the whole curve because the stock map ran lean; it greatly reduces the low-rpm bog but does not remove the dip-and-surge shape on the dyno.",
+   "values": {
+    "cost": "free at dealer (2024 owners)",
+    "2025_TF250X_peak": "42.87 hp / 20.46 lb-ft",
+    "KTM_250SXF_peak_same_dyno": "45.24 hp / 21.0 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2025 Triumph TF250-X",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-triumph-tf250-x/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "MXA dyno, map not stated. KTM leads by ~1.3-1.8 hp from 8,000-11,000 rpm, ~2 hp at 12,000 and almost 3 hp at 13,000. Gearing tested: 13/49 for faster riders, 13/50 for novices; 51 rejected (axle too far forward)."
+  },
+  {
+   "id": "em6-026",
+   "domain": "engine_mods",
+   "topic": "2024 to 2025 TF 250-X map update (measured)",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "After Triumph's 2025 fuel-map update the TF 250-X measured 39.9 hp and 18.7 lb-ft against 37.8 hp and 17.4 lb-ft for the 2024 bike on the same dyno, about 2.1 hp and 1.3 lb-ft more.",
+   "values": {
+    "2024": "37.8 hp / 17.4 lb-ft",
+    "2025": "39.9 hp / 18.7 lb-ft",
+    "difference": "+2.1 hp / +1.3 lb-ft"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2024 and 2025 Triumph TF 250-X dyno tests",
+    "url": "https://www.dirtrider.com/tests/triumph-tf-250-x-dyno-test-2025",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "39.9-37.8 = 2.1 hp; 18.7-17.4 = 1.3 lb-ft. Dynojet 250i both years; different bikes and days. The only noted change was 'new optimized fuel maps'. 2024 source: https://www.dirtrider.com/tests/triumph-tf-250-x-dyno-test-2024. Conflicts in direction with MXA's view that 2025 runs 'very similar' to 2024."
+  },
+  {
+   "id": "em6-027",
+   "domain": "engine_mods",
+   "topic": "2026 TF 250-X airbox, silencer and mapping (OEM)",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For 2026 Triumph fitted the TF 250-X with a new airbox and silencer for more airflow within FIM/AMA sound limits, new ECU calibration and a higher-capacity Exedy clutch; Triumph publishes no power gain beyond the 48 PS at 13,500 rpm rating.",
+   "values": {
+    "rated_power": "48 PS @ 13,500 rpm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph media kit: updates for TF 250-X",
+    "url": "https://triumph-mediakits.com/en/news-articles/triumph-reveals-updates-for-tf-250-x-race-ready-power-delivery,-torque-and-throttle-response.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Not stated whether the parts or map retrofit to 2024-2025 bikes."
+  },
+  {
+   "id": "em6-028",
+   "domain": "engine_mods",
+   "topic": "TF 450-X accessory engine parts (OEM)",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Triumph's accessory list for the 2026 TF 450-X includes a full titanium Akrapovic system, a launch-control module with shift light, and a Wi-Fi tuning module that adds up to ten maps when paired with the accessory engine management unit; the stock bike is rated at 62.4 hp at 9,500 rpm.",
+   "values": {
+    "claimed_power": "62.4 hp @ 9,500 rpm",
+    "wifi_module_maps": "up to 10 (with accessory ECU)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Australasian Dirt Bike: 2026 Triumph TF 450-X",
+    "url": "https://adbmag.com.au/?p=53273",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "No gains published for any accessory. Australian price from $15,790."
+  },
+  {
+   "id": "em6-029",
+   "domain": "engine_mods",
+   "topic": "aftermarket ECU with fuel-specific maps (TF 450)",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "A plug-in GET ECU for the TF 450 costs $1,099 and is sold with maps for 91 pump fuel, VP T4, VP RX96 or VP Pro 6, promising better starting, less engine braking and a broader, more linear pull; no dyno gains are published.",
+   "values": {
+    "price": "$1,099",
+    "fuel_maps": "91 pump, VP T4, VP RX96, VP Pro 6"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "dealer",
+    "name": "XPR Motorsports: Triumph TF450 2025-2026 GET ECU",
+    "url": "https://xprmotorsportsparts.com/products/triumph-tf450-2025-2026-get-ecu",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Seller claims only. Map choice must match the fuel used. Non-ethanol fuel may slow starting per the seller."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "Husqvarna FC 450 vs KTM 450 SX-F peak (airbox difference)",
+   "spread": "Dirt Rider 2025 (Dynojet): KTM +0.2 hp; MXA 2022.5 editions: Husqvarna +0.5 hp at peak but KTM +1.2 hp below 7,500 rpm; Dirt Bike 2026 (Pro Circuit dyno): Husqvarna +0.7 hp",
+   "records": [
+    "em6-010",
+    "em6-011",
+    "em6-012"
+   ],
+   "note": "Different dynos, years and edition parts; peak gap is within test-to-test noise; the consistent finding is a softer Husqvarna low end."
+  },
+  {
+   "topic": "TF 250-X 2024 vs 2025 map effect",
+   "spread": "Dirt Rider Dynojet: +2.1 hp / +1.3 lb-ft; MXA: 2025 with Akrapovic map 'very similar' to 2024 on its dyno",
+   "records": [
+    "em6-025",
+    "em6-026"
+   ]
+  },
+  {
+   "topic": "125 to 150 TBI gain",
+   "spread": "+3.0 hp / +1.0 lb-ft vs 2024 125 SX (stated) to +3.2 hp / +1.3 lb-ft vs 2025 125 XC (by subtraction)",
+   "records": [
+    "em6-016"
+   ]
+  },
+  {
+   "topic": "MXA 59.94 hp figure",
+   "spread": "Same 59.94 hp given for the 2023 KTM 450SXF and the 2024.5 GasGas MC450F Factory Edition",
+   "records": [
+    "em6-008",
+    "em6-014"
+   ],
+   "note": "Possibly reused text; treat GasGas FE delta as low confidence."
+  },
+  {
+   "topic": "2023 KTM 450SXF stock torque in MXA FMF exhaust test",
+   "spread": "37.01 lb-ft (body) vs 36.31 lb-ft (meta description)",
+   "records": [],
+   "note": "https://motocrossactionmag.com/mxa-team-tested-fmf-racing-2023-ktm-450sxf-exhaust; no record made since FMF figures were not given."
+  }
+ ],
+ "not_found": [
+  {
+   "item": "Dyno before/after for any full exhaust or slip-on on the 2023-2026 KTM 450 SX-F (incl. 2025)",
+   "searched": "MXA FMF 2023 450SXF test (feel and prices only: $1,249.99 full Ti system), Yoshimura RS-12 track test (no numbers), dirtrider/dirtbikemagazine/keeferinctesting searches; Pro Circuit Ti-4R dyno found was for 2011-12 (out of range)"
+  },
+  {
+   "item": "Exhaust weight saved and dB for Akrapovic Factory Edition slip-ons (KTM/GasGas/Husqvarna) and Triumph Akrapovic system",
+   "searched": "KTM model pages, Triumph Akrapovic partnership page, MXA FE tests"
+  },
+  {
+   "item": "Cams, head porting, big bore or stroker kits with measured results for 2020-2026 450/350/250 SX-F",
+   "searched": "Hot Cams KTM 450 SX-F, big bore 478/490 KTM 450, 365 SX-F (MXA/Dirt Bike builds found were 2011-2014)"
+  },
+  {
+   "item": "Independent dyno before/after for ECU flashes or aftermarket ECUs on 2020-2026 KTM four-strokes",
+   "searched": "KTM 450 SX-F ECU flash dyno; Vortex/Twisted Development/GET tests (only vendor dyno and feel reports found)"
+  },
+  {
+   "item": "Measured airbox mod (cut vents, vented cover) gains on 2023-2026 Husqvarna FC 450 / GasGas MC 450F",
+   "searched": "airbox vented cover dyno searches; MXA FC450 2024 race test (feel only)"
+  },
+  {
+   "item": "Reed valve and cylinder-head dyno data for TBI 125/250/300 SX",
+   "searched": "Moto Tassinari/VHM TBI 300 SX searches (product pages only)"
+  },
+  {
+   "item": "Measured exhaust or ECU gains for Triumph TF 450 (RC/X)",
+   "searched": "Triumph TF 450 Akrapovic/FMF/Yoshimura dyno, GET ECU TF450"
+  },
+  {
+   "item": "Race fuel dyno on 2020-2026 KTM four-strokes",
+   "searched": "KTM 450 SX-F VP T4/MRX01/Sunoco dyno (track-feel comparison only)"
+  }
+ ],
+ "sources": [
+  "https://adbmag.com.au/?p=53273",
+  "https://bt-moto.com/product/ktm-450-mail-in-ecu-tuning",
+  "https://dirtbikemagazine.com/?p=101733",
+  "https://dirtrider.com/tests/gasgas-mc-450f-factory-edition-dyno-test-2023",
+  "https://dirtrider.com/tests/husqvarna-fc-450-dyno-test-2025",
+  "https://dirtrider.com/tests/husqvarna-fc-450-rockstar-edition-dyno-test-2024",
+  "https://dirtrider.com/tests/husqvarna-tc-150-dyno-test-2025",
+  "https://dirtrider.com/tests/ktm-450-sx-f-dyno-test-2025",
+  "https://innteck-usa.com/?p=237325",
+  "https://ktm-versand.de/en/powerparts/engine-parts/engine-parts-2-stroke/68526/factory-cylinder-kit",
+  "https://motocrossactionmag.com/2025-gasgas-mc450f-video-test",
+  "https://motocrossactionmag.com/mxa-race-test-2024-1-2-gasgas-mc450f-fe",
+  "https://motocrossactionmag.com/mxa-race-test-2024-husqvarna-fc450",
+  "https://motocrossactionmag.com/mxa-race-test-2024-ktm-125sx-two-stroke",
+  "https://motocrossactionmag.com/mxa-race-test-2025-triumph-tf250-x/",
+  "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-1-2-husqvarna-fc450-rockstar-edition",
+  "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-1-2-ktm-450-sxf-factory-edition-plus-video/",
+  "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250-300sx-two-strokes",
+  "https://motocrossactionmag.com/mxa-team-tested-fmf-racing-2023-ktm-450sxf-exhaust",
+  "https://motocrossactionmag.com/mxa-team-tested-scalvini-stamped-ktm-125-150sx-pipe-silencer",
+  "https://slavensracing.com/?p=445729",
+  "https://slavensracing.com/shop/factory-150-kit-for-125-150-tbi/",
+  "https://triumph-mediakits.com/en/news-articles/triumph-reveals-updates-for-tf-250-x-race-ready-power-delivery,-torque-and-throttle-response.html",
+  "https://www.dirtrider.com/tests/gasgas-mc-450f-dyno-test-2023",
+  "https://www.dirtrider.com/tests/ktm-125-xc-dyno-test-2025",
+  "https://www.dirtrider.com/tests/triumph-tf-250-x-dyno-test-2024",
+  "https://www.dirtrider.com/tests/triumph-tf-250-x-dyno-test-2025",
+  "https://www.keeferinctesting.com/2019-11-6-2020-ktm-450-sx-f-world-vet-race-build-parts-list/",
+  "https://www.keeferinctesting.com/2021-6-2-pump-replacement-fuel-comparison/",
+  "https://www.keeferinctesting.com/?p=17937",
+  "https://www.keeferinctesting.com/?p=27125",
+  "https://www.keeferinctesting.com/?p=28755",
+  "https://www.ktm.com/en-us/models/motocross/4-stroke/2026-ktm-450-sx-ffactoryedition.html",
+  "https://www.swapmotolive.com/?p=153259",
+  "https://www.vitalmx.com/comment/8469941",
+  "https://xprmotorsportsparts.com/products/triumph-tf450-2025-2026-get-ecu"
+ ]
+}
