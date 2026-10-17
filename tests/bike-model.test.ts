@@ -2,6 +2,20 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {Mesh,Box3,Vector3} from 'three';
 import {createBikeModel,disposeBikeModel} from '../src/bike3d/model.ts';
+test('OEM study keeps chain drive left and rear brake right',()=>{
+ const bike=createBikeModel();
+ assert.ok(new Box3().setFromObject(bike.getObjectByName('drivetrain')!).max.z<0);
+ const rearBrake=bike.getObjectByName('rear-brake-disc');assert.ok(rearBrake);
+ assert.ok(new Box3().setFromObject(rearBrake).min.z>0);
+ disposeBikeModel(bike);
+});
+test('OEM rear sprocket carries the catalog 51 teeth with real cut-out geometry',()=>{
+ const bike=createBikeModel(),sprocket=bike.getObjectByName('rear-sprocket-mesh') as Mesh;
+ assert.ok(sprocket);assert.equal(sprocket.userData.teeth,51);
+ assert.ok(sprocket.geometry.getAttribute('position').count>1000);
+ const size=new Box3().setFromObject(sprocket).getSize(new Vector3());
+ assert.ok(size.x>.25&&size.x<.28);disposeBikeModel(bike);
+});
 test('model has finite original geometry with removable exterior groups',()=>{
  const bike=createBikeModel();
  for(const name of ['front-wheel','rear-wheel','exhaust','plastics','seat','frame','engine','fork','shock'])assert.ok(bike.getObjectByName(name),name);

@@ -16,7 +16,22 @@ const rk='https://global.rk-japan.co.jp/products/motorcycle-chains/mxu/';
 const color=(id:string,name:string,hex:string,finish:Finish,source:string):PartColor=>({id,name,hex,finish,status:'APPROXIMATE',nameVerified:true,source});
 export const plasticsColors:PartColor[]=[color('white','White','#eeeeea','gloss',polisport),color('black','Black','#17191b','gloss',polisport.replace('p16116','p16117')),color('nardo-grey','Nardo Grey','#777d80','gloss',polisport.replace('p16116','p16118'))];
 export type VisualMapping={id:string;brand:string;name:string;partType:string;target:string;asset?:RepresentativeAssetId;hardpoint:string;fitmentEvidence:{status:'CATALOG_LISTED'|'MANUFACTURER_LISTED';source:string;note:string};colors:PartColor[]};
+// Partial researched palettes, not an assertion that every manufacturer variant is covered.
+const gripSwatches:Record<string,string>={Black:'#191919',Graphite:'#45484a',Grey:'#919599','Soft-Grey':'#919599','Pro-Soft White':'#eeeeea','Pro White':'#eeeeea',White:'#eeeeea',Blue:'#245ca6',Red:'#bc252b'};
+const odiGrip=(id:string,name:string,path:string,names:string[]):VisualMapping=>{
+ const source='https://www.odigrips.com/'+path;
+ return {id,brand:'ODI',name,partType:'grips',target:'grips',hardpoint:'bar-clamp',fitmentEvidence:{status:'CATALOG_LISTED',source,note:'Catalog family only, not bike-specific fitment certification. Confirm bar/throttle tube or cam compatibility. Stock grip shape; researched palette may be incomplete.'},colors:names.map(n=>color(n.toLowerCase().replace(/\s+/g,'-'),n,gripSwatches[n],'stock',source))};
+};
 export const visualMappings:VisualMapping[]=[
+ odiGrip('odi-v2-no-waffle','MX V2 Lock On No Waffle Grips','products/no-waffle-v2-lock-on-grips-2723',['Black','Graphite','Grey','Pro-Soft White']),
+ odiGrip('odi-v2-rogue','MX V2 Lock On Rogue Grips','collections/moto-grips/products/rogue-v2-lock-on-grips-2694',['Black','Grey','Graphite']),
+ odiGrip('odi-universal-no-waffle','MX V2 Universal Lock On No Waffle Grips','collections/moto-grips/products/universal-lock-on-gripset-no-waffle',['Black','Graphite','Grey','Pro-Soft White']),
+ odiGrip('odi-universal-rogue','Rogue Universal Lock On Grips','collections/moto-grips/products/universal-lock-on-gripset-rogue',['Black','Graphite','Soft-Grey']),
+ odiGrip('odi-universal-recoil','Recoil MX V2 Universal Lock On Full Waffle Grips','products/universal-lock-on-gripset-recoil-full-waffle',['Black','Graphite','Grey','Pro-Soft White']),
+ odiGrip('odi-ruffian','Ruffian Grips','collections/moto-grips/products/no-waffle-motocross-grips',['Black','Blue','Red','Grey','Pro-Soft White']),
+ odiGrip('odi-v2-half-waffle','MX V2 Lock On Half Waffle Grips','collections/moto-grips/products/half-waffle-v2-lock-on-grips-2702',['Grey','Pro White']),
+ odiGrip('odi-ruffian-half-waffle','Ruffian Half Waffle Grips','collections/moto-grips/products/half-waffle-motocross-grips-2381',['Soft-Grey','Pro-Soft White']),
+ odiGrip('odi-ruffian-full-waffle','Ruffian Full Waffle Grips','collections/moto-grips/products/full-waffle-motocross-grips',['White']),
  {id:'rk-mxu',brand:'RK',name:'GB520 MXU Chain',partType:'chain',target:'chain',hardpoint:'rear-axle',fitmentEvidence:{status:'CATALOG_LISTED',source:rk,note:'520MXU family. Link count and sprocket compatibility require confirmation.'},colors:[color('gold','Gold','#b49a43','stock',rk)]},
  {id:'odi-rogue',brand:'ODI',name:'Rogue Single Ply MX Grips',partType:'grips',target:'grips',hardpoint:'bar-clamp',fitmentEvidence:{status:'CATALOG_LISTED',source:odi,note:'Twist-throttle grip family; verify bar and throttle tube compatibility.'},colors:[['black','Black','#191919'],['blue','Blue','#245ca6'],['red','Red','#bc252b'],['orange','Orange','#ef671c'],['soft-grey','Soft-Grey','#919599']].map(([id,n,h])=>color(id,n,h,'stock',odi))},
  {id:'axp-skid',brand:'AXP Racing',name:'Skid Plate',partType:'skid plate',target:'skid-plate',asset:'generic-skid-plate',hardpoint:'engine-cradle',fitmentEvidence:{status:'CATALOG_LISTED',source:axp,note:'AX1651/52/53 family; confirm exact application before purchase. Representative shape only.'},colors:[color('black','Black','#191919','stock',axp),color('orange','Orange','#ef671c','stock','https://www.axp-racing.com/en/skid-plates-6mm/252-skid-plate-husqvarna-fc450-fe450-fx450-fe501-blue-ax1653.html'),color('blue','Blue','#245ca6','stock','https://www.axp-racing.com/en/skid-plates-6mm/252-skid-plate-husqvarna-fc450-fe450-fx450-fe501-blue-ax1653.html')]},

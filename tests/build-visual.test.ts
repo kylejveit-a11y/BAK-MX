@@ -2,6 +2,10 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readInstalled,writeInstalled} from '../shared/installed-parts.ts';
 import {resolveVisualBuild,visualMappingFor,plasticsColors,catalogColors} from '../shared/build-visual.ts';
+test('nine additional ODI families expose only researched choices, never product geometry',()=>{
+ const families:[string,number][]=[['MX V2 Lock On No Waffle Grips',4],['MX V2 Lock On Rogue Grips',3],['MX V2 Universal Lock On No Waffle Grips',4],['Rogue Universal Lock On Grips',3],['Recoil MX V2 Universal Lock On Full Waffle Grips',4],['Ruffian Grips',5],['MX V2 Lock On Half Waffle Grips',2],['Ruffian Half Waffle Grips',2],['Ruffian Full Waffle Grips',1]];
+ for(const [name,count] of families){const colors=catalogColors('ODI',name);assert.equal(colors.length,count,name);for(const c of colors){assert.equal(c.status,'APPROXIMATE');assert.equal(c.nameVerified,true);assert.equal(new URL(c.source).hostname,'www.odigrips.com');const plan=resolveVisualBuild({installed_parts:[{s:'controls',b:'ODI',n:name,color:c.id}]});assert.equal(plan.parts[0]?.target,'grips');assert.equal(plan.parts[0]?.asset,undefined);assert.equal(plan.parts[0]?.color?.id,c.id);}assert.equal(resolveVisualBuild({installed_parts:[{s:'controls',b:'ODI',n:name,color:'unresearched'}]}).parts[0]?.color,undefined);}
+});
 test('expanded manufacturer choices include grips and platform plastics',()=>{
  assert.equal(catalogColors('ODI','Rogue Single Ply MX Grips').length,5);
  assert.ok(plasticsColors.find(c=>c.id==='black'));

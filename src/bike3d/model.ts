@@ -45,10 +45,11 @@ export function createBikeModel(input:BikeDimensions=defaultBikeDimensions){
   for(let i=0;i<36;i++){const a=i*Math.PI*2/36,b=a+.2;for(const side of [-1,1])tube(g,[Math.cos(a)*.04,Math.sin(a)*.04,side*width*.3],[Math.cos(b)*(r-.08),Math.sin(b)*(r-.08),side*.006],.0018,spokes);}
   const tread=new T.InstancedMesh(new T.BoxGeometry(.025,.016,.025),mats.rubber,56*3),dummy=new T.Object3D();
   for(let i=0;i<56;i++)for(let row=0;row<3;row++){const a=(i+(row===1?.5:0))*Math.PI*2/56;dummy.position.set(Math.cos(a)*(r-.004),Math.sin(a)*(r-.004),(row-1)*width*.28);dummy.rotation.z=a-Math.PI/2;dummy.updateMatrix();tread.setMatrixAt(i*3+row,dummy.matrix);}tread.castShadow=true;g.add(tread);
-  const brake=mesh(g,new T.RingGeometry(front?.08:.07,(front?anchors.frontDiscDiameter:anchors.rearDiscDiameter)/2,48),mats.steel,[0,0,-width*.65]);brake.material=new T.MeshStandardMaterial({color:0x9ca4ac,metalness:.8,roughness:.3,side:T.DoubleSide});
-  box(g,[.075,.04,-width*.72],[.055,.085,.035],mats.black);
+  const brakeSide=front?-1:1;
+  const brake=mesh(g,new T.RingGeometry(front?.08:.07,(front?anchors.frontDiscDiameter:anchors.rearDiscDiameter)/2,48),new T.MeshStandardMaterial({color:0x9ca4ac,metalness:.8,roughness:.3,side:T.DoubleSide}),[0,0,brakeSide*width*.65]);brake.name=front?'front-brake-disc':'rear-brake-disc';
+  box(g,[.075,.04,brakeSide*width*.72],[.055,.085,.035],mats.black);
   tube(g,[0,-(r-.10),0],[0,-(r-.065),0],.004,mats.steel);
-  for(let i=0;i<8;i++){const a=i*Math.PI/4;tube(g,[Math.cos(a)*.04,Math.sin(a)*.04,-width*.65],[Math.cos(a+.2)*.09,Math.sin(a+.2)*.09,-width*.65],.006,mats.silver);}
+  for(let i=0;i<8;i++){const a=i*Math.PI/4;tube(g,[Math.cos(a)*.04,Math.sin(a)*.04,brakeSide*width*.65],[Math.cos(a+.2)*.09,Math.sin(a+.2)*.09,brakeSide*width*.65],.006,mats.silver);}
  }
  const front=d.wheelbase/2,rear=-front,sy=d.seatHeight-.958;
  wheel('front-wheel',front,.347,.09,true);wheel('rear-wheel',rear,.333,.12,false);
@@ -92,9 +93,15 @@ export function createBikeModel(input:BikeDimensions=defaultBikeDimensions){
  tube(groups.controls,[.38,1.14,-.10],[.38,1.14,.10],anchors.handlebarClampDiameter/2,bars);
  for(const z of [-1,1]){tube(groups.controls,[.36,1.16,z*.29],[.36,1.16,z*.41],.018,grips);tube(groups.controls,[.39,1.16,z*.27],[.44,1.16,z*.40],.006,mats.silver);box(frame,[-.20,.41,z*.19],[.10,.02,.08],mats.steel);}
  path(groups.controls,[[.37,1.17,-.22],[.47,1.03,-.15],[.59,.73,-.12],[front,.38,-.08]],.004,mats.rubber);
- const drive=groups.drivetrain;disk(drive,[rear,.333,.085],.13,.008,sprocket);
- path(drive,[[rear,.46,.10],[-.21,.53,.10],[-.15,.49,.10],[-.20,.44,.10],[rear,.205,.10],[rear-.13,.33,.10],[rear,.46,.10]],.009,chain);
- root.userData.refinement='exterior-pass-2';
+ // Catalog: 7771015105130 (51 teeth), 50310165118 (5/8-inch pitch).
+ // Tooth count/pitch are documentary; tooth profile, cut-outs and width are estimates.
+ const drive=groups.drivetrain,teeth=51,pitchRadius=.015875/(2*Math.sin(Math.PI/teeth)),outline=new T.Shape();
+ for(let i=0;i<teeth*4;i++){const a=i*Math.PI*2/(teeth*4),r=pitchRadius+(i%4===1||i%4===2?.004:-.006);if(i===0)outline.moveTo(Math.cos(a)*r,Math.sin(a)*r);else outline.lineTo(Math.cos(a)*r,Math.sin(a)*r);}outline.closePath();
+ const bore=new T.Path();bore.absarc(0,0,.029,0,Math.PI*2,true);outline.holes.push(bore);
+ for(let i=0;i<6;i++){const a=i*Math.PI/3,hole=new T.Path();hole.absarc(Math.cos(a)*.075,Math.sin(a)*.075,.025,0,Math.PI*2,true);outline.holes.push(hole);}
+ const gear=mesh(drive,new T.ExtrudeGeometry(outline,{depth:.006,bevelEnabled:false,curveSegments:16}),sprocket,[rear,.333,-.103]);gear.name='rear-sprocket-mesh';gear.userData={teeth,chainPitch:.015875,profileStatus:'ESTIMATED'};
+ path(drive,[[rear,.46,-.10],[-.21,.53,-.10],[-.15,.49,-.10],[-.20,.44,-.10],[rear,.205,-.10],[rear-.13,.33,-.10],[rear,.46,-.10]],.009,chain);
+ root.userData.refinement='exterior-pass-3';
  consolidateComponents(root);root.updateMatrixWorld(true);return root;
 }
 export function disposeBikeModel(root:T.Object3D){const geometries=new Set<T.BufferGeometry>(),materials=new Set<T.Material>();root.traverse(o=>{if(o instanceof T.Mesh){geometries.add(o.geometry);for(const m of Array.isArray(o.material)?o.material:[o.material])materials.add(m);}});geometries.forEach(g=>g.dispose());materials.forEach(m=>m.dispose());}
