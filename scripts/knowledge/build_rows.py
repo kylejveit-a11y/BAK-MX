@@ -32,6 +32,9 @@ for f in sorted(glob.glob(os.path.join(root,'docs/research/knowledge/*.json'))):
         hit=0
         for model0 in a.get('models') or []:
             mk,model=rmake,model0
+            # Sister bikes listed by model name only (e.g. 'FC 450' in a KTM file) belong to their own brand.
+            if re.match(r'(FC|FE|FX|TC|TE|TX) ',model0):mk='Husqvarna'
+            elif re.match(r'(MC|EX|EC) ',model0):mk='GasGas'
             for brand in ('Husqvarna','GasGas','KTM','Yamaha','Honda','Kawasaki','Triumph','Suzuki'):
                 if model0.startswith(brand+' '):mk,model=brand,model0[len(brand)+1:]
             for y in a.get('years') or []:
