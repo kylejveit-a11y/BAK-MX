@@ -5,8 +5,8 @@
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
 | Acerbis | 213 | Controls (38), Handlebars & Controls (37), Uncategorised (37), Body (32), Bike Protection (19), Drive (8) | Cycle Gear 111, MotoSport 99, research 3 |
+| Moose Racing | 191 | Uncategorised (82), protection (27), Handlebars & Controls (16), Suspension (12), Bike Protection (10), Brakes (6) | Cycle Gear 148, research 43 |
 | FMF | 176 | exhaust (108), Exhaust (64), Tools and Maintenance (2), Uncategorised (1), Body (1) | Cycle Gear 48, research 108, MotoSport 20 |
-| Moose Racing | 173 | Uncategorised (82), protection (20), Handlebars & Controls (16), Suspension (12), Bike Protection (10), Brakes (6) | Cycle Gear 148, research 25 |
 | Cycra | 161 | Controls (54), Handlebars & Controls (45), Uncategorised (25), Body (19), UTV / ATV Parts (8), Bike Protection (4) | Cycle Gear 82, MotoSport 77, research 2 |
 | Renthal | 159 | gearing (32), Controls (31), Uncategorised (25), controls (24), Handlebars & Controls (19), Chain & Sprocket (14) | Cycle Gear 62, MotoSport 41, research 56 |
 | Pro Taper | 157 | Controls (52), Uncategorised (40), Handlebars & Controls (27), Chain & Sprocket (18), Drive (9), Tires (5) | Cycle Gear 89, MotoSport 68 |
@@ -77,7 +77,9 @@
 | EK Chain | 22 | Chain & Sprocket (22) | Cycle Gear 22 |
 | IRC | 22 | Tires (22) | MotoSport 22 |
 | Moose | 22 | Engine (6), Lights and Electrical (4), Controls (4), Luggage and Racks (2), Fuel System (1), Exhaust (1) | MotoSport 22 |
+| ProX | 22 | engine (22) | research 22 |
 | TM Designworks | 22 | Drive & Transmission (8), Drive (8), Bike Protection (2), protection (2), drivetrain (1), Body (1) | Cycle Gear 10, research 3, MotoSport 9 |
+| Hot Cams | 21 | engine (20), Uncategorised (1) | Cycle Gear 1, research 20 |
 | BILT FACTORY | 20 | Uncategorised (10), Handlebars & Controls (5), Brakes (4), Exhaust (1) | Cycle Gear 20 |
 | IMS | 20 | Uncategorised (8), Controls (6), Body (3), controls (2), Brakes (1) | Cycle Gear 8, MotoSport 10, research 2 |
 | Pivot Works | 20 | Suspension (12), Wheels and Rims (4), Uncategorised (3), chassis (1) | Cycle Gear 7, MotoSport 12, research 1 |
@@ -97,11 +99,11 @@
 | DID Chain | 15 | Chain & Sprocket (15) | Cycle Gear 15 |
 | EBC | 15 | Brakes (6), brakes (5), Engine (4) | MotoSport 10, research 5 |
 | Excel | 15 | Uncategorised (9), Wheels and Rims (6) | Cycle Gear 9, MotoSport 6 |
-| Hot Cams | 15 | engine (14), Uncategorised (1) | Cycle Gear 1, research 14 |
 | HP Tools | 15 | Suspension (6), Tools and Maintenance (4), Body (2), Controls (2), Exhaust (1) | MotoSport 15 |
 | Pro Grip | 15 | Uncategorised (14), UTV / ATV Parts (1) | Cycle Gear 15 |
 | DEI | 14 | Exhaust (10), Body (4) | MotoSport 14 |
 | DID | 14 | Drive (14) | MotoSport 14 |
+| ProTaper | 14 | controls (14) | research 14 |
 | BBR Motorsports | 13 | Exhaust (5), Uncategorised (4), Handlebars & Controls (3), Air & Fuel (1) | Cycle Gear 13 |
 | Hardline | 13 | Lights and Electrical (6), Gauges (5), Uncategorised (1), Wheels and Rims (1) | Cycle Gear 6, MotoSport 7 |
 | MotoSport | 13 | Graphics (7), Body (3), Tools and Maintenance (1), Suspension (1), Controls (1) | MotoSport 13 |
@@ -147,7 +149,6 @@
 | Galfer | 8 | Brakes (4), brakes (4) | MotoSport 4, research 4 |
 | Garmin | 8 | Lights and Electrical (8) | MotoSport 8 |
 | Moto Tassinari | 8 | intake (8) | research 8 |
-| ProX | 8 | engine (8) | research 8 |
 | REP Suspension (Research Engineering Performance) | 8 | suspension (8) | research 8 |
 | SW-MOTECH | 8 | Luggage and Racks (7), Controls (1) | MotoSport 8 |
 | DCOR | 7 | Uncategorised (4), Seats (2), Bike Protection (1) | Cycle Gear 7 |
@@ -183,6 +184,7 @@
 | Grote | 5 | Lights and Electrical (5) | MotoSport 5 |
 | HOT RODS | 5 | Engine (5) | MotoSport 5 |
 | HOTCAMS | 5 | Engine (3), Tools and Maintenance (2) | MotoSport 5 |
+| Neken | 5 | controls (5) | research 5 |
 | Performance Tool | 5 | Tools and Maintenance (3), Lights and Electrical (1), Body (1) | MotoSport 5 |
 | Regina | 5 | drivetrain (5) | research 5 |
 | Shock Sox | 5 | Suspension (5) | Cycle Gear 5 |
@@ -266,7 +268,6 @@
 | Orbit | 2 | Chain & Sprocket (2) | Cycle Gear 2 |
 | PJ1 | 2 | Tools and Maintenance (2) | MotoSport 2 |
 | Preston Petty | 2 | Uncategorised (2) | Cycle Gear 2 |
-| ProTaper | 2 | controls (2) | research 2 |
 | Rox Risers | 2 | UTV / ATV Parts (1), Handlebars & Controls (1) | Cycle Gear 2 |
 | Samco | 2 | Uncategorised (2) | Cycle Gear 2 |
 | Seat Concepts | 2 | Body (2) | MotoSport 2 |
@@ -324,7 +325,6 @@
 | LeoVince | 1 | Exhaust (1) | Cycle Gear 1 |
 | LighTech | 1 | Wheels and Rims (1) | MotoSport 1 |
 | Matrix Concepts | 1 | Suspension (1) | Cycle Gear 1 |
-| Neken | 1 | controls (1) | research 1 |
 | Nelson Rigg | 1 | Exhaust (1) | Cycle Gear 1 |
 | NO-MAR | 1 | Uncategorised (1) | Cycle Gear 1 |
 | Nuetech | 1 | Wheels and Rims (1) | MotoSport 1 |

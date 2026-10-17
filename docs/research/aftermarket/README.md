@@ -219,3 +219,13 @@ Not reachable or not found: Tusk and Primary Drive (Rocky Mountain bot protectio
 hotcams.com, cv4.com, mishimoto.com (site approval not given in time); Mishimoto/Fluidyne/CV4/Psychic have no 2020+ MX
 cooling parts; "Smart Performance" is not a motocross parts maker; Eric Gorr site is parked; no 2020+ porting services with
 explicit bike lists except Slavens.
+
+## Specialty pass 3b (2026-10-17, with Kyle approving sites)
+
+`bars_clamps2.json` (16, bk2-: Pro Taper VDS bar mounts with years, Pro Taper bar families with bend tables and colours,
+Neken bars with part numbers and colours), `house_brands2.json` (18, hb2-: Moose Yamaha triple clamps, SX-1 wheels, radiator
+braces/guards, guards and skid plates from dealer fitment tables; mooseracing.com needs JavaScript and was not readable) and
+`valvetrain2.json` (20, cv2-: Pro-X 2023+ valves and cam chains, Hot Cams for YZ250F/FX and CRF450R 2020-21 from the All Balls
+catalogue). Research fetches only accept exact URLs that came from search results or the chat, so sites that never appear in
+search (hotcams.com, cv4.com, vertexpistons.com, emigracing.com home) need their URL pasted into the chat to be read.
+Tag Metals has left motocross; appliedracing.com is a drag-racing store, not the clamp maker.

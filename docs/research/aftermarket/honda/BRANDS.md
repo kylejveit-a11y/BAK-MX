@@ -5,7 +5,7 @@
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
 | Acerbis | 236 | Uncategorised (52), Controls (39), Handlebars & Controls (37), Body (35), Bike Protection (22), Drive (7) | Cycle Gear 130, MotoSport 103, research 3 |
-| Moose Racing | 169 | Uncategorised (79), protection (20), Handlebars & Controls (16), Bike Protection (13), Suspension (10), Seats (5) | Cycle Gear 144, research 25 |
+| Moose Racing | 187 | Uncategorised (79), protection (27), Handlebars & Controls (16), Bike Protection (13), Suspension (10), Seats (5) | Cycle Gear 144, research 43 |
 | FMF | 165 | exhaust (108), Exhaust (53), Tools and Maintenance (2), Uncategorised (1), Body (1) | Cycle Gear 37, research 108, MotoSport 20 |
 | Cycra | 163 | Controls (54), Handlebars & Controls (45), Uncategorised (24), Body (17), Bike Protection (8), UTV / ATV Parts (8) | Cycle Gear 85, MotoSport 76, research 2 |
 | Renthal | 159 | gearing (32), Controls (31), Uncategorised (25), controls (24), Handlebars & Controls (19), Chain & Sprocket (15) | Cycle Gear 62, MotoSport 41, research 56 |
@@ -79,7 +79,9 @@
 | Pivot Works | 23 | Suspension (13), Uncategorised (5), Wheels and Rims (4), chassis (1) | Cycle Gear 9, MotoSport 13, research 1 |
 | EK Chain | 22 | Chain & Sprocket (22) | Cycle Gear 22 |
 | IRC | 22 | Tires (22) | MotoSport 22 |
+| ProX | 22 | engine (22) | research 22 |
 | ASV | 21 | Controls (21) | MotoSport 21 |
+| Hot Cams | 21 | engine (20), Uncategorised (1) | Cycle Gear 1, research 20 |
 | Artrax | 19 | Tires (19) | MotoSport 19 |
 | Motolis | 19 | Chain & Sprocket (17), UTV / ATV Parts (1), Handlebars & Controls (1) | Cycle Gear 19 |
 | BILT FACTORY | 18 | Uncategorised (8), Handlebars & Controls (5), Brakes (4), Exhaust (1) | Cycle Gear 18 |
@@ -96,12 +98,12 @@
 | DID Chain | 15 | Chain & Sprocket (15) | Cycle Gear 15 |
 | EBC Brakes | 15 | Brakes (7), Air & Fuel (7), Drive & Transmission (1) | Cycle Gear 15 |
 | Excel | 15 | Uncategorised (9), Wheels and Rims (6) | Cycle Gear 9, MotoSport 6 |
-| Hot Cams | 15 | engine (14), Uncategorised (1) | Cycle Gear 1, research 14 |
 | HP Tools | 15 | Suspension (6), Tools and Maintenance (4), Body (2), Controls (2), Exhaust (1) | MotoSport 15 |
 | Pro Grip | 15 | Uncategorised (14), UTV / ATV Parts (1) | Cycle Gear 15 |
 | DEI | 14 | Exhaust (10), Body (4) | MotoSport 14 |
 | EBC | 14 | Brakes (7), brakes (5), Engine (2) | MotoSport 9, research 5 |
 | Moose | 14 | Lights and Electrical (4), Controls (4), Luggage and Racks (2), Fuel System (1), Exhaust (1), Brakes (1) | MotoSport 14 |
+| ProTaper | 14 | controls (14) | research 14 |
 | Race Tech | 14 | Suspension (7), suspension (7) | Cycle Gear 2, MotoSport 5, research 7 |
 | BBR Motorsports | 13 | Exhaust (5), Uncategorised (4), Handlebars & Controls (3), Air & Fuel (1) | Cycle Gear 13 |
 | Braking | 13 | Brakes (11), brakes (2) | Cycle Gear 3, MotoSport 8, research 2 |
@@ -147,7 +149,6 @@
 | Fasst Company | 8 | Controls (7), Wheels and Rims (1) | MotoSport 8 |
 | Garmin | 8 | Lights and Electrical (8) | MotoSport 8 |
 | Moto Tassinari | 8 | intake (8) | research 8 |
-| ProX | 8 | engine (8) | research 8 |
 | REP Suspension (Research Engineering Performance) | 8 | suspension (8) | research 8 |
 | SW-MOTECH | 8 | Luggage and Racks (7), Controls (1) | MotoSport 8 |
 | Uni Filter | 8 | Air & Fuel (5), Uncategorised (2), intake (1) | Cycle Gear 7, research 1 |
@@ -183,6 +184,7 @@
 | Fox Racing | 5 | Graphics (2), Riding Gear (1), Luggage and Racks (1), Tools and Maintenance (1) | MotoSport 5 |
 | GasGas Technical Accessories | 5 | Controls (3), Body (1), chassis (1) | MotoSport 4, research 1 |
 | Grote | 5 | Lights and Electrical (5) | MotoSport 5 |
+| Neken | 5 | controls (5) | research 5 |
 | Performance Tool | 5 | Tools and Maintenance (3), Lights and Electrical (1), Body (1) | MotoSport 5 |
 | Regina | 5 | drivetrain (5) | research 5 |
 | Shock Sox | 5 | Suspension (5) | Cycle Gear 5 |
@@ -264,7 +266,6 @@
 | Orbit | 2 | Chain & Sprocket (2) | Cycle Gear 2 |
 | PJ1 | 2 | Tools and Maintenance (2) | MotoSport 2 |
 | Preston Petty | 2 | Uncategorised (2) | Cycle Gear 2 |
-| ProTaper | 2 | controls (2) | research 2 |
 | Rox Risers | 2 | UTV / ATV Parts (1), Handlebars & Controls (1) | Cycle Gear 2 |
 | Samco | 2 | Uncategorised (2) | Cycle Gear 2 |
 | SDG | 2 | Seats (1), body (1) | Cycle Gear 1, research 1 |
@@ -324,7 +325,6 @@
 | Matrix Concepts | 1 | Suspension (1) | Cycle Gear 1 |
 | Misc | 1 | Suspension (1) | Cycle Gear 1 |
 | MotoSport Rock | 1 | Body (1) | MotoSport 1 |
-| Neken | 1 | controls (1) | research 1 |
 | Nelson Rigg | 1 | Exhaust (1) | Cycle Gear 1 |
 | NO-MAR | 1 | Uncategorised (1) | Cycle Gear 1 |
 | Nuetech | 1 | Wheels and Rims (1) | MotoSport 1 |

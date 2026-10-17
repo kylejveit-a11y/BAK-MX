@@ -1,0 +1,1032 @@
+{
+ "slice": "camshafts, valves, springs and cooling, round 2",
+ "products": [
+  {
+   "id": "cv2-001",
+   "category": "engine",
+   "subcategory": "exhaust valve",
+   "brand": "ProX",
+   "product": "ProX Titanium Exhaust Valve - KTM250SX-F ('23)",
+   "part_numbers": [
+    "28.6343-1"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "ProX page lists years 2023-2027 and models 250 SX-F/250 XC-F/FC250/MC 250F/EX 250F as combined lists; title says KTM250SX-F '23, https://www.pro-x.com/product/prox-racing-parts-1-titanium-exhaust-valve-ktm250sx-f-23/"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Same combined ProX list, https://www.pro-x.com/product/prox-racing-parts-1-titanium-exhaust-valve-ktm250sx-f-23/"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "ProX lists FC250 in the same combined list, https://www.pro-x.com/product/prox-racing-parts-1-titanium-exhaust-valve-ktm250sx-f-23/"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "ProX lists MC 250F; GasGas got this engine from 2024 (ProX cam-chain grouping on Cycle Gear puts MC 250F 2024+ with the 2023+ KTM 250 SX-F), https://www.pro-x.com/product/prox-racing-parts-1-titanium-exhaust-valve-ktm250sx-f-23/"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "ProX lists EX 250F in the combined list; 2024+ assumed by same grouping, https://www.pro-x.com/product/prox-racing-parts-1-titanium-exhaust-valve-ktm250sx-f-23/"
+    }
+   ],
+   "fitment_source_url": "https://www.pro-x.com/product/prox-racing-parts-1-titanium-exhaust-valve-ktm250sx-f-23/",
+   "what_it_changes": "One-piece forged Ti3Al titanium valve with CrN coating for surface hardness and lower friction; ProX says it meets or exceeds OE dimensions and reliability. It is a stock-replacement part for a top-end rebuild, not a performance upgrade.",
+   "supporting_parts": "Replace with valve springs, seals and check seats/guides; set clearance with shims. The 2013-2022 part is 28.6333-1 (maker page prox-titanium-exhaust-valve-21), which does not fit 2023+.",
+   "caveats": "ProX prints years, makes and models as separate lists, so the exact year for each model is inferred. The GasGas years are the least certain. No matching 2023+ KTM 250 intake valve page was found.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cv2-002",
+   "category": "engine",
+   "subcategory": "exhaust valve",
+   "brand": "ProX",
+   "product": "ProX Titanium Exhaust Valve - KX250F",
+   "part_numbers": [
+    "28.4350-1"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "ProX fitment: years 2020-2024, Kawasaki KX250/KX250X, no 'Show All' truncation, https://www.pro-x.com/product/prox-titanium-exhaust-valve-16/"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Same ProX list; KX250X starts 2021 in roster, https://www.pro-x.com/product/prox-titanium-exhaust-valve-16/"
+    }
+   ],
+   "fitment_source_url": "https://www.pro-x.com/product/prox-titanium-exhaust-valve-16/",
+   "what_it_changes": "One-piece forged Ti3Al titanium valve with CrN coating for surface hardness and lower friction; ProX says it meets or exceeds OE dimensions and reliability. It is a stock-replacement part for a top-end rebuild, not a performance upgrade.",
+   "supporting_parts": "Valve springs, stem seals and shims at rebuild. The 2025+ KX250 uses a different ProX exhaust valve (found on Maciag only, no part number).",
+   "caveats": "No OEM cross-reference printed. The matching 2020-2024 KX250 intake valve was not found on pro-x.com.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "high",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cv2-003",
+   "category": "engine",
+   "subcategory": "intake valve",
+   "brand": "ProX",
+   "product": "ProX Titanium Intake Valve - YZ450F + WR450F",
+   "part_numbers": [
+    "28.2450-2"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Ghostbikes fitment table for MPN 28.2450-2 lists YZ 450 F 2020-2022, https://www.ghostbikes.com/products/2490144-prox-valve-for-yamaha-wrf450-2021-2023-titanium; ProX page https://www.pro-x.com/product/prox-titanium-intake-valve-17/ lists years 2020-2025 for WR450F/YZ450F/YZ450FX combined"
+    },
+    {
+     "make": "Yamaha",
+     "model": "WR450F",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Ghostbikes table lists WR 450 F 2021-2023, https://www.ghostbikes.com/products/2490144-prox-valve-for-yamaha-wrf450-2021-2023-titanium"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450FX",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Ghostbikes table lists YZ 450 FX 2021-2023 (American models), https://www.ghostbikes.com/products/2490144-prox-valve-for-yamaha-wrf450-2021-2023-titanium"
+    }
+   ],
+   "fitment_source_url": "https://www.ghostbikes.com/products/2490144-prox-valve-for-yamaha-wrf450-2021-2023-titanium",
+   "what_it_changes": "One-piece forged Ti3Al titanium valve with CrN coating for surface hardness and lower friction; ProX says it meets or exceeds OE dimensions and reliability. It is a stock-replacement part for a top-end rebuild, not a performance upgrade.",
+   "supporting_parts": "Valve springs, seals and shims. 2023+ YZ450F uses 28.2453-2 instead.",
+   "caveats": "ProX's own page prints a combined 2020-2025 year list, which is wider than the dealer table. Maciag also lists this part (EAN 0193564324245) as YZ450F 20-22, WR450F 21-23. ProX says 'Ships in 1-2 Weeks'. The page does not say whether the YZ450FX 2020 is covered.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cv2-004",
+   "category": "engine",
+   "subcategory": "intake valve",
+   "brand": "ProX",
+   "product": "ProX Titanium Valve - YZ450F '23+ (intake)",
+   "part_numbers": [
+    "28.2453-2"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Ghostbikes fitment table for MPN 28.2453-2: YZ 450 F 2023-2026, https://www.ghostbikes.com/products/2490145-prox-valve-for-yamaha-wrf450-2024-2026-titanium"
+    },
+    {
+     "make": "Yamaha",
+     "model": "WR450F",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Ghostbikes table: WR 450 F 2024-2026, https://www.ghostbikes.com/products/2490145-prox-valve-for-yamaha-wrf450-2024-2026-titanium"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450FX",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Ghostbikes table: YZ 450 FX 2024-2026 (American models), https://www.ghostbikes.com/products/2490145-prox-valve-for-yamaha-wrf450-2024-2026-titanium"
+    }
+   ],
+   "fitment_source_url": "https://www.ghostbikes.com/products/2490145-prox-valve-for-yamaha-wrf450-2024-2026-titanium",
+   "what_it_changes": "One-piece forged Ti3Al titanium valve with CrN coating for surface hardness and lower friction; ProX says it meets or exceeds OE dimensions and reliability. It is a stock-replacement part for a top-end rebuild, not a performance upgrade.",
+   "supporting_parts": "Valve springs, seals and shims. Maciag lists a matching ProX titanium exhaust valve (EAN 0193564516381) for YZ450F 23-, WR450F 24-.",
+   "caveats": "Dealer page only (pro-x.com page for this part was not found). The listing does not say intake or exhaust; ProX numbering uses -2 for intake and -1 for exhaust, and Maciag lists a ProX titanium intake valve for YZ450F 23- / WR450F 24-. The exhaust part number (probably 28.2453-1) is not confirmed.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cv2-005",
+   "category": "engine",
+   "subcategory": "intake valve",
+   "brand": "ProX",
+   "product": "ProX Titanium Intake Valve - KTM/Husqvarna/GasGas 450",
+   "part_numbers": [
+    "28.6419-2"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Cycle Gear 'This Product Fits' (Manufacturer Product # 28.6419-2): KTM 450 SX-F 2019-2027, https://www.cyclegear.com/parts/pro-x-intake-valve-ktm-husqvarna-gas-gas-450cc-501cc-2019-2025"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Cycle Gear: FC450 2019-2027, https://www.cyclegear.com/parts/pro-x-intake-valve-ktm-husqvarna-gas-gas-450cc-501cc-2019-2025"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": "Cycle Gear: FX450 2019-2027, https://www.cyclegear.com/parts/pro-x-intake-valve-ktm-husqvarna-gas-gas-450cc-501cc-2019-2025"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FE 450",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Cycle Gear: FE450 2023, 2024, https://www.cyclegear.com/parts/pro-x-intake-valve-ktm-husqvarna-gas-gas-450cc-501cc-2019-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Cycle Gear: MC 450F 2021-2027, https://www.cyclegear.com/parts/pro-x-intake-valve-ktm-husqvarna-gas-gas-450cc-501cc-2019-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 450F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Cycle Gear: EX 450F 2021-2024, https://www.cyclegear.com/parts/pro-x-intake-valve-ktm-husqvarna-gas-gas-450cc-501cc-2019-2025"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/pro-x-intake-valve-ktm-husqvarna-gas-gas-450cc-501cc-2019-2025",
+   "what_it_changes": "Titanium intake valve sold singly as a direct OEM replacement ('meeting or exceeding OEM specifications', Cycle Gear listing).",
+   "supporting_parts": "Valve springs, seals and shims. Set clearances after fitting.",
+   "caveats": "Authorized dealer table, not pro-x.com. 450 XC-F is not in the table. The table includes 2019-2022 and 2023+ engines under one part; confirm with ProX before ordering for 2023+.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cv2-006",
+   "category": "engine",
+   "subcategory": "exhaust valve",
+   "brand": "ProX",
+   "product": "ProX Steel Exhaust Valve - Honda CRF450R/RX",
+   "part_numbers": [
+    "28.1413-1"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Cycle Gear 'This Product Fits' (Manufacturer Product # 28.1413-1, material Steel): CRF450R 2013-2026, https://www.cyclegear.com/parts/pro-x-exhaust-valve-honda-crf450r-rx-rl-l-x-rwe-r-s-2013-2022"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Cycle Gear: CRF450RX 2017-2026, https://www.cyclegear.com/parts/pro-x-exhaust-valve-honda-crf450r-rx-rl-l-x-rwe-r-s-2013-2022"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/pro-x-exhaust-valve-honda-crf450r-rx-rl-l-x-rwe-r-s-2013-2022",
+   "what_it_changes": "Steel (not titanium) exhaust valve that replaces the stock exhaust valve at a top-end rebuild.",
+   "supporting_parts": "Valve springs, seals and shims. The matching ProX titanium intake (28.1417-2) was recorded in round 1.",
+   "caveats": "Dealer table, not pro-x.com. A steel valve is heavier than a titanium one; check with ProX whether stock springs are fine for this valve.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cv2-007",
+   "category": "engine",
+   "subcategory": "cam chain",
+   "brand": "ProX",
+   "product": "ProX Camchain KX250 '25-26 + KX250X '25-26",
+   "part_numbers": [
+    "31.4355"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": "ProX fitment: years 2025-2027, KX250/KX250F/KX250X (OEM ref 92057-0944, 56 links), https://www.pro-x.com/product/prox-camchain-kx250-25-26-kx250x-25-26/"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250X",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": "Same ProX list, https://www.pro-x.com/product/prox-camchain-kx250-25-26-kx250x-25-26/"
+    }
+   ],
+   "fitment_source_url": "https://www.pro-x.com/product/prox-camchain-kx250-25-26-kx250x-25-26/",
+   "what_it_changes": "Stock-replacement timing chain made by Borg Warner in Japan. It replaces a stretched chain to keep cam timing correct.",
+   "supporting_parts": "Cam chain tensioner and guides should be inspected at the same time.",
+   "caveats": "Roster ends at 2026; ProX also lists 2027. Cycle Gear groups KX250 2021-2026 under one cam chain listing, which conflicts with this 2025+ part number. Use the ProX page.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "high",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cv2-008",
+   "category": "engine",
+   "subcategory": "cam chain",
+   "brand": "ProX",
+   "product": "ProX Cam Chain - KTM/Husqvarna/GasGas 450 (2023+)",
+   "part_numbers": [
+    "31.6443"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P Cycles fitment (Mfr # 31.6443): KTM 450 SX-F 2023-2027, https://www.jpcycles.com/product/pro-x-cam-chain-gas-gas-husqvarna-ktm-450cc-2023-2025"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": "J&P: FC450 2023, 2024, 2025, 2027 (2026 not listed), https://www.jpcycles.com/product/pro-x-cam-chain-gas-gas-husqvarna-ktm-450cc-2023-2025"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2023,
+      2024,
+      2027
+     ],
+     "notes": "J&P: FX450 2023, 2024, 2027, https://www.jpcycles.com/product/pro-x-cam-chain-gas-gas-husqvarna-ktm-450cc-2023-2025"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FE 450",
+     "years": [
+      2024
+     ],
+     "notes": "J&P: FE450 2024, https://www.jpcycles.com/product/pro-x-cam-chain-gas-gas-husqvarna-ktm-450cc-2023-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 450F",
+     "years": [
+      2024
+     ],
+     "notes": "J&P: EX 450F 2024, https://www.jpcycles.com/product/pro-x-cam-chain-gas-gas-husqvarna-ktm-450cc-2023-2025"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/pro-x-cam-chain-gas-gas-husqvarna-ktm-450cc-2023-2025",
+   "what_it_changes": "Borg Warner M-type timing chain with heat-treated pins, built to OE spec. It replaces a worn cam chain.",
+   "supporting_parts": "Inspect the tensioner and guides.",
+   "caveats": "Authorized dealer table. Missing years (e.g. FC 450 2026, MC 450F) are probably gaps in the table, not proof the chain doesn't fit. Motomentum also lists MPN 31.6443 as 'for KTM'.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cv2-009",
+   "category": "engine",
+   "subcategory": "cam chain",
+   "brand": "ProX",
+   "product": "ProX Cam Chain - Honda CRF450R/RX",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Cycle Gear 'This Product Fits': CRF450R 2017-2026, https://www.cyclegear.com/parts/pro-x-cam-chain-honda-crf450r-crf450rx-2017-2022"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Cycle Gear: CRF450RX 2017-2026, https://www.cyclegear.com/parts/pro-x-cam-chain-honda-crf450r-crf450rx-2017-2022"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/pro-x-cam-chain-honda-crf450r-crf450rx-2017-2022",
+   "what_it_changes": "Borg Warner-made direct replacement for the factory cam chain.",
+   "supporting_parts": "Inspect the tensioner and guides.",
+   "caveats": "Cycle Gear prints no ProX part number for this listing. Get the part number from ProX before ordering.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cv2-010",
+   "category": "engine",
+   "subcategory": "cam chain",
+   "brand": "ProX",
+   "product": "ProX Cam Chain - Kawasaki KX450/KX450X (2024+)",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Cycle Gear 'This Product Fits': KX450 2024-2026, https://www.cyclegear.com/parts/pro-x-cam-chain-kawasaki-kx450-kx450x-2024-2025"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Cycle Gear: KX450X 2024-2026, https://www.cyclegear.com/parts/pro-x-cam-chain-kawasaki-kx450-kx450x-2024-2025"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/pro-x-cam-chain-kawasaki-kx450-kx450x-2024-2025",
+   "what_it_changes": "Borg Warner-made direct replacement for the factory cam chain.",
+   "supporting_parts": "Inspect the tensioner and guides.",
+   "caveats": "No ProX part number printed. Cycle Gear's main ProX cam chain page lists KX450 2019-2023 under a separate listing.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cv2-011",
+   "category": "engine",
+   "subcategory": "cam chain",
+   "brand": "ProX",
+   "product": "ProX Cam Chain - KTM/Husqvarna/GasGas 250/350 (2023+)",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Cycle Gear ProX cam chain fitment, group 'Gas Gas/Husqvarna/KTM 250cc-501cc (2023-2025)': 250 SX-F 2023-2027, https://www.cyclegear.com/parts/pro-x-cam-chain"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Same group: 350 SX-F 2023-2027, https://www.cyclegear.com/parts/pro-x-cam-chain"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Same group: FC250 2023-2024, https://www.cyclegear.com/parts/pro-x-cam-chain"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Same group: FC350 2023-2024, https://www.cyclegear.com/parts/pro-x-cam-chain"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2024
+     ],
+     "notes": "Same group: FX350 2023-2024, https://www.cyclegear.com/parts/pro-x-cam-chain"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Same group: MC 250F 2024-2027, https://www.cyclegear.com/parts/pro-x-cam-chain"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "Same group: MC 350F 2024-2025, https://www.cyclegear.com/parts/pro-x-cam-chain"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250F",
+     "years": [
+      2024
+     ],
+     "notes": "Same group: EX 250F 2024, https://www.cyclegear.com/parts/pro-x-cam-chain"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 350F",
+     "years": [
+      2024
+     ],
+     "notes": "Same group: EX 350F 2024, https://www.cyclegear.com/parts/pro-x-cam-chain"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/pro-x-cam-chain",
+   "what_it_changes": "Borg Warner-made direct replacement for the factory cam chain.",
+   "supporting_parts": "Inspect the tensioner and guides.",
+   "caveats": "No ProX part number printed. Maciag (SID158189) lists the same chain for KTM SX-F/EXC-F 250/350 23-, Husqvarna FC/FE 250/350/501 23- and GasGas 24-.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cv2-012",
+   "category": "engine",
+   "subcategory": "cam chain",
+   "brand": "ProX",
+   "product": "ProX Cam Chain - Kawasaki KX250/KX250X (2021+ per dealer)",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Cycle Gear ProX cam chain group 'Kawasaki KX250/KX250X (2021-2025)' lists KX250 2021-2026; 2025-2026 dropped here because pro-x.com gives a separate 31.4355 for 2025+, https://www.cyclegear.com/parts/pro-x-cam-chain"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Same group; 2025+ is 31.4355 per ProX, https://www.cyclegear.com/parts/pro-x-cam-chain"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/pro-x-cam-chain",
+   "what_it_changes": "Borg Warner-made direct replacement for the factory cam chain.",
+   "supporting_parts": "Inspect the tensioner and guides.",
+   "caveats": "No ProX part number printed. Cycle Gear's years overlap with ProX's own 2025+ part number, so years are capped at 2024.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "low",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cv2-013",
+   "category": "engine",
+   "subcategory": "cam chain",
+   "brand": "ProX",
+   "product": "ProX Cam Chain - Yamaha YZ250F/YZ250FX (2024+)",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Cycle Gear ProX cam chain group 'Yamaha YZ250F/YZ250FX (2024-2025)': YZ250F 2024-2026, https://www.cyclegear.com/parts/pro-x-cam-chain"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250FX",
+     "years": [
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Same group: YZ250FX 2025-2027, https://www.cyclegear.com/parts/pro-x-cam-chain"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/pro-x-cam-chain",
+   "what_it_changes": "Borg Warner-made direct replacement for the factory cam chain.",
+   "supporting_parts": "Inspect the tensioner and guides.",
+   "caveats": "No ProX part number printed; dealer table only.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cv2-014",
+   "category": "engine",
+   "subcategory": "camshaft",
+   "brand": "Hot Cams",
+   "product": "Hot Cams Camshaft Intake Stage 1 (YZ250F/YZ250FX)",
+   "part_numbers": [
+    "HC00119"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2020
+     ],
+     "notes": "2022 ABRG (All Balls Racing Group, Hot Cams owner) catalogue, YZ250F intake cam 2019-2020, https://online.flippingbook.com/view/477292585/673/"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250FX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "2022 ABRG catalogue, YZ250FX page: Stage 1 intake 2020, Stage 2 intake 2020-2021, https://online.flippingbook.com/view/477292585/676/; Tokyo Mods lists HC00119 as Stage 1 intake YZ250F 2019-2020 / YZ250FX 2020-2021"
+    }
+   ],
+   "fitment_source_url": "https://online.flippingbook.com/view/477292585/673/",
+   "what_it_changes": "Bolt-in intake cam with Hot Cams' ITR ramp design for throttle response. ABRG says the 2020 Stage 1 intake is about equal to OEM at 3,200-5,000 rpm. It uses stock valve springs and needs no core.",
+   "supporting_parts": "Pairs with exhaust cam HC00122. Check valve clearances after fitting; a fuel map change may help.",
+   "caveats": "The catalogue text extraction did not cleanly pair HC00119/HC00125 with Stage 1/2; Stage 1 = HC00119 comes from the Tokyo Mods (dealer) listing. Firestorm lists YZ250FX 2020-2024 for the Stage 1 intake. No Hot Cams cams found for 2021+ YZ250F. Race use only in California.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cv2-015",
+   "category": "engine",
+   "subcategory": "camshaft",
+   "brand": "Hot Cams",
+   "product": "Hot Cams Camshaft Intake Stage 2 (YZ250F/YZ250FX)",
+   "part_numbers": [
+    "HC00125"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2020
+     ],
+     "notes": "2022 ABRG catalogue YZ250F intake 2019-2020, https://online.flippingbook.com/view/477292585/673/"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250FX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "2022 ABRG catalogue YZ250FX: Stage 2 intake 2020-2021, https://online.flippingbook.com/view/477292585/676/"
+    }
+   ],
+   "fitment_source_url": "https://online.flippingbook.com/view/477292585/676/",
+   "what_it_changes": "Higher-lift intake cam. ABRG says it gives a slight loss against OEM at 3,200-5,200 rpm and larger gains from 5,200 rpm to redline, so it is more top-end and less bottom.",
+   "supporting_parts": "Pairs with exhaust cam HC00122. Check valve clearances.",
+   "caveats": "Stage/part-number pairing inferred (HC00119 is Stage 1 per dealer). Firestorm sells a YZ250F 2019-2020 Stage 2 cam.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cv2-016",
+   "category": "engine",
+   "subcategory": "camshaft",
+   "brand": "Hot Cams",
+   "product": "Hot Cams Camshaft Exhaust Stage 1 & 2 (YZ250F/YZ250FX)",
+   "part_numbers": [
+    "HC00122"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2020
+     ],
+     "notes": "2022 ABRG catalogue: YZ250F 2019-2020 Stage 1&2 exhaust cam HC00122, https://online.flippingbook.com/view/477292585/673/"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250FX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "2022 ABRG catalogue YZ250FX: exhaust Stage 1 & 2, 2020-2021, works with both intake cams, supplied with decompression mechanism, https://online.flippingbook.com/view/477292585/676/"
+    }
+   ],
+   "fitment_source_url": "https://online.flippingbook.com/view/477292585/673/",
+   "what_it_changes": "Exhaust cam used with either the Stage 1 or the Stage 2 intake cam. Supplied with the decompression mechanism.",
+   "supporting_parts": "An intake cam HC00119 or HC00125.",
+   "caveats": "Catalogue is from 2022; check current Hot Cams fitment for later years.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cv2-017",
+   "category": "engine",
+   "subcategory": "cam chain",
+   "brand": "Hot Cams",
+   "product": "Hot Cams Silent Cam Chain Kit",
+   "part_numbers": [
+    "HC98XRH2010114"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2020
+     ],
+     "notes": "2022 ABRG catalogue: silent chain kit 2014-2020 HC98XRH2010114, https://online.flippingbook.com/view/477292585/673/"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250FX",
+     "years": [
+      2020
+     ],
+     "notes": "2022 ABRG catalogue YZ250FX: silent kit 2015-2020, https://online.flippingbook.com/view/477292585/676/"
+    }
+   ],
+   "fitment_source_url": "https://online.flippingbook.com/view/477292585/673/",
+   "what_it_changes": "Heat-treated silent-type replacement cam chain.",
+   "supporting_parts": "Inspect the tensioner and guides.",
+   "caveats": "Only the 2020 model year falls inside the roster.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cv2-018",
+   "category": "engine",
+   "subcategory": "camshaft",
+   "brand": "Hot Cams",
+   "product": "Hot Cams Camshaft Single Cam Stage 1 (CRF450R)",
+   "part_numbers": [
+    "HC00053"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020
+     ],
+     "notes": "2022 ABRG catalogue CRF450R page: Stage 1 single cam 2017-2020, https://online.flippingbook.com/view/477292585/162/; Walmart title 'Hot Cams Camshaft Single Cam HC00053 For Honda CRF 450 R 2017-2020'"
+    }
+   ],
+   "fitment_source_url": "https://online.flippingbook.com/view/477292585/162/",
+   "what_it_changes": "Replacement SOHC camshaft (Stage 1, mild grind) that uses stock valve springs. It aims for better response than stock.",
+   "supporting_parts": "Check valve clearances.",
+   "caveats": "The catalogue text did not clearly link HC00053/HC00054 to their stages; the stage comes from dealer titles. CRF450RX is not named. No Hot Cams cam was found for the 2021+ CRF450R.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cv2-019",
+   "category": "engine",
+   "subcategory": "camshaft",
+   "brand": "Hot Cams",
+   "product": "Hot Cams Camshaft Single Cam Stage 2 (CRF450R)",
+   "part_numbers": [
+    "HC00054"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020
+     ],
+     "notes": "2022 ABRG catalogue CRF450R page: Stage 2 single cam 2017-2020, https://online.flippingbook.com/view/477292585/162/"
+    }
+   ],
+   "fitment_source_url": "https://online.flippingbook.com/view/477292585/162/",
+   "what_it_changes": "Stage 2 (more aggressive) SOHC cam aimed at more mid/top power than Stage 1.",
+   "supporting_parts": "Check valve clearances; Hot Cams notes stock springs on most applications.",
+   "caveats": "Stage pairing inferred from listing order. Only model year 2020 is in the roster.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "low",
+   "is_service": false,
+   "colors": []
+  },
+  {
+   "id": "cv2-020",
+   "category": "engine",
+   "subcategory": "valve springs",
+   "brand": "ProX",
+   "product": "ProX Steel Intake Valve Spring Kit (conversion set) - YZ450F/FX/WR450F",
+   "part_numbers": [
+    "28.SIS2444-2"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ450FX",
+     "years": [
+      2020
+     ],
+     "notes": "Cycle Gear 'This Product Fits' (Manufacturer Product # 28.SIS2444-2): YZ450FX 2016-2020, https://www.cyclegear.com/parts/pro-x-steel-intake-valve-conversion-set-yamaha-yz450f-fx-wr450f-2014-2020"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/pro-x-steel-intake-valve-conversion-set-yamaha-yz450f-fx-wr450f-2014-2020",
+   "what_it_changes": "Swaps the OEM titanium intake valves for nitrided steel valves plus stronger chrome-vanadium springs. ProX says the steel valves last much longer than titanium; the trade-off is more valvetrain weight.",
+   "supporting_parts": "Reuse the OEM retainers, bases and seals (per listing). Set clearances with shims.",
+   "caveats": "Only YZ450FX 2020 is in the roster. No ProX steel valve/spring kit was found for the 2021+ YZ450F, KTM 2023+, KX 2021+ or CRF 2021+.",
+   "where_to_buy": [],
+   "rider_feedback": [],
+   "confidence": "medium",
+   "is_service": false,
+   "colors": []
+  }
+ ],
+ "gaps": [
+  "Hot Cams: no camshaft or valve spring kit was found for any 2021+ roster four-stroke. The newest are YZ250F 2019-2020, YZ250FX 2020-2021, CRF450R 2017-2020 and KTM-group 250 2016-2022 (round 1). The 2022 ABRG catalogue is the newest maker source that could be read.",
+  "ProX valves still missing: the 2023+ KTM 250 SX-F intake, the KTM/Husqvarna 450 2023+ exhaust, KX450 2019-2023 and 2024+ intake/exhaust (Maciag shows 2024+ intake EAN 0193564556257 with no ProX part number), the 2020-2024 KX250 intake, the 2025+ KX250 valves, and the YZ450F 2023+ exhaust (likely 28.2453-1, unconfirmed).",
+  "ProX pages print years, makes and models as separate lists, so model-to-year pairing is inferred. Examples: 28.2423-1 lists YZ450F with years to 2027, and 28.SIS2424-2 lists 2003-2027. Both are older parts whose year list is padded by the YFZ450R ATV, so they were not recorded as roster fits.",
+  "Cycle Gear ProX cam chain listings for CRF450R, KX450 2024+, KTM 250/350 2023+, KX250 2021-24 and YZ250F 2024+ print no ProX part numbers; firestorm/maciag also omit them.",
+  "CV4: no maker site was found (searches for cv4.com return unrelated companies). Dealer tables (Cycle Gear) show CV4 MX hose kits only up to 2016 plus the CRF150R (not in roster). JJ Motorsports lists colours as part-number suffixes (e.g. SFSMBC100B Blue, SFSMBC47R Red) but with no fitment, so no colours were recorded.",
+  "Vertex: no Vertex valvetrain parts or cooling hoses were found for roster bikes. Searches return only piston and gasket kits.",
+  "Web Cams, Kibblewhite 2023+ spring kits and Xceldyne (a 2023+ KTM 250 SX-F Ti exhaust valve appears at an AU dealer) were not researched in this round."
+ ],
+ "not_done": [
+  "hotcams.com and cv4.com: WebFetch refused both with PROVENANCE_REQUIRED (the bare domains in the task were not accepted as fetchable URLs, and no search result surfaced either domain). Not read.",
+  "vertexpistons.com: no search result surfaced a fetchable vertexpistons.com URL, so it was not fetched.",
+  "allballsracinggroup.com Hot Cams product search (keywords=Camshaft Intake / Valve Spring Kit): blocked by robots.txt (ROBOTS_DISALLOWED).",
+  "pro-x.com category pages (valvetrain, exhaust-valves, camchain): one returned CLIENT_ERROR and the retry was refused; the others were PROVENANCE_REQUIRED. Only product pages that appeared in search results could be opened.",
+  "cyclegear ProX steel intake conversion set YZ450F/FX/WR450F page: the first fetch permission timed out; the retry succeeded.",
+  "2 fitment years outside the BAK MX roster were left out when merged (2026-10-17)."
+ ]
+}
