@@ -9,6 +9,11 @@ test('knowledge is ranked by what the rider asked',()=>{
  assert.equal(rankKnowledge(rows,'how much horsepower does it make on the dyno')[0].id,'K-2');
  assert.deepEqual(rankKnowledge(rows,'my grips are worn'),[]);
 });
+test('rider symptom words reach known issues and jetting',()=>{
+ const r=[k('K-5','known_issues','rich low-speed jetting','COMMUNITY','owners report rich running'),k('K-6','chassis','rake','OEM','27 degrees')];
+ assert.equal(rankKnowledge(r,'my plugs keep fouling on trails')[0]?.id,'K-5');
+ assert.equal(rankKnowledge(r,'radiator keeps boiling over')[0]?.id,'K-5');
+});
 const base={kind:'answer',summary:'s',answer:'a',setup_changes:[],observations:[],systems:[],hypotheses:[],unknowns:[],next_step:null,specifications:[],evidence_ids:[],references:[],confidence:'LIMITED',garage_updates:[]};
 const v=(claims:object[])=>responseViolations({...base,claims} as never,[],[],rows);
 test('deep knowledge supports a claim only at its own tier',()=>{
