@@ -50,3 +50,7 @@ test('Ask BAK asks permission before sending anything to the AI provider, on web
  assert.match(rf('src/App.tsx','utf8'),/!aiOk\?<AiConsent/);
  assert.match(rf('apps/mobile/src/App.tsx','utf8'),/\{!aiOk\?<Card>/);
 });
+test('a relative change is never offered as a Garage setting',()=>{
+ const out=cleanGarageUpdates([{type:'setting',field:'fork_compression',value:'2 clicks softer'},{type:'setting',field:'shock_rebound',value:'1 click slower from where it was'},{type:'setting',field:'fork_rebound',value:'11 out'},{type:'setting',field:'shock_compression',value:'+2'}],true);
+ assert.deepEqual(out.map(u=>u.field),['fork_rebound']);
+});

@@ -7,13 +7,15 @@ const fields=new Map(allGarageFields.map(f=>[f.key,f]));
 const clip=(v:unknown,n:number)=>String(v??'').replace(/\s+/g,' ').trim().slice(0,n);
 export const garageFieldLabel=(key:string)=>fields.get(key)?.label.replace(/\s*\(.*\)$/,'').replace(/\s+settings?$/i,'')??key;
 /** Keep only well-formed proposals: a known Garage field with a value, or a part in a known build-sheet section. */
+/** A change described relative to the current setting ("2 clicks softer", "one turn in from where it was") is not a setting: saving it would overwrite the rider's real value. */
+export const RELATIVE=/\b(softer|firmer|stiffer|harder|slower|faster|more|less|from (where|current|my|the|stock|standard)|than|back)\b|(^|\s)[+−-]\s*\d/i;
 export function cleanGarageUpdates(updates:unknown,hasBike:boolean):GarageUpdate[]{
  if(!hasBike||!Array.isArray(updates))return [];
  const out:GarageUpdate[]=[],seen=new Set<string>();
  for(const raw of updates){
   if(!raw||typeof raw!=='object')continue;const u=raw as Record<string,unknown>;
   const g:GarageUpdate={type:u.type==='part'?'part':'setting',system:clip(u.system,40),brand:clip(u.brand,60),name:clip(u.name,90),field:clip(u.field,40),value:clip(u.value,120),current:clip(u.current,120)};
-  if(g.type==='setting'){const f=fields.get(g.field);if(!f||!g.value)continue;if(f.numeric&&!Number.isFinite(Number(g.value)))continue;g.system='';g.brand='';g.name='';}
+  if(g.type==='setting'){const f=fields.get(g.field);if(!f||!g.value)continue;if(f.numeric&&!Number.isFinite(Number(g.value)))continue;if(RELATIVE.test(g.value))continue;g.system='';g.brand='';g.name='';}
   else{if(!partSystemKeys.includes(g.system as PartSystem)||!(g.name||g.brand))continue;g.field='';g.value=clip(u.value,120);}
   const key=g.type==='setting'?'s:'+g.field:'p:'+(g.brand+'|'+g.name).toLowerCase();
   if(seen.has(key))continue;seen.add(key);out.push(g);if(out.length>=6)break;
