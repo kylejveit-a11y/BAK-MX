@@ -24,3 +24,15 @@ test('a reply that describes how BAK is fed is repaired',()=>{
  assert.ok(responseViolations({...base,answer:'The supplied research notes relay tester reports of more midrange.'} as never,[]).some(v=>/how BAK is fed/.test(v)));
  assert.ok(!responseViolations({...base,answer:'Testers report more midrange with the insert out.'} as never,[]).some(v=>/how BAK is fed/.test(v)));
 });
+test('a tuner name is allowed only when it is the brand of a part the rider has fitted',async()=>{
+ const {responseViolations}=await import('../server/engineering.ts');
+ const base={kind:'answer',summary:'s',answer:'Your Slavens Racing head kit raises compression.',setup_changes:[],observations:[],systems:[],hypotheses:[],unknowns:[],next_step:null,specifications:[],evidence_ids:[],claims:[],references:[],confidence:'LIMITED',garage_updates:[]} as never;
+ assert.ok(responseViolations(base,[]).some(v=>/tester, magazine or tuner/.test(v)));
+ assert.ok(!responseViolations(base,[],['Slavens Racing']).some(v=>/tester, magazine or tuner/.test(v)));
+ assert.ok(responseViolations({...(base as object),answer:'Keefer says so.'} as never,[],['Slavens Racing']).some(v=>/tester, magazine or tuner/.test(v)));
+});
+test('racing knowledge is in the briefing and covers pro and amateur racing types',async()=>{
+ const {disciplinesKnowledge}=await import('../shared/disciplines.ts');const k=disciplinesKnowledge();
+ for(const id of ['supercross','arenacross','motocross','mxgp','cross_country','enduro_extreme'])assert.ok(k.disciplines.some(d=>d.id===id),id);
+ assert.ok(!/\b\d+\s?(clicks?|psi|N\/mm|mm sag)\b/i.test(JSON.stringify(k)),'no bike-specific numbers');
+});
