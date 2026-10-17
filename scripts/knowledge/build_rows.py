@@ -39,7 +39,7 @@ for f in sorted(glob.glob(os.path.join(root,'docs/research/knowledge/*.json'))):
             elif re.match(r'(MC|EX|EC) ',model0):mk='GasGas'
             for brand in ('Husqvarna','GasGas','KTM','Yamaha','Honda','Kawasaki','Triumph','Suzuki'):
                 if model0.startswith(brand+' '):mk,model=brand,model0[len(brand)+1:]
-            for y in a.get('years') or []:
+            for y in (a.get('years') or d['platform'].get('years') or []):
                 if (mk,model,y) not in roster:continue
                 rid=f"{r['id']}|{mk}|{model}|{y}"
                 if rid in seen:continue
