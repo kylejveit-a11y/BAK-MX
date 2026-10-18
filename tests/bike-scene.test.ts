@@ -1,8 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {Scene,Mesh,MeshStandardMaterial,Vector3} from 'three';
-import {CAMERA_PRESETS,fitCameraDistance,replaceBikeModel,mountBikeScene} from '../src/bike3d/scene.ts';
-import {fitDistanceForPoints} from '../src/bike3d/camera-fit.ts';
+import {BoxGeometry,PerspectiveCamera,Scene,Mesh,MeshStandardMaterial,Vector3,ACESFilmicToneMapping} from 'three';
+import {CAMERA_PRESETS,VIEWER_TONE_MAPPING,cameraDepthPolicy,fitCameraDistance,replaceBikeModel,mountBikeScene} from '../src/bike3d/scene.ts';
+import {fitDistanceForPoints,fitObjectToCamera} from '../src/bike3d/camera-fit.ts';
 import {OEM_VIEWER_COPY} from '../src/bike3d/presentation.ts';
 import {createBikeModel,disposeBikeModel} from '../src/bike3d/model.ts';
 test('portrait camera fits a complete bounding sphere',()=>{
@@ -36,6 +36,24 @@ test('projected camera fitting uses framing margin and rejects degenerate inputs
  assert.throws(()=>fitDistanceForPoints(points,target,direction,up,0,1.8,1.08),/field of view/i);
  assert.throws(()=>fitDistanceForPoints(points,target,direction,up,35,0,1.08),/aspect/i);
 });
+test('object fitting follows actual transformed geometry instead of invented world-box corners',()=>{
+ const geometry=new BoxGeometry(2,.08,.08),mesh=new Mesh(geometry,new MeshStandardMaterial());
+ mesh.rotation.y=Math.PI/4;mesh.updateWorldMatrix(true,true);
+ const camera=new PerspectiveCamera(37,2.4,.03,30),target=new Vector3(),direction=new Vector3(2.55,.78,3.2).normalize();
+ const position=geometry.getAttribute('position'),points:Vector3[]=[];
+ for(let index=0;index<position.count;index++)points.push(new Vector3().fromBufferAttribute(position,index).applyMatrix4(mesh.matrixWorld));
+ const expected=fitDistanceForPoints(points,target,direction,camera.up,camera.fov,camera.aspect,1.025);
+ const actual=fitObjectToCamera(camera,mesh,target,direction,1.025);
+ assert.ok(Math.abs(actual-expected)<1e-9,`${actual} should match actual-vertex fit ${expected}`);
+ geometry.dispose();(mesh.material as MeshStandardMaterial).dispose();
+});
+test('camera depth policy contains extreme portrait fits without fog or far-plane clipping',()=>{
+ const policy=cameraDepthPolicy(24.009);
+ assert.ok(policy.maxDistance>24.009);
+ assert.ok(policy.far>policy.maxDistance);
+ assert.ok(policy.near>0&&policy.near<24.009);
+ assert.equal(VIEWER_TONE_MAPPING,ACESFilmicToneMapping);
+});
 test('OEM inspection presets cover every supported view with a close three-quarter hero',()=>{
  assert.deepEqual(Object.keys(CAMERA_PRESETS),['perspective','right','left','front','rear','top']);
  for(const [name,preset] of Object.entries(CAMERA_PRESETS)){
@@ -56,6 +74,17 @@ test('dimension edits preserve hidden groups and wireframe inspection',()=>{
  const next=replaceBikeModel(scene,old,{wheelbase:1.5,seatHeight:.96});
  assert.equal(next.getObjectByName('exhaust')!.visible,false);assert.equal(scene.children.length,1);assert.equal(old.parent,null);
  let wire=true;next.traverse(o=>{if(o instanceof Mesh&&o.material instanceof MeshStandardMaterial)wire&&=o.material.wireframe;});assert.ok(wire);disposeBikeModel(next);
+});
+test('actual motorcycle geometry fits every preset from landscape through extreme portrait',()=>{
+ const bike=createBikeModel(),camera=new PerspectiveCamera(37,1,.03,30),target=new Vector3();
+ for(const aspect of [2.4,1,.45,.15])for(const [name,preset] of Object.entries(CAMERA_PRESETS)){
+  camera.aspect=aspect;
+  const distance=fitObjectToCamera(camera,bike,target,new Vector3(...preset.direction),preset.margin),policy=cameraDepthPolicy(distance);
+  assert.ok(Number.isFinite(distance)&&distance>0,`${name} aspect ${aspect}`);
+  assert.ok(policy.maxDistance>distance,`${name} orbit range at aspect ${aspect}`);
+  assert.ok(policy.far>policy.maxDistance,`${name} far plane at aspect ${aspect}`);
+ }
+ disposeBikeModel(bike);
 });
 test('invalid input fails before any browser or GPU resources are accessed',()=>{
  assert.throws(()=>mountBikeScene(null as unknown as HTMLElement,{wheelbase:NaN,seatHeight:.958},()=>{}),e=>e instanceof Error&&e.name==='ZodError');

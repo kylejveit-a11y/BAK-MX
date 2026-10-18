@@ -16,6 +16,12 @@ export const CAMERA_PRESETS={
  top:{label:'Top',direction:[0,1,.001],margin:1.08},
 } as const;
 export type CameraView=keyof typeof CAMERA_PRESETS;
+export const VIEWER_TONE_MAPPING=T.ACESFilmicToneMapping;
+export function cameraDepthPolicy(distance:number){
+ if(!Number.isFinite(distance)||distance<=0)throw new RangeError('Camera distance must be greater than zero');
+ const maxDistance=Math.max(20,distance*2);
+ return {near:Math.max(.01,Math.min(.1,distance/100)),far:Math.max(50,maxDistance*2.25),maxDistance};
+}
 export function fitCameraDistance(radius:number,fov:number,aspect:number){
  const halfVertical=fov*Math.PI/360,halfHorizontal=Math.atan(Math.tan(halfVertical)*Math.max(aspect,.01));
  return radius/Math.sin(Math.min(halfVertical,halfHorizontal))*1.08;
@@ -32,12 +38,12 @@ export function mountBikeScene(host:HTMLElement,dimensions:BikeDimensions,onErro
  const cleanup:Array<()=>void>=[];
  try{
  const scene=new T.Scene();
- cleanup.push(()=>disposeBikeModel(scene));scene.background=new T.Color(0x090e12);scene.fog=new T.Fog(0x090e12,7,15);
+ cleanup.push(()=>disposeBikeModel(scene));scene.background=new T.Color(0x090e12);
  const camera=new T.PerspectiveCamera(37,1,.03,30),renderer=new T.WebGLRenderer({antialias:true,alpha:false,powerPreference:'high-performance'});
  cleanup.push(()=>{renderer.dispose();renderer.forceContextLoss();renderer.domElement.remove();});
  const room=new RoomEnvironment(),pmrem=new T.PMREMGenerator(renderer);
  try{const environment=pmrem.fromScene(room,.04);scene.environment=environment.texture;scene.environmentIntensity=.72;cleanup.push(()=>environment.dispose());}finally{room.dispose();pmrem.dispose();}
- renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.NeutralToneMapping;renderer.toneMappingExposure=.64;
+ renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=VIEWER_TONE_MAPPING;renderer.toneMappingExposure=.72;
  renderer.shadowMap.enabled=true;renderer.shadowMap.type=T.PCFShadowMap;
  renderer.domElement.setAttribute('aria-label','Interactive stock 2025 KTM 450 SX-F exterior study');renderer.domElement.style.touchAction='none';host.append(renderer.domElement);
  const controls=new OrbitControls(camera,renderer.domElement);controls.target.set(0,.65,0);controls.minDistance=1.3;controls.maxDistance=20;controls.enablePan=false;controls.maxPolarAngle=Math.PI-.03;controls.minPolarAngle=.03;
@@ -51,7 +57,7 @@ export function mountBikeScene(host:HTMLElement,dimensions:BikeDimensions,onErro
  function render(){frame=0;if(!disposed&&visible&&!paused&&!document.hidden){try{renderer.render(scene,camera);}catch{onError('The 3D preview could not render. Close and reopen the viewer.');}}}
  function invalidate(){if(!disposed&&!frame&&visible&&!paused&&!document.hidden)frame=requestAnimationFrame(render);}
  let activeView:CameraView='perspective';
- function fit(margin=CAMERA_PRESETS[activeView].margin){const direction=camera.position.clone().sub(controls.target).normalize();fitObjectToCamera(camera,bike,controls.target,direction,margin);controls.update();}
+ function fit(margin=CAMERA_PRESETS[activeView].margin){const direction=camera.position.clone().sub(controls.target).normalize(),distance=fitObjectToCamera(camera,bike,controls.target,direction,margin),depth=cameraDepthPolicy(distance);camera.near=depth.near;camera.far=depth.far;controls.maxDistance=depth.maxDistance;camera.updateProjectionMatrix();controls.update();}
  function resize(){if(disposed)return;const {width,height}=host.getBoundingClientRect();renderer.setSize(Math.max(width,1),Math.max(height,1));camera.aspect=Math.max(width,1)/Math.max(height,1);camera.updateProjectionMatrix();fit();invalidate();}
  function setView(view:CameraView){activeView=view;const preset=CAMERA_PRESETS[view];camera.position.copy(controls.target).add(new T.Vector3(...preset.direction).normalize());fit(preset.margin);invalidate();}
  const resizeObserver=new ResizeObserver(resize);cleanup.push(()=>resizeObserver.disconnect());resizeObserver.observe(host);

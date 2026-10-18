@@ -4,18 +4,18 @@ Updated 2026-10-17. **The convincing HD OEM visual milestone is not complete.** 
 
 ## 2026-10-18 OEM viewer presentation pass
 
-The browser studio now treats the motorcycle as one fixed stock-OEM inspection target rather than a graphics or dimension configurator. Conservative bounding-sphere fitting was replaced with projected-bounds fitting for the actual view direction, giving each preset an independently tested tight frame across landscape, square and portrait hosts. The default is a front-right three-quarter inspection view, with right, left, front, rear and top presets retained.
+The browser studio now treats the motorcycle as one fixed stock-OEM inspection target rather than a graphics or dimension configurator. Conservative bounding-sphere fitting was replaced with projected fitting against the transformed vertices of the visible motorcycle geometry, including instances. This avoids framing nonexistent corners from a world-aligned box. Deterministic tests cover wide, square, portrait, and extreme-portrait math; local Chrome exercised all six presets. The default is a front-right three-quarter inspection view, with right, left, front, rear and top presets retained.
 
-Studio presentation now uses a seamless dark floor, controlled environment/key/fill/rim lighting, neutral tone mapping, soft shadows and differentiated stock material response for KTM-orange plastic, seat vinyl, rubber, black alloy, cast engine surfaces and machined hardware. The rider-facing wheelbase and seat sliders were removed because this preview represents the fixed Standard US bike. In-house component isolation, wireframe inspection and editable GLB export remain available.
+Studio presentation now uses a seamless dark floor, controlled environment/key/fill/rim lighting, ACES filmic tone mapping, soft shadows and differentiated stock material response for KTM-orange plastic, seat vinyl, rubber, black alloy, cast engine surfaces and machined hardware. Camera near/far planes and orbit limits scale with the fitted distance, and the old fixed fog range was removed so extreme portrait layouts do not clip or erase the bike. The rider-facing wheelbase and seat sliders were removed because this preview represents the fixed Standard US bike. In-house component isolation, wireframe inspection and editable GLB export remain available.
 
 An editable Blender handoff is checked in at `assets/bike3d/ktm-450-sxf-2025.blend`. Blender 5.2.2 opened the file with 123 meshes and preserved the exact identity plus `BLOCKOUT_NOT_OEM_VERIFIED`. This is a durable modeling starting point, not evidence that the imported geometry is visually accepted or now Blender-refined.
 
 - [Verified browser page](../../../public/bike-builder/ktm-450-sxf-2025-browser-review.png)
 - [Verified default WebGL canvas](../../../public/bike-builder/ktm-450-sxf-2025-browser-three-quarter.png)
 
-Fresh verification on 2026-10-18: 18/18 focused 3D scene/material tests passed; TypeScript and the production Vite build passed; the regenerated GLB contains 123 meshes and 292,570 rendered triangles; glTF Validator reported 0 errors and 0 warnings; the native/offline payload was regenerated and its freshness check passed; mobile TypeScript and 12/12 mobile tests passed. Headless Chrome rendered six distinct preset views, orbit and zoom changed the canvas, expand/collapse worked, and the browser recorded no page errors or warnings.
+Fresh verification on 2026-10-18: 21/21 focused 3D scene/material tests passed; TypeScript and the production Vite build passed; the regenerated GLB contains 123 meshes and 292,570 rendered triangles; glTF Validator reported 0 errors and 0 warnings; the native/offline payload was regenerated and its freshness check passed; mobile TypeScript and 12/12 mobile tests passed. Headless Chrome rendered six distinct preset views, orbit and zoom changed the canvas, expand/collapse worked, and the browser recorded no page errors or warnings. A forced WebGL context-loss event showed the recovery alert; retry cleared the alert and restored both the selected Rear control state and the identical rendered Rear view.
 
-The repository-wide suite remains 239/240 because the pre-existing `2024 rear hose correction preserves other checks, original content identity and rejects changed review inputs` assertion expects `/does not match/`, while the implementation throws `Hose routing correction review changed`. It failed identically before this viewer pass and is outside the 3D scope.
+The repository-wide suite remains 242/243 because the pre-existing `2024 rear hose correction preserves other checks, original content identity and rejects changed review inputs` assertion expects `/does not match/`, while the implementation throws `Hose routing correction review changed`. It failed identically before this viewer pass and is outside the 3D scope.
 
 These results close the browser-software presentation gate only. They do not close the OEM-likeness gate, physical-iPhone performance, physical gestures, or Kyle's visual acceptance.
 
@@ -75,7 +75,9 @@ The renderer requires NumPy and Pillow. The authored TypeScript is the editable 
 
 Web development page: `/bike-builder.html`. Garage integration remains behind `VITE_BIKE_BUILDER_PREVIEW=true`, and mobile behind `EXPO_PUBLIC_BIKE_BUILDER_PREVIEW=true`. Native generation writes both the checked-in `apps/mobile/src/generated/bike-preview.json` and a self-contained `artifacts/bike-builder/offline-preview.html` for local inspection.
 
-## Validation and performance
+## Historical validation snapshot (2026-10-17)
+
+This table records the pre-presentation baseline and is retained for provenance. Where it differs, the fresh 2026-10-18 results above supersede it.
 
 | Gate | Result and scope |
 | --- | --- |
@@ -88,7 +90,7 @@ Web development page: `/bike-builder.html`. Garage integration remains behind `V
 | Mesh | 123 mesh objects; 292,570 rendered triangles; 7,598,108 geometry bytes |
 | CPU construction | 1239.5 ms, 1110.1 ms, 1015.3 ms in three fresh assemblies on the available Linux/Node CPU; not a device/GPU benchmark |
 | Visual target | **Not met** |
-| WebGL / iPhone | **Not verified** |
+| WebGL / iPhone | WebGL was not verified in this historical snapshot; local headless Chrome is now verified. Physical iPhone remains **not verified**. |
 
 Saved fitted finish and plastics selections pass serialization coverage. Mobile persistence/continuity tests use mocked storage and cover restoration and interrupted writes. They are not an end-to-end Garage save/reload or an iPhone process-kill/restart test.
 
@@ -99,9 +101,8 @@ The available machine is an x64 Linux container with Node 24 and an AMD EPYC CPU
 1. **Visual fidelity remains below the requested convincing HD OEM standard.** Molded plastics still need more accurate sectional curvature, returns and junctions against multi-angle references. Top widths and hidden connections remain estimated. The latest front/rear fender and plate surfaces improve the silhouettes but do not establish an exact molded OEM surface.
 2. **Powertrain likeness remains approximate.** Cast-case depth transitions, head/valve-cover contours, port necks and stepped recesses are simplified. The revised header and muffler still need closer multi-angle contour and clearance verification.
 3. **Fine OEM surface appearance is incomplete.** Seat grain, cast-metal texture, fine fastener recesses, small fixed branding and other close-up surface marks are not finished. Fixed shroud polygons are photo-derived artwork estimates, not an OEM CAD/texture asset.
-4. **Actual WebGL rendering and interaction are unverified.** No Blender executable or local Chrome/Chromium was available. The cloud browser could not reach the local Vite server, and browser policy blocked loading the shared offline file URL. No browser-policy workaround was attempted. The practical available workflow was authored Three.js surfaces, CPU geometry rendering and GLB export; it cannot close this gate.
-5. **Physical iPhone gestures, restart behavior and performance are unverified.** No physical iPhone or accessible target WebView was available. Successful Expo exports do not resolve this gate.
-6. **End-to-end saved-build reload/restart was not exercised in an actual Garage session.** Data serialization, stock restoration and mocked continuity tests passed within the stated scope only.
-7. **Kyle's visual acceptance has not occurred.** The current result is not submitted as a finished visual milestone. `BLOCKOUT_NOT_OEM_VERIFIED` remains in the model and export.
+4. **Physical iPhone gestures, restart behavior and performance are unverified.** No physical iPhone or accessible target WebView was available. Successful Expo exports do not resolve this gate.
+5. **End-to-end saved-build reload/restart was not exercised in an actual Garage session.** Data serialization, stock restoration and mocked continuity tests passed within the stated scope only.
+6. **Kyle's visual acceptance has not occurred.** The current result is not submitted as a finished visual milestone. `BLOCKOUT_NOT_OEM_VERIFIED` remains in the model and export.
 
 No paid asset/service was acquired. No catalog expansion, database change, production deployment or merge was performed. The authorized feature-branch upload preserves the work, without treating the visual milestone as passed.
