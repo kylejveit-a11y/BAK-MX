@@ -64,7 +64,7 @@ function pressedChamber(g:T.Group,top:P[],bottom:P[],mat:T.Material,weld:T.Mater
    // A fuller middle and restrained edges reproduce the pressed outer half;
    // the inner half has a shallower crown against the engine.
    const seamZ=.171+.064*along;
-   p.z=seamZ+side*(side>0?.027:.021)*shoulder*endBlend;
+   p.z=seamZ+side*(side>0?.035:.027)*shoulder*endBlend;
    positions.push(p.x,p.y,p.z);
   }
  }
@@ -91,6 +91,9 @@ export function buildPowertrain(ctx:AuthoringContext){
  const gasket=mats.black.clone();gasket.color.setHex(0x1b1f1e);gasket.roughness=.78;
  const magnesium=mats.black.clone();magnesium.color.setHex(0x292d2b);magnesium.metalness=.30;magnesium.roughness=.67;
  const coverFace=magnesium.clone();coverFace.color.setHex(0x202422);coverFace.roughness=.78;
+ const caseStepMat=castShadow.clone();caseStepMat.name='engine-case-step';
+ const headStepMat=cast.clone();headStepMat.name='engine-head-step';headStepMat.color.setHex(0x697271);headStepMat.metalness=.34;headStepMat.roughness=.68;
+ const pumpStepMat=castLight.clone();pumpStepMat.name='engine-pump-step';pumpStepMat.metalness=.40;pumpStepMat.roughness=.62;
 
  // The engine is a liquid-cooled compact single: a tapered barrel, irregular
  // cast crankcase and different removable covers on each side, not finned blocks.
@@ -103,6 +106,7 @@ export function buildPowertrain(ctx:AuthoringContext){
  // Underside sump and an uneven front web remain visible beyond the cover.
  casting(engine,[[414,441],[444,446],[472,438],[494,439],[488,455],[465,462],[432,461],[414,454]],-.074,.149,castLight,'sump-bottom-casting',.006);
  casting(engine,[[470,374],[490,369],[501,380],[511,397],[505,419],[491,434],[475,431],[478,411]],.110,.023,cast,'right-front-cast-web',.006);
+ const rightCaseStep=casting(engine,[[466,383],[481,381],[493,390],[499,404],[496,419],[486,431],[474,434],[466,424],[470,407]],.146,.016,caseStepMat,'right-case-raised-step',.004);rightCaseStep.userData.authoredSurface=true;
  photoPath(engine,[[407,444],[424,454],[451,458],[477,451],[489,436]],.137,.0028,castShadow,'right-cover-bottom-seam');
  photoPath(engine,[[476,382],[488,390],[491,407],[482,425],[471,433]],.141,.0038,castLight,'right-cast-oil-gallery');
  photoPath(engine,[[458,442],[467,435],[473,419],[485,408]],.143,.0041,castLight,'diagonal-casting-rib');
@@ -165,6 +169,8 @@ export function buildPowertrain(ctx:AuthoringContext){
  }
  casting(engine,[[458,343],[470,332],[500,331],[519,337],[526,350],[518,364],[497,371],[472,365],[457,355]],-.091,.182,castLight,'cylinder-head-casting',.008);
  casting(engine,[[466,326],[479,321],[501,323],[512,331],[514,344],[501,349],[475,349],[464,342]],-.086,.172,magnesium,'valve-cover',.007);
+ const headStep=casting(engine,[[463,346],[476,335],[500,335],[515,342],[516,351],[502,358],[477,356],[463,351]],.101,.015,headStepMat,'cylinder-head-upper-step',.004);headStep.userData.authoredSurface=true;
+ const leftHeadStep=casting(engine,[[463,346],[476,335],[500,335],[515,342],[516,351],[502,358],[477,356],[463,351]],-.131,.015,headStepMat,'cylinder-head-upper-step-left',.004);leftHeadStep.userData.authoredSurface=true;
  for(const side of [-1,1]){
   photoPath(engine,[[459,350],[475,356],[499,359],[518,352]],side*.099,.0026,castShadow,'head-gasket-seam');
   for(const [x,y] of [[467,345],[481,336],[506,339],[516,353]] as P[])photoBolt(engine,x,y,side*.102,bright,.0043);
@@ -183,7 +189,7 @@ export function buildPowertrain(ctx:AuthoringContext){
  }
  const pump:P[]=[[476,417],[482,405],[494,401],[503,407],[503,419],[495,429],[482,430]];
  casting(engine,pump,.138,.014,castLight,'right-water-pump-housing',.005);
- disk(engine,photo(490,415,.158),.017,.009,cast,32);
+ const pumpStep=disk(engine,photo(490,415,.164),.020,.012,pumpStepMat,36);pumpStep.name='right-water-pump-stepped-cover';pumpStep.userData.authoredSurface=true;
  photoBolt(engine,490,415,.166,bright,.0056);
  for(const [x,y] of [[482,408],[499,410],[495,426]] as P[])photoBolt(engine,x,y,.163,bright,.0034);
  photoPath(engine,[[497,402],[504,391],[505,381]],.134,.010,castShadow,'water-pump-neck');
@@ -221,10 +227,10 @@ export function buildPowertrain(ctx:AuthoringContext){
  const mufflerMat=target('exhaust',mats.black);mufflerMat.color.setHex(0x292c2b);mufflerMat.metalness=.46;mufflerMat.roughness=.46;mufflerMat.userData.representativeFinish=true;
  const endMat=target('exhaust',mats.silver);endMat.color.setHex(0xaeb1ae);endMat.metalness=.8;endMat.roughness=.38;
  const weld=headerMat.clone();weld.color.setHex(0x858881);weld.roughness=.49;
- const headerPoints:V[]=[photo(516,354,.086),photo(527,372,.090),photo(535,400,.108),photo(540,426,.136),photo(535,434,.174),photo(525,423,.211),photo(516,393,.224),photo(500,371,.219),photo(477,359,.203),photo(448,356,.178),photo(424,360,.156),photo(407,373,.105),photo(392,382,.045),photo(364,376,.035),photo(336,360,.065),photo(313,352,.135)];
+ const headerPoints:V[]=[photo(516,354,.086),photo(527,372,.090),photo(535,400,.106),photo(540,426,.131),photo(535,434,.164),photo(525,423,.196),photo(516,393,.207),photo(500,371,.203),photo(477,359,.190),photo(448,356,.168),photo(424,360,.150),photo(407,373,.103),photo(392,382,.045),photo(364,376,.035),photo(336,360,.065),photo(313,352,.135)];
  const headerCurve=new T.CatmullRomCurve3(headerPoints.map(vector),false,'centripetal');
  // Keep the first child as a continuous TubeGeometry for connector inspection.
- const header=mesh(stockHeader,new T.TubeGeometry(headerCurve,144,.0195,16,false),headerMat,[0,0,0],'stock-header-primary-tube');
+ const header=mesh(stockHeader,new T.TubeGeometry(headerCurve,144,.0175,16,false),headerMat,[0,0,0],'stock-header-primary-tube');
  header.userData={inlet:headerPoints[0],outlet:headerPoints[headerPoints.length-1],profileStatus:'PHOTO_ESTIMATED'};
  stockHeader.userData={inlet:headerPoints[0],outlet:headerPoints[headerPoints.length-1],connectionRole:'header-to-muffler'};
  // The resonator is a broad flattened crescent pressed in two welded halves,
@@ -233,7 +239,7 @@ export function buildPowertrain(ctx:AuthoringContext){
  pressedChamber(stockHeader,[[422,353],[441,348],[463,349],[484,355],[501,367],[515,383],[528,403]],[[421,365],[429,369],[443,363],[461,364],[480,370],[497,382],[511,398],[522,413],[529,411]],headerMat,weld);
  for(const t of [.055,.19,.35,.82,.93]){
   const p=headerCurve.getPointAt(t),tangent=headerCurve.getTangentAt(t).normalize();
-  const ring=mesh(stockHeader,new T.TorusGeometry(.0197,.0010,6,24),weld,p.toArray() as V,'header-weld-band');
+  const ring=mesh(stockHeader,new T.TorusGeometry(.0177,.0009,6,24),weld,p.toArray() as V,'header-weld-band');
   ring.quaternion.setFromUnitVectors(new T.Vector3(0,0,1),tangent);
  }
  const port=headerPoints[0],dir=vector(headerPoints[1]).sub(vector(port)).normalize();

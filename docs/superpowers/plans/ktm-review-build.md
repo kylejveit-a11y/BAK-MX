@@ -1,6 +1,6 @@
 # 2025 KTM 450 SX-F standard US — visual recovery
 
-Updated 2026-10-17. **The convincing HD OEM visual milestone is not complete.** The rejected four-view image is preserved separately. This reconstruction is substantial, but it is still an estimated exterior study. It must not be represented as an accepted or verified OEM asset.
+Updated 2026-10-18. **The convincing HD OEM visual milestone is not complete.** The rejected four-view image is preserved separately. This reconstruction is substantial, but it is still an estimated exterior study. It must not be represented as an accepted or verified OEM asset.
 
 ## 2026-10-18 OEM viewer presentation pass
 
@@ -29,6 +29,16 @@ Fresh verification for this refinement: 19/19 focused geometry/material tests pa
 
 - [Focused pass three-quarter render](../../../public/bike-builder/ktm-450-sxf-2025-browser-three-quarter.png)
 - [Focused pass browser page](../../../public/bike-builder/ktm-450-sxf-2025-browser-review.png)
+
+## 2026-10-18 bounded bodywork and powertrain refinement
+
+The approved third pass narrows, shortens and reclines the front number plate, with folded side returns and a cleaner lower transition. The front fender now uses a thinner closed section with a broader longitudinal crown and smoother molded highlights. Upper shroud shoulders and dark recessed tank-seat transitions break up the largest flat junctions while preserving the existing plastics replacement groups.
+
+The engine now carries independently shaded raised case, cylinder-head and water-pump steps. The primary header tube is slimmer, its forward loop sits closer to the engine, and the pressed chamber has clearer asymmetric depth. These remain photo-estimated authoring decisions, not verified OEM dimensions.
+
+Fresh verification for this pass: the five new regressions were observed failing before implementation; the focused geometry/material suite passes 24/24; TypeScript and the production Vite build pass; mobile TypeScript and 12/12 mobile tests pass; and the native payload freshness check passes. The regenerated 8,200,720-byte GLB contains 135 meshes and 306,710 triangles and validates with 0 errors and 0 warnings. Blender 5.2.2 reopened the handoff with 1,199 objects, 135 meshes and 37 materials while preserving `BLOCKOUT_NOT_OEM_VERIFIED`. Chromium produced six unique inspected camera frames, and both orbit and zoom changed the rendered canvas with no page errors or failed resources. The repository-wide suite is 249/250 because of the unchanged rear-hose message assertion mismatch documented above.
+
+Remaining visual gaps include exact OEM sectional curvature, side-panel and airbox contour fidelity, hidden bodywork junctions, cylinder/head casting accuracy, exhaust routing detail and fine surface texture. Kyle's visual acceptance remains open.
 
 ## What changed
 

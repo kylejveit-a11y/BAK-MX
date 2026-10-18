@@ -102,6 +102,61 @@ test('molded bodywork keeps visible shoulder crown instead of collapsing into fl
   assert.ok(depth('side-number-panel--1')>.045,'left number panel needs molded crown and edge return');
  }finally{disposeBikeModel(bike);}
 });
+test('front number plate is a compact tapered shell with independent side returns',()=>{
+ const bike=createBikeModel();
+ try{
+  const face=bike.getObjectByName('number-plate-molded');assert.ok(face instanceof Mesh);
+  face.geometry.computeBoundingBox();const size=face.geometry.boundingBox!.getSize(new Vector3());
+  assert.ok(size.x<.195,`number plate face is still too wide at ${size.x.toFixed(3)}m`);
+  assert.ok(size.y<.255,`number plate face is still too tall at ${size.y.toFixed(3)}m`);
+  for(const side of [-1,1]){
+   const returned=bike.getObjectByName(`number-plate-side-return-${side}`);assert.ok(returned instanceof Mesh,`number plate ${side} side return is missing`);
+   returned.geometry.computeBoundingBox();
+   assert.ok(returned.geometry.boundingBox!.getSize(new Vector3()).z>.014,`number plate ${side} return needs molded depth`);
+  }
+ }finally{disposeBikeModel(bike);}
+});
+test('front fender has a pronounced crown over a thin molded shell',()=>{
+ const bike=createBikeModel();
+ try{
+  const fender=bike.getObjectByName('front-fender-crowned');assert.ok(fender instanceof Mesh);
+  const positions=fender.geometry.getAttribute('position'),bounds=new Box3().setFromBufferAttribute(positions),centerX=(bounds.min.x+bounds.max.x)/2;
+  let ringX=positions.getX(0);for(let i=1;i<positions.count;i++)if(Math.abs(positions.getX(i)-centerX)<Math.abs(ringX-centerX))ringX=positions.getX(i);
+  const ring:{y:number,z:number}[]=[];for(let i=0;i<positions.count;i++)if(Math.abs(positions.getX(i)-ringX)<1e-5)ring.push({y:positions.getY(i),z:positions.getZ(i)});
+  const halfWidth=Math.max(...ring.map(p=>Math.abs(p.z))),band=(at:number)=>ring.filter(p=>Math.abs(Math.abs(p.z)/halfWidth-at)<.04).map(p=>p.y);
+  const center=band(0),edge=band(.95);assert.ok(center.length&&edge.length,'front fender inspection bands must exist');
+  const centerTop=Math.max(...center),edgeTop=Math.max(...edge),centerThickness=centerTop-Math.min(...center),edgeThickness=edgeTop-Math.min(...edge);
+  assert.ok(centerTop-edgeTop>.050,`front fender crown is only ${(centerTop-edgeTop).toFixed(3)}m`);
+  assert.ok(centerThickness<.010,`front fender center is still ${centerThickness.toFixed(3)}m thick`);
+  assert.ok(edgeThickness<.010,`front fender edge is still ${edgeThickness.toFixed(3)}m thick`);
+ }finally{disposeBikeModel(bike);}
+});
+test('body junctions use a molded shroud shoulder and recessed tank-seat transition',()=>{
+ const bike=createBikeModel();
+ try{
+  for(const side of [-1,1]){
+   const shoulder=bike.getObjectByName(`shroud-upper-shoulder-${side}`),transition=bike.getObjectByName(`tank-seat-transition-${side}`);
+   assert.ok(shoulder instanceof Mesh,`shroud ${side} upper shoulder is missing`);
+   assert.ok(transition instanceof Mesh,`tank-seat ${side} transition is missing`);
+   assert.ok(new Box3().setFromObject(shoulder).getSize(new Vector3()).z>.025,'shroud shoulder needs visible molded depth');
+  }
+ }finally{disposeBikeModel(bike);}
+});
+test('engine and exhaust retain stepped exterior depth without an oversized header loop',()=>{
+ const bike=createBikeModel();
+ try{
+  for(const name of ['right-case-raised-step','cylinder-head-upper-step','right-water-pump-stepped-cover']){
+   const detail=bike.getObjectByName(name);assert.ok(detail instanceof Mesh,`${name} is missing`);
+   assert.ok(new Box3().setFromObject(detail).getSize(new Vector3()).z>.008,`${name} needs visible casting depth`);
+  }
+  const leftHeadStep=bike.getObjectByName('cylinder-head-upper-step-left');assert.ok(leftHeadStep instanceof Mesh,'left cylinder-head step is missing');
+  assert.ok(new Box3().setFromObject(leftHeadStep).min.z<-.128,'left cylinder-head step must sit outside the base casting');
+  const header=bike.getObjectByName('stock-header-primary-tube') as Mesh;
+  assert.ok(header);assert.ok((header.geometry as import('three').TubeGeometry).parameters.radius<.019,'header primary tube remains visually oversized');
+  const chamber=bike.getObjectByName('formed-header-crescent-resonator');assert.ok(chamber);
+  assert.ok(new Box3().setFromObject(chamber).getSize(new Vector3()).z>.095,'formed header chamber needs stepped pressed depth');
+ }finally{disposeBikeModel(bike);}
+});
 test('fork separates dark anodized outer tubes from bright lower stanchions',()=>{
  const bike=createBikeModel();
  try{

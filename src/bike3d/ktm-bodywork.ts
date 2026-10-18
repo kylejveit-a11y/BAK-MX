@@ -60,6 +60,9 @@ export function buildBodywork(ctx:AuthoringContext){
  const sideSurface=(x:number,y:number)=>.110+.048*Math.exp(-(((x+.34)/.30)**2))+.021*Math.exp(-(((y-.81)/.15)**2))-.27*Math.max(0,y-.89);
  for(const side of [-1,1]){
   panel('shroud-molded-'+side,kit.shrouds,shroudOutline,shroudSurface,side,plastic,.006);
+  // The upper shoulder changes section as it runs into the tank instead of
+  // reading as one broad planar orange card.
+  panel('shroud-upper-shoulder-'+side,kit.shrouds,[[392,255],[435,237],[466,231],[500,239],[548,245],[535,267],[486,263],[435,258]],(x,y)=>shroudSurface(x,y)+.006+.018*Math.exp(-(((x-.01)/.20)**2)),side,plastic,.003);
   panel('side-number-panel-'+side,kit['side-panels'],side<0?leftSideOutline:sideOutline,sideSurface,side,plastic,.006);
   panel('airbox-cover-'+side,kit['airbox-cover'],[[280,267],[335,278],[387,287],[433,290],[401,308],[372,320],[383,360],[365,354],[329,321]],(x,y)=>sideSurface(x,y)-.015,side,airbox);
   panel('lower-airbox-and-frame-protector-'+side,groups.frame,[[293,313],[330,337],[362,360],[378,370],[386,348],[394,345],[392,393],[403,429],[398,444],[381,446],[366,430],[360,401],[345,375],[319,353],[298,335]],(x,y)=>.114+.015*Math.exp(-(((x+.22)/.13)**2)),side,mats.black,.010);
@@ -71,6 +74,9 @@ export function buildBodywork(ctx:AuthoringContext){
   for(const [px,py] of side<0?[[235,280],[368,386]]:[[235,268],[291,298],[378,360]]){const [x,y]=photo(px,py);bolt(kit['side-panels'],[x,yScale(y),side*(sideSurface(x,y)+.008)],mats.black,.006);}
   const [sx,sy]=photo(419,291);bolt(kit.shrouds,[sx,yScale(sy),side*(shroudSurface(sx,sy)+.009)],mats.black,.006);
   const innerReturn=path(kit.shrouds,[[374,281],[417,284],[465,288],[510,288],[535,287]].map(([x,y])=>{const p=photo(x,y);return[p[0],yScale(p[1]),side*(shroudSurface(p[0],p[1])-.004)] as V;}),.0032,mats.black,38,7);innerReturn.name='shroud-inner-return-'+side;
+  // A dark recessed bridge leaves a readable valley between the saddle,
+  // tank and the leading edge of the side panel.
+  panel('tank-seat-transition-'+side,groups.frame,[[365,258],[405,246],[451,231],[488,219],[480,236],[443,250],[401,265]],(x,y)=>.094+.012*Math.exp(-(((x+.02)/.22)**2)),side,mats.black,.005);
   // Subtle lower crease and inward return at the side-panel trailing hook.
   path(kit['side-panels'],(side<0?[[312,351],[340,378],[365,392]]:[[333,338],[356,356],[378,365]]).map(([x,y])=>{const p=photo(x,y);return[p[0],yScale(p[1]),side*(sideSurface(p[0],p[1])+.003)] as V;}),.0014,plastic,24,6);
  }
@@ -81,7 +87,7 @@ export function buildBodywork(ctx:AuthoringContext){
   const rings:V[][]=[];
   for(let i=0;i<=samples;i++){const p=curve.getPoint(i/samples),h=depth.getPoint(i/samples).y;rings.push(profile.map(([z,dy])=>[p.x,yScale(p.y+dy*h),p.z*z]));}
   const result=loft(g,rings,mat,name);
-  if(name.includes('fender')){const old=result.geometry;result.geometry=toCreasedNormals(old,Math.PI/12);if(result.geometry!==old)old.dispose();}
+  if(name.includes('fender')){const old=result.geometry;result.geometry=toCreasedNormals(old,name==='front-fender-crowned'?Math.PI/4:Math.PI/12);if(result.geometry!==old)old.dispose();}
   return result;
  }
  const seatProfile=[[-1,-.62],[-.98,-.23],[-.86,-.06],[-.62,.03],[-.3,.08],[0,.10],[.3,.08],[.62,.03],[.86,-.06],[.98,-.23],[1,-.62],[.82,-1],[0,-1.03],[-.82,-1]];
@@ -98,13 +104,14 @@ export function buildBodywork(ctx:AuthoringContext){
  // MY25 fenders have a narrow central spine and folded shoulder channels.
  // Width/crown are perspective estimates from the dealer front and rear details.
  const fenderProfile=[[-1,-.66],[-.96,-.48],[-.78,-.14],[-.53,-.20],[-.25,.25],[-.12,.42],[0,.45],[.12,.42],[.25,.25],[.53,-.20],[.78,-.14],[.96,-.48],[1,-.66],[.94,-.82],[.75,-.39],[.51,-.43],[.22,.02],[0,.18],[-.22,.02],[-.51,-.43],[-.75,-.39],[-.94,-.82]];
- sections(kit['front-fender'],[[543,244,.060,.025],[582,232,.086,.029],[627,226,.100,.036],[672,229,.103,.041],[713,239,.096,.044],[752,252,.084,.037],[789,270,.061,.026],[824,288,.008,.008]],plastic,'front-fender-crowned',fenderProfile,64);
+ const frontFenderProfile=[[-1,-.50],[-.96,-.43],[-.78,-.10],[-.53,-.08],[-.25,.42],[-.12,.76],[0,.82],[.12,.76],[.25,.42],[.53,-.08],[.78,-.10],[.96,-.43],[1,-.50],[.96,-.62],[.76,-.24],[.51,-.24],[.22,.24],[0,.62],[-.22,.24],[-.51,-.24],[-.76,-.24],[-.96,-.62]];
+ sections(kit['front-fender'],[[543,244,.056,.025],[582,232,.080,.029],[627,226,.094,.036],[672,229,.097,.041],[713,239,.091,.044],[752,252,.079,.037],[789,270,.057,.026],[824,288,.008,.008]],plastic,'front-fender-crowned',frontFenderProfile,64);
  sections(kit['rear-fender'],[[58,207,.018,.006],[109,211,.056,.012],[166,219,.085,.022],[213,231,.094,.032],[255,249,.096,.033],[302,268,.090,.030]],plastic,'rear-fender-channel',fenderProfile,54);
  // A bowed number plate with distinct beveled cheek facets and swept-back
  // lower wings; local +Z is forward before the rake transform. The former
  // rounded rectangle missed the MY25 plate silhouette and molded returns.
- const plateRotation=new T.Quaternion().setFromAxisAngle(new T.Vector3(0,0,1),.38).multiply(new T.Quaternion().setFromAxisAngle(new T.Vector3(0,1,0),Math.PI/2));
- const plateCenter:V=[.441,1.086,0];
+ const plateRotation=new T.Quaternion().setFromAxisAngle(new T.Vector3(0,0,1),.47).multiply(new T.Quaternion().setFromAxisAngle(new T.Vector3(0,1,0),Math.PI/2));
+ const plateCenter:V=[.447,1.078,0];
  function platePart(points:number[][],name:string,depth:(x:number,y:number)=>number,mat:T.Material=plastic){
   const shape=new T.Shape(points.map(([x,y])=>new T.Vector2(x,y)));
   let geometry:T.BufferGeometry=new T.ExtrudeGeometry(shape,{depth:.0035,bevelEnabled:true,bevelSize:.0014,bevelThickness:.0012,bevelSegments:2,curveSegments:1});
@@ -113,16 +120,16 @@ export function buildBodywork(ctx:AuthoringContext){
   geometry.deleteAttribute('normal');geometry.deleteAttribute('uv');const welded=mergeVertices(geometry,1e-6);geometry.dispose();welded.computeVertexNormals();
   const part=mesh(kit['number-plate'],welded,mat,plateCenter,name);part.quaternion.copy(plateRotation);part.userData.authoredSurface=true;return part;
  }
- const plateCrown=(x:number,y:number)=>.018*(1-(x/.116)**2)+.004*Math.max(0,1-((y+.02)/.18)**2);
- platePart([[-.109,.143],[.109,.143],[.113,.043],[.071,-.122],[.057,-.133],[0,-.126],[-.057,-.133],[-.071,-.122],[-.113,.043]],'number-plate-molded',plateCrown);
+ const plateCrown=(x:number,y:number)=>.020*(1-(x/.096)**2)+.004*Math.max(0,1-((y+.01)/.16)**2);
+ platePart([[-.084,.126],[.084,.126],[.091,.036],[.065,-.101],[.050,-.116],[0,-.110],[-.050,-.116],[-.065,-.101],[-.091,.036]],'number-plate-molded',plateCrown);
  for(const side of [-1,1]){
-  const cheek=[[-.109,.143],[-.093,.119],[-.092,.036],[-.058,-.120],[-.057,-.133],[-.071,-.122],[-.113,.043]].map(([x,y])=>[x*side,y]);
-  platePart(cheek,'number-plate-cheek-'+side,(x,y)=>plateCrown(x,y)+.0015);
-  const wing=[[-.072,-.060],[-.108,-.076],[-.127,-.127],[-.126,-.149],[-.055,-.132]].map(([x,y])=>[x*side,y]);
-  platePart(wing,'number-plate-lower-wing-'+side,(x,y)=>plateCrown(x,y)-.008-.42*Math.max(0,Math.abs(x)-.067));
+  const cheek=[[-.084,.126],[-.070,.105],[-.070,.025],[-.050,-.105],[-.065,-.101],[-.091,.036]].map(([x,y])=>[x*side,y]);
+  platePart(cheek,'number-plate-side-return-'+side,(x,y)=>plateCrown(x,y)+.002-.58*Math.max(0,Math.abs(x)-.067));
+  const wing=[[-.061,-.060],[-.087,-.073],[-.103,-.112],[-.096,-.129],[-.048,-.114]].map(([x,y])=>[x*side,y]);
+  platePart(wing,'number-plate-lower-wing-'+side,(x,y)=>plateCrown(x,y)-.006-.48*Math.max(0,Math.abs(x)-.058));
  }
  // The fixed corner insert is part of the OEM appearance, not a designer.
- platePart([[.020,.141],[.105,.141],[.107,.110]],'number-plate-oem-corner',(x,y)=>plateCrown(x,y)+.003,graphic);
+ platePart([[.018,.124],[.081,.124],[.083,.100]],'number-plate-oem-corner',(x,y)=>plateCrown(x,y)+.003,graphic);
  // Open-backed molded fork guards, following the fork leg instead of a full tube.
  for(const side of [-1,1]){
   const bottom=new T.Vector3(d.wheelbase/2-.007,.374,side*.092),top=new T.Vector3(.593,.676,side*.092),axis=top.clone().sub(bottom).normalize(),forward=new T.Vector3(axis.y,-axis.x,0);

@@ -22,6 +22,21 @@ test('stock OEM materials retain distinct plastic seat rubber cast and machined 
   assert.ok(engine.color.getHex()<=0x7f8588,'cast cases need enough value depth to retain seams under studio lights');
  }finally{disposeBikeModel(bike);}
 });
+test('stepped engine details keep a restrained cast-metal value hierarchy',()=>{
+ const bike=createBikeModel();
+ try{
+  const caseStep=bike.getObjectByName('right-case-raised-step'),headStep=bike.getObjectByName('cylinder-head-upper-step'),pump=bike.getObjectByName('right-water-pump-stepped-cover');
+  assert.ok(caseStep instanceof Mesh&&headStep instanceof Mesh&&pump instanceof Mesh,'engine step materials must remain independently inspectable');
+  const materials=[caseStep.material,headStep.material,pump.material];
+  assert.ok(materials.every(material=>material instanceof MeshStandardMaterial));
+  const castMaterials=materials as MeshStandardMaterial[];
+  assert.ok(new Set(castMaterials.map(material=>material.color.getHex())).size>=3,'case, head and water-pump steps need distinct cast values');
+  for(const material of castMaterials){
+   assert.ok(material.metalness<=.45,'engine steps must not read as polished chrome');
+   assert.ok(material.roughness>=.58,'engine steps need a cast-metal roughness response');
+  }
+ }finally{disposeBikeModel(bike);}
+});
 test('every tier-1 finish target is independent and restores stock',()=>{
  const bike=createBikeModel(),before=colors(bike);
  for(const target of ['bars','grips','clamps','front-rim','rear-rim','front-hub','rear-hub','front-spokes','rear-spokes','chain','rear-sprocket','exhaust','seat']){
