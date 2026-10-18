@@ -12,7 +12,7 @@ const DOMAIN_HINTS:[RegExp,string][]=[
  [/\b(map|maps|mapping|power tuner|ecu|ignition|fuel(ing)?|traction control|launch|quickshift|tc\b|mode|app)\b/i,'ecu_electronics'],
  [/\b(dyno|horse ?power|hp|torque|power|pull|hit|bottom|mid ?range|top ?end|over-?rev|rev|rpm|fast|slow|feel|character|engine braking|vibration)\b/i,'power_feel'],
  [/\b(port|porting|power ?valve|ypvs|reed|cylinder|head|compression|cam|valve|bore|stroke|piston)\b/i,'engine_architecture'],
- [/\b(mod|mods|exhaust|pipe|silencer|build|faster|more power|race fuel|big bore|jet|jets|jetting|carb|carburetor|needle|plug|plugs|airbox|air box|choked|corked|uncork\w*|restrict\w*|throttle stop|baffle|insert|held back|holding (it|me) back|green sticker|emissions)\b/i,'engine_mods'],
+ [/\b(mod|mods|exhaust|pipe|silencer|build|faster|more power|race fuel|big bore|jet|jets|jetting|carb|carburetor|needle|plug|plugs|airbox|air box|choked|corked|uncork\w*|restrict\w*|throttle stop|baffle|insert|held back|holding (it|me) back|green sticker|emissions|flywheel|fly ?wheel weight|inertia|stall\w*|lug\w*|spins? up)\b/i,'engine_mods'],
  [/\b(gear|gearing|sprocket|ratio|speed|top speed)\b/i,'drivetrain'],
  [/\b(rake|trail|wheelbase|frame|chassis|handling|corner|turn|stable|stability|weight)\b/i,'chassis'],
  [/\b(problem|issue|fail|failure|recall|bulletin|known|common|break|broke|leak|foul|fouls|fouling|boil|boils|boiling|overheat\w*|stall\w*|bog\w*|ping\w*|detonat\w*|hard start\w*|won'?t start)\b/i,'known_issues'],
