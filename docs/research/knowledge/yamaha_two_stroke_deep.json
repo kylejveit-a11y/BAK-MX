@@ -1,0 +1,1555 @@
+{
+ "slice": "Yamaha two-strokes in depth: YPVS, jetting by year and condition, ignition, X vs YZ differences, setups, gearing, known issues (YZ125, YZ250, YZ125X, YZ250X 2020-2026)",
+ "platform": {
+  "make": "Yamaha",
+  "models": [
+   "YZ125",
+   "YZ250",
+   "YZ125X",
+   "YZ250X"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "y2t8-001",
+   "domain": "engine_architecture",
+   "topic": "power valve opening rpm (pre-2022 125 and 125X)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125",
+     "YZ125X"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "On the 2020-2021 YZ125 the power valve starts opening at about 7,500 rpm and is fully open by 9,500 rpm; the 2020 YZ125X uses stiffer governor springs so it starts at about 8,000 rpm and is fully open at 10,250 rpm.",
+   "values": {
+    "YZ125_open_start": "~7,500 rpm",
+    "YZ125_full_open": "~9,500 rpm",
+    "YZ125X_open_start": "~8,000 rpm",
+    "YZ125X_full_open": "~10,250 rpm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2020 Yamaha YZ125X cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-yamaha-yz125x-cross-country",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Figures reported in a magazine test of the 2020 YZ125X, apparently from Yamaha's technical briefing; not found in a Yamaha document. Applies to the Mikuni-carbureted 2005-2021 YZ125 engine; the 2022-on engine has different YPVS shape, lift and timing (no rpm published)."
+  },
+  {
+   "id": "y2t8-002",
+   "domain": "engine_architecture",
+   "topic": "YZ125X vs YZ125 engine (2020-2022 X)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125X"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The 2020 YZ125X head has a 10.1 cc chamber versus 8.4 cc on the YZ125 with the spark plug raised 3 mm, giving about 8.8:1 versus 10.7:1 compression; its power valve is reshaped to lower the exhaust port about 0.5 mm, and ignition is advanced about 5 degrees low-to-mid and slightly retarded mid-to-top.",
+   "values": {
+    "head_volume_X": "10.1 cc",
+    "head_volume_YZ": "8.4 cc",
+    "plug_raise": "3 mm",
+    "compression_X": "8.8:1",
+    "compression_YZ": "10.7:1",
+    "exhaust_port_change": "-0.5 mm (lower, via valve shape)",
+    "ignition": "+5 deg low-mid, slightly retarded mid-top"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2020 Yamaha YZ125X cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-yamaha-yz125x-cross-country",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Magazine-reported Yamaha changes. Compression figures conflict with another source in BAK (7.4 vs 8.6:1, record wk5-018); both are likely different measurement conventions (closed-port vs full-stroke). The magazine says Yamaha claimed a narrower, raised pipe but found it identical to the YZ125 pipe."
+  },
+  {
+   "id": "y2t8-003",
+   "domain": "engine_architecture",
+   "topic": "why the 250 power valve can hit: spring and linkage behaviour",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": []
+   },
+   "statement": "The YZ250 governor turns a control rod that first opens the center valve and then the two side valves; stiff torsion springs hold the side valves closed, and when the center valve reaches its stop the extra spring load is multiplied back through the linkage, which can cause a hesitation followed by a surge.",
+   "values": {
+    "stages": "center valve first half of rod travel, side valves second half",
+    "default_position": "closed (spring biased)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "US Patent 9,797,275 B1, motorcycle engine power valve control upgrade kit",
+    "url": "https://patents.google.com/patent/US9797275",
+    "date": "2017-10"
+   },
+   "confidence": "medium",
+   "notes": "From a patent filed 2016 by an independent tuner describing the stock YZ250 YPVS; it gives no model years or rpm figures. The patented kit reverses the bias (lighter springs push the center valve open, a closing fork pulls it shut) and needed a stiffer governor spring because timing became early; claimed smoother output and more low-rpm torque, no measured data. HELD because the source states no model year (YZ250 engine is unchanged since 2006 per other BAK records).",
+   "status": "HELD"
+  },
+  {
+   "id": "y2t8-004",
+   "domain": "engine_mods",
+   "topic": "power valve governor spring forces and washer re-timing",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250",
+     "YZ250X"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "Owners measured the stock YZ250 governor spring at about 18 lb preload and 40 lb fully open, versus 19-20 lb and 52-53 lb for the stiffer YZ250X spring; removing one 1.0 mm spring-side washer on the YZ250 drops preload to about 15-16 lb so the valve opens earlier, and the power jet usually needs to go leaner after this change.",
+   "values": {
+    "YZ_preload": "~18 lb (installed 0.640 in)",
+    "YZ_full_open": "~40 lb",
+    "X_preload": "19-20 lb (installed 0.672 in)",
+    "X_full_open": "52-53 lb",
+    "spring_travel": "0.190 in",
+    "one_washer_removed": "15-16 lb preload",
+    "YZ_thrust_washer": "1.0 mm",
+    "X_thrust_washer": "0.8 mm (90201-154F5-00)",
+    "suggested_jetting_after": "#7 slide, 45 pilot, 40-45 power jet"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, 'Re-timing the YZ250 pv governor' thread",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Re-timing-the-YZ250-pv-governor,1380968",
+    "date": "2020-08"
+   },
+   "confidence": "medium",
+   "notes": "Forum measurements quoted from an earlier ThumperTalk post; the poster's bike is a stock 2021 YZ250 and he says it applies from 1999 to current. Rule from experienced posters: keep the ball-ramp-side washers at stock thickness (1.0 mm YZ, 0.8 mm X). Complements BAK record 2t-073."
+  },
+  {
+   "id": "y2t8-005",
+   "domain": "engine_mods",
+   "topic": "silencer core and tip restrictor",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "Since 2011 the YZ250 silencer has a 30 mm perforated core (was 26 mm) and a 24 mm restrictor ring at the tip; owners grind out the restrictor for snappier response, but a dyno-tested poster says Yamaha added it for top-end power and removing it acts much like fitting a shorty silencer.",
+   "values": {
+    "core_2011_on": "30 mm",
+    "core_pre_2011": "26 mm",
+    "tip_restrictor_2011_on": "24 mm",
+    "tip_restrictor_pre_2011": "23 mm"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, 'Re-timing the YZ250 pv governor' thread",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Re-timing-the-YZ250-pv-governor,1380968",
+    "date": "2020-08"
+   },
+   "confidence": "low",
+   "notes": "Forum report, seat-of-the-pants by the original poster; the dyno claim is not backed by published numbers. Removing the restrictor makes the bike louder."
+  },
+  {
+   "id": "y2t8-006",
+   "domain": "known_issues",
+   "topic": "power valve stops working: primary gear bolt backs out",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": []
+   },
+   "statement": "If a YZ250 suddenly will not rev out on top, check the bolt on the auxiliary primary gear: on one bike it backed out, cracked the case cover and let the gear slip, cutting drive to both the power-valve governor and the water pump; it was fixed with a new M8 x 1.25 bolt (90105-10445) and red thread locker.",
+   "values": {
+    "bolt": "M8 x 1.25, 90105-10445",
+    "thread_locker": "red recommended",
+    "pv_check": "valve should move by about halfway to redline when revved on the stand with the right cylinder cover off"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, '2017 YZ250 no top end rev' thread",
+    "url": "https://www.vitalmx.com/comment/3662182",
+    "date": "2020-01"
+   },
+   "confidence": "low",
+   "notes": "Single-owner diagnosis on a 2017 YZ250 (engine unchanged through 2026). Other causes raised in the thread: broken governor pin, worn center-valve lifter, stuck valve, carbon in pipe/silencer, carb faults. HELD: source bike is 2017, outside 2020-2026.",
+   "status": "HELD"
+  },
+  {
+   "id": "y2t8-007",
+   "domain": "known_issues",
+   "topic": "power valve linkage wear and broken governor pin",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": []
+   },
+   "statement": "A broken pin in the power-valve governor can stop the valve opening, and wear in the center-valve lifter can let a spring or pin break so the outside arm moves but the valve does not lift; both show up as a bike that will not pull on top.",
+   "values": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, '2017 YZ250 no top end rev' thread",
+    "url": "https://www.vitalmx.com/comment/3662182",
+    "date": "2020-01"
+   },
+   "confidence": "low",
+   "notes": "Owner reports in a thread about a 2017 YZ250; no failure rates or wear limits given (wear limits are in the Yamaha service manual BAK already holds). HELD: source year outside 2020-2026.",
+   "status": "HELD"
+  },
+  {
+   "id": "y2t8-008",
+   "domain": "known_issues",
+   "topic": "125 power valve pin coming out",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": []
+   },
+   "statement": "An owner chasing high-rpm sputtering on a YZ125 called a press-fit pin working out of the power valve a well-known YZ125 issue; other causes checked were a leaking reed-block gasket, blocked jets, chipped reeds and old silencer packing, and the bike turned out to have low compression.",
+   "values": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, 'YZ125 Sputters/Chops at high RPM' thread",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/YZ125-Sputters-Chops-at-high-RPM-Video-Included,1395369",
+    "date": "2021-10"
+   },
+   "confidence": "low",
+   "notes": "Single 2021 thread; model year of the bike not stated, so HELD. Diagnosis was not confirmed.",
+   "status": "HELD"
+  },
+  {
+   "id": "y2t8-009",
+   "domain": "known_issues",
+   "topic": "crank seal leaks: symptoms and tests",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": []
+   },
+   "statement": "On the YZ250 a leaking flywheel-side crank seal shows as a hanging or high idle and runaway revs, while a leaking clutch-side seal draws in transmission oil and makes heavy smoke; owners confirm with a leakdown or vacuum test before replacing, and the seals can be changed with the engine in the frame.",
+   "values": {
+    "leakdown_tester_DIY_cost": "~$35",
+    "flywheel_puller": "required"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, 'Yz 250 crank seals' thread",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Yz-250-crank-seals,1327606",
+    "date": "2017-10"
+   },
+   "confidence": "low",
+   "notes": "2017 thread about a 2006 YZ250; also check reed-block gasket and pilot jet first (spray cleaner around the reed block). HELD: source years outside 2020-2026, no 2020-2026 failure-rate data found.",
+   "status": "HELD"
+  },
+  {
+   "id": "y2t8-010",
+   "domain": "engine_mods",
+   "topic": "stock jetting 2020-2026 (250)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Stock YZ250 jetting is listed the same every year from 2020 to 2026: 178 main, 50 pilot, N3EW needle on the 2nd clip, air screw 1 turn out and a 50 power jet.",
+   "values": {
+    "main": "178",
+    "pilot": "50",
+    "needle": "N3EW clip 2",
+    "air_screw": "1 turn out",
+    "power_jet": "50",
+    "slide": "#7 (owner-checked)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "tuner",
+    "name": "Pro Circuit, Jetting Specifications 2026",
+    "url": "https://www.procircuit.com/jetting-specs17",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Stock values listed in a tuner's yearly jetting tables (2020, 2021, 2022, 2025, 2026 pages read; 2023-2024 pages not reachable). A magazine also gives 178/50/N3EW-2/1 turn and says jetting is unchanged since 2007 apart from the needle. Owners report the #7 slide has been stock for decades."
+  },
+  {
+   "id": "y2t8-011",
+   "domain": "engine_mods",
+   "topic": "stock jetting 2020 (Mikuni-carbureted 125)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "The 2020 YZ125 with its 38 mm Mikuni TMX came with a 430 main, 40 pilot, 6BFY43-74 needle on the 4th clip and the air screw 2-1/4 turns out.",
+   "values": {
+    "main": "430",
+    "pilot": "40",
+    "needle": "6BFY43-74 clip 4",
+    "air_screw": "2.25 turns"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "tuner",
+    "name": "Pro Circuit, Jetting Specifications 2020",
+    "url": "https://www.procircuit.com/jettingspecs12",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Stock spec as listed in a tuner's 2020 table; Mikuni jet numbering differs from Keihin (do not compare main sizes with 2022-on). Same carb on 2021."
+  },
+  {
+   "id": "y2t8-012",
+   "domain": "engine_mods",
+   "topic": "stock jetting 2022-2025 (Keihin 125)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2022,
+     2025
+    ]
+   },
+   "statement": "A tuner lists the stock 2022 and 2025 YZ125 at 160 main, 72 pilot, NYEF needle on the 2nd clip and air screw 2-3/4 turns out, with a 35 power jet.",
+   "values": {
+    "main": "160",
+    "pilot": "72",
+    "needle": "NYEF clip 2",
+    "air_screw": "2.75 turns",
+    "power_jet": "35"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "tuner",
+    "name": "Pro Circuit, Jetting Specifications 2025",
+    "url": "https://www.procircuit.com/jetting-specs16",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Stock values as listed by the tuner; a magazine and owners call the needle NYDF (see conflicts). Power jet listed only in the 2025 table."
+  },
+  {
+   "id": "y2t8-013",
+   "domain": "engine_mods",
+   "topic": "stock jetting 2026 (125 rejet)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For 2026 Yamaha rejetted the YZ125 with its new intake and CDI settings; a tuner lists stock as 178 main, 65 pilot, N3EW needle on the 2nd clip, air screw 2 turns and a 95 power jet - much bigger main and power jet and a smaller pilot than 2022-2025.",
+   "values": {
+    "main": "178",
+    "pilot": "65",
+    "needle": "N3EW clip 2",
+    "air_screw": "2 turns",
+    "power_jet": "95",
+    "2022_2025_for_comparison": "160 / 72 / NYEF-2 / PJ 35"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "tuner",
+    "name": "Pro Circuit, Jetting Specifications 2026",
+    "url": "https://www.procircuit.com/jetting-specs17",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Tuner's 2026 table. An owner quoting the 2026 manual gave 172 main (record yz25-076); see conflicts. Yamaha says only that the carb was rejetted (first-look article)."
+  },
+  {
+   "id": "y2t8-014",
+   "domain": "maintenance",
+   "topic": "2026 air screw part change",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 2026 YZ125 air screw is a superseded part (4SR-14105-01-00 replacing 4SR-14105-00-00 used on 2022-2025) and matches the screw in Yamaha's GYTR jetting kit.",
+   "values": {
+    "air_screw_2026": "4SR-14105-01-00",
+    "air_screw_2022_2025": "4SR-14105-00-00"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, '2023 YZ125 - Jetting Fix' thread",
+    "url": "https://www.vitalmx.com/comment/8990241",
+    "date": "2026-06"
+   },
+   "confidence": "medium",
+   "notes": "Owner reading of the parts catalog, late 2025."
+  },
+  {
+   "id": "y2t8-015",
+   "domain": "engine_mods",
+   "topic": "tuner jetting for the 250 (sea level, race fuel)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A tuner runs the YZ250 one size leaner than stock: 175 main, 48 pilot, stock N3EW on the 2nd clip, air screw 1 turn, 50 power jet and a 7.0 slide, for race fuel at 0-1,500 ft and 70-85 F.",
+   "values": {
+    "main": "175",
+    "pilot": "48",
+    "needle": "N3EW clip 2",
+    "air_screw": "1 turn",
+    "power_jet": "50",
+    "slide": "7.0",
+    "conditions": "VP C12 (2025-26 tables MRX02), 32:1, 0-1,500 ft, 70-85 F"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Pro Circuit, Jetting Specifications 2026",
+    "url": "https://www.procircuit.com/jetting-specs17",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Same in the 2020, 2021-22, 2025 and 2026 tables (2020-2022 rows say C12; 2025-26 row labelled MRX02). Pipe not stated."
+  },
+  {
+   "id": "y2t8-016",
+   "domain": "engine_mods",
+   "topic": "tuner jetting for the 125 by fuel (2025)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "For the 2025 YZ125 a tuner swaps to a Y4 needle and a 70 power jet: 168 main / 65 pilot / clip 3 / 1.5 turns on MRX02, 165 / 62 / clip 2 / 1.5-2 turns on C12, and 165 / 68 / clip 3 / 1.25 turns on pump gas.",
+   "values": {
+    "MRX02": "168 / 65 / Y4-3 / 1.5 / PJ 70",
+    "C12": "165 / 62 / Y4-2 / 1.5-2 / PJ 70",
+    "pump": "165 / 68 / Y4-3 / 1.25 / PJ 70",
+    "conditions": "0-1,500 ft, 70-85 F, 32:1"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Pro Circuit, Jetting Specifications 2025",
+    "url": "https://www.procircuit.com/jetting-specs16",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Leaner pilot and much bigger power jet than stock (72 pilot, 35 PJ): moves fuel from the low end to the 5,000-9,500 rpm power-jet window."
+  },
+  {
+   "id": "y2t8-017",
+   "domain": "engine_mods",
+   "topic": "tuner jetting for the 125 by fuel (2026)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For the 2026 YZ125 the tuner's settings are 168 main / 70 pilot / Y4 clip 3 / 1.5 turns on MRX02, 165 / 68 / Y4-3 on C12 and 165 / 70 / Y4-3 on pump gas, all with a 70 power jet.",
+   "values": {
+    "MRX02": "168 / 70 / Y4-3 / 1.5 / PJ 70",
+    "C12": "165 / 68 / Y4-3 / 1.5 / PJ 70",
+    "pump": "165 / 70 / Y4-3 / 1.5 / PJ 70",
+    "conditions": "0-1,500 ft, 70-85 F, 32:1"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Pro Circuit, Jetting Specifications 2026",
+    "url": "https://www.procircuit.com/jetting-specs17",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Pilot jets are richer than the tuner's 2025 numbers (65-70 vs 62-68), matching the 2026 stock rejet toward a smaller main and power jet change."
+  },
+  {
+   "id": "y2t8-018",
+   "domain": "engine_mods",
+   "topic": "tuner jetting for the Mikuni 125 (2021)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On the 2021 Mikuni-carbureted YZ125 the tuner goes to a 420 main, 38 pilot, stock 6BFY43-74 needle on the 3rd clip and 1-3/4 turns air screw.",
+   "values": {
+    "main": "420",
+    "pilot": "38",
+    "needle": "6BFY43-74 clip 3",
+    "air_screw": "1.75 turns",
+    "conditions": "C12, 0-1,500 ft, 70-85 F, 32:1"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Pro Circuit, Jetting Specifications 2021-2022",
+    "url": "https://www.procircuit.com/jettingspecs13",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Stock 2020: 430 / 40 / clip 4 / 2.25 turns, so this is leaner everywhere."
+  },
+  {
+   "id": "y2t8-019",
+   "domain": "setups",
+   "topic": "tester baseline and jetting 2025 (125, 140-165 lb)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "A tester's 2025 YZ125 baseline for 140-165 lb riders: fork 4.2 N/mm, 3 mm up, compression 8 out, rebound 10 out; shock 48 N/mm, 102 mm sag, high-speed 1-1/4 turns, low-speed 11, rebound 11; jetting 168 main, 62 pilot, Y4 needle clip 2, air screw 1-1.25 turns (sea level to 4,000 ft), with a 165 main on pump gas and a 13/50 rear sprocket.",
+   "values": {
+    "fork": "4.2 N/mm (4.4-4.6 over 170 lb), 3 mm up, C8, R10",
+    "shock": "48 N/mm, 102 mm sag, HSC 1.25, LSC 11, R11",
+    "jetting": "168 / 62 / Y4-2 / 1-1.25 turns",
+    "pump_gas_main": "165",
+    "gearing": "13/50 (stock 13/49)",
+    "tester": "5'11, ~175 lb"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "PulpMX, 2025 Yamaha YZ125 test and suggested settings",
+    "url": "https://pulpmx.com/2025/04/22/2025-yamaha-yz125-old-guy-on-a-small-bike/",
+    "date": "2025-04"
+   },
+   "confidence": "medium",
+   "notes": "Tester settings. Nearly identical to the same tester's 2024 baseline (jp5-065) except Y4 instead of Y3 needle. Says stock is a little rich and can feel rich below about 6,000 rpm when lugged. Spring rate 4.2 conflicts with a magazine saying 2025 went to 4.3."
+  },
+  {
+   "id": "y2t8-020",
+   "domain": "setups",
+   "topic": "heavier rider on the 125 (185 lb vet, 2024)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A 185 lb vet tester found the 2024 YZ125 under-sprung front and rear (set for 150-175 lb), ran 105 mm sag, raised the needle one clip, and went from 13/49 to 13/50 so he could pull third gear in deep soil and hills; an aftermarket pipe with a shorty silencer gave a snappier bottom, stronger mid-top and more over-rev.",
+   "values": {
+    "sag": "105 mm (optimal 100-102 mm for lighter riders)",
+    "gearing": "13/50 (stock 13/49)",
+    "needle": "clip raised one position",
+    "rider": "5'10, 185 lb"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing, 2024 Yamaha YZ125 50th anniversary test",
+    "url": "https://www.keeferinctesting.com/?p=28088",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Glen Helen / Cahuilla, 60/40 track and hills. Qualitative only; pipe was a Pro Circuit Works with R-304 silencer. Front tyre lost grip after 6-8 h."
+  },
+  {
+   "id": "y2t8-021",
+   "domain": "engine_mods",
+   "topic": "YZ250X trail and MX jetting (2020)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250X"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "For the 2020 YZ250X a magazine runs 178 main, 50 pilot, N3EW clip 2 and 1 turn air screw (the same as its YZ250 setting), saying the X sits further on the safe side than the YZ250; go to a 180 main or add some race fuel with a pipe or porting.",
+   "values": {
+    "main": "178",
+    "pilot": "50",
+    "needle": "N3EW clip 2",
+    "air_screw": "1 turn",
+    "with_pipe": "180 main"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2020 Yamaha YZ250X cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-2020-yamaha-yz250x-cross-country/",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Tester jetting for MX and cross-country; stock X jetting not printed. Air screw very sensitive between 1/2 and 1 turn."
+  },
+  {
+   "id": "y2t8-022",
+   "domain": "engine_mods",
+   "topic": "owner jetting 2021 YZ250 and YZ250X (sea level to 2,500 ft)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250",
+     "YZ250X"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Owners of 2021 YZ250s near sea level suggest 48 pilot, N3EW clip 3, 175 main and a 40 power jet (or N3EW/N3CW clip 2 if keeping the 50 power jet), with the air screw 1-1.5 turns; a slow trail YZ250X rider stopped fouling plugs with 175 main, 45 pilot, 40 power jet and the needle on clip 3.",
+   "values": {
+    "YZ250_0_2500ft": "48 pilot / N3EW-3 / 175 main / PJ 40 / AS 1-1.5",
+    "YZ250X_trail": "175 main / 45 pilot / PJ 40 / stock needle clip 3",
+    "woods_alt": "172 main / 45 pilot"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, '2021 YZ250 Jetting' thread",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/2021-YZ250-Jetting-Yes-I-know-jetting,1386593",
+    "date": "2021-01"
+   },
+   "confidence": "medium",
+   "notes": "Original poster: sea level, 40-55 F winter and 95-100 F summer, 110 race gas / 93 pump at 32:1, rich bottom with stock pilot. Several riders agree on a leaner pilot and smaller power jet."
+  },
+  {
+   "id": "y2t8-023",
+   "domain": "engine_mods",
+   "topic": "altitude jetting for the 250 (owner calculation)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Using air-density correction factors of 0.96 at 4,000 ft and 0.94 at 6,000 ft, an enduro rider worked the 175 main down to about 168 at 4,000 ft and 165 at 6,000 ft with a 45 pilot; others advised a 40 or smaller power jet at altitude and air screw about 1.5 turns low, 2 turns high.",
+   "values": {
+    "4000ft": "168 main / 45 pilot",
+    "6000ft": "165 main / 45 pilot",
+    "power_jet_altitude": "40 or smaller",
+    "air_screw": "~1.5 turns low altitude, ~2 turns high"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, '2021 YZ250 Jetting' thread",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/2021-YZ250-Jetting-Yes-I-know-jetting,1386593",
+    "date": "2021-01"
+   },
+   "confidence": "low",
+   "notes": "Calculation: 175 x 0.96 = 168; 175 x 0.94 = 164.5 (rounded to 165). Correction factors are the rider's own, not Yamaha's chart. Colorado/Texas enduros, 4,000-11,000 ft."
+  },
+  {
+   "id": "y2t8-024",
+   "domain": "engine_mods",
+   "topic": "owner jetting 2024-2026 YZ250 (summer heat)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "2025 YZ250 owners in summer heat report: 45 pilot, 178 main, 40 power jet, N3EJ clip 3 (stock head, some race fuel); 45 / 175 / 50 / N3EJ clip 2 with a cut head, air screw 1-5/8, in mid-90s F at sea level; and 48 / 175 / 40 / N3EW clip 3, air screw 1 turn, going back to a 178 main in winter.",
+   "values": {
+    "setup_1": "45p / 178m / PJ40 / N3EJ-3 / stock head / C12 1:4 with 93",
+    "setup_2": "45p / 175m / PJ50 / N3EJ-2 / AS 1-5/8 / head cut",
+    "setup_3": "48p / 175m / PJ40 / N3EW-3 / AS 1 / 178m winter",
+    "stock_slide": "#7"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, '2025 Yz 250' jetting thread",
+    "url": "https://www.vitalmx.com/comment/8196441",
+    "date": "2025-08"
+   },
+   "confidence": "medium",
+   "notes": "Several owners say stock runs rich even at the magazine's recommended (stock) settings. Fuel varied (pump 93 + C12, 110 leaded 50/50). Mods included aftermarket pipes, V-Force reeds."
+  },
+  {
+   "id": "y2t8-025",
+   "domain": "engine_mods",
+   "topic": "head cut: dowel pin clearance",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "When owners take 0.025-0.030 in off the YZ250 head to tighten the squish, the head dowel-pin bores can bottom out, so the pins must be shortened or the bores drilled deeper.",
+   "values": {
+    "head_cut": "0.025-0.030 in",
+    "target_squish_reported": "0.045 in"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, '2025 Yz 250' jetting thread",
+    "url": "https://www.vitalmx.com/comment/8196441",
+    "date": "2025-08"
+   },
+   "confidence": "medium",
+   "notes": "Owners consider the stock squish band too large (see BAK records 2t-038 and 2t-080); use some race fuel as detonation insurance."
+  },
+  {
+   "id": "y2t8-026",
+   "domain": "engine_mods",
+   "topic": "main and pilot one step leaner (250)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": []
+   },
+   "statement": "One owner who went from 178/50 to 175/48 on a YZ250 found the low end crisper and snappier but felt less midrange, and a 3rd-gear wheelie at full throttle went away.",
+   "values": {
+    "before": "178 main / 50 pilot",
+    "after": "175 main / 48 pilot",
+    "fuel": "E0 93, 32:1"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, 'Adjust Clip Position or Main Jet? YZ250' thread",
+    "url": "https://www.vitalmx.com/comment/8996816",
+    "date": "2026-05"
+   },
+   "confidence": "low",
+   "notes": "Model year not stated; a carb boot misalignment during the swap may have skewed the comparison. HELD.",
+   "status": "HELD"
+  },
+  {
+   "id": "y2t8-027",
+   "domain": "engine_mods",
+   "topic": "Yamaha GYTR jetting kit for the 2022-on 125",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "Yamaha's GYTR jetting kit for the 2022-on YZ125 (B4X-CARBS-KT-10, about $40) contains the Y4 needle and a 70 power jet; the commonly paired 62 pilot is bought separately.",
+   "values": {
+    "kit": "B4X-CARBS-KT-10",
+    "contents": "Y4 needle, 70 power jet",
+    "price": "~$40",
+    "pilot_bought_separately": "62"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, '2022 YZ125 Bog' thread",
+    "url": "https://www.vitalmx.com/forums/tech-helprace-shop/2022-yz125-bog",
+    "date": "2024-02"
+   },
+   "confidence": "medium",
+   "notes": "Owner report from parts listing. Owners of 2025 bikes using GYTR parts report 68-70 pilot / Y4 clip 3 / 165-170 main / 70 PJ, with a lean surge at half throttle fixed by clip 4."
+  },
+  {
+   "id": "y2t8-028",
+   "domain": "engine_mods",
+   "topic": "owner fixes for 125 bog: needles and slides (2022-2026)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "To cure the 2022-on YZ125 low-end burble and bog, owners report: an aftermarket red needle on clip 4 with 50 pilot and 172 main (no bog, sea level-1,000 ft, 60-85 F); and a CCL needle on clip 3 with a 6.0 slide, 52-55 pilot and 180-182 main, air screw 1.25-1.75 turns, which several found easier to dial in than the Y4 setup.",
+   "values": {
+    "red_needle": "50p / red-4 / 172m",
+    "CCL_6.0": "52-55p / CCL-3 / 6.0 slide / 180-182m / AS 1.25-1.75",
+    "stock_slide": "#7",
+    "altitude_example": "52p / red-3 / 168m at 1,500 m, 18 C"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, '2023 YZ125 - Jetting Fix' thread",
+    "url": "https://www.vitalmx.com/comment/8990241",
+    "date": "2026-06"
+   },
+   "confidence": "medium",
+   "notes": "Many owners in 2024-2026 threads; one rider with pipe and silencer still had a lean bog at 4,500-5,500 rpm in 2nd on CCL clip 4 at ~500 ft. The JD kit was reported as ineffective by some and fine by others (see BOG thread)."
+  },
+  {
+   "id": "y2t8-029",
+   "domain": "engine_mods",
+   "topic": "YZ125X race jetting with modified slide",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125X"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A 2024 YZ125X owner racing intermediate MX at sea level (50-80 F, half avgas) settled on a 185 main, 55 pilot, N3CW needle clip 3, air screw 1.25-1.5 turns and a home-made 5.65 slide, which ran slightly cleaner than a 6.0 slide with a CCL needle.",
+   "values": {
+    "main": "185",
+    "pilot": "55",
+    "needle": "N3CW clip 3",
+    "slide": "5.65 (cut from 5.0)",
+    "air_screw": "1.25-1.5 turns",
+    "fuel": "avgas/93 50:50, 32:1"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, '2023 YZ125 - Jetting Fix' thread (early 2025 posts)",
+    "url": "https://www.vitalmx.com/comment/7693891",
+    "date": "2025-03"
+   },
+   "confidence": "low",
+   "notes": "Single owner. Another owner at about 500 ft and 75 F reported good low-end pull with 6.0 slide, CCL needle, 52 pilot, 182 main."
+  },
+  {
+   "id": "y2t8-030",
+   "domain": "ecu_electronics",
+   "topic": "YZ250X model-specific CDI",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250X"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Yamaha fits the YZ250X with its own digital CDI (not the motocross YZ250 unit), with timing retarded in the mid-to-high rpm range to go with its revised power valve timing and compression.",
+   "values": {
+    "CDI": "model-specific digital CDI",
+    "timing_change": "retarded mid-to-high rpm (degrees not published)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor USA, 2026 YZ250X features",
+    "url": "https://yamahamotorsports.com/models/26-yz250x/features",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Yamaha's 2026 feature page says model-specific CDI and revised YPVS timing; the mid-high retard is from a 2020 magazine test. No timing degrees published."
+  },
+  {
+   "id": "y2t8-031",
+   "domain": "ecu_electronics",
+   "topic": "2026 YZ125 CDI and intake",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For 2026 Yamaha gave the YZ125 new CDI settings for more linear power, a redesigned intake and boot for smoother airflow, and rejetted the carb to match; no timing figures were published.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling, 2026 Yamaha YZ125 first look",
+    "url": "https://ultimatemotorcycling.com/?p=292207",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Press-kit summary via a magazine first look. See stock 2026 jetting record."
+  },
+  {
+   "id": "y2t8-032",
+   "domain": "ecu_electronics",
+   "topic": "advancing YZ250 timing by rotating the stator",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": []
+   },
+   "statement": "An owner reports advancing his YZ250 ignition about 3 degrees by rotating the stator plate and liked the extra response; another retarded a few degrees and felt more top end.",
+   "values": {
+    "advance": "~3 deg (stator rotated)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, 'YZ250 cdi upgrades' thread",
+    "url": "https://www.vitalmx.com/forums/Vital-MX-Product-Reviews,47/YZ250-cdi-upgrades,1380989",
+    "date": "2021-01"
+   },
+   "confidence": "low",
+   "notes": "Model years not stated (thread centred on a 2006 YZ250). Aftermarket Vortex CDI results on a 2006 YZ250 were neutral to worse. HELD.",
+   "status": "HELD"
+  },
+  {
+   "id": "y2t8-033",
+   "domain": "engine_architecture",
+   "topic": "YZ125X 2024 spec notes",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125X"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 YZ125X uses compression of 7.8-10.2:1, a Keihin PWK38S, a 3D-map CDI, a VForce4R reed cage, a rear sprocket one tooth larger than the YZ125, and a 4.2 N/mm fork spring with a 48 N/mm shock spring.",
+   "values": {
+    "compression": "7.8-10.2:1",
+    "carb": "Keihin PWK38S",
+    "reeds": "VForce4R",
+    "gearing": "rear +1 tooth vs YZ125",
+    "fork_spring": "4.2 N/mm",
+    "shock_spring": "48 N/mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider, 2024 Yamaha YZ125X technical information",
+    "url": "https://dirtrider.com/dirt-bikes/yamaha-yz125x-technical-information",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Magazine technical summary; unchanged mechanically from 2023."
+  },
+  {
+   "id": "y2t8-034",
+   "domain": "drivetrain",
+   "topic": "YZ250X gearbox and clutch vs YZ250 (sprocket equivalents)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250X"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Compared with the YZ250, the YZ250X third gear is lower by about one rear-sprocket tooth, fourth is taller by about two teeth and fifth by about five teeth; its clutch springs are about 10% softer.",
+   "values": {
+    "3rd": "~1 tooth lower",
+    "4th": "~2 teeth taller",
+    "5th": "~5 teeth taller",
+    "clutch_spring": "-10%",
+    "seat_height": "38.2 in (YZ250 39.1 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2020 Yamaha YZ250X cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-2020-yamaha-yz250x-cross-country/",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Magazine-reported Yamaha data expressed as sprocket equivalents."
+  },
+  {
+   "id": "y2t8-035",
+   "domain": "setups",
+   "topic": "YZ125X motocross setup (2020)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125X"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "To race the 2020 YZ125X on a motocross track, a magazine went fork compression 9 out (stock 15), rebound 7 (stock 9) and added 10 cc oil per leg (230 to 240 cc); shock 105 mm sag, high-speed 2 turns (stock 1-5/8), low-speed 10 (stock 13), rebound 8 (stock 13), on stock 4.1 N/mm fork and 46 N/mm shock springs.",
+   "values": {
+    "fork": "4.1 N/mm, C9 (15), R7 (9), oil 240 cc (230)",
+    "shock": "46 N/mm, 105 mm sag, HSC 2 turns (1-5/8), LSC 10 (13), R8 (13)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2020 Yamaha YZ125X cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-yamaha-yz125x-cross-country",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Tester settings for faster/heavier riders on MX; shock felt slightly under-damped. Article prints shock spring both as 46 N/mm and 4.6 N/mm. Stock values in brackets."
+  },
+  {
+   "id": "y2t8-036",
+   "domain": "setups",
+   "topic": "YZ125X gearing and jetting for woods (2020)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125X"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "The 2020 YZ125X uses a 50-tooth rear sprocket (48 on the YZ125) with the same gearbox, lowering every gear for tight woods; a magazine jetted it 430 main, 37.5 pilot, 6BYF44-74 needle clip 2, air screw 2-1/2 turns (stock 40 pilot, 6BFY43-74 clip 3, 1-1/4 turns).",
+   "values": {
+    "rear_sprocket": "50 (YZ125 48)",
+    "tester_jetting": "430 / 37.5 / 6BYF44-74-2 / 2.5 turns",
+    "stock_jetting": "40 pilot / 6BFY43-74-3 / 1.25 turns"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2020 Yamaha YZ125X cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-yamaha-yz125x-cross-country",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Mikuni TMX carb (2020-2022 X). Range on 2.1 gal tank about 40 minutes."
+  },
+  {
+   "id": "y2t8-037",
+   "domain": "setups",
+   "topic": "YZ250X MX and cross-country setup (2020)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250X"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "For mixed MX and off-road, a magazine set the 2020 YZ250X fork compression 9 out (stock 13), rebound 10, 5 mm up, plus 10 cc oil per leg; shock 105 mm sag, high-speed 1-3/4 turns (stock 1-1/2), low-speed 9, rebound 9 (stock 11), on stock 4.3 N/mm fork and 48 N/mm shock springs, and kept the stock 14/50 gearing (some testers 51).",
+   "values": {
+    "fork": "4.3 N/mm, C9 (13), R10, 5 mm, +10 cc",
+    "shock": "48 N/mm, 105 mm, HSC 1.75 (1.5), LSC 9, R9 (11)",
+    "gearing": "14/50 stock; 14/51 option"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2020 Yamaha YZ250X cross-country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-2020-yamaha-yz250x-cross-country/",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Suspension rides low and bottoms on big jumps for pros. Springs said to equal the YZ250's (YZ250 valving stiffer)."
+  },
+  {
+   "id": "y2t8-038",
+   "domain": "setups",
+   "topic": "YZ250 race setup and gearing (2021)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "A magazine's 2021 YZ250 setup: fork compression 13 out, rebound 14 out, 5 mm up (stock 10 mm); shock 105 mm sag, high-speed 1-3/4 turns (stock 1-1/2), low-speed 8 (stock 13), rebound 8 (stock 12), with heavier or faster riders moving from the stock shock spring to a 50 N/mm, and a 51-tooth rear sprocket.",
+   "values": {
+    "fork": "C13, R14, 5 mm up (stock 10 mm)",
+    "shock": "105 mm sag, HSC 1.75 (1.5), LSC 8 (13), R8 (12)",
+    "shock_spring_heavier": "5.0 kg/mm (~50 N/mm)",
+    "gearing": "+1 tooth to 51"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2021 Yamaha YZ250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-yamaha-yz250-two-stroke/",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Spring rates printed as 0.43 kg/mm fork and 4.7 kg/mm shock; units appear garbled (likely 4.3 N/mm and 47 N/mm). Stock clicker values partly missing for the fork."
+  },
+  {
+   "id": "y2t8-039",
+   "domain": "power_feel",
+   "topic": "2021 YZ250 vs KTM 250 SX dyno",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On a magazine dyno the 2021 YZ250 made 46.08 hp at 8,800 rpm against the KTM 250 SX's 47.20 hp at 8,200; the KTM was about 4 hp stronger at 7,000 rpm, but the YZ made about 4.7 hp more above 8,800 rpm and kept pulling past peak.",
+   "values": {
+    "YZ250_peak": "46.08 hp @ 8,800 rpm",
+    "KTM_250SX_peak": "47.20 hp @ 8,200 rpm",
+    "at_7000": "KTM +~4 hp",
+    "above_8800": "YZ +~4.7 hp",
+    "measured_weight": "219 lb (KTM 212 lb)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, race test of the 2021 Yamaha YZ250 two-stroke",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-yamaha-yz250-two-stroke/",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Dyno brand, fuel and correction not stated; stock bikes. Magazine says pipe, reed cage and port work reach about 49 hp and many racers add a 9 oz flywheel weight to spread power and add over-rev."
+  },
+  {
+   "id": "y2t8-040",
+   "domain": "suspension",
+   "topic": "sag and fork height range owners use (2023 YZ250)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "2023 YZ250 owners start with the fork flush to 5 mm up and 103-107 mm of rear sag, then adjust clickers; one suspension shop set 10 mm up and 104 mm, which the owner felt was high.",
+   "values": {
+    "fork_height": "flush to +5 mm (shop: +10 mm)",
+    "sag": "103-107 mm"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, '2023 yz250 2 stroke suspension help' thread",
+    "url": "https://www.vitalmx.com/comment/6023501",
+    "date": "2024-01"
+   },
+   "confidence": "low",
+   "notes": "No rider weights or terrain given. One rider also runs 23.5 mm offset clamps and the axle fully back."
+  },
+  {
+   "id": "y2t8-041",
+   "domain": "engine_architecture",
+   "topic": "2022 YZ125 straight intake and reeds",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125"
+    ],
+    "years": [
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "From 2022 the YZ125 uses a straighter intake aimed at more low-rpm power, a VForce4 carbon reed valve, and a Keihin PWK38S with a throttle position sensor feeding the 3D-map CDI.",
+   "values": {
+    "reeds": "VForce4 carbon",
+    "carb": "Keihin PWK38S with TPS"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine, 2022 Yamaha YZ125 first look",
+    "url": "https://adbmag.com.au/?p=39739",
+    "date": "2021-07"
+   },
+   "confidence": "medium",
+   "notes": "No reed petal or stopper specifications published."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "YZ125 2022-2025 stock needle",
+   "models": [
+    "YZ125"
+   ],
+   "spread": "NYEF clip 2 (tuner table 2022, 2025) vs NYDF clip 2 (magazine 2025, owners 2023/2025, records jp5-064, yz25-076)",
+   "records": [
+    "y2t8-012",
+    "jp5-064",
+    "yz25-076"
+   ]
+  },
+  {
+   "topic": "YZ125 stock main jet 2022-2025",
+   "models": [
+    "YZ125"
+   ],
+   "spread": "160 (tuner 2022/2025 tables; magazine) vs 165 (owner-reported 2023 stock)",
+   "records": [
+    "y2t8-012",
+    "yz25-076"
+   ]
+  },
+  {
+   "topic": "YZ125 2026 stock jetting",
+   "models": [
+    "YZ125"
+   ],
+   "spread": "178 main / 65 pilot / N3EW-2 / AS 2 / PJ 95 (tuner table) vs 172 main / 65 / N3EW-2 / AS 2.5 / PJ 95 / slide 7 (owner citing manual)",
+   "records": [
+    "y2t8-013",
+    "yz25-076"
+   ]
+  },
+  {
+   "topic": "2020-2022 YZ125X vs YZ125 compression",
+   "models": [
+    "YZ125X",
+    "YZ125"
+   ],
+   "spread": "8.8:1 vs 10.7:1 (magazine race test) vs 7.4:1 vs 8.6:1 (record wk5-018); different measuring conventions likely",
+   "records": [
+    "y2t8-002",
+    "wk5-018"
+   ]
+  },
+  {
+   "topic": "2025 YZ125 fork spring",
+   "models": [
+    "YZ125"
+   ],
+   "spread": "4.2 N/mm used by one tester for 2025 vs magazine saying 2025 went from 4.2 to 4.3 N/mm",
+   "records": [
+    "y2t8-019",
+    "jp5-066"
+   ]
+  },
+  {
+   "topic": "YZ250 stock shock spring 2020-2021 vs 2022-on",
+   "models": [
+    "YZ250",
+    "YZ250X"
+   ],
+   "spread": "48 N/mm (2020 YZ250X test, 'same as YZ250'), 4.7 kg/mm as printed in 2021 YZ250 test, 50 N/mm stock per spring maker for 2022-2026",
+   "records": [
+    "y2t8-037",
+    "y2t8-038",
+    "jp5-069"
+   ]
+  },
+  {
+   "topic": "Stock vs one-size-leaner YZ250 main",
+   "models": [
+    "YZ250"
+   ],
+   "spread": "Tuner and owners run 175 main at sea level; magazine and others keep 178 and go to 180 with a pipe",
+   "records": [
+    "y2t8-010",
+    "y2t8-015",
+    "y2t8-024"
+   ]
+  }
+ ],
+ "not_found": [
+  {
+   "item": "Yamaha's own temperature/altitude carburetor setting chart values for YZ125/YZ250 2020-2026",
+   "searched": "Standard and extended searches for owner's service manual jetting chart; the 2022 YZ125 owner's service manual on manualslib lists 'Atmospheric conditions and carburetor settings' (p.260) and 'Carburetor setting parts' (p.264) but page content could not be loaded",
+   "result": "Chart exists in the manual (BAK holds the manuals) but values were not retrievable online"
+  },
+  {
+   "item": "Measured exhaust/transfer port timing for YZ125 (2022-on) and YZ250",
+   "searched": "Extended search for port timing; ThumperTalk 'YZ250 port timing', 'Port timing or cylinder measurements on YZ125', and yamaha-forum.net 'yz250 port specs' threads",
+   "result": "All three pages failed to fetch (site errors); no numbers recorded"
+  },
+  {
+   "item": "YZ250 / 2022-on YZ125 power valve opening and full-open rpm",
+   "searched": "Searches for YZ250 power valve opening rpm; patent and forum threads give no rpm",
+   "result": "Only the 2005-2021 YZ125 / 2020 YZ125X rpm found"
+  },
+  {
+   "item": "Spring charts by rider weight for YZ125, YZ125X, YZ250X",
+   "searched": "Spring-rate chart searches (JBI, Factory Connection, Race Tech, Parts Europe PDFs)",
+   "result": "Parts Europe PDFs were road-bike charts; no YZ125/X charts found"
+  },
+  {
+   "item": "Clicker-level sand and GNCC/enduro setups for YZ250X and 2023-on YZ125X",
+   "searched": "YZ250X clicker settings, GNCC race bike setup, YZ125X 2023/2024 reviews (Dirt Rider first ride returned headline only)",
+   "result": "Only 2020 magazine MX/cross-country setups found"
+  },
+  {
+   "item": "Dyno before/after for aftermarket pipes on 2022-2026 YZ125 other than the one already in BAK, and on 2020-2026 YZ250",
+   "searched": "FMF YZ125 pipe test (2005-2018 bikes, no numbers), dirtbiketest PC YZ250 (2003-2015 pipe, no numbers), avitmarine aggregator",
+   "result": "No new numbers"
+  },
+  {
+   "item": "Pro Circuit 2023 and 2024 jetting tables",
+   "searched": "procircuit.com jettingspecs14 and jettingspecs15",
+   "result": "Fetch permission timed out; not retried"
+  },
+  {
+   "item": "Stock YZ250X and 2023-on YZ125X jetting",
+   "searched": "YZ250X stock jetting, 2023 YZ125X jetting",
+   "result": "Not published in sources found"
+  },
+  {
+   "item": "Crank seal and power valve failure data for 2020-2026 bikes",
+   "searched": "Crank seal and power valve forum searches",
+   "result": "Only 2006-2017 era threads; records kept as HELD"
+  }
+ ],
+ "sources": [
+  {
+   "type": "magazine",
+   "name": "Motocross Action, race test of the 2020 Yamaha YZ125X cross-country",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-yamaha-yz125x-cross-country",
+   "date": "2020"
+  },
+  {
+   "type": "tuner",
+   "name": "US Patent 9,797,275 B1, motorcycle engine power valve control upgrade kit",
+   "url": "https://patents.google.com/patent/US9797275",
+   "date": "2017-10"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, 'Re-timing the YZ250 pv governor' thread",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Re-timing-the-YZ250-pv-governor,1380968",
+   "date": "2020-08"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, '2017 YZ250 no top end rev' thread",
+   "url": "https://www.vitalmx.com/comment/3662182",
+   "date": "2020-01"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, 'YZ125 Sputters/Chops at high RPM' thread",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/YZ125-Sputters-Chops-at-high-RPM-Video-Included,1395369",
+   "date": "2021-10"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, 'Yz 250 crank seals' thread",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Yz-250-crank-seals,1327606",
+   "date": "2017-10"
+  },
+  {
+   "type": "tuner",
+   "name": "Pro Circuit, Jetting Specifications 2026",
+   "url": "https://www.procircuit.com/jetting-specs17",
+   "date": "2026"
+  },
+  {
+   "type": "tuner",
+   "name": "Pro Circuit, Jetting Specifications 2020",
+   "url": "https://www.procircuit.com/jettingspecs12",
+   "date": "2020"
+  },
+  {
+   "type": "tuner",
+   "name": "Pro Circuit, Jetting Specifications 2025",
+   "url": "https://www.procircuit.com/jetting-specs16",
+   "date": "2025"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, '2023 YZ125 - Jetting Fix' thread",
+   "url": "https://www.vitalmx.com/comment/8990241",
+   "date": "2026-06"
+  },
+  {
+   "type": "tuner",
+   "name": "Pro Circuit, Jetting Specifications 2021-2022",
+   "url": "https://www.procircuit.com/jettingspecs13",
+   "date": "2022"
+  },
+  {
+   "type": "magazine",
+   "name": "PulpMX, 2025 Yamaha YZ125 test and suggested settings",
+   "url": "https://pulpmx.com/2025/04/22/2025-yamaha-yz125-old-guy-on-a-small-bike/",
+   "date": "2025-04"
+  },
+  {
+   "type": "magazine",
+   "name": "Keefer Inc. Testing, 2024 Yamaha YZ125 50th anniversary test",
+   "url": "https://www.keeferinctesting.com/?p=28088",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, race test of the 2020 Yamaha YZ250X cross-country",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-2020-yamaha-yz250x-cross-country/",
+   "date": "2020"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, '2021 YZ250 Jetting' thread",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/2021-YZ250-Jetting-Yes-I-know-jetting,1386593",
+   "date": "2021-01"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, '2025 Yz 250' jetting thread",
+   "url": "https://www.vitalmx.com/comment/8196441",
+   "date": "2025-08"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, 'Adjust Clip Position or Main Jet? YZ250' thread",
+   "url": "https://www.vitalmx.com/comment/8996816",
+   "date": "2026-05"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, '2022 YZ125 Bog' thread",
+   "url": "https://www.vitalmx.com/forums/tech-helprace-shop/2022-yz125-bog",
+   "date": "2024-02"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, '2023 YZ125 - Jetting Fix' thread (early 2025 posts)",
+   "url": "https://www.vitalmx.com/comment/7693891",
+   "date": "2025-03"
+  },
+  {
+   "type": "manufacturer",
+   "name": "Yamaha Motor USA, 2026 YZ250X features",
+   "url": "https://yamahamotorsports.com/models/26-yz250x/features",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling, 2026 Yamaha YZ125 first look",
+   "url": "https://ultimatemotorcycling.com/?p=292207",
+   "date": "2025"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, 'YZ250 cdi upgrades' thread",
+   "url": "https://www.vitalmx.com/forums/Vital-MX-Product-Reviews,47/YZ250-cdi-upgrades,1380989",
+   "date": "2021-01"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider, 2024 Yamaha YZ125X technical information",
+   "url": "https://dirtrider.com/dirt-bikes/yamaha-yz125x-technical-information",
+   "date": "2024"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, race test of the 2021 Yamaha YZ250 two-stroke",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-yamaha-yz250-two-stroke/",
+   "date": "2021"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, '2023 yz250 2 stroke suspension help' thread",
+   "url": "https://www.vitalmx.com/comment/6023501",
+   "date": "2024-01"
+  },
+  {
+   "type": "magazine",
+   "name": "ADB Magazine, 2022 Yamaha YZ125 first look",
+   "url": "https://adbmag.com.au/?p=39739",
+   "date": "2021-07"
+  }
+ ]
+}

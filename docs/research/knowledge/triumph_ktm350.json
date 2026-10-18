@@ -1,0 +1,1524 @@
+{
+ "slice": "Triumph TF gap-fill (C/E/RC drivetrain, issues, setups) + KTM-family 350 gap-fill 2020-2026",
+ "platform": {
+  "make": "Triumph",
+  "models": [
+   "TF 250-X",
+   "TF 450-RC Edition",
+   "TF 450-X",
+   "TF 250-C",
+   "TF 450-C",
+   "TF 250-E",
+   "TF 450-E",
+   "350 SX-F",
+   "350 XC-F",
+   "Husqvarna FC 350",
+   "Husqvarna FX 350",
+   "GasGas MC 350F",
+   "GasGas EX 350F"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "tk8-001",
+   "domain": "drivetrain",
+   "topic": "C model gearing, gearbox and clutch",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-C",
+     "TF 450-C"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Both cross-country C models ship with 13/48 gearing, a five-speed gearbox and a quickshifter that works from 2nd to 5th. The clutch is an Exedy wet multi-plate with a Belleville (diaphragm) spring, hydraulically operated on the 450-C.",
+   "values": {
+    "final_drive": "13/48",
+    "gearbox": "5-speed",
+    "quickshifter": "2nd to 5th gear",
+    "clutch": "Exedy wet multi-plate, Belleville spring; hydraulic actuation listed for TF 450-C"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph media kit - TF 250-C and TF 450-C cross-country launch",
+    "url": "https://triumph-mediakits.com/en/news-articles/triumph-powers-into-cross-country-racing-with-new-tf-250-c-and-tf-450-c.html",
+    "date": "2025-09"
+   },
+   "confidence": "high",
+   "notes": "Same final drive as the X motocross models per the Enduro21 first look; the E models use 13/52 (250-E) and 13/51 (450-E). Model year from MY26 asset names and Oct 2025 availability."
+  },
+  {
+   "id": "tk8-002",
+   "domain": "drivetrain",
+   "topic": "C vs E final drive",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-C",
+     "TF 450-C",
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The C models keep the motocross 13/48 gearing, while the enduro models are geared lower: 13/52 on the 250-E and 13/51 on the 450-E.",
+   "values": {
+    "TF 250-C / TF 450-C": "13/48",
+    "TF 250-E": "13/52",
+    "TF 450-E": "13/51"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21 - First look: Triumph TF 250-C & TF 450-C",
+    "url": "https://enduro21.com/en/news/first-look-triumph-tf-250-c-tf-450-c-cross-country-models",
+    "date": "2025-09"
+   },
+   "confidence": "medium",
+   "notes": "Magazine relaying Triumph launch figures. A separate European E-model test also lists 13/51 for the E (see tk8-015)."
+  },
+  {
+   "id": "tk8-003",
+   "domain": "identity",
+   "topic": "C model build and weights",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-C",
+     "TF 450-C"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The C models are the X motocross bikes with an 8.3-litre (2.2 US gal) tank, an 18-inch rear wheel (1.85-inch rim on the 250-C, 2.15-inch on the 450-C), Dunlop Geomax AT82 tyres, handguards, bash plate and side stand. Triumph lists 109.9 kg wet for the 250-C and 112.2 kg for the 450-C, 960 mm seat height and US prices of $9,695 and $10,695.",
+   "values": {
+    "tank": "8.3 L (2.2 US gal)",
+    "rear_rim_250C": "18 x 1.85 in",
+    "rear_rim_450C": "18 x 2.15 in",
+    "wet_weight_250C": "109.9 kg",
+    "wet_weight_450C": "112.2 kg",
+    "seat_height": "960 mm",
+    "wheelbase": "1,492 mm",
+    "fork": "KYB 48 mm coil, 310 mm travel",
+    "shock": "KYB, 305 mm travel",
+    "price_US": "$9,695 / $10,695",
+    "availability": "October 2025 (US, Canada, NZ, France)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph media kit - TF 250-C and TF 450-C cross-country launch",
+    "url": "https://triumph-mediakits.com/en/news-articles/triumph-powers-into-cross-country-racing-with-new-tf-250-c-and-tf-450-c.html",
+    "date": "2025-09"
+   },
+   "confidence": "high",
+   "notes": "Suspension is described as retuned for cross-country; no clicker or spring numbers published."
+  },
+  {
+   "id": "tk8-004",
+   "domain": "power_feel",
+   "topic": "C model claimed output and torque",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-C"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Triumph claims 47.3 PS (34.8 kW) at 13,250 rpm and 28.3 Nm at 9,000 rpm for the 250-C, and says the C maps give a smoother, more controllable torque curve than the 250-X.",
+   "values": {
+    "peak_power_claimed": "47.3 PS / 34.8 kW @ 13,250 rpm",
+    "peak_torque_claimed": "28.3 Nm @ 9,000 rpm (body text says 9,250 rpm)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph media kit - TF 250-C and TF 450-C cross-country launch",
+    "url": "https://triumph-mediakits.com/en/news-articles/triumph-powers-into-cross-country-racing-with-new-tf-250-c-and-tf-450-c.html",
+    "date": "2025-09"
+   },
+   "confidence": "medium",
+   "notes": "Claimed crank figures, not a dyno. Torque rpm conflicts inside the same release; see conflicts. No independent dyno of the 250-C found."
+  },
+  {
+   "id": "tk8-005",
+   "domain": "power_feel",
+   "topic": "450-C low-speed feel",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-C"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On a wet launch day in tight West Virginia trail, the 450-C did not stall at low rpm the way most 450s do and pulled linearly; traction control made the throttle feel flat, so the tester turned it off. Sag was set at 108 mm with stock clickers.",
+   "values": {
+    "race_sag": "108 mm",
+    "clickers": "stock",
+    "traction_control": "off (felt flat)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "MXP Magazine - 2026 Triumph TF 450 C first ride",
+    "url": "https://www.mxpmag.com/?p=74917",
+    "date": "2025-10"
+   },
+   "confidence": "medium",
+   "notes": "Single-day manufacturer launch impression. Tester describes the C as the 450-X with softer suspension, 18-inch rear and different mapping."
+  },
+  {
+   "id": "tk8-006",
+   "domain": "known_issues",
+   "topic": "2025 TF 450 false neutrals and gearbox bulletin",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Owners report false neutrals between 2nd-3rd and 3rd-4th on the first TF 450s, and one poster saw three bikes with failed shift forks and drums. Owners report a service bulletin that updates the shift star (selector star) and clutch hub to the 2026 specification; ask a dealer to check the VIN.",
+   "values": {
+    "symptom": "false neutral 2-3 and 3-4",
+    "failed_parts_reported": "shift forks, shift drum",
+    "reported_scale": "8 owners / 12 bikes in one region (one poster)",
+    "dealer_fix": "service bulletin: shift star + clutch hub to MY26 spec"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum - Triumph TF450 transmission updates (page 5)",
+    "url": "https://www.vitalmx.com/forums/moto-related/triumph-tf450-transmission-updates?page=5",
+    "date": "2025-11"
+   },
+   "confidence": "medium",
+   "notes": "Bulletin known only second-hand from forum posts (Nov 2025); no bulletin number found. Outcome after the update not yet confirmed in the thread. Some warranty claims reported denied; dealers may wait for warranty approval before a teardown."
+  },
+  {
+   "id": "tk8-007",
+   "domain": "drivetrain",
+   "topic": "2026 TF 450-X selector star and clutch hub",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-X"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For 2026 the 450-X gets a new selector star for cleaner gear selection, plus a new Exedy clutch hub with oil ports and a new Belleville spring for durability and a smoother clutch action. These are the parts the bulletin fits to 2025 bikes.",
+   "values": {
+    "selector_star": "new (improved gear selection)",
+    "clutch_hub": "new Exedy hub with lubrication ports",
+    "clutch_spring": "new Belleville spring",
+    "wet_weight": "239 lb",
+    "price": "$10,695 ($300 below the RC)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2026 Triumph TF 450-X First Look",
+    "url": "https://ultimatemotorcycling.com/2025/12/03/2026-triumph-tf-450-x-first-look-7-fast-facts-27-photos/",
+    "date": "2025-12"
+   },
+   "confidence": "high",
+   "notes": "Magazine relaying Triumph press material. Link to the bulletin is from owner reports (tk8-006)."
+  },
+  {
+   "id": "tk8-008",
+   "domain": "known_issues",
+   "topic": "owner gearbox finishing fix (TF 450)",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-RC Edition",
+     "TF 450-X"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "One owner cured notchy shifts and false neutrals (worst on 3-4 and 4-5) by smoothing gear dog faces, removing machining burrs from dog pockets, levelling the shift-fork fingers (a raised moulded marking wore into a gear groove) and DLC-coating the shift-fork shafts for about $150. He advises a new shift drum on bikes past about 20 hours.",
+   "values": {
+    "dlc_shaft_cost": "about $150",
+    "drum_advice": "replace if 20+ hours",
+    "result": "zero false neutrals after the work (Apr 2026)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum - Possible FIX for Triumph TF transmissions",
+    "url": "https://www.vitalmx.com/forums/moto-related/possible-fix-triumph-tf-transmissions",
+    "date": "2026-04"
+   },
+   "confidence": "low",
+   "notes": "One rider, one bike; not a Triumph fix. Source names the bike 'TF450-R' and gives no model year, so years are held. Points to finishing/tolerance quality rather than gearbox design.",
+   "status": "HELD"
+  },
+  {
+   "id": "tk8-009",
+   "domain": "known_issues",
+   "topic": "2024 TF 250-X stiff shifting and gear gaps",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On the early test bike the gearbox felt very stiff and gappy, mainly 2nd to 3rd and 3rd to 4th; testers planned two extra rear teeth (KTM rear sprockets fit) to close the gaps. Low and mid power was the weakest area but improved over about 10 hours of break-in.",
+   "values": {
+    "gappy_shifts": "2-3 and 3-4",
+    "planned_gearing": "+2 teeth rear",
+    "break_in_improvement": "about 10 hours",
+    "weight_no_fuel": "221 lb"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - Finally! Triumph TF250X Test Bike: The Wrap",
+    "url": "https://dirtbikemagazine.com/finally-triumph-tf250x-test-bike-the-wrap/",
+    "date": "2024-07"
+   },
+   "confidence": "medium",
+   "notes": "Article (July 2024) does not state the model year; the bike is the first-year TF 250-X, which was sold only as a 2024 at that time, so years are held for confirmation. Rear sag about 100 mm; map 2 preferred; no one liked traction control.",
+   "status": "HELD"
+  },
+  {
+   "id": "tk8-010",
+   "domain": "known_issues",
+   "topic": "TF 250-X jumped timing after a tip-over",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "One owner's TF 250-X jumped cam timing after a slow tip-over in sand at 8 hours, with one or two teeth damaged; Triumph's warranty manager approved a near-complete engine rebuild through a dealer. Several owners also report a gear whine even at idle, cause unconfirmed.",
+   "values": {
+    "hours_at_failure": "8 h",
+    "outcome": "warranty engine rebuild",
+    "whine": "reported by several owners, cause unknown"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum - New Triumph TF250X owners thread (page 10)",
+    "url": "https://www.vitalmx.com/forums/moto-related/new-triumph-tf250x-any-new-owners-out-there-initial-thoughts?page=9",
+    "date": "2025-05"
+   },
+   "confidence": "low",
+   "notes": "Single failure report (Apr 2025); bike year not stated (most posters had leftover 2024s, one a 2025), so years are held. Owners also note dealers must fit the recall/update package before sale.",
+   "status": "HELD"
+  },
+  {
+   "id": "tk8-011",
+   "domain": "engine_mods",
+   "topic": "TF 450-RC muffler and clutch kit effects",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Pinching back the stock muffler baffle and pulling one screen gave a small power gain, less than the same trick on a KX450. An aftermarket clutch kit ($299.99: stiffer spring, extra steel plate at each end) added bite and shortened engagement, noticeable but not dramatic. A 120-section rear tyre helped the shock hold the ground.",
+   "values": {
+    "exhaust_mod": "baffle opened, one screen removed: small gain (not measured)",
+    "clutch_kit": "Hinson kit $299.99, stiffer spring + extra steels: more bite, shorter engagement",
+    "rear_tire": "120 size instead of 110"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 20-hour test: 2025 Triumph TF450-RC",
+    "url": "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "20-hour test. No dyno numbers for the muffler change. Silencer modification may affect sound-test legality."
+  },
+  {
+   "id": "tk8-012",
+   "domain": "drivetrain",
+   "topic": "TF 450-RC gearing per track",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 450-RC ships with a 48-tooth rear sprocket. Faster and heavier testers preferred 49 with a longer chain to bridge the 2nd-3rd gap, and 50 was used at an 8,000 ft altitude track.",
+   "values": {
+    "stock_rear": "48T",
+    "preferred_rear": "49T (longer chain)",
+    "altitude_rear": "50T at about 8,000 ft"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 20-hour test: 2025 Triumph TF450-RC",
+    "url": "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Front sprocket assumed stock 13T (Triumph spec); not restated in the test."
+  },
+  {
+   "id": "tk8-013",
+   "domain": "setups",
+   "topic": "TF 450-RC setup by rider weight",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Testers of 195 and 200 lb ran 101-104 mm race sag (104 for comfort, 101 for front-end bite), slightly stiffer compression and a few clicks slower rebound. The 200-lb rider raised fork oil 10 cc per leg for g-outs and steep faces; riders at or under 170 lb may find the stock springs too stiff.",
+   "values": {
+    "race_sag": "101-104 mm",
+    "fork_oil": "+10 cc per leg (200-lb rider)",
+    "rider_weights": "195 lb and 200 lb",
+    "light_rider_note": "170 lb or less may be over-sprung"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 20-hour test: 2025 Triumph TF450-RC",
+    "url": "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Exact clicker counts not published. Rear-only sag not given separately."
+  },
+  {
+   "id": "tk8-014",
+   "domain": "power_feel",
+   "topic": "TF 450-RC feel after 20 hours",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The engine is linear and easy on the rider over long motos but testers wanted more bottom-to-mid pull; power ramps slowly through the middle and the gains show past mid-range, so it likes to be revved. Clutch engagement is long with no sharp snap. The 'Expert' map with advanced ignition helped somewhat.",
+   "values": {
+    "bottom": "wanted more",
+    "mid": "slow ramp",
+    "top": "strongest, likes revs",
+    "clutch": "long engagement"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 20-hour test: 2025 Triumph TF450-RC",
+    "url": "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Stock bike except muffler baffle mod and clutch kit later in the test."
+  },
+  {
+   "id": "tk8-015",
+   "domain": "known_issues",
+   "topic": "TF 450-RC 20-hour reliability",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Over about 20 hours nothing broke or needed replacing beyond oil changes; the stock clutch held up, though riders who slip the clutch hard may wear the plates faster.",
+   "values": {
+    "test_hours": "about 20 h",
+    "failures": "none"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 20-hour test: 2025 Triumph TF450-RC",
+    "url": "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "One test bike. Contrast with owner gearbox reports (tk8-006)."
+  },
+  {
+   "id": "tk8-016",
+   "domain": "engine_architecture",
+   "topic": "E model crank inertia and service interval",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The enduro E engines use heavier crankshafts: about 30% more inertia on the 250-E and 34% more on the 450-E than the motocross engines, and the piston service interval doubles to 90 hours. They run 13/51 gearing in this test with a six-speed gearbox.",
+   "values": {
+    "crank_inertia_250E": "+30% vs MX",
+    "crank_inertia_450E": "+34% vs MX",
+    "piston_interval": "90 h (twice MX)",
+    "claimed_power_250E": "42.3 hp",
+    "claimed_power_450E": "59.3 hp",
+    "dry_weight": "114.3 kg / 117 kg",
+    "gearbox": "6-speed"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "1000PS - Triumph TF 250-E and TF 450-E review",
+    "url": "https://www.1000ps.com/en-gb/article/3012584/test-triumph-tf-250-e-a-tf-450-e-2025",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "European test labels these 2025 models; they are the US 2026 E models. Final drive listed as 13/51 for both here vs 13/52 for the 250-E in the Enduro21 C-model article (see conflicts). Fork is about 1 cm shorter and swingarm about 1 cm longer than MX."
+  },
+  {
+   "id": "tk8-017",
+   "domain": "known_issues",
+   "topic": "E model quickshifter and soft fork",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On both E models the quickshifter sometimes failed to engage the next gear under hard acceleration, and the 450-E fork is set too soft for fast enduro riding and reaches its limits on rough sections.",
+   "values": {
+    "quickshifter": "misses shifts under hard load",
+    "fork_450E": "too soft for sporty riding"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "1000PS - Triumph TF 250-E and TF 450-E review",
+    "url": "https://www.1000ps.com/en-gb/article/3012584/test-triumph-tf-250-e-a-tf-450-e-2025",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Tester impression; no fix published. Softer map recommended for singletrack."
+  },
+  {
+   "id": "tk8-018",
+   "domain": "known_issues",
+   "topic": "350 cam chain noise and manual tensioner fix",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Many 2019-2020 350 owners hear a loud top-end rattle for a few seconds after a cold start or a quick hot restart while the oil-fed hydraulic cam chain tensioner pumps up. Several fitted aftermarket manual tensioners and the noise stopped; a few seconds of noise is normal, around 10 seconds is excessive.",
+   "values": {
+    "normal_noise": "about 3 s after restart",
+    "excessive": "about 10 s",
+    "fix": "manual cam chain tensioner (aftermarket, e.g. Dirt Tricks, Nihilo)",
+    "first_report_hours": "3.8 h (2020 350 SX-F)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum - New 2020 KTM 350sxf Loud Engine Noise",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/New-2020-KTM-350sxf-Loud-Engine-Noise,1370573",
+    "date": "2020-01 to 2024-05"
+   },
+   "confidence": "medium",
+   "notes": "Thread runs Jan 2020 to May 2024. Not a KTM bulletin. One owner with a 366 kit and SX-F cams still had the noise with a manual tensioner. Check oil level and top-end oil supply before blaming the tensioner."
+  },
+  {
+   "id": "tk8-019",
+   "domain": "identity",
+   "topic": "2021 350 XC-F changes",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "For 2021 the 350 XC-F got new mapping with more low-end for corner exits, a WP XACT air fork with new internals (longer oil and air bypasses, new mid-valve), a shock with a new link-piston O-ring to cut fade, low-friction SKF linkage seals and new settings.",
+   "values": {
+    "mapping": "new, more low-end",
+    "fork": "XACT air: new internals, extended oil/air bypass, new mid-valve",
+    "shock": "new link-piston O-ring (less fade)",
+    "linkage": "SKF low-friction seals"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - 2021 KTM cross-country line-up (press information)",
+    "url": "https://dirtbikemagazine.com/?p=62814",
+    "date": "2020-06"
+   },
+   "confidence": "high",
+   "notes": "KTM press information relayed by magazine. DOHC with titanium valves and DLC finger followers."
+  },
+  {
+   "id": "tk8-020",
+   "domain": "identity",
+   "topic": "2022 350 XC-F changes",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The 2022 350 XC-F was a graphics year plus a lower-friction balancer-shaft bearing that KTM says helps at high rpm.",
+   "values": {
+    "changes": "graphics; lower-friction balancer shaft bearing"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2022 KTM Cross-Country Lineup First Look",
+    "url": "https://ultimatemotorcycling.com/2021/05/06/2022-ktm-cross-country-lineup-first-look-six-choices",
+    "date": "2021-05"
+   },
+   "confidence": "high",
+   "notes": "Rocker-arm update that year was 450 XC-F only."
+  },
+  {
+   "id": "tk8-021",
+   "domain": "identity",
+   "topic": "2020 350 XC-F changes",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "The 2020 350 XC-F kept the air-spring WP XACT fork with new settings and a new fork piston, and the shock got new settings and a new compression adjuster.",
+   "values": {
+    "fork": "WP XACT 48 mm air spring, new piston and settings",
+    "shock": "new settings, new compression adjuster"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2020 KTM 450/350/250 XC-F First Look",
+    "url": "https://ultimatemotorcycling.com/2019/04/30/2020-ktm-450-xc-f-350-xc-f-and-250-xc-f-first-look-5-fast-facts/",
+    "date": "2019-04"
+   },
+   "confidence": "high",
+   "notes": "No engine changes listed for the 350 that year."
+  },
+  {
+   "id": "tk8-022",
+   "domain": "engine_architecture",
+   "topic": "350 XC-F engine spec 2020-2022",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The 2020-2022 350 XC-F is an 88 x 57.5 mm DOHC four-valve with 14.2:1 compression, Keihin EFI on a 44 mm throttle body, two oil pumps and a DDS clutch with Brembo hydraulics.",
+   "values": {
+    "bore_stroke": "88 x 57.5 mm",
+    "compression": "14.2:1",
+    "throttle_body": "Keihin 44 mm",
+    "lubrication": "pressure, 2 oil pumps",
+    "clutch": "wet multi-disc DDS, Brembo hydraulic"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2022 KTM Cross-Country Lineup First Look",
+    "url": "https://ultimatemotorcycling.com/2021/05/06/2022-ktm-cross-country-lineup-first-look-six-choices",
+    "date": "2021-05"
+   },
+   "confidence": "high",
+   "notes": "Same figures in the 2020 first look (tk8 source um20xc). 2023+ generation has higher compression (see existing records)."
+  },
+  {
+   "id": "tk8-023",
+   "domain": "chassis",
+   "topic": "350 XC-F geometry 2020-2022",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "KTM lists 26.1 degrees rake, 22 mm triple-clamp offset, 58.5 in wheelbase, 14.6 in ground clearance, 37.4 in seat height and a 2.25 gal tank for the 2020-2022 XC-F family. Claimed curb weight is 236 lb (2020) and 234 lb (2022).",
+   "values": {
+    "rake": "26.1 deg",
+    "offset": "22 mm",
+    "wheelbase": "58.5 in",
+    "ground_clearance": "14.6 in",
+    "seat_height": "37.4 in",
+    "fuel": "2.25 gal",
+    "curb_weight_2020": "236 lb",
+    "curb_weight_2022": "234 lb",
+    "frame": "chromoly steel central double-cradle, aluminium subframe"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2022 KTM Cross-Country Lineup First Look",
+    "url": "https://ultimatemotorcycling.com/2021/05/06/2022-ktm-cross-country-lineup-first-look-six-choices",
+    "date": "2021-05"
+   },
+   "confidence": "high",
+   "notes": "Figures listed for the 250/350/450 XC-F family, not 350-specific. 2020 values from um20xc match."
+  },
+  {
+   "id": "tk8-024",
+   "domain": "drivetrain",
+   "topic": "350 XC-F primary and final drive (2020)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "KTM lists a 24:73 primary drive and 14:51 final drive for the 2020 350 XC-F, against 13:51 on the 250 XC-F and 13:48 on the five-speed 450 XC-F. Claimed weight without fuel is 100.5 kg.",
+   "values": {
+    "primary": "24:73",
+    "final": "14:51",
+    "gears": "6 (this source)",
+    "weight_no_fuel": "100.5 kg / 221.5 lb"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - 2020 KTM XC line-up (press information)",
+    "url": "https://dirtbikemagazine.com/?p=46443",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "Gearbox count conflicts with another first look (5-speed); see conflicts. KTM's XC-F 350 has historically been a six-speed."
+  },
+  {
+   "id": "tk8-025",
+   "domain": "drivetrain",
+   "topic": "350 XC-F overall reduction (2020)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Worked out from KTM's figures, the 2020 350 XC-F's primary (3.042) and final (3.643) drives multiply to 11.08:1 before the gearbox.",
+   "values": {
+    "primary_ratio": "3.042",
+    "final_ratio": "3.643",
+    "combined": "11.08:1"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - 2020 KTM XC line-up (press information)",
+    "url": "https://dirtbikemagazine.com/?p=46443",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "73/24 = 3.042; 51/14 = 3.643; 3.042 x 3.643 = 11.08. Multiply by each gear ratio from the manual for overall gearing."
+  },
+  {
+   "id": "tk8-026",
+   "domain": "suspension",
+   "topic": "350 XC-F suspension hardware 2020-2022",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 XC-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The 2020-2022 350 XC-F uses a 48 mm WP XACT air-spring fork with 310 mm (12.2 in) travel and a linkage WP XACT shock with 300 mm (11.8 in) travel, both fully adjustable.",
+   "values": {
+    "fork": "WP XACT 48 mm air spring, 310 mm",
+    "shock": "WP XACT linkage, 300 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling - 2020 KTM 450/350/250 XC-F First Look",
+    "url": "https://ultimatemotorcycling.com/2019/04/30/2020-ktm-450-xc-f-350-xc-f-and-250-xc-f-first-look-5-fast-facts/",
+    "date": "2019-04"
+   },
+   "confidence": "high",
+   "notes": "Air spring stated for 2020; 2021 release mentions air bypasses. A coil-spring XACT closed-cartridge fork arrived on XC/XC-F for 2024 (existing record). A tuner chart listing coil fork springs for the XC-F conflicts; see conflicts."
+  },
+  {
+   "id": "tk8-027",
+   "domain": "setups",
+   "topic": "2021 FC 350 race setup by rider level",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Testers set fork air by rider level (10.6 bar pro, 10.3 intermediate, 10.0 fast novice, 9.6 bar novice/vet), fork compression 15 out and rebound 10 out, forks at the third line. The shock ran the 45 N/mm spring at 105 mm race sag, high-speed compression 1-1/4 turns out, low-speed 15 out and rebound 10 out.",
+   "values": {
+    "fork_air": "10.6 / 10.3 / 10.0 / 9.6 bar by level",
+    "fork_comp": "15 out (stock 12)",
+    "fork_reb": "10 out (stock 12)",
+    "fork_height": "third line",
+    "shock_spring": "45 N/mm",
+    "race_sag": "105 mm",
+    "HSC": "1-1/4 turns out (stock 1-1/2)",
+    "LSC": "15 out",
+    "shock_reb": "10 out (stock 15)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test: 2021 Husqvarna FC350",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-husqvarna-fc350",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Set air so a zip tie shows about 1.5 in travel left; re-set air between motos once cool and bleed outer chambers. Testers say returning to the older shock spring rate made the bike less sensitive to rider weight."
+  },
+  {
+   "id": "tk8-028",
+   "domain": "chassis",
+   "topic": "2021 FC 350 linkage vs KTM",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "The 2021 FC 350 uses a different shock linkage from the KTM 350 SX-F, with longer pull rods and a new bell crank, and smaller airbox vent holes; testers preferred the Husqvarna overall.",
+   "values": {
+    "linkage": "longer arms, new bell crank vs KTM",
+    "airbox_vents": "smaller than KTM"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test: 2021 Husqvarna FC350",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-husqvarna-fc350",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Power described as well modulated with no hit: more than a 250, less than a 450. Hate list: check head-stay, engine-mount and sprocket bolts and the spoke by the rim lock; hard to find neutral at a stop."
+  },
+  {
+   "id": "tk8-029",
+   "domain": "identity",
+   "topic": "2022 GasGas MC 350F launch spec",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The MC 350F was new for 2022 (dealers October 2021) at $9,299, with 99.5 kg claimed weight without fuel, a five-speed gearbox, DS clutch with Brembo hydraulics and Kokusan engine management.",
+   "values": {
+    "price": "$9,299",
+    "weight_no_fuel": "99.5 kg",
+    "gearbox": "5-speed",
+    "clutch": "DS, Brembo hydraulic",
+    "ems": "Kokusan"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - First look: GasGas MC 350F",
+    "url": "https://motocrossactionmag.com/first-look-the-all-new-gasgas-mc-350f-gasgas-mc-250-two-stroke",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Dealer timing from Dirt Rider 2022 first look."
+  },
+  {
+   "id": "tk8-030",
+   "domain": "chassis",
+   "topic": "2022 GasGas MC 350F geometry",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas lists a 63.9 degree head angle, 950 mm seat height, 370 mm ground clearance and a 7-litre tank for the 2022 MC 350F.",
+   "values": {
+    "head_angle": "63.9 deg",
+    "seat_height": "950 mm",
+    "ground_clearance": "370 mm",
+    "tank": "7 L",
+    "brakes": "260 / 220 mm discs"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - First look: GasGas MC 350F",
+    "url": "https://motocrossactionmag.com/first-look-the-all-new-gasgas-mc-350f-gasgas-mc-250-two-stroke",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tk8-031",
+   "domain": "suspension",
+   "topic": "2022 GasGas MC 350F suspension hardware",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The 2022 MC 350F uses a 48 mm WP XACT fork with 310 mm travel and a linkage WP XACT shock with 300 mm travel.",
+   "values": {
+    "fork": "WP XACT 48 mm, 310 mm",
+    "shock": "WP XACT linkage, 300 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - First look: GasGas MC 350F",
+    "url": "https://motocrossactionmag.com/first-look-the-all-new-gasgas-mc-350f-gasgas-mc-250-two-stroke",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Same platform carried into 2023 (see 2023 race-test records)."
+  },
+  {
+   "id": "tk8-032",
+   "domain": "ecu_electronics",
+   "topic": "GasGas MC 350F map switch is an accessory (2023)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 MC 350F's ECU holds two maps, traction control and launch control, but the bike ships running only the standard map; the accessory handlebar switch (about $170) is needed to use the rest.",
+   "values": {
+    "stock": "map 1 only",
+    "switch_price": "about $170",
+    "unlocks": "map 2, traction control, launch control"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test: 2023 GasGas MC350F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-gasgas-mc350f",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "tk8-033",
+   "domain": "suspension",
+   "topic": "2023 GasGas MC 350F shock spring by weight",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The stock shock spring is 42 N/mm; riders over about 185 lb, intermediates and pros may need the 45 N/mm spring. Testers ran 105 mm race sag and fork air of 151/145/140 psi for intermediate/fast novice/vet-novice.",
+   "values": {
+    "stock_spring": "42 N/mm",
+    "heavier_rider_spring": "45 N/mm (>185 lb or fast)",
+    "race_sag": "105 mm",
+    "fork_air": "151 / 145 / 140 psi",
+    "fork_clickers": "12 out comp, 12 out reb",
+    "shock": "HSC 1-1/4 out, LSC 15 out, reb 12 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test: 2023 GasGas MC350F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-gasgas-mc350f",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Old (2019-2022-type) chassis platform. Gearing: +1 rear tooth for better low-mid, many 350 racers run +2."
+  },
+  {
+   "id": "tk8-034",
+   "domain": "ecu_electronics",
+   "topic": "2024 GasGas MC 350F accessory switch and maps",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 MC 350F needs a $150 accessory switch to get map 2, launch control, traction control and quickshifter; map 2 makes it feel like it revs further so each gear carries longer. Redline is about 14,000 rpm.",
+   "values": {
+    "switch_price": "$150",
+    "unlocks": "map 2, LC, TC, quickshifter",
+    "redline": "about 14,000 rpm",
+    "claimed_weight_no_fuel": "225.9 lb (+about 7 lb vs prior)",
+    "ems": "Vitesco"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2024 GasGas MC 350F review",
+    "url": "https://www.cyclenews.com/2023/09/article/2024-gasgas-mc-350f-review/",
+    "date": "2023-09"
+   },
+   "confidence": "medium",
+   "notes": "Brakes are Braktec (260/220 mm), judged weaker than KTM's Brembo. Price $10,099, about $800 under the KTM."
+  },
+  {
+   "id": "tk8-035",
+   "domain": "power_feel",
+   "topic": "2025 GasGas MC 350F feel by rpm",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "It pulls strongly off the bottom with a broad midrange, then builds steadily from about 8,000 rpm to peak with over-rev that seems endless. Shifting early loses drive: testers wait for the limiter and a beat longer before shifting. Peak is said to be about the same as a 2025 CRF450R.",
+   "values": {
+    "build_from": "about 8,000 rpm",
+    "shift_point": "at or just after the limiter"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test: 2025 GasGas MC350F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-gasgas-mc350f",
+    "date": "2025-02"
+   },
+   "confidence": "medium",
+   "notes": "No dyno numbers published in this test. Peak rpm figure in source is a typo ('13,4000')."
+  },
+  {
+   "id": "tk8-036",
+   "domain": "drivetrain",
+   "topic": "2025 GasGas MC 350F stock rear sprocket",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 MC 350F comes with a 52-tooth rear sprocket, which testers say hits harder off the bottom while keeping enough top-end; the chain needs about 70 mm of slack (about four fingers).",
+   "values": {
+    "stock_rear": "52T",
+    "chain_slack": "70 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test: 2025 GasGas MC350F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-gasgas-mc350f",
+    "date": "2025-02"
+   },
+   "confidence": "medium",
+   "notes": "Front sprocket not stated."
+  },
+  {
+   "id": "tk8-037",
+   "domain": "chassis",
+   "topic": "2025 GasGas MC 350F vs KTM/Husqvarna",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The MC 350F shares the KTM frame, engine, suspension and electronics but has no resonance chamber in the head pipe, BrakTec brakes with more bite and less feel, slightly softer fork damping than KTM's 2025 settings, and bars 12 mm taller. The map switch (about $180) is needed for map 2, launch, traction and quickshift.",
+   "values": {
+    "exhaust": "no resonance chamber",
+    "brakes": "BrakTec",
+    "fork": "slightly softer damping than KTM",
+    "bars": "12 mm taller than KTM",
+    "map_switch": "about $180 accessory"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test: 2025 GasGas MC350F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-gasgas-mc350f",
+    "date": "2025-02"
+   },
+   "confidence": "medium",
+   "notes": "Testers say the missing chamber did not seem to cut peak power. Removing the frame guards makes it feel narrower at the boots."
+  },
+  {
+   "id": "tk8-038",
+   "domain": "known_issues",
+   "topic": "2025 GasGas MC 350F hate list",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Neutral is hard to find on the start line (pull the clutch and click it in as the rpm peaks), the spoke by the rear rim lock loosens, the gas cap can stick and the plastic radiator cap is hard to remove.",
+   "values": {
+    "neutral_tip": "shift as rpm peaks, clutch in",
+    "spokes": "rim-lock spoke loosens",
+    "caps": "gas cap sticks; radiator cap hard to remove"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test: 2025 GasGas MC350F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-gasgas-mc350f",
+    "date": "2025-02"
+   },
+   "confidence": "medium",
+   "notes": "Brakes also subject to recalls (see existing GasGas brake recall records)."
+  },
+  {
+   "id": "tk8-039",
+   "domain": "suspension",
+   "topic": "350 SX-F fork air and shock spring by rider weight (2020-2021)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 SX-F"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "A suspension builder's chart gives 9.8 bar fork air and a 42 N/mm shock spring as stock (75 kg rider), adding 0.2 bar and 3 N/mm per 10 kg: from 9.2 bar / 33 N/mm at 45 kg to 10.8 bar / 57 N/mm at 125 kg.",
+   "values": {
+    "45kg": "9.2 bar / 33",
+    "55kg": "9.4 bar / 36",
+    "65kg": "9.6 bar / 39",
+    "75kg_stock": "9.8 bar / 42",
+    "85kg": "10.0 bar / 45",
+    "95kg": "10.2 bar / 48",
+    "105kg": "10.4 bar / 51",
+    "115kg": "10.6 bar / 54",
+    "125kg": "10.8 bar / 57 N/mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "K-Tech KTM rider weight / spring rate chart (2021)",
+    "url": "https://www.enduro9.cz/user/documents/upload/K-tech/K-tech-2021_ktm_rider_spring_rates.pdf",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Chart covers 350 SX-F 2016-2021. Shock spring read from codes 63-260-xx (last number taken as N/mm, matching the known 42 N/mm stock rate). Bar values are the AER fork air pressure."
+  },
+  {
+   "id": "tk8-040",
+   "domain": "setups",
+   "topic": "heavy rider on the 2023 350 SX-F",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 SX-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A 245-255 lb rider went to a 5.8 kg/mm shock spring (a spring chart gives 5.4 kg/mm for 231-254 lb and 5.8 for 254-276 lb) and ran 105-106 mm race sag with 35-36 mm static. Owners advise picking the stiffer spring when between rates, setting fork air so the O-ring stops about an inch from bottoming, and fixing bottoming with fork oil height rather than more air.",
+   "values": {
+    "rider": "245-255 lb with gear",
+    "spring": "5.8 kg/mm (about 57 N/mm)",
+    "chart": "5.4 kg/mm 231-254 lb; 5.8 kg/mm 254-276 lb",
+    "race_sag": "105-106 mm",
+    "static_sag": "35-36 mm"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum - '23+ KTM SX-F Suspension Setup Tips",
+    "url": "https://www.vitalmx.com/comment/7074936",
+    "date": "2024-10"
+   },
+   "confidence": "medium",
+   "notes": "Oct 2024 thread. Other tips: 2025 engine mounts add flex; one owner swapped to an aftermarket coil fork kit because the air fork was harsh on braking bumps."
+  },
+  {
+   "id": "tk8-041",
+   "domain": "power_feel",
+   "topic": "2023 vs 2022 350 SX-F owner feel",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 SX-F"
+    ],
+    "years": [
+     2022,
+     2023
+    ]
+   },
+   "statement": "Owners moving to the 2023 350 SX-F report clearly stronger bottom end with similar mid and top, and a heavier, less flickable feel, closer to a small 450. Bikes feel stiff when new and loosen up over the first 10-12 hours.",
+   "values": {
+    "bottom": "stronger on 2023",
+    "mid_top": "similar",
+    "handling": "heavier feel on 2023",
+    "break_in": "10-12 h before judging"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum - 2023 KTM 350 SX-F (page 14)",
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/2023-KTM-350-SX-F,1403858?page=14",
+    "date": "2023"
+   },
+   "confidence": "low",
+   "notes": "Owner impressions, Jan-May 2023."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "TF 250-C peak torque rpm",
+   "spread": "9,000 rpm (spec table) vs 9,250 rpm (body text) in the same Triumph release",
+   "records": [
+    "tk8-004"
+   ]
+  },
+  {
+   "topic": "TF 450-C claimed power units",
+   "spread": "62.4 PS listed alongside 61.6 HP; 62.4 PS = 61.5 hp, so likely rounding, but the release is inconsistent",
+   "records": []
+  },
+  {
+   "topic": "TF 250-E final drive",
+   "spread": "13/52 (Enduro21 C-model article) vs 13/51 for both E models (European E test)",
+   "records": [
+    "tk8-002",
+    "tk8-016"
+   ]
+  },
+  {
+   "topic": "2020 350 XC-F gearbox",
+   "spread": "6-speed (Dirt Bike press info) vs 5-speed (Ultimate Motorcycling first-look spec)",
+   "records": [
+    "tk8-024"
+   ]
+  },
+  {
+   "topic": "2020-2021 350 XC-F fork spring type",
+   "spread": "KTM press: air-spring XACT fork; K-Tech chart lists coil fork springs (43-505-4.4) for 350 XC-F 2012-2021",
+   "records": [
+    "tk8-026",
+    "tk8-039"
+   ]
+  }
+ ],
+ "not_found": [
+  {
+   "item": "Any independent test, dyno, setup or owner report for the TF 250-C",
+   "searched": "4 searches (reviews, GNCC first ride, owner/hare scramble, Dirt Bike); Kiwi Rider June 2026 test pages",
+   "result": "Only press material; Kiwi Rider test exists but its text is not available online (only teaser)."
+  },
+  {
+   "item": "Triumph spring-rate options by rider weight (fork/shock N/mm) for any TF model",
+   "searched": "spring chart searches, Teknik Motorsport category pages, Race Tech",
+   "result": "No published chart; only tester weight bands in existing records."
+  },
+  {
+   "item": "Triumph TF 450 gearbox service bulletin number and text",
+   "searched": "bulletin searches; Vital forum",
+   "result": "Known only from owner posts; no official document found."
+  },
+  {
+   "item": "Measured before/after dyno for any Triumph TF exhaust or ECU change",
+   "searched": "exhaust dyno searches",
+   "result": "Only qualitative 'small gain' reports."
+  },
+  {
+   "item": "Dyno numbers for 2020-2021 KTM 350 XC-F and 2021-2022 Husqvarna FX 350",
+   "searched": "Dirt Rider/MXA dyno searches",
+   "result": "Dirt Rider says 2022 was its first 350 XC-F dyno; 2023 FX 350 test implies prior-gen about 49.1 hp (the 2020 test already held)."
+  },
+  {
+   "item": "GasGas MC 350F 2022 electronics (stock map switch or accessory) confirmed for MY22",
+   "searched": "2022 first looks (Dirt Rider, MXA)",
+   "result": "Not stated for 2022; confirmed accessory only for 2023-2025."
+  },
+  {
+   "item": "Systematic 350 SX-F cam chain tensioner bulletin or engine failure pattern for 2023+",
+   "searched": "cam chain tensioner and engine-failure searches; Vital 2023 350 SX-F thread",
+   "result": "No bulletin; only 2019-2020 noise reports."
+  },
+  {
+   "item": "Husqvarna FC 350 2023+ drivetrain (primary/final ratios) from a source other than manuals",
+   "searched": "one spec search",
+   "result": "Not searched further per brief (manuals held by BAK)."
+  },
+  {
+   "item": "Thumpertalk TF250X reliability thread",
+   "searched": "fetch",
+   "result": "Fetch failed (site error); not bypassed."
+  }
+ ],
+ "sources": [
+  {
+   "type": "manufacturer",
+   "name": "Triumph media kit - TF 250-C and TF 450-C cross-country launch",
+   "url": "https://triumph-mediakits.com/en/news-articles/triumph-powers-into-cross-country-racing-with-new-tf-250-c-and-tf-450-c.html",
+   "date": "2025-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Enduro21 - First look: Triumph TF 250-C & TF 450-C",
+   "url": "https://enduro21.com/en/news/first-look-triumph-tf-250-c-tf-450-c-cross-country-models",
+   "date": "2025-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling - 2026 Triumph TF 450-X First Look",
+   "url": "https://ultimatemotorcycling.com/2025/12/03/2026-triumph-tf-450-x-first-look-7-fast-facts-27-photos/",
+   "date": "2025-12"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum - Triumph TF450 transmission updates (page 5)",
+   "url": "https://www.vitalmx.com/forums/moto-related/triumph-tf450-transmission-updates?page=5",
+   "date": "2025-11"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum - Possible FIX for Triumph TF transmissions",
+   "url": "https://www.vitalmx.com/forums/moto-related/possible-fix-triumph-tf-transmissions",
+   "date": "2026-04"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine - Finally! Triumph TF250X Test Bike: The Wrap",
+   "url": "https://dirtbikemagazine.com/finally-triumph-tf250x-test-bike-the-wrap/",
+   "date": "2024-07"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum - New Triumph TF250X owners thread (page 10)",
+   "url": "https://www.vitalmx.com/forums/moto-related/new-triumph-tf250x-any-new-owners-out-there-initial-thoughts?page=9",
+   "date": "2025-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Test - 20-hour test: 2025 Triumph TF450-RC",
+   "url": "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "1000PS - Triumph TF 250-E and TF 450-E review",
+   "url": "https://www.1000ps.com/en-gb/article/3012584/test-triumph-tf-250-e-a-tf-450-e-2025",
+   "date": "2025"
+  },
+  {
+   "type": "magazine",
+   "name": "MXP Magazine - 2026 Triumph TF 450 C first ride",
+   "url": "https://www.mxpmag.com/?p=74917",
+   "date": "2025-10"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum - New 2020 KTM 350sxf Loud Engine Noise",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/New-2020-KTM-350sxf-Loud-Engine-Noise,1370573",
+   "date": "2020-01 to 2024-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine - 2021 KTM cross-country line-up (press information)",
+   "url": "https://dirtbikemagazine.com/?p=62814",
+   "date": "2020-06"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Bike Magazine - 2020 KTM XC line-up (press information)",
+   "url": "https://dirtbikemagazine.com/?p=46443",
+   "date": "2019"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling - 2022 KTM Cross-Country Lineup First Look",
+   "url": "https://ultimatemotorcycling.com/2021/05/06/2022-ktm-cross-country-lineup-first-look-six-choices",
+   "date": "2021-05"
+  },
+  {
+   "type": "magazine",
+   "name": "Ultimate Motorcycling - 2020 KTM 450/350/250 XC-F First Look",
+   "url": "https://ultimatemotorcycling.com/2019/04/30/2020-ktm-450-xc-f-350-xc-f-and-250-xc-f-first-look-5-fast-facts/",
+   "date": "2019-04"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race test: 2021 Husqvarna FC350",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-husqvarna-fc350",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - First look: GasGas MC 350F",
+   "url": "https://motocrossactionmag.com/first-look-the-all-new-gasgas-mc-350f-gasgas-mc-250-two-stroke",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - 2022 GasGas Motorcycles First Look",
+   "url": "https://www.dirtrider.com/story/dirt-bikes/2022-gasgas-motorcycles-first-look",
+   "date": "2021"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race test: 2023 GasGas MC350F",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-gasgas-mc350f",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Cycle News - 2024 GasGas MC 350F review",
+   "url": "https://www.cyclenews.com/2023/09/article/2024-gasgas-mc-350f-review/",
+   "date": "2023-09"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action - Race test: 2025 GasGas MC350F",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-gasgas-mc350f",
+   "date": "2025-02"
+  },
+  {
+   "type": "tuner",
+   "name": "K-Tech KTM rider weight / spring rate chart (2021)",
+   "url": "https://www.enduro9.cz/user/documents/upload/K-tech/K-tech-2021_ktm_rider_spring_rates.pdf",
+   "date": "2021"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum - '23+ KTM SX-F Suspension Setup Tips",
+   "url": "https://www.vitalmx.com/comment/7074936",
+   "date": "2024-10"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum - 2023 KTM 350 SX-F (page 14)",
+   "url": "https://www.vitalmx.com/forums/Moto-Related,20/2023-KTM-350-SX-F,1403858?page=14",
+   "date": "2023"
+  },
+  {
+   "type": "magazine",
+   "name": "Dirt Rider - 2023 Husqvarna FX 350 dyno test",
+   "url": "https://dirtrider.com/tests/husqvarna-fx-350-dyno-test-2023",
+   "date": "2023-03"
+  }
+ ]
+}
