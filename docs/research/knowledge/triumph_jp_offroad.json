@@ -1,0 +1,1299 @@
+{
+ "slice": "Triumph TF all models (setups, springs, feel, gearing) + Japanese off-road CRF-RX / KX-X / YZ-FX / WR setups and mods 2020-2026",
+ "platform": {
+  "make": "Triumph",
+  "models": [
+   "TF 250-X",
+   "TF 450-RC Edition",
+   "TF 450-X",
+   "TF 250-C",
+   "TF 450-C",
+   "TF 250-E",
+   "TF 450-E",
+   "CRF450RX",
+   "CRF250RX",
+   "KX450X",
+   "KX250X",
+   "YZ450FX",
+   "YZ250FX",
+   "WR450F",
+   "WR250F"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "tj7-001",
+   "domain": "power_feel",
+   "topic": "450-E feel by rpm and map",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 450-E's bottom end is strong but not violent; the midrange is its standout, and sixth gear gives a high top speed. Map 1 (light off) is the standard, more aggressive map; Map 2 (light on) is noticeably smoother and suits casual trail riding, while Map 1 suits racing.",
+   "values": {
+    "claimed_peak": "57.8 hp, 35.6 lb-ft (claimed)",
+    "map_1": "standard / aggressive",
+    "map_2": "smoother, toned down"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: 2026 Triumph TF 450-E Review",
+    "url": "https://www.cyclenews.com/2025/08/article/2026-triumph-tf-450-e-review/",
+    "date": "2025-08"
+   },
+   "confidence": "medium",
+   "notes": "Rider impressions on a launch ride in deep sand; no rpm figures given. E has no Wi-Fi module as standard, so custom maps need the optional module. Traction control not used; tester suggests it for slick or muddy conditions."
+  },
+  {
+   "id": "tj7-002",
+   "domain": "drivetrain",
+   "topic": "E model final drive and gearbox",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 450-E has a six-speed wide-ratio gearbox (the MX bikes have five close ratios) and 13/51 final drive against 13/48 on the 450 MX launch bike; the taller rear sprocket helps initial pull.",
+   "values": {
+    "final_drive_450E": "13/51",
+    "final_drive_450RC": "13/48",
+    "gearbox": "6-speed wide ratio"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: 2026 Triumph TF 450-E Review",
+    "url": "https://www.cyclenews.com/2025/08/article/2026-triumph-tf-450-e-review/",
+    "date": "2025-08"
+   },
+   "confidence": "high",
+   "notes": "Sprocket counts as stated by the magazine; BAK holds the OEM manual ratios separately."
+  },
+  {
+   "id": "tj7-003",
+   "domain": "setups",
+   "topic": "450-E launch setup (sag and gearing)",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On the Australian launch a tester set the 450-E to 108 mm race sag, preferred the stock race map (clean, torquey off the bottom, strong on top) and found the stock 13/51 gearing about right with well-spaced six-speed ratios.",
+   "values": {
+    "race_sag": "108 mm",
+    "map": "stock race map",
+    "gearing": "13/51 (stock)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "ADB Magazine: Enduro launch 2026 Triumph TF 450-E",
+    "url": "https://adbmag.com.au/editorial/enduro-launch-2026-triumph-tf-450-e-2/",
+    "date": "2025-10"
+   },
+   "confidence": "medium",
+   "notes": "Tester weight not stated. Spring rates are softer than the MX bikes but no figures given. Little engine braking and quiet at low revs reported."
+  },
+  {
+   "id": "tj7-004",
+   "domain": "power_feel",
+   "topic": "E model feel and map difference",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Testers found the 250-E strongest in the midrange and able to hold each gear longer, and the 450-E very manageable in the gentler map. The softer map gives a more gradual, energy-saving delivery for singletrack; the difference between maps is noticeable but not extreme.",
+   "values": {
+    "claimed_250E": "42.3 hp, 27.8 Nm (as published)",
+    "claimed_450E": "59.3 hp, 49.3 Nm (as published)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "1000PS: Triumph TF 250-E and TF 450-E Review 2025",
+    "url": "https://www.1000ps.com/en-us/amp/articledetail/3012584",
+    "date": "2025-05"
+   },
+   "confidence": "medium",
+   "notes": "Claimed figures as printed by the magazine; they differ from Triumph figures quoted elsewhere (e.g. 57.8 hp for the 450-E). The quickshifter sometimes refused a shift under hard acceleration."
+  },
+  {
+   "id": "tj7-005",
+   "domain": "ecu_electronics",
+   "topic": "E model quickshifter under load",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The E models' quickshifter is meant for clutchless upshifts under full load, but one test found it occasionally blocked the shift during hard acceleration.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "1000PS: Triumph TF 250-E and TF 450-E Review 2025",
+    "url": "https://www.1000ps.com/en-us/amp/articledetail/3012584",
+    "date": "2025-05"
+   },
+   "confidence": "low",
+   "notes": "Single tester report; called a minor complaint."
+  },
+  {
+   "id": "tj7-006",
+   "domain": "power_feel",
+   "topic": "E model feel (Australian launch)",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On the Australian launch the 250-E was described as broad with a strong bottom end and the 450-E as linear with controllable torque. One tester preferred Map 1 (full power) on the 450-E, and traction control on a wet day worked well with little slip.",
+   "values": {
+    "claimed_250E": "32 kW (47 hp) @ 12,800 rpm; 27.8 Nm @ 8,000 rpm",
+    "claimed_450E": "42 kW (57 hp) @ 9,750 rpm; 49 Nm @ 7,000 rpm",
+    "extra_maps": "6 via MX Tune app with optional Wi-Fi module (AUD 370)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Bike Review (AU): Triumph TF 250-E and TF 450-E enduro launch",
+    "url": "https://bikereview.com.au/bike-review-triumph-tf-250-e-and-tf-450-e-enduro-launch/",
+    "date": "2025-07"
+   },
+   "confidence": "medium",
+   "notes": "Australian-spec figures as quoted by the magazine."
+  },
+  {
+   "id": "tj7-007",
+   "domain": "drivetrain",
+   "topic": "E model final drive (Australian launch spec)",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Australian launch spec lists 13/48 final drive for the 250-E and 13/51 for the 450-E.",
+   "values": {
+    "final_drive_250E": "13/48",
+    "final_drive_450E": "13/51"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Bike Review (AU): Triumph TF 250-E and TF 450-E enduro launch",
+    "url": "https://bikereview.com.au/bike-review-triumph-tf-250-e-and-tf-450-e-enduro-launch/",
+    "date": "2025-07"
+   },
+   "confidence": "low",
+   "notes": "Conflicts with another test that says both E models run 13/51; the same article also lists the 250-E as five-speed while saying six-speed in its text, so treat as uncertain."
+  },
+  {
+   "id": "tj7-008",
+   "domain": "drivetrain",
+   "topic": "E model final drive (European test)",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-E",
+     "TF 450-E"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "A European test says both E models use a six-speed gearbox and 13/51 final drive, shorter than the MX models.",
+   "values": {
+    "final_drive_250E": "13/51",
+    "final_drive_450E": "13/51"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "1000PS: Triumph TF 250-E and TF 450-E Review 2025",
+    "url": "https://www.1000ps.com/en-us/amp/articledetail/3012584",
+    "date": "2025-05"
+   },
+   "confidence": "medium",
+   "notes": "See conflicts: 250-E rear sprocket reported as 48 or 51."
+  },
+  {
+   "id": "tj7-009",
+   "domain": "setups",
+   "topic": "450-C first-ride setup (sag, TC off)",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 450-C"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On a Canadian first ride a tester ran the TF 450-C at 108 mm race sag with stock clickers and the stock map; he switched traction control off because it made throttle response feel flat. The bike did not stall at low rpm in tight trails, unlike most 450s.",
+   "values": {
+    "race_sag": "108 mm",
+    "clickers": "stock",
+    "map": "stock",
+    "traction_control": "off"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Performance Magazine: First Ride 2026 Triumph TF 450 C",
+    "url": "https://www.mxpmag.com/?p=74917",
+    "date": "2025-10"
+   },
+   "confidence": "medium",
+   "notes": "Described as a TF 450-X with softer suspension and an 18-inch rear tyre; quickshifter works on upshifts 2nd to 5th. No spring rates given. Compare: other testers ran 102 mm sag in tight woods."
+  },
+  {
+   "id": "tj7-010",
+   "domain": "setups",
+   "topic": "250-X gearing for motocross",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "One test team's 2025 gearing guide runs the TF 250-X one tooth shorter than stock (13/49 instead of 13/48); the extra tooth helped third-gear recovery on an engine with a smooth roll-on.",
+   "values": {
+    "stock": "13/48",
+    "recommended": "13/49"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested: 2025 MX Gearing Guide",
+    "url": "https://www.keeferinctesting.com/?p=28319",
+    "date": "2024-10"
+   },
+   "confidence": "medium",
+   "notes": "Motocross tracks (tight clay, sandy, East Coast loam). Stock engine or aftermarket muffler only."
+  },
+  {
+   "id": "tj7-011",
+   "domain": "setups",
+   "topic": "KX450X GP/desert race springs and valving",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450X"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A West Coast GP race build stiffened the 2023 KX450X one step at each end (fork 0.49 to 0.50 kg/mm, shock 5.3 to 5.4 kg/mm) with stiffer valving, run at 103-105 mm race sag with an aftermarket linkage arm, to hold up in big braking bumps and whoops.",
+   "values": {
+    "fork_spring": "0.49 -> 0.50 kg/mm",
+    "shock_spring": "5.3 -> 5.4 kg/mm",
+    "race_sag": "103-105 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: Tuned 2023 Kawasaki KX450X project bike build",
+    "url": "https://dirtbiketest.com/fresh-dirt/tuned-2023-kawasaki-kx450x-project-bike-build/",
+    "date": "2023-07"
+   },
+   "confidence": "medium",
+   "notes": "Rider weights not given (big and small high-level testers). Valving by a suspension shop, no shim detail. Linkage arm said to improve traction on acceleration bumps."
+  },
+  {
+   "id": "tj7-012",
+   "domain": "setups",
+   "topic": "KX450X gearing per discipline",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450X"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "For the 2023 KX450X one test team chose 13/50 as the best all-round GP gearing, 13/47 for open desert (more top speed while still pulling technical bits) and 13/51 or 13/52 for mountain riding for more low-end grunt.",
+   "values": {
+    "gp": "13/50",
+    "desert": "13/47",
+    "mountains": "13/51-13/52"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: Tuned 2023 Kawasaki KX450X project bike build",
+    "url": "https://dirtbiketest.com/fresh-dirt/tuned-2023-kawasaki-kx450x-project-bike-build/",
+    "date": "2023-07"
+   },
+   "confidence": "medium",
+   "notes": "13/50 described as one tooth smaller in the rear than stock X gearing."
+  },
+  {
+   "id": "tj7-013",
+   "domain": "engine_mods",
+   "topic": "KX450X ECU reflash and exhaust",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450X"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On the 2023 KX450X, a stock-ECU reflash smoothed the first crack of throttle and made power more progressive and broader; an aftermarket exhaust had a similar smoothing and broadening effect, and the two together were called a fast combination.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: Tuned 2023 Kawasaki KX450X project bike build",
+    "url": "https://dirtbiketest.com/fresh-dirt/tuned-2023-kawasaki-kx450x-project-bike-build/",
+    "date": "2023-07"
+   },
+   "confidence": "medium",
+   "notes": "No dyno numbers published. 2021-2023 engine generation."
+  },
+  {
+   "id": "tj7-014",
+   "domain": "engine_mods",
+   "topic": "KX450X 10 oz flywheel weight",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450X"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A 10 oz (about 283 g) bolt-on flywheel weight on a 2023 KX450X made revs build more slowly, the bike feel more planted and easier to accelerate without breaking traction, and less likely to stall, while still hitting hard; testers called the change subtle.",
+   "values": {
+    "added_mass": "10 oz (~283 g)",
+    "price": "$159.95"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: Steahly flywheel weight for KX450X",
+    "url": "https://dirtbiketest.com/product-tests/steahly-flywheel-weight-kx450x/",
+    "date": "2023-12"
+   },
+   "confidence": "medium",
+   "notes": "Tested off-road and on track; about 20 minutes to install. No rpm-specific data."
+  },
+  {
+   "id": "tj7-015",
+   "domain": "engine_mods",
+   "topic": "YZ450FX 50 g flywheel weight",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Yamaha's 50 g (1.8 oz) flywheel weight adds about 15% flywheel inertia to the YZ450FX. Testers felt throttle jolts smooth out off idle and at low speed and less stall risk in tight terrain, but revs build more slowly, so with 14/52 gearing faster riders found third gear harder to pull out of corners.",
+   "values": {
+    "added_mass": "50 g (1.8 oz)",
+    "inertia_increase": "~15% (claimed)",
+    "price": "$254.99"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: GYTR flywheel weight for YZ450FX",
+    "url": "https://dirtbiketest.com/product-tests/gytr-flywheel-weight-for-yz450fx/",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Tested on a 2026 YZ450FX; part listed for YZ450F/FX. Needs a 24 mm internally threaded flywheel puller. Less suited to fast riders in sand."
+  },
+  {
+   "id": "tj7-016",
+   "domain": "power_feel",
+   "topic": "2025 KX250X feel",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250X"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 KX250X engine puts more emphasis on low and midrange torque than the previous high-revving generation, which made technical off-road riding easier.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: First Impression 2025 Kawasaki KX250X",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2025-kawasaki-kx250x/",
+    "date": "2024-10"
+   },
+   "confidence": "medium",
+   "notes": "Hare and hound terrain and woods loop; no rpm figures."
+  },
+  {
+   "id": "tj7-017",
+   "domain": "setups",
+   "topic": "2025 KX250X fork changes and sag",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250X"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 KX250X Showa suspension is lighter sprung and valved than the KX250 MX bike: supple in the woods, but on a fast grass track the fork dove deep on braking and felt harsh, fixed by adding a few clicks of fork compression and speeding rebound one click, at 105 mm race sag. Stock first gear is tall for technical terrain.",
+   "values": {
+    "race_sag": "105 mm",
+    "fork_compression": "+ a few clicks",
+    "fork_rebound": "1 click faster"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: First Impression 2025 Kawasaki KX250X",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2025-kawasaki-kx250x/",
+    "date": "2024-10"
+   },
+   "confidence": "medium",
+   "notes": "Exact click counts and tester weight not given."
+  },
+  {
+   "id": "tj7-018",
+   "domain": "power_feel",
+   "topic": "2023 KX250X feel and couplers",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250X"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 KX250X pulls from just above idle to over 12,000 rpm with a progressive build and flat torque curve, but it needs revs to lift the front wheel and can stall pulling away cold with no throttle. Testers used the Soft coupler throughout; first gear was raised, which meant more clutch slipping on technical trails.",
+   "values": {
+    "rev_range": "just above idle to 12,000+ rpm",
+    "coupler_used": "Soft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling: 2023 Kawasaki KX250X review",
+    "url": "https://ultimatemotorcycling.com/2023/01/23/2023-kawasaki-kx250x-review-16-trail-tested-fast-facts/",
+    "date": "2023-01"
+   },
+   "confidence": "medium",
+   "notes": "Three couplers (Standard, Hard, Soft); custom maps need the KX FI Calibration Kit (quoted $775). Suspension plush; fork bottomed only on brutal downhills."
+  },
+  {
+   "id": "tj7-019",
+   "domain": "setups",
+   "topic": "2024 KX250X hare-and-hound build",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250X"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "For desert hare and hound racing, one build on a 2024 KX250X fitted the 2023 KX450X's Showa suspension and ran about 106 mm sag with the fork flush and axle further back. Gearing went from stock 13/50 to 14/48 (too tall, hard on the clutch in rocks) and settled on 14/50; an ECU remap improved power everywhere but low-end torque was still lacking.",
+   "values": {
+    "race_sag": "~106 mm",
+    "fork_height": "flush",
+    "gearing": "13/50 stock -> 14/48 -> 14/50"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: 2024 Kawasaki KX250X off-road build stage 1",
+    "url": "https://dirtbiketest.com/fresh-dirt/2024-kawasaki-kx250x-off-road-build-stage-1/",
+    "date": "2024-02"
+   },
+   "confidence": "medium",
+   "notes": "Swapped suspension never used the last 2-3 inches of travel and struggled in slow rocks. 80-mile hare and hound plus 40-mile technical loop."
+  },
+  {
+   "id": "tj7-020",
+   "domain": "power_feel",
+   "topic": "2025 KX450X feel and maps",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450X"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 KX450X has good low-rpm torque without a hard hit, builds through the midrange and keeps pulling into the top end, which testers likened to a 350. App Map 2 is about 10-15% tamer than Map 1.",
+   "values": {
+    "map2_vs_map1": "~10-15% tamer"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: 2025 Kawasaki KX450X test",
+    "url": "https://dirtbiketest.com/bike-tests/2025-kawasaki-kx450x",
+    "date": "2025-04"
+   },
+   "confidence": "medium",
+   "notes": "Compared with the previous-generation engine's harder low-rpm hit."
+  },
+  {
+   "id": "tj7-021",
+   "domain": "ecu_electronics",
+   "topic": "KX450X mode and TC switching",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450X"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On the 2025 KX450X, power mode and traction control changes need the engine idling and the button held for close to three seconds, so they are not on-the-fly. Traction control level 1 trims throttle response slightly; level 2 is quite noticeable.",
+   "values": {
+    "switch_hold": "~3 s at idle",
+    "tc_level_1": "light",
+    "tc_level_2": "quite noticeable"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: 2025 Kawasaki KX450X test",
+    "url": "https://dirtbiketest.com/bike-tests/2025-kawasaki-kx450x",
+    "date": "2025-04"
+   },
+   "confidence": "medium",
+   "notes": "A stock-ECU remap by an aftermarket tuner gave large gains (no numbers published)."
+  },
+  {
+   "id": "tj7-022",
+   "domain": "setups",
+   "topic": "2025 KX450X off-road chassis setup",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450X"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Stock KX450X suspension is soft for West Coast off-road: the fork rides low and pitches on braking for fast or heavy riders, and the shock wallows and bottoms softly in big braking bumps and whoops. Testers ran 105-108 mm sag, fork flush in the clamps, and a shorter shock shaft or lowering link so less preload gives the same ride height.",
+   "values": {
+    "race_sag": "105-108 mm",
+    "fork_height": "flush"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: 2025 Kawasaki KX450X test",
+    "url": "https://dirtbiketest.com/bike-tests/2025-kawasaki-kx450x",
+    "date": "2025-04"
+   },
+   "confidence": "medium",
+   "notes": "Applies to stock and revalved suspension. Tester weights not given."
+  },
+  {
+   "id": "tj7-023",
+   "domain": "setups",
+   "topic": "2025 KX450X gearing per discipline",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450X"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "With a 13-tooth front, one test team runs the 2025 KX450X at 13/47-13/48 for desert, 13/50 for GP and motocross (best all-round), and 13/51-13/52 for mountains and trees. Stock first gear is sometimes too tall for tight terrain and fifth too short for desert.",
+   "values": {
+    "desert": "13/47-13/48",
+    "gp_mx": "13/50",
+    "mountains_trees": "13/51-13/52"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: 2025 Kawasaki KX450X test",
+    "url": "https://dirtbiketest.com/bike-tests/2025-kawasaki-kx450x",
+    "date": "2025-04"
+   },
+   "confidence": "medium",
+   "notes": "Same team's 2023 choices were 13/47, 13/50 and 13/51-52."
+  },
+  {
+   "id": "tj7-024",
+   "domain": "known_issues",
+   "topic": "KX450X clutch plate failure in sand racing",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450X"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "One test KX450X broke a clutch plate at 27 hours after several hard sand races; the testers recommend replacing plates and fibres every 10-20 hours under racing, changing oil every 5-6 hours, and suggest aftermarket plates.",
+   "values": {
+    "failure_hours": "27 h",
+    "plate_interval": "10-20 h",
+    "oil_interval": "5-6 h"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: 2025 Kawasaki KX450X test",
+    "url": "https://dirtbiketest.com/bike-tests/2025-kawasaki-kx450x",
+    "date": "2025-04"
+   },
+   "confidence": "low",
+   "notes": "Single test bike under abusive 2-hour sand races; Kawasaki recommends non-synthetic oil."
+  },
+  {
+   "id": "tj7-025",
+   "domain": "setups",
+   "topic": "2024 KX450X fork changes and map",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450X"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 KX450X has a noticeably softer bottom end and revs longer on top like a 250F; stock it handles quickly but lacks a little high-speed stability and the front twitches under hard braking, so the tester stiffened the fork and added a couple of rebound clicks to hold it higher. An app map built with more low-end response kept the top-end revs.",
+   "values": {
+    "fork_rebound": "+2 clicks (slower)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2024 Kawasaki KX450X full review",
+    "url": "https://dirtbikemagazine.com/2024-kawasaki-kx450x-full-review/",
+    "date": "2024-06"
+   },
+   "confidence": "medium",
+   "notes": "Map values not published. Bike runs hot in tight technical trails."
+  },
+  {
+   "id": "tj7-026",
+   "domain": "setups",
+   "topic": "YZ450FX desert/GP build springs and gearing",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "A desert and GP race build on a 2022 YZ450FX fitted stiffer 0.48-0.50 kg/mm fork springs and a stiffer shock spring with minor valving changes for better bump absorption and bottoming resistance, and changed gearing from 13/50 to 14/52, which settled the chassis under acceleration and made second gear usable in corners.",
+   "values": {
+    "fork_spring": "0.48-0.50 kg/mm",
+    "gearing": "13/50 -> 14/52"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: Tuned 2022 Yamaha YZ450FX bike build phase 1",
+    "url": "https://dirtbiketest.com/fresh-dirt/tuned-2022-yamaha-yz450fx-bike-build-phase-1/",
+    "date": "2022-08"
+   },
+   "confidence": "medium",
+   "notes": "Shock rate not given. A plug-in WR450F stator (~100 W) was fitted to power lights; the FX stator has little spare output."
+  },
+  {
+   "id": "tj7-027",
+   "domain": "setups",
+   "topic": "2024 YZ450FX woods setup (200 lb rider)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A 200 lb tester in tight, muddy South Carolina woods ran the 2024 YZ450FX at 104 mm sag, used the mellow map further detuned in the app with traction control added, and slowed fork rebound to calm a soft, sometimes harsh fork; he felt the stock springs were slightly light for his weight.",
+   "values": {
+    "rider_weight": "200 lb",
+    "race_sag": "104 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: 2024 Yamaha YZ450FX off-road racer first impression",
+    "url": "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz450fx-off-road-racer-first-impression/",
+    "date": "2024-02"
+   },
+   "confidence": "medium",
+   "notes": "Compared with the YZ450F, first gear is very low, second slightly lower and fifth taller. Suspension internally lowered (10 mm less stroke)."
+  },
+  {
+   "id": "tj7-028",
+   "domain": "setups",
+   "topic": "2026 YZ450FX high-desert first ride",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450FX"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "On a 2026 YZ450FX in Southern California high desert, the stock engine felt aggressive, and a tuned app map gave smooth, broad delivery with easier throttle control; the KYB suspension felt stiff and race-oriented and the tester slowed rebound for a more planted feel. Fork and shock compression clickers can be adjusted by hand.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: First Impression 2026 Yamaha YZ450FX",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2026-yamaha-yz450fx/",
+    "date": "2026-03"
+   },
+   "confidence": "medium",
+   "notes": "Map values, sag and tester weight not given."
+  },
+  {
+   "id": "tj7-029",
+   "domain": "power_feel",
+   "topic": "2023 CRF450RX feel and stalling",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 CRF450RX pulls strongly and controllably from low to mid with a more linear delivery than before, is slightly short on top end, and its light flywheel makes it prone to stalling as speed drops.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: 2023 Honda CRF450RX review",
+    "url": "https://dirtbiketest.com/bike-tests/2023-honda-crf450rx/",
+    "date": "2023-08"
+   },
+   "confidence": "medium",
+   "notes": "Maps make a clear difference but are hard to change on the fly."
+  },
+  {
+   "id": "tj7-030",
+   "domain": "setups",
+   "topic": "2023 CRF450RX chassis and gearing setup",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450RX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On the 2023 CRF450RX, stock fork height (5 mm up) caused oversteer, so testers ran the fork flush, 105-108 mm sag, and a shock shaft a couple of mm shorter (or longer link arm) to cure a rear-high feel. Gearing went from 13/50 to 14/52 for a smoother curve, better over-rev and fewer shifts; the five-speed still runs out of gear early.",
+   "values": {
+    "fork_height": "flush (stock 5 mm up)",
+    "race_sag": "105-108 mm",
+    "gearing": "13/50 -> 14/52"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: 2023 Honda CRF450RX review",
+    "url": "https://dirtbiketest.com/bike-tests/2023-honda-crf450rx/",
+    "date": "2023-08"
+   },
+   "confidence": "medium",
+   "notes": "Suspension among the stiffest stock 450 off-road bikes; small clicker changes have large effects. Testers suggest stiffer springs to hold it higher but give no rates."
+  },
+  {
+   "id": "tj7-031",
+   "domain": "power_feel",
+   "topic": "2025 CRF450RX and CRF250RX low-speed feel",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450RX",
+     "CRF250RX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 CRF450RX still hits like a motocross bike low in the revs even in its softest map; around 12 mph first gear is too abrupt and second can feel close to stalling, so it is best in open terrain. The CRF250RX has more low-end than other 250s and its off-road map smooths the step into the stronger part of the curve, suiting tight trails.",
+   "values": {
+    "rear_sprocket_450RX": "50T (49T on CRF450R)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: Riding the 2025 Honda CRF450RX and CRF250RX, the wrap",
+    "url": "https://dirtbikemagazine.com/riding-the-2025-honda-crf450rx-crf250rx-the-wrap/",
+    "date": "2025-01"
+   },
+   "confidence": "medium",
+   "notes": "Tested on tight trials-facility trails kept mostly under 24 mph."
+  },
+  {
+   "id": "tj7-032",
+   "domain": "setups",
+   "topic": "2025 CRF250RX trail and track setup",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF250RX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Starting from Honda's CRF250RX settings (fork compression 10, rebound 14, 5 mm up; shock high-speed 2 1/3 turns, low-speed 10, rebound 15, 105 mm sag), one tester ended on fork compression 11 and rebound 13 out, shock high-speed 2 2/3 turns out, and 104 mm sag after about 6 hours.",
+   "values": {
+    "stock_fork": "C10 R14, 5 mm",
+    "stock_shock": "HS 2 1/3, LS 10, R15, 105 mm sag",
+    "final_fork": "C11 R13",
+    "final_shock": "HS 2 2/3",
+    "final_sag": "104 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested: 2025 Honda CRF250RX weekend warrior review",
+    "url": "https://www.keeferinctesting.com/?p=28995",
+    "date": "2025-06"
+   },
+   "confidence": "medium",
+   "notes": "Bike arrived at 6 mm fork height and 102 mm sag. Suspension felt tuned more for GNCC than aggressive MX. Tester weight not stated."
+  },
+  {
+   "id": "tj7-033",
+   "domain": "ecu_electronics",
+   "topic": "2025 CRF250RX three maps in use",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF250RX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On the 2025 CRF250RX, Map 1 (stock) is like Map 3 but softer everywhere with less over-rev and suited fast singletrack; Map 2 is a linear, easy roll-on for tight, slow trails or newer riders; Map 3 is aggressive and revs quickly with good over-rev, though it could use more punch out of corners.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested: 2025 Honda CRF250RX weekend warrior review",
+    "url": "https://www.keeferinctesting.com/?p=28995",
+    "date": "2025-06"
+   },
+   "confidence": "medium",
+   "notes": "Map 3 used on track."
+  },
+  {
+   "id": "tj7-034",
+   "domain": "chassis",
+   "topic": "CRF250RX triple-clamp bolt torque reduction",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF250RX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Lowering the 2025 CRF250RX triple-clamp pinch bolts from 16/15 lb-ft to 12/10 lb-ft cut the rigidity felt in the hands, softened flat landings and improved front-wheel compliance.",
+   "values": {
+    "stock": "16 / 15 lb-ft",
+    "reduced": "12 / 10 lb-ft (16 / 13.5 Nm)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Tested: 2025 Honda CRF250RX weekend warrior review",
+    "url": "https://www.keeferinctesting.com/?p=28995",
+    "date": "2025-06"
+   },
+   "confidence": "low",
+   "notes": "Tester modification below the manual spec; use at own risk. Engine mount bolts also reduced, values not published."
+  },
+  {
+   "id": "tj7-035",
+   "domain": "suspension",
+   "topic": "2020 YZ250FX desert/GP revalve",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250FX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "A desert and GP revalve on a 2020 YZ250FX used stiffer springs front and rear, plusher initial valving with more hold-up, and fork oil raised from 295 cc stock to about 320 cc and then 365 cc, giving less wallow, better bottoming resistance and more hold in corners.",
+   "values": {
+    "fork_oil": "295 cc stock -> ~320 cc -> 365 cc"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Dirt Bike Test: suspension revalve for 2020 YZ250FX (product test)",
+    "url": "https://dirtbiketest.com/product-tests/precision-concepts-suspension-revalve-for-yz250fx/",
+    "date": "2021-09"
+   },
+   "confidence": "medium",
+   "notes": "Spring rates and rider weight not published. Lake Havasu GP and WORCS racing."
+  },
+  {
+   "id": "tj7-036",
+   "domain": "setups",
+   "topic": "2025 WR250F recommended race sag",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "One Australian setup guide recommends a 95-100 mm race sag on the 2025 WR250F, smaller than usual, to balance the chassis; the stock fork works for average riders but feels harsh through the arms over chop for faster riders.",
+   "values": {
+    "race_sag": "95-100 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Transmoto: 2025 WR250F suspension set-up tips",
+    "url": "https://transmoto.com.au/2025-wr250f-suspension-set-up-tips/",
+    "date": "2025-09"
+   },
+   "confidence": "medium",
+   "notes": "Remaining settings are in the source's video and were not extracted."
+  },
+  {
+   "id": "tj7-037",
+   "domain": "setups",
+   "topic": "2025 WR250F stock setup for a 90 kg rider",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "A 90 kg tester rode the 2025 WR250F on grass track, enduro loop and trails without changing compression, rebound or sag and rated the KYB suspension a standout; he found the six-speed gearing right from tight singletrack to fire roads, the engine smooth to a high rev limit, and it was a little easy to stall at first.",
+   "values": {
+    "rider_weight": "90 kg",
+    "changes": "none"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "AMCN: Dirt test 2025 Yamaha WR250F",
+    "url": "https://amcn.com.au/editorial/dirt-test-2025-yamaha-wr250f/",
+    "date": "2025-03"
+   },
+   "confidence": "medium",
+   "notes": "Australian model."
+  },
+  {
+   "id": "tj7-038",
+   "domain": "suspension",
+   "topic": "2025 WR250F suspension in technical terrain",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "In steep, rocky Idaho singletrack the 2025 WR250F's KYB suspension was firm and precise at speed but a bit stiff for slow technical trails; the hand-adjustable fork compression knob was used for trailside tweaks.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Upshift: 2025 Yamaha WR250F tested in Idaho's high country",
+    "url": "https://upshiftonline.com/blogs/content/2025-yamaha-wr250f-tested-in-idahos-high-country",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "No settings published; date inferred from the page."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "TF 250-E final drive",
+   "models": [
+    "TF 250-E"
+   ],
+   "years": [
+    2026
+   ],
+   "spread": "13/48 (Australian launch spec) vs 13/51 (European test)",
+   "records": [
+    "tj7-007",
+    "tj7-008"
+   ],
+   "notes": "The 13/48 source also contradicts itself on 5 vs 6 speeds; check the owner's manual."
+  },
+  {
+   "topic": "TF 450-C / 450-E launch race sag",
+   "models": [
+    "TF 450-C",
+    "TF 450-E"
+   ],
+   "years": [
+    2026
+   ],
+   "spread": "102 mm (woods testers, existing records) vs 108 mm (launch testers here) vs 105 mm standard",
+   "records": [
+    "tj7-003",
+    "tj7-009"
+   ],
+   "notes": "Different terrain and rider weights; not averaged."
+  },
+  {
+   "topic": "KX450X GP gearing vs stock",
+   "models": [
+    "KX450X"
+   ],
+   "years": [
+    2023,
+    2025
+   ],
+   "spread": "Testers settle on 13/50 for GP, 13/47-48 desert, 13/51-52 mountains",
+   "records": [
+    "tj7-012",
+    "tj7-023"
+   ],
+   "notes": "Consistent across two model years from the same test team."
+  }
+ ],
+ "not_found": [
+  {
+   "item": "Triumph OEM fork/shock spring options chart by rider weight for TF 450 and C/E models",
+   "searched": "Triumph TF 450 spring rate rider weight, KYB spring options, accessory catalogue",
+   "result": "Only the TF 250-X 4.5-4.9 N/mm options (existing record) and owner-reported 0.52-0.54 kg/mm swaps found."
+  },
+  {
+   "item": "TF 250-E / TF 450-E / TF 250-C / TF 450-C stock spring rates and clicker baselines",
+   "searched": "launch reviews (Cycle News, ADB, Bike Review, 1000PS, MXP, Kiwi Rider)",
+   "result": "All say 'softer enduro/XC springs' with no numbers. Kiwi Rider TF 250-C race test is behind a page viewer with no text."
+  },
+  {
+   "item": "TF 250-C ride impressions",
+   "searched": "TF 250-C review 2026",
+   "result": "Only a Kiwi Rider teaser (raced straight from the crate in a NZ enduro); no text available."
+  },
+  {
+   "item": "TF C/E gearing per discipline",
+   "searched": "450-C/250-C gearing reviews",
+   "result": "No tester changed C gearing; E stock 13/51 judged right."
+  },
+  {
+   "item": "Spring-rate-by-weight charts for CRF450RX, CRF250RX, KX450X, KX250X, YZ450FX, YZ250FX, WR450F, WR250F (2020-2026)",
+   "searched": "tuner spring charts, magazine setup sheets",
+   "result": "No published chart found; only individual tester spring swaps (recorded)."
+  },
+  {
+   "item": "Off-road clicker baselines for GNCC / enduro on Japanese off-road models",
+   "searched": "Keefer off-road baselines, MXA race test setup specs for RX/X/FX/WR",
+   "result": "Keefer publishes MX baselines only; MXA RX/X/FX race-test pages not returned by search this round."
+  },
+  {
+   "item": "CRF450RX / CRF250RX / WR450F / WR250F flywheel weight tests",
+   "searched": "flywheel weight test CRF450RX, WR250F GYTR flywheel",
+   "result": "Product listings only; tests found for KX450X and YZ450FX."
+  },
+  {
+   "item": "Rekluse / auto-clutch tests on 2020-2026 Japanese off-road models",
+   "searched": "Rekluse YZ450FX WR450F KX450X test",
+   "result": "Only old generic Rekluse reviews."
+  },
+  {
+   "item": "2024+ WR450F enduro setup and settings",
+   "searched": "WR450F 2024 2025 test sag clickers",
+   "result": "Australian test gives no settings; most setup articles found were for the 2016 model (out of scope)."
+  },
+  {
+   "item": "Dirt Rider 2025 CRF450RX first ride body",
+   "searched": "fetched page",
+   "result": "Body text not served to the fetcher; only metadata."
+  }
+ ],
+ "sources": [
+  {
+   "name": "1000PS: Triumph TF 250-E and TF 450-E Review 2025",
+   "url": "https://www.1000ps.com/en-us/amp/articledetail/3012584"
+  },
+  {
+   "name": "ADB Magazine: Enduro launch 2026 Triumph TF 450-E",
+   "url": "https://adbmag.com.au/editorial/enduro-launch-2026-triumph-tf-450-e-2/"
+  },
+  {
+   "name": "AMCN: Dirt test 2025 Yamaha WR250F",
+   "url": "https://amcn.com.au/editorial/dirt-test-2025-yamaha-wr250f/"
+  },
+  {
+   "name": "Bike Review (AU): Triumph TF 250-E and TF 450-E enduro launch",
+   "url": "https://bikereview.com.au/bike-review-triumph-tf-250-e-and-tf-450-e-enduro-launch/"
+  },
+  {
+   "name": "Cycle News: 2026 Triumph TF 450-E Review",
+   "url": "https://www.cyclenews.com/2025/08/article/2026-triumph-tf-450-e-review/"
+  },
+  {
+   "name": "Dirt Bike Magazine: 2024 Kawasaki KX450X full review",
+   "url": "https://dirtbikemagazine.com/2024-kawasaki-kx450x-full-review/"
+  },
+  {
+   "name": "Dirt Bike Magazine: Riding the 2025 Honda CRF450RX and CRF250RX, the wrap",
+   "url": "https://dirtbikemagazine.com/riding-the-2025-honda-crf450rx-crf250rx-the-wrap/"
+  },
+  {
+   "name": "Dirt Bike Test: 2023 Honda CRF450RX review",
+   "url": "https://dirtbiketest.com/bike-tests/2023-honda-crf450rx/"
+  },
+  {
+   "name": "Dirt Bike Test: 2024 Kawasaki KX250X off-road build stage 1",
+   "url": "https://dirtbiketest.com/fresh-dirt/2024-kawasaki-kx250x-off-road-build-stage-1/"
+  },
+  {
+   "name": "Dirt Bike Test: 2024 Yamaha YZ450FX off-road racer first impression",
+   "url": "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz450fx-off-road-racer-first-impression/"
+  },
+  {
+   "name": "Dirt Bike Test: 2025 Kawasaki KX450X test",
+   "url": "https://dirtbiketest.com/bike-tests/2025-kawasaki-kx450x"
+  },
+  {
+   "name": "Dirt Bike Test: First Impression 2025 Kawasaki KX250X",
+   "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2025-kawasaki-kx250x/"
+  },
+  {
+   "name": "Dirt Bike Test: First Impression 2026 Yamaha YZ450FX",
+   "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2026-yamaha-yz450fx/"
+  },
+  {
+   "name": "Dirt Bike Test: GYTR flywheel weight for YZ450FX",
+   "url": "https://dirtbiketest.com/product-tests/gytr-flywheel-weight-for-yz450fx/"
+  },
+  {
+   "name": "Dirt Bike Test: Steahly flywheel weight for KX450X",
+   "url": "https://dirtbiketest.com/product-tests/steahly-flywheel-weight-kx450x/"
+  },
+  {
+   "name": "Dirt Bike Test: Tuned 2022 Yamaha YZ450FX bike build phase 1",
+   "url": "https://dirtbiketest.com/fresh-dirt/tuned-2022-yamaha-yz450fx-bike-build-phase-1/"
+  },
+  {
+   "name": "Dirt Bike Test: Tuned 2023 Kawasaki KX450X project bike build",
+   "url": "https://dirtbiketest.com/fresh-dirt/tuned-2023-kawasaki-kx450x-project-bike-build/"
+  },
+  {
+   "name": "Dirt Bike Test: suspension revalve for 2020 YZ250FX (product test)",
+   "url": "https://dirtbiketest.com/product-tests/precision-concepts-suspension-revalve-for-yz250fx/"
+  },
+  {
+   "name": "Keefer Inc. Tested: 2025 Honda CRF250RX weekend warrior review",
+   "url": "https://www.keeferinctesting.com/?p=28995"
+  },
+  {
+   "name": "Keefer Inc. Tested: 2025 MX Gearing Guide",
+   "url": "https://www.keeferinctesting.com/?p=28319"
+  },
+  {
+   "name": "MotoOnline: Tested 2024 Yamaha WR450F",
+   "url": "https://motoonline.com.au/?p=187247"
+  },
+  {
+   "name": "Motocross Performance Magazine: First Ride 2026 Triumph TF 450 C",
+   "url": "https://www.mxpmag.com/?p=74917"
+  },
+  {
+   "name": "Transmoto: 2025 WR250F suspension set-up tips",
+   "url": "https://transmoto.com.au/2025-wr250f-suspension-set-up-tips/"
+  },
+  {
+   "name": "Ultimate Motorcycling: 2023 Kawasaki KX250X review",
+   "url": "https://ultimatemotorcycling.com/2023/01/23/2023-kawasaki-kx250x-review-16-trail-tested-fast-facts/"
+  },
+  {
+   "name": "Upshift: 2025 Yamaha WR250F tested in Idaho's high country",
+   "url": "https://upshiftonline.com/blogs/content/2025-yamaha-wr250f-tested-in-idahos-high-country"
+  }
+ ]
+}

@@ -1,0 +1,1957 @@
+{
+ "slice": "KTM-family two-stroke and off-road suspension and setups by rider weight and discipline, 2020-2026 (SX/TC/MC 85-300; XC/TX/EX; XC-W/TE/EC; flywheel weights incl. XC-F/FX/EX)",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "125 SX",
+   "125 XC",
+   "150 SX",
+   "150 XC-W",
+   "250 SX",
+   "250 XC",
+   "250 XC-F",
+   "250 XC-W",
+   "300 SX",
+   "300 XC",
+   "300 XC-W",
+   "350 XC-F",
+   "450 XC-F",
+   "85 SX 17/14",
+   "85 SX 19/16",
+   "GasGas EC 250",
+   "GasGas EC 300",
+   "GasGas EX 250",
+   "GasGas EX 250F",
+   "GasGas EX 300",
+   "GasGas EX 350F",
+   "GasGas EX 450F",
+   "GasGas MC 125",
+   "GasGas MC 250",
+   "Husqvarna FE 450",
+   "Husqvarna FX 350",
+   "Husqvarna FX 450",
+   "Husqvarna TC 125",
+   "Husqvarna TC 250",
+   "Husqvarna TC 300",
+   "Husqvarna TE 150",
+   "Husqvarna TE 250",
+   "Husqvarna TE 300",
+   "Husqvarna TX 300"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "ko7-001",
+   "domain": "suspension",
+   "topic": "85 SX fork air pressure standard and range",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM sets the 85 SX air fork at 5.0 bar (73 psi) as standard, adjusted in 0.2 bar (3 psi) steps, and never below 4.0 bar (58 psi) or above 8.0 bar (116 psi).",
+   "values": {
+    "standard": "5.0 bar (73 psi)",
+    "step": "0.2 bar (3 psi)",
+    "min": "4.0 bar (58 psi)",
+    "max": "8.0 bar (116 psi)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 85 SX (art. no. 3214636en)",
+    "url": "https://www.ktmshop.se/bike-manuals/23_3214636_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "From the 2023 manual. For 2025-2026 KTM cut the standard to 4.8 bar (see ko2-106). Earlier years with the same 43 mm XACT air fork likely share the range but were not checked."
+  },
+  {
+   "id": "ko7-002",
+   "domain": "setups",
+   "topic": "85 SX shock spring by rider weight (OEM)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's chart for the 85 SX shock spring: riders under 45 kg (99 lb) use 35 N/mm, 45-55 kg (99-121 lb) use the standard 40 N/mm, and riders over 55 kg (121 lb) use 45 N/mm.",
+   "values": {
+    "under_45kg": "35 N/mm",
+    "45_55kg": "40 N/mm (standard)",
+    "over_55kg": "45 N/mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 85 SX (art. no. 3214636en)",
+    "url": "https://www.ktmshop.se/bike-manuals/23_3214636_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Manual does not say whether rider weight includes riding gear."
+  },
+  {
+   "id": "ko7-003",
+   "domain": "setups",
+   "topic": "85 SX sag (OEM)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's sag targets for the 85 SX are 30 mm static and 120 mm with the rider on.",
+   "values": {
+    "static_sag": "30 mm",
+    "riding_sag": "120 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 85 SX (art. no. 3214636en)",
+    "url": "https://www.ktmshop.se/bike-manuals/23_3214636_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ko7-004",
+   "domain": "setups",
+   "topic": "85 SX comfort / standard / sport clickers (OEM)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM lists three 85 SX clicker sets, counted out from fully closed: fork compression and rebound 17/12/7 clicks (comfort/standard/sport); shock low-speed compression 18/15/12 clicks, high-speed compression 2.5/2/1.5 turns, rebound 18/15/12 clicks.",
+   "values": {
+    "fork_comp": "17 / 12 / 7 clicks",
+    "fork_reb": "17 / 12 / 7 clicks",
+    "shock_LSC": "18 / 15 / 12 clicks",
+    "shock_HSC": "2.5 / 2 / 1.5 turns",
+    "shock_reb": "18 / 15 / 12 clicks"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 85 SX (art. no. 3214636en)",
+    "url": "https://www.ktmshop.se/bike-manuals/23_3214636_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Order of values: comfort / standard / sport."
+  },
+  {
+   "id": "ko7-005",
+   "domain": "setups",
+   "topic": "85 SX shock spring by rider weight (tuner chart)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A suspension parts maker's chart for the 2018-2026 85 SX keeps the stock 40 N/mm shock spring for 45-55 kg riders and goes from 30 N/mm (35-40 kg) and 35 N/mm (40-45 kg) up to 45, 50, 55 and 60 N/mm in 5 kg steps from 55 to 75 kg.",
+   "values": {
+    "35_40kg": "30 N/mm",
+    "40_45kg": "35 N/mm",
+    "45_55kg": "40 N/mm (stock)",
+    "55_60kg": "45 N/mm",
+    "60_65kg": "50 N/mm",
+    "65_70kg": "55 N/mm",
+    "70_75kg": "60 N/mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "BUD Racing KTM motocross spring rate chart",
+    "url": "https://www.bud-racing.com/gb/tarage-ressort-ktm",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Chart says rider weight is WITHOUT riding gear. It prints rates as 3.0-6.0; read as N/mm/10 because the stock part code 59-220-40 matches KTM's 40 N/mm standard. Agrees with the OEM chart up to 55 kg; the OEM chart stops at 45 N/mm for everyone over 55 kg. Fork is air, so the chart lists no fork springs."
+  },
+  {
+   "id": "ko7-006",
+   "domain": "setups",
+   "topic": "85 SX fork air reported for child riders",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": []
+   },
+   "statement": "Parents report about 72 psi for a 124 lb rider with compression and rebound 2-3 clicks out from stock, and 66-67 psi for a roughly 75 lb rider with a 35 N/mm shock spring; another ran 4.6 bar (about 67 psi), rebound 7 out, compression 12, sag 35/105 mm for a 90 lb (in gear) rider and found the front harsh on landings.",
+   "values": {
+    "124lb_rider": "72 psi",
+    "75lb_rider": "66-67 psi, 35 N/mm shock",
+    "90lb_in_gear": "4.6 bar (~67 psi), reb 7 out, comp 12, sag 35/105 mm"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX threads: 'KTM 85 SX air fork settings' (2020) and 'Air forks ktm 85sx' (2025)",
+    "url": "https://www.vitalmx.com/forums/moto-related/air-forks-ktm-85sx",
+    "date": "2025-06"
+   },
+   "confidence": "low",
+   "notes": "Model years not stated in either thread, so status HELD. One parent said the air fork never fully satisfied a light rider until a coil-spring conversion; another advised opening compression rather than dropping air to cure harshness. 2020 thread URL: https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/KTM-85-SX-air-fork-settings,1373449",
+   "status": "HELD"
+  },
+  {
+   "id": "ko7-007",
+   "domain": "setups",
+   "topic": "85 jetting: stock vs tester (Keihin PWK 28)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "A 2025 85cc comparison lists stock jetting on the KTM-group 85 as 145 main, 55 pilot, needle clip 3, air screw 1-1/2 turns out, and says it runs slightly rich; testers ran a 142 main and 52 pilot with the clip left at 3.",
+   "values": {
+    "stock_main": "145",
+    "stock_pilot": "55",
+    "clip": "3rd",
+    "air_screw": "1.5 turns out",
+    "tester_main": "142",
+    "tester_pilot": "52"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - 2025 MXA 85cc shootout",
+    "url": "https://motocrossactionmag.com/2025-mxa-85cc-shootout-yamaha-vs-husqvarna-vs-gasgas-vs-kawasaki-vs-ktm/",
+    "date": "2025-05"
+   },
+   "confidence": "medium",
+   "notes": "No temperature or altitude given. The leaner setting was run for about 20 hours on the GasGas MC 85 sister bike (same engine and carb). Conflicts with the stock numbers in ko7-008."
+  },
+  {
+   "id": "ko7-008",
+   "domain": "setups",
+   "topic": "85 jetting: manual vs factory-advised (Keihin)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "A 2025 race test of the KTM-group 85 (17/14 version) gives the owner's-manual jetting as 140 main, 45 pilot, NRKC needle in the 3rd position, and ran 140 main, 42 pilot and an NRJC needle in the 3rd position after advice from the factory R&D staff, with the air screw 1-1/2 turns out.",
+   "values": {
+    "manual_main": "140",
+    "manual_pilot": "45",
+    "manual_needle": "NRKC, 3rd position",
+    "test_main": "140",
+    "test_pilot": "42",
+    "test_needle": "NRJC, 3rd position",
+    "air_screw": "1.5 turns out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2025 GasGas MC85",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-gasgas-mc85-mini-cycle/",
+    "date": "2025-07"
+   },
+   "confidence": "medium",
+   "notes": "Tested on the GasGas MC 85, which shares engine and carburetor with the KTM 85 SX. No temperature or altitude stated. Conflicts with ko7-007 on stock main and pilot sizes."
+  },
+  {
+   "id": "ko7-009",
+   "domain": "setups",
+   "topic": "85 shock clicker access",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The KTM-group 85 shock has separate high- and low-speed compression adjusters, but the side panel hides them; testers drill a hole in the panel (GasGas marks the spot inside the plastic) so they can be clicked without removing it.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2025 GasGas MC85",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2025-gasgas-mc85-mini-cycle/",
+    "date": "2025-07"
+   },
+   "confidence": "medium",
+   "notes": "Tip applies to the shared WP shock and bodywork layout."
+  },
+  {
+   "id": "ko7-010",
+   "domain": "setups",
+   "topic": "125 SX shock spring by rider weight (TBI, tuner chart)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "A suspension parts maker's chart for the 2023-2026 125 SX keeps the stock shock spring (part 63-240-40, 40 N/mm) for 75-85 kg riders and suggests 36 N/mm (45-55 kg), 38 (55-65), 40 (65-75), 44 (85-95), 46 (95-105), 48 (105-115) and 50 N/mm (115-125 kg).",
+   "values": {
+    "45_55kg": "36 N/mm",
+    "55_65kg": "38 N/mm",
+    "65_75kg": "40 N/mm",
+    "75_85kg": "stock (40 N/mm)",
+    "85_95kg": "44 N/mm",
+    "95_105kg": "46 N/mm",
+    "105_115kg": "48 N/mm",
+    "115_125kg": "50 N/mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "BUD Racing KTM motocross spring rate chart",
+    "url": "https://www.bud-racing.com/gb/tarage-ressort-ktm",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Weight WITHOUT gear. Printed as 3.6-5.0; read as N/mm/10 from the stock part code. The chart lists the same rate (40) for 65-75 kg as the stock part, i.e. no change below 75 kg until 65 kg."
+  },
+  {
+   "id": "ko7-011",
+   "domain": "setups",
+   "topic": "250 SX shock spring by rider weight (TBI, tuner chart)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The same chart for the 2023-2026 250 SX lists the stock shock spring as 44 N/mm (part 63-240-44) for 75-85 kg and suggests 38 (45-55 kg), 40 (55-65), 42 (65-75), 46 (85-95), 48 (95-105), 50 (105-115) and 52 N/mm (115-125 kg).",
+   "values": {
+    "45_55kg": "38 N/mm",
+    "55_65kg": "40 N/mm",
+    "65_75kg": "42 N/mm",
+    "75_85kg": "stock (44 N/mm)",
+    "85_95kg": "46 N/mm",
+    "95_105kg": "48 N/mm",
+    "105_115kg": "50 N/mm",
+    "115_125kg": "52 N/mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "BUD Racing KTM motocross spring rate chart",
+    "url": "https://www.bud-racing.com/gb/tarage-ressort-ktm",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Weight WITHOUT gear. Chart has no 150 SX or 300 SX rows. Stock 300 SX spring reported by testers as 45 N/mm (ks5-040/041). Rates read as N/mm/10."
+  },
+  {
+   "id": "ko7-012",
+   "domain": "setups",
+   "topic": "125 SX shock spring by rider weight (carb era, tuner chart)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "For the 2017-2022 125 SX the chart keeps the stock shock spring (part 63-260-39, 39 N/mm) for 75-85 kg riders and lists 36 N/mm (45-65 kg), 38 (65-75), 42 (85-95), 44 (95-105), 46 (105-115) and 48 N/mm (115-125 kg).",
+   "values": {
+    "45_65kg": "36 N/mm",
+    "65_75kg": "38 N/mm",
+    "75_85kg": "stock (39 N/mm)",
+    "85_95kg": "42 N/mm",
+    "95_105kg": "44 N/mm",
+    "105_115kg": "46 N/mm",
+    "115_125kg": "48 N/mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "BUD Racing KTM motocross spring rate chart",
+    "url": "https://www.bud-racing.com/gb/tarage-ressort-ktm",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Weight WITHOUT gear. The chart also prints coil fork rates for these years even though the stock fork is the AER air fork; those rows are for coil conversions and are left out here."
+  },
+  {
+   "id": "ko7-013",
+   "domain": "setups",
+   "topic": "250 SX shock spring by rider weight (carb era, tuner chart)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "For the 2017-2022 250 SX the chart keeps the stock 42 N/mm shock spring (part 63-260-42) for 75-85 kg and lists 36 (45-55 kg), 38 (55-65), 40 (65-75), 44 (85-95), 46 (95-105), 48 (105-115) and 50 N/mm (115-125 kg).",
+   "values": {
+    "45_55kg": "36 N/mm",
+    "55_65kg": "38 N/mm",
+    "65_75kg": "40 N/mm",
+    "75_85kg": "stock (42 N/mm)",
+    "85_95kg": "44 N/mm",
+    "95_105kg": "46 N/mm",
+    "105_115kg": "48 N/mm",
+    "115_125kg": "50 N/mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "BUD Racing KTM motocross spring rate chart",
+    "url": "https://www.bud-racing.com/gb/tarage-ressort-ktm",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Weight WITHOUT gear. Testers on the 2020 TC 250 suggested 45 N/mm over 185 lb (ko7-014), which matches this chart's 85-95 kg row within one step."
+  },
+  {
+   "id": "ko7-014",
+   "domain": "setups",
+   "topic": "tester setup - TC 250 2020 (carb)",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Tester race setup: fork 146 psi (about 135 for slower or lighter riders), compression 12 out (about 20 for slower riders), rebound 12 out, 2nd line; shock 42 N/mm (45 over 185 lb), high-speed 1-1/2 turns out, low-speed 16 out, rebound 14 out, 105 mm race sag (107 mm and forks at the 3rd line for shorter riders).",
+   "values": {
+    "fork_air": "146 psi (135 slower/lighter)",
+    "fork_comp": "12 out (20 slower)",
+    "fork_reb": "12 out",
+    "fork_height": "2nd line",
+    "shock_spring": "42 N/mm (45 over 185 lb)",
+    "HSC": "1.5 turns out",
+    "LSC": "16 out (stock 15)",
+    "reb": "14 out (stock 15)",
+    "race_sag": "105 mm (107 short riders)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2020 Husqvarna TC250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-husky-tc250-two-stroke/",
+    "date": "2020-05"
+   },
+   "confidence": "high",
+   "notes": "Testers found stock settings stiff. To find your air pressure, put a zip-tie on the right fork leg and aim to leave about 1-1/2 in of travel unused."
+  },
+  {
+   "id": "ko7-015",
+   "domain": "setups",
+   "topic": "jetting - TC 250 2020 (Mikuni TMX 38)",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Tester jetting for the 2020 carbureted TC 250: 450 main, 35 pilot, 6BFY42-71 needle on the 3rd clip, air screw 1-1/2 turns out; set idle by holding about 1,800 rpm and turning the air screw until idle peaks.",
+   "values": {
+    "main": "450",
+    "pilot": "35",
+    "needle": "6BFY42-71, 3rd clip",
+    "air_screw": "1.5 turns out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2020 Husqvarna TC250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-husky-tc250-two-stroke/",
+    "date": "2020-05"
+   },
+   "confidence": "high",
+   "notes": "No temperature/altitude stated; magazine says elevation, humidity and temperature need adjustments. Same spec the magazine later ran on 2021-2023 carb 250s (k2t-053)."
+  },
+  {
+   "id": "ko7-016",
+   "domain": "setups",
+   "topic": "power valve dial - TC 250 2020",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "The carbureted 250's power-valve adjuster has about 6 full turns of range in 1/8-turn steps; counterclockwise gives a harder top-end hit, clockwise a smoother, more tractable bottom. An aftermarket dial maker suggests starting 1-1/2 turns out, with most riders ending between 1 and 2 turns out.",
+   "values": {
+    "range": "about 6 turns",
+    "step": "1/8 turn",
+    "start": "1.5 turns out",
+    "typical": "1-2 turns out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2020 Husqvarna TC250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-husky-tc250-two-stroke/",
+    "date": "2020-05"
+   },
+   "confidence": "medium",
+   "notes": "Testers mark their preferred spot with a paint pen. Compare k2t-057 (counted in from fully out on KTM/GasGas 250 2021-2023)."
+  },
+  {
+   "id": "ko7-017",
+   "domain": "setups",
+   "topic": "gearing and map switch - TC 250 2020",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Stock gearing for 2020 went to 14/49 from 14/50, which testers had already recommended; taller gearing smooths delivery and cuts shifting. On the bar switch one mark is Aggressive (default, tester choice) and two marks is Mellow, meant for hard or slippery dirt.",
+   "values": {
+    "stock_gearing": "14/49 (2019: 14/50)",
+    "map_1_mark": "Aggressive (default)",
+    "map_2_marks": "Mellow (hardpack/slippery)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2020 Husqvarna TC250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-husky-tc250-two-stroke/",
+    "date": "2020-05"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ko7-018",
+   "domain": "suspension",
+   "topic": "2024 125 SX valving changes",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "For 2024 KTM changed the 125 SX fork compression shim stack for a smoother mid-valve and gave the shock new high-speed compression settings with a smaller change per click; testers could not feel the difference on track.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2024 KTM 125SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-125sx-two-stroke/",
+    "date": "2024-06"
+   },
+   "confidence": "medium",
+   "notes": "Testers note the 125 has softer valving than the 450 SX-F and gets plusher after break-in."
+  },
+  {
+   "id": "ko7-019",
+   "domain": "setups",
+   "topic": "TBI 250/300 SX sag and who needs changes",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX",
+     "300 SX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Testers set the 2024 250 SX and 300 SX at 105 mm race sag and tuned fork air to rider weight; they found stock valving good on hard-based West Coast tracks but soft for heavier or faster riders, and said deep loam or sand calls for changes.",
+   "values": {
+    "race_sag": "105 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2024 KTM 250/300SX",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250-300sx-two-strokes/",
+    "date": "2024-07"
+   },
+   "confidence": "medium",
+   "notes": "No clicker or spring numbers published. Shock rebound still needs a screwdriver; HSC/LSC are by hand."
+  },
+  {
+   "id": "ko7-020",
+   "domain": "setups",
+   "topic": "TBI 300 SX map choice (2025)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "300 SX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On the 2025 300 SX testers describe map 1 (white) as mellower with a longer pull but less hit, and map 2 (green) as hitting harder and needing more clutch work; an aftermarket remap gave a more traditional two-stroke hit and better third-gear corner exits.",
+   "values": {
+    "map_1": "white - mellow, longer pull",
+    "map_2": "green - harder hit"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Austrian two-stroke showdown TC125 vs 150SX vs TC250 vs 300SX",
+    "url": "https://motocrossactionmag.com/austrian-two-stroke-showdown-tc125-vs-150sx-vs-tc250-vs-300sx/",
+    "date": "2025-06"
+   },
+   "confidence": "medium",
+   "notes": "Same article says the aftermarket ECU unlock covers only the 250/300, not the 125/150."
+  },
+  {
+   "id": "ko7-021",
+   "domain": "suspension",
+   "topic": "Husqvarna TC 250 vs KTM 300 SX suspension (2025)",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TC 250",
+     "Husqvarna TC 125"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 Husqvarna TC two-strokes use the same WP XACT air fork and WP shock as KTM but with a 10 mm shorter fork, a different linkage ratio and a longer shock seal head, dropping seat height about 1 in; testers found the TC 250's valving softer with less hold-up than the 300 SX, better for traction and shorter riders, while the KTM gives more support for faster riders.",
+   "values": {
+    "fork_length_diff": "-10 mm vs KTM",
+    "seat_height_diff": "about -1 in"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Austrian two-stroke showdown TC125 vs 150SX vs TC250 vs 300SX",
+    "url": "https://motocrossactionmag.com/austrian-two-stroke-showdown-tc125-vs-150sx-vs-tc250-vs-300sx/",
+    "date": "2025-06"
+   },
+   "confidence": "medium",
+   "notes": "Tip from the same test: check XACT air pressure often because it is easy to get wrong. TC 125 also runs one more rear sprocket tooth than the 150 SX (quicker through the gears, more shifting)."
+  },
+  {
+   "id": "ko7-022",
+   "domain": "setups",
+   "topic": "owner build - 2023 125 SX gearing and spring",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "One owner kept the stock 13/51 gearing after trying 13/50, which struggled to recover in mud, and went one shock spring rate stiffer; switching to a leaded race fuel gave what he called a night-and-day power gain once paired with a tuning module and head.",
+   "values": {
+    "stock_gearing": "13/51",
+    "tried": "13/50 (worse in mud)",
+    "shock_spring": "+1 rate"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - 2023 KTM 125sx bike build",
+    "url": "https://www.vitalmx.com/forums/bike-builds/2023-ktm-125sx",
+    "date": "2025-01"
+   },
+   "confidence": "low",
+   "notes": "Single owner; rider weight not given. Fuel gain was with head and ECU module changes, not stock."
+  },
+  {
+   "id": "ko7-023",
+   "domain": "setups",
+   "topic": "owner build - 2025 150 SX race-gas gearing",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "150 SX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "A heavily modified 2025 150 SX race build (ported cylinder, custom piston, race-gas map, aftermarket pipe) runs 13/52 gearing.",
+   "values": {
+    "gearing": "13/52"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - 2025 KTM 150sx TBI bike build",
+    "url": "https://www.vitalmx.com/forums/bike-builds/2025-ktm-150sx-tbi",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Owner says it still needs track and dyno tuning; not a stock-bike recommendation."
+  },
+  {
+   "id": "ko7-024",
+   "domain": "suspension",
+   "topic": "GasGas MC 125 vs KTM 125 SX suspension",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 125"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The GasGas MC 125 uses the same WP XACT air fork and 5750 shock as the KTM with softer valving and the same shock spring; GasGas recommends a fork air pressure 4 psi lower than the KTM figure.",
+   "values": {
+    "fork_air_vs_KTM": "-4 psi",
+    "shock_spring": "same as KTM"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - GasGas MC125 2-stroke full test",
+    "url": "https://dirtbikemagazine.com/gasgas-mc125-2-stroke-full-test/",
+    "date": "2022-05"
+   },
+   "confidence": "medium",
+   "notes": "Model year inferred as 2022 from the publication date and photos; cast triple clamps on the GasGas."
+  },
+  {
+   "id": "ko7-025",
+   "domain": "setups",
+   "topic": "GasGas MC 125 fork air for a 160 lb rider",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 125"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "A 160 lb owner found 135 psi soft at speed and pogo-like slow, then set the manual's 120 psi with stock clickers and said the fork felt great; other owners ran 123-130 psi on 125/150s, while one suggested 151 psi with compression 12 out and rebound 18 out.",
+   "values": {
+    "rider_weight": "160 lb",
+    "final_air": "120 psi",
+    "rejected": "135 psi",
+    "other_reports": "123-130 psi; 151 psi"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - WP fork question",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/WP-fork-question,1408223",
+    "date": "2023-01"
+   },
+   "confidence": "medium",
+   "notes": "Thread advice: bleed both air chambers on a stand and check for chamber seal leaks; higher pressure needs more rebound damping."
+  },
+  {
+   "id": "ko7-026",
+   "domain": "setups",
+   "topic": "300 XC stock spring, air and gearing (TPI)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "300 XC"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The 2022 300 XC runs a straight-rate 42 N/mm shock spring on the linkage XACT shock, a XACT air fork at a recommended 9.6 bar (139 psi) and 13/51 gearing with taller first and second than the XC-W.",
+   "values": {
+    "shock_spring": "42 N/mm straight",
+    "fork_air": "9.6 bar (139 psi)",
+    "gearing": "13/51"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - KTM 300XC vs 300XC-W: the wrap",
+    "url": "https://dirtbikemagazine.com/amp/ktm-300xc-vs-300xc-w-the-wrap/",
+    "date": "2021-11"
+   },
+   "confidence": "medium",
+   "notes": "Article dated Nov 2021 about the 2022 bikes; likely same for 2020-2023 TPI XC. Article printed 'Nm' for N/mm."
+  },
+  {
+   "id": "ko7-027",
+   "domain": "setups",
+   "topic": "300 XC-W stock springs and gearing (TPI)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The 2022 300 XC-W uses a progressive PDS shock spring (60/66 N/mm dual rate), 4.4 N/mm springs in the XPLOR fork and 13/50 gearing with shorter first and second than the XC.",
+   "values": {
+    "shock_spring": "60/66 N/mm progressive",
+    "fork_spring": "4.4 N/mm",
+    "gearing": "13/50"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - KTM 300XC vs 300XC-W: the wrap",
+    "url": "https://dirtbikemagazine.com/amp/ktm-300xc-vs-300xc-w-the-wrap/",
+    "date": "2021-11"
+   },
+   "confidence": "medium",
+   "notes": "See conflicts: one dealer chart lists linkage-style 45-60 N/mm for the XC-W shock."
+  },
+  {
+   "id": "ko7-028",
+   "domain": "setups",
+   "topic": "300 XC vs 300 XC-W by discipline",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "300 XC",
+     "300 XC-W"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Testers rate the linkage 300 XC far more stable at speed and in big whoops (cross-country, desert, GNCC) but harsher on rocks, with the linkage hanging about 3 in low over logs; the PDS XC-W is cushier in tight rocks, roots and logs in 1st and 2nd gear but gets bouncy at speed and dives under braking.",
+   "values": {
+    "linkage_hang": "about 3 in lower"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - KTM 300XC vs 300XC-W: the wrap",
+    "url": "https://dirtbikemagazine.com/amp/ktm-300xc-vs-300xc-w-the-wrap/",
+    "date": "2021-11"
+   },
+   "confidence": "medium",
+   "notes": "The XC-W is still widely raced in Eastern enduros and cross-country. Base ignition maps differ slightly; second map needs the optional switch."
+  },
+  {
+   "id": "ko7-029",
+   "domain": "setups",
+   "topic": "300 XC shock spring for heavier MX riders (TPI)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "300 XC"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Owners using a 2022 300 XC on motocross tracks say the stock 42 N/mm shock spring is too soft near 200 lb; KTM's chart reportedly lists 48 N/mm up to about 209 lb in gear, a 185 lb rider found 48 still slightly soft and 50 good, and 50-52 N/mm was advised for 200 lb+ track riding, with 105 mm race sag and 30-40 mm free sag.",
+   "values": {
+    "stock": "42 N/mm",
+    "KTM_chart_reported": "48 N/mm to ~209 lb in gear",
+    "185lb_rider": "48 slightly soft, 50 good",
+    "200lb_track": "50-52 N/mm",
+    "race_sag": "105 mm",
+    "free_sag": "30-40 mm"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX - Proper spring rate for MX-ing '22 KTM 300XC",
+    "url": "https://www.vitalmx.com/forums/tech-helprace-shop/proper-spring-rate-mx-ing-22-ktm-300xc",
+    "date": "2023-04"
+   },
+   "confidence": "medium",
+   "notes": "Forum posters wrote rates as 4.2/4.8/5.0 (kg/mm shorthand). Free sag under 30 mm means the spring is too soft. One owner added 2 compression shims and 1 rebound shim with the stiffer spring; heavier riders may need a revalve."
+  },
+  {
+   "id": "ko7-030",
+   "domain": "setups",
+   "topic": "2023 300 XC-W TPI power-valve adjuster",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Testers found the 2023 300 XC-W TPI shipped with its power-valve adjuster screwed all the way in, holding the valve shut and making power flat; backing it out to flush gave a harder hit while keeping the bottom-end chug.",
+   "values": {
+    "stock_found": "fully in",
+    "tester_setting": "backed out to flush"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - 2023 KTM 300XC-W full test",
+    "url": "https://dirtbikemagazine.com/2023-ktm-300xc-w/",
+    "date": "2022-12"
+   },
+   "confidence": "medium",
+   "notes": "Conflicts with the manual's stock setting described in ko2-059 (yellow marks lined up); production variation possible."
+  },
+  {
+   "id": "ko7-031",
+   "domain": "setups",
+   "topic": "2023 300 XC-W TPI rider weight and sag",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The XPLOR fork on the 2023 TPI XC-W suits riders up to about 170 lb; average riders reach 100-104 mm sag on the stock shock spring, and heavier riders should go up a spring rate at both ends. Newer valving holds the fork higher, but the shock can feel loose at speed and ride high on fast downhills.",
+   "values": {
+    "fork_rider_limit": "about 170 lb",
+    "sag": "100-104 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - 2023 KTM 300XC-W full test",
+    "url": "https://dirtbikemagazine.com/2023-ktm-300xc-w/",
+    "date": "2022-12"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "ko7-032",
+   "domain": "setups",
+   "topic": "high-altitude hard-trail tire pressures (TPI XC-W)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A Colorado high-altitude build (about 7,000-12,000 ft, rocky and rooty) ran 12 psi front and 5-6 psi rear on a tire-insert system, with a revalved fork and shock tuned for compliance and bottoming resistance.",
+   "values": {
+    "front_tire": "12 psi",
+    "rear_tire": "5-6 psi (tube-less insert)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - Project bike shootout KTM 300TPI vs 300TBI",
+    "url": "https://dirtbikemagazine.com/project-bike-shootout-ktm-300tpi-vs-ktm-300tbi/",
+    "date": "2023-07"
+   },
+   "confidence": "medium",
+   "notes": "Engine side of this build (high-compression head, remap) is in ko2-083. The TBI 300 XC in the same story got a fork/shock revalve, flywheel weights, an auto-clutch and a slower throttle cam to tame power on rocks."
+  },
+  {
+   "id": "ko7-033",
+   "domain": "setups",
+   "topic": "2020 XPLOR fork spring/damping change",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "For 2020 KTM's enduro range got a lower XPLOR fork spring rate with firmer early-stroke damping and a new mid-valve to cut dive and keep the front higher, plus a reworked PDS second piston for more bottoming resistance.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2020 enduro range tech details (via Australasian Dirt Bike)",
+    "url": "https://adbmag.com.au/editorial/tech-details-2020-ktm-enduro-range/",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "Press material is for the EXC range; US XC-W models share the XPLOR fork and PDS shock. No rates published."
+  },
+  {
+   "id": "ko7-034",
+   "domain": "setups",
+   "topic": "GasGas EC 300 power valve and rider weight",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EC 300"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On the 2021 GasGas EC 300 TPI, a tester backed the power-valve adjuster out two turns to open it sooner for a stronger midrange hit; the suspension felt soft for riders over 175 lb (stiffer springs needed both ends), and even a 135 lb expert wanted more support on high-speed G-outs.",
+   "values": {
+    "PV_adjuster": "out 2 turns",
+    "soft_above": "175 lb"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - 2021 GasGas EC300 full test",
+    "url": "https://dirtbikemagazine.com/2021-gasgas-ec300-two-stroke-full-test/",
+    "date": "2021-04"
+   },
+   "confidence": "medium",
+   "notes": "GasGas used XPLOR fork and a linkage WP shock (vs PDS on the KTM XC-W) and was about 12 lb heavier than a PDS 300 XC-W."
+  },
+  {
+   "id": "ko7-035",
+   "domain": "setups",
+   "topic": "GasGas EC 300 trail build (clutch weight, cartridge)",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EC 300"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "A 2021 EC 300 trail build added a 7 oz clutch weight for traction and smoother low-end, a closed-cartridge kit in the XPLOR fork and a sprung shock bladder kit, both sprung for rider weight, and mousse inserts with about 10-12 psi-equivalent front feel.",
+   "values": {
+    "clutch_weight": "7 oz (about 198 g)",
+    "front_insert": "10-12 psi equivalent"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - GasGas 300 2-stroke project: behind the build",
+    "url": "https://dirtbikemagazine.com/amp/gasgas-300-2-stroke-project-behind-the-build",
+    "date": "2021-10"
+   },
+   "confidence": "medium",
+   "notes": "Grams are BAK conversion (oz x 28.35). Spring rates not published. Also high-compression head and a stronger pipe for hard enduro."
+  },
+  {
+   "id": "ko7-036",
+   "domain": "suspension",
+   "topic": "2024 XC-W PDS shock dimensions",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 XPLOR PDS shock is shorter (402.7 mm vs 415 mm) with 102.7 mm stroke (was 105 mm), 380 g lighter, with a new main piston and hand clickers (compression top, rebound bottom); preload is set by loosening a securing ring with an Allen key and turning the spring collar.",
+   "values": {
+    "length": "402.7 mm (was 415)",
+    "stroke": "102.7 mm (was 105)",
+    "weight_saving": "380 g"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2024 EXC range press kit",
+    "url": "https://www.ktm.com/language-masters/en/segment-pages/enduro/exc-2024/2024%20KTM%20EXC%20RANGE..pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Press kit covers EXC; US XC-W share the hardware. Spring rates not given."
+  },
+  {
+   "id": "ko7-037",
+   "domain": "suspension",
+   "topic": "2025 300 XC-W Factory Edition fork",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 300 XC-W Factory Edition alone gets a 48 mm WP XPLOR PRO 7548 cone-valve fork with 30 clicks each of compression and rebound and 10 mm of spring-preload adjustment, plus a PDS shock with updated settings and a standard map switch.",
+   "values": {
+    "fork": "XPLOR PRO 7548 cone valve",
+    "clicks": "30 comp / 30 reb",
+    "preload_adjust": "10 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA - 2025 300 XC-W Factory Edition",
+    "url": "https://www.ktm.com/en-us/models/enduro/2-stroke/2025-ktm-300-xc-wfactoryedition.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Map 1 standard/linear, map 2 sharper. Standard XC-W keeps the XACT closed-cartridge fork."
+  },
+  {
+   "id": "ko7-038",
+   "domain": "suspension",
+   "topic": "2026 300 XC-W Hardenduro fork changes",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "The 2026 300 XC-W Hardenduro gets new damping, lighter and shorter springs and a new pressure reservoir in its 48 mm XACT closed-cartridge fork, a one-piece hydro-stop, base-valve preload adjusters and about 200 g less fork weight, with updated PDS settings and a standard map switch.",
+   "values": {
+    "fork_weight_saving": "about 200 g"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - KTM introduces 2026 300XC-W Hardenduro",
+    "url": "https://dirtbikemagazine.com/ktm-introduces-2026-300xc-w-hardenduro-two-stroke/",
+    "date": "2025-09"
+   },
+   "confidence": "medium",
+   "notes": "Reports KTM's release; spring rates not published."
+  },
+  {
+   "id": "ko7-039",
+   "domain": "ecu_electronics",
+   "topic": "2025 300 XC map switch and power valve",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "300 XC"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 300 XC has a standard map switch: map 1 linear and predictable, map 2 aggressive; the electronic power valve self-calibrates so there is no manual adjustment, and the XACT closed-cartridge fork and shock got reworked settings for the revised frame and linkage.",
+   "values": {
+    "map_1": "linear",
+    "map_2": "aggressive"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM USA - 2025 300 XC",
+    "url": "https://www.ktm.com/en-us/models/cross-country/2-stroke/2025-ktm-300-xc.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Use map 1 for slick/technical terrain and map 2 for open, high-traction cross-country (tester practice in ko2-022)."
+  },
+  {
+   "id": "ko7-040",
+   "domain": "setups",
+   "topic": "300 XC-W extreme build (springs, gearing, PV)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A 2024 300 XC-W built for extreme loops ran 4.6 fork springs and a 6.9 shock spring with tuner valving, went from the usual 13/48 to 13/49 (which moves the axle forward), and opened the electronic power valve 7% on an aftermarket ECU map, which woke the bike up.",
+   "values": {
+    "fork_spring": "4.6 (N/mm assumed)",
+    "shock_spring": "6.9 (69 N/mm assumed)",
+    "gearing": "13/49 (usual 13/48; stock 13/45)",
+    "PV_opening": "+7% on aftermarket map"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - 2024 KTM 300 XC-W bike build",
+    "url": "https://www.cyclenews.com/2025/02/article/2024-ktm-300-xc-w-bike-build/",
+    "date": "2025-02"
+   },
+   "confidence": "medium",
+   "notes": "Units not printed; read as N/mm and kg-style shorthand. Rider weight not stated. Power-valve change needs an aftermarket ECU; stock ECU has no user PV adjustment."
+  },
+  {
+   "id": "ko7-041",
+   "domain": "setups",
+   "topic": "300 XC-W altitude trail build (2025)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "300 XC-W"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "A 2025 300 XC-W ridden above 10,000 ft used a high-compression head, an oversized power-valve cover for more low-to-mid power, an aftermarket ECU with a tune for the bike, a plug-in map switch for two preset maps, and an auto-clutch to cut stalling; fork and shock were resprung and revalved for the rider.",
+   "values": {
+    "altitude": "10,000+ ft"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News - Slavens Racing KTM 300 XC-W project",
+    "url": "https://www.cyclenews.com/2025/10/article/slavens-racing-ktm-300-xc-w-project/",
+    "date": "2025-10"
+   },
+   "confidence": "medium",
+   "notes": "No spring or valving numbers published."
+  },
+  {
+   "id": "ko7-042",
+   "domain": "setups",
+   "topic": "Husqvarna TE 300 TBI fork and maps",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Testers found the 2024 TE 300's XACT coil fork cushy at low speed but very soft overall, diving under hard braking and struggling on G-outs, with added compression mostly killing low-speed comfort, so they point to aftermarket fixes; the shock was good in rocks and stable at speed. The bar switch selects a mild and an aggressive map; the aggressive map surges near peak rather than hitting.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - 2024 Husqvarna TE300 full test",
+    "url": "https://dirtbikemagazine.com/2024-husqvarna-te300-full-test/",
+    "date": "2024-01"
+   },
+   "confidence": "medium",
+   "notes": "Electronic power valve now has intermediate positions; no owner adjustment, but piggyback fuel modules and aftermarket ECUs exist. Measured 236 lb without fuel."
+  },
+  {
+   "id": "ko7-043",
+   "domain": "setups",
+   "topic": "Husqvarna TX 300 TBI fork air and maps",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 TX 300's XACT air fork has off-road valving with a recommended 141 psi, against about 152 psi on most motocross bikes; it has 10 mm less fork and 7 mm less rear travel than the KTM 300 XC for a lower seat, and two bar-switch maps from mild to very aggressive.",
+   "values": {
+    "fork_air": "141 psi",
+    "vs_MX": "~152 psi",
+    "fork_travel_vs_KTM": "-10 mm",
+    "rear_travel_vs_KTM": "-7 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine - 2023 Husqvarna TX300 full test",
+    "url": "https://dirtbikemagazine.com/2023-husqvarna-tx300-full-test/",
+    "date": "2023-01"
+   },
+   "confidence": "medium",
+   "notes": "Testers say suspension is the main area to improve; TX and 300 SX share crank, cylinder, piston and head, differing mainly in mapping. For TX, riders often leave it on the mild map until racing (2024 TE300 test)."
+  },
+  {
+   "id": "ko7-044",
+   "domain": "suspension",
+   "topic": "XACT closed-cartridge flow-adjuster kit",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "125 XC",
+     "250 XC",
+     "300 XC",
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F",
+     "Husqvarna TX 300",
+     "Husqvarna TE 150",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "Husqvarna FX 350",
+     "Husqvarna FX 450",
+     "Husqvarna FE 450",
+     "GasGas EX 250",
+     "GasGas EX 300",
+     "GasGas EX 250F",
+     "GasGas EX 350F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "An aftermarket kit for the 2024+ XACT closed-cartridge fork swaps compression base pistons and mid-valve posts to add an external 20-click compression adjuster (1-10 out firmer MX-style hold-up, 10-20 out plusher trail feel; start 12-13 out), and recommends softer cartridge pressure springs: 12 N on two-strokes, 16 N on four-strokes.",
+   "values": {
+    "range": "20 clicks",
+    "start": "12-13 out",
+    "pressure_spring_2T": "12 N",
+    "pressure_spring_4T": "16 N",
+    "price": "AUD 495"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Krooztune Flow Adjuster Kit '25 Series'",
+    "url": "https://krooztune.com/products/krooztune-flow-adjuster-kit-wp-xact-closed-cartridge-forks-2023-2025",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Make list: KTM, Husqvarna, GasGas. Seller's year range inconsistent (2023-2025 vs 2024+); closed-cartridge fork arrived for 2024."
+  },
+  {
+   "id": "ko7-045",
+   "domain": "suspension",
+   "topic": "XACT closed-cartridge fork spring range",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "125 XC",
+     "250 XC",
+     "300 XC",
+     "150 XC-W",
+     "250 XC-W",
+     "300 XC-W",
+     "Husqvarna TX 300",
+     "Husqvarna TE 300",
+     "GasGas EX 300",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Aftermarket springs for the XACT closed-cartridge fork are 470 mm long and sold from 4.0 to 5.3 N/mm in 0.1 steps; odd rates are supplied as a mixed pair (e.g. 4.9 = one 4.8 + one 5.0).",
+   "values": {
+    "length": "470 mm",
+    "range": "4.0-5.3 N/mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Ride JBI - WP XACT closed cartridge fork springs",
+    "url": "https://www.ridejbi.com/wp-xact-closed-cartridge-fork-springs/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "A related tuner revalve ($550) claims a plusher feel over small and medium bumps and better initial breakaway via a low-speed sub-valve (https://www.ridejbi.com/wp-xact-closed-cartridge-fork-revalve/)."
+  },
+  {
+   "id": "ko7-046",
+   "domain": "setups",
+   "topic": "300 XC-W / TE 300 spring rate by rider weight (dealer chart)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "300 XC-W",
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "A hard-enduro dealer's calculator lists fork springs of 4.2 N/mm (140-160 lb), 4.4 stock (160-180), 4.6 (180-200), 4.8 (200-220) and 5.0 (220+), with 105-110 mm sag, and suggests 0.2 N/mm softer fork springs for technical rock riding and 0.2 stiffer for fast desert.",
+   "values": {
+    "140_160lb": "fork 4.2 N/mm",
+    "160_180lb": "fork 4.4 N/mm (stock)",
+    "180_200lb": "fork 4.6 N/mm",
+    "200_220lb": "fork 4.8 N/mm",
+    "220lb_plus": "fork 5.0 N/mm",
+    "sag": "105-110 mm",
+    "rock_adjust": "-0.2 N/mm fork",
+    "desert_adjust": "+0.2 N/mm fork"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "dealer",
+    "name": "Mountain Goat Sports - spring rate calculator (KTM 300 XC-W / Husqvarna TE 300)",
+    "url": "https://mountaingoatsports.com/resources/spring-rate-calculator/",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Page's shock column (45-60 N/mm, stock 48) looks like linkage-shock rates and does not match the PDS progressive 60/66 N/mm reported by testers, so shock values are left out (see conflicts). The page's own worked examples disagree with its table, and weight basis (with/without gear) is unclear."
+  },
+  {
+   "id": "ko7-047",
+   "domain": "setups",
+   "topic": "flywheel weight - TBI 250/300 SX/XC, TC/TX, MC/EX",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "250 SX",
+     "300 SX",
+     "250 XC",
+     "300 XC",
+     "Husqvarna TC 250",
+     "Husqvarna TC 300",
+     "Husqvarna TX 300",
+     "GasGas MC 250",
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "For the TBI 250/300 motocross and cross-country bikes, a press-on flywheel weight is sold in 9 or 11 oz (about 255 or 312 g) to smooth power, add traction and reduce stalling.",
+   "values": {
+    "options": "9 oz (255 g) / 11 oz (312 g)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Steahly flywheel weights - Slavens Racing product page",
+    "url": "https://slavensracing.com/shop/flywheel-weight-for-ktm-husaberg-husqvarna-250300-by-steahly/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Make list: KTM, Husqvarna, GasGas. Fitment as listed: 2023-2025 KTM 250/300 SX/XC TBI, 2023-2025 Husqvarna TC/TX 250/300 TBI, 2024-2025 GasGas MC/EX 250/300. Grams are BAK conversion (oz x 28.35)."
+  },
+  {
+   "id": "ko7-048",
+   "domain": "setups",
+   "topic": "flywheel weight - TBI 125 SX/XC, TC 125, MC 125",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "125 SX",
+     "125 XC",
+     "Husqvarna TC 125",
+     "GasGas MC 125"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "For the TBI 125s a flywheel weight is offered in 6 or 8 oz (about 170 or 227 g).",
+   "values": {
+    "options": "6 oz (170 g) / 8 oz (227 g)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Steahly flywheel weights - Slavens Racing product page",
+    "url": "https://slavensracing.com/shop/flywheel-weight-for-ktm-husaberg-husqvarna-250300-by-steahly/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Fitment: 2023-2025 KTM 125 SX/XC, Husqvarna TC 125; 2024-2025 GasGas MC 125."
+  },
+  {
+   "id": "ko7-049",
+   "domain": "setups",
+   "topic": "flywheel weight - TBI XC-W, TE, EC (enduro)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "250 XC-W",
+     "300 XC-W",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "For the TBI enduro 250/300s a flywheel weight comes in 8, 10 or 12 oz (about 227, 283 or 340 g); the maker's guide is the lighter option for fast aggressive riders, the middle for most intermediates and the heaviest for casual riders or slow technical terrain.",
+   "values": {
+    "options": "8 / 10 / 12 oz (227 / 283 / 340 g)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Steahly flywheel weights - Slavens Racing product page",
+    "url": "https://slavensracing.com/shop/flywheel-weight-for-ktm-husaberg-husqvarna-250300-by-steahly/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Husqvarna TE uses a different part number from KTM/GasGas. Weight-choice guidance is stated for the TPI 7/10/13 oz kit and applied by the maker across its range."
+  },
+  {
+   "id": "ko7-050",
+   "domain": "setups",
+   "topic": "flywheel weight - TPI XC-W/XC, TE/TX (with rider guide)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "250 XC-W",
+     "300 XC-W",
+     "250 XC",
+     "300 XC",
+     "Husqvarna TE 250",
+     "Husqvarna TE 300",
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "For the TPI 250/300s a flywheel weight comes in 7, 10 or 13 oz (about 198, 283 or 369 g): 7 oz for fast, aggressive riders, 10 oz for most intermediates, 13 oz for casual riders or mostly slow technical terrain.",
+   "values": {
+    "7oz": "fast/aggressive (198 g)",
+    "10oz": "most intermediates (283 g)",
+    "13oz": "casual / slow technical (369 g)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Steahly flywheel weight - TripleClamp Moto / Slavens Racing listings",
+    "url": "https://tripleclampmoto.ca/products/steahly-offroad-flywheel-weight-for-ktm-250-300-xc-xcw-exc-tpi-2017-2022-250-300-xcw-2023",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Fitment: KTM 250/300 XC 2017-2022, XC-W 2017-2023; Husqvarna TE/TX 250/300i 2017-2022, TE 2023. Not GasGas. Installed by pressing a ring on the stock rotor. For comparison a hard-enduro kit used a 150 g weight (ko2-082)."
+  },
+  {
+   "id": "ko7-051",
+   "domain": "setups",
+   "topic": "flywheel weight - other KTM-family two-strokes",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "150 XC-W",
+     "Husqvarna TE 150",
+     "GasGas EX 300",
+     "GasGas EC 300",
+     "GasGas EC 250",
+     "85 SX 17/14",
+     "85 SX 19/16",
+     "125 SX",
+     "150 SX",
+     "250 SX",
+     "Husqvarna TC 125",
+     "Husqvarna TC 250",
+     "GasGas MC 125",
+     "GasGas MC 250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "Other flywheel weight options: 150 XC-W/TE 150 (2020-2023) 8 oz; GasGas EX/EC 250/300 (2021-2023) 8/10/12 oz; 85 SX (2018-2025) 7/9/11 oz; carb 125/150 SX, TC 125, MC 125 (to 2022-2023) 6/8/10/12 oz; carb 250 SX, TC 250 (2017-2022) and MC 250 (2022-2023) 9/11 oz.",
+   "values": {
+    "150_XC-W_TE150": "8 oz",
+    "GasGas_EX_EC_250_300_2021_23": "8/10/12 oz",
+    "85_SX": "7/9/11 oz",
+    "carb_125_150": "6/8/10/12 oz",
+    "carb_250": "9/11 oz"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Steahly flywheel weights - Slavens Racing product page",
+    "url": "https://slavensracing.com/shop/flywheel-weight-for-ktm-husaberg-husqvarna-250300-by-steahly/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Make list: KTM, Husqvarna, GasGas. Years vary by part; see values. 85 SX part also listed through 2025."
+  },
+  {
+   "id": "ko7-052",
+   "domain": "setups",
+   "topic": "flywheel weight - XC-F / FX / EX four-strokes",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F",
+     "Husqvarna FX 350",
+     "Husqvarna FX 450",
+     "GasGas EX 250F",
+     "GasGas EX 350F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024
+    ]
+   },
+   "statement": "For the cross-country four-strokes the same maker lists a single 8 oz (about 227 g) weight for the 250/350 and 5 oz (about 142 g) for the 450.",
+   "values": {
+    "250_350": "8 oz (227 g)",
+    "450": "5 oz (142 g)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Steahly flywheel weights - Slavens Racing product page",
+    "url": "https://slavensracing.com/shop/flywheel-weight-for-ktm-husaberg-husqvarna-250300-by-steahly/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Fitment: 2016-2024 KTM 250/350 and 450 SX-F/XC-F, Husqvarna FC/FX, 2021-2024 GasGas MC/EX. Enduro four-strokes (XCF-W/FE/EC) not listed on this page."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "85 SX stock jetting (2025)",
+   "records": [
+    "ko7-007",
+    "ko7-008"
+   ],
+   "spread": "stock main 140 vs 145; stock pilot 45 vs 55; both clip 3, air screw 1.5 out",
+   "note": "Two tests by the same magazine; one quotes the owner's manual (140/45, NRKC), the other a comparison test (145/55). Tester-run settings 142/52 vs 140/42 NRJC."
+  },
+  {
+   "topic": "85 SX shock spring for riders over 55 kg",
+   "records": [
+    "ko7-002",
+    "ko7-005"
+   ],
+   "spread": "OEM: 45 N/mm for all >55 kg; tuner chart: 45 to 60 N/mm in 5 kg steps up to 75 kg (weight without gear)"
+  },
+  {
+   "topic": "300 XC-W shock spring by rider weight",
+   "records": [
+    "ko7-027",
+    "ko7-046",
+    "ko7-040"
+   ],
+   "spread": "Tester-reported stock PDS spring 60/66 N/mm progressive (2022); a 2024 build ran '6.9' (about 69 N/mm); a dealer calculator lists 45-60 N/mm with 48 stock",
+   "note": "Dealer shock values look like linkage-shock rates; kept out of the record values."
+  },
+  {
+   "topic": "TPI 300 XC-W stock power-valve preload",
+   "records": [
+    "ko7-030",
+    "ko2-059"
+   ],
+   "spread": "manual: yellow marks lined up (stock); one 2023 test bike: adjuster fully in"
+  },
+  {
+   "topic": "300 XC stock fork air",
+   "records": [
+    "ko7-026",
+    "ko7-029"
+   ],
+   "spread": "magazine 9.6 bar (139 psi) recommended (2022); a forum owner read 9.6 bar as standard and ran 9.8 bar"
+  }
+ ],
+ "not_found": [
+  "KTM 85 SX carburetor jetting chart by temperature/altitude: the 2023 owner's manual text has no carburetor table (only 'ask your dealer'); the chart is likely in the repair manual. Searched KTM manual PDF, MXA, Vital MX, JD Jetting; JD chart pages were not reachable.",
+  "125 XC (carbureted 2021-2022) jetting by temperature/altitude: no source found; searched Vital MX jetting thread and MXA/Dirt Bike tests.",
+  "OEM shock/fork spring charts by rider weight for 150 SX, 300 SX, 125/250/300 XC (closed-cartridge fork) and XC-W/TE/EC TBI: not in any page fetched; BAK's manufacturer manuals may hold them.",
+  "Tester clicker setups with rider weight for 2024-2026 250/300 XC, 125 XC, 150 XC-W TBI, GasGas EX 250, GasGas EC 250 and Husqvarna TE 150/250: none published with numbers in the tests found.",
+  "Sand-specific and arenacross-specific setups (fork air, clickers, gearing) for the KTM-family two-strokes: searched MXA, Vital, Dirt Bike; none with numbers beyond the general advice that stock valving is soft for deep loam/sand.",
+  "Desert-specific numbers for 300 XC / TX 300 TBI: none found.",
+  "Thumpertalk threads on 2024 XACT closed-cartridge 'woods revalve' and 2022/2024 300 XC-W/EXC spring rates: site returned fetch errors.",
+  "BUD Racing enduro spring chart: blocked by robots.txt.",
+  "Power-valve spring choices for carbureted SX 125/150 (2020-2022): only the 250 adjuster dial found."
+ ],
+ "sources": [
+  {
+   "name": "KTM owner's manual 2023 85 SX (art. no. 3214636en)",
+   "url": "https://www.ktmshop.se/bike-manuals/23_3214636_en_OM.pdf",
+   "date": "2022"
+  },
+  {
+   "name": "BUD Racing KTM motocross spring rate chart",
+   "url": "https://www.bud-racing.com/gb/tarage-ressort-ktm",
+   "date": "2025"
+  },
+  {
+   "name": "Vital MX threads: 'KTM 85 SX air fork settings' (2020) and 'Air forks ktm 85sx' (2025)",
+   "url": "https://www.vitalmx.com/forums/moto-related/air-forks-ktm-85sx",
+   "date": "2025-06"
+  },
+  {
+   "name": "Motocross Action - 2025 MXA 85cc shootout",
+   "url": "https://motocrossactionmag.com/2025-mxa-85cc-shootout-yamaha-vs-husqvarna-vs-gasgas-vs-kawasaki-vs-ktm/",
+   "date": "2025-05"
+  },
+  {
+   "name": "Motocross Action - Race test 2025 GasGas MC85",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2025-gasgas-mc85-mini-cycle/",
+   "date": "2025-07"
+  },
+  {
+   "name": "Motocross Action - Race test 2020 Husqvarna TC250",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-husky-tc250-two-stroke/",
+   "date": "2020-05"
+  },
+  {
+   "name": "Motocross Action - Race test 2024 KTM 125SX",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2024-ktm-125sx-two-stroke/",
+   "date": "2024-06"
+  },
+  {
+   "name": "Motocross Action - Race test 2024 KTM 250/300SX",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-ktm-250-300sx-two-strokes/",
+   "date": "2024-07"
+  },
+  {
+   "name": "Motocross Action - Austrian two-stroke showdown TC125 vs 150SX vs TC250 vs 300SX",
+   "url": "https://motocrossactionmag.com/austrian-two-stroke-showdown-tc125-vs-150sx-vs-tc250-vs-300sx/",
+   "date": "2025-06"
+  },
+  {
+   "name": "Vital MX - 2023 KTM 125sx bike build",
+   "url": "https://www.vitalmx.com/forums/bike-builds/2023-ktm-125sx",
+   "date": "2025-01"
+  },
+  {
+   "name": "Vital MX - 2025 KTM 150sx TBI bike build",
+   "url": "https://www.vitalmx.com/forums/bike-builds/2025-ktm-150sx-tbi",
+   "date": "2025"
+  },
+  {
+   "name": "Dirt Bike Magazine - GasGas MC125 2-stroke full test",
+   "url": "https://dirtbikemagazine.com/gasgas-mc125-2-stroke-full-test/",
+   "date": "2022-05"
+  },
+  {
+   "name": "Vital MX - WP fork question",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/WP-fork-question,1408223",
+   "date": "2023-01"
+  },
+  {
+   "name": "Dirt Bike Magazine - KTM 300XC vs 300XC-W: the wrap",
+   "url": "https://dirtbikemagazine.com/amp/ktm-300xc-vs-300xc-w-the-wrap/",
+   "date": "2021-11"
+  },
+  {
+   "name": "Vital MX - Proper spring rate for MX-ing '22 KTM 300XC",
+   "url": "https://www.vitalmx.com/forums/tech-helprace-shop/proper-spring-rate-mx-ing-22-ktm-300xc",
+   "date": "2023-04"
+  },
+  {
+   "name": "Dirt Bike Magazine - 2023 KTM 300XC-W full test",
+   "url": "https://dirtbikemagazine.com/2023-ktm-300xc-w/",
+   "date": "2022-12"
+  },
+  {
+   "name": "Dirt Bike Magazine - Project bike shootout KTM 300TPI vs 300TBI",
+   "url": "https://dirtbikemagazine.com/project-bike-shootout-ktm-300tpi-vs-ktm-300tbi/",
+   "date": "2023-07"
+  },
+  {
+   "name": "KTM 2020 enduro range tech details (via Australasian Dirt Bike)",
+   "url": "https://adbmag.com.au/editorial/tech-details-2020-ktm-enduro-range/",
+   "date": "2019"
+  },
+  {
+   "name": "Dirt Bike Magazine - 2021 GasGas EC300 full test",
+   "url": "https://dirtbikemagazine.com/2021-gasgas-ec300-two-stroke-full-test/",
+   "date": "2021-04"
+  },
+  {
+   "name": "Dirt Bike Magazine - GasGas 300 2-stroke project: behind the build",
+   "url": "https://dirtbikemagazine.com/amp/gasgas-300-2-stroke-project-behind-the-build",
+   "date": "2021-10"
+  },
+  {
+   "name": "KTM 2024 EXC range press kit",
+   "url": "https://www.ktm.com/language-masters/en/segment-pages/enduro/exc-2024/2024%20KTM%20EXC%20RANGE..pdf",
+   "date": "2023"
+  },
+  {
+   "name": "KTM USA - 2025 300 XC-W Factory Edition",
+   "url": "https://www.ktm.com/en-us/models/enduro/2-stroke/2025-ktm-300-xc-wfactoryedition.html",
+   "date": "2024"
+  },
+  {
+   "name": "Dirt Bike Magazine - KTM introduces 2026 300XC-W Hardenduro",
+   "url": "https://dirtbikemagazine.com/ktm-introduces-2026-300xc-w-hardenduro-two-stroke/",
+   "date": "2025-09"
+  },
+  {
+   "name": "KTM USA - 2025 300 XC",
+   "url": "https://www.ktm.com/en-us/models/cross-country/2-stroke/2025-ktm-300-xc.html",
+   "date": "2024"
+  },
+  {
+   "name": "Cycle News - 2024 KTM 300 XC-W bike build",
+   "url": "https://www.cyclenews.com/2025/02/article/2024-ktm-300-xc-w-bike-build/",
+   "date": "2025-02"
+  },
+  {
+   "name": "Cycle News - Slavens Racing KTM 300 XC-W project",
+   "url": "https://www.cyclenews.com/2025/10/article/slavens-racing-ktm-300-xc-w-project/",
+   "date": "2025-10"
+  },
+  {
+   "name": "Dirt Bike Magazine - 2024 Husqvarna TE300 full test",
+   "url": "https://dirtbikemagazine.com/2024-husqvarna-te300-full-test/",
+   "date": "2024-01"
+  },
+  {
+   "name": "Dirt Bike Magazine - 2023 Husqvarna TX300 full test",
+   "url": "https://dirtbikemagazine.com/2023-husqvarna-tx300-full-test/",
+   "date": "2023-01"
+  },
+  {
+   "name": "Krooztune Flow Adjuster Kit '25 Series'",
+   "url": "https://krooztune.com/products/krooztune-flow-adjuster-kit-wp-xact-closed-cartridge-forks-2023-2025",
+   "date": "2025"
+  },
+  {
+   "name": "Ride JBI - WP XACT closed cartridge fork springs",
+   "url": "https://www.ridejbi.com/wp-xact-closed-cartridge-fork-springs/",
+   "date": "2025"
+  },
+  {
+   "name": "Mountain Goat Sports - spring rate calculator (KTM 300 XC-W / Husqvarna TE 300)",
+   "url": "https://mountaingoatsports.com/resources/spring-rate-calculator/",
+   "date": "2025"
+  },
+  {
+   "name": "Steahly flywheel weights - Slavens Racing product page",
+   "url": "https://slavensracing.com/shop/flywheel-weight-for-ktm-husaberg-husqvarna-250300-by-steahly/",
+   "date": "2025"
+  },
+  {
+   "name": "Steahly flywheel weight - TripleClamp Moto / Slavens Racing listings",
+   "url": "https://tripleclampmoto.ca/products/steahly-offroad-flywheel-weight-for-ktm-250-300-xc-xcw-exc-tpi-2017-2022-250-300-xcw-2023",
+   "date": "2025"
+  }
+ ]
+}

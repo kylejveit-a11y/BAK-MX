@@ -1,0 +1,1609 @@
+{
+ "slice": "lowest-scoring models gap fill (identity, feel, dynos, setups, issues, mods)",
+ "platform": {
+  "make": "Husqvarna",
+  "models": [
+   "Husqvarna TC 300",
+   "Husqvarna TC 150",
+   "Husqvarna TX 300",
+   "YZ125X",
+   "YZ250X",
+   "Husqvarna FE 450",
+   "85 SX 17/14",
+   "85 SX 19/16",
+   "Husqvarna FX 350",
+   "Husqvarna FX 450",
+   "WR250F",
+   "Husqvarna TE 150",
+   "125 XC",
+   "250 XC",
+   "GasGas EX 450F",
+   "GasGas EX 300"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "lo7-001",
+   "domain": "engine_architecture",
+   "topic": "bore, stroke and displacement",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TC 300"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The TC 300 is a square 72 x 72 mm two-stroke displacing 293.2 cc, fed by throttle-body injection with an electronic power valve.",
+   "values": {
+    "bore": "72 mm",
+    "stroke": "72 mm",
+    "displacement": "293.2 cc",
+    "fuel_system": "throttle-body injection (TBI)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX - 2025 Husqvarna TC 300 bike guide (spec table)",
+    "url": "https://www.vitalmx.com/product/guide/bikes/husqvarna/tc-300-16711",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Manufacturer spec figures as listed in the bike-guide spec table; compression ratio not listed."
+  },
+  {
+   "id": "lo7-002",
+   "domain": "engine_architecture",
+   "topic": "bore/stroke ratio and piston speed (derived)",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TC 300",
+     "Husqvarna TC 150"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Worked out from the published dimensions, the TC 300 is exactly square (ratio 1.00) while the TC 150 is slightly oversquare (1.06), which is part of why the 150 likes revs and the 300 pulls lower.",
+   "values": {
+    "TC 300 bore/stroke": "1.00 (72/72)",
+    "TC 150 bore/stroke": "1.06 (58/54.5)",
+    "TC 150 mean piston speed at 11,200 rpm": "20.3 m/s"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX - 2025 Husqvarna TC 150 bike guide (spec table)",
+    "url": "https://www.vitalmx.com/product/guide/bikes/husqvarna/tc-150-16701",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Ratio = bore/stroke. TC 150 mean piston speed = 2 x 54.5 mm x 11,200 rpm / 60,000 = 20.35 m/s, using the 11,200 rpm power peak from a magazine dyno record already in BAK (TC 150 TBI dyno). TC 300 bore/stroke from Vital MX TC 300 spec table."
+  },
+  {
+   "id": "lo7-003",
+   "domain": "chassis",
+   "topic": "dimensions and weight",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TC 300"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The TC 300 weighs a claimed 99.6 kg (219.6 lb) without fuel, with a 946 mm seat, 1,490 mm wheelbase, 26.1 degree rake, 346 mm ground clearance and a 7.2 L tank.",
+   "values": {
+    "weight_no_fuel": "99.6 kg (219.6 lb)",
+    "seat_height": "946 mm",
+    "wheelbase": "1490 mm",
+    "rake": "26.1 deg (63.9 deg head angle)",
+    "ground_clearance": "346 mm",
+    "fuel": "7.2 L",
+    "travel": "305 mm front / 293 mm rear",
+    "msrp_us": "$9,699"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX - 2025 Husqvarna TC 300 bike guide (spec table)",
+    "url": "https://www.vitalmx.com/product/guide/bikes/husqvarna/tc-300-16711",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Claimed figures. Seat height and travel are the same as the TC 150 and TC 250 platform."
+  },
+  {
+   "id": "lo7-004",
+   "domain": "chassis",
+   "topic": "TC 300 vs TC 150 weight gap (derived)",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TC 300",
+     "Husqvarna TC 150"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "On claimed figures the TC 300 is 6.8 kg (15 lb) heavier than the TC 150 (99.6 vs 92.8 kg without fuel); chassis dimensions are otherwise identical.",
+   "values": {
+    "TC 300": "99.6 kg",
+    "TC 150": "92.8 kg",
+    "difference": "6.8 kg (15.0 lb)"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX - 2025 Husqvarna TC 150 bike guide (spec table)",
+    "url": "https://www.vitalmx.com/product/guide/bikes/husqvarna/tc-150-16701",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "99.6 - 92.8 = 6.8 kg; both from the same publication's spec tables (TC 300: vitalmx.com/product/guide/bikes/husqvarna/tc-300-16711)."
+  },
+  {
+   "id": "lo7-005",
+   "domain": "identity",
+   "topic": "what the TC 300 is and how it differs",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TC 300"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The TC 300 is a bigger-bore TC 250 on the same 2025 motocross chassis (frame with material removed at the upper shock mount and front, new linkage seals and smaller linkage bolt), aimed at riders who want 450-like torque from a two-stroke; Husqvarna's motocross suspension sits 10 mm lower than KTM and GasGas.",
+   "values": {
+    "base": "TC 250",
+    "fork": "48 mm WP XACT AER air",
+    "shock": "WP XACT, tool-free adjusters",
+    "lowered_vs_KTM": "10 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX - First look 2025 Husqvarna motocross models",
+    "url": "https://www.vitalmx.com/features/first-look-2025-husqvarna-motocross-models",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Press-release content. The four-stroke multi-function map/QS/TC/launch switch is listed for four-strokes only."
+  },
+  {
+   "id": "lo7-006",
+   "domain": "ecu_electronics",
+   "topic": "TC 300 and TC 150 map switch",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TC 300",
+     "Husqvarna TC 150"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Both TBI two-strokes have two maps: map 1 (white) is linear and predictable for hard-pack and slippery tracks; map 2 (green) is sharper and more explosive for sand and heavy conditions.",
+   "values": {
+    "map_1": "white - standard, linear",
+    "map_2": "green - aggressive, sharper response"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX - 2025 Husqvarna TC 300 bike guide (spec table)",
+    "url": "https://www.vitalmx.com/product/guide/bikes/husqvarna/tc-300-16711",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Manufacturer descriptions repeated on the bike-guide pages for both models. An optional Connectivity Unit Offroad with the Ride Husqvarna app can store maps and suspension setups (e21tc)."
+  },
+  {
+   "id": "lo7-007",
+   "domain": "setups",
+   "topic": "TC 300 owner gearing fix",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TC 300"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "One owner who struggled with corners in third gear fixed it with a 49-tooth rear sprocket and a remap; another who tried a 50-tooth after one ride was not happy with it.",
+   "values": {
+    "rear_sprocket_tried": "49T (liked), 50T (not liked)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum - 2025 Husqvarna TC300 reviews?",
+    "url": "https://www.vitalmx.com/comment/8511866",
+    "date": "2025-12"
+   },
+   "confidence": "low",
+   "notes": "Single-owner reports; stock sprocket not stated in the thread. Treat as a direction to try, not a rule."
+  },
+  {
+   "id": "lo7-008",
+   "domain": "engine_mods",
+   "topic": "TC 300 common mods",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TC 300"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Owners of TBI 300s most often remap the ECU (main gain reported is much better over-rev), fit aftermarket heads and pipes, and on the air-fork TC some heavy riders convert to a coil-spring cartridge kit, which one called 'like butter'.",
+   "values": {
+    "common_mods": "ECU remap; aftermarket cylinder head; pipe and carbon silencer; coil-spring fork conversion with rear bladder"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum - 2025 Husqvarna TC300 reviews?",
+    "url": "https://www.vitalmx.com/comment/8511866",
+    "date": "2025-12"
+   },
+   "confidence": "low",
+   "notes": "Owner thread mixes TC, XC and TE 300 owners; the remap and spring-conversion comments are from TC/SX-type air-fork bikes. Several heavier riders said the stock air fork is hard to set up for them."
+  },
+  {
+   "id": "lo7-009",
+   "domain": "engine_architecture",
+   "topic": "bore, stroke and displacement",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TC 150"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The TC 150 is a 58 x 54.5 mm, 144 cc TBI two-stroke: the TC 125 engine with a bigger bore.",
+   "values": {
+    "bore": "58 mm",
+    "stroke": "54.5 mm",
+    "displacement": "144 cc"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX - 2025 Husqvarna TC 150 bike guide (spec table)",
+    "url": "https://www.vitalmx.com/product/guide/bikes/husqvarna/tc-150-16701",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Manufacturer spec figures as listed in the bike-guide spec table."
+  },
+  {
+   "id": "lo7-010",
+   "domain": "chassis",
+   "topic": "dimensions and weight",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TC 150"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The TC 150 weighs a claimed 92.8 kg (204.6 lb) without fuel, with a 946 mm seat, 1,490 mm wheelbase, 26.1 degree rake, 350 mm ground clearance and 305/293 mm travel.",
+   "values": {
+    "weight_no_fuel": "92.8 kg (204.6 lb)",
+    "seat_height": "946 mm",
+    "wheelbase": "1490 mm",
+    "rake": "26.1 deg",
+    "ground_clearance": "350 mm",
+    "fuel": "7.2 L",
+    "msrp_us": "$8,549"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Vital MX - 2025 Husqvarna TC 150 bike guide (spec table)",
+    "url": "https://www.vitalmx.com/product/guide/bikes/husqvarna/tc-150-16701",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Claimed figures."
+  },
+  {
+   "id": "lo7-011",
+   "domain": "identity",
+   "topic": "TX 300 (TBI) vs KTM 300 XC and 300 SX",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 TX 300 shares its crank, cylinder, piston and head with the KTM 300 SX, with mapping the only real engine difference; against the KTM 300 XC it has 10 mm less fork travel, 7 mm less rear travel and a 948 mm seat (954 mm on the KTM).",
+   "values": {
+    "fork_travel_vs_300XC": "-10 mm",
+    "rear_travel_vs_300XC": "-7 mm",
+    "seat_height": "948 mm (300 XC 954 mm)",
+    "msrp_us": "$11,199"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 2023 Husqvarna TX300 full test",
+    "url": "https://dirtbikemagazine.com/2023-husqvarna-tx300-full-test/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Manufacturer dimensions as reported by a magazine test. Oil is premixed (no oil injection) on the TBI engine."
+  },
+  {
+   "id": "lo7-012",
+   "domain": "power_feel",
+   "topic": "TX 300 TBI feel by rpm",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Testers found the TBI TX 300 has instant response with no spool-up, strong clean low end that will not stall on rocky climbs at idle, good part-throttle hook-up, and more power and aggression than the 2022 TPI; sudden clutch dumps can still briefly confuse it.",
+   "values": {
+    "bottom": "strong, clean, hard to stall",
+    "mid": "controllable, hooks up on roll-on",
+    "top": "one non-repeatable stumble noted"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 2023 Husqvarna TX300 full test",
+    "url": "https://dirtbikemagazine.com/2023-husqvarna-tx300-full-test/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Paraphrased tester impressions, stock bike. Unlike older 300s it does not surge or ping when hot (dbtx23w)."
+  },
+  {
+   "id": "lo7-013",
+   "domain": "power_feel",
+   "topic": "TX 300 measured weight",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "On a magazine scale the 2023 TX 300 weighed 224 lb without fuel, the same as the 2022 TPI model.",
+   "values": {
+    "weight_no_fuel": "224 lb (101.6 kg)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 2023 Husqvarna TX300 full test",
+    "url": "https://dirtbikemagazine.com/2023-husqvarna-tx300-full-test/",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Magazine scale, no fuel."
+  },
+  {
+   "id": "lo7-014",
+   "domain": "power_feel",
+   "topic": "TX 300i TPI feel vs carbureted",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "The 2020 TPI TX 300 lost the early TPI hesitation but still felt slightly lean down low; power came on smoother and peaked earlier than the carbureted bike and did not rev quite as high, while pulling from idle without stalling. It weighed 223 lb, about 6 lb more than a carbureted version.",
+   "values": {
+    "weight": "223 lb",
+    "injection_weight_penalty": "about 6 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - Husqvarna TX300 race test (The Wrap)",
+    "url": "https://dirtbikemagazine.com/husqvarna-tx300-race-test-plus-andrew-short-q-a-the-wrap/",
+    "date": "2020-02"
+   },
+   "confidence": "medium",
+   "notes": "Race-test impressions; peak horsepower described as essentially the same as the carbureted 2019 bike (no number)."
+  },
+  {
+   "id": "lo7-015",
+   "domain": "suspension",
+   "topic": "TX 300 air fork pressure (2023)",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 TX 300 runs the WP XACT air fork with off-road valving at a recommended 141 psi, against about 152 psi on the motocross bikes; the linkage shock is the MX unit revalved for off-road.",
+   "values": {
+    "fork_air_recommended": "141 psi (9.7 bar)",
+    "MX_bikes": "152 psi"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 2023 Husqvarna TX300 full test",
+    "url": "https://dirtbikemagazine.com/2023-husqvarna-tx300-full-test/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Recommended pressure as reported in the test. From 2024 the TX uses an XACT closed-cartridge spring fork, so this applies to 2023 (and the 2020-2022 air-fork TPI bikes only if their manual agrees)."
+  },
+  {
+   "id": "lo7-016",
+   "domain": "chassis",
+   "topic": "TX 300 2023 frame feel and weak spot",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The stiffer 2023 frame felt harsh at first but proved more stable at speed with less squat; in rough square-edged holes the TX hops from hole to hole and loses drive against a four-stroke, and testers rated suspension as the area most worth improving.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 2023 Husqvarna TX300 full test",
+    "url": "https://dirtbikemagazine.com/2023-husqvarna-tx300-full-test/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Tester impressions; aftermarket suspension tuning suggested."
+  },
+  {
+   "id": "lo7-017",
+   "domain": "setups",
+   "topic": "TX 300 desert race setup (TPI)",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "For a desert-style race the stock TX 300i was run with only a steering stabiliser added; suspension was rated good but busy on a rough course.",
+   "values": {
+    "mods": "steering stabiliser only"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - Husqvarna TX300 race test (The Wrap)",
+    "url": "https://dirtbikemagazine.com/husqvarna-tx300-race-test-plus-andrew-short-q-a-the-wrap/",
+    "date": "2020-02"
+   },
+   "confidence": "low",
+   "notes": "No clicker or pressure numbers published."
+  },
+  {
+   "id": "lo7-018",
+   "domain": "power_feel",
+   "topic": "TE 150i TPI dyno",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TE 150"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On a magazine rear-wheel dyno the 2022 TE 150i made 30.8 hp at 9,200 rpm and 17.6 lb-ft at 9,400 rpm, with very linear curves from 2,200 to 9,400 rpm before a sharp drop.",
+   "values": {
+    "peak_hp": "30.8 hp @ 9,200 rpm",
+    "peak_torque": "17.6 lb-ft @ 9,400 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2022 Husqvarna TE 150i dyno test",
+    "url": "https://www.dirtrider.com/story/tests/2022-husqvarna-te-150i-dyno-test/",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "In-house rear-wheel dyno (model not named), Dunlop D404 street tyre on the rear; fuel and map not stated, stock. TPI engine (2020-2023); not comparable with the TBI TE 150 from 2024."
+  },
+  {
+   "id": "lo7-019",
+   "domain": "power_feel",
+   "topic": "TE 150 TBI feel by rpm",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TE 150"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The TBI TE 150 idles through the pits without clutch, comes on linearly low down, has good mid-range response and flattens on top; it punishes throttle chopping on climbs more than bigger bikes, and second gear can feel tall in tight sections.",
+   "values": {
+    "bottom": "very manageable, linear",
+    "mid": "good response",
+    "top": "flattens"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing - 2024 Husqvarna TE150 test",
+    "url": "https://www.keeferinctesting.com/?p=27612",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Tester 5 ft 10 in, 190 lb; stock bike."
+  },
+  {
+   "id": "lo7-020",
+   "domain": "ecu_electronics",
+   "topic": "TE 150 map choice at altitude",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TE 150"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On the TBI TE 150 the white (standard) map worked best at altitude; the green map ran richer and hurt climbing until the tester switched back.",
+   "values": {
+    "white": "standard",
+    "green": "richer, worse at altitude"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing - 2024 Husqvarna TE150 test",
+    "url": "https://www.keeferinctesting.com/?p=27612",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Single tester; altitude not stated in the summary."
+  },
+  {
+   "id": "lo7-021",
+   "domain": "setups",
+   "topic": "TE 150 setup for a 190 lb rider",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TE 150"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The stock TE 150 suspension is designed around a rider of about 160 lb; a 190 lb tester ran the clickers firmer and found the shock carried more preload than ideal at correct sag, and suggested one tooth more on the rear sprocket to make second and third more usable.",
+   "values": {
+    "design_rider_weight": "about 160 lb",
+    "tester_weight": "190 lb",
+    "gearing_suggestion": "+1 tooth rear"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Keefer Inc. Testing - 2024 Husqvarna TE150 test",
+    "url": "https://www.keeferinctesting.com/?p=27612",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "No clicker counts published. Heavy-hit fork performance not tested."
+  },
+  {
+   "id": "lo7-022",
+   "domain": "identity",
+   "topic": "FE 450 vs FC 450 (2023)",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FE 450"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "The 2023 FE 450 uses the 2022 FC 450 engine and chassis with a more restrictive exhaust, milder ECU map, heavier high-output stator for lights, wide-ratio six-speed, WP XPLOR spring fork (about 3 lb heavier than the XACT air fork), 18-inch rear, 2.37 gal tank, X-ring chain and Braktec brakes and clutch.",
+   "values": {
+    "gearbox": "6-speed wide ratio (FC 5-speed)",
+    "fork": "WP XPLOR open-cartridge spring",
+    "tank": "2.37 gal",
+    "rear_wheel": "18 in, AT81"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 Husqvarna FE450 Heritage Edition",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-husqvarna-fe450-heritage-edition/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Magazine test of the Heritage Edition; the 2023 FE still used the previous-generation frame (new generation from 2024)."
+  },
+  {
+   "id": "lo7-023",
+   "domain": "power_feel",
+   "topic": "FE 450 feel and maps (2023)",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FE 450"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Testers describe the 2023 FE 450 as one long smooth pull with no hit; faster riders had to rev it hard to keep up, and the difference between map 1 and map 2 is too small. First gear is very low and sixth acts like an overdrive.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 Husqvarna FE450 Heritage Edition",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-husqvarna-fe450-heritage-edition/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Stock bike, paraphrased."
+  },
+  {
+   "id": "lo7-024",
+   "domain": "setups",
+   "topic": "FE 450 race setup (2023)",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FE 450"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "For racing, testers fitted a 4.8 N/mm fork spring (stock 4.6) with compression and rebound 10 clicks out (stock 15) and forks 5 mm up, and a 45 N/mm shock spring (stock 42) at 105 mm race sag, high-speed compression 1.5 turns out (stock 2), low-speed 10 out (15), rebound 12 out (15).",
+   "values": {
+    "fork_spring": "4.8 N/mm (stock 4.6)",
+    "fork_comp_reb": "10/10 out (stock 15/15)",
+    "fork_height": "5 mm",
+    "shock_spring": "45 N/mm (stock 42)",
+    "race_sag": "105 mm",
+    "shock_hsc": "1.5 turns out",
+    "shock_lsc": "10 out",
+    "shock_reb": "12 out"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 Husqvarna FE450 Heritage Edition",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-husqvarna-fe450-heritage-edition/",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Tester rider weight not stated; heavier riders told to go stiffer on springs."
+  },
+  {
+   "id": "lo7-025",
+   "domain": "known_issues",
+   "topic": "FE 450 weak points (2023)",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FE 450"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Testers flagged weak Braktec brakes and clutch feel (the stiffer Belleville setting did not help), spokes that loosen in the first rides, a push-button fuel cap they disliked, and XPLOR forks too soft for fast or heavy riders.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 Husqvarna FE450 Heritage Edition",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-husqvarna-fe450-heritage-edition/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Check spokes between motos early on."
+  },
+  {
+   "id": "lo7-026",
+   "domain": "suspension",
+   "topic": "FE 450 suspension upgrade path",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FE 450"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Testers who raced the FE 450 on motocross and fast desert-style courses upgraded to WP XPLOR Pro forks with a 6500 cartridge kit and an XPLOR Pro shock, which were stiff enough for that use.",
+   "values": {},
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Race test 2023 Husqvarna FE450 Heritage Edition",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-husqvarna-fe450-heritage-edition/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "lo7-027",
+   "domain": "chassis",
+   "topic": "FE 450 2024 chassis feel",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FE 450"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 FE 450 frame is smaller and more compact with better anti-squat, and its new XACT closed-cartridge fork is firmer than the previous Husqvarna feel with no bottoming; it still feels heavy in tight sections where the front can push.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Australasian Dirt Bike - Enduro test 2024 Husqvarna FE 450",
+    "url": "https://adbmag.com.au/editorial/enduro-test-2024-husqvarna-fe-450/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Launch impressions; no clicker settings or weights given."
+  },
+  {
+   "id": "lo7-028",
+   "domain": "power_feel",
+   "topic": "EX 450F feel (2023 shootout)",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "In a four-bike off-road 450 shootout the 2023 EX 450F was the smoothest and slowest-feeling: ultra-smooth bottom that spins up slowly, real power in the mid-range, a top end that felt like a 350F, and a heavier flywheel feel with classic four-stroke chug.",
+   "values": {
+    "shootout_place": "4th of 4"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2023 450cc off-road shootout",
+    "url": "https://dirtbiketest.com/fresh-dirt/2023-450cc-off-road-shootout/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Stock, no map switch fitted (accessory). Testers called it a generation behind the 2023 KTM 450 XC-F in chassis and engine."
+  },
+  {
+   "id": "lo7-029",
+   "domain": "setups",
+   "topic": "EX 450F air fork pressure tweak",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Most shootout testers added about 5 psi to the EX 450F's AER48 air fork for bottoming resistance; both ends lacked bottoming resistance compared with the Japanese bikes and the bike could feel skittish at speed.",
+   "values": {
+    "fork_air_change": "+5 psi"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test - 2023 450cc off-road shootout",
+    "url": "https://dirtbiketest.com/fresh-dirt/2023-450cc-off-road-shootout/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Base pressure not stated. From 2024 the EX uses a spring fork."
+  },
+  {
+   "id": "lo7-030",
+   "domain": "identity",
+   "topic": "2024 EX 450F vs MC 450F",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 EX 450F is a US-only cross-country model with most MC 450F parts including the five-speed gearbox, plus an 18-inch rear and kickstand; it has two maps but without the accessory switch it is fixed on the milder one, which testers found smoother and less tiring.",
+   "values": {
+    "gearbox": "5-speed (per US test)",
+    "maps": "2, milder fixed without switch"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - First ride 2024 GasGas EX450F",
+    "url": "https://dirtbikemagazine.com/first-ride-2024-gasgas-ex450f/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "First-ride report. See conflicts: an Australian test says the 2024 EX range uses the EC's wide-ratio six-speed."
+  },
+  {
+   "id": "lo7-031",
+   "domain": "identity",
+   "topic": "FX 350 vs FC 350 (2025)",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FX 350"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 FX 350 shares frame, engine, mapping and exhaust with the FC 350 and adds an XACT spring fork, six-speed gearbox, 18-inch rear, kickstand, handguards, O-ring chain, skid plate and a tank about a quart larger (about 2.24 gal); the 2025 frame has more vertical flex.",
+   "values": {
+    "tank": "about 2.24 gal",
+    "msrp_us": "$12,049"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike - 2025 Husqvarna FX350 full test",
+    "url": "https://dirtbikemagazine.com/2025-husqvarna-fx350-full-test/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Magazine description. Brembo brakes returned on Husqvarna closed-course bikes."
+  },
+  {
+   "id": "lo7-032",
+   "domain": "setups",
+   "topic": "WR250F race sag",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "For the 2025 WR250F the recommended race sag is 95-100 mm, noticeably less than the usual 100-110 mm; the stock fork works for average trail riders but transmits jolts on bigger chop for fast riders.",
+   "values": {
+    "race_sag": "95-100 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Transmoto - 2025 WR250F suspension set-up tips",
+    "url": "https://transmoto.com.au/2025-wr250f-suspension-set-up-tips/",
+    "date": "2025"
+   },
+   "confidence": "medium",
+   "notes": "Video carries the clicker settings; not in the text."
+  },
+  {
+   "id": "lo7-033",
+   "domain": "setups",
+   "topic": "WR250F long-term starting setup",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "A long-term test bike started from manual-based settings: fork compression 6 clicks out (standard 11) and rebound 5 (7), shock rebound 6 (11), low-speed compression 6 (10) and high-speed 1.5 turns, with 40 mm static sag.",
+   "values": {
+    "fork_comp": "6 out (std 11)",
+    "fork_reb": "5 out (std 7)",
+    "shock_reb": "6 out (std 11)",
+    "shock_lsc": "6 out (std 10)",
+    "shock_hsc": "1.5 turns",
+    "static_sag": "40 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21 - Long-term test: 2026 Yamaha WR250F",
+    "url": "https://enduro21.com/en/bikes/latest/long-term-test-saying-hello-to-our-new-2026-yamaha-wr250f",
+    "date": "2026"
+   },
+   "confidence": "low",
+   "notes": "Values transcribed from the magazine's list; the summary did not say whether 'clicks off' means out from fully closed. Rider weight not given."
+  },
+  {
+   "id": "lo7-034",
+   "domain": "known_issues",
+   "topic": "WR250F linkage dirt and axle marks",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "WR250F"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Testers found the WR250F linkage collects dirt more than many bikes, and the right-side axle adjuster marks hide under the swingarm, so align the wheel from the left side.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Enduro21 - Long-term test: 2026 Yamaha WR250F",
+    "url": "https://enduro21.com/en/bikes/latest/long-term-test-saying-hello-to-our-new-2026-yamaha-wr250f",
+    "date": "2026"
+   },
+   "confidence": "low",
+   "notes": "Workshop observations from a long-term test."
+  },
+  {
+   "id": "lo7-035",
+   "domain": "setups",
+   "topic": "85 SX shock spring by rider weight",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "KTM's 2020 85 SX manual lists shock springs by rider weight: 35 N/mm under 45 kg (99 lb), 40 N/mm for 45-55 kg (99-121 lb) and 45 N/mm over 55 kg (121 lb), with 30 mm static and 120 mm riding sag.",
+   "values": {
+    "<45 kg": "35 N/mm",
+    "45-55 kg": "40 N/mm",
+    ">55 kg": "45 N/mm",
+    "static_sag": "30 mm",
+    "riding_sag": "120 mm",
+    "preload": "11 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM - Owner's manual 2020 85 SX (art. no. 3213998en)",
+    "url": "https://www.ktmshop.se/documents/20_3213998_en_OM.pdf",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "Rider weight in gear. Applies to the 2018-2024 85 SX generation by this manual year; the 2025 generation has a new PDS XACT shock and was not checked."
+  },
+  {
+   "id": "lo7-036",
+   "domain": "setups",
+   "topic": "85 SX fork air and clicker presets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "KTM's 2020 85 SX manual sets the AER fork at 5.0 bar (73 psi) standard within 4-8 bar in 0.2 bar steps, and gives Comfort/Standard/Sport clickers of 17/12/7 clicks out for fork compression and rebound and 18/15/12 for shock low-speed compression and rebound.",
+   "values": {
+    "fork_air_std": "5.0 bar (73 psi)",
+    "fork_air_range": "4-8 bar",
+    "fork_comp_reb_comfort_std_sport": "17/12/7",
+    "shock_lsc_reb_comfort_std_sport": "18/15/12",
+    "shock_hsc_std": "2 turns"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM - Owner's manual 2020 85 SX (art. no. 3213998en)",
+    "url": "https://www.ktmshop.se/documents/20_3213998_en_OM.pdf",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "Lighter kids use the low end of the air range and the Comfort preset; heavier kids go up. See conflicts for the shock high-speed comfort/sport values. Premix 1:40 on 98-octane per manual."
+  },
+  {
+   "id": "lo7-037",
+   "domain": "setups",
+   "topic": "85 SX shock spring by rider weight",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 85 SX manual lists shock springs by rider weight: 35 N/mm under 45 kg (99 lb), 40 N/mm for 45-55 kg (99-121 lb) and 45 N/mm over 55 kg (121 lb), with 30 mm static and 120 mm riding sag.",
+   "values": {
+    "<45 kg": "35 N/mm",
+    "45-55 kg": "40 N/mm",
+    ">55 kg": "45 N/mm",
+    "static_sag": "30 mm",
+    "riding_sag": "120 mm",
+    "preload": "11 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM - Owner's manual 2023 85 SX (art. no. 3214636en)",
+    "url": "https://www.ktmshop.se/bike-manuals/23_3214636_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Rider weight in gear. Applies to the 2018-2024 85 SX generation by this manual year; the 2025 generation has a new PDS XACT shock and was not checked."
+  },
+  {
+   "id": "lo7-038",
+   "domain": "setups",
+   "topic": "85 SX fork air and clicker presets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 85 SX manual sets the AER fork at 5.0 bar (73 psi) standard within 4-8 bar in 0.2 bar steps, and gives Comfort/Standard/Sport clickers of 17/12/7 clicks out for fork compression and rebound and 18/15/12 for shock low-speed compression and rebound.",
+   "values": {
+    "fork_air_std": "5.0 bar (73 psi)",
+    "fork_air_range": "4-8 bar",
+    "fork_comp_reb_comfort_std_sport": "17/12/7",
+    "shock_lsc_reb_comfort_std_sport": "18/15/12",
+    "shock_hsc_std": "2 turns"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM - Owner's manual 2023 85 SX (art. no. 3214636en)",
+    "url": "https://www.ktmshop.se/bike-manuals/23_3214636_en_OM.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Lighter kids use the low end of the air range and the Comfort preset; heavier kids go up. See conflicts for the shock high-speed comfort/sport values. Premix 1:40 on 98-octane per manual."
+  },
+  {
+   "id": "lo7-039",
+   "domain": "setups",
+   "topic": "85 SX fork spring chart (cartridge kit)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": []
+   },
+   "statement": "A suspension maker's coil-spring chart for the 85 SX fork runs from 30 N/mm under 35 kg to 32 (40 kg), 34 (45-50 kg), 36 (55 kg), 38 (60 kg) and 40 N/mm over 70 kg rider weight in gear.",
+   "values": {
+    "<35 kg": "30 N/mm",
+    "40 kg": "32 N/mm",
+    "45-50 kg": "34 N/mm",
+    "55 kg": "36 N/mm",
+    "60 kg": "38 N/mm",
+    ">70 kg": "40 N/mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Ohlins - front fork setup data and spring guide, KTM 85 SX / Husqvarna TC 85 / GasGas MC 85",
+    "url": "https://media.partseurope.eu/parts/b8eb2b6f6bfd6a055038d034c09d2bd7.pdf",
+    "date": "undated"
+   },
+   "confidence": "medium",
+   "notes": "Applies to that maker's spring fork kit, not the stock air fork. Document gives no model years, so held. No entry for 60-70 kg; preload adjustable by washers.",
+   "status": "HELD"
+  },
+  {
+   "id": "lo7-040",
+   "domain": "setups",
+   "topic": "85 SX settings for a 124 lb kid",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "One parent with a 124 lb rider ran about 72 psi in the fork with compression and rebound 2-3 clicks out from stock, and suggested a stiffer rear spring at that weight.",
+   "values": {
+    "rider_weight": "124 lb (56 kg)",
+    "fork_air": "72 psi",
+    "clickers": "2-3 out from stock"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum - KTM 85 SX air fork settings",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/KTM-85-SX-air-fork-settings,1373449",
+    "date": "2020-03"
+   },
+   "confidence": "low",
+   "notes": "Single forum reply dated 2020; bike year not stated, so the year here is the post date. At 56 kg the KTM chart already calls for the 45 N/mm shock spring."
+  },
+  {
+   "id": "lo7-041",
+   "domain": "chassis",
+   "topic": "2025 85 SX geometry and chassis",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 85 SX has a 63.5 degree head angle (half a degree flatter, moved 6 mm back), 35 degree steering lock, engine rotated 3 degrees up, a 2.8 kg die-cast swingarm (was 3.1 kg), 278 mm fork travel, 289 mm rear travel (was 305) and a 5.4 L tank.",
+   "values": {
+    "head_angle": "63.5 deg",
+    "steering_lock": "35 deg",
+    "swingarm": "2.8 kg",
+    "fork_travel": "278 mm",
+    "rear_travel": "289 mm",
+    "tank": "5.4 L",
+    "brakes": "240 mm front / 220 mm rear"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM - 2025 KTM 85 SX media kit",
+    "url": "https://ktm.com/en-int/85-sx-media-kit.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Engine rotation and steering-lock change (+2 deg) from adb85. Media kit does not give seat heights or weight."
+  },
+  {
+   "id": "lo7-042",
+   "domain": "engine_architecture",
+   "topic": "2025 85 SX engine changes",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "The 2025 85 SX keeps its exhaust valve, six-speed and hydraulic clutch, and gets a new head for an M10 plug, Hidria digital CDI with a new ignition curve, a new exhaust tuned for bottom and mid, and updated carburetor settings.",
+   "values": {
+    "ignition": "Hidria digital CDI",
+    "gearbox": "6-speed",
+    "clutch": "hydraulic"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM - 2025 KTM 85 SX media kit",
+    "url": "https://ktm.com/en-int/85-sx-media-kit.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "New carb settings not published in the media kit or launch article (see not_found)."
+  },
+  {
+   "id": "lo7-043",
+   "domain": "power_feel",
+   "topic": "YZ250X vs YZ250 dyno curve shape",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250X"
+    ],
+    "years": []
+   },
+   "statement": "On a magazine dyno comparison the YZ250X is tractable from idle to 6,500 rpm, dips at 7,000 and picks up again at 7,400 rpm, is almost identical to the YZ250 at the 8,800 rpm peak, and never makes more power than the YZ250 until the curves merge near 9,000 rpm.",
+   "values": {
+    "peak_rpm": "about 8,800 rpm",
+    "dip": "7,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action - Ask the MXperts: the X factor versus the non-X factor",
+    "url": "https://motocrossactionmag.com/ask-the-mxperts-the-x-factor-versus-the-non-x-factor",
+    "date": "2022-12"
+   },
+   "confidence": "medium",
+   "notes": "Peak numbers only in a chart image that could not be read. Article dated Dec 2022 and does not name the model year, so held; likely the 2016-2022 engine.",
+   "status": "HELD"
+  },
+  {
+   "id": "lo7-044",
+   "domain": "engine_mods",
+   "topic": "YZ250X owner mods",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250X"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "YZ250X owners commonly add a heavier flywheel, an auto-clutch to stop stalling, an aftermarket head, a revalve and respring, and gearing such as 13/51; one removed a governor shim. They report a simple, not-finicky carb once set up.",
+   "values": {
+    "gearing_example": "13/51",
+    "premix_example": "40:1"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "ThumperTalk - YZ250X talk me into it (page 2)",
+    "url": "https://www.thumpertalk.com/forums/topic/1430531-yz250x-talk-me-into-it/page/2",
+    "date": "undated"
+   },
+   "confidence": "low",
+   "notes": "Owner reports on 2017 and 2021 bikes; thread undated."
+  },
+  {
+   "id": "lo7-045",
+   "domain": "known_issues",
+   "topic": "YZ250X downshift to first",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250X"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Owners report that downshifting from second to first on the move often finds neutral, and the bike has kickstart only.",
+   "values": {},
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "ThumperTalk - YZ250X talk me into it (page 2)",
+    "url": "https://www.thumpertalk.com/forums/topic/1430531-yz250x-talk-me-into-it/page/2",
+    "date": "undated"
+   },
+   "confidence": "low",
+   "notes": "Owner reports."
+  },
+  {
+   "id": "lo7-046",
+   "domain": "engine_mods",
+   "topic": "YZ125X lean slide fix",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125X"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "One owner who jetted a 2023 YZ125X for racing and trail found the stock needle could not cover a lean slide cutaway and fitted a 5.5 slide, which allowed more standard jetting.",
+   "values": {
+    "slide": "5.5 (replacement)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum - 2023 YZ125 jetting fix",
+    "url": "https://www.vitalmx.com/forums/tech-helprace-shop/2023-yz125-jetting-fix",
+    "date": "2023"
+   },
+   "confidence": "low",
+   "notes": "Single owner; stock slide number for the X not stated."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "2024 GasGas EX 450F gearbox",
+   "models": [
+    "GasGas EX 450F"
+   ],
+   "years": [
+    2024
+   ],
+   "values": {
+    "Dirt Bike first ride (US)": "five-speed, as MC 450F",
+    "Transmoto (Australia)": "EX range uses the EC's wide-ratio six-speed"
+   },
+   "note": "Possibly a market difference or a two-stroke vs four-stroke mix-up in the Australian article; check the US owner's manual."
+  },
+  {
+   "topic": "KTM 85 SX shock high-speed compression Comfort/Sport presets",
+   "models": [
+    "85 SX 17/14",
+    "85 SX 19/16"
+   ],
+   "years": [
+    2020,
+    2023
+   ],
+   "values": {
+    "2020 manual (as extracted)": "Comfort 1.5 / Std 2 / Sport 2.5 turns",
+    "2023 manual (as extracted)": "Comfort 2.5 / Std 2 / Sport 1.5 turns"
+   },
+   "note": "Turns out from closed: more turns is softer, so 2023 order (Comfort 2.5) is logical; the 2020 value may be an extraction error. Verify against the PDF tables."
+  }
+ ],
+ "not_found": [
+  {
+   "item": "Husqvarna TC 300 dyno (2025)",
+   "searched": "2025 Husqvarna TC 300 dyno horsepower test; magazine dyno lists show TC 250 and TC 150 only"
+  },
+  {
+   "item": "Husqvarna TC 300 / TC 150 tester suspension settings",
+   "searched": "2025 TC 150 test settings fork air pressure; TC 300 test review"
+  },
+  {
+   "item": "Husqvarna TX 300 TBI dyno (2023-2026)",
+   "searched": "Husqvarna TX 300 dyno test horsepower; magazine dyno site search"
+  },
+  {
+   "item": "KTM 250 XC TBI dyno and full test (2023-2026)",
+   "searched": "2024 KTM 250 XC TBI dyno; 250XC test review on major US magazines (only 2019 carb test found)"
+  },
+  {
+   "item": "KTM 125 XC 2024+ tester setups",
+   "searched": "2024 KTM 125 XC test review TBI settings"
+  },
+  {
+   "item": "YZ125X dyno and YZ250X dyno peak numbers",
+   "searched": "YZ125X dyno horsepower; YZ250X dyno chart (only a curve description found)"
+  },
+  {
+   "item": "Husqvarna FE 450 dyno 2020-2026",
+   "searched": "Husqvarna FE 450 dyno test (only 2019 found, outside range)"
+  },
+  {
+   "item": "GasGas EX 450F dyno",
+   "searched": "GasGas EX 450F dyno test horsepower (MC 450F only)"
+  },
+  {
+   "item": "KTM 85 SX stock carb jetting by year and 2025 carb settings",
+   "searched": "85 SX stock jetting PWK 28; owner's manual technical data section did not extract; 2025 media kit says only 'updated carburetor settings'"
+  },
+  {
+   "item": "KTM 85 SX 2025+ shock spring chart by rider weight",
+   "searched": "85 SX shock spring by rider weight; only 2020 and 2023 manuals read"
+  },
+  {
+   "item": "Husqvarna FX 450 2024-2025 tester setups and known issues",
+   "searched": "FX 450 2024 2025 review cross-country test settings; FX long-term problems"
+  },
+  {
+   "item": "GasGas EX 300 new setups/mods beyond existing records",
+   "searched": "covered in transmoto and existing BAK records; no new numbers found"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Vital MX - 2025 Husqvarna TC 300 bike guide (spec table)",
+   "url": "https://www.vitalmx.com/product/guide/bikes/husqvarna/tc-300-16711",
+   "type": "magazine",
+   "date": "2025"
+  },
+  {
+   "name": "Vital MX - 2025 Husqvarna TC 150 bike guide (spec table)",
+   "url": "https://www.vitalmx.com/product/guide/bikes/husqvarna/tc-150-16701",
+   "type": "magazine",
+   "date": "2025"
+  },
+  {
+   "name": "Vital MX - First look 2025 Husqvarna motocross models",
+   "url": "https://www.vitalmx.com/features/first-look-2025-husqvarna-motocross-models",
+   "type": "magazine",
+   "date": "2024"
+  },
+  {
+   "name": "Enduro21 - First look 2025 Husqvarna TC and FC range",
+   "url": "https://enduro21.com/en/news/first-look-2025-husqvarna-tc-and-fc-model-range-new-150-and-300cc-two-strokes",
+   "type": "magazine",
+   "date": "2024"
+  },
+  {
+   "name": "Vital MX forum - 2025 Husqvarna TC300 reviews?",
+   "url": "https://www.vitalmx.com/comment/8511866",
+   "type": "forum",
+   "date": "2025-12"
+  },
+  {
+   "name": "Dirt Bike - 2023 Husqvarna TX300 full test",
+   "url": "https://dirtbikemagazine.com/2023-husqvarna-tx300-full-test/",
+   "type": "magazine",
+   "date": "2023"
+  },
+  {
+   "name": "Dirt Bike - Riding the all-new 2023 Husky TX300 2-stroke (The Wrap)",
+   "url": "https://dirtbikemagazine.com/riding-the-all-new-2023-husky-tx300-2-stroke-the-wrap/",
+   "type": "magazine",
+   "date": "2022"
+  },
+  {
+   "name": "Dirt Bike - Husqvarna TX300 race test (The Wrap)",
+   "url": "https://dirtbikemagazine.com/husqvarna-tx300-race-test-plus-andrew-short-q-a-the-wrap/",
+   "type": "magazine",
+   "date": "2020-02"
+  },
+  {
+   "name": "Dirt Rider - 2022 Husqvarna TE 150i dyno test",
+   "url": "https://www.dirtrider.com/story/tests/2022-husqvarna-te-150i-dyno-test/",
+   "type": "magazine",
+   "date": "2022"
+  },
+  {
+   "name": "Keefer Inc. Testing - 2024 Husqvarna TE150 test",
+   "url": "https://www.keeferinctesting.com/?p=27612",
+   "type": "magazine",
+   "date": "2023"
+  },
+  {
+   "name": "Motocross Action - Race test 2023 Husqvarna FE450 Heritage Edition",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-husqvarna-fe450-heritage-edition/",
+   "type": "magazine",
+   "date": "2023"
+  },
+  {
+   "name": "Australasian Dirt Bike - Enduro test 2024 Husqvarna FE 450",
+   "url": "https://adbmag.com.au/editorial/enduro-test-2024-husqvarna-fe-450/",
+   "type": "magazine",
+   "date": "2023"
+  },
+  {
+   "name": "Dirt Bike Test - 2023 450cc off-road shootout",
+   "url": "https://dirtbiketest.com/fresh-dirt/2023-450cc-off-road-shootout/",
+   "type": "magazine",
+   "date": "2023"
+  },
+  {
+   "name": "Dirt Bike - First ride 2024 GasGas EX450F",
+   "url": "https://dirtbikemagazine.com/first-ride-2024-gasgas-ex450f/",
+   "type": "magazine",
+   "date": "2023"
+  },
+  {
+   "name": "Transmoto - 2024 GasGas cross-country weapons",
+   "url": "https://transmoto.com.au/2024-gasgas-ex-weapons-are-they-made-for-you",
+   "type": "magazine",
+   "date": "2023"
+  },
+  {
+   "name": "Dirt Bike - 2025 Husqvarna FX350 full test",
+   "url": "https://dirtbikemagazine.com/2025-husqvarna-fx350-full-test/",
+   "type": "magazine",
+   "date": "2025"
+  },
+  {
+   "name": "Transmoto - 2025 WR250F suspension set-up tips",
+   "url": "https://transmoto.com.au/2025-wr250f-suspension-set-up-tips/",
+   "type": "magazine",
+   "date": "2025"
+  },
+  {
+   "name": "Enduro21 - Long-term test: 2026 Yamaha WR250F",
+   "url": "https://enduro21.com/en/bikes/latest/long-term-test-saying-hello-to-our-new-2026-yamaha-wr250f",
+   "type": "magazine",
+   "date": "2026"
+  },
+  {
+   "name": "KTM - Owner's manual 2020 85 SX (art. no. 3213998en)",
+   "url": "https://www.ktmshop.se/documents/20_3213998_en_OM.pdf",
+   "type": "manufacturer",
+   "date": "2019"
+  },
+  {
+   "name": "KTM - Owner's manual 2023 85 SX (art. no. 3214636en)",
+   "url": "https://www.ktmshop.se/bike-manuals/23_3214636_en_OM.pdf",
+   "type": "manufacturer",
+   "date": "2022"
+  },
+  {
+   "name": "Ohlins - front fork setup data and spring guide, KTM 85 SX / Husqvarna TC 85 / GasGas MC 85",
+   "url": "https://media.partseurope.eu/parts/b8eb2b6f6bfd6a055038d034c09d2bd7.pdf",
+   "type": "tuner",
+   "date": "undated"
+  },
+  {
+   "name": "KTM - 2025 KTM 85 SX media kit",
+   "url": "https://ktm.com/en-int/85-sx-media-kit.html",
+   "type": "manufacturer",
+   "date": "2024"
+  },
+  {
+   "name": "Australasian Dirt Bike - 2025 KTM 85 SX revealed",
+   "url": "https://adbmag.com.au/editorial/2025-ktm-85-sx-revealed/",
+   "type": "magazine",
+   "date": "2024"
+  },
+  {
+   "name": "Vital MX forum - KTM 85 SX air fork settings",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/KTM-85-SX-air-fork-settings,1373449",
+   "type": "forum",
+   "date": "2020-03"
+  },
+  {
+   "name": "Motocross Action - Ask the MXperts: the X factor versus the non-X factor",
+   "url": "https://motocrossactionmag.com/ask-the-mxperts-the-x-factor-versus-the-non-x-factor",
+   "type": "magazine",
+   "date": "2022-12"
+  },
+  {
+   "name": "ThumperTalk - YZ250X talk me into it (page 2)",
+   "url": "https://www.thumpertalk.com/forums/topic/1430531-yz250x-talk-me-into-it/page/2",
+   "type": "forum",
+   "date": "undated"
+  },
+  {
+   "name": "Vital MX forum - 2023 YZ125 jetting fix",
+   "url": "https://www.vitalmx.com/forums/tech-helprace-shop/2023-yz125-jetting-fix",
+   "type": "forum",
+   "date": "2023"
+  }
+ ]
+}

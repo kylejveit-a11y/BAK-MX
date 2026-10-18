@@ -1,0 +1,3614 @@
+{
+ "slice": "KTM-family four-strokes, 2019-2022 generation, model years 2020-2022 (GasGas 2021-2022)",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "250 SX-F",
+   "350 SX-F",
+   "450 SX-F",
+   "250 XC-F",
+   "350 XC-F",
+   "450 XC-F",
+   "Husqvarna FC 250",
+   "Husqvarna FC 350",
+   "Husqvarna FC 450",
+   "Husqvarna FX 350",
+   "Husqvarna FX 450",
+   "Husqvarna FE 450",
+   "GasGas MC 250F",
+   "GasGas MC 350F",
+   "GasGas MC 450F",
+   "GasGas EX 250F",
+   "GasGas EX 350F",
+   "GasGas EX 450F"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022
+  ]
+ },
+ "records": [
+  {
+   "id": "kg7-001",
+   "domain": "identity",
+   "topic": "2020 model-year changes (KTM SX-F)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "For 2020 the KTM SX-F four-strokes got new WP XACT fork settings with a new fork piston and a new shock compression adjuster and settings. Only the 450 got a reshaped piston and a 49-tooth rear sprocket (one tooth up, about 2% lower gearing); the 250 and 350 kept their pistons and sprockets.",
+   "values": {
+    "450_rear_sprocket": "48T (2019) -> 49T (2020)",
+    "gearing_change": "about 2% lower"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling: 2020 KTM 450/350/250 SX-F First Look",
+    "url": "https://ultimatemotorcycling.com/2019/04/30/2020-ktm-450-sx-f-350-sx-f-and-250-sx-f-first-look-6-fast-facts",
+    "date": "2019-04"
+   },
+   "confidence": "high",
+   "notes": "Manufacturer launch information as reported by the magazine. 'XACT' is the 2020 rename of the AER 48 air fork; the hardware is largely the same as 2019."
+  },
+  {
+   "id": "kg7-002",
+   "domain": "identity",
+   "topic": "2020 450 SX-F internal changes",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Testers report the 2020 450 SX-F also got a bronze top-end bushing in the Pankl rod instead of a coated one, redesigned rocker arms with less valve-train inertia, and piston skirts ground 0.01 mm thinner to cut friction. Map 2 became crisper from low to mid; map 1 was unchanged.",
+   "values": {
+    "piston_skirt": "-0.01 mm",
+    "rod_small_end": "bronze bushing",
+    "map_2": "crisper low-to-mid",
+    "map_1": "unchanged"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-ktm-450sxf",
+    "date": "2020-04"
+   },
+   "confidence": "medium",
+   "notes": "Magazine reporting of KTM technical briefing; KTM's own 2022 launch also lists new rocker arms for 2022 (see conflicts)."
+  },
+  {
+   "id": "kg7-003",
+   "domain": "identity",
+   "topic": "2021 model-year changes (KTM SX-F)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "2021 was a suspension year: the WP XACT air fork got oil-bypass notches, a 'trampoline' end-of-stroke shim, a cross-over bleed slot twice as long, four bypass holes in the air seal, a rubber bump stop instead of the hydraulic bottoming cone and a hand-turned rebound clicker. The shock got new damping and SKF low-friction linkage seals. Engine internals were unchanged, but map 1 was made more responsive low down and map 2 got more over-rev; a vented airbox cover came in the box and Dunlop MX33 tyres replaced MX3S.",
+   "values": {
+    "crossover_bleed_slot": "2x 2020 length",
+    "air_seal_bypass_holes": "4",
+    "tyres": "Dunlop MX33 (was MX3S)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 10 things you need to know about the 2021 KTMs",
+    "url": "https://motocrossactionmag.com/10-things-you-need-to-know-about-the-2021-ktms",
+    "date": "2020-12"
+   },
+   "confidence": "high",
+   "notes": "Magazine summary of KTM's 2021 changes. One source counts three bypass holes in the air seal (2021 350 SX-F test) rather than four."
+  },
+  {
+   "id": "kg7-004",
+   "domain": "identity",
+   "topic": "2021 450 SX-F: what testers noticed",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On the track the 2021 450 SX-F felt the same in the engine; the differences were the fork (more compliant, so the frame no longer felt too rigid in supercross-style whoops) and a map 2 that adds mid and top power while barely changing throttle response.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2021 KTM 450SX-F Full Test",
+    "url": "https://dirtbikemagazine.com/2021-ktm-450sxf-full-test/",
+    "date": "2020-11"
+   },
+   "confidence": "medium",
+   "notes": "Tester impressions; no dyno in this article."
+  },
+  {
+   "id": "kg7-005",
+   "domain": "identity",
+   "topic": "2022 model-year changes (KTM SX-F)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "For 2022 KTM lists new lighter, stiffer rocker arms for the 450 SX-F and new counterbalancer-shaft bearings for the 250 and 350 SX-F, plus new graphics; suspension, ECU and chassis were carried over. Testers add that the 450 SX-F alone got an air/oil separator.",
+   "values": {
+    "450": "new rocker arms; air/oil separator",
+    "250_350": "new balancer shaft bearings"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling: 2022 KTM Motocross Lineup First Look",
+    "url": "https://ultimatemotorcycling.com/2021/05/04/2022-ktm-motocross-lineup-first-look-fast-facts-specs-photos/",
+    "date": "2021-05"
+   },
+   "confidence": "high",
+   "notes": "Air/oil separator from the 2022 race test (Motocross Action, 2022-04). One tuner called the 2022 450 SX-F 'virtually unchanged' from 2021."
+  },
+  {
+   "id": "kg7-006",
+   "domain": "identity",
+   "topic": "2022.5 Factory / Rockstar editions are the next generation",
+   "applies_to": {
+    "make": [
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450",
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "The mid-2022 KTM Factory Edition and Husqvarna Rockstar Edition bikes are not the 2020-2022 platform: they share the engine, frame and bodywork of the 2023 models. On the same in-house dyno the 2022 FC 450 Rockstar Edition made 54.8 hp at 9,600 rpm and 33.3 lb-ft at 6,900 rpm, 1.3 hp more than the standard 2022 FC 450 and stronger from about 9,100 rpm to the limiter near 11,300 rpm.",
+   "values": {
+    "fc450_rockstar_2022_peak": "54.8 hp @ 9,600 rpm",
+    "fc450_rockstar_2022_torque": "33.3 lb-ft @ 6,900 rpm",
+    "gain_vs_std_2022": "+1.3 hp peak"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2022 Husqvarna FC 450 Rockstar Edition Dyno Test",
+    "url": "https://www.dirtrider.com/story/tests/husqvarna-fc-450-rockstar-edition-dyno-test-2022",
+    "date": "2022-06"
+   },
+   "confidence": "high",
+   "notes": "Owners of a 2022 'Factory' or 'Rockstar' bike should use 2023-generation data. Dyno: magazine in-house rear-wheel dyno (same as the standard 2022 FC 450 test), fuel and map not stated."
+  },
+  {
+   "id": "kg7-007",
+   "domain": "identity",
+   "topic": "what the 2023 generation changed vs 2020-2022",
+   "applies_to": {
+    "make": [
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F",
+     "Husqvarna FC 250",
+     "Husqvarna FC 350",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The 2023 bikes are a new generation: engine tilted 2 degrees back, new frame with a forged shock mount, hollow die-cast swingarm, polyamide/aluminium subframe, new shock, new fork hydrostop and a standard quickshifter. Compression went from 12.75:1 to 13.1:1 on the 450, from 14.0:1 to 14.6:1 on the 350, and the 250 moved from 78 x 52.3 mm/14.4:1 to 81 x 48.5 mm/14.5:1. Wheelbase grew from 1,485 to 1,493 mm.",
+   "values": {
+    "450_compression": "12.75:1 -> 13.1:1",
+    "350_compression": "14.0:1 -> 14.6:1",
+    "250_bore_stroke": "78 x 52.3 -> 81 x 48.5 mm",
+    "250_compression": "14.4:1 -> 14.5:1",
+    "wheelbase": "1,485 -> 1,493 mm",
+    "quickshifter": "none -> standard"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 2023 KTM 450SXF, 350SXF, 250SXF motocross models",
+    "url": "https://motocrossactionmag.com/2023-ktm-450sxf-350sxf-250sxf-motocross-models",
+    "date": "2022-05"
+   },
+   "confidence": "high",
+   "notes": "2023 values from the 2023 launch article; 2020-2022 values from the 2020 Husqvarna first look (12.75/14.0/14.4:1), 2022 dyno-test spec boxes (95 x 63.4 mm, 12.75:1; 78 x 52.3 mm, 14.4:1) and KTM 2022 450 SX-F data (1,485 mm wheelbase). Comparison assembled by BAK."
+  },
+  {
+   "id": "kg7-008",
+   "domain": "identity",
+   "topic": "how to tell 2020-2022 from 2023+",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "A 2020-2022 KTM SX-F has no quickshifter button, a black (not orange) frame on standard models, and the older bodywork; the 2022 testers noted that only the orange-framed mid-year Factory Edition previewed the 2023 frame, swingarm, engine and plastics.",
+   "values": {
+    "quickshifter": "not fitted 2020-2022"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-450sxf",
+    "date": "2022-04"
+   },
+   "confidence": "medium",
+   "notes": "Assembled from the 2022 race test (orange frame on Factory Edition hinted at 2023) and the 2023 launch article (quickshifter new). Black frame noted as a complaint in the 2020 test."
+  },
+  {
+   "id": "kg7-009",
+   "domain": "identity",
+   "topic": "Husqvarna FC 2020 differences from KTM",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 250",
+     "Husqvarna FC 350",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "The 2020 Husqvarna FCs share the KTM engines and chromoly frame but use a two-piece carbon-composite subframe (just over 2.2 lb), their own airbox with a new interchangeable cover, Magura hydraulic clutch (KTM: Brembo) and their own bodywork. Husqvarna quoted 12.75:1, 14.0:1 and 14.4:1 compression for the 450, 350 and 250, and 223, 221 and 219 lb weight.",
+   "values": {
+    "subframe": "carbon composite, ~2.2 lb",
+    "clutch": "Magura hydraulic",
+    "compression_450_350_250": "12.75 / 14.0 / 14.4 :1",
+    "claimed_weight_450_350_250": "223 / 221 / 219 lb"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Ultimate Motorcycling: 2020 Husqvarna FC 450, 350 and 250 First Look",
+    "url": "https://ultimatemotorcycling.com/2019/04/30/2020-husqvarna-fc-450-350-and-250-first-look-5-fast-facts/",
+    "date": "2019-04"
+   },
+   "confidence": "high",
+   "notes": "Manufacturer data reported by the magazine."
+  },
+  {
+   "id": "kg7-010",
+   "domain": "identity",
+   "topic": "Husqvarna FC 2021 lowered chassis",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 250",
+     "Husqvarna FC 350",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "From 2021 the Husqvarna FCs sit almost an inch lower than the KTMs: the XACT fork is 10 mm shorter (cartridge rods and stanchions cut), the linkage has 0.5 mm longer link arms and a new bell crank, and the shock seal-head cap was raised 6 mm, cutting shock stroke from 140 to 134 mm. The shock spring went from 42 to 45 N/mm to compensate.",
+   "values": {
+    "fork_length": "-10 mm",
+    "shock_stroke": "140 -> 134 mm",
+    "link_arms": "+0.5 mm",
+    "shock_spring": "42 -> 45 N/mm",
+    "seat_height": "about 1 in lower than 2020"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2021 Husqvarna FC350",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-husqvarna-fc350",
+    "date": "2021-05"
+   },
+   "confidence": "high",
+   "notes": "Magazine reporting of Husqvarna technical data; one source claims about 25 mm lower at the rear. GasGas MC models did NOT get the shorter fork or linkage."
+  },
+  {
+   "id": "kg7-011",
+   "domain": "identity",
+   "topic": "Husqvarna FC 2022 changes",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 250",
+     "Husqvarna FC 350",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "For 2022 Husqvarna replaced the Magura hydraulic clutch with Brembo hydraulics, fitted low-friction seals to the WP XACT shock, and gave the FC 250 and FC 350 a new counterbalancer-shaft bearing; the FC 450 got only the shared updates plus new graphics and a grippier seat cover.",
+   "values": {
+    "clutch": "Magura -> Brembo hydraulics"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "RideApart: Husqvarna Tweaks TC and FC Motocrossers For 2022",
+    "url": "https://www.rideapart.com/news/504427/husqvarna-2022-tc-fc-motocrossers/",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Manufacturer launch information as reported. The 2022 race test also lists an air/oil separator on the FC 450 (as on the KTM 450)."
+  },
+  {
+   "id": "kg7-012",
+   "domain": "identity",
+   "topic": "GasGas MC first year (2021) vs KTM",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250F",
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "The first GasGas MC 250F and MC 450F (2021) are KTM SX-F engines and frames with one-piece cast/forged triple clamps instead of billet, a nearly sealed airbox cover, a head pipe with no resonance chamber and a quieter muffler, no handlebar map switch (about $180 accessory), softer WP XACT settings, the Husqvarna swingarm, the KTM aluminium subframe and Maxxis MX-ST tyres. The 2021 MC 450F listed at $9,399 vs $10,199 for the 450 SX-F.",
+   "values": {
+    "msrp_mc450f_2021": "$9,399",
+    "msrp_450sxf_2021": "$10,199",
+    "map_switch": "not fitted (~$180)",
+    "claimed_curb_weight_mc450f": "231 lb",
+    "claimed_curb_weight_mc250f": "229 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News: 2021 GasGas MC 450F Review",
+    "url": "https://www.cyclenews.com/2021/01/article/2021-gasgas-mc-450f-review",
+    "date": "2021-01"
+   },
+   "confidence": "high",
+   "notes": "Magazine test; curb weights from GasGas spec as reported by Ultimate Motorcycling (2020-09). One launch article said only the tyres differed; the hands-on test shows more differences."
+  },
+  {
+   "id": "kg7-013",
+   "domain": "identity",
+   "topic": "GasGas MC 2022 differences from KTM",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250F",
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On 2022 GasGas MCs testers list forged clamps, Maxxis tyres, non-anodised Excel rims, no resonance chamber and 'ice-cream-cone' restrictors in the muffler, no hour meter, no vented airbox cover, a winglet on the airbox cover, no map switch, the Husqvarna swingarm and a 42 N/mm shock spring (KTM and Husqvarna 45 N/mm). The forks are full length (not the 10 mm shorter Husqvarna fork).",
+   "values": {
+    "shock_spring": "42 N/mm (KTM/Husqvarna 45)",
+    "msrp_mc450f_2022": "$9,599",
+    "msrp_mc250f_2022": "$8,700"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 GasGas MC450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-gasgas-mc-450f",
+    "date": "2022-04"
+   },
+   "confidence": "high",
+   "notes": "Magazine race tests of the MC 450F and MC 250F. Brake brand: the magazine says Brembo, but a later recall covers Braktec front calipers on 2022 GasGas MCs (see conflicts)."
+  },
+  {
+   "id": "kg7-014",
+   "domain": "identity",
+   "topic": "GasGas MC 450F stayed on this platform for 2023",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 450F",
+     "GasGas MC 350F"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "GasGas MC four-strokes kept the 2020-2022 KTM engine and frame through 2023 and moved to the new platform for 2024, so a 2023 GasGas MC 450F or MC 350F is mechanically a member of this generation.",
+   "values": {},
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 GasGas MC450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-gasgas-mc-450f",
+    "date": "2022-04"
+   },
+   "confidence": "medium",
+   "notes": "Assembled from existing BAK records k45-012 and k35-013 (2024 race tests). Source here is the 2022 MC 450F race test that defines the shared platform."
+  },
+  {
+   "id": "kg7-015",
+   "domain": "identity",
+   "topic": "2021 drive chain recall (US)",
+   "applies_to": {
+    "make": [
+     "GasGas",
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "250 SX-F",
+     "350 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F",
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "In March 2021 about 1,470 model-year 2021 bikes in the US were recalled because the drive chain can break: KTM 250 SX-F and 350 SX-F, Husqvarna FC 250, GasGas MC 250F and MC 450F (plus some two-strokes and the 450 SMR). Dealers replace the chain free; 2021 bikes have 'M' in the 10th VIN position.",
+   "values": {
+    "recall_no": "CPSC 21-733",
+    "units": "about 1,470",
+    "vin_10th_char": "M (2021)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "CPSC Recall 21-733: KTM, Husqvarna and GASGAS closed-course motorcycles (drive chain)",
+    "url": "https://cpsc.gov/Recalls/2021/KTM-Husqvarna-and-GASGAS-Recall-Closed-Course-Competition-Motorcycles-Due-to-Crash-Hazard-Recall-Alert",
+    "date": "2021-03"
+   },
+   "confidence": "high",
+   "notes": "Also covers 250 SX, TC 125, MC 125 and 450 SMR, which are outside this slice. Australia ran a matching recall for some 2021 GasGas MCs (BAK record ki6-010)."
+  },
+  {
+   "id": "kg7-016",
+   "domain": "engine_architecture",
+   "topic": "450 engine basics 2020-2022",
+   "applies_to": {
+    "make": [
+     "GasGas",
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F",
+     "Husqvarna FC 450",
+     "GasGas MC 450F",
+     "450 XC-F",
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The 2020-2022 450 is a SOHC four-valve single, 95.0 x 63.4 mm (449.9 cc), 12.75:1 compression, with a 44 mm throttle body.",
+   "values": {
+    "bore_stroke": "95.0 x 63.4 mm",
+    "displacement": "449.9 cc",
+    "compression": "12.75:1",
+    "throttle_body": "44 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2022 KTM 450 SX-F Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2022-ktm-450-sx-f-dyno-test",
+    "date": "2022-03"
+   },
+   "confidence": "high",
+   "notes": "Spec box in the 2022 dyno test; matches the 2020 Husqvarna data and the 2021 GasGas test."
+  },
+  {
+   "id": "kg7-017",
+   "domain": "engine_architecture",
+   "topic": "450 bore-stroke ratio and piston speed",
+   "applies_to": {
+    "make": [
+     "GasGas",
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F",
+     "Husqvarna FC 450",
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Worked out from 95.0 x 63.4 mm, the 450 is 1.50:1 oversquare, and at its 9,400 rpm power peak the piston averages about 19.9 m/s, low for a race engine, which is part of why it feels smooth rather than frantic.",
+   "values": {
+    "bore_stroke_ratio": "1.50",
+    "mean_piston_speed_at_9400": "19.9 m/s"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2022 KTM 450 SX-F Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2022-ktm-450-sx-f-dyno-test",
+    "date": "2022-03"
+   },
+   "confidence": "high",
+   "notes": "Ratio = 95.0 / 63.4 = 1.498. Mean piston speed = 2 x 63.4 mm x 9,400 / 60,000 = 19.87 m/s. Peak rpm from the 2022 dyno test."
+  },
+  {
+   "id": "kg7-018",
+   "domain": "engine_architecture",
+   "topic": "250 engine basics 2020-2022",
+   "applies_to": {
+    "make": [
+     "GasGas",
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F",
+     "250 XC-F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The 2020-2022 250 is a DOHC four-valve single, 78.0 x 52.3 mm (249.9 cc), 14.4:1 compression with fuel injection.",
+   "values": {
+    "bore_stroke": "78.0 x 52.3 mm",
+    "compression": "14.4:1"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2021 KTM 250 SX-F Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2021-ktm-250-sx-f-dyno-test",
+    "date": "2020-12"
+   },
+   "confidence": "high",
+   "notes": "Spec box in the 2021 dyno test."
+  },
+  {
+   "id": "kg7-019",
+   "domain": "engine_architecture",
+   "topic": "250 bore-stroke ratio and piston speed",
+   "applies_to": {
+    "make": [
+     "GasGas",
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Worked out from 78.0 x 52.3 mm the 250 is 1.49:1 oversquare (the 2023 engine is 1.67:1), and at its 13,700 rpm peak the piston averages about 23.9 m/s, high-revving territory that explains why it wants to be wound out.",
+   "values": {
+    "bore_stroke_ratio": "1.49",
+    "mean_piston_speed_at_13700": "23.9 m/s"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2021 KTM 250 SX-F Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2021-ktm-250-sx-f-dyno-test",
+    "date": "2020-12"
+   },
+   "confidence": "high",
+   "notes": "Ratio = 78.0/52.3 = 1.491; 2023: 81/48.5 = 1.670. Piston speed = 2 x 52.3 x 13,700 / 60,000 = 23.88 m/s."
+  },
+  {
+   "id": "kg7-020",
+   "domain": "engine_architecture",
+   "topic": "350 piston speed at peak",
+   "applies_to": {
+    "make": [
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Worked out from the 57.5 mm stroke, the 350's piston averages about 23.6 m/s at a 12,300 rpm power peak, close to the 250, which is why it is ridden like a 250 at the top yet pulls like a small 450 in the middle.",
+   "values": {
+    "mean_piston_speed_at_12300": "23.6 m/s"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2021 KTM 350SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-ktm-350sxf",
+    "date": "2020-12"
+   },
+   "confidence": "medium",
+   "notes": "Piston speed = 2 x 57.5 x 12,300 / 60,000 = 23.58 m/s. 12,300 rpm peak from a 2022 in-house dyno (BAK record k35-033); 13,400 rpm rev limit from the 2021 race test."
+  },
+  {
+   "id": "kg7-021",
+   "domain": "engine_architecture",
+   "topic": "350 rev limiter",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 SX-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Testers give the 2021 350 SX-F rev limiter as 13,400 rpm.",
+   "values": {
+    "rev_limit": "13,400 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2021 KTM 350SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-ktm-350sxf",
+    "date": "2020-12"
+   },
+   "confidence": "medium",
+   "notes": "Magazine statement, not a KTM document."
+  },
+  {
+   "id": "kg7-022",
+   "domain": "engine_architecture",
+   "topic": "2021 connecting rod bushing",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 information describes a connecting rod with a copper-beryllium upper bushing instead of a needle bearing, for less friction and better durability; testers credit the bronze small-end and plain big-end bushings with the 100-hour service interval on the 450.",
+   "values": {
+    "small_end": "copper-beryllium bushing",
+    "service_interval_450": "100 h"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 10 things you need to know about the 2021 KTMs",
+    "url": "https://motocrossactionmag.com/10-things-you-need-to-know-about-the-2021-ktms",
+    "date": "2020-12"
+   },
+   "confidence": "medium",
+   "notes": "The 2021 article does not say which model the rod applies to; the 2020 race test says the 450 got the bronze bushing for 2020 (see conflicts). 100 h from the 2022 race tests."
+  },
+  {
+   "id": "kg7-023",
+   "domain": "engine_architecture",
+   "topic": "airbox: KTM vs Husqvarna vs GasGas",
+   "applies_to": {
+    "make": [
+     "GasGas",
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F",
+     "450 SX-F",
+     "Husqvarna FC 450",
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "The three brands' airboxes differ: KTM's optional vented cover has about 10 large perforations, Husqvarna's vented cover has six small slit vents, and GasGas has no vented cover and a winglet that restricts flow further. Testers say this is why the Husqvarna is smoother and the GasGas softer off the bottom.",
+   "values": {
+    "ktm_vented_cover": "~10 perforations",
+    "husqvarna_vented_cover": "6 slit vents",
+    "gasgas": "no vented cover, winglet"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2021 Husqvarna FC 250 Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2021-husqvarna-fc-250-dyno-test",
+    "date": "2020-12"
+   },
+   "confidence": "high",
+   "notes": "Hole counts from the 2021 FC 250 dyno test; GasGas winglet from the 2022 MC 250F/450F race tests."
+  },
+  {
+   "id": "kg7-024",
+   "domain": "power_feel",
+   "topic": "dyno 2021 450 SX-F",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On a magazine rear-wheel dyno the 2021 450 SX-F made 54.8 hp at 9,500 rpm and 34.6 lb-ft at 7,400 rpm, competitive everywhere from about 7,000 rpm up.",
+   "values": {
+    "peak_hp": "54.8 hp @ 9,500 rpm",
+    "peak_torque": "34.6 lb-ft @ 7,400 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2021 KTM 450 SX-F Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2021-ktm-450-sx-f-dyno-test",
+    "date": "2020-12"
+   },
+   "confidence": "high",
+   "notes": "Dyno type not stated in this article (the same magazine's 2022 test names its in-house Dynojet 250i). Fuel and map not stated. Stock bike."
+  },
+  {
+   "id": "kg7-025",
+   "domain": "power_feel",
+   "topic": "dyno 2022 450 SX-F",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On a Dynojet 250i rear-wheel dyno the 2022 450 SX-F made 55.0 hp at 9,400 rpm and 34.3 lb-ft at 7,500 rpm, the most peak power and torque of that year's 450s on that dyno.",
+   "values": {
+    "peak_hp": "55.0 hp @ 9,400 rpm",
+    "peak_torque": "34.3 lb-ft @ 7,500 rpm",
+    "dyno": "Dynojet 250i rear wheel"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2022 KTM 450 SX-F Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2022-ktm-450-sx-f-dyno-test",
+    "date": "2022-03"
+   },
+   "confidence": "high",
+   "notes": "Fuel and map not stated. Stock."
+  },
+  {
+   "id": "kg7-026",
+   "domain": "power_feel",
+   "topic": "dyno 2020 450 SX-F",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "On another magazine's dyno the 2020 450 SX-F peaked at 58.32 hp at 8,800 rpm, with the broadest midrange of the 2020 450s (6,500-9,300 rpm) and about 1-2 hp more than the 2019 at every rpm.",
+   "values": {
+    "peak_hp": "58.32 hp @ 8,800 rpm",
+    "midrange_lead": "6,500-9,300 rpm",
+    "vs_2019": "+1 to 2 hp throughout"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-ktm-450sxf",
+    "date": "2020-04"
+   },
+   "confidence": "high",
+   "notes": "Dyno type not stated; this magazine's numbers run several hp above the Dynojet 250i figures and must not be compared with them. Same test: CRF450 59.74 hp, YZ450F 58.56 hp, KX450 55.85 hp."
+  },
+  {
+   "id": "kg7-027",
+   "domain": "power_feel",
+   "topic": "vented airbox cover gain (450)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Measured on a dyno, the 2020 450 SX-F's vented airbox cover added about 0.25 hp at 9,000 rpm, 1 hp at 10,000 rpm, 1.1 hp at 11,000 rpm, 1 hp at peak and about 0.5 lb-ft throughout versus the solid cover.",
+   "values": {
+    "gain_9000": "+0.25 hp",
+    "gain_10000": "+1.0 hp",
+    "gain_11000": "+1.1 hp",
+    "gain_peak": "+1 hp",
+    "torque_gain": "+0.5 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-ktm-450sxf",
+    "date": "2020-04"
+   },
+   "confidence": "high",
+   "notes": "Same bike and dyno, cover swap only. Use the solid cover in mud, dust or rain. Later tests repeat 'about 1 hp at high rpm' for 2021 and 2022."
+  },
+  {
+   "id": "kg7-028",
+   "domain": "power_feel",
+   "topic": "450 SX-F feel by rpm and why",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Testers describe the 2020-2022 450 SX-F as a crescendo engine: tractable and controllable low, building strongly through the middle, with a long top-end pull. It 'oozes' power rather than hitting, which makes it easy to ride but can feel sleepy next to a Honda or Yamaha 450. The low 12.75:1 compression, low piston speed and smooth SOHC delivery explain the metered feel.",
+   "values": {
+    "bottom": "tractable, controllable",
+    "mid": "builds steadily",
+    "top": "long pull, strong surge"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-450sxf",
+    "date": "2022-04"
+   },
+   "confidence": "medium",
+   "notes": "Paraphrase of 2020-2022 race tests and a 2021 full test. 'Why' combines tester view with BAK architecture records (DERIVED reasoning)."
+  },
+  {
+   "id": "kg7-029",
+   "domain": "power_feel",
+   "topic": "dyno 2020 Husqvarna FC 450",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "On a Dynojet rear-wheel dyno the 2020 Husqvarna FC 450 made 52.4 hp at 10,100 rpm and 33.2 lb-ft at 6,800 rpm; the tester found little bottom end with the meat of the power on top.",
+   "values": {
+    "peak_hp": "52.4 hp @ 10,100 rpm",
+    "peak_torque": "33.2 lb-ft @ 6,800 rpm",
+    "dyno": "Dynojet (in-house)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2020 Husqvarna FC 450 Dyno Test",
+    "url": "https://www.dirtrider.com/2020-husqvarna-fc-450-dyno-test",
+    "date": "2019-11"
+   },
+   "confidence": "high",
+   "notes": "Fuel and map not stated. Stock."
+  },
+  {
+   "id": "kg7-030",
+   "domain": "power_feel",
+   "topic": "dyno 2021 Husqvarna FC 450",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On a magazine dyno the 2021 FC 450 made 55.0 hp at 9,200 rpm and 34.6 lb-ft at 7,400 rpm; it led its class from 10,000 to 11,200 rpm in power and 8,000-9,000 rpm in torque, and felt very linear, like the KTM with slightly less hit.",
+   "values": {
+    "peak_hp": "55.0 hp @ 9,200 rpm",
+    "peak_torque": "34.6 lb-ft @ 7,400 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2021 Husqvarna FC 450 Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2021-husqvarna-fc-450-dyno-test",
+    "date": "2020-12"
+   },
+   "confidence": "high",
+   "notes": "Dyno type, fuel, map not stated in this article."
+  },
+  {
+   "id": "kg7-031",
+   "domain": "power_feel",
+   "topic": "dyno 2021 Husqvarna FC 450 Rockstar Edition",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On a Dynojet 250i rear-wheel dyno the 2021 FC 450 Rockstar Edition (aftermarket factory silencer and connectivity unit) made 53.4 hp at 9,600 rpm and 33.2 lb-ft at 6,800 rpm.",
+   "values": {
+    "peak_hp": "53.4 hp @ 9,600 rpm",
+    "peak_torque": "33.2 lb-ft @ 6,800 rpm",
+    "dyno": "Dynojet 250i rear wheel, Dunlop D404 tyre"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2021 Husqvarna FC 450 Rockstar Edition Dyno Test",
+    "url": "https://www.dirtrider.com/story/tests/2021-husqvarna-fc-450-rockstar-edition-dyno-test",
+    "date": "2021-02"
+   },
+   "confidence": "high",
+   "notes": "Special edition with FMF Factory 4.1 silencer; fuel and map not stated. Different session from the standard 2021 FC 450, so do not read the gap as the silencer's effect."
+  },
+  {
+   "id": "kg7-032",
+   "domain": "power_feel",
+   "topic": "dyno 2022 Husqvarna FC 450",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On a magazine in-house dyno the 2022 FC 450 made 53.5 hp at 9,400 rpm and 33.7 lb-ft at 7,900 rpm, 1.5 hp and 0.6 lb-ft less than the 2022 450 SX-F on the same dyno; the different subframe and airbox are the likely reasons.",
+   "values": {
+    "peak_hp": "53.5 hp @ 9,400 rpm",
+    "peak_torque": "33.7 lb-ft @ 7,900 rpm",
+    "vs_ktm_same_dyno": "-1.5 hp, -0.6 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2022 Husqvarna FC 450 Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2022-husqvarna-fc-450-dyno-test",
+    "date": "2022-03"
+   },
+   "confidence": "high",
+   "notes": "Dyno type not stated in this article; fuel and map not stated."
+  },
+  {
+   "id": "kg7-033",
+   "domain": "power_feel",
+   "topic": "dyno 2021 Husqvarna FC 450 torque vs rivals",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Another magazine measured 36.37 lb-ft of torque from the 2021 FC 450 (KX450 34.83, YZ450F 34.36) and found it stronger than the KX, RM-Z and YZ from 6,000 to 9,000 rpm; the YZ450F only caught it at 10,000 rpm.",
+   "values": {
+    "peak_torque": "36.37 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2021 Husqvarna FC450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-husqvarna-fc450",
+    "date": "2020-12"
+   },
+   "confidence": "medium",
+   "notes": "Dyno type not stated; not comparable with the Dynojet figures."
+  },
+  {
+   "id": "kg7-034",
+   "domain": "power_feel",
+   "topic": "Husqvarna FC 450 feel by rpm",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Testers find the 2020-2022 FC 450 soft off the bottom, building predictably with no surges, and 'deceivingly fast'; it suits riders who flow rather than muscle the bike and will disappoint those who want a hard hit.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 2021 Shootout Honda CRF450 vs Husqvarna FC450",
+    "url": "https://motocrossactionmag.com/2021-mxa-shootout-honda-crf450-vs-husqvarna-fc450",
+    "date": "2021-03"
+   },
+   "confidence": "medium",
+   "notes": "Paraphrase from 2020 (Cycle World) and 2021-2022 tests."
+  },
+  {
+   "id": "kg7-035",
+   "domain": "power_feel",
+   "topic": "dyno 2022 GasGas MC 450F",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On a magazine in-house dyno the 2022 GasGas MC 450F made 54.0 hp at 9,600 rpm and 33.9 lb-ft at 7,600 rpm, second in peak power and third in torque of that year's 450s, and about 1 hp below the KTM on the same dyno.",
+   "values": {
+    "peak_hp": "54.0 hp @ 9,600 rpm",
+    "peak_torque": "33.9 lb-ft @ 7,600 rpm",
+    "vs_ktm_same_dyno": "-1.0 hp, -0.4 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2022 GasGas MC 450F Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2022-gasgas-mc-450f-dyno-test",
+    "date": "2022-03"
+   },
+   "confidence": "high",
+   "notes": "KTM 55.0/34.3 from the same magazine's 2022 test. Fuel and map not stated; GasGas runs map 1 only."
+  },
+  {
+   "id": "kg7-036",
+   "domain": "power_feel",
+   "topic": "dyno 2022 GasGas MC 450F (second source)",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "A second magazine measured the 2022 MC 450F at 57.3 hp at 9,100 rpm and 36.1 lb-ft, ahead of the RM-Z450 and KX450 from 7,000 to 9,000 rpm; it ranked the throttle response KTM first, Husqvarna second, GasGas third.",
+   "values": {
+    "peak_hp": "57.3 hp @ 9,100 rpm",
+    "peak_torque": "36.1 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 GasGas MC450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-gasgas-mc-450f",
+    "date": "2022-04"
+   },
+   "confidence": "high",
+   "notes": "Dyno type not stated; reads higher than the Dynojet 250i used elsewhere."
+  },
+  {
+   "id": "kg7-037",
+   "domain": "power_feel",
+   "topic": "GasGas MC 450F feel and why",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "Testers say the GasGas MC 450F feels weaker off the bottom and less racy than the KTM, then builds crescendo-style through the middle; the sealed airbox cover, the header without a resonance chamber and the restrictor cones in the muffler blunt throttle response, and a vented KTM cover restores bottom-to-mid pull.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 GasGas MC450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-gasgas-mc-450f",
+    "date": "2022-04"
+   },
+   "confidence": "medium",
+   "notes": "Paraphrase of 2021 (Cycle News) and 2022 tests."
+  },
+  {
+   "id": "kg7-038",
+   "domain": "power_feel",
+   "topic": "dyno 2021 250 SX-F",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On a magazine dyno the 2021 250 SX-F made 41.1 hp at 13,700 rpm and 19.1 lb-ft at 9,100 rpm, peaking 400-800 rpm higher than any other 250 tested and leading at 6,100-6,500, 11,000-11,500, 11,900-12,400 rpm and from 12,700 rpm up.",
+   "values": {
+    "peak_hp": "41.1 hp @ 13,700 rpm",
+    "peak_torque": "19.1 lb-ft @ 9,100 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2021 KTM 250 SX-F Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2021-ktm-250-sx-f-dyno-test",
+    "date": "2020-12"
+   },
+   "confidence": "high",
+   "notes": "Dyno type not stated; fuel and map not stated."
+  },
+  {
+   "id": "kg7-039",
+   "domain": "power_feel",
+   "topic": "dyno 2020 Husqvarna FC 250",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "On a Dynojet rear-wheel dyno the 2020 FC 250 made 40.7 hp at 13,900 rpm and 19.3 lb-ft at 9,100 rpm; mellow at the bottom but 'a rocket' when revved.",
+   "values": {
+    "peak_hp": "40.7 hp @ 13,900 rpm",
+    "peak_torque": "19.3 lb-ft @ 9,100 rpm",
+    "dyno": "Dynojet (in-house)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2020 Husqvarna FC 250 Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2020-husqvarna-fc-250-dyno-test",
+    "date": "2020-02"
+   },
+   "confidence": "high",
+   "notes": "Fuel and map not stated."
+  },
+  {
+   "id": "kg7-040",
+   "domain": "power_feel",
+   "topic": "dyno 2021 Husqvarna FC 250 vs KTM",
+   "applies_to": {
+    "make": [
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "Husqvarna FC 250",
+     "250 SX-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On the same magazine dyno the 2021 FC 250 made 40.3 hp at 13,300 rpm and 19.3 lb-ft at 9,100 rpm. It matched the KTM 250 SX-F almost everywhere, beat it from 8,800 to 9,800 rpm, and fell behind from 12,700 rpm up; the more restrictive Husqvarna airbox explains the smoother, less aggressive feel even in map 2.",
+   "values": {
+    "peak_hp": "40.3 hp @ 13,300 rpm",
+    "peak_torque": "19.3 lb-ft @ 9,100 rpm",
+    "ktm_peak": "41.1 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: 2021 Husqvarna FC 250 Dyno Test",
+    "url": "https://dirtrider.com/story/tests/2021-husqvarna-fc-250-dyno-test",
+    "date": "2020-12"
+   },
+   "confidence": "high",
+   "notes": "Dyno type not stated. Drilling more holes in the Husqvarna vented cover makes it run more like the KTM, per the source."
+  },
+  {
+   "id": "kg7-041",
+   "domain": "power_feel",
+   "topic": "dyno 2022 GasGas MC 250F",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On a magazine in-house dyno the 2022 MC 250F made 39.5 hp at 13,500 rpm and 18.8 lb-ft at 9,100 rpm, with a clear dip from about 3,500 to 6,000 rpm; on track it felt mellow but strong from mid to top.",
+   "values": {
+    "peak_hp": "39.5 hp @ 13,500 rpm",
+    "peak_torque": "18.8 lb-ft @ 9,100 rpm",
+    "dip": "3,500-6,000 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider: GasGas MC 250F Dyno Test 2022",
+    "url": "https://www.dirtrider.com/story/tests/gasgas-mc-250f-dyno-test-2022",
+    "date": "2022-05"
+   },
+   "confidence": "high",
+   "notes": "Dyno configuration not stated."
+  },
+  {
+   "id": "kg7-042",
+   "domain": "power_feel",
+   "topic": "250 feel by rpm and why (2020-2022)",
+   "applies_to": {
+    "make": [
+     "GasGas",
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "250 SX-F",
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The 2020-2022 KTM-family 250 is soft below about 6,000 rpm, then pulls harder and harder to a peak near 13,400-13,900 rpm with long over-rev; it rewards aggressive riders who keep it high and punishes lazy shifting. Stock 14/51 gearing feels tall, so slower riders struggle to reach the top-end power.",
+   "values": {
+    "peak_rpm_range": "13,300-13,900 rpm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 Husqvarna FC250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-husqvarna-fc250",
+    "date": "2022-04"
+   },
+   "confidence": "medium",
+   "notes": "Combines 2020-2022 dyno tests and the 2022 FC 250 race test. The short 52.3 mm stroke and high piston speed explain the top-end bias (DERIVED)."
+  },
+  {
+   "id": "kg7-043",
+   "domain": "power_feel",
+   "topic": "Husqvarna FC 250 2022 peak (second source)",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "A second magazine measured the 2022 FC 250 at 44.36 hp peak, the most of its class, and notes the FC 250 regularly out-dynos the identical KTM.",
+   "values": {
+    "peak_hp": "44.36 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 Husqvarna FC250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-husqvarna-fc250",
+    "date": "2022-04"
+   },
+   "confidence": "medium",
+   "notes": "Dyno type not stated; reads several hp above the Dynojet figures."
+  },
+  {
+   "id": "kg7-044",
+   "domain": "power_feel",
+   "topic": "350 SX-F peak 2020-2021 and feel",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 SX-F"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "One magazine measured 54.61 hp from the 2020 350 SX-F and 54.60 hp with 29.4 lb-ft from the 2021, more than the RM-Z450. Testers say it picks up quickly low, pulls steadily through the middle and must be revved far past where riders expect before shifting.",
+   "values": {
+    "peak_hp_2020": "54.61 hp",
+    "peak_hp_2021": "54.60 hp",
+    "peak_torque_2021": "29.40 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2021 KTM 350SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-ktm-350sxf",
+    "date": "2020-12"
+   },
+   "confidence": "high",
+   "notes": "Dyno type not stated; same magazine whose 2022 figure is 54.6 hp/29.4 lb-ft (BAK k35-035). Not comparable with Dynojet 250i figures."
+  },
+  {
+   "id": "kg7-045",
+   "domain": "power_feel",
+   "topic": "350 SX-F maps compared",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 SX-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "On the 2021 350 SX-F map 1 is broad and easy with plenty of over-rev, while map 2 pulls harder low down but goes flat sooner on top and needs more shifting; testers said it could be revved like a 250 or short-shifted like a 450.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Swap Moto Live: First Test of the 2021 KTM 350 SX-F",
+    "url": "https://www.swapmotolive.com/?p=90549",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Tester impression, publication date not shown on page (test of the 2021 model, published 2020)."
+  },
+  {
+   "id": "kg7-046",
+   "domain": "power_feel",
+   "topic": "Husqvarna FC 350 vs FC 250 vs FC 450 by band",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "In the 2022 Husqvarna tests the FC 350 made 50 hp in the midrange and 54.4 hp peak, 11 and 10 hp more than the FC 250 and 4 hp less than the FC 450 at both points; testers call it broad, linear and easy to modulate.",
+   "values": {
+    "mid": "FC250 39 / FC350 50 / FC450 54 hp",
+    "peak": "44.4 / 54.4 / 58.4 hp"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 Husqvarna FC350",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-husqvarna-fc350",
+    "date": "2022-04"
+   },
+   "confidence": "medium",
+   "notes": "Already partly in BAK k35-036; kept here for the feel description. Dyno type not stated."
+  },
+  {
+   "id": "kg7-047",
+   "domain": "power_feel",
+   "topic": "measured weights 2020-2022 (tester claims)",
+   "applies_to": {
+    "make": [
+     "GasGas",
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "Husqvarna FC 450",
+     "Husqvarna FC 350",
+     "Husqvarna FC 250",
+     "GasGas MC 250F",
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Race-test weights without fuel: 450 SX-F 223 lb (2020-2022), 350 SX-F 222 lb (2021), FC 450 224 lb (2021-2022), FC 350 222 lb (2021) and 223 lb (2022), FC 250 219 lb (2022), MC 250F 217 lb (2022), MC 450F 222 lb (2022, claimed). A 2020 FC 450 weighed 235 lb wet on another scale.",
+   "values": {
+    "450sxf": "223 lb",
+    "350sxf_2021": "222 lb",
+    "fc450": "224 lb",
+    "fc350_2021": "222 lb",
+    "fc350_2022": "223 lb",
+    "fc250_2022": "219 lb",
+    "mc250f_2022": "217 lb",
+    "fc450_2020_wet": "235 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-450sxf",
+    "date": "2022-04"
+   },
+   "confidence": "medium",
+   "notes": "The race tests do not always say if the figure is scale-measured; MXA's MC 450F weight is marked as claimed. 235 lb wet from Cycle World 2020. Weigh-ins with full tank are in BAK cd6 records."
+  },
+  {
+   "id": "kg7-048",
+   "domain": "ecu_electronics",
+   "topic": "map switch, TC and launch control (2019-2022 manual)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "250 XC-F"
+    ],
+    "years": [
+     2019
+    ]
+   },
+   "statement": "On the 2019-2022 generation the bar switch's MAP button toggles STANDARD and ADVANCED maps, each with a traction-control version. TC can be toggled up to about 4,000 rpm and remembers its state. Launch control is armed at idle in neutral by holding MAP and TC until the FI light flashes fast; it limits revs at full throttle then raises them, and switches off a few seconds after the start, if the throttle closes more than a third, or after 3 minutes.",
+   "values": {
+    "tc_toggle_limit": "about 4,000 rpm",
+    "launch_timeout": "3 min",
+    "launch_cancel": "throttle closed > 1/3",
+    "reactivate": "engine off >= 10 s"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2019 Owner's Manual 250 SX-F / 250 XC-F (art. 3213849en)",
+    "url": "https://www.ktmshop.se/documents/19_3213849_en_OM.pdf",
+    "date": "2018-03"
+   },
+   "confidence": "high",
+   "notes": "From the 2019 owner's manual; the same switch logic is described by testers for 2020-2022 (launch: press map and TC buttons together until the FI light flashes). 2020-2022 manuals not re-read."
+  },
+  {
+   "id": "kg7-049",
+   "domain": "ecu_electronics",
+   "topic": "launch control behaviour",
+   "applies_to": {
+    "make": [
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "Husqvarna FC 350",
+     "350 SX-F"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "Testers report that launch control backs off ignition timing a few degrees until third gear or until the throttle is closed.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2021 Husqvarna FC350",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-husqvarna-fc350",
+    "date": "2021-05"
+   },
+   "confidence": "medium",
+   "notes": "Magazine description; KTM's manual describes it as an rpm limit at full throttle (see previous record)."
+  },
+  {
+   "id": "kg7-050",
+   "domain": "ecu_electronics",
+   "topic": "traction control behaviour",
+   "applies_to": {
+    "make": [
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "Husqvarna FC 350",
+     "450 SX-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Testers say the traction control leaves power untouched until it detects runaway revs (wheelspin), then retards the ignition. It helped on loamy tracks with hard-pack patches, soft corners that exit onto slick groove, and on concrete start pads in place of launch control; most riders paired it with map 1 on hard, slick tracks.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 Husqvarna FC350",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-husqvarna-fc350",
+    "date": "2022-04"
+   },
+   "confidence": "medium",
+   "notes": "2020, 2021 and 2022 race tests agree."
+  },
+  {
+   "id": "kg7-051",
+   "domain": "ecu_electronics",
+   "topic": "map choice by track",
+   "applies_to": {
+    "make": [
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F",
+     "Husqvarna FC 450",
+     "350 SX-F",
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Testers on 2020-2022 bikes used map 2 (aggressive) on soft, loamy tracks and day to day, and map 1 (mellow) on hard-packed, slippery, wet or very technical tracks; on the 2022 FC 250 every tester ran map 2 because it adds power at every point in the curve.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-450sxf",
+    "date": "2022-04"
+   },
+   "confidence": "medium",
+   "notes": "From 2021-2022 race tests of 450 SX-F, FC 450, 350 SX-F and FC 250."
+  },
+  {
+   "id": "kg7-052",
+   "domain": "ecu_electronics",
+   "topic": "2020 map 2 vs 2021 map 2",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "350 SX-F"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "The 2020 map 2 was only a mildly sharper low-to-mid map; for 2021 KTM made map 1 livelier and map 2 much crisper with more mid and top, so the two maps are easier to tell apart. On the 350 the 2021 map 2 gained midrange but was less crisp than the 450's.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2021 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-ktm-450sxf",
+    "date": "2021-03"
+   },
+   "confidence": "medium",
+   "notes": "Tester comparison across model years."
+  },
+  {
+   "id": "kg7-053",
+   "domain": "ecu_electronics",
+   "topic": "IG-ACC and split injection",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The 2019-2022 450 SX-F ECU uses ignition advance on throttle opening (IG-ACC) and split injection, both introduced for 2019.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-ktm-450sxf",
+    "date": "2020-04"
+   },
+   "confidence": "medium",
+   "notes": "Magazine description of KTM features."
+  },
+  {
+   "id": "kg7-054",
+   "domain": "ecu_electronics",
+   "topic": "GasGas map switch and electronics",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250F",
+     "GasGas MC 450F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "GasGas MC and EX four-strokes of 2021-2022 have the same ECU with two maps and traction/launch control but no bar switch, so they run map 1 only until a KTM switch (about $170-180) is plugged in.",
+   "values": {
+    "switch_cost": "$170-180"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 GasGas MC 250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-gasgas-mc-250f",
+    "date": "2022-04"
+   },
+   "confidence": "high",
+   "notes": "Several tests agree."
+  },
+  {
+   "id": "kg7-055",
+   "domain": "ecu_electronics",
+   "topic": "smartphone app 2021",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 smartphone tuning app (via a separately sold transmitter) came with the Factory Edition and was not available in the US at launch; it adjusts delivery for loam and hard-pack rather than giving full remapping.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: First Ride 2021 KTM 450XC-F (The Wrap)",
+    "url": "https://dirtbikemagazine.com/first-ride-2021-ktm-450xc-f-the-wrap/",
+    "date": "2020-09"
+   },
+   "confidence": "medium",
+   "notes": "One source says Wi-Fi, another Bluetooth."
+  },
+  {
+   "id": "kg7-056",
+   "domain": "engine_mods",
+   "topic": "gearing 48T vs 49T and map as power tuning",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "Testers treat the rear sprocket and map as a power-tuning pair on the 2020-2021 450 SX-F: stock 49T with map 2 for pull, or the 2019 48T sprocket with map 1 for a milder low-to-mid feel. Going from 13/48 to 13/49 shortens the gearing about 2.1%.",
+   "values": {
+    "ratio_13_48": "3.692",
+    "ratio_13_49": "3.769",
+    "change": "+2.1%"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-ktm-450sxf",
+    "date": "2020-04"
+   },
+   "confidence": "medium",
+   "notes": "Ratios: 48/13 = 3.692; 49/13 = 3.769; 3.769/3.692 = 1.021."
+  },
+  {
+   "id": "kg7-057",
+   "domain": "engine_mods",
+   "topic": "GasGas airbox fix",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250F",
+     "GasGas MC 450F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "Cutting the winglet off the GasGas airbox cover or fitting a KTM vented cover improved breathing and bottom-to-mid response on 2021-2022 GasGas MC four-strokes.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 GasGas MC 250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-gasgas-mc-250f",
+    "date": "2022-04"
+   },
+   "confidence": "high",
+   "notes": "Tester modification; no dyno before/after published."
+  },
+  {
+   "id": "kg7-058",
+   "domain": "engine_mods",
+   "topic": "Husqvarna backfire screen and airbox",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 350",
+     "Husqvarna FC 450",
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "On 2021-2022 Husqvarna FCs testers find the backfire screen and small-holed vented cover restrictive; cutting the screen out or drilling the cover makes the bike run more like the KTM.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 Husqvarna FC350",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-husqvarna-fc350",
+    "date": "2022-04"
+   },
+   "confidence": "medium",
+   "notes": "No dyno before/after published."
+  },
+  {
+   "id": "kg7-059",
+   "domain": "engine_mods",
+   "topic": "tuner build on 2022 450 SX-F",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "One tuner's 2022 450 SX-F build used an aftermarket ECU mapped by an engine builder, an aftermarket titanium muffler with a different exhaust flange, a revalved WP fork, aftermarket shock and linkage, factory split clamps and race fuel; the exhaust alone saved over a pound.",
+   "values": {
+    "exhaust_weight_saving": ">1 lb"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc Testing: 2022 KTM 450 SX-F what would you do",
+    "url": "https://www.keeferinctesting.com/2021-8-16-2022-ktm-450-sx-f-what-would-you-do/",
+    "date": "2021-08"
+   },
+   "confidence": "low",
+   "notes": "No dyno numbers given; effects are subjective. Parts: Vortex ECU, FMF 4.1 titanium muffler, REP-spec WP/Trax suspension."
+  },
+  {
+   "id": "kg7-060",
+   "domain": "engine_mods",
+   "topic": "quick-turn throttle cam",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 SX-F",
+     "450 SX-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The stock grey throttle cam on 2020-2022 KTMs has a very long throw; testers fit the black quick-turn cam supplied with the bike.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Tech Spec 12 things about the 2020 KTM 350SXF",
+    "url": "https://motocrossactionmag.com/mxa-tech-spec-12-things-about-the-2020-ktm-350sxf",
+    "date": "2020-08"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kg7-061",
+   "domain": "engine_mods",
+   "topic": "fuel octane",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 SX-F"
+    ],
+    "years": [
+     2020,
+     2021
+    ]
+   },
+   "statement": "Testers say the 2020-2021 350 SX-F is tuned for 91-octane fuel and needs higher octane if the engine is modified.",
+   "values": {
+    "octane": "91 (R+M)/2"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Tech Spec 12 things about the 2020 KTM 350SXF",
+    "url": "https://motocrossactionmag.com/mxa-tech-spec-12-things-about-the-2020-ktm-350sxf",
+    "date": "2020-08"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kg7-062",
+   "domain": "chassis",
+   "topic": "450 SX-F chassis character 2020-2022",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Testers rate the 2020-2022 450 SX-F as the best all-round handler of its years: accurate and stable, needing the least steering input of any 450. The 2019 frame is about 10% stiffer in torsion than 2018, which pros liked and some vets and light riders did not; 2021 fork changes made the frame feel less rigid.",
+   "values": {
+    "frame_torsional_stiffness_2019_on": "+10% vs 2018"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-ktm-450sxf",
+    "date": "2020-04"
+   },
+   "confidence": "high",
+   "notes": "Paraphrase of 2020-2022 tests."
+  },
+  {
+   "id": "kg7-063",
+   "domain": "chassis",
+   "topic": "350 swingarm and axle slots",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 SX-F",
+     "450 SX-F",
+     "250 SX-F"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "KTM lengthened the swingarm 5 mm for 2019 with longer axle slots; moving the wheel back adds high-speed stability but makes the shock feel softer and changes race sag.",
+   "values": {
+    "swingarm": "+5 mm (2019)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Tech Spec 12 things about the 2020 KTM 350SXF",
+    "url": "https://motocrossactionmag.com/mxa-tech-spec-12-things-about-the-2020-ktm-350sxf",
+    "date": "2020-08"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kg7-064",
+   "domain": "chassis",
+   "topic": "Husqvarna FC handling 2021-2022",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 450",
+     "Husqvarna FC 350",
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "The lowered 2021-2022 Husqvarnas were rated best-handling in tests: lower centre of gravity, rails corners, feels smaller, and the only MX bike a rider under 5 ft 9 in can touch the ground on.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 2021 Shootout Honda CRF450 vs Husqvarna FC450",
+    "url": "https://motocrossactionmag.com/2021-mxa-shootout-honda-crf450-vs-husqvarna-fc450",
+    "date": "2021-03"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kg7-065",
+   "domain": "chassis",
+   "topic": "GasGas clamps and turn-in",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250F",
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "The forged GasGas clamps flex more than KTM billet clamps: comfortable in rough ground but vague at turn-in, with oversteer at tip-in then mid-corner push. Testers tightened the pinch bolts to 20 Nm top and 15 Nm bottom (stock 17/12) or fitted KTM or aftermarket billet clamps.",
+   "values": {
+    "pinch_torque_used": "20 Nm top / 15 Nm bottom",
+    "stock": "17 / 12 Nm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 GasGas MC450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-gasgas-mc-450f",
+    "date": "2022-04"
+   },
+   "confidence": "high",
+   "notes": "Article prints the unit as N/mm; read as Nm."
+  },
+  {
+   "id": "kg7-066",
+   "domain": "chassis",
+   "topic": "KTM/Husqvarna clamp torque used by testers",
+   "applies_to": {
+    "make": [
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F",
+     "Husqvarna FC 450",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "On 2022 KTMs and Husqvarnas testers run the triple-clamp pinch bolts at 20 Nm top and 14 Nm bottom (stock 17/12), head-stay bolts at 25 Nm with Loctite 243, swingarm pivot at 100 Nm and 55 mm chain free play.",
+   "values": {
+    "pinch": "20/14 Nm",
+    "head_stay": "25 Nm",
+    "pivot": "100 Nm",
+    "chain_free_play": "55 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-450sxf",
+    "date": "2022-04"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kg7-067",
+   "domain": "chassis",
+   "topic": "Husqvarna FE 450 2020 chassis",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FE 450"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "The 2020 FE 450 got a stiffer chromoly frame (same geometry) with forged aluminium engine mounts, a two-piece carbon-composite subframe 250 g lighter and 50 mm longer, a seat 10 mm lower and radiators mounted 12 mm lower; testers found it more stable at speed and less harsh.",
+   "values": {
+    "subframe": "-250 g, +50 mm",
+    "seat": "-10 mm",
+    "radiators": "-12 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Australasian Dirt Bike: 2020 Husqvarna FE450 Review",
+    "url": "https://adbmag.com.au/editorial/2020-husqvarna-fe450-review/",
+    "date": "2020-07"
+   },
+   "confidence": "medium",
+   "notes": "Australian-market test. ko4-014 says the FE 450 returned to the US in 2023, so 2020-2022 FE 450s are mainly non-US bikes."
+  },
+  {
+   "id": "kg7-068",
+   "domain": "suspension",
+   "topic": "XACT air pressure by rider level (450)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Testers' fork air pressures for the 2020-2022 450 SX-F: 140 psi for novices and vets, 145 psi for fast novices, 150 psi for intermediates and 152-154 psi for pros/experts; test riders ranged from 135 to 160 psi. Set air with a zip-tie so the fork stops about 1.5 in from bottoming, then tune with clickers.",
+   "values": {
+    "novice_vet": "140 psi",
+    "fast_novice": "145 psi",
+    "intermediate": "150 psi (145 in 2020)",
+    "pro": "152-154 psi",
+    "range_used": "135-160 psi"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-450sxf",
+    "date": "2022-04"
+   },
+   "confidence": "high",
+   "notes": "2020 test listed novice 140 / intermediate 145 / expert 152; 2021-2022 tests 140/145/150/154. KTM stock 152 psi for 2020 (156 psi on the 2019 Factory Edition)."
+  },
+  {
+   "id": "kg7-069",
+   "domain": "suspension",
+   "topic": "XACT air pressure by rider level (FC 350/450)",
+   "applies_to": {
+    "make": [
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "Husqvarna FC 350",
+     "Husqvarna FC 450",
+     "350 SX-F"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "For 2021-2022 FC 350, FC 450 and 350 SX-F testers run 9.6 bar (140 psi) for novices/vets, 10.0 bar (145 psi) for fast novices, 10.3 bar (150 psi) for intermediates and 10.6-10.7 bar (155 psi) for pros.",
+   "values": {
+    "novice_vet": "9.6 bar / 140 psi",
+    "fast_novice": "10.0 bar / 145 psi",
+    "intermediate": "10.3 bar / 150 psi",
+    "pro": "10.6-10.7 bar / 155 psi"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2021 Husqvarna FC350",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-husqvarna-fc350",
+    "date": "2021-05"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kg7-070",
+   "domain": "suspension",
+   "topic": "air pressure by rider weight (owners)",
+   "applies_to": {
+    "make": [
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "250 SX-F",
+     "Husqvarna FC 350",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2018,
+     2020
+    ]
+   },
+   "statement": "Owners of AER/XACT air forks report about 150-155 psi as a common start, around 160 psi for 200 lb riders, and 152-161 psi for a 220 lb FC 450 rider depending on track.",
+   "values": {
+    "200_lb": "~160 psi",
+    "220_lb": "152-161 psi"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: WP AER 48 forks - correct pressure for my weight",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/WP-AER-48-Forks-Whats-the-correct-pressure-for-my-weight,1377704",
+    "date": "2020-06"
+   },
+   "confidence": "low",
+   "notes": "Few posts; overlaps BAK ks5-039."
+  },
+  {
+   "id": "kg7-071",
+   "domain": "suspension",
+   "topic": "air pressure by rider weight (tuner, 250 SX-F)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "A tuner's 2021 250 SX-F baseline: for 130-155 lb riders 10.4 bar, compression 11, rebound 10, fork 4 mm up; shock low-speed 15, high-speed about 1.75 turns, rebound 11, 105 mm sag. For 160-190 lb riders 10.7 bar, compression 15, rebound 11, 4 mm up; shock low-speed 13, high-speed 1.5 turns, rebound 11, 105 mm sag.",
+   "values": {
+    "130_155_lb_air": "10.4 bar (151 psi)",
+    "160_190_lb_air": "10.7 bar (155 psi)",
+    "sag": "105 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc Testing: 2021 KTM 250 SX-F baseline suspension, rider triangle and gearing settings",
+    "url": "https://www.keeferinctesting.com/2021-3-23-2021-ktm-250-sx-f-baseline-suspension-rider-triangle-and-gearing-settings/",
+    "date": "2021-03"
+   },
+   "confidence": "medium",
+   "notes": "Clicker counts presumably clicks out. Light-rider high-speed value printed '1..75'."
+  },
+  {
+   "id": "kg7-072",
+   "domain": "suspension",
+   "topic": "shock spring by rider weight (OEM chart)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "250 XC-F"
+    ],
+    "years": [
+     2019
+    ]
+   },
+   "statement": "KTM's 2019 250 SX-F/XC-F manual lists shock springs of 39 N/mm for 65-75 kg riders, 42 N/mm for 75-85 kg and 45 N/mm for 85-95 kg, with 35 mm static and 105 mm riding sag. Fork air is a single value: 10.3 bar (149 psi) on the US SX-F and 9.6 bar (139 psi) on the XC-F, adjustable 7-12 bar in 0.2 bar steps.",
+   "values": {
+    "65_75kg": "39 N/mm",
+    "75_85kg": "42 N/mm",
+    "85_95kg": "45 N/mm",
+    "static_sag": "35 mm",
+    "rider_sag": "105 mm",
+    "fork_air_sxf_us": "10.3 bar",
+    "fork_air_xcf_us": "9.6 bar"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2019 Owner's Manual 250 SX-F / 250 XC-F (art. 3213849en)",
+    "url": "https://www.ktmshop.se/documents/19_3213849_en_OM.pdf",
+    "date": "2018-03"
+   },
+   "confidence": "high",
+   "notes": "2019 manual, same generation; 2020-2022 manuals not re-read (BAK holds them)."
+  },
+  {
+   "id": "kg7-073",
+   "domain": "suspension",
+   "topic": "shock spring rates by model and year",
+   "applies_to": {
+    "make": [
+     "GasGas",
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "Husqvarna FC 450",
+     "Husqvarna FC 350",
+     "Husqvarna FC 250",
+     "GasGas MC 250F",
+     "GasGas MC 450F",
+     "Husqvarna FX 450",
+     "450 XC-F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Stock shock springs on the 2020-2022 platform: KTM 450 SX-F 45 N/mm (down from 48 in 2017); Husqvarna FC 42 N/mm in 2020 then 45 N/mm from 2021 with the lowered linkage; GasGas MC 42 N/mm; FX 450 and 450 XC-F 45 N/mm. Testers say 45 N/mm suits about 160-185 lb, and suggest 45 on the GasGas for riders over 185 lb.",
+   "values": {
+    "450sxf": "45 N/mm",
+    "fc_2020": "42 N/mm",
+    "fc_2021_22": "45 N/mm",
+    "mc": "42 N/mm",
+    "fx450_450xcf": "45 N/mm",
+    "available": "42 / 45 / 48 N/mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-ktm-450sxf",
+    "date": "2020-04"
+   },
+   "confidence": "high",
+   "notes": "Compiled from 2020-2022 race tests. One 2021 350 SX-F article lists 42 N/mm in its changes and 45 in its setup (see conflicts)."
+  },
+  {
+   "id": "kg7-074",
+   "domain": "suspension",
+   "topic": "2021 fork rebound clicker and bump stop",
+   "applies_to": {
+    "make": [
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F",
+     "Husqvarna FC 450",
+     "Husqvarna FC 350",
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "From 2021 the fork's hydraulic bottoming cone was replaced by a half-inch rubber bump stop, freeing space for a tool-free rebound clicker; testers note the fork can rise after initial compression and gains about 10 psi on a hot day, so check pressure and bleed the outer chambers every ride.",
+   "values": {
+    "pressure_rise_hot_day": "~10 psi"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2021 KTM 450SX-F Full Test",
+    "url": "https://dirtbikemagazine.com/2021-ktm-450sxf-full-test/",
+    "date": "2020-11"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kg7-075",
+   "domain": "suspension",
+   "topic": "XC-F suspension differences",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "The 2021 450 XC-F fork has softer cross-country valving, a lift-height spring in the mid-valve and no trampoline shim; stock air is 10.0 bar (145 psi). The shock keeps the 45 N/mm spring with softer valving and quicker rebound. Testers found it plush on trail chatter but lacking the SX-F's hold-up on jumps.",
+   "values": {
+    "fork_air_stock": "10.0 bar / 145 psi",
+    "shock_spring": "45 N/mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2021 KTM 450XCF Cross-Country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-ktm-450xcf-cross-country",
+    "date": "2021-05"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kg7-076",
+   "domain": "suspension",
+   "topic": "FX 450 vs FC 450 2020 settings",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FX 450",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "In 2020 the FX 450 used a 45 N/mm shock spring and 146 psi stock fork air, against 42 N/mm and 155 psi on the FC 450.",
+   "values": {
+    "fx450": "45 N/mm, 146 psi",
+    "fc450": "42 N/mm, 155 psi"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 Husqvarna FX450",
+    "url": "https://motocrossactionmag.com/mxa-2020-husqvarna-fx450",
+    "date": "2020-09"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kg7-077",
+   "domain": "suspension",
+   "topic": "250 XC-F 2020 fork feel",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 XC-F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "On the 2020 250 XC-F at the standard 9.8 bar (142 psi) the fork felt harsh on square edges and sharp chop and could not be softened without losing bottoming resistance; the tester ran 107 mm sag for stability.",
+   "values": {
+    "fork_air": "9.8 bar / 142 psi",
+    "sag": "107 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: First Impression 2020 KTM 250 XC-F",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2020-ktm-250-xc-f",
+    "date": "2020-02"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kg7-078",
+   "domain": "suspension",
+   "topic": "GasGas EX 250F 2022 suspension",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Testers found the 2022 EX 250F fork firm early but short on progression, so it bottomed on big fast hits, and the shock soft with some wallow; sag of 105-108 mm suited it, and it suits slower terrain and novice-to-intermediate riders.",
+   "values": {
+    "sag": "105-108 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: 2022 GasGas EX250F",
+    "url": "https://dirtbiketest.com/bike-tests/2022-gasgas-ex250f/",
+    "date": "2022"
+   },
+   "confidence": "medium",
+   "notes": "Publication date not shown; model year 2022 from the title."
+  },
+  {
+   "id": "kg7-079",
+   "domain": "suspension",
+   "topic": "FE 450 2020 fork",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FE 450"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "The 2020 FE 450 uses a WP XPLOR 48 mm spring fork with a new mid-valve and preload adjusters; testers found it plush in the woods and too soft on a motocross track, with the shock handling big hits better than the fork.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Australasian Dirt Bike: 2020 Husqvarna FE450 Review",
+    "url": "https://adbmag.com.au/editorial/2020-husqvarna-fe450-review/",
+    "date": "2020-07"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kg7-080",
+   "domain": "setups",
+   "topic": "race setup 2020 450 SX-F",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "A magazine race setup for the 2020 450 SX-F: fork 140/145/152 psi (novice/intermediate/expert), compression 20/15/10 out for vet/intermediate/pro (stock 12), rebound 15 out (stock 18), third line; shock 45 N/mm, 105 mm sag (some ran 108), high-speed 1.5 turns out (stock 2), low-speed 15 out, rebound 10 out (stock 15).",
+   "values": {
+    "fork_comp": "20/15/10 out",
+    "fork_reb": "15 out",
+    "shock_hsc": "1.5 turns",
+    "shock_lsc": "15 out",
+    "shock_reb": "10 out",
+    "sag": "105 mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-ktm-450sxf",
+    "date": "2020-04"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kg7-081",
+   "domain": "setups",
+   "topic": "race setup 2021-2022 450 SX-F",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "A magazine race setup for the 2021-2022 450 SX-F: fork 140-154 psi by level, compression 20 out (stock 12), rebound 15 out (stock 18), third line; shock 45 N/mm, 105 mm sag, high-speed 1-1/4 turns out (stock 1-1/2), low-speed 15 out, rebound 10 out (stock 15).",
+   "values": {
+    "fork_comp": "20 out",
+    "fork_reb": "15 out",
+    "height": "third line",
+    "shock_hsc": "1.25 turns",
+    "shock_lsc": "15 out",
+    "shock_reb": "10 out"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-450sxf",
+    "date": "2022-04"
+   },
+   "confidence": "high",
+   "notes": "Identical in the 2021 and 2022 tests."
+  },
+  {
+   "id": "kg7-082",
+   "domain": "setups",
+   "topic": "race setup 2021 350 SX-F",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 SX-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "A magazine race setup for the 2021 350 SX-F: fork 140-155 psi by level, compression 15 out (stock 12), rebound 10 out (stock 12), third line; shock 45 N/mm, 105 mm sag, high-speed 1-1/4 turns out (stock 1-1/2), low-speed 15 out, rebound 10 out (stock 15).",
+   "values": {
+    "fork_comp": "15 out",
+    "fork_reb": "10 out",
+    "shock_hsc": "1.25 turns",
+    "shock_reb": "10 out"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2021 KTM 350SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2021-ktm-350sxf",
+    "date": "2020-12"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kg7-083",
+   "domain": "setups",
+   "topic": "race setup 2021-2022 Husqvarna FC 450",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "A magazine race setup for the 2021-2022 FC 450: fork 140-155 psi by level, compression 15 out (stock 12), rebound 10 out (stock 12), third line; shock 45 N/mm, 105 mm sag, high-speed 1-1/4 turns out (stock 1-1/2), low-speed 15 out, rebound 10 out (stock 15).",
+   "values": {
+    "fork_comp": "15 out",
+    "fork_reb": "10 out",
+    "shock_hsc": "1.25 turns"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 Husqvarna FC450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-husqvarna-fc450",
+    "date": "2022-04"
+   },
+   "confidence": "high",
+   "notes": "Same in the 2021 and 2022 tests."
+  },
+  {
+   "id": "kg7-084",
+   "domain": "setups",
+   "topic": "race setup 2022 Husqvarna FC 250",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "A magazine setup for the 2022 FC 250: fork 152 psi stock (riders used 135-160), compression 12 out, rebound 15 out, fork 6 mm up in the clamps (stock 5 mm); shock 45 N/mm, 105 mm sag, high-speed 2 turns out, low-speed 15 out, rebound 15 out; most testers kept the stock shock settings.",
+   "values": {
+    "fork_air": "152 psi",
+    "fork_height": "6 mm",
+    "shock_hsc": "2 turns",
+    "shock_reb": "15 out"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 Husqvarna FC250",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-husqvarna-fc250",
+    "date": "2022-04"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kg7-085",
+   "domain": "setups",
+   "topic": "race setup 2022 GasGas MC 450F",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "A magazine race setup for the 2022 MC 450F: fork 140/145/152/155 psi (vet-novice/fast novice/intermediate/pro), compression 12 out, rebound 15 out (stock 18), first line; shock 42 N/mm, 105 mm sag, high-speed 1-1/4 turns out, low-speed 15 out, rebound 10 out (stock 15). Stock settings were too soft for fast riders and felt poor for the first three hours.",
+   "values": {
+    "fork_height": "first line",
+    "shock_spring": "42 N/mm",
+    "break_in": "~3 h"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 GasGas MC450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-gasgas-mc-450f",
+    "date": "2022-04"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kg7-086",
+   "domain": "setups",
+   "topic": "race setup 2022 GasGas MC 250F",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "A magazine race setup for the 2022 MC 250F: fork 140/145/151 psi (vet-novice/fast novice/intermediate), compression 12 out, rebound 12 out, second line; shock 42 N/mm, 105 mm sag, high-speed 1-1/4 turns out (stock 1-1/2), low-speed 15 out, rebound 10 out. Riders over about 185 lb or fast riders should go to 45 N/mm.",
+   "values": {
+    "shock_spring": "42 N/mm",
+    "heavier_rider": "45 N/mm over ~185 lb"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 GasGas MC 250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-gasgas-mc-250f",
+    "date": "2022-04"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kg7-087",
+   "domain": "setups",
+   "topic": "race setup 2021 450 XC-F",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "A magazine cross-country setup for the 2021 450 XC-F: fork 10.5 bar/152 psi (stock 145), compression 10 out (stock 8), rebound 20 out (stock 18), second line; shock 45 N/mm, 105 mm sag, high-speed 1-3/4 turns out (stock 2), low-speed 14 out, rebound 14 out.",
+   "values": {
+    "fork_air": "152 psi",
+    "fork_comp": "10 out",
+    "fork_reb": "20 out",
+    "shock_hsc": "1.75 turns"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2021 KTM 450XCF Cross-Country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-ktm-450xcf-cross-country",
+    "date": "2021-05"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kg7-088",
+   "domain": "setups",
+   "topic": "race setup 2020 Husqvarna FX 450",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "A magazine setup for the 2020 FX 450: fork 146 psi, compression 3-17 out depending on track speed, rebound 10 out (stock 12), third line; shock 45 N/mm, 105 mm sag (some ran 107 with forks raised 2 mm), high-speed 1-3/4 turns out (stock 2), low-speed 15 out, rebound 12 out (stock 15).",
+   "values": {
+    "fork_air": "146 psi",
+    "shock_spring": "45 N/mm"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2020 Husqvarna FX450",
+    "url": "https://motocrossactionmag.com/mxa-2020-husqvarna-fx450",
+    "date": "2020-09"
+   },
+   "confidence": "medium",
+   "notes": "The article labels its shock section 'FC450' but the content is the FX 450."
+  },
+  {
+   "id": "kg7-089",
+   "domain": "setups",
+   "topic": "gearing by rider weight (250 SX-F)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "A tuner's 2021 250 SX-F gearing: riders over 170 lb go to 14/52 or 14/53 to use third gear more; riders under 150 lb can stay stock.",
+   "values": {
+    "over_170_lb": "14/52 or 14/53",
+    "under_150_lb": "stock"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc Testing: 2021 KTM 250 SX-F baseline suspension, rider triangle and gearing settings",
+    "url": "https://www.keeferinctesting.com/2021-3-23-2021-ktm-250-sx-f-baseline-suspension-rider-triangle-and-gearing-settings/",
+    "date": "2021-03"
+   },
+   "confidence": "medium",
+   "notes": "Source states stock as both 14/51 and 13/51; KTM stock is 14/51."
+  },
+  {
+   "id": "kg7-090",
+   "domain": "setups",
+   "topic": "gearing 2022 Husqvarna FC 250 and GasGas MC 250F",
+   "applies_to": {
+    "make": [
+     "GasGas",
+     "Husqvarna"
+    ],
+    "models": [
+     "Husqvarna FC 250",
+     "GasGas MC 250F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Testers call stock 14/51 sluggish on the 2022 FC 250 and MC 250F; they prefer a 13-tooth countershaft (13/50, ratio 3.846) for corner-exit surge, or 14/52 (3.714), and say at least one more rear tooth is needed.",
+   "values": {
+    "stock": "14/51 (3.643)",
+    "pick_1": "13/50 (3.846)",
+    "pick_2": "14/52 (3.714)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 GasGas MC 250F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-gasgas-mc-250f",
+    "date": "2022-04"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kg7-091",
+   "domain": "setups",
+   "topic": "gearing 450 XC-F vs SX-F",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 XC-F",
+     "450 SX-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "The 2021 450 XC-F comes with 13/48 against 13/49 on the SX-F, with an 18-inch rear wheel and the same 5-speed; testers found first gear too tall for off-road and missed a wide-ratio 6-speed.",
+   "values": {
+    "xcf": "13/48 (3.692)",
+    "sxf": "13/49 (3.769)"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2021 KTM 450XCF Cross-Country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-ktm-450xcf-cross-country",
+    "date": "2021-05"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kg7-092",
+   "domain": "drivetrain",
+   "topic": "clutch hydraulics by brand and year",
+   "applies_to": {
+    "make": [
+     "GasGas",
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F",
+     "Husqvarna FC 450",
+     "Husqvarna FC 350",
+     "Husqvarna FC 250",
+     "GasGas MC 450F",
+     "GasGas MC 250F",
+     "Husqvarna FX 450",
+     "Husqvarna FX 350"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "KTM and GasGas used Brembo clutch hydraulics throughout 2020-2022; Husqvarna used Magura until 2021 and switched to Brembo for 2022. Testers find the Magura smoother and the Brembo more 'pop', with identical performance.",
+   "values": {
+    "husqvarna_2020_2021": "Magura",
+    "husqvarna_2022": "Brembo"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 2021 Shootout Honda CRF450 vs Husqvarna FC450",
+    "url": "https://motocrossactionmag.com/2021-mxa-shootout-honda-crf450-vs-husqvarna-fc450",
+    "date": "2021-03"
+   },
+   "confidence": "high",
+   "notes": "Husqvarna 2022 change confirmed by the 2022 launch information."
+  },
+  {
+   "id": "kg7-093",
+   "domain": "drivetrain",
+   "topic": "250 XC-F 6-speed spacing",
+   "applies_to": {
+    "make": [
+     "GasGas",
+     "KTM"
+    ],
+    "models": [
+     "250 XC-F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2020,
+     2022
+    ]
+   },
+   "statement": "The 250 XC-F and EX 250F use a semi-close 6-speed with evenly spaced first to fifth and a big jump to sixth that is hard to engage; testers say to count to three after you think you need to shift.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Test: First Impression 2020 KTM 250 XC-F",
+    "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2020-ktm-250-xc-f",
+    "date": "2020-02"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kg7-094",
+   "domain": "known_issues",
+   "topic": "loose hardware checklist",
+   "applies_to": {
+    "make": [
+     "GasGas",
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "Husqvarna FC 450",
+     "Husqvarna FC 350",
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Every 2020-2022 test repeats the same checks: rear sprocket bolts, spokes (especially the one by the rear rim lock; about half the 2022 GasGas test bikes had one loose), head-stay and motor-mount bolts, shift lever, shock linkage nut and clutch slave bolts.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 GasGas MC450F",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-gasgas-mc-450f",
+    "date": "2022-04"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "kg7-095",
+   "domain": "known_issues",
+   "topic": "neutral and shift locker",
+   "applies_to": {
+    "make": [
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "Neutral is hard to find when stopped because of the downsized detent; for 2021 KTM strengthened the shift locker so a boot strike cannot jam the gearbox in one gear.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: 10 things you need to know about the 2021 KTMs",
+    "url": "https://motocrossactionmag.com/10-things-you-need-to-know-about-the-2021-ktms",
+    "date": "2020-12"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kg7-096",
+   "domain": "known_issues",
+   "topic": "electrical niggles",
+   "applies_to": {
+    "make": [
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "450 SX-F",
+     "Husqvarna FC 450",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Testers report the starter-button wire pulling out of its junction box, the FI warning LED falling out of its holder and the kill button needing relocation on 2022 bikes.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-450sxf",
+    "date": "2022-04"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kg7-097",
+   "domain": "known_issues",
+   "topic": "Husqvarna subframe crack",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 450",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Testers found 2022 Husqvarna composite subframes cracking at the right lower bolt hole, plus a fuel quick-release O-ring that can tear and leak.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2022 Husqvarna FC450",
+    "url": "https://motocrossactionmag.com/mxa-race-test-2022-husqvarna-fc450",
+    "date": "2022-04"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kg7-098",
+   "domain": "known_issues",
+   "topic": "fuel filter and hard starting",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "The inline fuel filter needs regular back-flushing; a clogged one causes hard starting. Testers also note a sticking gas cap and a front brake hose that tie-down hooks can crimp.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2021 KTM 450SXF",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-ktm-450sxf",
+    "date": "2021-03"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kg7-099",
+   "domain": "known_issues",
+   "topic": "noisy top end after hot restart (350)",
+   "applies_to": {
+    "make": [
+     "Husqvarna",
+     "KTM"
+    ],
+    "models": [
+     "350 SX-F",
+     "Husqvarna FC 350"
+    ],
+    "years": [
+     2019,
+     2020
+    ]
+   },
+   "statement": "Several 2019-2020 350 owners report a loud top-end rattle for a few seconds after a cold start or hot restart, which most blame on the hydraulic cam-chain tensioner before oil pressure builds; one owner cured it with a manual tensioner, another's aftermarket tensioner did not help.",
+   "values": {
+    "owners_reporting": "about 7"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum: New 2020 KTM 350sxf loud engine noise",
+    "url": "https://www.vitalmx.com/comment/6599316",
+    "date": "2020"
+   },
+   "confidence": "low",
+   "notes": "No dealer-confirmed cause."
+  },
+  {
+   "id": "kg7-100",
+   "domain": "known_issues",
+   "topic": "air fork pressure creep",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "The XACT air fork gained about 10 psi from morning to race time in a heat wave, so pressure must be checked before each moto and the outer chambers bled.",
+   "values": {
+    "pressure_rise": "~10 psi"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2021 KTM 450SX-F Full Test",
+    "url": "https://dirtbikemagazine.com/2021-ktm-450sxf-full-test/",
+    "date": "2020-11"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "kg7-101",
+   "domain": "known_issues",
+   "topic": "runs hot",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Testers list running hot as a complaint on the 2021 450 SX-F.",
+   "values": {},
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine: 2021 KTM 450SX-F Full Test",
+    "url": "https://dirtbikemagazine.com/2021-ktm-450sxf-full-test/",
+    "date": "2020-11"
+   },
+   "confidence": "low",
+   "notes": "No temperatures given."
+  },
+  {
+   "id": "kg7-102",
+   "domain": "known_issues",
+   "topic": "XC-F missing off-road kit",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 XC-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "The 2021 450 XC-F came without a skid plate, engine protection or a USFS spark arrester despite costing $600 more than the SX-F ($10,799).",
+   "values": {
+    "msrp": "$10,799"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action: MXA Race Test 2021 KTM 450XCF Cross-Country",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-ktm-450xcf-cross-country",
+    "date": "2021-05"
+   },
+   "confidence": "medium",
+   "notes": ""
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "year the 450 SX-F got new rocker arms",
+   "records": [
+    "kg7-002",
+    "kg7-005"
+   ],
+   "spread": "One magazine lists redesigned rocker arms (less inertia) as a 2020 change; KTM's 2022 launch lists new lighter, stiffer rocker arms for 2022. Possibly two separate revisions."
+  },
+  {
+   "topic": "connecting rod small-end bushing year",
+   "records": [
+    "kg7-002",
+    "kg7-022"
+   ],
+   "spread": "2020 race test says the 450 rod got a bronze bushing for 2020; the 2021 change list describes a copper-beryllium bushing replacing a needle bearing for 2021 without naming the model."
+  },
+  {
+   "topic": "2022 GasGas MC 450F peak power",
+   "records": [
+    "kg7-035",
+    "kg7-036"
+   ],
+   "spread": "54.0 hp @ 9,600 rpm (in-house dyno, likely Dynojet 250i) vs 57.3 hp @ 9,100 rpm (dyno not stated): 3.3 hp spread; different dynos."
+  },
+  {
+   "topic": "2020-2022 450 SX-F peak power across dynos",
+   "records": [
+    "kg7-024",
+    "kg7-025",
+    "kg7-026"
+   ],
+   "spread": "54.8-55.0 hp (Dynojet 250i family, 2021-2022) vs 58.32 hp (other magazine, 2020). Different dynos; not a year-on-year change."
+  },
+  {
+   "topic": "2022 Husqvarna FC 250 peak",
+   "records": [
+    "kg7-043"
+   ],
+   "spread": "44.36 hp on one magazine's dyno vs about 39-40 hp class on the Dynojet 250i used by another (2022 KTM 39.8 hp, BAK k25-034)."
+  },
+  {
+   "topic": "year Husqvarna FCs were lowered",
+   "records": [
+    "kg7-010"
+   ],
+   "spread": "2021 race tests describe the 10 mm shorter fork, longer link arms and 45 N/mm spring as 2021 changes; the 2022 FC 450 race test lists them again under 2022 changes. Treated as 2021 with carry-over."
+  },
+  {
+   "topic": "2022 GasGas MC brake brand",
+   "records": [
+    "kg7-013"
+   ],
+   "spread": "2022 race tests say GasGas shares the KTM's Brembo brakes; the 2025 US/Australian recalls (BAK ki6-001/002, k25-083) cover Braktec front calipers on 2022-2025 GasGas MC models."
+  },
+  {
+   "topic": "2021 350 SX-F stock shock spring",
+   "records": [
+    "kg7-073",
+    "kg7-082"
+   ],
+   "spread": "The 2021 350 SX-F race test lists 42 N/mm (vs 45 on the 450) in its changes and 45 N/mm in its setup box."
+  },
+  {
+   "topic": "250 SX-F stock gearing",
+   "records": [
+    "kg7-089"
+   ],
+   "spread": "Tuner page gives stock as 14/51 and also as 13/51; KTM spec and magazines say 14/51."
+  },
+  {
+   "topic": "air-seal bypass holes in 2021 fork",
+   "records": [
+    "kg7-003"
+   ],
+   "spread": "Four holes (2021 change list, 2021 FC 450 test) vs three holes (2021 350 SX-F test)."
+  },
+  {
+   "topic": "map switch on Husqvarna FC 2020 vs 2021",
+   "records": [
+    "kg7-010"
+   ],
+   "spread": "A 2021 FC 350 race test lists 'map switch with TC and launch control' as new for 2021, while 2020 FC tests already describe two maps and traction control on the switch."
+  },
+  {
+   "topic": "launch control mechanism",
+   "records": [
+    "kg7-048",
+    "kg7-049"
+   ],
+   "spread": "KTM manual: limits engine speed at full throttle then raises it. Magazine: retards ignition a few degrees until third gear or throttle-off."
+  },
+  {
+   "topic": "AER vs XACT naming 2020",
+   "records": [
+    "kg7-001",
+    "kg7-077"
+   ],
+   "spread": "One 2020 XC-F test calls the switch from AER 48 to XACT a hardware change; KTM's 2020 changes were new settings and a new fork piston, and the fork stayed an air fork."
+  },
+  {
+   "topic": "Husqvarna FE 450 availability 2020-2022",
+   "records": [
+    "kg7-067"
+   ],
+   "spread": "Garage roster and an Australian 2020 FE 450 test show 2020-2022 bikes; a US-focused BAK record (ko4-014) says the FE 450 returned in 2023 after three years. Market difference (US vs rest of world)."
+  }
+ ],
+ "not_found": [
+  {
+   "item": "2020, 2021, 2022 KTM 450 XC-F dyno",
+   "searched": "dirtrider 450 XC-F dyno 2020/2021/2022; only 2019 and 2023 tests exist on that site"
+  },
+  {
+   "item": "Husqvarna FE 450 2020-2022 dyno and US availability",
+   "searched": "FE 450 2020/2021/2022 dyno test; only a 2019 FE 450 dyno and an Australian 2020 ride review found"
+  },
+  {
+   "item": "GasGas MC 350F 2022 test or dyno",
+   "searched": "2022 GasGas MC 350F test review dyno; only 2023 race test (still previous-generation platform) found"
+  },
+  {
+   "item": "GasGas EX 450F 2021-2022 test, dyno, settings",
+   "searched": "2021 GasGas EX 450F test review power suspension; no dedicated test found"
+  },
+  {
+   "item": "Husqvarna FX 350 2021-2022 and FX 450 2022 dyno",
+   "searched": "2022 Husqvarna FX 350/FX 450 test dyno; only 2020-2021 FX dynos (already in BAK ko4) and launch info"
+  },
+  {
+   "item": "Dirt Rider 2020 KTM 450 SX-F dyno",
+   "searched": "2020 KTM 450 SX-F dyno test; results showed 2019, 2021, 2022 only"
+  },
+  {
+   "item": "per-rpm dyno values for 2020-2022 bikes",
+   "searched": "dyno pages fetched; curves are images, text gives only peaks and a few band leads"
+  },
+  {
+   "item": "measured before/after exhaust or ECU dyno on 2020-2022 four-strokes",
+   "searched": "2020 KTM 450 SX-F exhaust dyno comparison; only subjective tester reports and the airbox-cover dyno delta"
+  },
+  {
+   "item": "OEM fork air pressure table by rider weight for XACT air fork",
+   "searched": "KTM owner's manual fork air pressure rider weight; the manual gives one value per model plus a 7-12 bar range, no weight table"
+  },
+  {
+   "item": "2020-2022 FE 450 / 450 XC-F service bulletins",
+   "searched": "recall KTM 2020/2021/2022 SX-F XC-F Husqvarna FC CPSC; only the 2021 drive-chain recall (CPSC 21-733) applies to this slice beyond those already in BAK"
+  },
+  {
+   "item": "camshaft lift/duration for 2020-2022 engines",
+   "searched": "not searched (budget); none seen in fetched tests"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Dirt Rider: 2021 KTM 450 SX-F Dyno Test",
+   "url": "https://dirtrider.com/story/tests/2021-ktm-450-sx-f-dyno-test",
+   "type": "magazine",
+   "date": "2020-12"
+  },
+  {
+   "name": "Dirt Rider: 2022 KTM 450 SX-F Dyno Test",
+   "url": "https://dirtrider.com/story/tests/2022-ktm-450-sx-f-dyno-test",
+   "type": "magazine",
+   "date": "2022-03"
+  },
+  {
+   "name": "Dirt Rider: 2020 Husqvarna FC 450 Dyno Test",
+   "url": "https://www.dirtrider.com/2020-husqvarna-fc-450-dyno-test",
+   "type": "magazine",
+   "date": "2019-11"
+  },
+  {
+   "name": "Dirt Rider: 2021 Husqvarna FC 450 Dyno Test",
+   "url": "https://dirtrider.com/story/tests/2021-husqvarna-fc-450-dyno-test",
+   "type": "magazine",
+   "date": "2020-12"
+  },
+  {
+   "name": "Dirt Rider: 2021 Husqvarna FC 450 Rockstar Edition Dyno Test",
+   "url": "https://www.dirtrider.com/story/tests/2021-husqvarna-fc-450-rockstar-edition-dyno-test",
+   "type": "magazine",
+   "date": "2021-02"
+  },
+  {
+   "name": "Dirt Rider: 2022 Husqvarna FC 450 Dyno Test",
+   "url": "https://dirtrider.com/story/tests/2022-husqvarna-fc-450-dyno-test",
+   "type": "magazine",
+   "date": "2022-03"
+  },
+  {
+   "name": "Dirt Rider: 2022 Husqvarna FC 450 Rockstar Edition Dyno Test",
+   "url": "https://www.dirtrider.com/story/tests/husqvarna-fc-450-rockstar-edition-dyno-test-2022",
+   "type": "magazine",
+   "date": "2022-06"
+  },
+  {
+   "name": "Dirt Rider: 2022 GasGas MC 450F Dyno Test",
+   "url": "https://dirtrider.com/story/tests/2022-gasgas-mc-450f-dyno-test",
+   "type": "magazine",
+   "date": "2022-03"
+  },
+  {
+   "name": "Dirt Rider: GasGas MC 250F Dyno Test 2022",
+   "url": "https://www.dirtrider.com/story/tests/gasgas-mc-250f-dyno-test-2022",
+   "type": "magazine",
+   "date": "2022-05"
+  },
+  {
+   "name": "Dirt Rider: 2021 KTM 250 SX-F Dyno Test",
+   "url": "https://dirtrider.com/story/tests/2021-ktm-250-sx-f-dyno-test",
+   "type": "magazine",
+   "date": "2020-12"
+  },
+  {
+   "name": "Dirt Rider: 2020 Husqvarna FC 250 Dyno Test",
+   "url": "https://dirtrider.com/story/tests/2020-husqvarna-fc-250-dyno-test",
+   "type": "magazine",
+   "date": "2020-02"
+  },
+  {
+   "name": "Dirt Rider: 2021 Husqvarna FC 250 Dyno Test",
+   "url": "https://dirtrider.com/story/tests/2021-husqvarna-fc-250-dyno-test",
+   "type": "magazine",
+   "date": "2020-12"
+  },
+  {
+   "name": "Dirt Bike Magazine: 2021 KTM 450SX-F Full Test",
+   "url": "https://dirtbikemagazine.com/2021-ktm-450sxf-full-test/",
+   "type": "magazine",
+   "date": "2020-11"
+  },
+  {
+   "name": "Dirt Bike Magazine: First Ride 2021 KTM 450XC-F (The Wrap)",
+   "url": "https://dirtbikemagazine.com/first-ride-2021-ktm-450xc-f-the-wrap/",
+   "type": "magazine",
+   "date": "2020-09"
+  },
+  {
+   "name": "Motocross Action: 10 things you need to know about the 2021 KTMs",
+   "url": "https://motocrossactionmag.com/10-things-you-need-to-know-about-the-2021-ktms",
+   "type": "magazine",
+   "date": "2020-12"
+  },
+  {
+   "name": "Motocross Action: MXA Race Test 2020 KTM 450SXF",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-ktm-450sxf",
+   "type": "magazine",
+   "date": "2020-04"
+  },
+  {
+   "name": "Motocross Action: MXA Race Test 2021 KTM 450SXF",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-ktm-450sxf",
+   "type": "magazine",
+   "date": "2021-03"
+  },
+  {
+   "name": "Motocross Action: MXA Race Test 2022 KTM 450SXF",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-450sxf",
+   "type": "magazine",
+   "date": "2022-04"
+  },
+  {
+   "name": "Motocross Action: MXA Race Test 2021 KTM 350SXF",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2021-ktm-350sxf",
+   "type": "magazine",
+   "date": "2020-12"
+  },
+  {
+   "name": "Motocross Action: MXA Tech Spec 12 things about the 2020 KTM 350SXF",
+   "url": "https://motocrossactionmag.com/mxa-tech-spec-12-things-about-the-2020-ktm-350sxf",
+   "type": "magazine",
+   "date": "2020-08"
+  },
+  {
+   "name": "Motocross Action: MXA Race Test 2021 KTM 450XCF Cross-Country",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-ktm-450xcf-cross-country",
+   "type": "magazine",
+   "date": "2021-05"
+  },
+  {
+   "name": "Motocross Action: MXA Race Test 2021 Husqvarna FC450",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2021-husqvarna-fc450",
+   "type": "magazine",
+   "date": "2020-12"
+  },
+  {
+   "name": "Motocross Action: 2021 Shootout Honda CRF450 vs Husqvarna FC450",
+   "url": "https://motocrossactionmag.com/2021-mxa-shootout-honda-crf450-vs-husqvarna-fc450",
+   "type": "magazine",
+   "date": "2021-03"
+  },
+  {
+   "name": "Motocross Action: MXA Race Test 2021 Husqvarna FC350",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-husqvarna-fc350",
+   "type": "magazine",
+   "date": "2021-05"
+  },
+  {
+   "name": "Motocross Action: MXA Race Test 2022 Husqvarna FC450",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2022-husqvarna-fc450",
+   "type": "magazine",
+   "date": "2022-04"
+  },
+  {
+   "name": "Motocross Action: MXA Race Test 2022 Husqvarna FC350",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2022-husqvarna-fc350",
+   "type": "magazine",
+   "date": "2022-04"
+  },
+  {
+   "name": "Motocross Action: MXA Race Test 2022 Husqvarna FC250",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-husqvarna-fc250",
+   "type": "magazine",
+   "date": "2022-04"
+  },
+  {
+   "name": "Motocross Action: MXA Race Test 2022 GasGas MC450F",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2022-gasgas-mc-450f",
+   "type": "magazine",
+   "date": "2022-04"
+  },
+  {
+   "name": "Motocross Action: MXA Race Test 2022 GasGas MC 250F",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-gasgas-mc-250f",
+   "type": "magazine",
+   "date": "2022-04"
+  },
+  {
+   "name": "Motocross Action: MXA Race Test 2020 Husqvarna FX450",
+   "url": "https://motocrossactionmag.com/mxa-2020-husqvarna-fx450",
+   "type": "magazine",
+   "date": "2020-09"
+  },
+  {
+   "name": "Motocross Action: 2023 KTM 450SXF, 350SXF, 250SXF motocross models",
+   "url": "https://motocrossactionmag.com/2023-ktm-450sxf-350sxf-250sxf-motocross-models",
+   "type": "magazine",
+   "date": "2022-05"
+  },
+  {
+   "name": "Ultimate Motorcycling: 2020 KTM 450/350/250 SX-F First Look",
+   "url": "https://ultimatemotorcycling.com/2019/04/30/2020-ktm-450-sx-f-350-sx-f-and-250-sx-f-first-look-6-fast-facts",
+   "type": "magazine",
+   "date": "2019-04"
+  },
+  {
+   "name": "Ultimate Motorcycling: 2022 KTM Motocross Lineup First Look",
+   "url": "https://ultimatemotorcycling.com/2021/05/04/2022-ktm-motocross-lineup-first-look-fast-facts-specs-photos/",
+   "type": "magazine",
+   "date": "2021-05"
+  },
+  {
+   "name": "Ultimate Motorcycling: 2020 Husqvarna FC 450, 350 and 250 First Look",
+   "url": "https://ultimatemotorcycling.com/2019/04/30/2020-husqvarna-fc-450-350-and-250-first-look-5-fast-facts/",
+   "type": "magazine",
+   "date": "2019-04"
+  },
+  {
+   "name": "Ultimate Motorcycling: 2021 GasGas Motocross Lineup First Look",
+   "url": "https://ultimatemotorcycling.com/2020/09/25/2021-gasgas-motocross-lineup-first-look-specs-and-photos",
+   "type": "magazine",
+   "date": "2020-09"
+  },
+  {
+   "name": "Ultimate Motorcycling: 2022 Husqvarna Cross-Country Lineup First Look",
+   "url": "https://ultimatemotorcycling.com/2021/05/05/2022-husqvarna-cross-country-lineup-first-look-trio-of-racebikes/",
+   "type": "magazine",
+   "date": "2021-05"
+  },
+  {
+   "name": "RideApart: Husqvarna Tweaks TC and FC Motocrossers For 2022",
+   "url": "https://www.rideapart.com/news/504427/husqvarna-2022-tc-fc-motocrossers/",
+   "type": "magazine",
+   "date": "2021"
+  },
+  {
+   "name": "Cycle News: 2021 GasGas MC 450F Review",
+   "url": "https://www.cyclenews.com/2021/01/article/2021-gasgas-mc-450f-review",
+   "type": "magazine",
+   "date": "2021-01"
+  },
+  {
+   "name": "Cycle World: 2020 Husqvarna FC 450",
+   "url": "https://cycleworld.com/2020-husqvarna-fc-450",
+   "type": "magazine",
+   "date": "2019-10"
+  },
+  {
+   "name": "Australasian Dirt Bike: 2020 Husqvarna FE450 Review",
+   "url": "https://adbmag.com.au/editorial/2020-husqvarna-fe450-review/",
+   "type": "magazine",
+   "date": "2020-07"
+  },
+  {
+   "name": "Dirt Bike Test: First Impression 2020 KTM 250 XC-F",
+   "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2020-ktm-250-xc-f",
+   "type": "magazine",
+   "date": "2020-02"
+  },
+  {
+   "name": "Dirt Bike Test: 2022 GasGas EX250F",
+   "url": "https://dirtbiketest.com/bike-tests/2022-gasgas-ex250f/",
+   "type": "magazine",
+   "date": "2022"
+  },
+  {
+   "name": "Swap Moto Live: First Test of the 2021 KTM 350 SX-F",
+   "url": "https://www.swapmotolive.com/?p=90549",
+   "type": "magazine",
+   "date": "2020"
+  },
+  {
+   "name": "Keefer Inc Testing: 2021 KTM 250 SX-F baseline suspension, rider triangle and gearing settings",
+   "url": "https://www.keeferinctesting.com/2021-3-23-2021-ktm-250-sx-f-baseline-suspension-rider-triangle-and-gearing-settings/",
+   "type": "tuner",
+   "date": "2021-03"
+  },
+  {
+   "name": "Keefer Inc Testing: 2022 KTM 450 SX-F what would you do",
+   "url": "https://www.keeferinctesting.com/2021-8-16-2022-ktm-450-sx-f-what-would-you-do/",
+   "type": "tuner",
+   "date": "2021-08"
+  },
+  {
+   "name": "CPSC Recall 21-733: KTM, Husqvarna and GASGAS closed-course motorcycles (drive chain)",
+   "url": "https://cpsc.gov/Recalls/2021/KTM-Husqvarna-and-GASGAS-Recall-Closed-Course-Competition-Motorcycles-Due-to-Crash-Hazard-Recall-Alert",
+   "type": "manufacturer",
+   "date": "2021-03"
+  },
+  {
+   "name": "KTM 2019 Owner's Manual 250 SX-F / 250 XC-F (art. 3213849en)",
+   "url": "https://www.ktmshop.se/documents/19_3213849_en_OM.pdf",
+   "type": "manufacturer",
+   "date": "2018-03"
+  },
+  {
+   "name": "Vital MX forum: New 2020 KTM 350sxf loud engine noise",
+   "url": "https://www.vitalmx.com/comment/6599316",
+   "type": "forum",
+   "date": "2020"
+  },
+  {
+   "name": "Vital MX forum: WP AER 48 forks - correct pressure for my weight",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/WP-AER-48-Forks-Whats-the-correct-pressure-for-my-weight,1377704",
+   "type": "forum",
+   "date": "2020-06"
+  }
+ ]
+}
