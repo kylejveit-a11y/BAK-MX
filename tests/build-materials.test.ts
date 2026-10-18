@@ -1,5 +1,5 @@
 import test from 'node:test';import assert from 'node:assert/strict';
-import {Mesh,MeshStandardMaterial,Object3D,Raycaster,Vector3} from 'three';
+import {Mesh,MeshPhysicalMaterial,MeshStandardMaterial,Object3D,Raycaster,Vector3} from 'three';
 import {createBikeModel,disposeBikeModel} from '../src/bike3d/model.ts';
 import {applyVisualBuild} from '../src/bike3d/apply-build.ts';
 import {resolveVisualBuild} from '../shared/build-visual.ts';
@@ -15,9 +15,11 @@ test('stock OEM materials retain distinct plastic seat rubber cast and machined 
   const plastics=materials.get('plastics')!,seat=materials.get('seat')!,rim=materials.get('front-rim')!,engine=materials.get('engine-cast')!;
   assert.ok(plastics&&seat&&rim&&engine);
   assert.equal(plastics.color.getHex(),0xff5a00);assert.equal(plastics.metalness,0);assert.ok(plastics.roughness>=.32&&plastics.roughness<=.46);assert.ok(plastics.envMapIntensity>=.8&&plastics.envMapIntensity<=1.2);
+  assert.ok(plastics instanceof MeshPhysicalMaterial&&plastics.clearcoat>=.3,'OEM plastic needs a controlled molded clearcoat highlight');
   assert.ok(seat.roughness>=.84);assert.ok(seat.color.getHex()<0x303030);
   assert.ok(rim.metalness>=.8&&rim.roughness>=.2&&rim.roughness<=.4);
-  assert.ok(engine.metalness<rim.metalness&&engine.roughness>rim.roughness);
+  assert.ok(engine.metalness<=.45&&engine.roughness>=.58,'cast cases must not read like polished white metal');
+  assert.ok(engine.color.getHex()<=0x7f8588,'cast cases need enough value depth to retain seams under studio lights');
  }finally{disposeBikeModel(bike);}
 });
 test('every tier-1 finish target is independent and restores stock',()=>{

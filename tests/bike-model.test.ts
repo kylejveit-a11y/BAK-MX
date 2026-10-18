@@ -92,6 +92,28 @@ test('authored molded panels present outward surfaces throughout supported seat 
   }finally{disposeBikeModel(bike);}
  }
 });
+test('molded bodywork keeps visible shoulder crown instead of collapsing into flat cards',()=>{
+ const bike=createBikeModel();
+ try{
+  const depth=(name:string)=>new Box3().setFromObject(bike.getObjectByName(name)!).getSize(new Vector3()).z;
+  assert.ok(depth('shroud-molded-1')>.15,'right shroud needs a pronounced radiator shoulder');
+  assert.ok(depth('shroud-molded--1')>.15,'left shroud needs a pronounced radiator shoulder');
+  assert.ok(depth('side-number-panel-1')>.055,'right number panel needs molded crown and edge return');
+  assert.ok(depth('side-number-panel--1')>.045,'left number panel needs molded crown and edge return');
+ }finally{disposeBikeModel(bike);}
+});
+test('fork separates dark anodized outer tubes from bright lower stanchions',()=>{
+ const bike=createBikeModel();
+ try{
+  for(const side of [-1,1]){
+   const upper=bike.getObjectByName(`fork-upper-outer-${side}`),lower=bike.getObjectByName(`fork-lower-stanchion-${side}`);
+   assert.ok(upper instanceof Mesh&&lower instanceof Mesh,`fork ${side} keeps inspectable tube surfaces`);
+   assert.ok(upper.material instanceof MeshStandardMaterial&&lower.material instanceof MeshStandardMaterial);
+   assert.ok(upper.material.color.getHex()<0x404040,'outer fork tube must read as dark anodized alloy');
+   assert.ok(lower.material.color.getHex()>upper.material.color.getHex(),'lower stanchion must remain visually distinct');
+  }
+ }finally{disposeBikeModel(bike);}
+});
 test('model has finite original geometry with removable exterior groups',()=>{
  const bike=createBikeModel();
  for(const name of ['front-wheel','rear-wheel','exhaust','plastics','seat','frame','engine','fork','shock'])assert.ok(bike.getObjectByName(name),name);

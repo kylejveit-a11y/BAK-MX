@@ -86,11 +86,11 @@ function pressedChamber(g:T.Group,top:P[],bottom:P[],mat:T.Material,weld:T.Mater
 export function buildPowertrain(ctx:AuthoringContext){
  const {groups,mats,target,root}=ctx,engine=groups.engine,cooling=groups.cooling;
  const cast=mats.engine,bright=mats.silver,dark=mats.darkMetal??mats.black;
- const castLight=cast.clone();castLight.color.setHex(0xa2a4a1);castLight.metalness=.63;castLight.roughness=.49;
- const castShadow=cast.clone();castShadow.color.setHex(0x737976);castShadow.roughness=.58;
- const gasket=mats.black.clone();gasket.color.setHex(0x282c2b);gasket.roughness=.68;
- const magnesium=mats.black.clone();magnesium.color.setHex(0x303331);magnesium.metalness=.38;magnesium.roughness=.58;
- const coverFace=magnesium.clone();coverFace.color.setHex(0x272b29);coverFace.roughness=.72;
+ const castLight=cast.clone();castLight.color.setHex(0x858b8a);castLight.metalness=.42;castLight.roughness=.60;
+ const castShadow=cast.clone();castShadow.color.setHex(0x535a59);castShadow.metalness=.30;castShadow.roughness=.70;
+ const gasket=mats.black.clone();gasket.color.setHex(0x1b1f1e);gasket.roughness=.78;
+ const magnesium=mats.black.clone();magnesium.color.setHex(0x292d2b);magnesium.metalness=.30;magnesium.roughness=.67;
+ const coverFace=magnesium.clone();coverFace.color.setHex(0x202422);coverFace.roughness=.78;
 
  // The engine is a liquid-cooled compact single: a tapered barrel, irregular
  // cast crankcase and different removable covers on each side, not finned blocks.

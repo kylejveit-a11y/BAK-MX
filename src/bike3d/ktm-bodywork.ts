@@ -51,16 +51,16 @@ export function buildBodywork(ctx:AuthoringContext){
   const m=mesh(g,welded,mat,[0,0,0],name);m.userData.authoredSurface=true;return m;
  }
  const shroudOutline=[[349,275],[392,255],[435,237],[466,231],[500,239],[548,245],[589,245],[660,248],[633,268],[608,287],[594,299],[586,310],[578,321],[570,329],[546,337],[542,322],[538,306],[535,287],[491,289],[446,288],[402,282],[374,281]];
- const shroudSurface=(x:number,y:number)=>.115+.055*Math.exp(-(((x-.03)/.25)**2))+.022*Math.exp(-(((y-.86)/.08)**2))-.65*Math.max(0,y-.91)-.20*Math.max(0,x-.23);
+ const shroudSurface=(x:number,y:number)=>.123+.070*Math.exp(-(((x-.03)/.25)**2))+.028*Math.exp(-(((y-.86)/.08)**2))-.72*Math.max(0,y-.91)-.24*Math.max(0,x-.23);
  const sideOutline=[[205,235],[246,244],[296,259],[342,276],[376,283],[415,284],[449,288],[438,299],[392,312],[375,320],[385,361],[378,368],[361,361],[332,339],[303,319],[276,300],[248,282],[227,263]];
  // The left airbox-side number panel is deeper than the muffler-side panel.
  // These points are traced from the separate left studio photograph, mirrored
  // around the axle midpoint into +X-forward authoring space, not cloned right.
  const leftSideOutline=[[204,254],[231,263],[277,279],[321,290],[371,294],[414,294],[444,299],[411,315],[390,335],[376,367],[370,394],[362,397],[334,376],[309,353],[281,327],[258,304],[231,282]];
- const sideSurface=(x:number,y:number)=>.102+.031*Math.exp(-(((x+.34)/.30)**2))+.013*Math.exp(-(((y-.81)/.15)**2))-.20*Math.max(0,y-.89);
+ const sideSurface=(x:number,y:number)=>.110+.048*Math.exp(-(((x+.34)/.30)**2))+.021*Math.exp(-(((y-.81)/.15)**2))-.27*Math.max(0,y-.89);
  for(const side of [-1,1]){
-  panel('shroud-molded-'+side,kit.shrouds,shroudOutline,shroudSurface,side,plastic);
-  panel('side-number-panel-'+side,kit['side-panels'],side<0?leftSideOutline:sideOutline,sideSurface,side,plastic);
+  panel('shroud-molded-'+side,kit.shrouds,shroudOutline,shroudSurface,side,plastic,.006);
+  panel('side-number-panel-'+side,kit['side-panels'],side<0?leftSideOutline:sideOutline,sideSurface,side,plastic,.006);
   panel('airbox-cover-'+side,kit['airbox-cover'],[[280,267],[335,278],[387,287],[433,290],[401,308],[372,320],[383,360],[365,354],[329,321]],(x,y)=>sideSurface(x,y)-.015,side,airbox);
   panel('lower-airbox-and-frame-protector-'+side,groups.frame,[[293,313],[330,337],[362,360],[378,370],[386,348],[394,345],[392,393],[403,429],[398,444],[381,446],[366,430],[360,401],[345,375],[319,353],[298,335]],(x,y)=>.114+.015*Math.exp(-(((x+.22)/.13)**2)),side,mats.black,.010);
   // Fixed, independently traced marks for each side, projected onto the
@@ -70,6 +70,7 @@ export function buildBodywork(ctx:AuthoringContext){
   marks.charcoal.forEach((outline,i)=>panel('oem-shroud-charcoal-'+side+'-'+i,kit.shrouds,outline,(x,y)=>shroudSurface(x,y)+.001,side,graphic,0,true));
   for(const [px,py] of side<0?[[235,280],[368,386]]:[[235,268],[291,298],[378,360]]){const [x,y]=photo(px,py);bolt(kit['side-panels'],[x,yScale(y),side*(sideSurface(x,y)+.008)],mats.black,.006);}
   const [sx,sy]=photo(419,291);bolt(kit.shrouds,[sx,yScale(sy),side*(shroudSurface(sx,sy)+.009)],mats.black,.006);
+  const innerReturn=path(kit.shrouds,[[374,281],[417,284],[465,288],[510,288],[535,287]].map(([x,y])=>{const p=photo(x,y);return[p[0],yScale(p[1]),side*(shroudSurface(p[0],p[1])-.004)] as V;}),.0032,mats.black,38,7);innerReturn.name='shroud-inner-return-'+side;
   // Subtle lower crease and inward return at the side-panel trailing hook.
   path(kit['side-panels'],(side<0?[[312,351],[340,378],[365,392]]:[[333,338],[356,356],[378,365]]).map(([x,y])=>{const p=photo(x,y);return[p[0],yScale(p[1]),side*(sideSurface(p[0],p[1])+.003)] as V;}),.0014,plastic,24,6);
  }

@@ -36,12 +36,12 @@ export function buildChassis({groups,mats,d,target}:AuthoringContext){
  const rimFront=target('front-rim',mats.black),rimRear=target('rear-rim',mats.black);
  for(const rim of [rimFront,rimRear]){rim.metalness=.82;rim.roughness=.31;rim.envMapIntensity=1.05;}
  const hubFront=target('front-hub',mats.silver),hubRear=target('rear-hub',mats.silver);
- const spokeFront=target('front-spokes',mats.black),spokeRear=target('rear-spokes',mats.black);
+ const spokeFront=target('front-spokes',mats.steel),spokeRear=target('rear-spokes',mats.steel);
  const bars=target('bars',mats.black),grips=target('grips',mats.rubber),clamps=target('clamps',mats.black);
  bars.metalness=.5;bars.roughness=.4;
  const chainMat=target('chain',mats.steel),sprocketMat=target('rear-sprocket',mats.steel);
  const black=mats.black;
- const treadMaterial=mats.rubber.clone();treadMaterial.color.setHex(0x2b2c2e);treadMaterial.roughness=.91;
+ const treadMaterial=mats.rubber.clone();treadMaterial.color.setHex(0x121416);treadMaterial.roughness=.96;
  const TAU=Math.PI*2;
  const polar=(r:number,a:number,z=0):V=>[Math.cos(a)*r,Math.sin(a)*r,z];
  function outline(points:number[][]){const shape=new T.Shape();points.forEach(([x,y],i)=>i?shape.lineTo(x,y):shape.moveTo(x,y));shape.closePath();return shape;}
@@ -205,8 +205,8 @@ export function buildChassis({groups,mats,d,target}:AuthoringContext){
  const forkAxis:V=[upper[0]-front,upper[1]-.347,0];
  for(const side of [-1,1]){
   const z=side*.094;
-  tube(fork,[front-.003,.36,z],[lower[0],lower[1],z],.021,mats.silver,.021,28);
-  tube(fork,[lower[0],lower[1],z],[upper[0],upper[1],z],.0266,mats.silver,.0254,32);
+  const lowerStanchion=tube(fork,[front-.003,.36,z],[lower[0],lower[1],z],.021,mats.silver,.021,28);lowerStanchion.name='fork-lower-stanchion-'+side;lowerStanchion.userData.authoredSurface=true;
+  const upperOuter=tube(fork,[lower[0],lower[1],z],[upper[0],upper[1],z],.0266,mats.darkMetal,.0254,32);upperOuter.name='fork-upper-outer-'+side;upperOuter.userData.authoredSurface=true;
   tube(fork,[.548,.748,z],[.537,.77,z],.029,mats.black,.0285,28);
   tube(fork,[.535,.773,z],[.528,.787,z],.028,mats.silver,.027,28);
   tube(fork,[.354,1.128,z],[.346,1.145,z],.0275,clamps,.0275,28);

@@ -19,6 +19,17 @@ The repository-wide suite remains 242/243 because the pre-existing `2024 rear ho
 
 These results close the browser-software presentation gate only. They do not close the OEM-likeness gate, physical-iPhone performance, physical gestures, or Kyle's visual acceptance.
 
+## 2026-10-18 focused visual refinement pass
+
+A second bounded pass addresses the most visible three-quarter shortcomings without changing the fixed Standard US scope. The radiator shrouds and side-number panels now carry deeper shoulder crown and thicker edge returns, with a recessed dark inner junction that separates the shroud from the frame and radiator. Upper fork tubes use a dark anodized response while lower stanchions remain bright, stock spokes use a steel response, and the tire tread no longer reads as elevated gray geometry.
+
+The cast-engine palette now separates base cast aluminum, raised covers, recessed webs, gaskets and magnesium guards with darker values and higher roughness. Orange plastic has a controlled molded clearcoat response; machined, steel, black-polymer, rubber and seat materials were rebalanced to retain shape under the studio lights instead of clipping toward white. The refreshed GLB contains 127 meshes and 293,634 rendered triangles, and the editable Blender handoff was regenerated from that exact export. `BLOCKOUT_NOT_OEM_VERIFIED` remains unchanged.
+
+Fresh verification for this refinement: 19/19 focused geometry/material tests passed; TypeScript and the production Vite build passed; mobile TypeScript and 12/12 mobile tests passed; the regenerated GLB validated with 0 errors and 0 warnings; and Blender 5.2.2 reopened the handoff with 1,191 objects, 127 meshes and 34 materials. Headless Chrome rendered all six presets as distinct frames and confirmed orbit and zoom interaction with no page alerts or failed resource responses. The repository-wide suite is 244/245 because of the same pre-existing rear-hose assertion mismatch documented above.
+
+- [Focused pass three-quarter render](../../../public/bike-builder/ktm-450-sxf-2025-browser-three-quarter.png)
+- [Focused pass browser page](../../../public/bike-builder/ktm-450-sxf-2025-browser-review.png)
+
 ## What changed
 
 The original single-file primitive assembly has been replaced with editable, photo-contoured surface authoring in `src/bike3d/ktm-bodywork.ts`, `ktm-chassis.ts`, and `ktm-powertrain.ts`, with reusable mesh construction in `authoring.ts`. The runtime still creates the same Three.js component hierarchy, so web and the self-contained mobile viewer use the same geometry and visual-build application code. No runtime model download is required.
