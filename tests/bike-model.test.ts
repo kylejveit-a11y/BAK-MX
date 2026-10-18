@@ -102,6 +102,23 @@ test('molded bodywork keeps visible shoulder crown instead of collapsing into fl
   assert.ok(depth('side-number-panel--1')>.045,'left number panel needs molded crown and edge return');
  }finally{disposeBikeModel(bike);}
 });
+test('side panel and airbox carry a compound shoulder instead of one broad slope',()=>{
+ const bike=createBikeModel();
+ try{
+  bike.updateMatrixWorld(true);
+  const sample=(name:string,side:number,x:number,y:number)=>{
+   const object=bike.getObjectByName(`${name}-${side}`);assert.ok(object instanceof Mesh,`${name}-${side} is missing`);
+   const hit=new Raycaster(new Vector3(x,y,side*.5),new Vector3(0,0,-side)).intersectObject(object,false)[0];
+   assert.ok(hit,`${name}-${side} must cover the shoulder sample at ${x}, ${y}`);return hit.point.z*side;
+  };
+  for(const side of [-1,1]){
+   const panelCrown=sample('side-number-panel',side,-.36,.80)-Math.max(sample('side-number-panel',side,-.42,.80),sample('side-number-panel',side,-.28,.80));
+   assert.ok(panelCrown>.0045,`side-panel ${side} shoulder crown is only ${panelCrown.toFixed(4)}m`);
+   const airboxCrown=sample('airbox-cover',side,-.36,.82)-Math.max(sample('airbox-cover',side,-.38,.82),sample('airbox-cover',side,-.30,.82));
+   assert.ok(airboxCrown>.007,`airbox ${side} shoulder crown is only ${airboxCrown.toFixed(4)}m`);
+  }
+ }finally{disposeBikeModel(bike);}
+});
 test('front number plate is a compact tapered shell with independent side returns',()=>{
  const bike=createBikeModel();
  try{
@@ -155,6 +172,23 @@ test('engine and exhaust retain stepped exterior depth without an oversized head
   assert.ok(header);assert.ok((header.geometry as import('three').TubeGeometry).parameters.radius<.019,'header primary tube remains visually oversized');
   const chamber=bike.getObjectByName('formed-header-crescent-resonator');assert.ok(chamber);
   assert.ok(new Box3().setFromObject(chamber).getSize(new Vector3()).z>.095,'formed header chamber needs stepped pressed depth');
+ }finally{disposeBikeModel(bike);}
+});
+test('valve cover and stock exhaust keep compact layered silhouettes',()=>{
+ const bike=createBikeModel();
+ try{
+  for(const side of [-1,1]){
+   const deck=bike.getObjectByName(`valve-cover-raised-deck-${side}`);assert.ok(deck instanceof Mesh,`valve-cover ${side} raised deck is missing`);
+   const bounds=new Box3().setFromObject(deck);
+   assert.ok(bounds.getSize(new Vector3()).z>.012,`valve-cover ${side} raised deck needs visible depth`);
+   assert.ok(side>0?bounds.max.z>.105:bounds.min.z<-.105,`valve-cover ${side} deck must stand outside the base cover`);
+  }
+  const header=bike.getObjectByName('stock-header-primary-tube');assert.ok(header instanceof Mesh);
+  const headerBounds=new Box3().setFromObject(header);
+  assert.ok(headerBounds.max.z<.215,`header forward loop still sits ${headerBounds.max.z.toFixed(3)}m outside the bike`);
+  const muffler=bike.getObjectByName('stock-black-tapered-muffler');assert.ok(muffler instanceof Mesh);
+  const mufflerSize=new Box3().setFromObject(muffler).getSize(new Vector3());
+  assert.ok(mufflerSize.z<.09,`stock muffler remains ${mufflerSize.z.toFixed(3)}m deep`);
  }finally{disposeBikeModel(bike);}
 });
 test('fork separates dark anodized outer tubes from bright lower stanchions',()=>{

@@ -94,6 +94,7 @@ export function buildPowertrain(ctx:AuthoringContext){
  const caseStepMat=castShadow.clone();caseStepMat.name='engine-case-step';
  const headStepMat=cast.clone();headStepMat.name='engine-head-step';headStepMat.color.setHex(0x697271);headStepMat.metalness=.34;headStepMat.roughness=.68;
  const pumpStepMat=castLight.clone();pumpStepMat.name='engine-pump-step';pumpStepMat.metalness=.40;pumpStepMat.roughness=.62;
+ const valveDeckMat=coverFace.clone();valveDeckMat.name='engine-valve-cover-deck';valveDeckMat.color.setHex(0x303634);valveDeckMat.metalness=.28;valveDeckMat.roughness=.74;
 
  // The engine is a liquid-cooled compact single: a tapered barrel, irregular
  // cast crankcase and different removable covers on each side, not finned blocks.
@@ -169,6 +170,9 @@ export function buildPowertrain(ctx:AuthoringContext){
  }
  casting(engine,[[458,343],[470,332],[500,331],[519,337],[526,350],[518,364],[497,371],[472,365],[457,355]],-.091,.182,castLight,'cylinder-head-casting',.008);
  casting(engine,[[466,326],[479,321],[501,323],[512,331],[514,344],[501,349],[475,349],[464,342]],-.086,.172,magnesium,'valve-cover',.007);
+ const valveDeckOutline:P[]=[[470,329],[480,323],[499,324],[509,331],[509,339],[499,344],[479,343],[469,337]];
+ const rightValveDeck=casting(engine,valveDeckOutline,.091,.017,valveDeckMat,'valve-cover-raised-deck-1',.004);rightValveDeck.userData.authoredSurface=true;
+ const leftValveDeck=casting(engine,valveDeckOutline,-.108,.017,valveDeckMat,'valve-cover-raised-deck--1',.004);leftValveDeck.userData.authoredSurface=true;
  const headStep=casting(engine,[[463,346],[476,335],[500,335],[515,342],[516,351],[502,358],[477,356],[463,351]],.101,.015,headStepMat,'cylinder-head-upper-step',.004);headStep.userData.authoredSurface=true;
  const leftHeadStep=casting(engine,[[463,346],[476,335],[500,335],[515,342],[516,351],[502,358],[477,356],[463,351]],-.131,.015,headStepMat,'cylinder-head-upper-step-left',.004);leftHeadStep.userData.authoredSurface=true;
  for(const side of [-1,1]){
@@ -227,10 +231,10 @@ export function buildPowertrain(ctx:AuthoringContext){
  const mufflerMat=target('exhaust',mats.black);mufflerMat.color.setHex(0x292c2b);mufflerMat.metalness=.46;mufflerMat.roughness=.46;mufflerMat.userData.representativeFinish=true;
  const endMat=target('exhaust',mats.silver);endMat.color.setHex(0xaeb1ae);endMat.metalness=.8;endMat.roughness=.38;
  const weld=headerMat.clone();weld.color.setHex(0x858881);weld.roughness=.49;
- const headerPoints:V[]=[photo(516,354,.086),photo(527,372,.090),photo(535,400,.106),photo(540,426,.131),photo(535,434,.164),photo(525,423,.196),photo(516,393,.207),photo(500,371,.203),photo(477,359,.190),photo(448,356,.168),photo(424,360,.150),photo(407,373,.103),photo(392,382,.045),photo(364,376,.035),photo(336,360,.065),photo(313,352,.135)];
+ const headerPoints:V[]=[photo(516,354,.086),photo(527,372,.090),photo(535,400,.106),photo(540,426,.131),photo(535,434,.160),photo(525,423,.185),photo(516,393,.196),photo(500,371,.191),photo(477,359,.181),photo(448,356,.162),photo(424,360,.146),photo(407,373,.103),photo(392,382,.045),photo(364,376,.035),photo(336,360,.065),photo(313,352,.135)];
  const headerCurve=new T.CatmullRomCurve3(headerPoints.map(vector),false,'centripetal');
  // Keep the first child as a continuous TubeGeometry for connector inspection.
- const header=mesh(stockHeader,new T.TubeGeometry(headerCurve,144,.0175,16,false),headerMat,[0,0,0],'stock-header-primary-tube');
+ const header=mesh(stockHeader,new T.TubeGeometry(headerCurve,144,.0165,16,false),headerMat,[0,0,0],'stock-header-primary-tube');
  header.userData={inlet:headerPoints[0],outlet:headerPoints[headerPoints.length-1],profileStatus:'PHOTO_ESTIMATED'};
  stockHeader.userData={inlet:headerPoints[0],outlet:headerPoints[headerPoints.length-1],connectionRole:'header-to-muffler'};
  // The resonator is a broad flattened crescent pressed in two welded halves,
@@ -239,7 +243,7 @@ export function buildPowertrain(ctx:AuthoringContext){
  pressedChamber(stockHeader,[[422,353],[441,348],[463,349],[484,355],[501,367],[515,383],[528,403]],[[421,365],[429,369],[443,363],[461,364],[480,370],[497,382],[511,398],[522,413],[529,411]],headerMat,weld);
  for(const t of [.055,.19,.35,.82,.93]){
   const p=headerCurve.getPointAt(t),tangent=headerCurve.getTangentAt(t).normalize();
-  const ring=mesh(stockHeader,new T.TorusGeometry(.0177,.0009,6,24),weld,p.toArray() as V,'header-weld-band');
+  const ring=mesh(stockHeader,new T.TorusGeometry(.0167,.0009,6,24),weld,p.toArray() as V,'header-weld-band');
   ring.quaternion.setFromUnitVectors(new T.Vector3(0,0,1),tangent);
  }
  const port=headerPoints[0],dir=vector(headerPoints[1]).sub(vector(port)).normalize();
@@ -252,8 +256,8 @@ export function buildPowertrain(ctx:AuthoringContext){
  const connector=headerPoints[headerPoints.length-1];
  const bodyFront=photo(293,340,.142),bodyRear=photo(179,279,.150),capRear=photo(163,272,.150);
  path(stockMuffler,[connector,photo(304,350,.138),bodyFront],.0208,headerMat,24,16).name='muffler-inlet-neck';
- ovalShell(stockMuffler,bodyFront,bodyRear,[[0,.030,.032],[.09,.045,.040],[.80,.056,.048],[1,.056,.048]],mufflerMat,'stock-black-tapered-muffler');
- ovalShell(stockMuffler,bodyRear,capRear,[[0,.057,.049],[.12,.058,.050],[.46,.055,.047],[.76,.041,.035],[1,.033,.029]],endMat,'stock-silver-formed-outlet-cap',true);
+ ovalShell(stockMuffler,bodyFront,bodyRear,[[0,.026,.028],[.09,.039,.034],[.80,.050,.043],[1,.049,.042]],mufflerMat,'stock-black-tapered-muffler');
+ ovalShell(stockMuffler,bodyRear,capRear,[[0,.050,.043],[.12,.051,.044],[.46,.048,.041],[.76,.038,.032],[1,.030,.026]],endMat,'stock-silver-formed-outlet-cap',true);
  // End opening faces rearward and retains a dark recessed bore.
  const capAxis=vector(capRear).sub(vector(bodyRear)).normalize();
  const mouth=mesh(stockMuffler,new T.CircleGeometry(.024,32),gasket,vector(capRear).addScaledVector(capAxis,.001).toArray() as V,'muffler-dark-outlet');mouth.quaternion.setFromUnitVectors(new T.Vector3(0,0,1),capAxis);

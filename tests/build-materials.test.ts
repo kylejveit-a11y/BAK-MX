@@ -37,6 +37,17 @@ test('stepped engine details keep a restrained cast-metal value hierarchy',()=>{
   }
  }finally{disposeBikeModel(bike);}
 });
+test('raised valve-cover decks retain a dark cast finish distinct from the cylinder head',()=>{
+ const bike=createBikeModel();
+ try{
+  const head=bike.getObjectByName('cylinder-head-upper-step');assert.ok(head instanceof Mesh&&head.material instanceof MeshStandardMaterial);
+  for(const side of [-1,1]){
+   const deck=bike.getObjectByName(`valve-cover-raised-deck-${side}`);assert.ok(deck instanceof Mesh&&deck.material instanceof MeshStandardMaterial,`valve-cover ${side} deck must remain inspectable`);
+   assert.ok(deck.material.color.getHex()<head.material.color.getHex(),'valve-cover deck must read darker than the cast head');
+   assert.ok(deck.material.metalness<=.4&&deck.material.roughness>=.65,'valve-cover deck needs a restrained cast finish');
+  }
+ }finally{disposeBikeModel(bike);}
+});
 test('every tier-1 finish target is independent and restores stock',()=>{
  const bike=createBikeModel(),before=colors(bike);
  for(const target of ['bars','grips','clamps','front-rim','rear-rim','front-hub','rear-hub','front-spokes','rear-spokes','chain','rear-sprocket','exhaust','seat']){

@@ -32,11 +32,11 @@ export function buildBodywork(ctx:AuthoringContext){
    current.dispose();current=new T.BufferGeometry();current.setAttribute('position',new T.Float32BufferAttribute(out,3));
   }return current;
  }
- function panel(name:string,g:T.Group,outline:number[][],surface:(x:number,y:number)=>number,side:number,mat:T.Material,thickness=.004,graphicOnly=false){
+ function panel(name:string,g:T.Group,outline:number[][],surface:(x:number,y:number)=>number,side:number,mat:T.Material,thickness=.004,graphicOnly=false,detail=1){
   const shape=contour(outline,graphicOnly?0:.1);
   let geo:T.BufferGeometry=graphicOnly?new T.ShapeGeometry(shape,8):new T.ExtrudeGeometry(shape,{depth:thickness,bevelEnabled:true,bevelSize:.0025,bevelThickness:.0015,bevelSegments:3,curveSegments:5,steps:1});
   // Tessellation changes surface curvature, rather than adding triangles to a flat cap.
-  geo=subdivide(geo,graphicOnly?2:1);const p=geo.getAttribute('position');
+  geo=subdivide(geo,graphicOnly?2:detail);const p=geo.getAttribute('position');
   const backing=graphicOnly?g.getObjectByName('shroud-molded-'+side) as T.Mesh:undefined;
   backing?.updateMatrixWorld(true);
   const ray=new T.Raycaster(new T.Vector3(),new T.Vector3(0,0,-side));
@@ -57,14 +57,21 @@ export function buildBodywork(ctx:AuthoringContext){
  // These points are traced from the separate left studio photograph, mirrored
  // around the axle midpoint into +X-forward authoring space, not cloned right.
  const leftSideOutline=[[204,254],[231,263],[277,279],[321,290],[371,294],[414,294],[444,299],[411,315],[390,335],[376,367],[370,394],[362,397],[334,376],[309,353],[281,327],[258,304],[231,282]];
- const sideSurface=(x:number,y:number)=>.110+.048*Math.exp(-(((x+.34)/.30)**2))+.021*Math.exp(-(((y-.81)/.15)**2))-.27*Math.max(0,y-.89);
+ // The side panel changes section twice: a localized upper shoulder below the
+ // seat and a quicker fall into the airbox leading edge. Keeping this in the
+ // surface itself avoids the broad, uniformly sloped card seen in side views.
+ const sideShoulder=(x:number,y:number)=>.026*Math.exp(-(((x+.36)/.045)**2+((y-.80)/.095)**2));
+ const sideSurface=(x:number,y:number)=>.110+.048*Math.exp(-(((x+.34)/.30)**2))+.021*Math.exp(-(((y-.81)/.15)**2))+sideShoulder(x,y)-.27*Math.max(0,y-.89);
+ const airboxSurface=(x:number,y:number)=>sideSurface(x,y)-.017
+  +.012*Math.exp(-(((x+.36)/.025)**2+((y-.82)/.060)**2))
+  -.005*Math.exp(-(((x+.16)/.070)**2+((y-.80)/.10)**2));
  for(const side of [-1,1]){
   panel('shroud-molded-'+side,kit.shrouds,shroudOutline,shroudSurface,side,plastic,.006);
   // The upper shoulder changes section as it runs into the tank instead of
   // reading as one broad planar orange card.
   panel('shroud-upper-shoulder-'+side,kit.shrouds,[[392,255],[435,237],[466,231],[500,239],[548,245],[535,267],[486,263],[435,258]],(x,y)=>shroudSurface(x,y)+.006+.018*Math.exp(-(((x-.01)/.20)**2)),side,plastic,.003);
   panel('side-number-panel-'+side,kit['side-panels'],side<0?leftSideOutline:sideOutline,sideSurface,side,plastic,.006);
-  panel('airbox-cover-'+side,kit['airbox-cover'],[[280,267],[335,278],[387,287],[433,290],[401,308],[372,320],[383,360],[365,354],[329,321]],(x,y)=>sideSurface(x,y)-.015,side,airbox);
+  panel('airbox-cover-'+side,kit['airbox-cover'],[[280,267],[335,278],[387,287],[433,290],[401,308],[372,320],[383,360],[365,354],[329,321]],airboxSurface,side,airbox,.004,false,2);
   panel('lower-airbox-and-frame-protector-'+side,groups.frame,[[293,313],[330,337],[362,360],[378,370],[386,348],[394,345],[392,393],[403,429],[398,444],[381,446],[366,430],[360,401],[345,375],[319,353],[298,335]],(x,y)=>.114+.015*Math.exp(-(((x+.22)/.13)**2)),side,mats.black,.010);
   // Fixed, independently traced marks for each side, projected onto the
   // actual molded surface. They remain unchanged by plastics-color choices.

@@ -40,6 +40,14 @@ Fresh verification for this pass: the five new regressions were observed failing
 
 Remaining visual gaps include exact OEM sectional curvature, side-panel and airbox contour fidelity, hidden bodywork junctions, cylinder/head casting accuracy, exhaust routing detail and fine surface texture. Kyle's visual acceptance remains open.
 
+## 2026-10-18 final wrap-up refinement
+
+The approved final batch replaces the broad side-panel and airbox slope with a compound molded shoulder and a faster recessed transition toward the leading edge. The valve cover now has independently inspectable dark cast decks on both sides, the primary header loop sits closer to the engine with a slimmer tube, and the stock muffler has a tighter tapered section. These changes improve section readability in the three-quarter and side views without changing the fixed 2025 Standard US identity, replacement boundaries or hardpoints.
+
+The new geometry and material regressions were observed failing before implementation and now pass as part of a 27/27 focused suite. The regenerated 8,696,580-byte GLB contains 137 meshes and 328,622 triangles; glTF Validator reports 0 errors, 0 warnings, 59 informational notices and 0 hints. Blender 5.2.2 reopens the handoff with 1,201 objects, 137 meshes and 38 materials. The native payload freshness check, production Vite build, mobile TypeScript and 12/12 mobile tests pass. Edge renders six unique camera presets, and orbit and zoom both change the canvas with no page errors or failed requests. The repository-wide suite is 252/253 because of the same unchanged rear-hose message assertion mismatch documented above.
+
+This closes the authorized refinement batch, not the OEM-likeness gate. Side-panel and airbox cross-sections remain photo-estimated; hidden junctions, exact cylinder/head casting contours, exhaust clearance and fine surface texture remain open. Physical-iPhone performance and Kyle's visual acceptance also remain unverified. `BLOCKOUT_NOT_OEM_VERIFIED` is unchanged.
+
 ## What changed
 
 The original single-file primitive assembly has been replaced with editable, photo-contoured surface authoring in `src/bike3d/ktm-bodywork.ts`, `ktm-chassis.ts`, and `ktm-powertrain.ts`, with reusable mesh construction in `authoring.ts`. The runtime still creates the same Three.js component hierarchy, so web and the self-contained mobile viewer use the same geometry and visual-build application code. No runtime model download is required.
