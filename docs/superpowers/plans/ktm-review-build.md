@@ -2,6 +2,23 @@
 
 Updated 2026-10-17. **The convincing HD OEM visual milestone is not complete.** The rejected four-view image is preserved separately. This reconstruction is substantial, but it is still an estimated exterior study. It must not be represented as an accepted or verified OEM asset.
 
+## 2026-10-18 OEM viewer presentation pass
+
+The browser studio now treats the motorcycle as one fixed stock-OEM inspection target rather than a graphics or dimension configurator. Conservative bounding-sphere fitting was replaced with projected-bounds fitting for the actual view direction, giving each preset an independently tested tight frame across landscape, square and portrait hosts. The default is a front-right three-quarter inspection view, with right, left, front, rear and top presets retained.
+
+Studio presentation now uses a seamless dark floor, controlled environment/key/fill/rim lighting, neutral tone mapping, soft shadows and differentiated stock material response for KTM-orange plastic, seat vinyl, rubber, black alloy, cast engine surfaces and machined hardware. The rider-facing wheelbase and seat sliders were removed because this preview represents the fixed Standard US bike. In-house component isolation, wireframe inspection and editable GLB export remain available.
+
+An editable Blender handoff is checked in at `assets/bike3d/ktm-450-sxf-2025.blend`. Blender 5.2.2 opened the file with 123 meshes and preserved the exact identity plus `BLOCKOUT_NOT_OEM_VERIFIED`. This is a durable modeling starting point, not evidence that the imported geometry is visually accepted or now Blender-refined.
+
+- [Verified browser page](../../../public/bike-builder/ktm-450-sxf-2025-browser-review.png)
+- [Verified default WebGL canvas](../../../public/bike-builder/ktm-450-sxf-2025-browser-three-quarter.png)
+
+Fresh verification on 2026-10-18: 18/18 focused 3D scene/material tests passed; TypeScript and the production Vite build passed; the regenerated GLB contains 123 meshes and 292,570 rendered triangles; glTF Validator reported 0 errors and 0 warnings; the native/offline payload was regenerated and its freshness check passed; mobile TypeScript and 12/12 mobile tests passed. Headless Chrome rendered six distinct preset views, orbit and zoom changed the canvas, expand/collapse worked, and the browser recorded no page errors or warnings.
+
+The repository-wide suite remains 239/240 because the pre-existing `2024 rear hose correction preserves other checks, original content identity and rejects changed review inputs` assertion expects `/does not match/`, while the implementation throws `Hose routing correction review changed`. It failed identically before this viewer pass and is outside the 3D scope.
+
+These results close the browser-software presentation gate only. They do not close the OEM-likeness gate, physical-iPhone performance, physical gestures, or Kyle's visual acceptance.
+
 ## What changed
 
 The original single-file primitive assembly has been replaced with editable, photo-contoured surface authoring in `src/bike3d/ktm-bodywork.ts`, `ktm-chassis.ts`, and `ktm-powertrain.ts`, with reusable mesh construction in `authoring.ts`. The runtime still creates the same Three.js component hierarchy, so web and the self-contained mobile viewer use the same geometry and visual-build application code. No runtime model download is required.
