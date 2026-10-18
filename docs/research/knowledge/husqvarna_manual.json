@@ -1,0 +1,268 @@
+{
+ "slice": "Husqvarna owner's-manual suspension tables 2020-2026 (FC, TC, FX, FE, TE, TX) - Round 2 fill",
+ "platform": {
+  "make": "Husqvarna",
+  "models": [
+   "Husqvarna FC 250",
+   "Husqvarna FC 350",
+   "Husqvarna FC 450",
+   "Husqvarna TC 125",
+   "Husqvarna TC 250",
+   "Husqvarna TC 150",
+   "Husqvarna TC 300",
+   "Husqvarna FX 350",
+   "Husqvarna FX 450",
+   "Husqvarna FE 450",
+   "Husqvarna TE 150",
+   "Husqvarna TE 250",
+   "Husqvarna TE 300",
+   "Husqvarna TX 300"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "km9c-001",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2023 FC 350 / FX 350",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 350",
+     "Husqvarna FX 350"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 manual sets the FC 350 air fork at 10.3 bar (149 psi) on EU bikes and 10.6 bar (154 psi) on US bikes, and the FX 350 at 9.9 bar (144 psi); shock springs are 42/45/48 N/mm for 65-75/75-85/85-95 kg riders with 8 mm preload, 35 mm static and 105 mm riding sag.",
+   "values": {
+    "fork_air_FC_EU": "10.3 bar (149 psi)",
+    "fork_air_FC_US": "10.6 bar (154 psi)",
+    "fork_air_FX": "9.9 bar (144 psi)",
+    "fork_air_range": "7-12 bar (102-174 psi), 0.2 bar (3 psi) steps",
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "fork_comp_comfort_std_sport": "17 / 12 / 7 clicks",
+    "fork_reb_FC_EU": "17 / 12 / 7 clicks",
+    "fork_reb_FC_US_and_FX": "23 / 18 / 13 clicks",
+    "shock_LSC": "17 / 15 / 13 clicks",
+    "shock_HSC": "2 / 1.5 / 1 turns",
+    "shock_reb": "17 / 15 / 13 clicks",
+    "shock_spring_65-75kg": "42 N/mm (240 lb/in)",
+    "shock_spring_75-85kg": "45 N/mm (257 lb/in)",
+    "shock_spring_85-95kg": "48 N/mm (274 lb/in)",
+    "shock_spring_preload": "8 mm (0.31 in)",
+    "static_sag": "35 mm (1.38 in)",
+    "riding_sag": "105 mm (4.13 in)",
+    "fork_position": "2nd milled groove from top flush with upper edge of upper triple clamp (no mm height given)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Motorcycles Owner's Manual 2023 FC 350 / FX 350 (art. no. 3402632en), dealer-hosted copy",
+    "url": "https://irp.cdn-website.com/4a30ad0d/files/uploaded/23_3402632_en_OM.pdf",
+    "date": "2022-06"
+   },
+   "confidence": "high",
+   "notes": "Values from chapter 10 (Tuning the chassis), which repeats them per variant (FC 350 EU F2201W1, FC 350 US F2275W1, FX 350 F2201W6). Air fork: left leg air spring, steel spring only as end stop, so no fork spring rate. Technical-data chapter (22.7/22.8) was cut off in extraction. Same shock chart and clicker presets as the 2023 FC/FX 450 (km8-016); fork air 0.1 bar lower than the 450 per variant."
+  },
+  {
+   "id": "km9c-002",
+   "domain": "setups",
+   "topic": "owner's-manual fork technical data: 2021 FC 450 / FX 450",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 450",
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Husqvarna's 2021 FC 450 technical data lists the WP XACT 5448 air fork at 10.7 bar (155 psi) for the US FC 450 and 10 bar (145 psi) for the second fork variant, with fork clickers at 17/12/7 compression and 23/18/13 rebound (comfort/standard/sport).",
+   "values": {
+    "fork": "WP XACT 5448 air fork",
+    "fork_air_variant_1 (art. 34.15.8U.59, 940 mm length; FC 450 US)": "10.7 bar (155 psi)",
+    "fork_air_variant_2 (art. 34.18.8U.79, 950 mm length; probably FX 450)": "10 bar (145 psi)",
+    "fork_comp_comfort_std_sport": "17 / 12 / 7 clicks",
+    "fork_reb_comfort_std_sport": "23 / 18 / 13 clicks",
+    "fork_length": "940 mm (37.01 in) / 950 mm (37.4 in)",
+    "standard_rider_weight": "75 kg ... (value cut off in preview; same manual family uses 75-85 kg)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Motorcycles Owner's Manual 2021 FC 450 / FX 450 / FC 450 Rockstar Edition (art. no. 3402445en), technical data 22.7.2-22.7.3, manual-hosting site page view",
+    "url": "https://www.manualslib.com/manual/2301875/Husqvarna-Fc-450-2021.html?page=154",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "Page text extraction did not pair columns cleanly; the US FC 450 label for 10.7 bar is explicit in the cartridge-oil line, the second column's model is not labelled (950 mm length and 10 bar fit the FX 450, cf. 2023 FX 450 at 10.1 bar). EU FC 450 value not visible. Shock spring chart, sag and preload pages could not be loaded (site served other pages)."
+  },
+  {
+   "id": "km9c-003",
+   "domain": "setups",
+   "topic": "owner's-manual shock technical data: 2022 FC 250 (completes km8-019)",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Husqvarna's 2022 FC 250 technical data lists WP XACT shock springs of 39/42/45 N/mm for 65-75/75-85/85-95 kg riders and 35 mm static sag; shock clickers read 17/15/13 low-speed, 2/1.5/1 turns high-speed and 17/15/13 rebound (comfort/standard/sport).",
+   "values": {
+    "shock": "WP XACT 5750 (fork WP XACT 5448)",
+    "shock_spring_65-75kg": "39 N/mm (223 lb/in)",
+    "shock_spring_75-85kg": "42 N/mm (240 lb/in)",
+    "shock_spring_85-95kg": "45 N/mm (257 lb/in)",
+    "shock_LSC": "17 / 15 / 13 clicks",
+    "shock_HSC": "2 / 1.5 / 1 turns",
+    "shock_reb": "17 / 15 / 13 clicks",
+    "static_sag": "35 mm (1.38 in)",
+    "spring_length": "260 mm (10.24 in) (likely)",
+    "shock_gas_pressure": "10 bar (145 psi)",
+    "fork_comp_comfort_std_sport": "17 / 12 / 7 clicks (inferred from layout)",
+    "fork_reb_comfort_std_sport": "23 / 18 / 13 clicks (inferred; matches US/FX pattern)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Motorcycles Owner's Manual 2022 FC 250 (art. no. 3402532en), technical data 22.8, manual-hosting site page view",
+    "url": "https://www.manualslib.com/manual/2416574/Husqvarna-Fc-250-2022.html?page=136",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Extracted text was scrambled and values were matched to labels by order; spring chart agrees with the partial km8-019 preview (39/42) and adds the 85-95 kg row (45 N/mm). Riding sag, shock preload and fork air pressure were not on this page. Fork clicker figures sat in the adjacent fork block and their mapping is inferred."
+  },
+  {
+   "id": "km9c-004",
+   "domain": "setups",
+   "topic": "owner's-manual fork air pressure: 2021 TC 125",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TC 125"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Husqvarna's 2021 TC 125 manual gives a guideline fork air pressure of 8.1 bar (117 psi) for the 75-85 kg standard rider, adjustable from 7 to 12 bar in 0.2 bar steps.",
+   "values": {
+    "fork": "WP XACT 5448 air fork",
+    "fork_air": "8.1 bar (117 psi)",
+    "fork_air_range": "7-12 bar (102-174 psi), 0.2 bar (3 psi) steps",
+    "standard_rider_weight": "75-85 kg (165-187 lb)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Motorcycles Owner's Manual 2021 TC 125, sections 10 and 10.13, manual-hosting site page views",
+    "url": "https://www.manualslib.com/manual/2301982/Husqvarna-Tc-125-2021.html?page=43",
+    "date": "2020"
+   },
+   "confidence": "medium",
+   "notes": "The 8.1 bar figure appears in the 10.13 'Adjusting the fork air pressure' guideline box but was unlabelled in the extracted text; its role as the setting is inferred from the standard KTM-group box layout (setting, step, min, max). Plausible against the sister 2021 KTM 125 SX at 8.3 bar (km8-005). Standard rider weight from page 36. Shock spring chart, sag and clicker pages could not be loaded."
+  },
+  {
+   "id": "km9c-005",
+   "domain": "setups",
+   "topic": "owner's-manual fork air pressure and clickers: 2022 TX 300i",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TX 300"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Husqvarna's 2022 TX 300i manual gives a guideline fork air pressure of 9.6 bar (139 psi), adjustable from 7 to 12 bar in 0.2 bar steps, with fork compression clickers at 17/12/7 (comfort/standard/sport).",
+   "values": {
+    "fork_air": "9.6 bar (139 psi)",
+    "fork_air_range": "7-12 bar (102-174 psi), 0.2 bar (3 psi) steps",
+    "fork_comp_comfort_std_sport": "17 / 12 / 7 clicks",
+    "fork_reb": "not shown in extracted text"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Motorcycles Owner's Manual 2022 TX 300i, sections 10.13-10.14, manual-hosting site page views",
+    "url": "https://www.manualslib.com/manual/2301994/Husqvarna-Tx-300i-2022.html?page=47",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "TX 300i is the 2022 US cross-country 2-stroke (TBI; later named TX 300). 9.6 bar was unlabelled in extraction and inferred as the setting from box layout; compression clicks from page 48 with label mapping by order. Air-fork value is lower than the MX TC 250-class 10.4 bar, consistent with an off-road setup. Shock data not reached."
+  },
+  {
+   "id": "km9c-006",
+   "domain": "setups",
+   "topic": "stock fork air and shock spring: 2024 FC 250",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 250"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 FC 250 comes with its WP XACT air fork set at 10.5 bar and a 42 N/mm shock spring as stock.",
+   "values": {
+    "fork_air_stock": "10.5 bar (152 psi)",
+    "shock_spring_stock": "42 N/mm (240 lb/in)",
+    "fork_travel": "12.0 in",
+    "shock_travel": "11.5 in"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider, 2024 Husqvarna FC 250 Technical Information",
+    "url": "https://www.dirtrider.com/dirt-bike-tests-and-reviews/husqvarna-fc-250-technical-information/",
+    "date": "2023-11"
+   },
+   "confidence": "medium",
+   "notes": "Manufacturer stock settings as reported by a magazine (photo captions, unit written as 'Nm'); not taken from the owner's manual. No rider-weight band, sag or clicker data. 42 N/mm matches the 75-85 kg spring of the 2022 FC 250 chart (km9c-003)."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "FX 450 fork air pressure",
+   "spread": "10 bar (2021 manual, column label inferred) vs 10.1 bar (2023 manual, km8-016)",
+   "note": "Different model years; 2021 attribution uncertain. Not a true conflict unless the 2021 column is confirmed as FX 450."
+  }
+ ],
+ "not_found": [
+  "Husqvarna FC 450 2020, 2022, 2024, 2025, 2026 and FC 450 2021 shock chart/sag: no direct PDF surfaced; manualslib serves only the cover/TOC and a few search-indexed pages to the fetcher; manua.ls / manuals.co.uk / usermanuals.au render page images with no text.",
+  "Husqvarna FC 250 2020, 2021, 2023, 2025, 2026 and 2022/2024 full tables (fork air for 2022, riding sag, preload): not reached.",
+  "Husqvarna FC 350 2020-2022 and 2024-2026: 2021 manualslib preview showed only FC 350 EU fork air 10.4 bar and fork comp 17/12/7 (no other values), not recorded as a table; other years not found.",
+  "Husqvarna TC 125 2020, 2022-2026 and TC 125 2021 shock/sag; TC 250 2020-2026 (manualslib 2021 TC 250 TOC only); TC 150 / TC 300 2025: not found.",
+  "Husqvarna FX 350 / FX 450 2020-2022, 2024-2026 (beyond km9c-002), FE 450 2020-2026, TE 150 / TE 250 / TE 300 2020-2022 and 2024-2026, TX 300 2020-2021 and 2023-2026: not found. 2023 FE 250/FE 350 dealer PDFs exist on the same irp.cdn-website.com host but are outside this slice.",
+  "manuals.plus Husqvarna manual pages (2022 FC 250, TC 125, TE 250i): fetch returned client error (blocked).",
+  "husqvarna-motorcycles.com user-manuals page only links to the print.ktm.com Print-on-Demand portal; no direct PDFs.",
+  "scribd copies (e.g. 'Husqvarna FC FX 450 Owner's Manual') require JavaScript; not readable.",
+  "Dirt Rider 2025 FC 450 technical page lists fork/shock type and travel only, no air pressure or spring rate."
+ ],
+ "sources": [
+  "https://irp.cdn-website.com/4a30ad0d/files/uploaded/23_3402632_en_OM.pdf",
+  "https://www.manualslib.com/manual/2301875/Husqvarna-Fc-450-2021.html?page=154",
+  "https://www.manualslib.com/manual/2416574/Husqvarna-Fc-250-2022.html?page=136",
+  "https://www.manualslib.com/manual/2301982/Husqvarna-Tc-125-2021.html?page=43",
+  "https://www.manualslib.com/manual/2301982/Husqvarna-Tc-125-2021.html?page=36",
+  "https://www.manualslib.com/manual/2301994/Husqvarna-Tx-300i-2022.html?page=47",
+  "https://www.manualslib.com/manual/2301994/Husqvarna-Tx-300i-2022.html?page=48",
+  "https://www.dirtrider.com/dirt-bike-tests-and-reviews/husqvarna-fc-250-technical-information/"
+ ]
+}

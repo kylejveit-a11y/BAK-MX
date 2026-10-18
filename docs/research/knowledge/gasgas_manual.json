@@ -1,0 +1,474 @@
+{
+ "slice": "GasGas owner's-manual suspension tables 2021-2026 (fill-in round, km9d)",
+ "platform": {
+  "make": "GasGas",
+  "models": [
+   "GasGas MC 125",
+   "GasGas MC 250",
+   "GasGas MC 250F",
+   "GasGas MC 450F",
+   "GasGas MC 450F Factory Edition",
+   "GasGas MC 450F Troy Lee Designs",
+   "GasGas EX 250",
+   "GasGas EX 300",
+   "GasGas EX 250F",
+   "GasGas EX 450F",
+   "GasGas EC 250",
+   "GasGas EC 300"
+  ],
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024
+  ]
+ },
+ "records": [
+  {
+   "id": "km9d-001",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2021 MC 450F / EX 450F (partial)",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 450F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "GASGAS's 2021 MC 450F manual sets the XACT air fork at 10.7 bar (155 psi) on the MC and 10.0 bar (145 psi) on the EX for a 75-85 kg rider, with shock springs of 39/42/45 N/mm (MC) or 42/45/48 N/mm (EX) for 65-75/75-85/85-95 kg riders and 35 mm static / 105 mm riding sag.",
+   "values": {
+    "fork_air_MC": "10.7 bar (155 psi)",
+    "fork_air_EX": "10.0 bar (145 psi)",
+    "fork_air_range": "7-12 bar (102-174 psi), 0.2 bar (3 psi) steps",
+    "fork_type": "WP XACT 5548 air fork (air spring left leg, damping right leg)",
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "shock_LSC": "17 / 15 / 13 clicks (MC and EX)",
+    "shock_HSC_MC": "2 / 1.5 / 1 turns",
+    "shock_HSC_EX": "2.5 / 2 / 1.5 turns",
+    "shock_reb": "17 / 15 / 13 clicks (MC and EX)",
+    "shock_spring_MC_65-75/75-85/85-95kg": "39 / 42 / 45 N/mm (223 / 240 / 257 lb/in)",
+    "shock_spring_EX_65-75/75-85/85-95kg": "42 / 45 / 48 N/mm (240 / 257 / 274 lb/in)",
+    "static_sag": "35 mm (1.38 in)",
+    "riding_sag": "105 mm (4.13 in)",
+    "preload_MC": "8 mm (0.31 in)",
+    "preload_EX": "7 mm (0.28 in)",
+    "fork_comp_and_reb": "not read (page did not load)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS Owner's Manual 2021 MC 450F / EX 450F, ManualsLib copy (manual 2050689), printed pp. 33-40",
+    "url": "https://www.manualslib.com/manual/2050689/Gas-Gas-Mc-450f-2021.html",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Clicker presets are listed as comfort / standard / sport. Read page by page on ManualsLib, where table text is scrambled; the model ordering (MC first, then EX) was inferred from the layout. Every value read matches the 2022 and 2023 manuals for MC and EX. ManualsLib redirected the fork compression/rebound pages and the technical-data pages, so the fork clicker presets were not read."
+  },
+  {
+   "id": "km9d-002",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2022-2023 MC 450F / EX 450F (+2022 Troy Lee Designs)",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 450F",
+     "GasGas EX 450F",
+     "GasGas MC 450F Troy Lee Designs"
+    ],
+    "years": [
+     2022,
+     2023
+    ]
+   },
+   "statement": "GASGAS's 2022 and 2023 MC 450F manuals set the air fork at 10.7 bar (155 psi) on the MC and 10.0 bar (145 psi) on the EX for a 75-85 kg rider. The MC gets 39/42/45 N/mm shock springs and 8 mm preload; the EX (and the 2022 Troy Lee Designs MC) gets 42/45/48 N/mm and 7 mm. All use 35 mm static / 105 mm riding sag.",
+   "values": {
+    "fork_air_MC": "10.7 bar (155 psi)",
+    "fork_air_EX": "10.0 bar (145 psi)",
+    "fork_air_TLD_2022": "10.7 bar (155 psi)",
+    "fork_air_range": "7-12 bar (102-174 psi), 0.2 bar (3 psi) steps",
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "fork_comp_comfort_std_sport": "17 / 12 / 7 clicks (all variants)",
+    "fork_reb_MC": "17 / 12 / 7 clicks",
+    "fork_reb_EX_and_TLD": "23 / 18 / 13 clicks",
+    "shock_LSC": "17 / 15 / 13 clicks (all variants)",
+    "shock_HSC_MC": "2 / 1.5 / 1 turns",
+    "shock_HSC_EX_and_TLD": "2.5 / 2 / 1.5 turns",
+    "shock_reb": "17 / 15 / 13 clicks (all variants)",
+    "shock_spring_MC_65-75/75-85/85-95kg": "39 / 42 / 45 N/mm (223 / 240 / 257 lb/in)",
+    "shock_spring_EX_and_TLD_65-75/75-85/85-95kg": "42 / 45 / 48 N/mm (240 / 257 / 274 lb/in)",
+    "static_sag": "35 mm (1.38 in)",
+    "riding_sag": "105 mm (4.13 in)",
+    "preload_MC": "8 mm (0.31 in)",
+    "preload_EX_and_TLD": "7 mm (0.28 in)",
+    "handlebar_holes": "upper clamp hole spacing 15 mm, handlebar support offset 3.5 mm, 4 positions"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS Owner's Manual 2023 MC 450F / EX 450F (art. no. 3215100en), distributor-hosted copy",
+    "url": "https://gasgas.com.ru/assets/media/files/manuals/motocross/mc%20450F%202023.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Clicker presets are listed as comfort / standard / sport. The 2022 manual (art. no. 3215055en, https://gasgas.com.ru/assets/media/files/manuals/motocross/mc%20450F%202022.pdf) has the same MC and EX values, plus a separate MC 450F Troy Lee Designs column that matches the EX shock setup (stiffer spring, softer HSC, 7 mm preload) and fork rebound but keeps the MC's 10.7 bar air pressure. The 2023 MC 450F Factory Edition has its own manual, which was not read. The fork-height figure was not in the extracted chapter."
+  },
+  {
+   "id": "km9d-003",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2024 MC 450F / MC 450F Factory Edition / EX 450F",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 450F",
+     "GasGas MC 450F Factory Edition",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GASGAS's 2024 MC 450F manual (new chassis) sets the MC air fork at 10.4 bar (151 psi) and the Factory Edition at 10.5 bar (152 psi) for a 75-85 kg rider. All three models use 42/45/48 N/mm shock springs for 65-75/75-85/85-95 kg riders, 8 mm preload, and 35 mm static / 105 mm riding sag.",
+   "values": {
+    "fork_air_MC": "10.4 bar (151 psi)",
+    "fork_air_FE": "10.5 bar (152 psi)",
+    "fork_air_range": "7-12 bar (102-174 psi), 0.2 bar (3 psi) steps",
+    "EX_fork": "no air pressure given for EX-F; the manual describes the air fork only for MC-F models (EX-F likely a coil fork, as on the 2024 EX 250F); rate not in the text read",
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "fork_comp_comfort_std_sport": "17 / 12 / 7 clicks (all variants)",
+    "fork_reb_MC": "17 / 12 / 7 clicks",
+    "fork_reb_FE_and_EX": "23 / 18 / 13 clicks",
+    "shock_LSC": "17 / 15 / 13 clicks",
+    "shock_HSC": "2 / 1.5 / 1 turns",
+    "shock_reb": "17 / 15 / 13 clicks",
+    "shock_spring_65-75kg": "42 N/mm (240 lb/in)",
+    "shock_spring_75-85kg": "45 N/mm (257 lb/in)",
+    "shock_spring_85-95kg": "48 N/mm (274 lb/in)",
+    "static_sag": "35 mm (1.38 in)",
+    "riding_sag": "105 mm (4.13 in)",
+    "shock_spring_preload": "8 mm (0.31 in)",
+    "fork_position": "2nd milled groove from top flush with upper edge of upper triple clamp (no mm height given)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS Owner's Manual 2024 MC 450F / EX 450F / MC 450F Factory Edition (art. no. 3215162en), distributor-hosted copy",
+    "url": "https://gasgas.com.ru/assets/media/files/manuals/motocross/mc%20450F%202024.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Clicker presets are listed as comfort / standard / sport. The manual labels its columns MC-F, EX-F and FACTORY EDITION and gives the same shock values for all three. Compared with 2022-2023, the MC drops from 10.7 to 10.4 bar and moves from the 39/42/45 to the 42/45/48 N/mm spring chart."
+  },
+  {
+   "id": "km9d-004",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2022 MC 250F / EX 250F",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GASGAS's 2022 manual sets the air fork at 10.4 bar (151 psi) on the MC 250F and 9.8 bar (142 psi) on the EX 250F for a 75-85 kg rider, with shock springs of 39/42/45 N/mm for 65-75/75-85/85-95 kg riders and 35 mm static / 105 mm riding sag.",
+   "values": {
+    "fork_air_MC": "10.4 bar (151 psi)",
+    "fork_air_EX": "9.8 bar (142 psi)",
+    "fork_air_range": "7-12 bar (102-174 psi), 0.2 bar (3 psi) steps",
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "fork_comp_comfort_std_sport": "17 / 12 / 7 clicks",
+    "fork_reb_MC": "17 / 12 / 7 clicks",
+    "fork_reb_EX": "23 / 18 / 13 clicks",
+    "shock_LSC": "17 / 15 / 13 clicks",
+    "shock_HSC_MC": "2 / 1.5 / 1 turns",
+    "shock_HSC_EX": "2.5 / 2 / 1.5 turns",
+    "shock_reb": "17 / 15 / 13 clicks",
+    "shock_spring_65-75kg": "39 N/mm (223 lb/in)",
+    "shock_spring_75-85kg": "42 N/mm (240 lb/in)",
+    "shock_spring_85-95kg": "45 N/mm (257 lb/in)",
+    "static_sag": "35 mm (1.38 in)",
+    "riding_sag": "105 mm (4.13 in)",
+    "preload_MC": "8 mm (0.31 in)",
+    "preload_EX": "7 mm (0.28 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS Owner's Manual 2022 MC 250F / EX 250F (art. no. 3215053en), distributor-hosted copy",
+    "url": "https://gasgas.com.ru/assets/media/files/manuals/motocross/mc%20250F%202022.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Clicker presets are listed as comfort / standard / sport. The ManualsLib copy (manual 3126346) independently shows the same air pressures, LSC/HSC/rebound, sag, preload and spring chart. The table is the same as the 2023 MC 250F / EX 250F record (km8-023), so 2022-2023 form one group."
+  },
+  {
+   "id": "km9d-005",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2021 and 2023 MC 125",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 125"
+    ],
+    "years": [
+     2021,
+     2023
+    ]
+   },
+   "statement": "GASGAS's 2021 and 2023 MC 125 manuals set the air fork at 8.3 bar (120 psi) for a 75-85 kg rider and list shock springs of 36/39/42 N/mm for 65-75/75-85/85-95 kg riders, with 7 mm preload and 35 mm static / 105 mm riding sag. This is the same table as the 2022 manual.",
+   "values": {
+    "fork_air": "8.3 bar (120 psi)",
+    "fork_air_range": "7-12 bar (102-174 psi), 0.2 bar (3 psi) steps",
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "fork_comp_comfort_std_sport": "17 / 12 / 7 clicks",
+    "fork_reb_comfort_std_sport": "17 / 12 / 7 clicks",
+    "shock_LSC": "17 / 15 / 13 clicks",
+    "shock_HSC": "2 / 1.5 / 1 turns",
+    "shock_reb": "17 / 15 / 13 clicks",
+    "shock_spring_65-75kg": "36 N/mm (206 lb/in)",
+    "shock_spring_75-85kg": "39 N/mm (223 lb/in)",
+    "shock_spring_85-95kg": "42 N/mm (240 lb/in)",
+    "static_sag": "35 mm (1.38 in)",
+    "riding_sag": "105 mm (4.13 in)",
+    "shock_spring_preload": "7 mm (0.28 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS Owner's Manual 2023 MC 125 (art. no. 3215094en), distributor-hosted copy",
+    "url": "https://gasgas.com.ru/assets/media/files/manuals/motocross/mc%20125%202023.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Clicker presets are listed as comfort / standard / sport. The 2021 values come from the ManualsLib copy of the 2021 MC 125 manual (art. no. 3215008en, https://www.manualslib.com/manual/2292937/Gas-Gas-Mc-125-2021.html, printed pp. 33-40), read page by page with scrambled table text, so the 2021 label mapping was inferred from order. The 2021 static-sag figure (35 mm) was inferred from the layout. MC 125 2021-2023 therefore share one table (2022 = km8-020 in the KTM file); 2024 moved preload to 8 mm."
+  },
+  {
+   "id": "km9d-006",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2023 MC 250 (2-stroke)",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GASGAS's 2023 MC 250 manual sets the air fork at 10.4 bar (151 psi) for a 75-85 kg rider and lists shock springs of 39/42/45 N/mm for 65-75/75-85/85-95 kg riders, with 7 mm preload and 35 mm static / 105 mm riding sag.",
+   "values": {
+    "fork_air": "10.4 bar (151 psi)",
+    "fork_air_range": "7-12 bar (102-174 psi), 0.2 bar (3 psi) steps",
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "fork_comp_comfort_std_sport": "17 / 12 / 7 clicks",
+    "fork_reb_comfort_std_sport": "23 / 18 / 13 clicks",
+    "shock_LSC": "17 / 15 / 13 clicks",
+    "shock_HSC": "2 / 1.5 / 1 turns (as extracted; see notes)",
+    "shock_reb": "17 / 15 / 13 clicks",
+    "shock_spring_65-75kg": "39 N/mm (223 lb/in)",
+    "shock_spring_75-85kg": "42 N/mm (240 lb/in)",
+    "shock_spring_85-95kg": "45 N/mm (257 lb/in)",
+    "static_sag": "35 mm (1.38 in)",
+    "riding_sag": "105 mm (4.13 in)",
+    "shock_spring_preload": "7 mm (0.28 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS Owner's Manual 2023 MC 250 (art. no. 3215095en), distributor-hosted copy",
+    "url": "https://gasgas.com.ru/assets/media/files/manuals/motocross/mc%20250%202023.pdf",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Clicker presets are listed as comfort / standard / sport. The extracted chapter text has no per-model labels. If this manual also covers the EX 250/EX 300 with separate columns, only one column came through. HSC reads 2/1.5/1 turns, but the 2022 MC 250 manual (km8-022) gives 2.5/2/1.5. This may be a real change or an extraction artifact; check the PDF tables."
+  },
+  {
+   "id": "km9d-007",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2024 MC 250 / EX 250 / EX 300",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250",
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GASGAS's 2024 MC 250 / EX 250 / EX 300 manual lists shock springs of 42/45/48 N/mm for 65-75/75-85/85-95 kg riders with 8 mm preload and 35 mm static sag. Riding sag is 105 mm, but the EX 300 US gets 100 mm. The MC 250 air fork is set at 10.5 bar (152 psi) for a 75-85 kg rider.",
+   "values": {
+    "fork_air_MC": "10.5 bar (152 psi)",
+    "fork_air_range": "7-12 bar (102-174 psi), 0.2 bar (3 psi) steps",
+    "EX_fork": "no separate EX fork pressure or coil rate in the extracted chapter (2024 EX models likely use the coil fork, as on the 2024 EX 250F)",
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "fork_comp_comfort_std_sport": "17 / 12 / 7 clicks",
+    "fork_reb_comfort_std_sport": "23 / 18 / 13 clicks",
+    "shock_LSC": "17 / 15 / 13 clicks",
+    "shock_HSC": "2 / 1.5 / 1 turns",
+    "shock_reb": "17 / 15 / 13 clicks",
+    "shock_spring_65-75kg": "42 N/mm (240 lb/in)",
+    "shock_spring_75-85kg": "45 N/mm (257 lb/in)",
+    "shock_spring_85-95kg": "48 N/mm (274 lb/in)",
+    "static_sag": "35 mm (1.38 in)",
+    "riding_sag_MC_and_EX250US": "105 mm (4.13 in)",
+    "riding_sag_EX300US": "100 mm (3.94 in)",
+    "shock_spring_preload": "8 mm (0.31 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS Owner's Manual 2024 MC 250 / EX 250 / EX 300 (art. no. 3215158en), distributor-hosted copy",
+    "url": "https://gasgas.com.ru/assets/media/files/manuals/motocross/mc%20250%202024.pdf",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Clicker presets are listed as comfort / standard / sport. The extraction reported the shock and fork damping as 'MC 250 and all EX models' (identical). Fork presets may differ by fork type on the EX, so check the PDF tables. The fork-height guideline was not in the extracted chapter."
+  },
+  {
+   "id": "km9d-008",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2021-2023 EC 250 / EC 300",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "GASGAS's 2021-2023 EC 250/300 manuals list shock springs of 39/42/45 N/mm for 65-75/75-85/85-95 kg riders with 10 mm preload, 37 mm static and 110 mm riding sag. Fork clickers are 18/15/12 and shock LSC/rebound 17/15/13 (comfort/standard/sport) for a 75-85 kg rider.",
+   "values": {
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "fork_type": "WP XPLOR coil-spring fork (spring rate not given in the tuning chapter)",
+    "fork_comp_comfort_std_sport": "18 / 15 / 12 clicks",
+    "fork_reb_comfort_std_sport": "18 / 15 / 12 clicks",
+    "shock_LSC": "17 / 15 / 13 clicks",
+    "shock_HSC": "2.5 / 2 / 1.5 turns",
+    "shock_reb": "17 / 15 / 13 clicks",
+    "shock_spring_65-75kg": "39 N/mm (223 lb/in)",
+    "shock_spring_75-85kg": "42 N/mm (240 lb/in)",
+    "shock_spring_85-95kg": "45 N/mm (257 lb/in)",
+    "static_sag": "37 mm (1.46 in)",
+    "riding_sag": "110 mm (4.33 in)",
+    "shock_spring_preload": "10 mm (0.39 in)",
+    "handlebar_holes": "upper clamp hole spacing 15 mm, handlebar support offset 3.5 mm",
+    "fork_position": "2nd milled groove from top flush with upper edge of upper triple clamp (no mm height given) (2021 manual ch. 12.8)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS Owner's Manual 2023 EC 250 / EC 300 (art. no. 3215102en), distributor-hosted copy",
+    "url": "https://gasgas.com.ru/assets/media/files/manuals/enduro/EC%20300%202023.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Clicker presets are listed as comfort / standard / sport. The same table appears in the 2022 manual (art. no. 3215056en, https://gasgas.com.ru/assets/media/files/manuals/enduro/EC%20250%202022.pdf) and the 2021 manual (art. no. 3215011en, dealer-hosted copy at https://s81b12f53dcca2766.jimcontent.com/download/version/1626954647/module/12832924126/name/'21%20Gas%20Gas%20EC%20250%20300%20Motorcycles%20Owner's%20Manual%20PDF.pdf). In 2024 (km8-027) the chart moved to 42/45/48 N/mm, 7 mm preload, 40 mm static sag and 18/15/12 shock clickers. The XPLOR fork spring rate is in technical data (ch. 23), which the PDF text extraction did not reach (text cut at ~104k characters)."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "MC 250 (2T) shock high-speed compression presets 2022 vs 2023",
+   "values": {
+    "2022 manual (km8-022)": "2.5 / 2 / 1.5 turns",
+    "2023 manual (km9d-006)": "2 / 1.5 / 1 turns"
+   },
+   "spread": "0.5 turn at every preset",
+   "note": "Either a real model-year change or the 2023 extraction picked up a different column (unlabeled text). Check the PDF."
+  },
+  {
+   "topic": "EX 250F / EX 450F 2024 fork",
+   "values": {
+    "2024 MC 450F manual": "no EX-F air pressure; air-fork description limited to MC-F models",
+    "2024 MC 250 manual": "damping presets given as identical for MC 250 and all EX models"
+   },
+   "spread": "n/a",
+   "note": "2024 EX models appear to move to a coil fork with no rate in the tuning chapter, yet the fork clicker presets were reported as shared with the air-fork MC. Check the PDF tables."
+  }
+ ],
+ "not_found": [
+  "MC 450F 2025-2026, MC 250F 2025-2026, MC 125 2025-2026, MC 250 2025-2026, MC 350F 2025, EX 2025-2026 and EC 2025-2026 owner's manuals: gasgas.com.ru lists only 2022-2024. gasgas.com/en-us/service/manuals.html loads its list dynamically and points to print.ktm.com (portal, not read). manua.ls/manuals.co.uk/manuals.ca copies are page images with no fetchable text (?p=N always returned page 1). Searched 'OWNER'S MANUAL 2025/2026' with GasGas model names.",
+  "MC 450F 2021 fork compression/rebound presets: the ManualsLib viewer redirected those pages to earlier ones. The gasgas.com.ru index has no 2021 manuals.",
+  "MC 250F / EX 250F 2021 (ManualsLib manual 3920443, covers MC 250F EU and EX 250F US): every page fetch redirected to front matter (ManualsLib throttling). Not read.",
+  "MC 250 2021, EX 300 2021-2023, EX 250 2021-2023 standalone tables: no source surfaced. The 2023 MC 250 manual's chapter text had no model labels, and ManualsLib's 'GAS GAS EX 250 2023' (manual 3314395) was not read.",
+  "EC 450F 2024 shock presets, spring chart and sag: the gasgas.com.ru PDF (art. 3215169en) prints 'by shock absorber type' without values in its extracted text. The values are probably in a table that did not extract. EC 450F earlier years are not on gasgas.com.ru.",
+  "Coil fork spring rates (EC XPLOR, 2024 EX XACT coil): these sit in technical-data chapter 22/23. WebFetch PDF text is cut at about 104k characters, before that chapter, for every gasgas.com.ru manual. ManualsLib tech-data pages redirected.",
+  "gasgas.com.ru PDF URLs not returned by a search or index page were refused (PROVENANCE_REQUIRED), e.g. mc%20450F%202022.pdf before the index page was fetched. All PDFs used here came from search results or the gasgas.com.ru/service/owner-manuals.html index."
+ ],
+ "sources": [
+  {
+   "name": "gasgas.com.ru owner-manual index (GASGAS Russia distributor)",
+   "url": "https://gasgas.com.ru/service/owner-manuals.html"
+  },
+  {
+   "name": "GASGAS OM 2022 MC 450F/EX 450F/TLD (3215055en)",
+   "url": "https://gasgas.com.ru/assets/media/files/manuals/motocross/mc%20450F%202022.pdf"
+  },
+  {
+   "name": "GASGAS OM 2023 MC 450F/EX 450F (3215100en)",
+   "url": "https://gasgas.com.ru/assets/media/files/manuals/motocross/mc%20450F%202023.pdf"
+  },
+  {
+   "name": "GASGAS OM 2024 MC 450F/EX 450F/FE (3215162en)",
+   "url": "https://gasgas.com.ru/assets/media/files/manuals/motocross/mc%20450F%202024.pdf"
+  },
+  {
+   "name": "GASGAS OM 2022 MC 250F/EX 250F (3215053en)",
+   "url": "https://gasgas.com.ru/assets/media/files/manuals/motocross/mc%20250F%202022.pdf"
+  },
+  {
+   "name": "GASGAS OM 2023 MC 125 (3215094en)",
+   "url": "https://gasgas.com.ru/assets/media/files/manuals/motocross/mc%20125%202023.pdf"
+  },
+  {
+   "name": "GASGAS OM 2023 MC 250 (3215095en)",
+   "url": "https://gasgas.com.ru/assets/media/files/manuals/motocross/mc%20250%202023.pdf"
+  },
+  {
+   "name": "GASGAS OM 2024 MC 250/EX 250/EX 300 (3215158en)",
+   "url": "https://gasgas.com.ru/assets/media/files/manuals/motocross/mc%20250%202024.pdf"
+  },
+  {
+   "name": "GASGAS OM 2023 EC 250/EC 300 (3215102en)",
+   "url": "https://gasgas.com.ru/assets/media/files/manuals/enduro/EC%20300%202023.pdf"
+  },
+  {
+   "name": "GASGAS OM 2022 EC 250/EC 300 (3215056en)",
+   "url": "https://gasgas.com.ru/assets/media/files/manuals/enduro/EC%20250%202022.pdf"
+  },
+  {
+   "name": "GASGAS OM 2021 EC 250/EC 300 (3215011en), dealer copy",
+   "url": "https://s81b12f53dcca2766.jimcontent.com/download/version/1626954647/module/12832924126/name/'21%20Gas%20Gas%20EC%20250%20300%20Motorcycles%20Owner's%20Manual%20PDF.pdf"
+  },
+  {
+   "name": "GASGAS OM 2024 EC 450F/500F (3215169en)",
+   "url": "https://gasgas.com.ru/assets/media/files/manuals/enduro/EC%20450F%202024.pdf"
+  },
+  {
+   "name": "ManualsLib: GAS GAS MC 450F 2021 Owner's Manual",
+   "url": "https://www.manualslib.com/manual/2050689/Gas-Gas-Mc-450f-2021.html"
+  },
+  {
+   "name": "ManualsLib: GAS GAS MC 125 2021 Owner's Manual (3215008en)",
+   "url": "https://www.manualslib.com/manual/2292937/Gas-Gas-Mc-125-2021.html"
+  },
+  {
+   "name": "ManualsLib: GAS GAS MC 250F 2022 Owner's Manual",
+   "url": "https://www.manualslib.com/manual/3126346/Gas-Gas-Mc-250f-2022.html"
+  },
+  {
+   "name": "ManualsLib: GAS GAS MC 450F 2022 Owner's Manual",
+   "url": "https://www.manualslib.com/manual/3165334/Gas-Gas-Mc-450f-2022.html"
+  }
+ ]
+}

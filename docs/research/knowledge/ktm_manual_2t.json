@@ -1,0 +1,768 @@
+{
+ "slice": "KTM two-stroke and enduro owner's-manual suspension tables (gap fill)",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "125 SX",
+   "150 SX",
+   "250 SX",
+   "300 SX",
+   "125 XC",
+   "250 XC",
+   "300 XC",
+   "150 XC-W",
+   "250 XC-W",
+   "300 XC-W",
+   "85 SX 17/14",
+   "85 SX 19/16"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ]
+ },
+ "records": [
+  {
+   "id": "km9b-001",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2020 125 SX / 150 SX",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX",
+     "150 SX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "KTM's 2020 manual sets the 125/150 SX air fork at 8.3 bar (120 psi) on EU bikes and 8.4 bar (122 psi) on US bikes for a 75-85 kg rider, with shock springs of 36, 39 or 42 N/mm for 65-75, 75-85 or 85-95 kg riders and 35 mm static / 105 mm riding sag.",
+   "values": {
+    "fork_air_EU": "8.3 bar (120 psi)",
+    "fork_air_US": "8.4 bar (122 psi)",
+    "fork_air_range": "7-12 bar (102-174 psi), 0.2 bar steps",
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "fork_comp_comfort_std_sport": "17 / 12 / 7 clicks",
+    "fork_reb_comfort_std_sport": "17 / 12 / 7 clicks",
+    "shock_LSC": "17 / 15 / 13 clicks",
+    "shock_HSC_EU": "2 / 1.5 / 1 turns",
+    "shock_HSC_US": "2.5 / 2 / 1.5 turns",
+    "shock_reb": "17 / 15 / 13 clicks",
+    "shock_spring_65-75kg": "36 N/mm (206 lb/in)",
+    "shock_spring_75-85kg": "39 N/mm (223 lb/in)",
+    "shock_spring_85-95kg": "42 N/mm (240 lb/in)",
+    "static_sag": "35 mm (1.38 in)",
+    "riding_sag": "105 mm (4.13 in)",
+    "shock_spring_preload_EU": "7 mm (0.28 in)",
+    "shock_spring_preload_US": "6 mm (0.24 in)",
+    "fork_position": "2nd milled groove from top flush with upper edge of upper triple clamp (no mm height given)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2020 125 SX / 150 SX (art. no. 3214000en)",
+    "url": "https://www.ktmshop.se/documents/20_3214000_en_OM.pdf",
+    "date": "2019-02"
+   },
+   "confidence": "high",
+   "notes": "WP AER 48 air fork. Clicks/turns counted out from fully closed. Check fork air at least 5 minutes after switching the engine off. EU and US differ only in fork air, shock HSC and spring preload."
+  },
+  {
+   "id": "km9b-002",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2022 125 SX / 150 SX / 125 XC",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX",
+     "150 SX",
+     "125 XC"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 manual sets the 125/150 SX air fork at 8.3 bar (120 psi) and the 125 XC at 8.0 bar (116 psi) for a 75-85 kg rider; all three use 36/39/42 N/mm shock springs for 65-75/75-85/85-95 kg riders with 35 mm static and 105 mm riding sag.",
+   "values": {
+    "fork_air_SX": "8.3 bar (120 psi)",
+    "fork_air_125_XC_US": "8.0 bar (116 psi)",
+    "fork_air_range": "7-12 bar (102-174 psi), 0.2 bar steps",
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "fork_comp_comfort_std_sport": "17 / 12 / 7 clicks",
+    "fork_reb_SX": "17 / 12 / 7 clicks",
+    "fork_reb_125_XC": "30 / 25 / 20 clicks",
+    "shock_LSC": "17 / 15 / 13 clicks",
+    "shock_HSC_SX": "2 / 1.5 / 1 turns",
+    "shock_HSC_125_XC": "2.5 / 2 / 1.5 turns",
+    "shock_reb": "17 / 15 / 13 clicks",
+    "shock_spring_65-75kg": "36 N/mm (206 lb/in)",
+    "shock_spring_75-85kg": "39 N/mm (223 lb/in)",
+    "shock_spring_85-95kg": "42 N/mm (240 lb/in)",
+    "static_sag": "35 mm (1.38 in)",
+    "riding_sag": "105 mm (4.13 in)",
+    "shock_spring_preload": "7 mm (0.28 in)",
+    "fork_position": "2nd milled groove from top flush with upper edge of upper triple clamp (no mm height given)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2022 125 SX / 150 SX / 125 XC (art. no. 3214411en)",
+    "url": "https://www.ktmshop.se/bike-manuals/22_3214411_en_OM.pdf",
+    "date": "2021-05"
+   },
+   "confidence": "high",
+   "notes": "WP XACT 5448 air fork. The manual groups 125 SX and 150 SX as 'All SX models'. Table is identical to the 2021 manual (km8-005). A separate 125/150 SX-only manual (3214410en) also exists; not read."
+  },
+  {
+   "id": "km9b-003",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2023 125 SX / 125 XC",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX",
+     "125 XC"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual sets the 125 SX air fork at 8.5 bar (123 psi) and the 125 XC at 8.4 bar (122 psi); the SX uses 36/39/42 N/mm shock springs and the XC a stiffer 39/42/45 N/mm for 65-75/75-85/85-95 kg riders, both with 35 mm static and 105 mm riding sag.",
+   "values": {
+    "fork_air_125_SX_EU": "8.5 bar (123 psi)",
+    "fork_air_125_XC_US": "8.4 bar (122 psi)",
+    "fork_air_range": "7-12 bar (102-174 psi), 0.2 bar steps",
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "fork_comp_comfort_std_sport": "17 / 12 / 7 clicks",
+    "fork_reb_SX": "17 / 12 / 7 clicks",
+    "fork_reb_125_XC": "23 / 18 / 13 clicks",
+    "shock_LSC": "17 / 15 / 13 clicks",
+    "shock_HSC": "2 / 1.5 / 1 turns",
+    "shock_reb": "17 / 15 / 13 clicks",
+    "shock_spring_SX_65-75/75-85/85-95kg": "36 / 39 / 42 N/mm (206 / 223 / 240 lb/in)",
+    "shock_spring_XC_65-75/75-85/85-95kg": "39 / 42 / 45 N/mm (223 / 240 / 257 lb/in)",
+    "static_sag": "35 mm (1.38 in)",
+    "riding_sag": "105 mm (4.13 in)",
+    "shock_spring_preload_SX": "7 mm (0.28 in)",
+    "shock_spring_preload_XC": "8 mm (0.31 in)",
+    "fork_position": "2nd milled groove from top flush with upper edge of upper triple clamp (no mm height given)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2023 125 SX / 125 XC (art. no. 3214638en)",
+    "url": "https://www.ktmshop.se/bike-manuals/23_3214638_en_OM.pdf",
+    "date": "2022-11"
+   },
+   "confidence": "high",
+   "notes": "First year of the new 2023 chassis. Unlike 2022, the 125 XC gets the same HSC as the SX (2/1.5/1) but stiffer shock springs. 150 SX is not in this manual (not in BAK's 2023 year list)."
+  },
+  {
+   "id": "km9b-004",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2021 250 SX",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 manual sets the 250 SX air fork at 10.4 bar (151 psi) for a 75-85 kg rider, with shock springs of 39, 42 or 45 N/mm for 65-75, 75-85 or 85-95 kg riders and 35 mm static / 105 mm riding sag.",
+   "values": {
+    "fork_air": "10.4 bar (151 psi)",
+    "fork_air_range": "7-12 bar (102-174 psi), 0.2 bar steps",
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "fork_comp_comfort_std_sport": "17 / 12 / 7 clicks",
+    "fork_reb_comfort_std_sport": "23 / 18 / 13 clicks",
+    "shock_LSC": "17 / 15 / 13 clicks",
+    "shock_HSC": "2.5 / 2 / 1.5 turns",
+    "shock_reb": "17 / 15 / 13 clicks",
+    "shock_spring_65-75kg": "39 N/mm (223 lb/in)",
+    "shock_spring_75-85kg": "42 N/mm (240 lb/in)",
+    "shock_spring_85-95kg": "45 N/mm (257 lb/in)",
+    "static_sag": "35 mm (1.38 in)",
+    "riding_sag": "105 mm (4.13 in)",
+    "shock_spring_preload": "7 mm (0.28 in)",
+    "fork_position": "2nd milled groove from top flush with upper edge of upper triple clamp (no mm height given)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2021 250 SX (art. no. 3214210en)",
+    "url": "https://www.ktmshop.se/documents/21_3214210_en_OM.pdf",
+    "date": "2020-04"
+   },
+   "confidence": "high",
+   "notes": "No separate EU/US values listed. Fork rebound standard (18 clicks) is 6 clicks softer than 2020 (12) and 2022 (12). 300 SX did not exist for 2021."
+  },
+  {
+   "id": "km9b-005",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2022 250 SX",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 manual sets the 250 SX air fork at 10.1 bar (146 psi) for a 75-85 kg rider, with shock springs of 39, 42 or 45 N/mm for 65-75, 75-85 or 85-95 kg riders and 35 mm static / 105 mm riding sag.",
+   "values": {
+    "fork_air": "10.1 bar (146 psi)",
+    "fork_air_range": "7-12 bar (102-174 psi), 0.2 bar steps",
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "fork_comp_comfort_std_sport": "17 / 12 / 7 clicks",
+    "fork_reb_comfort_std_sport": "17 / 12 / 7 clicks",
+    "shock_LSC": "17 / 15 / 13 clicks",
+    "shock_HSC": "2 / 1.5 / 1 turns",
+    "shock_reb": "17 / 15 / 13 clicks",
+    "shock_spring_65-75kg": "39 N/mm (223 lb/in)",
+    "shock_spring_75-85kg": "42 N/mm (240 lb/in)",
+    "shock_spring_85-95kg": "45 N/mm (257 lb/in)",
+    "static_sag": "35 mm (1.38 in)",
+    "riding_sag": "105 mm (4.13 in)",
+    "shock_spring_preload": "7 mm (0.28 in)",
+    "fork_position": "2nd milled groove from top flush with upper edge of upper triple clamp (no mm height given)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2022 250 SX (art. no. 3214412en)",
+    "url": "https://www.ktmshop.se/bike-manuals/22_3214412_en_OM.pdf",
+    "date": "2021-03"
+   },
+   "confidence": "high",
+   "notes": "WP XACT 5448 air fork. No separate EU/US values listed. 300 SX did not exist for 2022."
+  },
+  {
+   "id": "km9b-006",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2023 250 SX / 300 SX / 250 XC / 300 XC",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX",
+     "300 SX",
+     "250 XC",
+     "300 XC"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual sets the SX air fork at 10.5 bar (152 psi) and the XC at 9.7 bar (141 psi); SX shock springs are 42/45/48 N/mm and XC springs 39/42/45 N/mm for 65-75/75-85/85-95 kg riders, with 35 mm static and 105 mm riding sag on all four.",
+   "values": {
+    "fork_air_SX": "10.5 bar (152 psi)",
+    "fork_air_XC": "9.7 bar (141 psi)",
+    "fork_air_range": "7-12 bar (102-174 psi), 0.2 bar steps",
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "fork_comp_comfort_std_sport": "17 / 12 / 7 clicks",
+    "fork_reb_SX": "17 / 18 / 7 clicks (as extracted; see notes)",
+    "fork_reb_XC": "23 / 18 / 13 clicks",
+    "shock_LSC": "17 / 15 / 13 clicks",
+    "shock_HSC": "2 / 1.5 / 1 turns",
+    "shock_reb": "17 / 15 / 13 clicks",
+    "shock_spring_SX_65-75/75-85/85-95kg": "42 / 45 / 48 N/mm (240 / 257 / 274 lb/in)",
+    "shock_spring_XC_65-75/75-85/85-95kg": "39 / 42 / 45 N/mm (223 / 240 / 257 lb/in)",
+    "static_sag": "35 mm (1.38 in)",
+    "riding_sag": "105 mm (4.13 in)",
+    "shock_spring_preload_SX": "7 mm (0.28 in)",
+    "shock_spring_preload_XC": "8 mm (0.31 in)",
+    "fork_position": "2nd milled groove from top flush with upper edge of upper triple clamp (no mm height given)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2023 250 SX / 300 SX / 250 XC / 300 XC (art. no. 3214639en)",
+    "url": "https://www.ktmshop.se/bike-manuals/23_3214639_en_OM.pdf",
+    "date": "2022-11"
+   },
+   "confidence": "medium",
+   "notes": "First TBI year and new chassis. SX fork rebound came back from the extractor as 17 comfort / 18 standard / 7 sport, which is not monotonic and is probably a mix of the SX (17/12/7) and XC (23/18/13) columns; verify in the PDF. The 2024 manual (km8-013) lists 42/45/48 N/mm for all four models without a separate XC column."
+  },
+  {
+   "id": "km9b-007",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2020 250 XC TPI / 300 XC TPI (partial)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 XC",
+     "300 XC"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "KTM's 2020 XC TPI manual sets the air fork at 9.6 bar (139 psi) as the guideline, with shock clickers of 17/15/13 (low-speed compression and rebound) and 2.5/2/1.5 turns of high-speed compression, and 35 mm static / 105 mm riding sag.",
+   "values": {
+    "fork_air": "9.6 bar (139 psi)",
+    "standard_rider_weight": "75-85 kg (value cut off in extracted text; KTM standard)",
+    "shock_LSC_comfort_std_sport": "17 / 15 / 13 clicks",
+    "shock_HSC_comfort_std_sport": "2.5 / 2 / 1.5 turns",
+    "shock_reb_comfort_std_sport": "17 / 15 / 13 clicks",
+    "static_sag": "35 mm (1.38 in)",
+    "riding_sag": "105 mm (4.13 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2020 250 XC TPI / 300 XC TPI (art. no. 3214002en), viewed on ManualsLib",
+    "url": "https://www.manualslib.com/manual/2067715/Ktm-250-Xc-Tpi.html",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "Read page-by-page from a ManualsLib copy of the KTM manual; the page text was garbled, so comfort/standard/sport were matched by column order. Shock spring rates, preload and fork clicker settings were not reached (viewer kept returning the same page)."
+  },
+  {
+   "id": "km9b-008",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2021 150 XC-W TPI",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "150 XC-W"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 150 XC-W TPI manual lists a progressive linkless shock spring of 54-60 N/mm for 65-75 kg, 57-63 N/mm for 75-85 kg and 60-66 N/mm for 85-95 kg riders, with 37 mm static and 110 mm riding sag; fork and shock clickers are 18/15/12.",
+   "values": {
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "fork_comp_comfort_std_sport": "18 / 15 / 12 clicks",
+    "fork_reb_comfort_std_sport": "18 / 15 / 12 clicks",
+    "shock_LSC": "18 / 15 / 12 clicks",
+    "shock_HSC": "2.5 / 2 / 1 turns",
+    "shock_reb": "18 / 15 / 12 clicks",
+    "shock_spring_65-75kg": "54-60 N/mm (308-343 lb/in)",
+    "shock_spring_75-85kg": "57-63 N/mm (325-360 lb/in)",
+    "shock_spring_85-95kg": "60-66 N/mm (343-377 lb/in)",
+    "static_sag": "37 mm (1.46 in)",
+    "riding_sag": "110 mm (4.33 in)",
+    "shock_spring_preload": "10 mm (0.39 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2021 150 EXC TPI / 150 XC-W TPI (art. no. 3214218en)",
+    "url": "https://www.ktmshop.se/documents/21_3214218_en_OM.pdf",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": "PDS (linkless) shock with progressive spring, so rates are ranges; one step softer than the 250/300 XC-W TPI. WP XPLOR coil fork: fork spring rate and fork position are in the technical-data chapter, which the PDF text extraction did not reach. Fork preload T-grip values were not in the extracted text for this manual."
+  },
+  {
+   "id": "km9b-009",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2023 150 XC-W",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "150 XC-W"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 150 XC-W manual lists progressive shock springs of 57-63, 60-66 and 63-69 N/mm for 65-75, 75-85 and 85-95 kg riders, with 37 mm static and 110 mm riding sag; clickers are 18/15/12 and fork preload is +0/+0/+3 (comfort/standard/sport).",
+   "values": {
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "fork_comp_comfort_std_sport": "18 / 15 / 12 clicks",
+    "fork_reb_comfort_std_sport": "18 / 15 / 12 clicks",
+    "fork_preload_comfort_std_sport": "+0 / +0 / +3 (T-grip)",
+    "shock_LSC": "18 / 15 / 12 clicks",
+    "shock_HSC": "2.5 / 2 / 1 turns",
+    "shock_reb": "18 / 15 / 12 clicks",
+    "shock_spring_65-75kg": "57-63 N/mm (325-360 lb/in)",
+    "shock_spring_75-85kg": "60-66 N/mm (343-377 lb/in)",
+    "shock_spring_85-95kg": "63-69 N/mm (360-394 lb/in)",
+    "static_sag": "37 mm (1.46 in)",
+    "riding_sag": "110 mm (4.33 in)",
+    "shock_spring_preload": "7 mm (0.28 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2023 150 EXC / 150 XC-W (art. no. 3214643en)",
+    "url": "https://www.ktmshop.se/bike-manuals/23_3214643_en_OM.pdf",
+    "date": "2022-03"
+   },
+   "confidence": "high",
+   "notes": "Shock spring table is now the same as the 250/300 XC-W TPI (one step stiffer than the 2021 150), and preload drops from 10 to 7 mm. Fork spring rate (WP XPLOR) is in technical data that the extraction did not reach."
+  },
+  {
+   "id": "km9b-010",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2024 150 XC-W",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "150 XC-W"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM's 2024 150 XC-W manual (new-generation chassis) lists linear shock springs of 60, 63 or 66 N/mm for 65-75, 75-85 or 85-95 kg riders, with 38 mm static and 110 mm riding sag; fork clickers change to 17/15/7 compression and 19/17/9 rebound.",
+   "values": {
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "fork_comp_comfort_std_sport": "17 / 15 / 7 clicks",
+    "fork_reb_comfort_std_sport": "19 / 17 / 9 clicks",
+    "shock_LSC": "18 / 15 / 12 clicks",
+    "shock_HSC": "2.5 / 2 / 1.5 turns",
+    "shock_reb": "18 / 15 / 12 clicks",
+    "shock_spring_65-75kg": "60 N/mm (343 lb/in)",
+    "shock_spring_75-85kg": "63 N/mm (360 lb/in)",
+    "shock_spring_85-95kg": "66 N/mm (377 lb/in)",
+    "static_sag": "38 mm (1.5 in)",
+    "riding_sag": "110 mm (4.33 in)",
+    "shock_spring_preload": "7 mm (0.28 in)",
+    "fork_position": "2nd milled groove from top flush with upper edge of upper triple clamp (no mm height given)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2024 150 EXC / 150 XC-W (art. no. 3214837en)",
+    "url": "https://www.ktmshop.se/bike-manuals/24_3214837_en_OM.pdf",
+    "date": "2023-11"
+   },
+   "confidence": "high",
+   "notes": "Spring rates are single values, not progressive ranges as in 2021-2023. Fork spring rate, fork preload and fork oil are in technical data the extraction did not reach (text stops in chapter 12)."
+  },
+  {
+   "id": "km9b-011",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2021 250 / 300 XC-W TPI",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 XC-W TPI manual lists progressive shock springs of 57-63, 60-66 and 63-69 N/mm for 65-75, 75-85 and 85-95 kg riders with 37 mm static and 110 mm riding sag; clickers are 18/15/12 and fork preload is +0/+0/+3 (comfort/standard/sport).",
+   "values": {
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "fork_comp_comfort_std_sport": "18 / 15 / 12 clicks",
+    "fork_reb_comfort_std_sport": "18 / 15 / 12 clicks",
+    "fork_preload_comfort_std_sport": "+0 / +0 / +3 (T-grip, standard and Six Days models)",
+    "shock_LSC": "18 / 15 / 12 clicks",
+    "shock_HSC": "2.5 / 2 / 1 turns",
+    "shock_reb": "18 / 15 / 12 clicks",
+    "shock_spring_65-75kg": "57-63 N/mm (325-360 lb/in)",
+    "shock_spring_75-85kg": "60-66 N/mm (343-377 lb/in)",
+    "shock_spring_85-95kg": "63-69 N/mm (360-394 lb/in)",
+    "static_sag": "37 mm (1.46 in)",
+    "riding_sag": "110 mm (4.33 in)",
+    "shock_spring_preload": "10 mm (0.39 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2021 250/300 EXC TPI, XC-W TPI (art. no. 3214220en)",
+    "url": "https://en.enduro.team/images/0/01/2021_KTM_250-300_EXC_TPI_OM_eng.pdf",
+    "date": "2020-07"
+   },
+   "confidence": "high",
+   "notes": "Unmodified KTM PDF hosted by enduro.team. Same table as 2020 (km8-003). Erzbergrodeo models list the same fork clicks. Fork spring rate (WP XPLOR) is in technical data that the extraction did not reach."
+  },
+  {
+   "id": "km9b-012",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2022-2023 250 / 300 XC-W TPI",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2022,
+     2023
+    ]
+   },
+   "statement": "KTM's 2022 and 2023 XC-W manuals list progressive shock springs of 57-63, 60-66 and 63-69 N/mm for 65-75, 75-85 and 85-95 kg riders with 37 mm static and 110 mm riding sag and 9 mm spring preload; clickers are 18/15/12 and fork preload +0/+0/+3.",
+   "values": {
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "fork_comp_comfort_std_sport": "18 / 15 / 12 clicks",
+    "fork_reb_comfort_std_sport": "18 / 15 / 12 clicks",
+    "fork_preload_comfort_std_sport": "+0 / +0 / +3 (T-grip)",
+    "shock_LSC": "18 / 15 / 12 clicks",
+    "shock_HSC": "2.5 / 2 / 1 turns",
+    "shock_reb": "18 / 15 / 12 clicks",
+    "shock_spring_65-75kg": "57-63 N/mm (325-360 lb/in)",
+    "shock_spring_75-85kg": "60-66 N/mm (343-377 lb/in)",
+    "shock_spring_85-95kg": "63-69 N/mm (360-394 lb/in)",
+    "static_sag": "37 mm (1.46 in)",
+    "riding_sag": "110 mm (4.33 in)",
+    "shock_spring_preload": "9 mm (0.35 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2023 250/300 EXC, XC-W (art. no. 3214644en)",
+    "url": "https://www.ktmshop.se/bike-manuals/23_3214644_en_OM.pdf",
+    "date": "2022-03"
+   },
+   "confidence": "high",
+   "notes": "2022 manual (art. no. 3214421en, 05/2021, read at https://en.enduro.team/images/9/9a/2022_KTM_250-300_EXC_TPI_OM_eng.pdf) gives the identical table. Only change from 2021 is spring preload 9 mm instead of 10 mm. Fork spring rate (WP XPLOR) is in technical data the extraction did not reach."
+  },
+  {
+   "id": "km9b-013",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2024-2025 250 / 300 XC-W",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "KTM's 2024 and 2025 XC-W manuals (new-generation chassis) list linear shock springs of 66, 69 or 72 N/mm for 65-75, 75-85 or 85-95 kg riders with 38 mm static and 110 mm riding sag and 7 mm preload; fork clickers are 17/15/7 compression and 19/17/9 rebound.",
+   "values": {
+    "standard_rider_weight": "75-85 kg (165-187 lb) in full riding gear",
+    "fork_comp_comfort_std_sport": "17 / 15 / 7 clicks",
+    "fork_reb_comfort_std_sport": "19 / 17 / 9 clicks",
+    "fork_2025_300_XC-W_Factory_Edition": "18 compression / 18 rebound clicks (single setting)",
+    "shock_LSC": "18 / 15 / 12 clicks",
+    "shock_HSC": "2.5 / 2 / 1.5 turns",
+    "shock_reb": "18 / 15 / 12 clicks",
+    "shock_spring_65-75kg": "66 N/mm (377 lb/in)",
+    "shock_spring_75-85kg": "69 N/mm (394 lb/in)",
+    "shock_spring_85-95kg": "72 N/mm (411 lb/in)",
+    "static_sag": "38 mm (1.5 in)",
+    "riding_sag": "110 mm (4.33 in)",
+    "shock_spring_preload": "7 mm (0.28 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2024 250/300 EXC, XC-W (art. no. 3214838en)",
+    "url": "https://www.ktmshop.se/bike-manuals/24_3214838_en_OM.pdf",
+    "date": "2023-11"
+   },
+   "confidence": "high",
+   "notes": "2025 manual (item no. 3240047en, 11/2024, https://www.ktmshop.se/bike-manuals/25_3240047_en_BA.pdf) gives the identical table and adds the 300 XC-W Factory Edition fork setting; Hardenduro models use the same values. Fork spring rate and fork preload values are not in the extracted chapter 11 (manual only says small weight differences are handled with preload). The 2026 300 EXC Champion Edition manual (3240238en) repeats this exact table, which suggests 2026 XC-W is unchanged, but no 2026 XC-W manual was read."
+  },
+  {
+   "id": "km9b-014",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2021 and 2024 85 SX",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2021,
+     2024
+    ]
+   },
+   "statement": "KTM's 2021 and 2024 85 SX manuals set the air fork at 5 bar (73 psi) for a 45-55 kg rider and list shock springs of 35 N/mm under 45 kg, 40 N/mm for 45-55 kg and 45 N/mm over 55 kg, with 30 mm static and 120 mm riding sag.",
+   "values": {
+    "fork_air": "5 bar (73 psi)",
+    "fork_air_range": "4-8 bar (58-116 psi), 0.2 bar steps",
+    "standard_rider_weight": "45-55 kg (99-121 lb) in full riding gear",
+    "max_rider_weight": "75 kg (165 lb)",
+    "fork_comp_comfort_std_sport": "17 / 12 / 7 clicks",
+    "fork_reb_comfort_std_sport": "17 / 12 / 7 clicks",
+    "shock_LSC": "18 / 15 / 12 clicks",
+    "shock_HSC": "2.5 / 2 / 1.5 turns",
+    "shock_reb": "18 / 15 / 12 clicks",
+    "shock_spring_under_45kg": "35 N/mm (200 lb/in)",
+    "shock_spring_45-55kg": "40 N/mm (228 lb/in)",
+    "shock_spring_over_55kg": "45 N/mm (257 lb/in)",
+    "static_sag": "30 mm (1.18 in)",
+    "riding_sag": "120 mm (4.72 in)",
+    "shock_spring_preload": "11 mm (0.43 in)",
+    "fork_position": "2nd milled groove from top flush with upper edge of upper triple clamp (no mm height given)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2021 85 SX (art. no. 3214206en)",
+    "url": "https://www.ktmshop.se/documents/21_3214206_en_OM.pdf",
+    "date": "2020-05"
+   },
+   "confidence": "high",
+   "notes": "WP XACT 5543 air fork (steel spring in left leg is only an end stop). Same values for 17/14 and 19/16 wheel versions. The 2024 manual (art. no. 3214830en, 03/2023, https://www.ktmshop.se/bike-manuals/24_3214830_en_OM.pdf) gives the identical table."
+  },
+  {
+   "id": "km9b-015",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2022 85 SX (partial)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 85 SX manual lists shock springs of 35 N/mm under 45 kg, 40 N/mm for 45-55 kg and 45 N/mm over 55 kg, shock clickers of 18/15/12 with 2.5/2/1.5 turns of high-speed compression, and 30 mm static / 120 mm riding sag.",
+   "values": {
+    "shock_LSC": "18 / 15 / 12 clicks",
+    "shock_HSC": "2.5 / 2 / 1.5 turns",
+    "shock_reb": "18 / 15 / 12 clicks",
+    "shock_spring_under_45kg": "35 N/mm (200 lb/in)",
+    "shock_spring_45-55kg": "40 N/mm (228 lb/in)",
+    "shock_spring_over_55kg": "45 N/mm (257 lb/in)",
+    "static_sag": "30 mm (1.18 in)",
+    "riding_sag": "120 mm (4.72 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2022 85 SX (art. no. 3214408en), viewed on ManualsLib",
+    "url": "https://www.manualslib.com/manual/2416358/Ktm-85-Sx-2022.html",
+    "date": "2021"
+   },
+   "confidence": "medium",
+   "notes": "Read page-by-page from a ManualsLib copy; garbled page text, values matched by column order. Every value seen matches the 2021/2024 manuals; fork air pressure, fork clicks and spring preload were not reached, so this is kept separate rather than merged."
+  },
+  {
+   "id": "km9b-016",
+   "domain": "setups",
+   "topic": "owner's-manual suspension table: 2025 85 SX",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "KTM's 2025 85 SX manual (new-generation bike) sets the air fork at 4.8 bar for a 40-50 kg rider and lists shock springs of 40 N/mm under 40 kg, 45 N/mm for 40-50 kg and 50 N/mm over 50 kg, with 30 mm static and 100 mm riding sag.",
+   "values": {
+    "fork_air": "4.8 bar (70 psi)",
+    "fork_air_range": "4-8 bar, 0.2 bar steps",
+    "standard_rider_weight": "40-50 kg in full riding gear",
+    "max_rider_weight": "75 kg",
+    "fork_comp_comfort_std_sport": "17 / 12 / 7 clicks",
+    "fork_reb_comfort_std_sport": "17 / 12 / 7 clicks",
+    "shock_LSC": "18 / 15 / 12 clicks",
+    "shock_HSC": "2 / 1.5 / 1 turns",
+    "shock_reb": "18 / 15 / 12 clicks",
+    "shock_spring_under_40kg": "40 N/mm",
+    "shock_spring_40-50kg": "45 N/mm",
+    "shock_spring_over_50kg": "50 N/mm",
+    "static_sag": "30 mm",
+    "riding_sag": "100 mm",
+    "shock_spring_preload": "10 mm",
+    "fork_position": "2nd milled groove from top flush with upper edge of upper triple clamp (no mm height given)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2025 85 SX (item no. 3240038en)",
+    "url": "https://www.ktmshop.se/documents/25_3240038_en_BA.pdf",
+    "date": "2024-08"
+   },
+   "confidence": "high",
+   "notes": "psi conversion (4.8 x 14.5 = 69.6 psi) is mine; the extracted text gave no lb/in values. Compared with 2024: standard rider weight drops from 45-55 to 40-50 kg, springs are one step stiffer per band, riding sag 100 mm instead of 120 mm, and HSC is half a turn firmer."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "2023 250/300 SX vs XC shock springs",
+   "spread": "2023 manual: SX 42/45/48 N/mm, XC 39/42/45 N/mm (XC preload 8 mm vs SX 7 mm). 2024 manual (km8-013) lists 42/45/48 N/mm for all four models.",
+   "records": [
+    "km9b-006",
+    "km8-013"
+   ]
+  },
+  {
+   "topic": "2023 250/300 SX fork rebound",
+   "spread": "Extracted as 17/18/7 clicks (comfort/standard/sport), non-monotonic; XC column 23/18/13. Likely extraction mix-up; verify in PDF.",
+   "records": [
+    "km9b-006"
+   ]
+  },
+  {
+   "topic": "125 XC 2022 vs 2023",
+   "spread": "Fork air 8.0 bar (2022) vs 8.4 bar (2023); fork rebound 30/25/20 vs 23/18/13; shock springs 36/39/42 vs 39/42/45 N/mm; HSC 2.5/2/1.5 vs 2/1.5/1 turns.",
+   "records": [
+    "km9b-002",
+    "km9b-003"
+   ]
+  },
+  {
+   "topic": "XC-W TPI shock spring preload",
+   "spread": "10 mm (2020-2021), 9 mm (2022-2023), 7 mm (2024-2025, new chassis).",
+   "records": [
+    "km8-003",
+    "km9b-011",
+    "km9b-012",
+    "km9b-013"
+   ]
+  },
+  {
+   "topic": "250 SX fork air pressure by year",
+   "spread": "10.1 bar (2020 EU), 10.4 bar (2021), 10.1 bar (2022), 10.5 bar (2023-2024).",
+   "records": [
+    "km8-001",
+    "km9b-004",
+    "km9b-005",
+    "km9b-006",
+    "km8-013"
+   ]
+  }
+ ],
+ "not_found": [
+  "300 SX 2021 and 2022: model did not exist (BAK lists 300 SX from 2023).",
+  "250 XC / 300 XC 2021 and 2022 (art. no. 3214211en for 2021): no ktmshop PDF surfaced in 5 searches; manua.ls and manualzz pages only show cover/TOC; ownersmanuals2.com returned a bot-verification page.",
+  "250 XC / 300 XC 2020: shock spring rates, preload and fork clickers not reached (ManualsLib page viewer kept serving the same page).",
+  "150 XC-W 2022: owner's manual not on ktmshop in search; 2022 Setup Instructions (3214484en) contain no numbers; ownersmanuals2.com blocked by bot check.",
+  "150 XC-W 2025: no manual surfaced in two searches.",
+  "150 XC-W 2026: manual found (item no. 3240237en, 125/150 XC-W) but the cloudfront URL https://d2inxtzgf08fgn.cloudfront.net/ownerManuals/26_3240237_en_BA.pdf was not approved for fetch.",
+  "250 XC-W / 300 XC-W 2026: no 2026 XC-W manual surfaced; only the 2026 300 EXC Champion Edition (3240238en), whose table matches 2024-2025 XC-W.",
+  "85 SX 2026: no 2026 85 SX manual surfaced in two searches.",
+  "Fork spring rates for WP XPLOR coil forks (150/250/300 XC-W, all years): in the technical-data chapter at the end of each PDF; WebFetch text extraction stops around 100k characters (chapter 12), before it.",
+  "150 SX 2020 and 2022 have no 150-only manual; covered by the shared 125/150 SX manuals (km9b-001, km9b-002)."
+ ],
+ "sources": [
+  "https://en.enduro.team/images/0/01/2021_KTM_250-300_EXC_TPI_OM_eng.pdf",
+  "https://en.enduro.team/images/9/9a/2022_KTM_250-300_EXC_TPI_OM_eng.pdf",
+  "https://mobil.ktmshop.se/bike-manuals/26_3240238_en_BA.pdf",
+  "https://www.ktmshop.se/bike-manuals/22_3214411_en_OM.pdf",
+  "https://www.ktmshop.se/bike-manuals/22_3214412_en_OM.pdf",
+  "https://www.ktmshop.se/bike-manuals/22_3214484_en_SUI.pdf",
+  "https://www.ktmshop.se/bike-manuals/23_3214638_en_OM.pdf",
+  "https://www.ktmshop.se/bike-manuals/23_3214639_en_OM.pdf",
+  "https://www.ktmshop.se/bike-manuals/23_3214643_en_OM.pdf",
+  "https://www.ktmshop.se/bike-manuals/23_3214644_en_OM.pdf",
+  "https://www.ktmshop.se/bike-manuals/24_3214830_en_OM.pdf",
+  "https://www.ktmshop.se/bike-manuals/24_3214837_en_OM.pdf",
+  "https://www.ktmshop.se/bike-manuals/24_3214838_en_OM.pdf",
+  "https://www.ktmshop.se/bike-manuals/25_3240047_en_BA.pdf",
+  "https://www.ktmshop.se/documents/20_3214000_en_OM.pdf",
+  "https://www.ktmshop.se/documents/21_3214206_en_OM.pdf",
+  "https://www.ktmshop.se/documents/21_3214210_en_OM.pdf",
+  "https://www.ktmshop.se/documents/21_3214218_en_OM.pdf",
+  "https://www.ktmshop.se/documents/25_3240038_en_BA.pdf",
+  "https://www.manualslib.com/manual/2067715/Ktm-250-Xc-Tpi.html",
+  "https://www.manualslib.com/manual/2416358/Ktm-85-Sx-2022.html"
+ ]
+}
