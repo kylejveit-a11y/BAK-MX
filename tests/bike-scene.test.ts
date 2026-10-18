@@ -1,8 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {Scene,Mesh,MeshStandardMaterial,Vector3} from 'three';
-import {fitCameraDistance,replaceBikeModel,mountBikeScene} from '../src/bike3d/scene.ts';
+import {CAMERA_PRESETS,fitCameraDistance,replaceBikeModel,mountBikeScene} from '../src/bike3d/scene.ts';
 import {fitDistanceForPoints} from '../src/bike3d/camera-fit.ts';
+import {OEM_VIEWER_COPY} from '../src/bike3d/presentation.ts';
 import {createBikeModel,disposeBikeModel} from '../src/bike3d/model.ts';
 test('portrait camera fits a complete bounding sphere',()=>{
  const radius=1.3,aspect=300/360,fov=35;
@@ -34,6 +35,20 @@ test('projected camera fitting uses framing margin and rejects degenerate inputs
  assert.throws(()=>fitDistanceForPoints(points,target,new Vector3(),up,35,1.8,1.08),/direction/i);
  assert.throws(()=>fitDistanceForPoints(points,target,direction,up,0,1.8,1.08),/field of view/i);
  assert.throws(()=>fitDistanceForPoints(points,target,direction,up,35,0,1.08),/aspect/i);
+});
+test('OEM inspection presets cover every supported view with a close three-quarter hero',()=>{
+ assert.deepEqual(Object.keys(CAMERA_PRESETS),['perspective','right','left','front','rear','top']);
+ for(const [name,preset] of Object.entries(CAMERA_PRESETS)){
+  assert.equal(preset.direction.length,3,name);assert.ok(preset.direction.every(Number.isFinite),name);
+  assert.ok(preset.margin>=1&&preset.margin<=1.16,`${name} margin must remain inspection-tight`);
+ }
+ assert.ok(CAMERA_PRESETS.perspective.direction[0]>0&&CAMERA_PRESETS.perspective.direction[2]>0);
+ assert.equal(CAMERA_PRESETS.perspective.label,'Three-quarter');
+});
+test('viewer copy fixes exact OEM scope and keeps visual acceptance open',()=>{
+ assert.equal(OEM_VIEWER_COPY.identity,'2025 KTM 450 SX-F · Standard US');
+ assert.match(OEM_VIEWER_COPY.scope,/One OEM bike/);assert.match(OEM_VIEWER_COPY.scope,/No graphics configurator/);
+ assert.match(OEM_VIEWER_COPY.accuracy,/not OEM verified/i);
 });
 test('dimension edits preserve hidden groups and wireframe inspection',()=>{
  const scene=new Scene(),old=createBikeModel();scene.add(old);old.getObjectByName('exhaust')!.visible=false;

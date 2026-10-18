@@ -7,7 +7,15 @@ import {applyVisualBuild} from './apply-build.ts';
 import {resolveVisualBuild} from '../../shared/build-visual.ts';
 import {parseBikeDimensions,type BikeDimensions} from '../../shared/bike-visual.ts';
 import {fitObjectToCamera} from './camera-fit.ts';
-export type CameraView='perspective'|'left'|'right'|'front'|'rear'|'top';
+export const CAMERA_PRESETS={
+ perspective:{label:'Three-quarter',direction:[2.55,.78,3.2],margin:1.025},
+ right:{label:'Right',direction:[0,.12,1],margin:1.06},
+ left:{label:'Left',direction:[0,.12,-1],margin:1.06},
+ front:{label:'Front',direction:[1,.10,0],margin:1.10},
+ rear:{label:'Rear',direction:[-1,.10,0],margin:1.10},
+ top:{label:'Top',direction:[0,1,.001],margin:1.08},
+} as const;
+export type CameraView=keyof typeof CAMERA_PRESETS;
 export function fitCameraDistance(radius:number,fov:number,aspect:number){
  const halfVertical=fov*Math.PI/360,halfHorizontal=Math.atan(Math.tan(halfVertical)*Math.max(aspect,.01));
  return radius/Math.sin(Math.min(halfVertical,halfHorizontal))*1.08;
@@ -24,27 +32,28 @@ export function mountBikeScene(host:HTMLElement,dimensions:BikeDimensions,onErro
  const cleanup:Array<()=>void>=[];
  try{
  const scene=new T.Scene();
- cleanup.push(()=>disposeBikeModel(scene));scene.background=new T.Color(0x12191e);
- const camera=new T.PerspectiveCamera(35,1,.03,30),renderer=new T.WebGLRenderer({antialias:true,alpha:false});
+ cleanup.push(()=>disposeBikeModel(scene));scene.background=new T.Color(0x090e12);scene.fog=new T.Fog(0x090e12,7,15);
+ const camera=new T.PerspectiveCamera(37,1,.03,30),renderer=new T.WebGLRenderer({antialias:true,alpha:false,powerPreference:'high-performance'});
  cleanup.push(()=>{renderer.dispose();renderer.forceContextLoss();renderer.domElement.remove();});
  const room=new RoomEnvironment(),pmrem=new T.PMREMGenerator(renderer);
- try{const environment=pmrem.fromScene(room,.04);scene.environment=environment.texture;cleanup.push(()=>environment.dispose());}finally{room.dispose();pmrem.dispose();}
- renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.15;
+ try{const environment=pmrem.fromScene(room,.04);scene.environment=environment.texture;scene.environmentIntensity=.72;cleanup.push(()=>environment.dispose());}finally{room.dispose();pmrem.dispose();}
+ renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.NeutralToneMapping;renderer.toneMappingExposure=.64;
  renderer.shadowMap.enabled=true;renderer.shadowMap.type=T.PCFShadowMap;
- renderer.domElement.setAttribute('aria-label','Interactive exterior bike prototype');renderer.domElement.style.touchAction='none';host.append(renderer.domElement);
+ renderer.domElement.setAttribute('aria-label','Interactive stock 2025 KTM 450 SX-F exterior study');renderer.domElement.style.touchAction='none';host.append(renderer.domElement);
  const controls=new OrbitControls(camera,renderer.domElement);controls.target.set(0,.65,0);controls.minDistance=1.3;controls.maxDistance=20;controls.enablePan=false;controls.maxPolarAngle=Math.PI-.03;controls.minPolarAngle=.03;
  cleanup.push(()=>controls.dispose());
- scene.add(new T.HemisphereLight(0xe7f3ff,0x56505a,1.5));
- for(const [x,y,z,power] of [[2,4,3,3],[-2,3,-3,2],[0,3,0,1]]){const light=new T.DirectionalLight(0xffffff,power);light.position.set(x,y,z);if(x===2){light.castShadow=true;light.shadow.mapSize.set(1024,1024);Object.assign(light.shadow.camera,{left:-2,right:2,top:2,bottom:-2,near:.1,far:10});light.shadow.bias=-.0003;light.shadow.normalBias=.015;}scene.add(light);}
+ scene.add(new T.HemisphereLight(0xdcecff,0x111820,.30));
+ for(const [color,x,y,z,power] of [[0xffffff,2.7,4.2,3.3,1.55],[0xc9ddf2,-2.8,2.7,-3.5,.54],[0xffa06d,-1.2,3.4,2.8,.34]] as const){const light=new T.DirectionalLight(color,power);light.position.set(x,y,z);if(x===2.7){light.castShadow=true;light.shadow.mapSize.set(2048,2048);Object.assign(light.shadow.camera,{left:-2,right:2,top:2,bottom:-2,near:.1,far:10});light.shadow.bias=-.00018;light.shadow.normalBias=.012;}scene.add(light);}
  scene.traverse(object=>{if(object instanceof T.DirectionalLight)cleanup.push(()=>object.shadow.dispose());});
- const floor=new T.Mesh(new T.CircleGeometry(4,64),new T.MeshStandardMaterial({color:0x202c32,roughness:.95}));floor.rotation.x=-Math.PI/2;floor.position.y=-.015;floor.receiveShadow=true;scene.add(floor);
+ const floor=new T.Mesh(new T.PlaneGeometry(40,40),new T.MeshStandardMaterial({color:0x111a20,metalness:.08,roughness:.9}));floor.rotation.x=-Math.PI/2;floor.position.y=-.018;floor.receiveShadow=true;scene.add(floor);
  let bike=createBikeModel(dimensions);scene.add(bike);let configuration:Record<string,unknown>={};
  let disposed=false,visible=true,paused=false,frame=0;
  function render(){frame=0;if(!disposed&&visible&&!paused&&!document.hidden){try{renderer.render(scene,camera);}catch{onError('The 3D preview could not render. Close and reopen the viewer.');}}}
  function invalidate(){if(!disposed&&!frame&&visible&&!paused&&!document.hidden)frame=requestAnimationFrame(render);}
- function fit(){const direction=camera.position.clone().sub(controls.target).normalize();fitObjectToCamera(camera,bike,controls.target,direction,1.1);controls.update();}
+ let activeView:CameraView='perspective';
+ function fit(margin=CAMERA_PRESETS[activeView].margin){const direction=camera.position.clone().sub(controls.target).normalize();fitObjectToCamera(camera,bike,controls.target,direction,margin);controls.update();}
  function resize(){if(disposed)return;const {width,height}=host.getBoundingClientRect();renderer.setSize(Math.max(width,1),Math.max(height,1));camera.aspect=Math.max(width,1)/Math.max(height,1);camera.updateProjectionMatrix();fit();invalidate();}
- function setView(view:CameraView){const views:Record<CameraView,[number,number,number]>={perspective:[2.5,1.65,3],right:[0,.9,3.8],left:[0,.9,-3.8],front:[3.8,.85,0],rear:[-3.8,.85,0],top:[0,4,.001]};camera.position.set(...views[view]);controls.target.set(0,.65,0);fit();invalidate();}
+ function setView(view:CameraView){activeView=view;const preset=CAMERA_PRESETS[view];camera.position.copy(controls.target).add(new T.Vector3(...preset.direction).normalize());fit(preset.margin);invalidate();}
  const resizeObserver=new ResizeObserver(resize);cleanup.push(()=>resizeObserver.disconnect());resizeObserver.observe(host);
  const intersection=new IntersectionObserver(entries=>{visible=entries[0]?.isIntersecting??false;if(!visible&&frame){cancelAnimationFrame(frame);frame=0;}invalidate();});cleanup.push(()=>intersection.disconnect());intersection.observe(host);
  const visibility=()=>{if(document.hidden&&frame){cancelAnimationFrame(frame);frame=0;}invalidate();};document.addEventListener('visibilitychange',visibility);cleanup.push(()=>document.removeEventListener('visibilitychange',visibility));

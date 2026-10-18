@@ -8,6 +8,18 @@ test('GLB exporter respects hidden replaced stock meshes',()=>{
  assert.match(readFileSync(new URL('../src/bike3d/scene.ts',import.meta.url),'utf8'),/onlyVisible:true/);
 });
 function colors(root:ReturnType<typeof createBikeModel>){const result:Record<string,string[]>={};root.traverse(o=>{if(o instanceof Mesh&&o.material instanceof MeshStandardMaterial){const n=o.material.name;result[n]??=[];result[n].push(o.material.color.getHexString());}});return result;}
+test('stock OEM materials retain distinct plastic seat rubber cast and machined response',()=>{
+ const bike=createBikeModel(),materials=new Map<string,MeshStandardMaterial>();
+ try{
+  bike.traverse(o=>{if(o instanceof Mesh&&o.material instanceof MeshStandardMaterial&&o.material.name&&!materials.has(o.material.name))materials.set(o.material.name,o.material);});
+  const plastics=materials.get('plastics')!,seat=materials.get('seat')!,rim=materials.get('front-rim')!,engine=materials.get('engine-cast')!;
+  assert.ok(plastics&&seat&&rim&&engine);
+  assert.equal(plastics.color.getHex(),0xff5a00);assert.equal(plastics.metalness,0);assert.ok(plastics.roughness>=.32&&plastics.roughness<=.46);assert.ok(plastics.envMapIntensity>=.8&&plastics.envMapIntensity<=1.2);
+  assert.ok(seat.roughness>=.84);assert.ok(seat.color.getHex()<0x303030);
+  assert.ok(rim.metalness>=.8&&rim.roughness>=.2&&rim.roughness<=.4);
+  assert.ok(engine.metalness<rim.metalness&&engine.roughness>rim.roughness);
+ }finally{disposeBikeModel(bike);}
+});
 test('every tier-1 finish target is independent and restores stock',()=>{
  const bike=createBikeModel(),before=colors(bike);
  for(const target of ['bars','grips','clamps','front-rim','rear-rim','front-hub','rear-hub','front-spokes','rear-spokes','chain','rear-sprocket','exhaust','seat']){

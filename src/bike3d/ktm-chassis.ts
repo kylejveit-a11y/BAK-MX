@@ -34,6 +34,7 @@ function chamferedBlock(width:number,height:number,depth:number,bevel:number){
 export function buildChassis({groups,mats,d,target}:AuthoringContext){
  const front=d.wheelbase/2,rear=-front,seatOffset=d.seatHeight-.958;
  const rimFront=target('front-rim',mats.black),rimRear=target('rear-rim',mats.black);
+ for(const rim of [rimFront,rimRear]){rim.metalness=.82;rim.roughness=.31;rim.envMapIntensity=1.05;}
  const hubFront=target('front-hub',mats.silver),hubRear=target('rear-hub',mats.silver);
  const spokeFront=target('front-spokes',mats.black),spokeRear=target('rear-spokes',mats.black);
  const bars=target('bars',mats.black),grips=target('grips',mats.rubber),clamps=target('clamps',mats.black);
