@@ -6,6 +6,7 @@ import {createBikeModel,disposeBikeModel} from './model.ts';
 import {applyVisualBuild} from './apply-build.ts';
 import {resolveVisualBuild} from '../../shared/build-visual.ts';
 import {parseBikeDimensions,type BikeDimensions} from '../../shared/bike-visual.ts';
+import {fitObjectToCamera} from './camera-fit.ts';
 export type CameraView='perspective'|'left'|'right'|'front'|'rear'|'top';
 export function fitCameraDistance(radius:number,fov:number,aspect:number){
  const halfVertical=fov*Math.PI/360,halfHorizontal=Math.atan(Math.tan(halfVertical)*Math.max(aspect,.01));
@@ -41,7 +42,7 @@ export function mountBikeScene(host:HTMLElement,dimensions:BikeDimensions,onErro
  let disposed=false,visible=true,paused=false,frame=0;
  function render(){frame=0;if(!disposed&&visible&&!paused&&!document.hidden){try{renderer.render(scene,camera);}catch{onError('The 3D preview could not render. Close and reopen the viewer.');}}}
  function invalidate(){if(!disposed&&!frame&&visible&&!paused&&!document.hidden)frame=requestAnimationFrame(render);}
- function fit(){const sphere=new T.Box3().setFromObject(bike).getBoundingSphere(new T.Sphere());const direction=camera.position.clone().sub(controls.target).normalize();controls.target.copy(sphere.center);camera.position.copy(sphere.center).addScaledVector(direction,fitCameraDistance(sphere.radius,camera.fov,camera.aspect));controls.update();}
+ function fit(){const direction=camera.position.clone().sub(controls.target).normalize();fitObjectToCamera(camera,bike,controls.target,direction,1.1);controls.update();}
  function resize(){if(disposed)return;const {width,height}=host.getBoundingClientRect();renderer.setSize(Math.max(width,1),Math.max(height,1));camera.aspect=Math.max(width,1)/Math.max(height,1);camera.updateProjectionMatrix();fit();invalidate();}
  function setView(view:CameraView){const views:Record<CameraView,[number,number,number]>={perspective:[2.5,1.65,3],right:[0,.9,3.8],left:[0,.9,-3.8],front:[3.8,.85,0],rear:[-3.8,.85,0],top:[0,4,.001]};camera.position.set(...views[view]);controls.target.set(0,.65,0);fit();invalidate();}
  const resizeObserver=new ResizeObserver(resize);cleanup.push(()=>resizeObserver.disconnect());resizeObserver.observe(host);
