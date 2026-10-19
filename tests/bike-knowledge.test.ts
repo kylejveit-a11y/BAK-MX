@@ -58,4 +58,6 @@ test('big tables are cut to the rows the rider asked about',()=>{
  const rows:Record<string,string>={};for(let i=0;i<300;i++)rows['Bolt '+i+' (M8)']='10 N·m';rows['Rear axle nut (M22)']='135 N·m';
  const f=focusRow({...k('K-40','maintenance','chassis tightening torques','OEM','torques'),values:{torques:rows}},'rear axle nut torque');
  assert.deepEqual(Object.keys((f.values as {torques:Record<string,string>}).torques),['Rear axle nut (M22)']);
+ const flat=focusRow({...k('K-41','maintenance','chassis tightening torques','OEM','torques'),values:rows},'what is the rear axle torque');
+ assert.deepEqual(Object.keys(flat.values),['Rear axle nut (M22)']);
 });

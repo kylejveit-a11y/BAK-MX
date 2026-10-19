@@ -41,7 +41,7 @@ export function focusRow(k:Knowledge,text:string,max=4000):Knowledge{
  for(const [key,val] of Object.entries(k.values)){
   if(Array.isArray(val)){total+=val.length;const m=val.filter(v=>hit(JSON.stringify(v)));kept+=m.length;if(m.length)out[key]=m;continue;}
   if(val&&typeof val==='object'){const e=Object.entries(val as Record<string,unknown>);total+=e.length;const m=e.filter(([a,b])=>hit(a+' '+JSON.stringify(b)));kept+=m.length;if(m.length)out[key]=Object.fromEntries(m);continue;}
-  total++;if(hit(key+' '+String(val))||JSON.stringify(val).length<200){out[key]=val;kept++;}
+  total++;if(hit(key+' '+String(val))){out[key]=val;kept++;}
  }
  if(!kept)return k;
  return {...k,values:out,notes:(k.notes?k.notes+' ':'')+`[Only the ${kept} of ${total} table entries that match the question are shown.]`};
