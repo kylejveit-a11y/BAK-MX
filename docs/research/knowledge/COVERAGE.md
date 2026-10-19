@@ -7,7 +7,7 @@ specs, manual settings and the parts catalog are tracked separately in `docs/res
 
 - Roster bike-years: **442**
 - Mean score: **58**
-- Bike-years at 80+: **90**
+- Bike-years at 80+: **91**
 - Bike-years with no deep knowledge yet: **0**
 
 ## Average by domain
@@ -47,8 +47,8 @@ specs, manual settings and the parts catalog are tracked separately in `docs/res
 | Yamaha | YZ125X | cross-country | 2020-2027 | 48 | 2027 (36) | 113 |
 | GasGas | EC 300 | enduro | 2021-2027 | 48 | 2027 (5) | 123 |
 | KTM | 350 XC-F | cross-country | 2020-2027 | 51 | 2027 (5) | 133 |
-| KTM | 450 XC-F | cross-country | 2020-2027 | 51 | 2027 (5) | 149 |
 | GasGas | EX 350F | cross-country | 2021-2025 | 51 | 2025 (33) | 76 |
+| KTM | 450 XC-F | cross-country | 2020-2027 | 52 | 2027 (5) | 159 |
 | KTM | 250 XC-W | enduro | 2020-2027 | 52 | 2027 (5) | 159 |
 | GasGas | EX 250F | cross-country | 2021-2025 | 53 | 2025 (33) | 79 |
 | GasGas | EC 250 | enduro | 2021-2025 | 53 | 2021 (39) | 98 |
@@ -80,10 +80,10 @@ specs, manual settings and the parts catalog are tracked separately in `docs/res
 | Triumph | TF 250-E | enduro | 2026-2026 | 83 | 2026 (83) | 40 |
 | Triumph | TF 450-C | cross-country | 2026-2026 | 83 | 2026 (83) | 42 |
 | Kawasaki | KX450X | cross-country | 2021-2026 | 84 | 2021 (73) | 234 |
-| KTM | 450 SX-F | motocross | 2020-2027 | 85 | 2027 (51) | 633 |
 | Yamaha | YZ250F | motocross | 2019-2027 | 85 | 2027 (67) | 501 |
 | Kawasaki | KX250 | motocross | 2020-2026 | 85 | 2020 (74) | 363 |
 | Triumph | TF 450-E | enduro | 2026-2026 | 86 | 2026 (86) | 48 |
+| KTM | 450 SX-F | motocross | 2020-2027 | 86 | 2027 (51) | 643 |
 | Honda | CRF250R | motocross | 2020-2026 | 87 | 2021 (70) | 413 |
 | Yamaha | YZ450F | motocross | 2018-2027 | 90 | 2027 (51) | 697 |
 | Kawasaki | KX450 | motocross | 2020-2026 | 92 | 2020 (70) | 424 |
@@ -389,7 +389,7 @@ specs, manual settings and the parts catalog are tracked separately in `docs/res
 | 2022 KTM 450 SX-F | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 0 | 100 | 100 | **91** |
 | 2023 KTM 450 SX-F | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 0 | 100 | 100 | **91** |
 | 2024 KTM 450 SX-F | 60 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 0 | 100 | 100 | **87** |
-| 2025 KTM 450 SX-F | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 0 | 100 | 100 | **91** |
+| 2025 KTM 450 SX-F | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | **100** |
 | 2026 KTM 450 SX-F | 60 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 0 | 100 | 100 | **87** |
 | 2027 KTM 450 SX-F | 100 | 100 | 0 | 100 | 0 | 100 | 0 | 100 | 0 | 60 | 0 | **51** |
 | 2020 KTM 450 XC-F | 60 | 60 | 0 | 60 | 30 | 60 | 100 | 60 | 0 | 60 | 100 | **54** |
@@ -397,7 +397,7 @@ specs, manual settings and the parts catalog are tracked separately in `docs/res
 | 2022 KTM 450 XC-F | 60 | 60 | 0 | 60 | 30 | 0 | 60 | 60 | 0 | 60 | 30 | **38** |
 | 2023 KTM 450 XC-F | 60 | 100 | 100 | 100 | 30 | 100 | 60 | 60 | 0 | 60 | 60 | **66** |
 | 2024 KTM 450 XC-F | 60 | 100 | 0 | 100 | 30 | 100 | 100 | 60 | 0 | 60 | 60 | **61** |
-| 2025 KTM 450 XC-F | 60 | 100 | 60 | 100 | 100 | 100 | 100 | 60 | 0 | 60 | 100 | **76** |
+| 2025 KTM 450 XC-F | 60 | 100 | 60 | 100 | 100 | 100 | 100 | 60 | 100 | 60 | 100 | **85** |
 | 2026 KTM 450 XC-F | 60 | 60 | 0 | 100 | 30 | 60 | 60 | 60 | 0 | 60 | 0 | **45** |
 | 2027 KTM 450 XC-F | 60 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **5** |
 | 2023 KTM 450 XCF-W | 60 | 100 | 100 | 60 | 60 | 60 | 100 | 60 | 0 | 0 | 60 | **60** |
