@@ -1,0 +1,2368 @@
+{
+ "slice": "owner's-manual technical data (batch a)",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "150 XC-W",
+   "GasGas EC 250",
+   "GasGas EC 300",
+   "GasGas EC 450F",
+   "GasGas EX 250",
+   "GasGas EX 250F",
+   "GasGas EX 300",
+   "GasGas EX 350F",
+   "GasGas EX 450F",
+   "GasGas MC 125",
+   "GasGas MC 250",
+   "GasGas MC 250F",
+   "GasGas MC 350F",
+   "GasGas MC 450F"
+  ],
+  "years": [
+   2022,
+   2023,
+   2024,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "ms-a-003",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "150 XC-W"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "KTM's 2026 owner's manual gives the 150 XC-W 300 mm front / 310 mm rear travel, a 63.9 deg steering head, 1,488 mm wheelbase, 963 mm seat height and about 96.4 kg without fuel, on Dunlop Geomax MX33F/AT81 tires at 1.0 bar off-road.",
+   "values": {
+    "frame": "Central tube frame, chrome-molybdenum steel tubing",
+    "fork_offset": "22 mm (0.87 in) triple-clamp offset",
+    "brake_disc_front": "260 mm (10.24 in), wear limit 2.5 mm",
+    "brake_disc_rear": "220 mm (8.66 in), wear limit 3.5 mm",
+    "tire_pressure_offroad": "1.0 bar (14.5 psi) front and rear",
+    "suspension_travel_front": "300 mm (11.81 in)",
+    "suspension_travel_rear": "310 mm (12.20 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,488 +/- 10 mm (58.58 in)",
+    "seat_height_unloaded": "963 mm (37.91 in)",
+    "ground_clearance_unloaded": "347 mm (13.66 in)",
+    "weight_without_fuel": "approx. 96.4 kg (212.53 lb) (125 XC-W: 96.2 kg)",
+    "tire_front": "80/100-21 M/C 51M M+S TT Dunlop Geomax MX33F",
+    "tire_rear": "110/100-18 M/C 64M M+S TT Dunlop Geomax AT81",
+    "fuel_tank": "approx. 9 l (2.4 US gal) ROZ 95 unleaded; separate 2-stroke oil tank approx. 0.8 l",
+    "max_axle_loads": "front 145 kg, rear 190 kg, total 335 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2026 125 XC-W 150 XC-W (art. 3240237)",
+    "url": "",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "125 XC-W (not in roster) ships on Maxxis Maxx Enduro 90/90-21 and 140/80-18 instead."
+  },
+  {
+   "id": "ms-a-004",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "150 XC-W"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "KTM's 2026 owner's manual lists 13:50 final drive on the 150 XC-W with a 5/8 x 1/4 in chain and rear sprockets of 45 to 52 teeth.",
+   "values": {
+    "chain": "5/8 x 1/4 in",
+    "final_drive": "13:50",
+    "rear_sprockets_available": "45, 46, 47, 48, 49, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2026 125 XC-W 150 XC-W (art. 3240237)",
+    "url": "",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-005",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "150 XC-W"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "KTM's 2026 owner's manual lists the 150 XC-W as a 144 cc reed-valve 2-stroke (58 x 54.5 mm) with separate oil injection, 23:73 primary drive, a 6-speed gearbox and an NGK BR9 ECMVX plug gapped 0.80 mm.",
+   "values": {
+    "design": "Single-cylinder 2-stroke, liquid-cooled, diaphragm (reed) intake and exhaust control",
+    "displacement": "144 cm3 (8.79 in3)",
+    "bore": "58 mm (2.28 in)",
+    "stroke": "54.5 mm (2.146 in)",
+    "idle_speed": "1,400-1,500 rpm",
+    "exhaust_control_start": "5,500 rpm (125 XC-W: 7,200 rpm)",
+    "crank_bearings": "1 grooved ball bearing, 1 roller bearing",
+    "conrod_and_wrist_pin_bearings": "needle bearings",
+    "piston": "aluminum",
+    "piston_rings": "1 rectangular ring, 1 half keystone ring",
+    "lubrication": "separate (oil injection) lubrication",
+    "x_dimension": "0-0.10 mm (piston top to cylinder top)",
+    "z_dimension_control_flap": "37.5-37.6 mm",
+    "primary_ratio": "23:73",
+    "clutch": "multi-disc wet clutch, hydraulically activated",
+    "gearbox": "6-speed, claw shift",
+    "ignition": "electronic ignition",
+    "spark_plug": "NGK BR9 ECMVX, gap 0.80 mm",
+    "starter": "electric starter",
+    "engine_oil": "0.80 l 15W/50 partially synthetic gear oil",
+    "coolant": "1.2 l, frost protection to at least -25 C"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2026 125 XC-W 150 XC-W (art. 3240237)",
+    "url": "",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Gear ratios heading present but individual ratios not in extract. 125 XC-W values (124.8 cc, 54 mm bore, premix 1:40) omitted as model not in roster."
+  },
+  {
+   "id": "ms-a-008",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual gives the EC 250 and EC 300 300 mm of travel front and rear, a 63.5 deg steering head, 1,485 mm wheelbase, 960 mm seat height and about 108 kg without fuel, with 1.0 bar off-road tire pressure.",
+   "values": {
+    "frame": "Central tube frame, chrome-molybdenum steel tubing",
+    "fork_offset": "22 mm (0.87 in)",
+    "brake_disc_front": "260 mm (10.24 in), wear limit 2.5 mm",
+    "brake_disc_rear": "220 mm (8.66 in), wear limit 3.5 mm",
+    "tire_pressure_offroad": "1.0 bar (15 psi) front and rear",
+    "suspension_travel_front": "300 mm (11.81 in)",
+    "suspension_travel_rear": "300 mm (11.81 in)",
+    "steering_head_angle": "63.5 deg",
+    "wheelbase": "1,485 +/- 10 mm (58.46 in)",
+    "seat_height_unloaded": "960 mm (37.8 in)",
+    "ground_clearance_unloaded": "360 mm (14.17 in)",
+    "weight_without_fuel": "approx. 108 kg (238 lb)",
+    "tires_EU": "90/90-21 M/C 54R M+S TT / 140/80-18 M/C 70R M+S TT, Maxxis Maxx Enduro",
+    "tires_US": "80/100-21 M/C 51M TT / 110/100-18 M/C 64M TT, Dunlop Geomax AT81F / AT81",
+    "max_axle_loads": "front 145 kg, rear 190 kg, total 335 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2022 EC 250 EC 300 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_enduro_EC_20250_202022)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-009",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual lists secondary ratio 14:52 (13:52) for the EC 250 and 14:50 (13:50) for the EC 300 with a 5/8 x 1/4 in chain and 45-52 tooth rear sprockets.",
+   "values": {
+    "chain": "5/8 x 1/4 in",
+    "secondary_ratio_EC_250": "14:52 (13:52)",
+    "secondary_ratio_EC_300": "14:50 (13:50)",
+    "rear_sprockets_available": "45, 48, 49, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2022 EC 250 EC 300 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_enduro_EC_20250_202022)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "The manual does not say what the bracketed 13-tooth alternative applies to (likely a market/variant alternative)."
+  },
+  {
+   "id": "ms-a-010",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual lists the EC 250 (249 cc, 66.4 x 72 mm) and EC 300 (293 cc, 72 x 72 mm) as TPI 2-strokes with separate oil injection, 26:73 primary drive, a 6-speed gearbox and an NGK BR 7 ES plug gapped 0.6 mm.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake, exhaust control and transfer-duct injection (TPI)",
+    "displacement_EC_250": "249 cm3",
+    "bore_EC_250": "66.4 mm",
+    "displacement_EC_300": "293.15 cm3",
+    "bore_EC_300": "72 mm",
+    "stroke": "72 mm",
+    "idle_speed": "1,400-1,500 rpm",
+    "exhaust_control_setting_EC_250": "2.7 +0.2 mm",
+    "exhaust_control_setting_EC_300": "2.3 +0.2 mm",
+    "piston_rings_EC_250": "2 half keystone rings",
+    "piston_rings_EC_300": "2 rectangular rings",
+    "lubrication": "separate lubrication",
+    "piston": "cast aluminum",
+    "x_distance": "0-0.10 mm",
+    "z_distance_EC_250": "49.0 mm",
+    "z_distance_EC_300": "49.5 mm",
+    "primary_ratio": "26:73",
+    "clutch": "multi-disc in oil bath, hydraulically activated",
+    "gearbox": "6-speed, claw shifted",
+    "gear_ratios": "1st 14:32, 2nd 16:26, 3rd 20:25, 4th 22:23, 5th 25:22, 6th 26:20",
+    "alternator": "12 V, 196 W",
+    "ignition": "contactless fully electronic, digital ignition adjustment",
+    "spark_plug": "NGK BR 7 ES, gap 0.6 mm",
+    "starter": "electric starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2022 EC 250 EC 300 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_enduro_EC_20250_202022)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-013",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual gives the EC 250 and EC 300 300 mm of travel front and rear, a 63.5 deg steering head, 1,485 mm wheelbase, 960 mm seat height and about 108 kg without fuel, with 1.0 bar off-road tire pressure.",
+   "values": {
+    "frame": "Central tube frame, chrome-molybdenum steel tubing",
+    "fork_offset": "22 mm (0.87 in)",
+    "brake_disc_front": "260 mm (10.24 in), wear limit 2.5 mm",
+    "brake_disc_rear": "220 mm (8.66 in), wear limit 3.5 mm",
+    "tire_pressure_offroad": "1.0 bar (15 psi) front and rear",
+    "suspension_travel_front": "300 mm (11.81 in)",
+    "suspension_travel_rear": "300 mm (11.81 in)",
+    "steering_head_angle": "63.5 deg",
+    "wheelbase": "1,485 +/- 10 mm (58.46 in)",
+    "seat_height_unloaded": "960 mm (37.8 in)",
+    "ground_clearance_unloaded": "360 mm (14.17 in)",
+    "weight_without_fuel": "approx. 108 kg (238 lb)",
+    "tires_EU": "90/90-21 M/C 54R M+S TT / 140/80-18 M/C 70R M+S TT, Maxxis Maxx Enduro",
+    "tires_US": "80/100-21 M/C 51M TT / 110/100-18 M/C 64M TT, Dunlop Geomax MX33F / MX33",
+    "max_axle_loads": "front 145 kg, rear 190 kg, total 335 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2023 EC 250 EC 300 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_enduro_EC_20300_202023)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-014",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual lists secondary ratio 14:52 (13:52) for the EC 250 and 14:50 (13:50) for the EC 300 with a 5/8 x 1/4 in chain and 45-52 tooth rear sprockets.",
+   "values": {
+    "chain": "5/8 x 1/4 in",
+    "secondary_ratio_EC_250": "14:52 (13:52)",
+    "secondary_ratio_EC_300": "14:50 (13:50)",
+    "rear_sprockets_available": "45, 48, 49, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2023 EC 250 EC 300 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_enduro_EC_20300_202023)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "The manual does not say what the bracketed 13-tooth alternative applies to (likely a market/variant alternative)."
+  },
+  {
+   "id": "ms-a-015",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual lists the EC 250 (249 cc, 66.4 x 72 mm) and EC 300 (293 cc, 72 x 72 mm) as TPI 2-strokes with separate oil injection, 26:73 primary drive, a 6-speed gearbox and an NGK BR 7 ES plug gapped 0.6 mm.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake, exhaust control and transfer-duct injection (TPI)",
+    "displacement_EC_250": "249 cm3",
+    "bore_EC_250": "66.4 mm",
+    "displacement_EC_300": "293.15 cm3",
+    "bore_EC_300": "72 mm",
+    "stroke": "72 mm",
+    "idle_speed": "1,400-1,500 rpm",
+    "exhaust_control_setting_EC_250": "2.7 +0.2 mm",
+    "exhaust_control_setting_EC_300": "2.3 +0.2 mm",
+    "piston_rings_EC_250": "2 half keystone rings",
+    "piston_rings_EC_300": "2 rectangular rings",
+    "lubrication": "separate lubrication",
+    "piston": "cast aluminum",
+    "x_distance": "0-0.10 mm",
+    "z_distance_EC_250": "49.0 mm",
+    "z_distance_EC_300": "49.5 mm",
+    "primary_ratio": "26:73",
+    "clutch": "multi-disc in oil bath, hydraulically activated",
+    "gearbox": "6-speed, claw shifted",
+    "gear_ratios": "1st 14:32, 2nd 16:26, 3rd 20:25, 4th 22:23, 5th 25:22, 6th 26:20",
+    "alternator": "12 V, 196 W",
+    "ignition": "contactless fully electronic, digital ignition adjustment",
+    "spark_plug": "NGK BR 7 ES, gap 0.6 mm",
+    "starter": "electric starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2023 EC 250 EC 300 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_enduro_EC_20300_202023)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-018",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual gives the EC 250 and EC 300 300 mm travel front and rear, a 63.9 deg steering head, 1,489 mm wheelbase, 957 mm seat height and 106.0 kg (EU) / 107.6 kg (US) without fuel, with 1.0 bar off-road tire pressure.",
+   "values": {
+    "frame": "Central tube frame, chrome-molybdenum steel tubing",
+    "fork_offset": "22 mm (0.87 in)",
+    "brake_disc_front": "260 mm (10.24 in), wear limit 2.5 mm",
+    "brake_disc_rear": "220 mm (8.66 in), wear limit 3.5 mm",
+    "tire_pressure_offroad": "1.0 bar (15 psi) front and rear",
+    "suspension_travel_front": "300 mm (11.81 in)",
+    "suspension_travel_rear": "300 mm (11.81 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,489 +/- 10 mm (58.62 in)",
+    "seat_height_unloaded": "957 mm (37.68 in)",
+    "ground_clearance_unloaded": "355 mm (13.98 in)",
+    "weight_without_fuel_EU": "approx. 106.0 kg (233.7 lb)",
+    "weight_without_fuel_US": "approx. 107.6 kg (237.2 lb)",
+    "tires_EU": "90/90-21 M/C 54R M+S TT / 140/80-18 M/C 70R M+S TT, Maxxis Maxx Enduro",
+    "tires_US": "80/100-21 M/C 51M TT / 110/100-18 M/C 64M TT, Dunlop Geomax MX33F / MX33",
+    "tire_pressure_street": "2.0 bar (29 psi) front and rear",
+    "max_axle_loads": "front 145 kg, rear 190 kg, total 335 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 EC 250 EC 300 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_enduro_EC_20250_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-019",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual lists secondary ratio 14:45 (13:45) on EU and 13:45 on US EC 250/EC 300 models, a 5/8 x 1/4 in chain and 45-52 tooth rear sprockets.",
+   "values": {
+    "chain": "5/8 x 1/4 in",
+    "secondary_ratio_EU": "14:45 (13:45)",
+    "secondary_ratio_US": "13:45",
+    "rear_sprockets_available": "45, 48, 49, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 EC 250 EC 300 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_enduro_EC_20250_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "A 45-tooth secondary ratio on both models is as printed; earlier EC manuals list 52/50 teeth."
+  },
+  {
+   "id": "ms-a-020",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EC 250",
+     "GasGas EC 300"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual lists the EC 250 (249 cc, 66.4 x 72 mm) and EC 300 (293 cc, 72 x 72 mm) 2-strokes with 26:72 primary drive, a 6-speed gearbox and an NGK BR 7 ES plug gapped 0.60 mm.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake and exhaust control",
+    "displacement_EC_250": "249 cm3",
+    "bore_EC_250": "66.4 mm",
+    "displacement_EC_300": "293.15 cm3",
+    "bore_EC_300": "72 mm",
+    "stroke": "72 mm",
+    "idle_speed": "1,400-1,500 rpm",
+    "piston_rings_EC_250": "2 half keystone rings",
+    "piston_rings_EC_300": "2 rectangular rings",
+    "piston": "cast aluminum",
+    "x_distance": "0-0.10 mm (piston top to special tool)",
+    "z_distance": "50.0 mm (both)",
+    "primary_ratio": "26:72",
+    "clutch": "multi-disc in oil bath, hydraulically activated",
+    "gearbox": "6-speed, claw shifted",
+    "gear_ratios": "1st 13:33, 2nd 16:30, 3rd 18:26, 4th 22:26, 5th 23:23, 6th 26:22",
+    "ignition": "electronic ignition",
+    "spark_plug": "NGK BR 7 ES, gap 0.60 mm",
+    "starter": "electric starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 EC 250 EC 300 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_enduro_EC_20250_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Lubrication type not stated in this year's extract."
+  },
+  {
+   "id": "ms-a-023",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EC 450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual gives the EC 450F 300 mm front / 310 mm rear travel, a 63.9 deg steering head, 1,488 mm wheelbase, 963 mm seat height and about 107.4 kg without fuel, with 1.0 bar off-road tire pressure.",
+   "values": {
+    "frame": "Central tube frame, chrome-molybdenum steel tubing",
+    "fork_offset": "22 mm (0.87 in)",
+    "brake_disc_front": "260 mm (10.24 in), wear limit 2.5 mm",
+    "brake_disc_rear": "220 mm (8.66 in), wear limit 3.5 mm",
+    "tire_pressure_offroad": "1.0 bar (15 psi) front and rear",
+    "suspension_travel_front": "300 mm (11.81 in)",
+    "suspension_travel_rear": "310 mm (12.2 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,488 +/- 10 mm (58.58 in)",
+    "seat_height_unloaded": "963 mm (37.91 in)",
+    "ground_clearance_unloaded": "347 mm (13.66 in)",
+    "weight_without_fuel": "approx. 107.4 kg (236.8 lb) (all 450 models)",
+    "tires_EU": "90/90-21 M/C 54R M+S TT / 140/80-18 M/C 70R TT, Maxxis Maxx Enduro",
+    "tires_US": "80/100-21 51M TT Dunlop Geomax MX33F / 110/100-18 64M TT Dunlop Geomax AT81",
+    "tire_pressure_street": "2.0 bar (29 psi) front and rear",
+    "max_axle_loads": "front 145 kg, rear 190 kg, total 335 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 EC 450F EC 500F EW 500F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_enduro_EC_20450F_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Same manual also held in file gasgas.com.ru_assets_media_files_manuals_enduro_EC_20500F_202024 (identical text). EC 500F / EW 500F are not in the garage roster."
+  },
+  {
+   "id": "ms-a-024",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EC 450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual lists EC 450F final drive of 14:52 (13:52) on EU and 13:52 on US bikes, a 5/8 x 1/4 in chain and 48-52 tooth rear sprockets.",
+   "values": {
+    "chain": "5/8 x 1/4 in",
+    "final_drive_EU": "14:52 (13:52)",
+    "final_drive_US": "13:52",
+    "rear_sprockets_available": "48, 49, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 EC 450F EC 500F EW 500F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_enduro_EC_20450F_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Same manual also held in file gasgas.com.ru_assets_media_files_manuals_enduro_EC_20500F_202024 (identical text). EC 500F / EW 500F are not in the garage roster."
+  },
+  {
+   "id": "ms-a-025",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas EC 450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual lists the EC 450F engine at 449.9 cc (95 x 63.4 mm), 12.75:1 compression, single-cam 4-valve with 40/33 mm valves and 0.10-0.15 / 0.12-0.17 mm clearances, 29:72 primary drive and a 6-speed gearbox.",
+   "values": {
+    "design": "1-cylinder 4-stroke, water-cooled",
+    "displacement": "449.9 cm3 (27.455 cu in)",
+    "bore": "95 mm",
+    "stroke": "63.4 mm",
+    "compression_ratio": "12.75:1",
+    "idle_speed": "1,800-1,900 rpm",
+    "valvetrain": "OHC, 4 valves via rocker arm",
+    "valve_diameter_intake": "40 mm",
+    "valve_diameter_exhaust": "33 mm",
+    "valve_clearance_intake": "0.10-0.15 mm at 20 C",
+    "valve_clearance_exhaust": "0.12-0.17 mm at 20 C",
+    "crank_bearings": "2 cylindrical roller bearings",
+    "conrod_bearing": "slide bearing",
+    "piston_pin_bearing": "bearing bush",
+    "piston": "forged light alloy",
+    "piston_rings": "1 compression ring, 1 oil scraper ring",
+    "lubrication": "pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "29:72",
+    "clutch": "multi-disc in oil bath, hydraulically activated",
+    "gearbox": "6-speed, claw shifted",
+    "gear_ratios": "1st 13:33, 2nd 16:30, 3rd 18:26, 4th 22:26, 5th 23:23, 6th 26:22",
+    "alternator": "14 V, 196 W",
+    "spark_plug": "NGK LZMAR8BI-10, gap 1.0 mm",
+    "starter": "starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 EC 450F EC 500F EW 500F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_enduro_EC_20450F_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Same manual also held in file gasgas.com.ru_assets_media_files_manuals_enduro_EC_20500F_202024 (identical text). EC 500F / EW 500F are not in the garage roster."
+  },
+  {
+   "id": "ms-a-031",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual gives the MC 250F 310/300 mm travel, 1,493 mm wheelbase, 956 mm seat and 101.6 kg without fuel, and the EX 250F 300/300 mm travel, 1,489 mm wheelbase, 957 mm seat and 104.2 kg; both have a 63.9 deg steering head and 1.0 bar off-road tire pressure.",
+   "values": {
+    "frame": "Central tube frame, chrome-molybdenum steel tubing",
+    "fork_offset": "22 mm (0.87 in)",
+    "brake_disc_front": "260 mm (10.24 in), wear limit 2.5 mm",
+    "brake_disc_rear": "220 mm (8.66 in), wear limit 3.5 mm",
+    "tire_pressure_offroad": "1.0 bar (15 psi) front and rear",
+    "suspension_travel_MC": "310 mm front / 300 mm rear",
+    "suspension_travel_EX": "300 mm front / 300 mm rear",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase_MC": "1,493 +/- 10 mm (58.78 in)",
+    "wheelbase_EX": "1,489 +/- 10 mm (58.62 in)",
+    "seat_height_MC": "956 mm (37.64 in)",
+    "seat_height_EX": "957 mm (37.68 in)",
+    "ground_clearance_MC": "343 mm (13.5 in)",
+    "ground_clearance_EX": "344 mm (13.54 in)",
+    "weight_without_fuel_MC": "approx. 101.6 kg (224 lb) (all MC-F incl. Factory Edition)",
+    "weight_without_fuel_EX": "approx. 104.2 kg (229.7 lb)",
+    "tires_MC_standard": "80/100-21 M/C 51M TT Maxxis Maxxcross MX-ST+ / 110/90-19 M/C 62M TT Maxxis Maxxcross MX-ST",
+    "tires_MC_Factory_Edition": "80/100-21 51M TT Dunlop Geomax MX34F / 110/90-19 62M TT Dunlop Geomax MX34",
+    "tires_EX": "80/100-21 51M TT Dunlop Geomax MX33F / 110/100-18 64M TT Dunlop Geomax AT81",
+    "max_axle_loads": "front 145 kg, rear 190 kg, total 335 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 MC 250F MC 250F Factory Edition EX 250F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_MC_20250F_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-032",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual lists secondary ratio 14:52 for the MC 250F (incl. Factory Edition) and 13:52 for the EX 250F, a 5/8 x 1/4 in chain and 48-52 tooth rear sprockets.",
+   "values": {
+    "chain": "5/8 x 1/4 in",
+    "secondary_ratio_MC": "14:52",
+    "secondary_ratio_EX": "13:52",
+    "rear_sprockets_available": "48, 49, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 MC 250F MC 250F Factory Edition EX 250F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_MC_20250F_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-033",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual lists the 250F engine at 249.91 cc (81 x 48.5 mm), 14.5:1 compression, DOHC with 32.5/27.5 mm valves, 24:72 primary drive, a 5-speed gearbox on the MC and 6-speed on the EX, and an NGK LMAR9AI-10 plug gapped 1.0 mm.",
+   "values": {
+    "design": "1-cylinder 4-stroke, water-cooled",
+    "displacement": "249.91 cm3 (15.2505 cu in)",
+    "bore": "81 mm",
+    "stroke": "48.5 mm",
+    "compression_ratio": "14.5:1",
+    "idle_speed": "2,250-2,350 rpm",
+    "valvetrain": "DOHC, 4 valves via cam levers, timing chain",
+    "valve_diameter_intake": "32.5 mm",
+    "valve_diameter_exhaust": "27.5 mm",
+    "valve_clearance_intake": "0.08-0.15 mm at 20 C",
+    "valve_clearance_exhaust": "0.12-0.19 mm at 20 C",
+    "piston": "forged light alloy",
+    "piston_rings": "1 compression ring, 1 oil scraper ring",
+    "lubrication": "pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "24:72",
+    "clutch": "multi-disc in oil bath, hydraulically activated",
+    "gearbox_MC": "5-speed: 13:32, 16:32, 17:28, 19:26, 21:25",
+    "gearbox_EX": "6-speed: 13:33, 16:30, 18:26, 22:26, 23:23, 26:22",
+    "alternator": "14 V, 70 W",
+    "spark_plug": "NGK LMAR9AI-10, gap 1.0 mm",
+    "starter": "starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 MC 250F MC 250F Factory Edition EX 250F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_MC_20250F_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-036",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 125"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual gives the MC 125 310 mm front / 300 mm rear travel, a 63.9 deg steering head, 1,485 mm wheelbase, 950 mm seat height and about 87.5 kg without fuel, on 80/100-21 and 100/90-19 tires at 1.0 bar.",
+   "values": {
+    "frame": "Central tube frame, chrome-molybdenum steel tubing",
+    "fork_offset": "22 mm (0.87 in)",
+    "brake_disc_front": "260 mm (10.24 in), wear limit 2.5 mm",
+    "brake_disc_rear": "220 mm (8.66 in), wear limit 3.5 mm",
+    "tire_pressure_offroad": "1.0 bar (15 psi) front and rear",
+    "suspension_travel_front": "310 mm (12.2 in)",
+    "suspension_travel_rear": "300 mm (11.81 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,485 +/- 10 mm (58.46 in)",
+    "seat_height_unloaded": "950 mm (37.4 in)",
+    "ground_clearance_unloaded": "375 mm (14.76 in)",
+    "weight_without_fuel": "approx. 87.5 kg (192.9 lb)",
+    "tires": "80/100-21 51M TT / 100/90-19 57M TT, Dunlop MAXXCROSS MX-ST+ (as printed)",
+    "max_axle_loads": "front 145 kg, rear 190 kg, total 335 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2022 MC 125 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20125_202022)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "2022 manual prints the tire brand as 'Dunlop MAXXCROSS', an apparent misprint for Maxxis."
+  },
+  {
+   "id": "ms-a-037",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 125"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual lists a 13:51 secondary ratio for the MC 125, a 5/8 x 1/4 in chain and 48, 50 or 52 tooth rear sprockets.",
+   "values": {
+    "chain": "5/8 x 1/4 in",
+    "secondary_ratio": "13:51",
+    "rear_sprockets_available": "48, 50, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2022 MC 125 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20125_202022)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-038",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 125"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual lists the MC 125 as a 124.8 cc reed-valve 2-stroke (54 x 54.5 mm) with 23:73 primary drive, a 6-speed gearbox, kick start and an NGK BR9 ECMVX plug gapped 0.60 mm.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake and exhaust control",
+    "displacement": "124.8 cm3 (7.616 cu in)",
+    "bore": "54 mm",
+    "stroke": "54.5 mm",
+    "crank_bearings": "1 grooved ball bearing / 1 roller bearing",
+    "conrod_and_pin_bearings": "needle bearings",
+    "piston": "cast aluminum",
+    "piston_rings": "2 half keystone rings",
+    "x_distance": "0-0.10 mm",
+    "z_distance_control_flap": "36.5 mm",
+    "primary_ratio": "23:73",
+    "clutch": "multi-disc in oil bath, hydraulically activated",
+    "gearbox": "6-speed, claw shifted",
+    "gear_ratios": "1st 14:32, 2nd 15:30, 3rd 17:28, 4th 19:27, 5th 19:23, 6th 22:24",
+    "ignition": "contactless fully electronic, digital ignition adjustment",
+    "spark_plug": "NGK BR9 ECMVX, gap 0.60 mm",
+    "starter": "kick starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2022 MC 125 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20125_202022)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-041",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 125"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual gives the MC 125 310 mm front / 300 mm rear travel, a 63.9 deg steering head, 1,485 mm wheelbase, 950 mm seat height and about 87.5 kg without fuel, on 80/100-21 and 100/90-19 tires at 1.0 bar.",
+   "values": {
+    "frame": "Central tube frame, chrome-molybdenum steel tubing",
+    "fork_offset": "22 mm (0.87 in)",
+    "brake_disc_front": "260 mm (10.24 in), wear limit 2.5 mm",
+    "brake_disc_rear": "220 mm (8.66 in), wear limit 3.5 mm",
+    "tire_pressure_offroad": "1.0 bar (15 psi) front and rear",
+    "suspension_travel_front": "310 mm (12.2 in)",
+    "suspension_travel_rear": "300 mm (11.81 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,485 +/- 10 mm (58.46 in)",
+    "seat_height_unloaded": "950 mm (37.4 in)",
+    "ground_clearance_unloaded": "375 mm (14.76 in)",
+    "weight_without_fuel": "approx. 87.5 kg (192.9 lb)",
+    "tires": "80/100-21 51M TT / 100/90-19 57M TT, Maxxis Maxxcross MX-ST+",
+    "max_axle_loads": "front 145 kg, rear 190 kg, total 335 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2023 MC 125 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20125_202023)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-042",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 125"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual lists a 13:51 secondary ratio for the MC 125, a 5/8 x 1/4 in chain and 48, 50 or 52 tooth rear sprockets.",
+   "values": {
+    "chain": "5/8 x 1/4 in",
+    "secondary_ratio": "13:51",
+    "rear_sprockets_available": "48, 50, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2023 MC 125 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20125_202023)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-043",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 125"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual lists the MC 125 as a 124.8 cc reed-valve 2-stroke (54 x 54.5 mm) with 23:73 primary drive, a 6-speed gearbox, kick start and an NGK BR9 ECMVX plug gapped 0.60 mm.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake and exhaust control",
+    "displacement": "124.8 cm3 (7.616 cu in)",
+    "bore": "54 mm",
+    "stroke": "54.5 mm",
+    "crank_bearings": "1 grooved ball bearing / 1 roller bearing",
+    "conrod_and_pin_bearings": "needle bearings",
+    "piston": "cast aluminum",
+    "piston_rings": "2 half keystone rings",
+    "x_distance": "0-0.10 mm",
+    "z_distance_control_flap": "36.5 mm",
+    "primary_ratio": "23:73",
+    "clutch": "multi-disc in oil bath, hydraulically activated",
+    "gearbox": "6-speed, claw shifted",
+    "gear_ratios": "1st 14:32, 2nd 15:30, 3rd 17:28, 4th 19:27, 5th 19:23, 6th 22:24",
+    "ignition": "contactless fully electronic, digital ignition adjustment",
+    "spark_plug": "NGK BR9 ECMVX, gap 0.60 mm",
+    "starter": "kick starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2023 MC 125 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20125_202023)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-046",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 125"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual gives the MC 125 310 mm front / 300 mm rear travel, a 63.9 deg steering head, 1,493 mm wheelbase, 956 mm seat height and about 93.1 kg without fuel, on Maxxis MX-ST+ tires at 1.0 bar.",
+   "values": {
+    "frame": "Central tube frame, chrome-molybdenum steel tubing",
+    "fork_offset": "22 mm (0.87 in)",
+    "brake_disc_front": "260 mm (10.24 in), wear limit 2.5 mm",
+    "brake_disc_rear": "220 mm (8.66 in), wear limit 3.5 mm",
+    "tire_pressure_offroad": "1.0 bar (15 psi) front and rear",
+    "suspension_travel_front": "310 mm (12.2 in)",
+    "suspension_travel_rear": "300 mm (11.81 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,493 +/- 10 mm (58.78 in)",
+    "seat_height_unloaded": "956 mm (37.64 in)",
+    "ground_clearance_unloaded": "354 mm (13.94 in)",
+    "weight_without_fuel": "approx. 93.1 kg (205.2 lb)",
+    "tires": "80/100-21 M/C 51M TT / 100/90-19 M/C 57M TT, Maxxis Maxxcross MX-ST+",
+    "max_axle_loads": "front 145 kg, rear 190 kg, total 335 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 MC 125 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20125_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-047",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 125"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual lists a 13:51 secondary ratio for the MC 125, a 5/8 x 1/4 in chain and 48, 50 or 52 tooth rear sprockets.",
+   "values": {
+    "chain": "5/8 x 1/4 in",
+    "secondary_ratio": "13:51",
+    "rear_sprockets_available": "48, 50, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 MC 125 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20125_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-048",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 125"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual lists the MC 125 as a 124.8 cc premix 2-stroke (54 x 54.5 mm) with exhaust valve opening from 7,200 rpm, 23:73 primary drive, a 6-speed gearbox, electric start and an NGK BR10 ECMVX plug gapped 0.60 mm.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake and exhaust control",
+    "displacement": "124.8 cm3 (7.616 cu in)",
+    "bore": "54 mm",
+    "stroke": "54.5 mm",
+    "idle_speed": "1,400-1,500 rpm",
+    "exhaust_valve_start": "7,200 rpm",
+    "piston": "aluminum",
+    "piston_rings": "2 half keystone rings",
+    "lubrication": "mixed (premix) lubrication",
+    "x_distance": "0-0.10 mm",
+    "z_distance_control_flap": "36.5 mm",
+    "primary_ratio": "23:73",
+    "clutch": "multi-disc in oil bath, hydraulically activated",
+    "gearbox": "6-speed, claw shifted",
+    "gear_ratios": "1st 14:32, 2nd 15:30, 3rd 17:28, 4th 19:27, 5th 19:23, 6th 22:24",
+    "ignition": "electronic ignition",
+    "spark_plug": "NGK BR10 ECMVX, gap 0.60 mm",
+    "starter": "electric starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 MC 125 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20125_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-053",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual gives the MC 250F and EX 250F 310 mm front / 300 mm rear travel, a 63.9 deg steering head, 1,485 mm wheelbase, 950 mm seat height and 99 kg (MC) / 100 kg (EX) without fuel, with 1.0 bar off-road tire pressure.",
+   "values": {
+    "frame": "Central tube frame, chrome-molybdenum steel tubing",
+    "fork_offset": "22 mm (0.87 in)",
+    "brake_disc_front": "260 mm (10.24 in), wear limit 2.5 mm",
+    "brake_disc_rear": "220 mm (8.66 in), wear limit 3.5 mm",
+    "tire_pressure_offroad": "1.0 bar (15 psi) front and rear",
+    "suspension_travel_front": "310 mm (12.2 in)",
+    "suspension_travel_rear": "300 mm (11.81 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,485 +/- 10 mm (58.46 in)",
+    "seat_height_unloaded": "950 mm (37.4 in)",
+    "ground_clearance_unloaded": "370 mm (14.57 in)",
+    "weight_without_fuel_MC": "approx. 99 kg (218 lb)",
+    "weight_without_fuel_EX": "approx. 100 kg (220 lb)",
+    "tires_MC": "80/100-21 M/C 51M TT / 110/90-19 M/C 62M TT, Maxxis Maxxcross MX-ST+",
+    "tires_EX": "80/100-21 51M TT / 110/100-18 64M TT, Dunlop Geomax AT81F / AT81",
+    "max_axle_loads": "front 145 kg, rear 190 kg, total 335 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2022 MC 250F EX 250F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20250F_202022)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Travel is printed once for both models (no separate EX value)."
+  },
+  {
+   "id": "ms-a-054",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual lists secondary ratio 14:51 for the MC 250F and 13:51 for the EX 250F, a 5/8 x 1/4 in chain and 48-52 tooth rear sprockets.",
+   "values": {
+    "chain": "5/8 x 1/4 in",
+    "secondary_ratio_MC": "14:51",
+    "secondary_ratio_EX": "13:51",
+    "rear_sprockets_available": "48, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2022 MC 250F EX 250F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20250F_202022)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-055",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual lists the 250F engine at 249.91 cc (78 x 52.3 mm), 14.4:1 compression, DOHC with 32.5/26.5 mm valves, 24:73 primary drive, a 5-speed (MC) or 6-speed (EX) gearbox and an NGK LMAR9AI-8 plug gapped 0.8 mm.",
+   "values": {
+    "design": "1-cylinder 4-stroke, water-cooled",
+    "displacement": "249.91 cm3 (15.2505 cu in)",
+    "bore": "78 mm",
+    "stroke": "52.3 mm",
+    "compression_ratio": "14.4:1",
+    "idle_speed": "2,250-2,350 rpm",
+    "valvetrain": "DOHC, 4 valves via cam levers, timing chain",
+    "valve_diameter_intake": "32.5 mm",
+    "valve_diameter_exhaust": "26.5 mm",
+    "valve_clearance_intake": "0.08-0.15 mm at 20 C",
+    "valve_clearance_exhaust": "0.12-0.19 mm at 20 C",
+    "piston": "forged light alloy",
+    "piston_rings": "1 compression ring, 1 oil scraper ring",
+    "lubrication": "pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "24:73",
+    "clutch": "multi-disc in oil bath, hydraulically activated",
+    "gearbox_MC": "5-speed: 13:32, 16:32, 17:28, 19:26, 21:25",
+    "gearbox_EX": "6-speed: 13:32, 16:30, 16:24, 23:28, 23:23, 26:20",
+    "alternator": "12 V, 70 W",
+    "spark_plug": "NGK LMAR9AI-8, gap 0.8 mm",
+    "starter": "starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2022 MC 250F EX 250F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20250F_202022)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-060",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual gives the MC 250F and EX 250F 310 mm front / 300 mm rear travel, a 63.9 deg steering head, 1,485 mm wheelbase, 950 mm seat height and 99 kg (MC) / 100 kg (EX) without fuel, with 1.0 bar off-road tire pressure.",
+   "values": {
+    "frame": "Central tube frame, chrome-molybdenum steel tubing",
+    "fork_offset": "22 mm (0.87 in)",
+    "brake_disc_front": "260 mm (10.24 in), wear limit 2.5 mm",
+    "brake_disc_rear": "220 mm (8.66 in), wear limit 3.5 mm",
+    "tire_pressure_offroad": "1.0 bar (15 psi) front and rear",
+    "suspension_travel_front": "310 mm (12.2 in)",
+    "suspension_travel_rear": "300 mm (11.81 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,485 +/- 10 mm (58.46 in)",
+    "seat_height_unloaded": "950 mm (37.4 in)",
+    "ground_clearance_MC": "375 mm (14.76 in)",
+    "ground_clearance_EX": "370 mm (14.57 in)",
+    "weight_without_fuel_MC": "approx. 99 kg (218 lb)",
+    "weight_without_fuel_EX": "approx. 100 kg (220 lb)",
+    "tires_MC": "80/100-21 M/C 51M TT / 110/90-19 M/C 62M TT, Maxxis Maxxcross MX-ST+",
+    "tires_EX": "80/100-21 51M TT / 110/100-18 64M TT, Dunlop Geomax MX33F / AT81",
+    "max_axle_loads": "front 145 kg, rear 190 kg, total 335 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2023 MC 250F EX 250F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20250F_202023)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Travel is printed once for both models (no separate EX value)."
+  },
+  {
+   "id": "ms-a-061",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual lists secondary ratio 14:51 for the MC 250F and 13:51 for the EX 250F, a 5/8 x 1/4 in chain and 48-52 tooth rear sprockets.",
+   "values": {
+    "chain": "5/8 x 1/4 in",
+    "secondary_ratio_MC": "14:51",
+    "secondary_ratio_EX": "13:51",
+    "rear_sprockets_available": "48, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2023 MC 250F EX 250F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20250F_202023)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-062",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250F",
+     "GasGas EX 250F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual lists the 250F engine at 249.91 cc (78 x 52.3 mm), 14.4:1 compression, DOHC with 32.5/26.5 mm valves, 24:73 primary drive, a 5-speed (MC) or 6-speed (EX) gearbox and an NGK LMAR9AI-8 plug gapped 0.8 mm.",
+   "values": {
+    "design": "1-cylinder 4-stroke, water-cooled",
+    "displacement": "249.91 cm3 (15.2505 cu in)",
+    "bore": "78 mm",
+    "stroke": "52.3 mm",
+    "compression_ratio": "14.4:1",
+    "idle_speed": "2,250-2,350 rpm",
+    "valvetrain": "DOHC, 4 valves via cam levers, timing chain",
+    "valve_diameter_intake": "32.5 mm",
+    "valve_diameter_exhaust": "26.5 mm",
+    "valve_clearance_intake": "0.08-0.15 mm at 20 C",
+    "valve_clearance_exhaust": "0.12-0.19 mm at 20 C",
+    "piston": "forged light alloy",
+    "piston_rings": "1 compression ring, 1 oil scraper ring",
+    "lubrication": "pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "24:73",
+    "clutch": "multi-disc in oil bath, hydraulically activated",
+    "gearbox_MC": "5-speed: 13:32, 16:32, 17:28, 19:26, 21:25",
+    "gearbox_EX": "6-speed: 13:32, 16:30, 16:24, 23:28, 23:23, 26:20",
+    "alternator": "12 V, 70 W",
+    "spark_plug": "NGK LMAR9AI-8, gap 0.8 mm",
+    "starter": "starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2023 MC 250F EX 250F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20250F_202023)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-065",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual gives the MC 250 310 mm front / 300 mm rear travel, a 63.9 deg steering head, 1,485 mm wheelbase, 950 mm seat height and about 95.5 kg without fuel, on Maxxis MX-ST+ tires at 1.0 bar.",
+   "values": {
+    "frame": "Central tube frame, chrome-molybdenum steel tubing",
+    "fork_offset": "22 mm (0.87 in)",
+    "brake_disc_front": "260 mm (10.24 in), wear limit 2.5 mm",
+    "brake_disc_rear": "220 mm (8.66 in), wear limit 3.5 mm",
+    "tire_pressure_offroad": "1.0 bar (15 psi) front and rear",
+    "suspension_travel_front": "310 mm (12.2 in)",
+    "suspension_travel_rear": "300 mm (11.81 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,485 +/- 10 mm (58.46 in)",
+    "seat_height_unloaded": "950 mm (37.4 in)",
+    "ground_clearance_unloaded": "375 mm (14.76 in)",
+    "weight_without_fuel": "approx. 95.5 kg (210.5 lb)",
+    "tires": "80/100-21 51M TT / 100/90-19 57M TT, Maxxis Maxxcross MX-ST+",
+    "max_axle_loads": "front 145 kg, rear 190 kg, total 335 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2022 MC 250 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20250_202022)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-066",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual lists a 14:49 secondary ratio for the MC 250, a 5/8 x 1/4 in chain and 48, 50 or 52 tooth rear sprockets.",
+   "values": {
+    "chain": "5/8 x 1/4 in",
+    "secondary_ratio": "14:49",
+    "rear_sprockets_available": "48, 50, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2022 MC 250 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20250_202022)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-067",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual lists the MC 250 as a 249 cc reed-valve 2-stroke (66.4 x 72 mm) with 26:73 primary drive, a 5-speed gearbox, kick start and an NGK BR 8 ECM plug gapped 0.60 mm.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake and exhaust control",
+    "displacement": "249 cm3 (15.19 cu in)",
+    "bore": "66.4 mm",
+    "stroke": "72 mm",
+    "piston": "cast aluminum",
+    "piston_rings": "2 half keystone rings",
+    "x_distance": "0-0.10 mm",
+    "z_distance_control_flap": "49.0 mm",
+    "primary_ratio": "26:73",
+    "clutch": "multi-disc in oil bath, hydraulically activated",
+    "gearbox": "5-speed, claw shifted",
+    "gear_ratios": "1st 14:28, 2nd 16:26, 3rd 18:24, 4th 21:24, 5th 22:21",
+    "ignition": "contactless fully electronic, digital ignition adjustment",
+    "spark_plug": "NGK BR 8 ECM, gap 0.60 mm",
+    "starter": "kick starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2022 MC 250 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20250_202022)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-070",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual gives the MC 250 310 mm front / 300 mm rear travel, a 63.9 deg steering head, 1,485 mm wheelbase, 950 mm seat height and about 95.5 kg without fuel, on Maxxis MX-ST+ tires at 1.0 bar.",
+   "values": {
+    "frame": "Central tube frame, chrome-molybdenum steel tubing",
+    "fork_offset": "22 mm (0.87 in)",
+    "brake_disc_front": "260 mm (10.24 in), wear limit 2.5 mm",
+    "brake_disc_rear": "220 mm (8.66 in), wear limit 3.5 mm",
+    "tire_pressure_offroad": "1.0 bar (15 psi) front and rear",
+    "suspension_travel_front": "310 mm (12.2 in)",
+    "suspension_travel_rear": "300 mm (11.81 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,485 +/- 10 mm (58.46 in)",
+    "seat_height_unloaded": "950 mm (37.4 in)",
+    "ground_clearance_unloaded": "375 mm (14.76 in)",
+    "weight_without_fuel": "approx. 95.5 kg (210.5 lb)",
+    "tires": "80/100-21 51M TT / 100/90-19 57M TT, Maxxis Maxxcross MX-ST+",
+    "max_axle_loads": "front 145 kg, rear 190 kg, total 335 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2023 MC 250 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20250_202023)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-071",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual lists a 14:49 secondary ratio for the MC 250, a 5/8 x 1/4 in chain and 48, 50 or 52 tooth rear sprockets.",
+   "values": {
+    "chain": "5/8 x 1/4 in",
+    "secondary_ratio": "14:49",
+    "rear_sprockets_available": "48, 50, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2023 MC 250 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20250_202023)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-072",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual lists the MC 250 as a 249 cc reed-valve 2-stroke (66.4 x 72 mm) with 26:73 primary drive, a 5-speed gearbox, kick start and an NGK BR 8 ECM plug gapped 0.60 mm.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake and exhaust control",
+    "displacement": "249 cm3 (15.19 cu in)",
+    "bore": "66.4 mm",
+    "stroke": "72 mm",
+    "piston": "cast aluminum",
+    "piston_rings": "2 half keystone rings",
+    "x_distance": "0-0.10 mm",
+    "z_distance_control_flap": "49.0 mm",
+    "primary_ratio": "26:73",
+    "clutch": "multi-disc in oil bath, hydraulically activated",
+    "gearbox": "5-speed, claw shifted",
+    "gear_ratios": "1st 14:28, 2nd 16:26, 3rd 18:24, 4th 21:24, 5th 22:21",
+    "ignition": "contactless fully electronic, digital ignition adjustment",
+    "spark_plug": "NGK BR 8 ECM, gap 0.60 mm",
+    "starter": "kick starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2023 MC 250 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20250_202023)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-077",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250",
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual gives the MC 250 310/300 mm travel and 100.1 kg without fuel and the EX 250/EX 300 300/300 mm travel and 102.6 kg, all with a 63.9 deg steering head, 1,493 mm wheelbase, 956 mm seat and 1.0 bar off-road tire pressure.",
+   "values": {
+    "frame": "Central tube frame, chrome-molybdenum steel tubing",
+    "fork_offset": "22 mm (0.87 in)",
+    "brake_disc_front": "260 mm (10.24 in), wear limit 2.5 mm",
+    "brake_disc_rear": "220 mm (8.66 in), wear limit 3.5 mm",
+    "tire_pressure_offroad": "1.0 bar (15 psi) front and rear",
+    "suspension_travel_MC": "310 mm front / 300 mm rear",
+    "suspension_travel_EX": "300 mm front / 300 mm rear",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,493 +/- 10 mm (58.78 in)",
+    "seat_height_unloaded": "956 mm (37.64 in)",
+    "ground_clearance_MC": "354 mm (13.94 in)",
+    "ground_clearance_EX": "355 mm (13.98 in)",
+    "weight_without_fuel_MC": "approx. 100.1 kg (220.7 lb)",
+    "weight_without_fuel_EX": "approx. 102.6 kg (226.2 lb)",
+    "tires_MC": "80/100-21 M/C 51M TT / 110/90-19 M/C 62M TT, Maxxis Maxxcross MX-ST",
+    "tires_EX": "80/100-21 51M TT Dunlop Geomax MX33F / 110/100-18 64M TT Dunlop Geomax AT81",
+    "max_axle_loads": "front 145 kg, rear 190 kg, total 335 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 MC 250 EX 250 EX 300 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20250_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-078",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250",
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual lists a 14:49 secondary ratio for the MC 250, EX 250 and EX 300, a 5/8 x 1/4 in chain and 48-52 tooth rear sprockets.",
+   "values": {
+    "chain": "5/8 x 1/4 in",
+    "secondary_ratio": "14:49 (all models)",
+    "rear_sprockets_available": "48, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 MC 250 EX 250 EX 300 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20250_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-079",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 250",
+     "GasGas EX 250",
+     "GasGas EX 300"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual lists 249 cc (66.4 x 72 mm) for the MC 250 and EX 250 and 293 cc (72 x 72 mm) for the EX 300, with 26:72 primary drive, a 5-speed (MC) or 6-speed (EX) gearbox, electric start and an NGK BR 8 ES plug gapped 0.60 mm.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake and exhaust control",
+    "displacement_MC_250_EX_250": "249 cm3",
+    "bore_MC_250_EX_250": "66.4 mm",
+    "displacement_EX_300": "293.15 cm3",
+    "bore_EX_300": "72 mm",
+    "stroke": "72 mm",
+    "piston_rings_250": "2 half keystone rings",
+    "piston_rings_EX_300": "2 rectangular rings",
+    "piston": "cast aluminum",
+    "x_distance": "0-0.10 mm (piston top to special tool)",
+    "z_distance": "48.0 mm (all)",
+    "primary_ratio": "26:72",
+    "clutch": "multi-disc in oil bath, hydraulically activated",
+    "gearbox_MC_250": "5-speed: 14:28, 16:26, 18:24, 21:24, 22:21",
+    "gearbox_EX": "6-speed: 13:33, 16:30, 18:26, 22:26, 23:23, 26:22",
+    "ignition": "electronic ignition",
+    "spark_plug": "NGK BR 8 ES, gap 0.60 mm",
+    "starter": "electric starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 MC 250 EX 250 EX 300 (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20250_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "EX values are labelled 'US' in the manual."
+  },
+  {
+   "id": "ms-a-084",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 350F",
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual gives the MC 350F and EX 350F 310 mm front / 300 mm rear travel, a 63.9 deg steering head, 1,485 mm wheelbase, 950 mm seat height and 99.5 kg (MC) / 100.5 kg (EX) without fuel, with 1.0 bar off-road tire pressure.",
+   "values": {
+    "frame": "Central tube frame, chrome-molybdenum steel tubing",
+    "fork_offset": "22 mm (0.87 in)",
+    "brake_disc_front": "260 mm (10.24 in), wear limit 2.5 mm",
+    "brake_disc_rear": "220 mm (8.66 in), wear limit 3.5 mm",
+    "tire_pressure_offroad": "1.0 bar (15 psi) front and rear",
+    "suspension_travel_front": "310 mm (12.2 in)",
+    "suspension_travel_rear": "300 mm (11.81 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,485 +/- 10 mm (58.46 in)",
+    "seat_height_unloaded": "950 mm (37.4 in)",
+    "ground_clearance_unloaded": "370 mm (14.57 in)",
+    "weight_without_fuel_MC": "approx. 99.5 kg (219.4 lb)",
+    "weight_without_fuel_EX": "approx. 100.5 kg (221.6 lb)",
+    "tires_MC": "80/100-21 51M TT / 110/90-19 62M TT, Maxxis Maxxcross MX-ST",
+    "tires_EX": "80/100-21 51M TT / 110/100-18 64M TT, Dunlop Geomax AT81F / AT81",
+    "max_axle_loads": "front 145 kg, rear 190 kg, total 335 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2022 MC 350F EX 350F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20350F_202022)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Travel is printed once for both models."
+  },
+  {
+   "id": "ms-a-085",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 350F",
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual lists secondary ratio 14:51 for the MC 350F and 13:51 for the EX 350F, a 5/8 x 1/4 in chain and 48-52 tooth rear sprockets.",
+   "values": {
+    "chain": "5/8 x 1/4 in",
+    "secondary_ratio_MC": "14:51",
+    "secondary_ratio_EX": "13:51",
+    "rear_sprockets_available": "48, 48, 50, 51, 52 (as printed; 48 listed twice)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2022 MC 350F EX 350F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20350F_202022)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-086",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 350F",
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual lists the 350F engine at 349.7 cc (88 x 57.5 mm), 14.2:1 compression, DOHC with 36.3/29.1 mm valves, 24:73 primary drive, a 5-speed (MC) or 6-speed (EX) gearbox and an NGK LMAR9AI-8 plug gapped 0.8 mm.",
+   "values": {
+    "design": "1-cylinder 4-stroke, water-cooled",
+    "displacement": "349.7 cm3 (21.34 cu in)",
+    "bore": "88 mm",
+    "stroke": "57.5 mm",
+    "compression_ratio": "14.2:1",
+    "idle_speed": "2,250-2,350 rpm",
+    "valvetrain": "DOHC, 4 valves via cam levers, timing chain",
+    "valve_diameter_intake": "36.3 mm",
+    "valve_diameter_exhaust": "29.1 mm",
+    "valve_clearance_intake": "0.08-0.15 mm at 20 C",
+    "valve_clearance_exhaust": "0.12-0.19 mm at 20 C",
+    "piston": "forged light alloy",
+    "piston_rings": "1 compression ring, 1 oil scraper ring",
+    "lubrication": "pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "24:73",
+    "clutch": "multi-disc in oil bath, hydraulically activated",
+    "gearbox_MC": "5-speed: 14:28, 16:26, 18:24, 21:24, 22:21 (as printed)",
+    "gearbox_EX": "6-speed: 15:31, 16:25, 20:25, 22:23, 25:22, 26:20",
+    "alternator": "12 V, 70 W",
+    "spark_plug": "NGK LMAR9AI-8, gap 0.8 mm",
+    "starter": "starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2022 MC 350F EX 350F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20350F_202022)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "The MC 5-speed ratios printed here are identical to the MC 250 two-stroke's; see conflicts."
+  },
+  {
+   "id": "ms-a-091",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 350F",
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual gives the MC 350F and EX 350F 310 mm front / 300 mm rear travel, a 63.9 deg steering head, 1,485 mm wheelbase, 950 mm seat height and 99.5 kg (MC) / 100.5 kg (EX) without fuel, with 1.0 bar off-road tire pressure.",
+   "values": {
+    "frame": "Central tube frame, chrome-molybdenum steel tubing",
+    "fork_offset": "22 mm (0.87 in)",
+    "brake_disc_front": "260 mm (10.24 in), wear limit 2.5 mm",
+    "brake_disc_rear": "220 mm (8.66 in), wear limit 3.5 mm",
+    "tire_pressure_offroad": "1.0 bar (15 psi) front and rear",
+    "suspension_travel_front": "310 mm (12.2 in)",
+    "suspension_travel_rear": "300 mm (11.81 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,485 +/- 10 mm (58.46 in)",
+    "seat_height_unloaded": "950 mm (37.4 in)",
+    "ground_clearance_MC": "375 mm (14.76 in)",
+    "ground_clearance_EX": "370 mm (14.57 in)",
+    "weight_without_fuel_MC": "approx. 99.5 kg (219.4 lb)",
+    "weight_without_fuel_EX": "approx. 100.5 kg (221.6 lb)",
+    "tires_MC": "80/100-21 51M TT / 110/90-19 62M TT, Maxxis Maxxcross MX-ST",
+    "tires_EX": "80/100-21 51M TT / 110/100-18 64M TT, Dunlop Geomax MX33F / AT81",
+    "max_axle_loads": "front 145 kg, rear 190 kg, total 335 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2023 MC 350F EX 350F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20350F_202023)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Travel is printed once for both models."
+  },
+  {
+   "id": "ms-a-092",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 350F",
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual lists secondary ratio 14:51 for the MC 350F and 13:51 for the EX 350F, a 5/8 x 1/4 in chain and 48-52 tooth rear sprockets.",
+   "values": {
+    "chain": "5/8 x 1/4 in",
+    "secondary_ratio_MC": "14:51",
+    "secondary_ratio_EX": "13:51",
+    "rear_sprockets_MC": "48, 50, 51, 52",
+    "rear_sprockets_EX": "48, 49, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2023 MC 350F EX 350F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20350F_202023)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-093",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 350F",
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual lists the 350F engine at 349.7 cc (88 x 57.5 mm), 14.2:1 compression, DOHC with 36.3/29.1 mm valves, 24:73 primary drive, a 5-speed (MC) or 6-speed (EX) gearbox and an NGK LMAR9AI-8 plug gapped 0.8 mm.",
+   "values": {
+    "design": "1-cylinder 4-stroke, water-cooled",
+    "displacement": "349.7 cm3 (21.34 cu in)",
+    "bore": "88 mm",
+    "stroke": "57.5 mm",
+    "compression_ratio": "14.2:1",
+    "idle_speed": "2,250-2,350 rpm",
+    "valvetrain": "DOHC, 4 valves via cam levers, timing chain",
+    "valve_diameter_intake": "36.3 mm",
+    "valve_diameter_exhaust": "29.1 mm",
+    "valve_clearance_intake": "0.08-0.15 mm at 20 C",
+    "valve_clearance_exhaust": "0.12-0.19 mm at 20 C",
+    "piston": "forged light alloy",
+    "piston_rings": "1 compression ring, 1 oil scraper ring",
+    "lubrication": "pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "24:73",
+    "clutch": "multi-disc in oil bath, hydraulically activated",
+    "gearbox_MC": "5-speed: 14:28, 16:26, 18:24, 21:24, 22:21 (as printed)",
+    "gearbox_EX": "6-speed: 15:31, 16:25, 20:25, 22:23, 25:22, 26:20",
+    "alternator": "12 V, 70 W",
+    "spark_plug": "NGK LMAR9AI-8, gap 0.8 mm",
+    "starter": "starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2023 MC 350F EX 350F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20350F_202023)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "The MC 5-speed ratios printed here are identical to the MC 250 two-stroke's; see conflicts."
+  },
+  {
+   "id": "ms-a-098",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 350F",
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual gives the MC 350F 310/300 mm travel, 1,493 mm wheelbase and 956 mm seat, the EX 350F 300/300 mm travel, 1,489 mm wheelbase and 957 mm seat, and 101.6 kg without fuel, with a 63.9 deg steering head and 1.0 bar off-road tire pressure.",
+   "values": {
+    "frame": "Central tube frame, chrome-molybdenum steel tubing",
+    "fork_offset": "22 mm (0.87 in)",
+    "brake_disc_front": "260 mm (10.24 in), wear limit 2.5 mm",
+    "brake_disc_rear": "220 mm (8.66 in), wear limit 3.5 mm",
+    "tire_pressure_offroad": "1.0 bar (15 psi) front and rear",
+    "suspension_travel_MC": "310 mm front / 300 mm rear",
+    "suspension_travel_EX": "300 mm front / 300 mm rear",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase_MC": "1,493 +/- 10 mm (58.78 in)",
+    "wheelbase_EX": "1,489 +/- 10 mm (58.62 in)",
+    "seat_height_MC": "956 mm (37.64 in)",
+    "seat_height_EX": "957 mm (37.68 in)",
+    "ground_clearance_MC": "343 mm (13.5 in)",
+    "ground_clearance_EX": "344 mm (13.54 in)",
+    "weight_without_fuel": "approx. 101.6 kg (224 lb) (single value printed)",
+    "tires_MC": "80/100-21 M/C 51M TT Maxxis Maxxcross MX-ST+ / 110/90-19 M/C 62M TT Maxxis Maxxcross MX-ST",
+    "tires_EX": "80/100-21 51M TT Dunlop Geomax MX33F / 110/100-18 64M TT Dunlop Geomax AT81",
+    "max_axle_loads": "front 145 kg, rear 190 kg, total 335 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 MC 350F EX 350F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20350F_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-099",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 350F",
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual lists secondary ratio 14:52 for the MC 350F and 13:47 for the EX 350F, a 5/8 x 1/4 in chain and 48-52 tooth rear sprockets.",
+   "values": {
+    "chain": "5/8 x 1/4 in",
+    "secondary_ratio_MC": "14:52",
+    "secondary_ratio_EX": "13:47",
+    "rear_sprockets_available": "48, 49, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 MC 350F EX 350F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20350F_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-100",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 350F",
+     "GasGas EX 350F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 owner's manual lists the 350F engine at 349.7 cc (88 x 57.5 mm), 14.6:1 compression, DOHC with 36.3/29.1 mm valves, 24:72 primary drive, a 5-speed (MC) or 6-speed (EX) gearbox and an NGK LMAR9AI-10 plug gapped 1.0 mm.",
+   "values": {
+    "design": "1-cylinder 4-stroke, water-cooled",
+    "displacement": "349.7 cm3 (21.34 cu in)",
+    "bore": "88 mm",
+    "stroke": "57.5 mm",
+    "compression_ratio": "14.6:1",
+    "idle_speed": "2,250-2,350 rpm",
+    "valvetrain": "DOHC, 4 valves via cam levers, timing chain",
+    "valve_diameter_intake": "36.3 mm",
+    "valve_diameter_exhaust": "29.1 mm",
+    "valve_clearance_intake": "0.08-0.15 mm at 20 C",
+    "valve_clearance_exhaust": "0.12-0.19 mm at 20 C",
+    "piston": "forged light alloy",
+    "piston_rings": "1 compression ring, 1 oil scraper ring",
+    "lubrication": "pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "24:72",
+    "clutch": "multi-disc in oil bath, hydraulically activated",
+    "gearbox_MC": "5-speed: 14:28, 16:26, 18:24, 21:24, 22:21 (as printed)",
+    "gearbox_EX": "6-speed: 13:33, 16:30, 18:26, 22:26, 23:23, 26:22",
+    "alternator": "14 V, 70 W",
+    "spark_plug": "NGK LMAR9AI-10, gap 1.0 mm",
+    "starter": "starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 MC 350F EX 350F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20350F_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "The MC 5-speed ratios printed here are identical to the MC 250 two-stroke's; see conflicts."
+  },
+  {
+   "id": "ms-a-107",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 450F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual gives the MC 450F and EX 450F 310 mm front / 300 mm rear travel, a 63.9 deg steering head, 1,485 mm wheelbase, 950 mm seat height and 100 kg (MC) / 101 kg (EX) without fuel, with 1.0 bar off-road tire pressure.",
+   "values": {
+    "frame": "Central tube frame, chrome-molybdenum steel tubing",
+    "fork_offset": "22 mm (0.87 in)",
+    "brake_disc_front": "260 mm (10.24 in), wear limit 2.5 mm",
+    "brake_disc_rear": "220 mm (8.66 in), wear limit 3.5 mm",
+    "tire_pressure_offroad": "1.0 bar (15 psi) front and rear",
+    "suspension_travel_front": "310 mm (12.2 in)",
+    "suspension_travel_rear": "300 mm (11.81 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,485 +/- 10 mm (58.46 in)",
+    "seat_height_unloaded": "950 mm (37.4 in)",
+    "ground_clearance_unloaded": "370 mm (14.57 in)",
+    "weight_without_fuel_MC": "approx. 100 kg (220 lb)",
+    "weight_without_fuel_EX": "approx. 101 kg (223 lb)",
+    "tires_MC": "80/100-21 M/C 51M TT / 110/90-19 M/C 62M TT, Maxxis Maxxcross MX-ST+",
+    "tires_MC_TLD": "80/100-21 51M TT Dunlop Geomax MX33F / 120/80-19 63M TT Dunlop Geomax MX33",
+    "tires_EX": "80/100-21 51M TT Dunlop Geomax AT81F / 110/100-18 64M TT Dunlop Geomax AT81",
+    "max_axle_loads": "front 145 kg, rear 190 kg, total 335 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2022 MC 450F EX 450F MC 450F TROY LEE DESIGNS (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20450F_202022)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "The MC 450F Troy Lee Designs edition (mapped to MC 450F) uses a 120/80-19 rear tire."
+  },
+  {
+   "id": "ms-a-108",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 450F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual lists a 13:49 secondary ratio for the MC 450F and EX 450F, a 5/8 x 1/4 in chain and 48-52 tooth rear sprockets.",
+   "values": {
+    "chain": "5/8 x 1/4 in",
+    "secondary_ratio": "13:49 (single value printed)",
+    "rear_sprockets_available": "48, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2022 MC 450F EX 450F MC 450F TROY LEE DESIGNS (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20450F_202022)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-109",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 450F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "GasGas's 2022 owner's manual lists the 450F engine at 449.9 cc (95 x 63.4 mm), 12.75:1 compression, single-cam 4-valve with 40/33 mm valves and 0.10-0.15 / 0.12-0.17 mm clearances, 31:76 primary drive and a 5-speed gearbox.",
+   "values": {
+    "design": "1-cylinder 4-stroke, water-cooled",
+    "displacement": "449.9 cm3 (27.455 cu in)",
+    "bore": "95 mm",
+    "stroke": "63.4 mm",
+    "compression_ratio": "12.75:1",
+    "idle_speed": "2,100-2,200 rpm",
+    "valvetrain": "OHC, 4 valves via rocker arm",
+    "valve_diameter_intake": "40 mm",
+    "valve_diameter_exhaust": "33 mm",
+    "valve_clearance_intake": "0.10-0.15 mm at 20 C",
+    "valve_clearance_exhaust": "0.12-0.17 mm at 20 C",
+    "crank_bearings": "2 cylindrical roller bearings",
+    "conrod_bearing": "slide bearing",
+    "piston_pin_bearing": "no bearing bush, DLC-coated piston pin",
+    "piston": "forged light alloy",
+    "piston_rings": "1 compression ring, 1 oil scraper ring",
+    "lubrication": "pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "31:76",
+    "clutch": "multi-disc in oil bath, hydraulically activated",
+    "gearbox": "5-speed, claw shifted (single entry printed)",
+    "gear_ratios": "1st 16:32, 2nd 18:30, 3rd 20:28, 4th 22:26, 5th 24:24",
+    "alternator": "12 V, 70 W",
+    "spark_plug": "NGK LMAR9AI-8, gap 0.8 mm",
+    "starter": "starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2022 MC 450F EX 450F MC 450F TROY LEE DESIGNS (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20450F_202022)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "The manual prints only a 5-speed gearbox, with no separate EX gearbox entry."
+  },
+  {
+   "id": "ms-a-114",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 450F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual gives the MC 450F and EX 450F 310 mm front / 300 mm rear travel, a 63.9 deg steering head, 1,485 mm wheelbase, 950 mm seat height and 100 kg (MC) / 101 kg (EX) without fuel, with 1.0 bar off-road tire pressure.",
+   "values": {
+    "frame": "Central tube frame, chrome-molybdenum steel tubing",
+    "fork_offset": "22 mm (0.87 in)",
+    "brake_disc_front": "260 mm (10.24 in), wear limit 2.5 mm",
+    "brake_disc_rear": "220 mm (8.66 in), wear limit 3.5 mm",
+    "tire_pressure_offroad": "1.0 bar (15 psi) front and rear",
+    "suspension_travel_front": "310 mm (12.2 in)",
+    "suspension_travel_rear": "300 mm (11.81 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,485 +/- 10 mm (58.46 in)",
+    "seat_height_unloaded": "950 mm (37.4 in)",
+    "ground_clearance_MC": "375 mm (14.76 in)",
+    "ground_clearance_EX": "370 mm (14.57 in)",
+    "weight_without_fuel_MC": "approx. 100 kg (220 lb)",
+    "weight_without_fuel_EX": "approx. 101 kg (223 lb)",
+    "tires_MC": "80/100-21 M/C 51M TT / 110/90-19 M/C 62M TT, Maxxis Maxxcross MX-ST+",
+    "tires_EX": "80/100-21 51M TT Dunlop Geomax MX33F / 110/100-18 64M TT Dunlop Geomax AT81",
+    "max_axle_loads": "front 145 kg, rear 190 kg, total 335 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2023 MC 450F EX 450F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20450F_202023)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-115",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 450F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual lists secondary ratio 13:49 for the MC 450F and 13:48 for the EX 450F, a 5/8 x 1/4 in chain and 48, 49, 50 or 52 tooth rear sprockets.",
+   "values": {
+    "chain": "5/8 x 1/4 in",
+    "secondary_ratio_MC": "13:49",
+    "secondary_ratio_EX": "13:48",
+    "rear_sprockets_available": "48, 49, 50, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2023 MC 450F EX 450F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20450F_202023)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-a-116",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 450F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "GasGas's 2023 owner's manual lists the 450F engine at 449.9 cc (95 x 63.4 mm), 12.75:1 compression, single-cam 4-valve with 40/33 mm valves and 0.10-0.15 / 0.12-0.17 mm clearances, 31:76 primary drive and a 5-speed gearbox.",
+   "values": {
+    "design": "1-cylinder 4-stroke, water-cooled",
+    "displacement": "449.9 cm3 (27.455 cu in)",
+    "bore": "95 mm",
+    "stroke": "63.4 mm",
+    "compression_ratio": "12.75:1",
+    "idle_speed": "2,100-2,200 rpm",
+    "valvetrain": "OHC, 4 valves via rocker arm",
+    "valve_diameter_intake": "40 mm",
+    "valve_diameter_exhaust": "33 mm",
+    "valve_clearance_intake": "0.10-0.15 mm at 20 C",
+    "valve_clearance_exhaust": "0.12-0.17 mm at 20 C",
+    "crank_bearings": "2 cylindrical roller bearings",
+    "conrod_bearing": "slide bearing",
+    "piston_pin_bearing": "bearing bush",
+    "piston": "forged light alloy",
+    "piston_rings": "1 compression ring, 1 oil scraper ring",
+    "lubrication": "pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "31:76",
+    "clutch": "multi-disc in oil bath, hydraulically activated",
+    "gearbox": "5-speed, claw shifted (single entry printed)",
+    "gear_ratios": "1st 16:32, 2nd 18:30, 3rd 20:28, 4th 22:26, 5th 24:24",
+    "alternator": "12 V, 70 W",
+    "spark_plug": "NGK LMAR9AI-8, gap 0.8 mm",
+    "starter": "starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2023 MC 450F EX 450F (art. n/a; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20450F_202023)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "The manual prints only a 5-speed gearbox, with no separate EX gearbox entry."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "2026 KTM 150 XC-W fork spring rate units",
+   "records": [
+    "ms-a-001"
+   ],
+   "spread": "Printed 40/42/44 N/mm (228.4/239.8/251.2 lbf/in) vs 4.0-5.0 N/mm on every GasGas WP XPLOR fork table in this batch",
+   "note": "Probably a missing decimal point in the manual or the extract (4.0/4.2/4.4 N/mm). Recorded as printed; check against the PDF before showing a spring rate."
+  },
+  {
+   "topic": "GasGas MC 350F 2022-2024 gearbox ratios",
+   "records": [
+    "ms-a-086",
+    "ms-a-093",
+    "ms-a-100"
+   ],
+   "spread": "MC 5-speed printed as 14:28/16:26/18:24/21:24/22:21, the same as the MC 250 two-stroke, whereas the MC 250F lists 13:32/16:32/17:28/19:26/21:25",
+   "note": "Possibly a copy-over error in the manual. Recorded as printed."
+  },
+  {
+   "topic": "2022 GasGas MC 450F Troy Lee Designs fork",
+   "records": [
+    "ms-a-102"
+   ],
+   "spread": "Fork named 'WP XACT 5448' (art. 34.18.8U.59), but the table gives 10.7 bar air pressure and the AER oil/grease layout",
+   "note": "Recorded as printed."
+  }
+ ],
+ "not_found": [
+  "No fork air-pressure range, step size or per-rider-weight air table appears in any GasGas extract in this batch; only a single standard pressure is given.",
+  "2024 GasGas MC 250F Factory Edition shock: the extract ends after rebound comfort (17 clicks). Spring, preload and sag values were not available.",
+  "2022 GasGas EX 450F shock: the extract ends after LSC standard (15 clicks). The record is partial.",
+  "2026 KTM 150 XC-W individual gear ratios: the heading is present but the ratios are not in the extract.",
+  "Skipped models not in garageModels: KTM 125 XC-W (2026), GasGas EC 500F and EW 500F (2024).",
+  "Steering head angle, fork offset etc. are not given per variant; values printed once are applied to all models in the manual."
+ ],
+ "sources": [
+  "local extract d2inxtzgf08fgn.cloudfront.net_ownerManuals_26_3240237_en_BA.txt (KTM owner's manual 2026 125 XC-W / 150 XC-W)",
+  "local extract gasgas.com.ru_assets_media_files_manuals_enduro_EC_20250_202022.txt (GasGas owner's manual 2022 EC 250 EC 300)",
+  "local extract gasgas.com.ru_assets_media_files_manuals_enduro_EC_20300_202023.txt (GasGas owner's manual 2023 EC 250 EC 300)",
+  "local extract gasgas.com.ru_assets_media_files_manuals_enduro_EC_20250_202024.txt (GasGas owner's manual 2024 EC 250 EC 300)",
+  "local extract gasgas.com.ru_assets_media_files_manuals_enduro_EC_20450F_202024.txt (GasGas owner's manual 2024 EC 450F EC 500F EW 500F)",
+  "local extract gasgas.com.ru_assets_media_files_manuals_enduro_EC_20500F_202024.txt (identical content to the EC 450F 2024 extract; not processed separately)",
+  "local extract gasgas.com.ru_assets_media_files_manuals_motocross_MC_20250F_202024.txt (GasGas owner's manual 2024 MC 250F MC 250F Factory Edition EX 250F)",
+  "local extract gasgas.com.ru_assets_media_files_manuals_motocross_mc_20125_202022.txt (GasGas owner's manual 2022 MC 125)",
+  "local extract gasgas.com.ru_assets_media_files_manuals_motocross_mc_20125_202023.txt (GasGas owner's manual 2023 MC 125)",
+  "local extract gasgas.com.ru_assets_media_files_manuals_motocross_mc_20125_202024.txt (GasGas owner's manual 2024 MC 125)",
+  "local extract gasgas.com.ru_assets_media_files_manuals_motocross_mc_20250F_202022.txt (GasGas owner's manual 2022 MC 250F EX 250F)",
+  "local extract gasgas.com.ru_assets_media_files_manuals_motocross_mc_20250F_202023.txt (GasGas owner's manual 2023 MC 250F EX 250F)",
+  "local extract gasgas.com.ru_assets_media_files_manuals_motocross_mc_20250_202022.txt (GasGas owner's manual 2022 MC 250)",
+  "local extract gasgas.com.ru_assets_media_files_manuals_motocross_mc_20250_202023.txt (GasGas owner's manual 2023 MC 250)",
+  "local extract gasgas.com.ru_assets_media_files_manuals_motocross_mc_20250_202024.txt (GasGas owner's manual 2024 MC 250 EX 250 EX 300)",
+  "local extract gasgas.com.ru_assets_media_files_manuals_motocross_mc_20350F_202022.txt (GasGas owner's manual 2022 MC 350F EX 350F)",
+  "local extract gasgas.com.ru_assets_media_files_manuals_motocross_mc_20350F_202023.txt (GasGas owner's manual 2023 MC 350F EX 350F)",
+  "local extract gasgas.com.ru_assets_media_files_manuals_motocross_mc_20350F_202024.txt (GasGas owner's manual 2024 MC 350F EX 350F)",
+  "local extract gasgas.com.ru_assets_media_files_manuals_motocross_mc_20450F_202022.txt (GasGas owner's manual 2022 MC 450F EX 450F MC 450F TROY LEE DESIGNS)",
+  "local extract gasgas.com.ru_assets_media_files_manuals_motocross_mc_20450F_202023.txt (GasGas owner's manual 2023 MC 450F EX 450F)"
+ ]
+}

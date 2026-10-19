@@ -1,0 +1,599 @@
+{
+ "slice": "App map grids transcribed from published screenshots",
+ "platform": {
+  "make": "Yamaha",
+  "models": [],
+  "years": []
+ },
+ "records": [
+  {
+   "id": "mg-001",
+   "domain": "ecu_electronics",
+   "topic": "tester Power Tuner map 'Exciting Connect' (full grid)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A tester's 'Exciting Connect' Power Tuner map for the 2023 YZ450F leans fuel 1-2 steps at low and high throttle (adds 1 at 40% throttle from 5,000 rpm up) and retards ignition 1-3 degrees everywhere, most at low rpm and small throttle openings.",
+   "values": {
+    "grid": "4x4, rows = throttle 20/40/60/80 %, columns = 2,000/5,000/8,000/10,000 rpm",
+    "fuel": {
+     "TH% 80": {
+      "2000": -1,
+      "5000": -1,
+      "8000": -1,
+      "10000": -1
+     },
+     "TH% 60": {
+      "2000": -1,
+      "5000": -1,
+      "8000": -1,
+      "10000": -1
+     },
+     "TH% 40": {
+      "2000": -2,
+      "5000": 1,
+      "8000": 1,
+      "10000": 1
+     },
+     "TH% 20": {
+      "2000": -2,
+      "5000": -1,
+      "8000": 1,
+      "10000": 1
+     }
+    },
+    "ignition": {
+     "TH% 80": {
+      "2000": -2,
+      "5000": -2,
+      "8000": -2,
+      "10000": -1
+     },
+     "TH% 60": {
+      "2000": -2,
+      "5000": -2,
+      "8000": -2,
+      "10000": -1
+     },
+     "TH% 40": {
+      "2000": -3,
+      "5000": -3,
+      "8000": -2,
+      "10000": -1
+     },
+     "TH% 20": {
+      "2000": -3,
+      "5000": -3,
+      "8000": -2,
+      "10000": -1
+     }
+    }
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tester",
+    "name": "Keefer Inc. Tested app screenshot (2023 YZ450F media bike)",
+    "url": "https://www.keeferinctesting.com/?p=24385",
+    "date": "2023-01"
+   },
+   "confidence": "high",
+   "notes": "Transcribed exactly from the published Power Tuner app screenshot. Values are offsets from the stock map (fuel steps, ignition degrees). Same engine generation runs 2023-2026; confirm the app accepts it for later years."
+  },
+  {
+   "id": "mg-002",
+   "domain": "ecu_electronics",
+   "topic": "tester Power Tuner map 'Control Torque' (full grid)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A tester's 'Control Torque' Power Tuner map for the 2023 YZ450F adds 1 step of fuel almost everywhere and advances ignition 1-3 degrees below 10,000 rpm, leaving the top-rpm column at stock.",
+   "values": {
+    "grid": "4x4, rows = throttle 20/40/60/80 %, columns = 2,000/5,000/8,000/10,000 rpm",
+    "fuel": {
+     "TH% 80": {
+      "2000": 1,
+      "5000": 1,
+      "8000": 1,
+      "10000": 0
+     },
+     "TH% 60": {
+      "2000": 1,
+      "5000": 1,
+      "8000": 1,
+      "10000": 0
+     },
+     "TH% 40": {
+      "2000": 1,
+      "5000": 1,
+      "8000": 1,
+      "10000": 0
+     },
+     "TH% 20": {
+      "2000": 1,
+      "5000": 1,
+      "8000": 1,
+      "10000": 1
+     }
+    },
+    "ignition": {
+     "TH% 80": {
+      "2000": 2,
+      "5000": 3,
+      "8000": 1,
+      "10000": 0
+     },
+     "TH% 60": {
+      "2000": 2,
+      "5000": 2,
+      "8000": 1,
+      "10000": 0
+     },
+     "TH% 40": {
+      "2000": 2,
+      "5000": 1,
+      "8000": 1,
+      "10000": 0
+     },
+     "TH% 20": {
+      "2000": 1,
+      "5000": 1,
+      "8000": 1,
+      "10000": 0
+     }
+    }
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tester",
+    "name": "Keefer Inc. Tested app screenshot (2023 YZ450F media bike)",
+    "url": "https://www.keeferinctesting.com/?p=24385",
+    "date": "2022-12"
+   },
+   "confidence": "high",
+   "notes": "Transcribed exactly from the published Power Tuner app screenshot; offsets from stock."
+  },
+  {
+   "id": "mg-003",
+   "domain": "ecu_electronics",
+   "topic": "'Top End/Rev' Power Tuner map (full grid, custom breakpoints)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "A 'Top End/Rev' Power Tuner map for the 2023 YZ250F, said to come from Yamaha's own R&D team, leans fuel 1-3 steps up to 11,500 rpm and adds 1 at 12,000 rpm, with 1-3 degrees more ignition in the mid-range, to pull harder through second, third and fourth gear.",
+   "values": {
+    "fuel_grid": "rows = throttle 5/15/60/80 %, columns = 4,500/9,500/11,500/12,000 rpm (breakpoints moved from default)",
+    "fuel": {
+     "TH% 80": {
+      "4500": -2,
+      "9500": -3,
+      "11500": -1,
+      "12000": 1
+     },
+     "TH% 60": {
+      "4500": -2,
+      "9500": -3,
+      "11500": -2,
+      "12000": 1
+     },
+     "TH% 15": {
+      "4500": -1,
+      "9500": -2,
+      "11500": -1,
+      "12000": 0
+     },
+     "TH% 5": {
+      "4500": -1,
+      "9500": -2,
+      "11500": 0,
+      "12000": 1
+     }
+    },
+    "ignition_grid": "rows = throttle 10/25/60/90 %, columns = 4,000/8,500/10,000/13,000 rpm",
+    "ignition": {
+     "TH% 90": {
+      "4000": 2,
+      "8500": 3,
+      "10000": 2,
+      "13000": -1
+     },
+     "TH% 60": {
+      "4000": 2,
+      "8500": 2,
+      "10000": 2,
+      "13000": 1
+     },
+     "TH% 25": {
+      "4000": 2,
+      "8500": 2,
+      "10000": 2,
+      "13000": 0
+     },
+     "TH% 10": {
+      "4000": 1,
+      "8500": 2,
+      "10000": -1,
+      "13000": -1
+     }
+    }
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tester",
+    "name": "Keefer Inc. Tested, 2023 YZ250F optional Power Tuner maps",
+    "url": "https://www.keeferinctesting.com/2023-yamaha-yz250f-optional-yamaha-power-tuner-maps/",
+    "date": "2023-01"
+   },
+   "confidence": "high",
+   "notes": "Published by a tester, who attributes the map to Yamaha's R&D team; kept at TUNER tier because Yamaha has not published it. The grid uses custom breakpoints, which the app allows."
+  },
+  {
+   "id": "mg-004",
+   "domain": "ecu_electronics",
+   "topic": "tester Power Tuner map 'Free Feeling' (full grid)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "A tester's 'Free Feeling' Power Tuner map for the 2019-2023 YZ250F leans fuel 1-3 steps across the grid and advances ignition 1-3 degrees (retards 2 at 12,000 rpm and 20% throttle), for free-revving top-end power and less engine braking.",
+   "values": {
+    "grid": "4x4, rows = throttle 20/40/60/80 %, columns = 5,000/7,500/10,000/12,000 rpm",
+    "fuel": {
+     "TH% 80": {
+      "5000": -2,
+      "7500": -3,
+      "10000": -2,
+      "12000": -1
+     },
+     "TH% 60": {
+      "5000": -2,
+      "7500": -2,
+      "10000": -3,
+      "12000": -2
+     },
+     "TH% 40": {
+      "5000": -1,
+      "7500": -2,
+      "10000": -2,
+      "12000": -2
+     },
+     "TH% 20": {
+      "5000": -1,
+      "7500": -1,
+      "10000": -2,
+      "12000": -2
+     }
+    },
+    "ignition": {
+     "TH% 80": {
+      "5000": 2,
+      "7500": 3,
+      "10000": 2,
+      "12000": 1
+     },
+     "TH% 60": {
+      "5000": 2,
+      "7500": 2,
+      "10000": 2,
+      "12000": 2
+     },
+     "TH% 40": {
+      "5000": 1,
+      "7500": 2,
+      "10000": 2,
+      "12000": 1
+     },
+     "TH% 20": {
+      "5000": 1,
+      "7500": 1,
+      "10000": 0,
+      "12000": -2
+     }
+    },
+    "purpose": "free-revving high-rpm power; less engine braking"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tester",
+    "name": "Keefer Inc. Tested, 2023 YZ250F optional Power Tuner maps",
+    "url": "https://www.keeferinctesting.com/2023-yamaha-yz250f-optional-yamaha-power-tuner-maps/",
+    "date": "2023-01"
+   },
+   "confidence": "high",
+   "notes": "Transcribed exactly from the app screenshot (saved July 2019). The article recommends it for the 2023 YZ250F; same engine generation 2019-2023."
+  },
+  {
+   "id": "mg-005",
+   "domain": "ecu_electronics",
+   "topic": "tester Rideology map for the 2027 KX250 (full grid)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "A tester's optional Rideology map for the 2027 KX250 adds 1 step of fuel at 40-80% throttle and takes 2 away at 10-30%, and adds 3 degrees of ignition everywhere below 4,000 rpm and at 10-30% throttle across the rev range.",
+   "values": {
+    "grid": "6x6, rows = throttle 10/20/30/40/60/80 %, columns = 2,500/3,000/4,000/6,000/8,000/10,000 rpm",
+    "fuel": {
+     "TH% 80": {
+      "2500": 1,
+      "3000": 1,
+      "4000": 1,
+      "6000": 1,
+      "8000": 1,
+      "10000": 1
+     },
+     "TH% 60": {
+      "2500": 1,
+      "3000": 1,
+      "4000": 1,
+      "6000": 1,
+      "8000": 1,
+      "10000": 1
+     },
+     "TH% 40": {
+      "2500": 1,
+      "3000": 1,
+      "4000": 1,
+      "6000": 1,
+      "8000": 1,
+      "10000": 1
+     },
+     "TH% 30": {
+      "2500": -2,
+      "3000": -2,
+      "4000": -2,
+      "6000": -2,
+      "8000": -2,
+      "10000": -2
+     },
+     "TH% 20": {
+      "2500": -2,
+      "3000": -2,
+      "4000": -2,
+      "6000": -2,
+      "8000": -2,
+      "10000": -2
+     },
+     "TH% 10": {
+      "2500": -2,
+      "3000": -2,
+      "4000": -2,
+      "6000": -2,
+      "8000": -2,
+      "10000": -2
+     }
+    },
+    "ignition": {
+     "TH% 80": {
+      "2500": 3,
+      "3000": 3,
+      "4000": 0,
+      "6000": 0,
+      "8000": 0,
+      "10000": 0
+     },
+     "TH% 60": {
+      "2500": 3,
+      "3000": 3,
+      "4000": 0,
+      "6000": 0,
+      "8000": 0,
+      "10000": 0
+     },
+     "TH% 40": {
+      "2500": 3,
+      "3000": 3,
+      "4000": 0,
+      "6000": 0,
+      "8000": 0,
+      "10000": 0
+     },
+     "TH% 30": {
+      "2500": 3,
+      "3000": 3,
+      "4000": 3,
+      "6000": 3,
+      "8000": 3,
+      "10000": 3
+     },
+     "TH% 20": {
+      "2500": 3,
+      "3000": 3,
+      "4000": 3,
+      "6000": 3,
+      "8000": 3,
+      "10000": 3
+     },
+     "TH% 10": {
+      "2500": 3,
+      "3000": 3,
+      "4000": 3,
+      "6000": 3,
+      "8000": 3,
+      "10000": 3
+     }
+    }
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tester",
+    "name": "Keefer Inc. Tested, 2027 KX250 optional ECU map",
+    "url": "https://www.keeferinctesting.com/2027-kawasaki-kx250-optional-ecu-map/",
+    "date": "2026-09"
+   },
+   "confidence": "high",
+   "notes": "Transcribed exactly from the Rideology app screenshots (FI and IG pages). Effect reported: a little more pull out of corners and a longer second-gear pull."
+  },
+  {
+   "id": "mg-006",
+   "domain": "ecu_electronics",
+   "topic": "Rideology app grid axes (KX250)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "statement": "The Rideology app's KX tuning grid is 6 x 6: throttle 10, 20, 30, 40, 60 and 80% against 2,500, 3,000, 4,000, 6,000, 8,000 and 10,000 rpm, with separate fuel (FI) and ignition (IG) pages.",
+   "values": {
+    "throttle_breakpoints_pct": [
+     10,
+     20,
+     30,
+     40,
+     60,
+     80
+    ],
+    "rpm_breakpoints": [
+     2500,
+     3000,
+     4000,
+     6000,
+     8000,
+     10000
+    ]
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tester",
+    "name": "Rideology app screenshot published with a 2027 KX250 map",
+    "url": "https://www.keeferinctesting.com/2027-kawasaki-kx250-optional-ecu-map/",
+    "date": "2026-09"
+   },
+   "confidence": "medium",
+   "notes": "Axes read from a 2027 KX250 screenshot; assumed the same on 2025-2026 KX250 in the same app. Check on the bike."
+  },
+  {
+   "id": "mg-007",
+   "domain": "ecu_electronics",
+   "topic": "calibration-kit fuel map saved as 'Aggr Riding 3' (fuel grid)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "A KX FI Calibration Kit fuel map saved as 'Aggr Riding 3', published with a 2021 KX450 test, leaves 2,000 rpm and 10-degree throttle at stock and adds 2-4 steps of fuel from 3,000 rpm up, most (4) at 30-40 degrees throttle.",
+   "values": {
+    "grid": "6x6, rows = throttle 10/20/30/40/60/80 degrees, columns = 2,000/3,000/4,000/6,000/8,000/10,000 rpm",
+    "fuel": {
+     "TH deg 10": {
+      "2000": 0,
+      "3000": 0,
+      "4000": 0,
+      "6000": 0,
+      "8000": 0,
+      "10000": 0
+     },
+     "TH deg 20": {
+      "2000": 0,
+      "3000": 3,
+      "4000": 3,
+      "6000": 3,
+      "8000": 3,
+      "10000": 3
+     },
+     "TH deg 30": {
+      "2000": 0,
+      "3000": 4,
+      "4000": 4,
+      "6000": 4,
+      "8000": 4,
+      "10000": 3
+     },
+     "TH deg 40": {
+      "2000": 0,
+      "3000": 4,
+      "4000": 4,
+      "6000": 4,
+      "8000": 4,
+      "10000": 3
+     },
+     "TH deg 60": {
+      "2000": 0,
+      "3000": 2,
+      "4000": 2,
+      "6000": 3,
+      "8000": 3,
+      "10000": 2
+     },
+     "TH deg 80": {
+      "2000": 0,
+      "3000": 2,
+      "4000": 2,
+      "6000": 3,
+      "8000": 3,
+      "10000": 2
+     }
+    }
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tester",
+    "name": "Keefer Inc. Tested, 2021-2022 KX450 map photo",
+    "url": "https://www.keeferinctesting.com/wp-content/uploads/2021/08/65110616458__AE275013-D85A-4AFA-BAA7-E9FDD792B6C8.jpeg",
+    "date": "2021-08"
+   },
+   "confidence": "medium",
+   "notes": "Only the fuel page was published; ignition not shown. Units are calibration-kit steps."
+  }
+ ],
+ "conflicts": [],
+ "not_found": [
+  {
+   "item": "Yamaha downloadable preset files (.yptsjsnz)",
+   "reason": "Downloaded; the files are encrypted, so their grids can only be read in the Power Tuner app."
+  },
+  {
+   "item": "Magazine map images (2010-2013, 2016, 2017 YZ450F; 2023-24 YZ450F mellower map)",
+   "reason": "The image host refused the download."
+  },
+  {
+   "item": "Forum-posted map images",
+   "reason": "The forum served a bot check instead of the post."
+  }
+ ],
+ "sources": [
+  "https://www.keeferinctesting.com/?p=24385",
+  "https://www.keeferinctesting.com/2023-yamaha-yz250f-optional-yamaha-power-tuner-maps/"
+ ]
+}

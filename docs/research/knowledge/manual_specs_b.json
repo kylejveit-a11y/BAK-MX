@@ -1,0 +1,3458 @@
+{
+ "slice": "owner's-manual technical data (batch b)",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "125 SX",
+   "125 XC",
+   "150 SX",
+   "150 XC-W",
+   "250 SX",
+   "250 SX-F",
+   "250 XC",
+   "250 XC-F",
+   "250 XC-W",
+   "300 SX",
+   "300 XC",
+   "300 XC-W",
+   "350 SX-F",
+   "350 XC-F",
+   "450 SX-F",
+   "450 XC-F",
+   "450 XCF-W",
+   "85 SX 17/14",
+   "85 SX 19/16",
+   "GasGas EX 450F",
+   "GasGas MC 450F",
+   "Husqvarna FC 350",
+   "Husqvarna FC 450",
+   "Husqvarna FX 350",
+   "Husqvarna FX 450",
+   "Husqvarna TE 150",
+   "Husqvarna TE 250",
+   "Husqvarna TE 300"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024
+  ]
+ },
+ "records": [
+  {
+   "id": "ms-b-004",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 450F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 manual lists a chromoly central-tube frame, 310/300 mm travel on MC 450F (300/300 mm on EX 450F), 22 mm fork offset, 63.9 deg head angle and about 103.4 kg (MC) / 105.8 kg (EX) without fuel.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel_MC-F": "front 310 mm (12.2 in) / rear 300 mm (11.81 in)",
+    "travel_EX-F": "front 300 mm / rear 300 mm (11.81 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase_MC-F": "1,493 +/- 10 mm (58.78 in)",
+    "wheelbase_EX-F": "1,489 +/- 10 mm (58.62 in)",
+    "seat_height_MC-F": "956 mm (37.64 in)",
+    "seat_height_EX-F": "957 mm (37.68 in)",
+    "ground_clearance_MC-F": "343 mm (13.5 in)",
+    "ground_clearance_EX-F": "344 mm (13.54 in)",
+    "weight_without_fuel_MC-F": "103.4 kg (228 lb)",
+    "weight_without_fuel_EX-F": "105.8 kg (233.2 lb)",
+    "tires_MC-F": "80/100-21 51M Maxxis MaxxCross MX-ST+ / 110/90-19 62M Maxxis MaxxCross MX-ST",
+    "tires_EX-F": "80/100-21 51M Dunlop Geomax MX33F / 110/100-18 64M Dunlop Geomax AT81",
+    "tires_Factory_Edition": "80/100-21 51M Dunlop Geomax MX34F / 120/80-19 62M Dunlop Geomax MX34",
+    "offroad_tire_pressure": "front 1.0 bar (15 psi) / rear 1.0 bar (15 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 3.0 mm / rear 4.3 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 MC 450F / EX 450F / MC 450F Factory Edition (art. not in file name; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20450F_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-005",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 450F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 manual lists a 13:51 secondary ratio on MC 450F models and 13:52 on the EX 450F, with 5/8 x 1/4 in chain and 47-52 tooth rear sprockets available.",
+   "values": {
+    "secondary_ratio_MC-F": "13:51",
+    "secondary_ratio_EX-F": "13:52",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "47, 48, 49, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 MC 450F / EX 450F / MC 450F Factory Edition (art. not in file name; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20450F_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-006",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "GasGas MC 450F",
+     "GasGas EX 450F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "GasGas's 2024 manual lists a 449.9 cc water-cooled single-cylinder 4-stroke (95 x 63.4 mm, 13.6:1) with OHC rocker-arm 4-valve head, 5-speed gearbox, 29:72 primary and NGK LMAR9AI-10 plug.",
+   "values": {
+    "design": "1-cylinder 4-stroke, water-cooled",
+    "displacement": "449.9 cc",
+    "bore": "95 mm",
+    "stroke": "63.4 mm",
+    "compression_ratio": "13.6:1",
+    "idle_speed": "2,200-2,300 rpm",
+    "valve_train": "OHC, 4 valves via rocker arm",
+    "intake_valve_diameter": "40 mm",
+    "exhaust_valve_diameter": "33 mm",
+    "valve_clearance_intake_20C": "0.10-0.15 mm",
+    "valve_clearance_exhaust_20C": "0.12-0.17 mm",
+    "piston": "Forged light alloy; 1 compression + 1 oil scraper ring",
+    "lubrication": "Pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "29:72",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox": "5-speed, claw shifted",
+    "gear_ratios": "14:28, 16:26, 18:24, 21:24, 22:21",
+    "alternator": "14 V, 70 W",
+    "spark_plug": "NGK LMAR9AI-10",
+    "spark_plug_gap": "1.0 mm",
+    "starting": "Starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GasGas owner's manual 2024 MC 450F / EX 450F / MC 450F Factory Edition (art. not in file name; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20450F_202024)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Throttle body model not in the extract."
+  },
+  {
+   "id": "ms-b-009",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TE 150"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 TE 150 manual lists 300/300 mm travel, 22 mm fork offset, 63.5 deg head angle, 950 mm seat height and about 99.6 kg without fuel, with 1.0/0.8 bar off-road tire pressures.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel": "front 300 mm / rear 300 mm (11.81 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.5 deg",
+    "wheelbase": "1,487 +/- 10 mm (58.54 in)",
+    "seat_height": "950 mm (37.4 in)",
+    "ground_clearance": "360 mm (14.17 in)",
+    "weight_without_fuel": "99.6 kg (219.6 lb)",
+    "tires_EU": "90/90-21 54R / 140/80-18 70R Michelin Enduro Medium",
+    "tires_US": "80/100-21 51M Dunlop Geomax MX33F / 110/100-18 64M Dunlop Geomax AT81",
+    "street_tire_pressure_EU": "front 2.0 bar / rear 2.0 bar (29 psi)",
+    "offroad_tire_pressure": "front 1.0 bar (15 psi) / rear 0.8 bar (12 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2023 TE 150 (art. not in file name; file irp.cdn-website.com_4a30ad0d_files_uploaded_2023_20TE150)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-010",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TE 150"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 TE 150 manual lists a 13:50 secondary ratio on US bikes (EU 13:48, alt. 13:50), 5/8 x 1/4 in chain and 48/50/52 tooth rear sprockets.",
+   "values": {
+    "secondary_ratio_US": "13:50",
+    "secondary_ratio_EU": "13:48 (13:50)",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "48, 50, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2023 TE 150 (art. not in file name; file irp.cdn-website.com_4a30ad0d_files_uploaded_2023_20TE150)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-011",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TE 150"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 TE 150 manual lists a 144 cc water-cooled 2-stroke (58 x 54.5 mm) with reed intake and exhaust control, 6-speed gearbox, 23:73 primary and NGK GR8DI-12 plug.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake, exhaust control",
+    "displacement": "144 cc",
+    "bore": "58 mm",
+    "stroke": "54.5 mm",
+    "idle_speed": "1,400-1,500 rpm",
+    "exhaust_valve_start_of_adjustment": "6,300 rpm",
+    "piston": "Cast aluminum; 1 rectangular + 1 half keystone ring",
+    "X_dimension": "0-0.10 mm",
+    "Z_control_flap_height": "37.5 mm",
+    "lubrication": "Separate lubrication (oil injection)",
+    "primary_ratio": "23:73",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox": "6-speed, claw shifted",
+    "gear_ratios": "12:33, 15:31, 17:28, 19:26, 21:25, 20:20",
+    "alternator": "12 V, 168 W",
+    "spark_plug": "NGK GR8DI-12",
+    "spark_plug_gap": "1.20 mm",
+    "starting": "Electric starter and kick starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2023 TE 150 (art. not in file name; file irp.cdn-website.com_4a30ad0d_files_uploaded_2023_20TE150)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-014",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TE 250",
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 TE 250/300 manual lists 300/300 mm travel, 22 mm fork offset, 63.5 deg head angle, 950 mm seat height and 105.2 kg (TE 250 US) / 105.4 kg (TE 300 US) / 108 kg (EU) without fuel.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel": "front 300 mm / rear 300 mm (11.81 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.5 deg",
+    "wheelbase": "1,487 +/- 10 mm (58.54 in)",
+    "seat_height": "950 mm (37.4 in)",
+    "ground_clearance": "360 mm (14.17 in)",
+    "weight_without_fuel_EU_AR": "108 kg (238 lb)",
+    "weight_without_fuel_TE250_US_CN": "105.2 kg (231.9 lb)",
+    "weight_without_fuel_TE300_US": "105.4 kg (232.4 lb)",
+    "tires_EU_AR_CN": "90/90-21 54R / 140/80-18 70R Michelin Enduro Medium",
+    "tires_US": "80/100-21 51M Dunlop Geomax MX33F / 110/100-18 64M Dunlop Geomax AT81",
+    "street_tire_pressure_EU_AR": "front 2.0 bar / rear 2.0 bar (29 psi)",
+    "offroad_tire_pressure": "front 1.0 bar (15 psi) / rear 0.8 bar (12 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2023 TE 250 / TE 300 (art. not in file name; file irp.cdn-website.com_4a30ad0d_files_uploaded_2023_20TE300)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-015",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TE 250",
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 manual lists secondary ratios of 13:52 for the TE 250 US and 13:50 for the TE 300 US, 5/8 x 1/4 in chain, and 45-52 tooth rear sprockets.",
+   "values": {
+    "secondary_ratio_TE250_US_CN": "13:52",
+    "secondary_ratio_TE300_US": "13:50",
+    "secondary_ratio_TE250_EU": "14:52 (13:52)",
+    "secondary_ratio_TE300_EU_AR": "14:50 (13:50)",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "45, 48, 49, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2023 TE 250 / TE 300 (art. not in file name; file irp.cdn-website.com_4a30ad0d_files_uploaded_2023_20TE300)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-016",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna TE 250",
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 manual lists the TE 250 at 249 cc (66.4 x 72 mm) and TE 300 at 293.15 cc (72 x 72 mm), both water-cooled 2-strokes with transfer-port injection, 6-speed gearbox, 26:73 primary and NGK BR 7 ES plug.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake, exhaust control, transfer duct injection",
+    "displacement_TE250": "249 cc",
+    "bore_TE250": "66.4 mm",
+    "displacement_TE300": "293.15 cc",
+    "bore_TE300": "72 mm",
+    "stroke": "72 mm",
+    "exhaust_control_setting_TE250": "2.7 +/- 0.2 mm",
+    "exhaust_control_setting_TE300": "2.3 +/- 0.2 mm",
+    "Z_control_flap_height_TE250": "49.0 mm",
+    "Z_control_flap_height_TE300": "49.5 mm",
+    "X_dimension": "0-0.10 mm",
+    "piston_rings_TE250": "2 half keystone rings",
+    "piston_rings_TE300": "2 rectangular rings",
+    "piston": "Cast aluminum",
+    "lubrication": "Separate lubrication (oil injection)",
+    "primary_ratio": "26:73",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox": "6-speed, claw shifted",
+    "gear_ratios": "14:32, 16:26, 20:25, 22:23, 25:22, 26:20",
+    "alternator": "12 V, 196 W",
+    "spark_plug": "NGK BR 7 ES",
+    "spark_plug_gap": "0.6 mm",
+    "starting": "Electric starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2023 TE 250 / TE 300 (art. not in file name; file irp.cdn-website.com_4a30ad0d_files_uploaded_2023_20TE300)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Manual labels bore as 'Hole'."
+  },
+  {
+   "id": "ms-b-020",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 350",
+     "Husqvarna FX 350"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 manual lists 305/293 mm travel for the FC 350 and 310/300 mm for the FX 350, 22 mm fork offset, 63.9 deg head angle, and 102 kg (FC) / 102.7 kg (FX) without fuel.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel_FC": "front 305 mm (12.01 in) / rear 293 mm (11.54 in)",
+    "travel_FX": "front 310 mm (12.2 in) / rear 300 mm (11.81 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase_FC": "1,490 +/- 10 mm (58.66 in)",
+    "wheelbase_FX": "1,493 +/- 10 mm (58.78 in)",
+    "seat_height_FC": "939 mm (36.97 in)",
+    "seat_height_FX": "948 mm (37.32 in)",
+    "ground_clearance_FC": "336 mm (13.23 in)",
+    "ground_clearance_FX": "343 mm (13.5 in)",
+    "weight_without_fuel_FC": "102 kg (225 lb)",
+    "weight_without_fuel_FX": "102.7 kg (226.4 lb)",
+    "tires_FC": "80/100-21 51M Dunlop Geomax MX-33SF / 110/90-19 62M Dunlop Geomax MX-33",
+    "tires_FX": "80/100-21 51M Dunlop Geomax MX-33F / 110/100-18 62M Dunlop Geomax AT81",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2023 FC 350 / FX 350 (art. 3402632)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-021",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 350",
+     "Husqvarna FX 350"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 manual lists a 14:52 secondary ratio for the FC 350 and 14:47 for the FX 350, with 5/8 x 1/4 in chain and 47-52 tooth rear sprockets available.",
+   "values": {
+    "secondary_ratio_FC": "14:52",
+    "secondary_ratio_FX": "14:47",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "47, 48, 49, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2023 FC 350 / FX 350 (art. 3402632)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-022",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 350",
+     "Husqvarna FX 350"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 manual lists a 349.7 cc DOHC 4-valve 4-stroke (88 x 57.5 mm, 14.6:1) with 24:72 primary, a 5-speed gearbox on the FC 350 and 6-speed on the FX 350, and NGK LMAR9AI-10 plug.",
+   "values": {
+    "design": "1-cylinder 4-stroke, water-cooled",
+    "displacement": "349.7 cc",
+    "bore": "88 mm",
+    "stroke": "57.5 mm",
+    "compression_ratio": "14.6:1",
+    "valve_train": "DOHC, 4 valves via cam lever, timing chain",
+    "intake_valve_diameter": "36.3 mm",
+    "exhaust_valve_diameter": "29.1 mm",
+    "valve_clearance_intake_20C": "0.08-0.15 mm",
+    "valve_clearance_exhaust_20C": "0.12-0.19 mm",
+    "piston": "Forged light alloy; 1 compression + 1 oil scraper ring",
+    "lubrication": "Pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "24:72",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox_FC": "5-speed, claw shifted",
+    "gear_ratios_FC": "14:28, 16:26, 18:24, 21:24, 22:21",
+    "gearbox_FX": "6-speed, claw shifted",
+    "gear_ratios_FX": "13:33, 16:30, 18:26, 22:26, 23:23, 26:22",
+    "alternator": "12 V, 70 W",
+    "spark_plug": "NGK LMAR9AI-10",
+    "spark_plug_gap": "1.0 mm",
+    "starting": "Starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2023 FC 350 / FX 350 (art. 3402632)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Idle speed not in the extract."
+  },
+  {
+   "id": "ms-b-026",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 450",
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 manual lists 305/293 mm travel for the FC 450 and 310/300 mm for the FX 450, 22 mm fork offset, 63.9 deg head angle, and 102.8 kg (FC) / 103.5 kg (FX) without fuel.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel_FC": "front 305 mm (12.01 in) / rear 293 mm (11.54 in)",
+    "travel_FX": "front 310 mm (12.2 in) / rear 300 mm (11.81 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase_FC": "1,490 +/- 10 mm (58.66 in)",
+    "wheelbase_FX": "1,493 +/- 10 mm (58.78 in)",
+    "seat_height_FC": "939 mm (36.97 in)",
+    "seat_height_FX": "948 mm (37.32 in)",
+    "ground_clearance_FC": "336 mm (13.23 in)",
+    "ground_clearance_FX": "343 mm (13.5 in)",
+    "weight_without_fuel_FC": "102.8 kg (226.6 lb)",
+    "weight_without_fuel_FX": "103.5 kg (228.2 lb)",
+    "tires_FC_EU": "80/100-21 51M Dunlop Geomax MX33F / 110/90-19 62M Dunlop Geomax MX33",
+    "tires_FC_US": "80/100-21 51M Dunlop Geomax MX33F / 120/80-19 63M Dunlop Geomax MX33",
+    "tires_FX": "80/100-21 51M Dunlop Geomax MX33F / 110/100-18 64M Dunlop Geomax AT81",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2023 FC 450 / FX 450 (art. 3402633)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-027",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 450",
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 manual lists a 13:51 secondary ratio for the FC 450 and 13:52 for the FX 450, with 5/8 x 1/4 in chain and 47-52 tooth rear sprockets available.",
+   "values": {
+    "secondary_ratio_FC": "13:51",
+    "secondary_ratio_FX": "13:52",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "47, 48, 49, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2023 FC 450 / FX 450 (art. 3402633)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-028",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 450",
+     "Husqvarna FX 450"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Husqvarna's 2023 manual lists a 449.9 cc OHC 4-valve 4-stroke (95 x 63.4 mm, 13.1:1) with 29:72 primary, 5-speed gearbox, 2,100-2,200 rpm idle and NGK LMAR9AI-10 plug.",
+   "values": {
+    "design": "1-cylinder 4-stroke, water-cooled",
+    "displacement": "449.9 cc",
+    "bore": "95 mm",
+    "stroke": "63.4 mm",
+    "compression_ratio": "13.1:1",
+    "idle_speed": "2,100-2,200 rpm",
+    "valve_train": "OHC, 4 valves via rocker arm",
+    "intake_valve_diameter": "40 mm",
+    "exhaust_valve_diameter": "33 mm",
+    "valve_clearance_intake_20C": "0.10-0.15 mm",
+    "valve_clearance_exhaust_20C": "0.12-0.17 mm",
+    "piston": "Forged light alloy; 1 compression + 1 oil scraper ring",
+    "lubrication": "Pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "29:72",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox": "5-speed, claw shifted",
+    "gear_ratios": "14:28, 16:26, 18:24, 21:24, 22:21",
+    "alternator": "12 V, 70 W",
+    "spark_plug": "NGK LMAR9AI-10",
+    "spark_plug_gap": "1.0 mm",
+    "starting": "Starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna owner's manual 2023 FC 450 / FX 450 (art. 3402633)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "The extract lists a single 5-speed gearbox for both FC 450 and FX 450."
+  },
+  {
+   "id": "ms-b-031",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "150 XC-W"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "KTM's 2020 150 XC-W TPI manual lists 300/310 mm travel, 22 mm fork offset, 63.5 deg head angle, 960 mm seat height and about 96.8 kg without fuel; US bikes use Dunlop AT81 tires at 1.0 bar off-road.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel": "front 300 mm (11.81 in) / rear 310 mm (12.2 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.5 deg",
+    "wheelbase": "1,482 +/- 10 mm (58.35 in)",
+    "seat_height": "960 mm (37.8 in)",
+    "ground_clearance": "370 mm (14.57 in)",
+    "weight_without_fuel": "96.8 kg (213.4 lb)",
+    "tires_150_XC-W_TPI_US": "90/90-21 54M Dunlop Geomax AT81F / 110/100-18 64M Dunlop Geomax AT81",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2020 150 EXC TPI / 150 XC-W TPI (art. 3214006)",
+    "url": "",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-032",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "150 XC-W"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "KTM's 2020 manual lists a 13:50 secondary ratio for the 150 XC-W TPI, 5/8 x 1/4 in chain and rear sprockets from 38 to 52 teeth.",
+   "values": {
+    "secondary_ratio_150_XC-W_TPI_US": "13:50",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "38, 40, 42, 45, 48, 49, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2020 150 EXC TPI / 150 XC-W TPI (art. 3214006)",
+    "url": "",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-033",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "150 XC-W"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "KTM's 2020 manual lists the 150 XC-W TPI as a 144 cc water-cooled 2-stroke (58 x 54.5 mm) with reed intake and exhaust control, 6-speed gearbox, 23:73 primary and NGK T40199D-G12 plug.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake, exhaust control",
+    "displacement": "144 cc",
+    "bore": "58 mm",
+    "stroke": "54.5 mm",
+    "idle_speed": "1,400-1,500 rpm",
+    "exhaust_valve_start_of_adjustment": "6,300 rpm",
+    "piston": "Forged aluminum; 1 rectangular + 1 half keystone ring",
+    "X_dimension": "0-0.10 mm",
+    "Z_control_flap_height": "37.5 mm",
+    "lubrication": "Separate lubrication (oil injection)",
+    "primary_ratio": "23:73",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox": "6-speed, claw shifted",
+    "gear_ratios": "12:33, 15:31, 17:28, 19:26, 21:25, 20:20",
+    "alternator": "12 V, 168 W",
+    "ignition": "Contactless fully electronic, digital adjustment, Kokusan",
+    "spark_plug": "NGK T40199D-G12",
+    "spark_plug_gap": "1.20 mm",
+    "starting": "Electric starter and kick starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2020 150 EXC TPI / 150 XC-W TPI (art. 3214006)",
+    "url": "",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-037",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX",
+     "150 SX",
+     "125 XC"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 manual lists 310/300 mm travel, 22 mm fork offset, 63.9 deg head angle, 950 mm seat height and about 87.5 kg without fuel for the 125 SX, 150 SX and 125 XC.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel": "front 310 mm (12.2 in) / rear 300 mm (11.81 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,485 +/- 10 mm (58.46 in)",
+    "seat_height": "950 mm (37.4 in)",
+    "ground_clearance_SX": "375 mm (14.76 in)",
+    "ground_clearance_125_XC": "370 mm (14.57 in)",
+    "weight_without_fuel": "87.5 kg (192.9 lb)",
+    "tires_SX": "80/100-21 51M Dunlop Geomax MX33F / 100/90-19 57M Dunlop Geomax MX33",
+    "tires_125_XC": "80/100-21 51M Dunlop Geomax AT81F / 110/100-18 64M Dunlop Geomax AT81",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2021 125 SX / 150 SX / 125 XC (art. 3214209)",
+    "url": "",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-038",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX",
+     "150 SX",
+     "125 XC"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 manual lists a 13:51 secondary ratio for the 125 models and 13:48 for the 150 SX, with 5/8 x 1/4 in chain and 48/50/52 tooth rear sprockets.",
+   "values": {
+    "secondary_ratio_125_SX_125_XC": "13:51",
+    "secondary_ratio_150_SX": "13:48",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "48, 50, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2021 125 SX / 150 SX / 125 XC (art. 3214209)",
+    "url": "",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-039",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX",
+     "150 SX",
+     "125 XC"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 manual lists the 125s at 124.8 cc (54 x 54.5 mm) and the 150 SX at 144 cc (58 x 54.5 mm), water-cooled 2-strokes with 6-speed gearbox, 23:73 primary and NGK BR9 ECMVX plug.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake, exhaust control",
+    "displacement_125": "124.8 cc",
+    "bore_125": "54 mm",
+    "displacement_150_SX": "144 cc",
+    "bore_150_SX": "58 mm",
+    "stroke": "54.5 mm",
+    "piston_125": "Cast aluminum",
+    "piston_150_SX": "Forged aluminum",
+    "piston_rings": "1 rectangular + 1 half keystone ring",
+    "X_dimension": "0-0.10 mm",
+    "Z_control_flap_height": "36.5 mm",
+    "primary_ratio": "23:73",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox": "6-speed, claw shifted",
+    "gear_ratios": "14:32, 15:30, 17:28, 19:27, 19:23, 22:24",
+    "spark_plug": "NGK BR9 ECMVX",
+    "spark_plug_gap": "0.60 mm",
+    "starting_SX": "Kick starter",
+    "starting_125_XC": "Electric starter and kick starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2021 125 SX / 150 SX / 125 XC (art. 3214209)",
+    "url": "",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-044",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 450 SX-F/XC-F manual lists 310/300 mm travel, 22 mm offset, 63.9 deg head angle, 950 mm seat height and 100.5 kg (SX-F US) / 101 kg (XC-F) without fuel.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel": "front 310 mm (12.2 in) / rear 300 mm (11.81 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,485 +/- 10 mm (58.46 in)",
+    "seat_height": "950 mm (37.4 in)",
+    "ground_clearance": "370 mm (14.57 in)",
+    "weight_without_fuel_SX-F_EU": "100 kg (220 lb)",
+    "weight_without_fuel_SX-F_US": "100.5 kg (221.6 lb)",
+    "weight_without_fuel_XC-F_US": "101 kg (223 lb)",
+    "tires_SX-F_EU": "80/100-21 51M / 110/90-19 62M Dunlop Geomax MX3S",
+    "tires_SX-F_US": "80/100-21 51M / 120/80-19 63M Dunlop Geomax MX3S",
+    "tires_XC-F_US": "80/100-21 51M / 110/100-18 64M Dunlop Geomax AT81",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2021 450 SX-F / 450 XC-F (art. 3214216)",
+    "url": "",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-045",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 manual lists a 13:49 secondary ratio for the 450 SX-F and 13:48 for the 450 XC-F, with 5/8 x 1/4 in chain and 45-52 tooth rear sprockets.",
+   "values": {
+    "secondary_ratio_SX-F": "13:49",
+    "secondary_ratio_XC-F": "13:48",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "45, 47, 48, 49, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2021 450 SX-F / 450 XC-F (art. 3214216)",
+    "url": "",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-046",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 manual lists a 449.9 cc OHC 4-valve 4-stroke (95 x 63.4 mm, 12.75:1) with 31:76 primary, a 5-speed gearbox on US SX-F/XC-F (4-speed on EU SX-F) and NGK LMAR9AI-8 plug.",
+   "values": {
+    "design": "1-cylinder 4-stroke, water-cooled",
+    "displacement": "449.9 cc",
+    "bore": "95 mm",
+    "stroke": "63.4 mm",
+    "compression_ratio": "12.75:1",
+    "idle_speed": "2,250-2,350 rpm",
+    "valve_train": "OHC, 4 valves via rocker arm",
+    "intake_valve_diameter": "40 mm",
+    "exhaust_valve_diameter": "33 mm",
+    "valve_clearance_intake_20C": "0.10-0.15 mm",
+    "valve_clearance_exhaust_20C": "0.12-0.17 mm",
+    "piston_pin_bearing": "No bearing bush, DLC-coated piston pin",
+    "piston": "Forged light alloy; 1 compression + 1 oil scraper ring",
+    "lubrication": "Pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "31:76",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox_SX-F_EU": "4-speed (16:32, 18:30, 20:28, 22:26)",
+    "gearbox_US_models": "5-speed (16:32, 18:30, 20:28, 22:26, 24:24)",
+    "alternator": "12 V, 70 W",
+    "spark_plug": "NGK LMAR9AI-8",
+    "spark_plug_gap": "0.8 mm",
+    "starting": "Starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2021 450 SX-F / 450 XC-F (art. 3214216)",
+    "url": "",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-050",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 450 SX-F/XC-F/Factory Edition manual lists 310/300 mm travel, 22 mm offset, 63.9 deg head angle, 950 mm seat height and 100.5 kg (SX-F US and Factory Edition) / 101 kg (XC-F) without fuel.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel": "front 310 mm (12.2 in) / rear 300 mm (11.81 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,485 +/- 10 mm (58.46 in)",
+    "seat_height": "950 mm (37.4 in)",
+    "ground_clearance": "370 mm (14.57 in)",
+    "weight_without_fuel_SX-F_EU": "100 kg (220 lb)",
+    "weight_without_fuel_SX-F_US": "100.5 kg (221.6 lb)",
+    "weight_without_fuel_XC-F_US": "101 kg (223 lb)",
+    "weight_without_fuel_Factory_Edition": "100.5 kg (221.6 lb)",
+    "tires_Factory_Edition": "80/100-21 51M Dunlop Geomax MX33F / 120/80-19 63M Dunlop Geomax MX33",
+    "tires_SX-F_EU": "80/100-21 51M / 110/90-19 62M Dunlop Geomax MX3S",
+    "tires_SX-F_US": "80/100-21 51M / 120/80-19 63M Dunlop Geomax MX3S",
+    "tires_XC-F_US": "80/100-21 51M / 110/100-18 64M Dunlop Geomax AT81",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2021 450 SX-F / 450 XC-F / 450 SX-F Factory Edition (art. 3214217)",
+    "url": "",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-051",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 manual lists a 13:49 secondary ratio for all 450 SX-F models (incl. Factory Edition) and 13:48 for the 450 XC-F, with 5/8 x 1/4 in chain and 45-52 tooth rear sprockets.",
+   "values": {
+    "secondary_ratio_SX-F_incl_FE": "13:49",
+    "secondary_ratio_XC-F": "13:48",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "45, 47, 48, 49, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2021 450 SX-F / 450 XC-F / 450 SX-F Factory Edition (art. 3214217)",
+    "url": "",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-052",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "KTM's 2021 manual lists a 449.9 cc OHC 4-valve 4-stroke (95 x 63.4 mm, 12.75:1) with 31:76 primary, 5-speed gearbox on all US models (4-speed EU SX-F) and NGK LMAR9AI-8 plug; the Factory Edition uses a bushed piston pin.",
+   "values": {
+    "design": "1-cylinder 4-stroke, water-cooled",
+    "displacement": "449.9 cc",
+    "bore": "95 mm",
+    "stroke": "63.4 mm",
+    "compression_ratio": "12.75:1",
+    "idle_speed": "2,250-2,350 rpm",
+    "valve_train": "OHC, 4 valves via rocker arm",
+    "intake_valve_diameter": "40 mm",
+    "exhaust_valve_diameter": "33 mm",
+    "valve_clearance_intake_20C": "0.10-0.15 mm",
+    "valve_clearance_exhaust_20C": "0.12-0.17 mm",
+    "piston_pin_bearing": "SX-F EU/US and XC-F: no bearing bush, DLC-coated pin; Factory Edition: bearing bush",
+    "piston": "Forged light alloy; 1 compression + 1 oil scraper ring",
+    "lubrication": "Pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "31:76",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox_SX-F_EU": "4-speed (16:32, 18:30, 20:28, 22:26)",
+    "gearbox_US_models": "5-speed incl. Factory Edition (16:32, 18:30, 20:28, 22:26, 24:24)",
+    "alternator": "12 V, 70 W",
+    "spark_plug": "NGK LMAR9AI-8",
+    "spark_plug_gap": "0.8 mm",
+    "starting": "Starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2021 450 SX-F / 450 XC-F / 450 SX-F Factory Edition (art. 3214217)",
+    "url": "",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-056",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX",
+     "150 SX",
+     "125 XC"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 manual lists 310/300 mm travel, 22 mm fork offset, 63.9 deg head angle, 950 mm seat height and 87.5 kg (SX) / 89 kg (125 XC) without fuel.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel": "front 310 mm (12.2 in) / rear 300 mm (11.81 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,485 +/- 10 mm (58.46 in)",
+    "seat_height": "950 mm (37.4 in)",
+    "ground_clearance_SX": "375 mm (14.76 in)",
+    "ground_clearance_125_XC": "370 mm (14.57 in)",
+    "weight_without_fuel_SX": "87.5 kg (192.9 lb)",
+    "weight_without_fuel_125_XC": "89 kg (196 lb)",
+    "tires_SX": "80/100-21 51M Dunlop MX33F / 100/90-19 57M Dunlop MX33",
+    "tires_125_XC": "80/100-21 51M Dunlop Geomax AT81F / 110/100-18 64M Dunlop Geomax AT81",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2022 125 SX / 150 SX / 125 XC (art. 3214411)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-057",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX",
+     "150 SX",
+     "125 XC"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 manual lists a 13:51 secondary ratio for the 125 models and 13:48 for the 150 SX, with 5/8 x 1/4 in chain and 48/50/52 tooth rear sprockets.",
+   "values": {
+    "secondary_ratio_125_SX_125_XC": "13:51",
+    "secondary_ratio_150_SX": "13:48",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "48, 50, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2022 125 SX / 150 SX / 125 XC (art. 3214411)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-058",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX",
+     "150 SX",
+     "125 XC"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 manual lists the 125s at 124.8 cc (54 x 54.5 mm) and the 150 SX at 144 cc (58 x 54.5 mm), water-cooled 2-strokes with 2 half-keystone rings, 6-speed gearbox, 23:73 primary and NGK BR9 ECMVX plug.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake, exhaust control",
+    "displacement_125": "124.8 cc",
+    "bore_125": "54 mm",
+    "displacement_150_SX": "144 cc",
+    "bore_150_SX": "58 mm",
+    "stroke": "54.5 mm",
+    "piston_125": "Cast aluminum",
+    "piston_150_SX": "Forged aluminum",
+    "piston_rings": "2 half keystone rings",
+    "X_dimension": "0-0.10 mm",
+    "Z_control_flap_height": "36.5 mm",
+    "primary_ratio": "23:73",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox": "6-speed, claw shifted",
+    "gear_ratios": "14:32, 15:30, 17:28, 19:27, 19:23, 22:24",
+    "spark_plug": "NGK BR9 ECMVX",
+    "spark_plug_gap": "0.60 mm",
+    "starting_SX": "Kick starter",
+    "starting_125_XC": "Electric starter and kick starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2022 125 SX / 150 SX / 125 XC (art. 3214411)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-061",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 250 SX manual lists 310/300 mm travel, 22 mm fork offset, 63.9 deg head angle, 950 mm seat height and about 95.5 kg without fuel on Dunlop MX33 tires at 1.0 bar.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel": "front 310 mm (12.2 in) / rear 300 mm (11.81 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,485 +/- 10 mm (58.46 in)",
+    "seat_height": "950 mm (37.4 in)",
+    "ground_clearance": "375 mm (14.76 in)",
+    "weight_without_fuel": "95.5 kg (210.5 lb)",
+    "tires": "80/100-21 51M Dunlop Geomax MX33F / 110/90-19 62M Dunlop Geomax MX33",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2022 250 SX (art. 3214412)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-062",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 250 SX manual lists a 14:49 secondary ratio, 5/8 x 1/4 in chain and 48/50/52 tooth rear sprockets.",
+   "values": {
+    "secondary_ratio": "14:49",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "48, 50, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2022 250 SX (art. 3214412)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-063",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 250 SX manual lists a 249 cc water-cooled 2-stroke (66.4 x 72 mm) with reed intake and exhaust control, 5-speed gearbox, 26:73 primary, kick start and NGK BR 8 ECM plug.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake, exhaust control",
+    "displacement": "249 cc",
+    "bore": "66.4 mm",
+    "stroke": "72 mm",
+    "exhaust_control_setting": "1.8 +/- 0.2 mm",
+    "piston": "Cast aluminum; 2 half keystone rings",
+    "X_dimension": "0-0.10 mm",
+    "Z_control_flap_height": "49.0 mm",
+    "primary_ratio": "26:73",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox": "5-speed, claw shifted",
+    "gear_ratios": "14:28, 16:26, 18:24, 21:24, 22:21",
+    "spark_plug": "NGK BR 8 ECM",
+    "spark_plug_gap": "0.60 mm",
+    "starting": "Kick starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2022 250 SX (art. 3214412)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Manual labels bore as 'Hole'."
+  },
+  {
+   "id": "ms-b-068",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "250 XC-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 250 SX-F/XC-F manual lists 310/300 mm travel, 22 mm offset, 63.9 deg head angle, 950 mm seat height and 99 kg (SX-F) / 100 kg (XC-F) without fuel.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel": "front 310 mm (12.2 in) / rear 300 mm (11.81 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,485 +/- 10 mm (58.46 in)",
+    "seat_height": "950 mm (37.4 in)",
+    "ground_clearance": "370 mm (14.57 in)",
+    "weight_without_fuel_SX-F": "99 kg (218 lb)",
+    "weight_without_fuel_XC-F": "100 kg (220 lb)",
+    "tires_SX-F": "80/100-21 51M Dunlop Geomax MX33F / 110/90-19 62M Dunlop Geomax MX33",
+    "tires_XC-F": "80/100-21 51M Dunlop Geomax AT81F / 110/100-18 64M Dunlop Geomax AT81",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2022 250 SX-F / 250 XC-F (art. 3214414)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-069",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "250 XC-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 manual lists a 14:51 secondary ratio for the 250 SX-F and 13:51 for the 250 XC-F, with 5/8 x 1/4 in chain and 48/50/51/52 tooth rear sprockets.",
+   "values": {
+    "secondary_ratio_SX-F": "14:51",
+    "secondary_ratio_XC-F": "13:51",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "48, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2022 250 SX-F / 250 XC-F (art. 3214414)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-070",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "250 XC-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 manual lists a 249.91 cc DOHC 4-valve 4-stroke (78 x 52.3 mm, 14.4:1) with 24:73 primary, 5-speed gearbox on SX-F and 6-speed on XC-F, and NGK LMAR9AI-8 plug.",
+   "values": {
+    "design": "1-cylinder 4-stroke, water-cooled",
+    "displacement": "249.91 cc",
+    "bore": "78 mm",
+    "stroke": "52.3 mm",
+    "compression_ratio": "14.4:1",
+    "idle_speed": "2,250-2,350 rpm",
+    "valve_train": "DOHC, 4 valves via cam lever, timing chain",
+    "intake_valve_diameter": "32.5 mm",
+    "exhaust_valve_diameter": "26.5 mm",
+    "valve_clearance_intake_20C": "0.08-0.15 mm",
+    "valve_clearance_exhaust_20C": "0.12-0.19 mm",
+    "piston": "Forged light alloy; 1 compression + 1 oil scraper ring",
+    "lubrication": "Pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "24:73",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox_SX-F": "5-speed (13:32, 16:32, 17:28, 19:26, 21:25)",
+    "gearbox_XC-F": "6-speed (13:32, 16:30, 16:24, 23:28, 23:23, 26:20)",
+    "alternator": "12 V, 70 W",
+    "spark_plug": "NGK LMAR9AI-8",
+    "spark_plug_gap": "0.8 mm",
+    "starting": "Starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2022 250 SX-F / 250 XC-F (art. 3214414)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Gear ratios transcribed as printed in the extract (SX-F 2nd 16:32 and XC-F 3rd/4th 16:24, 23:28 look atypical but are reproduced verbatim)."
+  },
+  {
+   "id": "ms-b-073",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 SX-F",
+     "350 XC-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 350 SX-F/XC-F manual lists 310/300 mm travel, 22 mm offset, 63.9 deg head angle, 950 mm seat height and 99.5 kg (SX-F) / 100.5 kg (XC-F) without fuel.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel",
+    "travel": "front 310 mm / rear 300 mm",
+    "fork_offset": "22 mm",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,485 +/- 10 mm",
+    "seat_height": "950 mm",
+    "ground_clearance": "370 mm",
+    "weight_without_fuel_SX-F": "99.5 kg",
+    "weight_without_fuel_XC-F": "100.5 kg",
+    "tires_SX-F": "80/100-21 51M Dunlop Geomax MX33F / 110/90-19 62M Dunlop Geomax MX33",
+    "tires_XC-F": "80/100-21 51M Dunlop Geomax AT81F / 110/100-18 64M Dunlop Geomax AT81",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm",
+    "fuel_tank_SX-F": "7 l",
+    "fuel_tank_XC-F": "8.5 l (1.5 l reserve)",
+    "shock": "WP XACT 5750"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2022 350 SX-F / 350 XC-F (Swedish edition) (art. 3214416)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Translated from the Swedish-language manual."
+  },
+  {
+   "id": "ms-b-074",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 SX-F",
+     "350 XC-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 350 SX-F/XC-F manual lists a 14:51 secondary ratio, 5/8 x 1/4 in chain and 48/50/51/52 tooth rear sprockets.",
+   "values": {
+    "secondary_ratio": "14:51",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "48, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2022 350 SX-F / 350 XC-F (Swedish edition) (art. 3214416)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Translated from the Swedish-language manual. Only one secondary ratio is printed (no SX-F/XC-F split)."
+  },
+  {
+   "id": "ms-b-075",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 SX-F",
+     "350 XC-F"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "KTM's 2022 manual lists a 349.7 cc DOHC 4-valve 4-stroke (88 x 57.5 mm, 14.2:1) with 24:73 primary, 5-speed gearbox on SX-F and 6-speed on XC-F, 1.0 l of 10W/50 oil and NGK LMAR9AI-8 plug.",
+   "values": {
+    "design": "1-cylinder 4-stroke, liquid-cooled",
+    "displacement": "349.7 cc",
+    "bore": "88 mm",
+    "stroke": "57.5 mm",
+    "compression_ratio": "14.2:1",
+    "idle_speed": "2,250-2,350 rpm",
+    "valve_train": "DOHC, 4 valves via rocker arms (svängarm), timing chain",
+    "intake_valve_diameter": "36.3 mm",
+    "exhaust_valve_diameter": "29.1 mm",
+    "valve_clearance_intake_20C": "0.08-0.15 mm",
+    "valve_clearance_exhaust_20C": "0.12-0.19 mm",
+    "piston": "Forged light alloy; 1 compression + 1 oil ring",
+    "lubrication": "Pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "24:73",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox_SX-F": "5-speed (14:28, 16:26, 18:24, 21:24, 22:21)",
+    "gearbox_XC-F": "6-speed (15:31, 16:25, 20:25, 22:23, 25:22, 26:20)",
+    "alternator": "12 V, 70 W",
+    "spark_plug": "NGK LMAR9AI-8",
+    "spark_plug_gap": "0.8 mm",
+    "starting": "Starter motor",
+    "engine_oil": "1.0 l SAE 10W/50",
+    "coolant": "0.95 l"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2022 350 SX-F / 350 XC-F (Swedish edition) (art. 3214416)",
+    "url": "",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Translated from the Swedish-language manual."
+  },
+  {
+   "id": "ms-b-078",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual lists the 85 SX 17/14 with 278/305 mm travel, 14 mm fork offset, 66 deg head angle, 865 mm seat height and about 67 kg without fuel on 70/100-17 and 90/100-14 tires.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing, powder-coated",
+    "travel": "front 278 mm (10.94 in) / rear 305 mm (12.01 in)",
+    "fork_offset": "14 mm (0.55 in)",
+    "steering_head_angle": "66 deg",
+    "wheelbase": "1,290 +/- 10 mm (50.79 in)",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brakes": "front 2-piston caliper, rear 1-piston caliper",
+    "brake_disc_diameter": "front 240 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 3.5 mm / rear 3.7 mm",
+    "max_rider_weight": "75 kg (165 lb)",
+    "seat_height": "865 mm (34.06 in)",
+    "ground_clearance": "336 mm (13.23 in)",
+    "weight_without_fuel": "67 kg (148 lb)",
+    "tires": "70/100-17 40M / 90/100-14 49M Maxxis MaxxCross MX-ST+"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 85 SX (art. 3214636)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-079",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 19/16"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual lists the 85 SX 19/16 with 278/305 mm travel, 14 mm fork offset, 66 deg head angle, 890 mm seat height and about 68 kg without fuel on 70/100-19 and 90/100-16 tires.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing, powder-coated",
+    "travel": "front 278 mm (10.94 in) / rear 305 mm (12.01 in)",
+    "fork_offset": "14 mm (0.55 in)",
+    "steering_head_angle": "66 deg",
+    "wheelbase": "1,290 +/- 10 mm (50.79 in)",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brakes": "front 2-piston caliper, rear 1-piston caliper",
+    "brake_disc_diameter": "front 240 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 3.5 mm / rear 3.7 mm",
+    "max_rider_weight": "75 kg (165 lb)",
+    "seat_height": "890 mm (35.04 in)",
+    "ground_clearance": "362 mm (14.25 in)",
+    "weight_without_fuel": "68 kg (150 lb)",
+    "tires": "70/100-19 42M / 90/100-16 51M Maxxis MaxxCross MX-ST+"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 85 SX (art. 3214636)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-080",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual lists a 13:46 secondary ratio for the 85 SX 17/14, with 1/2 x 5/16 in chain and 44-51 tooth rear sprockets available.",
+   "values": {
+    "secondary_ratio": "13:46",
+    "chain": "1/2 x 5/16 in",
+    "available_rear_sprockets": "44, 45, 46, 47, 48, 49, 50, 51"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 85 SX (art. 3214636)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-081",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 19/16"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual lists a 13:49 secondary ratio for the 85 SX 19/16, with 1/2 x 5/16 in chain and 44-51 tooth rear sprockets available.",
+   "values": {
+    "secondary_ratio": "13:49",
+    "chain": "1/2 x 5/16 in",
+    "available_rear_sprockets": "44, 45, 46, 47, 48, 49, 50, 51"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 85 SX (art. 3214636)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-082",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14",
+     "85 SX 19/16"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 85 SX manual lists an 84.93 cc water-cooled 2-stroke (47 x 48.95 mm) with reed intake and exhaust control, premix lubrication, 6-speed gearbox, 20:64 primary and NGK BR9 ECMVX plug.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake, exhaust control",
+    "displacement": "84.93 cc",
+    "bore": "47 mm",
+    "stroke": "48.95 mm",
+    "idle_speed": "1,400-1,500 rpm",
+    "piston": "Cast aluminum; 1 rectangular ring",
+    "lubrication": "Mixed lubrication (premix)",
+    "primary_ratio": "20:64 straight-cut spur gears",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox": "6-speed, claw shifted",
+    "gear_ratios": "11:29, 14:28, 16:26, 19:26, 21:25, 20:21",
+    "spark_plug": "NGK BR9 ECMVX",
+    "spark_plug_gap": "0.60 mm",
+    "starting": "Kick starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 85 SX (art. 3214636)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-087",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX",
+     "125 XC"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 125 SX/XC manual lists 310/300 mm travel, 22 mm offset, 63.9 deg head angle, 1,493 mm wheelbase, 958 mm seat height and 92.4 kg (SX) / 93.1 kg (XC) without fuel.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel": "front 310 mm (12.2 in) / rear 300 mm (11.81 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,493 +/- 10 mm (58.78 in)",
+    "seat_height": "958 mm (37.72 in)",
+    "ground_clearance": "359 mm (14.13 in)",
+    "weight_without_fuel_SX": "92.4 kg (203.7 lb)",
+    "weight_without_fuel_XC": "93.1 kg (205.2 lb)",
+    "tires_SX": "80/100-21 51M Dunlop MX33F / 100/90-19 57M Dunlop MX33",
+    "tires_XC": "80/100-21 51M Dunlop Geomax AT81F / 110/100-18 64M Dunlop Geomax AT81",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 125 SX / 125 XC (art. 3214638)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-088",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX",
+     "125 XC"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual lists a 13:51 secondary ratio for the 125 SX and 125 XC, with 5/8 x 1/4 in chain and 48/50/52 tooth rear sprockets.",
+   "values": {
+    "secondary_ratio": "13:51",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "48, 50, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 125 SX / 125 XC (art. 3214638)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-089",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX",
+     "125 XC"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual lists a 124.8 cc water-cooled 2-stroke (54 x 54.5 mm) with 6-speed gearbox, 23:73 primary, electric start and NGK BR10 ECMVX plug.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake, exhaust control",
+    "displacement": "124.8 cc",
+    "bore": "54 mm",
+    "stroke": "54.5 mm",
+    "idle_speed": "1,400-1,500 rpm",
+    "piston": "Cast aluminum; 1 rectangular + 1 half keystone ring",
+    "X_dimension": "0-0.10 mm",
+    "Z_control_flap_height": "36.5 mm",
+    "primary_ratio": "23:73",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox": "6-speed, claw shifted",
+    "gear_ratios": "14:32, 15:30, 17:28, 19:27, 19:23, 22:24",
+    "spark_plug": "NGK BR10 ECMVX",
+    "spark_plug_gap": "0.60 mm",
+    "starting": "Electric starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 125 SX / 125 XC (art. 3214638)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-094",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX",
+     "300 SX",
+     "250 XC",
+     "300 XC"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 250/300 SX/XC manual lists 310/300 mm travel, 22 mm offset, 63.9 deg head angle, 1,493 mm wheelbase, 958 mm (SX) / 954 mm (XC) seat height and 99.4 kg (SX) / 100.1 kg (XC) without fuel.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel": "front 310 mm (12.2 in) / rear 300 mm (11.81 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,493 +/- 10 mm (58.78 in)",
+    "seat_height_SX": "958 mm (37.72 in)",
+    "seat_height_XC": "954 mm (37.56 in)",
+    "ground_clearance": "354 mm (13.94 in)",
+    "weight_without_fuel_SX": "99.4 kg (219.1 lb)",
+    "weight_without_fuel_XC": "100.1 kg (220.7 lb)",
+    "tires_SX": "80/100-21 51M Dunlop Geomax MX33F / 100/90-19 62M Dunlop Geomax MX33",
+    "tires_XC": "80/100-21 51M Dunlop Geomax MX33F / 110/100-18 64M Dunlop Geomax AT81",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 250 SX / 300 SX / 250 XC / 300 XC (art. 3214639)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-095",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX",
+     "300 SX",
+     "250 XC",
+     "300 XC"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual lists a 14:49 secondary ratio for the 250/300 SX and XC, with 5/8 x 1/4 in chain and 48-52 tooth rear sprockets.",
+   "values": {
+    "secondary_ratio": "14:49",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "48, 49, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 250 SX / 300 SX / 250 XC / 300 XC (art. 3214639)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-096",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX",
+     "300 SX",
+     "250 XC",
+     "300 XC"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual lists the 250s at 249 cc (66.4 x 72 mm) and 300s at 293.15 cc (72 x 72 mm), water-cooled 2-strokes with 26:72 primary, 5-speed (SX) or 6-speed (XC) gearbox, electric start and NGK BR 8 ES plug.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake, exhaust control",
+    "displacement_250": "249 cc",
+    "bore_250": "66.4 mm",
+    "displacement_300": "293.15 cc",
+    "bore_300": "72 mm",
+    "stroke": "72 mm",
+    "piston": "Cast aluminum",
+    "piston_rings_250": "2 half keystone rings",
+    "piston_rings_300": "2 rectangular rings",
+    "X_dimension": "0-0.10 mm (to special tool)",
+    "Z_control_flap_height": "48.0 mm",
+    "primary_ratio": "26:72",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox_SX": "5-speed (14:28, 16:26, 18:24, 21:24, 22:21)",
+    "gearbox_XC": "6-speed (13:33, 16:30, 18:26, 22:26, 23:23, 26:22)",
+    "spark_plug": "NGK BR 8 ES",
+    "spark_plug_gap": "0.60 mm",
+    "starting": "Electric starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 250 SX / 300 SX / 250 XC / 300 XC (art. 3214639)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Manual labels bore as 'Hole'. Fuel delivery (TBI) not described in the extract."
+  },
+  {
+   "id": "ms-b-101",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "250 XC-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 250 SX-F/XC-F manual lists 310/300 mm travel, 22 mm offset, 63.9 deg head angle, 1,493 mm wheelbase, 958 mm seat height and about 101.9 kg without fuel.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel": "front 310 mm (12.2 in) / rear 300 mm (11.81 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,493 +/- 10 mm (58.78 in)",
+    "seat_height": "958 mm (37.72 in)",
+    "ground_clearance": "343 mm (13.5 in)",
+    "weight_without_fuel": "101.9 kg (224.6 lb)",
+    "tires_SX-F": "80/100-21 51M Dunlop Geomax MX33F / 110/90-19 62M Dunlop Geomax MX33",
+    "tires_XC-F": "80/100-21 51M Dunlop Geomax MX33F / 110/100-18 64M Dunlop Geomax AT81",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 250 SX-F / 250 XC-F (art. 3214640)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "A single weight is printed for all variants."
+  },
+  {
+   "id": "ms-b-102",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "250 XC-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual lists secondary ratios of 14:51 (250 SX-F US), 14:52 (SX-F EU/BR/CN) and 13:52 (250 XC-F), with 5/8 x 1/4 in chain and 48/50/51/52 tooth rear sprockets.",
+   "values": {
+    "secondary_ratio_SX-F_US": "14:51",
+    "secondary_ratio_SX-F_EU_BR_CN": "14:52",
+    "secondary_ratio_XC-F": "13:52",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "48, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 250 SX-F / 250 XC-F (art. 3214640)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-103",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "250 XC-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual lists a 249.92 cc DOHC 4-valve 4-stroke (81 x 48.5 mm, 14.5:1) with 24:72 primary, 5-speed (SX-F) or 6-speed (XC-F) gearbox and NGK LMAR9AI-10 plug.",
+   "values": {
+    "design": "1-cylinder 4-stroke, water-cooled",
+    "displacement": "249.92 cc",
+    "bore": "81 mm",
+    "stroke": "48.5 mm",
+    "compression_ratio": "14.5:1",
+    "idle_speed": "2,250-2,350 rpm",
+    "valve_train": "DOHC, 4 valves via cam lever, timing chain",
+    "intake_valve_diameter": "32.5 mm",
+    "exhaust_valve_diameter": "27.5 mm",
+    "valve_clearance_intake_20C": "0.08-0.15 mm",
+    "valve_clearance_exhaust_20C": "0.12-0.19 mm",
+    "piston": "Forged light alloy; 1 compression + 1 oil scraper ring",
+    "lubrication": "Pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "24:72",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox_SX-F": "5-speed (13:32, 16:32, 17:28, 19:26, 21:25)",
+    "gearbox_XC-F": "6-speed (13:33, 16:30, 18:26, 22:26, 23:23, 26:22)",
+    "alternator": "12 V, 70 W",
+    "spark_plug": "NGK LMAR9AI-10",
+    "spark_plug_gap": "1.0 mm",
+    "starting": "Starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 250 SX-F / 250 XC-F (art. 3214640)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "SX-F 2nd gear 16:32 reproduced as printed."
+  },
+  {
+   "id": "ms-b-108",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 SX-F",
+     "350 XC-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 350 SX-F/XC-F manual lists 310/300 mm travel, 22 mm offset, 63.9 deg head angle, 1,493 mm wheelbase, 958 mm seat height and about 101.9 kg without fuel.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel": "front 310 mm (12.2 in) / rear 300 mm (11.81 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,493 +/- 10 mm (58.78 in)",
+    "seat_height": "958 mm (37.72 in)",
+    "ground_clearance": "343 mm (13.5 in)",
+    "weight_without_fuel": "101.9 kg (224.6 lb)",
+    "tires_XC-F": "80/100-21 51M Dunlop Geomax MX33F / 110/100-18 64M Dunlop Geomax AT81",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 350 SX-F / 350 XC-F (art. 3214641)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "The tire table in the extract lists only the XC-F US fitment; SX-F tires not given. A single weight is printed for all variants."
+  },
+  {
+   "id": "ms-b-109",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 SX-F",
+     "350 XC-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual lists secondary ratios of 14:51 (350 SX-F US), 14:52 (SX-F EU/AR) and 13:52 (350 XC-F), with 5/8 x 1/4 in chain and 48/50/51/52 tooth rear sprockets.",
+   "values": {
+    "secondary_ratio_SX-F_US": "14:51",
+    "secondary_ratio_SX-F_EU_AR": "14:52",
+    "secondary_ratio_XC-F": "13:52",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "48, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 350 SX-F / 350 XC-F (art. 3214641)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-110",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "350 SX-F",
+     "350 XC-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual lists a 349.7 cc DOHC 4-valve 4-stroke (88 x 57.5 mm, 14.6:1) with 24:72 primary, 5-speed (SX-F) or 6-speed (XC-F) gearbox and NGK LMAR9AI-10 plug.",
+   "values": {
+    "design": "1-cylinder 4-stroke, water-cooled",
+    "displacement": "349.7 cc",
+    "bore": "88 mm",
+    "stroke": "57.5 mm",
+    "compression_ratio": "14.6:1",
+    "idle_speed": "2,250-2,350 rpm",
+    "valve_train": "DOHC, 4 valves via cam lever, timing chain",
+    "intake_valve_diameter": "36.3 mm",
+    "exhaust_valve_diameter": "29.1 mm",
+    "valve_clearance_intake_20C": "0.08-0.15 mm",
+    "valve_clearance_exhaust_20C": "0.12-0.19 mm",
+    "piston": "Forged light alloy; 1 compression + 1 oil scraper ring",
+    "lubrication": "Pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "24:72",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox_SX-F": "5-speed (14:28, 16:26, 18:24, 21:24, 22:21)",
+    "gearbox_XC-F": "6-speed (13:33, 16:30, 18:26, 22:26, 23:23, 26:22)",
+    "alternator": "12 V, 70 W",
+    "spark_plug": "NGK LMAR9AI-10",
+    "spark_plug_gap": "1.0 mm",
+    "starting": "Starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 350 SX-F / 350 XC-F (art. 3214641)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-114",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 450 SX-F/XC-F manual lists 310/300 mm travel, 22 mm offset, 63.9 deg head angle, 1,493 mm wheelbase, 958 mm seat height and 102.6 kg (SX-F) / 103.3 kg (XC-F) / 103.5 kg (Factory Edition) without fuel.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel": "front 310 mm (12.2 in) / rear 300 mm (11.81 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,493 +/- 10 mm (58.78 in)",
+    "seat_height": "958 mm (37.72 in)",
+    "ground_clearance": "343 mm (13.5 in)",
+    "weight_without_fuel_SX-F": "102.6 kg (226.2 lb)",
+    "weight_without_fuel_XC-F": "103.3 kg (227.7 lb)",
+    "weight_without_fuel_Factory_Edition": "103.5 kg (228.2 lb)",
+    "tires_SX-F_EU": "80/100-21 51M / 110/90-19 62M Dunlop Geomax MX33",
+    "tires_SX-F_US_and_FE": "80/100-21 51M / 120/80-19 63M Dunlop Geomax MX33",
+    "tires_XC-F": "80/100-21 51M Dunlop Geomax MX33F / 110/100-18 64M Dunlop Geomax AT81",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 450 SX-F / 450 XC-F / 450 SX-F Factory Edition (art. 3214642)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-115",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual lists a 13:51 secondary ratio for all 450 SX-F models (incl. Factory Edition) and 13:52 for the 450 XC-F, with 5/8 x 1/4 in chain and 47-52 tooth rear sprockets.",
+   "values": {
+    "secondary_ratio_SX-F_incl_FE": "13:51",
+    "secondary_ratio_XC-F": "13:52",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "47, 48, 49, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 450 SX-F / 450 XC-F / 450 SX-F Factory Edition (art. 3214642)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-116",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual lists a 449.9 cc OHC 4-valve 4-stroke (95 x 63.4 mm, 13.1:1) with 29:72 primary, 5-speed gearbox, 2,100-2,200 rpm idle and NGK LMAR9AI-10 plug.",
+   "values": {
+    "design": "1-cylinder 4-stroke, water-cooled",
+    "displacement": "449.9 cc",
+    "bore": "95 mm",
+    "stroke": "63.4 mm",
+    "compression_ratio": "13.1:1",
+    "idle_speed": "2,100-2,200 rpm",
+    "valve_train": "OHC, 4 valves via rocker arm",
+    "intake_valve_diameter": "40 mm",
+    "exhaust_valve_diameter": "33 mm",
+    "valve_clearance_intake_20C": "0.10-0.15 mm",
+    "valve_clearance_exhaust_20C": "0.12-0.17 mm",
+    "piston_pin_bearing": "Bearing bush",
+    "piston": "Forged light alloy; 1 compression + 1 oil scraper ring",
+    "lubrication": "Pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "29:72",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox": "5-speed, claw shifted",
+    "gear_ratios": "14:28, 16:26, 18:24, 21:24, 22:21",
+    "alternator": "12 V, 70 W",
+    "spark_plug": "NGK LMAR9AI-10",
+    "spark_plug_gap": "1.0 mm",
+    "starting": "Starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 450 SX-F / 450 XC-F / 450 SX-F Factory Edition (art. 3214642)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-119",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "150 XC-W"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 150 XC-W manual lists 300/310 mm travel, 22 mm fork offset, 63.5 deg head angle, 960 mm seat height and about 96.8 kg without fuel; US bikes use Dunlop MX33F/AT81 tires at 1.0 bar off-road.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel": "front 300 mm (11.81 in) / rear 310 mm (12.2 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.5 deg",
+    "wheelbase": "1,482 +/- 10 mm (58.35 in)",
+    "seat_height": "960 mm (37.8 in)",
+    "ground_clearance": "370 mm (14.57 in)",
+    "weight_without_fuel": "96.8 kg (213.4 lb)",
+    "tires_150_XC-W_US": "80/100-21 51M Dunlop Geomax MX33F / 110/100-18 64M Dunlop Geomax AT81",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 150 EXC / 150 XC-W (art. 3214643)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-120",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "150 XC-W"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual lists a 13:50 secondary ratio for the 150 XC-W, 5/8 x 1/4 in chain and 48/50/52 tooth rear sprockets.",
+   "values": {
+    "secondary_ratio_150_XC-W_US": "13:50",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "48, 50, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 150 EXC / 150 XC-W (art. 3214643)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-121",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "150 XC-W"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual lists the 150 XC-W as a 144 cc water-cooled 2-stroke (58 x 54.5 mm) with oil injection, 6-speed gearbox, 23:73 primary and NGK GR8DI-12 plug.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake, exhaust control",
+    "displacement": "144 cc",
+    "bore": "58 mm",
+    "stroke": "54.5 mm",
+    "idle_speed": "1,400-1,500 rpm",
+    "exhaust_valve_start_of_adjustment": "6,300 rpm",
+    "piston": "Cast aluminum; 1 rectangular + 1 half keystone ring",
+    "X_dimension": "0-0.10 mm",
+    "Z_control_flap_height": "37.5 mm",
+    "lubrication": "Separate lubrication (oil injection)",
+    "primary_ratio": "23:73",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox": "6-speed, claw shifted",
+    "gear_ratios": "12:33, 15:31, 17:28, 19:26, 21:25, 20:20",
+    "alternator": "12 V, 168 W",
+    "spark_plug": "NGK GR8DI-12",
+    "spark_plug_gap": "1.20 mm",
+    "starting": "Electric starter and kick starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 150 EXC / 150 XC-W (art. 3214643)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-124",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 250/300 XC-W manual lists 300/310 mm travel, 22 mm fork offset, 63.5 deg head angle, 960 mm seat height and about 104 kg without fuel; XC-W bikes use Dunlop MX33 tires at 1.0 bar off-road.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel": "front 300 mm (11.81 in) / rear 310 mm (12.2 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.5 deg",
+    "wheelbase": "1,482 +/- 10 mm (58.35 in)",
+    "seat_height": "960 mm (37.8 in)",
+    "ground_clearance": "370 mm (14.57 in)",
+    "weight_without_fuel": "104 kg (229 lb)",
+    "tires_XC-W": "80/100-21 51M Dunlop Geomax MX33F / 110/100-18 64M Dunlop Geomax MX33",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit_standard_models": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 250 EXC / 250 EXC Six Days / 250 XC-W / 300 EXC / 300 EXC Six Days / 300 XC-W (art. 3214644)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-125",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual lists secondary ratios of 14:52 (alt. 13:52) for all 250 models and 14:50 (alt. 13:50) for all 300 models, 5/8 x 1/4 in chain and 45-52 tooth rear sprockets.",
+   "values": {
+    "secondary_ratio_250": "14:52 (13:52)",
+    "secondary_ratio_300": "14:50 (13:50)",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "45, 48, 49, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 250 EXC / 250 EXC Six Days / 250 XC-W / 300 EXC / 300 EXC Six Days / 300 XC-W (art. 3214644)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Ratios are printed per displacement ('All 250/300 models'), not separately for XC-W."
+  },
+  {
+   "id": "ms-b-126",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual lists the 250 XC-W at 249 cc (66.4 x 72 mm) and 300 XC-W at 293.15 cc (72 x 72 mm), water-cooled 2-strokes with transfer-port injection, 6-speed gearbox, 26:73 primary and NGK BR 7 ES plug.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake, exhaust control, transfer duct injection",
+    "displacement_250": "249 cc",
+    "bore_250": "66.4 mm",
+    "displacement_300": "293.15 cc",
+    "bore_300": "72 mm",
+    "stroke": "72 mm",
+    "idle_speed": "1,400-1,500 rpm",
+    "exhaust_control_setting_250": "2.7 +/- 0.2 mm",
+    "exhaust_control_setting_300": "2.3 +/- 0.2 mm",
+    "Z_control_flap_height_250": "49.0 mm",
+    "Z_control_flap_height_300": "49.5 mm",
+    "X_dimension": "0-0.10 mm",
+    "piston": "Cast aluminum",
+    "piston_rings_250": "2 half keystone rings",
+    "piston_rings_300": "2 rectangular rings",
+    "lubrication": "Separate lubrication (oil injection)",
+    "primary_ratio": "26:73",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox": "6-speed, claw shifted",
+    "gear_ratios": "14:32, 16:26, 20:25, 22:23, 25:22, 26:20",
+    "alternator": "12 V, 196 W",
+    "spark_plug": "NGK BR 7 ES",
+    "spark_plug_gap": "0.6 mm",
+    "starting": "Electric starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 250 EXC / 250 EXC Six Days / 250 XC-W / 300 EXC / 300 EXC Six Days / 300 XC-W (art. 3214644)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Manual labels bore as 'Hole'."
+  },
+  {
+   "id": "ms-b-129",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 XCF-W"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 450 XCF-W manual lists 300/310 mm travel, 22 mm fork offset, 63.5 deg head angle, 960 mm seat height and about 109.5 kg without fuel on Dunlop AT81 tires (1.0 bar off-road, 2.0 bar street).",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel": "front 300 mm (11.81 in) / rear 310 mm (12.2 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.5 deg",
+    "wheelbase": "1,482 +/- 10 mm (58.35 in)",
+    "seat_height": "960 mm (37.8 in)",
+    "ground_clearance": "355 mm (13.98 in)",
+    "weight_without_fuel": "109.5 kg (241.4 lb)",
+    "tires": "90/90-21 54M Dunlop Geomax AT81F / 110/100-18 64M Dunlop Geomax AT81",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "street_tire_pressure": "front 2.0 bar / rear 2.0 bar (29 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 450 EXC-F / 450 EXC-F Six Days / 450 XCF-W / 500 EXC-F / 500 EXC-F Six Days (art. 3214649)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-130",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 XCF-W"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual lists a 14:48 final drive for the 450 XCF-W, 5/8 x 1/4 in chain and 48/50/52 tooth rear sprockets.",
+   "values": {
+    "secondary_ratio": "14:48",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "48, 50, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 450 EXC-F / 450 EXC-F Six Days / 450 XCF-W / 500 EXC-F / 500 EXC-F Six Days (art. 3214649)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-131",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 XCF-W"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "KTM's 2023 manual lists the 450 XCF-W engine as a 449.9 cc OHC 4-valve 4-stroke (95 x 63.4 mm, 12.75:1) with 31:76 primary, 6-speed gearbox, 1,800-1,900 rpm idle and NGK LZMAR8BI-10 plug.",
+   "values": {
+    "design": "1-cylinder 4-stroke, water-cooled",
+    "displacement": "449.9 cc",
+    "bore": "95 mm",
+    "stroke": "63.4 mm",
+    "compression_ratio": "12.75:1",
+    "idle_speed": "1,800-1,900 rpm",
+    "valve_train": "OHC, 4 valves via rocker arm",
+    "intake_valve_diameter": "40 mm",
+    "exhaust_valve_diameter": "33 mm",
+    "valve_clearance_intake_20C": "0.10-0.15 mm",
+    "valve_clearance_exhaust_20C": "0.12-0.17 mm",
+    "piston_pin_bearing": "No bearing bush, DLC-coated piston pin",
+    "piston": "Forged light alloy; 1 compression + 1 oil scraper ring",
+    "lubrication": "Pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "31:76",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox": "6-speed",
+    "gear_ratios": "14:36, 17:32, 19:28, 22:26, 23:24, 26:21",
+    "alternator": "12 V, 196 W",
+    "spark_plug": "NGK LZMAR8BI-10",
+    "spark_plug_gap": "1.0 mm",
+    "starting": "Starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2023 450 EXC-F / 450 EXC-F Six Days / 450 XCF-W / 500 EXC-F / 500 EXC-F Six Days (art. 3214649)",
+    "url": "",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Gearbox speed count inferred from the six listed gear ratios; the extract has no explicit gearbox line."
+  },
+  {
+   "id": "ms-b-134",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM's 2024 manual lists the 85 SX 17/14 with 278/305 mm travel, 14 mm fork offset, 66 deg head angle, 865 mm seat height and about 67 kg without fuel on 70/100-17 and 90/100-14 tires.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing, powder-coated",
+    "travel": "front 278 mm (10.94 in) / rear 305 mm (12.01 in)",
+    "fork_offset": "14 mm (0.55 in)",
+    "steering_head_angle": "66 deg",
+    "wheelbase": "1,290 +/- 10 mm (50.79 in)",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brakes": "front 2-piston caliper, rear 1-piston caliper",
+    "brake_disc_diameter": "front 240 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 3.5 mm / rear 3.7 mm",
+    "max_rider_weight": "75 kg (165 lb)",
+    "seat_height": "865 mm (34.06 in)",
+    "ground_clearance": "336 mm (13.23 in)",
+    "weight_without_fuel": "67 kg (148 lb)",
+    "tires": "70/100-17 40M / 90/100-14 49M Maxxis MaxxCross MX-ST+"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2024 85 SX (art. 3214830)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-135",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 19/16"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM's 2024 manual lists the 85 SX 19/16 with 278/305 mm travel, 14 mm fork offset, 66 deg head angle, 890 mm seat height and about 68 kg without fuel on 70/100-19 and 90/100-16 tires.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing, powder-coated",
+    "travel": "front 278 mm (10.94 in) / rear 305 mm (12.01 in)",
+    "fork_offset": "14 mm (0.55 in)",
+    "steering_head_angle": "66 deg",
+    "wheelbase": "1,290 +/- 10 mm (50.79 in)",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brakes": "front 2-piston caliper, rear 1-piston caliper",
+    "brake_disc_diameter": "front 240 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 3.5 mm / rear 3.7 mm",
+    "max_rider_weight": "75 kg (165 lb)",
+    "seat_height": "890 mm (35.04 in)",
+    "ground_clearance": "362 mm (14.25 in)",
+    "weight_without_fuel": "68 kg (150 lb)",
+    "tires": "70/100-19 42M / 90/100-16 51M Maxxis MaxxCross MX-ST+"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2024 85 SX (art. 3214830)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-136",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 17/14"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM's 2024 manual lists a 13:46 secondary ratio for the 85 SX 17/14, with 1/2 x 5/16 in chain and 44-51 tooth rear sprockets available.",
+   "values": {
+    "secondary_ratio": "13:46",
+    "chain": "1/2 x 5/16 in",
+    "available_rear_sprockets": "44, 45, 46, 47, 48, 49, 50, 51"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2024 85 SX (art. 3214830)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-137",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "85 SX 19/16"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM's 2024 manual lists a 13:49 secondary ratio for the 85 SX 19/16, with 1/2 x 5/16 in chain and 44-51 tooth rear sprockets available.",
+   "values": {
+    "secondary_ratio": "13:49",
+    "chain": "1/2 x 5/16 in",
+    "available_rear_sprockets": "44, 45, 46, 47, 48, 49, 50, 51"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2024 85 SX (art. 3214830)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-141",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX",
+     "125 XC"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM's 2024 125 SX/XC manual lists 310 mm (SX) / 300 mm (XC) front and 300 mm rear travel, 22 mm offset, 63.9 deg head angle, 958 mm seat height and 92.4 kg (SX) / 95.1 kg (XC) without fuel.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel_SX": "front 310 mm (12.2 in) / rear 300 mm (11.81 in)",
+    "travel_XC": "front 300 mm (11.81 in) / rear 300 mm (11.81 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,493 +/- 10 mm (58.78 in)",
+    "seat_height": "958 mm (37.72 in)",
+    "ground_clearance": "359 mm (14.13 in)",
+    "weight_without_fuel_SX": "92.4 kg (203.7 lb)",
+    "weight_without_fuel_XC": "95.1 kg (209.7 lb)",
+    "tires_SX": "80/100-21 51M Dunlop MX33F / 100/90-19 57M Dunlop MX33",
+    "tires_XC": "80/100-21 51M Dunlop MX33F / 110/100-18 64M Dunlop Geomax AT81",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2024 125 SX / 125 XC (art. 3214832)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-142",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX",
+     "125 XC"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM's 2024 manual lists a 13:51 secondary ratio for the 125 SX and 125 XC, with 5/8 x 1/4 in chain and 48/50/52 tooth rear sprockets.",
+   "values": {
+    "secondary_ratio": "13:51",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "48, 50, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2024 125 SX / 125 XC (art. 3214832)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-143",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX",
+     "125 XC"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM's 2024 manual lists a 124.8 cc water-cooled 2-stroke (54 x 54.5 mm) with 6-speed gearbox, 23:73 primary, electric start and NGK BR10 ECMVX plug.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake, exhaust control",
+    "displacement": "124.8 cc",
+    "bore": "54 mm",
+    "stroke": "54.5 mm",
+    "idle_speed": "1,400-1,500 rpm",
+    "piston": "Aluminum; 1 rectangular + 1 half keystone ring",
+    "X_dimension": "0-0.10 mm",
+    "Z_control_flap_height": "36.5 mm",
+    "primary_ratio": "23:73",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox": "6-speed, claw shifted",
+    "gear_ratios": "14:32, 15:30, 17:28, 19:27, 19:23, 22:24",
+    "ignition": "Electronic ignition",
+    "spark_plug": "NGK BR10 ECMVX",
+    "spark_plug_gap": "0.60 mm",
+    "starting": "Electric starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2024 125 SX / 125 XC (art. 3214832)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-147",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX",
+     "300 SX",
+     "250 XC",
+     "300 XC"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM's 2024 250/300 SX/XC manual lists 310/300 mm travel, 22 mm offset, 63.9 deg head angle, 1,493 mm wheelbase, 958 mm seat height and 99.4 kg (SX) / 102.1 kg (XC) without fuel.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel": "front 310 mm (12.2 in) / rear 300 mm (11.81 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,493 +/- 10 mm (58.78 in)",
+    "seat_height": "958 mm (37.72 in)",
+    "ground_clearance": "354 mm (13.94 in)",
+    "weight_without_fuel_SX": "99.4 kg (219.1 lb)",
+    "weight_without_fuel_XC": "102.1 kg (225.1 lb)",
+    "tires_SX": "80/100-21 51M Dunlop Geomax MX33F / 110/90-19 62M Dunlop Geomax MX33",
+    "tires_XC": "80/100-21 51M Dunlop Geomax MX33F / 110/100-18 64M Dunlop Geomax AT81",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2024 250 SX / 300 SX / 250 XC / 300 XC (art. 3214833)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Travel is printed once for all models (310 mm front) even though XC models use a different fork."
+  },
+  {
+   "id": "ms-b-148",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX",
+     "300 SX",
+     "250 XC",
+     "300 XC"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM's 2024 manual lists a 14:49 secondary ratio for the 250/300 SX and XC, with 5/8 x 1/4 in chain and 48-52 tooth rear sprockets.",
+   "values": {
+    "secondary_ratio": "14:49",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "48, 49, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2024 250 SX / 300 SX / 250 XC / 300 XC (art. 3214833)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-149",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX",
+     "300 SX",
+     "250 XC",
+     "300 XC"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM's 2024 manual lists the 250s at 249 cc (66.4 x 72 mm) and 300s at 293.15 cc (72 x 72 mm), water-cooled 2-strokes with 26:72 primary, 5-speed (SX) or 6-speed (XC) gearbox, electric start and NGK BR 8 ES plug.",
+   "values": {
+    "design": "1-cylinder 2-stroke, water-cooled, reed intake, exhaust control",
+    "displacement_250": "249 cc",
+    "bore_250": "66.4 mm",
+    "displacement_300": "293.15 cc",
+    "bore_300": "72 mm",
+    "stroke": "72 mm",
+    "piston": "Cast aluminum",
+    "piston_rings_250": "2 half keystone rings",
+    "piston_rings_300": "2 rectangular rings",
+    "X_dimension": "0-0.10 mm (to special tool)",
+    "Z_control_flap_height": "48.0 mm",
+    "primary_ratio": "26:72",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox_SX": "5-speed (14:28, 16:26, 18:24, 21:24, 22:21)",
+    "gearbox_XC": "6-speed (13:33, 16:30, 18:26, 22:26, 23:23, 26:22)",
+    "ignition": "Electronic ignition",
+    "spark_plug": "NGK BR 8 ES",
+    "spark_plug_gap": "0.60 mm",
+    "starting": "Electric starter"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2024 250 SX / 300 SX / 250 XC / 300 XC (art. 3214833)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Manual labels bore as 'Hole'."
+  },
+  {
+   "id": "ms-b-153",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "250 XC-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM's 2024 250 SX-F/XC-F manual lists 310/300 mm travel, 22 mm offset, 63.9 deg head angle, 1,493 mm wheelbase, 958 mm seat height and 101 kg (SX-F incl. Factory Edition) / 101.7 kg (XC-F) without fuel.",
+   "values": {
+    "frame": "Central tube frame, chrome molybdenum steel tubing",
+    "travel": "front 310 mm (12.2 in) / rear 300 mm (11.81 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "steering_head_angle": "63.9 deg",
+    "wheelbase": "1,493 +/- 10 mm (58.78 in)",
+    "seat_height": "958 mm (37.72 in)",
+    "ground_clearance": "343 mm (13.5 in)",
+    "weight_without_fuel_SX-F": "101 kg (223 lb)",
+    "weight_without_fuel_XC-F": "101.7 kg (224.2 lb)",
+    "tires_SX-F_EU_US_CN": "80/100-21 51M Dunlop Geomax MX33F / 110/90-19 62M Dunlop Geomax MX33",
+    "tires_SX-F_BR": "80/100-21 51M / 100/90-19 62M Pirelli Scorpion MX Mid Soft 32",
+    "tires_XC-F": "80/100-21 51M Dunlop Geomax MX33F / 110/100-18 64M Dunlop Geomax AT81",
+    "tires_Factory_Edition": "80/100-21 51M Dunlop Geomax MX34F / 110/90-19 62M Dunlop Geomax MX34",
+    "offroad_tire_pressure": "front 1.0 bar / rear 1.0 bar (15 psi)",
+    "brake_disc_diameter": "front 260 mm / rear 220 mm",
+    "brake_disc_wear_limit": "front 2.5 mm / rear 3.5 mm"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2024 250 SX-F / 250 XC-F / 250 SX-F Factory Edition (art. 3214834)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-154",
+   "domain": "drivetrain",
+   "topic": "final drive and sprockets",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "250 XC-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM's 2024 manual lists secondary ratios of 14:51 (250 SX-F US and Factory Edition), 14:52 (SX-F EU/BR/CN) and 13:52 (250 XC-F), with 5/8 x 1/4 in chain and 48/50/51/52 tooth rear sprockets.",
+   "values": {
+    "secondary_ratio_SX-F_US_and_FE": "14:51",
+    "secondary_ratio_SX-F_EU_BR_CN": "14:52",
+    "secondary_ratio_XC-F": "13:52",
+    "chain": "5/8 x 1/4 in",
+    "available_rear_sprockets": "48, 50, 51, 52"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2024 250 SX-F / 250 XC-F / 250 SX-F Factory Edition (art. 3214834)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "ms-b-155",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "250 XC-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM's 2024 manual lists a 249.91 cc DOHC 4-valve 4-stroke (81 x 48.5 mm, 14.5:1) with 24:72 primary, 5-speed (SX-F) or 6-speed (XC-F) gearbox, 14 V alternator and NGK LMAR9AI-10 plug.",
+   "values": {
+    "design": "1-cylinder 4-stroke, water-cooled",
+    "displacement": "249.91 cc",
+    "bore": "81 mm",
+    "stroke": "48.5 mm",
+    "compression_ratio": "14.5:1",
+    "idle_speed": "2,250-2,350 rpm",
+    "valve_train": "DOHC, 4 valves via cam lever, timing chain",
+    "intake_valve_diameter": "32.5 mm",
+    "exhaust_valve_diameter": "27.5 mm",
+    "valve_clearance_intake_20C": "0.08-0.15 mm",
+    "valve_clearance_exhaust_20C": "0.12-0.19 mm",
+    "piston": "Forged light alloy; 1 compression + 1 oil scraper ring",
+    "lubrication": "Pressure circulation, 2 trochoidal pumps",
+    "primary_ratio": "24:72",
+    "clutch": "Multidisc in oil bath, hydraulically activated",
+    "gearbox_SX-F": "5-speed (13:32, 16:32, 17:28, 19:26, 21:25)",
+    "gearbox_XC-F": "6-speed (13:33, 16:30, 18:26, 22:26, 23:23, 26:22)",
+    "alternator": "14 V, 70 W",
+    "spark_plug": "NGK LMAR9AI-10",
+    "spark_plug_gap": "1.0 mm",
+    "starting": "Starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM owner's manual 2024 250 SX-F / 250 XC-F / 250 SX-F Factory Edition (art. 3214834)",
+    "url": "",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "SX-F 2nd gear 16:32 reproduced as printed."
+  }
+ ],
+ "conflicts": [
+  {
+   "item": "2023 KTM 250 SX / 300 SX fork rebound presets",
+   "detail": "Printed as Comfort 17 / Standard 18 / Sport 7 clicks (art. 3214639); Standard 18 breaks the monotonic pattern and is likely a misprint for 12. Recorded as printed.",
+   "records": [
+    "ms-b-090"
+   ]
+  },
+  {
+   "item": "2024 KTM 125 XC fork air pressure",
+   "detail": "Manual prints 5 bar (73 psi) for the XPLOR PRO 7548 fork (art. 3214832), a value that matches the 85 SX fork rather than a full-size XC fork; recorded as printed.",
+   "records": [
+    "ms-b-139"
+   ]
+  },
+  {
+   "item": "2022/2023 KTM 250 SX-F gear ratios",
+   "detail": "SX-F 2nd gear printed as 16:32 (same as listed in 2022, 2023, 2024 manuals); 2022 XC-F gears printed 13:32, 16:30, 16:24, 23:28, 23:23, 26:20 differ from the 2023/2024 XC-F set. Recorded as printed.",
+   "records": [
+    "ms-b-070",
+    "ms-b-103",
+    "ms-b-155"
+   ]
+  }
+ ],
+ "not_found": [
+  {
+   "item": "2026 300 EXC Champion Edition (art. 3240238) - all records",
+   "reason": "Only model is an EXC (European enduro), not in garageModels; manual skipped."
+  },
+  {
+   "item": "2024 85 SX (art. 3214830) engine technical data",
+   "reason": "Extract reports '== ENGINE: NOT FOUND'."
+  },
+  {
+   "item": "2022 350 SX-F / 350 XC-F (art. 3214416) shock technical data and 350 XC-F fork air pressure",
+   "reason": "Extract truncated inside the XC-F fork table; shock section absent."
+  },
+  {
+   "item": "2021 450 XC-F (art. 3214216) shock spring rates and sag",
+   "reason": "Extract truncated after spring preload."
+  },
+  {
+   "item": "2021 450 SX-F US / 450 XC-F / Factory Edition shock tables (art. 3214217)",
+   "reason": "Extract truncated in the SX-F US shock table."
+  },
+  {
+   "item": "2022 250 XC-F (art. 3214414) shock spring rates and sag",
+   "reason": "Extract truncated at 'Spring rate'."
+  },
+  {
+   "item": "2023 250 XC-F (art. 3214640) and 2023 350 XC-F (art. 3214641) shock rebound, spring rates, sag",
+   "reason": "Extracts truncated after HSC presets."
+  },
+  {
+   "item": "2023 450 SX-F US / 450 XC-F / Factory Edition shock tables (art. 3214642)",
+   "reason": "Extract truncated in the SX-F US shock table."
+  },
+  {
+   "item": "2024 250 SX-F US / 250 XC-F / Factory Edition shock tables (art. 3214834)",
+   "reason": "Extract truncated at the start of the SX-F US shock table."
+  },
+  {
+   "item": "2024 GasGas MC 450F Factory Edition shock fitted length / oil",
+   "reason": "Extract ends after static sag."
+  },
+  {
+   "item": "2023 Husqvarna FX 350 / FX 450 shock spring rates and sag",
+   "reason": "Extracts truncated in the FX shock tables (FC values recorded)."
+  },
+  {
+   "item": "2023 350 SX-F stock tires (art. 3214641)",
+   "reason": "Tire table in extract lists only the XC-F US fitment."
+  },
+  {
+   "item": "2024 125 SX fork air pressure (art. 3214832)",
+   "reason": "No air-pressure line in the SX fork table."
+  },
+  {
+   "item": "Fork air-pressure ranges/steps and per-rider-weight air values",
+   "reason": "Not present in any of these technical-data extracts."
+  },
+  {
+   "item": "Throttle body / carburetor model",
+   "reason": "Not present in any of these engine extracts."
+  }
+ ],
+ "sources": [
+  {
+   "name": "GasGas owner's manual 2024 MC 450F / EX 450F / MC 450F Factory Edition (art. not in file name; file gasgas.com.ru_assets_media_files_manuals_motocross_mc_20450F_202024)",
+   "file": "gasgas.com.ru_assets_media_files_manuals_motocross_mc_20450F_202024",
+   "year": 2024
+  },
+  {
+   "name": "Husqvarna owner's manual 2023 TE 150 (art. not in file name; file irp.cdn-website.com_4a30ad0d_files_uploaded_2023_20TE150)",
+   "file": "irp.cdn-website.com_4a30ad0d_files_uploaded_2023_20TE150",
+   "year": 2023
+  },
+  {
+   "name": "Husqvarna owner's manual 2023 TE 250 / TE 300 (art. not in file name; file irp.cdn-website.com_4a30ad0d_files_uploaded_2023_20TE300)",
+   "file": "irp.cdn-website.com_4a30ad0d_files_uploaded_2023_20TE300",
+   "year": 2023
+  },
+  {
+   "name": "Husqvarna owner's manual 2023 FC 350 / FX 350 (art. 3402632)",
+   "file": "irp.cdn-website.com_4a30ad0d_files_uploaded_23_3402632_en_OM",
+   "year": 2023
+  },
+  {
+   "name": "Husqvarna owner's manual 2023 FC 450 / FX 450 (art. 3402633)",
+   "file": "irp.cdn-website.com_4a30ad0d_files_uploaded_23_3402633_en_OM",
+   "year": 2023
+  },
+  {
+   "name": "KTM owner's manual 2020 150 EXC TPI / 150 XC-W TPI (art. 3214006)",
+   "file": "www.ktmshop.se_bike-manuals_20_3214006_en_OM",
+   "year": 2020
+  },
+  {
+   "name": "KTM owner's manual 2021 125 SX / 150 SX / 125 XC (art. 3214209)",
+   "file": "www.ktmshop.se_bike-manuals_21_3214209_en_OM",
+   "year": 2021
+  },
+  {
+   "name": "KTM owner's manual 2021 450 SX-F / 450 XC-F (art. 3214216)",
+   "file": "www.ktmshop.se_bike-manuals_21_3214216_en_OM",
+   "year": 2021
+  },
+  {
+   "name": "KTM owner's manual 2021 450 SX-F / 450 XC-F / 450 SX-F Factory Edition (art. 3214217)",
+   "file": "www.ktmshop.se_bike-manuals_21_3214217_en_OM",
+   "year": 2021
+  },
+  {
+   "name": "KTM owner's manual 2022 125 SX / 150 SX / 125 XC (art. 3214411)",
+   "file": "www.ktmshop.se_bike-manuals_22_3214411_en_OM",
+   "year": 2022
+  },
+  {
+   "name": "KTM owner's manual 2022 250 SX (art. 3214412)",
+   "file": "www.ktmshop.se_bike-manuals_22_3214412_en_OM",
+   "year": 2022
+  },
+  {
+   "name": "KTM owner's manual 2022 250 SX-F / 250 XC-F (art. 3214414)",
+   "file": "www.ktmshop.se_bike-manuals_22_3214414_en_OM",
+   "year": 2022
+  },
+  {
+   "name": "KTM owner's manual 2022 350 SX-F / 350 XC-F (Swedish edition) (art. 3214416)",
+   "file": "www.ktmshop.se_bike-manuals_22_3214416_sv_OM",
+   "year": 2022
+  },
+  {
+   "name": "KTM owner's manual 2023 85 SX (art. 3214636)",
+   "file": "www.ktmshop.se_bike-manuals_23_3214636_en_OM",
+   "year": 2023
+  },
+  {
+   "name": "KTM owner's manual 2023 125 SX / 125 XC (art. 3214638)",
+   "file": "www.ktmshop.se_bike-manuals_23_3214638_en_OM",
+   "year": 2023
+  },
+  {
+   "name": "KTM owner's manual 2023 250 SX / 300 SX / 250 XC / 300 XC (art. 3214639)",
+   "file": "www.ktmshop.se_bike-manuals_23_3214639_en_OM",
+   "year": 2023
+  },
+  {
+   "name": "KTM owner's manual 2023 250 SX-F / 250 XC-F (art. 3214640)",
+   "file": "www.ktmshop.se_bike-manuals_23_3214640_en_OM",
+   "year": 2023
+  },
+  {
+   "name": "KTM owner's manual 2023 350 SX-F / 350 XC-F (art. 3214641)",
+   "file": "www.ktmshop.se_bike-manuals_23_3214641_en_OM",
+   "year": 2023
+  },
+  {
+   "name": "KTM owner's manual 2023 450 SX-F / 450 XC-F / 450 SX-F Factory Edition (art. 3214642)",
+   "file": "www.ktmshop.se_bike-manuals_23_3214642_en_OM",
+   "year": 2023
+  },
+  {
+   "name": "KTM owner's manual 2023 150 EXC / 150 XC-W (art. 3214643)",
+   "file": "www.ktmshop.se_bike-manuals_23_3214643_en_OM",
+   "year": 2023
+  },
+  {
+   "name": "KTM owner's manual 2023 250 EXC / 250 EXC Six Days / 250 XC-W / 300 EXC / 300 EXC Six Days / 300 XC-W (art. 3214644)",
+   "file": "www.ktmshop.se_bike-manuals_23_3214644_en_OM",
+   "year": 2023
+  },
+  {
+   "name": "KTM owner's manual 2023 450 EXC-F / 450 EXC-F Six Days / 450 XCF-W / 500 EXC-F / 500 EXC-F Six Days (art. 3214649)",
+   "file": "www.ktmshop.se_bike-manuals_23_3214649_en_OM",
+   "year": 2023
+  },
+  {
+   "name": "KTM owner's manual 2024 85 SX (art. 3214830)",
+   "file": "www.ktmshop.se_bike-manuals_24_3214830_en_OM",
+   "year": 2024
+  },
+  {
+   "name": "KTM owner's manual 2024 125 SX / 125 XC (art. 3214832)",
+   "file": "www.ktmshop.se_bike-manuals_24_3214832_en_OM",
+   "year": 2024
+  },
+  {
+   "name": "KTM owner's manual 2024 250 SX / 300 SX / 250 XC / 300 XC (art. 3214833)",
+   "file": "www.ktmshop.se_bike-manuals_24_3214833_en_OM",
+   "year": 2024
+  },
+  {
+   "name": "KTM owner's manual 2024 250 SX-F / 250 XC-F / 250 SX-F Factory Edition (art. 3214834)",
+   "file": "www.ktmshop.se_bike-manuals_24_3214834_en_OM",
+   "year": 2024
+  }
+ ]
+}
