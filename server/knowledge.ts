@@ -30,6 +30,22 @@ export function rankKnowledge(rows:Knowledge[],text:string,limit=MAX_ROWS):Knowl
  const score=(k:Knowledge)=>{let s=want.has(k.domain)?10:0;for(const w of words(k.topic+' '+k.statement))if(q.has(w))s+=1;s+=k.tier==='OEM'||k.tier==='MEASURED'?1:0;return s;};
  return rows.map(k=>({k,s:score(k)})).filter(x=>x.s>=3).sort((a,b)=>b.s-a.s).slice(0,limit).map(x=>x.k);
 }
+const STOP=new Set(['what','when','with','that','this','have','does','should','often','much','many','about','your','bike','check','checked','change','spec','specs','torque','value','values','there','from','they','them','into','what\'s']);
+/** Large table rows (torque tables, schedules, service limits) are cut down to the entries that match the question. */
+export function focusRow(k:Knowledge,text:string,max=4000):Knowledge{
+ if(JSON.stringify(k.values).length<=max)return k;
+ const q=(text.toLowerCase().match(/[a-z0-9]{3,}/g)??[]).filter(w=>!STOP.has(w));
+ if(!q.length)return k;
+ const hit=(s:string)=>{const t=s.toLowerCase();return q.some(w=>t.includes(w));};
+ const out:Record<string,unknown>={};let kept=0,total=0;
+ for(const [key,val] of Object.entries(k.values)){
+  if(Array.isArray(val)){total+=val.length;const m=val.filter(v=>hit(JSON.stringify(v)));kept+=m.length;if(m.length)out[key]=m;continue;}
+  if(val&&typeof val==='object'){const e=Object.entries(val as Record<string,unknown>);total+=e.length;const m=e.filter(([a,b])=>hit(a+' '+JSON.stringify(b)));kept+=m.length;if(m.length)out[key]=Object.fromEntries(m);continue;}
+  total++;if(hit(key+' '+String(val))||JSON.stringify(val).length<200){out[key]=val;kept++;}
+ }
+ if(!kept)return k;
+ return {...k,values:out,notes:(k.notes?k.notes+' ':'')+`[Only the ${kept} of ${total} table entries that match the question are shown.]`};
+}
 /** Keep the briefing a sensible size: large rows (full torque tables, schedules) only while the budget lasts. */
 export function withinBudget(rows:Knowledge[],budget=36000):Knowledge[]{
  let used=0;const out:Knowledge[]=[];
@@ -41,7 +57,8 @@ export async function bikeKnowledge(db:SupabaseClient,bike:Bike,message:string,l
  const {data,error}=await db.from('bike_knowledge').select('id,domain,topic,statement,tier,vals,notes,confidence').eq('manufacturer',s.manufacturer).eq('model',s.model).eq('model_year',s.model_year).eq('status','APPROVED').limit(600);
  if(error||!Array.isArray(data))return [];// Deep knowledge is additive; a read failure must not block the answer.
  const rows=data.map(r=>({id:'K-'+r.id,domain:r.domain,topic:r.topic,statement:r.statement,tier:r.tier,values:r.vals??{},notes:r.notes??'',confidence:r.confidence})) as Knowledge[];
- return withinBudget(rankKnowledge(rows,[message,...lookups].join(' ')));
+ const q=[message,...lookups].join(' ');
+ return withinBudget(rankKnowledge(rows,q).map(k=>focusRow(k,q)));
 }
 /** Which answer tier each knowledge tier may support. */
 export const knowledgeClaimTier:Record<KnowledgeTier,'PUBLISHED'|'COMMUNITY'|'ENGINEERING'>={OEM:'PUBLISHED',MEASURED:'COMMUNITY',TUNER:'COMMUNITY',COMMUNITY:'COMMUNITY',DERIVED:'ENGINEERING'};

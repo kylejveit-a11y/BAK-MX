@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {rankKnowledge,withinBudget,type Knowledge} from '../server/knowledge.ts';
+import {rankKnowledge,withinBudget,focusRow,type Knowledge} from '../server/knowledge.ts';
 import {responseViolations} from '../server/engineering.ts';
 const k=(id:string,domain:string,topic:string,tier:Knowledge['tier'],statement='x'):Knowledge=>({id,domain,topic,statement,tier,values:{},notes:'',confidence:'high'});
 const rows=[k('K-1','ecu_electronics','Power Tuner fuel grid','TUNER','Smoother arenacross map'),k('K-2','power_feel','peak horsepower','MEASURED','55 hp on a dyno'),k('K-3','chassis','rake','OEM','27 degrees'),k('K-4','engine_architecture','bore and stroke ratio','DERIVED','oversquare')];
@@ -52,4 +52,10 @@ test('torque and service questions reach the manual tables, within a size budget
  const many=[big('K-30'),big('K-31'),big('K-32'),k('K-33','setups','x','OEM','y')];
  const kept=withinBudget(many);
  assert.ok(kept.length<many.length&&kept[0].id==='K-30');
+});
+
+test('big tables are cut to the rows the rider asked about',()=>{
+ const rows:Record<string,string>={};for(let i=0;i<300;i++)rows['Bolt '+i+' (M8)']='10 N·m';rows['Rear axle nut (M22)']='135 N·m';
+ const f=focusRow({...k('K-40','maintenance','chassis tightening torques','OEM','torques'),values:{torques:rows}},'rear axle nut torque');
+ assert.deepEqual(Object.keys((f.values as {torques:Record<string,string>}).torques),['Rear axle nut (M22)']);
 });
