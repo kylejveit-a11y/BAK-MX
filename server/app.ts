@@ -97,7 +97,7 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
    let sent=0;
    // what the rider tried and how it rode; a log that cannot be read never blocks the answer
    const setupHistory=bike?((await db.from('setup_logs').select('recorded_at,track,conditions,change_made,result,notes').eq('bike_id',bike.id).eq('user_id',owner).order('recorded_at',{ascending:false}).limit(8)).data??[]):[];
-   const {response,raw}=await generateAnswer(bike,history,claims,data.message,lookups,draft=>{const size=draft.summary.length+draft.answer.length;if(size-sent<24)return;sent=size;emit({type:'draft',summary:draft.summary,answer:draft.answer});},setupHistory,knowledge);
+   const {response,raw}=await generateAnswer(bike,history,claims,data.message,lookups,draft=>{const size=draft.summary.length+draft.answer.length;if(size-sent<24)return;sent=size;emit({type:'draft',summary:draft.summary,answer:draft.answer});},setupHistory,knowledge,data.guided??null,data.voice===true);
    emit({type:'status',stage:'checking'});
    checked(await admin.rpc('complete_ai_request',{p_user_id:owner,p_request_id:data.request_id,p_response:response,p_raw_output:{...raw,bakmx_plan_ms:t1-t0,bakmx_search_ms:t2-t1,bakmx_streamed:emit!==quiet}}));
    if(bike&&response.data_gaps?.length){const scope=exactBikeScope(bike);/* Best effort: a logging failure must not cost the rider a saved answer. */await admin.from('data_gaps').insert(response.data_gaps.map(gap=>({request_id:data.request_id,user_id:owner,...scope,gap:gap.slice(0,300)}))).then(()=>{},()=>{});}

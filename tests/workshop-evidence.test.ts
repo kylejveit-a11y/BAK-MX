@@ -40,7 +40,7 @@ test('paired drive renewal keeps the chain reaction available only with a secure
  assert.ok(p.supplemental_sources!.some(s=>s.attribution.includes('Nick Dole')));
 });
 test('every released guide completes and restores without losing required records',()=>{
- for(const p of reviewedProcedures){const targetBike={...bike,...p.target};let run=createProcedureRun(targetBike,p,true);for(const step of p.steps){assert.ok(step.source_pdf_pages.length);if(step.diagram_reference_required)assert.ok(step.source_links.length);run=recordProcedureStep(run,p,`Test record for ${step.id}`);assert.ok(validateProcedureRun(JSON.parse(JSON.stringify(run)),targetBike,p));}assert.equal(Object.keys(run.completed).length,p.steps.length);}
+ for(const p of reviewedProcedures){const targetBike={...bike,...p.target};let run=createProcedureRun(targetBike,p,true);for(const step of p.steps){assert.ok(p.source.review_status==='BAK_AUTHORED'||step.source_pdf_pages.length);if(step.diagram_reference_required)assert.ok(step.source_links.length);run=recordProcedureStep(run,p,`Test record for ${step.id}`);assert.ok(validateProcedureRun(JSON.parse(JSON.stringify(run)),targetBike,p));}assert.equal(Object.keys(run.completed).length,p.steps.length);}
  const fork=reviewedProcedures.find(p=>p.id==='yamaha-2026-yz450f-fork-remove-refit-v1')!;
  assert.ok(fork.completeness.includes('no oil change'));
  assert.ok(fork.steps.find(s=>s.id==='height-clamps')?.record_required);

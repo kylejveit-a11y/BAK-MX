@@ -1,4 +1,4 @@
-import {workshopContext,workshopReferences} from './workshop-context.ts';
+import {workshopContext,workshopReferences,type GuidedStep} from './workshop-context.ts';
 import {usConfiguration} from '../shared/garage-fields.ts';
 import {sameBikeScope} from '../shared/bike-identity.ts';
 import {relatedReferences} from './references.ts';
@@ -31,7 +31,7 @@ export function testerBaselinesFor(bike:{manufacturer:string;model:string;model_
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-30';
+export const PROMPT_VERSION='mx-engineering-31';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -40,7 +40,7 @@ export function applicableClaims(claims:Claim[],bike:Bike){return claims.filter(
 
 /** What the rider tried on this bike and how it rode, newest first: their own setup log, including results reported from BAK's suggestions. */
 export type SetupResultRow={recorded_at:string;track:string;conditions:string;change_made:string;result:string;notes:string};
-export function buildEngineeringInput(bike:Bike|null,history:Message[],claims:Claim[],message:string,setupHistory:SetupResultRow[]=[],knowledge:Knowledge[]=[]){
+export function buildEngineeringInput(bike:Bike|null,history:Message[],claims:Claim[],message:string,setupHistory:SetupResultRow[]=[],knowledge:Knowledge[]=[],guided?:GuidedStep|null,voice=false){
  // Order matters for cost and speed: the parts that are identical on every request come first so the provider can reuse its cached prefix.
  return {
   evidence_boundary:'verified_claims holds the published evidence retrieved for this question for this exact bike, not the whole corpus. A published value that is absent here is not on file for this answer: say so in one line, never state it as published, and then still help from engineering and general knowledge, labelled as such.',
@@ -55,7 +55,8 @@ export function buildEngineeringInput(bike:Bike|null,history:Message[],claims:Cl
   ...(setupHistory.length?{recent_setup_results:setupHistory.slice(0,8).map(r=>({date:r.recorded_at.slice(0,10),track:r.track||undefined,conditions:r.conditions||undefined,change:r.change_made||undefined,result:r.result.replace('_',' '),notes:r.notes?r.notes.slice(0,300):undefined}))}:{}),
   ...(bike&&manufacturerSetupGuidance(bike)?{manufacturer_setup_guidance:manufacturerSetupGuidance(bike)}:{}),
   ...(bike?{}:{no_build:'The rider chose to ask without a build. There is no saved bike and no published evidence for this question. Follow NO BUILD SELECTED.'}),
-  reviewed_workshop:bike?workshopContext(bike,history,message):null,
+  reviewed_workshop:bike?workshopContext(bike,history,message,guided):null,
+  ...(voice?{spoken_reply:'The rider is talking hands-free and BAK reads the answer aloud. Keep answer to 1-4 short spoken sentences, no tables, no headings, no bullet lists, numbers with units spelled clearly (e.g. 80 newton-metres, 59 foot-pounds). Put any longer detail in the next turn only if asked.'}:{}),
   conversation:history.map(m=>({role:m.role,content:m.response??m.content})),
   ...(bike&&knowledge.some(k=>!k.bike)?{bike_knowledge:knowledge.filter(k=>!k.bike)}:{}),
   ...(bike&&knowledge.some(k=>k.bike)?{other_bikes_knowledge:knowledge.filter(k=>k.bike)}:{}),
@@ -319,9 +320,9 @@ export async function planSpecLookups(bike:Bike,history:Message[],message:string
 }
 
 /** Steps 3 and 4. `claims` is the retrieved exact-bike evidence. */
-export async function generateAnswer(bike:Bike|null,history:Message[],claims:Claim[],message:string,lookups:string[]=[],onDraft?:(draft:{summary:string;answer:string})=>void,setupHistory:SetupResultRow[]=[],knowledge:Knowledge[]=[]){
+export async function generateAnswer(bike:Bike|null,history:Message[],claims:Claim[],message:string,lookups:string[]=[],onDraft?:(draft:{summary:string;answer:string})=>void,setupHistory:SetupResultRow[]=[],knowledge:Knowledge[]=[],guided?:GuidedStep|null,voice=false){
  const started=Date.now(),fitted=bike?readInstalled(bike.configuration).parts.map(p=>p.b).filter(Boolean):[];
- const input={...buildEngineeringInput(bike,history,claims,message,setupHistory,knowledge),spec_lookups_performed:lookups};
+ const input={...buildEngineeringInput(bike,history,claims,message,setupHistory,knowledge,guided,voice),spec_lookups_performed:lookups};
  const {wire:full,real}=toWire(input);
  // The provider caches the instructions block as a unit. The reference library is identical on every request, so it rides
  // there; only what changes per question (bike, conversation, retrieved evidence, message) is sent as input.
@@ -343,6 +344,6 @@ export async function generateAnswer(bike:Bike|null,history:Message[],claims:Cla
   }catch{/* keep the first draft's verdict */}
  }
  if(!parsed.success||violations.length)throw new HttpError(502,violations[0]??'AI response was invalid');
- const response:EngineeringResponse={...parsed.data,garage_updates:cleanGarageUpdates(parsed.data.garage_updates,!!bike),references:bike?[...workshopReferences(bike,history,message),...relatedReferences(bike,message)]:[]};
+ const response:EngineeringResponse={...parsed.data,garage_updates:cleanGarageUpdates(parsed.data.garage_updates,!!bike),references:bike&&!guided?[...workshopReferences(bike,history,message),...relatedReferences(bike,message)]:[]};
  return {response,raw:{...raw,bakmx_reviewed_workshop:input.reviewed_workshop,bakmx_spec_lookups:lookups,bakmx_model:first.model,bakmx_repaired:repaired,bakmx_answer_ms:Date.now()-started,bakmx_first_text_ms:firstText||null}};
 }

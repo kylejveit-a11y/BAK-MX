@@ -17,6 +17,8 @@ const body=z.object({
   configuration:z.record(z.string(),z.unknown()).default({})}).nullable(),
  message:z.string().min(1).max(4000),
  history:z.array(turn).max(20).default([]),
+ guided:z.object({procedure_id:z.string().min(1).max(200),step_index:z.number().int().min(0).max(2000)}).optional(),
+ voice:z.boolean().optional(),
  setup_history:z.array(z.object({recorded_at:z.string().default(()=>new Date().toISOString()),track:z.string().max(120).default(''),conditions:z.string().max(120).default(''),
   change_made:z.string().max(1000).default(''),result:z.enum(['better','no_change','worse','not_tested']),notes:z.string().max(1000).default('')})).max(8).default([]),
 });
@@ -39,7 +41,7 @@ export async function handleEval(req:Request):Promise<Response>{
   const lookups=bike?await planSpecLookups(bike,history,data.message):[];
   const claims=bike?await searchBikeClaims(admin,bike,lookups):[];
   const knowledge=bike?[...await bikeKnowledge(admin,bike,data.message,lookups),...await comparisonKnowledge(admin,bike,data.message)]:[];
-  const {response}=await generateAnswer(bike,history,claims,data.message,lookups,()=>{},data.setup_history as never,knowledge);
+  const {response}=await generateAnswer(bike,history,claims,data.message,lookups,()=>{},data.setup_history as never,knowledge,data.guided??null,data.voice===true);
   await log(true);
   return new Response(JSON.stringify({prompt_version:PROMPT_VERSION,model:process.env.OPENAI_MODEL,ms:Date.now()-t0,published_claims:claims.length,lookups,response}),{headers:{'content-type':'application/json','cache-control':'no-store'}});
  }catch(e){await log(false,String((e as Error)?.message??e));throw e;}

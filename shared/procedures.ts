@@ -1,9 +1,10 @@
 import type {Bike} from './types.ts';
 import {buildIdentity,sameBikeScope} from './bike-identity.ts';
 import {procedureLibrary} from './procedure-library.ts';
+import {bakGuideLibrary} from './bak-guide-library.ts';
 export type ProcedureBranch={id:string;label:string;next_step:string;condition:string};
 export type ReviewedProcedure={id:string;content_sha256:string;component:string;affected_components?:string[];entry_state?:string[];exit_state?:string[];supplemental_sources?:{url:string;sha256:string;attribution:string;scope:string}[];target:{manufacturer:string;model:string;model_year:number;variant:string;region:string};title:string;completeness:string;source:{source_url:string;document_sha256:string;document_revision:string;pdf_pages:number[];printed_pages:string[];review_status:string};excluded:string[];required_tools:{name:string;size:string|null}[];required_parts:{name:string;purpose:string}[];prerequisites:string[];critical_stop_conditions:string[];steps:{id:string;title:string;instruction:string;depends_on:string[];verification:string[];source_pdf_pages:number[];record_required:boolean;diagram_reference_required:boolean;source_links:string[];branches?:ProcedureBranch[]}[]};
-export const reviewedProcedures:ReviewedProcedure[]=procedureLibrary;
+export const reviewedProcedures:ReviewedProcedure[]=[...procedureLibrary,...bakGuideLibrary];
 /** Lists candidate exact-bike procedures; stock component confirmation is recorded at start. */
 export function proceduresForBike(bike:Bike){return reviewedProcedures.filter(p=>{
  if(!sameBikeScope(p.target,bike))return false;

@@ -1,0 +1,2841 @@
+[
+ {
+  "id": "bak-ktm-450sxf-2025-fork-remove-refit-v1",
+  "component": "fork",
+  "affected_components": [
+   "front_wheel",
+   "front_brake",
+   "triple_clamp",
+   "fork"
+  ],
+  "entry_state": [
+   "Bike complete and cold, on a lift stand under the engine with the front wheel off the ground."
+  ],
+  "exit_state": [
+   "Both fork legs back in the clamps at the correct height, caliper and wheel refitted and torqued, air pressure and clickers reset, front brake confirmed firm; bike ready to ride."
+  ],
+  "target": {
+   "manufacturer": "KTM",
+   "model": "450 SX-F",
+   "model_year": 2025,
+   "variant": "standard",
+   "region": "US"
+  },
+  "title": "Take the forks off and put them back on",
+  "completeness": "Covers front wheel out, caliper and brake-line clamp off, both legs out of the triple clamps, then the full refit with fork height, torques, leg straightening, air pressure and clicker reset; it does not open the fork legs (see the fork service guide).",
+  "excluded": [
+   "Opening or servicing the fork legs",
+   "Steering head bearing or lower triple clamp work",
+   "Front wheel bearing replacement",
+   "Bleeding or opening the front brake hydraulics",
+   "FACTORY EDITION Connectivity Unit strap handling"
+  ],
+  "required_tools": [
+   {
+    "name": "Lift stand that supports the bike under the engine",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 12-40 Nm",
+    "size": null
+   },
+   {
+    "name": "Sockets and Allen keys for clamp, caliper and axle hardware",
+    "size": null
+   },
+   {
+    "name": "Fork airpump with digital gauge (KTM 79412966100 or equal)",
+    "size": null
+   },
+   {
+    "name": "Flat-blade screwdriver for clickers",
+    "size": null
+   },
+   {
+    "name": "Medium-strength threadlocker (Loctite 243)",
+    "size": null
+   },
+   {
+    "name": "Long-life grease",
+    "size": null
+   },
+   {
+    "name": "Brake cleaner and clean rags",
+    "size": null
+   },
+   {
+    "name": "Zip tie or bungee to hang the caliper",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Bike washed, especially around the clamps, caliper and fork tubes, so no grit falls into anything you open.",
+   "A pen and the BAK setup sheet to write down air pressure and clicker positions before you change anything."
+  ],
+  "critical_stop_conditions": [
+   "Never squeeze the front brake lever while the wheel is out; if it happens, the pistons must be eased back before the disc will fit, and a seized or leaking caliper means stop and fix the brake first.",
+   "Brake disc or pads contaminated with oil or grease: stop, clean the disc with brake cleaner and replace contaminated pads before riding.",
+   "Fork legs not at the same height, or the second groove not flush with the top clamp: do not torque the clamps until corrected.",
+   "Front brake lever soft or travelling to the bar after refit: do not ride.",
+   "Air pressure outside 7-12 bar (102-174 psi): do not ride."
+  ],
+  "steps": [
+   {
+    "id": "record-settings",
+    "title": "Write down the current fork setup",
+    "instruction": "Before touching anything, count and note the compression clicker (top of the right leg) and rebound clicker (bottom of the right leg) by gently turning each in to the stop, then back out to where it was. Note the air pressure if you have the pump handy. This lets you put the bike back exactly as the rider likes it.",
+    "depends_on": [],
+    "verification": [
+     "Compression clicks, rebound clicks and air pressure written on the setup sheet."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "stand-up",
+    "title": "Get the front wheel in the air",
+    "instruction": "Lift the bike on the stand under the engine so both wheels hang free. Make sure it cannot rock or tip when you pull on the front end.",
+    "depends_on": [
+     "record-settings"
+    ],
+    "verification": [
+     "Bike stable on the stand, front wheel spins freely."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "push-pistons",
+    "title": "Ease the brake pistons back",
+    "instruction": "Push the caliper body by hand toward the disc to nudge the pistons back into their bores. Keep the caliper clear of the spokes while you do it. This gives the pads a little room so the disc slides out and back in without fighting.",
+    "depends_on": [
+     "stand-up"
+    ],
+    "verification": [
+     "Pads have a small gap to the disc."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "loosen-axle",
+    "title": "Break the axle loose",
+    "instruction": "Back the axle bolt out several turns, but leave it in. Then loosen the pinch bolts on the axle clamp at the bottom of the leg so the axle can move.",
+    "depends_on": [
+     "push-pistons"
+    ],
+    "verification": [
+     "Axle bolt loose a few turns, pinch bolts loose."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "pull-axle",
+    "title": "Pull the front wheel",
+    "instruction": "Push on the head of the axle bolt to start the axle out of the clamp, then take the bolt out. Hold the wheel, slide the axle out and lower the wheel away from the fork. Lay it down disc-side up on a clean rag so the disc cannot be bent or oiled, and pocket the two wheel spacers.",
+    "depends_on": [
+     "loosen-axle"
+    ],
+    "verification": [
+     "Wheel out, disc undamaged, both spacers kept with the axle."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "brake-line-clamp",
+    "title": "Free the brake line clamp",
+    "instruction": "Undo the screws holding the brake line clamp on the left leg and take the clamp off. Snap a photo of how the line runs first so it goes back in exactly the same path.",
+    "depends_on": [
+     "pull-axle"
+    ],
+    "verification": [
+     "Clamp and screws bagged and labeled, photo taken."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "hang-caliper",
+    "title": "Unbolt and hang the caliper",
+    "instruction": "Remove the two caliper bolts and lift the caliper off the leg. Hang it from the frame with a zip tie or bungee so the hose is not stretched or kinked. Do not pull the brake lever from here on until the wheel is back in.",
+    "depends_on": [
+     "brake-line-clamp"
+    ],
+    "verification": [
+     "Caliper supported, hose not under strain, lever untouched."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "left-leg-out",
+    "title": "Drop out the left (air) leg",
+    "instruction": "Loosen the top and bottom clamp bolts on the left leg and slide the leg down and out, twisting gently if it sticks. The left leg is the air spring side with the air valve on top; keep it upright.",
+    "depends_on": [
+     "hang-caliper"
+    ],
+    "verification": [
+     "Left leg out and stored upright on a clean surface."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "right-leg-out",
+    "title": "Drop out the right (damping) leg",
+    "instruction": "Loosen the top and bottom clamp bolts on the right leg and slide it out the same way. Keep it upright too, and label both legs left and right if you are sending them out.",
+    "depends_on": [
+     "left-leg-out"
+    ],
+    "verification": [
+     "Right leg out, both legs labeled."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "clean-clamps",
+    "title": "Clean the clamp bores",
+    "instruction": "Wipe the inside of the upper and lower clamp bores and the fork tubes where they sit. Grit or old grease in the clamps lets the legs slip or sit crooked.",
+    "depends_on": [
+     "right-leg-out"
+    ],
+    "verification": [
+     "Clamp bores and tube surfaces clean and dry."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-left-leg",
+    "title": "Slide the left leg back in",
+    "instruction": "Push the left leg up through both clamps with the air valve facing forward. Bring it up until the second machined groove from the top of the leg lines up flush with the top face of the upper clamp.",
+    "depends_on": [
+     "clean-clamps"
+    ],
+    "verification": [
+     "Left leg air valve forward, second groove flush with the top clamp."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "fit-right-leg",
+    "title": "Slide the right leg back in",
+    "instruction": "Fit the right leg the same way with its bleeder screw facing forward, and set it to the same second-groove height. Sight across both legs to confirm they sit level with each other.",
+    "depends_on": [
+     "fit-left-leg"
+    ],
+    "verification": [
+     "Right leg bleeder forward, height matches the left."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "torque-clamps",
+    "title": "Torque the triple clamp bolts",
+    "instruction": "Tighten the upper clamp bolts to 17 Nm (12.5 lb-ft) and the lower clamp bolts to 12 Nm (8.9 lb-ft) on both legs. Go back and forth between the bolts on each clamp so the pinch pulls in evenly.",
+    "depends_on": [
+     "fit-right-leg"
+    ],
+    "verification": [
+     "All clamp bolts torqued, heights unchanged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "refit-caliper",
+    "title": "Bolt the caliper back on",
+    "instruction": "Clean the caliper bolt threads, add a drop of medium threadlocker (Loctite 243), set the caliper on its mounts and run both bolts in. Torque to 25 Nm (18.4 lb-ft).",
+    "depends_on": [
+     "torque-clamps"
+    ],
+    "verification": [
+     "Caliper bolts threadlocked and torqued."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "refit-line-clamp",
+    "title": "Route the brake line and refit its clamp",
+    "instruction": "Lay the brake line back in the path you photographed and fit the clamp and its screws. Snug them firmly; the line must not rub on the tire or get pinched when the fork compresses.",
+    "depends_on": [
+     "refit-caliper"
+    ],
+    "verification": [
+     "Line routed as before, clamp secure, no kinks."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "prep-wheel",
+    "title": "Prep the wheel and axle",
+    "instruction": "Spin the wheel bearings by finger: rough, notchy or loose bearings mean stop and replace them before refit. Clean and lightly grease the seal lips and the faces where the spacers sit, push the spacers in, then wipe and lightly grease the axle.",
+    "depends_on": [
+     "refit-line-clamp"
+    ],
+    "verification": [
+     "Bearings smooth, seals and axle lightly greased, spacers in place."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-wheel",
+    "title": "Fit the wheel and axle",
+    "instruction": "Lift the wheel into the fork, guiding the disc between the pads, and slide the axle through. Check the pads have dropped onto each side of the disc rather than catching on its edge.",
+    "depends_on": [
+     "prep-wheel"
+    ],
+    "verification": [
+     "Axle through both legs, disc centred between the pads."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "torque-axle",
+    "title": "Torque the axle bolt",
+    "instruction": "Thread in the axle bolt and torque it to 35 Nm (25.8 lb-ft). Leave the pinch bolts loose for now.",
+    "depends_on": [
+     "fit-wheel"
+    ],
+    "verification": [
+     "Axle bolt at 35 Nm, pinch bolts still loose."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "pump-brake",
+    "title": "Pump the brake up",
+    "instruction": "Squeeze the front brake lever several times until it is firm and the pads are seated against the disc. A lever that stays soft means stop and find out why before going further.",
+    "depends_on": [
+     "torque-axle"
+    ],
+    "verification": [
+     "Lever firm at its normal position."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "align-legs",
+    "title": "Let the legs align, then pinch the axle",
+    "instruction": "Take the bike off the stand, hold the front brake on and push the fork down hard a few times so the legs settle square on the axle. Then torque the axle clamp pinch bolts on both legs to 15 Nm (11.1 lb-ft).",
+    "depends_on": [
+     "pump-brake"
+    ],
+    "verification": [
+     "Fork moves freely, pinch bolts at 15 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "bleed-legs",
+    "title": "Release trapped air from the legs",
+    "instruction": "With the bike back on the stand and the fork fully extended, crack open the bleeder screws at the top of the legs to let any built-up pressure out, then close them again.",
+    "depends_on": [
+     "align-legs"
+    ],
+    "verification": [
+     "Bleeders closed, no oil weeping."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "reset-air",
+    "title": "Reset the air pressure",
+    "instruction": "Check the air in the left leg with the fork airpump, no sooner than 5 minutes after the engine was last running and with the leg fully extended. Set the pressure the rider had, or 10.5 bar (152 psi) as the US stock value; stay between 7 and 12 bar (102-174 psi) and move in 0.2 bar (3 psi) steps. Refit the valve cap by hand only.",
+    "depends_on": [
+     "bleed-legs"
+    ],
+    "verification": [
+     "Pressure written down and inside 7-12 bar; cap on finger-tight."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "reset-clickers",
+    "title": "Put the clickers back",
+    "instruction": "Turn the compression and rebound clickers in gently to their stops and back out to the counts you wrote down at the start.",
+    "depends_on": [
+     "reset-air"
+    ],
+    "verification": [
+     "Clicker counts match the setup sheet."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "final-check",
+    "title": "Do the pre-ride check",
+    "instruction": "Check every bolt you touched is torqued, the wheel spins without drag, the brake bites firmly, and the fork compresses and returns smoothly with the brake held. Wipe the disc with brake cleaner if it was touched.",
+    "depends_on": [
+     "reset-clickers"
+    ],
+    "verification": [
+     "All checks passed; bike ready to ride."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   }
+  ]
+ },
+ {
+  "id": "bak-ktm-450sxf-2025-fork-full-service-v1",
+  "component": "fork",
+  "affected_components": [
+   "fork",
+   "fork_air_cartridge",
+   "fork_damping_cartridge",
+   "fork_seals",
+   "fork_bushings"
+  ],
+  "entry_state": [
+   "Bench module: both fork legs removed from the bike using the fork remove-and-refit guide, cleaned on the outside, clicker and air settings recorded."
+  ],
+  "exit_state": [
+   "Bench module: both legs rebuilt with new seals, oil and grease, air spring charged and clickers at baseline; ready to go back on the bike with the fork remove-and-refit guide (start at its clean-clamps step)."
+  ],
+  "target": {
+   "manufacturer": "KTM",
+   "model": "450 SX-F",
+   "model_year": 2025,
+   "variant": "standard",
+   "region": "US"
+  },
+  "title": "Full fork service: seals, bushings, oil, cartridges and air spring",
+  "completeness": "Covers air release, teardown of both legs, seal and bushing renewal, wear measurements, air cartridge and damping cartridge strip and rebuild, every oil and grease fill with quantities, air charge and clicker baseline; it does not cover re-valving or a shim stack spec (stacks go back exactly as they came out).",
+  "excluded": [
+   "Changing shim stacks or valving specs",
+   "Straightening bent tubes",
+   "Removing/refitting the legs on the bike (separate guide)",
+   "EU/BR fork (different rebound baseline and 10.4 bar air)",
+   "XC-F spring fork"
+  ],
+  "required_tools": [
+   {
+    "name": "Fork clamping stand (KTM T1403S) for the area the lower clamp grips",
+    "size": null
+   },
+   {
+    "name": "Fork cartridge ring wrench (KTM T14017)",
+    "size": null
+   },
+   {
+    "name": "Cartridge clamping stand (KTM T14072)",
+    "size": null
+   },
+   {
+    "name": "Piston rod clamping stand (KTM T14016S)",
+    "size": null
+   },
+   {
+    "name": "Special socket for compression unit / screw cap (KTM T14084)",
+    "size": null
+   },
+   {
+    "name": "Protecting sleeve for air cartridge piston rod thread (KTM T14073)",
+    "size": null
+   },
+   {
+    "name": "Mounting sleeve for air piston (KTM T14092)",
+    "size": null
+   },
+   {
+    "name": "Protecting sleeve for inner tube (KTM T1401)",
+    "size": null
+   },
+   {
+    "name": "Seal and bushing driver (KTM T14040S)",
+    "size": null
+   },
+   {
+    "name": "Fork airpump with digital gauge (KTM 79412966100)",
+    "size": null
+   },
+   {
+    "name": "Bench vise with soft jaws",
+    "size": null
+   },
+   {
+    "name": "Heat gun and surface thermometer (50 °C / 122 °F)",
+    "size": null
+   },
+   {
+    "name": "Torque wrenches covering 1.5-60 Nm",
+    "size": null
+   },
+   {
+    "name": "Outside micrometer, inside/bore gauge, V-blocks and dial indicator",
+    "size": null
+   },
+   {
+    "name": "600-grit wet-and-dry paper",
+    "size": null
+   },
+   {
+    "name": "Measuring cylinder (at least 400 ml) and drain pans",
+    "size": null
+   },
+   {
+    "name": "Long thin screwdrivers or zip ties to keep shim stacks in order",
+    "size": null
+   },
+   {
+    "name": "Small flat screwdriver for lock rings",
+    "size": null
+   },
+   {
+    "name": "Valve core tool",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Fork seal kit for both legs: dust boots, oil seal rings, lock rings, support rings",
+    "purpose": "Always replaced on every rebuild"
+   },
+   {
+    "name": "Fork oil SAE 4 (KTM 48601166S1), about 1.0 litre",
+    "purpose": "240 ml outer chamber each leg plus 380 ml right damping cartridge"
+   },
+   {
+    "name": "Special grease (KTM 00062010053)",
+    "purpose": "5 g inside the left air cartridge around the air piston"
+   },
+   {
+    "name": "Seal/O-ring lubricants as used by WP (T158, T159, T14034)",
+    "purpose": "Lubricating O-rings, seal lips and seal retainers"
+   },
+   {
+    "name": "New M6 self-locking nuts x2 (compression unit nut and damping piston nut)",
+    "purpose": "Never reused"
+   },
+   {
+    "name": "New seal ring for the compression unit piston and new friction ring for the main damping piston",
+    "purpose": "Fitted on rebuild"
+   },
+   {
+    "name": "New O-ring for the rebound adjustment valve; O-ring and X-ring for the compression unit",
+    "purpose": "Fitted on rebuild"
+   },
+   {
+    "name": "Sliding bushings (upper and lower, both legs)",
+    "purpose": "Only if worn: bronze showing or rough"
+   },
+   {
+    "name": "Loctite 243 and Loctite 2701",
+    "purpose": "Thread locking where noted"
+   }
+  ],
+  "prerequisites": [
+   "Legs off the bike and outer tubes washed.",
+   "Clicker counts and air pressure recorded before teardown.",
+   "A clean, lint-free bench with labeled trays: LEFT AIR, RIGHT DAMPING, COMP UNIT, MAIN PISTON.",
+   "Read through the whole guide once: the left leg is air spring only, the right leg is damping only."
+  ],
+  "critical_stop_conditions": [
+   "Air not fully released from the left cartridge (gauge or valve still hissing): do not unscrew anything on that cartridge.",
+   "Inner tube outside diameter under 47.975 mm, run-out over 0.20 mm, or chrome damaged: replace the inner tube.",
+   "Outer tube inside diameter over 49.20 mm or tube damaged: replace the outer tube.",
+   "Damping piston rod under 11.965 mm diameter, run-out over 0.40 mm, or scored: replace the rod.",
+   "Any shim stack lost order or a shim is bent or chipped: stop and get the correct stack before reassembly.",
+   "Self-locking nuts must be new; never refit a used one.",
+   "Never charge the air spring outside 7-12 bar (102-174 psi)."
+  ],
+  "steps": [
+   {
+    "id": "note-baseline",
+    "title": "Confirm settings are written down",
+    "instruction": "Check the setup sheet shows the air pressure and both clicker counts from the bike. You will put these back at the end unless you want the stock baseline.",
+    "depends_on": [],
+    "verification": [
+     "Air pressure and clicker counts recorded."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "air-release-top",
+    "title": "Let the air out of the left leg",
+    "instruction": "Stand the left leg upright, fully extended. Take off the valve cap and slowly let the air out of the valve until it stops hissing. Keep the leg fully extended so the positive and negative chambers can even out while it drains.",
+    "depends_on": [
+     "note-baseline"
+    ],
+    "verification": [
+     "No air escapes when the valve is pressed."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "left-clamp-loosen-cap",
+    "title": "Crack the left cartridge cap",
+    "instruction": "Clamp the left leg in the fork clamping stand (T1403S) where the lower triple clamp would grip. Break the cartridge loose from the outer tube with the ring wrench (T14017). It will not come out yet because it is still bolted at the axle end.",
+    "depends_on": [
+     "air-release-top"
+    ],
+    "verification": [
+     "Cartridge threads free from the outer tube."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "left-drain",
+    "title": "Drain the left leg oil",
+    "instruction": "Take the leg out of the stand, slide the outer tube down and tip the oil out into a pan. Pump the leg a few strokes over the pan to get the last of it. Look at the oil: metal glitter or heavy grey means the bushings are wearing.",
+    "depends_on": [
+     "left-clamp-loosen-cap"
+    ],
+    "verification": [
+     "Oil drained; its condition noted."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "left-axle-bolt",
+    "title": "Unbolt the cartridge at the axle clamp",
+    "instruction": "Hold the axle clamp in soft vise jaws. Remove the large bolt in the bottom of the axle clamp that holds the cartridge rod.",
+    "depends_on": [
+     "left-drain"
+    ],
+    "verification": [
+     "Cartridge bolt out, O-ring inspected."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "left-cartridge-out",
+    "title": "Lift out the air cartridge",
+    "instruction": "Pull the air cartridge out of the top of the leg and set it in the LEFT AIR tray. Remember it goes with the axle clamp that carries the brake mount and the blue adapter.",
+    "depends_on": [
+     "left-axle-bolt"
+    ],
+    "verification": [
+     "Air cartridge out, parts kept as a left-side set."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "left-seal-stack-off",
+    "title": "Unlock the left seal stack",
+    "instruction": "Pry the dust boot down off the outer tube and slide it down the inner tube; take off the fork protection ring only if it needs replacing. Find the beveled end of the lock ring under it and lift it out with a small screwdriver.",
+    "depends_on": [
+     "left-cartridge-out"
+    ],
+    "verification": [
+     "Dust boot down, lock ring out of its groove."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "left-split-tubes",
+    "title": "Separate the left tubes",
+    "instruction": "Warm the outer tube around the lower bushing area to about 50 °C (122 °F). Then pull the outer tube up off the inner tube in a few sharp strokes, letting the upper bushing knock the lower bushing out of its seat.",
+    "depends_on": [
+     "left-seal-stack-off"
+    ],
+    "verification": [
+     "Tubes apart without damaging the chrome."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "left-parts-off",
+    "title": "Strip the left inner tube",
+    "instruction": "Slide off, in order, the upper bushing (spread it slightly by hand, no tools), the lower bushing, support ring, oil seal, lock ring, dust boot and the lift indicator ring. Lay them out in the order they came off.",
+    "depends_on": [
+     "left-split-tubes"
+    ],
+    "verification": [
+     "All parts off and laid out in order."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "right-open-clickers",
+    "title": "Open the right leg clickers",
+    "instruction": "With the counts already on your sheet, turn both the compression (top) and rebound (bottom) clickers fully out, counter-clockwise, so the needles are off their seats.",
+    "depends_on": [
+     "left-parts-off"
+    ],
+    "verification": [
+     "Both clickers fully open."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "right-comp-knob",
+    "title": "Take off the compression knob",
+    "instruction": "Clamp the right leg in the stand (T1403S) at the lower clamp area. Remove the small screw and lift off the compression adjuster knob on top.",
+    "depends_on": [
+     "right-open-clickers"
+    ],
+    "verification": [
+     "Knob and screw bagged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "right-crack-cap",
+    "title": "Crack the right cartridge cap",
+    "instruction": "Break the damping cartridge loose from the outer tube with the ring wrench (T14017). It stays bolted at the bottom for now.",
+    "depends_on": [
+     "right-comp-knob"
+    ],
+    "verification": [
+     "Cap threads free."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "right-drain",
+    "title": "Drain the right leg oil",
+    "instruction": "Take the leg out of the stand, slide the outer tube down and drain the oil into a pan, pumping a few strokes to empty it. Note the oil's condition.",
+    "depends_on": [
+     "right-crack-cap"
+    ],
+    "verification": [
+     "Oil drained; condition noted."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "right-rebound-adjuster",
+    "title": "Remove the rebound adjuster",
+    "instruction": "Hold the axle clamp in soft vise jaws. Remove the small screw and the rebound adjuster knob, then unscrew the rebound adjuster body from the bottom of the axle clamp.",
+    "depends_on": [
+     "right-drain"
+    ],
+    "verification": [
+     "Rebound adjuster out, O-ring inspected."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "right-cartridge-out",
+    "title": "Lift out the damping cartridge",
+    "instruction": "Pull the damping cartridge out of the top of the leg and place it in the RIGHT DAMPING tray. It belongs with the silver adapter and the axle clamp without a brake mount.",
+    "depends_on": [
+     "right-rebound-adjuster"
+    ],
+    "verification": [
+     "Damping cartridge out."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "right-split-tubes",
+    "title": "Split and strip the right tubes",
+    "instruction": "Exactly as on the left: dust boot down, lock ring out by its beveled end, warm the lower bushing area to 50 °C (122 °F), pull the tubes apart with sharp strokes, then strip the bushings, support ring, seal, lock ring, dust boot and lift indicator in order.",
+    "depends_on": [
+     "right-cartridge-out"
+    ],
+    "verification": [
+     "Right leg fully stripped, parts laid out in order."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "air-check-empty",
+    "title": "Make sure the air cartridge is empty",
+    "instruction": "Take the cap off the air valve, pull the piston rod out to full length and press the valve again; let out any air that comes. Only when nothing comes out, unscrew the valve core.",
+    "depends_on": [
+     "right-split-tubes"
+    ],
+    "verification": [
+     "Valve core out, no pressure left."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "air-barrier-off",
+    "title": "Remove the fluid barrier",
+    "instruction": "Wipe the cartridge clean of oil, clamp it at the bottom in the cartridge stand (T14072) and slide off the fluid barrier sleeve. Photograph its position first.",
+    "depends_on": [
+     "air-check-empty"
+    ],
+    "verification": [
+     "Barrier off, position photographed."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "air-retainer-loose",
+    "title": "Loosen the air cartridge seal head",
+    "instruction": "Warm the threaded area of the cartridge to about 50 °C (122 °F), then unscrew the seal ring retainer. Lift the piston rod and retainer out together.",
+    "depends_on": [
+     "air-barrier-off"
+    ],
+    "verification": [
+     "Rod and seal head out of the cartridge tube."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "air-piston-off",
+    "title": "Strip the air piston rod",
+    "instruction": "Wipe the top of the rod and clamp it in the rod stand (T14016S). Warm the piston thread to 50 °C (122 °F) and unscrew the piston. Slide off the end stop, the spring pack and the seal ring retainer, keeping them in order.",
+    "depends_on": [
+     "air-retainer-loose"
+    ],
+    "verification": [
+     "Air piston, end stop, spring pack and seal head off and in order."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "damp-drain-breather",
+    "title": "Drain the damping cartridge",
+    "instruction": "Hold the damping cartridge so the oil drains out of its breathing hole. Then wipe the top clean and clamp it in the cartridge stand (T14072).",
+    "depends_on": [
+     "air-piston-off"
+    ],
+    "verification": [
+     "Most oil out, cartridge clamped."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "damp-comp-unit-out",
+    "title": "Unscrew the compression unit",
+    "instruction": "Use the special socket (T14084) to loosen the screw cap, then lift the cap out together with the compression valve unit. Unclamp the cartridge and pour out the rest of the oil.",
+    "depends_on": [
+     "damp-drain-breather"
+    ],
+    "verification": [
+     "Compression unit out, cartridge empty."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "damp-retainer-out",
+    "title": "Pull the damping rod",
+    "instruction": "Flip the cartridge, clean it and clamp it at the bottom. Remove the lock ring and the clamping ring, warm the thread area to 50 °C (122 °F), unscrew the seal ring retainer, and pull the rod out with the retainer and valve on it.",
+    "depends_on": [
+     "damp-comp-unit-out"
+    ],
+    "verification": [
+     "Rod assembly out of the cartridge."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "damp-piston-off",
+    "title": "Take the main piston off the rod",
+    "instruction": "Clean the rod and clamp it in the rod stand (T14016S). Remove the nut and washer, then slide the rebound shims onto a screwdriver or zip tie, take off the piston, and slide the compression shims onto a second holder. Remove the washer under them. Label each stack and never mix them.",
+    "depends_on": [
+     "damp-retainer-out"
+    ],
+    "verification": [
+     "Both shim stacks captured in order and labeled; piston orientation photographed."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "damp-rebound-valve-out",
+    "title": "Remove the rebound valve parts",
+    "instruction": "Warm the rebound valve body on the rod to 50 °C (122 °F) and unscrew it. Take out the spring with its seat and the adjustment needle valve with its spring, then unclamp the rod.",
+    "depends_on": [
+     "damp-piston-off"
+    ],
+    "verification": [
+     "Rebound valve, springs and needle out."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "damp-rod-strip",
+    "title": "Strip the rod",
+    "instruction": "Slide the seal ring retainer off the rod, then take off the two adjusting tubes, noting which way round each one came off.",
+    "depends_on": [
+     "damp-rebound-valve-out"
+    ],
+    "verification": [
+     "Rod bare, adjusting tubes kept in order."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "comp-unit-strip",
+    "title": "Strip the compression unit",
+    "instruction": "Clamp the special socket (T14084) in the vise and sit the compression unit in it. Remove the nut and washer, slide off the rebound shims onto a holder, then the piston, then the compression shims onto another holder. Remove the washer, unscrew the compression valve body, then lift out the second piston, spring seat and spring. Remove the X-ring and O-ring.",
+    "depends_on": [
+     "damp-rod-strip"
+    ],
+    "verification": [
+     "Compression unit fully stripped, stacks held and labeled."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "clean-all",
+    "title": "Clean everything",
+    "instruction": "Wash every metal part in clean solvent, blow dry, and lay out on lint-free towels. Keep shim stacks on their holders while cleaning.",
+    "depends_on": [
+     "comp-unit-strip"
+    ],
+    "verification": [
+     "All parts clean and dry, stacks still in order."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "inspect-inner-tube",
+    "title": "Check the inner tubes",
+    "instruction": "Look over each inner tube and axle clamp for chips, pits or dents. Measure the outside diameter at several points: anything under 47.975 mm (the spec is 47.975-48.005 mm) means a new tube. Roll it on V-blocks with a dial indicator; run-out over 0.20 mm means replace.",
+    "depends_on": [
+     "clean-all"
+    ],
+    "verification": [
+     "Both inner tubes within size and run-out, readings written down."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "inspect-outer-tube",
+    "title": "Check the outer tubes",
+    "instruction": "Measure each outer tube bore at several points. Over 49.20 mm, or any crack, dent or deep scoring, means a new outer tube.",
+    "depends_on": [
+     "inspect-inner-tube"
+    ],
+    "verification": [
+     "Both outer tube bores at or under 49.20 mm, readings written down."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "inspect-bushings",
+    "title": "Check the bushings",
+    "instruction": "Look at the slippery coating on each bushing. If bronze shows through the grey layer anywhere, or the surface feels rough, replace that bushing. Replacing all four together is good practice if any one is worn.",
+    "depends_on": [
+     "inspect-outer-tube"
+    ],
+    "verification": [
+     "Every bushing either passed or replaced."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "inspect-damp-rod",
+    "title": "Check the damping rod",
+    "instruction": "Look for scoring or chrome damage. Measure the rod diameter at several spots: under 11.965 mm means replace. Check run-out: over 0.40 mm means replace.",
+    "depends_on": [
+     "inspect-bushings"
+    ],
+    "verification": [
+     "Rod diameter and run-out written down and in limits."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "comp-unit-build-seals",
+    "title": "Start the compression unit",
+    "instruction": "Fit the new O-ring and X-ring on the compression unit body. Clamp the special socket (T14084) in the vise and set the unit in it.",
+    "depends_on": [
+     "inspect-damp-rod"
+    ],
+    "verification": [
+     "New O-ring and X-ring fitted."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "comp-unit-build-lower",
+    "title": "Build the compression unit lower half",
+    "instruction": "Drop in the spring and spring seat. Lube the inner O-ring of the piston (T159 lubricant), fit the piston, then the compression valve body with a drop of Loctite 243, torqued to 8 Nm (5.9 lb-ft). Fit the washer.",
+    "depends_on": [
+     "comp-unit-build-seals"
+    ],
+    "verification": [
+     "Valve body at 8 Nm with threadlocker."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "comp-unit-build-stacks",
+    "title": "Restack the compression unit",
+    "instruction": "Slide the compression shim stack on exactly as it came off, then the piston with its new seal ring the same way up as your photo, then the rebound shim stack and the washer.",
+    "depends_on": [
+     "comp-unit-build-lower"
+    ],
+    "verification": [
+     "Stacks and piston in original order and orientation."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "comp-unit-nut",
+    "title": "Torque the compression unit nut",
+    "instruction": "Fit a new M6 nut with Loctite 2701 and torque it to 5.5 Nm (4.06 lb-ft). Never reuse the old nut.",
+    "depends_on": [
+     "comp-unit-build-stacks"
+    ],
+    "verification": [
+     "New nut fitted at 5.5 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "damp-tube-1",
+    "title": "Fit the first adjusting tube",
+    "instruction": "Oil the first adjusting tube with SAE 4 fork oil and slide it into the rod with its loose end at the bottom.",
+    "depends_on": [
+     "comp-unit-nut"
+    ],
+    "verification": [
+     "Tube seated, loose end down."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "damp-clamp-ring",
+    "title": "Fit the clamping ring and seal head",
+    "instruction": "Slide the clamping ring onto the rod with the bulges up. Lube the seals in the seal ring retainer (T14034) and push it onto the rod with its thread facing up.",
+    "depends_on": [
+     "damp-tube-1"
+    ],
+    "verification": [
+     "Clamping ring bulges up, retainer thread up."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "damp-rebound-valve",
+    "title": "Refit the rebound valve",
+    "instruction": "Clamp the top of the rod in the stand (T14016S). Drop in the spring with its retainer at the bottom, then the adjustment needle valve with its spring and a new lubed O-ring (T158), tip facing up. Thread in the rebound valve body with Loctite 243 and torque to 20 Nm (14.8 lb-ft).",
+    "depends_on": [
+     "damp-clamp-ring"
+    ],
+    "verification": [
+     "Needle in tip-up, valve body at 20 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "damp-stacks",
+    "title": "Restack the main piston",
+    "instruction": "Fit the washer, the compression shim stack as removed, the piston with a new friction ring the same way up as your photo, then the rebound shim stack and washer.",
+    "depends_on": [
+     "damp-rebound-valve"
+    ],
+    "verification": [
+     "Stacks and piston in original order and orientation."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "damp-nut",
+    "title": "Torque the main piston nut",
+    "instruction": "Fit a new M6 nut with Loctite 2701 and torque to 5.5 Nm (4.06 lb-ft). Unclamp the rod.",
+    "depends_on": [
+     "damp-stacks"
+    ],
+    "verification": [
+     "New nut at 5.5 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "damp-rod-in",
+    "title": "Put the rod in the damping cartridge",
+    "instruction": "Clamp the cartridge at the bottom (T14072). Oil the friction ring with SAE 4 fork oil and slide the rod into the cartridge. Lube the seal head O-ring (T159) and torque the seal ring retainer to 60 Nm (44.3 lb-ft).",
+    "depends_on": [
+     "damp-nut"
+    ],
+    "verification": [
+     "Seal head at 60 Nm, rod moves smoothly."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "damp-lock",
+    "title": "Lock the seal head",
+    "instruction": "Set the clamping ring in place and snap the lock ring into its groove.",
+    "depends_on": [
+     "damp-rod-in"
+    ],
+    "verification": [
+     "Lock ring fully seated."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "damp-fill",
+    "title": "Fill and bleed the damping cartridge",
+    "instruction": "Flip the cartridge and clamp it at the top (T14016S). Pour in 380 ml (12.85 fl oz) of SAE 4 fork oil, then stroke the rod slowly up and down until no more bubbles come up.",
+    "depends_on": [
+     "damp-lock"
+    ],
+    "verification": [
+     "380 ml in, no bubbles rising."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "damp-comp-unit-in",
+    "title": "Fit the compression unit",
+    "instruction": "Oil the seals on the compression unit with fork oil and lube the screw cap O-ring (T159). Thread the screw cap and compression unit into the cartridge and torque with the special socket (T14084) to 30 Nm (22.1 lb-ft).",
+    "depends_on": [
+     "damp-fill"
+    ],
+    "verification": [
+     "Compression unit at 30 Nm, no oil weeping."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "air-seal-head",
+    "title": "Fit the air seal head",
+    "instruction": "Slip the protecting sleeve (T14073) over the piston rod thread so it can't cut the seals. Lube the inner seals of the seal ring retainer (T14034) and slide it on with the thread facing up.",
+    "depends_on": [
+     "damp-comp-unit-in"
+    ],
+    "verification": [
+     "Seal head on, seals undamaged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "air-spring-pack",
+    "title": "Fit spring pack, end stop and piston",
+    "instruction": "Slide on the spring pack with the wide side of the spring guide down, then the end stop. Clamp the rod just under the end stop (T14016S) and torque the air piston to 20 Nm (14.8 lb-ft).",
+    "depends_on": [
+     "air-seal-head"
+    ],
+    "verification": [
+     "Spring guide wide side down, piston at 20 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "air-grease",
+    "title": "Grease the air chamber",
+    "instruction": "Make sure the inside of the air cartridge is spotless. Spread 5 g (0.18 oz) of special grease (00062010053) around the piston and inside the cartridge tube.",
+    "depends_on": [
+     "air-spring-pack"
+    ],
+    "verification": [
+     "5 g grease applied, no grit or lint inside."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "air-rod-in",
+    "title": "Slide the air piston into the cartridge",
+    "instruction": "Clamp the cartridge in its stand (T14072), set the mounting sleeve (T14092) in its mouth and push the rod and piston in gently so the piston seal is not nicked. Remove the sleeve.",
+    "depends_on": [
+     "air-grease"
+    ],
+    "verification": [
+     "Piston in, seal not cut."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "air-seal-torque",
+    "title": "Torque the air seal head",
+    "instruction": "Lube the seal head O-ring (T158) and torque the seal ring retainer to 60 Nm (44.3 lb-ft). Refit the clamping ring / fluid barrier sleeve where it came from, matching your photo.",
+    "depends_on": [
+     "air-rod-in"
+    ],
+    "verification": [
+     "Seal head at 60 Nm, barrier back in place."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "air-charge",
+    "title": "Charge the air spring",
+    "instruction": "Screw the valve core back in, then pump the cartridge up with the fork airpump to 10.5 bar (152 psi), or the rider's recorded pressure. Stay between 7 and 12 bar (102-174 psi). Fit the valve cap by hand only.",
+    "depends_on": [
+     "air-seal-torque"
+    ],
+    "verification": [
+     "Pressure inside 7-12 bar, cap finger-tight, no leak-down after a few minutes."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "left-seal-stack-on",
+    "title": "Load new seals on the left inner tube",
+    "instruction": "Clamp the left axle clamp in soft jaws and cover the tube end with the protecting sleeve (T1401). Slide on the lift indicator, a new greased dust boot (spring side toward the axle), a new lock ring, and a new greased oil seal with its lip toward the axle and its open side up. Remove the sleeve and fit a new support ring.",
+    "depends_on": [
+     "air-charge"
+    ],
+    "verification": [
+     "New dust boot, lock ring, seal and support ring on, all the right way round."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "left-bushings-on",
+    "title": "Fit the left bushings",
+    "instruction": "Lightly dress the edges of the bushings with 600-grit paper, clean them and coat them in SAE 4 fork oil. Slide on the lower bushing, then fit the upper bushing in its groove (spread it by hand only).",
+    "depends_on": [
+     "left-seal-stack-on"
+    ],
+    "verification": [
+     "Both bushings on and oiled."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "left-drive-in",
+    "title": "Join the left tubes and drive the seal home",
+    "instruction": "Warm the outer tube around the lower bushing area to about 50 °C (122 °F). Slide the outer tube on, use the long end of the driver (T14040S) to tap the lower bushing fully into its seat, then the short end to drive the support ring and seal fully in. Snap the lock ring into its groove; you should hear it click.",
+    "depends_on": [
+     "left-bushings-on"
+    ],
+    "verification": [
+     "Bushing and seal fully seated, lock ring clicked in."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "left-boot-on",
+    "title": "Seat the left dust boot",
+    "instruction": "Push the dust boot down into the outer tube and refit the protection ring.",
+    "depends_on": [
+     "left-drive-in"
+    ],
+    "verification": [
+     "Dust boot fully seated."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "left-cartridge-in",
+    "title": "Install the air cartridge",
+    "instruction": "Match the air cartridge with the blue adapter to the axle clamp with the brake mount. Slide it into the inner tube, grease the O-ring of the bottom bolt (T159) and torque the cartridge bolt in the axle clamp to 40 Nm (29.5 lb-ft).",
+    "depends_on": [
+     "left-boot-on"
+    ],
+    "verification": [
+     "Correct cartridge in left leg, bottom bolt at 40 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "left-oil",
+    "title": "Fill the left leg",
+    "instruction": "Clamp the leg upright in soft jaws and pour in 240 ml (8.11 fl oz) of SAE 4 fork oil (allowed range 190-250 ml). Measure it, don't guess.",
+    "depends_on": [
+     "left-cartridge-in"
+    ],
+    "verification": [
+     "Oil volume measured and written down."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "left-cap-torque",
+    "title": "Close the left leg",
+    "instruction": "Lube the cartridge O-ring (T159), pull the outer tube up and thread the cartridge into it. Clamp the outer tube in the stand (T1403S) and torque the cartridge to 50 Nm (36.9 lb-ft) with the ring wrench (T14017).",
+    "depends_on": [
+     "left-oil"
+    ],
+    "verification": [
+     "Cartridge cap at 50 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "right-seal-stack-on",
+    "title": "Load new seals on the right inner tube",
+    "instruction": "Repeat the left-side seal loading on the right tube: sleeve over the tube end, lift indicator, new dust boot, lock ring, new seal (lip toward the axle), remove the sleeve, new support ring, then the dressed and oiled bushings.",
+    "depends_on": [
+     "left-cap-torque"
+    ],
+    "verification": [
+     "All new seal parts on the right way round."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "right-drive-in",
+    "title": "Join the right tubes and seat the seal",
+    "instruction": "Warm the outer tube to about 50 °C (122 °F) at the bushing, slide it on, drive the bushing and then the seal home with the driver (T14040S), click the lock ring in, seat the dust boot and refit the protection ring.",
+    "depends_on": [
+     "right-seal-stack-on"
+    ],
+    "verification": [
+     "Right seal and bushing fully home, lock ring clicked."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "right-cartridge-in",
+    "title": "Install the damping cartridge and rebound adjuster",
+    "instruction": "Slide the damping cartridge (silver adapter) into the right tube. Grease the rebound adjuster O-ring (T159), screw the adjuster into the axle clamp and torque to 40 Nm (29.5 lb-ft). Fit its knob and torque the small screw to 1.5 Nm (1.11 lb-ft).",
+    "depends_on": [
+     "right-drive-in"
+    ],
+    "verification": [
+     "Rebound adjuster at 40 Nm, knob screw at 1.5 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "right-oil",
+    "title": "Fill the right leg",
+    "instruction": "Clamp the leg upright and pour in 240 ml (8.11 fl oz) of SAE 4 fork oil (allowed range 190-250 ml).",
+    "depends_on": [
+     "right-cartridge-in"
+    ],
+    "verification": [
+     "Oil volume measured and written down."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "right-cap-torque",
+    "title": "Close the right leg",
+    "instruction": "Lube the cartridge O-ring (T159), push the outer tube up and thread the cartridge in. Clamp the outer tube in the stand (T1403S) and torque to 50 Nm (36.9 lb-ft) with the ring wrench (T14017). Refit the compression knob and torque its screw to 2 Nm (1.5 lb-ft).",
+    "depends_on": [
+     "right-oil"
+    ],
+    "verification": [
+     "Cap at 50 Nm, compression knob screw at 2 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "set-clickers",
+    "title": "Set the clickers",
+    "instruction": "Turn compression and rebound in gently until they stop, then back out to the rider's recorded counts. If you have no record, use the US standard: compression 12 clicks out, rebound 18 clicks out.",
+    "depends_on": [
+     "right-cap-torque"
+    ],
+    "verification": [
+     "Clicker counts written down."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "stroke-test",
+    "title": "Stroke-test both legs",
+    "instruction": "Stroke each leg slowly by hand through its travel. It should move smoothly with no notch, no hiss of air from the seals and no oil at the dust boots. Wipe the tubes clean.",
+    "depends_on": [
+     "set-clickers"
+    ],
+    "verification": [
+     "Both legs smooth and dry; ready to go back on the bike."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   }
+  ]
+ },
+ {
+  "id": "bak-ktm-450sxf-2025-shock-remove-refit-v1",
+  "component": "shock",
+  "affected_components": [
+   "shock",
+   "linkage",
+   "swingarm",
+   "chain",
+   "rear_brake",
+   "exhaust",
+   "frame"
+  ],
+  "entry_state": [
+   "Bike complete and cold, on a lift stand under the engine with the rear wheel hanging free."
+  ],
+  "exit_state": [
+   "Shock refitted with all mounting, swingarm pivot and linkage fasteners torqued, chain joined, rear brake free travel checked, guards and silencer back on; bike ready to ride."
+  ],
+  "target": {
+   "manufacturer": "KTM",
+   "model": "450 SX-F",
+   "model_year": 2025,
+   "variant": "standard",
+   "region": "US"
+  },
+  "title": "Take the rear shock out and put it back in",
+  "completeness": "Covers silencer and frame guard off, linkage and shock bottom bolt out, rear brake master cylinder off its push rod, chain split, swingarm pivot out, shock out the bottom, and the full refit with torques and brake check; it does not open the shock or service the linkage bearings.",
+  "excluded": [
+   "Shock internal service (separate guide)",
+   "Linkage or swingarm bearing service",
+   "Changing chain or sprockets",
+   "Rear brake hydraulic work"
+  ],
+  "required_tools": [
+   {
+    "name": "Lift stand under the engine",
+    "size": null
+   },
+   {
+    "name": "Exhaust spring hook",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 3-100 Nm",
+    "size": null
+   },
+   {
+    "name": "Sockets and wrenches for M10, M14 and M16 chassis fasteners",
+    "size": null
+   },
+   {
+    "name": "Chain master link pliers or small flat screwdriver",
+    "size": null
+   },
+   {
+    "name": "High-strength threadlocker (Loctite 2701)",
+    "size": null
+   },
+   {
+    "name": "A helper or a block to lift the swingarm slightly",
+    "size": null
+   },
+   {
+    "name": "Rag to protect the swingarm and frame from the chain",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Exhaust fully cold.",
+   "Bike washed around the linkage, shock and swingarm pivot.",
+   "Record shock clicker positions on the setup sheet before removal."
+  ],
+  "critical_stop_conditions": [
+   "Bike shifting on the stand when the swingarm pivot is out: stop and secure it before continuing.",
+   "Chain master link clip missing, bent or fitted with the closed end facing backwards: do not ride.",
+   "No free travel at the rear brake pedal after refit (must be 3-5 mm): the rear brake will drag and overheat; fix before riding.",
+   "Damaged threads or cracked mounts on the shock, linkage or pivot: stop and replace."
+  ],
+  "steps": [
+   {
+    "id": "record-shock",
+    "title": "Record the shock settings",
+    "instruction": "Note the low-speed compression clicks, high-speed compression turns and rebound clicks by counting each gently in to its stop and back out. Write down the spring length too if you plan to touch preload.",
+    "depends_on": [],
+    "verification": [
+     "Shock clicker counts on the setup sheet."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "silencer-off",
+    "title": "Take off the silencer",
+    "instruction": "Unhook the silencer spring with the spring hook, remove the silencer mounting screws with their washers and slide the silencer off.",
+    "depends_on": [
+     "record-shock"
+    ],
+    "verification": [
+     "Silencer off, screws and washers bagged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "frame-guard-off",
+    "title": "Take off the frame protectors",
+    "instruction": "Snip the cable ties, remove the screws with their bushings and lift off the left protector. Slide the right one forward and drop it out at the bottom.",
+    "depends_on": [
+     "silencer-off"
+    ],
+    "verification": [
+     "Both frame protectors off, bushings kept."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "stand",
+    "title": "Lift the bike",
+    "instruction": "Put the bike on the lift stand so the rear wheel hangs free and the bike is steady.",
+    "depends_on": [
+     "frame-guard-off"
+    ],
+    "verification": [
+     "Bike stable, rear wheel off the ground."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "shock-bottom-bolt",
+    "title": "Pull the shock bottom bolt and linkage bolt",
+    "instruction": "Have a helper lift the rear wheel a little to take load off the bolts. Remove the bolt through the bottom of the shock, then the bolt that joins the linkage rod to the rocker.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Both bolts out, linkage free to swing."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "brake-cyl-off",
+    "title": "Unhook the rear brake master cylinder",
+    "instruction": "Remove the two screws holding the rear brake master cylinder and pull it off its push rod. Keep it upright and let it hang; do not open the hydraulics.",
+    "depends_on": [
+     "shock-bottom-bolt"
+    ],
+    "verification": [
+     "Master cylinder hanging upright, push rod and dust boot intact."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "chain-split",
+    "title": "Split and remove the chain",
+    "instruction": "Take the clip off the master link, push out the link and lift the chain off. Lay rags over the swingarm and frame so the chain can't scratch them.",
+    "depends_on": [
+     "brake-cyl-off"
+    ],
+    "verification": [
+     "Chain off, master link parts kept together."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "pivot-out",
+    "title": "Pull the swingarm pivot",
+    "instruction": "Take off the swingarm pivot nut and slide out the pivot shaft. Ease the swingarm backward and prop it so it can't drop or tip.",
+    "depends_on": [
+     "chain-split"
+    ],
+    "verification": [
+     "Swingarm secured, bike still stable on the stand."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "shock-top-out",
+    "title": "Drop the shock out",
+    "instruction": "Hold the shock and remove the top mounting bolt. Lower the shock out the bottom carefully, steering the reservoir clear of the frame and wiring.",
+    "depends_on": [
+     "pivot-out"
+    ],
+    "verification": [
+     "Shock out without damaging the reservoir or wiring."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "clean-inspect",
+    "title": "Clean and look over the mounts",
+    "instruction": "Clean the bolts, pivot shaft and mount bores. Look for worn or notchy bearings, worn spacers and damaged seals while it is apart; anything rough means plan a linkage service before riding.",
+    "depends_on": [
+     "shock-top-out"
+    ],
+    "verification": [
+     "Fasteners and bores clean, condition noted."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "shock-in",
+    "title": "Lift the shock in",
+    "instruction": "Feed the shock up into the frame from below, reservoir first. Clean the top bolt, add Loctite 2701, fit it and torque to 60 Nm (44.3 lb-ft).",
+    "depends_on": [
+     "clean-inspect"
+    ],
+    "verification": [
+     "Top bolt at 60 Nm with threadlocker."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "pivot-in",
+    "title": "Refit the swingarm pivot",
+    "instruction": "Bring the swingarm forward into line and slide the pivot shaft through, lining its flat up with the matching flat. Fit the nut and torque to 100 Nm (73.8 lb-ft).",
+    "depends_on": [
+     "shock-in"
+    ],
+    "verification": [
+     "Pivot flat aligned, nut at 100 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "chain-join",
+    "title": "Join the chain",
+    "instruction": "Lay the chain back over the sprockets and join it with the master link. Fit the clip so its closed end leads in the direction the chain travels.",
+    "depends_on": [
+     "pivot-in"
+    ],
+    "verification": [
+     "Clip closed end facing direction of travel, fully seated."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "brake-cyl-on",
+    "title": "Refit the rear brake master cylinder",
+    "instruction": "Slide the master cylinder back onto its push rod, making sure the push rod engages and the dust boot sits properly. Fit the screws and torque to 10 Nm (7.4 lb-ft).",
+    "depends_on": [
+     "chain-join"
+    ],
+    "verification": [
+     "Push rod engaged, boot seated, screws at 10 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "linkage-bolt-in",
+    "title": "Refit the linkage bolt",
+    "instruction": "Line up the linkage rod with the rocker, insert the bolt with its flat lined up to the matching flat, and torque the nut to 60 Nm (44.3 lb-ft).",
+    "depends_on": [
+     "brake-cyl-on"
+    ],
+    "verification": [
+     "Flat aligned, nut at 60 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "shock-bottom-in",
+    "title": "Refit the shock bottom bolt",
+    "instruction": "Lift the swingarm slightly so the holes line up, clean the bolt, add Loctite 2701 and torque to 60 Nm (44.3 lb-ft).",
+    "depends_on": [
+     "linkage-bolt-in"
+    ],
+    "verification": [
+     "Bottom bolt at 60 Nm with threadlocker."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "brake-free-travel",
+    "title": "Check rear brake pedal free play",
+    "instruction": "Unhook the pedal return spring and move the pedal between its stop and the point where it touches the master cylinder piston. There must be 3-5 mm (0.12-0.2 in) of free travel; adjust the push rod if not. Reconnect the spring.",
+    "depends_on": [
+     "shock-bottom-in"
+    ],
+    "verification": [
+     "Free travel measured and written down, inside 3-5 mm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "chain-and-swing",
+    "title": "Check chain and swingarm movement",
+    "instruction": "Spin the rear wheel and watch the chain run straight over both sprockets. Push the swingarm through its travel by hand (the shock will resist) and listen for rubbing or binding.",
+    "depends_on": [
+     "brake-free-travel"
+    ],
+    "verification": [
+     "Chain runs true, no binding."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "guards-silencer-on",
+    "title": "Refit frame protectors and silencer",
+    "instruction": "Off the stand, refit the left frame protector, slide the right one in from below and back, and torque the screws to 3 Nm (2.2 lb-ft); add new cable ties. Fit the silencer with its screws loose, hook the spring, then torque the screws to 10 Nm (7.4 lb-ft).",
+    "depends_on": [
+     "chain-and-swing"
+    ],
+    "verification": [
+     "Protectors at 3 Nm with new ties; silencer screws at 10 Nm, spring on."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "final",
+    "title": "Final check and settings",
+    "instruction": "Set the shock clickers back to the recorded counts. Bounce the rear and check the brake works with the wheel turning. If the shock was serviced or the spring was changed, go straight to the sag guide before riding.",
+    "depends_on": [
+     "guards-silencer-on"
+    ],
+    "verification": [
+     "Clickers set, brake working; sag guide queued if needed."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   }
+  ]
+ },
+ {
+  "id": "bak-ktm-450sxf-2025-shock-service-v1",
+  "component": "shock",
+  "affected_components": [
+   "shock",
+   "shock_damper",
+   "shock_heim_joint",
+   "shock_spring"
+  ],
+  "entry_state": [
+   "Bench module: shock removed from the bike with the shock remove-and-refit guide, cleaned outside, clicker settings and spring length recorded."
+  ],
+  "exit_state": [
+   "Bench module: shock rebuilt, vacuum filled, nitrogen charged by a qualified shop, spring fitted at the set preload and clickers set; ready to go back in with the shock remove-and-refit guide (start at its shock-in step), then the sag guide."
+  ],
+  "target": {
+   "manufacturer": "KTM",
+   "model": "450 SX-F",
+   "model_year": 2025,
+   "variant": "standard",
+   "region": "US"
+  },
+  "title": "Rear shock service: oil, seals, piston, heim joint, nitrogen and spring",
+  "completeness": "Covers spring off, nitrogen release, damper strip, wear checks, piston and seal head rebuild, heim joint replacement, oil fill and bleed, nitrogen charge as a shop hand-off and spring refit with preload; it does not cover re-valving or a reservoir floating-piston seal change.",
+  "excluded": [
+   "Shim stack changes or valving specs",
+   "Reservoir floating-piston removal and its seal",
+   "EU/BR shock (same values, separate part number)",
+   "Linkage bearings",
+   "Nitrogen charging at home (shop job)"
+  ],
+  "required_tools": [
+   {
+    "name": "Bench vise with soft jaws",
+    "size": null
+   },
+   {
+    "name": "Shock spring hook wrench (KTM 90129051000)",
+    "size": null
+   },
+   {
+    "name": "Compression adjuster socket (KTM T18004)",
+    "size": null
+   },
+   {
+    "name": "Shock clamping stand (KTM T501S)",
+    "size": null
+   },
+   {
+    "name": "Drift (KTM T120)",
+    "size": null
+   },
+   {
+    "name": "Heim joint pressing tools (KTM T1207S and T1206)",
+    "size": null
+   },
+   {
+    "name": "Seal head mounting sleeve (KTM T1515)",
+    "size": null
+   },
+   {
+    "name": "Shock vacuum filling unit (KTM T1240S) or a shop that has one",
+    "size": null
+   },
+   {
+    "name": "Depth micrometer (KTM T107S)",
+    "size": null
+   },
+   {
+    "name": "Nitrogen filling tool and adapter (KTM T170S1 and T18001) - shop",
+    "size": null
+   },
+   {
+    "name": "Torque wrenches covering 3-40 Nm",
+    "size": null
+   },
+   {
+    "name": "Outside micrometer, bore gauge, V-blocks and dial indicator",
+    "size": null
+   },
+   {
+    "name": "Fine sandpaper for deburring the lock ring groove",
+    "size": null
+   },
+   {
+    "name": "Vernier or tape for spring length",
+    "size": null
+   },
+   {
+    "name": "Screwdrivers or zip ties to hold shim stacks in order",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Shock absorber fluid SAE 2.5 (KTM 50180751S1)",
+    "purpose": "Damper fill"
+   },
+   {
+    "name": "Seal head service parts: seals and O-rings for the seal ring retainer",
+    "purpose": "Renewed on every rebuild"
+   },
+   {
+    "name": "O-ring for the nitrogen fill screw",
+    "purpose": "Renewed"
+   },
+   {
+    "name": "Heim joint with two lock rings, two new seal rings and collar bushings as needed",
+    "purpose": "Only if worn, notchy or loose; seal rings are always new when the joint is pressed"
+   },
+   {
+    "name": "Main piston",
+    "purpose": "Only if the piston band is damaged or bronze shows"
+   },
+   {
+    "name": "Special grease (00062010053), lubricants T158, T159 and T625",
+    "purpose": "Piston rod thread, O-rings, seal head"
+   },
+   {
+    "name": "Nitrogen charge at 10 bar (145 psi)",
+    "purpose": "Done by the shop"
+   }
+  ],
+  "prerequisites": [
+   "Shock off the bike and the outside thoroughly clean.",
+   "Clicker settings and installed spring length written down.",
+   "A shop lined up that can vacuum-fill (if you don't have the unit) and charge nitrogen."
+  ],
+  "critical_stop_conditions": [
+   "The shock holds 10 bar nitrogen: always release it slowly at the reservoir fill screw before taking anything apart.",
+   "Damper body bore over 50.08 mm at any point, or scored: replace the damper body.",
+   "Piston rod under 17.95 mm diameter, run-out over 0.02 mm, or scored: replace the rod.",
+   "Shim stack order lost or a shim bent: stop and source the correct stack.",
+   "Floating piston not set to the correct depth after filling: the shock will be damaged on compression; do not charge or fit it.",
+   "Never fill the shock with anything other than dry nitrogen."
+  ],
+  "steps": [
+   {
+    "id": "measure-spring",
+    "title": "Measure installed spring length",
+    "instruction": "Clamp the shock body in soft vise jaws. Measure the spring length while it is still compressed on the shock and write it down. This is your way back to the rider's preload.",
+    "depends_on": [],
+    "verification": [
+     "Installed spring length written down."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "spring-off",
+    "title": "Take the spring off",
+    "instruction": "Loosen the clamp screw on the adjusting ring and unwind the ring with the hook wrench until the spring is loose. Remove the two-piece spring retainer, the upper washer, the spring and the lower washer.",
+    "depends_on": [
+     "measure-spring"
+    ],
+    "verification": [
+     "Spring and washers off; retainer halves kept together."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "open-clickers",
+    "title": "Open the shock clickers",
+    "instruction": "With the counts already recorded, turn the compression and rebound adjusters fully out so the needles are off their seats.",
+    "depends_on": [
+     "spring-off"
+    ],
+    "verification": [
+     "All adjusters fully open."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "release-nitrogen",
+    "title": "Let the nitrogen out",
+    "instruction": "Point the reservoir away from your face. Slowly unscrew the small fill screw on the reservoir until the gas hisses out, wait until it stops, then take the screw out with its O-ring.",
+    "depends_on": [
+     "open-clickers"
+    ],
+    "verification": [
+     "No gas left, screw and O-ring out."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "seal-head-unlock",
+    "title": "Unlock the seal head",
+    "instruction": "Remove the locking cap at the body end. Push the seal ring retainer down into the body to expose the lock ring and lift the lock ring out. Do not scratch the bore; take off any burrs at the groove edge with fine paper.",
+    "depends_on": [
+     "release-nitrogen"
+    ],
+    "verification": [
+     "Lock ring out, bore unmarked."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "rod-out",
+    "title": "Pull the shaft assembly",
+    "instruction": "Draw the piston rod and seal head out of the body over a drain pan.",
+    "depends_on": [
+     "seal-head-unlock"
+    ],
+    "verification": [
+     "Shaft assembly out."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "body-drain",
+    "title": "Drain the body and remove the compression adjuster",
+    "instruction": "Slide off the adjusting ring with its clamping ring and drain the oil. Unscrew the compression adjuster on the reservoir with the socket (T18004) and take out its spring and piston, catching the oil.",
+    "depends_on": [
+     "rod-out"
+    ],
+    "verification": [
+     "Body empty, compression adjuster, spring and piston out."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "piston-off",
+    "title": "Take the piston off the rod",
+    "instruction": "Clamp the rod by its eye in soft jaws. Remove the nut and washer, slide the rebound shims onto a holder, take off the piston, slide the compression shims onto a second holder and remove the rebound washer. Label both stacks and photograph the piston faces.",
+    "depends_on": [
+     "body-drain"
+    ],
+    "verification": [
+     "Stacks held in order and labeled, piston photographed."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "rod-strip",
+    "title": "Strip the rod",
+    "instruction": "Slide off the seal ring retainer, then the locking cap and the rubber bump stop. Pull the rebound adjuster needle out of the rod with a suitable tool.",
+    "depends_on": [
+     "piston-off"
+    ],
+    "verification": [
+     "Rod bare, needle out."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "clean",
+    "title": "Clean all parts",
+    "instruction": "Wash all metal parts in clean solvent and blow dry, keeping shim stacks on their holders.",
+    "depends_on": [
+     "rod-strip"
+    ],
+    "verification": [
+     "Everything clean and dry."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "measure-body",
+    "title": "Measure the damper body",
+    "instruction": "Measure the inside diameter at both ends and the middle. Over 50.08 mm anywhere, or any scoring, means a new damper body.",
+    "depends_on": [
+     "clean"
+    ],
+    "verification": [
+     "Three bore readings written down, all at or under 50.08 mm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "measure-rod",
+    "title": "Measure the piston rod",
+    "instruction": "Measure the rod diameter: under 17.95 mm means replace. Check run-out on V-blocks: over 0.02 mm means replace. Any scoring or chrome damage also means replace.",
+    "depends_on": [
+     "measure-body"
+    ],
+    "verification": [
+     "Diameter and run-out written down and in limits."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-piston",
+    "title": "Check the piston band",
+    "instruction": "Look at the piston ring band. Damage or bronze showing through means a new piston.",
+    "depends_on": [
+     "measure-rod"
+    ],
+    "verification": [
+     "Piston passed or replaced."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-heim",
+    "title": "Check the heim joint",
+    "instruction": "Rock and turn the heim joint at the bottom of the shock. Any play, notchiness or damage means replace it with the next steps; otherwise skip to rebuilding the rod.",
+    "depends_on": [
+     "check-piston"
+    ],
+    "verification": [
+     "Decision recorded: heim joint kept or replaced."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "heim-out",
+    "title": "Press out the old heim joint",
+    "instruction": "Clamp the shock in the clamping stand (T501S) in soft jaws. Knock out both collar bushings with the drift (T120) and pick out the seal rings. Press the joint against one lock ring with the pressing tool (T1207S), remove the other lock ring, then press the joint out.",
+    "depends_on": [
+     "check-heim"
+    ],
+    "verification": [
+     "Old joint out, bore clean and undamaged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "heim-in",
+    "title": "Press in the new heim joint",
+    "instruction": "Press the new joint fully into the eye with the pressing tool (T1206). Press it against the lock ring with T1207S and fit the second lock ring. Fit new seal rings and press in both collar bushings.",
+    "depends_on": [
+     "heim-out"
+    ],
+    "verification": [
+     "Joint seated between both lock rings, new seals and bushings in."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "rod-build-head",
+    "title": "Start rebuilding the rod",
+    "instruction": "Clamp the rod by its eye in soft jaws. Slide on the rubber bump stop and the locking cap. Fit the mounting sleeve (T1515) over the rod end, grease the dust wiper and slide the seal ring retainer (with its fresh seals) onto the rod using T625 lubricant, then remove the sleeve.",
+    "depends_on": [
+     "heim-in"
+    ],
+    "verification": [
+     "Bump stop, cap and seal head on; seals not cut."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "rod-build-stacks",
+    "title": "Rebuild the valving",
+    "instruction": "Fit the rebound washer with its cut-out facing down, then the compression stack with its smaller shims down, the piston the same way up as your photo, the rebound stack with its smaller shims up, and the washer with its groove down.",
+    "depends_on": [
+     "rod-build-head"
+    ],
+    "verification": [
+     "Stacks in original order; piston and washers the right way up."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "rod-nut",
+    "title": "Torque the piston nut",
+    "instruction": "Put special grease on the rod thread, fit the nut and torque to 40 Nm (29.5 lb-ft). Refit the rebound adjuster needle into the rod.",
+    "depends_on": [
+     "rod-build-stacks"
+    ],
+    "verification": [
+     "Nut at 40 Nm, needle in."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "comp-adjuster-in",
+    "title": "Refit the compression adjuster",
+    "instruction": "Lube the compression adjuster O-rings (T158) and threads (T159). Put the piston and spring back in, then torque the adjuster to 35 Nm (25.8 lb-ft).",
+    "depends_on": [
+     "rod-nut"
+    ],
+    "verification": [
+     "Compression adjuster at 35 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "adjusting-ring-on",
+    "title": "Fit the preload ring now",
+    "instruction": "Clamp the body in soft jaws and slide the adjusting ring and clamping ring onto it. It cannot go on once the shaft is in.",
+    "depends_on": [
+     "comp-adjuster-in"
+    ],
+    "verification": [
+     "Adjusting ring and clamping ring on the body."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "half-fill",
+    "title": "Half-fill the body and fit the shaft",
+    "instruction": "Pour SAE 2.5 shock fluid into the body until it is about half full. Lube the seal head O-ring (T158) and slide the shaft assembly in carefully.",
+    "depends_on": [
+     "adjusting-ring-on"
+    ],
+    "verification": [
+     "Shaft in, no O-ring nicked."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "seal-head-lock",
+    "title": "Lock the seal head in",
+    "instruction": "Push the seal ring retainer down past the groove, fit the lock ring without scratching the bore, then pull the shaft out until the retainer sits flush against the lock ring. Fit the locking cap.",
+    "depends_on": [
+     "half-fill"
+    ],
+    "verification": [
+     "Lock ring seated, retainer flush against it, cap on."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "vacuum-fill",
+    "title": "Vacuum-fill and set the floating piston",
+    "instruction": "With all adjusters fully open and the fill port at the top, connect the vacuum filling unit (T1240S). Pull vacuum to 4 mbar, measure the floating piston depth A with the depth micrometer (T107S), and run two fill cycles to 3 bar and back. Set the floating piston to depth A minus 5 mm with the shaft fully extended, then torque the fill port screw to 14 Nm (10.3 lb-ft). No vacuum unit? Stop here and hand the shock over: ask the shop to vacuum-fill with SAE 2.5 fluid and set the floating piston to A minus 5 mm.",
+    "depends_on": [
+     "seal-head-lock"
+    ],
+    "verification": [
+     "Floating piston depth written down; fill screw at 14 Nm, or shock handed to the shop for filling."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "nitrogen-handoff",
+    "title": "Shop hand-off: nitrogen charge",
+    "instruction": "Take the shock to a suspension shop with dry nitrogen and the reservoir filling tool. Ask for: new O-ring on the reservoir fill screw, shaft fully extended, charge to 10 bar (145 psi) for at least 15 seconds, and fill screw tightened to 3 Nm (2.2 lb-ft). Ask them to confirm no leak-down before you collect it.",
+    "depends_on": [
+     "vacuum-fill"
+    ],
+    "verification": [
+     "Shop confirms 10 bar nitrogen, screw at 3 Nm, no leak-down; written on the job sheet."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "set-clickers",
+    "title": "Set the shock clickers",
+    "instruction": "Turn each adjuster in gently to its stop, then back out to the rider's counts. With no record, use US standard: low-speed compression 15 clicks, high-speed compression 1.5 turns, rebound 15 clicks.",
+    "depends_on": [
+     "nitrogen-handoff"
+    ],
+    "verification": [
+     "Clicker counts written down."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "spring-measure-free",
+    "title": "Measure the spring free length",
+    "instruction": "Check the adjusting ring and its clamping ring are on, fit the lower washer and stand the spring on the bench. Measure its free length (stock is 240 mm) and read the rate printed on it: 42 N/mm for 65-75 kg riders, 45 for 75-85 kg, 48 for 85-95 kg.",
+    "depends_on": [
+     "set-clickers"
+    ],
+    "verification": [
+     "Free length and rate written down."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "spring-on",
+    "title": "Fit the spring",
+    "instruction": "Slide the spring on, then the upper washer and both halves of the spring retainer.",
+    "depends_on": [
+     "spring-measure-free"
+    ],
+    "verification": [
+     "Spring, washer and retainer seated."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "set-preload",
+    "title": "Set the preload",
+    "instruction": "Wind the adjusting ring up with the hook wrench until the spring is shortened by 8 mm (0.31 in) from its free length, or to the installed length you recorded at the start. Torque the ring clamp screw to 5 Nm (3.7 lb-ft).",
+    "depends_on": [
+     "spring-on"
+    ],
+    "verification": [
+     "Installed spring length written down, clamp screw at 5 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "handoff-to-bike",
+    "title": "Ready to fit",
+    "instruction": "Wipe the shock clean and check the reservoir and seal head are dry. Fit it with the shock remove-and-refit guide, then set sag with the sag guide before riding.",
+    "depends_on": [
+     "set-preload"
+    ],
+    "verification": [
+     "Shock dry, sag guide next."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   }
+  ]
+ },
+ {
+  "id": "bak-ktm-450sxf-2025-sag-and-baseline-v1",
+  "component": "shock",
+  "affected_components": [
+   "shock",
+   "fork",
+   "shock_spring"
+  ],
+  "entry_state": [
+   "Bike assembled and ready to ride, on a lift stand, rider and helper available, rider in full riding gear."
+  ],
+  "exit_state": [
+   "Static sag, rider sag, fork air pressure and all clicker positions measured, set to baseline and recorded; bike ready to ride."
+  ],
+  "target": {
+   "manufacturer": "KTM",
+   "model": "450 SX-F",
+   "model_year": 2025,
+   "variant": "standard",
+   "region": "US"
+  },
+  "title": "Set sag and the stock suspension baseline",
+  "completeness": "Covers measuring unloaded, static and rider sag, correcting preload or flagging a spring change, and setting fork air and every fork and shock clicker to the US stock baseline with a written record; it does not cover track tuning beyond the stock range.",
+  "excluded": [
+   "Re-valving",
+   "Fork spring changes (air fork has no spring)",
+   "Track-specific tuning"
+  ],
+  "required_tools": [
+   {
+    "name": "Lift stand",
+    "size": null
+   },
+   {
+    "name": "Sag gauge (KTM 00029090200) or a long steel rule",
+    "size": null
+   },
+   {
+    "name": "Fork airpump with digital gauge",
+    "size": null
+   },
+   {
+    "name": "Flat-blade screwdriver and socket for shock high-speed adjuster",
+    "size": null
+   },
+   {
+    "name": "Shock spring hook wrench (KTM 90129051000)",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 5 Nm",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Bike at operating weight with fuel as usually ridden.",
+   "Shock and linkage free of binding.",
+   "Engine off at least 5 minutes before checking fork air."
+  ],
+  "critical_stop_conditions": [
+   "Rider sag still off 105 mm after preload is corrected within reason: the spring rate is wrong for the rider; fit the correct spring before riding hard.",
+   "Fork air outside 7-12 bar (102-174 psi): never ride.",
+   "Any clicker forced past its stop: stop and inspect the adjuster before riding."
+  ],
+  "steps": [
+   {
+    "id": "measure-a",
+    "title": "Measure the rear unloaded",
+    "instruction": "With the rear wheel hanging free on the stand, put the sag gauge on the rear axle centre and read the distance up to the SAG mark on the rear fender. Write this down as A.",
+    "depends_on": [],
+    "verification": [
+     "A written down."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "measure-b",
+    "title": "Measure static sag",
+    "instruction": "Take the bike off the stand and have a helper hold it upright without leaning on it. Measure the same points again as B. Static sag is A minus B; the target is 35 mm (1.38 in).",
+    "depends_on": [
+     "measure-a"
+    ],
+    "verification": [
+     "B and static sag (A-B) written down."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "measure-c",
+    "title": "Measure rider sag",
+    "instruction": "The rider, in full gear, sits in the normal position with feet on the pegs while a helper holds the bike upright. Bounce a few times to let it settle, then measure again as C. Rider sag is A minus C; the target is 105 mm (4.13 in).",
+    "depends_on": [
+     "measure-b"
+    ],
+    "verification": [
+     "C and rider sag (A-C) written down."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "decide",
+    "title": "Decide what to change",
+    "instruction": "If static sag is not 35 mm, adjust preload in the next steps. If preload is right but rider sag is far from 105 mm, the spring rate is wrong for the rider's weight: 42 N/mm for 65-75 kg, 45 N/mm for 75-85 kg, 48 N/mm for 85-95 kg. A spring change follows the shock remove-and-refit guide.",
+    "depends_on": [
+     "measure-c"
+    ],
+    "verification": [
+     "Decision written: no change, preload change, or spring change."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "preload-access",
+    "title": "Get to the preload ring",
+    "instruction": "On this bike the shock comes out to adjust preload. Remove it with the shock remove-and-refit guide and clean it, then clamp it in soft jaws.",
+    "depends_on": [
+     "decide"
+    ],
+    "verification": [
+     "Shock out and clean."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "preload-adjust",
+    "title": "Adjust preload",
+    "instruction": "Note the current spring length. Loosen the clamp screw on the adjusting ring and turn the ring with the hook wrench: winding it down adds preload and reduces sag. The stock starting point is 8 mm (0.31 in) of compression from free length. Torque the clamp screw to 5 Nm (3.7 lb-ft).",
+    "depends_on": [
+     "preload-access"
+    ],
+    "verification": [
+     "New installed spring length written down, clamp screw at 5 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "preload-refit",
+    "title": "Refit and re-measure",
+    "instruction": "Refit the shock with the shock remove-and-refit guide, then repeat the A, B and C measurements until static sag is 35 mm and rider sag is 105 mm, or a spring change is booked.",
+    "depends_on": [
+     "preload-adjust"
+    ],
+    "verification": [
+     "Final static and rider sag written down."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fork-air",
+    "title": "Set the fork air",
+    "instruction": "With the engine off at least 5 minutes and the fork fully extended on the stand, connect the airpump to the left leg and set 10.5 bar (152 psi). Change only in 0.2 bar (3 psi) steps and stay between 7 and 12 bar. Cap on by hand. (EU/BR bikes use 10.4 bar.)",
+    "depends_on": [
+     "preload-refit"
+    ],
+    "verification": [
+     "Air pressure written down."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fork-bleed",
+    "title": "Bleed the fork legs",
+    "instruction": "Briefly open the bleeder screws at the top of both legs to let out any pressure built up from riding, then close them.",
+    "depends_on": [
+     "fork-air"
+    ],
+    "verification": [
+     "Bleeders closed."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fork-comp",
+    "title": "Set fork compression",
+    "instruction": "Turn the compression clicker at the top of the right leg in gently to its stop, then out 12 clicks (Standard; Comfort 17, Sport 7).",
+    "depends_on": [
+     "fork-bleed"
+    ],
+    "verification": [
+     "Fork compression clicks written down."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fork-reb",
+    "title": "Set fork rebound",
+    "instruction": "Turn the rebound clicker at the bottom of the right leg in gently to its stop, then out 18 clicks (US Standard; Comfort 23, Sport 13). EU/BR forks use 12 clicks standard.",
+    "depends_on": [
+     "fork-comp"
+    ],
+    "verification": [
+     "Fork rebound clicks written down."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "shock-lsc",
+    "title": "Set shock low-speed compression",
+    "instruction": "Turn the low-speed screw on the reservoir in to the last click, then out 15 clicks (Standard; Comfort 17, Sport 13).",
+    "depends_on": [
+     "fork-reb"
+    ],
+    "verification": [
+     "Low-speed compression clicks written down."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "shock-hsc",
+    "title": "Set shock high-speed compression",
+    "instruction": "Turn the high-speed hex on the reservoir in to its stop, then out 1.5 turns (Standard; Comfort 2, Sport 1).",
+    "depends_on": [
+     "shock-lsc"
+    ],
+    "verification": [
+     "High-speed compression turns written down."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "shock-reb",
+    "title": "Set shock rebound",
+    "instruction": "Turn the rebound adjuster at the bottom of the shock in to the last click you can feel, then out 15 clicks (Standard; Comfort 17, Sport 13).",
+    "depends_on": [
+     "shock-hsc"
+    ],
+    "verification": [
+     "Shock rebound clicks written down."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "first-ride",
+    "title": "Save the sheet and shake down",
+    "instruction": "Save the full sheet: A, B, C, sag figures, spring rate and length, fork air and every clicker. Ride slowly at first to get the feel; if the fork bottoms often, add air in 0.2 bar steps within the range.",
+    "depends_on": [
+     "shock-reb"
+    ],
+    "verification": [
+     "Setup sheet complete; bike ready to ride."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   }
+  ]
+ }
+]
