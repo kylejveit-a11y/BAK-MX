@@ -14,6 +14,7 @@ const DOMAIN_HINTS:[RegExp,string][]=[
  [/\b(port|porting|power ?valve|ypvs|reed|cylinder|head|compression|cam|valve|bore|stroke|piston)\b/i,'engine_architecture'],
  [/\b(mod|mods|exhaust|pipe|silencer|build|faster|more power|race fuel|big bore|jet|jets|jetting|carb|carburetor|needle|plug|plugs|airbox|air box|choked|corked|uncork\w*|restrict\w*|throttle stop|baffle|insert|held back|holding (it|me) back|green sticker|emissions|flywheel|fly ?wheel weight|inertia|stall\w*|lug\w*|spins? up)\b/i,'engine_mods'],
  [/\b(gear|gearing|sprocket|ratio|speed|top speed)\b/i,'drivetrain'],
+ [/\b(torque spec\w*|tighten\w*|torqu(e|ing) (the |a )?\w*\s?(bolt|nut|screw)|bolt|bolts|nut|nuts|n·?m|nm|ft[- ]?lbs?|lb[- ]?ft|clearance\w*|valve (clearance|check|adjust\w*)|shim|service|interval\w*|hours?|maintenance|oil change|change (the )?oil|oil capacity|how much oil|coolant|replace\w*|rebuild|top end|bottom end|piston|rings?|wear limit|limit|spark plug|air filter|fork oil|spec|specs|specification\w*)\b/i,'maintenance'],
  [/\b(rake|trail|wheelbase|frame|chassis|handling|corner|turn|stable|stability|weight)\b/i,'chassis'],
  [/\b(problem|issue|fail|failure|recall|bulletin|known|common|break|broke|leak|foul|fouls|fouling|boil|boils|boiling|overheat\w*|stall\w*|bog\w*|ping\w*|detonat\w*|hard start\w*|won'?t start)\b/i,'known_issues'],
  [/\b(change|changed|new|differen|vs|versus|compare|generation|update)\b/i,'identity'],
@@ -24,15 +25,23 @@ const words=(s:string)=>new Set(s.toLowerCase().match(/[a-z0-9]{3,}/g)??[]);
 /** Rank the bike's knowledge for this question: domain hints from the rider's words, then word overlap. */
 export function rankKnowledge(rows:Knowledge[],text:string,limit=MAX_ROWS):Knowledge[]{
  const want=new Set(DOMAIN_HINTS.filter(([re])=>re.test(text)).map(([,d])=>d)),q=words(text);
+ // 'Torque' next to a fastener means tightening torque, not engine torque.
+ if(/\b(bolt|bolts|nut|nuts|screw|axle|tighten\w*|n·?m|ft[- ]?lbs?|lb[- ]?ft)\b/i.test(text))want.delete('power_feel');
  const score=(k:Knowledge)=>{let s=want.has(k.domain)?10:0;for(const w of words(k.topic+' '+k.statement))if(q.has(w))s+=1;s+=k.tier==='OEM'||k.tier==='MEASURED'?1:0;return s;};
  return rows.map(k=>({k,s:score(k)})).filter(x=>x.s>=3).sort((a,b)=>b.s-a.s).slice(0,limit).map(x=>x.k);
+}
+/** Keep the briefing a sensible size: large rows (full torque tables, schedules) only while the budget lasts. */
+export function withinBudget(rows:Knowledge[],budget=36000):Knowledge[]{
+ let used=0;const out:Knowledge[]=[];
+ for(const k of rows){const n=JSON.stringify(k).length;if(used+n>budget&&out.length)continue;used+=n;out.push(k);}
+ return out;
 }
 export async function bikeKnowledge(db:SupabaseClient,bike:Bike,message:string,lookups:string[]=[]):Promise<Knowledge[]>{
  const s=exactBikeScope(bike);
  const {data,error}=await db.from('bike_knowledge').select('id,domain,topic,statement,tier,vals,notes,confidence').eq('manufacturer',s.manufacturer).eq('model',s.model).eq('model_year',s.model_year).eq('status','APPROVED').limit(600);
  if(error||!Array.isArray(data))return [];// Deep knowledge is additive; a read failure must not block the answer.
  const rows=data.map(r=>({id:'K-'+r.id,domain:r.domain,topic:r.topic,statement:r.statement,tier:r.tier,values:r.vals??{},notes:r.notes??'',confidence:r.confidence})) as Knowledge[];
- return rankKnowledge(rows,[message,...lookups].join(' '));
+ return withinBudget(rankKnowledge(rows,[message,...lookups].join(' ')));
 }
 /** Which answer tier each knowledge tier may support. */
 export const knowledgeClaimTier:Record<KnowledgeTier,'PUBLISHED'|'COMMUNITY'|'ENGINEERING'>={OEM:'PUBLISHED',MEASURED:'COMMUNITY',TUNER:'COMMUNITY',COMMUNITY:'COMMUNITY',DERIVED:'ENGINEERING'};

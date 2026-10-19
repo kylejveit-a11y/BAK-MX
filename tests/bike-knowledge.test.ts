@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {rankKnowledge,type Knowledge} from '../server/knowledge.ts';
+import {rankKnowledge,withinBudget,type Knowledge} from '../server/knowledge.ts';
 import {responseViolations} from '../server/engineering.ts';
 const k=(id:string,domain:string,topic:string,tier:Knowledge['tier'],statement='x'):Knowledge=>({id,domain,topic,statement,tier,values:{},notes:'',confidence:'high'});
 const rows=[k('K-1','ecu_electronics','Power Tuner fuel grid','TUNER','Smoother arenacross map'),k('K-2','power_feel','peak horsepower','MEASURED','55 hp on a dyno'),k('K-3','chassis','rake','OEM','27 degrees'),k('K-4','engine_architecture','bore and stroke ratio','DERIVED','oversquare')];
@@ -42,4 +42,14 @@ test('bikes the rider names to compare are found by model name or by make',async
  assert.deepEqual(mentionedBikes('my buddy has a CRF450R',{manufacturer:'KTM',model:'450 SX-F',model_year:2025}).map(b=>b.model),['CRF450R']);
  assert.deepEqual(mentionedBikes('is my bike fast?',{manufacturer:'KTM',model:'450 SX-F',model_year:2025}),[]);
  assert.equal(mentionedBikes('vs the yz250',{manufacturer:'KTM',model:'250 SX',model_year:2024})[0]?.model,'YZ250');
+});
+
+test('torque and service questions reach the manual tables, within a size budget',()=>{
+ const big=(id:string)=>({...k(id,'maintenance','chassis tightening torques','OEM','torques'),values:{t:'x'.repeat(15000)}});
+ const r=[big('K-20'),k('K-21','power_feel','peak torque','MEASURED','36 lb-ft'),k('K-22','chassis','rake','OEM','27 degrees')];
+ assert.equal(rankKnowledge(r,'what is the rear axle nut torque?')[0]?.id,'K-20');
+ assert.equal(rankKnowledge(r,'how often should I change the oil?')[0]?.domain,'maintenance');
+ const many=[big('K-30'),big('K-31'),big('K-32'),k('K-33','setups','x','OEM','y')];
+ const kept=withinBudget(many);
+ assert.ok(kept.length<many.length&&kept[0].id==='K-30');
 });
