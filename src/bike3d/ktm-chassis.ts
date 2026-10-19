@@ -57,11 +57,11 @@ function motocrossKnobGeometry(length:number,height:number,width:number){
   const next=(i+1)%8;
   // Face normals point outwards, including the tapered rubber shoulders.
   for(const [lower,ly,upper,uy] of [[base,baseY,shoulder,shoulderY],[shoulder,shoulderY,cap,capY]] as const){
-   triangle(at(lower,ly,i),at(lower,ly,next),at(upper,uy,next));
-   triangle(at(lower,ly,i),at(upper,uy,next),at(upper,uy,i));
+   triangle(at(lower,ly,i),at(upper,uy,next),at(lower,ly,next));
+   triangle(at(lower,ly,i),at(upper,uy,i),at(upper,uy,next));
   }
-  triangle([0,capY,0],at(cap,capY,i),at(cap,capY,next));
-  triangle([0,baseY,0],at(base,baseY,next),at(base,baseY,i));
+  triangle([0,capY,0],at(cap,capY,next),at(cap,capY,i));
+  triangle([0,baseY,0],at(base,baseY,i),at(base,baseY,next));
  }
  const geometry=new T.BufferGeometry();
  geometry.setAttribute('position',new T.Float32BufferAttribute(vertices,3));
