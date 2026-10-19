@@ -294,7 +294,7 @@ async function callModel(model:string,args:Call):Promise<{parsed:unknown;raw:Pro
  try{return {parsed:JSON.parse(output),raw};}catch{throw new HttpError(502,'AI response was invalid');}
 }
 /** Try the primary model, then the configured backup when the provider (not the rider's request) failed. */
-async function callWithBackup(primary:string|undefined,args:Call):Promise<{parsed:unknown;raw:ProviderResult;model:string}>{
+export async function callWithBackup(primary:string|undefined,args:Call):Promise<{parsed:unknown;raw:ProviderResult;model:string}>{
  if(!primary)throw new HttpError(503,'AI is not configured');
  try{return {...await callModel(primary,args),model:primary};}
  catch(e){

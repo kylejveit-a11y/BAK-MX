@@ -1003,3 +1003,18 @@ body.sheet-open{overflow:hidden}
 .guided-says{margin:0 0 10px;padding:10px 14px;border-radius:12px;background:#151a24;color:#cdd6e4;font-size:14px}
 @media (max-width:760px){.guided-controls{grid-template-columns:1fr 1fr}.guided-controls .button:last-child{grid-column:1/-1}}
 .rebuild-standard{margin:8px 0 12px}.rebuild-standard ul{list-style:none;padding:0;margin:6px 0;color:var(--muted);font-size:14px}.rebuild-standard li.met{color:#dfe6f2}
+/* Manual Drive */
+.manual-drive{display:grid;gap:16px}.drive-hero h2{margin:6px 0 10px}.drive-hero .subtle{display:flex;gap:6px;align-items:flex-start}
+.drive-stats{display:flex;gap:18px;flex-wrap:wrap;margin:6px 0 10px;color:var(--muted)}.drive-stats b{color:#e7ecf5;font-size:20px;margin-right:4px}
+.drive-filters{display:grid;grid-template-columns:2fr 1fr;gap:10px;margin-bottom:10px}.search-input{display:flex;align-items:center;gap:8px;background:#0a0c11;border:1px solid var(--line);border-radius:12px;padding:0 12px}.search-input input{flex:1;background:none;border:0;color:inherit;padding:10px 0}
+.drive-list{display:grid;gap:8px}.drive-row{display:flex;justify-content:space-between;gap:14px;align-items:center;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#0d1016}
+.drive-row strong{font-size:16px}.drive-years{margin-left:10px;color:var(--accent);font-weight:600;font-size:14px}.drive-row p{margin:2px 0 0}
+.drive-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}.drive-actions .chat-action{display:inline-flex;align-items:center;gap:4px;text-decoration:none}.drive-actions .chat-action small{color:var(--muted);margin-left:4px}
+.drive-actions .button{display:inline-flex;align-items:center;gap:6px}
+.drive-upload input[type=file]{display:block;margin:10px 0;color:var(--muted)}.drive-upload .button{display:inline-flex;align-items:center;gap:6px}
+.drive-result h3{display:flex;align-items:center;gap:8px}.drive-result.accepted h3{color:#bfe3c8}.drive-result.rejected h3{color:#f0b8b8}
+.reward-code{display:flex;gap:12px;align-items:flex-start;border:1px solid #3a5a86;background:#101a28;border-radius:14px;padding:14px 16px;margin:10px 0}.reward-code code{display:block;font-size:22px;letter-spacing:.08em;color:#fff;margin:4px 0}
+.redeem form{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}.redeem input{flex:1;min-width:200px;background:#0a0c11;border:1px solid var(--line);border-radius:12px;padding:10px 12px;color:inherit;letter-spacing:.06em}
+.drive-mine{display:flex;gap:10px;align-items:flex-start}.drive-mine .ok{color:#8fd3a3}.drive-mine .bad{color:#e69a9a}
+.spin{animation:spin 1s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+@media (max-width:760px){.drive-row{flex-direction:column;align-items:stretch}.drive-actions{justify-content:flex-start}.drive-filters{grid-template-columns:1fr}}
