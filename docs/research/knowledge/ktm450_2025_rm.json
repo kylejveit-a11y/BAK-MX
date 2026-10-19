@@ -1,0 +1,1450 @@
+{
+ "slice": "KTM 2025 450 SX-F repair manual technical data",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "450 SX-F",
+   "450 XC-F"
+  ],
+  "years": [
+   2025
+  ]
+ },
+ "records": [
+  {
+   "id": "k25rm-001",
+   "domain": "engine_architecture",
+   "topic": "engine technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "KTM's 2025 450 SX-F repair manual lists a 449.9 cc water-cooled single (95 x 63.4 mm, 13.6:1, OHC 4 valves via rocker arm) with 0.10-0.15 mm intake and 0.12-0.17 mm exhaust valve clearance at 20 °C, a 5-speed gearbox on all SX-F models and a 6-speed on the XC-F US.",
+   "values": {
+    "design": "1-cylinder 4-stroke engine, water-cooled",
+    "displacement": "449.9 cm³ (27.455 cu in)",
+    "stroke": "63.4 mm (2.496 in)",
+    "bore": "95 mm (3.74 in)",
+    "compression_ratio": "13.6:1",
+    "control": "OHC, 4 valves controlled via rocker arm",
+    "valve_diameter_intake": "40 mm (1.57 in)",
+    "valve_diameter_exhaust": "33 mm (1.3 in)",
+    "valve_clearance_intake_at_20C_68F": "0.10 ... 0.15 mm (0.0039 ... 0.0059 in)",
+    "valve_clearance_exhaust_at_20C_68F": "0.12 ... 0.17 mm (0.0047 ... 0.0067 in)",
+    "crankshaft_bearing": "2 cylinder roller bearing",
+    "conrod_bearing": "Slide bearing",
+    "piston_pin_bearing": "Bearing bush",
+    "pistons": "Forged light alloy",
+    "piston_rings": "1 compression ring, 1 oil scraper ring",
+    "engine_lubrication": "Pressure circulation lubrication with 2 trochoidal pumps",
+    "primary_transmission": "29:72",
+    "alternator": "14 V, 70 W",
+    "clutch": "Multidisc clutch in oil bath, hydraulically activated",
+    "gearbox_all_SX-F_models": "5-gear transmission, claw shifted",
+    "gearbox_XC-F_US": "6-gear transmission, claw shifted",
+    "transmission_ratio_all_SX-F_models": {
+     "1st": "14:28",
+     "2nd": "16:26",
+     "3rd": "18:24",
+     "4th": "21:24",
+     "5th": "22:21"
+    },
+    "transmission_ratio_XC-F_US": {
+     "1st": "17:35",
+     "2nd": "17:28",
+     "3rd": "18:25",
+     "4th": "22:26",
+     "5th": "23:23",
+     "6th": "26:22"
+    },
+    "ignition": "Contactless controlled fully electronic ignition with digital ignition adjustment",
+    "spark_plug": "NGK LMAR9AI-10",
+    "spark_plug_electrode_gap": "1.0 mm (0.039 in)",
+    "cooling": "Water cooling, permanent circulation of coolant by water pump",
+    "starting_aid": "Starter motor"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2025 450 SX-F repair manual",
+    "url": "",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Section 26.1. The table lists 'Alternator 14 V, 70 W' twice (once after primary transmission, once after the XC-F gear ratios); recorded once. Secondary (final drive) ratios are in the chassis record."
+  },
+  {
+   "id": "k25rm-002",
+   "domain": "maintenance",
+   "topic": "engine wear limits and tolerances",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "KTM's 2025 450 SX-F repair manual lists engine wear limits including a 40.7 mm minimum valve spring length, piston-to-cylinder clearance of 0.040-0.082 mm (size I) / 0.043-0.085 mm (size II) with a 0.120 mm wear limit, and a 26.4 mm minimum clutch pack thickness.",
+   "values": {
+    "valve_spring_min_length_intake_without_seat": "40.7 mm (1.602 in)",
+    "valve_spring_min_length_exhaust_without_seat": "40.7 mm (1.602 in)",
+    "valve_spring_seat": "1.4 ... 1.6 mm (0.055 ... 0.063 in)",
+    "cylinder_and_head_sealing_area_distortion": "≤ 0.10 mm (≤ 0.0039 in)",
+    "piston_diameter_size_I": "94.93 ... 94.96 mm (3.7374 ... 3.7386 in)",
+    "piston_diameter_size_II": "94.94 ... 94.97 mm (3.7378 ... 3.739 in)",
+    "cylinder_bore_size_I": "95.000 ... 95.012 mm (3.74015 ... 3.74062 in)",
+    "cylinder_bore_size_II": "95.013 ... 95.025 mm (3.74066 ... 3.74113 in)",
+    "piston_cylinder_mounting_clearance_size_I": "0.040 ... 0.082 mm (0.00157 ... 0.00323 in)",
+    "piston_cylinder_mounting_clearance_size_II": "0.043 ... 0.085 mm (0.00169 ... 0.00335 in)",
+    "piston_cylinder_clearance_wear_limit": "0.120 mm (0.00472 in)",
+    "piston_ring_end_gap_compression": "≤ 1.00 mm (≤ 0.0394 in)",
+    "piston_ring_end_gap_oil_scraper": "≤ 1.20 mm (≤ 0.0472 in)",
+    "piston_ring_groove_clearance": "≤ 0.08 mm (≤ 0.0031 in)",
+    "conrod_lower_bearing_end_play": "0.20 ... 0.45 mm (0.0079 ... 0.0177 in)",
+    "crankshaft_axial_play": "0.50 ... 0.80 mm (0.0197 ... 0.0315 in)",
+    "crankshaft_runout_on_bearing_pin": "≤ 0.03 mm (≤ 0.0012 in)",
+    "clutch_disc_pack_thickness_wear_limit": "≥ 26.4 mm (≥ 1.039 in)",
+    "oil_pressure_control_valve_spring_min_length": "22.1 mm (0.87 in)",
+    "shift_shaft_play_sliding_plate_to_shift_quadrant": "0.40 ... 0.80 mm (0.0157 ... 0.0315 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2025 450 SX-F repair manual",
+    "url": "",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Section 26.2 (labelled 'Tolerance, engine wear limits'). Cylinder 'drill hole diameter' recorded here as cylinder bore. No model split in this table."
+  },
+  {
+   "id": "k25rm-003",
+   "domain": "maintenance",
+   "topic": "engine tightening torques",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "KTM's 2025 450 SX-F repair manual lists 59 engine tightening torques, e.g. cylinder head M10x1.25 in three stages of 10/30/50 Nm with collar and thread oiled, primary gear nut (left-hand thread) 120 Nm, inner clutch hub nut 100 Nm and oil drain plug 20 Nm.",
+   "values": {
+    "rows": [
+     {
+      "part": "Oil nozzle for the clutch lubrication (alternator cover sealing surface)",
+      "thread": "M4",
+      "torque": "0.8 Nm (0.59 lbf ft)"
+     },
+     {
+      "part": "Screw, oil nozzle bent for piston cooling",
+      "thread": "M4",
+      "torque": "2 Nm (1.5 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Crankshaft speed sensor screw and cable retainer",
+      "thread": "M5",
+      "torque": "6 Nm (4.4 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Oil nozzle for piston cooling",
+      "thread": "M5",
+      "torque": "2 Nm (1.5 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Oil nozzle for timing chain lubrication",
+      "thread": "M5",
+      "torque": "2 Nm (1.5 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, bearing retainer",
+      "thread": "M5",
+      "torque": "6 Nm (4.4 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, clutch adjusting ring",
+      "thread": "M5x16",
+      "torque": "6 Nm (4.4 lbf ft)"
+     },
+     {
+      "part": "Screw, clutch spring retainer",
+      "thread": "M5",
+      "torque": "8 Nm (5.9 lbf ft)"
+     },
+     {
+      "part": "Screw, gear position sensor",
+      "thread": "M5x14",
+      "torque": "5 Nm (3.7 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, lock washer, oil pump idler gear",
+      "thread": "M5x10",
+      "torque": "6 Nm (4.4 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, locking lever",
+      "thread": "M5",
+      "torque": "6 Nm (4.4 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, pressure pump cover",
+      "thread": "M5x16",
+      "torque": "6 Nm (4.4 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, stator",
+      "thread": "M5",
+      "torque": "6 Nm (4.4 lbf ft)",
+      "thread_locker_or_remark": "Loctite 2701"
+     },
+     {
+      "part": "Screw, suction pump cover",
+      "thread": "M5x16",
+      "torque": "6 Nm (4.4 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screws, main bearing lock washer, transmission bearings",
+      "thread": "M5x12",
+      "torque": "6 Nm (4.4 lbf ft)"
+     },
+     {
+      "part": "Nut, water pump impeller",
+      "thread": "M6",
+      "torque": "6 Nm (4.4 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Remaining screws on water pump cover",
+      "thread": "M6",
+      "torque": "10 Nm (7.4 lbf ft)",
+      "thread_locker_or_remark": "Loctite 222"
+     },
+     {
+      "part": "Remaining screws, alternator cover",
+      "thread": "M6",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Remaining screws, clutch cover",
+      "thread": "M6",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Screw, alternator cover",
+      "thread": "M6x25",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Screw, balancer shaft fastening to water pump cover",
+      "thread": "M6",
+      "torque": "10 Nm (7.4 lbf ft)",
+      "thread_locker_or_remark": "Loctite 222"
+     },
+     {
+      "part": "Screw, clutch cover",
+      "thread": "M6x25",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Screw, clutch cover",
+      "thread": "M6x55",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Screw, clutch slave cylinder",
+      "thread": "M6",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Screw, cylinder head",
+      "thread": "M6x75",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Screw, engine case",
+      "thread": "M6x65",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Screw, engine case",
+      "thread": "M6x80",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Screw, exhaust flange",
+      "thread": "M6x16",
+      "torque": "10 Nm (7.4 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, oil filter cover",
+      "thread": "M6x16",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Screw, shift drum locating unit",
+      "thread": "M6x30",
+      "torque": "10 Nm (7.4 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, shift lever",
+      "thread": "M6x16",
+      "torque": "14 Nm (10.3 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, starter motor",
+      "thread": "M6x25",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Screw, tensioning rail",
+      "thread": "M6",
+      "torque": "10 Nm (7.4 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, timing chain clip",
+      "thread": "M6",
+      "torque": "10 Nm (7.4 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, timing chain tensioner",
+      "thread": "M6",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Screw, torque governor",
+      "thread": "M6",
+      "torque": "10 Nm (7.4 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, valve cover",
+      "thread": "M6",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Screw, water pump cover",
+      "thread": "M6x20",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Screw, water pump cover",
+      "thread": "M6x25",
+      "torque": "10 Nm (7.4 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screws, section of the engine case",
+      "thread": "M6",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Plug, oil channel",
+      "thread": "M7",
+      "torque": "9 Nm (6.6 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, camshaft retaining bracket",
+      "thread": "M7x1",
+      "torque": "15 Nm (11.1 lbf ft)"
+     },
+     {
+      "part": "Screw, rocker arm bearing",
+      "thread": "M7x1",
+      "torque": "15 Nm (11.1 lbf ft)"
+     },
+     {
+      "part": "Crankshaft fixing screw",
+      "thread": "M8",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Crankshaft fixing screw plug",
+      "thread": "M8",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Plug, timing chain tensioner",
+      "thread": "M8",
+      "torque": "8 Nm (5.9 lbf ft)"
+     },
+     {
+      "part": "Plug, oil channel",
+      "thread": "M10",
+      "torque": "15 Nm (11.1 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, engine sprocket",
+      "thread": "M10",
+      "torque": "60 Nm (44.3 lbf ft)",
+      "thread_locker_or_remark": "Loctite 2701"
+     },
+     {
+      "part": "Screw, rotor",
+      "thread": "M10x1",
+      "torque": "70 Nm (51.6 lbf ft)"
+     },
+     {
+      "part": "Spark plug",
+      "thread": "M10x1",
+      "torque": "10 ... 12 Nm (7.4 ... 8.9 lbf ft)"
+     },
+     {
+      "part": "Engine coolant temperature sensor",
+      "thread": "M10x1.25",
+      "torque": "12 Nm (8.9 lbf ft)"
+     },
+     {
+      "part": "Screw, cylinder head",
+      "thread": "M10x1.25",
+      "torque": "1st stage 10 Nm (7.4 lbf ft); 2nd stage 30 Nm (22.1 lbf ft); 3rd stage 50 Nm (36.9 lbf ft)",
+      "thread_locker_or_remark": "Collar and thread oiled"
+     },
+     {
+      "part": "Oil drain plug with magnet",
+      "thread": "M12x1.5",
+      "torque": "20 Nm (14.8 lbf ft)"
+     },
+     {
+      "part": "Screw plug, oil pressure control valve",
+      "thread": "M12x1.5",
+      "torque": "20 Nm (14.8 lbf ft)"
+     },
+     {
+      "part": "Screw plug, crankcase",
+      "thread": "M16x1.5",
+      "torque": "15 Nm (11.1 lbf ft)"
+     },
+     {
+      "part": "Nut, inner clutch hub",
+      "thread": "M18x1.5",
+      "torque": "100 Nm (73.8 lbf ft)"
+     },
+     {
+      "part": "Nut, primary gear wheel",
+      "thread": "M18LHx1.5",
+      "torque": "120 Nm (88.5 lbf ft)"
+     },
+     {
+      "part": "Screw plug, oil screen",
+      "thread": "M20x1.5",
+      "torque": "15 Nm (11.1 lbf ft)"
+     },
+     {
+      "part": "Screw plug, alternator cover",
+      "thread": "M24x1.5",
+      "torque": "18 Nm (13.3 lbf ft)"
+     }
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2025 450 SX-F repair manual",
+    "url": "",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Section 26.3, every row in manual order. Loctite grades as printed (243, 2701, 222). The M10x1.25 cylinder head screws: 1st stage 10 Nm, 2nd 30 Nm, 3rd 50 Nm, collar and thread oiled; the M6x75 cylinder head screw is a separate 10 Nm row. M18LHx1.5 = left-hand thread. No model split in this table."
+  },
+  {
+   "id": "k25rm-004",
+   "domain": "maintenance",
+   "topic": "capacities and fluids",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "KTM's 2025 450 SX-F repair manual lists 1.20 l of SAE 10W/50 engine oil, 0.95 l of coolant, a 7.2 l fuel tank on all SX-F models and an 8.5 l tank (1.5 l reserve) on the XC-F US.",
+   "values": {
+    "engine_oil": "1.20 l (1.27 qt.), Engine oil (SAE 10W/50)",
+    "coolant": "0.95 l (1 qt.), Coolant (spec on manual p. 394)",
+    "fuel_tank_all_SX-F_models": "7.2 l (1.9 US gal) approx.; Super unleaded ROZ 95 for SX-F EU/US, Super unleaded RON 95/97 for SX-F BR",
+    "fuel_tank_XC-F_US": "8.5 l (2.25 US gal) approx.; Super unleaded ROZ 95",
+    "fuel_reserve_XC-F_US": "1.5 l (1.6 qt.) approx.",
+    "fork_oil_SX-F_EU/BR_and_all_SX-F_USA": "Fork oil (SAE 4) (48601166S1): external mechanism right 240 (+10/-50) ml (8.11 +0.34/-1.69 fl. oz.), external mechanism left 240 (+10/-50) ml (8.11 +0.34/-1.69 fl. oz.), right cartridge 380 ml (12.85 fl. oz.); left cartridge grease 5 g (0.18 oz) Special grease (00062010053)",
+    "fork_oil_XC-F_US": "Fork oil (SAE 4) (48601166S1): external mechanism 390 ± 5 ml (13.19 ± 0.17 fl. oz.), cartridge 175 ml (5.92 fl. oz.)",
+    "shock_oil_all_variants": "Shock absorber fluid (SAE 2.5) (50180751S1); no quantity given"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2025 450 SX-F repair manual",
+    "url": "",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Sections 26.4.1-26.4.3 plus fork/shock fluids from 26.8/26.9. Fork external-mechanism oil tolerance printed as +10 / -50 ml."
+  },
+  {
+   "id": "k25rm-005",
+   "domain": "chassis",
+   "topic": "chassis technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "KTM's 2025 450 SX-F repair manual lists a chromoly central-tube frame with 310 mm front / 300 mm rear travel, 63.9° steering head angle, 1,493 mm wheelbase, 958 mm seat height and a 102.6 kg dry weight for the SX-F (104.8 kg XC-F US), with 13:51 final drive on SX-F and 13:52 on XC-F US.",
+   "values": {
+    "frame": "Central tube frame made of chrome molybdenum steel tubing",
+    "fork": "SX-F EU/BR: WP XACT AER; all SX-F USA models: WP XACT AER; XC-F US: WP XPLOR CC",
+    "shock": "WP XACT LDS (SX-F EU/BR, all SX-F USA models, XC-F US)",
+    "suspension_travel_front": "310 mm (12.2 in)",
+    "suspension_travel_rear": "300 mm (11.81 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "brake_system": "Disc brakes, floating brake calipers",
+    "brake_disc_diameter_front": "260 mm (10.24 in)",
+    "brake_disc_diameter_rear": "220 mm (8.66 in)",
+    "brake_disc_wear_limit_front": "2.5 mm (0.098 in)",
+    "brake_disc_wear_limit_rear": "3.5 mm (0.138 in)",
+    "offroad_tire_pressure_front": "1.0 bar (15 psi)",
+    "offroad_tire_pressure_rear": "1.0 bar (15 psi)",
+    "secondary_ratio_all_SX-F_models": "13:51",
+    "secondary_ratio_XC-F_US": "13:52",
+    "chain": "5/8 x 1/4\"",
+    "rear_sprockets_available": "47, 48, 49, 50, 51, 52",
+    "steering_head_angle": "63.9°",
+    "wheelbase": "1,493 ± 10 mm (58.78 ± 0.39 in)",
+    "ground_clearance_unloaded": "343 mm (13.5 in)",
+    "seat_height_unloaded": "958 mm (37.72 in)",
+    "weight_without_fuel_SX-F_US_and_SX-F_EU/BR": "102.6 kg (226.2 lb.) approx.",
+    "weight_without_fuel_XC-F_US": "104.8 kg (231 lb.) approx.",
+    "weight_without_fuel_FACTORY_EDITION": "103.5 kg (228.2 lb.) approx.",
+    "max_front_axle_load": "145 kg (320 lb.)",
+    "max_rear_axle_load": "190 kg (419 lb.)",
+    "max_overall_weight": "335 kg (739 lb.)",
+    "electrical": {
+     "battery": "12 V battery HJTZ5S-FP-C: lithium-ion, 12 V, nominal capacity 2.0 Ah, maintenance-free",
+     "fuses": "58011109105 = 5 A; 58011109110 = 10 A",
+     "instrument_lighting_and_indicator_lamps": "LED"
+    },
+    "tires": {
+     "SX-F EU/US": "Front 80/100 - 21 51M TT Dunlop GEOMAX MX34F; rear 110/90 - 19 62M TT Dunlop GEOMAX MX34",
+     "SX-F BR": "Front 80/100 - 21 51M TT Pirelli Scorpion MX 32 Mid Soft; rear 110/90 - 19 63M TT Pirelli Scorpion MX 32 Mid Soft",
+     "XC-F US": "Front 80/100 - 21 51M TT Dunlop GEOMAX MX33F; rear 110/100 - 18 64M TT Dunlop GEOMAX AT81",
+     "FACTORY EDITION": "Front 80/100 - 21 51M TT Dunlop GEOMAX MX34F; rear 120/80 - 19 62M TT Dunlop GEOMAX MX34"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2025 450 SX-F repair manual",
+    "url": "",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Sections 26.5 (chassis), 26.6 (electrical) and 26.7 (tires). The manual also lists a FACTORY EDITION weight and tire fitment though it is not a separate fork/shock variant in 26.8/26.9. Tire note: listed tires are one of the possible series-production tires."
+  },
+  {
+   "id": "k25rm-006",
+   "domain": "suspension",
+   "topic": "fork technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "KTM's 2025 450 SX-F repair manual lists a WP XACT AER air fork on SX-F models (10.4 bar on EU/BR, 10.5 bar on US, 950 mm long) and a WP XPLOR CC spring fork on the XC-F US (4.6/4.8/5.0 N/mm springs by rider weight, 940 mm long).",
+   "values": {
+    "SX-F_EU/BR": {
+     "article_number": "A460C109Y406000",
+     "fork": "WP XACT AER",
+     "compression_comfort_standard_sport": "17 / 12 / 7 clicks",
+     "rebound_comfort_standard_sport": "17 / 12 / 7 clicks",
+     "air_pressure": "10.4 bar (151 psi)",
+     "fork_length": "950 mm (37.4 in)",
+     "oil_external_mechanism_right": "240 (+10/-50) ml (8.11 +0.34/-1.69 fl. oz.) Fork oil (SAE 4) (48601166S1)",
+     "oil_external_mechanism_left": "240 (+10/-50) ml (8.11 +0.34/-1.69 fl. oz.) Fork oil (SAE 4) (48601166S1)",
+     "oil_right_cartridge": "380 ml (12.85 fl. oz.) Fork oil (SAE 4) (48601166S1)",
+     "grease_left_cartridge": "5 g (0.18 oz) Special grease (00062010053)"
+    },
+    "all_SX-F_USA_models": {
+     "article_number": "A460C159Y406000",
+     "fork": "WP XACT AER",
+     "compression_comfort_standard_sport": "17 / 12 / 7 clicks",
+     "rebound_comfort_standard_sport": "23 / 18 / 13 clicks",
+     "air_pressure": "10.5 bar (152 psi)",
+     "fork_length": "950 mm (37.4 in)",
+     "oil_external_mechanism_right": "240 (+10/-50) ml (8.11 +0.34/-1.69 fl. oz.) Fork oil (SAE 4) (48601166S1)",
+     "oil_external_mechanism_left": "240 (+10/-50) ml (8.11 +0.34/-1.69 fl. oz.) Fork oil (SAE 4) (48601166S1)",
+     "oil_right_cartridge": "380 ml (12.85 fl. oz.) Fork oil (SAE 4) (48601166S1)",
+     "grease_left_cartridge": "5 g (0.18 oz) Special grease (00062010053)"
+    },
+    "XC-F_US": {
+     "article_number": "A590C179Y402000",
+     "fork": "WP XPLOR CC",
+     "compression_comfort_standard_sport": "17 / 12 / 7 clicks",
+     "rebound_comfort_standard_sport": "23 / 18 / 13 clicks",
+     "spring_length_with_preload_spacers": "478 mm (18.82 in)",
+     "spring_rate_rider_65-75kg_143-165lb": "4.6 N/mm (26.3 lb/in)",
+     "spring_rate_rider_75-85kg_165-187lb": "4.8 N/mm (27.4 lb/in)",
+     "spring_rate_rider_85-95kg_187-209lb": "5.0 N/mm (28.6 lb/in)",
+     "fork_length": "940 mm (37.01 in)",
+     "oil_external_mechanism": "390 ± 5 ml (13.19 ± 0.17 fl. oz.) Fork oil (SAE 4) (48601166S1)",
+     "oil_cartridge": "175 ml (5.92 fl. oz.) Fork oil (SAE 4) (48601166S1)"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2025 450 SX-F repair manual",
+    "url": "",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Section 26.8.1-26.8.3. SX-F EU/BR vs USA differ in article number, rebound standard (12 vs 18 clicks) and air pressure (10.4 vs 10.5 bar). Clicker counts as printed (counting convention not stated on these pages)."
+  },
+  {
+   "id": "k25rm-007",
+   "domain": "suspension",
+   "topic": "shock technical data",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "KTM's 2025 450 SX-F repair manual lists the same WP XACT LDS shock settings for SX-F EU/BR, SX-F USA and XC-F US (17/15/13 clicks low-speed compression and rebound, 2/1.5/1 turns high-speed, 42/45/48 N/mm springs by rider weight, 35 mm static and 105 mm riding sag), differing only in article number.",
+   "values": {
+    "SX-F_EU/BR": {
+     "article_number": "A460C409Y408000",
+     "shock": "WP XACT LDS",
+     "lowspeed_compression_comfort_standard_sport": "17 / 15 / 13 clicks",
+     "highspeed_compression_comfort_standard_sport": "2 / 1.5 / 1 turns",
+     "rebound_comfort_standard_sport": "17 / 15 / 13 clicks",
+     "spring_preload": "8 mm (0.31 in)",
+     "spring_rate_rider_65-75kg_143-165lb": "42 N/mm (240 lb/in)",
+     "spring_rate_rider_75-85kg_165-187lb": "45 N/mm (257 lb/in)",
+     "spring_rate_rider_85-95kg_187-209lb": "48 N/mm (274 lb/in)",
+     "spring_length": "240 mm (9.45 in)",
+     "gas_pressure": "10 bar (145 psi)",
+     "static_sag": "35 mm (1.38 in)",
+     "riding_sag": "105 mm (4.13 in)",
+     "fitted_length": "456.3 mm (17.965 in)",
+     "shock_oil": "Shock absorber fluid (SAE 2.5) (50180751S1)"
+    },
+    "all_SX-F_USA_models": {
+     "article_number": "A460C459Y408000",
+     "shock": "WP XACT LDS",
+     "lowspeed_compression_comfort_standard_sport": "17 / 15 / 13 clicks",
+     "highspeed_compression_comfort_standard_sport": "2 / 1.5 / 1 turns",
+     "rebound_comfort_standard_sport": "17 / 15 / 13 clicks",
+     "spring_preload": "8 mm (0.31 in)",
+     "spring_rate_rider_65-75kg_143-165lb": "42 N/mm (240 lb/in)",
+     "spring_rate_rider_75-85kg_165-187lb": "45 N/mm (257 lb/in)",
+     "spring_rate_rider_85-95kg_187-209lb": "48 N/mm (274 lb/in)",
+     "spring_length": "240 mm (9.45 in)",
+     "gas_pressure": "10 bar (145 psi)",
+     "static_sag": "35 mm (1.38 in)",
+     "riding_sag": "105 mm (4.13 in)",
+     "fitted_length": "456.3 mm (17.965 in)",
+     "shock_oil": "Shock absorber fluid (SAE 2.5) (50180751S1)"
+    },
+    "XC-F_US": {
+     "article_number": "A460C479Y408000",
+     "shock": "WP XACT LDS",
+     "lowspeed_compression_comfort_standard_sport": "17 / 15 / 13 clicks",
+     "highspeed_compression_comfort_standard_sport": "2 / 1.5 / 1 turns",
+     "rebound_comfort_standard_sport": "17 / 15 / 13 clicks",
+     "spring_preload": "8 mm (0.31 in)",
+     "spring_rate_rider_65-75kg_143-165lb": "42 N/mm (240 lb/in)",
+     "spring_rate_rider_75-85kg_165-187lb": "45 N/mm (257 lb/in)",
+     "spring_rate_rider_85-95kg_187-209lb": "48 N/mm (274 lb/in)",
+     "spring_length": "240 mm (9.45 in)",
+     "gas_pressure": "10 bar (145 psi)",
+     "static_sag": "35 mm (1.38 in)",
+     "riding_sag": "105 mm (4.13 in)",
+     "fitted_length": "456.3 mm (17.965 in)",
+     "shock_oil": "Shock absorber fluid (SAE 2.5) (50180751S1)"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2025 450 SX-F repair manual",
+    "url": "",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Section 26.9.1-26.9.3. All three tables carry identical values apart from the article number. The SX-F USA table spans two pages (spring preload onward continues on the next page)."
+  },
+  {
+   "id": "k25rm-008",
+   "domain": "maintenance",
+   "topic": "chassis tightening torques",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "KTM's 2025 450 SX-F repair manual lists 70 chassis tightening torques, e.g. fork pivot nut 100 Nm, rear wheel spindle nut 80 Nm, front wheel spindle screw 35 Nm, top/bottom shock screws 60 Nm with Loctite 2701 and top/bottom triple clamp screws 17/12 Nm.",
+   "values": {
+    "rows": [
+     {
+      "part": "Screw, air filter box cover",
+      "thread": "EJOT PT K60x20-Z",
+      "torque": "3 Nm (2.2 lbf ft)"
+     },
+     {
+      "part": "Screw, air filter box, on subframe",
+      "thread": "EJOT PT K60x20AL",
+      "torque": "5 Nm (3.7 lbf ft)"
+     },
+     {
+      "part": "Screw, combination switch",
+      "thread": "EJOT PT K50x18 T20",
+      "torque": "2 Nm (1.5 lbf ft)"
+     },
+     {
+      "part": "Screw, fuel pump on fuel tank",
+      "thread": "EJOT PT K60x30-Z",
+      "torque": "2.5 Nm (1.84 lbf ft)"
+     },
+     {
+      "part": "Screw, intake air temperature sensor",
+      "thread": "EJOT PT K50x18 T20",
+      "torque": "0.7 Nm (0.52 lbf ft)"
+     },
+     {
+      "part": "Screw, radiator hoses clip",
+      "thread": "",
+      "torque": "2.4 Nm (1.77 lbf ft)",
+      "thread_locker_or_remark": "no thread size given"
+     },
+     {
+      "part": "Screw, seat fixing",
+      "thread": "EJOT EJOFORM PT K60x23/18",
+      "torque": "2.5 Nm (1.84 lbf ft)"
+     },
+     {
+      "part": "Screw, start/stop button",
+      "thread": "EJOT PT K50x18 T20",
+      "torque": "2 Nm (1.5 lbf ft)"
+     },
+     {
+      "part": "Screw, fixed grip",
+      "thread": "M4",
+      "torque": "5 Nm (3.7 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, throttle valve body hose clamp",
+      "thread": "M4",
+      "torque": "5 Nm (3.7 lbf ft)"
+     },
+     {
+      "part": "Spoke nipple, front wheel",
+      "thread": "M4.5",
+      "torque": "6 Nm (4.4 lbf ft)"
+     },
+     {
+      "part": "Spoke nipple, rear wheel",
+      "thread": "M4.5",
+      "torque": "6 Nm (4.4 lbf ft)"
+     },
+     {
+      "part": "Remaining nuts, chassis",
+      "thread": "M5",
+      "torque": "5 Nm (3.7 lbf ft)"
+     },
+     {
+      "part": "Remaining screws, chassis",
+      "thread": "M5",
+      "torque": "5 Nm (3.7 lbf ft)"
+     },
+     {
+      "part": "Screw, battery terminal",
+      "thread": "M5",
+      "torque": "2.5 Nm (1.84 lbf ft)"
+     },
+     {
+      "part": "Screw, frame protector",
+      "thread": "M5",
+      "torque": "3 Nm (2.2 lbf ft)"
+     },
+     {
+      "part": "Screw, shock absorber adjusting ring",
+      "thread": "M5",
+      "torque": "5 Nm (3.7 lbf ft)"
+     },
+     {
+      "part": "Screw, throttle valve body cover",
+      "thread": "M5",
+      "torque": "2.6 Nm (1.92 lbf ft)"
+     },
+     {
+      "part": "Screws on main silencer",
+      "thread": "M5",
+      "torque": "7 Nm (5.2 lbf ft)"
+     },
+     {
+      "part": "Nut, starter cable on starter motor",
+      "thread": "M6",
+      "torque": "4 Nm (3 lbf ft)"
+     },
+     {
+      "part": "Nut, throttle cable on throttle valve body",
+      "thread": "M6",
+      "torque": "3 Nm (2.2 lbf ft)"
+     },
+     {
+      "part": "Remaining nuts, chassis",
+      "thread": "M6",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Remaining screws, chassis",
+      "thread": "M6",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Screw, battery holding bracket",
+      "thread": "M6",
+      "torque": "6 Nm (4.4 lbf ft)"
+     },
+     {
+      "part": "Screw, brake line guide on link fork",
+      "thread": "M6",
+      "torque": "4.5 Nm (3.32 lbf ft)"
+     },
+     {
+      "part": "Screw, chain guide on link fork at the front",
+      "thread": "M6x45",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Screw, chain guide on link fork at the rear",
+      "thread": "M6x16",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Screw, chain sliding guard on link fork",
+      "thread": "M6",
+      "torque": "6 Nm (4.4 lbf ft)"
+     },
+     {
+      "part": "Screw, connector board with combination instrument",
+      "thread": "M6",
+      "torque": "5 Nm (3.7 lbf ft)"
+     },
+     {
+      "part": "Screw, fender",
+      "thread": "M6",
+      "torque": "12 Nm (8.9 lbf ft)"
+     },
+     {
+      "part": "Screw, front brake disc",
+      "thread": "M6",
+      "torque": "14 Nm (10.3 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, fuel tank spoiler on radiator",
+      "thread": "M6",
+      "torque": "6 Nm (4.4 lbf ft)"
+     },
+     {
+      "part": "Screw, ground wire on frame",
+      "thread": "M6",
+      "torque": "10 Nm (7.4 lbf ft)"
+     },
+     {
+      "part": "Screw, hand lever",
+      "thread": "M6",
+      "torque": "5 Nm (3.7 lbf ft)"
+     },
+     {
+      "part": "Screw, push rod ball joint on the rear brake cylinder",
+      "thread": "M6",
+      "torque": "10 Nm (7.4 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, rear brake disc",
+      "thread": "M6",
+      "torque": "14 Nm (10.3 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, seat fixing",
+      "thread": "M6",
+      "torque": "8 Nm (5.9 lbf ft)"
+     },
+     {
+      "part": "Screw, starter cable to starter relay",
+      "thread": "M6",
+      "torque": "6 Nm (4.4 lbf ft)"
+     },
+     {
+      "part": "Screw, throttle grip",
+      "thread": "M6",
+      "torque": "5 Nm (3.7 lbf ft)"
+     },
+     {
+      "part": "Nut, foot brake lever stop",
+      "thread": "M8",
+      "torque": "20 Nm (14.8 lbf ft)"
+     },
+     {
+      "part": "Nut, rear sprocket screw",
+      "thread": "M8",
+      "torque": "35 Nm (25.8 lbf ft)",
+      "thread_locker_or_remark": "Loctite 2701"
+     },
+     {
+      "part": "Nut, rim lock",
+      "thread": "M8",
+      "torque": "12 Nm (8.9 lbf ft)"
+     },
+     {
+      "part": "Remaining nuts, chassis",
+      "thread": "M8",
+      "torque": "25 Nm (18.4 lbf ft)"
+     },
+     {
+      "part": "Remaining screws, chassis",
+      "thread": "M8",
+      "torque": "25 Nm (18.4 lbf ft)"
+     },
+     {
+      "part": "Screw, bottom triple clamp",
+      "thread": "M8",
+      "torque": "12 Nm (8.9 lbf ft)"
+     },
+     {
+      "part": "Screw, chain sliding piece",
+      "thread": "M8",
+      "torque": "15 Nm (11.1 lbf ft)"
+     },
+     {
+      "part": "Screw, engine sprocket cover",
+      "thread": "M8",
+      "torque": "15 Nm (11.1 lbf ft)"
+     },
+     {
+      "part": "Screw, fork stub",
+      "thread": "M8",
+      "torque": "15 Nm (11.1 lbf ft)"
+     },
+     {
+      "part": "Screw, front brake caliper",
+      "thread": "M8",
+      "torque": "25 Nm (18.4 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, handlebar clamp",
+      "thread": "M8",
+      "torque": "20 Nm (14.8 lbf ft)"
+     },
+     {
+      "part": "Screw, manifold on cylinder head brace",
+      "thread": "M8",
+      "torque": "15 Nm (11.1 lbf ft)"
+     },
+     {
+      "part": "Screw, side stand attachment (XC-F US)",
+      "thread": "M8",
+      "torque": "33 Nm (24.3 lbf ft)",
+      "thread_locker_or_remark": "Loctite 2701"
+     },
+     {
+      "part": "Screw, subframe bottom",
+      "thread": "M8",
+      "torque": "30 Nm (22.1 lbf ft)",
+      "thread_locker_or_remark": "Loctite 2701"
+     },
+     {
+      "part": "Screw, subframe top",
+      "thread": "M8",
+      "torque": "35 Nm (25.8 lbf ft)",
+      "thread_locker_or_remark": "Loctite 2701"
+     },
+     {
+      "part": "Screw, top steering stem",
+      "thread": "M8",
+      "torque": "20 Nm (14.8 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, top triple clamp",
+      "thread": "M8",
+      "torque": "17 Nm (12.5 lbf ft)"
+     },
+     {
+      "part": "Engine carrying screw",
+      "thread": "M10",
+      "torque": "60 Nm (44.3 lbf ft)"
+     },
+     {
+      "part": "Remaining nuts, chassis",
+      "thread": "M10",
+      "torque": "45 Nm (33.2 lbf ft)"
+     },
+     {
+      "part": "Remaining screws, chassis",
+      "thread": "M10",
+      "torque": "45 Nm (33.2 lbf ft)"
+     },
+     {
+      "part": "Screw, bottom shock absorber",
+      "thread": "M10",
+      "torque": "60 Nm (44.3 lbf ft)",
+      "thread_locker_or_remark": "Loctite 2701"
+     },
+     {
+      "part": "Screw, handlebar support",
+      "thread": "M10",
+      "torque": "40 Nm (29.5 lbf ft)",
+      "thread_locker_or_remark": "Loctite 243"
+     },
+     {
+      "part": "Screw, top shock absorber",
+      "thread": "M10",
+      "torque": "60 Nm (44.3 lbf ft)",
+      "thread_locker_or_remark": "Loctite 2701"
+     },
+     {
+      "part": "Nut, angle lever to link fork",
+      "thread": "M14x1.5",
+      "torque": "60 Nm (44.3 lbf ft)"
+     },
+     {
+      "part": "Nut, frame on linkage lever",
+      "thread": "M14x1.5",
+      "torque": "60 Nm (44.3 lbf ft)"
+     },
+     {
+      "part": "Nut, linkage lever on angle lever",
+      "thread": "M14x1.5",
+      "torque": "60 Nm (44.3 lbf ft)"
+     },
+     {
+      "part": "Nut, fork pivot",
+      "thread": "M16x1.5",
+      "torque": "100 Nm (73.8 lbf ft)"
+     },
+     {
+      "part": "Screw, front wheel spindle",
+      "thread": "M20x1.5",
+      "torque": "35 Nm (25.8 lbf ft)"
+     },
+     {
+      "part": "Screw, top steering head",
+      "thread": "M20x1.5",
+      "torque": "12 Nm (8.9 lbf ft)"
+     },
+     {
+      "part": "Nut, rear wheel spindle",
+      "thread": "M22x1.5",
+      "torque": "80 Nm (59 lbf ft)"
+     },
+     {
+      "part": "Screw-in fitting, cooling system",
+      "thread": "M24x1.5",
+      "torque": "7.5 Nm (5.53 lbf ft)"
+     }
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2025 450 SX-F repair manual",
+    "url": "",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Section 26.10, every row in manual order. Thread column for plastic-forming screws given as EJOT PT / EJOT EJOFORM PT designations. 'Screw, radiator hoses clip' has no thread size printed. 'Screw, side stand attachment' applies to XC-F US only. 'Screw, seat fixing' appears twice (EJOT 2.5 Nm and M6 8 Nm)."
+  },
+  {
+   "id": "k25rm-009",
+   "domain": "maintenance",
+   "topic": "service schedule with intervals",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "KTM's 2025 450 SX-F repair manual lists a service schedule with columns After 1 operating hour, Every 15, Every 45 and Every 90 operating hours and every 24 months, with valve clearance checked after 1 h then every 45 h, fork and shock service every 45 h, minor engine service every 45 h and major engine service every 90 h.",
+   "values": {
+    "column_headers_exact": [
+     "After 1 operating hour",
+     "Every 15 operating hours",
+     "Every 45 operating hours",
+     "Every 90 operating hours",
+     "every 24 months"
+    ],
+    "legend": {
+     "open circle": "One-time interval",
+     "filled dot": "Periodic interval"
+    },
+    "rows": [
+     {
+      "task": "Check the rim run-out.",
+      "intervals": [
+       "After 1 operating hour (one-time)",
+       "Every 15 operating hours",
+       "Every 45 operating hours",
+       "Every 90 operating hours"
+      ]
+     },
+     {
+      "task": "Check the spoke tension.",
+      "intervals": [
+       "After 1 operating hour (one-time)",
+       "Every 15 operating hours",
+       "Every 45 operating hours",
+       "Every 90 operating hours"
+      ]
+     },
+     {
+      "task": "Check the chain, rear sprocket, engine sprocket, and chain guide.",
+      "intervals": [
+       "After 1 operating hour (one-time)",
+       "Every 15 operating hours",
+       "Every 45 operating hours",
+       "Every 90 operating hours"
+      ]
+     },
+     {
+      "task": "Check the chain tension.",
+      "intervals": [
+       "After 1 operating hour (one-time)",
+       "Every 15 operating hours",
+       "Every 45 operating hours",
+       "Every 90 operating hours",
+       "every 24 months"
+      ]
+     },
+     {
+      "task": "Grease all moving parts (e.g., hand lever, chain,...) and check for smooth operation.",
+      "intervals": [
+       "After 1 operating hour (one-time)",
+       "Every 15 operating hours",
+       "Every 45 operating hours",
+       "Every 90 operating hours",
+       "every 24 months"
+      ]
+     },
+     {
+      "task": "Change the spark plug and spark plug connector.",
+      "intervals": [
+       "Every 45 operating hours",
+       "Every 90 operating hours"
+      ]
+     },
+     {
+      "task": "Check the valve clearance.",
+      "intervals": [
+       "After 1 operating hour (one-time)",
+       "Every 45 operating hours",
+       "Every 90 operating hours"
+      ]
+     },
+     {
+      "task": "Change the fuel filter.",
+      "intervals": [
+       "Every 90 operating hours",
+       "every 24 months"
+      ]
+     },
+     {
+      "task": "Check the clutch.",
+      "intervals": [
+       "Every 15 operating hours",
+       "Every 45 operating hours",
+       "Every 90 operating hours"
+      ]
+     },
+     {
+      "task": "Clean the air filter and air filter box.",
+      "intervals": [
+       "Every 15 operating hours",
+       "Every 45 operating hours",
+       "Every 90 operating hours",
+       "every 24 months"
+      ]
+     },
+     {
+      "task": "Change the glass fiber filling of the main silencer.",
+      "intervals": [
+       "Every 45 operating hours",
+       "Every 90 operating hours"
+      ]
+     },
+     {
+      "task": "Service the fork. (All SX-F models)",
+      "intervals": [
+       "Every 45 operating hours",
+       "Every 90 operating hours"
+      ]
+     },
+     {
+      "task": "Service the fork. (XC-F US)",
+      "intervals": [
+       "Every 45 operating hours",
+       "Every 90 operating hours"
+      ]
+     },
+     {
+      "task": "Perform the shock absorber service.",
+      "intervals": [
+       "Every 45 operating hours",
+       "Every 90 operating hours"
+      ]
+     },
+     {
+      "task": "Check all screws, nuts, and hose clips for a tight fit.",
+      "intervals": [
+       "After 1 operating hour (one-time)",
+       "Every 15 operating hours",
+       "Every 45 operating hours",
+       "Every 90 operating hours",
+       "every 24 months"
+      ]
+     },
+     {
+      "task": "Change the fuel screen.",
+      "intervals": [
+       "After 1 operating hour (one-time)",
+       "Every 15 operating hours",
+       "Every 45 operating hours",
+       "Every 90 operating hours",
+       "every 24 months"
+      ]
+     },
+     {
+      "task": "Check the fuel pressure.",
+      "intervals": [
+       "After 1 operating hour (one-time)",
+       "Every 45 operating hours",
+       "Every 90 operating hours",
+       "every 24 months"
+      ]
+     },
+     {
+      "task": "Check the antifreeze and coolant level.",
+      "intervals": [
+       "Every 45 operating hours",
+       "Every 90 operating hours"
+      ]
+     },
+     {
+      "task": "Check the coolant level.",
+      "intervals": [
+       "After 1 operating hour (one-time)",
+       "Every 15 operating hours"
+      ]
+     },
+     {
+      "task": "Change the coolant.",
+      "intervals": [
+       "every 24 months"
+      ]
+     },
+     {
+      "task": "Check the steering head bearing for play.",
+      "intervals": [
+       "After 1 operating hour (one-time)",
+       "Every 15 operating hours"
+      ]
+     },
+     {
+      "task": "Lubricate the steering head bearing.",
+      "intervals": [
+       "Every 45 operating hours",
+       "Every 90 operating hours",
+       "every 24 months"
+      ]
+     },
+     {
+      "task": "Perform minor engine service including removing and installing the engine (change the piston, check/measure the cylinder, check the cylinder head, check the camshafts and valve train system components, check the timing assembly, change the radial shaft seal rings of the water pump, change the crankshaft seal ring, change the intake flange, change inlet sleeve).",
+      "intervals": [
+       "Every 45 operating hours",
+       "Every 90 operating hours"
+      ]
+     },
+     {
+      "task": "Perform major engine service, engine is removed (change valves, valve springs, valve spring seats and valve spring retainer; change the connecting rod, conrod bearing and crank pin; check the transmission and the shift mechanism; check the oil pressure control valve; change the suction pump; check the force pump and lubrication system; change the timing chain; change all engine bearings and all gaskets; change the freewheel).",
+      "intervals": [
+       "Every 90 operating hours"
+      ]
+     },
+     {
+      "task": "Final check: check vehicle for operating safety.",
+      "intervals": [
+       "After 1 operating hour (one-time)",
+       "Every 15 operating hours",
+       "Every 45 operating hours",
+       "Every 90 operating hours",
+       "every 24 months"
+      ]
+     },
+     {
+      "task": "Take a test ride.",
+      "intervals": [
+       "After 1 operating hour (one-time)",
+       "Every 15 operating hours",
+       "Every 45 operating hours",
+       "Every 90 operating hours",
+       "every 24 months"
+      ]
+     },
+     {
+      "task": "Read out the fault memory using the KTM diagnostics tool after a test ride.",
+      "intervals": [
+       "After 1 operating hour (one-time)",
+       "Every 15 operating hours",
+       "Every 45 operating hours",
+       "Every 90 operating hours",
+       "every 24 months"
+      ]
+     },
+     {
+      "task": "Enter electronic proof of service in the dealer portal.",
+      "intervals": [
+       "After 1 operating hour (one-time)",
+       "Every 15 operating hours",
+       "Every 45 operating hours",
+       "Every 90 operating hours",
+       "every 24 months"
+      ]
+     }
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2025 450 SX-F repair manual",
+    "url": "",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Chapter 29. The 'After 1 operating hour' column is a one-time check (open circles); all other marks are periodic. Engine-service row text lightly condensed."
+  },
+  {
+   "id": "k25rm-010",
+   "domain": "maintenance",
+   "topic": "valve clearance adjustment procedure",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "KTM's 2025 450 SX-F repair manual lists valve clearance as 0.10-0.15 mm intake and 0.12-0.17 mm exhaust measured cold at 20 °C (68 °F), set by swapping shims under the rocker arms after the timing chain tensioner and camshaft have been removed.",
+   "values": {
+    "steps_summary": [
+     "Prep: on FACTORY EDITION and XC-F US remove the engine guard; remove the seat and fuel tank (engine can stay in the frame).",
+     "Measure first: pull the spark plug, remove the valve cover and the stator-cover screw plug, rotate the crank counterclockwise to TDC (camshaft LOCK mark aligned with the retaining bracket) and lock it with the locking screw.",
+     "With a feeler gauge, measure every valve between valve and rocker arm and note the readings.",
+     "If out of spec, check the rocker arm rollers first: no radial play is allowed; replace a rocker arm with play before adjusting.",
+     "Remove the timing chain tensioner and camshaft (per the cylinder-head removal section) so the rocker arms can be lifted.",
+     "Lift each rocker arm outward and take out the shims, keeping them in their installed positions.",
+     "Work out the corrected shim thickness from the measured clearance and fit suitable shims.",
+     "Reassemble, then re-check the clearance on all valves.",
+     "Refit fuel tank, seat and (FACTORY EDITION / XC-F US) engine guard."
+    ],
+    "valve_clearance_intake_at_20C_68F": "0.10 ... 0.15 mm (0.0039 ... 0.0059 in)",
+    "valve_clearance_exhaust_at_20C_68F": "0.12 ... 0.17 mm (0.0047 ... 0.0067 in)",
+    "measuring_temperature": "20 °C (68 °F), engine cold",
+    "special_tools": [
+     "Feeler gauge (79129941000)",
+     "Locking screw (61229015000)",
+     "Spark plug wrench with link (77229172000)"
+    ],
+    "related_torques": {
+     "crankshaft_fixing_screw_M8": "10 Nm (7.4 lbf ft)",
+     "crankshaft_fixing_screw_plug_M8": "10 Nm (7.4 lbf ft)",
+     "valve_cover_screws_M6": "10 Nm (7.4 lbf ft)",
+     "spark_plug_M10x1": "10 ... 12 Nm (7.4 ... 8.9 lbf ft)",
+     "screw_camshaft_retaining_bracket_M7x1": "15 Nm (11.1 lbf ft)",
+     "screw_rocker_arm_bearing_M7x1": "15 Nm (11.1 lbf ft)",
+     "plug_timing_chain_tensioner_M8": "8 Nm (5.9 lbf ft)",
+     "screw_timing_chain_tensioner_M6": "10 Nm (7.4 lbf ft)"
+    },
+    "check_interval": "After 1 operating hour (one-time), then every 45 operating hours (service schedule)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM 2025 450 SX-F repair manual",
+    "url": "",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Paraphrased summary. Clearances from section 26.1, measuring steps and special tools from 23.1, torques from the 26.3 engine torque table. Shim selection and the step-by-step camshaft/tensioner torque sequence are not summarised here; follow the manual."
+  }
+ ],
+ "conflicts": [],
+ "not_found": [
+  "Shim sizes/selection formula for valve clearance adjustment (not on supplied pages)",
+  "Shock absorber oil quantity (only fluid type listed)"
+ ],
+ "sources": [
+  "KTM 2025 450 SX-F repair manual"
+ ]
+}
