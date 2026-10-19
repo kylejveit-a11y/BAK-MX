@@ -1,0 +1,938 @@
+{
+ "slice": "Published ECU map grid numbers and app electronics structure (Yamaha Power Tuner, Kawasaki Rideology/FI kit, Triumph MX Tune Pro, KTM group CUO/GET)",
+ "platform": {
+  "make": "Yamaha",
+  "models": [
+   "YZ450F",
+   "YZ250F",
+   "YZ450FX",
+   "WR450F",
+   "KX450",
+   "KX250",
+   "TF 250-X",
+   "450 SX-F"
+  ],
+  "years": [
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026,
+   2027
+  ]
+ },
+ "records": [
+  {
+   "id": "map1-001",
+   "domain": "ecu_electronics",
+   "topic": "GYTR tuner preset map typed out: Hard Hitting / Loamy (3x3 grid)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2017
+    ]
+   },
+   "statement": "Yamaha's 'Hard Hitting / Loamy Conditions' preset for the 2017 YZ250F leans the fuel slightly in most of its 9 cells (-2 to 0) and advances ignition (+2) across the two lower rows, for quicker revving and stronger mid/top pull.",
+   "values": {
+    "fuel_row1": "-2, -1, 0",
+    "fuel_row2": "-1, -2, -2",
+    "fuel_row3": "-1, -1, -1",
+    "ignition_row1": "+1, -1, -2",
+    "ignition_row2": "+2, +2, +2",
+    "ignition_row3": "+2, +2, +2",
+    "step_size_context": "about 3% fuel and 1 degree ignition per step on the GYTR handheld"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, '2017 YZ250F Map Database' (post attributing the maps to Yamaha's website)",
+    "url": "https://www.vitalmx.com/comment/5559726",
+    "date": "2017-07"
+   },
+   "confidence": "medium",
+   "notes": "Typed as text by a forum member who says it came from Yamaha's website. The post does not label which axis is rpm and which is throttle; rows are given in the order posted. The GYTR handheld grid is low/mid/high rpm x 1/8, 3/8, 3/4 throttle (see ypt-014), so this is a pre-app 3x3 grid, not the 2023+ app grid. 2017 is before BAK's YZ250F roster years."
+  },
+  {
+   "id": "map1-002",
+   "domain": "ecu_electronics",
+   "topic": "GYTR tuner preset map typed out: Smooth Linear / Slippery (3x3 grid)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2017
+    ]
+   },
+   "statement": "Yamaha's 'Smooth Linear / Slippery Conditions' preset for the 2017 YZ250F adds fuel almost everywhere (up to +3) and keeps modest ignition advance (mostly +1 to +2), giving smooth, controllable low-rpm power that still pulls strongly.",
+   "values": {
+    "fuel_row1": "+1, +2, 0",
+    "fuel_row2": "+2, +3, +1",
+    "fuel_row3": "+1, +3, +2",
+    "ignition_row1": "+2, +1, -1",
+    "ignition_row2": "+2, +2, +2",
+    "ignition_row3": "+1, +2, 0"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, '2017 YZ250F Map Database' (post attributing the maps to Yamaha's website)",
+    "url": "https://www.vitalmx.com/comment/5559726",
+    "date": "2017-07"
+   },
+   "confidence": "medium",
+   "notes": "Same post and caveats as map1-001: axis order not stated, values as posted row by row. Another owner in the thread said the stock map felt better than both Yamaha presets."
+  },
+  {
+   "id": "map1-003",
+   "domain": "ecu_electronics",
+   "topic": "GYTR handheld fuel cell range (2010-2013 YZ450F)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2010,
+     2011,
+     2012,
+     2013
+    ]
+   },
+   "statement": "On the GYTR Power Tuner for the 2010-2013 YZ450F each fuel cell takes whole numbers from -7 to +7, about 3% per step, so +7 is about 21% richer; each ignition number is 1 degree, and all cells read 0 on the stock map.",
+   "values": {
+    "fuel_range": "-7 to +7",
+    "fuel_step": "about 3%",
+    "max_rich": "about +21%",
+    "ignition_step": "1 degree",
+    "stock": "all cells 0"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, 'How to reprogram your 2010 thru 2013 Yamaha YZ450F EFI maps'",
+    "url": "https://motocrossactionmag.com/mxa-wrench-tech-how-to-reprogram-your-2010-thru-2013-yamaha-yz450f-efi-maps",
+    "date": "2013-06"
+   },
+   "confidence": "medium",
+   "notes": "Tier set MEASURED as magazine hands-on reporting of the tool; MXA's four maps (incl. a 'Less Hit' map) are in an image only (see not_found). Pre-roster years."
+  },
+  {
+   "id": "map1-004",
+   "domain": "ecu_electronics",
+   "topic": "Tester map for aftermarket pipe: one cell value (2016 YZ450F)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2016
+    ]
+   },
+   "statement": "A magazine's aftermarket-pipe map for the 2016 YZ450F adds no fuel anywhere, leans the smallest throttle opening and wide-open throttle (for example -2 at 1/8 throttle, high rpm = 6% leaner), and advances ignition in three of six settings; its stock-pipe map instead richens wide-open throttle and advances ignition everywhere.",
+   "values": {
+    "aftermarket_pipe_example_cell": "1/8 throttle, high rpm: fuel -2 (6% leaner)",
+    "aftermarket_pipe_ignition": "advanced in 3 of 6 settings",
+    "stock_pipe_map": "richer at WOT; ignition advanced at every throttle/rpm",
+    "fuel_step": "3%"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, 'Ask the MXperts: can you map my 2016 Yamaha YZ450F for me?'",
+    "url": "https://motocrossactionmag.com/ask-the-mxperts-can-you-map-my-2016-yamaha-yz450f-for-me",
+    "date": "2015-10"
+   },
+   "confidence": "medium",
+   "notes": "Only one cell is given in text; full grids are images (see not_found). GYTR handheld era, pre-roster year."
+  },
+  {
+   "id": "map1-005",
+   "domain": "ecu_electronics",
+   "topic": "Yamaha Australia WR450F preset maps: standard map is all zeros",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "WR450F"
+    ],
+    "years": [
+     2016
+    ]
+   },
+   "statement": "Yamaha Australia's standard (road-legal ADR) WR450F map reads 0 in every fuel and ignition cell; the Competition map is richer at low rpm, leaner at high rpm with ignition advanced everywhere; the Traction map is richer low and retarded at bottom and mid throttle; the YZ450F-muffler map adds fuel (except low rpm) and advance in most cells.",
+   "values": {
+    "standard_map": "all cells 0 (fuel and ignition)",
+    "fuel_step": "3% per increment",
+    "ignition_step": "1 per increment (stated as '1%', i.e. 1 degree)",
+    "maps": "Standard (ADR), Competition Trim, Traction, YZ450F Muffler"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Transmoto, 'Mapping Matters: 2016 WR450F' (Yamaha Motor Australia maps)",
+    "url": "https://transmoto.com.au/mapping-matters-2016-wr450f",
+    "date": "2016"
+   },
+   "confidence": "medium",
+   "notes": "Three non-zero maps are published as images only (Map_Competition.jpg, Map_Traction.jpg, Map_Muffler.jpg). Article writes ignition step as '1%', which is almost certainly 1 degree. Pre-roster year for WR450F."
+  },
+  {
+   "id": "map1-006",
+   "domain": "ecu_electronics",
+   "topic": "Yamaha downloadable preset map files (file names reveal map intent)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F",
+     "WR450F"
+    ],
+    "years": [
+     2018,
+     2019,
+     2020,
+     2021
+    ]
+   },
+   "statement": "Yamaha US hosts 14 Power Tuner preset files (.yptsjsnz). Their file names show what each map is for: 'Magic Map' is saved as controlled-acceleration, 'TP5' as connected-response-torquey, 'Connected Response' as TP3, 'Hard Hitting' as loamy-condition, and the WR450F maps are for map position 1 or 1-2 with stock or GYTR exhaust.",
+   "values": {
+    "file_format": ".yptsjsnz (app import file, appears to be compressed JSON)",
+    "count": "14",
+    "YZ450F_files": "hard-hitting-loamy-condition-20; good-control-20-21; controlled-acceleration-20-21 (Magic Map); connected-response-torquey-20-21 (TP5); strong-pulling-low-to-high-rpm-19-18; strong-pulling-low-to-high-rpm-20; tp3-connected-response-20; tp-map-2018-19; tp-map-v20-2018-19",
+    "YZ250F_files": "exciting-power-21; tp-map-2019",
+    "WR450F_files": "aggressive-map-map-position-1-19-20; hard-terrain-gytr-exhaust-map-position-1-19-20; standard-exhaust-map-position-1-2-19-20"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motorsports US, Power Tuner app page",
+    "url": "https://yamahamotorsports.com/power-tuner-app",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "These files hold the actual grid numbers for 2018-2021 models, but the fetch tool would not download them (see not_found). Base URL: https://yamahamotorsports.com/media/images/power_tuner/<name>.yptsjsnz. A person could import or decode them to transcribe the grids."
+  },
+  {
+   "id": "map1-007",
+   "domain": "ecu_electronics",
+   "topic": "Rideology KX map grid size",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450",
+     "KX450X",
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Kawasaki's Rideology The App KX edits fuel volume and ignition timing on a 6 x 6 grid (36 cells) for each of the bike's two original maps; adjustment maps can be sent to the bike or kept on the phone.",
+   "values": {
+    "grid": "6 x 6 (36 cells) for fuel and ignition",
+    "maps_editable": "2 (both original maps)",
+    "axes": "engine rpm and throttle opening (breakpoint values not published)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki, Rideology The App KX App Store listing",
+    "url": "https://apps.apple.com/md/app/rideology-the-app-kx/id6443785419",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Breakpoint values, per-cell range and step sizes are not published in text anywhere found. One review describes the grid as 'numbers 1-16' (see conflicts)."
+  },
+  {
+   "id": "map1-008",
+   "domain": "ecu_electronics",
+   "topic": "Rideology KX model support by app version",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450",
+     "KX450X",
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The app launched 22 Sep 2023 for the 2024 KX450/KX450X; v1.1.13 (30 Jul 2024) added the 2025 KX250/KX250X, v1.1.35 (8 Oct 2024) the KX450SR, v1.1.73 the 2026 models and v1.1.74 the 2027 KX250F/KX250FX.",
+   "values": {
+    "launch": "2023-09-22",
+    "1.1.13": "2024-07-30 KX250/KX250X 2025+",
+    "1.1.35": "2024-10-08 KX450SR",
+    "1.1.73": "2026 models",
+    "1.1.74": "2027 KX250F/KX250FX"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki Rideology The App KX App Store listing and Kawasaki Connect page",
+    "url": "https://www.global-kawasaki-motors.com/kawasaki_connect/en/kx.html",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "The App Store version list is hard to parse; version-to-note pairing may be off by one. Kawasaki says the app replaced the cable-connected Calibration Kit and Controller. Kawasaki names the 2027 250 'KX250F'."
+  },
+  {
+   "id": "map1-009",
+   "domain": "ecu_electronics",
+   "topic": "KX450 2024 map/TC switching conditions",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On the 2024 KX450 the Normal/Mild map can only be switched with the engine running at idle, and traction control is changed by holding the T button for about 1 second at idle; KTRC has off, weak (solid green) and strong (blinking).",
+   "values": {
+    "map_switch": "engine running, at idle only",
+    "TC_button_hold": "about 1 second",
+    "KTRC": "off / weak / strong"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "MX Vice, 2024 Kawasaki KX450 review",
+    "url": "https://mxvice.com/2024/05/10/2024-kawasaki-kx450-review/",
+    "date": "2024-05"
+   },
+   "confidence": "medium",
+   "notes": "Reviewer says Kawasaki has fail-safes in the app so settings cannot damage the engine; no ranges stated."
+  },
+  {
+   "id": "map1-010",
+   "domain": "ecu_electronics",
+   "topic": "2026 KX450: wider app tuning range",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "For 2026 Kawasaki opened up the app's fuel and ignition parameters on the KX450 (engine hardware unchanged); a Kawasaki test-rider map raised fuel and ignition values to add bottom-end power and torque.",
+   "values": {
+    "change": "wider fuel/ignition adjustment range vs 2024-2025",
+    "test_rider_map": "more fuel and ignition, more bottom/torque (values not published)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News, 2026 Kawasaki KX450 review",
+    "url": "https://www.cyclenews.com/2025/10/article/2026-kawasaki-kx450-review/",
+    "date": "2025-10"
+   },
+   "confidence": "medium",
+   "notes": "Old and new numeric limits are not published. A forum owner says the 2024 ECU allows less range than 2025-2026 (kx-075), which may conflict with Cycle News placing the change at 2026."
+  },
+  {
+   "id": "map1-011",
+   "domain": "ecu_electronics",
+   "topic": "KX FI Calibration Kit (handheld) adjustment limits",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450",
+     "KX250"
+    ],
+    "years": [
+     2019,
+     2020,
+     2021
+    ]
+   },
+   "statement": "The handheld KX FI Calibration Kit adjusts fuel by up to plus or minus 5% and ignition by up to plus or minus 3 degrees, by throttle position and rpm.",
+   "values": {
+    "fuel_range": "+/-5%",
+    "ignition_range": "+/-3 degrees",
+    "stated_fitment": "2012-2018 KX450F, 2013-2018 KX250F, 2019-2021 KX250/KX450"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "The Potteries (Kawasaki dealer) KX F.i. calibration kit listing",
+    "url": "https://shop.thepotteries.co.uk/product/kx-f-i-tuning-calibration-controller-kit",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Dealer copy, may be per-cell or overall limit; step size and grid not stated. Fitment list on the same page also names 2022-2023 models. Not for 2024+ app bikes."
+  },
+  {
+   "id": "map1-012",
+   "domain": "ecu_electronics",
+   "topic": "KX FI Calibration Kit sample maps (2009 KX450F)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2009
+    ]
+   },
+   "statement": "The original KX calibration kit came with seven 'Setting Data Samples': Beginner, Soft Riding Surface, Hard Riding Surface, Advanced, Retarded, Leaner Fuel Setting and Richer Fuel Setting.",
+   "values": {
+    "samples": "7",
+    "names": "Beginner; Soft Riding Surface; Hard Riding Surface; Advanced; Retarded; Leaner Fuel Setting; Richer Fuel Setting",
+    "price": "$515 (MXA)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, 'How to reprogram your KX450F fuel injection system in 17 easy steps'",
+    "url": "https://motocrossactionmag.com/how-to-reprogram-your-kx450f-fuel-injection-system-in-17-easy-steps",
+    "date": "2009"
+   },
+   "confidence": "medium",
+   "notes": "Model was the KX450F (pre-roster). Sample map values not published in text."
+  },
+  {
+   "id": "map1-013",
+   "domain": "setups",
+   "topic": "Tester KX450 maps: Smooth and low-throttle response maps (2021-2022)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2021,
+     2022
+    ]
+   },
+   "statement": "Two tester maps exist for the 2021-2022 KX450: a smooth map for rear traction on slippery hard-pack, and a map that cleans up abrupt response at 0-10% throttle and adds mid-range.",
+   "values": {
+    "smooth_map": "slick hard-pack traction",
+    "second_map": "targets 0-10% throttle opening, adds mid-range"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Testing, 'Optional 2021-2022 Kawasaki KX450 maps'",
+    "url": "https://www.keeferinctesting.com/2021-8-19-optional-2021-2022-kawasaki-kx450-maps/",
+    "date": "2021-08"
+   },
+   "confidence": "medium",
+   "notes": "Grid values are in images only (see not_found). Loaded with the handheld calibration kit."
+  },
+  {
+   "id": "map1-014",
+   "domain": "setups",
+   "topic": "Tester KX250 map (2027): more corner-exit pull",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "A tester's optional map for the 2027 KX250 gives a little more pull out of corners and a longer second-gear pull, a noticeable change from stock.",
+   "values": {
+    "goal": "corner-exit pull, longer 2nd gear"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Testing, '2027 Kawasaki KX250 Optional ECU Map'",
+    "url": "https://www.keeferinctesting.com/2027-kawasaki-kx250-optional-ecu-map/",
+    "date": "2026-09"
+   },
+   "confidence": "medium",
+   "notes": "Values in two app screenshots only (see not_found). Kawasaki calls the 2027 model KX250F; 2027 is beyond BAK's confirmed KX250 years."
+  },
+  {
+   "id": "map1-015",
+   "domain": "ecu_electronics",
+   "topic": "Triumph MX Tune Pro factory maps: engine braking and GPA level per map",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Triumph's 10 app maps load into Map 2 (Map 1 always full power): Novice EB mid/GPA 4, Intermediate mid-low/5, Expert low/6, Hard Pack Dry mid-low/4, Hard Pack Wet mid-high/4, Loam Dry mid-low/5, Loam Wet low-mid/5, Sand Dry low-mid/5, Sand Wet minimal/6; OE Factory resets maps, GPA and launch control to stock.",
+   "values": {
+    "Novice": "EB mid, GPA 4",
+    "Intermediate": "EB mid-low, GPA 5",
+    "Expert": "EB low, GPA 6",
+    "Hard Pack Dry": "EB mid-low, GPA 4",
+    "Hard Pack Wet": "EB mid-high, GPA 4",
+    "Loam Dry": "EB mid-low, GPA 5",
+    "Loam Wet": "EB low-mid, GPA 5",
+    "Sand Dry": "EB low-mid, GPA 5",
+    "Sand Wet": "EB minimal, GPA 6",
+    "OE Factory": "resets maps, GPA and LC to OE",
+    "launch_control_per_map": "not stated"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Triumph Motorcycles US/UK, MX Tune Pro owners page",
+    "url": "https://www.triumphmotorcycles.com/owners/off-road/app",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Confirms tg-006. Triumph's page names only the TF 250-X; tg-006 applied it to all TF models. Engine braking is given only as words, not numbers. Akrapovic maps (base + 9) list no GPA/EB values."
+  },
+  {
+   "id": "map1-016",
+   "domain": "ecu_electronics",
+   "topic": "Athena GET LC-GPA traction and launch scale",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F",
+     "Husqvarna FC 250",
+     "Husqvarna FC 350",
+     "Husqvarna FC 450",
+     "GasGas MC 250F",
+     "GasGas MC 450F",
+     "Yamaha YZ250F"
+    ],
+    "years": [
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2021,
+     2022,
+     2023
+    ]
+   },
+   "statement": "The GET LC-GPA add-on gives traction control levels 0-10 (0 = off, factory setting 5) and launch assistance 0-20; levels can only be changed below 8,000 rpm and under 10% throttle. Its shift light flashes 750 rpm below the limiter and its overheat alarm comes on above 100 C and clears below 95 C.",
+   "values": {
+    "GPA_levels": "0-10 (0 = off)",
+    "GPA_default": "5",
+    "GPA_start_advice": "start at 10 and reduce",
+    "LC_levels": "0-20",
+    "set_conditions": "<8,000 rpm and <10% throttle",
+    "shift_light": "750 rpm below limiter (editable)",
+    "overrev_warning": "all LEDs flash within 1,500 rpm of limiter during launch",
+    "temp_alarm": "on >100 C, off <95 C"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Athena / GET LC-GPA user manual V.1 and Athena product page",
+    "url": "https://cdn.athena.eu/2fb118b8-1945-4e4f-a026-b07d05e4a51d.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Aftermarket accessory for the stated bikes (fitment: KTM SX-F 250/350/450 2016-2023, Husqvarna FC 250/350/450 2016-2023, GasGas MC 250F/450F 2021-2023, Yamaha YZ250F 2016-2023; GasGas MC 250F/450F roster starts 2021). Triumph's TF models use an Athena GET ECU with 'GPA' traction (app range 1-10, tg-008), so this scale is likely the same family, but Triumph's own launch-control scale is not published."
+  },
+  {
+   "id": "map1-017",
+   "domain": "ecu_electronics",
+   "topic": "KTM Connectivity Unit Offroad: adjustment structure",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F",
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F",
+     "Husqvarna FC 450",
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "The CUO app adjusts only Map 1 with sliders: throttle response light to aggressive, engine braking light to heavy, traction control none to more (only works when TC is switched on at the bar), and launch control low to high; Map 2 stays the stock aggressive map. Presets combine dirt type (sand, gravel, hard-pack) with dry or wet; an upload takes about 20 seconds with the bike off and in neutral.",
+   "values": {
+    "throttle_response": "slider, light-aggressive",
+    "engine_braking": "slider, light-heavy",
+    "traction_control": "slider, none-more (TC button must be on)",
+    "launch_control": "slider, low-high",
+    "editable_map": "Map 1 only",
+    "presets": "Sand/Gravel/Hard Pack x Dry/Wet",
+    "upload_time": "about 20 s, engine off, neutral",
+    "slider_step_count": "not published"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, 'Tech spec: KTM Connectivity Unit tips and tricks'",
+    "url": "https://motocrossactionmag.com/mxa-tech-spec-ktm-connectivity-unit-tips-tricks",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "KTM's own page lists the same parameters plus quickshifter engagement, in PRIME (TC only) and ADVANCED modes, and presets SAND, GRAVEL, HARD PACK, DRY, WET. Neither gives numeric levels. Husqvarna app: Ride Husqvarna Motorcycles; GasGas app: GASGAS+."
+  },
+  {
+   "id": "map1-018",
+   "domain": "suspension",
+   "topic": "KTM CUO suspension suggestions: inputs and outputs",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F",
+     "Husqvarna FC 450",
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "statement": "The CUO sag assistant and suspension tab ask for skill (Basic, Advanced, Pro), body weight, gear weight, track type (motocross or enduro) and terrain (sand, soft, medium, hard), then suggest fork air pressure, fork compression and rebound clicks, fork height, shock compression and rebound clicks, high-speed compression turns, and shock preload or spring rate.",
+   "values": {
+    "inputs": "skill Basic/Advanced/Pro; body weight; gear weight; MX or enduro; sand/soft/medium/hard",
+    "outputs": "fork air pressure, fork comp/reb clicks, fork height, shock comp/reb clicks, shock HSC turns, preload or spring rate",
+    "suggested_values": "not published in text"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM tech guide, Connectivity Unit Offroad; Motocross Action CUO tips",
+    "url": "https://www.ktm.com/tech-guide/connectivity-unit-offroad",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "No source printed the actual numbers the app suggests for any weight/terrain combination."
+  },
+  {
+   "id": "map1-019",
+   "domain": "setups",
+   "topic": "Tester setup on a CUO-equipped 2024.5 450 SX-F Factory Edition",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A tester ran 10.8 bar fork air during break-in (10.9-11 bar suggested for riders over 180 lb, with compression backed off a couple of clicks), fork height 5 mm, and 102-104 mm rear sag, settling on 102 mm, with less engine braking dialled in through the CUO app.",
+   "values": {
+    "fork_air_break_in": "10.8 bar",
+    "fork_air_over_180lb": "10.9-11 bar",
+    "fork_height": "5 mm",
+    "rear_sag": "102-104 mm (102 mm chosen)",
+    "front_sag_noted": "103 mm",
+    "engine_braking": "reduced (value in screenshot only)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Keefer Inc. Testing, '2024.5 KTM 450 SX-F Factory Edition first impression'",
+    "url": "https://www.keeferinctesting.com/2024-5-ktm-450-sx-f-factory-edition-first-impression/",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Tester's own settings, not the app's suggestions. His favourite CUO engine setting is in a screenshot only (see not_found)."
+  },
+  {
+   "id": "map1-020",
+   "domain": "ecu_electronics",
+   "topic": "KTM CUO hardware, fitment and price",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 SX-F",
+     "350 SX-F",
+     "450 SX-F",
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F",
+     "Husqvarna FC 250",
+     "Husqvarna FC 350",
+     "Husqvarna FC 450",
+     "GasGas MC 250F",
+     "GasGas MC 450F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "The CUO costs about $249.99 (GBP 216.60); the RIDER lap/line analysis subscription is about $70 or EUR 69.99 a year, or EUR 11.99 a month. It is standard on 2024-2025 KTM SX-F Factory Editions and the 2025 350 XC-F Factory Edition, and retrofits to SX-F/XC-F four-strokes.",
+   "values": {
+    "price": "$249.99 / GBP 216.60",
+    "rider_subscription": "EUR 69.99/yr or EUR 11.99/month (about $70/yr US)",
+    "standard_on": "2024-2025 KTM SX-F Factory Edition, 2025 350 XC-F Factory Edition",
+    "retrofit_KTM_page": "2024-2025 SX-F and XC-F, 2025 450 SMR",
+    "retrofit_Enduro21": "all 2023-2024 KTM, Husqvarna, GasGas MX/XC four-strokes",
+    "auto_off": "about 2 min after engine stop",
+    "gps_rate": "20 positions per second",
+    "pairing": "hold button about 3 s",
+    "factory_reset": "hold about 12 s"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM tech guide; Enduro21 quick look; LIT Pro CUO guide",
+    "url": "https://enduro21.com/en/news/quick-look-2023-2024-ktm-sx-f-and-xc-f-connectivity-unit-offroad",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Fitment years differ by source (see conflicts). Auto-off, GPS rate and button times come from a rider-coaching company's guide (litprolive.com)."
+  },
+  {
+   "id": "map1-021",
+   "domain": "ecu_electronics",
+   "topic": "Husqvarna/KTM launch control and quickshifter interaction",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "Husqvarna FC 250",
+     "Husqvarna FC 350",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Launch control is armed at idle by pressing the TC and QS buttons together (both symbols flash), switches off on the first upshift, and disables the quickshifter while active; the quickshifter works 2nd to 5th only. Map 1 (white) is linear, Map 2 (green) aggressive.",
+   "values": {
+    "arming": "TC + QS together at idle",
+    "exit": "first upshift",
+    "quickshifter_during_LC": "disabled",
+    "quickshifter_gears": "2nd-5th",
+    "map1": "white, linear",
+    "map2": "green, aggressive",
+    "launch_rpm": "not published"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Motorcycles 2024 motocross media information",
+    "url": "https://www.husqvarna-motorcycles.com/en-int/Media-Information-Motocross-2024.html",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "No rpm limit or TC threshold published by KTM group for any model."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "Rideology KX grid size",
+   "spread": "6 x 6 grid (Kawasaki App Store, Ultimate Motorcycling, Keefer) vs 'grid with numbers 1-16' (MX Vice 2024 KX450 review)",
+   "records": [
+    "map1-007"
+   ],
+   "note": "Kawasaki's own listing says 6 x 6; MX Vice may be describing something else or be wrong."
+  },
+  {
+   "topic": "Which KX450 ECU years got the wider app range",
+   "spread": "Cycle News: parameters opened up for 2026; Vital owner (kx-075): 2024 ECU has less range than 2025-2026",
+   "records": [
+    "map1-010"
+   ]
+  },
+  {
+   "topic": "KTM CUO: which map is editable",
+   "spread": "MXA: only Map 1 adjustable, Map 2 is fixed stock aggressive; KTM/Husqvarna: Map 1 is the linear map and Map 2 the aggressive one (consistent), KTM page does not say which map the app writes",
+   "records": [
+    "map1-017"
+   ]
+  },
+  {
+   "topic": "KTM CUO fitment years",
+   "spread": "Enduro21: all 2023-2024 KTM/Husqvarna/GasGas MX/XC 4T; KTM page: 2024-2025 SX-F/XC-F retrofit; GearJunkie: select 2022-2024 bikes",
+   "records": [
+    "map1-020"
+   ]
+  },
+  {
+   "topic": "GYTR handheld ignition range",
+   "spread": "Dirt Bike Test: 14-degree range but +4/-9 (13); MXA 2010-13: fuel -7..+7, ignition range not stated",
+   "records": [
+    "map1-003"
+   ]
+  },
+  {
+   "topic": "Triumph app map table scope",
+   "spread": "Triumph owners page lists the 10 maps for TF 250-X only; tg-006 applied it to all TF models",
+   "records": [
+    "map1-015"
+   ]
+  }
+ ],
+ "not_found": [
+  {
+   "item": "Default rpm and TH% breakpoint values and any preset grid values (Smooth Linear, Hard-Hitting, Linear Torque) for 2023-2026 YZ450F, 2024-2026 YZ250F, YZ450FX, WR",
+   "searched": "MXA, Keefer, Vital forums and features, ADB, Transmoto, Cycle News, Yamaha US/AU/CA pages, Reddit/ThumperTalk via search, Japanese Yamaha search",
+   "reason": "Not published as text anywhere found; all 2023+ maps are app screenshots."
+  },
+  {
+   "item": "Yamaha preset map files (2018-2021 YZ450F/YZ250F/WR450F) - contain full grids",
+   "searched": "yamahamotorsports.com/power-tuner-app",
+   "reason": "Files exist (.yptsjsnz, likely compressed JSON) but the fetch tool refused the download (provenance). A person can download e.g. https://yamahamotorsports.com/media/images/power_tuner/tp-map-v20-2018-19-yz450f.yptsjsnz and import it in the app or decode it to transcribe values. All 14 file names are in map1-006."
+  },
+  {
+   "item": "IMAGE ONLY: Control Torque and Keefer Exciting Connect maps, 2023 YZ450F",
+   "searched": "keeferinctesting.com/?p=24385",
+   "reason": "App screenshots: https://www.keeferinctesting.com/wp-content/uploads/2023/01/Screenshot-2023-01-04-at-4.31.19-PM-473x1024.jpg (Control Torque) and https://www.keeferinctesting.com/wp-content/uploads/2023/01/Screenshot-2023-01-04-at-4.30.30-PM-473x1024.jpg (Exciting Connect). Each shows the app's fuel/ignition grid with TH% column. Fetch tool refused the image."
+  },
+  {
+   "item": "IMAGE ONLY: MXA 2023-2024 YZ450F mellower map (richer 2,000-5,000 rpm)",
+   "searched": "MXA 'Does MXA have any updated 2023-2024 YZ450F maps'",
+   "reason": "Fuel and ignition chart image: https://motocrossactionmag.com/wp-content/uploads/2023/03/MXperts_pg115-Charts-a-scaled.jpg"
+  },
+  {
+   "item": "IMAGE ONLY: 'Stevie' map, 2024 YZ250F",
+   "searched": "Vital MX '2024 YZ 250F Review' thread (https://www.vitalmx.com/comment/5864406)",
+   "reason": "Posted 11/30/2023 as an image captioned 'Stevie Map'; poster notes TH% on the left must also be changed."
+  },
+  {
+   "item": "IMAGE ONLY: TP3 map, 2019 YZ450F",
+   "searched": "Vital MX 'Yz450f 350 map?' (https://www.vitalmx.com/comment/7575286)",
+   "reason": "Posted 3/8/2025 as 'TP3 map.jpg'."
+  },
+  {
+   "item": "IMAGE ONLY: Racer X TP maps for 2018-19 YZ450F and YZ250F",
+   "searched": "https://racerxonline.com/2018/07/25/here-is-the-tp-map-we-used-for-our-yz450f-and-yz250f-video",
+   "reason": "Two photos of app grids; image URLs not exposed in page text."
+  },
+  {
+   "item": "IMAGE ONLY: MXA 2016 YZ450F stock-pipe and aftermarket-pipe GYTR maps",
+   "searched": "MXA Ask the MXperts 2016 YZ450F",
+   "reason": "https://motocrossactionmag.com/wp-content/uploads/2015/10/2017yz450fstockmap.jpg and https://motocrossactionmag.com/wp-content/uploads/2015/10/2016yz450fmappipe.jpg (3x3 GYTR grids)."
+  },
+  {
+   "item": "IMAGE ONLY: MXA 2010-2013 YZ450F four GYTR maps incl. 'Less Hit'",
+   "searched": "MXA wrench tech 2010-2013",
+   "reason": "https://motocrossactionmag.com/wp-content/uploads/2013/06/YZ450F-IGNITION-FUEL-MAPS.jpg"
+  },
+  {
+   "item": "IMAGE ONLY: Yamaha Australia 2016 WR450F Competition, Traction, YZ450F-muffler maps",
+   "searched": "Transmoto Mapping Matters 2016 WR450F",
+   "reason": "Images Map_Competition.jpg, Map_Traction.jpg, Map_Muffler.jpg on https://transmoto.com.au/mapping-matters-2016-wr450f"
+  },
+  {
+   "item": "IMAGE ONLY: Vital MX 2017 YZ250F Map Database image maps (Jonah Davis 2017/2018 YZ250F maps incl. 'Hit like a Mack truck'; ZB93 +1 fuel map; walent215 'Jesse' map)",
+   "searched": "https://www.vitalmx.com/comment/5559726",
+   "reason": "Posted as photos only."
+  },
+  {
+   "item": "IMAGE ONLY: Keefer 2021-2022 KX450 Smooth and Chavez maps",
+   "searched": "keeferinctesting.com",
+   "reason": "https://www.keeferinctesting.com/wp-content/uploads/2021/08/65110616458__AE275013-D85A-4AFA-BAA7-E9FDD792B6C8.jpeg and ...65110623789__C0762991-D462-4396-9028-3C92FF39EA60.jpeg (Smooth); ...65110600070__91F11BA8-8D3A-4F37-8ABA-9AE5478AC508.jpeg and ...65110610859__05E0979C-CB16-4F30-A455-EA1D360ECBFD.jpeg (Chavez), all under /wp-content/uploads/2021/08/ (calibration-kit fuel and ignition tables)."
+  },
+  {
+   "item": "IMAGE ONLY: Keefer 2027 KX250 optional map",
+   "searched": "keeferinctesting.com/2027-kawasaki-kx250-optional-ecu-map/",
+   "reason": "Rideology app screenshots: https://www.keeferinctesting.com/wp-content/uploads/2026/09/IMG_6309-525x1024.jpeg and https://www.keeferinctesting.com/wp-content/uploads/2026/09/IMG_6308-529x1024.jpeg (likely the 6x6 fuel and ignition grids with axis breakpoints visible)."
+  },
+  {
+   "item": "IMAGE ONLY: Keefer 2025-2026 KX450 map",
+   "searched": "Vital MX 'kx 450 = 350? mapping' (https://www.vitalmx.com/comment/9077186)",
+   "reason": "Posted as image_3240.png; Keefer 2024 optional and 2025-2026 map pages linked there. Forum members say they have the 2024 numbers but won't post them."
+  },
+  {
+   "item": "IMAGE ONLY: Keefer CUO favourite engine setting, 2024.5 KTM 450 SX-F FE",
+   "searched": "keeferinctesting.com 2024.5 KTM 450 SX-F FE first impression",
+   "reason": "Screenshot IMG_99D2B3CED44B, URL not exposed."
+  },
+  {
+   "item": "Rideology KX 6x6 axis breakpoints, per-cell ranges and step sizes; KTRC thresholds; launch maps",
+   "searched": "Kawasaki App Store, Kawasaki Connect page, Cycle News, Keefer, MX Vice, Ultimate Motorcycling, Dirt Bike, Vital threads",
+   "reason": "Not published in text; Kawasaki's 'Application Function FAQ' was not reachable. Rocky Mountain ATV/MC calibration kit page blocked by bot protection; 1000ps.de KX450 test fetch failed."
+  },
+  {
+   "item": "Kawasaki stock map grid values (Normal/Mild 450, Normal/Aggressive 250)",
+   "searched": "as above",
+   "reason": "Stock maps are shown in the app as zero offsets; absolute values not published."
+  },
+  {
+   "item": "Triumph per-map launch-control level, numeric engine-braking values, Akrapovic map GPA/EB, TF 450 map table",
+   "searched": "Triumph US/UK owners app pages, Triumph media kit, ADB 2026 TF 450-X, Athena",
+   "reason": "Triumph gives GPA numbers (4-6) and EB in words only, for TF 250-X only."
+  },
+  {
+   "item": "KTM/Husqvarna/GasGas launch rpm, TC slip thresholds, CUO slider step counts and preset contents, CUO suspension numbers",
+   "searched": "KTM/Husqvarna sites and tech guide, MXA, Keefer, Enduro21, GearJunkie, LIT Pro, KTMconnect App Store",
+   "reason": "Not published as numbers anywhere found."
+  },
+  {
+   "item": "ThumperTalk map threads (e.g. 'Yamaha GYTR Power Tuner MAPS', 2010/2011 YZ450 map database, 2014 YZ450F engine-braking mapping)",
+   "searched": "thumpertalk.com",
+   "reason": "Site returned fetch errors; not accessed."
+  }
+ ],
+ "sources": [
+  "https://apps.apple.com/md/app/rideology-the-app-kx/id6443785419",
+  "https://cdn.athena.eu/2fb118b8-1945-4e4f-a026-b07d05e4a51d.pdf",
+  "https://dirtbiketest.com/product-tests/gytr-power-tuner/",
+  "https://enduro21.com/en/news/quick-look-2023-2024-ktm-sx-f-and-xc-f-connectivity-unit-offroad",
+  "https://gearjunkie.com/motors/ktm-husqvarna-cuo-connectivity-unit-offroad",
+  "https://litprolive.com/blogs/riding-moto/getting-the-most-out-of-the-ktm-husqvarna-gasgas-cuo-connectivity-unit-offroad",
+  "https://motocrossactionmag.com/ask-the-mxperts-can-you-map-my-2016-yamaha-yz450f-for-me",
+  "https://motocrossactionmag.com/ask-the-mxperts-does-mxa-have-any-updated-2023-2024-yz450f-maps",
+  "https://motocrossactionmag.com/how-to-reprogram-your-kx450f-fuel-injection-system-in-17-easy-steps",
+  "https://motocrossactionmag.com/mxa-tech-spec-ktm-connectivity-unit-tips-tricks",
+  "https://motocrossactionmag.com/mxa-wrench-tech-how-to-reprogram-your-2010-thru-2013-yamaha-yz450f-efi-maps",
+  "https://mxvice.com/2024/05/10/2024-kawasaki-kx450-review/",
+  "https://shop.thepotteries.co.uk/product/kx-f-i-tuning-calibration-controller-kit",
+  "https://transmoto.com.au/mapping-matters-2016-wr450f",
+  "https://ultimatemotorcycling.com/2024/05/22/2024-kawasaki-kx450-extended-test-14-fast-facts/",
+  "https://www.athena.eu/en-us/-P13580.htm",
+  "https://www.cyclenews.com/2025/10/article/2026-kawasaki-kx450-review/",
+  "https://www.global-kawasaki-motors.com/kawasaki_connect/en/kx.html",
+  "https://www.husqvarna-motorcycles.com/en-int/Media-Information-Motocross-2024.html",
+  "https://www.keeferinctesting.com/2021-8-19-optional-2021-2022-kawasaki-kx450-maps/",
+  "https://www.keeferinctesting.com/2024-5-ktm-450-sx-f-factory-edition-first-impression/",
+  "https://www.keeferinctesting.com/2025-kawasaki-kx250/",
+  "https://www.keeferinctesting.com/2027-kawasaki-kx250-optional-ecu-map/",
+  "https://www.keeferinctesting.com/?p=24385",
+  "https://www.ktm.com/tech-guide/connectivity-unit-offroad",
+  "https://www.triumphmotorcycles.co.uk/owners/off-road/app",
+  "https://www.triumphmotorcycles.com/owners/off-road/app",
+  "https://www.vitalmx.com/comment/5559726",
+  "https://www.vitalmx.com/comment/5875766",
+  "https://www.yamaha-motor.com.au/buying/buyers-guides/freedom/products-pages/wr_mapping_ideas",
+  "https://yamahamotorsports.com/power-tuner-app"
+ ]
+}

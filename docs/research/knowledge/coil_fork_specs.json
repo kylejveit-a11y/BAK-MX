@@ -1,0 +1,222 @@
+{
+ "slice": "KTM / Husqvarna / GasGas coil-fork technical data (owner's-manual fork spring rates, oil, length) 2020-2026",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "150 XC-W",
+   "250 XC-W",
+   "300 XC-W",
+   "450 XCF-W",
+   "125 XC",
+   "250 XC",
+   "300 XC",
+   "250 XC-F",
+   "350 XC-F",
+   "450 XC-F",
+   "Husqvarna FX 350",
+   "Husqvarna FX 450",
+   "Husqvarna FE 450",
+   "Husqvarna TE 150",
+   "Husqvarna TE 250",
+   "Husqvarna TE 300",
+   "Husqvarna TX 300",
+   "GasGas EX 250F",
+   "GasGas EX 350F",
+   "GasGas EX 450F",
+   "GasGas EX 250",
+   "GasGas EX 300",
+   "GasGas EC 250",
+   "GasGas EC 300",
+   "GasGas EC 450F"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "records": [
+  {
+   "id": "km10-001",
+   "domain": "suspension",
+   "topic": "owner's-manual fork technical data: 2020 250/300 XC-W TPI (WP XPLOR coil fork)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "KTM's 2020 250/300 XC-W TPI manual lists the WP XPLOR 5348 coil fork with springs of 3.8 / 4.0 / 4.2 N/mm for 65-75 / 75-85 / 85-95 kg riders (4.0 N/mm standard), 928 mm fork length and 625 ml of SAE 4 fork oil per leg.",
+   "values": {
+    "fork": "WP XPLOR 5348 (art. no. 14.18.8T.63)",
+    "fork_spring_65-75kg": "3.8 N/mm (21.7 lb/in)",
+    "fork_spring_75-85kg_standard": "4.0 N/mm (22.8 lb/in)",
+    "fork_spring_85-95kg": "4.2 N/mm (24 lb/in)",
+    "spring_length_with_preload_spacers": "474 mm (18.66 in)",
+    "fork_length": "928 mm (36.54 in)",
+    "fork_oil_type": "WP fork oil SAE 4 (48601166S1)",
+    "fork_oil_per_leg": "625 +/- 10 ml (21.13 +/- 0.34 fl oz)",
+    "fork_comp_comfort_std_sport": "18 / 15 / 12 clicks",
+    "fork_reb_comfort_std_sport": "18 / 15 / 12 clicks"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2020 250/300 EXC TPI, XC-W TPI (art. no. 3214007en), technical data 22.7.1 'Fork - all standard EXC/XC-W models, 300 EXC Erzberg Edition TPI EU', manual-hosting site page view p.164",
+    "url": "https://www.manualslib.com/manual/1671791/Ktm-250-Exc-Tpi.html?page=164",
+    "date": "2019"
+   },
+   "confidence": "medium",
+   "notes": "Cover (year 2020, art. 3214007en, includes 250/300 XC-W TPI) confirmed on the same ManualsLib manual. Page text was flattened; the two tables (standard EXC/XC-W vs Six Days 5548 with preload adjuster) were assigned by section headings. The Six Days table shows identical springs, length and oil. Spring rate is per spring (both legs sprung on XPLOR)."
+  },
+  {
+   "id": "km10-002",
+   "domain": "suspension",
+   "topic": "owner's-manual chassis data: 2024 250/300 XC-W fork type and travel",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "250 XC-W",
+     "300 XC-W"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KTM's 2024 250/300 EXC/XC-W manual lists a WP XPLOR CC (closed-cartridge) coil fork with 300 mm front travel and 22 mm offset, and a WP PDS shock with 310 mm rear travel. The fork spring-rate page could not be read.",
+   "values": {
+    "fork": "WP XPLOR CC",
+    "shock": "WP PDS",
+    "front_travel": "300 mm (11.81 in)",
+    "rear_travel": "310 mm (12.2 in)",
+    "fork_offset": "22 mm (0.87 in)",
+    "fork_spring": "not reached (manual section 24.7 'Fork', viewer p.156)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM Owner's Manual 2024 250 EXC / Six Days / 250 XC-W / 300 EXC / Six Days / 300 XC-W / Hardenduro (art. no. 3214838en), technical data 'Chassis', manual-hosting site page view p.155",
+    "url": "https://www.manualslib.com/manual/3415755/Ktm-250-Exc-2024.html?page=155",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Cover details (2024, 3214838en, models incl. 250 XC-W, 300 XC-W, 300 XC-W Hardenduro) confirmed on the manual's index page. The same manual is reported in ktm_manual_2t.json as matching 2025 XC-W tables, but this chassis page was only checked for 2024."
+  },
+  {
+   "id": "km10-003",
+   "domain": "suspension",
+   "topic": "2024 XC / XC-F WP XACT closed-cartridge coil fork length and travel",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 XC",
+     "250 XC",
+     "300 XC",
+     "250 XC-F",
+     "350 XC-F",
+     "450 XC-F"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "For 2024 KTM replaced the air fork on its XC and XC-F cross-country bikes with a 48 mm WP XACT closed-cartridge coil-spring fork that is 940 mm long with 300 mm of travel; rear shock travel stays 300 mm.",
+   "values": {
+    "fork": "WP XACT 48 mm closed cartridge, coil spring",
+    "fork_length": "940 mm",
+    "front_travel": "300 mm",
+    "rear_travel": "300 mm",
+    "fork_spring": "not stated"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Bike Magazine, '2024 KTM two & four-stroke cross country models: all new WP spring fork revealed' (relaying KTM launch information); fork length also in Transmoto, 'All-new closed-cartridge fork for KTM's 2024 XC models'",
+    "url": "https://dirtbikemagazine.com/2024-ktm-two-four-stroke-cross-country-models-all-new-wp-spring-fork-revealed/",
+    "date": "2023"
+   },
+   "confidence": "medium",
+   "notes": "Manufacturer specification relayed by magazines, not read from the owner's manual. Neither article gives spring rates, oil volumes or shock spring rates. Transmoto URL: https://transmoto.com.au/all-new-closed-cartridge-fork-for-ktms-2024-xc-models/ . Probably also applies to 2025-2026 and to the GasGas EX / Husqvarna FX/TX sister bikes, but not verified."
+  },
+  {
+   "id": "km10-004",
+   "domain": "suspension",
+   "topic": "dealer-stated stock fork and shock spring: 300 XC-W / TE 300 2020-2025",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "300 XC-W",
+     "Husqvarna TE 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "A KTM/Husqvarna dealer's spring calculator lists the stock fork spring as 4.4 N/mm and the stock shock spring as 48 N/mm for the 300 XC-W and TE 300 across 2020-2025, with SAE 5 fork oil and a 110 mm air gap.",
+   "values": {
+    "fork_spring_stock": "4.4 N/mm",
+    "shock_spring_stock": "48 N/mm (stated for 165-185 lb riders; table elsewhere says 160-180 lb)",
+    "fork_oil": "WP SAE 5",
+    "fork_oil_air_gap": "110 mm"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "dealer",
+    "name": "Mountain Goat Sports, Spring Rate Calculator for KTM 300 XC-W & Husqvarna TE 300",
+    "url": "https://mountaingoatsports.com/resources/spring-rate-calculator/",
+    "date": "2025"
+   },
+   "confidence": "low",
+   "notes": "Conflicts with the 2020 owner's manual (km10-001): 4.0 N/mm standard spring for a 75-85 kg rider, SAE 4 oil. The dealer's figure may reflect US-model springs or a later change, but it treats 2020-2025 as one value without year detail. The same dealer's 'XACT vs XPLOR' page lists 4.4 N/mm and 580/610 ml oil but mixes up which fork is fitted to which model, so it was not used."
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "stock fork spring 300 XC-W / TE 300",
+   "spread": "4.0 N/mm standard (75-85 kg) in KTM 2020 owner's manual (km10-001) vs 4.4 N/mm stock in dealer calculator for 2020-2025 (km10-004)",
+   "records": [
+    "km10-001",
+    "km10-004"
+   ]
+  },
+  {
+   "topic": "XC-W fork oil",
+   "spread": "SAE 4, 625 ml per leg (2020 manual) vs SAE 5 with a 110 mm air gap (dealer)",
+   "records": [
+    "km10-001",
+    "km10-004"
+   ]
+  }
+ ],
+ "not_found": [
+  "Offset technique does not work: WebFetch reports the PDF text of e.g. https://www.ktmshop.se/bike-manuals/24_3214834_en_OM.pdf as 99,937 characters in total ('Nothing left to read from offset 100000'), ending at chapter 11.16 (page 66). The PDF-to-text conversion itself stops at about 100k characters, so offset cannot reach the technical-data chapter of any KTM-group owner's manual PDF.",
+  "ManualsLib page views: only pages that appear in search results with a section title are served correctly (got 2020 XC-W TPI p.164 and 2024 EXC/XC-W p.155). Table-of-contents links to fork pages (2024 250 EXC p.156/157, 2022 Husqvarna TE 250i/300i p.154, 2022 TX 300i p.137/138) were redirected to front-matter pages.",
+  "manua.ls (?p=N) and Scribd (JavaScript wall) gave no page text. Teknik Motorsport model pages list no stock rates. ktm.com model pages list no spring data. ThumperTalk threads (2022 300 XC-W fork springs, 2024 300 EXC spring rates, 2024 300 XC XACT CC tuning) returned fetch errors.",
+  "Still missing, OEM spring rate, oil and fork length: 150 XC-W 2020-2026; 250/300 XC-W 2021-2026 (2024 fork type only); 450 XCF-W 2023-2026; 125/250/300 XC and 250/350/450 XC-F 2024-2026 (only 940 mm length and 300 mm travel for 2024); 2024+ XC-F/EX coil shock spring chart; Husqvarna FX 350/450 2024+, FE 450, TE 150/250/300, TX 300 2024+; GasGas EX 250F/350F/450F 2024+, EX 250/300 2024+, EC 250/300/450F.",
+  "Not in scope as coil: Husqvarna TX 300 2020-2023, FX 2020-2023, KTM XC/XC-F 2020-2023 and GasGas EX before 2024 use the WP XACT air fork (see the existing ktm_manual_* / husqvarna_manual.json records)."
+ ],
+ "sources": [
+  "https://www.manualslib.com/manual/1671791/Ktm-250-Exc-Tpi.html?page=164",
+  "https://www.manualslib.com/manual/1671791/Ktm-250-Exc-Tpi.html",
+  "https://www.manualslib.com/manual/3415755/Ktm-250-Exc-2024.html",
+  "https://www.manualslib.com/manual/3415755/Ktm-250-Exc-2024.html?page=155",
+  "https://dirtbikemagazine.com/2024-ktm-two-four-stroke-cross-country-models-all-new-wp-spring-fork-revealed/",
+  "https://transmoto.com.au/all-new-closed-cartridge-fork-for-ktms-2024-xc-models/",
+  "https://mountaingoatsports.com/resources/spring-rate-calculator/",
+  "https://mountaingoatsports.com/resources/xact-vs-xplor-suspension/",
+  "https://www.ktmshop.se/bike-manuals/24_3214834_en_OM.pdf"
+ ]
+}
