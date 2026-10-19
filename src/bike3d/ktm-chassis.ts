@@ -29,6 +29,46 @@ function chamferedBlock(width:number,height:number,depth:number,bevel:number){
  const geometry=new T.BufferGeometry();geometry.setAttribute('position',new T.Float32BufferAttribute(positions,3));geometry.computeVertexNormals();return geometry;
 }
 
+/** A true tapered, broken-corner lug rather than a box projected onto the carcass.
+ * Local Y is radial; local Z spans the tire. The base is wider than the contact
+ * face, with irregular shoulder cuts matching the silhouette of molded MX knobs.
+ * These are authored geometry, not a texture or floating decal. */
+function motocrossKnobGeometry(length:number,height:number,width:number){
+ const baseY=-height*.48,shoulderY=height*.27,capY=height*.52;
+ const base:[number,number][]= [
+  [-.50,-.43],[-.35,-.50],[.32,-.50],[.50,-.35],
+  [.50,.37],[.35,.50],[-.36,.50],[-.50,.32]
+ ];
+ const shoulder:[number,number][]=base.map(([x,z])=>[x*.86,z*.88]);
+ const cap:[number,number][]= [
+  [-.39,-.30],[-.23,-.42],[.27,-.40],[.40,-.20],
+  [.39,.27],[.22,.40],[-.28,.38],[-.40,.19]
+ ];
+ const vertices:number[]=[],normals:number[]=[];
+ const triangle=(a:number[],b:number[],c:number[])=>{
+  const va=new T.Vector3(...a),vb=new T.Vector3(...b),vc=new T.Vector3(...c);
+  const n=vb.clone().sub(va).cross(vc.clone().sub(va)).normalize();
+  for(const p of [a,b,c]){vertices.push(...p);normals.push(n.x,n.y,n.z);}
+ };
+ const at=(ring:[number,number][],y:number,i:number)=>{
+  const p=ring[(i+ring.length)%ring.length];return [p[0]*length,y,p[1]*width];
+ };
+ for(let i=0;i<8;i++){
+  const next=(i+1)%8;
+  // Face normals point outwards, including the tapered rubber shoulders.
+  for(const [lower,ly,upper,uy] of [[base,baseY,shoulder,shoulderY],[shoulder,shoulderY,cap,capY]] as const){
+   triangle(at(lower,ly,i),at(lower,ly,next),at(upper,uy,next));
+   triangle(at(lower,ly,i),at(upper,uy,next),at(upper,uy,i));
+  }
+  triangle([0,capY,0],at(cap,capY,i),at(cap,capY,next));
+  triangle([0,baseY,0],at(base,baseY,next),at(base,baseY,i));
+ }
+ const geometry=new T.BufferGeometry();
+ geometry.setAttribute('position',new T.Float32BufferAttribute(vertices,3));
+ geometry.setAttribute('normal',new T.Float32BufferAttribute(normals,3));
+ geometry.computeBoundingSphere();return geometry;
+}
+
 /** Original exterior reconstruction, traced against the exact-year US studio photographs.
  * Nominal wheel/disc/chain dimensions are documentary anchors; surface profiles are estimates. */
 export function buildChassis({groups,mats,d,target}:AuthoringContext){
@@ -94,7 +134,7 @@ export function buildChassis({groups,mats,d,target}:AuthoringContext){
   }
   // Radially oriented individual MX blocks continue around both shoulders.
   const rows=frontWheel?[-1.01,0,1.01]:[-1.02,-.48,0,.48,1.02],count=frontWheel?46:44;
-  const treadGeometry=chamferedBlock(frontWheel?.028:.034,.018,frontWheel?.026:.028,.0015);
+  const treadGeometry=motocrossKnobGeometry(frontWheel?.030:.039,frontWheel?.017:.021,frontWheel?.027:.033);
   const tread=new T.InstancedMesh(treadGeometry,treadMaterial,count*rows.length),dummy=new T.Object3D();
   const basis=new T.Matrix4(),tangent=new T.Vector3(),normal=new T.Vector3(),cross=new T.Vector3();
   rows.forEach((beta,row)=>{for(let i=0;i<count;i++){
@@ -103,7 +143,7 @@ export function buildChassis({groups,mats,d,target}:AuthoringContext){
    dummy.position.set(ca*r,sa*r,axial*sb);
    tangent.set(sa,-ca,0);normal.set(ca*cb,sa*cb,sb);cross.crossVectors(tangent,normal);
    basis.makeBasis(tangent,normal,cross);dummy.quaternion.setFromRotationMatrix(basis);
-   dummy.scale.set(row===Math.floor(rows.length/2)?1.06:.92,1,row===0||row===rows.length-1?.88:1);
+   dummy.scale.set(row===Math.floor(rows.length/2)?1.10:.88,1,row===0||row===rows.length-1?.80:1);
    dummy.updateMatrix();tread.setMatrixAt(row*count+i,dummy.matrix);
   }});
   tread.instanceMatrix.needsUpdate=true;tread.castShadow=true;tread.receiveShadow=true;tread.name=frontWheel?'front-mx-tread-blocks':'rear-mx-tread-blocks';g.add(tread);
