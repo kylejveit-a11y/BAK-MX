@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "identity": "KTM|450 SX-F|2025|standard|US",
+  "accuracy": "BLOCKOUT_NOT_OEM_VERIFIED",
+  "renderStatus": "PHOTO_REAL_CONCEPT_NOT_OEM_REFERENCE",
+  "views": [
+    {"id": "three-quarter-left", "label": "3/4 Left", "shortLabel": "3/4 L", "src": "/bike-builder/ktm-static-configurator/three-quarter-left.jpg"},
+    {"id": "left", "label": "Full Left", "shortLabel": "Left", "src": "/bike-builder/ktm-static-configurator/left.jpg"},
+    {"id": "top", "label": "Top", "shortLabel": "Top", "src": "/bike-builder/ktm-static-configurator/top.jpg"},
+    {"id": "right", "label": "Full Right", "shortLabel": "Right", "src": "/bike-builder/ktm-static-configurator/right.jpg"},
+    {"id": "three-quarter-right", "label": "3/4 Right", "shortLabel": "3/4 R", "src": "/bike-builder/ktm-static-configurator/three-quarter-right.jpg"}
+  ],
+  "parts": [
+    {
+      "id": "front-fender", "label": "Front fender", "group": "Bodywork", "detail": "Molded front bodywork inspection zone.",
+      "anchors": {"three-quarter-left":{"x":0.72,"y":0.34},"left":{"x":0.76,"y":0.34},"top":{"x":0.82,"y":0.48},"right":{"x":0.76,"y":0.35},"three-quarter-right":{"x":0.76,"y":0.34}}
+    },
+    {
+      "id": "front-wheel", "label": "Front wheel", "group": "Wheels", "detail": "Front rim, spokes, hub and tire zone.",
+      "anchors": {"three-quarter-left":{"x":0.73,"y":0.70},"left":{"x":0.78,"y":0.67},"top":{"x":0.94,"y":0.50},"right":{"x":0.79,"y":0.68},"three-quarter-right":{"x":0.77,"y":0.68}}
+    },
+    {
+      "id": "front-brake", "label": "Front brake", "group": "Brakes", "detail": "Front rotor, caliper and line inspection zone.",
+      "anchors": {"three-quarter-left":{"x":0.70,"y":0.69},"left":{"x":0.78,"y":0.65},"top":{"x":0.87,"y":0.55},"right":{"x":0.75,"y":0.66},"three-quarter-right":{"x":0.73,"y":0.66}}
+    },
+    {
+      "id": "fork", "label": "Fork and clamps", "group": "Suspension", "detail": "Fork legs, guards and triple-clamp inspection zone.",
+      "anchors": {"three-quarter-left":{"x":0.65,"y":0.48},"left":{"x":0.70,"y":0.48},"top":{"x":0.68,"y":0.55},"right":{"x":0.70,"y":0.49},"three-quarter-right":{"x":0.68,"y":0.48}}
+    },
+    {
+      "id": "handlebars", "label": "Bars and controls", "group": "Controls", "detail": "Handlebar, grips, levers and control zone.",
+      "anchors": {"three-quarter-left":{"x":0.51,"y":0.12},"left":{"x":0.59,"y":0.15},"top":{"x":0.62,"y":0.51},"right":{"x":0.58,"y":0.15},"three-quarter-right":{"x":0.58,"y":0.14}}
+    },
+    {
+      "id": "number-plate", "label": "Front number plate", "group": "Bodywork", "detail": "Front plate and upper mask inspection zone.",
+      "anchors": {"three-quarter-left":{"x":0.56,"y":0.23},"left":{"x":0.65,"y":0.24},"top":{"x":0.70,"y":0.49},"right":{"x":0.65,"y":0.24},"three-quarter-right":{"x":0.67,"y":0.24}}
+    },
+    {
+      "id": "radiator-shrouds", "label": "Radiator shrouds", "group": "Bodywork", "detail": "Radiator shroud and cooling-side bodywork zone.",
+      "anchors": {"three-quarter-left":{"x":0.48,"y":0.39},"left":{"x":0.55,"y":0.39},"top":{"x":0.57,"y":0.57},"right":{"x":0.55,"y":0.39},"three-quarter-right":{"x":0.56,"y":0.39}}
+    },
+    {
+      "id": "frame", "label": "Frame", "group": "Chassis", "detail": "Main frame and visible subframe inspection zone.",
+      "anchors": {"three-quarter-left":{"x":0.42,"y":0.52},"left":{"x":0.46,"y":0.52},"top":{"x":0.50,"y":0.57},"right":{"x":0.46,"y":0.52},"three-quarter-right":{"x":0.47,"y":0.53}}
+    },
+    {
+      "id": "engine", "label": "Engine exterior", "group": "Powertrain", "detail": "Visible crankcase, cylinder and engine-cover zone.",
+      "anchors": {"three-quarter-left":{"x":0.45,"y":0.60},"left":{"x":0.49,"y":0.59},"top":{"x":0.48,"y":0.64},"right":{"x":0.49,"y":0.59},"three-quarter-right":{"x":0.49,"y":0.60}}
+    },
+    {
+      "id": "exhaust", "label": "Exhaust system", "group": "Powertrain", "detail": "Header, mid-pipe and muffler inspection zone.",
+      "anchors": {"three-quarter-left":{"x":0.29,"y":0.43},"left":{"x":0.27,"y":0.44},"top":{"x":0.28,"y":0.64},"right":{"x":0.27,"y":0.43},"three-quarter-right":{"x":0.31,"y":0.39}}
+    },
+    {
+      "id": "seat", "label": "Seat", "group": "Cockpit", "detail": "Seat profile and gripper-cover inspection zone.",
+      "anchors": {"three-quarter-left":{"x":0.37,"y":0.27},"left":{"x":0.40,"y":0.29},"top":{"x":0.39,"y":0.50},"right":{"x":0.40,"y":0.29},"three-quarter-right":{"x":0.41,"y":0.28}}
+    },
+    {
+      "id": "side-panels", "label": "Side panels", "group": "Bodywork", "detail": "Airbox cover and side-panel inspection zone.",
+      "anchors": {"three-quarter-left":{"x":0.29,"y":0.39},"left":{"x":0.31,"y":0.39},"top":{"x":0.31,"y":0.59},"right":{"x":0.31,"y":0.39},"three-quarter-right":{"x":0.32,"y":0.38}}
+    },
+    {
+      "id": "rear-fender", "label": "Rear fender", "group": "Bodywork", "detail": "Rear bodywork and tail-profile inspection zone.",
+      "anchors": {"three-quarter-left":{"x":0.20,"y":0.27},"left":{"x":0.18,"y":0.27},"top":{"x":0.18,"y":0.50},"right":{"x":0.17,"y":0.27},"three-quarter-right":{"x":0.20,"y":0.25}}
+    },
+    {
+      "id": "rear-wheel", "label": "Rear wheel", "group": "Wheels", "detail": "Rear rim, spokes, hub and tire zone.",
+      "anchors": {"three-quarter-left":{"x":0.25,"y":0.66},"left":{"x":0.20,"y":0.66},"top":{"x":0.06,"y":0.50},"right":{"x":0.19,"y":0.66},"three-quarter-right":{"x":0.23,"y":0.67}}
+    },
+    {
+      "id": "chain-drive", "label": "Chain and sprocket", "group": "Drivetrain", "detail": "Chain, sprocket and rear-drive inspection zone.",
+      "anchors": {"three-quarter-left":{"x":0.33,"y":0.66},"left":{"x":0.31,"y":0.65},"top":{"x":0.16,"y":0.63},"right":{"x":0.31,"y":0.65},"three-quarter-right":{"x":0.32,"y":0.67}}
+    }
+  ]
+}

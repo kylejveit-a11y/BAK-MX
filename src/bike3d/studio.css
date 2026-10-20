@@ -1,4 +1,4 @@
-.bak3d-studio{--orange:#ff641b;background:#0a1014;color:#e9edef;min-height:100vh;font-family:Inter,system-ui,sans-serif;padding:0 5vw}
+.bak3d-studio{--orange:#ff641b;--panel:#10181d;--line:#2a3942;background:#080d11;color:#e9edef;min-height:100vh;font-family:Inter,system-ui,sans-serif;padding:0 5vw}
 .bak3d-studio *{box-sizing:border-box}
 .bak3d-studio header{height:88px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #26323a}
 .bak3d-studio header a{font-weight:950;font-size:26px;text-decoration:none;color:#fff;letter-spacing:-1px}
@@ -6,45 +6,64 @@
 .bak3d-studio header div{font-size:10px;letter-spacing:2px;color:#8d9ca7;text-align:right}
 .bak3d-studio header b{display:block;color:#eee;margin-top:8px}
 .bak3d-intro{display:flex;justify-content:space-between;gap:24px;padding:45px 0 30px;align-items:flex-end}
-.bak3d-eyebrow{font-size:10px!important;letter-spacing:2px;color:#ff803d!important;font-weight:750}
+.bak3d-eyebrow{font-size:10px!important;letter-spacing:2px;color:#ff803d!important;font-weight:750;text-transform:uppercase}
 .bak3d-intro h1{font-size:clamp(35px,4vw,62px);line-height:1.02;letter-spacing:-2.5px;margin:16px 0}
 .bak3d-intro h1 em{font-style:normal;color:#aab5bd}
 .bak3d-intro p,.bak3d-bottom p{color:#a0aeb8;font-size:13px;line-height:1.7}
 .bak3d-phase{border-left:2px solid var(--orange);padding-left:20px;max-width:360px}
 .bak3d-phase span{font-size:10px;letter-spacing:2px;color:#ff803d}
 .bak3d-phase strong{display:block;margin-top:8px;font-size:22px}
-.bak3d-viewer{position:relative;background:#090e12;border:1px solid #26343d;border-radius:14px;overflow:hidden;color:#e9edef;font-family:system-ui,sans-serif;box-shadow:0 28px 90px #0008}
-.bak3d-canvas{height:clamp(430px,56vw,720px);width:100%}
-.bak3d-canvas canvas{display:block;max-width:100%}
-.bak3d-tag{position:absolute;top:22px;left:24px;pointer-events:none;font-size:10px;letter-spacing:2px;color:#d3dce2}
-.bak3d-tag span{display:block;margin-top:8px;color:#758894;font-size:9px}
-.bak3d-controls{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;padding:14px 12px 0;background:#10181d}
-.bak3d-viewer button,.bak3d-studio article button{border:1px solid #33444e;background:#172229;color:#dbe3e9;padding:9px 14px;border-radius:999px;cursor:pointer;text-transform:none;font-size:12px}
-.bak3d-viewer button:hover,.bak3d-studio article button:hover,.bak3d-viewer button[aria-pressed=true]{border-color:var(--orange);background:#2b201b;color:#fff}
+.bak3d-viewer{position:relative;background:#090e12;border:1px solid #26343d;border-radius:16px;overflow:hidden;color:#e9edef;font-family:Inter,system-ui,sans-serif;box-shadow:0 28px 90px #0009;outline:none}
+.bak3d-viewer:focus-visible{box-shadow:0 0 0 2px var(--orange),0 28px 90px #0009}
+.bak-photo-stage{position:relative;width:100%;aspect-ratio:4/3;background:#0b1115;overflow:hidden;touch-action:pan-y}
+.bak-photo-bike{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform-origin:center;transition:transform .22s ease,opacity .18s ease;user-select:none}
+.bak-photo-loading{position:absolute;inset:0;display:grid;place-items:center;color:#aab6be;font-size:12px;letter-spacing:1.2px;background:linear-gradient(135deg,#111a20,#090d10)}
+.bak-photo-loading span{position:absolute;width:44px;height:44px;border:2px solid #33434d;border-top-color:var(--orange);border-radius:50%;animation:bak-spin .8s linear infinite;transform:translateY(-30px)}
+@keyframes bak-spin{to{transform:translateY(-30px) rotate(360deg)}}
+.bak-photo-meta{position:absolute;top:22px;left:24px;display:flex;flex-direction:column;gap:7px;padding:11px 13px;background:#071016cc;border:1px solid #53616a66;border-radius:8px;backdrop-filter:blur(8px);pointer-events:none}
+.bak-photo-meta b{font-size:12px;letter-spacing:1.2px;text-transform:uppercase}
+.bak-photo-meta span{font-size:8px;letter-spacing:1.35px;color:#ffb07e}
+.bak-photo-arrow{position:absolute!important;top:50%;width:45px;height:58px;padding:0!important;display:grid;place-items:center;transform:translateY(-50%);border-radius:8px!important;background:#091117c7!important;font-size:31px!important;line-height:1;backdrop-filter:blur(7px)}
+.bak-photo-prev{left:17px}.bak-photo-next{right:17px}
+.bak-photo-marker{position:absolute!important;width:22px;height:22px;padding:0!important;transform:translate(-50%,-50%);border:3px solid #fff!important;border-radius:50%!important;background:var(--orange)!important;box-shadow:0 0 0 7px #ff641b35,0 3px 18px #000c;transition:left .25s ease,top .25s ease,transform .2s ease;z-index:4}
+.bak-photo-marker:hover{transform:translate(-50%,-50%) scale(1.14)}
+.bak-photo-marker span{position:absolute;left:30px;top:50%;transform:translateY(-50%);white-space:nowrap;padding:8px 10px;border-radius:6px;background:#071016e8;color:#fff;font-size:10px;letter-spacing:.6px;text-transform:uppercase;box-shadow:0 6px 22px #0009}
+.bak-photo-zoom{position:absolute;right:18px;bottom:18px;display:flex;align-items:center;gap:3px;padding:5px;background:#071016dd;border:1px solid #53616a66;border-radius:999px;backdrop-filter:blur(8px)}
+.bak-photo-zoom button{min-width:34px;padding:7px 9px!important}.bak-photo-zoom output{min-width:48px;text-align:center;font-size:10px;color:#c4cdd2}
+.bak3d-viewer button{border:1px solid #33444e;background:#172229;color:#dbe3e9;padding:9px 14px;border-radius:999px;cursor:pointer;font:inherit;font-size:12px}
+.bak3d-viewer button:hover,.bak3d-viewer button[aria-pressed=true]{border-color:var(--orange);background:#2b201b;color:#fff}
 .bak3d-viewer button:focus-visible,.bak3d-studio a:focus-visible{outline:2px solid #ff803d;outline-offset:3px}
-.bak3d-viewer button:disabled{opacity:.45;cursor:not-allowed}
-.bak3d-hint{text-align:center;font-size:11px;color:#8e9fa9;margin:0;padding:10px 10px 12px;background:#10181d}
-.bak3d-authoring{padding:20px 24px;background:#131d23;border-top:1px solid #26343d;display:flex;align-items:center;gap:20px;flex-wrap:wrap;font-size:12px}
-.bak3d-components{display:flex;flex-wrap:wrap;gap:12px;width:100%;color:#a8b6c0}
-.bak3d-viewer input{accent-color:var(--orange);vertical-align:middle;margin-right:7px}
-.bak3d-error{position:absolute;inset:60px 20px auto;padding:20px;background:#38251c;border:1px solid #ff803d;border-radius:8px}
-.bak3d-error button{display:block;margin:12px auto}
+.bak-photo-views{display:grid;grid-template-columns:42px repeat(5,minmax(90px,1fr)) 42px;gap:7px;padding:13px;background:#0e171c;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.bak-photo-views button{border-radius:8px;padding:10px 8px;min-width:0}
+.bak-photo-views button span{display:none}.bak-photo-views button small{font-size:10px;letter-spacing:.45px;text-transform:uppercase}
+.bak-photo-views .bak-view-step{padding:0;font-size:18px}
+.bak-photo-configurator{display:grid;grid-template-columns:minmax(210px,.34fr) 1fr;background:#111a20}
+.bak-photo-selection{padding:24px;border-right:1px solid var(--line)}
+.bak-photo-selection h2{margin:9px 0 7px;font-size:24px;letter-spacing:-.6px}
+.bak-photo-selection>p:not(.bak3d-eyebrow){color:#96a6af;font-size:12px;line-height:1.6;min-height:39px}
+.bak-photo-selection>span{display:inline-block;margin-top:5px;border:1px solid #3a4a53;border-radius:999px;padding:6px 9px;font-size:9px;letter-spacing:1px;color:#c4ced4;text-transform:uppercase}
+.bak-photo-parts{display:grid;grid-template-columns:repeat(3,minmax(140px,1fr));gap:7px;padding:18px;align-content:start}
+.bak-photo-parts button{display:flex;align-items:center;gap:9px;text-align:left;border-radius:8px;padding:10px 11px;background:#141f25}
+.bak-photo-parts button i{display:block;width:7px;height:7px;border-radius:50%;background:#5a6d77;box-shadow:0 0 0 3px #25343c;flex:0 0 auto}
+.bak-photo-parts button[aria-pressed=true] i{background:var(--orange);box-shadow:0 0 0 3px #ff641b2e}
+.bak3d-hint{text-align:center;font-size:10px;color:#8799a3;margin:0;padding:11px;background:#0d151a;border-top:1px solid #202f37}
+.bak-photo-authoring{text-align:center;margin:0;padding:10px 16px;background:#182229;color:#ffb07e;font-size:9px;letter-spacing:1.2px}
+.bak3d-error{position:absolute;z-index:5;inset:60px 20px auto;padding:20px;background:#38251c;border:1px solid #ff803d;border-radius:8px;text-align:center}
+.bak3d-error button{display:block;margin:12px auto 0}
 .bak3d-bottom{display:grid;grid-template-columns:1fr 1fr;gap:60px;padding:38px 0}
 .bak3d-bottom h2{font-size:22px;letter-spacing:-.5px}
 .bak3d-bottom ul{padding-left:18px;color:#aab7bf;font-size:12px;line-height:1.9}
 .bak3d-bottom a{display:block;font-size:12px;color:#e1e8ed;margin:15px 0}
 .bak3d-studio footer{border-top:1px solid #29343c;color:#667d8b;font-size:9px;letter-spacing:2px;padding:24px 0 32px}
-.bak3d-viewer:fullscreen{overflow:auto}
-.bak3d-viewer:fullscreen .bak3d-canvas{height:75vh}
-.bak3d-expanded{position:fixed!important;inset:0;z-index:10000;overflow:auto;background:#090e12;border-radius:0!important;padding-top:env(safe-area-inset-top)}
-.bak3d-expanded .bak3d-canvas{height:75dvh!important}
-@media(max-width:650px){
- .bak3d-intro{display:block;padding-top:28px}
- .bak3d-phase{margin-top:24px}
- .bak3d-bottom{grid-template-columns:1fr;gap:20px}
- .bak3d-authoring{padding:16px}
- .bak3d-canvas{height:430px}
- .bak3d-studio header div{font-size:8px}
- .bak3d-controls{justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap}
- .bak3d-viewer button{white-space:nowrap}
+@media(max-width:800px){
+ .bak-photo-configurator{grid-template-columns:1fr}.bak-photo-selection{border-right:0;border-bottom:1px solid var(--line);padding:18px}.bak-photo-selection>p:not(.bak3d-eyebrow){min-height:0}
+ .bak-photo-parts{grid-template-columns:repeat(2,minmax(120px,1fr));padding:12px}
+ .bak-photo-views{grid-template-columns:36px repeat(5,1fr) 36px;gap:4px;padding:9px}.bak-photo-views button{padding:9px 4px}.bak-photo-views button small{display:none}.bak-photo-views button span{display:block;font-size:9px;text-transform:uppercase}
 }
+@media(max-width:650px){
+ .bak3d-studio{padding:0 14px}.bak3d-intro{display:block;padding-top:28px}.bak3d-phase{margin-top:24px}.bak3d-bottom{grid-template-columns:1fr;gap:20px}.bak3d-studio header div{font-size:8px}
+ .bak-photo-stage{aspect-ratio:4/3}.bak-photo-meta{top:10px;left:10px;padding:8px}.bak-photo-meta span{font-size:7px}.bak-photo-arrow{width:34px;height:48px}.bak-photo-prev{left:8px}.bak-photo-next{right:8px}
+ .bak-photo-marker span{display:none}.bak-photo-zoom{right:8px;bottom:8px}.bak-photo-zoom output{display:none}.bak-photo-zoom button{min-width:31px;padding:6px!important}
+ .bak-photo-parts{grid-template-columns:repeat(2,1fr)}.bak-photo-parts button{font-size:10px;padding:9px 8px}.bak3d-hint{font-size:9px}
+}
+@media(prefers-reduced-motion:reduce){.bak-photo-bike,.bak-photo-marker{transition:none}.bak-photo-loading span{animation:none}}
