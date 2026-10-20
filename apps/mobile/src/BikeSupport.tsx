@@ -5,11 +5,11 @@ import {Card,Eyebrow,Page,Select,colors,s} from './ui';
 const data=require('../../../shared/bike-support.json') as SupportData;
 
 const tone:Record<string,{bg:string;line:string;text:string}>={full:{bg:'#10251a',line:'#2f7a4c',text:'#bff0cf'},strong:{bg:'#0f1d2e',line:'#3d6ea8',text:'#cfe2fb'},good:{bg:'#1d1a10',line:'#7a6a2f',text:'#f0e2b5'},basic:{bg:'#16181c',line:'#3a3f48',text:'#a7afbd'}};
-function Badge({id,label}:{id:string;label:string}){const t=tone[id];return <View style={{alignSelf:'flex-start',backgroundColor:t.bg,borderColor:t.line,borderWidth:1,borderRadius:999,paddingHorizontal:10,paddingVertical:4}}><Text style={{color:t.text,fontSize:12,fontWeight:'800'}}>{label}</Text></View>;}
+function Badge({id,label}:{id:string;label:string}){const t=tone[id];return <View style={{flexDirection:'row',alignItems:'center',gap:6,alignSelf:'flex-start'}}><View style={{width:8,height:8,borderRadius:4,backgroundColor:t.text}}/><Text style={{color:t.text,fontSize:12.5,fontWeight:'700'}}>{label}</Text></View>;}
 
 export function SupportDetail({row}:{row:SupportRow}){
  const l=level(row);
- return <View style={{gap:8,borderWidth:1,borderColor:'#232833',borderRadius:14,padding:14,backgroundColor:'#0c0f14'}}>
+ return <View style={{gap:8,paddingTop:4}}>
   <Badge id={l.id} label={l.label}/>
   <Text style={{color:colors.text,fontSize:17,fontWeight:'800'}}>{row.year} {row.make} {row.model}</Text>
   <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>{l.line}</Text>
@@ -43,6 +43,6 @@ export function SupportedBikesScreen(){
    <View style={{flexDirection:'row',gap:8,flexWrap:'wrap'}}>{(['full','strong','good','basic'] as const).map(id=><Badge key={id} id={id} label={level({full_rebuild:id==='full',knowledge:id==='strong'?90:id==='good'?70:10}).short}/>)}</View>
    <TextInput value={q} onChangeText={setQ} placeholder="Search: KX450, 2024, Husqvarna…" placeholderTextColor="#7c858e" style={s.input} accessibilityLabel="Search bikes"/></Card>
   {open&&<Card><SupportDetail row={open}/><Pressable onPress={()=>setOpen(null)}><Text style={{color:colors.accent,fontWeight:'700'}}>Close</Text></Pressable></Card>}
-  {makes.map(make=><Card key={make}><Text style={{color:colors.text,fontSize:19,fontWeight:'800'}}>{make}</Text>{[...groups.entries()].filter(([k])=>k.startsWith(make+'|')).map(([k,rows])=><View key={k} style={{gap:8,borderTopWidth:1,borderTopColor:'#232833',paddingTop:10}}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{k.split('|')[1]}</Text><View style={{flexDirection:'row',flexWrap:'wrap',gap:6}}>{rows.sort((a,b)=>b.year-a.year).map(r=>{const t=tone[level(r).id];return <Pressable key={r.year} accessibilityRole="button" accessibilityLabel={`${r.year} ${level(r).label}`} onPress={()=>setOpen(r)} style={{backgroundColor:t.bg,borderColor:t.line,borderWidth:1,borderRadius:8,paddingHorizontal:9,paddingVertical:6}}><Text style={{color:t.text,fontSize:13,fontWeight:'700'}}>{r.year}</Text></Pressable>;})}</View></View>)}</Card>)}
+  {makes.map(make=><Card key={make}><Text style={{color:colors.text,fontSize:19,fontWeight:'800'}}>{make}</Text>{[...groups.entries()].filter(([k])=>k.startsWith(make+'|')).map(([k,rows])=><View key={k} style={{gap:8,borderTopWidth:1,borderTopColor:'#232833',paddingTop:10}}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{k.split('|')[1]}</Text><View style={{flexDirection:'row',flexWrap:'wrap',gap:6}}>{rows.sort((a,b)=>b.year-a.year).map(r=>{const t=tone[level(r).id];return <Pressable key={r.year} accessibilityRole="button" accessibilityLabel={`${r.year} ${level(r).label}`} onPress={()=>setOpen(r)} style={{flexDirection:'row',alignItems:'center',gap:5,paddingHorizontal:6,paddingVertical:6}}><View style={{width:6,height:6,borderRadius:3,backgroundColor:t.text}}/><Text style={{color:t.text,fontSize:14,fontWeight:'600'}}>{r.year}</Text></Pressable>;})}</View></View>)}</Card>)}
  </Page>;
 }
