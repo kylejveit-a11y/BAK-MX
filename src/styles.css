@@ -1073,3 +1073,26 @@ body.sheet-open{overflow:hidden}
 .quick-card:hover{border-color:#3a4558;transform:translateY(-1px)}.quick-card svg{color:var(--accent)}
 .quick-card strong{font-size:15.5px}.quick-card small{color:#8f97a5;font-size:13px;line-height:1.4}
 @media (max-width:760px){.quick-grid{grid-template-columns:1fr 1fr;gap:10px}.quick-card{padding:15px}}
+/* Bike support */
+.support-picker{margin-top:14px}
+.support-selects{display:grid;grid-template-columns:1.1fr 1.3fr .8fr;gap:10px;margin-bottom:12px}
+@media (max-width:760px){.support-selects{grid-template-columns:1fr 1fr}.support-selects .field:first-child{grid-column:1/-1}}
+.support-detail{border:1px solid var(--card-line);border-radius:14px;padding:14px 16px;background:#0c0f14}
+.support-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:6px}.support-head strong{font-size:16px}
+.support-badge{display:inline-flex;align-items:center;border-radius:999px;padding:4px 10px;font-size:12px;font-weight:700;letter-spacing:.02em;border:1px solid}
+.lvl-full.support-badge,.year-chip.lvl-full{background:#10251a;border-color:#2f7a4c;color:#bff0cf}
+.lvl-strong.support-badge,.year-chip.lvl-strong{background:#0f1d2e;border-color:#3d6ea8;color:#cfe2fb}
+.lvl-good.support-badge,.year-chip.lvl-good{background:#1d1a10;border-color:#7a6a2f;color:#f0e2b5}
+.lvl-basic.support-badge,.year-chip.lvl-basic{background:#16181c;border-color:#3a3f48;color:#a7afbd}
+.support-list{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
+.support-list li{display:grid;grid-template-columns:18px 1fr auto;align-items:center;gap:8px;font-size:14px;color:#aab3c2}
+.support-list li.ok{color:#e3e8f0}.support-list li svg{color:#7fd09a}.support-list li b{font-weight:600;color:#cfd6e2}
+.support-list .dot{width:7px;height:7px;border-radius:50%;background:#58606e;display:inline-block;margin-left:5px}
+.support-legend{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 12px}
+.support-model{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 0;border-top:1px solid var(--card-line)}
+.support-model strong{font-size:15px;min-width:110px}
+.support-years{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.year-chip{border:1px solid;border-radius:8px;padding:5px 8px;font-size:12.5px;font-weight:600;cursor:pointer}
+.year-chip.active{outline:2px solid #fff3;outline-offset:1px}
+@media (max-width:760px){.support-model{flex-direction:column;align-items:flex-start}.support-years{justify-content:flex-start}}
+.search-input{display:flex;align-items:center;gap:8px;background:#0a0c11;border:1px solid var(--line);border-radius:12px;padding:0 12px}.search-input input{flex:1;background:none;border:0;color:inherit;padding:11px 0;outline:none}
