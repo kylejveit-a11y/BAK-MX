@@ -75,3 +75,11 @@ test('private manual search uses the meaningful words of the question',async()=>
  assert.equal(manualQuery("What's the torque on the rear axle nut?"),'torque or rear or axle or nut');
  assert.equal(manualQuery('how do I'),'');
 });
+test('answers name the maker, not the document',async()=>{
+ const {makerNotDocument:f}=await import('../server/engineering.ts');
+ assert.equal(f('Rear is 80 Nm, per KTM’s owner’s manual.'),"Rear is 80 Nm (KTM's spec).");
+ assert.equal(f("according to Honda's Owner's Manual & Competition Handbook, 105 mm"),"Honda's spec: 105 mm");
+ assert.equal(f('For stock, Yamaha’s owner’s service manual specifies 90–100 mm'),'For stock, Yamaha specifies 90–100 mm');
+ // where BAK lacks a value, pointing to the maker's manual stays
+ assert.equal(f('Honda’s service manual’s cylinder-head section carries it'),'Honda’s service manual’s cylinder-head section carries it');
+});

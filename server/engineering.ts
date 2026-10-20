@@ -31,7 +31,7 @@ export function testerBaselinesFor(bike:{manufacturer:string;model:string;model_
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-32';
+export const PROMPT_VERSION='mx-engineering-33';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -67,6 +67,10 @@ export function buildEngineeringInput(bike:Bike|null,history:Message[],claims:Cl
 }
 
 const text=z.string().min(1).max(4000),texts=z.array(text).max(20);
+/** "per Kawasaki's owner's manual" becomes "(Kawasaki's spec)": riders get the maker, not a document reference. */
+export function makerNotDocument(text:string){
+ return text.replace(/(^|[.!?]\s+|\n\s*)(?:according to|per)\s+(?:the\s+)?([A-Z][A-Za-z]+)(?:’|')s\s+(?:US\s+)?(?:owner(?:’|')?s\s+service\s+|owner(?:’|')?s\s+|competition\s+|service\s+|repair\s+)?(?:manual|handbook)(?:\s*(?:&|and)\s*competition handbook)?,?\s*/gi,(_m,lead:string,maker:string)=>`${lead}${maker}'s spec: `).replace(/,?\s*\b(?:per|according to|from|in)\s+(?:the\s+)?([A-Z][A-Za-z]+)(?:’|')s\s+(?:US\s+|U\.S\.\s+)?(?:owner(?:’|')?s\s+service\s+|owner(?:’|')?s\s+|competition\s+|service\s+|repair\s+)?(?:manual|handbook)(?:\s*(?:&|and)\s*competition handbook)?/gi,(_m,maker:string)=>` (${maker}'s spec)`).replace(/\b(Honda|Yamaha|Kawasaki|Suzuki|KTM|Husqvarna|GasGas|GASGAS|Triumph|Beta|Sherco|TM|Fantic)(?:’|')s\s+(?:US\s+)?(?:owner(?:’|')?s\s+service\s+|owner(?:’|')?s\s+|service\s+|repair\s+)?(?:manual|handbook)\s+(specifies|lists|calls for|says|gives|recommends|states)\b/gi,'$1 $2').replace(/\s+\(([A-Za-z]+'s spec)\)\s*\(/g,' ($1; ').replace(/ \(([A-Za-z]+'s spec)\)\s+([.,;:])/g,' ($1)$2');
+}
 export const responseSchema=z.object({
  kind:z.enum(['answer','setup','diagnosis']),
  summary:text,
@@ -220,6 +224,7 @@ SAFETY
 The rider makes every change by hand. Diagnose a fault before tuning around it, and never blame technique while a fault remains unresolved. Do not recommend running a bike with abnormal mechanical noise, oil loss, unsafe brakes, uncontrolled throttle or severe overheating, and do not advise opening a hot pressurised cooling or fuel system. Lean two-stroke jetting that pings or detonates is a stop condition. Keep safety proportionate: one clear line when it matters, not a checklist.
 
 WORKSHOP JOBS
+SCOPE: BAK MX covers gas dirt bikes. For electric dirt bikes and e-motos (Sur-Ron, Talaria, E Ride Pro, Stark and similar) say in one or two sentences that BAK MX is for gas bikes and that BAK Tech EMOTO, BAK's separate e-moto app, covers those; do not give e-moto tuning here. Questions about BAK MX plans, prices or billing: say plans and prices are on the Account page under Plans, in one sentence, then offer bike help.
 GUIDED JOBS: when reviewed_workshop.available_operations includes a job that covers what the rider wants to do, BAK can walk them through it step by step in this chat. Say so plainly and name the job(s) in order (e.g. "Take the engine out of the frame", then "Top end", then "Bottom end"), tell them to tap "Start a guided job" above the message box (or say "next" in workshop mode once it is running), and give the short overview, special tools and parts to have ready from that job. Never tell the rider to go get a repair or service manual, and never say "using the manual", for work a listed job covers. When attributing a published value, name the maker ("KTM's stock setting is 10.5 bar"), not the document. Only when BAK lacks a value may you say the maker's service manual is where it is published.
 For a teardown, rebuild or suspension service, distinguish the overall job plan from an executable source-reviewed procedure; a torque table alone does not establish order, special tools, depressurisation, timing, bleeding or replacement rules. Use reviewed_workshop evidence when it matches the requested operation, within its stated scope; do not turn a candidate guide into confirmed hardware or completed work. A completed step the rider reports is rider-reported, not measured. Preserve performed tests and rejected hypotheses in follow-ups.
 
@@ -346,6 +351,6 @@ export async function generateAnswer(bike:Bike|null,history:Message[],claims:Cla
   }catch{/* keep the first draft's verdict */}
  }
  if(!parsed.success||violations.length)throw new HttpError(502,violations[0]??'AI response was invalid');
- const response:EngineeringResponse={...parsed.data,garage_updates:cleanGarageUpdates(parsed.data.garage_updates,!!bike),references:bike&&!guided?[...workshopReferences(bike,history,message),...relatedReferences(bike,message)]:[]};
+ const response:EngineeringResponse={...parsed.data,answer:makerNotDocument(parsed.data.answer),summary:makerNotDocument(parsed.data.summary),garage_updates:cleanGarageUpdates(parsed.data.garage_updates,!!bike),references:bike&&!guided?[...workshopReferences(bike,history,message),...relatedReferences(bike,message)]:[]};
  return {response,raw:{...raw,bakmx_reviewed_workshop:input.reviewed_workshop,bakmx_spec_lookups:lookups,bakmx_model:first.model,bakmx_repaired:repaired,bakmx_answer_ms:Date.now()-started,bakmx_first_text_ms:firstText||null}};
 }
