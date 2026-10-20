@@ -1179,3 +1179,22 @@ input[type=file]::file-selector-button{background:#12151b;border:0;border-radius
 .rider-manual-add{background:none!important;border:0!important;padding:0!important}
 .garage-chip{background:none!important;border:0!important;padding-left:0!important}
 .prompt-chips button{border-radius:0}
+/* Overview pass: forms, tags and lists follow the open style */
+.service-form,.setup-log-form{background:none!important;border:0!important;border-top:1px solid var(--hair)!important;border-radius:0!important;padding:20px 0 4px!important;box-shadow:none!important}
+.service-icon,.avatar{background:none!important;border:1px solid var(--hair)!important}
+.service-target{background:none!important;border:0!important;padding:0!important;color:var(--ink-2)}
+.kind-tag,.bike-tag,.status-badge,.plan-status{background:none!important;border:0!important;padding:0!important;letter-spacing:.02em!important;text-transform:none!important;font-size:12.5px!important;font-weight:600!important;color:var(--ink-3)!important}
+.status-badge{color:#9fdcb3!important}.status-badge.bad{color:#e69a9a!important}
+.event-date{background:none!important;border:0!important;border-right:1px solid var(--hair)!important;border-radius:0!important}
+.account-layout .panel{border-top:1px solid var(--hair)!important;padding-top:28px!important;margin-top:44px!important}
+.account-layout .panel:first-child{border-top:0!important;padding-top:4px!important;margin-top:0!important}
+.chat-context{background:#07080a}
+.history-item{padding-left:0}
+@media (max-width:760px){.conversation>.guided-card,.conversation>.guided-launch,.conversation>.guided-says,.conversation>.chat-disclaimer{margin-left:18px!important;margin-right:18px!important}.history{padding:0 18px!important}}
+.tabs button{border-radius:0}
+.mobile-menu-current,.menu-current{display:none}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.workshop-job-grid{gap:0 32px}
+.workshop-job-grid .action-card{position:relative;padding-right:28px!important;text-align:left}
+.workshop-job-grid .action-card h3{font-size:16px;margin:0 0 2px}.workshop-job-grid .action-card p{color:var(--ink-3);font-size:13.5px;margin:0}
+@media (max-width:760px){.workshop-job-grid{grid-template-columns:1fr!important}}

@@ -197,7 +197,7 @@ export function Messages({signedIn,onSignIn,startWith,onStarted}:{signedIn:boole
  if(profile===undefined)return <p className="subtle" role="status">Loading…</p>;
  if(!profile)return <section className="panel"><span className="eyebrow">ONE STEP FIRST</span><h2>Set up your rider profile</h2><ProfileEditor profile={null} onSaved={setProfile} compact/></section>;
  return <div className="chat-layout">
-  <aside className={'panel history'+(active?' has-active':'')}><div className="panel-title"><h3>Messages</h3></div>
+  <aside className={'panel history'+(active?' has-active':'')}><div className="panel-title"><h3 className="sr-only">Messages</h3></div>
    {!threads.length&&<p className="subtle">No conversations yet. Use “Message” on a post or event to start one.</p>}
    {threads.map(t=><button key={t.rider.user_id} className={'history-item '+(active?.user_id===t.rider.user_id?'selected':'')} onClick={()=>open(t.rider)}><UserRound size={16}/><span>{riderName(t.rider)}{t.unread>0&&<b className="unread">{t.unread}</b>}<small>{t.last_message.mine?'You: ':''}{t.last_message.body.slice(0,60)}</small></span></button>)}
   </aside>

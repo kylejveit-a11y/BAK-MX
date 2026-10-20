@@ -17,14 +17,14 @@ const options=<T extends string>(labels:Record<T,string>)=>(Object.entries(label
 
 function Tag({text,tone='info'}:{text:string;tone?:'info'|'good'|'bad'}){
  const palette={info:['#202d40','#364a65','#b6c9e7'],good:['#16261b','#3c6a4a','#bfe3c8'],bad:['#2c191c','#7d424b','#efb5be']}[tone];
- return <View style={{alignSelf:'flex-start',backgroundColor:palette[0],borderColor:palette[1],borderWidth:1,borderRadius:5,paddingHorizontal:8,paddingVertical:4}}><Text style={{color:palette[2],fontSize:10,fontWeight:'700',letterSpacing:1.2}}>{text.toUpperCase()}</Text></View>;
+ return <View style={{alignSelf:'flex-start',flexDirection:'row',alignItems:'center',gap:6}}><View style={{width:6,height:6,borderRadius:3,backgroundColor:palette[2]}}/><Text style={{color:palette[2],fontSize:12.5,fontWeight:'600'}}>{text}</Text></View>;
 }
 function Link({title,onPress,danger=false}:{title:string;onPress:()=>void;danger?:boolean}){
  return <Pressable accessibilityRole="button" onPress={onPress} hitSlop={8} style={({pressed})=>({opacity:pressed?0.5:1,paddingVertical:6})}><Text style={{color:danger?'#efb5be':colors.accent,fontSize:14,fontWeight:'600'}}>{title}</Text></Pressable>;
 }
 function Row({children}:{children:React.ReactNode}){return <View style={{flexDirection:'row',flexWrap:'wrap',gap:18,alignItems:'center'}}>{children}</View>;}
 function Segments<T extends string>({value,items,onChange}:{value:T;items:{value:T;label:string}[];onChange:(v:T)=>void}){
- return <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{items.map(i=><Pressable key={i.value||'all'} accessibilityRole="button" accessibilityState={{selected:value===i.value}} onPress={()=>onChange(i.value)} style={{paddingHorizontal:14,paddingVertical:9,borderRadius:20,borderWidth:1,borderColor:value===i.value?colors.accent:colors.line,backgroundColor:value===i.value?'#1b2431':colors.panel}}><Text style={{color:value===i.value?colors.text:colors.muted,fontSize:13,fontWeight:'600'}}>{i.label}</Text></Pressable>)}</View>;
+ return <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{items.map(i=><Pressable key={i.value||'all'} accessibilityRole="button" accessibilityState={{selected:value===i.value}} onPress={()=>onChange(i.value)} style={{paddingVertical:8,marginRight:10,borderBottomWidth:2,borderBottomColor:value===i.value?colors.text:'transparent'}}><Text style={{color:value===i.value?colors.text:colors.muted,fontSize:14,fontWeight:'600'}}>{i.label}</Text></Pressable>)}</View>;
 }
 
 function useProfile(){
@@ -176,7 +176,7 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
    <Copy>{when(ev.starts_at)}{ev.ends_at?' – '+when(ev.ends_at):''}{'\n'}{ev.location_name}</Copy>
    <Copy>Hosted by {riderName(ev.host)} · {ev.going_count} going · {ev.interested_count} interested</Copy>
    {open===ev.id&&!!ev.description&&<Text selectable style={{color:colors.text,fontSize:15,lineHeight:23}}>{ev.description}</Text>}
-   {!ev.canceled_at&&scope==='upcoming'&&<><Button secondary={ev.my_rsvp!=='going'} title={ev.my_rsvp==='going'?'✓ Going':'I’m going'} onPress={()=>void rsvp(ev,'going')}/><Button secondary title={ev.my_rsvp==='interested'?'✓ Interested':'Interested'} onPress={()=>void rsvp(ev,'interested')}/></>}
+   {!ev.canceled_at&&scope==='upcoming'&&<View style={{flexDirection:'row',gap:10}}><View style={{flex:1}}><Button secondary={ev.my_rsvp!=='going'} title={ev.my_rsvp==='going'?'✓ Going':'I’m going'} onPress={()=>void rsvp(ev,'going')}/></View><View style={{flex:1}}><Button secondary title={ev.my_rsvp==='interested'?'✓ Interested':'Interested'} onPress={()=>void rsvp(ev,'interested')}/></View></View>}
    <Row>{!!ev.description&&<Link title={open===ev.id?'Hide details':'Details'} onPress={()=>setOpen(open===ev.id?'':ev.id)}/>}
     {ev.mine&&<Link title={ev.canceled_at?'Restore event':'Cancel event'} onPress={()=>void api('/api/events?id='+ev.id,'PATCH',{canceled:!ev.canceled_at}).then(load).catch(e=>setNotice(errorText(e)))}/>}
     {ev.mine&&<Link danger title="Delete" onPress={()=>Alert.alert('Delete this event?','',[{text:'Cancel',style:'cancel'},{text:'Delete',style:'destructive',onPress:()=>void api('/api/events?id='+ev.id,'DELETE').then(load).catch(e=>setNotice(errorText(e)))}])}/>}</Row>
