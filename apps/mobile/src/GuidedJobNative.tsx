@@ -105,17 +105,17 @@ export function useNativeVoice(onUtterance:(text:string)=>void){
 
 const pill=(active:boolean)=>({flex:1,minHeight:52,borderRadius:14,alignItems:'center' as const,justifyContent:'center' as const,backgroundColor:active?colors.accent:'#1b2130',borderWidth:1,borderColor:active?colors.accent:colors.line});
 export function GuidedJobCardNative({job,voice,onSay,busy}:{job:NativeGuidedJob;voice:ReturnType<typeof useNativeVoice>;onSay:(text:string)=>void;busy:boolean}){
- const [picking,setPicking]=useState(false),[record,setRecord]=useState(''),[finding,setFinding]=useState('');
+ const [picking,setPicking]=useState(false),[record,setRecord]=useState(''),[finding,setFinding]=useState(''),[open,setOpen]=useState(false);
  const {procedure,run,step,finished}=job;
  if(!job.available.length)return null;
- if(!procedure||!run)return picking?<Card><Select label="Guided job for this bike" value="" options={[{value:'',label:'Choose a job'},...job.groups.flatMap(g=>g.procedures.map(p=>({value:p.id,label:`${p.title} · ${p.steps.length} steps`})))]} onChange={v=>{if(v){onSay(job.start(v));setPicking(false);}}}/><Button secondary title="Cancel" onPress={()=>setPicking(false)}/></Card>:<Button secondary title="Working on the bike? Start a guided job →" onPress={()=>setPicking(true)}/>;
+ if(!procedure||!run)return picking?<Card><Select label="Guided job for this bike" value="" options={[{value:'',label:'Choose a job'},...job.groups.flatMap(g=>g.procedures.map(p=>({value:p.id,label:`${p.title} · ${p.steps.length} steps`})))]} onChange={v=>{if(v){onSay(job.start(v));setPicking(false);}}}/><Button secondary title="Cancel" onPress={()=>setPicking(false)}/></Card>:<Button secondary title="Working on the bike? Get walked through it →" onPress={()=>setPicking(true)}/>;
  const done=procedure.steps.filter(x=>procedureStepRecorded(run,x.id)).length;
  const link=step?.diagram_reference_required?step.source_links.find(l=>/^https?:\/\//.test(l)):undefined;
  return <Card>
   <Text style={{color:colors.accent,fontWeight:'800',letterSpacing:2,fontSize:11}}>{finished?'JOB COMPLETE':`STEP ${run.step_index+1} OF ${procedure.steps.length}`}</Text>
-  <Copy>{procedure.title}</Copy>
+  <Text numberOfLines={1} style={{color:'#aab3c2',fontSize:13,fontWeight:'600'}}>{procedure.title}</Text>
   <View style={{height:4,borderRadius:2,backgroundColor:'#222834',overflow:'hidden'}}><View style={{height:4,width:`${100*done/procedure.steps.length}%`,backgroundColor:colors.accent}}/></View>
-  {step&&<><Text style={{color:colors.text,fontSize:20,fontWeight:'800'}}>{riderText(step.title)}</Text><Text selectable style={{color:colors.text,fontSize:17,lineHeight:26}}>{riderText(step.instruction)}</Text>{step.verification.map((v,i)=><Copy key={i}>✓ {riderText(v)}</Copy>)}</>}
+  {step&&<><Text style={{color:colors.text,fontSize:20,fontWeight:'800'}}>{riderText(step.title)}</Text><Text selectable numberOfLines={open?undefined:4} style={{color:colors.text,fontSize:17,lineHeight:25}}>{riderText(step.instruction)}</Text><Pressable accessibilityRole="button" onPress={()=>setOpen(!open)}><Text style={{color:colors.accent,fontWeight:'700'}}>{open?'Less':'More'}</Text></Pressable>{open&&step.verification.map((v,i)=><Copy key={i}>✓ {riderText(v)}</Copy>)}</>}
   {link&&<Button secondary title="Show the picture for this step" onPress={()=>void Linking.openURL(link).catch(()=>{})}/>}
   {step?.record_required&&!finished&&<View style={{gap:8}}><TextInput value={record} onChangeText={setRecord} placeholder="Measurement or finding" placeholderTextColor="#7c858e" style={s.input} accessibilityLabel="Record a measurement"/><Button title="Record and continue" disabled={!record.trim()} onPress={()=>{onSay(job.handle({kind:'record',text:record.trim()}));setRecord('');}}/></View>}
   {!!step?.branches?.length&&<View style={{gap:8}}><TextInput value={finding} onChangeText={setFinding} placeholder="What you measured or found" placeholderTextColor="#7c858e" style={s.input}/>{step.branches.map(b=><Button key={b.id} secondary disabled={!finding.trim()} title={b.label} onPress={()=>{onSay(job.branch(b.id,finding));setFinding('');}}/>)}</View>}
@@ -123,9 +123,9 @@ export function GuidedJobCardNative({job,voice,onSay,busy}:{job:NativeGuidedJob;
   <View style={{flexDirection:'row',gap:8}}>
    <Pressable accessibilityRole="button" accessibilityLabel="Previous step" disabled={run.step_index===0} onPress={()=>onSay(job.handle({kind:'back'}))} style={[pill(false),{opacity:run.step_index===0?0.4:1}]}><Text style={{color:colors.text,fontWeight:'700'}}>‹ Back</Text></Pressable>
    <Pressable accessibilityRole="button" accessibilityLabel="Repeat this step" onPress={()=>onSay(job.handle({kind:'repeat'}))} style={pill(false)}><Text style={{color:colors.text,fontWeight:'700'}}>Repeat</Text></Pressable>
-   <Pressable accessibilityRole="button" accessibilityLabel="Step done, next step" disabled={finished||!!step?.record_required||!!step?.branches?.length} onPress={()=>onSay(job.handle({kind:'next'}))} style={[pill(true),{flex:1.4,opacity:finished||step?.record_required||step?.branches?.length?0.4:1}]}><Text style={{color:'#0a0d12',fontWeight:'800'}}>Done · next ›</Text></Pressable>
+   <Pressable accessibilityRole="button" accessibilityLabel="Step done, next step" disabled={finished||!!step?.record_required||!!step?.branches?.length} onPress={()=>{setOpen(false);onSay(job.handle({kind:'next'}));}} style={[pill(true),{flex:1.4,opacity:finished||step?.record_required||step?.branches?.length?0.4:1}]}><Text style={{color:'#0a0d12',fontWeight:'800'}}>Done ›</Text></Pressable>
   </View>
-  <Button secondary={!voice.on} title={voice.on?'🎙 Workshop mode on: tap to stop':'🎙 Workshop mode (hands-free)'} onPress={()=>{if(voice.on)voice.disable();else void voice.enable().then(ok=>{if(ok)voice.speak(toSpeech(`Workshop mode on. ${guidedHelp} ${stepSpeech(procedure,run.step_index)}`));});}}/>
+  <Button secondary={!voice.on} title={voice.on?'Hands-free on · tap to stop':'Hands-free'} onPress={()=>{if(voice.on)voice.disable();else void voice.enable().then(ok=>{if(ok)voice.speak(toSpeech(`Workshop mode on. ${guidedHelp} ${stepSpeech(procedure,run.step_index)}`));});}}/>
   {voice.on&&<Copy>{voice.speaking?'Speaking…':busy?'Thinking…':voice.heard?`Heard: “${voice.heard}”`:'Listening. Say “next”, “repeat”, or “Hey BAK” and your question.'}</Copy>}
   {voice.speaking&&<Button secondary title="Quiet" onPress={voice.hush}/>}
   <Notice text={voice.problem}/>

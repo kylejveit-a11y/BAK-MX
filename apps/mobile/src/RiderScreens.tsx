@@ -213,7 +213,7 @@ export function MessagesScreen({startWith,onStarted}:{startWith?:RiderRef;onStar
 
 /* ------------------------------------------------------------------ Setup log */
 export function SetupLogCard({bike,onAsk}:{bike?:Bike;onAsk:(text:string)=>void}){
- const [logs,setLogs]=useState<SetupLog[]>([]),[adding,setAdding]=useState(false),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
+ const [logs,setLogs]=useState<SetupLog[]>([]),[adding,setAdding]=useState(false),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');const [showMore,setShowMore]=useState(false);
  const [date,setDate]=useState(()=>new Date().toISOString().slice(0,10)),[track,setTrack]=useState(''),[conditions,setConditions]=useState(''),[hours,setHours]=useState(''),[settings,setSettings]=useState<Record<string,string>>({}),[change,setChange]=useState(''),[result,setResult]=useState<SetupResult>('not_tested'),[notes,setNotes]=useState('');
  const load=useCallback(async()=>{if(!bike)return;try{setLogs(await api<SetupLog[]>('/api/setup-logs?bike_id='+bike.id));setNotice('');}catch(e){setNotice(errorText(e));}},[bike?.id]);
  useFocusEffect(useCallback(()=>{setLogs([]);void load();},[load]));
@@ -230,20 +230,23 @@ export function SetupLogCard({bike,onAsk}:{bike?:Bike;onAsk:(text:string)=>void}
  const describe=(log:SetupLog)=>SETUP_FIELDS.filter(f=>log.settings[f.key]!=null&&log.settings[f.key]!=='').map(f=>`${f.label}: ${log.settings[f.key]}`).join('; ');
  if(!bike)return null;
  return <View style={{gap:16}}>
-  <Card><Copy strong>Setup log</Copy><Copy>What you ran, where, and whether it was better. One change at a time reads cleanest.</Copy><Notice text={notice}/>
+  <Card><Copy strong>Setup log</Copy><Copy>One change, how it rode. That’s it.</Copy><Notice text={notice}/>
    <Button title={adding?'Cancel':'Log a setup'} secondary={adding} onPress={()=>adding?setAdding(false):begin()}/>
    {adding&&<View style={{gap:12}}>
+    <Field editable={!busy} label="What did you change?" placeholder="Fork comp 2 softer" value={change} onChangeText={setChange} maxLength={1000} autoCapitalize="sentences"/>
+    <Select disabled={busy} label="How was it?" value={result} options={options(SETUP_RESULT_LABELS)} onChange={v=>setResult(v as SetupResult)}/>
+    <Field editable={!busy} label="Track" placeholder="Dade City" value={track} onChangeText={setTrack} maxLength={120} autoCapitalize="words"/>
+    <Field editable={!busy} label="Notes" placeholder="Better in the ruts, still kicks in the whoops" value={notes} onChangeText={setNotes} multiline maxLength={4000} autoCapitalize="sentences"/>
+    <Pressable accessibilityRole="button" onPress={()=>setShowMore(!showMore)}><Text style={{color:colors.accent,fontWeight:'700'}}>{showMore?'Hide conditions and settings':'Conditions, date, hours and full settings'}</Text></Pressable>
+    {showMore&&<>
+    <Field editable={!busy} label="Conditions" placeholder="Sand, hard-pack, wet…" value={conditions} onChangeText={setConditions} maxLength={200} autoCapitalize="sentences"/>
     <Field editable={!busy} label="Date (YYYY-MM-DD)" value={date} onChangeText={setDate} keyboardType="numbers-and-punctuation"/>
-    <Field editable={!busy} label="Track" value={track} onChangeText={setTrack} maxLength={120} autoCapitalize="words"/>
-    <Field editable={!busy} label="Conditions" value={conditions} onChangeText={setConditions} maxLength={200} autoCapitalize="sentences"/>
-    <Field editable={!busy} label="Engine hours" value={hours} onChangeText={setHours} keyboardType="decimal-pad"/>
+    <Field editable={!busy} label="Hours" value={hours} onChangeText={setHours} keyboardType="decimal-pad"/>
     {(['Fork','Shock','Chassis','Engine'] as const).map(group=><View key={group} style={{gap:10}}><Text style={{color:colors.accent,fontSize:12,fontWeight:'800',letterSpacing:2}}>{group.toUpperCase()}</Text>{SETUP_FIELDS.filter(f=>f.group===group).map(f=><Field editable={!busy} key={f.key} label={f.label} value={settings[f.key]??''} onChangeText={v=>setSettings(old=>({...old,[f.key]:v}))} maxLength={200}/>)}</View>)}
-    <Field editable={!busy} label="What changed from last time" value={change} onChangeText={setChange} maxLength={1000} autoCapitalize="sentences"/>
-    <Select disabled={busy} label="Result" value={result} options={options(SETUP_RESULT_LABELS)} onChange={v=>setResult(v as SetupResult)}/>
-    <Field editable={!busy} label="How it felt" value={notes} onChangeText={setNotes} multiline maxLength={4000} autoCapitalize="sentences"/>
-    <Button disabled={busy} title={busy?'Saving…':'Save setup'} onPress={()=>void save()}/>
+    </>}
+    <Button disabled={busy} title={busy?'Saving…':'Save'} onPress={()=>void save()}/>
    </View>}
-   {!logs.length&&!adding&&<Copy>Your tuning notebook starts here. Log the settings you ran and how the bike felt; next time you’ll know what worked at this track.</Copy>}
+   {!logs.length&&!adding&&<Copy>Log one change and how it rode. Next time at this track you’ll know what worked.</Copy>}
   </Card>
   {logs.map((log,i)=>{const prior=logs[i+1],diff=prior?setupDifferences(prior.settings,log.settings):[];return <Card key={log.id}>
    <Row><Tag tone={log.result==='better'?'good':log.result==='worse'?'bad':'info'} text={SETUP_RESULT_LABELS[log.result]}/><Text style={{color:colors.muted,fontSize:12}}>{day(log.recorded_at)}{log.engine_hours!==null?` · ${log.engine_hours} h`:''}</Text></Row>

@@ -1,24 +1,15 @@
 import {useEffect,useMemo,useState} from 'react';
 import {Check,ChevronRight,Search} from 'lucide-react';
 
-export type SupportRow={make:string;model:string;year:number;type:string;knowledge:number;setup:number;specs:number;troubleshooting:number;guides:number;full_rebuild:boolean};
-type Data={generated:string;guide_total:number;bikes:SupportRow[]};
+import {level,supportAreas,type SupportRow,type SupportData as Data} from '../shared/bike-support';
+export type {SupportRow};
 let cache:Promise<Data>|null=null;
 const loadSupport=()=>cache??=import('../shared/bike-support.json').then(m=>(m.default??m) as Data);
 export function useSupport(){const [data,setData]=useState<Data|null>(null);useEffect(()=>{let live=true;void loadSupport().then(d=>{if(live)setData(d)});return()=>{live=false}},[]);return data;}
 
-export type Level={id:'full'|'strong'|'good'|'basic';label:string;short:string;line:string};
-export function level(r:SupportRow):Level{
- if(r.full_rebuild)return {id:'full',label:'Full support',short:'Full',line:'Setup, specs, troubleshooting and step-by-step rebuilds, engine to suspension.'};
- if(r.knowledge>=80)return {id:'strong',label:'Strong support',short:'Strong',line:'Setup, specs and troubleshooting are well covered. Rebuild guides are still coming.'};
- if(r.knowledge>=60)return {id:'good',label:'Good support',short:'Good',line:'Solid setup and troubleshooting help. Some exact numbers are still being added.'};
- return {id:'basic',label:'Basic support',short:'Basic',line:'General setup and troubleshooting help. Few bike-specific numbers yet.'};
-}
-const area=(n:number)=>n>=80?'Strong':n>=50?'Partial':n>0?'Limited':'Not yet';
-
 function Detail({row,total}:{row:SupportRow;total:number}){
  const l=level(row);
- const items:[string,string,boolean][]=[['Setup & tuning',area(row.setup),row.setup>=50],['Specs & torques',area(row.specs),row.specs>=50],['Troubleshooting',area(row.troubleshooting),row.troubleshooting>=50],['Step-by-step rebuilds',row.guides?`${row.guides} of ${total} jobs`:'Not yet',row.full_rebuild]];
+ const items=supportAreas(row,total);
  return <div className={'support-detail lvl-'+l.id}>
   <div className="support-head"><span className={'support-badge lvl-'+l.id}>{l.label}</span><strong>{row.year} {row.make} {row.model}</strong></div>
   <p className="subtle">{l.line}</p>
@@ -53,7 +44,7 @@ export function SupportedBikes(){
  const groups=new Map<string,SupportRow[]>();
  for(const b of data.bikes)if(!q.trim()||`${b.make} ${b.model} ${b.year}`.toLowerCase().includes(q.trim().toLowerCase()))(groups.get(`${b.make}|${b.model}`)??groups.set(`${b.make}|${b.model}`,[]).get(`${b.make}|${b.model}`)!).push(b);
  const makes=[...new Set([...groups.keys()].map(k=>k.split('|')[0]))].sort();
- const legend:Level['id'][]=['full','strong','good','basic'];
+ const legend:('full'|'strong'|'good'|'basic')[]=['full','strong','good','basic'];
  return <div className="supported">
   <section className="panel"><p>Tap a year to see what BAK covers for it. If your bike isn’t here, it isn’t supported yet.</p>
    <div className="support-legend">{legend.map(id=>{const l=level({full_rebuild:id==='full',knowledge:id==='strong'?90:id==='good'?70:10} as SupportRow);return <span key={id} className={'support-badge lvl-'+id}>{l.short}</span>;})}</div>
