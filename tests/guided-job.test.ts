@@ -53,3 +53,25 @@ test('BAK-written guides are original, reference-free and scoped to the exact bi
  assert.ok(std.items.find(i=>i.id==='linkage')!.met&&std.items.find(i=>i.id==='shock_rebuild')!.met);
  assert.equal(rebuildStandard({manufacturer:'KTM',model:'450 SX-F',model_year:2024,variant:'standard',region:'US'}).guides,0);
 });
+
+test('workshop voice: realistic transcripts, misheard names and shop talk',()=>{
+ const cases:[string,string][]=[
+['Next.','next'],['next step please','next'],['OK next','next'],['all right next','next'],['done','next'],['I\'m done','next'],['that\'s done','next'],['next one','next'],['Nexus','ignore'],['next next','next'],
+['go back','back'],['back','back'],['go back a step','back'],['previous','back'],['back up','back'],
+['repeat','repeat'],['repeat that','repeat'],['say that again','repeat'],['can you repeat that','repeat'],['what was that','repeat'],['huh','ignore'],['read it again','repeat'],['one more time','repeat'],
+['where am I','where'],['what step am I on','where'],['what\'s next','where'],
+['record 0.12','record'],['record point one two','record'],['intake is 0.12 and 0.13','ignore'],['it\'s 0.12','ignore'],['measured 26.5 millimeters','record'],
+['hey back what\'s the torque on these bolts','question'],['Hey Bach, what size socket is that','question'],['hey buck how much oil','question'],['OK Bak torque for the axle','question'],['back what\'s the torque','ignore'],['hey back','ignore'],['bak next','next'],['hey back repeat that','repeat'],
+['stop listening','sleep'],['pause','sleep'],['be quiet','ignore'],['shut up','ignore'],['stop','ignore'],
+['hand me the 10 mil','ignore'],['dude this bolt is stuck','ignore'],['turn the radio down','ignore'],['back it out a turn','ignore'],['back the clicker out two','ignore'],['go back to the truck','ignore'],
+['hey BAK the bolt is stuck what do I do','question'],['hey back I stripped it','question'],
+];
+ for(const [t,want] of cases)assert.equal(parseGuidedInput(t,true).kind,want,t);
+ assert.equal(toSpeech('| Setting | Value |\n|---|---|\n| Axle | **80 Nm** |'),'Setting: Value. Axle: 80 newton metres.');
+ assert.match(toSpeech('Gap 0.10–0.15 mm'),/0.10 to 0.15 millimetres/);
+});
+test('private manual search uses the meaningful words of the question',async()=>{
+ const {manualQuery}=await import('../server/rider-manuals.ts');
+ assert.equal(manualQuery("What's the torque on the rear axle nut?"),'torque or rear or axle or nut');
+ assert.equal(manualQuery('how do I'),'');
+});

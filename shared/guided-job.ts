@@ -11,22 +11,22 @@ export type GuidedCommand =
  | {kind:'ignore'};
 
 const clean=(t:string)=>t.toLowerCase().replace(/[^a-z0-9°.,' -]/g,' ').replace(/\s+/g,' ').trim().replace(/[.,!?]+$/,'');
-const NEXT=/^(ok(ay)? )?(next|next step|done|finished|got it|that's done|thats done|continue|go on|move on|keep going|ready)( please)?$/;
-const BACK=/^(go back|back|previous|previous step|last step|step back|go back one)( please)?$/;
-const REPEAT=/^(repeat|repeat that|repeat the step|say (that|it) again|again|what was that|come again|read (it|the step)( again)?)( please)?$/;
+const NEXT=/^(ok(ay)? |all ?right |alright )?(next|next step|next one|next next|done|i'm done|im done|finished|got it|that's done|thats done|continue|go on|go ahead|move on|keep going|ready)( please)?$/;
+const BACK=/^(go back|back|back up|back one|previous|previous step|last step|step back|one step back|go back one|go back a step|go back one step)( please)?$/;
+const REPEAT=/^(can you |could you )?(repeat|repeat that|repeat the step|say (that|it) again|say again|again|what was that|come again|one more time|read (it|that|the step)( again)?)( please)?$/;
 const WHERE=/^(where am i|what step( am i on)?|which step( am i on)?|what's next|whats next|what do i do now)$/;
 const END=/^(end (the )?job|stop (the )?job|quit (the )?job|exit (the )?job)$/;
-const SLEEP=/^(stop listening|pause listening|sleep|go to sleep|mute)$/;
-const WAKE=/^(hey |ok |okay )?(bak|back|buck|bach|bock|back mx|bak mx) (wake up|start listening|i'm back|im back)$/;
-const RECORD=/^(record|recorded|log|note|measured|measurement|reading|it's|its|it is)\b[:\s-]*(.+)$/;
-// Speech engines hear "BAK" as back, buck, bach or bock. A spoken question must start with the wake word so shop talk
-// and the radio are not sent as questions; typed text never needs it.
-const WAKE_QUESTION=/^(hey |ok |okay |yo )?(bak|back|buck|bach|bock|back mx|bak mx)[, ]+(.{3,})$/;
+const SLEEP=/^(stop listening|pause listening|pause|sleep|go to sleep|mute)$/;
+const NAME='(bak|back|buck|bach|bock|back mx|bak mx)';
+const WAKE=new RegExp(`^(hey |ok |okay )?${NAME} (wake up|start listening|i'm back|im back)$`);
+// "record" must be said: a stray number in shop talk never advances a measured step.
+const RECORD=/^(record|log|measured|measurement|reading)\b[:\s-]*(.+)$/;
+// Speech engines hear "BAK" as back, buck, bach or bock, and "back" is a shop word ("back it out a turn"). A spoken
+// question must start with "hey" or "ok" plus the name; a command may be prefixed with the name alone. Typed text never needs it.
+const WAKE_QUESTION=new RegExp(`^(hey|ok|okay|yo) ${NAME}[, ]+(.{3,})$`);
+const NAME_PREFIX=new RegExp(`^((hey|ok|okay|yo) )?${NAME}[, ]+`);
 
-/** Reads one utterance. Spoken input needs the wake word for questions; commands are short and stand alone. */
-export function parseGuidedInput(raw:string,spoken:boolean):GuidedCommand{
- const t=clean(raw);
- if(!t)return {kind:'ignore'};
+function command(t:string):GuidedCommand|null{
  if(WAKE.test(t))return {kind:'wake'};
  if(SLEEP.test(t))return {kind:'sleep'};
  if(END.test(t))return {kind:'end'};
@@ -34,13 +34,20 @@ export function parseGuidedInput(raw:string,spoken:boolean):GuidedCommand{
  if(BACK.test(t))return {kind:'back'};
  if(REPEAT.test(t))return {kind:'repeat'};
  if(WHERE.test(t))return {kind:'where'};
- const rec=RECORD.exec(t);
- if(rec&&/\d/.test(rec[2]))return {kind:'record',text:raw.trim().replace(/^\s*(record|recorded|log|note|measured|measurement|reading)\b[:\s-]*/i,'')};
+ return null;
+}
+/** Reads one utterance. Spoken input needs "hey BAK" for questions; commands are short and stand alone. */
+export function parseGuidedInput(raw:string,spoken:boolean):GuidedCommand{
+ const t=clean(raw);
+ if(!t)return {kind:'ignore'};
+ const direct=command(t);if(direct)return direct;
+ const rest=t.replace(NAME_PREFIX,'');
+ if(rest!==t){const prefixed=command(rest);if(prefixed)return prefixed;}
+ const rec=RECORD.exec(rest);
+ if(rec&&rec[2].trim().length>0)return {kind:'record',text:raw.trim().replace(NAME_PREFIX,'').replace(/^\s*(hey |ok |okay |yo )?(bak mx|back mx|bak|back|buck|bach|bock)[,\s]+/i,'').replace(/^\s*(record|log|measured|measurement|reading)\b[:\s-]*/i,'')};
  if(spoken){
-  const q=WAKE_QUESTION.exec(t);
-  if(!q)return {kind:'ignore'};
-  const inner=parseGuidedInput(q[3],false);
-  return inner.kind==='question'||inner.kind==='ignore'?{kind:'question',text:raw.trim().replace(/^\s*(hey |ok |okay |yo )?(bak mx|back mx|bak|back|buck|bach|bock)[,\s]+/i,'')}:inner;
+  if(!WAKE_QUESTION.test(t))return {kind:'ignore'};
+  return {kind:'question',text:raw.trim().replace(/^\s*(hey|ok|okay|yo)[,\s]+(bak mx|back mx|bak|back|buck|bach|bock)[,\s]+/i,'')};
  }
  return {kind:'question',text:raw.trim()};
 }
@@ -58,8 +65,10 @@ export function stepSpeech(p:ReviewedProcedure,index:number){
 export function toSpeech(text:string){
  return text
   .replace(/```[\s\S]*?```/g,' ')
-  .replace(/^\s*\|?[-: |]+\|\s*$/gm,' ')
+  .replace(/^\s*\|?[-: |]+\|?\s*$/gm,'')
+  .replace(/^\s*\|(.+)\|\s*$/gm,(_m,row:string)=>row.split('|').map(c=>c.trim()).filter(Boolean).join(': ')+'.')
   .replace(/\|/g,', ')
+  .replace(/(\d)\s?[–-]\s?(\d)/g,'$1 to $2')
   .replace(/^#+\s*/gm,'')
   .replace(/\*\*|__|`/g,'')
   .replace(/^\s*[-*]\s+/gm,'')
@@ -75,7 +84,9 @@ export function toSpeech(text:string){
   .replace(/(\d)\s?bar\b/g,'$1 bar')
   .replace(/(\d)\s?psi\b/gi,'$1 P S I')
   .replace(/\s*\n+\s*/g,'. ')
-  .replace(/\.\s*\./g,'.')
+  .replace(/\.(\s*\.)+/g,'.')
+  .replace(/:\./g,':')
+  .replace(/\.(?=[A-Za-z])/g,'. ')
   .replace(/\s{2,}/g,' ')
   .trim();
 }
