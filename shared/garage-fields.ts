@@ -1,12 +1,39 @@
 import type {Bike} from './types.ts';
 import {readInstalled,systemsRecorded,partSystems} from './installed-parts.ts';
 /** One definition of the build profile for web and native, so a bike edited on either reads the same. */
-export type GarageField={key:string;label:string;numeric?:boolean};
-export const garageFieldGroups:Record<'Rider'|'Engine'|'Suspension'|'Drivetrain',GarageField[]>={
- Rider:[{key:'geared_weight_lb',label:'Weight in riding gear (lb)',numeric:true},{key:'height_in',label:'Height (inches)',numeric:true},{key:'skill_level',label:'Skill level'},{key:'discipline',label:'Discipline / conditions'}],
- Engine:[{key:'engine_modifications',label:'Engine modifications'},{key:'intake',label:'Air filter / intake'},{key:'exhaust',label:'Exhaust system'},{key:'ecu',label:'ECU / firmware'},{key:'active_map',label:'Active map and source'}],
- Suspension:[{key:'fork',label:'Fork identity / tune'},{key:'shock',label:'Shock identity / tune'},{key:'fork_spring_rate',label:'Fork spring rate (as marked, e.g. 4.8 N/mm)'},{key:'shock_spring_rate',label:'Shock spring rate (as marked, e.g. 45 N/mm)'},{key:'rider_sag_mm',label:'Rider sag (mm, as manuals list it)',numeric:true},{key:'fork_height_mm',label:'Fork height in clamps (mm)',numeric:true},{key:'fork_compression',label:'Fork compression setting (include reference)'},{key:'fork_rebound',label:'Fork rebound setting (include reference)'},{key:'shock_compression',label:'Shock LSC / HSC settings'},{key:'shock_rebound',label:'Shock rebound setting'}],
- Drivetrain:[{key:'front_sprocket',label:'Front sprocket teeth',numeric:true},{key:'rear_sprocket',label:'Rear sprocket teeth',numeric:true},{key:'clutch',label:'Clutch modifications'},{key:'front_tire',label:'Front tire / size'},{key:'rear_tire',label:'Rear tire / size'},{key:'tire_pressures',label:'Tire pressures (psi, front / rear)'}],
+export type GarageField={key:string;label:string;numeric?:boolean;unit?:string;placeholder?:string;options?:string[];hint?:string;more?:boolean};
+/** Written the way riders write it on the setup sheet in the truck: clicks out from all the way in, sag in mm, gearing 13/50.
+ *  Everything is optional; "more" fields stay folded away so a first setup takes a couple of minutes. */
+export const garageFieldGroups:Record<string,GarageField[]>={
+ 'You':[
+  {key:'geared_weight_lb',label:'Weight in riding gear',numeric:true,unit:'lb',placeholder:'185'},
+  {key:'skill_level',label:'Riding level',options:['Beginner','Novice','Intermediate','Expert','Pro','Vet']},
+  {key:'discipline',label:'Where you ride most',options:['Motocross','Supercross / arenacross','Sand','Hard-pack','Woods / GNCC','Enduro','Desert','Trail']},
+  {key:'height_in',label:'Height',numeric:true,unit:'in',placeholder:'70',more:true}],
+ 'Clickers & sag':[
+  {key:'fork_compression',label:'Fork compression',placeholder:'12 out',hint:'Clicks out from all the way in'},
+  {key:'fork_rebound',label:'Fork rebound',placeholder:'18 out'},
+  {key:'shock_compression',label:'Shock compression',placeholder:'12 out / 1.5 turns',hint:'Low-speed clicks / high-speed turns'},
+  {key:'shock_rebound',label:'Shock rebound',placeholder:'15 out'},
+  {key:'rider_sag_mm',label:'Race sag',numeric:true,unit:'mm',placeholder:'105',hint:'Measured with you on the bike in gear'},
+  {key:'fork_spring_rate',label:'Fork springs',placeholder:'Stock, or 4.6 N/mm / air psi'},
+  {key:'shock_spring_rate',label:'Shock spring',placeholder:'Stock, or 48 N/mm'},
+  {key:'fork_height_mm',label:'Fork tubes above top clamp',numeric:true,unit:'mm',placeholder:'5',more:true}],
+ 'What’s changed':[
+  {key:'exhaust',label:'Exhaust',placeholder:'Stock, or brand and model'},
+  {key:'fork',label:'Fork work',placeholder:'Stock, or revalved by…'},
+  {key:'shock',label:'Shock work',placeholder:'Stock, or revalved by…'},
+  {key:'engine_modifications',label:'Engine work',placeholder:'Stock, or cams, piston, head work…'},
+  {key:'active_map',label:'Map you run',placeholder:'Map 2, TC on'},
+  {key:'ecu',label:'ECU or tuner',placeholder:'Stock, or flashed by…',more:true},
+  {key:'intake',label:'Air filter / intake',placeholder:'Stock',more:true},
+  {key:'clutch',label:'Clutch',placeholder:'Stock, or auto clutch, springs…',more:true}],
+ 'Gearing & tires':[
+  {key:'front_sprocket',label:'Front sprocket',numeric:true,placeholder:'13'},
+  {key:'rear_sprocket',label:'Rear sprocket',numeric:true,placeholder:'50'},
+  {key:'tire_pressures',label:'Tire pressure',placeholder:'13 / 13 psi'},
+  {key:'front_tire',label:'Front tire',placeholder:'MX33 80/100-21',more:true},
+  {key:'rear_tire',label:'Rear tire',placeholder:'MX33 110/90-19',more:true}],
 };
 /** Rider measurements are kept in US units. Builds saved before that change stored kilograms and centimetres; convert them once, here. */
 export function usConfiguration(configuration:Record<string,unknown>|null|undefined):Record<string,unknown>{

@@ -4,7 +4,7 @@ import type {Bike} from '../shared/types';
 import {buildIdentity} from '../shared/bike-identity';
 import {procedureCatalog} from '../shared/procedure-catalog';
 import {createProcedureRun,validateProcedureRun,recordProcedureStep,followProcedureBranch,procedureStepRecorded,type ProcedureRun,type ReviewedProcedure} from '../shared/procedures';
-import {parseGuidedInput,stepSpeech,guidedHelp,riderText,type GuidedCommand} from '../shared/guided-job';
+import {parseGuidedInput,stepSpeech,guidedHelp,riderText,toSpeech,type GuidedCommand} from '../shared/guided-job';
 
 /** Same key as the Workshop guide panel, so a job started in either place continues in the other. */
 export function procedureRunKey(bike:Bike,p:ReviewedProcedure){return `bakmx:procedure:v1:${bike.user_id}:${bike.id}:${buildIdentity(bike)}:${p.id}:${p.source.document_sha256}:${p.content_sha256}`;}
@@ -117,29 +117,32 @@ export function useWorkshopVoice(onUtterance:(text:string)=>void){
 }
 
 export function GuidedJobCard({job,voice,onSay,busy}:{job:GuidedJob;voice:ReturnType<typeof useWorkshopVoice>;onSay:(text:string)=>void;busy:boolean}){
- const [picking,setPicking]=useState(false),[record,setRecord]=useState(''),[branchNotes,setBranchNotes]=useState('');
+ const [picking,setPicking]=useState(false),[record,setRecord]=useState(''),[branchNotes,setBranchNotes]=useState(''),[open,setOpen]=useState(false);
  const {procedure,run,step,finished}=job;
  const say=(text:string)=>{if(text)onSay(text)};
  if(!job.available.length)return null;
- if(!procedure||!run)return <div className="guided-launch">{picking?<div className="guided-pick"><label className="field"><span>Guided job for this bike</span><select defaultValue="" onChange={e=>{if(e.target.value){say(job.start(e.target.value));setPicking(false);}}}><option value="">Choose a job</option>{job.groups.map(g=><optgroup key={g.id} label={g.title}>{g.procedures.map(p=><option key={p.id} value={p.id}>{p.title} · {p.steps.length} steps</option>)}</optgroup>)}</select></label><button type="button" className="chat-action" onClick={()=>setPicking(false)}>Cancel</button></div>:<button type="button" className="triage-launch" onClick={()=>setPicking(true)}><span><b>Working on the bike?</b> Start a guided job and BAK walks you through it one step at a time. Hands-free with workshop mode.</span><Wrench size={16}/></button>}</div>;
+ if(!procedure||!run)return <div className="guided-launch">{picking?<div className="guided-pick"><label className="field"><span>Guided job for this bike</span><select defaultValue="" onChange={e=>{if(e.target.value){say(job.start(e.target.value));setPicking(false);}}}><option value="">Choose a job</option>{job.groups.map(g=><optgroup key={g.id} label={g.title}>{g.procedures.map(p=><option key={p.id} value={p.id}>{p.title} · {p.steps.length} steps</option>)}</optgroup>)}</select></label><button type="button" className="chat-action" onClick={()=>setPicking(false)}>Cancel</button></div>:<button type="button" className="triage-launch" onClick={()=>setPicking(true)}><span><b>Working on the bike?</b> BAK can walk you through the job one step at a time, hands-free.</span><Wrench size={16}/></button>}</div>;
  const done=procedure.steps.filter(s=>procedureStepRecorded(run,s.id)).length;
- return <section className="guided-card" aria-label="Guided job">
-  <div className="guided-head"><div><span className="eyebrow">{finished?'JOB COMPLETE':`STEP ${run.step_index+1} OF ${procedure.steps.length}`}</span><strong>{procedure.title}</strong></div><button type="button" className="icon-button" aria-label="Close guided job" title="Close guided job (progress is kept)" onClick={()=>say(job.end())}><X size={17}/></button></div>
-  <progress aria-label="Steps recorded" value={done} max={procedure.steps.length}/>
-  {step&&<><h3>{riderText(step.title)}</h3><p>{riderText(step.instruction)}</p>{step.verification.length>0&&<ul className="guided-checks">{step.verification.map((v,i)=><li key={i}>{riderText(v)}</li>)}</ul>}{step.diagram_reference_required&&step.source_links.some(l=>/^https?:\/\//.test(l))&&<a className="chat-action" href={step.source_links.find(l=>/^https?:\/\//.test(l))} target="_blank" rel="noreferrer">Show the picture for this step</a>}</>}
-  {step?.record_required&&!finished&&<form className="guided-record" onSubmit={e=>{e.preventDefault();if(record.trim()){say(job.handle({kind:'record',text:record.trim()}));setRecord('');}}}><input value={record} onChange={e=>setRecord(e.target.value)} maxLength={2000} placeholder="Measurement or finding" aria-label="Record a measurement"/><button className="button secondary" type="submit" disabled={!record.trim()}>Record</button></form>}
-  {step?.branches?.length?<div className="guided-branches"><input value={branchNotes} onChange={e=>setBranchNotes(e.target.value)} placeholder="What you measured or found" aria-label="Finding for this choice"/>{step.branches.map(b=><button type="button" key={b.id} className="button secondary" disabled={!branchNotes.trim()} title={b.condition} onClick={()=>{say(job.branch(b.id,branchNotes));setBranchNotes('');}}>{b.label}</button>)}</div>:null}
+ const link=step?.diagram_reference_required?step.source_links.find(l=>/^https?:\/\//.test(l)):undefined;
+ const micLabel=voice.on?'Listening':'Hands-free';
+ return <section className="guided-card panel" aria-label="Guided job">
+  <div className="guided-head"><div><span className="eyebrow">{finished?'JOB COMPLETE':`STEP ${run.step_index+1} OF ${procedure.steps.length}`}</span><strong title={procedure.title}>{procedure.title}</strong></div>
+   <div className="guided-tools">{voice.supported&&<button type="button" className={'mic-toggle'+(voice.on?' on':'')} aria-pressed={voice.on} onClick={()=>{if(voice.on)voice.disable();else{void voice.enable();if(step)voice.speak(toSpeech(`Hands-free on. ${guidedHelp} ${stepSpeech(procedure,run.step_index)}`));}}}>{voice.on?<Mic size={14}/>:<MicOff size={14}/>}{micLabel}</button>}<button type="button" className="icon-button" aria-label="Close guided job" title="Close (progress is kept)" onClick={()=>say(job.end())}><X size={17}/></button></div></div>
+  <progress aria-label="Steps done" value={done} max={procedure.steps.length}/>
+  {step&&<><h3>{riderText(step.title)}</h3><p className={'guided-instruction'+(open?' open':'')}>{riderText(step.instruction)}</p>
+   {(riderText(step.instruction).length>170||step.verification.length>0)&&<button type="button" className="guided-more" onClick={()=>setOpen(!open)}>{open?'Less':'More'}</button>}
+   {open&&step.verification.length>0&&<ul className="guided-checks">{step.verification.map((v,i)=><li key={i}>{riderText(v)}</li>)}</ul>}
+   {link&&<a className="chat-action" href={link} target="_blank" rel="noreferrer">Show the picture</a>}</>}
+  {step?.record_required&&!finished&&<form className="guided-record" onSubmit={e=>{e.preventDefault();if(record.trim()){say(job.handle({kind:'record',text:record.trim()}));setRecord('');}}}><input value={record} onChange={e=>setRecord(e.target.value)} maxLength={2000} placeholder="Write down what you measured" aria-label="Record a measurement"/><button className="button" type="submit" disabled={!record.trim()}>Save · next</button></form>}
+  {step?.branches?.length?<div className="guided-branches"><input value={branchNotes} onChange={e=>setBranchNotes(e.target.value)} placeholder="What did you find?" aria-label="What you found"/>{step.branches.map(b=><button type="button" key={b.id} className="button secondary" disabled={!branchNotes.trim()} title={b.condition} onClick={()=>{say(job.branch(b.id,branchNotes));setBranchNotes('');}}>{b.label}</button>)}</div>:null}
   {job.notice&&<p className="error" role="alert">{job.notice}</p>}
   <div className="guided-controls">
-   <button type="button" className="button secondary" disabled={run.step_index===0} onClick={()=>say(job.handle({kind:'back'}))}><ChevronLeft size={16}/>Back</button>
+   <button type="button" className="button secondary" disabled={run.step_index===0} onClick={()=>{setOpen(false);say(job.handle({kind:'back'}));}}><ChevronLeft size={16}/>Back</button>
    <button type="button" className="button secondary" onClick={()=>say(job.handle({kind:'repeat'}))}><RotateCcw size={15}/>Repeat</button>
-   <button type="button" className="button" disabled={finished||(!!step?.record_required)||!!step?.branches?.length} onClick={()=>say(job.handle({kind:'next'}))}>Done · next<ChevronRight size={16}/></button>
+   <button type="button" className="button" disabled={finished||(!!step?.record_required)||!!step?.branches?.length} onClick={()=>{setOpen(false);say(job.handle({kind:'next'}));}}>Done<ChevronRight size={16}/></button>
   </div>
-  {voice.supported?<div className={'workshop-mode'+(voice.on?' on':'')}>
-   <button type="button" className={voice.on?'button':'button secondary'} onClick={()=>{if(voice.on)voice.disable();else{void voice.enable();if(step)voice.speak(`Workshop mode on. ${guidedHelp} ${stepSpeech(procedure,run.step_index)}`);}}}>{voice.on?<><Mic size={16}/>Workshop mode on</>:<><MicOff size={16}/>Workshop mode</>}</button>
-   {voice.on&&<span className="subtle" role="status">{voice.speaking?<><Volume2 size={14}/> Speaking… <button type="button" className="chat-action" onClick={voice.hush}>Quiet</button></>:busy?'Thinking…':voice.heard?`Heard: “${voice.heard}”`:'Listening. Say “next”, “repeat”, or “Hey BAK” and your question.'}</span>}
-   {voice.problem&&<span className="error" role="alert">{voice.problem}</span>}
-  </div>:<p className="subtle">Hands-free workshop mode needs Chrome, Edge or Safari, or the BAK MX phone app.</p>}
+  {voice.on&&<p className="mic-status" role="status">{voice.speaking?<><Volume2 size={14}/>Talking… <button type="button" className="guided-more" onClick={voice.hush}>Quiet</button></>:busy?'Thinking…':voice.heard?`Heard “${voice.heard}”`:'Say “next”, “repeat”, or “Hey BAK” and your question.'}</p>}
+  {voice.problem&&<p className="error" role="alert">{voice.problem}</p>}
  </section>;
 }
 

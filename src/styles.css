@@ -1006,3 +1006,70 @@ body.sheet-open{overflow:hidden}
 .rider-manual-row{display:flex;align-items:center;gap:10px;padding:10px 0;border-top:1px solid var(--line)}.rider-manual-row span{flex:1;display:flex;flex-direction:column}.rider-manual-row small{color:var(--muted)}
 .rider-manual-add{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:10px}.rider-manual-add .button{display:inline-flex;align-items:center;gap:6px}.rider-manual-add input{color:var(--muted)}
 .spin{animation:spin 1s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ===== Refinement pass, Oct 2026: everything sits in a card; calmer type; less noise ===== */
+:root{--card:#101318;--card-2:#14181f;--card-line:#232833;--card-r:18px}
+.panel,.stat,.history,.action-card,.feed .panel.post,.feed .panel.event,.account-layout .panel,.claim-list article{background:linear-gradient(180deg,var(--card-2),var(--card));border:1px solid var(--card-line);border-radius:var(--card-r);box-shadow:inset 0 1px 0 rgba(255,255,255,.03),0 8px 24px rgba(0,0,0,.25);padding:22px}
+.panel{border-bottom:1px solid var(--card-line)}
+.panel:last-child{border-bottom:1px solid var(--card-line)}
+.panel+.panel,.panel+.account-layout,.account-layout+.panel,.account-layout .panel+.panel,section.panel~section.panel,.setup-log,.setup-guide,.parts-catalog,.calculator{margin-top:14px}
+.feed .panel.post,.feed .panel.event{padding:20px;border-bottom:1px solid var(--card-line);margin-top:12px}
+.feed .panel.post:last-child,.feed .panel.event:last-child{border-bottom:1px solid var(--card-line)}
+.panel>h2:first-child,.panel-title h2,.panel-title h3{font-size:19px;letter-spacing:-.02em;margin-bottom:6px}
+.panel .eyebrow{font-size:11px;letter-spacing:.14em}
+.panel-title{margin-bottom:10px}
+.page-heading p{max-width:52ch}
+@media (max-width:760px){
+ .panel,.stat,.history,.feed .panel.post,.feed .panel.event,.account-layout .panel{padding:18px 16px;border-radius:16px}
+ .page-heading h1{font-size:30px}
+}
+/* Chat stays readable: answer in its own card, rider message as a bubble */
+.message.assistant{background:linear-gradient(180deg,var(--card-2),var(--card));border:1px solid var(--card-line);border-radius:var(--card-r);padding:18px 18px 14px}
+.message.assistant .message-label{margin-bottom:6px}
+.chat-disclaimer{font-size:12px;color:#7d8390;text-align:center;margin:10px 0 0}
+/* Guided job: compact card that sits above the message box */
+.guided-card{position:relative;padding:14px 16px;margin:0 0 10px;border-radius:16px}
+.guided-head{align-items:center}.guided-head strong{font-size:13px;color:#aab3c2;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:60vw}
+.guided-card progress{margin:8px 0 10px}
+.guided-card h3{font-size:17px;margin:0 0 4px}
+.guided-card .guided-instruction{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;margin:0}
+.guided-card .guided-instruction.open{display:block}
+.guided-more{background:none;border:0;color:var(--accent);font-size:13px;padding:4px 0}
+.guided-controls{grid-template-columns:1fr 1fr 1.5fr;margin-top:10px}.guided-controls .button{min-height:46px}
+@media (max-width:760px){.guided-controls{grid-template-columns:1fr 1fr 1.5fr}.guided-controls .button:last-child{grid-column:auto}}
+.guided-tools{display:flex;gap:8px;align-items:center}
+.mic-toggle{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--card-line);border-radius:999px;padding:6px 12px;font-size:13px;color:#cfd6e2;background:#0c0f14}
+.mic-toggle.on{background:#16314f;border-color:#3d6ea8;color:#fff}
+.mic-status{font-size:12.5px;color:#9aa3b2;margin-top:8px;display:flex;gap:6px;align-items:center}
+/* Bike editor in rider language */
+.bike-editor h2{margin:0 0 4px}.bike-editor>.subtle{margin-bottom:14px}
+.editor-card{border:1px solid var(--card-line);border-radius:14px;background:#0f1217;padding:14px 16px;margin-top:10px}
+.editor-card>summary{list-style:none;display:flex;justify-content:space-between;align-items:center;cursor:pointer}
+.editor-card>summary::-webkit-details-marker{display:none}
+.editor-card>summary span{display:flex;flex-direction:column;gap:2px}.editor-card>summary b{font-size:16px}.editor-card>summary small{color:#8f97a5;font-size:12.5px;font-weight:400}
+.editor-card[open]>summary{margin-bottom:12px}.editor-card[open]>summary svg{transform:rotate(180deg)}
+.editor-card .form-grid{gap:12px}
+.editor-more{margin-top:10px}.editor-more>summary{cursor:pointer;color:var(--accent);font-size:13.5px;margin-bottom:8px}
+.unit-input{display:flex;align-items:center;position:relative}.unit-input input{padding-right:46px;width:100%}.unit-input em{position:absolute;right:12px;font-style:normal;color:#8a92a0;font-size:13px;pointer-events:none}
+.field small{color:#8a92a0;font-size:12px;margin-top:2px}
+.editor-actions{position:sticky;bottom:-30px;background:linear-gradient(180deg,transparent,#0d0f13 30%);padding:16px 0 4px;margin-top:8px}
+/* Garage card: simple status */
+.readiness.simple{display:block}
+.setup-chips{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 10px}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--card-line);border-radius:999px;padding:6px 11px;font-size:13px;color:#a7afbd;background:#0c0f14}
+.chip.done{color:#d8f0df;border-color:#2c5a3a;background:#0f1c14}
+.chip .dot{width:7px;height:7px;border-radius:50%;background:#58606e;display:inline-block}
+.coverage-line{font-size:13px;margin:8px 0 0}
+.quiet-more>summary{cursor:pointer;color:#aab3c2;font-weight:600}
+.quiet-more[open]>summary{margin-bottom:12px}
+.panel.conversation{background:none;border:0;box-shadow:none;padding:0}
+.mic-toggle{white-space:nowrap}
+.guided-head strong{max-width:52vw}
+.mini-head{font-size:13px;color:#9aa3b2;margin:12px 0 6px;text-transform:uppercase;letter-spacing:.1em}.setup-log-form{display:grid;gap:10px}
+.hero h2{margin-bottom:10px}.hero p{max-width:44ch;margin-left:auto;margin-right:auto}
+.home-bike{margin-top:8px}
+.quick-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
+.quick-card{display:flex;flex-direction:column;align-items:flex-start;gap:6px;text-align:left;padding:18px;border-radius:var(--card-r);border:1px solid var(--card-line);background:linear-gradient(180deg,var(--card-2),var(--card));color:#e7ecf5;transition:border-color .15s,transform .15s}
+.quick-card:hover{border-color:#3a4558;transform:translateY(-1px)}.quick-card svg{color:var(--accent)}
+.quick-card strong{font-size:15.5px}.quick-card small{color:#8f97a5;font-size:13px;line-height:1.4}
+@media (max-width:760px){.quick-grid{grid-template-columns:1fr 1fr;gap:10px}.quick-card{padding:15px}}

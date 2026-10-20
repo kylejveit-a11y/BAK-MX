@@ -249,20 +249,19 @@ export function SetupLogPanel({bike,signedIn,onAsk}:{bike?:Bike;signedIn:boolean
  }
  function describe(log:SetupLog){const set=SETUP_FIELDS.filter(f=>log.settings[f.key]!==null&&log.settings[f.key]!==undefined&&log.settings[f.key]!=='');return set.map(f=>`${f.label}: ${log.settings[f.key]}`).join('; ');}
  return <section className="panel setup-log">
-  <div className="panel-title"><div><h2>Setup log</h2><p className="subtle">What you ran, where, and whether it was better. One change at a time reads cleanest.</p></div><button className="button" onClick={()=>setAdding(!adding)}><Plus size={16}/>Log a setup</button></div>
+  <div className="panel-title"><div><h2>Setup log</h2><p className="subtle">One change, how it rode. That’s it.</p></div><button className="button" onClick={()=>setAdding(!adding)}><Plus size={16}/>Log a setup</button></div>
   {error&&<div className="error" role="alert">{error}</div>}
-  {adding&&<form onSubmit={save} className="service-form">
-   <div className="form-grid">
+  {adding&&<form onSubmit={save} className="service-form setup-log-form">
+   <label className="field"><span>What did you change?</span><input name="change_made" maxLength={1000} placeholder="Fork comp 2 softer" autoFocus/></label>
+   <div className="form-grid"><label className="field"><span>How was it?</span><select name="result" defaultValue="not_tested">{Object.entries(SETUP_RESULT_LABELS).map(([k,l])=><option key={k} value={k}>{l}</option>)}</select></label><label className="field"><span>Track</span><input name="track" maxLength={120} placeholder="Dade City"/></label></div>
+   <label className="field"><span>Notes</span><textarea name="notes" rows={2} maxLength={4000} placeholder="Better in the ruts, still kicks in the whoops"/></label>
+   <details className="editor-more"><summary>Conditions, date and hours</summary><div className="form-grid">
+    <label className="field"><span>Conditions</span><input name="conditions" maxLength={200} placeholder="Sand, hard-pack, wet…"/></label>
     <label className="field"><span>Date</span><input type="date" name="recorded_at" required defaultValue={new Date().toISOString().slice(0,10)}/></label>
-    <label className="field"><span>Track</span><input name="track" maxLength={120} placeholder="Where you rode"/></label>
-    <label className="field"><span>Conditions</span><input name="conditions" maxLength={200} placeholder="Deep sand, hard pack, rutted, 85°F…"/></label>
-    <label className="field"><span>Engine hours</span><input name="engine_hours" type="number" min="0" step="0.1" defaultValue={bike.engine_hours??''} placeholder="Unknown"/></label>
-   </div>
-   {(['Fork','Shock','Chassis','Engine'] as const).map(group=><details key={group} className="config-group" open={group==='Fork'||group==='Shock'}><summary>{group}</summary><div className="form-grid">{SETUP_FIELDS.filter(f=>f.group===group).map(f=><label className="field" key={f.key}><span>{f.label}</span><input name={f.key} maxLength={200} defaultValue={latest?.settings[f.key]??''} placeholder="Not recorded"/></label>)}</div></details>)}
-   <label className="field"><span>What changed from last time</span><input name="change_made" maxLength={1000} placeholder="e.g. fork compression 2 clicks softer"/></label>
-   <div className="form-grid"><label className="field"><span>Result</span><select name="result" defaultValue="not_tested">{Object.entries(SETUP_RESULT_LABELS).map(([k,l])=><option key={k} value={k}>{l}</option>)}</select></label></div>
-   <label className="field"><span>How it felt</span><textarea name="notes" rows={3} maxLength={4000} placeholder="Where on the track, what the bike did, what you’d try next."/></label>
-   <div className="button-row"><button className="button" type="submit" disabled={busy}>{busy?'Saving…':'Save setup'}</button><button className="button secondary" type="button" onClick={()=>setAdding(false)}>Cancel</button></div>
+    <label className="field"><span>Hours</span><input name="engine_hours" type="number" inputMode="decimal" min="0" step="0.1" defaultValue={bike.engine_hours??''} placeholder="Unknown"/></label>
+   </div></details>
+   <details className="editor-more"><summary>Full settings{latest?' (filled in from last time)':''}</summary>{(['Fork','Shock','Chassis','Engine'] as const).map(group=><div key={group}><h4 className="mini-head">{group}</h4><div className="form-grid">{SETUP_FIELDS.filter(f=>f.group===group).map(f=><label className="field" key={f.key}><span>{f.label}</span><input name={f.key} maxLength={200} defaultValue={latest?.settings[f.key]??''} placeholder="—"/></label>)}</div></div>)}</details>
+   <div className="button-row"><button className="button" type="submit" disabled={busy}>{busy?'Saving…':'Save'}</button><button className="button secondary" type="button" onClick={()=>setAdding(false)}>Cancel</button></div>
   </form>}
   {!logs.length&&!adding&&<div className="empty"><h3>Your tuning notebook starts here.</h3><p>Log the settings you ran and how the bike felt. Next time you’ll know what worked at this track.</p></div>}
   <div className="service-list">{logs.map((log,i)=>{const prior=logs[i+1],diff=prior?setupDifferences(prior.settings,log.settings):[];return <article key={log.id}>
@@ -285,7 +284,7 @@ export function PartsCatalog({bike}:{bike?:Bike}){
  async function showFit(number:string){if(fit?.number===number){setFit(null);return;}setFit({number,rows:null,error:''});try{const d=await api<{part_number:string;fits:PartFit[]}>('/parts/fitment?part_number='+encodeURIComponent(number));setFit(f=>f?.number===number?{number,rows:d.fits,error:''}:f);}catch(e){setFit(f=>f?.number===number?{number,rows:[],error:(e as Error).message}:f);}}
  useEffect(()=>{let live=true;requestId.current++;setCatalog(undefined);setAssemblies([]);setOpen('');setParts([]);setPartsLoading(false);setPartsLoaded(false);setError('');if(bike)api<{catalog:PartCatalog|null;assemblies:PartAssembly[]}>('/parts/catalog?bike_id='+bike.id).then(d=>{if(live){setCatalog(d.catalog);setAssemblies(d.assemblies);}}).catch(e=>{if(live){setError(e.message);setCatalog(null);}});return()=>{live=false};},[bike?.id]);
  async function show(a:PartAssembly){const current=++requestId.current;if(open===a.id){setOpen('');setPartsLoading(false);return;}setOpen(a.id);setParts([]);setPartsLoaded(false);setPartsLoading(true);setError('');try{const result=await api<Part[]>('/parts?assembly_id='+a.id);if(requestId.current===current){setParts(result);setPartsLoaded(true);}}catch(e){if(requestId.current===current)setError((e as Error).message);}finally{if(requestId.current===current)setPartsLoading(false);}}
- if(!bike||catalog===undefined)return null;
+ if(!bike||catalog===undefined||(catalog===null&&!error))return null;
  const shown=assemblies.filter(a=>a.name.toLowerCase().includes(find.trim().toLowerCase()));
  return <section className="panel parts-catalog">
   <div className="panel-title"><div><h2>Parts catalog</h2><p className="subtle">{catalog?`${catalog.source}${catalog.complete?'':' · partial capture'} · ${catalog.assembly_count} assemblies · ${catalog.part_count} part entries`:'Exact model-year catalog'}</p></div></div>

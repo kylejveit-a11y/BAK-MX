@@ -25,17 +25,16 @@ export function BikeParts({bike,onSaved,onAsk}:{bike:Bike;onSaved:(b:Bike)=>void
  const changed=value.parts.length>0;
  return <section className="panel bike-parts" aria-labelledby="bike-parts-title">
   <div className="bp-head">
-   <div><span className="eyebrow">BUILD SHEET</span><h2 id="bike-parts-title">What’s on your {bike.model}?</h2>
-    <p className="bp-lede">Tap each part of the bike and tell BAK if it’s <b>stock</b> (came from the factory) or <b>changed</b> (aftermarket parts or work). BAK uses this in every answer.</p></div>
+   <div><span className="eyebrow">PARTS</span><h2 id="bike-parts-title">What have you changed?</h2>
+    <p className="bp-lede">Only tap what isn’t stock: a pipe, springs, a revalve, gearing. You don’t need to go through every part.</p></div>
   </div>
-  <div className="bp-meter" aria-label={`${recorded} of ${partSystems.length} set`}><div><i style={{width:`${100*recorded/partSystems.length}%`}}/></div><span><b>{recorded} of {partSystems.length}</b> set</span></div>
   {catalog===null&&<p className="notice">We don’t have a parts list for this exact bike yet. You can still add what’s on it and BAK will use it.</p>}
   {error&&<div className="error" role="alert">{error}</div>}
   <ul className="bp-systems">{partSystems.map(s=>{const Icon=ICON[s.key],parts=value.parts.filter(p=>p.s===s.key),stock=value.stock.includes(s.key);
    return <li key={s.key}><button className="bp-row" onClick={()=>setOpen(s.key)} aria-haspopup="dialog">
     <span className="bp-icon"><Icon size={18}/></span>
     <span className="bp-main"><b>{s.label}</b>{parts.length?<span className="bp-fitted">{parts.map(partLabel).join(' · ')}</span>:<span className="bp-hint">{s.hint}</span>}</span>
-    <span className={'bp-state '+(parts.length?'changed':stock?'stock':'unknown')}>{parts.length?<>Changed · {parts.length}</>:stock?<><Check size={13}/>Stock</>:'Tap to set'}</span>
+    {(parts.length>0||stock)&&<span className={'bp-state '+(parts.length?'changed':'stock')}>{parts.length?<>Changed · {parts.length}</>:<><Check size={13}/>Stock</>}</span>}
     <ChevronRight size={16} className="bp-chev"/>
    </button></li>})}</ul>
   {changed&&onAsk&&<button className="text-button" onClick={()=>onAsk(`I've recorded my aftermarket parts in the Garage. Anything I should check or set up differently because of what's fitted?`)}>Ask BAK about this build <ChevronRight size={14}/></button>}
