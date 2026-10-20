@@ -104,3 +104,6 @@ do $$ begin
   on conflict (id) do update set public=false,file_size_limit=excluded.file_size_limit,allowed_mime_types=excluded.allowed_mime_types;
  end if;
 end $$;
+
+-- 2026-10-19: Manual Drive withdrawn before launch. The wanted list is internal only.
+alter policy manual_wanted_read on public.manual_wanted using (false);

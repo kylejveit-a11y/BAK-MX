@@ -1,4 +1,3 @@
-import {handleManualDrive,handleManualDrivePublic} from './manual-drive.ts';
 import {createInput,createRecord} from './create-record.ts';
 import {aiAccessMode} from './ai-access.ts';
 import {getBikeClaims,searchBikeClaims} from './claims.ts';
@@ -31,9 +30,7 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
  if((path==='/api/billing/webhook'&&method==='POST')||(path==='/api/billing/price'&&method==='GET')||(path==='/api/billing/plans'&&method==='GET')){return await handleBilling(req,null,null)??json({error:'Not found'},404);}
  if(path==='/api/mobile/webhook'&&method==='POST')return await handleMobileBilling(req,null)??json({error:'Not found'},404);
  if(path==='/api/eval/ask'&&method==='POST')return await handleEval(req);
- {const open=await handleManualDrivePublic(path,method);if(open)return open;}
  const {db,user,token}=await authenticate(req);
- {const drive=await handleManualDrive(req,path,method,user.id,db);if(drive)return drive;}
  if(path.startsWith('/api/mobile/'))return await handleMobileBilling(req,user)??json({error:'Not found'},404);
  if(path.startsWith('/api/billing/')){return await handleBilling(req,user,db)??json({error:'Not found'},404);}
  const owner=user.id;

@@ -26,14 +26,7 @@ export function creditPacks(raw:string|undefined):Map<string,number>{
 
 const live=(status:string|null|undefined,end:string|null|undefined)=>['active','trialing'].includes(status||'')&&!!end&&Date.parse(end)>Date.now();
 /** Reads tier from stored subscription rows. Callers that need freshness run the provider sync first (hasPaidAccess does). */
-/** Manual Drive reward months count as a paid plan alongside store and web subscriptions. */
-export async function rewardTier(userId:string,db=admin()):Promise<Tier|null>{
- const r=await db.from('reward_grants').select('tier,ends_at').eq('user_id',userId).maybeSingle();
- if(r.error||!r.data)return null;
- return Date.parse(r.data.ends_at)>Date.now()&&isTier(r.data.tier)?r.data.tier:null;
-}
 export async function resolveTier(userId:string,db=admin()):Promise<Tier>{
- const reward=await rewardTier(userId,db);
  const [web,store]=await Promise.all([db.from('subscriptions').select('status,current_period_end,price_id').eq('user_id',userId).maybeSingle(),db.from('mobile_entitlements').select('status,current_period_end,product_identifier,is_sandbox').eq('user_id',userId).maybeSingle()]);
  if(web.error)throw web.error;if(store.error)throw store.error;
  const sandboxOk=process.env.ALLOW_SANDBOX_PURCHASES==='true'&&process.env.APP_ENV!=='production';
@@ -41,7 +34,7 @@ export async function resolveTier(userId:string,db=admin()):Promise<Tier>{
  const storeT=s&&live(s.status,s.current_period_end)&&(!s.is_sandbox||sandboxOk)?storeTier(s.product_identifier):null;
  // A web row from before plan tiers has no price id; it was the single (Pro) membership.
  const webT=w&&live(w.status,w.current_period_end)?(w.price_id?stripePlanPrices().get(w.price_id)??null:'pro'):null;
- return bestTier(storeT,webT,reward);
+ return bestTier(storeT,webT);
 }
 /** Free riders: the first trial set is ready as soon as they use Ask BAK or open their plan. Safe to call repeatedly. */
 export async function ensureTrial(userId:string,tier:Tier,db=admin()):Promise<void>{
