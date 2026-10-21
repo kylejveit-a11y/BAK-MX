@@ -7,7 +7,7 @@ import * as Haptics from 'expo-haptics';
 import {Icon} from './Icon';
 
 const ROW=46,VISIBLE=5;
-const C={bg:'#060609',text:'#f6f7f9',muted:'#8f97a5',dim:'#5d6470',accent:'#8cb6ee',primary:'#aebacd',line:'#2a2f39'};
+const C={bg:'#060609',text:'#f6f7f9',muted:'#9aa2af',dim:'#6b7380',accent:'#6AA4FF',primary:'#2F74E8',line:'#2a2f39'};
 const MONTHS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 const pad2=(n:number)=>String(n).padStart(2,'0');
 const daysIn=(y:number,m:number)=>new Date(y,m+1,0).getDate();
@@ -47,7 +47,7 @@ export function DateSheet({visible,title,value,time=false,years,quick,onDone,onC
    <View style={st.top}><Text style={st.step}>{time?'DATE AND TIME':'DATE'}</Text><Pressable accessibilityRole="button" accessibilityLabel="Close" hitSlop={12} onPress={onClose} style={({pressed})=>[st.close,pressed&&{opacity:0.6}]}><Icon name="close" size={18} color={C.text} weight={2}/></Pressable></View>
    <Text style={st.title}>{title}</Text>
    <Text style={st.readout} accessibilityLiveRegion="polite">{readout}</Text>
-   {!!quick?.length&&<View style={{flexDirection:'row',flexWrap:'wrap',gap:8,marginTop:14}}>{quick.map(q=>{const on=q.date.getFullYear()===p.y&&q.date.getMonth()===p.m&&q.date.getDate()===p.d;return <Pressable key={q.label} accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>{void Haptics.selectionAsync().catch(()=>{});set({y:q.date.getFullYear(),m:q.date.getMonth(),d:q.date.getDate()});}} style={({pressed})=>({paddingHorizontal:14,paddingVertical:8,borderRadius:18,borderWidth:1,borderColor:on?C.primary:'#343a45',backgroundColor:on?C.primary:'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#0a0d12':C.text,fontWeight:on?'700':'500',fontSize:14}}>{q.label}</Text></Pressable>;})}</View>}
+   {!!quick?.length&&<View style={{flexDirection:'row',flexWrap:'wrap',gap:8,marginTop:14}}>{quick.map(q=>{const on=q.date.getFullYear()===p.y&&q.date.getMonth()===p.m&&q.date.getDate()===p.d;return <Pressable key={q.label} accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>{void Haptics.selectionAsync().catch(()=>{});set({y:q.date.getFullYear(),m:q.date.getMonth(),d:q.date.getDate()});}} style={({pressed})=>({paddingHorizontal:14,paddingVertical:8,borderRadius:18,borderWidth:1,borderColor:on?C.primary:'#343a45',backgroundColor:on?C.primary:'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':C.text,fontWeight:on?'700':'500',fontSize:14}}>{q.label}</Text></Pressable>;})}</View>}
    <View style={{flex:1,justifyContent:'center',gap:26}}>
     <Wheels>
      <Column width="34%" items={MONTHS} index={p.m} onIndex={i=>set({m:i})}/>
@@ -62,7 +62,7 @@ export function DateSheet({visible,title,value,time=false,years,quick,onDone,onC
    </View>
    <View style={st.bottom}>
     {onClear?<Pressable accessibilityRole="button" hitSlop={8} onPress={onClear}><Text style={{color:C.muted,fontWeight:'600',fontSize:14}}>Clear</Text></Pressable>:<View/>}
-    <Pressable accessibilityRole="button" onPress={()=>{void Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(()=>{});onDone(toValue(p,time));}} style={({pressed})=>[st.choose,pressed&&{opacity:0.7}]}><Text style={{color:'#0a0d12',fontWeight:'800',fontSize:15}}>Set</Text></Pressable>
+    <Pressable accessibilityRole="button" onPress={()=>{void Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(()=>{});onDone(toValue(p,time));}} style={({pressed})=>[st.choose,pressed&&{opacity:0.7}]}><Text style={{color:'#ffffff',fontWeight:'800',fontSize:15}}>Set</Text></Pressable>
    </View>
   </View>
  </Modal>;

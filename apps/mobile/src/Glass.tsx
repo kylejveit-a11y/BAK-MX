@@ -9,7 +9,7 @@ import {Icon,type IconName} from './Icon';
 import type {BottomTabBarProps} from '@react-navigation/bottom-tabs';
 
 const liquid=(()=>{try{return Platform.OS==='ios'&&isLiquidGlassAvailable();}catch{return false;}})();
-export const ACCENT='#8cb6ee';
+export const ACCENT='#6AA4FF';
 
 /** Dark glass surface. Children sit on top. */
 export function Glass({style,children,strong=false}:{style?:StyleProp<ViewStyle>;children?:React.ReactNode;strong?:boolean}){

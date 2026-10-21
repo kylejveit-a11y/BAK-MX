@@ -8,7 +8,7 @@ import {Icon} from './Icon';
 
 export type Option={value:string;label:string;detail?:string};
 const ROW=54;
-const C={bg:'#060609',text:'#f6f7f9',muted:'#8f97a5',dim:'#5d6470',line:'#232833',band:'#14171d',accent:'#8cb6ee',primary:'#aebacd'};
+const C={bg:'#060609',text:'#f6f7f9',muted:'#9aa2af',dim:'#6b7380',line:'#232833',band:'#14171d',accent:'#6AA4FF',primary:'#2F74E8'};
 const tick=()=>{void Haptics.selectionAsync().catch(()=>{});};
 
 type SheetProps={visible:boolean;step?:string;title:string;options:Option[];value?:string;onPick:(value:string)=>void;onClose:()=>void;back?:{label:string;onPress:()=>void};footer?:{label:string;onPress:()=>void};searchPlaceholder?:string};
@@ -60,7 +60,7 @@ export function WheelSheet({visible,step,title,options,value,onPick,onClose,back
    </View>
    <View style={st.bottom}>
     {footer?<Pressable accessibilityRole="button" onPress={footer.onPress} hitSlop={8}><Text style={{color:C.muted,fontWeight:'600',fontSize:14}}>{footer.label}</Text></Pressable>:<View/>}
-    <Pressable accessibilityRole="button" disabled={!list.length} onPress={()=>choose(center)} style={({pressed})=>[st.choose,(pressed||!list.length)&&{opacity:0.6}]}><Text style={{color:'#0a0d12',fontWeight:'800',fontSize:15}}>Choose</Text></Pressable>
+    <Pressable accessibilityRole="button" disabled={!list.length} onPress={()=>choose(center)} style={({pressed})=>[st.choose,(pressed||!list.length)&&{opacity:0.6}]}><Text style={{color:'#ffffff',fontWeight:'800',fontSize:15}}>Choose</Text></Pressable>
    </View>
   </View>
  </Modal>;

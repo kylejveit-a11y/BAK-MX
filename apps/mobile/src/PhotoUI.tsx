@@ -5,7 +5,7 @@ import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {Icon} from './Icon';
 import type {Photo} from './photos';
 
-const C={bg:'#060609',text:'#f6f7f9',muted:'#8f97a5',accent:'#8cb6ee',line:'#2a2f39'};
+const C={bg:'#060609',text:'#f6f7f9',muted:'#9aa2af',accent:'#6AA4FF',line:'#2a2f39'};
 const ratio=(p?:Photo)=>p?.width&&p?.height?Math.min(1.25,Math.max(0.5625,p.height/p.width)):1;
 
 /** Thumbnails of photos attached to something being written, each with a remove button. */

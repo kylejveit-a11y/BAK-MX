@@ -79,7 +79,7 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
  const title=screen.id==='home'?meta.label:screen.id==='type'?'What did you change?':screen.id==='work'?'Who did it?':screen.id==='detail'?screen.work.label:screen.id==='brand'?'Which brand?':screen.id==='product'?screen.brand:screen.id==='color'?'Which color?':'Add it yourself';
  const sub=screen.id==='home'?meta.hint:screen.id==='brand'?(screen.type??`Any ${meta.label.toLowerCase()} part`):screen.id==='product'?(screen.type??meta.label):screen.id==='color'?cleanName(screen.ip.b,screen.ip.n):screen.id==='type'?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:screen.id==='work'?screen.work.label:screen.id==='detail'?(screen.who||'Who did it not recorded'):'';
  const workList=WORK[system]?<><Section title="WORK DONE"/><Group>{WORK[system]!.map(w=><Row key={w.label} label={w.label} detail={w.kind?'Who did it?':undefined} onPress={()=>push({id:'work',work:w})}/>)}</Group></>:null;
- const search=(placeholder:string)=><TextInput value={query} onChangeText={setQuery} placeholder={placeholder} placeholderTextColor="#5d6470" accessibilityLabel={placeholder} autoCorrect={false} style={st.search}/>;
+ const search=(placeholder:string)=><TextInput value={query} onChangeText={setQuery} placeholder={placeholder} placeholderTextColor="#6b7380" accessibilityLabel={placeholder} autoCorrect={false} style={st.search}/>;
  return <Modal visible animationType="slide" presentationStyle="pageSheet" onRequestClose={close}>
   <KeyboardAvoidingView style={{flex:1,backgroundColor:colors.bg}} behavior={Platform.OS==='ios'?'padding':undefined}>
    <View style={st.bar}>
@@ -110,7 +110,7 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
        </View>;})}
        <Row label="Add a part" accent plus onPress={()=>push(firstStep())}/>
       </Group></>}
-     {mode!=='unknown'&&<View style={{gap:6}}><Text style={st.small}>Anything else BAK should know? (optional)</Text><TextInput value={note} onChangeText={setNote} multiline maxLength={280} placeholder={NOTE_HINT[system]??'Condition, settings or work done'} placeholderTextColor="#5d6470" style={[st.search,{minHeight:80,textAlignVertical:'top'}]}/></View>}
+     {mode!=='unknown'&&<View style={{gap:6}}><Text style={st.small}>Anything else BAK should know? (optional)</Text><TextInput value={note} onChangeText={setNote} multiline maxLength={280} placeholder={NOTE_HINT[system]??'Condition, settings or work done'} placeholderTextColor="#6b7380" style={[st.search,{minHeight:80,textAlignVertical:'top'}]}/></View>}
      <Button disabled={busy||(mode==='changed'&&!picked.length)} title={busy?'Saving…':mode==='changed'&&!picked.length?'Add a part first':'Save'} onPress={done}/>
     </>}
     {screen.id==='type'&&<>
@@ -132,7 +132,7 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
      </Group></>;})()}
     {screen.id==='detail'&&<View style={{gap:10}}>
      <Text style={st.small}>{screen.work.detail} (optional)</Text>
-     <TextInput autoFocus multiline value={detail} onChangeText={setDetail} maxLength={120} placeholder={screen.work.example} placeholderTextColor="#5d6470" style={[st.search,{minHeight:80,textAlignVertical:'top'}]}/>
+     <TextInput autoFocus multiline value={detail} onChangeText={setDetail} maxLength={120} placeholder={screen.work.example} placeholderTextColor="#6b7380" style={[st.search,{minHeight:80,textAlignVertical:'top'}]}/>
      <Button title="Add to my bike" onPress={()=>add({s:system,b:screen.who==='Myself'?'':screen.who,n:screen.work.label+(screen.who==='Myself'?' (myself)':''),...(detail.trim()?{d:detail.trim()}:{}),...(screen.r?{r:screen.r}:{x:true})})}/>
     </View>}
     {screen.id==='brand'&&(()=>{const all=brandsIn(choicesOfType(choices,screen.type)),list=all.filter(([b])=>match(b));return <>
@@ -149,9 +149,9 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
      <Group><Row label="Not listed?" detail="Type it" onPress={()=>{setCustom({b:screen.brand,n:query,p:''});push({id:'custom',brand:screen.brand,type:screen.type});}}/></Group></>;})()}
     {screen.id==='custom'&&<View style={{gap:12}}>
      <Text style={st.small}>{isWork(custom.n)?'Who did the work? (shop or tuner)':'Brand'}</Text>
-     <TextInput autoFocus={isWork(custom.n)} value={custom.b} onChangeText={b=>setCustom({...custom,b})} maxLength={60} placeholder={isWork(custom.n)?'e.g. the shop’s name':'e.g. FMF'} placeholderTextColor="#5d6470" style={st.search}/>
+     <TextInput autoFocus={isWork(custom.n)} value={custom.b} onChangeText={b=>setCustom({...custom,b})} maxLength={60} placeholder={isWork(custom.n)?'e.g. the shop’s name':'e.g. FMF'} placeholderTextColor="#6b7380" style={st.search}/>
      <Text style={st.small}>{isWork(custom.n)?'Work done':'Part'}</Text>
-     <TextInput autoFocus={!isWork(custom.n)} value={custom.n} onChangeText={n=>setCustom({...custom,n})} maxLength={90} placeholder="e.g. Factory 4.1 RCT titanium slip-on" placeholderTextColor="#5d6470" style={st.search}/>
+     <TextInput autoFocus={!isWork(custom.n)} value={custom.n} onChangeText={n=>setCustom({...custom,n})} maxLength={90} placeholder="e.g. Factory 4.1 RCT titanium slip-on" placeholderTextColor="#6b7380" style={st.search}/>
      <Text style={st.small}>Part number (optional)</Text>
      <TextInput value={custom.p} onChangeText={p=>setCustom({...custom,p})} maxLength={48} autoCapitalize="characters" style={st.search}/>
      <Button disabled={!custom.n.trim()&&!custom.b.trim()} title="Add to my bike" onPress={()=>add({s:system,b:custom.b.trim(),n:custom.n.trim(),...(custom.p.trim()?{p:custom.p.trim()}:{}),x:true})}/>
@@ -173,7 +173,7 @@ function Row({label,small,detail,onPress,selected=false,chev=true,accent=false,p
  </Pressable>;
 }
 const st={
- eyebrow:{color:'#737b88',fontWeight:'600' as const,letterSpacing:1,fontSize:11.5},
+ eyebrow:{color:'#868e9b',fontWeight:'600' as const,letterSpacing:1,fontSize:11.5},
  h2:{color:colors.text,fontSize:22,fontWeight:'800' as const,letterSpacing:-0.5},
  title:{color:colors.text,fontSize:30,fontWeight:'900' as const,fontStyle:'italic' as const,letterSpacing:-1},
  sub:{color:colors.muted,fontSize:15,marginTop:-6},
