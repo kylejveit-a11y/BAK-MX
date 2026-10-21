@@ -8,7 +8,9 @@ import {procedureCatalog} from '../../../shared/procedure-catalog';
 import {createProcedureRun,validateProcedureRun,recordProcedureStep,followProcedureBranch,procedureStepRecorded,type ProcedureRun,type ReviewedProcedure} from '../../../shared/procedures';
 import {parseGuidedInput,stepSpeech,guidedHelp,riderText,toSpeech,type GuidedCommand} from '../../../shared/guided-job';
 import {readProgress,writeProgress} from './localProgress';
-import {Button,Card,Copy,Notice,Select,colors,s} from './ui';
+import {Button,Card,Copy,Notice,Tile,colors,s} from './ui';
+import {WheelSheet} from './Wheel';
+import {Ionicons} from '@expo/vector-icons';
 
 // Same storage as the Workshop guide screen (procedure-<bike>-<procedure>, newest run first), so progress is shared.
 const runsKey=(bike:Bike,p:ReviewedProcedure)=>`procedure-${bike.id}-${p.id}`;
@@ -108,7 +110,7 @@ export function GuidedJobCardNative({job,voice,onSay,busy}:{job:NativeGuidedJob;
  const [picking,setPicking]=useState(false),[record,setRecord]=useState(''),[finding,setFinding]=useState(''),[open,setOpen]=useState(false);
  const {procedure,run,step,finished}=job;
  if(!job.available.length)return null;
- if(!procedure||!run)return picking?<Card><Select label="Guided job for this bike" value="" options={[{value:'',label:'Choose a job'},...job.groups.flatMap(g=>g.procedures.map(p=>({value:p.id,label:`${p.title} · ${p.steps.length} steps`})))]} onChange={v=>{if(v){onSay(job.start(v));setPicking(false);}}}/><Button secondary title="Cancel" onPress={()=>setPicking(false)}/></Card>:<Button secondary title="Working on the bike? Get walked through it →" onPress={()=>setPicking(true)}/>;
+ if(!procedure||!run)return <><Tile icon={<Ionicons name="construct-outline" size={20} color="#8f97a5"/>} title="Working on the bike?" detail="Step-by-step guided jobs, hands-free" onPress={()=>setPicking(true)}/><WheelSheet visible={picking} step="GUIDED JOB" title="What are you working on?" searchPlaceholder="Search jobs" options={job.groups.flatMap(g=>g.procedures.map(p=>({value:p.id,label:p.title,detail:`${g.title} · ${p.steps.length} steps`})))} onClose={()=>setPicking(false)} onPick={v=>{setPicking(false);onSay(job.start(v));}}/></>;
  const done=procedure.steps.filter(x=>procedureStepRecorded(run,x.id)).length;
  const link=step?.diagram_reference_required?step.source_links.find(l=>/^https?:\/\//.test(l)):undefined;
  return <Card>

@@ -1,5 +1,6 @@
 import React,{useCallback,useContext,useEffect,useRef,useState} from 'react';
-import {Alert,Linking,Pressable,Text,View} from 'react-native';
+import {ActivityIndicator,Alert,Linking,Pressable,ScrollView,StyleSheet,Text,TextInput,View} from 'react-native';
+import {Ionicons} from '@expo/vector-icons';
 import {useFocusEffect} from '@react-navigation/native';
 import type {Bike} from '../../../shared/types';
 import {COMMUNITY_RULES,EVENT_TYPE_LABELS,POST_CATEGORY_LABELS,SETUP_FIELDS,SETUP_RESULT_LABELS,riderName,setupDifferences,type Part,type PartAssembly,type PartCatalog,type Post,type PostCategory,type PostComment,type Profile,type RideEvent,type RiderRef,type SetupLog,type SetupResult,type ThreadMessage,type ThreadSummary} from '../../../shared/rider-types';
@@ -24,8 +25,19 @@ function Link({title,onPress,danger=false}:{title:string;onPress:()=>void;danger
 }
 function Row({children}:{children:React.ReactNode}){return <View style={{flexDirection:'row',flexWrap:'wrap',gap:18,alignItems:'center'}}>{children}</View>;}
 function Segments<T extends string>({value,items,onChange}:{value:T;items:{value:T;label:string}[];onChange:(v:T)=>void}){
- return <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{items.map(i=><Pressable key={i.value||'all'} accessibilityRole="button" accessibilityState={{selected:value===i.value}} onPress={()=>onChange(i.value)} style={{paddingVertical:8,marginRight:10,borderBottomWidth:2,borderBottomColor:value===i.value?colors.text:'transparent'}}><Text style={{color:value===i.value?colors.text:colors.muted,fontSize:14,fontWeight:'600'}}>{i.label}</Text></Pressable>)}</View>;
+ return <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap:8}} style={{flexGrow:0}}>{items.map(i=><Pressable key={i.value||'all'} accessibilityRole="button" accessibilityState={{selected:value===i.value}} onPress={()=>onChange(i.value)} style={{paddingVertical:8,marginRight:10,borderBottomWidth:2,borderBottomColor:value===i.value?colors.text:'transparent'}}><Text style={{color:value===i.value?colors.text:colors.muted,fontSize:14,fontWeight:'600'}}>{i.label}</Text></Pressable>)}</ScrollView>;
 }
+
+/** Single choice as a row of pills: every option visible, one tap. */
+function Choices<T extends string>({label,value,items,onChange,disabled=false}:{label:string;value:T;items:{value:T;label:string}[];onChange:(v:T)=>void;disabled?:boolean}){
+ return <View style={{gap:8}}><Text style={{color:'#8f97a5',fontSize:12.5,fontWeight:'600'}}>{label}</Text><View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{items.map(i=>{const on=i.value===value;return <Pressable key={i.value} accessibilityRole="button" accessibilityState={{selected:on,disabled}} disabled={disabled} onPress={()=>onChange(i.value)} style={({pressed})=>({paddingHorizontal:14,paddingVertical:9,borderRadius:18,backgroundColor:on?colors.primary:'#15181e',opacity:pressed?0.7:1})}><Text style={{color:on?'#0a0d12':colors.text,fontSize:14,fontWeight:on?'700':'500'}}>{i.label}</Text></Pressable>;})}</View></View>;
+}
+/** Tap-to-start row instead of a big button: reads like the start of a post. */
+function StartRow({icon,title,detail,onPress}:{icon:React.ComponentProps<typeof Ionicons>['name'];title:string;detail?:string;onPress:()=>void}){
+ return <Pressable accessibilityRole="button" accessibilityLabel={title} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,backgroundColor:'#101217',borderRadius:16,paddingHorizontal:16,paddingVertical:14,opacity:pressed?0.7:1})}><View style={{width:34,height:34,borderRadius:17,backgroundColor:'#1b1f27',alignItems:'center',justifyContent:'center'}}><Ionicons name={icon} size={18} color={colors.primary}/></View><View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'600'}}>{title}</Text>{!!detail&&<Text style={{color:'#8f97a5',fontSize:12.5}}>{detail}</Text>}</View><Ionicons name="add" size={20} color="#8f97a5"/></Pressable>;
+}
+/** Section heading with a quiet Cancel on the right. */
+function FormHead({title,onCancel}:{title:string;onCancel:()=>void}){return <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}><Text style={{color:colors.text,fontSize:19,fontWeight:'800'}}>{title}</Text><Pressable accessibilityRole="button" hitSlop={10} onPress={onCancel}><Text style={{color:'#8f97a5',fontSize:15,fontWeight:'600'}}>Cancel</Text></Pressable></View>;}
 
 function useProfile(){
  const [profile,setProfile]=useState<Profile|null|undefined>(undefined),[error,setError]=useState('');
@@ -69,7 +81,7 @@ export function FeedbackCard({bike}:{bike?:Bike}){
  const [category,setCategory]=useState('missing_data'),[body,setBody]=useState(''),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
  async function send(){if(busy||!body.trim())return;setBusy(true);setNotice('');try{await api('/api/feedback','POST',{category,body,context:{client:'native',bike:bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:null}});setBody('');setNotice('Thanks — this goes straight to the build list.');}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
  return <Card><Copy strong>Tell us what’s missing or wrong</Copy><Copy>A wrong answer, a missing spec for your bike, a bug, an idea. Be specific; it gets read.</Copy>
-  <Select disabled={busy} label="About" value={category} options={[{value:'answer_quality',label:'An answer BAK gave'},{value:'missing_data',label:'Missing data for my bike'},{value:'bug',label:'Something broken'},{value:'idea',label:'An idea'},{value:'other',label:'Something else'}]} onChange={setCategory}/>
+  <Choices disabled={busy} label="About" value={category} items={[{value:'answer_quality',label:'An answer'},{value:'missing_data',label:'Missing data'},{value:'bug',label:'Something broken'},{value:'idea',label:'An idea'},{value:'other',label:'Other'}]} onChange={setCategory}/>
   <Field editable={!busy} label="Details" value={body} onChangeText={setBody} multiline maxLength={4000} autoCapitalize="sentences"/>
   <Notice text={notice}/><Button disabled={busy||!body.trim()} title={busy?'Sending…':'Send feedback'} onPress={()=>void send()}/></Card>;
 }
@@ -100,9 +112,9 @@ export function CommunityScreen({bike,onMessage}:{bike?:Bike;onMessage:(r:RiderR
  if(!profile)return <Page title="Community"><Copy>Builds, setup questions and ride plans from riders on gas MX bikes.</Copy><NeedsProfile onSaved={setProfile}/></Page>;
  return <Page title="Community">
   <Segments value={filter} items={[{value:'' as PostCategory|'',label:'All'},...options(POST_CATEGORY_LABELS)]} onChange={setFilter}/>
-  <Button title={composing?'Cancel':'New post'} secondary={composing} onPress={()=>setComposing(!composing)}/>
-  {composing&&<Card><Select disabled={busy} label="Kind of post" value={category} options={options(POST_CATEGORY_LABELS)} onChange={v=>setCategory(v as PostCategory)}/>
-   <Field editable={!busy} label="Post" value={body} onChangeText={setBody} multiline maxLength={4000} autoCapitalize="sentences"/>
+  {!composing&&<StartRow icon="create-outline" title="Start a post" detail={`Build, setup question or ride plan · as @${profile.handle}`} onPress={()=>setComposing(true)}/>}
+  {composing&&<Card><FormHead title="New post" onCancel={()=>setComposing(false)}/><Choices disabled={busy} label="Kind of post" value={category} items={options(POST_CATEGORY_LABELS)} onChange={v=>setCategory(v as PostCategory)}/>
+   <Field editable={!busy} label="Post" placeholder="What’s on the bike, what you’re chasing, or where you’re riding" value={body} onChangeText={setBody} multiline maxLength={4000} autoCapitalize="sentences"/>
    {bike&&<Link title={(tagBike?'✓ Tagging ':'Tag ')+`my ${bike.model_year} ${bike.manufacturer} ${bike.model}`} onPress={()=>setTagBike(!tagBike)}/>}
    <Button disabled={busy||!body.trim()} title={busy?'Posting…':'Post'} onPress={()=>void publish()}/></Card>}
   <Notice text={notice}/>
@@ -158,10 +170,10 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
  if(!profile)return <Page title="Events"><Copy>Ride days, races, practice nights, clinics and meetups posted by riders.</Copy><NeedsProfile onSaved={setProfile}/></Page>;
  return <Page title="Events">
   <Segments value={scope} items={[{value:'upcoming',label:'Upcoming'},{value:'past',label:'Past'}]} onChange={setScope}/>
-  <Button title={creating?'Cancel':'Create event'} secondary={creating} onPress={()=>setCreating(!creating)}/>
-  {creating&&<Card>
+  {!creating&&<StartRow icon="calendar-outline" title="Post an event" detail="Ride day, race, practice night, clinic or meetup" onPress={()=>setCreating(true)}/>}
+  {creating&&<Card><FormHead title="New event" onCancel={()=>setCreating(false)}/>
    <Field editable={!busy} label="Event name" value={title} onChangeText={setTitle} maxLength={120} autoCapitalize="sentences"/>
-   <Select disabled={busy} label="Type" value={type} options={options(EVENT_TYPE_LABELS)} onChange={setType}/>
+   <Choices disabled={busy} label="Type" value={type} items={options(EVENT_TYPE_LABELS)} onChange={setType}/>
    <Field editable={!busy} label="Starts (YYYY-MM-DD HH:MM)" value={starts} onChangeText={setStarts} keyboardType="numbers-and-punctuation"/>
    <Field editable={!busy} label="Ends (optional)" value={ends} onChangeText={setEnds} keyboardType="numbers-and-punctuation"/>
    <Field editable={!busy} label="Track or location" value={place} onChangeText={setPlace} maxLength={160} autoCapitalize="words"/>
@@ -198,15 +210,15 @@ export function MessagesScreen({startWith,onStarted}:{startWith?:RiderRef;onStar
  if(!profile)return <Page title="Messages"><Copy>Message a rider from a post or an event.</Copy><NeedsProfile onSaved={setProfile}/></Page>;
  if(!active)return <Page title="Messages"><Notice text={notice}/>
   {!threads.length&&<Card><Copy strong>No conversations yet.</Copy><Copy>Use “Message” on a post or event to start one. Messages are private between you and the other rider.</Copy></Card>}
-  {threads.map(t=><Pressable key={t.rider.user_id} accessibilityRole="button" onPress={()=>void open(t.rider)} style={({pressed})=>({opacity:pressed?0.6:1})}><Card><Row><Text style={{color:colors.text,fontSize:17,fontWeight:'700'}}>{riderName(t.rider)}</Text>{t.unread>0&&<Tag tone="good" text={`${t.unread} new`}/>}</Row><Copy>{t.last_message.mine?'You: ':''}{t.last_message.body.slice(0,90)}</Copy><Text style={{color:colors.muted,fontSize:12}}>{when(t.last_message.created_at)}</Text></Card></Pressable>)}
+  <View>{threads.map(t=><Pressable key={t.rider.user_id} accessibilityRole="button" accessibilityLabel={`${riderName(t.rider)}${t.unread?`, ${t.unread} new`:''}`} onPress={()=>void open(t.rider)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:14,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'#2a2f39',opacity:pressed?0.6:1})}><View style={{width:42,height:42,borderRadius:21,backgroundColor:'#1b1f27',alignItems:'center',justifyContent:'center'}}><Text style={{color:colors.text,fontWeight:'700',fontSize:16}}>{riderName(t.rider).replace('@','').slice(0,1).toUpperCase()}</Text></View><View style={{flex:1,gap:3}}><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Text style={{color:colors.text,fontSize:16,fontWeight:t.unread?'800':'600',flex:1}} numberOfLines={1}>{riderName(t.rider)}</Text><Text style={{color:'#7c858e',fontSize:12}}>{when(t.last_message.created_at)}</Text></View><Text numberOfLines={1} style={{color:t.unread?colors.text:'#8f97a5',fontSize:14}}>{t.last_message.mine?'You: ':''}{t.last_message.body}</Text></View>{t.unread>0&&<View style={{width:9,height:9,borderRadius:5,backgroundColor:colors.accent}}/>}</Pressable>)}</View>
  </Page>;
- return <Page title={riderName(active)}>
+ const canSend=!busy&&!!text.trim();
+ const footer=<View style={{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:colors.line,backgroundColor:colors.bg,paddingHorizontal:14,paddingVertical:10}}><View style={{flexDirection:'row',alignItems:'flex-end',gap:8,backgroundColor:'#111318',borderRadius:24,paddingLeft:16,paddingRight:6,paddingVertical:6,borderWidth:StyleSheet.hairlineWidth,borderColor:'#252a33'}}><TextInput accessibilityLabel={'Message '+riderName(active)} editable={!busy} value={text} onChangeText={setText} multiline maxLength={4000} autoCapitalize="sentences" placeholder={'Message '+riderName(active)} placeholderTextColor="#6b7280" style={{flex:1,color:colors.text,fontSize:16,lineHeight:21,maxHeight:120,paddingTop:9,paddingBottom:9}}/><Pressable accessibilityRole="button" accessibilityLabel="Send" accessibilityState={{disabled:!canSend}} disabled={!canSend} onPress={()=>void send()} style={({pressed})=>({width:38,height:38,borderRadius:19,backgroundColor:canSend?colors.primary:'#23272f',alignItems:'center',justifyContent:'center',opacity:pressed?0.7:1})}>{busy?<ActivityIndicator size="small" color={colors.text}/>:<Ionicons name="arrow-up" size={20} color={canSend?'#0a0d12':'#6b7280'}/>}</Pressable></View></View>;
+ return <Page title={riderName(active)} footer={footer}>
   <Link title="‹ All messages" onPress={()=>{setActive(null);void loadThreads();}}/>
   <Notice text={notice}/>
   {!messages.length&&<Copy>No messages yet. Say hello.</Copy>}
-  {messages.map(m=><View key={m.id} style={{alignSelf:m.mine?'flex-end':'flex-start',maxWidth:'88%',backgroundColor:m.mine?'#1b2a44':colors.panel,borderWidth:1,borderColor:colors.line,borderRadius:16,padding:13,gap:4}}><Text selectable style={{color:colors.text,fontSize:16,lineHeight:23}}>{m.body}</Text><Text style={{color:colors.muted,fontSize:11}}>{when(m.created_at)}</Text></View>)}
-  <Field editable={!busy} label={'Message '+riderName(active)} value={text} onChangeText={setText} multiline maxLength={4000} autoCapitalize="sentences"/>
-  <Button disabled={busy||!text.trim()} title={busy?'Sending…':'Send'} onPress={()=>void send()}/>
+  {messages.map(m=><View key={m.id} style={{alignSelf:m.mine?'flex-end':'flex-start',maxWidth:'85%',backgroundColor:m.mine?'#1b2130':'#121418',borderRadius:18,paddingHorizontal:14,paddingVertical:10,gap:3}}><Text selectable style={{color:colors.text,fontSize:16,lineHeight:22}}>{m.body}</Text><Text style={{color:'#7c858e',fontSize:11}}>{when(m.created_at)}</Text></View>)}
   <RiderActions rider={active} target={{type:'profile',id:active.user_id}} onBlocked={()=>{setActive(null);void loadThreads();}}/>
  </Page>;
 }
@@ -231,10 +243,10 @@ export function SetupLogCard({bike,onAsk}:{bike?:Bike;onAsk:(text:string)=>void}
  if(!bike)return null;
  return <View style={{gap:16}}>
   <Card><Copy strong>Setup log</Copy><Copy>One change, how it rode. That’s it.</Copy><Notice text={notice}/>
-   <Button title={adding?'Cancel':'Log a setup'} secondary={adding} onPress={()=>adding?setAdding(false):begin()}/>
+   {adding?<FormHead title="Log a setup" onCancel={()=>setAdding(false)}/>:<StartRow icon="options-outline" title="Log a setup" detail="One change, how it rode" onPress={begin}/>}
    {adding&&<View style={{gap:12}}>
     <Field editable={!busy} label="What did you change?" placeholder="Fork comp 2 softer" value={change} onChangeText={setChange} maxLength={1000} autoCapitalize="sentences"/>
-    <Select disabled={busy} label="How was it?" value={result} options={options(SETUP_RESULT_LABELS)} onChange={v=>setResult(v as SetupResult)}/>
+    <Choices disabled={busy} label="How was it?" value={result} items={options(SETUP_RESULT_LABELS)} onChange={v=>setResult(v as SetupResult)}/>
     <Field editable={!busy} label="Track" placeholder="Dade City" value={track} onChangeText={setTrack} maxLength={120} autoCapitalize="words"/>
     <Field editable={!busy} label="Notes" placeholder="Better in the ruts, still kicks in the whoops" value={notes} onChangeText={setNotes} multiline maxLength={4000} autoCapitalize="sentences"/>
     <Pressable accessibilityRole="button" onPress={()=>setShowMore(!showMore)}><Text style={{color:colors.accent,fontWeight:'700'}}>{showMore?'Hide conditions and settings':'Conditions, date, hours and full settings'}</Text></Pressable>

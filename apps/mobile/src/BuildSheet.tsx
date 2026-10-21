@@ -5,7 +5,7 @@ import {partSystems,readInstalled,writeInstalled,partLabel,MAX_PARTS,type Instal
 import {decodeFamily,familyOf,NOTE_HINT,WORK,providersFor,cleanName,pickerChoices,typesWithCounts,choicesOfType,brandsIn,productsOf,type CatalogPart,type FamilyFile,type Work,type Choice,type PartColor} from '../../../shared/parts-picker';
 import {fuelSystem,fuelSystemLabel} from '../../../shared/fuel-system';
 import {api,apiOrigin} from './api';
-import {Button,Card,Copy,Notice,colors} from './ui';
+import {Button,Card,Copy,Notice,colors,LinkAction} from './ui';
 
 type Value=ReturnType<typeof readInstalled>;
 type Screen={id:'home'}|{id:'type'}|{id:'work';work:Work}|{id:'detail';work:Work;who:string;r?:string}|{id:'brand';type:string|null}|{id:'product';type:string|null;brand:string}|{id:'custom';brand:string;type:string|null}|{id:'color';ip:InstalledPart;colors:PartColor[]};
@@ -49,7 +49,7 @@ export function BuildSheet({bike,onSaved,onAsk}:{bike:Bike;onSaved:(b:Bike)=>voi
     <Text style={[st.state,parts.length?{color:colors.text}:stock?{color:colors.accent}:{color:colors.muted}]}>{parts.length?`Changed · ${parts.length}`:stock?'✓ Stock':'Tap to set'}</Text>
     <Text style={st.chev}>›</Text>
    </Pressable>;})}</View>
-  {value.parts.length>0&&onAsk&&<Button secondary title="Ask BAK about this build →" onPress={()=>onAsk('I\'ve recorded my aftermarket parts in the Garage. Anything I should check or set up differently because of what\'s fitted?')}/>}
+  {value.parts.length>0&&onAsk&&<LinkAction title="Ask BAK about this build" onPress={()=>onAsk('I\'ve recorded my aftermarket parts in the Garage. Anything I should check or set up differently because of what\'s fitted?')}/>}
   {open&&<SystemSheet key={open} system={open} bike={bike} value={value} catalog={catalog??null} busy={busy} close={()=>setOpen(null)} save={next=>void save(next)}/>}
  </Card>;
 }
@@ -173,7 +173,7 @@ function Row({label,small,detail,onPress,selected=false,chev=true,accent=false}:
  </Pressable>;
 }
 const st={
- eyebrow:{color:colors.accent,fontWeight:'800' as const,letterSpacing:2,fontSize:11},
+ eyebrow:{color:'#737b88',fontWeight:'600' as const,letterSpacing:1,fontSize:11.5},
  h2:{color:colors.text,fontSize:22,fontWeight:'800' as const,letterSpacing:-0.5},
  title:{color:colors.text,fontSize:30,fontWeight:'800' as const,letterSpacing:-0.8},
  sub:{color:colors.muted,fontSize:15,marginTop:-6},
