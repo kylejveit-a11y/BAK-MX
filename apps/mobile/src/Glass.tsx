@@ -59,5 +59,5 @@ export function GlassHeader(){return <Glass strong style={[StyleSheet.absoluteFi
 
 /** Small round glass button for the header (Account). */
 export function HeaderButton({label,icon,onPress}:{label:string;icon:IconName;onPress:()=>void}){
- return <Pressable accessibilityRole="button" accessibilityLabel={label} hitSlop={10} onPress={onPress} style={({pressed})=>({marginRight:14,opacity:pressed?0.6:1})}><Glass style={{width:40,height:40,borderRadius:20,alignItems:'center',justifyContent:'center'}}><Icon name={icon} size={24} color="#f6f7f9" bg="#0d0f13"/></Glass></Pressable>;
+ return <Pressable accessibilityRole="button" accessibilityLabel={label} hitSlop={10} onPress={onPress} style={({pressed})=>({marginRight:16,opacity:pressed?0.6:1})}><Glass style={{width:38,height:38,borderRadius:19,alignItems:'center',justifyContent:'center'}}><Icon name={icon} size={22} color="#f6f7f9" bg="#0d0f13"/></Glass></Pressable>;
 }

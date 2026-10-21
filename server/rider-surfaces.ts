@@ -5,6 +5,8 @@ import {checked} from './database.ts';
 import {collectPages} from './pagination.ts';
 import {HttpError,readJson,uuid} from './validation.ts';
 import {objectionable} from './content-rules.ts';
+import {exactBikeScope} from '../shared/bike-identity.ts';
+import type {Bike} from '../shared/types.ts';
 
 /** Profile, community, events, messages, moderation, feedback, setup log and parts catalog.
  * Every query runs with the rider's own token, so row-level security is the authority;
@@ -258,7 +260,7 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
  if(path==='/api/parts/catalog'&&method==='GET'){
   const bike=checked(await db.from('bikes').select('manufacturer,model,model_year,variant,region').eq('id',id('bike_id')).eq('user_id',owner).maybeSingle()) as Row|null;
   if(!bike)throw new HttpError(404,'Bike not found');
-  const catalogs=(checked(await db.from('part_catalogs').select('id,source,source_url,scope_label,complete,assembly_count,part_count').match({manufacturer:bike.manufacturer,model:bike.model,model_year:bike.model_year,variant:bike.variant,region:bike.region}).order('complete',{ascending:false}).order('part_count',{ascending:false}).limit(1))??[]) as Row[];
+  const catalogs=(checked(await db.from('part_catalogs').select('id,source,source_url,scope_label,complete,assembly_count,part_count').match(exactBikeScope(bike as Pick<Bike,'manufacturer'|'model'|'model_year'|'variant'|'region'>)).order('complete',{ascending:false}).order('part_count',{ascending:false}).limit(1))??[]) as Row[];
   if(!catalogs.length)return json({catalog:null,assemblies:[]});
   const assemblies=checked(await db.from('part_assemblies').select('id,name,diagram_url,source_url,position').eq('catalog_id',catalogs[0].id).order('position',{ascending:true}).limit(400));
   return json({catalog:catalogs[0],assemblies:assemblies??[]});

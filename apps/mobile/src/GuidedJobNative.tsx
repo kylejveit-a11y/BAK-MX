@@ -9,7 +9,7 @@ import {procedureCatalog} from '../../../shared/procedure-catalog';
 import {createProcedureRun,validateProcedureRun,recordProcedureStep,followProcedureBranch,procedureStepRecorded,type ProcedureRun,type ReviewedProcedure} from '../../../shared/procedures';
 import {parseGuidedInput,stepSpeech,guidedHelp,riderText,toSpeech,type GuidedCommand} from '../../../shared/guided-job';
 import {readProgress,writeProgress} from './localProgress';
-import {Button,Card,Copy,Field,Icon,LinkAction,Notice,Tile,colors} from './ui';
+import {BlueFace,blueLift,onBlueText,Button,Card,Copy,Field,Icon,LinkAction,Notice,Tile,colors} from './ui';
 import {WheelSheet} from './Wheel';
 
 // Same storage as the Workshop guide screen (procedure-<bike>-<procedure>, newest run first), so progress is shared.
@@ -132,7 +132,7 @@ export function GuidedJobCardNative({job,voice,onSay,busy}:{job:NativeGuidedJob;
   <View style={{flexDirection:'row',gap:10,alignItems:'center',paddingTop:4}}>
    {round('Previous step','chevronLeft',()=>onSay(job.handle({kind:'back'})),run.step_index===0)}
    {round('Repeat this step','refresh',()=>onSay(job.handle({kind:'repeat'})))}
-   <Pressable haptic="press" accessibilityRole="button" accessibilityLabel="Step done, next step" disabled={blocked} onPress={()=>{setOpen(false);onSay(job.handle({kind:'next'}));}} style={({pressed})=>({flex:1,height:52,borderRadius:26,backgroundColor:blocked?'#16191f':colors.primary,flexDirection:'row',alignItems:'center',justifyContent:'center',gap:6,opacity:pressed?0.7:1})}><Text style={{color:blocked?'#6b7380':'#ffffff',fontWeight:'800',fontSize:16}}>Done</Text><Icon name="chevronRight" size={17} color={blocked?'#6b7380':'#ffffff'} weight={2.4}/></Pressable>
+   <Pressable haptic="press" accessibilityRole="button" accessibilityLabel="Step done, next step" disabled={blocked} onPress={()=>{setOpen(false);onSay(job.handle({kind:'next'}));}} style={({pressed})=>[{flex:1,height:52,borderRadius:26,backgroundColor:blocked?'#16191f':'transparent',flexDirection:'row',alignItems:'center',justifyContent:'center',gap:6},!blocked&&blueLift,pressed&&{transform:[{translateY:1}]}]}>{({pressed})=><>{!blocked&&<BlueFace radius={26} pressed={pressed}/>}<Text style={[{color:blocked?'#6b7380':'#ffffff',fontWeight:'800',fontSize:16},!blocked&&onBlueText]}>Done</Text><Icon name="chevronRight" size={17} color={blocked?'#6b7380':'#ffffff'} weight={2.4}/></>}</Pressable>
   </View>
   <Pressable haptic="select" accessibilityRole="switch" accessibilityState={{checked:voice.on}} onPress={toggleVoice} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:12,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39',marginTop:4,opacity:pressed?0.6:1})}>
    <View style={{width:38,height:38,borderRadius:19,alignItems:'center',justifyContent:'center',backgroundColor:voice.on?colors.accent:'transparent',borderWidth:1,borderColor:voice.on?colors.accent:'#343a45'}}><Icon name="mic" size={19} color={voice.on?'#ffffff':colors.text}/></View>

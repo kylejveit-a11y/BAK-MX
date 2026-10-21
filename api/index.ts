@@ -12,12 +12,11 @@ export function originalPath(rawUrl:string,routeMatches?:string|string[]):string
  if(!p&&q.get('a')&&q.get('rest'))p=q.get('a')+'/'+q.get('rest');
  if(!p&&routeMatches){const m=new URLSearchParams(Array.isArray(routeMatches)?routeMatches[0]:routeMatches);if(m.get('a')&&m.get('rest'))p=m.get('a')+'/'+m.get('rest');}
  if(!p)return null;
- p=decodeURIComponent(p).replace(/^\/+/,'').replace(/\+$/,'').replace(/^api\//,'');
+ p=decodeURIComponent(p).replace(/^\/+/,'').replace(/[+\s]+$/,'').replace(/^api\//,'');
  for(const k of ['__p','a','rest'])q.delete(k);
  const query=q.toString();return '/api/'+p+(query?'?'+query:'');
 }
-const FILE='index';
-export default async function handler(req:IncomingMessage,res:ServerResponse){if(req.headers['x-bak-route-probe']==='1'){const h:Record<string,unknown>={};for(const k of ['x-now-route-matches','x-matched-path','x-vercel-original-path','x-forwarded-uri','x-invoke-path','x-invoke-query'])h[k]=req.headers[k];res.setHeader('Content-Type','application/json');res.end(JSON.stringify({file:FILE,url:req.url,h}));return;}
+export default async function handler(req:IncomingMessage,res:ServerResponse){
  const p=originalPath(req.url||'/',req.headers['x-now-route-matches']);if(p)req.url=p;
  await nodeAdapter(req,res,handleRequest);
 }

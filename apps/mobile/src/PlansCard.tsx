@@ -28,9 +28,10 @@ export function PlansCard(){
    <View style={{flexDirection:'row',alignItems:'baseline',gap:10}}><Text style={{color:colors.text,fontSize:24,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.6}}>{TIER_LABEL[tier]}</Text>{usage.access_mode==='beta'&&<Text style={{color:colors.accent,fontSize:12,fontWeight:'800',letterSpacing:1.2}}>BETA</Text>}</View>
    <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>{usage.access_mode==='beta'?`Everyone gets ${usage.daily_limit} questions a day during the beta.`:TIER_BLURB[tier]}</Text>
    <View style={{gap:8,paddingTop:2}}>
-    {usage.unlimited?line('Questions','Unlimited'):usage.daily_limit>0&&<>{line('Today',`${usage.used_today} of ${usage.daily_limit}`)}{meter(usage.used_today,usage.daily_limit)}</>}
-    {(tier==='free'||usage.credits>0)&&line(tier==='free'?'Questions left':'Credits',String(usage.credits))}
-    {usage.trial&&usage.trial.blocks!=null&&line('Free sets left',`${usage.trial.remaining_sets} of ${usage.trial.blocks}`)}
+    {usage.unlimited?line('Questions','Unlimited'):usage.daily_limit>0&&<>{line('Used today',`${usage.used_today} of ${usage.daily_limit}`)}{meter(usage.used_today,usage.daily_limit)}</>}
+    {(tier==='free'||usage.credits>0)&&line(tier==='free'?'Extra questions':'Credits',String(usage.credits))}
+    {usage.trial&&usage.trial.blocks!=null&&line('Extra sets left',`${usage.trial.remaining_sets} of ${usage.trial.blocks}`)}
+    {!usage.unlimited&&usage.daily_limit>0&&usage.credits>0&&<Text style={{color:'#8f97a4',fontSize:12.5,lineHeight:18}}>Extra questions are used only after today’s {usage.daily_limit} run out.</Text>}
    </View>
    {canStartTrialSet(usage)&&<Button disabled={busy} title="Start next free set" onPress={()=>void task(()=>api('/api/usage/next-set','POST',{}),'Your next free set is ready.')}/>}
   </>}
