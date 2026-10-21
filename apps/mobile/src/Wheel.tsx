@@ -1,7 +1,8 @@
 // Full-screen selector: search, a snapping wheel with a lit centre row, and step-by-step drilling (make → model → year).
 // Replaces the stock iOS picker everywhere so choosing things feels like one deliberate tool.
 import React,{useEffect,useMemo,useRef,useState} from 'react';
-import {Animated,FlatList,Modal,Pressable,StyleSheet,Text,TextInput,View,useWindowDimensions,type NativeScrollEvent,type NativeSyntheticEvent} from 'react-native';
+import {Animated,FlatList,Modal,StyleSheet,Text,TextInput,View,useWindowDimensions,type NativeScrollEvent,type NativeSyntheticEvent} from 'react-native';
+import {Pressable} from './Touch';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import * as Haptics from 'expo-haptics';
 import {Icon} from './Icon';
@@ -49,7 +50,7 @@ export function WheelSheet({visible,step,title,options,value,onPick,onClose,back
       const opacity=y.interpolate({inputRange:r,outputRange:[0.12,0.45,1,0.45,0.12],extrapolate:'clamp'});
       const scale=y.interpolate({inputRange:r,outputRange:[0.86,0.93,1,0.93,0.86],extrapolate:'clamp'});
       const on=index===center;
-      return <Pressable accessibilityRole="button" accessibilityState={{selected:item.value===value}} accessibilityLabel={item.label} onPress={()=>choose(index)} style={{height:ROW,justifyContent:'center'}}>
+      return <Pressable accessibilityRole="button" accessibilityState={{selected:item.value===value}} accessibilityLabel={item.label} haptic={false} onPress={()=>choose(index)} style={{height:ROW,justifyContent:'center'}}>
        <Animated.View style={{opacity,transform:[{scale}],alignItems:'center'}}>
         <Text numberOfLines={1} style={{color:C.text,fontSize:on?22:20,fontWeight:on?'700':'500',letterSpacing:-0.3}}>{item.label}</Text>
         {!!item.detail&&on&&<Text numberOfLines={1} style={{color:C.muted,fontSize:12,marginTop:1}}>{item.detail}</Text>}
@@ -60,7 +61,7 @@ export function WheelSheet({visible,step,title,options,value,onPick,onClose,back
    </View>
    <View style={st.bottom}>
     {footer?<Pressable accessibilityRole="button" onPress={footer.onPress} hitSlop={8}><Text style={{color:C.muted,fontWeight:'600',fontSize:14}}>{footer.label}</Text></Pressable>:<View/>}
-    <Pressable accessibilityRole="button" disabled={!list.length} onPress={()=>choose(center)} style={({pressed})=>[st.choose,(pressed||!list.length)&&{opacity:0.6}]}><Text style={{color:'#ffffff',fontWeight:'800',fontSize:15}}>Choose</Text></Pressable>
+    <Pressable haptic={false} accessibilityRole="button" disabled={!list.length} onPress={()=>choose(center)} style={({pressed})=>[st.choose,(pressed||!list.length)&&{opacity:0.6}]}><Text style={{color:'#ffffff',fontWeight:'800',fontSize:15}}>Choose</Text></Pressable>
    </View>
   </View>
  </Modal>;

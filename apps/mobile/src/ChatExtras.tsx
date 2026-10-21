@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
-import {View,Text,Pressable,TextInput,Switch} from 'react-native';
+import {View,Text,TextInput,Switch} from 'react-native';
+import {Pressable} from './Touch';
 import type {Bike} from '../../../shared/types';
 import type {SetupLog,SetupResult} from '../../../shared/rider-types';
 import {complaintGroups,complaintLabel,deciderAnswers,throttleAnswers,whereAnswers,trackAnswers,triageSteps,composeTriage,type TriageAnswers} from '../../../shared/triage';
@@ -10,7 +11,7 @@ import {Button,Card,Copy,Icon,Notice,colors} from './ui';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
 function Chip({label,on=false,quiet=false,center=false,onPress}:{label:string;on?:boolean;quiet?:boolean;center?:boolean;onPress:()=>void}){
- return <Pressable accessibilityRole="button" accessibilityState={{selected:on}} onPress={onPress} style={({pressed})=>[ch.chip,on&&ch.on,quiet&&{borderColor:'transparent',paddingHorizontal:6},center&&{paddingHorizontal:6,alignItems:'center'},pressed&&{opacity:0.6}]}><Text numberOfLines={center?1:undefined} adjustsFontSizeToFit={center} style={[ch.text,on&&{color:'#ffffff',fontWeight:'700'},quiet&&{color:colors.accent,fontWeight:'600'},center&&{textAlign:'center'}]}>{label}</Text></Pressable>;
+ return <Pressable haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={onPress} style={({pressed})=>[ch.chip,on&&ch.on,quiet&&{borderColor:'transparent',paddingHorizontal:6},center&&{paddingHorizontal:6,alignItems:'center'},pressed&&{opacity:0.6}]}><Text numberOfLines={center?1:undefined} adjustsFontSizeToFit={center} style={[ch.text,on&&{color:'#ffffff',fontWeight:'700'},quiet&&{color:colors.accent,fontWeight:'600'},center&&{textAlign:'center'}]}>{label}</Text></Pressable>;
 }
 const ch={chip:{paddingVertical:10,paddingHorizontal:15,borderRadius:20,borderWidth:1,borderColor:'#343a45',backgroundColor:'transparent'},on:{backgroundColor:colors.primary,borderColor:colors.primary},text:{color:colors.text,fontSize:15}};
 const Wrap=({children}:{children:React.ReactNode})=><View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{children}</View>;

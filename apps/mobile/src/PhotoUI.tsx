@@ -1,6 +1,7 @@
 // Photo pieces used across the app: attached thumbnails, a post carousel, a Garage grid and a full-screen viewer.
 import React,{useState} from 'react';
-import {ActivityIndicator,Image,Modal,Pressable,ScrollView,StyleSheet,Text,View,useWindowDimensions} from 'react-native';
+import {ActivityIndicator,Image,Modal,ScrollView,StyleSheet,Text,View,useWindowDimensions} from 'react-native';
+import {Pressable} from './Touch';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {Icon} from './Icon';
 import type {Photo} from './photos';

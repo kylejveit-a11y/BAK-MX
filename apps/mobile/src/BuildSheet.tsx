@@ -1,5 +1,6 @@
 import React,{useEffect,useMemo,useState} from 'react';
-import {Modal,View,Text,Pressable,ScrollView,TextInput,ActivityIndicator,KeyboardAvoidingView,Platform} from 'react-native';
+import {Modal,View,Text,ScrollView,TextInput,ActivityIndicator,KeyboardAvoidingView,Platform} from 'react-native';
+import {Pressable} from './Touch';
 import type {Bike} from '../../../shared/types';
 import {partSystems,readInstalled,writeInstalled,partLabel,MAX_PARTS,type InstalledPart,type PartSystem} from '../../../shared/installed-parts';
 import {decodeFamily,familyOf,NOTE_HINT,WORK,providersFor,cleanName,pickerChoices,typesWithCounts,choicesOfType,brandsIn,productsOf,type CatalogPart,type FamilyFile,type Work,type Choice,type PartColor} from '../../../shared/parts-picker';

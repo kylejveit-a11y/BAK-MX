@@ -1,5 +1,6 @@
 import React,{useCallback,useEffect,useRef,useState} from 'react';
-import {View,Text,Pressable,Linking,StyleSheet} from 'react-native';
+import {View,Text,Linking,StyleSheet} from 'react-native';
+import {Pressable} from './Touch';
 import * as Speech from 'expo-speech';
 import {activateKeepAwakeAsync,deactivateKeepAwake} from 'expo-keep-awake';
 import {ExpoSpeechRecognitionModule,useSpeechRecognitionEvent} from 'expo-speech-recognition';
@@ -131,9 +132,9 @@ export function GuidedJobCardNative({job,voice,onSay,busy}:{job:NativeGuidedJob;
   <View style={{flexDirection:'row',gap:10,alignItems:'center',paddingTop:4}}>
    {round('Previous step','chevronLeft',()=>onSay(job.handle({kind:'back'})),run.step_index===0)}
    {round('Repeat this step','refresh',()=>onSay(job.handle({kind:'repeat'})))}
-   <Pressable accessibilityRole="button" accessibilityLabel="Step done, next step" disabled={blocked} onPress={()=>{setOpen(false);onSay(job.handle({kind:'next'}));}} style={({pressed})=>({flex:1,height:52,borderRadius:26,backgroundColor:blocked?'#16191f':colors.primary,flexDirection:'row',alignItems:'center',justifyContent:'center',gap:6,opacity:pressed?0.7:1})}><Text style={{color:blocked?'#6b7380':'#ffffff',fontWeight:'800',fontSize:16}}>Done</Text><Icon name="chevronRight" size={17} color={blocked?'#6b7380':'#ffffff'} weight={2.4}/></Pressable>
+   <Pressable haptic="press" accessibilityRole="button" accessibilityLabel="Step done, next step" disabled={blocked} onPress={()=>{setOpen(false);onSay(job.handle({kind:'next'}));}} style={({pressed})=>({flex:1,height:52,borderRadius:26,backgroundColor:blocked?'#16191f':colors.primary,flexDirection:'row',alignItems:'center',justifyContent:'center',gap:6,opacity:pressed?0.7:1})}><Text style={{color:blocked?'#6b7380':'#ffffff',fontWeight:'800',fontSize:16}}>Done</Text><Icon name="chevronRight" size={17} color={blocked?'#6b7380':'#ffffff'} weight={2.4}/></Pressable>
   </View>
-  <Pressable accessibilityRole="switch" accessibilityState={{checked:voice.on}} onPress={toggleVoice} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:12,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39',marginTop:4,opacity:pressed?0.6:1})}>
+  <Pressable haptic="select" accessibilityRole="switch" accessibilityState={{checked:voice.on}} onPress={toggleVoice} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:12,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39',marginTop:4,opacity:pressed?0.6:1})}>
    <View style={{width:38,height:38,borderRadius:19,alignItems:'center',justifyContent:'center',backgroundColor:voice.on?colors.accent:'transparent',borderWidth:1,borderColor:voice.on?colors.accent:'#343a45'}}><Icon name="mic" size={19} color={voice.on?'#ffffff':colors.text}/></View>
    <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{voice.on?'Hands-free is on':'Hands-free'}</Text><Text style={{color:'#9aa2af',fontSize:13,lineHeight:18}}>{voice.on?(voice.speaking?'Speaking…':busy?'Thinking…':voice.heard?`Heard: “${voice.heard}”`:'Say “next”, “repeat”, or “Hey BAK” and your question.'):'Phone in the toolbox, talk to BAK'}</Text></View>
    {voice.on&&voice.speaking?<Pressable accessibilityRole="button" hitSlop={8} onPress={voice.hush}><Text style={{color:colors.accent,fontWeight:'700'}}>Quiet</Text></Pressable>:<Text style={{color:voice.on?colors.accent:'#9aa2af',fontWeight:'700'}}>{voice.on?'Stop':'Turn on'}</Text>}

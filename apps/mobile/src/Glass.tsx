@@ -1,7 +1,8 @@
 // Floating chrome: the header, tab bar and message boxes hover over the content as dark glass.
 // iOS 26+ uses Apple's Liquid Glass; older iOS uses a system blur; web/Android get a dark translucent fill.
 import React,{useEffect,useState} from 'react';
-import {Keyboard,Platform,Pressable,StyleSheet,Text,View,type StyleProp,type ViewStyle} from 'react-native';
+import {Keyboard,Platform,StyleSheet,Text,View,type StyleProp,type ViewStyle} from 'react-native';
+import {Pressable} from './Touch';
 import {BlurView} from 'expo-blur';
 import {GlassView,isLiquidGlassAvailable} from 'expo-glass-effect';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
@@ -44,7 +45,7 @@ export function FloatingTabBar({state,navigation}:BottomTabBarProps){
  return <View pointerEvents="box-none" style={{position:'absolute',left:0,right:0,bottom:tabBottom(insets.bottom),alignItems:'center'}}>
   <View style={{width:'92%',maxWidth:460,borderRadius:TAB_H/2,shadowColor:'#000',shadowOpacity:0.5,shadowRadius:18,shadowOffset:{width:0,height:8}}}><Glass strong style={{height:TAB_H,borderRadius:TAB_H/2,flexDirection:'row',alignItems:'center',paddingHorizontal:6}}>
    {routes.map(r=>{const on=r.name===current;
-    return <Pressable key={r.key} accessibilityRole="tab" accessibilityState={{selected:on}} accessibilityLabel={labels[r.name]??r.name} onPress={()=>{const e=navigation.emit({type:'tabPress',target:r.key,canPreventDefault:true});if(!on&&!e.defaultPrevented)navigation.navigate(r.name as never);}} style={({pressed})=>({flex:1,alignItems:'center',justifyContent:'center',height:TAB_H,opacity:pressed?0.6:1})}>
+    return <Pressable key={r.key} haptic="select" accessibilityRole="tab" accessibilityState={{selected:on}} accessibilityLabel={labels[r.name]??r.name} onPress={()=>{const e=navigation.emit({type:'tabPress',target:r.key,canPreventDefault:true});if(!on&&!e.defaultPrevented)navigation.navigate(r.name as never);}} style={({pressed})=>({flex:1,alignItems:'center',justifyContent:'center',height:TAB_H,opacity:pressed?0.6:1})}>
      <View style={{height:3,width:16,marginBottom:5,borderRadius:1,backgroundColor:on?ACCENT:'transparent',transform:[{skewX:'-24deg'}]}}/>
      <Icon name={icons[r.name]} size={24} color={on?'#f6f7f9':'#8b93a1'} bg="#0d0f13" weight={on?1.9:1.6}/>
      <Text style={{color:on?'#f6f7f9':'#8b93a1',fontSize:10.5,fontWeight:on?'800':'600',marginTop:2,letterSpacing:0.2}}>{labels[r.name]??r.name}</Text>

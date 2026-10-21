@@ -1,5 +1,7 @@
 import React,{useCallback,useContext,useEffect,useRef,useState} from 'react';
-import {ActivityIndicator,Alert,KeyboardAvoidingView,Linking,Modal,Platform,Pressable,ScrollView,Share,StyleSheet,Text,TextInput,View} from 'react-native';
+import {ActivityIndicator,Alert,KeyboardAvoidingView,Linking,Modal,Platform,ScrollView,Share,StyleSheet,Text,TextInput,View} from 'react-native';
+import {Pressable} from './Touch';
+import {success} from './haptics';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import * as Haptics from 'expo-haptics';
 import {useFocusEffect} from '@react-navigation/native';
@@ -29,12 +31,12 @@ function Link({title,onPress,danger=false}:{title:string;onPress:()=>void;danger
 }
 function Row({children}:{children:React.ReactNode}){return <View style={{flexDirection:'row',flexWrap:'wrap',gap:18,alignItems:'center'}}>{children}</View>;}
 function Segments<T extends string>({value,items,onChange}:{value:T;items:{value:T;label:string}[];onChange:(v:T)=>void}){
- return <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap:8}} style={{flexGrow:0}}>{items.map(i=><Pressable key={i.value||'all'} accessibilityRole="button" accessibilityState={{selected:value===i.value}} onPress={()=>onChange(i.value)} style={{paddingVertical:8,marginRight:10,borderBottomWidth:2,borderBottomColor:value===i.value?colors.text:'transparent'}}><Text style={{color:value===i.value?colors.text:colors.muted,fontSize:14,fontWeight:'600'}}>{i.label}</Text></Pressable>)}</ScrollView>;
+ return <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap:8}} style={{flexGrow:0}}>{items.map(i=><Pressable key={i.value||'all'} haptic="select" accessibilityRole="button" accessibilityState={{selected:value===i.value}} onPress={()=>onChange(i.value)} style={{paddingVertical:8,marginRight:10,borderBottomWidth:2,borderBottomColor:value===i.value?colors.text:'transparent'}}><Text style={{color:value===i.value?colors.text:colors.muted,fontSize:14,fontWeight:'600'}}>{i.label}</Text></Pressable>)}</ScrollView>;
 }
 
 /** Single choice as a row of pills: every option visible, one tap. */
 function Choices<T extends string>({label,value,items,onChange,disabled=false}:{label:string;value:T;items:{value:T;label:string}[];onChange:(v:T)=>void;disabled?:boolean}){
- return <View style={{gap:8}}><Text style={{color:'#9aa2af',fontSize:12.5,fontWeight:'600'}}>{label}</Text><View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{items.map(i=>{const on=i.value===value;return <Pressable key={i.value} accessibilityRole="button" accessibilityState={{selected:on,disabled}} disabled={disabled} onPress={()=>onChange(i.value)} style={({pressed})=>({paddingHorizontal:14,paddingVertical:9,borderRadius:18,backgroundColor:on?colors.primary:'transparent',borderWidth:1,borderColor:on?colors.primary:'#343a45',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':colors.text,fontSize:14,fontWeight:on?'700':'500'}}>{i.label}</Text></Pressable>;})}</View></View>;
+ return <View style={{gap:8}}><Text style={{color:'#9aa2af',fontSize:12.5,fontWeight:'600'}}>{label}</Text><View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{items.map(i=>{const on=i.value===value;return <Pressable key={i.value} haptic="select" accessibilityRole="button" accessibilityState={{selected:on,disabled}} disabled={disabled} onPress={()=>onChange(i.value)} style={({pressed})=>({paddingHorizontal:14,paddingVertical:9,borderRadius:18,backgroundColor:on?colors.primary:'transparent',borderWidth:1,borderColor:on?colors.primary:'#343a45',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':colors.text,fontSize:14,fontWeight:on?'700':'500'}}>{i.label}</Text></Pressable>;})}</View></View>;
 }
 /** Tap-to-start row: an open line with a plus, not a box. */
 function StartRow({icon,title,detail,onPress}:{icon:IconName;title:string;detail?:string;onPress:()=>void}){return <TileGrid><Tile icon={icon} title={title} detail={detail} trailing="plus" onPress={onPress}/></TileGrid>;}
@@ -130,7 +132,7 @@ export function CommunityScreen({bike,onMessage}:{bike?:Bike;onMessage:(r:RiderR
     <View style={{flex:1,borderWidth:1,borderColor:'#2f3540',borderRadius:22,paddingHorizontal:16,paddingVertical:11}}><Text style={{color:'#9aa2af',fontSize:15}}>What’s on the bike?</Text></View>
    </Pressable>
    <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap:8}} style={{flexGrow:0,marginHorizontal:-20}}>
-    <View style={{width:12}}/>{FILTERS.map(f=>{const on=filter===f.value;return <Pressable key={f.label} accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setFilter(f.value)} style={({pressed})=>({paddingHorizontal:13,paddingVertical:6,borderRadius:16,backgroundColor:on?colors.primary:'transparent',borderWidth:1,borderColor:on?colors.primary:'#2f3540',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:13,fontWeight:on?'700':'500'}}>{f.label}</Text></Pressable>;})}<View style={{width:12}}/>
+    <View style={{width:12}}/>{FILTERS.map(f=>{const on=filter===f.value;return <Pressable key={f.label} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setFilter(f.value)} style={({pressed})=>({paddingHorizontal:13,paddingVertical:6,borderRadius:16,backgroundColor:on?colors.primary:'transparent',borderWidth:1,borderColor:on?colors.primary:'#2f3540',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:13,fontWeight:on?'700':'500'}}>{f.label}</Text></Pressable>;})}<View style={{width:12}}/>
    </ScrollView>
   </View>
   <Notice text={notice}/>
@@ -161,7 +163,7 @@ function PostView({p,open,onOpen,onLike,onMore,onRider,onCount,report}:{p:Post;o
   {!!p.photos?.length&&<PostPhotos photos={p.photos}/>}
   {report}
   <View style={{flexDirection:'row',alignItems:'center',gap:22,paddingHorizontal:20}}>
-   <Pressable accessibilityRole="button" accessibilityLabel={p.liked?'Unlike':'Like'} accessibilityState={{selected:p.liked}} hitSlop={8} onPress={onLike} style={{flexDirection:'row',alignItems:'center',gap:6}}><Icon name={p.liked?'heartOn':'heart'} size={23} color={p.liked?'#e8607a':colors.text}/>{p.like_count>0&&<Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>{p.like_count}</Text>}</Pressable>
+   <Pressable accessibilityRole="button" haptic={false} accessibilityLabel={p.liked?'Unlike':'Like'} accessibilityState={{selected:p.liked}} hitSlop={8} onPress={onLike} style={{flexDirection:'row',alignItems:'center',gap:6}}><Icon name={p.liked?'heartOn':'heart'} size={23} color={p.liked?'#e8607a':colors.text}/>{p.like_count>0&&<Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>{p.like_count}</Text>}</Pressable>
    <Pressable accessibilityRole="button" accessibilityLabel="Comments" hitSlop={8} onPress={onOpen} style={{flexDirection:'row',alignItems:'center',gap:6}}><Icon name="comment" size={22} color={colors.text}/>{p.comment_count>0&&<Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>{p.comment_count}</Text>}</Pressable>
    <Pressable accessibilityRole="button" accessibilityLabel="Share" hitSlop={8} onPress={()=>void Share.share({message:`${riderName(p.author)} on BAK MX:\n\n${p.body}`}).catch(()=>{})}><Icon name="share" size={22} color={colors.text}/></Pressable>
   </View>
@@ -174,7 +176,7 @@ function ComposeSheet({visible,profile,bike,onClose,onPosted}:{visible:boolean;p
  const insets=useSafeAreaInsets();
  const [category,setCategory]=useState<PostCategory>('setup_question'),[body,setBody]=useState(''),[tagBike,setTagBike]=useState(true),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[photos,setPhotos]=useState<Photo[]>([]),[uploading,setUploading]=useState(0);
  const ready=!!body.trim()&&!busy&&!uploading;
- async function publish(){if(!ready)return;setBusy(true);setNotice('');try{await api('/api/posts','POST',{category,body,bike_label:tagBike&&bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:'',photo_ids:photos.map(p=>p.id)});setBody('');setPhotos([]);onPosted();}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
+ async function publish(){if(!ready)return;setBusy(true);setNotice('');try{await api('/api/posts','POST',{category,body,bike_label:tagBike&&bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:'',photo_ids:photos.map(p=>p.id)});setBody('');setPhotos([]);success();onPosted();}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
  async function add(source:'camera'|'library'){
   const room=4-photos.length;if(room<1)return;
   try{const picked=await pickImages(source,room);if(!picked.length)return;setUploading(picked.length);
@@ -195,10 +197,10 @@ function ComposeSheet({visible,profile,bike,onClose,onPosted}:{visible:boolean;p
      <Avatar name={riderName(profile)} uri={profile.avatar_url} size={44}/>
      <View style={{flex:1,gap:6}}>
       <Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{riderName(profile)}</Text>
-      {bike&&<Pressable accessibilityRole="checkbox" accessibilityState={{checked:tagBike}} onPress={()=>setTagBike(!tagBike)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:6,alignSelf:'flex-start',borderWidth:1,borderColor:tagBike?colors.accent:'#2f3540',borderRadius:14,paddingHorizontal:10,paddingVertical:4,opacity:pressed?0.7:1})}><Icon name="moto" size={16} color={tagBike?colors.accent:'#9aa2af'}/><Text style={{color:tagBike?colors.accent:'#9aa2af',fontSize:12.5,fontWeight:'700'}}>{tagBike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:'Tag my bike'}</Text></Pressable>}
+      {bike&&<Pressable haptic="select" accessibilityRole="checkbox" accessibilityState={{checked:tagBike}} onPress={()=>setTagBike(!tagBike)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:6,alignSelf:'flex-start',borderWidth:1,borderColor:tagBike?colors.accent:'#2f3540',borderRadius:14,paddingHorizontal:10,paddingVertical:4,opacity:pressed?0.7:1})}><Icon name="moto" size={16} color={tagBike?colors.accent:'#9aa2af'}/><Text style={{color:tagBike?colors.accent:'#9aa2af',fontSize:12.5,fontWeight:'700'}}>{tagBike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:'Tag my bike'}</Text></Pressable>}
      </View>
     </View>
-    <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{options(POST_CATEGORY_LABELS).map(o=>{const on=category===o.value;return <Pressable key={o.value} accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setCategory(o.value)} style={({pressed})=>({paddingHorizontal:13,paddingVertical:6,borderRadius:16,backgroundColor:on?colors.primary:'transparent',borderWidth:1,borderColor:on?colors.primary:'#2f3540',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:13.5,fontWeight:on?'700':'500'}}>{o.label}</Text></Pressable>;})}</View>
+    <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{options(POST_CATEGORY_LABELS).map(o=>{const on=category===o.value;return <Pressable key={o.value} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setCategory(o.value)} style={({pressed})=>({paddingHorizontal:13,paddingVertical:6,borderRadius:16,backgroundColor:on?colors.primary:'transparent',borderWidth:1,borderColor:on?colors.primary:'#2f3540',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:13.5,fontWeight:on?'700':'500'}}>{o.label}</Text></Pressable>;})}</View>
     <TextInput autoFocus multiline value={body} onChangeText={setBody} maxLength={4000} autoCapitalize="sentences" placeholder={hint} placeholderTextColor="#6b7380" selectionColor={colors.accent} accessibilityLabel="Post" style={{color:colors.text,fontSize:19,lineHeight:27,minHeight:140,textAlignVertical:'top',outlineStyle:'none'} as never}/>
     <AttachedPhotos photos={photos} uploading={uploading} size={104} onRemove={id=>{setPhotos(old=>old.filter(p=>p.id!==id));void api('/api/photos?id='+id,'DELETE').catch(()=>{});}}/>
     <Notice text={notice}/>
@@ -245,7 +247,7 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
    if(!title.trim()||!place.trim())throw new Error('Enter the event name and the track or location.');
    if(!start||(ends.trim()&&!end))throw new Error('Pick a start date and time.');
    await api('/api/events','POST',{title,event_type:type,starts_at:start.toISOString(),ends_at:end?end.toISOString():null,location_name:place,description:details});
-   setTitle('');setPlace('');setDetails('');setEnds('');setCreating(false);setScope('upcoming');await load();
+   success();setTitle('');setPlace('');setDetails('');setEnds('');setCreating(false);setScope('upcoming');await load();
   }catch(e){setNotice(errorText(e));}finally{setBusy(false);}
  }
  async function rsvp(ev:RideEvent,status:'going'|'interested'){try{if(ev.my_rsvp===status)await api('/api/rsvps?event_id='+ev.id,'DELETE');else await api('/api/rsvps','PUT',{event_id:ev.id,status});await load();}catch(e){setNotice(errorText(e));}}
@@ -319,7 +321,7 @@ export function SetupLogCard({bike,onAsk}:{bike?:Bike;onAsk:(text:string)=>void}
    if(!/^\d{4}-\d{2}-\d{2}$/.test(date)||!Number.isFinite(Date.parse(date+'T12:00:00')))throw new Error('Pick the date you rode.');
    const h=hours.trim()?Number(hours):null;if(h!==null&&(!Number.isFinite(h)||h<0))throw new Error('Hours must be zero or greater.');
    await api('/api/setup-logs','POST',{bike_id:bike.id,recorded_at:new Date(date+'T12:00:00').toISOString(),track,conditions,engine_hours:h,settings:Object.fromEntries(SETUP_FIELDS.map(f=>[f.key,settings[f.key]?.trim()||null])),change_made:change,result,notes});
-   setAdding(false);await load();
+   success();setAdding(false);await load();
   }catch(e){setNotice(errorText(e));}finally{setBusy(false);}
  }
  const describe=(log:SetupLog)=>SETUP_FIELDS.filter(f=>log.settings[f.key]!=null&&log.settings[f.key]!=='').map(f=>`${f.label}: ${log.settings[f.key]}`).join('; ');

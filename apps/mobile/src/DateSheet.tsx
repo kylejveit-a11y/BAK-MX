@@ -1,7 +1,8 @@
 // Date and time selector: month / day / year wheels (plus hour / minute / AM-PM for events), quick picks for the days
 // riders actually use, and a plain-English readout. Values stay "YYYY-MM-DD" or "YYYY-MM-DD HH:MM" for the API.
 import React,{useEffect,useMemo,useRef,useState} from 'react';
-import {FlatList,Modal,Pressable,StyleSheet,Text,View,type NativeScrollEvent,type NativeSyntheticEvent} from 'react-native';
+import {FlatList,Modal,StyleSheet,Text,View,type NativeScrollEvent,type NativeSyntheticEvent} from 'react-native';
+import {Pressable} from './Touch';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import * as Haptics from 'expo-haptics';
 import {Icon} from './Icon';
@@ -26,7 +27,7 @@ function Column({items,index,onIndex,width}:{items:string[];index:number;onIndex
  const onScroll=(e:NativeSyntheticEvent<NativeScrollEvent>)=>{const i=Math.max(0,Math.min(items.length-1,Math.round(e.nativeEvent.contentOffset.y/ROW)));if(i!==cur.current){cur.current=i;void Haptics.selectionAsync().catch(()=>{});onIndex(i);}};
  return <FlatList ref={ref} data={items} style={{width,height:ROW*VISIBLE,flexGrow:0}} keyExtractor={(x,i)=>x+i} showsVerticalScrollIndicator={false} snapToInterval={ROW} decelerationRate="fast" onScroll={onScroll} scrollEventThrottle={16}
   contentContainerStyle={{paddingVertical:ROW*(VISIBLE-1)/2}} getItemLayout={(_,i)=>({length:ROW,offset:ROW*i,index:i})} initialNumToRender={40}
-  renderItem={({item,index:i})=>{const dist=Math.abs(i-index);return <Pressable onPress={()=>ref.current?.scrollToOffset({offset:i*ROW,animated:true})} style={{height:ROW,alignItems:'center',justifyContent:'center'}}><Text style={{color:C.text,opacity:dist===0?1:dist===1?0.42:0.16,fontSize:dist===0?21:19,fontWeight:dist===0?'700':'500'}}>{item}</Text></Pressable>;}}/>;
+  renderItem={({item,index:i})=>{const dist=Math.abs(i-index);return <Pressable haptic={false} onPress={()=>ref.current?.scrollToOffset({offset:i*ROW,animated:true})} style={{height:ROW,alignItems:'center',justifyContent:'center'}}><Text style={{color:C.text,opacity:dist===0?1:dist===1?0.42:0.16,fontSize:dist===0?21:19,fontWeight:dist===0?'700':'500'}}>{item}</Text></Pressable>;}}/>;
 }
 
 export function DateSheet({visible,title,value,time=false,years,quick,onDone,onClose,onClear}:{visible:boolean;title:string;value:string;time?:boolean;years:[number,number];quick?:{label:string;date:Date}[];onDone:(v:string)=>void;onClose:()=>void;onClear?:()=>void}){
@@ -47,7 +48,7 @@ export function DateSheet({visible,title,value,time=false,years,quick,onDone,onC
    <View style={st.top}><Text style={st.step}>{time?'DATE AND TIME':'DATE'}</Text><Pressable accessibilityRole="button" accessibilityLabel="Close" hitSlop={12} onPress={onClose} style={({pressed})=>[st.close,pressed&&{opacity:0.6}]}><Icon name="close" size={18} color={C.text} weight={2}/></Pressable></View>
    <Text style={st.title}>{title}</Text>
    <Text style={st.readout} accessibilityLiveRegion="polite">{readout}</Text>
-   {!!quick?.length&&<View style={{flexDirection:'row',flexWrap:'wrap',gap:8,marginTop:14}}>{quick.map(q=>{const on=q.date.getFullYear()===p.y&&q.date.getMonth()===p.m&&q.date.getDate()===p.d;return <Pressable key={q.label} accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>{void Haptics.selectionAsync().catch(()=>{});set({y:q.date.getFullYear(),m:q.date.getMonth(),d:q.date.getDate()});}} style={({pressed})=>({paddingHorizontal:14,paddingVertical:8,borderRadius:18,borderWidth:1,borderColor:on?C.primary:'#343a45',backgroundColor:on?C.primary:'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':C.text,fontWeight:on?'700':'500',fontSize:14}}>{q.label}</Text></Pressable>;})}</View>}
+   {!!quick?.length&&<View style={{flexDirection:'row',flexWrap:'wrap',gap:8,marginTop:14}}>{quick.map(q=>{const on=q.date.getFullYear()===p.y&&q.date.getMonth()===p.m&&q.date.getDate()===p.d;return <Pressable key={q.label} haptic={false} accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>{void Haptics.selectionAsync().catch(()=>{});set({y:q.date.getFullYear(),m:q.date.getMonth(),d:q.date.getDate()});}} style={({pressed})=>({paddingHorizontal:14,paddingVertical:8,borderRadius:18,borderWidth:1,borderColor:on?C.primary:'#343a45',backgroundColor:on?C.primary:'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':C.text,fontWeight:on?'700':'500',fontSize:14}}>{q.label}</Text></Pressable>;})}</View>}
    <View style={{flex:1,justifyContent:'center',gap:26}}>
     <Wheels>
      <Column width="34%" items={MONTHS} index={p.m} onIndex={i=>set({m:i})}/>
@@ -62,7 +63,7 @@ export function DateSheet({visible,title,value,time=false,years,quick,onDone,onC
    </View>
    <View style={st.bottom}>
     {onClear?<Pressable accessibilityRole="button" hitSlop={8} onPress={onClear}><Text style={{color:C.muted,fontWeight:'600',fontSize:14}}>Clear</Text></Pressable>:<View/>}
-    <Pressable accessibilityRole="button" onPress={()=>{void Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(()=>{});onDone(toValue(p,time));}} style={({pressed})=>[st.choose,pressed&&{opacity:0.7}]}><Text style={{color:'#ffffff',fontWeight:'800',fontSize:15}}>Set</Text></Pressable>
+    <Pressable haptic={false} accessibilityRole="button" onPress={()=>{void Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(()=>{});onDone(toValue(p,time));}} style={({pressed})=>[st.choose,pressed&&{opacity:0.7}]}><Text style={{color:'#ffffff',fontWeight:'800',fontSize:15}}>Set</Text></Pressable>
    </View>
   </View>
  </Modal>;

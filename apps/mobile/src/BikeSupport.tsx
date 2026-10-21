@@ -1,5 +1,6 @@
 import React,{useMemo,useState} from 'react';
-import {View,Text,Pressable,TextInput,StyleSheet} from 'react-native';
+import {View,Text,TextInput,StyleSheet} from 'react-native';
+import {Pressable} from './Touch';
 import {Icon} from './Icon';
 import {BikeWheel} from './Wheel';
 import {level,supportAreas,type SupportData,type SupportRow} from '../../../shared/bike-support';
