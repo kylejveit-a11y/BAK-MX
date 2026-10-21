@@ -43,7 +43,7 @@ test('published parts lists decode to roster bikes and carry no internal paths',
  const dir=new URL('../public/parts-catalog/',import.meta.url);
  for(const f of readdirSync(dir)){
   const text=readFileSync(new URL(f,dir),'utf8'),c=JSON.parse(text);
-  assert.equal(c.v,2);assert.deepEqual(c.systems,partSystemKeys,f);
+  assert.equal(c.v,2);assert.deepEqual([...c.systems].sort(),[...partSystemKeys].sort(),f);
   assert.doesNotMatch(text,/docs\/research|\.json"|scripts\//,f);
   for(const [key,deltas] of Object.entries(c.bikes as Record<string,number[]>)){
    const [make,model,year]=key.split('|');assert.ok(isRosterBike(make,model,Number(year)),key);
@@ -135,4 +135,17 @@ test('part colours: catalog colours reach the picker and the rider\'s choice is 
  assert.equal(pickerChoices(parts,'controls' as never,'injected')[0].colors?.length,2);
  const {parts:stored}=readInstalled({installed_parts:[{s:'controls',b:'Renthal',n:'Fatbar',k:'  Black  '},{s:'controls',b:'ODI',n:'Grips',k:''}]});
  assert.equal(stored[0].k,'Black');assert.equal(stored[1].k,undefined);assert.equal(partLabel(stored[0]),'Renthal Fatbar (Black)');
+});
+
+test('build sheet order: systems front to back, parts in reading order, obvious misfiles moved',async()=>{
+ const {readInstalled,partSystemKeys}=await import('../shared/installed-parts.ts');
+ assert.deepEqual(partSystemKeys.slice(0,3),['suspension','chassis','engine']);
+ const {parts}=readInstalled({installed_parts:[
+  {s:'gearing',b:'Renthal',n:'R1 520 Works Chain'},{s:'gearing',b:'Renthal',n:'Twinring Rear Sprocket'},{s:'gearing',b:'Renthal',n:'Ultralight Front Sprocket'},
+  {s:'suspension',b:'Works Connection',n:'Pro Launch Start Device'},{s:'suspension',b:'REP',n:'New Gen Linkage'},{s:'suspension',b:'WP',n:'XACT PRO 6500 Fork Cartridge Kit'},
+  {s:'controls',b:'ODI',n:'Half Waffle Grips'},{s:'controls',b:'Pro Taper',n:'ACF Handlebars'},{s:'exhaust',b:'FMF',n:'4.1 RCT Full System'}]});
+ assert.deepEqual(parts.map(p=>p.s+':'+p.n),['suspension:XACT PRO 6500 Fork Cartridge Kit','suspension:New Gen Linkage','chassis:Pro Launch Start Device','exhaust:4.1 RCT Full System',
+  'gearing:Ultralight Front Sprocket','gearing:Twinring Rear Sprocket','gearing:R1 520 Works Chain','controls:ACF Handlebars','controls:Half Waffle Grips']);
+ // a rider's own pick that the names don't settle stays where they put it
+ assert.equal(readInstalled({installed_parts:[{s:'engine',b:'Acme',n:'Widget'}]}).parts[0].s,'engine');
 });

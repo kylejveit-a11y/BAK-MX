@@ -2,17 +2,18 @@
  *  installed_parts: the parts the rider picked or typed. stock_systems: systems the rider confirmed are stock.
  *  A system in neither list is unknown: BAK must not assume it is stock. */
 export const partSystems=[
- {key:'exhaust',label:'Exhaust',hint:'Head pipe, muffler, insert'},
+ // Ordered the way a rider walks the bike: what it handles on, the motor front to back, what stops and rolls it, then what they touch and what protects it.
  {key:'suspension',label:'Suspension',hint:'Fork, shock, springs, linkage, revalve'},
+ {key:'chassis',label:'Chassis',hint:'Triple clamps, start device, engine mounts, chain guide'},
  {key:'engine',label:'Engine & cooling',hint:'Piston, cams, head work, radiators'},
- {key:'clutch',label:'Clutch',hint:'Plates, basket, auto clutch, cover'},
- {key:'tuning',label:'Fuel & tuning',hint:'ECU, maps, tuner, fuel system'},
  {key:'intake',label:'Air intake',hint:'Air filter, airbox, cage'},
+ {key:'exhaust',label:'Exhaust',hint:'Head pipe, muffler, insert'},
+ {key:'tuning',label:'Fuel & tuning',hint:'ECU, maps, tuner, fuel system'},
+ {key:'clutch',label:'Clutch',hint:'Plates, basket, auto clutch, cover'},
  {key:'gearing',label:'Gearing & chain',hint:'Sprockets, chain'},
  {key:'brakes',label:'Brakes',hint:'Rotors, pads, calipers, lines'},
- {key:'controls',label:'Bars & controls',hint:'Bars, grips, levers, pegs, clamps'},
- {key:'chassis',label:'Chassis',hint:'Triple clamps, engine mounts, chain guide'},
  {key:'wheels',label:'Wheels & tires',hint:'Wheels, tires, mousse, rim locks'},
+ {key:'controls',label:'Bars & controls',hint:'Bars, bar mounts, grips, levers, pegs'},
  {key:'protection',label:'Guards & skid plate',hint:'Skid plate, frame and radiator guards'},
  {key:'body',label:'Plastics & seat',hint:'Plastics, seat, tank'},
 ] as const;
@@ -25,15 +26,48 @@ export const systemLabel=(k:string)=>partSystems.find(s=>s.key===k)?.label??k;
 export type InstalledPart={s:PartSystem;b:string;n:string;p?:string;r?:string;x?:boolean;d?:string;k?:string};
 export const MAX_PARTS=40;
 const clip=(v:unknown,n:number)=>String(v??'').replace(/\s+/g,' ').trim().slice(0,n);
+/** Parts whose name says plainly where they belong. Only unambiguous names move; everything else keeps the rider's choice. */
+const PLACE:[RegExp,PartSystem][]=[
+ [/holeshot|launch (?:control|device)|start(?:ing)? device/i,'chassis'],
+ [/triple clamps?/i,'chassis'],
+ [/chain (?:guide|slider)/i,'chassis'],
+ [/sprocket|\b(?:520|428|420) .*chain\b|\bchain\b(?! (?:guide|slider|guard))/i,'gearing'],
+ [/brake pads?|brake rotor|\brotor kit\b/i,'brakes'],
+ [/air filter|airbox|air box|filter cage/i,'intake'],
+ [/skid plate|frame guards?|radiator (?:guards?|braces?|louvers?)/i,'protection'],
+ [/handlebars?\b(?! (?:guard|pad))|\bbar mounts?|\bgrips?\b|\blevers?\b(?! guard)|foot ?pegs?/i,'controls'],
+];
+export function placeSystem(s:PartSystem,b:string,n:string):PartSystem{const t=(b+' '+n);for(const [re,k] of PLACE)if(re.test(t))return k;return s;}
+/** Order inside a system, the way a build sheet reads: front to back, big parts before wear parts. Unmatched parts keep their order at the end. */
+const ORDER:Partial<Record<PartSystem,RegExp[]>>={
+ suspension:[/fork/i,/shock|preload/i,/linkage|\blink\b/i],
+ chassis:[/triple clamp/i,/holeshot|launch|start/i,/engine mount/i,/chain (?:guide|slider)/i],
+ engine:[/piston|top end|big bore/i,/cam/i,/head|valve/i,/radiator|cool|fan/i],
+ intake:[/filter(?! cage)/i,/cage/i,/airbox|air box/i],
+ exhaust:[/full system|head ?pipe|header/i,/mid ?pipe/i,/muffler|silencer|slip/i,/insert|spark|flange/i],
+ tuning:[/ecu|flash|remap/i,/map\b/i,/tuner/i,/fuel/i],
+ clutch:[/kit|auto|rekluse/i,/plate/i,/basket/i,/spring/i,/cover/i],
+ gearing:[/front sprocket/i,/rear sprocket/i,/chain/i],
+ brakes:[/rotor/i,/caliper/i,/line|hose/i,/pad/i,/master|reservoir/i],
+ wheels:[/wheel/i,/front tire|front tyre/i,/rear tire|rear tyre/i,/tire|tyre/i,/mousse|tube/i,/rim lock/i],
+ controls:[/handlebar|fat ?bar|twin ?wall|\bbars?\b/i,/bar mount/i,/grip/i,/lever/i,/throttle/i,/peg/i],
+ protection:[/skid plate/i,/frame guard/i,/radiator/i,/disc guard|rotor guard/i],
+ body:[/plastics|graphics/i,/seat/i,/tank/i],
+};
+const rank=(p:InstalledPart)=>{const list=ORDER[p.s]??[],t=p.b+' '+p.n;const i=list.findIndex(re=>re.test(t));return i<0?list.length:i;};
+const systemIndex=(k:PartSystem)=>partSystemKeys.indexOf(k);
+/** Parts in build-sheet order: by system, then by position inside the system. Stable for ties. */
+export function sortInstalled(parts:InstalledPart[]):InstalledPart[]{return parts.map((p,i)=>({p,i})).sort((a,b)=>systemIndex(a.p.s)-systemIndex(b.p.s)||rank(a.p)-rank(b.p)||a.i-b.i).map(x=>x.p);}
 /** Clean whatever is stored (older builds, other clients) into the current shape. */
 export function readInstalled(configuration:Record<string,unknown>|null|undefined):{parts:InstalledPart[];stock:PartSystem[];notes:Partial<Record<PartSystem,string>>}{
  const c=configuration??{},parts:InstalledPart[]=[];
  for(const raw of Array.isArray(c.installed_parts)?c.installed_parts:[]){
   if(!raw||typeof raw!=='object')continue;const o=raw as Record<string,unknown>,s=String(o.s) as PartSystem;
   if(!partSystemKeys.includes(s))continue;const n=clip(o.n,90),b=clip(o.b,60);if(!n&&!b)continue;
-  const part:InstalledPart={s,b,n};const p=clip(o.p,48);if(p)part.p=p;const r=clip(o.r,40);if(r&&/^[a-z0-9-]+$/i.test(r))part.r=r;if(o.x)part.x=true;const d=clip(o.d,120);if(d)part.d=d;const k=clip(o.k,30);if(k)part.k=k;
+  const part:InstalledPart={s:placeSystem(s,b,n),b,n};const p=clip(o.p,48);if(p)part.p=p;const r=clip(o.r,40);if(r&&/^[a-z0-9-]+$/i.test(r))part.r=r;if(o.x)part.x=true;const d=clip(o.d,120);if(d)part.d=d;const k=clip(o.k,30);if(k)part.k=k;
   parts.push(part);if(parts.length>=MAX_PARTS)break;
  }
+ parts.splice(0,parts.length,...sortInstalled(parts));
  const fitted=new Set(parts.map(p=>p.s));
  const stock=(Array.isArray(c.stock_systems)?c.stock_systems:[]).map(String).filter((k):k is PartSystem=>partSystemKeys.includes(k as PartSystem)&&!fitted.has(k as PartSystem));
  const notes:Partial<Record<PartSystem,string>>={};
