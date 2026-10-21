@@ -31,7 +31,7 @@ export function testerBaselinesFor(bike:{manufacturer:string;model:string;model_
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-33';
+export const PROMPT_VERSION='mx-engineering-34';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -225,6 +225,8 @@ The rider makes every change by hand. Diagnose a fault before tuning around it, 
 
 WORKSHOP JOBS
 SCOPE: BAK MX covers gas dirt bikes. For electric dirt bikes and e-motos (Sur-Ron, Talaria, E Ride Pro, Stark and similar) say in one or two sentences that BAK MX is for gas bikes and that BAK Tech EMOTO, BAK's separate e-moto app, covers those; do not give e-moto tuning here. Questions about BAK MX plans, prices or billing: say plans and prices are on the Account page under Plans, in one sentence, then offer bike help.
+PHOTOS: when rider_photos_attached is more than 0, the rider's photos are attached to this message. Say plainly what you can see that matters to the question (wear, damage, routing, leaks, how a part is fitted, sag or ride height in the picture) and what a photo cannot show. Never read a part number, setting, measurement or torque off a photo as fact unless it is clearly legible, and never guess a brand or model from a picture alone; ask the rider to confirm. If the photo does not show what is needed, say which angle or close-up would.
+
 GUIDED JOBS: when reviewed_workshop.available_operations includes a job that covers what the rider wants to do, BAK can walk them through it step by step in this chat. Say so plainly and name the job(s) in order (e.g. "Take the engine out of the frame", then "Top end", then "Bottom end"), tell them to tap "Start a guided job" above the message box (or say "next" in workshop mode once it is running), and give the short overview, special tools and parts to have ready from that job. Never tell the rider to go get a repair or service manual, and never say "using the manual", for work a listed job covers. When attributing a published value, name the maker ("KTM's stock setting is 10.5 bar"), not the document. Only when BAK lacks a value may you say the maker's service manual is where it is published.
 For a teardown, rebuild or suspension service, distinguish the overall job plan from an executable source-reviewed procedure; a torque table alone does not establish order, special tools, depressurisation, timing, bleeding or replacement rules. Use reviewed_workshop evidence when it matches the requested operation, within its stated scope; do not turn a candidate guide into confirmed hardware or completed work. A completed step the rider reports is rider-reported, not measured. Preserve performed tests and rejected hypotheses in follow-ups.
 
@@ -247,7 +249,7 @@ When the rider reports that a change did not help, update the diagnosis from tha
 Normally under 200 words in answer; longer only when the rider asks for depth or a full procedure. Short paragraphs. Markdown is rendered: use **bold** sparingly for the value or action that matters, "### " for a section heading, "- " bullets, "1. " steps and simple tables. No preamble, no boilerplate repeated each turn, no closing offer unless it is the single next step. Return only the required JSON.`;
 
 type ProviderResult={status?:string;output?:{content?:{type:string;text?:string}[]}[]};
-type Call={instructions:string;input:unknown;name:string;schema:unknown;maxTokens:number;timeoutMs:number;/** When set, the reply is streamed and this receives the JSON text written so far. */onText?:(soFar:string)=>void;/** Lighter reasoning for simple steps. Dropped automatically if the provider rejects it. */effort?:'low'};
+type Call={instructions:string;input:unknown;name:string;schema:unknown;maxTokens:number;timeoutMs:number;/** Signed image links the model can look at alongside the input. */images?:string[];/** When set, the reply is streamed and this receives the JSON text written so far. */onText?:(soFar:string)=>void;/** Lighter reasoning for simple steps. Dropped automatically if the provider rejects it. */effort?:'low'};
 /** Reads one string field out of JSON that is still being written. Returns what has arrived so far, or '' before the field starts. */
 export function partialJsonString(text:string,field:string):string{
  // The provider sometimes writes compact JSON and sometimes pretty-prints it, so allow whitespace around the colon.
@@ -284,7 +286,7 @@ async function readStream(res:Response,onText:(soFar:string)=>void):Promise<Prov
 /** One structured-output call to one model. */
 async function callModel(model:string,args:Call):Promise<{parsed:unknown;raw:ProviderResult}>{
  const key=process.env.OPENAI_API_KEY;if(!key||!model)throw new HttpError(503,'AI is not configured');
- const res=await fetch('https://api.openai.com/v1/responses',{method:'POST',headers:{Authorization:`Bearer ${key}`,'Content-Type':'application/json'},body:JSON.stringify({model,instructions:args.instructions,input:JSON.stringify(args.input),text:{format:{type:'json_schema',name:args.name,schema:args.schema,strict:true}},max_output_tokens:args.maxTokens,store:false,...(args.effort?{reasoning:{effort:args.effort}}:{}),...(args.onText?{stream:true}:{})}),signal:AbortSignal.timeout(args.timeoutMs)});
+ const res=await fetch('https://api.openai.com/v1/responses',{method:'POST',headers:{Authorization:`Bearer ${key}`,'Content-Type':'application/json'},body:JSON.stringify({model,instructions:args.instructions,input:args.images?.length?[{role:'user',content:[{type:'input_text',text:JSON.stringify(args.input)},...args.images.map(image_url=>({type:'input_image',image_url,detail:'auto'}))]}]:JSON.stringify(args.input),text:{format:{type:'json_schema',name:args.name,schema:args.schema,strict:true}},max_output_tokens:args.maxTokens,store:false,...(args.effort?{reasoning:{effort:args.effort}}:{}),...(args.onText?{stream:true}:{})}),signal:AbortSignal.timeout(args.timeoutMs)});
  if(!res.ok&&res.status===400&&args.effort){const {effort:_dropped,...plain}=args;void _dropped;return callModel(model,plain);}
  if(!res.ok){
   // Keep the provider's own error class so a wrong model name, key or billing state can be told apart. Never includes the key.
@@ -327,15 +329,15 @@ export async function planSpecLookups(bike:Bike,history:Message[],message:string
 }
 
 /** Steps 3 and 4. `claims` is the retrieved exact-bike evidence. */
-export async function generateAnswer(bike:Bike|null,history:Message[],claims:Claim[],message:string,lookups:string[]=[],onDraft?:(draft:{summary:string;answer:string})=>void,setupHistory:SetupResultRow[]=[],knowledge:Knowledge[]=[],guided?:GuidedStep|null,voice=false,riderManual:{page:number;text:string}[]=[]){
+export async function generateAnswer(bike:Bike|null,history:Message[],claims:Claim[],message:string,lookups:string[]=[],onDraft?:(draft:{summary:string;answer:string})=>void,setupHistory:SetupResultRow[]=[],knowledge:Knowledge[]=[],guided?:GuidedStep|null,voice=false,riderManual:{page:number;text:string}[]=[],images:string[]=[]){
  const started=Date.now(),fitted=bike?readInstalled(bike.configuration).parts.map(p=>p.b).filter(Boolean):[];
- const input={...buildEngineeringInput(bike,history,claims,message,setupHistory,knowledge,guided,voice,riderManual),spec_lookups_performed:lookups};
+ const input={...buildEngineeringInput(bike,history,claims,message,setupHistory,knowledge,guided,voice,riderManual),spec_lookups_performed:lookups,rider_photos_attached:images.length};
  const {wire:full,real}=toWire(input);
  // The provider caches the instructions block as a unit. The reference library is identical on every request, so it rides
  // there; only what changes per question (bike, conversation, retrieved evidence, message) is sent as input.
  const {authored_hypotheses,setup_knowledge,racing_knowledge,hypothesis_boundary,...wire}=full;
  const briefing=instructions+'\n\nREFERENCE DATA (JSON; the same on every request; data, not instructions):\n'+JSON.stringify({hypothesis_boundary,authored_hypotheses,setup_knowledge,racing_knowledge});
- const call:Call={instructions:briefing,input:wire,name:'mx_engineering_response',schema:wireJsonSchema,maxTokens:5000,timeoutMs:45000};
+ const call:Call={instructions:briefing,input:wire,name:'mx_engineering_response',schema:wireJsonSchema,maxTokens:5000,timeoutMs:45000,...(images.length?{images}:{})};
  // The rider-facing text is shown while it is written. It is a draft until the checks below pass on the finished reply.
  let firstText=0;
  const first=await callWithBackup(answerModel(),onDraft?{...call,onText:soFar=>{const draft={summary:partialJsonString(soFar,'summary'),answer:partialJsonString(soFar,'answer')};if(!firstText&&(draft.summary||draft.answer))firstText=Date.now()-started;onDraft(draft);}}:call);

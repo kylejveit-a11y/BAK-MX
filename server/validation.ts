@@ -8,6 +8,6 @@ export const serviceSchema=z.object({bike_id:uuid,category:z.string().trim().min
 /** bike_id null is a general conversation: no build, background knowledge only, and only in Ask mode. */
 export const conversationSchema=z.object({bike_id:uuid.nullable(),title:z.string().trim().min(1).max(120),mode:z.enum(['ask','diagnose','setup'])}).strict().refine(c=>c.bike_id!==null||c.mode==='ask','A conversation without a build must be a general question');
 export const guidedStepSchema=z.object({procedure_id:z.string().min(1).max(200),step_index:z.number().int().min(0).max(2000)}).strict();
-export const chatSchema=z.object({conversation_id:uuid,request_id:uuid,message:z.string().trim().min(1).max(8000),guided:guidedStepSchema.optional(),voice:z.boolean().optional()}).strict();
+export const chatSchema=z.object({conversation_id:uuid,request_id:uuid,message:z.string().trim().min(1).max(8000),guided:guidedStepSchema.optional(),voice:z.boolean().optional(),photo_ids:z.array(uuid).max(4).optional()}).strict();
 export class HttpError extends Error{status:number;constructor(status:number,message:string){super(message);this.status=status;}}
 export async function readJson(req:Request){const text=await req.text();if(text.length>64000)throw new HttpError(413,'Request too large');try{return JSON.parse(text);}catch{throw new HttpError(400,'Invalid JSON');}}

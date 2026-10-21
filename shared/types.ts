@@ -1,7 +1,7 @@
 export type Bike = { id:string; user_id:string; manufacturer:string; model:string; model_year:number; variant:string; region:string; nickname:string; engine_hours:number|null; configuration:Record<string,unknown>; created_at:string; updated_at:string; };
 export type ServiceEvent = { id:string; user_id:string; bike_id:string; category:string; performed_at:string; engine_hours:number|null; notes:string; next_due_hours:number|null; interval_source:string; created_at:string; };
 export type Conversation = { id:string; user_id:string; bike_id:string|null; title:string; mode:'ask'|'diagnose'|'setup'; created_at:string; updated_at:string; };
-export type Message = { id:string; conversation_id:string; user_id:string; role:'user'|'assistant'; content:string; response:EngineeringResponse|null; created_at:string; };
+export type Message = { id:string; conversation_id:string; user_id:string; role:'user'|'assistant'; content:string; response:EngineeringResponse|null; created_at:string; photo_ids?:string[]; photos?:{id:string;url:string;width:number|null;height:number|null}[]; };
 export type Claim = { id:string; manufacturer:string; model:string; model_year:number; variant:string; region:string; domain:string; property?:string|null; statement:string; source_url:string; source_locator:string; status:'VERIFIED'|'REVIEWED'|'LIMITED'|'STAGED'|'CONFLICTED'|'UNKNOWN'; has_conflict:boolean; };
 export type AttributedReference = {title:string;url:string;attribution:string;kind:string;limitations:string[]};
 export type ClaimTier='PUBLISHED'|'RIDER_SAVED'|'ENGINEERING'|'GENERAL'|'COMMUNITY'|'UNKNOWN';

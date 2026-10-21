@@ -1,4 +1,5 @@
 import type {SupabaseClient} from '@supabase/supabase-js';
+import {photoLinks,pick,photoIds,requireOwnPhotos} from './rider-photos.ts';
 import {z} from 'zod';
 import {checked} from './database.ts';
 import {collectPages} from './pagination.ts';
@@ -14,8 +15,8 @@ const text=(max:number)=>z.string().trim().min(1).max(max);
 const optionalText=(max:number)=>z.string().trim().max(max).default('');
 export const POST_CATEGORIES=['build','setup_question','ride_plan','general'] as const;
 export const EVENT_TYPES=['ride_day','race','practice','clinic','meetup'] as const;
-export const profileSchema=z.object({handle:z.string().trim().toLowerCase().regex(/^[a-z0-9_]{3,24}$/,'Use 3–24 lowercase letters, numbers or underscores'),display_name:optionalText(60),bio:optionalText(500),location:optionalText(80),riding_class:optionalText(60),accept_rules:z.literal(true).optional()}).strict();
-export const postSchema=z.object({category:z.enum(POST_CATEGORIES),body:text(4000),bike_label:optionalText(120)}).strict();
+export const profileSchema=z.object({handle:z.string().trim().toLowerCase().regex(/^[a-z0-9_]{3,24}$/,'Use 3–24 lowercase letters, numbers or underscores'),display_name:optionalText(60),bio:optionalText(500),avatar_photo_id:z.string().uuid().nullable().optional(),location:optionalText(80),riding_class:optionalText(60),accept_rules:z.literal(true).optional()}).strict();
+export const postSchema=z.object({category:z.enum(POST_CATEGORIES),body:text(4000),bike_label:optionalText(120),photo_ids:photoIds(4)}).strict();
 export const commentSchema=z.object({post_id:uuid,body:text(2000)}).strict();
 const instant=z.string().refine(v=>Number.isFinite(Date.parse(v)),{message:'Use a valid date and time'}).transform(v=>new Date(v).toISOString());
 export const eventSchema=z.object({title:text(120),event_type:z.enum(EVENT_TYPES),starts_at:instant,ends_at:instant.nullable().default(null),location_name:text(160),description:optionalText(4000)}).strict().refine(v=>!v.ends_at||v.ends_at>=v.starts_at,{message:'An event cannot end before it starts'});
@@ -32,16 +33,21 @@ const json=(data:unknown,status=200)=>new Response(JSON.stringify(data),{status,
 const PAGE=30;
 const none=Promise.resolve({data:[] as Row[],error:null});
 
+/** Adds avatar_url (a short-lived signed link) in place of the stored photo id. */
+async function withAvatars<T extends Row>(rows:T[]):Promise<T[]>{
+ const links=await photoLinks(rows.map(r=>r.avatar_photo_id).filter(Boolean));
+ return rows.map(({avatar_photo_id,...r})=>({...r,avatar_url:avatar_photo_id?links.get(avatar_photo_id)?.url??'':''}) as unknown as T);
+}
 async function profilesFor(db:Db,ids:string[]):Promise<Map<string,Row>>{
  const unique=[...new Set(ids)];if(!unique.length)return new Map();
- const rows=checked(await db.from('profiles').select('user_id,handle,display_name,location,riding_class').in('user_id',unique)) as Row[]|null;
- return new Map((rows??[]).map(r=>[r.user_id,r]));
+ const rows=checked(await db.from('profiles').select('user_id,handle,display_name,location,riding_class,avatar_photo_id').in('user_id',unique)) as Row[]|null;
+ return new Map((await withAvatars(rows??[])).map(r=>[r.user_id,r]));
 }
 async function requireProfile(db:Db,owner:string){
  const profile=checked(await db.from('profiles').select('user_id').eq('user_id',owner).maybeSingle());
  if(!profile)throw new HttpError(409,'Set up your rider profile before posting or messaging.');
 }
-const author=(profiles:Map<string,Row>,id:string)=>profiles.get(id)??{user_id:id,handle:'rider',display_name:'',location:'',riding_class:''};
+const author=(profiles:Map<string,Row>,id:string)=>profiles.get(id)??{user_id:id,handle:'rider',display_name:'',location:'',riding_class:'',avatar_url:''};
 /** First-pass screen on rider-written text; reports and blocks handle the rest. */
 function screen(...texts:(string|null|undefined)[]){if(texts.some(t=>t&&objectionable(t)))throw new HttpError(422,'That wording isn’t allowed here. Edit it and try again.');}
 function saveFailed(error:{code?:string}|null,conflict:string):never{
@@ -56,29 +62,30 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
 
  // ---- Profile
  if(path==='/api/profile'){
-  if(method==='GET')return json(checked(await db.from('profiles').select('*').eq('user_id',owner).maybeSingle()));
+  if(method==='GET'){const row=checked(await db.from('profiles').select('*').eq('user_id',owner).maybeSingle()) as Row|null;return json(row?(await withAvatars([row]))[0]:null);}
   if(method==='PUT'){
-   const {accept_rules,...data}=profileSchema.parse(await readJson(req));screen(data.handle,data.display_name,data.bio,data.location,data.riding_class);
+   const {accept_rules,...data}=profileSchema.parse(await readJson(req));if(data.avatar_photo_id)await requireOwnPhotos(owner,[data.avatar_photo_id],'avatar');screen(data.handle,data.display_name,data.bio,data.location,data.riding_class);
    const existing=checked(await db.from('profiles').select('user_id').eq('user_id',owner).maybeSingle());
    const result=existing
     ?await db.from('profiles').update({...data,updated_at:new Date().toISOString()}).eq('user_id',owner).select().single()
     :accept_rules===true?await db.from('profiles').insert({...data,user_id:owner,accepted_rules_at:new Date().toISOString()}).select().single():(()=>{throw new HttpError(400,'Accept the community rules to create your profile.');})();
    if(result.error)saveFailed(result.error,'That handle is taken. Choose another.');
-   return json(result.data);
+   return json((await withAvatars([result.data as Row]))[0]);
   }
  }
  if(path==='/api/profiles'&&method==='GET'){
   const rider=id('id');
-  const profile=checked(await db.from('profiles').select('user_id,handle,display_name,bio,location,riding_class,created_at').eq('user_id',rider).maybeSingle());
+  const found=checked(await db.from('profiles').select('user_id,handle,display_name,bio,location,riding_class,created_at,avatar_photo_id').eq('user_id',rider).maybeSingle()) as Row|null;const profile=found?(await withAvatars([found]))[0]:null;
   if(!profile)throw new HttpError(404,'Rider not found');
-  const posts=checked(await db.from('posts').select('id,category,body,bike_label,created_at').eq('user_id',rider).is('removed_at',null).order('created_at',{ascending:false}).limit(20));
-  return json({profile,posts:posts??[],mine:rider===owner});
+  const posts=(checked(await db.from('posts').select('id,category,body,bike_label,created_at,photo_ids').eq('user_id',rider).is('removed_at',null).order('created_at',{ascending:false}).limit(20))??[]) as Row[];
+  const plinks=await photoLinks(posts.flatMap(p=>p.photo_ids??[]));
+  return json({profile,posts:posts.map(({photo_ids,...p})=>({...p,photos:pick(plinks,photo_ids)})),mine:rider===owner});
  }
 
  // ---- Community
  if(path==='/api/posts'){
   if(method==='GET'){
-   let query=db.from('posts').select('id,user_id,category,body,bike_label,created_at').is('removed_at',null).order('created_at',{ascending:false}).limit(PAGE);
+   let query=db.from('posts').select('id,user_id,category,body,bike_label,created_at,photo_ids').is('removed_at',null).order('created_at',{ascending:false}).limit(PAGE);
    const category=q('category');if(category)query=query.eq('category',z.enum(POST_CATEGORIES).parse(category));
    const before=q('before');if(before)query=query.lt('created_at',instant.parse(before));
    const posts=(checked(await query)??[]) as Row[];
@@ -88,10 +95,11 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
     ids.length?db.from('post_likes').select('post_id,user_id').in('post_id',ids).limit(5000):none,
     ids.length?db.from('post_comments').select('post_id').in('post_id',ids).is('removed_at',null).limit(5000):none]);
    const likeRows=(checked(likes)??[]) as Row[],commentRows=(checked(comments)??[]) as Row[];
-   return json(posts.map(p=>({...p,author:author(profiles,p.user_id),mine:p.user_id===owner,like_count:likeRows.filter(l=>l.post_id===p.id).length,liked:likeRows.some(l=>l.post_id===p.id&&l.user_id===owner),comment_count:commentRows.filter(c=>c.post_id===p.id).length})));
+   const plinks=await photoLinks(posts.flatMap(p=>p.photo_ids??[]));
+   return json(posts.map(({photo_ids,...p})=>({...p,photos:pick(plinks,photo_ids),author:author(profiles,p.user_id),mine:p.user_id===owner,like_count:likeRows.filter(l=>l.post_id===p.id).length,liked:likeRows.some(l=>l.post_id===p.id&&l.user_id===owner),comment_count:commentRows.filter(c=>c.post_id===p.id).length})));
   }
   if(method==='POST'){
-   const data=postSchema.parse(await readJson(req));screen(data.body);await requireProfile(db,owner);
+   const data=postSchema.parse(await readJson(req));screen(data.body);await requireProfile(db,owner);await requireOwnPhotos(owner,data.photo_ids,'post');
    const result=await db.from('posts').insert({...data,user_id:owner}).select('id,user_id,category,body,bike_label,created_at').single();
    if(result.error)saveFailed(result.error,'This post already exists.');
    return json(result.data,201);

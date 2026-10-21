@@ -4,11 +4,13 @@ import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import * as Haptics from 'expo-haptics';
 import {useFocusEffect} from '@react-navigation/native';
 import {DateField,rideDays,recentDays} from './DateSheet';
+import {AttachedPhotos,PostPhotos} from './PhotoUI';
+import {addPhotos,pickImages,uploadPhoto,type Photo} from './photos';
 import type {Bike} from '../../../shared/types';
 import {COMMUNITY_RULES,EVENT_TYPE_LABELS,POST_CATEGORY_LABELS,SETUP_FIELDS,SETUP_RESULT_LABELS,riderName,setupDifferences,type Part,type PartAssembly,type PartCatalog,type Post,type PostCategory,type PostComment,type Profile,type RideEvent,type RiderRef,type SetupLog,type SetupResult,type ThreadMessage,type ThreadSummary} from '../../../shared/rider-types';
 import {api} from './api';
 import {adjusters,beforeYouTune,symptomGuides} from '../../../shared/setup-knowledge';
-import {Avatar,BackLink,Button,Card,CheckRow,Copy,Field,Icon,IconAction,type IconName,Notice,Page,SectionHead,Tile,TileGrid,colors} from './ui';
+import {Avatar,BackLink,Button,Card,CheckRow,Copy,Eyebrow,Field,Icon,IconAction,type IconName,Notice,Page,SectionHead,Tile,TileGrid,colors} from './ui';
 
 /* Native rider surfaces: Community, Events, Messages, Profile, Feedback, Setup log, Parts.
    All data comes from the BAK MX API. Nothing here is sample content. */
@@ -69,11 +71,12 @@ export function ProfileEditor({profile,onSaved}:{profile:Profile|null;onSaved:(p
 function NeedsProfile({onSaved}:{onSaved:(p:Profile)=>void}){return <Card><Copy strong>Set up your rider profile</Copy><ProfileEditor profile={null} onSaved={onSaved}/></Card>;}
 export function ProfileCard(){
  const {profile,setProfile,profileError}=useProfile();
- const [editing,setEditing]=useState(false);
+ const [editing,setEditing]=useState(false),[photoBusy,setPhotoBusy]=useState(false),[photoNote,setPhotoNote]=useState('');
+ async function changePhoto(){if(!profile)return;setPhotoNote('');try{const picked=await addPhotos('avatar',{square:true,title:'Profile photo'});if(!picked.length)return;setPhotoBusy(true);const saved=await api<Profile>('/api/profile','PUT',{handle:profile.handle,display_name:profile.display_name,bio:profile.bio,location:profile.location,riding_class:profile.riding_class,avatar_photo_id:picked[0].id});setProfile(saved);}catch(e){setPhotoNote(errorText(e));}finally{setPhotoBusy(false);}}
  const [blocks,setBlocks]=useState<{blocked_id:string;created_at:string}[]>([]);
  useFocusEffect(useCallback(()=>{api<{blocked_id:string;created_at:string}[]>('/api/blocks').then(setBlocks).catch(()=>setBlocks([]));},[]));
  if(profile===undefined)return null;
- return <Card>{profile?<View style={{flexDirection:'row',alignItems:'center',gap:14}}><Avatar name={riderName(profile)} size={52}/><View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:20,fontWeight:'800'}}>{riderName(profile)}</Text><Text style={{color:'#8f97a5',fontSize:13.5}}>@{profile.handle}{profile.location?' · '+profile.location:''}{profile.riding_class?' · '+profile.riding_class:''}</Text></View><Pressable accessibilityRole="button" hitSlop={10} onPress={()=>setEditing(!editing)}><Text style={{color:colors.accent,fontWeight:'700',fontSize:15}}>{editing?'Done':'Edit'}</Text></Pressable></View>:<Copy strong>Rider profile</Copy>}{!!profile?.bio&&!editing&&<Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{profile.bio}</Text>}<Notice text={profileError}/>{(!profile||editing)&&<ProfileEditor profile={profile} onSaved={p=>{setProfile(p);setEditing(false);}}/>}
+ return <Card>{profile?<View style={{flexDirection:'row',alignItems:'center',gap:14}}><Pressable accessibilityRole="button" accessibilityLabel="Change profile photo" disabled={photoBusy} onPress={()=>void changePhoto()}><Avatar name={riderName(profile)} uri={profile.avatar_url} size={56}/><View style={{position:'absolute',right:-2,bottom:-2,width:22,height:22,borderRadius:11,backgroundColor:colors.primary,alignItems:'center',justifyContent:'center',borderWidth:2,borderColor:colors.bg}}>{photoBusy?<ActivityIndicator size="small" color="#0a0d12"/>:<Icon name="camera" size={12} color="#0a0d12" weight={2.2}/>}</View></Pressable><View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:20,fontWeight:'800'}}>{riderName(profile)}</Text><Text style={{color:'#8f97a5',fontSize:13.5}}>@{profile.handle}{profile.location?' · '+profile.location:''}{profile.riding_class?' · '+profile.riding_class:''}</Text></View><Pressable accessibilityRole="button" hitSlop={10} onPress={()=>setEditing(!editing)}><Text style={{color:colors.accent,fontWeight:'700',fontSize:15}}>{editing?'Done':'Edit'}</Text></Pressable></View>:<Copy strong>Rider profile</Copy>}{!!profile?.bio&&!editing&&<Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{profile.bio}</Text>}<Notice text={profileError||photoNote}/>{(!profile||editing)&&<ProfileEditor profile={profile} onSaved={p=>{setProfile(p);setEditing(false);}}/>}
   {blocks.length>0&&<View style={{gap:8}}><Copy strong>Blocked riders</Copy>{blocks.map(b=><Row key={b.blocked_id}><Copy>Blocked {day(b.created_at)}</Copy><Link title="Unblock" onPress={()=>void api('/api/blocks?user_id='+b.blocked_id,'DELETE').then(()=>setBlocks(old=>old.filter(x=>x.blocked_id!==b.blocked_id))).catch(()=>{})}/></Row>)}</View>}
  </Card>;
 }
@@ -123,7 +126,7 @@ export function CommunityScreen({bike,onMessage}:{bike?:Bike;onMessage:(r:RiderR
   <View style={{gap:14}}>
    <Text style={{color:colors.text,fontSize:28,fontWeight:'900',fontStyle:'italic',letterSpacing:-1}}>Community</Text>
    <Pressable accessibilityRole="button" accessibilityLabel="Start a post" onPress={()=>setComposing(true)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,opacity:pressed?0.7:1})}>
-    <Avatar name={riderName(profile)} size={38}/>
+    <Avatar name={riderName(profile)} uri={profile.avatar_url} size={38}/>
     <View style={{flex:1,borderWidth:1,borderColor:'#2f3540',borderRadius:22,paddingHorizontal:16,paddingVertical:11}}><Text style={{color:'#8f97a5',fontSize:15}}>What’s on the bike, {profile.display_name?.split(' ')[0]||'@'+profile.handle}?</Text></View>
    </Pressable>
    <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap:8}} style={{flexGrow:0,marginHorizontal:-20}}>
@@ -144,7 +147,7 @@ function PostView({p,open,onOpen,onLike,onMore,onRider,onCount,report}:{p:Post;o
  const [full,setFull]=useState(false),long=p.body.length>320||p.body.split('\n').length>6;
  return <View style={{paddingTop:18,paddingBottom:6,gap:12,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#262b34'}}>
   <View style={{flexDirection:'row',alignItems:'center',gap:12,paddingHorizontal:20}}>
-   <Pressable accessibilityRole="button" accessibilityLabel={'View '+riderName(p.author)} onPress={onRider}><Avatar name={riderName(p.author)} size={42}/></Pressable>
+   <Pressable accessibilityRole="button" accessibilityLabel={'View '+riderName(p.author)} onPress={onRider}><Avatar name={riderName(p.author)} uri={p.author.avatar_url} size={42}/></Pressable>
    <Pressable accessibilityRole="button" accessibilityLabel={'View '+riderName(p.author)} onPress={onRider} style={{flex:1,gap:2}}>
     <Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>{riderName(p.author)} <Text style={{color:'#737b88',fontWeight:'500'}}>· {ago(p.created_at)}</Text></Text>
     <Text numberOfLines={1} style={{color:'#8f97a5',fontSize:12.5}}><Text style={{color:colors.accent,fontWeight:'700'}}>{POST_CATEGORY_LABELS[p.category]}</Text>{p.bike_label?' · '+p.bike_label:p.author.location?' · '+p.author.location:''}</Text>
@@ -155,6 +158,7 @@ function PostView({p,open,onOpen,onLike,onMore,onRider,onCount,report}:{p:Post;o
    <Text selectable numberOfLines={full||!long?undefined:6} style={{color:colors.text,fontSize:16.5,lineHeight:25}}>{p.body}</Text>
    {long&&<Text style={{color:'#8f97a5',fontSize:14,fontWeight:'600',marginTop:4}}>{full?'Show less':'See more'}</Text>}
   </Pressable>
+  {!!p.photos?.length&&<PostPhotos photos={p.photos}/>}
   {report}
   <View style={{flexDirection:'row',alignItems:'center',gap:22,paddingHorizontal:20}}>
    <Pressable accessibilityRole="button" accessibilityLabel={p.liked?'Unlike':'Like'} accessibilityState={{selected:p.liked}} hitSlop={8} onPress={onLike} style={{flexDirection:'row',alignItems:'center',gap:6}}><Icon name={p.liked?'heartOn':'heart'} size={23} color={p.liked?'#e8607a':colors.text}/>{p.like_count>0&&<Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>{p.like_count}</Text>}</Pressable>
@@ -168,23 +172,42 @@ function PostView({p,open,onOpen,onLike,onMore,onRider,onCount,report}:{p:Post;o
 
 function ComposeSheet({visible,profile,bike,onClose,onPosted}:{visible:boolean;profile:Profile;bike?:Bike;onClose:()=>void;onPosted:()=>void}){
  const insets=useSafeAreaInsets();
- const [category,setCategory]=useState<PostCategory>('setup_question'),[body,setBody]=useState(''),[tagBike,setTagBike]=useState(true),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
- async function publish(){if(busy||!body.trim())return;setBusy(true);setNotice('');try{await api('/api/posts','POST',{category,body,bike_label:tagBike&&bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:''});setBody('');onPosted();}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
+ const [category,setCategory]=useState<PostCategory>('setup_question'),[body,setBody]=useState(''),[tagBike,setTagBike]=useState(true),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[photos,setPhotos]=useState<Photo[]>([]),[uploading,setUploading]=useState(0);
+ const ready=!!body.trim()&&!busy&&!uploading;
+ async function publish(){if(!ready)return;setBusy(true);setNotice('');try{await api('/api/posts','POST',{category,body,bike_label:tagBike&&bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:'',photo_ids:photos.map(p=>p.id)});setBody('');setPhotos([]);onPosted();}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
+ async function add(source:'camera'|'library'){
+  const room=4-photos.length;if(room<1)return;
+  try{const picked=await pickImages(source,room);if(!picked.length)return;setUploading(picked.length);
+   for(const a of picked){const p=await uploadPhoto(a,'post');setPhotos(old=>[...old,p]);setUploading(n=>Math.max(0,n-1));}}
+  catch(e){setNotice(errorText(e));}finally{setUploading(0);}
+ }
  const hint={build:'What you did to the bike and how it turned out',setup_question:'What the bike is doing, where, and what you’ve tried',ride_plan:'Where, when, and who should come',general:'What’s on your mind'}[category];
+ const tool=(icon:'camera'|'image',label:string,onPress:()=>void)=><Pressable accessibilityRole="button" accessibilityLabel={label} disabled={photos.length>=4||!!uploading} onPress={onPress} hitSlop={8} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:7,paddingVertical:8,paddingHorizontal:4,opacity:photos.length>=4||uploading?0.35:pressed?0.6:1})}><Icon name={icon} size={23} color={colors.text}/><Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>{label}</Text></Pressable>;
  return <Modal visible={visible} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
   <KeyboardAvoidingView behavior={Platform.OS==='ios'?'padding':undefined} style={{flex:1,backgroundColor:colors.bg}}>
-   <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:20,paddingTop:Platform.OS==='ios'?16:insets.top+10,paddingBottom:12,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'#262b34'}}>
-    <Pressable accessibilityRole="button" hitSlop={10} onPress={onClose}><Text style={{color:colors.text,fontSize:16}}>Cancel</Text></Pressable>
+   <View style={{flexDirection:'row',alignItems:'center',paddingHorizontal:16,paddingTop:Platform.OS==='ios'?14:insets.top+10,paddingBottom:12}}>
+    <Pressable accessibilityRole="button" hitSlop={10} onPress={onClose} style={{flex:1}}><Text style={{color:'#a1a8b4',fontSize:16}}>Cancel</Text></Pressable>
     <Text style={{color:colors.text,fontSize:17,fontWeight:'800'}}>New post</Text>
-    <Pressable accessibilityRole="button" accessibilityState={{disabled:busy||!body.trim()}} disabled={busy||!body.trim()} onPress={()=>void publish()} style={({pressed})=>({backgroundColor:body.trim()?colors.primary:'#16191f',borderRadius:18,paddingHorizontal:16,paddingVertical:7,opacity:pressed?0.7:1})}><Text style={{color:body.trim()?'#0a0d12':'#5d6470',fontWeight:'800',fontSize:15}}>{busy?'Posting…':'Post'}</Text></Pressable>
+    <View style={{flex:1,alignItems:'flex-end'}}><Pressable accessibilityRole="button" accessibilityState={{disabled:!ready}} disabled={!ready} onPress={()=>void publish()} style={({pressed})=>({backgroundColor:ready?colors.primary:'#16191f',borderRadius:18,paddingHorizontal:18,paddingVertical:8,opacity:pressed?0.7:1})}>{busy?<ActivityIndicator size="small" color="#0a0d12"/>:<Text style={{color:ready?'#0a0d12':'#5d6470',fontWeight:'800',fontSize:15}}>Post</Text>}</Pressable></View>
    </View>
-   <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{padding:20,gap:16}}>
-    <View style={{flexDirection:'row',alignItems:'center',gap:12}}><Avatar name={riderName(profile)} size={42}/><View style={{flex:1}}><Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{riderName(profile)}</Text>{bike&&<Pressable accessibilityRole="checkbox" accessibilityState={{checked:tagBike}} onPress={()=>setTagBike(!tagBike)} style={{flexDirection:'row',alignItems:'center',gap:6,marginTop:3}}><Icon name={tagBike?'checkboxOn':'checkbox'} size={16} color={tagBike?colors.accent:'#8f97a5'}/><Text style={{color:tagBike?colors.accent:'#8f97a5',fontSize:13,fontWeight:'600'}}>{bike.model_year} {bike.manufacturer} {bike.model}</Text></Pressable>}</View></View>
-    <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap:8}} style={{flexGrow:0}}>{options(POST_CATEGORY_LABELS).map(o=>{const on=category===o.value;return <Pressable key={o.value} accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setCategory(o.value)} style={({pressed})=>({paddingHorizontal:14,paddingVertical:7,borderRadius:16,backgroundColor:on?colors.text:'transparent',borderWidth:1,borderColor:on?colors.text:'#2f3540',opacity:pressed?0.7:1})}><Text style={{color:on?'#0a0d12':'#c9cfd9',fontSize:14,fontWeight:on?'700':'500'}}>{o.label}</Text></Pressable>;})}</ScrollView>
-    <TextInput autoFocus multiline value={body} onChangeText={setBody} maxLength={4000} autoCapitalize="sentences" placeholder={hint} placeholderTextColor="#5d6470" selectionColor={colors.accent} accessibilityLabel="Post" style={{color:colors.text,fontSize:19,lineHeight:27,minHeight:180,textAlignVertical:'top'}}/>
+   <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{paddingHorizontal:20,paddingBottom:24,gap:16}}>
+    <View style={{flexDirection:'row',alignItems:'center',gap:12}}>
+     <Avatar name={riderName(profile)} uri={profile.avatar_url} size={44}/>
+     <View style={{flex:1,gap:6}}>
+      <Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{riderName(profile)}</Text>
+      {bike&&<Pressable accessibilityRole="checkbox" accessibilityState={{checked:tagBike}} onPress={()=>setTagBike(!tagBike)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:6,alignSelf:'flex-start',borderWidth:1,borderColor:tagBike?colors.accent:'#2f3540',borderRadius:14,paddingHorizontal:10,paddingVertical:4,opacity:pressed?0.7:1})}><Icon name="moto" size={16} color={tagBike?colors.accent:'#8f97a5'}/><Text style={{color:tagBike?colors.accent:'#8f97a5',fontSize:12.5,fontWeight:'700'}}>{tagBike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:'Tag my bike'}</Text></Pressable>}
+     </View>
+    </View>
+    <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{options(POST_CATEGORY_LABELS).map(o=>{const on=category===o.value;return <Pressable key={o.value} accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setCategory(o.value)} style={({pressed})=>({paddingHorizontal:13,paddingVertical:6,borderRadius:16,backgroundColor:on?colors.text:'transparent',borderWidth:1,borderColor:on?colors.text:'#2f3540',opacity:pressed?0.7:1})}><Text style={{color:on?'#0a0d12':'#c9cfd9',fontSize:13.5,fontWeight:on?'700':'500'}}>{o.label}</Text></Pressable>;})}</View>
+    <TextInput autoFocus multiline value={body} onChangeText={setBody} maxLength={4000} autoCapitalize="sentences" placeholder={hint} placeholderTextColor="#5d6470" selectionColor={colors.accent} accessibilityLabel="Post" style={{color:colors.text,fontSize:19,lineHeight:27,minHeight:140,textAlignVertical:'top',outlineStyle:'none'} as never}/>
+    <AttachedPhotos photos={photos} uploading={uploading} size={104} onRemove={id=>{setPhotos(old=>old.filter(p=>p.id!==id));void api('/api/photos?id='+id,'DELETE').catch(()=>{});}}/>
     <Notice text={notice}/>
-    {body.length>3500&&<Text style={{color:'#8f97a5',fontSize:12,textAlign:'right'}}>{4000-body.length} left</Text>}
    </ScrollView>
+   <View style={{flexDirection:'row',alignItems:'center',gap:18,paddingHorizontal:16,paddingTop:8,paddingBottom:Math.max(insets.bottom,10),borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#262b34'}}>
+    {tool('camera','Camera',()=>void add('camera'))}{tool('image','Photos',()=>void add('library'))}
+    <View style={{flex:1}}/>
+    <Text style={{color:'#737b88',fontSize:12.5}}>{photos.length?`${photos.length}/4 photos`:body.length>3500?`${4000-body.length} left`:'Up to 4 photos'}</Text>
+   </View>
   </KeyboardAvoidingView>
  </Modal>;
 }
@@ -195,7 +218,7 @@ function Comments({postId,onCount}:{postId:string;onCount:(n:number)=>void}){
  useEffect(()=>{void load();},[load]);
  async function add(){if(busy||!text.trim())return;setBusy(true);try{await api('/api/comments','POST',{post_id:postId,body:text});setText('');await load();}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
  return <View style={{gap:12,paddingHorizontal:20,paddingTop:4}}>
-  {comments.map(c=><View key={c.id} style={{flexDirection:'row',gap:10}}><Avatar name={riderName(c.author)} size={30}/><View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:14.5,lineHeight:21}}><Text style={{fontWeight:'700'}}>{riderName(c.author)} </Text>{c.body}</Text><View style={{flexDirection:'row',gap:14}}><Text style={{color:'#737b88',fontSize:12}}>{ago(c.created_at)}</Text>{c.mine&&<Pressable hitSlop={8} onPress={()=>void api('/api/comments?id='+c.id,'DELETE').then(load).catch(e=>setNotice(errorText(e)))}><Text style={{color:'#efb5be',fontSize:12,fontWeight:'600'}}>Delete</Text></Pressable>}</View></View></View>)}
+  {comments.map(c=><View key={c.id} style={{flexDirection:'row',gap:10}}><Avatar name={riderName(c.author)} uri={c.author.avatar_url} size={30}/><View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:14.5,lineHeight:21}}><Text style={{fontWeight:'700'}}>{riderName(c.author)} </Text>{c.body}</Text><View style={{flexDirection:'row',gap:14}}><Text style={{color:'#737b88',fontSize:12}}>{ago(c.created_at)}</Text>{c.mine&&<Pressable hitSlop={8} onPress={()=>void api('/api/comments?id='+c.id,'DELETE').then(load).catch(e=>setNotice(errorText(e)))}><Text style={{color:'#efb5be',fontSize:12,fontWeight:'600'}}>Delete</Text></Pressable>}</View></View></View>)}
   <Notice text={notice}/>
   <View style={{flexDirection:'row',alignItems:'center',gap:8,borderWidth:1,borderColor:'#2f3540',borderRadius:22,paddingLeft:14,paddingRight:5,paddingVertical:4}}><TextInput editable={!busy} value={text} onChangeText={setText} maxLength={2000} autoCapitalize="sentences" placeholder="Add a comment…" placeholderTextColor="#5d6470" accessibilityLabel="Add a comment" style={{flex:1,color:colors.text,fontSize:15,paddingVertical:8}} onSubmitEditing={()=>void add()} returnKeyType="send"/><Pressable accessibilityRole="button" accessibilityLabel="Post comment" disabled={busy||!text.trim()} onPress={()=>void add()} style={{width:32,height:32,borderRadius:16,backgroundColor:text.trim()?colors.primary:'transparent',alignItems:'center',justifyContent:'center'}}><Icon name="arrowUp" size={17} color={text.trim()?'#0a0d12':'#5d6470'} weight={2.2}/></Pressable></View>
  </View>;
@@ -270,7 +293,7 @@ export function MessagesScreen({startWith,onStarted}:{startWith?:RiderRef;onStar
  if(!profile)return <Page title="Messages"><Copy>Message a rider from a post or an event.</Copy><NeedsProfile onSaved={setProfile}/></Page>;
  if(!active)return <Page title="Messages"><Notice text={notice}/>
   {!threads.length&&<Card><Copy strong>No conversations yet.</Copy><Copy>Use “Message” on a post or event to start one. Messages are private between you and the other rider.</Copy></Card>}
-  <View>{threads.map(t=><Pressable key={t.rider.user_id} accessibilityRole="button" accessibilityLabel={`${riderName(t.rider)}${t.unread?`, ${t.unread} new`:''}`} onPress={()=>void open(t.rider)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:14,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'#2a2f39',opacity:pressed?0.6:1})}><Avatar name={riderName(t.rider)} size={42}/><View style={{flex:1,gap:3}}><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Text style={{color:colors.text,fontSize:16,fontWeight:t.unread?'800':'600',flex:1}} numberOfLines={1}>{riderName(t.rider)}</Text><Text style={{color:'#7c858e',fontSize:12}}>{when(t.last_message.created_at)}</Text></View><Text numberOfLines={1} style={{color:t.unread?colors.text:'#8f97a5',fontSize:14}}>{t.last_message.mine?'You: ':''}{t.last_message.body}</Text></View>{t.unread>0&&<View style={{width:9,height:9,borderRadius:5,backgroundColor:colors.accent}}/>}</Pressable>)}</View>
+  <View>{threads.map(t=><Pressable key={t.rider.user_id} accessibilityRole="button" accessibilityLabel={`${riderName(t.rider)}${t.unread?`, ${t.unread} new`:''}`} onPress={()=>void open(t.rider)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:14,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'#2a2f39',opacity:pressed?0.6:1})}><Avatar name={riderName(t.rider)} uri={t.rider.avatar_url} size={42}/><View style={{flex:1,gap:3}}><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Text style={{color:colors.text,fontSize:16,fontWeight:t.unread?'800':'600',flex:1}} numberOfLines={1}>{riderName(t.rider)}</Text><Text style={{color:'#7c858e',fontSize:12}}>{when(t.last_message.created_at)}</Text></View><Text numberOfLines={1} style={{color:t.unread?colors.text:'#8f97a5',fontSize:14}}>{t.last_message.mine?'You: ':''}{t.last_message.body}</Text></View>{t.unread>0&&<View style={{width:9,height:9,borderRadius:5,backgroundColor:colors.accent}}/>}</Pressable>)}</View>
  </Page>;
  const canSend=!busy&&!!text.trim();
  const footer=<View><View style={{flexDirection:'row',alignItems:'flex-end',gap:8,paddingLeft:16,paddingRight:6,paddingVertical:6}}><TextInput accessibilityLabel={'Message '+riderName(active)} editable={!busy} value={text} onChangeText={setText} multiline maxLength={4000} autoCapitalize="sentences" placeholder={'Message '+riderName(active)} placeholderTextColor="#6b7280" style={{flex:1,color:colors.text,fontSize:16,lineHeight:21,maxHeight:120,paddingTop:9,paddingBottom:9}}/><Pressable accessibilityRole="button" accessibilityLabel="Send" accessibilityState={{disabled:!canSend}} disabled={!canSend} onPress={()=>void send()} style={({pressed})=>({width:38,height:38,borderRadius:19,backgroundColor:canSend?colors.primary:'#23272f',alignItems:'center',justifyContent:'center',opacity:pressed?0.7:1})}>{busy?<ActivityIndicator size="small" color={colors.text}/>:<Icon name="arrowUp" size={20} color={canSend?'#0a0d12':'#6b7280'} weight={2.2}/>}</Pressable></View></View>;
@@ -372,12 +395,21 @@ export function SetupGuideCard({onAsk}:{onAsk?:(text:string)=>void}){
 
 /* ------------------------------------------------------------------ Rider profile */
 export function RiderProfileView({riderId,onBack,onMessage}:{riderId:string;onBack:()=>void;onMessage:(r:RiderRef)=>void}){
- const [data,setData]=useState<{profile:Profile;posts:{id:string;category:PostCategory;body:string;bike_label:string;created_at:string}[];mine:boolean}|null>(null),[notice,setNotice]=useState('');
+ const [data,setData]=useState<{profile:Profile;posts:{id:string;category:PostCategory;body:string;bike_label:string;created_at:string;photos?:Photo[]}[];mine:boolean}|null>(null),[notice,setNotice]=useState('');
  useEffect(()=>{let live=true;setData(null);setNotice('');api<NonNullable<typeof data>>('/api/profiles?id='+riderId).then(d=>{if(live)setData(d);}).catch(e=>{if(live)setNotice(errorText(e));});return()=>{live=false;};},[riderId]);
- return <Page title={data?riderName(data.profile):'Rider'}><BackLink title="Community" onPress={onBack}/><Notice text={notice}/>
+ return <Page title=""><BackLink title="Community" onPress={onBack}/><Notice text={notice}/>
   {!data&&!notice&&<Copy>Loading rider…</Copy>}
-  {data&&<><Card><Copy>@{data.profile.handle}{data.profile.location?' · '+data.profile.location:''}{data.profile.riding_class?' · '+data.profile.riding_class:''}</Copy>{!!data.profile.bio&&<Text selectable style={{color:colors.text,fontSize:16,lineHeight:24}}>{data.profile.bio}</Text>}<Copy>Riding with BAK MX since {new Date(data.profile.created_at).toLocaleDateString([],{month:'long',year:'numeric'})}</Copy>{!data.mine&&<RiderActions rider={data.profile} target={{type:'profile',id:data.profile.user_id}} onMessage={onMessage} onBlocked={onBack}/>}</Card>
-   <Copy strong>Recent posts</Copy>{!data.posts.length&&<Copy>No posts yet.</Copy>}
-   {data.posts.map(p=><Card key={p.id}><Row><Tag text={POST_CATEGORY_LABELS[p.category]}/>{!!p.bike_label&&<Text style={{color:colors.primary,fontSize:12}}>{p.bike_label}</Text>}</Row><Text selectable style={{color:colors.text,fontSize:16,lineHeight:24}}>{p.body}</Text><Text style={{color:colors.muted,fontSize:12}}>{when(p.created_at)}</Text></Card>)}</>}
+  {data&&<>
+   <View style={{alignItems:'center',gap:8,paddingVertical:8}}>
+    <Avatar name={riderName(data.profile)} uri={data.profile.avatar_url} size={92}/>
+    <Text style={{color:colors.text,fontSize:26,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.6}}>{riderName(data.profile)}</Text>
+    <Text style={{color:'#8f97a5',fontSize:14}}>@{data.profile.handle}{data.profile.location?' · '+data.profile.location:''}{data.profile.riding_class?' · '+data.profile.riding_class:''}</Text>
+    {!!data.profile.bio&&<Text selectable style={{color:colors.text,fontSize:15.5,lineHeight:23,textAlign:'center'}}>{data.profile.bio}</Text>}
+    <Text style={{color:'#737b88',fontSize:12.5}}>Riding with BAK MX since {new Date(data.profile.created_at).toLocaleDateString([],{month:'long',year:'numeric'})}</Text>
+    {!data.mine&&<RiderActions rider={data.profile} target={{type:'profile',id:data.profile.user_id}} onMessage={onMessage} onBlocked={onBack}/>}
+   </View>
+   <Eyebrow>RECENT POSTS</Eyebrow>{!data.posts.length&&<Copy>No posts yet.</Copy>}
+   <View style={{marginHorizontal:-20}}>{data.posts.map(p=><View key={p.id} style={{paddingVertical:16,gap:10,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#262b34'}}><Text style={{color:'#8f97a5',fontSize:12.5,paddingHorizontal:20}}><Text style={{color:colors.accent,fontWeight:'700'}}>{POST_CATEGORY_LABELS[p.category]}</Text>{p.bike_label?' · '+p.bike_label:''} · {ago(p.created_at)}</Text><Text selectable style={{color:colors.text,fontSize:16,lineHeight:24,paddingHorizontal:20}}>{p.body}</Text>{!!p.photos?.length&&<PostPhotos photos={p.photos}/>}</View>)}</View>
+  </>}
  </Page>;
 }

@@ -1199,3 +1199,6 @@ input[type=file]::file-selector-button{background:#12151b;border:0;border-radius
 .workshop-job-grid .action-card h3{font-size:16px;margin:0 0 2px}.workshop-job-grid .action-card p{color:var(--ink-3);font-size:13.5px;margin:0}
 @media (max-width:760px){.workshop-job-grid{grid-template-columns:1fr!important}}
 .header-signin{font-weight:700;font-size:14px;color:#0a0d12;background:#e8ecf3;border-radius:999px;padding:7px 14px;white-space:nowrap}
+
+/* Post photos */
+.post-photos{display:grid;gap:4px;border-radius:12px;overflow:hidden;margin:4px 0 8px}.post-photos.n2,.post-photos.n4{grid-template-columns:1fr 1fr}.post-photos.n3{grid-template-columns:2fr 1fr}.post-photos.n3 a:first-child{grid-row:span 2}.post-photos img{width:100%;height:100%;max-height:520px;object-fit:cover;display:block;background:#101217}.post-photos.n1 img{aspect-ratio:auto}.post-photos:not(.n1) img{aspect-ratio:1/1}img.avatar{object-fit:cover}
