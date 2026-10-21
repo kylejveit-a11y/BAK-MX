@@ -36,7 +36,7 @@ export function WheelSheet({visible,step,title,options,value,onPick,onClose,back
     <Pressable accessibilityRole="button" accessibilityLabel="Close" hitSlop={12} onPress={onClose} style={({pressed})=>[st.close,pressed&&{opacity:0.6}]}><Icon name="close" size={18} color={C.text} weight={2}/></Pressable>
    </View>
    <Text style={st.title} numberOfLines={2}>{title}</Text>
-   {back?<Pressable accessibilityRole="button" onPress={back.onPress} hitSlop={8} style={{alignSelf:'flex-start',paddingVertical:6}}><Text style={{color:C.accent,fontWeight:'600',fontSize:14}}>‹ {back.label}</Text></Pressable>:<View style={{height:6}}/>}
+   {back?<Pressable accessibilityRole="button" onPress={back.onPress} hitSlop={8} style={{alignSelf:'flex-start',paddingVertical:6}}><View style={{flexDirection:'row',alignItems:'center',gap:4}}><Icon name="chevronLeft" size={16} color={C.accent} weight={2.1}/><Text style={{color:C.accent,fontWeight:'600',fontSize:14}}>{back.label}</Text></View></Pressable>:<View style={{height:6}}/>}
    {searchable&&<View style={st.search}><Icon name="search" size={17} color={C.muted}/><TextInput value={q} onChangeText={setQ} placeholder={searchPlaceholder??'Search'} placeholderTextColor={C.dim} style={st.searchInput} autoCorrect={false} autoCapitalize="none" clearButtonMode="while-editing" accessibilityLabel="Search"/></View>}
    <View style={{flex:1,justifyContent:'center'}}>
    <View style={{height:wheelH,justifyContent:'center'}}>
@@ -99,7 +99,7 @@ const st=StyleSheet.create({
  top:{flexDirection:'row',alignItems:'center',justifyContent:'space-between',minHeight:36},
  step:{color:C.muted,fontSize:11.5,fontWeight:'700',letterSpacing:1.6},
  close:{width:34,height:34,borderRadius:17,borderWidth:1,borderColor:'#2a2f39',alignItems:'center',justifyContent:'center'},
- title:{color:C.text,fontSize:32,fontWeight:'800',letterSpacing:-1,marginTop:8},
+ title:{color:C.text,fontSize:32,fontWeight:'900',fontStyle:'italic',letterSpacing:-1.1,marginTop:8},
  search:{flexDirection:'row',alignItems:'center',gap:10,borderBottomWidth:1,borderBottomColor:'#2a2f39',marginTop:8},
  searchInput:{flex:1,color:C.text,fontSize:16,paddingVertical:11},
  band:{position:'absolute',left:0,right:0,height:ROW,borderTopWidth:1,borderBottomWidth:1,borderColor:'#343a45'},

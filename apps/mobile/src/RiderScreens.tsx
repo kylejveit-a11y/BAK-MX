@@ -1,6 +1,9 @@
 import React,{useCallback,useContext,useEffect,useRef,useState} from 'react';
-import {ActivityIndicator,Alert,Linking,Pressable,ScrollView,StyleSheet,Text,TextInput,View} from 'react-native';
+import {ActivityIndicator,Alert,KeyboardAvoidingView,Linking,Modal,Platform,Pressable,ScrollView,Share,StyleSheet,Text,TextInput,View} from 'react-native';
+import {useSafeAreaInsets} from 'react-native-safe-area-context';
+import * as Haptics from 'expo-haptics';
 import {useFocusEffect} from '@react-navigation/native';
+import {DateField,rideDays,recentDays} from './DateSheet';
 import type {Bike} from '../../../shared/types';
 import {COMMUNITY_RULES,EVENT_TYPE_LABELS,POST_CATEGORY_LABELS,SETUP_FIELDS,SETUP_RESULT_LABELS,riderName,setupDifferences,type Part,type PartAssembly,type PartCatalog,type Post,type PostCategory,type PostComment,type Profile,type RideEvent,type RiderRef,type SetupLog,type SetupResult,type ThreadMessage,type ThreadSummary} from '../../../shared/rider-types';
 import {api} from './api';
@@ -96,45 +99,105 @@ function RiderActions({rider,target,onBlocked,onMessage}:{rider:RiderRef;target:
 }
 
 /* ------------------------------------------------------------------ Community */
+const ago=(iso:string)=>{const m=Math.round((Date.now()-new Date(iso).getTime())/60000);if(m<1)return 'now';if(m<60)return m+'m';const h=Math.round(m/60);if(h<24)return h+'h';const d=Math.round(h/24);if(d<7)return d+'d';return new Date(iso).toLocaleDateString([],{month:'short',day:'numeric'});};
+const FILTERS:{value:PostCategory|'';label:string}[]=[{value:'',label:'All'},{value:'build',label:'Builds'},{value:'setup_question',label:'Setup questions'},{value:'ride_plan',label:'Ride plans'},{value:'general',label:'General'}];
+
+/** Community: a feed first. One-line composer, small filters, then posts that use the full width. */
 export function CommunityScreen({bike,onMessage}:{bike?:Bike;onMessage:(r:RiderRef)=>void}){
  const {profile,setProfile}=useProfile();
- const [posts,setPosts]=useState<Post[]>([]),[filter,setFilter]=useState<PostCategory|''>(''),[notice,setNotice]=useState(''),[loading,setLoading]=useState(false),[composing,setComposing]=useState(false),[category,setCategory]=useState<PostCategory>('setup_question'),[body,setBody]=useState(''),[tagBike,setTagBike]=useState(true),[busy,setBusy]=useState(false),[open,setOpen]=useState(''),[viewing,setViewing]=useState('');
+ const [posts,setPosts]=useState<Post[]>([]),[filter,setFilter]=useState<PostCategory|''>(''),[notice,setNotice]=useState(''),[loading,setLoading]=useState(false),[composing,setComposing]=useState(false),[open,setOpen]=useState(''),[viewing,setViewing]=useState(''),[reporting,setReporting]=useState(''),[reason,setReason]=useState('');
  const run=useRef(0);
  const load=useCallback(async()=>{const mine=++run.current;setLoading(true);try{const data=await api<Post[]>('/api/posts'+(filter?'?category='+filter:''));if(mine===run.current){setPosts(data);setNotice('');}}catch(e){if(mine===run.current)setNotice(errorText(e));}finally{if(mine===run.current)setLoading(false);}},[filter]);
  useFocusEffect(useCallback(()=>{if(profile)void load();},[load,profile?.user_id]));
- async function publish(){if(busy||!body.trim())return;setBusy(true);try{await api('/api/posts','POST',{category,body,bike_label:tagBike&&bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:''});setBody('');setComposing(false);await load();}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
- async function like(p:Post){setPosts(old=>old.map(x=>x.id===p.id?{...x,liked:!p.liked,like_count:p.like_count+(p.liked?-1:1)}:x));try{await api('/api/likes?post_id='+p.id,p.liked?'DELETE':'PUT');}catch(e){setNotice(errorText(e));void load();}}
+ async function like(p:Post){void Haptics.selectionAsync().catch(()=>{});setPosts(old=>old.map(x=>x.id===p.id?{...x,liked:!p.liked,like_count:p.like_count+(p.liked?-1:1)}:x));try{await api('/api/likes?post_id='+p.id,p.liked?'DELETE':'PUT');}catch(e){setNotice(errorText(e));void load();}}
+ async function report(p:Post){if(!reason.trim())return;try{await api('/api/reports','POST',{target_type:'post',target_id:p.id,reason});setReporting('');setReason('');setNotice('Report received. We review reports and remove posts that break the rules.');}catch(e){setNotice(errorText(e));}}
+ function more(p:Post){
+  const block=()=>Alert.alert(`Block ${riderName(p.author)}?`,'You won’t see their posts, events or messages, and they won’t see yours.',[{text:'Cancel',style:'cancel'},{text:'Block',style:'destructive',onPress:()=>void api('/api/blocks?user_id='+p.user_id,'PUT').then(()=>setPosts(old=>old.filter(x=>x.user_id!==p.user_id))).catch(e=>setNotice(errorText(e)))}]);
+  if(p.mine)Alert.alert('Your post',undefined,[{text:'Delete post',style:'destructive',onPress:()=>void api('/api/posts?id='+p.id,'DELETE').then(load).catch(e=>setNotice(errorText(e)))},{text:'Cancel',style:'cancel'}]);
+  else Alert.alert(riderName(p.author),undefined,[{text:'Message',onPress:()=>onMessage(p.author)},{text:'View profile',onPress:()=>setViewing(p.user_id)},{text:'Report post',onPress:()=>{setReporting(p.id);setReason('');}},{text:'Block',style:'destructive',onPress:block},{text:'Cancel',style:'cancel'}]);
+ }
  if(viewing)return <RiderProfileView riderId={viewing} onBack={()=>setViewing('')} onMessage={r=>{setViewing('');onMessage(r);}}/>;
  if(profile===undefined)return <Page title="Community"><Copy>Loading…</Copy></Page>;
  if(!profile)return <Page title="Community"><Copy>Builds, setup questions and ride plans from riders on gas MX bikes.</Copy><NeedsProfile onSaved={setProfile}/></Page>;
- return <Page title="Community">
-  <Segments value={filter} items={[{value:'' as PostCategory|'',label:'All'},...options(POST_CATEGORY_LABELS)]} onChange={setFilter}/>
-  {!composing&&<StartRow icon="compose" title="Start a post" detail={`Build, setup question or ride plan · as @${profile.handle}`} onPress={()=>setComposing(true)}/>}
-  {composing&&<Card><FormHead title="New post" onCancel={()=>setComposing(false)}/><Choices disabled={busy} label="Kind of post" value={category} items={options(POST_CATEGORY_LABELS)} onChange={v=>setCategory(v as PostCategory)}/>
-   <Field editable={!busy} label="Post" placeholder="What’s on the bike, what you’re chasing, or where you’re riding" value={body} onChangeText={setBody} multiline maxLength={4000} autoCapitalize="sentences"/>
-   {bike&&<CheckRow label={`Tag my ${bike.model_year} ${bike.manufacturer} ${bike.model}`} checked={tagBike} onPress={()=>setTagBike(!tagBike)}/>}
-   <Button disabled={busy||!body.trim()} title={busy?'Posting…':'Post'} onPress={()=>void publish()}/></Card>}
+ return <Page title="">
+  <View style={{gap:14}}>
+   <Text style={{color:colors.text,fontSize:28,fontWeight:'900',fontStyle:'italic',letterSpacing:-1}}>Community</Text>
+   <Pressable accessibilityRole="button" accessibilityLabel="Start a post" onPress={()=>setComposing(true)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,opacity:pressed?0.7:1})}>
+    <Avatar name={riderName(profile)} size={38}/>
+    <View style={{flex:1,borderWidth:1,borderColor:'#2f3540',borderRadius:22,paddingHorizontal:16,paddingVertical:11}}><Text style={{color:'#8f97a5',fontSize:15}}>What’s on the bike, {profile.display_name?.split(' ')[0]||'@'+profile.handle}?</Text></View>
+   </Pressable>
+   <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap:8}} style={{flexGrow:0,marginHorizontal:-20}}>
+    <View style={{width:12}}/>{FILTERS.map(f=>{const on=filter===f.value;return <Pressable key={f.label} accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setFilter(f.value)} style={({pressed})=>({paddingHorizontal:13,paddingVertical:6,borderRadius:16,backgroundColor:on?colors.text:'transparent',borderWidth:1,borderColor:on?colors.text:'#2f3540',opacity:pressed?0.7:1})}><Text style={{color:on?'#0a0d12':'#c9cfd9',fontSize:13,fontWeight:on?'700':'500'}}>{f.label}</Text></Pressable>;})}<View style={{width:12}}/>
+   </ScrollView>
+  </View>
   <Notice text={notice}/>
   {loading&&!posts.length&&<Copy>Loading the feed…</Copy>}
-  {!loading&&!posts.length&&<Card><Copy strong>Nothing here yet.</Copy><Copy>Be the first to post a build, a setup question or a ride plan.</Copy></Card>}
-  {posts.map(p=><Card key={p.id}>
-   <View style={{flexDirection:'row',gap:12,alignItems:'center'}}><Avatar name={riderName(p.author)}/><Pressable accessibilityRole="button" accessibilityLabel={'View '+riderName(p.author)} onPress={()=>setViewing(p.user_id)} style={{flex:1}}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{riderName(p.author)}</Text><Text style={{color:colors.muted,fontSize:12}}>@{p.author.handle}{p.author.location?' · '+p.author.location:''} · {when(p.created_at)}</Text></Pressable></View>
-   <Row><Tag text={POST_CATEGORY_LABELS[p.category]}/>{!!p.bike_label&&<Text style={{color:colors.primary,fontSize:12}}>{p.bike_label}</Text>}</Row>
-   <Text selectable style={{color:colors.text,fontSize:16,lineHeight:24}}>{p.body}</Text>
-   <Row><IconAction icon={p.liked?'heartOn':'heart'} active={p.liked} label={String(p.like_count)} onPress={()=>void like(p)}/><IconAction icon="comment" active={open===p.id} label={String(p.comment_count)} onPress={()=>setOpen(open===p.id?'':p.id)}/>{p.mine&&<Link danger title="Delete" onPress={()=>Alert.alert('Delete this post?','',[{text:'Cancel',style:'cancel'},{text:'Delete',style:'destructive',onPress:()=>void api('/api/posts?id='+p.id,'DELETE').then(load).catch(e=>setNotice(errorText(e)))}])}/>}</Row>
-   {!p.mine&&<RiderActions rider={p.author} target={{type:'post',id:p.id}} onMessage={onMessage} onBlocked={()=>setPosts(old=>old.filter(x=>x.user_id!==p.user_id))}/>}
-   {open===p.id&&<Comments postId={p.id} onCount={n=>setPosts(old=>old.map(x=>x.id===p.id?{...x,comment_count:n}:x))}/>}
-  </Card>)}
+  {!loading&&!posts.length&&<View style={{paddingVertical:40,alignItems:'center',gap:10}}><Icon name="riders" size={40} color="#5d6470" bg="#060609"/><Text style={{color:colors.text,fontSize:18,fontWeight:'800'}}>Nothing here yet</Text><Text style={{color:'#8f97a5',fontSize:14,textAlign:'center'}}>Be the first to post a build, a setup question or a ride plan.</Text></View>}
+  <View style={{marginHorizontal:-20}}>{posts.map(p=><PostView key={p.id} p={p} open={open===p.id} onOpen={()=>setOpen(open===p.id?'':p.id)} onLike={()=>void like(p)} onMore={()=>more(p)} onRider={()=>setViewing(p.user_id)} onCount={n=>setPosts(old=>old.map(x=>x.id===p.id?{...x,comment_count:n}:x))}
+   report={reporting===p.id?<View style={{gap:10,paddingHorizontal:20}}><Field label="What’s wrong with this post?" value={reason} onChangeText={setReason} multiline maxLength={1000} autoCapitalize="sentences"/><View style={{flexDirection:'row',gap:22}}><LinkActionLite title="Send report" onPress={()=>void report(p)}/><LinkActionLite muted title="Cancel" onPress={()=>setReporting('')}/></View></View>:null}/>)}</View>
+  <ComposeSheet visible={composing} profile={profile} bike={bike} onClose={()=>setComposing(false)} onPosted={()=>{setComposing(false);void load();}}/>
  </Page>;
 }
+function LinkActionLite({title,onPress,muted=false}:{title:string;onPress:()=>void;muted?:boolean}){return <Pressable accessibilityRole="button" hitSlop={8} onPress={onPress}><Text style={{color:muted?'#8f97a5':colors.accent,fontSize:15,fontWeight:'700'}}>{title}</Text></Pressable>;}
+
+function PostView({p,open,onOpen,onLike,onMore,onRider,onCount,report}:{p:Post;open:boolean;onOpen:()=>void;onLike:()=>void;onMore:()=>void;onRider:()=>void;onCount:(n:number)=>void;report:React.ReactNode}){
+ const [full,setFull]=useState(false),long=p.body.length>320||p.body.split('\n').length>6;
+ return <View style={{paddingTop:18,paddingBottom:6,gap:12,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#262b34'}}>
+  <View style={{flexDirection:'row',alignItems:'center',gap:12,paddingHorizontal:20}}>
+   <Pressable accessibilityRole="button" accessibilityLabel={'View '+riderName(p.author)} onPress={onRider}><Avatar name={riderName(p.author)} size={42}/></Pressable>
+   <Pressable accessibilityRole="button" accessibilityLabel={'View '+riderName(p.author)} onPress={onRider} style={{flex:1,gap:2}}>
+    <Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>{riderName(p.author)} <Text style={{color:'#737b88',fontWeight:'500'}}>· {ago(p.created_at)}</Text></Text>
+    <Text numberOfLines={1} style={{color:'#8f97a5',fontSize:12.5}}><Text style={{color:colors.accent,fontWeight:'700'}}>{POST_CATEGORY_LABELS[p.category]}</Text>{p.bike_label?' · '+p.bike_label:p.author.location?' · '+p.author.location:''}</Text>
+   </Pressable>
+   <Pressable accessibilityRole="button" accessibilityLabel="More options" hitSlop={12} onPress={onMore}><Icon name="more" size={22} color="#8f97a5"/></Pressable>
+  </View>
+  <Pressable onPress={long?()=>setFull(!full):undefined} style={{paddingHorizontal:20}} disabled={!long}>
+   <Text selectable numberOfLines={full||!long?undefined:6} style={{color:colors.text,fontSize:16.5,lineHeight:25}}>{p.body}</Text>
+   {long&&<Text style={{color:'#8f97a5',fontSize:14,fontWeight:'600',marginTop:4}}>{full?'Show less':'See more'}</Text>}
+  </Pressable>
+  {report}
+  <View style={{flexDirection:'row',alignItems:'center',gap:22,paddingHorizontal:20}}>
+   <Pressable accessibilityRole="button" accessibilityLabel={p.liked?'Unlike':'Like'} accessibilityState={{selected:p.liked}} hitSlop={8} onPress={onLike} style={{flexDirection:'row',alignItems:'center',gap:6}}><Icon name={p.liked?'heartOn':'heart'} size={23} color={p.liked?'#e8607a':colors.text}/>{p.like_count>0&&<Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>{p.like_count}</Text>}</Pressable>
+   <Pressable accessibilityRole="button" accessibilityLabel="Comments" hitSlop={8} onPress={onOpen} style={{flexDirection:'row',alignItems:'center',gap:6}}><Icon name="comment" size={22} color={colors.text}/>{p.comment_count>0&&<Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>{p.comment_count}</Text>}</Pressable>
+   <Pressable accessibilityRole="button" accessibilityLabel="Share" hitSlop={8} onPress={()=>void Share.share({message:`${riderName(p.author)} on BAK MX:\n\n${p.body}`}).catch(()=>{})}><Icon name="share" size={22} color={colors.text}/></Pressable>
+  </View>
+  {!open&&p.comment_count>0&&<Pressable onPress={onOpen} style={{paddingHorizontal:20}}><Text style={{color:'#8f97a5',fontSize:14}}>View {p.comment_count===1?'1 comment':`all ${p.comment_count} comments`}</Text></Pressable>}
+  {open&&<Comments postId={p.id} onCount={onCount}/>}
+ </View>;
+}
+
+function ComposeSheet({visible,profile,bike,onClose,onPosted}:{visible:boolean;profile:Profile;bike?:Bike;onClose:()=>void;onPosted:()=>void}){
+ const insets=useSafeAreaInsets();
+ const [category,setCategory]=useState<PostCategory>('setup_question'),[body,setBody]=useState(''),[tagBike,setTagBike]=useState(true),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
+ async function publish(){if(busy||!body.trim())return;setBusy(true);setNotice('');try{await api('/api/posts','POST',{category,body,bike_label:tagBike&&bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:''});setBody('');onPosted();}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
+ const hint={build:'What you did to the bike and how it turned out',setup_question:'What the bike is doing, where, and what you’ve tried',ride_plan:'Where, when, and who should come',general:'What’s on your mind'}[category];
+ return <Modal visible={visible} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
+  <KeyboardAvoidingView behavior={Platform.OS==='ios'?'padding':undefined} style={{flex:1,backgroundColor:colors.bg}}>
+   <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:20,paddingTop:Platform.OS==='ios'?16:insets.top+10,paddingBottom:12,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'#262b34'}}>
+    <Pressable accessibilityRole="button" hitSlop={10} onPress={onClose}><Text style={{color:colors.text,fontSize:16}}>Cancel</Text></Pressable>
+    <Text style={{color:colors.text,fontSize:17,fontWeight:'800'}}>New post</Text>
+    <Pressable accessibilityRole="button" accessibilityState={{disabled:busy||!body.trim()}} disabled={busy||!body.trim()} onPress={()=>void publish()} style={({pressed})=>({backgroundColor:body.trim()?colors.primary:'#16191f',borderRadius:18,paddingHorizontal:16,paddingVertical:7,opacity:pressed?0.7:1})}><Text style={{color:body.trim()?'#0a0d12':'#5d6470',fontWeight:'800',fontSize:15}}>{busy?'Posting…':'Post'}</Text></Pressable>
+   </View>
+   <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{padding:20,gap:16}}>
+    <View style={{flexDirection:'row',alignItems:'center',gap:12}}><Avatar name={riderName(profile)} size={42}/><View style={{flex:1}}><Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{riderName(profile)}</Text>{bike&&<Pressable accessibilityRole="checkbox" accessibilityState={{checked:tagBike}} onPress={()=>setTagBike(!tagBike)} style={{flexDirection:'row',alignItems:'center',gap:6,marginTop:3}}><Icon name={tagBike?'checkboxOn':'checkbox'} size={16} color={tagBike?colors.accent:'#8f97a5'}/><Text style={{color:tagBike?colors.accent:'#8f97a5',fontSize:13,fontWeight:'600'}}>{bike.model_year} {bike.manufacturer} {bike.model}</Text></Pressable>}</View></View>
+    <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap:8}} style={{flexGrow:0}}>{options(POST_CATEGORY_LABELS).map(o=>{const on=category===o.value;return <Pressable key={o.value} accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setCategory(o.value)} style={({pressed})=>({paddingHorizontal:14,paddingVertical:7,borderRadius:16,backgroundColor:on?colors.text:'transparent',borderWidth:1,borderColor:on?colors.text:'#2f3540',opacity:pressed?0.7:1})}><Text style={{color:on?'#0a0d12':'#c9cfd9',fontSize:14,fontWeight:on?'700':'500'}}>{o.label}</Text></Pressable>;})}</ScrollView>
+    <TextInput autoFocus multiline value={body} onChangeText={setBody} maxLength={4000} autoCapitalize="sentences" placeholder={hint} placeholderTextColor="#5d6470" selectionColor={colors.accent} accessibilityLabel="Post" style={{color:colors.text,fontSize:19,lineHeight:27,minHeight:180,textAlignVertical:'top'}}/>
+    <Notice text={notice}/>
+    {body.length>3500&&<Text style={{color:'#8f97a5',fontSize:12,textAlign:'right'}}>{4000-body.length} left</Text>}
+   </ScrollView>
+  </KeyboardAvoidingView>
+ </Modal>;
+}
+
 function Comments({postId,onCount}:{postId:string;onCount:(n:number)=>void}){
  const [comments,setComments]=useState<PostComment[]>([]),[text,setText]=useState(''),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
  const load=useCallback(async()=>{try{const data=await api<PostComment[]>('/api/comments?post_id='+postId);setComments(data);onCount(data.length);}catch(e){setNotice(errorText(e));}},[postId]);
  useEffect(()=>{void load();},[load]);
  async function add(){if(busy||!text.trim())return;setBusy(true);try{await api('/api/comments','POST',{post_id:postId,body:text});setText('');await load();}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
- return <View style={{gap:10,borderTopWidth:1,borderTopColor:colors.line,paddingTop:12}}>
-  {comments.map(c=><View key={c.id} style={{gap:2}}><Text style={{color:colors.text,fontWeight:'700',fontSize:13}}>{riderName(c.author)} <Text style={{color:colors.muted,fontWeight:'400'}}>· {when(c.created_at)}</Text></Text><Text selectable style={{color:colors.text,fontSize:15,lineHeight:22}}>{c.body}</Text>{c.mine&&<Link danger title="Delete" onPress={()=>void api('/api/comments?id='+c.id,'DELETE').then(load).catch(e=>setNotice(errorText(e)))}/>}</View>)}
-  <Notice text={notice}/><Field editable={!busy} label="Add a comment" value={text} onChangeText={setText} maxLength={2000} autoCapitalize="sentences"/><Button secondary disabled={busy||!text.trim()} title="Comment" onPress={()=>void add()}/>
+ return <View style={{gap:12,paddingHorizontal:20,paddingTop:4}}>
+  {comments.map(c=><View key={c.id} style={{flexDirection:'row',gap:10}}><Avatar name={riderName(c.author)} size={30}/><View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:14.5,lineHeight:21}}><Text style={{fontWeight:'700'}}>{riderName(c.author)} </Text>{c.body}</Text><View style={{flexDirection:'row',gap:14}}><Text style={{color:'#737b88',fontSize:12}}>{ago(c.created_at)}</Text>{c.mine&&<Pressable hitSlop={8} onPress={()=>void api('/api/comments?id='+c.id,'DELETE').then(load).catch(e=>setNotice(errorText(e)))}><Text style={{color:'#efb5be',fontSize:12,fontWeight:'600'}}>Delete</Text></Pressable>}</View></View></View>)}
+  <Notice text={notice}/>
+  <View style={{flexDirection:'row',alignItems:'center',gap:8,borderWidth:1,borderColor:'#2f3540',borderRadius:22,paddingLeft:14,paddingRight:5,paddingVertical:4}}><TextInput editable={!busy} value={text} onChangeText={setText} maxLength={2000} autoCapitalize="sentences" placeholder="Add a comment…" placeholderTextColor="#5d6470" accessibilityLabel="Add a comment" style={{flex:1,color:colors.text,fontSize:15,paddingVertical:8}} onSubmitEditing={()=>void add()} returnKeyType="send"/><Pressable accessibilityRole="button" accessibilityLabel="Post comment" disabled={busy||!text.trim()} onPress={()=>void add()} style={{width:32,height:32,borderRadius:16,backgroundColor:text.trim()?colors.primary:'transparent',alignItems:'center',justifyContent:'center'}}><Icon name="arrowUp" size={17} color={text.trim()?'#0a0d12':'#5d6470'} weight={2.2}/></Pressable></View>
  </View>;
 }
 
@@ -157,7 +220,7 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
   try{
    const start=parseLocalStamp(starts),end=ends.trim()?parseLocalStamp(ends):null;
    if(!title.trim()||!place.trim())throw new Error('Enter the event name and the track or location.');
-   if(!start||(ends.trim()&&!end))throw new Error('Enter dates as YYYY-MM-DD HH:MM, for example 2026-11-07 09:00.');
+   if(!start||(ends.trim()&&!end))throw new Error('Pick a start date and time.');
    await api('/api/events','POST',{title,event_type:type,starts_at:start.toISOString(),ends_at:end?end.toISOString():null,location_name:place,description:details});
    setTitle('');setPlace('');setDetails('');setEnds('');setCreating(false);setScope('upcoming');await load();
   }catch(e){setNotice(errorText(e));}finally{setBusy(false);}
@@ -171,8 +234,8 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
   {creating&&<Card><FormHead title="New event" onCancel={()=>setCreating(false)}/>
    <Field editable={!busy} label="Event name" value={title} onChangeText={setTitle} maxLength={120} autoCapitalize="sentences"/>
    <Choices disabled={busy} label="Type" value={type} items={options(EVENT_TYPE_LABELS)} onChange={setType}/>
-   <Field editable={!busy} label="Starts (YYYY-MM-DD HH:MM)" value={starts} onChangeText={setStarts} keyboardType="numbers-and-punctuation"/>
-   <Field editable={!busy} label="Ends (optional)" value={ends} onChangeText={setEnds} keyboardType="numbers-and-punctuation"/>
+   <DateField disabled={busy} label="Starts" time value={starts} onChange={setStarts} years={[new Date().getFullYear(),new Date().getFullYear()+2]} quick={rideDays()}/>
+   <DateField disabled={busy} label="Ends" time optional value={ends} onChange={setEnds} years={[new Date().getFullYear(),new Date().getFullYear()+2]} quick={rideDays()}/>
    <Field editable={!busy} label="Track or location" value={place} onChangeText={setPlace} maxLength={160} autoCapitalize="words"/>
    <Field editable={!busy} label="Details" value={details} onChangeText={setDetails} multiline maxLength={4000} autoCapitalize="sentences"/>
    <Button disabled={busy} title={busy?'Saving…':'Publish event'} onPress={()=>void create()}/></Card>}
@@ -230,7 +293,7 @@ export function SetupLogCard({bike,onAsk}:{bike?:Bike;onAsk:(text:string)=>void}
  async function save(){
   if(busy||!bike)return;setBusy(true);
   try{
-   if(!/^\d{4}-\d{2}-\d{2}$/.test(date)||!Number.isFinite(Date.parse(date+'T12:00:00')))throw new Error('Enter the date as YYYY-MM-DD.');
+   if(!/^\d{4}-\d{2}-\d{2}$/.test(date)||!Number.isFinite(Date.parse(date+'T12:00:00')))throw new Error('Pick the date you rode.');
    const h=hours.trim()?Number(hours):null;if(h!==null&&(!Number.isFinite(h)||h<0))throw new Error('Hours must be zero or greater.');
    await api('/api/setup-logs','POST',{bike_id:bike.id,recorded_at:new Date(date+'T12:00:00').toISOString(),track,conditions,engine_hours:h,settings:Object.fromEntries(SETUP_FIELDS.map(f=>[f.key,settings[f.key]?.trim()||null])),change_made:change,result,notes});
    setAdding(false);await load();
@@ -249,7 +312,7 @@ export function SetupLogCard({bike,onAsk}:{bike?:Bike;onAsk:(text:string)=>void}
     <Pressable accessibilityRole="button" onPress={()=>setShowMore(!showMore)}><Text style={{color:colors.accent,fontWeight:'700'}}>{showMore?'Hide conditions and settings':'Conditions, date, hours and full settings'}</Text></Pressable>
     {showMore&&<>
     <Field editable={!busy} label="Conditions" placeholder="Sand, hard-pack, wet…" value={conditions} onChangeText={setConditions} maxLength={200} autoCapitalize="sentences"/>
-    <Field editable={!busy} label="Date (YYYY-MM-DD)" value={date} onChangeText={setDate} keyboardType="numbers-and-punctuation"/>
+    <DateField disabled={busy} label="Date" value={date} onChange={setDate} years={[new Date().getFullYear()-5,new Date().getFullYear()]} quick={recentDays()}/>
     <Field editable={!busy} label="Hours" value={hours} onChangeText={setHours} keyboardType="decimal-pad"/>
     {(['Fork','Shock','Chassis','Engine'] as const).map(group=><View key={group} style={{gap:10}}><Text style={{color:colors.accent,fontSize:12,fontWeight:'800',letterSpacing:2}}>{group.toUpperCase()}</Text>{SETUP_FIELDS.filter(f=>f.group===group).map(f=><Field editable={!busy} key={f.key} label={f.label} value={settings[f.key]??''} onChangeText={v=>setSettings(old=>({...old,[f.key]:v}))} maxLength={200}/>)}</View>)}
     </>}
