@@ -1,6 +1,6 @@
 /** The Garage parts picker, shared by the web app and the iPhone app: catalog decoding, one name per maker, part types,
  *  work done and who did it, and the fuel-system filter. Each app supplies only its own fetch and screens. */
-import type {PartSystem} from './installed-parts.ts';
+import {placeSystem,type PartSystem} from './installed-parts.ts';
 import {workProviders,type WorkProvider} from './work-providers.ts';
 import {partTypes,typeOf} from './part-types.ts';
 import type {FuelSystem} from './fuel-system.ts';
@@ -18,7 +18,7 @@ export function decodeFamily(f:FamilyFile|null,make:string,model:string,year:num
  if(!f||!list)return null;
  const out:CatalogPart[]=[];let idx=0;
  for(const d of list){idx+=d;const it=f.items[idx];if(!it)continue;
-  out.push({brand:f.brands[it.b]??'',name:it.n,system:f.systems[it.s],pn:it.p??'',r:it.r,verified:it.conf==='high',what:it.w??'',caution:it.c??'',testers:it.t??[],service:!!it.sv,...(it.k?{fuel:it.k}:{}),...(it.cl?.length?{colors:it.cl.map(([name,finish])=>({name,finish}))}:{}),
+  out.push({brand:f.brands[it.b]??'',name:it.n,system:placeSystem(f.systems[it.s],f.brands[it.b]??'',it.n),pn:it.p??'',r:it.r,verified:it.conf==='high',what:it.w??'',caution:it.c??'',testers:it.t??[],service:!!it.sv,...(it.k?{fuel:it.k}:{}),...(it.cl?.length?{colors:it.cl.map(([name,finish])=>({name,finish}))}:{}),
    links:(it.u??[]).map(([code,path,price])=>({seller:SELLER[code]??'Source',url:(f.sellers[code]??'')+path,price:price??''})).filter(l=>/^https:\/\//.test(l.url))});
  }
  return out;

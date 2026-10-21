@@ -28,16 +28,16 @@ export const MAX_PARTS=40;
 const clip=(v:unknown,n:number)=>String(v??'').replace(/\s+/g,' ').trim().slice(0,n);
 /** Parts whose name says plainly where they belong. Only unambiguous names move; everything else keeps the rider's choice. */
 const PLACE:[RegExp,PartSystem][]=[
- [/holeshot|launch (?:control|device)|start(?:ing)? device/i,'chassis'],
- [/triple clamps?/i,'chassis'],
- [/chain (?:guide|slider)/i,'chassis'],
- [/sprocket|\b(?:520|428|420) .*chain\b|\bchain\b(?! (?:guide|slider|guard))/i,'gearing'],
- [/brake pads?|brake rotor|\brotor kit\b/i,'brakes'],
+ [/holeshot|start(?:ing)? (?:device|blocks?)|launch device/i,'chassis'],
+ [/^(?!.*(?:mount|spacer|handguard|bushing|bearing|hardware)).*\btriple clamps?\b/i,'chassis'],
+ [/chain (?:guide|slider)s?\b/i,'chassis'],
+ [/sprocket|^(?!.*(?:chain rollers?|adjuster|guide|slider|guard|breaker|tool|lube|clean)).*\b(?:4[12]0|428|520|525)\b.*\bchain\b/i,'gearing'],
+ [/brake pads?\b|brake rotor|\brotor kit\b/i,'brakes'],
  [/air filter|airbox|air box|filter cage/i,'intake'],
- [/skid plate|frame guards?|radiator (?:guards?|braces?|louvers?)/i,'protection'],
- [/handlebars?\b(?! (?:guard|pad))|\bbar mounts?|\bgrips?\b|\blevers?\b(?! guard)|foot ?pegs?/i,'controls'],
+ [/skid plate|frame guards?\b|radiator (?:guards?|braces?|louvers?)/i,'protection'],
+ [/^(?!.*(?:switch|ecu|map|handguard|hand guard|guard|clamp)).*(?:handlebars?\b|\bbar mounts?\b|\bgrips?\b|\blevers?\b|foot ?pegs?)/i,'controls'],
 ];
-export function placeSystem(s:PartSystem,b:string,n:string):PartSystem{const t=(b+' '+n);for(const [re,k] of PLACE)if(re.test(t))return k;return s;}
+export function placeSystem(s:PartSystem,_b:string,n:string):PartSystem{for(const [re,k] of PLACE)if(re.test(n))return k;return s;}
 /** Order inside a system, the way a build sheet reads: front to back, big parts before wear parts. Unmatched parts keep their order at the end. */
 const ORDER:Partial<Record<PartSystem,RegExp[]>>={
  suspension:[/fork/i,/shock|preload/i,/linkage|\blink\b/i],

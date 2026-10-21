@@ -149,3 +149,12 @@ test('build sheet order: systems front to back, parts in reading order, obvious 
  // a rider's own pick that the names don't settle stays where they put it
  assert.equal(readInstalled({installed_parts:[{s:'engine',b:'Acme',n:'Widget'}]}).parts[0].s,'engine');
 });
+
+test('placement leaves look-alikes where they belong',async()=>{
+ const {placeSystem}=await import('../shared/installed-parts.ts');
+ const keep:[string,string,string][]=[['tuning','Athena','LC-GPA Launch Control Module'],['tuning','KTM','SX-F 2023 handlebar map switch'],['controls','Cycra','Triple Clamp Handguard Mounts'],
+  ['brakes','Arc Levers','ARC Slipper Brake Clamp'],['chassis','Helix Racing Products','Helix Polyurethane Chain Roller'],['chassis','Turner','Swing Arm Chain Adjuster Bolt Repair Kit']];
+ for(const [s,b,n] of keep)assert.equal(placeSystem(s as never,b,n),s,n);
+ const move:[string,string,string][]=[['suspension','Devol','X-Shot Holeshot System','chassis'],['chassis','DID Chain','DID 525 Standard Series Roller Chain','gearing'],['controls','Acerbis','X-Grip Frame Guards','protection'],['gearing','Acerbis','Chain Sliders','chassis']].map(x=>x as never);
+ for(const [s,b,n,to] of move as unknown as string[][])assert.equal(placeSystem(s as never,b,n),to,n);
+});
