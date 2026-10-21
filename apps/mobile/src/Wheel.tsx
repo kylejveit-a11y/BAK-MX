@@ -4,7 +4,7 @@ import React,{useEffect,useMemo,useRef,useState} from 'react';
 import {Animated,FlatList,Modal,Pressable,StyleSheet,Text,TextInput,View,useWindowDimensions,type NativeScrollEvent,type NativeSyntheticEvent} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import * as Haptics from 'expo-haptics';
-import {Ionicons} from '@expo/vector-icons';
+import {Icon} from './Icon';
 
 export type Option={value:string;label:string;detail?:string};
 const ROW=54;
@@ -33,14 +33,15 @@ export function WheelSheet({visible,step,title,options,value,onPick,onClose,back
   <View style={[st.sheet,{paddingTop:insets.top+10,paddingBottom:insets.bottom+12}]}>
    <View style={st.top}>
     <Text style={st.step}>{step??''}</Text>
-    <Pressable accessibilityRole="button" accessibilityLabel="Close" hitSlop={12} onPress={onClose} style={({pressed})=>[st.close,pressed&&{opacity:0.6}]}><Ionicons name="close" size={20} color={C.text}/></Pressable>
+    <Pressable accessibilityRole="button" accessibilityLabel="Close" hitSlop={12} onPress={onClose} style={({pressed})=>[st.close,pressed&&{opacity:0.6}]}><Icon name="close" size={18} color={C.text} weight={2}/></Pressable>
    </View>
    <Text style={st.title} numberOfLines={2}>{title}</Text>
    {back?<Pressable accessibilityRole="button" onPress={back.onPress} hitSlop={8} style={{alignSelf:'flex-start',paddingVertical:6}}><Text style={{color:C.accent,fontWeight:'600',fontSize:14}}>‹ {back.label}</Text></Pressable>:<View style={{height:6}}/>}
-   {searchable&&<View style={st.search}><Ionicons name="search" size={16} color={C.muted}/><TextInput value={q} onChangeText={setQ} placeholder={searchPlaceholder??'Search'} placeholderTextColor={C.dim} style={st.searchInput} autoCorrect={false} autoCapitalize="none" clearButtonMode="while-editing" accessibilityLabel="Search"/></View>}
+   {searchable&&<View style={st.search}><Icon name="search" size={17} color={C.muted}/><TextInput value={q} onChangeText={setQ} placeholder={searchPlaceholder??'Search'} placeholderTextColor={C.dim} style={st.searchInput} autoCorrect={false} autoCapitalize="none" clearButtonMode="while-editing" accessibilityLabel="Search"/></View>}
    <View style={{flex:1,justifyContent:'center'}}>
    <View style={{height:wheelH,justifyContent:'center'}}>
     <View pointerEvents="none" style={[st.band,{top:pad}]}/>
+    <View pointerEvents="none" style={{position:'absolute',left:2,top:pad+ROW/2-1.5,width:14,height:3,borderRadius:1,backgroundColor:C.accent,transform:[{skewX:'-24deg'}]}}/>
     {list.length===0?<Text style={{color:C.muted,textAlign:'center',fontSize:15}}>Nothing matches “{q.trim()}”.</Text>:
     <Animated.FlatList ref={ref} data={list} keyExtractor={o=>o.value||'__none'} showsVerticalScrollIndicator={false} snapToInterval={ROW} decelerationRate="fast" onScroll={onScroll} scrollEventThrottle={16}
      contentContainerStyle={{paddingVertical:pad}} getItemLayout={(_,i)=>({length:ROW,offset:ROW*i,index:i})} keyboardShouldPersistTaps="handled" initialNumToRender={30}
@@ -73,11 +74,11 @@ export function WheelSelect({label,value,options,onChange,disabled=false,placeho
  const empty=!current||current.value==='';
  const row=inline?
   <Pressable accessibilityRole="button" accessibilityLabel={`${label}: ${shown}`} accessibilityState={{disabled}} disabled={disabled} onPress={()=>setOpen(true)} style={({pressed})=>[st.pill,(pressed||disabled)&&{opacity:0.55}]}>
-   <Text numberOfLines={1} style={{color:C.text,fontSize:14,fontWeight:'600',flexShrink:1}}>{shown}</Text><Ionicons name="chevron-down" size={14} color={C.muted}/>
+   <Text numberOfLines={1} style={{color:C.text,fontSize:14,fontWeight:'600',flexShrink:1}}>{shown}</Text><Icon name="chevronDown" size={14} color={C.muted} weight={2}/>
   </Pressable>:
   <Pressable accessibilityRole="button" accessibilityLabel={`${label}: ${shown}`} accessibilityState={{disabled}} disabled={disabled} onPress={()=>setOpen(true)} style={({pressed})=>[st.row,(pressed||disabled)&&{opacity:0.55}]}>
    <View style={{flex:1,gap:3}}><Text style={st.rowLabel}>{label}</Text><Text numberOfLines={1} style={{color:empty?C.muted:C.text,fontSize:17,fontWeight:empty?'500':'600'}}>{shown}</Text></View>
-   <Ionicons name="chevron-expand" size={18} color={C.muted}/>
+   <Icon name="expand" size={18} color={C.muted}/>
   </Pressable>;
  return <>{row}<WheelSheet visible={open} title={label} options={options} value={value} onClose={()=>setOpen(false)} onPick={v=>{setOpen(false);onChange(v);}}/></>;
 }
@@ -97,15 +98,15 @@ const st=StyleSheet.create({
  sheet:{flex:1,backgroundColor:C.bg,paddingHorizontal:22},
  top:{flexDirection:'row',alignItems:'center',justifyContent:'space-between',minHeight:36},
  step:{color:C.muted,fontSize:11.5,fontWeight:'700',letterSpacing:1.6},
- close:{width:34,height:34,borderRadius:17,backgroundColor:'#16191f',alignItems:'center',justifyContent:'center'},
+ close:{width:34,height:34,borderRadius:17,borderWidth:1,borderColor:'#2a2f39',alignItems:'center',justifyContent:'center'},
  title:{color:C.text,fontSize:32,fontWeight:'800',letterSpacing:-1,marginTop:8},
- search:{flexDirection:'row',alignItems:'center',gap:8,backgroundColor:'#121418',borderRadius:12,paddingHorizontal:12,marginTop:8},
+ search:{flexDirection:'row',alignItems:'center',gap:10,borderBottomWidth:1,borderBottomColor:'#2a2f39',marginTop:8},
  searchInput:{flex:1,color:C.text,fontSize:16,paddingVertical:11},
- band:{position:'absolute',left:0,right:0,height:ROW,borderRadius:14,backgroundColor:C.band,borderTopWidth:StyleSheet.hairlineWidth,borderBottomWidth:StyleSheet.hairlineWidth,borderColor:'#2c323d'},
+ band:{position:'absolute',left:0,right:0,height:ROW,borderTopWidth:1,borderBottomWidth:1,borderColor:'#343a45'},
  hint:{color:C.dim,fontSize:10.5,letterSpacing:1.6,fontWeight:'700',textAlign:'center',marginTop:12},
  bottom:{flexDirection:'row',alignItems:'center',justifyContent:'space-between'},
  choose:{backgroundColor:C.primary,borderRadius:24,paddingHorizontal:26,paddingVertical:13},
  row:{flexDirection:'row',alignItems:'center',gap:12,paddingVertical:13,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:C.line},
  rowLabel:{color:C.muted,fontSize:12.5,fontWeight:'600'},
- pill:{flexDirection:'row',alignItems:'center',gap:6,backgroundColor:'#13161c',borderRadius:18,paddingHorizontal:13,paddingVertical:8,maxWidth:'100%'},
+ pill:{flexDirection:'row',alignItems:'center',gap:6,borderWidth:1,borderColor:'#2f3540',borderRadius:18,paddingHorizontal:13,paddingVertical:7,maxWidth:'100%'},
 });

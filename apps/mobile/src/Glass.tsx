@@ -5,7 +5,7 @@ import {Keyboard,Platform,Pressable,StyleSheet,Text,View,type StyleProp,type Vie
 import {BlurView} from 'expo-blur';
 import {GlassView,isLiquidGlassAvailable} from 'expo-glass-effect';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
-import {Ionicons} from '@expo/vector-icons';
+import {Icon,type IconName} from './Icon';
 import type {BottomTabBarProps} from '@react-navigation/bottom-tabs';
 
 const liquid=(()=>{try{return Platform.OS==='ios'&&isLiquidGlassAvailable();}catch{return false;}})();
@@ -32,7 +32,7 @@ export const TAB_H=62;
 export function useTabSpace(){const insets=useSafeAreaInsets();return tabBottom(insets.bottom)+TAB_H;}
 const tabBottom=(inset:number)=>inset>0?inset-4:12;
 
-const icons:Record<string,string>={Home:'home',Garage:'bicycle','Ask BAK':'chatbubble-ellipses',Community:'people',Events:'calendar'};
+const icons:Record<string,IconName>={Home:'home',Garage:'moto','Ask BAK':'chat',Community:'riders',Events:'flag'};
 const labels:Record<string,string>={'Ask BAK':'Chat'};
 
 /** Floating glass tab bar. The active tab gets a raked accent stripe, like a number-plate graphic. */
@@ -43,10 +43,10 @@ export function FloatingTabBar({state,navigation}:BottomTabBarProps){
  const current=state.routes[state.index]?.name;
  return <View pointerEvents="box-none" style={{position:'absolute',left:0,right:0,bottom:tabBottom(insets.bottom),alignItems:'center'}}>
   <View style={{width:'92%',maxWidth:460,borderRadius:TAB_H/2,shadowColor:'#000',shadowOpacity:0.5,shadowRadius:18,shadowOffset:{width:0,height:8}}}><Glass strong style={{height:TAB_H,borderRadius:TAB_H/2,flexDirection:'row',alignItems:'center',paddingHorizontal:6}}>
-   {routes.map(r=>{const on=r.name===current;const name=icons[r.name]+(on?'':'-outline');
+   {routes.map(r=>{const on=r.name===current;
     return <Pressable key={r.key} accessibilityRole="tab" accessibilityState={{selected:on}} accessibilityLabel={labels[r.name]??r.name} onPress={()=>{const e=navigation.emit({type:'tabPress',target:r.key,canPreventDefault:true});if(!on&&!e.defaultPrevented)navigation.navigate(r.name as never);}} style={({pressed})=>({flex:1,alignItems:'center',justifyContent:'center',height:TAB_H,opacity:pressed?0.6:1})}>
      <View style={{height:3,width:16,marginBottom:5,borderRadius:1,backgroundColor:on?ACCENT:'transparent',transform:[{skewX:'-24deg'}]}}/>
-     <Ionicons name={name as never} size={22} color={on?'#f6f7f9':'#8b93a1'}/>
+     <Icon name={icons[r.name]} size={24} color={on?'#f6f7f9':'#8b93a1'} bg="#0d0f13" weight={on?1.9:1.6}/>
      <Text style={{color:on?'#f6f7f9':'#8b93a1',fontSize:10.5,fontWeight:on?'800':'600',marginTop:2,letterSpacing:0.2}}>{labels[r.name]??r.name}</Text>
     </Pressable>;})}
   </Glass></View>
@@ -57,6 +57,6 @@ export function FloatingTabBar({state,navigation}:BottomTabBarProps){
 export function GlassHeader(){return <Glass strong style={[StyleSheet.absoluteFill,{borderWidth:0,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'rgba(255,255,255,0.08)'}]}/>;}
 
 /** Small round glass button for the header (Account). */
-export function HeaderButton({label,icon,onPress}:{label:string;icon:string;onPress:()=>void}){
- return <Pressable accessibilityRole="button" accessibilityLabel={label} hitSlop={10} onPress={onPress} style={({pressed})=>({marginRight:14,opacity:pressed?0.6:1})}><Glass style={{width:36,height:36,borderRadius:18,alignItems:'center',justifyContent:'center'}}><Ionicons name={icon as never} size={19} color="#f6f7f9"/></Glass></Pressable>;
+export function HeaderButton({label,icon,onPress}:{label:string;icon:IconName;onPress:()=>void}){
+ return <Pressable accessibilityRole="button" accessibilityLabel={label} hitSlop={10} onPress={onPress} style={({pressed})=>({marginRight:14,opacity:pressed?0.6:1})}><Glass style={{width:40,height:40,borderRadius:20,alignItems:'center',justifyContent:'center'}}><Icon name={icon} size={24} color="#f6f7f9" bg="#0d0f13"/></Glass></Pressable>;
 }

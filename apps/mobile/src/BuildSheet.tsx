@@ -5,7 +5,7 @@ import {partSystems,readInstalled,writeInstalled,partLabel,MAX_PARTS,type Instal
 import {decodeFamily,familyOf,NOTE_HINT,WORK,providersFor,cleanName,pickerChoices,typesWithCounts,choicesOfType,brandsIn,productsOf,type CatalogPart,type FamilyFile,type Work,type Choice,type PartColor} from '../../../shared/parts-picker';
 import {fuelSystem,fuelSystemLabel} from '../../../shared/fuel-system';
 import {api,apiOrigin} from './api';
-import {Button,Card,Copy,Notice,colors,LinkAction} from './ui';
+import {Button,Card,Copy,Notice,colors,LinkAction,Icon} from './ui';
 
 type Value=ReturnType<typeof readInstalled>;
 type Screen={id:'home'}|{id:'type'}|{id:'work';work:Work}|{id:'detail';work:Work;who:string;r?:string}|{id:'brand';type:string|null}|{id:'product';type:string|null;brand:string}|{id:'custom';brand:string;type:string|null}|{id:'color';ip:InstalledPart;colors:PartColor[]};
@@ -46,8 +46,8 @@ export function BuildSheet({bike,onSaved,onAsk}:{bike:Bike;onSaved:(b:Bike)=>voi
   <View>{partSystems.map(s=>{const parts=value.parts.filter(p=>p.s===s.key),stock=value.stock.includes(s.key);
    return <Pressable key={s.key} accessibilityRole="button" accessibilityLabel={`${s.label}. ${parts.length?`Changed, ${parts.length}`:stock?'Stock':'Not set'}`} onPress={()=>setOpen(s.key)} style={({pressed})=>[st.row,pressed&&{opacity:0.6}]}>
     <View style={{flex:1,gap:3}}><Text style={st.rowTitle}>{s.label}</Text><Text style={st.small} numberOfLines={2}>{parts.length?parts.map(partLabel).join(' · '):s.hint}</Text></View>
-    <Text style={[st.state,parts.length?{color:colors.text}:stock?{color:colors.accent}:{color:colors.muted}]}>{parts.length?`Changed · ${parts.length}`:stock?'✓ Stock':'Tap to set'}</Text>
-    <Text style={st.chev}>›</Text>
+    {stock&&!parts.length&&<Icon name="check" size={14} color={colors.accent} weight={2.2}/>}<Text style={[st.state,parts.length?{color:colors.text}:stock?{color:colors.accent}:{color:colors.muted}]}>{parts.length?`Changed · ${parts.length}`:stock?'Stock':'Tap to set'}</Text>
+    <Icon name="chevronRight" size={16} color="#6b7280"/>
    </Pressable>;})}</View>
   {value.parts.length>0&&onAsk&&<LinkAction title="Ask BAK about this build" onPress={()=>onAsk('I\'ve recorded my aftermarket parts in the Garage. Anything I should check or set up differently because of what\'s fitted?')}/>}
   {open&&<SystemSheet key={open} system={open} bike={bike} value={value} catalog={catalog??null} busy={busy} close={()=>setOpen(null)} save={next=>void save(next)}/>}
@@ -79,12 +79,12 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
  const title=screen.id==='home'?meta.label:screen.id==='type'?'What did you change?':screen.id==='work'?'Who did it?':screen.id==='detail'?screen.work.label:screen.id==='brand'?'Which brand?':screen.id==='product'?screen.brand:screen.id==='color'?'Which color?':'Add it yourself';
  const sub=screen.id==='home'?meta.hint:screen.id==='brand'?(screen.type??`Any ${meta.label.toLowerCase()} part`):screen.id==='product'?(screen.type??meta.label):screen.id==='color'?cleanName(screen.ip.b,screen.ip.n):screen.id==='type'?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:screen.id==='work'?screen.work.label:screen.id==='detail'?(screen.who||'Who did it not recorded'):'';
  const workList=WORK[system]?<><Section title="WORK DONE"/><Group>{WORK[system]!.map(w=><Row key={w.label} label={w.label} detail={w.kind?'Who did it?':undefined} onPress={()=>push({id:'work',work:w})}/>)}</Group></>:null;
- const search=(placeholder:string)=><TextInput value={query} onChangeText={setQuery} placeholder={placeholder} placeholderTextColor="#7c858e" accessibilityLabel={placeholder} autoCorrect={false} style={st.search}/>;
+ const search=(placeholder:string)=><TextInput value={query} onChangeText={setQuery} placeholder={placeholder} placeholderTextColor="#5d6470" accessibilityLabel={placeholder} autoCorrect={false} style={st.search}/>;
  return <Modal visible animationType="slide" presentationStyle="pageSheet" onRequestClose={close}>
   <KeyboardAvoidingView style={{flex:1,backgroundColor:colors.bg}} behavior={Platform.OS==='ios'?'padding':undefined}>
    <View style={st.bar}>
-    {stack.length>1?<Pressable accessibilityRole="button" onPress={back} hitSlop={12}><Text style={st.back}>‹ Back</Text></Pressable>:<View/>}
-    <Pressable accessibilityRole="button" accessibilityLabel="Close" onPress={close} hitSlop={12} style={st.close}><Text style={{color:colors.text,fontSize:18}}>✕</Text></Pressable>
+    {stack.length>1?<Pressable accessibilityRole="button" onPress={back} hitSlop={12}><View style={{flexDirection:'row',alignItems:'center',gap:4}}><Icon name="chevronLeft" size={18} color={colors.accent} weight={2.1}/><Text style={st.back}>Back</Text></View></Pressable>:<View/>}
+    <Pressable accessibilityRole="button" accessibilityLabel="Close" onPress={close} hitSlop={12} style={st.close}><Icon name="close" size={17} color={colors.text} weight={2}/></Pressable>
    </View>
    <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{padding:20,paddingBottom:40,gap:14}}>
     <Text style={st.title}>{title}</Text>{!!sub&&<Text style={st.sub}>{sub}</Text>}
@@ -102,15 +102,15 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
          <View style={{flex:1,gap:2}}><Text style={st.brand}>{p.b||'BRAND NOT SET'}</Text><Text style={st.rowTitle}>{cleanName(p.b,p.n)}</Text>{!!(p.k||p.d)&&<Text style={st.small}>{[p.k,p.d].filter(Boolean).join(' · ')}</Text>}</View>
          <Pressable accessibilityRole="button" accessibilityLabel={`Remove ${partLabel(p)}`} onPress={()=>setPicked(picked.filter(x=>key(x)!==k))} hitSlop={8}><Text style={{color:'#f0a8b0',fontSize:15}}>Remove</Text></Pressable>
         </View>
-        {has&&<Pressable accessibilityRole="button" onPress={()=>setOpenNotes(openNotes===k?null:k)}><Text style={{color:colors.accent,fontSize:14,fontWeight:'600'}}>{r&&(r.what||r.caution)?'What this part changes':'Details'} {openNotes===k?'⌄':'›'}</Text></Pressable>}
+        {has&&<Pressable accessibilityRole="button" onPress={()=>setOpenNotes(openNotes===k?null:k)} style={{flexDirection:'row',alignItems:'center',gap:6}}><Text style={{color:colors.accent,fontSize:14,fontWeight:'600'}}>{r&&(r.what||r.caution)?'What this part changes':'Details'}</Text><Icon name={openNotes===k?'chevronUp':'chevronDown'} size={14} color={colors.accent} weight={2.2}/></Pressable>}
         {openNotes===k&&<View style={{gap:8}}>
          {!!r?.what&&<Note label="WHAT IT CHANGES" text={r.what}/>}{!!r?.caution&&<Note label="HEADS UP" text={r.caution} warn/>}
          {r?.testers.slice(0,1).map(x=><Note key={x} label="TESTERS FOUND" text={x}/>)}{!!p.p&&<Note label="PART NUMBER" text={p.p}/>}
         </View>}
        </View>;})}
-       <Row label="+ Add a part" accent onPress={()=>push(firstStep())}/>
+       <Row label="Add a part" accent plus onPress={()=>push(firstStep())}/>
       </Group></>}
-     {mode!=='unknown'&&<View style={{gap:6}}><Text style={st.small}>Anything else BAK should know? (optional)</Text><TextInput value={note} onChangeText={setNote} multiline maxLength={280} placeholder={NOTE_HINT[system]??'Condition, settings or work done'} placeholderTextColor="#7c858e" style={[st.search,{minHeight:80,textAlignVertical:'top'}]}/></View>}
+     {mode!=='unknown'&&<View style={{gap:6}}><Text style={st.small}>Anything else BAK should know? (optional)</Text><TextInput value={note} onChangeText={setNote} multiline maxLength={280} placeholder={NOTE_HINT[system]??'Condition, settings or work done'} placeholderTextColor="#5d6470" style={[st.search,{minHeight:80,textAlignVertical:'top'}]}/></View>}
      <Button disabled={busy||(mode==='changed'&&!picked.length)} title={busy?'Saving…':mode==='changed'&&!picked.length?'Add a part first':'Save'} onPress={done}/>
     </>}
     {screen.id==='type'&&<>
@@ -132,7 +132,7 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
      </Group></>;})()}
     {screen.id==='detail'&&<View style={{gap:10}}>
      <Text style={st.small}>{screen.work.detail} (optional)</Text>
-     <TextInput autoFocus multiline value={detail} onChangeText={setDetail} maxLength={120} placeholder={screen.work.example} placeholderTextColor="#7c858e" style={[st.search,{minHeight:80,textAlignVertical:'top'}]}/>
+     <TextInput autoFocus multiline value={detail} onChangeText={setDetail} maxLength={120} placeholder={screen.work.example} placeholderTextColor="#5d6470" style={[st.search,{minHeight:80,textAlignVertical:'top'}]}/>
      <Button title="Add to my bike" onPress={()=>add({s:system,b:screen.who==='Myself'?'':screen.who,n:screen.work.label+(screen.who==='Myself'?' (myself)':''),...(detail.trim()?{d:detail.trim()}:{}),...(screen.r?{r:screen.r}:{x:true})})}/>
     </View>}
     {screen.id==='brand'&&(()=>{const all=brandsIn(choicesOfType(choices,screen.type)),list=all.filter(([b])=>match(b));return <>
@@ -149,9 +149,9 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
      <Group><Row label="Not listed?" detail="Type it" onPress={()=>{setCustom({b:screen.brand,n:query,p:''});push({id:'custom',brand:screen.brand,type:screen.type});}}/></Group></>;})()}
     {screen.id==='custom'&&<View style={{gap:12}}>
      <Text style={st.small}>{isWork(custom.n)?'Who did the work? (shop or tuner)':'Brand'}</Text>
-     <TextInput autoFocus={isWork(custom.n)} value={custom.b} onChangeText={b=>setCustom({...custom,b})} maxLength={60} placeholder={isWork(custom.n)?'e.g. the shop’s name':'e.g. FMF'} placeholderTextColor="#7c858e" style={st.search}/>
+     <TextInput autoFocus={isWork(custom.n)} value={custom.b} onChangeText={b=>setCustom({...custom,b})} maxLength={60} placeholder={isWork(custom.n)?'e.g. the shop’s name':'e.g. FMF'} placeholderTextColor="#5d6470" style={st.search}/>
      <Text style={st.small}>{isWork(custom.n)?'Work done':'Part'}</Text>
-     <TextInput autoFocus={!isWork(custom.n)} value={custom.n} onChangeText={n=>setCustom({...custom,n})} maxLength={90} placeholder="e.g. Factory 4.1 RCT titanium slip-on" placeholderTextColor="#7c858e" style={st.search}/>
+     <TextInput autoFocus={!isWork(custom.n)} value={custom.n} onChangeText={n=>setCustom({...custom,n})} maxLength={90} placeholder="e.g. Factory 4.1 RCT titanium slip-on" placeholderTextColor="#5d6470" style={st.search}/>
      <Text style={st.small}>Part number (optional)</Text>
      <TextInput value={custom.p} onChangeText={p=>setCustom({...custom,p})} maxLength={48} autoCapitalize="characters" style={st.search}/>
      <Button disabled={!custom.n.trim()&&!custom.b.trim()} title="Add to my bike" onPress={()=>add({s:system,b:custom.b.trim(),n:custom.n.trim(),...(custom.p.trim()?{p:custom.p.trim()}:{}),x:true})}/>
@@ -165,20 +165,20 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
 function Group({children}:{children:React.ReactNode}){return <View style={st.group}>{children}</View>;}
 function Section({title}:{title:string}){return <Text style={st.section}>{title}</Text>;}
 function Note({label,text,warn=false}:{label:string;text:string;warn?:boolean}){return <View style={[st.note,warn&&{borderLeftColor:'#d8b46a'}]}><Text style={st.noteLabel}>{label}</Text><Text style={[st.small,warn&&{color:'#e3d2ad'}]}>{text}</Text></View>;}
-function Row({label,small,detail,onPress,selected=false,chev=true,accent=false}:{label:string;small?:string;detail?:string;onPress:()=>void;selected?:boolean;chev?:boolean;accent?:boolean}){
- return <Pressable accessibilityRole="button" accessibilityState={{selected}} accessibilityLabel={[label,small,detail].filter(Boolean).join('. ')} onPress={onPress} style={({pressed})=>[st.navRow,pressed&&{backgroundColor:'#1b1e24'}]}>
+function Row({label,small,detail,onPress,selected=false,chev=true,accent=false,plus=false}:{label:string;small?:string;detail?:string;onPress:()=>void;selected?:boolean;chev?:boolean;accent?:boolean;plus?:boolean}){
+ return <Pressable accessibilityRole="button" accessibilityState={{selected}} accessibilityLabel={[label,small,detail].filter(Boolean).join('. ')} onPress={onPress} style={({pressed})=>[st.navRow,pressed&&{opacity:0.55}]}>{plus&&<Icon name="plus" size={18} color={colors.accent} weight={2}/>}
   <View style={{flex:1,gap:2}}><Text style={[st.rowTitle,accent&&{color:colors.accent}]}>{label}</Text>{!!small&&<Text style={st.small}>{small}</Text>}</View>
   {!!detail&&<Text style={st.detail}>{detail}</Text>}
-  {selected?<Text style={{color:colors.accent,fontSize:18}}>✓</Text>:chev?<Text style={st.chev}>›</Text>:null}
+  {selected?<Icon name="check" size={18} color={colors.accent} weight={2.2}/>:chev&&!plus?<Icon name="chevronRight" size={16} color="#6b7280"/>:null}
  </Pressable>;
 }
 const st={
  eyebrow:{color:'#737b88',fontWeight:'600' as const,letterSpacing:1,fontSize:11.5},
  h2:{color:colors.text,fontSize:22,fontWeight:'800' as const,letterSpacing:-0.5},
- title:{color:colors.text,fontSize:30,fontWeight:'800' as const,letterSpacing:-0.8},
+ title:{color:colors.text,fontSize:30,fontWeight:'900' as const,fontStyle:'italic' as const,letterSpacing:-1},
  sub:{color:colors.muted,fontSize:15,marginTop:-6},
  small:{color:colors.muted,fontSize:13,lineHeight:19},
- meter:{height:6,borderRadius:3,backgroundColor:colors.line,overflow:'hidden' as const},
+ meter:{height:4,borderRadius:2,backgroundColor:colors.line,overflow:'hidden' as const},
  meterFill:{height:6,backgroundColor:colors.primary},
  row:{flexDirection:'row' as const,alignItems:'center' as const,gap:12,paddingVertical:14,borderBottomWidth:1,borderBottomColor:colors.line},
  rowTitle:{color:colors.text,fontSize:16,fontWeight:'600' as const},
@@ -186,14 +186,14 @@ const st={
  chev:{color:colors.muted,fontSize:22},
  bar:{flexDirection:'row' as const,justifyContent:'space-between' as const,alignItems:'center' as const,paddingHorizontal:20,paddingTop:16,paddingBottom:4},
  back:{color:colors.accent,fontSize:17},
- close:{width:36,height:36,borderRadius:18,backgroundColor:colors.panel,alignItems:'center' as const,justifyContent:'center' as const},
- group:{backgroundColor:colors.panel,borderRadius:16,borderWidth:1,borderColor:colors.line,overflow:'hidden' as const},
- navRow:{flexDirection:'row' as const,alignItems:'center' as const,gap:10,paddingHorizontal:16,paddingVertical:15,borderBottomWidth:1,borderBottomColor:colors.line,minHeight:54},
+ close:{width:36,height:36,borderRadius:18,borderWidth:1,borderColor:'#2a2f39',alignItems:'center' as const,justifyContent:'center' as const},
+ group:{borderTopWidth:1,borderTopColor:colors.line},
+ navRow:{flexDirection:'row' as const,alignItems:'center' as const,gap:10,paddingVertical:15,borderBottomWidth:1,borderBottomColor:colors.line,minHeight:54},
  detail:{color:colors.muted,fontSize:15},
  section:{color:colors.muted,fontSize:12,fontWeight:'700' as const,letterSpacing:1.5,marginBottom:-6,marginTop:4},
- fitted:{padding:16,gap:10,borderBottomWidth:1,borderBottomColor:colors.line},
+ fitted:{paddingVertical:16,gap:10,borderBottomWidth:1,borderBottomColor:colors.line},
  brand:{color:colors.muted,fontSize:11,letterSpacing:1,fontWeight:'600' as const},
  note:{borderLeftWidth:2,borderLeftColor:colors.line,paddingLeft:10,gap:2},
  noteLabel:{color:'#8d95a3',fontSize:10,letterSpacing:1.2,fontWeight:'700' as const},
- search:{backgroundColor:colors.panel,borderColor:colors.line,borderWidth:1,borderRadius:12,padding:14,color:colors.text,fontSize:16},
+ search:{borderBottomColor:'#2a2f39',borderBottomWidth:1,paddingVertical:11,color:colors.text,fontSize:17},
 };

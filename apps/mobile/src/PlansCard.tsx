@@ -5,7 +5,7 @@ import type {PurchasesPackage} from 'react-native-purchases';
 import {TIER_LABEL,TIER_BLURB,canStartTrialSet,type Usage} from '../../../shared/plans';
 import {api} from './api';
 import {offerings,purchase,restore} from './billing';
-import {Button,Card,Copy,Notice} from './ui';
+import {Button,Card,Copy,LinkAction,Notice} from './ui';
 
 type UsageView=Usage&{access_mode:'beta'|'subscription'};
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
@@ -31,12 +31,12 @@ export function PlansCard(){
    {usage.trial&&usage.trial.remaining_sets>0&&<Copy>Each free set is {usage.trial.size} questions. When a set runs out, start the next one when you're ready. We suggest spacing them across the week.</Copy>}
    {canStartTrialSet(usage)&&<Button disabled={busy} title="Start next free set" onPress={()=>void task(()=>api('/api/usage/next-set','POST',{}),'Your next free set is ready.')}/>}
   </>}
-  <Button secondary disabled={busy} title="See plans and credit packs" onPress={()=>void task(async()=>{const p=await offerings();setPackages(p);if(!p.length)setNotice('Plans and credit packs are not available from the store yet.');})}/>
+  <LinkAction disabled={busy} title="See plans and credit packs" onPress={()=>void task(async()=>{const p=await offerings();setPackages(p);if(!p.length)setNotice('Plans and credit packs are not available from the store yet.');})}/>
   {plans.map(p=><View key={p.identifier} style={{gap:8}}><Copy strong>{p.product.title}</Copy><Copy>{p.product.description}</Copy><Button disabled={busy} title={`Subscribe · ${p.product.priceString} / ${periodLabel(p.product.subscriptionPeriod!)}`} onPress={()=>void task(()=>purchase(p),'Purchase received and your plan is updated.')}/></View>)}
   {packs.length>0&&<><Copy strong>Credit packs</Copy><Copy>Credits never expire and are used only after your included questions.</Copy></>}
   {packs.map(p=><Button key={p.identifier} secondary disabled={busy} title={`${p.product.title} · ${p.product.priceString}`} onPress={()=>void task(()=>purchase(p),'Credits added.')}/>)}
   <Copy>Subscriptions renew automatically unless cancelled in your store account at least 24 hours before the period ends. The store purchase sheet confirms the billing period and full terms before payment.</Copy>
-  <Button secondary disabled={busy} title="Restore purchases" onPress={()=>void task(restore,'Purchases restored.')}/>
-  <Button secondary title="Manage store subscription" onPress={()=>void Linking.openURL(Platform.OS==='ios'?'https://apps.apple.com/account/subscriptions':'https://play.google.com/store/account/subscriptions').catch(e=>setNotice(errorText(e)))}/>
+  <LinkAction disabled={busy} title="Restore purchases" onPress={()=>void task(restore,'Purchases restored.')}/>
+  <LinkAction title="Manage store subscription" onPress={()=>void Linking.openURL(Platform.OS==='ios'?'https://apps.apple.com/account/subscriptions':'https://play.google.com/store/account/subscriptions').catch(e=>setNotice(errorText(e)))}/>
  </Card>;
 }

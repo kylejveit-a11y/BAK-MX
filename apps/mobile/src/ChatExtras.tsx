@@ -6,13 +6,13 @@ import {complaintGroups,complaintLabel,deciderAnswers,throttleAnswers,whereAnswe
 import {pendingGarageUpdates,applyGarageUpdates,garageFieldLabel,type GarageUpdate} from '../../../shared/garage-updates';
 import {systemLabel} from '../../../shared/installed-parts';
 import {api} from './api';
-import {Button,Card,Copy,Notice,colors} from './ui';
+import {Button,Card,Copy,Icon,Notice,colors} from './ui';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
 function Chip({label,on=false,quiet=false,center=false,onPress}:{label:string;on?:boolean;quiet?:boolean;center?:boolean;onPress:()=>void}){
- return <Pressable accessibilityRole="button" accessibilityState={{selected:on}} onPress={onPress} style={({pressed})=>[ch.chip,on&&ch.on,quiet&&{borderStyle:'dashed'},center&&{paddingHorizontal:6,alignItems:'center'},pressed&&{opacity:0.6}]}><Text numberOfLines={center?1:undefined} adjustsFontSizeToFit={center} style={[ch.text,on&&{color:colors.bg},center&&{textAlign:'center'}]}>{label}</Text></Pressable>;
+ return <Pressable accessibilityRole="button" accessibilityState={{selected:on}} onPress={onPress} style={({pressed})=>[ch.chip,on&&ch.on,quiet&&{borderColor:'transparent',paddingHorizontal:6},center&&{paddingHorizontal:6,alignItems:'center'},pressed&&{opacity:0.6}]}><Text numberOfLines={center?1:undefined} adjustsFontSizeToFit={center} style={[ch.text,on&&{color:'#0a0d12',fontWeight:'700'},quiet&&{color:colors.accent,fontWeight:'600'},center&&{textAlign:'center'}]}>{label}</Text></Pressable>;
 }
-const ch={chip:{paddingVertical:10,paddingHorizontal:14,borderRadius:20,borderWidth:1,borderColor:colors.line,backgroundColor:colors.panel},on:{backgroundColor:colors.primary,borderColor:colors.primary},text:{color:colors.text,fontSize:15}};
+const ch={chip:{paddingVertical:10,paddingHorizontal:15,borderRadius:20,borderWidth:1,borderColor:'#343a45',backgroundColor:'transparent'},on:{backgroundColor:colors.primary,borderColor:colors.primary},text:{color:colors.text,fontSize:15}};
 const Wrap=({children}:{children:React.ReactNode})=><View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{children}</View>;
 
 type Step='complaint'|'decider'|'throttle'|'where'|'track'|'review';
@@ -25,13 +25,13 @@ export function TriageCard({onDone,onCancel}:{onDone:(text:string)=>void;onCance
  const go=(d:number)=>{setTyping(false);setDraft('');setStep(order[Math.max(0,Math.min(order.length-1,i+d))]);};
  const pick=(patch:Partial<TriageAnswers>)=>{setA({...a,...patch});setTyping(false);setDraft('');setStep(order[Math.min(order.length-1,i+1)]);};
  const toggle=(k:'where'|'track',v:string)=>setA({...a,[k]:a[k].includes(v)?a[k].filter(x=>x!==v):[...a[k],v]});
- const own=(placeholder:string,save:(t:string)=>void)=>typing?<View style={{gap:8,width:'100%'}}><TextInput autoFocus value={draft} onChangeText={setDraft} placeholder={placeholder} placeholderTextColor="#7c858e" maxLength={200} onSubmitEditing={()=>{if(draft.trim())save(draft.trim());}} style={tx.input}/><Button disabled={!draft.trim()} title="Next" onPress={()=>save(draft.trim())}/></View>
-  :<Chip quiet label="✎ Type it myself" onPress={()=>setTyping(true)}/>;
+ const own=(placeholder:string,save:(t:string)=>void)=>typing?<View style={{gap:8,width:'100%'}}><TextInput autoFocus value={draft} onChangeText={setDraft} placeholder={placeholder} placeholderTextColor="#5d6470" maxLength={200} onSubmitEditing={()=>{if(draft.trim())save(draft.trim());}} style={tx.input}/><Button disabled={!draft.trim()} title="Next" onPress={()=>save(draft.trim())}/></View>
+  :<Chip quiet label="Type it myself" onPress={()=>setTyping(true)}/>;
  const question=step==='complaint'?'What is the bike doing?':step==='decider'?triageSteps(a.complaint).decider:step==='throttle'?'On the gas or off the gas?':step==='where'?'Where on the track?':step==='track'?'What’s the dirt like?':'Here’s what BAK will get';
  return <Card>
   <View style={{flexDirection:'row',alignItems:'center',gap:4}}>
-   {order.map((s,k)=><View key={s} style={{flex:1,height:4,borderRadius:2,backgroundColor:k<=i?colors.primary:colors.line}}/>)}
-   <Pressable accessibilityRole="button" accessibilityLabel="Close guided questions" onPress={onCancel} hitSlop={10} style={{marginLeft:10}}><Text style={{color:colors.muted,fontSize:18}}>✕</Text></Pressable>
+   {order.map((s,k)=><View key={s} style={{flex:1,height:3,borderRadius:1,backgroundColor:k<=i?colors.accent:colors.line,transform:[{skewX:'-24deg'}]}}/>)}
+   <Pressable accessibilityRole="button" accessibilityLabel="Close guided questions" onPress={onCancel} hitSlop={10} style={{marginLeft:10}}><Icon name="close" size={18} color={colors.muted} weight={2}/></Pressable>
   </View>
   <Text style={tx.q}>{question}</Text>
   {step==='complaint'&&<>{complaintGroups.map(g=><View key={g.label} style={{gap:8}}><Text style={tx.eyebrow}>{g.label.toUpperCase()}</Text><Wrap>{g.ids.map(id=><Chip key={id} label={complaintLabel(id)} on={a.complaint===id} onPress={()=>{setA({...a,complaint:id,complaintText:undefined,decider:undefined,throttle:undefined});const s=triageSteps(id);setStep(s.decider?'decider':s.throttle?'throttle':'where');}}/>)}</Wrap></View>)}
@@ -47,7 +47,7 @@ export function TriageCard({onDone,onCancel}:{onDone:(text:string)=>void;onCance
   {step==='review'&&<>
    <View style={tx.quote}><Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{composeTriage(a)}</Text></View>
    <Text style={tx.small}>Anything else? (optional)</Text>
-   <TextInput multiline value={a.notes??''} onChangeText={notes=>setA({...a,notes})} maxLength={400} placeholder="What you’ve already tried, recent changes, how it felt before" placeholderTextColor="#7c858e" style={[tx.input,{minHeight:70,textAlignVertical:'top'}]}/>
+   <TextInput multiline value={a.notes??''} onChangeText={notes=>setA({...a,notes})} maxLength={400} placeholder="What you’ve already tried, recent changes, how it felt before" placeholderTextColor="#5d6470" style={[tx.input,{minHeight:70,textAlignVertical:'top'}]}/>
    <View style={{flexDirection:'row',gap:10}}><View style={{flex:1}}><Button secondary title="Back" onPress={()=>go(-1)}/></View><View style={{flex:1}}><Button title="Use this" onPress={()=>onDone(composeTriage(a))}/></View></View></>}
   {(step==='decider'||step==='throttle')&&<Button secondary title="Back" onPress={()=>go(-1)}/>}
  </Card>;
@@ -62,7 +62,7 @@ export function RideCheckCard({bike,messageId,changes,logged,onLogged,onAsk}:{bi
  const [which,setWhich]=useState(0),[result,setResult]=useState<Exclude<SetupResult,'not_tested'>|null>(null),[track,setTrack]=useState(''),[notes,setNotes]=useState(''),[busy,setBusy]=useState(false),[error,setError]=useState('');
  const text=(c:Change)=>`${c.setting}: ${c.change}`;
  if(logged){const r=logged.result;return <View style={tx.box}>
-  <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>✓ You said <Text style={{color:colors.text,fontWeight:'700'}}>{logged.change_made}</Text> rode <Text style={{color:colors.text,fontWeight:'700'}}>{said[r]??'untested'}</Text>{logged.track?` at ${logged.track}`:''}. It’s in your setup log and BAK will use it.</Text>
+  <View style={{flexDirection:'row',gap:8}}><Icon name="check" size={16} color="#7fd09a" weight={2.2}/><Text style={{color:colors.muted,fontSize:14,lineHeight:20,flex:1}}>You said <Text style={{color:colors.text,fontWeight:'700'}}>{logged.change_made}</Text> rode <Text style={{color:colors.text,fontWeight:'700'}}>{said[r]??'untested'}</Text>{logged.track?` at ${logged.track}`:''}. It’s in your setup log and BAK will use it.</Text></View>
   <Button secondary title="Ask BAK what’s next" onPress={()=>onAsk(`I tried ${logged.change_made}. It rode ${said[r]??'no different'}${logged.track?` at ${logged.track}`:''}.${logged.notes?' '+logged.notes:''} What should I try next?`)}/>
  </View>;}
  async function save(){
@@ -75,8 +75,8 @@ export function RideCheckCard({bike,messageId,changes,logged,onLogged,onAsk}:{bi
   {changes.length>1&&<Wrap>{changes.map((c,i)=><Chip key={i} label={c.setting} on={which===i} onPress={()=>setWhich(i)}/>)}</Wrap>}
   <View style={{flexDirection:'row',gap:8}}>{RESULTS.map(r=><View key={r.key} style={{flex:1}}><Chip center label={r.label} on={result===r.key} onPress={()=>setResult(r.key)}/></View>)}</View>
   {result&&<>
-   <TextInput value={track} onChangeText={setTrack} maxLength={120} placeholder="Track (optional)" placeholderTextColor="#7c858e" style={tx.input}/>
-   <TextInput multiline value={notes} onChangeText={setNotes} maxLength={1000} placeholder={result==='better'?'What improved? (optional)':result==='worse'?'What got worse? (optional)':'Anything you noticed? (optional)'} placeholderTextColor="#7c858e" style={[tx.input,{minHeight:64,textAlignVertical:'top'}]}/>
+   <TextInput value={track} onChangeText={setTrack} maxLength={120} placeholder="Track (optional)" placeholderTextColor="#5d6470" style={tx.input}/>
+   <TextInput multiline value={notes} onChangeText={setNotes} maxLength={1000} placeholder={result==='better'?'What improved? (optional)':result==='worse'?'What got worse? (optional)':'Anything you noticed? (optional)'} placeholderTextColor="#5d6470" style={[tx.input,{minHeight:64,textAlignVertical:'top'}]}/>
    <Notice text={error}/>
    <Button disabled={busy} title={busy?'Saving…':'Save to my setup log'} onPress={()=>void save()}/>
   </>}
@@ -88,7 +88,7 @@ export function RideCheckCard({bike,messageId,changes,logged,onLogged,onAsk}:{bi
 export function GarageUpdatesCard({bike,updates,onSaved}:{bike:Bike;updates:GarageUpdate[]|undefined;onSaved:()=>void}){
  const pending=pendingGarageUpdates(bike.configuration,updates);
  const [off,setOff]=useState<Set<number>>(new Set()),[busy,setBusy]=useState(false),[error,setError]=useState(''),[saved,setSaved]=useState(false);
- if(saved)return <View style={tx.box}><Text style={{color:colors.muted,fontSize:14}}>✓ Saved to your Garage. BAK will use it from your next question.</Text></View>;
+ if(saved)return <View style={tx.box}><View style={{flexDirection:'row',gap:8}}><Icon name="check" size={16} color="#7fd09a" weight={2.2}/><Text style={{color:colors.muted,fontSize:14,flex:1}}>Saved to your Garage. BAK will use it from your next question.</Text></View></View>;
  if(!pending.length)return null;
  const chosen=pending.filter((_,i)=>!off.has(i));
  async function save(){
@@ -112,10 +112,10 @@ export function GarageUpdatesCard({bike,updates,onSaved}:{bike:Bike;updates:Gara
  </View>;
 }
 const tx={
- q:{color:colors.text,fontSize:20,fontWeight:'800' as const,letterSpacing:-0.4},
+ q:{color:colors.text,fontSize:22,fontWeight:'900' as const,fontStyle:'italic' as const,letterSpacing:-0.5},
  eyebrow:{color:colors.muted,fontSize:11,fontWeight:'700' as const,letterSpacing:1.5},
  small:{color:colors.muted,fontSize:13,lineHeight:19},
- input:{backgroundColor:colors.bg,borderColor:colors.line,borderWidth:1,borderRadius:10,padding:12,color:colors.text,fontSize:16},
+ input:{borderBottomColor:'#2a2f39',borderBottomWidth:1,paddingVertical:10,color:colors.text,fontSize:16},
  quote:{borderLeftWidth:3,borderLeftColor:colors.accent,paddingLeft:12,paddingVertical:4},
- box:{gap:10,padding:14,borderRadius:16,borderWidth:1,borderColor:colors.line,backgroundColor:'rgba(255,255,255,0.03)'},
+ box:{gap:12,paddingTop:16,marginTop:4,borderTopWidth:1,borderTopColor:colors.line},
 };
