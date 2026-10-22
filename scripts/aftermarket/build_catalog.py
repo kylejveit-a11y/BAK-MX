@@ -229,7 +229,11 @@ if APP_OUT:
     JUNK=re.compile(r'\b(testers?|diagnostic|timing (?:kit|light)|fuel pack|rotopax|fuel mixture|tool|tools|stand|lift|wrench|socket|torx|battery|batteries|charger|tender|light|lights|lamp|led|helmet|jersey|glove|gloves|boot|boots|goggle|goggles|decal|decals|graphic|graphics|sticker|backgrounds?|grease|lube|lubricant|cleaner|polish|wash|tie[- ]?downs?|ramp|bag|luggage|backpack|gps|phone|camera|hour ?meter|tach|speedometer|computer|radio|intercom|cover kit|bike cover|muffler plug|exhaust plug|packing|repack|wrap|manual|book|poster|key ?chain|mat|funnel|sealant|thread ?lock|loctite|zip ?ties?|fluid|coolant|oil(?! ?filter)|gift card|t-?shirt|hat|hoodie|sticker|tape(?! grip)|brush|towel|gauge|tie rod|winch|plow|rack|basket(?! clutch)|cooler|mirror|horn|turn signal|license|stand|umbrella)\b',re.I)
     RULES=[('tuning',r'\b(ecu|e\.c\.u|ignition (?:box|module|curve)|map ?switch|map select|tuner|tuning|fuel controller|power commander|programmable ignition|ignition(?! covers?)|re-?flash|remap|wi-?fi|connectivity|fi calibration|power tuner|launch control|traction control|engine control|fuel injection kit|injector|throttle body|fuel pump|carburetor|carb\b|jet kit|main jet|pilot jet|needle)'),
            ('controls',r'\b(handlebars?|fat ?bar|bar pad|grips?|levers?|perch|throttle tube|throttle|foot ?pegs?|pegs?|bar mounts?|bar clamps?|handguards?|hand guards?|brush guards?|kill switch|start button|shift(?:er| lever)|gear lever|brake pedal|kick ?start(?:er)?|hot start|clutch cable|throttle cable|bar riser)\b'),
-           ('protection',r'\b(skid ?plates?|glide ?plates?|bash ?plates?|linkage guards?|link guards?)\b'),
+           ('protection',r'\b(skid ?plates?|glide ?plates?|bash ?plates?|linkage guards?|link guards?|disc guards?|disk guards?|rotor guards?|caliper guards?|brake disc guards?)\b'),
+           ('chassis',r'\b(steering (?:stem |head )?bearings?|swing ?arm bearings?|engine mounts?|engine braces?|engine brace set|engine hangers?|head stays?|frame hardware)\b'),
+           ('wheels',r'\bwheel bearings?\b'),
+           ('engine',r'\b(?:crank(?:shaft)?|main|transmission|countershaft|gearbox|engine|water pump)\s+(?:bearings?|seals?|bearing (?:and|&) seal)'),
+           ('suspension',r'\b(linkage|shock|fork) (?:bearings?|seals?)\b|\bfork seal kits?\b'),
            ('clutch',r'\bclutch\b(?! (cables?|levers?|perch|perches|guards?|covers? guard))'),
            ('exhaust',r'\b(exhausts?|mufflers?|silencers?|slip-?ons?|head ?pipes?|header|expansion chamber|pipes?|megabomb|spark arrest(?:o|e)r|end ?cap|power ?bomb|tailpipe|resonator)\b'),
            ('suspension',r'\b(forks?|shocks?|springs?|linkage|link arm|pull rod|cartridge|preload|holeshot|start device|launch device|bleeders?|fork seals?|seal kit|dust seals?|suspension|valving|revalve|air fork|fork guard|clickers?|sag|shock bladder|piston kit fork)\b'),
@@ -248,6 +252,7 @@ if APP_OUT:
              ('chassis','chassis'),('drive','gearing'),('gytr','engine'),('performance','engine')]
     def system_of(p):
         name=f"{p.get('product') or ''}"; cat=f"{p.get('category') or ''} {p.get('subcategory') or ''}".lower(); t=(name+' '+cat).lower()
+        if not name.strip(): return None  # a listing with no name can't be picked
         if JUNK.search(name) and not re.search(r'clutch basket|oil filter',name,re.I): return None
         if re.search(r'\b(riding gear|helmets|luggage|lights|lighting|batteries|electrical|gauges|tools|utv|farming|winch|garage|security|styling|comfort|decal|fluids|graphics|vehicle communication|gps|bags)\b',cat) and not re.search(r'fuel|ecu|tun',t): return None
         for s,rx in RULES:
@@ -295,10 +300,39 @@ if APP_OUT:
                 cl=[];[cl.append([short(c.get('name'),30),str(c.get('finish') or '')[:12]]) for c in (p.get('colors') or []) if isinstance(c,dict) and c.get('status')=='VERIFIED' and c.get('name') and all(short(c.get('name'),30).lower()!=x[0].lower() for x in cl)]
                 if cl and not it.get('cl'): it['cl']=cl[:12]
             code,base=SELL.get(src,('rs',''))
-            w=(p.get('where_to_buy') or [{}])[0]; url=w.get('url') or p.get('fitment_source_url') or ''
+            w=(p.get('where_to_buy') or [{}])[0]
+            if not w.get('url') and p.get('price') and not re.search(r'dirtbiketest|magazine|forum',str(p.get('fitment_source_url') or ''),re.I):
+                w={'url':p.get('fitment_source_url'),'price_if_stated':p.get('price')}  # official catalogs and store pages carry one price
+            if w.get('price_if_stated'):  # one shape for every source: "86.99" + currency (notes after the number dropped)
+                raw=f"{w['price_if_stated']} {w.get('currency') or ''}"; m_=re.search(r'(\d[\d,]*(?:\.\d+)?)',raw)
+                cur='GBP' if re.search(r'GBP|£',raw) else 'EUR' if re.search(r'EUR|€',raw) else 'CAD' if re.search(r'CAD',raw) else 'USD' if re.search(r'USD|\$',raw) else (w.get('currency') or '')
+                w={**w,'price_if_stated':m_.group(1).replace(',','') if m_ else '','currency':cur}
+            url=w.get('url') or p.get('fitment_source_url') or ''
             path=url[len(base):] if base and url.startswith(base) else url
-            if src=='research' and path and len(it['u'])<2 and all(c!=code for c,_,_ in it['u']):
+            # where to buy: up to two sellers per part, with the price they listed
+            if path and len(it['u'])<2 and all(c!=code for c,_,_ in it['u']):
                 pr=w.get('price_if_stated'); it['u'].append((code,path,anon((str(pr)+' '+(w.get('currency') or '')).strip()) if pr else ''))
+            # what the part is, from the seller, when no researched note exists
+            if not it.get('w') and not it.get('ws'):
+                d=re.sub(r'^Seller description:\s*','',str(p.get('what_it_changes') or '')).strip()
+                if d and src!='research': it['ws']=short(anon(d),170)
+            # the exact options (colour / size) with their part numbers, so a pick saves the right number
+            if not it.get('vr'):
+                rv=p.get('variants') or []
+                if isinstance(rv,str):  # "Black: W16-5312GB; Blue: W16-5312L. The page lists ..." or "Black; Blue"
+                    rv=[x.strip() for x in re.split(r';\s*',re.split(r'\.\s+[A-Z]',rv)[0]) if x.strip()]
+                    rv=[re.sub(r'^variant:\s*','',x,flags=re.I) for x in rv] if all(re.match(r'variant:',x,re.I) for x in rv) else rv
+                    if all(re.fullmatch(r'[A-Z0-9-]{6,}',x) for x in rv): rv=[]  # bare part numbers are not options a rider can name
+                vs=[str(v) for v in rv if isinstance(v,str) and v.strip()]
+                pr_=[str(x) for x in (p.get('part_numbers') or [])]
+                vr=[]
+                if vs and all(': ' not in v for v in vs) and len(vs)==len(pr_): vr=[[short(v,40),pn[:30]] for v,pn in zip(vs,pr_)]
+                elif vs and all(': ' in v for v in vs):
+                    for v in vs:
+                        lab,_,nums=v.partition(': ');ns=[x for x in re.split(r'[\s,]+',nums) if x]
+                        vr.append([short(lab,40),ns[0][:30] if len(ns)==1 else ''])
+                elif vs: vr=[[short(v,40),''] for v in vs]
+                if len(vr)>1: it['vr']=vr[:30]
             if p.get('is_service'): it['sv']=1
             if s in ('tuning','intake','engine') and CARB.search(name+' '+str(p.get('subcategory') or '')) and not INJECTION.search(name): it['k']='c'
             elif s=='tuning' and INJECTION.search(name+' '+str(p.get('subcategory') or '')): it['k']='i'
@@ -309,7 +343,8 @@ if APP_OUT:
         o={'b':it['b'],'n':it['n'],'s':it['s']}
         if it['p']:o['p']=it['p']
         if it['u']:o['u']=[[c,pth]+([pr] if pr else []) for c,pth,pr in it['u']]
-        for k in ('r','conf','w','c','t','sv','k','cl'):
+        if it.get('w'): it.pop('ws',None)
+        for k in ('r','conf','w','c','t','sv','k','cl','ws','vr'):
             if it.get(k):o[k]=it[k]
         out_items.append(o)
     fam=os.path.basename(fam_dir.rstrip('/'))

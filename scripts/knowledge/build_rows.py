@@ -37,7 +37,9 @@ def anon(t,src=None):
     return re.sub(r"(^|[.!?]\s+)a (magazine|tuner|tester|dealer|race team)",lambda m:m.group(1)+"A "+m.group(2),t)
 rows=[];skipped=collections.Counter();seen=set()
 for f in sorted(glob.glob(os.path.join(root,'docs/research/knowledge/*.json'))):
-    d=json.load(open(f));make=d['platform']['make']
+    d=json.load(open(f))
+    if not isinstance(d,dict) or 'platform' not in d:continue  # coverage-export.json and other non-research files
+    make=d['platform']['make']
     for r in d['records']:
         dom,tier,conf=r.get('domain'),r.get('tier'),r.get('confidence','medium')
         if dom not in DOMAINS or tier not in TIERS or conf not in CONF or not str(r.get('statement','')).strip():skipped['invalid']+=1;continue

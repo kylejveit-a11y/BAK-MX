@@ -1,5 +1,5 @@
 import React,{useEffect,useMemo,useState} from 'react';
-import {Modal,View,Text,ScrollView,TextInput,ActivityIndicator,KeyboardAvoidingView,Platform} from 'react-native';
+import {Modal,View,Text,ScrollView,TextInput,ActivityIndicator,KeyboardAvoidingView,Platform,Linking} from 'react-native';
 import {Pressable} from './Touch';
 import type {Bike} from '../../../shared/types';
 import {partSystems,readInstalled,writeInstalled,MAX_PARTS,type InstalledPart,type PartSystem} from '../../../shared/installed-parts';
@@ -27,6 +27,8 @@ const shortLine=(p:InstalledPart)=>[canonBrand(p.b),cleanName(p.b,p.n)].filter(B
 
 /** Garage build sheet: what is on this bike, section by section, what the rider keeps off the bike for other conditions, and
  *  anything on the sheet that doesn't add up. */
+/** "86.99 USD" → "$86.99"; pounds and euros keep their sign so a UK dealer's price never reads as dollars. */
+const priceText=(p:string)=>{const m=p.match(/^([\d.,]+)\s*([A-Z]{3})?$/);if(!m)return p;const sign={USD:'$',GBP:'£',EUR:'€'}[m[2]??'USD' as 'USD'];return sign?sign+m[1]:`${m[1]} ${m[2]}`;};
 export function BuildSheet({bike,onSaved,onAsk}:{bike:Bike;onSaved:(b:Bike)=>void;onAsk?:(text:string)=>void}){
  const value=useMemo(()=>readInstalled(bike.configuration),[bike.configuration]);
  const checks=useMemo(()=>checkBuild(bike),[bike]);
@@ -219,7 +221,7 @@ const posOf=(name:string):Pos|null=>/\b(set|pair|wheelset|front\s*(and|&|\/)\s*r
 function Options({type,system,choices,have,onAdd,onCustom,pendingRef}:{type:string|null;system:PartSystem;choices:Choice[];have:InstalledPart[];onAdd:(p:InstalledPart[])=>void;onCustom:()=>void;pendingRef:React.MutableRefObject<(()=>InstalledPart[]|null)|null>}){
  const positioned=!!type&&POSITIONED.has(type);
  const [pos,setPos]=useState<Pos|null>(positioned?null:'both'),[brand,setBrand]=useState<string|null>(null),[bq,setBq]=useState('');
- const [query,setQuery]=useState(''),[sel,setSel]=useState<Record<string,{size?:string;color?:string}>>({}),[info,setInfo]=useState<string|null>(null);
+ const [query,setQuery]=useState(''),[sel,setSel]=useState<Record<string,{size?:string;color?:string;opt?:string}>>({}),[info,setInfo]=useState<string|null>(null);
  const sizes=sizesFor(type);
  const id=(c:Choice)=>(c.brand+'|'+c.name).toLowerCase();
  const fits=(c:Choice)=>{if(!positioned||!pos)return true;const p=posOf(c.name);return pos==='both'?true:p===null||p===pos||p==='both';};
@@ -235,10 +237,10 @@ function Options({type,system,choices,have,onAdd,onCustom,pendingRef}:{type:stri
  const chosen=inPos.filter(c=>sel[id(c)]);
  const missing=chosen.filter(c=>sizes&&!sel[id(c)].size);
  const stage:'pos'|'brand'|'models'=positioned&&!pos?'pos':!direct&&!brand?'brand':'models';
- const build=()=>chosen.map(c=>{const s=sel[id(c)],pn=chosenPartNumber(c,s.size),named=posOf(c.name);
+ const build=()=>chosen.map(c=>{const s=sel[id(c)],o=c.opts?.find(x=>x.label===s.opt),pn=o?.pn||chosenPartNumber(c,s.size),named=posOf(c.name);
   const where=positioned&&!named?(pos==='front'?'Front':pos==='rear'?'Rear':'Front & rear'):'';
   const v=[where,s.size].filter(Boolean).join(' · ');
-  return {s:system,b:c.brand,n:c.name,...(pn?{p:pn}:{}),...(c.r?{r:c.r}:{}),...(v?{v}:{}),...(s.color?{k:s.color}:{})} as InstalledPart;});
+  return {s:system,b:c.brand,n:c.name,...(pn?{p:pn}:{}),...(c.r?{r:c.r}:{}),...(v?{v}:{}),...(s.opt?{k:s.opt}:s.color?{k:s.color}:{})} as InstalledPart;});
  function add(){onAdd(build());}
  // a ticked part that still needs its size isn't added on the way out
  pendingRef.current=()=>chosen.length&&!missing.length?build():null;
@@ -264,7 +266,7 @@ function Options({type,system,choices,have,onAdd,onCustom,pendingRef}:{type:stri
     {stage==='models'&&<>
      <Text style={st.sub}>{models.length} {models.length===1?'model':'models'}{brand?` from ${brand}`:''} · pick one or more</Text>
      {models.length>8&&<View style={st.searchBox}><Icon name="search" size={16} color="#8b93a1"/><TextInput value={query} onChangeText={setQuery} placeholder="Search models" placeholderTextColor="#6b7380" autoCorrect={false} accessibilityLabel="Search models" style={{flex:1,color:colors.text,fontSize:16,paddingVertical:10}}/></View>}
-     <Group>{shown.map(c=>{const k=id(c),s=sel[k],on=!!s,fitted=haveKeys.has(k),cols=colorsFor(c,type??c.type),where=posOf(c.name);
+     <Group>{shown.map(c=>{const k=id(c),s=sel[k],on=!!s,fitted=haveKeys.has(k),opts=c.opts&&c.opts.length>1?c.opts:null,cols=opts?[]:colorsFor(c,type??c.type),where=posOf(c.name);
       return <View key={k} style={st.option}>
        <Pressable accessibilityRole="checkbox" accessibilityState={{checked:on}} accessibilityLabel={`${c.brand} ${c.name}`} onPress={()=>{hSelect();const n={...sel};if(on)delete n[k];else n[k]={...(cols.length===1?{color:cols[0].name}:{})};setSel(n);}} style={({pressed})=>[{flexDirection:'row',alignItems:'center',gap:12},pressed&&{opacity:0.6}]}>
         <Icon name={on?'checkboxOn':'checkbox'} size={22} color={on?colors.accent:'#6b7280'}/>
@@ -276,11 +278,15 @@ function Options({type,system,choices,have,onAdd,onCustom,pendingRef}:{type:stri
         <Pressable accessibilityRole="button" accessibilityLabel="Details" hitSlop={10} onPress={()=>setInfo(info===k?null:k)}><Icon name={info===k?'chevronUp':'chevronDown'} size={16} color="#8b93a1"/></Pressable>
        </Pressable>
        {on&&sizes&&<Chips label={`${sizes.label}${s.size?'':' (pick one)'}`} options={sizes.options} value={s.size} onPick={v=>setSel({...sel,[k]:{...s,size:v}})}/>}
+       {on&&opts&&<Chips label="Which one" options={opts.map(x=>x.label)} value={s.opt} onPick={v=>setSel({...sel,[k]:{...s,opt:v}})}/>}
        {on&&cols.length>1&&<Chips label="Color" options={cols.map(x=>x.name)} value={s.color} onPick={v=>setSel({...sel,[k]:{...s,color:v}})}/>}
        {info===k&&<View style={{gap:8,paddingLeft:34}}>
         {!!c.what&&<Note label="WHAT IT CHANGES" text={c.what}/>}
+        {!c.what&&!!c.desc&&<Note label="FROM THE SELLER" text={c.desc}/>}
         {!!c.caution&&<Note label="HEADS UP" text={c.caution} warn/>}
         {c.testers.slice(0,1).map(t=><Note key={t} label="RIDERS FOUND" text={t}/>)}
+        {!!c.opts?.length&&<Note label="OPTIONS" text={c.opts.slice(0,8).map(o=>o.pn?`${o.label} (${o.pn})`:o.label).join(', ')+(c.opts.length>8?` +${c.opts.length-8} more`:'')}/>}
+        {!!c.links?.length&&<View style={{gap:4}}><Text style={st.noteLabel}>WHERE TO BUY</Text>{c.links.map(l=><Pressable key={l.url} accessibilityRole="link" onPress={()=>void Linking.openURL(l.url).catch(()=>{})} hitSlop={6}><Text style={{color:colors.accent,fontSize:14,fontWeight:'600'}}>{l.seller}{l.price?` · ${priceText(l.price)}`:''} ›</Text></Pressable>)}</View>}
         <Note label={c.pns.length>1?'PART NUMBERS (BY SIZE OR COLOR)':'PART NUMBER'} text={c.pns.length?c.pns.slice(0,8).join(', ')+(c.pns.length>8?` +${c.pns.length-8} more`:''):'Not listed'}/>
        </View>}
       </View>;})}

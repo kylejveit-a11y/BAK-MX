@@ -34,9 +34,11 @@ const PLACE:[RegExp,PartSystem][]=[
  [/^(?!.*(?:mount|spacer|handguard|bushing|bearing|hardware)).*\btriple clamps?\b/i,'chassis'],
  [/chain (?:guide|slider)s?\b/i,'chassis'],
  [/sprocket|^(?!.*(?:chain rollers?|adjuster|guide|slider|guard|breaker|tool|lube|clean)).*\b(?:4[12]0|428|520|525)\b.*\bchain\b/i,'gearing'],
- [/brake pads?\b|brake rotor|\brotor kit\b/i,'brakes'],
+ [/brake pads?\b|brake rotor(?!s? guard)|\brotor kit\b/i,'brakes'],
  [/air filter|airbox|air box|filter cage/i,'intake'],
- [/skid plate|frame guards?\b|radiator (?:guards?|braces?|louvers?)/i,'protection'],
+ [/skid plate|frame guards?\b|radiator (?:guards?|braces?|louvers?)|(?:brake )?(?:disc|disk|rotor) guards?/i,'protection'],
+ [/^(?!.*(?:tool|wrench)).*\bwheel bearings?\b/i,'wheels'],
+ [/^(?!.*(?:tool|wrench)).*(?:\b(?:steering (?:stem |head )?|swing ?arm )bearings?\b|\bengine (?:mounts?|braces?|brace set|hangers?)\b)/i,'chassis'],
  [/^(?!.*(?:switch|ecu|map|handguard|hand guard|guard|clamp)).*(?:handlebars?\b|\bbar mounts?\b|\bgrips?\b|\blevers?\b|foot ?pegs?)/i,'controls'],
 ];
 export function placeSystem(s:PartSystem,_b:string,n:string):PartSystem{for(const [re,k] of PLACE)if(re.test(n))return k;return s;}
@@ -66,7 +68,7 @@ export function readInstalled(configuration:Record<string,unknown>|null|undefine
  for(const raw of Array.isArray(c.installed_parts)?c.installed_parts:[]){
   if(!raw||typeof raw!=='object')continue;const o=raw as Record<string,unknown>,s=String(o.s) as PartSystem;
   if(!partSystemKeys.includes(s))continue;const n=clip(o.n,90),b=clip(o.b,60);if(!n&&!b)continue;
-  const part:InstalledPart={s:placeSystem(s,b,n),b,n};const p=clip(o.p,48);if(p)part.p=p;const r=clip(o.r,40);if(r&&/^[a-z0-9-]+$/i.test(r))part.r=r;if(o.x)part.x=true;const d=clip(o.d,120);if(d)part.d=d;const k=clip(o.k,30);if(k)part.k=k;if(o.o)part.o=true;const v=clip(o.v,20);if(v)part.v=v;
+  const part:InstalledPart={s:placeSystem(s,b,n),b,n};const p=clip(o.p,48);if(p)part.p=p;const r=clip(o.r,120);if(r&&/^[a-z0-9-]+$/i.test(r))part.r=r;if(o.x)part.x=true;const d=clip(o.d,120);if(d)part.d=d;const k=clip(o.k,30);if(k)part.k=k;if(o.o)part.o=true;const v=clip(o.v,20);if(v)part.v=v;
   parts.push(part);if(parts.length>=MAX_PARTS)break;
  }
  parts.splice(0,parts.length,...sortInstalled(parts));

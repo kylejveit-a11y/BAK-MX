@@ -24,10 +24,10 @@ test('a full build sheet fits the stored configuration limit',()=>{
  assert.equal(c.geared_weight_lb,180);
 });
 test('Ask BAK gets fitted parts with research notes, confirmed stock and unknown systems',()=>{
- const [id,r]=Object.entries(researchedParts).find(([,p])=>p.what_it_changes)!;
+ const [id,r]=Object.entries(researchedParts).find(([,p])=>p.what_it_changes&&/\b(muffler|slip-on|exhaust system|head ?pipe)\b/i.test(p.product))!;
  const ctx=installedPartsContext({installed_parts:[{s:'exhaust',b:r.brand,n:r.product,r:id},{s:'controls',b:'Renthal',n:'Fatbar',x:true}],stock_systems:['brakes']})!;
- assert.equal(ctx.fitted[0].research?.what_it_changes,r.what_it_changes);
- assert.equal(ctx.fitted[1].source,'typed by the rider');
+ assert.equal(ctx.fitted.find(f=>f.research)?.research?.what_it_changes,r.what_it_changes);
+ assert.equal(ctx.fitted.find(f=>!f.research)?.source,'typed by the rider');
  assert.deepEqual(ctx.confirmed_stock,['Brakes']);
  assert.ok(ctx.not_recorded.includes('Suspension')&&!ctx.not_recorded.includes('Exhaust'));
  assert.equal(installedPartsContext({}),null);

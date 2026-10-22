@@ -1,0 +1,483 @@
+{
+ "slice": "Thin bike-years gap fill (pass 4)",
+ "source": "Cycle Gear (https://www.cyclegear.com, server-rendered \"Parts for <year> <make> <model>\" listings and product pages); Rocky Mountain ATV/MC not readable (bot protection)",
+ "retrieved": "2026-10-22",
+ "products": [
+  {
+   "id": "p4gf-triumph-acerbis-fuel-tank-triumph-250cc-450cc-2024-2026",
+   "category": "intake",
+   "subcategory": "air and fuel",
+   "brand": "Acerbis",
+   "product": "Acerbis Fuel Tank Triumph 250cc-450cc 2024-2026",
+   "part_numbers": [
+    "2988520001",
+    "2988520147"
+   ],
+   "variants": "Black / 3.2 Gallons; 3.2 Gallons / Natural",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 250-X",
+     "years": [
+      2024,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 450-E",
+     "years": [
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/acerbis-fuel-tank-triumph-250cc-450cc-2024-2026",
+   "what_it_changes": "",
+   "supporting_parts": "",
+   "price": "$319.46",
+   "confidence": "medium",
+   "bike_listing_urls": [
+    "https://www.cyclegear.com/motorcycle/2024-triumph-tf250x",
+    "https://www.cyclegear.com/motorcycle/2026-triumph-tf250x",
+    "https://www.cyclegear.com/motorcycle/2026-triumph-tf450e"
+   ],
+   "product_page_read": true,
+   "listed_families": 1
+  },
+  {
+   "id": "p4gf-triumph-afam-rear-aluminum-sprocket-cfmoto-ktm-husqvarna-gas-gas-stark-husaberg-ajp-triumph-125cc-",
+   "category": "drivetrain",
+   "subcategory": "Chain & Sprocket",
+   "brand": "Afam Sprockets",
+   "product": "AFAM Rear Aluminum Sprocket CFMoto / KTM / Husqvarna / Gas Gas / Stark / Husaberg / AJP / Triumph 125cc-560cc",
+   "part_numbers": [
+    "72304+47",
+    "72304+48",
+    "72304+49",
+    "72304+50",
+    "72304+51",
+    "72304+52"
+   ],
+   "variants": "47T; 48T; 49T; 50T; 51T; 52T",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 250-X",
+     "years": [
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/afam-rear-aluminum-sprocket-cfmoto-ktm-husqvarna-gas-gas-stark-husaberg-ajp-triumph-125cc-560cc",
+   "what_it_changes": "",
+   "supporting_parts": "",
+   "price": "$79.99",
+   "confidence": "medium",
+   "bike_listing_urls": [
+    "https://www.cyclegear.com/motorcycle/2024-triumph-tf250x"
+   ],
+   "product_page_read": true,
+   "listed_families": 2
+  },
+  {
+   "id": "p4gf-triumph-afam-self-cleaning-rear-steel-sprocket-cfmoto-ktm-husqvarna-gas-gas-stark-husaberg-ajp-tri",
+   "category": "drivetrain",
+   "subcategory": "Chain & Sprocket",
+   "brand": "Afam Sprockets",
+   "product": "AFAM Self Cleaning Rear Steel Sprocket CFMoto / KTM / Husqvarna / Gas Gas / Stark / Husaberg / AJP / Triumph",
+   "part_numbers": [
+    "71304SLK+45",
+    "71304SLK+46",
+    "71304SLK+47",
+    "71304SLK+48",
+    "71304SLK+49",
+    "71304SLK+50",
+    "71304SLK+51",
+    "71304SLK+52"
+   ],
+   "variants": "SLK / 45T; SLK / 46T; SLK / 47T; SLK / 48T; SLK / 49T; SLK / 50T; SLK / 51T; SLK / 52T",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 250-X",
+     "years": [
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/afam-self-cleaning-rear-steel-sprocket-cfmoto-ktm-husqvarna-gas-gas-stark-husaberg-ajp-triumph",
+   "what_it_changes": "",
+   "supporting_parts": "",
+   "price": "$75.99",
+   "confidence": "medium",
+   "bike_listing_urls": [
+    "https://www.cyclegear.com/motorcycle/2024-triumph-tf250x"
+   ],
+   "product_page_read": true,
+   "listed_families": 2
+  },
+  {
+   "id": "p4gf-triumph-afam-standard-front-sprocket-triumph-tf250x",
+   "category": "drivetrain",
+   "subcategory": "Chain & Sprocket",
+   "brand": "Afam Sprockets",
+   "product": "AFAM Standard Front Sprocket Triumph TF250X",
+   "part_numbers": [
+    "88400-14"
+   ],
+   "variants": "",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 250-X",
+     "years": [
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/afam-standard-front-sprocket-triumph-tf250x",
+   "what_it_changes": "",
+   "supporting_parts": "",
+   "price": "$23.99",
+   "confidence": "medium",
+   "bike_listing_urls": [
+    "https://www.cyclegear.com/motorcycle/2024-triumph-tf250x"
+   ],
+   "product_page_read": true,
+   "listed_families": 1
+  },
+  {
+   "id": "p4gf-triumph-enduro-engineering-skid-plate-triumph-tf250x-2024-2025",
+   "category": "protection",
+   "subcategory": "Bike Protection",
+   "brand": "Enduro Engineering",
+   "product": "Enduro Engineering Skid Plate Triumph TF250X 2024-2025",
+   "part_numbers": [
+    "24-2024"
+   ],
+   "variants": "",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 250-X",
+     "years": [
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/enduro-engineering-skid-plate-triumph-tf250x-2024-2025",
+   "what_it_changes": "",
+   "supporting_parts": "",
+   "price": "$126.34",
+   "confidence": "medium",
+   "bike_listing_urls": [
+    "https://www.cyclegear.com/motorcycle/2024-triumph-tf250x"
+   ],
+   "product_page_read": true,
+   "listed_families": 1
+  },
+  {
+   "id": "p4gf-triumph-fmf-powercore-4-hex-slip-on-exhaust-triumph-tf-450-c-e-rc-2025-2026",
+   "category": "exhaust",
+   "subcategory": "Slip-on Exhaust",
+   "brand": "FMF",
+   "product": "FMF Powercore 4 HEX Slip-On Exhaust Triumph TF 450 C / E / RC 2025-2026",
+   "part_numbers": [
+    "45701"
+   ],
+   "variants": "Stainless Steel/Aluminum/Stainless Steel",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 450-E",
+     "years": [
+      2026
+     ],
+     "notes": "Retailer fitment notes: This product is not legal for street use on an emissions-controlled vehicle. It may be used on dedicated competition or pre-pollution-controlled vehicles only. This Product Fits: Triumph TF450C 2026 TF450E 2026 TF450RC Edition 2025 This item is also available for 138 other models: Beta <a href=\"/par"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/fmf-powercore-4-hex-slip-on-exhaust-triumph-tf-450-c-e-rc-2025-2026",
+   "what_it_changes": "",
+   "supporting_parts": "",
+   "price": "$427.49",
+   "confidence": "medium",
+   "bike_listing_urls": [
+    "https://www.cyclegear.com/motorcycle/2026-triumph-tf450e"
+   ],
+   "product_page_read": true,
+   "listed_families": 1
+  },
+  {
+   "id": "p4gf-triumph-fmf-powercore-4-hex-slip-on-exhaust-triumph-tf250x-c-e",
+   "category": "exhaust",
+   "subcategory": "Slip-on Exhaust",
+   "brand": "FMF",
+   "product": "FMF PowerCore 4 HEX Slip-On Exhaust Triumph TF250X / C / E",
+   "part_numbers": [
+    "045707"
+   ],
+   "variants": "Stainless Steel/Aluminum/Stainless Steel",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 250-X",
+     "years": [
+      2024,
+      2026
+     ],
+     "notes": "Retailer fitment notes: This product is not legal for street use on an emissions-controlled vehicle. It may be used on dedicated competition or pre-pollution-controlled vehicles only. This Product Fits: Triumph TF250C 2026 TF250E 2025 , 2026 TF250X 2024 , 2025 , 2026 This item is also available for 138 other models: <span "
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/fmf-powercore-4-hex-slip-on-exhaust-triumph-tf250x-c-e",
+   "what_it_changes": "",
+   "supporting_parts": "",
+   "price": "$427.49",
+   "confidence": "medium",
+   "bike_listing_urls": [
+    "https://www.cyclegear.com/motorcycle/2024-triumph-tf250x",
+    "https://www.cyclegear.com/motorcycle/2026-triumph-tf250x"
+   ],
+   "product_page_read": true,
+   "listed_families": 1
+  },
+  {
+   "id": "p4gf-triumph-fmf-q4-hex-sa-slip-on-exhaust-triumph-tf250x-c-e",
+   "category": "exhaust",
+   "subcategory": "Slip-on Exhaust",
+   "brand": "FMF",
+   "product": "FMF Q4 HEX S/A Slip-On Exhaust Triumph TF250X / C / E",
+   "part_numbers": [
+    "045708"
+   ],
+   "variants": "Stainless Steel/Aluminum/Stainless Steel",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 250-X",
+     "years": [
+      2024,
+      2026
+     ],
+     "notes": "Retailer fitment notes: This product is not legal for street use on an emissions-controlled vehicle. It may be used on dedicated competition or pre-pollution-controlled vehicles only. This Product Fits: Triumph TF250C 2026 TF250E 2026 TF250X 2024 , 2025 , 2026 This item is also available for 132 other models: Beta <dd clas"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/fmf-q4-hex-sa-slip-on-exhaust-triumph-tf250x-c-e",
+   "what_it_changes": "",
+   "supporting_parts": "",
+   "price": "$474.99",
+   "confidence": "medium",
+   "bike_listing_urls": [
+    "https://www.cyclegear.com/motorcycle/2024-triumph-tf250x",
+    "https://www.cyclegear.com/motorcycle/2026-triumph-tf250x"
+   ],
+   "product_page_read": true,
+   "listed_families": 1
+  },
+  {
+   "id": "p4gf-triumph-fmf-q4-hex-sa-slip-on-exhaust-triumph-tf450-c-e-rc-2025-2026",
+   "category": "exhaust",
+   "subcategory": "Slip-on Exhaust",
+   "brand": "FMF",
+   "product": "FMF Q4 HEX S/A Slip-On Exhaust Triumph TF450 C / E / RC 2025-2026",
+   "part_numbers": [
+    "45702"
+   ],
+   "variants": "Stainless Steel/Aluminum/Stainless Steel",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 450-E",
+     "years": [
+      2026
+     ],
+     "notes": "Retailer fitment notes: This product is not legal for street use on an emissions-controlled vehicle. It may be used on dedicated competition or pre-pollution-controlled vehicles only. This Product Fits: Triumph TF450C 2026 TF450E 2026 TF450RC Edition 2025 This item is also available for 132 other models: Beta <a href=\"/par"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/fmf-q4-hex-sa-slip-on-exhaust-triumph-tf450-c-e-rc-2025-2026",
+   "what_it_changes": "",
+   "supporting_parts": "",
+   "price": "$474.99",
+   "confidence": "medium",
+   "bike_listing_urls": [
+    "https://www.cyclegear.com/motorcycle/2026-triumph-tf450e"
+   ],
+   "product_page_read": true,
+   "listed_families": 1
+  },
+  {
+   "id": "p4gf-triumph-hinson-fsc-clutch-plate-spring-kit-triumph-tf-250-x-2024-2025",
+   "category": "clutch",
+   "subcategory": "Drive & Transmission",
+   "brand": "Hinson",
+   "product": "Hinson FSC Clutch Plate / Spring Kit Triumph TF 250 X 2024-2025",
+   "part_numbers": [
+    "FSC641-8-2101"
+   ],
+   "variants": "",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 250-X",
+     "years": [
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/hinson-fsc-clutch-plate-spring-kit-triumph-tf-250-x-2024-2025",
+   "what_it_changes": "",
+   "supporting_parts": "",
+   "price": "$299.99",
+   "confidence": "medium",
+   "bike_listing_urls": [
+    "https://www.cyclegear.com/motorcycle/2024-triumph-tf250x"
+   ],
+   "product_page_read": true,
+   "listed_families": 1
+  },
+  {
+   "id": "p4gf-triumph-moose-racing-shock-piston-bushing-kit-beta-honda-kawasaki-sherco-suzuki-triumph-yamaha",
+   "category": "suspension",
+   "subcategory": "Suspension",
+   "brand": "Moose Racing",
+   "product": "Moose Racing Shock Piston Bushing Kit Beta / Honda / Kawasaki / Sherco / Suzuki / Triumph / Yamaha 250cc-500cc 2009-2026",
+   "part_numbers": [
+    "13140864"
+   ],
+   "variants": "",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 250-X",
+     "years": [
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/moose-racing-shock-piston-bushing-kit-beta-honda-kawasaki-sherco-suzuki-triumph-yamaha",
+   "what_it_changes": "",
+   "supporting_parts": "",
+   "price": "$19.95",
+   "confidence": "medium",
+   "bike_listing_urls": [
+    "https://www.cyclegear.com/motorcycle/2024-triumph-tf250x"
+   ],
+   "product_page_read": true,
+   "listed_families": 3
+  },
+  {
+   "id": "p4gf-triumph-rfx-frame-grip-tape-triumph-250cc-450cc",
+   "category": "controls",
+   "subcategory": "Bike Protection",
+   "brand": "RFX",
+   "product": "RFX Frame Grip Tape Triumph 250cc-450cc",
+   "part_numbers": [
+    "FXGT 60100 99BK",
+    "FXGT 60100 99GY"
+   ],
+   "variants": "Black; Grey",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 250-X",
+     "years": [
+      2024,
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/rfx-frame-grip-tape-triumph-250cc-450cc",
+   "what_it_changes": "",
+   "supporting_parts": "",
+   "price": "$59.99",
+   "confidence": "medium",
+   "bike_listing_urls": [
+    "https://www.cyclegear.com/motorcycle/2024-triumph-tf250x",
+    "https://www.cyclegear.com/motorcycle/2026-triumph-tf250x"
+   ],
+   "product_page_read": true,
+   "listed_families": 1
+  },
+  {
+   "id": "p4gf-triumph-rfx-side-panel-grip-tape-triumph-250cc-450cc",
+   "category": "controls",
+   "subcategory": "handlebars and grips",
+   "brand": "RFX",
+   "product": "RFX Side Panel Grip Tape Triumph 250cc-450cc",
+   "part_numbers": [
+    "FXGT 61000 99CL"
+   ],
+   "variants": "Clear",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 250-X",
+     "years": [
+      2024,
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/rfx-side-panel-grip-tape-triumph-250cc-450cc",
+   "what_it_changes": "",
+   "supporting_parts": "",
+   "price": "$59.99",
+   "confidence": "medium",
+   "bike_listing_urls": [
+    "https://www.cyclegear.com/motorcycle/2024-triumph-tf250x",
+    "https://www.cyclegear.com/motorcycle/2026-triumph-tf250x"
+   ],
+   "product_page_read": true,
+   "listed_families": 1
+  },
+  {
+   "id": "p4gf-triumph-yoshimura-rs-12-low-volume-insert-kit-kawasaki-triumph-250cc-450cc-2021-2026",
+   "category": "exhaust",
+   "subcategory": "Exhaust",
+   "brand": "Yoshimura",
+   "product": "Yoshimura RS-12 Low Volume Insert Kit Kawasaki / Triumph 250cc-450cc 2021-2026",
+   "part_numbers": [
+    "INS-30-K"
+   ],
+   "variants": "Stainless Steel",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 250-X",
+     "years": [
+      2024
+     ],
+     "notes": "Retailer fitment notes: This product is not legal for street use on an emissions-controlled vehicle. It may be used on dedicated competition or pre-pollution-controlled vehicles only. This Product Fits: Kawasaki KX450 2019 - 2026 KX450F 2019 , 2020 KX450SR 2022 , 2023 , 2026 KX450X 2021 -<a href=\"/motorcycle/2026-kawasa"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 450-E",
+     "years": [
+      2026
+     ],
+     "notes": "Retailer fitment notes: This product is not legal for street use on an emissions-controlled vehicle. It may be used on dedicated competition or pre-pollution-controlled vehicles only. This Product Fits: Kawasaki KX450 2019 - 2026 KX450F 2019 , 2020 KX450SR 2022 , 2023 , 2026 KX450X 2021 -<a href=\"/motorcycle/2026-kawasa"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/yoshimura-rs-12-low-volume-insert-kit-kawasaki-triumph-250cc-450cc-2021-2026",
+   "what_it_changes": "",
+   "supporting_parts": "",
+   "price": "$40.95",
+   "confidence": "medium",
+   "bike_listing_urls": [
+    "https://www.cyclegear.com/motorcycle/2024-triumph-tf250x",
+    "https://www.cyclegear.com/motorcycle/2026-triumph-tf450e"
+   ],
+   "product_page_read": true,
+   "listed_families": 2
+  }
+ ]
+}

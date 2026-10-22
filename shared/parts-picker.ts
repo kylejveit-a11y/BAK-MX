@@ -6,11 +6,16 @@ import {partTypes,typeOf} from './part-types.ts';
 import type {FuelSystem} from './fuel-system.ts';
 export {partTypes,typeOf};
 /** One part a rider can pick for their bike. r marks a researched part (it carries what it changes and tester notes). */
-export type CatalogPart={brand:string;name:string;system:PartSystem;pn:string;r?:string;verified:boolean;what:string;caution:string;testers:string[];service:boolean;fuel?:'c'|'i';colors?:PartColor[];links:{seller:string;url:string;price:string}[]};
+/** An option the seller lists (colour, size, bend) with its part number when that is known. */
+export type PartOption={label:string;pn:string};
+export type CatalogPart={brand:string;name:string;system:PartSystem;pn:string;r?:string;verified:boolean;what:string;caution:string;testers:string[];service:boolean;fuel?:'c'|'i';colors?:PartColor[];links:{seller:string;url:string;price:string}[];desc?:string;opts?:PartOption[]};
 /** A colour the maker lists for a product (name as printed, finish such as anodized or matte). */
 export type PartColor={name:string;finish:string};
-export type FamilyFile={v:number;systems:PartSystem[];sellers:Record<string,string>;brands:string[];items:{b:number;n:string;s:number;p?:string;u?:string[][];r?:string;conf?:string;w?:string;c?:string;t?:string[];sv?:number;k?:'c'|'i';cl?:[string,string][]}[];bikes:Record<string,number[]>};
+export type FamilyFile={v:number;systems:PartSystem[];sellers:Record<string,string>;brands:string[];items:{b:number;n:string;s:number;p?:string;u?:string[][];r?:string;conf?:string;w?:string;c?:string;t?:string[];sv?:number;k?:'c'|'i';cl?:[string,string][];ws?:string;vr?:[string,string][]}[];bikes:Record<string,number[]>};
 const SELLER:Record<string,string>={cg:'Cycle Gear',ms:'MotoSport',kt:'KTM Twins',lg:'Lings',tr:'Triumph dealer',ym:'Yamaha dealer',rs:'Source'};
+const SITES:[RegExp,string][]=[[/ktm\.com/,'KTM'],[/husqvarna-motorcycles\.com/,'Husqvarna'],[/gasgas\.com/,'GasGas'],[/cyclegear\.com/,'Cycle Gear'],[/motosport\.com/,'MotoSport'],[/ktmtwins\.com/,'KTM Twins'],[/lings\.com/,'Lings'],[/shopfactorylinks\.com/,'Factory Links'],[/fcpracing\.com/,'FCP Racing'],[/triumphpartstore\.com/,'Triumph dealer'],[/yamaha/,'Yamaha dealer']];
+/** The store's name for a link: the seller code, else the site it points at. */
+const sellerName=(code:string,url:string)=>SELLER[code]&&code!=='rs'?SELLER[code]:SITES.find(([re])=>re.test(url))?.[1]??url.replace(/^https?:\/\/(www\.)?/,'').split('/')[0];
 export const familyOf=(make:string)=>['KTM','Husqvarna','GasGas'].includes(make)?'ktm-family':make==='Triumph'?'triumph':make==='Yamaha'?'yamaha':make==='Honda'?'honda':make==='Kawasaki'?'kawasaki':null;
 /** Every listed part for this exact bike in a family file, or null when the bike has no list there. */
 export function decodeFamily(f:FamilyFile|null,make:string,model:string,year:number):CatalogPart[]|null{
@@ -19,7 +24,8 @@ export function decodeFamily(f:FamilyFile|null,make:string,model:string,year:num
  const out:CatalogPart[]=[];let idx=0;
  for(const d of list){idx+=d;const it=f.items[idx];if(!it)continue;
   out.push({brand:f.brands[it.b]??'',name:it.n,system:placeSystem(f.systems[it.s],f.brands[it.b]??'',it.n),pn:it.p??'',r:it.r,verified:it.conf==='high',what:it.w??'',caution:it.c??'',testers:it.t??[],service:!!it.sv,...(it.k?{fuel:it.k}:{}),...(it.cl?.length?{colors:it.cl.map(([name,finish])=>({name,finish}))}:{}),
-   links:(it.u??[]).map(([code,path,price])=>({seller:SELLER[code]??'Source',url:(f.sellers[code]??'')+path,price:price??''})).filter(l=>/^https:\/\//.test(l.url))});
+   links:(it.u??[]).map(([code,path,price])=>{const url=(f.sellers[code]??'')+path;return {seller:sellerName(code,url),url,price:price??''};}).filter(l=>/^https:\/\//.test(l.url)),
+   ...(it.ws?{desc:it.ws}:{}),...(it.vr?.length?{opts:it.vr.map(([label,pn])=>({label,pn}))}:{})});
  }
  return out;
 }
@@ -64,7 +70,7 @@ export function providersFor(kind:WorkProvider['work'],make:string,model:string)
  for(const p of workProviders.filter(p=>p.work===kind&&(!p.makes.length||p.makes.includes(make))).sort((a,b)=>rank(b)-rank(a)))if(!m.has(p.brand))m.set(p.brand,p);
  return [...m.values()].map(p=>({...p,exact:rank(p)===2||!p.models.length,label:rank(p)===2?p.name:kind==='ecu'?'ECU flash and mapping':'Revalves and suspension service'}));
 }
-export type Choice={brand:string;name:string;pn:string;pns:string[];r?:string;verified:boolean;what:string;caution:string;testers:string[];type:string|null;colors?:PartColor[]};
+export type Choice={brand:string;name:string;pn:string;pns:string[];r?:string;verified:boolean;what:string;caution:string;testers:string[];type:string|null;colors?:PartColor[];desc?:string;opts?:PartOption[];links?:CatalogPart['links']};
 /** Every part number a listing carries (sellers paste one per size or colour into one field). */
 export function partNumbers(raw:string){return [...new Set(raw.split(/[\s,;]+|\s\/\s/).map(x=>x.trim()).filter(x=>x.length>=3&&/\d/.test(x)&&!/^<|:</.test(x)))].slice(0,40);}
 /** Listings that name a road, supermoto or adventure model, or the other stroke, are for a different bike even when the shop
@@ -101,7 +107,7 @@ export function pickerChoices(catalog:CatalogPart[]|null,system:PartSystem,fuel:
  const m=new Map<string,Choice>();
  for(const c of catalog??[]){if(c.system!==system||c.service||(fuel==='injected'&&c.fuel==='c')||(fuel==='carburetor'&&c.fuel==='i')||(model&&forOtherBike(c.name,model)))continue;const brand=brandOf(c),name=cleanName(brand,c.name),type=typeOf(system,c.name);
   const k=(brand+'|'+name).toLowerCase(),prev=m.get(k);
-  if(!prev)m.set(k,{brand,name,pn:c.pn.split(/[\s,]+/)[0]??'',pns:partNumbers(c.pn),r:c.r,verified:c.verified,what:c.what,caution:c.caution,testers:c.testers,type,...(c.colors?{colors:c.colors}:{})});
+  if(!prev)m.set(k,{brand,name,pn:c.pn.split(/[\s,]+/)[0]??'',pns:partNumbers(c.pn),...(c.desc?{desc:c.desc}:{}),...(c.opts?{opts:c.opts}:{}),links:c.links,r:c.r,verified:c.verified,what:c.what,caution:c.caution,testers:c.testers,type,...(c.colors?{colors:c.colors}:{})});
   else if(c.r&&!prev.r)m.set(k,{...prev,r:c.r,verified:c.verified,what:c.what,caution:c.caution,testers:c.testers});
   const cur=m.get(k)!;if(c.colors?.length&&!cur.colors?.length)m.set(k,{...cur,colors:c.colors});if(prev)m.set(k,{...m.get(k)!,pns:[...new Set([...m.get(k)!.pns,...partNumbers(c.pn)])].slice(0,40)});}
  return [...m.values()];
