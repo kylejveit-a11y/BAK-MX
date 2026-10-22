@@ -3,7 +3,7 @@ import {Modal,View,Text,ScrollView,TextInput,ActivityIndicator,KeyboardAvoidingV
 import {Pressable} from './Touch';
 import type {Bike} from '../../../shared/types';
 import {partSystems,readInstalled,writeInstalled,MAX_PARTS,type InstalledPart,type PartSystem} from '../../../shared/installed-parts';
-import {decodeFamily,familyOf,NOTE_HINT,WORK,providersFor,cleanName,canonBrand,pickerChoices,typesWithCounts,choicesOfType,sizesFor,chosenPartNumber,type CatalogPart,type FamilyFile,type Work,type Choice} from '../../../shared/parts-picker';
+import {decodeFamily,familyOf,NOTE_HINT,WORK,providersFor,cleanName,canonBrand,pickerChoices,typesWithCounts,choicesOfType,sizesFor,chosenPartNumber,colorsFor,type CatalogPart,type FamilyFile,type Work,type Choice} from '../../../shared/parts-picker';
 import {checkBuild,typeOfPart,slotOf,type BuildCheck} from '../../../shared/build-check';
 import {fuelSystem,fuelSystemLabel} from '../../../shared/fuel-system';
 import {api,apiOrigin} from './api';
@@ -129,12 +129,12 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
      {mode==='changed'&&<>
       {checks.map((c,i)=><Warn key={i} text={c.text}/>)}
       <Section title={`ON THE BIKE${on.length?` · ${on.length}`:''}`}/>
-      <Group>{on.map(p=><PartRow key={keyOf(p)} part={p} choice={p.r?choices.find(c=>c.r===p.r):undefined} flagged={checks.some(c=>c.parts.some(x=>keyOf(x)===keyOf(p)))} onToggle={()=>toggle(p)} onRemove={()=>setPicked(picked.filter(x=>keyOf(x)!==keyOf(p)))}/>)}
+      <Group>{on.map(p=><PartRow key={keyOf(p)} part={p} choice={p.r?choices.find(c=>c.r===p.r):undefined} flagged={checks.some(c=>c.parts.some(x=>keyOf(x)===keyOf(p)))} onToggle={()=>toggle(p)} onRemove={()=>setPicked(picked.filter(x=>keyOf(x)!==keyOf(p)))} onColor={k=>setPicked(picked.map(x=>keyOf(x)===keyOf(p)?{...x,k}:x))}/>)}
        {!on.length&&<Text style={[st.small,{paddingVertical:14}]}>Nothing on the bike in this section yet.</Text>}
        <Row label="Add parts" accent plus onPress={()=>push({id:'types'})}/>
       </Group>
       {off.length>0&&<><Section title={`OFF THE BIKE · ${off.length}`}/><Text style={[st.small,{marginTop:-6}]}>Parts you own and swap on for other conditions. BAK answers for what’s on the bike.</Text>
-       <Group>{off.map(p=><PartRow key={keyOf(p)} part={p} choice={p.r?choices.find(c=>c.r===p.r):undefined} flagged={false} onToggle={()=>toggle(p)} onRemove={()=>setPicked(picked.filter(x=>keyOf(x)!==keyOf(p)))}/>)}</Group></>}
+       <Group>{off.map(p=><PartRow key={keyOf(p)} part={p} choice={p.r?choices.find(c=>c.r===p.r):undefined} flagged={false} onToggle={()=>toggle(p)} onRemove={()=>setPicked(picked.filter(x=>keyOf(x)!==keyOf(p)))} onColor={k=>setPicked(picked.map(x=>keyOf(x)===keyOf(p)?{...x,k}:x))}/>)}</Group></>}
      </>}
      {mode!=='unknown'&&<View style={{gap:6}}><Text style={st.small}>Anything else BAK should know? (optional)</Text><TextInput value={note} onChangeText={setNote} multiline maxLength={280} placeholder={NOTE_HINT[system]??'Condition, settings or work done'} placeholderTextColor="#6b7380" style={[st.input,{minHeight:80,textAlignVertical:'top'}]}/></View>}
      <Button disabled={busy||(mode==='changed'&&!picked.length)} title={busy?'Saving…':mode==='changed'&&!picked.length?'Add a part first':'Save'} onPress={done}/>
@@ -163,7 +163,8 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
 }
 
 /** A fitted part: what it is in plain words, who makes it, on or off the bike, and its details on tap. */
-function PartRow({part,choice,flagged,onToggle,onRemove}:{part:InstalledPart;choice?:Choice;flagged:boolean;onToggle:()=>void;onRemove:()=>void}){
+function PartRow({part,choice,flagged,onToggle,onRemove,onColor}:{part:InstalledPart;choice?:Choice;flagged:boolean;onToggle:()=>void;onRemove:()=>void;onColor:(k:string)=>void}){
+ const palette=colorsFor(choice??{},typeOfPart(part));
  const [open,setOpen]=useState(false);
  const extra=[part.v,part.k,part.d].filter(Boolean).join(' · ');
  return <View style={[st.fitted,part.o&&{opacity:0.72}]}>
@@ -178,6 +179,7 @@ function PartRow({part,choice,flagged,onToggle,onRemove}:{part:InstalledPart;cho
   <Pressable accessibilityRole="button" onPress={()=>setOpen(!open)} style={{flexDirection:'row',alignItems:'center',gap:4}} hitSlop={6}><Text style={{color:colors.accent,fontSize:13.5,fontWeight:'600'}}>Details</Text><Icon name={open?'chevronUp':'chevronDown'} size={13} color={colors.accent} weight={2.2}/></Pressable>
   {open&&<View style={{gap:8}}>
    <Note label="PART" text={[canonBrand(part.b),part.n].filter(Boolean).join(' ')}/>
+   {palette.length>0&&<Chips label="Color" options={palette.map(x=>x.name)} value={part.k} onPick={onColor} indent={0}/>}
    <Note label="PART NUMBER" text={part.p||(part.x?'Not entered':'Not saved. The listing covers several sizes or colors.')}/>
    {!!choice?.what&&<Note label="WHAT IT CHANGES" text={choice.what}/>}
    {!!choice?.caution&&<Note label="HEADS UP" text={choice.caution} warn/>}
@@ -213,14 +215,14 @@ function Options({type,system,choices,have,onAdd,onCustom}:{type:string|null;sys
    <Text style={st.title}>{type??'Other parts'}</Text>
    <Text style={st.sub}>{choices.length} listed for your bike · pick one or more</Text>
    {choices.length>8&&<View style={st.searchBox}><Icon name="search" size={16} color="#8b93a1"/><TextInput value={query} onChangeText={setQuery} placeholder="Search brand or name" placeholderTextColor="#6b7380" autoCorrect={false} accessibilityLabel="Search parts" style={{flex:1,color:colors.text,fontSize:16,paddingVertical:10}}/></View>}
-   <Group>{shown.map(c=>{const k=id(c),s=sel[k],on=!!s,fitted=haveKeys.has(k),cols=c.colors??[];
+   <Group>{shown.map(c=>{const k=id(c),s=sel[k],on=!!s,fitted=haveKeys.has(k),cols=colorsFor(c,type??c.type);
     return <View key={k} style={st.option}>
      <Pressable accessibilityRole="checkbox" accessibilityState={{checked:on}} accessibilityLabel={`${c.brand} ${c.name}`} onPress={()=>{hSelect();const n={...sel};if(on)delete n[k];else n[k]={...(cols.length===1?{color:cols[0].name}:{})};setSel(n);}} style={({pressed})=>[{flexDirection:'row',alignItems:'center',gap:12},pressed&&{opacity:0.6}]}>
       <Icon name={on?'checkboxOn':'checkbox'} size={22} color={on?colors.accent:'#6b7280'}/>
       <View style={{flex:1,gap:2}}>
        <Text style={st.brand}>{c.brand.toUpperCase()}</Text>
        <Text style={st.rowTitle} numberOfLines={2}>{c.name}</Text>
-       <Text style={[st.small,{fontSize:12}]}>{[c.verified?'Maker lists your bike':'Listed for your bike',c.testers.length?'Rider tested':'',fitted?'On your sheet':'',cols.length>1?`${cols.length} colors`:''].filter(Boolean).join(' · ')}</Text>
+       <Text style={[st.small,{fontSize:12}]}>{[c.verified?'Maker lists your bike':'Listed for your bike',c.testers.length?'Rider tested':'',fitted?'On your sheet':'',(c.colors?.length??0)>1?`${c.colors!.length} colors`:''].filter(Boolean).join(' · ')}</Text>
       </View>
       <Pressable accessibilityRole="button" accessibilityLabel="Details" hitSlop={10} onPress={()=>setInfo(info===k?null:k)}><Icon name={info===k?'chevronUp':'chevronDown'} size={16} color="#8b93a1"/></Pressable>
      </Pressable>
@@ -244,8 +246,8 @@ function Options({type,system,choices,have,onAdd,onCustom}:{type:string|null;sys
   </View>}
  </View>;
 }
-function Chips({label,options,value,onPick}:{label:string;options:string[];value?:string;onPick:(v:string)=>void}){
- return <View style={{gap:6,paddingLeft:34}}><Text style={st.noteLabel}>{label.toUpperCase()}</Text>
+function Chips({label,options,value,onPick,indent=34}:{label:string;options:string[];value?:string;onPick:(v:string)=>void;indent?:number}){
+ return <View style={{gap:6,paddingLeft:indent}}><Text style={st.noteLabel}>{label.toUpperCase()}</Text>
   <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap:6}}>{options.map(o=><Pressable key={o} haptic="select" accessibilityRole="button" accessibilityState={{selected:value===o}} onPress={()=>onPick(o)} style={[st.chip,value===o&&{backgroundColor:colors.primary,borderColor:colors.primary}]}><Text style={{color:value===o?'#fff':colors.text,fontSize:14,fontWeight:value===o?'700':'500'}}>{o}</Text></Pressable>)}</ScrollView>
  </View>;
 }
@@ -254,13 +256,14 @@ function WorkDetail({work,onAdd}:{work:Work;onAdd:(detail:string)=>void}){const 
   <TextInput autoFocus multiline value={d} onChangeText={setD} maxLength={120} placeholder={work.example} placeholderTextColor="#6b7380" style={[st.input,{minHeight:80,textAlignVertical:'top'}]}/>
   <Button title="Add to my bike" onPress={()=>onAdd(d.trim())}/></View>;}
 function Custom({system,type,onAdd}:{system:PartSystem;type:string|null;onAdd:(p:InstalledPart)=>void}){
- const [b,setB]=useState(''),[n,setN]=useState(type??''),[p,setP]=useState('');const sizes=sizesFor(type),[v,setV]=useState<string|undefined>();
+ const [b,setB]=useState(''),[n,setN]=useState(type??''),[p,setP]=useState('');const sizes=sizesFor(type),[v,setV]=useState<string|undefined>(),[k,setK]=useState<string|undefined>();
  return <View style={{gap:12}}>
   <Text style={st.small}>What is it?</Text><TextInput autoFocus value={n} onChangeText={setN} maxLength={90} placeholder="e.g. Rear shock, slip-on muffler, bar mounts" placeholderTextColor="#6b7380" style={st.input}/>
   <Text style={st.small}>Brand</Text><TextInput value={b} onChangeText={setB} maxLength={60} placeholder="e.g. Öhlins" placeholderTextColor="#6b7380" style={st.input}/>
   {sizes&&<Chips label={sizes.label} options={sizes.options} value={v} onPick={setV}/>}
+  {colorsFor({},type).length>0&&<Chips label="Color (optional)" options={colorsFor({},type).map(x=>x.name)} value={k} onPick={setK}/>}
   <Text style={st.small}>Part number (optional)</Text><TextInput value={p} onChangeText={setP} maxLength={48} autoCapitalize="characters" style={st.input}/>
-  <Button disabled={!n.trim()&&!b.trim()} title="Add to my bike" onPress={()=>onAdd({s:system,b:b.trim(),n:n.trim()||type||'',...(p.trim()?{p:p.trim()}:{}),...(v?{v}:{}),x:true})}/>
+  <Button disabled={!n.trim()&&!b.trim()} title="Add to my bike" onPress={()=>onAdd({s:system,b:b.trim(),n:n.trim()||type||'',...(p.trim()?{p:p.trim()}:{}),...(v?{v}:{}),...(k?{k}:{}),x:true})}/>
  </View>;
 }
 

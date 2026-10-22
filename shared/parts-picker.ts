@@ -71,7 +71,19 @@ export function partNumbers(raw:string){return [...new Set(raw.split(/[\s,;]+|\s
  *  attached them to this one. */
 const ROAD=/\b(duke|smc?|smr|supermoto|travel|adventure|freeride|street|road)\b/i,TWO=/\b(2-?stroke|two-?stroke|tpi|tbi)\b/i,FOUR=/\b(4-?stroke|four-?stroke)\b/i;
 export function isFourStroke(model:string){return /F\b|F$|CRF|RM-?Z|^KX ?(250|450)\b|^TF ?(250|450)/i.test(model.trim());}
-export function forOtherBike(name:string,model:string){return ROAD.test(name)||(isFourStroke(model)?TWO.test(name):FOUR.test(name));}
+/** A listing that names only another maker's model family (a KX number-plate post on a KTM list). KTM, Husqvarna and GasGas
+ *  models count as one family because their parts are shared. */
+const GROUPS:[string,RegExp][]=[['kawasaki',/\bkx\s?\d{2,3}|\bkxf?\b/i],['honda',/\bcrf?\s?\d{3}|\bcrf\b/i],['yamaha',/\b(yz|wr)\s?\d{2,3}|\byzf?\b/i],['suzuki',/\brm-?z/i],
+ ['ktm',/\b(sx-?f?|xc-?f?|xcf-?w|exc-?f?)\b|\b(fc|tc|fx|tx|fe|te|mc|ex)\s?\d{2,3}f?\b/i]];
+export function forOtherBike(name:string,model:string){
+ if(ROAD.test(name)||(isFourStroke(model)?TWO.test(name):FOUR.test(name)))return true;
+ const mine=GROUPS.find(([,re])=>re.test(model))?.[0];if(!mine)return false;
+ const named=GROUPS.filter(([,re])=>re.test(name)).map(([g])=>g);return named.length>0&&!named.includes(mine);
+}
+/** Colors a rider can pick for parts where color matters, when the maker's list gives none. */
+export const COMMON_COLORS:PartColor[]=['Black','White','Orange','Blue','Red','Yellow','Green','Grey','Stock colors'].map(name=>({name,finish:''}));
+const COLOR_TYPES=new Set(['Plastics','Seat','Gas tank','Handlebar','Grips','Wheels','Hand guards','Skid plate','Triple clamps','Footpegs']);
+export function colorsFor(c:Pick<Choice,'colors'>,type:string|null){return c.colors?.length?c.colors:type&&COLOR_TYPES.has(type)?COMMON_COLORS:[];}
 /** Parts whose size is chosen when buying (sprockets): the sizes to offer, or null. */
 export function sizesFor(type:string|null):{label:string;options:string[]}|null{
  if(type==='Rear sprocket')return {label:'Teeth',options:Array.from({length:17},(_,i)=>String(38+i)+'T')};
