@@ -50,7 +50,7 @@ export function checkBuild(bike:Bike):BuildCheck[]{
  }
  // two parts filling one slot
  const bySlot=new Map<string,InstalledPart[]>();
- for(const {p,t} of typed){if(!t)continue;let slot=SINGLE.has(t)?t:t==='Tires'?(/\bfront\b/i.test(p.n)?'Front tire':/\brear\b/i.test(p.n)?'Rear tire':''):'';
+ for(const {p,t} of typed){if(!t)continue;let slot=SINGLE.has(t)?t:t==='Tires'?(/\bfront\b/i.test(p.n+' '+(p.v??''))&&!/\brear\b/i.test(p.v??'')?'Front tire':/\brear\b/i.test(p.n+' '+(p.v??''))?'Rear tire':''):'';
   if(t==='Full exhaust system'||t==='Slip-on muffler')slot='Exhaust';if(!slot)continue;bySlot.set(slot,[...(bySlot.get(slot)??[]),p]);}
  for(const [slot,list] of bySlot)if(list.length>1)
   out.push({level:'conflict',parts:list,text:`${list.length===2?'Both of these are':'These are all'} marked on the bike as your ${slot==='Exhaust'?'exhaust':slot.toLowerCase()}: ${list.map(label).join(list.length===2?' and ':', ')}. Mark the one you’re not running as off the bike.`});
@@ -67,4 +67,4 @@ export function checkBuild(bike:Bike):BuildCheck[]{
 }
 /** The slot a part fills when only one can be on the bike (front and rear tires are separate slots), or null. */
 export function slotOf(p:InstalledPart):string|null{const t=typeOfPart(p);if(!t)return null;if(t==='Full exhaust system'||t==='Slip-on muffler')return 'Exhaust';
- if(t==='Tires')return /\bfront\b/i.test(p.n)?'Front tire':/\brear\b/i.test(p.n)?'Rear tire':null;return SINGLE.has(t)?t:null;}
+ if(t==='Tires')return /\bfront\b/i.test(p.n+' '+(p.v??''))&&!/\brear\b/i.test(p.v??'')?'Front tire':/\brear\b/i.test(p.n+' '+(p.v??''))?'Rear tire':null;return SINGLE.has(t)?t:null;}

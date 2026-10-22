@@ -36,7 +36,7 @@ export function brandOf(c:{brand:string;name:string}){
 const CANON:[RegExp,string][]=[[/^moose( racing)?$/i,'Moose Racing'],[/^vortex( racing)?$/i,'Vortex'],[/^graves( motorsports)?$/i,'Graves Motorsports'],[/^helix( racing products)?$/i,'Helix Racing'],
  [/^all balls( racing)?$/i,'All Balls Racing'],[/^scotts?( performance)?( \/ brp)?$|^brp$/i,'Scotts / BRP'],[/^raptor( titanium)?$/i,'Raptor'],[/^galfer( braking systems)?$/i,'Galfer'],[/^koubalinks?$/i,'KoubaLink'],
  [/^jt( sprockets)?$/i,'JT Sprockets'],[/^supersprox$/i,'Supersprox'],[/^ebc( brakes)?$/i,'EBC'],[/^pro ?taper$/i,'ProTaper'],[/^pro[- ]?x$/i,'Pro-X'],[/^uni( filter)?$/i,'Uni Filter'],[/^ktm powerparts.*$/i,'KTM PowerParts'],
- [/^husqvarna( technical accessories| motorcycles)?$/i,'Husqvarna Technical Accessories'],[/^gas ?gas( technical accessories| parts & accessories)?$/i,'GasGas Technical Accessories'],[/^d\.?i\.?d$/i,'D.I.D'],[/^xtrig$/i,'Xtrig']];
+ [/^husqvarna( technical accessories| motorcycles)?$/i,'Husqvarna Technical Accessories'],[/^gas ?gas( technical accessories| parts & accessories)?$/i,'GasGas Technical Accessories'],[/^d\.?i\.?d$/i,'D.I.D'],[/^xtrig$/i,'Xtrig'],[/^p3( carbon)?$/i,'P3 Carbon']];
 export function canonBrand(b:string){const t=b.trim();for(const [re,name] of CANON)if(re.test(t))return name;return t;}
 /** The part name without its brand and the fitment the shop pasted into it ("450/500 2023-2026", "350/450 SX-F/XC-F"). */
 export function cleanName(brand:string,name:string){

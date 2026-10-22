@@ -36,11 +36,17 @@ export function BuildSheet({bike,onSaved,onAsk}:{bike:Bike;onSaved:(b:Bike)=>voi
   loadFamily(fam).then(f=>{if(live)setCatalog(decodeFamily(f,bike.manufacturer,bike.model,bike.model_year));}).catch(()=>{if(live)setCatalog(null);});
   return()=>{live=false;};},[bike.manufacturer,bike.model,bike.model_year]);
  const recorded=new Set([...value.parts.filter(p=>!p.o).map(p=>p.s),...value.stock]).size;
+ // saves run one after another so a quick run of picks can't land out of order
+ const chain=React.useRef<Promise<unknown>>(Promise.resolve());
+ function persist(next:Value){
+  const run=chain.current.then(async()=>{const configuration=writeInstalled(bike.configuration??{},next);
+   const saved=await api<Bike>(`/api/bikes?id=${bike.id}`,'PATCH',{manufacturer:bike.manufacturer,model:bike.model,model_year:bike.model_year,variant:bike.variant,region:bike.region,nickname:bike.nickname??'',engine_hours:bike.engine_hours,configuration});
+   onSaved(saved);});
+  chain.current=run.catch(()=>{});return run;
+ }
  async function save(next:Value){
   setBusy(true);setNotice('');
-  try{const configuration=writeInstalled(bike.configuration??{},next);
-   const saved=await api<Bike>(`/api/bikes?id=${bike.id}`,'PATCH',{manufacturer:bike.manufacturer,model:bike.model,model_year:bike.model_year,variant:bike.variant,region:bike.region,nickname:bike.nickname??'',engine_hours:bike.engine_hours,configuration});
-   onSaved(saved);setOpen(null);}
+  try{await persist(next);setOpen(null);}
   catch(e){setNotice(errorText(e));}finally{setBusy(false);}
  }
  return <Card>
@@ -70,17 +76,20 @@ export function BuildSheet({bike,onSaved,onAsk}:{bike:Bike;onSaved:(b:Bike)=>voi
     <Icon name="chevronRight" size={16} color="#6b7280"/>
    </Pressable>;})}</View>
   {value.parts.length>0&&onAsk&&<LinkAction title="Ask BAK about this build" onPress={()=>onAsk('I\'ve recorded my aftermarket parts in the Garage. Anything I should check or set up differently because of what\'s fitted?')}/>}
-  {open&&<SystemSheet key={open} system={open} bike={bike} value={value} catalog={catalog??null} busy={busy} close={()=>setOpen(null)} save={next=>void save(next)}/>}
+  {open&&<SystemSheet key={open} system={open} bike={bike} value={value} catalog={catalog??null} busy={busy} close={()=>setOpen(null)} save={next=>void save(next)} persist={persist}/>}
  </Card>;
 }
 
-function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSystem;bike:Bike;value:Value;catalog:CatalogPart[]|null;busy:boolean;close:()=>void;save:(v:Value)=>void}){
+function SystemSheet({system,bike,value,catalog,busy,close,save,persist}:{system:PartSystem;bike:Bike;value:Value;catalog:CatalogPart[]|null;busy:boolean;close:()=>void;save:(v:Value)=>void;persist:(v:Value)=>Promise<unknown>}){
  const meta=partSystems.find(s=>s.key===system)!,fuel=fuelSystem(bike.manufacturer,bike.model,bike.model_year);
  const others=value.parts.filter(p=>p.s!==system);
  const [mode,setMode]=useState<'stock'|'changed'|'unknown'>(value.parts.some(p=>p.s===system)?'changed':value.stock.includes(system)?'stock':'unknown');
  const [picked,setPicked]=useState<InstalledPart[]>(value.parts.filter(p=>p.s===system));
  const [note,setNote]=useState(value.notes[system]??''),[stack,setStack]=useState<Screen[]>([{id:'home'}]),[flash,setFlash]=useState('');
- const screen=stack[stack.length-1],push=(s:Screen)=>setStack([...stack,s]),back=()=>setStack(stack.slice(0,-1)),home=()=>setStack([{id:'home'}]);
+ const pending=React.useRef<(()=>InstalledPart[]|null)|null>(null);
+ const screen=stack[stack.length-1],push=(s:Screen)=>setStack([...stack,s]),home=()=>setStack([{id:'home'}]);
+ // backing out of a parts list keeps what was ticked
+ const back=()=>{const p=screen.id==='options'?pending.current?.():null;if(p&&p.length){addParts(p);return;}setStack(stack.slice(0,-1));};
  const choices=useMemo(()=>pickerChoices(catalog,system,fuel,bike.model),[catalog,system,fuel,bike.model]);
  const types=typesWithCounts(choices,system,!!catalog);
  const draft=useMemo(()=>writeInstalled(bike.configuration??{},{parts:[...others,...picked],stock:value.stock,notes:value.notes}),[bike.configuration,others,picked,value]);
@@ -103,33 +112,38 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
  }
  function toggle(p:InstalledPart){hSelect();const k=keyOf(p),slot=slotOf(p),goingOn=!!p.o;
   setPicked(picked.map(x=>keyOf(x)===k?{...x,o:goingOn?undefined:true}:goingOn&&slot&&!x.o&&slotOf(x)===slot?{...x,o:true}:x));setFlash('');}
- function done(){
-  const parts=[...others,...(mode==='changed'?picked:[])];
-  const stock=value.stock.filter(s=>s!==system).concat(mode==='stock'?[system]:[]);
-  const notes={...value.notes};if(note.trim()&&mode!=='unknown')notes[system]=note.trim();else delete notes[system];
-  save({parts,stock,notes});
- }
+ // the sheet as it stands now: other sections untouched, this one from what's on screen
+ const others0=React.useRef(others).current,base=React.useRef(value).current;
+ const current=():Value=>{const notes={...base.notes};if(note.trim()&&mode!=='unknown')notes[system]=note.trim();else delete notes[system];
+  return {parts:[...others0,...(mode==='changed'||picked.length?picked:[])],stock:base.stock.filter(s=>s!==system).concat(mode==='stock'?[system]:[]),notes};};
+ // every pick, switch, color and removal is saved as it happens, so backing out never loses work
+ const [saveState,setSaveState]=useState<'idle'|'saving'|'saved'|'error'>('idle');
+ const first=React.useRef(true),dirty=React.useRef(false);
+ useEffect(()=>{if(first.current){first.current=false;return;}dirty.current=true;setSaveState('saving');
+  const t=setTimeout(()=>{dirty.current=false;persist(current()).then(()=>setSaveState('saved'),()=>setSaveState('error'));},450);return()=>clearTimeout(t);},[picked,mode]);
+ function closeSheet(){const p=screen.id==='options'?pending.current?.():null;if(p&&p.length){addParts(p);return;}if(dirty.current||note.trim()!==(base.notes[system]??'')){dirty.current=false;void persist(current()).catch(()=>{});}close();}
+ function done(){save(current());}
  const on=picked.filter(p=>!p.o),off=picked.filter(p=>p.o);
  const isWork=(p:InstalledPart)=>!!WORK[system]?.some(w=>p.n.startsWith(w.label));
  const partRow=(p:InstalledPart,inRail=true)=><PartRow inRail={inRail} key={keyOf(p)} part={p} choice={p.r?choices.find(c=>c.r===p.r):undefined} flagged={!p.o&&checks.some(c=>c.parts.some(x=>keyOf(x)===keyOf(p)))} onToggle={()=>toggle(p)} onRemove={()=>setPicked(picked.filter(x=>keyOf(x)!==keyOf(p)))} onColor={k=>setPicked(picked.map(x=>keyOf(x)===keyOf(p)?{...x,k}:x))}/>;
  const title=screen.id==='home'?meta.label:screen.id==='types'?'What kind of part?':screen.id==='options'?(screen.type??'Other parts'):screen.id==='work'?'Who did it?':screen.id==='detail'?screen.work.label:'Add it yourself';
  const sub=screen.id==='home'?meta.hint:screen.id==='types'||screen.id==='options'?`Listed for the ${bike.model_year} ${bike.manufacturer} ${bike.model}`:screen.id==='work'?screen.work.label:screen.id==='detail'?(screen.who||'Who did it not recorded'):'';
- return <Modal visible animationType="slide" presentationStyle="pageSheet" onRequestClose={close}>
+ return <Modal visible animationType="slide" presentationStyle="pageSheet" onRequestClose={closeSheet}>
   <KeyboardAvoidingView style={{flex:1,backgroundColor:colors.bg}} behavior={Platform.OS==='ios'?'padding':undefined}>
    <View style={st.bar}>
     {stack.length>1?<Pressable accessibilityRole="button" onPress={back} hitSlop={12}><View style={{flexDirection:'row',alignItems:'center',gap:4}}><Icon name="chevronLeft" size={18} color={colors.accent} weight={2.1}/><Text style={st.back}>Back</Text></View></Pressable>:<View/>}
-    <Pressable accessibilityRole="button" accessibilityLabel="Close" onPress={close} hitSlop={12} style={st.close}><Icon name="close" size={17} color={colors.text} weight={2}/></Pressable>
+    <Pressable accessibilityRole="button" accessibilityLabel="Close" onPress={closeSheet} hitSlop={12} style={st.close}><Icon name="close" size={17} color={colors.text} weight={2}/></Pressable>
    </View>
    {screen.id==='options'
-    ?<Options key={String(screen.type)} type={screen.type} system={system} choices={choicesOfType(choices,screen.type)} have={picked} onAdd={addParts} onCustom={()=>push({id:'custom',type:screen.type})}/>
+    ?<Options key={String(screen.type)} pendingRef={pending} type={screen.type} system={system} choices={choicesOfType(choices,screen.type)} have={picked} onAdd={addParts} onCustom={()=>push({id:'custom',type:screen.type})}/>
     :<ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{padding:20,paddingBottom:40,gap:14}}>
     <Text style={st.title}>{title}</Text>{!!sub&&<Text style={st.sub}>{sub}</Text>}
     {screen.id==='home'&&<>
      <View style={st.segment}>{(['stock','changed','unknown'] as const).map(m=><Pressable key={m} haptic="select" accessibilityRole="button" accessibilityState={{selected:mode===m}} onPress={()=>setMode(m)} style={[st.segBtn,mode===m&&st.segOn]}><Text style={[st.segText,mode===m&&{color:colors.text,fontWeight:'800'}]}>{m==='stock'?'Stock':m==='changed'?'Changed':'Not sure'}</Text></Pressable>)}</View>
-     <Text style={st.small}>{mode==='stock'?'Factory parts and setup. BAK uses the stock specs here.':mode==='unknown'?'BAK won’t assume anything about this section.':'Tap a part to pick what’s fitted. What’s set shows under it.'}</Text>
+     <Text style={st.small}>{mode==='stock'?'Factory parts and setup. BAK uses the stock specs here.':mode==='unknown'?'Not set yet. Tap a part below to pick what’s fitted, or mark the section Stock.':'Tap a part to pick what’s fitted. What’s set shows under it.'}</Text>
      {!!flash&&<Notice text={flash}/>}
      {mode==='changed'&&checks.map((c,i)=><Warn key={i} text={c.text}/>)}
-     {mode!=='stock'&&mode!=='unknown'||picked.length?<>
+     {true?<>
       {system==='tuning'&&fuel&&<Text style={st.small}>Your {bike.model} is {fuelSystemLabel(fuel)}, so {fuel==='injected'?'carburetor and jetting':'fuel-injection'} parts are hidden.</Text>}
       <Group>
        {types.map(t=><TypeRow key={t.label} label={t.label} small={t.count?`${t.count} listed for your bike`:'Add your own'} onPress={()=>t.count?push({id:'options',type:t.label}):push({id:'custom',type:t.label})}>
@@ -143,7 +157,8 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
        <Group>{off.map(p=>partRow(p,false))}</Group></>}
      </>:null}
      {mode!=='unknown'&&<View style={{gap:6}}><Text style={st.small}>Anything else BAK should know? (optional)</Text><TextInput value={note} onChangeText={setNote} multiline maxLength={280} placeholder={NOTE_HINT[system]??'Condition, settings or work done'} placeholderTextColor="#6b7380" style={[st.input,{minHeight:80,textAlignVertical:'top'}]}/></View>}
-     <Button disabled={busy||(mode==='changed'&&!picked.length)} title={busy?'Saving…':mode==='changed'&&!picked.length?'Pick a part first':'Save'} onPress={done}/>
+     <Text style={[st.small,{textAlign:'center',color:saveState==='error'?'#f0a8b0':'#8891a0'}]}>{saveState==='saving'?'Saving…':saveState==='saved'?'Saved to your bike':saveState==='error'?'Couldn’t save. Check your connection; tap Done to try again.':'Changes save as you go.'}</Text>
+     <Button disabled={busy} title={busy?'Saving…':'Done'} onPress={done}/>
     </>}
     {screen.id==='work'&&(()=>{const w=screen.work,shops=w.kind?providersFor(w.kind,bike.manufacturer,bike.model):[],go=(who:string,r?:string)=>push({id:'detail',work:w,who,...(r?{r}:{})});return <>
      {shops.length>0&&<><Section title={w.kind==='ecu'?'TUNERS':'SUSPENSION SHOPS'}/><Group>{shops.map(p=><Row key={p.id} label={p.brand} small={p.label} onPress={()=>go(p.brand,p.exact?p.id:undefined)}/>)}</Group></>}
@@ -194,49 +209,89 @@ function OnOff({on,onPress}:{on:boolean;onPress:()=>void}){
  </Pressable>;
 }
 
-/** Parts listed for this bike for one kind of part: pick several, choose size or color on the row, details on demand. */
-function Options({type,system,choices,have,onAdd,onCustom}:{type:string|null;system:PartSystem;choices:Choice[];have:InstalledPart[];onAdd:(p:InstalledPart[])=>void;onCustom:()=>void}){
- const [query,setQuery]=useState(''),[all,setAll]=useState(false),[sel,setSel]=useState<Record<string,{size?:string;color?:string}>>({}),[info,setInfo]=useState<string|null>(null);
+/** Kinds of part that come as a front, a rear, or a set. */
+const POSITIONED=new Set(['Wheels','Tires','Rotor','Pads','Brake lines','Caliper or master cylinder','Mousse or tube','Rim locks']);
+type Pos='front'|'rear'|'both';
+const posOf=(name:string):Pos|null=>/\b(set|pair|wheelset|front\s*(and|&|\/)\s*rear)\b/i.test(name)?'both':/\bfront\b/i.test(name)?'front':/\brear\b/i.test(name)?'rear':null;
+
+/** One kind of part, picked the way the bike is picked: front, rear or both where that matters, then the brand on the wheel,
+ *  then that brand's models (several at once), with size and color on the row and the part numbers under Details. */
+function Options({type,system,choices,have,onAdd,onCustom,pendingRef}:{type:string|null;system:PartSystem;choices:Choice[];have:InstalledPart[];onAdd:(p:InstalledPart[])=>void;onCustom:()=>void;pendingRef:React.MutableRefObject<(()=>InstalledPart[]|null)|null>}){
+ const positioned=!!type&&POSITIONED.has(type);
+ const [pos,setPos]=useState<Pos|null>(positioned?null:'both'),[brand,setBrand]=useState<string|null>(null),[bq,setBq]=useState('');
+ const [query,setQuery]=useState(''),[sel,setSel]=useState<Record<string,{size?:string;color?:string}>>({}),[info,setInfo]=useState<string|null>(null);
  const sizes=sizesFor(type);
  const id=(c:Choice)=>(c.brand+'|'+c.name).toLowerCase();
- const sorted=useMemo(()=>{const pop=new Map<string,number>();for(const c of choices)pop.set(c.brand,(pop.get(c.brand)??0)+1);
-  return [...choices].sort((a,b)=>Number(!!b.r)-Number(!!a.r)||Number(b.verified)-Number(a.verified)||(pop.get(b.brand)??0)-(pop.get(a.brand)??0)||a.brand.localeCompare(b.brand)||a.name.localeCompare(b.name));},[choices]);
+ const fits=(c:Choice)=>{if(!positioned||!pos)return true;const p=posOf(c.name);return pos==='both'?true:p===null||p===pos||p==='both';};
+ const inPos=useMemo(()=>choices.filter(fits),[choices,pos]);
+ const brands=useMemo(()=>{const m=new Map<string,{n:number;r:number}>();for(const c of inPos){const v=m.get(c.brand)??{n:0,r:0};v.n++;if(c.r||c.verified)v.r++;m.set(c.brand,v);}
+  return [...m.entries()].sort((a,b)=>a[0].localeCompare(b[0])).map(([b,v])=>({value:b,label:b,detail:`${v.n} ${v.n===1?'model':'models'}`}));},[inPos]);
+ // a short list skips the brand step
+ const direct=brands.length<=1;
+ const models=useMemo(()=>inPos.filter(c=>direct||c.brand===brand).sort((a,b)=>{const pa=posOf(a.name),pb=posOf(b.name),w=(p:Pos|null)=>pos==='both'?(p==='both'?0:p===null?1:2):0;return w(pa)-w(pb)||Number(!!b.r)-Number(!!a.r)||Number(b.verified)-Number(a.verified)||a.name.localeCompare(b.name);}),[inPos,brand,direct,pos]);
  const words=query.trim().toLowerCase().split(/\s+/).filter(Boolean);
- const list=sorted.filter(c=>words.every(w=>(c.brand+' '+c.name+' '+c.pns.join(' ')).toLowerCase().includes(w)));
- const shown=all||words.length?list:list.slice(0,15);
+ const shown=models.filter(c=>words.every(w=>(c.name+' '+c.pns.join(' ')).toLowerCase().includes(w)));
  const haveKeys=new Set(have.map(p=>(canonBrand(p.b)+'|'+cleanName(p.b,p.n)).toLowerCase()));
- const chosen=sorted.filter(c=>sel[id(c)]);
+ const chosen=inPos.filter(c=>sel[id(c)]);
  const missing=chosen.filter(c=>sizes&&!sel[id(c)].size);
- function add(){onAdd(chosen.map(c=>{const s=sel[id(c)],pn=chosenPartNumber(c,s.size);return {s:system,b:c.brand,n:c.name,...(pn?{p:pn}:{}),...(c.r?{r:c.r}:{}),...(s.size?{v:s.size}:{}),...(s.color?{k:s.color}:{})};}));}
+ const stage:'pos'|'brand'|'models'=positioned&&!pos?'pos':!direct&&!brand?'brand':'models';
+ const build=()=>chosen.map(c=>{const s=sel[id(c)],pn=chosenPartNumber(c,s.size),named=posOf(c.name);
+  const where=positioned&&!named?(pos==='front'?'Front':pos==='rear'?'Rear':'Front & rear'):'';
+  const v=[where,s.size].filter(Boolean).join(' · ');
+  return {s:system,b:c.brand,n:c.name,...(pn?{p:pn}:{}),...(c.r?{r:c.r}:{}),...(v?{v}:{}),...(s.color?{k:s.color}:{})} as InstalledPart;});
+ function add(){onAdd(build());}
+ // a ticked part that still needs its size isn't added on the way out
+ pendingRef.current=()=>chosen.length&&!missing.length?build():null;
+ useEffect(()=>()=>{pendingRef.current=null;},[]);
+ const crumb=[positioned&&pos?(pos==='front'?'Front':pos==='rear'?'Rear':'Front & rear'):'',brand??''].filter(Boolean);
  return <View style={{flex:1}}>
   <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{padding:20,paddingBottom:120,gap:14}}>
    <Text style={st.title}>{type??'Other parts'}</Text>
-   <Text style={st.sub}>{choices.length} listed for your bike · pick one or more</Text>
-   {choices.length>8&&<View style={st.searchBox}><Icon name="search" size={16} color="#8b93a1"/><TextInput value={query} onChangeText={setQuery} placeholder="Search brand or name" placeholderTextColor="#6b7380" autoCorrect={false} accessibilityLabel="Search parts" style={{flex:1,color:colors.text,fontSize:16,paddingVertical:10}}/></View>}
-   <Group>{shown.map(c=>{const k=id(c),s=sel[k],on=!!s,fitted=haveKeys.has(k),cols=colorsFor(c,type??c.type);
-    return <View key={k} style={st.option}>
-     <Pressable accessibilityRole="checkbox" accessibilityState={{checked:on}} accessibilityLabel={`${c.brand} ${c.name}`} onPress={()=>{hSelect();const n={...sel};if(on)delete n[k];else n[k]={...(cols.length===1?{color:cols[0].name}:{})};setSel(n);}} style={({pressed})=>[{flexDirection:'row',alignItems:'center',gap:12},pressed&&{opacity:0.6}]}>
-      <Icon name={on?'checkboxOn':'checkbox'} size={22} color={on?colors.accent:'#6b7280'}/>
-      <View style={{flex:1,gap:2}}>
-       <Text style={st.brand}>{c.brand.toUpperCase()}</Text>
-       <Text style={st.rowTitle} numberOfLines={2}>{c.name}</Text>
-       <Text style={[st.small,{fontSize:12}]}>{[c.verified?'Maker lists your bike':'Listed for your bike',c.testers.length?'Rider tested':'',fitted?'On your sheet':'',(c.colors?.length??0)>1?`${c.colors!.length} colors`:''].filter(Boolean).join(' · ')}</Text>
-      </View>
-      <Pressable accessibilityRole="button" accessibilityLabel="Details" hitSlop={10} onPress={()=>setInfo(info===k?null:k)}><Icon name={info===k?'chevronUp':'chevronDown'} size={16} color="#8b93a1"/></Pressable>
-     </Pressable>
-     {on&&sizes&&<Chips label={`${sizes.label}${s.size?'':' (pick one)'}`} options={sizes.options} value={s.size} onPick={v=>setSel({...sel,[k]:{...s,size:v}})}/>}
-     {on&&cols.length>1&&<Chips label="Color" options={cols.map(x=>x.name)} value={s.color} onPick={v=>setSel({...sel,[k]:{...s,color:v}})}/>}
-     {info===k&&<View style={{gap:8,paddingLeft:34}}>
-      {!!c.what&&<Note label="WHAT IT CHANGES" text={c.what}/>}
-      {!!c.caution&&<Note label="HEADS UP" text={c.caution} warn/>}
-      {c.testers.slice(0,1).map(t=><Note key={t} label="RIDERS FOUND" text={t}/>)}
-      <Note label={c.pns.length>1?'PART NUMBERS (BY SIZE OR COLOR)':'PART NUMBER'} text={c.pns.length?c.pns.slice(0,8).join(', ')+(c.pns.length>8?` +${c.pns.length-8} more`:''):'Not listed'}/>
-     </View>}
-    </View>;})}
-    {!list.length&&<Text style={[st.small,{paddingVertical:16}]}>Nothing listed matches.</Text>}
-    {!all&&!words.length&&list.length>shown.length&&<Row label={`Show all ${list.length}`} onPress={()=>setAll(true)}/>}
-   </Group>
-   <Group><Row label="Not listed?" small="Add it yourself" onPress={onCustom}/></Group>
+   {stage==='pos'&&<>
+    <Text style={st.sub}>Which one?</Text>
+    <Group>{([['front','Front'],['rear','Rear'],['both','Both / a set']] as const).map(([k,l])=><Row key={k} label={l} small={`${choices.filter(c=>k==='both'?true:posOf(c.name)===null||posOf(c.name)===k||posOf(c.name)==='both').length} listed for your bike`} onPress={()=>{setPos(k);setBrand(null);}}/>)}</Group>
+   </>}
+   {stage!=='pos'&&<>
+    <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>
+     {positioned&&<Pressable haptic="select" accessibilityRole="button" accessibilityLabel="Change front or rear" onPress={()=>{setPos(null);setBrand(null);setSel({});}} style={st.crumb}><Text style={st.crumbText}>{crumb[0]}</Text><Icon name="chevronDown" size={13} color={colors.accent} weight={2.2}/></Pressable>}
+     {!direct&&brand&&<Pressable haptic="select" accessibilityRole="button" accessibilityLabel="Change brand" onPress={()=>{setBrand(null);setQuery('');}} style={st.crumb}><Text style={st.crumbText}>{brand}</Text><Icon name="chevronDown" size={13} color={colors.accent} weight={2.2}/></Pressable>}
+    </View>
+    {stage==='brand'&&<>
+     <Text style={st.sub}>{brands.length} brands listed for your bike. Pick yours.</Text>
+     {brands.length>10&&<View style={st.searchBox}><Icon name="search" size={16} color="#8b93a1"/><TextInput value={bq} onChangeText={setBq} placeholder="Search brands" placeholderTextColor="#6b7380" autoCorrect={false} accessibilityLabel="Search brands" style={{flex:1,color:colors.text,fontSize:16,paddingVertical:10}}/></View>}
+     <Group>{brands.filter(b=>b.label.toLowerCase().includes(bq.trim().toLowerCase())).map(b=><Row key={b.value} label={b.label} detail={b.detail} onPress={()=>{setBrand(b.value);setQuery('');setBq('');}}/>)}</Group>
+    </>}
+    {stage==='models'&&<>
+     <Text style={st.sub}>{models.length} {models.length===1?'model':'models'}{brand?` from ${brand}`:''} · pick one or more</Text>
+     {models.length>8&&<View style={st.searchBox}><Icon name="search" size={16} color="#8b93a1"/><TextInput value={query} onChangeText={setQuery} placeholder="Search models" placeholderTextColor="#6b7380" autoCorrect={false} accessibilityLabel="Search models" style={{flex:1,color:colors.text,fontSize:16,paddingVertical:10}}/></View>}
+     <Group>{shown.map(c=>{const k=id(c),s=sel[k],on=!!s,fitted=haveKeys.has(k),cols=colorsFor(c,type??c.type),where=posOf(c.name);
+      return <View key={k} style={st.option}>
+       <Pressable accessibilityRole="checkbox" accessibilityState={{checked:on}} accessibilityLabel={`${c.brand} ${c.name}`} onPress={()=>{hSelect();const n={...sel};if(on)delete n[k];else n[k]={...(cols.length===1?{color:cols[0].name}:{})};setSel(n);}} style={({pressed})=>[{flexDirection:'row',alignItems:'center',gap:12},pressed&&{opacity:0.6}]}>
+        <Icon name={on?'checkboxOn':'checkbox'} size={22} color={on?colors.accent:'#6b7280'}/>
+        <View style={{flex:1,gap:2}}>
+         {direct&&<Text style={st.brand}>{c.brand.toUpperCase()}</Text>}
+         <Text style={st.rowTitle} numberOfLines={2}>{c.name}</Text>
+         <Text style={[st.small,{fontSize:12}]}>{[positioned&&pos==='both'&&where?(where==='both'?'Set':where==='front'?'Front':'Rear'):'',c.verified?'Maker lists your bike':'Listed for your bike',c.testers.length?'Rider tested':'',fitted?'On your sheet':'',(c.colors?.length??0)>1?`${c.colors!.length} colors`:''].filter(Boolean).join(' · ')}</Text>
+        </View>
+        <Pressable accessibilityRole="button" accessibilityLabel="Details" hitSlop={10} onPress={()=>setInfo(info===k?null:k)}><Icon name={info===k?'chevronUp':'chevronDown'} size={16} color="#8b93a1"/></Pressable>
+       </Pressable>
+       {on&&sizes&&<Chips label={`${sizes.label}${s.size?'':' (pick one)'}`} options={sizes.options} value={s.size} onPick={v=>setSel({...sel,[k]:{...s,size:v}})}/>}
+       {on&&cols.length>1&&<Chips label="Color" options={cols.map(x=>x.name)} value={s.color} onPick={v=>setSel({...sel,[k]:{...s,color:v}})}/>}
+       {info===k&&<View style={{gap:8,paddingLeft:34}}>
+        {!!c.what&&<Note label="WHAT IT CHANGES" text={c.what}/>}
+        {!!c.caution&&<Note label="HEADS UP" text={c.caution} warn/>}
+        {c.testers.slice(0,1).map(t=><Note key={t} label="RIDERS FOUND" text={t}/>)}
+        <Note label={c.pns.length>1?'PART NUMBERS (BY SIZE OR COLOR)':'PART NUMBER'} text={c.pns.length?c.pns.slice(0,8).join(', ')+(c.pns.length>8?` +${c.pns.length-8} more`:''):'Not listed'}/>
+       </View>}
+      </View>;})}
+      {!shown.length&&<Text style={[st.small,{paddingVertical:16}]}>Nothing listed matches.</Text>}
+     </Group>
+    </>}
+    <Group>
+     {!direct&&stage==='models'&&<Row label="A different brand" onPress={()=>{setBrand(null);setQuery('');}}/>}
+     <Row label="Not listed?" small="Add it yourself" onPress={onCustom}/>
+    </Group>
+   </>}
   </ScrollView>
   {chosen.length>0&&<View style={st.footer}>
    {missing.length>0&&<Text style={[st.small,{color:AMBER,textAlign:'center'}]}>Pick the {sizes?.label.toLowerCase()} for {missing.length===1?missing[0].name:`${missing.length} parts`}</Text>}
@@ -322,6 +377,8 @@ const st={
  onoff:{flexDirection:'row' as const,borderWidth:1,borderColor:'#343a45',borderRadius:16,padding:2,gap:2},
  onoffSeg:{paddingHorizontal:11,paddingVertical:5,borderRadius:13},
  onoffText:{color:'#8b93a1',fontSize:13,fontWeight:'700' as const},
+ crumb:{flexDirection:'row' as const,alignItems:'center' as const,gap:6,paddingHorizontal:14,paddingVertical:8,borderRadius:18,borderWidth:1,borderColor:'#2f74e8'},
+ crumbText:{color:colors.text,fontSize:15,fontWeight:'700' as const},
  chip:{paddingHorizontal:13,paddingVertical:7,borderRadius:16,borderWidth:1,borderColor:'#343a45'},
  footer:{position:'absolute' as const,left:0,right:0,bottom:0,padding:16,paddingBottom:30,gap:8,backgroundColor:'rgba(6,6,9,0.96)',borderTopWidth:1,borderTopColor:colors.line},
 };

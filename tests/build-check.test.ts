@@ -53,3 +53,9 @@ test('off-the-bike parts are kept but do not count as the section being set',()=
  const cfg={installed_parts:[{s:'wheels',b:'Dunlop',n:'Geomax MX14 Rear Tire',o:true,v:''}]};
  assert.equal(readInstalled(cfg).parts[0].o,true);assert.equal(systemsRecorded(cfg),0);
 });
+
+test('a tire picked as front or rear fills that slot even when its name does not say',()=>{
+ assert.equal(slotOf({s:'wheels',b:'Dunlop',n:'Geomax MX34 Tire',v:'Rear'}),'Rear tire');
+ assert.equal(slotOf({s:'wheels',b:'Dunlop',n:'Geomax MX34 Tire',v:'Front'}),'Front tire');
+ assert.match(checkBuild(ktm([{s:'wheels',b:'Dunlop',n:'Geomax MX34 Tire',v:'Rear'},{s:'wheels',b:'Dunlop',n:'Geomax MX14 Rear Tire'}]))[0].text,/rear tire/);
+});
