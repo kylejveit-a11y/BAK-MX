@@ -82,7 +82,7 @@ export const partTypes:Partial<Record<PartSystem,PartType[]>>={
 /** Accessories that name a main part but are not one ("silencer guard", "pipe mounts"), per system. */
 const NOT_THE_PART:Partial<Record<PartSystem,RegExp>>={
  exhaust:/\b(guards?|protectors?|armou?r|clamps?|mounts?|repacking|coating|heat|hangers?)\b/i,
- suspension:/\b(guards?|covers?|socks?|protectors?|tools?|wraps?)\b/i,
+ suspension:/\b(guards?|covers?|socks?|protectors?|tools?|wraps?|bumpers?|seal ?heads?|collars?|clevis|eyelets?|reservoir caps?|nitrogen|valves? caps?|lowering|gas valves?|air ports?|repair kits?|bushing kits?|service kits?)\b/i,
  engine:/\b(guards?|protectors?|caps?)\b/i,
  brakes:/\b(guards?|covers?|protectors?)\b/i,
  controls:/\b(covers?|protectors?)\b/i,

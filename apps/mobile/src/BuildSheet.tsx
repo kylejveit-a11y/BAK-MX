@@ -110,6 +110,8 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
   save({parts,stock,notes});
  }
  const on=picked.filter(p=>!p.o),off=picked.filter(p=>p.o);
+ const isWork=(p:InstalledPart)=>!!WORK[system]?.some(w=>p.n.startsWith(w.label));
+ const partRow=(p:InstalledPart,inRail=true)=><PartRow inRail={inRail} key={keyOf(p)} part={p} choice={p.r?choices.find(c=>c.r===p.r):undefined} flagged={!p.o&&checks.some(c=>c.parts.some(x=>keyOf(x)===keyOf(p)))} onToggle={()=>toggle(p)} onRemove={()=>setPicked(picked.filter(x=>keyOf(x)!==keyOf(p)))} onColor={k=>setPicked(picked.map(x=>keyOf(x)===keyOf(p)?{...x,k}:x))}/>;
  const title=screen.id==='home'?meta.label:screen.id==='types'?'What kind of part?':screen.id==='options'?(screen.type??'Other parts'):screen.id==='work'?'Who did it?':screen.id==='detail'?screen.work.label:'Add it yourself';
  const sub=screen.id==='home'?meta.hint:screen.id==='types'||screen.id==='options'?`Listed for the ${bike.model_year} ${bike.manufacturer} ${bike.model}`:screen.id==='work'?screen.work.label:screen.id==='detail'?(screen.who||'Who did it not recorded'):'';
  return <Modal visible animationType="slide" presentationStyle="pageSheet" onRequestClose={close}>
@@ -123,30 +125,25 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
     :<ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{padding:20,paddingBottom:40,gap:14}}>
     <Text style={st.title}>{title}</Text>{!!sub&&<Text style={st.sub}>{sub}</Text>}
     {screen.id==='home'&&<>
-     <View style={st.segment}>{(['stock','changed','unknown'] as const).map(m=><Pressable key={m} haptic="select" accessibilityRole="button" accessibilityState={{selected:mode===m}} onPress={()=>{setMode(m);if(m==='changed'&&!picked.length)push({id:'types'});}} style={[st.segBtn,mode===m&&st.segOn]}><Text style={[st.segText,mode===m&&{color:colors.text,fontWeight:'800'}]}>{m==='stock'?'Stock':m==='changed'?'Changed':'Not sure'}</Text></Pressable>)}</View>
-     <Text style={st.small}>{mode==='stock'?'Factory parts and setup. BAK uses the stock specs here.':mode==='changed'?'Add what’s fitted. Mark spares off the bike.':'BAK won’t assume anything about this section.'}</Text>
+     <View style={st.segment}>{(['stock','changed','unknown'] as const).map(m=><Pressable key={m} haptic="select" accessibilityRole="button" accessibilityState={{selected:mode===m}} onPress={()=>setMode(m)} style={[st.segBtn,mode===m&&st.segOn]}><Text style={[st.segText,mode===m&&{color:colors.text,fontWeight:'800'}]}>{m==='stock'?'Stock':m==='changed'?'Changed':'Not sure'}</Text></Pressable>)}</View>
+     <Text style={st.small}>{mode==='stock'?'Factory parts and setup. BAK uses the stock specs here.':mode==='unknown'?'BAK won’t assume anything about this section.':'Tap a part to pick what’s fitted. What’s set shows under it.'}</Text>
      {!!flash&&<Notice text={flash}/>}
-     {mode==='changed'&&<>
-      {checks.map((c,i)=><Warn key={i} text={c.text}/>)}
-      <Section title={`ON THE BIKE${on.length?` · ${on.length}`:''}`}/>
-      <Group>{on.map(p=><PartRow key={keyOf(p)} part={p} choice={p.r?choices.find(c=>c.r===p.r):undefined} flagged={checks.some(c=>c.parts.some(x=>keyOf(x)===keyOf(p)))} onToggle={()=>toggle(p)} onRemove={()=>setPicked(picked.filter(x=>keyOf(x)!==keyOf(p)))} onColor={k=>setPicked(picked.map(x=>keyOf(x)===keyOf(p)?{...x,k}:x))}/>)}
-       {!on.length&&<Text style={[st.small,{paddingVertical:14}]}>Nothing on the bike in this section yet.</Text>}
-       <Row label="Add parts" accent plus onPress={()=>push({id:'types'})}/>
+     {mode==='changed'&&checks.map((c,i)=><Warn key={i} text={c.text}/>)}
+     {mode!=='stock'&&mode!=='unknown'||picked.length?<>
+      {system==='tuning'&&fuel&&<Text style={st.small}>Your {bike.model} is {fuelSystemLabel(fuel)}, so {fuel==='injected'?'carburetor and jetting':'fuel-injection'} parts are hidden.</Text>}
+      <Group>
+       {types.map(t=><TypeRow key={t.label} label={t.label} small={t.count?`${t.count} listed for your bike`:'Add your own'} onPress={()=>t.count?push({id:'options',type:t.label}):push({id:'custom',type:t.label})}>
+        {on.filter(p=>!isWork(p)&&typeOfPart(p)===t.label).map(p=>partRow(p))}</TypeRow>)}
+       <TypeRow label="Something else" small={catalog?'Everything else listed for your bike':'Add your own'} onPress={()=>catalog?push({id:'options',type:null}):push({id:'custom',type:null})}>
+        {on.filter(p=>!isWork(p)&&!types.some(t=>t.label===typeOfPart(p))).map(p=>partRow(p))}</TypeRow>
       </Group>
+      {WORK[system]&&<><Section title="WORK DONE"/><Group>{WORK[system]!.map(w=><TypeRow key={w.label} label={w.label} small={w.detail} onPress={()=>push({id:'work',work:w})}>{on.filter(p=>p.n.startsWith(w.label)).map(p=>partRow(p))}</TypeRow>)}</Group></>}
+      {catalog===undefined&&<ActivityIndicator color={colors.accent}/>}
       {off.length>0&&<><Section title={`OFF THE BIKE · ${off.length}`}/><Text style={[st.small,{marginTop:-6}]}>Parts you own and swap on for other conditions. BAK answers for what’s on the bike.</Text>
-       <Group>{off.map(p=><PartRow key={keyOf(p)} part={p} choice={p.r?choices.find(c=>c.r===p.r):undefined} flagged={false} onToggle={()=>toggle(p)} onRemove={()=>setPicked(picked.filter(x=>keyOf(x)!==keyOf(p)))} onColor={k=>setPicked(picked.map(x=>keyOf(x)===keyOf(p)?{...x,k}:x))}/>)}</Group></>}
-     </>}
+       <Group>{off.map(p=>partRow(p,false))}</Group></>}
+     </>:null}
      {mode!=='unknown'&&<View style={{gap:6}}><Text style={st.small}>Anything else BAK should know? (optional)</Text><TextInput value={note} onChangeText={setNote} multiline maxLength={280} placeholder={NOTE_HINT[system]??'Condition, settings or work done'} placeholderTextColor="#6b7380" style={[st.input,{minHeight:80,textAlignVertical:'top'}]}/></View>}
-     <Button disabled={busy||(mode==='changed'&&!picked.length)} title={busy?'Saving…':mode==='changed'&&!picked.length?'Add a part first':'Save'} onPress={done}/>
-    </>}
-    {screen.id==='types'&&<>
-     {system==='tuning'&&fuel&&<Text style={st.small}>Your {bike.model} is {fuelSystemLabel(fuel)}, so {fuel==='injected'?'carburetor and jetting':'fuel-injection'} parts are hidden.</Text>}
-     <Group>
-      {types.map(t=><Row key={t.label} label={t.label} small={t.count?`${t.count} listed for your bike`:'Add your own'} onPress={()=>t.count?push({id:'options',type:t.label}):push({id:'custom',type:t.label})}/>)}
-      <Row label="Something else" small={catalog?'Everything else listed for your bike':'Add your own'} onPress={()=>catalog?push({id:'options',type:null}):push({id:'custom',type:null})}/>
-     </Group>
-     {WORK[system]&&<><Section title="WORK DONE"/><Group>{WORK[system]!.map(w=><Row key={w.label} label={w.label} small={w.detail} onPress={()=>push({id:'work',work:w})}/>)}</Group></>}
-     {catalog===undefined&&<ActivityIndicator color={colors.accent}/>}
+     <Button disabled={busy||(mode==='changed'&&!picked.length)} title={busy?'Saving…':mode==='changed'&&!picked.length?'Pick a part first':'Save'} onPress={done}/>
     </>}
     {screen.id==='work'&&(()=>{const w=screen.work,shops=w.kind?providersFor(w.kind,bike.manufacturer,bike.model):[],go=(who:string,r?:string)=>push({id:'detail',work:w,who,...(r?{r}:{})});return <>
      {shops.length>0&&<><Section title={w.kind==='ecu'?'TUNERS':'SUSPENSION SHOPS'}/><Group>{shops.map(p=><Row key={p.id} label={p.brand} small={p.label} onPress={()=>go(p.brand,p.exact?p.id:undefined)}/>)}</Group></>}
@@ -163,15 +160,16 @@ function SystemSheet({system,bike,value,catalog,busy,close,save}:{system:PartSys
 }
 
 /** A fitted part: what it is in plain words, who makes it, on or off the bike, and its details on tap. */
-function PartRow({part,choice,flagged,onToggle,onRemove,onColor}:{part:InstalledPart;choice?:Choice;flagged:boolean;onToggle:()=>void;onRemove:()=>void;onColor:(k:string)=>void}){
+function PartRow({part,choice,flagged,onToggle,onRemove,onColor,inRail=false}:{part:InstalledPart;choice?:Choice;flagged:boolean;onToggle:()=>void;onRemove:()=>void;onColor:(k:string)=>void;inRail?:boolean}){
  const palette=colorsFor(choice??{},typeOfPart(part));
  const [open,setOpen]=useState(false);
  const extra=[part.v,part.k,part.d].filter(Boolean).join(' · ');
  return <View style={[st.fitted,part.o&&{opacity:0.72}]}>
   <View style={{flexDirection:'row',alignItems:'center',gap:12}}>
    <Pressable accessibilityRole="button" accessibilityLabel={`${whatItIs(part)}, ${shortLine(part)}. Details`} onPress={()=>setOpen(!open)} style={{flex:1,gap:2}}>
-    <View style={{flexDirection:'row',alignItems:'center',gap:6}}><Text style={st.rowTitle}>{whatItIs(part)}</Text>{flagged&&<View style={st.dot}/>}</View>
-    <Text style={st.small} numberOfLines={2}>{shortLine(part)}</Text>
+    {inRail?<><Text style={st.brand}>{canonBrand(part.b).toUpperCase()||'BRAND NOT SET'}</Text><View style={{flexDirection:'row',alignItems:'center',gap:6}}><Text style={st.rowTitle} numberOfLines={2}>{cleanName(part.b,part.n)}</Text>{flagged&&<View style={st.dot}/>}</View></>
+    :<><View style={{flexDirection:'row',alignItems:'center',gap:6}}><Text style={st.rowTitle}>{whatItIs(part)}</Text>{flagged&&<View style={st.dot}/>}</View>
+    <Text style={st.small} numberOfLines={2}>{shortLine(part)}</Text></>}
     {!!extra&&<Text style={[st.small,{color:'#c3c9d3'}]}>{extra}</Text>}
    </Pressable>
    <OnOff on={!part.o} onPress={onToggle}/>
@@ -267,6 +265,17 @@ function Custom({system,type,onAdd}:{system:PartSystem;type:string|null;onAdd:(p
  </View>;
 }
 
+/** A kind of part in a section: tap to pick from what's listed; what's already set sits under it, marked with the accent rail. */
+function TypeRow({label,small,onPress,children}:{label:string;small?:string;onPress:()=>void;children?:React.ReactNode}){
+ const set=React.Children.toArray(children).length>0,name=label.replace(/\s*\((.*)\)$/,''),paren=label.match(/\((.*)\)$/)?.[1];
+ return <View style={st.typeBlock}>
+  <Pressable accessibilityRole="button" accessibilityLabel={`${name}. ${set?'Set':small??''}`} onPress={onPress} style={({pressed})=>[{flexDirection:'row',alignItems:'center',gap:10,paddingVertical:14},pressed&&{opacity:0.55}]}>
+   <View style={{flex:1,gap:2}}><Text style={[st.rowTitle,set&&{color:colors.text,fontWeight:'800'}]}>{name}</Text>{!set&&<Text style={st.small}>{paren?paren.charAt(0).toUpperCase()+paren.slice(1)+' · ':''}{small}</Text>}</View>
+   {set?<Text style={{color:colors.accent,fontSize:14,fontWeight:'700'}}>Change</Text>:<Icon name="plus" size={18} color={colors.accent} weight={2}/>}
+  </Pressable>
+  {set&&<View style={st.setRail}>{children}</View>}
+ </View>;
+}
 function Warn({text}:{text:string}){return <View style={{flexDirection:'row',gap:10,alignItems:'flex-start'}}><View style={{width:3,height:16,marginTop:3,borderRadius:1,backgroundColor:AMBER,transform:[{skewX:'-18deg'}]}}/><Text style={{color:'#efe1c2',fontSize:14,lineHeight:20,flex:1}}>{text}</Text></View>;}
 function Group({children}:{children:React.ReactNode}){return <View style={st.group}>{children}</View>;}
 function Section({title}:{title:string}){return <Text style={st.section}>{title}</Text>;}
@@ -298,6 +307,8 @@ const st={
  detail:{color:colors.muted,fontSize:15},
  section:{color:colors.muted,fontSize:12,fontWeight:'700' as const,letterSpacing:1.5,marginBottom:-6,marginTop:4},
  fitted:{paddingVertical:14,gap:8,borderBottomWidth:1,borderBottomColor:colors.line},
+ typeBlock:{borderBottomWidth:1,borderBottomColor:colors.line},
+ setRail:{borderLeftWidth:2,borderBottomWidth:0,borderLeftColor:colors.accent,paddingLeft:14,marginBottom:10,backgroundColor:'rgba(106,164,255,0.05)',borderRadius:4},
  option:{paddingVertical:14,gap:10,borderBottomWidth:1,borderBottomColor:colors.line},
  brand:{color:colors.muted,fontSize:11,letterSpacing:1,fontWeight:'700' as const},
  note:{borderLeftWidth:2,borderLeftColor:colors.line,paddingLeft:10,gap:2},
