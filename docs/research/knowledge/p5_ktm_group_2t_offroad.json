@@ -61293,10 +61293,11 @@
     "years": [
      2024,
      2025,
-     2026
+     2026,
+     2027
     ]
    },
-   "statement": "On a rear-wheel Dynojet 250i the 2025 KTM 300 SX made 49.1 hp and 32.3 lb-ft, 1.3 hp less than a 350 SX-F but 5.7 lb-ft more torque; the 300 XC and TX 300 use the same TBI engine data in their 2024-2026 owner's manuals.",
+   "statement": "On a rear-wheel Dynojet 250i the 2025 KTM 300 SX made 49.1 hp and 32.3 lb-ft, 1.3 hp less than a 350 SX-F but 5.7 lb-ft more torque; the 300 XC and TX 300 use the same TBI engine data in their 2024-2027 owner's manuals.",
    "values": {
     "peak_hp": "49.1 hp",
     "peak_torque": "32.3 lb-ft"
@@ -62984,6 +62985,116 @@
    },
    "confidence": "medium",
    "notes": ""
+  },
+  {
+   "id": "p5b-w066",
+   "domain": "power_feel",
+   "topic": "manufacturer description of power and maps: 2027 XC two-strokes",
+   "applies_to": {
+    "models": [
+     "KTM 250 XC",
+     "KTM 300 XC"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "KTM says the 2027 XC models have a map select switch as standard: Map 1 gives linear, predictable power and Map 2 \"the full beans with crisp, explosive power output\"; it calls the 300 XC a 300 cc powerhouse with e-start, fuel injection and electronic exhaust control, and lists 101.8 kg without fuel and a 23.8 kg engine.",
+   "values": {
+    "map1": "linear, predictable",
+    "map2": "crisp, explosive",
+    "weight_without_fuel_300": "101.8 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM South Africa model page - 2027 KTM 300 XC",
+    "url": "https://www.ktm.com/en-za/models/cross-country/2-stroke/2027-ktm-300-xc.html",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Map statement is made for the XC range on the 300 XC page. The 2027 owner's manual lists 103 kg for all XC models."
+  },
+  {
+   "id": "p5b-w067",
+   "domain": "power_feel",
+   "topic": "manufacturer description: 2027 Husqvarna TE 150",
+   "applies_to": {
+    "models": [
+     "Husqvarna TE 150"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Husqvarna describes the 2027 TE 150 engine as very versatile, fed by a 39 mm throttle body with two injectors (one low-load, one top-feed) and an EMS-controlled oil pump; Map 1 (white) is linear and progressive for hard pack, Map 2 (green) more aggressive for sand and heavy conditions. Weight without fuel 100 kg.",
+   "values": {
+    "map1": "white, linear",
+    "map2": "green, aggressive",
+    "weight_without_fuel": "100 kg"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Total Motorcycle - 2027 Husqvarna TE150 (reproduces Husqvarna release and feature text)",
+    "url": "https://www.totalmotorcycle.com/motorcycles/2027/2027-husqvarna-te150",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Text reproduced by a third-party site from Husqvarna material."
+  },
+  {
+   "id": "p5b-w068",
+   "domain": "identity",
+   "topic": "2027 Husqvarna enduro updates (TE 150)",
+   "applies_to": {
+    "models": [
+     "Husqvarna TE 150"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Husqvarna's 2027 enduro update brought white powder-coated frames, new graphics, WP XACT closed-cartridge fork and XACT shock, and a threaded radiator cap for checking coolant before each ride, with a 12-month warranty in selected markets.",
+   "values": {},
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Total Motorcycle - 2027 Husqvarna TE150 (reproduces Husqvarna release and feature text)",
+    "url": "https://www.totalmotorcycle.com/motorcycles/2027/2027-husqvarna-te150",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Press-release text reproduced by a third-party site."
+  },
+  {
+   "id": "p5b-w069",
+   "domain": "power_feel",
+   "topic": "rear-wheel dyno: TBI EX 300 engine (2024 measurement)",
+   "applies_to": {
+    "models": [
+     "GasGas EX 300"
+    ],
+    "years": [
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "A 2024 GasGas EX 300 measured 50.1 hp and 33.1 lb-ft on a rear-wheel Dynojet 250i; the 2025-2027 EX 300 owner's manuals list the same TBI engine data (bore, stroke, Z dimension, primary drive).",
+   "values": {
+    "peak_hp": "50.1 hp",
+    "peak_torque": "33.1 lb-ft"
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider - 2024 GasGas EX 300 dyno test (Dynojet 250i)",
+    "url": "https://dirtrider.com/tests/gasgas-ex-300-dyno-test-2024",
+    "date": "2024"
+   },
+   "confidence": "medium",
+   "notes": "Measured on the 2024 bike; applied to later years only because the manuals show the same engine data. ECU calibration changes are not published."
   }
  ],
  "conflicts": [
