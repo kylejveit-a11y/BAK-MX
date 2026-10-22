@@ -20,6 +20,7 @@ import {api,supabase} from './client';
 import {finalDrive,gearingChange,sagPercent,speedKmh} from '../shared/calculators';
 const Workshop=lazy(()=>import('./Workshop').then(m=>({default:m.Workshop})));
 import {garageFieldGroups,buildProgress,usConfiguration,type GarageField} from '../shared/garage-fields';
+import {systemsRecorded,partSystems} from '../shared/installed-parts';
 import {Community,Events,Messages,ProfilePanel,Feedback,SetupLogPanel,PartsCatalog,SetupGuide,ReportQueue} from './Rider';
 import type {RiderRef} from '../shared/rider-types';
 import {buildIdentity,exactBikeScope,canonicalVariant,canonicalRegion} from '../shared/bike-identity';
@@ -87,7 +88,7 @@ function BikeReadiness({bike,onEdit}:{bike:Bike;onEdit:()=>void}){
  const [coverage,setCoverage]=useState<Coverage|null>(null);const progress=buildProgress(bike);
  useEffect(()=>{let live=true;setCoverage(null);api<Coverage>('/coverage?bike_id='+bike.id).then(c=>{if(live)setCoverage(c)}).catch(()=>{});return()=>{live=false}},[bike.id,bike.updated_at]);
  const c=bike.configuration??{},has=(keys:string[])=>keys.some(k=>c[k]!==null&&c[k]!==undefined&&String(c[k]).trim()!=='');
- const steps=[{label:'You',done:has(['geared_weight_lb','geared_weight_kg'])&&has(['skill_level'])},{label:'Clickers & sag',done:has(['fork_compression','fork_rebound','shock_compression','shock_rebound','rider_sag_mm'])},{label:'What’s changed',done:progress.total-progress.missing.length>=5||has(['exhaust','fork','shock','engine_modifications','active_map'])}];
+ const steps=[{label:'You',done:has(['geared_weight_lb','geared_weight_kg'])&&has(['skill_level'])},{label:'Clickers & sag',done:has(['fork_compression','fork_rebound','shock_compression','shock_rebound','rider_sag_mm'])},{label:'Build sheet',done:systemsRecorded(c)>=Math.ceil(partSystems.length/2)}];
  const left=steps.filter(x=>!x.done).length;
  const have=coverage?[coverage.specs>0&&`${coverage.specs} specs`,coverage.torque_values>0&&`${coverage.torque_values} torques`,coverage.workshop_guides>0&&`${coverage.workshop_guides} guides`,coverage.parts_catalog&&'parts catalog'].filter(Boolean):[];
  return <div className="readiness simple">

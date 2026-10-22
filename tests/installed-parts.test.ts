@@ -31,7 +31,10 @@ test('Ask BAK gets fitted parts with research notes, confirmed stock and unknown
  assert.deepEqual(ctx.confirmed_stock,['Brakes']);
  assert.ok(ctx.not_recorded.includes('Suspension')&&!ctx.not_recorded.includes('Exhaust'));
  assert.equal(installedPartsContext({}),null);
- assert.deepEqual(withoutBuildSheet({installed_parts:[],stock_systems:[],parts_notes:{},exhaust:'FMF'}),{exhaust:'FMF'});
+ // parts typed on the old setup form never travel as a second source: they are notes only where the sheet is silent
+ assert.deepEqual(withoutBuildSheet({installed_parts:[],stock_systems:[],parts_notes:{},exhaust:'FMF',active_map:'Map 2'}),{active_map:'Map 2'});
+ assert.equal(installedPartsContext({exhaust:'FMF 4.1',fork:'WP 6500 kit'})!.rider_notes['Exhaust'],'FMF 4.1');
+ assert.equal(installedPartsContext({exhaust:'FMF 4.1',installed_parts:[{s:'exhaust',b:'Pro Circuit',n:'T-6'}]})!.rider_notes['Exhaust'],undefined);
 });
 test('the build sheet counts toward the build profile',()=>{
  const checks=buildChecks({engine_hours:null,configuration:{installed_parts:[{s:'exhaust',b:'FMF',n:'4.1'}],stock_systems:['gearing']}});

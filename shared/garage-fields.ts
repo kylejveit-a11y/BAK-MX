@@ -1,6 +1,7 @@
 import type {Bike} from './types.ts';
 import {readInstalled,systemsRecorded,partSystems} from './installed-parts.ts';
-/** One definition of the build profile for web and native, so a bike edited on either reads the same. */
+/** One definition of the build profile for web and native, so a bike edited on either reads the same. Settings live here;
+ *  parts and work done live only on the build sheet (installed-parts.ts), so the two can never disagree. */
 export type GarageField={key:string;label:string;numeric?:boolean;unit?:string;placeholder?:string;options?:string[];hint?:string;more?:boolean};
 /** Written the way riders write it on the setup sheet in the truck: clicks out from all the way in, sag in mm, gearing 13/50.
  *  Everything is optional; "more" fields stay folded away so a first setup takes a couple of minutes. */
@@ -19,21 +20,11 @@ export const garageFieldGroups:Record<string,GarageField[]>={
   {key:'fork_spring_rate',label:'Fork springs',placeholder:'Stock, or 4.6 N/mm / air psi'},
   {key:'shock_spring_rate',label:'Shock spring',placeholder:'Stock, or 48 N/mm'},
   {key:'fork_height_mm',label:'Fork tubes above top clamp',numeric:true,unit:'mm',placeholder:'5',more:true}],
- 'What’s changed':[
-  {key:'exhaust',label:'Exhaust',placeholder:'Stock, or brand and model'},
-  {key:'fork',label:'Fork work',placeholder:'Stock, or revalved by…'},
-  {key:'shock',label:'Shock work',placeholder:'Stock, or revalved by…'},
-  {key:'engine_modifications',label:'Engine work',placeholder:'Stock, or cams, piston, head work…'},
-  {key:'active_map',label:'Map you run',placeholder:'Map 2, TC on'},
-  {key:'ecu',label:'ECU or tuner',placeholder:'Stock, or flashed by…',more:true},
-  {key:'intake',label:'Air filter / intake',placeholder:'Stock',more:true},
-  {key:'clutch',label:'Clutch',placeholder:'Stock, or auto clutch, springs…',more:true}],
- 'Gearing & tires':[
+ 'Gearing, tires & map':[
   {key:'front_sprocket',label:'Front sprocket',numeric:true,placeholder:'13'},
   {key:'rear_sprocket',label:'Rear sprocket',numeric:true,placeholder:'50'},
   {key:'tire_pressures',label:'Tire pressure',placeholder:'13 / 13 psi'},
-  {key:'front_tire',label:'Front tire',placeholder:'MX33 80/100-21',more:true},
-  {key:'rear_tire',label:'Rear tire',placeholder:'MX33 110/90-19',more:true}],
+  {key:'active_map',label:'Map you run',placeholder:'Map 2, TC on'}],
 };
 /** Rider measurements are kept in US units. Builds saved before that change stored kilograms and centimetres; convert them once, here. */
 export function usConfiguration(configuration:Record<string,unknown>|null|undefined):Record<string,unknown>{
@@ -45,6 +36,9 @@ export function usConfiguration(configuration:Record<string,unknown>|null|undefi
  return c;
 }
 export const allGarageFields=Object.values(garageFieldGroups).flat();
+/** Free-text part answers older versions asked for on this form, by build-sheet system. Parts now live only on the build
+ *  sheet; these are read as notes for a system the sheet doesn't cover, and never shown as a separate source. */
+export const LEGACY_PART_FIELDS:Record<string,string>={exhaust:'exhaust',fork:'suspension',shock:'suspension',engine_modifications:'engine',ecu:'tuning',intake:'intake',clutch:'clutch',front_tire:'wheels',rear_tire:'wheels'};
 const filled=(v:unknown)=>v!==null&&v!==undefined&&String(v).trim()!=='';
 export type BuildCheck={id:string;label:string;done:boolean;why:string};
 /** What BAK knows about this build. Each item says why it matters, so a gap is a reason to fill it in. */
@@ -55,9 +49,9 @@ export function buildChecks(bike:Pick<Bike,'engine_hours'|'configuration'>):Buil
   {id:'hours',label:'Engine hours',done:bike.engine_hours!==null&&bike.engine_hours!==undefined,why:'Service timing and wear-related advice depend on hours.'},
   {id:'rider',label:'Rider weight and level',done:(filled(c.geared_weight_lb)||filled(c.geared_weight_kg))&&filled(c.skill_level),why:'Spring rate and setup direction start from the rider.'},
   {id:'suspension',label:'Current suspension settings',done:any(['rider_sag_mm','fork_compression','fork_rebound','shock_compression','shock_rebound']),why:'BAK can only suggest a change from where your clickers and sag are now.'},
-  {id:'springs',label:'Spring rates or revalve',done:any(['fork_spring_rate','shock_spring_rate','fork','shock']),why:'Stock settings stop applying once springs or valving change.'},
-  {id:'engine',label:'Engine, exhaust and map',done:any(['engine_modifications','exhaust','ecu','active_map','intake'])||onSheet(['exhaust','engine','tuning','intake']),why:'Mapping and jetting advice depends on what is fitted.'},
-  {id:'drivetrain',label:'Gearing and tires',done:any(['front_sprocket','rear_sprocket','front_tire','rear_tire','tire_pressures'])||onSheet(['gearing','wheels']),why:'Gearing and tire choice change how the bike drives and turns.'},
+  {id:'springs',label:'Spring rates or revalve',done:any(['fork_spring_rate','shock_spring_rate'])||onSheet(['suspension']),why:'Stock settings stop applying once springs or valving change.'},
+  {id:'engine',label:'Engine, exhaust and map',done:any(['active_map'])||onSheet(['exhaust','engine','tuning','intake']),why:'Mapping and jetting advice depends on what is fitted.'},
+  {id:'drivetrain',label:'Gearing and tires',done:any(['front_sprocket','rear_sprocket','tire_pressures'])||onSheet(['gearing','wheels']),why:'Gearing and tire choice change how the bike drives and turns.'},
   {id:'parts',label:'What’s on the bike',done:systemsRecorded(c)>=Math.ceil(partSystems.length/2),why:'Fitted parts change which stock settings and maps still apply.'},
  ];
 }

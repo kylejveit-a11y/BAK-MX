@@ -2,6 +2,7 @@ import {readInstalled,partSystems,systemLabel} from '../shared/installed-parts.t
 import {researchedParts} from '../shared/aftermarket-research.ts';
 import {workProviders} from '../shared/work-providers.ts';
 import {checkBuild} from '../shared/build-check.ts';
+import {LEGACY_PART_FIELDS} from '../shared/garage-fields.ts';
 /** What the rider has fitted, for the answer model: each part by system with the research notes BAK holds for it, the systems
  *  confirmed stock, and the systems not recorded (unknown, not stock). Null when nothing has been recorded. */
 /** A shop's service notes describe the bikes it lists (a two-stroke ECU remap is not a 450 four-stroke remap): attach them only
@@ -13,6 +14,10 @@ function researchFor(id:string|undefined,bike?:{manufacturer:string;model:string
 }
 export function installedPartsContext(configuration:Record<string,unknown>|null|undefined,bike?:{manufacturer:string;model:string;model_year?:number}){
  const {parts,stock,notes}=readInstalled(configuration);
+ // older setup-form answers: kept only as a note for a system the build sheet says nothing about
+ const covered=new Set([...parts.map(p=>p.s as string),...stock]),legacy:Record<string,string>={};
+ for(const [key,system] of Object.entries(LEGACY_PART_FIELDS)){const v=String(configuration?.[key]??'').trim();if(v&&!covered.has(system))legacy[system]=[legacy[system],v].filter(Boolean).join('; ');}
+ for(const [system,v] of Object.entries(legacy))if(!notes[system as keyof typeof notes])(notes as Record<string,string>)[system]=v;
  if(!parts.length&&!stock.length&&!Object.keys(notes).length)return null;
  const known=new Set([...parts.filter(p=>!p.o).map(p=>p.s),...stock]);
  const describe=(p:typeof parts[number])=>{const r=researchFor(p.r,bike);return {system:systemLabel(p.s),part:[p.b,p.n].filter(Boolean).join(' '),...(p.v?{size:p.v}:{}),...(p.k?{color:p.k}:{}),...(p.p?{part_number:p.p}:{}),...(p.d?{rider_detail:p.d}:{}),
@@ -29,4 +34,4 @@ export function installedPartsContext(configuration:Record<string,unknown>|null|
  };
 }
 /** The bike's configuration without the build-sheet keys, which installed_parts carries in readable form. */
-export function withoutBuildSheet(configuration:Record<string,unknown>){const {installed_parts:_a,stock_systems:_b,parts_notes:_c,...rest}=configuration;return rest;}
+export function withoutBuildSheet(configuration:Record<string,unknown>){const {installed_parts:_a,stock_systems:_b,parts_notes:_c,...rest}=configuration;for(const k of Object.keys(LEGACY_PART_FIELDS))delete rest[k];return rest;}
