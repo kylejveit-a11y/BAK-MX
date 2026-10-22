@@ -51,9 +51,9 @@ export function WheelSheet({visible,step,title,options,value,onPick,onClose,back
       const scale=y.interpolate({inputRange:r,outputRange:[0.86,0.93,1,0.93,0.86],extrapolate:'clamp'});
       const on=index===center;
       return <Pressable accessibilityRole="button" accessibilityState={{selected:item.value===value}} accessibilityLabel={item.label} haptic={false} onPress={()=>choose(index)} style={{height:ROW,justifyContent:'center'}}>
-       <Animated.View style={{opacity,transform:[{scale}],alignItems:'center'}}>
-        <Text numberOfLines={1} style={{color:C.text,fontSize:on?22:20,fontWeight:on?'700':'500',letterSpacing:-0.3}}>{item.label}</Text>
-        {!!item.detail&&on&&<Text numberOfLines={1} style={{color:C.muted,fontSize:12,marginTop:1}}>{item.detail}</Text>}
+       <Animated.View style={{opacity,transform:[{scale}],alignItems:'center',alignSelf:'stretch',paddingHorizontal:14}}>
+        {item.label.length>26?<Text numberOfLines={2} style={{color:C.text,fontSize:on?16.5:15.5,lineHeight:on?19:18,fontWeight:on?'700':'500',textAlign:'center',letterSpacing:-0.2}}>{item.label}</Text>:<Text numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.62} style={{color:C.text,fontSize:on?22:20,fontWeight:on?'700':'500',letterSpacing:-0.3}}>{item.label}</Text>}
+        {!!item.detail&&on&&item.label.length<=40&&<Text numberOfLines={1} style={{color:C.muted,fontSize:12,marginTop:1}}>{item.detail}</Text>}
        </Animated.View>
       </Pressable>;}}/>}
    </View>

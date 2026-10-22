@@ -288,7 +288,7 @@ export function PartsCatalog({bike}:{bike?:Bike}){
  if(!bike||catalog===undefined||(catalog===null&&!error))return null;
  const shown=assemblies.filter(a=>a.name.toLowerCase().includes(find.trim().toLowerCase()));
  return <section className="panel parts-catalog">
-  <div className="panel-title"><div><h2>Parts catalog</h2><p className="subtle">{catalog?`${catalog.source}${catalog.complete?'':' · partial capture'} · ${catalog.assembly_count} assemblies · ${catalog.part_count} part entries`:'Exact model-year catalog'}</p></div></div>
+  <div className="panel-title"><div><h2>Parts catalog</h2><p className="subtle">{catalog?`${catalog.assembly_count} sections · ${catalog.part_count} parts${catalog.complete?'':' · not every section is listed yet'}`:'Exact model-year catalog'}</p></div></div>
   {error&&<div className="error" role="alert">{error}</div>}
   {!catalog?<div className="empty"><h3>No parts catalog for this exact bike yet.</h3><p>Catalogs are loaded per model year, variant and region. A neighbouring year is never shown in its place.</p></div>:<>
    {/no market label/i.test(catalog.source)&&<p className="notice">The manufacturer lists this model year once, without a market label, so this is the only official catalog for it. Confirm the part number with your dealer before ordering.</p>}

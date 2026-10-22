@@ -359,6 +359,8 @@ export function SetupLogCard({bike,onAsk}:{bike?:Bike;onAsk:(text:string)=>void}
 }
 
 /* ------------------------------------------------------------------ Parts catalog */
+/** Catalog section names arrive in capitals ("FRONT FORK, TRIPLE CLAMP"); show them in normal case, keeping known abbreviations. */
+const sectionName=(n:string)=>n===n.toUpperCase()?n.toLowerCase().replace(/(^|[\s,(/-])([a-z])/g,(_m,a,b)=>a+b.toUpperCase()).replace(/\b(Wp|Ecu|Abs|Pds|Cdi|Led|Usa|Eu)\b/g,x=>x.toUpperCase()):n;
 export function PartsCatalogCard({bike}:{bike?:Bike}){
  const [catalog,setCatalog]=useState<PartCatalog|null|undefined>(undefined),[assemblies,setAssemblies]=useState<PartAssembly[]>([]),[open,setOpen]=useState(''),[parts,setParts]=useState<Part[]>([]),[find,setFind]=useState(''),[notice,setNotice]=useState('');
  useEffect(()=>{let live=true;setCatalog(undefined);setAssemblies([]);setOpen('');setParts([]);setNotice('');if(bike)api<{catalog:PartCatalog|null;assemblies:PartAssembly[]}>('/api/parts/catalog?bike_id='+bike.id).then(d=>{if(live){setCatalog(d.catalog);setAssemblies(d.assemblies);}}).catch(e=>{if(live){setNotice(errorText(e));setCatalog(null);}});return()=>{live=false;};},[bike?.id]);
@@ -367,13 +369,13 @@ export function PartsCatalogCard({bike}:{bike?:Bike}){
  const shown=assemblies.filter(a=>a.name.toLowerCase().includes(find.trim().toLowerCase()));
  return <Card><Copy strong>Parts catalog</Copy><Notice text={notice}/>
   {!catalog?<Copy>No parts catalog for this exact bike yet. Catalogs are loaded per model year, variant and region; a neighbouring year is never shown in its place.</Copy>:<>
-   <Copy>{catalog.source}{catalog.complete?'':' · partial capture'} · {catalog.assembly_count} assemblies · {catalog.part_count} part entries</Copy>
+   <Copy>{catalog.assembly_count} sections · {catalog.part_count} parts{catalog.complete?'':' · not every section is listed yet'}</Copy>
    <Field label="Find an assembly" value={find} onChangeText={setFind}/>
    {shown.map(a=><View key={a.id} style={{borderTopWidth:1,borderTopColor:colors.line,paddingTop:10,gap:8}}>
-    <Pressable accessibilityRole="button" accessibilityState={{expanded:open===a.id}} onPress={()=>void show(a)} style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',minHeight:40}}><Text style={{color:colors.text,fontSize:16,flex:1}}>{a.name}</Text><Icon name={open===a.id?'chevronDown':'chevronRight'} size={17} color="#9aa2af"/></Pressable>
+    <Pressable accessibilityRole="button" accessibilityState={{expanded:open===a.id}} onPress={()=>void show(a)} style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',minHeight:40}}><Text style={{color:colors.text,fontSize:16,flex:1}}>{sectionName(a.name)}</Text><Icon name={open===a.id?'chevronDown':'chevronRight'} size={17} color="#9aa2af"/></Pressable>
     {open===a.id&&<View style={{gap:8}}>
      {/^https:\/\//.test(a.diagram_url)&&<Link title="Open exploded diagram" onPress={()=>void Linking.openURL(a.diagram_url).catch(e=>setNotice(errorText(e)))}/>}
-     {!parts.length?<Copy>Loading parts…</Copy>:parts.map(p=><View key={p.id} style={{flexDirection:'row',gap:10}}><Text style={{color:colors.accent,width:30,fontWeight:'700'}}>{p.callout}</Text><View style={{flex:1}}><Text selectable style={{color:colors.text,fontSize:15}}>{p.description}</Text><Text selectable style={{color:colors.muted,fontSize:13}}>{p.part_number||'No part number'} · Qty {p.quantity_raw||'—'}{p.remarks?' · '+p.remarks:''}</Text></View></View>)}
+     {!parts.length?<Copy>Loading parts…</Copy>:parts.map(p=><View key={p.id} style={{flexDirection:'row',gap:10}}><Text style={{color:colors.accent,width:30,fontWeight:'700'}}>{p.callout}</Text><View style={{flex:1}}><Text selectable style={{color:colors.text,fontSize:15}}>{p.description}</Text><Text selectable style={{color:colors.muted,fontSize:13}}>{[p.part_number||'No part number',p.quantity_raw&&p.quantity_raw!=='0'?`Qty ${p.quantity_raw}`:'',p.remarks].filter(Boolean).join(' · ')}</Text></View></View>)}
      <Copy>Catalog quantities are per assembly as published, not whole-bike totals.</Copy>
     </View>}
    </View>)}
