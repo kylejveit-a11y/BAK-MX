@@ -57,7 +57,7 @@ export function FloatingTabBar({state,navigation}:BottomTabBarProps){
 /** Glass header background with a fine bottom edge. */
 export function GlassHeader(){return <Glass strong style={[StyleSheet.absoluteFill,{borderWidth:0,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'rgba(255,255,255,0.08)'}]}/>;}
 
-/** Small round glass button for the header (Account). */
-export function HeaderButton({label,icon,onPress}:{label:string;icon:IconName;onPress:()=>void}){
- return <Pressable accessibilityRole="button" accessibilityLabel={label} hitSlop={10} onPress={onPress} style={({pressed})=>({marginRight:16,opacity:pressed?0.6:1})}><Glass style={{width:38,height:38,borderRadius:19,alignItems:'center',justifyContent:'center'}}><Icon name={icon} size={22} color="#f6f7f9" bg="#0d0f13"/></Glass></Pressable>;
+/** Header text button (Account). The icon prop is kept for callers but the label is what shows. */
+export function HeaderButton({label,onPress}:{label:string;icon?:IconName;onPress:()=>void}){
+ return <Pressable accessibilityRole="button" accessibilityLabel={label} hitSlop={12} onPress={onPress} style={({pressed})=>({marginRight:18,paddingVertical:6,opacity:pressed?0.55:1})}><Text style={{color:'#f6f7f9',fontSize:16,fontWeight:'700',letterSpacing:0.1}}>{label}</Text></Pressable>;
 }
