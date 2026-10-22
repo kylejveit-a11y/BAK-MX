@@ -1,6 +1,7 @@
 import {useEffect,useMemo,useRef,useState,type ReactNode} from 'react';
 import {Check,ChevronLeft,ChevronRight,CircleDot,Cog,Cpu,Disc,Disc3,Flame,Frame,Hand,Layers,Link as LinkIcon,MoveVertical,Plus,Search,Shield,Trash2,Wind,X} from 'lucide-react';
 import type {Bike} from '../shared/types';
+import {checkBuild} from '../shared/build-check';
 import {partSystems,readInstalled,writeInstalled,partLabel,MAX_PARTS,type InstalledPart,type PartSystem} from '../shared/installed-parts';
 import {partsForBike,type CatalogPart} from './partsCatalog';
 import {api} from './client';
@@ -28,12 +29,13 @@ export function BikeParts({bike,onSaved,onAsk}:{bike:Bike;onSaved:(b:Bike)=>void
    <div><span className="eyebrow">PARTS</span><h2 id="bike-parts-title">What have you changed?</h2>
     <p className="bp-lede">Only tap what isn’t stock: a pipe, springs, a revalve, gearing. You don’t need to go through every part.</p></div>
   </div>
+  {checkBuild(bike).map((c,i)=><p key={i} className="notice" role="status">{c.text}</p>)}
   {catalog===null&&<p className="notice">We don’t have a parts list for this exact bike yet. You can still add what’s on it and BAK will use it.</p>}
   {error&&<div className="error" role="alert">{error}</div>}
   <ul className="bp-systems">{partSystems.map(s=>{const Icon=ICON[s.key],parts=value.parts.filter(p=>p.s===s.key),stock=value.stock.includes(s.key);
    return <li key={s.key}><button className="bp-row" onClick={()=>setOpen(s.key)} aria-haspopup="dialog">
     <span className="bp-icon"><Icon size={18}/></span>
-    <span className="bp-main"><b>{s.label}</b>{parts.length?<span className="bp-fitted">{parts.map(partLabel).join(' · ')}</span>:<span className="bp-hint">{s.hint}</span>}</span>
+    <span className="bp-main"><b>{s.label}</b>{parts.length?<span className="bp-fitted">{parts.map(p=>partLabel(p)+(p.o?' (off the bike)':'')).join(' · ')}</span>:<span className="bp-hint">{s.hint}</span>}</span>
     {(parts.length>0||stock)&&<span className={'bp-state '+(parts.length?'changed':'stock')}>{parts.length?<>Changed · {parts.length}</>:<><Check size={13}/>Stock</>}</span>}
     <ChevronRight size={16} className="bp-chev"/>
    </button></li>})}</ul>

@@ -5,6 +5,7 @@ import {Icon} from './Icon';
 import {BikeWheel} from './Wheel';
 import {level,supportAreas,type SupportData,type SupportRow} from '../../../shared/bike-support';
 import {Card,Eyebrow,Page,colors,s} from './ui';
+import {MetalPanel,MetalWell} from './MetalPanel';
 const data=require('../../../shared/bike-support.json') as SupportData;
 
 const tone:Record<string,{bg:string;line:string;text:string}>={full:{bg:'#10251a',line:'#2f7a4c',text:'#bff0cf'},strong:{bg:'#0f1d2e',line:'#3d6ea8',text:'#cfe2fb'},good:{bg:'#1d1a10',line:'#7a6a2f',text:'#f0e2b5'},basic:{bg:'#16181c',line:'#3a3f48',text:'#a7afbd'}};
@@ -27,16 +28,17 @@ export function SupportPicker({onSeeAll}:{onSeeAll?:()=>void}){
  const modelsFor=(m:string)=>[...new Set(data.bikes.filter(b=>b.make===m).map(b=>b.model))];
  const yearsFor=(m:string,mo:string)=>data.bikes.filter(b=>b.make===m&&b.model===mo).map(b=>b.year);
  const row=pick&&data.bikes.find(b=>b.make===pick.make&&b.model===pick.model&&String(b.year)===pick.year);
- return <Card><Eyebrow>BEFORE YOU SIGN UP</Eyebrow><Text style={{color:colors.text,fontSize:22,fontWeight:'800',letterSpacing:-0.4}}>Is your bike supported?</Text>
-  <Pressable accessibilityRole="button" accessibilityLabel={row?`Change bike, ${row.year} ${row.make} ${row.model}`:'Choose your bike'} onPress={()=>setOpen(true)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:14,borderTopWidth:StyleSheet.hairlineWidth,borderBottomWidth:StyleSheet.hairlineWidth,borderColor:'#232833',opacity:pressed?0.6:1})}>
+ const engraved={textShadowColor:'rgba(0,0,0,0.75)',textShadowOffset:{width:0,height:1},textShadowRadius:1};
+ return <MetalPanel style={{marginTop:10,marginBottom:8}}><View style={{gap:6,paddingTop:4}}><Text style={[{color:'#b9c0ca',fontWeight:'800',letterSpacing:2.2,fontSize:11},engraved]}>BEFORE YOU SIGN UP</Text><Text style={[{color:'#f3f5f8',fontSize:23,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.5},engraved]}>Is your bike supported?</Text></View>
+  <MetalWell><Pressable accessibilityRole="button" accessibilityLabel={row?`Change bike, ${row.year} ${row.make} ${row.model}`:'Choose your bike'} onPress={()=>setOpen(true)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:14,paddingHorizontal:14,opacity:pressed?0.6:1})}>
    <Icon name="moto" size={26} color="#a1a8b4"/>
    <View style={{flex:1,gap:2}}><Text style={{color:row?colors.text:colors.muted,fontSize:17,fontWeight:'600'}}>{row?`${row.year} ${row.make} ${row.model}`:'Choose your bike'}</Text><Text style={{color:'#868e9b',fontSize:12.5}}>{row?'Tap to change':`${data.bikes.length} bike-years from ${makes.length} makes`}</Text></View>
-   <Icon name="chevronRight" size={17} color="#6b7280"/>
-  </Pressable>
-  {row?<SupportDetail row={row}/>:<Text style={{color:'#9aa2af',fontSize:13.5,lineHeight:20}}>If yours isn’t listed, it isn’t supported yet.</Text>}
+   <Icon name="chevronRight" size={17} color="#9aa2af"/>
+  </Pressable></MetalWell>
+  {row?<SupportDetail row={row}/>:<Text style={[{color:'#aab1bc',fontSize:13.5,lineHeight:20},engraved]}>If yours isn’t listed, it isn’t supported yet.</Text>}
   {onSeeAll&&<Pressable accessibilityRole="button" onPress={onSeeAll}><Text style={{color:colors.accent,fontWeight:'700'}}>See all supported bikes →</Text></Pressable>}
   <BikeWheel visible={open} makes={makes} modelsFor={modelsFor} yearsFor={yearsFor} initial={pick??undefined} onClose={()=>setOpen(false)} onDone={b=>{setPick(b);setOpen(false);}}/>
- </Card>;
+ </MetalPanel>;
 }
 
 export function SupportedBikesScreen(){

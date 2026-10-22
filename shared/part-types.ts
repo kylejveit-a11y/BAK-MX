@@ -14,11 +14,11 @@ export const partTypes:Partial<Record<PartSystem,PartType[]>>={
   {label:'Fork springs',match:/\bfork\b.*\bsprings?\b|\bsprings?\b.*\bfork\b/i},
   {label:'Shock spring',match:/\bshock\b.*\bsprings?\b|\bsprings?\b.*\bshock\b/i},
   {label:'Valving, bladder or perch kit',match:/\b(valving|revalve|bladder|perch(es)?|gold valve|mid-?valve|valve kit)\b/i},
-  {label:'Fork (cartridge, conversion, kit)',match:/\b(fork|cartridge|conversion|cone valve)\b/i},
-  {label:'Shock',match:/\bshock\b/i},
   {label:'Preload adjuster',match:/\bpre-?load\b/i},
   {label:'Linkage',match:/\b(linkage|link|pull ?rod|dog ?bone)\b/i},
-  {label:'Holeshot device',match:/\b(holeshot|start device|launch)\b/i}],
+  {label:'Holeshot device',match:/\b(holeshot|start(?:ing)? (?:device|blocks?)|launch)\b/i},
+  {label:'Fork (cartridge, conversion, kit)',match:/\b(fork|cartridge|conversion|cone valve)\b/i},
+  {label:'Shock',match:/\bshock\b/i}],
  engine:[
   {label:'Piston or top end',match:/\b(piston|top end)\b/i},
   {label:'Big bore or cylinder',match:/\b(big bore|cylinder)\b/i},
@@ -59,6 +59,7 @@ export const partTypes:Partial<Record<PartSystem,PartType[]>>={
   {label:'Bar mounts or clamps',match:/\b(bar mounts?|bar clamps?|clamps?|mounts?)\b/i},
   {label:'Hand guards',match:/\b(hand ?guards?|brush guards?)\b/i}],
  chassis:[
+  {label:'Holeshot device',match:/\b(holeshot|start(?:ing)? (?:device|blocks?)|launch)\b/i},
   {label:'Triple clamps',match:/\b(triple|clamps?)\b/i},
   {label:'Engine mounts',match:/\bengine mounts?\b/i},
   {label:'Steering damper',match:/\b(damper|stabilizer)\b/i},

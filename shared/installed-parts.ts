@@ -23,7 +23,9 @@ export const systemLabel=(k:string)=>partSystems.find(s=>s.key===k)?.label??k;
 /** One fitted part or piece of work. r links a researched part or service (its notes are added server-side); x marks a part the
  *  rider typed in; d is the rider's detail on work done (map name, valving, oil height). */
 /** k: the colour the rider chose from the maker's listed colours. */
-export type InstalledPart={s:PartSystem;b:string;n:string;p?:string;r?:string;x?:boolean;d?:string;k?:string};
+/** o marks a part the rider owns but has off the bike right now (a second suspension set, sand tires, a quiet insert), so it is
+ *  kept and can be swapped back on. v is the size or variant the rider picked ("52T"), which decides the part number. */
+export type InstalledPart={s:PartSystem;b:string;n:string;p?:string;r?:string;x?:boolean;d?:string;k?:string;o?:boolean;v?:string};
 export const MAX_PARTS=40;
 const clip=(v:unknown,n:number)=>String(v??'').replace(/\s+/g,' ').trim().slice(0,n);
 /** Parts whose name says plainly where they belong. Only unambiguous names move; everything else keeps the rider's choice. */
@@ -64,11 +66,11 @@ export function readInstalled(configuration:Record<string,unknown>|null|undefine
  for(const raw of Array.isArray(c.installed_parts)?c.installed_parts:[]){
   if(!raw||typeof raw!=='object')continue;const o=raw as Record<string,unknown>,s=String(o.s) as PartSystem;
   if(!partSystemKeys.includes(s))continue;const n=clip(o.n,90),b=clip(o.b,60);if(!n&&!b)continue;
-  const part:InstalledPart={s:placeSystem(s,b,n),b,n};const p=clip(o.p,48);if(p)part.p=p;const r=clip(o.r,40);if(r&&/^[a-z0-9-]+$/i.test(r))part.r=r;if(o.x)part.x=true;const d=clip(o.d,120);if(d)part.d=d;const k=clip(o.k,30);if(k)part.k=k;
+  const part:InstalledPart={s:placeSystem(s,b,n),b,n};const p=clip(o.p,48);if(p)part.p=p;const r=clip(o.r,40);if(r&&/^[a-z0-9-]+$/i.test(r))part.r=r;if(o.x)part.x=true;const d=clip(o.d,120);if(d)part.d=d;const k=clip(o.k,30);if(k)part.k=k;if(o.o)part.o=true;const v=clip(o.v,20);if(v)part.v=v;
   parts.push(part);if(parts.length>=MAX_PARTS)break;
  }
  parts.splice(0,parts.length,...sortInstalled(parts));
- const fitted=new Set(parts.map(p=>p.s));
+ const fitted=new Set(parts.filter(p=>!p.o).map(p=>p.s));
  const stock=(Array.isArray(c.stock_systems)?c.stock_systems:[]).map(String).filter((k):k is PartSystem=>partSystemKeys.includes(k as PartSystem)&&!fitted.has(k as PartSystem));
  const notes:Partial<Record<PartSystem,string>>={};
  if(c.parts_notes&&typeof c.parts_notes==='object')for(const [k,v] of Object.entries(c.parts_notes as Record<string,unknown>)){const t=clip(v,280);if(t&&partSystemKeys.includes(k as PartSystem))notes[k as PartSystem]=t;}
@@ -80,5 +82,5 @@ export function writeInstalled(configuration:Record<string,unknown>,value:{parts
  return {...configuration,installed_parts:clean.parts,stock_systems:clean.stock,parts_notes:clean.notes};
 }
 /** How many systems the rider has accounted for (parts fitted or confirmed stock). */
-export function systemsRecorded(configuration:Record<string,unknown>|null|undefined){const {parts,stock}=readInstalled(configuration);return new Set([...parts.map(p=>p.s),...stock]).size;}
-export const partLabel=(p:InstalledPart)=>[p.b,p.n].filter(Boolean).join(' ')+(p.k?` (${p.k})`:'');
+export function systemsRecorded(configuration:Record<string,unknown>|null|undefined){const {parts,stock}=readInstalled(configuration);return new Set([...parts.filter(p=>!p.o).map(p=>p.s),...stock]).size;}
+export const partLabel=(p:InstalledPart)=>[p.b,p.n].filter(Boolean).join(' ')+([p.v,p.k].filter(Boolean).length?` (${[p.v,p.k].filter(Boolean).join(', ')})`:'');

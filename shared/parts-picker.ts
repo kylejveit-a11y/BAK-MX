@@ -64,16 +64,34 @@ export function providersFor(kind:WorkProvider['work'],make:string,model:string)
  for(const p of workProviders.filter(p=>p.work===kind&&(!p.makes.length||p.makes.includes(make))).sort((a,b)=>rank(b)-rank(a)))if(!m.has(p.brand))m.set(p.brand,p);
  return [...m.values()].map(p=>({...p,exact:rank(p)===2||!p.models.length,label:rank(p)===2?p.name:kind==='ecu'?'ECU flash and mapping':'Revalves and suspension service'}));
 }
-export type Choice={brand:string;name:string;pn:string;r?:string;verified:boolean;what:string;caution:string;testers:string[];type:string|null;colors?:PartColor[]};
+export type Choice={brand:string;name:string;pn:string;pns:string[];r?:string;verified:boolean;what:string;caution:string;testers:string[];type:string|null;colors?:PartColor[]};
+/** Every part number a listing carries (sellers paste one per size or colour into one field). */
+export function partNumbers(raw:string){return [...new Set(raw.split(/[\s,;]+|\s\/\s/).map(x=>x.trim()).filter(x=>x.length>=3&&/\d/.test(x)&&!/^<|:</.test(x)))].slice(0,40);}
+/** Listings that name a road, supermoto or adventure model, or the other stroke, are for a different bike even when the shop
+ *  attached them to this one. */
+const ROAD=/\b(duke|smc?|smr|supermoto|travel|adventure|freeride|street|road)\b/i,TWO=/\b(2-?stroke|two-?stroke|tpi|tbi)\b/i,FOUR=/\b(4-?stroke|four-?stroke)\b/i;
+export function isFourStroke(model:string){return /F\b|F$|CRF|RM-?Z|^KX ?(250|450)\b|^TF ?(250|450)/i.test(model.trim());}
+export function forOtherBike(name:string,model:string){return ROAD.test(name)||(isFourStroke(model)?TWO.test(name):FOUR.test(name));}
+/** Parts whose size is chosen when buying (sprockets): the sizes to offer, or null. */
+export function sizesFor(type:string|null):{label:string;options:string[]}|null{
+ if(type==='Rear sprocket')return {label:'Teeth',options:Array.from({length:17},(_,i)=>String(38+i)+'T')};
+ if(type==='Front sprocket')return {label:'Teeth',options:['11T','12T','13T','14T','15T']};
+ return null;
+}
+/** The part number for a chosen size, when exactly one of the listing's numbers carries that size; otherwise none. */
+export function partNumberFor(pns:string[],size:string){const n=size.replace(/\D/g,'');if(!n)return '';const hits=pns.filter(p=>p.split(/[^0-9]+/).includes(n));return hits.length===1?hits[0]:'';}
+/** The part number to store for a pick: the one for the chosen size, the only one listed, or none when the listing carries
+ *  several (a number the rider can't confirm is worse than none). */
+export function chosenPartNumber(c:Pick<Choice,'pns'>,size?:string){return size?partNumberFor(c.pns,size):c.pns.length===1?c.pns[0]:'';}
 /** The listed parts for one system, one row per maker and name: services, small service bits and parts for the other fuel
  *  system are kept out (no carb jets on an injected bike). */
-export function pickerChoices(catalog:CatalogPart[]|null,system:PartSystem,fuel:FuelSystem|null):Choice[]{
+export function pickerChoices(catalog:CatalogPart[]|null,system:PartSystem,fuel:FuelSystem|null,model=''):Choice[]{
  const m=new Map<string,Choice>();
- for(const c of catalog??[]){if(c.system!==system||c.service||(fuel==='injected'&&c.fuel==='c')||(fuel==='carburetor'&&c.fuel==='i'))continue;const brand=brandOf(c),name=cleanName(brand,c.name),type=typeOf(system,c.name);
+ for(const c of catalog??[]){if(c.system!==system||c.service||(fuel==='injected'&&c.fuel==='c')||(fuel==='carburetor'&&c.fuel==='i')||(model&&forOtherBike(c.name,model)))continue;const brand=brandOf(c),name=cleanName(brand,c.name),type=typeOf(system,c.name);
   const k=(brand+'|'+name).toLowerCase(),prev=m.get(k);
-  if(!prev)m.set(k,{brand,name,pn:c.pn.split(/[\s,]+/)[0]??'',r:c.r,verified:c.verified,what:c.what,caution:c.caution,testers:c.testers,type,...(c.colors?{colors:c.colors}:{})});
+  if(!prev)m.set(k,{brand,name,pn:c.pn.split(/[\s,]+/)[0]??'',pns:partNumbers(c.pn),r:c.r,verified:c.verified,what:c.what,caution:c.caution,testers:c.testers,type,...(c.colors?{colors:c.colors}:{})});
   else if(c.r&&!prev.r)m.set(k,{...prev,r:c.r,verified:c.verified,what:c.what,caution:c.caution,testers:c.testers});
-  const cur=m.get(k)!;if(c.colors?.length&&!cur.colors?.length)m.set(k,{...cur,colors:c.colors});}
+  const cur=m.get(k)!;if(c.colors?.length&&!cur.colors?.length)m.set(k,{...cur,colors:c.colors});if(prev)m.set(k,{...m.get(k)!,pns:[...new Set([...m.get(k)!.pns,...partNumbers(c.pn)])].slice(0,40)});}
  return [...m.values()];
 }
 /** Part types that have listed parts (or every type when there is no list), with counts. */
