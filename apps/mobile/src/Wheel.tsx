@@ -27,7 +27,7 @@ export function WheelSheet({visible,step,title,options,value,onPick,onClose,back
  const [center,setCenter]=useState(0);
  const centerRef=useRef(0);
  // Start on the current value each time a step opens.
- useEffect(()=>{if(!visible)return;const i=Math.max(0,list.findIndex(o=>o.value===value));centerRef.current=i;setCenter(i);requestAnimationFrame(()=>ref.current?.scrollToOffset({offset:i*ROW,animated:false}));},[visible,title,list.length]);
+ useEffect(()=>{if(!visible)return;const i=Math.max(0,list.findIndex(o=>o.value===value));centerRef.current=i;setCenter(i);y.setValue(i*ROW);requestAnimationFrame(()=>ref.current?.scrollToOffset({offset:i*ROW,animated:false}));},[visible,title,list.length]);
  const onScroll=Animated.event([{nativeEvent:{contentOffset:{y}}}],{useNativeDriver:true,listener:(e:NativeSyntheticEvent<NativeScrollEvent>)=>{const i=Math.max(0,Math.min(list.length-1,Math.round(e.nativeEvent.contentOffset.y/ROW)));if(i!==centerRef.current){centerRef.current=i;setCenter(i);tick();}}});
  const choose=(i:number)=>{const o=list[i];if(!o)return;if(i!==centerRef.current){ref.current?.scrollToOffset({offset:i*ROW,animated:true});return;}void Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(()=>{});onPick(o.value);};
  return <Modal visible={visible} animationType="fade" presentationStyle="overFullScreen" transparent onRequestClose={onClose} statusBarTranslucent>

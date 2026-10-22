@@ -92,6 +92,9 @@ function Garage({navigation}:BottomTabScreenProps<Tabs,'Garage'>){const [formOpe
     <Tile icon="oil" title="Service log" detail="Oil, filters, top ends" onPress={()=>navigation.navigate('Maintenance')}/>
     <Tile icon="plus" title="Add another bike" onPress={()=>{load();setFormOpen(true);}}/>
    </TileGrid>
+   <Pressable accessibilityRole="button" accessibilityLabel={`Delete this bike, ${b.nickname||`${b.model_year} ${b.manufacturer} ${b.model}`}`} disabled={busy} onPress={()=>Alert.alert(`Delete ${b.nickname||`${b.model_year} ${b.manufacturer} ${b.model}`}?`,`${b.engine_hours!=null?`The one with ${b.engine_hours} hours. `:''}This also removes its build sheet, chats, photos and service log. It can’t be undone.`,[{text:'Cancel',style:'cancel'},{text:'Delete',style:'destructive',onPress:()=>void remove(b.id)}])} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:14,paddingVertical:15,opacity:pressed?0.6:1})}>
+    <Icon name="trash" size={21} color="#e88a95"/><View style={{flex:1,gap:2}}><Text style={{color:'#f0a8b0',fontSize:16,fontWeight:'600'}}>Delete this bike</Text><Text style={{color:'#9aa2af',fontSize:13}}>Removes it with its chats and service log</Text></View>
+   </Pressable>
   </>}
   {gtab==='build'&&<BuildSheet bike={b} onSaved={()=>{void c.reload();}} onAsk={text=>navigation.navigate('Ask BAK',{mode:'ask',context:text,contextToken:randomUUID(),contextBikeId:b.id})}/>}
   {gtab==='photos'&&<BikePhotos key={'photos-'+b.id} bike={b}/>}
