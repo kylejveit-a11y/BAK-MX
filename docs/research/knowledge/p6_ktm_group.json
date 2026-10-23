@@ -8223,37 +8223,6 @@
   },
   {
    "id": "p6k-0241",
-   "domain": "drivetrain",
-   "topic": "2026 Husqvarna TC 125: final drive, sprocket options and chain adjustment",
-   "applies_to": {
-    "models": [
-     "Husqvarna TC 125"
-    ],
-    "years": [
-     2026
-    ]
-   },
-   "statement": "The 2026 Husqvarna TC 125 owner's manual gives final drive 13:50 on a 5/8 x 1/4\" chain, with rear sprockets of 48, 50, 52 teeth available; chain tension 55 mm … 58 mm.",
-   "values": {
-    "final_drive": [
-     "13:50"
-    ],
-    "chain": "5/8 x 1/4\"",
-    "sprockets": "● 48 teeth",
-    "chain_tension": "55 mm … 58 mm"
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "manufacturer",
-    "name": "Husqvarna Motorcycles Owner's Manual 2026 (TC 125), art. no. 3402882en",
-    "url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3402882_en_BA.pdf",
-    "date": "2026"
-   },
-   "confidence": "high",
-   "notes": ""
-  },
-  {
-   "id": "p6k-0242",
    "domain": "known_issues",
    "topic": "2026 Husqvarna TC 125: malfunction-lamp blink codes",
    "applies_to": {
@@ -8294,7 +8263,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0243",
+   "id": "p6k-0242",
    "domain": "identity",
    "topic": "2022 GasGas MC 125: where the VIN, type label and engine number are",
    "applies_to": {
@@ -8324,7 +8293,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0244",
+   "id": "p6k-0243",
    "domain": "identity",
    "topic": "2022 GasGas MC 125: fork and shock part numbers (identify the fitted suspension)",
    "applies_to": {
@@ -8355,7 +8324,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0245",
+   "id": "p6k-0244",
    "domain": "engine_architecture",
    "topic": "2022 GasGas MC 125: internals, valve train and lubrication (owner's manual)",
    "applies_to": {
@@ -8389,7 +8358,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0246",
+   "id": "p6k-0245",
    "domain": "ecu_electronics",
    "topic": "2022 GasGas MC 125: ignition, idle and engine-management data",
    "applies_to": {
@@ -8420,7 +8389,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0247",
+   "id": "p6k-0246",
    "domain": "ecu_electronics",
    "topic": "2022 GasGas MC 125: carburetor and stock jetting plus ignition-map connector",
    "applies_to": {
@@ -8458,7 +8427,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0248",
+   "id": "p6k-0247",
    "domain": "chassis",
    "topic": "2022 GasGas MC 125: handlebar position options",
    "applies_to": {
@@ -8486,7 +8455,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0249",
+   "id": "p6k-0248",
    "domain": "drivetrain",
    "topic": "2022 GasGas MC 125: gearbox ratios, primary drive and clutch",
    "applies_to": {
@@ -8521,7 +8490,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0250",
+   "id": "p6k-0249",
    "domain": "drivetrain",
    "topic": "2022 GasGas MC 125: overall gear ratios (calculated)",
    "applies_to": {
@@ -8561,7 +8530,7 @@
    "notes": "Overall = (primary driven/drive) x (gear driven/drive) x (rear/front sprocket). Primary 23:73, final 13:51. "
   },
   {
-   "id": "p6k-0251",
+   "id": "p6k-0250",
    "domain": "maintenance",
    "topic": "2022 GasGas MC 125: owner's-manual service schedule (key intervals)",
    "applies_to": {
@@ -8600,7 +8569,7 @@
    "notes": "Intervals read from the service-schedule table: the smallest periodic column ticked for each item; \"once after\" marks a one-time first service. \"Recommended\" items are from the separate recommended-work table where the manual has one."
   },
   {
-   "id": "p6k-0252",
+   "id": "p6k-0251",
    "domain": "maintenance",
    "topic": "2022 GasGas MC 125: fluids and capacities",
    "applies_to": {
@@ -8629,7 +8598,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0253",
+   "id": "p6k-0252",
    "domain": "maintenance",
    "topic": "2022 GasGas MC 125: spark plug, drain-plug torques and chain tension",
    "applies_to": {
@@ -8661,7 +8630,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0254",
+   "id": "p6k-0253",
    "domain": "identity",
    "topic": "2023 GasGas MC 125: where the VIN, type label and engine number are",
    "applies_to": {
@@ -8691,7 +8660,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0255",
+   "id": "p6k-0254",
    "domain": "chassis",
    "topic": "2023 GasGas MC 125: handlebar position options",
    "applies_to": {
@@ -8719,7 +8688,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0256",
+   "id": "p6k-0255",
    "domain": "suspension",
    "topic": "2023 GasGas MC 125: where the fork clickers are and how they are counted",
    "applies_to": {
@@ -8746,7 +8715,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0257",
+   "id": "p6k-0256",
    "domain": "drivetrain",
    "topic": "2023 GasGas MC 125: gearbox ratios, primary drive and clutch",
    "applies_to": {
@@ -8781,7 +8750,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0258",
+   "id": "p6k-0257",
    "domain": "drivetrain",
    "topic": "2023 GasGas MC 125: overall gear ratios (calculated)",
    "applies_to": {
@@ -8821,7 +8790,7 @@
    "notes": "Overall = (primary driven/drive) x (gear driven/drive) x (rear/front sprocket). Primary 23:73, final 13:51. "
   },
   {
-   "id": "p6k-0259",
+   "id": "p6k-0258",
    "domain": "maintenance",
    "topic": "2023 GasGas MC 125: owner's-manual service schedule (key intervals)",
    "applies_to": {
@@ -8861,7 +8830,7 @@
    "notes": "Intervals read from the service-schedule table: the smallest periodic column ticked for each item; \"once after\" marks a one-time first service. \"Recommended\" items are from the separate recommended-work table where the manual has one."
   },
   {
-   "id": "p6k-0260",
+   "id": "p6k-0259",
    "domain": "identity",
    "topic": "2024 GasGas MC 125: where the VIN, type label and engine number are",
    "applies_to": {
@@ -8890,7 +8859,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0261",
+   "id": "p6k-0260",
    "domain": "identity",
    "topic": "2024 GasGas MC 125: fork and shock part numbers (identify the fitted suspension)",
    "applies_to": {
@@ -8921,7 +8890,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0262",
+   "id": "p6k-0261",
    "domain": "chassis",
    "topic": "2024 GasGas MC 125: handlebar position options",
    "applies_to": {
@@ -8949,7 +8918,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0263",
+   "id": "p6k-0262",
    "domain": "chassis",
    "topic": "2024 GasGas MC 125: tire sizes, stock tire models and pressures",
    "applies_to": {
@@ -8986,7 +8955,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0264",
+   "id": "p6k-0263",
    "domain": "suspension",
    "topic": "2024 GasGas MC 125: where the fork clickers are and how they are counted",
    "applies_to": {
@@ -9013,7 +8982,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0265",
+   "id": "p6k-0264",
    "domain": "drivetrain",
    "topic": "2024 GasGas MC 125: gearbox ratios, primary drive and clutch",
    "applies_to": {
@@ -9048,7 +9017,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0266",
+   "id": "p6k-0265",
    "domain": "drivetrain",
    "topic": "2024 GasGas MC 125: overall gear ratios (calculated)",
    "applies_to": {
@@ -9088,7 +9057,7 @@
    "notes": "Overall = (primary driven/drive) x (gear driven/drive) x (rear/front sprocket). Primary 23:73, final 13:51. "
   },
   {
-   "id": "p6k-0267",
+   "id": "p6k-0266",
    "domain": "maintenance",
    "topic": "2024 GasGas MC 125: owner's-manual service schedule (key intervals)",
    "applies_to": {
@@ -9126,7 +9095,7 @@
    "notes": "Intervals read from the service-schedule table: the smallest periodic column ticked for each item; \"once after\" marks a one-time first service. \"Recommended\" items are from the separate recommended-work table where the manual has one."
   },
   {
-   "id": "p6k-0268",
+   "id": "p6k-0267",
    "domain": "identity",
    "topic": "2022 GasGas MC 250: where the VIN, type label and engine number are",
    "applies_to": {
@@ -9156,7 +9125,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0269",
+   "id": "p6k-0268",
    "domain": "identity",
    "topic": "2022 GasGas MC 250: fork and shock part numbers (identify the fitted suspension)",
    "applies_to": {
@@ -9187,7 +9156,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0270",
+   "id": "p6k-0269",
    "domain": "engine_architecture",
    "topic": "2022 GasGas MC 250: internals, valve train and lubrication (owner's manual)",
    "applies_to": {
@@ -9219,7 +9188,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0271",
+   "id": "p6k-0270",
    "domain": "ecu_electronics",
    "topic": "2022 GasGas MC 250: ignition, idle and engine-management data",
    "applies_to": {
@@ -9250,7 +9219,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0272",
+   "id": "p6k-0271",
    "domain": "ecu_electronics",
    "topic": "2022 GasGas MC 250: carburetor and stock jetting plus ignition-map connector",
    "applies_to": {
@@ -9288,7 +9257,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0273",
+   "id": "p6k-0272",
    "domain": "chassis",
    "topic": "2022 GasGas MC 250: handlebar position options",
    "applies_to": {
@@ -9316,7 +9285,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0274",
+   "id": "p6k-0273",
    "domain": "suspension",
    "topic": "2022 GasGas MC 250: where the fork clickers are and how they are counted",
    "applies_to": {
@@ -9343,7 +9312,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0275",
+   "id": "p6k-0274",
    "domain": "drivetrain",
    "topic": "2022 GasGas MC 250: gearbox ratios, primary drive and clutch",
    "applies_to": {
@@ -9377,7 +9346,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0276",
+   "id": "p6k-0275",
    "domain": "drivetrain",
    "topic": "2022 GasGas MC 250: overall gear ratios (calculated)",
    "applies_to": {
@@ -9415,7 +9384,7 @@
    "notes": "Overall = (primary driven/drive) x (gear driven/drive) x (rear/front sprocket). Primary 26:73, final 14:49. "
   },
   {
-   "id": "p6k-0277",
+   "id": "p6k-0276",
    "domain": "maintenance",
    "topic": "2022 GasGas MC 250: owner's-manual service schedule (key intervals)",
    "applies_to": {
@@ -9454,7 +9423,7 @@
    "notes": "Intervals read from the service-schedule table: the smallest periodic column ticked for each item; \"once after\" marks a one-time first service. \"Recommended\" items are from the separate recommended-work table where the manual has one."
   },
   {
-   "id": "p6k-0278",
+   "id": "p6k-0277",
    "domain": "maintenance",
    "topic": "2022 GasGas MC 250: fluids and capacities",
    "applies_to": {
@@ -9483,7 +9452,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0279",
+   "id": "p6k-0278",
    "domain": "maintenance",
    "topic": "2022 GasGas MC 250: spark plug, drain-plug torques and chain tension",
    "applies_to": {
@@ -9515,7 +9484,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0280",
+   "id": "p6k-0279",
    "domain": "identity",
    "topic": "2024 GasGas MC 250: where the VIN, type label and engine number are",
    "applies_to": {
@@ -9544,7 +9513,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0281",
+   "id": "p6k-0280",
    "domain": "identity",
    "topic": "2024 GasGas MC 250: fork and shock part numbers (identify the fitted suspension)",
    "applies_to": {
@@ -9575,7 +9544,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0282",
+   "id": "p6k-0281",
    "domain": "chassis",
    "topic": "2024 GasGas MC 250: handlebar position options",
    "applies_to": {
@@ -9603,7 +9572,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0283",
+   "id": "p6k-0282",
    "domain": "suspension",
    "topic": "2024 GasGas MC 250: where the fork clickers are and how they are counted",
    "applies_to": {
@@ -9630,7 +9599,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0284",
+   "id": "p6k-0283",
    "domain": "drivetrain",
    "topic": "2024 GasGas MC 250: gearbox ratios, primary drive and clutch",
    "applies_to": {
@@ -9664,7 +9633,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0285",
+   "id": "p6k-0284",
    "domain": "drivetrain",
    "topic": "2024 GasGas MC 250: overall gear ratios (calculated)",
    "applies_to": {
@@ -9702,7 +9671,7 @@
    "notes": "Overall = (primary driven/drive) x (gear driven/drive) x (rear/front sprocket). Primary 26:72, final 14:49. "
   },
   {
-   "id": "p6k-0286",
+   "id": "p6k-0285",
    "domain": "maintenance",
    "topic": "2024 GasGas MC 250: owner's-manual service schedule (key intervals)",
    "applies_to": {
@@ -9740,7 +9709,7 @@
    "notes": "Intervals read from the service-schedule table: the smallest periodic column ticked for each item; \"once after\" marks a one-time first service. \"Recommended\" items are from the separate recommended-work table where the manual has one."
   },
   {
-   "id": "p6k-0287",
+   "id": "p6k-0286",
    "domain": "identity",
    "topic": "2021 GasGas MC 250F: where the VIN, type label and engine number are",
    "applies_to": {
@@ -9770,7 +9739,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0288",
+   "id": "p6k-0287",
    "domain": "ecu_electronics",
    "topic": "2021 GasGas MC 250F: ignition, idle and engine-management data",
    "applies_to": {
@@ -9801,7 +9770,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0289",
+   "id": "p6k-0288",
    "domain": "engine_mods",
    "topic": "2021 GasGas MC 250F: throttle-grip guide plates (factory option)",
    "applies_to": {
@@ -9830,7 +9799,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0290",
+   "id": "p6k-0289",
    "domain": "suspension",
    "topic": "2021 GasGas MC 250F: where the fork clickers are and how they are counted",
    "applies_to": {
@@ -9857,7 +9826,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0291",
+   "id": "p6k-0290",
    "domain": "suspension",
    "topic": "2021 GasGas MC 250F: fork type, air pressure and oil capacities",
    "applies_to": {
@@ -9924,7 +9893,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0292",
+   "id": "p6k-0291",
    "domain": "maintenance",
    "topic": "2021 GasGas MC 250F: owner's-manual service schedule (key intervals)",
    "applies_to": {
@@ -9962,7 +9931,7 @@
    "notes": "Intervals read from the service-schedule table: the smallest periodic column ticked for each item; \"once after\" marks a one-time first service. \"Recommended\" items are from the separate recommended-work table where the manual has one."
   },
   {
-   "id": "p6k-0293",
+   "id": "p6k-0292",
    "domain": "maintenance",
    "topic": "2021 GasGas MC 250F: fluids and capacities",
    "applies_to": {
@@ -9990,7 +9959,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0294",
+   "id": "p6k-0293",
    "domain": "maintenance",
    "topic": "2021 GasGas MC 250F: spark plug, drain-plug torques and chain tension",
    "applies_to": {
@@ -10023,7 +9992,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0295",
+   "id": "p6k-0294",
    "domain": "known_issues",
    "topic": "2021 GasGas MC 250F: owner's-manual troubleshooting - starting, idle and power faults",
    "applies_to": {
@@ -10055,7 +10024,7 @@
    "notes": "Fault/cause pairs read from the troubleshooting table; the remedies column is summarised in the manual."
   },
   {
-   "id": "p6k-0296",
+   "id": "p6k-0295",
    "domain": "setups",
    "topic": "2021 GasGas MC 250F: Comfort / Standard / Sport suspension presets",
    "applies_to": {
@@ -10085,7 +10054,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0297",
+   "id": "p6k-0296",
    "domain": "identity",
    "topic": "2023 GasGas MC 250F: where the VIN, type label and engine number are",
    "applies_to": {
@@ -10115,7 +10084,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0298",
+   "id": "p6k-0297",
    "domain": "engine_mods",
    "topic": "2023 GasGas MC 250F: throttle-grip guide plates (factory option)",
    "applies_to": {
@@ -10144,7 +10113,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0299",
+   "id": "p6k-0298",
    "domain": "maintenance",
    "topic": "2023 GasGas MC 250F: owner's-manual service schedule (key intervals)",
    "applies_to": {
@@ -10182,7 +10151,7 @@
    "notes": "Intervals read from the service-schedule table: the smallest periodic column ticked for each item; \"once after\" marks a one-time first service. \"Recommended\" items are from the separate recommended-work table where the manual has one."
   },
   {
-   "id": "p6k-0300",
+   "id": "p6k-0299",
    "domain": "maintenance",
    "topic": "2023 GasGas MC 250F: fluids and capacities",
    "applies_to": {
@@ -10210,7 +10179,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0301",
+   "id": "p6k-0300",
    "domain": "maintenance",
    "topic": "2023 GasGas MC 250F: spark plug, drain-plug torques and chain tension",
    "applies_to": {
@@ -10243,7 +10212,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0302",
+   "id": "p6k-0301",
    "domain": "identity",
    "topic": "2026 GasGas MC 250F: where the VIN, type label and engine number are",
    "applies_to": {
@@ -10272,7 +10241,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0303",
+   "id": "p6k-0302",
    "domain": "identity",
    "topic": "2026 GasGas MC 250F: fork and shock part numbers (identify the fitted suspension)",
    "applies_to": {
@@ -10303,7 +10272,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0304",
+   "id": "p6k-0303",
    "domain": "engine_mods",
    "topic": "2026 GasGas MC 250F: throttle-grip guide plates (factory option)",
    "applies_to": {
@@ -10329,7 +10298,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0305",
+   "id": "p6k-0304",
    "domain": "drivetrain",
    "topic": "2026 GasGas MC 250F: gearbox ratios, primary drive and clutch",
    "applies_to": {
@@ -10363,7 +10332,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0306",
+   "id": "p6k-0305",
    "domain": "maintenance",
    "topic": "2026 GasGas MC 250F: owner's-manual service schedule (key intervals)",
    "applies_to": {
@@ -10402,7 +10371,7 @@
    "notes": "Intervals read from the service-schedule table: the smallest periodic column ticked for each item; \"once after\" marks a one-time first service. \"Recommended\" items are from the separate recommended-work table where the manual has one."
   },
   {
-   "id": "p6k-0307",
+   "id": "p6k-0306",
    "domain": "maintenance",
    "topic": "2026 GasGas MC 250F: fluids and capacities",
    "applies_to": {
@@ -10430,7 +10399,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0308",
+   "id": "p6k-0307",
    "domain": "maintenance",
    "topic": "2026 GasGas MC 250F: spark plug, drain-plug torques and chain tension",
    "applies_to": {
@@ -10462,7 +10431,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0309",
+   "id": "p6k-0308",
    "domain": "known_issues",
    "topic": "2026 GasGas MC 250F: owner's-manual troubleshooting - starting, idle and power faults",
    "applies_to": {
@@ -10494,7 +10463,7 @@
    "notes": "Fault/cause pairs read from the troubleshooting table; the remedies column is summarised in the manual."
   },
   {
-   "id": "p6k-0310",
+   "id": "p6k-0309",
    "domain": "engine_architecture",
    "topic": "2022 GasGas MC 350F: internals, valve train and lubrication (owner's manual)",
    "applies_to": {
@@ -10532,7 +10501,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0311",
+   "id": "p6k-0310",
    "domain": "ecu_electronics",
    "topic": "2022 GasGas MC 350F: ignition, idle and engine-management data",
    "applies_to": {
@@ -10563,7 +10532,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0312",
+   "id": "p6k-0311",
    "domain": "ecu_electronics",
    "topic": "2022 GasGas MC 350F: programming the throttle-valve idle position",
    "applies_to": {
@@ -10587,7 +10556,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0313",
+   "id": "p6k-0312",
    "domain": "engine_mods",
    "topic": "2022 GasGas MC 350F: throttle-grip guide plates (factory option)",
    "applies_to": {
@@ -10616,7 +10585,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0314",
+   "id": "p6k-0313",
    "domain": "maintenance",
    "topic": "2022 GasGas MC 350F: owner's-manual service schedule (key intervals)",
    "applies_to": {
@@ -10654,7 +10623,7 @@
    "notes": "Intervals read from the service-schedule table: the smallest periodic column ticked for each item; \"once after\" marks a one-time first service. \"Recommended\" items are from the separate recommended-work table where the manual has one."
   },
   {
-   "id": "p6k-0315",
+   "id": "p6k-0314",
    "domain": "maintenance",
    "topic": "2022 GasGas MC 350F: fluids and capacities",
    "applies_to": {
@@ -10682,7 +10651,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0316",
+   "id": "p6k-0315",
    "domain": "maintenance",
    "topic": "2022 GasGas MC 350F: spark plug, drain-plug torques and chain tension",
    "applies_to": {
@@ -10715,7 +10684,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0317",
+   "id": "p6k-0316",
    "domain": "identity",
    "topic": "2025 GasGas MC 350F: where the VIN, type label and engine number are",
    "applies_to": {
@@ -10744,7 +10713,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0318",
+   "id": "p6k-0317",
    "domain": "identity",
    "topic": "2025 GasGas MC 350F: fork and shock part numbers (identify the fitted suspension)",
    "applies_to": {
@@ -10775,7 +10744,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0319",
+   "id": "p6k-0318",
    "domain": "ecu_electronics",
    "topic": "2025 GasGas MC 350F: ignition, idle and engine-management data",
    "applies_to": {
@@ -10806,7 +10775,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0320",
+   "id": "p6k-0319",
    "domain": "suspension",
    "topic": "2025 GasGas MC 350F: where the fork clickers are and how they are counted",
    "applies_to": {
@@ -10833,7 +10802,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0321",
+   "id": "p6k-0320",
    "domain": "suspension",
    "topic": "2025 GasGas MC 350F: fork type, air pressure and oil capacities",
    "applies_to": {
@@ -10892,7 +10861,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0322",
+   "id": "p6k-0321",
    "domain": "suspension",
    "topic": "2025 GasGas MC 350F: shock springs, preload and sag targets",
    "applies_to": {
@@ -10962,7 +10931,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0323",
+   "id": "p6k-0322",
    "domain": "maintenance",
    "topic": "2025 GasGas MC 350F: owner's-manual service schedule (key intervals)",
    "applies_to": {
@@ -11000,7 +10969,7 @@
    "notes": "Intervals read from the service-schedule table: the smallest periodic column ticked for each item; \"once after\" marks a one-time first service. \"Recommended\" items are from the separate recommended-work table where the manual has one."
   },
   {
-   "id": "p6k-0324",
+   "id": "p6k-0323",
    "domain": "maintenance",
    "topic": "2025 GasGas MC 350F: fluids and capacities",
    "applies_to": {
@@ -11028,7 +10997,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0325",
+   "id": "p6k-0324",
    "domain": "maintenance",
    "topic": "2025 GasGas MC 350F: spark plug, drain-plug torques and chain tension",
    "applies_to": {
@@ -11060,7 +11029,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0326",
+   "id": "p6k-0325",
    "domain": "setups",
    "topic": "2025 GasGas MC 350F: Comfort / Standard / Sport suspension presets",
    "applies_to": {
@@ -11090,7 +11059,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0327",
+   "id": "p6k-0326",
    "domain": "ecu_electronics",
    "topic": "2021 GasGas MC 450F: ignition, idle and engine-management data",
    "applies_to": {
@@ -11121,7 +11090,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0328",
+   "id": "p6k-0327",
    "domain": "engine_mods",
    "topic": "2021 GasGas MC 450F: throttle-grip guide plates (factory option)",
    "applies_to": {
@@ -11150,7 +11119,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0329",
+   "id": "p6k-0328",
    "domain": "suspension",
    "topic": "2021 GasGas MC 450F: where the fork clickers are and how they are counted",
    "applies_to": {
@@ -11177,7 +11146,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0330",
+   "id": "p6k-0329",
    "domain": "suspension",
    "topic": "2021 GasGas MC 450F: fork type, air pressure and oil capacities",
    "applies_to": {
@@ -11244,7 +11213,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0331",
+   "id": "p6k-0330",
    "domain": "maintenance",
    "topic": "2021 GasGas MC 450F: owner's-manual service schedule (key intervals)",
    "applies_to": {
@@ -11282,7 +11251,7 @@
    "notes": "Intervals read from the service-schedule table: the smallest periodic column ticked for each item; \"once after\" marks a one-time first service. \"Recommended\" items are from the separate recommended-work table where the manual has one."
   },
   {
-   "id": "p6k-0332",
+   "id": "p6k-0331",
    "domain": "maintenance",
    "topic": "2021 GasGas MC 450F: fluids and capacities",
    "applies_to": {
@@ -11310,7 +11279,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0333",
+   "id": "p6k-0332",
    "domain": "maintenance",
    "topic": "2021 GasGas MC 450F: spark plug, drain-plug torques and chain tension",
    "applies_to": {
@@ -11343,7 +11312,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0334",
+   "id": "p6k-0333",
    "domain": "identity",
    "topic": "2023 GasGas MC 450F: where the VIN, type label and engine number are",
    "applies_to": {
@@ -11373,7 +11342,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0335",
+   "id": "p6k-0334",
    "domain": "maintenance",
    "topic": "2023 GasGas MC 450F: owner's-manual service schedule (key intervals)",
    "applies_to": {
@@ -11411,7 +11380,7 @@
    "notes": "Intervals read from the service-schedule table: the smallest periodic column ticked for each item; \"once after\" marks a one-time first service. \"Recommended\" items are from the separate recommended-work table where the manual has one."
   },
   {
-   "id": "p6k-0336",
+   "id": "p6k-0335",
    "domain": "maintenance",
    "topic": "2023 GasGas MC 450F: fluids and capacities",
    "applies_to": {
@@ -11439,7 +11408,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0337",
+   "id": "p6k-0336",
    "domain": "maintenance",
    "topic": "2023 GasGas MC 450F: spark plug, drain-plug torques and chain tension",
    "applies_to": {
@@ -11472,7 +11441,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0338",
+   "id": "p6k-0337",
    "domain": "identity",
    "topic": "2025 GasGas MC 450F: where the VIN, type label and engine number are",
    "applies_to": {
@@ -11501,7 +11470,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0339",
+   "id": "p6k-0338",
    "domain": "identity",
    "topic": "2025 GasGas MC 450F: fork and shock part numbers (identify the fitted suspension)",
    "applies_to": {
@@ -11534,7 +11503,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0340",
+   "id": "p6k-0339",
    "domain": "identity",
    "topic": "2025 GasGas MC 450F: models covered by the owner's manual",
    "applies_to": {
@@ -11561,7 +11530,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0341",
+   "id": "p6k-0340",
    "domain": "suspension",
    "topic": "2025 GasGas MC 450F: where the fork clickers are and how they are counted",
    "applies_to": {
@@ -11588,7 +11557,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0342",
+   "id": "p6k-0341",
    "domain": "suspension",
    "topic": "2025 GasGas MC 450F: fork type, air pressure and oil capacities",
    "applies_to": {
@@ -11679,7 +11648,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0343",
+   "id": "p6k-0342",
    "domain": "maintenance",
    "topic": "2025 GasGas MC 450F: owner's-manual service schedule (key intervals)",
    "applies_to": {
@@ -11717,7 +11686,7 @@
    "notes": "Intervals read from the service-schedule table: the smallest periodic column ticked for each item; \"once after\" marks a one-time first service. \"Recommended\" items are from the separate recommended-work table where the manual has one."
   },
   {
-   "id": "p6k-0344",
+   "id": "p6k-0343",
    "domain": "maintenance",
    "topic": "2025 GasGas MC 450F: fluids and capacities",
    "applies_to": {
@@ -11745,7 +11714,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0345",
+   "id": "p6k-0344",
    "domain": "maintenance",
    "topic": "2025 GasGas MC 450F: spark plug, drain-plug torques and chain tension",
    "applies_to": {
@@ -11777,7 +11746,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0346",
+   "id": "p6k-0345",
    "domain": "setups",
    "topic": "2025 GasGas MC 450F: Comfort / Standard / Sport suspension presets",
    "applies_to": {
@@ -11808,7 +11777,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0347",
+   "id": "p6k-0346",
    "domain": "ecu_electronics",
    "topic": "2027 GasGas EC 300: ignition, idle and engine-management data",
    "applies_to": {
@@ -11839,7 +11808,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0348",
+   "id": "p6k-0347",
    "domain": "engine_mods",
    "topic": "2027 125 SX: KTM 125 Factory Performance Kit (factory option)",
    "applies_to": {
@@ -11870,7 +11839,7 @@
    "notes": "Maker claim; no dyno figure published by KTM."
   },
   {
-   "id": "p6k-0349",
+   "id": "p6k-0348",
    "domain": "power_feel",
    "topic": "2027 125 SX: maker-described power delivery of the two maps",
    "applies_to": {
@@ -11897,7 +11866,7 @@
    "notes": "Matches the 2027 owner's manual combination-switch description (white = lean for firm surfaces, green = rich for sandy/loose)."
   },
   {
-   "id": "p6k-0350",
+   "id": "p6k-0349",
    "domain": "ecu_electronics",
    "topic": "2027 125 SX: throttle body and engine-management supplier",
    "applies_to": {
@@ -11924,7 +11893,7 @@
    "notes": ""
   },
   {
-   "id": "p6k-0351",
+   "id": "p6k-0350",
    "domain": "ecu_electronics",
    "topic": "2021 GasGas MC 250F: no handlebar map switch, traction or launch control in standard trim",
    "applies_to": {
@@ -11952,7 +11921,7 @@
    "notes": "Absence verified by searching the full manual text for mapping, map select, traction control, launch control and quickshifter (no hits); the 2023 MC 450F manual, by contrast, does describe mapping."
   },
   {
-   "id": "p6k-0352",
+   "id": "p6k-0351",
    "domain": "ecu_electronics",
    "topic": "2023 GasGas MC 250F: no handlebar map switch, traction or launch control in standard trim",
    "applies_to": {
@@ -11980,7 +11949,7 @@
    "notes": "Absence verified by searching the full manual text for mapping, map select, traction control, launch control and quickshifter (no hits); the 2023 MC 450F manual, by contrast, does describe mapping."
   },
   {
-   "id": "p6k-0353",
+   "id": "p6k-0352",
    "domain": "ecu_electronics",
    "topic": "2022 GasGas MC 350F: no handlebar map switch, traction or launch control in standard trim",
    "applies_to": {
@@ -12008,7 +11977,7 @@
    "notes": "Absence verified by searching the full manual text for mapping, map select, traction control, launch control and quickshifter (no hits); the 2023 MC 450F manual, by contrast, does describe mapping."
   },
   {
-   "id": "p6k-0354",
+   "id": "p6k-0353",
    "domain": "ecu_electronics",
    "topic": "2021 GasGas MC 450F: no handlebar map switch, traction or launch control in standard trim",
    "applies_to": {
