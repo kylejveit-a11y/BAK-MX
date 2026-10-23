@@ -1,0 +1,878 @@
+{
+ "slice": "Pass 7: 2024 Yamaha YZ250FX (US owner's service manual BAJ-2819U-14, tests, known issues)",
+ "platform": {
+  "make": "Yamaha",
+  "models": [
+   "Yamaha YZ250FX"
+  ],
+  "years": [
+   2024
+  ]
+ },
+ "records": [
+  {
+   "id": "p7f-o001",
+   "domain": "identity",
+   "topic": "2024 YZ250FX model designation and code",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Yamaha's US owner's service manual for the 2024 YZ250FX identifies it as model YZ250FXR, model code(s) BAJL; the manual is the US-market edition (Yamaha part BAJ-2819U-14).",
+   "values": {
+    "model_designation": "YZ250FXR",
+    "model_code": "BAJL",
+    "osm_part_number": "BAJ-2819U-14"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Designation suffix letter is Yamaha's model-year code. Market editions for other regions carry other model codes."
+  },
+  {
+   "id": "p7f-o002",
+   "domain": "engine_architecture",
+   "topic": "2024 YZ250FX engine dimensions",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 YZ250FX engine is a liquid-cooled 250 cm³ DOHC four-stroke single, bore × stroke 77.0 × 53.6 mm (3.03 × 2.11 in), compression ratio 13.8 : 1, electric start, wet-sump lubrication.",
+   "values": {
+    "displacement": "250 cm³",
+    "bore_x_stroke": "77.0 × 53.6 mm (3.03 × 2.11 in)",
+    "compression_ratio": "13.8 : 1",
+    "valve_train": "DOHC"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "p7f-o003",
+   "domain": "engine_architecture",
+   "topic": "2024 YZ250FX fuel injection",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Fuel injection with throttle body ID B7B1; fuel line pressure at idle 300–390 kPa (3.0–3.9 kgf/cm², 43.5–56.6 psi), idle speed 1900–2100 r/min; valve clearance (cold) intake 0.12–0.19 mm (0.0047–0.0075 in), exhaust 0.17–0.24 mm (0.0067–0.0094 in).",
+   "values": {
+    "throttle_body_id": "B7B1",
+    "fuel_pressure_idle": "300–390 kPa (3.0–3.9 kgf/cm², 43.5–56.6 psi)",
+    "idle_rpm": "1900–2100 r/min",
+    "valve_clearance_in": "0.12–0.19 mm (0.0047–0.0075 in)",
+    "valve_clearance_ex": "0.17–0.24 mm (0.0067–0.0094 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "p7f-o004",
+   "domain": "ecu_electronics",
+   "topic": "2024 YZ250FX ECU and ignition",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Engine control unit BAJ2; TCI ignition with timing 8.0–12.0 /2000 r/min; fuel pump and electronic fuel injection.",
+   "values": {
+    "ecu_model": "BAJ2",
+    "ignition": "TCI",
+    "ignition_timing": "8.0–12.0 /2000 r/min"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "p7f-o005",
+   "domain": "ecu_electronics",
+   "topic": "2024 YZ250FX maps, Power Tuner and launch control",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "On the US 2024 YZ250FX a handlebar switch toggles map 1 (all-around power and response) and map 2 (milder throttle response for technical sections); the Power Tuner smartphone app connects over the CCU (Communication Control Unit) wireless network to adjust the maps and settings.",
+   "values": {
+    "map_switch": true,
+    "power_tuner_app": true,
+    "gytr_handheld_power_tuner": false,
+    "launch_control": false
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "p7f-o006",
+   "domain": "suspension",
+   "topic": "2024 YZ250FX fork stock settings",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KYB coil-spring fork, 310 mm (12.2 in) travel, Yamaha Suspension Oil S1, 501.0 cm³ (16.94 US oz, 17.67 Imp.oz) per leg; standard clickers (counted out from fully in): rebound 12 of 20, compression 12 of 20.",
+   "values": {
+    "fork_travel": "310 mm (12.2 in)",
+    "fork_oil": "Yamaha Suspension Oil S1",
+    "oil_per_leg": "501.0 cm³ (16.94 US oz, 17.67 Imp.oz)",
+    "rebound_std_clicks_out": "12",
+    "compression_std_clicks_out": "12",
+    "clicker_range": "20"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "p7f-o007",
+   "domain": "suspension",
+   "topic": "2024 YZ250FX shock stock settings",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "KYB link shock, 317 mm (12.5 in) wheel travel; standard settings: spring preload 6.0 mm (0.24 in) turned in from free length, rebound 11 clicks out (of 30), high-speed compression 1-1/8 turns out, low-speed compression 11 clicks out.",
+   "values": {
+    "shock_travel": "317 mm (12.5 in)",
+    "preload_std": "6.0 mm (0.24 in)",
+    "rebound_std_clicks_out": "11",
+    "hsc_std_turns_out": "1-1/8",
+    "lsc_std_clicks_out": "11"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "p7f-o008",
+   "domain": "suspension",
+   "topic": "2024 YZ250FX spring rates and sag",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Standard spring rates are 4.6 N/mm (fork) and 56 N/mm (shock); Yamaha lists optional fork springs from 4.1-5.1 N/mm. Rear sag is set to a sunken (rider-on) length of 90-100 mm before any other tuning.",
+   "values": {
+    "fork_spring_std_Nmm": "4.6",
+    "shock_spring_std_Nmm": "56",
+    "fork_spring_options": "4.1-5.1 N/mm",
+    "race_sag_mm": "90-100"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Spring tables in the Tuning chapter (front fork / rear shock absorber setting parts)."
+  },
+  {
+   "id": "p7f-o009",
+   "domain": "drivetrain",
+   "topic": "2024 YZ250FX gearbox and final drive",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Constant mesh 6-speed; primary reduction 3.353 (57/17); gear ratios 1st 2.385 (31/13), 2nd 1.813 (29/16), 3rd 1.444 (26/18), 4th 1.143 (24/21), 5th 0.957 (22/23), 6th 0.815 (22/27); secondary (final) reduction 3.923 (51/13), i.e. stock sprockets 13T front / 51T rear, chain final drive.",
+   "values": {
+    "primary": "3.353 (57/17)",
+    "gears": {
+     "1st": "2.385 (31/13)",
+     "2nd": "1.813 (29/16)",
+     "3rd": "1.444 (26/18)",
+     "4th": "1.143 (24/21)",
+     "5th": "0.957 (22/23)",
+     "6th": "0.815 (22/27)"
+    },
+    "secondary": "3.923 (51/13)",
+    "transmission": "Constant mesh 6-speed"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "p7f-o010",
+   "domain": "drivetrain",
+   "topic": "2024 YZ250FX clutch and chain",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Wet multi-disc clutch: 2 pcs friction plate 1 (2.70–2.90 mm), 6 pcs friction plate 2 (2.72–2.88 mm), 7 pcs clutch plate (1.50–1.70 mm); clutch spring free length 44.50 mm (1.75 in); 520 sealed type chain, 114 links, slack 50.0–60.0 mm (1.97–2.36 in). Yamaha lists optional rear sprockets of 47, 48, 49, 50, 51, 52 teeth.",
+   "values": {
+    "plate_quantities": [
+     "2 pcs friction plate 1 (2.70–2.90 mm)",
+     "6 pcs friction plate 2 (2.72–2.88 mm)",
+     "7 pcs clutch plate (1.50–1.70 mm)"
+    ],
+    "friction_plate_thickness": [
+     "2.70–2.90 mm (0.106–0.114 in)",
+     "2.72–2.88 mm (0.107–0.113 in)",
+     "1.50–1.70 mm (0.059–0.067 in)"
+    ],
+    "clutch_spring_free_length": "44.50 mm (1.75 in)",
+    "chain": "520",
+    "links": "114",
+    "rear_sprocket_options": [
+     "47",
+     "48",
+     "49",
+     "50",
+     "51",
+     "52"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Plate counts are listed in manual order (friction plate types first, then clutch/steel plates)."
+  },
+  {
+   "id": "p7f-o011",
+   "domain": "drivetrain",
+   "topic": "2024 YZ250FX overall gear ratios and speed per 1,000 rpm",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Worked out from Yamaha's ratios, overall reduction (engine to rear wheel) is 1st 31.37:1, 2nd 23.85:1, 3rd 18.99:1, 4th 15.03:1, 5th 12.59:1, 6th 10.72:1; on the stock 110/100-18 rear tire that is about 1st 4.07 km/h, 2nd 5.35 km/h, 3rd 6.72 km/h, 4th 8.49 km/h, 5th 10.14 km/h, 6th 11.91 km/h per 1,000 rpm.",
+   "values": {
+    "overall_ratio": {
+     "1st": 31.37,
+     "2nd": 23.85,
+     "3rd": 18.99,
+     "4th": 15.03,
+     "5th": 12.59,
+     "6th": 10.72
+    },
+    "kmh_per_1000rpm": {
+     "1st": 4.07,
+     "2nd": 5.35,
+     "3rd": 6.72,
+     "4th": 8.49,
+     "5th": 10.14,
+     "6th": 11.91
+    },
+    "rear_tire": "110/100-18 64M"
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK calculation from Yamaha 2024 YZ250FX OSM ratios",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": "overall = primary 3.353 x gear x secondary 3.923. Speed = rpm / overall x tire circumference; nominal rolling diameter 677 mm from 110/100-18 (rim x 25.4 + 2 x section x aspect), circumference 2.127 m, no tire squat or growth."
+  },
+  {
+   "id": "p7f-o012",
+   "domain": "power_feel",
+   "topic": "2024 YZ250FX gearing spread",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Worked out from Yamaha's gearbox and stock sprockets: first gear gives about 4.07 km/h and top gear about 11.91 km/h per 1,000 rpm, so at 10,000 rpm first runs out near 41 km/h and top near 119 km/h (74 mph). The ratio between first and top gear is 2.93, a measure of how wide the box is.",
+   "values": {
+    "first_kmh_per_1000": 4.07,
+    "top_kmh_per_1000": 11.91,
+    "reference_rpm": 10000,
+    "spread_ratio": 2.93
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK calculation from Yamaha 2024 YZ250FX OSM ratios",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": "Reference rpm 10000 chosen as a typical working rpm, not a published rev limit. Same tire assumptions as the drivetrain record."
+  },
+  {
+   "id": "p7f-o013",
+   "domain": "chassis",
+   "topic": "2024 YZ250FX geometry and dimensions",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Caster angle 27.2 °, trail 116 mm (4.6 in), wheelbase 1480 mm (58.3 in), seat height 955 mm (37.6 in), ground clearance 320 mm (12.60 in), overall length 2175 mm (85.6 in).",
+   "values": {
+    "caster": "27.2 ",
+    "trail": "116 mm (4.6 in)",
+    "Overall length": "2175 mm (85.6 in)",
+    "Overall width": "825 mm (32.5 in)",
+    "Overall height": "1280 mm (50.4 in)",
+    "Seat height": "955 mm (37.6 in)",
+    "Wheelbase": "1480 mm (58.3 in)",
+    "Ground clearance": "320 mm (12.60 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "p7f-o014",
+   "domain": "chassis",
+   "topic": "2024 YZ250FX weight, fuel and tires",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Curb weight 111 kg (245 lb); fuel tank 8.2 L (2.2 US gal, 1.8 Imp.gal) with 2.0 L (0.53 US gal, 0.44 Imp.gal) reserve; tires 80/100-21 51M front and 110/100-18 64M rear (DUNLOP/MX33F / DUNLOP/MX33), 100 kPa (15 psi) standard pressure.",
+   "values": {
+    "curb_weight": "111 kg (245 lb)",
+    "fuel_tank": "8.2 L (2.2 US gal, 1.8 Imp.gal)",
+    "front_tire": "80/100-21 51M",
+    "rear_tire": "110/100-18 64M"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "p7f-o015",
+   "domain": "maintenance",
+   "topic": "2024 YZ250FX oil, coolant and plug",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Engine oil 10W-40, 10W-50, 15W-40, 20W-40 or 20W-50 (API service SG type or higher, JASO standard MA), 0.73 L (0.77 US qt, 0.64 Imp.qt) at a change, 0.75 L (0.79 US qt, 0.66 Imp.qt) with filter, 0.95 L (1.00 US qt, 0.84 Imp.qt) dry; coolant 0.93 L (0.98 US qt, 0.82 Imp.qt); spark plug NGK/LMAR8E-J gapped 0.6–0.7 mm (0.024–0.028 in).",
+   "values": {
+    "oil_change": "0.73 L (0.77 US qt, 0.64 Imp.qt)",
+    "oil_with_filter": "0.75 L (0.79 US qt, 0.66 Imp.qt)",
+    "coolant": "0.93 L (0.98 US qt, 0.82 Imp.qt)",
+    "spark_plug": "NGK/LMAR8E-J"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "p7f-o016",
+   "domain": "maintenance",
+   "topic": "2024 YZ250FX valve clearance and top end",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Valve clearance (cold) intake 0.12–0.19 mm (0.0047–0.0075 in), exhaust 0.17–0.24 mm (0.0067–0.0094 in); cylinder bore 77.000–77.010 mm (3.0315–3.0319 in) (wear limit 77.060 mm (3.0339 in)); piston-to-cylinder clearance 0.030–0.055 mm (0.0012–0.0022 in).",
+   "values": {
+    "valve_in": "0.12–0.19 mm (0.0047–0.0075 in)",
+    "valve_ex": "0.17–0.24 mm (0.0067–0.0094 in)",
+    "bore": "77.000–77.010 mm (3.0315–3.0319 in)",
+    "bore_limit": "77.060 mm (3.0339 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "p7f-o017",
+   "domain": "setups",
+   "topic": "2024 YZ250FX Yamaha suspension tuning chart",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Yamaha's tuning chart for this model says: set rear sag (sunken length 90-100 mm) first; if the fork is stiff over its whole range back the compression out about 2 clicks, take 5-10 cc of oil out or fit a softer spring; if it is soft and bottoms, add about 2 clicks of compression or 5-10 cc of oil, or fit a stiffer spring; change oil in 5 cc steps for end-of-stroke feel. After a softer spring go 1-2 clicks out on rebound, after a stiffer one 1-2 clicks in.",
+   "values": {
+    "sag_mm": "90-100",
+    "oil_step_cc": 5,
+    "click_step": 2
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "From the Tuning chapter (front fork setting / suspension setting tables) of this manual."
+  },
+  {
+   "id": "p7f-t001",
+   "domain": "known_issues",
+   "topic": "2024 YZ250FX Yamaha engine troubleshooting chart",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Yamaha's troubleshooting chart for the 2024 YZ250FX traces hard starting, poor idle and poor mid-to-high-speed running to: a clogged or failing fuel pump, a failed or clogged injector, a blocked tank-cap breather, stale or contaminated fuel, wrong valve timing, valve clearance out of spec, a bent or stuck valve, a tired or broken valve spring, a worn cam lobe, a dirty throttle body, a cracked throttle-body joint (air leak), engine oil overfilled, the wrong oil grade letting the starter clutch slip, besides ignition faults (no spark).",
+   "values": {
+    "causes_listed": [
+     "a clogged or failing fuel pump",
+     "a failed or clogged injector",
+     "a blocked tank-cap breather",
+     "stale or contaminated fuel",
+     "wrong valve timing",
+     "valve clearance out of spec",
+     "a bent or stuck valve",
+     "a tired or broken valve spring",
+     "a worn cam lobe",
+     "a dirty throttle body",
+     "a cracked throttle-body joint (air leak)",
+     "engine oil overfilled",
+     "the wrong oil grade letting the starter clutch slip"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Troubleshooting chapter (TROUBLESHOOTING OF ENGINE). Yamaha notes the chart is a quick-reference guide and does not cover every cause."
+  },
+  {
+   "id": "p7f-t002",
+   "domain": "known_issues",
+   "topic": "2024 YZ250FX Yamaha clutch, gearbox and cooling troubleshooting",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Yamaha's 2024 YZ250FX troubleshooting chart lists clutch slip from worn friction plates, tired clutch springs, oil too thin, old oil; clutch drag from swollen friction plates, warped steel plates, oil too thick, a seized clutch-housing bushing; jumping out of gear from bent or worn shift forks, a worn shift-drum groove, worn gear dogs, a weak stopper-lever spring; and overheating from low coolant, a faulty radiator cap, clogged or bent radiator fins, a faulty water pump, carbon build-up in the combustion chamber, a dragging brake, the wrong plug heat range.",
+   "values": {
+    "clutch_slip": [
+     "worn friction plates",
+     "tired clutch springs",
+     "oil too thin",
+     "old oil"
+    ],
+    "clutch_drag": [
+     "swollen friction plates",
+     "warped steel plates",
+     "oil too thick",
+     "a seized clutch-housing bushing"
+    ],
+    "jumps_out_of_gear": [
+     "bent or worn shift forks",
+     "a worn shift-drum groove",
+     "worn gear dogs",
+     "a weak stopper-lever spring"
+    ],
+    "overheating": [
+     "low coolant",
+     "a faulty radiator cap",
+     "clogged or bent radiator fins",
+     "a faulty water pump",
+     "carbon build-up in the combustion chamber",
+     "a dragging brake",
+     "the wrong plug heat range"
+    ]
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Troubleshooting chapter (clutch, transmission and cooling system tables)."
+  },
+  {
+   "id": "p7f-t003",
+   "domain": "known_issues",
+   "topic": "2024 YZ250FX fuel-injection fault codes",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "The 2024 YZ250FX ECU self-diagnosis sets these fault codes, read with the Yamaha diagnostic tool: 12 crankshaft position sensor - no normal signals are received from the crankshaft position sensor; 13 intake air pressure sensor - open or short circuit; 14 intake air pressure sensor - hose system malfunction (clogged or detached hose); 15 throttle position sensor - open or short circuit; 16 throttle position sensor - stuck throttle position sensor; 21 coolant temperature sensor - open or short circuit; 22 intake air temperature sensor - open or short circuit; 30 the vehicle has overturned; 33 ignition coil - open or short circuit in the primary lead of the ignition coil; 39 injector - open or short circuit; 41 ECU - built-in lean angle sensor malfunction; 43 fuel system voltage - incorrect voltage supplied to the main relay and CCU; 44 EEPROM fault code number - an error while reading or writing on EEPROM; 46 vehicle system power supply - normal voltage is not supplied to the ECU; 50 ECU - faulty ECU memory; 70 engine forcibly stops when the vehicle is left idling for a long period of time.",
+   "values": {
+    "fault_codes": {
+     "12": "Crankshaft position sensor - no normal signals are received from the crankshaft position sensor",
+     "13": "Intake air pressure sensor - open or short circuit",
+     "14": "Intake air pressure sensor - hose system malfunction (clogged or detached hose)",
+     "15": "Throttle position sensor - open or short circuit",
+     "16": "Throttle position sensor - stuck throttle position sensor",
+     "21": "Coolant temperature sensor - open or short circuit",
+     "22": "Intake air temperature sensor - open or short circuit",
+     "30": "The vehicle has overturned",
+     "33": "Ignition coil - open or short circuit in the primary lead of the ignition coil",
+     "39": "Injector - open or short circuit",
+     "41": "ECU - built-in lean angle sensor malfunction",
+     "43": "Fuel system voltage - incorrect voltage supplied to the main relay and CCU",
+     "44": "EEPROM fault code number - an error while reading or writing on EEPROM",
+     "46": "Vehicle system power supply - normal voltage is not supplied to the ECU",
+     "50": "ECU - faulty ECU memory",
+     "70": "Engine forcibly stops when the vehicle is left idling for a long period of time"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "SELF-DIAGNOSTIC FUNCTION TABLE (FOR FUEL INJECTION SYSTEM). Item text shortened to the component named before the colon."
+  },
+  {
+   "id": "p7f-t004",
+   "domain": "ecu_electronics",
+   "topic": "2024 YZ250FX ECU diagnostic readouts",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "With the Yamaha diagnostic tool connected to the 2024 YZ250FX, diagnostic code 01 shows the throttle angle, 11–14 fully closed and 86–92 fully open; code 08 shows the lean-angle sensor output, 0.4–1.4 V upright and 3.7–4.4 V overturned (fault code 30 is set when the bike has overturned); code 60 reports any Power Tuner fuel-injection or ignition-timing correction stored in the ECU's EEPROM, and codes 64/65 show and erase the Power Tuner setting history.",
+   "values": {
+    "throttle_angle_closed": "11–14",
+    "throttle_angle_open": "86–92",
+    "lean_angle_upright_V": "0.4–1.4",
+    "lean_angle_overturn_V": "3.7–4.4",
+    "power_tuner_history_codes": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "SELF-DIAGNOSTIC FUNCTION AND DIAGNOSTIC CODE TABLE (sensor operation table)."
+  },
+  {
+   "id": "p7f-t005",
+   "domain": "engine_architecture",
+   "topic": "2024 YZ250FX valve train and crank dimensions",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Yamaha lists for the 2024 YZ250FX: intake cam lobe height limit 32.130 mm (1.2650 in) and exhaust 33.460 mm (1.3173 in); valve stem diameter limit 4.945 mm (0.1947 in) intake, 4.430 mm (0.1744 in) exhaust; valve spring free length limit 34.94 mm (1.38 in) intake, 33.82 mm (1.33 in) exhaust; crank assembly width 55.93–56.00 mm (2.202–2.205 in).",
+   "values": {
+    "cam_lobe_in": "32.130 mm (1.2650 in)",
+    "cam_lobe_ex": "33.460 mm (1.3173 in)",
+    "valve_stem_in": "4.945 mm (0.1947 in)",
+    "valve_stem_ex": "4.430 mm (0.1744 in)",
+    "valve_spring_in": "34.94 mm (1.38 in)",
+    "valve_spring_ex": "33.82 mm (1.33 in)",
+    "crank_width": "55.93–56.00 mm (2.202–2.205 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Engine maintenance specifications. Where the manual prints only a wear limit, the figure is that limit."
+  },
+  {
+   "id": "p7f-t006",
+   "domain": "chassis",
+   "topic": "2024 YZ250FX wheels, brakes and frame",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Spoked wheels with 21 x 1.60 front and 18 x 2.15 rear rims; hydraulic single-disc brakes front and rear (master cylinder bore 9.52 mm (0.37 in) front, 11.0 mm (0.43 in) rear).",
+   "values": {
+    "frame": null,
+    "rim_front": "21 x 1.60",
+    "rim_rear": "18 x 2.15",
+    "master_cyl_front": "9.52 mm (0.37 in)",
+    "master_cyl_rear": "11.0 mm (0.43 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "p7f-t007",
+   "domain": "maintenance",
+   "topic": "2024 YZ250FX wear limits (clutch, chain, brakes)",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Replace at these 2024 YZ250FX wear limits: clutch friction plate 2.60 mm (0.102 in); drive chain 15-link length 239.3 mm (9.42 in); brake pad lining 1.0 mm (0.04 in); brake disc thickness 2.5 mm (0.10 in) front, 3.5 mm (0.14 in) rear.",
+   "values": {
+    "clutch_friction_limit": "2.60 mm (0.102 in)",
+    "chain_15_link_limit": "239.3 mm (9.42 in)",
+    "pad_limit": "1.0 mm (0.04 in)",
+    "disc_limit_front": "2.5 mm (0.10 in)",
+    "disc_limit_rear": "3.5 mm (0.14 in)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "p7f-t008",
+   "domain": "engine_mods",
+   "topic": "2024 YZ250FX Yamaha optional sprockets",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Yamaha offers 2024 YZ250FX rear sprockets of 47T, 48T, 49T, 50T, 51T, 52T (standard 51T; front 13T) and advises a lower final ratio (fewer rear teeth) for courses with long straights and a higher one for courses with many corners, set by riding the whole circuit on the day.",
+   "values": {
+    "rear_options": {
+     "47T": "17D-25447-50",
+     "48T": "17D-25448-50",
+     "49T": "B2W-25449-00",
+     "50T": "B2W-25450-00",
+     "51T": "B2W-25451-00",
+     "52T": "17D-25452-50"
+    },
+    "front_options": {
+     "13T": "9383B-13218"
+    },
+    "std": "13/51"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Tuning chapter, SELECTION OF THE SECONDARY REDUCTION RATIO (SPROCKET) and setting-parts table (part numbers in values)."
+  },
+  {
+   "id": "p7f-t009",
+   "domain": "engine_mods",
+   "topic": "2024 YZ250FX what a sprocket change does",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Worked out from the 2024 YZ250FX stock 13/51 gearing: each rear tooth changes every gear by about 2.0% and one front tooth by about 7.7% (one front tooth is roughly 3.9 rear teeth). Yamaha's 47T to 52T rear range spans final ratios 3.615 to 4.000 (stock 3.923), so the 47T gives about +8.5% road speed per rpm in every gear and the 52T about -1.9%: more teeth means shorter gearing, quicker pull and a lower top speed.",
+   "values": {
+    "pct_per_rear_tooth": 1.96,
+    "pct_per_front_tooth": 7.69,
+    "rear_teeth_per_front_tooth": 3.92,
+    "final_ratio_range": [
+     3.615,
+     4.0
+    ],
+    "stock_final_ratio": 3.923
+   },
+   "tier": "DERIVED",
+   "source": {
+    "type": "calculation",
+    "name": "BAK calculation from Yamaha 2024 YZ250FX OSM sprocket table",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": "Percent per tooth = 1/teeth; final ratio = rear/front teeth."
+  }
+ ],
+ "conflicts": [],
+ "not_found": []
+}
