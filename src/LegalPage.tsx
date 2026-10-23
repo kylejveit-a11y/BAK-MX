@@ -31,7 +31,7 @@ model) and what you were doing, and a screenshot if you can. We reply as soon as
 export function LegalPage({path}:{path:string}){
  const text=path==='/privacy'?privacy:path==='/terms'?terms:SUPPORT;
  const [title,...rest]=text.split('\n');
- return <div className="shell"><header className="app-header"><div className="header-inner"><a className="brand" href="/" aria-label="BAK MX home"><span className="brand-lockup"><span className="brand-mx" style={{fontSize:24}}>BAK MX</span></span></a></div></header>
+ return <div className="shell"><header className="app-header"><div className="header-inner"><a className="brand" href="/" aria-label="BAK MX home"><span className="brand-lockup"><img className="brand-logo" src="/bak-mx-logo.png" alt=""/></span></a></div></header>
   <main className="content legal-page" style={{maxWidth:760}}>
    <h1 style={{fontSize:32,marginTop:12}}>{title.replace(/^#\s*/,'')}</h1>
    <RichText text={rest.join('\n').replace(/\[([^\]]+)\]\(([^)]+)\)/g,'$1')} className="legal-text"/>
