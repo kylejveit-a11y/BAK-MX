@@ -1,4 +1,5 @@
 import React,{useEffect,useRef,useState} from 'react';
+import {syncGuideActivity} from './widgets/sync';
 import {Linking,View,Share,Text,TextInput,Pressable,ScrollView} from 'react-native';
 import type {Bike} from '../../../shared/types';
 import {procedureCatalog} from '../../../shared/procedure-catalog';
@@ -92,6 +93,8 @@ function ProcedureSteps({procedure,run,save,start,onAsk,setFooter,toTop}:{proced
  const stepRecord=(id:string)=>run.completed[id]?.notes.replace(/^[\s\S]*?\nRecorded: /,'Recorded: ')??(run.bypassed?.[id]?'Skipped by the route chosen':'Not yet done');
  const recap=()=>`${procedure.title}\n${procedure.steps.map((s,i)=>`${i+1}. ${s.title}\n${run.completed[s.id]?.notes??(run.bypassed?.[s.id]?'Not performed: '+run.bypassed[s.id].notes:'Not yet recorded')}`).join('\n\n')}`;
  const last=run.step_index===procedure.steps.length-1;
+ // Lock Screen / Dynamic Island: the step you're on stays visible while the phone is locked on the bench.
+ useEffect(()=>{const t=procedure.target;syncGuideActivity(`${procedure.id}|${run.started_at}`,{guide:procedure.title,bike:`${t.model_year} ${t.model}`,stepIndex:run.step_index,total:procedure.steps.length,stepTitle:step.title,verification:step.verification,needsNote,done:complete});},[procedure.id,run.started_at,run.step_index,complete,needsNote]);
  useEffect(()=>{
   if(complete){setFooter(null);return;}
   setFooter(<View style={{padding:12,gap:6}}>
