@@ -1,3 +1,4 @@
+import {usedLinkTokens} from './appLinks';
 import React,{useCallback,useContext,useEffect,useRef,useState} from 'react';
 import {ActivityIndicator,Alert,Image,KeyboardAvoidingView,Linking,Modal,Platform,ScrollView,Share,StyleSheet,Text,TextInput,View} from 'react-native';
 import {Pressable} from './Touch';
@@ -309,11 +310,12 @@ export function MessagesScreen({startWith,onStarted}:{startWith?:RiderRef;onStar
 }
 
 /* ------------------------------------------------------------------ Setup log */
-export function SetupLogCard({bike,onAsk}:{bike?:Bike;onAsk:(text:string)=>void}){
+export function SetupLogCard({bike,onAsk,prefill}:{bike?:Bike;onAsk:(text:string)=>void;prefill?:{text:string;token:string}}){
+ const [loaded,setLoaded]=useState(false);
  const [logs,setLogs]=useState<SetupLog[]>([]),[adding,setAdding]=useState(false),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');const [showMore,setShowMore]=useState(false);
  const [date,setDate]=useState(()=>new Date().toISOString().slice(0,10)),[track,setTrack]=useState(''),[conditions,setConditions]=useState(''),[hours,setHours]=useState(''),[settings,setSettings]=useState<Record<string,string>>({}),[change,setChange]=useState(''),[result,setResult]=useState<SetupResult>('not_tested'),[notes,setNotes]=useState('');
- const load=useCallback(async()=>{if(!bike)return;try{setLogs(await api<SetupLog[]>('/api/setup-logs?bike_id='+bike.id));setNotice('');}catch(e){setNotice(errorText(e));}},[bike?.id]);
- useFocusEffect(useCallback(()=>{setLogs([]);void load();},[load]));
+ const load=useCallback(async()=>{if(!bike)return;try{setLogs(await api<SetupLog[]>('/api/setup-logs?bike_id='+bike.id));setNotice('');}catch(e){setNotice(errorText(e));}finally{setLoaded(true);}},[bike?.id]);
+ useFocusEffect(useCallback(()=>{setLogs([]);setLoaded(false);void load();},[load]));
  function begin(){const latest=logs[0];setSettings(Object.fromEntries(SETUP_FIELDS.map(f=>[f.key,latest?.settings[f.key]==null?'':String(latest.settings[f.key])])));setHours(bike?.engine_hours?.toString()??'');setChange('');setNotes('');setResult('not_tested');setAdding(true);}
  async function save(){
   if(busy||!bike)return;setBusy(true);
@@ -324,6 +326,8 @@ export function SetupLogCard({bike,onAsk}:{bike?:Bike;onAsk:(text:string)=>void}
    success();setAdding(false);await load();
   }catch(e){setNotice(errorText(e));}finally{setBusy(false);}
  }
+ // From Siri ("Log a setup change in BAK MX"): open a new entry, last settings carried over, with the change filled in.
+ useEffect(()=>{if(!prefill||!loaded||!bike||usedLinkTokens.has(prefill.token))return;usedLinkTokens.add(prefill.token);begin();setChange(prefill.text);},[prefill?.token,loaded,bike?.id]);
  const describe=(log:SetupLog)=>SETUP_FIELDS.filter(f=>log.settings[f.key]!=null&&log.settings[f.key]!=='').map(f=>`${f.label}: ${log.settings[f.key]}`).join('; ');
  if(!bike)return null;
  return <View style={{gap:16}}>
