@@ -34,4 +34,6 @@ export function installedPartsContext(configuration:Record<string,unknown>|null|
  };
 }
 /** The bike's configuration without the build-sheet keys, which installed_parts carries in readable form. */
-export function withoutBuildSheet(configuration:Record<string,unknown>){const {installed_parts:_a,stock_systems:_b,parts_notes:_c,...rest}=configuration;for(const k of Object.keys(LEGACY_PART_FIELDS))delete rest[k];return rest;}
+/** The VIN identifies one rider's bike; it is for the rider's own verification and is never sent to the AI provider. */
+export function withoutVin(configuration:Record<string,unknown>){const {vin:_v,...rest}=configuration;return rest;}
+export function withoutBuildSheet(configuration:Record<string,unknown>){const {installed_parts:_a,stock_systems:_b,parts_notes:_c,vin:_d,...rest}=configuration;for(const k of Object.keys(LEGACY_PART_FIELDS))delete rest[k];return rest;}

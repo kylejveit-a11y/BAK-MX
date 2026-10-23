@@ -35,12 +35,12 @@ function Segments<T extends string>({value,items,onChange}:{value:T;items:{value
 }
 
 /** Single choice as a row of pills: every option visible, one tap. */
-function Choices<T extends string>({label,value,items,onChange,disabled=false}:{label:string;value:T;items:{value:T;label:string}[];onChange:(v:T)=>void;disabled?:boolean}){
+export function Choices<T extends string>({label,value,items,onChange,disabled=false}:{label:string;value:T;items:{value:T;label:string}[];onChange:(v:T)=>void;disabled?:boolean}){
  return <View style={{gap:8}}><Text style={{color:'#9aa2af',fontSize:12.5,fontWeight:'600'}}>{label}</Text><View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{items.map(i=>{const on=i.value===value;return <Pressable key={i.value} haptic="select" accessibilityRole="button" accessibilityState={{selected:on,disabled}} disabled={disabled} onPress={()=>onChange(i.value)} style={({pressed})=>[{paddingHorizontal:14,paddingVertical:9,borderRadius:18,borderWidth:on?0:1,margin:on?1:0,borderColor:'#343a45',opacity:pressed?0.7:1},on&&blueLift]}>{on&&<BlueFace radius={18}/>}<Text style={[{color:on?'#ffffff':colors.text,fontSize:14,fontWeight:on?'700':'500'},on&&onBlueText]}>{i.label}</Text></Pressable>;})}</View></View>;
 }
 /** Tap-to-start row: an open line with a plus, not a box. */
-function StartRow({icon,title,detail,onPress}:{icon:IconName;title:string;detail?:string;onPress:()=>void}){return <TileGrid><Tile icon={icon} title={title} detail={detail} trailing="plus" onPress={onPress}/></TileGrid>;}
-function FormHead({title,onCancel}:{title:string;onCancel:()=>void}){return <SectionHead title={title} action="Cancel" onAction={onCancel}/>;}
+export function StartRow({icon,title,detail,onPress}:{icon:IconName;title:string;detail?:string;onPress:()=>void}){return <TileGrid><Tile icon={icon} title={title} detail={detail} trailing="plus" onPress={onPress}/></TileGrid>;}
+export function FormHead({title,onCancel}:{title:string;onCancel:()=>void}){return <SectionHead title={title} action="Cancel" onAction={onCancel}/>;}
 
 function useProfile(){
  const [profile,setProfile]=useState<Profile|null|undefined>(undefined),[error,setError]=useState('');
@@ -327,7 +327,7 @@ export function SetupLogCard({bike,onAsk}:{bike?:Bike;onAsk:(text:string)=>void}
  const describe=(log:SetupLog)=>SETUP_FIELDS.filter(f=>log.settings[f.key]!=null&&log.settings[f.key]!=='').map(f=>`${f.label}: ${log.settings[f.key]}`).join('; ');
  if(!bike)return null;
  return <View style={{gap:16}}>
-  <Card><Copy strong>Setup log</Copy><Copy>One change, how it rode. That’s it.</Copy><Notice text={notice}/>
+  <Card><Notice text={notice}/>
    {adding?<FormHead title="Log a setup" onCancel={()=>setAdding(false)}/>:<StartRow icon="shock" title="Log a setup" detail="One change, how it rode" onPress={begin}/>}
    {adding&&<View style={{gap:12}}>
     <Field editable={!busy} label="What did you change?" placeholder="Fork comp 2 softer" value={change} onChangeText={setChange} maxLength={1000} autoCapitalize="sentences"/>

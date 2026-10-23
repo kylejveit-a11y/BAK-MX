@@ -8,7 +8,7 @@ import {HttpError} from './validation.ts';
 import {getMechanismLibrary} from '../shared/mechanisms.ts';
 import {setupKnowledge} from '../shared/setup-knowledge.ts';
 import {manufacturerSetupGuidance} from '../shared/manufacturer-setup-guidance.ts';
-import {installedPartsContext,withoutBuildSheet} from './installed-parts-context.ts';
+import {installedPartsContext,withoutBuildSheet,withoutVin} from './installed-parts-context.ts';
 import {partSystems,readInstalled} from '../shared/installed-parts.ts';
 import {disciplinesKnowledge} from '../shared/disciplines.ts';
 import {knowledgeClaimTier,type Knowledge} from './knowledge.ts';
@@ -326,7 +326,7 @@ export const lookupInstructions=`You prepare specification lookups for BAK MX, a
 /** Step 1. The model names what to look up; it never sees or produces values here.
  *  A planning failure must not cost the rider an answer: fall back to searching with their own words. */
 export async function planSpecLookups(bike:Bike,history:Message[],message:string):Promise<string[]>{
- const input={bike:{manufacturer:bike.manufacturer,model:bike.model,model_year:bike.model_year,variant:bike.variant,region:bike.region,configuration:usConfiguration(bike.configuration)},conversation:history.slice(-8).map(m=>({role:m.role,content:(m.role==='assistant'?m.response?.summary:undefined)??m.content})),message};
+ const input={bike:{manufacturer:bike.manufacturer,model:bike.model,model_year:bike.model_year,variant:bike.variant,region:bike.region,configuration:withoutVin(usConfiguration(bike.configuration))},conversation:history.slice(-8).map(m=>({role:m.role,content:(m.role==='assistant'?m.response?.summary:undefined)??m.content})),message};
  try{
   const {parsed}=await callWithBackup(planModel(),{instructions:lookupInstructions,input,name:'mx_spec_lookup',schema:lookupJsonSchema,maxTokens:600,timeoutMs:12000,effort:'low'});
   const result=lookupSchema.safeParse(parsed);

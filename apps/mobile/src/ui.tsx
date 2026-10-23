@@ -13,13 +13,13 @@ export {Icon,type IconName};
 export const colors={bg:'#060609',panel:'#121418',text:'#f6f7f9',muted:'#adb4bf',primary:'#2F74E8',accent:'#6AA4FF',line:'#292e37'};
 /** Screen body. Content runs edge to edge under the floating glass header and tab bar.
  safeTop pads under the status bar on screens with no header; footer floats as a glass bar above the tab bar or keyboard. */
-export function Page({title,children,safeTop=false,footer}:{title:string;children:React.ReactNode;safeTop?:boolean;footer?:React.ReactNode}){
+export function Page({title,children,safeTop=false,footer,scrollRef}:{title:string;children:React.ReactNode;safeTop?:boolean;footer?:React.ReactNode;scrollRef?:React.Ref<ScrollView>}){
  const insets=useSafeAreaInsets(),header=React.useContext(HeaderHeightContext)??0,inTabs=React.useContext(BottomTabBarHeightContext)!==undefined;
  const tabSpace=useTabSpace(),kb=useKeyboardHeight(),[footH,setFootH]=React.useState(0);
  const bottomChrome=inTabs?tabSpace:insets.bottom;
  const footBottom=kb>0?kb+8:bottomChrome+10;
  return <View style={{flex:1,backgroundColor:colors.bg}}>
-  <ScrollView keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets={!footer} scrollIndicatorInsets={{top:header,bottom:bottomChrome}}
+  <ScrollView ref={scrollRef} keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets={!footer} scrollIndicatorInsets={{top:header,bottom:bottomChrome}}
    contentContainerStyle={[s.page,{paddingTop:(safeTop?insets.top:header)+16,paddingBottom:(footer?footH+footBottom:bottomChrome)+28}]}>
    {title?<PageTitle>{title}</PageTitle>:null}{children}
   </ScrollView>
