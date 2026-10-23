@@ -1,5 +1,5 @@
 import React,{useCallback,useContext,useEffect,useRef,useState} from 'react';
-import {ActivityIndicator,Alert,KeyboardAvoidingView,Linking,Modal,Platform,ScrollView,Share,StyleSheet,Text,TextInput,View} from 'react-native';
+import {ActivityIndicator,Alert,Image,KeyboardAvoidingView,Linking,Modal,Platform,ScrollView,Share,StyleSheet,Text,TextInput,View} from 'react-native';
 import {Pressable} from './Touch';
 import {success} from './haptics';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
@@ -361,6 +361,27 @@ export function SetupLogCard({bike,onAsk}:{bike?:Bike;onAsk:(text:string)=>void}
 /* ------------------------------------------------------------------ Parts catalog */
 /** Catalog section names arrive in capitals ("FRONT FORK, TRIPLE CLAMP"); show them in normal case, keeping known abbreviations. */
 const sectionName=(n:string)=>n===n.toUpperCase()?n.toLowerCase().replace(/(^|[\s,(/-])([a-z])/g,(_m,a,b)=>a+b.toUpperCase()).replace(/\b(Wp|Ecu|Abs|Pds|Cdi|Led|Usa|Eu)\b/g,x=>x.toUpperCase()):n;
+const hasDiagram=(u:string)=>/^https:\/\//.test(u)&&!/NoImage/i.test(u);
+/** The exploded diagram for a parts section, right above its numbered list. Tap to open it full screen and pinch to zoom. */
+function Diagram({uri,title}:{uri:string;title:string}){
+ const [open,setOpen]=useState(false),[failed,setFailed]=useState(false),[ratio,setRatio]=useState(1.3);const insets=useSafeAreaInsets();
+ useEffect(()=>{Image.getSize(uri,(w,h)=>{if(w&&h)setRatio(w/h);},()=>{});},[uri]);
+ if(failed)return <Link title="Open exploded diagram" onPress={()=>void Linking.openURL(uri).catch(()=>{})}/>;
+ return <>
+  <Pressable accessibilityRole="imagebutton" accessibilityLabel={`Exploded diagram: ${title}. Tap to enlarge`} onPress={()=>setOpen(true)} style={{backgroundColor:'#fff',borderRadius:10,overflow:'hidden'}}>
+   <Image source={{uri}} onError={()=>setFailed(true)} resizeMode="contain" style={{width:'100%',aspectRatio:ratio,maxHeight:420}}/>
+   <Text style={{position:'absolute',right:8,bottom:6,fontSize:11.5,color:'#4b5563',fontWeight:'600'}}>Tap to zoom</Text>
+  </Pressable>
+  <Modal visible={open} animationType="fade" onRequestClose={()=>setOpen(false)} supportedOrientations={['portrait','landscape']}>
+   <View style={{flex:1,backgroundColor:'#fff'}}>
+    <ScrollView maximumZoomScale={5} minimumZoomScale={1} centerContent bouncesZoom contentContainerStyle={{flexGrow:1,justifyContent:'center'}}>
+     <Image source={{uri}} resizeMode="contain" style={{width:'100%',aspectRatio:ratio}}/>
+    </ScrollView>
+    <Pressable accessibilityRole="button" accessibilityLabel="Close diagram" onPress={()=>setOpen(false)} style={{position:'absolute',top:insets.top+10,right:14,backgroundColor:'#111',borderRadius:18,paddingHorizontal:14,paddingVertical:8}}><Text style={{color:'#fff',fontWeight:'700'}}>Done</Text></Pressable>
+   </View>
+  </Modal>
+ </>;
+}
 export function PartsCatalogCard({bike}:{bike?:Bike}){
  const [catalog,setCatalog]=useState<PartCatalog|null|undefined>(undefined),[assemblies,setAssemblies]=useState<PartAssembly[]>([]),[open,setOpen]=useState(''),[parts,setParts]=useState<Part[]>([]),[find,setFind]=useState(''),[notice,setNotice]=useState('');
  useEffect(()=>{let live=true;setCatalog(undefined);setAssemblies([]);setOpen('');setParts([]);setNotice('');if(bike)api<{catalog:PartCatalog|null;assemblies:PartAssembly[]}>('/api/parts/catalog?bike_id='+bike.id).then(d=>{if(live){setCatalog(d.catalog);setAssemblies(d.assemblies);}}).catch(e=>{if(live){setNotice(errorText(e));setCatalog(null);}});return()=>{live=false;};},[bike?.id]);
@@ -374,7 +395,7 @@ export function PartsCatalogCard({bike}:{bike?:Bike}){
    {shown.map(a=><View key={a.id} style={{borderTopWidth:1,borderTopColor:colors.line,paddingTop:10,gap:8}}>
     <Pressable accessibilityRole="button" accessibilityState={{expanded:open===a.id}} onPress={()=>void show(a)} style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',minHeight:40}}><Text style={{color:colors.text,fontSize:16,flex:1}}>{sectionName(a.name)}</Text><Icon name={open===a.id?'chevronDown':'chevronRight'} size={17} color="#9aa2af"/></Pressable>
     {open===a.id&&<View style={{gap:8}}>
-     {/^https:\/\//.test(a.diagram_url)&&<Link title="Open exploded diagram" onPress={()=>void Linking.openURL(a.diagram_url).catch(e=>setNotice(errorText(e)))}/>}
+     {hasDiagram(a.diagram_url)&&<Diagram uri={a.diagram_url} title={sectionName(a.name)}/>}
      {!parts.length?<Copy>Loading parts…</Copy>:parts.map(p=><View key={p.id} style={{flexDirection:'row',gap:10}}><Text style={{color:colors.accent,width:30,fontWeight:'700'}}>{p.callout}</Text><View style={{flex:1}}><Text selectable style={{color:colors.text,fontSize:15}}>{p.description}</Text><Text selectable style={{color:colors.muted,fontSize:13}}>{[p.part_number||'No part number',p.quantity_raw&&p.quantity_raw!=='0'?`Qty ${p.quantity_raw}`:'',p.remarks].filter(Boolean).join(' · ')}</Text></View></View>)}
      <Copy>Catalog quantities are per assembly as published, not whole-bike totals.</Copy>
     </View>}
