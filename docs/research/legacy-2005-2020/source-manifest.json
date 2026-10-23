@@ -1,0 +1,78 @@
+[
+  {
+    "target": {
+      "manufacturer": "Honda",
+      "model": "CRF250R",
+      "model_year": 2005,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "2005-crf250r-candidates.json",
+    "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+    "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+    "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+    "pdf_pages": 164,
+    "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+    "facts": 95,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Honda",
+      "model": "CRF450R",
+      "model_year": 2005,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "2005-crf450r-candidates.json",
+    "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf450r.pdf",
+    "document_sha256": "87be8bea701eceb202613b64b08a7120a1691e9978406ee18ea699af7ce20e42",
+    "document_revision": "2005 Honda CRF450R Owner’s Manual & Competition Handbook",
+    "pdf_pages": 172,
+    "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+    "facts": 100,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Honda",
+      "model": "CR85R",
+      "model_year": 2005,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "2005-cr85r-candidates.json",
+    "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+    "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+    "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+    "pdf_pages": 134,
+    "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+    "facts": 81,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  },
+  {
+    "target": {
+      "manufacturer": "Honda",
+      "model": "CR85RB",
+      "model_year": 2005,
+      "variant": "standard",
+      "region": "US"
+    },
+    "file": "2005-cr85rb-candidates.json",
+    "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_cr85r_rb.pdf",
+    "document_sha256": "de82877effbdb001b7cbf7f7e38445654a1fb2949372af376ba8483d465f2b7e",
+    "document_revision": "2005 Honda CR85/85RB EXPERT Owner’s Manual & Competition Handbook",
+    "pdf_pages": 134,
+    "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+    "facts": 81,
+    "status": "CANDIDATES_ONLY",
+    "database_imported": false,
+    "source_pdf_redistributed": false
+  }
+]

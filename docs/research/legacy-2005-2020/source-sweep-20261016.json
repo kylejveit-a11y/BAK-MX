@@ -1,0 +1,69 @@
+{
+  "status": "INCOMPLETE",
+  "attempts": [
+    {
+      "local_filename": "2005_gasgas_es1.pdf",
+      "source_url": "https://www.motocrosscenter.com/pdf_manual_gasgas/2005_ec2t_manual_es1.pdf",
+      "retrieved_at": "2026-10-16T21:50:47.189667+00:00",
+      "status": "REJECTED_INVALID_DOCUMENT",
+      "pdf_pages": 1,
+      "reason": "Downloaded PDF has one page containing only an ellipsis, not the 66-page manual shown by web retrieval. No facts extracted; excluded from acquired-source-catalog.",
+      "downloaded_artifact_sha256": "b909256e5952cdfe25f9c534e229f19f2fe18d40650252a1c648aba19369c73d",
+      "used_for_candidates": false
+    },
+    {
+      "local_filename": "2005_husqvarna_parts.pdf",
+      "source_url": "https://husqvarna-motorrad.de/uploads/tx_userzupindownloads/et_2005_te_tc_250_450_sm_400r_450r.pdf",
+      "retrieved_at": "2026-10-16T21:50:47.191559+00:00",
+      "status": "FAILED",
+      "error": "HTTP Error 502: Bad Gateway",
+      "used_for_candidates": false
+    },
+    {
+      "local_filename": "2008_crf250r.pdf",
+      "source_url": "https://www.acura.com/assets/OWNERLINK/Model/own_man/powersports/motorcycle/2008/08_CRF250R.pdf",
+      "retrieved_at": "2026-10-16T21:50:47.192031+00:00",
+      "status": "FAILED",
+      "error": "HTTP Error 404: Not Found",
+      "used_for_candidates": false
+    },
+    {
+      "local_filename": "2008_crf450r.pdf",
+      "source_url": "https://www.acura.com/assets/OWNERLINK/Model/own_man/powersports/motorcycle/2008/08_CRF450R.pdf",
+      "retrieved_at": "2026-10-16T21:50:47.192447+00:00",
+      "status": "FAILED",
+      "error": "HTTP Error 404: Not Found",
+      "used_for_candidates": false
+    },
+    {
+      "local_filename": "2008_crf150r.pdf",
+      "source_url": "https://www.acura.com/assets/OWNERLINK/Model/own_man/powersports/motorcycle/2008/08_CRF150R.pdf",
+      "retrieved_at": "2026-10-16T21:50:47.193390+00:00",
+      "status": "FAILED",
+      "error": "HTTP Error 404: Not Found",
+      "used_for_candidates": false
+    }
+  ],
+  "other_observations": [
+    {
+      "source_url": "https://old-gasgas.hu/",
+      "result": "Public page returned robot-block message; no further access attempted."
+    },
+    {
+      "source_url": "https://www.kawasaki.com/en-us/owner-center/service-manuals/2005/KX125M3",
+      "result": "Web retrieval inaccessible. Official parts diagram independently identifies 2005 KX125-M3, but no specifications inferred."
+    },
+    {
+      "source_url": "https://www.motorcycle-manual.com/app/download/12141341526/gasgas_ec2005_manual.pdf?t=1611477878",
+      "result": "Web download failed on redirected file. No source acquired."
+    },
+    {
+      "source_url": "https://www.ktm.com/en-us/service/manuals.html",
+      "result": "Official page directs older-document requests to https://print.ktm.com/. Portal returned no readable listing in web retrieval. No purchase made."
+    },
+    {
+      "source_url": "https://www.husqvarna-motorrad.de/",
+      "result": "Web retrieval timed out."
+    }
+  ]
+}
