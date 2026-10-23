@@ -5,16 +5,16 @@ with at least one manufacturer or independently measured source; 60 = one strong
 weaker-tier rows; 0 = nothing. A bike-year is the mean of the 11 domains. This covers deep knowledge only; published
 specs, manual settings and the parts catalog are tracked separately in `docs/research/COVERAGE.md`.
 
-- Roster bike-years: **442**
+- Roster bike-years: **443**
 - Mean score: **93**
-- Bike-years at 80+: **442**
+- Bike-years at 80+: **443**
 - Bike-years with no deep knowledge yet: **0**
 
 ## Average by domain
 
 | ID | Eng | Pwr | ECU | Mods | Chs | Susp | Drv | Mnt | Iss | Set |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 93 | 99 | 78 | 96 | 87 | 100 | 98 | 96 | 92 | 85 | 95 |
+| 93 | 99 | 78 | 97 | 87 | 100 | 98 | 96 | 92 | 85 | 95 |
 
 ## By model
 
@@ -32,7 +32,6 @@ specs, manual settings and the parts catalog are tracked separately in `docs/res
 | GasGas | MC 350F | motocross | 2022-2025 | 87 | 2023 (81) | 187 |
 | Husqvarna | TC 250 | motocross | 2020-2026 | 88 | 2020 (80) | 438 |
 | GasGas | MC 250 | motocross | 2022-2026 | 88 | 2023 (82) | 277 |
-| Yamaha | YZ250FX | cross-country | 2020-2027 | 88 | 2026 (81) | 279 |
 | KTM | 300 SX | motocross | 2023-2026 | 88 | 2024 (82) | 221 |
 | KTM | 250 SX | motocross | 2020-2026 | 89 | 2023 (80) | 424 |
 | Husqvarna | TE 150 | enduro | 2020-2027 | 89 | 2025 (80) | 297 |
@@ -40,6 +39,7 @@ specs, manual settings and the parts catalog are tracked separately in `docs/res
 | Yamaha | YZ450FX | cross-country | 2020-2027 | 89 | 2026 (81) | 317 |
 | KTM | 250 XC | cross-country | 2020-2027 | 89 | 2027 (82) | 334 |
 | GasGas | MC 450F | motocross | 2021-2027 | 90 | 2022 (80) | 371 |
+| Yamaha | YZ250FX | cross-country | 2020-2027 | 90 | 2026 (81) | 330 |
 | GasGas | MC 125 | motocross | 2021-2026 | 90 | 2026 (80) | 317 |
 | Honda | CRF250RX | cross-country | 2020-2026 | 90 | 2024 (82) | 301 |
 | KTM | 85 SX 17/14 | motocross | 2020-2027 | 90 | 2020 (85) | 342 |
@@ -509,6 +509,7 @@ specs, manual settings and the parts catalog are tracked separately in `docs/res
 | 2021 Yamaha YZ250FX | 60 | 100 | 100 | 100 | 60 | 100 | 100 | 100 | 100 | 60 | 100 | **89** |
 | 2022 Yamaha YZ250FX | 60 | 100 | 100 | 100 | 60 | 100 | 100 | 100 | 100 | 100 | 100 | **93** |
 | 2023 Yamaha YZ250FX | 100 | 100 | 100 | 100 | 60 | 100 | 100 | 100 | 100 | 30 | 100 | **90** |
+| 2024 Yamaha YZ250FX | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | **100** |
 | 2025 Yamaha YZ250FX | 100 | 100 | 60 | 100 | 60 | 100 | 100 | 100 | 100 | 60 | 100 | **89** |
 | 2026 Yamaha YZ250FX | 100 | 100 | 30 | 100 | 60 | 100 | 100 | 100 | 100 | 0 | 100 | **81** |
 | 2027 Yamaha YZ250FX | 60 | 100 | 30 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | **90** |
