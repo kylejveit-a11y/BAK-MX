@@ -10,7 +10,9 @@ export const rebuildRequirements=[
  {id:'cases_split',label:'Cases split: crank, gearbox, bottom end',test:(p:ReviewedProcedure)=>p.component==='engine'&&/bottom end|bottom-end|lower engine|crankcase|split the cases|cases split|major engine/i.test(p.title)},
  {id:'running_again',label:'First start, break-in and checks',test:(p:ReviewedProcedure)=>p.component==='engine'&&/commission|first start|break-in|running/i.test(p.title)},
  {id:'fork_rebuild',label:'Fork rebuild: seals, bushings, oil',test:(p:ReviewedProcedure)=>p.component==='fork'&&/seal|bushing|full fork service|fork service|rebuild/i.test(p.title)},
- {id:'shock_rebuild',label:'Shock rebuild',test:(p:ReviewedProcedure)=>p.component==='shock'&&/shock (service|rebuild)|rebuild.*shock/i.test(p.title)},
+ // Where the maker says the damper is sealed and nitrogen-charged and must not be opened (Yamaha), the maker's full service of
+ // everything else on the shock counts, and the guide tells the rider the damper itself goes to a suspension shop (Kyle, 2026-10-23).
+ {id:'shock_rebuild',label:'Shock rebuild (or the full sealed-shock service)',test:(p:ReviewedProcedure)=>p.component==='shock'&&(/shock (service|rebuild)|rebuild.*shock/i.test(p.title)||/sealed damper/i.test(p.title))},
  {id:'linkage',label:'Linkage and swingarm bearings',test:(p:ReviewedProcedure)=>/linkage/i.test(p.title)&&/bearing|rebuild|renew/i.test(p.title)||/(frame|chassis) bearing/i.test(p.title)},
  {id:'steering',label:'Steering head bearings',test:(p:ReviewedProcedure)=>/steering/i.test(p.title)&&/bearing/i.test(p.title)||/frame.*bearing/i.test(p.title)},
  {id:'wheel_bearings',label:'Wheel bearings',test:(p:ReviewedProcedure)=>/wheel bearing|wheel.*bearings|frame.*bearing/i.test(p.title)},
