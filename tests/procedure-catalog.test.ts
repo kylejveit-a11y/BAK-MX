@@ -46,7 +46,8 @@ test('2025 rebuild routes stay bound to their source and stock hardware',()=>{
  const frame=catalog.featured.find(p=>p.id==='yamaha-yz450f-2025-frame-bearing-renewal-reassembly-v1');
  assert.ok(frame);
  assert.ok(catalog.featured.some(p=>p.component==='fork'));
- assert.ok(catalog.available.every(p=>p.source.source_url.includes('D02-2819U-10_02.pdf')));
+ // manual-derived routes cite the 2025 book; BAK-written guides carry no source link
+ assert.ok(catalog.available.every(p=>p.source.source_url.includes('D02-2819U-10_02.pdf')||p.source.review_status==='BAK_AUTHORED'));
  assert.ok(!procedureCatalog({...target,configuration:{engine:'modified'}}).available.some(p=>p.id===frame.id));
  assert.ok(!procedureCatalog({...target,configuration:{fork:'aftermarket'}}).available.some(p=>p.id===frame.id));
  assert.ok(!procedureCatalog(bike).available.some(p=>p.id===frame.id));

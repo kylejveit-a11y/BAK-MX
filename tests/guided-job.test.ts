@@ -42,11 +42,13 @@ test('guided step context resolves only reviewed steps for the exact bike and ne
 test('BAK-written guides are original, reference-free and scoped to the exact bike',async()=>{
  const {bakGuideLibrary}=await import('../shared/bak-guide-library.ts');
  const {rebuildStandard}=await import('../shared/rebuild-standard.ts');
+ const {isRosterBike}=await import('../shared/garage-models.ts');
  assert.ok(bakGuideLibrary.length>=18);
  for(const p of bakGuideLibrary){
   assert.match(p.id,/^bak-/);assert.equal(p.source.source_url,'');assert.equal(p.source.review_status,'BAK_AUTHORED');
   assert.doesNotMatch(JSON.stringify(p),/repair manual|service manual|page \d|@|065920|070143|veit/i);
-  assert.deepEqual(p.target,{manufacturer:'KTM',model:'450 SX-F',model_year:2025,variant:'standard',region:'US'});
+  // each guide is bound to one exact roster bike-year, US standard
+  assert.equal(p.target.variant,'standard');assert.equal(p.target.region,'US');assert.ok(isRosterBike(p.target.manufacturer,p.target.model,p.target.model_year),p.id);
  }
  const std=rebuildStandard({manufacturer:'KTM',model:'450 SX-F',model_year:2025,variant:'standard',region:'US'});
  assert.equal(std.items.length,9);assert.ok(std.met);
