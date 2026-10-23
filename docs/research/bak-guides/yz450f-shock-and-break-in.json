@@ -3645,11 +3645,23 @@
     "record_required": true
    },
    {
+    "id": "generator",
+    "title": "Check the generator mounting",
+    "instruction": "With the oil still drained, mark and remove the shift pedal, then remove the left crankcase cover (7 bolts) and check that the generator rotor and the stator are tight and show no rub marks, and that the stator and pickup leads are plugged in. Refit the cover on its dowels with a new gasket and tighten the bolts in a criss-cross pattern to 10 N·m (7.4 lb·ft). Refit the shift pedal on its punch mark at 12 N·m (8.9 lb·ft).",
+    "depends_on": [
+     "chips"
+    ],
+    "verification": [
+     "Rotor and stator tight, cover refitted at 10 N·m."
+    ],
+    "record_required": true
+   },
+   {
     "id": "filter",
     "title": "Renew the oil filter",
     "instruction": "Remove the oil filter cover and the old element. Fit a new element and a new O-ring on the cover, then tighten the cover bolts to 10 N·m (7.4 lb·ft).",
     "depends_on": [
-     "chips"
+     "generator"
     ],
     "verification": [
      "New filter fitted, cover bolts 10 N·m."
@@ -3669,23 +3681,11 @@
     "record_required": true
    },
    {
-    "id": "generator",
-    "title": "Check the generator mounting",
-    "instruction": "Remove the left crankcase cover (7 bolts) and check that the generator rotor and the stator are tight and show no rub marks, and that the stator and pickup leads are plugged in. Refit the cover on its dowels with a new gasket and tighten the bolts in a criss-cross pattern to 10 N·m (7.4 lb·ft).",
-    "depends_on": [
-     "oil-fill"
-    ],
-    "verification": [
-     "Rotor and stator tight, cover refitted at 10 N·m."
-    ],
-    "record_required": true
-   },
-   {
     "id": "engine-check",
     "title": "Inspect the engine after break-in",
     "instruction": "Look for pressure leaks at the head and cylinder, oil at the crankcase and covers, and coolant leaks. Check the silencer body and its stay for cracks and leaks, and the engine mounting bolts and brackets for looseness.",
     "depends_on": [
-     "generator"
+     "oil-fill"
     ],
     "verification": [
      "Engine, silencer and mounts checked."
@@ -3743,12 +3743,12 @@
    {
     "id": "torque-points",
     "title": "Retighten the torque-check points",
-    "instruction": "Go round every torque-check point at its listed value: frame and rear frame, engine mounts and brackets, seat and tank, steering stem and clamps, handlebar, fork clamps, linkage, shock and pivot nuts, both axles and axle pinch bolts, spokes, sprocket, brake calipers, discs, unions, master cylinders and bleed screws, fuel pump, shift pedal and all plastics.",
+    "instruction": "Check each point with a torque wrench: engine mounting bolts upper 45 N·m (33 lb·ft), front 53 N·m (39 lb·ft), lower 53 N·m (39 lb·ft); engine bracket bolts 34 N·m (25 lb·ft); rear frame bolts 38 N·m (28 lb·ft); pivot shaft nut 85 N·m (63 lb·ft); shock bolts upper 56 N·m (41 lb·ft), lower 53 N·m (39 lb·ft); connecting arm bolts 80 N·m (59 lb·ft); relay arm bolt at the swingarm 70 N·m (52 lb·ft); steering stem nut 145 N·m (107 lb·ft); upper and lower pinch bolts 21 N·m (15 lb·ft); upper handlebar holder bolts 28 N·m (21 lb·ft), lower holder nuts 40 N·m (30 lb·ft); front axle nut 112 N·m (83 lb·ft), front axle pinch bolts 21 N·m (15 lb·ft); rear axle nut 134 N·m (100 lb·ft); spokes 2.5 N·m (1.8 lb·ft); rear sprocket nuts 42 N·m (31 lb·ft); brake disc bolts 12 N·m (8.9 lb·ft); front caliper bolts 28 N·m (21 lb·ft); brake hose union bolts 30 N·m (22 lb·ft); rear master cylinder bolts 10 N·m (7.4 lb·ft); brake pedal bolt 26 N·m (19 lb·ft); fuel pump bolts 4.0 N·m (3.0 lb·ft); seat bolts 22 N·m (16 lb·ft); tank front bolts 7 N·m (5.2 lb·ft), rear bolt 9 N·m (6.6 lb·ft); shift pedal bolt 12 N·m (8.9 lb·ft). Do not open hydraulic unions just to check them.",
     "depends_on": [
      "tank-clean"
     ],
     "verification": [
-     "Torque-check sheet completed."
+     "Every torque-check point checked and recorded."
     ],
     "record_required": true
    },
@@ -4131,11 +4131,23 @@
     "record_required": true
    },
    {
+    "id": "generator",
+    "title": "Check the generator mounting",
+    "instruction": "With the oil still drained, mark and remove the shift pedal, then remove the left crankcase cover (7 bolts) and check that the generator rotor and the stator are tight and show no rub marks, and that the stator and pickup leads are plugged in. Refit the cover on its dowels with a new gasket and tighten the bolts in a criss-cross pattern to 10 N·m (7.4 lb·ft). Refit the shift pedal on its punch mark at 12 N·m (8.9 lb·ft).",
+    "depends_on": [
+     "chips"
+    ],
+    "verification": [
+     "Rotor and stator tight, cover refitted at 10 N·m."
+    ],
+    "record_required": true
+   },
+   {
     "id": "filter",
     "title": "Renew the oil filter",
     "instruction": "Remove the oil filter cover and the old element. Fit a new element and a new O-ring on the cover, then tighten the cover bolts to 10 N·m (7.4 lb·ft).",
     "depends_on": [
-     "chips"
+     "generator"
     ],
     "verification": [
      "New filter fitted, cover bolts 10 N·m."
@@ -4155,23 +4167,11 @@
     "record_required": true
    },
    {
-    "id": "generator",
-    "title": "Check the generator mounting",
-    "instruction": "Remove the left crankcase cover (7 bolts) and check that the generator rotor and the stator are tight and show no rub marks, and that the stator and pickup leads are plugged in. Refit the cover on its dowels with a new gasket and tighten the bolts in a criss-cross pattern to 10 N·m (7.4 lb·ft).",
-    "depends_on": [
-     "oil-fill"
-    ],
-    "verification": [
-     "Rotor and stator tight, cover refitted at 10 N·m."
-    ],
-    "record_required": true
-   },
-   {
     "id": "engine-check",
     "title": "Inspect the engine after break-in",
     "instruction": "Look for pressure leaks at the head and cylinder, oil at the crankcase and covers, and coolant leaks. Check the silencer body and its stay for cracks and leaks, and the engine mounting bolts and brackets for looseness.",
     "depends_on": [
-     "generator"
+     "oil-fill"
     ],
     "verification": [
      "Engine, silencer and mounts checked."
@@ -4229,12 +4229,12 @@
    {
     "id": "torque-points",
     "title": "Retighten the torque-check points",
-    "instruction": "Go round every torque-check point at its listed value: frame and rear frame, engine mounts and brackets, seat and tank, steering stem and clamps, handlebar, fork clamps, linkage, shock and pivot nuts, both axles and axle pinch bolts, spokes, sprocket, brake calipers, discs, unions, master cylinders and bleed screws, fuel pump, shift pedal and all plastics.",
+    "instruction": "Check each point with a torque wrench: engine mounting bolts upper 45 N·m (33 lb·ft), front 55 N·m (41 lb·ft), lower 53 N·m (39 lb·ft); engine bracket bolts 34 N·m (25 lb·ft); rear frame bolts 38 N·m (28 lb·ft); pivot shaft nut 85 N·m (63 lb·ft); shock bolts upper 56 N·m (41 lb·ft), lower 53 N·m (39 lb·ft); connecting arm bolts 80 N·m (59 lb·ft); relay arm bolt at the swingarm 70 N·m (52 lb·ft); steering stem nut 145 N·m (107 lb·ft); upper and lower pinch bolts 21 N·m (15 lb·ft); upper handlebar holder bolts 28 N·m (21 lb·ft), lower holder nuts 40 N·m (30 lb·ft); front axle nut 115 N·m (85 lb·ft), front axle pinch bolts 21 N·m (15 lb·ft); rear axle nut 135 N·m (100 lb·ft); spokes 2.5 N·m (1.8 lb·ft); rear sprocket nuts 42 N·m (31 lb·ft); brake disc bolts 12 N·m (8.9 lb·ft); front caliper bolts 28 N·m (21 lb·ft); brake hose union bolts 30 N·m (22 lb·ft); rear master cylinder bolts 10 N·m (7.4 lb·ft); brake pedal bolt 26 N·m (19 lb·ft); fuel pump bolts 4.0 N·m (3.0 lb·ft); seat bolts 22 N·m (16 lb·ft); tank front bolts 7 N·m (5.2 lb·ft), rear bolt 9 N·m (6.6 lb·ft); shift pedal bolt 12 N·m (8.9 lb·ft). Do not open hydraulic unions just to check them.",
     "depends_on": [
      "tank-clean"
     ],
     "verification": [
-     "Torque-check sheet completed."
+     "Every torque-check point checked and recorded."
     ],
     "record_required": true
    },
@@ -4605,11 +4605,23 @@
     "record_required": true
    },
    {
+    "id": "generator",
+    "title": "Check the generator mounting",
+    "instruction": "With the oil still drained, mark and remove the shift pedal, then remove the left crankcase cover (7 bolts) and check that the generator rotor and the stator are tight and show no rub marks, and that the stator and pickup leads are plugged in. Refit the cover on its dowels with a new gasket and tighten the bolts in a criss-cross pattern to 10 N·m (7.4 lb·ft). Refit the shift pedal on its punch mark at 12 N·m (8.9 lb·ft).",
+    "depends_on": [
+     "chips"
+    ],
+    "verification": [
+     "Rotor and stator tight, cover refitted at 10 N·m."
+    ],
+    "record_required": true
+   },
+   {
     "id": "filter",
     "title": "Renew the oil filter",
     "instruction": "Remove the oil filter cover and the old element. Fit a new element and a new O-ring on the cover, then tighten the cover bolts to 10 N·m (7.4 lb·ft).",
     "depends_on": [
-     "chips"
+     "generator"
     ],
     "verification": [
      "New filter fitted, cover bolts 10 N·m."
@@ -4629,23 +4641,11 @@
     "record_required": true
    },
    {
-    "id": "generator",
-    "title": "Check the generator mounting",
-    "instruction": "Remove the left crankcase cover (7 bolts) and check that the generator rotor and the stator are tight and show no rub marks, and that the stator and pickup leads are plugged in. Refit the cover on its dowels with a new gasket and tighten the bolts in a criss-cross pattern to 10 N·m (7.4 lb·ft).",
-    "depends_on": [
-     "oil-fill"
-    ],
-    "verification": [
-     "Rotor and stator tight, cover refitted at 10 N·m."
-    ],
-    "record_required": true
-   },
-   {
     "id": "engine-check",
     "title": "Inspect the engine after break-in",
     "instruction": "Look for pressure leaks at the head and cylinder, oil at the crankcase and covers, and coolant leaks. Check the silencer body and its stay for cracks and leaks, and the engine mounting bolts and brackets for looseness.",
     "depends_on": [
-     "generator"
+     "oil-fill"
     ],
     "verification": [
      "Engine, silencer and mounts checked."
@@ -4703,12 +4703,12 @@
    {
     "id": "torque-points",
     "title": "Retighten the torque-check points",
-    "instruction": "Go round every torque-check point at its listed value: frame and rear frame, engine mounts and brackets, seat and tank, steering stem and clamps, handlebar, fork clamps, linkage, shock and pivot nuts, both axles and axle pinch bolts, spokes, sprocket, brake calipers, discs, unions, master cylinders and bleed screws, fuel pump, shift pedal and all plastics.",
+    "instruction": "Check each point with a torque wrench: engine mounting bolts upper 45 N·m (33 lb·ft), front 55 N·m (41 lb·ft), lower 53 N·m (39 lb·ft); engine bracket bolts 34 N·m (25 lb·ft); rear frame bolts 38 N·m (28 lb·ft); pivot shaft nut 85 N·m (63 lb·ft); shock nuts upper 56 N·m (41 lb·ft), lower 53 N·m (39 lb·ft); connecting arm nuts 80 N·m (59 lb·ft); relay arm nut at the swingarm 70 N·m (52 lb·ft); steering stem nut 145 N·m (107 lb·ft); upper and lower pinch bolts 21 N·m (15 lb·ft); upper handlebar holder bolts 28 N·m (21 lb·ft), lower holder nuts 40 N·m (30 lb·ft); front axle nut 115 N·m (85 lb·ft), front axle pinch bolts 21 N·m (15 lb·ft); rear axle nut 135 N·m (100 lb·ft); spokes 2.5 N·m (1.8 lb·ft); rear sprocket nuts 42 N·m (31 lb·ft); brake disc bolts 12 N·m (8.9 lb·ft); front caliper bolts 28 N·m (21 lb·ft); brake hose union bolts 30 N·m (22 lb·ft); rear master cylinder bolts 10 N·m (7.4 lb·ft); brake pedal bolt 26 N·m (19 lb·ft); fuel pump bolts 4.0 N·m (3.0 lb·ft); seat bolts 22 N·m (16 lb·ft); tank front bolts 7 N·m (5.2 lb·ft), rear bolt 9 N·m (6.6 lb·ft); shift pedal bolt 12 N·m (8.9 lb·ft). Do not open hydraulic unions just to check them.",
     "depends_on": [
      "tank-clean"
     ],
     "verification": [
-     "Torque-check sheet completed."
+     "Every torque-check point checked and recorded."
     ],
     "record_required": true
    },
@@ -5079,11 +5079,23 @@
     "record_required": true
    },
    {
+    "id": "generator",
+    "title": "Check the generator mounting",
+    "instruction": "With the oil still drained, mark and remove the shift pedal, then remove the left crankcase cover (7 bolts) and check that the generator rotor and the stator are tight and show no rub marks, and that the stator and pickup leads are plugged in. Refit the cover on its dowels with a new gasket and tighten the bolts in a criss-cross pattern to 10 N·m (7.4 lb·ft). Refit the shift pedal on its punch mark at 12 N·m (8.9 lb·ft).",
+    "depends_on": [
+     "chips"
+    ],
+    "verification": [
+     "Rotor and stator tight, cover refitted at 10 N·m."
+    ],
+    "record_required": true
+   },
+   {
     "id": "filter",
     "title": "Renew the oil filter",
     "instruction": "Remove the oil filter cover and the old element. Fit a new element and a new O-ring on the cover, then tighten the cover bolts to 10 N·m (7.4 lb·ft).",
     "depends_on": [
-     "chips"
+     "generator"
     ],
     "verification": [
      "New filter fitted, cover bolts 10 N·m."
@@ -5103,23 +5115,11 @@
     "record_required": true
    },
    {
-    "id": "generator",
-    "title": "Check the generator mounting",
-    "instruction": "Remove the left crankcase cover (7 bolts) and check that the generator rotor and the stator are tight and show no rub marks, and that the stator and pickup leads are plugged in. Refit the cover on its dowels with a new gasket and tighten the bolts in a criss-cross pattern to 10 N·m (7.4 lb·ft).",
-    "depends_on": [
-     "oil-fill"
-    ],
-    "verification": [
-     "Rotor and stator tight, cover refitted at 10 N·m."
-    ],
-    "record_required": true
-   },
-   {
     "id": "engine-check",
     "title": "Inspect the engine after break-in",
     "instruction": "Look for pressure leaks at the head and cylinder, oil at the crankcase and covers, and coolant leaks. Check the silencer body and its stay for cracks and leaks, and the engine mounting bolts and brackets for looseness.",
     "depends_on": [
-     "generator"
+     "oil-fill"
     ],
     "verification": [
      "Engine, silencer and mounts checked."
@@ -5177,12 +5177,12 @@
    {
     "id": "torque-points",
     "title": "Retighten the torque-check points",
-    "instruction": "Go round every torque-check point at its listed value: frame and rear frame, engine mounts and brackets, seat and tank, steering stem and clamps, handlebar, fork clamps, linkage, shock and pivot nuts, both axles and axle pinch bolts, spokes, sprocket, brake calipers, discs, unions, master cylinders and bleed screws, fuel pump, shift pedal and all plastics.",
+    "instruction": "Check each point with a torque wrench: engine mounting bolts upper 45 N·m (33 lb·ft), front 55 N·m (41 lb·ft), lower 53 N·m (39 lb·ft); engine bracket bolts 34 N·m (25 lb·ft); rear frame bolts 38 N·m (28 lb·ft); pivot shaft nut 85 N·m (63 lb·ft); shock nuts upper 56 N·m (41 lb·ft), lower 53 N·m (39 lb·ft); connecting arm nuts 80 N·m (59 lb·ft); relay arm nut at the swingarm 70 N·m (52 lb·ft); steering stem nut 145 N·m (107 lb·ft); upper and lower pinch bolts 21 N·m (15 lb·ft); upper handlebar holder bolts 28 N·m (21 lb·ft), lower holder nuts 40 N·m (30 lb·ft); front axle nut 115 N·m (85 lb·ft), front axle pinch bolts 21 N·m (15 lb·ft); rear axle nut 135 N·m (100 lb·ft); spokes 2.5 N·m (1.8 lb·ft); rear sprocket nuts 42 N·m (31 lb·ft); brake disc bolts 12 N·m (8.9 lb·ft); front caliper bolts 28 N·m (21 lb·ft); brake hose union bolts 30 N·m (22 lb·ft); rear master cylinder bolts 10 N·m (7.4 lb·ft); brake pedal bolt 26 N·m (19 lb·ft); fuel pump bolts 4.0 N·m (3.0 lb·ft); seat bolts 22 N·m (16 lb·ft); tank front bolts 7 N·m (5.2 lb·ft), rear bolt 9 N·m (6.6 lb·ft); shift pedal bolt 12 N·m (8.9 lb·ft). Do not open hydraulic unions just to check them.",
     "depends_on": [
      "tank-clean"
     ],
     "verification": [
-     "Torque-check sheet completed."
+     "Every torque-check point checked and recorded."
     ],
     "record_required": true
    },
@@ -5557,11 +5557,23 @@
     "record_required": true
    },
    {
+    "id": "generator",
+    "title": "Check the generator mounting",
+    "instruction": "With the oil still drained, mark and remove the shift pedal, then remove the left crankcase cover (8 bolts) and check that the generator rotor and the stator are tight and show no rub marks, and that the stator and pickup leads are plugged in. Refit the cover on its dowels with a new gasket and tighten the bolts in a criss-cross pattern to 10 N·m (7.4 lb·ft). Refit the shift pedal on its punch mark at 12 N·m (8.9 lb·ft).",
+    "depends_on": [
+     "chips"
+    ],
+    "verification": [
+     "Rotor and stator tight, cover refitted at 10 N·m."
+    ],
+    "record_required": true
+   },
+   {
     "id": "filter",
     "title": "Renew the oil filter",
     "instruction": "Remove the oil filter cover and the old element. Fit a new element and a new O-ring on the cover, then tighten the cover bolts to 10 N·m (7.4 lb·ft).",
     "depends_on": [
-     "chips"
+     "generator"
     ],
     "verification": [
      "New filter fitted, cover bolts 10 N·m."
@@ -5581,23 +5593,11 @@
     "record_required": true
    },
    {
-    "id": "generator",
-    "title": "Check the generator mounting",
-    "instruction": "Remove the left crankcase cover (8 bolts) and check that the generator rotor and the stator are tight and show no rub marks, and that the stator and pickup leads are plugged in. Refit the cover on its dowels with a new gasket and tighten the bolts in a criss-cross pattern to 10 N·m (7.4 lb·ft).",
-    "depends_on": [
-     "oil-fill"
-    ],
-    "verification": [
-     "Rotor and stator tight, cover refitted at 10 N·m."
-    ],
-    "record_required": true
-   },
-   {
     "id": "engine-check",
     "title": "Inspect the engine after break-in",
     "instruction": "Look for pressure leaks at the head and cylinder, oil at the crankcase and covers, and coolant leaks. Check the silencer body and its stay for cracks and leaks, and the engine mounting bolts and brackets for looseness.",
     "depends_on": [
-     "generator"
+     "oil-fill"
     ],
     "verification": [
      "Engine, silencer and mounts checked."
@@ -5655,12 +5655,12 @@
    {
     "id": "torque-points",
     "title": "Retighten the torque-check points",
-    "instruction": "Go round every torque-check point at its listed value: frame and rear frame, engine mounts and brackets, seat and tank, steering stem and clamps, handlebar, fork clamps, linkage, shock and pivot nuts, both axles and axle pinch bolts, spokes, sprocket, brake calipers, discs, unions, master cylinders and bleed screws, clutch hose union, clutch master cylinder and bleed screw, fuel pump, shift pedal and all plastics.",
+    "instruction": "Check each point with a torque wrench: engine mounting bolts upper 45 N·m (33 lb·ft), front 55 N·m (41 lb·ft), lower 53 N·m (39 lb·ft); engine bracket bolts 34 N·m (25 lb·ft); rear frame bolts 38 N·m (28 lb·ft); pivot shaft nut 75 N·m (55 lb·ft); shock nuts upper 56 N·m (41 lb·ft), lower 53 N·m (39 lb·ft); connecting arm nuts 80 N·m (59 lb·ft); relay arm nut at the swingarm 70 N·m (52 lb·ft); steering stem nut 145 N·m (107 lb·ft); upper and lower pinch bolts 21 N·m (15 lb·ft); upper handlebar holder bolts 28 N·m (21 lb·ft), lower holder nuts 40 N·m (30 lb·ft); front axle nut 115 N·m (85 lb·ft), front axle pinch bolts 21 N·m (15 lb·ft); rear axle nut 135 N·m (100 lb·ft); spokes 2.5 N·m (1.8 lb·ft); rear sprocket nuts 42 N·m (31 lb·ft); brake disc bolts 12 N·m (8.9 lb·ft); front caliper bolts 28 N·m (21 lb·ft); brake hose union bolts 30 N·m (22 lb·ft); rear master cylinder bolts 10 N·m (7.4 lb·ft); brake pedal bolt 26 N·m (19 lb·ft); Clutch hose union bolt 30 N·m (22 lb·ft). fuel pump bolts 7 N·m (5.2 lb·ft); seat bolts 13 N·m (9.6 lb·ft); tank front bolts 8 N·m (5.9 lb·ft), tank screw 4.0 N·m (3.0 lb·ft); shift pedal bolt 12 N·m (8.9 lb·ft). Do not open hydraulic unions just to check them.",
     "depends_on": [
      "tank-clean"
     ],
     "verification": [
-     "Torque-check sheet completed."
+     "Every torque-check point checked and recorded."
     ],
     "record_required": true
    },
@@ -6035,11 +6035,23 @@
     "record_required": true
    },
    {
+    "id": "generator",
+    "title": "Check the generator mounting",
+    "instruction": "With the oil still drained, mark and remove the shift pedal, then remove the left crankcase cover (8 bolts) and check that the generator rotor and the stator are tight and show no rub marks, and that the stator and pickup leads are plugged in. Refit the cover on its dowels with a new gasket and tighten the bolts in a criss-cross pattern to 10 N·m (7.4 lb·ft). Refit the shift pedal on its punch mark at 12 N·m (8.9 lb·ft).",
+    "depends_on": [
+     "chips"
+    ],
+    "verification": [
+     "Rotor and stator tight, cover refitted at 10 N·m."
+    ],
+    "record_required": true
+   },
+   {
     "id": "filter",
     "title": "Renew the oil filter",
     "instruction": "Remove the oil filter cover and the old element. Fit a new element and a new O-ring on the cover, then tighten the cover bolts to 10 N·m (7.4 lb·ft).",
     "depends_on": [
-     "chips"
+     "generator"
     ],
     "verification": [
      "New filter fitted, cover bolts 10 N·m."
@@ -6059,23 +6071,11 @@
     "record_required": true
    },
    {
-    "id": "generator",
-    "title": "Check the generator mounting",
-    "instruction": "Remove the left crankcase cover (8 bolts) and check that the generator rotor and the stator are tight and show no rub marks, and that the stator and pickup leads are plugged in. Refit the cover on its dowels with a new gasket and tighten the bolts in a criss-cross pattern to 10 N·m (7.4 lb·ft).",
-    "depends_on": [
-     "oil-fill"
-    ],
-    "verification": [
-     "Rotor and stator tight, cover refitted at 10 N·m."
-    ],
-    "record_required": true
-   },
-   {
     "id": "engine-check",
     "title": "Inspect the engine after break-in",
     "instruction": "Look for pressure leaks at the head and cylinder, oil at the crankcase and covers, and coolant leaks. Check the silencer body and its stay for cracks and leaks, and the engine mounting bolts and brackets for looseness.",
     "depends_on": [
-     "generator"
+     "oil-fill"
     ],
     "verification": [
      "Engine, silencer and mounts checked."
@@ -6133,12 +6133,12 @@
    {
     "id": "torque-points",
     "title": "Retighten the torque-check points",
-    "instruction": "Go round every torque-check point at its listed value: frame and rear frame, engine mounts and brackets, seat and tank, steering stem and clamps, handlebar, fork clamps, linkage, shock and pivot nuts, both axles and axle pinch bolts, spokes, sprocket, brake calipers, discs, unions, master cylinders and bleed screws, clutch hose union, clutch master cylinder and bleed screw, fuel pump, shift pedal and all plastics.",
+    "instruction": "Check each point with a torque wrench: engine mounting bolts upper 45 N·m (33 lb·ft), front 55 N·m (41 lb·ft), lower 53 N·m (39 lb·ft); engine bracket bolts 34 N·m (25 lb·ft); rear frame bolts 38 N·m (28 lb·ft); pivot shaft nut 75 N·m (55 lb·ft); shock nuts upper 56 N·m (41 lb·ft), lower 53 N·m (39 lb·ft); connecting arm nuts 80 N·m (59 lb·ft); relay arm nut at the swingarm 70 N·m (52 lb·ft); steering stem nut 145 N·m (107 lb·ft); upper and lower pinch bolts 21 N·m (15 lb·ft); upper handlebar holder bolts 28 N·m (21 lb·ft), lower holder nuts 40 N·m (30 lb·ft); front axle nut 115 N·m (85 lb·ft), front axle pinch bolts 21 N·m (15 lb·ft); rear axle nut 135 N·m (100 lb·ft); spokes 2.5 N·m (1.8 lb·ft); rear sprocket nuts 40 N·m (30 lb·ft); brake disc bolts 13 N·m (9.6 lb·ft); front caliper bolts 28 N·m (21 lb·ft); brake hose union bolts 30 N·m (22 lb·ft); rear master cylinder bolts 10 N·m (7.4 lb·ft); brake pedal bolt 26 N·m (19 lb·ft); Clutch hose union bolt 30 N·m (22 lb·ft). fuel pump bolts 7 N·m (5.2 lb·ft); seat bolts 13 N·m (9.6 lb·ft); tank front bolts 8 N·m (5.9 lb·ft), tank screw 4.0 N·m (3.0 lb·ft); shift pedal bolt 12 N·m (8.9 lb·ft). Do not open hydraulic unions just to check them.",
     "depends_on": [
      "tank-clean"
     ],
     "verification": [
-     "Torque-check sheet completed."
+     "Every torque-check point checked and recorded."
     ],
     "record_required": true
    },

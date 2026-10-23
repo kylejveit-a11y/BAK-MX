@@ -1,0 +1,5503 @@
+[
+ {
+  "id": "bak-yamaha-yz450f-fork-full-service-v1-2018",
+  "component": "fork",
+  "affected_components": [
+   "fork",
+   "front_wheel",
+   "front_brake",
+   "steering"
+  ],
+  "entry_state": [
+   "Bike cold and clean, on a stand."
+  ],
+  "exit_state": [
+   "Both legs rebuilt with new seals and bushings, damper and outer oil set, forks refitted at the recorded height with every torque, front brake checked."
+  ],
+  "title": "Full fork service: seals, bushings and oil (both legs)",
+  "completeness": "Covers front wheel and caliper removal, fork removal, full strip, inspection, damper fill and bleed with level, base valve, new oil seal, dust seal, slide and piston metals, bottom adjuster gap and torque, outer chamber oil, refit and clicker reset.",
+  "excluded": [
+   "Damper internal revalving",
+   "Fork spring rate changes",
+   "Steering bearing service"
+  ],
+  "required_tools": [
+   {
+    "name": "Front stand",
+    "size": null
+   },
+   {
+    "name": "Cap bolt ring wrench and cap bolt wrench",
+    "size": null
+   },
+   {
+    "name": "Fork seal driver (48 mm)",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 0.6-115 N·m",
+    "size": null
+   },
+   {
+    "name": "Measuring cylinder and oil level gauge",
+    "size": null
+   },
+   {
+    "name": "Dial gauge and V-blocks",
+    "size": null
+   },
+   {
+    "name": "Plastic sleeve for the seal",
+    "size": null
+   },
+   {
+    "name": "Lithium-soap grease, threadlocker",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Oil seals and dust seals (2 each)",
+    "purpose": "Always renewed."
+   },
+   {
+    "name": "Slide metals and piston metals (2 each)",
+    "purpose": "Always renewed."
+   },
+   {
+    "name": "Copper washers (2)",
+    "purpose": "Always renewed."
+   },
+   {
+    "name": "Yamaha Suspension Oil S1",
+    "purpose": "About 1 L for both legs."
+   }
+  ],
+  "prerequisites": [
+   "Clicker settings recorded."
+  ],
+  "critical_stop_conditions": [
+   "Inner tube bent beyond 0.2 mm: replace, never straighten.",
+   "Locknut removed from the damper rod: stop; the rod can drop into the damper.",
+   "Oil levels not equal left and right: correct before riding.",
+   "Front brake soft or dragging after refit: fix before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the fork settings",
+    "instruction": "Count the rebound clicks (top) and compression clicks (bottom) from fully in, and note the fork leg height in the clamps.",
+    "depends_on": [],
+    "verification": [
+     "Clicker counts and fork height recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "stand",
+    "title": "Lift the front wheel",
+    "instruction": "Put the bike on a stand so the front wheel is off the ground and the bike cannot tip.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Front wheel off the ground, bike stable."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wheel-off",
+    "title": "Remove the front wheel",
+    "instruction": "Loosen the four axle pinch bolts, remove the axle nut, pull the axle and drop the wheel out, guiding the disc out of the caliper. Take the collars off the hub. Do not pull the brake lever with the wheel out.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Front wheel out, collars kept."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "caliper-off",
+    "title": "Move the brake aside",
+    "instruction": "Remove the number plate. Remove the front brake hose holder bolts and the two caliper bolts and hang the caliper clear with the hose still connected.",
+    "depends_on": [
+     "wheel-off"
+    ],
+    "verification": [
+     "Caliper hanging clear, hose not stretched."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "legs-off",
+    "title": "Remove the fork legs",
+    "instruction": "Support each leg. Remove the fork protector. Loosen the upper pinch bolts, loosen the fork cap (damper assembly) with a cap bolt ring wrench, loosen the lower pinch bolts and slide the leg out. Repeat for the other side.",
+    "depends_on": [
+     "caliper-off"
+    ],
+    "verification": [
+     "Both legs out, caps loosened."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Unscrew the cap and drain",
+    "instruction": "Unscrew the damper assembly from the outer tube, slide the outer tube down and pour the outer-chamber oil out into a pan.",
+    "depends_on": [
+     "legs-off"
+    ],
+    "verification": [
+     "Outer chamber drained."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "adjuster-off",
+    "title": "Release the bottom adjuster",
+    "instruction": "Compress the inner tube and set the cap bolt ring wrench between the inner tube and the locknut. Hold the locknut and unscrew the adjuster from the bottom of the leg. Never remove the locknut: the damper rod can drop into the damper and be lost.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Adjuster off, locknut still on the rod."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "damper-out",
+    "title": "Take out the damper and spring",
+    "instruction": "Remove the cap bolt ring wrench, lift the damper assembly out with the fork spring and spring seat, and take the damper adjusting rod out.",
+    "depends_on": [
+     "adjuster-off"
+    ],
+    "verification": [
+     "Damper, spring and rod out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tubes-apart",
+    "title": "Separate the tubes",
+    "instruction": "Prise off the dust seal and remove the seal retaining clip with a flat screwdriver without scratching the tube. Push the inner tube in slowly to just before it bottoms, then pull it back sharply; repeat until the tubes separate. Slide off the piston metal, slide metal, washer and oil seal.",
+    "depends_on": [
+     "damper-out"
+    ],
+    "verification": [
+     "Tubes apart, bushings and seal off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "base-valve-off",
+    "title": "Remove the base valve",
+    "instruction": "Record the compression setting, then hold the damper with the cap bolt ring wrench and unscrew the base valve with the cap bolt wrench. Drain the damper oil.",
+    "depends_on": [
+     "tubes-apart"
+    ],
+    "verification": [
+     "Base valve out, damper drained."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "inspect",
+    "title": "Inspect fork parts",
+    "instruction": "Inner tube: scratches can be cleaned with #1000 wet paper; a damaged oil lock piece or deep scoring means replacement. Inner tube bend limit 0.2 mm (0.01 in) (half the dial reading); never straighten a bent tube. Outer tube: scratches, wear or damage means replacement. Fork spring free length: standard 497.0 mm, limit 492.0 mm (19.37 in). Damper assembly: bends or damage; O-rings worn. Base valve: wear, damage, contamination; base valve bushing and spring; bleed screw. Upper spring seat contact face. Adjuster O-ring.",
+    "depends_on": [
+     "base-valve-off"
+    ],
+    "verification": [
+     "All fork parts inspected; measurements recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "damper-fill",
+    "title": "Fill and bleed the damper",
+    "instruction": "Stretch the damper fully and fill it with 216 cm³ (7.30 US oz) of Yamaha Suspension Oil S1. Pump the rod slowly up and down with about a 200 mm (7.9 in) stroke to bleed it; longer strokes pull air in (then start again). With the damper fully stretched, the oil level must be 145–148 mm (5.71–5.83 in) below its top.",
+    "depends_on": [
+     "inspect"
+    ],
+    "verification": [
+     "Damper oil level measured at 145-148 mm."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "base-valve-on",
+    "title": "Fit the base valve",
+    "instruction": "Finger-tighten the locknut fully onto the damper rod. Fully loosen the compression adjuster (record its setting first). Pull the damper rod out to build pressure, then screw the base valve in while letting the rod back. The damper must sit fully stretched; if not, start the fill again. Tighten the base valve to 28 N·m (21 lb·ft).",
+    "depends_on": [
+     "damper-fill"
+    ],
+    "verification": [
+     "Base valve 28 N·m; damper fully stretched."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "damper-settle",
+    "title": "Settle the damper oil",
+    "instruction": "Pump the damper slowly more than 10 times. Wrap it in a cloth, compress it fully and let the excess oil (about 10 cm³) overflow out of the base valve side hole. It must move smoothly with no tight spots; if not, repeat the fill.",
+    "depends_on": [
+     "base-valve-on"
+    ],
+    "verification": [
+     "Damper moves smoothly after overflow."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "seals-on",
+    "title": "Fit new seals and bushings to the inner tube",
+    "instruction": "Oil the inner tube. Slide on a new dust seal, the seal retaining clip, a new oil seal (numbered side down, over a plastic sleeve with fork oil to protect the lip), the washer and a new slide metal. Grease the dust seal and oil seal lips with lithium-soap grease. Fit a new piston metal into the inner tube slot.",
+    "depends_on": [
+     "damper-settle"
+    ],
+    "verification": [
+     "New seal, slide metal and piston metal on."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tubes-together",
+    "title": "Join the tubes and drive the seal",
+    "instruction": "Slide the outer tube on. Drive the slide metal and washer home with the fork seal driver, then drive the oil seal in until the clip groove is fully visible. Fit the retaining clip fully into its groove, then the dust seal. The tubes must slide smoothly.",
+    "depends_on": [
+     "seals-on"
+    ],
+    "verification": [
+     "Seal seated, clip in groove, tubes slide smoothly."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "locknut-height",
+    "title": "Set the locknut height",
+    "instruction": "The distance from the bottom of the damper assembly to the bottom of the locknut must be at least 16 mm (0.63 in); turn the locknut to correct it.",
+    "depends_on": [
+     "tubes-together"
+    ],
+    "verification": [
+     "Locknut distance measured, 16 mm or more."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "damper-in",
+    "title": "Fit spring and damper",
+    "instruction": "Fit the spring seat (larger end toward the spring) and the fork spring on the damper. Let the damper slide slowly down the inner tube until it reaches the bottom; do not drop it.",
+    "depends_on": [
+     "locknut-height"
+    ],
+    "verification": [
+     "Damper and spring in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "adjuster-on",
+    "title": "Refit the bottom adjuster",
+    "instruction": "Record and fully loosen the rebound adjuster. Fit the damper adjusting rod, a new copper washer and the adjuster, compress the inner tube and set the cap bolt ring wrench under the locknut, and finger-tighten the adjuster onto the damper. The gap between adjuster and locknut must be 0.5–1.0 mm (0.02–0.04 in). Hold the locknut and tighten the adjuster to 29 N·m (21 lb·ft). Then fit the adjuster into the inner tube with threadlocker at 55 N·m (41 lb·ft).",
+    "depends_on": [
+     "damper-in"
+    ],
+    "verification": [
+     "Gap 0.5-1.0 mm; 29 N·m; 55 N·m with threadlocker."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "outer-fill",
+    "title": "Fill the outer chamber",
+    "instruction": "Pour in 290 cm³ (9.80 US oz) of Yamaha Suspension Oil S1 (allowed range 260–365 cm³). Screw the damper assembly into the outer tube hand-tight and fit the protector guide.",
+    "depends_on": [
+     "adjuster-on"
+    ],
+    "verification": [
+     "Outer chamber filled with the recorded quantity."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "other-leg",
+    "title": "Do the other leg the same",
+    "instruction": "Repeat the bench steps on the other leg. Both legs must have the same oil quantities; uneven legs make the bike unstable.",
+    "depends_on": [
+     "outer-fill"
+    ],
+    "verification": [
+     "Both legs serviced with equal oil."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "legs-on",
+    "title": "Refit the forks",
+    "instruction": "Slide each leg in to its original height (standard: top of the outer tube 0 mm (flush) above the upper clamp) and snug the lower pinch bolts. Tighten the fork cap to 30 N·m (22 lb·ft) with the ring wrench. Tighten the upper and lower pinch bolts to 21 N·m (15 lb·ft); do not over-tighten the lower ones, the fork will bind. Refit the protectors at 5 N·m (3.7 lb·ft).",
+    "depends_on": [
+     "other-leg"
+    ],
+    "verification": [
+     "Caps 30 N·m; pinch bolts 21 N·m; protectors torqued."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "caliper-on",
+    "title": "Refit the caliper and number plate",
+    "instruction": "Refit the caliper at 28 N·m (21 lb·ft), the brake hose holder bolts at 9 N·m (6.6 lb·ft) and the number plate at 7 N·m (5.2 lb·ft).",
+    "depends_on": [
+     "legs-on"
+    ],
+    "verification": [
+     "Caliper 28 N·m; holders 9 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-on",
+    "title": "Refit the front wheel",
+    "instruction": "Fit the collars, guide the disc between the pads and push the axle (greased with lithium-soap grease) through. Tighten the axle nut to 112 N·m (83 lb·ft). Before tightening the pinch bolts, push hard on the bars several times so the forks settle, then tighten the four axle pinch bolts to 21 N·m (15 lb·ft).",
+    "depends_on": [
+     "caliper-on"
+    ],
+    "verification": [
+     "Axle nut 112 N·m; pinch bolts 21 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "brake-check",
+    "title": "Pump up the front brake",
+    "instruction": "Pull the front brake lever until it is firm and check the wheel spins freely without the brake dragging.",
+    "depends_on": [
+     "wheel-on"
+    ],
+    "verification": [
+     "Lever firm, wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "clickers",
+    "title": "Restore the clickers",
+    "instruction": "Turn each damping adjuster in finger-tight and back out to the recorded setting.",
+    "depends_on": [
+     "brake-check"
+    ],
+    "verification": [
+     "Clickers back to the recorded settings."
+    ],
+    "record_required": true
+   }
+  ],
+  "target": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2018,
+   "variant": "standard",
+   "region": "US"
+  }
+ },
+ {
+  "id": "bak-yamaha-yz450f-fork-full-service-v1-2019",
+  "component": "fork",
+  "affected_components": [
+   "fork",
+   "front_wheel",
+   "front_brake",
+   "steering"
+  ],
+  "entry_state": [
+   "Bike cold and clean, on a stand."
+  ],
+  "exit_state": [
+   "Both legs rebuilt with new seals and bushings, damper and outer oil set, forks refitted at the recorded height with every torque, front brake checked."
+  ],
+  "title": "Full fork service: seals, bushings and oil (both legs)",
+  "completeness": "Covers front wheel and caliper removal, fork removal, full strip, inspection, damper fill and bleed with level, base valve, new oil seal, dust seal, slide and piston metals, bottom adjuster gap and torque, outer chamber oil, refit and clicker reset.",
+  "excluded": [
+   "Damper internal revalving",
+   "Fork spring rate changes",
+   "Steering bearing service"
+  ],
+  "required_tools": [
+   {
+    "name": "Front stand",
+    "size": null
+   },
+   {
+    "name": "Cap bolt ring wrench and cap bolt wrench",
+    "size": null
+   },
+   {
+    "name": "Fork seal driver (48 mm)",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 0.6-115 N·m",
+    "size": null
+   },
+   {
+    "name": "Measuring cylinder and oil level gauge",
+    "size": null
+   },
+   {
+    "name": "Dial gauge and V-blocks",
+    "size": null
+   },
+   {
+    "name": "Plastic sleeve for the seal",
+    "size": null
+   },
+   {
+    "name": "Lithium-soap grease, threadlocker",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Oil seals and dust seals (2 each)",
+    "purpose": "Always renewed."
+   },
+   {
+    "name": "Slide metals and piston metals (2 each)",
+    "purpose": "Always renewed."
+   },
+   {
+    "name": "Copper washers (2)",
+    "purpose": "Always renewed."
+   },
+   {
+    "name": "Yamaha Suspension Oil S1",
+    "purpose": "About 1 L for both legs."
+   }
+  ],
+  "prerequisites": [
+   "Clicker settings recorded."
+  ],
+  "critical_stop_conditions": [
+   "Inner tube bent beyond 0.2 mm: replace, never straighten.",
+   "Locknut removed from the damper rod: stop; the rod can drop into the damper.",
+   "Oil levels not equal left and right: correct before riding.",
+   "Front brake soft or dragging after refit: fix before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the fork settings",
+    "instruction": "Count the rebound clicks (top) and compression clicks (bottom) from fully in, and note the fork leg height in the clamps.",
+    "depends_on": [],
+    "verification": [
+     "Clicker counts and fork height recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "stand",
+    "title": "Lift the front wheel",
+    "instruction": "Put the bike on a stand so the front wheel is off the ground and the bike cannot tip.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Front wheel off the ground, bike stable."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wheel-off",
+    "title": "Remove the front wheel",
+    "instruction": "Loosen the four axle pinch bolts, remove the axle nut, pull the axle and drop the wheel out, guiding the disc out of the caliper. Take the collars off the hub. Do not pull the brake lever with the wheel out.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Front wheel out, collars kept."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "caliper-off",
+    "title": "Move the brake aside",
+    "instruction": "Remove the number plate. Remove the front brake hose holder bolts and the two caliper bolts and hang the caliper clear with the hose still connected.",
+    "depends_on": [
+     "wheel-off"
+    ],
+    "verification": [
+     "Caliper hanging clear, hose not stretched."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "legs-off",
+    "title": "Remove the fork legs",
+    "instruction": "Support each leg. Remove the fork protector. Loosen the upper pinch bolts, loosen the fork cap (damper assembly) with a cap bolt ring wrench, loosen the lower pinch bolts and slide the leg out. Repeat for the other side.",
+    "depends_on": [
+     "caliper-off"
+    ],
+    "verification": [
+     "Both legs out, caps loosened."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Unscrew the cap and drain",
+    "instruction": "Unscrew the damper assembly from the outer tube, slide the outer tube down and pour the outer-chamber oil out into a pan.",
+    "depends_on": [
+     "legs-off"
+    ],
+    "verification": [
+     "Outer chamber drained."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "adjuster-off",
+    "title": "Release the bottom adjuster",
+    "instruction": "Compress the inner tube and set the cap bolt ring wrench between the inner tube and the locknut. Hold the locknut and unscrew the adjuster from the bottom of the leg. Never remove the locknut: the damper rod can drop into the damper and be lost.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Adjuster off, locknut still on the rod."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "damper-out",
+    "title": "Take out the damper and spring",
+    "instruction": "Remove the cap bolt ring wrench, lift the damper assembly out with the fork spring and spring seat, and take the damper adjusting rod out.",
+    "depends_on": [
+     "adjuster-off"
+    ],
+    "verification": [
+     "Damper, spring and rod out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tubes-apart",
+    "title": "Separate the tubes",
+    "instruction": "Prise off the dust seal and remove the seal retaining clip with a flat screwdriver without scratching the tube. Push the inner tube in slowly to just before it bottoms, then pull it back sharply; repeat until the tubes separate. Slide off the piston metal, slide metal, washer and oil seal.",
+    "depends_on": [
+     "damper-out"
+    ],
+    "verification": [
+     "Tubes apart, bushings and seal off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "base-valve-off",
+    "title": "Remove the base valve",
+    "instruction": "Record the compression setting, then hold the damper with the cap bolt ring wrench and unscrew the base valve with the cap bolt wrench. Drain the damper oil.",
+    "depends_on": [
+     "tubes-apart"
+    ],
+    "verification": [
+     "Base valve out, damper drained."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "inspect",
+    "title": "Inspect fork parts",
+    "instruction": "Inner tube: scratches can be cleaned with #1000 wet paper; a damaged oil lock piece or deep scoring means replacement. Inner tube bend limit 0.2 mm (0.01 in) (half the dial reading); never straighten a bent tube. Outer tube: scratches, wear or damage means replacement. Fork spring free length: standard 497.0 mm, limit 492.0 mm (19.37 in). Damper assembly: bends or damage; O-rings worn. Base valve: wear, damage, contamination; base valve bushing and spring; bleed screw. Upper spring seat contact face. Adjuster O-ring.",
+    "depends_on": [
+     "base-valve-off"
+    ],
+    "verification": [
+     "All fork parts inspected; measurements recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "damper-fill",
+    "title": "Fill and bleed the damper",
+    "instruction": "Stretch the damper fully and fill it with 216 cm³ (7.30 US oz) of Yamaha Suspension Oil S1. Pump the rod slowly up and down with about a 200 mm (7.9 in) stroke to bleed it; longer strokes pull air in (then start again). With the damper fully stretched, the oil level must be 145–148 mm (5.71–5.83 in) below its top.",
+    "depends_on": [
+     "inspect"
+    ],
+    "verification": [
+     "Damper oil level measured at 145-148 mm."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "base-valve-on",
+    "title": "Fit the base valve",
+    "instruction": "Finger-tighten the locknut fully onto the damper rod. Fully loosen the compression adjuster (record its setting first). Pull the damper rod out to build pressure, then screw the base valve in while letting the rod back. The damper must sit fully stretched; if not, start the fill again. Tighten the base valve to 28 N·m (21 lb·ft).",
+    "depends_on": [
+     "damper-fill"
+    ],
+    "verification": [
+     "Base valve 28 N·m; damper fully stretched."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "damper-settle",
+    "title": "Settle the damper oil",
+    "instruction": "Pump the damper slowly more than 10 times. Wrap it in a cloth, compress it fully and let the excess oil (about 10 cm³) overflow out of the base valve side hole. It must move smoothly with no tight spots; if not, repeat the fill.",
+    "depends_on": [
+     "base-valve-on"
+    ],
+    "verification": [
+     "Damper moves smoothly after overflow."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "seals-on",
+    "title": "Fit new seals and bushings to the inner tube",
+    "instruction": "Oil the inner tube. Slide on a new dust seal, the seal retaining clip, a new oil seal (numbered side down, over a plastic sleeve with fork oil to protect the lip), the washer and a new slide metal. Grease the dust seal and oil seal lips with lithium-soap grease. Fit a new piston metal into the inner tube slot.",
+    "depends_on": [
+     "damper-settle"
+    ],
+    "verification": [
+     "New seal, slide metal and piston metal on."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tubes-together",
+    "title": "Join the tubes and drive the seal",
+    "instruction": "Slide the outer tube on. Drive the slide metal and washer home with the fork seal driver, then drive the oil seal in until the clip groove is fully visible. Fit the retaining clip fully into its groove, then the dust seal. The tubes must slide smoothly.",
+    "depends_on": [
+     "seals-on"
+    ],
+    "verification": [
+     "Seal seated, clip in groove, tubes slide smoothly."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "locknut-height",
+    "title": "Set the locknut height",
+    "instruction": "The distance from the bottom of the damper assembly to the bottom of the locknut must be at least 16 mm (0.63 in); turn the locknut to correct it.",
+    "depends_on": [
+     "tubes-together"
+    ],
+    "verification": [
+     "Locknut distance measured, 16 mm or more."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "damper-in",
+    "title": "Fit spring and damper",
+    "instruction": "Fit the spring seat (larger end toward the spring) and the fork spring on the damper. Let the damper slide slowly down the inner tube until it reaches the bottom; do not drop it.",
+    "depends_on": [
+     "locknut-height"
+    ],
+    "verification": [
+     "Damper and spring in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "adjuster-on",
+    "title": "Refit the bottom adjuster",
+    "instruction": "Record and fully loosen the rebound adjuster. Fit the damper adjusting rod, a new copper washer and the adjuster, compress the inner tube and set the cap bolt ring wrench under the locknut, and finger-tighten the adjuster onto the damper. The gap between adjuster and locknut must be 0.5–1.0 mm (0.02–0.04 in). Hold the locknut and tighten the adjuster to 29 N·m (21 lb·ft). Then fit the adjuster into the inner tube with threadlocker at 55 N·m (41 lb·ft).",
+    "depends_on": [
+     "damper-in"
+    ],
+    "verification": [
+     "Gap 0.5-1.0 mm; 29 N·m; 55 N·m with threadlocker."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "outer-fill",
+    "title": "Fill the outer chamber",
+    "instruction": "Pour in 290 cm³ (9.80 US oz) of Yamaha Suspension Oil S1 (allowed range 260–365 cm³). Screw the damper assembly into the outer tube hand-tight and fit the protector guide.",
+    "depends_on": [
+     "adjuster-on"
+    ],
+    "verification": [
+     "Outer chamber filled with the recorded quantity."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "other-leg",
+    "title": "Do the other leg the same",
+    "instruction": "Repeat the bench steps on the other leg. Both legs must have the same oil quantities; uneven legs make the bike unstable.",
+    "depends_on": [
+     "outer-fill"
+    ],
+    "verification": [
+     "Both legs serviced with equal oil."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "legs-on",
+    "title": "Refit the forks",
+    "instruction": "Slide each leg in to its original height (standard: top of the outer tube 0 mm (flush) above the upper clamp) and snug the lower pinch bolts. Tighten the fork cap to 30 N·m (22 lb·ft) with the ring wrench. Tighten the upper and lower pinch bolts to 21 N·m (15 lb·ft); do not over-tighten the lower ones, the fork will bind. Refit the protectors at 5 N·m (3.7 lb·ft).",
+    "depends_on": [
+     "other-leg"
+    ],
+    "verification": [
+     "Caps 30 N·m; pinch bolts 21 N·m; protectors torqued."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "caliper-on",
+    "title": "Refit the caliper and number plate",
+    "instruction": "Refit the caliper at 28 N·m (21 lb·ft), the brake hose holder bolts at 9 N·m (6.6 lb·ft) and the number plate at 7 N·m (5.2 lb·ft).",
+    "depends_on": [
+     "legs-on"
+    ],
+    "verification": [
+     "Caliper 28 N·m; holders 9 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-on",
+    "title": "Refit the front wheel",
+    "instruction": "Fit the collars, guide the disc between the pads and push the axle (greased with lithium-soap grease) through. Tighten the axle nut to 115 N·m (85 lb·ft). Before tightening the pinch bolts, push hard on the bars several times so the forks settle, then tighten the four axle pinch bolts to 21 N·m (15 lb·ft).",
+    "depends_on": [
+     "caliper-on"
+    ],
+    "verification": [
+     "Axle nut 115 N·m; pinch bolts 21 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "brake-check",
+    "title": "Pump up the front brake",
+    "instruction": "Pull the front brake lever until it is firm and check the wheel spins freely without the brake dragging.",
+    "depends_on": [
+     "wheel-on"
+    ],
+    "verification": [
+     "Lever firm, wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "clickers",
+    "title": "Restore the clickers",
+    "instruction": "Turn each damping adjuster in finger-tight and back out to the recorded setting.",
+    "depends_on": [
+     "brake-check"
+    ],
+    "verification": [
+     "Clickers back to the recorded settings."
+    ],
+    "record_required": true
+   }
+  ],
+  "target": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2019,
+   "variant": "standard",
+   "region": "US"
+  }
+ },
+ {
+  "id": "bak-yamaha-yz450f-fork-full-service-v1-2020",
+  "component": "fork",
+  "affected_components": [
+   "fork",
+   "front_wheel",
+   "front_brake",
+   "steering"
+  ],
+  "entry_state": [
+   "Bike cold and clean, on a stand."
+  ],
+  "exit_state": [
+   "Both legs rebuilt with new seals and bushings, damper and outer oil set, forks refitted at the recorded height with every torque, front brake checked."
+  ],
+  "title": "Full fork service: seals, bushings and oil (both legs)",
+  "completeness": "Covers front wheel and caliper removal, fork removal, full strip, inspection, damper fill and bleed with level, base valve, new oil seal, dust seal, slide and piston metals, bottom adjuster gap and torque, outer chamber oil, refit and clicker reset.",
+  "excluded": [
+   "Damper internal revalving",
+   "Fork spring rate changes",
+   "Steering bearing service"
+  ],
+  "required_tools": [
+   {
+    "name": "Front stand",
+    "size": null
+   },
+   {
+    "name": "Cap bolt ring wrench and cap bolt wrench",
+    "size": null
+   },
+   {
+    "name": "Fork seal driver (48 mm)",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 0.6-115 N·m",
+    "size": null
+   },
+   {
+    "name": "Measuring cylinder and oil level gauge",
+    "size": null
+   },
+   {
+    "name": "Dial gauge and V-blocks",
+    "size": null
+   },
+   {
+    "name": "Plastic sleeve for the seal",
+    "size": null
+   },
+   {
+    "name": "Lithium-soap grease, threadlocker",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Oil seals and dust seals (2 each)",
+    "purpose": "Always renewed."
+   },
+   {
+    "name": "Slide metals and piston metals (2 each)",
+    "purpose": "Always renewed."
+   },
+   {
+    "name": "Copper washers (2)",
+    "purpose": "Always renewed."
+   },
+   {
+    "name": "Yamaha Suspension Oil S1",
+    "purpose": "About 1 L for both legs."
+   }
+  ],
+  "prerequisites": [
+   "Clicker settings recorded."
+  ],
+  "critical_stop_conditions": [
+   "Inner tube bent beyond 0.2 mm: replace, never straighten.",
+   "Locknut removed from the damper rod: stop; the rod can drop into the damper.",
+   "Oil levels not equal left and right: correct before riding.",
+   "Front brake soft or dragging after refit: fix before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the fork settings",
+    "instruction": "Count the rebound clicks (top) and compression clicks (bottom) from fully in, and note the fork leg height in the clamps.",
+    "depends_on": [],
+    "verification": [
+     "Clicker counts and fork height recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "stand",
+    "title": "Lift the front wheel",
+    "instruction": "Put the bike on a stand so the front wheel is off the ground and the bike cannot tip.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Front wheel off the ground, bike stable."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wheel-off",
+    "title": "Remove the front wheel",
+    "instruction": "Loosen the four axle pinch bolts, remove the axle nut, pull the axle and drop the wheel out, guiding the disc out of the caliper. Take the collars off the hub. Do not pull the brake lever with the wheel out.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Front wheel out, collars kept."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "caliper-off",
+    "title": "Move the brake aside",
+    "instruction": "Remove the number plate. Remove the front brake hose holder bolts and the two caliper bolts and hang the caliper clear with the hose still connected.",
+    "depends_on": [
+     "wheel-off"
+    ],
+    "verification": [
+     "Caliper hanging clear, hose not stretched."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "bar-off",
+    "title": "Remove the handlebar",
+    "instruction": "Remove the lower handlebar holder nuts and lift the handlebar off with its holders, leaving the controls on it; rest it so no cable or hose is kinked.",
+    "depends_on": [
+     "caliper-off"
+    ],
+    "verification": [
+     "Handlebar out of the way."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "legs-off",
+    "title": "Remove the fork legs",
+    "instruction": "Support each leg. Remove the fork protector. Loosen the upper pinch bolts, loosen the fork cap (damper assembly) with a cap bolt ring wrench, loosen the lower pinch bolts and slide the leg out. Repeat for the other side.",
+    "depends_on": [
+     "bar-off"
+    ],
+    "verification": [
+     "Both legs out, caps loosened."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Unscrew the cap and drain",
+    "instruction": "Unscrew the damper assembly from the outer tube, slide the outer tube down and pour the outer-chamber oil out into a pan.",
+    "depends_on": [
+     "legs-off"
+    ],
+    "verification": [
+     "Outer chamber drained."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "adjuster-off",
+    "title": "Release the bottom adjuster",
+    "instruction": "Compress the inner tube and set the cap bolt ring wrench between the inner tube and the locknut. Hold the locknut and unscrew the adjuster from the bottom of the leg. Never remove the locknut: the damper rod can drop into the damper and be lost.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Adjuster off, locknut still on the rod."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "damper-out",
+    "title": "Take out the damper and spring",
+    "instruction": "Remove the cap bolt ring wrench, lift the damper assembly out with the fork spring and spring seat, and take the damper adjusting rod out.",
+    "depends_on": [
+     "adjuster-off"
+    ],
+    "verification": [
+     "Damper, spring and rod out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tubes-apart",
+    "title": "Separate the tubes",
+    "instruction": "Prise off the dust seal and remove the seal retaining clip with a flat screwdriver without scratching the tube. Push the inner tube in slowly to just before it bottoms, then pull it back sharply; repeat until the tubes separate. Slide off the piston metal, slide metal, washer and oil seal.",
+    "depends_on": [
+     "damper-out"
+    ],
+    "verification": [
+     "Tubes apart, bushings and seal off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "base-valve-off",
+    "title": "Remove the base valve",
+    "instruction": "Record the compression setting, then hold the damper with the cap bolt ring wrench and unscrew the base valve with the cap bolt wrench. Drain the damper oil.",
+    "depends_on": [
+     "tubes-apart"
+    ],
+    "verification": [
+     "Base valve out, damper drained."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "inspect",
+    "title": "Inspect fork parts",
+    "instruction": "Inner tube: scratches can be cleaned with #1000 wet paper; a damaged oil lock piece or deep scoring means replacement. Inner tube bend limit 0.2 mm (0.01 in) (half the dial reading); never straighten a bent tube. Outer tube: scratches, wear or damage means replacement. Fork spring free length: standard 497.0 mm, limit 492.0 mm (19.37 in). Damper assembly: bends or damage; O-rings worn. Base valve: wear, damage, contamination; base valve bushing and spring; bleed screw. Upper spring seat contact face. Adjuster O-ring.",
+    "depends_on": [
+     "base-valve-off"
+    ],
+    "verification": [
+     "All fork parts inspected; measurements recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "damper-fill",
+    "title": "Fill and bleed the damper",
+    "instruction": "Stretch the damper fully and fill it with 216 cm³ (7.30 US oz) of Yamaha Suspension Oil S1. Pump the rod slowly up and down with about a 200 mm (7.9 in) stroke to bleed it; longer strokes pull air in (then start again). With the damper fully stretched, the oil level must be 145–148 mm (5.71–5.83 in) below its top.",
+    "depends_on": [
+     "inspect"
+    ],
+    "verification": [
+     "Damper oil level measured at 145-148 mm."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "base-valve-on",
+    "title": "Fit the base valve",
+    "instruction": "Finger-tighten the locknut fully onto the damper rod. Fully loosen the compression adjuster (record its setting first). Pull the damper rod out to build pressure, then screw the base valve in while letting the rod back. The damper must sit fully stretched; if not, start the fill again. Tighten the base valve to 28 N·m (21 lb·ft).",
+    "depends_on": [
+     "damper-fill"
+    ],
+    "verification": [
+     "Base valve 28 N·m; damper fully stretched."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "damper-settle",
+    "title": "Settle the damper oil",
+    "instruction": "Pump the damper slowly more than 10 times. Wrap it in a cloth, compress it fully and let the excess oil (about 10 cm³) overflow out of the base valve side hole. It must move smoothly with no tight spots; if not, repeat the fill.",
+    "depends_on": [
+     "base-valve-on"
+    ],
+    "verification": [
+     "Damper moves smoothly after overflow."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "seals-on",
+    "title": "Fit new seals and bushings to the inner tube",
+    "instruction": "Oil the inner tube. Slide on a new dust seal, the seal retaining clip, a new oil seal (numbered side down, over a plastic sleeve with fork oil to protect the lip), the washer and a new slide metal. Grease the dust seal and oil seal lips with lithium-soap grease. Fit a new piston metal into the inner tube slot.",
+    "depends_on": [
+     "damper-settle"
+    ],
+    "verification": [
+     "New seal, slide metal and piston metal on."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tubes-together",
+    "title": "Join the tubes and drive the seal",
+    "instruction": "Slide the outer tube on. Drive the slide metal and washer home with the fork seal driver, then drive the oil seal in until the clip groove is fully visible. Fit the retaining clip fully into its groove, then the dust seal. The tubes must slide smoothly.",
+    "depends_on": [
+     "seals-on"
+    ],
+    "verification": [
+     "Seal seated, clip in groove, tubes slide smoothly."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "locknut-height",
+    "title": "Set the locknut height",
+    "instruction": "The distance from the bottom of the damper assembly to the bottom of the locknut must be at least 16 mm (0.63 in); turn the locknut to correct it.",
+    "depends_on": [
+     "tubes-together"
+    ],
+    "verification": [
+     "Locknut distance measured, 16 mm or more."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "damper-in",
+    "title": "Fit spring and damper",
+    "instruction": "Fit the spring seat (larger end toward the spring) and the fork spring on the damper. Let the damper slide slowly down the inner tube until it reaches the bottom; do not drop it.",
+    "depends_on": [
+     "locknut-height"
+    ],
+    "verification": [
+     "Damper and spring in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "adjuster-on",
+    "title": "Refit the bottom adjuster",
+    "instruction": "Record and fully loosen the rebound adjuster. Fit the damper adjusting rod, a new copper washer and the adjuster, compress the inner tube and set the cap bolt ring wrench under the locknut, and finger-tighten the adjuster onto the damper. The gap between adjuster and locknut must be 0.5–1.0 mm (0.02–0.04 in). Hold the locknut and tighten the adjuster to 29 N·m (21 lb·ft). Then fit the adjuster into the inner tube with threadlocker at 55 N·m (41 lb·ft).",
+    "depends_on": [
+     "damper-in"
+    ],
+    "verification": [
+     "Gap 0.5-1.0 mm; 29 N·m; 55 N·m with threadlocker."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "outer-fill",
+    "title": "Fill the outer chamber",
+    "instruction": "Pour in 295 cm³ (9.97 US oz) of Yamaha Suspension Oil S1 (allowed range 260–365 cm³). Screw the damper assembly into the outer tube hand-tight and fit the protector guide.",
+    "depends_on": [
+     "adjuster-on"
+    ],
+    "verification": [
+     "Outer chamber filled with the recorded quantity."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "other-leg",
+    "title": "Do the other leg the same",
+    "instruction": "Repeat the bench steps on the other leg. Both legs must have the same oil quantities; uneven legs make the bike unstable.",
+    "depends_on": [
+     "outer-fill"
+    ],
+    "verification": [
+     "Both legs serviced with equal oil."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "legs-on",
+    "title": "Refit the forks",
+    "instruction": "Slide each leg in to its original height (standard: top of the outer tube 5 mm (0.20 in) above the upper clamp) and snug the lower pinch bolts. Tighten the fork cap to 30 N·m (22 lb·ft) with the ring wrench. Refit the handlebar with its lower holders and tighten the holder nuts to 40 N·m (30 lb·ft). Tighten the upper and lower pinch bolts to 21 N·m (15 lb·ft); do not over-tighten the lower ones, the fork will bind. Refit the protectors at 5 N·m (3.7 lb·ft).",
+    "depends_on": [
+     "other-leg"
+    ],
+    "verification": [
+     "Caps 30 N·m; pinch bolts 21 N·m; protectors torqued."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "caliper-on",
+    "title": "Refit the caliper and number plate",
+    "instruction": "Refit the caliper at 28 N·m (21 lb·ft), the brake hose holder bolts at 9 N·m (6.6 lb·ft) and the number plate at 7 N·m (5.2 lb·ft).",
+    "depends_on": [
+     "legs-on"
+    ],
+    "verification": [
+     "Caliper 28 N·m; holders 9 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-on",
+    "title": "Refit the front wheel",
+    "instruction": "Fit the collars, guide the disc between the pads and push the axle (greased with lithium-soap grease) through. Tighten the axle nut to 115 N·m (85 lb·ft). Before tightening the pinch bolts, push hard on the bars several times so the forks settle, then tighten the four axle pinch bolts to 21 N·m (15 lb·ft).",
+    "depends_on": [
+     "caliper-on"
+    ],
+    "verification": [
+     "Axle nut 115 N·m; pinch bolts 21 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "brake-check",
+    "title": "Pump up the front brake",
+    "instruction": "Pull the front brake lever until it is firm and check the wheel spins freely without the brake dragging.",
+    "depends_on": [
+     "wheel-on"
+    ],
+    "verification": [
+     "Lever firm, wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "clickers",
+    "title": "Restore the clickers",
+    "instruction": "Turn each damping adjuster in finger-tight and back out to the recorded setting.",
+    "depends_on": [
+     "brake-check"
+    ],
+    "verification": [
+     "Clickers back to the recorded settings."
+    ],
+    "record_required": true
+   }
+  ],
+  "target": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2020,
+   "variant": "standard",
+   "region": "US"
+  }
+ },
+ {
+  "id": "bak-yamaha-yz450f-fork-full-service-v1-2021",
+  "component": "fork",
+  "affected_components": [
+   "fork",
+   "front_wheel",
+   "front_brake",
+   "steering"
+  ],
+  "entry_state": [
+   "Bike cold and clean, on a stand."
+  ],
+  "exit_state": [
+   "Both legs rebuilt with new seals and bushings, damper and outer oil set, forks refitted at the recorded height with every torque, front brake checked."
+  ],
+  "title": "Full fork service: seals, bushings and oil (both legs)",
+  "completeness": "Covers front wheel and caliper removal, fork removal, full strip, inspection, damper fill and bleed with level, base valve, new oil seal, dust seal, slide and piston metals, bottom adjuster gap and torque, outer chamber oil, refit and clicker reset.",
+  "excluded": [
+   "Damper internal revalving",
+   "Fork spring rate changes",
+   "Steering bearing service"
+  ],
+  "required_tools": [
+   {
+    "name": "Front stand",
+    "size": null
+   },
+   {
+    "name": "Cap bolt ring wrench and cap bolt wrench",
+    "size": null
+   },
+   {
+    "name": "Fork seal driver (48 mm)",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 0.6-115 N·m",
+    "size": null
+   },
+   {
+    "name": "Measuring cylinder and oil level gauge",
+    "size": null
+   },
+   {
+    "name": "Dial gauge and V-blocks",
+    "size": null
+   },
+   {
+    "name": "Plastic sleeve for the seal",
+    "size": null
+   },
+   {
+    "name": "Lithium-soap grease, threadlocker",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Oil seals and dust seals (2 each)",
+    "purpose": "Always renewed."
+   },
+   {
+    "name": "Slide metals and piston metals (2 each)",
+    "purpose": "Always renewed."
+   },
+   {
+    "name": "Copper washers (2)",
+    "purpose": "Always renewed."
+   },
+   {
+    "name": "Yamaha Suspension Oil S1",
+    "purpose": "About 1 L for both legs."
+   }
+  ],
+  "prerequisites": [
+   "Clicker settings recorded."
+  ],
+  "critical_stop_conditions": [
+   "Inner tube bent beyond 0.2 mm: replace, never straighten.",
+   "Locknut removed from the damper rod: stop; the rod can drop into the damper.",
+   "Oil levels not equal left and right: correct before riding.",
+   "Front brake soft or dragging after refit: fix before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the fork settings",
+    "instruction": "Count the rebound clicks (top) and compression clicks (bottom) from fully in, and note the fork leg height in the clamps.",
+    "depends_on": [],
+    "verification": [
+     "Clicker counts and fork height recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "stand",
+    "title": "Lift the front wheel",
+    "instruction": "Put the bike on a stand so the front wheel is off the ground and the bike cannot tip.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Front wheel off the ground, bike stable."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wheel-off",
+    "title": "Remove the front wheel",
+    "instruction": "Loosen the four axle pinch bolts, remove the axle nut, pull the axle and drop the wheel out, guiding the disc out of the caliper. Take the collars off the hub. Do not pull the brake lever with the wheel out.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Front wheel out, collars kept."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "caliper-off",
+    "title": "Move the brake aside",
+    "instruction": "Remove the number plate. Remove the front brake hose holder bolts and the two caliper bolts and hang the caliper clear with the hose still connected.",
+    "depends_on": [
+     "wheel-off"
+    ],
+    "verification": [
+     "Caliper hanging clear, hose not stretched."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "bar-off",
+    "title": "Remove the handlebar",
+    "instruction": "Remove the lower handlebar holder nuts and lift the handlebar off with its holders, leaving the controls on it; rest it so no cable or hose is kinked.",
+    "depends_on": [
+     "caliper-off"
+    ],
+    "verification": [
+     "Handlebar out of the way."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "legs-off",
+    "title": "Remove the fork legs",
+    "instruction": "Support each leg. Remove the fork protector. Loosen the upper pinch bolts, loosen the fork cap (damper assembly) with a cap bolt ring wrench, loosen the lower pinch bolts and slide the leg out. Repeat for the other side.",
+    "depends_on": [
+     "bar-off"
+    ],
+    "verification": [
+     "Both legs out, caps loosened."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Unscrew the cap and drain",
+    "instruction": "Unscrew the damper assembly from the outer tube, slide the outer tube down and pour the outer-chamber oil out into a pan.",
+    "depends_on": [
+     "legs-off"
+    ],
+    "verification": [
+     "Outer chamber drained."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "adjuster-off",
+    "title": "Release the bottom adjuster",
+    "instruction": "Compress the inner tube and set the cap bolt ring wrench between the inner tube and the locknut. Hold the locknut and unscrew the adjuster from the bottom of the leg. Never remove the locknut: the damper rod can drop into the damper and be lost.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Adjuster off, locknut still on the rod."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "damper-out",
+    "title": "Take out the damper and spring",
+    "instruction": "Remove the cap bolt ring wrench, lift the damper assembly out with the fork spring and spring seat, and take the damper adjusting rod out.",
+    "depends_on": [
+     "adjuster-off"
+    ],
+    "verification": [
+     "Damper, spring and rod out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tubes-apart",
+    "title": "Separate the tubes",
+    "instruction": "Prise off the dust seal and remove the seal retaining clip with a flat screwdriver without scratching the tube. Push the inner tube in slowly to just before it bottoms, then pull it back sharply; repeat until the tubes separate. Slide off the piston metal, slide metal, washer and oil seal.",
+    "depends_on": [
+     "damper-out"
+    ],
+    "verification": [
+     "Tubes apart, bushings and seal off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "base-valve-off",
+    "title": "Remove the base valve",
+    "instruction": "Record the compression setting, then hold the damper with the cap bolt ring wrench and unscrew the base valve with the cap bolt wrench. Drain the damper oil.",
+    "depends_on": [
+     "tubes-apart"
+    ],
+    "verification": [
+     "Base valve out, damper drained."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "inspect",
+    "title": "Inspect fork parts",
+    "instruction": "Inner tube: scratches can be cleaned with #1000 wet paper; a damaged oil lock piece or deep scoring means replacement. Inner tube bend limit 0.2 mm (0.01 in) (half the dial reading); never straighten a bent tube. Outer tube: scratches, wear or damage means replacement. Fork spring free length: limit 492.0 mm (19.37 in). Damper assembly: bends or damage; O-rings worn. Base valve: wear, damage, contamination; base valve bushing and spring; bleed screw. Upper spring seat contact face. Adjuster O-ring.",
+    "depends_on": [
+     "base-valve-off"
+    ],
+    "verification": [
+     "All fork parts inspected; measurements recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "damper-fill",
+    "title": "Fill and bleed the damper",
+    "instruction": "Stretch the damper fully and fill it with 216 cm³ (7.30 US oz) of Yamaha Suspension Oil S1. Pump the rod slowly up and down with about a 200 mm (7.9 in) stroke to bleed it; longer strokes pull air in (then start again). With the damper fully stretched, the oil level must be 145–148 mm (5.71–5.83 in) below its top.",
+    "depends_on": [
+     "inspect"
+    ],
+    "verification": [
+     "Damper oil level measured at 145-148 mm."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "base-valve-on",
+    "title": "Fit the base valve",
+    "instruction": "Finger-tighten the locknut fully onto the damper rod. Fully loosen the compression adjuster (record its setting first). Pull the damper rod out to build pressure, then screw the base valve in while letting the rod back. The damper must sit fully stretched; if not, start the fill again. Tighten the base valve to 28 N·m (21 lb·ft).",
+    "depends_on": [
+     "damper-fill"
+    ],
+    "verification": [
+     "Base valve 28 N·m; damper fully stretched."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "damper-settle",
+    "title": "Settle the damper oil",
+    "instruction": "Pump the damper slowly more than 10 times. Wrap it in a cloth, compress it fully and let the excess oil (about 10 cm³) overflow out of the base valve side hole. It must move smoothly with no tight spots; if not, repeat the fill.",
+    "depends_on": [
+     "base-valve-on"
+    ],
+    "verification": [
+     "Damper moves smoothly after overflow."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "seals-on",
+    "title": "Fit new seals and bushings to the inner tube",
+    "instruction": "Oil the inner tube. Slide on a new dust seal, the seal retaining clip, a new oil seal (numbered side down, over a plastic sleeve with fork oil to protect the lip), the washer and a new slide metal. Grease the dust seal and oil seal lips with lithium-soap grease. Fit a new piston metal into the inner tube slot.",
+    "depends_on": [
+     "damper-settle"
+    ],
+    "verification": [
+     "New seal, slide metal and piston metal on."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tubes-together",
+    "title": "Join the tubes and drive the seal",
+    "instruction": "Slide the outer tube on. Drive the slide metal and washer home with the fork seal driver, then drive the oil seal in until the clip groove is fully visible. Fit the retaining clip fully into its groove, then the dust seal. The tubes must slide smoothly.",
+    "depends_on": [
+     "seals-on"
+    ],
+    "verification": [
+     "Seal seated, clip in groove, tubes slide smoothly."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "locknut-height",
+    "title": "Set the locknut height",
+    "instruction": "The distance from the bottom of the damper assembly to the bottom of the locknut must be at least 16 mm (0.63 in); turn the locknut to correct it.",
+    "depends_on": [
+     "tubes-together"
+    ],
+    "verification": [
+     "Locknut distance measured, 16 mm or more."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "damper-in",
+    "title": "Fit spring and damper",
+    "instruction": "Fit the spring seat (larger end toward the spring) and the fork spring on the damper. Let the damper slide slowly down the inner tube until it reaches the bottom; do not drop it.",
+    "depends_on": [
+     "locknut-height"
+    ],
+    "verification": [
+     "Damper and spring in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "adjuster-on",
+    "title": "Refit the bottom adjuster",
+    "instruction": "Record and fully loosen the rebound adjuster. Fit the damper adjusting rod, a new copper washer and the adjuster, compress the inner tube and set the cap bolt ring wrench under the locknut, and finger-tighten the adjuster onto the damper. The gap between adjuster and locknut must be 0.5–1.0 mm (0.02–0.04 in). Hold the locknut and tighten the adjuster to 29 N·m (21 lb·ft). Then fit the adjuster into the inner tube with threadlocker at 55 N·m (41 lb·ft).",
+    "depends_on": [
+     "damper-in"
+    ],
+    "verification": [
+     "Gap 0.5-1.0 mm; 29 N·m; 55 N·m with threadlocker."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "outer-fill",
+    "title": "Fill the outer chamber",
+    "instruction": "Pour in 295 cm³ (9.97 US oz) of Yamaha Suspension Oil S1 (allowed range 260–365 cm³). Screw the damper assembly into the outer tube hand-tight and fit the protector guide.",
+    "depends_on": [
+     "adjuster-on"
+    ],
+    "verification": [
+     "Outer chamber filled with the recorded quantity."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "other-leg",
+    "title": "Do the other leg the same",
+    "instruction": "Repeat the bench steps on the other leg. Both legs must have the same oil quantities; uneven legs make the bike unstable.",
+    "depends_on": [
+     "outer-fill"
+    ],
+    "verification": [
+     "Both legs serviced with equal oil."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "legs-on",
+    "title": "Refit the forks",
+    "instruction": "Slide each leg in to its original height (standard: top of the outer tube 5 mm (0.20 in) above the upper clamp) and snug the lower pinch bolts. Tighten the fork cap to 30 N·m (22 lb·ft) with the ring wrench. Refit the handlebar with its lower holders and tighten the holder nuts to 40 N·m (30 lb·ft). Tighten the upper and lower pinch bolts to 21 N·m (15 lb·ft); do not over-tighten the lower ones, the fork will bind. Refit the protectors at 5 N·m (3.7 lb·ft).",
+    "depends_on": [
+     "other-leg"
+    ],
+    "verification": [
+     "Caps 30 N·m; pinch bolts 21 N·m; protectors torqued."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "caliper-on",
+    "title": "Refit the caliper and number plate",
+    "instruction": "Refit the caliper at 28 N·m (21 lb·ft), the brake hose holder bolts at 9 N·m (6.6 lb·ft) and the number plate at 7 N·m (5.2 lb·ft).",
+    "depends_on": [
+     "legs-on"
+    ],
+    "verification": [
+     "Caliper 28 N·m; holders 9 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-on",
+    "title": "Refit the front wheel",
+    "instruction": "Fit the collars, guide the disc between the pads and push the axle (greased with lithium-soap grease) through. Tighten the axle nut to 115 N·m (85 lb·ft). Before tightening the pinch bolts, push hard on the bars several times so the forks settle, then tighten the four axle pinch bolts to 21 N·m (15 lb·ft).",
+    "depends_on": [
+     "caliper-on"
+    ],
+    "verification": [
+     "Axle nut 115 N·m; pinch bolts 21 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "brake-check",
+    "title": "Pump up the front brake",
+    "instruction": "Pull the front brake lever until it is firm and check the wheel spins freely without the brake dragging.",
+    "depends_on": [
+     "wheel-on"
+    ],
+    "verification": [
+     "Lever firm, wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "clickers",
+    "title": "Restore the clickers",
+    "instruction": "Turn each damping adjuster in finger-tight and back out to the recorded setting.",
+    "depends_on": [
+     "brake-check"
+    ],
+    "verification": [
+     "Clickers back to the recorded settings."
+    ],
+    "record_required": true
+   }
+  ],
+  "target": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2021,
+   "variant": "standard",
+   "region": "US"
+  }
+ },
+ {
+  "id": "bak-yamaha-yz450f-fork-full-service-v1-2027",
+  "component": "fork",
+  "affected_components": [
+   "fork",
+   "front_wheel",
+   "front_brake",
+   "steering"
+  ],
+  "entry_state": [
+   "Bike cold and clean, on a stand."
+  ],
+  "exit_state": [
+   "Both legs rebuilt with new seals and bushings, damper and outer oil set, forks refitted at the recorded height with every torque, front brake checked."
+  ],
+  "title": "Full fork service: seals, bushings and oil (both legs)",
+  "completeness": "Covers front wheel and caliper removal, fork removal, full strip, inspection, damper fill and bleed with level, base valve, new oil seal, dust seal, slide and piston metals, bottom adjuster gap and torque, outer chamber oil, refit and clicker reset.",
+  "excluded": [
+   "Damper internal revalving",
+   "Fork spring rate changes",
+   "Steering bearing service"
+  ],
+  "required_tools": [
+   {
+    "name": "Front stand",
+    "size": null
+   },
+   {
+    "name": "Cap bolt ring wrench and cap bolt wrench",
+    "size": null
+   },
+   {
+    "name": "Fork seal driver (48 mm)",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 0.6-115 N·m",
+    "size": null
+   },
+   {
+    "name": "Measuring cylinder and oil level gauge",
+    "size": null
+   },
+   {
+    "name": "Dial gauge and V-blocks",
+    "size": null
+   },
+   {
+    "name": "Plastic sleeve for the seal",
+    "size": null
+   },
+   {
+    "name": "Lithium-soap grease, threadlocker",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Oil seals and dust seals (2 each)",
+    "purpose": "Always renewed."
+   },
+   {
+    "name": "Slide metals and piston metals (2 each)",
+    "purpose": "Always renewed."
+   },
+   {
+    "name": "Copper washers (2)",
+    "purpose": "Always renewed."
+   },
+   {
+    "name": "Yamaha Suspension Oil S1",
+    "purpose": "About 1 L for both legs."
+   }
+  ],
+  "prerequisites": [
+   "Clicker settings recorded."
+  ],
+  "critical_stop_conditions": [
+   "Inner tube bent beyond 0.2 mm: replace, never straighten.",
+   "Locknut removed from the damper rod: stop; the rod can drop into the damper.",
+   "Oil levels not equal left and right: correct before riding.",
+   "Front brake soft or dragging after refit: fix before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the fork settings",
+    "instruction": "Count the rebound clicks (top) and compression clicks (bottom) from fully in, and note the fork leg height in the clamps.",
+    "depends_on": [],
+    "verification": [
+     "Clicker counts and fork height recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "stand",
+    "title": "Lift the front wheel",
+    "instruction": "Put the bike on a stand so the front wheel is off the ground and the bike cannot tip.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Front wheel off the ground, bike stable."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wheel-off",
+    "title": "Remove the front wheel",
+    "instruction": "Loosen the four axle pinch bolts, remove the axle nut, pull the axle and drop the wheel out, guiding the disc out of the caliper. Take the collars off the hub. Do not pull the brake lever with the wheel out.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Front wheel out, collars kept."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "caliper-off",
+    "title": "Move the brake aside",
+    "instruction": "Remove the number plate. Remove the front brake hose holder bolts and the two caliper bolts and hang the caliper clear with the hose still connected.",
+    "depends_on": [
+     "wheel-off"
+    ],
+    "verification": [
+     "Caliper hanging clear, hose not stretched."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "legs-off",
+    "title": "Remove the fork legs",
+    "instruction": "Support each leg. Remove the fork protector. Loosen the upper pinch bolts, loosen the fork cap (damper assembly) with a cap bolt ring wrench, loosen the lower pinch bolts and slide the leg out. Repeat for the other side.",
+    "depends_on": [
+     "caliper-off"
+    ],
+    "verification": [
+     "Both legs out, caps loosened."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Unscrew the cap and drain",
+    "instruction": "Unscrew the damper assembly from the outer tube, slide the outer tube down and pour the outer-chamber oil out into a pan.",
+    "depends_on": [
+     "legs-off"
+    ],
+    "verification": [
+     "Outer chamber drained."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "adjuster-off",
+    "title": "Release the bottom adjuster",
+    "instruction": "Compress the inner tube and set the cap bolt ring wrench between the inner tube and the locknut. Hold the locknut and unscrew the adjuster from the bottom of the leg. Never remove the locknut: the damper rod can drop into the damper and be lost.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Adjuster off, locknut still on the rod."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "damper-out",
+    "title": "Take out the damper and spring",
+    "instruction": "Remove the cap bolt ring wrench, lift the damper assembly out with the fork spring and spring seat, and take the damper adjusting rod out.",
+    "depends_on": [
+     "adjuster-off"
+    ],
+    "verification": [
+     "Damper, spring and rod out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tubes-apart",
+    "title": "Separate the tubes",
+    "instruction": "Prise off the dust seal and scraper and remove the seal retaining clip with a flat screwdriver without scratching the tube. Push the inner tube in slowly to just before it bottoms, then pull it back sharply; repeat until the tubes separate. Slide off the piston metal, slide metal, washer and oil seal.",
+    "depends_on": [
+     "damper-out"
+    ],
+    "verification": [
+     "Tubes apart, bushings and seal off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "base-valve-off",
+    "title": "Remove the base valve",
+    "instruction": "Record the compression setting, then hold the damper with the cap bolt ring wrench and unscrew the base valve with the cap bolt wrench. Remove the adjuster knob first. Drain the damper oil.",
+    "depends_on": [
+     "tubes-apart"
+    ],
+    "verification": [
+     "Base valve out, damper drained."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "inspect",
+    "title": "Inspect fork parts",
+    "instruction": "Inner tube: scratches can be cleaned with #1000 wet paper; a damaged oil lock piece or deep scoring means replacement. Inner tube bend limit 0.2 mm (0.01 in) (half the dial reading); never straighten a bent tube. Outer tube: scratches, wear or damage means replacement. Fork spring free length: limit 492.0 mm (19.37 in). Damper assembly: bends or damage; O-rings worn. Base valve: wear, damage, contamination; base valve bushing and spring; bleed screw. Upper spring seat contact face. Adjuster O-ring. Scraper.",
+    "depends_on": [
+     "base-valve-off"
+    ],
+    "verification": [
+     "All fork parts inspected; measurements recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "damper-fill",
+    "title": "Fill and bleed the damper",
+    "instruction": "Stretch the damper fully and fill it with 216 cm³ (7.30 US oz) of Yamaha Suspension Oil S1. Pump the rod slowly up and down with about a 200 mm (7.9 in) stroke to bleed it; longer strokes pull air in (then start again). With the damper fully stretched, the oil level must be 145–148 mm (5.71–5.83 in) below its top.",
+    "depends_on": [
+     "inspect"
+    ],
+    "verification": [
+     "Damper oil level measured at 145-148 mm."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "base-valve-on",
+    "title": "Fit the base valve",
+    "instruction": "Finger-tighten the locknut fully onto the damper rod. Pull the damper rod out to build pressure, then screw the base valve in while letting the rod back. The damper must sit fully stretched; if not, start the fill again. Tighten the base valve to 28 N·m (21 lb·ft) and the adjuster knob screw to 0.6 N·m (0.44 lb·ft).",
+    "depends_on": [
+     "damper-fill"
+    ],
+    "verification": [
+     "Base valve 28 N·m; damper fully stretched."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "damper-settle",
+    "title": "Settle the damper oil",
+    "instruction": "Pump the damper slowly more than 10 times. Wrap it in a cloth, compress it fully and let the excess oil (about 10 cm³) overflow out of the base valve side hole. It must move smoothly with no tight spots; if not, repeat the fill.",
+    "depends_on": [
+     "base-valve-on"
+    ],
+    "verification": [
+     "Damper moves smoothly after overflow."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "seals-on",
+    "title": "Fit new seals and bushings to the inner tube",
+    "instruction": "Oil the inner tube. Slide on a new dust seal, scraper (fitted as pictured on the tube), the seal retaining clip, a new oil seal (numbered side down, over a plastic sleeve with fork oil to protect the lip), the washer and a new slide metal. Grease the dust seal and oil seal lips with lithium-soap grease. Fit a new piston metal into the inner tube slot.",
+    "depends_on": [
+     "damper-settle"
+    ],
+    "verification": [
+     "New seal, slide metal and piston metal on."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tubes-together",
+    "title": "Join the tubes and drive the seal",
+    "instruction": "Slide the outer tube on. Drive the slide metal and washer home with the fork seal driver, then drive the oil seal in until the clip groove is fully visible. Fit the retaining clip fully into its groove, then the scraper and dust seal. The tubes must slide smoothly.",
+    "depends_on": [
+     "seals-on"
+    ],
+    "verification": [
+     "Seal seated, clip in groove, tubes slide smoothly."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "locknut-height",
+    "title": "Set the locknut height",
+    "instruction": "The distance from the bottom of the damper assembly to the bottom of the locknut must be at least 16 mm (0.63 in); turn the locknut to correct it.",
+    "depends_on": [
+     "tubes-together"
+    ],
+    "verification": [
+     "Locknut distance measured, 16 mm or more."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "damper-in",
+    "title": "Fit spring and damper",
+    "instruction": "Fit the spring seat (larger end toward the spring) and the fork spring on the damper. Let the damper slide slowly down the inner tube until it reaches the bottom; do not drop it.",
+    "depends_on": [
+     "locknut-height"
+    ],
+    "verification": [
+     "Damper and spring in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "adjuster-on",
+    "title": "Refit the bottom adjuster",
+    "instruction": "Record and fully loosen the rebound adjuster. Fit the damper adjusting rod, a new copper washer and the adjuster, compress the inner tube and set the cap bolt ring wrench under the locknut, and finger-tighten the adjuster onto the damper. The gap between adjuster and locknut must be 0.5–1.0 mm (0.02–0.04 in). Hold the locknut and tighten the adjuster to 29 N·m (21 lb·ft). Then fit the adjuster into the inner tube with threadlocker at 55 N·m (41 lb·ft).",
+    "depends_on": [
+     "damper-in"
+    ],
+    "verification": [
+     "Gap 0.5-1.0 mm; 29 N·m; 55 N·m with threadlocker."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "outer-fill",
+    "title": "Fill the outer chamber",
+    "instruction": "Pour in 295.0 cm³ (9.97 US oz) of Yamaha Suspension Oil S1 (allowed range 260–365 cm³). Screw the damper assembly into the outer tube hand-tight and fit the protector guide.",
+    "depends_on": [
+     "adjuster-on"
+    ],
+    "verification": [
+     "Outer chamber filled with the recorded quantity."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "other-leg",
+    "title": "Do the other leg the same",
+    "instruction": "Repeat the bench steps on the other leg. Both legs must have the same oil quantities; uneven legs make the bike unstable.",
+    "depends_on": [
+     "outer-fill"
+    ],
+    "verification": [
+     "Both legs serviced with equal oil."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "legs-on",
+    "title": "Refit the forks",
+    "instruction": "Slide each leg in to its original height (standard: top of the outer tube 2 mm (0.1 in) above the upper clamp) and snug the lower pinch bolts. Tighten the fork cap to 30 N·m (22 lb·ft) with the ring wrench. Tighten the upper and lower pinch bolts to 21 N·m (15 lb·ft); do not over-tighten the lower ones, the fork will bind. Refit the protectors at 7 N·m (5.2 lb·ft).",
+    "depends_on": [
+     "other-leg"
+    ],
+    "verification": [
+     "Caps 30 N·m; pinch bolts 21 N·m; protectors torqued."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "caliper-on",
+    "title": "Refit the caliper and number plate",
+    "instruction": "Refit the caliper at 28 N·m (21 lb·ft), the brake hose holder bolts at 9 N·m (6.6 lb·ft) and the number plate at 7 N·m (5.2 lb·ft).",
+    "depends_on": [
+     "legs-on"
+    ],
+    "verification": [
+     "Caliper 28 N·m; holders 9 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-on",
+    "title": "Refit the front wheel",
+    "instruction": "Fit the collars, guide the disc between the pads and push the axle (greased with lithium-soap grease) through. Tighten the axle nut to 115 N·m (85 lb·ft). Before tightening the pinch bolts, push hard on the bars several times so the forks settle, then tighten the four axle pinch bolts to 21 N·m (15 lb·ft).",
+    "depends_on": [
+     "caliper-on"
+    ],
+    "verification": [
+     "Axle nut 115 N·m; pinch bolts 21 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "brake-check",
+    "title": "Pump up the front brake",
+    "instruction": "Pull the front brake lever until it is firm and check the wheel spins freely without the brake dragging.",
+    "depends_on": [
+     "wheel-on"
+    ],
+    "verification": [
+     "Lever firm, wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "clickers",
+    "title": "Restore the clickers",
+    "instruction": "Turn each damping adjuster in finger-tight and back out to the recorded setting.",
+    "depends_on": [
+     "brake-check"
+    ],
+    "verification": [
+     "Clickers back to the recorded settings."
+    ],
+    "record_required": true
+   }
+  ],
+  "target": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2027,
+   "variant": "standard",
+   "region": "US"
+  }
+ },
+ {
+  "id": "bak-yamaha-yz450f-wheel-bearings-v1-2018",
+  "component": "frame",
+  "affected_components": [
+   "front_wheel",
+   "rear_wheel",
+   "chain",
+   "brakes"
+  ],
+  "entry_state": [
+   "Bike on a stand, wheels clean."
+  ],
+  "exit_state": [
+   "Both wheels checked, bearings and seals renewed where needed, wheels refitted with axle torques and chain slack set."
+  ],
+  "title": "Renew front and rear wheel bearings and seals",
+  "completeness": "Covers wheel removal, axle and runout checks, bearing and seal removal and fitting order (front: left first; rear: right side with circlip first), seal fitting and refit with every torque.",
+  "excluded": [
+   "Tyre changes",
+   "Spoke truing",
+   "Sprocket replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand",
+    "size": null
+   },
+   {
+    "name": "Bearing puller",
+    "size": null
+   },
+   {
+    "name": "Sockets or drivers matching the bearing outer races",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 12-135 N·m",
+    "size": null
+   },
+   {
+    "name": "Dial gauge for runout",
+    "size": null
+   },
+   {
+    "name": "Lithium-soap grease",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Front wheel bearings (2) and seals (2)",
+    "purpose": "Renewed when rough or loose."
+   },
+   {
+    "name": "Rear wheel bearings (3), circlip and seals (2)",
+    "purpose": "Renewed when rough or loose."
+   }
+  ],
+  "prerequisites": [
+   "Wheels clean."
+  ],
+  "critical_stop_conditions": [
+   "Bent axle: replace, never straighten.",
+   "Bearing bore in the hub damaged or loose: stop; the hub needs repair.",
+   "Brake soft or dragging after refit: fix before riding."
+  ],
+  "steps": [
+   {
+    "id": "stand",
+    "title": "Lift the front wheel",
+    "instruction": "Put the bike on a stand so the front wheel is off the ground and the bike cannot tip.",
+    "depends_on": [],
+    "verification": [
+     "Front wheel off the ground, bike stable."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wheel-off",
+    "title": "Remove the front wheel",
+    "instruction": "Loosen the four axle pinch bolts, remove the axle nut, pull the axle and drop the wheel out, guiding the disc out of the caliper. Take the collars off the hub. Do not pull the brake lever with the wheel out.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Front wheel out, collars kept."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "front-check",
+    "title": "Check the front wheel",
+    "instruction": "Roll the axle on a flat surface (bent axle: replace, never straighten; bend limit 0.50 mm). Check radial and lateral runout: limit 2.0 mm (0.08 in) each. Turn each bearing by finger: rough or loose means both bearings and seals are renewed. Check collars and seals.",
+    "depends_on": [
+     "wheel-off"
+    ],
+    "verification": [
+     "Axle, runout and bearing condition recorded."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "front-ok",
+      "label": "Front bearings good",
+      "next_step": "wheel-on",
+      "condition": "Both front bearings turn smoothly with no play and the seals are undamaged."
+     }
+    ]
+   },
+   {
+    "id": "front-out",
+    "title": "Remove the front bearings",
+    "instruction": "Clean the hub. Prise out both seals with a flat screwdriver over a rag to protect the hub. Pull the bearings out with a bearing puller and take out the spacer.",
+    "depends_on": [
+     "front-check"
+    ],
+    "verification": [
+     "Front seals, bearings and spacer out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "front-in",
+    "title": "Fit new front bearings",
+    "instruction": "Grease the new bearings and the seal lips with lithium-soap grease. Press the left bearing in first, square, pushing only on its outer race with a socket the size of the outer race. Fit the spacer, then press in the right bearing. Fit new seals, maker marks facing out, squarely to the shoulder, flush with the hub face.",
+    "depends_on": [
+     "front-out"
+    ],
+    "verification": [
+     "New bearings and seals fitted square."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-on",
+    "title": "Refit the front wheel",
+    "instruction": "Fit the collars, guide the disc between the pads and push the axle (greased with lithium-soap grease) through. Tighten the axle nut to 112 N·m (83 lb·ft). Before tightening the pinch bolts, push hard on the bars several times so the forks settle, then tighten the four axle pinch bolts to 21 N·m (15 lb·ft).",
+    "depends_on": [
+     "front-in"
+    ],
+    "verification": [
+     "Axle nut 112 N·m; pinch bolts 21 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "brake-check",
+    "title": "Pump up the front brake",
+    "instruction": "Pull the front brake lever until it is firm and check the wheel spins freely without the brake dragging.",
+    "depends_on": [
+     "wheel-on"
+    ],
+    "verification": [
+     "Lever firm, wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-stand",
+    "title": "Lift the rear wheel",
+    "instruction": "Put the bike on a stand so the rear wheel is off the ground.",
+    "depends_on": [
+     "brake-check"
+    ],
+    "verification": [
+     "Rear wheel off the ground."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-off",
+    "title": "Remove the rear wheel",
+    "instruction": "Remove the axle nut, loosen the adjuster locknuts and screw the adjusters in, pull the axle, push the wheel forward and lift the chain off the sprocket, then drop the wheel out with the disc clear of the caliper. Keep the collars and chain pullers. Do not press the brake pedal with the wheel out.",
+    "depends_on": [
+     "rear-stand"
+    ],
+    "verification": [
+     "Rear wheel out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-check",
+    "title": "Check the rear wheel",
+    "instruction": "Roll the axle (bend limit 0.50 mm). Radial and lateral runout limit 2.0 mm (0.08 in). Check the sprocket for more than 1/4 tooth wear or bent teeth. Turn each bearing by finger: rough or loose means all three bearings and both seals are renewed.",
+    "depends_on": [
+     "rear-off"
+    ],
+    "verification": [
+     "Axle, runout, sprocket and bearing condition recorded."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "rear-ok",
+      "label": "Rear bearings good",
+      "next_step": "rear-on",
+      "condition": "All three rear bearings turn smoothly with no play and the seals are undamaged."
+     }
+    ]
+   },
+   {
+    "id": "rear-out",
+    "title": "Remove the rear bearings",
+    "instruction": "Prise out both seals over a rag, remove the circlip on the right (brake) side and pull the bearings with a bearing puller; take out the spacer.",
+    "depends_on": [
+     "rear-check"
+    ],
+    "verification": [
+     "Rear seals, circlip, bearings and spacer out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-in",
+    "title": "Fit new rear bearings",
+    "instruction": "Grease the new bearings and the seal lips with lithium-soap grease. Press the right-side bearing in first, by its outer race only, and fit a new circlip. Fit the spacer, then press in the two left-side bearings. Fit new seals, maker marks out, squarely, flush with the hub face.",
+    "depends_on": [
+     "rear-out"
+    ],
+    "verification": [
+     "New bearings, circlip and seals fitted."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "rear-on",
+    "title": "Refit the rear wheel",
+    "instruction": "Fit the collars and put the wheel in with the disc between the pads. Fit the chain on the sprocket. Fit the left chain puller and push the greased axle in from the left, then the right puller, washer and nut. Set chain slack to 50–60 mm (1.97–2.36 in) with both adjusters equal and the wheel pushed forward against the pullers. Tighten the axle nut to 134 N·m (100 lb·ft) and the adjuster locknuts to 21 N·m (15 lb·ft).",
+    "depends_on": [
+     "rear-in"
+    ],
+    "verification": [
+     "Slack in range; axle nut and locknuts torqued."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "rear-brake",
+    "title": "Check the rear brake",
+    "instruction": "Press the brake pedal until it is firm and check the wheel spins freely.",
+    "depends_on": [
+     "rear-on"
+    ],
+    "verification": [
+     "Pedal firm, wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "discs",
+    "title": "Check disc bolts",
+    "instruction": "If a disc was removed, refit it with threadlocker and tighten its bolts in stages criss-cross to 12 N·m (8.9 lb·ft).",
+    "depends_on": [
+     "rear-brake"
+    ],
+    "verification": [
+     "Disc bolts torqued if disturbed."
+    ],
+    "record_required": true
+   }
+  ],
+  "target": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2018,
+   "variant": "standard",
+   "region": "US"
+  }
+ },
+ {
+  "id": "bak-yamaha-yz450f-wheel-bearings-v1-2019",
+  "component": "frame",
+  "affected_components": [
+   "front_wheel",
+   "rear_wheel",
+   "chain",
+   "brakes"
+  ],
+  "entry_state": [
+   "Bike on a stand, wheels clean."
+  ],
+  "exit_state": [
+   "Both wheels checked, bearings and seals renewed where needed, wheels refitted with axle torques and chain slack set."
+  ],
+  "title": "Renew front and rear wheel bearings and seals",
+  "completeness": "Covers wheel removal, axle and runout checks, bearing and seal removal and fitting order (front: left first; rear: right side with circlip first), seal fitting and refit with every torque.",
+  "excluded": [
+   "Tyre changes",
+   "Spoke truing",
+   "Sprocket replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand",
+    "size": null
+   },
+   {
+    "name": "Bearing puller",
+    "size": null
+   },
+   {
+    "name": "Sockets or drivers matching the bearing outer races",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 12-135 N·m",
+    "size": null
+   },
+   {
+    "name": "Dial gauge for runout",
+    "size": null
+   },
+   {
+    "name": "Lithium-soap grease",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Front wheel bearings (2) and seals (2)",
+    "purpose": "Renewed when rough or loose."
+   },
+   {
+    "name": "Rear wheel bearings (3), circlip and seals (2)",
+    "purpose": "Renewed when rough or loose."
+   }
+  ],
+  "prerequisites": [
+   "Wheels clean."
+  ],
+  "critical_stop_conditions": [
+   "Bent axle: replace, never straighten.",
+   "Bearing bore in the hub damaged or loose: stop; the hub needs repair.",
+   "Brake soft or dragging after refit: fix before riding."
+  ],
+  "steps": [
+   {
+    "id": "stand",
+    "title": "Lift the front wheel",
+    "instruction": "Put the bike on a stand so the front wheel is off the ground and the bike cannot tip.",
+    "depends_on": [],
+    "verification": [
+     "Front wheel off the ground, bike stable."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wheel-off",
+    "title": "Remove the front wheel",
+    "instruction": "Loosen the four axle pinch bolts, remove the axle nut, pull the axle and drop the wheel out, guiding the disc out of the caliper. Take the collars off the hub. Do not pull the brake lever with the wheel out.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Front wheel out, collars kept."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "front-check",
+    "title": "Check the front wheel",
+    "instruction": "Roll the axle on a flat surface (bent axle: replace, never straighten; bend limit 0.50 mm). Check radial and lateral runout: limit 2.0 mm (0.08 in) each. Turn each bearing by finger: rough or loose means both bearings and seals are renewed. Check collars and seals.",
+    "depends_on": [
+     "wheel-off"
+    ],
+    "verification": [
+     "Axle, runout and bearing condition recorded."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "front-ok",
+      "label": "Front bearings good",
+      "next_step": "wheel-on",
+      "condition": "Both front bearings turn smoothly with no play and the seals are undamaged."
+     }
+    ]
+   },
+   {
+    "id": "front-out",
+    "title": "Remove the front bearings",
+    "instruction": "Clean the hub. Prise out both seals with a flat screwdriver over a rag to protect the hub. Pull the bearings out with a bearing puller and take out the spacer.",
+    "depends_on": [
+     "front-check"
+    ],
+    "verification": [
+     "Front seals, bearings and spacer out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "front-in",
+    "title": "Fit new front bearings",
+    "instruction": "Grease the new bearings and the seal lips with lithium-soap grease. Press the left bearing in first, square, pushing only on its outer race with a socket the size of the outer race. Fit the spacer, then press in the right bearing. Fit new seals, maker marks facing out, squarely to the shoulder, flush with the hub face.",
+    "depends_on": [
+     "front-out"
+    ],
+    "verification": [
+     "New bearings and seals fitted square."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-on",
+    "title": "Refit the front wheel",
+    "instruction": "Fit the collars, guide the disc between the pads and push the axle (greased with lithium-soap grease) through. Tighten the axle nut to 115 N·m (85 lb·ft). Before tightening the pinch bolts, push hard on the bars several times so the forks settle, then tighten the four axle pinch bolts to 21 N·m (15 lb·ft).",
+    "depends_on": [
+     "front-in"
+    ],
+    "verification": [
+     "Axle nut 115 N·m; pinch bolts 21 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "brake-check",
+    "title": "Pump up the front brake",
+    "instruction": "Pull the front brake lever until it is firm and check the wheel spins freely without the brake dragging.",
+    "depends_on": [
+     "wheel-on"
+    ],
+    "verification": [
+     "Lever firm, wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-stand",
+    "title": "Lift the rear wheel",
+    "instruction": "Put the bike on a stand so the rear wheel is off the ground.",
+    "depends_on": [
+     "brake-check"
+    ],
+    "verification": [
+     "Rear wheel off the ground."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-off",
+    "title": "Remove the rear wheel",
+    "instruction": "Remove the axle nut, loosen the adjuster locknuts and screw the adjusters in, pull the axle, push the wheel forward and lift the chain off the sprocket, then drop the wheel out with the disc clear of the caliper. Keep the collars and chain pullers. Do not press the brake pedal with the wheel out.",
+    "depends_on": [
+     "rear-stand"
+    ],
+    "verification": [
+     "Rear wheel out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-check",
+    "title": "Check the rear wheel",
+    "instruction": "Roll the axle (bend limit 0.50 mm). Radial and lateral runout limit 2.0 mm (0.08 in). Check the sprocket for more than 1/4 tooth wear or bent teeth. Turn each bearing by finger: rough or loose means all three bearings and both seals are renewed.",
+    "depends_on": [
+     "rear-off"
+    ],
+    "verification": [
+     "Axle, runout, sprocket and bearing condition recorded."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "rear-ok",
+      "label": "Rear bearings good",
+      "next_step": "rear-on",
+      "condition": "All three rear bearings turn smoothly with no play and the seals are undamaged."
+     }
+    ]
+   },
+   {
+    "id": "rear-out",
+    "title": "Remove the rear bearings",
+    "instruction": "Prise out both seals over a rag, remove the circlip on the right (brake) side and pull the bearings with a bearing puller; take out the spacer.",
+    "depends_on": [
+     "rear-check"
+    ],
+    "verification": [
+     "Rear seals, circlip, bearings and spacer out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-in",
+    "title": "Fit new rear bearings",
+    "instruction": "Grease the new bearings and the seal lips with lithium-soap grease. Press the right-side bearing in first, by its outer race only, and fit a new circlip. Fit the spacer, then press in the two left-side bearings. Fit new seals, maker marks out, squarely, flush with the hub face.",
+    "depends_on": [
+     "rear-out"
+    ],
+    "verification": [
+     "New bearings, circlip and seals fitted."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "rear-on",
+    "title": "Refit the rear wheel",
+    "instruction": "Fit the collars and put the wheel in with the disc between the pads. Fit the chain on the sprocket. Fit the left chain puller and push the greased axle in from the left, then the right puller, washer and nut. Set chain slack to 50–60 mm (1.97–2.36 in) with both adjusters equal and the wheel pushed forward against the pullers. Tighten the axle nut to 135 N·m (100 lb·ft) and the adjuster locknuts to 21 N·m (15 lb·ft).",
+    "depends_on": [
+     "rear-in"
+    ],
+    "verification": [
+     "Slack in range; axle nut and locknuts torqued."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "rear-brake",
+    "title": "Check the rear brake",
+    "instruction": "Press the brake pedal until it is firm and check the wheel spins freely.",
+    "depends_on": [
+     "rear-on"
+    ],
+    "verification": [
+     "Pedal firm, wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "discs",
+    "title": "Check disc bolts",
+    "instruction": "If a disc was removed, refit it with threadlocker and tighten its bolts in stages criss-cross to 12 N·m (8.9 lb·ft).",
+    "depends_on": [
+     "rear-brake"
+    ],
+    "verification": [
+     "Disc bolts torqued if disturbed."
+    ],
+    "record_required": true
+   }
+  ],
+  "target": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2019,
+   "variant": "standard",
+   "region": "US"
+  }
+ },
+ {
+  "id": "bak-yamaha-yz450f-wheel-bearings-v1",
+  "component": "frame",
+  "affected_components": [
+   "front_wheel",
+   "rear_wheel",
+   "chain",
+   "brakes"
+  ],
+  "entry_state": [
+   "Bike on a stand, wheels clean."
+  ],
+  "exit_state": [
+   "Both wheels checked, bearings and seals renewed where needed, wheels refitted with axle torques and chain slack set."
+  ],
+  "title": "Renew front and rear wheel bearings and seals",
+  "completeness": "Covers wheel removal, axle and runout checks, bearing and seal removal and fitting order (front: left first; rear: right side with circlip first), seal fitting and refit with every torque.",
+  "excluded": [
+   "Tyre changes",
+   "Spoke truing",
+   "Sprocket replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand",
+    "size": null
+   },
+   {
+    "name": "Bearing puller",
+    "size": null
+   },
+   {
+    "name": "Sockets or drivers matching the bearing outer races",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 12-135 N·m",
+    "size": null
+   },
+   {
+    "name": "Dial gauge for runout",
+    "size": null
+   },
+   {
+    "name": "Lithium-soap grease",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Front wheel bearings (2) and seals (2)",
+    "purpose": "Renewed when rough or loose."
+   },
+   {
+    "name": "Rear wheel bearings (3), circlip and seals (2)",
+    "purpose": "Renewed when rough or loose."
+   }
+  ],
+  "prerequisites": [
+   "Wheels clean."
+  ],
+  "critical_stop_conditions": [
+   "Bent axle: replace, never straighten.",
+   "Bearing bore in the hub damaged or loose: stop; the hub needs repair.",
+   "Brake soft or dragging after refit: fix before riding."
+  ],
+  "steps": [
+   {
+    "id": "stand",
+    "title": "Lift the front wheel",
+    "instruction": "Put the bike on a stand so the front wheel is off the ground and the bike cannot tip.",
+    "depends_on": [],
+    "verification": [
+     "Front wheel off the ground, bike stable."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wheel-off",
+    "title": "Remove the front wheel",
+    "instruction": "Loosen the four axle pinch bolts, remove the axle nut, pull the axle and drop the wheel out, guiding the disc out of the caliper. Take the collars off the hub. Do not pull the brake lever with the wheel out.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Front wheel out, collars kept."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "front-check",
+    "title": "Check the front wheel",
+    "instruction": "Roll the axle on a flat surface (bent axle: replace, never straighten; bend limit 0.50 mm). Check radial and lateral runout: limit 2.0 mm (0.08 in) each. Turn each bearing by finger: rough or loose means both bearings and seals are renewed. Check collars and seals.",
+    "depends_on": [
+     "wheel-off"
+    ],
+    "verification": [
+     "Axle, runout and bearing condition recorded."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "front-ok",
+      "label": "Front bearings good",
+      "next_step": "wheel-on",
+      "condition": "Both front bearings turn smoothly with no play and the seals are undamaged."
+     }
+    ]
+   },
+   {
+    "id": "front-out",
+    "title": "Remove the front bearings",
+    "instruction": "Clean the hub. Prise out both seals with a flat screwdriver over a rag to protect the hub. Pull the bearings out with a bearing puller and take out the spacer.",
+    "depends_on": [
+     "front-check"
+    ],
+    "verification": [
+     "Front seals, bearings and spacer out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "front-in",
+    "title": "Fit new front bearings",
+    "instruction": "Grease the new bearings and the seal lips with lithium-soap grease. Press the left bearing in first, square, pushing only on its outer race with a socket the size of the outer race. Fit the spacer, then press in the right bearing. Fit new seals, maker marks facing out, squarely to the shoulder, flush with the hub face.",
+    "depends_on": [
+     "front-out"
+    ],
+    "verification": [
+     "New bearings and seals fitted square."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-on",
+    "title": "Refit the front wheel",
+    "instruction": "Fit the collars, guide the disc between the pads and push the axle (greased with lithium-soap grease) through. Tighten the axle nut to 115 N·m (85 lb·ft). Before tightening the pinch bolts, push hard on the bars several times so the forks settle, then tighten the four axle pinch bolts to 21 N·m (15 lb·ft).",
+    "depends_on": [
+     "front-in"
+    ],
+    "verification": [
+     "Axle nut 115 N·m; pinch bolts 21 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "brake-check",
+    "title": "Pump up the front brake",
+    "instruction": "Pull the front brake lever until it is firm and check the wheel spins freely without the brake dragging.",
+    "depends_on": [
+     "wheel-on"
+    ],
+    "verification": [
+     "Lever firm, wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-stand",
+    "title": "Lift the rear wheel",
+    "instruction": "Put the bike on a stand so the rear wheel is off the ground.",
+    "depends_on": [
+     "brake-check"
+    ],
+    "verification": [
+     "Rear wheel off the ground."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-off",
+    "title": "Remove the rear wheel",
+    "instruction": "Remove the axle nut, loosen the adjuster locknuts and screw the adjusters in, pull the axle, push the wheel forward and lift the chain off the sprocket, then drop the wheel out with the disc clear of the caliper. Keep the collars and chain pullers. Do not press the brake pedal with the wheel out.",
+    "depends_on": [
+     "rear-stand"
+    ],
+    "verification": [
+     "Rear wheel out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-check",
+    "title": "Check the rear wheel",
+    "instruction": "Roll the axle (bend limit 0.50 mm). Radial and lateral runout limit 2.0 mm (0.08 in). Check the sprocket for more than 1/4 tooth wear or bent teeth. Turn each bearing by finger: rough or loose means all three bearings and both seals are renewed.",
+    "depends_on": [
+     "rear-off"
+    ],
+    "verification": [
+     "Axle, runout, sprocket and bearing condition recorded."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "rear-ok",
+      "label": "Rear bearings good",
+      "next_step": "rear-on",
+      "condition": "All three rear bearings turn smoothly with no play and the seals are undamaged."
+     }
+    ]
+   },
+   {
+    "id": "rear-out",
+    "title": "Remove the rear bearings",
+    "instruction": "Prise out both seals over a rag, remove the circlip on the right (brake) side and pull the bearings with a bearing puller; take out the spacer.",
+    "depends_on": [
+     "rear-check"
+    ],
+    "verification": [
+     "Rear seals, circlip, bearings and spacer out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-in",
+    "title": "Fit new rear bearings",
+    "instruction": "Grease the new bearings and the seal lips with lithium-soap grease. Press the right-side bearing in first, by its outer race only, and fit a new circlip. Fit the spacer, then press in the two left-side bearings. Fit sealed bearings with their seal facing out. Fit new seals, maker marks out, squarely, flush with the hub face.",
+    "depends_on": [
+     "rear-out"
+    ],
+    "verification": [
+     "New bearings, circlip and seals fitted."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "rear-on",
+    "title": "Refit the rear wheel",
+    "instruction": "Fit the collars and put the wheel in with the disc between the pads. Fit the chain on the sprocket. Fit the left chain puller and push the greased axle in from the left, then the right puller, washer and nut. Set chain slack to 50–60 mm (1.97–2.36 in) with both adjusters equal and the wheel pushed forward against the pullers. Tighten the axle nut to 135 N·m (100 lb·ft) and the adjuster locknuts to 21 N·m (15 lb·ft).",
+    "depends_on": [
+     "rear-in"
+    ],
+    "verification": [
+     "Slack in range; axle nut and locknuts torqued."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "rear-brake",
+    "title": "Check the rear brake",
+    "instruction": "Press the brake pedal until it is firm and check the wheel spins freely.",
+    "depends_on": [
+     "rear-on"
+    ],
+    "verification": [
+     "Pedal firm, wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "discs",
+    "title": "Check disc bolts",
+    "instruction": "If a disc was removed, refit it with threadlocker and tighten its bolts in stages criss-cross to 12 N·m (8.9 lb·ft).",
+    "depends_on": [
+     "rear-brake"
+    ],
+    "verification": [
+     "Disc bolts torqued if disturbed."
+    ],
+    "record_required": true
+   }
+  ],
+  "targets": [
+   {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2020
+   },
+   {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2021
+   }
+  ]
+ },
+ {
+  "id": "bak-yamaha-yz450f-wheel-bearings-v1-2027",
+  "component": "frame",
+  "affected_components": [
+   "front_wheel",
+   "rear_wheel",
+   "chain",
+   "brakes"
+  ],
+  "entry_state": [
+   "Bike on a stand, wheels clean."
+  ],
+  "exit_state": [
+   "Both wheels checked, bearings and seals renewed where needed, wheels refitted with axle torques and chain slack set."
+  ],
+  "title": "Renew front and rear wheel bearings and seals",
+  "completeness": "Covers wheel removal, axle and runout checks, bearing and seal removal and fitting order (front: left first; rear: right side with circlip first), seal fitting and refit with every torque.",
+  "excluded": [
+   "Tyre changes",
+   "Spoke truing",
+   "Sprocket replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand",
+    "size": null
+   },
+   {
+    "name": "Bearing puller",
+    "size": null
+   },
+   {
+    "name": "Sockets or drivers matching the bearing outer races",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 12-135 N·m",
+    "size": null
+   },
+   {
+    "name": "Dial gauge for runout",
+    "size": null
+   },
+   {
+    "name": "Lithium-soap grease",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Front wheel bearings (2) and seals (2)",
+    "purpose": "Renewed when rough or loose."
+   },
+   {
+    "name": "Rear wheel bearings (3), circlip and seals (2)",
+    "purpose": "Renewed when rough or loose."
+   }
+  ],
+  "prerequisites": [
+   "Wheels clean."
+  ],
+  "critical_stop_conditions": [
+   "Bent axle: replace, never straighten.",
+   "Bearing bore in the hub damaged or loose: stop; the hub needs repair.",
+   "Brake soft or dragging after refit: fix before riding."
+  ],
+  "steps": [
+   {
+    "id": "stand",
+    "title": "Lift the front wheel",
+    "instruction": "Put the bike on a stand so the front wheel is off the ground and the bike cannot tip.",
+    "depends_on": [],
+    "verification": [
+     "Front wheel off the ground, bike stable."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wheel-off",
+    "title": "Remove the front wheel",
+    "instruction": "Loosen the four axle pinch bolts, remove the axle nut, pull the axle and drop the wheel out, guiding the disc out of the caliper. Take the collars off the hub. Do not pull the brake lever with the wheel out.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Front wheel out, collars kept."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "front-check",
+    "title": "Check the front wheel",
+    "instruction": "Roll the axle on a flat surface (bent axle: replace, never straighten; bend limit 0.50 mm). Check radial and lateral runout: limit 2.0 mm (0.08 in) each. Turn each bearing by finger: rough or loose means both bearings and seals are renewed. Check collars and seals.",
+    "depends_on": [
+     "wheel-off"
+    ],
+    "verification": [
+     "Axle, runout and bearing condition recorded."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "front-ok",
+      "label": "Front bearings good",
+      "next_step": "wheel-on",
+      "condition": "Both front bearings turn smoothly with no play and the seals are undamaged."
+     }
+    ]
+   },
+   {
+    "id": "front-out",
+    "title": "Remove the front bearings",
+    "instruction": "Clean the hub. Prise out both seals with a flat screwdriver over a rag to protect the hub. Pull the bearings out with a bearing puller and take out the spacer.",
+    "depends_on": [
+     "front-check"
+    ],
+    "verification": [
+     "Front seals, bearings and spacer out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "front-in",
+    "title": "Fit new front bearings",
+    "instruction": "Grease the seal lips with lithium-soap grease. Press the left bearing in first, square, pushing only on its outer race with a socket the size of the outer race. Fit the spacer, then press in the right bearing. Fit new seals, maker marks facing out, flush with the hub face (0 mm).",
+    "depends_on": [
+     "front-out"
+    ],
+    "verification": [
+     "New bearings and seals fitted square."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-on",
+    "title": "Refit the front wheel",
+    "instruction": "Fit the collars, guide the disc between the pads and push the axle (greased with lithium-soap grease) through. Tighten the axle nut to 115 N·m (85 lb·ft). Before tightening the pinch bolts, push hard on the bars several times so the forks settle, then tighten the four axle pinch bolts to 21 N·m (15 lb·ft).",
+    "depends_on": [
+     "front-in"
+    ],
+    "verification": [
+     "Axle nut 115 N·m; pinch bolts 21 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "brake-check",
+    "title": "Pump up the front brake",
+    "instruction": "Pull the front brake lever until it is firm and check the wheel spins freely without the brake dragging.",
+    "depends_on": [
+     "wheel-on"
+    ],
+    "verification": [
+     "Lever firm, wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-stand",
+    "title": "Lift the rear wheel",
+    "instruction": "Put the bike on a stand so the rear wheel is off the ground.",
+    "depends_on": [
+     "brake-check"
+    ],
+    "verification": [
+     "Rear wheel off the ground."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-off",
+    "title": "Remove the rear wheel",
+    "instruction": "Remove the axle nut, loosen the adjuster locknuts and screw the adjusters in, pull the axle, push the wheel forward and lift the chain off the sprocket, then drop the wheel out with the disc clear of the caliper. Keep the collars and chain pullers. Do not press the brake pedal with the wheel out.",
+    "depends_on": [
+     "rear-stand"
+    ],
+    "verification": [
+     "Rear wheel out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-check",
+    "title": "Check the rear wheel",
+    "instruction": "Roll the axle (bend limit 0.50 mm). Radial and lateral runout limit 2.0 mm (0.08 in). Check the sprocket for more than 1/4 tooth wear or bent teeth. Turn each bearing by finger: rough or loose means all three bearings and both seals are renewed.",
+    "depends_on": [
+     "rear-off"
+    ],
+    "verification": [
+     "Axle, runout, sprocket and bearing condition recorded."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "rear-ok",
+      "label": "Rear bearings good",
+      "next_step": "rear-on",
+      "condition": "All three rear bearings turn smoothly with no play and the seals are undamaged."
+     }
+    ]
+   },
+   {
+    "id": "rear-out",
+    "title": "Remove the rear bearings",
+    "instruction": "Prise out both seals over a rag, remove the circlip on the right (brake) side and pull the bearings with a bearing puller; take out the spacer.",
+    "depends_on": [
+     "rear-check"
+    ],
+    "verification": [
+     "Rear seals, circlip, bearings and spacer out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-in",
+    "title": "Fit new rear bearings",
+    "instruction": "Grease the seal lips with lithium-soap grease. Press the right-side bearing in first, by its outer race only, and fit a new circlip. Fit the spacer, then press in the two left-side bearings. Fit new seals, maker marks out, about 1.0 mm (0.04 in) below the hub face.",
+    "depends_on": [
+     "rear-out"
+    ],
+    "verification": [
+     "New bearings, circlip and seals fitted."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "rear-on",
+    "title": "Refit the rear wheel",
+    "instruction": "Fit the collars and put the wheel in with the disc between the pads. Fit the chain on the sprocket. Fit the left chain puller and push the greased axle in from the left, then the right puller, washer and nut. Set chain slack to 50–60 mm (1.97–2.36 in) with both adjusters equal and the wheel pushed forward against the pullers. Tighten the axle nut to 135 N·m (100 lb·ft) and the adjuster locknuts to 21 N·m (15 lb·ft).",
+    "depends_on": [
+     "rear-in"
+    ],
+    "verification": [
+     "Slack in range; axle nut and locknuts torqued."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "rear-brake",
+    "title": "Check the rear brake",
+    "instruction": "Press the brake pedal until it is firm and check the wheel spins freely.",
+    "depends_on": [
+     "rear-on"
+    ],
+    "verification": [
+     "Pedal firm, wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "discs",
+    "title": "Check disc bolts",
+    "instruction": "If a disc was removed, refit it with threadlocker and tighten its bolts in stages criss-cross to 13 N·m (9.6 lb·ft).",
+    "depends_on": [
+     "rear-brake"
+    ],
+    "verification": [
+     "Disc bolts torqued if disturbed."
+    ],
+    "record_required": true
+   }
+  ],
+  "target": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2027,
+   "variant": "standard",
+   "region": "US"
+  }
+ },
+ {
+  "id": "bak-yamaha-yz450f-steering-bearings-v1-2018",
+  "component": "frame",
+  "affected_components": [
+   "steering",
+   "fork",
+   "front_wheel",
+   "front_brake"
+  ],
+  "entry_state": [
+   "Bike on a stand, front end clean."
+  ],
+  "exit_state": [
+   "Steering bearings and races checked or renewed, preload set, front end refitted with every torque."
+  ],
+  "title": "Renew steering head bearings and races",
+  "completeness": "Covers front wheel, front end strip, stem removal, bearing and race check and renewal, greasing, ring nut preload, stem nut, clamps and refit.",
+  "excluded": [
+   "Fork internal service"
+  ],
+  "required_tools": [
+   {
+    "name": "Front stand",
+    "size": null
+   },
+   {
+    "name": "Steering nut wrench",
+    "size": null
+   },
+   {
+    "name": "Long drift and hammer, chisel",
+    "size": null
+   },
+   {
+    "name": "Race drivers",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 7-145 N·m",
+    "size": null
+   },
+   {
+    "name": "Lithium-soap grease",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Steering bearings (2) with races",
+    "purpose": "Renewed as sets when pitted or damaged."
+   }
+  ],
+  "prerequisites": [
+   "Bike stable on the stand."
+  ],
+  "critical_stop_conditions": [
+   "Head tube bore damaged by a race: stop.",
+   "Steering tight or notchy after tightening: back off the ring nut a little; do not ride with binding steering.",
+   "Bent or cracked bracket or stem: replace."
+  ],
+  "steps": [
+   {
+    "id": "stand",
+    "title": "Lift the front wheel",
+    "instruction": "Put the bike on a stand so the front wheel is off the ground and the bike cannot tip.",
+    "depends_on": [],
+    "verification": [
+     "Front wheel off the ground, bike stable."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wheel-off",
+    "title": "Remove the front wheel",
+    "instruction": "Loosen the four axle pinch bolts, remove the axle nut, pull the axle and drop the wheel out, guiding the disc out of the caliper. Take the collars off the hub. Do not pull the brake lever with the wheel out.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Front wheel out, collars kept."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "front-end",
+    "title": "Strip the front end",
+    "instruction": "Remove the number plate and front fender (four bolts). Remove the brake hose holder bolts and the caliper and hang them clear. Remove the lower handlebar holder nuts and lift the handlebar off with its controls. Loosen the steering stem nut. Support and remove both fork legs (loosen upper and lower pinch bolts).",
+    "depends_on": [
+     "wheel-off"
+    ],
+    "verification": [
+     "Front end stripped to the clamps."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "stem-out",
+    "title": "Remove the stem",
+    "instruction": "Remove the steering stem nut and the upper bracket, then the washer. Support the lower bracket and remove the steering ring nut with a steering nut wrench, then lower the stem out.",
+    "depends_on": [
+     "front-end"
+    ],
+    "verification": [
+     "Lower bracket and stem out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "check",
+    "title": "Check bearings and races",
+    "instruction": "Wash the bearings and races in solvent. Pitting or damage on a bearing or race means bearing and race are replaced as a set. Check both brackets and the stem for bends or cracks.",
+    "depends_on": [
+     "stem-out"
+    ],
+    "verification": [
+     "Bearings, races and brackets checked."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "bearings-ok",
+      "label": "Bearings and races good",
+      "next_step": "grease",
+      "condition": "Both bearings and all races are free of pitting and damage."
+     }
+    ]
+   },
+   {
+    "id": "races",
+    "title": "Renew bearings and races",
+    "instruction": "Drive the old races out of the head tube with a long rod and hammer, working round evenly. Remove the race from the lower bracket with a chisel. Fit the new races squarely; a crooked race damages the head tube.",
+    "depends_on": [
+     "check"
+    ],
+    "verification": [
+     "New races seated square."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "grease",
+    "title": "Grease and fit the lower bearing",
+    "instruction": "Fit the lower bearing on the stem with lithium-soap grease on the dust seal lip and the bearing inner circumference.",
+    "depends_on": [
+     "races"
+    ],
+    "verification": [
+     "Lower bearing greased and fitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "upper",
+    "title": "Fit the upper bearing",
+    "instruction": "Fit the greased upper bearing and the bearing race cover, greasing the cover lip.",
+    "depends_on": [
+     "grease"
+    ],
+    "verification": [
+     "Upper bearing and cover in."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "stem-in",
+    "title": "Fit the stem and ring nut",
+    "instruction": "Grease the stem threads and bearing seats and push the stem up. Fit the steering ring nut with its stepped side down. With the steering nut wrench tighten it to about 38 N·m (28 lb·ft), loosen it one full turn, then retighten it to 7 N·m (5.2 lb·ft). Turn the stem lock to lock: it must move smoothly; if it binds, take it apart and check the bearings.",
+    "depends_on": [
+     "upper"
+    ],
+    "verification": [
+     "Ring nut: 38 N·m, back one turn, 7 N·m; stem turns freely."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "forks-on",
+    "title": "Refit washer, forks and upper bracket",
+    "instruction": "Fit the washer, the fork legs and the upper bracket. Set the forks to the recorded height (standard: top of the outer tube 0 mm (flush) above the upper clamp) and snug the lower pinch bolts.",
+    "depends_on": [
+     "stem-in"
+    ],
+    "verification": [
+     "Forks at height, lower pinch bolts snug."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "stem-nut",
+    "title": "Tighten the stem nut",
+    "instruction": "Grease the stem nut contact face with lithium-soap grease and tighten the nut to 145 N·m (107 lb·ft). Check the steering still turns smoothly; if it is tight, back the ring nut off a little at a time.",
+    "depends_on": [
+     "forks-on"
+    ],
+    "verification": [
+     "Stem nut 145 N·m; steering smooth."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "pinch",
+    "title": "Tighten the clamps",
+    "instruction": "Tighten the upper and lower pinch bolts to 21 N·m (15 lb·ft); do not over-tighten the lower ones.",
+    "depends_on": [
+     "stem-nut"
+    ],
+    "verification": [
+     "Pinch bolts 21 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "refit",
+    "title": "Refit bars, brake and fender",
+    "instruction": "Refit the handlebar with its holders the way they came off and tighten the lower holder nuts to 40 N·m (30 lb·ft). Refit the caliper at 28 N·m (21 lb·ft), the brake hose holders at 9 N·m (6.6 lb·ft), the front fender at 10 N·m (7.4 lb·ft) and the number plate at 7 N·m (5.2 lb·ft).",
+    "depends_on": [
+     "pinch"
+    ],
+    "verification": [
+     "Holders 40, caliper 28, hose holders 9, fender 10, plate 7 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-on",
+    "title": "Refit the front wheel",
+    "instruction": "Fit the collars, guide the disc between the pads and push the axle (greased with lithium-soap grease) through. Tighten the axle nut to 112 N·m (83 lb·ft). Before tightening the pinch bolts, push hard on the bars several times so the forks settle, then tighten the four axle pinch bolts to 21 N·m (15 lb·ft).",
+    "depends_on": [
+     "refit"
+    ],
+    "verification": [
+     "Axle nut 112 N·m; pinch bolts 21 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "brake-check",
+    "title": "Pump up the front brake",
+    "instruction": "Pull the front brake lever until it is firm and check the wheel spins freely without the brake dragging.",
+    "depends_on": [
+     "wheel-on"
+    ],
+    "verification": [
+     "Lever firm, wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "play-check",
+    "title": "Check for play",
+    "instruction": "With the front wheel off the ground, rock the fork legs back and forth: no play. Turn the bars lock to lock: no binding and no cable or hose snagging.",
+    "depends_on": [
+     "brake-check"
+    ],
+    "verification": [
+     "No play, no binding."
+    ],
+    "record_required": true
+   }
+  ],
+  "target": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2018,
+   "variant": "standard",
+   "region": "US"
+  }
+ },
+ {
+  "id": "bak-yamaha-yz450f-steering-bearings-v1-2019",
+  "component": "frame",
+  "affected_components": [
+   "steering",
+   "fork",
+   "front_wheel",
+   "front_brake"
+  ],
+  "entry_state": [
+   "Bike on a stand, front end clean."
+  ],
+  "exit_state": [
+   "Steering bearings and races checked or renewed, preload set, front end refitted with every torque."
+  ],
+  "title": "Renew steering head bearings and races",
+  "completeness": "Covers front wheel, front end strip, stem removal, bearing and race check and renewal, greasing, ring nut preload, stem nut, clamps and refit.",
+  "excluded": [
+   "Fork internal service"
+  ],
+  "required_tools": [
+   {
+    "name": "Front stand",
+    "size": null
+   },
+   {
+    "name": "Steering nut wrench",
+    "size": null
+   },
+   {
+    "name": "Long drift and hammer, chisel",
+    "size": null
+   },
+   {
+    "name": "Race drivers",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 7-145 N·m",
+    "size": null
+   },
+   {
+    "name": "Lithium-soap grease",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Steering bearings (2) with races",
+    "purpose": "Renewed as sets when pitted or damaged."
+   }
+  ],
+  "prerequisites": [
+   "Bike stable on the stand."
+  ],
+  "critical_stop_conditions": [
+   "Head tube bore damaged by a race: stop.",
+   "Steering tight or notchy after tightening: back off the ring nut a little; do not ride with binding steering.",
+   "Bent or cracked bracket or stem: replace."
+  ],
+  "steps": [
+   {
+    "id": "stand",
+    "title": "Lift the front wheel",
+    "instruction": "Put the bike on a stand so the front wheel is off the ground and the bike cannot tip.",
+    "depends_on": [],
+    "verification": [
+     "Front wheel off the ground, bike stable."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wheel-off",
+    "title": "Remove the front wheel",
+    "instruction": "Loosen the four axle pinch bolts, remove the axle nut, pull the axle and drop the wheel out, guiding the disc out of the caliper. Take the collars off the hub. Do not pull the brake lever with the wheel out.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Front wheel out, collars kept."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "front-end",
+    "title": "Strip the front end",
+    "instruction": "Remove the number plate and front fender (four bolts). Remove the brake hose holder bolts and the caliper and hang them clear. Remove the lower handlebar holder nuts and lift the handlebar off with its controls. Loosen the steering stem nut. Support and remove both fork legs (loosen upper and lower pinch bolts).",
+    "depends_on": [
+     "wheel-off"
+    ],
+    "verification": [
+     "Front end stripped to the clamps."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "stem-out",
+    "title": "Remove the stem",
+    "instruction": "Remove the steering stem nut and the upper bracket, then the washer. Support the lower bracket and remove the steering ring nut with a steering nut wrench, then lower the stem out.",
+    "depends_on": [
+     "front-end"
+    ],
+    "verification": [
+     "Lower bracket and stem out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "check",
+    "title": "Check bearings and races",
+    "instruction": "Wash the bearings and races in solvent. Pitting or damage on a bearing or race means bearing and race are replaced as a set. Check both brackets and the stem for bends or cracks.",
+    "depends_on": [
+     "stem-out"
+    ],
+    "verification": [
+     "Bearings, races and brackets checked."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "bearings-ok",
+      "label": "Bearings and races good",
+      "next_step": "grease",
+      "condition": "Both bearings and all races are free of pitting and damage."
+     }
+    ]
+   },
+   {
+    "id": "races",
+    "title": "Renew bearings and races",
+    "instruction": "Drive the old races out of the head tube with a long rod and hammer, working round evenly. Remove the race from the lower bracket with a chisel. Fit the new races squarely; a crooked race damages the head tube.",
+    "depends_on": [
+     "check"
+    ],
+    "verification": [
+     "New races seated square."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "grease",
+    "title": "Grease and fit the lower bearing",
+    "instruction": "Fit the lower bearing on the stem with lithium-soap grease on the dust seal lip and the bearing inner circumference.",
+    "depends_on": [
+     "races"
+    ],
+    "verification": [
+     "Lower bearing greased and fitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "upper",
+    "title": "Fit the upper bearing",
+    "instruction": "Fit the greased upper bearing and the bearing race cover, greasing the cover lip.",
+    "depends_on": [
+     "grease"
+    ],
+    "verification": [
+     "Upper bearing and cover in."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "stem-in",
+    "title": "Fit the stem and ring nut",
+    "instruction": "Grease the stem threads and bearing seats and push the stem up. Fit the steering ring nut with its stepped side down. With the steering nut wrench tighten it to about 38 N·m (28 lb·ft), loosen it one full turn, then retighten it to 7 N·m (5.2 lb·ft). Turn the stem lock to lock: it must move smoothly; if it binds, take it apart and check the bearings.",
+    "depends_on": [
+     "upper"
+    ],
+    "verification": [
+     "Ring nut: 38 N·m, back one turn, 7 N·m; stem turns freely."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "forks-on",
+    "title": "Refit washer, forks and upper bracket",
+    "instruction": "Fit the washer, the fork legs and the upper bracket. Set the forks to the recorded height (standard: top of the outer tube 0 mm (flush) above the upper clamp) and snug the lower pinch bolts.",
+    "depends_on": [
+     "stem-in"
+    ],
+    "verification": [
+     "Forks at height, lower pinch bolts snug."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "stem-nut",
+    "title": "Tighten the stem nut",
+    "instruction": "Grease the stem nut contact face with lithium-soap grease and tighten the nut to 145 N·m (107 lb·ft). Check the steering still turns smoothly; if it is tight, back the ring nut off a little at a time.",
+    "depends_on": [
+     "forks-on"
+    ],
+    "verification": [
+     "Stem nut 145 N·m; steering smooth."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "pinch",
+    "title": "Tighten the clamps",
+    "instruction": "Tighten the upper and lower pinch bolts to 21 N·m (15 lb·ft); do not over-tighten the lower ones.",
+    "depends_on": [
+     "stem-nut"
+    ],
+    "verification": [
+     "Pinch bolts 21 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "refit",
+    "title": "Refit bars, brake and fender",
+    "instruction": "Refit the handlebar with its holders the way they came off and tighten the lower holder nuts to 40 N·m (30 lb·ft). Refit the caliper at 28 N·m (21 lb·ft), the brake hose holders at 9 N·m (6.6 lb·ft), the front fender at 10 N·m (7.4 lb·ft) and the number plate at 7 N·m (5.2 lb·ft).",
+    "depends_on": [
+     "pinch"
+    ],
+    "verification": [
+     "Holders 40, caliper 28, hose holders 9, fender 10, plate 7 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-on",
+    "title": "Refit the front wheel",
+    "instruction": "Fit the collars, guide the disc between the pads and push the axle (greased with lithium-soap grease) through. Tighten the axle nut to 115 N·m (85 lb·ft). Before tightening the pinch bolts, push hard on the bars several times so the forks settle, then tighten the four axle pinch bolts to 21 N·m (15 lb·ft).",
+    "depends_on": [
+     "refit"
+    ],
+    "verification": [
+     "Axle nut 115 N·m; pinch bolts 21 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "brake-check",
+    "title": "Pump up the front brake",
+    "instruction": "Pull the front brake lever until it is firm and check the wheel spins freely without the brake dragging.",
+    "depends_on": [
+     "wheel-on"
+    ],
+    "verification": [
+     "Lever firm, wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "play-check",
+    "title": "Check for play",
+    "instruction": "With the front wheel off the ground, rock the fork legs back and forth: no play. Turn the bars lock to lock: no binding and no cable or hose snagging.",
+    "depends_on": [
+     "brake-check"
+    ],
+    "verification": [
+     "No play, no binding."
+    ],
+    "record_required": true
+   }
+  ],
+  "target": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2019,
+   "variant": "standard",
+   "region": "US"
+  }
+ },
+ {
+  "id": "bak-yamaha-yz450f-steering-bearings-v1",
+  "component": "frame",
+  "affected_components": [
+   "steering",
+   "fork",
+   "front_wheel",
+   "front_brake"
+  ],
+  "entry_state": [
+   "Bike on a stand, front end clean."
+  ],
+  "exit_state": [
+   "Steering bearings and races checked or renewed, preload set, front end refitted with every torque."
+  ],
+  "title": "Renew steering head bearings and races",
+  "completeness": "Covers front wheel, front end strip, stem removal, bearing and race check and renewal, greasing, ring nut preload, stem nut, clamps and refit.",
+  "excluded": [
+   "Fork internal service"
+  ],
+  "required_tools": [
+   {
+    "name": "Front stand",
+    "size": null
+   },
+   {
+    "name": "Steering nut wrench",
+    "size": null
+   },
+   {
+    "name": "Long drift and hammer, chisel",
+    "size": null
+   },
+   {
+    "name": "Race drivers",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 7-145 N·m",
+    "size": null
+   },
+   {
+    "name": "Lithium-soap grease",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Steering bearings (2) with races",
+    "purpose": "Renewed as sets when pitted or damaged."
+   }
+  ],
+  "prerequisites": [
+   "Bike stable on the stand."
+  ],
+  "critical_stop_conditions": [
+   "Head tube bore damaged by a race: stop.",
+   "Steering tight or notchy after tightening: back off the ring nut a little; do not ride with binding steering.",
+   "Bent or cracked bracket or stem: replace."
+  ],
+  "steps": [
+   {
+    "id": "stand",
+    "title": "Lift the front wheel",
+    "instruction": "Put the bike on a stand so the front wheel is off the ground and the bike cannot tip.",
+    "depends_on": [],
+    "verification": [
+     "Front wheel off the ground, bike stable."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wheel-off",
+    "title": "Remove the front wheel",
+    "instruction": "Loosen the four axle pinch bolts, remove the axle nut, pull the axle and drop the wheel out, guiding the disc out of the caliper. Take the collars off the hub. Do not pull the brake lever with the wheel out.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Front wheel out, collars kept."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "front-end",
+    "title": "Strip the front end",
+    "instruction": "Remove the number plate and front fender (four bolts). Remove the brake hose holder bolts and the caliper and hang them clear. Remove the lower handlebar holder nuts and lift the handlebar off with its controls. Loosen the steering stem nut. Support and remove both fork legs (loosen upper and lower pinch bolts).",
+    "depends_on": [
+     "wheel-off"
+    ],
+    "verification": [
+     "Front end stripped to the clamps."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "stem-out",
+    "title": "Remove the stem",
+    "instruction": "Remove the steering stem nut and the upper bracket, then the washer. Support the lower bracket and remove the steering ring nut with a steering nut wrench, then lower the stem out.",
+    "depends_on": [
+     "front-end"
+    ],
+    "verification": [
+     "Lower bracket and stem out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "check",
+    "title": "Check bearings and races",
+    "instruction": "Wash the bearings and races in solvent. Pitting or damage on a bearing or race means bearing and race are replaced as a set. Check both brackets and the stem for bends or cracks.",
+    "depends_on": [
+     "stem-out"
+    ],
+    "verification": [
+     "Bearings, races and brackets checked."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "bearings-ok",
+      "label": "Bearings and races good",
+      "next_step": "grease",
+      "condition": "Both bearings and all races are free of pitting and damage."
+     }
+    ]
+   },
+   {
+    "id": "races",
+    "title": "Renew bearings and races",
+    "instruction": "Drive the old races out of the head tube with a long rod and hammer, working round evenly. Remove the race from the lower bracket with a chisel. Fit the new races squarely; a crooked race damages the head tube.",
+    "depends_on": [
+     "check"
+    ],
+    "verification": [
+     "New races seated square."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "grease",
+    "title": "Grease and fit the lower bearing",
+    "instruction": "Fit the lower bearing on the stem with lithium-soap grease on the dust seal lip and the bearing inner circumference.",
+    "depends_on": [
+     "races"
+    ],
+    "verification": [
+     "Lower bearing greased and fitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "upper",
+    "title": "Fit the upper bearing",
+    "instruction": "Fit the greased upper bearing and the bearing race cover, greasing the cover lip.",
+    "depends_on": [
+     "grease"
+    ],
+    "verification": [
+     "Upper bearing and cover in."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "stem-in",
+    "title": "Fit the stem and ring nut",
+    "instruction": "Grease the stem threads and bearing seats and push the stem up. Fit the steering ring nut with its stepped side down. With the steering nut wrench tighten it to about 38 N·m (28 lb·ft), loosen it one full turn, then retighten it to 7 N·m (5.2 lb·ft). Turn the stem lock to lock: it must move smoothly; if it binds, take it apart and check the bearings.",
+    "depends_on": [
+     "upper"
+    ],
+    "verification": [
+     "Ring nut: 38 N·m, back one turn, 7 N·m; stem turns freely."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "forks-on",
+    "title": "Refit washer, forks and upper bracket",
+    "instruction": "Fit the washer, the fork legs and the upper bracket. Set the forks to the recorded height (standard: top of the outer tube 5 mm (0.20 in) above the upper clamp) and snug the lower pinch bolts.",
+    "depends_on": [
+     "stem-in"
+    ],
+    "verification": [
+     "Forks at height, lower pinch bolts snug."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "stem-nut",
+    "title": "Tighten the stem nut",
+    "instruction": "Grease the stem nut contact face with lithium-soap grease and tighten the nut to 145 N·m (107 lb·ft). Check the steering still turns smoothly; if it is tight, back the ring nut off a little at a time.",
+    "depends_on": [
+     "forks-on"
+    ],
+    "verification": [
+     "Stem nut 145 N·m; steering smooth."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "pinch",
+    "title": "Tighten the clamps",
+    "instruction": "Tighten the upper and lower pinch bolts to 21 N·m (15 lb·ft); do not over-tighten the lower ones.",
+    "depends_on": [
+     "stem-nut"
+    ],
+    "verification": [
+     "Pinch bolts 21 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "refit",
+    "title": "Refit bars, brake and fender",
+    "instruction": "Refit the handlebar with its holders the way they came off and tighten the lower holder nuts to 40 N·m (30 lb·ft). Refit the caliper at 28 N·m (21 lb·ft), the brake hose holders at 9 N·m (6.6 lb·ft), the front fender at 10 N·m (7.4 lb·ft) and the number plate at 7 N·m (5.2 lb·ft).",
+    "depends_on": [
+     "pinch"
+    ],
+    "verification": [
+     "Holders 40, caliper 28, hose holders 9, fender 10, plate 7 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-on",
+    "title": "Refit the front wheel",
+    "instruction": "Fit the collars, guide the disc between the pads and push the axle (greased with lithium-soap grease) through. Tighten the axle nut to 115 N·m (85 lb·ft). Before tightening the pinch bolts, push hard on the bars several times so the forks settle, then tighten the four axle pinch bolts to 21 N·m (15 lb·ft).",
+    "depends_on": [
+     "refit"
+    ],
+    "verification": [
+     "Axle nut 115 N·m; pinch bolts 21 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "brake-check",
+    "title": "Pump up the front brake",
+    "instruction": "Pull the front brake lever until it is firm and check the wheel spins freely without the brake dragging.",
+    "depends_on": [
+     "wheel-on"
+    ],
+    "verification": [
+     "Lever firm, wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "play-check",
+    "title": "Check for play",
+    "instruction": "With the front wheel off the ground, rock the fork legs back and forth: no play. Turn the bars lock to lock: no binding and no cable or hose snagging.",
+    "depends_on": [
+     "brake-check"
+    ],
+    "verification": [
+     "No play, no binding."
+    ],
+    "record_required": true
+   }
+  ],
+  "targets": [
+   {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2020
+   },
+   {
+    "manufacturer": "Yamaha",
+    "model": "YZ450F",
+    "model_year": 2021
+   }
+  ]
+ },
+ {
+  "id": "bak-yamaha-yz450f-steering-bearings-v1-2027",
+  "component": "frame",
+  "affected_components": [
+   "steering",
+   "fork",
+   "front_wheel",
+   "front_brake"
+  ],
+  "entry_state": [
+   "Bike on a stand, front end clean."
+  ],
+  "exit_state": [
+   "Steering bearings and races checked or renewed, preload set, front end refitted with every torque."
+  ],
+  "title": "Renew steering head bearings and races",
+  "completeness": "Covers front wheel, front end strip, stem removal, bearing and race check and renewal, greasing, ring nut preload, stem nut, clamps and refit.",
+  "excluded": [
+   "Fork internal service"
+  ],
+  "required_tools": [
+   {
+    "name": "Front stand",
+    "size": null
+   },
+   {
+    "name": "Steering nut wrench",
+    "size": null
+   },
+   {
+    "name": "Long drift and hammer, chisel",
+    "size": null
+   },
+   {
+    "name": "Race drivers",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 7-145 N·m",
+    "size": null
+   },
+   {
+    "name": "Lithium-soap grease",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Steering bearings (2) with races",
+    "purpose": "Renewed as sets when pitted or damaged."
+   }
+  ],
+  "prerequisites": [
+   "Bike stable on the stand."
+  ],
+  "critical_stop_conditions": [
+   "Head tube bore damaged by a race: stop.",
+   "Steering tight or notchy after tightening: back off the ring nut a little; do not ride with binding steering.",
+   "Bent or cracked bracket or stem: replace."
+  ],
+  "steps": [
+   {
+    "id": "stand",
+    "title": "Lift the front wheel",
+    "instruction": "Put the bike on a stand so the front wheel is off the ground and the bike cannot tip.",
+    "depends_on": [],
+    "verification": [
+     "Front wheel off the ground, bike stable."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wheel-off",
+    "title": "Remove the front wheel",
+    "instruction": "Loosen the four axle pinch bolts, remove the axle nut, pull the axle and drop the wheel out, guiding the disc out of the caliper. Take the collars off the hub. Do not pull the brake lever with the wheel out.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Front wheel out, collars kept."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "front-end",
+    "title": "Strip the front end",
+    "instruction": "Remove the number plate and front fender (four bolts). Remove the brake hose holder bolts and the caliper and hang them clear. Remove the lower handlebar holder nuts and lift the handlebar off with its controls. Loosen the steering stem nut. Support and remove both fork legs (loosen upper and lower pinch bolts).",
+    "depends_on": [
+     "wheel-off"
+    ],
+    "verification": [
+     "Front end stripped to the clamps."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "stem-out",
+    "title": "Remove the stem",
+    "instruction": "Remove the steering stem nut and the upper bracket, then the washer. Support the lower bracket and remove the steering ring nut with a steering nut wrench, then lower the stem out.",
+    "depends_on": [
+     "front-end"
+    ],
+    "verification": [
+     "Lower bracket and stem out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "check",
+    "title": "Check bearings and races",
+    "instruction": "Wash the bearings and races in solvent. Pitting or damage on a bearing or race means bearing and race are replaced as a set. Check both brackets and the stem for bends or cracks.",
+    "depends_on": [
+     "stem-out"
+    ],
+    "verification": [
+     "Bearings, races and brackets checked."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "bearings-ok",
+      "label": "Bearings and races good",
+      "next_step": "grease",
+      "condition": "Both bearings and all races are free of pitting and damage."
+     }
+    ]
+   },
+   {
+    "id": "races",
+    "title": "Renew bearings and races",
+    "instruction": "Drive the old races out of the head tube with a long rod and hammer, working round evenly. Remove the race from the lower bracket with a chisel. Fit the new races squarely; a crooked race damages the head tube.",
+    "depends_on": [
+     "check"
+    ],
+    "verification": [
+     "New races seated square."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "grease",
+    "title": "Grease and fit the lower bearing",
+    "instruction": "Fit the lower bearing on the stem with lithium-soap grease on the dust seal lip and the bearing inner circumference.",
+    "depends_on": [
+     "races"
+    ],
+    "verification": [
+     "Lower bearing greased and fitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "upper",
+    "title": "Fit the upper bearing",
+    "instruction": "Fit the greased upper bearing and the bearing race cover, greasing the cover lip.",
+    "depends_on": [
+     "grease"
+    ],
+    "verification": [
+     "Upper bearing and cover in."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "stem-in",
+    "title": "Fit the stem and ring nut",
+    "instruction": "Grease the stem threads and bearing seats and push the stem up. Fit the steering ring nut with its stepped side down. With the steering nut wrench tighten it to about 38 N·m (28 lb·ft), loosen it one full turn, then retighten it to 7 N·m (5.2 lb·ft). Turn the stem lock to lock: it must move smoothly; if it binds, take it apart and check the bearings.",
+    "depends_on": [
+     "upper"
+    ],
+    "verification": [
+     "Ring nut: 38 N·m, back one turn, 7 N·m; stem turns freely."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "forks-on",
+    "title": "Refit washer, forks and upper bracket",
+    "instruction": "Fit the washer, the fork legs and the upper bracket. Set the forks to the recorded height (standard: top of the outer tube 2 mm (0.1 in) above the upper clamp) and snug the lower pinch bolts.",
+    "depends_on": [
+     "stem-in"
+    ],
+    "verification": [
+     "Forks at height, lower pinch bolts snug."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "stem-nut",
+    "title": "Tighten the stem nut",
+    "instruction": "Grease the stem nut contact face with lithium-soap grease and tighten the nut to 145 N·m (107 lb·ft). Check the steering still turns smoothly; if it is tight, back the ring nut off a little at a time.",
+    "depends_on": [
+     "forks-on"
+    ],
+    "verification": [
+     "Stem nut 145 N·m; steering smooth."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "pinch",
+    "title": "Tighten the clamps",
+    "instruction": "Tighten the upper and lower pinch bolts to 21 N·m (15 lb·ft); do not over-tighten the lower ones.",
+    "depends_on": [
+     "stem-nut"
+    ],
+    "verification": [
+     "Pinch bolts 21 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "refit",
+    "title": "Refit bars, brake and fender",
+    "instruction": "Refit the handlebar with its holders the way they came off and tighten the lower holder nuts to 40 N·m (30 lb·ft). Refit the caliper at 28 N·m (21 lb·ft), the brake hose holders at 9 N·m (6.6 lb·ft), the front fender at 10 N·m (7.4 lb·ft) and the number plate at 7 N·m (5.2 lb·ft).",
+    "depends_on": [
+     "pinch"
+    ],
+    "verification": [
+     "Holders 40, caliper 28, hose holders 9, fender 10, plate 7 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-on",
+    "title": "Refit the front wheel",
+    "instruction": "Fit the collars, guide the disc between the pads and push the axle (greased with lithium-soap grease) through. Tighten the axle nut to 115 N·m (85 lb·ft). Before tightening the pinch bolts, push hard on the bars several times so the forks settle, then tighten the four axle pinch bolts to 21 N·m (15 lb·ft).",
+    "depends_on": [
+     "refit"
+    ],
+    "verification": [
+     "Axle nut 115 N·m; pinch bolts 21 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "brake-check",
+    "title": "Pump up the front brake",
+    "instruction": "Pull the front brake lever until it is firm and check the wheel spins freely without the brake dragging.",
+    "depends_on": [
+     "wheel-on"
+    ],
+    "verification": [
+     "Lever firm, wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "play-check",
+    "title": "Check for play",
+    "instruction": "With the front wheel off the ground, rock the fork legs back and forth: no play. Turn the bars lock to lock: no binding and no cable or hose snagging.",
+    "depends_on": [
+     "brake-check"
+    ],
+    "verification": [
+     "No play, no binding."
+    ],
+    "record_required": true
+   }
+  ],
+  "target": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2027,
+   "variant": "standard",
+   "region": "US"
+  }
+ },
+ {
+  "id": "bak-yamaha-yz450f-linkage-swingarm-bearings-v1-2018",
+  "component": "frame",
+  "affected_components": [
+   "linkage",
+   "swingarm",
+   "shock",
+   "rear_wheel",
+   "chain",
+   "rear_brake"
+  ],
+  "entry_state": [
+   "Bike on a stand, rear end washed."
+  ],
+  "exit_state": [
+   "Swingarm and linkage stripped, bearings and seals renewed where needed, reassembled with every torque and smooth travel checked."
+  ],
+  "title": "Renew linkage and swingarm pivot bearings",
+  "completeness": "Covers play check, rear wheel, brake and chain release, linkage and swingarm removal, inspection, pivot needle bearing and seal renewal with depths, linkage bearing and seal renewal, greasing and refit with every torque.",
+  "excluded": [
+   "Shock service (separate guide)",
+   "Chain and sprocket replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand and a swingarm support",
+    "size": null
+   },
+   {
+    "name": "Bearing press or drifts that bear on the outer race",
+    "size": null
+   },
+   {
+    "name": "Depth gauge",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 3.5-135 N·m",
+    "size": null
+   },
+   {
+    "name": "Molybdenum disulfide grease",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Swingarm pivot needle bearings (4), seals, thrust bearings, bushings and collars",
+    "purpose": "Renewed when worn."
+   },
+   {
+    "name": "Relay arm and connecting arm needle bearings, seals and collars",
+    "purpose": "Renewed when worn."
+   }
+  ],
+  "prerequisites": [
+   "Bike stable on the stand."
+  ],
+  "critical_stop_conditions": [
+   "Pivot shaft bent: replace, never straighten.",
+   "Cracked swingarm, relay arm or connecting arm: replace.",
+   "Bearing bore damaged: stop.",
+   "Binding through the travel after assembly: find it before riding."
+  ],
+  "steps": [
+   {
+    "id": "measure",
+    "title": "Check the swingarm before stripping",
+    "instruction": "With the rear wheel off the ground, check the pivot nut torque (85 N·m (63 lb·ft)). Move the swingarm side to side and up and down. Swingarm end free play limit: radial 1.0 mm (0.04 in), axial 0.2–0.9 mm.",
+    "depends_on": [],
+    "verification": [
+     "Play and smoothness recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-off",
+    "title": "Remove the rear wheel",
+    "instruction": "Remove the axle nut, loosen the adjusters, pull the axle, push the wheel forward, lift the chain off and drop the wheel out. Do not press the brake pedal with the wheel out.",
+    "depends_on": [
+     "measure"
+    ],
+    "verification": [
+     "Rear wheel out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "caliper",
+    "title": "Move the rear brake aside",
+    "instruction": "Remove the brake hose holder screws on the swingarm, slide the caliper bracket off the swingarm rail and tie the caliper up with the hose still connected. Remove the brake pedal bolt and spring, leaving the pedal on its master cylinder.",
+    "depends_on": [
+     "wheel-off"
+    ],
+    "verification": [
+     "Caliper and pedal clear, hydraulics closed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "chain",
+    "title": "Free the chain",
+    "instruction": "Remove the chain joint clip and joint and take the chain off.",
+    "depends_on": [
+     "caliper"
+    ],
+    "verification": [
+     "Chain off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "linkage-off",
+    "title": "Remove the linkage",
+    "instruction": "Support the swingarm. Remove the shock lower bolt and bolt, the relay arm bolt and bolt on the swingarm side, and the connecting arm bolts and bolts on the frame and relay arm sides. Lift out the relay arm and connecting arm.",
+    "depends_on": [
+     "chain"
+    ],
+    "verification": [
+     "Relay arm and connecting arm off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "swingarm-off",
+    "title": "Remove the swingarm",
+    "instruction": "Remove the pivot shaft nut and pull the pivot shaft, then lift the swingarm out.",
+    "depends_on": [
+     "linkage-off"
+    ],
+    "verification": [
+     "Swingarm out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "inspect",
+    "title": "Inspect swingarm, pivot and linkage",
+    "instruction": "Check the swingarm for bends or cracks. Roll the pivot shaft on a flat surface; a bent shaft is replaced, never straightened. Wash the pivot shaft, bushings, collars and bearings in solvent. Check the relay arm and connecting arm for damage. Any play, roughness, rust or pitting on a bearing, collar or bushing means bearings and collars (or bearings and bushings) are replaced as a set; damaged seals are replaced.",
+    "depends_on": [
+     "swingarm-off"
+    ],
+    "verification": [
+     "Swingarm, pivot and linkage condition recorded."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "all-good",
+      "label": "All bearings good",
+      "next_step": "grease",
+      "condition": "Every swingarm and linkage bearing, collar and bushing is smooth with no play, rust or pitting, and only seals and grease are needed."
+     }
+    ]
+   },
+   {
+    "id": "sa-bearings",
+    "title": "Renew the swingarm pivot bearings",
+    "instruction": "Remove the collars, seals, thrust bearings and bushings, then press the needle bearings out by their outer race. Press in new bearings from the inside, outer ones first, to 6.5 mm (0.26 in) below the face, and new seals 0–0.5 mm (0–0.02 in) deep.",
+    "depends_on": [
+     "inspect"
+    ],
+    "verification": [
+     "Bearing depth 6.5 mm and seal depth 0-0.5 mm measured."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "link-bearings",
+    "title": "Renew the linkage bearings",
+    "instruction": "Remove the collars, washers and seals from the relay arm and connecting arm and press out the needle bearings by their outer race. Press new bearings in flush (0 mm) and fit the washers and new seals flush (0 mm).",
+    "depends_on": [
+     "sa-bearings"
+    ],
+    "verification": [
+     "Linkage bearings and seals flush."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "grease",
+    "title": "Grease everything",
+    "instruction": "Pack the bearings, thrust bearings, bushings, collars, washers, seal lips and the pivot shaft with molybdenum disulfide grease. Grease the linkage and shock bolts (shank and thread).",
+    "depends_on": [
+     "link-bearings"
+    ],
+    "verification": [
+     "All bearings and bolts greased."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "swingarm-on",
+    "title": "Fit the swingarm",
+    "instruction": "Fit the swingarm and push the pivot shaft in from the right. Tighten the pivot nut to 85 N·m (63 lb·ft).",
+    "depends_on": [
+     "grease"
+    ],
+    "verification": [
+     "Pivot nut torqued."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "linkage-on",
+    "title": "Fit the linkage",
+    "instruction": "Fit the connecting arm bolt on the frame side from the right; fit the connecting arm bolt on the relay arm side, the relay arm bolt on the swingarm side and the shock lower bolt from the left. Tighten: connecting arm bolt frame side 80 N·m (59 lb·ft), connecting arm bolt relay arm side 80 N·m (59 lb·ft), relay arm bolt swingarm side 70 N·m (52 lb·ft), shock lower bolt 53 N·m (39 lb·ft).",
+    "depends_on": [
+     "swingarm-on"
+    ],
+    "verification": [
+     "Linkage 80/80/70 N·m; shock lower 53 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "travel",
+    "title": "Check the travel",
+    "instruction": "Lift the swingarm through its full travel by hand: smooth, no binding or knock.",
+    "depends_on": [
+     "linkage-on"
+    ],
+    "verification": [
+     "Smooth travel."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "chain-on",
+    "title": "Refit chain, brake and pedal",
+    "instruction": "Fit the chain with its joint and a clip whose closed end faces the direction of chain travel. Slide the caliper bracket back onto the swingarm rail and refit the hose holder screws at 3.5 N·m (2.6 lb·ft). Refit the brake pedal spring and bolt at 26 N·m (19 lb·ft).",
+    "depends_on": [
+     "travel"
+    ],
+    "verification": [
+     "Chain clip correct; pedal bolt 26 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-on",
+    "title": "Refit the rear wheel",
+    "instruction": "Fit the collars, wheel (disc between the pads), left chain puller, greased axle from the left, right puller, washer and nut. Set chain slack to 50–60 mm (1.97–2.36 in) with equal adjustment and the wheel pushed forward. Tighten the axle nut to 134 N·m (100 lb·ft) and the adjuster locknuts to 21 N·m (15 lb·ft). Press the brake pedal until firm.",
+    "depends_on": [
+     "chain-on"
+    ],
+    "verification": [
+     "Slack in range; axle and locknuts torqued; brake firm."
+    ],
+    "record_required": true
+   }
+  ],
+  "target": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2018,
+   "variant": "standard",
+   "region": "US"
+  }
+ },
+ {
+  "id": "bak-yamaha-yz450f-linkage-swingarm-bearings-v1-2019",
+  "component": "frame",
+  "affected_components": [
+   "linkage",
+   "swingarm",
+   "shock",
+   "rear_wheel",
+   "chain",
+   "rear_brake"
+  ],
+  "entry_state": [
+   "Bike on a stand, rear end washed."
+  ],
+  "exit_state": [
+   "Swingarm and linkage stripped, bearings and seals renewed where needed, reassembled with every torque and smooth travel checked."
+  ],
+  "title": "Renew linkage and swingarm pivot bearings",
+  "completeness": "Covers play check, rear wheel, brake and chain release, linkage and swingarm removal, inspection, pivot needle bearing and seal renewal with depths, linkage bearing and seal renewal, greasing and refit with every torque.",
+  "excluded": [
+   "Shock service (separate guide)",
+   "Chain and sprocket replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand and a swingarm support",
+    "size": null
+   },
+   {
+    "name": "Bearing press or drifts that bear on the outer race",
+    "size": null
+   },
+   {
+    "name": "Depth gauge",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 3.5-135 N·m",
+    "size": null
+   },
+   {
+    "name": "Molybdenum disulfide grease",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Swingarm pivot needle bearings (4), seals, thrust bearings, bushings and collars",
+    "purpose": "Renewed when worn."
+   },
+   {
+    "name": "Relay arm and connecting arm needle bearings, seals and collars",
+    "purpose": "Renewed when worn."
+   }
+  ],
+  "prerequisites": [
+   "Bike stable on the stand."
+  ],
+  "critical_stop_conditions": [
+   "Pivot shaft bent: replace, never straighten.",
+   "Cracked swingarm, relay arm or connecting arm: replace.",
+   "Bearing bore damaged: stop.",
+   "Binding through the travel after assembly: find it before riding."
+  ],
+  "steps": [
+   {
+    "id": "measure",
+    "title": "Check the swingarm before stripping",
+    "instruction": "With the rear wheel off the ground, check the pivot nut torque (85 N·m (63 lb·ft)). Move the swingarm side to side and up and down. Swingarm end free play limit: radial 1.0 mm (0.04 in), axial 0.2–0.9 mm.",
+    "depends_on": [],
+    "verification": [
+     "Play and smoothness recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-off",
+    "title": "Remove the rear wheel",
+    "instruction": "Remove the axle nut, loosen the adjusters, pull the axle, push the wheel forward, lift the chain off and drop the wheel out. Do not press the brake pedal with the wheel out.",
+    "depends_on": [
+     "measure"
+    ],
+    "verification": [
+     "Rear wheel out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "caliper",
+    "title": "Move the rear brake aside",
+    "instruction": "Remove the brake hose holder screws on the swingarm, slide the caliper bracket off the swingarm rail and tie the caliper up with the hose still connected. Remove the brake pedal bolt and spring, leaving the pedal on its master cylinder.",
+    "depends_on": [
+     "wheel-off"
+    ],
+    "verification": [
+     "Caliper and pedal clear, hydraulics closed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "chain",
+    "title": "Free the chain",
+    "instruction": "Remove the chain joint clip and joint and take the chain off.",
+    "depends_on": [
+     "caliper"
+    ],
+    "verification": [
+     "Chain off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "linkage-off",
+    "title": "Remove the linkage",
+    "instruction": "Support the swingarm. Remove the shock lower bolt and bolt, the relay arm bolt and bolt on the swingarm side, and the connecting arm bolts and bolts on the frame and relay arm sides. Lift out the relay arm and connecting arm.",
+    "depends_on": [
+     "chain"
+    ],
+    "verification": [
+     "Relay arm and connecting arm off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "swingarm-off",
+    "title": "Remove the swingarm",
+    "instruction": "Remove the pivot shaft nut and pull the pivot shaft, then lift the swingarm out.",
+    "depends_on": [
+     "linkage-off"
+    ],
+    "verification": [
+     "Swingarm out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "inspect",
+    "title": "Inspect swingarm, pivot and linkage",
+    "instruction": "Check the swingarm for bends or cracks. Roll the pivot shaft on a flat surface; a bent shaft is replaced, never straightened. Wash the pivot shaft, bushings, collars and bearings in solvent. Check the relay arm and connecting arm for damage. Any play, roughness, rust or pitting on a bearing, collar or bushing means bearings and collars (or bearings and bushings) are replaced as a set; damaged seals are replaced.",
+    "depends_on": [
+     "swingarm-off"
+    ],
+    "verification": [
+     "Swingarm, pivot and linkage condition recorded."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "all-good",
+      "label": "All bearings good",
+      "next_step": "grease",
+      "condition": "Every swingarm and linkage bearing, collar and bushing is smooth with no play, rust or pitting, and only seals and grease are needed."
+     }
+    ]
+   },
+   {
+    "id": "sa-bearings",
+    "title": "Renew the swingarm pivot bearings",
+    "instruction": "Remove the collars, seals, thrust bearings and bushings, then press the needle bearings out by their outer race. Press in new bearings from the inside, outer ones first, to 6.5 mm (0.26 in) below the face, and new seals 0–0.5 mm (0–0.02 in) deep.",
+    "depends_on": [
+     "inspect"
+    ],
+    "verification": [
+     "Bearing depth 6.5 mm and seal depth 0-0.5 mm measured."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "link-bearings",
+    "title": "Renew the linkage bearings",
+    "instruction": "Remove the collars, washers and seals from the relay arm and connecting arm and press out the needle bearings by their outer race. Press new bearings in flush (0 mm) and fit the washers and new seals flush (0 mm).",
+    "depends_on": [
+     "sa-bearings"
+    ],
+    "verification": [
+     "Linkage bearings and seals flush."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "grease",
+    "title": "Grease everything",
+    "instruction": "Pack the bearings, thrust bearings, bushings, collars, washers, seal lips and the pivot shaft with molybdenum disulfide grease. Grease the linkage and shock bolts (shank and thread).",
+    "depends_on": [
+     "link-bearings"
+    ],
+    "verification": [
+     "All bearings and bolts greased."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "swingarm-on",
+    "title": "Fit the swingarm",
+    "instruction": "Fit the swingarm and push the pivot shaft in from the right. Tighten the pivot nut to 85 N·m (63 lb·ft).",
+    "depends_on": [
+     "grease"
+    ],
+    "verification": [
+     "Pivot nut torqued."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "linkage-on",
+    "title": "Fit the linkage",
+    "instruction": "Fit the connecting arm bolt on the frame side from the right; fit the connecting arm bolt on the relay arm side, the relay arm bolt on the swingarm side and the shock lower bolt from the left. Tighten: connecting arm bolt frame side 80 N·m (59 lb·ft), connecting arm bolt relay arm side 80 N·m (59 lb·ft), relay arm bolt swingarm side 70 N·m (52 lb·ft), shock lower bolt 53 N·m (39 lb·ft).",
+    "depends_on": [
+     "swingarm-on"
+    ],
+    "verification": [
+     "Linkage 80/80/70 N·m; shock lower 53 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "travel",
+    "title": "Check the travel",
+    "instruction": "Lift the swingarm through its full travel by hand: smooth, no binding or knock.",
+    "depends_on": [
+     "linkage-on"
+    ],
+    "verification": [
+     "Smooth travel."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "chain-on",
+    "title": "Refit chain, brake and pedal",
+    "instruction": "Fit the chain with its joint and a clip whose closed end faces the direction of chain travel. Slide the caliper bracket back onto the swingarm rail and refit the hose holder screws at 3.5 N·m (2.6 lb·ft). Refit the brake pedal spring and bolt at 26 N·m (19 lb·ft).",
+    "depends_on": [
+     "travel"
+    ],
+    "verification": [
+     "Chain clip correct; pedal bolt 26 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-on",
+    "title": "Refit the rear wheel",
+    "instruction": "Fit the collars, wheel (disc between the pads), left chain puller, greased axle from the left, right puller, washer and nut. Set chain slack to 50–60 mm (1.97–2.36 in) with equal adjustment and the wheel pushed forward. Tighten the axle nut to 135 N·m (100 lb·ft) and the adjuster locknuts to 21 N·m (15 lb·ft). Press the brake pedal until firm.",
+    "depends_on": [
+     "chain-on"
+    ],
+    "verification": [
+     "Slack in range; axle and locknuts torqued; brake firm."
+    ],
+    "record_required": true
+   }
+  ],
+  "target": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2019,
+   "variant": "standard",
+   "region": "US"
+  }
+ },
+ {
+  "id": "bak-yamaha-yz450f-linkage-swingarm-bearings-v1-2020",
+  "component": "frame",
+  "affected_components": [
+   "linkage",
+   "swingarm",
+   "shock",
+   "rear_wheel",
+   "chain",
+   "rear_brake"
+  ],
+  "entry_state": [
+   "Bike on a stand, rear end washed."
+  ],
+  "exit_state": [
+   "Swingarm and linkage stripped, bearings and seals renewed where needed, reassembled with every torque and smooth travel checked."
+  ],
+  "title": "Renew linkage and swingarm pivot bearings",
+  "completeness": "Covers play check, rear wheel, brake and chain release, linkage and swingarm removal, inspection, pivot needle bearing and seal renewal with depths, linkage bearing and seal renewal, greasing and refit with every torque.",
+  "excluded": [
+   "Shock service (separate guide)",
+   "Chain and sprocket replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand and a swingarm support",
+    "size": null
+   },
+   {
+    "name": "Bearing press or drifts that bear on the outer race",
+    "size": null
+   },
+   {
+    "name": "Depth gauge",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 3.5-135 N·m",
+    "size": null
+   },
+   {
+    "name": "Molybdenum disulfide grease",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Swingarm pivot needle bearings (4), seals, thrust bearings, bushings and collars",
+    "purpose": "Renewed when worn."
+   },
+   {
+    "name": "Relay arm and connecting arm needle bearings, seals and collars",
+    "purpose": "Renewed when worn."
+   }
+  ],
+  "prerequisites": [
+   "Bike stable on the stand."
+  ],
+  "critical_stop_conditions": [
+   "Pivot shaft bent: replace, never straighten.",
+   "Cracked swingarm, relay arm or connecting arm: replace.",
+   "Bearing bore damaged: stop.",
+   "Binding through the travel after assembly: find it before riding."
+  ],
+  "steps": [
+   {
+    "id": "measure",
+    "title": "Check the swingarm before stripping",
+    "instruction": "With the rear wheel off the ground, check the pivot nut torque (85 N·m (63 lb·ft)). Move the swingarm side to side and up and down. Swingarm end free play limit: radial 1.0 mm (0.04 in), axial 0.2–0.9 mm.",
+    "depends_on": [],
+    "verification": [
+     "Play and smoothness recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-off",
+    "title": "Remove the rear wheel",
+    "instruction": "Remove the axle nut, loosen the adjusters, pull the axle, push the wheel forward, lift the chain off and drop the wheel out. Do not press the brake pedal with the wheel out.",
+    "depends_on": [
+     "measure"
+    ],
+    "verification": [
+     "Rear wheel out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "caliper",
+    "title": "Move the rear brake aside",
+    "instruction": "Remove the brake hose holder screws on the swingarm, slide the caliper bracket off the swingarm rail and tie the caliper up with the hose still connected. Remove the brake pedal bolt and spring, leaving the pedal on its master cylinder.",
+    "depends_on": [
+     "wheel-off"
+    ],
+    "verification": [
+     "Caliper and pedal clear, hydraulics closed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "chain",
+    "title": "Free the chain",
+    "instruction": "Remove the chain joint clip and joint and take the chain off.",
+    "depends_on": [
+     "caliper"
+    ],
+    "verification": [
+     "Chain off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "linkage-off",
+    "title": "Remove the linkage",
+    "instruction": "Support the swingarm. Remove the shock lower nut and bolt, the relay arm nut and bolt on the swingarm side, and the connecting arm nuts and bolts on the frame and relay arm sides. Lift out the relay arm and connecting arm.",
+    "depends_on": [
+     "chain"
+    ],
+    "verification": [
+     "Relay arm and connecting arm off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "swingarm-off",
+    "title": "Remove the swingarm",
+    "instruction": "Remove the pivot shaft nut and pull the pivot shaft, then lift the swingarm out.",
+    "depends_on": [
+     "linkage-off"
+    ],
+    "verification": [
+     "Swingarm out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "inspect",
+    "title": "Inspect swingarm, pivot and linkage",
+    "instruction": "Check the swingarm for bends or cracks. Roll the pivot shaft on a flat surface; a bent shaft is replaced, never straightened. Wash the pivot shaft, bushings, collars and bearings in solvent. Check the relay arm and connecting arm for damage. Any play, roughness, rust or pitting on a bearing, collar or bushing means bearings and collars (or bearings and bushings) are replaced as a set; damaged seals are replaced.",
+    "depends_on": [
+     "swingarm-off"
+    ],
+    "verification": [
+     "Swingarm, pivot and linkage condition recorded."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "all-good",
+      "label": "All bearings good",
+      "next_step": "grease",
+      "condition": "Every swingarm and linkage bearing, collar and bushing is smooth with no play, rust or pitting, and only seals and grease are needed."
+     }
+    ]
+   },
+   {
+    "id": "sa-bearings",
+    "title": "Renew the swingarm pivot bearings",
+    "instruction": "Remove the collars, seals, thrust bearings and bushings, then press the needle bearings out by their outer race. Press in new bearings from the inside, outer ones first, to 6.5 mm (0.26 in) below the face, and new seals 0–0.5 mm (0–0.02 in) deep.",
+    "depends_on": [
+     "inspect"
+    ],
+    "verification": [
+     "Bearing depth 6.5 mm and seal depth 0-0.5 mm measured."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "link-bearings",
+    "title": "Renew the linkage bearings",
+    "instruction": "Remove the collars, washers and seals from the relay arm and connecting arm and press out the needle bearings by their outer race. Press new bearings in flush (0 mm) and fit the washers and new seals flush (0 mm).",
+    "depends_on": [
+     "sa-bearings"
+    ],
+    "verification": [
+     "Linkage bearings and seals flush."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "grease",
+    "title": "Grease everything",
+    "instruction": "Pack the bearings, thrust bearings, bushings, collars, washers, seal lips and the pivot shaft with molybdenum disulfide grease. Grease the linkage and shock bolts (shank and thread).",
+    "depends_on": [
+     "link-bearings"
+    ],
+    "verification": [
+     "All bearings and bolts greased."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "swingarm-on",
+    "title": "Fit the swingarm",
+    "instruction": "Fit the swingarm and push the pivot shaft in from the right. Tighten the pivot nut to 85 N·m (63 lb·ft).",
+    "depends_on": [
+     "grease"
+    ],
+    "verification": [
+     "Pivot nut torqued."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "linkage-on",
+    "title": "Fit the linkage",
+    "instruction": "Fit the connecting arm bolt on the frame side from the right; fit the connecting arm bolt on the relay arm side, the relay arm bolt on the swingarm side and the shock lower bolt from the left. Tighten: connecting arm nut frame side 80 N·m (59 lb·ft), connecting arm nut relay arm side 80 N·m (59 lb·ft), relay arm nut swingarm side 70 N·m (52 lb·ft), shock lower nut 53 N·m (39 lb·ft).",
+    "depends_on": [
+     "swingarm-on"
+    ],
+    "verification": [
+     "Linkage 80/80/70 N·m; shock lower 53 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "travel",
+    "title": "Check the travel",
+    "instruction": "Lift the swingarm through its full travel by hand: smooth, no binding or knock.",
+    "depends_on": [
+     "linkage-on"
+    ],
+    "verification": [
+     "Smooth travel."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "chain-on",
+    "title": "Refit chain, brake and pedal",
+    "instruction": "Fit the chain with its joint and a clip whose closed end faces the direction of chain travel. Slide the caliper bracket back onto the swingarm rail and refit the hose holder screws at 3.5 N·m (2.6 lb·ft). Refit the brake pedal spring and bolt at 26 N·m (19 lb·ft).",
+    "depends_on": [
+     "travel"
+    ],
+    "verification": [
+     "Chain clip correct; pedal bolt 26 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-on",
+    "title": "Refit the rear wheel",
+    "instruction": "Fit the collars, wheel (disc between the pads), left chain puller, greased axle from the left, right puller, washer and nut. Set chain slack to 50–60 mm (1.97–2.36 in) with equal adjustment and the wheel pushed forward. Tighten the axle nut to 135 N·m (100 lb·ft) and the adjuster locknuts to 21 N·m (15 lb·ft). Press the brake pedal until firm.",
+    "depends_on": [
+     "chain-on"
+    ],
+    "verification": [
+     "Slack in range; axle and locknuts torqued; brake firm."
+    ],
+    "record_required": true
+   }
+  ],
+  "target": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2020,
+   "variant": "standard",
+   "region": "US"
+  }
+ },
+ {
+  "id": "bak-yamaha-yz450f-linkage-swingarm-bearings-v1-2021",
+  "component": "frame",
+  "affected_components": [
+   "linkage",
+   "swingarm",
+   "shock",
+   "rear_wheel",
+   "chain",
+   "rear_brake"
+  ],
+  "entry_state": [
+   "Bike on a stand, rear end washed."
+  ],
+  "exit_state": [
+   "Swingarm and linkage stripped, bearings and seals renewed where needed, reassembled with every torque and smooth travel checked."
+  ],
+  "title": "Renew linkage and swingarm pivot bearings",
+  "completeness": "Covers play check, rear wheel, brake and chain release, linkage and swingarm removal, inspection, pivot needle bearing and seal renewal with depths, linkage bearing and seal renewal, greasing and refit with every torque.",
+  "excluded": [
+   "Shock service (separate guide)",
+   "Chain and sprocket replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand and a swingarm support",
+    "size": null
+   },
+   {
+    "name": "Bearing press or drifts that bear on the outer race",
+    "size": null
+   },
+   {
+    "name": "Depth gauge",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 3.5-135 N·m",
+    "size": null
+   },
+   {
+    "name": "Molybdenum disulfide grease",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Swingarm pivot needle bearings (4), seals, thrust bearings, bushings and collars",
+    "purpose": "Renewed when worn."
+   },
+   {
+    "name": "Relay arm and connecting arm needle bearings, seals and collars",
+    "purpose": "Renewed when worn."
+   }
+  ],
+  "prerequisites": [
+   "Bike stable on the stand."
+  ],
+  "critical_stop_conditions": [
+   "Pivot shaft bent: replace, never straighten.",
+   "Cracked swingarm, relay arm or connecting arm: replace.",
+   "Bearing bore damaged: stop.",
+   "Binding through the travel after assembly: find it before riding."
+  ],
+  "steps": [
+   {
+    "id": "measure",
+    "title": "Check the swingarm before stripping",
+    "instruction": "With the rear wheel off the ground, check the pivot nut torque (85 N·m (63 lb·ft)). Move the swingarm side to side and up and down. Any side play or roughness means the bearings, bushings and collars need checking.",
+    "depends_on": [],
+    "verification": [
+     "Play and smoothness recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-off",
+    "title": "Remove the rear wheel",
+    "instruction": "Remove the axle nut, loosen the adjusters, pull the axle, push the wheel forward, lift the chain off and drop the wheel out. Do not press the brake pedal with the wheel out.",
+    "depends_on": [
+     "measure"
+    ],
+    "verification": [
+     "Rear wheel out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "caliper",
+    "title": "Move the rear brake aside",
+    "instruction": "Remove the brake hose holder screws on the swingarm, slide the caliper bracket off the swingarm rail and tie the caliper up with the hose still connected. Remove the brake pedal bolt and spring, leaving the pedal on its master cylinder.",
+    "depends_on": [
+     "wheel-off"
+    ],
+    "verification": [
+     "Caliper and pedal clear, hydraulics closed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "chain",
+    "title": "Free the chain",
+    "instruction": "Remove the chain joint clip and joint and take the chain off.",
+    "depends_on": [
+     "caliper"
+    ],
+    "verification": [
+     "Chain off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "linkage-off",
+    "title": "Remove the linkage",
+    "instruction": "Support the swingarm. Remove the shock lower nut and bolt, the relay arm nut and bolt on the swingarm side, and the connecting arm nuts and bolts on the frame and relay arm sides. Lift out the relay arm and connecting arm.",
+    "depends_on": [
+     "chain"
+    ],
+    "verification": [
+     "Relay arm and connecting arm off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "swingarm-off",
+    "title": "Remove the swingarm",
+    "instruction": "Remove the pivot shaft nut and pull the pivot shaft, then lift the swingarm out.",
+    "depends_on": [
+     "linkage-off"
+    ],
+    "verification": [
+     "Swingarm out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "inspect",
+    "title": "Inspect swingarm, pivot and linkage",
+    "instruction": "Check the swingarm for bends or cracks. Roll the pivot shaft on a flat surface; a bent shaft is replaced, never straightened. Wash the pivot shaft, bushings, collars and bearings in solvent. Check the relay arm and connecting arm for damage. Any play, roughness, rust or pitting on a bearing, collar or bushing means bearings and collars (or bearings and bushings) are replaced as a set; damaged seals are replaced.",
+    "depends_on": [
+     "swingarm-off"
+    ],
+    "verification": [
+     "Swingarm, pivot and linkage condition recorded."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "all-good",
+      "label": "All bearings good",
+      "next_step": "grease",
+      "condition": "Every swingarm and linkage bearing, collar and bushing is smooth with no play, rust or pitting, and only seals and grease are needed."
+     }
+    ]
+   },
+   {
+    "id": "sa-bearings",
+    "title": "Renew the swingarm pivot bearings",
+    "instruction": "Remove the collars, seals, thrust bearings and bushings, then press the needle bearings out by their outer race. Press in new bearings from the inside, outer ones first, to 6.5 mm (0.26 in) below the face, and new seals 0–0.5 mm (0–0.02 in) deep.",
+    "depends_on": [
+     "inspect"
+    ],
+    "verification": [
+     "Bearing depth 6.5 mm and seal depth 0-0.5 mm measured."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "link-bearings",
+    "title": "Renew the linkage bearings",
+    "instruction": "Remove the collars, washers and seals from the relay arm and connecting arm and press out the needle bearings by their outer race. Press new bearings in flush (0 mm) and fit the washers and new seals flush (0 mm).",
+    "depends_on": [
+     "sa-bearings"
+    ],
+    "verification": [
+     "Linkage bearings and seals flush."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "grease",
+    "title": "Grease everything",
+    "instruction": "Pack the bearings, thrust bearings, bushings, collars, washers, seal lips and the pivot shaft with molybdenum disulfide grease. Grease the linkage and shock bolts (shank and thread).",
+    "depends_on": [
+     "link-bearings"
+    ],
+    "verification": [
+     "All bearings and bolts greased."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "swingarm-on",
+    "title": "Fit the swingarm",
+    "instruction": "Fit the swingarm and push the pivot shaft in from the right. Tighten the pivot nut to 85 N·m (63 lb·ft).",
+    "depends_on": [
+     "grease"
+    ],
+    "verification": [
+     "Pivot nut torqued."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "linkage-on",
+    "title": "Fit the linkage",
+    "instruction": "Fit the connecting arm bolt on the frame side from the right; fit the connecting arm bolt on the relay arm side, the relay arm bolt on the swingarm side and the shock lower bolt from the left. Tighten: connecting arm nut frame side 80 N·m (59 lb·ft), connecting arm nut relay arm side 80 N·m (59 lb·ft), relay arm nut swingarm side 70 N·m (52 lb·ft), shock lower nut 53 N·m (39 lb·ft).",
+    "depends_on": [
+     "swingarm-on"
+    ],
+    "verification": [
+     "Linkage 80/80/70 N·m; shock lower 53 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "travel",
+    "title": "Check the travel",
+    "instruction": "Lift the swingarm through its full travel by hand: smooth, no binding or knock.",
+    "depends_on": [
+     "linkage-on"
+    ],
+    "verification": [
+     "Smooth travel."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "chain-on",
+    "title": "Refit chain, brake and pedal",
+    "instruction": "Fit the chain with its joint and a clip whose closed end faces the direction of chain travel. Slide the caliper bracket back onto the swingarm rail and refit the hose holder screws at 3.5 N·m (2.6 lb·ft). Refit the brake pedal spring and bolt at 26 N·m (19 lb·ft).",
+    "depends_on": [
+     "travel"
+    ],
+    "verification": [
+     "Chain clip correct; pedal bolt 26 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-on",
+    "title": "Refit the rear wheel",
+    "instruction": "Fit the collars, wheel (disc between the pads), left chain puller, greased axle from the left, right puller, washer and nut. Set chain slack to 50–60 mm (1.97–2.36 in) with equal adjustment and the wheel pushed forward. Tighten the axle nut to 135 N·m (100 lb·ft) and the adjuster locknuts to 21 N·m (15 lb·ft). Press the brake pedal until firm.",
+    "depends_on": [
+     "chain-on"
+    ],
+    "verification": [
+     "Slack in range; axle and locknuts torqued; brake firm."
+    ],
+    "record_required": true
+   }
+  ],
+  "target": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2021,
+   "variant": "standard",
+   "region": "US"
+  }
+ },
+ {
+  "id": "bak-yamaha-yz450f-linkage-swingarm-bearings-v1-2027",
+  "component": "frame",
+  "affected_components": [
+   "linkage",
+   "swingarm",
+   "shock",
+   "rear_wheel",
+   "chain",
+   "rear_brake"
+  ],
+  "entry_state": [
+   "Bike on a stand, rear end washed."
+  ],
+  "exit_state": [
+   "Swingarm and linkage stripped, bearings and seals renewed where needed, reassembled with every torque and smooth travel checked."
+  ],
+  "title": "Renew linkage and swingarm pivot bearings",
+  "completeness": "Covers play check, rear wheel, brake and chain release, linkage and swingarm removal, inspection, pivot needle bearing and seal renewal with depths, linkage bearing and seal renewal, greasing and refit with every torque.",
+  "excluded": [
+   "Shock service (separate guide)",
+   "Chain and sprocket replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand and a swingarm support",
+    "size": null
+   },
+   {
+    "name": "Bearing press or drifts that bear on the outer race",
+    "size": null
+   },
+   {
+    "name": "Depth gauge",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 3.5-135 N·m",
+    "size": null
+   },
+   {
+    "name": "Molybdenum disulfide grease",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Swingarm pivot needle bearings (4), seals, thrust bearings, bushings and collars",
+    "purpose": "Renewed when worn."
+   },
+   {
+    "name": "Relay arm and connecting arm needle bearings, seals and collars",
+    "purpose": "Renewed when worn."
+   }
+  ],
+  "prerequisites": [
+   "Bike stable on the stand."
+  ],
+  "critical_stop_conditions": [
+   "Pivot shaft bent: replace, never straighten.",
+   "Cracked swingarm, relay arm or connecting arm: replace.",
+   "Bearing bore damaged: stop.",
+   "Binding through the travel after assembly: find it before riding."
+  ],
+  "steps": [
+   {
+    "id": "measure",
+    "title": "Check the swingarm before stripping",
+    "instruction": "With the rear wheel off the ground, check the pivot nut torque (75 N·m (55 lb·ft)). Move the swingarm side to side and up and down. Any side play or roughness means the bearings, bushings and collars need checking.",
+    "depends_on": [],
+    "verification": [
+     "Play and smoothness recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-off",
+    "title": "Remove the rear wheel",
+    "instruction": "Remove the axle nut, loosen the adjusters, pull the axle, push the wheel forward, lift the chain off and drop the wheel out. Do not press the brake pedal with the wheel out.",
+    "depends_on": [
+     "measure"
+    ],
+    "verification": [
+     "Rear wheel out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "caliper",
+    "title": "Move the rear brake aside",
+    "instruction": "Release the brake hose from its guides on the swingarm, slide the caliper bracket off the swingarm rail and tie the caliper up with the hose still connected. Remove the brake pedal bolt and spring, leaving the pedal on its master cylinder.",
+    "depends_on": [
+     "wheel-off"
+    ],
+    "verification": [
+     "Caliper and pedal clear, hydraulics closed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "chain",
+    "title": "Free the chain",
+    "instruction": "Remove the chain joint clip and joint and take the chain off.",
+    "depends_on": [
+     "caliper"
+    ],
+    "verification": [
+     "Chain off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "linkage-off",
+    "title": "Remove the linkage",
+    "instruction": "Support the swingarm. Remove the shock lower nut and bolt, the relay arm nut and bolt on the swingarm side, and the connecting arm nuts and bolts on the frame and relay arm sides. Lift out the relay arm and connecting arm.",
+    "depends_on": [
+     "chain"
+    ],
+    "verification": [
+     "Relay arm and connecting arm off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "swingarm-off",
+    "title": "Remove the swingarm",
+    "instruction": "Remove the pivot shaft nut and pull the pivot shaft, then lift the swingarm out.",
+    "depends_on": [
+     "linkage-off"
+    ],
+    "verification": [
+     "Swingarm out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "inspect",
+    "title": "Inspect swingarm, pivot and linkage",
+    "instruction": "Check the swingarm for bends or cracks. Roll the pivot shaft on a flat surface; a bent shaft is replaced, never straightened. Wash the pivot shaft, bushings, collars and bearings in solvent. Check the relay arm and connecting arm for damage. Any play, roughness, rust or pitting on a bearing, collar or bushing means bearings and collars (or bearings and bushings) are replaced as a set; damaged seals are replaced.",
+    "depends_on": [
+     "swingarm-off"
+    ],
+    "verification": [
+     "Swingarm, pivot and linkage condition recorded."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "all-good",
+      "label": "All bearings good",
+      "next_step": "grease",
+      "condition": "Every swingarm and linkage bearing, collar and bushing is smooth with no play, rust or pitting, and only seals and grease are needed."
+     }
+    ]
+   },
+   {
+    "id": "sa-bearings",
+    "title": "Renew the swingarm pivot bearings",
+    "instruction": "Remove the collars, seals, thrust bearings and bushings, then press the needle bearings out by their outer race. Press in new bearings from the inside, outer ones first, to 6.5 mm (0.26 in) below the face, and new seals 0–0.5 mm (0–0.02 in) deep.",
+    "depends_on": [
+     "inspect"
+    ],
+    "verification": [
+     "Bearing depth 6.5 mm and seal depth 0-0.5 mm measured."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "link-bearings",
+    "title": "Renew the linkage bearings",
+    "instruction": "Remove the collars, washers and seals from the relay arm and connecting arm and press out the needle bearings by their outer race. Press new bearings in flush (0 mm) and fit the washers and new seals flush (0 mm).",
+    "depends_on": [
+     "sa-bearings"
+    ],
+    "verification": [
+     "Linkage bearings and seals flush."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "grease",
+    "title": "Grease everything",
+    "instruction": "Pack the bearings, thrust bearings, bushings, collars, washers, seal lips and the pivot shaft with molybdenum disulfide grease. Grease the linkage and shock bolts (shank and thread).",
+    "depends_on": [
+     "link-bearings"
+    ],
+    "verification": [
+     "All bearings and bolts greased."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "swingarm-on",
+    "title": "Fit the swingarm",
+    "instruction": "Fit the swingarm and push the pivot shaft in from the right. Tighten the pivot nut to 75 N·m (55 lb·ft), with lithium-soap grease on the nut threads and face.",
+    "depends_on": [
+     "grease"
+    ],
+    "verification": [
+     "Pivot nut torqued."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "linkage-on",
+    "title": "Fit the linkage",
+    "instruction": "Fit the connecting arm bolt on the frame side from the right; fit the connecting arm bolt on the relay arm side, the relay arm bolt on the swingarm side and the shock lower bolt from the left. Tighten: connecting arm nut frame side 80 N·m (59 lb·ft), connecting arm nut relay arm side 80 N·m (59 lb·ft), relay arm nut swingarm side 70 N·m (52 lb·ft), shock lower nut 53 N·m (39 lb·ft).",
+    "depends_on": [
+     "swingarm-on"
+    ],
+    "verification": [
+     "Linkage 80/80/70 N·m; shock lower 53 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "travel",
+    "title": "Check the travel",
+    "instruction": "Lift the swingarm through its full travel by hand: smooth, no binding or knock.",
+    "depends_on": [
+     "linkage-on"
+    ],
+    "verification": [
+     "Smooth travel."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "chain-on",
+    "title": "Refit chain, brake and pedal",
+    "instruction": "Fit the chain with its joint and a clip whose closed end faces the direction of chain travel. Slide the caliper bracket back onto the swingarm rail and refit the hose in its guides. Refit the brake pedal spring and bolt at 26 N·m (19 lb·ft).",
+    "depends_on": [
+     "travel"
+    ],
+    "verification": [
+     "Chain clip correct; pedal bolt 26 N·m."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wheel-on",
+    "title": "Refit the rear wheel",
+    "instruction": "Fit the collars, wheel (disc between the pads), left chain puller, greased axle from the left, right puller, washer and nut. Set chain slack to 50–60 mm (1.97–2.36 in) with equal adjustment and the wheel pushed forward. Tighten the axle nut to 135 N·m (100 lb·ft) and the adjuster locknuts to 21 N·m (15 lb·ft). Press the brake pedal until firm.",
+    "depends_on": [
+     "chain-on"
+    ],
+    "verification": [
+     "Slack in range; axle and locknuts torqued; brake firm."
+    ],
+    "record_required": true
+   }
+  ],
+  "target": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2027,
+   "variant": "standard",
+   "region": "US"
+  }
+ }
+]
