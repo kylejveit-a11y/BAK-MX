@@ -9,7 +9,10 @@ const banned=/\b(repair manual|owner'?s manual|service manual|ktm says|page \d|p
 const out:any[]=[];
 for(const file of readdirSync(dir).filter(f=>f.endsWith('.json')).sort()){
  const raw=readFileSync(dir+file,'utf8'),list=JSON.parse(raw);
- for(const p of (Array.isArray(list)?list:list.procedures)){
+ // A guide written once for a platform generation may list "targets": every exact bike-year whose values were checked to be
+ // identical. It is expanded into one guide per bike-year (id gets the year), so each bike's own guide list stays exact.
+ const expanded=(Array.isArray(list)?list:list.procedures).flatMap((p:any)=>Array.isArray(p.targets)&&p.targets.length?p.targets.map((t:any)=>{const {targets,...rest}=p;return {...rest,id:`${p.id}-${t.manufacturer}-${t.model}-${t.model_year}`.toLowerCase().replace(/[^a-z0-9-]+/g,'-'),target:{variant:'standard',region:'US',...t}};}):[p]);
+ for(const p of expanded){
   if(!/^bak-/.test(p.id))throw Error(`${file}: ${p.id} must start with bak-`);
   const ids=new Set<string>();
   for(const s of p.steps){
