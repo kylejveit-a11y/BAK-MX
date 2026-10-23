@@ -10825,71 +10825,85 @@
   ]
  },
  {
-  "id": "bak-yamaha-yz125-shock-mounts-2020-v1",
+  "id": "bak-yamaha-yz125-shock-spring-bearings-2020-v1",
   "component": "shock",
-  "title": "Rear shock removal, spring change and mount bearing renewal (sealed damper not opened)",
+  "title": "Refresh the rear shock spring, eye bearings and seals (sealed damper)",
   "affected_components": [
    "shock",
    "linkage",
    "subframe",
-   "air_intake"
+   "air_intake",
+   "exhaust"
   ],
-  "completeness": "Covers removing and refitting the shock, the spring, and the eye bearings and seals. The damper itself holds high-pressure nitrogen and is sealed on this bike: the damper oil, seals and valving are not covered.",
+  "completeness": "Covers everything that can be done to this shock without opening the damper: removal and refit, damper inspection, spring and spring guide inspection, preload setting, and the upper and lower eye bearings, bushing, collars and seals. The damper is a sealed, nitrogen-charged unit that is not opened. A leaking or worn damper goes to a suspension shop for a damper rebuild, or the shock assembly is replaced.",
   "critical_stop_conditions": [
-   "Oil or gas leaking from the shock, or a bent or damaged rod: the shock assembly is replaced or sent to a suspension specialist; do not open it.",
-   "Never heat the shock or put it near a flame; the gas pressure can make it burst.",
-   "Do not grease the outside of the shock eye bearing; it wears the eye it is pressed into."
+   "Oil or gas leaking from the damper, or a bent or scored rod: do not open it; send the shock to a suspension shop for a damper rebuild or replace the shock assembly.",
+   "Never heat, puncture, clamp or dent the damper body or reservoir: it holds high-pressure nitrogen and can burst.",
+   "Never remove the plug or valve on the gas reservoir.",
+   "Shock eye bore scored or oval: stop; the shock body is damaged.",
+   "Bike moving on the stand when the lower bolt is out: stop and secure it.",
+   "Do not turn the preload adjuster beyond its minimum or maximum setting."
   ],
   "entry_state": [
-   "Yamaha YZ125 with the stock rear shock fitted."
+   "Yamaha YZ125 with the stock rear shock fitted, bike cold and washed around the shock and subframe."
   ],
   "excluded": [
-   "Opening the damper body or gas reservoir, damper oil change, shaft seal, valving and nitrogen charge"
+   "Damper internals: oil, shaft seal, piston, valving, bladder and nitrogen charge (the damper is sealed and not opened)",
+   "Linkage and swingarm bearing service (separate guide)",
+   "Changing to a different spring rate"
   ],
   "exit_state": [
-   "Shock checked outside, spring checked or changed, mount bearings, bushing, collars and seals renewed, shock refitted to torque at the recorded preload."
+   "Shock inspected, spring and guides checked or replaced, eye bearings, bushing, collars and dust seals renewed as needed, preload set and recorded, shock refitted with mounts torqued and clickers restored."
   ],
   "prerequisites": [
-   "Bike clean around the shock and subframe.",
-   "Spring preload length measured and recorded before anything is loosened."
+   "Engine and exhaust cold.",
+   "Spring length and clicker positions recorded before anything is loosened."
   ],
   "required_parts": [
    {
-    "name": "New dust seals and stopper ring for the shock eyes",
-    "purpose": "Not reused."
+    "name": "New lower dust seals",
+    "purpose": "Renewed whenever the lower bearing is disturbed."
    },
    {
-    "name": "Bearings, bushing and collars as needed",
-    "purpose": "Replaced when worn or rough."
+    "name": "Upper bearing with stopper ring, lower bearing, bushing and collars if worn",
+    "purpose": "Replaced only if inspection finds roughness, play or damage."
    },
    {
     "name": "Molybdenum disulfide grease and lithium-soap-based grease",
-    "purpose": "Bearings, collars, bolts and O-rings."
+    "purpose": "Bearings, seal lips, collars, bolts and O-rings."
+   },
+   {
+    "name": "Shock assembly or a damper rebuild by a suspension shop",
+    "purpose": "Only if the damper is bent, damaged or leaking."
    }
   ],
   "required_tools": [
    {
-    "name": "Rear stand",
+    "name": "Maintenance stand",
     "size": null
    },
    {
-    "name": "Torque wrench covering 2 to 80 N·m",
+    "name": "Torque wrench covering 2 to 60 N·m",
     "size": null
    },
    {
-    "name": "Shock spring adjusting wrench or a soft punch for the preload nuts",
+    "name": "Shock spring adjusting tool or a soft punch for the locknut and adjuster",
     "size": null
    },
    {
-    "name": "Bearing driver set and a vise or press",
+    "name": "Tape measure or long caliper for spring length",
     "size": null
    },
    {
-    "name": "Circlip pliers",
+    "name": "Bearing press or vise with drifts that bear on the outer race only",
     "size": null
    },
    {
-    "name": "Vernier caliper",
+    "name": "Circlip pliers or a pick for the stopper ring",
+    "size": null
+   },
+   {
+    "name": "Depth caliper",
     "size": null
    }
   ],
@@ -10897,11 +10911,11 @@
    {
     "depends_on": [],
     "id": "record",
-    "instruction": "Measure the installed spring length (or count the threads above the adjusting nut) and record the rebound and both compression adjuster positions.",
+    "instruction": "Count the rebound clicks and both compression adjuster settings by turning each adjuster gently in to its stop and back out to where it was. Measure and write down the installed spring length.",
     "record_required": true,
     "title": "Record the shock settings",
     "verification": [
-     "Preload and clicker positions recorded."
+     "Clicker positions and installed spring length recorded."
     ]
    },
    {
@@ -10909,11 +10923,11 @@
      "record"
     ],
     "id": "stand",
-    "instruction": "Put the bike on a stand with the rear wheel off the ground and strap it.",
+    "instruction": "Put the bike on a maintenance stand so the rear wheel is off the ground and the bike cannot tip.",
     "record_required": false,
-    "title": "Lift the rear",
+    "title": "Lift the rear wheel",
     "verification": [
-     "Stable on the stand."
+     "Bike stable."
     ]
    },
    {
@@ -10932,65 +10946,205 @@
     "depends_on": [
      "subframe"
     ],
-    "id": "shock-out",
-    "instruction": "Hold the swingarm so it cannot drop and remove the shock lower bolt. Remove the upper bolt and lift the shock out.",
+    "id": "lower-bolt",
+    "instruction": "Hold the swingarm up with one hand or a block so it cannot drop, then remove the shock lower nut and bolt.",
     "record_required": false,
-    "title": "Remove the shock",
+    "title": "Undo the shock lower mount",
     "verification": [
-     "Shock out; bolts bagged."
+     "Swingarm supported; lower bolt out."
     ]
    },
    {
     "depends_on": [
-     "shock-out"
+     "lower-bolt"
     ],
-    "id": "shock-check",
-    "instruction": "Check the rod for bends, scores or damage and the body and reservoir for oil or gas leaks. Check the spring, spring guides and the mounting bolts.",
-    "record_required": true,
-    "title": "Inspect the shock",
+    "id": "upper-bolt",
+    "instruction": "Remove the shock upper nut and bolt and lift the shock out of the frame.",
+    "record_required": false,
+    "title": "Take the shock out",
     "verification": [
-     "Condition recorded."
+     "Shock on the bench; bolts bagged."
     ]
    },
    {
     "depends_on": [
-     "shock-check"
+     "upper-bolt"
     ],
-    "id": "spring",
-    "instruction": "Loosen the locknut and back off the adjusting nut, remove the spring guides and the spring. Check the spring and guides for wear or damage. Refit the spring and guides (or a new spring) and set the adjusting nut back to your recorded length, then lock the locknut against it.",
-    "record_required": true,
-    "title": "Remove and check the spring",
+    "id": "handling",
+    "instruction": "The damper and its reservoir hold high-pressure nitrogen. Never open them, never heat them with a flame or heat gun, never clamp, dent or scratch the body or rod, and never remove the reservoir plug. Internal damper service is not part of this guide.",
+    "record_required": false,
+    "title": "Treat the damper as a sealed unit",
     "verification": [
-     "Spring length back to the recorded value."
+     "Damper handled without clamping or heating."
     ]
    },
    {
     "depends_on": [
-     "spring"
+     "handling"
     ],
-    "id": "eye-bearings",
-    "instruction": "Press out the lower eye bearing, bushing, collars and dust seals, and the upper bearing after removing its stopper ring. Press the new upper bearing in by its outer race, square, until the stopper ring groove shows; fit a new stopper ring and push the bearing back against it. Fit the new lower bearing at an installed depth of 4 mm (0.16 in), bushing and collar and new dust seals with their lips facing inward. Grease the lower bearing, seals and collar with molybdenum disulfide grease and the O-rings with lithium-soap-based grease, never the bearing outer race.",
+    "id": "damper-check",
+    "instruction": "Clean the shock and look at the rod and the body. A bent, scored or damaged rod, or any oil or gas leak, means the damper goes to a suspension shop for a damper rebuild or the shock assembly is replaced.",
     "record_required": true,
-    "title": "Renew the eye bearings and seals",
+    "title": "Inspect the damper",
     "verification": [
-     "Bearings square and turning smoothly; seals at depth."
+     "Rod and body condition recorded."
     ]
    },
    {
     "depends_on": [
-     "eye-bearings"
+     "damper-check"
     ],
-    "id": "shock-in",
-    "instruction": "Grease the shock bolts with molybdenum disulfide grease. Lift the swingarm and fit the shock. Tighten the upper nut to 56 N·m (40 lb·ft) and the lower nut to 53 N·m (38 lb·ft).",
+    "id": "spring-off",
+    "instruction": "Clean the threads, loosen the locknut, then back off the adjuster until the spring is free. Remove the lower spring guide, the upper spring guide and the spring.",
+    "record_required": false,
+    "title": "Take the spring off",
+    "verification": [
+     "Spring and guides off."
+    ]
+   },
+   {
+    "depends_on": [
+     "spring-off"
+    ],
+    "id": "spring-check",
+    "instruction": "Check the spring for damage or fatigue, the spring guides for cracks or wear, and both mounting bolts for bends or worn shanks. Replace any part that fails. Measure the spring free length and write it down; you need it to set preload.",
     "record_required": true,
+    "title": "Inspect spring, guides and bolts",
+    "verification": [
+     "Spring free length recorded; parts to replace listed."
+    ]
+   },
+   {
+    "branches": [
+     {
+      "condition": "Both bearings turn smoothly with no play or rust and the seals are undamaged.",
+      "id": "eyes-ok",
+      "label": "Bearings and seals are good",
+      "next_step": "spring-on"
+     }
+    ],
+    "depends_on": [
+     "spring-check"
+    ],
+    "id": "eye-check",
+    "instruction": "Turn the upper and lower bearings with a finger through their collars. Any roughness, play, rust, pitting or a torn dust seal means the bearing and its seals are renewed.",
+    "record_required": true,
+    "title": "Check the eye bearings",
+    "verification": [
+     "Bearing condition recorded."
+    ]
+   },
+   {
+    "depends_on": [
+     "eye-check"
+    ],
+    "id": "upper-out",
+    "instruction": "Remove the upper collars. Press the upper bearing inward by its outer race just far enough to free the stopper ring, take the ring out, then press the bearing out by its outer race.",
+    "record_required": false,
+    "title": "Remove the upper bearing",
+    "verification": [
+     "Upper bearing out."
+    ]
+   },
+   {
+    "depends_on": [
+     "upper-out"
+    ],
+    "id": "lower-out",
+    "instruction": "Prise out the lower dust seals and take out the collars and bushing. Press the lower bearing out by its outer race only.",
+    "record_required": false,
+    "title": "Remove the lower bearing",
+    "verification": [
+     "Lower bearing out."
+    ]
+   },
+   {
+    "depends_on": [
+     "lower-out"
+    ],
+    "id": "clean-eyes",
+    "instruction": "Clean both shock eyes and inspect the bores. A scored or oval bore means the shock body is damaged.",
+    "record_required": false,
+    "title": "Clean the eyes",
+    "verification": [
+     "Bores clean and undamaged."
+    ]
+   },
+   {
+    "depends_on": [
+     "clean-eyes"
+    ],
+    "id": "upper-in",
+    "instruction": "Press the new upper bearing in squarely by its outer race until the stopper ring groove shows. Fit a new stopper ring into the groove, then push the bearing back until it sits against the ring. Do not grease the bearing outer race; grease there wears the bore it is pressed into.",
+    "record_required": false,
+    "title": "Fit the upper bearing",
+    "verification": [
+     "Stopper ring seated; bearing against it."
+    ]
+   },
+   {
+    "depends_on": [
+     "upper-in"
+    ],
+    "id": "lower-in",
+    "instruction": "Grease the lower bearing, collars and dust seal lips with molybdenum disulfide grease and the O-rings with lithium-soap-based grease. Press the lower bearing in by its outer race, pressing on the side with the maker's marks. Press it in until it sits at an installed depth of 4 mm (0.16 in). Fit the bushing and collars, then new dust seals with their lips facing inward.",
+    "record_required": true,
+    "title": "Fit the lower bearing, bushing and seals",
+    "verification": [
+     "Bearing square and turning smoothly; seals and depths as specified."
+    ]
+   },
+   {
+    "depends_on": [
+     "eye-check"
+    ],
+    "id": "spring-on",
+    "instruction": "Fit the spring, the upper spring guide and the lower spring guide. Turn the adjuster in until the spring is shortened from its free length to your recorded setting; the stock installed (fitting) length is 252.0 mm (9.92 in) with a 260.0 mm (10.24 in) free-length spring (allowed range 1.5 mm / 0.06 in to 18 mm / 0.71 in shorter than free length). Each full turn of the adjuster changes the length by 1.5 mm (0.06 in). Tighten the locknut against the adjuster to 30 N·m (22 lb·ft).",
+    "record_required": true,
+    "title": "Fit the spring and set preload",
+    "verification": [
+     "Installed spring length recorded; locknut tight."
+    ]
+   },
+   {
+    "depends_on": [
+     "spring-on"
+    ],
+    "id": "grease-bolts",
+    "instruction": "Coat the shanks and threads of the shock upper and lower bolts with molybdenum disulfide grease.",
+    "record_required": false,
+    "title": "Grease the mounting bolts",
+    "verification": [
+     "Bolts greased."
+    ]
+   },
+   {
+    "depends_on": [
+     "grease-bolts"
+    ],
+    "id": "refit",
+    "instruction": "Lift the swingarm and guide the shock into place, with each bolt and washer in the direction you noted at removal.",
+    "record_required": false,
     "title": "Fit the shock",
     "verification": [
-     "Both nuts torqued."
+     "Both bolts through."
     ]
    },
    {
     "depends_on": [
-     "shock-in"
+     "refit"
+    ],
+    "id": "torque",
+    "instruction": "Tighten the shock upper nut to 56 N·m (40 lb·ft) and the lower nut to 53 N·m (38 lb·ft).",
+    "record_required": true,
+    "title": "Torque the shock mounts",
+    "verification": [
+     "Both nuts torqued and marked."
+    ]
+   },
+   {
+    "depends_on": [
+     "torque"
     ],
     "id": "subframe-on",
     "instruction": "Fit the rear frame, upper bolt 32 N·m (23 lb·ft), lower bolts 29 N·m (21 lb·ft) and tighten the air filter case joint clamp to 2 N·m (1.4 lb·ft). Refit the silencer and seat.",
@@ -11004,10 +11158,22 @@
     "depends_on": [
      "subframe-on"
     ],
-    "id": "settings",
-    "instruction": "Turn the rebound and compression adjusters back to the recorded positions and check the preload length.",
+    "id": "stroke",
+    "instruction": "Lift and lower the swingarm through its travel by hand. It must move smoothly with no binding or knocking from the shock mounts.",
+    "record_required": false,
+    "title": "Check the rear moves freely",
+    "verification": [
+     "Smooth travel."
+    ]
+   },
+   {
+    "depends_on": [
+     "stroke"
+    ],
+    "id": "clickers",
+    "instruction": "Set rebound and both compression adjusters back to the counts you recorded.",
     "record_required": true,
-    "title": "Restore settings",
+    "title": "Restore the clicker settings",
     "verification": [
      "Settings match the record."
     ]
@@ -11022,71 +11188,85 @@
   ]
  },
  {
-  "id": "bak-yamaha-yz125-shock-mounts-2021-2023-v1",
+  "id": "bak-yamaha-yz125-shock-spring-bearings-2021-v1",
   "component": "shock",
-  "title": "Rear shock removal, spring change and mount bearing renewal (sealed damper not opened)",
+  "title": "Refresh the rear shock spring, eye bearings and seals (sealed damper)",
   "affected_components": [
    "shock",
    "linkage",
    "subframe",
-   "air_intake"
+   "air_intake",
+   "exhaust"
   ],
-  "completeness": "Covers removing and refitting the shock, the spring, and the eye bearings and seals. The damper itself holds high-pressure nitrogen and is sealed on this bike: the damper oil, seals and valving are not covered.",
+  "completeness": "Covers everything that can be done to this shock without opening the damper: removal and refit, damper inspection, spring and spring guide inspection, preload setting, and the upper and lower eye bearings, bushing, collars and seals. The damper is a sealed, nitrogen-charged unit that is not opened. A leaking or worn damper goes to a suspension shop for a damper rebuild, or the shock assembly is replaced.",
   "critical_stop_conditions": [
-   "Oil or gas leaking from the shock, or a bent or damaged rod: the shock assembly is replaced or sent to a suspension specialist; do not open it.",
-   "Never heat the shock or put it near a flame; the gas pressure can make it burst.",
-   "Do not grease the outside of the shock eye bearing; it wears the eye it is pressed into."
+   "Oil or gas leaking from the damper, or a bent or scored rod: do not open it; send the shock to a suspension shop for a damper rebuild or replace the shock assembly.",
+   "Never heat, puncture, clamp or dent the damper body or reservoir: it holds high-pressure nitrogen and can burst.",
+   "Never remove the plug or valve on the gas reservoir.",
+   "Shock eye bore scored or oval: stop; the shock body is damaged.",
+   "Bike moving on the stand when the lower bolt is out: stop and secure it.",
+   "Do not turn the preload adjuster beyond its minimum or maximum setting."
   ],
   "entry_state": [
-   "Yamaha YZ125 with the stock rear shock fitted."
+   "Yamaha YZ125 with the stock rear shock fitted, bike cold and washed around the shock and subframe."
   ],
   "excluded": [
-   "Opening the damper body or gas reservoir, damper oil change, shaft seal, valving and nitrogen charge"
+   "Damper internals: oil, shaft seal, piston, valving, bladder and nitrogen charge (the damper is sealed and not opened)",
+   "Linkage and swingarm bearing service (separate guide)",
+   "Changing to a different spring rate"
   ],
   "exit_state": [
-   "Shock checked outside, spring checked or changed, mount bearings, bushing, collars and seals renewed, shock refitted to torque at the recorded preload."
+   "Shock inspected, spring and guides checked or replaced, eye bearings, bushing, collars and dust seals renewed as needed, preload set and recorded, shock refitted with mounts torqued and clickers restored."
   ],
   "prerequisites": [
-   "Bike clean around the shock and subframe.",
-   "Spring preload length measured and recorded before anything is loosened."
+   "Engine and exhaust cold.",
+   "Spring length and clicker positions recorded before anything is loosened."
   ],
   "required_parts": [
    {
-    "name": "New dust seals and stopper ring for the shock eyes",
-    "purpose": "Not reused."
+    "name": "New lower dust seals",
+    "purpose": "Renewed whenever the lower bearing is disturbed."
    },
    {
-    "name": "Bearings, bushing and collars as needed",
-    "purpose": "Replaced when worn or rough."
+    "name": "Upper bearing with stopper ring, lower bearing, bushing and collars if worn",
+    "purpose": "Replaced only if inspection finds roughness, play or damage."
    },
    {
     "name": "Molybdenum disulfide grease and lithium-soap-based grease",
-    "purpose": "Bearings, collars, bolts and O-rings."
+    "purpose": "Bearings, seal lips, collars, bolts and O-rings."
+   },
+   {
+    "name": "Shock assembly or a damper rebuild by a suspension shop",
+    "purpose": "Only if the damper is bent, damaged or leaking."
    }
   ],
   "required_tools": [
    {
-    "name": "Rear stand",
+    "name": "Maintenance stand",
     "size": null
    },
    {
-    "name": "Torque wrench covering 2 to 80 N·m",
+    "name": "Torque wrench covering 2 to 60 N·m",
     "size": null
    },
    {
-    "name": "Shock spring adjusting wrench or a soft punch for the preload nuts",
+    "name": "Shock spring adjusting tool or a soft punch for the locknut and adjuster",
     "size": null
    },
    {
-    "name": "Bearing driver set and a vise or press",
+    "name": "Tape measure or long caliper for spring length",
     "size": null
    },
    {
-    "name": "Circlip pliers",
+    "name": "Bearing press or vise with drifts that bear on the outer race only",
     "size": null
    },
    {
-    "name": "Vernier caliper",
+    "name": "Circlip pliers or a pick for the stopper ring",
+    "size": null
+   },
+   {
+    "name": "Depth caliper",
     "size": null
    }
   ],
@@ -11094,11 +11274,11 @@
    {
     "depends_on": [],
     "id": "record",
-    "instruction": "Measure the installed spring length (or count the threads above the adjusting nut) and record the rebound and both compression adjuster positions.",
+    "instruction": "Count the rebound clicks and both compression adjuster settings by turning each adjuster gently in to its stop and back out to where it was. Measure and write down the installed spring length.",
     "record_required": true,
     "title": "Record the shock settings",
     "verification": [
-     "Preload and clicker positions recorded."
+     "Clicker positions and installed spring length recorded."
     ]
    },
    {
@@ -11106,11 +11286,11 @@
      "record"
     ],
     "id": "stand",
-    "instruction": "Put the bike on a stand with the rear wheel off the ground and strap it.",
+    "instruction": "Put the bike on a maintenance stand so the rear wheel is off the ground and the bike cannot tip.",
     "record_required": false,
-    "title": "Lift the rear",
+    "title": "Lift the rear wheel",
     "verification": [
-     "Stable on the stand."
+     "Bike stable."
     ]
    },
    {
@@ -11129,65 +11309,205 @@
     "depends_on": [
      "subframe"
     ],
-    "id": "shock-out",
-    "instruction": "Hold the swingarm so it cannot drop and remove the shock lower bolt. Remove the upper bolt and lift the shock out.",
+    "id": "lower-bolt",
+    "instruction": "Hold the swingarm up with one hand or a block so it cannot drop, then remove the shock lower nut and bolt.",
     "record_required": false,
-    "title": "Remove the shock",
+    "title": "Undo the shock lower mount",
     "verification": [
-     "Shock out; bolts bagged."
+     "Swingarm supported; lower bolt out."
     ]
    },
    {
     "depends_on": [
-     "shock-out"
+     "lower-bolt"
     ],
-    "id": "shock-check",
-    "instruction": "Check the rod for bends, scores or damage and the body and reservoir for oil or gas leaks. Check the spring, spring guides and the mounting bolts.",
-    "record_required": true,
-    "title": "Inspect the shock",
+    "id": "upper-bolt",
+    "instruction": "Remove the shock upper nut and bolt and lift the shock out of the frame.",
+    "record_required": false,
+    "title": "Take the shock out",
     "verification": [
-     "Condition recorded."
+     "Shock on the bench; bolts bagged."
     ]
    },
    {
     "depends_on": [
-     "shock-check"
+     "upper-bolt"
     ],
-    "id": "spring",
-    "instruction": "Loosen the locknut and back off the adjusting nut, remove the spring guides and the spring. Check the spring and guides for wear or damage. Refit the spring and guides (or a new spring) and set the adjusting nut back to your recorded length, then lock the locknut against it.",
-    "record_required": true,
-    "title": "Remove and check the spring",
+    "id": "handling",
+    "instruction": "The damper and its reservoir hold high-pressure nitrogen. Never open them, never heat them with a flame or heat gun, never clamp, dent or scratch the body or rod, and never remove the reservoir plug. Internal damper service is not part of this guide.",
+    "record_required": false,
+    "title": "Treat the damper as a sealed unit",
     "verification": [
-     "Spring length back to the recorded value."
+     "Damper handled without clamping or heating."
     ]
    },
    {
     "depends_on": [
-     "spring"
+     "handling"
     ],
-    "id": "eye-bearings",
-    "instruction": "Press out the lower eye bearing, bushing, collars and dust seals, and the upper bearing after removing its stopper ring. Press the new upper bearing in by its outer race, square, until the stopper ring groove shows; fit a new stopper ring and push the bearing back against it. Fit the new lower bearing, bushing and collar and new dust seals with their lips facing inward, set to an installed depth of 4.25 mm (0.17 in). Grease the lower bearing, seals and collar with molybdenum disulfide grease and the O-rings with lithium-soap-based grease, never the bearing outer race.",
+    "id": "damper-check",
+    "instruction": "Clean the shock and look at the rod and the body. A bent, scored or damaged rod, or any oil or gas leak, means the damper goes to a suspension shop for a damper rebuild or the shock assembly is replaced.",
     "record_required": true,
-    "title": "Renew the eye bearings and seals",
+    "title": "Inspect the damper",
     "verification": [
-     "Bearings square and turning smoothly; seals at depth."
+     "Rod and body condition recorded."
     ]
    },
    {
     "depends_on": [
-     "eye-bearings"
+     "damper-check"
     ],
-    "id": "shock-in",
-    "instruction": "Grease the shock bolts with molybdenum disulfide grease. Lift the swingarm and fit the shock: upper bolt from the right, lower bolt from the left. Tighten the upper nut to 56 N·m (41 lb·ft) and the lower nut to 53 N·m (39 lb·ft).",
+    "id": "spring-off",
+    "instruction": "Clean the threads, loosen the locknut, then back off the adjuster until the spring is free. Remove the lower spring guide, the upper spring guide and the spring.",
+    "record_required": false,
+    "title": "Take the spring off",
+    "verification": [
+     "Spring and guides off."
+    ]
+   },
+   {
+    "depends_on": [
+     "spring-off"
+    ],
+    "id": "spring-check",
+    "instruction": "Check the spring for damage or fatigue, the spring guides for cracks or wear, and both mounting bolts for bends or worn shanks. Replace any part that fails. Measure the spring free length and write it down; you need it to set preload.",
     "record_required": true,
+    "title": "Inspect spring, guides and bolts",
+    "verification": [
+     "Spring free length recorded; parts to replace listed."
+    ]
+   },
+   {
+    "branches": [
+     {
+      "condition": "Both bearings turn smoothly with no play or rust and the seals are undamaged.",
+      "id": "eyes-ok",
+      "label": "Bearings and seals are good",
+      "next_step": "spring-on"
+     }
+    ],
+    "depends_on": [
+     "spring-check"
+    ],
+    "id": "eye-check",
+    "instruction": "Turn the upper and lower bearings with a finger through their collars. Any roughness, play, rust, pitting or a torn dust seal means the bearing and its seals are renewed.",
+    "record_required": true,
+    "title": "Check the eye bearings",
+    "verification": [
+     "Bearing condition recorded."
+    ]
+   },
+   {
+    "depends_on": [
+     "eye-check"
+    ],
+    "id": "upper-out",
+    "instruction": "Remove the upper collars. Press the upper bearing inward by its outer race just far enough to free the stopper ring, take the ring out, then press the bearing out by its outer race.",
+    "record_required": false,
+    "title": "Remove the upper bearing",
+    "verification": [
+     "Upper bearing out."
+    ]
+   },
+   {
+    "depends_on": [
+     "upper-out"
+    ],
+    "id": "lower-out",
+    "instruction": "Prise out the lower dust seals and take out the collars and bushing. Press the lower bearing out by its outer race only.",
+    "record_required": false,
+    "title": "Remove the lower bearing",
+    "verification": [
+     "Lower bearing out."
+    ]
+   },
+   {
+    "depends_on": [
+     "lower-out"
+    ],
+    "id": "clean-eyes",
+    "instruction": "Clean both shock eyes and inspect the bores. A scored or oval bore means the shock body is damaged.",
+    "record_required": false,
+    "title": "Clean the eyes",
+    "verification": [
+     "Bores clean and undamaged."
+    ]
+   },
+   {
+    "depends_on": [
+     "clean-eyes"
+    ],
+    "id": "upper-in",
+    "instruction": "Press the new upper bearing in squarely by its outer race until the stopper ring groove shows. Fit a new stopper ring into the groove, then push the bearing back until it sits against the ring. Do not grease the bearing outer race; grease there wears the bore it is pressed into.",
+    "record_required": false,
+    "title": "Fit the upper bearing",
+    "verification": [
+     "Stopper ring seated; bearing against it."
+    ]
+   },
+   {
+    "depends_on": [
+     "upper-in"
+    ],
+    "id": "lower-in",
+    "instruction": "Grease the lower bearing, collars and dust seal lips with molybdenum disulfide grease and the O-rings with lithium-soap-based grease. Press the lower bearing in by its outer race, pressing on the side with the maker's marks. Fit the bushing and collars, then new dust seals with their lips facing inward. Set the dust seals at an installed depth of 4.25 mm (0.17 in).",
+    "record_required": true,
+    "title": "Fit the lower bearing, bushing and seals",
+    "verification": [
+     "Bearing square and turning smoothly; seals and depths as specified."
+    ]
+   },
+   {
+    "depends_on": [
+     "eye-check"
+    ],
+    "id": "spring-on",
+    "instruction": "Fit the spring, the upper spring guide and the lower spring guide. Turn the adjuster in until the spring is shortened from its free length to your recorded setting; the stock setting is 8.0 mm (0.31 in) shorter than free length (allowed range 1.5 mm / 0.06 in to 18.0 mm / 0.71 in shorter). Each full turn of the adjuster changes the length by 1.5 mm (0.06 in). Tighten the locknut firmly against the adjuster.",
+    "record_required": true,
+    "title": "Fit the spring and set preload",
+    "verification": [
+     "Installed spring length recorded; locknut tight."
+    ]
+   },
+   {
+    "depends_on": [
+     "spring-on"
+    ],
+    "id": "grease-bolts",
+    "instruction": "Coat the shanks and threads of the shock upper and lower bolts with molybdenum disulfide grease.",
+    "record_required": false,
+    "title": "Grease the mounting bolts",
+    "verification": [
+     "Bolts greased."
+    ]
+   },
+   {
+    "depends_on": [
+     "grease-bolts"
+    ],
+    "id": "refit",
+    "instruction": "Lift the swingarm and guide the shock into place, fitting the upper bolt from the right side and the lower bolt from the left side.",
+    "record_required": false,
     "title": "Fit the shock",
     "verification": [
-     "Both nuts torqued."
+     "Both bolts through."
     ]
    },
    {
     "depends_on": [
-     "shock-in"
+     "refit"
+    ],
+    "id": "torque",
+    "instruction": "Tighten the shock upper nut to 56 N·m (41 lb·ft) and the lower nut to 53 N·m (39 lb·ft).",
+    "record_required": true,
+    "title": "Torque the shock mounts",
+    "verification": [
+     "Both nuts torqued and marked."
+    ]
+   },
+   {
+    "depends_on": [
+     "torque"
     ],
     "id": "subframe-on",
     "instruction": "Fit the rear frame, upper bolt 32 N·m (24 lb·ft), lower bolts 29 N·m (21 lb·ft) and tighten the air filter case joint clamp to 2.3 N·m (1.7 lb·ft). Refit the silencer and seat.",
@@ -11201,12 +11521,36 @@
     "depends_on": [
      "subframe-on"
     ],
-    "id": "settings",
-    "instruction": "Turn the rebound and compression adjusters back to the recorded positions and check the preload length.",
+    "id": "stroke",
+    "instruction": "Lift and lower the swingarm through its travel by hand. It must move smoothly with no binding or knocking from the shock mounts.",
+    "record_required": false,
+    "title": "Check the rear moves freely",
+    "verification": [
+     "Smooth travel."
+    ]
+   },
+   {
+    "depends_on": [
+     "stroke"
+    ],
+    "id": "clickers",
+    "instruction": "Set rebound and both compression adjusters back to the counts you recorded.",
     "record_required": true,
-    "title": "Restore settings",
+    "title": "Restore the clicker settings",
     "verification": [
      "Settings match the record."
+    ]
+   },
+   {
+    "depends_on": [
+     "clickers"
+    ],
+    "id": "bed-in",
+    "instruction": "A new or refreshed shock needs about 50 km (30 miles) of riding to settle. Check sag and the mount nuts after the first ride.",
+    "record_required": true,
+    "title": "Bed in the shock",
+    "verification": [
+     "First-ride check done."
     ]
    }
   ],
@@ -11215,7 +11559,377 @@
     "manufacturer": "Yamaha",
     "model": "YZ125",
     "model_year": 2021
+   }
+  ]
+ },
+ {
+  "id": "bak-yamaha-yz125-shock-spring-bearings-2022-2023-v1",
+  "component": "shock",
+  "title": "Refresh the rear shock spring, eye bearings and seals (sealed damper)",
+  "affected_components": [
+   "shock",
+   "linkage",
+   "subframe",
+   "air_intake",
+   "exhaust"
+  ],
+  "completeness": "Covers everything that can be done to this shock without opening the damper: removal and refit, damper inspection, spring and spring guide inspection, preload setting, and the upper and lower eye bearings, bushing, collars and seals. The damper is a sealed, nitrogen-charged unit that is not opened. A leaking or worn damper goes to a suspension shop for a damper rebuild, or the shock assembly is replaced.",
+  "critical_stop_conditions": [
+   "Oil or gas leaking from the damper, or a bent or scored rod: do not open it; send the shock to a suspension shop for a damper rebuild or replace the shock assembly.",
+   "Never heat, puncture, clamp or dent the damper body or reservoir: it holds high-pressure nitrogen and can burst.",
+   "Never remove the plug or valve on the gas reservoir.",
+   "Shock eye bore scored or oval: stop; the shock body is damaged.",
+   "Bike moving on the stand when the lower bolt is out: stop and secure it.",
+   "Do not turn the preload adjuster beyond its minimum or maximum setting."
+  ],
+  "entry_state": [
+   "Yamaha YZ125 with the stock rear shock fitted, bike cold and washed around the shock and subframe."
+  ],
+  "excluded": [
+   "Damper internals: oil, shaft seal, piston, valving, bladder and nitrogen charge (the damper is sealed and not opened)",
+   "Linkage and swingarm bearing service (separate guide)",
+   "Changing to a different spring rate"
+  ],
+  "exit_state": [
+   "Shock inspected, spring and guides checked or replaced, eye bearings, bushing, collars and dust seals renewed as needed, preload set and recorded, shock refitted with mounts torqued and clickers restored."
+  ],
+  "prerequisites": [
+   "Engine and exhaust cold.",
+   "Spring length and clicker positions recorded before anything is loosened."
+  ],
+  "required_parts": [
+   {
+    "name": "New lower dust seals",
+    "purpose": "Renewed whenever the lower bearing is disturbed."
    },
+   {
+    "name": "Upper bearing with stopper ring, lower bearing, bushing and collars if worn",
+    "purpose": "Replaced only if inspection finds roughness, play or damage."
+   },
+   {
+    "name": "Molybdenum disulfide grease and lithium-soap-based grease",
+    "purpose": "Bearings, seal lips, collars, bolts and O-rings."
+   },
+   {
+    "name": "Shock assembly or a damper rebuild by a suspension shop",
+    "purpose": "Only if the damper is bent, damaged or leaking."
+   }
+  ],
+  "required_tools": [
+   {
+    "name": "Maintenance stand",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 2 to 60 N·m",
+    "size": null
+   },
+   {
+    "name": "Shock spring adjusting tool or a soft punch for the locknut and adjuster",
+    "size": null
+   },
+   {
+    "name": "Tape measure or long caliper for spring length",
+    "size": null
+   },
+   {
+    "name": "Bearing press or vise with drifts that bear on the outer race only",
+    "size": null
+   },
+   {
+    "name": "Circlip pliers or a pick for the stopper ring",
+    "size": null
+   },
+   {
+    "name": "Depth caliper",
+    "size": null
+   }
+  ],
+  "steps": [
+   {
+    "depends_on": [],
+    "id": "record",
+    "instruction": "Count the rebound clicks and both compression adjuster settings by turning each adjuster gently in to its stop and back out to where it was. Measure and write down the installed spring length.",
+    "record_required": true,
+    "title": "Record the shock settings",
+    "verification": [
+     "Clicker positions and installed spring length recorded."
+    ]
+   },
+   {
+    "depends_on": [
+     "record"
+    ],
+    "id": "stand",
+    "instruction": "Put the bike on a maintenance stand so the rear wheel is off the ground and the bike cannot tip.",
+    "record_required": false,
+    "title": "Lift the rear wheel",
+    "verification": [
+     "Bike stable."
+    ]
+   },
+   {
+    "depends_on": [
+     "stand"
+    ],
+    "id": "subframe",
+    "instruction": "Remove the seat and the silencer. Loosen the air filter case joint clamp, then remove the rear frame bolts and lift off the rear frame (subframe).",
+    "record_required": false,
+    "title": "Remove the rear frame",
+    "verification": [
+     "Rear frame off; shock top visible."
+    ]
+   },
+   {
+    "depends_on": [
+     "subframe"
+    ],
+    "id": "lower-bolt",
+    "instruction": "Hold the swingarm up with one hand or a block so it cannot drop, then remove the shock lower nut and bolt.",
+    "record_required": false,
+    "title": "Undo the shock lower mount",
+    "verification": [
+     "Swingarm supported; lower bolt out."
+    ]
+   },
+   {
+    "depends_on": [
+     "lower-bolt"
+    ],
+    "id": "upper-bolt",
+    "instruction": "Remove the shock upper nut and bolt and lift the shock out of the frame.",
+    "record_required": false,
+    "title": "Take the shock out",
+    "verification": [
+     "Shock on the bench; bolts bagged."
+    ]
+   },
+   {
+    "depends_on": [
+     "upper-bolt"
+    ],
+    "id": "handling",
+    "instruction": "The damper and its reservoir hold high-pressure nitrogen. Never open them, never heat them with a flame or heat gun, never clamp, dent or scratch the body or rod, and never remove the reservoir plug. Internal damper service is not part of this guide.",
+    "record_required": false,
+    "title": "Treat the damper as a sealed unit",
+    "verification": [
+     "Damper handled without clamping or heating."
+    ]
+   },
+   {
+    "depends_on": [
+     "handling"
+    ],
+    "id": "damper-check",
+    "instruction": "Clean the shock and look at the rod and the body. A bent, scored or damaged rod, or any oil or gas leak, means the damper goes to a suspension shop for a damper rebuild or the shock assembly is replaced.",
+    "record_required": true,
+    "title": "Inspect the damper",
+    "verification": [
+     "Rod and body condition recorded."
+    ]
+   },
+   {
+    "depends_on": [
+     "damper-check"
+    ],
+    "id": "spring-off",
+    "instruction": "Clean the threads, loosen the locknut, then back off the adjuster until the spring is free. Remove the lower spring guide, the upper spring guide and the spring.",
+    "record_required": false,
+    "title": "Take the spring off",
+    "verification": [
+     "Spring and guides off."
+    ]
+   },
+   {
+    "depends_on": [
+     "spring-off"
+    ],
+    "id": "spring-check",
+    "instruction": "Check the spring for damage or fatigue, the spring guides for cracks or wear, and both mounting bolts for bends or worn shanks. Replace any part that fails. Measure the spring free length and write it down; you need it to set preload.",
+    "record_required": true,
+    "title": "Inspect spring, guides and bolts",
+    "verification": [
+     "Spring free length recorded; parts to replace listed."
+    ]
+   },
+   {
+    "branches": [
+     {
+      "condition": "Both bearings turn smoothly with no play or rust and the seals are undamaged.",
+      "id": "eyes-ok",
+      "label": "Bearings and seals are good",
+      "next_step": "spring-on"
+     }
+    ],
+    "depends_on": [
+     "spring-check"
+    ],
+    "id": "eye-check",
+    "instruction": "Turn the upper and lower bearings with a finger through their collars. Any roughness, play, rust, pitting or a torn dust seal means the bearing and its seals are renewed.",
+    "record_required": true,
+    "title": "Check the eye bearings",
+    "verification": [
+     "Bearing condition recorded."
+    ]
+   },
+   {
+    "depends_on": [
+     "eye-check"
+    ],
+    "id": "upper-out",
+    "instruction": "Remove the upper collars. Press the upper bearing inward by its outer race just far enough to free the stopper ring, take the ring out, then press the bearing out by its outer race.",
+    "record_required": false,
+    "title": "Remove the upper bearing",
+    "verification": [
+     "Upper bearing out."
+    ]
+   },
+   {
+    "depends_on": [
+     "upper-out"
+    ],
+    "id": "lower-out",
+    "instruction": "Prise out the lower dust seals and take out the collars and bushing. Press the lower bearing out by its outer race only.",
+    "record_required": false,
+    "title": "Remove the lower bearing",
+    "verification": [
+     "Lower bearing out."
+    ]
+   },
+   {
+    "depends_on": [
+     "lower-out"
+    ],
+    "id": "clean-eyes",
+    "instruction": "Clean both shock eyes and inspect the bores. A scored or oval bore means the shock body is damaged.",
+    "record_required": false,
+    "title": "Clean the eyes",
+    "verification": [
+     "Bores clean and undamaged."
+    ]
+   },
+   {
+    "depends_on": [
+     "clean-eyes"
+    ],
+    "id": "upper-in",
+    "instruction": "Press the new upper bearing in squarely by its outer race until the stopper ring groove shows. Fit a new stopper ring into the groove, then push the bearing back until it sits against the ring. Do not grease the bearing outer race; grease there wears the bore it is pressed into.",
+    "record_required": false,
+    "title": "Fit the upper bearing",
+    "verification": [
+     "Stopper ring seated; bearing against it."
+    ]
+   },
+   {
+    "depends_on": [
+     "upper-in"
+    ],
+    "id": "lower-in",
+    "instruction": "Grease the lower bearing, collars and dust seal lips with molybdenum disulfide grease and the O-rings with lithium-soap-based grease. Press the lower bearing in by its outer race, pressing on the side with the maker's marks. Fit the bushing and collars, then new dust seals with their lips facing inward. Set the dust seals at an installed depth of 4.25 mm (0.17 in).",
+    "record_required": true,
+    "title": "Fit the lower bearing, bushing and seals",
+    "verification": [
+     "Bearing square and turning smoothly; seals and depths as specified."
+    ]
+   },
+   {
+    "depends_on": [
+     "eye-check"
+    ],
+    "id": "spring-on",
+    "instruction": "Fit the spring, the upper spring guide and the lower spring guide. Turn the adjuster in until the spring is shortened from its free length to your recorded setting; the stock setting is 7.0 mm (0.28 in) shorter than free length (allowed range 1.5 mm / 0.06 in to 18.5 mm / 0.73 in shorter). Each full turn of the adjuster changes the length by 1.5 mm (0.06 in). Tighten the locknut firmly against the adjuster.",
+    "record_required": true,
+    "title": "Fit the spring and set preload",
+    "verification": [
+     "Installed spring length recorded; locknut tight."
+    ]
+   },
+   {
+    "depends_on": [
+     "spring-on"
+    ],
+    "id": "grease-bolts",
+    "instruction": "Coat the shanks and threads of the shock upper and lower bolts with molybdenum disulfide grease.",
+    "record_required": false,
+    "title": "Grease the mounting bolts",
+    "verification": [
+     "Bolts greased."
+    ]
+   },
+   {
+    "depends_on": [
+     "grease-bolts"
+    ],
+    "id": "refit",
+    "instruction": "Lift the swingarm and guide the shock into place, fitting the upper bolt from the right side and the lower bolt from the left side.",
+    "record_required": false,
+    "title": "Fit the shock",
+    "verification": [
+     "Both bolts through."
+    ]
+   },
+   {
+    "depends_on": [
+     "refit"
+    ],
+    "id": "torque",
+    "instruction": "Tighten the shock upper nut to 56 N·m (41 lb·ft) and the lower nut to 53 N·m (39 lb·ft).",
+    "record_required": true,
+    "title": "Torque the shock mounts",
+    "verification": [
+     "Both nuts torqued and marked."
+    ]
+   },
+   {
+    "depends_on": [
+     "torque"
+    ],
+    "id": "subframe-on",
+    "instruction": "Fit the rear frame, upper bolt 32 N·m (24 lb·ft), lower bolts 29 N·m (21 lb·ft) and tighten the air filter case joint clamp to 2.3 N·m (1.7 lb·ft). Refit the silencer and seat.",
+    "record_required": true,
+    "title": "Refit the rear frame",
+    "verification": [
+     "Rear frame torqued; intake sealed."
+    ]
+   },
+   {
+    "depends_on": [
+     "subframe-on"
+    ],
+    "id": "stroke",
+    "instruction": "Lift and lower the swingarm through its travel by hand. It must move smoothly with no binding or knocking from the shock mounts.",
+    "record_required": false,
+    "title": "Check the rear moves freely",
+    "verification": [
+     "Smooth travel."
+    ]
+   },
+   {
+    "depends_on": [
+     "stroke"
+    ],
+    "id": "clickers",
+    "instruction": "Set rebound and both compression adjusters back to the counts you recorded.",
+    "record_required": true,
+    "title": "Restore the clicker settings",
+    "verification": [
+     "Settings match the record."
+    ]
+   },
+   {
+    "depends_on": [
+     "clickers"
+    ],
+    "id": "bed-in",
+    "instruction": "A new or refreshed shock needs about 50 km (30 miles) of riding to settle. Check sag and the mount nuts after the first ride.",
+    "record_required": true,
+    "title": "Bed in the shock",
+    "verification": [
+     "First-ride check done."
+    ]
+   }
+  ],
+  "targets": [
    {
     "manufacturer": "Yamaha",
     "model": "YZ125",
@@ -11229,71 +11943,85 @@
   ]
  },
  {
-  "id": "bak-yamaha-yz125-shock-mounts-2024-2027-v1",
+  "id": "bak-yamaha-yz125-shock-spring-bearings-2024-2027-v1",
   "component": "shock",
-  "title": "Rear shock removal, spring change and mount bearing renewal (sealed damper not opened)",
+  "title": "Refresh the rear shock spring, eye bearings and seals (sealed damper)",
   "affected_components": [
    "shock",
    "linkage",
    "subframe",
-   "air_intake"
+   "air_intake",
+   "exhaust"
   ],
-  "completeness": "Covers removing and refitting the shock, the spring, and the eye bearings and seals. The damper itself holds high-pressure nitrogen and is sealed on this bike: the damper oil, seals and valving are not covered.",
+  "completeness": "Covers everything that can be done to this shock without opening the damper: removal and refit, damper inspection, spring and spring guide inspection, preload setting, and the upper and lower eye bearings, bushing, collars and seals. The damper is a sealed, nitrogen-charged unit that is not opened. A leaking or worn damper goes to a suspension shop for a damper rebuild, or the shock assembly is replaced.",
   "critical_stop_conditions": [
-   "Oil or gas leaking from the shock, or a bent or damaged rod: the shock assembly is replaced or sent to a suspension specialist; do not open it.",
-   "Never heat the shock or put it near a flame; the gas pressure can make it burst.",
-   "Do not grease the outside of the shock eye bearing; it wears the eye it is pressed into."
+   "Oil or gas leaking from the damper, or a bent or scored rod: do not open it; send the shock to a suspension shop for a damper rebuild or replace the shock assembly.",
+   "Never heat, puncture, clamp or dent the damper body or reservoir: it holds high-pressure nitrogen and can burst.",
+   "Never remove the plug or valve on the gas reservoir.",
+   "Shock eye bore scored or oval: stop; the shock body is damaged.",
+   "Bike moving on the stand when the lower bolt is out: stop and secure it.",
+   "Do not turn the preload adjuster beyond its minimum or maximum setting."
   ],
   "entry_state": [
-   "Yamaha YZ125 with the stock rear shock fitted."
+   "Yamaha YZ125 with the stock rear shock fitted, bike cold and washed around the shock and subframe."
   ],
   "excluded": [
-   "Opening the damper body or gas reservoir, damper oil change, shaft seal, valving and nitrogen charge"
+   "Damper internals: oil, shaft seal, piston, valving, bladder and nitrogen charge (the damper is sealed and not opened)",
+   "Linkage and swingarm bearing service (separate guide)",
+   "Changing to a different spring rate"
   ],
   "exit_state": [
-   "Shock checked outside, spring checked or changed, mount bearings, bushing, collars and seals renewed, shock refitted to torque at the recorded preload."
+   "Shock inspected, spring and guides checked or replaced, eye bearings, bushing, collars and dust seals renewed as needed, preload set and recorded, shock refitted with mounts torqued and clickers restored."
   ],
   "prerequisites": [
-   "Bike clean around the shock and subframe.",
-   "Spring preload length measured and recorded before anything is loosened."
+   "Engine and exhaust cold.",
+   "Spring length and clicker positions recorded before anything is loosened."
   ],
   "required_parts": [
    {
-    "name": "New dust seals and stopper ring for the shock eyes",
-    "purpose": "Not reused."
+    "name": "New lower dust seals",
+    "purpose": "Renewed whenever the lower bearing is disturbed."
    },
    {
-    "name": "Bearings, bushing and collars as needed",
-    "purpose": "Replaced when worn or rough."
+    "name": "Upper bearing with stopper ring, lower bearing, bushing and collars if worn",
+    "purpose": "Replaced only if inspection finds roughness, play or damage."
    },
    {
     "name": "Molybdenum disulfide grease and lithium-soap-based grease",
-    "purpose": "Bearings, collars, bolts and O-rings."
+    "purpose": "Bearings, seal lips, collars, bolts and O-rings."
+   },
+   {
+    "name": "Shock assembly or a damper rebuild by a suspension shop",
+    "purpose": "Only if the damper is bent, damaged or leaking."
    }
   ],
   "required_tools": [
    {
-    "name": "Rear stand",
+    "name": "Maintenance stand",
     "size": null
    },
    {
-    "name": "Torque wrench covering 2 to 80 N·m",
+    "name": "Torque wrench covering 2 to 60 N·m",
     "size": null
    },
    {
-    "name": "Shock spring adjusting wrench or a soft punch for the preload nuts",
+    "name": "Shock spring adjusting tool or a soft punch for the locknut and adjuster",
     "size": null
    },
    {
-    "name": "Bearing driver set and a vise or press",
+    "name": "Tape measure or long caliper for spring length",
     "size": null
    },
    {
-    "name": "Circlip pliers",
+    "name": "Bearing press or vise with drifts that bear on the outer race only",
     "size": null
    },
    {
-    "name": "Vernier caliper",
+    "name": "Circlip pliers or a pick for the stopper ring",
+    "size": null
+   },
+   {
+    "name": "Depth caliper",
     "size": null
    }
   ],
@@ -11301,11 +12029,11 @@
    {
     "depends_on": [],
     "id": "record",
-    "instruction": "Measure the installed spring length (or count the threads above the adjusting nut) and record the rebound and both compression adjuster positions.",
+    "instruction": "Count the rebound clicks and both compression adjuster settings by turning each adjuster gently in to its stop and back out to where it was. Measure and write down the installed spring length.",
     "record_required": true,
     "title": "Record the shock settings",
     "verification": [
-     "Preload and clicker positions recorded."
+     "Clicker positions and installed spring length recorded."
     ]
    },
    {
@@ -11313,11 +12041,11 @@
      "record"
     ],
     "id": "stand",
-    "instruction": "Put the bike on a stand with the rear wheel off the ground and strap it.",
+    "instruction": "Put the bike on a maintenance stand so the rear wheel is off the ground and the bike cannot tip.",
     "record_required": false,
-    "title": "Lift the rear",
+    "title": "Lift the rear wheel",
     "verification": [
-     "Stable on the stand."
+     "Bike stable."
     ]
    },
    {
@@ -11336,65 +12064,205 @@
     "depends_on": [
      "subframe"
     ],
-    "id": "shock-out",
-    "instruction": "Hold the swingarm so it cannot drop and remove the shock lower bolt. Remove the upper bolt and lift the shock out.",
+    "id": "lower-bolt",
+    "instruction": "Hold the swingarm up with one hand or a block so it cannot drop, then remove the shock lower nut and bolt.",
     "record_required": false,
-    "title": "Remove the shock",
+    "title": "Undo the shock lower mount",
     "verification": [
-     "Shock out; bolts bagged."
+     "Swingarm supported; lower bolt out."
     ]
    },
    {
     "depends_on": [
-     "shock-out"
+     "lower-bolt"
     ],
-    "id": "shock-check",
-    "instruction": "Check the rod for bends, scores or damage and the body and reservoir for oil or gas leaks. Check the spring, spring guides and the mounting bolts.",
-    "record_required": true,
-    "title": "Inspect the shock",
+    "id": "upper-bolt",
+    "instruction": "Remove the shock upper nut and bolt and lift the shock out of the frame.",
+    "record_required": false,
+    "title": "Take the shock out",
     "verification": [
-     "Condition recorded."
+     "Shock on the bench; bolts bagged."
     ]
    },
    {
     "depends_on": [
-     "shock-check"
+     "upper-bolt"
     ],
-    "id": "spring",
-    "instruction": "Loosen the locknut and back off the adjusting nut, remove the spring guides and the spring. Check the spring and guides for wear or damage. Refit the spring and guides (or a new spring) and set the adjusting nut back to your recorded length, then lock the locknut against it.",
-    "record_required": true,
-    "title": "Remove and check the spring",
+    "id": "handling",
+    "instruction": "The damper and its reservoir hold high-pressure nitrogen. Never open them, never heat them with a flame or heat gun, never clamp, dent or scratch the body or rod, and never remove the reservoir plug. Internal damper service is not part of this guide.",
+    "record_required": false,
+    "title": "Treat the damper as a sealed unit",
     "verification": [
-     "Spring length back to the recorded value."
+     "Damper handled without clamping or heating."
     ]
    },
    {
     "depends_on": [
-     "spring"
+     "handling"
     ],
-    "id": "eye-bearings",
-    "instruction": "Press out the lower eye bearing, bushing, collars and dust seals, and the upper bearing after removing its stopper ring. Press the new upper bearing in by its outer race, square, until the stopper ring groove shows; fit a new stopper ring and push the bearing back against it. Fit the new lower bearing, bushing and collar and new dust seals with their lips facing inward, set to an installed depth of 0.3 mm (0.01 in) or more. Grease the lower bearing, seals and collar with molybdenum disulfide grease and the O-rings with lithium-soap-based grease, never the bearing outer race.",
+    "id": "damper-check",
+    "instruction": "Clean the shock and look at the rod and the body. A bent, scored or damaged rod, or any oil or gas leak, means the damper goes to a suspension shop for a damper rebuild or the shock assembly is replaced.",
     "record_required": true,
-    "title": "Renew the eye bearings and seals",
+    "title": "Inspect the damper",
     "verification": [
-     "Bearings square and turning smoothly; seals at depth."
+     "Rod and body condition recorded."
     ]
    },
    {
     "depends_on": [
-     "eye-bearings"
+     "damper-check"
     ],
-    "id": "shock-in",
-    "instruction": "Grease the shock bolts with molybdenum disulfide grease. Lift the swingarm and fit the shock: upper bolt from the right, lower bolt from the left. Tighten the upper nut to 56 N·m (41 lb·ft) and the lower nut to 53 N·m (39 lb·ft).",
+    "id": "spring-off",
+    "instruction": "Clean the threads, loosen the locknut, then back off the adjuster until the spring is free. Remove the lower spring guide, the upper spring guide and the spring.",
+    "record_required": false,
+    "title": "Take the spring off",
+    "verification": [
+     "Spring and guides off."
+    ]
+   },
+   {
+    "depends_on": [
+     "spring-off"
+    ],
+    "id": "spring-check",
+    "instruction": "Check the spring for damage or fatigue, the spring guides for cracks or wear, and both mounting bolts for bends or worn shanks. Replace any part that fails. Measure the spring free length and write it down; you need it to set preload.",
     "record_required": true,
+    "title": "Inspect spring, guides and bolts",
+    "verification": [
+     "Spring free length recorded; parts to replace listed."
+    ]
+   },
+   {
+    "branches": [
+     {
+      "condition": "Both bearings turn smoothly with no play or rust and the seals are undamaged.",
+      "id": "eyes-ok",
+      "label": "Bearings and seals are good",
+      "next_step": "spring-on"
+     }
+    ],
+    "depends_on": [
+     "spring-check"
+    ],
+    "id": "eye-check",
+    "instruction": "Turn the upper and lower bearings with a finger through their collars. Any roughness, play, rust, pitting or a torn dust seal means the bearing and its seals are renewed.",
+    "record_required": true,
+    "title": "Check the eye bearings",
+    "verification": [
+     "Bearing condition recorded."
+    ]
+   },
+   {
+    "depends_on": [
+     "eye-check"
+    ],
+    "id": "upper-out",
+    "instruction": "Remove the upper collars. Press the upper bearing inward by its outer race just far enough to free the stopper ring, take the ring out, then press the bearing out by its outer race.",
+    "record_required": false,
+    "title": "Remove the upper bearing",
+    "verification": [
+     "Upper bearing out."
+    ]
+   },
+   {
+    "depends_on": [
+     "upper-out"
+    ],
+    "id": "lower-out",
+    "instruction": "Prise out the lower dust seals and take out the collars and bushing. Press the lower bearing out by its outer race only.",
+    "record_required": false,
+    "title": "Remove the lower bearing",
+    "verification": [
+     "Lower bearing out."
+    ]
+   },
+   {
+    "depends_on": [
+     "lower-out"
+    ],
+    "id": "clean-eyes",
+    "instruction": "Clean both shock eyes and inspect the bores. A scored or oval bore means the shock body is damaged.",
+    "record_required": false,
+    "title": "Clean the eyes",
+    "verification": [
+     "Bores clean and undamaged."
+    ]
+   },
+   {
+    "depends_on": [
+     "clean-eyes"
+    ],
+    "id": "upper-in",
+    "instruction": "Press the new upper bearing in squarely by its outer race until the stopper ring groove shows. Fit a new stopper ring into the groove, then push the bearing back until it sits against the ring. Do not grease the bearing outer race; grease there wears the bore it is pressed into.",
+    "record_required": false,
+    "title": "Fit the upper bearing",
+    "verification": [
+     "Stopper ring seated; bearing against it."
+    ]
+   },
+   {
+    "depends_on": [
+     "upper-in"
+    ],
+    "id": "lower-in",
+    "instruction": "Grease the lower bearing, collars and dust seal lips with molybdenum disulfide grease and the O-rings with lithium-soap-based grease. Press the lower bearing in by its outer race, pressing on the side with the maker's marks. Fit the bushing and collars, then new dust seals with their lips facing inward. Set the dust seals at an installed depth of 0.3 mm (0.01 in) or more.",
+    "record_required": true,
+    "title": "Fit the lower bearing, bushing and seals",
+    "verification": [
+     "Bearing square and turning smoothly; seals and depths as specified."
+    ]
+   },
+   {
+    "depends_on": [
+     "eye-check"
+    ],
+    "id": "spring-on",
+    "instruction": "Fit the spring, the upper spring guide and the lower spring guide. Turn the adjuster in until the spring is shortened from its free length to your recorded setting; the stock setting is 7.0 mm (0.28 in) shorter than free length (allowed range 1.5 mm / 0.06 in to 18.5 mm / 0.73 in shorter). Each full turn of the adjuster changes the length by 1.5 mm (0.06 in). Tighten the locknut firmly against the adjuster.",
+    "record_required": true,
+    "title": "Fit the spring and set preload",
+    "verification": [
+     "Installed spring length recorded; locknut tight."
+    ]
+   },
+   {
+    "depends_on": [
+     "spring-on"
+    ],
+    "id": "grease-bolts",
+    "instruction": "Coat the shanks and threads of the shock upper and lower bolts with molybdenum disulfide grease.",
+    "record_required": false,
+    "title": "Grease the mounting bolts",
+    "verification": [
+     "Bolts greased."
+    ]
+   },
+   {
+    "depends_on": [
+     "grease-bolts"
+    ],
+    "id": "refit",
+    "instruction": "Lift the swingarm and guide the shock into place, fitting the upper bolt from the right side and the lower bolt from the left side.",
+    "record_required": false,
     "title": "Fit the shock",
     "verification": [
-     "Both nuts torqued."
+     "Both bolts through."
     ]
    },
    {
     "depends_on": [
-     "shock-in"
+     "refit"
+    ],
+    "id": "torque",
+    "instruction": "Tighten the shock upper nut to 56 N·m (41 lb·ft) and the lower nut to 53 N·m (39 lb·ft).",
+    "record_required": true,
+    "title": "Torque the shock mounts",
+    "verification": [
+     "Both nuts torqued and marked."
+    ]
+   },
+   {
+    "depends_on": [
+     "torque"
     ],
     "id": "subframe-on",
     "instruction": "Fit the rear frame, upper bolt 32 N·m (24 lb·ft), lower bolts 29 N·m (21 lb·ft) and tighten the air filter case joint clamp to 2.3 N·m (1.7 lb·ft). Refit the silencer and seat.",
@@ -11408,12 +12276,36 @@
     "depends_on": [
      "subframe-on"
     ],
-    "id": "settings",
-    "instruction": "Turn the rebound and compression adjusters back to the recorded positions and check the preload length.",
+    "id": "stroke",
+    "instruction": "Lift and lower the swingarm through its travel by hand. It must move smoothly with no binding or knocking from the shock mounts.",
+    "record_required": false,
+    "title": "Check the rear moves freely",
+    "verification": [
+     "Smooth travel."
+    ]
+   },
+   {
+    "depends_on": [
+     "stroke"
+    ],
+    "id": "clickers",
+    "instruction": "Set rebound and both compression adjusters back to the counts you recorded.",
     "record_required": true,
-    "title": "Restore settings",
+    "title": "Restore the clicker settings",
     "verification": [
      "Settings match the record."
+    ]
+   },
+   {
+    "depends_on": [
+     "clickers"
+    ],
+    "id": "bed-in",
+    "instruction": "A new or refreshed shock needs about 50 km (30 miles) of riding to settle. Check sag and the mount nuts after the first ride.",
+    "record_required": true,
+    "title": "Bed in the shock",
+    "verification": [
+     "First-ride check done."
     ]
    }
   ],
