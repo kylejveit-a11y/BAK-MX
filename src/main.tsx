@@ -2,5 +2,6 @@ import '@fontsource-variable/inter';import '@fontsource-variable/inter/wght-ital
 import React from 'react';
 import {createRoot} from 'react-dom/client';
 import {App} from './App';
+import {LegalPage,LEGAL_PATHS} from './LegalPage';
 import './styles.css';
-createRoot(document.getElementById('root')!).render(<React.StrictMode><App/></React.StrictMode>);
+createRoot(document.getElementById('root')!).render(<React.StrictMode>{LEGAL_PATHS.includes(location.pathname.replace(/\/$/,''))?<LegalPage path={location.pathname.replace(/\/$/,'')}/>:<App/>}</React.StrictMode>);
