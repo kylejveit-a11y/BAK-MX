@@ -871,8 +871,197 @@
    },
    "confidence": "high",
    "notes": "Percent per tooth = 1/teeth; final ratio = rear/front teeth."
+  },
+  {
+   "id": "p7f-h001",
+   "domain": "identity",
+   "topic": "2024 YZ250FX carryover status",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Yamaha's 2024 lineup announcement lists the YZ250FX among the cross-country models that return for 2024 with updated graphics and a new seat color; unlike the 2024 YZ250F it received no engine or frame update, so it keeps the previous-generation YZ250FX engine and chassis.",
+   "values": {
+    "change_for_2024": "graphics and seat color only",
+    "shares_2024_yz250f_update": false
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha Motor Corporation USA press release \"Yamaha Celebrates 50 Years of YZ\" (2024 lineup)",
+    "url": "https://www.globenewswire.com/news-release/2023/07/26/2711535/0/en/Yamaha-Celebrates-50-Years-of-YZ.html",
+    "date": "2023-07-26"
+   },
+   "confidence": "high",
+   "notes": "The spec tables of the 2022 (BAJ-2819U-12), 2023 (BAJ-2819U-13) and 2024 (BAJ-2819U-14) US owner service manuals were compared: engine, gearing, suspension and chassis figures are identical (only a clutch friction-plate wear limit differs, 2.60 vs 2.62 mm, and text formatting)."
+  },
+  {
+   "id": "p7f-h002",
+   "domain": "power_feel",
+   "topic": "2024 YZ250FX dyno figures (same-spec 2022 test)",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "A rear-wheel dyno test of the 2022 YZ250FX, mechanically identical to the 2024, measured 37.9 hp at 12,100 rpm and 18.3 lb-ft of torque at 8,800 rpm; peak power was up only 0.1 hp on the 2021 bike, with peak torque the same but arriving 400 rpm later.",
+   "values": {
+    "peak_hp": 37.9,
+    "peak_hp_rpm": 12100,
+    "peak_torque_lbft": 18.3,
+    "peak_torque_rpm": 8800
+   },
+   "tier": "MEASURED",
+   "source": {
+    "type": "magazine",
+    "name": "Dirt Rider, 2022 Yamaha YZ250FX Dyno Test (Andrew Oldar)",
+    "url": "https://www.dirtrider.com/story/tests/yamaha-yz250fx-dyno-test-2022",
+    "date": "2022-06-15"
+   },
+   "confidence": "medium",
+   "notes": "Tested bike is a 2022. Applied to 2024 because Yamaha says the 2024 FX carries over with graphics only and the 2022-2024 manual spec tables match (see identity record). Dyno model and map not stated; in-house dyno, rear street tire. No dyno test of a 2023 or 2024 FX was found."
+  },
+  {
+   "id": "p7f-h003",
+   "domain": "setups",
+   "topic": "2024 YZ250FX tire pressure and fork oil level by conditions",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Yamaha's tuning chapter sets standard tire pressure at 100 kPa (15 psi), dropping to 60-80 kPa (9-12 psi) for rain, mud, sand or slippery ground and raising it to 100-120 kPa (15-18 psi) for stony or hard ground to avoid flats. The fork's end-of-stroke (air spring) feel is tuned with the oil level: standard 295 cm³, adjustable from 260 to 365 cm³ in 5 cm³ steps; too little gives a clunk at full extension, too much makes the end of the stroke harsh.",
+   "values": {
+    "tire_std_kpa": 100,
+    "tire_soft_ground_kpa": "60-80",
+    "tire_hard_ground_kpa": "100-120",
+    "fork_oil_std_cc": 295,
+    "fork_oil_range_cc": "260-365",
+    "oil_step_cc": 5
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Tuning chapter 10-1 and 10-2."
+  },
+  {
+   "id": "p7f-h004",
+   "domain": "setups",
+   "topic": "2024 YZ250FX shock spring options and set-up after a spring change",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Yamaha lists optional shock springs from 48 to 60 N/mm in 2 N/mm steps (standard 56 N/mm) and fork springs from 4.1 to 5.1 N/mm (standard 4.6). After fitting any shock spring, reset sag to a 90-100 mm sunken (rider-on) length; with a softer spring turn rebound out 1-2 clicks, with a stiffer one turn it in 1-2 clicks, and since rebound changes affect compression feel, back compression off to correct. Recheck sag once a new spring has bedded in.",
+   "values": {
+    "shock_spring_options_Nmm": [
+     48,
+     50,
+     52,
+     54,
+     56,
+     58,
+     60
+    ],
+    "shock_spring_std_Nmm": 56,
+    "fork_spring_options_Nmm": "4.1-5.1",
+    "sag_mm": "90-100"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Tuning chapter 10-3/10-4 (rear shock absorber and front fork setting parts tables, choosing set length)."
+  },
+  {
+   "id": "p7f-h005",
+   "domain": "engine_mods",
+   "topic": "2024 YZ250FX Power Tuner fuel and ignition changes",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Fuel and ignition can be changed without parts using Yamaha's Power Tuner smartphone app, which writes injection and ignition-timing corrections into the ECU and selects which map the handlebar mode switch calls up. A dealer diagnostic tool can show whether Power Tuner settings are stored (diagnostic codes 60 and 64) and erase all setting maps to return the ECU to stock (code 65).",
+   "values": {
+    "tool": "Power Tuner app",
+    "diag_codes": {
+     "60": "EEPROM fault display incl. Power Tuner corrections",
+     "64": "Power Tuner setting history",
+     "65": "setting map erasure"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2024 YZ250FX Owner's Service Manual (BAJ-2819U-14)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-14_02.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Instrument and control functions (Power Tuner app / mode switch) and the self-diagnostic code table, chapter 9."
+  },
+  {
+   "id": "p7f-h006",
+   "domain": "engine_mods",
+   "topic": "2024 YZ250FX aftermarket exhaust fitment",
+   "applies_to": {
+    "models": [
+     "Yamaha YZ250FX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Aftermarket full exhaust systems for the YZ250FX are sold as fitting the 2019-on bikes, the 2024 included (shared with the YZ250F of the same years); they are sold for closed-course competition use only and the maker gives no measured power figure.",
+   "values": {
+    "example": "Big Gun EXO-R full system",
+    "listed_fitment": "YZ250FX 2019-2027; YZ250F 2019-2026",
+    "claimed_gain": "none quantified",
+    "street_legal": false
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "retailer",
+    "name": "Cycle Gear product listing, Big Gun EXO-R full system YZ250F/YZ250FX",
+    "url": "https://www.cyclegear.com/parts/big-gun-exo-r-full-system-exhaust-yz250f-yz250fx-2019-2024",
+    "date": "2026"
+   },
+   "confidence": "medium",
+   "notes": "Fitment from the retailer listing; other makers (GPR, Yoshimura) list 2020-2024 YZ250FX systems. No 2024 FX before/after dyno found."
   }
  ],
  "conflicts": [],
- "not_found": []
+ "not_found": [
+  "A dyno test or full magazine test of the 2023 or 2024 YZ250FX specifically: none found (2022 dyno used with carryover evidence; 2025 tests cover the updated model).",
+  "US recalls (CPSC/NHTSA/Yamaha) for the 2024 YZ250FX: none found; a VIN-report site also lists none.",
+  "Yamaha US 2024 YZ250FX spec page (yamahamotorsports.com/models/24-yz250fx/specs): could not be fetched; the current page shows the 2027 model.",
+  "Owner-reported repeat failure patterns specific to the 2024 YZ250FX (2+ threads): none found."
+ ]
 }
