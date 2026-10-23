@@ -2828,7 +2828,8 @@
   "component": "shock",
   "critical_stop_conditions": [
    "Shock rod bent, scored or leaking oil or gas: the shock must be replaced or rebuilt by a suspension shop.",
-   "Never heat the shock or try to open it: it holds high-pressure nitrogen.",
+   "Never heat, puncture or clamp the damper body, and never try to open it: it holds high-pressure nitrogen.",
+   "Shock eye bore scored or out of round: stop, the shock body is damaged.",
    "Spring cracked or worn through its coating at the guides: replace it.",
    "Shock does not return fully or knocks after refit: do not ride."
   ],
@@ -2836,8 +2837,9 @@
    "Complete bike, cold, on a stand under the engine with the rear wheel clear."
   ],
   "excluded": [
-   "Opening the shock damper: oil change, seal head, piston, valving and nitrogen recharge (send the shock to a suspension shop)",
-   "Linkage needle bearings (see the linkage guide)"
+   "Damper internals: oil, seal head, piston, valving and nitrogen recharge (the damper is sealed and is not opened)",
+   "Linkage and swingarm needle bearings (see the linkage guide)",
+   "Changing to a different spring rate"
   ],
   "exit_state": [
    "Shock refitted with inspected spring and new eye bearing/bushing and seals, preload restored, linkage torqued; ready to ride. Damper internals untouched."
@@ -2994,7 +2996,7 @@
      "spring-off"
     ],
     "id": "inspect-shock",
-    "instruction": "Wipe the shaft and look for bends, scoring or any oil or gas leak. Check the spring and spring guides for cracks and wear, and the bolts for bends or wear. A bent shaft or any leak means the shock goes to a suspension shop or is replaced. Note what you find.",
+    "instruction": "Wipe the shaft and look for bends, scoring or any oil or gas leak. Check the spring and spring guides for cracks and wear, and the bolts for bends or wear. A leaking or worn damper goes to a suspension shop for a damper rebuild, or the shock assembly is replaced; never open it yourself. Note what you find.",
     "record_required": true,
     "title": "Inspect the shock and spring",
     "verification": [
@@ -3118,7 +3120,7 @@
     ]
    }
   ],
-  "title": "Rear shock: remove, inspect, change the spring and eye bearings, refit"
+  "title": "Refresh the rear shock spring, eye bearings and seals (sealed damper)"
  },
  {
   "id": "bak-yamaha-yz450fx-shock-out-spring-bearings-v1",
@@ -3158,7 +3160,8 @@
   "component": "shock",
   "critical_stop_conditions": [
    "Shock rod bent, scored or leaking oil or gas: the shock must be replaced or rebuilt by a suspension shop.",
-   "Never heat the shock or try to open it: it holds high-pressure nitrogen.",
+   "Never heat, puncture or clamp the damper body, and never try to open it: it holds high-pressure nitrogen.",
+   "Shock eye bore scored or out of round: stop, the shock body is damaged.",
    "Spring cracked or worn through its coating at the guides: replace it.",
    "Shock does not return fully or knocks after refit: do not ride."
   ],
@@ -3166,8 +3169,9 @@
    "Complete bike, cold, on a stand under the engine with the rear wheel clear."
   ],
   "excluded": [
-   "Opening the shock damper: oil change, seal head, piston, valving and nitrogen recharge (send the shock to a suspension shop)",
-   "Linkage needle bearings (see the linkage guide)"
+   "Damper internals: oil, seal head, piston, valving and nitrogen recharge (the damper is sealed and is not opened)",
+   "Linkage and swingarm needle bearings (see the linkage guide)",
+   "Changing to a different spring rate"
   ],
   "exit_state": [
    "Shock refitted with inspected spring and new eye bearing/bushing and seals, preload restored, linkage torqued; ready to ride. Damper internals untouched."
@@ -3324,7 +3328,7 @@
      "spring-off"
     ],
     "id": "inspect-shock",
-    "instruction": "Wipe the shaft and look for bends, scoring or any oil or gas leak. Check the spring and spring guides for cracks and wear, and the bolts for bends or wear. A bent shaft or any leak means the shock goes to a suspension shop or is replaced. Note what you find.",
+    "instruction": "Wipe the shaft and look for bends, scoring or any oil or gas leak. Check the spring and spring guides for cracks and wear, and the bolts for bends or wear. A leaking or worn damper goes to a suspension shop for a damper rebuild, or the shock assembly is replaced; never open it yourself. Note what you find.",
     "record_required": true,
     "title": "Inspect the shock and spring",
     "verification": [
@@ -3448,7 +3452,7 @@
     ]
    }
   ],
-  "title": "Rear shock: remove, inspect, change the spring and eye bearings, refit"
+  "title": "Refresh the rear shock spring, eye bearings and seals (sealed damper)"
  },
  {
   "id": "bak-yamaha-wr450f-fork-full-service-v1",
@@ -6354,7 +6358,8 @@
   "component": "shock",
   "critical_stop_conditions": [
    "Shock rod bent, scored or leaking oil or gas: the shock must be replaced or rebuilt by a suspension shop.",
-   "Never heat the shock or try to open it: it holds high-pressure nitrogen.",
+   "Never heat, puncture or clamp the damper body, and never try to open it: it holds high-pressure nitrogen.",
+   "Shock eye bore scored or out of round: stop, the shock body is damaged.",
    "Spring cracked or worn through its coating at the guides: replace it.",
    "Shock does not return fully or knocks after refit: do not ride."
   ],
@@ -6362,8 +6367,9 @@
    "Complete bike, cold, on a stand under the engine with the rear wheel clear."
   ],
   "excluded": [
-   "Opening the shock damper: oil change, seal head, piston, valving and nitrogen recharge (send the shock to a suspension shop)",
-   "Linkage needle bearings (see the linkage guide)"
+   "Damper internals: oil, seal head, piston, valving and nitrogen recharge (the damper is sealed and is not opened)",
+   "Linkage and swingarm needle bearings (see the linkage guide)",
+   "Changing to a different spring rate"
   ],
   "exit_state": [
    "Shock refitted with inspected spring and new eye bearing/bushing and seals, preload restored, linkage torqued; ready to ride. Damper internals untouched."
@@ -6520,7 +6526,7 @@
      "spring-off"
     ],
     "id": "inspect-shock",
-    "instruction": "Wipe the shaft and look for bends, scoring or any oil or gas leak. Check the spring and spring guides for cracks and wear, and the bolts for bends or wear. A bent shaft or any leak means the shock goes to a suspension shop or is replaced. Note what you find.",
+    "instruction": "Wipe the shaft and look for bends, scoring or any oil or gas leak. Check the spring and spring guides for cracks and wear, and the bolts for bends or wear. A leaking or worn damper goes to a suspension shop for a damper rebuild, or the shock assembly is replaced; never open it yourself. Note what you find.",
     "record_required": true,
     "title": "Inspect the shock and spring",
     "verification": [
@@ -6644,7 +6650,7 @@
     ]
    }
   ],
-  "title": "Rear shock: remove, inspect, change the spring and eye bearings, refit"
+  "title": "Refresh the rear shock spring, eye bearings and seals (sealed damper)"
  },
  {
   "id": "bak-yamaha-wr450f-shock-out-spring-bearings-v1",
@@ -6684,7 +6690,8 @@
   "component": "shock",
   "critical_stop_conditions": [
    "Shock rod bent, scored or leaking oil or gas: the shock must be replaced or rebuilt by a suspension shop.",
-   "Never heat the shock or try to open it: it holds high-pressure nitrogen.",
+   "Never heat, puncture or clamp the damper body, and never try to open it: it holds high-pressure nitrogen.",
+   "Shock eye bore scored or out of round: stop, the shock body is damaged.",
    "Spring cracked or worn through its coating at the guides: replace it.",
    "Shock does not return fully or knocks after refit: do not ride."
   ],
@@ -6692,8 +6699,9 @@
    "Complete bike, cold, on a stand under the engine with the rear wheel clear."
   ],
   "excluded": [
-   "Opening the shock damper: oil change, seal head, piston, valving and nitrogen recharge (send the shock to a suspension shop)",
-   "Linkage needle bearings (see the linkage guide)"
+   "Damper internals: oil, seal head, piston, valving and nitrogen recharge (the damper is sealed and is not opened)",
+   "Linkage and swingarm needle bearings (see the linkage guide)",
+   "Changing to a different spring rate"
   ],
   "exit_state": [
    "Shock refitted with inspected spring and new eye bearing/bushing and seals, preload restored, linkage torqued; ready to ride. Damper internals untouched."
@@ -6850,7 +6858,7 @@
      "spring-off"
     ],
     "id": "inspect-shock",
-    "instruction": "Wipe the shaft and look for bends, scoring or any oil or gas leak. Check the spring and spring guides for cracks and wear, and the bolts for bends or wear. A bent shaft or any leak means the shock goes to a suspension shop or is replaced. Note what you find.",
+    "instruction": "Wipe the shaft and look for bends, scoring or any oil or gas leak. Check the spring and spring guides for cracks and wear, and the bolts for bends or wear. A leaking or worn damper goes to a suspension shop for a damper rebuild, or the shock assembly is replaced; never open it yourself. Note what you find.",
     "record_required": true,
     "title": "Inspect the shock and spring",
     "verification": [
@@ -6974,7 +6982,7 @@
     ]
    }
   ],
-  "title": "Rear shock: remove, inspect, change the spring and eye bearings, refit"
+  "title": "Refresh the rear shock spring, eye bearings and seals (sealed damper)"
  },
  {
   "id": "bak-yamaha-wr250f-fork-full-service-v1",
@@ -9875,7 +9883,8 @@
   "component": "shock",
   "critical_stop_conditions": [
    "Shock rod bent, scored or leaking oil or gas: the shock must be replaced or rebuilt by a suspension shop.",
-   "Never heat the shock or try to open it: it holds high-pressure nitrogen.",
+   "Never heat, puncture or clamp the damper body, and never try to open it: it holds high-pressure nitrogen.",
+   "Shock eye bore scored or out of round: stop, the shock body is damaged.",
    "Spring cracked or worn through its coating at the guides: replace it.",
    "Shock does not return fully or knocks after refit: do not ride."
   ],
@@ -9883,8 +9892,9 @@
    "Complete bike, cold, on a stand under the engine with the rear wheel clear."
   ],
   "excluded": [
-   "Opening the shock damper: oil change, seal head, piston, valving and nitrogen recharge (send the shock to a suspension shop)",
-   "Linkage needle bearings (see the linkage guide)"
+   "Damper internals: oil, seal head, piston, valving and nitrogen recharge (the damper is sealed and is not opened)",
+   "Linkage and swingarm needle bearings (see the linkage guide)",
+   "Changing to a different spring rate"
   ],
   "exit_state": [
    "Shock refitted with inspected spring and new eye bearing/bushing and seals, preload restored, linkage torqued; ready to ride. Damper internals untouched."
@@ -10041,7 +10051,7 @@
      "spring-off"
     ],
     "id": "inspect-shock",
-    "instruction": "Wipe the shaft and look for bends, scoring or any oil or gas leak. Check the spring and spring guides for cracks and wear, and the bolts for bends or wear. A bent shaft or any leak means the shock goes to a suspension shop or is replaced. Note what you find.",
+    "instruction": "Wipe the shaft and look for bends, scoring or any oil or gas leak. Check the spring and spring guides for cracks and wear, and the bolts for bends or wear. A leaking or worn damper goes to a suspension shop for a damper rebuild, or the shock assembly is replaced; never open it yourself. Note what you find.",
     "record_required": true,
     "title": "Inspect the shock and spring",
     "verification": [
@@ -10165,7 +10175,7 @@
     ]
    }
   ],
-  "title": "Rear shock: remove, inspect, change the spring and eye bearings, refit"
+  "title": "Refresh the rear shock spring, eye bearings and seals (sealed damper)"
  },
  {
   "id": "bak-yamaha-wr250f-shock-out-spring-bearings-v1",
@@ -10185,7 +10195,8 @@
   "component": "shock",
   "critical_stop_conditions": [
    "Shock rod bent, scored or leaking oil or gas: the shock must be replaced or rebuilt by a suspension shop.",
-   "Never heat the shock or try to open it: it holds high-pressure nitrogen.",
+   "Never heat, puncture or clamp the damper body, and never try to open it: it holds high-pressure nitrogen.",
+   "Shock eye bore scored or out of round: stop, the shock body is damaged.",
    "Spring cracked or worn through its coating at the guides: replace it.",
    "Shock does not return fully or knocks after refit: do not ride."
   ],
@@ -10193,8 +10204,9 @@
    "Complete bike, cold, on a stand under the engine with the rear wheel clear."
   ],
   "excluded": [
-   "Opening the shock damper: oil change, seal head, piston, valving and nitrogen recharge (send the shock to a suspension shop)",
-   "Linkage needle bearings (see the linkage guide)"
+   "Damper internals: oil, seal head, piston, valving and nitrogen recharge (the damper is sealed and is not opened)",
+   "Linkage and swingarm needle bearings (see the linkage guide)",
+   "Changing to a different spring rate"
   ],
   "exit_state": [
    "Shock refitted with inspected spring and new eye bearing/bushing and seals, preload restored, linkage torqued; ready to ride. Damper internals untouched."
@@ -10351,7 +10363,7 @@
      "spring-off"
     ],
     "id": "inspect-shock",
-    "instruction": "Wipe the shaft and look for bends, scoring or any oil or gas leak. Check the spring and spring guides for cracks and wear, and the bolts for bends or wear. A bent shaft or any leak means the shock goes to a suspension shop or is replaced. Note what you find.",
+    "instruction": "Wipe the shaft and look for bends, scoring or any oil or gas leak. Check the spring and spring guides for cracks and wear, and the bolts for bends or wear. A leaking or worn damper goes to a suspension shop for a damper rebuild, or the shock assembly is replaced; never open it yourself. Note what you find.",
     "record_required": true,
     "title": "Inspect the shock and spring",
     "verification": [
@@ -10475,7 +10487,7 @@
     ]
    }
   ],
-  "title": "Rear shock: remove, inspect, change the spring and eye bearings, refit"
+  "title": "Refresh the rear shock spring, eye bearings and seals (sealed damper)"
  },
  {
   "id": "bak-yamaha-wr250f-shock-out-spring-bearings-v1",
@@ -10515,7 +10527,8 @@
   "component": "shock",
   "critical_stop_conditions": [
    "Shock rod bent, scored or leaking oil or gas: the shock must be replaced or rebuilt by a suspension shop.",
-   "Never heat the shock or try to open it: it holds high-pressure nitrogen.",
+   "Never heat, puncture or clamp the damper body, and never try to open it: it holds high-pressure nitrogen.",
+   "Shock eye bore scored or out of round: stop, the shock body is damaged.",
    "Spring cracked or worn through its coating at the guides: replace it.",
    "Shock does not return fully or knocks after refit: do not ride."
   ],
@@ -10523,8 +10536,9 @@
    "Complete bike, cold, on a stand under the engine with the rear wheel clear."
   ],
   "excluded": [
-   "Opening the shock damper: oil change, seal head, piston, valving and nitrogen recharge (send the shock to a suspension shop)",
-   "Linkage needle bearings (see the linkage guide)"
+   "Damper internals: oil, seal head, piston, valving and nitrogen recharge (the damper is sealed and is not opened)",
+   "Linkage and swingarm needle bearings (see the linkage guide)",
+   "Changing to a different spring rate"
   ],
   "exit_state": [
    "Shock refitted with inspected spring and new eye bearing/bushing and seals, preload restored, linkage torqued; ready to ride. Damper internals untouched."
@@ -10681,7 +10695,7 @@
      "spring-off"
     ],
     "id": "inspect-shock",
-    "instruction": "Wipe the shaft and look for bends, scoring or any oil or gas leak. Check the spring and spring guides for cracks and wear, and the bolts for bends or wear. A bent shaft or any leak means the shock goes to a suspension shop or is replaced. Note what you find.",
+    "instruction": "Wipe the shaft and look for bends, scoring or any oil or gas leak. Check the spring and spring guides for cracks and wear, and the bolts for bends or wear. A leaking or worn damper goes to a suspension shop for a damper rebuild, or the shock assembly is replaced; never open it yourself. Note what you find.",
     "record_required": true,
     "title": "Inspect the shock and spring",
     "verification": [
@@ -10805,6 +10819,6 @@
     ]
    }
   ],
-  "title": "Rear shock: remove, inspect, change the spring and eye bearings, refit"
+  "title": "Refresh the rear shock spring, eye bearings and seals (sealed damper)"
  }
 ]
