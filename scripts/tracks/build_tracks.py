@@ -14,6 +14,10 @@ TYPES = {'motocross', 'supercross', 'arenacross', 'offroad', 'enduro', 'training
 ACCESS = {'public', 'members', 'private', 'appointment', 'unknown'}
 STATUS = {'open', 'closed', 'seasonal', 'unknown'}
 CONF = {'high', 'medium', 'low'}
+# Same facility researched under two ids at a regional border: second id folds into the first.
+SAME = {'motobros-okeechobee-mx': 'moto-bros-okeechobee'}
+# Never loaded: a private person's home or property is not a track listing (privacy), whatever its history.
+EXCLUDE = {'chad-reed-compound': "a rider's private home compound"}
 
 def norm(r, file):
     errs = []
@@ -53,6 +57,9 @@ def main():
     for f in sorted(glob.glob(os.path.join(DIR, f'{state.lower()}-*.json'))):
         data = json.load(open(f))
         for r in data:
+            if r.get('id') in EXCLUDE:
+                problems.append(f"{r['id']}: left out ({EXCLUDE[r['id']]})"); continue
+            r['id'] = SAME.get(r.get('id'), r.get('id'))
             problems += norm(r, f)
             old = merged.get(r['id'])
             if old:
