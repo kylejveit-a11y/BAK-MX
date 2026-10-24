@@ -8,7 +8,7 @@ import {Card,Eyebrow,Page,colors,s} from './ui';
 import {MetalPanel,MetalWell} from './MetalPanel';
 const data=require('../../../shared/bike-support.json') as SupportData;
 
-// Coverage colours: distinct at a glance (green, blue, amber, grey) so a list of years never reads as all grey.
+// Coverage colors: distinct at a glance (green, blue, amber, gray) so a list of years never reads as all gray.
 const tone:Record<string,{bg:string;line:string;text:string;dot:string}>={full:{bg:'#0f2a1b',line:'#2e9c5c',text:'#7ee2a6',dot:'#3fd17f'},strong:{bg:'#0f2036',line:'#3f7fd6',text:'#9cc4ff',dot:'#4c94ff'},good:{bg:'#2a2210',line:'#b08a2c',text:'#f5cf72',dot:'#f2b23e'},basic:{bg:'#1a1d22',line:'#4a505b',text:'#b7bec9',dot:'#8d95a2'}};
 function Badge({id,label}:{id:string;label:string}){const t=tone[id];return <View style={{flexDirection:'row',alignItems:'center',gap:6,alignSelf:'flex-start'}}><View style={{width:9,height:9,borderRadius:5,backgroundColor:t.dot}}/><Text style={{color:t.text,fontSize:12.5,fontWeight:'700'}}>{label}</Text></View>;}
 

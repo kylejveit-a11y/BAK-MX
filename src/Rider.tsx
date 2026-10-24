@@ -290,7 +290,7 @@ export function PartsCatalog({bike}:{bike?:Bike}){
  return <section className="panel parts-catalog">
   <div className="panel-title"><div><h2>Parts catalog</h2><p className="subtle">{catalog?`${catalog.assembly_count} sections · ${catalog.part_count} parts${catalog.complete?'':' · not every section is listed yet'}`:'Exact model-year catalog'}</p></div></div>
   {error&&<div className="error" role="alert">{error}</div>}
-  {!catalog?<div className="empty"><h3>No parts catalog for this exact bike yet.</h3><p>Catalogs are loaded per model year, variant and region. A neighbouring year is never shown in its place.</p></div>:<>
+  {!catalog?<div className="empty"><h3>No parts catalog for this bike yet.</h3><p>Parts are only shown when they’re listed for your exact year and version, never borrowed from a neighboring year.</p></div>:<>
    {/no market label/i.test(catalog.source)&&<p className="notice">The manufacturer lists this model year once, without a market label, so this is the only official catalog for it. Confirm the part number with your dealer before ordering.</p>}
    {/EU market/i.test(catalog.source)&&<p className="notice">The manufacturer lists this catalog under its EU market only. This model was also sold in the US, but a US bike can differ in a few parts. Confirm the part number with your dealer before ordering.</p>}
    <label className="field"><span>Find an assembly</span><input value={find} onChange={e=>setFind(e.target.value)} placeholder="Front fork, clutch, cylinder head…"/></label>

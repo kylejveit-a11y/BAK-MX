@@ -25,7 +25,9 @@ export function groupSupport(bikes:SupportRow[],query=''):SupportMake[]{
   (models.get(b.model)??models.set(b.model,[]).get(b.model)!).push(b);
  }
  return [...makes.entries()].sort(([a],[b])=>a.localeCompare(b)).map(([make,models])=>{
-  const list=[...models.entries()].map(([model,rows])=>{const r=[...rows].sort((a,b)=>b.year-a.year);return {model,rows:r,from:r[r.length-1].year,to:r[0].year};});
+  // Smallest to biggest, the way riders look: 85 SX before 125 SX before 450 SX-F.
+  const size=(m:string)=>{const n=m.match(/\d+/);return n?Number(n[0]):9999;};
+  const list=[...models.entries()].map(([model,rows])=>{const r=[...rows].sort((a,b)=>b.year-a.year);return {model,rows:r,from:r[r.length-1].year,to:r[0].year};}).sort((a,b)=>size(a.model)-size(b.model)||a.model.localeCompare(b.model));
   return {make,models:list,from:Math.min(...list.map(m=>m.from)),to:Math.max(...list.map(m=>m.to)),years:list.reduce((n,m)=>n+m.rows.length,0)};
  });
 }

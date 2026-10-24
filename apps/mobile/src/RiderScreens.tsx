@@ -61,11 +61,11 @@ export function ProfileEditor({profile,onSaved}:{profile:Profile|null;onSaved:(p
  }
  return <View style={{gap:12}}>
   {!profile&&<Copy>Pick a handle so other riders know who they’re talking to. You can change it later.</Copy>}
-  <Field editable={!busy} label="Handle" value={handle} onChangeText={setHandle} maxLength={24} autoCorrect={false}/>
-  <Field editable={!busy} label="Display name" value={name} onChangeText={setName} maxLength={60} autoCapitalize="words"/>
-  <Field editable={!busy} label="Home area" value={location} onChangeText={setLocation} maxLength={80} autoCapitalize="words"/>
-  <Field editable={!busy} label="Class / riding" value={riding} onChangeText={setRiding} maxLength={60}/>
-  <Field editable={!busy} label="About" value={bio} onChangeText={setBio} maxLength={500} multiline autoCapitalize="sentences"/>
+  <Field editable={!busy} label="Handle" placeholder="e.g. moto_kyle" value={handle} onChangeText={setHandle} maxLength={24} autoCorrect={false}/>
+  <Field editable={!busy} label="Display name" placeholder="The name riders see" value={name} onChangeText={setName} maxLength={60} autoCapitalize="words"/>
+  <Field editable={!busy} label="Home area" placeholder="e.g. Tampa, FL" value={location} onChangeText={setLocation} maxLength={80} autoCapitalize="words"/>
+  <Field editable={!busy} label="Class / riding" placeholder="e.g. Vet 35+, 450 C" value={riding} onChangeText={setRiding} maxLength={60}/>
+  <Field editable={!busy} label="About" placeholder="What you ride, where, what you’re working on" value={bio} onChangeText={setBio} maxLength={500} multiline autoCapitalize="sentences"/>
   {!profile&&<View style={{gap:8,paddingTop:8}}><Text style={{color:'#9aa2ae',fontSize:11.5,fontWeight:'600',letterSpacing:1}}>COMMUNITY RULES</Text>{COMMUNITY_RULES.map((r,i)=><Copy key={i}>• {r}</Copy>)}<CheckRow label="I agree to the community rules" checked={agreed} onPress={()=>setAgreed(!agreed)}/></View>}
   <Notice text={notice}/>
   <Button disabled={busy} title={busy?'Saving…':profile?'Save profile':'Create profile'} onPress={()=>void save()}/>
@@ -88,7 +88,7 @@ export function FeedbackCard({bike}:{bike?:Bike}){
  async function send(){if(busy||!body.trim())return;setBusy(true);setNotice('');try{await api('/api/feedback','POST',{category,body,context:{client:'native',bike:bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:null}});setBody('');setNotice('Thanks — this goes straight to the build list.');}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
  return <Card><Copy strong>Tell us what’s missing or wrong</Copy><Copy>A wrong answer, a missing spec for your bike, a bug, an idea. Be specific; it gets read.</Copy>
   <Choices disabled={busy} label="About" value={category} items={[{value:'answer_quality',label:'An answer'},{value:'missing_data',label:'Missing data'},{value:'bug',label:'Something broken'},{value:'idea',label:'An idea'},{value:'other',label:'Other'}]} onChange={setCategory}/>
-  <Field editable={!busy} label="Details" value={body} onChangeText={setBody} multiline maxLength={4000} autoCapitalize="sentences"/>
+  <Field editable={!busy} label="Details" placeholder="What happened, on which bike, and what you expected" value={body} onChangeText={setBody} multiline maxLength={4000} autoCapitalize="sentences"/>
   <Notice text={notice}/><Button disabled={busy||!body.trim()} title={busy?'Sending…':'Send feedback'} onPress={()=>void send()}/></Card>;
 }
 
@@ -258,12 +258,12 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
   <Segments value={scope} items={[{value:'upcoming',label:'Upcoming'},{value:'past',label:'Past'}]} onChange={setScope}/>
   {!creating&&<StartRow icon="flag" title="Post an event" detail="Ride day, race, practice night, clinic or meetup" onPress={()=>setCreating(true)}/>}
   {creating&&<Card><FormHead title="New event" onCancel={()=>setCreating(false)}/>
-   <Field editable={!busy} label="Event name" value={title} onChangeText={setTitle} maxLength={120} autoCapitalize="sentences"/>
+   <Field editable={!busy} label="Event name" placeholder="e.g. Saturday practice at Dade City" value={title} onChangeText={setTitle} maxLength={120} autoCapitalize="sentences"/>
    <Choices disabled={busy} label="Type" value={type} items={options(EVENT_TYPE_LABELS)} onChange={setType}/>
    <DateField disabled={busy} label="Starts" time value={starts} onChange={setStarts} years={[new Date().getFullYear(),new Date().getFullYear()+2]} quick={rideDays()}/>
    <DateField disabled={busy} label="Ends" time optional value={ends} onChange={setEnds} years={[new Date().getFullYear(),new Date().getFullYear()+2]} quick={rideDays()}/>
-   <Field editable={!busy} label="Track or location" value={place} onChangeText={setPlace} maxLength={160} autoCapitalize="words"/>
-   <Field editable={!busy} label="Details" value={details} onChangeText={setDetails} multiline maxLength={4000} autoCapitalize="sentences"/>
+   <Field editable={!busy} label="Track or location" placeholder="Track name or address" value={place} onChangeText={setPlace} maxLength={160} autoCapitalize="words"/>
+   <Field editable={!busy} label="Details" placeholder="Gate time, classes, cost, what to bring" value={details} onChangeText={setDetails} multiline maxLength={4000} autoCapitalize="sentences"/>
    <Button disabled={busy} title={busy?'Saving…':'Publish event'} onPress={()=>void create()}/></Card>}
   <Notice text={notice}/>
   {loading&&!events.length&&<SkeletonList kind="event"/>}
@@ -393,7 +393,7 @@ export function PartsCatalogCard({bike}:{bike?:Bike}){
  if(!bike||catalog===undefined)return null;
  const shown=assemblies.filter(a=>a.name.toLowerCase().includes(find.trim().toLowerCase()));
  return <Card><Copy strong>Parts catalog</Copy><Notice text={notice}/>
-  {!catalog?<Copy>No parts catalog for this exact bike yet. Catalogs are loaded per model year, variant and region; a neighbouring year is never shown in its place.</Copy>:<>
+  {!catalog?<Copy>No parts catalog for this bike yet. Parts are only shown when they’re listed for your exact year and version, never borrowed from a neighboring year.</Copy>:<>
    <Copy>{catalog.assembly_count} sections · {catalog.part_count} parts{catalog.complete?'':' · not every section is listed yet'}</Copy>
    <Field label="Find an assembly" value={find} onChangeText={setFind}/>
    {shown.map(a=><View key={a.id} style={{borderTopWidth:1,borderTopColor:colors.line,paddingTop:10,gap:8}}>

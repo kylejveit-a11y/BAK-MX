@@ -1,4 +1,4 @@
-// Full-screen selector: search, a snapping wheel with a lit centre row, and step-by-step drilling (make → model → year).
+// Full-screen selector: search, a snapping wheel with a lit center row, and step-by-step drilling (make → model → year).
 // Replaces the stock iOS picker everywhere so choosing things feels like one deliberate tool.
 import React,{useEffect,useMemo,useRef,useState} from 'react';
 import {Animated,FlatList,Modal,StyleSheet,Text,TextInput,View,useWindowDimensions,type NativeScrollEvent,type NativeSyntheticEvent} from 'react-native';
@@ -57,7 +57,7 @@ export function WheelSheet({visible,step,title,options,value,onPick,onClose,back
        </Animated.View>
       </Pressable>;}}/>}
    </View>
-   <Text style={st.hint}>{list.length?'TAP THE CENTRE ROW TO CHOOSE':''}</Text>
+   <Text style={st.hint}>{list.length?'TAP THE CENTER ROW TO CHOOSE':''}</Text>
    </View>
    <View style={st.bottom}>
     {footer?<Pressable accessibilityRole="button" onPress={footer.onPress} hitSlop={8}><Text style={{color:C.muted,fontWeight:'600',fontSize:14}}>{footer.label}</Text></Pressable>:<View/>}
