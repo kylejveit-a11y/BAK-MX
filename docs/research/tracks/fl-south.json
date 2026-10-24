@@ -1,0 +1,278 @@
+[
+  {
+    "id": "motobros-punta-gorda-mx",
+    "name": "MotoBros - Punta Gorda MX",
+    "aliases": ["Punta Gorda MX", "MotoBros Punta Gorda", "PGMX"],
+    "state": "FL", "city": "Punta Gorda", "county": "Charlotte",
+    "address": "8655 Piper Rd, Punta Gorda, FL 33982",
+    "lat": 26.908901, "lng": -82.0000109,
+    "types": ["motocross", "supercross", "pit_bike"],
+    "access": "public",
+    "status": "open",
+    "website": "https://motobros.com/punta-gorda-mx/", "phone": "866-722-6686", "facebook": null, "instagram": null,
+    "tracks_on_site": ["main MX/SX-style track (lit for night riding)", "pit bike / 50 track"],
+    "soil": {"primary": "mixed", "secondary": "sand", "notes": "One directory calls the surface a blend of hard pack and sand. The site is the former 4-17 Southern Speedway oval property beside Punta Gorda Airport, converted to motocross by MotoBros in 2023; only one source describes the dirt, so treat as unconfirmed.", "confidence": "low"},
+    "layout": {"speed": "unknown", "jumps": "medium", "elevation_change": "flat", "traits": ["tabletops", "rhythm sections", "ruts"], "notes": "Operator describes the main track as a cross between supercross and motocross. Directories mention well-built tabletops, rhythm sections and ruts. Elevation is 'flat' only in the sense that the site is a former speedway on flat coastal land; jumps are man-made."},
+    "conditions": {"dry": "", "wet": "", "late_day": "", "watering_prep": "Directories say the crew waters and grooms between sessions to hold traction through the day.", "seasonal": "Night riding under lights on selected evenings; hosts the MotoBros Night Shift series and Florida Series rounds (e.g. round 12, Nov 2024). Heat and limited shade noted by visitors."},
+    "rider_reports": [
+      {"says": "Operator post in a Florida track thread: two tracks, main one lit for night riding and pitched as a supercross/motocross blend; a reply put the gate at about $50 per rider.", "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/MX-tracks-in-Florida,1336158?page=1", "source_type": "forum", "date": "2024-01"},
+      {"says": "A January 2026 reviewer raised safety concerns: flaggers using phones instead of radios and no medic or ambulance on site during their visit.", "source_url": "https://motobros-punta-gorda-mx.wheree.com/", "source_type": "review", "date": "2026-01"}
+    ],
+    "sources": [
+      {"url": "https://flmotocross.com/track/motobros-punta-gorda-mx", "title": "FL Motocross - MotoBros Punta Gorda MX", "accessed": "2026-10-24"},
+      {"url": "https://www.mxcircuit.es/en/tracks/motobros-punta-gorda-mx", "title": "MXCircuit - MotoBros Punta Gorda MX (coordinates from map link)", "accessed": "2026-10-24"},
+      {"url": "https://mxparks.com/motocross-tracks/florida/motobros-punta-gorda-mx", "title": "MX Parks - MotoBros Punta Gorda MX", "accessed": "2026-10-24"},
+      {"url": "https://braaply.com/trail-systems/2046", "title": "Braaply - MotoBros Punta Gorda MX", "accessed": "2026-10-24"},
+      {"url": "https://motobros.com/motobros-punta-gorda/", "title": "MotoBros - Punta Gorda project page and comments", "accessed": "2026-10-24"},
+      {"url": "https://en.wikipedia.org/wiki/4-17_Southern_Speedway", "title": "Wikipedia - 4-17 Southern Speedway", "accessed": "2026-10-24"},
+      {"url": "https://motobros.com/event/punta-gorda-mx-florida-series-round-12/", "title": "MotoBros - Florida Series Round 12 at Punta Gorda MX", "accessed": "2026-10-24"},
+      {"url": "https://www.vitalmx.com/forums/Moto-Related,20/MX-tracks-in-Florida,1336158?page=1", "title": "Vital MX - MX tracks in Florida", "accessed": "2026-10-24"}
+    ],
+    "confidence": "medium",
+    "gaps": ["No first-hand rider description of the dirt (sand vs. shell/hardpack) or how it holds up wet or late in the day", "Jump sizes and lap length not stated", "Official MotoBros page could not be fetched; hours conflict between sources"]
+  },
+  {
+    "id": "motobros-okeechobee-mx",
+    "name": "MotoBros - Okeechobee MX",
+    "aliases": ["Okeechobee MX", "Thundercross MX", "Thundercross Motosports Park", "Florida Cycle Park"],
+    "state": "FL", "city": "Okeechobee", "county": "Okeechobee",
+    "address": "7543 NE 48th St, Okeechobee, FL 34972",
+    "lat": 27.288678, "lng": -80.749686,
+    "types": ["motocross", "pit_bike"],
+    "access": "members",
+    "status": "open",
+    "website": "https://motobros.com/okeechobee-mx/", "phone": "863-204-1803", "facebook": "https://www.facebook.com/MotoBros.Okeechobee.Mx/", "instagram": null,
+    "tracks_on_site": ["MX track 1", "MX track 2 (the two main tracks alternate every 15 minutes)", "pee-wee / Stacyc loop", "pit bike / 50 track"],
+    "soil": {"primary": "sand", "secondary": "clay", "notes": "Several listings agree it is mainly sand with some clay mixed in, enough to hold a rut and groom up well; one rider-oriented blog calls it deep sand, and an older RiderPlanet entry calls it loamy with sand and clay plus a few hard-packed spots.", "confidence": "medium"},
+    "layout": {"speed": "fast", "jumps": "big", "elevation_change": "flat", "traits": ["ruts", "rollers", "step-ups", "tabletops", "scrub hill"], "notes": "Main track has a roller section, step-ups, tabletops and a built-up hill big enough to scrub off. Described as fast for advanced riders while still usable by beginners. About 22 acres of track area on flat ranch land."},
+    "conditions": {"dry": "Deep, loose sand expected when dry; rewards technique and momentum over horsepower.", "wet": "", "late_day": "Sand-clay mix reportedly holds ruts, so expect lines to deepen through the day.", "watering_prep": "Listings describe the tracks as regularly groomed.", "seasonal": "Practice Wednesday-Sunday; private rentals Monday-Tuesday; membership (day or annual) required on top of gate fee."},
+    "rider_reports": [
+      {"says": "Operator post: three tracks plus pro shop, beach and RV hookups; a reply called Okeechobee (and Bostwick) a must-ride.", "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/MX-tracks-in-Florida,1336158?page=1", "source_type": "forum", "date": "2024-01"},
+      {"says": "A Miami rider described Thundercross, about two hours north, as legit.", "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Motocross-in-Miami,1274782", "source_type": "forum", "date": "2014-08"},
+      {"says": "Southeast track roundup describes deep sand, big jumps and a remote ranch-country setting that rewards technique.", "source_url": "https://themxfactory.com/blogs/motocross-training-guide/best-motocross-tracks-in-the-southeast", "source_type": "article", "date": null}
+    ],
+    "sources": [
+      {"url": "https://flmotocross.com/track/motobros-okeechobee-mx", "title": "FL Motocross - MotoBros Okeechobee MX", "accessed": "2026-10-24"},
+      {"url": "https://mxparks.com/motocross-tracks/florida/moto-bros-okeechobee-mx-okeechobee", "title": "MX Parks - MotoBros Okeechobee MX (coordinates)", "accessed": "2026-10-24"},
+      {"url": "https://mx-tickets.com/en-US/t/motobros/info", "title": "MX Tickets - MotoBros Okeechobee MX info", "accessed": "2026-10-24"},
+      {"url": "https://braaply.com/trail-systems/950", "title": "Braaply - MotoBros Okeechobee", "accessed": "2026-10-24"},
+      {"url": "https://themxfactory.com/blogs/the-mx-factory-partnered-tracks/motobros-okeechobee", "title": "The MX Factory - MotoBros Okeechobee", "accessed": "2026-10-24"},
+      {"url": "https://www.riderplanet-usa.com/atv/trails/info/florida_03514/ride_46ae.htm", "title": "RiderPlanet USA - MotoBros Okeechobee", "accessed": "2026-10-24"},
+      {"url": "https://discover.pbcgov.org/parks/PDF/OHVFeasibilityReport.pdf", "title": "Palm Beach County OHV Park Feasibility Report (2021) - lists Thundercross as operating", "accessed": "2026-10-24"}
+    ],
+    "confidence": "medium",
+    "gaps": ["Sits near the northern edge of this region (just north of Okeechobee city); may duplicate a Central Florida record", "No dated rider report on wet-weather behavior or watering", "Track count varies by source (2 main + minis vs 3)"]
+  },
+  {
+    "id": "miami-mx-park",
+    "name": "Miami Motocross Park",
+    "aliases": ["Miami MX", "Miami MX Park", "MiamiMX", "Milton E. Thompson Park"],
+    "state": "FL", "city": "Hialeah", "county": "Miami-Dade",
+    "address": "16665 NW Krome Ave, Hialeah, FL 33018",
+    "lat": 25.926435, "lng": -80.447991,
+    "types": ["motocross", "training"],
+    "access": "public",
+    "status": "open",
+    "website": "https://www.miamimxpark.com", "phone": "786-975-4024", "facebook": null, "instagram": null,
+    "tracks_on_site": ["main track (about half a mile, lit, starting gate)", "intermediate loop", "pee-wee / 50cc track"],
+    "soil": {"primary": "hardpack", "secondary": "sand", "notes": "Built in a former mining pit on the edge of the Everglades off Krome Ave. A 2022 magazine piece says the owner waters and dozes the lanes to keep a firm, hard-packed surface; RiderPlanet instead lists mostly loose dirt with some sand. Likely crushed limerock/fill typical of Dade pits, but no source names limerock, so unconfirmed.", "confidence": "low"},
+    "layout": {"speed": "unknown", "jumps": "medium", "elevation_change": "flat", "traits": ["berms", "man-made hills"], "notes": "Main track is roughly half a mile with many berms, plus small and larger jumps and built-up hills. Only motocross track in Miami-Dade; the only one in the Miami/Fort Lauderdale metro since Air Dania closed."},
+    "conditions": {"dry": "Watered to stay hard and firm; little shade on track.", "wet": "Reported to open rain or shine.", "late_day": "", "watering_prep": "Owner waters and grooms with a dozer; listings say main and pee-wee tracks are groomed and watered.", "seasonal": "Open Wednesday afternoons and weekends. Hosts I4MX series rounds. Located inside a county park; the county threatened closure around 2020 (petition with ~7,700 signatures) but it remains open."},
+    "rider_reports": [
+      {"says": "A local rider said he has ridden it many times and likes it while some friends do not; suggested checking videos first. Notes it is far west, essentially in the Everglades.", "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Motocross-in-Miami,1274782", "source_type": "forum", "date": "2014-08"},
+      {"says": "Magazine visit describes hard-packed hills and turns kept firm by constant watering and dozing; caters to all levels, rents bikes.", "source_url": "https://www.miamilivingmagazine.com/post/miami-motocross-park-get-down-in-the-dirt", "source_type": "article", "date": "2022-06"},
+      {"says": "Two user ratings average 4.8, with terrain and watering scored 4.5 of 5 and jumps 5 of 5.", "source_url": "https://www.mxcircuit.es/en/tracks/miami-mx", "source_type": "review", "date": null}
+    ],
+    "sources": [
+      {"url": "https://www.mxcircuit.es/en/tracks/miami-mx", "title": "MXCircuit - Miami MX (coordinates from map link)", "accessed": "2026-10-24"},
+      {"url": "https://mxparks.com/motocross-tracks/florida/miami-motocross-park-hialeah", "title": "MX Parks - Miami Motocross Park", "accessed": "2026-10-24"},
+      {"url": "https://www.riderplanet-usa.com/atv/trails/info/florida_13895/ride_780a.htm", "title": "RiderPlanet USA - Miami Motocross Park", "accessed": "2026-10-24"},
+      {"url": "https://www.miamilivingmagazine.com/amp/miami-motocross-park-get-down-in-the-dirt", "title": "Miami Living Magazine - Miami Motocross Park (June 2022)", "accessed": "2026-10-24"},
+      {"url": "https://caplinnews.fiu.edu/riders-community-i4mx-motocross-competition-race-canada/", "title": "Caplin News (FIU) - I4MX round at Miami MX Park", "accessed": "2026-10-24"},
+      {"url": "https://www.change.org/p/miami-dade-county-save-miamimx-park-from-closing", "title": "Change.org - Save MiamiMX Park (2020)", "accessed": "2026-10-24"},
+      {"url": "https://braaply.com/trail-systems/902", "title": "Braaply - Miami Motocross Park", "accessed": "2026-10-24"},
+      {"url": "https://flmotocross.com/track/miami-mx-park", "title": "FL Motocross - Miami MX Park", "accessed": "2026-10-24"}
+    ],
+    "confidence": "medium",
+    "gaps": ["Soil sources conflict (hard-pack vs loose dirt/sand); limerock not confirmed", "No rider description of ruts, bumps or wet-weather behavior", "Official site could not be fetched; hours and gate fee differ between directories", "Long-term county lease status after 2020 not confirmed"]
+  },
+  {
+    "id": "74mx-at-the-rkc",
+    "name": "74MX at the RKC",
+    "aliases": ["74MX", "74MX and Offroad", "74 Family Fun Park"],
+    "state": "FL", "city": "Punta Gorda", "county": "Charlotte",
+    "address": "44800 Bermont Rd, Punta Gorda, FL 33982",
+    "lat": null, "lng": null,
+    "types": ["motocross", "supercross", "offroad"],
+    "access": "public",
+    "status": "open",
+    "website": "https://74famfunpark.wixsite.com/74mxoffroad", "phone": "239-284-3687", "facebook": "https://www.facebook.com/p/74MX-at-the-RKC-61551684457547/", "instagram": null,
+    "tracks_on_site": ["main MX track", "beginner/kids track", "pee-wee track", "sand turn track", "woods trails"],
+    "soil": {"primary": "sand", "secondary": null, "notes": "A rider-oriented roundup calls it classic southwest Florida sugar sand; directories mention sandy sections and a dedicated sand-turn practice track. Older RiderPlanet data lists some loose dirt and some sand.", "confidence": "medium"},
+    "layout": {"speed": "unknown", "jumps": "medium", "elevation_change": "flat", "traits": ["berms", "SX-style sections"], "notes": "Described as a legit SX/MX-style layout. Review summaries mention some awkward jump faces/landings and riders wanting bigger jumps on the main track. Mainly suited to beginner and intermediate riders."},
+    "conditions": {"dry": "Sugar sand; expect loose, deep sections when dry.", "wet": "", "late_day": "", "watering_prep": "Reported to be groomed several times a day, notably around midday, and regularly watered.", "seasonal": "Open Friday-Sunday. Check Facebook for weather calls. Quads share the property and can chew up bike lines."},
+    "rider_reports": [
+      {"says": "One rider said not to bother with 74 because it had turned into a quad-focused track; another remembered it as a great track in the past.", "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/MX-tracks-in-Florida,1336158?page=1", "source_type": "forum", "date": "2024-01"},
+      {"says": "Southeast track roundup: classic SW Florida sugar sand, well maintained, a legit SX/MX layout that challenges experienced riders.", "source_url": "https://themxfactory.com/blogs/motocross-training-guide/best-motocross-tracks-in-the-southeast", "source_type": "article", "date": null},
+      {"says": "Aggregated review summary: good watered soil, multiple tracks for each skill level, some awkward jumps, owners take pride in grooming; complaints about entry price and GPS leading onto back roads.", "source_url": "https://74mx-at-the-rkc.wheree.com/", "source_type": "review", "date": null}
+    ],
+    "sources": [
+      {"url": "https://mxparks.com/motocross-tracks/florida/74mx-at-the-rkc-punta-gorda", "title": "MX Parks - 74MX at the RKC", "accessed": "2026-10-24"},
+      {"url": "https://riderplanet-usa.com/atv/trails/info/florida_16381/ride_3f6c.htm", "title": "RiderPlanet USA - 74MX and Offroad (listed closed; superseded)", "accessed": "2026-10-24"},
+      {"url": "https://www.tripadvisor.com/Attraction_Review-g34583-d15970686-Reviews-74MX_and_Offroad-Punta_Gorda_Florida.html", "title": "Tripadvisor - 74MX and Offroad", "accessed": "2026-10-24"},
+      {"url": "https://themotoacademy.com/products/november-2nd-2026-74mx-punta-gorda-fl", "title": "The Moto Academy - Nov 2026 training day at 74MX", "accessed": "2026-10-24"},
+      {"url": "https://74mx-at-the-rkc.wheree.com/", "title": "Wheree - 74MX at the RKC", "accessed": "2026-10-24"},
+      {"url": "https://themxfactory.com/blogs/motocross-training-guide/best-motocross-tracks-in-the-southeast", "title": "The MX Factory - Best motocross tracks in the Southeast", "accessed": "2026-10-24"}
+    ],
+    "confidence": "medium",
+    "gaps": ["Coordinates withheld: MX Parks gives 26.9640625,-81.7201875 but uses nearly the same point for Florida Tracks & Trails at a different Bermont Rd address, and Wheree gives ~26.9639,-81.7155; needs confirmation", "RiderPlanet still lists it closed; appears reopened as '74MX at the RKC' (2026 events), meaning of RKC unknown", "No rider detail on ruts, whoops or wet behavior"]
+  },
+  {
+    "id": "florida-tracks-and-trails",
+    "name": "Florida Tracks & Trails",
+    "aliases": ["FTT", "Sandlot Off-Road Adventure Park", "Florida Tracks and Trails"],
+    "state": "FL", "city": "Punta Gorda", "county": "Charlotte",
+    "address": "39450 Bermont Rd, Punta Gorda, FL 33982",
+    "lat": null, "lng": null,
+    "types": ["motocross", "offroad"],
+    "access": "public",
+    "status": "closed",
+    "website": null, "phone": null, "facebook": null, "instagram": null,
+    "tracks_on_site": ["four Dream Traxx-built MX tracks (pee-wee, beginner, main lit track, hybrid/amateur)", "UTV track", "about 30 miles of one-way trails", "mud bog"],
+    "soil": {"primary": "sand", "secondary": "clay", "notes": "Sources disagree: RiderPlanet says the MX tracks were clay and loam over a mostly hard-pack property, while a 2018 rider called it a sand track and another mentioned shell being thrown by side-by-sides. Trails were muddy sand when wet.", "confidence": "low"},
+    "layout": {"speed": "unknown", "jumps": "big", "elevation_change": "flat", "traits": ["berms"], "notes": "Many small and large jumps and many berms per RiderPlanet; professionally designed tracks."},
+    "conditions": {"dry": "", "wet": "A 2015 visitor found the trails very wet and muddy, with deep muddy sand.", "late_day": "A 2018 rider said prep held up well all day.", "watering_prep": "Main track was watered and groomed.", "seasonal": "Closed; kept for the record. Riders should use MotoBros Punta Gorda (Piper Rd) or 74MX instead."},
+    "rider_reports": [
+      {"says": "Riders said track quality had improved a lot, prep was great and held all day, and the sand track was a blast; one complained about quads and side-by-sides speeding and throwing shell near kids' areas.", "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/MX-tracks-in-Florida,1336158?page=1", "source_type": "forum", "date": "2018-07"},
+      {"says": "Visitor riding the trail loop on an ATV found it soaked and muddy, getting stuck several times in muddy sand.", "source_url": "https://solotravelgirl.com/a-muddy-thrill-at-florida-tracks-trails-in-punta-gorda", "source_type": "article", "date": "2015-09"}
+    ],
+    "sources": [
+      {"url": "https://www.riderplanet-usa.com/atv/trails/info/florida_14822/ride_5fee.htm", "title": "RiderPlanet USA - Sandlot Off-Road Adventure Park (formerly Florida Tracks and Trails), closed", "accessed": "2026-10-24"},
+      {"url": "https://mxparks.com/motocross-tracks/florida/florida-tracks-trails-punta-gorda", "title": "MX Parks - Florida Tracks & Trails (closed)", "accessed": "2026-10-24"},
+      {"url": "https://mxtrackguide.com/motocross-tracks-florida", "title": "MX Track Guide - Florida", "accessed": "2026-10-24"},
+      {"url": "https://flmotocross.com/region/south-florida", "title": "FL Motocross - South Florida (notes FTT closed)", "accessed": "2026-10-24"},
+      {"url": "https://solotravelgirl.com/a-muddy-thrill-at-florida-tracks-trails-in-punta-gorda", "title": "Solo Travel Girl - Florida Tracks & Trails (2015)", "accessed": "2026-10-24"}
+    ],
+    "confidence": "medium",
+    "gaps": ["Closure date and reason unknown", "Coordinates withheld: MX Parks point matches 74MX's point almost exactly despite a different address", "Soil sources conflict"]
+  },
+  {
+    "id": "l-cross-extreme-events",
+    "name": "L-Cross Extreme Events",
+    "aliases": ["L-Cross", "Lake Okeechobee"],
+    "state": "FL", "city": "Okeechobee", "county": "Okeechobee",
+    "address": "26532 E State Road 78, Okeechobee, FL 34974",
+    "lat": null, "lng": null,
+    "types": ["offroad", "motocross"],
+    "access": "public",
+    "status": "closed",
+    "website": null, "phone": null, "facebook": null, "instagram": null,
+    "tracks_on_site": ["one MX track", "about 35 miles of ranch trails"],
+    "soil": {"primary": null, "secondary": null, "notes": "Not stated; property was swampy cattle-ranch land at 10-20 ft elevation.", "confidence": "low"},
+    "layout": {"speed": "unknown", "jumps": "unknown", "elevation_change": "flat", "traits": [], "notes": "Mainly a trail-riding ranch with a single MX track."},
+    "conditions": {"dry": "", "wet": "", "late_day": "", "watering_prep": "", "seasonal": "Closed; photos on its listing date to 2015."},
+    "rider_reports": [],
+    "sources": [
+      {"url": "https://www.riderplanet-usa.com/atv/trails/info/florida_13899/ride_bfb3.htm", "title": "RiderPlanet USA - L-Cross Extreme Events (closed)", "accessed": "2026-10-24"}
+    ],
+    "confidence": "low",
+    "gaps": ["Single source; closure date unknown", "No soil or track description", "No coordinates"]
+  },
+  {
+    "id": "seminole-tribe-motocross",
+    "name": "Seminole Tribe Motocross",
+    "aliases": ["Seminole Motocross Park", "Big Cypress Motocross"],
+    "state": "FL", "city": "Clewiston", "county": "Hendry",
+    "address": null,
+    "lat": null, "lng": null,
+    "types": ["motocross", "supercross", "offroad"],
+    "access": "public",
+    "status": "closed",
+    "website": null, "phone": null, "facebook": null, "instagram": null,
+    "tracks_on_site": ["main track (planned ~1.5 mi, lit)", "SX track", "pee-wee / 50cc track", "ATV sand drag strip", "about 3-6 miles of trail"],
+    "soil": {"primary": null, "secondary": null, "notes": "Not described. The tribe's 2003 article mentions a sand drag strip but nothing about the track dirt.", "confidence": "low"},
+    "layout": {"speed": "fast", "jumps": "unknown", "elevation_change": "flat", "traits": [], "notes": "Designed by the same builder as Pepsi Air Dania; billed in 2003 as a fast, varied 1.5-mile lit outdoor track on 85 acres of the Big Cypress Reservation, off Boundary Rd north of I-75."},
+    "conditions": {"dry": "", "wet": "", "late_day": "", "watering_prep": "Listed as watered and groomed.", "seasonal": "Opened in stages 2003-2004; RiderPlanet now lists it destroyed/redeveloped."},
+    "rider_reports": [],
+    "sources": [
+      {"url": "https://www.riderplanet-usa.com/atv/trails/info/florida_11859/ride_cbc9.htm", "title": "RiderPlanet USA - Seminole Tribe Motocross (destroyed)", "accessed": "2026-10-24"},
+      {"url": "https://seminoletribune.org/wp-content/uploads/2019/10/Seminole-Tribune-October-17-2003.pdf", "title": "Seminole Tribune, Oct 17 2003 - Big Cypress motocross track", "accessed": "2026-10-24"},
+      {"url": "https://indianz.com/News/2004/000804.asp", "title": "Indianz.com (Mar 2004) - Seminole Tribe Motocross", "accessed": "2026-10-24"}
+    ],
+    "confidence": "low",
+    "gaps": ["Closure date unknown", "No rider reports", "No address or coordinates", "Soil never described"]
+  },
+  {
+    "id": "moroso-pbir-mx",
+    "name": "Moroso Motorsports Park MX track",
+    "aliases": ["Moroso", "Palm Beach International Raceway MX", "PBIR"],
+    "state": "FL", "city": "Jupiter", "county": "Palm Beach",
+    "address": "17047 Beeline Hwy, Jupiter, FL 33478",
+    "lat": 26.9220944, "lng": -80.3055722,
+    "types": ["motocross"],
+    "access": "public",
+    "status": "closed",
+    "website": null, "phone": null, "facebook": null, "instagram": null,
+    "tracks_on_site": ["MX track (gone)", "pee-wee track (gone)"],
+    "soil": {"primary": null, "secondary": null, "notes": "Not described.", "confidence": "low"},
+    "layout": {"speed": "unknown", "jumps": "unknown", "elevation_change": "flat", "traits": [], "notes": ""},
+    "conditions": {"dry": "", "wet": "", "late_day": "", "watering_prep": "", "seasonal": "MX track was removed long before the whole raceway closed on 23 April 2022. Coordinates are for the raceway property, not the old MX track."},
+    "rider_reports": [],
+    "sources": [
+      {"url": "https://riderplanet-usa.com/atv/trails/info/florida_13900/ride_80bf.htm", "title": "RiderPlanet USA - Moroso Motorsports Park (destroyed)", "accessed": "2026-10-24"},
+      {"url": "https://en.wikipedia.org/wiki/Palm_Beach_International_Raceway", "title": "Wikipedia - Palm Beach International Raceway (coordinates, 2022 closure)", "accessed": "2026-10-24"},
+      {"url": "https://mxtrackguide.com/motocross-tracks-florida", "title": "MX Track Guide - Florida", "accessed": "2026-10-24"}
+    ],
+    "confidence": "low",
+    "gaps": ["Years the MX track ran unknown", "No dirt, layout or rider information", "Address differs between sources (133 / 7133 / 17047 Beeline Hwy)"]
+  },
+  {
+    "id": "pepsi-air-dania-mx",
+    "name": "Pepsi Air Dania MX Park",
+    "aliases": ["Air Dania"],
+    "state": "FL", "city": "Dania Beach", "county": "Broward",
+    "address": null,
+    "lat": null, "lng": null,
+    "types": ["motocross"],
+    "access": "public",
+    "status": "closed",
+    "website": null, "phone": null, "facebook": "https://www.facebook.com/PepsiAirDaniaMxPark/", "instagram": null,
+    "tracks_on_site": [],
+    "soil": {"primary": null, "secondary": null, "notes": "Not described.", "confidence": "low"},
+    "layout": {"speed": "unknown", "jumps": "unknown", "elevation_change": "flat", "traits": [], "notes": "Track designer later built the Seminole Tribe track at Big Cypress."},
+    "conditions": {"dry": "", "wet": "", "late_day": "", "watering_prep": "", "seasonal": "Closed several years before 2014; was Fort Lauderdale's last track."},
+    "rider_reports": [
+      {"says": "A rider noted Fort Lauderdale had not had a track since Air Dania closed several years earlier.", "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Motocross-in-Miami,1274782", "source_type": "forum", "date": "2014-08"}
+    ],
+    "sources": [
+      {"url": "https://www.vitalmx.com/forums/Moto-Related,20/Motocross-in-Miami,1274782", "title": "Vital MX - Motocross in Miami (2014)", "accessed": "2026-10-24"},
+      {"url": "https://seminoletribune.org/wp-content/uploads/2019/10/Seminole-Tribune-October-17-2003.pdf", "title": "Seminole Tribune, Oct 17 2003 - mentions Pepsi Air Dania designer", "accessed": "2026-10-24"}
+    ],
+    "confidence": "low",
+    "gaps": ["Exact location, years of operation and closure date unknown", "No track description", "Facebook page could not be read"]
+  },
+  {
+    "id": "lazy-springs-recreation-park",
+    "name": "Lazy Springs Recreation Park",
+    "aliases": ["Lazy Springs"],
+    "state": "FL", "city": "Felda", "county": null,
+    "address": "9591 State Road 82, Felda, FL 33930",
+    "lat": null, "lng": null,
+    "types": ["offroad", "motocross"],
+    "access": "public",
+    "status": "open",
+    "website": "http://lazyspringsfl.com", "phone": "239-206-9119", "facebook": null, "instagram": null,
+    "tracks_on_site": ["motocross track", "OHV trails on ~375 acres", "mud pits"],
+    "soil": {"primary": "sand", "secondary": "hardpack", "notes": "RiderPlanet lists mostly sand with some hard pack and mud after rain.", "confidence": "low"},
+    "layout": {"speed": "unknown", "jumps": "unknown", "elevation_change": "rolling", "traits": ["berms"], "notes": "Mainly a 4x4/ATV/UTV park; MX track details are thin. Listing claims many small jumps, some large, many berms and a few steep hills."},
+    "conditions": {"dry": "", "wet": "Mud after rain.", "late_day": "", "watering_prep": "", "seasonal": "Weekends (Friday evening through Sunday); MX helmet required, no night riding."},
+    "rider_reports": [],
+    "sources": [
+      {"url": "https://www.riderplanet-usa.com/atv/trails/info/florida_14972/ride_0efe.htm", "title": "RiderPlanet USA - Lazy Springs Recreation Park", "accessed": "2026-10-24"},
+      {"url": "https://offroadingpro.com/atv-riding-in-miami/", "title": "Offroading Pro - ATV riding in Miami (mentions Lazy Springs MX trails)", "accessed": "2026-10-24"},
+      {"url": "https://bronco6g.com/forum/threads/off-roading-in-south-florida.61268/post-1712236", "title": "Bronco6G forum - Off-roading in South Florida (2022-23, park active)", "accessed": "2026-10-24"}
+    ],
+    "confidence": "low",
+    "gaps": ["Unclear whether the MX track is still maintained for dirt bikes", "County (Lee vs Hendry) not confirmed", "No dirt-bike rider reports", "No coordinates"]
+  }
+]
