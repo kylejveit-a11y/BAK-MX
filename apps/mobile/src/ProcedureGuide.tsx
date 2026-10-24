@@ -74,7 +74,7 @@ function AboutGuide({procedure,open}:{procedure:ReviewedProcedure;open:boolean})
   {!!procedure.exit_state?.length&&<Copy>Finishes with: {procedure.exit_state.join(' ')}</Copy>}
   {procedure.required_tools.length>0&&<><Copy strong>Tools</Copy>{procedure.required_tools.map((tool,i)=><Copy key={i}>• {tool.name}{tool.size?` · ${tool.size}`:''}</Copy>)}</>}
   {procedure.excluded.length>0&&<Copy>Not covered: {procedure.excluded.join('; ')}.</Copy>}
-  {procedure.critical_stop_conditions.length>0&&<Copy>Stop if: {procedure.critical_stop_conditions.join(' ')}</Copy>}
+  {procedure.critical_stop_conditions.length>0&&<><Copy strong>Stop if</Copy>{procedure.critical_stop_conditions.map((c,i)=><Copy key={i}>• {c}</Copy>)}</>}
   {procedure.supplemental_sources?.map((source,i)=><LinkAction key={i} title={'Open '+source.attribution} onPress={()=>void Linking.openURL(source.url).catch(()=>setError('The source could not open. Try again when connected.'))}/>)}
   {/^https?:\/\//.test(procedure.source.source_url)&&<LinkAction title="Open the source document" onPress={()=>void Linking.openURL(procedure.source.source_url).catch(()=>setError('The source could not open. Try again when connected.'))}/>}
   <Copy>Your checks and measurements save on this phone for this bike.</Copy>

@@ -23,6 +23,8 @@ export function Page({title,children,safeTop=false,footer,scrollRef}:{title:stri
    contentContainerStyle={[s.page,{paddingTop:(safeTop?insets.top:header)+16,paddingBottom:(footer?footH+footBottom:bottomChrome)+28}]}>
    {title?<PageTitle>{title}</PageTitle>:null}{children}
   </ScrollView>
+  {/* pages without a header: cover the status bar so text never scrolls up under the clock */}
+  {safeTop?<View pointerEvents="none" style={{position:'absolute',left:0,right:0,top:0,height:insets.top,backgroundColor:colors.bg,opacity:0.96}}/>:null}
   {footer?<View onLayout={e=>setFootH(e.nativeEvent.layout.height)} pointerEvents="box-none" style={{position:'absolute',left:12,right:12,bottom:footBottom}}><Glass strong style={{borderRadius:26}}>{footer}</Glass></View>:null}
  </View>;
 }

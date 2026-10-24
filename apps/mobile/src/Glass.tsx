@@ -55,7 +55,13 @@ export function FloatingTabBar({state,navigation}:BottomTabBarProps){
 }
 
 /** Glass header background with a fine bottom edge. */
-export function GlassHeader(){return <Glass strong style={[StyleSheet.absoluteFill,{borderWidth:0,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'rgba(255,255,255,0.08)'}]}/>;}
+/** The top bar. Clear glass let big page titles show through it as you scrolled, so a title looked like it appeared twice and
+ *  you couldn't tell where the page began. The bar is a dark, nearly solid frost: a hint of what's under it, never readable. */
+export function GlassHeader(){
+ const line={borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'rgba(255,255,255,0.10)'};
+ if(Platform.OS==='ios')return <BlurView intensity={80} tint="systemChromeMaterialDark" style={[StyleSheet.absoluteFill,{overflow:'hidden'},line]}><View style={[StyleSheet.absoluteFill,{backgroundColor:'rgba(6,7,9,0.86)'}]}/></BlurView>;
+ return <View style={[StyleSheet.absoluteFill,{backgroundColor:'rgba(6,7,9,0.96)'},line]}/>;
+}
 
 /** Header text button (Account). The icon prop is kept for callers but the label is what shows. */
 export function HeaderButton({label,onPress}:{label:string;icon?:IconName;onPress:()=>void}){

@@ -2,16 +2,20 @@
 // falls off softly from the top, a broad satin sheen across the brushing, a hairline lit edge, a slightly darker lower edge,
 // and a soft shadow that spreads underneath. Used where one thing should feel like a real object (the bike check before sign-up).
 import React from 'react';
-import {Image,StyleSheet,View,type StyleProp,type ViewStyle} from 'react-native';
+import {Image,StyleSheet,View,type LayoutChangeEvent,type StyleProp,type ViewStyle} from 'react-native';
 import Svg,{Defs,LinearGradient,RadialGradient,Rect,Stop} from 'react-native-svg';
 
 export function MetalPanel({children,style,radius=16}:{children:React.ReactNode;style?:StyleProp<ViewStyle>;radius?:number}){
  const id=React.useId().replace(/[^a-zA-Z0-9]/g,'');
- return <View style={[{borderRadius:radius,shadowColor:'#000',shadowOpacity:0.55,shadowRadius:28,shadowOffset:{width:0,height:18},elevation:10},style]}>
+ // The plate grows when its content does (a bike is picked, the support details appear). SVG sized in percent keeps the
+ // size it first measured on iOS, so the finish stopped partway down the card. Measure and size it in points instead.
+ const [box,setBox]=React.useState({w:0,h:0});
+ const onLayout=(e:LayoutChangeEvent)=>{const {width:w,height:h}=e.nativeEvent.layout;setBox(b=>b.w===w&&b.h===h?b:{w,h});};
+ return <View onLayout={onLayout} style={[{borderRadius:radius,shadowColor:'#000',shadowOpacity:0.55,shadowRadius:28,shadowOffset:{width:0,height:18},elevation:10},style]}>
   {/* contact shadow: a tighter, darker shadow right under the plate */}
   <View pointerEvents="none" style={{position:'absolute',left:6,right:6,top:6,bottom:-2,borderRadius:radius,shadowColor:'#000',shadowOpacity:0.6,shadowRadius:6,shadowOffset:{width:0,height:4},backgroundColor:'#0b0c0f'}}/>
-  <View pointerEvents="none" style={[StyleSheet.absoluteFill,{borderRadius:radius,overflow:'hidden'}]}>
-   <Svg width="100%" height="100%" style={StyleSheet.absoluteFill}>
+  <View pointerEvents="none" style={[StyleSheet.absoluteFill,{borderRadius:radius,overflow:'hidden',backgroundColor:'#2b2e34'}]}>
+   {box.w>0&&<Svg key={`${box.w}x${box.h}`} width={box.w} height={box.h} style={StyleSheet.absoluteFill}>
     <Defs>
      <LinearGradient id={'b'+id} x1="0" y1="0" x2="0" y2="1"><Stop offset="0" stopColor="#3a3e45"/><Stop offset="0.45" stopColor="#2b2e34"/><Stop offset="1" stopColor="#1f2226"/></LinearGradient>
      {/* satin sheen: brushed metal throws a broad soft band across the grain, not a sharp highlight */}
@@ -20,9 +24,9 @@ export function MetalPanel({children,style,radius=16}:{children:React.ReactNode;
     </Defs>
     <Rect x="0" y="0" width="100%" height="100%" fill={`url(#b${id})`}/>
     <Rect x="0" y="0" width="100%" height="100%" fill={`url(#s${id})`}/>
-   </Svg>
+   </Svg>}
    <Image source={require('../assets/metal-grain.png')} resizeMode="repeat" style={[StyleSheet.absoluteFill,{opacity:0.16,width:'100%',height:'100%'}]} accessibilityIgnoresInvertColors/>
-   <Svg width="100%" height="100%" style={StyleSheet.absoluteFill}><Rect x="0" y="0" width="100%" height="100%" fill={`url(#v${id})`}/></Svg>
+   {box.w>0&&<Svg key={`v${box.w}x${box.h}`} width={box.w} height={box.h} style={StyleSheet.absoluteFill}><Rect x="0" y="0" width="100%" height="100%" fill={`url(#v${id})`}/></Svg>}
    {/* hairline machined edge: lit along the top, falling to shadow at the bottom */}
    <View style={[StyleSheet.absoluteFill,{borderRadius:radius,borderWidth:StyleSheet.hairlineWidth,borderTopColor:'rgba(255,255,255,0.32)',borderLeftColor:'rgba(255,255,255,0.12)',borderRightColor:'rgba(255,255,255,0.06)',borderBottomColor:'rgba(0,0,0,0.6)'}]}/>
    <View style={{position:'absolute',left:radius,right:radius,top:0,height:1,backgroundColor:'rgba(255,255,255,0.10)'}}/>
