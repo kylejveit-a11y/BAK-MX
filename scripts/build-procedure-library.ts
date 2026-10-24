@@ -338,5 +338,6 @@ const rows=files.map(({file,component,sourceManifest})=>{
 if(new Set(rows.map(p=>p.id)).size!==rows.length)throw Error('Duplicate reviewed procedure IDs');
 // Repair only known legacy encoding damage for display; frozen artifacts and run hashes stay unchanged.
 const display=JSON.stringify(rows,null,2).replaceAll('\u00c2\u00b7','\u00b7').replaceAll('\u00e2\u20ac\u201c','\u2013').replaceAll('\u00e2\u20ac\u201d','\u2014');
-writeFileSync('shared/procedure-library.ts',`// Generated only from explicitly reviewed, hash-verified procedure artifacts.\nexport const procedureLibrary = ${display};\n`);
+// One JSON string, not a literal: type checkers see a string instead of megabytes of nested arrays (hosted builds timed out).
+writeFileSync('shared/procedure-library.ts',`// Generated only from explicitly reviewed, hash-verified procedure artifacts.\n// Stored as one JSON string so type checkers see a string, not megabytes of nested literals (hosted builds timed out).\nimport type {ReviewedProcedure} from './procedures.ts';\nexport const procedureLibrary:ReviewedProcedure[]=JSON.parse(${JSON.stringify(JSON.stringify(JSON.parse(display)))});\n`);
 console.log(JSON.stringify({reviewedProcedures:rows.length}));

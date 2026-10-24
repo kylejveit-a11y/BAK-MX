@@ -1,7 +1,8 @@
 // BAK-written guides are stored once per written guide with the exact bike-years it was checked for (scripts/build-bak-guides.ts).
 // This rebuilds one ReviewedProcedure per bike-year; the step objects are shared between years, so the app stays light.
 import type {ReviewedProcedure} from './procedures.ts';
-type Group={p:any;x:[string,string,string,number,string,string,string][]};
+export type BakGuideGroup={p:any;x:[string,string,string,number,string,string,string][]};
+type Group=BakGuideGroup;
 export function expandBakGuides(groups:Group[]):ReviewedProcedure[]{
  const out:ReviewedProcedure[]=[];
  for(const g of groups){
