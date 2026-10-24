@@ -4,7 +4,9 @@
 import {api} from '../api';
 import type {Bike,ServiceEvent} from '../../../../shared/types';
 import type {SetupLog} from '../../../../shared/rider-types';
-import {after} from 'expo-widgets';
+import {after,widgetsDirectory} from 'expo-widgets';
+import {Asset} from 'expo-asset';
+import {File} from 'expo-file-system';
 import {makeBikeWidget} from './BikeWidget';
 import {makeGuideActivity} from './GuideActivity';
 import {bikeWidgetProps,emptyBikeWidget,guideActivityProps,type GuideStepInfo} from '../widgetData';
@@ -18,14 +20,27 @@ function load():Mods|null{
  return mods;
 }
 
+// The widget can't read the app's bundled images, so the logo is copied once into the shared App Group folder.
+const LOGO_FILE='bak-mx-logo-v1.png';
+let logoUri:string|null=null;
+async function widgetLogo():Promise<string>{
+ if(logoUri!==null)return logoUri;
+ try{
+  if(!widgetsDirectory)return '';
+  const dest=new File(widgetsDirectory,LOGO_FILE);
+  if(!dest.exists){const asset=Asset.fromModule(require('../../assets/bak-mx-wordmark.png'));await asset.downloadAsync();if(!asset.localUri)return '';new File(asset.localUri).copy(dest);}
+  logoUri=dest.uri;return logoUri;
+ }catch{return '';}
+}
+
 let lastKey='';
 /** Refreshes the widget for this bike (or clears it when there is none). */
 export async function syncBikeWidget(bike:Bike|undefined){
  if(!ios)return;const m=load();if(!m)return;
  try{
-  if(!bike){if(lastKey!=='none'){m.bikeWidget.updateSnapshot(emptyBikeWidget);lastKey='none';}return;}
+  if(!bike){if(lastKey!=='none'){m.bikeWidget.updateSnapshot({...emptyBikeWidget,logo:await widgetLogo()});lastKey='none';}return;}
   const [services,logs]=await Promise.all([api<ServiceEvent[]>(`/api/services?bike_id=${bike.id}`).catch(()=>[] as ServiceEvent[]),api<SetupLog[]>(`/api/setup-logs?bike_id=${bike.id}`).catch(()=>[] as SetupLog[])]);
-  const props=bikeWidgetProps(bike,services,logs),key=JSON.stringify(props);
+  const props={...bikeWidgetProps(bike,services,logs),logo:await widgetLogo()},key=JSON.stringify(props);
   if(key!==lastKey){m.bikeWidget.updateSnapshot(props);lastKey=key;}
  }catch{}
 }

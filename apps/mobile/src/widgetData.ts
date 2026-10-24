@@ -5,18 +5,21 @@ import type {SetupLog} from '../../../shared/rider-types';
 const clip=(s:string,n:number)=>{const t=s.replace(/\s+/g,' ').trim();return t.length>n?t.slice(0,n-1).trimEnd()+'…':t;};
 const fmtHours=(h:number)=>Number.isInteger(h)?String(h):h.toFixed(1);
 
-export const emptyBikeWidget={ready:false,bike:'',hours:'',next:'',nextUrgent:false,change:'',changeWhen:''};
+export const emptyBikeWidget={ready:false,logo:'',bike:'',hours:'',hoursSet:false,next:'',nextSet:false,nextUrgent:false,nextProgress:-1,change:'',changeSet:false,changeWhen:''};
 
 export function bikeWidgetProps(bike:Bike|undefined,services:ServiceEvent[],logs:SetupLog[],now=new Date()){
  if(!bike)return emptyBikeWidget;
  const name=clip(`${bike.model_year} ${bike.manufacturer} ${bike.model}`,40),h=bike.engine_hours;
  const due=services.filter(e=>e.next_due_hours!==null).map(e=>({e,left:h==null?null:(e.next_due_hours as number)-h})).sort((a,b)=>(a.left??1e9)-(b.left??1e9))[0];
- const next=!due?'No service scheduled':due.left===null?`${clip(due.e.category,22)} at ${fmtHours(due.e.next_due_hours as number)} h`:due.left<=0?`${clip(due.e.category,22)} due now`:`${clip(due.e.category,22)} in ${fmtHours(Math.round(due.left*10)/10)} h`;
+ const next=!due?'':due.left===null?`${clip(due.e.category,22)} at ${fmtHours(due.e.next_due_hours as number)} h`:due.left<=0?`${clip(due.e.category,22)} due now`:`${clip(due.e.category,22)} in ${fmtHours(Math.round(due.left*10)/10)} h`;
  const last=[...logs].sort((a,b)=>Date.parse(b.recorded_at)-Date.parse(a.recorded_at))[0];
  const days=last?Math.floor((now.getTime()-Date.parse(last.recorded_at))/86400000):0;
- return {ready:true,bike:name,hours:h==null?'Hours not set':`${fmtHours(h)} h`,next,nextUrgent:!!due&&due.left!==null&&due.left<=0,
-  change:last?clip(last.change_made||'Settings recorded',90):'Nothing logged yet',
-  changeWhen:!last?'':days<=0?'Today':days===1?'Yesterday':days<14?`${days} days ago`:new Date(last.recorded_at).toLocaleDateString('en-US',{month:'short',day:'numeric'})};
+ // How much of the service interval is used: from the hours it was done at to the hours it's due.
+ const start=due?.e.engine_hours,end=due?.e.next_due_hours;
+ const nextProgress=due&&h!=null&&start!=null&&end!=null&&end>start?Math.max(0,Math.min(1,(h-start)/(end-start))):-1;
+ return {ready:true,logo:'',bike:name,hours:h==null?'—':fmtHours(h),hoursSet:h!=null,next:due?next:'Add service reminder',nextSet:!!due,nextUrgent:!!due&&due.left!==null&&due.left<=0,nextProgress,
+  change:last?clip(last.change_made||'Settings recorded',90):'No changes logged yet',changeSet:!!last,
+  changeWhen:!last?'Log one after your next ride':days<=0?'Today':days===1?'Yesterday':days<14?`${days} days ago`:new Date(last.recorded_at).toLocaleDateString('en-US',{month:'short',day:'numeric'})};
 }
 
 export type GuideStepInfo={guide:string;bike:string;stepIndex:number;total:number;stepTitle:string;verification:string[];needsNote:boolean;done:boolean};
