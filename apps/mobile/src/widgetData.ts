@@ -19,7 +19,7 @@ export function bikeWidgetProps(bike:Bike|undefined,services:ServiceEvent[],logs
  const nextProgress=due&&h!=null&&start!=null&&end!=null&&end>start?Math.max(0,Math.min(1,(h-start)/(end-start))):-1;
  return {ready:true,logo:'',bike:name,hours:h==null?'—':fmtHours(h),hoursSet:h!=null,next:due?next:'Add service reminder',nextSet:!!due,nextUrgent:!!due&&due.left!==null&&due.left<=0,nextProgress,
   change:last?clip(last.change_made||'Settings recorded',90):'No changes logged yet',changeSet:!!last,
-  changeWhen:!last?'Log one after your next ride':days<=0?'Today':days===1?'Yesterday':days<14?`${days} days ago`:new Date(last.recorded_at).toLocaleDateString('en-US',{month:'short',day:'numeric'})};
+  changeWhen:!last?'Log one after a ride':days<=0?'Today':days===1?'Yesterday':days<14?`${days} days ago`:new Date(last.recorded_at).toLocaleDateString('en-US',{month:'short',day:'numeric'})};
 }
 
 export type GuideStepInfo={guide:string;bike:string;stepIndex:number;total:number;stepTitle:string;verification:string[];needsNote:boolean;done:boolean};
