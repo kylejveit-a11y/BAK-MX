@@ -75,7 +75,7 @@ export function BuildSheet({bike,onSaved,onAsk}:{bike:Bike;onSaved:(b:Bike)=>voi
     </View>
     {stock&&!on.length&&<Icon name="check" size={14} color={colors.accent} weight={2.2}/>}
     <Text style={[st.state,on.length?{color:colors.text}:stock?{color:colors.accent}:{color:colors.muted}]}>{on.length?String(on.length):stock?'Stock':'Set'}</Text>
-    <Icon name="chevronRight" size={16} color="#6b7280"/>
+    <Icon name="chevronRight" size={16} color="#7d8593"/>
    </Pressable>;})}</View>
   {value.parts.length>0&&onAsk&&<LinkAction title="Ask BAK about this build" onPress={()=>onAsk('I\'ve recorded my aftermarket parts in the Garage. Anything I should check or set up differently because of what\'s fitted?')}/>}
   {open&&<SystemSheet key={open} system={open} bike={bike} value={value} catalog={catalog??null} busy={busy} close={()=>setOpen(null)} save={next=>void save(next)} persist={persist}/>}
@@ -158,7 +158,7 @@ function SystemSheet({system,bike,value,catalog,busy,close,save,persist}:{system
       {off.length>0&&<><Section title={`OFF THE BIKE · ${off.length}`}/><Text style={[st.small,{marginTop:-6}]}>Parts you own and swap on for other conditions. BAK answers for what’s on the bike.</Text>
        <Group>{off.map(p=>partRow(p,false))}</Group></>}
      </>:null}
-     {mode!=='unknown'&&<View style={{gap:6}}><Text style={st.small}>Anything else BAK should know? (optional)</Text><TextInput value={note} onChangeText={setNote} multiline maxLength={280} placeholder={NOTE_HINT[system]??'Condition, settings or work done'} placeholderTextColor="#6b7380" style={[st.input,{minHeight:80,textAlignVertical:'top'}]}/></View>}
+     {mode!=='unknown'&&<View style={{gap:6}}><Text style={st.small}>Anything else BAK should know? (optional)</Text><TextInput value={note} onChangeText={setNote} multiline maxLength={280} placeholder={NOTE_HINT[system]??'Condition, settings or work done'} placeholderTextColor="#7d8593" style={[st.input,{minHeight:80,textAlignVertical:'top'}]}/></View>}
      <Text style={[st.small,{textAlign:'center',color:saveState==='error'?'#f0a8b0':'#8891a0'}]}>{saveState==='saving'?'Saving…':saveState==='saved'?'Saved to your bike':saveState==='error'?'Couldn’t save. Check your connection; tap Done to try again.':'Changes save as you go.'}</Text>
      <Button disabled={busy} title={busy?'Saving…':'Done'} onPress={done}/>
     </>}
@@ -260,22 +260,22 @@ function Options({type,system,choices,have,onAdd,onCustom,pendingRef}:{type:stri
     </View>
     {stage==='brand'&&<>
      <Text style={st.sub}>{brands.length} brands listed for your bike. Pick yours.</Text>
-     {brands.length>10&&<View style={st.searchBox}><Icon name="search" size={16} color="#8b93a1"/><TextInput value={bq} onChangeText={setBq} placeholder="Search brands" placeholderTextColor="#6b7380" autoCorrect={false} accessibilityLabel="Search brands" style={{flex:1,color:colors.text,fontSize:16,paddingVertical:10}}/></View>}
+     {brands.length>10&&<View style={st.searchBox}><Icon name="search" size={16} color="#9ea6b3"/><TextInput value={bq} onChangeText={setBq} placeholder="Search brands" placeholderTextColor="#7d8593" autoCorrect={false} accessibilityLabel="Search brands" style={{flex:1,color:colors.text,fontSize:16,paddingVertical:10}}/></View>}
      <Group>{brands.filter(b=>b.label.toLowerCase().includes(bq.trim().toLowerCase())).map(b=><Row key={b.value} label={b.label} detail={b.detail} onPress={()=>{setBrand(b.value);setQuery('');setBq('');}}/>)}</Group>
     </>}
     {stage==='models'&&<>
      <Text style={st.sub}>{models.length} {models.length===1?'model':'models'}{brand?` from ${brand}`:''} · pick one or more</Text>
-     {models.length>8&&<View style={st.searchBox}><Icon name="search" size={16} color="#8b93a1"/><TextInput value={query} onChangeText={setQuery} placeholder="Search models" placeholderTextColor="#6b7380" autoCorrect={false} accessibilityLabel="Search models" style={{flex:1,color:colors.text,fontSize:16,paddingVertical:10}}/></View>}
+     {models.length>8&&<View style={st.searchBox}><Icon name="search" size={16} color="#9ea6b3"/><TextInput value={query} onChangeText={setQuery} placeholder="Search models" placeholderTextColor="#7d8593" autoCorrect={false} accessibilityLabel="Search models" style={{flex:1,color:colors.text,fontSize:16,paddingVertical:10}}/></View>}
      <Group>{shown.map(c=>{const k=id(c),s=sel[k],on=!!s,fitted=haveKeys.has(k),opts=c.opts&&c.opts.length>1?c.opts:null,cols=opts?[]:colorsFor(c,type??c.type),where=posOf(c.name);
       return <View key={k} style={st.option}>
        <Pressable accessibilityRole="checkbox" accessibilityState={{checked:on}} accessibilityLabel={`${c.brand} ${c.name}`} onPress={()=>{hSelect();const n={...sel};if(on)delete n[k];else n[k]={...(cols.length===1?{color:cols[0].name}:{})};setSel(n);}} style={({pressed})=>[{flexDirection:'row',alignItems:'center',gap:12},pressed&&{opacity:0.6}]}>
-        <Icon name={on?'checkboxOn':'checkbox'} size={22} color={on?colors.accent:'#6b7280'}/>
+        <Icon name={on?'checkboxOn':'checkbox'} size={22} color={on?colors.accent:'#7d8593'}/>
         <View style={{flex:1,gap:2}}>
          {direct&&<Text style={st.brand}>{c.brand.toUpperCase()}</Text>}
          <Text style={st.rowTitle} numberOfLines={2}>{c.name}</Text>
          <Text style={[st.small,{fontSize:12}]}>{[positioned&&pos==='both'&&where?(where==='both'?'Set':where==='front'?'Front':'Rear'):'',c.verified?'Maker lists your bike':'Listed for your bike',c.testers.length?'Rider tested':'',fitted?'On your sheet':'',(c.colors?.length??0)>1?`${c.colors!.length} colors`:''].filter(Boolean).join(' · ')}</Text>
         </View>
-        <Pressable accessibilityRole="button" accessibilityLabel="Details" hitSlop={10} onPress={()=>setInfo(info===k?null:k)}><Icon name={info===k?'chevronUp':'chevronDown'} size={16} color="#8b93a1"/></Pressable>
+        <Pressable accessibilityRole="button" accessibilityLabel="Details" hitSlop={10} onPress={()=>setInfo(info===k?null:k)}><Icon name={info===k?'chevronUp':'chevronDown'} size={16} color="#9ea6b3"/></Pressable>
        </Pressable>
        {on&&sizes&&<Chips label={`${sizes.label}${s.size?'':' (pick one)'}`} options={sizes.options} value={s.size} onPick={v=>setSel({...sel,[k]:{...s,size:v}})}/>}
        {on&&opts&&<Chips label="Which one" options={opts.map(x=>x.label)} value={s.opt} onPick={v=>setSel({...sel,[k]:{...s,opt:v}})}/>}
@@ -312,13 +312,13 @@ function Chips({label,options,value,onPick,indent=34}:{label:string;options:stri
 }
 function WorkDetail({work,onAdd}:{work:Work;onAdd:(detail:string)=>void}){const [d,setD]=useState('');
  return <View style={{gap:10}}><Text style={st.small}>{work.detail} (optional)</Text>
-  <TextInput autoFocus multiline value={d} onChangeText={setD} maxLength={120} placeholder={work.example} placeholderTextColor="#6b7380" style={[st.input,{minHeight:80,textAlignVertical:'top'}]}/>
+  <TextInput autoFocus multiline value={d} onChangeText={setD} maxLength={120} placeholder={work.example} placeholderTextColor="#7d8593" style={[st.input,{minHeight:80,textAlignVertical:'top'}]}/>
   <Button title="Add to my bike" onPress={()=>onAdd(d.trim())}/></View>;}
 function Custom({system,type,onAdd}:{system:PartSystem;type:string|null;onAdd:(p:InstalledPart)=>void}){
  const [b,setB]=useState(''),[n,setN]=useState(type??''),[p,setP]=useState('');const sizes=sizesFor(type),[v,setV]=useState<string|undefined>(),[k,setK]=useState<string|undefined>();
  return <View style={{gap:12}}>
-  <Text style={st.small}>What is it?</Text><TextInput autoFocus value={n} onChangeText={setN} maxLength={90} placeholder="e.g. Rear shock, slip-on muffler, bar mounts" placeholderTextColor="#6b7380" style={st.input}/>
-  <Text style={st.small}>Brand</Text><TextInput value={b} onChangeText={setB} maxLength={60} placeholder="e.g. Öhlins" placeholderTextColor="#6b7380" style={st.input}/>
+  <Text style={st.small}>What is it?</Text><TextInput autoFocus value={n} onChangeText={setN} maxLength={90} placeholder="e.g. Rear shock, slip-on muffler, bar mounts" placeholderTextColor="#7d8593" style={st.input}/>
+  <Text style={st.small}>Brand</Text><TextInput value={b} onChangeText={setB} maxLength={60} placeholder="e.g. Öhlins" placeholderTextColor="#7d8593" style={st.input}/>
   {sizes&&<Chips label={sizes.label} options={sizes.options} value={v} onPick={setV}/>}
   {colorsFor({},type).length>0&&<Chips label="Color (optional)" options={colorsFor({},type).map(x=>x.name)} value={k} onPick={setK}/>}
   <Text style={st.small}>Part number (optional)</Text><TextInput value={p} onChangeText={setP} maxLength={48} autoCapitalize="characters" style={st.input}/>
@@ -345,11 +345,11 @@ function Row({label,small,detail,onPress,selected=false,chev=true,accent=false,p
  return <Pressable accessibilityRole="button" accessibilityState={{selected}} accessibilityLabel={[label,small,detail].filter(Boolean).join('. ')} onPress={onPress} style={({pressed})=>[st.navRow,pressed&&{opacity:0.55}]}>{plus&&<Icon name="plus" size={18} color={colors.accent} weight={2}/>}
   <View style={{flex:1,gap:2}}><Text style={[st.rowTitle,accent&&{color:colors.accent}]}>{label}</Text>{!!small&&<Text style={st.small}>{small}</Text>}</View>
   {!!detail&&<Text style={st.detail}>{detail}</Text>}
-  {selected?<Icon name="check" size={18} color={colors.accent} weight={2.2}/>:chev&&!plus?<Icon name="chevronRight" size={16} color="#6b7280"/>:null}
+  {selected?<Icon name="check" size={18} color={colors.accent} weight={2.2}/>:chev&&!plus?<Icon name="chevronRight" size={16} color="#7d8593"/>:null}
  </Pressable>;
 }
 const st={
- eyebrow:{color:'#868e9b',fontWeight:'600' as const,letterSpacing:1,fontSize:11.5},
+ eyebrow:{color:'#9aa2ae',fontWeight:'600' as const,letterSpacing:1,fontSize:11.5},
  h2:{color:colors.text,fontSize:22,fontWeight:'800' as const,letterSpacing:-0.5},
  title:{color:colors.text,fontSize:30,fontWeight:'900' as const,fontStyle:'italic' as const,letterSpacing:-1},
  sub:{color:colors.muted,fontSize:15,marginTop:-6},
@@ -379,12 +379,12 @@ const st={
  segment:{flexDirection:'row' as const,borderWidth:1,borderColor:'#2f3540',borderRadius:22,padding:3},
  segBtn:{flex:1,alignItems:'center' as const,paddingVertical:9,borderRadius:18},
  segOn:{backgroundColor:'#1f242d'},
- segText:{color:'#a1a8b4',fontSize:14.5,fontWeight:'600' as const},
+ segText:{color:'#b2b9c4',fontSize:14.5,fontWeight:'600' as const},
  onoff:{flexDirection:'row' as const,borderWidth:1,borderColor:'#343a45',borderRadius:16,padding:2,gap:2},
  onoffSeg:{paddingHorizontal:11,paddingVertical:5,borderRadius:13},
- onoffText:{color:'#8b93a1',fontSize:13,fontWeight:'700' as const},
+ onoffText:{color:'#9ea6b3',fontSize:13,fontWeight:'700' as const},
  crumb:{flexDirection:'row' as const,alignItems:'center' as const,gap:6,paddingHorizontal:14,paddingVertical:8,borderRadius:18,borderWidth:1,borderColor:'#2f74e8'},
  crumbText:{color:colors.text,fontSize:15,fontWeight:'700' as const},
  chip:{paddingHorizontal:13,paddingVertical:7,borderRadius:16,borderWidth:1,borderColor:'#343a45'},
- footer:{position:'absolute' as const,left:0,right:0,bottom:0,padding:16,paddingBottom:30,gap:8,backgroundColor:'rgba(6,6,9,0.96)',borderTopWidth:1,borderTopColor:colors.line},
+ footer:{position:'absolute' as const,left:0,right:0,bottom:0,padding:16,paddingBottom:30,gap:8,backgroundColor:'rgba(18,20,25,0.96)',borderTopWidth:1,borderTopColor:colors.line},
 };

@@ -99,7 +99,7 @@ function ProcedureSteps({procedure,run,save,start,onAsk,setFooter,toTop}:{proced
   if(complete){setFooter(null);return;}
   setFooter(<View style={{padding:12,gap:6}}>
    {!!notice&&<Text style={{color:'#f0b4bd',fontSize:13.5,lineHeight:19}}>{notice}</Text>}
-   {!notice&&needsNote&&<Text style={{color:'#a1a8b4',fontSize:13,lineHeight:18}}>This step needs a measurement or note before you continue.</Text>}
+   {!notice&&needsNote&&<Text style={{color:'#b2b9c4',fontSize:13,lineHeight:18}}>This step needs a measurement or note before you continue.</Text>}
    <Button title={last?'Done — finish guide':'Done — next step'} disabled={needsNote} onPress={finish}/>
   </View>);
  },[complete,notice,needsNote,run,notes]);
@@ -110,7 +110,7 @@ function ProcedureSteps({procedure,run,save,start,onAsk,setFooter,toTop}:{proced
  const done=procedure.steps.filter(s=>procedureStepRecorded(run,s.id)).length;
  return <View style={{gap:16}}>
   <View style={{gap:8}}>
-   <Text style={{color:'#a1a8b4',fontSize:13,fontWeight:'600'}}>STEP {run.step_index+1} OF {procedure.steps.length}</Text>
+   <Text style={{color:'#b2b9c4',fontSize:13,fontWeight:'600'}}>STEP {run.step_index+1} OF {procedure.steps.length}</Text>
    <View style={{height:4,borderRadius:2,backgroundColor:'#232833',overflow:'hidden'}}><View style={{height:4,width:`${Math.round(done/procedure.steps.length*100)}%`,backgroundColor:colors.accent}}/></View>
   </View>
   <Text style={{color:colors.text,fontSize:22,fontWeight:'800',letterSpacing:-0.3}}>{step.title}</Text>
@@ -123,7 +123,7 @@ function ProcedureSteps({procedure,run,save,start,onAsk,setFooter,toTop}:{proced
   <View style={{gap:6}}>
    <Text style={{color:colors.text,fontSize:14.5,fontWeight:'700'}}>{step.record_required?'Write what you measured or found (needed)':'Notes or measurements (optional)'}</Text>
    <TextInput accessibilityLabel="Step notes" multiline value={notes} maxLength={7000} onChangeText={text=>{setDrafts({...drafts,[step.id]:text});if(notice)setNotice('');}}
-    placeholder={step.record_required?'The number you measured, or what you saw':'Anything worth remembering'} placeholderTextColor="#6b7380" selectionColor={colors.accent}
+    placeholder={step.record_required?'The number you measured, or what you saw':'Anything worth remembering'} placeholderTextColor="#7d8593" selectionColor={colors.accent}
     style={{minHeight:84,borderWidth:1,borderColor:step.record_required&&!notes.trim()?colors.accent:'#343a45',borderRadius:12,padding:12,color:colors.text,fontSize:16,textAlignVertical:'top',backgroundColor:'#0d1015'}}/>
   </View>
   {step.branches?.length?<View style={{gap:8}}>
@@ -137,8 +137,8 @@ function ProcedureSteps({procedure,run,save,start,onAsk,setFooter,toTop}:{proced
   <Notice text={draftError}/>
   <Disclosure title={`All steps (${done} of ${procedure.steps.length} done)`}>
    {procedure.steps.map((s,i)=>{const rec=procedureStepRecorded(run,s.id),cur=i===run.step_index;return <View key={s.id} style={{flexDirection:'row',gap:10}}>
-    <Text style={{color:rec?colors.accent:cur?colors.text:'#6b7380',fontSize:14,width:22}}>{rec?'✓':`${i+1}`}</Text>
-    <View style={{flex:1}}><Text style={{color:cur?colors.text:rec?'#adb4bf':'#7d8592',fontSize:14.5,fontWeight:cur?'700':'500'}}>{s.title}</Text>{rec&&<Text style={{color:'#7d8592',fontSize:12.5}} numberOfLines={2}>{stepRecord(s.id)}</Text>}</View>
+    <Text style={{color:rec?colors.accent:cur?colors.text:'#7d8593',fontSize:14,width:22}}>{rec?'✓':`${i+1}`}</Text>
+    <View style={{flex:1}}><Text style={{color:cur?colors.text:rec?'#bcc3cd':'#7d8592',fontSize:14.5,fontWeight:cur?'700':'500'}}>{s.title}</Text>{rec&&<Text style={{color:'#7d8592',fontSize:12.5}} numberOfLines={2}>{stepRecord(s.id)}</Text>}</View>
    </View>;})}
   </Disclosure>
  </View>;

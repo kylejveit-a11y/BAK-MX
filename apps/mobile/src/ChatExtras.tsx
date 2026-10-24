@@ -26,7 +26,7 @@ export function TriageCard({onDone,onCancel}:{onDone:(text:string)=>void;onCance
  const go=(d:number)=>{setTyping(false);setDraft('');setStep(order[Math.max(0,Math.min(order.length-1,i+d))]);};
  const pick=(patch:Partial<TriageAnswers>)=>{setA({...a,...patch});setTyping(false);setDraft('');setStep(order[Math.min(order.length-1,i+1)]);};
  const toggle=(k:'where'|'track',v:string)=>setA({...a,[k]:a[k].includes(v)?a[k].filter(x=>x!==v):[...a[k],v]});
- const own=(placeholder:string,save:(t:string)=>void)=>typing?<View style={{gap:8,width:'100%'}}><TextInput autoFocus value={draft} onChangeText={setDraft} placeholder={placeholder} placeholderTextColor="#6b7380" maxLength={200} onSubmitEditing={()=>{if(draft.trim())save(draft.trim());}} style={tx.input}/><Button disabled={!draft.trim()} title="Next" onPress={()=>save(draft.trim())}/></View>
+ const own=(placeholder:string,save:(t:string)=>void)=>typing?<View style={{gap:8,width:'100%'}}><TextInput autoFocus value={draft} onChangeText={setDraft} placeholder={placeholder} placeholderTextColor="#7d8593" maxLength={200} onSubmitEditing={()=>{if(draft.trim())save(draft.trim());}} style={tx.input}/><Button disabled={!draft.trim()} title="Next" onPress={()=>save(draft.trim())}/></View>
   :<Chip quiet label="Type it myself" onPress={()=>setTyping(true)}/>;
  const question=step==='complaint'?'What is the bike doing?':step==='decider'?triageSteps(a.complaint).decider:step==='throttle'?'On the gas or off the gas?':step==='where'?'Where on the track?':step==='track'?'What’s the dirt like?':'Here’s what BAK will get';
  return <Card>
@@ -48,7 +48,7 @@ export function TriageCard({onDone,onCancel}:{onDone:(text:string)=>void;onCance
   {step==='review'&&<>
    <View style={tx.quote}><Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{composeTriage(a)}</Text></View>
    <Text style={tx.small}>Anything else? (optional)</Text>
-   <TextInput multiline value={a.notes??''} onChangeText={notes=>setA({...a,notes})} maxLength={400} placeholder="What you’ve already tried, recent changes, how it felt before" placeholderTextColor="#6b7380" style={[tx.input,{minHeight:70,textAlignVertical:'top'}]}/>
+   <TextInput multiline value={a.notes??''} onChangeText={notes=>setA({...a,notes})} maxLength={400} placeholder="What you’ve already tried, recent changes, how it felt before" placeholderTextColor="#7d8593" style={[tx.input,{minHeight:70,textAlignVertical:'top'}]}/>
    <View style={{flexDirection:'row',gap:10}}><View style={{flex:1}}><Button secondary title="Back" onPress={()=>go(-1)}/></View><View style={{flex:1}}><Button title="Use this" onPress={()=>onDone(composeTriage(a))}/></View></View></>}
   {(step==='decider'||step==='throttle')&&<Button secondary title="Back" onPress={()=>go(-1)}/>}
  </Card>;
@@ -76,8 +76,8 @@ export function RideCheckCard({bike,messageId,changes,logged,onLogged,onAsk}:{bi
   {changes.length>1&&<Wrap>{changes.map((c,i)=><Chip key={i} label={c.setting} on={which===i} onPress={()=>setWhich(i)}/>)}</Wrap>}
   <View style={{flexDirection:'row',gap:8}}>{RESULTS.map(r=><View key={r.key} style={{flex:1}}><Chip center label={r.label} on={result===r.key} onPress={()=>setResult(r.key)}/></View>)}</View>
   {result&&<>
-   <TextInput value={track} onChangeText={setTrack} maxLength={120} placeholder="Track (optional)" placeholderTextColor="#6b7380" style={tx.input}/>
-   <TextInput multiline value={notes} onChangeText={setNotes} maxLength={1000} placeholder={result==='better'?'What improved? (optional)':result==='worse'?'What got worse? (optional)':'Anything you noticed? (optional)'} placeholderTextColor="#6b7380" style={[tx.input,{minHeight:64,textAlignVertical:'top'}]}/>
+   <TextInput value={track} onChangeText={setTrack} maxLength={120} placeholder="Track (optional)" placeholderTextColor="#7d8593" style={tx.input}/>
+   <TextInput multiline value={notes} onChangeText={setNotes} maxLength={1000} placeholder={result==='better'?'What improved? (optional)':result==='worse'?'What got worse? (optional)':'Anything you noticed? (optional)'} placeholderTextColor="#7d8593" style={[tx.input,{minHeight:64,textAlignVertical:'top'}]}/>
    <Notice text={error}/>
    <Button disabled={busy} title={busy?'Saving…':'Save to my setup log'} onPress={()=>void save()}/>
   </>}

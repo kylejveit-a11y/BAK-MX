@@ -8,7 +8,7 @@ import * as Haptics from 'expo-haptics';
 import {Icon} from './Icon';
 
 const ROW=46,VISIBLE=5;
-const C={bg:'#060609',text:'#f6f7f9',muted:'#9aa2af',dim:'#6b7380',accent:'#6AA4FF',primary:'#2F74E8',line:'#2a2f39'};
+const C={bg:'#121419',text:'#f6f7f9',muted:'#adb5c1',dim:'#7d8593',accent:'#6AA4FF',primary:'#2F74E8',line:'#2a2f39'};
 const MONTHS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 const pad2=(n:number)=>String(n).padStart(2,'0');
 const daysIn=(y:number,m:number)=>new Date(y,m+1,0).getDate();

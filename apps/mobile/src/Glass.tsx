@@ -15,8 +15,8 @@ export const ACCENT='#6AA4FF';
 /** Dark glass surface. Children sit on top. */
 export function Glass({style,children,strong=false}:{style?:StyleProp<ViewStyle>;children?:React.ReactNode;strong?:boolean}){
  const edge={borderWidth:StyleSheet.hairlineWidth,borderColor:'rgba(255,255,255,0.09)'};
- if(liquid)return <GlassView glassEffectStyle="regular" colorScheme="dark" tintColor={strong?'rgba(8,9,12,0.55)':'rgba(8,9,12,0.3)'} style={[{overflow:'hidden'},edge,style]}>{children}</GlassView>;
- if(Platform.OS==='ios')return <BlurView intensity={strong?70:55} tint="systemChromeMaterialDark" style={[{overflow:'hidden'},edge,style]}><View style={[StyleSheet.absoluteFill,{backgroundColor:strong?'rgba(6,6,9,0.55)':'rgba(6,6,9,0.35)'}]}/>{children}</BlurView>;
+ if(liquid)return <GlassView glassEffectStyle="regular" colorScheme="dark" tintColor={strong?'rgba(18,20,25,0.55)':'rgba(18,20,25,0.3)'} style={[{overflow:'hidden'},edge,style]}>{children}</GlassView>;
+ if(Platform.OS==='ios')return <BlurView intensity={strong?70:55} tint="systemChromeMaterialDark" style={[{overflow:'hidden'},edge,style]}><View style={[StyleSheet.absoluteFill,{backgroundColor:strong?'rgba(18,20,25,0.55)':'rgba(18,20,25,0.35)'}]}/>{children}</BlurView>;
  return <View style={[{overflow:'hidden',backgroundColor:'rgba(16,18,23,0.9)'},edge,style]}>{children}</View>;
 }
 
@@ -47,8 +47,8 @@ export function FloatingTabBar({state,navigation}:BottomTabBarProps){
    {routes.map(r=>{const on=r.name===current;
     return <Pressable key={r.key} haptic="select" accessibilityRole="tab" accessibilityState={{selected:on}} accessibilityLabel={labels[r.name]??r.name} onPress={()=>{const e=navigation.emit({type:'tabPress',target:r.key,canPreventDefault:true});if(!on&&!e.defaultPrevented)navigation.navigate(r.name as never);}} style={({pressed})=>({flex:1,alignItems:'center',justifyContent:'center',height:TAB_H,opacity:pressed?0.6:1})}>
      <View style={{height:3,width:16,marginBottom:5,borderRadius:1,backgroundColor:on?ACCENT:'transparent',transform:[{skewX:'-24deg'}]}}/>
-     <Icon name={icons[r.name]} size={24} color={on?'#f6f7f9':'#8b93a1'} bg="#0d0f13" weight={on?1.9:1.6}/>
-     <Text style={{color:on?'#f6f7f9':'#8b93a1',fontSize:10.5,fontWeight:on?'800':'600',marginTop:2,letterSpacing:0.2}}>{labels[r.name]??r.name}</Text>
+     <Icon name={icons[r.name]} size={24} color={on?'#f6f7f9':'#9ea6b3'} bg="#0d0f13" weight={on?1.9:1.6}/>
+     <Text style={{color:on?'#f6f7f9':'#9ea6b3',fontSize:10.5,fontWeight:on?'800':'600',marginTop:2,letterSpacing:0.2}}>{labels[r.name]??r.name}</Text>
     </Pressable>;})}
   </Glass></View>
  </View>;

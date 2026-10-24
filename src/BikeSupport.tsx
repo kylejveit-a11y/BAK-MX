@@ -1,7 +1,7 @@
 import {useEffect,useMemo,useState} from 'react';
-import {Check,ChevronRight,Search} from 'lucide-react';
+import {Check,ChevronDown,ChevronRight,ChevronUp,Search} from 'lucide-react';
 
-import {level,supportAreas,type SupportRow,type SupportData as Data} from '../shared/bike-support';
+import {level,supportAreas,groupSupport,yearRange,type SupportRow,type SupportData as Data} from '../shared/bike-support';
 export type {SupportRow};
 let cache:Promise<Data>|null=null;
 const loadSupport=()=>cache??=import('../shared/bike-support.json').then(m=>(m.default??m) as Data);
@@ -39,18 +39,22 @@ export function SupportPicker({onSeeAll}:{onSeeAll:()=>void}){
 /** The full list: every model, each year marked by how complete BAK is for it. */
 export function SupportedBikes(){
  const data=useSupport();
- const [q,setQ]=useState(''),[open,setOpen]=useState<SupportRow|null>(null);
+ const [q,setQ]=useState(''),[openMake,setOpenMake]=useState(''),[openModel,setOpenModel]=useState(''),[open,setOpen]=useState<SupportRow|null>(null);
  if(!data)return <section className="panel"><p className="subtle" role="status">Loading bikes…</p></section>;
- const groups=new Map<string,SupportRow[]>();
- for(const b of data.bikes)if(!q.trim()||`${b.make} ${b.model} ${b.year}`.toLowerCase().includes(q.trim().toLowerCase()))(groups.get(`${b.make}|${b.model}`)??groups.set(`${b.make}|${b.model}`,[]).get(`${b.make}|${b.model}`)!).push(b);
- const makes=[...new Set([...groups.keys()].map(k=>k.split('|')[0]))].sort();
+ const searching=!!q.trim(),makes=groupSupport(data.bikes,q);
  const legend:('full'|'strong'|'good'|'basic')[]=['full','strong','good','basic'];
  return <div className="supported">
-  <section className="panel"><p>Tap a year to see what BAK covers for it. If your bike isn’t here, it isn’t supported yet.</p>
+  <section className="panel"><p>Open a brand, then a model, to see what BAK covers for each year. If your bike isn’t here, it isn’t supported yet.</p>
    <div className="support-legend">{legend.map(id=>{const l=level({full_rebuild:id==='full',knowledge:id==='strong'?90:id==='good'?70:10} as SupportRow);return <span key={id} className={'support-badge lvl-'+id}>{l.short}</span>;})}</div>
    <label className="search-input"><Search size={15}/><input value={q} onChange={e=>setQ(e.target.value)} placeholder="Search: KX450, 2024, Husqvarna…" aria-label="Search bikes"/></label>
   </section>
-  {open&&<section className="panel"><Detail row={open} total={data.guide_total}/><button className="text-button" onClick={()=>setOpen(null)}>Close</button></section>}
-  {makes.map(make=><section className="panel" key={make}><h2>{make}</h2>{[...groups.entries()].filter(([k])=>k.startsWith(make+'|')).map(([k,rows])=><div className="support-model" key={k}><strong>{k.split('|')[1]}</strong><div className="support-years">{rows.sort((a,b)=>b.year-a.year).map(r=>{const l=level(r);return <button key={r.year} className={'year-chip lvl-'+l.id+(open===r?' active':'')} title={`${r.year}: ${l.label}`} onClick={()=>setOpen(r)}>{r.year}</button>;})}</div></div>)}</section>)}
+  {!makes.length&&<section className="panel"><p className="subtle">No supported bike matches “{q.trim()}”.</p></section>}
+  <section className="panel support-brands">{makes.map(mk=>{const expanded=searching||openMake===mk.make;return <div className="support-brand" key={mk.make}>
+   <button className="support-brand-head" aria-expanded={expanded} onClick={()=>{if(searching)return;setOpenMake(expanded?'':mk.make);setOpenModel('');setOpen(null);}}><span><h2>{mk.make}</h2><small>{mk.models.length} {mk.models.length===1?'model':'models'} · {yearRange(mk.from,mk.to)}</small></span>{!searching&&(expanded?<ChevronUp size={18}/>:<ChevronDown size={18}/>)}</button>
+   {expanded&&mk.models.map(md=>{const key=mk.make+'|'+md.model,mOpen=openModel===key;return <div className="support-model" key={key}>
+    <button className="support-model-head" aria-expanded={mOpen} onClick={()=>{setOpenModel(mOpen?'':key);setOpen(null);}}><span><strong>{md.model}</strong><small>{yearRange(md.from,md.to)}</small></span><span className="support-dots">{[...md.rows].reverse().map(r=><i key={r.year} className={'lvl-'+level(r).id} title={`${r.year}: ${level(r).label}`}/>)}</span></button>
+    {mOpen&&<div className="support-years">{md.rows.map(r=>{const l=level(r);return <button key={r.year} className={'year-chip lvl-'+l.id+(open===r?' active':'')} title={`${r.year}: ${l.label}`} onClick={()=>setOpen(open===r?null:r)}>{r.year}</button>;})}{open&&md.rows.includes(open)&&<div className="support-inline"><Detail row={open} total={data.guide_total}/></div>}</div>}
+   </div>;})}
+  </div>;})}</section>
  </div>;
 }

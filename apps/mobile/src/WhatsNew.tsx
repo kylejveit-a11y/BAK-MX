@@ -1,6 +1,6 @@
 // One-time "new on iPhone" card on Home. It closes with one tap and retires itself after a few app opens,
 // so it is never a nag. Widgets, Lock Screen and Siri are iPhone-only, so other platforms never show it.
-import React,{useEffect} from 'react';
+import React,{useEffect,useState} from 'react';
 import {Platform,Text,View} from 'react-native';
 import {Pressable} from './Touch';
 import {Icon,type IconName} from './Icon';
@@ -19,17 +19,26 @@ const items:[IconName,string,string][]=[
 ];
 
 export function WhatsNewCard({account,show=Platform.OS==='ios'}:{account:string;show?:boolean}){
- const [state,setState]=useProgress(account,KEY,{dismissed:false,opens:0});
+ const [state,setState]=useProgress(account,KEY,{dismissed:false,opens:0}),[open,setOpen]=useState(false);
  useEffect(()=>{if(!show||countedThisLaunch||state.dismissed)return;countedThisLaunch=true;setState({...state,opens:state.opens+1});},[]);
  if(!show||state.dismissed||state.opens>MAX_OPENS)return null;
  const close=()=>setState({...state,dismissed:true});
+ // Closed it is one slim row, so Your bike stays on the first screen; tap to see the four features.
+ if(!open)return <View style={{flexDirection:'row',alignItems:'center',gap:12,paddingVertical:12,paddingHorizontal:14,borderRadius:16,backgroundColor:'#121a26',borderWidth:1,borderColor:'#22324a'}}>
+  <Pressable accessibilityRole="button" accessibilityLabel="New on iPhone: widgets, Siri and Lock Screen. See what's new" onPress={()=>setOpen(true)} style={({pressed})=>({flex:1,flexDirection:'row',alignItems:'center',gap:10,opacity:pressed?0.6:1})}>
+   <View style={{paddingHorizontal:7,paddingVertical:3,borderRadius:6,backgroundColor:colors.primary}}><Text style={{color:'#fff',fontSize:10.5,fontWeight:'900',letterSpacing:1}}>NEW</Text></View>
+   <Text style={{color:colors.text,fontSize:15,fontWeight:'700',flex:1}} numberOfLines={1}>Widgets, Siri and Lock Screen</Text>
+   <Text style={{color:colors.accent,fontSize:14,fontWeight:'700'}}>See</Text>
+  </Pressable>
+  <Pressable accessibilityRole="button" accessibilityLabel="Close" hitSlop={12} onPress={close} style={({pressed})=>({opacity:pressed?0.5:1})}><Icon name="close" size={16} color="#9ea6b3"/></Pressable>
+ </View>;
  return <Card>
   <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}>
    <View style={{flexDirection:'row',alignItems:'center',gap:8}}>
     <View style={{width:18,height:3,borderRadius:2,backgroundColor:colors.accent,transform:[{skewX:'-24deg'}]}}/>
     <Text style={{color:colors.accent,fontSize:11.5,fontWeight:'800',letterSpacing:1.4}}>NEW ON IPHONE</Text>
    </View>
-   <Pressable accessibilityRole="button" accessibilityLabel="Close" hitSlop={12} onPress={close} style={({pressed})=>({opacity:pressed?0.5:1,padding:2})}><Icon name="close" size={18} color="#8b93a1"/></Pressable>
+   <Pressable accessibilityRole="button" accessibilityLabel="Close" hitSlop={12} onPress={close} style={({pressed})=>({opacity:pressed?0.5:1,padding:2})}><Icon name="close" size={18} color="#9ea6b3"/></Pressable>
   </View>
   <Text style={{color:colors.text,fontSize:20,fontWeight:'800',letterSpacing:-0.4}}>Widgets, Siri and Lock Screen</Text>
   <View style={{gap:12}}>

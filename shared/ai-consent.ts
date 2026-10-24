@@ -3,6 +3,10 @@
 export const AI_CONSENT_VERSION='v2';
 export const aiConsentKey=(userId:string)=>`bakmx:ai-consent:${AI_CONSENT_VERSION}:${userId}`;
 export const aiConsentTitle='Before your first question';
+/** Riders who agreed to an earlier version see this instead: what changed, then the same points. */
+export const AI_CONSENT_PREVIOUS=['v1'];
+export const aiConsentUpdatedTitle='Ask BAK has been updated';
+export const aiConsentUpdatedIntro='It can now read photos you attach and manual pages you upload for your bike. Here’s what it sends, so you can agree again.';
 export const aiConsentPoints=[
  'Ask BAK uses an AI service from OpenAI to write answers.',
  'To answer, BAK sends OpenAI your question, this conversation, any photo you attach, the bike details in your Garage (model and year, parts and settings, setup log) and pages from manuals you uploaded for that bike.',

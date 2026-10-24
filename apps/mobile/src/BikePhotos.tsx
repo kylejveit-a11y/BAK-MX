@@ -21,7 +21,7 @@ export function BikePhotos({bike}:{bike:Bike}){
  async function add(){setNotice('');try{setAdding(true);const added=await addPhotos('bike',{limit:10,bikeId:bike.id,title:'Photos of your bike'});if(added.length)setPhotos(old=>[...added,...(old??[])]);}catch(e){setNotice(errorText(e));}finally{setAdding(false);}}
  function remove(p:Photo){Alert.alert('Delete this photo?','It’s removed from your Garage.',[{text:'Cancel',style:'cancel'},{text:'Delete',style:'destructive',onPress:()=>void api('/api/photos?id='+p.id,'DELETE').then(()=>setPhotos(old=>(old??[]).filter(x=>x.id!==p.id))).catch(e=>setNotice(errorText(e)))}]);}
  return <Card>
-  <View style={{flexDirection:'row',alignItems:'baseline',justifyContent:'space-between'}}><Eyebrow>PHOTOS</Eyebrow>{!!photos?.length&&<Text style={{color:'#868e9b',fontSize:12.5}}>{photos.length} · only you see these</Text>}</View>
+  <View style={{flexDirection:'row',alignItems:'baseline',justifyContent:'space-between'}}><Eyebrow>PHOTOS</Eyebrow>{!!photos?.length&&<Text style={{color:'#9aa2ae',fontSize:12.5}}>{photos.length} · only you see these</Text>}</View>
   {photos!==null&&!photos.length&&<Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>Keep pictures of the build: before and after, how parts are fitted, your clicker settings. Only you can see them.</Text>}
   <PhotoGrid photos={photos??[]} adding={adding} onAdd={()=>void add()} onDelete={remove}/>
   <Notice text={notice}/>

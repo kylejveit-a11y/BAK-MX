@@ -3,13 +3,14 @@ import {View,Text,TextInput,StyleSheet} from 'react-native';
 import {Pressable} from './Touch';
 import {Icon} from './Icon';
 import {BikeWheel} from './Wheel';
-import {level,supportAreas,type SupportData,type SupportRow} from '../../../shared/bike-support';
+import {level,supportAreas,groupSupport,yearRange,type SupportData,type SupportRow} from '../../../shared/bike-support';
 import {Card,Eyebrow,Page,colors,s} from './ui';
 import {MetalPanel,MetalWell} from './MetalPanel';
 const data=require('../../../shared/bike-support.json') as SupportData;
 
-const tone:Record<string,{bg:string;line:string;text:string}>={full:{bg:'#10251a',line:'#2f7a4c',text:'#bff0cf'},strong:{bg:'#0f1d2e',line:'#3d6ea8',text:'#cfe2fb'},good:{bg:'#1d1a10',line:'#7a6a2f',text:'#f0e2b5'},basic:{bg:'#16181c',line:'#3a3f48',text:'#a7afbd'}};
-function Badge({id,label}:{id:string;label:string}){const t=tone[id];return <View style={{flexDirection:'row',alignItems:'center',gap:6,alignSelf:'flex-start'}}><View style={{width:8,height:8,borderRadius:4,backgroundColor:t.text}}/><Text style={{color:t.text,fontSize:12.5,fontWeight:'700'}}>{label}</Text></View>;}
+// Coverage colours: distinct at a glance (green, blue, amber, grey) so a list of years never reads as all grey.
+const tone:Record<string,{bg:string;line:string;text:string;dot:string}>={full:{bg:'#0f2a1b',line:'#2e9c5c',text:'#7ee2a6',dot:'#3fd17f'},strong:{bg:'#0f2036',line:'#3f7fd6',text:'#9cc4ff',dot:'#4c94ff'},good:{bg:'#2a2210',line:'#b08a2c',text:'#f5cf72',dot:'#f2b23e'},basic:{bg:'#1a1d22',line:'#4a505b',text:'#b7bec9',dot:'#8d95a2'}};
+function Badge({id,label}:{id:string;label:string}){const t=tone[id];return <View style={{flexDirection:'row',alignItems:'center',gap:6,alignSelf:'flex-start'}}><View style={{width:9,height:9,borderRadius:5,backgroundColor:t.dot}}/><Text style={{color:t.text,fontSize:12.5,fontWeight:'700'}}>{label}</Text></View>;}
 
 export function SupportDetail({row}:{row:SupportRow}){
  const l=level(row);
@@ -31,9 +32,9 @@ export function SupportPicker({onSeeAll}:{onSeeAll?:()=>void}){
  const engraved={textShadowColor:'rgba(0,0,0,0.75)',textShadowOffset:{width:0,height:1},textShadowRadius:1};
  return <MetalPanel style={{marginTop:10,marginBottom:8}}><View style={{gap:6,paddingTop:4}}><Text style={[{color:'#b9c0ca',fontWeight:'800',letterSpacing:2.2,fontSize:11},engraved]}>BEFORE YOU SIGN UP</Text><Text style={[{color:'#f3f5f8',fontSize:23,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.5},engraved]}>Is your bike supported?</Text></View>
   <MetalWell><Pressable accessibilityRole="button" accessibilityLabel={row?`Change bike, ${row.year} ${row.make} ${row.model}`:'Choose your bike'} onPress={()=>setOpen(true)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:14,paddingHorizontal:14,opacity:pressed?0.6:1})}>
-   <Icon name="moto" size={26} color="#a1a8b4"/>
-   <View style={{flex:1,gap:2}}><Text style={{color:row?colors.text:colors.muted,fontSize:17,fontWeight:'600'}}>{row?`${row.year} ${row.make} ${row.model}`:'Choose your bike'}</Text><Text style={{color:'#868e9b',fontSize:12.5}}>{row?'Tap to change':`${data.bikes.length} bike-years from ${makes.length} makes`}</Text></View>
-   <Icon name="chevronRight" size={17} color="#9aa2af"/>
+   <Icon name="moto" size={26} color="#b2b9c4"/>
+   <View style={{flex:1,gap:2}}><Text style={{color:row?colors.text:colors.muted,fontSize:17,fontWeight:'600'}}>{row?`${row.year} ${row.make} ${row.model}`:'Choose your bike'}</Text><Text style={{color:'#9aa2ae',fontSize:12.5}}>{row?'Tap to change':`${data.bikes.length} bike-years from ${makes.length} makes`}</Text></View>
+   <Icon name="chevronRight" size={17} color="#adb5c1"/>
   </Pressable></MetalWell>
   {row?<SupportDetail row={row}/>:<Text style={[{color:'#aab1bc',fontSize:13.5,lineHeight:20},engraved]}>If yours isn’t listed, it isn’t supported yet.</Text>}
   {onSeeAll&&<Pressable accessibilityRole="button" onPress={onSeeAll}><Text style={{color:colors.accent,fontWeight:'700'}}>See all supported bikes →</Text></Pressable>}
@@ -42,16 +43,35 @@ export function SupportPicker({onSeeAll}:{onSeeAll?:()=>void}){
 }
 
 export function SupportedBikesScreen(){
- const [q,setQ]=useState(''),[open,setOpen]=useState<SupportRow|null>(null);
- const groups=new Map<string,SupportRow[]>();
- for(const b of data.bikes)if(!q.trim()||`${b.make} ${b.model} ${b.year}`.toLowerCase().includes(q.trim().toLowerCase())){const k=`${b.make}|${b.model}`;if(!groups.has(k))groups.set(k,[]);groups.get(k)!.push(b);}
- const makes=[...new Set([...groups.keys()].map(k=>k.split('|')[0]))].sort();
+ const [q,setQ]=useState(''),[openMake,setOpenMake]=useState(''),[openModel,setOpenModel]=useState(''),[open,setOpen]=useState<SupportRow|null>(null);
+ const searching=!!q.trim(),makes=useMemo(()=>groupSupport(data.bikes,q),[q]);
+ // One brand open at a time; while searching, every matching brand is open.
+ const toggleMake=(m:string)=>{setOpenMake(openMake===m?'':m);setOpenModel('');setOpen(null);};
  return <Page title="Supported bikes">
   <View style={{gap:14}}>
-   <Text style={{color:colors.muted,fontSize:15,lineHeight:22}}>Tap a year to see what BAK covers for it. If your bike isn’t here, it isn’t supported yet.</Text>
-   <View style={{flexDirection:'row',gap:14,flexWrap:'wrap'}}>{(['full','strong','good','basic'] as const).map(id=><Badge key={id} id={id} label={level({full_rebuild:id==='full',knowledge:id==='strong'?90:id==='good'?70:10}).short}/>)}</View>
-   <View style={{flexDirection:'row',alignItems:'center',gap:10,borderBottomWidth:1,borderBottomColor:'#2a2f39'}}><Icon name="search" size={18} color="#9aa2af"/><TextInput value={q} onChangeText={setQ} placeholder="KX450, 2024, Husqvarna…" placeholderTextColor="#6b7380" style={{flex:1,color:colors.text,fontSize:17,paddingVertical:11}} accessibilityLabel="Search bikes" autoCorrect={false} clearButtonMode="while-editing"/></View>
+   <Text style={{color:colors.muted,fontSize:15,lineHeight:22}}>Open a brand, then a model, to see what BAK covers for each year. If your bike isn’t here, it isn’t supported yet.</Text>
+   <View style={{flexDirection:'row',gap:16,flexWrap:'wrap'}}>{(['full','strong','good','basic'] as const).map(id=><Badge key={id} id={id} label={level({full_rebuild:id==='full',knowledge:id==='strong'?90:id==='good'?70:10}).short}/>)}</View>
+   <View style={{flexDirection:'row',alignItems:'center',gap:10,borderBottomWidth:1,borderBottomColor:'#2a2f39'}}><Icon name="search" size={18} color="#adb5c1"/><TextInput value={q} onChangeText={setQ} placeholder="KX450, 2024, Husqvarna…" placeholderTextColor="#7d8593" style={{flex:1,color:colors.text,fontSize:17,paddingVertical:11}} accessibilityLabel="Search bikes" autoCorrect={false} clearButtonMode="while-editing"/></View>
   </View>
-  {makes.map(make=><Card key={make}><Text style={{color:colors.text,fontSize:22,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.5}}>{make}</Text>{[...groups.entries()].filter(([k])=>k.startsWith(make+'|')).map(([k,rows])=><View key={k} style={{gap:6,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#232833',paddingTop:12}}><Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{k.split('|')[1]}</Text><View style={{flexDirection:'row',flexWrap:'wrap',gap:4}}>{rows.sort((a,b)=>b.year-a.year).map(r=>{const t=tone[level(r).id],on=open===r;return <Pressable key={r.year} accessibilityRole="button" accessibilityState={{selected:on}} accessibilityLabel={`${r.year} ${level(r).label}`} onPress={()=>setOpen(on?null:r)} style={{flexDirection:'row',alignItems:'center',gap:5,paddingHorizontal:8,paddingVertical:6,borderRadius:14,borderWidth:1,borderColor:on?t.text:'transparent'}}><View style={{width:6,height:6,borderRadius:3,backgroundColor:t.text}}/><Text style={{color:t.text,fontSize:14,fontWeight:'600'}}>{r.year}</Text></Pressable>;})}</View>{open&&rows.includes(open)&&<View style={{paddingVertical:6}}><SupportDetail row={open}/></View>}</View>)}</Card>)}
+  {!makes.length&&<Text style={{color:colors.muted,fontSize:15}}>No supported bike matches “{q.trim()}”.</Text>}
+  <View>{makes.map(mk=>{const expanded=searching||openMake===mk.make;
+   return <View key={mk.make} style={{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39'}}>
+    <Pressable haptic="select" accessibilityRole="button" accessibilityState={{expanded}} accessibilityLabel={`${mk.make}, ${mk.models.length} models`} onPress={()=>!searching&&toggleMake(mk.make)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:16,opacity:pressed?0.6:1})}>
+     <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:22,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.5}}>{mk.make}</Text><Text style={{color:'#a1a9b6',fontSize:13.5}}>{mk.models.length} {mk.models.length===1?'model':'models'} · {yearRange(mk.from,mk.to)}</Text></View>
+     {!searching&&<Icon name={expanded?'chevronUp':'chevronDown'} size={18} color={expanded?colors.accent:'#adb5c1'}/>}
+    </Pressable>
+    {expanded&&<View style={{paddingBottom:10}}>{mk.models.map(md=>{const key=mk.make+'|'+md.model,mOpen=openModel===key;
+     return <View key={key} style={{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#1f232b'}}>
+      <Pressable accessibilityRole="button" accessibilityState={{expanded:mOpen}} accessibilityLabel={`${md.model}, ${yearRange(md.from,md.to)}`} onPress={()=>{setOpenModel(mOpen?'':key);setOpen(null);}} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,paddingVertical:12,paddingLeft:4,opacity:pressed?0.6:1})}>
+       <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16.5,fontWeight:'700'}}>{md.model}</Text><Text style={{color:'#a1a9b6',fontSize:13.5}}>{yearRange(md.from,md.to)}</Text></View>
+       <View style={{flexDirection:'row',gap:3}}>{[...md.rows].reverse().map(r=><View key={r.year} style={{width:7,height:7,borderRadius:4,backgroundColor:tone[level(r).id].dot}}/>)}</View>
+       <Icon name={mOpen?'chevronUp':'chevronRight'} size={15} color="#939ba8"/>
+      </Pressable>
+      {mOpen&&<View style={{gap:8,paddingBottom:12,paddingLeft:4}}>
+       <View style={{flexDirection:'row',flexWrap:'wrap',gap:6}}>{md.rows.map(r=>{const t=tone[level(r).id],on=open===r;return <Pressable key={r.year} accessibilityRole="button" accessibilityState={{selected:on}} accessibilityLabel={`${r.year} ${level(r).label}`} onPress={()=>setOpen(on?null:r)} style={{flexDirection:'row',alignItems:'center',gap:6,paddingHorizontal:10,paddingVertical:7,borderRadius:16,borderWidth:1,borderColor:on?t.text:t.line,backgroundColor:t.bg}}><View style={{width:7,height:7,borderRadius:4,backgroundColor:t.dot}}/><Text style={{color:t.text,fontSize:14,fontWeight:'700'}}>{r.year}</Text></Pressable>;})}</View>
+       {open&&md.rows.includes(open)?<SupportDetail row={open}/>:<Text style={{color:'#8d95a2',fontSize:13}}>Tap a year for details.</Text>}
+      </View>}
+     </View>;})}</View>}
+   </View>;})}</View>
  </Page>;
 }

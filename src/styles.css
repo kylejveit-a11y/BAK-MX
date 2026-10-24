@@ -1080,10 +1080,10 @@ body.sheet-open{overflow:hidden}
 .support-detail{border:1px solid var(--card-line);border-radius:14px;padding:14px 16px;background:#0c0f14}
 .support-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:6px}.support-head strong{font-size:16px}
 .support-badge{display:inline-flex;align-items:center;border-radius:999px;padding:4px 10px;font-size:12px;font-weight:700;letter-spacing:.02em;border:1px solid}
-.lvl-full.support-badge,.year-chip.lvl-full{background:#10251a;border-color:#2f7a4c;color:#bff0cf}
-.lvl-strong.support-badge,.year-chip.lvl-strong{background:#0f1d2e;border-color:#3d6ea8;color:#cfe2fb}
-.lvl-good.support-badge,.year-chip.lvl-good{background:#1d1a10;border-color:#7a6a2f;color:#f0e2b5}
-.lvl-basic.support-badge,.year-chip.lvl-basic{background:#16181c;border-color:#3a3f48;color:#a7afbd}
+.lvl-full.support-badge,.year-chip.lvl-full{background:#0f2a1b;border-color:#2e9c5c;color:#7ee2a6}
+.lvl-strong.support-badge,.year-chip.lvl-strong{background:#0f2036;border-color:#3f7fd6;color:#9cc4ff}
+.lvl-good.support-badge,.year-chip.lvl-good{background:#2a2210;border-color:#b08a2c;color:#f5cf72}
+.lvl-basic.support-badge,.year-chip.lvl-basic{background:#1a1d22;border-color:#4a505b;color:#b7bec9}
 .support-list{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
 .support-list li{display:grid;grid-template-columns:18px 1fr auto;align-items:center;gap:8px;font-size:14px;color:#aab3c2}
 .support-list li.ok{color:#e3e8f0}.support-list li svg{color:#7fd09a}.support-list li b{font-weight:600;color:#cfd6e2}
@@ -1205,3 +1205,16 @@ input[type=file]::file-selector-button{background:#12151b;border:0;border-radius
 .legal-text{font-size:15px;line-height:1.7;color:#cfd6e2}.legal-text h4{font-size:17px;margin-top:28px}.legal-page a{color:var(--accent)}
 .parts-diagram{display:block;background:#fff;border-radius:10px;padding:8px;margin:8px 0 12px;position:relative;text-decoration:none}.parts-diagram img{display:block;width:100%;max-height:520px;object-fit:contain}.parts-diagram span{position:absolute;right:10px;bottom:6px;font-size:11px;color:#4b5563}
 .brand-logo{display:block;height:30px;width:auto}@media(max-width:760px){.brand-logo{height:24px}}
+
+/* Supported bikes: one brand open at a time, models with year range and a coverage dot per year */
+.support-brands{padding-top:4px;padding-bottom:4px}
+.support-brand{border-top:1px solid var(--card-line)}.support-brand:first-child{border-top:0}
+.support-brand-head{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 0;text-align:left;color:#9aa2af}
+.support-brand-head h2{margin:0;font-size:22px;font-style:italic;font-weight:900;color:#f3f5f8}.support-brand-head small{color:#a1a9b6;font-size:13px}
+.support-brand-head[aria-expanded=true] svg{color:var(--accent)}
+.support-brand .support-model{display:block;padding:0;border-top:1px solid #1f232b}
+.support-model-head{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 4px;text-align:left}
+.support-model-head strong{display:block;font-size:16px;color:#f3f5f8}.support-model-head small{color:#a1a9b6;font-size:13px}
+.support-dots{display:flex;gap:3px}.support-dots i{width:7px;height:7px;border-radius:50%;display:block}
+.support-dots .lvl-full{background:#3fd17f}.support-dots .lvl-strong{background:#4c94ff}.support-dots .lvl-good{background:#f2b23e}.support-dots .lvl-basic{background:#8d95a2}
+.support-brand .support-years{justify-content:flex-start;padding:0 4px 14px}.support-inline{flex-basis:100%;margin-top:6px}
