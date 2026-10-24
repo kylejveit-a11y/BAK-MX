@@ -138,7 +138,7 @@ export function CommunityScreen({bike,onMessage}:{bike?:Bike;onMessage:(r:RiderR
   </View>
   <Notice text={notice}/>
   {loading&&!posts.length&&<SkeletonList kind="post"/>}
-  {!loading&&!posts.length&&<View style={{paddingVertical:40,alignItems:'center',gap:10}}><Icon name="riders" size={40} color="#7d8593" bg="#121419"/><Text style={{color:colors.text,fontSize:18,fontWeight:'800'}}>Nothing here yet</Text><Text style={{color:'#adb5c1',fontSize:14,textAlign:'center'}}>Be the first to post a build, a setup question or a ride plan.</Text></View>}
+  {!loading&&!posts.length&&<View style={{paddingVertical:40,alignItems:'center',gap:10}}><Icon name="riders" size={40} color="#7d8593" bg="#060609"/><Text style={{color:colors.text,fontSize:18,fontWeight:'800'}}>Nothing here yet</Text><Text style={{color:'#adb5c1',fontSize:14,textAlign:'center'}}>Be the first to post a build, a setup question or a ride plan.</Text></View>}
   <View style={{marginHorizontal:-20}}>{posts.map(p=><PostView key={p.id} p={p} open={open===p.id} onOpen={()=>setOpen(open===p.id?'':p.id)} onLike={()=>void like(p)} onMore={()=>more(p)} onRider={()=>setViewing(p.user_id)} onCount={n=>setPosts(old=>old.map(x=>x.id===p.id?{...x,comment_count:n}:x))}
    report={reporting===p.id?<View style={{gap:10,paddingHorizontal:20}}><Field label="What’s wrong with this post?" value={reason} onChangeText={setReason} multiline maxLength={1000} autoCapitalize="sentences"/><View style={{flexDirection:'row',gap:22}}><LinkActionLite title="Send report" onPress={()=>void report(p)}/><LinkActionLite muted title="Cancel" onPress={()=>setReporting('')}/></View></View>:null}/>)}</View>
   <ComposeSheet visible={composing} profile={profile} bike={bike} onClose={()=>setComposing(false)} onPosted={()=>{setComposing(false);void load();}}/>
@@ -304,7 +304,7 @@ export function MessagesScreen({startWith,onStarted}:{startWith?:RiderRef;onStar
   <BackLink title="All messages" onPress={()=>{setActive(null);void loadThreads();}}/>
   <Notice text={notice}/>
   {!messages.length&&<Copy>No messages yet. Say hello.</Copy>}
-  {messages.map(m=><View key={m.id} style={{alignSelf:m.mine?'flex-end':'flex-start',maxWidth:'85%',backgroundColor:m.mine?'#1b2130':'#1b1e25',borderRadius:18,paddingHorizontal:14,paddingVertical:10,gap:3}}><Text selectable style={{color:colors.text,fontSize:16,lineHeight:22}}>{m.body}</Text><Text style={{color:'#7c858e',fontSize:11}}>{when(m.created_at)}</Text></View>)}
+  {messages.map(m=><View key={m.id} style={{alignSelf:m.mine?'flex-end':'flex-start',maxWidth:'85%',backgroundColor:m.mine?'#1b2130':'#121418',borderRadius:18,paddingHorizontal:14,paddingVertical:10,gap:3}}><Text selectable style={{color:colors.text,fontSize:16,lineHeight:22}}>{m.body}</Text><Text style={{color:'#7c858e',fontSize:11}}>{when(m.created_at)}</Text></View>)}
   <RiderActions rider={active} target={{type:'profile',id:active.user_id}} onBlocked={()=>{setActive(null);void loadThreads();}}/>
  </Page>;
 }
@@ -450,7 +450,7 @@ function SkeletonList({kind}:{kind:'post'|'event'}){
  const bar=(w:number|`${number}%`,h=12)=><View style={{width:w,height:h,borderRadius:6,backgroundColor:'#20242c'}}/>;
  return <Animated.View accessibilityLabel={kind==='post'?'Loading the feed':'Loading events'} accessibilityRole="progressbar" style={{gap:22,opacity:pulse}}>
   {[0,1,2].slice(0,kind==='post'?2:3).map(i=>kind==='post'
-   ?<View key={i} style={{gap:12}}><View style={{flexDirection:'row',gap:10,alignItems:'center'}}><View style={{width:36,height:36,borderRadius:18,backgroundColor:'#20242c'}}/><View style={{gap:7}}>{bar(130)}{bar(90,10)}</View></View>{bar('70%')}<View style={{height:190,borderRadius:14,backgroundColor:'#1b1e25'}}/></View>
+   ?<View key={i} style={{gap:12}}><View style={{flexDirection:'row',gap:10,alignItems:'center'}}><View style={{width:36,height:36,borderRadius:18,backgroundColor:'#20242c'}}/><View style={{gap:7}}>{bar(130)}{bar(90,10)}</View></View>{bar('70%')}<View style={{height:190,borderRadius:14,backgroundColor:'#121418'}}/></View>
    :<View key={i} style={{flexDirection:'row',gap:14,alignItems:'center'}}><View style={{width:46,height:50,borderRadius:10,backgroundColor:'#20242c'}}/><View style={{flex:1,gap:8}}>{bar('75%',14)}{bar('50%',10)}</View></View>)}
  </Animated.View>;
 }

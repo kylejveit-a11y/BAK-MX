@@ -386,5 +386,5 @@ const st={
  crumb:{flexDirection:'row' as const,alignItems:'center' as const,gap:6,paddingHorizontal:14,paddingVertical:8,borderRadius:18,borderWidth:1,borderColor:'#2f74e8'},
  crumbText:{color:colors.text,fontSize:15,fontWeight:'700' as const},
  chip:{paddingHorizontal:13,paddingVertical:7,borderRadius:16,borderWidth:1,borderColor:'#343a45'},
- footer:{position:'absolute' as const,left:0,right:0,bottom:0,padding:16,paddingBottom:30,gap:8,backgroundColor:'rgba(18,20,25,0.96)',borderTopWidth:1,borderTopColor:colors.line},
+ footer:{position:'absolute' as const,left:0,right:0,bottom:0,padding:16,paddingBottom:30,gap:8,backgroundColor:'rgba(8,9,12,0.96)',borderTopWidth:1,borderTopColor:colors.line},
 };

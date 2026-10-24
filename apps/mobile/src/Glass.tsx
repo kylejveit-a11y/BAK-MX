@@ -15,8 +15,8 @@ export const ACCENT='#6AA4FF';
 /** Dark glass surface. Children sit on top. */
 export function Glass({style,children,strong=false}:{style?:StyleProp<ViewStyle>;children?:React.ReactNode;strong?:boolean}){
  const edge={borderWidth:StyleSheet.hairlineWidth,borderColor:'rgba(255,255,255,0.09)'};
- if(liquid)return <GlassView glassEffectStyle="regular" colorScheme="dark" tintColor={strong?'rgba(18,20,25,0.55)':'rgba(18,20,25,0.3)'} style={[{overflow:'hidden'},edge,style]}>{children}</GlassView>;
- if(Platform.OS==='ios')return <BlurView intensity={strong?70:55} tint="systemChromeMaterialDark" style={[{overflow:'hidden'},edge,style]}><View style={[StyleSheet.absoluteFill,{backgroundColor:strong?'rgba(18,20,25,0.55)':'rgba(18,20,25,0.35)'}]}/>{children}</BlurView>;
+ if(liquid)return <GlassView glassEffectStyle="regular" colorScheme="dark" tintColor={strong?'rgba(8,9,12,0.55)':'rgba(8,9,12,0.3)'} style={[{overflow:'hidden'},edge,style]}>{children}</GlassView>;
+ if(Platform.OS==='ios')return <BlurView intensity={strong?70:55} tint="systemChromeMaterialDark" style={[{overflow:'hidden'},edge,style]}><View style={[StyleSheet.absoluteFill,{backgroundColor:strong?'rgba(8,9,12,0.55)':'rgba(8,9,12,0.35)'}]}/>{children}</BlurView>;
  return <View style={[{overflow:'hidden',backgroundColor:'rgba(16,18,23,0.9)'},edge,style]}>{children}</View>;
 }
 
