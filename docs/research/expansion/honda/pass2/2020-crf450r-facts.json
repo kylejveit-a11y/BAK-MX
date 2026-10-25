@@ -1,0 +1,2149 @@
+{
+ "target": {
+  "manufacturer": "Honda",
+  "model": "CRF450R",
+  "model_year": 2020,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "file_name": "ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+  "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+  "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+  "bytes": 8753964,
+  "document_revision": "2020 CRF450R/RX/RWE Owner's Manual (31MKE630)",
+  "kind": "owner's manual",
+  "pdf_pages_used": [
+   30,
+   31,
+   149,
+   150,
+   152,
+   153,
+   154,
+   178,
+   179,
+   180,
+   181,
+   182,
+   186
+  ]
+ },
+ "values": [
+  {
+   "joint": "Cylinder head cover socket bolts",
+   "value": "10",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 180,
+   "printed_page": "175",
+   "manual_item_number": 1
+  },
+  {
+   "joint": "Clutch cover bolts",
+   "value": "10",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 180,
+   "printed_page": "175",
+   "manual_item_number": 2
+  },
+  {
+   "joint": "Water pump cover bolts",
+   "value": "10",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 180,
+   "printed_page": "175",
+   "manual_item_number": 3
+  },
+  {
+   "joint": "Crankshaft hole cap",
+   "value": "15",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Apply grease to the threads.",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 180,
+   "printed_page": "175",
+   "manual_item_number": 4
+  },
+  {
+   "joint": "Oil filter cover bolts",
+   "value": "10",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 180,
+   "printed_page": "175",
+   "manual_item_number": 5
+  },
+  {
+   "joint": "Cylinder head bolts",
+   "value": "50",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Apply engine oil to the threads and seating surface.",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 180,
+   "printed_page": "175",
+   "manual_item_number": 6
+  },
+  {
+   "joint": "Exhaust pipe joint nuts",
+   "value": "20",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 180,
+   "printed_page": "175",
+   "manual_item_number": 7
+  },
+  {
+   "joint": "Drive sprocket bolt",
+   "value": "31",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 180,
+   "printed_page": "175",
+   "manual_item_number": 8
+  },
+  {
+   "joint": "Engine oil drain bolt",
+   "value": "18",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Apply engine oil to the threads and seating surface.",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 180,
+   "printed_page": "175",
+   "manual_item_number": 9
+  },
+  {
+   "joint": "Coolant drain bolt",
+   "value": "10",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 180,
+   "printed_page": "175",
+   "manual_item_number": 10
+  },
+  {
+   "joint": "Steering stem nut",
+   "value": "108",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 1
+  },
+  {
+   "joint": "Fork bridge upper pinch bolts",
+   "value": "22",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 2
+  },
+  {
+   "joint": "Fork bridge lower pinch bolts",
+   "value": "20",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 3
+  },
+  {
+   "joint": "Handlebar upper holder bolts",
+   "value": "22",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 4
+  },
+  {
+   "joint": "Handlebar lower holder nuts",
+   "value": "44",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "U-nut",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 5
+  },
+  {
+   "joint": "Front axle nut",
+   "value": "88",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 6
+  },
+  {
+   "joint": "Axle pinch bolts",
+   "value": "20",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 7
+  },
+  {
+   "joint": "Rear axle nut",
+   "value": "128",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "U-nut",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 8
+  },
+  {
+   "joint": "Chain adjuster lock nuts",
+   "value": "27",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "UBS nut",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 9
+  },
+  {
+   "joint": "Front engine hanger nuts",
+   "value": "54",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 10
+  },
+  {
+   "joint": "Front engine hanger plate nuts",
+   "value": "26",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 10
+  },
+  {
+   "joint": "Lower engine hanger nut",
+   "value": "54",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 11
+  },
+  {
+   "joint": "Cylinder head hanger bolts",
+   "value": "54",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 12
+  },
+  {
+   "joint": "Cylinder head hanger plate bolts",
+   "value": "32",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 13
+  },
+  {
+   "joint": "Rear suspension (upper)",
+   "value": "44",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "U-nut",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 14
+  },
+  {
+   "joint": "Rear suspension (lower)",
+   "value": "44",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "U-nut",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 14
+  },
+  {
+   "joint": "Swingarm pivot nut",
+   "value": "88",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "U-nut",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 15
+  },
+  {
+   "joint": "Fork (fork damper assembly)",
+   "value": "76",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 16
+  },
+  {
+   "joint": "Fork (fork bolt assembly)",
+   "value": "30",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 16
+  },
+  {
+   "joint": "Rear shock arm nuts (swingarm side)",
+   "value": "52",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "U-nut Apply molybdenum oil to the threads and flange surface.",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 17
+  },
+  {
+   "joint": "Rear shock arm nuts (shock link side)",
+   "value": "52",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "U-nut Apply molybdenum oil to the threads and flange surface.",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 17
+  },
+  {
+   "joint": "Rear shock link bolts",
+   "value": "37",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "U-nut Apply molybdenum oil to the threads and flange surface.",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 18
+  },
+  {
+   "joint": "Rear shock spring lock nut",
+   "value": "44",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 19
+  },
+  {
+   "joint": "Battery terminal bolts",
+   "value": "2.0",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 20
+  },
+  {
+   "joint": "Front brake master cylinder holder bolts",
+   "value": "9.9",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176",
+   "manual_item_number": 22
+  },
+  {
+   "joint": "Brake hose oil bolts",
+   "value": "34",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 24
+  },
+  {
+   "joint": "Front brake caliper mounting bolts",
+   "value": "30",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 25
+  },
+  {
+   "joint": "Front brake disc nuts",
+   "value": "16",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "U-nut",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 26
+  },
+  {
+   "joint": "Rear brake disc nuts",
+   "value": "16",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "U-nut",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 27
+  },
+  {
+   "joint": "Brake pedal pivot bolt",
+   "value": "36",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Alock bolt: replace with a new one.",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 28
+  },
+  {
+   "joint": "Spokes (front)",
+   "value": "3.7",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 29
+  },
+  {
+   "joint": "Spokes (rear)",
+   "value": "3.7",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 29
+  },
+  {
+   "joint": "Rim locks",
+   "value": "12",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 30
+  },
+  {
+   "joint": "Drive chain roller (upper)",
+   "value": "12",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Alock bolt: replace with a new one.",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 31
+  },
+  {
+   "joint": "Drive chain roller (lower)",
+   "value": "12",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "U-nut",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 31
+  },
+  {
+   "joint": "Subframe bolts (upper)",
+   "value": "32",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 32
+  },
+  {
+   "joint": "Subframe bolts (lower)",
+   "value": "49",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 32
+  },
+  {
+   "joint": "Fork center bolt",
+   "value": "69",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 33
+  },
+  {
+   "joint": "Fork center bolt lock nut",
+   "value": "28",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 34
+  },
+  {
+   "joint": "Disc cover bolts",
+   "value": "13",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 35
+  },
+  {
+   "joint": "Fork protector socket bolts",
+   "value": "7.0",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Alock bolt: replace with a new one.",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 36
+  },
+  {
+   "joint": "Left/right muffler clamp bolt",
+   "value": "20",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Row labelled for the CRF450R in the owner's manual torque table.",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 37
+  },
+  {
+   "joint": "Driven sprocket nuts",
+   "value": "32",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "U-nut",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 38
+  },
+  {
+   "joint": "Seat mounting bolts",
+   "value": "26",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 39
+  },
+  {
+   "joint": "Front brake reservoir cap screws",
+   "value": "1.0",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 40
+  },
+  {
+   "joint": "Rear brake reservoir cap bolts",
+   "value": "1.0",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 41
+  },
+  {
+   "joint": "Fork air pressure release screw",
+   "value": "1.3",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 42
+  },
+  {
+   "joint": "Right/left muffler mounting bolt A",
+   "value": "26",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 43
+  },
+  {
+   "joint": "Right/left muffler mounting bolt B",
+   "value": "26",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 43
+  },
+  {
+   "joint": "Throttle cable adjuster lock nuts",
+   "value": "4.0",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 44
+  },
+  {
+   "joint": "Rear master cylinder push rod lock nut",
+   "value": "5.9",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 45
+  },
+  {
+   "joint": "Shroud A bolts",
+   "value": "10",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 46
+  },
+  {
+   "joint": "Shroud B bolts",
+   "value": "10",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 47
+  },
+  {
+   "joint": "Shroud C bolts",
+   "value": "5.2",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 48
+  },
+  {
+   "joint": "Shroud D bolts",
+   "value": "5.2",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 49
+  },
+  {
+   "joint": "Engine guard A bolts/washers",
+   "value": "10",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 50
+  },
+  {
+   "joint": "Engine guard B bolt/washer",
+   "value": "10",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 51
+  },
+  {
+   "joint": "Side cover bolts",
+   "value": "10",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 52
+  },
+  {
+   "joint": "Air cleaner housing cover bolts",
+   "value": "10",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 53
+  },
+  {
+   "joint": "Number plate bolts",
+   "value": "10",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 54
+  },
+  {
+   "joint": "Air cleaner retaining bolt",
+   "value": "2.4",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 55
+  },
+  {
+   "joint": "Seat support base mounting bolts",
+   "value": "10",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 56
+  },
+  {
+   "joint": "Battery cable terminal bolt",
+   "value": "7",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 57
+  },
+  {
+   "joint": "Start magnetic switch stay bolt",
+   "value": "12",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 182,
+   "printed_page": "177",
+   "manual_item_number": 58
+  },
+  {
+   "joint": "Fuel pump mounting nuts/cap nut",
+   "value": "11",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "One torque value printed across the CRF450RX bolt row and the CRF450R/RWE nut row of item 21 (checked on the page image).",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176"
+  },
+  {
+   "joint": "Fuel tank bolts",
+   "value": "10",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "One torque value printed across the CRF450RX and CRF450R/RWE rows of item 23 (checked on the page image).",
+    "Use OEM installation procedure; torque alone is not a complete service instruction."
+   ],
+   "pdf_page": 181,
+   "printed_page": "176"
+  },
+  {
+   "joint": "Specifications / Dimensions / Overall length",
+   "value": "2,183",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Dimensions / Overall width",
+   "value": "827",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Dimensions / Overall height",
+   "value": "1,260",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Dimensions / Wheelbase",
+   "value": "1,482",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Dimensions / Seat height",
+   "value": "960",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Dimensions / Footpeg height",
+   "value": "418",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Dimensions / Ground clearance",
+   "value": "328",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Dimensions / Caster angle",
+   "value": "27°22’",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Dimensions / Trail length",
+   "value": "116",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Fuel tank capacity",
+   "value": "6.3",
+   "unit": "L",
+   "property": "specification",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Fork / Oil capacity / Standard (standard spring)",
+   "value": "356",
+   "unit": "cm3",
+   "property": "suspension_setting",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration.",
+    "Fork tube oil amount per fork leg with the standard spring; the handbook gives a maximum, standard and minimum amount for each spring and requires the same amount in both legs."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Fork / Damper oil capacity",
+   "value": "243",
+   "unit": "cm3",
+   "property": "suspension_setting",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Frame / Front suspension travel",
+   "value": "268",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Frame / Front fork stroke",
+   "value": "305",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Frame / Rear wheel travel",
+   "value": "314",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Frame / Front tire size",
+   "value": "80/100-21 51M",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Frame / Rear tire size",
+   "value": "120/80-19 63M",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Frame / Recommended front tire",
+   "value": "DUNLOP MX3SF",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Frame / Recommended rear tire",
+   "value": "DUNLOP MX3S",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Frame / Tire type",
+   "value": "Bias-ply, tube",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Front tire pressure",
+   "value": "100",
+   "unit": "kPa",
+   "property": "pressure",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration.",
+    "OEM cold-tire baseline; measure tires cold. Terrain and aftermarket tires require contextual review."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Rear tire pressure",
+   "value": "100",
+   "unit": "kPa",
+   "property": "pressure",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration.",
+    "OEM cold-tire baseline; measure tires cold. Terrain and aftermarket tires require contextual review."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Engine / Bore x stroke",
+   "value": "96.000 x 62.138",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Engine / Displacement",
+   "value": "449.77",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Engine / Compression ratio",
+   "value": "13.5:1",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Valve clearance / Intake",
+   "value": "0.13 ± 0.03",
+   "unit": "mm",
+   "property": "valve_clearance",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Valve clearance / Exhaust",
+   "value": "0.28 ± 0.03",
+   "unit": "mm",
+   "property": "valve_clearance",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Engine oil capacity / After draining",
+   "value": "1.00",
+   "unit": "L",
+   "property": "oil_capacity",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Engine oil capacity / After draining and oil filter change",
+   "value": "1.04",
+   "unit": "L",
+   "property": "oil_capacity",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Engine oil capacity / After disassembly",
+   "value": "1.35",
+   "unit": "L",
+   "property": "oil_capacity",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Engine idle speed",
+   "value": "2,000 ± 100",
+   "unit": "rpm",
+   "property": "idle_speed",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Coolant capacity / After draining",
+   "value": "1.07",
+   "unit": "L",
+   "property": "coolant",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Coolant capacity / After disassembly",
+   "value": "1.13",
+   "unit": "L",
+   "property": "coolant",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 178,
+   "printed_page": "173"
+  },
+  {
+   "joint": "Specifications / Drive train / Primary reduction",
+   "value": "2.357",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 179,
+   "printed_page": "174"
+  },
+  {
+   "joint": "Specifications / Drive train / Gear ratio I",
+   "value": "2.133",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 179,
+   "printed_page": "174"
+  },
+  {
+   "joint": "Specifications / Drive train / Gear ratio II",
+   "value": "1.706",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 179,
+   "printed_page": "174"
+  },
+  {
+   "joint": "Specifications / Drive train / Gear ratio III",
+   "value": "1.421",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 179,
+   "printed_page": "174"
+  },
+  {
+   "joint": "Specifications / Drive train / Gear ratio IV",
+   "value": "1.211",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 179,
+   "printed_page": "174"
+  },
+  {
+   "joint": "Specifications / Drive train / Gear ratio V",
+   "value": "1.043",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 179,
+   "printed_page": "174"
+  },
+  {
+   "joint": "Specifications / Drive train / Final reduction",
+   "value": "3.769",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 179,
+   "printed_page": "174"
+  },
+  {
+   "joint": "Specifications / Electrical / Battery",
+   "value": "HY85S lithium-ion, 12 V 2.0 Ah (20 HR)",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 179,
+   "printed_page": "174"
+  },
+  {
+   "joint": "Spark plug / Specified type",
+   "value": "NGK SILMAR9A-9S",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 179,
+   "printed_page": "174"
+  },
+  {
+   "joint": "Spark plug / Gap",
+   "value": "0.8 – 0.9",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 179,
+   "printed_page": "174"
+  },
+  {
+   "joint": "Specifications / Electrical / Main fuse",
+   "value": "10",
+   "unit": "A",
+   "property": "specification",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "From the specifications table of the US owner's manual; stock OEM configuration."
+   ],
+   "pdf_page": 179,
+   "printed_page": "174"
+  },
+  {
+   "joint": "Fork / Compression damping adjuster / Standard position",
+   "value": "8",
+   "unit": "clicks",
+   "property": "suspension_setting",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "Counted in clicks counterclockwise (softer) from the stiffest, fully clockwise position; the first click is position 1."
+   ],
+   "pdf_page": 149,
+   "printed_page": "144"
+  },
+  {
+   "joint": "Fork / Rebound damping adjuster / Standard position",
+   "value": "9",
+   "unit": "clicks",
+   "property": "suspension_setting",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "Counted in clicks counterclockwise (softer) from the stiffest, fully clockwise position; the first click is position 1."
+   ],
+   "pdf_page": 149,
+   "printed_page": "144"
+  },
+  {
+   "joint": "Fork / Oil capacity / Minimum (standard spring)",
+   "value": "304",
+   "unit": "cm3",
+   "property": "suspension_setting",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "Fork tube oil amount per fork leg with the standard spring; the handbook gives a maximum, standard and minimum amount for each spring and requires the same amount in both legs."
+   ],
+   "pdf_page": 149,
+   "printed_page": "144"
+  },
+  {
+   "joint": "Fork / Oil capacity / Maximum (standard spring)",
+   "value": "389",
+   "unit": "cm3",
+   "property": "suspension_setting",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "Fork tube oil amount per fork leg with the standard spring; the handbook gives a maximum, standard and minimum amount for each spring and requires the same amount in both legs."
+   ],
+   "pdf_page": 150,
+   "printed_page": "145"
+  },
+  {
+   "joint": "Shock / High speed compression damping adjuster / Standard position",
+   "value": "3",
+   "unit": "turns",
+   "property": "suspension_setting",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "Counted in turns counterclockwise (softer) from the stiffest, fully clockwise position.",
+    "The manual then has the adjuster turned within ±1/4 turn to align the punch marks."
+   ],
+   "pdf_page": 152,
+   "printed_page": "147"
+  },
+  {
+   "joint": "Shock / Low speed compression damping adjuster / Standard position",
+   "value": "9",
+   "unit": "clicks",
+   "property": "suspension_setting",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "Counted in clicks counterclockwise (softer) from the stiffest, fully clockwise position; the first click is position 1."
+   ],
+   "pdf_page": 153,
+   "printed_page": "148"
+  },
+  {
+   "joint": "Shock / Rebound damping adjuster / Standard position",
+   "value": "6–9",
+   "unit": "clicks",
+   "property": "suspension_setting",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "Counted in clicks counterclockwise (softer) from the stiffest, fully clockwise position; within the printed range the adjuster punch mark is aligned with the punch mark on the shock absorber."
+   ],
+   "pdf_page": 153,
+   "printed_page": "148"
+  },
+  {
+   "joint": "Shock / Spring install length / Standard (standard spring)",
+   "value": "237.0",
+   "unit": "mm",
+   "property": "spring_install_length",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "Installed length of the standard-rate shock spring at the standard setting; changing it changes race sag."
+   ],
+   "pdf_page": 152,
+   "printed_page": "147"
+  },
+  {
+   "joint": "Shock / Race sag / Standard (standard spring)",
+   "value": "105",
+   "unit": "mm",
+   "property": "race_sag",
+   "conditions": [
+    "The owner's manual prints this value once for every model it covers, so it applies to the CRF450R. Stock OEM parts only.",
+    "Race sag is the unloaded measurement minus the rider-aboard measurement with the bike at race weight, per the procedure on the cited page."
+   ],
+   "pdf_page": 154,
+   "printed_page": "149"
+  },
+  {
+   "joint": "Fork optional soft spring rate",
+   "value": "4.8",
+   "unit": "N/mm",
+   "property": "spring_rate",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "Optional spring offered as an alternative; not the stock specification. Factory springs may be unmarked; marks alone do not prove spring identity."
+   ],
+   "pdf_page": 186,
+   "printed_page": "181"
+  },
+  {
+   "joint": "Fork standard spring rate",
+   "value": "5.0",
+   "unit": "N/mm",
+   "property": "spring_rate",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "Standard (factory-installed) spring for this model; optional rates are alternatives, not stock specification. Factory springs may be unmarked; marks alone do not prove spring identity."
+   ],
+   "pdf_page": 186,
+   "printed_page": "181"
+  },
+  {
+   "joint": "Fork optional stiff spring rate",
+   "value": "5.2",
+   "unit": "N/mm",
+   "property": "spring_rate",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "Optional spring offered as an alternative; not the stock specification. Factory springs may be unmarked; marks alone do not prove spring identity."
+   ],
+   "pdf_page": 186,
+   "printed_page": "181"
+  },
+  {
+   "joint": "Shock optional soft spring rate",
+   "value": "54",
+   "unit": "N/mm",
+   "property": "spring_rate",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "Optional spring offered as an alternative; not the stock specification. Factory springs may be unmarked; marks alone do not prove spring identity."
+   ],
+   "pdf_page": 186,
+   "printed_page": "181"
+  },
+  {
+   "joint": "Shock standard spring rate",
+   "value": "56",
+   "unit": "N/mm",
+   "property": "spring_rate",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "Standard (factory-installed) spring for this model; optional rates are alternatives, not stock specification. Factory springs may be unmarked; marks alone do not prove spring identity."
+   ],
+   "pdf_page": 186,
+   "printed_page": "181"
+  },
+  {
+   "joint": "Shock optional stiff spring rate",
+   "value": "58",
+   "unit": "N/mm",
+   "property": "spring_rate",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "Optional spring offered as an alternative; not the stock specification. Factory springs may be unmarked; marks alone do not prove spring identity."
+   ],
+   "pdf_page": 186,
+   "printed_page": "181"
+  },
+  {
+   "joint": "Final drive / Standard driven sprocket",
+   "value": "49T (aluminum), 114-link chain",
+   "unit": null,
+   "property": "drive_chain",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "Standard driven sprocket and chain length from the handbook optional-parts table; optional sprockets listed there are alternatives, not stock."
+   ],
+   "pdf_page": 186,
+   "printed_page": "181"
+  },
+  {
+   "joint": "Drive chain / Standard chain",
+   "value": "RK 520TXZ/120RJ",
+   "unit": null,
+   "property": "drive_chain",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only."
+   ],
+   "pdf_page": 186,
+   "printed_page": "181"
+  },
+  {
+   "joint": "Maintenance schedule / Fuel line / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate.",
+    "Schedule note: replace every year."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Fuel line / Replace",
+   "value": "Every 12 races or about 30.0 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate.",
+    "Schedule note: replace every year."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Fuel pump filter / Replace",
+   "value": "Every 12 races or about 30.0 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate.",
+    "Schedule note: replace every year."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Throttle operation / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Air filter / Clean",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate.",
+    "Schedule note: clean after every moto in dusty riding conditions."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Crankcase breather / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Spark plug / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Valve clearance/decompressor system / Inspect",
+   "value": "Every 6 races or about 15.0 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate.",
+    "Schedule note: inspect after the first break-in ride."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Engine oil / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate.",
+    "Schedule note: replace after the first break-in ride.",
+    "Schedule note: replace the engine oil if the clutch discs and plates are replaced."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Engine oil / Replace",
+   "value": "Every 6 races or about 15.0 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate.",
+    "Schedule note: replace after the first break-in ride.",
+    "Schedule note: replace the engine oil if the clutch discs and plates are replaced."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Engine oil filter / Replace",
+   "value": "Every 6 races or about 15.0 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate.",
+    "Schedule note: replace after the first break-in ride."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Engine idle speed / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Piston and piston rings / Replace",
+   "value": "Every 6 races or about 15.0 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Piston pin / Replace",
+   "value": "Every 6 races or about 15.0 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Radiator coolant / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate.",
+    "Schedule note: replace every 2 years; replacement requires mechanical skill."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Cooling system / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Drive chain / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Drive chain / Lubricate",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Drive chain / Replace",
+   "value": "Every 3 races or about 7.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Drive chain slider / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Drive chain roller / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Drive sprocket / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Driven sprocket / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Brake fluid / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate.",
+    "Schedule note: replace every 2 years; replacement requires mechanical skill."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Brake pads wear / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Brake system / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Clutch system / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate.",
+    "Schedule note: replace the engine oil if the clutch discs and plates are replaced."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Control cables / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Control cables / Lubricate",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Exhaust pipe/muffler / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Suspension / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Swingarm/shock linkage / Lubricate",
+   "value": "Every 3 races or about 7.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Fork oil / Replace",
+   "value": "Every 9 races or about 22.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate.",
+    "Schedule note: replace after the first break-in ride."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Nuts, bolts, fasteners / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Wheels/tires / Inspect",
+   "value": "Each race or about 2.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Steering head bearings / Inspect",
+   "value": "Every 9 races or about 22.5 hours",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [
+    "Value printed for the CRF450R in this owner's manual, which also covers other variants. Stock OEM parts only.",
+    "From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate."
+   ],
+   "pdf_page": 31,
+   "printed_page": "26"
+  }
+ ]
+}
