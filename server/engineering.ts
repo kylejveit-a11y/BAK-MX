@@ -1,3 +1,4 @@
+import {factSystem} from '../shared/fact-system.ts';
 import {workshopContext,workshopReferences,type GuidedStep} from './workshop-context.ts';
 import {usConfiguration} from '../shared/garage-fields.ts';
 import {sameBikeScope} from '../shared/bike-identity.ts';
@@ -114,7 +115,7 @@ type Parsed=z.infer<typeof responseSchema>;
 const wireJsonSchema={...responseJsonSchema,properties:{...(responseJsonSchema as {properties:Record<string,unknown>}).properties,specifications:{type:'array',items:obj({claim_id:str})}}};
 function toWire<T extends {verified_claims:Claim[];conversation:{role:string;content:unknown}[]}>(input:T){
  const alias=new Map<string,string>(),real=new Map<string,Claim>();
- const verified_claims=input.verified_claims.map((c,i)=>{const id='c'+(i+1);alias.set(c.id,id);real.set(id,c);return {id,domain:c.domain,...(c.property?{property:c.property}:{}),statement:c.statement,source_locator:c.source_locator.slice(0,140)};});
+ const verified_claims=input.verified_claims.map((c,i)=>{const id='c'+(i+1);alias.set(c.id,id);real.set(id,c);return {id,domain:c.domain,system:factSystem(c),...(c.property?{property:c.property}:{}),statement:c.statement,source_locator:c.source_locator.slice(0,140)};});
  // Earlier replies are context, not evidence: keep what was said and tried, drop the audit lists and identifiers.
  const conversation=input.conversation.map(m=>{const r=m.content as Partial<Parsed>|string|null;if(m.role!=='assistant'||!r||typeof r==='string')return m;return {role:m.role,content:{kind:r.kind,summary:r.summary,answer:r.answer,setup_changes:r.setup_changes,possible_mechanisms:r.hypotheses?.map(h=>h.mechanism),next_step:r.next_step,unknowns:r.unknowns}};});
  return {wire:{...input,verified_claims,conversation},real};

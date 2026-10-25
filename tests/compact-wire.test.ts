@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {generateAnswer} from '../server/engineering.ts';
+import {factSystem} from '../shared/fact-system.ts';
 // The model reads and cites short aliases and never re-types a claim statement; the saved reply must still carry the real
 // claim id and the exact verified statement, and an alias that was never offered must still be refused.
 const bike:any={id:'bike',user_id:'owner',manufacturer:'KTM',model:'450 SX-F',model_year:2025,region:'US',variant:'standard',configuration:{}};
@@ -17,7 +18,7 @@ test('model sees aliases and slim claims; saved reply carries the real id and ex
  let sent:any;
  await withProvider(body=>{sent=JSON.parse(body.input);return ok(reply('c1'));},async()=>{
   const {response}=await generateAnswer(bike,[],[claim] as any,'rear axle torque?',['rear axle nut torque']);
-  assert.deepEqual(sent.verified_claims,[{id:'c1',domain:'chassis',statement:claim.statement,source_locator:'p. 157'}]);
+  assert.deepEqual(sent.verified_claims,[{id:'c1',domain:'chassis',system:factSystem(claim),statement:claim.statement,source_locator:'p. 157'}]);
   assert.ok(!JSON.stringify(sent.verified_claims).includes(id));
   assert.deepEqual(response.evidence_ids,[id]);
   assert.deepEqual(response.specifications,[{claim_id:id,value:claim.statement}]);

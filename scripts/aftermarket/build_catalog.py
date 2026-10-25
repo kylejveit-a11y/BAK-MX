@@ -226,8 +226,19 @@ print(len(products),'products',len(feedback),'feedback',len(builds),'builds;',le
 APP_OUT=os.environ.get('APP_OUT')
 if APP_OUT:
     SYSTEMS=['exhaust','suspension','engine','clutch','tuning','intake','gearing','brakes','controls','chassis','wheels','protection','body']
-    JUNK=re.compile(r'\b(testers?|diagnostic|timing (?:kit|light)|fuel pack|rotopax|fuel mixture|tool|tools|stand|lift|wrench|socket|torx|battery|batteries|charger|tender|light|lights|lamp|led|helmet|jersey|glove|gloves|boot|boots|goggle|goggles|decal|decals|graphic|graphics|sticker|backgrounds?|grease|lube|lubricant|cleaner|polish|wash|tie[- ]?downs?|ramp|bag|luggage|backpack|gps|phone|camera|hour ?meter|tach|speedometer|computer|radio|intercom|cover kit|bike cover|muffler plug|exhaust plug|packing|repack|wrap|manual|book|poster|key ?chain|mat|funnel|sealant|thread ?lock|loctite|zip ?ties?|fluid|coolant|oil(?! ?filter)|gift card|t-?shirt|hat|hoodie|sticker|tape(?! grip)|brush|towel|gauge|tie rod|winch|plow|rack|basket(?! clutch)|cooler|mirror|horn|turn signal|license|stand|umbrella)\b',re.I)
-    RULES=[('tuning',r'\b(ecu|e\.c\.u|ignition (?:box|module|curve)|map ?switch|map select|tuner|tuning|fuel controller|power commander|programmable ignition|ignition(?! covers?)|re-?flash|remap|wi-?fi|connectivity|fi calibration|power tuner|launch control|traction control|engine control|fuel injection kit|injector|throttle body|fuel pump|carburetor|carb\b|jet kit|main jet|pilot jet|needle)'),
+    JUNK=re.compile(r'\b(training wheels?|stacyc|testers?|diagnostic|timing (?:kit|light)|fuel pack|rotopax|fuel mixture|tool|tools|stand|lift|wrench|socket|torx|battery|batteries|charger|tender|light|lights|lamp|led|helmet|jersey|glove|gloves|boot|boots|goggle|goggles|decal|decals|graphic|graphics|sticker|backgrounds?|grease|lube|lubricant|cleaner|polish|wash|tie[- ]?downs?|ramp|bag|luggage|backpack|gps|phone|camera|hour ?meter|tach|speedometer|computer|radio|intercom|cover kit|bike cover|muffler plug|exhaust plug|packing|repack|wrap|manual|book|poster|key ?chain|mat|funnel|sealant|thread ?lock|loctite|zip ?ties?|fluid|coolant|oil(?! ?filter)|gift card|t-?shirt|hat|hoodie|sticker|tape(?! grip)|brush|towel|gauge|tie rod|winch|plow|rack|basket(?! clutch)|cooler|mirror|horn|turn signal|license|stand|umbrella)\b',re.I)
+    # Specific names first: words like "spring", "hub", "valve", "chain" or "ignition" belong to several systems, so the
+    # parts they name are pinned here before the broad rules below can claim them (audit 2026-10-25: clutch kits filed under
+    # suspension, brake bleeders under suspension, cam chain tensioners under gearing, radiator hoses under controls).
+    RULES=[('protection',r'\b(swing ?arm guards?|case savers?|(?:ignition )?wire guards?|nipple guards?|(?:(?:brake|clutch|front|rear) (?:(?:and|&) (?:brake|clutch) )?)?master cylinder guards?|slave cylinder guards?(?: set)?|reservoir guards?|master cylinder protection)\b'),
+           ('body',r'\b(radiator shrouds?|shroud sets?|fender washers?)\b'),
+           ('wheels',r'\bvalve stem (?:grommets?|caps?)\b|\btire valves?\b'),
+           ('brakes',r'\b(master cylinder extenders?|brake bleeder(?: screws?| caps?)?|brake return springs?|brake (?:cable|line|hose) guides?)\b'),
+           ('controls',r'\b(brake (?:and|&) clutch (?:lever )?(?:sets?|packs?)|clutch (?:and|&) brake (?:lever )?(?:sets?|packs?|pairs?)|lever (?:sets?|packs?|pairs?)|throttle cams?)\b'),
+           ('engine',r'\b((?:timing|cam) chains?(?: tensioners?| guides?)?|valve springs?|valve (?:and|&) springs?|radiator hoses?|silicone hoses?|coolant hoses?|hose kits?|power ?valve)\b'),
+           ('clutch',r'\b(pressure plates?|inner hubs?|clutch springs?)\b'),
+           ('chassis',r'\b(kick ?stands?|axle adjusters?|chain adjusters?|adjuster wheels?)\b'),
+           ('tuning',r'\b(ecu|e\.c\.u|ignition (?:box|module|curve)|map ?switch|map select|tuner|tuning|fuel controller|power commander|programmable ignition|ignition(?! covers?)|re-?flash|remap|wi-?fi|connectivity|fi calibration|power tuner|launch control|traction control|engine control|fuel injection kit|injector|throttle body|fuel pump|carburetor|carb\b|jet kit|main jet|pilot jet|needle)'),
            ('controls',r'\b(handlebars?|fat ?bar|bar pad|grips?|levers?|perch|throttle tube|throttle|foot ?pegs?|pegs?|bar mounts?|bar clamps?|handguards?|hand guards?|brush guards?|kill switch|start button|shift(?:er| lever)|gear lever|brake pedal|kick ?start(?:er)?|hot start|clutch cable|throttle cable|bar riser)\b'),
            ('protection',r'\b(skid ?plates?|glide ?plates?|bash ?plates?|linkage guards?|link guards?|disc guards?|disk guards?|rotor guards?|caliper guards?|brake disc guards?)\b'),
            ('chassis',r'\b(steering (?:stem |head )?bearings?|swing ?arm bearings?|engine mounts?|engine braces?|engine brace set|engine hangers?|head stays?|frame hardware)\b'),
@@ -279,11 +290,39 @@ if APP_OUT:
     items=[];ikey={};bikes_out={}
     # testers and magazines are never named to riders: their findings read as "testers found"
     # testers and magazines are never named to riders (textclean.anon)
+    # A part made for another maker's bikes never shows on this family's bikes. Retailer pages for one bike list other
+    # makers' accessories (KTM PowerParts on a Triumph page, a "Yamaha YZ/YZF" hardware kit on a KTM page).
+    OEM={'KTM':r'^(?:KTM|KTM PowerParts)\b','Husqvarna':r'^Husqvarna\b','GasGas':r'^Gas ?Gas\b','Yamaha':r'^(?:Yamaha|GYTR)\b',
+         'Honda':r'^(?:Honda|Pro Honda|HRC)\b','Kawasaki':r'^Kawasaki\b','Triumph':r'^Triumph\b'}
+    NAMED={'KTM':r'\bKTM\b|PowerParts','Husqvarna':r'\bHusqvarna\b|\bHusky\b','GasGas':r'\bGas ?Gas\b','Yamaha':r'\bYamaha\b|\bGYTR\b|\bYZ ?\d{2,3}',
+           'Honda':r'\bHonda\b|\bHRC\b|\bCRF ?\d{3}','Kawasaki':r'\bKawasaki\b|\bKX ?\d{3}','Triumph':r'\bTriumph\b','Suzuki':r'\bSuzuki\b|\bRM-?Z\b',
+           'Beta':r'\bBeta\b','Sherco':r'\bSherco\b'}
+    def other_maker(p):
+        brand=str(p.get('brand') or '').strip(); name=str(p.get('product') or '')
+        if any(re.search(rx,brand,re.I) for mk,rx in OEM.items() if mk not in makes): return True
+        # only a maker named as what the part is ("Honda CR/CRF Hardware Kit", "KTM 2-Stroke Pipe Mounts"), not a
+        # universal part's "for KTM, Husqvarna, Yamaha ..." list, which retailers also show on bikes it isn't listed for
+        if brand and name.lower().startswith(brand.lower()+' '): name=name[len(brand)+1:]
+        head=re.split(r'\b(?:for|fits?|fitting|compatible with|universal|w/)\b|[(|]',name,maxsplit=1,flags=re.I)[0]
+        named=[mk for mk,rx in NAMED.items() if re.search(rx,head,re.I)]
+        # a bracket that names only other makers' bikes: "(KTM motocross)"
+        for par in re.findall(r'\(([^)]*)\)',name):
+            pn=[mk for mk,rx in NAMED.items() if re.search(rx,par,re.I)]
+            if pn and not any(mk in makes for mk in pn): return True
+        own=[mk for mk in named if mk in makes]
+        return bool(named) and not own
+    def outside_years(p,y):
+        # a year range in the part's own title ("... 2019-2022") limits it, even when a retailer lists it for later bikes
+        m=re.search(r'\b(20[12]\d)\s*[-–]\s*(20[12]\d)\b',str(p.get('product') or ''))
+        return bool(m) and not int(m.group(1))<=y<=int(m.group(2))
+    dropped=collections.Counter()
     for (mk,model,y),ids in sorted(bike.items()):
         lst=set()
         for i in ids:
             p=byid[i]; s=system_of(p)
             if not s: continue
+            if other_maker(p): dropped['other maker']+=1; continue
+            if outside_years(p,y): dropped['outside title years']+=1; continue
             src=src_of(p); b=bi(brand_name(p.get('brand')) if src=='research' else p.get('brand')); pns=sorted(p.get('part_numbers') or [])
             name=clean(brands[b],p.get('product'))
             key=(b,tuple(pns)) if pns else (b,re.sub(r'[^a-z0-9]','',name.lower()))
@@ -338,6 +377,26 @@ if APP_OUT:
             elif s=='tuning' and INJECTION.search(name+' '+str(p.get('subcategory') or '')): it['k']='i'
             lst.add(ikey[key])
         srt=sorted(lst); bikes_out[f'{mk}|{model}|{y}']=[v-(srt[i-1] if i else 0) for i,v in enumerate(srt)]  # delta-encoded item indexes
+    # The same part listed twice (same brand, name and part numbers once trimmed) shows once; sellers are combined.
+    canon={};alias={}
+    for i,it in enumerate(items):
+        k=(it['b'],re.sub(r'[^a-z0-9]','',it['n'].lower()),it['p'])
+        if k in canon:
+            j=canon[k];alias[i]=j;keep=items[j]
+            for u in it['u']:
+                if len(keep['u'])<2 and all(c!=u[0] for c,_,_ in keep['u']): keep['u'].append(u)
+            for f in ('r','conf','w','c','t','sv','k','cl','ws','vr'):
+                if it.get(f) and not keep.get(f): keep[f]=it[f]
+        else: canon[k]=i
+    if alias:
+        keepidx=[i for i in range(len(items)) if i not in alias]; newpos={old:n for n,old in enumerate(keepidx)}
+        for bk,deltas in bikes_out.items():
+            idx=[];acc=0
+            for n,d in enumerate(deltas): acc=d if n==0 else acc+d; idx.append(acc)
+            srt=sorted({newpos[alias.get(i,i)] for i in idx})
+            bikes_out[bk]=[v-(srt[n-1] if n else 0) for n,v in enumerate(srt)]
+        items=[items[i] for i in keepidx]
+    print('app filters',fam_dir.rstrip('/').split('/')[-1],dict(dropped),'merged duplicates',len(alias))
     out_items=[]
     for it in items:
         o={'b':it['b'],'n':it['n'],'s':it['s']}

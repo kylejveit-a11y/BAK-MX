@@ -11,6 +11,7 @@ def drop_bookkeeping(s):
     return ' '.join(p for p in parts if not BOOKKEEPING.search(p)).strip()
 def anon(s):
     s=drop_bookkeeping(s)
+    s=re.sub(r'\s{2,}',' ',re.sub(r'[^.;]*\b[\w-]+\.json\b[^.;]*[.;]?',' ',s)).strip()   # sentences about our own research files
     m=SOURCE_PREFIX.match(s)
     if m and (NAMES.search(m.group(0)) or re.search(r'\b(tester|forum|thread|owner|review|test)\b',m.group(0),re.I)): s=s[m.end():]
     s=re.sub(r'\s*\((?:[^)]*\b(?:pass-?\d|item|record|id)\b[^)]*)\)','',s,flags=re.I)   # internal research references

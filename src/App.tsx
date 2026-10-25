@@ -1,3 +1,4 @@
+import {factLabel} from '../shared/fact-system';
 import {authErrorText} from '../shared/auth-errors';
 import {cleanVin} from '../shared/vin';
 import {SupportPicker,SupportedBikes} from './BikeSupport';
@@ -214,7 +215,7 @@ function SpecsForBike({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
  const [claims,setClaims]=useState<Claim[]>([]),[error,setError]=useState(''),[loading,setLoading]=useState(false),[query,setQuery]=useState(''),[found,setFound]=useState<Claim[]|null>(null),[searching,setSearching]=useState(false),[group,setGroup]=useState('');
  useEffect(()=>{let live=true;setClaims([]);setError('');setFound(null);setQuery('');if(bike){setLoading(true);api<Claim[]>('/claims?bike_id='+bike.id).then(d=>{if(live)setClaims(d.filter(c=>c.manufacturer===bike.manufacturer&&c.model===bike.model&&c.model_year===bike.model_year&&c.variant===bike.variant&&c.region===bike.region&&c.status==='VERIFIED'&&!c.has_conflict))}).catch(e=>{if(live)setError(e.message)}).finally(()=>{if(live)setLoading(false)})}return()=>{live=false}},[bike?.id]);
  async function search(e:FormEvent){e.preventDefault();if(!bike)return;const q=query.trim();if(!q){setFound(null);return;}setSearching(true);setError('');try{setFound(await api<Claim[]>('/claims/search?bike_id='+bike.id+'&q='+encodeURIComponent(q)));}catch(err){setError((err as Error).message);}finally{setSearching(false);}}
- const label=(c:Claim)=>c.property?c.property.replace(/_/g,' '):c.domain.replace(/_/g,' ');
+ const label=(c:Claim)=>factLabel(c);
  const card=(c:Claim)=><article key={c.id}><span className="eyebrow">{label(c)} · {c.status}</span><h3>{c.statement}</h3><p>{c.model_year} · {c.variant} · {c.region}</p>{/^https?:\/\//.test(c.source_url)&&<a href={c.source_url} target="_blank" rel="noreferrer">View source <ArrowUpRight size={14}/></a>}<small>{c.source_locator}</small></article>;
  const groups=new Map<string,Claim[]>();for(const c of claims){const k=label(c);groups.set(k,[...(groups.get(k)??[]),c]);}
  const ordered=[...groups.entries()].sort((a,b)=>a[0].localeCompare(b[0]));
