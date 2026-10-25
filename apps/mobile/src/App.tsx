@@ -9,7 +9,7 @@ import {BikeWheel} from './Wheel';
 import {DateField,recentDays,formatValue} from './DateSheet';
 import {BikePhotos,BikeCover,useBikePhotos} from './BikePhotos';
 import {AttachedPhotos,MessagePhotos} from './PhotoUI';
-import {chooseSource,pickImages,uploadPhoto,type Photo} from './photos';
+import {chooseSource,pickImages,uploadPhoto,type Photo,pickClipFrames,chooseChatSource} from './photos';
 import {success} from './haptics';
 import {FloatingTabBar,GlassHeader,HeaderButton} from './Glass';
 import {SafeAreaProvider,useSafeAreaInsets} from 'react-native-safe-area-context';
@@ -162,7 +162,7 @@ function Chat(props:BottomTabScreenProps<Tabs,'Ask BAK'>){const{bike}=useContext
 function useAlive(){const alive=useRef(true);useEffect(()=>{alive.current=true;return()=>{alive.current=false;};},[]);return alive;}
 function ChatForBike({route}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  const{bike,session,reload}=useContext(Ctx),[aiOk,setAiOk]=useState(()=>readProgress<boolean>(session.user.id,'ai-consent-'+AI_CONSENT_VERSION,false)===true),[triage,setTriage]=useState(false),[rideLogs,setRideLogs]=useState<SetupLog[]>([]),[threads,setThreads]=useState<Conversation[]>([]),[id,setId]=useProgress(session.user.id,`chat-thread-${bike?.id??'none'}`,''),[messages,setMessages]=useState<Message[]>([]),[draft,setDraft,draftError]=useProgress(session.user.id,`chat-draft-${bike?.id??'none'}`,''),[mode,setMode]=useState<Conversation['mode']>('ask'),[notice,setNotice]=useState(''),[busy,setBusy]=useState(false);
- const[attached,setAttached]=useState<Photo[]>([]),[uploading,setUploading]=useState(0);
+ const[attached,setAttached]=useState<Photo[]>([]),[clip,setClip]=useState<{duration:number;frames:number[]}|null>(null),[uploading,setUploading]=useState(0);
  const[agreedBefore]=useState(()=>AI_CONSENT_PREVIOUS.some(v=>readProgress<boolean>(session.user.id,'ai-consent-'+v,false)===true));
  const returning=()=>agreedBefore||messages.length>0||threads.length>0;
  const[note,setNote,noteError]=useProgress(session.user.id,`tuning-note-draft-${bike?.id??'none'}`,''),[savedNotes,setSavedNotes,saveNoteError]=useProgress<{id:string;at:string;text:string;conversation:string}[]>(session.user.id,`tuning-notes-${bike?.id??'none'}`,[]);
@@ -183,7 +183,7 @@ function ChatForBike({route}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  heardRef.current=t=>{const cmd=parseGuidedInput(t,true);if(cmd.kind==='ignore'||cmd.kind==='wake')return;if(cmd.kind==='sleep'){voice.disable();setJobLine('Workshop mode paused.');return;}if(cmd.kind==='question'){if(sending.current){voice.speak('Still working on the last one.');return;}void send(cmd.text);return;}say(job.handle(cmd));};
  function submit(){const typed=draft.trim();if(job.run&&typed){const cmd=parseGuidedInput(typed,false);if(cmd.kind!=='question'&&cmd.kind!=='ignore'&&cmd.kind!=='wake'){setDraft('');if(cmd.kind==='sleep')voice.disable();else say(job.handle(cmd));return;}}void send();}
  async function send(spoken?:string){
-  const photosNow=spoken===undefined?attached:[];
+  const photosNow=spoken===undefined?attached:[],clipNow=spoken===undefined?clip:null;
   const text=(spoken??draft).trim()||(photosNow.length?'What do you see in these photos?':'');
   if(!bike||!text.trim()||sending.current)return;
   sending.current=true;refreshVersion.current.invalidate();setBusy(true);setNotice('');
@@ -191,9 +191,9 @@ function ChatForBike({route}:BottomTabScreenProps<Tabs,'Ask BAK'>){
    let conversation=id;
    if(!conversation){const body={bike_id:bike.id,title:text.trim().slice(0,100),mode},attemptKey=`conversation-create-${bike.id}-${mode}`,attempt=createAttempt(readProgress(session.user.id,attemptKey,null),body,randomUUID);writeProgress(session.user.id,attemptKey,attempt);const r=await api<Conversation>('/api/conversations','POST',{...body,create_id:attempt.id});if(!alive.current)return;conversation=r.id;if(setId(conversation)){try{writeProgress(session.user.id,attemptKey,null);}catch{}}setThreads(old=>old.some(t=>t.id===r.id)?old:[r,...old]);}
    rememberRequest(retryRequest(request.current,text,conversation,randomUUID));
-   const sent=await api<{message:Message;request_id:string}>('/api/chat','POST',{conversation_id:conversation,message:text,request_id:request.current!.id,...(job.guided?{guided:job.guided}:{}),...(voice.on?{voice:true}:{}),...(photosNow.length?{photo_ids:photosNow.map(p=>p.id)}:{})});
+   const sent=await api<{message:Message;request_id:string}>('/api/chat','POST',{conversation_id:conversation,message:text,request_id:request.current!.id,...(job.guided?{guided:job.guided}:{}),...(voice.on?{voice:true}:{}),...(photosNow.length?{photo_ids:photosNow.map(p=>p.id),...(clipNow?{media:{kind:'clip' as const,...clipNow}}:{})}:{})});
    if(!alive.current)return;
-   setMessages(old=>[...old,sent.message]);if(spoken===undefined){setDraft('');setAttached([]);}rememberRequest(null);
+   setMessages(old=>[...old,sent.message]);if(spoken===undefined){setDraft('');setAttached([]);setClip(null);}rememberRequest(null);
    if(voice.on&&sent.message.response)voice.speak(toSpeech(sent.message.response.answer||sent.message.response.summary));
    const r=await api<Message[]>(`/api/messages?conversation_id=${conversation}`);
    if(!alive.current)return;
@@ -207,12 +207,13 @@ function ChatForBike({route}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  useEffect(()=>{const t=route.params?.camera;if(!t||usedLinkTokens.has(t)||!bike||!aiOk)return;usedLinkTokens.add(t);void attach('camera');},[route.params?.camera,bike?.id,aiOk]);
  const{bikes,select}=useContext(Ctx);
  const canSend=!busy&&!!bike&&!uploading&&(!!draft.trim()||attached.length>0)&&draft.length<=8000;
- async function attach(from?:'camera'|'library'){if(attached.length>=4||!bike)return;const source=from??await chooseSource('Show BAK');if(!source)return;try{const picked=await pickImages(source,4-attached.length);if(!picked.length)return;setUploading(picked.length);for(const a of picked){const p=await uploadPhoto(a,'chat',bike.id);setAttached(old=>[...old,p]);setUploading(n=>Math.max(0,n-1));}}catch(e){setNotice(errorText(e));}finally{setUploading(0);}}
+ async function attachClip(){if(attached.length||!bike)return;try{const c=await pickClipFrames();if(!c)return;setUploading(c.frames.length);const done:typeof attached=[];for(const f of c.frames){done.push(await uploadPhoto(f.asset,'chat',bike.id));setUploading(n=>Math.max(0,n-1));}setAttached(done);setClip({duration:c.duration,frames:c.frames.map(f=>Math.round(f.time*100)/100)});}catch(e){setNotice(errorText(e));}finally{setUploading(0);}}
+ async function attach(from?:'camera'|'library'){if(attached.length>=4||clip||!bike)return;const source=from??await chooseChatSource();if(!source)return;if(source==='video'){await attachClip();return;}try{const picked=await pickImages(source,4-attached.length);if(!picked.length)return;setUploading(picked.length);for(const a of picked){const p=await uploadPhoto(a,'chat',bike.id);setAttached(old=>[...old,p]);setUploading(n=>Math.max(0,n-1));}}catch(e){setNotice(errorText(e));}finally{setUploading(0);}}
  const composer=aiOk&&bike&&!triage?<View style={{gap:2}}>
   {busy&&<WorkingLine/>}
-  {(attached.length>0||uploading>0)&&<View style={{paddingHorizontal:12,paddingTop:10}}><AttachedPhotos photos={attached} uploading={uploading} size={60} onRemove={id=>{setAttached(old=>old.filter(p=>p.id!==id));void api('/api/photos?id='+id,'DELETE').catch(()=>{});}}/></View>}
+  {(attached.length>0||uploading>0)&&<View style={{paddingHorizontal:12,paddingTop:10}}>{clip&&<Text style={{color:'#adb5c1',fontSize:12.5,marginBottom:6}}>Clip · {attached.length} frames from {clip.duration.toFixed(1)} s · BAK reads them in order</Text>}<AttachedPhotos photos={attached} uploading={uploading} size={clip?44:60} onRemove={id=>{if(clip){const all=attached;setAttached([]);setClip(null);for(const p of all)void api('/api/photos?id='+p.id,'DELETE').catch(()=>{});return;}setAttached(old=>old.filter(p=>p.id!==id));void api('/api/photos?id='+id,'DELETE').catch(()=>{});}}/></View>}
   <View style={{flexDirection:'row',alignItems:'flex-end',gap:6,paddingLeft:6,paddingRight:6,paddingVertical:6}}>
-   <Pressable accessibilityRole="button" accessibilityLabel="Add a photo for BAK" disabled={busy||attached.length>=4||!!uploading} onPress={()=>void attach()} hitSlop={6} style={({pressed})=>({width:38,height:38,borderRadius:19,alignItems:'center',justifyContent:'center',opacity:busy||attached.length>=4?0.35:pressed?0.6:1})}><Icon name="camera" size={22} color="#c9cfd9"/></Pressable>
+   <Pressable accessibilityRole="button" accessibilityLabel="Add photos or a riding clip for BAK" disabled={busy||attached.length>=4||!!clip||!!uploading} onPress={()=>void attach()} hitSlop={6} style={({pressed})=>({width:38,height:38,borderRadius:19,alignItems:'center',justifyContent:'center',opacity:busy||attached.length>=4?0.35:pressed?0.6:1})}><Icon name="camera" size={22} color="#c9cfd9"/></Pressable>
    <TextInput accessibilityLabel="Message BAK" multiline editable={!busy} value={draft} onChangeText={setDraft} maxLength={8000} placeholder={job.run?'Ask about this step, or type next / back':'What’s the bike doing?'} placeholderTextColor="#7d8593" style={{flex:1,color:colors.text,fontSize:16,lineHeight:21,maxHeight:130,paddingTop:9,paddingBottom:9}}/>
    <Pressable haptic="press" accessibilityRole="button" accessibilityLabel="Send to BAK" accessibilityState={{disabled:!canSend}} disabled={!canSend} onPress={submit} style={({pressed})=>[{width:38,height:38,borderRadius:19,backgroundColor:canSend?'transparent':'#23272f',alignItems:'center',justifyContent:'center'},canSend&&blueLift,pressed&&{transform:[{translateY:1}]}]}>{({pressed})=><>{canSend&&<BlueFace radius={19} pressed={pressed}/>}{busy?<ActivityIndicator size="small" color={colors.text}/>:<Icon name="arrowUp" size={20} color={canSend?'#ffffff':'#7d8593'} weight={2.2}/>}</>}</Pressable>
   </View>

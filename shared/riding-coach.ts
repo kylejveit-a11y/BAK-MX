@@ -1,0 +1,184 @@
+// Riding coaching for Ask BAK: fundamentals, every core skill, every kind of riding, how to read a riding photo or a
+// clip, and how to read a track from pictures. Sent with every request as reference data (like setup_knowledge), so
+// coaching answers stay consistent and specific. Written in BAK's own words from established coaching practice.
+// Coaching is general guidance, never a substitute for in-person coaching, and never pushes a rider past their level.
+export const COACHING_VERSION='bak-coach-1';
+
+type Fault={fault:string;looks_like:string;why:string;fix:string;drill?:string};
+type Skill={id:string;skill:string;goal:string;keys:string[];faults:Fault[];setup_link?:string};
+
+/** The attack position and the habits every other skill is built on. */
+export const fundamentals={
+ standing_attack_position:[
+  'Balls of the feet on the pegs, ankles flexed, heels slightly lower than the toes so the legs can absorb; toes pointing forward, not out.',
+  'Knees in against the bike: grip with the inside of the knees and lower legs so the legs hold the rider and the arms stay light.',
+  'Hips back over the pegs, knees and hips bent, back flat; chest forward over the bars, head over or slightly ahead of the bar clamp.',
+  'Elbows up and out to roughly bar height so the arms can pull and push and absorb; never locked straight.',
+  'Eyes up and ahead: look where the bike needs to go next, two features ahead, not at the front fender.',
+  'Fingers do the gripping lightly; one or two fingers covering clutch and front brake. A death grip causes arm pump.'],
+ seated_position:[
+  'In corners sit forward, right up against the tank where the seat meets it, so weight is over the front tire.',
+  'Outside elbow up; inside leg forward and up near the front axle in a corner, foot ready, not dragging behind.',
+  'Weight the outside peg through the corner even when seated; the bike leans more than the body.'],
+ core_habits:[
+  'Smooth, progressive inputs: roll the throttle and squeeze the brakes; chopping either upsets the chassis.',
+  'Use the legs, not the arms, to hold on and to absorb; the upper body stays loose.',
+  'Vision leads everything: the bike follows the eyes. Pick the exit before turning in.',
+  'Clutch is a control, not just for shifting: cover it in corners, starts and technical sections.',
+  'Stand whenever the ground is rough and the speed is up; sit to turn and to put weight on the rear for drive.',
+  'Breathing and a relaxed grip delay arm pump more than any part does; warm up before the first moto.'],
+ common_photo_cues:[
+  'Elbows dropped below the grips: arms cannot absorb or pull, often paired with arm pump and a heavy front end in ruts.',
+  'Sitting on the rear fender or hips behind the pegs when standing: rear-heavy, front pushes and the bike wanders.',
+  'Head down looking at the front wheel: late reactions, poor line choice.',
+  'Toes pointed out or arches on the pegs: feet catch ruts, less ankle travel, weaker grip.',
+  'Gap between knees and the bike: rider holding on with arms.',
+  'Locked straight arms: no absorption, every hit goes into the shoulders.']
+};
+
+export const skills:Skill[]=[
+ {id:'starts',skill:'Gate starts',goal:'Get off the line straight with the front down and the rear hooked up.',
+  keys:['Pick a gate with a clean, packed pad and a straight line to the first turn; prepare the rut behind the gate where allowed.','Holeshot device set, gear chosen for the surface (often second on a four-stroke; first on a small bike or a slick pad).',
+   'Body forward: chest over the bars, elbows up, butt on the front of the seat, feet on the pegs or one ready; eyes on the gate.','Hold steady revs (not bouncing off the limiter), release the clutch as the gate drops, feed it out, then fan it if the front lifts.',
+   'Shift early and stay low through the first gears; pull your feet up to the pegs as soon as the bike is driving.'],
+  faults:[{fault:'Front wheels up off the gate',looks_like:'Front tire in the air, rider sitting upright or back.',why:'Weight too far back, clutch dumped, too low a gear or too many revs.',fix:'Move forward on the seat and over the bars, use the holeshot device, slip the clutch and short-shift.',drill:'Ten practice starts from a gate or line, filming side-on, focusing only on body position at the drop.'},
+   {fault:'Rear spins and the bike crosses up',looks_like:'Roost, rear stepping sideways, rider fighting the bars.',why:'Too many revs or a dirty start pad; weight off the rear.',fix:'Lower revs, sweep the pad, keep weight centered, slip the clutch a little longer.'},
+   {fault:'Slow reaction',looks_like:'Others ahead within the first metres.',why:'Watching the starter or the wrong cue.',fix:'Watch the base of the gate pin or the gate itself; react to movement, not the card.'}],
+  setup_link:'Holeshot device, gearing and launch control maps change how forgiving starts are; tire pressure on a hard pad.'},
+ {id:'braking',skill:'Braking',goal:'Scrub speed late and straight, with the bike settled for the turn.',
+  keys:['Most stopping power is the front brake; the rear steadies the bike and helps it settle and turn.','Brake in a straight line while standing, then sit and turn as you come off the brakes.',
+   'Through braking bumps stand, keep the knees in, hips back over the pegs (not on the fender), arms loose; let the bike move.','Squeeze, do not grab: progressive pressure keeps the fork from diving and the front from tucking.',
+   'Cover the clutch; pull it in when the rear starts to chatter or the engine is about to stall.'],
+  faults:[{fault:'Rear brake lock and stall',looks_like:'Rear tire sliding or skipping, engine dying into a turn.',why:'Too much rear brake, no clutch.',fix:'Lighter rear, more front, cover and use the clutch.'},
+   {fault:'Braking too early, coasting into the turn',looks_like:'Rider upright and off the brakes well before the turn; speed dies mid-corner.',why:'Not trusting the front, looking too close.',fix:'Pick a later braking marker and move it a bike length at a time.'},
+   {fault:'Fork dives and front tucks on the brakes',looks_like:'Front end compressed deep, bars turning in.',why:'Grabbed front brake, weight too far forward while still braking hard.',fix:'Progressive front brake, hips back while braking, then move forward as you release.'}],
+  setup_link:'Fork compression and oil level, rear rebound and rider sag change braking stability; braking-bump chatter can be a damping problem, not a skill problem.'},
+ {id:'cornering_ruts',skill:'Cornering in ruts',goal:'Commit to the rut and carry speed out of it.',
+  keys:['Pick the rut early and look through it to the exit; the bike follows the eyes.','Sit forward on the tank, inside leg up and forward near the front axle, outside elbow up, outside knee pressing the bike.',
+   'Lean the bike with the rut and keep the upper body over the bike; steady, light throttle through the rut.','Keep the front wheel in the rut: smooth throttle, not chops; brake before the rut, not in it.'],
+  faults:[{fault:'Front wheel climbs out of the rut',looks_like:'Front tire up on the rut edge, rider steering hard.',why:'Weight too far back, entering too fast, looking at the rut instead of the exit.',fix:'Sit further forward, enter slower and accelerate through, look at the exit.'},
+   {fault:'Inside foot down and dragging',looks_like:'Foot behind the rider, leg straight back on the ground.',why:'Lack of confidence or weight back.',fix:'Foot forward and up, toes up; weight on the outside peg.',drill:'Figure eights in a rutted turn, a dozen each way, filming from the front.'},
+   {fault:'Stalling in the rut',looks_like:'Bike stops mid-rut, rider paddles.',why:'Wrong gear, no clutch.',fix:'Gear lower or use the clutch to keep revs up.'}],
+  setup_link:'Fork height in the clamps, front sag and fork compression change how willingly the front sits in a rut.'},
+ {id:'cornering_flat',skill:'Flat and off-camber corners',goal:'Find traction where there is no berm or rut.',
+  keys:['Sit forward, inside leg forward, weight pressed into the outside peg and the outside knee.','Keep the body upright over the bike and lean the bike under you; the tires bite more when your weight is over the contact patch.',
+   'Brake and finish braking before the lean; roll the throttle smoothly, use the clutch to control wheelspin.','Off-camber: weight the downhill (outside) peg hard and keep the bike as upright as you can; look uphill toward the exit.'],
+  faults:[{fault:'Front washes out',looks_like:'Front sliding wide, rider leaning with the bike or sitting back.',why:'Weight off the front, body leaned in with the bike, too much speed or brake.',fix:'Sit forward, body upright, outside peg weighted, release the brake before the lean.'},
+   {fault:'Rear steps out and highsides risk',looks_like:'Rear swinging wide on the exit, rider snapping the throttle.',why:'Abrupt throttle on a slick surface.',fix:'Higher gear, roll on, use the clutch, stay seated to weight the rear.'}],
+  setup_link:'On slick flat turns tire pressure, tire choice and a smoother map matter as much as clickers.'},
+ {id:'berms',skill:'Berms',goal:'Use the berm to carry speed.',
+  keys:['Enter high and wide, look at the exit, lean the bike into the berm and get on the gas early.','Sit forward, inside leg forward; the berm supports the bike so you can drive harder than on a flat turn.',
+   'Blown-out berms: pick the line where the berm is still solid; avoid the lip at the top.'],
+  faults:[{fault:'Shooting over the top of the berm',looks_like:'Front climbing the berm wall.',why:'Too fast, not leaned, looking at the berm.',fix:'Lean the bike more, look at the exit, enter lower.'}]},
+ {id:'jumps',skill:'Jumps and landings',goal:'Leave the face straight and balanced and land on the downside.',
+  keys:['Approach in the attack position, standing, with a steady throttle up the face. Do not chop the throttle on the face.','Body centered: hips over the pegs, knees in, elbows up; let the legs absorb the face and the bike push up into you.',
+   'In the air, look at the landing. Throttle lifts the front (rear wheel spin), a tap of rear brake drops the front.','Land on the downside with both wheels or the rear slightly first, knees bent, and get back on the throttle as the wheels touch.',
+   'New jumps: walk them, watch others, build speed in steps. Never jump blind or before a spotter or flagger can see the landing.'],
+  faults:[{fault:'Casing the jump',looks_like:'Rear wheel hitting the top of the landing, or the bike bottoming hard.',why:'Not enough speed, or chopping the throttle on the face.',fix:'Steady throttle all the way up the face; build speed one step at a time; pick a marker for the right gear and rpm.'},
+   {fault:'Rear kicks up off the face',looks_like:'Rear end high in the air, nose pointed down, rider pushed over the bars.',why:'Chopping the throttle, hitting a sharp lip, standing stiff, or weight too far forward; can also be shock rebound too fast.',fix:'Stay on the gas up the face, soften the knees and absorb, hips back over the pegs.'},
+   {fault:'Nose-diving',looks_like:'Front wheel well below the rear in the air.',why:'Chopped throttle, weight forward, too much rear brake.',fix:'Steady throttle off the lip, centered body; blip the throttle in the air to lift the front.'},
+   {fault:'Looping out',looks_like:'Front climbing high in the air, rider behind the bike.',why:'Too much throttle off the face, sitting or hips too far back.',fix:'Centered body, smoother throttle, a touch of rear brake in the air.'}],
+  setup_link:'Kicking and harsh landings can also be suspension: shock rebound, high-speed compression, sag and fork oil level. Fix the bike before blaming technique.'},
+ {id:'scrubbing',skill:'Scrubbing and whips',goal:'Stay low and fast over jumps, and only once jumping is solid.',
+  keys:['Only after the rider jumps a section consistently. Lean the bike over before the lip, turn the bars into the lean, push the bike down with the outside leg and keep the throttle on.','The bike should come back straight before landing. Practise on small jumps first.'],
+  faults:[{fault:'Landing crossed up',looks_like:'Bike still sideways at the landing.',why:'Started the scrub too late or held it too long.',fix:'Start earlier, straighten earlier, smaller angle until it is repeatable.'}]},
+ {id:'whoops',skill:'Whoops',goal:'Skim or jump through with the bike tracking straight.',
+  keys:['Skimming: standing, hips back but not on the fender, knees in, arms loose, steady throttle and enough speed to skim the tops; the rear wheel tracks across the faces.','Jumping or doubling: use rhythm; only when timing is consistent.',
+   'Slow speed: roll through, stay standing, let the bike work, keep the front light.','Look at the end of the whoop section, not at each whoop.'],
+  faults:[{fault:'Swapping and kicking side to side',looks_like:'Rear end moving left and right, rider leaning forward.',why:'Weight too far forward, not enough speed to skim, or a chopped throttle.',fix:'Hips back, more steady throttle, knees in.'},
+   {fault:'Front digging in',looks_like:'Front tire dropping into the troughs.',why:'Weight forward, too slow.',fix:'Hips back, more drive, look to the end.'}],
+  setup_link:'Whoops show suspension balance: a shock that packs or a fork that dives makes skimming hard.'},
+ {id:'rhythm',skill:'Rhythm sections',goal:'Combine jumps for flow and speed.',
+  keys:['Plan the combination before you ride it; watch faster riders.','Absorb and push: pump the face with the legs to gain speed; use the throttle sparingly between jumps.','Build combinations one at a time; never attempt a combo you cannot land the pieces of.'],
+  faults:[{fault:'Off rhythm and casing',looks_like:'Landing on the face of the next jump.',why:'Wrong entry speed or combination for the rider.',fix:'Break it into smaller pieces; set entry speed from the turn before.'}]},
+ {id:'sand',skill:'Sand',goal:'Keep momentum and let the bike float.',
+  keys:['Higher gear, momentum and throttle keep the front light; slow is harder.','Weight slightly back while driving, standing through rough sand and whoops; sit forward to turn.','Steer with the throttle and the rear as much as the bars; accept the bike moving around.',
+   'Choppy sand: stand, knees in, look far ahead; choose the smoothest line even if longer.'],
+  faults:[{fault:'Front plowing and tucking',looks_like:'Front dug in, rider weight forward.',why:'Speed lost, weight forward.',fix:'More momentum, hips back, keep the throttle on.'}],
+  setup_link:'Sand usually needs a stiffer, more supportive setup and slower-returning rebound; paddle or sand-specific tires change everything.'},
+ {id:'mud',skill:'Mud and wet',goal:'Keep moving with clear vision and smooth inputs.',
+  keys:['Smooth throttle, higher gear, use momentum; avoid sudden braking or turning.','Find the line with the best drive: the outside edges or fresh ground often have grip.','Keep feet on the pegs where you can; paddling is slow and risky. Tear-offs or roll-offs for goggles.',
+   'Stuck: do not spin endlessly; clutch out gently, rock the bike, lift the rear.'],
+  faults:[{fault:'Spinning and stopping',looks_like:'Rear tire buried, roost of mud.',why:'Too much throttle, low gear.',fix:'Higher gear, gentle clutch, weight back.'}],
+  setup_link:'Mud adds weight to the bike: the sag drops and the bike rides low. Washed air filter, fresh chain lube and clean radiators matter.'},
+ {id:'hardpack',skill:'Hardpack and slick',goal:'Make the tire grip.',
+  keys:['Smooth on the throttle, sit to weight the rear, short-shift and use the clutch.','Corner wider and squarer to get the bike upright sooner for drive.','Brake earlier and lighter; the front lets go without warning on slick hardpack.'],
+  faults:[{fault:'Wheelspin on the exit',looks_like:'Rear spinning, bike sliding.',why:'Abrupt throttle, low gear.',fix:'Higher gear, roll on, clutch.'}],
+  setup_link:'Lower tire pressure within the maker range, softer map or traction control, and softer compression help on hardpack.'},
+ {id:'hills',skill:'Hills, uphill and downhill',goal:'Climb with momentum, descend in control.',
+  keys:['Uphill: pick the line, carry momentum from below, standing with weight forward over the bars; do not chop the throttle; shift before the hill, not on it.','If you stall uphill: hold the front brake, pull the clutch, then turn the bike around or back down in control.',
+   'Downhill: stand, hips back, knees in, look down the hill to the bottom; use the front brake progressively and the rear lightly; stay in gear for engine braking.'],
+  faults:[{fault:'Looping out on a climb',looks_like:'Front lifting, rider behind the bike.',why:'Weight back, too much throttle.',fix:'Weight forward over the bars, smoother throttle.'},
+   {fault:'Locking the front downhill',looks_like:'Front tire sliding, rider tense.',why:'Grabbing the front brake.',fix:'Progressive front brake, release and reapply, stay loose.'}]},
+ {id:'roots_rocks_logs',skill:'Roots, rocks and logs',goal:'Get over obstacles without deflecting.',
+  keys:['Stand, light on the bars, knees in; let the bike move under you.','Cross roots and logs as close to 90 degrees as possible; lift the front with a blip of throttle and a pull on the bars, then shift weight forward as the rear hits.',
+   'Logs: approach slowly and straight, lift the front onto the log, let the skid plate slide, weight forward to bring the rear over. Big logs need a clutch pop.','Rocks: look at the line, not the rocks; momentum and a relaxed grip.'],
+  faults:[{fault:'Front deflects off roots',looks_like:'Front wheel kicked sideways, rider tight on the bars.',why:'Crossing at an angle, front weighted, death grip.',fix:'Square up, unweight the front, loose arms.'}],
+  setup_link:'Trail and enduro valving, lower tire pressure and a trials-style rear tire help on rocks and roots.'},
+ {id:'tight_woods',skill:'Tight trees and single track',goal:'Stay smooth and keep moving.',
+  keys:['Look through the gaps, not at the trees.','Low speed balance with the clutch and rear brake; first or second gear.','Elbows in slightly in very tight trees to fit handguards between trees; knees in.',
+   'Standing when you can; sitting for tight switchbacks with a foot ready.'],
+  faults:[{fault:'Hitting trees with the bars',looks_like:'Bike swerving, rider looking at the tree.',why:'Target fixation.',fix:'Look at the gap.'}]},
+ {id:'arm_pump_fitness',skill:'Arm pump and fatigue',goal:'Ride the whole moto strong.',
+  keys:['Grip with the legs and lightly with the fingers; elbows up; breathe.','Warm up before the first moto until the forearms are warm and slightly pumped, then rest.','Ride often: time on the bike is the best training for arm pump. Hydration and cardio help.',
+   'Persistent arm pump despite technique and fitness work is a medical question for a doctor, not a setup change.'],
+  faults:[{fault:'Death grip',looks_like:'Knuckles white, elbows low, rider stiff.',why:'Tension and holding on with the arms.',fix:'Grip with the knees; relax the hands on straights.'}],
+  setup_link:'Bar bend and height, grips, throttle tube and clutch effort affect fatigue; harsh fork setup increases arm pump.'}
+];
+
+/** What changes with the kind of riding. */
+export const disciplines=[
+ {id:'motocross',name:'Outdoor motocross',matters:'Speed, braking bumps, deep ruts late in the day, big jumps and 30-minute motos; conditioning and starts decide results.',focus:['Braking bumps and acceleration chop: standing and loose','Rut cornering as the track breaks down','Jump timing and landings at speed','Starts and the first turn'],setup:'More holding-up support and stability for speed and rough tracks than supercross; sag and balance for ruts late in the day.'},
+ {id:'supercross',name:'Supercross and arenacross',matters:'Precision and timing: rhythm lanes, whoops, triples, tight turns and short starts; small mistakes cost big.',focus:['Rhythm combinations and pumping faces','Whoops skimming','Tight, inside lines and corner exits','Start reaction'],setup:'Stiffer, more supportive suspension with less sag for jump faces and landings; smooth, controllable power.'},
+ {id:'cross_country',name:'Cross-country (GNCC, hare scrambles)',matters:'Two to three hours of woods, fields, mud, roots and hills; pacing, efficiency and staying upright matter more than lap speed.',focus:['Standing efficiently and relaxed grip','Roots, logs and hills','Mud lines','Dead-engine starts and pit stops','Pacing and hydration'],setup:'Plusher, more compliant suspension and calmer power; lower tire pressure within limits; hand guards, skid plate.'},
+ {id:'enduro',name:'Enduro and extreme/technical',matters:'Technical terrain: rocks, logs, steep climbs, tight trails; clutch, balance and line choice rule.',focus:['Clutch and throttle control at low speed','Log and rock techniques','Hill climbs and recoveries','Balance and body movement'],setup:'Soft, compliant valving, low tire pressure or tubeless, gearing for crawling, steering damper.'},
+ {id:'desert',name:'Desert racing',matters:'High speed over rough ground, whoops, rocks and navigation; fatigue and vision at speed.',focus:['High-speed standing position','Desert whoops','Reading terrain far ahead'],setup:'High-speed stability: steering damper, stiffer springs, larger tank.'},
+ {id:'flat_track',name:'Flat track on a dirt bike',matters:'Sliding left turns on a smooth oval; seated, inside leg forward, weight on the outside peg.',focus:['Entry slide and drive','Body position seated'],setup:'Lower ride height, 19-inch flat track tires, different gearing.'},
+ {id:'trail',name:'Trail and recreational riding',matters:'Comfort, control and confidence for long days; fundamentals matter most.',focus:['Standing basics','Braking control','Hills and obstacles at a comfortable pace'],setup:'Softer settings and calmer power are fine; correct sag for the rider.'},
+ {id:'youth',name:'Youth and mini riders',matters:'Fundamentals and confidence first; bike size and controls must fit the rider.',focus:['Standing position and eyes up','Braking and clutch basics','Small jumps with progression'],setup:'Lever reach, bar height and spring rate for a light rider; adult supervision.'}
+];
+
+/** Reading a riding photo or a sequence of frames from a clip. */
+export const mediaReading={
+ single_photo:[
+  'A photo is one moment. It shows body position, line and bike attitude at that instant, not timing, speed, throttle or braking. Say so when it matters.',
+  'Read in this order: eyes and head, elbows, hips relative to the pegs, knees on the bike, feet on the pegs, then bike attitude (pitch and lean) and line.',
+  'Camera angle distorts: a front-on photo hides how far forward the rider sits; a long lens compresses distance. Ask for a side-on shot when it matters.'],
+ clip_frames:[
+  'Frames from a clip come in order with their time in the clip. Treat them as a sequence: approach, entry, middle, exit (or face, air, landing).',
+  'Compare frames: where the rider moves (or fails to move) forward and back, when the elbows drop, when the inside leg comes up, when the bike lifts or kicks.',
+  'Name the frame by its time when pointing at a fault ("at 2.1 s your hips are behind the pegs").',
+  'Frames are a few moments spread over the clip; something between two frames can be missed. Do not invent what happened between them.'],
+ asking_for_better_footage:'Best coaching footage: filmed side-on from a safe spot at the feature, 60 frames per second or more, the rider filling a good part of the frame, the whole corner or jump from approach to exit, 5 to 15 seconds.',
+ identity_and_safety:'Never identify a person in a photo. Coach the riding, not the rider\'s gear brand or looks. If a photo shows unsafe riding (no helmet, riding a closed track, passengers), say so plainly.'
+};
+
+/** Reading a track from photos or a clip. */
+export const trackReading={
+ soil:[
+  'Sand: light tan or gray, loose, deep wheel tracks and soft berms, whoops form fast; drains well after rain.',
+  'Loam: dark brown to black, soft and tacky, holds deep ruts and berms; best traction, ruts deepen through the day.',
+  'Clay: red, brown or gray; hard and slick when dry (shiny surface, cracks), sticky then very slick when wet, ruts set hard as it dries.',
+  'Hardpack: compacted, smooth and shiny, little loose dirt on top; slick, braking bumps and square edges build on the brake zones.',
+  'Mixed or prepped: ripped and watered tracks look dark and furrowed; dust and light color mean dry and slick.'],
+ surface_features:[
+  'Ruts: depth (shallow, mid-boot, deep), how many lines, and whether they are set (hard edges) or soft.',
+  'Braking bumps and acceleration chop: where they sit (into and out of turns, before jumps) and how square they are.',
+  'Whoops: rounded or square, tall or small, spacing; whether a line on the side has been worn smoother.',
+  'Jump faces: mellow or steep and kicky, lip shape, ruts or holes on the face, the landing (flat, downside, rutted).',
+  'Berms: built-up or blown out, the solid part to use, holes at the apex.',
+  'Moisture: dark and shiny = wet or watered; puddles = mud; dust and light color = dry; a dry track gets slicker through the day.'],
+ lines:['Point out the lines visible in the picture: inside, outside, rut lines, fresh ground; which is faster depends on traction and the rider\'s speed. Name what makes each line work or not.',
+  'Track conditions change: a line that works in the morning (fresh, watered) may be the slowest in the afternoon (blown out, rutted).'],
+ setup_and_gear:'From the soil, moisture and features, say what kind of setup and tire direction suits it and why, then defer the exact clicker or pressure change to setup reasoning and the rider\'s bike. Never claim a soil type the picture does not show; say what would confirm it.'
+};
+
+export const coachingSafety=[
+ 'Coach within the rider\'s level; build speed and size in small steps; never encourage a jump, scrub or section beyond what they already ride consistently.',
+ 'Full protective gear, a spotter or flagger for blind landings, and riding only open tracks and legal trails.',
+ 'Pain, numbness or recurring arm pump that technique does not help is a question for a doctor or physio.',
+ 'Mechanical faults come before technique: a bike that kicks, wanders or will not turn may need repair or setup first.'];
+
+export function coachingKnowledge(){
+ return {version:COACHING_VERSION,fundamentals,skills,disciplines,media_reading:mediaReading,track_reading:trackReading,safety:coachingSafety};
+}
