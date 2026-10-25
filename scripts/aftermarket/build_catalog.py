@@ -237,7 +237,7 @@ if APP_OUT:
            ('controls',r'\b(brake (?:and|&) clutch (?:lever )?(?:sets?|packs?)|clutch (?:and|&) brake (?:lever )?(?:sets?|packs?|pairs?)|lever (?:sets?|packs?|pairs?)|throttle cams?)\b'),
            ('engine',r'\b((?:timing|cam) chains?(?: tensioners?| guides?)?|valve springs?|valve (?:and|&) springs?|radiator hoses?|silicone hoses?|coolant hoses?|hose kits?|power ?valve)\b'),
            ('clutch',r'\b(pressure plates?|inner hubs?|clutch springs?)\b'),
-           ('chassis',r'\b(kick ?stands?|axle adjusters?|chain adjusters?|adjuster wheels?)\b'),
+           ('chassis',r'\b(kick ?stands?|axle adjusters?|chain adjusters?|adjuster wheels?|holeshot|start(?:ing)? (?:device|blocks?)|launch device|pro launch)\b'),
            ('tuning',r'\b(ecu|e\.c\.u|ignition (?:box|module|curve)|map ?switch|map select|tuner|tuning|fuel controller|power commander|programmable ignition|ignition(?! covers?)|re-?flash|remap|wi-?fi|connectivity|fi calibration|power tuner|launch control|traction control|engine control|fuel injection kit|injector|throttle body|fuel pump|carburetor|carb\b|jet kit|main jet|pilot jet|needle)'),
            ('controls',r'\b(handlebars?|fat ?bar|bar pad|grips?|levers?|perch|throttle tube|throttle|foot ?pegs?|pegs?|bar mounts?|bar clamps?|handguards?|hand guards?|brush guards?|kill switch|start button|shift(?:er| lever)|gear lever|brake pedal|kick ?start(?:er)?|hot start|clutch cable|throttle cable|bar riser)\b'),
            ('protection',r'\b(skid ?plates?|glide ?plates?|bash ?plates?|linkage guards?|link guards?|disc guards?|disk guards?|rotor guards?|caliper guards?|brake disc guards?)\b'),

@@ -17,7 +17,6 @@ export const partTypes:Partial<Record<PartSystem,PartType[]>>={
   {label:'Valving, bladder or perch kit',match:/\b(valving|revalve|bladder|perch(es)?|gold valve|mid-?valve|valve kit)\b/i},
   {label:'Preload adjuster',match:/\bpre-?load\b/i},
   {label:'Linkage',match:/\b(linkage|link|pull ?rod|dog ?bone)\b/i},
-  {label:'Holeshot device',match:/\b(holeshot|start(?:ing)? (?:device|blocks?)|launch)\b/i},
   {label:'Fork (cartridge, conversion, kit)',match:/\b(fork|cartridge|conversion|cone valve)\b/i},
   {label:'Shock',match:/\bshock\b/i}],
  engine:[
