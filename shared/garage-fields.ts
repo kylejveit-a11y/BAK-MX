@@ -10,7 +10,17 @@ export const garageFieldGroups:Record<string,GarageField[]>={
   {key:'geared_weight_lb',label:'Weight in riding gear',numeric:true,unit:'lb',placeholder:'185'},
   {key:'skill_level',label:'Riding level',options:['Beginner','Novice','Intermediate','Expert','Pro','Vet']},
   {key:'discipline',label:'Where you ride most',options:['Motocross','Supercross / arenacross','Sand','Hard-pack','Woods / GNCC','Enduro','Desert','Trail']},
-  {key:'height_in',label:'Height',numeric:true,unit:'in',placeholder:'70',more:true}],
+  {key:'height_in',label:'Height',numeric:true,unit:'in',placeholder:'70',more:true},
+  {key:'years_riding',label:'Years riding',numeric:true,unit:'yrs',placeholder:'6',more:true},
+  {key:'race_class',label:'Race class',placeholder:'250 B, Vet 30+, or none',more:true},
+  {key:'riding_goal',label:'What you ride for',options:['Racing','Getting faster','Fun and trail','Learning'],more:true},
+  {key:'rider_limits',label:'Anything that limits how you ride',placeholder:'Optional, e.g. a bad left knee',hint:'Only so coaching fits you',more:true}],
+ 'Bike fit':[
+  {key:'bar_bend',label:'Handlebar',placeholder:'Stock, or brand and bend'},
+  {key:'bar_position',label:'Bar height and position',placeholder:'Stock, or risers +10 mm, clamps forward'},
+  {key:'lever_position',label:'Lever angle and reach',placeholder:'Angled down slightly, reach in 2'},
+  {key:'peg_position',label:'Footpegs',options:['Stock','Lowered','Raised','Moved back']},
+  {key:'seat',label:'Seat',placeholder:'Stock, tall, low or soft foam',more:true}],
  'Clickers & sag':[
   {key:'fork_compression',label:'Fork compression',placeholder:'12 out',hint:'Clicks out from all the way in'},
   {key:'fork_rebound',label:'Fork rebound',placeholder:'18 out'},

@@ -40,7 +40,7 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
  const owner=user.id;
  {const manuals=await handleRiderManuals(req,path,method,url,owner,db);if(manuals)return manuals;}
  {const photos=await handleRiderPhotos(req,path,method,url,owner,db);if(photos)return photos;}
- {const coaching=await handleCoaching(path,method,url,owner,db);if(coaching)return json(coaching);}
+ {const coaching=await handleCoaching(req,path,method,url,owner,db);if(coaching)return json(coaching);}
  if(path==='/api/bikes'){
   if(method==='GET')return json(checked(await db.from('bikes').select('*').eq('user_id',owner).order('created_at',{ascending:false})));
   if(method==='POST'){const input=createInput(await readJson(req)),data=bikeSchema.parse(input.data),saved=await createRecord(db,'bikes',owner,data,input.id);return json(saved.record,saved.replayed?200:201);}
