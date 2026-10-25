@@ -1,0 +1,302 @@
+{
+ "updates": [
+  {
+   "id": "hardrock-cycle-park",
+   "note": "Facility still operating as an off-road park (Sunday hours per county tourism directory; youth directory verified 2026-01 lists a dirt-bike pee-wee track). A 2024 rider video describes a hare-scramble loop and pee-wee track rather than a groomed MX track. Status set open with low confidence; dirt-bike access still conflicts with an early-2025 report.",
+   "status": "open",
+   "aliases": [
+    "Hardrock Offroad Park"
+   ],
+   "tracks_on_site": [
+    "~3.3-mile hare scramble loop (2024 video)",
+    "4x4-only trail/hill-climb area (~100 acres)"
+   ],
+   "soil": {
+    "primary": "mixed",
+    "secondary": "sand",
+    "notes": "Former lime-rock quarry: rock gardens and limerock hard sections mixed with sandy stretches and some red clay trails, with mud pits after rain. Sources still disagree on the dominant surface.",
+    "confidence": "low"
+   },
+   "layout": {
+    "speed": "tight",
+    "jumps": "small",
+    "elevation_change": "hilly",
+    "traits": [
+     "hills",
+     "rocks",
+     "water crossings",
+     "mud pits",
+     "single track"
+    ],
+    "notes": "Quarry terrain gives real climbs and drops unusual for Florida. Current dirt-bike riding is a hare-scramble loop plus a natural-terrain pee-wee track; the old groomed MX tracks are not confirmed to still be run."
+   },
+   "conditions": {
+    "seasonal": "County tourism listing shows Sunday-only hours (10am-5pm). Call ahead: access by vehicle type has changed over time."
+   },
+   "rider_reports": [
+    {
+     "says": "A rider video shows the park welcoming dirt bikes, side-by-sides and Jeeps, with a roughly 3.3-mile hare-scramble loop, a pee-wee track and a large 4x4-only hill-climb area; the creator rates it worth the trip.",
+     "source_url": "https://www.youtube.com/watch?v=u5uuKgJvGkg",
+     "source_type": "video",
+     "date": "2024-03"
+    },
+    {
+     "says": "An off-road blog says that around early 2025 the park was running weekends for 4x4s and side-by-sides only, with bikes and quads not allowed, and that for-sale signs were seen in late 2024; the article contradicts itself elsewhere, so treat as unconfirmed.",
+     "source_url": "https://atvnotes.com/hardrock-offroad-park/",
+     "source_type": "article",
+     "date": "2025-01"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://www.ocalamarion.com/directory/hard-rock-cycle-park/",
+     "title": "Ocala/Marion County tourism - Hard Rock Cycle Park",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://fun4ocalakids.com/Sports-Programs/Cycling/Hardrock-Offroad-Park-Dirt-Bikes/View-details.html",
+     "title": "Fun 4 Ocala Kids - Hardrock Offroad Park Dirt Bikes (verified 2026-01)",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=u5uuKgJvGkg",
+     "title": "YouTube - Riding With Rhys: Hardrock Offroad Park (2024-03)",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://atvnotes.com/hardrock-offroad-park/",
+     "title": "ATV Notes - Hardrock Offroad Park",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://hardrockoffroadpark.net/home",
+     "title": "Hardrock Offroad Park official site (blocked to fetch)",
+     "accessed": "2026-10-25"
+    }
+   ],
+   "website": "https://hardrockoffroadpark.net",
+   "gaps": [
+    "Dirt-bike access conflict: early-2025 blog says 4x4/SxS only; 2026 directories list dirt-bike tracks",
+    "Official site and Yelp could not be fetched to confirm current hours and vehicle rules",
+    "Whether any groomed MX track is still maintained"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "mac-mx",
+   "note": "Added business Facebook page; second directory (TrackFollower) confirms address, phone and coordinates and lists it open. Still no rider reports.",
+   "facebook": "https://www.facebook.com/p/Mac-Mx-61561813020533/",
+   "sources": [
+    {
+     "url": "https://www.trackfollower.com/tracks/mac-mx-fl",
+     "title": "TrackFollower - Mac MX",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://www.facebook.com/p/Mac-Mx-61561813020533/",
+     "title": "Mac MX Facebook page (not fetchable)",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://mxparks.com/motocross-tracks-near-tallahassee",
+     "title": "MX Parks - tracks near Tallahassee (lists Mac MX open)",
+     "accessed": "2026-10-25"
+    }
+   ],
+   "remove_gaps": [
+    "Only one source (directory); no rider reports"
+   ],
+   "gaps": [
+    "No rider reports; soil only from one directory (prepped clay)",
+    "No dated 2025-2026 event or post confirming operation (Facebook not fetchable)"
+   ]
+  },
+  {
+   "id": "milton-mx",
+   "note": "Still no dated evidence. FL Motocross (reviewed 2026-08) could not confirm riding; MX Parks and MX Circuit still list weekend hours. Facebook found but not fetchable. A third directory agrees the surface is mainly sand.",
+   "facebook": "https://www.facebook.com/MiltonMx/",
+   "soil": {
+    "primary": "sand",
+    "secondary": "clay",
+    "notes": "Three directories agree on a predominantly sandy surface (deep sand over a firmer base); one says jump faces are refaced with clay. No first-hand rider confirmation.",
+    "confidence": "medium"
+   },
+   "sources": [
+    {
+     "url": "https://www.mxcircuit.es/en/tracks/milton-mx",
+     "title": "MX Circuit - Milton MX",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://www.facebook.com/MiltonMx/",
+     "title": "Milton MX Facebook page (not fetchable)",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://www.chamberofcommerce.com/business-directory/florida/milton/off-road-race-track/45624602-milton-mx",
+     "title": "Chamber of Commerce directory - Milton MX",
+     "accessed": "2026-10-25"
+    }
+   ],
+   "gaps": [
+    "Facebook (the only operator channel) could not be fetched; no 2025-2026 dated post or event found"
+   ]
+  },
+  {
+   "id": "florida-motoplex",
+   "note": "No 2025-2026 evidence found either way. MX Track Guide page was last modified 2022-02 and said only the main MX track was open weekly with the rest of the park open on event weekends/membership; MX Parks still lists it open with no events or reviews. Status left unknown.",
+   "sources": [
+    {
+     "url": "https://mxtrackguide.com/motocross-tracks-florida/florida-motoplex-madison-fl",
+     "title": "MX Track Guide - Florida Motoplex (last modified 2022-02)",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://mxparks.com/motocross-tracks-near-tallahassee",
+     "title": "MX Parks - tracks near Tallahassee",
+     "accessed": "2026-10-25"
+    }
+   ],
+   "conditions": {
+    "seasonal": "Per a 2022 listing: main MX track open weekly to the public; the wider park only on feature-event weekends or with membership. Unverified since."
+   },
+   "gaps": [
+    "Newest operator-related evidence found is from 2022; no website, phone or social page located"
+   ]
+  },
+  {
+   "id": "waldo-mx",
+   "note": "Operator site now confirms address (17000 NE US Hwy 301), phone and a clay main track; dated 2026 events (MX des States Feb 2026, Swampfest Mar 2026, first summer camp Jun 2026) confirm open under RAD Sports ownership. Soil raised to medium (operator says natural clay; vintage series and RiderPlanet describe softer clay/dirt with little sand).",
+   "status": "open",
+   "aliases": [
+    "Waldo MX Park",
+    "Waldo MX & Event Grounds",
+    "Waldo RV Park"
+   ],
+   "tracks_on_site": [
+    "woods loop (roots, off-camber)",
+    "BMX track and skate bowl (Swampfest only)"
+   ],
+   "soil": {
+    "primary": "clay",
+    "secondary": "loam",
+    "notes": "Operator describes the main track as built on natural Florida clay; a vintage series page says the dirt runs on the softer side; RiderPlanet rates it mostly loose dirt with little sand. Reads as a soft clay/dirt mix rather than deep sand.",
+    "confidence": "medium"
+   },
+   "layout": {
+    "speed": "unknown",
+    "jumps": "big",
+    "elevation_change": "flat",
+    "traits": [
+     "berms",
+     "rhythm sections",
+     "wide start straight"
+    ],
+    "notes": "Main track about 1-1.5 miles, recently renovated, with technical rhythm sections, big jumps and a flow aimed at intermediate-to-expert riders on 125cc and up. Start straight is very wide (about 100 ft) and pinches to about 20 ft at turn one. Separate pit-bike track with scaled jumps and a slower technical woods loop."
+   },
+   "conditions": {
+    "seasonal": "Practice most weekends year-round per operator; winter base for traveling riders. 2026 events included MX des States / SSVMX vintage round (Feb), Swampfest BMX festival (Mar), summer camps (Jun). RAD Sports bought the property Oct 2025.",
+    "watering_prep": "Directory says watered and groomed; operator says main track recently renovated."
+   },
+   "rider_reports": [
+    {
+     "says": "A local news piece on the first summer camp notes race starts of 10-40 riders on a gate area about 100 feet wide that narrows to about 20 feet into the first turn; families describe a welcoming community.",
+     "source_url": "https://www.wuft.org/sports/2026-06-16/waldo-motocross-connects-families-hosts-first-summer-camp",
+     "source_type": "article",
+     "date": "2026-06"
+    },
+    {
+     "says": "A vintage MX series describes Waldo's 1+ mile track as suited to all levels with a mix of jumps and flowing corners, and notes the dirt is on the softer side.",
+     "source_url": "https://usvvmx.com/track",
+     "source_type": "article",
+     "date": null
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://www.waldomotocross.com/tracks/",
+     "title": "Waldo MX - Tracks (operator)",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://www.waldomotocross.com/summer-escape/",
+     "title": "Waldo MX - Summer Escape packages (operator)",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://usvvmx.com/track",
+     "title": "US Vet & Vintage MX - Waldo track",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://www.sunshinestatevintagemotocross.com/mx-des-states.html",
+     "title": "Sunshine State Vintage MX - MX des States at Waldo (Feb 2026)",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://allevents.in/waldo/2026-florida-swampfest/200029566443328",
+     "title": "AllEvents - 2026 Florida Swampfest at Waldo MX (Mar 2026)",
+     "accessed": "2026-10-25"
+    }
+   ],
+   "remove_gaps": [
+    "Soil type unconfirmed by riders",
+    "Phone may be outdated after ownership change",
+    "Address differs (16258 vs 17000 NE US Hwy 301); coordinates from Campspot directions link, MX Parks gives 29.7921,-82.1545"
+   ],
+   "gaps": [
+    "Coordinates still from Campspot directions link (MX Parks gives 29.7921,-82.1545); older event listings use 16258 US-301",
+    "Soil confirmed by operator and series pages but not by first-hand rider reports on wet/late-day behavior"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "harold-motor-sports",
+   "note": "Operator site found: 12-acre facility with a new 0.7-mile track; private lessons (bikes and gear supplied) and private ride sessions by sign-up; a Duval Motocross Club announced for 2026. Lesson directory updated Oct 2026. Status open, appointment access confirmed. Soil still unknown.",
+   "status": "open",
+   "access": "appointment",
+   "aliases": [
+    "HMS",
+    "Team HMS"
+   ],
+   "facebook": "https://www.facebook.com/TeamHMS/",
+   "instagram": "https://www.instagram.com/haroldmotorsports/",
+   "layout": {
+    "speed": "tight",
+    "jumps": "small",
+    "elevation_change": "unknown",
+    "traits": [],
+    "notes": "New 0.7-mile track on a 12-acre lot in central Jacksonville (Arlington area), set up for lessons and private sessions for all ages and skill levels."
+   },
+   "conditions": {
+    "seasonal": "No open practice; private 90-minute lessons (age 6+) and private ride sessions booked through the website. Duval Motocross Club announced as coming in 2026."
+   },
+   "sources": [
+    {
+     "url": "https://haroldmotorsports.com/",
+     "title": "Harold Motor Sports (operator)",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://fun4firstcoastkids.com/Programs-Classes/Programs-Now-Registering/Harold-Motor-Sports-Lessons/View-details",
+     "title": "Fun 4 First Coast Kids - Harold Motor Sports Lessons",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://fun4firstcoastkids.com/Sports-Programs/Family-Sports/",
+     "title": "Fun 4 First Coast Kids - Family Sports listing",
+     "accessed": "2026-10-25"
+    }
+   ],
+   "remove_gaps": [
+    "Single directory source",
+    "Hours and access terms unknown"
+   ],
+   "gaps": [
+    "Business phone varies: (904) 719-1010 on older listings, (904) 535-2290 on the lesson listing",
+    "Dirt type and layout detail not published"
+   ]
+  }
+ ],
+ "not_found": []
+}

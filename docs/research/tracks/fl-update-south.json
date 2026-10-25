@@ -1,0 +1,454 @@
+{
+  "updates": [
+    {
+      "id": "brooksville-mx",
+      "note": "Status reconfirmed open with dated 2026 events (Halloween ride Oct 31 2026, 6th Florida Pitbike Open Jan 2027); hours, fees, on-site coaching added. Separated the old fairgrounds track (destroyed) explicitly.",
+      "status": "open",
+      "conditions": {
+        "seasonal": "Practice Tue-Fri 9am-5:30pm and Sat 11am-5pm, closed Sun-Mon (per MX Parks, photos dated July 2026). Practice runs in groups by skill and bike size. Upcoming: Halloween costume ride Oct 31 2026; 6th annual Florida Pitbike Open Jan 22 2027."
+      },
+      "sources": [
+        {
+          "url": "https://mxparks.com/motocross-tracks/florida/brooksville-motocross-brooksville",
+          "title": "MX Parks - Brooksville Motocross (hours, fees, Oct 2026 and Jan 2027 events)",
+          "accessed": "2026-10-25"
+        },
+        {
+          "url": "https://www.riderplanet-usa.com/atv/trails/info/florida_12881/ride_21e8.htm",
+          "title": "RiderPlanet USA - old Brooksville Motocross at Hernando County Fairgrounds (destroyed, different site)",
+          "accessed": "2026-10-25"
+        }
+      ],
+      "gaps": [
+        "Soil still only from unclaimed directory copy (hard-pack); no rider confirmation",
+        "No official website or confirmed Facebook URL (MX Parks only links a redirect)"
+      ],
+      "remove_gaps": [
+        "Website/socials not confirmed"
+      ]
+    },
+    {
+      "id": "bushnell-mx",
+      "note": "Reconfirmed open since Sept 26 2026 under Fast Traxx Florida; added gate fees and membership model. Soil/layout of rebuild still undocumented; fasttraxxflorida.com fetch was not permitted. Original Spyder MX site identified from county tourism listing (Wildwood, US 301).",
+      "status": "open",
+      "conditions": {
+        "seasonal": "Open riding Sat-Sun 9am-2pm (gates 8am) since the Sept 26 2026 reopening; $40 Fast Traxx members / $60 non-members; weekday private training by request via Facebook; RV hookups."
+      },
+      "sources": [
+        {
+          "url": "https://mxparks.com/motocross-tracks/florida/spyder-20-bushnell",
+          "title": "MX Parks - Bushnell MX (reopened Sept 26 2026, fees)",
+          "accessed": "2026-10-25"
+        },
+        {
+          "url": "https://discoversumterfl.com/category/things-to-do/01-sporting/motorsports/",
+          "title": "Discover Sumter (county tourism) - Spyder MX listing at 4222 N US Hwy 301, Wildwood",
+          "accessed": "2026-10-25"
+        }
+      ],
+      "gaps": [
+        "Official site fasttraxxflorida.com could not be fetched in this pass",
+        "Original Spyder MX listed by Sumter County tourism at 4222 N US Hwy 301, Wildwood (undated listing, status not stated); not a current track"
+      ],
+      "remove_gaps": [
+        "Original Spyder MX location (before Spyder 2.0) not confirmed"
+      ]
+    },
+    {
+      "id": "bone-yard-mx",
+      "note": "Status confirmed with 2026 county notices (reservations paused Feb 7 2026, resumed Feb 21 2026; park closure Aug 15 2026 morning). Park is ~500 acres of reclaimed phosphate land. Resolved opening-date conflict in favor of Nov 2025 county release.",
+      "status": "open",
+      "conditions": {
+        "seasonal": "Track runs on select Saturdays booked through county RecTrac (started about twice a month, planned to go weekly); park itself open Fri-Mon, 8am-5pm Oct-May and 8am-7pm Jun-Sep. County closes the park for special events (e.g. Feb 7 2026 trail race, Aug 15 2026 cross-country meet). Entry ~$15 includes the MX track; no racing, practice only."
+      },
+      "soil": {
+        "primary": "unknown",
+        "secondary": null,
+        "notes": "County never names the track dirt. The park is ~500 acres of reclaimed phosphate-mine land with hill climbs and rocky sections on the ATV trails; the MX track surface is unconfirmed.",
+        "confidence": "low"
+      },
+      "sources": [
+        {
+          "url": "https://www.polkfl.gov/news/bone-valley-atv-park-to-close-for-the-hunt-for-sasquatch-2026/",
+          "title": "Polk County - Park closure Feb 7 2026; Bone Yard reservations resume Feb 21",
+          "accessed": "2026-10-25"
+        },
+        {
+          "url": "https://www.polkfl.gov/things-to-do/parks-and-recreation/bone-valley-atv-park/",
+          "title": "Polk County - Bone Valley ATV Park (hours, terrain, 2026 closures)",
+          "accessed": "2026-10-25"
+        },
+        {
+          "url": "https://centralfloridaagnews.com/bigger-better/",
+          "title": "Central Florida Ag News - Bigger & Better (Apr 2024, expansion on reclaimed phosphate land)",
+          "accessed": "2026-10-25"
+        }
+      ],
+      "remove_gaps": [
+        "MX Parks gives opening as Nov 2024 but county release says Nov 2025"
+      ],
+      "gaps": [
+        "MX Parks still says opened Nov 2024; county release (Nov 12 2025) is treated as authoritative",
+        "Official park site bonevalleyatv.com could not be fetched in this pass"
+      ]
+    },
+    {
+      "id": "mesa-mx",
+      "note": "Open confirmed by a dated directory event (small-track open riding Oct 24 2026); updated hours and fees; second phone conflict now traced to a number MX Parks also lists for Miami MX Park.",
+      "status": "open",
+      "tracks_on_site": [
+        "main/front track (all levels)"
+      ],
+      "conditions": {
+        "seasonal": "Wednesdays 1-7:30pm (gates noon) and Sat-Sun 10am-4pm (gates 9am); quads run the back track on Wednesdays while bikes use the front. Dirt bike gate about $50, spectators $15. Camping and RV hookups. Check Facebook for weather calls."
+      },
+      "sources": [
+        {
+          "url": "https://mxparks.com/motocross-tracks/florida/mesa-motocross-park-fellsmere",
+          "title": "MX Parks - Mesa Motocross Park (hours, fees, Oct 24 2026 event)",
+          "accessed": "2026-10-25"
+        },
+        {
+          "url": "https://www.riderplanet-usa.com/atv/trails/info/florida_11734/ride_be95.htm",
+          "title": "RiderPlanet USA - Mesa MX (terrain checklist: mostly loose dirt, little sand, all berms)",
+          "accessed": "2026-10-25"
+        }
+      ],
+      "remove_gaps": [
+        "Two different phone numbers listed"
+      ],
+      "gaps": [
+        "Phone conflict: (407) 808-9420 in park notes vs (786) 975-4024 in MX Parks contact block, which is the same number listed for Miami MX Park; call to confirm",
+        "Official site mesamotocross.com could not be fetched in this pass"
+      ]
+    },
+    {
+      "id": "dan-woodley-racing",
+      "note": "Open confirmed by a March 2026 guest review of the track-house rental; track and house can be booked, day track rental without the house per MX Parks. Soil still unstated anywhere.",
+      "status": "open",
+      "conditions": {
+        "seasonal": "Rental only: daily track rental without the house, or book the 4BR house with the track through Airbnb/Expedia-type listings. No public gate days or races posted."
+      },
+      "rider_reports": [
+        {
+          "says": "Guest who stayed four nights said the track was prepped and ready to ride on arrival and rated the stay 10/10.",
+          "source_url": "https://www.travelocity.com/Fort-Pierce-Hotels-4BR3BA-POOL-MOTOCROSS-TRACK.h78302197.Hotel-Information",
+          "source_type": "review",
+          "date": "2026-03"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.travelocity.com/Fort-Pierce-Hotels-4BR3BA-POOL-MOTOCROSS-TRACK.h78302197.Hotel-Information",
+          "title": "Travelocity - 4BR pool + motocross track rental, Fort Pierce (Mar 2026 review)",
+          "accessed": "2026-10-25"
+        }
+      ],
+      "remove_gaps": [
+        "No rider reports"
+      ],
+      "gaps": [
+        "Only one rider/guest report, with no detail on dirt or layout",
+        "Official site danwoodleyracing.com could not be fetched in this pass"
+      ]
+    },
+    {
+      "id": "moto-sandbox",
+      "note": "Location corrected: John Deere's 2021 profile places Moto Sandbox in Groveland (Lake County), owned with Dream Traxx (same builder as Bone Yard). Added feature detail (jumps up to ~100 ft, ~40 ft booter, whoops), social links, and Jan 2026 directory update as status evidence. Soil remains unconfirmed; the Deere piece mentions capping clay rather than sand.",
+      "city": "Groveland",
+      "facebook": "https://www.facebook.com/motosandbox",
+      "instagram": "https://www.instagram.com/motosandbox",
+      "layout": {
+        "speed": "unknown",
+        "jumps": "big",
+        "elevation_change": "flat",
+        "traits": [
+          "whoops",
+          "big doubles/triples",
+          "booter jump"
+        ],
+        "notes": "Pro-level training compound on a former flat cow pasture; built and constantly reshaped by Dream Traxx. Jumps up to about 100 ft and a booter around 40 ft tall; sections customized to each rider's weaknesses. Directory lists 2 MX and 2 SX tracks plus a skills section."
+      },
+      "soil": {
+        "primary": "sand",
+        "secondary": "clay",
+        "notes": "Directory calls it sandy dirt; a 2021 Deere profile mentions hauling capping clay from an on-site stockpile for building, suggesting a sand base with clay used on features. No rider confirmation.",
+        "confidence": "low"
+      },
+      "conditions": {
+        "watering_prep": "Crews regrade surfaces, reshape and rebuild jumps regularly with excavator and motor grader; drainage cut into the property.",
+        "seasonal": "Mon-Fri 9am-5pm by booked training only; directory listing last updated Jan 2026."
+      },
+      "sources": [
+        {
+          "url": "https://deere.com/en/publications/the-dirt/pushing-potential",
+          "title": "John Deere The Dirt - Pushing Potential (Moto Sandbox, Groveland, Fall 2021)",
+          "accessed": "2026-10-25"
+        },
+        {
+          "url": "https://www.mototrackguide.com/tracks/moto-sandbox-mx-training-facility-florida-usa/",
+          "title": "Moto Track Guide - Moto Sandbox (modified Jan 2026; socials)",
+          "accessed": "2026-10-25"
+        }
+      ],
+      "remove_gaps": [
+        "Address; listing map point (28.61, -82.34) is far west of Clermont and was not used"
+      ],
+      "gaps": [
+        "Street address and coordinates (only city Groveland confirmed; directories say Clermont)",
+        "No direct 2026 operating evidence beyond directory update",
+        "Official site motosandbox.com could not be fetched in this pass"
+      ]
+    },
+    {
+      "id": "bakers-factory",
+      "note": "Status supported by late-2025 evidence: KTM team (incl. Prado, Tomac) training there for the 2026 SX season. Added rider report on soft, fast-wearing surfaces. Location intentionally left null (private pro program).",
+      "status": "open",
+      "rider_reports": [
+        {
+          "says": "Factory rider said the practice tracks are softer and break down faster than race tracks, but with many bikes circulating the ruts and chop end up close to main-event conditions; called it the best place he has trained.",
+          "source_url": "https://gatedrop.com/?p=195645",
+          "source_type": "video",
+          "date": "2025-12"
+        }
+      ],
+      "conditions": {
+        "late_day": "Surfaces are soft and wear quickly; with a full team riding, ruts and chop build to race-like levels."
+      },
+      "sources": [
+        {
+          "url": "https://gatedrop.com/?p=195645",
+          "title": "GateDrop - Prado on training at the Baker factory (approx. Dec 2025)",
+          "accessed": "2026-10-25"
+        }
+      ],
+      "remove_gaps": [
+        "Current status confirmed only indirectly"
+      ],
+      "gaps": [
+        "Status evidence is from rider media (late 2025), not an operator source; private program, no public access"
+      ]
+    },
+    {
+      "id": "croom-motorcycle-area",
+      "note": "Added coordinates from the county tourism listing for the official La Rose Rd address; Sept 2025 open status report and Jan 2024 press confirm operation; day pass from $14, rain or shine.",
+      "lat": 28.5274,
+      "lng": -82.2377,
+      "conditions": {
+        "seasonal": "Open daily 8am-5pm rain or shine, no night riding. Day pass from about $14 (Jan 2024), annual passes available; vehicles 1,500 lb max; separate areas for riders 12 and under. Weekends crowded; weekday mornings recommended."
+      },
+      "rider_reports": [
+        {
+          "says": "Local rental operator says the area is rarely quiet and riders use the whole 2,600 acres of hills, dunes, mounds and wooded trails.",
+          "source_url": "https://lakerlutznews.com/vroom-vroom-at-the-croom/",
+          "source_type": "article",
+          "date": "2024-01"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://floridasadventurecoast.com/land-adventures/atv/p/croom-motorcycle-area-5fece5b3582f9128db85eef6/",
+          "title": "Florida's Adventure Coast (Hernando tourism) - Croom Motorcycle Area (address and map point)",
+          "accessed": "2026-10-25"
+        },
+        {
+          "url": "https://lakerlutznews.com/vroom-vroom-at-the-croom/",
+          "title": "Laker/Lutz News - Vroom vroom at the Croom (Jan 2024)",
+          "accessed": "2026-10-25"
+        }
+      ],
+      "remove_gaps": [
+        "Coordinates (only a map center point found)"
+      ],
+      "gaps": [
+        "Coordinates are the tourism listing's directions point for 6420 La Rose Rd (approximate entrance); onX uses a different map center 28.5659,-82.2514",
+        "No 2026-dated status report found; latest is Sept 2025"
+      ]
+    },
+    {
+      "id": "lazy-springs-recreation-park",
+      "note": "CLOSED: property sold (~$5M, ownership change Sept 22 2025); park's final open weekend was Nov 29-30 2025 and it closed permanently. County resolved to Hendry (just over the Lee line on SR 82).",
+      "status": "closed",
+      "county": "Hendry",
+      "confidence": "high",
+      "conditions": {
+        "seasonal": "Permanently closed after Nov 30 2025 following the sale of the property; operators could not renew the lease, buy, or relocate."
+      },
+      "sources": [
+        {
+          "url": "https://www.wgcu.org/tags/lazy-springs",
+          "title": "WGCU - Lazy Springs coverage (Oct 11, Oct 12, Nov 24 2025: sale and closure)",
+          "accessed": "2026-10-25"
+        },
+        {
+          "url": "https://www.fox4now.com/lehigh-acres/lazy-springs-recreational-park-announces-permanent-closure-following-sale",
+          "title": "FOX 4 - Lazy Springs announces permanent closure following sale (2025)",
+          "accessed": "2026-10-25"
+        },
+        {
+          "url": "https://www.fox4now.com/immokalee/closing-its-gates-lazy-springs-recreational-park-to-close-permanently-after-13-years",
+          "title": "FOX 4 - Lazy Springs to close permanently (2025)",
+          "accessed": "2026-10-25"
+        }
+      ],
+      "remove_gaps": [
+        "Unclear whether the MX track is still maintained for dirt bikes",
+        "County (Lee vs Hendry) not confirmed"
+      ],
+      "gaps": [
+        "Future use of the property after the 2025 sale unknown"
+      ]
+    },
+    {
+      "id": "74mx-at-the-rkc",
+      "note": "Open confirmed by dated events: track party practice day Oct 24 2026 and a Moto Academy training day Nov 2 2026. Directory now lists four tracks and Fri-Sun 9am-4pm hours; a second phone number appears. Soil and RKC meaning still unconfirmed.",
+      "status": "open",
+      "conditions": {
+        "seasonal": "Fri-Sun 9am-4pm per MX Parks (another aggregator lists extra weekday hours; conflicting). Big bikes ~$40, small bikes ~$20, spectators $10; RV hookups and dry camping. Check Facebook for weather calls. Quads share the property and can chew up bike lines."
+      },
+      "sources": [
+        {
+          "url": "https://mxparks.com/motocross-tracks/florida/74mx-at-the-rkc-punta-gorda",
+          "title": "MX Parks - 74MX at the RKC (Oct 24 2026 track party, fees, hours)",
+          "accessed": "2026-10-25"
+        },
+        {
+          "url": "https://themotoacademy.com/products/november-2nd-2026-74mx-punta-gorda-fl",
+          "title": "The Moto Academy - Nov 2 2026 training day at 74MX",
+          "accessed": "2026-10-25"
+        }
+      ],
+      "remove_gaps": [
+        "RiderPlanet still lists it closed; appears reopened as '74MX at the RKC' (2026 events), meaning of RKC unknown"
+      ],
+      "gaps": [
+        "RiderPlanet listing still says closed (stale); meaning of 'RKC' unknown",
+        "Secondary phone (239) 788-4589 listed alongside (239) 284-3687; not confirmed which is current",
+        "Hours conflict between MX Parks (Fri-Sun) and Wheree (also Mon/Tue)"
+      ],
+      "rider_reports": [
+        {
+          "says": "When it reopened in early 2024, several regulars welcomed it back and one called it the best track he had ridden; a dissenting rider said it had become quad-heavy.",
+          "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/MX-tracks-in-Florida,1336158?page=1",
+          "source_type": "forum",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "id": "motobros-punta-gorda-mx",
+      "note": "Hours now consistent across the MotoBros page and MX Parks (night riding Wed-Thu 2-10pm, Fri 9-4, Sat-Sun 8-4). Open confirmed by Fall 2026 calendar incl. I4MX Triple Crown Rd 3 on Dec 5 2026 and weekly Moto Thursday training. Soil still undocumented.",
+      "status": "open",
+      "conditions": {
+        "seasonal": "Night riding under lights Wed-Thu 2pm-10pm; Fri 9am-4pm; Sat-Sun 8am-4pm; closed Mon-Tue. Hosts MotoBros Night Shift series, Florida Series rounds and I4MX Triple Crown (Rd 3, Dec 5 2026). Dry RV camping only; metal-grate start. Heat and limited shade."
+      },
+      "sources": [
+        {
+          "url": "https://motobros.com/punta-gorda-mx/",
+          "title": "MotoBros - Punta Gorda MX (hours, night riding)",
+          "accessed": "2026-10-25"
+        }
+      ],
+      "remove_gaps": [
+        "Official MotoBros page could not be fetched; hours conflict between sources"
+      ],
+      "gaps": [
+        "Event calendar dates (Dec 5 2026 I4MX round) come from MX Parks, not the MotoBros calendar itself"
+      ]
+    },
+    {
+      "id": "miami-mx-park",
+      "note": "Status supported by FL Motocross review dated Aug 9 2026 (active) and Braaply schedule (Wed 2pm-dusk, Sat-Sun 10am-4pm). Gate ~$30; rentals 50-450cc with gear. Soil still conflicting/unconfirmed; official site not fetchable.",
+      "status": "open",
+      "conditions": {
+        "seasonal": "Wednesdays ~2pm to dusk and weekends ~10am-4pm (Braaply; MX Parks says 9am-3pm - confirm). Gate about $30. Bike rentals 50cc-450cc with gear; private lessons offered. Hosts I4MX series rounds."
+      },
+      "sources": [
+        {
+          "url": "https://flmotocross.com/track/miami-mx-park",
+          "title": "FL Motocross - Miami MX Park (listed active, reviewed 2026-08-09)",
+          "accessed": "2026-10-25"
+        },
+        {
+          "url": "https://mxparks.com/motocross-tracks/florida/miami-motocross-park-hialeah",
+          "title": "MX Parks - Miami Motocross Park (fees, rentals)",
+          "accessed": "2026-10-25"
+        }
+      ],
+      "gaps": [
+        "No 2026 event or rider-dated post found; status relies on directory review dates (Aug 2026)"
+      ]
+    },
+    {
+      "id": "dade-city-mx",
+      "note": "Status reconfirmed with dated Oct 2026 events (Saturday Night Championship Rd 20 on Oct 24 2026; I4MX Triple Crown Rd 1 on Oct 25 2026).",
+      "status": "open",
+      "sources": [
+        {
+          "url": "https://mxparks.com/motocross-tracks/florida/dade-city-raceway-dade-city-mx-dade-city",
+          "title": "MX Parks - Dade City MX (Oct 2026 events)",
+          "accessed": "2026-10-25"
+        }
+      ]
+    },
+    {
+      "id": "moto-bros-okeechobee",
+      "note": "Status reconfirmed with dated Fall 2026 calendar (Florida Motocross Series Rd 10 Nov 7 2026; weekly Moto Thursday training; I4MX Triple Crown Rd 4 Jan 2 2027).",
+      "status": "open",
+      "sources": [
+        {
+          "url": "https://mxparks.com/motocross-tracks/florida/moto-bros-okeechobee-mx-okeechobee",
+          "title": "MX Parks - MotoBros Okeechobee MX (Nov 2026 - Jan 2027 events)",
+          "accessed": "2026-10-25"
+        }
+      ]
+    },
+    {
+      "id": "orlando-mx-park",
+      "note": "Status reconfirmed: Florida Motocross Series Rd 11 season finale listed for Dec 11 2026; hours Wed-Thu and Sat-Sun.",
+      "status": "open",
+      "sources": [
+        {
+          "url": "https://mxparks.com/motocross-tracks/florida/orlando-mx-park-orlando",
+          "title": "MX Parks - Orlando MX Park (Dec 2026 FMS finale)",
+          "accessed": "2026-10-25"
+        }
+      ]
+    },
+    {
+      "id": "pax-trax-mx",
+      "note": "Status reconfirmed with dated Oct-Nov 2026 practice days, MX school and Nov 16 2026 Moto Academy camp; weekly hours posted.",
+      "status": "open",
+      "conditions": {
+        "seasonal": "Posted hours: Tue 4-8pm, Wed 5-8pm, Thu noon-8pm, Sat 9am-3pm, Sun 10am-4pm; closed Mon and Fri. Year-round; open since 1995. Moto Academy 5-day camp each November (Nov 16 2026)."
+      },
+      "sources": [
+        {
+          "url": "https://mxparks.com/motocross-tracks/florida/pax-trax-motocross-park-bunnell",
+          "title": "MX Parks - Pax Trax (Oct-Nov 2026 calendar)",
+          "accessed": "2026-10-25"
+        }
+      ]
+    },
+    {
+      "id": "big-scrub-ohv",
+      "note": "Status check: USFS Big Scrub campground page (updated Dec 1 2025) still lists direct OHV trail access; Recreation.gov permit page carries a post-Hurricane Milton note that Ocala OHV trails stay closed during tree clearing, with no reopen date. Status kept open but flagged.",
+      "sources": [
+        {
+          "url": "https://www.fs.usda.gov/r08/florida/recreation/big-scrub-campground",
+          "title": "USFS - Big Scrub Campground (updated Dec 1 2025)",
+          "accessed": "2026-10-25"
+        },
+        {
+          "url": "https://www.recreation.gov/vehiclepermits/74048",
+          "title": "Recreation.gov - National Forests in Florida OHV permit ($10 3-day / $25 7-day / $75 annual)",
+          "accessed": "2026-10-25"
+        }
+      ],
+      "gaps": [
+        "Recreation.gov still shows a post-Hurricane Milton (Oct 2024) closure note for Ocala OHV trails with no reopen date; confirm trail status with the Ocala NF office before riding"
+      ]
+    }
+  ],
+  "not_found": []
+}
