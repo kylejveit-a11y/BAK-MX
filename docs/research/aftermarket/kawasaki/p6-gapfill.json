@@ -849,6 +849,45 @@
     "Generic 4-stroke plug; fit on other silencers not stated."
    ],
    "confidence": "high"
+  },
+  {
+   "id": "kx6-017",
+   "category": "exhaust",
+   "subcategory": "slip_on",
+   "brand": "Pro Circuit",
+   "product": "Ti-6 titanium muffler for 2027 KX250F",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2027
+     ],
+     "notes": "Fitted to a 2027 KX250F by the tester; header compatibility not stated"
+    }
+   ],
+   "fitment_source_url": "https://www.keeferinctesting.com/pro-circuit-ti-6-muffler-for-2027-kawasaki-kx250f/",
+   "what_it_changes": "Tester: about 1.8 lb lighter than the stock muffler; slightly more responsive off the bottom and better mid-to-top pull, over-rev unchanged; better exhaust note; insert ships with a spark arrestor screen.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Pro Circuit (price quoted by tester)",
+     "url": "https://www.keeferinctesting.com/pro-circuit-ti-6-muffler-for-2027-kawasaki-kx250f/",
+     "price_if_stated": "1396.95",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [
+    "kx6f-009"
+   ],
+   "caveats": [
+    "No part number given; not yet confirmed on Pro Circuit's own page.",
+    "2027 KX250 has a new header and silencer, so 2025-2026 Pro Circuit KX250 numbers should not be assumed to fit."
+   ],
+   "confidence": "unverified"
   }
  ],
  "feedback": [
@@ -1027,12 +1066,71 @@
    "other_mods": [],
    "url": "https://dirtbiketest.com/bike-tests/2026-kawasaki-kx450x/",
    "confidence": "medium"
+  },
+  {
+   "id": "kx6f-009",
+   "category": "exhaust",
+   "brand": "Pro Circuit",
+   "product": "Ti-6 muffler for 2027 KX250F",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": 2027
+   },
+   "source_type": "tester_product_test",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-09-28",
+   "conditions": "2027 KX250F; track not stated; installed in about 10 minutes.",
+   "observed": "Slightly more responsive off the bottom, better pull through mid and top, over-rev unchanged; better note. Wanted more low end: cut the spark arrestor screen in the insert to reduce back pressure; his son preferred the insert removed entirely.",
+   "measured": "About 1.8 lb lighter than stock muffler (author's scale). No dyno or dB figures. Price $1,396.95.",
+   "other_mods": [],
+   "url": "https://www.keeferinctesting.com/pro-circuit-ti-6-muffler-for-2027-kawasaki-kx250f/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx6f-010",
+   "category": "ecu_tuning",
+   "brand": "Kawasaki (genuine)",
+   "product": "Optional ECU map for 2027 KX250 (via Kawasaki app)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": 2027
+   },
+   "source_type": "tester_settings",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-09-04",
+   "conditions": "Not stated.",
+   "observed": "Map gives 'a little more pulling power out of corners' and a slightly longer second-gear pull; noticeable change.",
+   "measured": "Fuel and ignition values are only in screenshots on the page and could not be read from text; not recorded here.",
+   "other_mods": [],
+   "url": "https://www.keeferinctesting.com/2027-kawasaki-kx250-optional-ecu-map/",
+   "confidence": "unverified"
   }
  ],
  "builds": [],
  "gaps": [
   "Kawasaki US accessory pages (kawasaki.com/en-us/shop/vehicle-accessories/...) returned server errors again; Kawasaki UK pages were readable but most product pages give no model years.",
-  "Kawasaki UK RIDEOLOGY THE APP KX: page says the app adjusts fuel and ignition maps like the earlier FI Calibration Kit and keeps maintenance logs; no app version-by-model table found. 2027 KX450 uses 'RIDEOLOGY THE APP KX2' (per Dirt Bike Test)."
+  "Kawasaki UK RIDEOLOGY THE APP KX: page says the app adjusts fuel and ignition maps like the earlier FI Calibration Kit and keeps maintenance logs; no app version-by-model table found. 2027 KX450 uses 'RIDEOLOGY THE APP KX2' (per Dirt Bike Test).",
+  "Hot Cams: no 2020+ KX250 or KX450 camshaft found in maker or retailer results (only KX250F 2017-2019 2311-1IN and older KX450F cams); hotcams.com could not be fetched (not in search results). Pro Circuit CSK24450 remains the only 2024+ KX450 cam found.",
+  "Pistons: Wiseco, Vertex, CP and Pro-X KX numbers found were already recorded elsewhere; only JE 395091 (KX450 2024-2025) was new. No JE KX250 2021+ number found.",
+  "Barnett and EBC KX clutch numbers come only from marketplace and UK trade listings; Barnett and EBC maker pages not reached.",
+  "Suspension shops: no Race Tech Gold Valve or spring part numbers, Enzo, Factory Connection or Xtrig KX-specific products with fitment found within budget; Parts Europe and Teknik Motorsport pages render without product data (JavaScript).",
+  "ECU: no Vortex X10 Kawasaki part number found (retailer pages found were KTM/Honda only); XPR not found; Kawasaki US FI calibration kit pages returned server errors.",
+  "Wheels: no Haan, Talon, Warp 9, DID or Excel complete-wheel KX listing with part numbers and KX years found; Rocky Mountain ATV/MC result pages were not opened (bot protection noted earlier).",
+  "Footpegs: Fastway EVO 4 page lists no Kawasaki fitment; TM Designworks and Pro Circuit KX pegs not found; RFX Factory titanium Kawasaki pegs seen on RevZilla without part number or years.",
+  "Blocked fetches (permission not answered): kawasaki.co.uk off_road/protection.html and off_road/others.html; keeferinctesting.com/kawasaki-kx450x-garage-build/ (July 2026). Keefer 2027 KX250 first ride and 2026 KX450 Loretta Lynn's build pages are video-only (no text)."
  ],
- "not_done": []
+ "not_done": [
+  "No 2027 KX450 ride test with clicker settings found yet; only the Dirt Bike Test first look (no riding).",
+  "Racer X: no non-paywalled 2025-2027 KX test text found in results.",
+  "Vital MX: the 2025 KX450 review is video-only; no written 2026-2027 KX settings found.",
+  "Keefer 2027 KX250 optional ECU map values exist only as screenshots and were not transcribed.",
+  "Kawasaki UK KX250 2026 model page accessory list not opened (not in search results).",
+  "No project builds added in this pass."
+ ]
 }
