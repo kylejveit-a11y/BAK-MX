@@ -17,7 +17,8 @@ CONF = {'high', 'medium', 'low'}
 # Same facility researched under two ids at a regional border: second id folds into the first.
 SAME = {'motobros-okeechobee-mx': 'moto-bros-okeechobee'}
 # Never loaded: a private person's home or property is not a track listing (privacy), whatever its history.
-EXCLUDE = {'chad-reed-compound': "a rider's private home compound"}
+EXCLUDE = {'chad-reed-compound': "a rider's private home compound",
+           'stc-mx-panama-city': 'a coaching business with no public track (2026-10-25 review)'}
 
 def norm(r, file):
     errs = []

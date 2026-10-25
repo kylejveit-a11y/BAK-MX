@@ -155,6 +155,16 @@
      "url": "https://mxparks.com/motocross-tracks-near-tallahassee",
      "title": "MX Parks - tracks near Tallahassee",
      "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://www.cyclesofjacksonville.com/blog/best-motocross-tracks-in-florida--28916",
+     "title": "Cycles of Jacksonville - Best MX tracks in Florida (2020-11)",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=ND8uSyRDkro",
+     "title": "YouTube - Florida Motoplex / Plex MX (undated)",
+     "accessed": "2026-10-25"
     }
    ],
    "conditions": {
@@ -162,11 +172,19 @@
    },
    "gaps": [
     "Newest operator-related evidence found is from 2022; no website, phone or social page located"
+   ],
+   "rider_reports": [
+    {
+     "says": "A Jacksonville dealer blog called the public main track one of the largest in Florida on a 400-acre property, with membership unlocking two more tracks and the trails.",
+     "source_url": "https://www.cyclesofjacksonville.com/blog/best-motocross-tracks-in-florida--28916",
+     "source_type": "article",
+     "date": "2020-11"
+    }
    ]
   },
   {
    "id": "waldo-mx",
-   "note": "Operator site now confirms address (17000 NE US Hwy 301), phone and a clay main track; dated 2026 events (MX des States Feb 2026, Swampfest Mar 2026, first summer camp Jun 2026) confirm open under RAD Sports ownership. Soil raised to medium (operator says natural clay; vintage series and RiderPlanet describe softer clay/dirt with little sand).",
+   "note": "Operator site now confirms address (17000 NE US Hwy 301), phone and a clay main track; dated 2026 events (MX des States Feb 2026, Swampfest Mar 2026, first summer camp Jun 2026) confirm open under RAD Sports ownership. Soil raised to medium (operator says natural clay; vintage series and RiderPlanet describe softer clay/dirt with little sand). Also hosts Florida Motocross Series 2026 Round 9 (Oct 24-25, 2026).",
    "status": "open",
    "aliases": [
     "Waldo MX Park",
@@ -237,6 +255,11 @@
      "url": "https://allevents.in/waldo/2026-florida-swampfest/200029566443328",
      "title": "AllEvents - 2026 Florida Swampfest at Waldo MX (Mar 2026)",
      "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://floridaseries.com/2025/12/30/2026-florida-motocross-series-schedule/",
+     "title": "Florida Motocross Series - 2026 schedule",
+     "accessed": "2026-10-25"
     }
    ],
    "remove_gaps": [
@@ -296,7 +319,379 @@
     "Business phone varies: (904) 719-1010 on older listings, (904) 535-2290 on the lesson listing",
     "Dirt type and layout detail not published"
    ]
+  },
+  {
+   "id": "florida-cracker-ranch",
+   "note": "Ticketed events listed at the ranch for Dec 2026-Feb 2027 (New Year Bash; Apollo MC Pumpkin Run) support that it is operating; address on event and directory listings is 797 County Road 200, Bunnell. Added website and Facebook. Still members-only; soil only from directories (sand and mud).",
+   "status": "open",
+   "address": "797 County Road 200, Bunnell, FL 32110",
+   "website": "https://www.centralfloridaoffroad.com",
+   "facebook": "https://facebook.com/FloridaCrackerRanch",
+   "soil": {
+    "primary": "sand",
+    "secondary": "mud",
+    "notes": "One directory tags the terrain as sand and mud with trails ranging dry to wet and muddy; an older directory checklist says loose dirt and mud with no sand. No rider confirmation.",
+    "confidence": "low"
+   },
+   "conditions": {
+    "wet": "Muddy after rain per two directories.",
+    "seasonal": "Annual private membership; day ($30) and night ($20) rates listed by one directory. Hosts club rally weekends (e.g., Feb Pumpkin Run, New Year Bash)."
+   },
+   "sources": [
+    {
+     "url": "https://fcr.yapsody.com/event/index/817297/2024-annual-pumpkin-run",
+     "title": "Florida Cracker Ranch ticketing (events Dec 2026 - Feb 2027)",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://mypowersportresource.com/listing/florida-cracker-ranch/",
+     "title": "myPowersportResource - Florida Cracker Ranch (2024-12)",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://braaply.com/trail-systems/541",
+     "title": "Braaply - Florida Cracker Ranch",
+     "accessed": "2026-10-25"
+    }
+   ],
+   "remove_gaps": [
+    "Current status"
+   ],
+   "gaps": [
+    "Address conflict: older listing says County Road 202; current event and directory listings say 797 County Road 200",
+    "Whether non-members can ride on day passes (one directory lists day rates, another says members only)"
+   ]
+  },
+  {
+   "id": "big-scrub-ohv",
+   "note": "Added Forest Service campground coordinates (page updated 2025-12); campground is seasonal while the 47-mile Ocala Centennial Trail stays open year-round. OHV pass pricing updated.",
+   "aliases": [
+    "Ocala Centennial Trail",
+    "Centennial OHV Trail"
+   ],
+   "lat": 29.05073333,
+   "lng": -81.75606667,
+   "phone": "(850) 523-8500",
+   "website": "https://www.fs.usda.gov/r08/florida/recreation/big-scrub-campground",
+   "conditions": {
+    "seasonal": "Trails open year-round dawn to dusk, subject to weather. Big Scrub campground is seasonal (listed seasonally closed at times; gates 8am-8pm when open). Recreation.gov OHV pass: $10/3 days, $25/7 days, $75/year per rider, valid on all Ocala and Apalachicola NF OHV trails. Under-16 riders need an online safety course."
+   },
+   "sources": [
+    {
+     "url": "https://www.fs.usda.gov/r08/florida/recreation/big-scrub-campground",
+     "title": "USFS - Big Scrub Campground (updated 2025-12)",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://www.fs.usda.gov/r08/florida/recreation/opportunities/highway-vehicles-ohv",
+     "title": "USFS - National Forests in Florida OHV listing (updated 2025-07)",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://www.recreation.gov/vehiclepermits/74048",
+     "title": "Recreation.gov - Ocala NF OHV pass",
+     "accessed": "2026-10-25"
+    }
+   ],
+   "remove_gaps": [
+    "Coordinates"
+   ],
+   "gaps": [
+    "Coordinates are the campground, not the separate Centennial OHV trailhead (USFS trailhead page could not be fetched)"
+   ]
+  },
+  {
+   "id": "wandering-wiregrass-ohv",
+   "note": "Official USFS page (updated 2025-05) lists it open and gives trailhead coordinates; access is CR 445 between Altoona and Astor. One directory shows it temporarily closed without a date; a recreation.gov notice mentions post-Hurricane Milton (Oct 2024) closures of Ocala OHV trails, but USFS 2025 pages show it open. Added terrain detail (deep soft sand, heavy whoops).",
+   "lat": 29.0447,
+   "lng": -81.6112,
+   "address": "Wandering Wiregrass OHV Trailhead, CR 445 between Altoona and Astor, south of Alexander Springs, Ocala National Forest",
+   "phone": "(850) 523-8500",
+   "website": "https://www.fs.usda.gov/r08/florida/recreation/wandering-wiregrass-ohv-trail-and-trailhead",
+   "soil": {
+    "primary": "sand",
+    "secondary": null,
+    "notes": "Deep, soft sand through longleaf pine and wiregrass with a few hard-packed stretches.",
+    "confidence": "medium"
+   },
+   "layout": {
+    "speed": "fast",
+    "jumps": "small",
+    "elevation_change": "rolling",
+    "traits": [
+     "two-way traffic",
+     "whoops",
+     "deep sand"
+    ],
+    "notes": "17-mile loop for motorcycles and ATVs. USFS calls the habitat hilly; rider directories call it mostly flat but very rough with lots of whoops and markers that are hard to see at speed. Physically demanding."
+   },
+   "conditions": {
+    "dry": "Deep, soft sand that whoops up; tiring.",
+    "seasonal": "Dawn to dusk; recreation.gov pass ($10/3 days, $25/week, $75/year); fills on weekends. Vault toilets, no potable water."
+   },
+   "rider_reports": [
+    {
+     "says": "Directory summary of rider feedback: loop is mostly flat, deep soft sand, very rough with extensive whoops, physically demanding, and trail markers are easy to miss at speed.",
+     "source_url": "https://braaply.com/trail-systems/1565",
+     "source_type": "review",
+     "date": null
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://www.fs.usda.gov/r08/florida/recreation/wandering-wiregrass-ohv-trail-and-trailhead",
+     "title": "USFS - Wandering Wiregrass OHV Trail and Trailhead (updated 2025-05)",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://braaply.com/trail-systems/1565",
+     "title": "Braaply - Wandering Wiregrass OHV Trail",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://www.recreation.gov/vehiclepermits/74048",
+     "title": "Recreation.gov - Ocala NF OHV pass",
+     "accessed": "2026-10-25"
+    }
+   ],
+   "remove_gaps": [
+    "Coordinates"
+   ],
+   "gaps": [
+    "Conflicting status: Braaply shows temporarily closed (undated); USFS (2025-05) lists open",
+    "Peewee track at trailhead condition unknown"
+   ]
+  },
+  {
+   "id": "ocala-nf-ohv-trail-system",
+   "note": "USFS OHV listing (updated 2025-07) shows Delancy Loops OHV Trail (16 mi) temporarily closed while Delancy West trailhead/campground, Longleaf, and Motorcycle Loop (14 mi, motorcycles only) are open. Recreation.gov notes Ocala OHV trails were closed for tree clearing after Hurricane Milton (Oct 2024). Pass prices updated. System status stays open with a partial closure.",
+   "tracks_on_site": [
+    "Delancy Loops OHV Trail (16 mi, six loops; temporarily closed per USFS 2025)",
+    "Longleaf OHV Trail (steep rolling hills)"
+   ],
+   "phone": "(850) 523-8500",
+   "website": "https://www.fs.usda.gov/r08/florida/recreation/opportunities/highway-vehicles-ohv",
+   "layout": {
+    "speed": "medium",
+    "jumps": "small",
+    "elevation_change": "rolling",
+    "traits": [
+     "deep sand berms",
+     "single track"
+    ],
+    "notes": "Mostly flat, twisty sand trails; the Longleaf trail runs over some of the forest's tallest hills, and the motorcycle-only loop is narrow, twisting and physically demanding. Play track has berms but no jumps."
+   },
+   "conditions": {
+    "seasonal": "Dawn to dusk, trailheads close at dusk; no night riding, no mudding or off-trail riding. Recreation.gov pass $10/3 days, $25/7 days, $75/year per rider (covers Ocala and Apalachicola NF OHV trails). Spark arrestor required; under-16 riders need an online safety course. Delancy Loops temporarily closed in 2025; post-Hurricane Milton tree clearing closed trails for a period."
+   },
+   "sources": [
+    {
+     "url": "https://www.fs.usda.gov/r08/florida/recreation/opportunities/highway-vehicles-ohv",
+     "title": "USFS - National Forests in Florida OHV listing (updated 2025-07)",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://www.recreation.gov/vehiclepermits/74048",
+     "title": "Recreation.gov - Ocala NF OHV pass",
+     "accessed": "2026-10-25"
+    }
+   ],
+   "gaps": [
+    "Whether Delancy Loops has reopened since the 2025 USFS listing",
+    "Trailhead coordinates (USFS trailhead pages for Delancy West and Motorcycle Loop could not be fetched)"
+   ]
+  },
+  {
+   "id": "lake-city-motorsports-park",
+   "note": "No new evidence. Searches for a 2025-2026 event, operator site, Facebook or listing at 3320 N US Hwy 441 found nothing; only the unclaimed MX Parks listing (no events, no reviews) and RiderPlanet's 'destroyed/redeveloped' entry. Status remains unknown, leaning closed.",
+   "gaps": [
+    "No 2025-2026 operator activity of any kind found; the only 'open' claim is an unclaimed directory listing with no events or reviews"
+   ]
+  },
+  {
+   "id": "stc-mx-panama-city",
+   "note": "STC appears to be a motocross coaching business (stcmoto.com) offering private and group lessons and travel training, currently based in Bonifay; it publishes no facility address, public track or schedule. No evidence of a public track near Panama City.",
+   "website": "https://stcmoto.com/",
+   "access": "private",
+   "types": [
+    "training"
+   ],
+   "sources": [
+    {
+     "url": "https://stcmoto.com/",
+     "title": "STC MX coaching site",
+     "accessed": "2026-10-25"
+    }
+   ],
+   "remove_gaps": [
+    "May be a private coaching track"
+   ],
+   "gaps": [
+    "STC is a coaching service; no public facility, address or open-ride schedule found. Consider merging into a coaching note or dropping from the track list"
+   ]
+  },
+  {
+   "id": "bostwick-creek-mx-park",
+   "note": "2026 activity confirmed: J Day Offroad AMA Regional GP Round 1 (Feb 2026) and Sunshine Vintage Series Round 1 (Nov 8, 2026, practice Nov 7). Event listing also tags the soil as loam, clay and sand.",
+   "sources": [
+    {
+     "url": "https://www.jdayoffroad.com/events/bostwick-2026",
+     "title": "J Day Offroad - Bostwick Creek GP 2026 (Feb 2026)",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://mxparks.com/events/bostwick-creek-mx-park-sunshine-vintage-series-round-1-2026-11-08",
+     "title": "MX Parks - Sunshine Vintage Series Rd 1 at Bostwick (Nov 2026)",
+     "accessed": "2026-10-25"
+    }
+   ],
+   "gaps": [
+    "Two phone numbers in circulation (386-295-4343 and 904-284-5221)"
+   ]
+  },
+  {
+   "id": "gatorback-cycle-park",
+   "note": "2026 activity confirmed: MX Sports Southeast Youth Regional (Jun 5-7, 2026) and Thor Mini O's (Nov 22-28, 2026).",
+   "sources": [
+    {
+     "url": "https://mxsports.com/events",
+     "title": "MX Sports - 2026 race schedule",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://www.floracing.com/events/15968118-2026-thor-mini-os-at-gatorback-cycle-park",
+     "title": "FloRacing - 2026 Thor Mini O's at Gatorback",
+     "accessed": "2026-10-25"
+    }
+   ],
+   "facebook": "https://www.facebook.com/gatorbackcycleparkmx/"
+  },
+  {
+   "id": "sunshine-state-mx-park",
+   "note": "2026 activity confirmed: Florida Motocross Series Round 2 at Sunshine MX, Jasper (Apr 18-19, 2026); FL Motocross (reviewed 2026-08) lists active practice, training and racing and ties it to the Dirt Star Moto site.",
+   "phone": "(850) 559-7112",
+   "sources": [
+    {
+     "url": "https://floridaseries.com/2025/12/30/2026-florida-motocross-series-schedule/",
+     "title": "Florida Motocross Series - 2026 schedule",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://floridaseries.com/tracks/",
+     "title": "Florida Motocross Series - Tracks",
+     "accessed": "2026-10-25"
+    }
+   ],
+   "conditions": {
+    "wet": "Red clay/sand surface changes a lot after heavy rain or as it dries; traction depends on moisture and prep (directory)."
+   },
+   "remove_gaps": [
+    "Rebrand to Dirt Stars MX not confirmed by operator page"
+   ],
+   "gaps": [
+    "Exact relationship between Sunshine State MX Park and Dirt Star Moto branding not explained by operator"
+   ]
+  },
+  {
+   "id": "decker-training-facility-county-line-mx",
+   "note": "2026 activity confirmed: Florida Motocross Series Round 5 (Jun 27-28, 2026); ticketing page gives operator coordinates.",
+   "sources": [
+    {
+     "url": "https://floridaseries.com/2025/12/30/2026-florida-motocross-series-schedule/",
+     "title": "Florida Motocross Series - 2026 schedule",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://mx-tickets.com/en-US/t/dtf/info",
+     "title": "MX Tickets - Decker Training Facility",
+     "accessed": "2026-10-25"
+    }
+   ],
+   "lat": 30.5678524,
+   "lng": -85.3913959,
+   "remove_gaps": [
+    "Coordinates from directory listing"
+   ],
+   "gaps": [
+    "Coordinates now from the facility's ticketing page map pin, not a surveyed gate"
+   ]
+  },
+  {
+   "id": "ww-ranch-motocross-park",
+   "note": "2026 activity confirmed: Florida Motocross Series Round 8 moved to WW MX Park (Sep 5-6, 2026) after Spyder 2.0 closed. FL Motocross (2026-08) says normal public practice is closed and riders are pointed to Club57 training.",
+   "sources": [
+    {
+     "url": "https://floridaseries.com/2025/12/30/2026-florida-motocross-series-schedule/",
+     "title": "Florida Motocross Series - 2026 schedule",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://flmotocross.com/region/north-florida",
+     "title": "FL Motocross - North Florida region (reviewed 2026-08)",
+     "accessed": "2026-10-25"
+    }
+   ],
+   "remove_gaps": [
+    "Official site could not be fetched; current practice/training access policy (Club57 training referenced by a directory) unconfirmed"
+   ],
+   "gaps": [
+    "Public practice reported closed (2026 directory citing operator); open-practice days, if any, unconfirmed"
+   ]
+  },
+  {
+   "id": "north-florida-motocross-park",
+   "note": "FL Motocross directory (reviewed 2026-08) lists it active as a 35-acre racing and practice facility; no dated 2026 event found within budget.",
+   "sources": [
+    {
+     "url": "https://flmotocross.com/region/north-florida",
+     "title": "FL Motocross - North Florida region (reviewed 2026-08)",
+     "accessed": "2026-10-25"
+    }
+   ],
+   "gaps": [
+    "No dated 2025-2026 event or post found; status rests on a 2026 directory review"
+   ]
+  },
+  {
+   "id": "mx-191",
+   "note": "Track's own ticketing page (2026) lists 8500 Neptune Way, Milton, a 1-mile, 25-ft-wide irrigated track plus kids track, and sells $30 open-practice tickets (e.g., a Saturday Jan 24 session, 9am-3pm). Instagram added.",
+   "address": "8500 Neptune Way, Milton, FL 32570",
+   "instagram": "https://www.instagram.com/mx191mototrack/",
+   "conditions": {
+    "watering_prep": "Irrigated; a rider review describes an in-ground watering system that wets sections while riders are on track, keeping the sand/clay moist and rough (Midwest-style feel)."
+   },
+   "sources": [
+    {
+     "url": "https://mx-tickets.com/en-US/t/mx-one-nine-one/info",
+     "title": "MX Tickets - MX 191 info",
+     "accessed": "2026-10-25"
+    },
+    {
+     "url": "https://mx-tickets.com/en-US/t/mx-one-nine-one/events/ykZhDORgneXzJD4jOYow",
+     "title": "MX Tickets - MX 191 open practice",
+     "accessed": "2026-10-25"
+    }
+   ],
+   "remove_gaps": [
+    "Address conflict: one directory says current location is 8500 Neptune Way, Milton; coordinates are from the Munson Hwy listing"
+   ],
+   "gaps": [
+    "Coordinates are from the older Munson Hwy listing; not verified against 8500 Neptune Way"
+   ]
   }
  ],
- "not_found": []
+ "not_found": [
+  {
+   "id": "stc-mx-panama-city",
+   "reason": "No public track found; STC is a coaching business with no published facility. Did not look further into any private property."
+  },
+  {
+   "id": "lake-city-motorsports-park",
+   "reason": "No operator, event or dated post found for 2025-2026; status still unresolved."
+  },
+  {
+   "id": "florida-motoplex",
+   "reason": "Newest evidence is a 2022 directory edit; no operator contact found."
+  }
+ ]
 }
