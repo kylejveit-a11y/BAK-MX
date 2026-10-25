@@ -2,7 +2,7 @@
 // clip, and how to read a track from pictures. Sent with every request as reference data (like setup_knowledge), so
 // coaching answers stay consistent and specific. Written in BAK's own words from established coaching practice.
 // Coaching is general guidance, never a substitute for in-person coaching, and never pushes a rider past their level.
-export const COACHING_VERSION='bak-coach-3';
+export const COACHING_VERSION='bak-coach-4';
 
 type Fault={fault:string;looks_like:string;why:string;fix:string;drill?:string};
 type Skill={id:string;skill:string;goal:string;keys:string[];faults:Fault[];setup_link?:string};
@@ -158,7 +158,14 @@ export const mediaReading={
   'Compare frames: where the rider moves (or fails to move) forward and back, when the elbows drop, when the inside leg comes up, when the bike lifts or kicks.',
   'Name the frame by its time when pointing at a fault ("at 2.1 s your hips are behind the pegs").',
   'Frames are a few moments spread over the clip; something between two frames can be missed. Do not invent what happened between them.'],
- asking_for_better_footage:'Best coaching footage: filmed side-on from a safe spot at the feature, 60 frames per second or more, the rider filling a good part of the frame, the whole corner or jump from approach to exit, 5 to 15 seconds.',
+ level_markers:{
+  first_rides:['Seated almost everywhere, including over rollers and jump faces','Upright torso with elbows dropped and tucked in','Feet stay on the pegs through turns; no inside leg forward','Little bike lean: turning with the bars at low speed','When standing, legs locked straight and weight back; landing seated','Street clothes or partial gear (no gloves, sunglasses instead of goggles)'],
+  developing:['Stands on straights but sits before jumps or rough ground','Inside leg comes out, but late or dragging behind','Leaves the ground on small jumps, lands seated or stiff'],
+  solid_amateur:['Stands on approaches and over jumps, centered in the air with knees on the bike','Sits forward into corners with the inside leg forward and the bike leaned under the body','Drives out of corners with the rear hooking up rather than spinning']},
+ good_form_but_slow:['Most speed is lost between features, not in them: look for coasting between braking and turn-in, and for sitting on straights where standing and driving would carry speed.','Braking early and long, then turning slowly: the bike stays upright through the turn and the exit is the only fast part.','Wheelspin or a big roost on corner exits, especially on a 450: that is drive lost; smoother roll-on, a taller gear, weight forward.','Standing up late after a corner, or shifting late on the straight.','Jumping or rolling features that faster riders skim, double or carry speed through.','Compare against a faster rider on the same section, filmed from the same spot, or time both between two fixed landmarks; one rider alone cannot show speed.'],
+ measurable_in_clips:['Airtime: count the frames off the ground at the same jump (at 30 frames per second, 15 frames is half a second).','Standing versus sitting: which sections the rider stands for.','Where braking starts relative to a fixed object, and where the rider gets back on the gas.','Bike lean in the turn and where the inside leg is.','Roost and wheelspin on exits.'],
+ first_day_on_a_big_bike:'A brand-new rider on a 250F or 450 has a lot of bike: favor a tamer map, smooth throttle, flat ground and slow corners first, and name a smaller bike as the easier way to learn when it fits.',
+ asking_for_better_footage:'Best coaching footage: phone held sideways (landscape), filmed side-on from a safe spot at the feature, zoomed so the rider fills a good part of the frame, 60 frames per second or more, the rider filling a good part of the frame, the whole corner or jump from approach to exit, 5 to 15 seconds.',
  identity_and_safety:'Never identify a person in a photo. Coach the riding, not the rider\'s gear brand or looks. If a photo shows unsafe riding (no helmet, riding a closed track, passengers), say so plainly.'
 };
 

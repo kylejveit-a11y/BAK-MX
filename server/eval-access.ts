@@ -3,6 +3,7 @@ import {z} from 'zod';
 import type {Bike,Message} from '../shared/types.ts';
 import {adminDb,checked} from './database.ts';
 import {HttpError,readJson} from './validation.ts';
+import {COACH_FOCUS_IDS,CLIP_MAX_FRAMES} from '../shared/coach-focus.ts';
 import {searchBikeClaims} from './claims.ts';
 import {bikeKnowledge,comparisonKnowledge} from './knowledge.ts';
 import {generateAnswer,planSpecLookups,PROMPT_VERSION} from './engineering.ts';
@@ -19,6 +20,9 @@ const body=z.object({
  history:z.array(turn).max(20).default([]),
  guided:z.object({procedure_id:z.string().min(1).max(200),step_index:z.number().int().min(0).max(2000)}).optional(),
  voice:z.boolean().optional(),
+ // Coaching tests: still frames as inline JPEGs (never links), and the clip details the app would send with them.
+ images:z.array(z.string().regex(/^data:image\/jpeg;base64,[A-Za-z0-9+/=]+$/).max(400000)).max(CLIP_MAX_FRAMES).default([]),
+ media:z.discriminatedUnion('kind',[z.object({kind:z.literal('clip'),duration:z.number().min(0).max(120),frames:z.array(z.number().min(0).max(120)).min(2).max(CLIP_MAX_FRAMES),focus:z.enum(COACH_FOCUS_IDS).optional(),slowmo:z.boolean().optional()}).strict(),z.object({kind:z.literal('photos'),focus:z.enum(COACH_FOCUS_IDS)}).strict()]).optional(),
  setup_history:z.array(z.object({recorded_at:z.string().default(()=>new Date().toISOString()),track:z.string().max(120).default(''),conditions:z.string().max(120).default(''),
   change_made:z.string().max(1000).default(''),result:z.enum(['better','no_change','worse','not_tested']),notes:z.string().max(1000).default('')})).max(8).default([]),
 });
@@ -32,7 +36,8 @@ export async function handleEval(req:Request):Promise<Response>{
  const {count}=await admin.from('eval_runs').select('id',{count:'exact',head:true}).eq('token_id',tok.id).gte('created_at',new Date(Date.now()-864e5).toISOString());
  if((count??0)>=tok.daily_limit)throw new HttpError(429,'Daily test limit reached');
  if(!process.env.OPENAI_API_KEY||!process.env.OPENAI_MODEL)throw new HttpError(503,'AI is not configured');
- const data=body.parse(await readJson(req)),now=new Date().toISOString();
+ const data=body.parse(await readJson(req,4_000_000)),now=new Date().toISOString();
+ if(data.media?.kind==='clip'&&data.media.frames.length!==data.images.length)throw new HttpError(400,'Send one frame time per image.');
  const bike:Bike|null=data.bike?{id:ID+'01',user_id:ID+'02',nickname:'Test bike',created_at:now,updated_at:now,...data.bike} as unknown as Bike:null;
  const history:Message[]=data.history.map((t,i)=>({id:ID+String(10+i),conversation_id:ID+'03',user_id:ID+'02',role:t.role,content:t.content,response:null,created_at:new Date(Date.now()-(data.history.length-i)*1000).toISOString()}));
  const t0=Date.now(),label=bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:'no bike';
@@ -41,7 +46,7 @@ export async function handleEval(req:Request):Promise<Response>{
   const lookups=bike?await planSpecLookups(bike,history,data.message):[];
   const claims=bike?await searchBikeClaims(admin,bike,lookups):[];
   const knowledge=bike?[...await bikeKnowledge(admin,bike,data.message,lookups),...await comparisonKnowledge(admin,bike,data.message)]:[];
-  const {response}=await generateAnswer(bike,history,claims,data.message,lookups,()=>{},data.setup_history as never,knowledge,data.guided??null,data.voice===true);
+  const {response}=await generateAnswer(bike,history,claims,data.message,lookups,()=>{},data.setup_history as never,knowledge,data.guided??null,data.voice===true,[],data.images,[],data.media??null);
   await log(true);
   return new Response(JSON.stringify({prompt_version:PROMPT_VERSION,model:process.env.OPENAI_MODEL,ms:Date.now()-t0,published_claims:claims.length,lookups,response}),{headers:{'content-type':'application/json','cache-control':'no-store'}});
  }catch(e){await log(false,String((e as Error)?.message??e));throw e;}
