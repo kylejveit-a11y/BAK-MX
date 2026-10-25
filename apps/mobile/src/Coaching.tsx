@@ -33,13 +33,13 @@ export function CoachingList({bike,onCoach}:{bike:Bike;onCoach:()=>void}){
    <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>Send BAK a short clip of you riding a corner, jump or section. Each session lands here with the fix and a drill, so you can see what you have worked on and send a new clip to check it stuck.</Text>
    <Pressable accessibilityRole="button" onPress={onCoach} hitSlop={6}><Text style={{color:colors.accent,fontSize:15,fontWeight:'700'}}>Coach me from a clip</Text></Pressable>
   </View>}
-  {sessions?.map(s=><Session key={s.id} s={s}/>)}
+  {sessions?.map((s,i)=><Session key={s.id} s={s} first={i===0}/>)}
  </Card>;
 }
 
-function Session({s}:{s:CoachingSession}){
+function Session({s,first}:{s:CoachingSession;first:boolean}){
  const times=s.media.kind==='clip'&&s.media.frames.length===s.photos.length?s.media.frames:undefined;
- return <View style={{gap:8,paddingTop:12,borderTopWidth:1,borderTopColor:'#1f242c'}}>
+ return <View style={{gap:8,paddingTop:first?4:12,borderTopWidth:first?0:1,borderTopColor:'#1f242c'}}>
   <View style={{flexDirection:'row',gap:12}}>
    {!!s.photos[0]&&<Image source={{uri:s.photos[Math.floor(s.photos.length/2)].url}} style={{width:64,height:64,borderRadius:10,backgroundColor:'#101217'}} accessibilityIgnoresInvertColors/>}
    <View style={{flex:1,gap:4}}>
@@ -49,7 +49,7 @@ function Session({s}:{s:CoachingSession}){
    </View>
   </View>
   <Disclosure title="Frames and full coaching">
-   <MessagePhotos photos={s.photos} times={times}/>
+   <MessagePhotos photos={s.photos} times={times} align="left"/>
    <RichText text={s.answer} frames={times?{times,photos:s.photos}:null}/>
   </Disclosure>
  </View>;

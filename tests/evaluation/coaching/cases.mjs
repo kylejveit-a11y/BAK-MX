@@ -6,11 +6,11 @@
 export const GLOBAL_MUST_NOT=[/coaching_knowledge|rider_media|look_at|skill_level|coaching_history|earlier_fix/i,/\bsend it\b/i];
 export const cases=[
  {id:'double-casing',level:'Intermediate',discipline:'motocross',q:'I keep casing the double right after the whoops at my track. How do I clear it?',
-  must:[[/roll (it|through)|commit|known speed|follow (a|another) rider|speed you know/i]],must_not:[/(each|every) (lap|time|pass)[^.]{0,60}(a (bit|little)|slightly) (more|faster)/i]},
+  must:[[/roll(ing)? (it|through|the (double|jump))|commit|known speed|follow (a|another) rider|speed you know|(don.t|do not|never) (inch|creep)/i]],must_not:[/(each|every) (lap|time|pass)[^.]{0,60}(a (bit|little)|slightly) (more|faster)/i]},
  {id:'hill-stall',level:'Novice',discipline:'trail',q:'I stalled halfway up a steep hill and the bike started rolling back. What should I have done?',
   must:[[/both brakes|front and rear brakes?|front and back brakes?/i],[/in gear/i],[/uphill side/i]],must_not:[/pull (in )?the clutch[^.]{0,40}(hold|and hold)/i]},
  {id:'flat-turn-wash',level:'Beginner',discipline:'motocross',q:'My front end keeps washing out in flat turns.',
-  must:[[/sit (forward|up)|weight (forward|over the front)|front of the seat|up against the tank/i],[/drill/i]]},
+  must:[[/sit (forward|up)|weight (forward|over the front)|front of the seat|up against the tank/i],[/drill|practi[cs]e (five|ten|\d+)/i]]},
  {id:'arm-pump',level:'Vet',discipline:'motocross',q:'I get bad arm pump in the second half of every moto.',
   must:[[/legs|knees|grip with/i],[/breath|relax/i]]},
  {id:'slick-start',level:'Intermediate',discipline:'motocross',q:'The start pad at my track is slick concrete and I spin the rear every start. Tips?',

@@ -47,13 +47,13 @@ export function PhotoGrid({photos,onAdd,onDelete,adding=false}:{photos:Photo[];o
 }
 
 /** Photos sent in chat: a small row under the message. Clip frames show their time in the clip. */
-export function MessagePhotos({photos,times}:{photos:Photo[];times?:number[]}){
+export function MessagePhotos({photos,times,align='right'}:{photos:Photo[];times?:number[];align?:'left'|'right'}){
  const [viewer,setViewer]=useState<number|null>(null);
  if(!photos.length)return null;
  const size=times?60:photos.length===1?200:110;
  return <View style={{gap:4}}>
-  {times&&<Text style={{color:C.muted,fontSize:12,textAlign:'right'}}>Clip · {photos.length} frames · tap a time in BAK's answer to see that frame</Text>}
-  <View style={{flexDirection:'row',flexWrap:'wrap',gap:times?4:6,justifyContent:'flex-end'}}>
+  {times&&<Text style={{color:C.muted,fontSize:12,textAlign:align}}>Clip · {photos.length} frames · tap a time in BAK's answer to see that frame</Text>}
+  <View style={{flexDirection:'row',flexWrap:'wrap',gap:times?4:6,justifyContent:align==='left'?'flex-start':'flex-end'}}>
   {photos.map((p,i)=><Pressable key={p.id} accessibilityRole="imagebutton" accessibilityLabel={times?`Clip frame at ${times[i].toFixed(1)} seconds`:'Photo you sent'} onPress={()=>setViewer(i)}><Image source={{uri:p.url}} style={{width:size,height:size*(photos.length===1&&!times?ratio(p):1),borderRadius:times?8:14,backgroundColor:'#101217'}} accessibilityIgnoresInvertColors/>{times&&<View style={st.time}><Text style={{color:C.text,fontSize:10.5,fontWeight:'700'}}>{times[i].toFixed(1)} s</Text></View>}</Pressable>)}
   </View>
   <PhotoViewer photos={photos} start={viewer} onClose={()=>setViewer(null)} times={times}/>
