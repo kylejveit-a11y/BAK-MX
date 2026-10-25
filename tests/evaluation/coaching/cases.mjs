@@ -33,6 +33,12 @@ export const cases=[
   must:[[/slick|slippery|greasy|(little|no|less) grip|slide/i]]},
  {id:'blind-landing-stop',level:'Novice',discipline:'motocross',q:'Is it OK to stop just past the landing of a blind jump to fix my goggles?',
   must:[[/never|don.t|do not|not safe|off the track|off to the side/i]]},
+ {id:'first-turn',level:'Intermediate',discipline:'motocross',q:'I get good starts but always lose spots in the first turn. What should I do differently?',
+  must:[[/plan|line|inside|outside/i],[/(brake|braking)/i]],must_not:[/brake (a (bit|touch)|much) later than (feels|you)/i]},
+ {id:'passing',level:'Intermediate',discipline:'motocross',q:'I catch riders but cannot get around them. How do I pass?',must:[[/inside|block|cross.?under|outside/i],[/drive|exit/i]]},
+ {id:'two-stroke-switch',level:'Intermediate',discipline:'motocross',q:'I just switched from a 450F to a 250 two-stroke and keep overshooting corners. Why?',must:[[/engine braking/i],[/brake earlier|use the brakes|brakes more/i]]},
+ {id:'arenacross',level:'Novice',discipline:'arenacross',q:'Getting ready for my first arenacross race. What should I practice?',must:[[/start/i],[/tight|rhythm/i]]},
+ {id:'heat',level:'Vet',discipline:'motocross',q:'Florida summer races wipe me out by the second moto. What can I do?',must:[[/hydrat|fluid|water|electrolyte/i],[/shade|cool/i]]},
  {id:'sx-rhythm-triple',level:'Intermediate',discipline:'supercross',q:'How do I learn to triple in a rhythm lane?',
   must:[[/double|tabletop|progress|consistent|first/i]]},
 ];
