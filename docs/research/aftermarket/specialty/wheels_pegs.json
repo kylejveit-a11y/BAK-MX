@@ -3023,13 +3023,470 @@
      "status": "UNVERIFIED"
     }
    ]
+  },
+  {
+   "id": "wp-020",
+   "category": "wheels",
+   "subcategory": "rear wheel",
+   "brand": "Warp 9",
+   "product": "Complete Rear Wheel Assembly, Honda CRF (240 mm rotor)",
+   "part_numbers": [
+    "89-B11932R"
+   ],
+   "variants": [
+    "Rear wheel with 240 mm rotor; sprocket size chosen at order",
+    "Wheel size and colour not stated on the page"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "R1 Industries lists '2013 onward'; no end year given, mapped to in-range years"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "R1 Industries lists '2013 onward'; no end year given, mapped to in-range years"
+    }
+   ],
+   "fitment_source_url": "https://r1industriesoffroad.com/collections/warp9-racing/products/honda-crf-rear-wheel-in-stock-fitment-below",
+   "what_it_changes": "Seller: bolts on with the original spacers; includes 240 mm rotor and selectable sprocket.",
+   "supporting_parts": "Reuse OEM spacers.",
+   "where_to_buy": [
+    {
+     "seller": "R1 Industries",
+     "url": "https://r1industriesoffroad.com/collections/warp9-racing/products/honda-crf-rear-wheel-in-stock-fitment-below",
+     "price_if_stated": "'44000' as displayed (decimal point missing)",
+     "currency": "USD (symbol only)",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Open-ended fitment ('2013 onward') from a retailer; the seller asks buyers to phone to confirm fitment. CRF250RX/CRF450RX not named. Price display is malformed.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "wp-021",
+   "category": "controls",
+   "subcategory": "footpegs",
+   "brand": "Scar Racing",
+   "product": "Titanium Footpegs Gripper (KTM/Husqvarna/GasGas 2023+)",
+   "part_numbers": [
+    "S5518",
+    "60-2304.TIT.SCAR",
+    "SC-S5518"
+   ],
+   "variants": [
+    "Scar part S5518; Oro2u SKU 60-2304.TIT.SCAR; Firestorm SKU SC-S5518",
+    "60 mm body width (10 mm wider than OEM), 27 teeth",
+    "Weight: 0.432 kg (Oro2u) vs about 300 g per pair (Firestorm)",
+    "Silver (raw grade 5 titanium)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2025
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "KTM",
+     "model": "125 XC",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX 300",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 150",
+     "years": [
+      2025
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 300",
+     "years": [
+      2025
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 300",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 350F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 450F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Oro2u fitment list"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2023
+     ],
+     "notes": "Firestorm lists '250 XC TPI' 2023 (https://firestormmotorcycles.com.au/scar-racing-titanium-gripper-footpegs-fits-ktm~2033674); Oro2u list does not name 250 XC"
+    }
+   ],
+   "fitment_source_url": "https://www.oro2u.com/titanium-footpegs-23-26-gasgas-husqvarna-ktm-ec-ex-mc-tc-te-fc-fe-tx-fx-fs-sx-exc-xc-xw-scar-s5518",
+   "what_it_changes": "Seller: hand-fabricated grade 5 Ti-6Al-4V peg, 60 mm wide with 27 sharp teeth; Firestorm says used by factory teams.",
+   "supporting_parts": "Direct replacement on stock mounts per seller.",
+   "where_to_buy": [
+    {
+     "seller": "Oro2u (UK)",
+     "url": "https://www.oro2u.com/titanium-footpegs-23-26-gasgas-husqvarna-ktm-ec-ex-mc-tc-te-fc-fe-tx-fx-fs-sx-exc-xc-xw-scar-s5518",
+     "price_if_stated": "279.90",
+     "currency": "GBP",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "Firestorm Motorcycles (AU)",
+     "url": "https://firestormmotorcycles.com.au/scar-racing-titanium-gripper-footpegs-fits-ktm~2033674",
+     "price_if_stated": "",
+     "currency": "",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Fitment from retailers, not Scar's site; the two sellers' lists and weights differ (Oro2u omits KTM 250 XC; Firestorm lists 2023 only). The GasGas MC 450F etc. list starts at 2024; 2023 GasGas not listed. Oro2u also shows a trade-only price.",
+   "confidence": "medium",
+   "colors": [
+    {
+     "name": "Titanium silver",
+     "finish": "raw titanium",
+     "status": "UNVERIFIED"
+    }
+   ]
   }
  ],
  "gaps": [
   "Haan Wheels: maker site haanwheels.com could not be fetched (not reachable from search results); custom KTM and Yamaha Haan-hub sets at Sprocket Center (https://sprocketcenter.com/i-30498619-custom-ktm-wheel-set-haanbillet-hubswith-choice-of-did-stx-or-excel-a60-rims-free-sprocket.html, https://sprocketcenter.com/i-30500776) show no models, years or part numbers.",
   "Dubya USA EDGE KTM wheel set (https://sprocketcenter.com/i-30499913-dubyausa-edge-motocross-wheel-set-ktm-free-sprocket.html): page names KTM SX/XC/EXC but gives no years, sizes, price or part numbers.",
   "Kite: Ghostbikes Kite collection page (https://www.ghostbikes.com/collections/kite) refused; only individual product pages read.",
-  "Scar KTM/Husqvarna/GasGas pegs: Oro2u brand page lists S5516 titanium gripper (98-26), S5517 titanium (16-24), S5510/S5511 EVO (orange, blue, titanium colour) and S5211 standard, but the product pages (https://www.oro2u.com/titanium-footpegs-16-24-gasgas-husqvarna-ktm-mc-ec-ex-tc-tx-te-fc-fe-fs-fx-sx-xc-exc-scar-s5517, https://www.oro2u.com/titanium-footpegs-gripper-98-26-beta-gasgas-husaberg-husqvarna-ktm-sherco-rr-mc-fe-sx-se-scar-s5516) were refused, so per-model years are not recorded.",
+  "Scar KTM/Husqvarna/GasGas pegs other than S5518: Oro2u brand page lists S5516 titanium gripper (98-26), S5517 titanium (16-24), S5510/S5511 EVO (orange, blue, titanium colour) and S5211 standard, but the product pages (https://www.oro2u.com/titanium-footpegs-16-24-gasgas-husqvarna-ktm-mc-ec-ex-tc-tx-te-fc-fe-fs-fx-sx-xc-exc-scar-s5517, https://www.oro2u.com/titanium-footpegs-gripper-98-26-beta-gasgas-husaberg-husqvarna-ktm-sherco-rr-mc-fe-sx-se-scar-s5516) were refused, so per-model years are not recorded.",
   "Scar EVO aluminium pegs (S1511B/S1511T Yamaha, S5510/S5511 KTM family) and Scar titanium peg mounts STFMB153 (Yamaha 2023-26): titles seen only, product pages not read.",
   "IMS Pro Series KTM/Husqvarna/GasGas (Cycle Gear P320511, https://www.cyclegear.com/parts/ims-pro-series-footpegs-ktm-husqvarna-husaberg-gas-gas-sherco-50cc-1290cc-1996-2023): readable fitment table stops at 2015-2016 for in-scope MX models (list truncated), so no 2020+ fitment recorded.",
   "Fastway Evolution EXT stainless 22-5-007 (fit kit 22-3-5431S), titled 'KTM/HQV/GG 17-23' at https://aomc.mx/22-5-007.html: page fitment section empty, so no fits recorded. Fastway Evolution Air (https://www.motosport.com/fastway-evolution-air-footpeg-and-fit-kit-combo) lists peg numbers 22-4-001/002/005/007 and fit kits 22-3-xx31S but maps none to bikes.",
@@ -3041,7 +3498,9 @@
   "Kite front wheel MX-EN 21 x 1.60 red for Honda (Maciag Offroad SID63830, EAN 4053273474289, EUR 559.95, https://www.maciag-offroad.com/kite-performance-front-wheel-mx-en-21-x-1-60-red-honda-cr-crf-125-250-450-sid63830.html): fitment only 'Honda CR/CRF 125/250/450 from 2000 onwards', no end year, so no fits recorded.",
   "IMS Pro Series footpegs for 2016+ KTM/Husqvarna/GasGas and 2023+ Yamaha: IMS product-line pages (https://imsproducts.com/pages/pro-series-footpegs, /pages/super-stock-footpegs) show a template placeholder instead of fitment; no product page found for these bikes.",
   "Pro Circuit, TM Designworks, Ride Engineering and Xtrig footpegs: no footpeg product from these makers was found in searches; they may not offer one.",
-  "Talon hubs for Honda 2021+ and Yamaha rear: no readable hub page with part number and fitment found."
+  "Talon hubs for Honda 2021+ and Yamaha rear: no readable hub page with part number and fitment found.",
+  "Dubya Excel/Haan complete wheels at CRFs Only (front 56-3000(RS) $699.99, https://www.crfsonly.com/catalog/product_info.php/products_id/7035; rear 2.15x18 56-3157(RS) $785.00, https://www.crfsonly.com/catalog/product_info.php/products_id/7034) are listed only for CRF450X 2019-2027 and CRF250X; no CRF-R/RX listing found. HAAN YZ/WR wheel set (Rebel X Sports, EUR 1,490, https://rebelxsports.com/product/haan-yzwr-wheel-set/) names no models or years.",
+  "Yamaha YZ250F/YZ450F (2020+) complete aftermarket wheel sets with per-bike fitment were not found for Haan, Kite, Warp 9, DID or Dubya."
  ],
  "not_done": [
   "Honda genuine accessories and HRC parts for CRF250R/RX and CRF450R/RX: no readable Honda (powersports.honda.com, Honda Europe/UK, Honda Australia) accessory page surfaced in searches, and URLs not returned by search cannot be fetched. HRC Japan kit-parts pages found are road-race only (https://www.honda.co.jp/HRC/products/kitparts/cbr1000rr-r2020_kit/). An Australian HRC CRF accessory list (https://www.motoonline.com/au/hrc-parts-available-for-crf-range/) is undated, gives no part numbers and names CRF250X/450X, so it predates the 2020-2027 range."

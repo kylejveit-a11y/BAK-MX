@@ -40,7 +40,11 @@
 "tf-motomaster-sm-front",
 "tf-prox-piston-250",
 "tf5-scar-pegs-antimud",
-"tf5-scar-pegs-gripper"
+"tf5-scar-pegs-gripper",
+"tf6-fmf-045703-maker",
+"tf6-motomaster-110298",
+"tf6-yosh-rs12-250-maker",
+"tf6-yosh-rs12-inserts"
 ],
 "Triumph|TF 250-E|2026": [
 "br2-008",
@@ -82,7 +86,13 @@
 "tf5-get-sx1pro-triumph",
 "tf5-ktech-linkage-service-kit",
 "tf5-scar-pegs-antimud",
-"tf5-scar-pegs-gripper"
+"tf5-scar-pegs-gripper",
+"tf6-acerbis-skid-298692",
+"tf6-fc-pressure-springs",
+"tf6-fmf-045703-maker",
+"tf6-motomaster-110298",
+"tf6-yosh-rs12-250-maker",
+"tf6-yosh-rs12-inserts"
 ],
 "Triumph|TF 250-X|2024": [
 "bc-030",
@@ -180,7 +190,20 @@
 "tf5-ktech-linkage-service-kit",
 "tf5-scar-pegs-antimud",
 "tf5-scar-pegs-gripper",
-"tf5-xtrig-rocs-kit-m12-250"
+"tf5-xtrig-rocs-kit-m12-250",
+"tf6-acerbis-skid-298692",
+"tf6-axp-ax1764",
+"tf6-fc-fork-revalve",
+"tf6-fc-pressure-springs",
+"tf6-fmf-045703-maker",
+"tf6-jbi-fork-diy-kit",
+"tf6-jbi-fork-revalve",
+"tf6-jbi-shock-diy-kit",
+"tf6-motomaster-110298",
+"tf6-xtrig-rocs-pro-250",
+"tf6-xtrig-rocs-tech-22-250",
+"tf6-yosh-rs12-250-maker",
+"tf6-yosh-rs12-inserts"
 ],
 "Triumph|TF 250-X|2025": [
 "bc-030",
@@ -264,7 +287,20 @@
 "tf5-ktech-linkage-service-kit",
 "tf5-scar-pegs-antimud",
 "tf5-scar-pegs-gripper",
-"tf5-xtrig-rocs-kit-m12-250"
+"tf5-xtrig-rocs-kit-m12-250",
+"tf6-acerbis-skid-298692",
+"tf6-axp-ax1764",
+"tf6-fc-fork-revalve",
+"tf6-fc-pressure-springs",
+"tf6-fmf-045703-maker",
+"tf6-jbi-fork-diy-kit",
+"tf6-jbi-fork-revalve",
+"tf6-jbi-shock-diy-kit",
+"tf6-motomaster-110298",
+"tf6-xtrig-rocs-pro-250",
+"tf6-xtrig-rocs-tech-22-250",
+"tf6-yosh-rs12-250-maker",
+"tf6-yosh-rs12-inserts"
 ],
 "Triumph|TF 250-X|2026": [
 "br2-008",
@@ -331,7 +367,14 @@
 "tf5-ktech-linkage-service-kit",
 "tf5-scar-pegs-antimud",
 "tf5-scar-pegs-gripper",
-"tf5-xtrig-rocs-kit-m12-250"
+"tf5-xtrig-rocs-kit-m12-250",
+"tf6-acerbis-skid-298692",
+"tf6-axp-ax1764",
+"tf6-fmf-045703-maker",
+"tf6-jbi-shock-diy-kit",
+"tf6-motomaster-110298",
+"tf6-yosh-rs12-250-maker",
+"tf6-yosh-rs12-inserts"
 ],
 "Triumph|TF 450-C|2026": [
 "br2-008",
@@ -375,7 +418,11 @@
 "tf-pc-ti6bcpro-450",
 "tf-pc-ti6pro-450",
 "tf5-scar-pegs-antimud",
-"tf5-scar-pegs-gripper"
+"tf5-scar-pegs-gripper",
+"tf6-axp-ax1784",
+"tf6-fmf-045706-maker",
+"tf6-motomaster-110298",
+"tf6-rekluse-radiusx-450"
 ],
 "Triumph|TF 450-E|2026": [
 "br2-008",
@@ -417,7 +464,13 @@
 "tf5-get-sx1pro-triumph",
 "tf5-ktech-linkage-service-kit",
 "tf5-scar-pegs-antimud",
-"tf5-scar-pegs-gripper"
+"tf5-scar-pegs-gripper",
+"tf6-acerbis-skid-298692",
+"tf6-axp-ax1784",
+"tf6-fc-pressure-springs",
+"tf6-fmf-045706-maker",
+"tf6-motomaster-110298",
+"tf6-rekluse-radiusx-450"
 ],
 "Triumph|TF 450-RC Edition|2025": [
 "br2-008",
@@ -498,6 +551,20 @@
 "tf5-kyb-sapphire-stanchion-450rc",
 "tf5-scar-pegs-antimud",
 "tf5-scar-pegs-gripper",
+"tf6-acerbis-skid-298692",
+"tf6-axp-ax1764",
+"tf6-axp-ax1784",
+"tf6-fc-fork-revalve",
+"tf6-fc-pressure-springs",
+"tf6-fmf-045706-maker",
+"tf6-jbi-fork-diy-kit",
+"tf6-jbi-fork-revalve",
+"tf6-jbi-shock-diy-kit",
+"tf6-jbi-springs-tf450rc",
+"tf6-motomaster-110298",
+"tf6-rekluse-radiuscx-pack-450",
+"tf6-rekluse-radiusx-450",
+"tf6-yosh-rs12-450-maker",
 "tn-027"
 ],
 "Triumph|TF 450-X|2026": [
@@ -544,63 +611,67 @@
 "tf-yosh-rs12-450",
 "tf5-scar-pegs-antimud",
 "tf5-scar-pegs-gripper",
+"tf6-acerbis-skid-298692",
+"tf6-fmf-045706-maker",
+"tf6-rekluse-cover-450",
+"tf6-yosh-rs12-450-maker",
 "tn-027"
 ]
 },
 "listing_counts": {
 "Triumph|TF 250-C|2026": {
+"MotoSport": 2298,
 "Cycle Gear": 1045,
 "Triumph dealer": 37,
-"MotoSport": 2298,
-"research": 40
+"research": 44
 },
 "Triumph|TF 250-E|2026": {
+"MotoSport": 2298,
 "Cycle Gear": 1150,
 "Triumph dealer": 33,
-"MotoSport": 2298,
-"research": 40
+"research": 46
 },
 "Triumph|TF 250-X|2024": {
-"Triumph dealer": 54,
 "MotoSport": 2366,
-"research": 96,
-"Cycle Gear": 71
+"Cycle Gear": 71,
+"Triumph dealer": 54,
+"research": 109
 },
 "Triumph|TF 250-X|2025": {
+"MotoSport": 2372,
 "Cycle Gear": 1075,
 "Triumph dealer": 54,
-"MotoSport": 2372,
-"research": 82
+"research": 95
 },
 "Triumph|TF 250-X|2026": {
-"Triumph dealer": 36,
 "MotoSport": 2365,
-"research": 65,
-"Cycle Gear": 55
+"Cycle Gear": 55,
+"Triumph dealer": 36,
+"research": 72
 },
 "Triumph|TF 450-C|2026": {
+"MotoSport": 2312,
 "Cycle Gear": 974,
 "Triumph dealer": 36,
-"MotoSport": 2312,
-"research": 42
+"research": 46
 },
 "Triumph|TF 450-E|2026": {
-"Triumph dealer": 35,
 "MotoSport": 2306,
-"research": 40,
-"Cycle Gear": 47
+"Cycle Gear": 47,
+"Triumph dealer": 35,
+"research": 46
 },
 "Triumph|TF 450-RC Edition|2025": {
+"MotoSport": 2363,
 "Cycle Gear": 983,
 "Triumph dealer": 27,
-"MotoSport": 2363,
-"research": 79
+"research": 93
 },
 "Triumph|TF 450-X|2026": {
+"MotoSport": 2356,
 "Cycle Gear": 1035,
 "Triumph dealer": 34,
-"MotoSport": 2356,
-"research": 44
+"research": 48
 }
 },
 "unmapped": [
@@ -1432,11 +1503,34 @@
 "cv2-017",
 "cv2-018",
 "cv2-019",
-"cv2-020"
+"cv2-020",
+"wp-001",
+"wp-002",
+"wp-003",
+"wp-004",
+"wp-005",
+"wp-006",
+"wp-007",
+"wp-008",
+"wp-009",
+"wp-010",
+"wp-011",
+"wp-012",
+"wp-013",
+"wp-014",
+"wp-015",
+"wp-016",
+"wp-017",
+"wp-018",
+"wp-019",
+"wp-020",
+"wp-021"
 ],
 "feedback_links": {
 "tf5f-001": [
 "tf5-xtrig-rocs-kit-m12-250",
+"tf6-xtrig-rocs-tech-22-250",
+"tf6-xtrig-rocs-pro-250",
 "tf-xtrig-rocs-tech",
 "tf-xtrig-phds"
 ],
@@ -1460,6 +1554,19 @@
 ],
 "tf5f-004": [],
 "tf5f-005": [],
+"tf6f-001": [],
+"tf6f-002": [],
+"tf6f-003": [],
+"tf6f-004": [
+"tri-A9820113"
+],
+"tf6f-005": [],
+"tf6f-006": [],
+"tf6f-007": [],
+"tf6f-008": [],
+"tf6f-009": [],
+"tf6f-010": [],
+"tf6f-011": [],
 "tfb-001": [
 "cg-fmf-factory-41-rct-slip-on-exhaust-triumph-tf450rc-2025",
 "cg-fmf-megabomb-header-triumph-tf450rc-2025",
