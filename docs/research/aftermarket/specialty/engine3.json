@@ -1,0 +1,2275 @@
+{
+ "slice": "engine3",
+ "products": [
+  {
+   "category": "engine",
+   "subcategory": "top end gasket kit (four-stroke)",
+   "brand": "Pro-X",
+   "product": "Top End Gasket Kit, Kawasaki KX450 / KX450X",
+   "part_numbers": [
+    "35.4434"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P fitment list: KX450 2024, 2025, 2026"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P fitment list: KX450X 2024, 2025, 2026"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/pro-x-top-end-gasket-kit-kawasaki-kx450-kx450x-2024-2025",
+   "what_it_changes": "Retailer/maker copy: gasket set for top-end rebuilds and full overhauls, designed to complement ProX pistons and rods.",
+   "supporting_parts": "Pair with a piston kit (e.g. Pro-X, Vertex, Wiseco) for the 2024+ KX450.",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/pro-x-top-end-gasket-kit-kawasaki-kx450-kx450x-2024-2025",
+     "price_if_stated": "80.06",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "J&P list also shows KX450SR 2026 (not in roster). Page shows conflicting stock status. Fitment from retailer only; pro-x.com not checked for this number.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-001"
+  },
+  {
+   "category": "engine",
+   "subcategory": "top end gasket kit (four-stroke)",
+   "brand": "Pro-X",
+   "product": "Top End Gasket Kit, Yamaha YZ450F / YZ450FX / WR450F",
+   "part_numbers": [
+    "35.2453"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P: YZ450F 2023-2026 (plus 70th Anniversary 2026)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450FX",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P: YZ450FX 2024, 2025, 2026"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/pro-x-top-end-gasket-kit-yamaha-yz450f-yz450fx-wr450f-2023-2025",
+   "what_it_changes": "Top-end gasket set for the 2023+ YZ450F engine; designed to complement ProX pistons and rods (retailer copy).",
+   "supporting_parts": "Pro-X piston 01.2453 (engine2.json) is the matching ProX piston number family.",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/pro-x-top-end-gasket-kit-yamaha-yz450f-yz450fx-wr450f-2023-2025",
+     "price_if_stated": "80.06",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Title says 2023-2026 while WR450F fitment starts 2024 (WR is out of scope). Retailer fitment only.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-002"
+  },
+  {
+   "category": "engine",
+   "subcategory": "complete gasket kit (four-stroke)",
+   "brand": "Pro-X",
+   "product": "Complete Gasket Kit, KTM / Husqvarna / GasGas 450cc",
+   "part_numbers": [
+    "34.6423"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: 450 SX-F 2023-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": "J&P: FC450 2023, 2024, 2025, 2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2023,
+      2024,
+      2027
+     ],
+     "notes": "J&P: FX450 2023, 2024, 2027"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: MC 450F 2024-2027 (plus Factory/Prado Edition 2025)"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 450F",
+     "years": [
+      2024
+     ],
+     "notes": "J&P: EX 450F 2024"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/pro-x-complete-gasket-kit-ktm-husqvarna-gas-gas-450cc-2023-2025",
+   "what_it_changes": "Full engine gasket set for top-end and bottom-end overhauls of the 2023+ 450 engine (retailer copy).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/pro-x-complete-gasket-kit-ktm-husqvarna-gas-gas-450cc-2023-2025",
+     "price_if_stated": "161.06",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No 450 XC-F line shown in the visible list; not added. GasGas MC 450F starts 2024, consistent with the 2023 GasGas keeping the older engine. Retailer fitment only.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-003"
+  },
+  {
+   "category": "engine",
+   "subcategory": "top end gasket kit (four-stroke)",
+   "brand": "Pro-X",
+   "product": "Top End Gasket Kit, KTM / GasGas / Husqvarna 250cc four-stroke 2023-2027",
+   "part_numbers": [
+    "35.6343"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: 250 SX-F 2023-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": "J&P: FC250 2023, 2024, 2025, 2027"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: MC 250F 2024-2027"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "J&P: EX 250F 2024, 2025"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/pro-x-top-end-gasket-kit-ktm-gas-gas-husqvarna-250cc-2023-2025",
+   "what_it_changes": "Top-end gasket set for the 2023+ 250 four-stroke engine (retailer copy).",
+   "supporting_parts": "Pro-X titanium exhaust valve 28.6343-1 (valvetrain2.json) shares the 6343 platform code.",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/pro-x-top-end-gasket-kit-ktm-gas-gas-husqvarna-250cc-2023-2025",
+     "price_if_stated": "84.56",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No 250 XC-F line in the visible list. Retailer fitment only.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-004"
+  },
+  {
+   "category": "engine",
+   "subcategory": "top end gasket kit (two-stroke)",
+   "brand": "Pro-X",
+   "product": "Top End Gasket Kit, GasGas / Husqvarna / KTM 250cc two-stroke 2023+",
+   "part_numbers": [
+    "35.6324"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: 250 SX 2023-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: TC250 2023-2027"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P: MC 250 2024, 2025, 2026"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "J&P: EX 250 2024, 2025"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/pro-x-top-end-gasket-kit-gas-gas-husqvarna-ktm-250cc-2023-2025",
+   "what_it_changes": "Top-end gasket set for the 2023+ 250 two-stroke (TBI-generation) engine (retailer copy).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/pro-x-top-end-gasket-kit-gas-gas-husqvarna-ktm-250cc-2023-2025",
+     "price_if_stated": "56.66",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No 250 XC line in the visible list (TE250/TE250i enduro listed, out of scope). Retailer fitment only.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-005"
+  },
+  {
+   "category": "engine",
+   "subcategory": "top end gasket kit (four-stroke)",
+   "brand": "Pro-X",
+   "product": "Top End Gasket Kit, GasGas / Husqvarna / KTM 350cc 2023-2027",
+   "part_numbers": [
+    "35.6363"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: 350 SX-F 2023-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": "J&P: FC350 2023, 2024, 2025, 2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: FX350 2023-2027 (plus Heritage 2025)"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "J&P: MC 350F 2024, 2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 350F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "J&P: EX 350F 2024, 2025"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/pro-x-top-end-gasket-kit-gas-gas-husqvarna-ktm-350cc-2023-2025",
+   "what_it_changes": "Top-end gasket set for the 2023+ 350 four-stroke engine (retailer copy).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/pro-x-top-end-gasket-kit-gas-gas-husqvarna-ktm-350cc-2023-2025",
+     "price_if_stated": "117.86",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No 350 XC-F line in the visible list. Title says 2023-2027 while URL says 2023-2025. Retailer fitment only.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-006"
+  },
+  {
+   "category": "engine",
+   "subcategory": "top end gasket kit (two-stroke)",
+   "brand": "Pro-X",
+   "product": "Top End Gasket Kit, KTM / GasGas / Husqvarna 300cc two-stroke 2023-2027",
+   "part_numbers": [
+    "35.6354"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: 300 SX 2023-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 300",
+     "years": [
+      2025,
+      2027
+     ],
+     "notes": "J&P: TC300 2025, 2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX 300",
+     "years": [
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: TX300 2024-2027 (plus TX300i 2023, Heritage 2025)"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 300",
+     "years": [
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: EX 300 2024-2027"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/pro-x-top-end-gasket-kit-ktm-gas-gas-husqvarna-300cc-2023-2025",
+   "what_it_changes": "Top-end gasket set for the 2023+ 300 two-stroke (TBI-generation) engine (retailer copy).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/pro-x-top-end-gasket-kit-ktm-gas-gas-husqvarna-300cc-2023-2025",
+     "price_if_stated": "56.66",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "J&P lists 'TX300i 2023' (recorded only as a note; roster model TX 300 covers it if the app treats TX300i as TX 300). No 300 XC in visible list. MC 300 2025 listed but not in roster. Retailer fitment only.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-007"
+  },
+  {
+   "category": "engine",
+   "subcategory": "top end gasket kit (four-stroke)",
+   "brand": "Cometic",
+   "product": "Top End Gasket Kit, Kawasaki KX450 / KX450X, 96mm bore, .028\" MLX head gasket",
+   "part_numbers": [
+    "C3806"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "Cometic applications: KX450 (2021-2022); title says 2021+"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Cometic applications: KX450X (2021-2023)"
+    }
+   ],
+   "fitment_source_url": "https://www.cometic.com/products/C3806",
+   "what_it_changes": "Maker spec: MLX multi-layer head gasket, .028 in thick, 96mm bore, in a top-end kit.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Cometic",
+     "url": "https://www.cometic.com/products/C3806",
+     "price_if_stated": "88.98",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Title says '2021+ KX450' but the application list stops at 2022 for KX450; 2024+ KX450 not listed by Cometic, so it is not covered here.",
+   "confidence": "high",
+   "is_service": false,
+   "id": "en3-008"
+  },
+  {
+   "category": "engine",
+   "subcategory": "top end gasket kit (four-stroke)",
+   "brand": "Cometic",
+   "product": "Top End Gasket Kit, 79mm bore, .034\" MLS head gasket",
+   "part_numbers": [
+    "C3595-EST"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Cometic applications: KTM 250 SX-F (2015-2022)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Cometic applications: KTM 250 XC-F (2015-2022)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Cometic applications: Husqvarna FC350 (2021-2023)"
+    }
+   ],
+   "fitment_source_url": "https://www.2025.cometic.com/products/C3595-EST",
+   "what_it_changes": "Maker spec: MLS head gasket .034 in, 79mm bore.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Cometic",
+     "url": "https://www.2025.cometic.com/products/C3595-EST",
+     "price_if_stated": "87.75",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Application list mixes a 79mm 250 SX-F with the Husqvarna FC350 (88mm bore on the 350) and Cobra CX65/KTM 85 SXS; the list looks unreliable. Treat the FC350 line as doubtful. Kit contents not listed. Not 2023+ KTM 250, which the maker does not list.",
+   "confidence": "unverified",
+   "is_service": false,
+   "id": "en3-009"
+  },
+  {
+   "category": "engine",
+   "subcategory": "complete gasket kit (four-stroke)",
+   "brand": "Pro-X",
+   "product": "Complete Gasket Kit, Yamaha YZ450F / YZ450FX / WR450F 2023+",
+   "part_numbers": [
+    "34.2453"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P: YZ450F 2023-2026 (plus 70th Anniversary 2026)"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450FX",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P: YZ450FX 2024, 2025, 2026"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/pro-x-complete-gasket-kit-yamaha-450cc-2023-2025",
+   "what_it_changes": "Full engine gasket set for top-end and bottom-end overhauls (retailer copy).",
+   "supporting_parts": "Top-end only version is 35.2453.",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/pro-x-complete-gasket-kit-yamaha-450cc-2023-2025",
+     "price_if_stated": "177.26",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Retailer fitment only; title says 2023-2026, URL says 2023-2025.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-010"
+  },
+  {
+   "category": "engine",
+   "subcategory": "complete gasket kit (four-stroke)",
+   "brand": "Pro-X",
+   "product": "Complete Gasket Kit, Kawasaki KX450 2024+",
+   "part_numbers": [
+    "34.4434"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P: KX450 2024, 2025, 2026"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/pro-x-complete-gasket-kit-kawasaki-kx450-2024-2025",
+   "what_it_changes": "Full engine gasket set for the 2024+ KX450 (retailer copy).",
+   "supporting_parts": "Top-end only version is 35.4434 (also lists KX450X).",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/pro-x-complete-gasket-kit-kawasaki-kx450-2024-2025",
+     "price_if_stated": "168.26",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "KX450X not in this kit's visible list (the top-end kit lists it). KX450SR 2026 also listed (not in roster). Out of stock when checked.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-011"
+  },
+  {
+   "category": "engine",
+   "subcategory": "complete gasket kit (two-stroke)",
+   "brand": "Pro-X",
+   "product": "Complete Gasket Kit, KTM / Husqvarna / GasGas 250cc two-stroke 2023+",
+   "part_numbers": [
+    "34.6324"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: 250 SX 2023-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: TC250 2023-2027"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P: MC 250 2024, 2025, 2026"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "J&P: EX 250 2024, 2025"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/pro-x-complete-gasket-kit-ktm-husqvarna-gas-gas-250cc-2023-2025",
+   "what_it_changes": "Full engine gasket set for the 2023+ 250 two-stroke (retailer copy).",
+   "supporting_parts": "Top-end only version is 35.6324.",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/pro-x-complete-gasket-kit-ktm-husqvarna-gas-gas-250cc-2023-2025",
+     "price_if_stated": "128.66",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No 250 XC line in visible list. Retailer fitment only.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-012"
+  },
+  {
+   "category": "engine",
+   "subcategory": "top end gasket kit (two-stroke)",
+   "brand": "Pro-X",
+   "product": "Top End Gasket Kit, GasGas / KTM / Husqvarna 125cc 2023-2027",
+   "part_numbers": [],
+   "variants": [
+    "Cycle Gear item P1153484 (retailer item, not a ProX number)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Cycle Gear: 125 SX 2023-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Cycle Gear: TC125 2023-2027"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Cycle Gear: MC 125 2024-2027"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/pro-x-top-end-gasket-kit-gas-gas-ktm-husqvarna-125cc-2023-2025",
+   "what_it_changes": "Top-end gasket set for the 2023+ 125 two-stroke (retailer copy).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/pro-x-top-end-gasket-kit-gas-gas-ktm-husqvarna-125cc-2023-2025",
+     "price_if_stated": "51.95",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No ProX part number shown on the page. List also includes Husqvarna TE150 2024 (out of scope; odd for a 125 kit). Does not say whether it covers the 2027 fuel-injected 125 SX.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-013"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "Pro-X",
+   "product": "Piston Kit 14.5:1, KTM / Husqvarna / GasGas 250 four-stroke 2023+ (81mm bore)",
+   "part_numbers": [
+    "01.6348.A",
+    "01.6348.C"
+   ],
+   "variants": [
+    "A = 80.96mm (oro2u)",
+    "C size listed by oro2u (separate page)",
+    "Cycle Gear shows A 80.96mm and B 80.97mm (+.01mm) with no ProX numbers"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "oro2u: KTM 250 SX-F 2023-2027"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "oro2u: KTM 250 XC-F 2023-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "oro2u: Husqvarna FC 250 2023-2027 (Cycle Gear: FC250 2023, 2024, 2025, 2027)"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "oro2u: Gas-Gas MC 250 F 2024-2027"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250F",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "oro2u: Gas-Gas EX 250 F 2024-2025"
+    }
+   ],
+   "fitment_source_url": "https://oro2u.com/piston-kit-2023-25-ktm-250sx-f-2023-25-husky-fc250-81mm-prox-01-6348-a",
+   "what_it_changes": "Forged flat raised-top piston with four valve pockets, 14.5:1, OEM replacement (OEM ref A460.30.007.000). Specs per oro2u: height 34.60mm, pin 16.00mm, compression height 11.60mm.",
+   "supporting_parts": "Pro-X top-end gasket kit 35.6343; Pro-X Ti exhaust valve 28.6343-1.",
+   "where_to_buy": [
+    {
+     "seller": "oro2u (UK)",
+     "url": "https://oro2u.com/piston-kit-2023-25-ktm-250sx-f-2023-25-husky-fc250-81mm-prox-01-6348-a",
+     "price_if_stated": "197.12",
+     "currency": "GBP",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/pro-x-piston-kit-ktm-husqvarna-gas-gas-250cc-2023-2025",
+     "price_if_stated": "209.65",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "01.6348.B inferred only from Cycle Gear's size list and not recorded as a number. pro-x.com page not checked.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-014"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "Pro-X",
+   "product": "Piston Kit 12.5:1, Kawasaki KX450 / KX450X 2024+ (96mm bore)",
+   "part_numbers": [
+    "01.4424.A",
+    "01.4424.B",
+    "01.4424.C"
+   ],
+   "variants": [
+    "A 95.97mm",
+    "B 95.98mm",
+    "C 95.99mm (storm-motor.fi listing titles)"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "storm-motor.fi: KX450F 2024-2026 (title says '24-25); Cycle Gear: KX450 2024, 2025, 2026"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "storm-motor.fi: KX450X 2024-2026; Cycle Gear: KX450X 2024-2026"
+    }
+   ],
+   "fitment_source_url": "https://www.storm-motor.fi/en/merkkikohtaiset-osat/prox-mantasarja-kx450-24-9597mm-1251/",
+   "what_it_changes": "Cast OE-style replacement piston, 12.5:1, OEM ref 13001-0852; kit has piston, rings, pin and circlips; made in USA (dealer copy).",
+   "supporting_parts": "Pro-X gasket kits 35.4434 (top end) and 34.4434 (complete).",
+   "where_to_buy": [
+    {
+     "seller": "Storm Motor (Finland)",
+     "url": "https://www.storm-motor.fi/en/merkkikohtaiset-osat/prox-mantasarja-kx450-24-9597mm-1251/",
+     "price_if_stated": "190.90",
+     "currency": "EUR",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/pro-x-piston-kit-kawasaki-kx450-kx450x-2024-2025",
+     "price_if_stated": "199.76",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Dealer fitment; pro-x.com not checked. B and C numbers come from storm-motor listing titles in search results.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-015"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (two-stroke, TBI generation)",
+   "brand": "Vertex",
+   "product": "Cast 2-Stroke Piston Kit (OEM compression), KTM / Husqvarna / GasGas 250cc 2023-2024",
+   "part_numbers": [],
+   "variants": [
+    "66.34mm",
+    "66.35mm",
+    "Cycle Gear item P1125840 (retailer item, not a Vertex number)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Cycle Gear: 250 SX 2023, 2024"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Cycle Gear: 250 XC 2023, 2024"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Cycle Gear: TC250 2023, 2024"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2024
+     ],
+     "notes": "Cycle Gear: MC 250 2024"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250",
+     "years": [
+      2024
+     ],
+     "notes": "Cycle Gear: EX 250 2024"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/vertex-cast-2-stroke-piston-kit-ktm-husqvarna-gas-gas-250cc-2023-2024",
+   "what_it_changes": "Retailer copy: gravity-cast 18% silicon alloy, T-5 heat treated, moly-coated skirt, direct OE replacement; kit includes piston, rings, pin, circlips, top-end gaskets and wrist-pin bearing.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/vertex-cast-2-stroke-piston-kit-ktm-husqvarna-gas-gas-250cc-2023-2024",
+     "price_if_stated": "307.95",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No Vertex part number on the page; look up on allballsracinggroup.com before promoting. 2025+ not listed.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-016"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (two-stroke, TBI generation)",
+   "brand": "Vertex",
+   "product": "Cast 2-Stroke Piston Kit (OEM compression), KTM / Husqvarna / GasGas 300cc 2023-2024",
+   "part_numbers": [],
+   "variants": [
+    "71.92mm",
+    "71.93mm",
+    "71.94mm",
+    "Cycle Gear item P1125853 (retailer item)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2024
+     ],
+     "notes": "Cycle Gear: 300 SX 2024"
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Cycle Gear: 300 XC 2023, 2024"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX 300",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Cycle Gear: TX300 2023, 2024"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 300",
+     "years": [
+      2024
+     ],
+     "notes": "Cycle Gear: EX 300 2024"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/vertex-cast-2-stroke-piston-kit-ktm-husqvarna-gas-gas-300cc-2023-2024",
+   "what_it_changes": "Retailer copy: gravity-cast, heat treated, moly-coated skirt, OE replacement; top-end kit with gaskets and wrist-pin bearing.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/vertex-cast-2-stroke-piston-kit-ktm-husqvarna-gas-gas-300cc-2023-2024",
+     "price_if_stated": "336.95",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No Vertex part number. Lists 300 SX only for 2024 (not 2023). Retailer fitment only.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-017"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "Pro-X",
+   "product": "Piston Kit 88.00mm bore, KTM / Husqvarna / GasGas 350 four-stroke (spans 2023+ platform)",
+   "part_numbers": [
+    "01.6353.B"
+   ],
+   "variants": [
+    "Title says 01.6353.B; the same page's description and alternate number say 01.6351.B"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "oro2u: KTM 350 SX-F (2011-2025)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "oro2u: Husqvarna FC 350 (2014-2025)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "oro2u: Husqvarna FX 350 (2017-2025)"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "oro2u: Gas Gas MC 350F (2023-2025)"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 350F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "oro2u: Gas Gas EX 350F (2021-2024)"
+    }
+   ],
+   "fitment_source_url": "https://oro2u.com/piston-kit-11-25-ktm350-sx-f-prox-01-6353-b-88-00mm-husqvarna-fc350-2014-2025",
+   "what_it_changes": "OE-replacement cast piston kit with rings, pin and circlips; low-expansion alloy, tin-coated for break-in (dealer copy).",
+   "supporting_parts": "Pro-X top-end gasket kit 35.6363 for 2023+ 350s.",
+   "where_to_buy": [
+    {
+     "seller": "oro2u (UK)",
+     "url": "https://oro2u.com/piston-kit-11-25-ktm350-sx-f-prox-01-6353-b-88-00mm-husqvarna-fc350-2014-2025",
+     "price_if_stated": "225.01",
+     "currency": "GBP",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/pro-x-piston-kit-husqvarna-ktm-gas-gas-150cc-2020-2025",
+     "price_if_stated": "209.66",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Part number conflict on the page (01.6353.B vs 01.6351.B); confirm at pro-x.com. Dealer says one piston covers 2011-2025 350 SX-F, i.e. across the 2023 platform change; not confirmed by the maker. No 350 XC-F line. Compression not stated. A Cycle Gear Pro-X listing (titled as a 150cc kit, item P1158874, A size 87.96mm, $209.66) shows the same 350 fitment, 350 SX-F 2011-2027 and FC350 2014-2027, supporting one piston across the 2023 change; its title/fitment mismatch makes it weak support.",
+   "confidence": "unverified",
+   "is_service": false,
+   "id": "en3-018"
+  },
+  {
+   "category": "engine",
+   "subcategory": "top end gasket kit (two-stroke, 85cc)",
+   "brand": "Cometic",
+   "product": "Top End Gasket Kit, KTM SX85 2018-2026",
+   "part_numbers": [
+    "C3818"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Ghostbikes: 'KTM SX 85 19/16, 2018 to 2023 European Models; 2024 to 2026 All Models' (19/16 big-wheel only)"
+    }
+   ],
+   "fitment_source_url": "https://www.ghostbikes.com/products/2519302-cometic-top-end-gasket-kit-for-ktm-sx85-2018-2026",
+   "what_it_changes": "Base and head gaskets plus cylinder O-rings and other top-end seals; fibre; made in USA (dealer copy).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Ghostbikes (UK)",
+     "url": "https://www.ghostbikes.com/products/2519302-cometic-top-end-gasket-kit-for-ktm-sx85-2018-2026",
+     "price_if_stated": "35.49",
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Dealer spec lists '85.00 mm' bore and 'Big Bore' style, which does not match an 85 SX (47mm bore); feature text also says it fits the 2018-2025 105 SX Supermini. 2020-2023 applies to European-market 19/16 bikes only per the dealer; 2025+ 85 SX is a new platform. Treat as unverified until checked on cometic.com.",
+   "confidence": "unverified",
+   "is_service": false,
+   "id": "en3-019"
+  },
+  {
+   "category": "engine",
+   "subcategory": "top end gasket kit (four-stroke)",
+   "brand": "Pro-X",
+   "product": "Top End Gasket Kit, Yamaha YZ450F 2020-2022 / YZ450FX 2021-2023",
+   "part_numbers": [
+    "35.245"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "J&P: YZ450F 2020, 2021, 2022"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450FX",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "J&P: YZ450FX 2021, 2022, 2023"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/pro-x-top-end-gasket-kit-yamaha-yz450f-yz450fx-wr450f-2020-2023",
+   "what_it_changes": "Top-end gasket set for the 2020-2022 YZ450F engine generation (retailer copy).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/pro-x-top-end-gasket-kit-yamaha-yz450f-yz450fx-wr450f-2020-2023",
+     "price_if_stated": "65.66",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "J&P prints the number as '35.245', which may be truncated (ProX numbers usually have four digits after the dot, e.g. 35.2453 for the 2023+ kit). Confirm at pro-x.com. Shows the 2023 split: 2023+ YZ450F takes 35.2453.",
+   "confidence": "unverified",
+   "is_service": false,
+   "id": "en3-020"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "CP-Carrillo",
+   "product": "Piston Kit 13.5:1, 96mm std bore, Kawasaki KX450 2019-2023",
+   "part_numbers": [
+    "MX3033"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Tokyo Mods: '2019-2023 Kawasaki KX450F' (year buttons not readable)"
+    }
+   ],
+   "fitment_source_url": "https://tokyomods.com/cp-carrillo-19-22-kawasaki-kx-450f-1351-96mm-bore-standard-bore-piston-kit-mx3033/",
+   "what_it_changes": "Application-specific forged piston kit, 13.5:1 (retailer copy).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Tokyo Mods",
+     "url": "https://tokyomods.com/cp-carrillo-19-22-kawasaki-kx-450f-1351-96mm-bore-standard-bore-piston-kit-mx3033/",
+     "price_if_stated": "356.17",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "URL says 19-22, title says 2019-2023. Kawasaki dropped the 'F' from 2019, so 'KX450F' wording is mapped to KX450. KX450X not named. Does not cover the 2024+ KX450 engine.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-021"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "CP-Carrillo",
+   "product": "Project X Pro Piston Kit 14.0:1, 96mm std bore, Kawasaki KX450 2019-2023",
+   "part_numbers": [
+    "MX3034"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Tokyo Mods: 'Kawasaki KX450F, 2019 to 2023' (title)"
+    }
+   ],
+   "fitment_source_url": "https://tokyomods.com/cp-carrillo-19-22-kawasaki-kx-450f-1401-96mm-bore-standard-bore-piston-kit-mx3034/",
+   "what_it_changes": "Project X profiled pin bore lets the pin flex and 'significantly increases the durability' by reducing pin-bore stress (maker claim via retailer).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Tokyo Mods",
+     "url": "https://tokyomods.com/cp-carrillo-19-22-kawasaki-kx-450f-1401-96mm-bore-standard-bore-piston-kit-mx3034/",
+     "price_if_stated": "356.17-395.75",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Higher compression (14.0:1) than stock; check fuel. URL says 19-22. Not for 2024+ KX450.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-022"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "Wiseco",
+   "product": "Forged Piston Kit 12.5:1, Kawasaki KX450 / KX450X",
+   "part_numbers": [
+    "40228M09600"
+   ],
+   "variants": [
+    "Coyote Direct SKU WIS40228M09600"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Coyote Direct: 2019-2021 Kawasaki KX450F (Base)"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Coyote Direct: 2021-2023 Kawasaki KX450X (Base)"
+    }
+   ],
+   "fitment_source_url": "https://coyotedirect.com/products/wiseco-kawasaki-kx450-20-12-51-cr-piston-kit",
+   "what_it_changes": "Forged four-stroke piston at 12.5:1 (closer to stock than the 13.5:1 40230M09600 in engine2.json).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Coyote Direct",
+     "url": "https://coyotedirect.com/products/wiseco-kawasaki-kx450-20-12-51-cr-piston-kit",
+     "price_if_stated": "224.99",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Backordered. Bore not stated (96mm implied by the number). Fitment stops at 2021 for KX450; 2024+ not covered.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-023"
+  },
+  {
+   "category": "engine",
+   "subcategory": "complete gasket kit (two-stroke)",
+   "brand": "Moose Racing",
+   "product": "Complete Motor Gasket Kit, KTM / Husqvarna / GasGas 250-300cc (2017-2023 TPI generation)",
+   "part_numbers": [],
+   "variants": [
+    "Cycle Gear item P974566 (retailer item)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Cycle Gear: 250 XC TPI 2020, 2021"
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Cycle Gear: 300 XC TPI 2020-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2020
+     ],
+     "notes": "Cycle Gear: TC250 2017-2020"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX 300",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Cycle Gear: TX300i 2020, 2021"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 300",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "Cycle Gear: EX 300 2021, 2022"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/moose-racing-complete-motor-gasket-kit-ktm-husqvarna-gas-gas-250cc-300cc",
+   "what_it_changes": "Gaskets and oil seals for a full engine and transmission rebuild; OEM-replacement oil seals; gaskets made in USA (retailer copy).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/moose-racing-complete-motor-gasket-kit-ktm-husqvarna-gas-gas-250cc-300cc",
+     "price_if_stated": "163.23",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No Moose part number on page. Pre-2023 engine only; no Moose complete kit for the 2023+ TBI engine was found. Mechanical water pump seal not included unless noted.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-024"
+  },
+  {
+   "category": "engine",
+   "subcategory": "valve and spring kit (four-stroke)",
+   "brand": "Moose Racing (Moose Utility)",
+   "product": "Stainless Valve Kits, Yamaha YZ450F (intake M80-80950, exhaust M80-80960)",
+   "part_numbers": [
+    "M80-80950",
+    "M80-80960",
+    "09262459",
+    "09262460"
+   ],
+   "variants": [
+    "Intake M80-80950 (Parts Unlimited 09262459 per image text)",
+    "Exhaust M80-80960 (09262460 per image text)"
+   ],
+   "fits": [],
+   "fitment_source_url": "https://buywitchdoctors.com/products/valve-kit-ex-mse-yz450f-by-moose-utility-m80-80960",
+   "what_it_changes": "Dealer copy: one-piece forged 21-4N stainless valves, heat treated and nitrided; high-rev springs; lightweight retainers; Viton seals; made in USA.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Witchdoctors",
+     "url": "https://buywitchdoctors.com/products/valve-kit-ex-mse-yz450f-by-moose-utility-m80-80960",
+     "price_if_stated": "217.95",
+     "currency": "USD",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "Witchdoctors (intake)",
+     "url": "https://buywitchdoctors.com/products/valve-kit-in-mse-yz450f-by-moose-utility-m80-80950",
+     "price_if_stated": "307.95",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Only 'YZ450F' is named; no years, so no fits recorded. Intake/exhaust labels conflict on both pages. Moose/Kibblewhite-style stainless conversion kits (M60-60850, 0926-3303) were also seen with no fitment at all.",
+   "confidence": "unverified",
+   "is_service": false,
+   "id": "en3-025"
+  },
+  {
+   "category": "engine",
+   "subcategory": "top end gasket kit (four-stroke)",
+   "brand": "Vertex",
+   "product": "Top End Gasket Kit, KTM / Husqvarna 350cc 2023-2025",
+   "part_numbers": [],
+   "variants": [
+    "Cycle Gear item P1118704 (retailer item)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Cycle Gear: 350 SX-F 2023-2027"
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": "Cycle Gear: 350 XC-F 2023, 2024, 2025, 2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": "Cycle Gear: FC350 2023, 2024, 2025, 2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Cycle Gear: FX350 2023-2027"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/vertex-top-end-gasket-kit-ktm-husqvarna-350cc-2023-2025",
+   "what_it_changes": "Head, base, exhaust and upper-end gaskets plus valve seals for a piston change; formed rubber valve-cover gaskets not included (reuse OEM).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/vertex-top-end-gasket-kit-ktm-husqvarna-350cc-2023-2025",
+     "price_if_stated": "112.29",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No Vertex part number on the page. GasGas MC/EX 350F not listed. Roster has no FX 350 2023 and no FC 350 2026, which the list mirrors.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-026"
+  },
+  {
+   "category": "engine",
+   "subcategory": "complete gasket kit (two-stroke)",
+   "brand": "Vertex",
+   "product": "Complete Gasket Set with Oil Seals, KTM / Husqvarna 250-300cc 2023",
+   "part_numbers": [],
+   "variants": [
+    "Cycle Gear item P1124474 (retailer item)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023
+     ],
+     "notes": "Cycle Gear: 250 SX 2023"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2023
+     ],
+     "notes": "Cycle Gear: 250 XC 2023"
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2023
+     ],
+     "notes": "Cycle Gear: 300 XC 2023"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2023
+     ],
+     "notes": "Cycle Gear: TC250 2023"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX 300",
+     "years": [
+      2023
+     ],
+     "notes": "Cycle Gear: TX300i 2023"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/vertex-complete-gasket-set-with-oil-seals-ktm-husqvarna-250cc-300cc-2023",
+   "what_it_changes": "All gaskets and seals for a full engine and transmission rebuild, 'OEM or better quality'.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/vertex-complete-gasket-set-with-oil-seals-ktm-husqvarna-250cc-300cc-2023",
+     "price_if_stated": "204.54",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No Vertex part number. Listed for 2023 only although the TBI engine continues; 300 SX 2023 not listed. GasGas 2023 two-strokes are on a separate Vertex listing (EX 300 2023, MC 250 2023).",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-027"
+  },
+  {
+   "category": "engine",
+   "subcategory": "complete gasket kit (two-stroke)",
+   "brand": "Vertex",
+   "product": "Complete Gasket Set with Oil Seals, KTM / GasGas 250-300cc (2023 GasGas)",
+   "part_numbers": [],
+   "variants": [
+    "Cycle Gear item P1172669 (retailer item)"
+   ],
+   "fits": [
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2023
+     ],
+     "notes": "Cycle Gear: MC 250 2023"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 300",
+     "years": [
+      2023
+     ],
+     "notes": "Cycle Gear: EX 300 2023"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/vertex-complete-gasket-set-with-oil-seals-ktm-gas-gas-250cc-300cc",
+   "what_it_changes": "All gaskets and seals for a full engine and transmission rebuild.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/vertex-complete-gasket-set-with-oil-seals-ktm-gas-gas-250cc-300cc",
+     "price_if_stated": "193.21",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No Vertex part number. The 2023 GasGas two-strokes used the earlier engine (README: 2023 GasGas kept the previous KTM engine), which may explain the separate kit; EC 250 2022-2023 and 250 XC-W 2023 also listed (out of scope).",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-028"
+  },
+  {
+   "category": "engine",
+   "subcategory": "complete gasket kit (two-stroke)",
+   "brand": "Vertex",
+   "product": "Complete Gasket Set with Oil Seals, KTM / Husqvarna 125cc 2023",
+   "part_numbers": [],
+   "variants": [
+    "Cycle Gear item P1124472 (retailer item)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2023
+     ],
+     "notes": "Cycle Gear: 125 SX 2023"
+    },
+    {
+     "make": "KTM",
+     "model": "125 XC",
+     "years": [
+      2023
+     ],
+     "notes": "Cycle Gear: 125 XC 2023"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2023
+     ],
+     "notes": "Cycle Gear: TC125 2023"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/vertex-complete-gasket-set-with-oil-seals-ktm-husqvarna-125cc-2023",
+   "what_it_changes": "All gaskets and seals for a full engine and transmission rebuild.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/vertex-complete-gasket-set-with-oil-seals-ktm-husqvarna-125cc-2023",
+     "price_if_stated": "133.27",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No Vertex part number. Only 2023 listed. Vertex complete rebuild kit WR00079 (engine.json en-002) covers the 125 separately.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-029"
+  },
+  {
+   "category": "engine",
+   "subcategory": "cylinder kit (four-stroke, standard bore)",
+   "brand": "Cylinder Works",
+   "product": "Standard Bore Cylinder Kit, 2023 KTM 450 SX-F",
+   "part_numbers": [
+    "CW50009K03"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023
+     ],
+     "notes": "Happy Trails title: '2023 KTM 450 SX-F 450cc Standard Bore Cylinder Kit'"
+    }
+   ],
+   "fitment_source_url": "https://www.happy-trail.com/cylinder-works-2023-ktm-450-sx-f-450cc-standard-bore-cylinder-kit-cw50009k03.html",
+   "what_it_changes": "Replacement standard-bore cylinder kit (no contents, bore or compression given on the page).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Happy Trails",
+     "url": "https://www.happy-trail.com/cylinder-works-2023-ktm-450-sx-f-450cc-standard-bore-cylinder-kit-cw50009k03.html",
+     "price_if_stated": "635.76",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Fitment from the dealer title only; no fitment table. Note CW50009K01HC (engine.json en-064) is the earlier-generation 450 SX-F high-compression kit; K03 appears to be the 2023+ version, but the maker page (allballsracinggroup.com) was not reached to confirm years or whether 2024+ and FC 450/MC 450F are covered.",
+   "confidence": "unverified",
+   "is_service": false,
+   "id": "en3-030"
+  },
+  {
+   "category": "engine",
+   "subcategory": "top end gasket kit (two-stroke)",
+   "brand": "Vertex",
+   "product": "Top End Gasket Kit, KTM / Husqvarna 125cc 2023",
+   "part_numbers": [],
+   "variants": [
+    "Cycle Gear item P1118699 (retailer item)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2023
+     ],
+     "notes": "Cycle Gear: 125 SX 2023"
+    },
+    {
+     "make": "KTM",
+     "model": "125 XC",
+     "years": [
+      2023
+     ],
+     "notes": "Cycle Gear: 125 XC 2023"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2023
+     ],
+     "notes": "Cycle Gear: TC125 2023"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/vertex-top-end-gasket-kit-ktm-husqvarna-125cc-2023",
+   "what_it_changes": "Head, base, exhaust and upper-end gaskets plus power-valve gaskets and O-rings for a piston change.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/vertex-top-end-gasket-kit-ktm-husqvarna-125cc-2023",
+     "price_if_stated": "70.93",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No Vertex part number. Only 2023 listed.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-031"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "Wiseco",
+   "product": "Racer Elite Piston Kit 14.0:1, Kawasaki KX450 / KX450X 2019-2023",
+   "part_numbers": [
+    "RE822M09600"
+   ],
+   "variants": [
+    "Storm Motor SKU WIS-WRE822M09600"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Storm Motor: Kawasaki KX450F 2019-2023 (description heading says 2019-2022)"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Storm Motor: Kawasaki KX450X 2021-2023"
+    }
+   ],
+   "fitment_source_url": "https://www.storm-motor.fi/en/merkkikohtaiset-osat/wiseco-racer-elite-mantasarja-kx450-19-1401-cr/",
+   "what_it_changes": "Dealer copy: Wiseco flagship Racer Elite, asymmetric skirt, light design, ArmorGlide skirt coating, reinforced pin area; claims up to 2.9 hp from a piston swap.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Storm Motor (Finland)",
+     "url": "https://www.storm-motor.fi/en/merkkikohtaiset-osat/wiseco-racer-elite-mantasarja-kx450-19-1401-cr/",
+     "price_if_stated": "478.00",
+     "currency": "EUR",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Horsepower claim is the dealer's/maker's, not tested. 2019-2022 vs 2019-2023 conflict on the page. 14.0:1 is above stock compression. Not for 2024+ KX450.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-032"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (two-stroke)",
+   "brand": "Wiseco",
+   "product": "Pro-Lite Piston Kit 66.40mm, KTM 250 XC TPI 2020-2022",
+   "part_numbers": [
+    "856M06640"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "SportbikeTrackGear: KTM 250 XC TPI 2020, 2021, 2022"
+    }
+   ],
+   "fitment_source_url": "https://www.sportbiketrackgear.com/wiseco-ktm-250-xc-tpi-2020-2022-piston-kit-standard/",
+   "what_it_changes": "Forged piston with ArmorGlide skirt coating, 66.40mm standard bore, 72mm stroke.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "SportbikeTrackGear",
+     "url": "https://www.sportbiketrackgear.com/wiseco-ktm-250-xc-tpi-2020-2022-piston-kit-standard/",
+     "price_if_stated": "195.65",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Part number read from the STG SKU 'W|2457-856M06640|11'; manufacturer field shows '8'. Pre-TBI engine. No Wiseco two-stroke piston for the 2023+ TBI engine was found (search budget ran out).",
+   "confidence": "unverified",
+   "is_service": false,
+   "id": "en3-033"
+  },
+  {
+   "category": "engine",
+   "subcategory": "clutch slave cylinder rebuild kit",
+   "brand": "All Balls Racing",
+   "product": "Clutch Slave Cylinder Kit, KTM / Husqvarna SX-F 250-450 and FC 350/450 2023-2024",
+   "part_numbers": [
+    "18-6043"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Ghostbikes title: 'KTM/Husqvarna SXF 250-450 2023-2024'"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "same title wording"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "same title wording"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Ghostbikes title: 'FC 350/450 2023-2024'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Ghostbikes title: 'FC 350/450 2023-2024'"
+    }
+   ],
+   "fitment_source_url": "https://www.ghostbikes.com/products/2485877-all-balls-clutch-slave-cylinder-kit-for-ktm-husqvarna-sxf-250-450-2023-2024-fc-350-450-2023-2024.oembed",
+   "what_it_changes": "Rebuild kit for the hydraulic clutch slave: copper washers, seal, O-rings, gaskets, spring and screws.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Ghostbikes (UK)",
+     "url": "https://www.ghostbikes.com/products/2485877-all-balls-clutch-slave-cylinder-kit-for-ktm-husqvarna-sxf-250-450-2023-2024-fc-350-450-2023-2024.oembed",
+     "price_if_stated": "56.69",
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Fitment from the dealer title only; 'SXF 250-450' expanded by us to 250/350/450 SX-F. FC 250 and GasGas not named; 2025+ not stated.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-034"
+  },
+  {
+   "category": "engine (fuel system)",
+   "subcategory": "fuel pump rebuild kit",
+   "brand": "All Balls Racing",
+   "product": "Fuel Pump Rebuild Kit, KTM 450 SX-F 2023-2026",
+   "part_numbers": [
+    "47-2078"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "SportbikeTrackGear: KTM 450 SX-F 2023, 2024, 2025, 2026"
+    }
+   ],
+   "fitment_source_url": "https://www.sportbiketrackgear.com/all-balls-2023-2025-ktm-450-sx-f-fuel-pump-rebuild-kit/",
+   "what_it_changes": "Parts to rebuild the OEM fuel pump module (pump, filter, hoses, clamps and harness as needed), plug-and-play (retailer copy).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "SportbikeTrackGear",
+     "url": "https://www.sportbiketrackgear.com/all-balls-2023-2025-ktm-450-sx-f-fuel-pump-rebuild-kit/",
+     "price_if_stated": "89.92",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Number read from STG SKU 'A|1044-47-2078|92' (manufacturer field shows '2'). Only the KTM 450 SX-F is listed.",
+   "confidence": "unverified",
+   "is_service": false,
+   "id": "en3-035"
+  },
+  {
+   "category": "engine",
+   "subcategory": "complete gasket kit (four-stroke)",
+   "brand": "Pro-X",
+   "product": "Complete Gasket Kit, Yamaha YZ450F 2020-2022 / YZ450FX 2021-2023",
+   "part_numbers": [
+    "34.245"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "J&P: YZ450F 2020, 2021, 2022"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450FX",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "J&P: YZ450FX 2021, 2022, 2023"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/pro-x-complete-gasket-kit-yamaha-yz450f-yz450fx-wr450f-2020-2023",
+   "what_it_changes": "Full engine gasket set for the 2020-2022 YZ450F engine (retailer copy).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/pro-x-complete-gasket-kit-yamaha-yz450f-yz450fx-wr450f-2020-2023",
+     "price_if_stated": "142.16",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "J&P prints '34.245', possibly truncated (compare 34.2453 for 2023+). Confirm at pro-x.com.",
+   "confidence": "unverified",
+   "is_service": false,
+   "id": "en3-036"
+  },
+  {
+   "category": "engine",
+   "subcategory": "top end gasket kit (four-stroke)",
+   "brand": "Vertex",
+   "product": "Top End Gasket Kit, KTM / Husqvarna / GasGas 450cc 2016-2022",
+   "part_numbers": [],
+   "variants": [
+    "Cycle Gear item P1066520 (retailer item)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Cycle Gear: 450 SX-F 2016-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Cycle Gear: 450 XC-F 2016-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Cycle Gear: FC450 2016-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Cycle Gear: FX450 2018-2022"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021
+     ],
+     "notes": "Cycle Gear: MC 450F 2021"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 450F",
+     "years": [
+      2021
+     ],
+     "notes": "Cycle Gear: EX 450F 2021"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/vertex-top-end-gasket-kit-ktm-husqvarna-gas-gas-450cc-2015-2022",
+   "what_it_changes": "Top-end gasket set for a piston change on the pre-2023 450 engine.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/vertex-top-end-gasket-kit-ktm-husqvarna-gas-gas-450cc-2015-2022",
+     "price_if_stated": "71.04",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No Vertex part number. Marks the 2022/2023 platform split: no 2023+ 450 lines. GasGas 2022-2023 MC 450F not listed though it kept the older engine through 2023.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-037"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "Pro-X",
+   "product": "Forged Piston Kit, Kawasaki KX450 / KX450X 2019-2023",
+   "part_numbers": [],
+   "variants": [
+    "A 95.97mm (standard)",
+    "B 95.98mm (+0.01)",
+    "C 95.99mm (+0.02)",
+    "Cycle Gear item P964740"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Cycle Gear: KX450 2019-2023"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Cycle Gear: KX450X 2021-2023"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/pro-x-forged-piston-kit-kawasaki-kx450-x-2019-2023-b9598mm001mm-over",
+   "what_it_changes": "Forged OE-replacement piston kit for the 2019-2023 KX450.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/pro-x-forged-piston-kit-kawasaki-kx450-x-2019-2023-b9598mm001mm-over",
+     "price_if_stated": "210.95",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No ProX number on the page. Compression not stated. The 2024+ KX450 takes 01.4424 instead (this file).",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "en3-038"
+  }
+ ],
+ "gaps": [],
+ "not_done": []
+}

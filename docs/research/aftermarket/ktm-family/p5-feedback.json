@@ -1,0 +1,1258 @@
+{
+ "slice": "Pass 5: rider and tester feedback, 2025-2027 written tests, long-term reports, shootouts and project builds",
+ "feedback": [
+  {
+   "id": "kf5-001",
+   "category": "suspension_baseline",
+   "brand": "WP (stock)",
+   "product": "Baseline settings, WP Pro Components spring fork and Trax shock",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F Factory Edition",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-04-15",
+   "conditions": "Baseline for the stock bike. Rider weight, track, maps, gearing and tire pressure not stated in the article.",
+   "observed": "Fork: spring 5.0 N/mm (4.8 would be better for riders under 195 lb), height 2.5 mm, compression 15-16 out, rebound 23 clicks out. Shock: spring 45 N/mm (48 N/mm suggested for riders over 200 lb to bring the rear up on acceleration and under high load), sag 102 mm (try as high as 100 mm if the rear feels too low on acceleration), HSC 17 clicks out, LSC 16 out, HSR 11 clicks out, LSR 22 clicks out.",
+   "measured": null,
+   "other_mods": "None (stock bike)",
+   "url": "https://www.keeferinctesting.com/?p=29725",
+   "confidence": "high"
+  },
+  {
+   "id": "kf5-002",
+   "category": "model_change_note",
+   "brand": "KTM (stock)",
+   "product": "2027 SX-F lineup changes",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250/350/450 SX-F",
+    "year": "2027"
+   },
+   "source_type": "magazine",
+   "publication": "Ultimate Motorcycling",
+   "author": "Don Williams",
+   "date": "2026-04-30",
+   "conditions": "First look from the press release; no riding.",
+   "observed": "KTM says it made 'specific updates to increase rideability while meeting the latest FIM and AMA sound regulations' with no detail given. New graphics integrated into the plastics with some red. The article reports no airbox, ECU, chassis or suspension changes and calls the lineup largely unchanged.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://ultimatemotorcycling.com/2026/04/30/2027-ktm-sx-f-lineup-first-look-450-350-and-250-return/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf5-003",
+   "category": "suspension_baseline",
+   "brand": "WP (stock)",
+   "product": "MXA race-test setup, WP XACT air fork and shock",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff (page metadata lists Stephanie)",
+   "date": "2026-08-12",
+   "conditions": "MXA race test of the stock bike; settings labelled 'for hardcore racing'. Air pressure given by rider level; tracks not named in the extract.",
+   "observed": "MXA says the 2026 is identical to the 2025 (2025 frame with shock-tower relief holes, thinner head stays and tubes, engine tilted 2 deg back and 3 mm lower). Broad, linear 60 hp-class engine. New XACT fork internals fixed earlier complaints; shock spring dropped from 48 to 45 N/mm and HSC made less finicky; new linkage has less friction and needs one or two clicks in on compression. Fork: air 158 psi expert / 152 intermediate / 145 vet / 138 novice (their riders ran 135-165 psi; sticker is only a start), compression 14 out (12 alternate), rebound 15 out (18 alternate), fork legs at the third line; zip tie on the right leg to read travel. Shock: 45 N/mm for 175 lb and up, 42 N/mm under 175 lb, race sag 105 mm, HSC 1.5 turns out, LSC 17 out (stock 15), rebound 15 out (narrative says 17). When in doubt adjust HSC rather than LSC. Most testers preferred the white map. Accessories noted: Nihilo Concepts or Ride Engineering start/stop button to move the kill switch left; vented airbox cover except in dust/wet; Twin Air airbox wash cover; KTM Connectivity Unit Offroad retrofit $249.99; some testers remove the included frame guards because they push the feet out.",
+   "measured": null,
+   "other_mods": "None tested",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2026-ktm-450sxf/",
+   "confidence": "high"
+  },
+  {
+   "id": "kf5-004",
+   "category": "shootout_note",
+   "brand": "WP (stock)",
+   "product": "Vital MX 2026 450 shootout, KTM 450 SX-F (1st)",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Vital MX",
+   "author": "Michael Lindsay (ML512)",
+   "date": "2025-11-20",
+   "conditions": "Four days: Cahuilla Creek (two days, day 2 unprepped private rental), Perris Raceway, Fox Raceway. Testers Michael Lindsay (200 lb, 30+ Expert), Steven Tokarski (175 lb, Pro), Luc Santos (185 lb, 25+ Pro), plus Derek Caskey and Joe Carlino. Dyno at Race Tech same day.",
+   "observed": "Won the shootout (9 points). Lindsay: most complete package, praised air fork, balance and traction; he raised fork air 0.2 bar above stock and opened compression a couple of clicks, went a half-turn stiffer on shock HSC and slightly slower rebound; preferred the vented airbox lid with the standard map. Tokarski raised sag to 102 mm and added a touch of fork compression. Santos ranked it 1st as the most consistent over four days. Tire pressure and gearing not reported.",
+   "measured": "53.67 hp @ 9,400 rpm; 33.7 ft-lb @ 7,850 rpm; 117 front / 124 rear / 241 lb full tank.",
+   "other_mods": "None",
+   "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+   "confidence": "high"
+  },
+  {
+   "id": "kf5-005",
+   "category": "shootout_note",
+   "brand": "WP (stock)",
+   "product": "Vital MX 2026 450 shootout, Husqvarna FC 450 (6th)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Husqvarna",
+    "model": "FC 450",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Vital MX",
+   "author": "Michael Lindsay (ML512)",
+   "date": "2025-11-20",
+   "conditions": "Same four-day test and riders as the KTM entry (Lindsay 200 lb, Tokarski 175 lb, Santos 185 lb).",
+   "observed": "Sixth (30 points). Tokarski: suspension is 10 mm lower than KTM and GasGas; planted in ruts but harsh under high load. Lindsay ranked it 7th, citing lowered WP suspension and cramped cockpit but good flat-corner traction; he ran the forks farther out in the clamps (raised) and reduced sag to balance it, and preferred the vented airbox lid with the aggressive map. Santos: stock suspension sits too deep in the stroke. Clickers, tire pressure and gearing not reported.",
+   "measured": "53.63 hp @ 9,850 rpm; 33.9 ft-lb @ 7,650 rpm; 117/123/240 lb full tank.",
+   "other_mods": "None",
+   "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+   "confidence": "high"
+  },
+  {
+   "id": "kf5-006",
+   "category": "shootout_note",
+   "brand": "WP / Maxxis / Braktec (stock)",
+   "product": "Vital MX 2026 450 shootout, GasGas MC 450F (5th)",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 450F",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Vital MX",
+   "author": "Michael Lindsay (ML512)",
+   "date": "2025-11-20",
+   "conditions": "Same four-day test and riders as the KTM entry.",
+   "observed": "Fifth (28 points). Softer, KTM-like, '90% finished' (Lindsay); comfortable with good small-bump absorption (Tokarski). Santos ran fork air about 10.6 bar; it rides higher in the stroke, which helps in loam but is harder on hard-pack. Maxxis tires felt below the KTM's Dunlops; Braktec brakes criticised by Lindsay and Santos. Closed airbox, no map switch, no lid options. Clickers, sag, tire pressure and gearing not reported.",
+   "measured": "54.38 hp @ 9,700 rpm; 33.9 ft-lb @ 7,800 rpm; 118/124/242 lb full tank.",
+   "other_mods": "None",
+   "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+   "confidence": "high"
+  },
+  {
+   "id": "kf5-007",
+   "category": "suspension_upgrade",
+   "brand": "WP Pro Components / KTM PowerParts (factory-fitted)",
+   "product": "XACT Pro 7548 cone-valve fork and XACT Pro 8950 Trax shock on the Factory Edition, versus standard XACT AER air fork",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250 SX-F Factory Edition",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Cycle News",
+   "author": "Ryan Nitzen",
+   "date": "2026-05-17",
+   "conditions": "Review of the stock Factory Edition; tester weight and track not stated. Clickers, sag, air pressure, gearing and tire pressure not reported.",
+   "observed": "Cone-valve fork gives better front-end feel and front tire traction than the standard air fork, handles big hits and stays plush on chatter; no air-pressure monitoring needed. Trax shock planted, tracks straight in low-traction corners, resists bottoming and is more comfortable over big obstacles. Shock has a PowerParts preload adjuster (setting not given). Green map improves low-speed torque feel and roll-on pull versus the standard map. Engine otherwise unchanged apart from the Akrapovic slip-on and mapping: high-revving, strongest mid to top. Reviewer says the suspension alone is worth more than the price gap.",
+   "measured": "MSRP $12,599, about $1,900 over the standard SX-F; claimed 231.48 lb without fuel.",
+   "other_mods": "Factory Edition kit: Akrapovic slip-on, Hinson clutch cover, D.I.D DirtStar rims with orange hubs, CNC orange clamps, carbon guards and skid plate, WP holeshot device, CUO GPS unit ($69/yr app).",
+   "url": "https://www.cyclenews.com/2026/05/article/2026-ktm-250-sx-f-factory-edition-review/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf5-008",
+   "category": "suspension_baseline",
+   "brand": "WP (stock)",
+   "product": "2026 250 MX baseline settings: KTM 250 SX-F",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250 SX-F",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-06-10",
+   "conditions": "Multi-brand baseline article. KTM/Husqvarna/GasGas settings for 150-180 lb riders; under 150 lb use about 10.3 bar with the same clickers. Tracks and maps not stated.",
+   "observed": "WP XACT AER fork needs at least 6-7 engine hours to break in and may feel stiff before then; break-in pressure 10.5 bar. Fork: 10.6 bar, height 5 mm, compression 12 out at 10.6 bar or 15 out at 10.7 bar, rebound 10 out. Shock: 42 N/mm, sag 102 mm, HSC 1.75 out, LSC 10 out, rebound 11 out.",
+   "measured": null,
+   "other_mods": "None",
+   "url": "https://www.keeferinctesting.com/2026-250-mx-baseline-suspension-settings/",
+   "confidence": "high"
+  },
+  {
+   "id": "kf5-009",
+   "category": "suspension_baseline",
+   "brand": "WP (stock)",
+   "product": "2026 250 MX baseline settings: GasGas MC 250F",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 250F",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-06-10",
+   "conditions": "Same article; 150-180 lb riders. Tracks and maps not stated.",
+   "observed": "Break-in air 10.5 bar. Fork: 10.6 bar, height 5 mm, compression 12 out at 10.6 bar or 15 out at 10.7 bar, rebound 10 out. Shock: 42 N/mm, sag 102-103 mm, HSC 1.75-2 turns out, LSC 11 out, rebound 11 out.",
+   "measured": null,
+   "other_mods": "None",
+   "url": "https://www.keeferinctesting.com/2026-250-mx-baseline-suspension-settings/",
+   "confidence": "high"
+  },
+  {
+   "id": "kf5-010",
+   "category": "suspension_baseline",
+   "brand": "WP (stock)",
+   "product": "2026 250 MX baseline settings: Husqvarna FC 250 (2025 carry-over)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Husqvarna",
+    "model": "FC 250",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-06-10",
+   "conditions": "Keefer says there is no 2026 FC250 (US), so these are 2025 settings carried over. Rider weight not stated.",
+   "observed": "Stiffer than the KTM and GasGas setups. Fork: 10.7 bar, height 5 mm, compression 14 out, rebound 9 out. Shock: 42 N/mm, sag 102 mm, HSC 1.5-1.75, LSC 10 out, rebound 11 out. For more front-end steering and tire contact at lean, try HSC 1.75 out.",
+   "measured": null,
+   "other_mods": "None",
+   "url": "https://www.keeferinctesting.com/2026-250-mx-baseline-suspension-settings/",
+   "confidence": "high"
+  },
+  {
+   "id": "kf5-011",
+   "category": "suspension_baseline",
+   "brand": "WP (stock) / aftermarket triple clamp",
+   "product": "2026 450 MX baseline settings: KTM 450 SX-F, stock and aftermarket clamps",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-03-30",
+   "conditions": "Multi-brand baseline; 2025 baselines re-checked and adjusted slightly for 2026. Tracks and maps not stated.",
+   "observed": "Stock clamp fork: height 3 mm, 10.8 bar (156 psi), compression 10, rebound 15 out. With an aftermarket triple clamp (brand not named): height 3 mm, 10.9 bar (158 psi), compression 14 out, rebound 14 out (softer clickers, more air). Shock: 45 N/mm, sag 102 mm, LSC 10 out, HSC 1.25 out, rebound 12 out; riders over 195 lb may prefer 48 N/mm.",
+   "measured": null,
+   "other_mods": "Aftermarket triple clamp for the second fork setting (brand not stated)",
+   "url": "https://www.keeferinctesting.com/2026-450-mx-baseline-suspension-settings/",
+   "confidence": "high"
+  },
+  {
+   "id": "kf5-012",
+   "category": "suspension_baseline",
+   "brand": "WP (stock) / aftermarket triple clamp",
+   "product": "2026 450 MX baseline settings: Husqvarna FC 450 (2025 carry-over)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Husqvarna",
+    "model": "FC 450",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-03-30",
+   "conditions": "Keefer says there is no 2026 FC450 (US); 2025 settings repeated.",
+   "observed": "Stock clamp fork: height 3 mm, 10.9 bar (158 psi), compression 12 out, rebound 13 out. Aftermarket clamp fork: 3 mm, 10.9 bar, compression 14 out, rebound 13 out. Shock: 45 N/mm, sag 102 mm, LSC 8 out, HSC 1.25 out, rebound 9 out; riders over 190 lb may prefer 48 N/mm.",
+   "measured": null,
+   "other_mods": "Aftermarket triple clamp for the second fork setting (brand not stated)",
+   "url": "https://www.keeferinctesting.com/2026-450-mx-baseline-suspension-settings/",
+   "confidence": "high"
+  },
+  {
+   "id": "kf5-013",
+   "category": "suspension_baseline",
+   "brand": "WP (stock)",
+   "product": "2026 450 MX baseline settings: GasGas MC 450F",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 450F",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-03-30",
+   "conditions": "Multi-brand baseline. Rider weight only as the 190 lb spring threshold.",
+   "observed": "Fork: height 3 mm, 10.9 bar, compression 13 out, rebound 12 out. Shock: 45 N/mm, sag 103 mm, LSC 10 out, HSC 1.25 out, rebound 8-9 out; riders over 190 lb may prefer 48 N/mm. Setting is slightly slower-moving than the KTM's; he suggests the chassis may be more compliant because of the (forged) triple clamps.",
+   "measured": null,
+   "other_mods": "None",
+   "url": "https://www.keeferinctesting.com/2026-450-mx-baseline-suspension-settings/",
+   "confidence": "high"
+  },
+  {
+   "id": "kf5-014",
+   "category": "factory_edition_comparison",
+   "brand": "GasGas / FMF / Brembo (factory-fitted)",
+   "product": "MC 250F Rockstar (Factory) Edition versus standard",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 250F Factory Edition",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Vital MX",
+   "author": "Michael Lindsay (ML512)",
+   "date": "2025-05-21",
+   "conditions": "170 lb rider; track not stated. Rear sag 105 mm; most aggressive throttle map in the GasGas+ app with reduced engine braking. Fork air/clicker values tried but not given.",
+   "observed": "FMF Factory 4.1 RCT slip-on helped mid and top pull; bottom end still lags the YZ250F so he rode higher in the revs with more clutch; app tuning helped only somewhat. Quickshifter cut power too abruptly near jump faces. Shock well balanced on landings; fork harsh in the initial stroke over small bumps despite air and clicker changes. Chassis calmer and more compliant than the previous generation. ProTaper bars more comfortable than KTM/Husqvarna bends. Verdict: spend the $1,900 premium on an ECU and mapping instead.",
+   "measured": "Premium over standard: $1,900.",
+   "other_mods": "Edition parts: FMF Factory 4.1 RCT slip-on, Brembo brakes (standard has Braktec), PowerParts wheels, ProTaper bars, Guts gripper seat cover, CNC clamps with adjustable offset, semi-floating front rotor, holeshot device, CUO unit.",
+   "url": "https://www.vitalmx.com/features/gasgas-mc-250f-factory-edition-better-standard-model-review",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf5-015",
+   "category": "model_change_note",
+   "brand": "GasGas (stock)",
+   "product": "2026 MC 250F intake and muffler changes (MXA lap-time battle)",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 250F",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff (Josh Mosiman rode)",
+   "date": "2026-02-12",
+   "conditions": "Lap-time battle at Fox Raceway, KTM 250 SX-F vs Husqvarna FC250 vs GasGas MC250F, all 2026. Lap times and settings are only in the video, not the text.",
+   "observed": "MXA says the GasGas is the only one of the three with 2026 updates: longer, quieter muffler; larger Twin Air filter; plastic block-off on the filter cage; extra airbox spacer that reduces intake volume and quiets the engine. KTM described as the stiffer 'race ready' version with an open-concept airbox; FC250 sits about one inch lower.",
+   "measured": null,
+   "other_mods": "None",
+   "url": "https://motocrossactionmag.com/laptime-battle-2026-ktm-250sxf-vs-husky-fc250-vs-gasgas-mc250f/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf5-016",
+   "category": "suspension_baseline",
+   "brand": "WP (stock) / Factory Hard Parts or Ride Engineering split clamp",
+   "product": "2025 450 MX baseline: KTM 450 SX-F, stock and aftermarket clamps",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-01-08",
+   "conditions": "Developed after 6-7 engine hours of break-in, tested at several unnamed tracks.",
+   "observed": "Stock clamp fork: height 3 mm, 10.8 bar (156 psi), compression 10, rebound 15 out. With KTM Factory Hard Parts triple clamp or Ride Engineering split clamp: 3 mm, 10.9 bar (158 psi), compression 14 out, rebound 14 out. Shock: 45 N/mm, sag 102 mm, LSC 10 out, HSC 1.25 out, rebound 12 out; over 195 lb use 48 N/mm.",
+   "measured": null,
+   "other_mods": "Factory Hard Parts triple clamp or Ride Engineering split clamp (second fork setting)",
+   "url": "https://www.keeferinctesting.com/2025-450-mx-baseline-suspension-settings/",
+   "confidence": "high"
+  },
+  {
+   "id": "kf5-017",
+   "category": "suspension_baseline",
+   "brand": "WP (stock) / Husqvarna Hard Parts or Ride Engineering split clamp",
+   "product": "2025 450 MX baseline: Husqvarna FC 450, stock and aftermarket clamps",
+   "part_numbers": [],
+   "bike": {
+    "make": "Husqvarna",
+    "model": "FC 450",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-01-08",
+   "conditions": "Tracks not named.",
+   "observed": "Stock clamp fork: 3 mm, 10.9 bar (158 psi), compression 12 out, rebound 13 out. With Husqvarna Hard Parts clamp or Ride Engineering split clamp: 3 mm, 10.9 bar, compression 14 out, rebound 13 out. Shock: 45 N/mm, sag 102 mm, LSC 8 out, HSC 1.25 out, rebound 9 out; over 190 lb use 48 N/mm.",
+   "measured": null,
+   "other_mods": "Husqvarna Hard Parts or Ride Engineering split clamp (second fork setting)",
+   "url": "https://www.keeferinctesting.com/2025-450-mx-baseline-suspension-settings/",
+   "confidence": "high"
+  },
+  {
+   "id": "kf5-018",
+   "category": "suspension_baseline",
+   "brand": "WP (stock) / WP Hard Parts or Ride Engineering split clamp",
+   "product": "2025 450 MX baseline: GasGas MC 450F, stock and aftermarket clamps",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 450F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-01-08",
+   "conditions": "General baseline; tracks not named.",
+   "observed": "Stock (forged) clamp fork: 3 mm, 10.9 bar, compression 13 out, rebound 12 out. With Factory WP Hard Parts clamp or Ride Engineering split clamp: 3 mm, 11.0 bar, compression 11 out, rebound 10 out (more air and stiffer clickers than stock clamp, the reverse of the KTM). Shock: 45 N/mm, sag 103 mm, LSC 10 out, HSC 1.25 out, rebound 8-9 out; over 190 lb use 48 N/mm. Slightly slower-moving than the KTM setting because the chassis is a bit more compliant.",
+   "measured": null,
+   "other_mods": "WP Hard Parts or Ride Engineering split clamp (second fork setting)",
+   "url": "https://www.keeferinctesting.com/2025-450-mx-baseline-suspension-settings/",
+   "confidence": "high"
+  },
+  {
+   "id": "kf5-019",
+   "category": "chassis",
+   "brand": "KTM (stock fasteners)",
+   "product": "Optional reduced torque specs",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250/350/450 SX-F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2024-09-16",
+   "conditions": "Author's opinion, not an engineer; says 2023-2025 KTMs benefit. Some values are below OEM spec: check bolts every other ride, blue Loctite.",
+   "observed": "Modified (stock): top engine hanger 20 Nm (25), subframe top 30 (35), subframe bottom 30 (30), top clamp pinch bolts 15 (17), bottom pinch 12 (12), shock bolts 52 (60), rear axle nut 75 (80), swingarm pivot 90 (100), bottom engine bolts 55 (60), front caliper 25 (25), fork lug bolts 15 (15); axle position 600-606 mm from swingarm pivot. Makes the bike feel less harsh or 'bitey' leaned over on the tire edge under load; reduces but does not remove the chassis deflection he feels; he calls it a band-aid.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2025-ktm-250-350-450-optional-torque-specs/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf5-020",
+   "category": "model_change_note",
+   "brand": "KTM (stock)",
+   "product": "2027 KTM motocross lineup changes",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "SX-F and SX range",
+    "year": "2027"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2026-04-30",
+   "conditions": "First look from KTM information; no riding.",
+   "observed": "All models quieter for stricter FIM/AMA sound rules, two-strokes included; no 150SX for 2027. 'All of the big bikes' get larger Twin Air filters and more restrictive filter cages; four-strokes get more restrictive mufflers and slightly altered ECU mapping to match; unspecified EFI updates. No chassis or suspension changes stated. 125/250/300 SX and 85 SX (17/14 and 19/16): no specific changes beyond sound. XC models not mentioned.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/first-look-2027-ktm-motocross-models/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf5-021",
+   "category": "ecu_map",
+   "brand": "Twisted Development",
+   "product": "Remapped stock ECU for KTM/Husqvarna/GasGas 250 and KTM 300 two-strokes (TBI)",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250 SX / 300 SX",
+    "year": "2024"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2024-06-25",
+   "conditions": "Test bikes 2024 KTM 250SX (stock pipe and silencer map) and 300SX (map for Pro Circuit pipe with stock silencer). Same TBI two-stroke platform sold 2023-2027; 2025-2027 fitment not separately confirmed. Article last updated 2026-08-03.",
+   "observed": "Stock map is conservative: runs flat up top and hits the limiter quickly. Remap keeps the easy bottom end but adds throttle response and 'a generous amount of mid-to-top power' and keeps pulling instead of hitting the limiter. On the 300SX testers could use third in tight corners and rev further, shifting less. Uses the stock map switch: green aggressive, white mellow; vets preferred white (broad low-mid, still more power), pros green (hard-hitting bottom). Customer sends in the stock ECU; previously these bikes needed a far more expensive Vortex ignition. No complaints; PC silencer not tested.",
+   "measured": "Price $349.50.",
+   "other_mods": "300SX: Pro Circuit pipe",
+   "url": "https://motocrossactionmag.com/mxa-team-tested-tds-ktm-250-300-remapped-ecu/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf5-022",
+   "category": "suspension_baseline",
+   "brand": "WP (stock)",
+   "product": "2025 KTM 125 XC review and settings",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "125 XC",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Gardner Tarlow",
+   "date": "2025-01-19",
+   "conditions": "About 185 lb vet rider (fork rated 165-187 lb); Glen Helen and Cahuilla MX tracks, high-desert hills and tight fast single-track in San Diego County. Tire pressure not reported.",
+   "observed": "WP XACT closed-cartridge spring fork plush on chatter and moderate braking bumps, bottomed on big overjump landings. Shock tracked well; planted, neutral cornering credited to the anti-squat shock design. Strong mid to top, idles well in first, at a disadvantage on climbs. Fork: recommended aggressive 7 out comp / 13 out reb; his final 5 out comp, 11 out reb, forks at the second line. Shock: recommended aggressive LSC 13 out, HSC 1 out, reb 13 out, sag 105 mm; he kept 13/1/13. Gearing: XC 13/51 (SX is 13/50). Map 1 hard pack, map 2 richer for soft sand (no big difference felt).",
+   "measured": "Bike weight quoted 208 lb.",
+   "other_mods": "None",
+   "url": "https://www.keeferinctesting.com/2025-ktm-125-xc-review/",
+   "confidence": "high"
+  },
+  {
+   "id": "kf5-023",
+   "category": "chassis",
+   "brand": "KTM (stock)",
+   "product": "2026 450 MX recommended chassis lengths: KTM 450 SX-F",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-06-23",
+   "conditions": "Stock offset; range meant to keep stock stability without losing cornering. Swingarm length measured from pivot bolt centre to rear axle centre. Chain length not given. FC450 and MC450F not covered.",
+   "observed": "13/51 gearing, fork height 3 mm, wheelbase 1490-1493 mm, swingarm length 595-598 mm.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2026-450-mx-recommended-chassis-lengths/",
+   "confidence": "high"
+  },
+  {
+   "id": "kf5-024",
+   "category": "chassis",
+   "brand": "KTM (stock)",
+   "product": "2026 250 MX recommended chassis lengths: KTM 250 SX-F",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250 SX-F",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-07-07",
+   "conditions": "Range allows for normal sprocket, chain and fork-height changes while keeping stock balance. FC250 and MC250F not covered.",
+   "observed": "Stock gearing, fork height 3 mm, wheelbase 1490-1493 mm, swingarm length 595-598 mm.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2026-250mx-recommended-chassis-lengths/",
+   "confidence": "high"
+  },
+  {
+   "id": "kf5-025",
+   "category": "suspension_comparison",
+   "brand": "WP Pro Components",
+   "product": "WP cone-valve vs AER fork and Trax vs bladder shock on the 2026 KTM 450 Factory Edition (podcast)",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F Factory Edition",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing (Keefer Tested podcast #511)",
+   "author": "Kris Keefer",
+   "date": "2026-10-19",
+   "conditions": "Back-to-back comparison; audio only. The written description gives no numbers or verdict.",
+   "observed": "Description says the show compares WP cone-valve and AER forks and Trax and bladder-style shocks back to back, and asks whether to keep the AER setup and whether the Pro Components suspension is worth the cost. No written findings.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/rmatvmc-keefer-tested-show-511-wp-suspension-comparison-on-ktm-450-fe/",
+   "confidence": "low"
+  },
+  {
+   "id": "kf5-026",
+   "category": "gearing",
+   "brand": "Stock sprockets (sizes only)",
+   "product": "2026 gearing guide: KTM 250/350/450 SX-F",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250/350/450 SX-F",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-05-01",
+   "conditions": "Gearing guide; chain lengths not given; Husqvarna not covered.",
+   "observed": "250 SX-F: stock 14/51, recommended 14/52 for better third-gear roll-on out of corners in soft dirt without losing much second-gear pull; keep stock on hard pack. 350 SX-F: stock 14/52, keep. 450 SX-F: stock 13/51, keep; 13/52 did not improve third-gear roll enough, and 13/51 lets the rider use the long second gear more and longer; 13/52 can help third-gear recovery in softer east-coast dirt.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2026-250-450-mx-gearing-guide/",
+   "confidence": "high"
+  },
+  {
+   "id": "kf5-027",
+   "category": "gearing",
+   "brand": "Stock sprockets (sizes only)",
+   "product": "2026 gearing guide: GasGas MC 250F/350F/450F",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 250F / MC 350F / MC 450F",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-05-01",
+   "conditions": "Gearing guide; chain lengths not given.",
+   "observed": "Changes meant to settle the rear out of corners and ease the second-to-third shift on exits. MC 250F: stock 14/51, recommended 14/52. MC 350F: stock 14/51, recommended 14/52. MC 450F: stock listed as 13/49, recommended 14/52 (largest change).",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2026-250-450-mx-gearing-guide/",
+   "confidence": "high"
+  },
+  {
+   "id": "kf5-028",
+   "category": "project_bike_test",
+   "brand": "AEO Powersports / WP Pro Components / Factory Connection / X-Trig / Akrapovic / Hinson",
+   "product": "AEO Powersports pro-level 250 SX-F race bike test",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250 SX-F",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Vital MX",
+   "author": "Steven Tokarski (Tokarski710)",
+   "date": "2025-11-25",
+   "conditions": "Fox Raceway after rain (deep, rutted, rough); lap under two minutes. Rider weight not stated (Tokarski is listed at 175 lb in Vital's 2026 450 shootout). Compared to a stock GasGas MC 250F Rockstar Edition. Map, gearing and tire pressure not stated; mostly third gear. The body text does not itself confirm the chassis brand.",
+   "observed": "Sag 103 mm (AEO preference). Fork lowered 2.5 mm in the clamps on Jay Whipple's suggestion (improved cornering) and preload adjusted; shock unchanged. AEO engine internals confidential, said to sit between stock and factory level. He expected 2-3 s a lap; the stopwatch showed about 5 s a lap faster than the stock GasGas Rockstar 250F.",
+   "measured": "About 5 s per lap faster than a stock GasGas MC 250F Rockstar Edition.",
+   "other_mods": "WP Pro Components cone-valve fork and shock tuned by Factory Connection; X-Trig clamps; Akrapovic exhaust; Hinson clutch; ODI bars/grips; ASV levers; Guts seat; Dunlop AT82 front, MX14 rear.",
+   "url": "https://www.vitalmx.com/features/how-fast-pro-level-ktm-250-sx-f-testing-aeo-powersports-race-bike",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf5-029",
+   "category": "exhaust_test",
+   "brand": "Akrapovic (factory-fitted) / KTM Connect",
+   "product": "250 SX-F Factory Edition: Akrapovic slip-on and app tuning",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250 SX-F Factory Edition",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Bike Magazine (Ron's Wrap)",
+   "author": "Ron Lawson",
+   "date": "2025-05-09",
+   "conditions": "Wrap column; rider and track not stated; no clicker, sag, gearing or tire pressure values.",
+   "observed": "Under the trim it is the bike that won Dirt Bike's 2025 250 shootout. The Akrapovic slip-on is the only performance change, with 'slightly improved performance in the upper midrange'. On the Pro Circuit dyno the KTM, FC250 and MC250F made the most power in the class; most others were almost 2 hp down at peak (no figures given). CUO/KTM Connect app offers power delivery (Smooth/Standard/Aggressive), five throttle response levels, traction control, launch control and Quickshift sensitivity; suspension tab gives guidelines only. Lawson calls the data 'information overload'.",
+   "measured": "Factory Edition $11,599 ($1,200 over standard); LitPro $11.99/month or $69.99/year.",
+   "other_mods": "FE kit: Hinson clutch cover, split orange clamps, D.I.D DirtStar rims, WP holeshot device, carbon skid plate, ODI grips.",
+   "url": "https://dirtbikemagazine.com/mx-test-ktm-250sx-f-factory-edition/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf5-030",
+   "category": "two_stroke_test",
+   "brand": "KTM / WP (stock)",
+   "product": "2025 KTM 300 SX TBI full test",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "300 SX",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Bike Magazine",
+   "author": "Ron Lawson",
+   "date": "2025-07-21",
+   "conditions": "Stock bike; rider and track not stated; clickers, air pressure, sag, gearing and tire pressure not given.",
+   "observed": "2025 frame (less gusseting) flexes more than the stiffer 2023 frame and handles more predictably. WP XACT air fork a little harsh on sharp edges and doesn't hold as level a platform as the best coil forks; shock rated highly and consistent through a long moto. Power longer and more usable than 2023, peak arrives earlier and lasts longer; needs careful throttle on jumps. Map switch: white (mild) limits power-valve travel to 80%, green allows full travel; maps not user-adjustable, no TC, Quickshift or app mapping.",
+   "measured": "221 lb without fuel (author's scale); peak power in the low 50s hp (author's testing); $9,599; piston every 15 hours per the service manual (300 XC-W: 40).",
+   "other_mods": "None",
+   "url": "https://dirtbikemagazine.com/mx-test-ktm-300sx/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf5-031",
+   "category": "dyno_test",
+   "brand": "KTM (stock)",
+   "product": "2026 KTM 450 SX-F dyno",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Rider",
+   "author": "Andrew Oldar",
+   "date": "2025-12-04",
+   "conditions": "In-house Dynojet 250i rear-wheel dyno; temperature, altitude and fuel not reported; rpm of peaks only on the chart image.",
+   "observed": "Highest output of the seven bikes in Dirt Rider's 2026 450 comparison. Test rider Allan Brown: good, controllable power and one of the best engine packages, but vibrates more than competitors. (Dirt Rider placed it 3rd in its 2026 450 shootout.)",
+   "measured": "56.7 hp; 34.5 lb-ft.",
+   "other_mods": "None",
+   "url": "https://www.dirtrider.com/tests/ktm-450-sx-f-dyno-test-2026/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf5-032",
+   "category": "dyno_test",
+   "brand": "KTM (stock)",
+   "product": "2026 KTM 250 SX-F dyno",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250 SX-F",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Rider",
+   "author": "Andrew Oldar",
+   "date": "2026-02-12",
+   "conditions": "In-house Dynojet 250i rear-wheel dyno; conditions not reported.",
+   "observed": "Highest peak hp of the class test (1.0 hp over the Triumph TF 250-X) and highest torque (0.2 lb-ft over the GasGas MC 250F). Test rider Michael Wicker calls it slightly stronger than the FC 250 and MC 250F. (Dirt Rider placed it 2nd in its 2026 250F shootout.)",
+   "measured": "41.8 hp; 19.7 lb-ft.",
+   "other_mods": "None",
+   "url": "https://www.dirtrider.com/tests/ktm-250-sx-f-dyno-test-2026/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf5-033",
+   "category": "dyno_test",
+   "brand": "KTM (stock)",
+   "product": "2025 KTM 300 SX dyno",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "300 SX",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Rider",
+   "author": "Andrew Oldar",
+   "date": "2024-09-23",
+   "conditions": "In-house Dynojet 250i, multiple pulls; ambient conditions not listed. Dyno only, no riding impressions.",
+   "observed": "Peak hp 1.3 hp below the 2025 KTM 350 SX-F; peak torque 5.7 lb-ft above it. 39 mm throttle body (TBI).",
+   "measured": "49.1 hp; 32.3 lb-ft.",
+   "other_mods": "None",
+   "url": "https://www.dirtrider.com/tests/ktm-300-sx-dyno-test-2025/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf5-034",
+   "category": "forum_owner_report",
+   "brand": "KTM (stock TBI) / Pro Circuit / RK Tek / MX Tech",
+   "product": "Owner reports: TBI 250/300 SX (2023-2025) vs carbureted 2022",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250 SX / 300 SX",
+    "year": "2023-2025"
+   },
+   "source_type": "forum",
+   "publication": "Vital MX forum",
+   "author": "Multiple posters (thread by U3)",
+   "date": "2025-06-13",
+   "conditions": "Forum thread with replies to 2025-12-27; mixed model years (2023-2025 TBI, 2024 250 XC, 2019-2022 carb). Uncorroborated owner opinions.",
+   "observed": "Split views on power: hellion says carb 250s are 'stronger, no doubt' but a TBI 300 is about equal and far smoother; crashy_382 says the TBI top end pulls harder and further than his 2014 with less initial bark; suspensionguy says dyno and scale data show the TBI 250SX making less power and weighing more than the 2022, and his was a 'plug eating dud' until three aftermarket remaps and two heads; bodycast quotes roughly 48-49 hp (2022) vs 53-54 hp (2025) 'from most sources'. Chassis: TBI bikes feel bigger and heavier but stable and accurate (hellion); rear holds up better for riders around 200 lb and 6 ft+ (AssangeMX). Mods mentioned: sandman768 flashed his 2023 300SX ECU at 40 h for a smoother hit; crashy_382 flashed a 2023 with 2025 maps plus a PC pipe on the stock silencer; OnTheCrossbar runs an RK Tek head insert and PC pipe/silencer on a 300SX; bodycast's PC pipe and silencer on a 2024 250 XC was 'better everywhere especially up top' and he runs spring forks; AMetts uses MX Tech Raven fork inserts on a 300 XC. hellion: TBI 'has always run perfectly', no rejetting.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.vitalmx.com/forums/moto-related/ktm-sx-250-2025-vs-2022",
+   "confidence": "low"
+  },
+  {
+   "id": "kf5-035",
+   "category": "suspension_baseline",
+   "brand": "WP (stock)",
+   "product": "2025 KTM 350 SX-F baseline suspension settings and pivot torque",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "350 SX-F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-09-10",
+   "conditions": "Read from the Keefer Inc suspension RSS feed content (https://www.keeferinctesting.com/category/hardparts/suspension/feed/). For riders about 175-200 lb, after an 8-hour break-in, meant to go with his other chassis mods. He warns the Husqvarna FC350 uses a different suspension spec, so these settings do not carry over.",
+   "observed": "Fork: height 2-3 mm, 10.8 bar, compression 14 out, rebound 15-16 out. Shock: sag 103 mm, LSC 12 out, HSC 1.5 (written as clicks) out, rebound 16 out. Swingarm pivot bolt torque lowered to 95 Nm (also applies to Husqvarna and GasGas): less rear side-to-side movement, mainly under power, but no added comfort; blue Loctite or check the nut regularly as it can back out.",
+   "measured": null,
+   "other_mods": "His other chassis mods (not listed in the feed)",
+   "url": "https://www.keeferinctesting.com/2025-ktm-350-sx-f-baseline-suspension-settings/",
+   "confidence": "medium"
+  }
+ ],
+ "builds": [
+  {
+   "id": "kb5-001",
+   "title": "2025 Husqvarna FX 350 Heritage Garage Build",
+   "bike": {
+    "make": "Husqvarna",
+    "model": "FX 350 Heritage",
+    "year": "2025"
+   },
+   "publication": "Racer X",
+   "date": "2026-01-21",
+   "url": "https://racerxonline.com/2026/01/21/husqvarna-fx-350-heritage-garage-build",
+   "notes": "Build by Three Brothers Racing; text Kris Keefer, photos/video Simon Cudby. No part numbers, prices, settings or per-part findings. (Listed as not fetched in p2-rider-feedback.json; now fetched.)",
+   "parts": [
+    {
+     "category": "protection",
+     "brand": "Bullet Proof Designs",
+     "product": "Radiator guards, shark fin, rear caliper guard",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "levers",
+     "brand": "Bullet Proof Designs",
+     "product": "Clutch and brake levers",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "seat",
+     "brand": "GUTS Racing",
+     "product": "Ribbed seat cover and soft seat foam",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "exhaust",
+     "brand": "FMF",
+     "product": "4.1 RCT full system",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "handlebar",
+     "brand": "Phoenix Handlebars",
+     "product": "9050 bend",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "tires",
+     "brand": "Dunlop",
+     "product": "MX33F front, AT81 rear",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "suspension",
+     "brand": "Three Brothers Racing",
+     "product": "Fork and shock revalve",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "fuel",
+     "brand": "VP Racing Fuels",
+     "product": "T4+",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "graphics",
+     "brand": "DeCal Works",
+     "product": "Works Heritage custom graphics",
+     "part_numbers": [],
+     "purpose": "Cosmetic",
+     "observed": null
+    },
+    {
+     "category": "stand",
+     "brand": "Polisport",
+     "product": "Foldable bike stand",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    }
+   ]
+  },
+  {
+   "id": "kb5-002",
+   "title": "2025 KTM 300 XC Garage Build",
+   "bike": {
+    "make": "KTM",
+    "model": "300 XC",
+    "year": "2025"
+   },
+   "publication": "Racer X",
+   "date": "2025-10-29",
+   "url": "https://racerxonline.com/2025/10/29/ktm-300-xc-garage-build",
+   "notes": "Built by Brian Sheffer for long trail weekends; text Kris Keefer, photos Simon Cudby. Gearing 14/50. No part numbers, prices, settings or per-part findings.",
+   "parts": [
+    {
+     "category": "suspension",
+     "brand": "Three Brothers Racing",
+     "product": "Revalve and respring",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "wheels",
+     "brand": "Dubya USA",
+     "product": "Haan hubs, Excel rims",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "electrical",
+     "brand": "MotoMinded",
+     "product": "Bomber switch, stator/light",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "protection",
+     "brand": "Crosslinked Components",
+     "product": "Swingarm guards",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "exhaust",
+     "brand": "FMF",
+     "product": "Fatty pipe and 2.1 silencer",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "sprockets",
+     "brand": "DDC Sprockets",
+     "product": "Sprockets, 14/50",
+     "part_numbers": [],
+     "purpose": "Gearing",
+     "observed": null
+    },
+    {
+     "category": "cooling",
+     "brand": "Trail Tech",
+     "product": "Cooling fan",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "seat",
+     "brand": "Seat Concepts",
+     "product": "Complete seat with base",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "skid_plate",
+     "brand": "AXP",
+     "product": "Full-wrap skid plate",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "footpegs",
+     "brand": "MetalTek",
+     "product": "Wide footpegs",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "levers",
+     "brand": "ASV Inventions",
+     "product": "Clutch and brake levers",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "protection",
+     "brand": "Acerbis",
+     "product": "Fork lug and frame protectors",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "protection",
+     "brand": "Bullet Proof Designs",
+     "product": "Protection and durability parts",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "bar_mount",
+     "brand": "XC Gear",
+     "product": "Mako 360 bar mount",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "chain",
+     "brand": "DID",
+     "product": "ERT3 520 gold chain",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "tires",
+     "brand": "Shinko",
+     "product": "525 hybrid cheater rear, 216 MX front",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "throttle",
+     "brand": "G2",
+     "product": "Aluminium throttle tube",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "graphics",
+     "brand": "DeCal Works",
+     "product": "Custom graphics",
+     "part_numbers": [],
+     "purpose": "Cosmetic",
+     "observed": null
+    }
+   ]
+  },
+  {
+   "id": "kb5-003",
+   "title": "2025 KTM 350 SX-F Garage Build (Twisted Development)",
+   "bike": {
+    "make": "KTM",
+    "model": "350 SX-F",
+    "year": "2025"
+   },
+   "publication": "Racer X",
+   "date": "2025-05-21",
+   "url": "https://racerxonline.com/2025/05/21/2025-ktm-350-sx-f-garage-build",
+   "notes": "Built by Jamie Ellis (Twisted Development) for added horsepower; text Kris Keefer, photos Simon Cudby. Gearing 14/52; Dunlop MX34 at 12.5 psi front and rear. No part numbers, prices, clickers or map details; per-part effects not described.",
+   "parts": [
+    {
+     "category": "ecu",
+     "brand": "Twisted Development",
+     "product": "Vortex ECU with custom mapping",
+     "part_numbers": [],
+     "purpose": "Power",
+     "observed": null
+    },
+    {
+     "category": "engine",
+     "brand": "Twisted Development",
+     "product": "Custom piston, epoxy head porting, REM transmission tumbling",
+     "part_numbers": [],
+     "purpose": "Power/durability",
+     "observed": null
+    },
+    {
+     "category": "exhaust",
+     "brand": "FMF",
+     "product": "TD-spec 4.1 race muffler system",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "suspension",
+     "brand": "REP Suspension",
+     "product": "Custom AER fork valving; shock revalve with bladder kit",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "handlebar_grips",
+     "brand": "ODI",
+     "product": "Champ bend bars, Lock-On grips",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "air_filter",
+     "brand": "Twin Air",
+     "product": "Powerflow kit",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "covers",
+     "brand": "Works Connection",
+     "product": "Master cylinder covers",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "holeshot",
+     "brand": "Works Connection",
+     "product": "Pro Launch start device",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "drive",
+     "brand": "Pro X",
+     "product": "Chain and 14/52 sprockets",
+     "part_numbers": [],
+     "purpose": "Gearing",
+     "observed": null
+    },
+    {
+     "category": "seat",
+     "brand": "MotoSeat",
+     "product": "Full ribbed seat cover",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "tires",
+     "brand": "Dunlop",
+     "product": "MX34 front and rear, 12.5 psi",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "graphics",
+     "brand": "DeCal Works",
+     "product": "Custom graphics",
+     "part_numbers": [],
+     "purpose": "Cosmetic",
+     "observed": null
+    }
+   ]
+  },
+  {
+   "id": "kb5-004",
+   "title": "2025 KTM 350 SX-F XPR Garage Build",
+   "bike": {
+    "make": "KTM",
+    "model": "350 SX-F",
+    "year": "2025"
+   },
+   "publication": "Racer X",
+   "date": "2025-06-11",
+   "url": "https://racerxonline.com/2025/06/11/2025-ktm-350-sx-f-xpr-garage-build",
+   "notes": "Built by Chad Braun / XPR Motorsports for '450-like torque in a lighter package'; text Kris Keefer, photos Simon Cudby. Gearing 13/51. Note: REP fitted KYB inserts in the fork (replacing the WP AER internals). No part numbers, prices, settings or per-part findings.",
+   "parts": [
+    {
+     "category": "injection",
+     "brand": "XPR Motorsports",
+     "product": "Dual injector kit with Vortex ECU",
+     "part_numbers": [],
+     "purpose": "Power",
+     "observed": null
+    },
+    {
+     "category": "engine",
+     "brand": "XPR Motorsports",
+     "product": "Hand-ported head; exhaust flange",
+     "part_numbers": [],
+     "purpose": "Power",
+     "observed": null
+    },
+    {
+     "category": "exhaust",
+     "brand": "FMF Racing",
+     "product": "4.1 full system",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "handlebar_grips",
+     "brand": "Renthal",
+     "product": "Fatbar 672, Half Waffle soft grips",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "sprockets",
+     "brand": "Renthal",
+     "product": "13T countershaft, 51T black rear",
+     "part_numbers": [],
+     "purpose": "Gearing",
+     "observed": null
+    },
+    {
+     "category": "air_filter",
+     "brand": "Twin Air",
+     "product": "Power-Flow kit and pre-oiled filters",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "suspension",
+     "brand": "REP Suspension",
+     "product": "KYB fork inserts; shock bladder kit",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "tires",
+     "brand": "Dunlop",
+     "product": "MX34 80/100-21 and 110/90-19",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "fuel",
+     "brand": "VP Racing",
+     "product": "MR Pro 6",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "chain",
+     "brand": "DID",
+     "product": "Gold ERT3 chain",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "graphics",
+     "brand": "DeCal Works",
+     "product": "Full graphics kit",
+     "part_numbers": [],
+     "purpose": "Cosmetic",
+     "observed": null
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "KTM 85 SX: no 2025-2027 written test or owner review found. The Vital MX 2025 85 SX 17/14 product guide (https://www.vitalmx.com/product/guide/bikes/ktm/85-sx-1714-17561) has no reviews, only specs (price $6,749; Keihin PWK 28; 13:46 gearing; WP XACT AER 43 fork; 68 kg without fuel; redesigned combustion chamber, airbox and lighter re-tuned suspension listed as features). Dirt Bike's 85 SX test found is a 2018 model (excluded). MX Tech 85SX shock test (2025, MC 85) is already in ktm-rider-feedback.json."
+ ],
+ "not_done": [
+  "Swapmoto Live 2026 450 shootout KTM page (https://swapmotolive.com/2026-450-mx-shootout-in-depth/shootout/2026-mx-shootout/4/) and 2026 KTM 250 SX-F shootout page (https://swapmotolive.com/2026-ktm-250-sx-f-250-shootout-in-depth/shootout/2026-mx-shootout/) failed at the site (client_error); not retried.",
+  "Dirt Rider 2026 Best Motocross Bike pages for the KTM 450 SX-F (3rd) and 250 SX-F (2nd) returned only headline and summary text (no settings or numbers); recorded nothing from them. Dirt Rider dyno pages for the 2026 KTM 450/250 SX-F not fetched.",
+  "Keefer Tested podcast show #505 (2026 KTM 450 SX-F chassis/suspension with Mark Johnson of REP, https://www.keeferinctesting.com/rmatvmc-keefer-tested-show-505-2026-ktm-450-sx-f-chassis-suspension-talk-with-mark-johnson/) and show #468 (2026 KTM 450 Factory Edition review): audio only, no written settings.",
+  "Keefer 2026 KTM 450 Factory Edition Settings/Tips (https://www.keeferinctesting.com/2026-ktm-450-factory-edition-settings-tips/, 2026-09-08), 2026 KTM 450 SX-F Chassis/Suspension Garage Build (https://www.keeferinctesting.com/2026-ktm-450-sx-f-chassis-suspension-garage-build/, 2026-09-21) and Project KTM 450SX-F Stage One video: video only, no text.",
+  "Keefer 'Physical Rehab With The 2026 KTM 150 XC-W' (enduro model, out of scope) not recorded.",
+  "Keefer 2025.5 Husqvarna FC250 Rockstar Edition article and 2026 Optional Renthal Handlebar Bends article: WebFetch refused (permission request not answered in time; URLs came from a fetched listing). Not retried.",
+  "Vital MX forum TSP 'Power Kit Plus' review for a 2022 KTM 125 SX (https://www.vitalmx.com/forums/tech-helprace-shop/ktm-125sx-tsp-power-kit-plus-review) fetched but excluded: 2022 carbureted bike, outside 2025-2027.",
+  "Keefer Tested podcasts with KTM-family content (audio only, no written settings): #464 2026 KTM 350 SX-F review/tips/mods (2026-01-19), #468 2026 KTM 450 FE review, #475 KTM 350 SX-F vs KX450 five mods each (model year not stated), #505, #511. Listed in https://pulpmx.com/apptabs/z_keefer.xml."
+ ]
+}

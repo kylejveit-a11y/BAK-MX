@@ -1,0 +1,925 @@
+{
+ "slice": "Pass 5: rider and tester feedback, 2025-2027 written tests, long-term reports, shootouts and project builds",
+ "feedback": [
+  {
+   "id": "yf5-001",
+   "category": "model_change_note",
+   "brand": "Yamaha (stock)",
+   "product": "2027 YZ250F changes",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2027"
+   },
+   "source_type": "tester",
+   "publication": "PulpMX (Keefer Tested)",
+   "author": "Kris Keefer",
+   "date": "2026-06-03",
+   "conditions": "Details/specs article from Yamaha information before riding; full test planned for early July. No settings given.",
+   "observed": "All-new engine with a 700 rpm higher rev limit, R1-derived rocker arm/finger follower and intake refinements; bore and stroke unchanged (Keefer confirmed). Revised airbox and exhaust for FIM/AMA noise rules. Hydraulic clutch with a disc spring in place of coil springs, primary gear and basket combined in one steel unit. Same aluminium frame as the YZ450F with thinner front downtube and new engine brackets. New KYB shock with hand-adjustable low-speed compression; revised KYB SSS coil fork settings. Smaller rear brake caliper piston, master cylinder piston and rotor. 44 mm Mikuni throttle body. Power Tuner app adds password ECU lock, a Quick Setting slide bar and revised traction and launch control.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://pulpmx.com/?p=179813",
+   "confidence": "medium"
+  },
+  {
+   "id": "yf5-002",
+   "category": "first_ride",
+   "brand": "Yamaha (stock)",
+   "product": "2027 YZ250F global first ride",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2027"
+   },
+   "source_type": "magazine",
+   "publication": "Bike Review (Australia)",
+   "author": "Dan Thomerson",
+   "date": "2026-08-10",
+   "conditions": "Queensland Moto Park, final round of ProMX; track freshly watered early, drying later. Rider weight not stated. Stock bike.",
+   "observed": "Power strong, linear and controllable, more torque rolling on, reduced engine braking (freer off throttle), pulls higher so no need to run it on the limiter. Hydraulic clutch light and smooth, no arm pump over a long day. Fewer shifts needed. Traction control worked well on the wet morning track; launch control held rpm. Chassis planted but not hard to turn; KYB suspension worked 'extremely well' over jumps and rough. Smaller rear disc gave controllable, non-aggressive rear braking. Two maps via left switch (TC map and full power); map values not given. No clickers, sag, gearing or tire pressures stated.",
+   "measured": "Spec claims quoted: rev limit +700 rpm; valve lift 9.6 to 10.22 mm; crank 30 to 32 mm; rear disc 240 to 220 mm (180 g saving); wet weight 107 kg; rake 27 deg, trail 120 mm. Tester ratings: overall 9.3 (engine 9, chassis 9.5, suspension 9.5, brakes 9, ergonomics 9.5).",
+   "other_mods": "None",
+   "url": "https://bikereview.com.au/bike-review-2027-yamaha-yz250f-test-global-first-ride/",
+   "confidence": "medium"
+  },
+  {
+   "id": "yf5-003",
+   "category": "suspension_baseline",
+   "brand": "KYB (stock) / Yamaha Power Tuner",
+   "product": "Baseline suspension settings and optional ECU map",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "PulpMX (Keefer Tested)",
+   "author": "Kris Keefer",
+   "date": "2026-01-06",
+   "conditions": "Baseline for the stock bike. Track, gearing, tire pressure and tester weight not stated; notes the rear feels high for riders under 160 lb. May mirror Keefer Inc ?p=29823 already in yamaha-research.json.",
+   "observed": "Fork: spring 4.7 (unit printed as N/m), height 2 mm below flush, compression 8 out, rebound 6 out. Shock: spring 54 N/mm, sag 105 mm, HSC 1.25 turns out, LSC 9 out, rebound 8 out. Optional map (values shown only as an image, not captured) is said to reduce engine-braking feel and add pull out of corners; traction control must be off when installing and the map position set to his spec.",
+   "measured": null,
+   "other_mods": "None",
+   "url": "https://pulpmx.com/2026/01/06/2026-yamaha-yz250f-baseline-suspension-settings-optional-ecu-map/",
+   "confidence": "high"
+  },
+  {
+   "id": "yf5-004",
+   "category": "suspension_baseline",
+   "brand": "KYB (stock) / Yamaha Power Tuner",
+   "product": "East and West Coast baseline suspension and ECU settings",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-03-06",
+   "conditions": "Stock bike ridden in Georgia (East) and California (West); tracks, rider weight, gearing and tire pressure not stated.",
+   "observed": "East (soft, deep ruts): fork 5.0 N/mm, height flush-1 mm, comp 8 out, reb 11 out; shock 56 N/mm, sag 106 mm, LSC 11 out, HSC 1-1/4 turns, reb 12 out. Longer front and stiffer compression helped balance off throttle into soft ruts; if the track firms up, back LSC out a couple of clicks on each end; leave the faster-than-stock rebound alone (tracks the ground better). West: fork 5.0 N/mm, flush, comp 10 out, reb 12 out; shock 56 N/mm, sag 104 mm, LSC 14 out, HSC 1-1/8 to 1-1/4, reb 13 out; flush fork helps the front track, the most comfortable stock setup he found; recommends a Dunlop MX3SF front for more bite. One ECU map (screenshot only, values not captured) for both coasts gives a freer feel and better throttle response.",
+   "measured": null,
+   "other_mods": "None",
+   "url": "https://www.keeferinctesting.com/2026-yamaha-yz450f-east-and-west-coast-baseline-suspension-ecu-settings/",
+   "confidence": "high"
+  },
+  {
+   "id": "yf5-005",
+   "category": "shootout_note",
+   "brand": "KYB (stock)",
+   "product": "Vital MX 2026 450 shootout, YZ450F (2nd)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Vital MX",
+   "author": "Michael Lindsay (ML512)",
+   "date": "2025-11-20",
+   "conditions": "Four days: Cahuilla Creek x2, Perris Raceway, Fox Raceway. Lindsay 200 lb 30+ Expert, Tokarski 175 lb Pro, Santos 185 lb 25+ Pro. Race Tech dyno same day.",
+   "observed": "Second (11 points). Chassis the highlight; fork hurt comfort and front traction (Lindsay); strong engine, class-leading ergonomics, dead spot in fork mid-stroke (Tokarski). Stock rear sprocket went from 49 to 51T for 2026: better low-end pull, shorter second gear. Lindsay raised the forks a few mm, opened fork compression, slowed rebound slightly. Tokarski: fork height 2 to 5 mm, fork comp 4 clicks softer, reb 2 slower; shock HSC 1/4 turn softer, reb 2 slower, LSC 2 stiffer. Santos: raising and softening the front noticeably improved handling. Tire pressure not reported.",
+   "measured": "53.62 hp @ 9,500 rpm; 33.0 ft-lb @ 7,400 rpm; 118/126/244 lb full tank.",
+   "other_mods": "None",
+   "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+   "confidence": "high"
+  },
+  {
+   "id": "yf5-006",
+   "category": "suspension_baseline",
+   "brand": "KYB (stock)",
+   "product": "2026 250 MX baseline settings: YZ250F",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-06-10",
+   "conditions": "Multi-brand baseline. Rear feels high for riders under 160 lb (soften HSC for them). Tracks and maps not stated.",
+   "observed": "2026 unchanged; the 2025 got beefier valving and new linkage so the shock spring went from 56 to 54 N/mm. The fork still rises too quickly through corners, causing front-end washout; slowing fork and shock rebound calmed the chassis. Fork: 4.7 N/mm, height 3 mm, compression 8 out, rebound 5-6 out. Shock: 54 N/mm, sag 105 mm, HSC 1.25 turns out, LSC 9 out, rebound 8 out.",
+   "measured": null,
+   "other_mods": "None",
+   "url": "https://www.keeferinctesting.com/2026-250-mx-baseline-suspension-settings/",
+   "confidence": "high"
+  },
+  {
+   "id": "yf5-007",
+   "category": "suspension_baseline",
+   "brand": "KYB (stock)",
+   "product": "2026 450 MX baseline settings: YZ450F",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-03-30",
+   "conditions": "Multi-brand baseline; rider weight, track and map not stated.",
+   "observed": "Intended to add feel to a bike he still describes as firm. Fork: 5.0 N/mm, height flush-2 mm, compression 9 out, rebound 10 out. Shock: 56 N/mm, sag 105 mm, LSC 12 out, HSC 1.5 turns out, rebound 10-11 out. (Same values as Keefer ?p=29670 already in yamaha-research.json.)",
+   "measured": null,
+   "other_mods": "None",
+   "url": "https://www.keeferinctesting.com/2026-450-mx-baseline-suspension-settings/",
+   "confidence": "high"
+  },
+  {
+   "id": "yf5-008",
+   "category": "suspension_baseline",
+   "brand": "KYB (stock)",
+   "product": "2025 450 MX baseline: YZ450F",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-01-08",
+   "conditions": "Multi-brand baseline; no weight or track guidance.",
+   "observed": "Fork: 5.0 N/mm, height 2 mm, compression 12 out, rebound 9 out. Shock: 56 N/mm, sag 105 mm, LSC 11 out, HSC 1.25-1.5 turns out, rebound 10 out.",
+   "measured": null,
+   "other_mods": "None",
+   "url": "https://www.keeferinctesting.com/2025-450-mx-baseline-suspension-settings/",
+   "confidence": "high"
+  },
+  {
+   "id": "yf5-009",
+   "category": "suspension_baseline",
+   "brand": "KYB (stock) / Works Connection",
+   "product": "2025 YZ450F baseline settings, tips and maps",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2024-09-03",
+   "conditions": "Rider weight and track not stated; prefers the engine on west-coast tracks. May be the same article as Keefer ?p=28255/28578 in yamaha-research.json under its slug URL.",
+   "observed": "2025 shock spring 56 N/mm (2024: 58). Fork pressure spring free length 107 to 112 mm, preload 2 to 7 mm; new delta rebound shim and beefier valving reduce pitching. Fork: height 2 mm, compression 8 out, rebound 10. Shock: sag 105 mm, LSC 11 out, HSC 1.5 out, rebound 12. New linkage stiffer through the stroke with better holdup on acceleration; fitting it to a 2024 needs a lighter spring and revalve. One-piece 8 mm lower engine mount (2024: two-piece 4 mm) adds front-end feel; swapping may need fork clicker and sag changes. Optional Power Tuner map (values not in text) smooths delivery and improves rear traction on exits; map and TC changes can reduce power late in motos. Works Connection footpeg mounts for riders who struggle to stand on the stock mounts.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2025-yamaha-yz450f-baseline-suspension-settings-tips-maps/",
+   "confidence": "high"
+  },
+  {
+   "id": "yf5-010",
+   "category": "first_ride",
+   "brand": "KYB (stock) / Dunlop",
+   "product": "2027 YZ450F test: changes, findings, pressure spring and tire tips",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2027"
+   },
+   "source_type": "tester",
+   "publication": "PulpMX (Keefer Tested)",
+   "author": "Kris Keefer",
+   "date": "2026-10-08",
+   "conditions": "Tester weight not stated; rough and rutted conditions referenced at Glen Helen. Sag, clickers, fork height, maps, gearing and tire pressure not given; advises setting sag first and changing one thing at a time.",
+   "observed": "2027 changes vs 2026: rear rotor 240 to 220 mm, smaller rear caliper and master-cylinder pistons, revised hose and rotor bolts (180 g claimed saving); softer fork valving with more oil; updated shock adjuster for comfort; softer hydraulic clutch hose with more expansion. Engine, frame, clutch and suspension otherwise carried over. Clutch engagement more consistent than 2026 with better lever feel (he still prefers cable). Chassis calmer than 2026; holds lines in ruts, needs coaxing in open corners. Stock fork can feel soft initially then ramps deep in the stroke. Recommends the older, shorter pressure spring ('22 N/m and 107 mm long') with the 2027 valving to calm the fork and improve tire contact (the fetched text places it under the shock; in his 2025 article the 107 mm pressure spring is a fork part). Recommends a Dunlop MX3S front in place of the stock MX33, which he says doesn't build confidence. Tomita map to be posted later (not provided). Owners of a clean 2026 need not upgrade.",
+   "measured": null,
+   "other_mods": "None",
+   "url": "https://pulpmx.com/2026/10/08/2027-yamaha-yz450f-tested-better-but-how-much-better/",
+   "confidence": "medium"
+  },
+  {
+   "id": "yf5-011",
+   "category": "first_ride",
+   "brand": "Yamaha (stock) / Power Tuner",
+   "product": "2027 YZ250F review with Free Rev map",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2027"
+   },
+   "source_type": "magazine",
+   "publication": "Cycle News",
+   "author": "Ryan Nitzen",
+   "date": "2026-09-11",
+   "conditions": "ClubMX, Chesterfield SC (outdoor and sand tracks). Tester weight and tire pressure not stated. Stock Dunlop MX33 tires.",
+   "observed": "Settings: forks softened two clicks (circuit not stated), shock unchanged, sag 105 mm, 'Free Rev' map loaded via Power Tuner (quicker pickup bottom to mid, removes most engine braking). Yamaha claims 6 dB quieter to meet the AMA 109 dB rule. Starts instantly cold. Gear ratios feel longer; power strongest mid to top. More stable at speed while still nimble. Muffler longer and angled down 1.6 deg; bike gained about 3 lb, mostly muffler. Disliked the footpeg shape and the hard, round seat.",
+   "measured": "MSRP $9,099; claimed wet weight 236 lb; rear disc 220 mm.",
+   "other_mods": "None",
+   "url": "https://www.cyclenews.com/2026/09/article/2027-yamaha-yz250f-review/",
+   "confidence": "medium"
+  },
+  {
+   "id": "yf5-012",
+   "category": "dyno_test",
+   "brand": "HGS (exhaust); head and CDI brands not named",
+   "product": "Stock vs modded dyno: higher-compression head, CDI change, HGS exhaust",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250",
+    "year": "2026"
+   },
+   "source_type": "forum",
+   "publication": "Vital MX forum",
+   "author": "Tokyo_Tiddler",
+   "date": "2026-07-02",
+   "conditions": "Forum post comparing a 2026 Beta 250 RX and a 2026 YZ250 on the dyno; jetting not stated; per-mod contributions not broken out.",
+   "observed": "Mods: higher-compression cylinder head, CDI change, HGS exhaust (HGS on the YZ only).",
+   "measured": "Stock 43.7 hp / 31.3 ft-lb; modded 47.5 hp / 34.4 ft-lb.",
+   "other_mods": null,
+   "url": "https://www.vitalmx.com/forums/moto-related/2026-beta-250-rx-vs-2026-yamaha-yz-250-dyno-tests-stock-and-modded",
+   "confidence": "low"
+  },
+  {
+   "id": "yf5-013",
+   "category": "first_ride",
+   "brand": "KYB (stock) / GYTR / FMF / Dunlop",
+   "product": "10 things about the 2027 YZ250F: settings and recommended parts",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2027"
+   },
+   "source_type": "tester",
+   "publication": "PulpMX (Keefer Tested)",
+   "author": "Kris Keefer",
+   "date": "2026-08-26",
+   "conditions": "Club MX, good traction; 185 lb tester running stiffer than stock. Rode a 2026 on the same track the week before (no back-to-back). Fork height, map values and tire pressure not given.",
+   "observed": "No loss of bottom end, strong pull in second, rev limit +700 rpm, third gear feels shorter than 2026. Felt lighter and more planted in corners. Hydraulic clutch smoother and less on/off than the YZ450F's. Less fore/aft pitching, good comfort at the end of the stroke. Rear brake change not noticeable. Settings used: fork '+2' stiffer for larger jump landings, shock sag 102 (mm), shock LSC '+2 stiffer', gearing 13/49 (not stated whether stock). Replace the stock Dunlop MX33 front immediately with an MX3S or MX54. Preferred the closed 2027 airbox cover over the holed GYTR cover for sound; suggests the larger GYTR airbox with the closed cover and an FMF slip-on for more midrange with less noise.",
+   "measured": "Claimed 236 lb wet; MSRP $9,099 ($9,299 Monster Energy Edition).",
+   "other_mods": "None during test",
+   "url": "https://pulpmx.com/2026/08/26/10-things-you-need-to-know-about-the-2027-yamaha-yz250f",
+   "confidence": "medium"
+  },
+  {
+   "id": "yf5-014",
+   "category": "model_change_note",
+   "brand": "Yamaha (stock)",
+   "product": "2027 YZ450F and YZ450FX changes",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F / YZ450FX",
+    "year": "2027"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2026-06-03",
+   "conditions": "First look from Yamaha information; no riding. (Keefer's 2027 YZ450F test lists rear brake, fork valving, shock adjuster and clutch hose changes that this first look does not.)",
+   "observed": "YZ450F: graphics only per MXA, $10,299. YZ450FX: smoother power with more low-mid torque, new 51T rear sprocket, hydraulic clutch with about 15% lighter pull, YZ450F-derived frame updates and revised engine brackets, KYB tuned for comfort, Dunlop Geomax AT82 tires, $10,499. No mention of 2027 YZ125/YZ250/YZ250FX.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/first-look-2027-yamaha-yz450f-yz450fx/",
+   "confidence": "medium"
+  },
+  {
+   "id": "yf5-015",
+   "category": "fuel_injection",
+   "brand": "XPR Motorsports",
+   "product": "Dual injector kit with Vortex ECU (pre-programmed XPR maps)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "PulpMX (Keefer Tested)",
+   "author": "Kris Keefer",
+   "date": "2025-04-30",
+   "conditions": "Keefer's 2025 YZ250F top-mods list; rider weight and track not stated. Suspension mods deliberately omitted.",
+   "observed": "More bottom-end pull, rpm response and top-end over-rev than stock; better third-gear roll-on and lugging. He says the stock bike has lost some low-end torque feel since 2022, and the kit is more noticeable than the GYTR head/piston kit. Owners with a Vortex can send it to XPR for tuning.",
+   "measured": "Kit without ECU $945.99; dual injector + Vortex + Twin Air Powerflow bundle $2,310.00.",
+   "other_mods": "Twin Air Powerflow kit (bundle)",
+   "url": "https://pulpmx.com/2025/04/30/top-2025-yamaha-yz250f-mods/",
+   "confidence": "medium"
+  },
+  {
+   "id": "yf5-016",
+   "category": "exhaust_test",
+   "brand": "FMF",
+   "product": "4.1 slip-on muffler",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "PulpMX (Keefer Tested)",
+   "author": "Kris Keefer",
+   "date": "2025-04-30",
+   "conditions": "Keefer's 2025 YZ250F top-mods list; rider weight and track not stated. Suspension mods deliberately omitted.",
+   "observed": "Throatier sound, more mid and top pull, over a pound lighter than stock. Without the insert the bike loses bottom end (less back pressure) - keep the spark arrestor insert in; with the screen it can be trail legal. Repack every 10 hours.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://pulpmx.com/2025/04/30/top-2025-yamaha-yz250f-mods/",
+   "confidence": "medium"
+  },
+  {
+   "id": "yf5-017",
+   "category": "air_filter",
+   "brand": "Twin Air",
+   "product": "Powerflow filter kit",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "PulpMX (Keefer Tested)",
+   "author": "Kris Keefer",
+   "date": "2025-04-30",
+   "conditions": "Keefer's 2025 YZ250F top-mods list; rider weight and track not stated. Suspension mods deliberately omitted.",
+   "observed": "Aluminium cage replaces the plastic cage, removes the backfire screen and adds a filter bracket. Better sealing, more throttle response and more bottom-end pull. Without the screen dirt gets into the boot more easily: shop-vac, lean the bike over when changing filters, oil properly.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://pulpmx.com/2025/04/30/top-2025-yamaha-yz250f-mods/",
+   "confidence": "medium"
+  },
+  {
+   "id": "yf5-018",
+   "category": "seat",
+   "brand": "GUTS Racing",
+   "product": "'Wide Top' seat foam (stock height)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "PulpMX (Keefer Tested)",
+   "author": "Kris Keefer",
+   "date": "2025-04-30",
+   "conditions": "Keefer's 2025 YZ250F top-mods list; rider weight and track not stated. Suspension mods deliberately omitted.",
+   "observed": "Squarer foam gives more support at the seat edges and fewer seat-pan hits under load; taller versions available.",
+   "measured": "$99.99",
+   "other_mods": null,
+   "url": "https://pulpmx.com/2025/04/30/top-2025-yamaha-yz250f-mods/",
+   "confidence": "medium"
+  },
+  {
+   "id": "yf5-019",
+   "category": "seat",
+   "brand": "Seat Concepts",
+   "product": "Race 2.0 complete seat",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "PulpMX (Keefer Tested)",
+   "author": "Kris Keefer",
+   "date": "2025-04-30",
+   "conditions": "Keefer's 2025 YZ250F top-mods list; rider weight and track not stated. Suspension mods deliberately omitted.",
+   "observed": "OEM height, width and shape with their foam; foam held up about 25 engine hours (left on during washing); cover loses some grip over time but pleats still give traction.",
+   "measured": "$349.99",
+   "other_mods": null,
+   "url": "https://pulpmx.com/2025/04/30/top-2025-yamaha-yz250f-mods/",
+   "confidence": "medium"
+  },
+  {
+   "id": "yf5-020",
+   "category": "controls",
+   "brand": "Works Connection",
+   "product": "Elite throttle tube",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "PulpMX (Keefer Tested)",
+   "author": "Kris Keefer",
+   "date": "2025-04-30",
+   "conditions": "Keefer's 2025 YZ250F top-mods list; rider weight and track not stated. Suspension mods deliberately omitted.",
+   "observed": "Bearing and bushing give smoother action; thinner and smaller diameter than G2 or ZRT tubes, which he found more comfortable. Check the lettered cams are not reversed; use the two supplied O-rings on larger-ID bars such as Renthal Twinwall; cut 0.5 in off the right bar end to keep the same bend length.",
+   "measured": "$74.95",
+   "other_mods": null,
+   "url": "https://pulpmx.com/2025/04/30/top-2025-yamaha-yz250f-mods/",
+   "confidence": "medium"
+  },
+  {
+   "id": "yf5-021",
+   "category": "fuel_system",
+   "brand": "XPR Motorsports",
+   "product": "'No Kinky' gas cap vent elbow",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "PulpMX (Keefer Tested)",
+   "author": "Kris Keefer",
+   "date": "2025-04-30",
+   "conditions": "Keefer's 2025 YZ250F top-mods list; rider weight and track not stated. Suspension mods deliberately omitted.",
+   "observed": "Rotates 360 deg so the vent hose does not kink when the seat's front fastener presses on it, preventing a vacuum-related shut-off while riding.",
+   "measured": "$44.95",
+   "other_mods": null,
+   "url": "https://pulpmx.com/2025/04/30/top-2025-yamaha-yz250f-mods/",
+   "confidence": "medium"
+  },
+  {
+   "id": "yf5-022",
+   "category": "race_report",
+   "brand": "Yamaha (stock) / Keefer map",
+   "product": "World Vet race test with 'Keefer Torquey Free Feel' map and stiffer fork compression",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Keefer Inc test rider (byline Kris Keefer)",
+   "date": "2024-11-10",
+   "conditions": "Glen Helen, Dubya World Vets, early November 2024; about 180 lb Vet B rider. Stock bike except fork compression 3 clicks stiffer and the Keefer 'Torquey Free Feel' map. Sag 108 mm (against Keefer's advice). Fork height, shock clickers, gearing and tire pressure not stated.",
+   "observed": "Added fork compression cured bottoming on a high-speed tabletop; comfortable on long downhill braking bumps when ridden a gear high; planted in sand whoops with no push. Hard to keep leaned in slow corners and ruts, which he partly blames on the 108 mm sag. Low end not as strong as he remembers on the 2022, top end better and revs quickly. Chassis felt stiffer than the 2022-2023. Pegs felt high versus a CRF250R. Exhaust loud and gets louder with hours.",
+   "measured": null,
+   "other_mods": "None",
+   "url": "https://www.keeferinctesting.com/2025-yamaha-yz250f-world-vet-race-test/",
+   "confidence": "medium"
+  },
+  {
+   "id": "yf5-023",
+   "category": "intake",
+   "brand": "Race Tech",
+   "product": "Hi Performance Airboot (functional prototype) for 2024-2026 YZ250F",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "PulpMX (Keefer Tested)",
+   "author": "Kris Keefer",
+   "date": "2025-10-21",
+   "conditions": "2025 YZ250F with stock ECU and a map (shown as an image, values not captured); airbox cover modified; over 20 hours of use. Rider weight and tracks not stated.",
+   "observed": "Restored some of the 2022 model's torque feel out of corners, better midrange pull, holds second longer, more torque out of deep ruts. Expects more low end and over-rev with a Vortex ECU (not reported in detail). Uses the stock boot mounting ring but the air temp sensor must be moved over and the stock airbox cover modified; best with matching fuel delivery. No problems in 20+ hours; no drawbacks listed.",
+   "measured": "Race Tech claims 4% more power on the dyno (without the cover mod). Price $450.00.",
+   "other_mods": "Modified airbox cover; map",
+   "url": "https://pulpmx.com/2025/10/21/race-tech-airboot-for-2024-2026-yz250f/",
+   "confidence": "medium"
+  },
+  {
+   "id": "yf5-024",
+   "category": "exhaust_test",
+   "brand": "Pro Circuit",
+   "product": "Ti-6 BC Pro exhaust for 2026-2027 YZ450F",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2027"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-10-17",
+   "conditions": "Tested on a 2027 YZ450F; map, track, rider weight, part number and price not stated.",
+   "observed": "Bottom end (about 5-15% throttle) more connected to the rear wheel with smoother roll-on; second gear pulls longer; third gear and top end/over-rev same as stock. Could get on the gas sooner out of corners with a more planted rear. Improves how existing power is used rather than adding peak power. Quieter than expected but keeps a racy note. No downsides listed.",
+   "measured": null,
+   "other_mods": "Not stated",
+   "url": "https://www.keeferinctesting.com/pro-circuit-ti-6-bc-pro-review-2026-2027-yamaha-yz450f/",
+   "confidence": "medium"
+  },
+  {
+   "id": "yf5-025",
+   "category": "chassis",
+   "brand": "Yamaha (stock)",
+   "product": "2026 450 MX recommended chassis lengths: YZ450F (two options)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-06-23",
+   "conditions": "Stock offset; ranges keep stock stability without losing cornering. Chain length not given.",
+   "observed": "Option 1: 13/51, fork flush, wheelbase 1482-1490 mm, swingarm length 580-588 mm. Option 2: 13/50, fork flush, wheelbase 1482-1488 mm, swingarm length 582-584 mm.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2026-450-mx-recommended-chassis-lengths/",
+   "confidence": "high"
+  },
+  {
+   "id": "yf5-026",
+   "category": "chassis",
+   "brand": "Yamaha (stock)",
+   "product": "2026 250 MX recommended chassis lengths: YZ250F",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-07-07",
+   "conditions": "Range allows for normal part changes while keeping stock balance.",
+   "observed": "13/49 gearing (listed as a change that may help this brand), fork flush, wheelbase 1482-1490 mm, swingarm length 580-588 mm.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2026-250mx-recommended-chassis-lengths/",
+   "confidence": "high"
+  },
+  {
+   "id": "yf5-027",
+   "category": "ecu_map",
+   "brand": "Yamaha R&D (Power Tuner)",
+   "product": "'Tomita' optional map for 2026-2027 YZ450F",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2026-2027"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-10-08",
+   "conditions": "Map supplied by Yamaha R&D after Keefer asked for a slower spool-up delivery; values shown only as an image (not captured).",
+   "observed": "Builds power more slowly for a more gradual pull through bottom and mid; offered for riders wanting that delivery on a 2026 or 2027 YZ450F.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2026-2027-yamaha-yz450f-optional-power-tuner-map/",
+   "confidence": "medium"
+  },
+  {
+   "id": "yf5-028",
+   "category": "suspension_setup",
+   "brand": "KYB (stock) / Yamaha Power Tuner",
+   "product": "2026 YZ450F first impressions: stock vs Vital settings",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Vital MX",
+   "author": "Steven Tokarski",
+   "date": "2025-09-22",
+   "conditions": "180 lb ex-pro (former Yamaha developer); Fox Raceway, Cahuilla Creek, Glen Helen. Tire pressure not stated.",
+   "observed": "Quieter, smoother and less aggressive low-mid with weaker low-rpm pull; better front-end contact, calmer and more compliant chassis; fork stiffer mid-stroke than expected and poor on small-to-medium bumps, fork and shock feel unbalanced. Wide hydraulic clutch engagement (still prefers cable). Final settings (stock | Vital): fork comp 12 | 16 out, fork reb 9 | 5 out, fork height 2 | 5 mm, shock HSC 1-1/4 | 1-1/2 turns, LSC 8 | 7 out, rebound 10 | 8 out, sag 105 | 107 mm. Stock rear sprocket now 51 (was 49). New 'TP' Power Tuner map targeting the second-to-third area helped but could be better. Planned to remove 5 cc oil per fork leg (untested). Suggests a taller or square aftermarket seat and a Cycra front number plate.",
+   "measured": null,
+   "other_mods": "None",
+   "url": "https://www.vitalmx.com/features/2026-yamaha-yz450f-first-impressions-and-review",
+   "confidence": "high"
+  },
+  {
+   "id": "yf5-029",
+   "category": "first_ride",
+   "brand": "KYB (stock) / Yamaha Power Tuner",
+   "product": "2026 YZ450F review (settings from Yamaha test rider Travis Preston)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Cycle News",
+   "author": "Ryan Nitzen",
+   "date": "2025-11-02",
+   "conditions": "Cahuilla Creek MX; rider weight, fork height, sag and tire pressure not stated.",
+   "observed": "Smoother, more manageable, mellower engine than 2025; cleaner fueling and quieter intake. More planted at speed, combining '23+ turning with '22 stability. Hydraulic clutch feels nearly the same as cable. Main complaint: footpeg mounts stick out so he stood on them. Settings: fork compression four clicks softer and rebound two in (from Preston's preferred setting), shock compression one click in, HSC 1/4 turn out, more aggressive Power Tuner map. 2026 changes listed include resonators on airbox and header, angled shorter muffler, new flywheel, 49 to 51T rear sprocket, thinner down tube and engine mounts, new KYB shock with larger piston and tool-less clicker, password ECU lock.",
+   "measured": "Claimed 243 lb wet (+1 lb); MSRP $10,299. Reviewer was told it makes slightly less power than 2025 (not dyno tested).",
+   "other_mods": "None",
+   "url": "https://www.cyclenews.com/2025/11/article/2026-yamaha-yz450f-review/",
+   "confidence": "medium"
+  },
+  {
+   "id": "yf5-030",
+   "category": "suspension_part_test",
+   "brand": "Art Of War",
+   "product": "Billet aluminium fork lugs (installed with revalve)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-06-15",
+   "conditions": "Read from the Keefer Inc suspension RSS feed content (https://www.keeferinctesting.com/category/hardparts/suspension/feed/). Revalved KYB with stock spring rates, sag 104 mm, fork height 2 mm. Rider weight and track not stated in the feed text.",
+   "observed": "The revalve alone was more balanced than stock with better front traction; adding the billet lugs gave better bump comfort, better fork action and more front-tire grip at lean than the revalved fork alone, and he could run the shock slightly softer. Fits 2018-2025 YZ250F/YZ450F, designed for 2023-2025 YZ450F; forks are sent to Art Of War, which installs the lugs free with a revalve or rebuild; limited supply.",
+   "measured": "$800",
+   "other_mods": "Revalved KYB fork and shock",
+   "url": "https://www.keeferinctesting.com/art-of-war-billet-fork-lugs-review-2025-yz450f/",
+   "confidence": "medium"
+  }
+ ],
+ "builds": [
+  {
+   "id": "yb5-001",
+   "title": "This Week in MXA: we built a factory-level Pro Circuit YZ250 two-stroke",
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250",
+    "year": "2026"
+   },
+   "publication": "Motocross Action (MXA)",
+   "date": "2026-04-02",
+   "url": "https://motocrossactionmag.com/this-week-in-mxa-with-josh-mosiman-we-built-a-factory-level-pro-circuit-yz250-two-stroke/",
+   "notes": "Engine built to match Ken Roczen's 2022 Straight Rhythm YZ250 and Ryan Villopoto's 2024 Two-Stroke World Championship bike. No test results, settings or part numbers in the text.",
+   "parts": [
+    {
+     "category": "engine",
+     "brand": "Pro Circuit",
+     "product": "Head and cylinder mods, labor, gaskets",
+     "part_numbers": [],
+     "purpose": "Performance",
+     "observed": null,
+     "price": "Engine package about $1,500 (includes piston and clutch cover)"
+    },
+    {
+     "category": "piston",
+     "brand": "Wiseco",
+     "product": "Piston",
+     "part_numbers": [],
+     "purpose": "Engine build",
+     "observed": null
+    },
+    {
+     "category": "clutch_cover",
+     "brand": "Pro Circuit",
+     "product": "Billet clutch cover",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "reed_valve",
+     "brand": "MotoTassinari",
+     "product": "V-Force4X reed valve",
+     "part_numbers": [],
+     "purpose": "Performance",
+     "observed": null,
+     "price": "$165"
+    },
+    {
+     "category": "exhaust",
+     "brand": "Pro Circuit",
+     "product": "Champ Stamp pipe and R-304 silencer",
+     "part_numbers": [],
+     "purpose": "Performance",
+     "observed": null,
+     "price": "Pipe $384.95; silencer $206.29"
+    },
+    {
+     "category": "suspension",
+     "brand": "KYB / Pro Circuit",
+     "product": "Stock KYB revalved by Pro Circuit",
+     "part_numbers": [],
+     "purpose": "Performance",
+     "observed": null,
+     "price": "Just under $900"
+    }
+   ]
+  },
+  {
+   "id": "yb5-002",
+   "title": "2025 Yamaha YZ250 Garage Build",
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250",
+    "year": "2025"
+   },
+   "publication": "Racer X",
+   "date": "2025-07-16",
+   "url": "https://racerxonline.com/2025/07/16/2025-yamaha-yz250-garage-build",
+   "notes": "Built by Eddie Laret; text Kris Keefer, photos Simon Cudby. No part numbers, prices, settings, jetting, tire pressures or per-part findings.",
+   "parts": [
+    {
+     "category": "clutch",
+     "brand": "Hinson Racing",
+     "product": "Inner hub, pressure plate, clutch plates, clutch cover",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "exhaust",
+     "brand": "Pro Circuit",
+     "product": "Works pipe, Blue Carbon R-304 Shorty silencer",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "reed_valve",
+     "brand": "Moto Tassinari",
+     "product": "V-Force4X",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "handlebar_grips_sprockets",
+     "brand": "Renthal",
+     "product": "Twinwall 996 bars, Full Waffle soft grips, 50T blue rear sprocket",
+     "part_numbers": [],
+     "purpose": "Comfort/gearing",
+     "observed": null
+    },
+    {
+     "category": "suspension",
+     "brand": "REP Suspension",
+     "product": "Fork and shock revalve/respring",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "air_filter",
+     "brand": "Twin Air",
+     "product": "Replacement filters",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "tires",
+     "brand": "Dunlop",
+     "product": "MX34 80/100-21 and 120/90-19",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "controls",
+     "brand": "Works Connection",
+     "product": "Elite axle blocks, Pro-Launch start device, clutch perch and lever",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "protection",
+     "brand": "Lightspeed Carbon",
+     "product": "Skid plate, chain block, case saver, rear caliper guard",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "graphics_seat",
+     "brand": "Throttle Syndicate",
+     "product": "Custom graphics and seat cover",
+     "part_numbers": [],
+     "purpose": "Cosmetic",
+     "observed": null
+    }
+   ]
+  },
+  {
+   "id": "yb5-003",
+   "title": "2025 Yamaha YZ450F Garage Build (Twisted Development RP throttle body)",
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2025"
+   },
+   "publication": "Racer X",
+   "date": "2025-02-28",
+   "url": "https://racerxonline.com/2025/02/28/2025-yamaha-yz450f-garage-build",
+   "notes": "Built by Twisted Development (Jamie Ellis); text Kris Keefer, photos Simon Cudby. Stated goal: see whether the dual-injected RP throttle body smooths the YZ450F's power delivery; result not in the text (video only). Gearing 13/49. No part numbers, prices or settings.",
+   "parts": [
+    {
+     "category": "throttle_body",
+     "brand": "Twisted Development",
+     "product": "RP throttle body kit (dual injection) with Vortex ECU and mounting hardware",
+     "part_numbers": [],
+     "purpose": "Smoother power delivery (goal)",
+     "observed": null
+    },
+    {
+     "category": "exhaust",
+     "brand": "Akrapovic",
+     "product": "Evolution full system",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "tires",
+     "brand": "Dunlop",
+     "product": "MX3S 80/100-21 front, MX14 120/80-19 rear",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "handlebar_grips_sprockets",
+     "brand": "Renthal",
+     "product": "672 Fatbar, Half Waffle soft grips, 13T front, 49T rear",
+     "part_numbers": [],
+     "purpose": "Comfort/gearing",
+     "observed": null
+    },
+    {
+     "category": "seat",
+     "brand": "Seat Concepts",
+     "product": "Full custom seat",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "suspension",
+     "brand": "REP Suspension",
+     "product": "Fork and shock revalve/respring; full linkage kit (knuckle and pull rods)",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "air_filter",
+     "brand": "Twin Air",
+     "product": "PowerFlow kit",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "fuel",
+     "brand": "VP Racing Fuels",
+     "product": "T4",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "plastics",
+     "brand": "Polisport",
+     "product": "Full blue plastic kit and foldable stand",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    }
+   ]
+  }
+ ],
+ "gaps": [],
+ "not_done": [
+  "MotoOnline 2027 YZ250F overview (https://www.motoonline.com/us/overview-2027-yamaha-yz250f-test-2/) fetched: names tester Caleb Tennant at ClubMX but the page text held no findings or settings (video only).",
+  "Dirt Bike 2026 YZ125 vs YZ250 (https://dirtbikemagazine.com/2026-yamaha-yz125-versus-yz250-two-strokes/, Travis Fant, 2026-06-25, Cahuilla) fetched: text says only that both are unchanged for 2026; details are in the video. Not recorded.",
+  "Dirt Bike Test first ride 2026 YZ250FX (https://dirtbiketest.com/fresh-dirt/first-ride-2026-yamaha-yz250fx/) is video only; no text findings.",
+  "Keefer 'YZ250 Pipe/Silencer Shootout' (https://www.keeferinctesting.com/yz250-pipe-silencer-shootout/, 2026-10-07) and 'Pro Circuit RV2 Champ Works Pipe (Yamaha YZ250)' (https://www.keeferinctesting.com/pro-circuit-rv2-champ-works-pipe-yamaha-yz250/, 2026-04-03): video only, no text results.",
+  "Keefer 2027 YZ450F First Ride (https://www.keeferinctesting.com/2027-yamaha-yz450f-first-ride/), 'Is The 2027 Yamaha YZ250F Best In Class?' and 2027 CRF450R vs YZ450F comparison parts one and two: video only per the site feed; podcast shows #509 (2027 YZ450F settings) and #510 (2027 YZ250F west coast) audio only.",
+  "Keefer 'How Does Billet Aluminum Fork Lugs Affect The Yamaha YZ450F?' (2026-07-09) and 'Top Chassis/Engine Mods For 23-25 Yamaha YZ450F' (2025-04-22): video only. Keefer Tested podcasts with Yamaha content (audio only): #452 recently tested parts incl. YZ250F Yoshimura and Akrapovic exhaust tests, #459 2026 modified KX450 vs YZ450F, #462 2026 YZ250F setup, #465 2026 YZ250 two-stroke mods and jetting, #503 2027 YZ250F incl. GYTR airbox test, #509, #510."
+ ]
+}

@@ -1,0 +1,871 @@
+{
+ "slice": "Triumph TF pass 5: aftermarket brands and rider/tester feedback (2024-2027)",
+ "products": [
+  {
+   "id": "tf5-xtrig-rocs-kit-m12-250",
+   "category": "chassis",
+   "subcategory": "triple clamps",
+   "brand": "X-Trig",
+   "product": "ROCS Kit M12 Triple Clamps (Triumph TF 250-X 24)",
+   "part_numbers": [
+    "XT-40601005"
+   ],
+   "variants": "Red; offset not listed on the page (a separate 'Fixed Offset 22mm' steering plate product is shown)",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 250-X",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Triumph TF 250 X 2024 / 2025 / 2026"
+    }
+   ],
+   "fitment_source_url": "https://www.motostorm.it/en/offroad/mx-plastics/xtrig-triple-clamps-rocs-kit-m12-triumph-tf-250-x-24.html",
+   "what_it_changes": "Seller copy: ROCS opposing split clamps to improve stability and the fork's bending line, round clamping area under load, resists fork-leg rotation, independent preload per pinch bolt.",
+   "supporting_parts": "Bar mounts not stated (X-Trig PHDS sold separately).",
+   "where_to_buy": [
+    {
+     "seller": "Motostorm (IT)",
+     "url": "https://www.motostorm.it/en/offroad/mx-plastics/xtrig-triple-clamps-rocs-kit-m12-triumph-tf-250-x-24.html",
+     "price_if_stated": 595.16,
+     "currency": "EUR",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [
+    "tf5f-001"
+   ],
+   "caveats": "May be the same clamp family as the existing record tf-xtrig-rocs-tech (no part number there). Maker page (xtrig.de) not read. Price includes VAT; EUR 487.84 ex-VAT for non-EU. Keefer tested the ROCS Tech on a TF 450-RC; whether this 250-X SKU also fits the 450 is not stated on this page.",
+   "confidence": "medium"
+  },
+  {
+   "id": "tf5-get-sx1pro-triumph",
+   "category": "ecu",
+   "subcategory": "plug-and-play ECU",
+   "brand": "GET (Athena)",
+   "product": "SX1 PRO ECU for Triumph TF",
+   "part_numbers": [],
+   "variants": "Enduro kit sold without SX1 Controller and SX1 Connect (Enduro21); other SX1 Pro kits include them. Accessories named for Triumph: SX1 CONNECT WiFi dongle GET-GK-CONNECT-0001, SX1 CONTROLLER map switch GET-GK-CONTROL-0001 (Transmoto)",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 250-X",
+     "years": [
+      2025
+     ],
+     "notes": "Athena SX1 PRO installation guide GD-MIP-0068-AA cover: TRIUMPH TF 250-X 2025; Transmoto also says '2025/2026 TF250X' (2026 not on the Athena documents)"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 450-RC Edition",
+     "years": [
+      2025
+     ],
+     "notes": "Athena installation guide cover: TRIUMPH TF 450-RC 2025 (its standard MX Tune Pro WiFi module must be disconnected)"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 250-E",
+     "years": [
+      2026
+     ],
+     "notes": "Athena installation guide and press release: TF 250-E 2026"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 450-E",
+     "years": [
+      2026
+     ],
+     "notes": "Athena installation guide and press release: TF 450-E 2026"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 450-X",
+     "years": [],
+     "notes": "Transmoto only: 'TF450X' (no year given); not on the Athena documents"
+    }
+   ],
+   "fitment_source_url": "https://cdn.athena.eu/97177f2d-8716-4538-b1c0-f9dfc4ea6144.pdf",
+   "what_it_changes": "Maker claims: plug-and-play on the main harness; two race maps developed with Triumph (Enduro21: Map 1 'Racing', Map 2 racing with GPA traction control level 5); GPA traction control; launch control; full CAN-bus; faster processor; WiGET app for fuel and ignition mapping including Athena 'Factory Maps'. Works with the stock Triumph handlebar switch and the Triumph LC-GPA module.",
+   "supporting_parts": "Optional SX1 CONTROLLER (replaces OEM map switch) and SX1 CONNECT WiFi dongle. T30 Torx for seat and ECU bolts (Enduro21).",
+   "where_to_buy": [
+    {
+     "seller": "Enduro21 (stated price)",
+     "url": "https://enduro21.com/en/products-reviews/latest/first-look-get-sx1-pro-ecu-for-triumph-enduro-models",
+     "price_if_stated": 867.95,
+     "currency": "USD",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "MotoSport (kit with controller and connect; Triumph fitment not shown)",
+     "url": "https://www.motosport.com/get-sx1-pro-control-unit-with-sx1-controller-and-sx1-connect",
+     "price_if_stated": 1049.95,
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Athena guide: does not support the Triumph MX Tune Pro WiFi module (GET SX1 CONNECT required for app tuning) and is NOT compatible with the GET SX1 CONTROLLER switch (use the original Triumph multifunction switch), which contradicts Transmoto's mention of the SX1 CONTROLLER. Maker press release: https://www.athena.eu/en-au/corporate/community/get-introduces-first-aftermarket-ecus-new-2026-triumph-enduro-models (enduro models only). No Triumph-specific part number found: MotoSport lists GK-SX1PRO4T-xxxx numbers without mapping them to bikes. Enduro21 also states GBP 679.99 / EUR 679.99. Motocross (X) fitment only from Transmoto; maker release names only the 2026 enduro models.",
+   "confidence": "medium"
+  },
+  {
+   "id": "tf5-dep-header-250",
+   "category": "exhaust",
+   "subcategory": "header pipe",
+   "brand": "DEP",
+   "product": "MX 4-Stroke Header Exhaust Pipe (Triumph TF 250-X 2024-2025)",
+   "part_numbers": [],
+   "variants": "",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 250-X",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "Listing title: 'Triumph TF 250-X 2024-2025 DEP MX 4 Stroke Header Exhaust Pipe'"
+    }
+   ],
+   "fitment_source_url": "https://www.firestormmotorcycles.com.au/triumph-tf-250-x-2024-2025-dep-mx-4-stroke-header~2931021",
+   "what_it_changes": "No description on the page.",
+   "supporting_parts": "Muffler not stated.",
+   "where_to_buy": [
+    {
+     "seller": "Firestorm Motorcycles (AU)",
+     "url": "https://www.firestormmotorcycles.com.au/triumph-tf-250-x-2024-2025-dep-mx-4-stroke-header~2931021",
+     "price_if_stated": null,
+     "currency": null,
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No part number or price shown; image filename contains 'DEPTR2401' (not labelled as a part number, not recorded). DEP maker page not read. 2026 TF 250-X got a new airbox and silencer, so 2026 fit is unknown.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "tf5-scar-pegs-gripper",
+   "category": "controls",
+   "subcategory": "footpegs",
+   "brand": "Scar Racing",
+   "product": "Titanium Footpegs Gripper, Grade 5 Ti, 60 mm, 27 teeth (Triumph TF 250/450)",
+   "part_numbers": [
+    "S9516"
+   ],
+   "variants": "Silver; 60 mm body, 10 mm wider than OEM; 0.474 kg (listed weight)",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 250-X",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "2024-2026 Triumph TF 250-X"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 250-C",
+     "years": [
+      2026
+     ],
+     "notes": "2026 Triumph TF 250-C"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 250-E",
+     "years": [
+      2026
+     ],
+     "notes": "2026 Triumph TF 250-E"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 450-RC Edition",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": "'2025-2026 Triumph TF 450-RC'"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 450-C",
+     "years": [
+      2026
+     ],
+     "notes": "2026 Triumph TF 450-C"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 450-E",
+     "years": [
+      2026
+     ],
+     "notes": "2026 Triumph TF 450-E"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 450-X",
+     "years": [
+      2026
+     ],
+     "notes": "2026 Triumph TF 450-X"
+    }
+   ],
+   "fitment_source_url": "https://www.oro2u.com/titanium-footpegs-gripper-24-26-triumph-tf-250-450-c-e-x-rc-gr5-ti-60mm-27-teeth-scar-s9516",
+   "what_it_changes": "Seller copy: wider gripper platform for boot contact and stability; hand-fabricated welded Ti-6Al-4V.",
+   "supporting_parts": "None stated.",
+   "where_to_buy": [
+    {
+     "seller": "Oro2u (UK)",
+     "url": "https://www.oro2u.com/titanium-footpegs-gripper-24-26-triumph-tf-250-450-c-e-x-rc-gr5-ti-60mm-27-teeth-scar-s9516",
+     "price_if_stated": 279.9,
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Retailer lists a 2026 TF 450-RC, which Triumph did not sell as a 2026 model as far as other sources show; kept as the source says. Scar maker page not read. Seller SKU 60-2310.SCAR_G.",
+   "confidence": "medium"
+  },
+  {
+   "id": "tf5-scar-pegs-antimud",
+   "category": "controls",
+   "subcategory": "footpegs",
+   "brand": "Scar Racing",
+   "product": "Titanium Footpegs Anti-Mud, 60 mm, 18 teeth (Triumph TF 250/450)",
+   "part_numbers": [
+    "S9516AM"
+   ],
+   "variants": "60 mm body, 10 mm wider than OEM; 0.474 kg listed (Parts Europe says about 300 g per pair for its anti-mud titanium peg)",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 250-X",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "2024-2026 Triumph TF 250-X"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 250-C",
+     "years": [
+      2026
+     ],
+     "notes": "2026 Triumph TF 250-C"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 250-E",
+     "years": [
+      2026
+     ],
+     "notes": "2026 Triumph TF 250-E"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 450-RC Edition",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": "'2025-2026 Triumph TF 450-RC'"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 450-C",
+     "years": [
+      2026
+     ],
+     "notes": "2026 Triumph TF 450-C"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 450-E",
+     "years": [
+      2026
+     ],
+     "notes": "2026 Triumph TF 450-E"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 450-X",
+     "years": [
+      2026
+     ],
+     "notes": "2026 Triumph TF 450-X"
+    }
+   ],
+   "fitment_source_url": "https://www.oro2u.com/titanium-footpegs-anti-mud-24-26-triumph-tf-250-450-c-e-rc-x-60mm-wide-18-teeth-scar-s9516am",
+   "what_it_changes": "Seller copy: anti-mud titanium pegs for muddy conditions; Grade 5 Ti, welded.",
+   "supporting_parts": "None stated.",
+   "where_to_buy": [
+    {
+     "seller": "Oro2u (UK)",
+     "url": "https://www.oro2u.com/titanium-footpegs-anti-mud-24-26-triumph-tf-250-450-c-e-rc-x-60mm-wide-18-teeth-scar-s9516am",
+     "price_if_stated": 279.9,
+     "currency": "GBP",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "eBay seller motocrossuk2015 (title says TF250X 24-25; fitment table wrongly shows Yamaha WR)",
+     "url": "https://www.ebay.de/itm/335812423711",
+     "price_if_stated": 265.0,
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Oro2u page's own fitment heading is empty with a 'check it fits' warning; fitment taken from the listed vehicles. eBay listing title says 'TF 250-X 24-25' only.",
+   "confidence": "medium"
+  },
+  {
+   "id": "tf5-ktech-linkage-service-kit",
+   "category": "suspension",
+   "subcategory": "linkage bearing and seal kit",
+   "brand": "K-Tech",
+   "product": "Linkage Service Kit, Triumph TF-250X 2024> (for K-Tech HPSL link)",
+   "part_numbers": [
+    "205-211-003"
+   ],
+   "variants": "Bearings 28x22x16 (2), 28x22x12 (5), seal washers (6), dust seals 25x32x7 (6), 22x28x4 (2)",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 250-X",
+     "years": [
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Triumph TF250-X: 2024, 2025, 2026, 2027"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 450-RC Edition",
+     "years": [
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "'Triumph TF450-RC: 2025, 2026, 2027'"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 250-E",
+     "years": [
+      2026,
+      2027
+     ],
+     "notes": "Triumph TF250-E: 2026, 2027"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 450-E",
+     "years": [
+      2026,
+      2027
+     ],
+     "notes": "Triumph TF450-E: 2026, 2027"
+    }
+   ],
+   "fitment_source_url": "https://store.ktechsuspension.com/linkage-service-kit-triumph-tf-250x-2024-205-211-003.html",
+   "what_it_changes": "Maker: bearing and seal replacement kit for the K-Tech HPSL (High Performance Shock Link); 'Fits 211-024-250'.",
+   "supporting_parts": "K-Tech HPSL linkage 211-024-250 (see tf5-ktech-hpsl-450rc).",
+   "where_to_buy": [
+    {
+     "seller": "K-Tech Suspension store (UK)",
+     "url": "https://store.ktechsuspension.com/linkage-service-kit-triumph-tf-250x-2024-205-211-003.html",
+     "price_if_stated": 48.99,
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Maker page lists part number and fitment. It services the K-Tech link; whether it also fits the OEM Triumph linkage is not stated. Maker lists 2026-2027 TF450-RC (not a model sold in 2026-2027 per other sources) and no TF 450-X/C or TF 250-C.",
+   "confidence": "high"
+  },
+  {
+   "id": "tf5-ktech-hpsl-450rc",
+   "category": "suspension",
+   "subcategory": "linkage",
+   "brand": "K-Tech",
+   "product": "HPSL Shock Absorber Linkage, Triumph TF 450 RC (25)",
+   "part_numbers": [
+    "211-024-250-1"
+   ],
+   "variants": "",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 450-RC Edition",
+     "years": [
+      2025
+     ],
+     "notes": "Specifications table: Triumph TF 450 RC, 2025"
+    }
+   ],
+   "fitment_source_url": "https://www.brooksuspension.co.uk/shock-absorber-linkages/triumph-tf-450-rc-k-tech-hpsl-shock-absorber-linkage-25",
+   "what_it_changes": "Retailer copy: revised geometry optimises the initial ratio and leverage progression for traction, compliance and chassis behaviour. No ratio figures; adjustability not stated.",
+   "supporting_parts": "K-Tech linkage service kit 205-211-003.",
+   "where_to_buy": [
+    {
+     "seller": "Brook Suspension (UK)",
+     "url": "https://www.brooksuspension.co.uk/shock-absorber-linkages/triumph-tf-450-rc-k-tech-hpsl-shock-absorber-linkage-25",
+     "price_if_stated": 499.5,
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Part code differs by a '-1' suffix from the '211-024-250' the K-Tech service kit page references. K-Tech's own HPSL page not read (store search needed approval, not answered). TF 250-X fitment of the same link not confirmed.",
+   "confidence": "medium"
+  },
+  {
+   "id": "tf5-ktech-provalve-fork-450rc",
+   "category": "suspension",
+   "subcategory": "fork/shock internals",
+   "brand": "K-Tech",
+   "product": "Pro Valve Fork Piston Kit, Triumph TF 450 RC (25)",
+   "part_numbers": [],
+   "variants": "",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 450-RC Edition",
+     "years": [
+      2025
+     ],
+     "notes": "Listing title: 'Triumph TF 450 RC (25)'"
+    }
+   ],
+   "fitment_source_url": "https://www.brooksuspension.co.uk/shock-absorber-linkages/triumph-tf-450-rc-k-tech-hpsl-shock-absorber-linkage-25",
+   "what_it_changes": "Replacement fork damping piston kit (re-valve); details not read.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Brook Suspension (UK)",
+     "url": "https://www.brooksuspension.co.uk/fork-internals/triumph-tf-450-rc-k-tech-pro-valve-fork-piston-kit-25",
+     "price_if_stated": 396.0,
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Seen only as a related-product line (title and price) on the Brook Suspension HPSL page; the product page itself needed fetch approval that was not answered, so part number and contents are missing. Title lists 'TF 450 RC' only; 2026 TF 450-X/C share the RC's KYB settings per Cycle News but fit not confirmed.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "tf5-ktech-provalve-shock-450rc",
+   "category": "suspension",
+   "subcategory": "fork/shock internals",
+   "brand": "K-Tech",
+   "product": "Pro Valve Shock Absorber Piston Kit, Triumph TF 450 RC (25-26)",
+   "part_numbers": [],
+   "variants": "",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 450-RC Edition",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": "Listing title: 'Triumph TF 450 RC (25-26)'"
+    }
+   ],
+   "fitment_source_url": "https://www.brooksuspension.co.uk/shock-absorber-linkages/triumph-tf-450-rc-k-tech-hpsl-shock-absorber-linkage-25",
+   "what_it_changes": "Replacement shock damping piston kit (re-valve); details not read.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Brook Suspension (UK)",
+     "url": "https://www.brooksuspension.co.uk/pro-valve/triumph-tf-450-rc-k-tech-pro-valve-shock-absorber-piston-kit-25-26",
+     "price_if_stated": 115.45,
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Seen only as a related-product line (title and price) on the Brook Suspension HPSL page; the product page itself needed fetch approval that was not answered, so part number and contents are missing. Title lists 'TF 450 RC' only; 2026 TF 450-X/C share the RC's KYB settings per Cycle News but fit not confirmed.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "tf5-ktech-fork-springs-450rc",
+   "category": "suspension",
+   "subcategory": "fork/shock internals",
+   "brand": "K-Tech",
+   "product": "Fork Springs, Triumph TF 450 RC (25)",
+   "part_numbers": [],
+   "variants": "",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 450-RC Edition",
+     "years": [
+      2025
+     ],
+     "notes": "Listing title: 'Triumph TF 450 RC (25)'"
+    }
+   ],
+   "fitment_source_url": "https://www.brooksuspension.co.uk/shock-absorber-linkages/triumph-tf-450-rc-k-tech-hpsl-shock-absorber-linkage-25",
+   "what_it_changes": "Alternative fork spring rates; rates offered not read.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Brook Suspension (UK)",
+     "url": "https://www.brooksuspension.co.uk/fork-springs/triumph-tf-450-rc-k-tech-fork-springs-25",
+     "price_if_stated": 98.18,
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Seen only as a related-product line (title and price) on the Brook Suspension HPSL page; the product page itself needed fetch approval that was not answered, so part number and contents are missing. Title lists 'TF 450 RC' only; 2026 TF 450-X/C share the RC's KYB settings per Cycle News but fit not confirmed.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "tf5-ktech-seal-head-450rc",
+   "category": "suspension",
+   "subcategory": "fork/shock internals",
+   "brand": "K-Tech",
+   "product": "Shock Absorber Seal Head, Triumph TF 450 RC (25)",
+   "part_numbers": [],
+   "variants": "",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 450-RC Edition",
+     "years": [
+      2025
+     ],
+     "notes": "Listing title: 'Triumph TF 450 RC (25)'"
+    }
+   ],
+   "fitment_source_url": "https://www.brooksuspension.co.uk/shock-absorber-linkages/triumph-tf-450-rc-k-tech-hpsl-shock-absorber-linkage-25",
+   "what_it_changes": "Shock seal head (service/rebuild part).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Brook Suspension (UK)",
+     "url": "https://www.brooksuspension.co.uk/shock-absorber-parts/triumph-tf-450-rc-k-tech-shock-absorber-seal-head-25",
+     "price_if_stated": 50.34,
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Seen only as a related-product line (title and price) on the Brook Suspension HPSL page; the product page itself needed fetch approval that was not answered, so part number and contents are missing. Title lists 'TF 450 RC' only; 2026 TF 450-X/C share the RC's KYB settings per Cycle News but fit not confirmed.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "tf5-kyb-sapphire-stanchion-450rc",
+   "category": "suspension",
+   "subcategory": "fork tube",
+   "brand": "KYB",
+   "product": "Sapphire Coated Fork Stanchion, Triumph TF 450 RC (25)",
+   "part_numbers": [],
+   "variants": "",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 450-RC Edition",
+     "years": [
+      2025
+     ],
+     "notes": "Listing title: 'Triumph TF 450 RC KYB Sapphire Coated Fork Stanchion (25)'"
+    }
+   ],
+   "fitment_source_url": "https://www.brooksuspension.co.uk/shock-absorber-linkages/triumph-tf-450-rc-k-tech-hpsl-shock-absorber-linkage-25",
+   "what_it_changes": "Low-friction coated inner fork tube (coating claim not read).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Brook Suspension (UK)",
+     "url": "https://www.brooksuspension.co.uk/fork-stanchion-fork-tubes/triumph-tf-450-rc-kyb-sapphire-coated-fork-stanchion-25",
+     "price_if_stated": 329.94,
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Related-product line only (title and price); product page needed approval that was not answered. Price unit (each or pair) unknown.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "tf5-fcp-race-cups-tf450",
+   "category": "chassis",
+   "subcategory": "offset steering races",
+   "brand": "FCP Racing",
+   "product": "Race Cups (offset steering head cups)",
+   "part_numbers": [],
+   "variants": "",
+   "fits": [
+    {
+     "make": "Triumph",
+     "model": "TF 450",
+     "years": [],
+     "notes": "Vital MX forum owner: 'Triumph TF450' (model and year not stated)"
+    }
+   ],
+   "fitment_source_url": "https://www.vitalmx.com/comment/8981986",
+   "what_it_changes": "Keefer (on a YZ450F): offset races change head and fork angle; less headshake on/off throttle, more planted, firmer steering, corners slightly slower; $589-599. Forum TF450 owner: less high-speed chatter, front rode high.",
+   "supporting_parts": "Pressing tools needed. Forum owner also fitted FCP head stays (= FCP Engine Mount Kit EMK-T4F-001 in p4-bearings-mounts.json).",
+   "where_to_buy": [
+    {
+     "seller": "Keefer Inc Testing (price stated, YZ450F test)",
+     "url": "https://www.keeferinctesting.com/fcp-race-cups/",
+     "price_if_stated": 599.0,
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [
+    "tf5f-002"
+   ],
+   "caveats": "No Triumph-specific FCP listing or part number found (fcpracing.com not reached; search budget used up). Fitment only from one forum owner; years blank.",
+   "confidence": "unverified"
+  }
+ ],
+ "feedback": [
+  {
+   "id": "tf5f-001",
+   "category": "chassis",
+   "brand": "X-Trig",
+   "product": "ROCS Tech triple clamps (standard offset, pressed stem) + PHDS bar mounts",
+   "part_numbers": [],
+   "bike": {
+    "make": "Triumph",
+    "model": "TF 450-RC Edition",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-03-18",
+   "conditions": "Standard-offset ROCS Tech (not adjustable Pro); bars in second hole closest to rider with PHDS mounts set back (closest to stock); stock medium PHDS elastomers; Renthal 839 Fatbar.",
+   "observed": "Less vibration than OEM rubber-mounted bar mounts, especially at high rpm; better front tire contact on corner entry and more positive front feel in flat corners; less front-end wallow and more stable in deep ruts where stock clamps flexed; straight-line stability same as stock; slightly firmer on braking bumps and square edges. Can run lower pinch torque without fork slip. Fender and hour-meter mounts work. Cons: a couple hundred dollars more than other clamps; PHDS heavier than stock and fiddly to assemble; not compared against other aftermarket clamps.",
+   "measured": "Price: clamps about $800; PHDS almost $200. OEM clamp torque 25 N-m bottom / 30 N-m top (X-Trig torque value not given).",
+   "other_mods": "Renthal 839 Fatbar",
+   "url": "https://www.keeferinctesting.com/?p=28782",
+   "confidence": "high"
+  },
+  {
+   "id": "tf5f-002",
+   "category": "suspension",
+   "brand": "FCP Racing / stock KYB",
+   "product": "FCP race cups, FCP head stays, titanium swingarm pivot axle and engine-mount bolts; stock-valved KYB baseline",
+   "part_numbers": [],
+   "bike": {
+    "make": "Triumph",
+    "model": "TF 450 (model not stated)",
+    "year": "not stated"
+   },
+   "source_type": "forum owner",
+   "publication": "Vital MX forum (Moto-Related): 'Some Chassis and suspension work on the Triumph TF450'",
+   "author": "lowmass",
+   "date": "2026-05-14",
+   "conditions": "180 lb expert vet; sand, loam and hard pack at three New York tracks; stock valving.",
+   "observed": "Race cups: less high-speed chatter, more predictable steering, better corner traction, but front rode high so forks raised 2 mm in clamps and compression backed out 2 clicks. Head stays: square edges more rounded, less vibration above idle, slightly more at idle. Ti pivot and mount bolts: no clear difference. Overall more confidence and less effort; front still not as planted as a Honda. Follow-up (2026-05-20): polishing gear dogs/pockets, grinding a raised mark on the 3-4 shift fork and DLC-coating shift fork shafts (about $150) fixed shifting, no false neutrals in about 15 h. Reports about 3-week Triumph parts waits.",
+   "measured": "Fork: 2 mm up in clamps, compression 15 out (stock 13), rebound 10 out, 0.48 kg/mm springs (stock 0.51), 350 cc 0W-16 motor oil per outer tube (stock 310 cc). Shock: 105 mm race sag, low-speed compression 16 out, rebound 12 out, high-speed compression 1 turn out. Rider notes the axle sat about 5 mm rearward of centre.",
+   "other_mods": "FCP race cups, head stays, Ti pivot axle, two Ti engine-mount bolts; gearbox polishing and DLC shift-fork shafts",
+   "url": "https://www.vitalmx.com/comment/8981986",
+   "confidence": "unverified"
+  },
+  {
+   "id": "tf5f-003",
+   "category": "platform",
+   "brand": "Triumph (stock)",
+   "product": "2026 TF 250-X update: new airbox and silencer, revised mapping, Exedy clutch, retuned suspension",
+   "part_numbers": [],
+   "bike": {
+    "make": "Triumph",
+    "model": "TF 250-X",
+    "year": "2026"
+   },
+   "source_type": "manufacturer press release",
+   "publication": "Triumph media kit / ADB Magazine",
+   "author": "Triumph (ADB Magazine staff)",
+   "date": "2025-07-31",
+   "conditions": "Manufacturer launch information, no riding.",
+   "observed": "New airbox and silencer for FIM/AMA sound rules; revised ECU mapping for power delivery and throttle response; new Exedy clutch (more torque capacity and durability); retuned suspension for mid-stroke control and cornering stability (no values); redesigned battery tray and oil sight glass; in-mould decals.",
+   "measured": "No figures given.",
+   "other_mods": "",
+   "url": "https://adbmag.com.au/editorial/triumph-reveals-updates-for-2026-tf-250-x/",
+   "confidence": "medium"
+  },
+  {
+   "id": "tf5f-004",
+   "category": "platform",
+   "brand": "Triumph (stock)",
+   "product": "2026 TF 450-X vs 2025 TF 450-RC Edition",
+   "part_numbers": [],
+   "bike": {
+    "make": "Triumph",
+    "model": "TF 450-X",
+    "year": "2026"
+   },
+   "source_type": "press / first look",
+   "publication": "Dirt Rider; Cycle News; Enduro21; Dirt Bike Magazine",
+   "author": "Andrew Oldar (Dirt Rider); Cycle News Staff; Mark Tilley (Dirt Bike)",
+   "date": "2025-09-26",
+   "conditions": "Launch information, no riding.",
+   "observed": "Mapping, airbox/silencer and KYB settings carry over from the RC Edition. New: Exedy clutch hub, Belleville clutch spring, gearbox selector star, engine mounts, graphics. Standard launch control, traction control, quickshifter (2nd-5th), dual maps; optional MX Tune Pro app with accessory engine management unit unlocks up to ten more maps. D.I.D 520 SDH chain, JT lightweight sprockets, Neken clamps, ProTaper ACF bars, Galfer discs, Pirelli MX32.",
+   "measured": "Claimed 61.5 hp at 9,500 rpm; 108.3 kg (Dirt Bike). Enduro21 lists 13/49 final drive and GBP 9,995. US price TBA at launch.",
+   "other_mods": "",
+   "url": "https://dirtrider.com/dirt-bikes/triumph-tf-450-x-first-look",
+   "confidence": "medium"
+  },
+  {
+   "id": "tf5f-005",
+   "category": "platform",
+   "brand": "Triumph (stock)",
+   "product": "2027 TF 250-X update",
+   "part_numbers": [],
+   "bike": {
+    "make": "Triumph",
+    "model": "TF 250-X",
+    "year": "2027"
+   },
+   "source_type": "press",
+   "publication": "Visordown; Gear Patrol",
+   "author": "Robert Jones; Gray Van Dyke",
+   "date": "2026-09-30",
+   "conditions": "Launch information after Triumph's MX2 title; no riding.",
+   "observed": "Engine recalibrated for throttle response and torque delivery (claimed 47.4 hp unchanged); new valve guides; revised clutch (new clutch bearing and pack, Exedy Belleville spring); updated shift hardware; revised KYB settings with new toolless adjusters; updated Neken triple clamps; revised chain guide; new switchgear; all-black bodywork, redesigned fork guards. Carried over: Brembo, ProTaper ACF bars, Athena ECU, launch/traction control, quickshifter.",
+   "measured": "US price from $9,195 (Gear Patrol).",
+   "other_mods": "",
+   "url": "https://www.visordown.com/news/triumph-launches-updated-tf-250-x-following-maiden-mx2-title-win",
+   "confidence": "medium"
+  }
+ ],
+ "builds": [
+  {
+   "title": "Jonny Walker's Triumph Racing 250 enduro race bike (pre-production, indoor enduro)",
+   "bike": {
+    "make": "Triumph",
+    "model": "TF 250-E (pre-production; article calls it 'TF 250-X Enduro', name unconfirmed)",
+    "year": "2025 (pre-production)"
+   },
+   "publication": "Enduro21",
+   "date": "2024-12-16",
+   "url": "https://enduro21.com/en/news/first-look-triumph-racing-tf-250-ex-enduro-breaks-cover-jonny-walker-s-race-bike",
+   "parts": [
+    {
+     "category": "suspension",
+     "brand": "K-Tech",
+     "product": "K-Tech internals in KYB outer units",
+     "part_numbers": [],
+     "purpose": "Tuned for indoor enduro",
+     "observed": ""
+    },
+    {
+     "category": "chassis",
+     "brand": "X-Trig",
+     "product": "Triple clamps",
+     "part_numbers": [],
+     "purpose": "More flex and feel, less front-wheel tuck in corners",
+     "observed": ""
+    },
+    {
+     "category": "clutch",
+     "brand": "Hinson",
+     "product": "Clutch cover",
+     "part_numbers": [],
+     "purpose": "Stronger than standard",
+     "observed": ""
+    },
+    {
+     "category": "controls",
+     "brand": "Raptor Titanium",
+     "product": "Footpegs",
+     "part_numbers": [],
+     "purpose": "Mounted 5 mm lower and 5 mm further back",
+     "observed": ""
+    },
+    {
+     "category": "exhaust",
+     "brand": "Akrapovic",
+     "product": "Full system (official Triumph part, different header shape from MX)",
+     "part_numbers": [],
+     "purpose": "",
+     "observed": ""
+    },
+    {
+     "category": "brakes",
+     "brand": "Galfer",
+     "product": "Discs, standard sizes",
+     "part_numbers": [],
+     "purpose": "Sponsor",
+     "observed": ""
+    },
+    {
+     "category": "handlebars",
+     "brand": "Renthal",
+     "product": "Handlebar",
+     "part_numbers": [],
+     "purpose": "",
+     "observed": ""
+    },
+    {
+     "category": "seats",
+     "brand": "Guts",
+     "product": "Seat cover, raised seat",
+     "part_numbers": [],
+     "purpose": "Rider height",
+     "observed": ""
+    },
+    {
+     "category": "tires",
+     "brand": "Michelin",
+     "product": "Tyres (medium) and mousses",
+     "part_numbers": [],
+     "purpose": "",
+     "observed": ""
+    },
+    {
+     "category": "hardware",
+     "brand": "unspecified",
+     "product": "Titanium engine and frame bolts; frame grip rubbers; extra starter button",
+     "part_numbers": [],
+     "purpose": "Weight, grip, backup start",
+     "observed": ""
+    }
+   ]
+  }
+ ],
+ "common_first_mods": [
+  "Chassis feel before re-valve: X-Trig ROCS clamps (Keefer, TF 450-RC) and FCP race cups / head stays (Vital MX TF450 owner) both reported calmer front end and less vibration; the owner still wanted a re-valve.",
+  "Softer fork springs (0.48 vs stock 0.51 kg/mm) and 105 mm sag with shock high-speed compression 1 turn out for a 180 lb rider on a TF450 (one forum owner, stock valving).",
+  "Gearbox and clutch reliability work on TF 450: polished dogs and DLC shift-fork shafts (forum owner); Triumph itself added a new Exedy hub, Belleville spring and selector star for 2026 TF 450-X and a new clutch bearing/pack and shift hardware for 2027 TF 250-X."
+ ],
+ "gaps": [
+  "Search budget for this session (200 searches shared by all agents) ran out after about 25 searches, so most priority brands were not reached. This file has 13 products and 5 findings, short of the 40-80 target.",
+  "Exhausts: no Akrapovic aftermarket (non-Triumph) TF part numbers, no SC-Project or Arrow TF listing found; DEP header has no part number or price. Whether 2024-2025 exhausts fit the 2026+ TF 250-X with its new airbox and silencer is not stated by any source.",
+  "ECU: GET SX1 PRO has no Triumph-specific part number; maker guide lists TF 250-X 2025, TF 450-RC 2025, TF 250-E / TF 450-E 2026 only; 2026-2027 X/C models not listed. Vortex and Twisted Development: nothing found.",
+  "Suspension: K-Tech Pro Valve fork/shock kits, springs, seal head and KYB sapphire stanchion for the TF 450-RC lack part numbers (product pages needed approval). No Factory Connection, Race Tech, Enzo, Pro Circuit or Dialed TF service listing found in the searches run.",
+  "Clamps/bar mounts: Luxon and Ride Engineering TF products not found; X-Trig ROCS Kit M12 (XT-40601005) may overlap the existing ROCS Tech record.",
+  "Brakes: Galfer is the OEM disc supplier (260/220 mm Disc Wave); no aftermarket Galfer, Braking or Moto-Master (beyond the existing supermoto kit) TF part numbers found.",
+  "Sprockets/chains and wheels: Supersprox, Renthal, JT, Haan, Kite, Warp 9 TF listings not found beyond what specialty files already hold.",
+  "Feedback: no 2026 TF 450-X or 2027 TF 250-X riding tests found; MXA, Racer X, Swapmoto, Vital MX test pages not reached. Retailers list a '2026-2027 TF 450-RC' (Scar, K-Tech) that no other source shows as a model year.",
+  "Vital MX TF450 owner thread does not give model year; FCP race cups fitment for Triumph unconfirmed."
+ ],
+ "not_done": [
+  "Blocked or not reached: brooksuspension.co.uk product pages (K-Tech Pro Valve fork kit, shock piston kit, fork springs, seal head, KYB stanchion), store.ktechsuspension.com catalogue search, galfer.com Triumph OEM page: fetch permission requests were not answered.",
+  "Rocky Mountain ATV/MC TF 250-X parts list: bot protection (Incapsula).",
+  "1000ps.com 2027 TF 250-X article: site error.",
+  "Parts Europe and nilssons-pristest (Akrapovic and GET product pages): need JavaScript or redirect to a home page.",
+  "teknikmotorsport.com TF 250-X suspension category pages: navigation only, no products rendered.",
+  "Not searched (budget): Akrapovic maker site, SC-Project, Arrow, Vortex, Twisted Development, Hinson/Rekluse 450 updates, Factory Connection/Race Tech/Enzo/Pro Circuit/Dialed services, Luxon, Ride Engineering, Galfer/Braking/Moto-Master, Supersprox/Renthal/JT, Haan/Kite/Warp 9, MXA/Racer X/Swapmoto/Keefer TF 450-X tests, Triumph Racing team bike features."
+ ]
+}

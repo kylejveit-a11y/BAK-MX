@@ -1,0 +1,3082 @@
+{
+ "slice": "brakes2",
+ "products": [
+  {
+   "category": "brakes",
+   "subcategory": "oversize front rotor kit (280mm, solid mount)",
+   "brand": "Galfer (GBrakes)",
+   "product": "GBrakes 280mm Non-Floating Wave Rotor Plus Bracket, KTM / Husqvarna / GasGas 125-530cc",
+   "part_numbers": [
+    "GBDOS224"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "J&P: MC 125 2021-2023"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2022,
+      2023
+     ],
+     "notes": "J&P: MC 250 2022-2023"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "J&P: MC 250F 2021-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2022,
+      2023
+     ],
+     "notes": "J&P: MC 350F 2022-2023"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "J&P: MC 450F 2021-2025"
+    },
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "J&P: 125 SX 2009-2025"
+    },
+    {
+     "make": "KTM",
+     "model": "125 XC",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": "J&P: 125 XC 2021-2027"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "J&P: 150 SX 2009-2022"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/gbrakes-280mm-non-floating-wave-rotor-plus-bracket-ktm-husqvarna-gas-gas-125cc-530cc-2009-2025",
+   "what_it_changes": "Retailer copy: 'significantly better lever feel and increased braking torque'; 280mm rotor plus caliper relocation bracket.",
+   "supporting_parts": "Kit includes the 280mm rotor and relocation bracket; pads not listed.",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/gbrakes-280mm-non-floating-wave-rotor-plus-bracket-ktm-husqvarna-gas-gas-125cc-530cc-2009-2025",
+     "price_if_stated": "297.00",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "J&P also lists Husqvarna FC/FX/TC/TX and KTM 250-450 SX-F/XC-F models without years, so those were not recorded. J&P lists GasGas MC 250F/MC 450F 2024-2025; those years have Braktec calipers per the KTM family pass 2 finding, so check caliper type before fitting (the Slavens Galfer listing in brakes_controls bc-001 says Brembo calipers only). Galfer's own 280mm application PDF (galfer.eu -> galfer.com) could not be fetched. Title says 2009-2027 while URL says 2009-2025.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-001"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "rear rotor",
+   "brand": "Moto-Master",
+   "product": "Flame Fixed Rear Rotor, Yamaha 125-450cc 2020-2027",
+   "part_numbers": [
+    "110831-PU"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ125",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: YZ125 2022-2027"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: YZ250 2022-2027"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P: YZ250F 2022-2026"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250FX",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: YZ250FX 2022-2027"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250X",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: YZ250X 2023-2027"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P: YZ450F 2020-2026"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450FX",
+     "years": [
+      2022,
+      2023
+     ],
+     "notes": "J&P: YZ450FX 2022, 2023"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/moto-master-flame-fixed-rear-rotor-yamaha-125cc-450cc-2020-2023",
+   "what_it_changes": "Retailer copy: hardened stainless steel; flame cut-outs help cool and clean the contact surface; laser cut, CNC machined, double ground.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/moto-master-flame-fixed-rear-rotor-yamaha-125cc-450cc-2020-2023",
+     "price_if_stated": "123.26",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No YZ125X line shown. J&P list also shows Beta and GasGas EC lines (probably cross-listed vehicles); not recorded. List truncated (293 vehicles).",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-002"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "oversize front rotor kit (270mm, floating)",
+   "brand": "Moto-Master",
+   "product": "Flame Floating Front Rotor Kit 270mm, Kawasaki 250-450cc",
+   "part_numbers": [
+    "310021-PU"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "J&P: KX250 2006-2024"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "J&P: KX250X 2021-2024"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "J&P: KX450X 2021-2023"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/moto-master-flame-floating-front-rotor-kit-270mm-kawasaki-250cc-450cc-2006-2023",
+   "what_it_changes": "Kit: Flame MX 270mm front rotor, billet aluminium caliper relocation bracket and Moto-Master Nitro Sport pads.",
+   "supporting_parts": "Includes bracket and pads.",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/moto-master-flame-floating-front-rotor-kit-270mm-kawasaki-250cc-450cc-2006-2023",
+     "price_if_stated": "278.06",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "J&P shows KX450F only to 2018 and no 2019+ KX450 line, while it shows KX450X 2021-2023; KX450 2020-2023 not recorded. Title says to 2023 but KX250/KX250X 2024 are listed. The page also prints GasGas/Honda/Husqvarna lines that look like cross-listing from sibling kits; not recorded.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-003"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "front rotor (85cc, 260mm floating)",
+   "brand": "Moto-Master",
+   "product": "Flame 260mm Floating Front Rotor, KTM / Husqvarna / GasGas 85cc",
+   "part_numbers": [],
+   "variants": [
+    "Cycle Gear item P1054271 (retailer item)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Cycle Gear: KTM 85 SX (17/14) and (19/16) 2012-2027"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/moto-master-flame-260mm-floating-front-rotor-ktm-husqvarna-gas-gas-85cc-250cc-2012-2024",
+   "what_it_changes": "Retailer copy: up to 25% performance gain and up to 20% weight saving claimed; billet CNC aluminium hub, stainless floaters, ground stainless outer ring.",
+   "supporting_parts": "Needs a caliper relocation adapter bracket, sold separately.",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/moto-master-flame-260mm-floating-front-rotor-ktm-husqvarna-gas-gas-85cc-250cc-2012-2024",
+     "price_if_stated": "188.06",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No Moto-Master part number on the page. The 2025+ 85 SX is a new platform (README); this listing still names it to 2027 without comment. GasGas MC 85 and Husqvarna TC 85 also listed (not in roster).",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-004"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "brake pads (85cc)",
+   "brand": "Moto-Master",
+   "product": "Nitro Front Brake Pads (sintered), GasGas / Husqvarna / KTM",
+   "part_numbers": [
+    "97421-PU"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX",
+     "years": [
+      2020
+     ],
+     "notes": "J&P: 85 SX (17/14) and (19/16) 2012-2020"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/moto-master-nitro-front-brake-pads-gas-gas-husqvarna-ktm",
+   "what_it_changes": "Sintered MX/enduro pad 'designed for general use in varying conditions' (retailer copy).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/moto-master-nitro-front-brake-pads-gas-gas-husqvarna-ktm",
+     "price_if_stated": "24.95",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "KTM 85 SX listed only to 2020 while GasGas MC 85 is listed 2021-2027, so the 2021-2024 KTM 85 SX may also fit but is not stated. List truncated.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-005"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "brake pads (rear, race)",
+   "brand": "EBC",
+   "product": "MXS368 Race Series Rear Brake Pads",
+   "part_numbers": [
+    "MXS368"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "GasGas",
+     "model": "EX 250",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "J&P: EX 250 2022-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "J&P: EX 250F 2021-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 300",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: EX 300 2021-2027"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 350F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "J&P: EX 350F 2021-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 450F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "J&P: EX 450F 2021-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P: MC 125 2021-2027"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P: MC 250 2022-2026"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: MC 250F 2021-2027"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "J&P: MC 350F 2022-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: MC 450F 2021-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: FC250 2014-2027"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/ebc-mxs368-race-series-rear-brake-pads",
+   "what_it_changes": "Maker copy via retailer: motocross race pad, sintered copper alloy made at EBC's USA plant; race use only.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/ebc-mxs368-race-series-rear-brake-pads",
+     "price_if_stated": "46.08",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Fitment list truncated after Husqvarna FC250; KTM lines not visible though the same pad shape is used across the group. Lists GasGas 2024+ (Braktec front, rear caliper unconfirmed). EBC part finder not checked.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-006"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "brake pads (rear, sintered)",
+   "brand": "EBC",
+   "product": "FA368R R Series Sintered Rear Brake Pads",
+   "part_numbers": [
+    "FA368R"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "GasGas",
+     "model": "EX 250",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "J&P: EX 250 2022-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "J&P: EX 250F 2021-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 300",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: EX 300 2021-2027"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 350F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "J&P: EX 350F 2021-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 450F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "J&P: EX 450F 2021-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P: MC 125 2021-2027"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P: MC 250 2022-2026"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: MC 250F 2021-2027"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "J&P: MC 350F 2022-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: MC 450F 2021-2027"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023
+     ],
+     "notes": "SportbikeTrackGear: '2023 KTM 250 SX-F FE' (STG number E|1433-FA368R|126)"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2024
+     ],
+     "notes": "Dennis Kirk: listed as exact fit for 2024 KTM 250 XC (mfg part FA368R)"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/ebc-fa368r-r-series-sintered-rear-brake-pads",
+   "what_it_changes": "Sintered bronze long-life off-road pad for mud, dust or sand; OEM replacement (retailer copy).",
+   "supporting_parts": "Race alternative: MXS368.",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/ebc-fa368r-r-series-sintered-rear-brake-pads",
+     "price_if_stated": "39.54",
+     "currency": "USD",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "SportbikeTrackGear",
+     "url": "https://www.sportbiketrackgear.com/ebc-2023-ktm-250-sx-f-fe-long-life-sintered-rear-brake-pads/",
+     "price_if_stated": "41.74",
+     "currency": "USD",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "Dennis Kirk",
+     "url": "https://www.denniskirk.com/brake-pads/2024-ktm-250-xc",
+     "price_if_stated": "41.74",
+     "currency": "USD",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "SportbikeTrackGear",
+     "url": "https://www.sportbiketrackgear.com/ebc-2021-2024-gas-gas-mc-250f-long-life-sintered-rear-brake-pads/",
+     "price_if_stated": "41.74",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "List truncated before KTM/Husqvarna. Retailer fitment only. KTM lines added from SportbikeTrackGear (2023 250 SX-F) and Dennis Kirk (2024 250 XC). SportbikeTrackGear separately lists the FA368R rear for GasGas MC 250F 2021-2024 (STG number E|1433-FA368R|21).",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-007"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "brake pads (front and rear, sintered)",
+   "brand": "Galfer (GBrakes)",
+   "product": "Sintered HH Brake Pads for KTM / Husqvarna / GasGas (front or rear)",
+   "part_numbers": [],
+   "variants": [
+    "Front",
+    "Rear"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '04-26 KTM 125-530 all'"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2025
+     ],
+     "notes": "Slavens: '04-26 KTM 125-530 all'"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '04-26 KTM 125-530 all'"
+    },
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '04-26 KTM 125-530 all'"
+    },
+    {
+     "make": "KTM",
+     "model": "125 XC",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Slavens: '04-26 KTM 125-530 all'"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '04-26 KTM 125-530 all'"
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '04-26 KTM 125-530 all'"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '04-26 KTM 125-530 all'"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '04-26 KTM 125-530 all'"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '04-26 KTM 125-530 all'"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '04-26 KTM 125-530 all'"
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Slavens: '04-26 KTM 125-530 all'"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '04-26 KTM 125-530 all'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '14-26 Husqvarna 125-501 all'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 150",
+     "years": [
+      2025
+     ],
+     "notes": "Slavens: '14-26 Husqvarna 125-501 all'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '14-26 Husqvarna 125-501 all'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 300",
+     "years": [
+      2025
+     ],
+     "notes": "Slavens: '14-26 Husqvarna 125-501 all'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX 300",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '14-26 Husqvarna 125-501 all'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '14-26 Husqvarna 125-501 all'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Slavens: '14-26 Husqvarna 125-501 all'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '14-26 Husqvarna 125-501 all'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '14-26 Husqvarna 125-501 all'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Slavens: '14-26 Husqvarna 125-501 all'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '21-26 GasGas 125-500 all'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '21-26 GasGas 125-500 all'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '21-26 GasGas 125-500 all'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Slavens: '21-26 GasGas 125-500 all'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '21-26 GasGas 125-500 all'"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Slavens: '21-26 GasGas 125-500 all'"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Slavens: '21-26 GasGas 125-500 all'"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 300",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: '21-26 GasGas 125-500 all'"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 350F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Slavens: '21-26 GasGas 125-500 all'"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 450F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Slavens: '21-26 GasGas 125-500 all'"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 250-X",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Slavens: 'Triumph TF250/450 ALL'"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 450-RC Edition",
+     "years": [
+      2025
+     ],
+     "notes": "Slavens: 'Triumph TF250/450 ALL'"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 450-X",
+     "years": [
+      2026
+     ],
+     "notes": "Slavens: 'Triumph TF250/450 ALL'"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 250-C",
+     "years": [
+      2026
+     ],
+     "notes": "Slavens: 'Triumph TF250/450 ALL'"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 450-C",
+     "years": [
+      2026
+     ],
+     "notes": "Slavens: 'Triumph TF250/450 ALL'"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 250-E",
+     "years": [
+      2026
+     ],
+     "notes": "Slavens: 'Triumph TF250/450 ALL'"
+    },
+    {
+     "make": "Triumph",
+     "model": "TF 450-E",
+     "years": [
+      2026
+     ],
+     "notes": "Slavens: 'Triumph TF250/450 ALL'"
+    }
+   ],
+   "fitment_source_url": "https://slavensracing.com/shop/sintered-brake-pads-for-ktm-hqv-berg-gg-by-galfer-gbrakes/",
+   "what_it_changes": "Dealer copy: sintered, 'HH rated pad with excellent feel and modulation'.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Slavens Racing",
+     "url": "https://slavensracing.com/shop/sintered-brake-pads-for-ktm-hqv-berg-gg-by-galfer-gbrakes/",
+     "price_if_stated": "36.10-38.00",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No Galfer part numbers on the page (SKU N/A). Family wording expanded by us to roster bikes. The dealer says 'all' 2021-26 GasGas, which does not account for the 2024+ Braktec front caliper; the front pad fit on 2024+ GasGas is doubtful. Triumph fit stated by dealer without years.",
+   "confidence": "unverified",
+   "is_service": false,
+   "id": "br2-008"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "front rotor (standard size, floating)",
+   "brand": "Galfer",
+   "product": "Floating Wave Front Rotor DF606FLW (KTM)",
+   "part_numbers": [
+    "DF606FLW"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Galfer release: 'Compatible with KTM 2012-2023 SX and SXF models'"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "same wording"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "same wording"
+    },
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023
+     ],
+     "notes": "same wording"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "same wording"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "same wording"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "same wording"
+    }
+   ],
+   "fitment_source_url": "https://vitalmx.com/news/press-release/New-Product-Release-Galfer-KTM-Floating-Wave-Front-Rotors,22215",
+   "what_it_changes": "Maker claims: full floating for optimum pad-to-rotor contact; replaces stock rotor; 420 stainless, laser cut, double-disc ground, heat treated; KBA and TUV approved; made in Spain.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Retail (press release)",
+     "url": "https://vitalmx.com/news/press-release/New-Product-Release-Galfer-KTM-Floating-Wave-Front-Rotors,22215",
+     "price_if_stated": "149.00",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [
+    {
+     "source": "Vital MX comment on the release",
+     "url": "https://vitalmx.com/news/press-release/New-Product-Release-Galfer-KTM-Floating-Wave-Front-Rotors,22215",
+     "summary": "One commenter (Madc32) said two earlier Galfer-equipped bikes had pad damage from rotor edge burrs and wondered if these would be deburred. Anecdote only."
+    }
+   ],
+   "caveats": "Press release from October 2022; price is the 2022 retail figure. Family wording expanded by us; XC models not named. Fixed version DF606W is in brakes_controls (bc-004).",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-009"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "brake pads",
+   "brand": "EBC",
+   "product": "Sport Carbon X brake pads (FA181X / FA368X)",
+   "part_numbers": [
+    "FA181X",
+    "FA368X"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2024
+     ],
+     "notes": "Dennis Kirk: 'exact fit' for 2024 KTM 250 XC"
+    }
+   ],
+   "fitment_source_url": "https://www.denniskirk.com/brake-pads/2024-ktm-250-xc",
+   "what_it_changes": "EBC Carbon X compound pads (no further claims on the page).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Dennis Kirk",
+     "url": "https://www.denniskirk.com/brake-pads/2024-ktm-250-xc",
+     "price_if_stated": "38.02",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Dennis Kirk does not state front/rear. Fitment checked for one bike-year only (2024 250 XC); the same pad shapes are shared across the KTM group but that is not stated here.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-010"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "brake pads",
+   "brand": "EBC",
+   "product": "FA181R Long-Life Sintered R-Series and FA181HH Double-H Sintered pads",
+   "part_numbers": [
+    "FA181R",
+    "FA181HH"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2024
+     ],
+     "notes": "Dennis Kirk: 'exact fit' for 2024 KTM 250 XC; FA181HH listed as 'Front or Rear'"
+    }
+   ],
+   "fitment_source_url": "https://www.denniskirk.com/brake-pads/2024-ktm-250-xc",
+   "what_it_changes": "Sintered metal pads; HH is EBC's highest friction rating (name only, no claim quoted).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Dennis Kirk",
+     "url": "https://www.denniskirk.com/brake-pads/2024-ktm-250-xc",
+     "price_if_stated": "39.97 (FA181R); 47.88 (FA181HH)",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Position not stated for FA181R. Race version MXS181 is in brakes_controls (bc-009). One bike-year checked.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-011"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "brake pads",
+   "brand": "Moose Racing",
+   "product": "Moose Offroad XCR and M1 Sintered Metal brake pads (KTM group)",
+   "part_numbers": [
+    "1721-0086",
+    "1721-0082",
+    "M935-S47",
+    "M617-S57",
+    "M726-S47"
+   ],
+   "variants": [
+    "XCR sintered 1721-0086 / M935-S47",
+    "M1 sintered 1721-0082 / M617-S57",
+    "Front XCR Comp M726-S47"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2024
+     ],
+     "notes": "Dennis Kirk: 'exact fit' for 2024 KTM 250 XC"
+    }
+   ],
+   "fitment_source_url": "https://www.denniskirk.com/brake-pads/2024-ktm-250-xc",
+   "what_it_changes": "Sintered metal off-road pads (compound names only on the page).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Dennis Kirk",
+     "url": "https://www.denniskirk.com/brake-pads/2024-ktm-250-xc",
+     "price_if_stated": "42.95 (41.95 for M726-S47)",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Only M726-S47 is labelled front; the others give no position. Pairing of 1721-xxxx Parts Unlimited numbers to M-numbers is not stated. One bike-year checked.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-012"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "brake pads",
+   "brand": "Moose Racing",
+   "product": "Moose Offroad Qualifier brake pads (KTM group)",
+   "part_numbers": [
+    "1720-0226",
+    "1720-0222"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2024
+     ],
+     "notes": "Dennis Kirk: 'exact fit' for 2024 KTM 250 XC"
+    }
+   ],
+   "fitment_source_url": "https://www.denniskirk.com/brake-pads/2024-ktm-250-xc",
+   "what_it_changes": "Budget Qualifier pad line (no compound stated).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Dennis Kirk",
+     "url": "https://www.denniskirk.com/brake-pads/2024-ktm-250-xc",
+     "price_if_stated": "18.95",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Position and compound not stated. One bike-year checked.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-013"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "brake pads",
+   "brand": "DP Brakes",
+   "product": "SDP Pro MX and Standard sintered metal pads (KTM group)",
+   "part_numbers": [
+    "SDP935",
+    "DP935",
+    "SDP617",
+    "DP617"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2024
+     ],
+     "notes": "Dennis Kirk: 'exact fit' for 2024 KTM 250 XC"
+    }
+   ],
+   "fitment_source_url": "https://www.denniskirk.com/brake-pads/2024-ktm-250-xc",
+   "what_it_changes": "Sintered metal pads; SDP Pro MX is DP's race line (name only).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Dennis Kirk",
+     "url": "https://www.denniskirk.com/brake-pads/2024-ktm-250-xc",
+     "price_if_stated": "53.96 (SDP); 47.66 (DP)",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Position not stated (935 and 617 are two different pad shapes). One bike-year checked.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-014"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "brake pads",
+   "brand": "Moto-Master",
+   "product": "SinterPRO Racing and Nitro Sintered pads (KTM group)",
+   "part_numbers": [
+    "94411-PU",
+    "93211-PU",
+    "93011-PU",
+    "94421-PU",
+    "93021-PU"
+   ],
+   "variants": [
+    "SinterPRO Racing: 94411-PU, 93211-PU, 93011-PU",
+    "Nitro sintered: 94421-PU, 93021-PU"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2024
+     ],
+     "notes": "Dennis Kirk: 'exact fit' for 2024 KTM 250 XC"
+    }
+   ],
+   "fitment_source_url": "https://www.denniskirk.com/brake-pads/2024-ktm-250-xc",
+   "what_it_changes": "Sintered race (SinterPRO) and general (Nitro) pads.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Dennis Kirk",
+     "url": "https://www.denniskirk.com/brake-pads/2024-ktm-250-xc",
+     "price_if_stated": "27.86 (SinterPRO); 22.46 (Nitro)",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Position not stated; three SinterPRO numbers listed for one bike, so some are likely front and some rear. One bike-year checked.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-015"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "brake pads",
+   "brand": "All Balls Racing",
+   "product": "Sintered brake pads (KTM group)",
+   "part_numbers": [
+    "18-8061",
+    "18-8060"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2024
+     ],
+     "notes": "Dennis Kirk: 'exact fit' for 2024 KTM 250 XC"
+    }
+   ],
+   "fitment_source_url": "https://www.denniskirk.com/brake-pads/2024-ktm-250-xc",
+   "what_it_changes": "Sintered replacement pads.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Dennis Kirk",
+     "url": "https://www.denniskirk.com/brake-pads/2024-ktm-250-xc",
+     "price_if_stated": "29.26",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Position not stated. One bike-year checked.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-016"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "brake pads",
+   "brand": "Galfer",
+   "product": "HH Sintered FD138G1396 and Semi-Metallic FD291G1054 pads",
+   "part_numbers": [
+    "FD138G1396",
+    "FD291G1054"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2024
+     ],
+     "notes": "Dennis Kirk: 'exact fit' for 2024 KTM 250 XC"
+    }
+   ],
+   "fitment_source_url": "https://www.denniskirk.com/brake-pads/2024-ktm-250-xc",
+   "what_it_changes": "G1396 = HH sintered compound; G1054 = semi-metallic compound (per listing names).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Dennis Kirk",
+     "url": "https://www.denniskirk.com/brake-pads/2024-ktm-250-xc",
+     "price_if_stated": "32.31 (FD138G1396); 26.55 (FD291G1054)",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Position not stated. Galfer's own tables could not be read (galfer.com redirect blocked). One bike-year checked.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-017"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "brake pads",
+   "brand": "RFX",
+   "product": "Pro Series Sintered front and rear pads (KTM group)",
+   "part_numbers": [
+    "FXBP5070099CP",
+    "FXBP5100099CP"
+   ],
+   "variants": [
+    "Front FXBP5070099CP",
+    "Rear FXBP5100099CP"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2024
+     ],
+     "notes": "Dennis Kirk: 'exact fit' for 2024 KTM 250 XC"
+    }
+   ],
+   "fitment_source_url": "https://www.denniskirk.com/brake-pads/2024-ktm-250-xc",
+   "what_it_changes": "Sintered Pro Series pads.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Dennis Kirk",
+     "url": "https://www.denniskirk.com/brake-pads/2024-ktm-250-xc",
+     "price_if_stated": "32.99",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "One bike-year checked.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-018"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "rear rotor (Batfly)",
+   "brand": "Braking",
+   "product": "Batfly Rear Rotor, KTM / Husqvarna (Braking #32-5245)",
+   "part_numbers": [
+    "32-5245"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2020
+     ],
+     "notes": "Vivid Racing: 125 SX 2008-2017, 2020"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2020
+     ],
+     "notes": "Vivid: 150 SX 2008-2017, 2020"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2020
+     ],
+     "notes": "Vivid: 250 SX 2008-2017, 2020"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2020
+     ],
+     "notes": "Vivid: 250 XC 2008-2017, 2020"
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2020
+     ],
+     "notes": "Vivid: 300 XC 2008-2017, 2020"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020
+     ],
+     "notes": "Vivid: 250 SX-F 2008-2017, 2020"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2020
+     ],
+     "notes": "Vivid: 350 SX-F 2011-2017, 2020"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020
+     ],
+     "notes": "Vivid: 450 SX-F 2008-2017, 2020"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2020
+     ],
+     "notes": "Vivid: 250 XC-F ... 2012-2017, 2020"
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2020
+     ],
+     "notes": "Vivid: 350 XC-F 2012-2017, 2020"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2020
+     ],
+     "notes": "Vivid: 450 XC-F ... 2013-2017, 2020"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2020
+     ],
+     "notes": "Vivid: TC125 2014-2017, 2020"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2020
+     ],
+     "notes": "Vivid: TC250 2014-2017, 2020"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2020
+     ],
+     "notes": "Vivid: FC250 2014-2017, 2020"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2020
+     ],
+     "notes": "Vivid: FC350 2014-2017, 2020"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2020
+     ],
+     "notes": "Vivid: FC450 2014-2017, 2020"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2020
+     ],
+     "notes": "Vivid: FX350 2017, 2020"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2020
+     ],
+     "notes": "Vivid: FX450 2017, 2020"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX 300",
+     "years": [
+      2020
+     ],
+     "notes": "Vivid: TX300i 2020"
+    }
+   ],
+   "fitment_source_url": "https://stg.vividracing.com/braking-rear-batfly-rotor-ktm-husqvarna-husaberg-2020-p-153798256.html",
+   "what_it_changes": "Maker copy via retailer: non-round directional Batfly profile, laser-cut AISI 410 stainless, heat treated, CNC finished; alternating grooves to shed heat and renew the pad surface, for better response and modulation.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Vivid Racing",
+     "url": "https://stg.vividracing.com/braking-rear-batfly-rotor-ktm-husqvarna-husaberg-2020-p-153798256.html",
+     "price_if_stated": "",
+     "currency": "",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Vivid's year list jumps from 2017 to 2020 and stops at 2020, which looks like a catalogue artefact; 2021+ not stated. Price did not load. Page is on a staging subdomain (stg.vividracing.com). braking.com not checked.",
+   "confidence": "unverified",
+   "is_service": false,
+   "id": "br2-019"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "master cylinder rebuild kit",
+   "brand": "All Balls Racing",
+   "product": "Brake Master Cylinder Rebuild Kit, KTM 450 SX-F 2014-2026",
+   "part_numbers": [
+    "18-1035"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "SportbikeTrackGear: KTM 450 SX-F 2014-2026 (each year listed); mounting 'Rear / Front'"
+    }
+   ],
+   "fitment_source_url": "https://www.sportbiketrackgear.com/all-balls-2014-2024-ktm-450-sx-f-brake-master-cylinder-rebuild-kit/",
+   "what_it_changes": "Service kit: cup seals, O-rings, copper washers and screws (EPDM rubber) to rebuild the master cylinder.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "SportbikeTrackGear",
+     "url": "https://www.sportbiketrackgear.com/all-balls-2014-2024-ktm-450-sx-f-brake-master-cylinder-rebuild-kit/",
+     "price_if_stated": "39.68",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "18-1035 is read from the STG number 'A|1044-18-1035|129' (manufacturer field shows '2'). Page lists mounting as both rear and front, which is unusual for one kit; confirm on allballsracing.com.",
+   "confidence": "unverified",
+   "is_service": false,
+   "id": "br2-020"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "oversize front rotor kit (270mm, floating)",
+   "brand": "Moto-Master",
+   "product": "Flame Floating Front Rotor Kit 270mm, Husqvarna 125-501cc",
+   "part_numbers": [
+    "310040-PU"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P: TC125 2014-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 150",
+     "years": [
+      2025
+     ],
+     "notes": "J&P: TC150 2025-2026"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P: TC250 2014-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 300",
+     "years": [
+      2025
+     ],
+     "notes": "J&P: TC300 2025-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX 300",
+     "years": [
+      2022,
+      2023
+     ],
+     "notes": "J&P: TX300i 2022-2023"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: FC250 2014-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": "J&P: FC350 2014-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: FC450 2014-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2022,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: FX350 2022-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": "J&P: FX450 2017-2027"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/moto-master-flame-floating-front-rotor-kit-270mm-husqvarna-125cc-501cc",
+   "what_it_changes": "Kit: Flame MX 270mm front rotor, billet caliper relocation bracket and Nitro Sport pads.",
+   "supporting_parts": "Includes bracket and pads.",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/moto-master-flame-floating-front-rotor-kit-270mm-husqvarna-125cc-501cc",
+     "price_if_stated": "316.76",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Husqvarna-labelled sibling of the KTM/Husqvarna/GasGas kit 310045-PU (bc-006). The page also prints GasGas and other lines identical to those on the Honda and Kawasaki kit pages, so they were treated as cross-listing and not recorded. Husqvarna 2024+ models: caliper brand not addressed by the listing. Out of stock when checked.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-021"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "front rotor (260mm floating, oversize)",
+   "brand": "Moto-Master",
+   "product": "Flame 260mm Floating Front Rotor, Kawasaki 250-450cc",
+   "part_numbers": [],
+   "variants": [
+    "Cycle Gear item P1054254 (retailer item)"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Cycle Gear: KX250 2006-2024"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Cycle Gear: KX250X 2021-2024"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Cycle Gear: KX450 2019-2023"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Cycle Gear: KX450X 2021-2023"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/moto-master-flame-260mm-floating-front-rotor-kawasaki-250cc-450cc-2006-2023",
+   "what_it_changes": "Retailer copy: up to 25% performance gain and up to 20% weight saving claimed; billet aluminium carrier, stainless floaters.",
+   "supporting_parts": "Needs an adapter bracket (sold separately) because the 260mm disc is oversize on these bikes.",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/moto-master-flame-260mm-floating-front-rotor-kawasaki-250cc-450cc-2006-2023",
+     "price_if_stated": "154.76",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No Moto-Master part number on the page. 2024+ KX450 and 2025+ KX250 not listed.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-022"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "caliper relocation bracket",
+   "brand": "Galfer",
+   "product": "Front Brake Caliper Relocation Bracket SP027 (GasGas EC)",
+   "part_numbers": [
+    "SP027"
+   ],
+   "variants": [],
+   "fits": [],
+   "fitment_source_url": "https://www.ghostbikes.com/collections/galfer-brake-accessories-for-gasgas.oembed",
+   "what_it_changes": "Relocation bracket for running an oversize front rotor.",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Ghostbikes (UK)",
+     "url": "https://www.ghostbikes.com/collections/galfer-brake-accessories-for-gasgas.oembed",
+     "price_if_stated": "76.49",
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Ghostbikes lists only GasGas EC 250 / EC 300 2018-2020 (pre-KTM-era GasGas enduro, out of scope); kept as a lead with no in-scope fits because Ghostbikes' GasGas Galfer collection has no 2021+ MC/EX bracket.",
+   "confidence": "unverified",
+   "is_service": false,
+   "id": "br2-023"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "oversize rotor caliper relocation bracket (280mm)",
+   "brand": "Galfer (GBrakes)",
+   "product": "GBrakes Caliper Relocation Bracket 280mm",
+   "part_numbers": [],
+   "variants": [
+    "J&P item P1175711 (retailer item; 'price depends on fitment', vehicle-specific)"
+   ],
+   "fits": [
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "J&P: MC 125 2021-2023"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2022,
+      2023
+     ],
+     "notes": "J&P: MC 250 2022-2023"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "J&P: MC 250F 2021-2023"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2022,
+      2023
+     ],
+     "notes": "J&P: MC 350F 2022-2023"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "J&P: MC 450F 2021-2023"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "J&P: CRF250R 2019-2025"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "J&P: CRF250RX 2019-2025"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "J&P: CRF450R 2019-2025"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "J&P: CRF450RX 2019-2023"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P: TC125 2014-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P: TC250 2014-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX 300",
+     "years": [
+      2022,
+      2023
+     ],
+     "notes": "J&P: TX300i 2022-2023"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: FC250 2014-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": "J&P: FC350 2014-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: FX350 2017-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": "J&P: FX450 2017-2027"
+    },
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: 125 SX 2009-2027"
+    },
+    {
+     "make": "KTM",
+     "model": "125 XC",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": "J&P: 125 XC 2021-2027"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2025
+     ],
+     "notes": "J&P: 150 SX 2025"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: 250 XC 2009-2027 (and 250 XC TPI 2020-2022)"
+    },
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P: 300 SX 2023-2027"
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "J&P: 300 XC TPI 2020-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: 250 XC-F 2010-2027"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: 350 SX-F 2011-2027"
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": "J&P: 350 XC-F 2011-2027"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: 450 SX-F 2009-2027"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: 450 XC-F 2009-2027"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "J&P: KX250 2006-2023"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250X",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "J&P: KX250X 2021-2023"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ125",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "J&P: YZ125 2008-2021"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "J&P: YZ250 2008-2021"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P: YZ250F 2007-2026"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250FX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: YZ250FX 2015-2027"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250X",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "J&P: YZ250X 2016-2027"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P: YZ450F 2008-2026"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/gbrakes-caliper-relocation-bracket-280mm",
+   "what_it_changes": "Relocates the stock caliper so a 280mm front rotor can be run; retailer says it improves braking strength and responsiveness; made in USA.",
+   "supporting_parts": "Needs a 280mm rotor (e.g. GBrakes GBDOS224 kit for KTM group). Required for running a 280mm rotor.",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/gbrakes-caliper-relocation-bracket-280mm",
+     "price_if_stated": "112.00",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Braktec split: J&P stops every GasGas MC line at 2023 while KTM and Husqvarna run to 2027, which matches the 2024+ GasGas Braktec caliper change. No Galfer part numbers per bike. KTM 250 SX, 250 SX-F and Husqvarna FC 450 are missing from the list (not explained). Yamaha list truncated after YZ450FX.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-024"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "front rotor (260mm floating, oversize)",
+   "brand": "Moto-Master",
+   "product": "Flame 260mm Floating Front Rotor, KTM / Husqvarna / GasGas / Husaberg 125-530cc",
+   "part_numbers": [],
+   "variants": [
+    "Cycle Gear item P1054260",
+    "Finishes: Silver, Black, Blue"
+   ],
+   "fits": [
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Cycle Gear: MC 125 2021-2027"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2022,
+      2023
+     ],
+     "notes": "Cycle Gear: MC 250 2022, 2023"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Cycle Gear: MC 250F 2021-2023"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Cycle Gear: MC 350F 2022-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Cycle Gear: MC 450F 2021-2027"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Cycle Gear: EX 250 2022-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 250F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Cycle Gear: EX 250F 2021-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 350F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Cycle Gear: EX 350F 2021-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "EX 450F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Cycle Gear: EX 450F 2021-2025"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Cycle Gear: FC250 2014-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": "Cycle Gear: FC350 2014-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Cycle Gear: TC250 2014-2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 300",
+     "years": [
+      2025
+     ],
+     "notes": "Cycle Gear: TC300 2025, 2027"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX 300",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Cycle Gear: TX300i 2020-2023"
+    },
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Cycle Gear: 125 SX 1998-2027"
+    },
+    {
+     "make": "KTM",
+     "model": "125 XC",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": "Cycle Gear: 125 XC 2021-2027"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2025
+     ],
+     "notes": "Cycle Gear: 150 SX 2025"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Cycle Gear: 250 XC 2006-2027"
+    },
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Cycle Gear: 300 SX 2023-2027"
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Cycle Gear: 300 XC TPI 2020-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Cycle Gear: 250 XC-F 2007-2027"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Cycle Gear: 350 SX-F 2011-2027"
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2027
+     ],
+     "notes": "Cycle Gear: 350 XC-F 2011-2027"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/moto-master-flame-260-floating-front-rotor-ktm-husqvarna-gas-gas-husaberg-125cc-530cc",
+   "what_it_changes": "Retailer copy: up to 25% performance gain and up to 20% weight saving claimed; billet aluminium hub, stainless floaters.",
+   "supporting_parts": "Needs an adapter bracket to reposition the stock caliper, sold separately.",
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/moto-master-flame-260-floating-front-rotor-ktm-husqvarna-gas-gas-husaberg-125cc-530cc",
+     "price_if_stated": "154.76-188.06",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No Moto-Master part number. List cut off at KTM 400 SX, so 450 SX-F/XC-F and others are missing. GasGas lines are inconsistent (MC 250F stops 2023 but MC 450F runs to 2027) and do not reflect the 2024+ Braktec caliper; check caliper before buying.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-025"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "oversize front rotor kit (280mm, solid mount)",
+   "brand": "Galfer",
+   "product": "280 Tsunami Kit, Honda CRF250R/RX and CRF450R/RX",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "CT Racing: 2019-2022 CRF250R"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "CT Racing: 2019-2022 CRF250RX"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "CT Racing: 2019-2022 CRF450R (and CRF450R W.E.)"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "CT Racing: 2019-2022 CRF450RX"
+    }
+   ],
+   "fitment_source_url": "https://ctracingservices.com/products/280-tsunami-kit-hon",
+   "what_it_changes": "280mm solid-mount Tsunami Wave rotor with 6061-T6 aluminium relocation bracket (dealer copy; Galfer-patented rotor, made in the Galfer factory).",
+   "supporting_parts": "Kit includes rotor and bracket; pads not listed.",
+   "where_to_buy": [
+    {
+     "seller": "CT Racing Services",
+     "url": "https://ctracingservices.com/products/280-tsunami-kit-hon",
+     "price_if_stated": "253.10",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No Galfer part number on the page. Fitment stops at 2022; 2023+ Honda not listed. Galfer maker tables unreachable (galfer.com redirect).",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-026"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "brake pads (85cc, front, racing)",
+   "brand": "Galfer",
+   "product": "G1396R Racing Off-Road Front Brake Pads, KTM SX 85 / Husqvarna TC 85 / GasGas MC 85",
+   "part_numbers": [
+    "FD458G1396R"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Greenland MX: 'KTM SX 85 12-..' (open-ended)"
+    }
+   ],
+   "fitment_source_url": "https://www.greenlandmx.com/int/en/galfer_ktm_sx_85_12-.._hva_tc_85_14-.._gas_gas_mc_85_21-.._racing_off-road_front_brake_pads/FD458G1396R.html",
+   "what_it_changes": "Racing compound with a ceramic heat-shield coating and slotted friction material to cut heat transfer; developed with MXGP, AMA Supercross and EnduroGP riders (dealer copy).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Greenland MX",
+     "url": "https://www.greenlandmx.com/int/en/galfer_ktm_sx_85_12-.._hva_tc_85_14-.._gas_gas_mc_85_21-.._racing_off-road_front_brake_pads/FD458G1396R.html",
+     "price_if_stated": "",
+     "currency": "",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "'12-..' read as open-ended; the 2025+ 85 SX is a new platform and the dealer does not address it. HH sintered version FD458G1396 seen at JJ Motorsports (17220858, $32.31) without fitment. Price not shown.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-027"
+  }
+ ],
+ "gaps": [],
+ "not_done": []
+}

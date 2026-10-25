@@ -1,0 +1,2116 @@
+{
+ "slice": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2027, pass 5 (2026-10-25): new researched products not in honda-research.json, p4-gapfill.json, p4-bearings-mounts.json or specialty/*.json, plus 2025-2027 rider/tester feedback.",
+ "products": [
+  {
+   "id": "cr5-002",
+   "category": "exhaust",
+   "subcategory": "full system",
+   "brand": "Yoshimura",
+   "product": "RS-12 Stainless Full Exhaust w/ Stainless Muffler, CRF250R/RX 25-27",
+   "part_numbers": [
+    "228460S520"
+   ],
+   "variants": [
+    "INS-31-K low-volume insert included"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://yoshimura-rd.com/products/crf250r-rx-rs-12-stainless-full-exhaust-w-stainless-muffler-228460s520",
+   "what_it_changes": "Same maker claim as titanium version: 'up to +8% HP gain @12,000rpm and up to +8% torque @8650rpm'; header resonator to 'maximize power across the spectrum' (yoshimura-rd.com).",
+   "supporting_parts": [
+    "INS-31-K (included)",
+    "SA-21-K spark arrester (sold separately)"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "Yoshimura R&D (maker)",
+     "url": "https://yoshimura-rd.com/products/crf250r-rx-rs-12-stainless-full-exhaust-w-stainless-muffler-228460s520",
+     "price_if_stated": 1099.0,
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [
+    "cr5f-001"
+   ],
+   "caveats": "One customer review on the maker page says it was heavier than stock with minimal power gain (single owner, contradicts maker claim). Sold out at time of reading.",
+   "confidence": "high"
+  },
+  {
+   "id": "cr5-003",
+   "category": "exhaust",
+   "subcategory": "silencer",
+   "brand": "HGS",
+   "product": "Aluminium silencer, Honda CRF450R 2021-2025",
+   "part_numbers": [
+    "CF-421-SSG"
+   ],
+   "variants": [
+    "Stainless steel end cap"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Retailer lists CRF 450 R 2021-2025 incl. 50th Anniversary 2023; also CRF 450 RWE 2021-2025 and R-S 2022-2024"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Retailer note: 'American models only'"
+    }
+   ],
+   "fitment_source_url": "https://www.ghostbikes.com/products/2477478-hgs-silencer-for-honda-crf450r-2021-2025",
+   "what_it_changes": "Retailer copy: lighter than stock silencer; HGS systems 'enhance throttle response, improve torque' (ghostbikes.com, not the maker).",
+   "supporting_parts": [
+    "Retailer: 'Full HGS system must be used' (most HGS exhausts not compatible with OEM parts)"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "Ghostbikes (UK)",
+     "url": "https://www.ghostbikes.com/products/2477478-hgs-silencer-for-honda-crf450r-2021-2025",
+     "price_if_stated": 633.99,
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Fitment 2025 crosses the 2025 CRF450R exhaust change (new head pipe/muffler per MXA) — confirm with HGS. Retailer says silencer requires the full HGS system. No maker page read.",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5-004",
+   "category": "ecu",
+   "subcategory": "replacement ECU",
+   "brand": "Vortex",
+   "product": "X10 ECU (fuel & ignition control), CRF250R",
+   "part_numbers": [
+    "ECU-8H2-250R"
+   ],
+   "variants": [
+    "Optional Vortex handlebar switch (+$69.95)"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Retailer lists CRF250R 2018-2027 (year selector stops at 2025)"
+    }
+   ],
+   "fitment_source_url": "https://www.crfsonly.com/catalog/product_info.php/products_id/7919",
+   "what_it_changes": "Retailer copy of Vortex claims: 10 pre-programmed fuel/spark maps, three trim switches (low/mid/high throttle, +12.5% to -10% fuel), plug-in to stock harness, V-Boost, more power and easier starting (crfsonly.com).",
+   "supporting_parts": [
+    "Vortex software and interface sold separately for reprogramming"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "CRFs Only",
+     "url": "https://www.crfsonly.com/catalog/product_info.php/products_id/7919",
+     "price_if_stated": 849.95,
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Listing year selector (2018-2025) and fitment section (2018-2027) disagree. 2025 CRF250R has a new ECU configuration (Yoshimura release) — confirm map compatibility. CRF250RX not listed. Closed course only.",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5-005",
+   "category": "ecu",
+   "subcategory": "replacement ECU",
+   "brand": "Vortex",
+   "product": "X10 ECU (fuel & ignition control), CRF450RX",
+   "part_numbers": [
+    "ECU-8H2-450RX"
+   ],
+   "variants": [
+    "Optional Vortex handlebar switch (+$69.95)"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Retailer lists CRF450RX 2017-2026 (year selector to 2025)"
+    }
+   ],
+   "fitment_source_url": "https://www.crfsonly.com/catalog/product_info.php/products_id/6243",
+   "what_it_changes": "Retailer copy: 10 maps, 3 fuel trim switches (+12.5%/-10%), V-Boost, reads stock sensors, claims fewer starting issues/flameouts (crfsonly.com).",
+   "supporting_parts": [
+    "Vortex software/interface sold separately"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "CRFs Only",
+     "url": "https://www.crfsonly.com/catalog/product_info.php/products_id/6243",
+     "price_if_stated": 849.95,
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Separate SKU from the CRF450R unit (ECU-8H2-450R, crr-018). RX-specific maps. Year range spans the 2021 and 2025 platform changes — confirm with Vortex.",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5-006",
+   "category": "ecu",
+   "subcategory": "exhaust + ECU combo",
+   "brand": "FMF / Vortex (CRFs Only bundle)",
+   "product": "FMF 4.1 Titanium exhaust & Vortex X10 ECU combo, CRF250R/RX 25-26",
+   "part_numbers": [
+    "CO-041615-041619"
+   ],
+   "variants": [
+    "Optional header gasket (+$19.95)"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": "Body lists 2025-2026; page title says '25-27"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.crfsonly.com/crf250rrx25-26-fmf-41-titanium-exhaust-vortex-ecu-combo",
+   "what_it_changes": "Retailer: 'Performance gains vary depending on Throttle and RPM points'; top-end gains and better bottom-end from the 'Power' settings; 10 maps, trim switches (crfsonly.com). No dyno numbers.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "CRFs Only",
+     "url": "https://www.crfsonly.com/crf250rrx25-26-fmf-41-titanium-exhaust-vortex-ecu-combo",
+     "price_if_stated": 2108.05,
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Dealer bundle SKU, not a maker part number; combo SKU suggests FMF 041615 (MegaBomb header) + 041619 (slip-on) but the page does not itemise them. Title/body year mismatch.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "cr5-007",
+   "category": "ecu",
+   "subcategory": "replacement ECU",
+   "brand": "GET (Athena)",
+   "product": "SX1 PRO ECU kit for Honda CRF250R 2024 (with SX1 Controller)",
+   "part_numbers": [],
+   "variants": [
+    "Map 1 Racing; Map 2 Racing + GPA traction control level 5"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2024
+     ],
+     "notes": "Maker installation guide GD-MIP-0058-AA 'Honda CRF 250 R 2024'"
+    }
+   ],
+   "fitment_source_url": "https://www.athena.eu/sites/default/files/2025-03/gd-mip-0058-aa-sx1pro-specifico-honda-crf-250r-2024-web.pdf",
+   "what_it_changes": "Athena/GET: plug-and-play ECU with two R&D maps, higher rev limiter than stock, maps adjustable via WiGET app (SX1 Connect) or Maya software; GPA traction control (athena.eu install guide; GET press release lists 10 GPA levels, launch control and quickshift via separate sensor).",
+   "supporting_parts": [
+    "GET SX1 Controller (included; OEM blue mode button stops working)",
+    "OEM Honda kill switch must stay",
+    "Maya software (sold separately) to edit fuel maps",
+    "Healthy OEM TPS; TPS 0-calibration recommended"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "Athena (maker, press release price for SX1 PRO 4T kit)",
+     "url": "https://www.athena.eu/en-us/corporate/community/get-presents-new-2024-sx1-pro-2t-and-4t-ecus",
+     "price_if_stated": 979.95,
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Kit part number not stated in the guide; the US price is the generic SX1 PRO 4T kit price from the press release. Other CRF250R years not confirmed here. Racing use only.",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5-009",
+   "category": "suspension",
+   "subcategory": "linkage",
+   "brand": "Krooztune (KroozR)",
+   "product": "Performance linkage, Honda CRF450R 2021- / CRF250R 2022-",
+   "part_numbers": [
+    "KT-CRF45PL21"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2021
+     ],
+     "notes": "Title: 'CRF450R 2021-' (open-ended; only start year stated)"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2022
+     ],
+     "notes": "Title: 'CRF250R22-' (open-ended)"
+    }
+   ],
+   "fitment_source_url": "https://www.teknikmotorsport.com/KT-CRF45PL21-Krooztune-Honda-CRF450R-2021-CRF250R22-Perf-Linkage",
+   "what_it_changes": "No claims on the page (ratio or sag effect not stated).",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Teknik Motorsport (AU)",
+     "url": "https://www.teknikmotorsport.com/KT-CRF45PL21-Krooztune-Honda-CRF450R-2021-CRF250R22-Perf-Linkage",
+     "price_if_stated": null,
+     "currency": "",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Only the title gives fitment; end year unknown, and 2025+ CRF450R linkage changes are not addressed. No price shown. Search-result page title says 'Adjustable performance Linkage'.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "cr5-010",
+   "category": "brakes",
+   "subcategory": "front rotor",
+   "brand": "Braking",
+   "product": "Batfly EPTA 270 OS front rotor, CRF250R 19-27",
+   "part_numbers": [
+    "32-5263E"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Retailer: 2019-2027 Honda CRF250R"
+    }
+   ],
+   "fitment_source_url": "https://www.crfsonly.com/catalog/product_info.php/products_id/7217",
+   "what_it_changes": "Braking (retailer copy): AL7075-T6 carrier, new connecting elements replacing pins to reduce deformation, radially sliding stems for more even disc temperature and more direct feel; MXGP riders reported improved feel/power.",
+   "supporting_parts": [
+    "Oversize ('OS') rotors normally need a caliper relocation bracket — not stated on this page"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "CRFs Only",
+     "url": "https://www.crfsonly.com/catalog/product_info.php/products_id/7217",
+     "price_if_stated": 402.75,
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Diameter only implied by name (270). Whether a bracket is included is not stated. CRF450R fitment not listed on this page.",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5-011",
+   "category": "brakes",
+   "subcategory": "oversize front rotor kit",
+   "brand": "Galfer",
+   "product": "Brake disc kit oversize 280mm front, Honda CRF250R / CRF450R 15-",
+   "part_numbers": [],
+   "variants": [
+    "280mm laser-cut high-carbon stainless rotor"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Retailer: 'Honda CRF 250R/CRF 450R 15-' (open-ended, 'model specific')"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Same open-ended '15-' line"
+    }
+   ],
+   "fitment_source_url": "https://www.maciag-offroad.com/galfer-brake-disc-kit-oversize-honda-crf-250r-crf-450r-15-280-mm-front-sid130392.html",
+   "what_it_changes": "Retailer copy: larger outer diameter gives more braking power; widely used in AMA SX and MXGP (maciag-offroad.com).",
+   "supporting_parts": [
+    "Kit includes matching caliper adapter, rotor and pads (retailer)"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "Maciag Offroad (DE)",
+     "url": "https://www.maciag-offroad.com/galfer-brake-disc-kit-oversize-honda-crf-250r-crf-450r-15-280-mm-front-sid130392.html",
+     "price_if_stated": 206.95,
+     "currency": "EUR",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No Galfer part number shown (only EAN 8400170097091 and shop number SID130392). Open-ended '15-' fitment expanded here to 2020-2027 as listed; 2025+ and 2027 fork/caliper changes not confirmed; RX not mentioned. Sold out when read. Galfer maker tables previously redirected (README).",
+   "confidence": "unverified"
+  },
+  {
+   "id": "cr5-012",
+   "category": "chassis",
+   "subcategory": "triple clamps",
+   "brand": "Scar Racing",
+   "product": "Triple clamps red, 22mm offset, CRF 2021/2022-25 (S2421)",
+   "part_numbers": [
+    "16-3513.RD.SCAR",
+    "S2421"
+   ],
+   "variants": [
+    "Red"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.oro2u.com/triple-clamps-red-crf-2022-25-offset-22mm-scar-s2421",
+   "what_it_changes": "Scar (distributor copy): CNC 7075-T6 aluminium, four bar positions on the top clamp, improved strength/rigidity and control; used by factory teams (oro2u.com).",
+   "supporting_parts": [
+    "Includes top clamp, bottom clamp, pressed stem, lower bearing"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "Oro2u (UK distributor)",
+     "url": "https://www.oro2u.com/triple-clamps-red-crf-2022-25-offset-22mm-scar-s2421",
+     "price_if_stated": 520.0,
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Fitment stops at 2025; 2026 (same chassis as 2025) not listed and 2027 is a new frame. Offset is stock 22mm, so it changes stiffness/bar position rather than trail.",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5-013",
+   "category": "chassis",
+   "subcategory": "triple clamps",
+   "brand": "Xtrig",
+   "product": "ROCS Pro triple clamps 22-24mm adjustable offset, Honda CRF450R 21-24 / CRF250R 22-24",
+   "part_numbers": [
+    "501330100501",
+    "30100501"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://tokyomods.com/shop/chassis/xtrig/xtrig-rocs-pro-clamps-hon-22-24mm-crf250r-22-24-crf450r-21-24/",
+   "what_it_changes": "Xtrig claims (dealer copy): opposing-clamp design reduces fork-tube deformation, self-locking clamp resists fork twist, split layout keeps controlled flex; adjustable 22-24mm offset, bolted stem (tokyomods.com).",
+   "supporting_parts": [
+    "PHDS bar mounts included 'where specified'"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "TokyoMods",
+     "url": "https://tokyomods.com/shop/chassis/xtrig/xtrig-rocs-pro-clamps-hon-22-24mm-crf250r-22-24-crf450r-21-24/",
+     "price_if_stated": 899.99,
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Different product from the fixed-offset ROCS Tech (501330101401). Dealer lists no 2025+ fitment; RX models not named. Stock status unclear.",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5-014",
+   "category": "protection",
+   "subcategory": "skid plate",
+   "brand": "Ricochet",
+   "product": "Aluminum skid plate, Honda CRF450R (SKU by year range)",
+   "part_numbers": [
+    "310",
+    "337",
+    "339"
+   ],
+   "variants": [
+    "Clear anodize",
+    "Black powder coat (+1-2 weeks)"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020
+     ],
+     "notes": "SKU 310 = 2017-2020"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "SKU 337 = 2021-2022"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "SKU 339 = 2023-2026"
+    }
+   ],
+   "fitment_source_url": "https://www.traderhank.com/products/honda-crf450r-ricochet-aluminum-skid-plate",
+   "what_it_changes": "Seller copy: 0.160in 5052-H32 aluminum, bolts on with Ricochet hardware, no drilling (traderhank.com).",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Trader Hank",
+     "url": "https://www.traderhank.com/products/honda-crf450r-ricochet-aluminum-skid-plate",
+     "price_if_stated": 150.98,
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Price shown is 2023-2026 clear anodize ($150.98; black $183.98; 2021-22 $155.98/$188.98; 2017-20 $148.98/$188.98). SKUs are short Ricochet numbers; maker page not read. Note the year split at 2023 (not 2021/2025 as for most CRF450R parts). RX not listed.",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5-015",
+   "category": "ecu",
+   "subcategory": "exhaust + ECU combo",
+   "brand": "Pro Circuit / Vortex (CRFs Only bundle)",
+   "product": "Pro Circuit Ti-6 & Vortex X10 ECU combo, CRF250R/RX 22-26",
+   "part_numbers": [
+    "CO-0312425F-VR"
+   ],
+   "variants": [
+    "Optional Vortex handlebar switch (+$69)",
+    "Optional Twin Air Powerflow kit (+$315)"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Fitment list 2022-2026; meta title says 22-27"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.crfsonly.com/crf250rrx22-24-pro-circuit-ti-6-vortex-combo",
+   "what_it_changes": "Retailer: 10 fuel/spark maps, +12.5%/-10% trims, 'more power, better power, easier starting'; Ti-6 meets AMA amateur noise but not FIM sound limits (crfsonly.com).",
+   "supporting_parts": [
+    "Pro Circuit Ti-6 0312425F (by bundle SKU)",
+    "Vortex X10 ECU-8H2-250R (implied)"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "CRFs Only",
+     "url": "https://www.crfsonly.com/crf250rrx22-24-pro-circuit-ti-6-vortex-combo",
+     "price_if_stated": 2238.1,
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Bundle SKU only; components not itemised on page. Note: not FIM sound-legal per page.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "cr5-016",
+   "category": "suspension",
+   "subcategory": "fork springs",
+   "brand": "Eibach",
+   "product": "EMS fork spring kit, Honda CRF250R/CRF450R (Showa 49mm)",
+   "part_numbers": [
+    "EIB903.052.1"
+   ],
+   "variants": [
+    "Range of spring rates (not itemised)"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Retailer: 2018-2024"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "2019-2024"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "2017-2024 (title says 17-23)"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "2017-2024"
+    }
+   ],
+   "fitment_source_url": "https://coyotedirect.com/products/eibach-17-23-honda-crf450r-ems-fork-spring-kit-7",
+   "what_it_changes": "Retailer copy: range of rates to fine-tune comfort vs performance; no performance data.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Coyote Direct",
+     "url": "https://coyotedirect.com/products/eibach-17-23-honda-crf450r-ems-fork-spring-kit-7",
+     "price_if_stated": 139.0,
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Rate options and per-rate part numbers not listed. Title (17-23) and table (17-24) disagree. 2025+ (5.0 N/mm stock, 2027 5.2) not listed.",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5-001",
+   "category": "exhaust",
+   "subcategory": "full system",
+   "brand": "Yoshimura",
+   "product": "RS-12 Titanium Full Exhaust w/ Titanium Muffler, CRF250R/RX 25-27",
+   "part_numbers": [
+    "228461S720"
+   ],
+   "variants": [
+    "INS-31-K low-volume insert included",
+    "SA-21-K / SA-20-K spark arrester sold separately"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.yoshimura-rd.com/products/crf250r-rx-rs-12-titanium-full-exhaust-w-titanium-muffler-228461s720",
+   "what_it_changes": "Yoshimura claims 'up to +8% HP gain @12,000rpm and up to +8% torque @8650rpm' vs stock; hydroformed muffler 'lighter and stronger'; press release states max +8.0% hp and +9.0% torque (yoshimura-rd.com; Vital MX press release).",
+   "supporting_parts": [
+    "INS-31-K (included)",
+    "SA-21-K spark arrester (optional)"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "Yoshimura R&D (maker)",
+     "url": "https://www.yoshimura-rd.com/products/crf250r-rx-rs-12-titanium-full-exhaust-w-titanium-muffler-228461s720",
+     "price_if_stated": 1699.0,
+     "currency": "USD",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "TokyoMods",
+     "url": "https://tokyomods.com/shop/exhaust/exhaust-yoshimura/yoshimura-crf250r-rx-2025-rs-12-stainless-full-exhaust-w-titanium-muffler/",
+     "price_if_stated": 1599.0,
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Maker page showed 'Sold Out - Contact Us' with pre-order. Maker lists CRF250RX only 2025-2026 (2027 RX not listed). No weight figure. Closed-course only. Press release: https://www.vitalmx.com/news/press-release/yoshimura-releases-all-new-rs-12-system-2025-honda-crf250r",
+   "confidence": "high"
+  },
+  {
+   "id": "cr5-017",
+   "category": "exhaust",
+   "subcategory": "full system",
+   "brand": "Akrapovič",
+   "product": "Evolution Line titanium full system, CRF250R 18-20 / CRF250RX 18-21",
+   "part_numbers": [
+    "S-H2MET12-CIQTA"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2020
+     ],
+     "notes": "Fitment fields 2018-2020"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Title only: CRF250RX 18-21 (fitment fields list CRF250 2018-2020)"
+    }
+   ],
+   "fitment_source_url": "https://www.sportbiketrackgear.com/akrapovic-honda-crf250r-18-20-crf250rx-18-21-evolution-line-titanium-full-exhaust-system/",
+   "what_it_changes": "Retailer copy: all-titanium system to maximize engine performance and reduce weight; no figures.",
+   "supporting_parts": [
+    "Spark arrester, welded bracket, titanium end cap mentioned"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "SportbikeTrackGear",
+     "url": "https://www.sportbiketrackgear.com/akrapovic-honda-crf250r-18-20-crf250rx-18-21-evolution-line-titanium-full-exhaust-system/",
+     "price_if_stated": 1693.83,
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Part number read from the store code A|1040-S-H2MET12-CIQTA|0, not a labelled MPN. Predecessor of S-H2MET13-FDHLTA (2022+). Closed course only.",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5-018",
+   "category": "chassis",
+   "subcategory": "holeshot device",
+   "brand": "Xtrig",
+   "product": "Holeshot device 55mm for Showa 49mm SSF-Air USD fork (one snap-in position)",
+   "part_numbers": [
+    "70100004"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2026
+     ],
+     "notes": "Listed on Teknik's fitment-matched page for 2026 CRF250R; title is fork-specific (Showa 49mm)"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2025
+     ],
+     "notes": "Listed for 2025 CRF450RWE (Works Edition)"
+    }
+   ],
+   "fitment_source_url": "https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf450rwe/2025/?pgnum=1",
+   "what_it_changes": "Title only: holeshot with one snap-in position; no claims.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Teknik Motorsport (AU)",
+     "url": "https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf450rwe/2025/?pgnum=1",
+     "price_if_stated": null,
+     "currency": "",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Fitment comes from the shop's model filter, not the maker. 55mm refers to the fork outer-tube clamp size presumably; not stated. Teknik lists the part on a fitment-matched page for a later model-year than the title states; price not shown ('Special Order'). Trust the title years.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "cr5-019",
+   "category": "chassis",
+   "subcategory": "holeshot device",
+   "brand": "Xtrig",
+   "product": "Holeshot HiLo 55mm for Showa 49mm SSF-Air USD fork (two locking positions)",
+   "part_numbers": [
+    "70100013"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2025
+     ],
+     "notes": "Listed for 2025 CRF450RWE (Works Edition)"
+    }
+   ],
+   "fitment_source_url": "https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf450rwe/2025/?pgnum=1",
+   "what_it_changes": "Title: two locking positions (high/low); no claims.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Teknik Motorsport (AU)",
+     "url": "https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf450rwe/2025/?pgnum=1",
+     "price_if_stated": null,
+     "currency": "",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Fitment from shop filter only. Teknik lists the part on a fitment-matched page for a later model-year than the title states; price not shown ('Special Order'). Trust the title years.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "cr5-020",
+   "category": "chassis",
+   "subcategory": "triple clamps",
+   "brand": "Xtrig",
+   "product": "ROCS Pro triple clamps, adjustable offset (EU number), CRF250 22-24 / CRF450 21-24",
+   "part_numbers": [
+    "40101015"
+   ],
+   "variants": [
+    "Supermotard version 40103002"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf250r/2026/?pgnum=14",
+   "what_it_changes": "Title only (adjustable offset).",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Teknik Motorsport (AU)",
+     "url": "https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf250r/2026/?pgnum=14",
+     "price_if_stated": null,
+     "currency": "",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Probably the European number of the US ROCS Pro 501330100501 (cr5-013), not confirmed. Also shown on 2025 CRF450RWE and 2026 CRF250R filter pages despite 21-24 title. Supermotard version 40103002 listed alongside.",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5-021",
+   "category": "chassis",
+   "subcategory": "triple clamps",
+   "brand": "Xtrig",
+   "product": "ROCS Tech triple clamps (EU number), CRF250 22-24 / CRF450 21-24",
+   "part_numbers": [
+    "40101016"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf450rwe/2025/?pgnum=2",
+   "what_it_changes": "Title only.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Teknik Motorsport (AU)",
+     "url": "https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf450rwe/2025/?pgnum=2",
+     "price_if_stated": null,
+     "currency": "",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Probably the European number of the ROCS Tech already researched as 501330101401 (crr-020); kept separately until confirmed. Teknik lists the part on a fitment-matched page for a later model-year than the title states; price not shown ('Special Order'). Trust the title years.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "cr5-022",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Eibach",
+   "product": "EMS Moto rear shock spring kit 64/66.5 x 243, Showa (CRF 250/450, KX450)",
+   "part_numbers": [
+    "881"
+   ],
+   "variants": [
+    "Rate options not listed"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2025
+     ],
+     "notes": "Listed for 2025 CRF450RWE; title says 'Showa CRF 250 450 KX450' with no years"
+    }
+   ],
+   "fitment_source_url": "https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf450rwe/2025/?pgnum=2",
+   "what_it_changes": "Title only.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Teknik Motorsport (AU)",
+     "url": "https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf450rwe/2025/?pgnum=2",
+     "price_if_stated": null,
+     "currency": "",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Short Teknik SKU; Eibach's own spring numbers/rates not shown. Second listing 881 vs 899 differs by free length (243 vs 249mm) - confirm which suits which shock.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "cr5-023",
+   "category": "suspension",
+   "subcategory": "shock spring",
+   "brand": "Eibach",
+   "product": "EMS Moto rear shock spring kit 63.9/66.4 x 249, Showa 50 (Honda CRF 250/450, RMZ450)",
+   "part_numbers": [
+    "899"
+   ],
+   "variants": [
+    "Rate options not listed"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2025
+     ],
+     "notes": "Listed for 2025 CRF450RWE; title has no years"
+    }
+   ],
+   "fitment_source_url": "https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf450rwe/2025/?pgnum=2",
+   "what_it_changes": "Title only.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Teknik Motorsport (AU)",
+     "url": "https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf450rwe/2025/?pgnum=2",
+     "price_if_stated": null,
+     "currency": "",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Short Teknik SKU; rates not listed.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "cr5-024",
+   "category": "suspension",
+   "subcategory": "fork springs",
+   "brand": "Eibach",
+   "product": "EMS Moto front fork springs 45.00mm OD x 472mm, Showa 49 USD",
+   "part_numbers": [
+    "903"
+   ],
+   "variants": [
+    "Rate options not listed"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2025
+     ],
+     "notes": "Listed for 2025 CRF450RWE; title has no years"
+    }
+   ],
+   "fitment_source_url": "https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf450rwe/2025/?pgnum=2",
+   "what_it_changes": "Title only.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Teknik Motorsport (AU)",
+     "url": "https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf450rwe/2025/?pgnum=2",
+     "price_if_stated": null,
+     "currency": "",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Short Teknik SKU; may correspond to Eibach 903.05x family (EIB903.052.1, cr5-016) but not confirmed.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "cr5-025",
+   "category": "suspension",
+   "subcategory": "fork axle lugs",
+   "brand": "Showa (GPE)",
+   "product": "GPE axle holder lug foot, left and right, black, Honda CRF 17-25",
+   "part_numbers": [
+    "F448HON01",
+    "F449HON01"
+   ],
+   "variants": [
+    "Left F448HON01",
+    "Right F449HON01"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Title: 'HONDA CRF 17-25'"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Title says CRF 17-25 without displacement; shown on 2025 CRF450R filter page"
+    }
+   ],
+   "fitment_source_url": "https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf450r/2025/?pgnum=7",
+   "what_it_changes": "Title only (Showa genuine parts / GPE billet lugs).",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Teknik Motorsport (AU)",
+     "url": "https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf450r/2025/?pgnum=7",
+     "price_if_stated": null,
+     "currency": "",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Displacement split not stated (CRF250R/RX fitment inferred from 'CRF 17-25' wording - verify). Price not shown.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "cr5-026",
+   "category": "suspension",
+   "subcategory": "fork axle brackets",
+   "brand": "KYB (factory race parts)",
+   "product": "Factory axle bracket kit, right/left, CRF450 21-24 / CRF250 22-24",
+   "part_numbers": [
+    "60012036",
+    "60012037"
+   ],
+   "variants": [
+    "Right 60012036",
+    "Left 60012037"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf250r/2026/?pgnum=14",
+   "what_it_changes": "Title only.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Teknik Motorsport (AU)",
+     "url": "https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf250r/2026/?pgnum=14",
+     "price_if_stated": null,
+     "currency": "",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Branded KYB on a Showa-equipped bike: likely for a KYB factory fork conversion; not explained on the page. Earlier A-kit billet brackets 60012028/60012029 listed for 'CRF250 2019+ & CRF450 2019-2020'. Special order.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "cr5-027",
+   "category": "suspension",
+   "subcategory": "spring retainer",
+   "brand": "KYB (factory race parts)",
+   "product": "Factory spring retainer kit, aluminium 50mm, CRF450 17- / CRF250 18-",
+   "part_numbers": [
+    "60031007"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Title: 'CRF450 17-' (open-ended)"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Title: 'CRF250 18-' (open-ended)"
+    }
+   ],
+   "fitment_source_url": "https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf250r/2026/?pgnum=14",
+   "what_it_changes": "Title only.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Teknik Motorsport (AU)",
+     "url": "https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf250r/2026/?pgnum=14",
+     "price_if_stated": null,
+     "currency": "",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Open-ended fitment expanded to 2027 as written; 2027 CRF450R has a new shock - verify. Purpose (shock spring retainer) inferred from title.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "cr5-028",
+   "category": "ecu",
+   "subcategory": "ECU reflash service",
+   "brand": "CRFs Only",
+   "product": "ECU/EFI programming service (mail-in)",
+   "part_numbers": [
+    "CO-EFIPGRM"
+   ],
+   "variants": [
+    "Map tailored to riding type and engine mods"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Fitment list 2017 onward incl. 2027 CRF250R/RX; year selector 2009-2026"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.crfsonly.com/catalog/product_info.php/products_id/4976",
+   "what_it_changes": "Seller: customises fuel and ignition for riding type (MX, SX, desert, woods...), skill level and engine mods; 30-day re-tune if unsatisfied (crfsonly.com).",
+   "supporting_parts": [
+    "Customer sends stock ECU with service form"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "CRFs Only",
+     "url": "https://www.crfsonly.com/catalog/product_info.php/products_id/4976",
+     "price_if_stated": 199.95,
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Service, not a part. Maps are not supplied to the customer (not even the original). 2027 CRF450R not listed. No dyno data.",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5-008",
+   "category": "clutch",
+   "subcategory": "complete clutch kit",
+   "brand": "Hinson",
+   "product": "Complete Billetproof Conventional Clutch Kit, Honda CRF250R 2018-2021",
+   "part_numbers": [
+    "HC794-1801"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Retailer lists 2018-2021 CRF250R"
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Firestorm AU title 'Honda CRF250RX 2019-2021'; PN only from image filename HN-HC794-1801"
+    }
+   ],
+   "fitment_source_url": "https://www.sportbiketrackgear.com/hinson-racing-2018-2021-honda-crf250r-complete-billetproof-conventional-clutch-kit/",
+   "what_it_changes": "Hinson claims (retailer copy): billet 6061-T6 hard-coated parts with 'five times the wear resistance to stock', better heat dissipation, spins truer, helps eliminate chatter.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "SportbikeTrackGear",
+     "url": "https://www.sportbiketrackgear.com/hinson-racing-2018-2021-honda-crf250r-complete-billetproof-conventional-clutch-kit/",
+     "price_if_stated": 1106.99,
+     "currency": "USD",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "MSliders",
+     "url": "https://msliders.com/products/complete-clutch-kit-honda-crf250-18-21",
+     "price_if_stated": null,
+     "currency": "",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "Firestorm Motorcycles (AU)",
+     "url": "https://www.firestormmotorcycles.com.au/honda-crf250rx-2019-2021-hinson-complete-billetpro",
+     "price_if_stated": null,
+     "currency": "",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "PN from store SKU (H|1629-HC794-1801|0), MSliders listing and a Firestorm image filename; maker-site confirmation not obtained. Firestorm lists the same kit for CRF250RX 2019-2021 (title only). Different kit from 2022+ (HC894-2201).",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5-029",
+   "category": "suspension",
+   "subcategory": "fork springs",
+   "brand": "Eibach",
+   "product": "EMS Moto front fork kit 0.50 kg/mm, 45.00mm OD x 472mm (pair)",
+   "part_numbers": [
+    "903.050.1"
+   ],
+   "variants": [
+    "0.50 kg/mm (other rates in range not listed on page)"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Maker lists 2019-2024 Honda CRF450RWE (Works Edition) only; base CRF450R not listed"
+    }
+   ],
+   "fitment_source_url": "https://eibach.com/product/903.050.1?epsid=3337",
+   "what_it_changes": "Eibach: ultra-lightweight to reduce unsprung mass, each spring tested, high linearity and consistency; made in USA (eibach.com).",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Eibach (maker)",
+     "url": "https://eibach.com/product/903.050.1?epsid=3337",
+     "price_if_stated": 139.0,
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Maker fitment is Works Edition only; Eibach 'does not guarantee fitment' on unlisted applications. 0.50 kg/mm is ~4.9 N/mm, softer than the 5.0 N/mm stock CRF450R spring testers already find soft - check rate before buying. Same 45 x 472mm size as Teknik listing 903 (cr5-024).",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5-030",
+   "category": "suspension",
+   "subcategory": "fork springs",
+   "brand": "Eibach",
+   "product": "EMS fork spring kit, Honda CRF450R 17-23 (discontinued)",
+   "part_numbers": [
+    "903.056.1"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Retailer: 2017-2023 Honda CRF450R only"
+    }
+   ],
+   "fitment_source_url": "https://eurosporttuning.com/eib-misc-powersports-903-056-1/",
+   "what_it_changes": "No claims beyond 'tailored rates'; rate not listed.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Euro Sport Tuning",
+     "url": "https://eurosporttuning.com/eib-misc-powersports-903-056-1/",
+     "price_if_stated": null,
+     "currency": "",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Marked 'DISCONTINUED - No Longer Available'. Kept for owners identifying installed springs. Rate unknown; by Eibach numbering likely a ~0.56 kg/mm (5.5 N/mm) rate - NOT confirmed.",
+   "confidence": "unverified"
+  }
+ ],
+ "feedback": [
+  {
+   "id": "cr5f-001",
+   "category": "exhaust",
+   "brand": "Yoshimura",
+   "product": "RS-12 Stainless Full Exhaust, CRF250R/RX 25-27",
+   "part_numbers": [
+    "228460S520"
+   ],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF250R",
+    "year": null
+   },
+   "source_type": "owner",
+   "publication": "Yoshimura R&D product page (customer review)",
+   "author": "customer (name not recorded)",
+   "date": "",
+   "conditions": "Owner review on maker page; bike year not stated (part fits 2025-2027)",
+   "observed": "Reviewer says the system was heavier than stock and gave minimal power gain.",
+   "measured": "",
+   "other_mods": "",
+   "url": "https://yoshimura-rd.com/products/crf250r-rx-rs-12-stainless-full-exhaust-w-stainless-muffler-228460s520",
+   "confidence": "unverified"
+  },
+  {
+   "id": "cr5f-002",
+   "category": "chassis",
+   "brand": "Ride Engineering",
+   "product": "23.5mm offset split triple clamps (CRF450 2021-23 / CRF250 2022-23)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": 2023
+   },
+   "source_type": "tester",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA Staff",
+   "date": "2023-01-12",
+   "conditions": "Stock suspension settings; before the clamps testers had lowered forks to flush and dropped race sag to 107mm because the stock bike felt too sensitive",
+   "observed": "With the 23.5mm clamps the chassis felt more settled, suspension worked better over acceleration and braking bumps, more consistent and predictable at speed; MXA: 'consistency, confidence and comfort', but 'the Honda needs more than triple clamps'. No complaints.",
+   "measured": "Offset 23.5mm vs stock 22mm; bar mount positions 12.5mm / 6mm ahead of stem, optional 15.5mm mount; prices: clamps $649.90, bar mounts $104.95, stem nut $34.95 (sold separately); race sag 107mm",
+   "other_mods": "Stock suspension",
+   "url": "https://motocrossactionmag.com/mxa-team-tested-ride-engineering-2023-crf450-triple-clamps",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5f-003",
+   "category": "suspension baseline",
+   "brand": "",
+   "product": "",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": 2027
+   },
+   "source_type": "tester",
+   "publication": "Dirt Bike Test",
+   "author": "Trevor Hunter (story Jimmy Lewis)",
+   "date": "2026-08-04",
+   "conditions": "First impression at Spring Creek MX, Minnesota: loamy, soft, tight rutted corners; 200 lb test rider; final suspension verdict pending dry California dirt",
+   "observed": "Smooth, linear 'sneaky fast' engine; reduced engine braking (clutch-damper slipper function + new mapping) helps corner entry; taller, wider-spread 5-speed (2nd often usable in ruts); steering less twitchy, slightly heavier turn-in; plush Showa; bulky grips and slippery seat cover; map button must be held several seconds near idle.",
+   "measured": "Ride height ~102mm stock; forks lowered 2.5mm in clamps; fork/shock compression +/-1 click by rider aggression; fork rebound +1 click; shock HSC softened 1/4 turn to level the bike",
+   "other_mods": "Stock",
+   "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2027-honda-crf450r/",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5f-004",
+   "category": "platform",
+   "brand": "",
+   "product": "",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": 2027
+   },
+   "source_type": "tester",
+   "publication": "MXP Magazine",
+   "author": "Chris Pomeroy",
+   "date": "2026-08-04",
+   "conditions": "Media first ride, Spring Creek MX (long sand whoops); Honda test rider Trey Canard present",
+   "observed": "Calmer, more stable and predictable than 2025/26 ('busy' per Canard); longer-pulling power, 2nd/3rd feel longer; much less engine braking; front holds up better in braking-to-acceleration transitions.",
+   "measured": "Fork springs 5.0 -> 5.2 N/mm; bore +1mm; tank 1.9 gal (was 1.7); frame rigidity ~+10%; footpegs 5mm rearward; ~70% new frame parts; new swingarm, chain slider, shock linkage, rear hub, airbox and filter; DBS (Dynamic Blow System) fork valve; new rear tire size",
+   "other_mods": "Stock",
+   "url": "https://www.mxpmag.com/2027-honda-crf450r-first-ride-impressions-at-spring-creek-mx/",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5f-005",
+   "category": "suspension baseline",
+   "brand": "",
+   "product": "",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": 2026
+   },
+   "source_type": "tester",
+   "publication": "Dirt Bike Magazine",
+   "author": "Travis Fant (with Mark Tilley)",
+   "date": "2025-10-02",
+   "conditions": "Glen Helen video test; 2026 unchanged from 2025",
+   "observed": "Strong low-end torque, peak power behind Yamaha/KTM; still a little soft; testers stiffened the front and slid forks down in the clamps. Suggested mods by brand: Pro Circuit or Ride Engineering linkage, FMF/Dubach/Yoshimura/Akrapovic exhaust; FCP offset bearings helped stability; 2025 parts transfer to 2026.",
+   "measured": "Rear sag 107mm; fork height change not quantified; MSRP $9,699",
+   "other_mods": "Stock",
+   "url": "https://dirtbikemagazine.com/?p=100951",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5f-006",
+   "category": "map / suspension",
+   "brand": "",
+   "product": "",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF250R",
+    "year": 2026
+   },
+   "source_type": "tester",
+   "publication": "MotoOnline (AU)",
+   "author": "Caleb Tennant",
+   "date": "",
+   "conditions": "US launch (Fox Raceway / Pala): muddy rutted pro track and smoother vet track",
+   "observed": "Plush on vet track, stiffened slightly for pro track; front can be twitchy in long choppy corners; wanted more torque in deep conditions; aggressive map sharpens response and revs but little extra bottom; standard or TC map for slick/muddy.",
+   "measured": "No numeric settings published",
+   "other_mods": "Stock",
+   "url": "https://www.motoonline.com/au/tested-2026-honda-crf-range/",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5f-007",
+   "category": "map / suspension",
+   "brand": "",
+   "product": "",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": 2026
+   },
+   "source_type": "tester",
+   "publication": "MotoOnline (AU)",
+   "author": "Caleb Tennant",
+   "date": "",
+   "conditions": "Same US launch (muddy pro track, smoother vet track)",
+   "observed": "Balanced, tracked well in ruts, no changes needed; smoother throttle connection than past years; aggressive map livelier, standard map for hard-pack/slippery; launch control effective.",
+   "measured": "Sag 'set correctly from the start' but no value given",
+   "other_mods": "Stock",
+   "url": "https://www.motoonline.com/au/tested-2026-honda-crf-range/",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5f-008",
+   "category": "suspension baseline",
+   "brand": "",
+   "product": "",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF250RX",
+    "year": 2025
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Gardner Tarlow",
+   "date": "2025-06-16",
+   "conditions": "Weekend-warrior review: Glen Helen practice, other tracks and dry tight/fast single track; settings rechecked after ~6+ hours",
+   "observed": "Strong cornering and stability; forearm fatigue that improved with setting changes; cable clutch feels dated (Honda hydraulic clutch conversion mentioned); full 2.1 gal tank and wide shrouds raise CG slightly; used Dunlop MX34 front later.",
+   "measured": "Stock rec: fork C10 R14, height 5mm; shock HS 2 1/3, LS 10, R15; sag 105mm. As received: fork height 6mm, sag 102mm (104mm after 6 h). Final: fork C11 R13; shock HS 2 2/3. Clamp pinch bolts 16/15 -> 12/10 lb (16/13.5 Nm). Maps: 3 for motos, 1 fast single track, 2 tight technical.",
+   "other_mods": "Used Dunlop MX34 front",
+   "url": "https://www.keeferinctesting.com/?p=28995",
+   "confidence": "high"
+  },
+  {
+   "id": "cr5f-009",
+   "category": "dyno",
+   "brand": "",
+   "product": "",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF250RX",
+    "year": 2025
+   },
+   "source_type": "tester",
+   "publication": "Dirt Rider",
+   "author": "Andrew Oldar",
+   "date": "2025-02-16",
+   "conditions": "Dirt Rider in-house dyno after riding at MotoVentures; no correction/fuel details given",
+   "observed": "Smooth, easy power; 2025 development mainly chassis/suspension.",
+   "measured": "37.7 hp, 18.0 lb-ft at the rear wheel (+0.6 hp, +0.2 lb-ft vs 2023); rpm not stated",
+   "other_mods": "Stock",
+   "url": "https://www.dirtrider.com/tests/honda-crf250rx-dyno-test-2025",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5f-010",
+   "category": "gearing / map",
+   "brand": "",
+   "product": "",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450RX",
+    "year": 2025
+   },
+   "source_type": "tester",
+   "publication": "Dirt Bike Magazine",
+   "author": "Ron Lawson",
+   "date": "2025-01-11",
+   "conditions": "MotoVentures (Anza, CA) tight trials-style terrain, mostly under 24 mph",
+   "observed": "Out of its element in tight trails: hard to control at low speed, power hits hard around 12 mph, even the softest of 3 maps aggressive; very planted at speed; suspension only slightly softer than MX.",
+   "measured": "Rear sprocket 50T (vs 49T on CRF450R)",
+   "other_mods": "Stock",
+   "url": "https://dirtbikemagazine.com/riding-the-2025-honda-crf450rx-crf250rx-the-wrap/",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5f-011",
+   "category": "map",
+   "brand": "",
+   "product": "",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF250RX",
+    "year": 2025
+   },
+   "source_type": "tester",
+   "publication": "Dirt Bike Magazine",
+   "author": "Ron Lawson",
+   "date": "2025-01-11",
+   "conditions": "MotoVentures tight trails",
+   "observed": "Better suited to tight trails; off-road map smooths the transition into the power; gentle, controllable low end with enough to climb obstacles.",
+   "measured": "No settings published",
+   "other_mods": "Stock",
+   "url": "https://dirtbikemagazine.com/riding-the-2025-honda-crf450rx-crf250rx-the-wrap/",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5f-012",
+   "category": "chassis",
+   "brand": "Ride Engineering",
+   "product": "23.5mm offset split triple clamps (2021+ CRF450R/RX)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450RX",
+    "year": 2023
+   },
+   "source_type": "tester",
+   "publication": "Dirt Bike Test",
+   "author": "Trevor Hunter",
+   "date": "2023-12-11",
+   "conditions": "Product test; date from page metadata (last modified)",
+   "observed": "Softer, less harsh front, better bump compliance; more stable at speed and on brakes; less oversteer/knifing; less playful than stock; pricey and complicates under-bar stabilizers.",
+   "measured": "Offset 23.5 vs 22mm; bars 5mm lower, 3mm forward (claimed); with stock clamps forks flush; with RE clamps forks at +2mm; flush to +2mm by terrain; clamps felt like a few clicks softer compression so testers added a few clicks; price $674.90",
+   "other_mods": "",
+   "url": "https://dirtbiketest.com/product-tests/ride-engineering-23-5-offset-split-triple-clamps-for-honda/",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5f-013",
+   "category": "ownership",
+   "brand": "",
+   "product": "",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF250R",
+    "year": 2025
+   },
+   "source_type": "tester",
+   "publication": "Australasian Dirt Bike (ADB) long-term test #1",
+   "author": "Mat Boyd",
+   "date": "2025-03-10",
+   "conditions": "2 hours; 95 kg, 38-year-old rider moving down from a 450; stock setup",
+   "observed": "Very quick steering; stock grips uncomfortable; plush suspension still holds up at 95 kg (judged better than the CRF450R's); soft off the bottom but revs well - wants more low-down torque. Planned mods: lock-on grips, GET ECU, airbox changes.",
+   "measured": "No settings published",
+   "other_mods": "None yet",
+   "url": "https://adbmag.com.au/editorial/long-term-test-1-2025-honda-crf250r/",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5f-014",
+   "category": "ecu / intake",
+   "brand": "GET (Athena)",
+   "product": "GET ECU (2024 CRF250R unit remapped for 2025), Wi-Fi module",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF250R",
+    "year": 2025
+   },
+   "source_type": "tester",
+   "publication": "Australasian Dirt Bike (ADB) long-term test #2",
+   "author": "Mat Boyd",
+   "date": "2025-04-19",
+   "conditions": "5 hours; dyno mapping with O2 sensor",
+   "observed": "No 2025 GET kit existed, so a 2024 unit was remapped; the 2024 map did not suit the 2025's new airbox/filter. Removing the airbox backfire screen and enlarging the cover opening improved response; final dyno map needed no on-track changes. Second injector from the GET 2024 kit planned.",
+   "measured": "Map targeting ~14:1 AFR; leaner low, richer high; more timing low, retarded as revs rise; separate hard-pack, mud and sand maps via GET Wi-Fi. No power figures yet.",
+   "other_mods": "ODI grips; airbox backfire screen removed, larger hole in airbox cover",
+   "url": "https://adbmag.com.au/?p=51338",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5f-015",
+   "category": "sag / map",
+   "brand": "",
+   "product": "",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF250R",
+    "year": 2025
+   },
+   "source_type": "tester",
+   "publication": "Ultimate Motorcycling",
+   "author": "Will Embree",
+   "date": "2024-07-01",
+   "conditions": "Fox Raceway National track, prepped then beat up; 160 lb rider; Pirelli Scorpion MX32 Mid-Soft",
+   "observed": "Stiffer frame/clamps/fork tubes: stable, precise, comfortable; at 105mm sag front more upright and slightly more stable over rollers but he prefers 102mm for MX; Map 2 chosen (Map 3 'a bit too snappy'); new airbox has a wide left vent so drilling the cover is unnecessary but filter needs more frequent cleaning.",
+   "measured": "Sag 102mm (Showa recommendation) and 105mm; claimed wet weight 234 lb; MSRP $8,299",
+   "other_mods": "Stock",
+   "url": "https://ultimatemotorcycling.com/2024/07/01/2025-honda-crf250r-review-national-track-test/",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5f-016",
+   "category": "map / gearing",
+   "brand": "",
+   "product": "",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF250R",
+    "year": 2025
+   },
+   "source_type": "tester",
+   "publication": "Cycle News",
+   "author": "Ryan Nitzen",
+   "date": "2024-07-14",
+   "conditions": "Fox Raceway launch, prime conditions; traction control not tested",
+   "observed": "Gained low-end torque from new airbox, exhaust and ratios; 2nd/3rd noticeably longer; Aggressive map preferred; plusher fork, planted shock; more precise in braking bumps.",
+   "measured": "Final drive 13/50 (spec sheet); no clicker or sag values",
+   "other_mods": "Stock",
+   "url": "https://www.cyclenews.com/2024/07/article/2025-honda-crf250r-review/",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5f-017",
+   "category": "suspension baseline",
+   "brand": "",
+   "product": "",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": 2023
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-01-17",
+   "conditions": "2023 450 MX baseline settings for roughly 160-200 lb riders",
+   "observed": "Fork may be soft over 180 lb; heavier fork spring improves traction and stability; stock 56 N/mm shock spring adequate.",
+   "measured": "Fork: 5.1 N/mm (one 5.2 on one side), height flush-2mm, comp 12 out, reb 11 out. Shock: 56 N/mm stock, sag 105mm, LSC 10 out, HSC 2 out, reb 11 out.",
+   "other_mods": "Fork spring change",
+   "url": "https://www.keeferinctesting.com/?p=24664",
+   "confidence": "high"
+  },
+  {
+   "id": "cr5f-018",
+   "category": "platform / suspension",
+   "brand": "",
+   "product": "",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": 2027
+   },
+   "source_type": "tester",
+   "publication": "Moto.it (IT)",
+   "author": "Mattia Carpi",
+   "date": "2026-08-06",
+   "conditions": "Arco di Trento (MX Trentino), sunny ~35C, drying track; 95 kg, 180 cm tester",
+   "observed": "Much softer, progressive low/mid power with strong top; 2nd gear more usable; new clutch reduces engine braking on entry; Normal map recommended, Hard 'not for everyone'; more open steering head, ~1cm longer wheelbase, more stable, slight front bias remains; strong progressive Nissin front brake; fork soft and low in stroke - closed compression slightly and opened rebound; shock softened slightly (more HSC spring preload internally makes adjustments more effective). Works Edition (December) to get Yoshimura exhaust, machined head, own map, Kashima suspension.",
+   "measured": "No numeric settings or power figures",
+   "other_mods": "Stock",
+   "url": "https://www.moto.it/prove/honda-crf-450r-2027-ce-una-nuova-regina-nel-mondo-off-road-video-e-gallery.html",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5f-019",
+   "category": "platform",
+   "brand": "",
+   "product": "",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": 2027
+   },
+   "source_type": "press",
+   "publication": "Gear Patrol",
+   "author": "Gray Van Dyke",
+   "date": "2026-06-02",
+   "conditions": "Launch news (not a ride test)",
+   "observed": "All-new Unicam engine (larger bore/shorter stroke, new piston, cam, ports), rubber-damper Back Torque Limiter clutch, all-new frame (~30% carryover), new shock and revised linkage ratio, updated Nissin brakes, HRC launch + HSTC. Works Edition (Oct): hand-ported head, Yoshimura exhaust, special ECU settings, Hinson clutch basket. No compatibility statement.",
+   "measured": "Claims: peak hp +10.3%, torque +3.7%; engine 17mm slimmer and ~6 lb lighter; 238 lb wet (~10 lb lighter); price $10,099 (page link says $11,000 - unresolved); Works Edition $12,999",
+   "other_mods": "Stock",
+   "url": "https://www.gearpatrol.com/cars/2027-honda-crf450r-dirt-moto-range-updates/",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5f-020",
+   "category": "platform",
+   "brand": "",
+   "product": "",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": 2027
+   },
+   "source_type": "tester",
+   "publication": "Cycle News (video)",
+   "author": "Ryan Nitzen",
+   "date": "2026-08-04",
+   "conditions": "Spring Creek MX first ride; back-to-back with 2026 (conclusions only in video)",
+   "observed": "Reshaped seat, larger tank, new plastics, meets updated AMA sound rules - affects seat, graphics, plastics and exhaust compatibility (inference, not stated).",
+   "measured": "Nearly 10 lb lighter than 2026, ~6 lb from engine (Honda figure); tank 1.9 gal",
+   "other_mods": "Stock",
+   "url": "https://www.cyclenews.com/2026/08/article/video-2027-honda-crf450r-first-ride-test/",
+   "confidence": "medium"
+  },
+  {
+   "id": "cr5f-021",
+   "category": "platform / ecu",
+   "brand": "Honda (HRC)",
+   "product": "HRC Setting tool (mentioned)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF250RX",
+    "year": 2025
+   },
+   "source_type": "press",
+   "publication": "MotoPinas (PH)",
+   "author": "MotoPinas.com staff",
+   "date": "2024-05-31",
+   "conditions": "Model-launch news, not a test",
+   "observed": "Lists for the 2025 CRF250RX: 70% new frame, new Showa suspension, two-piston Nissin front caliper, revised intake/exhaust and PGM-FI, 3-level HSTC, launch control, engine mode button, 3 maps and an 'HRC Setting tool'. Tank unchanged at 8 L.",
+   "measured": "No settings or rates",
+   "other_mods": "Stock",
+   "url": "https://www.motopinas.com/motorcycle-news/honda-updates-the-crf250rx-for-2025.html",
+   "confidence": "unverified"
+  }
+ ],
+ "builds": [
+  {
+   "title": "ADB long-term 2025 Honda CRF250R (installments 1-2)",
+   "bike": {
+    "make": "Honda",
+    "model": "CRF250R",
+    "year": 2025
+   },
+   "publication": "Australasian Dirt Bike (ADB)",
+   "date": "2025-04-19",
+   "url": "https://adbmag.com.au/?p=51338",
+   "parts": [
+    {
+     "category": "ecu",
+     "brand": "GET (Athena)",
+     "product": "GET SX1-type ECU from the 2024 CRF250R kit, remapped on the dyno, Wi-Fi map switching",
+     "part_numbers": [],
+     "purpose": "Low-end torque; maps for hard-pack, mud and sand",
+     "observed": "2024 map did not suit the 2025 airbox; remapped to ~14:1 AFR, no on-track changes needed"
+    },
+    {
+     "category": "intake",
+     "brand": "",
+     "product": "Airbox backfire screen removed, larger hole cut in airbox cover",
+     "part_numbers": [],
+     "purpose": "Airflow",
+     "observed": "Improved engine response"
+    },
+    {
+     "category": "controls",
+     "brand": "ODI",
+     "product": "Lock-on grips",
+     "part_numbers": [],
+     "purpose": "Comfort (stock grips criticised)",
+     "observed": ""
+    },
+    {
+     "category": "ecu",
+     "brand": "GET (Athena)",
+     "product": "Second injector (from GET 2024 kit) - planned",
+     "part_numbers": [],
+     "purpose": "Fueling",
+     "observed": "Not yet reported"
+    }
+   ]
+  }
+ ],
+ "common_first_mods": [
+  "Offset clamps 23.5mm (Ride Engineering) on 2021-2023 CRF450R/RX: more settled and predictable at speed, softer front feel; testers then run forks +2mm and add a few clicks of compression (MXA 2023, Dirt Bike Test 2023).",
+  "Fork lowered in the clamps / stiffened front on 2025-2027 CRF450R (Dirt Bike Magazine 2026: forks slid down, 107mm sag; Dirt Bike Test 2027: forks down 2.5mm, +1 rebound, HSC -1/4 turn; Moto.it 2027: more compression, less rebound).",
+  "Reduced triple-clamp pinch-bolt torque on the 2025 CRF250RX (16/15 -> 12/10 lb) and chassis torque reductions (Keefer Inc, Gardner Tarlow).",
+  "ECU replacement or reflash for more bottom-end on the 2025+ CRF250R (ADB long-term: GET; Vortex X10 ECU-8H2-250R and dealer reflash services listed).",
+  "Linkage (Pro Circuit or Ride Engineering) and FCP offset bearings suggested for the 2025-2026 CRF450R (Dirt Bike Magazine 2026)."
+ ],
+ "gaps": [
+  "Target of 60-100 new products not reached: 30 new products. The shared web-search budget for this turn ran out after about 40 searches, and pages linked from fetched pages (MXA race tests 2026 CRF250/CRF450 and 2027 CRF450 tested, Keefer 2027 CRF450R/CRF250R articles, Teknik category pages, MXA tag pages) were refused for lack of fetch approval.",
+  "No new maker-confirmed part numbers for 2025+ CRF450R from Pro Circuit (procircuit.com not reachable) or FMF (fmfracing.com not tried; FMF 2025+ numbers already in specialty/engine.json from dealers).",
+  "Pro Circuit Ti-6 BC Pro 0312545BC: Cycle Gear's fitment block lists CRF450R/RX 2021-2026 together with dozens of other bikes (aggregated across variants), so per-model fitment remains unreliable.",
+  "Hinson HC597-2101 fitment: TokyoMods and Firestorm AU titles say CRF450R/RX 2021-2025; Cycle Gear says 2021-2023 (existing gap in honda-research.json). Hinson's own page still not read.",
+  "Rekluse RMS-7101102 (Core Manual TorqDrive): Ghostbikes UK lists CRF450R 2021-2024, R-S 2024, RWE 2021-2024 and RX 2021-2024 ('American models'); 2025-2026 not listed there.",
+  "GET SX1 PRO: maker install guides confirm 2024 CRF250R (GD-MIP-0058-AA) and 2024 CRF450R (GD-MIP-0059-AA) but give no kit part numbers; ADB says no 2025 CRF250R GET kit existed in April 2025. CRF250R GET part number not found.",
+  "No HRC Setting Tool part number for 2020+ bikes; MotoPinas mentions an 'HRC Setting tool' for the 2025 CRF250RX but hondaracingcorporation.com pages only cover 2009-2017.",
+  "2027 CRF450R: still no aftermarket fitment confirmed (new frame, linkage, swingarm, rear hub, airbox). Testers note the Works Edition gets Yoshimura exhaust and Hinson basket, but no part numbers.",
+  "Teknik Motorsport items (Xtrig holeshot 70100004/70100013, Eibach 881/899/903, KYB 6001203x, Showa GPE F448HON01/F449HON01) come from shop model filters with no prices; several are shown on later-year pages than their titles state.",
+  "Xtrig EU numbers 40101015/40101016 likely equal US 501330100501/501330101401, not confirmed.",
+  "Not covered at all this pass: wheels (Haan, Talon, Excel/D.I.D, Warp 9), footpegs, Moto-Master/Galfer maker pages, Showa A-kit and Enzo/Race Tech Honda numbers, Ride Engineering link/clamp part numbers, P3 Carbon and TM Designworks 2025+ skid plates, Honda genuine accessories (hydraulic clutch conversion mentioned by Keefer for the CRF250RX)."
+ ],
+ "not_done": [
+  "Refused (no fetch approval in time): https://motocrossactionmag.com/mxa-race-test-2026-honda-crf450/, https://motocrossactionmag.com/mxa-race-test-2026-honda-crf250/, https://motocrossactionmag.com/2027-honda-crf450-tested-10-more-horsepower-10-pounds-lighter-2/, https://motocrossactionmag.com/tag/crf450/, https://www.keeferinctesting.com/2027-honda-crf450r-west-coast-test/, https://www.teknikmotorsport.com/motorcycle-performance-links/, https://www.procircuit.com/.",
+  "Found but not opened (listed on keeferinctesting.com/category/bikebrands/honda/): 2027 CRF450R vs YZ450F comparison parts 1-2, '2027 Honda CRF250R: Who Is This Bike For?' (2026-10-02), Show #508 2027 CRF250R review, Show #507 2027 CRF450R West Coast comparison, Show #501, 'First Impression Of The 2027 Honda CRF450R', '8 Things You Need To Know About The 2027 Honda CRF450R'.",
+  "Found but not opened (MXA Honda tests list): MXA video 2027 CRF450 first ride, First look 2027 CRF450 & HRC Works Edition, MXA 2026 250 shootout video, MXA videos 2026 CRF250/CRF450.",
+  "Dirt Rider 2025 CRF450RX first ride (https://www.dirtrider.com:443/tests/honda-crf450rx-first-ride-review) rendered without body text; Dirt Rider 2027 CRF450R technical preview body not rendered.",
+  "Parts Europe pages (FMF 4.1 RCT 18202168 / 18201931, Race Tech FMGV2820, Akrapovic 18201982) need JavaScript; only the note 'Will not pass 2025 FIM sound regulation' for the FMF 4.1 RCT was readable.",
+  "Searches not run (budget exhausted): Honda hydraulic clutch conversion kit, Galfer CRF oversize kit part number, P3 Carbon CRF450R 2025 skid plate, Haan/Talon/Excel wheels, Fasst/IMS footpegs, Showa A-kit, Enzo, Race Tech Honda spring/valve numbers, Swapmoto and Vital MX 2025-2027 tests, Racer X tests."
+ ]
+}

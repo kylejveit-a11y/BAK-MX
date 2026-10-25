@@ -1,0 +1,1838 @@
+{
+ "slice": "Kawasaki KX250 / KX450 / KX250X / KX450X 2020-2027, pass 5: additional maker- and retailer-confirmed aftermarket parts (exhaust, ECU, clutch, suspension, chassis, controls, brakes, wheels, protection) and 2025-2027 tester feedback. Does not repeat products in kawasaki-research.json, p4-gapfill.json, p4-bearings-mounts.json or specialty/*.json.",
+ "products": [
+  {
+   "id": "kx5-001",
+   "category": "exhaust",
+   "subcategory": "full_system",
+   "brand": "Yoshimura",
+   "product": "RS-12 Stainless Full Exhaust w/ Stainless Muffler (KX450F/X 2024-2025)",
+   "part_numbers": [
+    "244730S320"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "Yoshimura page: 'Kawasaki KX450F 2024, 2025'"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2024,
+      2025
+     ],
+     "notes": "Yoshimura page: 'Kawasaki KX450X 2024, 2025'"
+    }
+   ],
+   "fitment_source_url": "https://www.yoshimura-rd.com/products/kx450f-rs-12-stainless-full-exhaust-w-stainless-muffler-244730s320",
+   "what_it_changes": "Yoshimura says the system adds 23.8% max hp and 16.4% max torque over stock and that the hydroformed oval header makes power delivery 'much smoother than stock'; rubber-mounted muffler with PTF insert system.",
+   "supporting_parts": [
+    "Spark arrestor SA-21-K (optional)"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "Yoshimura R&D of America",
+     "url": "https://www.yoshimura-rd.com/products/kx450f-rs-12-stainless-full-exhaust-w-stainless-muffler-244730s320",
+     "price_if_stated": "1029.00",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Different SKU from the 244730S521 already in kawasaki-research.json (kxr-010); Yoshimura's naming for the S320 vs S521 difference was not stated on the page. No 2026-2027 fitment listed on this page. Optional spark arrestor SA-21-K sold separately. Gain figures are maker dyno claims.",
+   "confidence": "high"
+  },
+  {
+   "id": "kx5-002",
+   "category": "clutch",
+   "subcategory": "manual_clutch_kit",
+   "brand": "Rekluse",
+   "product": "Core Manual TorqDrive - KAW KX450F/X",
+   "part_numbers": [
+    "RMS-7104047"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Rekluse fitment tab: KX450, KX450F, KX450SR, KX450X 2021-2026"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Rekluse fitment tab"
+    }
+   ],
+   "fitment_source_url": "https://www.rekluse.com/product/manual-clutches/core-manual-torq-drive/core-manual-torq-drive-clutches/core-manual-torqdrive-kaw-kx450f/",
+   "what_it_changes": "Rekluse says up to 4 more friction discs than stock in the same space add torque capacity without stiffer springs, greatly reduce clutch fade, give more consistent lever feel, and lever pull can stay at stock or lighter; Rekluse sleeves are claimed to prevent basket notching.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Rekluse",
+     "url": "https://www.rekluse.com/product/manual-clutches/core-manual-torq-drive/core-manual-torq-drive-clutches/core-manual-torqdrive-kaw-kx450f/",
+     "price_if_stated": "1025.10",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Page shows 'Call for Availability'. Included parts not listed on the page (product guide PDF RMS-7104047.pdf not read). No 2027 fitment listed.",
+   "confidence": "high"
+  },
+  {
+   "id": "kx5-003",
+   "category": "clutch",
+   "subcategory": "manual_clutch_kit",
+   "brand": "Rekluse",
+   "product": "Core Manual TorqDrive - KAW KX250F/X",
+   "part_numbers": [
+    "RMS-7104140"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Rekluse fitment: KX250, KX250F, KX250X 2021-2027"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Rekluse fitment: KX250, KX250F, KX250X 2021-2027"
+    }
+   ],
+   "fitment_source_url": "https://www.rekluse.com/product/manual-clutches/core-manual-torq-drive/core-manual-torq-drive-clutches/core-manual-torqdrive-kaw-kx250f-x/",
+   "what_it_changes": "Rekluse says it fits up to 4 more friction discs than stock, raising torque capacity without stiffer pressure-plate springs, 'virtually eliminating' clutch fade, with more consistent lever feel and stock-or-lighter pull.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Rekluse",
+     "url": "https://www.rekluse.com/product/manual-clutches/core-manual-torq-drive/core-manual-torq-drive-clutches/core-manual-torqdrive-kaw-kx250f-x/",
+     "price_if_stated": "1199.00",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Fitment list is per model generic year selector: KX250X did not exist in every year 2021-2027 under that name; check your VIN. 'Show All' link suggested more years than shown.",
+   "confidence": "high"
+  },
+  {
+   "id": "kx5-004",
+   "category": "clutch",
+   "subcategory": "auto_clutch",
+   "brand": "Rekluse",
+   "product": "RadiusX 4.0 - KAW KX450F KX450X",
+   "part_numbers": [
+    "RMS-8304047"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Rekluse fitment: KX450, KX450F, KX450SR, KX450X 2021-2026"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Rekluse fitment"
+    }
+   ],
+   "fitment_source_url": "https://www.rekluse.com/product/auto-clutches/radiusx/radiusx-clutches/radiusx-4-0-kaw-kx450f-kx450x/",
+   "what_it_changes": "Rekluse says it is a drop-in pack combining TorqDrive friction discs with the EXP 4.0 auto disc: prevents stalling (start and stop without the lever), more power transfer than OEM, external on-the-fly adjustment, lets riders run a taller gear, longer clutch life; includes basket sleeves.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Rekluse",
+     "url": "https://www.rekluse.com/product/auto-clutches/radiusx/radiusx-clutches/radiusx-4-0-kaw-kx450f-kx450x/",
+     "price_if_stated": "1029.00",
+     "currency": "USD",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/rekluse-radius-x-40-clutch-kit-kawasaki-kx450-kx450x-2021-2023",
+     "price_if_stated": "1029.00",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Auto clutches are usually not allowed or wanted for some MX racing; check class rules. Cycle Gear lists 2021-2026 too.",
+   "confidence": "high"
+  },
+  {
+   "id": "kx5-005",
+   "category": "clutch",
+   "subcategory": "auto_clutch",
+   "brand": "Rekluse",
+   "product": "RadiusX 4.0 - KAW KX450F (2019-2020)",
+   "part_numbers": [
+    "RMS-8304046"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020
+     ],
+     "notes": "Rekluse fitment: 'KX450F 2019, 2020' (2020 is the only in-scope year)"
+    }
+   ],
+   "fitment_source_url": "https://www.rekluse.com/?p=292307",
+   "what_it_changes": "Rekluse says: TorqDrive + EXP 4.0 drop-in auto clutch pack, prevents stalling, more power transfer than OEM, on-the-fly adjustment, longer clutch life; basket sleeves included.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Rekluse",
+     "url": "https://www.rekluse.com/?p=292307",
+     "price_if_stated": "1029.00",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Pre-2021 KX450 uses a different part from 2021+ (RMS-8304047). Page URL is a short link.",
+   "confidence": "high"
+  },
+  {
+   "id": "kx5-006",
+   "category": "clutch",
+   "subcategory": "auto_clutch",
+   "brand": "Rekluse",
+   "product": "Radius CX 4.0 Clutch Kit (Kawasaki KX450F / KX450X / KX450SR)",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Cycle Gear fitment: KX450 2021-2026, 50th Anniversary 2024"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Cycle Gear fitment: KX450X 2021-2026"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/rekluse-radius-cx-40-clutch-kit-kawasaki-kx450f-kx450x-kx450sr-2021-2025",
+   "what_it_changes": "Rekluse (via Cycle Gear): auto clutch with full manual override; EXP 4.0 disc, billet inner hub and pressure plate, TorqDrive frictions and billet cover; claims more power transfer than OEM and lower temperatures; steel basket sleeves.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/rekluse-radius-cx-40-clutch-kit-kawasaki-kx450f-kx450x-kx450sr-2021-2025",
+     "price_if_stated": "1549.00",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Rekluse part number not shown (Cycle Gear item P1069699 only). Page title 2021-2026 vs URL 2021-2025. A retailer lists a RadiusCX 3.0 to 4.0 pack upgrade 770-8904047 (oro2u), not confirmed.",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5-007",
+   "category": "clutch",
+   "subcategory": "clutch_kit",
+   "brand": "Hinson",
+   "product": "Billetproof Clutch Kit (Kawasaki KX250 2021-2024)",
+   "part_numbers": [
+    "HC557-2101"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Ghost Bikes: KX 250 2021-2024 incl. 50th Anniversary"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250X",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "Ghost Bikes: KX 250 X 2021 and 2022"
+    }
+   ],
+   "fitment_source_url": "https://www.ghostbikes.com/products/2430289-hinson-billetproof-clutch-kit-for-kawasaki-kx250-2021-2024",
+   "what_it_changes": "Hinson (via retailer): kit of Billetproof cover, basket, inner hub, pressure plate, fiber and steel plates and high-temperature springs, 6061-T6 billet; no performance claim stated.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Ghost Bikes (UK)",
+     "url": "https://www.ghostbikes.com/products/2430289-hinson-billetproof-clutch-kit-for-kawasaki-kx250-2021-2024",
+     "price_if_stated": "1000.99",
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Retailer fitment only; Hinson site not checked. Not listed for the 2025+ KX250 generation or KX250X 2023-2024.",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5-008",
+   "category": "brakes",
+   "subcategory": "caliper_relocation_bracket",
+   "brand": "Galfer",
+   "product": "Front brake caliper relocation bracket for 280mm oversize disc",
+   "part_numbers": [
+    "SP057"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Ghost Bikes: KX 250 2021-2024 incl. 50th Anniversary"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Ghost Bikes: KX 450 F 2019-2020; KX 450 2021-2024 incl. 50th Anniversary"
+    }
+   ],
+   "fitment_source_url": "https://www.ghostbikes.com/products/94991-galfer-brake-caliper-relocation-bracket-kawasaki-kx-450-2021-2024",
+   "what_it_changes": "Galfer (via retailer): black anodized billet bracket that moves the front caliper out to clear a 280mm oversize disc; sold alone.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Ghost Bikes (UK)",
+     "url": "https://www.ghostbikes.com/products/94991-galfer-brake-caliper-relocation-bracket-kawasaki-kx-450-2021-2024",
+     "price_if_stated": "98.99",
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Bracket only; needs a matching Galfer 280mm disc (disc part number not confirmed here). Retailer fitment; not listed for 2025+ KX250 or KX450X.",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5-009",
+   "category": "exhaust",
+   "subcategory": "full_system",
+   "brand": "Yoshimura",
+   "product": "RS-12 Stainless Full Exhaust w/ Aluminum Muffler, carbon end cap (KX250 / KX250X 2021-2024)",
+   "part_numbers": [
+    "242940S320"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Cycle Gear 'This Product Fits': KX250 2021-2024"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Cycle Gear: KX250X 2021-2024"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/yoshimura-rs-12-exhaust-system-kawasaki-kx250-kx250x-2021-2023",
+   "what_it_changes": "Yoshimura (via Cycle Gear): 'improved performance gains and weight reduction', max muffler volume for sound management and tire/caliper clearance, patent-pending Precision Taper Fit insert ring, carbon end cap; no hp figure.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/yoshimura-rs-12-exhaust-system-kawasaki-kx250-kx250x-2021-2023",
+     "price_if_stated": "999.00",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Retailer page URL says 2021-2023 but fitment list includes 2024. Not for the 2025+ KX250 (that is 242950S5xx). Competition use only.",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5-010",
+   "category": "exhaust",
+   "subcategory": "full_system",
+   "brand": "Pro Circuit",
+   "product": "Ti-6 Pro Titanium Exhaust System (KX450 / KX450X 2024-2026)",
+   "part_numbers": [
+    "0322445FP"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Ghost Bikes: KX 450 2024 (incl. 50th Anniversary), 2025, 2026"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Ghost Bikes: KX 450 X 2024-2026 Cross Country"
+    }
+   ],
+   "fitment_source_url": "https://www.ghostbikes.com/products/518014-pro-circuit-ti-6-pro-titanium-exhaust-system-for-kawasaki-kx450-2024-2026",
+   "what_it_changes": "Pro Circuit (via retailer): titanium head pipe, mid pipe and canister with carbon end cap, 1-into-1, closed-course system; retailer text says it 'Passes AMA/FIM sound regulations until 2024'. No power or weight claim on the page.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Ghost Bikes (UK)",
+     "url": "https://www.ghostbikes.com/products/518014-pro-circuit-ti-6-pro-titanium-exhaust-system-for-kawasaki-kx450-2024-2026",
+     "price_if_stated": "1592.99",
+     "currency": "GBP",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "Summit Racing",
+     "url": "https://www.summitracing.com/parts/pcp-0322445fp",
+     "price_if_stated": "",
+     "currency": "",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Separate SKU from the Ti-6 (0322445F, kxr-004); the 'Pro' difference was not described. AMA sound limit moved to 109 dB for 2027 (Cycle News), so sound compliance after 2024 is not confirmed. Summit price not read.",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5-011",
+   "category": "exhaust",
+   "subcategory": "full_system",
+   "brand": "HGS",
+   "product": "HGS exhaust system, stainless header/mid-pipe, aluminum muffler with carbon end cap (KX450F 2019-2023)",
+   "part_numbers": [],
+   "variants": [
+    "Retailer SKU SID132402",
+    "EAN 4053273716174"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Maciag Offroad: 'Kawasaki KX 450F, model years 2019-2023' (only 2020-2023 in scope)"
+    }
+   ],
+   "fitment_source_url": "https://www.maciag-offroad.com/hgs-exhaust-system-kawasaki-kx-450f-19-23-sid132402.html",
+   "what_it_changes": "HGS (via retailer): bolt-on, 'Noticeable power increase ..., especially in the mid to upper rpm range'; muffler rated 94 dB; made in the Netherlands.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Maciag Offroad (DE)",
+     "url": "https://www.maciag-offroad.com/hgs-exhaust-system-kawasaki-kx-450f-19-23-sid132402.html",
+     "price_if_stated": "841.95",
+     "currency": "EUR",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No HGS part number on the page: SID132402 is the retailer's SKU and EAN 4053273716174 is listed. Retailer text mentions 'PowerBomb' (an FMF trade name), so the description may be partly generic. KX450X fitment not stated. HGS maker page not reached.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "kx5-012",
+   "category": "exhaust",
+   "subcategory": "slip_on",
+   "brand": "FMF",
+   "product": "PowerCore 4 HEX slip-on muffler (2024 KX450)",
+   "part_numbers": [
+    "042401"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2024
+     ],
+     "notes": "Motomentum: '2024 Kawasaki KX 450'; Firestorm (AU) titles it KX450F 2024-2026"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2025,
+      2026
+     ],
+     "notes": "Firestorm Motorcycles title only: 'Kawasaki KX450F 2024-2026 FMF Powercore 4 Hex Muffler'"
+    }
+   ],
+   "fitment_source_url": "https://motomentum.com/products/fmf-racing-powercore-4-hex-slip-on-muffler-for-2024-kawasaki-kx-450-042401.oembed",
+   "what_it_changes": "FMF (via retailer): increased power and torque overall, stainless/aluminum construction, Hi-Flo core shape, removable spark arrestor, works with FMF or stock header.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Motomentum",
+     "url": "https://motomentum.com/products/fmf-racing-powercore-4-hex-slip-on-muffler-for-2024-kawasaki-kx-450-042401.oembed",
+     "price_if_stated": "403.84",
+     "currency": "USD",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "Firestorm Motorcycles (AU)",
+     "url": "https://www.firestormmotorcycles.com.au/kawasaki-kx450f-2024-2026-fmf-powercore-4-hex-muff",
+     "price_if_stated": "",
+     "currency": "",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Budget alternative to the Factory 4.1 RCT. FMF maker page for 042401 not fetched. Listed out of stock at Motomentum. KX450X fitment not stated.",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5-013",
+   "category": "exhaust",
+   "subcategory": "full_system",
+   "brand": "Big Gun",
+   "product": "EXO R Full System Exhaust (KX450 / KX450X 2024-2026)",
+   "part_numbers": [
+    "19-44733"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Cycle Gear: KX450 2024-2026 incl. 50th Anniversary 2024; KX450SR 2026"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Cycle Gear: KX450X 2024-2026"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/big-gun-exo-r-full-system-exhaust-kawasaki-kx450-kx450x-2024-2025",
+   "what_it_changes": "Big Gun (via Cycle Gear): 'Significant horsepower and torque gains', light brushed aluminum muffler, 'deeper but tolerable exhaust tone'; no numbers given.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/big-gun-exo-r-full-system-exhaust-kawasaki-kx450-kx450x-2024-2025",
+     "price_if_stated": "674.99",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Stainless/aluminum/carbon variant only. No dB rating stated. Different part number from the Big Gun EXO R 19-43823 in specialty/engine2.json.",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5-014",
+   "category": "clutch",
+   "subcategory": "clutch_pack_service",
+   "brand": "Rekluse",
+   "product": "Core Manual TorqDrive Replacement Clutch Pack Kit (KX250 / KX250X 2021-2024)",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Cycle Gear fitment"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Cycle Gear fitment"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/rekluse-core-manual-torqdrive-replacement-clutch-pack-kit-kawasaki-kx250-kx250x-2021-2023",
+   "what_it_changes": "Rekluse (via Cycle Gear): replacement friction and drive plates, steel basket sleeves and springs for a worn Core Manual TorqDrive clutch; only for Rekluse Core Manual TorqDrive, not OEM clutches.",
+   "supporting_parts": [
+    "Rekluse Core Manual TorqDrive RMS-7104140"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/rekluse-core-manual-torqdrive-replacement-clutch-pack-kit-kawasaki-kx250-kx250x-2021-2023",
+     "price_if_stated": "349.00",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Service part for RMS-7104140 owners. Rekluse part number not shown (Cycle Gear item P1060165). Listed 2021-2024 although Rekluse lists the clutch for 2021-2027.",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5-015",
+   "category": "brakes",
+   "subcategory": "rotor",
+   "brand": "Galfer",
+   "product": "Wave front brake disc, full floating, 270 mm (KX250F / KX450F to 2020)",
+   "part_numbers": [
+    "DF208FLW"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2020
+     ],
+     "notes": "Ghost Bikes: KX 250 F 2019-2020 all models (2020 in scope)"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020
+     ],
+     "notes": "Ghost Bikes: KX 450 F 2019-2020 all models (2020 in scope)"
+    }
+   ],
+   "fitment_source_url": "https://www.ghostbikes.com/products/95131-galfer-wave-brake-disc-kawasaki-kxf450-2006-2020",
+   "what_it_changes": "Galfer (via retailer): 270 mm OD x 109 mm ID x 3.0 mm, 420 stainless, full-floating with aluminum carrier, direct bolt-on; claims better lever feel and modulation, cooler running, self-cleaning, less warping.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Ghost Bikes (UK)",
+     "url": "https://www.ghostbikes.com/products/95131-galfer-wave-brake-disc-kawasaki-kxf450-2006-2020",
+     "price_if_stated": "140.49",
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Stock-size (270 mm) replacement, not oversize. Listed unavailable. Retailer list stops at 2020; 2021+ KX fitment not stated.",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5-016",
+   "category": "protection",
+   "subcategory": "radiator_braces",
+   "brand": "Works Connection",
+   "product": "Radiator Braces (KX450 / KX450X 2024-2026)",
+   "part_numbers": [
+    "18-301",
+    "18-B301"
+   ],
+   "variants": [
+    "18-301 silver",
+    "18-B301 black"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Cycle Gear: KX450 2024-2026 incl. 50th Anniversary; KX450SR 2026"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Cycle Gear: KX450X 2024-2026"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/works-connection-radiator-braces-kawasaki-kx450-kx450x-2024",
+   "what_it_changes": "Works Connection (via Cycle Gear): CNC-formed 5052 aluminum braces behind the shrouds to reinforce the radiators and help prevent crash damage; bolt-on, hardware included, sold as a set. MXA spotlight adds .080-gauge aluminum and a billet bracket system with rubber isolators.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/works-connection-radiator-braces-kawasaki-kx450-kx450x-2024",
+     "price_if_stated": "158.95",
+     "currency": "USD",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "Motocross Action (MSRP quoted)",
+     "url": "https://motocrossactionmag.com/mxa-productt-spotlight-works-connection-2024-kx450-radiator-braces",
+     "price_if_stated": "144.95 silver / 164.95 black",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "18-301 = silver, 18-B301 = black. Different part from the 2019-2023 braces (18-300). 2025+ KX250 fitment not listed.",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5-017",
+   "category": "protection",
+   "subcategory": "radiator_braces",
+   "brand": "Works Connection",
+   "product": "Radiator Braces (KX250 2021-2024 / KX450 2019-2023)",
+   "part_numbers": [
+    "18-300",
+    "18-B300"
+   ],
+   "variants": [
+    "18-300 silver",
+    "18-B300 black"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Cycle Gear fitment: KX250 2021-2024"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Cycle Gear: KX250X 2021-2024"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Cycle Gear: KX450 2019-2023, KX450F 2019-2020, KX450SR 2022-2023"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Cycle Gear: KX450X 2021-2023"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/works-connection-radiator-braces-kawasaki-kx250-kx450-x-sr-2019-2024",
+   "what_it_changes": "Works Connection (via Cycle Gear): 5052 aluminum braces behind the shrouds to reinforce radiators against crash damage; bolt-on, sold as a set.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/works-connection-radiator-braces-kawasaki-kx250-kx450-x-sr-2019-2024",
+     "price_if_stated": "158.95",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Title says KX250 2019-2024 but fitment list starts 2021 for KX250.",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5-018",
+   "category": "controls",
+   "subcategory": "holeshot_device",
+   "brand": "Works Connection",
+   "product": "Pro Launch Kit (Kawasaki KX450)",
+   "part_numbers": [
+    "12-G339",
+    "12-K339"
+   ],
+   "variants": [
+    "12-G339 black/grey",
+    "12-K339 copper/brown"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "J&P Cycles fitment: KX450 2019-2026, KX450F 2016-2019, KX450SR 2026"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2021
+     ],
+     "notes": "J&P Cycles fitment: KX450X 2021 only"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/works-connection-pro-launch-kit-kawasaki-kx450-kx450f-kx450xc-2016-2025",
+   "what_it_changes": "Works Connection (via J&P): CNC aluminum, spring-less fork holeshot device for positive engagement and consistent release; trigger can be set with gloves on; about 50 g; drill guide and countersink tool included.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/works-connection-pro-launch-kit-kawasaki-kx450-kx450f-kx450xc-2016-2025",
+     "price_if_stated": "159.95",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Install requires drilling (template included). 12-G339 black/grey, 12-K339 copper/brown. KX250 fitment not on this page. Separate from the electronic launch control on 2024+ KX450.",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5-019",
+   "category": "chassis",
+   "subcategory": "bar_mounts",
+   "brand": "Luxon MX",
+   "product": "Anti-Twist bar mounts (Kawasaki KX250 / KX450)",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2021
+     ],
+     "notes": "MXA 2021 test: 'KX250 and KX450', no years given"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2021
+     ],
+     "notes": "MXA 2021 test: no years given"
+    }
+   ],
+   "fitment_source_url": "https://motocrossactionmag.com/mxa-team-tested-luxon-mx-anti-twist-kx250-450-bar-mounts",
+   "what_it_changes": "Luxon (per MXA): one-piece lower mount that resists the twisting Kawasaki's separate mounts allow; keeps stock rubber cones; four bar positions; 5/10 mm titanium spacers; crash-replacement discount.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Luxon MX (price per MXA 2021)",
+     "url": "https://motocrossactionmag.com/mxa-team-tested-luxon-mx-anti-twist-kx250-450-bar-mounts",
+     "price_if_stated": "144.95",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [
+    "kx5f-007"
+   ],
+   "caveats": "No part number or year fitment on the source; years shown are the test year only. MXA's 2025 KX250 race test also recommends Luxon mounts because stock mounts 'twist easily'. Luxon maker page not reached.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "kx5-020",
+   "category": "chassis",
+   "subcategory": "bar_mounts",
+   "brand": "Luxon MX",
+   "product": "Four-post rubber-isolated handlebar mounts (Kawasaki, rubber-cone clamps)",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2025
+     ],
+     "notes": "MXA 2025: for Kawasaki clamps with rubber-cone interface incl. stock; years not listed, tested on new-gen KX450"
+    }
+   ],
+   "fitment_source_url": "https://motocrossactionmag.com/mxa-team-tested-luxon-mx-kawasaki-rubber-isolated-bar-mounts",
+   "what_it_changes": "Luxon (per MXA): lighter than stock, resists twisting, keeps stock rubber bumpers plus four mini dampers in three hardnesses; same height/offset as stock; 1-1/8 in or Renthal 36 mm bar versions.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Luxon MX (price per MXA 2025)",
+     "url": "https://motocrossactionmag.com/mxa-team-tested-luxon-mx-kawasaki-rubber-isolated-bar-mounts",
+     "price_if_stated": "239.95",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [
+    "kx5f-008"
+   ],
+   "caveats": "No part number on the source; year fitment not stated (likely any Kawasaki with rubber-cone clamps, unconfirmed).",
+   "confidence": "unverified"
+  },
+  {
+   "id": "kx5-021",
+   "category": "chassis",
+   "subcategory": "triple_clamps",
+   "brand": "Scar Racing",
+   "product": "Triple clamps, 23 mm offset, 7075-T6 (Kawasaki KX250F/KX450F 2013-2023)",
+   "part_numbers": [
+    "SC-S3418",
+    "16-3514.BL.SCAR"
+   ],
+   "variants": [
+    "blue (SC-S3418, Firestorm)",
+    "black (ORO2U 16-3514.BL.SCAR)"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Firestorm (AU): 'Kawasaki KX250F 2013-2023'"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Firestorm: 'Kawasaki KX450F 2013-2023'"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2023
+     ],
+     "notes": "Firestorm: 'Kawasaki KX450X 2023'"
+    }
+   ],
+   "fitment_source_url": "https://firestormmotorcycles.com.au/scar-racing-motorcycle-23mm-offset-blue-triple-cla",
+   "what_it_changes": "Scar (via retailers): CNC 7075-T6 top and bottom clamps with pressed-in stem and All Balls lower bearing; four bar positions with Scar mounts; claims 'Improved strength and rigidity for better control'.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Firestorm Motorcycles (AU)",
+     "url": "https://firestormmotorcycles.com.au/scar-racing-motorcycle-23mm-offset-blue-triple-cla",
+     "price_if_stated": "",
+     "currency": "",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "ORO2U (UK, black, B2B)",
+     "url": "https://www.oro2u.com/triple-clamps-black-06-23-kx-250-450-offset-23mm-scar-s3418",
+     "price_if_stated": "302.38",
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Same offset as stock (23 mm). Firestorm lists the blue version as SC-S3418; ORO2U lists black with SKU 16-3514.BL.SCAR and title 'KX 250 450 06-23'; colour suffixes not confirmed on a Scar page. Not for 2024+ KX450 / 2025+ KX250.",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5-022",
+   "category": "controls",
+   "subcategory": "holeshot_device",
+   "brand": "Scar Racing",
+   "product": "Launch control (holeshot device), black",
+   "part_numbers": [
+    "SLC201BK"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "ORO2U: KX 250F 2006-2018, KX 250 2019-2026"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "ORO2U: KX 250 X 2021-2026"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "ORO2U: KX 450F 2006-2018, KX 450 2019-2026"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "ORO2U: KX 450 X 2021-2026"
+    }
+   ],
+   "fitment_source_url": "https://www.oro2u.com/launch-control-black-97-26-ducati-honda-kawasaki-stark-future-suzuki-crf-kx-rm-z-56-4mm-scar-slc201bk",
+   "what_it_changes": "Scar (via ORO2U): aluminum holeshot device 'for off-road and motocross starting use', 56.4 mm unit diameter, 0.112 kg.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "ORO2U (UK, B2B only)",
+     "url": "https://www.oro2u.com/launch-control-black-97-26-ducati-honda-kawasaki-stark-future-suzuki-crf-kx-rm-z-56-4mm-scar-slc201bk",
+     "price_if_stated": "71.45",
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "B2B retailer; shows 71.45 and 59.54 GBP (trade) without clear labels. Fits multiple brands (Ducati, Honda, Stark, Suzuki) per title. Installation method not described.",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5-023",
+   "category": "chassis",
+   "subcategory": "bar_mount_cones",
+   "brand": "Pro Taper",
+   "product": "Kawasaki (new style) bar mount cones, polyurethane",
+   "part_numbers": [
+    "PTR021118"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Salmon Speedworx: KX250 2019-2026 (Base), 50th Anniversary 2024"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Salmon Speedworx: KX250X 2021-2024"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Salmon Speedworx: KX450 2019-2026 (Base), 50th Anniversary 2024"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Salmon Speedworx: KX450X 2021-2024"
+    }
+   ],
+   "fitment_source_url": "https://www.salmonspeedworx.com/products/protaper-kawasaki-new-style-bar-mount-cones",
+   "what_it_changes": "Pro Taper (via retailer): polyurethane replacement for the stock rubber bar-mount cones, 'Built to resist crash damage', keeps vibration damping with better feel and durability than stock.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Salmon Speedworx",
+     "url": "https://www.salmonspeedworx.com/products/protaper-kawasaki-new-style-bar-mount-cones",
+     "price_if_stated": "34.99",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "PTR021118 is the retailer SKU (Pro Taper number likely 021118, not confirmed). Relevant to the KX450 bar-twist complaint (MXA) as a cheaper fix than aftermarket mounts; no test found.",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5-024",
+   "category": "clutch",
+   "subcategory": "auto_clutch",
+   "brand": "Rekluse",
+   "product": "Radius CX 4.0 Clutch Kit (Kawasaki KX450 2019-2020)",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020
+     ],
+     "notes": "Cycle Gear fitment: KX450 2019 and 2020 (2020 in scope)"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/rekluse-radius-cx-40-clutch-kit-kawasaki-kx450-2019-2020",
+   "what_it_changes": "Rekluse (via Cycle Gear): EXP 4.0 auto clutch with full manual override, TorqDrive frictions, billet hub and pressure plate, cooler running, basket sleeves.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/rekluse-radius-cx-40-clutch-kit-kawasaki-kx450-2019-2020",
+     "price_if_stated": "1499.00",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No Rekluse part number shown (Cycle Gear P1069698); out of stock.",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5-025",
+   "category": "clutch",
+   "subcategory": "auto_clutch_upgrade",
+   "brand": "Rekluse",
+   "product": "Clutch pack upgrade RadiusCX 3.0 to 4.0 (KX450 2021-2025)",
+   "part_numbers": [
+    "770-8904047"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "ORO2U: KX450F 2021, KX450 2022-2025, KX450SR 2022-2023"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "ORO2U: KX450X 2021-2025"
+    }
+   ],
+   "fitment_source_url": "https://www.oro2u.com/clutch-pack-upgrade-radiuscx-3-0-to-4-0-21-25-kaw-kx-450-f-sr-x-rekluse-770-8904047",
+   "what_it_changes": "Rekluse (via ORO2U): converts an existing RadiusCX 3.0 to EXP 4.0 with assembled EXP 4.0 disk, drive plates and TorqDrive frictions; claims smoother engagement (rolling-pin wedges), better high-temperature strength, updated engagement curves.",
+   "supporting_parts": [
+    "Existing Rekluse RadiusCX 3.0 clutch"
+   ],
+   "where_to_buy": [
+    {
+     "seller": "ORO2U (UK, B2B only)",
+     "url": "https://www.oro2u.com/clutch-pack-upgrade-radiuscx-3-0-to-4-0-21-25-kaw-kx-450-f-sr-x-rekluse-770-8904047",
+     "price_if_stated": "732.22",
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Only for bikes already running RadiusCX 3.0. B2B retailer; out of stock.",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5-026",
+   "category": "clutch",
+   "subcategory": "manual_clutch_kit",
+   "brand": "Rekluse",
+   "product": "Core Manual TorqDrive Clutch Kit (Kawasaki KX450 2019-2020)",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020
+     ],
+     "notes": "Cycle Gear fitment: KX450 2019 and 2020 (2020 in scope)"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/rekluse-core-manual-torq-drive-clutch-kit-kawasaki-kx450-2019-2020",
+   "what_it_changes": "Rekluse (via Cycle Gear): more torque capacity, 'virtually eliminates clutch fade', lower operating temperature, stock-or-lighter pull, lighter than stock, basket sleeves.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/rekluse-core-manual-torq-drive-clutch-kit-kawasaki-kx450-2019-2020",
+     "price_if_stated": "1199.00",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No Rekluse part number shown (Cycle Gear P724543). The 2021+ KX450 uses RMS-7104047.",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5-027",
+   "category": "exhaust",
+   "subcategory": "full_system",
+   "brand": "FMF",
+   "product": "Factory 4.1 RCT full system w/ MegaBomb header, anodized titanium (KX450F 2019-2021)",
+   "part_numbers": [
+    "042373"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "Sportbike Track Gear: '2019, 2020, and 2021 Kawasaki KX 450 F'"
+    }
+   ],
+   "fitment_source_url": "https://www.sportbiketrackgear.com/fmf-kawasaki-kx-450-f-2019-2021-factory-4-1-rct-exhaust-w-megabomb-anodized-titanium/",
+   "what_it_changes": "FMF (via retailer): 'Massive Power gains throughout the RPM range' and 'Huge weight savings'; no figures.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Sportbike Track Gear",
+     "url": "https://www.sportbiketrackgear.com/fmf-kawasaki-kx-450-f-2019-2021-factory-4-1-rct-exhaust-w-megabomb-anodized-titanium/",
+     "price_if_stated": "1102.49",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Part number read from the retailer code 'F|1506-042373|1' (manufacturer field showed only '8'); confirm 042373 with FMF. specialty/engine.json already has the stainless 4.1 full system 042372; this is the titanium version. KX450X not listed.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "kx5-028",
+   "category": "exhaust",
+   "subcategory": "slip_on",
+   "brand": "FMF",
+   "product": "Q4 HEX S/A slip-on, spark arrestor (KX450 / X / SR 2019-2023)",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Cycle Gear: KX450 2019-2023, KX450SR 2022-2023"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Cycle Gear: KX450X 2021-2023"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/fmf-q4-hex-sa-slip-on-exhaust-kawasaki-kx450-x-sr-2019-2022",
+   "what_it_changes": "FMF (via Cycle Gear): quiet off-road muffler that 'Meets USFS and FIM World Enduro sound regulations', spark arrestor included, 5.6 lb, power gains claimed.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/fmf-q4-hex-sa-slip-on-exhaust-kawasaki-kx450-x-sr-2019-2022",
+     "price_if_stated": "474.99",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No FMF part number shown (Cycle Gear P721391). Relevant to KX450X riders who need a spark arrestor and USFS sound compliance. No dB number given.",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5-029",
+   "category": "exhaust",
+   "subcategory": "slip_on",
+   "brand": "FMF",
+   "product": "PowerCore 4 HEX slip-on (KX450 / X / SR 2019-2023)",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Cycle Gear: KX450 2019-2023, KX450F 2019-2020, KX450SR 2022-2023"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Cycle Gear: KX450X 2021-2023"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/fmf-powercore-4-hex-slip-on-exhaust-kawasaki-kx450-x-sr-2019-2022",
+   "what_it_changes": "FMF (via Cycle Gear): 'Increase in power and torque through entire RPM range', stainless/aluminum, Hi-Flo core, removable spark arrestor.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/fmf-powercore-4-hex-slip-on-exhaust-kawasaki-kx450-x-sr-2019-2022",
+     "price_if_stated": "427.49",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "No FMF part number shown (Cycle Gear P721397).",
+   "confidence": "medium"
+  }
+ ],
+ "feedback": [
+  {
+   "id": "kx5f-001",
+   "category": "bike_test",
+   "brand": "Kawasaki (stock)",
+   "product": "2027 KX250F first ride",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": 2027
+   },
+   "source_type": "magazine_test",
+   "publication": "Cycle News",
+   "author": "Ryan Nitzen",
+   "date": "2026-09-23",
+   "conditions": "Team Green intro at Perris Raceway; tester about 190 lb ('on the heavier side for a 250F')",
+   "observed": "Engine strongest midrange to top, direct throttle response; low-end pull weaker, needs clutch and rpm out of tight inside ruts, aggressive map did not fix it (suggests bigger rear sprocket, untested). Suspension stayed up in the stroke, predictable, 'never felt pitchy'; smaller riders may find it 'too firm'. 2027 changes: header 3.5 in longer + bigger muffler for AMA 109 dB, more hemispherical chamber, +0.7 hp claimed, clutch spring pressure +15%, new lever shapes, no-Y radiator hoses, 'light off' map is now the most aggressive (hold button 3 s for smoother 'light on' map).",
+   "measured": "Fork 2 clicks softer than stock for front traction (no baseline numbers given). Claimed wet weight 240.8 lb; MSRP $8,599.",
+   "other_mods": [],
+   "url": "https://www.cyclenews.com/2026/09/article/2027-kawasaki-kx250f-review/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5f-002",
+   "category": "model_change_note",
+   "brand": "Kawasaki (stock)",
+   "product": "2027 KX450F / KX450FX platform changes",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": 2027
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Bike Test",
+   "author": "Scott Hoffman",
+   "date": "2026-06-02",
+   "conditions": "First look from Kawasaki release; no riding",
+   "observed": "Redesigned aluminum frame with longer wheelbase, revised swingarm, changed engine hanger arrangement, revised intake/exhaust (longer header and muffler), Brembo brakes front and rear with braided front line routed behind the plate, RIDEOLOGY THE APP KX2 with power modes, KTRC (2 modes + off), launch control with 3 levels and new rev-limit function. Implication for parts: frame, engine-mount, exhaust and brake parts for 2024-2026 KX450 should not be assumed to fit 2027.",
+   "measured": "",
+   "other_mods": [],
+   "url": "https://dirtbiketest.com/fresh-dirt/first-look-new-2027-kx450fx-kx250fx/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5f-003",
+   "category": "model_change_note",
+   "brand": "Kawasaki (stock)",
+   "product": "2027 KX450F / KX450FX announcement",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": 2027
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-06-02",
+   "conditions": "Manufacturer information only, no test",
+   "observed": "Showa 49 mm coil fork, new Uni-Trak with Showa shock, revised settings; Brembo brakes; four handlebar positions (about 1 in forward to 0.4 in back) and two footpeg positions (one about 0.2 in lower); FX gets 21/18 wheels, 1.98 gal tank, skid plate, handguards, side stand, sealed chain, 12V bullet terminals for accessories.",
+   "measured": "MSRP KX450F $10,299; KX450FX $10,599.",
+   "other_mods": [],
+   "url": "https://www.keeferinctesting.com/?p=29835",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5f-004",
+   "category": "suspension_baseline",
+   "brand": "Showa (stock)",
+   "product": "2025 KX250 baseline suspension settings",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": 2025
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-02-18",
+   "conditions": "2025 250 MX baseline roundup",
+   "observed": "All-new bike with stiffer frame; suspension less harsh than 2024. Fork can feel soft after break-in, slightly stiffer spring helps comfort; wanted more front/rear contact and hold-up.",
+   "measured": "Fork 5.0 N/mm, height 3 mm, comp 7 out, reb 8 out. Shock 54 N/mm, sag 105 mm, HSC 2.5 turns out, LSC 10 out, reb 9 out.",
+   "other_mods": [],
+   "url": "https://www.keeferinctesting.com/?p=28690",
+   "confidence": "high"
+  },
+  {
+   "id": "kx5f-005",
+   "category": "suspension_baseline",
+   "brand": "Showa (stock)",
+   "product": "2026 KX250 baseline suspension settings (250 MX roundup)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": 2026
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-06-10",
+   "conditions": "2026 250 MX baseline roundup; Kawasaki settings listed for 140-180 lb riders",
+   "observed": "No written KX250 observations; settings identical to Keefer's 2025 KX250 baseline.",
+   "measured": "Fork 5.0 N/mm, height 3 mm, comp 7 out, reb 8 out. Shock 54 N/mm, sag 105 mm, HSC 2.5 turns out, LSC 10 out, reb 9 out.",
+   "other_mods": [],
+   "url": "https://www.keeferinctesting.com/?p=29823",
+   "confidence": "high"
+  },
+  {
+   "id": "kx5f-006",
+   "category": "race_test",
+   "brand": "Kawasaki (stock)",
+   "product": "2025 KX250 race test",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": 2025
+   },
+   "source_type": "magazine_test",
+   "publication": "Motocross Action",
+   "author": "MXA staff",
+   "date": "2025-01-22",
+   "conditions": "MXA race test of the all-new 2025 KX250, dyno compared with 2024",
+   "observed": "Needs a lot of clutch to get moving and 'has no recovery' after a mistake; hard to shift under load; filter 'cramped in the airbox'; forks soft, ride low and get harsh for heavier/faster riders; slightly less stable at speed; 240 mm rear rotor 'too hard to modulate'. Novice/vet testers preferred 2025, intermediate+ preferred 2024 for power. Fixes named: Twin Air Powerflow kit (better airflow and filter seal, needs a different Twin Air baseplate), cut excess plastic around the filter, replace the 1.8 radiator cap, Luxon MX bar mounts (stock mounts 'twist easily'), Bolt Hardware seat T-plate.",
+   "measured": "Dyno: 2025 43.7 hp @ 12,500 rpm, 20.48 lb-ft @ 9,200 rpm vs 2024 45.11 hp @ 13,300, 21.0 lb-ft @ 9,000. Weight 232 lb. No suspension clicker numbers printed.",
+   "other_mods": [],
+   "url": "https://motocrossactionmag.com/mxa-race-test-2025-kawasaki-kx250",
+   "confidence": "high"
+  },
+  {
+   "id": "kx5f-007",
+   "category": "handlebar_mounts",
+   "brand": "Luxon MX",
+   "product": "Anti-Twist KX250/450 bar mounts",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": 2021
+   },
+   "source_type": "magazine_test",
+   "publication": "Motocross Action",
+   "author": "MXA staff",
+   "date": "2021-06-22",
+   "conditions": "MXA team test on Kawasaki KX250/KX450 (years not given)",
+   "observed": "One-piece lower mount keeps stock rubber cones; four bar positions; 5 or 10 mm titanium height spacers. Mounts are designed to bend in a big crash rather than let the bars twist. Shortcoming: expected higher-durometer cones.",
+   "measured": "Verdict: they 'don't eliminate handlebar twist, but they increase the handlebars' resistence to twisting'. Price $144.95.",
+   "other_mods": [],
+   "url": "https://motocrossactionmag.com/mxa-team-tested-luxon-mx-anti-twist-kx250-450-bar-mounts",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5f-008",
+   "category": "handlebar_mounts",
+   "brand": "Luxon MX",
+   "product": "Four-post rubber-isolated bar mounts (KX450)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": 2025
+   },
+   "source_type": "magazine_test",
+   "publication": "Motocross Action",
+   "author": "MXA staff",
+   "date": "2025-02-25",
+   "conditions": "MXA team test on new-generation KX450 (tags/photos point to 2025)",
+   "observed": "Keeps stock rubber bumpers and adds four mini dampers (yellow medium recommended for MX, green soft, red hard). Yellow about 10% more comfortable than stock; green only slightly softer. Resists twisting in tip-overs; mounts bend before the bars. Complaint: does not damp enough vibration; MXA calls the KX450 'the worst hand feel in the class'. 'We don't race without these anymore.'",
+   "measured": "Price $239.95. For 1-1/8 in or Renthal 36 mm bars; works in forward and rear clamp holes at stock height/offset.",
+   "other_mods": [],
+   "url": "https://motocrossactionmag.com/mxa-team-tested-luxon-mx-kawasaki-rubber-isolated-bar-mounts",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5f-009",
+   "category": "protection",
+   "brand": "Works Connection",
+   "product": "Aluminum skid plate (2024 KX450)",
+   "part_numbers": [
+    "10-299"
+   ],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": 2024
+   },
+   "source_type": "magazine_test",
+   "publication": "Motocross Action",
+   "author": "MXA staff",
+   "date": "2024-07-09",
+   "conditions": "MXA team test on 2024 KX450",
+   "observed": "6061-T6 plate with one-piece CNC front bracket, oil-drain hole, sits close to the frame (less mud); rubber isolator mounts allow frame flex. Recheck fit after first ride as loads can loosen it; MXA added rubber insulation tape between plate and frame rails. Rating A.",
+   "measured": "Price $94.95.",
+   "other_mods": [],
+   "url": "https://motocrossactionmag.com/mxa-team-tested-works-connection-kx450-skid-plate",
+   "confidence": "high"
+  },
+  {
+   "id": "kx5f-010",
+   "category": "bike_test",
+   "brand": "Kawasaki (stock)",
+   "product": "2025 KX250 and KX250X first ride",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": 2025
+   },
+   "source_type": "magazine_test",
+   "publication": "MXP Magazine",
+   "author": "Chris Pomeroy",
+   "date": "2024-10-11",
+   "conditions": "Washougal MX Park, sunny ~20 C, watered and slick early then drying; KX250X on dry loose trails",
+   "observed": "More bottom-end torque, slightly weaker top than 2024 but more usable; preferred the standard map; traction control not needed with standard map. Showa fork/shock sprung heavier than before (suited the rider). Chassis more planted on corner entry, more nimble in the air. KX250X (18 in rear, softer settings) soaked up rocks; lighter riders liked it on the MX track.",
+   "measured": "Shock sag 105 mm; fork clickers 2 stiffer than stock (for steep descents).",
+   "other_mods": [],
+   "url": "https://www.mxpmag.com/first-ride-2025-kx250-and-kx250x/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5f-011",
+   "category": "bike_test",
+   "brand": "Kawasaki (stock)",
+   "product": "2025 KX250 review",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": 2025
+   },
+   "source_type": "magazine_test",
+   "publication": "Cycle News",
+   "author": "Ryan Nitzen",
+   "date": "2024-11-21",
+   "conditions": "Washougal MX Park National track, drying through the day; rider 6 ft 1 in",
+   "observed": "Much better bottom and mid; aggressive map keeps the top end; still revs slower than YZ250F. Tried a 'Broc Tickle Map'; standard map was sharp. Criticized lack of pre-built maps in the Rideology app. Showa 49 mm fork much better than 2024 with better initial cushion and bottoming resistance; agile with planted rear. KX250X runs two spring rates lighter front and rear.",
+   "measured": "Forks lowered 3 mm in the clamps for fast-section stability; shock HSC changed 1/4 turn (direction not stated) to hold the rear up.",
+   "other_mods": [],
+   "url": "https://www.cyclenews.com/2024/11/article/2025-kawasaki-kx250-review/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5f-012",
+   "category": "bike_test",
+   "brand": "Kawasaki (stock)",
+   "product": "2025 KX250 first ride",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": 2025
+   },
+   "source_type": "magazine_test",
+   "publication": "Ultimate Motorcycling",
+   "author": "Will Embree",
+   "date": "2024-10-12",
+   "conditions": "Washougal MX Park, wet/heavy early then prime with late chop; average-build rider",
+   "observed": "Smooth, controllable low-mid torque (held 3rd up Horsepower Hill); exhaust exits front-center, about 50 mm further forward; Nissin hydraulic coned-disc clutch has lighter pull and wider engagement; Showa suspension plush and tracking well; 'turns better than any previous KX'; 270/240 mm Nissin brakes with good feel.",
+   "measured": "Sag 105 (set by Showa team); fork compression +1 click stiffer to stop twitching under braking over forming bumps. Footpegs can drop 5 mm; bar has four positions.",
+   "other_mods": [],
+   "url": "https://ultimatemotorcycling.com/2024/10/12/2025-kawasaki-kx250-review-first-ride-at-washougal-mx-park/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5f-013",
+   "category": "exhaust",
+   "brand": "FMF",
+   "product": "Factory 4.1 RCT complete system (titanium header/mid, blue Ti canister, carbon cap) on 2025 KX450",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": 2025
+   },
+   "source_type": "magazine_test",
+   "publication": "Swapmoto Live",
+   "author": "Donn Maeda (rider Kyle Puerner)",
+   "date": "",
+   "conditions": "Track tested; no date or conditions given",
+   "observed": "More low-end torque and throttle response, better midrange, pulls slightly further on top; stock-like broad delivery; deeper tone. Install: frame downtube blocks the header stud nuts, needs a 1/4 in ball-joint adapter with extension or a box-end wrench. Puerner: 2025 KX450 with only the FMF system outperformed his modified 2024 (other pipe, airbox mods, lower gearing).",
+   "measured": "Price quoted $1,374.99. No part numbers or settings given.",
+   "other_mods": [],
+   "url": "https://swapmotolive.com/?p=178920",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5f-014",
+   "category": "suspension_baseline",
+   "brand": "KYB (stock)",
+   "product": "2024 KX250 baseline suspension settings and optional ECU map",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": 2024
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-10-18",
+   "conditions": "Settings by rider weight; A/B level rider",
+   "observed": "Fork is the main weakness: too stiff, not comfortable; a re-valve recommended. Engine strong bottom and mid. Optional ECU map gives better roll-on and torque feel; needs the KX calibration tool, works with any coupler color; helps recovery after a missed shift.",
+   "measured": "140-170 lb: fork 4.9 N/mm (4.7 for 140 lb novice), height 3 mm, comp 11-12 out, reb 9 out; shock 54 N/mm, sag 103 mm, HSC 1.25 turns out, LSC 10 out, reb 12 out. 180-190 lb: fork 5.0 N/mm, height 4 mm, comp 13 out, reb 10 out; shock 56 N/mm, sag 102 mm, HSC 1.25 out, LSC 12 out, reb 11 out.",
+   "other_mods": [],
+   "url": "https://www.keeferinctesting.com/?p=27401",
+   "confidence": "high"
+  },
+  {
+   "id": "kx5f-015",
+   "category": "suspension_baseline",
+   "brand": "KYB (stock)",
+   "product": "2022 KX450 baseline settings (450 MX roundup)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": 2022
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2021-12-07",
+   "conditions": "2022 450 MX baseline roundup",
+   "observed": "KX450 fork too soft on deceleration.",
+   "measured": "Fork 5.1 N/mm (stock 5.0; 5.2 for B-level riders over 200 lb), stock oil level, comp 11-12 out (12 with 5.2 spring), reb 10-11 out, height 2-3 mm. Shock sag 104-105 mm, 54 N/mm (56 for 190 lb+), LSC 16 out, HSC 1 1/8 turns out, reb 10-11 out.",
+   "other_mods": [],
+   "url": "https://www.keeferinctesting.com/?p=13336",
+   "confidence": "high"
+  }
+ ],
+ "builds": [],
+ "common_first_mods": [],
+ "gaps": [],
+ "not_done": []
+}
