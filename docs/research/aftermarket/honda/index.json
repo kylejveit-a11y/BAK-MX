@@ -1017,6 +1017,20 @@
 "wp-009",
 "wp-020"
 ],
+"Honda|CRF250R|2027": [
+"ch-025",
+"cr5-001",
+"cr5-002",
+"cr5-004",
+"cr5-010",
+"cr5-011",
+"cr5-027",
+"cr5-028",
+"crr-008",
+"en-086",
+"en-087",
+"en-143"
+],
 "Honda|CRF250RX|2020": [
 "bc-005",
 "bc-008",
@@ -2022,6 +2036,13 @@
 "p4bm-honda-pivot-works-shock-bearing-kit-honda-125cc-450cc-1997-2022",
 "ss-060",
 "wp-009"
+],
+"Honda|CRF250RX|2027": [
+"cr5-028",
+"crr-008",
+"en-086",
+"en-087",
+"en-143"
 ],
 "Honda|CRF450R|2020": [
 "bc-005",
@@ -3642,6 +3663,14 @@
 "wp-009",
 "wp-020"
 ],
+"Honda|CRF450R|2027": [
+"ch-025",
+"cr5-011",
+"cr5-027",
+"en-096",
+"en-097",
+"en-098"
+],
 "Honda|CRF450RX|2020": [
 "bc-005",
 "bc-008",
@@ -4716,17 +4745,22 @@
 "p4bm-honda-pivot-works-front-wheel-bearing-kit-honda-ktm-125cc-625cc-1995-2022",
 "tn-007",
 "wp-009"
+],
+"Honda|CRF450RX|2027": [
+"en-096",
+"en-097",
+"en-098"
 ]
 },
 "listing_counts": {
 "Honda|CRF250R|2020": {
-"MotoSport": 2822,
 "Cycle Gear": 1351,
+"MotoSport": 2822,
 "research": 99
 },
 "Honda|CRF250R|2021": {
-"MotoSport": 2811,
 "Cycle Gear": 1384,
+"MotoSport": 2811,
 "research": 94
 },
 "Honda|CRF250R|2022": {
@@ -4735,48 +4769,51 @@
 "Cycle Gear": 95
 },
 "Honda|CRF250R|2023": {
-"MotoSport": 2778,
 "Cycle Gear": 1509,
+"MotoSport": 2778,
 "research": 112
 },
 "Honda|CRF250R|2024": {
-"MotoSport": 2765,
 "Cycle Gear": 1313,
+"MotoSport": 2765,
 "research": 110
 },
 "Honda|CRF250R|2025": {
-"MotoSport": 2687,
 "Cycle Gear": 1225,
+"MotoSport": 2687,
 "research": 86
 },
 "Honda|CRF250R|2026": {
-"MotoSport": 2664,
 "Cycle Gear": 1280,
+"MotoSport": 2664,
 "research": 79
+},
+"Honda|CRF250R|2027": {
+"research": 12
 },
 "Honda|CRF250RX|2020": {
 "MotoSport": 2797,
-"research": 371,
-"Cycle Gear": 50
+"Cycle Gear": 50,
+"research": 371
 },
 "Honda|CRF250RX|2021": {
-"MotoSport": 2792,
 "Cycle Gear": 1340,
+"MotoSport": 2792,
 "research": 81
 },
 "Honda|CRF250RX|2022": {
-"MotoSport": 2768,
 "Cycle Gear": 1287,
+"MotoSport": 2768,
 "research": 99
 },
 "Honda|CRF250RX|2023": {
-"MotoSport": 2761,
 "Cycle Gear": 1390,
+"MotoSport": 2761,
 "research": 92
 },
 "Honda|CRF250RX|2024": {
-"MotoSport": 2745,
 "Cycle Gear": 1272,
+"MotoSport": 2745,
 "research": 89
 },
 "Honda|CRF250RX|2025": {
@@ -4785,18 +4822,21 @@
 "Cycle Gear": 95
 },
 "Honda|CRF250RX|2026": {
-"MotoSport": 2666,
 "Cycle Gear": 1320,
+"MotoSport": 2666,
 "research": 67
 },
+"Honda|CRF250RX|2027": {
+"research": 5
+},
 "Honda|CRF450R|2020": {
-"MotoSport": 2896,
 "Cycle Gear": 1479,
+"MotoSport": 2896,
 "research": 122
 },
 "Honda|CRF450R|2021": {
-"MotoSport": 2875,
 "Cycle Gear": 1388,
+"MotoSport": 2875,
 "research": 153
 },
 "Honda|CRF450R|2022": {
@@ -4806,12 +4846,12 @@
 },
 "Honda|CRF450R|2023": {
 "MotoSport": 2859,
-"Cycle Gear": 1409,
-"research": 134
+"research": 134,
+"Cycle Gear": 1409
 },
 "Honda|CRF450R|2024": {
-"MotoSport": 2848,
 "Cycle Gear": 1463,
+"MotoSport": 2848,
 "research": 131
 },
 "Honda|CRF450R|2025": {
@@ -4821,18 +4861,21 @@
 },
 "Honda|CRF450R|2026": {
 "MotoSport": 2691,
-"Cycle Gear": 1318,
-"research": 93
+"research": 93,
+"Cycle Gear": 1318
+},
+"Honda|CRF450R|2027": {
+"research": 6
 },
 "Honda|CRF450RX|2020": {
-"MotoSport": 2850,
 "Cycle Gear": 1283,
+"MotoSport": 2850,
 "research": 92
 },
 "Honda|CRF450RX|2021": {
 "MotoSport": 2873,
-"Cycle Gear": 49,
-"research": 114
+"research": 114,
+"Cycle Gear": 49
 },
 "Honda|CRF450RX|2022": {
 "MotoSport": 2864,
@@ -4840,24 +4883,27 @@
 "Cycle Gear": 49
 },
 "Honda|CRF450RX|2023": {
-"MotoSport": 2857,
 "Cycle Gear": 1460,
+"MotoSport": 2857,
 "research": 104
 },
 "Honda|CRF450RX|2024": {
-"MotoSport": 2843,
 "Cycle Gear": 1232,
+"MotoSport": 2843,
 "research": 101
 },
 "Honda|CRF450RX|2025": {
-"MotoSport": 2710,
 "Cycle Gear": 1302,
+"MotoSport": 2710,
 "research": 80
 },
 "Honda|CRF450RX|2026": {
-"MotoSport": 2672,
 "Cycle Gear": 1436,
+"MotoSport": 2672,
 "research": 74
+},
+"Honda|CRF450RX|2027": {
+"research": 3
 }
 },
 "unmapped": [
@@ -5187,8 +5233,6 @@
 "en-083",
 "en-084",
 "en-085",
-"en-086",
-"en-087",
 "en-089",
 "en-090",
 "en-091",
@@ -5196,9 +5240,6 @@
 "en-093",
 "en-094",
 "en-095",
-"en-096",
-"en-097",
-"en-098",
 "en-099",
 "en-100",
 "en-101",

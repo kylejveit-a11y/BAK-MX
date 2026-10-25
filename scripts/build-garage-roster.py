@@ -21,7 +21,10 @@ for make,models in original.items():
         discipline.setdefault((make,model),'motocross');cycle.setdefault((make,model),'4-stroke')
 # Exact model-years whose identity is confirmed by the cover of an OEM manual on file (docs/research/manual-index/).
 manual_confirmed={('Yamaha','YZ450F'):[2018,2019],('Yamaha','YZ250F'):[2019],
- ('GasGas','MC 250F'):[2027],('GasGas','MC 450F'):[2027],('GasGas','MC 350F'):[2025],('GasGas','EX 450F'):[2025],('Husqvarna','FC 350'):[2025]}
+ ('GasGas','MC 250F'):[2027],
+ # 2027 Honda: the 2027 CRF250R/RX and CRF450R/RX competition handbooks are on file (docs/research/expansion/honda/pass2/REVIEW.md)
+ ('Yamaha','YZ250FX'):[2024],   # offered since the Yamaha manual pass; keep so saved bikes stay valid
+ ('Honda','CRF250R'):[2027],('Honda','CRF250RX'):[2027],('Honda','CRF450R'):[2027],('Honda','CRF450RX'):[2027],('GasGas','MC 450F'):[2027],('GasGas','MC 350F'):[2025],('GasGas','EX 450F'):[2025],('Husqvarna','FC 350'):[2025]}
 for key,ys in manual_confirmed.items():
     years[key].update(ys)
     discipline.setdefault(key,'motocross');cycle.setdefault(key,'4-stroke')
