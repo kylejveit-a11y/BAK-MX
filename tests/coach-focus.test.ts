@@ -25,3 +25,8 @@ test('what the rider is showing reaches BAK with the clip',()=>{
  assert.deepEqual(riderMedia(null,3),{kind:'photos',count:3});
  assert.equal((riderMedia({kind:'photos',focus:'track'},2) as any).focus.showing,'track');
 });
+import {answerPart} from '../server/coaching.ts';
+test('coaching history reads the fix and drill out of an answer',()=>{
+ const a='## What I see\nAt 1.2 s elbows drop.\n\n## The fix\nSit forward,\nagainst the tank.\n## Drill\nTen figure eights.\n## Film next\nSide-on.';
+ assert.equal(answerPart(a,'The fix'),'Sit forward, against the tank.');assert.equal(answerPart(a,'Drill'),'Ten figure eights.');assert.equal(answerPart('no headings','Drill'),'');
+});

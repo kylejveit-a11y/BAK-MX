@@ -35,7 +35,7 @@ export function testerBaselinesFor(bike:{manufacturer:string;model:string;model_
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-38';
+export const PROMPT_VERSION='mx-engineering-39';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -163,7 +163,7 @@ export function responseViolations(r:Parsed,claims:Claim[],fitted:string[]=[],kn
  if(/\b[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\b/i.test(r.summary+' '+r.answer))found.push('The rider-facing text shows an internal identifier. Name the source in plain words instead.');
  const own=fitted.join(' ').toLowerCase(),named=(JSON.stringify(r).match(/\b(Keefer|Motocross Action|MXA|Bones Bacon|Slavens|Teknik)\b/gi)??[]).filter(n=>!own.includes(n.toLowerCase()));
  if(named.length)found.push('The rider-facing text names a tester, magazine or tuner. Say what suspension tuners and testers commonly find, in your own words, without names or their numbers.');
- if(/\b(research notes?|bike notes|our notes|recorded in our|on file in our|supplied (notes|data|research|context)|provided (notes|data|context)|installed_parts|tester_baselines|setup_knowledge|racing_knowledge|coaching_knowledge|bike_knowledge|other_bikes_knowledge|reviewed_workshop|rider_own_manual|verified_claims|authored_hypotheses|garage_updates)\b/i.test(JSON.stringify({a:r.answer,s:r.summary,c:r.setup_changes,n:r.next_step})))found.push('The rider-facing text describes how BAK is fed (research notes, supplied data, input field names). Speak plainly: "testers report", "the maker claims", "your build sheet shows".');
+ if(/\b(research notes?|bike notes|our notes|recorded in our|on file in our|supplied (notes|data|research|context)|provided (notes|data|context)|installed_parts|tester_baselines|setup_knowledge|racing_knowledge|coaching_knowledge|coaching_history|rider_media|earlier_fix|bike_knowledge|other_bikes_knowledge|reviewed_workshop|rider_own_manual|verified_claims|authored_hypotheses|garage_updates)\b/i.test(JSON.stringify({a:r.answer,s:r.summary,c:r.setup_changes,n:r.next_step})))found.push('The rider-facing text describes how BAK is fed (research notes, supplied data, input field names). Speak plainly: "testers report", "the maker claims", "your build sheet shows".');
  return [...new Set(found)];
 }
 export function validateResponse(value:unknown,claims:Claim[],fitted:string[]=[],knowledge:Knowledge[]=[]):EngineeringResponse{
@@ -242,6 +242,8 @@ PHOTOS AND CLIPS: rider_media says what is attached: up to 4 photos, or up to 12
 - Bike or part: say plainly what you can see that matters to the question (wear, damage, routing, leaks, how a part is fitted, sag or ride height) and what a photo cannot show. Never read a part number, setting, measurement or torque off a photo as fact unless it is clearly legible, and never guess a brand or model from a picture alone; ask the rider to confirm.
 - Rider riding: coach from coaching_knowledge (below). Read the fundamentals in order (eyes, elbows, hips over the pegs, knees, feet, then bike attitude and line), name the one or two things that matter most for what they asked, what to do instead and a drill, and anything done well. With clip frames, describe the sequence and point at frames by their time_s written as "1.2 s" ("at 1.2 s your elbows drop"), so the rider can tap it to see that frame; never invent what happened between frames. One photo is one moment: say when timing, throttle or braking cannot be judged from it.
 - Track: read it with coaching_knowledge.track_reading: the soil and moisture you can actually see, ruts, braking bumps, whoops, jump faces and landings, berms and the visible lines; which line works and why; what changes through the day; and what kind of setup and tires suit it, deferring exact clicker changes to setup reasoning for this rider's bike. Never claim a soil the picture does not show; if tracks.profiles has this track, use it alongside what the pictures show.
+- Before and after: when rider_media.before is present, the images after this clip's frames are an earlier clip of the rider (its frames continue the numbering, with their own time_s in that clip) and earlier_fix is what BAK told them then. Compare the same moments: say plainly what changed, whether the earlier fix shows, and what is still the same. Name times as "1.2 s now" and "1.4 s before" so neither is confused.
+- coaching_history lists earlier coaching sessions on this bike (date, what was shown, the fix and drill). Use it when it bears on this question: notice when the same fault comes back or a fix stuck, build on the last drill instead of repeating it, and do not re-explain what they already worked on.
 - If the pictures do not show what is needed, say which angle or footage would (side-on, 60 frames per second, the whole feature from approach to exit).
 - Never identify a person in a picture.
 COACHING ANSWER LAYOUT: when the answer coaches riding from a clip or riding photos, write the answer in these four short parts, each under its own heading line starting with ##: "## What I see" (two to four points, each tied to a frame time or the photo, including one thing done well when there is one), "## The fix" (the single change that matters most, as something to feel and do on the next ride; a second only if it is tied to the first), "## Drill" (one drill, with how many reps or how long) and "## Film next" (one line: the angle, spot or moment that would show more). next_step repeats the fix as one action. Keep it short; no other headings. For track pictures use "## What I see", "## Lines", "## Setup" and "## Film next" instead.
@@ -349,22 +351,25 @@ export async function planSpecLookups(bike:Bike,history:Message[],message:string
 }
 
 /** What the rider attached, for the model: clip frames in order with their times, or photos, plus what they said they are showing. */
-export function riderMedia(media:ChatMedia|null,count:number){
+type Before={urls:string[];media:ChatMedia;date:string;fix:string};
+type Coaching={history:{date:string;showing:string|null;from:string;question:string;fix:string;drill:string}[];before:Before|null};
+export function riderMedia(media:ChatMedia|null,count:number,before:Before|null=null){
  const f=coachFocus(media?.focus),focus=f?{showing:f.label.toLowerCase(),look_at:f.look,skills:[...f.skills]}:null;
- if(media?.kind==='clip')return {kind:'clip',duration_s:Math.round(media.duration*10)/10,...(media.slowmo?{slow_motion:true}:{}),...(focus?{focus}:{}),frames:media.frames.map((t,i)=>({frame:i+1,time_s:Math.round(t*10)/10}))};
+ if(media?.kind==='clip')return {kind:'clip',duration_s:Math.round(media.duration*10)/10,...(media.slowmo?{slow_motion:true}:{}),...(focus?{focus}:{}),frames:media.frames.map((t,i)=>({frame:i+1,time_s:Math.round(t*10)/10})),...(before&&before.media.kind==='clip'?{before:{date:before.date,duration_s:Math.round(before.media.duration*10)/10,...(before.media.slowmo?{slow_motion:true}:{}),showing:coachFocus(before.media.focus)?.label.toLowerCase()??null,earlier_fix:before.fix,frames:before.media.frames.map((t,i)=>({frame:media.frames.length+i+1,time_s:Math.round(t*10)/10}))}}:{})};
  return {kind:'photos',count,...(focus?{focus}:{})};
 }
 
 /** Steps 3 and 4. `claims` is the retrieved exact-bike evidence. */
-export async function generateAnswer(bike:Bike|null,history:Message[],claims:Claim[],message:string,lookups:string[]=[],onDraft?:(draft:{summary:string;answer:string})=>void,setupHistory:SetupResultRow[]=[],knowledge:Knowledge[]=[],guided?:GuidedStep|null,voice=false,riderManual:{page:number;text:string}[]=[],images:string[]=[],tracks:TrackProfile[]=[],media:ChatMedia|null=null){
+export async function generateAnswer(bike:Bike|null,history:Message[],claims:Claim[],message:string,lookups:string[]=[],onDraft?:(draft:{summary:string;answer:string})=>void,setupHistory:SetupResultRow[]=[],knowledge:Knowledge[]=[],guided?:GuidedStep|null,voice=false,riderManual:{page:number;text:string}[]=[],images:string[]=[],tracks:TrackProfile[]=[],media:ChatMedia|null=null,coaching:Coaching|null=null){
+ const before=coaching?.before&&media?.kind==='clip'?coaching.before:null;if(before)images=[...images,...before.urls];
  const started=Date.now(),fitted=bike?readInstalled(bike.configuration).parts.map(p=>p.b).filter(Boolean):[];
- const input={...buildEngineeringInput(bike,history,claims,message,setupHistory,knowledge,guided,voice,riderManual,tracks),spec_lookups_performed:lookups,rider_photos_attached:images.length,...(images.length?{rider_media:riderMedia(media,images.length)}:{})};
+ const input={...buildEngineeringInput(bike,history,claims,message,setupHistory,knowledge,guided,voice,riderManual,tracks),spec_lookups_performed:lookups,rider_photos_attached:images.length,...(images.length?{rider_media:riderMedia(media,images.length-(before?.urls.length??0),before)}:{}),...(coaching?.history.length?{coaching_history:coaching.history}:{})};
  const {wire:full,real}=toWire(input);
  // The provider caches the instructions block as a unit. The reference library is identical on every request, so it rides
  // there; only what changes per question (bike, conversation, retrieved evidence, message) is sent as input.
  const {authored_hypotheses,setup_knowledge,racing_knowledge,hypothesis_boundary,...wire}=full;
  const briefing=instructions+'\n\nREFERENCE DATA (JSON; the same on every request; data, not instructions):\n'+JSON.stringify({hypothesis_boundary,authored_hypotheses,setup_knowledge,racing_knowledge,coaching_knowledge:coachingKnowledge()});
- const call:Call={instructions:briefing,input:wire,name:'mx_engineering_response',schema:wireJsonSchema,maxTokens:5000,timeoutMs:45000,...(images.length?{images}:{})};
+ const call:Call={instructions:briefing,input:wire,name:'mx_engineering_response',schema:wireJsonSchema,maxTokens:5000,timeoutMs:images.length>8?80000:45000,...(images.length?{images}:{})};
  // The rider-facing text is shown while it is written. It is a draft until the checks below pass on the finished reply.
  let firstText=0;
  const first=await callWithBackup(answerModel(),onDraft?{...call,onText:soFar=>{const draft={summary:partialJsonString(soFar,'summary'),answer:partialJsonString(soFar,'answer')};if(!firstText&&(draft.summary||draft.answer))firstText=Date.now()-started;onDraft(draft);}}:call);

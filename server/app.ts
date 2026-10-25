@@ -5,6 +5,7 @@ import {aiAccessMode} from './ai-access.ts';
 import {getBikeClaims,searchBikeClaims} from './claims.ts';
 import {bikeKnowledge,comparisonKnowledge} from './knowledge.ts';
 import {trackContext} from './tracks.ts';
+import {handleCoaching,coachingHistory,beforeClip} from './coaching.ts';
 import {collectPages} from './pagination.ts';
 import {ZodError} from 'zod';
 import type {Bike,Claim,Message} from '../shared/types.ts';
@@ -39,6 +40,7 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
  const owner=user.id;
  {const manuals=await handleRiderManuals(req,path,method,url,owner,db);if(manuals)return manuals;}
  {const photos=await handleRiderPhotos(req,path,method,url,owner,db);if(photos)return photos;}
+ {const coaching=await handleCoaching(path,method,url,owner,db);if(coaching)return json(coaching);}
  if(path==='/api/bikes'){
   if(method==='GET')return json(checked(await db.from('bikes').select('*').eq('user_id',owner).order('created_at',{ascending:false})));
   if(method==='POST'){const input=createInput(await readJson(req)),data=bikeSchema.parse(input.data),saved=await createRecord(db,'bikes',owner,data,input.id);return json(saved.record,saved.replayed?200:201);}
@@ -103,7 +105,7 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
    let sent=0;
    // what the rider tried and how it rode; a log that cannot be read never blocks the answer
    const setupHistory=bike?((await db.from('setup_logs').select('recorded_at,track,conditions,change_made,result,notes').eq('bike_id',bike.id).eq('user_id',owner).order('recorded_at',{ascending:false}).limit(8)).data??[]):[];
-   const {response,raw}=await generateAnswer(bike,history,claims,data.message,lookups,draft=>{const size=draft.summary.length+draft.answer.length;if(size-sent<24)return;sent=size;emit({type:'draft',summary:draft.summary,answer:draft.answer});},setupHistory,knowledge,data.guided??null,data.voice===true,bike?await riderManualExcerpts(owner,bike.id,data.message,lookups):[],await (async()=>{const links=await photoLinks(photoIds,900);return photoIds.map(id=>links.get(id)?.url).filter((u):u is string=>!!u);})(),await trackContext(db,owner,[data.message,...history.filter(m=>m.role==='user').slice(-3).map(m=>m.content)]),data.media??null);
+   const {response,raw}=await generateAnswer(bike,history,claims,data.message,lookups,draft=>{const size=draft.summary.length+draft.answer.length;if(size-sent<24)return;sent=size;emit({type:'draft',summary:draft.summary,answer:draft.answer});},setupHistory,knowledge,data.guided??null,data.voice===true,bike?await riderManualExcerpts(owner,bike.id,data.message,lookups):[],await (async()=>{const links=await photoLinks(photoIds,900);return photoIds.map(id=>links.get(id)?.url).filter((u):u is string=>!!u);})(),await trackContext(db,owner,[...(data.media?.track?[data.media.track]:[]),data.message,...history.filter(m=>m.role==='user').slice(-3).map(m=>m.content)]),data.media??null,data.media&&bike?{history:await coachingHistory(db,owner,bike.id,data.request_id),before:data.media.kind==='clip'&&data.media.compare_to?await beforeClip(owner,data.media.compare_to):null}:null);
    emit({type:'status',stage:'checking'});
    checked(await admin.rpc('complete_ai_request',{p_user_id:owner,p_request_id:data.request_id,p_response:response,p_raw_output:{...raw,bakmx_plan_ms:t1-t0,bakmx_search_ms:t2-t1,bakmx_streamed:emit!==quiet}}));
    if(bike&&response.data_gaps?.length){const scope=exactBikeScope(bike);/* Best effort: a logging failure must not cost the rider a saved answer. */await admin.from('data_gaps').insert(response.data_gaps.map(gap=>({request_id:data.request_id,user_id:owner,...scope,gap:gap.slice(0,300)}))).then(()=>{},()=>{});}

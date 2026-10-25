@@ -30,4 +30,4 @@ export function nearestFrame(frames:readonly number[],t:number){
 }
 
 /** What was sent with a chat question besides the photos themselves. Kept on the rider's message. */
-export type ChatMedia={kind:'clip';duration:number;frames:number[];focus?:CoachFocus;slowmo?:boolean}|{kind:'photos';focus:CoachFocus};
+export type ChatMedia={kind:'clip';duration:number;frames:number[];focus?:CoachFocus;slowmo?:boolean;compare_to?:string;track?:string}|{kind:'photos';focus:CoachFocus;track?:string};
