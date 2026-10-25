@@ -770,6 +770,160 @@
    "other_mods": "His other chassis mods (not listed in the feed)",
    "url": "https://www.keeferinctesting.com/2025-ktm-350-sx-f-baseline-suspension-settings/",
    "confidence": "medium"
+  },
+  {
+   "id": "kf5-036",
+   "category": "model_change_note",
+   "brand": "KTM (Factory Edition fitment)",
+   "product": "2026 KTM 450 SX-F Factory Edition parts and intake changes",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F Factory Edition",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "Jody Weisel",
+   "date": "2026-02-26",
+   "conditions": "Companion text to a video test; raced at Glen Helen (Dennis Stapleton) and other SoCal tracks. No settings or verdict in the text.",
+   "observed": "FE parts: orange frame, PowerParts wheels, holeshot device, quieter Akrapovic slip-on, Hinson clutch cover, skid plate, rotor guard, connectivity unit, WP XACT Pro cone-valve fork, and a quieter Twin Air filter, filter cage and airbox setup aimed at a future 109 dB limit. MXA names the XACT Pro suspension and revised intake as the main 2026 changes. Shawn Bushnell got a better start on it than Ezra Lewis on MXA's 2026 FC250 Factory Edition.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-video-2026-ktm-450sxf-factory-edition-tested/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf5-037",
+   "category": "model_change_note",
+   "brand": "Husqvarna (stock)",
+   "product": "2026 Husqvarna USA lineup and changes",
+   "part_numbers": [],
+   "bike": {
+    "make": "Husqvarna",
+    "model": "TC 125 / TC 250 / TX 300 / FX 350",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2025-08-10",
+   "conditions": "From Husqvarna USA press release (2025-08-07).",
+   "observed": "US 2026: TC 125, TC 250, TX 300, FX 350 and minis. FC 250/350/450 not imported (overstock of 2025s); FC 250 and FC 450 Factory Editions expected later in 2026; no TC 300 or TC 150 for the US. TC 125/250: new graphics, threaded radiator cap, fuel-line protection cap, revised wiring routing for durability, Dunlop MX34 tires, WP XACT 48 mm AER fork. TX 300/FX 350: graphics, radiator cap, fuel-line cap (harness change on TX 300 only), Dunlop AT82 tires; TX 300 has the XACT closed-cartridge spring fork.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/husqvarna-usa-reveals-2026-motocross-models-fc250-350-450-missing/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf5-038",
+   "category": "model_change_note",
+   "brand": "GasGas (stock)",
+   "product": "2026 GasGas MC lineup first look",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 125 / MC 250 / MC 250F / MC 450F",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2025-08-28",
+   "conditions": "First look; GasGas released limited technical detail; no word on MC 350F, MC 150 or 85.",
+   "observed": "Two-strokes (MC 125, MC 250) are TBI with premix and electronic exhaust control, plus rerouted wiring harnesses. Line-up: die-cast swingarm, forged triple clamps, WP XACT air fork with hydrostop and XACT shock (300 mm travel), Braktec hydraulic clutch and brakes, black Excel rims, Neken bars, new gripper seat cover, fuel-line protection cap, Maxxis MX-ST tires. (MXA's later lap-time story lists MC 250F airbox, Twin Air filter and muffler changes not in this first look.)",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/first-look-2026-gas-gas-two-and-four-stroke-motocross-models/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf5-039",
+   "category": "model_change_note",
+   "brand": "KTM (stock)",
+   "product": "2026 KTM SX/SX-F model changes",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "SX/SX-F range incl. 85 SX",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Cycle News",
+   "author": "Cycle News staff",
+   "date": "2025-08-05",
+   "conditions": "Specs article from KTM release; no riding.",
+   "observed": "All SX/SX-F: easier-opening radiator closure, restyle, fuel-link quick-lock protector cap on EFI models. Two-strokes: upgraded wiring-harness routing against dirt intrusion. 85 SX: new triple clamps with 17 mm wrench sizes and closed screw nut, sealed throttle-cable cap, new two-position adjustable brake lever. No SX-F engine, airbox, ECU, chassis or suspension changes listed.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.cyclenews.com/2025/08/article/new-2026-ktm-sx-sx-f-models-specs/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf5-040",
+   "category": "model_change_note",
+   "brand": "KTM (stock)",
+   "product": "2026 KTM motocross and cross-country changes",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "SX, SX-F, XC, XC-F range",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Bike Test",
+   "author": "Dirt Bike Test staff",
+   "date": "2025-08-04",
+   "conditions": "First look from KTM information.",
+   "observed": "Full-size SX/SX-F and 250/300 XC, 250/450 XC-F: in-mold graphics, updated radiator cap, fuel-line quick-disconnect protector cap; two-strokes get new wiring-harness routing for weather resistance. 85 SX: two-position adjustable rear brake tip, 17 mm triple clamp nut, radiator cap. 50/65 SX: refreshed XACT AER internals. No 2026 350 XC-F or 125 XC announced (US).",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://dirtbiketest.com/fresh-dirt/first-look-2026-ktm-motocross-and-cross-country-models/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf5-041",
+   "category": "model_change_note",
+   "brand": "KTM / WP Pro Components / Akrapovic / Hinson (factory-fitted)",
+   "product": "2026 KTM 450 SX-F Factory Edition first look",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F Factory Edition",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2025-11-05",
+   "conditions": "First look; no riding.",
+   "observed": "FE airbox modified to meet the 109 dB limit (MXA notes the AMA rule was pushed back a year). WP XACT PRO 7548 cone-valve fork and XACT PRO 8950 shock, WP holeshot device. Orange CNC clamps, black engine mounts with cutouts, semi-floating front disc, carbon disc guard and skid plate, D.I.D DirtStar rims with orange hubs, Dunlop MX34, Akrapovic slip-on, Hinson clutch cover, CUO unit. No ECU change described.",
+   "measured": "MSRP $13,699.",
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/first-look-2026-ktm-450-sxf-factory-edition-eli-tomac-replica/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf5-042",
+   "category": "model_change_note",
+   "brand": "GasGas (stock)",
+   "product": "2026 GasGas off-road and MC lineup changes",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "EX 300 / MC range",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Cycle News",
+   "author": "Cycle News staff",
+   "date": "2025-08-31",
+   "conditions": "Specs article; no riding.",
+   "observed": "Line-wide: black Excel rims, black gripper seat, black Neken bars, graphics, fuel-line protection caps, rerouted wiring on all two-strokes. MC 125/250 two-strokes: TBI with premix, rerouted harness. MC 250F/450F: line-wide changes only. EX 300: 2.37 gal tank and 18 in rear wheel (from the enduro models), Pankl six-speed, WP XACT closed-cartridge spring fork. MC 85: revised triple clamps and cooling, two wheel sizes. EX 250F/350F/450F not mentioned.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.cyclenews.com/2025/08/article/new-2026-gasgas-off-roaders-specs/",
+   "confidence": "medium"
   }
  ],
  "builds": [
@@ -1243,7 +1397,14 @@
   }
  ],
  "gaps": [
-  "KTM 85 SX: no 2025-2027 written test or owner review found. The Vital MX 2025 85 SX 17/14 product guide (https://www.vitalmx.com/product/guide/bikes/ktm/85-sx-1714-17561) has no reviews, only specs (price $6,749; Keihin PWK 28; 13:46 gearing; WP XACT AER 43 fork; 68 kg without fuel; redesigned combustion chamber, airbox and lighter re-tuned suspension listed as features). Dirt Bike's 85 SX test found is a 2018 model (excluded). MX Tech 85SX shock test (2025, MC 85) is already in ktm-rider-feedback.json."
+  "KTM 85 SX: no 2025-2027 written test or owner review found. The Vital MX 2025 85 SX 17/14 product guide (https://www.vitalmx.com/product/guide/bikes/ktm/85-sx-1714-17561) has no reviews, only specs (price $6,749; Keihin PWK 28; 13:46 gearing; WP XACT AER 43 fork; 68 kg without fuel; redesigned combustion chamber, airbox and lighter re-tuned suspension listed as features). Dirt Bike's 85 SX test found is a 2018 model (excluded). MX Tech 85SX shock test (2025, MC 85) is already in ktm-rider-feedback.json.",
+  "2026-2027 aftermarket part tests on KTM-family four-strokes remain thin in text form: Keefer's 2026 KTM 450 SX-F project (stage one, chassis/suspension build, FE settings/tips) and his WP cone-valve vs AER comparison are video or podcast only. Written 2026-2027 part tests found: none beyond factory-fitted Factory Edition parts (Akrapovic, WP Pro Components) and the Twisted Development two-stroke ECU remap (2024 test bikes).",
+  "2027 KTM-family: only first-look change notes (quieter intake/exhaust, larger Twin Air filter, more restrictive cage and muffler, slightly altered maps on four-strokes; no 150SX). No 2027 riding test, baseline settings or part test captured. MXA's 2027 Husqvarna first look was blocked.",
+  "Husqvarna FC 250/350/450: no 2026 US model (overstock of 2025s), so 2026 US tests do not exist; Keefer carries 2025 FC settings forward. Keefer's 2025.5 FC250 Rockstar Edition test was blocked. No 2026 FC Factory Edition written test captured (MXA mentions a 2026 FC250 FE only in a caption).",
+  "Two-stroke TBI (125/250/300 SX, TC, MC): 2025 KTM 300 SX covered (Dirt Bike full test, Dirt Rider dyno), TD ECU remap (2024 bikes), forum owner reports (low confidence). No 2025-2027 written test captured for KTM 125 SX, 250 SX, Husqvarna TC 125/TC 250 or GasGas MC 125/MC 250; MXA's Austrian two-stroke showdown (2025) was blocked.",
+  "85 SX / MC 85 / TC 85: no 2025-2027 written test or owner review found (see the 85 SX gap entry above).",
+  "Cross-country: only the 2025 KTM 125 XC (Keefer settings), the 2025 KTM 300 XC and 2025 Husqvarna FX 350 Heritage builds (Racer X, no settings). No 2025-2027 written test captured for KTM 250/350/450 XC-F, 250/300 XC TBI riding, Husqvarna FX 450 / TX 300, or GasGas EX models.",
+  "Swapmoto Live shootout pages (2026 450 and 250) failed to load; Dirt Rider 2026 Best MX Bike pages returned only summaries, so their settings and rankings detail is missing."
  ],
  "not_done": [
   "Swapmoto Live 2026 450 shootout KTM page (https://swapmotolive.com/2026-450-mx-shootout-in-depth/shootout/2026-mx-shootout/4/) and 2026 KTM 250 SX-F shootout page (https://swapmotolive.com/2026-ktm-250-sx-f-250-shootout-in-depth/shootout/2026-mx-shootout/) failed at the site (client_error); not retried.",
@@ -1253,6 +1414,13 @@
   "Keefer 'Physical Rehab With The 2026 KTM 150 XC-W' (enduro model, out of scope) not recorded.",
   "Keefer 2025.5 Husqvarna FC250 Rockstar Edition article and 2026 Optional Renthal Handlebar Bends article: WebFetch refused (permission request not answered in time; URLs came from a fetched listing). Not retried.",
   "Vital MX forum TSP 'Power Kit Plus' review for a 2022 KTM 125 SX (https://www.vitalmx.com/forums/tech-helprace-shop/ktm-125sx-tsp-power-kit-plus-review) fetched but excluded: 2022 carbureted bike, outside 2025-2027.",
-  "Keefer Tested podcasts with KTM-family content (audio only, no written settings): #464 2026 KTM 350 SX-F review/tips/mods (2026-01-19), #468 2026 KTM 450 FE review, #475 KTM 350 SX-F vs KX450 five mods each (model year not stated), #505, #511. Listed in https://pulpmx.com/apptabs/z_keefer.xml."
+  "Keefer Tested podcasts with KTM-family content (audio only, no written settings): #464 2026 KTM 350 SX-F review/tips/mods (2026-01-19), #468 2026 KTM 450 FE review, #475 KTM 350 SX-F vs KX450 five mods each (model year not stated), #505, #511. Listed in https://pulpmx.com/apptabs/z_keefer.xml.",
+  "Blocked by unanswered permission prompts (URLs from fetched MXA listing, not retried): MXA Austrian two-stroke showdown TC125 vs 150SX vs TC250 vs 300SX (https://motocrossactionmag.com/austrian-two-stroke-showdown-tc125-vs-150sx-vs-tc250-vs-300sx/, 2025-06-24); MXA 'Living the Dream: Brian Medeiros' dream KTM 300SX' (https://motocrossactionmag.com/title-living-the-dream-brian-mederios-dream-gasgas-two-stroke/, 2026-05-28). Not attempted: MXA First Look 2027 Husqvarna (https://motocrossactionmag.com/first-look-2027-husqvarna-four-strokes-two-strokes/).",
+  "Racer X magazine Garage Build pages (August and December 2025 issues) are paywalled; their web versions are captured as builds.",
+  "MXA First Look 2027 Husqvarna (https://motocrossactionmag.com/first-look-2027-husqvarna-four-strokes-two-strokes/) blocked by an unanswered permission prompt; not retried.",
+  "Keefer 'Project KTM 350 SX-F: Dual Injector Set Up/Install' (https://www.keeferinctesting.com/project-ktm-350-sx-f-dual-injector-set-up-install/, 2025-12-01) blocked by an unanswered permission prompt; not retried.",
+  "Vital MX '2024 KTM 300SX official thread' (https://www.vitalmx.com/forums/moto-related/2024-ktm-300sx-official-thread) fetched: owner posts are 2023 bikes only (2023 dates); excluded as outside 2025-2027. Vital MX 'Ktm 85 sx' thread covers a 2006 bike; excluded.",
+  "WebSearch budget (shared across agents, 200 per turn) ran out partway through; remaining planned searches not run: Transworld, ThumperTalk, Cycle News KTM/GasGas/Husqvarna 2025-2026 reviews, Vital 2026 250 shootout, Keefer 2025/2026 Husqvarna TC tests, Dirt Bike 2026 KTM/GasGas full tests, MXA 2025 GasGas MC450F and 2026 KTM 250/350 SX-F race tests.",
+  "Many URLs taken from fetched listing pages (not search results) were refused because an earlier permission prompt went unanswered; they were not retried and are listed individually above."
  ]
 }

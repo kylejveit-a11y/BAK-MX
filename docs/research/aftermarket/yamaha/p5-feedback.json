@@ -660,6 +660,138 @@
    "other_mods": "Revalved KYB fork and shock",
    "url": "https://www.keeferinctesting.com/art-of-war-billet-fork-lugs-review-2025-yz450f/",
    "confidence": "medium"
+  },
+  {
+   "id": "yf5-031",
+   "category": "suspension_setup",
+   "brand": "KYB (stock) / Yamaha Power Tuner",
+   "product": "MXA 2027 YZ450F test: day-one setup vs stock 2026",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2027"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "Josh Fout",
+   "date": "2026-10-13",
+   "conditions": "Hot day at Glen Helen, dry and square-edged, back-to-back with a stock 2026. Day-one settings aimed at vet pro and vet intermediate riders; MXA expects them to change. Spring rates, gearing and tire pressure not given.",
+   "observed": "Main 2027 change is the fork: about 15 cc more oil and softer valving. On paper softer, but on track it rode higher in the stroke and felt harsher than the 2026. Day-one setup: fork rebound 2 clicks slower, compression 2 clicks softer, fork height 2 mm; shock stock except HSC 1/8 turn in; race sag 101-102 mm. Slower riders: slide the forks up 5 mm and leave clickers stock. Map: Yamaha R&D tester Travis Preston's map, adjusted on the fly in Power Tuner.",
+   "measured": null,
+   "other_mods": "None",
+   "url": "https://motocrossactionmag.com/2027-yamaha-yz450f-test-can-our-shootout-winner-get-better/",
+   "confidence": "high"
+  },
+  {
+   "id": "yf5-032",
+   "category": "model_change_note",
+   "brand": "Yamaha (stock)",
+   "product": "2027 Yamaha YZ lineup changes",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ125 / YZ250 / YZ250FX / YZ450FX / YZ125X / YZ250X",
+    "year": "2027"
+   },
+   "source_type": "magazine",
+   "publication": "Racer X",
+   "author": "Racer X staff",
+   "date": "2026-06-03",
+   "conditions": "Announcement from Yamaha information; no riding.",
+   "observed": "No 2027 changes listed for YZ125, YZ250, YZ250FX, YZ125X or YZ250X (availability and price only). YZ450FX: retuned for low-mid control via cam timing and a new AC magneto rotor, 51T rear sprocket, hydraulic clutch with 15% lighter pull than the 2026 YZ450F, YZ450F-derived frame and engine brackets, YZ450F KYB retuned, Dunlop Geomax AT82 tires. YZ250F all-new (see other records). YZ85 got engine, clutch and chassis updates (out of scope).",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://racerxonline.com/2026/06/03/yamaha-announces-2027-yz-lineup-led-by-significant-changes-to-yz250f",
+   "confidence": "medium"
+  },
+  {
+   "id": "yf5-033",
+   "category": "suspension_baseline",
+   "brand": "KYB (stock)",
+   "product": "2026 YZ450F early baseline suspension settings",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "PulpMX (Keefer Tested)",
+   "author": "Kris Keefer",
+   "date": "2025-09-30",
+   "conditions": "Developed over four unnamed tracks starting from stock; fork setting suggested for riders over 180 lb without gear. Spring rates not listed.",
+   "observed": "Fork: height 2 mm, compression 10 out, rebound 11 out. Shock: sag 105 mm, LSC 9-10 out, HSC 1-1/2 turns out (stock 1-1/4), rebound 11 out. Fork soft at the start and firms up mid-stroke (tuners say the valving is stiff); going softer did not cure the mid-stroke firmness and cost control early in the stroke. 2026 shock much better than the 2025. If the rear loses traction or feels harsh, back HSC out from 1-1/4 to 1-1/2. Frame changes mean 2025 KYB parts may not work the same on a 2026.",
+   "measured": null,
+   "other_mods": "None",
+   "url": "https://pulpmx.com/2025/09/30/2026-yamaha-yz450f-baseline-suspension-settings/",
+   "confidence": "high"
+  },
+  {
+   "id": "yf5-034",
+   "category": "model_change_note",
+   "brand": "Yamaha (stock)",
+   "product": "2027 YZ450FX changes",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450FX",
+    "year": "2027"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Bike Magazine",
+   "author": "Travis Fant",
+   "date": "2026-06-15",
+   "conditions": "First look from Yamaha information plus video; no written riding findings.",
+   "observed": "Cam timing and new AC magneto rotor for low-mid control; 51T rear sprocket to reduce the need for precise throttle; hydraulic clutch with about 15% less pull than the 2026 YZ450F and a flatter lever stroke; YZ450F-derived frame and new engine brackets; YZ450F KYB retuned for more responsive initial and mid-stroke; Dunlop Geomax AT82 tires. $10,499.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://dirtbikemagazine.com/2027-yamaha-yz450fx-is-here-and-updated-video/",
+   "confidence": "medium"
+  },
+  {
+   "id": "yf5-035",
+   "category": "fuel_injection",
+   "brand": "Vortex / FMF (second injector brand not stated)",
+   "product": "Modified 2025 YZ250F (second injector, Vortex ECU, FMF muffler) vs modified CRF250R (podcast)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing (Keefer Tested podcast #411)",
+   "author": "Kris Keefer",
+   "date": "2025-01-15",
+   "conditions": "Podcast page; audio not transcribed. Only the mods list is in the text.",
+   "observed": "Mods on the YZ250F: second fuel injector, Vortex ECU, FMF muffler. No written findings or settings (likely the XPR kit later written up in his April 2025 top-mods article, but the page does not say so).",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/rmatvmc-keefer-tested-show-411-modified-comparison-2025-yamaha-yz250f-vs-honda-crf250r/",
+   "confidence": "low"
+  },
+  {
+   "id": "yf5-036",
+   "category": "ecu_map",
+   "brand": "Keefer (Yamaha Power Tuner)",
+   "product": "2027 YZ250F optional ECU map",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2027"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-08-31",
+   "conditions": "Map values not in the page text (image). Applies only to the 2027 YZ250F; will not work on older YZ250Fs.",
+   "observed": "Meant to give 'a little more pulling power with less engine braking'.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2027-yamaha-yz250f-optional-ecu-map/",
+   "confidence": "medium"
   }
  ],
  "builds": [
@@ -913,13 +1045,23 @@
    ]
   }
  ],
- "gaps": [],
+ "gaps": [
+  "2027 YZ250F: written first rides and Keefer's 10 things captured, but no full 2027 baseline settings article (Keefer podcasts #503/#510 audio only; 'Is the 2027 YZ250F best in class?' video only). MXA's 2027 YZ250F first ride was blocked.",
+  "2027 YZ450F: MXA day-one setup, Keefer test and Pro Circuit Ti-6 BC Pro test captured; the 2027 CRF450R vs YZ450F comparison parts one and two are video only.",
+  "YZ125 / YZ250 2025-2027: only the MXA Pro Circuit YZ250 build (no results), Racer X 2025 YZ250 build (no settings) and a low-confidence Vital forum dyno post. No 2025-2027 written settings or jetting captured (Keefer podcast #465 on 2026 YZ250 mods/jetting is audio only; Keefer YZ250 pipe/silencer shootout and PC RV2 pipe test are video only; MXA 2025 YZ125/YZ250 race test failed to load).",
+  "YZ250FX / YZ450FX: 2027 YZ450FX change notes only (51T, hydraulic clutch, YZ450F-based frame); no 2025-2027 written riding test or settings captured beyond the existing yamaha-research.json entries. Dirt Bike Test's 2026 YZ250FX first ride is video only.",
+  "Part numbers: none of the 2025-2027 tests captured here state part numbers; prices are recorded where stated."
+ ],
  "not_done": [
   "MotoOnline 2027 YZ250F overview (https://www.motoonline.com/us/overview-2027-yamaha-yz250f-test-2/) fetched: names tester Caleb Tennant at ClubMX but the page text held no findings or settings (video only).",
   "Dirt Bike 2026 YZ125 vs YZ250 (https://dirtbikemagazine.com/2026-yamaha-yz125-versus-yz250-two-strokes/, Travis Fant, 2026-06-25, Cahuilla) fetched: text says only that both are unchanged for 2026; details are in the video. Not recorded.",
   "Dirt Bike Test first ride 2026 YZ250FX (https://dirtbiketest.com/fresh-dirt/first-ride-2026-yamaha-yz250fx/) is video only; no text findings.",
   "Keefer 'YZ250 Pipe/Silencer Shootout' (https://www.keeferinctesting.com/yz250-pipe-silencer-shootout/, 2026-10-07) and 'Pro Circuit RV2 Champ Works Pipe (Yamaha YZ250)' (https://www.keeferinctesting.com/pro-circuit-rv2-champ-works-pipe-yamaha-yz250/, 2026-04-03): video only, no text results.",
   "Keefer 2027 YZ450F First Ride (https://www.keeferinctesting.com/2027-yamaha-yz450f-first-ride/), 'Is The 2027 Yamaha YZ250F Best In Class?' and 2027 CRF450R vs YZ450F comparison parts one and two: video only per the site feed; podcast shows #509 (2027 YZ450F settings) and #510 (2027 YZ250F west coast) audio only.",
-  "Keefer 'How Does Billet Aluminum Fork Lugs Affect The Yamaha YZ450F?' (2026-07-09) and 'Top Chassis/Engine Mods For 23-25 Yamaha YZ450F' (2025-04-22): video only. Keefer Tested podcasts with Yamaha content (audio only): #452 recently tested parts incl. YZ250F Yoshimura and Akrapovic exhaust tests, #459 2026 modified KX450 vs YZ450F, #462 2026 YZ250F setup, #465 2026 YZ250 two-stroke mods and jetting, #503 2027 YZ250F incl. GYTR airbox test, #509, #510."
+  "Keefer 'How Does Billet Aluminum Fork Lugs Affect The Yamaha YZ450F?' (2026-07-09) and 'Top Chassis/Engine Mods For 23-25 Yamaha YZ450F' (2025-04-22): video only. Keefer Tested podcasts with Yamaha content (audio only): #452 recently tested parts incl. YZ250F Yoshimura and Akrapovic exhaust tests, #459 2026 modified KX450 vs YZ450F, #462 2026 YZ250F setup, #465 2026 YZ250 two-stroke mods and jetting, #503 2027 YZ250F incl. GYTR airbox test, #509, #510.",
+  "Blocked by unanswered permission prompts (URLs from fetched listings, not retried): MXA First Ride 2027 YZ250F (https://motocrossactionmag.com/first-ride-%f0%9f%91%80-all-new-2027-yamaha-yz250f/); PulpMX cable clutch conversion part numbers for 2026 YZ450F (https://pulpmx.com/2026/04/26/exactly-what-you-need-for-the-cable-clutch-conversion-2026-yz450f/); PulpMX Steve's Pro Circuit Ti-6 muffler review 2026 YZ450F (https://pulpmx.com/2026/02/10/steves-pro-circuit-ti-6-pro-circuit-muffler-review/).",
+  "Not fetched from MXA Yamaha listing: Dream Bike Showdown YZ250 vs YZ250F (2025-12-01/02), Ask the MXperts YZ250 needle (2025-11-06), Mini tester 2026 YZ85 (out of scope).",
+  "WebSearch budget (shared across agents, 200 per turn) ran out partway through; remaining planned searches not run: Transworld, ThumperTalk, Swapmoto Yamaha tests, Dirt Bike 2026-2027 YZ full tests, MXA team-tested Yamaha parts 2025-2026, Vital 2026 250 shootout.",
+  "Out-of-range pages fetched and excluded: Dirt Bike 250 two-stroke shootout (2020 bikes), Dirt Bike YZ250X full test (2017), Dirt Bike Test YZ250 vs YZ250FX (2020/2021 bikes), Keefer 2020 and 2022 YZ250F baselines."
  ]
 }

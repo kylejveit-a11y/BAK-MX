@@ -43,10 +43,24 @@
      "price_if_stated": "1029.00",
      "currency": "USD",
      "date": "2026-10-25"
+    },
+    {
+     "seller": "Brisbane Motorcycles (AU)",
+     "url": "https://www.brisbanemotorcycles.com.au/kawasaki-kx450-rs-12-2024-fs-ss-al-cf",
+     "price_if_stated": "",
+     "currency": "",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "Firestorm Motorcycles (AU)",
+     "url": "https://www.firestormmotorcycles.com.au/kawasaki-kx450x-2024-2026-yoshimura-rs-12-full-exh",
+     "price_if_stated": "",
+     "currency": "",
+     "date": "2026-10-25"
     }
    ],
    "rider_feedback": [],
-   "caveats": "Different SKU from the 244730S521 already in kawasaki-research.json (kxr-010); Yoshimura's naming for the S320 vs S521 difference was not stated on the page. No 2026-2027 fitment listed on this page. Optional spark arrestor SA-21-K sold separately. Gain figures are maker dyno claims.",
+   "caveats": "Different SKU from the 244730S521 already in kawasaki-research.json (kxr-010); Yoshimura's naming for the S320 vs S521 difference was not stated on the page. No 2026-2027 fitment on the Yoshimura page; Firestorm (AU) titles a KX450X 2024-2026 listing with image file YO-244730S320 (unconfirmed for 2026). Gain claims conflict: Yoshimura US page says +23.8% hp / +16.4% torque, Brisbane Motorcycles (AU) copy says +6.4% hp / +13.8% torque. Optional spark arrestor SA-21-K sold separately.",
    "confidence": "high"
   },
   {
@@ -262,7 +276,9 @@
    "subcategory": "auto_clutch",
    "brand": "Rekluse",
    "product": "Radius CX 4.0 Clutch Kit (Kawasaki KX450F / KX450X / KX450SR)",
-   "part_numbers": [],
+   "part_numbers": [
+    "RMS-7904047"
+   ],
    "variants": [],
    "fits": [
     {
@@ -305,7 +321,7 @@
     }
    ],
    "rider_feedback": [],
-   "caveats": "Rekluse part number not shown (Cycle Gear item P1069699 only). Page title 2021-2026 vs URL 2021-2025. A retailer lists a RadiusCX 3.0 to 4.0 pack upgrade 770-8904047 (oro2u), not confirmed.",
+   "caveats": "Rekluse part number not shown on Cycle Gear (item P1069699); RMS-7904047 comes from the meta keywords of a Maxiscoot listing titled 'Auto Clutch Rekluse Radius CX KX 450 2024' (https://www.maxiscoot.com/en/product/auto-clutch-rekluse-radius-cx-kx-450-2024-290736), not a Rekluse page. Page title 2021-2026 vs URL 2021-2025. A retailer lists a RadiusCX 3.0 to 4.0 pack upgrade 770-8904047 (oro2u), not confirmed.",
    "confidence": "medium"
   },
   {
@@ -490,7 +506,7 @@
     }
    ],
    "fitment_source_url": "https://www.ghostbikes.com/products/518014-pro-circuit-ti-6-pro-titanium-exhaust-system-for-kawasaki-kx450-2024-2026",
-   "what_it_changes": "Pro Circuit (via retailer): titanium head pipe, mid pipe and canister with carbon end cap, 1-into-1, closed-course system; retailer text says it 'Passes AMA/FIM sound regulations until 2024'. No power or weight claim on the page.",
+   "what_it_changes": "Pro Circuit (via retailer): titanium head pipe, mid pipe and canister with carbon end cap, 1-into-1, closed-course system; retailer text says it 'Passes AMA/FIM sound regulations until 2024'. No power or weight claim on the page. Sixty61 copy adds: RC-4 resonance chamber, machined aluminum muffler bracket, and a rubber bracket mount on 2024 models that it says helps prevent subframe cracking.",
    "supporting_parts": [],
    "where_to_buy": [
     {
@@ -505,6 +521,13 @@
      "url": "https://www.summitracing.com/parts/pcp-0322445fp",
      "price_if_stated": "",
      "currency": "",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "Sixty61",
+     "url": "https://sixty61.com/products/1820-2044",
+     "price_if_stated": "1396.95",
+     "currency": "USD",
      "date": "2026-10-25"
     }
    ],
@@ -578,7 +601,7 @@
       2025,
       2026
      ],
-     "notes": "Firestorm Motorcycles title only: 'Kawasaki KX450F 2024-2026 FMF Powercore 4 Hex Muffler'"
+     "notes": "Firestorm title 'Kawasaki KX450F 2024-2026'; TokyoMods: 'Designed for Kawasaki KX450F 2024-2026'"
     }
    ],
    "fitment_source_url": "https://motomentum.com/products/fmf-racing-powercore-4-hex-slip-on-muffler-for-2024-kawasaki-kx-450-042401.oembed",
@@ -597,6 +620,13 @@
      "url": "https://www.firestormmotorcycles.com.au/kawasaki-kx450f-2024-2026-fmf-powercore-4-hex-muff",
      "price_if_stated": "",
      "currency": "",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "TokyoMods",
+     "url": "https://tokyomods.com/shop/exhaust/exhaust-fmf/fmf-powercore-4-hex-slip-on-3/",
+     "price_if_stated": "359.99",
+     "currency": "USD",
      "date": "2026-10-25"
     }
    ],
@@ -931,7 +961,7 @@
     }
    ],
    "rider_feedback": [],
-   "caveats": "Install requires drilling (template included). 12-G339 black/grey, 12-K339 copper/brown. KX250 fitment not on this page. Separate from the electronic launch control on 2024+ KX450.",
+   "caveats": "Install requires drilling (template included). An eBay listing (Mx Factory Parts Ltd, UK) uses base MPN 12-339 and lists KX450 2019-2026, KX450X 2021-2026, KX450SR 2025-2026 (https://www.ebay.de/itm/187524793163, 168.99 GBP). 12-G339 black/grey, 12-K339 copper/brown. KX250 fitment not on this page. Separate from the electronic launch control on 2024+ KX450.",
    "confidence": "medium"
   },
   {
@@ -1495,6 +1525,139 @@
    "rider_feedback": [],
    "caveats": "No FMF part number shown (Cycle Gear P721397).",
    "confidence": "medium"
+  },
+  {
+   "id": "kx5-030",
+   "category": "exhaust",
+   "subcategory": "full_system",
+   "brand": "FMF",
+   "product": "Factory 4.1 RCT full system w/ MegaBomb header (KX250 2021-2024)",
+   "part_numbers": [
+    "042397",
+    "042398"
+   ],
+   "variants": [
+    "042397 stainless/aluminum/carbon",
+    "042398 titanium/blue titanium/carbon"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Cycle Gear: Kawasaki KX250 2021-2024"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/fmf-factory-41-rct-exhaust-system-kawasaki-kx250-2021-2022",
+   "what_it_changes": "FMF (via Cycle Gear): 'Massive power gains throughout the RPM range', 'Huge weight savings over stock exhaust', RTS trackside tuning, stainless MegaBomb header, removable spark arrestor, 94 dB quiet insert, meets AMA and FIM sound requirements.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/fmf-factory-41-rct-exhaust-system-kawasaki-kx250-2021-2022",
+     "price_if_stated": "from 926.24",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "042397 = stainless/aluminum/carbon, 042398 = titanium/blue titanium/carbon. Price text on the page was garbled (926.24 to 1,163.74). KX250X not listed on this page. Not for 2025+ KX250 (042413/042426 family in specialty/engine.json).",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5-031",
+   "category": "brakes",
+   "subcategory": "oversize_rotor_kit",
+   "brand": "Braking",
+   "product": "EPTA Batfly rotor kit 280 mm, chrome/black, aluminum hub",
+   "part_numbers": [
+    "OKBY30E"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "eBay compatibility table (partial, 20 of 42 rows shown): Kawasaki KX250 2006, 2007, 2019-2022; KX250F 2007-2018"
+    }
+   ],
+   "fitment_source_url": "https://www.ebay.com/itm/204396884337",
+   "what_it_changes": "Braking (via eBay listing): 280 mm oversize floating Batfly front rotor kit with aluminum hub; no performance claim on the listing.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "BikeNow Motorsports (eBay)",
+     "url": "https://www.ebay.com/itm/204396884337",
+     "price_if_stated": "410.77",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "eBay listing only; only 20 of 42 compatibility rows were visible, so KX450 fitment is unknown. Whether a caliper relocation bracket is included was not stated. Confirm with Braking.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "kx5-032",
+   "category": "protection",
+   "subcategory": "rear_caliper_guard",
+   "brand": "Works Connection",
+   "product": "Rear brake caliper guard, aluminum",
+   "part_numbers": [
+    "25-022"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "eBay product page: KX250 4-Stroke 2004-2024, KX250F 2004-2024"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "eBay product page: KX450 2006-2024, KX450F 2006-2024"
+    }
+   ],
+   "fitment_source_url": "https://www.ebay.com/p/171123511",
+   "what_it_changes": "Works Connection (via eBay): aluminum guard for the rear brake caliper; no further claims.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Motorcycle Parts Giant (eBay)",
+     "url": "https://www.ebay.com/p/171123511",
+     "price_if_stated": "37.99",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "eBay catalog fitment only; KX250X/KX450X not listed. 2025+ KX250 not listed.",
+   "confidence": "unverified"
   }
  ],
  "feedback": [
@@ -1829,6 +1992,50 @@
    "other_mods": [],
    "url": "https://www.keeferinctesting.com/?p=13336",
    "confidence": "high"
+  },
+  {
+   "id": "kx5f-016",
+   "category": "bike_test",
+   "brand": "Kawasaki (stock)",
+   "product": "2025 KX250 test",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": 2025
+   },
+   "source_type": "magazine_test",
+   "publication": "Moto.it",
+   "author": "Mattia Carpi",
+   "date": "2024-08-30",
+   "conditions": "Aufenau near Frankfurt, sunny ~30 C, hard-packed old-style track with climbs, descents and off-cambers",
+   "observed": "Redesigned head (31 mm intake / 26.5 mm exhaust valves, flatter 11-degree piston crown), more low/mid pull with no abrupt spikes, strong top. 109 dB limit met with new silencer position, airbox and filter. Showa 49 mm spring fork 'too soft' though it suited the bumpy track; shock 32 mm shorter; very good small-bump comfort. Chassis neutral and predictable, better corner entry; frame about 250 g lighter and stiffer. Optional second set of engine mounts changes handling; four bar and two peg positions.",
+   "measured": "No clicker or sag numbers given.",
+   "other_mods": [],
+   "url": "https://www.moto.it/prove/kawasaki-kx250-2025-test-tutta-nuova-e-pronta-per-il-mondiale-mx2.html",
+   "confidence": "medium"
+  },
+  {
+   "id": "kx5f-017",
+   "category": "model_change_note",
+   "brand": "Kawasaki (stock)",
+   "product": "2027 KX250F / KX450F changes (Kawasaki UK)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": 2027
+   },
+   "source_type": "magazine",
+   "publication": "Kawasaki UK (manufacturer news)",
+   "author": "Kawasaki Motors UK",
+   "date": "2026-06",
+   "conditions": "Manufacturer announcement",
+   "observed": "KX450F: new frame and swingarm with longer wheelbase, revised intake/exhaust and FI, Brembo calipers and master cylinders front and rear with braided hoses, new slim bodywork. KX250F: combustion chamber changes, longer exhaust pipe and 'smaller-bodied silencer' (+0.5 kW, +0.3 Nm), larger hydraulic clutch with 15% higher spring load, new plate/fender, revised hose routing.",
+   "measured": "",
+   "other_mods": [],
+   "url": "https://www.kawasaki.co.uk/en/news/2026/june/2027-kawasaki-kx250f--kx450f-and-youth-range-unveiled.html",
+   "confidence": "medium"
   }
  ],
  "builds": [],
