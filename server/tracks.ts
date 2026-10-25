@@ -10,7 +10,7 @@ export type TrackProfile={id:string;name:string;city:string|null;state:string;st
 let names:{at:number;rows:TrackName[]}|null=null;
 async function trackNames(db:SupabaseClient):Promise<TrackName[]>{
  if(names&&Date.now()-names.at<10*60_000)return names.rows;
- const {data,error}=await db.from('tracks').select('id,name,aliases').limit(5000);
+ const {data,error}=await db.from('tracks').select('id,name,aliases,city').limit(5000);
  if(error||!Array.isArray(data))return names?.rows??[];
  names={at:Date.now(),rows:data as TrackName[]};return names.rows;
 }

@@ -55,6 +55,7 @@ def main():
     state = (sys.argv[1] if len(sys.argv) > 1 else 'FL').upper()
     merged, problems = {}, []
     for f in sorted(glob.glob(os.path.join(DIR, f'{state.lower()}-*.json'))):
+        if '-update-' in os.path.basename(f): continue
         data = json.load(open(f))
         for r in data:
             if r.get('id') in EXCLUDE:
@@ -73,6 +74,30 @@ def main():
                 merged[r['id']] = keep
             else:
                 merged[r['id']] = r
+    # Correction passes: <state>-update-*.json is {"updates": [{"id": ..., field: value, ...}]}. A listed scalar or dict
+    # field replaces the old one (dicts merge key by key), sources/rider_reports/aliases/gaps/tracks_on_site are added
+    # to, and "remove_gaps" drops gaps the pass closed. Later passes win.
+    for f in sorted(glob.glob(os.path.join(DIR, f'{state.lower()}-update-*.json'))):
+        for u in json.load(open(f)).get('updates', []):
+            r = merged.get(u.get('id'))
+            if not r:
+                problems.append(f"{u.get('id')}: update in {os.path.basename(f)} names no track"); continue
+            for k, v in u.items():
+                if k in ('id', 'note') or v in (None, '', [], {}): continue
+                if k == 'remove_gaps':
+                    r['gaps'] = [g for g in r['gaps'] if g not in v]
+                elif k in ('sources', 'rider_reports'):
+                    key = 'url' if k == 'sources' else 'says'
+                    have = {x.get(key) for x in r.get(k, [])}
+                    r[k] = r.get(k, []) + [x for x in v if isinstance(x, dict) and x.get(key) not in have]
+                elif k in ('aliases', 'gaps', 'tracks_on_site', 'types'):
+                    r[k] = list(dict.fromkeys((r.get(k) or []) + [str(x) for x in v]))
+                elif isinstance(v, dict) and isinstance(r.get(k), dict):
+                    r[k] = {**r[k], **{a: b for a, b in v.items() if b not in (None, '', [])}}
+                else:
+                    r[k] = v
+            problems += norm(r, os.path.join(DIR, r['research_file']))
+            r['research_file'] += ' + ' + os.path.basename(f)
     rows = sorted(merged.values(), key=lambda r: r['id'])
     os.makedirs(os.path.join(DIR, 'load'), exist_ok=True)
     out = os.path.join(DIR, 'load', f'tracks-{state}.json')

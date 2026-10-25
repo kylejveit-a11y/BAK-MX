@@ -15,3 +15,13 @@ test('riders name tracks the way they say them',()=>{
 test('towns, everyday words and names alone are not tracks',()=>{
  for(const q of ['I live in Orlando','quick question about my forks','im in miami','harold said my sag is off','the glen was nice','sunshine all weekend'])assert.deepEqual(ids(q),[],q);
 });
+test('a town name alone is the town unless the rider is talking about riding there',()=>{
+ for(const q of ['I live in Brooksville and my bike pushes','from Lake City, my shock kicks','in Punta Gorda for vacation'])assert.deepEqual(ids(q),[],q);
+ assert.deepEqual(ids('racing Brooksville saturday'),['brooksville-mx']);
+ assert.deepEqual(ids('practice at Waldo tomorrow'),['waldo-mx']);
+});
+test('a name two tracks share matches neither; the full name still does',()=>{
+ assert.deepEqual(ids('heading to motobros this weekend'),[]);
+ assert.deepEqual(ids('heading to motobros punta gorda this weekend'),['motobros-punta-gorda-mx']);
+ assert.deepEqual(ids('racing sunshine mx'),[]);
+});
