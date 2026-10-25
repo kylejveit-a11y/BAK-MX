@@ -2268,8 +2268,75 @@
    "confidence": "medium",
    "is_service": false,
    "id": "en3-038"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston kit (four-stroke)",
+   "brand": "Wiseco",
+   "product": "Piston Kit 14.1:1 (piston 40264M), KTM / Husqvarna 350",
+   "part_numbers": [
+    "PK1925",
+    "40264M"
+   ],
+   "variants": [
+    "Hurreys code WISPK1925"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Hurreys table: 2016-2025 KTM 350 XC-F"
+    }
+   ],
+   "fitment_source_url": "https://hurreysoffroad.com/products/wiseco-16-22-ktm350sx-f-141-cr-40264m-piston-kit",
+   "what_it_changes": "Forged piston kit with rings, pin(s) and circlips; forged and machined in Mentor, Ohio (dealer copy).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Hurrey's Offroad",
+     "url": "https://hurreysoffroad.com/products/wiseco-16-22-ktm350sx-f-141-cr-40264m-piston-kit",
+     "price_if_stated": "311.99",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Dealer table conflicts with its own title: title says '16-22 KTM350SX-F' but the table lists 350 SX-F only 2016-2018, FC350 2016-2019, FX350 2017-2019 and 350 XC-F 2016-2025. Only the in-scope 350 XC-F line is recorded; whether it fits the 2023+ 350 engine is not confirmed by Wiseco. Backordered.",
+   "confidence": "unverified",
+   "is_service": false,
+   "id": "en3-039"
   }
  ],
- "gaps": [],
- "not_done": []
+ "gaps": [
+  "Hot Cams: still no camshaft or valve-spring kit for 2023+ KTM/Husqvarna/GasGas four-strokes, 2023+ YZ450F or 2024+ KX450. Partzilla (1051-3) and Maxiscoot (HC-3030164) pages show no fitment; the newest readable catalogue lines remain 2016-2022 (oro2u Dirt catalogue p.255).",
+  "Cylinder Works: only CW50009K03 (dealer title '2023 KTM 450 SX-F standard bore cylinder kit') found; no 2023+ 250/350, YZ450F 2023+ or KX450 2024+ kits. allballsracinggroup.com product pages for 2023+ numbers did not surface in search.",
+  "Vertex: 2023+ gasket kits and TBI piston kits were found only on Cycle Gear, which hides the Vertex part numbers; maker numbers still needed (allballsracinggroup.com).",
+  "Wiseco: no piston for the 2023+ TBI two-strokes, 2023+ 250/350 four-strokes or 2024+ KX450 was found; Wiseco 40306M09500 (450, engine2.json) remains the only 2023+ KTM-group Wiseco item. Hurreys PK1925 claims 350 XC-F to 2025 but conflicts with itself.",
+  "JE Pistons and CP-Carrillo: no 2023+ KTM 350/450, 2023+ YZ450F (beyond MX1112 in engine2) or 2024+ KX450 kits found. CP MX3033/MX3034 stop at 2023 KX450.",
+  "Athena: no 2023+ KTM-group big bore found; the Big Bore Extreme range lists KTM/Husqvarna 250 only to 2022 and GasGas MC 250F to 2023. The KX250 2023-2024 kit is already in engine.json en-251.",
+  "Kibblewhite: no maker or dealer page with 2023+ fitment; Parts Europe valve-spring-kit pages need JavaScript. Moose/Kibblewhite-style stainless valve kits (M80-80950/80960 YZ450F, M60-60850, 0926-3303) were seen with no years.",
+  "Pro-X valvetrain for 2023+ not added beyond valvetrain2.json; pro-x.com product pages were not reached this pass (search budget). Pro-X numbers here are retailer-sourced; 35.245 and 34.245 (YZ450F 2020-2022) may be truncated numbers.",
+  "Cometic: only C3806 (KX450 2021-2022 / KX450X 2021-2023) confirmed on cometic.com; C3595-EST application list looks unreliable; C3818 (85 SX) dealer specs conflict. No Cometic kit for 2023+ KTM group, 2023+ YZ450F or 2024+ KX450 found; Summit Racing's Cometic KTM page 5 lists only pre-2016 KTM numbers.",
+  "Moose Racing gasket kits: the only Moose complete kit found covers the 2017-2023 TPI generation; none for 2023+ TBI or 2023+ four-strokes.",
+  "Two-stroke top ends for 2023+ TBI engines: found Pro-X gasket kits (35.6324, 34.6324, 35.6354, 125 kit), Vertex cast pistons (250 and 300, no numbers) and Vertex 2023 gasket sets; no Wiseco, Athena, JE or Cylinder Works TBI top ends.",
+  "Search budget: the shared WebSearch limit (200 per turn) was exhausted part-way through; remaining work used only URLs already returned."
+ ],
+ "not_done": [
+  "Hot Cams / Web Cams / Kibblewhite for 2023+ KTM group, 2023+ YZ450F and 2024+ KX450 (maker pages hotcams.com, kibblewhiteprecision.com)",
+  "Vertex maker part numbers for the Cycle Gear 2023+ kits (allballsracinggroup.com)",
+  "Pro-X 2023+ piston kits for 2023+ TBI 125/250/300 and KTM 450 (RevZilla 450 page shows no number)",
+  "Pro-X 125 2023+ top-end gasket number (Cycle Gear page shows none)",
+  "Wiseco, Athena, JE top ends for 2023+ TBI engines",
+  "Cometic 2023+ KTM-group, YZ450F 2023+ and KX450 2024+ kits",
+  "CP-Carrillo 2023+ KTM 350/450 and 2024+ KX450",
+  "Moose and Vertex gasket kits for 2024+ KX450 and 2023+ YZ450F"
+ ]
 }

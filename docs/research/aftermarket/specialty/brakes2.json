@@ -3075,8 +3075,254 @@
    "confidence": "medium",
    "is_service": false,
    "id": "br2-027"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "oversize front rotor kit (270mm, floating)",
+   "brand": "Moto-Master",
+   "product": "Flame Floating Front Rotor Kit 270mm, Yamaha 250-450cc 2007-2021",
+   "part_numbers": [
+    "310026-PU"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2020
+     ],
+     "notes": "J&P: YZ250F 2007-2020"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250FX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "J&P: YZ250FX 2015-2021"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250X",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "J&P: YZ250X 2016-2021"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450FX",
+     "years": [
+      2020
+     ],
+     "notes": "J&P: YZ450FX 2016-2020"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/moto-master-flame-floating-front-rotor-kit-270mm-yamaha-250cc-450cc-2007-2021",
+   "what_it_changes": "Kit: Flame MX 270mm front rotor, billet caliper relocation bracket, Nitro Sport pads.",
+   "supporting_parts": "Includes bracket and pads.",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/moto-master-flame-floating-front-rotor-kit-270mm-yamaha-250cc-450cc-2007-2021",
+     "price_if_stated": "278.06",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Older-generation Yamaha kit; YZ450F listed only to 2019 and YZ250F to 2020, so later Yamahas need the 2020+ kit (J&P page for 'Yamaha 250-450cc 2020-2023' showed MFR 310045-PU, the same number as the KTM-group kit in bc-006, which looks like a J&P data error). Stock status contradictory.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-028"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "rear rotor",
+   "brand": "Moto-Master",
+   "product": "Flame Fixed Rear Rotor, Yamaha 125-450cc 2018-2023",
+   "part_numbers": [
+    "110725-PU"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Yamaha",
+     "model": "YZ125",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "J&P: YZ125 2019-2021"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "J&P: YZ250 2019-2021"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250F",
+     "years": [
+      2020
+     ],
+     "notes": "J&P: YZ250F 2019, 2020"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250FX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "J&P: YZ250FX 2019-2021"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ250X",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "J&P: YZ250X 2019-2021"
+    },
+    {
+     "make": "Yamaha",
+     "model": "YZ450FX",
+     "years": [
+      2020
+     ],
+     "notes": "J&P: YZ450FX 2019, 2020"
+    }
+   ],
+   "fitment_source_url": "https://www.jpcycles.com/product/moto-master-flame-fixed-rear-rotor-yamaha-125cc-450cc-2018-2023",
+   "what_it_changes": "Hardened stainless, laser cut, CNC machined and double ground; flame cut-outs to cool and clean the pad surface (retailer copy).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "J&P Cycles",
+     "url": "https://www.jpcycles.com/product/moto-master-flame-fixed-rear-rotor-yamaha-125cc-450cc-2018-2023",
+     "price_if_stated": "123.26",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Out of stock when checked. Later Yamahas take 110831-PU (this file), which J&P lists from 2022 (YZ125/YZ250/YZ250F) and YZ450F from 2020; the overlap for YZ450F 2020 is not explained.",
+   "confidence": "medium",
+   "is_service": false,
+   "id": "br2-029"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "brake pads (85cc, sintered)",
+   "brand": "Galfer",
+   "product": "Sintered Metal Brake Pads FD441G1396 (KTM SX 85 / Husqvarna TC 85)",
+   "part_numbers": [
+    "FD441G1396"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX",
+     "years": [
+      2020
+     ],
+     "notes": "Mieloch: 85 SX 17/14 (2012-2020), 85 SX 19/16 (2013-2020); also '85 SX from 2011'"
+    }
+   ],
+   "fitment_source_url": "https://mieloch.pl/en/brake-pads-galfer-sintered-metal-rear-husqvarna-tc-85-14-ktm-sx-85-11",
+   "what_it_changes": "Sintered metal pad (G1396 compound).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Mieloch (Poland)",
+     "url": "https://mieloch.pl/en/brake-pads-galfer-sintered-metal-rear-husqvarna-tc-85-14-ktm-sx-85-11",
+     "price_if_stated": "83.80",
+     "currency": "PLN",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "JJ Motorsports",
+     "url": "https://jj-motorsports.com/galfer-brake-pads-ktm-fd458g1396/",
+     "price_if_stated": "35.90",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Page title says rear; the list mixes dated (to 2020) and open-ended ('from 2011') 85 SX lines, and adds many pit-bike applications; the dealer warns caliper variants differ within a model. Only 2020 recorded.",
+   "confidence": "unverified",
+   "is_service": false,
+   "id": "br2-030"
+  },
+  {
+   "category": "brakes",
+   "subcategory": "supermoto front brake kit (320mm)",
+   "brand": "Axiom",
+   "product": "DX-3 320mm Motard Front Brake Disc Kit, GasGas MC 450F 2021-2023",
+   "part_numbers": [],
+   "variants": [
+    "Image filename shows 'AX-320-DBK13' (not labelled as a part number)"
+   ],
+   "fits": [
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Firestorm: Gas-Gas MC 450F 2021-2023 (Motard/Supermoto)"
+    }
+   ],
+   "fitment_source_url": "https://www.firestormmotorcycles.com.au/gas-gas-mc-450f-2021-2023-axiom-dx-3-320mm-motard",
+   "what_it_changes": "320mm supermoto front disc kit (for motard conversion, not motocross use).",
+   "supporting_parts": "",
+   "where_to_buy": [
+    {
+     "seller": "Firestorm Motorcycles (AU)",
+     "url": "https://www.firestormmotorcycles.com.au/gas-gas-mc-450f-2021-2023-axiom-dx-3-320mm-motard",
+     "price_if_stated": "",
+     "currency": "",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Contents and price not shown. Stops at 2023, consistent with the 2024 Braktec change. Supermoto only.",
+   "confidence": "unverified",
+   "is_service": false,
+   "id": "br2-031"
   }
  ],
- "gaps": [],
- "not_done": []
+ "gaps": [
+  "Braktec vs Brembo (GasGas 2024+): the clearest signal found is the GBrakes 280mm caliper relocation bracket (J&P), which lists every GasGas MC model only to 2023 while KTM and Husqvarna run to 2027, and the Axiom MC 450F motard kit that stops at 2023. Other listings (GBrakes GBDOS224 kit to 2025, Moto-Master 260 rotor MC 450F to 2027, Slavens Galfer pads 'all 2021-26 GasGas') ignore the change; treat any 2024+ GasGas front-brake fit as unconfirmed until the caliper is checked.",
+  "No Braktec-specific aftermarket pad, rotor kit or bracket with a part number was found; no Braktec master cylinder or caliper is sold as an aftermarket upgrade in the results seen.",
+  "Galfer maker tables are still unreachable: galfer.eu pages (including the 280mm kit PDF) redirect to galfer.com, and the galfer.com URL was refused by the fetch tool (not in provenance). All Galfer fitment here is dealer-sourced; no per-bike Galfer kit number for Yamaha, Kawasaki or 2023+ Honda was confirmed (KITOS3, KITOS4, KITOS10 dealer pages show no fitment).",
+  "J&P Cycles / Cycle Gear / RevZilla (Comoto) fitment lists are truncated after a few makes and often append lines that belong to sibling listings (the same GasGas/Husqvarna block appears on the Honda, Kawasaki and Husqvarna Moto-Master kit pages). Only lines matching the listing's own make were recorded; cross-listed lines were dropped.",
+  "Cycle Gear pages for Moto-Master rotors show no Moto-Master part numbers (retailer item numbers kept in variants).",
+  "EBC maker part finder not reached; EBC fitment is J&P, Dennis Kirk and SportbikeTrackGear. MXS755 was dropped as a duplicate of chassis.json ch-035.",
+  "Dennis Kirk pad entries are recorded for one bike-year (2024 KTM 250 XC) only; position (front/rear) is not stated for most numbers.",
+  "Brembo aftermarket master cylinders/calipers, Nissin aftermarket parts, brake snakes and rotor/caliper guards: not researched this pass (search budget ran out before these queries ran).",
+  "Moto-Master Nitro pad set SID162820 (Maciag) lists Triumph/Stark/KTM/Husqvarna/GasGas pad compatibility with no models or years; not recorded.",
+  "Galfer GBDOS220 (J&P, 270mm non-floating + bracket, $269) is very likely the Galfer number for brakes_controls bc-001 (Slavens SKU WP17-DOS220); not added again."
+ ],
+ "not_done": [
+  "Brake snakes / rear rotor guards (Moose, Enduro Engineering, TM Designworks, Acerbis, Polisport, P3, Works Connection) for 2023+ KTM group and Japanese bikes",
+  "Brembo aftermarket master cylinders (KTM PowerParts 10x16/11x18) and HHR Brembo caliper listings",
+  "Braking per-bike numbers for 2021+ (only Batfly rear 32-5245 with 2020 lines found)",
+  "Galfer stainless brake lines per bike; Moose/HEL lines",
+  "Yamaha 2023+ and Kawasaki 2024+ oversize rotor kits with confirmed years (only older-generation kits found)",
+  "Triumph TF brake parts beyond the Slavens Galfer pad wording",
+  "85 SX 2025+ brake fitment (new platform)"
+ ]
 }
