@@ -36,9 +36,7 @@
      "years": [
       2021,
       2022,
-      2023,
-      2024,
-      2025
+      2023
      ],
      "notes": "J&P: MC 250F 2021-2025"
     },
@@ -57,9 +55,7 @@
      "years": [
       2021,
       2022,
-      2023,
-      2024,
-      2025
+      2023
      ],
      "notes": "J&P: MC 450F 2021-2025"
     },
@@ -113,7 +109,7 @@
     }
    ],
    "rider_feedback": [],
-   "caveats": "J&P also lists Husqvarna FC/FX/TC/TX and KTM 250-450 SX-F/XC-F models without years, so those were not recorded. J&P lists GasGas MC 250F/MC 450F 2024-2025; those years have Braktec calipers per the KTM family pass 2 finding, so check caliper type before fitting (the Slavens Galfer listing in brakes_controls bc-001 says Brembo calipers only). Galfer's own 280mm application PDF (galfer.eu -> galfer.com) could not be fetched. Title says 2009-2027 while URL says 2009-2025.",
+   "caveats": "J&P also lists Husqvarna FC/FX/TC/TX and KTM 250-450 SX-F/XC-F models without years, so those were not recorded. J&P lists GasGas MC 250F/MC 450F 2024-2025; those years have Braktec calipers per the KTM family pass 2 finding, so check caliper type before fitting (the Slavens Galfer listing in brakes_controls bc-001 says Brembo calipers only). Galfer's own 280mm application PDF (galfer.eu -> galfer.com) could not be fetched. Title says 2009-2027 while URL says 2009-2025. GasGas 2024+ years removed 2026-10-25: GasGas moved to Braktec front brakes for MY2024 and the maker caliper-bracket listing stops at 2023, so retailer fits for 2024+ GasGas are not trusted.",
    "confidence": "medium",
    "is_service": false,
    "id": "br2-001"
@@ -1051,10 +1047,7 @@
      "years": [
       2021,
       2022,
-      2023,
-      2024,
-      2025,
-      2026
+      2023
      ],
      "notes": "Slavens: '21-26 GasGas 125-500 all'"
     },
@@ -1063,10 +1056,7 @@
      "model": "MC 250",
      "years": [
       2022,
-      2023,
-      2024,
-      2025,
-      2026
+      2023
      ],
      "notes": "Slavens: '21-26 GasGas 125-500 all'"
     },
@@ -1076,10 +1066,7 @@
      "years": [
       2021,
       2022,
-      2023,
-      2024,
-      2025,
-      2026
+      2023
      ],
      "notes": "Slavens: '21-26 GasGas 125-500 all'"
     },
@@ -1088,9 +1075,7 @@
      "model": "MC 350F",
      "years": [
       2022,
-      2023,
-      2024,
-      2025
+      2023
      ],
      "notes": "Slavens: '21-26 GasGas 125-500 all'"
     },
@@ -1100,10 +1085,7 @@
      "years": [
       2021,
       2022,
-      2023,
-      2024,
-      2025,
-      2026
+      2023
      ],
      "notes": "Slavens: '21-26 GasGas 125-500 all'"
     },
@@ -1112,9 +1094,7 @@
      "model": "EX 250",
      "years": [
       2022,
-      2023,
-      2024,
-      2025
+      2023
      ],
      "notes": "Slavens: '21-26 GasGas 125-500 all'"
     },
@@ -1124,9 +1104,7 @@
      "years": [
       2021,
       2022,
-      2023,
-      2024,
-      2025
+      2023
      ],
      "notes": "Slavens: '21-26 GasGas 125-500 all'"
     },
@@ -1136,10 +1114,7 @@
      "years": [
       2021,
       2022,
-      2023,
-      2024,
-      2025,
-      2026
+      2023
      ],
      "notes": "Slavens: '21-26 GasGas 125-500 all'"
     },
@@ -1149,9 +1124,7 @@
      "years": [
       2021,
       2022,
-      2023,
-      2024,
-      2025
+      2023
      ],
      "notes": "Slavens: '21-26 GasGas 125-500 all'"
     },
@@ -1161,9 +1134,7 @@
      "years": [
       2021,
       2022,
-      2023,
-      2024,
-      2025
+      2023
      ],
      "notes": "Slavens: '21-26 GasGas 125-500 all'"
     },
@@ -1239,7 +1210,7 @@
     }
    ],
    "rider_feedback": [],
-   "caveats": "No Galfer part numbers on the page (SKU N/A). Family wording expanded by us to roster bikes. The dealer says 'all' 2021-26 GasGas, which does not account for the 2024+ Braktec front caliper; the front pad fit on 2024+ GasGas is doubtful. Triumph fit stated by dealer without years.",
+   "caveats": "No Galfer part numbers on the page (SKU N/A). Family wording expanded by us to roster bikes. The dealer says 'all' 2021-26 GasGas, which does not account for the 2024+ Braktec front caliper; the front pad fit on 2024+ GasGas is doubtful. Triumph fit stated by dealer without years. GasGas 2024+ years removed 2026-10-25: GasGas moved to Braktec front brakes for MY2024 and the maker caliper-bracket listing stops at 2023, so retailer fits for 2024+ GasGas are not trusted.",
    "confidence": "unverified",
    "is_service": false,
    "id": "br2-008"
@@ -2670,10 +2641,7 @@
      "years": [
       2021,
       2022,
-      2023,
-      2024,
-      2025,
-      2026
+      2023
      ],
      "notes": "Cycle Gear: MC 125 2021-2027"
     },
@@ -2701,9 +2669,7 @@
      "model": "MC 350F",
      "years": [
       2022,
-      2023,
-      2024,
-      2025
+      2023
      ],
      "notes": "Cycle Gear: MC 350F 2022-2025"
     },
@@ -2713,11 +2679,7 @@
      "years": [
       2021,
       2022,
-      2023,
-      2024,
-      2025,
-      2026,
-      2027
+      2023
      ],
      "notes": "Cycle Gear: MC 450F 2021-2027"
     },
@@ -2726,9 +2688,7 @@
      "model": "EX 250",
      "years": [
       2022,
-      2023,
-      2024,
-      2025
+      2023
      ],
      "notes": "Cycle Gear: EX 250 2022-2025"
     },
@@ -2738,9 +2698,7 @@
      "years": [
       2021,
       2022,
-      2023,
-      2024,
-      2025
+      2023
      ],
      "notes": "Cycle Gear: EX 250F 2021-2025"
     },
@@ -2750,9 +2708,7 @@
      "years": [
       2021,
       2022,
-      2023,
-      2024,
-      2025
+      2023
      ],
      "notes": "Cycle Gear: EX 350F 2021-2025"
     },
@@ -2762,9 +2718,7 @@
      "years": [
       2021,
       2022,
-      2023,
-      2024,
-      2025
+      2023
      ],
      "notes": "Cycle Gear: EX 450F 2021-2025"
     },
@@ -2960,7 +2914,7 @@
     }
    ],
    "rider_feedback": [],
-   "caveats": "No Moto-Master part number. List cut off at KTM 400 SX, so 450 SX-F/XC-F and others are missing. GasGas lines are inconsistent (MC 250F stops 2023 but MC 450F runs to 2027) and do not reflect the 2024+ Braktec caliper; check caliper before buying.",
+   "caveats": "No Moto-Master part number. List cut off at KTM 400 SX, so 450 SX-F/XC-F and others are missing. GasGas lines are inconsistent (MC 250F stops 2023 but MC 450F runs to 2027) and do not reflect the 2024+ Braktec caliper; check caliper before buying. GasGas 2024+ years removed 2026-10-25: GasGas moved to Braktec front brakes for MY2024 and the maker caliper-bracket listing stops at 2023, so retailer fits for 2024+ GasGas are not trusted.",
    "confidence": "medium",
    "is_service": false,
    "id": "br2-025"

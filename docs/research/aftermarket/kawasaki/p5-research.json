@@ -1,5 +1,5 @@
 {
- "slice": "Kawasaki KX250 / KX450 / KX250X / KX450X 2020-2027, pass 5: additional maker- and retailer-confirmed aftermarket parts (exhaust, ECU, clutch, suspension, chassis, controls, brakes, wheels, protection) and 2025-2027 tester feedback. Does not repeat products in kawasaki-research.json, p4-gapfill.json, p4-bearings-mounts.json or specialty/*.json.",
+ "slice": "Kawasaki KX250 / KX450 / KX250X / KX450X 2020-2027, pass 5 (2026-10-25): additional aftermarket parts (exhaust, clutch, chassis/controls, brakes, protection) and 2024-2027 rider/tester feedback, not repeating products in kawasaki-research.json, p4-gapfill.json, p4-bearings-mounts.json or specialty/*.json. Platform note: 2027 KX450F gets a new frame, swingarm, intake/exhaust and Brembo brakes, and 2027 KX250F a longer exhaust and new silencer, so 2024-2026 frame, exhaust and brake parts must not be assumed to fit 2027.",
  "products": [
   {
    "id": "kx5-001",
@@ -109,6 +109,13 @@
      "seller": "Rekluse",
      "url": "https://www.rekluse.com/product/manual-clutches/core-manual-torq-drive/core-manual-torq-drive-clutches/core-manual-torqdrive-kaw-kx450f/",
      "price_if_stated": "1025.10",
+     "currency": "USD",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "Cycle Gear",
+     "url": "https://www.cyclegear.com/parts/rekluse-core-manual-torq-drive-clutch-kit-kawasaki-kx450-kx450x-2021-2022",
+     "price_if_stated": "1139.00",
      "currency": "USD",
      "date": "2026-10-25"
     }
@@ -770,10 +777,17 @@
      "price_if_stated": "140.49",
      "currency": "GBP",
      "date": "2026-10-25"
+    },
+    {
+     "seller": "Malcolm Rathmell Sport (eBay UK, Galfer importer)",
+     "url": "https://www.ebay.de/itm/225439766861",
+     "price_if_stated": "95.00",
+     "currency": "GBP",
+     "date": "2026-10-25"
     }
    ],
    "rider_feedback": [],
-   "caveats": "Stock-size (270 mm) replacement, not oversize. Listed unavailable. Retailer list stops at 2020; 2021+ KX fitment not stated.",
+   "caveats": "Stock-size (270 mm) replacement, not oversize. Ghost Bikes list stops at 2020; a UK Galfer importer's eBay listing says KX250F/KX450F '15-' (open-ended), so 2021+ fitment is plausible but not confirmed by a maker page.",
    "confidence": "medium"
   },
   {
@@ -1003,7 +1017,8 @@
     }
    ],
    "rider_feedback": [
-    "kx5f-007"
+    "kx5f-007",
+    "kx5f-006"
    ],
    "caveats": "No part number or year fitment on the source; years shown are the test year only. MXA's 2025 KX250 race test also recommends Luxon mounts because stock mounts 'twist easily'. Luxon maker page not reached.",
    "confidence": "unverified"
@@ -1658,6 +1673,214 @@
    "rider_feedback": [],
    "caveats": "eBay catalog fitment only; KX250X/KX450X not listed. 2025+ KX250 not listed.",
    "confidence": "unverified"
+  },
+  {
+   "id": "kx5-033",
+   "category": "chassis",
+   "subcategory": "bar_mount_cones",
+   "brand": "AS3 Performance",
+   "product": "Bar mount clamp yoke cones and spacers (Kawasaki KX250F / KX450F)",
+   "part_numbers": [
+    "17555"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "AS3 eBay compatibility table: KX250F 2015-2023"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250X",
+     "years": [
+      2022,
+      2023
+     ],
+     "notes": "AS3 eBay table: KX250X 2022-2023"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "AS3 eBay table: KX450F 2015-2023 (title says 12-23)"
+    }
+   ],
+   "fitment_source_url": "https://www.ebay.de/itm/166915409711",
+   "what_it_changes": "AS3 (own eBay listing): replacement bar-mount cones and spacers for the Kawasaki rubber-cone clamp; no performance claim captured.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "AS3 Performance (eBay, UK)",
+     "url": "https://www.ebay.de/itm/166915409711",
+     "price_if_stated": "24.99",
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Maker's own eBay store listing, not a maker web page. Material/hardness not stated in the captured text. Not listed for 2024+ KX450 or 2025+ KX250.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "kx5-034",
+   "category": "controls",
+   "subcategory": "holeshot_device",
+   "brand": "Apico",
+   "product": "Launch control holeshot device, 56.4 mm (Kawasaki KX250F / KX450F)",
+   "part_numbers": [
+    "ALCCRF250/450 BLK",
+    "ALCCRF250/450 GRN"
+   ],
+   "variants": [
+    "ALCCRF250/450 BLK black",
+    "ALCCRF250/450 GRN green"
+   ],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Ecosse MX eBay: KX250F 2006-2024"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2025
+     ],
+     "notes": "visionmxltd eBay (https://www.ebay.de/itm/271464597898): 'KXF 250 and KXF 450, 2006-2025' (2025 KX250 is a new generation; unconfirmed)"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250X",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "eBay titles: 'KX250XC 21-24' (Ecosse MX) and 'KX 250 XC 2021-2025' (visionmxltd)"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Ecosse MX eBay: KX450F 06-24 incl. KX450 2024 50th Anniversary; visionmxltd eBay: KXF 450 2006-2025"
+    }
+   ],
+   "fitment_source_url": "https://www.ebay.de/itm/186616161346",
+   "what_it_changes": "Apico (via eBay dealers): fork-mounted launch control / holeshot device; no further claims captured.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Ecosse MX (eBay, UK)",
+     "url": "https://www.ebay.de/itm/186616161346",
+     "price_if_stated": "39.95",
+     "currency": "GBP",
+     "date": "2026-10-25"
+    },
+    {
+     "seller": "visionmxltd (eBay, UK)",
+     "url": "https://www.ebay.de/itm/131174537177",
+     "price_if_stated": "39.95",
+     "currency": "GBP",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Same Apico part is listed for Honda CRF250R/CRF450RX; the 56.4 mm size matches the Scar SLC201BK listing. eBay fitment only; installation method not stated.",
+   "confidence": "unverified"
+  },
+  {
+   "id": "kx5-035",
+   "category": "controls",
+   "subcategory": "levers",
+   "brand": "Paiying (aftermarket copy of OEM levers)",
+   "product": "Clutch and brake lever set referencing Kawasaki OEM 13236-0813 / 13236-0807",
+   "part_numbers": [
+    "13236-0813",
+    "13236-0807"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Kawasaki",
+     "model": "KX250",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "Newegg listing: KX250 2021-2022"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX250X",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "Newegg: KX250X 2021-2022"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Newegg: KX450 2019-2022, KX450SR 2022"
+    },
+    {
+     "make": "Kawasaki",
+     "model": "KX450X",
+     "years": [
+      2022
+     ],
+     "notes": "Newegg: KX450X 2022"
+    }
+   ],
+   "fitment_source_url": "https://www.newegg.com/p/0JF-06MC-00XG4",
+   "what_it_changes": "Seller: replacement clutch and brake levers matching the listed Kawasaki OEM lever numbers; listing says fitment is 'for reference only'.",
+   "supporting_parts": [],
+   "where_to_buy": [
+    {
+     "seller": "Newegg marketplace (Paiying Tc Company)",
+     "url": "https://www.newegg.com/p/0JF-06MC-00XG4",
+     "price_if_stated": "35.90",
+     "currency": "USD",
+     "date": "2026-10-25"
+    }
+   ],
+   "rider_feedback": [],
+   "caveats": "Recorded mainly for the OEM lever part numbers it cites (13236-0813 clutch, 13236-0807 brake); verify against a Kawasaki parts fiche. Unknown-quality marketplace part.",
+   "confidence": "unverified"
   }
  ],
  "feedback": [
@@ -2039,7 +2262,29 @@
   }
  ],
  "builds": [],
- "common_first_mods": [],
- "gaps": [],
- "not_done": []
+ "common_first_mods": [
+  "Bar twist on rubber-mounted KX clamps: MXA recommends Luxon MX bar mounts on the 2025 KX250 (stock mounts 'twist easily') and says of the four-post Luxon mounts on the KX450 'We don't race without these anymore' (kx5f-006, kx5f-007, kx5f-008). Cheaper options found but untested: Pro Taper polyurethane cones PTR021118, AS3 cones 17555.",
+  "2025+ KX250 airbox: MXA fits a Twin Air Powerflow kit (needs a different Twin Air baseplate) and cuts out the extra plastic around the filter; also replaces the radiator cap (kx5f-006).",
+  "2025+ KX250 fork: Keefer's baseline goes to 5.0 N/mm fork springs (fork soft after break-in) with comp 7 / reb 8 out, shock 54 N/mm, sag 105 mm (kx5f-004, kx5f-005); Moto.it also calls the stock fork 'too soft', while MXP and Ultimate Motorcycling went 1-2 clicks stiffer.",
+  "2024+ KX450 exhaust: Swapmoto found a 2025 KX450 with only an FMF Factory 4.1 system outperformed a 2024 with pipe, airbox mods and lower gearing (kx5f-013); header stud nuts need a 1/4 in ball-joint adapter or box-end wrench.",
+  "Skid plate: MXA rates the Works Connection 2024 KX450 plate (10-299) A and adds rubber tape between plate and frame rails; recheck tightness after the first ride (kx5f-009)."
+ ],
+ "gaps": [
+  "Web search budget (200 calls per turn, shared with parallel agents) ran out early in this pass; most of the planned search list was never run. Products below the 60-100 target for that reason.",
+  "Following links found inside fetched pages needs a permission prompt that was not answered: Rekluse KX clutch covers (Clutch Cover TD KAW KX450F RMS-444, KX250F RMS-440, $229) and the billet basket 'KAW KX250F' ($329) were seen only on a category page without year fitment, and their product pages could not be opened.",
+  "Rocky Mountain ATV/MC pages (Luxon, Ride Engineering) are bot-protected (Incapsula); kawasaki.com accessory and owner-center pages returned server errors, so no Kawasaki genuine accessory part numbers (e.g. the 'fork clamp xtrig' accessory 999693880 seen in a search result) were confirmed.",
+  "Oversize brakes: no maker-page part number for a Galfer 280 mm disc to pair with bracket SP057; Moto-Master, EBC and Galfer listings fetched had no KX fitment; Braking OKBY30E only from a partial eBay table.",
+  "Luxon MX bar mounts: no part numbers or year fitment (only MXA tests). Tamer double-button holeshot device (KX250F/KX250X) found without part number or years and left out.",
+  "HGS: only a retailer SKU (SID132402) for KX450F 2019-2023; no HGS part number or 2024+ KX system found.",
+  "Hot Cams, JE/Wiseco 2024+ KX450 pistons, Barnett and EBC clutches, Race Tech Gold Valve and G3-S part numbers for 2020+ KX, Factory Connection and Enzo KX services, Vortex/GET ECU part numbers, wheels (Talon, Warp 9, Kite, DID), Devol/AXP/TM Designworks guards and Fasst/Scar footpegs were planned but not searched (budget).",
+  "Conflicting claims recorded, not resolved: Yoshimura 244730S320 gain (+23.8% hp per Yoshimura US vs +6.4% per an AU dealer); 2027 KX250F silencer described as larger (Cycle News) vs 'smaller-bodied' (Kawasaki UK).",
+  "No 2027 Keefer/MXA/Vital MX ride test with clicker settings was found; only the Cycle News 2027 KX250F first ride (fork 2 clicks softer, no baseline numbers).",
+  "Pro Circuit Ti-6 Pro 0322445FP: 'Pro' difference vs Ti-6 0322445F not described by any source read."
+ ],
+ "not_done": [
+  "Not researched (search budget exhausted): KX450X/KX250X-specific off-road parts (larger tanks, kickstands, spark arrestors beyond FMF Q4), Kawasaki genuine KX accessory catalog, ECU tools (Vortex, GET, Athena), suspension service parts and revalves for Showa 2024+/2025+ forks, wheels, footpegs, triple clamps for 2024+ KX450 beyond those already in the catalog, radiators and hoses.",
+  "Not reviewed: Vital MX, Racer X, Dirt Bike Magazine and Dirt Rider 2025-2027 KX tests; Keefer 2026-2027 KX450 tests beyond the 2027 announcement.",
+  "No project builds added in this pass.",
+  "Rekluse RadiusX RMS-8304045 (KX450F/KFX/KLX 2006-2024 per its page) left out because Rekluse sells a separate 2019-2020 part (RMS-8304046) and the 2006-2024 range looks generic."
+ ]
 }

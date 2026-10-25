@@ -1,6 +1,7 @@
 {
 "by_bike": {
 "Triumph|TF 250-C|2026": [
+"br2-008",
 "dt-022",
 "dt-023",
 "dt-024",
@@ -37,9 +38,12 @@
 "p4bm-triumph-triumph-oem-t2078958",
 "tf-fmf-41rct-250",
 "tf-motomaster-sm-front",
-"tf-prox-piston-250"
+"tf-prox-piston-250",
+"tf5-scar-pegs-antimud",
+"tf5-scar-pegs-gripper"
 ],
 "Triumph|TF 250-E|2026": [
+"br2-008",
 "dt-022",
 "dt-023",
 "dt-024",
@@ -74,10 +78,15 @@
 "tf-fmf-41rct-250",
 "tf-hinson-basket-250",
 "tf-motomaster-sm-front",
-"tf-prox-piston-250"
+"tf-prox-piston-250",
+"tf5-get-sx1pro-triumph",
+"tf5-ktech-linkage-service-kit",
+"tf5-scar-pegs-antimud",
+"tf5-scar-pegs-gripper"
 ],
 "Triumph|TF 250-X|2024": [
 "bc-030",
+"br2-008",
 "ch-022",
 "ch-027",
 "ch-046",
@@ -166,10 +175,16 @@
 "tf-worksconn-oilcap",
 "tf-xtrig-phds",
 "tf-xtrig-rocs-tech",
-"tf-yosh-rs12-250"
+"tf-yosh-rs12-250",
+"tf5-dep-header-250",
+"tf5-ktech-linkage-service-kit",
+"tf5-scar-pegs-antimud",
+"tf5-scar-pegs-gripper",
+"tf5-xtrig-rocs-kit-m12-250"
 ],
 "Triumph|TF 250-X|2025": [
 "bc-030",
+"br2-008",
 "ch-022",
 "ch-027",
 "ch-044",
@@ -243,9 +258,16 @@
 "tf-rtech-plastics",
 "tf-xtrig-phds",
 "tf-xtrig-rocs-tech",
-"tf-yosh-rs12-250"
+"tf-yosh-rs12-250",
+"tf5-dep-header-250",
+"tf5-get-sx1pro-triumph",
+"tf5-ktech-linkage-service-kit",
+"tf5-scar-pegs-antimud",
+"tf5-scar-pegs-gripper",
+"tf5-xtrig-rocs-kit-m12-250"
 ],
 "Triumph|TF 250-X|2026": [
+"br2-008",
 "ch-022",
 "ch-044",
 "dt-022",
@@ -305,9 +327,14 @@
 "tf-pc-ti6pro-250",
 "tf-prox-piston-250",
 "tf-rekluse-apextd-250",
-"tf-rekluse-torqdrive-250"
+"tf-rekluse-torqdrive-250",
+"tf5-ktech-linkage-service-kit",
+"tf5-scar-pegs-antimud",
+"tf5-scar-pegs-gripper",
+"tf5-xtrig-rocs-kit-m12-250"
 ],
 "Triumph|TF 450-C|2026": [
+"br2-008",
 "dt-022",
 "dt-023",
 "dt-024",
@@ -346,9 +373,12 @@
 "tf-motomaster-sm-front",
 "tf-pc-t6-450",
 "tf-pc-ti6bcpro-450",
-"tf-pc-ti6pro-450"
+"tf-pc-ti6pro-450",
+"tf5-scar-pegs-antimud",
+"tf5-scar-pegs-gripper"
 ],
 "Triumph|TF 450-E|2026": [
+"br2-008",
 "dt-022",
 "dt-023",
 "dt-024",
@@ -383,9 +413,14 @@
 "p4gf-triumph-fmf-powercore-4-hex-slip-on-exhaust-triumph-tf-450-c-e-rc-2025-2026",
 "p4gf-triumph-fmf-q4-hex-sa-slip-on-exhaust-triumph-tf450-c-e-rc-2025-2026",
 "p4gf-triumph-yoshimura-rs-12-low-volume-insert-kit-kawasaki-triumph-250cc-450cc-2021-2026",
-"tf-motomaster-sm-front"
+"tf-motomaster-sm-front",
+"tf5-get-sx1pro-triumph",
+"tf5-ktech-linkage-service-kit",
+"tf5-scar-pegs-antimud",
+"tf5-scar-pegs-gripper"
 ],
 "Triumph|TF 450-RC Edition|2025": [
+"br2-008",
 "ch-022",
 "dt-022",
 "dt-023",
@@ -453,9 +488,20 @@
 "tf-xtrig-phds",
 "tf-xtrig-rocs-tech",
 "tf-yosh-rs12-450",
+"tf5-get-sx1pro-triumph",
+"tf5-ktech-fork-springs-450rc",
+"tf5-ktech-hpsl-450rc",
+"tf5-ktech-linkage-service-kit",
+"tf5-ktech-provalve-fork-450rc",
+"tf5-ktech-provalve-shock-450rc",
+"tf5-ktech-seal-head-450rc",
+"tf5-kyb-sapphire-stanchion-450rc",
+"tf5-scar-pegs-antimud",
+"tf5-scar-pegs-gripper",
 "tn-027"
 ],
 "Triumph|TF 450-X|2026": [
+"br2-008",
 "ch-022",
 "dt-022",
 "dt-023",
@@ -496,66 +542,69 @@
 "ss-057",
 "tf-rekluse-torqdrive-450",
 "tf-yosh-rs12-450",
+"tf5-scar-pegs-antimud",
+"tf5-scar-pegs-gripper",
 "tn-027"
 ]
 },
 "listing_counts": {
 "Triumph|TF 250-C|2026": {
-"MotoSport": 2298,
 "Cycle Gear": 1045,
 "Triumph dealer": 37,
-"research": 37
+"MotoSport": 2298,
+"research": 40
 },
 "Triumph|TF 250-E|2026": {
-"MotoSport": 2298,
 "Cycle Gear": 1150,
 "Triumph dealer": 33,
-"research": 35
+"MotoSport": 2298,
+"research": 40
 },
 "Triumph|TF 250-X|2024": {
-"MotoSport": 2366,
 "Triumph dealer": 54,
-"research": 90,
+"MotoSport": 2366,
+"research": 96,
 "Cycle Gear": 71
 },
 "Triumph|TF 250-X|2025": {
-"MotoSport": 2372,
 "Cycle Gear": 1075,
 "Triumph dealer": 54,
-"research": 75
+"MotoSport": 2372,
+"research": 82
 },
 "Triumph|TF 250-X|2026": {
-"MotoSport": 2365,
 "Triumph dealer": 36,
-"research": 60,
+"MotoSport": 2365,
+"research": 65,
 "Cycle Gear": 55
 },
 "Triumph|TF 450-C|2026": {
-"MotoSport": 2312,
 "Cycle Gear": 974,
 "Triumph dealer": 36,
-"research": 39
+"MotoSport": 2312,
+"research": 42
 },
 "Triumph|TF 450-E|2026": {
-"MotoSport": 2306,
 "Triumph dealer": 35,
-"Cycle Gear": 47,
-"research": 35
+"MotoSport": 2306,
+"research": 40,
+"Cycle Gear": 47
 },
 "Triumph|TF 450-RC Edition|2025": {
-"MotoSport": 2363,
 "Cycle Gear": 983,
-"research": 68,
-"Triumph dealer": 27
+"Triumph dealer": 27,
+"MotoSport": 2363,
+"research": 79
 },
 "Triumph|TF 450-X|2026": {
-"MotoSport": 2356,
 "Cycle Gear": 1035,
 "Triumph dealer": 34,
-"research": 41
+"MotoSport": 2356,
+"research": 44
 }
 },
 "unmapped": [
+"tf5-fcp-race-cups-tf450",
 "tf-rekluse-apextd-450",
 "tf-rekluse-radiuscx-250",
 "tf-rekluse-basket-250",
@@ -601,6 +650,36 @@
 "bk2-014",
 "bk2-015",
 "bk2-016",
+"br2-001",
+"br2-002",
+"br2-003",
+"br2-004",
+"br2-005",
+"br2-006",
+"br2-007",
+"br2-009",
+"br2-010",
+"br2-011",
+"br2-012",
+"br2-013",
+"br2-014",
+"br2-015",
+"br2-016",
+"br2-017",
+"br2-018",
+"br2-019",
+"br2-020",
+"br2-021",
+"br2-022",
+"br2-023",
+"br2-024",
+"br2-025",
+"br2-026",
+"br2-027",
+"br2-028",
+"br2-029",
+"br2-030",
+"br2-031",
 "bc-001",
 "bc-002",
 "bc-003",
@@ -1124,6 +1203,45 @@
 "en2-043",
 "en2-044",
 "en2-045",
+"en3-001",
+"en3-002",
+"en3-003",
+"en3-004",
+"en3-005",
+"en3-006",
+"en3-007",
+"en3-008",
+"en3-009",
+"en3-010",
+"en3-011",
+"en3-012",
+"en3-013",
+"en3-014",
+"en3-015",
+"en3-016",
+"en3-017",
+"en3-018",
+"en3-019",
+"en3-020",
+"en3-021",
+"en3-022",
+"en3-023",
+"en3-024",
+"en3-025",
+"en3-026",
+"en3-027",
+"en3-028",
+"en3-029",
+"en3-030",
+"en3-031",
+"en3-032",
+"en3-033",
+"en3-034",
+"en3-035",
+"en3-036",
+"en3-037",
+"en3-038",
+"en3-039",
 "es-001",
 "es-002",
 "es-003",
@@ -1317,6 +1435,31 @@
 "cv2-020"
 ],
 "feedback_links": {
+"tf5f-001": [
+"tf5-xtrig-rocs-kit-m12-250",
+"tf-xtrig-rocs-tech",
+"tf-xtrig-phds"
+],
+"tf5f-002": [
+"p4bm-triumph-fcp-emk-t2f-001",
+"p4bm-triumph-fcp-emk-t4f-001",
+"p4bm-triumph-fcp-ppk-tf24f-060",
+"tf5-fcp-race-cups-tf450"
+],
+"tf5f-003": [
+"tri-T9601521",
+"tri-T9601522",
+"tri-T9601529",
+"tri-T9601530",
+"tri-T9601512",
+"tri-T9601516",
+"tri-A9601345",
+"tri-A9601363",
+"tri-A9601353",
+"p4bm-triumph-triumph-oem-t2055313"
+],
+"tf5f-004": [],
+"tf5f-005": [],
 "tfb-001": [
 "cg-fmf-factory-41-rct-slip-on-exhaust-triumph-tf450rc-2025",
 "cg-fmf-megabomb-header-triumph-tf450rc-2025",
