@@ -6,6 +6,7 @@ import * as VideoThumbnails from 'expo-video-thumbnails';
 import {ImageManipulator,SaveFormat} from 'expo-image-manipulator';
 import {File} from 'expo-file-system';
 import {api,supabase} from './api';
+import {clipFrameTimes} from '../../../shared/coach-focus';
 
 export type PhotoKind='post'|'chat'|'bike'|'avatar';
 export type Photo={id:string;url:string;width:number|null;height:number|null};
@@ -64,21 +65,28 @@ export async function addPhotos(kind:PhotoKind,{limit=1,bikeId,title='Add a phot
  return out;
 }
 
-/** Clip coaching: the rider picks a short video from their library (iOS lets them trim it to CLIP_MAX seconds), and the
- *  phone pulls evenly spaced still frames from it. Only the frames are uploaded, never the video. */
-export const CLIP_MAX=20,CLIP_FRAMES=8;
+/** Clip coaching: the rider picks a short video from their library and trims it to the moment (iOS lets them trim to
+ *  CLIP_MAX seconds), and the phone pulls still frames from it, closer together the shorter the clip (up to 12). Only the
+ *  frames are uploaded, never the video. A clip much longer than the moment gets one nudge to trim it. */
+export const CLIP_MAX=20,CLIP_SWEET=10;
 export type ClipFrames={duration:number;frames:{time:number;asset:ImagePicker.ImagePickerAsset}[]};
+const ask=(title:string,message:string)=>new Promise<'trim'|'use'|'cancel'>(res=>Alert.alert(title,message,[{text:'Trim again',onPress:()=>res('trim')},{text:'Use it',onPress:()=>res('use')},{text:'Cancel',style:'cancel',onPress:()=>res('cancel')}],{cancelable:true,onDismiss:()=>res('cancel')}));
 export async function pickClipFrames():Promise<ClipFrames|null>{
  if(Platform.OS==='web'){Alert.alert('Clips are on the phone app','Open BAK MX on your phone to send a video clip.');return null;}
  if(!await allowed('library'))return null;
- const r=await ImagePicker.launchImageLibraryAsync({mediaTypes:['videos'],allowsEditing:true,videoMaxDuration:CLIP_MAX,quality:1});
- if(r.canceled||!r.assets[0])return null;
- const v=r.assets[0],ms=Math.max(0,v.duration??0);
- if(!ms){Alert.alert('That video could not be read','Try a different clip, or trim it in Photos first.');return null;}
- if(ms>CLIP_MAX*1000+500){Alert.alert('Clip too long',`Trim it to ${CLIP_MAX} seconds or less around the corner, jump or section you want coached.`);return null;}
- const n=ms<3000?4:CLIP_FRAMES,times=Array.from({length:n},(_,i)=>Math.round(ms*(0.04+0.92*i/(n-1))));
+ let v!:ImagePicker.ImagePickerAsset,ms=0;
+ for(;;){
+  const r=await ImagePicker.launchImageLibraryAsync({mediaTypes:['videos'],allowsEditing:true,videoMaxDuration:CLIP_MAX,quality:1});
+  if(r.canceled||!r.assets[0])return null;
+  v=r.assets[0];ms=Math.max(0,v.duration??0);
+  if(!ms){Alert.alert('That video could not be read','Try a different clip, or trim it in Photos first.');return null;}
+  if(ms>CLIP_MAX*1000+500){Alert.alert('Clip too long',`Trim it to ${CLIP_MAX} seconds or less around the corner, jump or section you want coached.`);return null;}
+  if(ms<=CLIP_SWEET*1000+500)break;
+  const c=await ask('Trim to the moment?',`This clip is ${Math.round(ms/1000)} seconds. BAK sees the most when it is trimmed to the 3 to 8 seconds around the corner, jump or section, because the frames land closer together.`);
+  if(c==='cancel')return null;if(c==='use')break;
+ }
  const frames:ClipFrames['frames']=[];
- for(const t of times){
+ for(const t of clipFrameTimes(ms)){
   const f=await VideoThumbnails.getThumbnailAsync(v.uri,{time:t,quality:0.85});
   frames.push({time:t/1000,asset:{uri:f.uri,width:f.width,height:f.height,type:'image'} as ImagePicker.ImagePickerAsset});
  }
@@ -88,8 +96,8 @@ export async function pickClipFrames():Promise<ClipFrames|null>{
 export function chooseChatSource():Promise<'camera'|'library'|'video'|null>{
  return new Promise(resolve=>{
   const opts=['Take photo','Choose photos','Coach me from a video','Cancel'],pick=(i:number)=>resolve(i===0?'camera':i===1?'library':i===2?'video':null);
-  if(Platform.OS==='ios')ActionSheetIOS.showActionSheetWithOptions({title:'Show BAK',message:'Photos of the bike, a part or the track, or a short clip of you riding (up to 20 s).',options:opts,cancelButtonIndex:3},pick);
+  if(Platform.OS==='ios')ActionSheetIOS.showActionSheetWithOptions({title:'Show BAK',message:'Photos of the bike, a part or the track, or a clip of you riding. Trim the clip to the few seconds that matter.',options:opts,cancelButtonIndex:3},pick);
   else if(Platform.OS==='web')resolve('library');
-  else Alert.alert('Show BAK','Photos of the bike, a part or the track, or a short clip of you riding (up to 20 s).',[{text:opts[0],onPress:()=>pick(0)},{text:opts[1],onPress:()=>pick(1)},{text:opts[2],onPress:()=>pick(2)},{text:'Cancel',style:'cancel',onPress:()=>pick(3)}],{cancelable:true,onDismiss:()=>resolve(null)});
+  else Alert.alert('Show BAK','Photos of the bike, a part or the track, or a clip of you riding. Trim the clip to the few seconds that matter.',[{text:opts[0],onPress:()=>pick(0)},{text:opts[1],onPress:()=>pick(1)},{text:opts[2],onPress:()=>pick(2)},{text:'Cancel',style:'cancel',onPress:()=>pick(3)}],{cancelable:true,onDismiss:()=>resolve(null)});
  });
 }

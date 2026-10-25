@@ -46,23 +46,26 @@ export function PhotoGrid({photos,onAdd,onDelete,adding=false}:{photos:Photo[];o
  </View>;
 }
 
-/** Photos sent in chat: a small row under the message. */
-export function MessagePhotos({photos}:{photos:Photo[]}){
+/** Photos sent in chat: a small row under the message. Clip frames show their time in the clip. */
+export function MessagePhotos({photos,times}:{photos:Photo[];times?:number[]}){
  const [viewer,setViewer]=useState<number|null>(null);
  if(!photos.length)return null;
- const size=photos.length===1?200:110;
- return <View style={{flexDirection:'row',flexWrap:'wrap',gap:6,justifyContent:'flex-end'}}>
-  {photos.map((p,i)=><Pressable key={p.id} accessibilityRole="imagebutton" accessibilityLabel="Photo you sent" onPress={()=>setViewer(i)}><Image source={{uri:p.url}} style={{width:size,height:size*(photos.length===1?ratio(p):1),borderRadius:14,backgroundColor:'#101217'}} accessibilityIgnoresInvertColors/></Pressable>)}
-  <PhotoViewer photos={photos} start={viewer} onClose={()=>setViewer(null)}/>
+ const size=times?60:photos.length===1?200:110;
+ return <View style={{gap:4}}>
+  {times&&<Text style={{color:C.muted,fontSize:12,textAlign:'right'}}>Clip · {photos.length} frames · tap a time in BAK's answer to see that frame</Text>}
+  <View style={{flexDirection:'row',flexWrap:'wrap',gap:times?4:6,justifyContent:'flex-end'}}>
+  {photos.map((p,i)=><Pressable key={p.id} accessibilityRole="imagebutton" accessibilityLabel={times?`Clip frame at ${times[i].toFixed(1)} seconds`:'Photo you sent'} onPress={()=>setViewer(i)}><Image source={{uri:p.url}} style={{width:size,height:size*(photos.length===1&&!times?ratio(p):1),borderRadius:times?8:14,backgroundColor:'#101217'}} accessibilityIgnoresInvertColors/>{times&&<View style={st.time}><Text style={{color:C.text,fontSize:10.5,fontWeight:'700'}}>{times[i].toFixed(1)} s</Text></View>}</Pressable>)}
+  </View>
+  <PhotoViewer photos={photos} start={viewer} onClose={()=>setViewer(null)} times={times}/>
  </View>;
 }
 
-export function PhotoViewer({photos,start,onClose}:{photos:Photo[];start:number|null;onClose:()=>void}){
+export function PhotoViewer({photos,start,onClose,times}:{photos:Photo[];start:number|null;onClose:()=>void;times?:number[]}){
  const {width,height}=useWindowDimensions(),insets=useSafeAreaInsets();
  return <Modal visible={start!==null} transparent animationType="fade" onRequestClose={onClose}>
   <View style={{flex:1,backgroundColor:'#000'}}>
    <ScrollView horizontal pagingEnabled showsHorizontalScrollIndicator={false} contentOffset={{x:(start??0)*width,y:0}}>
-    {photos.map(p=><View key={p.id} style={{width,height,justifyContent:'center'}}><Image source={{uri:p.url}} style={{width,height:height*0.8}} resizeMode="contain" accessibilityIgnoresInvertColors/></View>)}
+    {photos.map((p,i)=><View key={p.id} style={{width,height,justifyContent:'center'}}><Image source={{uri:p.url}} style={{width,height:height*0.8}} resizeMode="contain" accessibilityIgnoresInvertColors/>{times?.[i]!==undefined&&<Text style={{color:C.text,fontSize:15,fontWeight:'700',textAlign:'center',marginTop:12}}>{times[i].toFixed(1)} s · frame {i+1} of {photos.length}</Text>}</View>)}
    </ScrollView>
    <Pressable accessibilityRole="button" accessibilityLabel="Close photo" onPress={onClose} hitSlop={12} style={[st.closeBig,{top:insets.top+10}]}><Icon name="close" size={20} color={C.text} weight={2.2}/></Pressable>
   </View>
@@ -71,6 +74,7 @@ export function PhotoViewer({photos,start,onClose}:{photos:Photo[];start:number|
 
 const st=StyleSheet.create({
  remove:{position:'absolute',top:4,right:4,width:22,height:22,borderRadius:11,backgroundColor:'rgba(0,0,0,0.7)',alignItems:'center',justifyContent:'center'},
+ time:{position:'absolute',left:3,bottom:3,backgroundColor:'rgba(0,0,0,0.65)',borderRadius:5,paddingHorizontal:4,paddingVertical:1},
  counter:{position:'absolute',top:12,right:12,backgroundColor:'rgba(0,0,0,0.6)',borderRadius:12,paddingHorizontal:9,paddingVertical:4},
  closeBig:{position:'absolute',right:16,width:40,height:40,borderRadius:20,backgroundColor:'rgba(255,255,255,0.12)',alignItems:'center',justifyContent:'center'},
 });
