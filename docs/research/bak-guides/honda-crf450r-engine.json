@@ -1,0 +1,5461 @@
+[
+ {
+  "id": "bak-honda-crf450r-air-filter-v1-2021-2024",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2024
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "intake",
+   "engine"
+  ],
+  "entry_state": [
+   "Bike cold, upright on a stand."
+  ],
+  "exit_state": [
+   "Clean, oiled element sealed in the airbox, side cover torqued, service logged."
+  ],
+  "title": "Clean and oil the air filter",
+  "completeness": "Covers opening the airbox, removing, washing, oiling and refitting the foam element, greasing the sealing face and draining the airbox breather. Does not cover the throttle body or intake boot replacement.",
+  "excluded": [
+   "Intake boot replacement",
+   "Throttle body cleaning"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand",
+    "size": null
+   },
+   {
+    "name": "Screwdriver or socket for the side cover bolt",
+    "size": null
+   },
+   {
+    "name": "Two clean buckets",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   },
+   {
+    "name": "Plastic bag",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Foam air filter oil",
+    "purpose": "50 cm³ per element."
+   },
+   {
+    "name": "Grease",
+    "purpose": "For the airbox sealing face."
+   },
+   {
+    "name": "Spare element",
+    "purpose": "If the old one is torn or worn out."
+   }
+  ],
+  "prerequisites": [
+   "Engine cold.",
+   "Non-flammable solvent and dish soap available."
+  ],
+  "critical_stop_conditions": [
+   "Dirt found on the clean side of the intake: clean it all out before the engine is started.",
+   "Element torn or hardened: replace it, never refit it.",
+   "Element not sealing evenly all round: refit it before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Write down the date and riding hours since the last clean. Plan to clean this filter every race (about 2.5 hours of riding), and after every moto in dusty conditions. Have a second, already oiled element ready if you swap at the track.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "prep",
+    "title": "Clean around the airbox",
+    "instruction": "Bike cold and upright on a stand. Brush and wipe the area around the left side cover so no grit can fall into the airbox when it opens.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Area around the left side cover clean and dry."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cover-off",
+    "title": "Take off the left side cover",
+    "instruction": "Remove the side cover bolt and pull the left side cover off.",
+    "depends_on": [
+     "prep"
+    ],
+    "verification": [
+     "Side cover off, bolt kept."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "element-out",
+    "title": "Lift the element out",
+    "instruction": "Release the hook of the element setting spring, swing the spring open and lift the foam element out together with its holder. Do not let dirt fall off the element into the clean side of the airbox.",
+    "depends_on": [
+     "cover-off"
+    ],
+    "verification": [
+     "Element and holder out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "airbox",
+    "title": "Clean the airbox and check the breather drain",
+    "instruction": "Stuff a clean rag into the intake opening so nothing can drop into the engine. Wipe the inside of the airbox clean. Pull out the drain plug at the bottom of the airbox drain hose, let any water, oil mist or dirt run into a container, check the hose is not blocked or split, and refit the plug. Look at the intake side of the boot: dirt there means the element was not sealing, so check the sealing face and the element fit before going on.",
+    "depends_on": [
+     "element-out"
+    ],
+    "verification": [
+     "Intake covered, airbox wiped, drain emptied.",
+     "No dirt on the clean side of the intake."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "dirt-past",
+      "label": "Dirt found past the filter",
+      "next_step": "element-off",
+      "condition": "Dirt on the clean side: clean it out completely before any start, and check the sealing face and element seating closely when refitting."
+     }
+    ]
+   },
+   {
+    "id": "element-off",
+    "title": "Separate the foam from its frame",
+    "instruction": "Peel the foam element off its holder, working the holes in the foam gently over the holder tabs so they do not tear.",
+    "depends_on": [
+     "airbox"
+    ],
+    "verification": [
+     "Foam off its frame, no torn holes or slots."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wash",
+    "title": "Wash the element",
+    "instruction": "Wash the foam in a non-flammable cleaning solvent (never gasoline or any low flash point solvent), then wash it again in hot water with dishwashing soap. Squeeze it, do not wring or twist it. Repeat until no dirt comes out, then let it dry completely. Throw away any element that is torn, hardened or coming apart at the seams.",
+    "depends_on": [
+     "element-off"
+    ],
+    "verification": [
+     "Element clean, fully dry, no tears."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "element-damaged",
+      "label": "Element torn or worn out",
+      "next_step": "oil",
+      "condition": "Use a new element from here on; do not refit a damaged one."
+     }
+    ]
+   },
+   {
+    "id": "oil",
+    "title": "Oil the element",
+    "instruction": "Put 50 cm³ of foam air filter oil on the inside of the element. Never use engine oil. Put the element in a plastic bag and knead it until the oil is spread evenly through all the foam, then squeeze out the excess without twisting.",
+    "depends_on": [
+     "wash"
+    ],
+    "verification": [
+     "Oil even through the whole element, excess squeezed out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "refit-frame",
+    "title": "Put the foam back on its frame",
+    "instruction": "Fit the foam back on the holder, hooking each hole in the foam over its holder tab. Do not hook the holes onto the grooves where the setting spring sits.",
+    "depends_on": [
+     "oil"
+    ],
+    "verification": [
+     "Every hole or slot on its tab, foam not torn."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "grease",
+    "title": "Grease the sealing face",
+    "instruction": "Take the rag out of the intake. Spread 1.5–5.5 g of grease on the airbox face where the element seals. This is what stops dust getting past the edge of the filter.",
+    "depends_on": [
+     "refit-frame"
+    ],
+    "verification": [
+     "Rag out of the intake, sealing face greased all the way round."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "install",
+    "title": "Fit the element",
+    "instruction": "Set the element in the airbox with the projection on the holder in the hole in the housing. Close the setting spring so it sits in the grooves of the holder and lock its hook fully. A badly seated element lets dirt straight into the engine: run a finger round the edge to check it is seated evenly.",
+    "depends_on": [
+     "grease"
+    ],
+    "verification": [
+     "Element seated evenly all round, hook or spring locked."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "close",
+    "title": "Close up",
+    "instruction": "Refit the left side cover at 10 N·m.",
+    "depends_on": [
+     "install"
+    ],
+    "verification": [
+     "Lid (if fitted) and side cover back on and torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "log",
+    "title": "Record the service",
+    "instruction": "Write the date and hours on the service log and note anything unusual you saw (dirt past the filter, oil or water in the drain).",
+    "depends_on": [
+     "close"
+    ],
+    "verification": [
+     "Service logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450r-air-filter-v1-2025-2026",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "intake",
+   "engine"
+  ],
+  "entry_state": [
+   "Bike cold, upright on a stand."
+  ],
+  "exit_state": [
+   "Clean, oiled element sealed in the airbox, side cover torqued, service logged."
+  ],
+  "title": "Clean and oil the air filter",
+  "completeness": "Covers opening the airbox, removing, washing, oiling and refitting the foam element, greasing the sealing face and draining the airbox breather. Does not cover the throttle body or intake boot replacement.",
+  "excluded": [
+   "Intake boot replacement",
+   "Throttle body cleaning"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand",
+    "size": null
+   },
+   {
+    "name": "Screwdriver or socket for the side cover bolt",
+    "size": null
+   },
+   {
+    "name": "Two clean buckets",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   },
+   {
+    "name": "Plastic bag",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Foam air filter oil",
+    "purpose": "50 cm³ per element."
+   },
+   {
+    "name": "Grease",
+    "purpose": "For the airbox sealing face."
+   },
+   {
+    "name": "Spare element",
+    "purpose": "If the old one is torn or worn out."
+   }
+  ],
+  "prerequisites": [
+   "Engine cold.",
+   "Non-flammable solvent and dish soap available."
+  ],
+  "critical_stop_conditions": [
+   "Dirt found on the clean side of the intake: clean it all out before the engine is started.",
+   "Element torn or hardened: replace it, never refit it.",
+   "Element not sealing evenly all round: refit it before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Write down the date and riding hours since the last clean. Plan to clean this filter every race (about 2.5 hours of riding), and after every moto in dusty conditions. Have a second, already oiled element ready if you swap at the track.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "prep",
+    "title": "Clean around the airbox",
+    "instruction": "Bike cold and upright on a stand. Brush and wipe the area around the left side cover so no grit can fall into the airbox when it opens.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Area around the left side cover clean and dry."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cover-off",
+    "title": "Open the airbox",
+    "instruction": "Remove the left side cover. Take out the air cleaner lid bolt, unhook the lid tabs and lift the lid off.",
+    "depends_on": [
+     "prep"
+    ],
+    "verification": [
+     "Side cover and lid off, bolts kept."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "element-out",
+    "title": "Lift the element out",
+    "instruction": "Release the element hook and lift the element assembly (foam element on its base) straight out of the airbox. Do not let dirt fall off the element into the clean side.",
+    "depends_on": [
+     "cover-off"
+    ],
+    "verification": [
+     "Element assembly out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "airbox",
+    "title": "Clean the airbox and check the breather drain",
+    "instruction": "Stuff a clean rag into the intake opening so nothing can drop into the engine. Wipe the inside of the airbox clean. Pull out the airbox drain tube, let any water, oil mist or dirt run into a container and refit the tube. Look at the intake side of the boot: dirt there means the element was not sealing, so check the sealing face and the element fit before going on.",
+    "depends_on": [
+     "element-out"
+    ],
+    "verification": [
+     "Intake covered, airbox wiped, drain emptied.",
+     "No dirt on the clean side of the intake."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "dirt-past",
+      "label": "Dirt found past the filter",
+      "next_step": "element-off",
+      "condition": "Dirt on the clean side: clean it out completely before any start, and check the sealing face and element seating closely when refitting."
+     }
+    ]
+   },
+   {
+    "id": "element-off",
+    "title": "Separate the foam from its frame",
+    "instruction": "Unhook the slots in the foam from the base tabs and take the element off its base, taking care not to tear the slots.",
+    "depends_on": [
+     "airbox"
+    ],
+    "verification": [
+     "Foam off its frame, no torn holes or slots."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wash",
+    "title": "Wash the element",
+    "instruction": "Wash the foam in a non-flammable cleaning solvent (never gasoline or any low flash point solvent), then wash it again in hot water with dishwashing soap. Squeeze it, do not wring or twist it. Repeat until no dirt comes out, then let it dry completely. Throw away any element that is torn, hardened or coming apart at the seams.",
+    "depends_on": [
+     "element-off"
+    ],
+    "verification": [
+     "Element clean, fully dry, no tears."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "element-damaged",
+      "label": "Element torn or worn out",
+      "next_step": "oil",
+      "condition": "Use a new element from here on; do not refit a damaged one."
+     }
+    ]
+   },
+   {
+    "id": "oil",
+    "title": "Oil the element",
+    "instruction": "Put 50 cm³ of foam air filter oil on the inside of the element. Never use engine oil. Put the element in a plastic bag and knead it until the oil is spread evenly through all the foam, then squeeze out the excess without twisting.",
+    "depends_on": [
+     "wash"
+    ],
+    "verification": [
+     "Oil even through the whole element, excess squeezed out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "refit-frame",
+    "title": "Put the foam back on its frame",
+    "instruction": "Fit the foam back on its base, hooking the slots in the foam over the base tabs.",
+    "depends_on": [
+     "oil"
+    ],
+    "verification": [
+     "Every hole or slot on its tab, foam not torn."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "grease",
+    "title": "Grease the sealing face",
+    "instruction": "Take the rag out of the intake. Spread 1.5–5.5 g of grease on the airbox face where the element seals. This is what stops dust getting past the edge of the filter.",
+    "depends_on": [
+     "refit-frame"
+    ],
+    "verification": [
+     "Rag out of the intake, sealing face greased all the way round."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "install",
+    "title": "Fit the element",
+    "instruction": "Set the element in the airbox with the tabs of the base in the slots of the housing and the hole in the base over the projection in the housing. Lock the element hook fully. A badly seated element lets dirt straight into the engine: run a finger round the edge to check it is seated evenly.",
+    "depends_on": [
+     "grease"
+    ],
+    "verification": [
+     "Element seated evenly all round, hook or spring locked."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "close",
+    "title": "Close up",
+    "instruction": "Hook the lid tabs in, refit the lid bolt snugly, then refit the left side cover at 10 N·m.",
+    "depends_on": [
+     "install"
+    ],
+    "verification": [
+     "Lid (if fitted) and side cover back on and torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "log",
+    "title": "Record the service",
+    "instruction": "Write the date and hours on the service log and note anything unusual you saw (dirt past the filter, oil or water in the drain).",
+    "depends_on": [
+     "close"
+    ],
+    "verification": [
+     "Service logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450r-air-filter-v1-2027",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2027
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "intake",
+   "engine"
+  ],
+  "entry_state": [
+   "Bike cold, upright on a stand."
+  ],
+  "exit_state": [
+   "Clean, oiled element sealed in the airbox, side cover torqued, service logged."
+  ],
+  "title": "Clean and oil the air filter",
+  "completeness": "Covers opening the airbox, removing, washing, oiling and refitting the foam element, greasing the sealing face and draining the airbox breather. Does not cover the throttle body or intake boot replacement.",
+  "excluded": [
+   "Intake boot replacement",
+   "Throttle body cleaning"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand",
+    "size": null
+   },
+   {
+    "name": "Screwdriver or socket for the side cover bolt",
+    "size": null
+   },
+   {
+    "name": "Two clean buckets",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   },
+   {
+    "name": "Plastic bag",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Foam air filter oil",
+    "purpose": "50 cm³ per element."
+   },
+   {
+    "name": "Grease",
+    "purpose": "For the airbox sealing face."
+   },
+   {
+    "name": "Spare element",
+    "purpose": "If the old one is torn or worn out."
+   }
+  ],
+  "prerequisites": [
+   "Engine cold.",
+   "Non-flammable solvent and dish soap available."
+  ],
+  "critical_stop_conditions": [
+   "Dirt found on the clean side of the intake: clean it all out before the engine is started.",
+   "Element torn or hardened: replace it, never refit it.",
+   "Element not sealing evenly all round: refit it before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Write down the date and riding hours since the last clean. Plan to clean this filter every race (about 2.5 hours of riding), and after every moto in dusty conditions. Have a second, already oiled element ready if you swap at the track.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "prep",
+    "title": "Clean around the airbox",
+    "instruction": "Bike cold and upright on a stand. Brush and wipe the area around the left side cover so no grit can fall into the airbox when it opens.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Area around the left side cover clean and dry."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cover-off",
+    "title": "Take off the left side cover",
+    "instruction": "Remove the side cover bolt and pull the left side cover off.",
+    "depends_on": [
+     "prep"
+    ],
+    "verification": [
+     "Side cover off, bolt kept."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "element-out",
+    "title": "Lift the element out",
+    "instruction": "Release the element hook and lift the element assembly (foam element on its base) straight out of the airbox. Do not let dirt fall off the element into the clean side.",
+    "depends_on": [
+     "cover-off"
+    ],
+    "verification": [
+     "Element assembly out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "airbox",
+    "title": "Clean the airbox and check the breather drain",
+    "instruction": "Stuff a clean rag into the intake opening so nothing can drop into the engine. Wipe the inside of the airbox clean. Pull out the airbox drain tube, let any water, oil mist or dirt run into a container and refit the tube. Look at the intake side of the boot: dirt there means the element was not sealing, so check the sealing face and the element fit before going on.",
+    "depends_on": [
+     "element-out"
+    ],
+    "verification": [
+     "Intake covered, airbox wiped, drain emptied.",
+     "No dirt on the clean side of the intake."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "dirt-past",
+      "label": "Dirt found past the filter",
+      "next_step": "element-off",
+      "condition": "Dirt on the clean side: clean it out completely before any start, and check the sealing face and element seating closely when refitting."
+     }
+    ]
+   },
+   {
+    "id": "element-off",
+    "title": "Separate the foam from its frame",
+    "instruction": "Release the eight hooks and lift the foam element off its base, taking care not to tear the slots in the foam.",
+    "depends_on": [
+     "airbox"
+    ],
+    "verification": [
+     "Foam off its frame, no torn holes or slots."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wash",
+    "title": "Wash the element",
+    "instruction": "Wash the foam in a non-flammable cleaning solvent (never gasoline or any low flash point solvent), then wash it again in hot water with dishwashing soap. Squeeze it, do not wring or twist it. Repeat until no dirt comes out, then let it dry completely. Throw away any element that is torn, hardened or coming apart at the seams.",
+    "depends_on": [
+     "element-off"
+    ],
+    "verification": [
+     "Element clean, fully dry, no tears."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "element-damaged",
+      "label": "Element torn or worn out",
+      "next_step": "oil",
+      "condition": "Use a new element from here on; do not refit a damaged one."
+     }
+    ]
+   },
+   {
+    "id": "oil",
+    "title": "Oil the element",
+    "instruction": "Put 50 cm³ of foam air filter oil on the inside of the element. Never use engine oil. Put the element in a plastic bag and knead it until the oil is spread evenly through all the foam, then squeeze out the excess without twisting.",
+    "depends_on": [
+     "wash"
+    ],
+    "verification": [
+     "Oil even through the whole element, excess squeezed out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "refit-frame",
+    "title": "Put the foam back on its frame",
+    "instruction": "Fit the foam back on its base, hooking the slots in the foam over the ten base tabs, then close the eight hooks.",
+    "depends_on": [
+     "oil"
+    ],
+    "verification": [
+     "Every hole or slot on its tab, foam not torn."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "grease",
+    "title": "Grease the sealing face",
+    "instruction": "Take the rag out of the intake. Spread 1.5–5.5 g of grease on the airbox face where the element seals. This is what stops dust getting past the edge of the filter.",
+    "depends_on": [
+     "refit-frame"
+    ],
+    "verification": [
+     "Rag out of the intake, sealing face greased all the way round."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "install",
+    "title": "Fit the element",
+    "instruction": "Set the element in the airbox with the tabs of the base in the slots of the housing. Fit the element hook with its long side facing down and lock it fully. A badly seated element lets dirt straight into the engine: run a finger round the edge to check it is seated evenly.",
+    "depends_on": [
+     "grease"
+    ],
+    "verification": [
+     "Element seated evenly all round, hook or spring locked."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "close",
+    "title": "Close up",
+    "instruction": "Refit the left side cover at 10 N·m.",
+    "depends_on": [
+     "install"
+    ],
+    "verification": [
+     "Lid (if fitted) and side cover back on and torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "log",
+    "title": "Record the service",
+    "instruction": "Write the date and hours on the service log and note anything unusual you saw (dirt past the filter, oil or water in the drain).",
+    "depends_on": [
+     "close"
+    ],
+    "verification": [
+     "Service logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450rx-air-filter-v1-2021-2024",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2024
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "intake",
+   "engine"
+  ],
+  "entry_state": [
+   "Bike cold, upright on a stand."
+  ],
+  "exit_state": [
+   "Clean, oiled element sealed in the airbox, side cover torqued, service logged."
+  ],
+  "title": "Clean and oil the air filter",
+  "completeness": "Covers opening the airbox, removing, washing, oiling and refitting the foam element, greasing the sealing face and draining the airbox breather. Does not cover the throttle body or intake boot replacement.",
+  "excluded": [
+   "Intake boot replacement",
+   "Throttle body cleaning"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand",
+    "size": null
+   },
+   {
+    "name": "Screwdriver or socket for the side cover bolt",
+    "size": null
+   },
+   {
+    "name": "Two clean buckets",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   },
+   {
+    "name": "Plastic bag",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Foam air filter oil",
+    "purpose": "50 cm³ per element."
+   },
+   {
+    "name": "Grease",
+    "purpose": "For the airbox sealing face."
+   },
+   {
+    "name": "Spare element",
+    "purpose": "If the old one is torn or worn out."
+   }
+  ],
+  "prerequisites": [
+   "Engine cold.",
+   "Non-flammable solvent and dish soap available."
+  ],
+  "critical_stop_conditions": [
+   "Dirt found on the clean side of the intake: clean it all out before the engine is started.",
+   "Element torn or hardened: replace it, never refit it.",
+   "Element not sealing evenly all round: refit it before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Write down the date and riding hours since the last clean. Plan to clean this filter every race (about 3.5 hours of riding), and after every moto in dusty conditions. Have a second, already oiled element ready if you swap at the track.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "prep",
+    "title": "Clean around the airbox",
+    "instruction": "Bike cold and upright on a stand. Brush and wipe the area around the left side cover so no grit can fall into the airbox when it opens.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Area around the left side cover clean and dry."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cover-off",
+    "title": "Take off the left side cover",
+    "instruction": "Remove the side cover bolt and pull the left side cover off.",
+    "depends_on": [
+     "prep"
+    ],
+    "verification": [
+     "Side cover off, bolt kept."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "element-out",
+    "title": "Lift the element out",
+    "instruction": "Release the hook of the element setting spring, swing the spring open and lift the foam element out together with its holder. Do not let dirt fall off the element into the clean side of the airbox.",
+    "depends_on": [
+     "cover-off"
+    ],
+    "verification": [
+     "Element and holder out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "airbox",
+    "title": "Clean the airbox and check the breather drain",
+    "instruction": "Stuff a clean rag into the intake opening so nothing can drop into the engine. Wipe the inside of the airbox clean. Pull out the drain plug at the bottom of the airbox drain hose, let any water, oil mist or dirt run into a container, check the hose is not blocked or split, and refit the plug. Look at the intake side of the boot: dirt there means the element was not sealing, so check the sealing face and the element fit before going on.",
+    "depends_on": [
+     "element-out"
+    ],
+    "verification": [
+     "Intake covered, airbox wiped, drain emptied.",
+     "No dirt on the clean side of the intake."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "dirt-past",
+      "label": "Dirt found past the filter",
+      "next_step": "element-off",
+      "condition": "Dirt on the clean side: clean it out completely before any start, and check the sealing face and element seating closely when refitting."
+     }
+    ]
+   },
+   {
+    "id": "element-off",
+    "title": "Separate the foam from its frame",
+    "instruction": "Peel the foam element off its holder, working the holes in the foam gently over the holder tabs so they do not tear.",
+    "depends_on": [
+     "airbox"
+    ],
+    "verification": [
+     "Foam off its frame, no torn holes or slots."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wash",
+    "title": "Wash the element",
+    "instruction": "Wash the foam in a non-flammable cleaning solvent (never gasoline or any low flash point solvent), then wash it again in hot water with dishwashing soap. Squeeze it, do not wring or twist it. Repeat until no dirt comes out, then let it dry completely. Throw away any element that is torn, hardened or coming apart at the seams.",
+    "depends_on": [
+     "element-off"
+    ],
+    "verification": [
+     "Element clean, fully dry, no tears."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "element-damaged",
+      "label": "Element torn or worn out",
+      "next_step": "oil",
+      "condition": "Use a new element from here on; do not refit a damaged one."
+     }
+    ]
+   },
+   {
+    "id": "oil",
+    "title": "Oil the element",
+    "instruction": "Put 50 cm³ of foam air filter oil on the inside of the element. Never use engine oil. Put the element in a plastic bag and knead it until the oil is spread evenly through all the foam, then squeeze out the excess without twisting.",
+    "depends_on": [
+     "wash"
+    ],
+    "verification": [
+     "Oil even through the whole element, excess squeezed out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "refit-frame",
+    "title": "Put the foam back on its frame",
+    "instruction": "Fit the foam back on the holder, hooking each hole in the foam over its holder tab. Do not hook the holes onto the grooves where the setting spring sits.",
+    "depends_on": [
+     "oil"
+    ],
+    "verification": [
+     "Every hole or slot on its tab, foam not torn."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "grease",
+    "title": "Grease the sealing face",
+    "instruction": "Take the rag out of the intake. Spread 1.5–5.5 g of grease on the airbox face where the element seals. This is what stops dust getting past the edge of the filter.",
+    "depends_on": [
+     "refit-frame"
+    ],
+    "verification": [
+     "Rag out of the intake, sealing face greased all the way round."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "install",
+    "title": "Fit the element",
+    "instruction": "Set the element in the airbox with the projection on the holder in the hole in the housing. Close the setting spring so it sits in the grooves of the holder and lock its hook fully. A badly seated element lets dirt straight into the engine: run a finger round the edge to check it is seated evenly.",
+    "depends_on": [
+     "grease"
+    ],
+    "verification": [
+     "Element seated evenly all round, hook or spring locked."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "close",
+    "title": "Close up",
+    "instruction": "Refit the left side cover at 10 N·m.",
+    "depends_on": [
+     "install"
+    ],
+    "verification": [
+     "Lid (if fitted) and side cover back on and torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "log",
+    "title": "Record the service",
+    "instruction": "Write the date and hours on the service log and note anything unusual you saw (dirt past the filter, oil or water in the drain).",
+    "depends_on": [
+     "close"
+    ],
+    "verification": [
+     "Service logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450rx-air-filter-v1-2025-2026",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "intake",
+   "engine"
+  ],
+  "entry_state": [
+   "Bike cold, upright on a stand."
+  ],
+  "exit_state": [
+   "Clean, oiled element sealed in the airbox, side cover torqued, service logged."
+  ],
+  "title": "Clean and oil the air filter",
+  "completeness": "Covers opening the airbox, removing, washing, oiling and refitting the foam element, greasing the sealing face and draining the airbox breather. Does not cover the throttle body or intake boot replacement.",
+  "excluded": [
+   "Intake boot replacement",
+   "Throttle body cleaning"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand",
+    "size": null
+   },
+   {
+    "name": "Screwdriver or socket for the side cover bolt",
+    "size": null
+   },
+   {
+    "name": "Two clean buckets",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   },
+   {
+    "name": "Plastic bag",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Foam air filter oil",
+    "purpose": "50 cm³ per element."
+   },
+   {
+    "name": "Grease",
+    "purpose": "For the airbox sealing face."
+   },
+   {
+    "name": "Spare element",
+    "purpose": "If the old one is torn or worn out."
+   }
+  ],
+  "prerequisites": [
+   "Engine cold.",
+   "Non-flammable solvent and dish soap available."
+  ],
+  "critical_stop_conditions": [
+   "Dirt found on the clean side of the intake: clean it all out before the engine is started.",
+   "Element torn or hardened: replace it, never refit it.",
+   "Element not sealing evenly all round: refit it before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Write down the date and riding hours since the last clean. Plan to clean this filter every race (about 3.5 hours of riding), and after every moto in dusty conditions. Have a second, already oiled element ready if you swap at the track.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "prep",
+    "title": "Clean around the airbox",
+    "instruction": "Bike cold and upright on a stand. Brush and wipe the area around the left side cover so no grit can fall into the airbox when it opens.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Area around the left side cover clean and dry."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cover-off",
+    "title": "Open the airbox",
+    "instruction": "Remove the left side cover. Take out the air cleaner lid bolt, unhook the lid tabs and lift the lid off.",
+    "depends_on": [
+     "prep"
+    ],
+    "verification": [
+     "Side cover and lid off, bolts kept."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "element-out",
+    "title": "Lift the element out",
+    "instruction": "Release the element hook and lift the element assembly (foam element on its base) straight out of the airbox. Do not let dirt fall off the element into the clean side.",
+    "depends_on": [
+     "cover-off"
+    ],
+    "verification": [
+     "Element assembly out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "airbox",
+    "title": "Clean the airbox and check the breather drain",
+    "instruction": "Stuff a clean rag into the intake opening so nothing can drop into the engine. Wipe the inside of the airbox clean. Pull out the airbox drain tube, let any water, oil mist or dirt run into a container and refit the tube. Look at the intake side of the boot: dirt there means the element was not sealing, so check the sealing face and the element fit before going on.",
+    "depends_on": [
+     "element-out"
+    ],
+    "verification": [
+     "Intake covered, airbox wiped, drain emptied.",
+     "No dirt on the clean side of the intake."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "dirt-past",
+      "label": "Dirt found past the filter",
+      "next_step": "element-off",
+      "condition": "Dirt on the clean side: clean it out completely before any start, and check the sealing face and element seating closely when refitting."
+     }
+    ]
+   },
+   {
+    "id": "element-off",
+    "title": "Separate the foam from its frame",
+    "instruction": "Unhook the slots in the foam from the base tabs and take the element off its base, taking care not to tear the slots.",
+    "depends_on": [
+     "airbox"
+    ],
+    "verification": [
+     "Foam off its frame, no torn holes or slots."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wash",
+    "title": "Wash the element",
+    "instruction": "Wash the foam in a non-flammable cleaning solvent (never gasoline or any low flash point solvent), then wash it again in hot water with dishwashing soap. Squeeze it, do not wring or twist it. Repeat until no dirt comes out, then let it dry completely. Throw away any element that is torn, hardened or coming apart at the seams.",
+    "depends_on": [
+     "element-off"
+    ],
+    "verification": [
+     "Element clean, fully dry, no tears."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "element-damaged",
+      "label": "Element torn or worn out",
+      "next_step": "oil",
+      "condition": "Use a new element from here on; do not refit a damaged one."
+     }
+    ]
+   },
+   {
+    "id": "oil",
+    "title": "Oil the element",
+    "instruction": "Put 50 cm³ of foam air filter oil on the inside of the element. Never use engine oil. Put the element in a plastic bag and knead it until the oil is spread evenly through all the foam, then squeeze out the excess without twisting.",
+    "depends_on": [
+     "wash"
+    ],
+    "verification": [
+     "Oil even through the whole element, excess squeezed out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "refit-frame",
+    "title": "Put the foam back on its frame",
+    "instruction": "Fit the foam back on its base, hooking the slots in the foam over the base tabs.",
+    "depends_on": [
+     "oil"
+    ],
+    "verification": [
+     "Every hole or slot on its tab, foam not torn."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "grease",
+    "title": "Grease the sealing face",
+    "instruction": "Take the rag out of the intake. Spread 1.5–5.5 g of grease on the airbox face where the element seals. This is what stops dust getting past the edge of the filter.",
+    "depends_on": [
+     "refit-frame"
+    ],
+    "verification": [
+     "Rag out of the intake, sealing face greased all the way round."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "install",
+    "title": "Fit the element",
+    "instruction": "Set the element in the airbox with the tabs of the base in the slots of the housing and the hole in the base over the projection in the housing. Lock the element hook fully. A badly seated element lets dirt straight into the engine: run a finger round the edge to check it is seated evenly.",
+    "depends_on": [
+     "grease"
+    ],
+    "verification": [
+     "Element seated evenly all round, hook or spring locked."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "close",
+    "title": "Close up",
+    "instruction": "Hook the lid tabs in, refit the lid bolt snugly, then refit the left side cover at 10 N·m.",
+    "depends_on": [
+     "install"
+    ],
+    "verification": [
+     "Lid (if fitted) and side cover back on and torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "log",
+    "title": "Record the service",
+    "instruction": "Write the date and hours on the service log and note anything unusual you saw (dirt past the filter, oil or water in the drain).",
+    "depends_on": [
+     "close"
+    ],
+    "verification": [
+     "Service logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450rx-air-filter-v1-2027",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2027
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "intake",
+   "engine"
+  ],
+  "entry_state": [
+   "Bike cold, upright on a stand."
+  ],
+  "exit_state": [
+   "Clean, oiled element sealed in the airbox, side cover torqued, service logged."
+  ],
+  "title": "Clean and oil the air filter",
+  "completeness": "Covers opening the airbox, removing, washing, oiling and refitting the foam element, greasing the sealing face and draining the airbox breather. Does not cover the throttle body or intake boot replacement.",
+  "excluded": [
+   "Intake boot replacement",
+   "Throttle body cleaning"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand",
+    "size": null
+   },
+   {
+    "name": "Screwdriver or socket for the side cover bolt",
+    "size": null
+   },
+   {
+    "name": "Two clean buckets",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   },
+   {
+    "name": "Plastic bag",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Foam air filter oil",
+    "purpose": "50 cm³ per element."
+   },
+   {
+    "name": "Grease",
+    "purpose": "For the airbox sealing face."
+   },
+   {
+    "name": "Spare element",
+    "purpose": "If the old one is torn or worn out."
+   }
+  ],
+  "prerequisites": [
+   "Engine cold.",
+   "Non-flammable solvent and dish soap available."
+  ],
+  "critical_stop_conditions": [
+   "Dirt found on the clean side of the intake: clean it all out before the engine is started.",
+   "Element torn or hardened: replace it, never refit it.",
+   "Element not sealing evenly all round: refit it before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Write down the date and riding hours since the last clean. Plan to clean this filter every race (about 3.5 hours of riding), and after every moto in dusty conditions. Have a second, already oiled element ready if you swap at the track.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "prep",
+    "title": "Clean around the airbox",
+    "instruction": "Bike cold and upright on a stand. Brush and wipe the area around the left side cover so no grit can fall into the airbox when it opens.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Area around the left side cover clean and dry."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cover-off",
+    "title": "Take off the left side cover",
+    "instruction": "Remove the side cover bolt and pull the left side cover off.",
+    "depends_on": [
+     "prep"
+    ],
+    "verification": [
+     "Side cover off, bolt kept."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "element-out",
+    "title": "Lift the element out",
+    "instruction": "Release the element hook and lift the element assembly (foam element on its base) straight out of the airbox. Do not let dirt fall off the element into the clean side.",
+    "depends_on": [
+     "cover-off"
+    ],
+    "verification": [
+     "Element assembly out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "airbox",
+    "title": "Clean the airbox and check the breather drain",
+    "instruction": "Stuff a clean rag into the intake opening so nothing can drop into the engine. Wipe the inside of the airbox clean. Pull out the airbox drain tube, let any water, oil mist or dirt run into a container and refit the tube. Look at the intake side of the boot: dirt there means the element was not sealing, so check the sealing face and the element fit before going on.",
+    "depends_on": [
+     "element-out"
+    ],
+    "verification": [
+     "Intake covered, airbox wiped, drain emptied.",
+     "No dirt on the clean side of the intake."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "dirt-past",
+      "label": "Dirt found past the filter",
+      "next_step": "element-off",
+      "condition": "Dirt on the clean side: clean it out completely before any start, and check the sealing face and element seating closely when refitting."
+     }
+    ]
+   },
+   {
+    "id": "element-off",
+    "title": "Separate the foam from its frame",
+    "instruction": "Release the eight hooks and lift the foam element off its base, taking care not to tear the slots in the foam.",
+    "depends_on": [
+     "airbox"
+    ],
+    "verification": [
+     "Foam off its frame, no torn holes or slots."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wash",
+    "title": "Wash the element",
+    "instruction": "Wash the foam in a non-flammable cleaning solvent (never gasoline or any low flash point solvent), then wash it again in hot water with dishwashing soap. Squeeze it, do not wring or twist it. Repeat until no dirt comes out, then let it dry completely. Throw away any element that is torn, hardened or coming apart at the seams.",
+    "depends_on": [
+     "element-off"
+    ],
+    "verification": [
+     "Element clean, fully dry, no tears."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "element-damaged",
+      "label": "Element torn or worn out",
+      "next_step": "oil",
+      "condition": "Use a new element from here on; do not refit a damaged one."
+     }
+    ]
+   },
+   {
+    "id": "oil",
+    "title": "Oil the element",
+    "instruction": "Put 50 cm³ of foam air filter oil on the inside of the element. Never use engine oil. Put the element in a plastic bag and knead it until the oil is spread evenly through all the foam, then squeeze out the excess without twisting.",
+    "depends_on": [
+     "wash"
+    ],
+    "verification": [
+     "Oil even through the whole element, excess squeezed out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "refit-frame",
+    "title": "Put the foam back on its frame",
+    "instruction": "Fit the foam back on its base, hooking the slots in the foam over the ten base tabs, then close the eight hooks.",
+    "depends_on": [
+     "oil"
+    ],
+    "verification": [
+     "Every hole or slot on its tab, foam not torn."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "grease",
+    "title": "Grease the sealing face",
+    "instruction": "Take the rag out of the intake. Spread 1.5–5.5 g of grease on the airbox face where the element seals. This is what stops dust getting past the edge of the filter.",
+    "depends_on": [
+     "refit-frame"
+    ],
+    "verification": [
+     "Rag out of the intake, sealing face greased all the way round."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "install",
+    "title": "Fit the element",
+    "instruction": "Set the element in the airbox with the tabs of the base in the slots of the housing. Fit the element hook with its long side facing down and lock it fully. A badly seated element lets dirt straight into the engine: run a finger round the edge to check it is seated evenly.",
+    "depends_on": [
+     "grease"
+    ],
+    "verification": [
+     "Element seated evenly all round, hook or spring locked."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "close",
+    "title": "Close up",
+    "instruction": "Refit the left side cover at 10 N·m.",
+    "depends_on": [
+     "install"
+    ],
+    "verification": [
+     "Lid (if fitted) and side cover back on and torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "log",
+    "title": "Record the service",
+    "instruction": "Write the date and hours on the service log and note anything unusual you saw (dirt past the filter, oil or water in the drain).",
+    "depends_on": [
+     "close"
+    ],
+    "verification": [
+     "Service logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450r-oil-and-filter-v1-2021-2022",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2022
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "engine",
+   "clutch",
+   "transmission"
+  ],
+  "entry_state": [
+   "Bike on level ground, engine able to idle."
+  ],
+  "exit_state": [
+   "Fresh oil at the correct level, new filter if due, no leaks, service logged."
+  ],
+  "title": "Change the engine oil and filter",
+  "completeness": "Covers draining the oil, changing the filter, refitting the drain bolt with the correct torque, filling with the correct oil and checking the level through the window. The engine, gearbox and clutch share this oil, so there is no separate gearbox oil to change.",
+  "excluded": [
+   "Oil strainer screen cleaning",
+   "Any engine internal work"
+  ],
+  "required_tools": [
+   {
+    "name": "Drain pan",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Socket for the drain bolt",
+    "size": null
+   },
+   {
+    "name": "Funnel",
+    "size": null
+   },
+   {
+    "name": "Gloves",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Engine oil",
+    "purpose": "Pro Honda GN4 4-stroke oil or equivalent motorcycle oil, SAE 10W-30, API SG or higher, JASO T903 MA."
+   },
+   {
+    "name": "Drain bolt O-ring",
+    "purpose": "Always new."
+   },
+   {
+    "name": "Oil filter and cover O-ring",
+    "purpose": "When the filter is changed."
+   }
+  ],
+  "prerequisites": [
+   "Fresh oil of the correct grade on hand.",
+   "New O-ring on hand."
+  ],
+  "critical_stop_conditions": [
+   "Oil filter fitted backwards: severe engine damage. Check the OUT-SIDE mark faces out.",
+   "Milky oil or metal flakes in the oil: stop and find the cause before running the engine.",
+   "Oil level not between the window lines: correct it before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Write down the date and hours. The oil is changed every 6 races (about 15.0 hours of riding) and the filter every 6 races (about 15.0 hours of riding); both are changed after the first break-in ride and the oil is also changed whenever the clutch discs and plates are replaced. Check the level every race (about 2.5 hours of riding).",
+    "depends_on": [],
+    "verification": [
+     "Date, hours and reason written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "warm",
+    "title": "Warm the oil",
+    "instruction": "Start the engine and let it idle for 3 minutes so the oil drains well, then stop it.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine idled and stopped."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "level-ground",
+    "title": "Stand the bike upright",
+    "instruction": "Hold the bike upright on level ground (not leaning on a side stand). Remove the engine guard. Put a drain pan under the engine. The oil and the exhaust are hot: wear gloves.",
+    "depends_on": [
+     "warm"
+    ],
+    "verification": [
+     "Bike upright, pan in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Drain the oil",
+    "instruction": "Remove the oil filler cap, then the oil drain bolt and its O-ring, and let the oil drain completely. Look at the oil as it drains for metal flakes or a milky colour.",
+    "depends_on": [
+     "level-ground"
+    ],
+    "verification": [
+     "Oil drained.",
+     "Oil colour and any debris noted."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "debris",
+      "label": "Metal flakes or milky oil",
+      "next_step": "log",
+      "condition": "Do not just refill and ride: milky oil means coolant is getting in and flakes mean something is wearing. Record what you found and get the engine checked before running it."
+     }
+    ]
+   },
+   {
+    "id": "filter-decide",
+    "title": "Decide on the filter",
+    "instruction": "If the filter is due (or the oil looked dirty or this is the first change after break-in), change it now while the oil is out.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Filter decision made."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "filter-yes",
+      "label": "Change the filter",
+      "next_step": "filter-out",
+      "condition": "Filter due or oil dirty."
+     },
+     {
+      "id": "filter-no",
+      "label": "Oil only",
+      "next_step": "drain-bolt",
+      "condition": "Filter not due and the oil looked normal."
+     }
+    ]
+   },
+   {
+    "id": "filter-out",
+    "title": "Take the old filter out",
+    "instruction": "Remove the oil filter cover bolts, the cover and its O-ring, then pull out the filter and the spring behind it. Let the cavity drain.",
+    "depends_on": [
+     "filter-decide"
+    ],
+    "verification": [
+     "Cover, O-ring, filter and spring out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "filter-in",
+    "title": "Fit the new filter",
+    "instruction": "Put a little grease on the spring where it touches the filter and fit the spring into the new filter. Push the filter in with the \"OUT-SIDE\" mark facing out. A filter fitted backwards starves the engine of oil and will wreck it. Oil a new O-ring, fit it to the cover, and refit the cover and its bolts, tightening them evenly and firmly.",
+    "depends_on": [
+     "filter-out"
+    ],
+    "verification": [
+     "Filter in the right way round, new O-ring, cover bolts tight."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "drain-bolt",
+    "title": "Refit the drain bolt",
+    "instruction": "Oil the threads and seating face of the drain bolt. Fit a new O-ring, oiled, and tighten the bolt to 18 N·m.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Drain bolt torqued with a new O-ring."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "fill",
+    "title": "Fill with fresh oil",
+    "instruction": "Use Pro Honda GN4 4-stroke oil or equivalent motorcycle oil, SAE 10W-30, API SG or higher, JASO T903 MA. Pour in 1.00 L (1.06 US qt) if only the oil was changed, or 1.04 L (1.10 US qt) if the filter was changed too. Check the O-ring on the filler cap, replace it if it is cracked or flattened, and refit the cap.",
+    "depends_on": [
+     "drain-bolt"
+    ],
+    "verification": [
+     "Correct oil added, filler cap on."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "level",
+    "title": "Check the level",
+    "instruction": "Start the engine and let it idle for 3 minutes. Stop it, wait 3 minutes, hold the bike upright on level ground and look at the oil inspection window. The level must be between the lower and upper lines; if it is at or near the lower line, add oil up to the upper line and check again.",
+    "depends_on": [
+     "fill"
+    ],
+    "verification": [
+     "Level between the lines in the window."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "leaks",
+    "title": "Check for leaks and close up",
+    "instruction": "Look at the drain bolt and the filter cover for any seep. Refit the engine guard if it was removed.",
+    "depends_on": [
+     "level"
+    ],
+    "verification": [
+     "No leaks, guard back on."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "log",
+    "title": "Record the service",
+    "instruction": "Write down the date, hours, oil used and quantity, and whether the filter was changed. Dispose of the old oil and filter properly.",
+    "depends_on": [
+     "leaks"
+    ],
+    "verification": [
+     "Service logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450r-oil-and-filter-v1-2023-2026",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "engine",
+   "clutch",
+   "transmission"
+  ],
+  "entry_state": [
+   "Bike on level ground, engine able to idle."
+  ],
+  "exit_state": [
+   "Fresh oil at the correct level, new filter if due, no leaks, service logged."
+  ],
+  "title": "Change the engine oil and filter",
+  "completeness": "Covers draining the oil, changing the filter, refitting the drain bolt with the correct torque, filling with the correct oil and checking the level through the window. The engine, gearbox and clutch share this oil, so there is no separate gearbox oil to change.",
+  "excluded": [
+   "Oil strainer screen cleaning",
+   "Any engine internal work"
+  ],
+  "required_tools": [
+   {
+    "name": "Drain pan",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Socket for the drain bolt",
+    "size": null
+   },
+   {
+    "name": "Funnel",
+    "size": null
+   },
+   {
+    "name": "Gloves",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Engine oil",
+    "purpose": "Pro Honda GN4 4-stroke oil or equivalent motorcycle oil, SAE 10W-30, API SJ or higher (not Energy/Resource Conserving), JASO T903 MA."
+   },
+   {
+    "name": "Drain bolt O-ring",
+    "purpose": "Always new."
+   },
+   {
+    "name": "Oil filter and cover O-ring",
+    "purpose": "When the filter is changed."
+   }
+  ],
+  "prerequisites": [
+   "Fresh oil of the correct grade on hand.",
+   "New O-ring on hand."
+  ],
+  "critical_stop_conditions": [
+   "Oil filter fitted backwards: severe engine damage. Check the OUT-SIDE mark faces out.",
+   "Milky oil or metal flakes in the oil: stop and find the cause before running the engine.",
+   "Oil level not between the window lines: correct it before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Write down the date and hours. The oil is changed every 6 races (about 15.0 hours of riding) and the filter every 6 races (about 15.0 hours of riding); both are changed after the first break-in ride and the oil is also changed whenever the clutch discs and plates are replaced. Check the level every race (about 2.5 hours of riding).",
+    "depends_on": [],
+    "verification": [
+     "Date, hours and reason written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "warm",
+    "title": "Warm the oil",
+    "instruction": "Start the engine and let it idle for 3 minutes so the oil drains well, then stop it.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine idled and stopped."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "level-ground",
+    "title": "Stand the bike upright",
+    "instruction": "Hold the bike upright on level ground (not leaning on a side stand). Remove the engine guard. Put a drain pan under the engine. The oil and the exhaust are hot: wear gloves.",
+    "depends_on": [
+     "warm"
+    ],
+    "verification": [
+     "Bike upright, pan in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Drain the oil",
+    "instruction": "Remove the oil filler cap, then the oil drain bolt and its O-ring, and let the oil drain completely. Look at the oil as it drains for metal flakes or a milky colour.",
+    "depends_on": [
+     "level-ground"
+    ],
+    "verification": [
+     "Oil drained.",
+     "Oil colour and any debris noted."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "debris",
+      "label": "Metal flakes or milky oil",
+      "next_step": "log",
+      "condition": "Do not just refill and ride: milky oil means coolant is getting in and flakes mean something is wearing. Record what you found and get the engine checked before running it."
+     }
+    ]
+   },
+   {
+    "id": "filter-decide",
+    "title": "Decide on the filter",
+    "instruction": "If the filter is due (or the oil looked dirty or this is the first change after break-in), change it now while the oil is out.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Filter decision made."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "filter-yes",
+      "label": "Change the filter",
+      "next_step": "filter-out",
+      "condition": "Filter due or oil dirty."
+     },
+     {
+      "id": "filter-no",
+      "label": "Oil only",
+      "next_step": "drain-bolt",
+      "condition": "Filter not due and the oil looked normal."
+     }
+    ]
+   },
+   {
+    "id": "filter-out",
+    "title": "Take the old filter out",
+    "instruction": "Remove the oil filter cover bolts, the cover and its O-ring, then pull out the filter and the spring behind it. Let the cavity drain.",
+    "depends_on": [
+     "filter-decide"
+    ],
+    "verification": [
+     "Cover, O-ring, filter and spring out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "filter-in",
+    "title": "Fit the new filter",
+    "instruction": "Put a little grease on the spring where it touches the filter and fit the spring into the new filter. Push the filter in with the \"OUT-SIDE\" mark facing out. A filter fitted backwards starves the engine of oil and will wreck it. Oil a new O-ring, fit it to the cover, and refit the cover and its bolts, tightening them evenly and firmly.",
+    "depends_on": [
+     "filter-out"
+    ],
+    "verification": [
+     "Filter in the right way round, new O-ring, cover bolts tight."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "drain-bolt",
+    "title": "Refit the drain bolt",
+    "instruction": "Oil the threads and seating face of the drain bolt. Fit a new O-ring, oiled, and tighten the bolt to 18 N·m.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Drain bolt torqued with a new O-ring."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "fill",
+    "title": "Fill with fresh oil",
+    "instruction": "Use Pro Honda GN4 4-stroke oil or equivalent motorcycle oil, SAE 10W-30, API SJ or higher (not Energy/Resource Conserving), JASO T903 MA. Pour in 1.00 L (1.06 US qt) if only the oil was changed, or 1.04 L (1.10 US qt) if the filter was changed too. Check the O-ring on the filler cap, replace it if it is cracked or flattened, and refit the cap.",
+    "depends_on": [
+     "drain-bolt"
+    ],
+    "verification": [
+     "Correct oil added, filler cap on."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "level",
+    "title": "Check the level",
+    "instruction": "Start the engine and let it idle for 3 minutes. Stop it, wait 3 minutes, hold the bike upright on level ground and look at the oil inspection window. The level must be between the lower and upper lines; if it is at or near the lower line, add oil up to the upper line and check again.",
+    "depends_on": [
+     "fill"
+    ],
+    "verification": [
+     "Level between the lines in the window."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "leaks",
+    "title": "Check for leaks and close up",
+    "instruction": "Look at the drain bolt and the filter cover for any seep. Refit the engine guard if it was removed.",
+    "depends_on": [
+     "level"
+    ],
+    "verification": [
+     "No leaks, guard back on."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "log",
+    "title": "Record the service",
+    "instruction": "Write down the date, hours, oil used and quantity, and whether the filter was changed. Dispose of the old oil and filter properly.",
+    "depends_on": [
+     "leaks"
+    ],
+    "verification": [
+     "Service logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450r-oil-and-filter-v1-2027",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2027
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "engine",
+   "clutch",
+   "transmission"
+  ],
+  "entry_state": [
+   "Bike on level ground, engine able to idle."
+  ],
+  "exit_state": [
+   "Fresh oil at the correct level, new filter if due, no leaks, service logged."
+  ],
+  "title": "Change the engine oil and filter",
+  "completeness": "Covers draining the oil, changing the filter, refitting the drain bolt with the correct torque, filling with the correct oil and checking the level through the window. The engine, gearbox and clutch share this oil, so there is no separate gearbox oil to change.",
+  "excluded": [
+   "Oil strainer screen cleaning",
+   "Any engine internal work"
+  ],
+  "required_tools": [
+   {
+    "name": "Drain pan",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Socket for the drain bolt",
+    "size": null
+   },
+   {
+    "name": "Funnel",
+    "size": null
+   },
+   {
+    "name": "Gloves",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Engine oil",
+    "purpose": "Pro Honda GN4 4-stroke oil or equivalent motorcycle oil, SAE 10W-30, API SJ or higher (not Energy/Resource Conserving), JASO T903 MA."
+   },
+   {
+    "name": "Drain bolt sealing washers (two)",
+    "purpose": "Always new."
+   },
+   {
+    "name": "Oil filter and cover O-ring",
+    "purpose": "When the filter is changed."
+   }
+  ],
+  "prerequisites": [
+   "Fresh oil of the correct grade on hand.",
+   "New sealing washers on hand."
+  ],
+  "critical_stop_conditions": [
+   "Oil filter fitted backwards: severe engine damage. Check the OUT-SIDE mark faces out.",
+   "Milky oil or metal flakes in the oil: stop and find the cause before running the engine.",
+   "Oil level not between the window lines: correct it before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Write down the date and hours. The oil is changed every 6 races (about 15.0 hours of riding) and the filter every 6 races (about 15.0 hours of riding); both are changed after the first break-in ride and the oil is also changed whenever the clutch discs and plates are replaced. Check the level every race (about 2.5 hours of riding).",
+    "depends_on": [],
+    "verification": [
+     "Date, hours and reason written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "warm",
+    "title": "Warm the oil",
+    "instruction": "Start the engine and let it idle for 3 minutes so the oil drains well, then stop it.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine idled and stopped."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "level-ground",
+    "title": "Stand the bike upright",
+    "instruction": "Hold the bike upright on level ground (not leaning on a side stand). Remove the engine guard if your bike has one over the drain bolts. Put a drain pan under the engine. The oil and the exhaust are hot: wear gloves.",
+    "depends_on": [
+     "warm"
+    ],
+    "verification": [
+     "Bike upright, pan in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Drain the oil",
+    "instruction": "Remove the oil filler cap, then remove both oil drain bolts with their sealing washers and let the oil drain completely. Look at the oil as it drains for metal flakes or a milky colour.",
+    "depends_on": [
+     "level-ground"
+    ],
+    "verification": [
+     "Oil drained.",
+     "Oil colour and any debris noted."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "debris",
+      "label": "Metal flakes or milky oil",
+      "next_step": "log",
+      "condition": "Do not just refill and ride: milky oil means coolant is getting in and flakes mean something is wearing. Record what you found and get the engine checked before running it."
+     }
+    ]
+   },
+   {
+    "id": "filter-decide",
+    "title": "Decide on the filter",
+    "instruction": "If the filter is due (or the oil looked dirty or this is the first change after break-in), change it now while the oil is out.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Filter decision made."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "filter-yes",
+      "label": "Change the filter",
+      "next_step": "filter-out",
+      "condition": "Filter due or oil dirty."
+     },
+     {
+      "id": "filter-no",
+      "label": "Oil only",
+      "next_step": "drain-bolt",
+      "condition": "Filter not due and the oil looked normal."
+     }
+    ]
+   },
+   {
+    "id": "filter-out",
+    "title": "Take the old filter out",
+    "instruction": "Remove the oil filter cover bolts, the cover and its O-ring, then pull out the filter and the spring behind it. Let the cavity drain.",
+    "depends_on": [
+     "filter-decide"
+    ],
+    "verification": [
+     "Cover, O-ring, filter and spring out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "filter-in",
+    "title": "Fit the new filter",
+    "instruction": "Put a little grease on the spring where it touches the filter and fit the spring into the new filter. Push the filter in with the \"OUT-SIDE\" mark facing out. A filter fitted backwards starves the engine of oil and will wreck it. Oil a new O-ring, fit it to the cover, and refit the cover and its bolts, tightening them evenly and firmly.",
+    "depends_on": [
+     "filter-out"
+    ],
+    "verification": [
+     "Filter in the right way round, new O-ring, cover bolts tight."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "drain-bolt",
+    "title": "Refit the drain bolts",
+    "instruction": "Oil the threads and seating face of the drain bolt on the underside of the engine, fit a new sealing washer and tighten it to 23 N·m. Fit the second drain bolt with a new sealing washer and tighten it firmly.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Drain bolt torqued with a new sealing washer."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "fill",
+    "title": "Fill with fresh oil",
+    "instruction": "Use Pro Honda GN4 4-stroke oil or equivalent motorcycle oil, SAE 10W-30, API SJ or higher (not Energy/Resource Conserving), JASO T903 MA. Pour in 1.07 L (1.13 US qt) if only the oil was changed, or 1.10 L (1.16 US qt) if the filter was changed too. Check the O-ring on the filler cap, replace it if it is cracked or flattened, and refit the cap.",
+    "depends_on": [
+     "drain-bolt"
+    ],
+    "verification": [
+     "Correct oil added, filler cap on."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "level",
+    "title": "Check the level",
+    "instruction": "Start the engine and let it idle for 3 minutes. Stop it, wait 3 minutes, hold the bike upright on level ground and look at the oil inspection window. The level must be between the lower and upper lines; if it is at or near the lower line, add oil up to the upper line and check again.",
+    "depends_on": [
+     "fill"
+    ],
+    "verification": [
+     "Level between the lines in the window."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "leaks",
+    "title": "Check for leaks and close up",
+    "instruction": "Look at the drain bolts and the filter cover for any seep. Refit the engine guard if it was removed.",
+    "depends_on": [
+     "level"
+    ],
+    "verification": [
+     "No leaks, guard back on."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "log",
+    "title": "Record the service",
+    "instruction": "Write down the date, hours, oil used and quantity, and whether the filter was changed. Dispose of the old oil and filter properly.",
+    "depends_on": [
+     "leaks"
+    ],
+    "verification": [
+     "Service logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450rx-oil-and-filter-v1-2021-2022",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2022
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "engine",
+   "clutch",
+   "transmission"
+  ],
+  "entry_state": [
+   "Bike on level ground, engine able to idle."
+  ],
+  "exit_state": [
+   "Fresh oil at the correct level, new filter if due, no leaks, service logged."
+  ],
+  "title": "Change the engine oil and filter",
+  "completeness": "Covers draining the oil, changing the filter, refitting the drain bolt with the correct torque, filling with the correct oil and checking the level through the window. The engine, gearbox and clutch share this oil, so there is no separate gearbox oil to change.",
+  "excluded": [
+   "Oil strainer screen cleaning",
+   "Any engine internal work"
+  ],
+  "required_tools": [
+   {
+    "name": "Drain pan",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Socket for the drain bolt",
+    "size": null
+   },
+   {
+    "name": "Funnel",
+    "size": null
+   },
+   {
+    "name": "Gloves",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Engine oil",
+    "purpose": "Pro Honda GN4 4-stroke oil or equivalent motorcycle oil, SAE 10W-30, API SG or higher, JASO T903 MA."
+   },
+   {
+    "name": "Drain bolt O-ring",
+    "purpose": "Always new."
+   },
+   {
+    "name": "Oil filter and cover O-ring",
+    "purpose": "When the filter is changed."
+   }
+  ],
+  "prerequisites": [
+   "Fresh oil of the correct grade on hand.",
+   "New O-ring on hand."
+  ],
+  "critical_stop_conditions": [
+   "Oil filter fitted backwards: severe engine damage. Check the OUT-SIDE mark faces out.",
+   "Milky oil or metal flakes in the oil: stop and find the cause before running the engine.",
+   "Oil level not between the window lines: correct it before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Write down the date and hours. The oil is changed every 4 races (about 15.0 hours of riding) and the filter every 4 races (about 15.0 hours of riding); both are changed after the first break-in ride and the oil is also changed whenever the clutch discs and plates are replaced. Check the level every race (about 3.5 hours of riding).",
+    "depends_on": [],
+    "verification": [
+     "Date, hours and reason written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "warm",
+    "title": "Warm the oil",
+    "instruction": "Start the engine and let it idle for 3 minutes so the oil drains well, then stop it.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine idled and stopped."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "level-ground",
+    "title": "Stand the bike upright",
+    "instruction": "Hold the bike upright on level ground (not leaning on a side stand). Remove the engine guard. Put a drain pan under the engine. The oil and the exhaust are hot: wear gloves.",
+    "depends_on": [
+     "warm"
+    ],
+    "verification": [
+     "Bike upright, pan in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Drain the oil",
+    "instruction": "Remove the oil filler cap, then the oil drain bolt and its O-ring, and let the oil drain completely. Look at the oil as it drains for metal flakes or a milky colour.",
+    "depends_on": [
+     "level-ground"
+    ],
+    "verification": [
+     "Oil drained.",
+     "Oil colour and any debris noted."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "debris",
+      "label": "Metal flakes or milky oil",
+      "next_step": "log",
+      "condition": "Do not just refill and ride: milky oil means coolant is getting in and flakes mean something is wearing. Record what you found and get the engine checked before running it."
+     }
+    ]
+   },
+   {
+    "id": "filter-decide",
+    "title": "Decide on the filter",
+    "instruction": "If the filter is due (or the oil looked dirty or this is the first change after break-in), change it now while the oil is out.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Filter decision made."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "filter-yes",
+      "label": "Change the filter",
+      "next_step": "filter-out",
+      "condition": "Filter due or oil dirty."
+     },
+     {
+      "id": "filter-no",
+      "label": "Oil only",
+      "next_step": "drain-bolt",
+      "condition": "Filter not due and the oil looked normal."
+     }
+    ]
+   },
+   {
+    "id": "filter-out",
+    "title": "Take the old filter out",
+    "instruction": "Remove the oil filter cover bolts, the cover and its O-ring, then pull out the filter and the spring behind it. Let the cavity drain.",
+    "depends_on": [
+     "filter-decide"
+    ],
+    "verification": [
+     "Cover, O-ring, filter and spring out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "filter-in",
+    "title": "Fit the new filter",
+    "instruction": "Put a little grease on the spring where it touches the filter and fit the spring into the new filter. Push the filter in with the \"OUT-SIDE\" mark facing out. A filter fitted backwards starves the engine of oil and will wreck it. Oil a new O-ring, fit it to the cover, and refit the cover and its bolts, tightening them evenly and firmly.",
+    "depends_on": [
+     "filter-out"
+    ],
+    "verification": [
+     "Filter in the right way round, new O-ring, cover bolts tight."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "drain-bolt",
+    "title": "Refit the drain bolt",
+    "instruction": "Oil the threads and seating face of the drain bolt. Fit a new O-ring, oiled, and tighten the bolt to 18 N·m.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Drain bolt torqued with a new O-ring."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "fill",
+    "title": "Fill with fresh oil",
+    "instruction": "Use Pro Honda GN4 4-stroke oil or equivalent motorcycle oil, SAE 10W-30, API SG or higher, JASO T903 MA. Pour in 1.00 L (1.06 US qt) if only the oil was changed, or 1.04 L (1.10 US qt) if the filter was changed too. Check the O-ring on the filler cap, replace it if it is cracked or flattened, and refit the cap.",
+    "depends_on": [
+     "drain-bolt"
+    ],
+    "verification": [
+     "Correct oil added, filler cap on."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "level",
+    "title": "Check the level",
+    "instruction": "Start the engine and let it idle for 3 minutes. Stop it, wait 3 minutes, hold the bike upright on level ground and look at the oil inspection window. The level must be between the lower and upper lines; if it is at or near the lower line, add oil up to the upper line and check again.",
+    "depends_on": [
+     "fill"
+    ],
+    "verification": [
+     "Level between the lines in the window."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "leaks",
+    "title": "Check for leaks and close up",
+    "instruction": "Look at the drain bolt and the filter cover for any seep. Refit the engine guard if it was removed.",
+    "depends_on": [
+     "level"
+    ],
+    "verification": [
+     "No leaks, guard back on."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "log",
+    "title": "Record the service",
+    "instruction": "Write down the date, hours, oil used and quantity, and whether the filter was changed. Dispose of the old oil and filter properly.",
+    "depends_on": [
+     "leaks"
+    ],
+    "verification": [
+     "Service logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450rx-oil-and-filter-v1-2023-2026",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "engine",
+   "clutch",
+   "transmission"
+  ],
+  "entry_state": [
+   "Bike on level ground, engine able to idle."
+  ],
+  "exit_state": [
+   "Fresh oil at the correct level, new filter if due, no leaks, service logged."
+  ],
+  "title": "Change the engine oil and filter",
+  "completeness": "Covers draining the oil, changing the filter, refitting the drain bolt with the correct torque, filling with the correct oil and checking the level through the window. The engine, gearbox and clutch share this oil, so there is no separate gearbox oil to change.",
+  "excluded": [
+   "Oil strainer screen cleaning",
+   "Any engine internal work"
+  ],
+  "required_tools": [
+   {
+    "name": "Drain pan",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Socket for the drain bolt",
+    "size": null
+   },
+   {
+    "name": "Funnel",
+    "size": null
+   },
+   {
+    "name": "Gloves",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Engine oil",
+    "purpose": "Pro Honda GN4 4-stroke oil or equivalent motorcycle oil, SAE 10W-30, API SJ or higher (not Energy/Resource Conserving), JASO T903 MA."
+   },
+   {
+    "name": "Drain bolt O-ring",
+    "purpose": "Always new."
+   },
+   {
+    "name": "Oil filter and cover O-ring",
+    "purpose": "When the filter is changed."
+   }
+  ],
+  "prerequisites": [
+   "Fresh oil of the correct grade on hand.",
+   "New O-ring on hand."
+  ],
+  "critical_stop_conditions": [
+   "Oil filter fitted backwards: severe engine damage. Check the OUT-SIDE mark faces out.",
+   "Milky oil or metal flakes in the oil: stop and find the cause before running the engine.",
+   "Oil level not between the window lines: correct it before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Write down the date and hours. The oil is changed every 4 races (about 15.0 hours of riding) and the filter every 4 races (about 15.0 hours of riding); both are changed after the first break-in ride and the oil is also changed whenever the clutch discs and plates are replaced. Check the level every race (about 3.5 hours of riding).",
+    "depends_on": [],
+    "verification": [
+     "Date, hours and reason written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "warm",
+    "title": "Warm the oil",
+    "instruction": "Start the engine and let it idle for 3 minutes so the oil drains well, then stop it.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine idled and stopped."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "level-ground",
+    "title": "Stand the bike upright",
+    "instruction": "Hold the bike upright on level ground (not leaning on a side stand). Remove the engine guard. Put a drain pan under the engine. The oil and the exhaust are hot: wear gloves.",
+    "depends_on": [
+     "warm"
+    ],
+    "verification": [
+     "Bike upright, pan in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Drain the oil",
+    "instruction": "Remove the oil filler cap, then the oil drain bolt and its O-ring, and let the oil drain completely. Look at the oil as it drains for metal flakes or a milky colour.",
+    "depends_on": [
+     "level-ground"
+    ],
+    "verification": [
+     "Oil drained.",
+     "Oil colour and any debris noted."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "debris",
+      "label": "Metal flakes or milky oil",
+      "next_step": "log",
+      "condition": "Do not just refill and ride: milky oil means coolant is getting in and flakes mean something is wearing. Record what you found and get the engine checked before running it."
+     }
+    ]
+   },
+   {
+    "id": "filter-decide",
+    "title": "Decide on the filter",
+    "instruction": "If the filter is due (or the oil looked dirty or this is the first change after break-in), change it now while the oil is out.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Filter decision made."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "filter-yes",
+      "label": "Change the filter",
+      "next_step": "filter-out",
+      "condition": "Filter due or oil dirty."
+     },
+     {
+      "id": "filter-no",
+      "label": "Oil only",
+      "next_step": "drain-bolt",
+      "condition": "Filter not due and the oil looked normal."
+     }
+    ]
+   },
+   {
+    "id": "filter-out",
+    "title": "Take the old filter out",
+    "instruction": "Remove the oil filter cover bolts, the cover and its O-ring, then pull out the filter and the spring behind it. Let the cavity drain.",
+    "depends_on": [
+     "filter-decide"
+    ],
+    "verification": [
+     "Cover, O-ring, filter and spring out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "filter-in",
+    "title": "Fit the new filter",
+    "instruction": "Put a little grease on the spring where it touches the filter and fit the spring into the new filter. Push the filter in with the \"OUT-SIDE\" mark facing out. A filter fitted backwards starves the engine of oil and will wreck it. Oil a new O-ring, fit it to the cover, and refit the cover and its bolts, tightening them evenly and firmly.",
+    "depends_on": [
+     "filter-out"
+    ],
+    "verification": [
+     "Filter in the right way round, new O-ring, cover bolts tight."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "drain-bolt",
+    "title": "Refit the drain bolt",
+    "instruction": "Oil the threads and seating face of the drain bolt. Fit a new O-ring, oiled, and tighten the bolt to 18 N·m.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Drain bolt torqued with a new O-ring."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "fill",
+    "title": "Fill with fresh oil",
+    "instruction": "Use Pro Honda GN4 4-stroke oil or equivalent motorcycle oil, SAE 10W-30, API SJ or higher (not Energy/Resource Conserving), JASO T903 MA. Pour in 1.00 L (1.06 US qt) if only the oil was changed, or 1.04 L (1.10 US qt) if the filter was changed too. Check the O-ring on the filler cap, replace it if it is cracked or flattened, and refit the cap.",
+    "depends_on": [
+     "drain-bolt"
+    ],
+    "verification": [
+     "Correct oil added, filler cap on."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "level",
+    "title": "Check the level",
+    "instruction": "Start the engine and let it idle for 3 minutes. Stop it, wait 3 minutes, hold the bike upright on level ground and look at the oil inspection window. The level must be between the lower and upper lines; if it is at or near the lower line, add oil up to the upper line and check again.",
+    "depends_on": [
+     "fill"
+    ],
+    "verification": [
+     "Level between the lines in the window."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "leaks",
+    "title": "Check for leaks and close up",
+    "instruction": "Look at the drain bolt and the filter cover for any seep. Refit the engine guard if it was removed.",
+    "depends_on": [
+     "level"
+    ],
+    "verification": [
+     "No leaks, guard back on."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "log",
+    "title": "Record the service",
+    "instruction": "Write down the date, hours, oil used and quantity, and whether the filter was changed. Dispose of the old oil and filter properly.",
+    "depends_on": [
+     "leaks"
+    ],
+    "verification": [
+     "Service logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450rx-oil-and-filter-v1-2027",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2027
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "engine",
+   "clutch",
+   "transmission"
+  ],
+  "entry_state": [
+   "Bike on level ground, engine able to idle."
+  ],
+  "exit_state": [
+   "Fresh oil at the correct level, new filter if due, no leaks, service logged."
+  ],
+  "title": "Change the engine oil and filter",
+  "completeness": "Covers draining the oil, changing the filter, refitting the drain bolt with the correct torque, filling with the correct oil and checking the level through the window. The engine, gearbox and clutch share this oil, so there is no separate gearbox oil to change.",
+  "excluded": [
+   "Oil strainer screen cleaning",
+   "Any engine internal work"
+  ],
+  "required_tools": [
+   {
+    "name": "Drain pan",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Socket for the drain bolt",
+    "size": null
+   },
+   {
+    "name": "Funnel",
+    "size": null
+   },
+   {
+    "name": "Gloves",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Engine oil",
+    "purpose": "Pro Honda GN4 4-stroke oil or equivalent motorcycle oil, SAE 10W-30, API SJ or higher (not Energy/Resource Conserving), JASO T903 MA."
+   },
+   {
+    "name": "Drain bolt sealing washers (two)",
+    "purpose": "Always new."
+   },
+   {
+    "name": "Oil filter and cover O-ring",
+    "purpose": "When the filter is changed."
+   }
+  ],
+  "prerequisites": [
+   "Fresh oil of the correct grade on hand.",
+   "New sealing washers on hand."
+  ],
+  "critical_stop_conditions": [
+   "Oil filter fitted backwards: severe engine damage. Check the OUT-SIDE mark faces out.",
+   "Milky oil or metal flakes in the oil: stop and find the cause before running the engine.",
+   "Oil level not between the window lines: correct it before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Write down the date and hours. The oil is changed every 4 races (about 15.0 hours of riding) and the filter every 4 races (about 15.0 hours of riding); both are changed after the first break-in ride and the oil is also changed whenever the clutch discs and plates are replaced. Check the level every race (about 3.5 hours of riding).",
+    "depends_on": [],
+    "verification": [
+     "Date, hours and reason written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "warm",
+    "title": "Warm the oil",
+    "instruction": "Start the engine and let it idle for 3 minutes so the oil drains well, then stop it.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine idled and stopped."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "level-ground",
+    "title": "Stand the bike upright",
+    "instruction": "Hold the bike upright on level ground (not leaning on a side stand). Remove the engine guard if your bike has one over the drain bolts. Put a drain pan under the engine. The oil and the exhaust are hot: wear gloves.",
+    "depends_on": [
+     "warm"
+    ],
+    "verification": [
+     "Bike upright, pan in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Drain the oil",
+    "instruction": "Remove the oil filler cap, then remove both oil drain bolts with their sealing washers and let the oil drain completely. Look at the oil as it drains for metal flakes or a milky colour.",
+    "depends_on": [
+     "level-ground"
+    ],
+    "verification": [
+     "Oil drained.",
+     "Oil colour and any debris noted."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "debris",
+      "label": "Metal flakes or milky oil",
+      "next_step": "log",
+      "condition": "Do not just refill and ride: milky oil means coolant is getting in and flakes mean something is wearing. Record what you found and get the engine checked before running it."
+     }
+    ]
+   },
+   {
+    "id": "filter-decide",
+    "title": "Decide on the filter",
+    "instruction": "If the filter is due (or the oil looked dirty or this is the first change after break-in), change it now while the oil is out.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Filter decision made."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "filter-yes",
+      "label": "Change the filter",
+      "next_step": "filter-out",
+      "condition": "Filter due or oil dirty."
+     },
+     {
+      "id": "filter-no",
+      "label": "Oil only",
+      "next_step": "drain-bolt",
+      "condition": "Filter not due and the oil looked normal."
+     }
+    ]
+   },
+   {
+    "id": "filter-out",
+    "title": "Take the old filter out",
+    "instruction": "Remove the oil filter cover bolts, the cover and its O-ring, then pull out the filter and the spring behind it. Let the cavity drain.",
+    "depends_on": [
+     "filter-decide"
+    ],
+    "verification": [
+     "Cover, O-ring, filter and spring out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "filter-in",
+    "title": "Fit the new filter",
+    "instruction": "Put a little grease on the spring where it touches the filter and fit the spring into the new filter. Push the filter in with the \"OUT-SIDE\" mark facing out. A filter fitted backwards starves the engine of oil and will wreck it. Oil a new O-ring, fit it to the cover, and refit the cover and its bolts, tightening them evenly and firmly.",
+    "depends_on": [
+     "filter-out"
+    ],
+    "verification": [
+     "Filter in the right way round, new O-ring, cover bolts tight."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "drain-bolt",
+    "title": "Refit the drain bolts",
+    "instruction": "Oil the threads and seating face of the drain bolt on the underside of the engine, fit a new sealing washer and tighten it to 23 N·m. Fit the second drain bolt with a new sealing washer and tighten it firmly.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Drain bolt torqued with a new sealing washer."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "fill",
+    "title": "Fill with fresh oil",
+    "instruction": "Use Pro Honda GN4 4-stroke oil or equivalent motorcycle oil, SAE 10W-30, API SJ or higher (not Energy/Resource Conserving), JASO T903 MA. Pour in 1.07 L (1.13 US qt) if only the oil was changed, or 1.10 L (1.16 US qt) if the filter was changed too. Check the O-ring on the filler cap, replace it if it is cracked or flattened, and refit the cap.",
+    "depends_on": [
+     "drain-bolt"
+    ],
+    "verification": [
+     "Correct oil added, filler cap on."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "level",
+    "title": "Check the level",
+    "instruction": "Start the engine and let it idle for 3 minutes. Stop it, wait 3 minutes, hold the bike upright on level ground and look at the oil inspection window. The level must be between the lower and upper lines; if it is at or near the lower line, add oil up to the upper line and check again.",
+    "depends_on": [
+     "fill"
+    ],
+    "verification": [
+     "Level between the lines in the window."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "leaks",
+    "title": "Check for leaks and close up",
+    "instruction": "Look at the drain bolts and the filter cover for any seep. Refit the engine guard if it was removed.",
+    "depends_on": [
+     "level"
+    ],
+    "verification": [
+     "No leaks, guard back on."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "log",
+    "title": "Record the service",
+    "instruction": "Write down the date, hours, oil used and quantity, and whether the filter was changed. Dispose of the old oil and filter properly.",
+    "depends_on": [
+     "leaks"
+    ],
+    "verification": [
+     "Service logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450r-coolant-v1-2021-2027",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2027
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "cooling",
+   "radiator",
+   "water_pump"
+  ],
+  "entry_state": [
+   "Bike cold, upright on level ground."
+  ],
+  "exit_state": [
+   "Cooling system checked, coolant at the filler neck with the correct mixture, cap secure, no leaks."
+  ],
+  "title": "Check, top up or replace the coolant",
+  "completeness": "Covers the pre-ride cooling system check, the level check, a top-up, a full drain and refill, and bleeding air out. Does not cover replacing the radiator, hoses or the water pump seal.",
+  "excluded": [
+   "Radiator replacement",
+   "Water pump seal replacement",
+   "Hose replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Drain pan",
+    "size": null
+   },
+   {
+    "name": "Thick rag",
+    "size": null
+   },
+   {
+    "name": "Funnel",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Socket for the drain bolt",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Coolant",
+    "purpose": "Pro Honda HP Coolant or an equivalent good quality ethylene glycol antifreeze with corrosion inhibitors, 1:1 mixture with distilled water."
+   },
+   {
+    "name": "Drain bolt sealing washer",
+    "purpose": "Always new when the drain bolt is removed."
+   }
+  ],
+  "prerequisites": [
+   "Engine completely cold."
+  ],
+  "critical_stop_conditions": [
+   "Never open the radiator cap on a hot engine.",
+   "Steady leak from the water pump bleed hole, or oil coming out of it: stop and have the seal replaced.",
+   "Coolant loss bigger than normal between rides: find the leak before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Check the coolant every race (about 2.5 hours of riding) and the whole cooling system every race (about 2.5 hours of riding). Replace the coolant every 2 years, or sooner if it is dirty or was topped up with plain water. Write down the date and why you are doing this.",
+    "depends_on": [],
+    "verification": [
+     "Date and reason written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cold",
+    "title": "Let it cool completely",
+    "instruction": "Only work on a cold engine. Never open the radiator cap on a hot engine: hot coolant can spray out and burn you.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Radiator cold to the touch."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "check-system",
+    "title": "Check the cooling system",
+    "instruction": "Look for coolant leaks at the hoses, the radiators and the water pump. Squeeze each hose: replace any that are cracked, soft or swollen, and tighten or replace loose hose bands. Look at the bleed hole under the water pump while the engine runs: a little weeping is normal, a steady drip of coolant or any oil means a seal needs replacing. Take off the radiator grills and check the fins: straighten bent fins and clear mud with low pressure water or air. If more than 20% of the radiator face is blocked or crushed, replace the radiator. If you loosen a hose band, retighten it so the screw sits within 0–0.5 mm of the band as set from new.",
+    "depends_on": [
+     "cold"
+    ],
+    "verification": [
+     "Hoses, bands, radiators and pump bleed hole checked."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "leak",
+      "label": "Leak or damaged part found",
+      "next_step": "log",
+      "condition": "Fix the leaking hose, band, radiator or seal before changing or topping up the coolant; record what was found."
+     }
+    ]
+   },
+   {
+    "id": "level-check",
+    "title": "Check the level",
+    "instruction": "Hold the bike upright on level ground. Remove the radiator shroud upper bolt so you can reach the cap, lay a thick rag over the cap and remove it slowly. The coolant must be up to the filler neck. A loss of 20–60 cm³ through the overflow hose is normal; if you lose more than that between checks, find the leak.",
+    "depends_on": [
+     "check-system"
+    ],
+    "verification": [
+     "Level seen at the filler neck or the shortfall noted."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "top-up",
+      "label": "Only a top-up needed",
+      "next_step": "top-up",
+      "condition": "Coolant clean and not due for replacement."
+     },
+     {
+      "id": "replace",
+      "label": "Replace the coolant",
+      "next_step": "drain",
+      "condition": "Coolant due (2 years), dirty, or diluted with water."
+     }
+    ]
+   },
+   {
+    "id": "top-up",
+    "title": "Top up",
+    "instruction": "Top up to the filler neck with Pro Honda HP Coolant or an equivalent good quality ethylene glycol antifreeze with corrosion inhibitors, mixed 1:1 mixture with distilled water. At the track you can use clean soft drinking water in an emergency, but replace it with proper coolant as soon as possible.",
+    "depends_on": [
+     "level-check"
+    ],
+    "verification": [
+     "Coolant at the filler neck."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Drain the coolant",
+    "instruction": "Put a pan under the water pump cover. Remove the coolant drain bolt and its sealing washer from the water pump cover, take the radiator cap off and let the coolant run out. Lean the bike well over to the right and then to the left a few times so both radiators empty.",
+    "depends_on": [
+     "level-check"
+    ],
+    "verification": [
+     "Coolant drained from both radiators."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain-bolt",
+    "title": "Refit the drain bolt",
+    "instruction": "Hold the bike upright. Fit the drain bolt with a new sealing washer and tighten it firmly.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Drain bolt in with a new sealing washer."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fill",
+    "title": "Fill",
+    "instruction": "Fill slowly through the filler neck with Pro Honda HP Coolant or an equivalent good quality ethylene glycol antifreeze with corrosion inhibitors, mixed 1:1 mixture with distilled water. A full change takes about 1.08 L (1.14 US qt). Fill right up to the filler neck.",
+    "depends_on": [
+     "drain-bolt"
+    ],
+    "verification": [
+     "System filled to the neck."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "bleed",
+    "title": "Bleed out the air",
+    "instruction": "Rock the bike over to the right and the left several times to push trapped air out. If the level drops, add more and repeat until it stays at the filler neck.",
+    "depends_on": [
+     "fill"
+    ],
+    "verification": [
+     "Level stays at the filler neck after rocking."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cap",
+    "title": "Fit the cap and shroud bolt",
+    "instruction": "Fit the radiator cap securely: a cap that is not fully home loses coolant and the engine overheats. Refit the radiator shroud upper bolt at 5.2 N·m.",
+    "depends_on": [
+     "top-up",
+     "bleed"
+    ],
+    "verification": [
+     "Cap fully home, shroud bolt torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "run-check",
+    "title": "Run and recheck",
+    "instruction": "Start the engine, let it warm up and check for leaks at the drain bolt and hoses. Let it cool completely, then check the level again and top up to the filler neck if needed.",
+    "depends_on": [
+     "cap"
+    ],
+    "verification": [
+     "No leaks, level correct after cooling."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "log",
+    "title": "Record the service",
+    "instruction": "Write down the date, what was done (check, top-up or full change), the coolant used and anything you found. If the bike will stand in freezing weather without enough antifreeze, drain the system first.",
+    "depends_on": [
+     "run-check"
+    ],
+    "verification": [
+     "Service logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450rx-coolant-v1-2021-2027",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2027
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "cooling",
+   "radiator",
+   "water_pump"
+  ],
+  "entry_state": [
+   "Bike cold, upright on level ground."
+  ],
+  "exit_state": [
+   "Cooling system checked, coolant at the filler neck with the correct mixture, cap secure, no leaks."
+  ],
+  "title": "Check, top up or replace the coolant",
+  "completeness": "Covers the pre-ride cooling system check, the level check, a top-up, a full drain and refill, and bleeding air out. Does not cover replacing the radiator, hoses or the water pump seal.",
+  "excluded": [
+   "Radiator replacement",
+   "Water pump seal replacement",
+   "Hose replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Drain pan",
+    "size": null
+   },
+   {
+    "name": "Thick rag",
+    "size": null
+   },
+   {
+    "name": "Funnel",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Socket for the drain bolt",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Coolant",
+    "purpose": "Pro Honda HP Coolant or an equivalent good quality ethylene glycol antifreeze with corrosion inhibitors, 1:1 mixture with distilled water."
+   },
+   {
+    "name": "Drain bolt sealing washer",
+    "purpose": "Always new when the drain bolt is removed."
+   }
+  ],
+  "prerequisites": [
+   "Engine completely cold."
+  ],
+  "critical_stop_conditions": [
+   "Never open the radiator cap on a hot engine.",
+   "Steady leak from the water pump bleed hole, or oil coming out of it: stop and have the seal replaced.",
+   "Coolant loss bigger than normal between rides: find the leak before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Check the coolant every race (about 3.5 hours of riding) and the whole cooling system every race (about 3.5 hours of riding). Replace the coolant every 2 years, or sooner if it is dirty or was topped up with plain water. Write down the date and why you are doing this.",
+    "depends_on": [],
+    "verification": [
+     "Date and reason written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cold",
+    "title": "Let it cool completely",
+    "instruction": "Only work on a cold engine. Never open the radiator cap on a hot engine: hot coolant can spray out and burn you.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Radiator cold to the touch."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "check-system",
+    "title": "Check the cooling system",
+    "instruction": "Look for coolant leaks at the hoses, the radiators and the water pump. Squeeze each hose: replace any that are cracked, soft or swollen, and tighten or replace loose hose bands. Look at the bleed hole under the water pump while the engine runs: a little weeping is normal, a steady drip of coolant or any oil means a seal needs replacing. Take off the radiator grills and check the fins: straighten bent fins and clear mud with low pressure water or air. If more than 20% of the radiator face is blocked or crushed, replace the radiator. If you loosen a hose band, retighten it so the screw sits within 0–0.5 mm of the band as set from new.",
+    "depends_on": [
+     "cold"
+    ],
+    "verification": [
+     "Hoses, bands, radiators and pump bleed hole checked."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "leak",
+      "label": "Leak or damaged part found",
+      "next_step": "log",
+      "condition": "Fix the leaking hose, band, radiator or seal before changing or topping up the coolant; record what was found."
+     }
+    ]
+   },
+   {
+    "id": "level-check",
+    "title": "Check the level",
+    "instruction": "Hold the bike upright on level ground. Remove the radiator shroud upper bolt so you can reach the cap, lay a thick rag over the cap and remove it slowly. The coolant must be up to the filler neck. A loss of 20–60 cm³ through the overflow hose is normal; if you lose more than that between checks, find the leak.",
+    "depends_on": [
+     "check-system"
+    ],
+    "verification": [
+     "Level seen at the filler neck or the shortfall noted."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "top-up",
+      "label": "Only a top-up needed",
+      "next_step": "top-up",
+      "condition": "Coolant clean and not due for replacement."
+     },
+     {
+      "id": "replace",
+      "label": "Replace the coolant",
+      "next_step": "drain",
+      "condition": "Coolant due (2 years), dirty, or diluted with water."
+     }
+    ]
+   },
+   {
+    "id": "top-up",
+    "title": "Top up",
+    "instruction": "Top up to the filler neck with Pro Honda HP Coolant or an equivalent good quality ethylene glycol antifreeze with corrosion inhibitors, mixed 1:1 mixture with distilled water. At the track you can use clean soft drinking water in an emergency, but replace it with proper coolant as soon as possible.",
+    "depends_on": [
+     "level-check"
+    ],
+    "verification": [
+     "Coolant at the filler neck."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Drain the coolant",
+    "instruction": "Put a pan under the water pump cover. Remove the coolant drain bolt and its sealing washer from the water pump cover, take the radiator cap off and let the coolant run out. Lean the bike well over to the right and then to the left a few times so both radiators empty.",
+    "depends_on": [
+     "level-check"
+    ],
+    "verification": [
+     "Coolant drained from both radiators."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain-bolt",
+    "title": "Refit the drain bolt",
+    "instruction": "Hold the bike upright. Fit the drain bolt with a new sealing washer and tighten it firmly.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Drain bolt in with a new sealing washer."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fill",
+    "title": "Fill",
+    "instruction": "Fill slowly through the filler neck with Pro Honda HP Coolant or an equivalent good quality ethylene glycol antifreeze with corrosion inhibitors, mixed 1:1 mixture with distilled water. A full change takes about 1.08 L (1.14 US qt). Fill right up to the filler neck.",
+    "depends_on": [
+     "drain-bolt"
+    ],
+    "verification": [
+     "System filled to the neck."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "bleed",
+    "title": "Bleed out the air",
+    "instruction": "Rock the bike over to the right and the left several times to push trapped air out. If the level drops, add more and repeat until it stays at the filler neck.",
+    "depends_on": [
+     "fill"
+    ],
+    "verification": [
+     "Level stays at the filler neck after rocking."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cap",
+    "title": "Fit the cap and shroud bolt",
+    "instruction": "Fit the radiator cap securely: a cap that is not fully home loses coolant and the engine overheats. Refit the radiator shroud upper bolt at 5.2 N·m.",
+    "depends_on": [
+     "top-up",
+     "bleed"
+    ],
+    "verification": [
+     "Cap fully home, shroud bolt torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "run-check",
+    "title": "Run and recheck",
+    "instruction": "Start the engine, let it warm up and check for leaks at the drain bolt and hoses. Let it cool completely, then check the level again and top up to the filler neck if needed.",
+    "depends_on": [
+     "cap"
+    ],
+    "verification": [
+     "No leaks, level correct after cooling."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "log",
+    "title": "Record the service",
+    "instruction": "Write down the date, what was done (check, top-up or full change), the coolant used and anything you found. If the bike will stand in freezing weather without enough antifreeze, drain the system first.",
+    "depends_on": [
+     "run-check"
+    ],
+    "verification": [
+     "Service logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450r-spark-plug-v1-2021-2022",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2022
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "ignition",
+   "fuel_tank",
+   "bodywork"
+  ],
+  "entry_state": [
+   "Bike cold, on a stand."
+  ],
+  "exit_state": [
+   "Good or new plug fitted at the correct torque, tank, shrouds and seat refitted."
+  ],
+  "title": "Check or replace the spark plug",
+  "completeness": "Covers getting to the plug by hanging the tank, removing, inspecting, gap-checking and fitting the plug. Does not cover ignition coil or wiring faults.",
+  "excluded": [
+   "Ignition coil testing",
+   "Fuel system work"
+  ],
+  "required_tools": [
+   {
+    "name": "Plug wrench",
+    "size": null
+   },
+   {
+    "name": "Wire-type feeler gauge",
+    "size": null
+   },
+   {
+    "name": "Compressed air",
+    "size": null
+   },
+   {
+    "name": "Hose clamp for the tank breather",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Shop towel",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Spark plug",
+    "purpose": "NGK SILMAR10A-9S if the old one is worn."
+   }
+  ],
+  "prerequisites": [
+   "Engine cold."
+  ],
+  "critical_stop_conditions": [
+   "Dirt dropped into the plug hole: get it out before refitting the plug.",
+   "Fuel hose kinked or leaking after the tank goes back: fix before starting.",
+   "Never ride with a tank cushion rubber missing."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Write down the date and hours. Inspect the plug every race (about 2.5 hours of riding).",
+    "depends_on": [],
+    "verification": [
+     "Date and hours noted."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "seat-shrouds-off",
+    "title": "Take off the seat and radiator shrouds",
+    "instruction": "Remove the seat bolts and slide the seat back and off. Remove the shroud bolts on both sides and lift both radiator shrouds away. Keep each bolt with its part; the upper and lower shroud bolts are different.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Seat and both shrouds off, bolts kept by position."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tank-free",
+    "title": "Free the fuel tank",
+    "instruction": "Pinch the tank breather hose closed with a hose clamp and pull it out of the steering stem. Remove the bolt at the back of the tank and the tank rear band, then lift the clutch hose out of the guide on the tank so nothing is strained when the tank moves.",
+    "depends_on": [
+     "seat-shrouds-off"
+    ],
+    "verification": [
+     "Breather hose clamped, rear band off, nothing caught on the tank."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tank-hang",
+    "title": "Hang the tank on the left side",
+    "instruction": "Lay a shop towel over the left frame rail. Lift the tank slowly and hang it to the left side of the frame on its strap. Do not let it hang from the fuel feed hose, and do not kink or twist that hose. The fuel line stays connected.",
+    "depends_on": [
+     "tank-free"
+    ],
+    "verification": [
+     "Tank hanging on its strap, fuel hose not stretched or kinked."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "blow-clean",
+    "title": "Clean around the plug",
+    "instruction": "Blow around the plug cap and the plug hole with compressed air before you pull anything, so no dirt can fall into the cylinder.",
+    "depends_on": [
+     "tank-hang"
+    ],
+    "verification": [
+     "Area around the plug clean."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "plug-out",
+    "title": "Take the plug out",
+    "instruction": "Pull the plug cap straight off and unscrew the plug with a plug wrench.",
+    "depends_on": [
+     "blow-clean"
+    ],
+    "verification": [
+     "Plug out, hole covered with a clean rag."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "inspect",
+    "title": "Inspect the plug",
+    "instruction": "Look at the centre electrode for wear, at both electrodes for carbon or dirt, and at the insulator for cracks. Note the colour. Check the gap with a wire-type feeler gauge only: if a 1.0 mm wire gauge goes into the gap, the plug is worn out. This is an iridium plug: never clean the electrodes and never bend the gap.",
+    "depends_on": [
+     "plug-out"
+    ],
+    "verification": [
+     "Electrodes, insulator and gap checked."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "replace",
+      "label": "Plug worn, fouled or damaged",
+      "next_step": "new-plug",
+      "condition": "Gauge goes in, electrodes worn or dirty, or insulator damaged."
+     },
+     {
+      "id": "reuse",
+      "label": "Plug good",
+      "next_step": "plug-in",
+      "condition": "Gauge does not go in and the plug looks clean and undamaged."
+     }
+    ]
+   },
+   {
+    "id": "new-plug",
+    "title": "Get the correct new plug",
+    "instruction": "Use only the specified plug: NGK SILMAR10A-9S. Do not adjust its gap.",
+    "depends_on": [
+     "inspect"
+    ],
+    "verification": [
+     "Correct new plug ready."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "plug-in",
+    "title": "Fit the plug",
+    "instruction": "Screw the plug in by hand until it seats, then tighten it to 22 N·m with the plug wrench. Push the cap on until it seats.",
+    "depends_on": [
+     "inspect"
+    ],
+    "verification": [
+     "Plug torqued, cap fully on."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "tank-back",
+    "title": "Refit the tank, shrouds and seat",
+    "instruction": "Lift the tank back onto the frame, check the cushion rubbers are in place under it (never ride with one missing: fuel can leak), refit the rear band and bolt, route the hose and cables back into their guides and unclamp the breather hose, then push it back into the steering stem. Refit the shrouds: upper shroud bolts 5.2 N·m, lower shroud bolts 10 N·m. Refit the seat at 10 N·m.",
+    "depends_on": [
+     "plug-in"
+    ],
+    "verification": [
+     "Tank seated on its cushion rubbers, breather unclamped and routed, shrouds and seat torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "log",
+    "title": "Record",
+    "instruction": "Start the engine to check it runs cleanly. Write down the plug condition and whether it was replaced.",
+    "depends_on": [
+     "tank-back"
+    ],
+    "verification": [
+     "Engine runs, result logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450r-spark-plug-v1-2023-2026",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "ignition",
+   "fuel_tank",
+   "bodywork"
+  ],
+  "entry_state": [
+   "Bike cold, on a stand."
+  ],
+  "exit_state": [
+   "Good or new plug fitted at the correct torque, tank, shrouds and seat refitted."
+  ],
+  "title": "Check or replace the spark plug",
+  "completeness": "Covers getting to the plug by hanging the tank, removing, inspecting, gap-checking and fitting the plug. Does not cover ignition coil or wiring faults.",
+  "excluded": [
+   "Ignition coil testing",
+   "Fuel system work"
+  ],
+  "required_tools": [
+   {
+    "name": "Plug wrench",
+    "size": null
+   },
+   {
+    "name": "Wire-type feeler gauge",
+    "size": null
+   },
+   {
+    "name": "Compressed air",
+    "size": null
+   },
+   {
+    "name": "Hose clamp for the tank breather",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Shop towel",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Spark plug",
+    "purpose": "NGK SILMAR9A-9S if the old one is worn."
+   }
+  ],
+  "prerequisites": [
+   "Engine cold."
+  ],
+  "critical_stop_conditions": [
+   "Dirt dropped into the plug hole: get it out before refitting the plug.",
+   "Fuel hose kinked or leaking after the tank goes back: fix before starting.",
+   "Never ride with a tank cushion rubber missing."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Write down the date and hours. Inspect the plug every race (about 2.5 hours of riding).",
+    "depends_on": [],
+    "verification": [
+     "Date and hours noted."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "seat-shrouds-off",
+    "title": "Take off the seat and radiator shrouds",
+    "instruction": "Remove the seat bolts and slide the seat back and off. Remove the shroud bolts on both sides and lift both radiator shrouds away. Keep each bolt with its part; the upper and lower shroud bolts are different.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Seat and both shrouds off, bolts kept by position."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tank-free",
+    "title": "Free the fuel tank",
+    "instruction": "Pinch the tank breather hose closed with a hose clamp and pull it out of the steering stem. Remove the bolt at the back of the tank and the tank rear band, then lift the clutch hose out of the guide on the tank so nothing is strained when the tank moves.",
+    "depends_on": [
+     "seat-shrouds-off"
+    ],
+    "verification": [
+     "Breather hose clamped, rear band off, nothing caught on the tank."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tank-hang",
+    "title": "Hang the tank on the left side",
+    "instruction": "Lay a shop towel over the left frame rail. Lift the tank slowly and hang it to the left side of the frame on its strap. Do not let it hang from the fuel feed hose, and do not kink or twist that hose. The fuel line stays connected.",
+    "depends_on": [
+     "tank-free"
+    ],
+    "verification": [
+     "Tank hanging on its strap, fuel hose not stretched or kinked."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "blow-clean",
+    "title": "Clean around the plug",
+    "instruction": "Blow around the plug cap and the plug hole with compressed air before you pull anything, so no dirt can fall into the cylinder.",
+    "depends_on": [
+     "tank-hang"
+    ],
+    "verification": [
+     "Area around the plug clean."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "plug-out",
+    "title": "Take the plug out",
+    "instruction": "Pull the plug cap straight off and unscrew the plug with a plug wrench.",
+    "depends_on": [
+     "blow-clean"
+    ],
+    "verification": [
+     "Plug out, hole covered with a clean rag."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "inspect",
+    "title": "Inspect the plug",
+    "instruction": "Look at the centre electrode for wear, at both electrodes for carbon or dirt, and at the insulator for cracks. Note the colour. Check the gap with a wire-type feeler gauge only: if a 1.0 mm wire gauge goes into the gap, the plug is worn out. This is an iridium plug: never clean the electrodes and never bend the gap.",
+    "depends_on": [
+     "plug-out"
+    ],
+    "verification": [
+     "Electrodes, insulator and gap checked."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "replace",
+      "label": "Plug worn, fouled or damaged",
+      "next_step": "new-plug",
+      "condition": "Gauge goes in, electrodes worn or dirty, or insulator damaged."
+     },
+     {
+      "id": "reuse",
+      "label": "Plug good",
+      "next_step": "plug-in",
+      "condition": "Gauge does not go in and the plug looks clean and undamaged."
+     }
+    ]
+   },
+   {
+    "id": "new-plug",
+    "title": "Get the correct new plug",
+    "instruction": "Use only the specified plug: NGK SILMAR9A-9S. Do not adjust its gap.",
+    "depends_on": [
+     "inspect"
+    ],
+    "verification": [
+     "Correct new plug ready."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "plug-in",
+    "title": "Fit the plug",
+    "instruction": "Screw the plug in by hand until it seats, then tighten it to 22 N·m with the plug wrench. Push the cap on until it seats.",
+    "depends_on": [
+     "inspect"
+    ],
+    "verification": [
+     "Plug torqued, cap fully on."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "tank-back",
+    "title": "Refit the tank, shrouds and seat",
+    "instruction": "Lift the tank back onto the frame, check the cushion rubbers are in place under it (never ride with one missing: fuel can leak), refit the rear band and bolt, route the hose and cables back into their guides and unclamp the breather hose, then push it back into the steering stem. Refit the shrouds: upper shroud bolts 5.2 N·m, lower shroud bolts 10 N·m. Refit the seat at 10 N·m.",
+    "depends_on": [
+     "plug-in"
+    ],
+    "verification": [
+     "Tank seated on its cushion rubbers, breather unclamped and routed, shrouds and seat torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "log",
+    "title": "Record",
+    "instruction": "Start the engine to check it runs cleanly. Write down the plug condition and whether it was replaced.",
+    "depends_on": [
+     "tank-back"
+    ],
+    "verification": [
+     "Engine runs, result logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450r-valve-clearance-v1-2021-2026",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "engine",
+   "cylinder_head",
+   "camshaft",
+   "fuel_tank",
+   "bodywork"
+  ],
+  "entry_state": [
+   "Engine cold, bike on a stand, tank, seat and shrouds on."
+  ],
+  "exit_state": [
+   "All valve clearances in spec, head cover and caps sealed and torqued, tank and bodywork refitted, readings logged."
+  ],
+  "title": "Check and adjust the valve clearances",
+  "completeness": "Covers getting to the head, setting top dead centre, measuring every clearance, changing shims through camshaft removal, the decompressor check, and closing up with every torque. Does not cover valve, seat or cam chain replacement.",
+  "excluded": [
+   "Valve or valve seat work",
+   "Cam chain or tensioner replacement",
+   "Decompressor strip-down"
+  ],
+  "required_tools": [
+   {
+    "name": "Feeler gauges",
+    "size": null
+   },
+   {
+    "name": "Micrometer",
+    "size": null
+   },
+   {
+    "name": "Tensioner stopper or holder tool for the cam chain tensioner lifter",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Socket to turn the crankshaft",
+    "size": null
+   },
+   {
+    "name": "Tweezers or magnet",
+    "size": null
+   },
+   {
+    "name": "Compressed air",
+    "size": null
+   },
+   {
+    "name": "Hose clamp for the tank breather",
+    "size": null
+   },
+   {
+    "name": "Molybdenum oil solution",
+    "size": null
+   },
+   {
+    "name": "Liquid gasket sealant",
+    "size": null
+   },
+   {
+    "name": "Grease",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Valve shims",
+    "purpose": "Only the sizes you calculate."
+   },
+   {
+    "name": "O-rings for the inspection caps",
+    "purpose": "Always new."
+   },
+   {
+    "name": "Tensioner lifter sealing washer",
+    "purpose": "Always new when removed."
+   }
+  ],
+  "prerequisites": [
+   "Engine cold (below 35°C (95°F)).",
+   "Shim sizes on hand or available."
+  ],
+  "critical_stop_conditions": [
+   "Anything dropped into the cam chain tunnel: get it out before turning the engine.",
+   "Calculated shim thicker than 3.000 mm: stop, the valve or seat needs work.",
+   "Decompressor weight not returning by itself: stop and have it checked.",
+   "Marks not lining up after reassembly: do not start the engine."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Check the valve clearances every 6 races (about 15.0 hours of riding) and after the first break-in ride. Write down the date, hours and any symptom (hard starting, popping, loss of power). The engine must be cold: below 35°C (95°F).",
+    "depends_on": [],
+    "verification": [
+     "Date, hours, symptoms written down; engine cold."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "seat-shrouds-off",
+    "title": "Take off the seat and radiator shrouds",
+    "instruction": "Remove the seat bolts and slide the seat back and off. Remove the shroud bolts on both sides and lift both radiator shrouds away. Keep each bolt with its part; the upper and lower shroud bolts are different.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Seat and both shrouds off, bolts kept by position."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tank-free",
+    "title": "Free the fuel tank",
+    "instruction": "Pinch the tank breather hose closed with a hose clamp and pull it out of the steering stem. Remove the bolt at the back of the tank and the tank rear band, then lift the clutch hose out of the guide on the tank so nothing is strained when the tank moves.",
+    "depends_on": [
+     "seat-shrouds-off"
+    ],
+    "verification": [
+     "Breather hose clamped, rear band off, nothing caught on the tank."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tank-hang",
+    "title": "Hang the tank on the left side",
+    "instruction": "Lay a shop towel over the left frame rail. Lift the tank slowly and hang it to the left side of the frame on its strap. Do not let it hang from the fuel feed hose, and do not kink or twist that hose. The fuel line stays connected.",
+    "depends_on": [
+     "tank-free"
+    ],
+    "verification": [
+     "Tank hanging on its strap, fuel hose not stretched or kinked."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "blow-clean",
+    "title": "Clean the top of the engine",
+    "instruction": "Blow the cylinder head area clean with compressed air so no dirt can get into the plug hole or under the head cover.",
+    "depends_on": [
+     "tank-hang"
+    ],
+    "verification": [
+     "Head area clean."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "open",
+    "title": "Open the head",
+    "instruction": "Pull off the plug cap and remove the spark plug. Disconnect the crankcase breather hose from the head cover. Remove the head cover bolts with their mounting rubbers and lift the head cover off. Take the head cover gasket out of the cover.",
+    "depends_on": [
+     "blow-clean"
+    ],
+    "verification": [
+     "Plug out, head cover off, gasket kept clean."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "caps",
+    "title": "Open the inspection caps",
+    "instruction": "Remove the crankshaft hole cap on the right crankcase cover and its O-ring.",
+    "depends_on": [
+     "open"
+    ],
+    "verification": [
+     "Caps out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tdc",
+    "title": "Set top dead centre on compression",
+    "instruction": "Turn the crankshaft clockwise with a socket on the crankshaft until the \"T\" mark on the primary drive gear lines up with the index mark on the right crankcase cover. The index lines on the cam sprocket must line up with the mating faces of the camshaft holder. Look at the decompressor weight: if it is on the wrong side the piston is at the top of the exhaust stroke, so turn the crankshaft one more full turn clockwise and line up the \"T\" mark again.",
+    "depends_on": [
+     "caps"
+    ],
+    "verification": [
+     "Marks aligned, decompressor weight shows the compression stroke."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "measure",
+    "title": "Measure the clearances",
+    "instruction": "Slide feeler gauges between each intake rocker arm and its cam lobe and between each exhaust rocker arm and its shim. Intake: 0.13 ± 0.03 mm. Exhaust: 0.28 ± 0.03 mm. Write down every reading, valve by valve. Do not dig the gauge into the rocker arms.",
+    "depends_on": [
+     "tdc"
+    ],
+    "verification": [
+     "Every valve measured and written down."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "in-spec",
+      "label": "All valves in spec",
+      "next_step": "close-caps",
+      "condition": "Every intake reading within 0.13 ± 0.03 mm and every exhaust reading within 0.28 ± 0.03 mm."
+     },
+     {
+      "id": "out-spec",
+      "label": "One or more out of spec",
+      "next_step": "adj-open",
+      "condition": "Any reading outside its range: change the shims for those valves."
+     }
+    ]
+   },
+   {
+    "id": "adj-open",
+    "title": "Take the camshaft out",
+    "instruction": "Check again that the \"T\" mark, the cam sprocket index lines and the decompressor weight are on the compression stroke. Remove the cam chain tensioner lifter bolt and sealing washer, turn the lifter shaft fully clockwise and hold it there with a tensioner stopper tool. Remove the camshaft holder bolts and lift the camshaft holder off, without dropping the set rings into the engine. Take the set rings out, slide the left camshaft bearing up to the sprocket, take the right bearing off, slip the cam chain off the sprocket and lift the camshaft out. Hang the cam chain on a piece of wire so it cannot fall into the crankcase.",
+    "depends_on": [
+     "measure"
+    ],
+    "verification": [
+     "Camshaft out, cam chain tied up, nothing dropped into the engine."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "shims-out",
+    "title": "Take out the shims of the tight or loose valves",
+    "instruction": "Lift out the shims of the valves you are adjusting with tweezers or a magnet. Mark each shim so it goes back to its own valve. Wipe the oil off each shim and measure its thickness with a micrometer.",
+    "depends_on": [
+     "adj-open"
+    ],
+    "verification": [
+     "Shims out, marked and measured."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "shims-calc",
+    "title": "Work out the new shim sizes",
+    "instruction": "For each valve: new shim = (measured clearance − specified clearance) + old shim thickness. Shims come from 1.200 mm to 3.000 mm in 0.025 mm steps; pick the nearest size and measure the new shim with the micrometer before fitting it. If the sum comes out thicker than 3.000 mm, carbon on the valve seat is the likely cause and the head needs proper valve work instead.",
+    "depends_on": [
+     "shims-out"
+    ],
+    "verification": [
+     "New shim size worked out and measured for each valve."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "too-thick",
+      "label": "Calculated shim over 3.000 mm",
+      "next_step": "log",
+      "condition": "Stop: the valve seat or valve needs attention; do not run the engine."
+     }
+    ]
+   },
+   {
+    "id": "shims-in",
+    "title": "Fit the new shims",
+    "instruction": "Fit each new shim on its own valve.",
+    "depends_on": [
+     "shims-calc"
+    ],
+    "verification": [
+     "Each shim on its correct valve."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "decomp",
+    "title": "Check the decompressor",
+    "instruction": "Move the decompressor weight with your finger and let it go: it must spring back to its rest position by itself. If it sticks or the spring feels weak, the decompressor needs to be stripped and checked before the engine is run.",
+    "depends_on": [
+     "shims-in"
+    ],
+    "verification": [
+     "Decompressor weight returns on its own."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "reassemble",
+    "title": "Refit the camshaft",
+    "instruction": "Oil the cam lobes with molybdenum oil solution. Fit the camshaft with the intake lobes facing up and the decompressor weight positioned for the compression stroke, line up the cam sprocket index lines with the holder mating surface and fit the cam chain on the sprocket. Slide the left bearing home on the camshaft rib, fit the right bearing and the set rings in the bearing grooves. Fit the camshaft holder with its grooves on the set rings and its dowels in the head. Line up the rocker shaft cut-outs with the holder bolt holes, oil the bolt threads and seats, fit the bolts (the exhaust-side bolts are the longer ones) and tighten them to 15 N·m. Remove the tensioner stopper and refit the tensioner lifter bolt with a new sealing washer, tightened firmly.",
+    "depends_on": [
+     "decomp"
+    ],
+    "verification": [
+     "Camshaft holder torqued, tensioner released."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "recheck",
+    "title": "Recheck the clearances",
+    "instruction": "Turn the crankshaft clockwise several full turns to seat the shims, set top dead centre on compression again and measure every clearance again.",
+    "depends_on": [
+     "reassemble"
+    ],
+    "verification": [
+     "All clearances now in spec."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "still-out",
+      "label": "Still out of spec",
+      "next_step": "adj-open",
+      "condition": "Repeat the shim change for the valves still out."
+     }
+    ]
+   },
+   {
+    "id": "close-caps",
+    "title": "Refit the inspection caps",
+    "instruction": "Fit a new oiled O-ring to the crankshaft hole cap, grease its threads and tighten it to 15 N·m.",
+    "depends_on": [
+     "measure",
+     "recheck"
+    ],
+    "verification": [
+     "Caps torqued with new O-rings."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cover",
+    "title": "Refit the head cover",
+    "instruction": "Check the plug hole seal ring and the head cover gasket; replace them if they are damaged or hard. Oil the seal ring. Put a thin bead of liquid gasket sealant in the gasket groove of the head cover and fit the gasket. Refit the cover, checking the plug hole seal ring sits properly, fit the mounting rubbers with their \"UP\" marks up and tighten the head cover bolts to 10 N·m. Reconnect the breather hose.",
+    "depends_on": [
+     "close-caps"
+    ],
+    "verification": [
+     "Head cover torqued, gasket seated, breather reconnected."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "plug",
+    "title": "Refit the plug",
+    "instruction": "Screw the spark plug in by hand, then tighten it to 22 N·m. Push the plug cap on.",
+    "depends_on": [
+     "cover"
+    ],
+    "verification": [
+     "Plug torqued, cap on."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tank-back",
+    "title": "Refit the tank, shrouds and seat",
+    "instruction": "Lift the tank back onto the frame, check the cushion rubbers are in place under it (never ride with one missing: fuel can leak), refit the rear band and bolt, route the hose and cables back into their guides and unclamp the breather hose, then push it back into the steering stem. Refit the shrouds: upper shroud bolts 5.2 N·m, lower shroud bolts 10 N·m. Refit the seat at 10 N·m.",
+    "depends_on": [
+     "plug"
+    ],
+    "verification": [
+     "Tank seated on its cushion rubbers, breather unclamped and routed, shrouds and seat torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "start",
+    "title": "Start and check",
+    "instruction": "Start the engine and check it idles evenly with no oil leaks at the head cover or caps.",
+    "depends_on": [
+     "tank-back"
+    ],
+    "verification": [
+     "Engine idles, no leaks."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "log",
+    "title": "Record the readings",
+    "instruction": "Write down every clearance as found, every shim change (old and new thickness) and the final clearances. A valve that keeps closing up between checks is wearing and needs attention.",
+    "depends_on": [
+     "start"
+    ],
+    "verification": [
+     "Readings and shim changes logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450r-clutch-v1-2021-2024",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2024
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "clutch",
+   "engine"
+  ],
+  "entry_state": [
+   "Bike on a stand, engine cold for any pack work."
+  ],
+  "exit_state": [
+   "Clutch adjusted and fluid at the line; pack measured and rebuilt if it was opened; oil refilled; no slip or drag."
+  ],
+  "title": "Check and adjust the clutch, inspect the clutch pack",
+  "completeness": "Covers the hydraulic clutch lever and hose check, the fluid level and top-up, lever position, and opening the clutch to measure discs, plates and springs and rebuild the pack with the spring bolt torque. Does not cover clutch basket or hub work, or bleeding the hydraulic system.",
+  "excluded": [
+   "Clutch basket, hub or primary gear work",
+   "Bleeding or fluid replacement of the hydraulic clutch"
+  ],
+  "required_tools": [
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Vernier caliper",
+    "size": null
+   },
+   {
+    "name": "Surface plate and feeler gauges",
+    "size": null
+   },
+   {
+    "name": "Drain pan",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Clutch cover O-ring",
+    "purpose": "Always new when the cover is removed."
+   },
+   {
+    "name": "Engine oil",
+    "purpose": "Refill after opening the clutch."
+   },
+   {
+    "name": "Clutch fluid",
+    "purpose": "Honda DOT 4 brake fluid from a sealed container."
+   }
+  ],
+  "prerequisites": [
+   "Oil change parts on hand if the pack is opened."
+  ],
+  "critical_stop_conditions": [
+   "Clutch lever soft or fluid leaking: do not ride until repaired.",
+   "Any part past its service limit: replace it (springs as a set, discs and plates as a set).",
+   "Oil leak at the clutch cover after the run: fix before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Check the clutch system every race (about 2.5 hours of riding). The clutch fluid is replaced every 2 years. Write down any symptom: slipping, dragging, a soft lever or a lever that has moved.",
+    "depends_on": [],
+    "verification": [
+     "Symptoms written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "lever-feel",
+    "title": "Check the lever and hose",
+    "instruction": "Pull the clutch lever firmly several times: it must feel firm. A soft or spongy lever means air in the system, which has to be bled out. Check the hose and its fittings for cracks, swelling or weeping; a loose hose oil bolt is tightened to 34 N·m, but a damaged hose or fitting must be replaced.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Lever firm, hose and fittings dry and undamaged."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "spongy",
+      "label": "Lever soft or leaking",
+      "next_step": "log",
+      "condition": "Air or a leak in the hydraulic clutch: have the system repaired and bled before riding."
+     }
+    ]
+   },
+   {
+    "id": "fluid",
+    "title": "Check the fluid level",
+    "instruction": "Turn the handlebar until the clutch master cylinder reservoir is level. Lay a rag around it (the fluid damages paint and plastic), remove the cap screws, the cover and the diaphragm and look at the level. Fluid above the level line usually means the friction discs are worn; fluid below it means a leak. Top up to the level line only with Honda DOT 4 brake fluid, from a sealed container, without letting dirt in. If the fluid is dark or dirty it needs replacing and bleeding. Refit the diaphragm and cover and tighten the screws to 1 N·m.",
+    "depends_on": [
+     "lever-feel"
+    ],
+    "verification": [
+     "Fluid at the line, cover screws torqued."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "high",
+      "label": "Level above the line",
+      "next_step": "pack-drain",
+      "condition": "Likely worn friction discs: inspect the clutch pack."
+     }
+    ]
+   },
+   {
+    "id": "lever-pos",
+    "title": "Set the lever position",
+    "instruction": "Loosen the lever adjuster lock nut and turn the adjuster: clockwise moves the lever away from the grip, counterclockwise brings it closer. Hold the adjuster and tighten the lock nut to 5.9 N·m.",
+    "depends_on": [
+     "fluid"
+    ],
+    "verification": [
+     "Lever where the rider wants it, lock nut torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "slip-test",
+    "title": "Decide whether to open the clutch",
+    "instruction": "Ride or run the bike: if the clutch slips under load or drags with the lever pulled, or the fluid level was above the line, inspect the clutch pack.",
+    "depends_on": [
+     "lever-pos"
+    ],
+    "verification": [
+     "Decision made."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "open",
+      "label": "Inspect the clutch pack",
+      "next_step": "pack-drain",
+      "condition": "Slipping, dragging, high fluid level, or the pack is due for a look."
+     },
+     {
+      "id": "done",
+      "label": "Clutch fine",
+      "next_step": "log",
+      "condition": "No slip, no drag, fluid at the line."
+     }
+    ]
+   },
+   {
+    "id": "pack-drain",
+    "title": "Drain the oil and open the clutch cover",
+    "instruction": "Drain the engine oil (see the oil change guide). Loosen the clutch cover bolts evenly in a crisscross pattern in two or three steps, mark where each bolt came from (they are different lengths), and take off the cover and its O-ring.",
+    "depends_on": [
+     "slip-test"
+    ],
+    "verification": [
+     "Oil drained, cover off, bolt positions marked."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "pack-out",
+    "title": "Take out the clutch pack",
+    "instruction": "Loosen the clutch spring bolts evenly in a crisscross pattern in two or three steps and remove them with their washers, the springs and the pressure plate. Take out the lifter piece. Lift out the friction discs and plates one at a time and lay them out in the order they came out, followed by the judder spring and its seat.",
+    "depends_on": [
+     "pack-drain"
+    ],
+    "verification": [
+     "Pack out and laid out in order."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "measure",
+    "title": "Measure the parts",
+    "instruction": "Measure each friction disc thickness: standard 2.92–3.08 mm (0.115 - 0.121 in), replace at 2.85 mm (0.112 in). Check each steel plate on a surface plate with a feeler gauge: replace at 0.15 mm (0.006 in) warp. Measure each spring free length: standard 56.2 mm (2.21 in), replace at 55.2 mm (2.17 in). Look at the pressure plate, lifter piece, judder spring and seat for scoring, wear or damage. Springs are replaced as a set, and discs and plates are replaced as a set.",
+    "depends_on": [
+     "pack-out"
+    ],
+    "verification": [
+     "Every disc, plate and spring measured and written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "pack-in",
+    "title": "Rebuild the pack",
+    "instruction": "Fit the spring seat and the judder spring the right way round (as they came out). Coat the friction disc linings with engine oil. Refit the discs and plates in the same order and direction they came out, starting with the first friction disc and then alternating plate and disc. Oil the bearing face of the lifter piece and fit it. Fit the pressure plate, the springs and the spring bolts with their washers, and tighten the bolts in a crisscross pattern in two or three steps to 12 N·m.",
+    "depends_on": [
+     "measure"
+    ],
+    "verification": [
+     "Pack rebuilt in order, spring bolts torqued."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cover-on",
+    "title": "Refit the cover and refill",
+    "instruction": "Fit a new oiled O-ring to the clutch cover, refit the cover and its bolts in their marked places and tighten them evenly in a crisscross pattern in two or three steps. Refill the engine with fresh oil and check the level (see the oil change guide). If the discs and plates were replaced, the oil must be new.",
+    "depends_on": [
+     "pack-in"
+    ],
+    "verification": [
+     "Cover on, oil at the correct level."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "test",
+    "title": "Run and test",
+    "instruction": "Start the engine and check for oil leaks at the clutch cover. Test ride: no slip, no drag.",
+    "depends_on": [
+     "cover-on"
+    ],
+    "verification": [
+     "No leaks, clutch works."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "log",
+    "title": "Record",
+    "instruction": "Write down the measurements, what was replaced, and the fluid or free play setting.",
+    "depends_on": [
+     "test"
+    ],
+    "verification": [
+     "Logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450r-clutch-v1-2025-2026",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "clutch",
+   "engine"
+  ],
+  "entry_state": [
+   "Bike on a stand, engine cold for any pack work."
+  ],
+  "exit_state": [
+   "Clutch adjusted and fluid at the line; pack measured and rebuilt if it was opened; oil refilled; no slip or drag."
+  ],
+  "title": "Check and adjust the clutch, inspect the clutch pack",
+  "completeness": "Covers the hydraulic clutch lever and hose check, the fluid level and top-up, lever position, and opening the clutch to measure discs, plates and springs and rebuild the pack with the spring bolt torque. Does not cover clutch basket or hub work, or bleeding the hydraulic system.",
+  "excluded": [
+   "Clutch basket, hub or primary gear work",
+   "Bleeding or fluid replacement of the hydraulic clutch"
+  ],
+  "required_tools": [
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Vernier caliper",
+    "size": null
+   },
+   {
+    "name": "Surface plate and feeler gauges",
+    "size": null
+   },
+   {
+    "name": "Drain pan",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Clutch cover O-ring",
+    "purpose": "Always new when the cover is removed."
+   },
+   {
+    "name": "Engine oil",
+    "purpose": "Refill after opening the clutch."
+   },
+   {
+    "name": "Clutch fluid",
+    "purpose": "Honda DOT 4 brake fluid from a sealed container."
+   }
+  ],
+  "prerequisites": [
+   "Oil change parts on hand if the pack is opened."
+  ],
+  "critical_stop_conditions": [
+   "Clutch lever soft or fluid leaking: do not ride until repaired.",
+   "Any part past its service limit: replace it (springs as a set, discs and plates as a set).",
+   "Oil leak at the clutch cover after the run: fix before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Check the clutch system every race (about 2.5 hours of riding). The clutch fluid is replaced every 2 years. Write down any symptom: slipping, dragging, a soft lever or a lever that has moved.",
+    "depends_on": [],
+    "verification": [
+     "Symptoms written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "lever-feel",
+    "title": "Check the lever and hose",
+    "instruction": "Pull the clutch lever firmly several times: it must feel firm. A soft or spongy lever means air in the system, which has to be bled out. Check the hose and its fittings for cracks, swelling or weeping; a loose hose oil bolt is tightened to 34 N·m, but a damaged hose or fitting must be replaced.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Lever firm, hose and fittings dry and undamaged."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "spongy",
+      "label": "Lever soft or leaking",
+      "next_step": "log",
+      "condition": "Air or a leak in the hydraulic clutch: have the system repaired and bled before riding."
+     }
+    ]
+   },
+   {
+    "id": "fluid",
+    "title": "Check the fluid level",
+    "instruction": "Turn the handlebar until the clutch master cylinder reservoir is level. Lay a rag around it (the fluid damages paint and plastic), remove the cap screws, the cover and the diaphragm and look at the level. Fluid above the level line usually means the friction discs are worn; fluid below it means a leak. Top up to the level line only with Honda DOT 4 brake fluid, from a sealed container, without letting dirt in. If the fluid is dark or dirty it needs replacing and bleeding. Refit the diaphragm and cover and tighten the screws to 1 N·m.",
+    "depends_on": [
+     "lever-feel"
+    ],
+    "verification": [
+     "Fluid at the line, cover screws torqued."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "high",
+      "label": "Level above the line",
+      "next_step": "pack-drain",
+      "condition": "Likely worn friction discs: inspect the clutch pack."
+     }
+    ]
+   },
+   {
+    "id": "lever-pos",
+    "title": "Set the lever position",
+    "instruction": "Loosen the lever adjuster lock nut and turn the adjuster: clockwise moves the lever away from the grip, counterclockwise brings it closer. Hold the adjuster and tighten the lock nut to 5.9 N·m.",
+    "depends_on": [
+     "fluid"
+    ],
+    "verification": [
+     "Lever where the rider wants it, lock nut torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "slip-test",
+    "title": "Decide whether to open the clutch",
+    "instruction": "Ride or run the bike: if the clutch slips under load or drags with the lever pulled, or the fluid level was above the line, inspect the clutch pack.",
+    "depends_on": [
+     "lever-pos"
+    ],
+    "verification": [
+     "Decision made."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "open",
+      "label": "Inspect the clutch pack",
+      "next_step": "pack-drain",
+      "condition": "Slipping, dragging, high fluid level, or the pack is due for a look."
+     },
+     {
+      "id": "done",
+      "label": "Clutch fine",
+      "next_step": "log",
+      "condition": "No slip, no drag, fluid at the line."
+     }
+    ]
+   },
+   {
+    "id": "pack-drain",
+    "title": "Drain the oil and open the clutch cover",
+    "instruction": "Drain the engine oil (see the oil change guide). Loosen the clutch cover bolts evenly in a crisscross pattern in two or three steps, mark where each bolt came from (they are different lengths), and take off the cover and its O-ring.",
+    "depends_on": [
+     "slip-test"
+    ],
+    "verification": [
+     "Oil drained, cover off, bolt positions marked."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "pack-out",
+    "title": "Take out the clutch pack",
+    "instruction": "Loosen the clutch spring bolts evenly in a crisscross pattern in two or three steps and remove them with their washers, the springs and the pressure plate. Take out the lifter piece. Lift out the friction discs and plates one at a time and lay them out in the order they came out, followed by the judder spring and its seat.",
+    "depends_on": [
+     "pack-drain"
+    ],
+    "verification": [
+     "Pack out and laid out in order."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "measure",
+    "title": "Measure the parts",
+    "instruction": "Measure each friction disc thickness: standard 2.92–3.08 mm (0.115 - 0.121 in), replace at 2.70 mm (0.106 in). Check each steel plate on a surface plate with a feeler gauge: replace at 0.15 mm (0.006 in) warp. Measure each spring free length: standard 56.2 mm (2.21 in), replace at 55.2 mm (2.17 in). Look at the pressure plate, lifter piece, judder spring and seat for scoring, wear or damage. Springs are replaced as a set, and discs and plates are replaced as a set.",
+    "depends_on": [
+     "pack-out"
+    ],
+    "verification": [
+     "Every disc, plate and spring measured and written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "pack-in",
+    "title": "Rebuild the pack",
+    "instruction": "Fit the spring seat and the judder spring the right way round (as they came out). Coat the friction disc linings with engine oil. Refit the discs and plates in the same order and direction they came out, starting with the first friction disc and then alternating plate and disc. Oil the bearing face of the lifter piece and fit it. Fit the pressure plate, the springs and the spring bolts with their washers, and tighten the bolts in a crisscross pattern in two or three steps to 12 N·m.",
+    "depends_on": [
+     "measure"
+    ],
+    "verification": [
+     "Pack rebuilt in order, spring bolts torqued."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cover-on",
+    "title": "Refit the cover and refill",
+    "instruction": "Fit a new oiled O-ring to the clutch cover, refit the cover and its bolts in their marked places and tighten them evenly in a crisscross pattern in two or three steps. Refill the engine with fresh oil and check the level (see the oil change guide). If the discs and plates were replaced, the oil must be new.",
+    "depends_on": [
+     "pack-in"
+    ],
+    "verification": [
+     "Cover on, oil at the correct level."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "test",
+    "title": "Run and test",
+    "instruction": "Start the engine and check for oil leaks at the clutch cover. Test ride: no slip, no drag.",
+    "depends_on": [
+     "cover-on"
+    ],
+    "verification": [
+     "No leaks, clutch works."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "log",
+    "title": "Record",
+    "instruction": "Write down the measurements, what was replaced, and the fluid or free play setting.",
+    "depends_on": [
+     "test"
+    ],
+    "verification": [
+     "Logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450rx-clutch-v1-2021-2024",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2024
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "clutch",
+   "engine"
+  ],
+  "entry_state": [
+   "Bike on a stand, engine cold for any pack work."
+  ],
+  "exit_state": [
+   "Clutch adjusted and fluid at the line; pack measured and rebuilt if it was opened; oil refilled; no slip or drag."
+  ],
+  "title": "Check and adjust the clutch, inspect the clutch pack",
+  "completeness": "Covers the hydraulic clutch lever and hose check, the fluid level and top-up, lever position, and opening the clutch to measure discs, plates and springs and rebuild the pack with the spring bolt torque. Does not cover clutch basket or hub work, or bleeding the hydraulic system.",
+  "excluded": [
+   "Clutch basket, hub or primary gear work",
+   "Bleeding or fluid replacement of the hydraulic clutch"
+  ],
+  "required_tools": [
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Vernier caliper",
+    "size": null
+   },
+   {
+    "name": "Surface plate and feeler gauges",
+    "size": null
+   },
+   {
+    "name": "Drain pan",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Clutch cover O-ring",
+    "purpose": "Always new when the cover is removed."
+   },
+   {
+    "name": "Engine oil",
+    "purpose": "Refill after opening the clutch."
+   },
+   {
+    "name": "Clutch fluid",
+    "purpose": "Honda DOT 4 brake fluid from a sealed container."
+   }
+  ],
+  "prerequisites": [
+   "Oil change parts on hand if the pack is opened."
+  ],
+  "critical_stop_conditions": [
+   "Clutch lever soft or fluid leaking: do not ride until repaired.",
+   "Any part past its service limit: replace it (springs as a set, discs and plates as a set).",
+   "Oil leak at the clutch cover after the run: fix before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Check the clutch system every race (about 3.5 hours of riding). The clutch fluid is replaced every 2 years. Write down any symptom: slipping, dragging, a soft lever or a lever that has moved.",
+    "depends_on": [],
+    "verification": [
+     "Symptoms written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "lever-feel",
+    "title": "Check the lever and hose",
+    "instruction": "Pull the clutch lever firmly several times: it must feel firm. A soft or spongy lever means air in the system, which has to be bled out. Check the hose and its fittings for cracks, swelling or weeping; a loose hose oil bolt is tightened to 34 N·m, but a damaged hose or fitting must be replaced.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Lever firm, hose and fittings dry and undamaged."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "spongy",
+      "label": "Lever soft or leaking",
+      "next_step": "log",
+      "condition": "Air or a leak in the hydraulic clutch: have the system repaired and bled before riding."
+     }
+    ]
+   },
+   {
+    "id": "fluid",
+    "title": "Check the fluid level",
+    "instruction": "Turn the handlebar until the clutch master cylinder reservoir is level. Lay a rag around it (the fluid damages paint and plastic), remove the cap screws, the cover and the diaphragm and look at the level. Fluid above the level line usually means the friction discs are worn; fluid below it means a leak. Top up to the level line only with Honda DOT 4 brake fluid, from a sealed container, without letting dirt in. If the fluid is dark or dirty it needs replacing and bleeding. Refit the diaphragm and cover and tighten the screws to 1 N·m.",
+    "depends_on": [
+     "lever-feel"
+    ],
+    "verification": [
+     "Fluid at the line, cover screws torqued."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "high",
+      "label": "Level above the line",
+      "next_step": "pack-drain",
+      "condition": "Likely worn friction discs: inspect the clutch pack."
+     }
+    ]
+   },
+   {
+    "id": "lever-pos",
+    "title": "Set the lever position",
+    "instruction": "Loosen the lever adjuster lock nut and turn the adjuster: clockwise moves the lever away from the grip, counterclockwise brings it closer. Hold the adjuster and tighten the lock nut to 5.9 N·m.",
+    "depends_on": [
+     "fluid"
+    ],
+    "verification": [
+     "Lever where the rider wants it, lock nut torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "slip-test",
+    "title": "Decide whether to open the clutch",
+    "instruction": "Ride or run the bike: if the clutch slips under load or drags with the lever pulled, or the fluid level was above the line, inspect the clutch pack.",
+    "depends_on": [
+     "lever-pos"
+    ],
+    "verification": [
+     "Decision made."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "open",
+      "label": "Inspect the clutch pack",
+      "next_step": "pack-drain",
+      "condition": "Slipping, dragging, high fluid level, or the pack is due for a look."
+     },
+     {
+      "id": "done",
+      "label": "Clutch fine",
+      "next_step": "log",
+      "condition": "No slip, no drag, fluid at the line."
+     }
+    ]
+   },
+   {
+    "id": "pack-drain",
+    "title": "Drain the oil and open the clutch cover",
+    "instruction": "Drain the engine oil (see the oil change guide). Loosen the clutch cover bolts evenly in a crisscross pattern in two or three steps, mark where each bolt came from (they are different lengths), and take off the cover and its O-ring.",
+    "depends_on": [
+     "slip-test"
+    ],
+    "verification": [
+     "Oil drained, cover off, bolt positions marked."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "pack-out",
+    "title": "Take out the clutch pack",
+    "instruction": "Loosen the clutch spring bolts evenly in a crisscross pattern in two or three steps and remove them with their washers, the springs and the pressure plate. Take out the lifter piece. Lift out the friction discs and plates one at a time and lay them out in the order they came out, followed by the judder spring and its seat.",
+    "depends_on": [
+     "pack-drain"
+    ],
+    "verification": [
+     "Pack out and laid out in order."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "measure",
+    "title": "Measure the parts",
+    "instruction": "Measure each friction disc thickness: standard 2.92–3.08 mm (0.115 - 0.121 in), replace at 2.85 mm (0.112 in). Check each steel plate on a surface plate with a feeler gauge: replace at 0.15 mm (0.006 in) warp. Measure each spring free length: standard 56.2 mm (2.21 in), replace at 55.2 mm (2.17 in). Look at the pressure plate, lifter piece, judder spring and seat for scoring, wear or damage. Springs are replaced as a set, and discs and plates are replaced as a set.",
+    "depends_on": [
+     "pack-out"
+    ],
+    "verification": [
+     "Every disc, plate and spring measured and written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "pack-in",
+    "title": "Rebuild the pack",
+    "instruction": "Fit the spring seat and the judder spring the right way round (as they came out). Coat the friction disc linings with engine oil. Refit the discs and plates in the same order and direction they came out, starting with the first friction disc and then alternating plate and disc. Oil the bearing face of the lifter piece and fit it. Fit the pressure plate, the springs and the spring bolts with their washers, and tighten the bolts in a crisscross pattern in two or three steps to 12 N·m.",
+    "depends_on": [
+     "measure"
+    ],
+    "verification": [
+     "Pack rebuilt in order, spring bolts torqued."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cover-on",
+    "title": "Refit the cover and refill",
+    "instruction": "Fit a new oiled O-ring to the clutch cover, refit the cover and its bolts in their marked places and tighten them evenly in a crisscross pattern in two or three steps. Refill the engine with fresh oil and check the level (see the oil change guide). If the discs and plates were replaced, the oil must be new.",
+    "depends_on": [
+     "pack-in"
+    ],
+    "verification": [
+     "Cover on, oil at the correct level."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "test",
+    "title": "Run and test",
+    "instruction": "Start the engine and check for oil leaks at the clutch cover. Test ride: no slip, no drag.",
+    "depends_on": [
+     "cover-on"
+    ],
+    "verification": [
+     "No leaks, clutch works."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "log",
+    "title": "Record",
+    "instruction": "Write down the measurements, what was replaced, and the fluid or free play setting.",
+    "depends_on": [
+     "test"
+    ],
+    "verification": [
+     "Logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450rx-clutch-v1-2025-2026",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "clutch",
+   "engine"
+  ],
+  "entry_state": [
+   "Bike on a stand, engine cold for any pack work."
+  ],
+  "exit_state": [
+   "Clutch adjusted and fluid at the line; pack measured and rebuilt if it was opened; oil refilled; no slip or drag."
+  ],
+  "title": "Check and adjust the clutch, inspect the clutch pack",
+  "completeness": "Covers the hydraulic clutch lever and hose check, the fluid level and top-up, lever position, and opening the clutch to measure discs, plates and springs and rebuild the pack with the spring bolt torque. Does not cover clutch basket or hub work, or bleeding the hydraulic system.",
+  "excluded": [
+   "Clutch basket, hub or primary gear work",
+   "Bleeding or fluid replacement of the hydraulic clutch"
+  ],
+  "required_tools": [
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Vernier caliper",
+    "size": null
+   },
+   {
+    "name": "Surface plate and feeler gauges",
+    "size": null
+   },
+   {
+    "name": "Drain pan",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Clutch cover O-ring",
+    "purpose": "Always new when the cover is removed."
+   },
+   {
+    "name": "Engine oil",
+    "purpose": "Refill after opening the clutch."
+   },
+   {
+    "name": "Clutch fluid",
+    "purpose": "Honda DOT 4 brake fluid from a sealed container."
+   }
+  ],
+  "prerequisites": [
+   "Oil change parts on hand if the pack is opened."
+  ],
+  "critical_stop_conditions": [
+   "Clutch lever soft or fluid leaking: do not ride until repaired.",
+   "Any part past its service limit: replace it (springs as a set, discs and plates as a set).",
+   "Oil leak at the clutch cover after the run: fix before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Check the clutch system every race (about 3.5 hours of riding). The clutch fluid is replaced every 2 years. Write down any symptom: slipping, dragging, a soft lever or a lever that has moved.",
+    "depends_on": [],
+    "verification": [
+     "Symptoms written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "lever-feel",
+    "title": "Check the lever and hose",
+    "instruction": "Pull the clutch lever firmly several times: it must feel firm. A soft or spongy lever means air in the system, which has to be bled out. Check the hose and its fittings for cracks, swelling or weeping; a loose hose oil bolt is tightened to 34 N·m, but a damaged hose or fitting must be replaced.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Lever firm, hose and fittings dry and undamaged."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "spongy",
+      "label": "Lever soft or leaking",
+      "next_step": "log",
+      "condition": "Air or a leak in the hydraulic clutch: have the system repaired and bled before riding."
+     }
+    ]
+   },
+   {
+    "id": "fluid",
+    "title": "Check the fluid level",
+    "instruction": "Turn the handlebar until the clutch master cylinder reservoir is level. Lay a rag around it (the fluid damages paint and plastic), remove the cap screws, the cover and the diaphragm and look at the level. Fluid above the level line usually means the friction discs are worn; fluid below it means a leak. Top up to the level line only with Honda DOT 4 brake fluid, from a sealed container, without letting dirt in. If the fluid is dark or dirty it needs replacing and bleeding. Refit the diaphragm and cover and tighten the screws to 1 N·m.",
+    "depends_on": [
+     "lever-feel"
+    ],
+    "verification": [
+     "Fluid at the line, cover screws torqued."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "high",
+      "label": "Level above the line",
+      "next_step": "pack-drain",
+      "condition": "Likely worn friction discs: inspect the clutch pack."
+     }
+    ]
+   },
+   {
+    "id": "lever-pos",
+    "title": "Set the lever position",
+    "instruction": "Loosen the lever adjuster lock nut and turn the adjuster: clockwise moves the lever away from the grip, counterclockwise brings it closer. Hold the adjuster and tighten the lock nut to 5.9 N·m.",
+    "depends_on": [
+     "fluid"
+    ],
+    "verification": [
+     "Lever where the rider wants it, lock nut torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "slip-test",
+    "title": "Decide whether to open the clutch",
+    "instruction": "Ride or run the bike: if the clutch slips under load or drags with the lever pulled, or the fluid level was above the line, inspect the clutch pack.",
+    "depends_on": [
+     "lever-pos"
+    ],
+    "verification": [
+     "Decision made."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "open",
+      "label": "Inspect the clutch pack",
+      "next_step": "pack-drain",
+      "condition": "Slipping, dragging, high fluid level, or the pack is due for a look."
+     },
+     {
+      "id": "done",
+      "label": "Clutch fine",
+      "next_step": "log",
+      "condition": "No slip, no drag, fluid at the line."
+     }
+    ]
+   },
+   {
+    "id": "pack-drain",
+    "title": "Drain the oil and open the clutch cover",
+    "instruction": "Drain the engine oil (see the oil change guide). Loosen the clutch cover bolts evenly in a crisscross pattern in two or three steps, mark where each bolt came from (they are different lengths), and take off the cover and its O-ring.",
+    "depends_on": [
+     "slip-test"
+    ],
+    "verification": [
+     "Oil drained, cover off, bolt positions marked."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "pack-out",
+    "title": "Take out the clutch pack",
+    "instruction": "Loosen the clutch spring bolts evenly in a crisscross pattern in two or three steps and remove them with their washers, the springs and the pressure plate. Take out the lifter piece. Lift out the friction discs and plates one at a time and lay them out in the order they came out, followed by the judder spring and its seat.",
+    "depends_on": [
+     "pack-drain"
+    ],
+    "verification": [
+     "Pack out and laid out in order."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "measure",
+    "title": "Measure the parts",
+    "instruction": "Measure each friction disc thickness: standard 2.92–3.08 mm (0.115 - 0.121 in), replace at 2.70 mm (0.106 in). Check each steel plate on a surface plate with a feeler gauge: replace at 0.15 mm (0.006 in) warp. Measure each spring free length: standard 56.2 mm (2.21 in), replace at 55.2 mm (2.17 in). Look at the pressure plate, lifter piece, judder spring and seat for scoring, wear or damage. Springs are replaced as a set, and discs and plates are replaced as a set.",
+    "depends_on": [
+     "pack-out"
+    ],
+    "verification": [
+     "Every disc, plate and spring measured and written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "pack-in",
+    "title": "Rebuild the pack",
+    "instruction": "Fit the spring seat and the judder spring the right way round (as they came out). Coat the friction disc linings with engine oil. Refit the discs and plates in the same order and direction they came out, starting with the first friction disc and then alternating plate and disc. Oil the bearing face of the lifter piece and fit it. Fit the pressure plate, the springs and the spring bolts with their washers, and tighten the bolts in a crisscross pattern in two or three steps to 12 N·m.",
+    "depends_on": [
+     "measure"
+    ],
+    "verification": [
+     "Pack rebuilt in order, spring bolts torqued."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cover-on",
+    "title": "Refit the cover and refill",
+    "instruction": "Fit a new oiled O-ring to the clutch cover, refit the cover and its bolts in their marked places and tighten them evenly in a crisscross pattern in two or three steps. Refill the engine with fresh oil and check the level (see the oil change guide). If the discs and plates were replaced, the oil must be new.",
+    "depends_on": [
+     "pack-in"
+    ],
+    "verification": [
+     "Cover on, oil at the correct level."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "test",
+    "title": "Run and test",
+    "instruction": "Start the engine and check for oil leaks at the clutch cover. Test ride: no slip, no drag.",
+    "depends_on": [
+     "cover-on"
+    ],
+    "verification": [
+     "No leaks, clutch works."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "log",
+    "title": "Record",
+    "instruction": "Write down the measurements, what was replaced, and the fluid or free play setting.",
+    "depends_on": [
+     "test"
+    ],
+    "verification": [
+     "Logged."
+    ],
+    "record_required": true
+   }
+  ]
+ }
+]

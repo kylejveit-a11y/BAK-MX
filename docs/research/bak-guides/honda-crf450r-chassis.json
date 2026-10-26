@@ -1,0 +1,2991 @@
+[
+ {
+  "id": "bak-honda-crf450r-chain-sprockets-v1-2021-2024",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2024
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "chain",
+   "sprockets",
+   "swingarm",
+   "rear_wheel"
+  ],
+  "entry_state": [
+   "Bike on a stand, engine off."
+  ],
+  "exit_state": [
+   "Chain clean, lubricated, at the correct slack with the wheel straight, axle and lock nuts torqued, wear parts checked."
+  ],
+  "title": "Check and adjust the chain, sliders, rollers and sprockets",
+  "completeness": "Covers measuring and setting chain slack with wheel alignment, cleaning and lubricating, measuring chain wear, checking the slider, guide, rollers and sprockets with their torques, and fitting a new chain. Does not cover sprocket or slider replacement.",
+  "excluded": [
+   "Sprocket replacement",
+   "Chain slider or guide replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand under the engine",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   },
+   {
+    "name": "Vernier caliper",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Chain tool for cutting a new chain",
+    "size": null
+   },
+   {
+    "name": "Soft brush",
+    "size": null
+   },
+   {
+    "name": "Non-flammable solvent",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Chain lube",
+    "purpose": "Honda HP Chain Lube or equivalent."
+   },
+   {
+    "name": "Master link clip",
+    "purpose": "If the old one is bent or weak."
+   },
+   {
+    "name": "New upper roller bolt",
+    "purpose": "Whenever it is removed."
+   }
+  ],
+  "prerequisites": [
+   "Engine off."
+  ],
+  "critical_stop_conditions": [
+   "Never check or adjust the chain with the engine running.",
+   "Index marks not equal on both sides: do not ride, the wheel is crooked.",
+   "Chain or sprockets past their limits: replace before riding.",
+   "Slider worn through to the swingarm: replace before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Inspect and lube the chain every race (about 2.5 hours of riding), check the sliders, rollers and sprockets every race (about 2.5 hours of riding), and replace the chain every 3 races (about 7.5 hours of riding). Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "stand",
+    "title": "Get the rear wheel off the ground",
+    "instruction": "Engine off, always: never check or adjust the chain with the engine running, it can take fingers off. Put the bike on a stand under the engine so the rear wheel hangs free.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine off, rear wheel off the ground."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "slack",
+    "title": "Measure the slack",
+    "instruction": "Push the top run of the chain up at the rear end of the chain slider and measure from the top surface of the swingarm to the centre of a chain pin. It should be 65–70 mm (2 1/2 - 2 3/4 in). Turn the wheel and check at a few places: a chain that is tight in one spot and slack in another has kinked links and is worn out.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Slack measured at several points."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "in-range",
+      "label": "Slack in range",
+      "next_step": "clean",
+      "condition": "Slack 65–70 mm (2 1/2 - 2 3/4 in) everywhere."
+     },
+     {
+      "id": "adjust",
+      "label": "Out of range",
+      "next_step": "adjust",
+      "condition": "Too tight or too loose."
+     }
+    ]
+   },
+   {
+    "id": "adjust",
+    "title": "Adjust the slack",
+    "instruction": "Loosen the rear axle nut. Loosen the chain adjuster lock nuts on both sides and turn the adjusters the same amount on both sides until the slack is right. The index marks on the left and right adjusting plates must sit at the same position on the swingarm scales, otherwise the wheel is crooked and the bike will pull to one side.",
+    "depends_on": [
+     "slack"
+    ],
+    "verification": [
+     "Slack in range, index marks equal both sides."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "axle",
+    "title": "Tighten the axle and lock nuts",
+    "instruction": "Tighten the rear axle nut to 128 N·m. Check the slack again and spin the wheel to check it turns smoothly. Turn each adjuster so it sits snugly against its adjusting plate and tighten the adjuster lock nuts to 27 N·m.",
+    "depends_on": [
+     "adjust"
+    ],
+    "verification": [
+     "Axle nut and lock nuts torqued, slack rechecked."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "clean",
+    "title": "Clean the chain",
+    "instruction": "Clean the chain with a non-flammable or high flash point solvent and a soft brush, then wipe it dry. For a thorough clean, take off the drive sprocket cover, remove the master link clip, link plate and master link, and take the chain off. Let it dry completely before lubricating.",
+    "depends_on": [
+     "slack"
+    ],
+    "verification": [
+     "Chain clean and dry."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wear",
+    "title": "Measure chain wear",
+    "instruction": "Measure the height of the inner plates: replace the chain if they are worn down to 14.0 mm (0.55 in). Pull the chain taut, straighten any kinked joint and measure across 17 pins (16 pitches), pin centre to pin centre: replace the chain at 257 mm (10.1 in). Also replace it if any roller is damaged or any link is loose or stiff.",
+    "depends_on": [
+     "clean"
+    ],
+    "verification": [
+     "Plate height and 17-pin length measured."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "worn",
+      "label": "Chain worn out",
+      "next_step": "replace",
+      "condition": "At or past either limit, or damaged."
+     }
+    ]
+   },
+   {
+    "id": "slider",
+    "title": "Check the chain slider and guide",
+    "instruction": "Look at the chain slider on the swingarm: replace it when it is worn down to 5 mm (0.2 in) on the upper side and 2.0 mm (0.08 in) on the lower side. If the slider wears through, the chain eats the swingarm. Check the chain guide is not bent (a bent guide throws the chain) and that its slider pads are not worn to the bottom of their wear indicator.",
+    "depends_on": [
+     "wear"
+    ],
+    "verification": [
+     "Slider and guide checked."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "rollers",
+    "title": "Check the chain rollers",
+    "instruction": "Spin the upper (green) and lower (black) chain rollers. Replace a roller that binds or is worn down to 31 mm (1.2 in) in diameter, fitting it with its marked side facing out. Check the upper roller bolt is at 12 N·m and the lower roller nut at 12 N·m. Always fit a new upper roller bolt once it has been removed.",
+    "depends_on": [
+     "slider"
+    ],
+    "verification": [
+     "Rollers spin freely, bolt and nut torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "sprockets",
+    "title": "Check the sprockets",
+    "instruction": "Take off the drive sprocket cover. Look at the teeth on both sprockets: hooked, thin or broken teeth mean the sprocket is worn. Check the drive sprocket bolt is at 31 N·m and the driven sprocket nuts at 40 N·m.",
+    "depends_on": [
+     "rollers"
+    ],
+    "verification": [
+     "Teeth checked, bolt and nuts torqued."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "sprockets-worn",
+      "label": "Sprockets worn",
+      "next_step": "replace",
+      "condition": "Replace both sprockets with the chain: a new chain on worn sprockets wears out fast."
+     }
+    ]
+   },
+   {
+    "id": "lube",
+    "title": "Lubricate",
+    "instruction": "Lubricate the chain with Honda HP Chain Lube or equivalent, then wipe off the excess so it does not collect dirt.",
+    "depends_on": [
+     "sprockets"
+    ],
+    "verification": [
+     "Chain lubricated, excess wiped off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "refit",
+    "title": "Refit the chain and cover",
+    "instruction": "If the chain was taken off, put it back on the sprockets, fit the master link and link plate, and fit the master link clip with its closed end pointing in the direction the chain travels (open end facing away from the direction of travel). Refit the drive sprocket cover. Recheck the slack.",
+    "depends_on": [
+     "lube"
+    ],
+    "verification": [
+     "Clip the right way round, cover on, slack in range."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "done-check",
+    "title": "Final check",
+    "instruction": "Spin the rear wheel: the chain should run smoothly over the rollers and through the guide without catching.",
+    "depends_on": [
+     "refit"
+    ],
+    "verification": [
+     "Chain runs smoothly."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "finished",
+      "label": "Finished",
+      "next_step": "log",
+      "condition": "No replacement needed."
+     }
+    ]
+   },
+   {
+    "id": "replace",
+    "title": "Replace the chain (and sprockets if worn)",
+    "instruction": "Take off the drive sprocket cover and remove the old chain at the master link. A new chain is cut to the standard 114 links with a chain tool. Never fit a new chain on worn sprockets. Fit the new chain over the sprockets, fit a new master link, link plate and clip with the clip's open end facing away from the direction of chain travel, refit the cover and set the slack as above.",
+    "depends_on": [
+     "wear"
+    ],
+    "verification": [
+     "New chain at the correct length, new master link and clip, slack set."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "log",
+    "title": "Record",
+    "instruction": "Write down the slack, the wear readings, and anything replaced.",
+    "depends_on": [
+     "done-check"
+    ],
+    "verification": [
+     "Logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450r-chain-sprockets-v1-2025-2026",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "chain",
+   "sprockets",
+   "swingarm",
+   "rear_wheel"
+  ],
+  "entry_state": [
+   "Bike on a stand, engine off."
+  ],
+  "exit_state": [
+   "Chain clean, lubricated, at the correct slack with the wheel straight, axle and lock nuts torqued, wear parts checked."
+  ],
+  "title": "Check and adjust the chain, sliders, rollers and sprockets",
+  "completeness": "Covers measuring and setting chain slack with wheel alignment, cleaning and lubricating, measuring chain wear, checking the slider, guide, rollers and sprockets with their torques, and fitting a new chain. Does not cover sprocket or slider replacement.",
+  "excluded": [
+   "Sprocket replacement",
+   "Chain slider or guide replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand under the engine",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   },
+   {
+    "name": "Vernier caliper",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Chain tool for cutting a new chain",
+    "size": null
+   },
+   {
+    "name": "Soft brush",
+    "size": null
+   },
+   {
+    "name": "Non-flammable solvent",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Chain lube",
+    "purpose": "Honda HP Chain Lube or equivalent."
+   },
+   {
+    "name": "Master link clip",
+    "purpose": "If the old one is bent or weak."
+   },
+   {
+    "name": "New upper roller bolt",
+    "purpose": "Whenever it is removed."
+   }
+  ],
+  "prerequisites": [
+   "Engine off."
+  ],
+  "critical_stop_conditions": [
+   "Never check or adjust the chain with the engine running.",
+   "Index marks not equal on both sides: do not ride, the wheel is crooked.",
+   "Chain or sprockets past their limits: replace before riding.",
+   "Slider worn through to the swingarm: replace before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Inspect and lube the chain every race (about 2.5 hours of riding), check the sliders, rollers and sprockets every race (about 2.5 hours of riding), and replace the chain every 3 races (about 7.5 hours of riding). Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "stand",
+    "title": "Get the rear wheel off the ground",
+    "instruction": "Engine off, always: never check or adjust the chain with the engine running, it can take fingers off. Put the bike on a stand under the engine so the rear wheel hangs free.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine off, rear wheel off the ground."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "slack",
+    "title": "Measure the slack",
+    "instruction": "Push the top run of the chain up at the rear end of the chain slider and measure from the top surface of the swingarm to the centre of a chain pin. It should be 65–70 mm (2 1/2 - 2 3/4 in). Turn the wheel and check at a few places: a chain that is tight in one spot and slack in another has kinked links and is worn out.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Slack measured at several points."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "in-range",
+      "label": "Slack in range",
+      "next_step": "clean",
+      "condition": "Slack 65–70 mm (2 1/2 - 2 3/4 in) everywhere."
+     },
+     {
+      "id": "adjust",
+      "label": "Out of range",
+      "next_step": "adjust",
+      "condition": "Too tight or too loose."
+     }
+    ]
+   },
+   {
+    "id": "adjust",
+    "title": "Adjust the slack",
+    "instruction": "Loosen the rear axle nut. Loosen the chain adjuster lock nuts on both sides and turn the adjusters the same amount on both sides until the slack is right. The index marks on the left and right adjusting plates must sit at the same position on the swingarm scales, otherwise the wheel is crooked and the bike will pull to one side.",
+    "depends_on": [
+     "slack"
+    ],
+    "verification": [
+     "Slack in range, index marks equal both sides."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "axle",
+    "title": "Tighten the axle and lock nuts",
+    "instruction": "Tighten the rear axle nut to 128 N·m. Check the slack again and spin the wheel to check it turns smoothly. Turn each adjuster so it sits snugly against its adjusting plate and tighten the adjuster lock nuts to 27 N·m.",
+    "depends_on": [
+     "adjust"
+    ],
+    "verification": [
+     "Axle nut and lock nuts torqued, slack rechecked."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "clean",
+    "title": "Clean the chain",
+    "instruction": "Clean the chain with a non-flammable or high flash point solvent and a soft brush, then wipe it dry. For a thorough clean, take off the drive sprocket cover, remove the master link clip, link plate and master link, and take the chain off. Let it dry completely before lubricating.",
+    "depends_on": [
+     "slack"
+    ],
+    "verification": [
+     "Chain clean and dry."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wear",
+    "title": "Measure chain wear",
+    "instruction": "Measure the height of the inner plates: replace the chain if they are worn down to 14.0 mm (0.55 in). Pull the chain taut, straighten any kinked joint and measure across 17 pins (16 pitches), pin centre to pin centre: replace the chain at 257 mm (10.1 in). Also replace it if any roller is damaged or any link is loose or stiff.",
+    "depends_on": [
+     "clean"
+    ],
+    "verification": [
+     "Plate height and 17-pin length measured."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "worn",
+      "label": "Chain worn out",
+      "next_step": "replace",
+      "condition": "At or past either limit, or damaged."
+     }
+    ]
+   },
+   {
+    "id": "slider",
+    "title": "Check the chain slider and guide",
+    "instruction": "Look at the chain slider on the swingarm: replace it when it is worn down to 7.0 mm (0.28 in) on the upper side and 3.0 mm (0.12 in) on the lower side. If the slider wears through, the chain eats the swingarm. Check the chain guide is not bent (a bent guide throws the chain) and that its slider pads are not worn to the bottom of their wear indicator.",
+    "depends_on": [
+     "wear"
+    ],
+    "verification": [
+     "Slider and guide checked."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "rollers",
+    "title": "Check the chain rollers",
+    "instruction": "Spin the upper (green) and lower (black) chain rollers. Replace a roller that binds or is worn down to 31 mm (1.2 in) in diameter, fitting it with its marked side facing out. Check the upper roller bolt is at 12 N·m and the lower roller nut at 12 N·m. Always fit a new upper roller bolt once it has been removed.",
+    "depends_on": [
+     "slider"
+    ],
+    "verification": [
+     "Rollers spin freely, bolt and nut torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "sprockets",
+    "title": "Check the sprockets",
+    "instruction": "Take off the drive sprocket cover. Look at the teeth on both sprockets: hooked, thin or broken teeth mean the sprocket is worn. Check the drive sprocket bolt is at 31 N·m and the driven sprocket nuts at 40 N·m.",
+    "depends_on": [
+     "rollers"
+    ],
+    "verification": [
+     "Teeth checked, bolt and nuts torqued."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "sprockets-worn",
+      "label": "Sprockets worn",
+      "next_step": "replace",
+      "condition": "Replace both sprockets with the chain: a new chain on worn sprockets wears out fast."
+     }
+    ]
+   },
+   {
+    "id": "lube",
+    "title": "Lubricate",
+    "instruction": "Lubricate the chain with Honda HP Chain Lube or equivalent, then wipe off the excess so it does not collect dirt.",
+    "depends_on": [
+     "sprockets"
+    ],
+    "verification": [
+     "Chain lubricated, excess wiped off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "refit",
+    "title": "Refit the chain and cover",
+    "instruction": "If the chain was taken off, put it back on the sprockets, fit the master link and link plate, and fit the master link clip with its closed end pointing in the direction the chain travels (open end facing away from the direction of travel). Refit the drive sprocket cover. Recheck the slack.",
+    "depends_on": [
+     "lube"
+    ],
+    "verification": [
+     "Clip the right way round, cover on, slack in range."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "done-check",
+    "title": "Final check",
+    "instruction": "Spin the rear wheel: the chain should run smoothly over the rollers and through the guide without catching.",
+    "depends_on": [
+     "refit"
+    ],
+    "verification": [
+     "Chain runs smoothly."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "finished",
+      "label": "Finished",
+      "next_step": "log",
+      "condition": "No replacement needed."
+     }
+    ]
+   },
+   {
+    "id": "replace",
+    "title": "Replace the chain (and sprockets if worn)",
+    "instruction": "Take off the drive sprocket cover and remove the old chain at the master link. A new chain is cut to the standard 114 links with a chain tool. Never fit a new chain on worn sprockets. Fit the new chain over the sprockets, fit a new master link, link plate and clip with the clip's open end facing away from the direction of chain travel, refit the cover and set the slack as above.",
+    "depends_on": [
+     "wear"
+    ],
+    "verification": [
+     "New chain at the correct length, new master link and clip, slack set."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "log",
+    "title": "Record",
+    "instruction": "Write down the slack, the wear readings, and anything replaced.",
+    "depends_on": [
+     "done-check"
+    ],
+    "verification": [
+     "Logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450r-chain-sprockets-v1-2027",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2027
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "chain",
+   "sprockets",
+   "swingarm",
+   "rear_wheel"
+  ],
+  "entry_state": [
+   "Bike on a stand, engine off."
+  ],
+  "exit_state": [
+   "Chain clean, lubricated, at the correct slack with the wheel straight, axle and lock nuts torqued, wear parts checked."
+  ],
+  "title": "Check and adjust the chain, sliders, rollers and sprockets",
+  "completeness": "Covers measuring and setting chain slack with wheel alignment, cleaning and lubricating, measuring chain wear, checking the slider, guide, rollers and sprockets with their torques, and fitting a new chain. Does not cover sprocket or slider replacement.",
+  "excluded": [
+   "Sprocket replacement",
+   "Chain slider or guide replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand under the engine",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   },
+   {
+    "name": "Vernier caliper",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Chain tool for cutting a new chain",
+    "size": null
+   },
+   {
+    "name": "Soft brush",
+    "size": null
+   },
+   {
+    "name": "Non-flammable solvent",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Chain lube",
+    "purpose": "Honda HP Chain Lube or equivalent."
+   },
+   {
+    "name": "Master link clip",
+    "purpose": "If the old one is bent or weak."
+   },
+   {
+    "name": "New upper roller bolt",
+    "purpose": "Whenever it is removed."
+   }
+  ],
+  "prerequisites": [
+   "Engine off."
+  ],
+  "critical_stop_conditions": [
+   "Never check or adjust the chain with the engine running.",
+   "Index marks not equal on both sides: do not ride, the wheel is crooked.",
+   "Chain or sprockets past their limits: replace before riding.",
+   "Slider worn through to the swingarm: replace before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Inspect and lube the chain every race (about 2.5 hours of riding), check the sliders, rollers and sprockets every race (about 2.5 hours of riding), and replace the chain every 3 races (about 7.5 hours of riding). Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "stand",
+    "title": "Get the rear wheel off the ground",
+    "instruction": "Engine off, always: never check or adjust the chain with the engine running, it can take fingers off. Put the bike on a stand under the engine so the rear wheel hangs free.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine off, rear wheel off the ground."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "slack",
+    "title": "Measure the slack",
+    "instruction": "Push the top run of the chain up at the rear end of the chain slider and measure from the top surface of the swingarm to the centre of a chain pin. It should be 68–73 mm (2 11/16 - 2 7/8 in). Turn the wheel and check at a few places: a chain that is tight in one spot and slack in another has kinked links and is worn out.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Slack measured at several points."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "in-range",
+      "label": "Slack in range",
+      "next_step": "clean",
+      "condition": "Slack 68–73 mm (2 11/16 - 2 7/8 in) everywhere."
+     },
+     {
+      "id": "adjust",
+      "label": "Out of range",
+      "next_step": "adjust",
+      "condition": "Too tight or too loose."
+     }
+    ]
+   },
+   {
+    "id": "adjust",
+    "title": "Adjust the slack",
+    "instruction": "Loosen the rear axle nut. Loosen the chain adjuster lock nuts on both sides and turn the adjusters the same amount on both sides until the slack is right. The index marks on the left and right adjusting plates must sit at the same position on the swingarm scales, otherwise the wheel is crooked and the bike will pull to one side.",
+    "depends_on": [
+     "slack"
+    ],
+    "verification": [
+     "Slack in range, index marks equal both sides."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "axle",
+    "title": "Tighten the axle and lock nuts",
+    "instruction": "Tighten the rear axle nut to 128 N·m. Check the slack again and spin the wheel to check it turns smoothly. Turn each adjuster so it sits snugly against its adjusting plate and tighten the adjuster lock nuts to 27 N·m.",
+    "depends_on": [
+     "adjust"
+    ],
+    "verification": [
+     "Axle nut and lock nuts torqued, slack rechecked."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "clean",
+    "title": "Clean the chain",
+    "instruction": "Clean the chain with a non-flammable or high flash point solvent and a soft brush, then wipe it dry. For a thorough clean, take off the drive sprocket cover, remove the master link clip, link plate and master link, and take the chain off. Let it dry completely before lubricating.",
+    "depends_on": [
+     "slack"
+    ],
+    "verification": [
+     "Chain clean and dry."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wear",
+    "title": "Measure chain wear",
+    "instruction": "Measure the height of the inner plates: replace the chain if they are worn down to 14.0 mm (0.55 in). Pull the chain taut, straighten any kinked joint and measure across 17 pins (16 pitches), pin centre to pin centre: replace the chain at 257 mm (10.1 in). Also replace it if any roller is damaged or any link is loose or stiff.",
+    "depends_on": [
+     "clean"
+    ],
+    "verification": [
+     "Plate height and 17-pin length measured."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "worn",
+      "label": "Chain worn out",
+      "next_step": "replace",
+      "condition": "At or past either limit, or damaged."
+     }
+    ]
+   },
+   {
+    "id": "slider",
+    "title": "Check the chain slider and guide",
+    "instruction": "Look at the chain slider on the swingarm: replace it when it is worn down to 8.5 mm (0.33 in) on the upper side and 5.0 mm (0.20 in) on the lower side. If the slider wears through, the chain eats the swingarm. Check the chain guide is not bent (a bent guide throws the chain) and that its slider pads are not worn to the bottom of their wear indicator.",
+    "depends_on": [
+     "wear"
+    ],
+    "verification": [
+     "Slider and guide checked."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "rollers",
+    "title": "Check the chain rollers",
+    "instruction": "Spin the upper (green) and lower (black) chain rollers. Replace a roller that binds or is worn down to 31 mm (1.2 in) in diameter, fitting it with its marked side facing out. Check the upper roller bolt is at 12 N·m and the lower roller nut at 12 N·m. Always fit a new upper roller bolt once it has been removed.",
+    "depends_on": [
+     "slider"
+    ],
+    "verification": [
+     "Rollers spin freely, bolt and nut torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "sprockets",
+    "title": "Check the sprockets",
+    "instruction": "Take off the drive sprocket cover. Look at the teeth on both sprockets: hooked, thin or broken teeth mean the sprocket is worn. Check the drive sprocket bolt is at 31 N·m and the driven sprocket nuts at 40 N·m.",
+    "depends_on": [
+     "rollers"
+    ],
+    "verification": [
+     "Teeth checked, bolt and nuts torqued."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "sprockets-worn",
+      "label": "Sprockets worn",
+      "next_step": "replace",
+      "condition": "Replace both sprockets with the chain: a new chain on worn sprockets wears out fast."
+     }
+    ]
+   },
+   {
+    "id": "lube",
+    "title": "Lubricate",
+    "instruction": "Lubricate the chain with Honda HP Chain Lube or equivalent, then wipe off the excess so it does not collect dirt.",
+    "depends_on": [
+     "sprockets"
+    ],
+    "verification": [
+     "Chain lubricated, excess wiped off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "refit",
+    "title": "Refit the chain and cover",
+    "instruction": "If the chain was taken off, put it back on the sprockets, fit the master link and link plate, and fit the master link clip with its closed end pointing in the direction the chain travels (open end facing away from the direction of travel). Refit the drive sprocket cover. Recheck the slack.",
+    "depends_on": [
+     "lube"
+    ],
+    "verification": [
+     "Clip the right way round, cover on, slack in range."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "done-check",
+    "title": "Final check",
+    "instruction": "Spin the rear wheel: the chain should run smoothly over the rollers and through the guide without catching.",
+    "depends_on": [
+     "refit"
+    ],
+    "verification": [
+     "Chain runs smoothly."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "finished",
+      "label": "Finished",
+      "next_step": "log",
+      "condition": "No replacement needed."
+     }
+    ]
+   },
+   {
+    "id": "replace",
+    "title": "Replace the chain (and sprockets if worn)",
+    "instruction": "Take off the drive sprocket cover and remove the old chain at the master link. A new chain is cut to the standard 116 links with a chain tool. Never fit a new chain on worn sprockets. Fit the new chain over the sprockets, fit a new master link, link plate and clip with the clip's open end facing away from the direction of chain travel, refit the cover and set the slack as above.",
+    "depends_on": [
+     "wear"
+    ],
+    "verification": [
+     "New chain at the correct length, new master link and clip, slack set."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "log",
+    "title": "Record",
+    "instruction": "Write down the slack, the wear readings, and anything replaced.",
+    "depends_on": [
+     "done-check"
+    ],
+    "verification": [
+     "Logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450r-brakes-v1-2021-2027",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2027
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "front_brake",
+   "rear_brake"
+  ],
+  "entry_state": [
+   "Bike on a stand."
+  ],
+  "exit_state": [
+   "Brakes firm, fluid at the correct level, pads within limits, lever and pedal set, no leaks."
+  ],
+  "title": "Check the brakes: feel, fluid, hoses and pads",
+  "completeness": "Covers lever and pedal feel, hose and fitting checks, fluid levels and top-up with cover torques, pad wear, lever position and pedal height. Does not cover pad replacement, bleeding or fluid replacement.",
+  "excluded": [
+   "Pad replacement",
+   "Bleeding and fluid replacement",
+   "Caliper or master cylinder overhaul"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Screwdrivers for the reservoir covers",
+    "size": null
+   },
+   {
+    "name": "Rags",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Brake fluid",
+    "purpose": "Honda DOT 4 brake fluid, from a sealed container."
+   }
+  ],
+  "prerequisites": [
+   "Bike clean around the reservoirs."
+  ],
+  "critical_stop_conditions": [
+   "Soft or spongy lever or pedal: do not ride.",
+   "Pad worn to 1.0 mm (0.04 in): replace both pads in that caliper before riding.",
+   "Fluid leak or damaged hose: repair before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Check the brake fluid level, pad wear and the whole brake system every race (about 2.5 hours of riding). Replace the brake fluid every 2 years. Write down the date and anything the rider has noticed (soft lever, noise, fade).",
+    "depends_on": [],
+    "verification": [
+     "Date and complaints written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "feel",
+    "title": "Check lever and pedal feel",
+    "instruction": "Pull the front brake lever and press the rear pedal hard. Both must feel firm. A soft or spongy feel means air in the system: it must be bled before riding.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Lever and pedal firm."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "spongy",
+      "label": "Soft or spongy",
+      "next_step": "log",
+      "condition": "Do not ride: have the air bled out of that brake and recheck."
+     }
+    ]
+   },
+   {
+    "id": "hoses",
+    "title": "Check hoses and fittings",
+    "instruction": "Look along both brake hoses and at their fittings for cracks, chafing, swelling or wet spots. A loose hose oil bolt is tightened to 34 N·m; a damaged hose, oil bolt or sealing washer must be replaced.",
+    "depends_on": [
+     "feel"
+    ],
+    "verification": [
+     "Hoses and fittings dry and undamaged."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "front-level",
+    "title": "Check the front fluid level",
+    "instruction": "Turn the handlebar so the front reservoir is level and look at the fluid against the lower level line. Fluid drops as the pads wear, so a level near the lower line usually means worn pads; if the pads are fine and the level is low, look for a leak before topping up.",
+    "depends_on": [
+     "hoses"
+    ],
+    "verification": [
+     "Front level noted."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "rear-level",
+    "title": "Check the rear fluid level",
+    "instruction": "With the rear reservoir level, look at the fluid against its lower level line and read it the same way.",
+    "depends_on": [
+     "front-level"
+    ],
+    "verification": [
+     "Rear level noted."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "pads",
+    "title": "Check pad wear",
+    "instruction": "Look at the front and rear pads. If either pad in a caliper is worn to 1.0 mm (0.04 in) anywhere (the wear indicator on the pad marks this limit), replace both pads in that caliper.",
+    "depends_on": [
+     "rear-level"
+    ],
+    "verification": [
+     "Pad thickness checked front and rear."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "pads-worn",
+      "label": "Pads worn",
+      "next_step": "log",
+      "condition": "Replace both pads in that caliper before riding (separate job), then return to top up the fluid."
+     }
+    ]
+   },
+   {
+    "id": "top-up",
+    "title": "Top up if needed",
+    "instruction": "Lay rags around the reservoir: brake fluid damages paint and plastic. Front: remove the cover screws, the cover and the diaphragm, fill to the upper level line with Honda DOT 4 brake fluid from a sealed container, refit the diaphragm and cover and tighten the screws to 1 N·m. Rear: remove the cover bolts, cover, set plate and diaphragm, fill to the upper line, refit them and tighten the bolts to 1 N·m. Do not mix fluid types and do not let dirt in.",
+    "depends_on": [
+     "pads"
+    ],
+    "verification": [
+     "Both reservoirs at the upper line, covers torqued."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "lever-pos",
+    "title": "Set the brake lever position",
+    "instruction": "Loosen the brake lever adjuster lock nut; turn the adjuster clockwise to move the lever away from the grip, counterclockwise to bring it closer. Hold the adjuster and tighten the lock nut to 5.9 N·m.",
+    "depends_on": [
+     "top-up"
+    ],
+    "verification": [
+     "Lever where the rider wants it, lock nut torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "pedal",
+    "title": "Set the brake pedal height",
+    "instruction": "Loosen the rear master cylinder push rod lock nut and turn the push rod to set the pedal height, keeping the push rod length within 78.6–80.6 mm (3.09 - 3.17 in). Tighten the lock nut to 5.9 N·m.",
+    "depends_on": [
+     "lever-pos"
+    ],
+    "verification": [
+     "Pedal height set, push rod in range, lock nut torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "test",
+    "title": "Test",
+    "instruction": "Spin each wheel: the brake must not drag. Pump the lever and pedal and check they are firm, then test both brakes at low speed before riding.",
+    "depends_on": [
+     "pedal"
+    ],
+    "verification": [
+     "No drag, firm feel, brakes work."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "log",
+    "title": "Record",
+    "instruction": "Write down the pad condition, fluid levels, anything topped up or replaced and the date of the last fluid change.",
+    "depends_on": [
+     "test"
+    ],
+    "verification": [
+     "Logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450rx-brakes-v1-2021-2027",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2027
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "front_brake",
+   "rear_brake"
+  ],
+  "entry_state": [
+   "Bike on a stand."
+  ],
+  "exit_state": [
+   "Brakes firm, fluid at the correct level, pads within limits, lever and pedal set, no leaks."
+  ],
+  "title": "Check the brakes: feel, fluid, hoses and pads",
+  "completeness": "Covers lever and pedal feel, hose and fitting checks, fluid levels and top-up with cover torques, pad wear, lever position and pedal height. Does not cover pad replacement, bleeding or fluid replacement.",
+  "excluded": [
+   "Pad replacement",
+   "Bleeding and fluid replacement",
+   "Caliper or master cylinder overhaul"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Screwdrivers for the reservoir covers",
+    "size": null
+   },
+   {
+    "name": "Rags",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Brake fluid",
+    "purpose": "Honda DOT 4 brake fluid, from a sealed container."
+   }
+  ],
+  "prerequisites": [
+   "Bike clean around the reservoirs."
+  ],
+  "critical_stop_conditions": [
+   "Soft or spongy lever or pedal: do not ride.",
+   "Pad worn to 1.0 mm (0.04 in): replace both pads in that caliper before riding.",
+   "Fluid leak or damaged hose: repair before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "Check the brake fluid level, pad wear and the whole brake system every race (about 3.5 hours of riding). Replace the brake fluid every 2 years. Write down the date and anything the rider has noticed (soft lever, noise, fade).",
+    "depends_on": [],
+    "verification": [
+     "Date and complaints written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "feel",
+    "title": "Check lever and pedal feel",
+    "instruction": "Pull the front brake lever and press the rear pedal hard. Both must feel firm. A soft or spongy feel means air in the system: it must be bled before riding.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Lever and pedal firm."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "spongy",
+      "label": "Soft or spongy",
+      "next_step": "log",
+      "condition": "Do not ride: have the air bled out of that brake and recheck."
+     }
+    ]
+   },
+   {
+    "id": "hoses",
+    "title": "Check hoses and fittings",
+    "instruction": "Look along both brake hoses and at their fittings for cracks, chafing, swelling or wet spots. A loose hose oil bolt is tightened to 34 N·m; a damaged hose, oil bolt or sealing washer must be replaced.",
+    "depends_on": [
+     "feel"
+    ],
+    "verification": [
+     "Hoses and fittings dry and undamaged."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "front-level",
+    "title": "Check the front fluid level",
+    "instruction": "Turn the handlebar so the front reservoir is level and look at the fluid against the lower level line. Fluid drops as the pads wear, so a level near the lower line usually means worn pads; if the pads are fine and the level is low, look for a leak before topping up.",
+    "depends_on": [
+     "hoses"
+    ],
+    "verification": [
+     "Front level noted."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "rear-level",
+    "title": "Check the rear fluid level",
+    "instruction": "With the rear reservoir level, look at the fluid against its lower level line and read it the same way.",
+    "depends_on": [
+     "front-level"
+    ],
+    "verification": [
+     "Rear level noted."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "pads",
+    "title": "Check pad wear",
+    "instruction": "Look at the front and rear pads. If either pad in a caliper is worn to 1.0 mm (0.04 in) anywhere (the wear indicator on the pad marks this limit), replace both pads in that caliper.",
+    "depends_on": [
+     "rear-level"
+    ],
+    "verification": [
+     "Pad thickness checked front and rear."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "pads-worn",
+      "label": "Pads worn",
+      "next_step": "log",
+      "condition": "Replace both pads in that caliper before riding (separate job), then return to top up the fluid."
+     }
+    ]
+   },
+   {
+    "id": "top-up",
+    "title": "Top up if needed",
+    "instruction": "Lay rags around the reservoir: brake fluid damages paint and plastic. Front: remove the cover screws, the cover and the diaphragm, fill to the upper level line with Honda DOT 4 brake fluid from a sealed container, refit the diaphragm and cover and tighten the screws to 1 N·m. Rear: remove the cover bolts, cover, set plate and diaphragm, fill to the upper line, refit them and tighten the bolts to 1 N·m. Do not mix fluid types and do not let dirt in.",
+    "depends_on": [
+     "pads"
+    ],
+    "verification": [
+     "Both reservoirs at the upper line, covers torqued."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "lever-pos",
+    "title": "Set the brake lever position",
+    "instruction": "Loosen the brake lever adjuster lock nut; turn the adjuster clockwise to move the lever away from the grip, counterclockwise to bring it closer. Hold the adjuster and tighten the lock nut to 5.9 N·m.",
+    "depends_on": [
+     "top-up"
+    ],
+    "verification": [
+     "Lever where the rider wants it, lock nut torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "pedal",
+    "title": "Set the brake pedal height",
+    "instruction": "Loosen the rear master cylinder push rod lock nut and turn the push rod to set the pedal height, keeping the push rod length within 78.6–80.6 mm (3.09 - 3.17 in). Tighten the lock nut to 5.9 N·m.",
+    "depends_on": [
+     "lever-pos"
+    ],
+    "verification": [
+     "Pedal height set, push rod in range, lock nut torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "test",
+    "title": "Test",
+    "instruction": "Spin each wheel: the brake must not drag. Pump the lever and pedal and check they are firm, then test both brakes at low speed before riding.",
+    "depends_on": [
+     "pedal"
+    ],
+    "verification": [
+     "No drag, firm feel, brakes work."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "log",
+    "title": "Record",
+    "instruction": "Write down the pad condition, fluid levels, anything topped up or replaced and the date of the last fluid change.",
+    "depends_on": [
+     "test"
+    ],
+    "verification": [
+     "Logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450r-linkage-steering-check-v1-2021-2027",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2027
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "swingarm",
+   "linkage",
+   "shock",
+   "steering",
+   "front_wheel",
+   "rear_wheel"
+  ],
+  "entry_state": [
+   "Bike washed, on a stand."
+  ],
+  "exit_state": [
+   "Swingarm, linkage, shock, steering head and wheel bearings checked and findings logged."
+  ],
+  "title": "Check the swingarm, linkage, steering and wheel bearings",
+  "completeness": "Covers the play and smoothness checks for the swingarm pivot, shock linkage, shock, steering head and both wheel bearings, and when they are due for greasing. It does not take the linkage or steering apart.",
+  "excluded": [
+   "Swingarm or linkage strip-down and greasing",
+   "Steering head bearing adjustment or replacement",
+   "Wheel bearing replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand under the engine",
+    "size": null
+   },
+   {
+    "name": "Helper",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Bike washed."
+  ],
+  "critical_stop_conditions": [
+   "Knock or play at the swingarm, linkage or steering head: do not race until repaired.",
+   "Shock leaking oil: have it serviced before riding.",
+   "Steering notched at the centre: have the bearings replaced."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "The swingarm and shock linkage bearings are greased every 3 races (about 7.5 hours of riding), the steering head bearings checked every 9 races (about 22.5 hours of riding), and the suspension checked every race (about 2.5 hours of riding). Write down the date, hours and any handling complaint (headshake, rear end kicking, steering that sticks in the centre).",
+    "depends_on": [],
+    "verification": [
+     "Date, hours and complaints written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wash",
+    "title": "Clean the pivots",
+    "instruction": "Wash the bike, especially around the swingarm pivot, the linkage and the steering head, so you can see seals and feel play without grit in the way.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Pivots and linkage clean."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-up",
+    "title": "Lift the rear wheel",
+    "instruction": "Remove the engine guard and put a stand under the engine so the rear wheel is off the ground.",
+    "depends_on": [
+     "wash"
+    ],
+    "verification": [
+     "Rear wheel off the ground, bike stable."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "swingarm",
+    "title": "Check the swingarm bearings",
+    "instruction": "Grab the rear end of the swingarm and try to move it side to side. Any knock or movement means worn swingarm pivot bearings.",
+    "depends_on": [
+     "rear-up"
+    ],
+    "verification": [
+     "Swingarm side play checked."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "linkage",
+    "title": "Check the linkage bearings",
+    "instruction": "Lift the rear wheel up and down through its travel by hand (the shock spring will resist; a helper on the seat makes it easier). Feel for notchiness, tight spots or a knock at the linkage. Look at the linkage seals for missing or torn lips. The bearings are packed with molybdenum disulfide grease (over 3% MoS2, NLGI #2).",
+    "depends_on": [
+     "swingarm"
+    ],
+    "verification": [
+     "Linkage movement and seals checked."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "shock",
+    "title": "Check the shock",
+    "instruction": "Look over the whole shock for oil leaks, damage and loose mounting nuts. Compress the rear suspension a few times: it should move smoothly and return without knocking.",
+    "depends_on": [
+     "linkage"
+    ],
+    "verification": [
+     "Shock dry and moving smoothly."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "rear-wheel",
+    "title": "Check the rear wheel bearings",
+    "instruction": "Hold the swingarm and push the rear wheel hard sideways: any play is worn wheel bearings.",
+    "depends_on": [
+     "shock"
+    ],
+    "verification": [
+     "Rear wheel bearing play checked."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "front-up",
+    "title": "Lift the front wheel",
+    "instruction": "Move the stand so the front wheel is off the ground and the bike is stable.",
+    "depends_on": [
+     "rear-wheel"
+    ],
+    "verification": [
+     "Front wheel off the ground."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "steering",
+    "title": "Check the steering head bearings",
+    "instruction": "Turn the handlebar slowly from lock to lock: it must move freely with no notch at the centre, and no cable may pull or bind. Hold the bottom of the fork legs and push and pull them forward and back: any knock at the steering head means loose or worn bearings. The steering head bearings are packed with urea based EP grease, NLGI #2, 3–5 g per bearing.",
+    "depends_on": [
+     "front-up"
+    ],
+    "verification": [
+     "Steering smooth lock to lock, no fore-aft play."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "front-wheel",
+    "title": "Check the front wheel bearings",
+    "instruction": "Hold a fork leg and push the front wheel hard sideways: any play is worn wheel bearings.",
+    "depends_on": [
+     "steering"
+    ],
+    "verification": [
+     "Front wheel bearing play checked."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "decide",
+    "title": "Decide what is needed",
+    "instruction": "If everything is tight and smooth and the linkage is not due for greasing, you are done. If anything has play, notches or a torn seal, or the greasing interval is due, the swingarm, linkage or steering head has to come apart for cleaning, greasing or new bearings: book it as a separate job and do not race the bike with a knocking pivot.",
+    "depends_on": [
+     "front-wheel"
+    ],
+    "verification": [
+     "Decision recorded."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "ok",
+      "label": "All good",
+      "next_step": "log",
+      "condition": "No play, no notches, seals intact."
+     },
+     {
+      "id": "service",
+      "label": "Needs service",
+      "next_step": "log",
+      "condition": "Play, notches, torn seals or greasing due: plan the strip-down."
+     }
+    ]
+   },
+   {
+    "id": "log",
+    "title": "Record",
+    "instruction": "Refit the engine guard. Write down what you found at each pivot and what needs doing.",
+    "depends_on": [
+     "decide"
+    ],
+    "verification": [
+     "Guard refitted, findings logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450rx-linkage-steering-check-v1-2021-2027",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450RX",
+    "model_year": 2027
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "swingarm",
+   "linkage",
+   "shock",
+   "steering",
+   "front_wheel",
+   "rear_wheel"
+  ],
+  "entry_state": [
+   "Bike washed, on a stand."
+  ],
+  "exit_state": [
+   "Swingarm, linkage, shock, steering head and wheel bearings checked and findings logged."
+  ],
+  "title": "Check the swingarm, linkage, steering and wheel bearings",
+  "completeness": "Covers the play and smoothness checks for the swingarm pivot, shock linkage, shock, steering head and both wheel bearings, and when they are due for greasing. It does not take the linkage or steering apart.",
+  "excluded": [
+   "Swingarm or linkage strip-down and greasing",
+   "Steering head bearing adjustment or replacement",
+   "Wheel bearing replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand under the engine",
+    "size": null
+   },
+   {
+    "name": "Helper",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Bike washed."
+  ],
+  "critical_stop_conditions": [
+   "Knock or play at the swingarm, linkage or steering head: do not race until repaired.",
+   "Shock leaking oil: have it serviced before riding.",
+   "Steering notched at the centre: have the bearings replaced."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Note the starting point",
+    "instruction": "The swingarm and shock linkage bearings are greased every 2 races (about 7.5 hours of riding), the steering head bearings checked every 6 races (about 22.5 hours of riding), and the suspension checked every race (about 3.5 hours of riding). Write down the date, hours and any handling complaint (headshake, rear end kicking, steering that sticks in the centre).",
+    "depends_on": [],
+    "verification": [
+     "Date, hours and complaints written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wash",
+    "title": "Clean the pivots",
+    "instruction": "Wash the bike, especially around the swingarm pivot, the linkage and the steering head, so you can see seals and feel play without grit in the way.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Pivots and linkage clean."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-up",
+    "title": "Lift the rear wheel",
+    "instruction": "Remove the engine guard and put a stand under the engine so the rear wheel is off the ground.",
+    "depends_on": [
+     "wash"
+    ],
+    "verification": [
+     "Rear wheel off the ground, bike stable."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "swingarm",
+    "title": "Check the swingarm bearings",
+    "instruction": "Grab the rear end of the swingarm and try to move it side to side. Any knock or movement means worn swingarm pivot bearings.",
+    "depends_on": [
+     "rear-up"
+    ],
+    "verification": [
+     "Swingarm side play checked."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "linkage",
+    "title": "Check the linkage bearings",
+    "instruction": "Lift the rear wheel up and down through its travel by hand (the shock spring will resist; a helper on the seat makes it easier). Feel for notchiness, tight spots or a knock at the linkage. Look at the linkage seals for missing or torn lips. The bearings are packed with molybdenum disulfide grease (over 3% MoS2, NLGI #2).",
+    "depends_on": [
+     "swingarm"
+    ],
+    "verification": [
+     "Linkage movement and seals checked."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "shock",
+    "title": "Check the shock",
+    "instruction": "Look over the whole shock for oil leaks, damage and loose mounting nuts. Compress the rear suspension a few times: it should move smoothly and return without knocking.",
+    "depends_on": [
+     "linkage"
+    ],
+    "verification": [
+     "Shock dry and moving smoothly."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "rear-wheel",
+    "title": "Check the rear wheel bearings",
+    "instruction": "Hold the swingarm and push the rear wheel hard sideways: any play is worn wheel bearings.",
+    "depends_on": [
+     "shock"
+    ],
+    "verification": [
+     "Rear wheel bearing play checked."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "front-up",
+    "title": "Lift the front wheel",
+    "instruction": "Move the stand so the front wheel is off the ground and the bike is stable.",
+    "depends_on": [
+     "rear-wheel"
+    ],
+    "verification": [
+     "Front wheel off the ground."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "steering",
+    "title": "Check the steering head bearings",
+    "instruction": "Turn the handlebar slowly from lock to lock: it must move freely with no notch at the centre, and no cable may pull or bind. Hold the bottom of the fork legs and push and pull them forward and back: any knock at the steering head means loose or worn bearings. The steering head bearings are packed with urea based EP grease, NLGI #2, 3–5 g per bearing.",
+    "depends_on": [
+     "front-up"
+    ],
+    "verification": [
+     "Steering smooth lock to lock, no fore-aft play."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "front-wheel",
+    "title": "Check the front wheel bearings",
+    "instruction": "Hold a fork leg and push the front wheel hard sideways: any play is worn wheel bearings.",
+    "depends_on": [
+     "steering"
+    ],
+    "verification": [
+     "Front wheel bearing play checked."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "decide",
+    "title": "Decide what is needed",
+    "instruction": "If everything is tight and smooth and the linkage is not due for greasing, you are done. If anything has play, notches or a torn seal, or the greasing interval is due, the swingarm, linkage or steering head has to come apart for cleaning, greasing or new bearings: book it as a separate job and do not race the bike with a knocking pivot.",
+    "depends_on": [
+     "front-wheel"
+    ],
+    "verification": [
+     "Decision recorded."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "ok",
+      "label": "All good",
+      "next_step": "log",
+      "condition": "No play, no notches, seals intact."
+     },
+     {
+      "id": "service",
+      "label": "Needs service",
+      "next_step": "log",
+      "condition": "Play, notches, torn seals or greasing due: plan the strip-down."
+     }
+    ]
+   },
+   {
+    "id": "log",
+    "title": "Record",
+    "instruction": "Refit the engine guard. Write down what you found at each pivot and what needs doing.",
+    "depends_on": [
+     "decide"
+    ],
+    "verification": [
+     "Guard refitted, findings logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450r-pre-ride-check-v1-2021-2026",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "tires",
+   "wheels",
+   "engine",
+   "cooling",
+   "brakes",
+   "clutch",
+   "chain",
+   "fork",
+   "shock",
+   "controls"
+  ],
+  "entry_state": [
+   "Bike ready to ride, engine cold."
+  ],
+  "exit_state": [
+   "Every pre-ride item checked and corrected, findings noted."
+  ],
+  "title": "Pre-ride check",
+  "completeness": "Covers tyres and wheels, oil, coolant, air filter, throttle, clutch, brakes, chain, fork air, suspension, key fasteners and a start-up check.",
+  "excluded": [
+   "Any repair found during the check (use the matching guide)."
+  ],
+  "required_tools": [
+   {
+    "name": "Tyre pressure gauge",
+    "size": null
+   },
+   {
+    "name": "Spoke wrenches",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   },
+   {
+    "name": "Stand",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Engine cold for the coolant check."
+  ],
+  "critical_stop_conditions": [
+   "Brake soft, leaking or pads at the limit: do not ride.",
+   "Throttle not snapping shut: do not ride.",
+   "Oil or coolant low or leaking: fix before riding.",
+   "Chain out of range or slider worn through: fix before riding."
+  ],
+  "steps": [
+   {
+    "id": "walk-round",
+    "title": "Walk round the bike",
+    "instruction": "Look for anything loose, cracked, leaking or missing: fluid under the bike, hanging hoses or wires, bent levers, damaged plastics.",
+    "depends_on": [],
+    "verification": [
+     "Nothing loose, leaking or damaged."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tires",
+    "title": "Tyres and wheels",
+    "instruction": "Set both tyres cold to 100 kPa (15 psi). Look for cuts or nails. Check the spokes: tighten any loose one to 3.7 N·m with a spoke wrench, and check the rim locks are at 12 N·m.",
+    "depends_on": [
+     "walk-round"
+    ],
+    "verification": [
+     "Pressures set cold, spokes and rim locks tight."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "oil",
+    "title": "Engine oil level",
+    "instruction": "After the engine has idled for 3 minutes and stood for 3 minutes, with the bike upright on level ground, the oil must show between the lines in the inspection window. Top up if it is near the lower line.",
+    "depends_on": [
+     "tires"
+    ],
+    "verification": [
+     "Oil between the lines."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "coolant",
+    "title": "Coolant",
+    "instruction": "Engine cold: coolant up to the filler neck, radiator cap fully home, no leaks at the hoses or water pump, radiator fins clear. Shroud upper bolt back in at 5.2 N·m after checking.",
+    "depends_on": [
+     "oil"
+    ],
+    "verification": [
+     "Coolant at the neck, no leaks."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "air",
+    "title": "Air filter",
+    "instruction": "Air filter clean and oiled, seated evenly, airbox lid and side cover on.",
+    "depends_on": [
+     "coolant"
+    ],
+    "verification": [
+     "Clean filter fitted correctly."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "throttle",
+    "title": "Throttle",
+    "instruction": "Turn the bars lock to lock: the throttle must open smoothly and snap shut in every position. Free play at the grip flange: 2–6 mm (1/16 - 1/4 in).",
+    "depends_on": [
+     "air"
+    ],
+    "verification": [
+     "Throttle snaps shut, free play in range."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "clutch",
+    "title": "Clutch",
+    "instruction": "Pull the clutch lever: it must feel firm, and the fluid in the clutch reservoir must be at the level line.",
+    "depends_on": [
+     "throttle"
+    ],
+    "verification": [
+     "Clutch checked."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "brakes",
+    "title": "Brakes",
+    "instruction": "Front lever and rear pedal firm, both fluid levels above the lower line, pads not worn to the limit, no leaks.",
+    "depends_on": [
+     "clutch"
+    ],
+    "verification": [
+     "Brakes firm, levels and pads OK."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "chain",
+    "title": "Chain",
+    "instruction": "Rear wheel off the ground: slack 65–70 mm (2 1/2 - 2 3/4 in) measured from the top of the swingarm to the chain pin centre at the rear end of the slider. Chain lubed, slider and rollers not worn through, adjuster lock nuts tight.",
+    "depends_on": [
+     "brakes"
+    ],
+    "verification": [
+     "Slack in range, chain lubed."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "fork-air",
+    "title": "Release fork air",
+    "instruction": "Front wheel off the ground, fork fully extended: loosen each fork plug bolt to let built-up air out, then tighten it to 1.3 N·m.",
+    "depends_on": [
+     "chain"
+    ],
+    "verification": [
+     "Air released both legs."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "suspension",
+    "title": "Suspension and steering",
+    "instruction": "Bounce the front and rear: smooth, no knocks, no oil on the fork tubes or shock. Clicker settings where the rider wants them. Steering turns freely lock to lock.",
+    "depends_on": [
+     "fork-air"
+    ],
+    "verification": [
+     "Suspension and steering OK."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fasteners",
+    "title": "Nuts and bolts",
+    "instruction": "Check the axle nuts, the handlebar holder bolts (22 N·m), the exhaust pipe joint nuts (20 N·m) and the muffler joint band bolt (20 N·m), and that all safety clips, hose bands and cable ties are in place.",
+    "depends_on": [
+     "suspension"
+    ],
+    "verification": [
+     "Key fasteners tight, clips in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "start",
+    "title": "Start and listen",
+    "instruction": "Start the engine and let it warm up. Listen for new noises, check the idle is steady and the engine stop works.",
+    "depends_on": [
+     "fasteners"
+    ],
+    "verification": [
+     "Engine runs and stops normally."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "log",
+    "title": "Record",
+    "instruction": "Note anything you adjusted or found, so it is checked again after the ride.",
+    "depends_on": [
+     "start"
+    ],
+    "verification": [
+     "Checklist done and noted."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450r-pre-ride-check-v1-2027",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2027
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "tires",
+   "wheels",
+   "engine",
+   "cooling",
+   "brakes",
+   "clutch",
+   "chain",
+   "fork",
+   "shock",
+   "controls"
+  ],
+  "entry_state": [
+   "Bike ready to ride, engine cold."
+  ],
+  "exit_state": [
+   "Every pre-ride item checked and corrected, findings noted."
+  ],
+  "title": "Pre-ride check",
+  "completeness": "Covers tyres and wheels, oil, coolant, air filter, throttle, clutch, brakes, chain, fork air, suspension, key fasteners and a start-up check.",
+  "excluded": [
+   "Any repair found during the check (use the matching guide)."
+  ],
+  "required_tools": [
+   {
+    "name": "Tyre pressure gauge",
+    "size": null
+   },
+   {
+    "name": "Spoke wrenches",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   },
+   {
+    "name": "Stand",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Engine cold for the coolant check."
+  ],
+  "critical_stop_conditions": [
+   "Brake soft, leaking or pads at the limit: do not ride.",
+   "Throttle not snapping shut: do not ride.",
+   "Oil or coolant low or leaking: fix before riding.",
+   "Chain out of range or slider worn through: fix before riding."
+  ],
+  "steps": [
+   {
+    "id": "walk-round",
+    "title": "Walk round the bike",
+    "instruction": "Look for anything loose, cracked, leaking or missing: fluid under the bike, hanging hoses or wires, bent levers, damaged plastics.",
+    "depends_on": [],
+    "verification": [
+     "Nothing loose, leaking or damaged."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tires",
+    "title": "Tyres and wheels",
+    "instruction": "Set both tyres cold to 100 kPa (15 psi). Look for cuts or nails. Check the spokes: tighten any loose one to 3.7 N·m with a spoke wrench, and check the rim locks are at 12 N·m.",
+    "depends_on": [
+     "walk-round"
+    ],
+    "verification": [
+     "Pressures set cold, spokes and rim locks tight."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "oil",
+    "title": "Engine oil level",
+    "instruction": "After the engine has idled for 3 minutes and stood for 3 minutes, with the bike upright on level ground, the oil must show between the lines in the inspection window. Top up if it is near the lower line.",
+    "depends_on": [
+     "tires"
+    ],
+    "verification": [
+     "Oil between the lines."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "coolant",
+    "title": "Coolant",
+    "instruction": "Engine cold: coolant up to the filler neck, radiator cap fully home, no leaks at the hoses or water pump, radiator fins clear. Shroud upper bolt back in at 5.2 N·m after checking.",
+    "depends_on": [
+     "oil"
+    ],
+    "verification": [
+     "Coolant at the neck, no leaks."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "air",
+    "title": "Air filter",
+    "instruction": "Air filter clean and oiled, seated evenly, airbox lid and side cover on.",
+    "depends_on": [
+     "coolant"
+    ],
+    "verification": [
+     "Clean filter fitted correctly."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "throttle",
+    "title": "Throttle",
+    "instruction": "Turn the bars lock to lock: the throttle must open smoothly and snap shut in every position. Free play at the grip flange: 2–6 mm (1/16 - 1/4 in).",
+    "depends_on": [
+     "air"
+    ],
+    "verification": [
+     "Throttle snaps shut, free play in range."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "clutch",
+    "title": "Clutch",
+    "instruction": "Pull the clutch lever: it must feel firm, and the fluid in the clutch reservoir must be at the level line.",
+    "depends_on": [
+     "throttle"
+    ],
+    "verification": [
+     "Clutch checked."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "brakes",
+    "title": "Brakes",
+    "instruction": "Front lever and rear pedal firm, both fluid levels above the lower line, pads not worn to the limit, no leaks.",
+    "depends_on": [
+     "clutch"
+    ],
+    "verification": [
+     "Brakes firm, levels and pads OK."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "chain",
+    "title": "Chain",
+    "instruction": "Rear wheel off the ground: slack 68–73 mm (2 11/16 - 2 7/8 in) measured from the top of the swingarm to the chain pin centre at the rear end of the slider. Chain lubed, slider and rollers not worn through, adjuster lock nuts tight.",
+    "depends_on": [
+     "brakes"
+    ],
+    "verification": [
+     "Slack in range, chain lubed."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "fork-air",
+    "title": "Release fork air",
+    "instruction": "Front wheel off the ground, fork fully extended: loosen each fork plug bolt to let built-up air out, then tighten it to 1.3 N·m.",
+    "depends_on": [
+     "chain"
+    ],
+    "verification": [
+     "Air released both legs."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "suspension",
+    "title": "Suspension and steering",
+    "instruction": "Bounce the front and rear: smooth, no knocks, no oil on the fork tubes or shock. Clicker settings where the rider wants them. Steering turns freely lock to lock.",
+    "depends_on": [
+     "fork-air"
+    ],
+    "verification": [
+     "Suspension and steering OK."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fasteners",
+    "title": "Nuts and bolts",
+    "instruction": "Check the axle nuts, the handlebar holder bolts (22 N·m), the exhaust pipe joint nuts (20 N·m) and the muffler joint band bolt (20 N·m), and that all safety clips, hose bands and cable ties are in place.",
+    "depends_on": [
+     "suspension"
+    ],
+    "verification": [
+     "Key fasteners tight, clips in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "start",
+    "title": "Start and listen",
+    "instruction": "Start the engine and let it warm up. Listen for new noises, check the idle is steady and the engine stop works.",
+    "depends_on": [
+     "fasteners"
+    ],
+    "verification": [
+     "Engine runs and stops normally."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "log",
+    "title": "Record",
+    "instruction": "Note anything you adjusted or found, so it is checked again after the ride.",
+    "depends_on": [
+     "start"
+    ],
+    "verification": [
+     "Checklist done and noted."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450r-after-wash-check-v1-2021-2024",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2024
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "intake",
+   "chain",
+   "fork",
+   "controls",
+   "brakes",
+   "frame"
+  ],
+  "entry_state": [
+   "Bike dirty after riding, engine cool."
+  ],
+  "exit_state": [
+   "Bike clean and dry, airbox drained, chain lubed, fork air released, cables lubed, damage noted."
+  ],
+  "title": "After-wash check",
+  "completeness": "Covers washing without forcing water past seals, drying and draining the airbox, the air filter, chain care, fork seal cleaning and air release, cable lubrication and a damage check.",
+  "excluded": [
+   "Repairs found during the check (use the matching guide)."
+  ],
+  "required_tools": [
+   {
+    "name": "Low pressure washer or hose",
+    "size": null
+   },
+   {
+    "name": "Brushes",
+    "size": null
+   },
+   {
+    "name": "Compressed air or towels",
+    "size": null
+   },
+   {
+    "name": "Muffler plug",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Spoke wrench",
+    "size": null
+   },
+   {
+    "name": "Stand",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Chain lube",
+    "purpose": "Honda HP Chain Lube or equivalent."
+   },
+   {
+    "name": "Cable lubricant",
+    "purpose": "For the control cables."
+   }
+  ],
+  "prerequisites": [
+   "Engine and exhaust cool."
+  ],
+  "critical_stop_conditions": [
+   "Water on the clean side of the air filter: dry the intake and do not start until the filter is serviced.",
+   "Crack found in the frame, swingarm or a radiator: do not ride.",
+   "Brakes not firm after washing: do not ride until checked."
+  ],
+  "steps": [
+   {
+    "id": "before",
+    "title": "Before you wash",
+    "instruction": "Let the engine and exhaust cool. Plug the muffler outlet and make sure the airbox is closed and the filter is fitted so water cannot get into the intake.",
+    "depends_on": [],
+    "verification": [
+     "Muffler plugged, airbox closed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wash",
+    "title": "Wash gently around the sensitive parts",
+    "instruction": "Use low pressure around the fork seals, the steering head, the swingarm and linkage pivots, the wheel bearings, electrical connectors and the airbox. High pressure pushes water and grit past seals.",
+    "depends_on": [
+     "before"
+    ],
+    "verification": [
+     "Bike washed without blasting seals."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "dry",
+    "title": "Dry it",
+    "instruction": "Remove the muffler plug. Blow or wipe off standing water, especially round the airbox, connectors and the chain. Open the drain plug on the airbox drain hose, let out any water and close it again.",
+    "depends_on": [
+     "wash"
+    ],
+    "verification": [
+     "Bike dry, airbox drain emptied."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "air-filter",
+    "title": "Check the air filter",
+    "instruction": "Take the air filter out and look for water or dirt on the clean side. A wet or dirty filter gets cleaned and re-oiled now.",
+    "depends_on": [
+     "dry"
+    ],
+    "verification": [
+     "Filter dry and clean, or serviced."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "chain",
+    "title": "Chain",
+    "instruction": "Clean the chain if needed, let it dry and lubricate it with Honda HP Chain Lube or equivalent; wipe off the excess. Check the slack is 65–70 mm (2 1/2 - 2 3/4 in).",
+    "depends_on": [
+     "air-filter"
+    ],
+    "verification": [
+     "Chain dry, lubed, slack in range."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fork",
+    "title": "Fork seals and air",
+    "instruction": "Clean the fork tubes and push any dirt out from under the dust seals; dirt there makes seals leak. Front wheel off the ground: let the air out of each leg at the fork plug bolt and tighten it to 1.3 N·m.",
+    "depends_on": [
+     "chain"
+    ],
+    "verification": [
+     "Fork tubes and dust seals clean, air released."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cables",
+    "title": "Cables and controls",
+    "instruction": "Lubricate the control cables (they are due every race (about 2.5 hours of riding)). Check the throttle snaps shut in every steering position.",
+    "depends_on": [
+     "fork"
+    ],
+    "verification": [
+     "Cables lubed, throttle returns."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "inspect",
+    "title": "Look it over while it is clean",
+    "instruction": "A clean bike shows cracks and leaks: check the frame and swingarm for cracks, the radiators and hoses for damage, the fork and shock for oil, and the spokes (tighten loose ones to 3.7 N·m). Check the brake pads and that both brakes feel firm.",
+    "depends_on": [
+     "cables"
+    ],
+    "verification": [
+     "Frame, cooling, suspension, spokes and brakes checked."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "run",
+    "title": "Run it to dry it out",
+    "instruction": "Start the engine and let it warm up so moisture is driven out, then use the brakes gently a few times to dry the discs before riding.",
+    "depends_on": [
+     "inspect"
+    ],
+    "verification": [
+     "Engine warmed, brakes dried."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "log",
+    "title": "Record",
+    "instruction": "Note anything found so it is fixed before the next ride.",
+    "depends_on": [
+     "run"
+    ],
+    "verification": [
+     "Logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450r-after-wash-check-v1-2025-2026",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "intake",
+   "chain",
+   "fork",
+   "controls",
+   "brakes",
+   "frame"
+  ],
+  "entry_state": [
+   "Bike dirty after riding, engine cool."
+  ],
+  "exit_state": [
+   "Bike clean and dry, airbox drained, chain lubed, fork air released, cables lubed, damage noted."
+  ],
+  "title": "After-wash check",
+  "completeness": "Covers washing without forcing water past seals, drying and draining the airbox, the air filter, chain care, fork seal cleaning and air release, cable lubrication and a damage check.",
+  "excluded": [
+   "Repairs found during the check (use the matching guide)."
+  ],
+  "required_tools": [
+   {
+    "name": "Low pressure washer or hose",
+    "size": null
+   },
+   {
+    "name": "Brushes",
+    "size": null
+   },
+   {
+    "name": "Compressed air or towels",
+    "size": null
+   },
+   {
+    "name": "Muffler plug",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Spoke wrench",
+    "size": null
+   },
+   {
+    "name": "Stand",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Chain lube",
+    "purpose": "Honda HP Chain Lube or equivalent."
+   },
+   {
+    "name": "Cable lubricant",
+    "purpose": "For the control cables."
+   }
+  ],
+  "prerequisites": [
+   "Engine and exhaust cool."
+  ],
+  "critical_stop_conditions": [
+   "Water on the clean side of the air filter: dry the intake and do not start until the filter is serviced.",
+   "Crack found in the frame, swingarm or a radiator: do not ride.",
+   "Brakes not firm after washing: do not ride until checked."
+  ],
+  "steps": [
+   {
+    "id": "before",
+    "title": "Before you wash",
+    "instruction": "Let the engine and exhaust cool. Plug the muffler outlet and make sure the airbox is closed and the filter is fitted so water cannot get into the intake.",
+    "depends_on": [],
+    "verification": [
+     "Muffler plugged, airbox closed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wash",
+    "title": "Wash gently around the sensitive parts",
+    "instruction": "Use low pressure around the fork seals, the steering head, the swingarm and linkage pivots, the wheel bearings, electrical connectors and the airbox. High pressure pushes water and grit past seals.",
+    "depends_on": [
+     "before"
+    ],
+    "verification": [
+     "Bike washed without blasting seals."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "dry",
+    "title": "Dry it",
+    "instruction": "Remove the muffler plug. Blow or wipe off standing water, especially round the airbox, connectors and the chain. Open the airbox drain tube, let out any water and close it again.",
+    "depends_on": [
+     "wash"
+    ],
+    "verification": [
+     "Bike dry, airbox drain emptied."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "air-filter",
+    "title": "Check the air filter",
+    "instruction": "Take the air filter out and look for water or dirt on the clean side. A wet or dirty filter gets cleaned and re-oiled now.",
+    "depends_on": [
+     "dry"
+    ],
+    "verification": [
+     "Filter dry and clean, or serviced."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "chain",
+    "title": "Chain",
+    "instruction": "Clean the chain if needed, let it dry and lubricate it with Honda HP Chain Lube or equivalent; wipe off the excess. Check the slack is 65–70 mm (2 1/2 - 2 3/4 in).",
+    "depends_on": [
+     "air-filter"
+    ],
+    "verification": [
+     "Chain dry, lubed, slack in range."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fork",
+    "title": "Fork seals and air",
+    "instruction": "Clean the fork tubes and push any dirt out from under the dust seals; dirt there makes seals leak. Front wheel off the ground: let the air out of each leg at the fork plug bolt and tighten it to 1.3 N·m.",
+    "depends_on": [
+     "chain"
+    ],
+    "verification": [
+     "Fork tubes and dust seals clean, air released."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cables",
+    "title": "Cables and controls",
+    "instruction": "Lubricate the control cables (they are due every race (about 2.5 hours of riding)). Check the throttle snaps shut in every steering position.",
+    "depends_on": [
+     "fork"
+    ],
+    "verification": [
+     "Cables lubed, throttle returns."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "inspect",
+    "title": "Look it over while it is clean",
+    "instruction": "A clean bike shows cracks and leaks: check the frame and swingarm for cracks, the radiators and hoses for damage, the fork and shock for oil, and the spokes (tighten loose ones to 3.7 N·m). Check the brake pads and that both brakes feel firm.",
+    "depends_on": [
+     "cables"
+    ],
+    "verification": [
+     "Frame, cooling, suspension, spokes and brakes checked."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "run",
+    "title": "Run it to dry it out",
+    "instruction": "Start the engine and let it warm up so moisture is driven out, then use the brakes gently a few times to dry the discs before riding.",
+    "depends_on": [
+     "inspect"
+    ],
+    "verification": [
+     "Engine warmed, brakes dried."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "log",
+    "title": "Record",
+    "instruction": "Note anything found so it is fixed before the next ride.",
+    "depends_on": [
+     "run"
+    ],
+    "verification": [
+     "Logged."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-honda-crf450r-after-wash-check-v1-2027",
+  "targets": [
+   {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2027
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "intake",
+   "chain",
+   "fork",
+   "controls",
+   "brakes",
+   "frame"
+  ],
+  "entry_state": [
+   "Bike dirty after riding, engine cool."
+  ],
+  "exit_state": [
+   "Bike clean and dry, airbox drained, chain lubed, fork air released, cables lubed, damage noted."
+  ],
+  "title": "After-wash check",
+  "completeness": "Covers washing without forcing water past seals, drying and draining the airbox, the air filter, chain care, fork seal cleaning and air release, cable lubrication and a damage check.",
+  "excluded": [
+   "Repairs found during the check (use the matching guide)."
+  ],
+  "required_tools": [
+   {
+    "name": "Low pressure washer or hose",
+    "size": null
+   },
+   {
+    "name": "Brushes",
+    "size": null
+   },
+   {
+    "name": "Compressed air or towels",
+    "size": null
+   },
+   {
+    "name": "Muffler plug",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Spoke wrench",
+    "size": null
+   },
+   {
+    "name": "Stand",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Chain lube",
+    "purpose": "Honda HP Chain Lube or equivalent."
+   },
+   {
+    "name": "Cable lubricant",
+    "purpose": "For the control cables."
+   }
+  ],
+  "prerequisites": [
+   "Engine and exhaust cool."
+  ],
+  "critical_stop_conditions": [
+   "Water on the clean side of the air filter: dry the intake and do not start until the filter is serviced.",
+   "Crack found in the frame, swingarm or a radiator: do not ride.",
+   "Brakes not firm after washing: do not ride until checked."
+  ],
+  "steps": [
+   {
+    "id": "before",
+    "title": "Before you wash",
+    "instruction": "Let the engine and exhaust cool. Plug the muffler outlet and make sure the airbox is closed and the filter is fitted so water cannot get into the intake.",
+    "depends_on": [],
+    "verification": [
+     "Muffler plugged, airbox closed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wash",
+    "title": "Wash gently around the sensitive parts",
+    "instruction": "Use low pressure around the fork seals, the steering head, the swingarm and linkage pivots, the wheel bearings, electrical connectors and the airbox. High pressure pushes water and grit past seals.",
+    "depends_on": [
+     "before"
+    ],
+    "verification": [
+     "Bike washed without blasting seals."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "dry",
+    "title": "Dry it",
+    "instruction": "Remove the muffler plug. Blow or wipe off standing water, especially round the airbox, connectors and the chain. Open the airbox drain tube, let out any water and close it again.",
+    "depends_on": [
+     "wash"
+    ],
+    "verification": [
+     "Bike dry, airbox drain emptied."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "air-filter",
+    "title": "Check the air filter",
+    "instruction": "Take the air filter out and look for water or dirt on the clean side. A wet or dirty filter gets cleaned and re-oiled now.",
+    "depends_on": [
+     "dry"
+    ],
+    "verification": [
+     "Filter dry and clean, or serviced."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "chain",
+    "title": "Chain",
+    "instruction": "Clean the chain if needed, let it dry and lubricate it with Honda HP Chain Lube or equivalent; wipe off the excess. Check the slack is 68–73 mm (2 11/16 - 2 7/8 in).",
+    "depends_on": [
+     "air-filter"
+    ],
+    "verification": [
+     "Chain dry, lubed, slack in range."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fork",
+    "title": "Fork seals and air",
+    "instruction": "Clean the fork tubes and push any dirt out from under the dust seals; dirt there makes seals leak. Front wheel off the ground: let the air out of each leg at the fork plug bolt and tighten it to 1.3 N·m.",
+    "depends_on": [
+     "chain"
+    ],
+    "verification": [
+     "Fork tubes and dust seals clean, air released."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cables",
+    "title": "Cables and controls",
+    "instruction": "Lubricate the control cables (they are due every race (about 2.5 hours of riding)). Check the throttle snaps shut in every steering position.",
+    "depends_on": [
+     "fork"
+    ],
+    "verification": [
+     "Cables lubed, throttle returns."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "inspect",
+    "title": "Look it over while it is clean",
+    "instruction": "A clean bike shows cracks and leaks: check the frame and swingarm for cracks, the radiators and hoses for damage, the fork and shock for oil, and the spokes (tighten loose ones to 3.7 N·m). Check the brake pads and that both brakes feel firm.",
+    "depends_on": [
+     "cables"
+    ],
+    "verification": [
+     "Frame, cooling, suspension, spokes and brakes checked."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "run",
+    "title": "Run it to dry it out",
+    "instruction": "Start the engine and let it warm up so moisture is driven out, then use the brakes gently a few times to dry the discs before riding.",
+    "depends_on": [
+     "inspect"
+    ],
+    "verification": [
+     "Engine warmed, brakes dried."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "log",
+    "title": "Record",
+    "instruction": "Note anything found so it is fixed before the next ride.",
+    "depends_on": [
+     "run"
+    ],
+    "verification": [
+     "Logged."
+    ],
+    "record_required": true
+   }
+  ]
+ }
+]
