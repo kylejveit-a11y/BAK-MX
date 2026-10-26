@@ -1,0 +1,2856 @@
+{
+ "articles": [
+  {
+   "url": "https://repsuspension.com/blogs/tested/fine-tuning-your-spring-suspension-simplified-by-mark-johnson",
+   "title": "Fine-Tuning Your Spring: Suspension Simplified by Mark Johnson",
+   "date": "2024-11-14",
+   "outlet": "REP Suspension (Mark Johnson)",
+   "type": "general_tech",
+   "make": "",
+   "model": "",
+   "years": [],
+   "findings": [
+    {
+     "aspect": "suspension_rear",
+     "verdict": "fix",
+     "claim": "A rear that sinks deep into a long, loaded jump face lacks low-speed compression.",
+     "fix": "Add low-speed compression."
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "fix",
+     "claim": "A rear that kicks on sharp holes exiting corners has too much high-speed compression.",
+     "fix": "Reduce high-speed compression; doing this together with adding LSC can cure both without upsetting balance."
+    },
+    {
+     "aspect": "balance",
+     "verdict": "fix",
+     "claim": "A wallowing, rolling feel means the chassis is under-damped for the spring.",
+     "fix": "Add damping to make the bike predictable again."
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "neutral",
+     "claim": "For a stiffer overall feel, more preload stiffens evenly; a stiffer spring with less preload gives more support deep in the stroke.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": [
+    "Springs respond to position, damping responds to shaft speed; tuning is the balance between the two.",
+    "A heavier spring with lighter damping can improve comfort and front feel, but past a point the bike starts to oscillate.",
+    "Preload shifts the whole spring force curve; spring rate changes its slope.",
+    "Rider feel can disagree with the numbers, so every change must be ridden and tested."
+   ]
+  },
+  {
+   "url": "https://repsuspension.com/blogs/tested/which-suspension-should-you-use-suspension-simplified-by-mark-johnson",
+   "title": "Which Suspension Should You Use: Suspension Simplified by Mark Johnson",
+   "date": "2024-08-14",
+   "outlet": "REP Suspension (Mark Johnson)",
+   "type": "bike_specific",
+   "make": "KTM",
+   "model": "450 SX-F",
+   "years": [
+    2024
+   ],
+   "findings": [
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "claim": "The 2024 KTM chassis draws common complaints about poor hold-up and hand feel, with a harsh spot in mid-stroke.",
+     "fix": "Either lift the bike above the harsh zone or let it pass through it smoothly."
+    },
+    {
+     "aspect": "balance",
+     "verdict": "neutral",
+     "claim": "The chassis tends to force a choice between handling precision and comfort.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "fix",
+     "claim": "Adding outer-chamber air to a coil cone-valve fork made it over-sprung and harsh, though bottoming improved.",
+     "fix": "Lighter mechanical spring plus reduced damping with the added air restored comfort and kept the hold-up; ranked best of three setups."
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "neutral",
+     "claim": "A valved stock WP fork and shock came a close second: better mid-corner and comfort, less precision.",
+     "fix": "Initial setting too soft; damping was firmed."
+    }
+   ],
+   "baselines": [],
+   "principles": [
+    "Damping, spring rate and air pressure must be tuned together; changing one shifts the others' best value."
+   ]
+  },
+  {
+   "url": "https://repsuspension.com/blogs/tested/unveiling-precision-settings-for-wp-pro-components-on-the-ktm-450-sx-f-with-rep-suspension",
+   "title": "Unveiling Precision Settings for WP Pro Components on the KTM 450 SX-F with REP Suspension",
+   "date": "2024-03-20",
+   "outlet": "REP Suspension (reprint of a Keefer test)",
+   "type": "bike_specific",
+   "make": "KTM",
+   "model": "450 SX-F",
+   "years": [
+    2021
+   ],
+   "findings": [
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "claim": "Stock AER air fork was stiff when new, harsh mid-stroke on braking bumps, and sat too low when air was reduced.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "fix",
+     "claim": "Earlier cone-valve setting deflected and felt harsh when the front was loaded leaned over on throttle.",
+     "fix": "REP setting softer at the top with progressive damping build cut the slap-down feel and improved front contact."
+    },
+    {
+     "aspect": "turning",
+     "verdict": "neutral",
+     "claim": "The WP cone-valve fork gave heavier turn-in but more front traction.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "fix",
+     "claim": "Rear sat low under acceleration and was harsh off corners.",
+     "fix": "Shock shaft 1 mm longer kept the rear higher; sag could return to 103-105 mm and the bike balanced."
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "claim": "Stock shock faded when hot late in long motos.",
+     "fix": "Pro Components shock held damping more consistently."
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "fix",
+     "claim": "Initial braking bumps felt harsh and rear traction was lacking.",
+     "fix": "149 mm pull rod (vs 148.2 stock) improved traction and reduced initial harshness."
+    }
+   ],
+   "baselines": [
+    {
+     "fork_spring": "4.8 N/mm",
+     "shock_sag_mm": "103-105 (after 1 mm longer shaft; 98 before)",
+     "pull_rod_mm": 149,
+     "shock_shaft": "+1 mm",
+     "fork_parts": "REP cone spring perch, low-speed valves, 13-degree cones, low-friction o-rings"
+    }
+   ],
+   "principles": [],
+   "note": "Keefer-authored test republished on repsuspension.com; may duplicate the Keefer helper's coverage."
+  },
+  {
+   "url": "https://repsuspension.com/blogs/tested/keefer-tested-rep-suspension-linkage-system-for-2023-honda-crf450r",
+   "title": "Keefer Tested REP Suspension Linkage System For 2023 Honda CRF450R",
+   "date": "2024-03-20",
+   "outlet": "REP Suspension (reprint of a Keefer test)",
+   "type": "bike_specific",
+   "make": "Honda",
+   "model": "CRF450R",
+   "years": [
+    2023
+   ],
+   "findings": [
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "claim": "Stock Showa rear struggles on baked, square-edged tracks and is harsh accelerating out of corners.",
+     "fix": ""
+    },
+    {
+     "aspect": "balance",
+     "verdict": "weakness",
+     "claim": "Setup is finicky and does not carry well from track to track.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "fix",
+     "claim": "REP knuckle with a lower leverage ratio, flatter first 70% and steep final 30%.",
+     "fix": "Spring four rates lighter, custom valving; rear calmer, better tracking and square-edge absorption, corner-exit harshness roughly halved; data showed less time deep in stroke."
+    }
+   ],
+   "baselines": [],
+   "principles": [],
+   "note": "Keefer-authored; vendor-hosted."
+  },
+  {
+   "url": "https://repsuspension.com/blogs/tested/keefer-tested-rep-suspension-mw1-linkage-system-for-ktm-husqvarna-gas-gas",
+   "title": "Keefer Tested REP Suspension MW1 Linkage System for KTM, Husqvarna & Gas Gas",
+   "date": "2024-03-20",
+   "outlet": "REP Suspension (reprint of a Keefer test)",
+   "type": "bike_specific",
+   "make": "KTM/Husqvarna/GasGas",
+   "model": "SX-F / FC / MC-F (new-gen chassis)",
+   "years": [
+    2023,
+    2024
+   ],
+   "findings": [
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "claim": "On the new Austrian chassis the rear goes too deep, kicks on big hits (especially on the tire edge) and moves side to side.",
+     "fix": ""
+    },
+    {
+     "aspect": "turning",
+     "verdict": "weakness",
+     "claim": "The rear does not follow the front well on corner entry.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "claim": "Initial stroke is stiff, hurting straight-line traction and drive.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "fix",
+     "claim": "MW1 knuckle/pull rod: softer start, strong progression after ~150 mm wheel travel, rear ride height up ~5 mm.",
+     "fix": "No kicks, calmer rear, better corner entry and drive, better front plant; no revalve or spring change needed."
+    }
+   ],
+   "baselines": [
+    {
+     "sag_mm": "104-105",
+     "fork_height": "dropped 2.5 mm from tester's prior setting"
+    }
+   ],
+   "principles": [],
+   "note": "Vendor-hosted, subjective."
+  },
+  {
+   "url": "https://www.factoryconnection.com/Setup-basics",
+   "title": "Setup Basics",
+   "date": "",
+   "outlet": "Factory Connection",
+   "type": "setup_guide",
+   "make": "",
+   "model": "",
+   "years": [],
+   "findings": [
+    {
+     "aspect": "other",
+     "verdict": "neutral",
+     "claim": "Pre-ride checklist: align forks on the axle, set fork height, set air pressure each ride on air forks, set sag, set tire pressure, run terrain-appropriate tires.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": [
+    "Correct springs for rider weight are the first and most important step; springs are not the tool for making the bike feel stiffer or softer.",
+    "Sag keeps the suspension working in the correct part of its stroke under the rider.",
+    "A revalve narrows the maker's broad compromise to one rider's use."
+   ]
+  },
+  {
+   "url": "https://factoryconnection.com/Setup-sag",
+   "title": "Setting Sag",
+   "date": "",
+   "outlet": "Factory Connection",
+   "type": "setup_guide",
+   "make": "",
+   "model": "",
+   "years": [],
+   "findings": [
+    {
+     "aspect": "balance",
+     "verdict": "neutral",
+     "claim": "Wrong rear sag changes how weight transfers to the fork as well as how the shock works.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": [
+    "Free (static) sag is a check that the correct spring rate is fitted, not a tuning target in itself.",
+    "Measure from solid metal points on the swingarm arc; points outside the arc can be off by up to 15 mm, and plastic flexes.",
+    "Measure with tank at least 3/4 full, rider in gear, neutral, brakes off, after bouncing to settle."
+   ]
+  },
+  {
+   "url": "https://factoryconnection.com/Setup-gethelp",
+   "title": "Get Help",
+   "date": "",
+   "outlet": "Factory Connection",
+   "type": "setup_guide",
+   "make": "",
+   "model": "",
+   "years": [],
+   "findings": [
+    {
+     "aspect": "suspension_front",
+     "verdict": "fix",
+     "claim": "Harsh fork over bumps can come from trapped air in the fork legs.",
+     "fix": "Loosen bleed screws before each riding day."
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "fix",
+     "claim": "Binding or stiff front can come from over-torqued triple-clamp bolts or overtightened holeshot rings on the fork leg.",
+     "fix": "Torque to OEM spec; loosen holeshot rings."
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "fix",
+     "claim": "Rear binding or sag problems can come from factory-overtightened linkage bolts and thin bearing grease.",
+     "fix": "Grease steering, swingarm and linkage bearings on new bikes and re-torque."
+    },
+    {
+     "aspect": "maintenance",
+     "verdict": "neutral",
+     "claim": "Keep a log of date, track, conditions, feel, changes and final clicker, fork height and sag before calling a tuner.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": []
+  },
+  {
+   "url": "https://motocrossactionmag.com/suspension-simplified-fundamentals-of-setup-by-mark-johnson/",
+   "title": "Suspension Simplified: Fundamentals of Setup by Mark Johnson",
+   "date": "2026-06-22",
+   "outlet": "Motocross Action (Mark Johnson, REP)",
+   "type": "setup_guide",
+   "make": "",
+   "model": "",
+   "years": [],
+   "findings": [
+    {
+     "aspect": "turning",
+     "verdict": "fix",
+     "claim": "Front tucks in corners: too little fork compression support or too much weight on the front.",
+     "fix": "Add fork compression support / shift weight back."
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "fix",
+     "claim": "Rear kicks sideways on braking bumps: rebound too slow to recover between hits.",
+     "fix": "Speed up rebound."
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "fix",
+     "claim": "Rear kicks straight up: rebound too fast or spring over-preloaded.",
+     "fix": "Slow rebound or check spring/preload."
+    },
+    {
+     "aspect": "stability",
+     "verdict": "fix",
+     "claim": "Head shake on throttle points to too little rear sag.",
+     "fix": "Increase sag."
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "fix",
+     "claim": "Harsh on square edges may mean excessive high-speed compression.",
+     "fix": "Reduce HSC."
+    }
+   ],
+   "baselines": [
+    {
+     "race_sag_mm": "100-105 neutral",
+     "static_sag_mm": "30-40",
+     "click_step": "2 clicks or 1/8 turn on HSC",
+     "service_hours": "20-30 average rider, ~10 fast rider"
+    }
+   ],
+   "principles": [
+    "More sag lowers the rear, slackens rake and lengthens wheelbase: more stable, slower to turn; less sag does the opposite and can bring head shake under braking.",
+    "If static sag is outside 30-40 mm, change the spring before touching clickers; ~20 mm static means too much preload and a stiffer spring is needed.",
+    "Low-speed compression controls pitch from braking, throttle and body movement and sets most of the rider's feel; too much gives harshness and lost traction.",
+    "High-speed compression controls impacts and mid-stroke support; too little lets the bike ride deep and deflect.",
+    "Rebound too slow packs and loses traction; too fast makes the chassis loose and kicky.",
+    "Hardpack: less LSC for grip; sand: more LSC and slower rebound; ruts: aim for balance and use fork height.",
+    "Worn oil, bushings and low nitrogen change damping; clickers cannot fix worn internals.",
+    "Change one thing at a time."
+   ]
+  },
+  {
+   "url": "https://motocrossactionmag.com/suspension-simplified-common-mistakes/",
+   "title": "Suspension Simplified: Common Mistakes",
+   "date": "2026-07-16",
+   "outlet": "Motocross Action (Mark Johnson, REP)",
+   "type": "setup_guide",
+   "make": "",
+   "model": "",
+   "years": [],
+   "findings": [
+    {
+     "aspect": "suspension_rear",
+     "verdict": "fix",
+     "claim": "Rear kicking up over fast rollers usually means the shock is too soft and sinking too deep, not that rebound is too fast.",
+     "fix": "Add high-speed compression; slowing rebound instead can cause packing."
+    },
+    {
+     "aspect": "turning",
+     "verdict": "fix",
+     "claim": "Dropping the fork in the clamps (e.g. 5 mm to 2.5 mm or flush) to stop a mid-corner tuck unweights the front: it pushes on entry then tucks at the apex.",
+     "fix": "Return fork height."
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "fix",
+     "claim": "An under-damped fork feels harsh because the rider is using the deep, harsh end of the stroke.",
+     "fix": "Stiffen fork damping rather than raising the fork in the clamps."
+    },
+    {
+     "aspect": "stability",
+     "verdict": "weakness",
+     "claim": "Raising the fork in the clamps to reduce harshness costs stability and balance.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": [
+    "Make small changes; if a change does nothing noticeable keep going in that direction until you feel it, and if it hurts, reverse it.",
+    "Harshness often means too soft (riding deep), not too stiff."
+   ]
+  },
+  {
+   "url": "https://motocrossactionmag.com/mxa-race-test-2025-kawasaki-kx250/",
+   "title": "MXA Race Test: The Real Test of the 2025 Kawasaki KX250",
+   "date": "2025-01-22",
+   "outlet": "Motocross Action",
+   "type": "bike_specific",
+   "make": "Kawasaki",
+   "model": "KX250",
+   "years": [
+    2025
+   ],
+   "findings": [
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "claim": "The 2025 engine is weaker than 2024 from about 6,500 rpm up; peak 43.7 hp vs 45.1.",
+     "fix": ""
+    },
+    {
+     "aspect": "power_delivery",
+     "verdict": "weakness",
+     "claim": "Narrow power window; needs hard clutch work, hard to wheelie or carry speed over chop, little recovery from mistakes.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "claim": "Switch from KYB to Showa made the fork far more compliant for corner entry.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "claim": "Fork is soft, sits low and turns harsh for heavier or faster riders.",
+     "fix": ""
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "claim": "Turns more easily once adapted to the fork; slightly less stable at speed.",
+     "fix": ""
+    },
+    {
+     "aspect": "weight_feel",
+     "verdict": "weakness",
+     "claim": "Heaviest 250F in the comparison at 232 lb.",
+     "fix": ""
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "weakness",
+     "claim": "240 mm rear rotor is hard to modulate and locks easily; odd lever shape.",
+     "fix": ""
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "claim": "Shifting notchy under load.",
+     "fix": ""
+    },
+    {
+     "aspect": "engine_mid",
+     "verdict": "fix",
+     "claim": "Cramped airbox restricts flow.",
+     "fix": "Twin Air Powerflow kit and trimming airbox plastic recommended."
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "weakness",
+     "claim": "Brittle plastics, strip-prone airbox bolt, seat T-plate can fall out, low-pressure radiator cap, more vibration.",
+     "fix": "Replace radiator cap with 1.8 kg/cm2."
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "claim": "Maps adjustable through Rideology app, but app lacks hour meter.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": []
+  },
+  {
+   "url": "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf250/",
+   "title": "MXA Race Test: The Real Test of the 2025 Honda CRF250",
+   "date": "2024-10-21",
+   "outlet": "Motocross Action",
+   "type": "bike_specific",
+   "make": "Honda",
+   "model": "CRF250R",
+   "years": [
+    2025
+   ],
+   "findings": [
+    {
+     "aspect": "engine_low",
+     "verdict": "strength",
+     "claim": "Strong bottom snap and pulls harder from ~9,200 rpm; still needs constant shifting.",
+     "fix": ""
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "claim": "~41.5 hp peak still trails the Austrian 250Fs by about 3.5 hp.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "claim": "New Showa fork valving ramps up linearly; soft for fast riders as expected of a stock 250F.",
+     "fix": ""
+    },
+    {
+     "aspect": "stability",
+     "verdict": "strength",
+     "claim": "Less front wiggle on entry and tip-in; easier to recover from mistakes.",
+     "fix": ""
+    },
+    {
+     "aspect": "weight_feel",
+     "verdict": "strength",
+     "claim": "Mass centralization makes it feel very light and easy to scrub and whip.",
+     "fix": ""
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "neutral",
+     "claim": "Wider midsection grips well, but tall riders' legs can catch the shrouds in deep ruts.",
+     "fix": ""
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "strength",
+     "claim": "Revised front caliper gives a smoother, more linear feel.",
+     "fix": ""
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "strength",
+     "claim": "Stock 13/50 liked; no change needed.",
+     "fix": ""
+    },
+    {
+     "aspect": "tires",
+     "verdict": "weakness",
+     "claim": "Pirelli MX32 rear loses traction.",
+     "fix": ""
+    },
+    {
+     "aspect": "engine_mid",
+     "verdict": "neutral",
+     "claim": "Removing filter cover and backfire screen gave no dyno gain.",
+     "fix": ""
+    }
+   ],
+   "baselines": [
+    {
+     "fork_spring": "4.8 N/mm",
+     "shock_spring": "50 N/mm (from 52)"
+    }
+   ],
+   "principles": []
+  },
+  {
+   "url": "https://motocrossactionmag.com/mxa-race-test-2025-ktm-450sxf/",
+   "title": "MXA Race Test: The Real Test of the 2025 KTM 450SXF",
+   "date": "",
+   "outlet": "Motocross Action",
+   "type": "bike_specific",
+   "make": "KTM",
+   "model": "450 SX-F",
+   "years": [
+    2025
+   ],
+   "findings": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "claim": "Builds progressively from ~5,000 to ~9,400 rpm, about 59 hp; manageable in tight turns and high gears.",
+     "fix": ""
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "claim": "Two bar maps, white preferred; more modes need the paid connectivity unit.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "strength",
+     "claim": "Redesigned linkage with slimmer arms gives more rear feedback; more flexible frame gives compliance sooner and better rear traction.",
+     "fix": ""
+    },
+    {
+     "aspect": "stability",
+     "verdict": "strength",
+     "claim": "Stable at speed, resists head shake, not prone to oversteer; accurate rather than quick-turning.",
+     "fix": ""
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "claim": "Seat too tall for short riders; shock clickers hard to reach behind side panel.",
+     "fix": ""
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "weakness",
+     "claim": "Spokes near the rim lock loosen often.",
+     "fix": "Check spokes regularly."
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "strength",
+     "claim": "Powerful brakes; reinforced pedal tip.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": []
+  },
+  {
+   "url": "https://motocrossactionmag.com/mxa-race-test-2025-yamaha-yz450f/",
+   "title": "MXA Race Test: The Real Test of the 2025 Yamaha YZ450F",
+   "date": "2024-11-05",
+   "outlet": "Motocross Action",
+   "type": "bike_specific",
+   "make": "Yamaha",
+   "model": "YZ450F",
+   "years": [
+    2025
+   ],
+   "findings": [
+    {
+     "aspect": "engine_low",
+     "verdict": "strength",
+     "claim": "Very strong off the bottom with hard hook-up, then linear.",
+     "fix": ""
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "fix",
+     "claim": "Stock power too abrupt for most riders.",
+     "fix": "Nearly every tester ran a milder Power Tuner map."
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "claim": "Softer fork springs with more preload suit vets and novices; fast testers found it too soft.",
+     "fix": ""
+    },
+    {
+     "aspect": "stability",
+     "verdict": "weakness",
+     "claim": "Aggressive turn-in costs straight-line stability: head shake at speed and tuck/oversteer on entry.",
+     "fix": "Fork slid down in clamps, steering stem snugged slightly, Luxon clamps at 23 mm offset calmed steering for every tester."
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "fix",
+     "claim": "Second and third poorly spaced.",
+     "fix": "48T rear instead of 49T made second usable over a wider range and softened the bite."
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "claim": "Belleville spring too soft for the load.",
+     "fix": "GYTR hydraulic kit preferred."
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "weakness",
+     "claim": "Several consumer bikes broke connecting rods.",
+     "fix": ""
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "claim": "Domed thin seat uncomfortable; side panel catches boots.",
+     "fix": ""
+    }
+   ],
+   "baselines": [
+    {
+     "fork_spring": "20 N/mm pressure-spring note (2024 22)",
+     "shock_spring": "56 N/mm",
+     "rear_sprocket": "48T (stock 49)",
+     "clamp_offset_mm": 23,
+     "holeshot_mm": "130 (160 on metal grate)"
+    }
+   ],
+   "principles": []
+  },
+  {
+   "url": "https://motocrossactionmag.com/mxa-race-test-2026-honda-crf450/",
+   "title": "MXA Race Test: 2026 Honda CRF450",
+   "date": "2026-01-14",
+   "outlet": "Motocross Action",
+   "type": "bike_specific",
+   "make": "Honda",
+   "model": "CRF450R",
+   "years": [
+    2025,
+    2026
+   ],
+   "findings": [
+    {
+     "aspect": "engine_low",
+     "verdict": "strength",
+     "claim": "Usable, responsive, strongest down low; ~55 hp peak still up to 5 hp behind leaders.",
+     "fix": ""
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "weakness",
+     "claim": "Three settings each for maps, launch and traction control overload riders; no app.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "claim": "Showa coil fork now plush with no harsh spot; too soft for fast intermediates and pros.",
+     "fix": "Pros sent suspension to Pro Circuit or AHM for firmer settings."
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "neutral",
+     "claim": "Stiffer rising rate makes it less pitchy; riders over ~220 lb need a stiffer spring.",
+     "fix": ""
+    },
+    {
+     "aspect": "stability",
+     "verdict": "strength",
+     "claim": "High-speed stability much improved; chassis called bug-free.",
+     "fix": ""
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "claim": "Very accurate turn-in, strong on inside lines.",
+     "fix": ""
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "fix",
+     "claim": "Radiator boiled over.",
+     "fix": "1.8 radiator cap replaced stock 1.1."
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "weakness",
+     "claim": "Not up to Brembo performance.",
+     "fix": ""
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "claim": "Shift lever too short.",
+     "fix": ""
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "neutral",
+     "claim": "Stock 13/49 close; some preferred 13/50.",
+     "fix": ""
+    }
+   ],
+   "baselines": [
+    {
+     "fork_spring": "5.0 N/mm",
+     "shock_spring": "52 N/mm"
+    }
+   ],
+   "principles": []
+  },
+  {
+   "url": "https://motocrossactionmag.com/mxa-race-test-2026-yamaha-yz450f/",
+   "title": "MXA Race Test: 2026 Yamaha YZ450F",
+   "date": "",
+   "outlet": "Motocross Action",
+   "type": "bike_specific",
+   "make": "Yamaha",
+   "model": "YZ450F",
+   "years": [
+    2026
+   ],
+   "findings": [
+    {
+     "aspect": "engine_low",
+     "verdict": "neutral",
+     "claim": "Quieter and smoother low end than 2025 (29 vs 33 hp at 5,500 rpm), peak 56.7 hp.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "fix",
+     "claim": "Forks felt harsh because they were too soft and sat low where damping ramps up.",
+     "fix": "Shock sag 106-107 mm took weight off the front, then fork compression 2 clicks stiffer held it higher: plusher, less harsh."
+    },
+    {
+     "aspect": "stability",
+     "verdict": "strength",
+     "claim": "More stable and balanced than 2023-2025 while still turning precisely.",
+     "fix": ""
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "strength",
+     "claim": "New Nissin hydraulic clutch lighter and needs no mid-moto adjustment.",
+     "fix": ""
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "neutral",
+     "claim": "Stock 13/51; vets liked 50T for second-gear corners, fast riders kept 51T, 49T needed too much clutch.",
+     "fix": ""
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "weakness",
+     "claim": "Exposed stator wire and clutch line; low-pressure radiator cap.",
+     "fix": "Fit 1.8 kg/cm2 cap."
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "claim": "Round seat, side panels catch boots.",
+     "fix": ""
+    }
+   ],
+   "baselines": [
+    {
+     "shock_sag_mm": "106-107",
+     "fork_compression": "+2 clicks stiffer than stock",
+     "gearing": "13/50 or 13/51"
+    }
+   ],
+   "principles": []
+  },
+  {
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450fx-cross-country/",
+   "title": "MXA Race Test: The Real Test of the 2024 Yamaha YZ450FX Cross-Country",
+   "date": "2024-08-05",
+   "outlet": "Motocross Action",
+   "type": "bike_specific",
+   "make": "Yamaha",
+   "model": "YZ450FX",
+   "years": [
+    2024
+   ],
+   "findings": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "claim": "Detuned, quick-revving and manageable; two maps plus traction control.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "claim": "KYB SSS rated the most predictable of the off-road 450s: plush and never blows through.",
+     "fix": ""
+    },
+    {
+     "aspect": "stability",
+     "verdict": "fix",
+     "claim": "Slight head shake over high-speed chop.",
+     "fix": "Two clicks more compression solved it."
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "neutral",
+     "claim": "Wide-ratio box: first nearly unusable, second good for tight woods, spread works for desert and woods.",
+     "fix": ""
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "neutral",
+     "claim": "Cable clutch survived a 10-hour race; hydraulic GYTR kit preferred.",
+     "fix": ""
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "claim": "Seat shape, harsh grips and hard-to-grip sides.",
+     "fix": ""
+    },
+    {
+     "aspect": "tires",
+     "verdict": "fix",
+     "claim": "Rocky GP races risked flats.",
+     "fix": "Nitromousse inserts."
+    }
+   ],
+   "baselines": [
+    {
+     "fork_spring": "4.8",
+     "shock_spring": "56",
+     "fork_compression": "+2 clicks for high-speed chop"
+    }
+   ],
+   "principles": []
+  },
+  {
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-gasgas-mc250f",
+   "title": "MXA Race Test: The Real Test of the 2025 GasGas MC250F",
+   "date": "2025-04-07",
+   "outlet": "Motocross Action",
+   "type": "bike_specific",
+   "make": "GasGas",
+   "model": "MC 250F",
+   "years": [
+    2025
+   ],
+   "findings": [
+    {
+     "aspect": "engine_top",
+     "verdict": "neutral",
+     "claim": "Highest dyno peak among Austrian 250s (~45.5 hp) but closed airbox and baffle dull throttle response on track.",
+     "fix": ""
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "weakness",
+     "claim": "Only one map stock; map switch is an extra-cost dealer part.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "neutral",
+     "claim": "WP air fork valved softer than KTM: comfortable and easy traction on soft tracks; less hold-up on jumpy tracks.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "neutral",
+     "claim": "Same 42 N/mm spring as KTM with softer valving and less hold-up.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "strength",
+     "claim": "2025 frame flex cutouts make it more comfortable in acceleration chop.",
+     "fix": ""
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "weakness",
+     "claim": "BrakTec stops well but less precise modulation than Brembo; front brake under recall 2022-2025.",
+     "fix": ""
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "claim": "Feel changes when fanned, causing a surge.",
+     "fix": ""
+    },
+    {
+     "aspect": "maintenance",
+     "verdict": "neutral",
+     "claim": "Chassis works best with 65-70 mm chain slack at the buffer pad.",
+     "fix": ""
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "claim": "Right radiator wing blocks compression clickers; bars 12 mm taller than KTM.",
+     "fix": ""
+    }
+   ],
+   "baselines": [
+    {
+     "gearing": "14/52 stock",
+     "shock_spring": "42 N/mm",
+     "chain_slack_mm": "65-70"
+    }
+   ],
+   "principles": []
+  },
+  {
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/",
+   "title": "MXA Race Test: The Real Test of the 2025 Suzuki RM-Z450",
+   "date": "2025-04-29",
+   "outlet": "Motocross Action",
+   "type": "bike_specific",
+   "make": "Suzuki",
+   "model": "RM-Z450",
+   "years": [
+    2024,
+    2025
+   ],
+   "findings": [
+    {
+     "aspect": "engine_low",
+     "verdict": "strength",
+     "claim": "Strong low end; best midrange 7,000-8,800 rpm.",
+     "fix": ""
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "claim": "Fades after ~9,000 rpm; about 7.5 hp down at 11,000 rpm.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "claim": "BFRC shock is the main complaint: poor over repeated bumps, off-cambers, oscillates on rebound.",
+     "fix": "Testers often swap in the RM-Z250 shock; longer Pro Circuit link lowers rear and firms the initial stroke."
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "claim": "Showa coil fork needs a revalve.",
+     "fix": "RM-Z250 forks often swapped in."
+    },
+    {
+     "aspect": "stability",
+     "verdict": "fix",
+     "claim": "Classic sharp turn-in but head shake at speed in rough.",
+     "fix": "Lower the rear, raise the front; fork slid flush with top clamp."
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "fix",
+     "claim": "Wanted third sooner and better drive out of tight turns.",
+     "fix": "13/51 instead of 13/50."
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "weakness",
+     "claim": "270 mm front rotor powerful but grabby.",
+     "fix": ""
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "fix",
+     "claim": "Coolant loss in long motos.",
+     "fix": "1.8 or 2.0 kg/cm2 radiator cap."
+    },
+    {
+     "aspect": "weight_feel",
+     "verdict": "weakness",
+     "claim": "Heaviest 450 at 241 lb; kick start only.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": [
+    "On a budget, spend on suspension before engine mods."
+   ]
+  },
+  {
+   "url": "https://motocrossactionmag.com/mxa-race-test-2025-triumph-tf250-x/",
+   "title": "MXA Race Test: The Real Test of the 2025 Triumph TF250-X",
+   "date": "2025-06-05",
+   "outlet": "Motocross Action",
+   "type": "bike_specific",
+   "make": "Triumph",
+   "model": "TF 250-X",
+   "years": [
+    2025
+   ],
+   "findings": [
+    {
+     "aspect": "engine_top",
+     "verdict": "strength",
+     "claim": "Snappy low end and strong pull high in the revs; curve has two dips and surges.",
+     "fix": ""
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "fix",
+     "claim": "Stock map 1 bogs badly on quick throttle openings.",
+     "fix": "Akrapovic map 2 helps a lot but does not fully cure it."
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "claim": "KYB settings close to ideal for ~165 lb novice/intermediate; only small clicker changes needed.",
+     "fix": ""
+    },
+    {
+     "aspect": "balance",
+     "verdict": "weakness",
+     "claim": "Spring fork makes the front heavier; chassis more sensitive to fork height, sag and HSC than the KTM.",
+     "fix": ""
+    },
+    {
+     "aspect": "tires",
+     "verdict": "neutral",
+     "claim": "Lively frame breaks traction more readily than KTM.",
+     "fix": "Dunlops preferred over Pirellis; 2.15 rim with 110 tire suggested."
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "fix",
+     "claim": "Stock 13/48 too tall.",
+     "fix": "50T best overall (49T for faster riders); 51T needed a longer chain and was rejected."
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "claim": "Riveted aluminum basket weak, some broke plates.",
+     "fix": "Free dealer upgrade to vented basket and new plates."
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "weakness",
+     "claim": "Notchy shifting first ~20 hours; switch recall; keep pressure washer off electrics.",
+     "fix": "Pro Circuit or Yamaha shift lever improved shifting."
+    }
+   ],
+   "baselines": [
+    {
+     "gearing": "13/50"
+    }
+   ],
+   "principles": []
+  },
+  {
+   "url": "https://motocrossactionmag.com/mxa-race-test-2025-husqvarna-fc450/",
+   "title": "MXA Race Test: The Real Test of the 2025 Husqvarna FC450",
+   "date": "",
+   "outlet": "Motocross Action",
+   "type": "bike_specific",
+   "make": "Husqvarna",
+   "model": "FC 450",
+   "years": [
+    2025
+   ],
+   "findings": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "claim": "Highest-output 450 (~60 hp) yet broad and manageable even in fifth.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "neutral",
+     "claim": "XACT air fork shortened 10 mm works well but needs setup knowledge.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "strength",
+     "claim": "Revised frame no longer needs a 10-hour break-in; plusher chassis.",
+     "fix": ""
+    },
+    {
+     "aspect": "stability",
+     "verdict": "strength",
+     "claim": "Best all-round handler in class: accurate, stable, no chronic head shake.",
+     "fix": ""
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "strength",
+     "claim": "Lowered ~1 inch; suits short riders without bothering tall ones.",
+     "fix": ""
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "strength",
+     "claim": "Powerful, one-finger front with wide modulation.",
+     "fix": ""
+    },
+    {
+     "aspect": "maintenance",
+     "verdict": "neutral",
+     "claim": "Needs ~70 mm chain slack; spokes near rim lock loosen; shock clickers blocked by shroud.",
+     "fix": "Cut access hole in shroud."
+    }
+   ],
+   "baselines": [
+    {
+     "shock_spring": "45 N/mm",
+     "gearing": "13/51",
+     "chain_slack_mm": 70
+    }
+   ],
+   "principles": []
+  },
+  {
+   "url": "https://motocrossactionmag.com/mxa-race-test-2024-kawasaki-kx450",
+   "title": "MXA Race Test: The Real Test of the 2024 Kawasaki KX450",
+   "date": "2024-03-05",
+   "outlet": "Motocross Action",
+   "type": "bike_specific",
+   "make": "Kawasaki",
+   "model": "KX450",
+   "years": [
+    2024
+   ],
+   "findings": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "weakness",
+     "claim": "Broad and easy but lacking top end and torque; weak response with the airbox plug fitted.",
+     "fix": "Remove the hidden airbox rubber plug."
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "claim": "Lower-friction Showa fork is soft and pitchy over bumps; needs more compression.",
+     "fix": ""
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "claim": "Much sharper turn-in from steeper head angle and less trail.",
+     "fix": ""
+    },
+    {
+     "aspect": "stability",
+     "verdict": "fix",
+     "claim": "Oversteer when sloppy and head shake at speed.",
+     "fix": "Forks flush with top clamp; add a chain link and run the wheel fully back."
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "neutral",
+     "claim": "Optional softer headstays available for more rear bite.",
+     "fix": ""
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "strength",
+     "claim": "Brembo front excellent; smaller rear rotor locks less.",
+     "fix": ""
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "fix",
+     "claim": "Weak third-gear pickup.",
+     "fix": "51T rear."
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "neutral",
+     "claim": "Lower peg position (-5 mm) preferred; bars in rear holes, rotated forward.",
+     "fix": ""
+    }
+   ],
+   "baselines": [
+    {
+     "fork_height": "flush",
+     "gearing": "51T rear",
+     "wheel": "fully back, +1 chain link"
+    }
+   ],
+   "principles": []
+  },
+  {
+   "url": "https://motocrossactionmag.com/mxa-team-tested-twisted-development-kx450-vortex-ecu/",
+   "title": "MXA Team Tested: Twisted Development KX450 Vortex ECU",
+   "date": "2024-10-31",
+   "outlet": "Motocross Action",
+   "type": "bike_specific",
+   "make": "Kawasaki",
+   "model": "KX450",
+   "years": [
+    2024,
+    2025
+   ],
+   "findings": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "weakness",
+     "claim": "Stock 2024-25 engine makes decent dyno power (~58 hp) but feels slow and mellow, like a 350.",
+     "fix": ""
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "fix",
+     "claim": "Stock mapping lacks bottom punch.",
+     "fix": "Vortex ECU with Lo/Mid/Hi fuel trims (\u00b12.5% per click): biggest gain at first crack and low end, cleaner throughout, less vibration; third usable in corners."
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "fix",
+     "claim": "With more power testers could gear down.",
+     "fix": "51T rear."
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "weakness",
+     "claim": "Rideology app gives few parameters; maps cannot be switched while riding with Vortex.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": [
+    "Low-throttle fuel trim governs first-crack response; mid and high trims cover 33-66% and 75-100% throttle."
+   ]
+  },
+  {
+   "url": "https://motocrossactionmag.com/mxa-team-tested-twisted-development-2020-kx250-mapping",
+   "title": "MXA Team Tested: Twisted Development 2020 Kawasaki KX250 Mapping",
+   "date": "2020-07-28",
+   "outlet": "Motocross Action",
+   "type": "bike_specific",
+   "make": "Kawasaki",
+   "model": "KX250",
+   "years": [
+    2020
+   ],
+   "findings": [
+    {
+     "aspect": "mapping",
+     "verdict": "weakness",
+     "claim": "Stock map is conservative for fuels and conditions; bike feels weighed down.",
+     "fix": ""
+    },
+    {
+     "aspect": "engine_low",
+     "verdict": "fix",
+     "claim": "Weak bottom and mid.",
+     "fix": "Stock-ECU remap gave stronger low and mid, freer revving, less decompression braking; quicker laps reported."
+    }
+   ],
+   "baselines": [],
+   "principles": []
+  },
+  {
+   "url": "https://motocrossactionmag.com/mxa-team-tested-tds-ktm-250-300-remapped-ecu",
+   "title": "MXA Team Tested: Twisted Development KTM 250/300 Remapped ECU",
+   "date": "2024-06-25",
+   "outlet": "Motocross Action",
+   "type": "bike_specific",
+   "make": "KTM",
+   "model": "250 SX / 300 SX (TBI)",
+   "years": [
+    2024
+   ],
+   "findings": [
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "claim": "Stock EFI two-stroke mapping is conservative: four-stroke-like low end, flat up top, hits the limiter early.",
+     "fix": ""
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "fix",
+     "claim": "Remap keeps the luggable bottom and adds mid-to-top pull and better response.",
+     "fix": "White map: broad mellow (vets); green map: harder hit (pros). Specify exhaust combo when ordering."
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "strength",
+     "claim": "300 with Pro Circuit pipe map let riders hold third in tight turns and shift less.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": []
+  },
+  {
+   "url": "https://motocrossactionmag.com/mxa-team-tested-pro-circuit-2025-kx250-suspension-re-valve/",
+   "title": "MXA Team Tested: Pro Circuit 2025 KX250 Suspension Re-Valve",
+   "date": "2025-06-17",
+   "outlet": "Motocross Action",
+   "type": "bike_specific",
+   "make": "Kawasaki",
+   "model": "KX250",
+   "years": [
+    2025
+   ],
+   "findings": [
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "claim": "Stock Showa comfortable and nimble but too soft for heavier or faster riders; lacks lively pop.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "fix",
+     "claim": "Pro Circuit revalve: plush top, firm controlled mid-stroke, predictable bottoming.",
+     "fix": "Better ride height and balance without hurting turning."
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "fix",
+     "claim": "139 mm PC link softens initial feel and lets shock move faster.",
+     "fix": "Pair with ~0.1 kg/mm stiffer spring (e.g. 5.5 to 5.6); rear more connected, planted under power."
+    }
+   ],
+   "baselines": [
+    {
+     "link_mm": 139,
+     "shock_spring": "+0.1 kg/mm with link"
+    }
+   ],
+   "principles": []
+  },
+  {
+   "url": "https://motocrossactionmag.com/mxa-team-tested-pro-circuit-ktm-husky-shock-linkage/",
+   "title": "MXA Team Tested: 2023-'24 KTM Pro Circuit Shock Linkage",
+   "date": "2023-06-09",
+   "outlet": "Motocross Action",
+   "type": "bike_specific",
+   "make": "KTM/Husqvarna/GasGas",
+   "model": "SX-F / FC / MC-F (new-gen chassis)",
+   "years": [
+    2023,
+    2024
+   ],
+   "findings": [
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "claim": "Stock link curve is stiff early and soft late; lacks end-stroke support and hard-pack corner traction; new frame needs long break-in.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "fix",
+     "claim": "PC link starts plusher and stiffens deeper.",
+     "fix": "Better hard-pack traction and chop absorption; good for vets and novices; pros kept stock link on soft tracks for its initial hold-up. Spring +0.4 (e.g. 4.0 to 4.4)."
+    }
+   ],
+   "baselines": [
+    {
+     "shock_spring": "+0.4 with link"
+    }
+   ],
+   "principles": [
+    "A link that is softer early and stiffer late trades initial hold-up on soft dirt for traction on hard-pack."
+   ]
+  },
+  {
+   "url": "https://motocrossactionmag.com/mxa-team-tested-ahm-suspension-yz250f-suspension-re-valve/",
+   "title": "MXA Team Tested: AHM Suspension YZ250F Suspension Re-Valve",
+   "date": "2024-10-15",
+   "outlet": "Motocross Action",
+   "type": "bike_specific",
+   "make": "Yamaha",
+   "model": "YZ250F",
+   "years": [
+    2024
+   ],
+   "findings": [
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "claim": "Stock fork soft, dives into corners and on throttle-off and braking; front busy and bike pitches.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "claim": "Stock shock wallows.",
+     "fix": ""
+    },
+    {
+     "aspect": "balance",
+     "verdict": "fix",
+     "claim": "AHM stiffer intermediate/pro valving front and rear.",
+     "fix": "Much less brake dive, no wallow, better balance; vet-speed testers preferred stock."
+    }
+   ],
+   "baselines": [],
+   "principles": [
+    "Give the tuner accurate weight, skill, results and track types; a pro valving will feel worse to a slower rider."
+   ]
+  },
+  {
+   "url": "https://motocrossactionmag.com/mxa-team-tested-luxon-mx-gen3-pro-yz250-450-triple-clamp",
+   "title": "MXA Team Tested: Luxon MX Gen3 Pro YZ250/450 Triple Clamp",
+   "date": "2024-02-15",
+   "outlet": "Motocross Action",
+   "type": "bike_specific",
+   "make": "Yamaha",
+   "model": "YZ250F/YZ450F",
+   "years": [
+    2023,
+    2024
+   ],
+   "findings": [
+    {
+     "aspect": "stability",
+     "verdict": "weakness",
+     "claim": "Stock front twitchy and unpredictable on entry and shakes on fast straights; owners over-tighten the stem as a damper.",
+     "fix": ""
+    },
+    {
+     "aspect": "stability",
+     "verdict": "fix",
+     "claim": "Luxon clamp at 23 mm offset (stock 22).",
+     "fix": "Calmer entry on throttle chop, less wiggle and head shake; 22 mm in Luxon clamps gave more front traction; 24 mm most stable but lost turn-in feel."
+    }
+   ],
+   "baselines": [
+    {
+     "clamp_offset_mm": 23
+    }
+   ],
+   "principles": [
+    "More clamp offset adds stability and slows steering; too much disconnects front feel."
+   ]
+  },
+  {
+   "url": "https://dirtbiketest.com/fresh-dirt/this-or-that-23-5mm-ride-engineering-vs-luxon-triple-clamps-for-yamaha/",
+   "title": "This Or That: 23.5mm Ride Engineering vs Luxon Triple Clamps For Yamaha",
+   "date": "2025-09-04",
+   "outlet": "Dirt Bike Test",
+   "type": "bike_specific",
+   "make": "Yamaha",
+   "model": "YZ450FX",
+   "years": [
+    2024,
+    2025
+   ],
+   "findings": [
+    {
+     "aspect": "stability",
+     "verdict": "fix",
+     "claim": "Wanted more stability at speed.",
+     "fix": "Both 23.5 mm clamps added stability and plant in rough ground."
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "neutral",
+     "claim": "Ride Engineering kept stock bump comfort with calmer decel but less ground feel.",
+     "fix": ""
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "claim": "Luxon gave more front traction and cornering feel but firmer, more vibration and fatigue.",
+     "fix": "Medium bar-mount cones better than soft."
+    }
+   ],
+   "baselines": [
+    {
+     "clamp_offset_mm": 23.5
+    }
+   ],
+   "principles": []
+  },
+  {
+   "url": "https://dirtbiketest.com/product-tests/precision-concepts-suspension-revalve-for-yz250fx/",
+   "title": "Precision Concepts Suspension Revalve For YZ250FX",
+   "date": "2021-09-30",
+   "outlet": "Dirt Bike Test",
+   "type": "bike_specific",
+   "make": "Yamaha",
+   "model": "YZ250FX",
+   "years": [
+    2020
+   ],
+   "findings": [
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "claim": "Stock too soft and wallowy for fast GP and desert racing.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "fix",
+     "claim": "Iterated three times: stiffer springs and valving, fork oil raised to 365 cc.",
+     "fix": "Comfort kept, more hold-up for braking and turns, shock stays up and tracks chop, smoother bottoming, less see-saw."
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "fix",
+     "claim": "Bottoming in big whoops mid-race.",
+     "fix": "Clickers stiffer and oil 295 to ~320 cc as a stopgap."
+    }
+   ],
+   "baselines": [
+    {
+     "fork_oil_cc": 365
+    }
+   ],
+   "principles": [
+    "Raising fork oil volume adds end-stroke bottoming resistance without changing early stroke.",
+    "Stiffen compression for MX jumps, soften for desert rocks and slow terrain."
+   ]
+  },
+  {
+   "url": "https://dirtbiketest.com/product-tests/ride-engineering-performance-link-for-kawasaki",
+   "title": "Ride Engineering Performance Link For Kawasaki",
+   "date": "2023-12-11",
+   "outlet": "Dirt Bike Test",
+   "type": "bike_specific",
+   "make": "Kawasaki",
+   "model": "KX450/KX250/KX450X",
+   "years": [
+    2023
+   ],
+   "findings": [
+    {
+     "aspect": "suspension_rear",
+     "verdict": "fix",
+     "claim": "Rear less settled under braking.",
+     "fix": "8 mm lowering link: straighter tracking in acceleration bumps, flatter calmer decel, better braking-bump plant and balance."
+    },
+    {
+     "aspect": "balance",
+     "verdict": "fix",
+     "claim": "With the link, 99-100 mm sag felt high and unsettled on decel.",
+     "fix": "Back preload out ~1 turn to 102-104 mm; no spring change."
+    }
+   ],
+   "baselines": [
+    {
+     "sag_mm": "102-104 with link (stock 106-108)"
+    }
+   ],
+   "principles": []
+  },
+  {
+   "url": "https://dirtbiketest.com/fresh-dirt/are-enduro-bikes-the-new-race-bikes-2025-gasgas-ec450f-race-test/",
+   "title": "2025 GasGas EC450F Race Test",
+   "date": "2025-06-12",
+   "outlet": "Dirt Bike Test",
+   "type": "bike_specific",
+   "make": "GasGas",
+   "model": "EC 450F",
+   "years": [
+    2025
+   ],
+   "findings": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "claim": "Smooth, mellow and less tiring stock.",
+     "fix": "KTM XC-F silencer made it pull harder; open muffler caused low-rpm flameout."
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "claim": "XPLOR open-cartridge fork low stiction and plush on trails.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "claim": "Soft at speed over big hits; hard to add hold-up without harshness.",
+     "fix": "TCS revalve fork and shock: surprisingly good."
+    },
+    {
+     "aspect": "balance",
+     "verdict": "fix",
+     "claim": "",
+     "fix": "Fork height flush improved balance, as on other new Austrian bikes."
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "fix",
+     "claim": "",
+     "fix": "Lower footpegs and tall seat opened the cockpit; steering damper added."
+    }
+   ],
+   "baselines": [
+    {
+     "fork_height": "flush"
+    }
+   ],
+   "principles": []
+  },
+  {
+   "url": "https://swapmotolive.com/track-tested-enzo-technica-wp-kyb-conversion/track-tested",
+   "title": "Track Tested: Enzo Technica WP-KYB Conversion",
+   "date": "2020-02",
+   "outlet": "Swapmoto Live",
+   "type": "bike_specific",
+   "make": "Husqvarna",
+   "model": "FC 350",
+   "years": [
+    2020
+   ],
+   "findings": [
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "claim": "WP Xact air fork lacked initial comfort and needed pressure checks every ride.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "fix",
+     "claim": "Enzo converted it to KYB AOS coil internals in WP tubes.",
+     "fix": "More comfort, better front contact, excellent mid-stroke and bottoming; better in every way."
+    }
+   ],
+   "baselines": [],
+   "principles": [],
+   "note": "Date estimated from first reader comment."
+  },
+  {
+   "url": "https://www.cyclenews.com/2026/03/article/xtrig-rocs-triple-clamp/",
+   "title": "Xtrig ROCS Triple Clamp",
+   "date": "2026-03-02",
+   "outlet": "Cycle News (Xtrig press release)",
+   "type": "general_tech",
+   "make": "",
+   "model": "",
+   "years": [],
+   "findings": [
+    {
+     "aspect": "suspension_front",
+     "verdict": "neutral",
+     "claim": "Maker claims opposed pinch bolts center the tubes and reduce clamp distortion for more consistent fork flex; ROCS Pro adds adjustable offset.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": [],
+   "note": "Manufacturer claims only; no ride test."
+  },
+  {
+   "url": "https://racetech.com/how-to-choose-suspension-upgrades/",
+   "title": "How to Choose Suspension Upgrades",
+   "date": "2024-02-06",
+   "outlet": "Race Tech",
+   "type": "general_tech",
+   "make": "",
+   "model": "",
+   "years": [],
+   "findings": [
+    {
+     "aspect": "other",
+     "verdict": "neutral",
+     "claim": "Upgrade order: springs first, then valving (Gold Valves/cartridge kits), then custom shock or cartridges.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": [
+    "Correct spring rates front and rear come before any valving work."
+   ]
+  },
+  {
+   "url": "https://old.racetech.com/page/id/149",
+   "title": "Supercross Suspension",
+   "date": "",
+   "outlet": "Race Tech",
+   "type": "general_tech",
+   "make": "",
+   "model": "",
+   "years": [],
+   "findings": [
+    {
+     "aspect": "suspension_rear",
+     "verdict": "neutral",
+     "claim": "A separate low-speed rebound circuit lets traction be tuned while compression stays firm.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "neutral",
+     "claim": "Pressure springs in twin-chamber forks should match stiffer valving to prevent cavitation.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": [
+    "Stiffer SX-style valving needs matching pressure springs and stronger shafts/posts to stay consistent."
+   ],
+   "note": "Undated product page."
+  },
+  {
+   "url": "https://www.procircuit.com/content/Setting%20the%20Sag.pdf",
+   "title": "Setting the Sag",
+   "date": "",
+   "outlet": "Pro Circuit",
+   "type": "setup_guide",
+   "make": "",
+   "model": "",
+   "years": [],
+   "findings": [
+    {
+     "aspect": "suspension_rear",
+     "verdict": "neutral",
+     "claim": "Low static sag means the spring is too soft (needs too much preload): rear rides high and can top out braking or downhill.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "neutral",
+     "claim": "High static sag means spring too stiff: rear cannot extend, losing drive traction and passing more hits to the rider.",
+     "fix": ""
+    },
+    {
+     "aspect": "turning",
+     "verdict": "neutral",
+     "claim": "Less race sag turns better but is a little less stable; more sag the reverse.",
+     "fix": "Stay inside the range."
+    }
+   ],
+   "baselines": [
+    {
+     "class": "125-450",
+     "race_sag_mm": "102-105",
+     "static_sag_mm": "30-40"
+    },
+    {
+     "class": "85-100",
+     "race_sag_mm": "80-90",
+     "static_sag_mm": "25-35"
+    }
+   ],
+   "principles": [
+    "Check sag at race weight with a cool shock; heat changes sag."
+   ]
+  },
+  {
+   "url": "https://www.vitalmx.com/features/2025-triumph-tf-250x-review",
+   "title": "2025 Triumph TF-250X Review",
+   "date": "2025-02-26",
+   "outlet": "Vital MX",
+   "type": "bike_specific",
+   "make": "Triumph",
+   "model": "TF 250-X",
+   "years": [
+    2025
+   ],
+   "findings": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "claim": "Strong low-mid with smooth top pull and over-rev; third usable in corners.",
+     "fix": ""
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "strength",
+     "claim": "2025 mapping removed the 2024 hesitation and mid dip; 10 app presets.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "fix",
+     "claim": "Fork plush but soft, bottoms mid-to-end in rough.",
+     "fix": "Compression +4 clicks, rebound 3 slower: better comfort, corner control and rough stability."
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "fix",
+     "claim": "Shock needed rebalancing after fork changes.",
+     "fix": "HSC +1/4 turn, LSC +2, rebound 2 slower: better big-hit absorption, jump-face hold-up and pitch control."
+    },
+    {
+     "aspect": "stability",
+     "verdict": "weakness",
+     "claim": "Harsh on big landings and rough at speed; front may be less rigid than rear.",
+     "fix": "Engine mounts or clamps suggested."
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "claim": "Hydraulic clutch has a narrow engagement window, hard to modulate into corners.",
+     "fix": ""
+    },
+    {
+     "aspect": "tires",
+     "verdict": "weakness",
+     "claim": "Pirelli MX32 folds on hard tracks.",
+     "fix": "Replace early."
+    }
+   ],
+   "baselines": [
+    {
+     "fork": "comp +4, reb +3 slower from stock",
+     "shock": "HSC +1/4 turn, LSC +2, reb +2 slower",
+     "rider": "5'10 170 lb"
+    }
+   ],
+   "principles": []
+  },
+  {
+   "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+   "title": "2026 450 Motocross Shootout",
+   "date": "2025-11-20",
+   "outlet": "Vital MX",
+   "type": "bike_specific",
+   "make": "KTM",
+   "model": "450 SX-F",
+   "years": [
+    2026
+   ],
+   "findings": [
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "claim": "WP air fork comfortable, resists bottoming, balanced; shock planted and progressive.",
+     "fix": "One tester +0.2 bar and a couple of compression clicks; another raised sag to ~102 mm and added fork compression."
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "claim": "Cramped bar-seat-peg.",
+     "fix": ""
+    },
+    {
+     "aspect": "balance",
+     "verdict": "strength",
+     "claim": "Most consistent across tracks.",
+     "fix": ""
+    }
+   ],
+   "baselines": [
+    {
+     "fork_air": "+0.2 bar over stock",
+     "sag_mm": "~102"
+    }
+   ],
+   "principles": []
+  },
+  {
+   "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+   "title": "2026 450 Motocross Shootout",
+   "date": "2025-11-20",
+   "outlet": "Vital MX",
+   "type": "bike_specific",
+   "make": "Yamaha",
+   "model": "YZ450F",
+   "years": [
+    2026
+   ],
+   "findings": [
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "claim": "New fork stiff early and overpowers the shock, hurting front traction; dead spot mid-stroke.",
+     "fix": "Raise fork in clamps (2 to 5 mm) and soften compression."
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "neutral",
+     "claim": "51T rear shortens second.",
+     "fix": ""
+    },
+    {
+     "aspect": "turning",
+     "verdict": "weakness",
+     "claim": "Calm and stable but weaker carving flat turns and deep ruts.",
+     "fix": ""
+    }
+   ],
+   "baselines": [
+    {
+     "fork_height_mm": "5 (from 2)"
+    }
+   ],
+   "principles": []
+  },
+  {
+   "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+   "title": "2026 450 Motocross Shootout",
+   "date": "2025-11-20",
+   "outlet": "Vital MX",
+   "type": "bike_specific",
+   "make": "Honda",
+   "model": "CRF450R",
+   "years": [
+    2026
+   ],
+   "findings": [
+    {
+     "aspect": "engine_low",
+     "verdict": "strength",
+     "claim": "Crisp response and meaty bottom-to-mid.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "fix",
+     "claim": "Fork dives fast under heavy braking, metallic bottoming, soft relative to shock.",
+     "fix": "Lower the fork in clamps and add compression."
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "strength",
+     "claim": "Best in class.",
+     "fix": ""
+    },
+    {
+     "aspect": "balance",
+     "verdict": "weakness",
+     "claim": "Slightly front-heavy in rough high-speed sections.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": []
+  },
+  {
+   "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+   "title": "2026 450 Motocross Shootout",
+   "date": "2025-11-20",
+   "outlet": "Vital MX",
+   "type": "bike_specific",
+   "make": "Kawasaki",
+   "model": "KX450",
+   "years": [
+    2026
+   ],
+   "findings": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "weakness",
+     "claim": "Lethargic and heavy feeling.",
+     "fix": "XPR Vortex ECU, PC pipe and opened airbox added ~6-7 hp."
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "fix",
+     "claim": "Fork too linear and soft, lacks hold-up; shock overpowers it.",
+     "fix": "Stiffer front clickers and lower fork height."
+    },
+    {
+     "aspect": "stability",
+     "verdict": "strength",
+     "claim": "Chassis stable with good traction and cornering.",
+     "fix": ""
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "weakness",
+     "claim": "Brembo front felt weaker than class.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": []
+  },
+  {
+   "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+   "title": "2026 450 Motocross Shootout",
+   "date": "2025-11-20",
+   "outlet": "Vital MX",
+   "type": "bike_specific",
+   "make": "GasGas",
+   "model": "MC 450F",
+   "years": [
+    2026
+   ],
+   "findings": [
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "claim": "Closed airbox and no map switch: runs out of breath up top.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "neutral",
+     "claim": "Softer and compliant.",
+     "fix": "One tester ran ~10.6 bar fork pressure for response."
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "weakness",
+     "claim": "Braktec lacks power and feel vs Brembo.",
+     "fix": ""
+    }
+   ],
+   "baselines": [
+    {
+     "fork_air_bar": 10.6
+    }
+   ],
+   "principles": []
+  },
+  {
+   "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+   "title": "2026 450 Motocross Shootout",
+   "date": "2025-11-20",
+   "outlet": "Vital MX",
+   "type": "bike_specific",
+   "make": "Husqvarna",
+   "model": "FC 450",
+   "years": [
+    2025
+   ],
+   "findings": [
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "claim": "Lowered WP suspension rides deep: feels low, harsh and bottoms on big hits.",
+     "fix": "Move forks out in clamps and reduce sag."
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "claim": "Excellent traction and carving in flat turns and ruts.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": []
+  },
+  {
+   "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+   "title": "2026 450 Motocross Shootout",
+   "date": "2025-11-20",
+   "outlet": "Vital MX",
+   "type": "bike_specific",
+   "make": "Triumph",
+   "model": "TF 450-X",
+   "years": [
+    2026
+   ],
+   "findings": [
+    {
+     "aspect": "engine_low",
+     "verdict": "weakness",
+     "claim": "Weak bottom and abrupt harsh over-rev despite high peak.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "claim": "Forks harsh and inconsistent; neither stiffer nor softer settings fixed it over two days.",
+     "fix": ""
+    },
+    {
+     "aspect": "stability",
+     "verdict": "strength",
+     "claim": "Chassis stable with good front traction.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": []
+  },
+  {
+   "url": "https://www.vitalmx.com/forums/moto-related/23-ktm-sx-f-suspension-setup-tips",
+   "title": "'23+ KTM SX-F Suspension Setup Tips (forum)",
+   "date": "2024-10-11",
+   "outlet": "Vital MX forum",
+   "type": "forum_consensus",
+   "make": "KTM",
+   "model": "SX-F",
+   "years": [
+    2023,
+    2024,
+    2025
+   ],
+   "findings": [
+    {
+     "aspect": "suspension_front",
+     "verdict": "neutral",
+     "claim": "Several riders set air pressure so the fork stops 1-1.5 inches short of bottoming, adding air as speed rises (5 posters).",
+     "fix": "Some prefer controlling bottoming with oil level instead."
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "neutral",
+     "claim": "Sag commonly 103-106 mm with ~35 mm static (3 posters).",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "claim": "Air fork harsh in small braking bumps; pressure drift hurts consistency.",
+     "fix": ""
+    }
+   ],
+   "baselines": [
+    {
+     "sag_mm": "103-106",
+     "static_mm": "35-36"
+    }
+   ],
+   "principles": [],
+   "note": "16 posts, 10 riders; consensus only on air-by-travel and sag range."
+  },
+  {
+   "url": "https://www.vitalmx.com/forums/tech-helprace-shop/ktm-2023-suspension-conclusions",
+   "title": "KTM 2023 Suspension Conclusions (forum)",
+   "date": "2023-02-25",
+   "outlet": "Vital MX forum",
+   "type": "forum_consensus",
+   "make": "KTM",
+   "model": "SX-F / XC",
+   "years": [
+    2023
+   ],
+   "findings": [
+    {
+     "aspect": "suspension_rear",
+     "verdict": "neutral",
+     "claim": "Riders settled near 105 mm sag (3+ posters).",
+     "fix": ""
+    },
+    {
+     "aspect": "balance",
+     "verdict": "neutral",
+     "claim": "Fork at ~5 mm (second line) in clamps common (3 posters).",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "fix",
+     "claim": "Stock air fork was the main complaint.",
+     "fix": "Valved WP 6500 coil cartridges reported as the biggest fix (3 posters)."
+    },
+    {
+     "aspect": "balance",
+     "verdict": "weakness",
+     "claim": "Bike could feel great one day and off the next.",
+     "fix": ""
+    }
+   ],
+   "baselines": [
+    {
+     "sag_mm": 105,
+     "fork_height_mm": 5
+    }
+   ],
+   "principles": [],
+   "note": "9 posters."
+  },
+  {
+   "url": "https://www.vitalmx.com/forums/moto-related/2024-yz-450-stock-suspension-set",
+   "title": "2024 YZ 450 stock suspension set up (forum)",
+   "date": "2024-03-10",
+   "outlet": "Vital MX forum",
+   "type": "forum_consensus",
+   "make": "Yamaha",
+   "model": "YZ450F",
+   "years": [
+    2024
+   ],
+   "findings": [
+    {
+     "aspect": "balance",
+     "verdict": "weakness",
+     "claim": "Pogo feel in chop, poor turn-in plant; fork plush then harsh mid-stroke, shock stiff.",
+     "fix": ""
+    },
+    {
+     "aspect": "balance",
+     "verdict": "fix",
+     "claim": "Three posters say the front is too soft relative to the rear.",
+     "fix": "Stiffer fork springs/revalve; one owner balanced at 105 standing/107 seated sag."
+    }
+   ],
+   "baselines": [
+    {
+     "sag_mm": "103-108 (most ~105)",
+     "fork_height_mm": "~3"
+    }
+   ],
+   "principles": [],
+   "note": "Only 4 posters; weak consensus."
+  },
+  {
+   "url": "https://www.vitalmx.com/forums/moto-related/21-24-crf-450-mods",
+   "title": "21-24 CRF 450 Mods (forum)",
+   "date": "2024-02-18",
+   "outlet": "Vital MX forum",
+   "type": "forum_consensus",
+   "make": "Honda",
+   "model": "CRF450R",
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "findings": [
+    {
+     "aspect": "balance",
+     "verdict": "weakness",
+     "claim": "Chassis very sensitive: a few mm of sag or 1 mm of fork height is felt.",
+     "fix": "Change sag and fork height in 1 mm steps."
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "fix",
+     "claim": "Suspension work named the top improvement by ~6 riders.",
+     "fix": "Revalve; aftermarket linkage (Factory Connection, REP) by 4 riders."
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "fix",
+     "claim": "Exhaust upgrades common (4 riders).",
+     "fix": ""
+    },
+    {
+     "aspect": "stability",
+     "verdict": "fix",
+     "claim": "",
+     "fix": "23.5 mm offset clamps and engine-mount tweaks mentioned by 2 riders."
+    }
+   ],
+   "baselines": [],
+   "principles": [],
+   "note": "18 posters; page 1 of 2."
+  },
+  {
+   "url": "https://www.vitalmx.com/forums/tech-helprace-shop/2024-crf450r-wtf-need-advice",
+   "title": "2024 crf450r wtf? Need advice (forum)",
+   "date": "2025-02-09",
+   "outlet": "Vital MX forum",
+   "type": "forum_consensus",
+   "make": "Honda",
+   "model": "CRF450R",
+   "years": [
+    2024
+   ],
+   "findings": [
+    {
+     "aspect": "stability",
+     "verdict": "weakness",
+     "claim": "Loose at speed and harsh over small bumps even with forks fully dropped; strong low, weak mid-top.",
+     "fix": ""
+    },
+    {
+     "aspect": "balance",
+     "verdict": "fix",
+     "claim": "110 mm sag too much; Honda calls for 105 mm.",
+     "fix": "Set 105 mm; tighter steering stem suggested."
+    },
+    {
+     "aspect": "stability",
+     "verdict": "fix",
+     "claim": "Sag and fork height alone helped little for one owner.",
+     "fix": "23.5 mm offset clamps plus revalve made it far better."
+    }
+   ],
+   "baselines": [],
+   "principles": [],
+   "note": "11 posters; several agree recent CRF450 stock suspension is harsh."
+  },
+  {
+   "url": "https://www.vitalmx.com/comment/8994761",
+   "title": "Ride Engineering clamp or linkage on KX450 (forum)",
+   "date": "2026-05-19",
+   "outlet": "Vital MX forum",
+   "type": "forum_consensus",
+   "make": "Kawasaki",
+   "model": "KX450",
+   "years": [
+    2024,
+    2025
+   ],
+   "findings": [
+    {
+     "aspect": "turning",
+     "verdict": "neutral",
+     "claim": "No consensus: 2019+ KX450s already corner well; offset clamps gave small gains; a tuner advised keeping the stock link as a lowering link softens shock feel.",
+     "fix": "One rider was told to go up one shock spring rate with the link."
+    }
+   ],
+   "baselines": [],
+   "principles": [],
+   "note": "5 posters; mixed."
+  },
+  {
+   "url": "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+   "title": "2026 450 MX Shootout (February 2026 issue)",
+   "date": "2026-02-19",
+   "outlet": "Dirt Bike magazine",
+   "type": "bike_specific",
+   "make": "Yamaha",
+   "model": "YZ450F",
+   "years": [
+    2026
+   ],
+   "findings": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "claim": "Less peak but much easier to ride; smooth.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "neutral",
+     "claim": "Fork stiff but works when rough; rear stiff for novices.",
+     "fix": ""
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "claim": "New frame more stable and turns with less effort.",
+     "fix": ""
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "claim": "Very tall.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": []
+  },
+  {
+   "url": "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+   "title": "2026 450 MX Shootout (February 2026 issue)",
+   "date": "2026-02-19",
+   "outlet": "Dirt Bike magazine",
+   "type": "bike_specific",
+   "make": "KTM",
+   "model": "450 SX-F",
+   "years": [
+    2026
+   ],
+   "findings": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "claim": "Strong everywhere, easy to use.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "claim": "XACT air fork holds the bike back at the top level; shock easy to dial.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": []
+  },
+  {
+   "url": "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+   "title": "2026 450 MX Shootout (February 2026 issue)",
+   "date": "2026-02-19",
+   "outlet": "Dirt Bike magazine",
+   "type": "bike_specific",
+   "make": "Husqvarna",
+   "model": "FC 450",
+   "years": [
+    2025
+   ],
+   "findings": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "claim": "Most power yet manageable for any skill.",
+     "fix": ""
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "claim": "Low ride height helps corners; stable.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "neutral",
+     "claim": "Air fork divides riders; rear excellent.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": []
+  },
+  {
+   "url": "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+   "title": "2026 450 MX Shootout (February 2026 issue)",
+   "date": "2026-02-19",
+   "outlet": "Dirt Bike magazine",
+   "type": "bike_specific",
+   "make": "GasGas",
+   "model": "MC 450F",
+   "years": [
+    2026
+   ],
+   "findings": [
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "claim": "Softer air fork needs constant adjusting and is harsh on small and big hits.",
+     "fix": ""
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "claim": "Cast clamp and bars pass excess feedback.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": []
+  },
+  {
+   "url": "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+   "title": "2026 450 MX Shootout (February 2026 issue)",
+   "date": "2026-02-19",
+   "outlet": "Dirt Bike magazine",
+   "type": "bike_specific",
+   "make": "Honda",
+   "model": "CRF450R",
+   "years": [
+    2026
+   ],
+   "findings": [
+    {
+     "aspect": "engine_low",
+     "verdict": "strength",
+     "claim": "Very strong low torque that can be hard to control; tapers up top.",
+     "fix": ""
+    },
+    {
+     "aspect": "balance",
+     "verdict": "strength",
+     "claim": "Well balanced since 2025 frame stiffening.",
+     "fix": ""
+    },
+    {
+     "aspect": "stability",
+     "verdict": "neutral",
+     "claim": "Favors tight tracks over sweepers.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": []
+  },
+  {
+   "url": "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+   "title": "2026 450 MX Shootout (February 2026 issue)",
+   "date": "2026-02-19",
+   "outlet": "Dirt Bike magazine",
+   "type": "bike_specific",
+   "make": "Kawasaki",
+   "model": "KX450",
+   "years": [
+    2026
+   ],
+   "findings": [
+    {
+     "aspect": "stability",
+     "verdict": "strength",
+     "claim": "Best-in-class stability but setup-sensitive.",
+     "fix": "Many riders lower the fork a few mm in the clamps for fast tracks."
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "neutral",
+     "claim": "Plush, cushy; may be soft for pros.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": []
+  },
+  {
+   "url": "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+   "title": "2026 450 MX Shootout (February 2026 issue)",
+   "date": "2026-02-19",
+   "outlet": "Dirt Bike magazine",
+   "type": "bike_specific",
+   "make": "Suzuki",
+   "model": "RM-Z450",
+   "years": [
+    2026
+   ],
+   "findings": [
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "claim": "Shock stuck in a harsh setting (fixable).",
+     "fix": ""
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "claim": "No hydraulic clutch or e-start.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": []
+  },
+  {
+   "url": "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+   "title": "2026 450 MX Shootout (February 2026 issue)",
+   "date": "2026-02-19",
+   "outlet": "Dirt Bike magazine",
+   "type": "bike_specific",
+   "make": "Triumph",
+   "model": "TF 450-X",
+   "years": [
+    2026
+   ],
+   "findings": [
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "claim": "2026 KYB setting stiffer and harsh in ways hard to tune out.",
+     "fix": ""
+    },
+    {
+     "aspect": "stability",
+     "verdict": "strength",
+     "claim": "Top stability rating; rear benefits from frame flex.",
+     "fix": ""
+    }
+   ],
+   "baselines": [],
+   "principles": []
+  },
+  {
+   "url": "https://dirtbikemagazine.com/full-test-2026-honda-crf250r/",
+   "title": "Full Test: 2026 Honda CRF250R",
+   "date": "2026-03-17",
+   "outlet": "Dirt Bike magazine",
+   "type": "bike_specific",
+   "make": "Honda",
+   "model": "CRF250R",
+   "years": [
+    2026
+   ],
+   "findings": [
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "claim": "Good low-mid but top-end pull trails KTM and Kawasaki.",
+     "fix": "Aggressive map preferred for midrange."
+    },
+    {
+     "aspect": "stability",
+     "verdict": "fix",
+     "claim": "",
+     "fix": "Fork tubes at 3 mm and 103-108 mm sag improved handling and stability."
+    },
+    {
+     "aspect": "tires",
+     "verdict": "weakness",
+     "claim": "100/90-19 rear Pirelli; testers want a 110.",
+     "fix": ""
+    }
+   ],
+   "baselines": [
+    {
+     "fork_height_mm": 3,
+     "sag_mm": "103-108"
+    }
+   ],
+   "principles": []
+  },
+  {
+   "url": "https://racerxonline.com/2026/05/28/honda-launches-completely-new-2027-crf450r",
+   "title": "We Ride Pre-Production All-New 2027 Honda CRF450R",
+   "date": "2026-05-28",
+   "outlet": "Racer X (Aaron Hansel)",
+   "type": "bike_specific",
+   "make": "Honda",
+   "model": "CRF450R",
+   "years": [
+    2027
+   ],
+   "findings": [
+    {
+     "aspect": "suspension_front",
+     "verdict": "neutral",
+     "claim": "Showa fork gets a new valve, 5.2 N/mm spring (from 5.0) for smoother low-speed damping; claims only.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "neutral",
+     "claim": "Much stiffer compression-adjuster spring and revised linkage aimed at less kickback; shared SS37 oil front and rear.",
+     "fix": ""
+    },
+    {
+     "aspect": "stability",
+     "verdict": "neutral",
+     "claim": "Frame ~10% stiffer, more rake, longer wheelbase, pegs 5 mm rearward to load the shock; less pitching claimed.",
+     "fix": ""
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "neutral",
+     "claim": "More power lets Honda run taller ratios; gear-position-based ignition maps.",
+     "fix": ""
+    }
+   ],
+   "baselines": [
+    {
+     "fork_spring": "5.2 N/mm"
+    }
+   ],
+   "principles": [],
+   "note": "Wet pre-production ride; mostly maker claims."
+  },
+  {
+   "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/",
+   "title": "First Impression: 2024 Suzuki RM-Z450/RM-Z250",
+   "date": "2023-10-03",
+   "outlet": "Dirt Bike Test",
+   "type": "bike_specific",
+   "make": "Suzuki",
+   "model": "RM-Z450",
+   "years": [
+    2024
+   ],
+   "findings": [
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "claim": "Leans in easily and holds ruts.",
+     "fix": ""
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "fix",
+     "claim": "Showa fork stiff.",
+     "fix": "Two clicks softer compression helped noticeably."
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "fix",
+     "claim": "Shuffling between second and third.",
+     "fix": "Add 1-2 rear teeth."
+    }
+   ],
+   "baselines": [],
+   "principles": []
+  },
+  {
+   "url": "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/",
+   "title": "First Impression: 2024 Suzuki RM-Z450/RM-Z250",
+   "date": "2023-10-03",
+   "outlet": "Dirt Bike Test",
+   "type": "bike_specific",
+   "make": "Suzuki",
+   "model": "RM-Z250",
+   "years": [
+    2024
+   ],
+   "findings": [
+    {
+     "aspect": "engine_mid",
+     "verdict": "weakness",
+     "claim": "Good bottom, fades in mid and top.",
+     "fix": "Pro Circuit exhaust improved character."
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "claim": "KYB firm: fine on big prepped jumps, too stiff on dry chop.",
+     "fix": "Soften; a past TCS revalve was a big gain."
+    }
+   ],
+   "baselines": [],
+   "principles": []
+  }
+ ],
+ "not_reached": [
+  {
+   "url": "https://www.repsuspension.com/blog",
+   "reason": "not fetchable directly; index found at /blogs/tested (8 posts, all read)"
+  },
+  {
+   "url": "https://repsuspension.com/blogs/tested/vital-mx-rep-suspension-revalve-setup",
+   "reason": "2021 KX450 revalve; video only, no text findings"
+  },
+  {
+   "url": "https://repsuspension.com/blogs/tested/vital-mx-suspension-upgrade-for-stock-air-fork",
+   "reason": "GasGas MC450F air fork; video only"
+  },
+  {
+   "url": "https://www.factoryconnection.com/Setup-forkHeight",
+   "reason": "page says 'coming soon'"
+  },
+  {
+   "url": "https://www.factoryconnection.com/Setup-forkAlign",
+   "reason": "not fetched"
+  },
+  {
+   "url": "https://swapmotolive.com/2025-kawasaki-kx450-project-bike-mod-squad/features/mod-squad/",
+   "reason": "site client error"
+  },
+  {
+   "url": "https://swapmotolive.com/2026-450-mx-shootout-in-depth/shootout/2026-mx-shootout/5/",
+   "reason": "site client error"
+  },
+  {
+   "url": "https://swapmotolive.com/2026-250-mx-bike-shootout-in-depth/2026-mx/8/",
+   "reason": "site client error"
+  },
+  {
+   "url": "https://swapmotolive.com/2025-450-mx-bike-shootout-in-depth/shootout/2025-450-shootout/",
+   "reason": "intro page only, no per-bike findings; later pages not tried"
+  },
+  {
+   "url": "https://www.thumpertalk.com/forums/topic/1440263-2023-ktm-450-wp-xact-fork-collapsed/",
+   "reason": "site client error (all ThumperTalk threads failed)"
+  },
+  {
+   "url": "https://www.thumpertalk.com/forums/topic/1389513-help-me-understand-wp-air-fork-settings/",
+   "reason": "site client error"
+  },
+  {
+   "url": "https://www.thumpertalk.com/forums/topic/1432865-front-shocks-and-super-stiff/",
+   "reason": "site client error"
+  },
+  {
+   "url": "https://www.dirtrider.com/how-to/suspension-setup-tips-for-dirt-bike-riders-of-all-skill-levels/",
+   "reason": "article body not rendered (FMF KTM tech Damon Nash piece)"
+  },
+  {
+   "url": "https://www.dirtrider.com/story/tests/2022-honda-crf450r-review/",
+   "reason": "article body not rendered"
+  },
+  {
+   "url": "https://motocrossactionmag.com/turning-the-2024-25-kawasaki-kx450-from-a-good-bike-into-a-great-bike/",
+   "reason": "video only; parts list without results"
+  },
+  {
+   "url": "MXA 2025 race tests (KX250, CRF250, KTM 450SXF, YZ450F)",
+   "reason": "MXA setup-spec tables are images, not text; clicker baselines not captured"
+  },
+  {
+   "url": "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+   "reason": "last ~4k characters (Carlino/Caskey notes) not read"
+  },
+  {
+   "url": "Stillwell, MX-Tech, AHM, Twisted Development, Enzo, Precision Concepts, Ride Engineering, Xtrig, Luxon own sites",
+   "reason": "no first-party tech/FAQ articles surfaced in search; covered only via magazine tests"
+  },
+  {
+   "url": "Racer X tech pieces",
+   "reason": "most are Keefer-authored; skipped to avoid overlap with the Keefer helper"
+  }
+ ],
+ "skipped_out_of_range": [
+  "https://motocrossactionmag.com/inside-secrets-of-building-a-moto-ready-ktm-300xc-two-stroke-racer-2/ (2012 bike)",
+  "https://dirtbikemagazine.com/ktm-250sx-f-full-test/ (2018 bike)",
+  "https://www.factoryconnection.com/Setup-2025KTM85SX (minicycle)",
+  "https://swapmotolive.com/crutchers-corner-clickers-springs-gold-valves/features/crutchers-corner/ (undated, AER-48 era KTM, little tuning content)",
+  "https://vitalmx.com/forums/Tech-Help-Race-Shop,42/KYB-Kit-Suspension-set-up-help,1331593 (2017, YZ125 kit)"
+ ]
+}

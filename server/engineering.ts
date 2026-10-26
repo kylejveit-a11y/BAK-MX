@@ -20,8 +20,17 @@ import {cleanGarageUpdates} from '../shared/garage-updates.ts';
 import {allGarageFields} from '../shared/garage-fields.ts';
 import {fuelSystem,fuelSystemLabel} from '../shared/fuel-system.ts';
 import {testerBaselines} from './tester-baselines.ts';
+import {bikeOverviews} from './bike-overviews.ts';
 
 /** Published tester settings for this exact bike, or the nearest model year of the same model (marked). Private reasoning context. */
+/** What testers and riders repeatedly report about this model's generation that covers the rider's year (or the nearest one, labelled). */
+export function bikeOverviewFor(bike:{manufacturer:string;model:string;model_year:number}){
+ const list=bikeOverviews[`${bike.manufacturer}|${bike.model}`];if(!list?.length)return null;
+ const exact=list.find(o=>o.years.includes(bike.model_year));
+ if(exact)return {...exact,points:exact.points.filter(p=>!p.years?.length||p.years.includes(bike.model_year))};
+ const near=[...list].sort((a,b)=>Math.min(...a.years.map(y=>Math.abs(y-bike.model_year)))-Math.min(...b.years.map(y=>Math.abs(y-bike.model_year))))[0];
+ return {...near,note:`Covers ${near.years.join(', ')}, not the rider's ${bike.model_year}: say a different generation may differ.`};
+}
 export function testerBaselinesFor(bike:{manufacturer:string;model:string;model_year:number}){
  const exact=testerBaselines[`${bike.manufacturer}|${bike.model}|${bike.model_year}`];
  if(exact)return {model_year:'same',settings:exact};
@@ -35,7 +44,7 @@ export function testerBaselinesFor(bike:{manufacturer:string;model:string;model_
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-46';
+export const PROMPT_VERSION='mx-engineering-47';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -56,6 +65,7 @@ export function buildEngineeringInput(bike:Bike|null,history:Message[],claims:Cl
   ...(bike?{fuel_system:fuelSystemLabel(fuelSystem(bike.manufacturer,bike.model,bike.model_year))}:{}),
   ...(bike&&installedPartsContext(bike.configuration,bike)?{installed_parts:installedPartsContext(bike.configuration,bike)}:{}),
   ...(bike&&testerBaselinesFor(bike)?{tester_baselines_private:testerBaselinesFor(bike)}:{}),
+  ...(bike&&bikeOverviewFor(bike)?{bike_overview:bikeOverviewFor(bike)}:{}),
   ...(setupHistory.length?{recent_setup_results:setupHistory.slice(0,8).map(r=>({date:r.recorded_at.slice(0,10),track:r.track||undefined,conditions:r.conditions||undefined,change:r.change_made||undefined,result:r.result.replace('_',' '),notes:r.notes?r.notes.slice(0,300):undefined}))}:{}),
   ...(bike&&manufacturerSetupGuidance(bike)?{manufacturer_setup_guidance:manufacturerSetupGuidance(bike)}:{}),
   ...(bike?{}:{no_build:'The rider chose to ask without a build. There is no saved bike and no published evidence for this question. Follow NO BUILD SELECTED.'}),
@@ -163,7 +173,7 @@ export function responseViolations(r:Parsed,claims:Claim[],fitted:string[]=[],kn
  if(/\b[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\b/i.test(r.summary+' '+r.answer))found.push('The rider-facing text shows an internal identifier. Name the source in plain words instead.');
  const own=fitted.join(' ').toLowerCase(),named=(JSON.stringify(r).match(/\b(Keefer|Motocross Action|MXA|Bones Bacon|Slavens|Teknik)\b/gi)??[]).filter(n=>!own.includes(n.toLowerCase()));
  if(named.length)found.push('The rider-facing text names a tester, magazine or tuner. Say what suspension tuners and testers commonly find, in your own words, without names or their numbers.');
- if(/\b(research notes?|bike notes|our notes|recorded in our|on file in our|supplied (notes|data|research|context)|provided (notes|data|context)|installed_parts|tester_baselines|setup_knowledge|racing_knowledge|coaching_knowledge|coaching_history|other_disciplines|usual_dirt|rider_media|earlier_fix|bike_knowledge|other_bikes_knowledge|reviewed_workshop|rider_own_manual|verified_claims|authored_hypotheses|garage_updates)\b/i.test(JSON.stringify({a:r.answer,s:r.summary,c:r.setup_changes,n:r.next_step})))found.push('The rider-facing text describes how BAK is fed (research notes, supplied data, input field names). Speak plainly: "testers report", "the maker claims", "your build sheet shows".');
+ if(/\b(research notes?|bike notes|our notes|recorded in our|on file in our|supplied (notes|data|research|context)|provided (notes|data|context)|installed_parts|tester_baselines|bike_overview|setup_knowledge|racing_knowledge|coaching_knowledge|coaching_history|other_disciplines|usual_dirt|rider_media|earlier_fix|bike_knowledge|other_bikes_knowledge|reviewed_workshop|rider_own_manual|verified_claims|authored_hypotheses|garage_updates)\b/i.test(JSON.stringify({a:r.answer,s:r.summary,c:r.setup_changes,n:r.next_step})))found.push('The rider-facing text describes how BAK is fed (research notes, supplied data, input field names). Speak plainly: "testers report", "the maker claims", "your build sheet shows".');
  return [...new Set(found)];
 }
 export function validateResponse(value:unknown,claims:Claim[],fitted:string[]=[],knowledge:Knowledge[]=[]):EngineeringResponse{
@@ -222,6 +232,7 @@ recent_setup_results is the rider's own log for this bike, newest first: what th
 TESTER BASELINES (PRIVATE)
 tester_baselines_private (a separate, older reference set, not bike_knowledge) holds settings that experienced testers published for this bike (rider weight, pace and conditions where given). It is reasoning context only, never rider-facing: do not state its numbers, do not quote it, do not say a tester, magazine or person runs a setting, and do not present it as a recommendation or as published evidence. Use it to judge direction and size: whether the rider's current settings are far from where experienced riders run this bike, which direction testers commonly move from stock for a rider of similar weight and pace, and which adjusters testers found sensitive on this bike. Express that in your own words ("riders of your weight usually run this shock a little firmer than stock") and keep every concrete step a small move from the rider's own current setting. When its model year differs from the rider's, weigh it less. This restriction does not apply to bike_knowledge: TUNER and MEASURED setup rows there may be given with their numbers as a tuner- or tester-tested starting point (never as the manufacturer's setting, never with a name), next to the manufacturer's baseline when both exist.
 
+bike_overview is what independent testers, tuners and riders repeatedly report about this model and generation: a summary, points with how many independent sources agree (support) and a strength (strong consensus = 3 or more, consensus = 2, single source = 1), common fixes and disagreements. Use it as experience, not as factory fact: say "testers consistently report ..." for strong consensus, "several testers found ..." for consensus, and "one tester found ..." for a single source; never name a tester, outlet or person. Factory values in verified claims always win over it. Use it to recognise a rider's complaint as a known trait of the bike, to suggest the fix that worked for others as a direction from the rider's own settings, and to flag disagreements honestly. If it covers a different generation than the rider's year, say so.
 INSTALLED PARTS
 installed_parts is the rider's build sheet: parts on the bike (fitted) by system, parts the rider owns but has off the bike right now (off_the_bike: a second suspension set, sand tires, a quiet insert, swapped on for other conditions), systems confirmed stock, systems not recorded, and build_checks (contradictions found in the sheet: a part made for a component the bike no longer has, two parts in one slot, a sprocket size that disagrees with the gearing). Answer for what is on the bike. Use off_the_bike only when the rider talks about that setup or conditions it suits, and then say it means swapping parts. When build_checks bears on the question, say it plainly first. A part changes what applies: stock maps, jetting, clicker baselines and spring advice may no longer fit a modified system, so say when your answer depends on a fitted part. A not_recorded system is unknown, not stock: ask about it only when the answer turns on it. research.listed_as is the maker's or retailer's full product title for the part the rider picked; the rider's saved name may be shortened, so judge which bikes it fits from listed_as and the fit note, not from the shortened name. research notes on a part are attributed research (maker claims, tester observations, caveats such as supporting parts, required maps or noise limits): use them, name them as maker claims or tester reports (never as research notes or supplied data), and never present a claimed gain as measured fact or invent a spec the notes do not give. A part typed by the rider is their description, unverified. The Garage build sheet groups parts as: ${partSystems.map(x=>x.label+' ('+x.hint+')').join('; ')}. When a rider wants something recorded, name the section it goes under; propose it in garage_updates. rider_detail on a part or piece of work is the rider's own note (map name, valving, hours): use it, unverified. A fitted ECU flash, remap or aftermarket ECU means the stock maps and stock fuelling advice no longer apply; ask which map is loaded when it matters.
 fuel_system says whether this bike is fuel injected or carbureted. On a fuel-injected bike never suggest jetting, needle, float or carburetor changes: fuelling changes go through the map switch, the maker's tuning app or tool, an ECU flash or a tuner. On a carbureted bike never suggest ECU maps for fuelling. When it is not on file and the answer turns on it, ask.
