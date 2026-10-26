@@ -1,0 +1,2124 @@
+[
+ {
+  "id": "bak-kawasaki-drive-chain-v1-kx450-2020-2021-2025-2026-kx450x-2025-2026-kx250-2023-kx250x-2023",
+  "targets": [
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2020
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2023
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "chain",
+   "sprockets",
+   "rear_wheel",
+   "swingarm"
+  ],
+  "title": "Check, adjust and lubricate the drive chain",
+  "entry_state": [
+   "Bike on a stand with the rear wheel off the ground, engine stopped."
+  ],
+  "exit_state": [
+   "Chain slack set at its tightest point, wheel aligned, axle torqued, chain lubricated, recorded."
+  ],
+  "completeness": "Covers finding the tightest point, measuring slack, adjusting with wheel alignment, axle nut inspection and torque, wear and sprocket checks and lubrication.",
+  "excluded": [
+   "Chain and sprocket replacement",
+   "Chain slipper replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand that lifts the rear wheel",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   },
+   {
+    "name": "Wrenches for the axle nut and adjusters",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Chain lubricant and rag",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Engine stopped; keep fingers away from the sprockets while turning the wheel."
+  ],
+  "critical_stop_conditions": [
+   "Damaged rollers, loose pins, kinks or hooked sprocket teeth: replace the chain and sprockets before riding.",
+   "Rear axle nut friction ring or staking damaged: fit a new nut.",
+   "Chain too tight is as dangerous as too loose: it can break."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Check and adjust the chain after each race (or 2.5 hours), lubricate it after each race (or 2.5 hours) and check it for wear after each race (or 2.5 hours). Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "lift",
+    "title": "Lift the rear wheel",
+    "instruction": "Put the bike on a stand so the rear wheel turns freely.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Rear wheel off the ground."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tightest",
+    "title": "Find the tightest point",
+    "instruction": "Turn the rear wheel slowly and push up on the chain at several points: chains wear unevenly, so find where it is tightest and measure there.",
+    "depends_on": [
+     "lift"
+    ],
+    "verification": [
+     "Tightest point found."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "measure",
+    "title": "Measure the slack",
+    "instruction": "At the tightest point, push the upper run of the chain up just behind the rear end of the chain slipper and measure the gap between the bottom of the chain and the swingarm at the end of the slipper. Compare it with your bike's standard chain slack range. In wet, muddy conditions run it toward the loose side, because packed mud tightens the chain.",
+    "depends_on": [
+     "tightest"
+    ],
+    "verification": [
+     "Slack measured and written down."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "in-range",
+      "label": "Slack in range",
+      "next_step": "wear",
+      "condition": "Slack already correct: go on to the wear check."
+     }
+    ]
+   },
+   {
+    "id": "loosen",
+    "title": "Loosen the axle",
+    "instruction": "Loosen the rear axle nut and both chain adjuster locknuts.",
+    "depends_on": [
+     "measure"
+    ],
+    "verification": [
+     "Axle and locknuts loose."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "adjust",
+    "title": "Set the slack and alignment",
+    "instruction": "Turn both adjusting bolts by the same amount until the slack is right. If the chain is too tight, back both bolts out evenly and push the wheel forward. Keep the notch or rear edge of each adjuster on the same swingarm mark on both sides so the wheel stays straight.",
+    "depends_on": [
+     "loosen"
+    ],
+    "verification": [
+     "Slack set, both adjusters on the same mark."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "axle-nut",
+    "title": "Inspect the axle nut",
+    "instruction": "Look at the rear axle nut. If its friction ring or staking is deformed or damaged, fit a new nut.",
+    "depends_on": [
+     "adjust"
+    ],
+    "verification": [
+     "Nut good."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tighten",
+    "title": "Tighten everything",
+    "instruction": "Tighten both chain adjuster locknuts, then the rear axle nut to 110 N·m (81.1 ft·lb).",
+    "depends_on": [
+     "axle-nut"
+    ],
+    "verification": [
+     "Locknuts and axle nut torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "recheck",
+    "title": "Recheck the slack",
+    "instruction": "Turn the wheel, measure the slack again at the tightest point and readjust if needed. Check the rear brake works and does not drag.",
+    "depends_on": [
+     "tighten"
+    ],
+    "verification": [
+     "Slack still correct, brake good."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wear",
+    "title": "Check chain and sprocket wear",
+    "instruction": "Turn the wheel and look for damaged rollers, loose pins or links and stiff spots. Look at the teeth on both sprockets: hooked, worn or broken teeth mean new sprockets, and a new chain should always go on with good sprockets. Check the chain slipper on the swingarm and the chain guide for wear. Check the rear sprocket after each race (or 2.5 hours).",
+    "depends_on": [
+     "measure"
+    ],
+    "verification": [
+     "Chain, sprockets, slipper and guide inspected."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "worn",
+      "label": "Worn or damaged parts",
+      "next_step": "record-out",
+      "condition": "Replace the worn parts before riding and record what was changed."
+     }
+    ]
+   },
+   {
+    "id": "lube",
+    "title": "Lubricate the chain",
+    "instruction": "Apply a good drive chain lubricant to the sides of the rollers so it soaks into the rollers and bushings, then wipe off the excess. Lube it after any wet ride or whenever it looks dry.",
+    "depends_on": [
+     "wear"
+    ],
+    "verification": [
+     "Chain lubed, excess wiped."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record the job",
+    "instruction": "Write down the slack before and after, the alignment mark used and the condition of the chain and sprockets.",
+    "depends_on": [
+     "lube"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-kawasaki-drive-chain-v1-kx450-2022-2024-kx450x-2021-2024-kx250-2020-2022-2024-2026-kx250x-2021-2022-2024-2026",
+  "targets": [
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2020
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "chain",
+   "sprockets",
+   "rear_wheel",
+   "swingarm"
+  ],
+  "title": "Check, adjust and lubricate the drive chain",
+  "entry_state": [
+   "Bike on a stand with the rear wheel off the ground, engine stopped."
+  ],
+  "exit_state": [
+   "Chain slack set at its tightest point, wheel aligned, axle torqued, chain lubricated, recorded."
+  ],
+  "completeness": "Covers finding the tightest point, measuring slack, adjusting with wheel alignment, axle nut inspection and torque, wear and sprocket checks and lubrication.",
+  "excluded": [
+   "Chain and sprocket replacement",
+   "Chain slipper replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand that lifts the rear wheel",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   },
+   {
+    "name": "Wrenches for the axle nut and adjusters",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Chain lubricant and rag",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Engine stopped; keep fingers away from the sprockets while turning the wheel."
+  ],
+  "critical_stop_conditions": [
+   "Damaged rollers, loose pins, kinks or hooked sprocket teeth: replace the chain and sprockets before riding.",
+   "Rear axle nut friction ring or staking damaged: fit a new nut.",
+   "Chain too tight is as dangerous as too loose: it can break."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Check and adjust the chain after each race (or 2.5 hours), lubricate it after each race (or 2.5 hours) and check it for wear after each race (or 2.5 hours). Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "lift",
+    "title": "Lift the rear wheel",
+    "instruction": "Put the bike on a stand so the rear wheel turns freely.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Rear wheel off the ground."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tightest",
+    "title": "Find the tightest point",
+    "instruction": "Turn the rear wheel slowly and push up on the chain at several points: chains wear unevenly, so find where it is tightest and measure there.",
+    "depends_on": [
+     "lift"
+    ],
+    "verification": [
+     "Tightest point found."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "measure",
+    "title": "Measure the slack",
+    "instruction": "At the tightest point, push the upper run of the chain up just behind the rear end of the chain slipper and measure the gap between the bottom of the chain and the swingarm at the end of the slipper. Compare it with your bike's standard chain slack range. In wet, muddy conditions run it toward the loose side, because packed mud tightens the chain.",
+    "depends_on": [
+     "tightest"
+    ],
+    "verification": [
+     "Slack measured and written down."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "in-range",
+      "label": "Slack in range",
+      "next_step": "wear",
+      "condition": "Slack already correct: go on to the wear check."
+     }
+    ]
+   },
+   {
+    "id": "loosen",
+    "title": "Loosen the axle",
+    "instruction": "Loosen the rear axle nut and both chain adjuster locknuts.",
+    "depends_on": [
+     "measure"
+    ],
+    "verification": [
+     "Axle and locknuts loose."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "adjust",
+    "title": "Set the slack and alignment",
+    "instruction": "Turn both adjusting bolts by the same amount until the slack is right. If the chain is too tight, back both bolts out evenly and push the wheel forward. Keep the notch or rear edge of each adjuster on the same swingarm mark on both sides so the wheel stays straight.",
+    "depends_on": [
+     "loosen"
+    ],
+    "verification": [
+     "Slack set, both adjusters on the same mark."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "axle-nut",
+    "title": "Inspect the axle nut",
+    "instruction": "Look at the rear axle nut. If its friction ring or staking is deformed or damaged, fit a new nut.",
+    "depends_on": [
+     "adjust"
+    ],
+    "verification": [
+     "Nut good."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tighten",
+    "title": "Tighten everything",
+    "instruction": "Tighten both chain adjuster locknuts to 15 N·m (11 ft·lb), then the rear axle nut to 110 N·m (81.1 ft·lb).",
+    "depends_on": [
+     "axle-nut"
+    ],
+    "verification": [
+     "Locknuts and axle nut torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "recheck",
+    "title": "Recheck the slack",
+    "instruction": "Turn the wheel, measure the slack again at the tightest point and readjust if needed. Check the rear brake works and does not drag.",
+    "depends_on": [
+     "tighten"
+    ],
+    "verification": [
+     "Slack still correct, brake good."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "wear",
+    "title": "Check chain and sprocket wear",
+    "instruction": "Turn the wheel and look for damaged rollers, loose pins or links and stiff spots. Look at the teeth on both sprockets: hooked, worn or broken teeth mean new sprockets, and a new chain should always go on with good sprockets. Check the chain slipper on the swingarm and the chain guide for wear. Check the rear sprocket after each race (or 2.5 hours).",
+    "depends_on": [
+     "measure"
+    ],
+    "verification": [
+     "Chain, sprockets, slipper and guide inspected."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "worn",
+      "label": "Worn or damaged parts",
+      "next_step": "record-out",
+      "condition": "Replace the worn parts before riding and record what was changed."
+     }
+    ]
+   },
+   {
+    "id": "lube",
+    "title": "Lubricate the chain",
+    "instruction": "Apply a good drive chain lubricant to the sides of the rollers so it soaks into the rollers and bushings, then wipe off the excess. Lube it after any wet ride or whenever it looks dry.",
+    "depends_on": [
+     "wear"
+    ],
+    "verification": [
+     "Chain lubed, excess wiped."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record the job",
+    "instruction": "Write down the slack before and after, the alignment mark used and the condition of the chain and sprockets.",
+    "depends_on": [
+     "lube"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-kawasaki-brakes-v1-kx450-2020-2026-kx450x-2021-2026-kx250-2020-2026-kx250x-2021-2026",
+  "targets": [
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2020
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2020
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "front_brake",
+   "rear_brake"
+  ],
+  "title": "Check the brake pads and brake fluid",
+  "entry_state": [
+   "Bike on a stand, engine stopped."
+  ],
+  "exit_state": [
+   "Pads and fluid checked, topped up if needed, brakes firm and free, recorded."
+  ],
+  "completeness": "Covers fluid level in both reservoirs, topping up, pad lining checks, hose checks, lever position and a function test.",
+  "excluded": [
+   "Pad replacement",
+   "Bleeding or changing the brake fluid",
+   "Caliper or master cylinder overhaul"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand",
+    "size": null
+   },
+   {
+    "name": "Torch",
+    "size": null
+   },
+   {
+    "name": "Screwdriver for the reservoir caps",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Brake fluid",
+    "purpose": "Fresh fluid of the grade marked on each reservoir cap, from a sealed container, only if topping up."
+   }
+  ],
+  "prerequisites": [
+   "Engine stopped."
+  ],
+  "critical_stop_conditions": [
+   "Spongy lever or pedal: air in the system; do not ride, have it bled.",
+   "Pad lining worn to the service limit on either pad: replace both pads in that caliper as a set before riding.",
+   "Brake fluid strips paint: wipe any drip off at once."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Check the brake pads after each race (or 2.5 hours) and the brake fluid level after each race (or 2.5 hours); the fluid is changed every 2 years by someone with bleeding equipment. Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "front-level",
+    "title": "Check the front fluid",
+    "instruction": "Turn the handlebar so the front reservoir is level. The fluid must be above the lower level line.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Front level read."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "rear-level",
+    "title": "Check the rear fluid",
+    "instruction": "With the bike upright and the rear reservoir level, check its fluid against its level marks.",
+    "depends_on": [
+     "front-level"
+    ],
+    "verification": [
+     "Rear level read."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "low",
+      "label": "Either level low",
+      "next_step": "topup",
+      "condition": "Below the mark: look for a leak first, then top up."
+     },
+     {
+      "id": "ok",
+      "label": "Both levels fine",
+      "next_step": "pads",
+      "condition": "Go on to the pads."
+     }
+    ]
+   },
+   {
+    "id": "topup",
+    "title": "Top up",
+    "instruction": "Clean round the cap, open the reservoir and add fresh fluid of the grade marked on the cap up to the upper level line or step inside the reservoir. Never mix brands or types; if you do not know what is in there, have the whole system flushed. Refit the cap snugly.",
+    "depends_on": [
+     "rear-level"
+    ],
+    "verification": [
+     "Level correct, cap on."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "pads",
+    "title": "Check the pads",
+    "instruction": "Look into each caliper with a torch at the lining left on both pads. If either lining on a caliper is worn to its service limit, replace both pads in that caliper as a set.",
+    "depends_on": [
+     "rear-level"
+    ],
+    "verification": [
+     "Lining thickness checked on all four pads."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "worn",
+      "label": "Pads worn",
+      "next_step": "record-out",
+      "condition": "Lining at or below the limit: replace the pads before riding and record it."
+     }
+    ]
+   },
+   {
+    "id": "hoses",
+    "title": "Check hoses and fittings",
+    "instruction": "Look for fluid round the master cylinders, calipers and hose fittings, and for cracks or chafing on the hoses.",
+    "depends_on": [
+     "pads"
+    ],
+    "verification": [
+     "No leaks or damage."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "lever",
+    "title": "Set the lever",
+    "instruction": "Turn the front lever adjuster to put the lever where the rider likes it.",
+    "depends_on": [
+     "hoses"
+    ],
+    "verification": [
+     "Lever position set."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "test",
+    "title": "Test the brakes",
+    "instruction": "Pump the lever and pedal: both must feel firm. Spin each wheel: it must turn freely without drag when released.",
+    "depends_on": [
+     "lever"
+    ],
+    "verification": [
+     "Firm, no drag."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "spongy",
+      "label": "Soft or spongy",
+      "next_step": "record-out",
+      "condition": "Spongy feel means air in the line: do not ride; have the brake bled and record it."
+     }
+    ]
+   },
+   {
+    "id": "record-out",
+    "title": "Record the check",
+    "instruction": "Write down the fluid levels, pad condition and anything you found.",
+    "depends_on": [
+     "test"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-kawasaki-pre-ride-v1-kx450-2020-2026-kx450x-2021-2026",
+  "targets": [
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2020
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "tires",
+   "wheels",
+   "engine",
+   "cooling",
+   "brakes",
+   "clutch",
+   "chain",
+   "fork",
+   "shock",
+   "controls"
+  ],
+  "title": "Do the pre-ride check",
+  "entry_state": [
+   "Bike on a stand, engine cold."
+  ],
+  "exit_state": [
+   "Every daily item checked, faults put right or recorded."
+  ],
+  "completeness": "Covers the daily walk-round of fluids, filter, controls, brakes, chain, wheels, steering, suspension and fasteners.",
+  "excluded": [
+   "Scheduled services"
+  ],
+  "required_tools": [
+   {
+    "name": "Tyre gauge",
+    "size": null
+   },
+   {
+    "name": "Basic wrenches",
+    "size": null
+   },
+   {
+    "name": "Chain lube",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "A few minutes before every ride."
+  ],
+  "critical_stop_conditions": [
+   "Throttle that does not snap shut: do not start the engine.",
+   "Spongy brakes or any fuel leak: do not ride."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the date",
+    "instruction": "Write down the date and the hours before the ride.",
+    "depends_on": [],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "fluids",
+    "title": "Engine fluids",
+    "instruction": "Check the engine oil window for the level and look for any oil leak. With the engine cold, check the coolant reaches the bottom of the filler neck, the radiator cap is fully on and nothing leaks.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Oil and coolant correct, no leaks."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "intake",
+    "title": "Air filter",
+    "instruction": "Make sure the air filter is clean, oiled and sealed, and the airbox cover or seat is secure.",
+    "depends_on": [
+     "fluids"
+    ],
+    "verification": [
+     "Filter clean and sealed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "plug",
+    "title": "Spark plug and head",
+    "instruction": "Make sure the spark plug cap is pushed fully home and the cylinder head cover bolts are tight.",
+    "depends_on": [
+     "intake"
+    ],
+    "verification": [
+     "Plug cap secure."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "controls",
+    "title": "Controls",
+    "instruction": "Twist the throttle: it must snap shut by itself in every handlebar position without the cables binding. Pull the clutch lever: it must feel firm, with the fluid level correct and no leaks. Check the engine stop button works.",
+    "depends_on": [
+     "plug"
+    ],
+    "verification": [
+     "Throttle, clutch and stop button working."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "brakes",
+    "title": "Brakes",
+    "instruction": "Pump the front lever and rear pedal: both must feel firm with no fluid leaks.",
+    "depends_on": [
+     "controls"
+    ],
+    "verification": [
+     "Brakes firm."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "chain",
+    "title": "Chain and sprockets",
+    "instruction": "Check the chain slack at its tightest point, oil the chain if it is dry and look for worn or damaged sprocket teeth.",
+    "depends_on": [
+     "brakes"
+    ],
+    "verification": [
+     "Chain and sprockets good."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wheels",
+    "title": "Wheels and tyres",
+    "instruction": "Set both tyres, cold, within 100 to 125 kPa (14 to 18 psi) to suit the track. Check the valve caps are on, the tyres are not damaged and no spokes are loose.",
+    "depends_on": [
+     "chain"
+    ],
+    "verification": [
+     "Pressures set, spokes tight."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "steering",
+    "title": "Steering and suspension",
+    "instruction": "Turn the bars lock to lock: smooth but not loose. Pump the fork and the rear end: both must move smoothly with no oil on the fork tubes or shock.",
+    "depends_on": [
+     "wheels"
+    ],
+    "verification": [
+     "Steering and suspension good."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "frame",
+    "title": "Frame, exhaust and fasteners",
+    "instruction": "Look over the frame and exhaust for cracks or damage, make sure the fuel tank is mounted securely with no fuel leaks, and check that nuts and bolts are tight.",
+    "depends_on": [
+     "steering"
+    ],
+    "verification": [
+     "Nothing loose or damaged."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "battery",
+    "title": "Battery and buttons",
+    "instruction": "Check the battery is charged and the starter and mode buttons work.",
+    "depends_on": [
+     "frame"
+    ],
+    "verification": [
+     "Electrics working."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record anything found",
+    "instruction": "Write down anything you adjusted or that needs attention before the next ride.",
+    "depends_on": [
+     "battery"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-kawasaki-pre-ride-v1-kx250-2020",
+  "targets": [
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2020
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "tires",
+   "wheels",
+   "engine",
+   "cooling",
+   "brakes",
+   "clutch",
+   "chain",
+   "fork",
+   "shock",
+   "controls"
+  ],
+  "title": "Do the pre-ride check",
+  "entry_state": [
+   "Bike on a stand, engine cold."
+  ],
+  "exit_state": [
+   "Every daily item checked, faults put right or recorded."
+  ],
+  "completeness": "Covers the daily walk-round of fluids, filter, controls, brakes, chain, wheels, steering, suspension and fasteners.",
+  "excluded": [
+   "Scheduled services"
+  ],
+  "required_tools": [
+   {
+    "name": "Tyre gauge",
+    "size": null
+   },
+   {
+    "name": "Basic wrenches",
+    "size": null
+   },
+   {
+    "name": "Chain lube",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "A few minutes before every ride."
+  ],
+  "critical_stop_conditions": [
+   "Throttle that does not snap shut: do not start the engine.",
+   "Spongy brakes or any fuel leak: do not ride."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the date",
+    "instruction": "Write down the date and the hours before the ride.",
+    "depends_on": [],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "fluids",
+    "title": "Engine fluids",
+    "instruction": "Check the engine oil window for the level and look for any oil leak. With the engine cold, check the coolant reaches the bottom of the filler neck, the radiator cap is fully on and nothing leaks.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Oil and coolant correct, no leaks."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "intake",
+    "title": "Air filter",
+    "instruction": "Make sure the air filter is clean, oiled and sealed, and the airbox cover or seat is secure.",
+    "depends_on": [
+     "fluids"
+    ],
+    "verification": [
+     "Filter clean and sealed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "plug",
+    "title": "Spark plug and head",
+    "instruction": "Make sure the spark plug cap is pushed fully home and the cylinder head cover bolts are tight.",
+    "depends_on": [
+     "intake"
+    ],
+    "verification": [
+     "Plug cap secure."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "controls",
+    "title": "Controls",
+    "instruction": "Twist the throttle: it must snap shut by itself in every handlebar position without the cables binding. Pull the clutch lever: it must have its small free play and work smoothly. Check the engine stop button works.",
+    "depends_on": [
+     "plug"
+    ],
+    "verification": [
+     "Throttle, clutch and stop button working."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "brakes",
+    "title": "Brakes",
+    "instruction": "Pump the front lever and rear pedal: both must feel firm with no fluid leaks.",
+    "depends_on": [
+     "controls"
+    ],
+    "verification": [
+     "Brakes firm."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "chain",
+    "title": "Chain and sprockets",
+    "instruction": "Check the chain slack at its tightest point, oil the chain if it is dry and look for worn or damaged sprocket teeth.",
+    "depends_on": [
+     "brakes"
+    ],
+    "verification": [
+     "Chain and sprockets good."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wheels",
+    "title": "Wheels and tyres",
+    "instruction": "Set both tyres, cold, within 80 to 100 kPa (12 to 14 psi) to suit the track. Check the valve caps are on, the tyres are not damaged and no spokes are loose.",
+    "depends_on": [
+     "chain"
+    ],
+    "verification": [
+     "Pressures set, spokes tight."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "steering",
+    "title": "Steering and suspension",
+    "instruction": "Turn the bars lock to lock: smooth but not loose. Pump the fork and the rear end: both must move smoothly with no oil on the fork tubes or shock.",
+    "depends_on": [
+     "wheels"
+    ],
+    "verification": [
+     "Steering and suspension good."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "frame",
+    "title": "Frame, exhaust and fasteners",
+    "instruction": "Look over the frame and exhaust for cracks or damage, make sure the fuel tank is mounted securely with no fuel leaks, and check that nuts and bolts are tight.",
+    "depends_on": [
+     "steering"
+    ],
+    "verification": [
+     "Nothing loose or damaged."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record anything found",
+    "instruction": "Write down anything you adjusted or that needs attention before the next ride.",
+    "depends_on": [
+     "frame"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-kawasaki-pre-ride-v1-kx250-2021-2026-kx250x-2021-2026",
+  "targets": [
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "tires",
+   "wheels",
+   "engine",
+   "cooling",
+   "brakes",
+   "clutch",
+   "chain",
+   "fork",
+   "shock",
+   "controls"
+  ],
+  "title": "Do the pre-ride check",
+  "entry_state": [
+   "Bike on a stand, engine cold."
+  ],
+  "exit_state": [
+   "Every daily item checked, faults put right or recorded."
+  ],
+  "completeness": "Covers the daily walk-round of fluids, filter, controls, brakes, chain, wheels, steering, suspension and fasteners.",
+  "excluded": [
+   "Scheduled services"
+  ],
+  "required_tools": [
+   {
+    "name": "Tyre gauge",
+    "size": null
+   },
+   {
+    "name": "Basic wrenches",
+    "size": null
+   },
+   {
+    "name": "Chain lube",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "A few minutes before every ride."
+  ],
+  "critical_stop_conditions": [
+   "Throttle that does not snap shut: do not start the engine.",
+   "Spongy brakes or any fuel leak: do not ride."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the date",
+    "instruction": "Write down the date and the hours before the ride.",
+    "depends_on": [],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "fluids",
+    "title": "Engine fluids",
+    "instruction": "Check the engine oil window for the level and look for any oil leak. With the engine cold, check the coolant reaches the bottom of the filler neck, the radiator cap is fully on and nothing leaks.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Oil and coolant correct, no leaks."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "intake",
+    "title": "Air filter",
+    "instruction": "Make sure the air filter is clean, oiled and sealed, and the airbox cover or seat is secure.",
+    "depends_on": [
+     "fluids"
+    ],
+    "verification": [
+     "Filter clean and sealed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "plug",
+    "title": "Spark plug and head",
+    "instruction": "Make sure the spark plug cap is pushed fully home and the cylinder head cover bolts are tight.",
+    "depends_on": [
+     "intake"
+    ],
+    "verification": [
+     "Plug cap secure."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "controls",
+    "title": "Controls",
+    "instruction": "Twist the throttle: it must snap shut by itself in every handlebar position without the cables binding. Pull the clutch lever: it must feel firm, with the fluid level correct and no leaks. Check the engine stop button works.",
+    "depends_on": [
+     "plug"
+    ],
+    "verification": [
+     "Throttle, clutch and stop button working."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "brakes",
+    "title": "Brakes",
+    "instruction": "Pump the front lever and rear pedal: both must feel firm with no fluid leaks.",
+    "depends_on": [
+     "controls"
+    ],
+    "verification": [
+     "Brakes firm."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "chain",
+    "title": "Chain and sprockets",
+    "instruction": "Check the chain slack at its tightest point, oil the chain if it is dry and look for worn or damaged sprocket teeth.",
+    "depends_on": [
+     "brakes"
+    ],
+    "verification": [
+     "Chain and sprockets good."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wheels",
+    "title": "Wheels and tyres",
+    "instruction": "Set both tyres, cold, within 80 to 100 kPa (12 to 14 psi) to suit the track. Check the valve caps are on, the tyres are not damaged and no spokes are loose.",
+    "depends_on": [
+     "chain"
+    ],
+    "verification": [
+     "Pressures set, spokes tight."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "steering",
+    "title": "Steering and suspension",
+    "instruction": "Turn the bars lock to lock: smooth but not loose. Pump the fork and the rear end: both must move smoothly with no oil on the fork tubes or shock.",
+    "depends_on": [
+     "wheels"
+    ],
+    "verification": [
+     "Steering and suspension good."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "frame",
+    "title": "Frame, exhaust and fasteners",
+    "instruction": "Look over the frame and exhaust for cracks or damage, make sure the fuel tank is mounted securely with no fuel leaks, and check that nuts and bolts are tight.",
+    "depends_on": [
+     "steering"
+    ],
+    "verification": [
+     "Nothing loose or damaged."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "battery",
+    "title": "Battery and buttons",
+    "instruction": "Check the battery is charged and the starter and mode buttons work.",
+    "depends_on": [
+     "frame"
+    ],
+    "verification": [
+     "Electrics working."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record anything found",
+    "instruction": "Write down anything you adjusted or that needs attention before the next ride.",
+    "depends_on": [
+     "battery"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-kawasaki-after-wash-v1-kx450-2020-2026-kx450x-2021-2026-kx250-2021-2026-kx250x-2021-2026",
+  "targets": [
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2020
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX450X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2021
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2022
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250X",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "intake",
+   "chain",
+   "fork",
+   "controls",
+   "brakes",
+   "frame"
+  ],
+  "title": "Wash the bike and do the after-wash check",
+  "entry_state": [
+   "Bike back from riding, engine stopped."
+  ],
+  "exit_state": [
+   "Clean, dry, lubricated bike, inspected and recorded."
+  ],
+  "completeness": "Covers safe washing, drying, running the bike dry, chain and pivot lubrication and the after-ride inspection.",
+  "excluded": [
+   "Full service items"
+  ],
+  "required_tools": [
+   {
+    "name": "Garden hose",
+    "size": null
+   },
+   {
+    "name": "Mild neutral detergent",
+    "size": null
+   },
+   {
+    "name": "Soft sponge and cloths",
+    "size": null
+   },
+   {
+    "name": "Muffler plug",
+    "size": null
+   },
+   {
+    "name": "Chain lube",
+    "size": null
+   },
+   {
+    "name": "Cable lubricant",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Engine and exhaust cool."
+  ],
+  "critical_stop_conditions": [
+   "Water inside the airbox: dry it and service the filter before starting.",
+   "Brakes not biting after the wash: dry them before riding at speed."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the date",
+    "instruction": "Write down the date and hours. General lubrication is due after each race (or 2.5 hours).",
+    "depends_on": [],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cool",
+    "title": "Let it cool",
+    "instruction": "Let the engine and exhaust cool down before any water touches them.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine and exhaust cool."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "battery",
+    "title": "Disconnect the battery",
+    "instruction": "Disconnect the battery cables, negative first.",
+    "depends_on": [
+     "cool"
+    ],
+    "verification": [
+     "Battery disconnected."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "seal",
+    "title": "Protect the openings",
+    "instruction": "Make sure the airbox is closed and plug the muffler outlet. Keep water away from the air intake, throttle body, brakes, electrics and fuel tank opening.",
+    "depends_on": [
+     "battery"
+    ],
+    "verification": [
+     "Openings protected."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wash",
+    "title": "Wash gently",
+    "instruction": "Rinse off loose dirt with cold water from a garden hose, then wash with a mild neutral detergent and a soft sponge. Do not use a pressure washer: it drives water past seals and into electrics, and can flatten the radiator fins. Keep degreaser off seals, brake pads and tyres.",
+    "depends_on": [
+     "seal"
+    ],
+    "verification": [
+     "Bike clean."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rinse-dry",
+    "title": "Rinse and dry",
+    "instruction": "Rinse off all detergent with clean water and dry the bike with a soft cloth, looking for cracks, chips and damage as you go. Wash any fuel, brake fluid or coolant off paint and plastic straight away.",
+    "depends_on": [
+     "wash"
+    ],
+    "verification": [
+     "Bike dry and inspected."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "reconnect",
+    "title": "Reconnect the battery",
+    "instruction": "Reconnect the battery cables, positive first.",
+    "depends_on": [
+     "rinse-dry"
+    ],
+    "verification": [
+     "Battery connected."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "unplug",
+    "title": "Unplug the outlets",
+    "instruction": "Take the plug out of the muffler outlet and check the airbox is dry inside.",
+    "depends_on": [
+     "reconnect"
+    ],
+    "verification": [
+     "Outlet clear, airbox dry."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "run",
+    "title": "Run it dry",
+    "instruction": "Start the engine and let it idle for several minutes so the heat dries damp areas. Ride slowly and use both brakes several times to dry the pads.",
+    "depends_on": [
+     "unplug"
+    ],
+    "verification": [
+     "Engine run, brakes dried and working."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "chain",
+    "title": "Lubricate the chain",
+    "instruction": "Lubricate the drive chain so it does not rust.",
+    "depends_on": [
+     "run"
+    ],
+    "verification": [
+     "Chain lubed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "lube",
+    "title": "General lubrication",
+    "instruction": "Oil the clutch and front brake lever pivots, the shift pedal, rear brake pedal and footpeg pivots, and lubricate the control cables.",
+    "depends_on": [
+     "chain"
+    ],
+    "verification": [
+     "Pivots and cables lubricated."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "inspect",
+    "title": "After-ride inspection",
+    "instruction": "Check the air filter, brakes, fork tubes and shock shaft for dirt and damage, and wipe the fork tubes clean so mud cannot damage the seals.",
+    "depends_on": [
+     "lube"
+    ],
+    "verification": [
+     "Inspected."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "record-out",
+    "title": "Record anything found",
+    "instruction": "Write down anything that needs attention before the next ride.",
+    "depends_on": [
+     "inspect"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-kawasaki-after-wash-v1-kx250-2020",
+  "targets": [
+   {
+    "manufacturer": "Kawasaki",
+    "model": "KX250",
+    "model_year": 2020
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "intake",
+   "chain",
+   "fork",
+   "controls",
+   "brakes",
+   "frame"
+  ],
+  "title": "Wash the bike and do the after-wash check",
+  "entry_state": [
+   "Bike back from riding, engine stopped."
+  ],
+  "exit_state": [
+   "Clean, dry, lubricated bike, inspected and recorded."
+  ],
+  "completeness": "Covers safe washing, drying, running the bike dry, chain and pivot lubrication and the after-ride inspection.",
+  "excluded": [
+   "Full service items"
+  ],
+  "required_tools": [
+   {
+    "name": "Garden hose",
+    "size": null
+   },
+   {
+    "name": "Mild neutral detergent",
+    "size": null
+   },
+   {
+    "name": "Soft sponge and cloths",
+    "size": null
+   },
+   {
+    "name": "Muffler plug",
+    "size": null
+   },
+   {
+    "name": "Chain lube",
+    "size": null
+   },
+   {
+    "name": "Cable lubricant",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Engine and exhaust cool."
+  ],
+  "critical_stop_conditions": [
+   "Water inside the airbox: dry it and service the filter before starting.",
+   "Brakes not biting after the wash: dry them before riding at speed."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the date",
+    "instruction": "Write down the date and hours. General lubrication is due after each race (or 2.5 hours).",
+    "depends_on": [],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cool",
+    "title": "Let it cool",
+    "instruction": "Let the engine and exhaust cool down before any water touches them.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine and exhaust cool."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "seal",
+    "title": "Protect the openings",
+    "instruction": "Make sure the airbox is closed and plug the muffler outlet. Keep water away from the air intake, throttle body, brakes, electrics and fuel tank opening.",
+    "depends_on": [
+     "cool"
+    ],
+    "verification": [
+     "Openings protected."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wash",
+    "title": "Wash gently",
+    "instruction": "Rinse off loose dirt with cold water from a garden hose, then wash with a mild neutral detergent and a soft sponge. Do not use a pressure washer: it drives water past seals and into electrics, and can flatten the radiator fins. Keep degreaser off seals, brake pads and tyres.",
+    "depends_on": [
+     "seal"
+    ],
+    "verification": [
+     "Bike clean."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rinse-dry",
+    "title": "Rinse and dry",
+    "instruction": "Rinse off all detergent with clean water and dry the bike with a soft cloth, looking for cracks, chips and damage as you go. Wash any fuel, brake fluid or coolant off paint and plastic straight away.",
+    "depends_on": [
+     "wash"
+    ],
+    "verification": [
+     "Bike dry and inspected."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "unplug",
+    "title": "Unplug the outlets",
+    "instruction": "Take the plug out of the muffler outlet and check the airbox is dry inside.",
+    "depends_on": [
+     "rinse-dry"
+    ],
+    "verification": [
+     "Outlet clear, airbox dry."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "run",
+    "title": "Run it dry",
+    "instruction": "Start the engine and let it idle for several minutes so the heat dries damp areas. Ride slowly and use both brakes several times to dry the pads.",
+    "depends_on": [
+     "unplug"
+    ],
+    "verification": [
+     "Engine run, brakes dried and working."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "chain",
+    "title": "Lubricate the chain",
+    "instruction": "Lubricate the drive chain so it does not rust.",
+    "depends_on": [
+     "run"
+    ],
+    "verification": [
+     "Chain lubed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "lube",
+    "title": "General lubrication",
+    "instruction": "Oil the clutch and front brake lever pivots, the shift pedal, rear brake pedal and footpeg pivots, and lubricate the control cables.",
+    "depends_on": [
+     "chain"
+    ],
+    "verification": [
+     "Pivots and cables lubricated."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "inspect",
+    "title": "After-ride inspection",
+    "instruction": "Check the air filter, brakes, fork tubes and shock shaft for dirt and damage, and wipe the fork tubes clean so mud cannot damage the seals.",
+    "depends_on": [
+     "lube"
+    ],
+    "verification": [
+     "Inspected."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "record-out",
+    "title": "Record anything found",
+    "instruction": "Write down anything that needs attention before the next ride.",
+    "depends_on": [
+     "inspect"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ }
+]
