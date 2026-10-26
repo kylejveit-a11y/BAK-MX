@@ -1,0 +1,4989 @@
+[
+ {
+  "id": "bak-triumph-air-filter-v1-tf250x24-tf250x25-tf250x26-tf450rc25-tf450x26-tf250c26-tf450c26-tf250e26-tf450e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-RC Edition",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-E",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "air_filter",
+   "air_intake",
+   "bodywork"
+  ],
+  "title": "Clean and oil the air filter",
+  "entry_state": [
+   "Bike cool, on a stand."
+  ],
+  "exit_state": [
+   "Clean, evenly oiled filter sealed in the airbox, cover locked, service recorded."
+  ],
+  "completeness": "Covers cover panel removal, filter removal, airbox cleaning, washing, drying, oiling, greasing the seal and refitting with correct orientation.",
+  "excluded": [
+   "Airbox removal",
+   "Intake or throttle body service"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand under the frame",
+    "size": null
+   },
+   {
+    "name": "Foam air filter cleaner and a bucket of warm soapy water",
+    "size": null
+   },
+   {
+    "name": "Foam filter oil",
+    "size": null
+   },
+   {
+    "name": "Grease",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   },
+   {
+    "name": "Gloves",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Spare foam filter",
+    "purpose": "Fit if the old one is torn, and lets you swap filters at the track."
+   }
+  ],
+  "prerequisites": [
+   "Engine stopped and cool."
+  ],
+  "critical_stop_conditions": [
+   "Torn foam or a lifted seam: do not refit it.",
+   "Filter not sealing all round its edge: do not start the engine.",
+   "Never clean the filter with gasoline."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "The air filter is cleaned every 15 operating hours, sooner in dust, and after every wet or muddy ride. Write down the date, the hour meter reading and how dirty the filter looked last time.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "support",
+    "title": "Support the bike",
+    "instruction": "Stand the bike upright on a firm, level surface on a stand under the frame so it cannot tip while you work.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Bike steady on its stand."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cover-off",
+    "title": "Take off the air filter cover panel",
+    "instruction": "Pull out the upper and lower edges of the left air filter cover panel to free its two spigots from their rubber grommets, then move the panel forward to unhook its locating tang from the airbox cover.",
+    "depends_on": [
+     "support"
+    ],
+    "verification": [
+     "Cover panel off, grommets still in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "filter-out",
+    "title": "Take out the filter",
+    "instruction": "Unhook the retaining strap from its spigot, lift the filter assembly out, then free the grommets from the spigots and separate the foam filter from its cage. Look into the airbox and the intake: dirt on the clean side means the filter was not sealing.",
+    "depends_on": [
+     "cover-off"
+    ],
+    "verification": [
+     "Filter out, clean side of the intake inspected."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "dirty-inside",
+      "label": "Dirt past the filter",
+      "next_step": "clean-box",
+      "condition": "Dust or grit on the clean side of the intake: clean it out completely and check the filter seal and seating extra carefully on refit."
+     }
+    ]
+   },
+   {
+    "id": "clean-box",
+    "title": "Clean the airbox",
+    "instruction": "Cover the intake opening with a clean rag, then wipe the inside of the airbox clean. Never let dirt fall into the intake.",
+    "depends_on": [
+     "filter-out"
+    ],
+    "verification": [
+     "Airbox clean, intake covered."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wash",
+    "title": "Wash the foam",
+    "instruction": "Soak the filter in a foam air filter cleaner and squeeze the dirt out. Then wash it in warm soapy water and rinse in clean water. Never use gasoline. Squeeze it out; never twist it or blow it dry, because that tears the foam.",
+    "depends_on": [
+     "clean-box"
+    ],
+    "verification": [
+     "Foam clean, no tears or separated seams."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "torn",
+      "label": "Foam damaged",
+      "next_step": "record-out",
+      "condition": "Any tear, hole or lifting seam: fit a new filter instead, and note it in the record."
+     }
+    ]
+   },
+   {
+    "id": "dry-oil",
+    "title": "Dry and oil the filter",
+    "instruction": "Let the foam dry completely. Then soak it in good quality foam filter oil and squeeze out the excess until the oil is even all over: wet, not dripping. Leave it in the open overnight so the thinner can evaporate before it goes back in.",
+    "depends_on": [
+     "wash"
+    ],
+    "verification": [
+     "Filter evenly oiled, not dripping, rested overnight."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fit-cage",
+    "title": "Refit the filter to its cage",
+    "instruction": "Fit the filter onto the cage with the arrow on the filter lined up with the arrow on the cage. Spread grease on the sealing face of the filter. Hook the filter to the retaining lugs and press the grommets back over their spigots.",
+    "depends_on": [
+     "dry-oil"
+    ],
+    "verification": [
+     "Arrows aligned, sealing face greased."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fit-box",
+    "title": "Install the filter in the airbox",
+    "instruction": "Put the filter in with its arrow pointing up, make sure its spigot drops into the spigot housing, and secure the retaining strap on its spigot. Run a finger round the edge: the seal must sit flat all the way round. Remove the rag from the intake before the filter goes in.",
+    "depends_on": [
+     "fit-cage"
+    ],
+    "verification": [
+     "Filter seated, strap fastened, rag removed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cover-on",
+    "title": "Refit the cover panel",
+    "instruction": "Slide the cover panel rearward with the tang in its slot and the edges tucked behind the airbox cover, line the spigots up with the grommets and press it home. Pull on it to be sure it is held.",
+    "depends_on": [
+     "fit-box"
+    ],
+    "verification": [
+     "Cover panel locked in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record the service",
+    "instruction": "Write down the date, hours, filter condition, whether the clean side was dirty and whether a new filter was fitted.",
+    "depends_on": [
+     "cover-on"
+    ],
+    "verification": [
+     "Service recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-oil-filter-v1-tf250x24-tf250x25-tf250x26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "engine",
+   "lubrication"
+  ],
+  "title": "Change the engine oil, filter and strainers",
+  "entry_state": [
+   "Engine warm, bike on level ground."
+  ],
+  "exit_state": [
+   "New oil at the correct sight-glass level, new filter, clean strainers, every plug torqued, no leaks."
+  ],
+  "completeness": "Covers draining, both oil strainers, filter change, refilling, first start and the dry-sump level check.",
+  "excluded": [
+   "Oil pump or oil line service",
+   "Engine inspection after debris is found"
+  ],
+  "required_tools": [
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Drain pan",
+    "size": null
+   },
+   {
+    "name": "Funnel",
+    "size": null
+   },
+   {
+    "name": "Gloves and eye protection",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Engine oil",
+    "purpose": "10W/50 fully synthetic motorcycle oil, about 0.95 L."
+   },
+   {
+    "name": "Oil filter",
+    "purpose": "New, every change."
+   },
+   {
+    "name": "Drain plug sealing washer",
+    "purpose": "Always new."
+   },
+   {
+    "name": "Oil strainer O-rings",
+    "purpose": "New on both strainer plugs."
+   },
+   {
+    "name": "Oil filter cover O-ring",
+    "purpose": "Renew if damaged."
+   }
+  ],
+  "prerequisites": [
+   "Hour meter reading available."
+  ],
+  "critical_stop_conditions": [
+   "Metal or debris in the oil or filter: do not ride.",
+   "Never rev the engine before the oil has circulated.",
+   "Oil level not visible in the sight glass: do not ride.",
+   "No additives in the oil: they make the clutch slip."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Oil, oil filter and the two oil strainers are done after the first operating hour, then every 2.5 hours of race use and at least every 15 operating hours. Write down the date and the hour meter reading.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "warm",
+    "title": "Warm the engine",
+    "instruction": "Run the engine until it is fully warm so the oil drains well, then stop it. Hot oil burns: wear gloves and eye protection.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine warm and stopped."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "level-ground",
+    "title": "Set the bike upright",
+    "instruction": "Hold the bike upright and level on firm ground (a stand under the frame is fine if it keeps the bike vertical). If a skid plate is fitted, remove it. Put a drain pan under the engine.",
+    "depends_on": [
+     "warm"
+    ],
+    "verification": [
+     "Bike upright and level, pan in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Drain the oil",
+    "instruction": "Remove the oil drain plug and throw away its sealing washer. Remove the oil strainer plug next to the drain plug, then the second oil strainer plug on the left side of the engine. Let the oil run out completely.",
+    "depends_on": [
+     "level-ground"
+    ],
+    "verification": [
+     "Drain plug and both strainer plugs out, oil draining."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "filter-out",
+    "title": "Remove the oil filter",
+    "instruction": "Remove the two oil filter cover fasteners, the cover and its O-ring, and pull the filter out. Look at the old filter and the drained oil for metal or debris.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Old filter out, oil and filter inspected."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "debris",
+      "label": "Metal or debris found",
+      "next_step": "record-out",
+      "condition": "Metal flakes, chunks or a milky oil: do not refill and ride. Record what was found and have the engine inspected."
+     }
+    ]
+   },
+   {
+    "id": "filter-in",
+    "title": "Fit the new filter",
+    "instruction": "Smear clean oil on the sealing ring of the new filter and push it into the engine. Fit the O-ring to the cover, refit the cover and tighten its two fasteners to 10 N·m (89 lbf·in).",
+    "depends_on": [
+     "filter-out"
+    ],
+    "verification": [
+     "New filter in, cover torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "strainers",
+    "title": "Clean and refit the strainers",
+    "instruction": "Clean both oil strainer plug assemblies and their sealing faces thoroughly. Fit new O-rings and refit both strainer plugs at 15 N·m (11 lbf·ft).",
+    "depends_on": [
+     "filter-in"
+    ],
+    "verification": [
+     "Both strainers clean, new O-rings, torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain-plug",
+    "title": "Refit the drain plug",
+    "instruction": "When the oil has stopped dripping, fit a new sealing washer and tighten the drain plug to 20 N·m (15 lbf·ft).",
+    "depends_on": [
+     "strainers"
+    ],
+    "verification": [
+     "Drain plug torqued with a new washer."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fill",
+    "title": "Fill with new oil",
+    "instruction": "Remove the filler plug and fill with 10W/50 fully synthetic motorcycle oil. With a new filter the engine takes about 0.95 L (0.85 L if only the oil is changed). Pour slowly and keep dirt out of the filler. Refit the filler plug.",
+    "depends_on": [
+     "drain-plug"
+    ],
+    "verification": [
+     "Oil added, filler plug refitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "circulate",
+    "title": "Let the oil circulate",
+    "instruction": "Start the engine and let it idle for at least half a minute before raising the revs, so oil reaches every part. Check for leaks at the drain plug, strainers and filter cover. Stop the engine.",
+    "depends_on": [
+     "fill"
+    ],
+    "verification": [
+     "Engine idled before any revs, no leaks."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "level",
+    "title": "Check the level",
+    "instruction": "Wait at least a minute, then with the bike upright and level read the sight glass on the right side next to the clutch cover. Warm, the oil must sit between the middle of the glass and the upper mark; cold, midway between the two marks. Add a little at a time if needed. This engine is dry-sump, so the bike must be level and upright for a true reading.",
+    "depends_on": [
+     "circulate"
+    ],
+    "verification": [
+     "Level correct in the sight glass."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "low",
+      "label": "Level low",
+      "next_step": "level",
+      "condition": "Add a small amount, wait, and read again."
+     }
+    ]
+   },
+   {
+    "id": "skid-on",
+    "title": "Refit what was removed",
+    "instruction": "Refit the skid plate if one was removed.",
+    "depends_on": [
+     "level"
+    ],
+    "verification": [
+     "Everything refitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record the change",
+    "instruction": "Write down the date, hours, oil used, quantity and anything found in the old oil or filter. Dispose of the old oil and filter at a proper collection point.",
+    "depends_on": [
+     "skid-on"
+    ],
+    "verification": [
+     "Change recorded, waste disposed of properly."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-oil-filter-v1-tf450rc25-tf450x26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-RC Edition",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "engine",
+   "lubrication"
+  ],
+  "title": "Change the engine oil, filter and strainers",
+  "entry_state": [
+   "Engine warm, bike on level ground."
+  ],
+  "exit_state": [
+   "New oil at the correct sight-glass level, new filter, clean strainers, every plug torqued, no leaks."
+  ],
+  "completeness": "Covers draining, both oil strainers, filter change, refilling, first start and the dry-sump level check.",
+  "excluded": [
+   "Oil pump or oil line service",
+   "Engine inspection after debris is found"
+  ],
+  "required_tools": [
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Drain pan",
+    "size": null
+   },
+   {
+    "name": "Funnel",
+    "size": null
+   },
+   {
+    "name": "Gloves and eye protection",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Engine oil",
+    "purpose": "fully synthetic motorcycle oil of the specified grade, about 1.15 L."
+   },
+   {
+    "name": "Oil filter",
+    "purpose": "New, every change."
+   },
+   {
+    "name": "Drain plug sealing washer",
+    "purpose": "Always new."
+   },
+   {
+    "name": "Oil strainer O-rings",
+    "purpose": "New on both strainer plugs."
+   },
+   {
+    "name": "Oil filter cover O-ring",
+    "purpose": "Renew if damaged."
+   }
+  ],
+  "prerequisites": [
+   "Hour meter reading available."
+  ],
+  "critical_stop_conditions": [
+   "Metal or debris in the oil or filter: do not ride.",
+   "Never rev the engine before the oil has circulated.",
+   "Oil level not visible in the sight glass: do not ride.",
+   "No additives in the oil: they make the clutch slip."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Oil, oil filter and the two oil strainers are done after the first operating hour, then every 2.5 hours of race use and at least every 15 operating hours. Write down the date and the hour meter reading.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "warm",
+    "title": "Warm the engine",
+    "instruction": "Run the engine until it is fully warm so the oil drains well, then stop it. Hot oil burns: wear gloves and eye protection.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine warm and stopped."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "level-ground",
+    "title": "Set the bike upright",
+    "instruction": "Hold the bike upright and level on firm ground (a stand under the frame is fine if it keeps the bike vertical). If a skid plate is fitted, remove it. Put a drain pan under the engine.",
+    "depends_on": [
+     "warm"
+    ],
+    "verification": [
+     "Bike upright and level, pan in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Drain the oil",
+    "instruction": "Remove the oil drain plug and throw away its sealing washer. Remove the oil strainer plug next to the drain plug, then the second oil strainer plug on the left side of the engine. Let the oil run out completely.",
+    "depends_on": [
+     "level-ground"
+    ],
+    "verification": [
+     "Drain plug and both strainer plugs out, oil draining."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "filter-out",
+    "title": "Remove the oil filter",
+    "instruction": "Remove the two oil filter cover fasteners, the cover and its O-ring, and pull the filter out. Look at the old filter and the drained oil for metal or debris.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Old filter out, oil and filter inspected."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "debris",
+      "label": "Metal or debris found",
+      "next_step": "record-out",
+      "condition": "Metal flakes, chunks or a milky oil: do not refill and ride. Record what was found and have the engine inspected."
+     }
+    ]
+   },
+   {
+    "id": "filter-in",
+    "title": "Fit the new filter",
+    "instruction": "Smear clean oil on the sealing ring of the new filter and push it into the engine. Fit the O-ring to the cover, refit the cover and tighten its two fasteners to 10 N·m (89 lbf·in).",
+    "depends_on": [
+     "filter-out"
+    ],
+    "verification": [
+     "New filter in, cover torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "strainers",
+    "title": "Clean and refit the strainers",
+    "instruction": "Clean both oil strainer plug assemblies and their sealing faces thoroughly. Fit new O-rings and refit both strainer plugs at 15 N·m (11 lbf·ft).",
+    "depends_on": [
+     "filter-in"
+    ],
+    "verification": [
+     "Both strainers clean, new O-rings, torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain-plug",
+    "title": "Refit the drain plug",
+    "instruction": "When the oil has stopped dripping, fit a new sealing washer and tighten the drain plug to 20 N·m (15 lbf·ft).",
+    "depends_on": [
+     "strainers"
+    ],
+    "verification": [
+     "Drain plug torqued with a new washer."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fill",
+    "title": "Fill with new oil",
+    "instruction": "Remove the filler plug and fill with fully synthetic motorcycle oil of the specified grade. With a new filter the engine takes about 1.15 L (1.05 L if only the oil is changed). Pour slowly and keep dirt out of the filler. Refit the filler plug.",
+    "depends_on": [
+     "drain-plug"
+    ],
+    "verification": [
+     "Oil added, filler plug refitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "circulate",
+    "title": "Let the oil circulate",
+    "instruction": "Start the engine and let it idle for at least half a minute before raising the revs, so oil reaches every part. Check for leaks at the drain plug, strainers and filter cover. Stop the engine.",
+    "depends_on": [
+     "fill"
+    ],
+    "verification": [
+     "Engine idled before any revs, no leaks."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "level",
+    "title": "Check the level",
+    "instruction": "Wait at least a minute, then with the bike upright and level read the sight glass on the right side next to the clutch cover. Warm, the oil must sit between the middle of the glass and the upper mark; cold, midway between the two marks. Add a little at a time if needed. This engine is dry-sump, so the bike must be level and upright for a true reading.",
+    "depends_on": [
+     "circulate"
+    ],
+    "verification": [
+     "Level correct in the sight glass."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "low",
+      "label": "Level low",
+      "next_step": "level",
+      "condition": "Add a small amount, wait, and read again."
+     }
+    ]
+   },
+   {
+    "id": "skid-on",
+    "title": "Refit what was removed",
+    "instruction": "Refit the skid plate if one was removed.",
+    "depends_on": [
+     "level"
+    ],
+    "verification": [
+     "Everything refitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record the change",
+    "instruction": "Write down the date, hours, oil used, quantity and anything found in the old oil or filter. Dispose of the old oil and filter at a proper collection point.",
+    "depends_on": [
+     "skid-on"
+    ],
+    "verification": [
+     "Change recorded, waste disposed of properly."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-oil-filter-v1-tf250c26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-C",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "engine",
+   "lubrication"
+  ],
+  "title": "Change the engine oil, filter and strainers",
+  "entry_state": [
+   "Engine warm, bike on level ground."
+  ],
+  "exit_state": [
+   "New oil at the correct sight-glass level, new filter, clean strainers, every plug torqued, no leaks."
+  ],
+  "completeness": "Covers draining, both oil strainers, filter change, refilling, first start and the dry-sump level check.",
+  "excluded": [
+   "Oil pump or oil line service",
+   "Engine inspection after debris is found"
+  ],
+  "required_tools": [
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Drain pan",
+    "size": null
+   },
+   {
+    "name": "Funnel",
+    "size": null
+   },
+   {
+    "name": "Gloves and eye protection",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Engine oil",
+    "purpose": "10W/50 fully synthetic motorcycle oil, about 0.95 L."
+   },
+   {
+    "name": "Oil filter",
+    "purpose": "New, every change."
+   },
+   {
+    "name": "Drain plug sealing washer",
+    "purpose": "Always new."
+   },
+   {
+    "name": "Oil strainer O-rings",
+    "purpose": "New on both strainer plugs."
+   },
+   {
+    "name": "Oil filter cover O-ring",
+    "purpose": "Renew if damaged."
+   }
+  ],
+  "prerequisites": [
+   "Hour meter reading available."
+  ],
+  "critical_stop_conditions": [
+   "Metal or debris in the oil or filter: do not ride.",
+   "Never rev the engine before the oil has circulated.",
+   "Oil level not visible in the sight glass: do not ride.",
+   "No additives in the oil: they make the clutch slip."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Oil, oil filter and the two oil strainers are done after the first operating hour, then every 2.5 hours of race use and at least every 15 operating hours. Write down the date and the hour meter reading.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "warm",
+    "title": "Warm the engine",
+    "instruction": "Run the engine until it is fully warm so the oil drains well, then stop it. Hot oil burns: wear gloves and eye protection.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine warm and stopped."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "level-ground",
+    "title": "Set the bike upright",
+    "instruction": "Hold the bike upright and level on firm ground (a stand under the frame is fine if it keeps the bike vertical). Remove the skid plate. Put a drain pan under the engine.",
+    "depends_on": [
+     "warm"
+    ],
+    "verification": [
+     "Bike upright and level, pan in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Drain the oil",
+    "instruction": "Remove the oil drain plug and throw away its sealing washer. Remove the oil strainer plug next to the drain plug, then the second oil strainer plug on the left side of the engine. Let the oil run out completely.",
+    "depends_on": [
+     "level-ground"
+    ],
+    "verification": [
+     "Drain plug and both strainer plugs out, oil draining."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "filter-out",
+    "title": "Remove the oil filter",
+    "instruction": "Remove the two oil filter cover fasteners, the cover and its O-ring, and pull the filter out. Look at the old filter and the drained oil for metal or debris.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Old filter out, oil and filter inspected."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "debris",
+      "label": "Metal or debris found",
+      "next_step": "record-out",
+      "condition": "Metal flakes, chunks or a milky oil: do not refill and ride. Record what was found and have the engine inspected."
+     }
+    ]
+   },
+   {
+    "id": "filter-in",
+    "title": "Fit the new filter",
+    "instruction": "Smear clean oil on the sealing ring of the new filter and push it into the engine. Fit the O-ring to the cover, refit the cover and tighten its two fasteners to 10 N·m (89 lbf·in).",
+    "depends_on": [
+     "filter-out"
+    ],
+    "verification": [
+     "New filter in, cover torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "strainers",
+    "title": "Clean and refit the strainers",
+    "instruction": "Clean both oil strainer plug assemblies and their sealing faces thoroughly. Fit new O-rings and refit both strainer plugs at 15 N·m (11 lbf·ft).",
+    "depends_on": [
+     "filter-in"
+    ],
+    "verification": [
+     "Both strainers clean, new O-rings, torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain-plug",
+    "title": "Refit the drain plug",
+    "instruction": "When the oil has stopped dripping, fit a new sealing washer and tighten the drain plug to 20 N·m (15 lbf·ft).",
+    "depends_on": [
+     "strainers"
+    ],
+    "verification": [
+     "Drain plug torqued with a new washer."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fill",
+    "title": "Fill with new oil",
+    "instruction": "Remove the filler plug and fill with 10W/50 fully synthetic motorcycle oil. With a new filter the engine takes about 0.95 L (0.85 L if only the oil is changed). Pour slowly and keep dirt out of the filler. Refit the filler plug.",
+    "depends_on": [
+     "drain-plug"
+    ],
+    "verification": [
+     "Oil added, filler plug refitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "circulate",
+    "title": "Let the oil circulate",
+    "instruction": "Start the engine and let it idle for at least half a minute before raising the revs, so oil reaches every part. Check for leaks at the drain plug, strainers and filter cover. Stop the engine.",
+    "depends_on": [
+     "fill"
+    ],
+    "verification": [
+     "Engine idled before any revs, no leaks."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "level",
+    "title": "Check the level",
+    "instruction": "Wait at least a minute, then with the bike upright and level read the sight glass on the right side next to the clutch cover. Warm, the oil must sit between the middle of the glass and the upper mark; cold, midway between the two marks. Add a little at a time if needed. This engine is dry-sump, so the bike must be level and upright for a true reading.",
+    "depends_on": [
+     "circulate"
+    ],
+    "verification": [
+     "Level correct in the sight glass."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "low",
+      "label": "Level low",
+      "next_step": "level",
+      "condition": "Add a small amount, wait, and read again."
+     }
+    ]
+   },
+   {
+    "id": "skid-on",
+    "title": "Refit what was removed",
+    "instruction": "Refit the skid plate: rear fasteners 10 N·m (89 lbf·in), front fasteners 6 N·m (53 lbf·in).",
+    "depends_on": [
+     "level"
+    ],
+    "verification": [
+     "Everything refitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record the change",
+    "instruction": "Write down the date, hours, oil used, quantity and anything found in the old oil or filter. Dispose of the old oil and filter at a proper collection point.",
+    "depends_on": [
+     "skid-on"
+    ],
+    "verification": [
+     "Change recorded, waste disposed of properly."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-oil-filter-v1-tf450c26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-C",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "engine",
+   "lubrication"
+  ],
+  "title": "Change the engine oil, filter and strainers",
+  "entry_state": [
+   "Engine warm, bike on level ground."
+  ],
+  "exit_state": [
+   "New oil at the correct sight-glass level, new filter, clean strainers, every plug torqued, no leaks."
+  ],
+  "completeness": "Covers draining, both oil strainers, filter change, refilling, first start and the dry-sump level check.",
+  "excluded": [
+   "Oil pump or oil line service",
+   "Engine inspection after debris is found"
+  ],
+  "required_tools": [
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Drain pan",
+    "size": null
+   },
+   {
+    "name": "Funnel",
+    "size": null
+   },
+   {
+    "name": "Gloves and eye protection",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Engine oil",
+    "purpose": "fully synthetic motorcycle oil of the specified grade, about 1.15 L."
+   },
+   {
+    "name": "Oil filter",
+    "purpose": "New, every change."
+   },
+   {
+    "name": "Drain plug sealing washer",
+    "purpose": "Always new."
+   },
+   {
+    "name": "Oil strainer O-rings",
+    "purpose": "New on both strainer plugs."
+   },
+   {
+    "name": "Oil filter cover O-ring",
+    "purpose": "Renew if damaged."
+   }
+  ],
+  "prerequisites": [
+   "Hour meter reading available."
+  ],
+  "critical_stop_conditions": [
+   "Metal or debris in the oil or filter: do not ride.",
+   "Never rev the engine before the oil has circulated.",
+   "Oil level not visible in the sight glass: do not ride.",
+   "No additives in the oil: they make the clutch slip."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Oil, oil filter and the two oil strainers are done after the first operating hour, then every 2.5 hours of race use and at least every 15 operating hours. Write down the date and the hour meter reading.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "warm",
+    "title": "Warm the engine",
+    "instruction": "Run the engine until it is fully warm so the oil drains well, then stop it. Hot oil burns: wear gloves and eye protection.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine warm and stopped."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "level-ground",
+    "title": "Set the bike upright",
+    "instruction": "Hold the bike upright and level on firm ground (a stand under the frame is fine if it keeps the bike vertical). Remove the skid plate. Put a drain pan under the engine.",
+    "depends_on": [
+     "warm"
+    ],
+    "verification": [
+     "Bike upright and level, pan in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Drain the oil",
+    "instruction": "Remove the oil drain plug and throw away its sealing washer. Remove the oil strainer plug next to the drain plug, then the second oil strainer plug on the left side of the engine. Let the oil run out completely.",
+    "depends_on": [
+     "level-ground"
+    ],
+    "verification": [
+     "Drain plug and both strainer plugs out, oil draining."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "filter-out",
+    "title": "Remove the oil filter",
+    "instruction": "Remove the two oil filter cover fasteners, the cover and its O-ring, and pull the filter out. Look at the old filter and the drained oil for metal or debris.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Old filter out, oil and filter inspected."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "debris",
+      "label": "Metal or debris found",
+      "next_step": "record-out",
+      "condition": "Metal flakes, chunks or a milky oil: do not refill and ride. Record what was found and have the engine inspected."
+     }
+    ]
+   },
+   {
+    "id": "filter-in",
+    "title": "Fit the new filter",
+    "instruction": "Smear clean oil on the sealing ring of the new filter and push it into the engine. Fit the O-ring to the cover, refit the cover and tighten its two fasteners to 10 N·m (89 lbf·in).",
+    "depends_on": [
+     "filter-out"
+    ],
+    "verification": [
+     "New filter in, cover torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "strainers",
+    "title": "Clean and refit the strainers",
+    "instruction": "Clean both oil strainer plug assemblies and their sealing faces thoroughly. Fit new O-rings and refit both strainer plugs at 15 N·m (11 lbf·ft).",
+    "depends_on": [
+     "filter-in"
+    ],
+    "verification": [
+     "Both strainers clean, new O-rings, torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain-plug",
+    "title": "Refit the drain plug",
+    "instruction": "When the oil has stopped dripping, fit a new sealing washer and tighten the drain plug to 20 N·m (15 lbf·ft).",
+    "depends_on": [
+     "strainers"
+    ],
+    "verification": [
+     "Drain plug torqued with a new washer."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fill",
+    "title": "Fill with new oil",
+    "instruction": "Remove the filler plug and fill with fully synthetic motorcycle oil of the specified grade. With a new filter the engine takes about 1.15 L (1.05 L if only the oil is changed). Pour slowly and keep dirt out of the filler. Refit the filler plug.",
+    "depends_on": [
+     "drain-plug"
+    ],
+    "verification": [
+     "Oil added, filler plug refitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "circulate",
+    "title": "Let the oil circulate",
+    "instruction": "Start the engine and let it idle for at least half a minute before raising the revs, so oil reaches every part. Check for leaks at the drain plug, strainers and filter cover. Stop the engine.",
+    "depends_on": [
+     "fill"
+    ],
+    "verification": [
+     "Engine idled before any revs, no leaks."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "level",
+    "title": "Check the level",
+    "instruction": "Wait at least a minute, then with the bike upright and level read the sight glass on the right side next to the clutch cover. Warm, the oil must sit between the middle of the glass and the upper mark; cold, midway between the two marks. Add a little at a time if needed. This engine is dry-sump, so the bike must be level and upright for a true reading.",
+    "depends_on": [
+     "circulate"
+    ],
+    "verification": [
+     "Level correct in the sight glass."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "low",
+      "label": "Level low",
+      "next_step": "level",
+      "condition": "Add a small amount, wait, and read again."
+     }
+    ]
+   },
+   {
+    "id": "skid-on",
+    "title": "Refit what was removed",
+    "instruction": "Refit the skid plate: rear fasteners 10 N·m (89 lbf·in), front fasteners 6 N·m (53 lbf·in).",
+    "depends_on": [
+     "level"
+    ],
+    "verification": [
+     "Everything refitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record the change",
+    "instruction": "Write down the date, hours, oil used, quantity and anything found in the old oil or filter. Dispose of the old oil and filter at a proper collection point.",
+    "depends_on": [
+     "skid-on"
+    ],
+    "verification": [
+     "Change recorded, waste disposed of properly."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-oil-filter-v1-tf250e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "engine",
+   "lubrication"
+  ],
+  "title": "Change the engine oil, filter and strainers",
+  "entry_state": [
+   "Engine warm, bike on level ground."
+  ],
+  "exit_state": [
+   "New oil at the correct sight-glass level, new filter, clean strainers, every plug torqued, no leaks."
+  ],
+  "completeness": "Covers draining, both oil strainers, filter change, refilling, first start and the dry-sump level check.",
+  "excluded": [
+   "Oil pump or oil line service",
+   "Engine inspection after debris is found"
+  ],
+  "required_tools": [
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Drain pan",
+    "size": null
+   },
+   {
+    "name": "Funnel",
+    "size": null
+   },
+   {
+    "name": "Gloves and eye protection",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Engine oil",
+    "purpose": "fully synthetic motorcycle oil of the specified grade, about 0.95 L."
+   },
+   {
+    "name": "Oil filter",
+    "purpose": "New, every change."
+   },
+   {
+    "name": "Drain plug sealing washer",
+    "purpose": "Always new."
+   },
+   {
+    "name": "Oil strainer O-rings",
+    "purpose": "New on both strainer plugs."
+   },
+   {
+    "name": "Oil filter cover O-ring",
+    "purpose": "Renew if damaged."
+   }
+  ],
+  "prerequisites": [
+   "Hour meter reading available."
+  ],
+  "critical_stop_conditions": [
+   "Metal or debris in the oil or filter: do not ride.",
+   "Never rev the engine before the oil has circulated.",
+   "Oil level not visible in the sight glass: do not ride.",
+   "No additives in the oil: they make the clutch slip."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Oil, oil filter and the two oil strainers are done after the first operating hour, then every 3.5 hours of race use and at least every 15 operating hours. Write down the date and the hour meter reading.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "warm",
+    "title": "Warm the engine",
+    "instruction": "Run the engine until it is fully warm so the oil drains well, then stop it. Hot oil burns: wear gloves and eye protection.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine warm and stopped."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "level-ground",
+    "title": "Set the bike upright",
+    "instruction": "Hold the bike upright and level on firm ground (a stand under the frame is fine if it keeps the bike vertical). If a skid plate is fitted, remove it. Put a drain pan under the engine.",
+    "depends_on": [
+     "warm"
+    ],
+    "verification": [
+     "Bike upright and level, pan in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Drain the oil",
+    "instruction": "Remove the oil drain plug and throw away its sealing washer. Remove the oil strainer plug next to the drain plug, then the second oil strainer plug on the left side of the engine. Let the oil run out completely.",
+    "depends_on": [
+     "level-ground"
+    ],
+    "verification": [
+     "Drain plug and both strainer plugs out, oil draining."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "filter-out",
+    "title": "Remove the oil filter",
+    "instruction": "Remove the two oil filter cover fasteners, the cover and its O-ring, and pull the filter out. Look at the old filter and the drained oil for metal or debris.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Old filter out, oil and filter inspected."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "debris",
+      "label": "Metal or debris found",
+      "next_step": "record-out",
+      "condition": "Metal flakes, chunks or a milky oil: do not refill and ride. Record what was found and have the engine inspected."
+     }
+    ]
+   },
+   {
+    "id": "filter-in",
+    "title": "Fit the new filter",
+    "instruction": "Smear clean oil on the sealing ring of the new filter and push it into the engine. Fit the O-ring to the cover, refit the cover and tighten its two fasteners to 10 N·m (89 lbf·in).",
+    "depends_on": [
+     "filter-out"
+    ],
+    "verification": [
+     "New filter in, cover torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "strainers",
+    "title": "Clean and refit the strainers",
+    "instruction": "Clean both oil strainer plug assemblies and their sealing faces thoroughly. Fit new O-rings and refit both strainer plugs at 15 N·m (11 lbf·ft).",
+    "depends_on": [
+     "filter-in"
+    ],
+    "verification": [
+     "Both strainers clean, new O-rings, torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain-plug",
+    "title": "Refit the drain plug",
+    "instruction": "When the oil has stopped dripping, fit a new sealing washer and tighten the drain plug to 20 N·m (15 lbf·ft).",
+    "depends_on": [
+     "strainers"
+    ],
+    "verification": [
+     "Drain plug torqued with a new washer."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fill",
+    "title": "Fill with new oil",
+    "instruction": "Remove the filler plug and fill with fully synthetic motorcycle oil of the specified grade. With a new filter the engine takes about 0.95 L (0.85 L if only the oil is changed). Pour slowly and keep dirt out of the filler. Refit the filler plug.",
+    "depends_on": [
+     "drain-plug"
+    ],
+    "verification": [
+     "Oil added, filler plug refitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "circulate",
+    "title": "Let the oil circulate",
+    "instruction": "Start the engine and let it idle for at least half a minute before raising the revs, so oil reaches every part. Check for leaks at the drain plug, strainers and filter cover. Stop the engine.",
+    "depends_on": [
+     "fill"
+    ],
+    "verification": [
+     "Engine idled before any revs, no leaks."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "level",
+    "title": "Check the level",
+    "instruction": "Wait at least a minute, then with the bike upright and level read the sight glass on the right side next to the clutch cover. Warm, the oil must sit between the middle of the glass and the upper mark; cold, midway between the two marks. Add a little at a time if needed. This engine is dry-sump, so the bike must be level and upright for a true reading.",
+    "depends_on": [
+     "circulate"
+    ],
+    "verification": [
+     "Level correct in the sight glass."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "low",
+      "label": "Level low",
+      "next_step": "level",
+      "condition": "Add a small amount, wait, and read again."
+     }
+    ]
+   },
+   {
+    "id": "skid-on",
+    "title": "Refit what was removed",
+    "instruction": "Refit the skid plate if one was removed.",
+    "depends_on": [
+     "level"
+    ],
+    "verification": [
+     "Everything refitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record the change",
+    "instruction": "Write down the date, hours, oil used, quantity and anything found in the old oil or filter. Dispose of the old oil and filter at a proper collection point.",
+    "depends_on": [
+     "skid-on"
+    ],
+    "verification": [
+     "Change recorded, waste disposed of properly."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-oil-filter-v1-tf450e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "engine",
+   "lubrication"
+  ],
+  "title": "Change the engine oil, filter and strainers",
+  "entry_state": [
+   "Engine warm, bike on level ground."
+  ],
+  "exit_state": [
+   "New oil at the correct sight-glass level, new filter, clean strainers, every plug torqued, no leaks."
+  ],
+  "completeness": "Covers draining, both oil strainers, filter change, refilling, first start and the dry-sump level check.",
+  "excluded": [
+   "Oil pump or oil line service",
+   "Engine inspection after debris is found"
+  ],
+  "required_tools": [
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Drain pan",
+    "size": null
+   },
+   {
+    "name": "Funnel",
+    "size": null
+   },
+   {
+    "name": "Gloves and eye protection",
+    "size": null
+   },
+   {
+    "name": "Clean rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Engine oil",
+    "purpose": "fully synthetic motorcycle oil of the specified grade, about 1.15 L."
+   },
+   {
+    "name": "Oil filter",
+    "purpose": "New, every change."
+   },
+   {
+    "name": "Drain plug sealing washer",
+    "purpose": "Always new."
+   },
+   {
+    "name": "Oil strainer O-rings",
+    "purpose": "New on both strainer plugs."
+   },
+   {
+    "name": "Oil filter cover O-ring",
+    "purpose": "Renew if damaged."
+   }
+  ],
+  "prerequisites": [
+   "Hour meter reading available."
+  ],
+  "critical_stop_conditions": [
+   "Metal or debris in the oil or filter: do not ride.",
+   "Never rev the engine before the oil has circulated.",
+   "Oil level not visible in the sight glass: do not ride.",
+   "No additives in the oil: they make the clutch slip."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Oil, oil filter and the two oil strainers are done after the first operating hour, then every 3.5 hours of race use and at least every 15 operating hours. Write down the date and the hour meter reading.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "warm",
+    "title": "Warm the engine",
+    "instruction": "Run the engine until it is fully warm so the oil drains well, then stop it. Hot oil burns: wear gloves and eye protection.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine warm and stopped."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "level-ground",
+    "title": "Set the bike upright",
+    "instruction": "Hold the bike upright and level on firm ground (a stand under the frame is fine if it keeps the bike vertical). If a skid plate is fitted, remove it. Put a drain pan under the engine.",
+    "depends_on": [
+     "warm"
+    ],
+    "verification": [
+     "Bike upright and level, pan in place."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Drain the oil",
+    "instruction": "Remove the oil drain plug and throw away its sealing washer. Remove the oil strainer plug next to the drain plug, then the second oil strainer plug on the left side of the engine. Let the oil run out completely.",
+    "depends_on": [
+     "level-ground"
+    ],
+    "verification": [
+     "Drain plug and both strainer plugs out, oil draining."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "filter-out",
+    "title": "Remove the oil filter",
+    "instruction": "Remove the two oil filter cover fasteners, the cover and its O-ring, and pull the filter out. Look at the old filter and the drained oil for metal or debris.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Old filter out, oil and filter inspected."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "debris",
+      "label": "Metal or debris found",
+      "next_step": "record-out",
+      "condition": "Metal flakes, chunks or a milky oil: do not refill and ride. Record what was found and have the engine inspected."
+     }
+    ]
+   },
+   {
+    "id": "filter-in",
+    "title": "Fit the new filter",
+    "instruction": "Smear clean oil on the sealing ring of the new filter and push it into the engine. Fit the O-ring to the cover, refit the cover and tighten its two fasteners to 10 N·m (89 lbf·in).",
+    "depends_on": [
+     "filter-out"
+    ],
+    "verification": [
+     "New filter in, cover torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "strainers",
+    "title": "Clean and refit the strainers",
+    "instruction": "Clean both oil strainer plug assemblies and their sealing faces thoroughly. Fit new O-rings and refit both strainer plugs at 15 N·m (11 lbf·ft).",
+    "depends_on": [
+     "filter-in"
+    ],
+    "verification": [
+     "Both strainers clean, new O-rings, torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain-plug",
+    "title": "Refit the drain plug",
+    "instruction": "When the oil has stopped dripping, fit a new sealing washer and tighten the drain plug to 20 N·m (15 lbf·ft).",
+    "depends_on": [
+     "strainers"
+    ],
+    "verification": [
+     "Drain plug torqued with a new washer."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fill",
+    "title": "Fill with new oil",
+    "instruction": "Remove the filler plug and fill with fully synthetic motorcycle oil of the specified grade. With a new filter the engine takes about 1.15 L (1.05 L if only the oil is changed). Pour slowly and keep dirt out of the filler. Refit the filler plug.",
+    "depends_on": [
+     "drain-plug"
+    ],
+    "verification": [
+     "Oil added, filler plug refitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "circulate",
+    "title": "Let the oil circulate",
+    "instruction": "Start the engine and let it idle for at least half a minute before raising the revs, so oil reaches every part. Check for leaks at the drain plug, strainers and filter cover. Stop the engine.",
+    "depends_on": [
+     "fill"
+    ],
+    "verification": [
+     "Engine idled before any revs, no leaks."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "level",
+    "title": "Check the level",
+    "instruction": "Wait at least a minute, then with the bike upright and level read the sight glass on the right side next to the clutch cover. Warm, the oil must sit between the middle of the glass and the upper mark; cold, midway between the two marks. Add a little at a time if needed. This engine is dry-sump, so the bike must be level and upright for a true reading.",
+    "depends_on": [
+     "circulate"
+    ],
+    "verification": [
+     "Level correct in the sight glass."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "low",
+      "label": "Level low",
+      "next_step": "level",
+      "condition": "Add a small amount, wait, and read again."
+     }
+    ]
+   },
+   {
+    "id": "skid-on",
+    "title": "Refit what was removed",
+    "instruction": "Refit the skid plate if one was removed.",
+    "depends_on": [
+     "level"
+    ],
+    "verification": [
+     "Everything refitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record the change",
+    "instruction": "Write down the date, hours, oil used, quantity and anything found in the old oil or filter. Dispose of the old oil and filter at a proper collection point.",
+    "depends_on": [
+     "skid-on"
+    ],
+    "verification": [
+     "Change recorded, waste disposed of properly."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-coolant-v1-tf250x24",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2024
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "cooling",
+   "radiator",
+   "water_pump"
+  ],
+  "title": "Check, top up or change the coolant",
+  "entry_state": [
+   "Engine cold, bike upright on level ground."
+  ],
+  "exit_state": [
+   "Coolant at the correct level above the fins, cap fitted, no leaks."
+  ],
+  "completeness": "Covers the cold level check, hose inspection, top-up, full drain and refill and the warm-up recheck.",
+  "excluded": [
+   "Radiator, hose or water pump replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Drain container",
+    "size": null
+   },
+   {
+    "name": "Funnel",
+    "size": null
+   },
+   {
+    "name": "Gloves and eye protection",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Coolant",
+    "purpose": "Triumph D2053 OAT coolant (premixed)."
+   },
+   {
+    "name": "Drain fastener sealing washer",
+    "purpose": "Always new when drained."
+   }
+  ],
+  "prerequisites": [
+   "Engine cold."
+  ],
+  "critical_stop_conditions": [
+   "Never open the radiator cap hot.",
+   "Repeated coolant loss: find the leak before riding.",
+   "Do not mix coolant types or use hard water."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Check the coolant level before every riding day and replace the coolant every 24 months. Write down the date, hours and why you are here: level check or full change.",
+    "depends_on": [],
+    "verification": [
+     "Date, hours and job recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cold",
+    "title": "Make sure the engine is cold",
+    "instruction": "Only open the radiator cap with the engine cold. Hot coolant is under pressure and scalds.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine cold to the touch."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "check",
+    "title": "Check the level",
+    "instruction": "Hold the bike upright on level ground. Remove the cap on the right radiator and look in: the coolant must be 10 mm (0.39 in) above the radiator fins. Look over the hoses and clips for cracks, chafing and leaks.",
+    "depends_on": [
+     "cold"
+    ],
+    "verification": [
+     "Level seen, hoses inspected."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "ok",
+      "label": "Level correct, no change due",
+      "next_step": "cap",
+      "condition": "Level right and the coolant is not due for replacement."
+     },
+     {
+      "id": "low",
+      "label": "Level low only",
+      "next_step": "top-up",
+      "condition": "Below the level and not due for a change."
+     },
+     {
+      "id": "change",
+      "label": "Change due",
+      "next_step": "drain",
+      "condition": "Coolant is due for replacement, or it is dirty."
+     }
+    ]
+   },
+   {
+    "id": "top-up",
+    "title": "Top up",
+    "instruction": "Add Triumph D2053 OAT coolant (premixed) through the filler until it is 10 mm (0.39 in) above the fins. It is supplied ready mixed (50/50 (premixed as supplied by Triumph)); do not dilute it and do not mix coolant types. A clear drop since the last check means a leak: find it before riding.",
+    "depends_on": [
+     "check"
+    ],
+    "verification": [
+     "Level correct after topping up."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Drain the system",
+    "instruction": "Put a container under the water pump cover. Remove the coolant drain fastener and throw away its sealing washer, then remove the radiator cap and let the coolant drain completely.",
+    "depends_on": [
+     "check"
+    ],
+    "verification": [
+     "Coolant fully drained."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain-refit",
+    "title": "Refit the drain fastener",
+    "instruction": "Fit a new sealing washer and tighten the drain fastener to 10 N·m (89 lbf·in). Flushing the system with clean water first is a good idea; drain it fully again afterwards.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Drain fastener torqued with a new washer."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fill",
+    "title": "Fill",
+    "instruction": "With the bike upright, pour Triumph D2053 OAT coolant (premixed) slowly into the radiator until it is 10 mm (0.39 in) above the fins. The system holds about 2.4 L.",
+    "depends_on": [
+     "drain-refit"
+    ],
+    "verification": [
+     "Radiator filled to the level."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "bleed",
+    "title": "Run and recheck",
+    "instruction": "Refit the cap, start the engine and idle it until warm. Stop it, let it cool completely, then recheck the level and top up to 10 mm (0.39 in) above the fins.",
+    "depends_on": [
+     "fill"
+    ],
+    "verification": [
+     "Level correct after a warm-up and cool-down."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cap",
+    "title": "Close up",
+    "instruction": "Refit the radiator cap firmly. Wipe off any spilled coolant: it is toxic and slippery.",
+    "depends_on": [
+     "check"
+    ],
+    "verification": [
+     "Cap on, spills cleaned."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the date, hours, how much was added or that the coolant was changed, and any leak found.",
+    "depends_on": [
+     "cap"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-coolant-v1-tf250x25",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "cooling",
+   "radiator",
+   "water_pump"
+  ],
+  "title": "Check, top up or change the coolant",
+  "entry_state": [
+   "Engine cold, bike upright on level ground."
+  ],
+  "exit_state": [
+   "Coolant at the correct level above the fins, cap fitted, no leaks."
+  ],
+  "completeness": "Covers the cold level check, hose inspection, top-up, full drain and refill and the warm-up recheck.",
+  "excluded": [
+   "Radiator, hose or water pump replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Drain container",
+    "size": null
+   },
+   {
+    "name": "Funnel",
+    "size": null
+   },
+   {
+    "name": "Gloves and eye protection",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Coolant",
+    "purpose": "Triumph D2053 OAT coolant (premixed)."
+   },
+   {
+    "name": "Drain fastener sealing washer",
+    "purpose": "Always new when drained."
+   }
+  ],
+  "prerequisites": [
+   "Engine cold."
+  ],
+  "critical_stop_conditions": [
+   "Never open the radiator cap hot.",
+   "Repeated coolant loss: find the leak before riding.",
+   "Do not mix coolant types or use hard water."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Check the coolant level before every riding day and replace the coolant every 24 months. Write down the date, hours and why you are here: level check or full change.",
+    "depends_on": [],
+    "verification": [
+     "Date, hours and job recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cold",
+    "title": "Make sure the engine is cold",
+    "instruction": "Only open the radiator cap with the engine cold. Hot coolant is under pressure and scalds.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine cold to the touch."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "check",
+    "title": "Check the level",
+    "instruction": "Hold the bike upright on level ground. Remove the cap on the right radiator and look in: the coolant must be 10 mm (0.39 in) above the radiator fins. Look over the hoses and clips for cracks, chafing and leaks.",
+    "depends_on": [
+     "cold"
+    ],
+    "verification": [
+     "Level seen, hoses inspected."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "ok",
+      "label": "Level correct, no change due",
+      "next_step": "cap",
+      "condition": "Level right and the coolant is not due for replacement."
+     },
+     {
+      "id": "low",
+      "label": "Level low only",
+      "next_step": "top-up",
+      "condition": "Below the level and not due for a change."
+     },
+     {
+      "id": "change",
+      "label": "Change due",
+      "next_step": "drain",
+      "condition": "Coolant is due for replacement, or it is dirty."
+     }
+    ]
+   },
+   {
+    "id": "top-up",
+    "title": "Top up",
+    "instruction": "Add Triumph D2053 OAT coolant (premixed) through the filler until it is 10 mm (0.39 in) above the fins. It is supplied ready mixed (50/50 (premixed as supplied by Triumph)); do not dilute it and do not mix coolant types. A clear drop since the last check means a leak: find it before riding.",
+    "depends_on": [
+     "check"
+    ],
+    "verification": [
+     "Level correct after topping up."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Drain the system",
+    "instruction": "Put a container under the water pump cover. Remove the coolant drain fastener and throw away its sealing washer, then remove the radiator cap and let the coolant drain completely.",
+    "depends_on": [
+     "check"
+    ],
+    "verification": [
+     "Coolant fully drained."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain-refit",
+    "title": "Refit the drain fastener",
+    "instruction": "Fit a new sealing washer and tighten the drain fastener to 10 N·m (89 lbf·in). Flushing the system with clean water first is a good idea; drain it fully again afterwards.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Drain fastener torqued with a new washer."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fill",
+    "title": "Fill",
+    "instruction": "With the bike upright, pour Triumph D2053 OAT coolant (premixed) slowly into the radiator until it is 10 mm (0.39 in) above the fins.",
+    "depends_on": [
+     "drain-refit"
+    ],
+    "verification": [
+     "Radiator filled to the level."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "bleed",
+    "title": "Run and recheck",
+    "instruction": "Refit the cap, start the engine and idle it until warm. Stop it, let it cool completely, then recheck the level and top up to 10 mm (0.39 in) above the fins.",
+    "depends_on": [
+     "fill"
+    ],
+    "verification": [
+     "Level correct after a warm-up and cool-down."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cap",
+    "title": "Close up",
+    "instruction": "Refit the radiator cap firmly. Wipe off any spilled coolant: it is toxic and slippery.",
+    "depends_on": [
+     "check"
+    ],
+    "verification": [
+     "Cap on, spills cleaned."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the date, hours, how much was added or that the coolant was changed, and any leak found.",
+    "depends_on": [
+     "cap"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-coolant-v1-tf250x26-tf450rc25-tf450x26-tf250c26-tf450c26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-RC Edition",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-C",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "cooling",
+   "radiator",
+   "water_pump"
+  ],
+  "title": "Check, top up or change the coolant",
+  "entry_state": [
+   "Engine cold, bike upright on level ground."
+  ],
+  "exit_state": [
+   "Coolant at the correct level above the fins, cap fitted, no leaks."
+  ],
+  "completeness": "Covers the cold level check, hose inspection, top-up, full drain and refill and the warm-up recheck.",
+  "excluded": [
+   "Radiator, hose or water pump replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Drain container",
+    "size": null
+   },
+   {
+    "name": "Funnel",
+    "size": null
+   },
+   {
+    "name": "Gloves and eye protection",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Coolant",
+    "purpose": "Triumph D2053 OAT coolant (premixed)."
+   },
+   {
+    "name": "Drain fastener sealing washer",
+    "purpose": "Always new when drained."
+   }
+  ],
+  "prerequisites": [
+   "Engine cold."
+  ],
+  "critical_stop_conditions": [
+   "Never open the radiator cap hot.",
+   "Repeated coolant loss: find the leak before riding.",
+   "Do not mix coolant types or use hard water."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Check the coolant level before every riding day and replace the coolant every 24 months. Write down the date, hours and why you are here: level check or full change.",
+    "depends_on": [],
+    "verification": [
+     "Date, hours and job recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cold",
+    "title": "Make sure the engine is cold",
+    "instruction": "Only open the radiator cap with the engine cold. Hot coolant is under pressure and scalds.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine cold to the touch."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "check",
+    "title": "Check the level",
+    "instruction": "Hold the bike upright on level ground. Remove the cap on the right radiator and look in: the coolant must be 10 mm (0.39 in) above the radiator fins. Look over the hoses and clips for cracks, chafing and leaks.",
+    "depends_on": [
+     "cold"
+    ],
+    "verification": [
+     "Level seen, hoses inspected."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "ok",
+      "label": "Level correct, no change due",
+      "next_step": "cap",
+      "condition": "Level right and the coolant is not due for replacement."
+     },
+     {
+      "id": "low",
+      "label": "Level low only",
+      "next_step": "top-up",
+      "condition": "Below the level and not due for a change."
+     },
+     {
+      "id": "change",
+      "label": "Change due",
+      "next_step": "drain",
+      "condition": "Coolant is due for replacement, or it is dirty."
+     }
+    ]
+   },
+   {
+    "id": "top-up",
+    "title": "Top up",
+    "instruction": "Add Triumph D2053 OAT coolant (premixed) through the filler until it is 10 mm (0.39 in) above the fins. It is supplied ready mixed (50/50 (premixed as supplied by Triumph)); do not dilute it and do not mix coolant types. A clear drop since the last check means a leak: find it before riding.",
+    "depends_on": [
+     "check"
+    ],
+    "verification": [
+     "Level correct after topping up."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Drain the system",
+    "instruction": "Put a container under the water pump cover. Remove the coolant drain fastener and throw away its sealing washer, then remove the radiator cap and let the coolant drain completely.",
+    "depends_on": [
+     "check"
+    ],
+    "verification": [
+     "Coolant fully drained."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain-refit",
+    "title": "Refit the drain fastener",
+    "instruction": "Fit a new sealing washer and tighten the drain fastener to 10 N·m (89 lbf·in). Flushing the system with clean water first is a good idea; drain it fully again afterwards.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Drain fastener torqued with a new washer."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fill",
+    "title": "Fill",
+    "instruction": "With the bike upright, pour Triumph D2053 OAT coolant (premixed) slowly into the radiator until it is 10 mm (0.39 in) above the fins. The system holds about 0.95 L.",
+    "depends_on": [
+     "drain-refit"
+    ],
+    "verification": [
+     "Radiator filled to the level."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "bleed",
+    "title": "Run and recheck",
+    "instruction": "Refit the cap, start the engine and idle it until warm. Stop it, let it cool completely, then recheck the level and top up to 10 mm (0.39 in) above the fins.",
+    "depends_on": [
+     "fill"
+    ],
+    "verification": [
+     "Level correct after a warm-up and cool-down."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cap",
+    "title": "Close up",
+    "instruction": "Refit the radiator cap firmly. Wipe off any spilled coolant: it is toxic and slippery.",
+    "depends_on": [
+     "check"
+    ],
+    "verification": [
+     "Cap on, spills cleaned."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the date, hours, how much was added or that the coolant was changed, and any leak found.",
+    "depends_on": [
+     "cap"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-coolant-v1-tf250e26-tf450e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-E",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "cooling",
+   "radiator",
+   "water_pump"
+  ],
+  "title": "Check, top up or change the coolant",
+  "entry_state": [
+   "Engine cold, bike upright on level ground."
+  ],
+  "exit_state": [
+   "Coolant at the correct level above the fins, cap fitted, no leaks."
+  ],
+  "completeness": "Covers the cold level check, hose inspection, top-up, full drain and refill and the warm-up recheck.",
+  "excluded": [
+   "Radiator, hose or water pump replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Drain container",
+    "size": null
+   },
+   {
+    "name": "Funnel",
+    "size": null
+   },
+   {
+    "name": "Gloves and eye protection",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Coolant",
+    "purpose": "Triumph D2053 OAT coolant (premixed)."
+   },
+   {
+    "name": "Drain fastener sealing washer",
+    "purpose": "Always new when drained."
+   }
+  ],
+  "prerequisites": [
+   "Engine cold."
+  ],
+  "critical_stop_conditions": [
+   "Never open the radiator cap hot.",
+   "Repeated coolant loss: find the leak before riding.",
+   "Do not mix coolant types or use hard water."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Check the coolant level before every riding day and replace the coolant every 24 months. Write down the date, hours and why you are here: level check or full change.",
+    "depends_on": [],
+    "verification": [
+     "Date, hours and job recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cold",
+    "title": "Make sure the engine is cold",
+    "instruction": "Only open the radiator cap with the engine cold. Hot coolant is under pressure and scalds.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine cold to the touch."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "check",
+    "title": "Check the level",
+    "instruction": "Hold the bike upright on level ground. Remove the cap on the right radiator and look in: the coolant must be 10 mm (0.39 in) above the radiator fins. Look over the hoses and clips for cracks, chafing and leaks.",
+    "depends_on": [
+     "cold"
+    ],
+    "verification": [
+     "Level seen, hoses inspected."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "ok",
+      "label": "Level correct, no change due",
+      "next_step": "cap",
+      "condition": "Level right and the coolant is not due for replacement."
+     },
+     {
+      "id": "low",
+      "label": "Level low only",
+      "next_step": "top-up",
+      "condition": "Below the level and not due for a change."
+     },
+     {
+      "id": "change",
+      "label": "Change due",
+      "next_step": "drain",
+      "condition": "Coolant is due for replacement, or it is dirty."
+     }
+    ]
+   },
+   {
+    "id": "top-up",
+    "title": "Top up",
+    "instruction": "Add Triumph D2053 OAT coolant (premixed) through the filler until it is 10 mm (0.39 in) above the fins. It is supplied ready mixed (50/50 (premixed as supplied by Triumph)); do not dilute it and do not mix coolant types. A clear drop since the last check means a leak: find it before riding.",
+    "depends_on": [
+     "check"
+    ],
+    "verification": [
+     "Level correct after topping up."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain",
+    "title": "Drain the system",
+    "instruction": "Put a container under the water pump cover. Remove the coolant drain fastener and throw away its sealing washer, then remove the radiator cap and let the coolant drain completely.",
+    "depends_on": [
+     "check"
+    ],
+    "verification": [
+     "Coolant fully drained."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "drain-refit",
+    "title": "Refit the drain fastener",
+    "instruction": "Fit a new sealing washer and tighten the drain fastener to 10 N·m (89 lbf·in). Flushing the system with clean water first is a good idea; drain it fully again afterwards.",
+    "depends_on": [
+     "drain"
+    ],
+    "verification": [
+     "Drain fastener torqued with a new washer."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fill",
+    "title": "Fill",
+    "instruction": "With the bike upright, pour Triumph D2053 OAT coolant (premixed) slowly into the radiator until it is 10 mm (0.39 in) above the fins. The system holds about 0.95 L.",
+    "depends_on": [
+     "drain-refit"
+    ],
+    "verification": [
+     "Radiator filled to the level."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "bleed",
+    "title": "Run and recheck",
+    "instruction": "Refit the cap, start the engine and idle it until warm. Run it until the cooling fan switches on and off once, which also checks the fan works. Stop it, let it cool completely, then recheck the level and top up to 10 mm (0.39 in) above the fins.",
+    "depends_on": [
+     "fill"
+    ],
+    "verification": [
+     "Level correct after a warm-up and cool-down."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cap",
+    "title": "Close up",
+    "instruction": "Refit the radiator cap firmly. Wipe off any spilled coolant: it is toxic and slippery.",
+    "depends_on": [
+     "check"
+    ],
+    "verification": [
+     "Cap on, spills cleaned."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the date, hours, how much was added or that the coolant was changed, and any leak found.",
+    "depends_on": [
+     "cap"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-spark-plug-v1-tf250x24-tf250x25",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "ignition",
+   "fuel_tank",
+   "bodywork",
+   "electrical"
+  ],
+  "title": "Replace the spark plug",
+  "entry_state": [
+   "Engine cool, bike on a stand."
+  ],
+  "exit_state": [
+   "New plug at the correct torque, hour meter wire routed as before, tank, battery, panels and seat refitted with every torque."
+  ],
+  "completeness": "Covers seat, side panel, battery and fuel tank removal, plug change with the kit tool, and full refit.",
+  "excluded": [
+   "Ignition coil or lead replacement",
+   "Fuel pump service"
+  ],
+  "required_tools": [
+   {
+    "name": "Spark plug tool from the tool kit",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Rags to catch fuel",
+    "size": null
+   },
+   {
+    "name": "Grease for the battery terminals",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Spark plug",
+    "purpose": "NGK LMAR9AI-8."
+   },
+   {
+    "name": "Spark plug cap",
+    "purpose": "Replaced with the plug at the same interval."
+   }
+  ],
+  "prerequisites": [
+   "Engine cool.",
+   "No open flame or sparks nearby while the fuel line is open."
+  ],
+  "critical_stop_conditions": [
+   "Fuel leak at the hose connector after refit: do not start.",
+   "Plug cross-threaded or tight going in: stop and have the thread checked.",
+   "Hour meter not counting after refit: reroute the wire before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "The spark plug and its cap are replaced every 45 operating hours. Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cool",
+    "title": "Let it cool",
+    "instruction": "Work only with the engine cool. Support the bike upright on a stand under the frame.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine cool, bike supported."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "seat",
+    "title": "Remove the seat and side panels",
+    "instruction": "Remove the two rear seat fasteners, lift the seat at the back and slide it rearward off its locating fasteners. Take out each side panel's fasteners and lift the panel off the front locating fastener. The regulator under the seat gets hot after riding.",
+    "depends_on": [
+     "cool"
+    ],
+    "verification": [
+     "Seat and both side panels off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "battery",
+    "title": "Disconnect and remove the battery",
+    "instruction": "Disconnect the negative lead first, then the positive, release the battery strap and lift the battery out.",
+    "depends_on": [
+     "seat"
+    ],
+    "verification": [
+     "Battery out, leads covered."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tank",
+    "title": "Remove the fuel tank",
+    "instruction": "Unplug the fuel pump connector, pull the filler breather hose from the top clamp and remove the centre tank fastener and spacer. Press the locking device and slide the fuel hose connector off its spigot without pulling the hose; catch the drip with a rag. Lift the tank off and keep it away from heat.",
+    "depends_on": [
+     "battery"
+    ],
+    "verification": [
+     "Tank off, fuel line capped."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "hour-wire",
+    "title": "Note the hour meter wire",
+    "instruction": "The hour meter wire is coiled round the spark plug lead and held with two cable ties. Photograph its position and routing; it must go back exactly the same, with the spare wire kept short as found, or the hour meter will not count.",
+    "depends_on": [
+     "tank"
+    ],
+    "verification": [
+     "Wire position photographed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "remove",
+    "title": "Remove the plug",
+    "instruction": "Pull the cap off the plug. Fit the plug tool from the tool kit, unscrew the plug and lift it out in the tool. Read the old plug: a dark, wet or white plug points to a fuel or air problem worth recording.",
+    "depends_on": [
+     "hour-wire"
+    ],
+    "verification": [
+     "Plug out, condition noted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "check-new",
+    "title": "Check the new plug",
+    "instruction": "The correct plug is NGK LMAR9AI-8 with a gap of 0.8 mm +0/−0.1 (0.031 in +0/−0.004). Check the gap with a wire gauge without touching the fine centre electrode; if the gap is wrong, use another plug rather than bending it.",
+    "depends_on": [
+     "remove"
+    ],
+    "verification": [
+     "Correct plug, gap confirmed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "install",
+    "title": "Fit the new plug",
+    "instruction": "Start the plug by hand in the tool so it cannot cross-thread, then tighten it to 15 N·m (11 lbf·ft). Push the cap fully on and refit the hour meter wire exactly as photographed.",
+    "depends_on": [
+     "check-new"
+    ],
+    "verification": [
+     "Plug torqued, cap on, wire as before."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tank-on",
+    "title": "Refit the tank",
+    "instruction": "Seat the front of the tank on its castellated grommets, fit the spacer and centre fastener at 10 N·m (89 lbf·in), refit the breather hose in the top clamp, plug in the fuel pump and push the fuel hose connector on until the lock holds it. Pull back gently on the connector to check.",
+    "depends_on": [
+     "install"
+    ],
+    "verification": [
+     "Tank fastened, fuel line locked, pump plugged in."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "battery-on",
+    "title": "Refit the battery",
+    "instruction": "Fit the battery, secure the strap at 6 N·m (53 lbf·in), connect the positive lead first and then the negative, terminals at 4.5 N·m (40 lbf·in). A light coat of grease on the terminals stops corrosion.",
+    "depends_on": [
+     "tank-on"
+    ],
+    "verification": [
+     "Battery secure, terminals torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "panels",
+    "title": "Refit the side panels and seat",
+    "instruction": "Refit each side panel: rear fastener 3 N·m (27 lbf·in), the two front fasteners 10 N·m (89 lbf·in), upper fastener 3 N·m (27 lbf·in). Hook the seat slot over the rear fender hook, slide it fully forward onto its locating fasteners and tighten its two fasteners firmly. Pull up on the seat to check it is held.",
+    "depends_on": [
+     "battery-on"
+    ],
+    "verification": [
+     "Panels and seat secure."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "test",
+    "title": "Start and check",
+    "instruction": "Start the engine, check it idles cleanly and that there is no fuel smell or leak, and that the hour meter counts.",
+    "depends_on": [
+     "panels"
+    ],
+    "verification": [
+     "Runs cleanly, no leaks, hour meter working."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the date, hours, plug fitted and what the old plug looked like.",
+    "depends_on": [
+     "test"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-spark-plug-v1-tf250x26-tf450rc25-tf450x26-tf250c26-tf450c26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-RC Edition",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-C",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "ignition",
+   "fuel_tank",
+   "bodywork",
+   "electrical"
+  ],
+  "title": "Replace the spark plug",
+  "entry_state": [
+   "Engine cool, bike on a stand."
+  ],
+  "exit_state": [
+   "New plug at the correct torque, hour meter wire routed as before, tank, battery, panels and seat refitted with every torque."
+  ],
+  "completeness": "Covers seat, side panel, battery and fuel tank removal, plug change with the kit tool, and full refit.",
+  "excluded": [
+   "Ignition coil or lead replacement",
+   "Fuel pump service"
+  ],
+  "required_tools": [
+   {
+    "name": "Spark plug tool from the tool kit",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Rags to catch fuel",
+    "size": null
+   },
+   {
+    "name": "Grease for the battery terminals",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Spark plug",
+    "purpose": "NGK LMAR9AI-8."
+   },
+   {
+    "name": "Spark plug cap",
+    "purpose": "Replaced with the plug at the same interval."
+   }
+  ],
+  "prerequisites": [
+   "Engine cool.",
+   "No open flame or sparks nearby while the fuel line is open."
+  ],
+  "critical_stop_conditions": [
+   "Fuel leak at the hose connector after refit: do not start.",
+   "Plug cross-threaded or tight going in: stop and have the thread checked.",
+   "Hour meter not counting after refit: reroute the wire before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "The spark plug and its cap are replaced every 45 operating hours. Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cool",
+    "title": "Let it cool",
+    "instruction": "Work only with the engine cool. Support the bike upright on a stand under the frame.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine cool, bike supported."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "seat",
+    "title": "Remove the seat and side panels",
+    "instruction": "Remove the two rear seat fasteners, lift the seat at the back and slide it rearward off its locating fasteners. Take out each side panel's fasteners and lift the panel off the front locating fastener. The regulator under the seat gets hot after riding.",
+    "depends_on": [
+     "cool"
+    ],
+    "verification": [
+     "Seat and both side panels off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "battery",
+    "title": "Disconnect and remove the battery",
+    "instruction": "Disconnect the negative lead first, then the positive, release the battery strap and lift the battery out.",
+    "depends_on": [
+     "seat"
+    ],
+    "verification": [
+     "Battery out, leads covered."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tank",
+    "title": "Remove the fuel tank",
+    "instruction": "Unplug the fuel pump connector, pull the filler breather hose from the top clamp and remove the centre tank fastener and spacer. Press the locking device and slide the fuel hose connector off its spigot without pulling the hose; catch the drip with a rag. Lift the tank off and keep it away from heat.",
+    "depends_on": [
+     "battery"
+    ],
+    "verification": [
+     "Tank off, fuel line capped."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "hour-wire",
+    "title": "Note the hour meter wire",
+    "instruction": "The hour meter wire is coiled round the spark plug lead and held with two cable ties. Photograph its position and routing; it must go back exactly the same, with the spare wire kept short as found, or the hour meter will not count.",
+    "depends_on": [
+     "tank"
+    ],
+    "verification": [
+     "Wire position photographed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "remove",
+    "title": "Remove the plug",
+    "instruction": "Pull the cap off the plug. Fit the plug tool from the tool kit, unscrew the plug and lift it out in the tool. Read the old plug: a dark, wet or white plug points to a fuel or air problem worth recording.",
+    "depends_on": [
+     "hour-wire"
+    ],
+    "verification": [
+     "Plug out, condition noted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "check-new",
+    "title": "Check the new plug",
+    "instruction": "The correct plug is NGK LMAR9AI-8 with a gap of 0.8 mm +0/−0.1 (0.031 in +0/−0.004). Check the gap with a wire gauge without touching the fine centre electrode; if the gap is wrong, use another plug rather than bending it.",
+    "depends_on": [
+     "remove"
+    ],
+    "verification": [
+     "Correct plug, gap confirmed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "install",
+    "title": "Fit the new plug",
+    "instruction": "Start the plug by hand in the tool so it cannot cross-thread, then tighten it to 15 N·m (11 lbf·ft). Push the cap fully on and refit the hour meter wire exactly as photographed.",
+    "depends_on": [
+     "check-new"
+    ],
+    "verification": [
+     "Plug torqued, cap on, wire as before."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tank-on",
+    "title": "Refit the tank",
+    "instruction": "Seat the front of the tank on its castellated grommets, fit the spacer and centre fastener at 10 N·m (89 lbf·in), refit the breather hose in the top clamp, plug in the fuel pump and push the fuel hose connector on until the lock holds it. Pull back gently on the connector to check.",
+    "depends_on": [
+     "install"
+    ],
+    "verification": [
+     "Tank fastened, fuel line locked, pump plugged in."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "battery-on",
+    "title": "Refit the battery",
+    "instruction": "Fit the battery, secure the strap at 6 N·m (53 lbf·in), connect the positive lead first and then the negative, terminals at 4.5 N·m (40 lbf·in). A light coat of grease on the terminals stops corrosion.",
+    "depends_on": [
+     "tank-on"
+    ],
+    "verification": [
+     "Battery secure, terminals torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "panels",
+    "title": "Refit the side panels and seat",
+    "instruction": "Refit each side panel: rear fastener 3 N·m (27 lbf·in), the two front fasteners 10 N·m (89 lbf·in), upper fastener 3 N·m (27 lbf·in). Hook the seat slot over the rear fender hook, slide it fully forward onto its locating fasteners and tighten its two fasteners to 8 N·m (71 lbf·in). Pull up on the seat to check it is held.",
+    "depends_on": [
+     "battery-on"
+    ],
+    "verification": [
+     "Panels and seat secure."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "test",
+    "title": "Start and check",
+    "instruction": "Start the engine, check it idles cleanly and that there is no fuel smell or leak, and that the hour meter counts.",
+    "depends_on": [
+     "panels"
+    ],
+    "verification": [
+     "Runs cleanly, no leaks, hour meter working."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the date, hours, plug fitted and what the old plug looked like.",
+    "depends_on": [
+     "test"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-spark-plug-v1-tf250e26-tf450e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-E",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "ignition",
+   "fuel_tank",
+   "bodywork",
+   "electrical"
+  ],
+  "title": "Replace the spark plug",
+  "entry_state": [
+   "Engine cool, bike on a stand."
+  ],
+  "exit_state": [
+   "New plug at the correct torque, tank, battery, panels and seat refitted with every torque."
+  ],
+  "completeness": "Covers seat, side panel, battery and fuel tank removal, plug change with the kit tool, and full refit.",
+  "excluded": [
+   "Ignition coil or lead replacement",
+   "Fuel pump service"
+  ],
+  "required_tools": [
+   {
+    "name": "Spark plug tool from the tool kit",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Rags to catch fuel",
+    "size": null
+   },
+   {
+    "name": "Grease for the battery terminals",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Spark plug",
+    "purpose": "NGK LMAR9AI-8."
+   },
+   {
+    "name": "Spark plug cap",
+    "purpose": "Replaced with the plug at the same interval."
+   }
+  ],
+  "prerequisites": [
+   "Engine cool.",
+   "No open flame or sparks nearby while the fuel line is open."
+  ],
+  "critical_stop_conditions": [
+   "Fuel leak at the hose connector after refit: do not start.",
+   "Plug cross-threaded or tight going in: stop and have the thread checked."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "The spark plug and its cap are replaced every 90 operating hours. Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cool",
+    "title": "Let it cool",
+    "instruction": "Work only with the engine cool. Support the bike upright on a stand under the frame.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Engine cool, bike supported."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "seat",
+    "title": "Remove the seat and side panels",
+    "instruction": "Remove the two rear seat fasteners, lift the seat at the back and slide it rearward off its locating fasteners. Take out each side panel's fasteners and lift the panel off the front locating fastener. The regulator under the seat gets hot after riding.",
+    "depends_on": [
+     "cool"
+    ],
+    "verification": [
+     "Seat and both side panels off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "battery",
+    "title": "Disconnect and remove the battery",
+    "instruction": "Disconnect the negative lead first, then the positive, release the battery strap and lift the battery out.",
+    "depends_on": [
+     "seat"
+    ],
+    "verification": [
+     "Battery out, leads covered."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tank",
+    "title": "Remove the fuel tank",
+    "instruction": "Unplug the fuel pump connector, pull the filler breather hose from the top clamp and remove the centre tank fastener and spacer. Press the locking device and slide the fuel hose connector off its spigot without pulling the hose; catch the drip with a rag. Lift the tank off and keep it away from heat.",
+    "depends_on": [
+     "battery"
+    ],
+    "verification": [
+     "Tank off, fuel line capped."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "remove",
+    "title": "Remove the plug",
+    "instruction": "Pull the cap off the plug. Fit the plug tool from the tool kit, unscrew the plug and lift it out in the tool. Read the old plug: a dark, wet or white plug points to a fuel or air problem worth recording.",
+    "depends_on": [
+     "tank"
+    ],
+    "verification": [
+     "Plug out, condition noted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "check-new",
+    "title": "Check the new plug",
+    "instruction": "The correct plug is NGK LMAR9AI-8 with a gap of 0.8 mm +0/−0.1 (0.031 in +0/−0.004). Check the gap with a wire gauge without touching the fine centre electrode; if the gap is wrong, use another plug rather than bending it.",
+    "depends_on": [
+     "remove"
+    ],
+    "verification": [
+     "Correct plug, gap confirmed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "install",
+    "title": "Fit the new plug",
+    "instruction": "Start the plug by hand in the tool so it cannot cross-thread, then tighten it to 15 N·m (11 lbf·ft). Push the cap fully on.",
+    "depends_on": [
+     "check-new"
+    ],
+    "verification": [
+     "Plug torqued, cap on."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tank-on",
+    "title": "Refit the tank",
+    "instruction": "Seat the front of the tank on its castellated grommets, fit the spacer and centre fastener at 10 N·m (89 lbf·in), refit the breather hose in the top clamp, plug in the fuel pump and push the fuel hose connector on until the lock holds it. Pull back gently on the connector to check.",
+    "depends_on": [
+     "install"
+    ],
+    "verification": [
+     "Tank fastened, fuel line locked, pump plugged in."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "battery-on",
+    "title": "Refit the battery",
+    "instruction": "Fit the battery, secure the strap at 6 N·m (53 lbf·in), connect the positive lead first and then the negative, terminals at 4.5 N·m (40 lbf·in). A light coat of grease on the terminals stops corrosion.",
+    "depends_on": [
+     "tank-on"
+    ],
+    "verification": [
+     "Battery secure, terminals torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "panels",
+    "title": "Refit the side panels and seat",
+    "instruction": "Refit each side panel: rear fastener 3 N·m (27 lbf·in), the front fasteners firmly, upper fastener 3 N·m (27 lbf·in). Hook the seat slot over the rear fender hook, slide it fully forward onto its locating fasteners and tighten its two fasteners to 8 N·m (71 lbf·in). Pull up on the seat to check it is held.",
+    "depends_on": [
+     "battery-on"
+    ],
+    "verification": [
+     "Panels and seat secure."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "test",
+    "title": "Start and check",
+    "instruction": "Start the engine, check it idles cleanly and that there is no fuel smell or leak.",
+    "depends_on": [
+     "panels"
+    ],
+    "verification": [
+     "Runs cleanly, no leaks."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the date, hours, plug fitted and what the old plug looked like.",
+    "depends_on": [
+     "test"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-throttle-idle-v1-tf250x24",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2024
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "controls",
+   "engine_management",
+   "intake"
+  ],
+  "title": "Check throttle free play and set the idle speed",
+  "entry_state": [
+   "Bike on a stand, outdoors."
+  ],
+  "exit_state": [
+   "Throttle returns cleanly, free play and idle in range, idle steady lock to lock."
+  ],
+  "completeness": "Covers throttle return, grip free play, cable adjustment at the grip, warm idle setting and the lock-to-lock check.",
+  "excluded": [
+   "Throttle cable replacement or rerouting",
+   "Throttle body service"
+  ],
+  "required_tools": [
+   {
+    "name": "Digital tachometer",
+    "size": null
+   },
+   {
+    "name": "Small spanners for the cable lock nuts",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Air filter clean.",
+   "Ventilated area: never run the engine indoors."
+  ],
+  "critical_stop_conditions": [
+   "Throttle sticking or slow to close: do not ride.",
+   "Idle changes as the bars turn: correct the cables before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Check the idle speed after the first operating hour and then every 15 operating hours, and check throttle free play at the same time or whenever the throttle feels different. Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "throttle-return",
+    "title": "Check the throttle action",
+    "instruction": "With the bars straight ahead, open the throttle fully and let go. It must open smoothly without force and snap shut on its own spring every time.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Throttle returns on its own."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "sticky",
+      "label": "Throttle sticks",
+      "next_step": "record-out",
+      "condition": "Any sticking or slow return: do not ride. Record it and have the throttle and cables inspected."
+     }
+    ]
+   },
+   {
+    "id": "free-play",
+    "title": "Measure free play",
+    "instruction": "Turn the grip gently back and forth: free play at the grip must be 2–3 mm (0.08–0.12 in).",
+    "depends_on": [
+     "throttle-return"
+    ],
+    "verification": [
+     "Free play measured."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "in-range",
+      "label": "Free play correct",
+      "next_step": "idle-prep",
+      "condition": "Within range."
+     },
+     {
+      "id": "adjust",
+      "label": "Free play wrong",
+      "next_step": "cable-adjust",
+      "condition": "Outside the range."
+     }
+    ]
+   },
+   {
+    "id": "cable-adjust",
+    "title": "Adjust the cables",
+    "instruction": "Slide the rubber sleeve off the adjusters at the twist grip, loosen both lock nuts, screw both adjusters fully in, then screw the opening and closing adjusters out together until the free play is 2–3 mm (0.08–0.12 in). Tighten both lock nuts and refit the sleeve. A loose lock nut can make the throttle stick.",
+    "depends_on": [
+     "free-play"
+    ],
+    "verification": [
+     "Free play correct, both lock nuts tight."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "idle-prep",
+    "title": "Prepare for the idle check",
+    "instruction": "A dirty air filter or wrong free play gives a false idle, so sort those first. Warm the engine fully outdoors and make sure the cold start lever is pushed in. Fit a digital tachometer.",
+    "depends_on": [
+     "free-play"
+    ],
+    "verification": [
+     "Engine warm, cold start lever in, tachometer fitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "idle-set",
+    "title": "Set the idle",
+    "instruction": "Idle must sit at 2200–2400 rpm. Turn the idle screw on the throttle body clockwise to raise it or counterclockwise to lower it, a little at a time, letting it settle after each turn.",
+    "depends_on": [
+     "idle-prep"
+    ],
+    "verification": [
+     "Idle within range."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "lock-to-lock",
+    "title": "Check at full lock",
+    "instruction": "With the engine idling, turn the bars to full left and full right lock. The idle must not change. If it rises, the throttle cables are routed or adjusted wrongly: fix them before riding.",
+    "depends_on": [
+     "idle-set"
+    ],
+    "verification": [
+     "Idle unchanged lock to lock."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the free play, idle speed and anything adjusted.",
+    "depends_on": [
+     "lock-to-lock"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-throttle-idle-v1-tf250x26-tf250c26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-C",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "controls",
+   "engine_management",
+   "intake"
+  ],
+  "title": "Check throttle free play and set the idle speed",
+  "entry_state": [
+   "Bike on a stand, outdoors."
+  ],
+  "exit_state": [
+   "Throttle returns cleanly, free play and idle in range, idle steady lock to lock."
+  ],
+  "completeness": "Covers throttle return, grip free play, cable adjustment at the grip, warm idle setting and the lock-to-lock check.",
+  "excluded": [
+   "Throttle cable replacement or rerouting",
+   "Throttle body service"
+  ],
+  "required_tools": [
+   {
+    "name": "Digital tachometer",
+    "size": null
+   },
+   {
+    "name": "Small spanners for the cable lock nuts",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Air filter clean.",
+   "Ventilated area: never run the engine indoors."
+  ],
+  "critical_stop_conditions": [
+   "Throttle sticking or slow to close: do not ride.",
+   "Idle changes as the bars turn: correct the cables before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Check the idle speed after the first operating hour and then every 15 operating hours, and check throttle free play at the same time or whenever the throttle feels different. Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "throttle-return",
+    "title": "Check the throttle action",
+    "instruction": "With the bars straight ahead, open the throttle fully and let go. It must open smoothly without force and snap shut on its own spring every time.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Throttle returns on its own."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "sticky",
+      "label": "Throttle sticks",
+      "next_step": "record-out",
+      "condition": "Any sticking or slow return: do not ride. Record it and have the throttle and cables inspected."
+     }
+    ]
+   },
+   {
+    "id": "free-play",
+    "title": "Measure free play",
+    "instruction": "Turn the grip gently back and forth: free play at the grip must be 2–3 mm (0.08–0.12 in).",
+    "depends_on": [
+     "throttle-return"
+    ],
+    "verification": [
+     "Free play measured."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "in-range",
+      "label": "Free play correct",
+      "next_step": "idle-prep",
+      "condition": "Within range."
+     },
+     {
+      "id": "adjust",
+      "label": "Free play wrong",
+      "next_step": "cable-adjust",
+      "condition": "Outside the range."
+     }
+    ]
+   },
+   {
+    "id": "cable-adjust",
+    "title": "Adjust the cables",
+    "instruction": "Slide the rubber sleeve off the adjusters at the twist grip, loosen both lock nuts, screw both adjusters fully in, then screw the opening and closing adjusters out together until the free play is 2–3 mm (0.08–0.12 in). Tighten both lock nuts and refit the sleeve. A loose lock nut can make the throttle stick.",
+    "depends_on": [
+     "free-play"
+    ],
+    "verification": [
+     "Free play correct, both lock nuts tight."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "idle-prep",
+    "title": "Prepare for the idle check",
+    "instruction": "A dirty air filter or wrong free play gives a false idle, so sort those first. Warm the engine fully outdoors and make sure the cold start lever is pushed in. Fit a digital tachometer.",
+    "depends_on": [
+     "free-play"
+    ],
+    "verification": [
+     "Engine warm, cold start lever in, tachometer fitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "idle-set",
+    "title": "Set the idle",
+    "instruction": "Idle must sit at 2250–2350 rpm. Turn the idle screw on the throttle body clockwise to raise it or counterclockwise to lower it, a little at a time, letting it settle after each turn.",
+    "depends_on": [
+     "idle-prep"
+    ],
+    "verification": [
+     "Idle within range."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "lock-to-lock",
+    "title": "Check at full lock",
+    "instruction": "With the engine idling, turn the bars to full left and full right lock. The idle must not change. If it rises, the throttle cables are routed or adjusted wrongly: fix them before riding.",
+    "depends_on": [
+     "idle-set"
+    ],
+    "verification": [
+     "Idle unchanged lock to lock."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the free play, idle speed and anything adjusted.",
+    "depends_on": [
+     "lock-to-lock"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-throttle-idle-v1-tf450rc25-tf450x26-tf450c26-tf450e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-RC Edition",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "controls",
+   "engine_management",
+   "intake"
+  ],
+  "title": "Check throttle free play and set the idle speed",
+  "entry_state": [
+   "Bike on a stand, outdoors."
+  ],
+  "exit_state": [
+   "Throttle returns cleanly, free play and idle in range, idle steady lock to lock."
+  ],
+  "completeness": "Covers throttle return, grip free play, cable adjustment at the grip, warm idle setting and the lock-to-lock check.",
+  "excluded": [
+   "Throttle cable replacement or rerouting",
+   "Throttle body service"
+  ],
+  "required_tools": [
+   {
+    "name": "Digital tachometer",
+    "size": null
+   },
+   {
+    "name": "Small spanners for the cable lock nuts",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Air filter clean.",
+   "Ventilated area: never run the engine indoors."
+  ],
+  "critical_stop_conditions": [
+   "Throttle sticking or slow to close: do not ride.",
+   "Idle changes as the bars turn: correct the cables before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Check the idle speed after the first operating hour and then every 15 operating hours, and check throttle free play at the same time or whenever the throttle feels different. Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "throttle-return",
+    "title": "Check the throttle action",
+    "instruction": "With the bars straight ahead, open the throttle fully and let go. It must open smoothly without force and snap shut on its own spring every time.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Throttle returns on its own."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "sticky",
+      "label": "Throttle sticks",
+      "next_step": "record-out",
+      "condition": "Any sticking or slow return: do not ride. Record it and have the throttle and cables inspected."
+     }
+    ]
+   },
+   {
+    "id": "free-play",
+    "title": "Measure free play",
+    "instruction": "Turn the grip gently back and forth: free play at the grip must be 2–3 mm (0.08–0.12 in).",
+    "depends_on": [
+     "throttle-return"
+    ],
+    "verification": [
+     "Free play measured."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "in-range",
+      "label": "Free play correct",
+      "next_step": "idle-prep",
+      "condition": "Within range."
+     },
+     {
+      "id": "adjust",
+      "label": "Free play wrong",
+      "next_step": "cable-adjust",
+      "condition": "Outside the range."
+     }
+    ]
+   },
+   {
+    "id": "cable-adjust",
+    "title": "Adjust the cables",
+    "instruction": "Slide the rubber sleeve off the adjusters at the twist grip, loosen both lock nuts, screw both adjusters fully in, then screw the opening and closing adjusters out together until the free play is 2–3 mm (0.08–0.12 in). Tighten both lock nuts and refit the sleeve. A loose lock nut can make the throttle stick.",
+    "depends_on": [
+     "free-play"
+    ],
+    "verification": [
+     "Free play correct, both lock nuts tight."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "idle-prep",
+    "title": "Prepare for the idle check",
+    "instruction": "A dirty air filter or wrong free play gives a false idle, so sort those first. Warm the engine fully outdoors and make sure the cold start lever is pushed in. Fit a digital tachometer.",
+    "depends_on": [
+     "free-play"
+    ],
+    "verification": [
+     "Engine warm, cold start lever in, tachometer fitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "idle-set",
+    "title": "Set the idle",
+    "instruction": "Idle must sit at 2100–2200 rpm. Turn the idle screw on the throttle body clockwise to raise it or counterclockwise to lower it, a little at a time, letting it settle after each turn.",
+    "depends_on": [
+     "idle-prep"
+    ],
+    "verification": [
+     "Idle within range."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "lock-to-lock",
+    "title": "Check at full lock",
+    "instruction": "With the engine idling, turn the bars to full left and full right lock. The idle must not change. If it rises, the throttle cables are routed or adjusted wrongly: fix them before riding.",
+    "depends_on": [
+     "idle-set"
+    ],
+    "verification": [
+     "Idle unchanged lock to lock."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the free play, idle speed and anything adjusted.",
+    "depends_on": [
+     "lock-to-lock"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-throttle-idle-v1-tf250e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "controls",
+   "engine_management",
+   "intake"
+  ],
+  "title": "Check throttle free play and set the idle speed",
+  "entry_state": [
+   "Bike on a stand, outdoors."
+  ],
+  "exit_state": [
+   "Throttle returns cleanly, free play and idle in range, idle steady lock to lock."
+  ],
+  "completeness": "Covers throttle return, grip free play, cable adjustment at the grip, warm idle setting and the lock-to-lock check.",
+  "excluded": [
+   "Throttle cable replacement or rerouting",
+   "Throttle body service"
+  ],
+  "required_tools": [
+   {
+    "name": "Digital tachometer",
+    "size": null
+   },
+   {
+    "name": "Small spanners for the cable lock nuts",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Air filter clean.",
+   "Ventilated area: never run the engine indoors."
+  ],
+  "critical_stop_conditions": [
+   "Throttle sticking or slow to close: do not ride.",
+   "Idle changes as the bars turn: correct the cables before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Check the idle speed after the first operating hour and then every 15 operating hours, and check throttle free play at the same time or whenever the throttle feels different. Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "throttle-return",
+    "title": "Check the throttle action",
+    "instruction": "With the bars straight ahead, open the throttle fully and let go. It must open smoothly without force and snap shut on its own spring every time.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Throttle returns on its own."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "sticky",
+      "label": "Throttle sticks",
+      "next_step": "record-out",
+      "condition": "Any sticking or slow return: do not ride. Record it and have the throttle and cables inspected."
+     }
+    ]
+   },
+   {
+    "id": "free-play",
+    "title": "Measure free play",
+    "instruction": "Turn the grip gently back and forth: free play at the grip must be 2–3 mm (0.08–0.12 in).",
+    "depends_on": [
+     "throttle-return"
+    ],
+    "verification": [
+     "Free play measured."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "in-range",
+      "label": "Free play correct",
+      "next_step": "idle-prep",
+      "condition": "Within range."
+     },
+     {
+      "id": "adjust",
+      "label": "Free play wrong",
+      "next_step": "cable-adjust",
+      "condition": "Outside the range."
+     }
+    ]
+   },
+   {
+    "id": "cable-adjust",
+    "title": "Adjust the cables",
+    "instruction": "Slide the rubber sleeve off the adjusters at the twist grip, loosen both lock nuts, screw both adjusters fully in, then screw the opening and closing adjusters out together until the free play is 2–3 mm (0.08–0.12 in). Tighten both lock nuts and refit the sleeve. A loose lock nut can make the throttle stick.",
+    "depends_on": [
+     "free-play"
+    ],
+    "verification": [
+     "Free play correct, both lock nuts tight."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "idle-prep",
+    "title": "Prepare for the idle check",
+    "instruction": "A dirty air filter or wrong free play gives a false idle, so sort those first. Warm the engine fully outdoors and make sure the cold start lever is pushed in. Fit a digital tachometer.",
+    "depends_on": [
+     "free-play"
+    ],
+    "verification": [
+     "Engine warm, cold start lever in, tachometer fitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "idle-set",
+    "title": "Set the idle",
+    "instruction": "Idle must sit at 2050–2150 rpm. Turn the idle screw on the throttle body clockwise to raise it or counterclockwise to lower it, a little at a time, letting it settle after each turn.",
+    "depends_on": [
+     "idle-prep"
+    ],
+    "verification": [
+     "Idle within range."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "lock-to-lock",
+    "title": "Check at full lock",
+    "instruction": "With the engine idling, turn the bars to full left and full right lock. The idle must not change. If it rises, the throttle cables are routed or adjusted wrongly: fix them before riding.",
+    "depends_on": [
+     "idle-set"
+    ],
+    "verification": [
+     "Idle unchanged lock to lock."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the free play, idle speed and anything adjusted.",
+    "depends_on": [
+     "lock-to-lock"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-clutch-check-v1-tf250x24-tf250x25-tf250x26-tf450rc25-tf450x26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-RC Edition",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "clutch",
+   "clutch_hydraulics"
+  ],
+  "title": "Check the hydraulic clutch",
+  "entry_state": [
+   "Bike on level ground."
+  ],
+  "exit_state": [
+   "Clutch fluid at the upper line, no leaks, clutch neither slipping nor dragging."
+  ],
+  "completeness": "Covers fluid level, top-up, leak check and a functional slip and drag test, with the plate inspection interval.",
+  "excluded": [
+   "Clutch plate replacement",
+   "Clutch fluid replacement and bleeding"
+  ],
+  "required_tools": [
+   {
+    "name": "Screwdriver for the cap fasteners",
+    "size": null
+   },
+   {
+    "name": "Rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "DOT 4 brake and clutch fluid",
+    "purpose": "From a new, sealed container."
+   }
+  ],
+  "prerequisites": [
+   "Rags over painted parts: the fluid strips paint."
+  ],
+  "critical_stop_conditions": [
+   "Fluid leak or soft lever: do not ride.",
+   "Clutch slipping: plates need attention before racing."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "The clutch is hydraulic and self-adjusting. Check its operation and fluid level regularly; the friction plates, steel plates and drums are checked every 2.5 hours of race use. Write down the date, hours and how the clutch has felt (slipping, dragging, lever feel).",
+    "depends_on": [],
+    "verification": [
+     "Date, hours and symptoms recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "level-res",
+    "title": "Level the reservoir",
+    "instruction": "Clean round the clutch reservoir cap. Turn the bars until the reservoir sits level; if needed, mark its position, loosen the clamp and rotate it level.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Reservoir level and clean."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fluid",
+    "title": "Check the fluid",
+    "instruction": "Remove the cap fasteners, cap and diaphragm. Fluid must reach the upper level line with the reservoir level.",
+    "depends_on": [
+     "level-res"
+    ],
+    "verification": [
+     "Fluid level seen."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "low",
+      "label": "Fluid low",
+      "next_step": "top-up",
+      "condition": "Below the upper line."
+     },
+     {
+      "id": "ok",
+      "label": "Fluid at the line",
+      "next_step": "close",
+      "condition": "At the line."
+     }
+    ]
+   },
+   {
+    "id": "top-up",
+    "title": "Top up",
+    "instruction": "Fill to the upper line with new DOT 4 fluid from a sealed container. A noticeable drop since the last check means a leak: find it before riding.",
+    "depends_on": [
+     "fluid"
+    ],
+    "verification": [
+     "Fluid at the upper line."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "close",
+    "title": "Close the reservoir",
+    "instruction": "Refit the diaphragm correctly seated between the cap plate and the reservoir and tighten the small cap fasteners gently — they are easy to strip. Put the reservoir back in its marked position and tighten the clamp.",
+    "depends_on": [
+     "fluid"
+    ],
+    "verification": [
+     "Cap sealed, reservoir back in position."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "leaks",
+    "title": "Check for leaks",
+    "instruction": "Pull the lever and hold it. Look along the hose and at both unions and at the slave end on the engine for any wetness.",
+    "depends_on": [
+     "close"
+    ],
+    "verification": [
+     "No leaks."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "leak",
+      "label": "Leak found",
+      "next_step": "record-out",
+      "condition": "Any leak or a soft lever that returns slowly: do not ride; record it and have the hydraulics repaired."
+     }
+    ]
+   },
+   {
+    "id": "operate",
+    "title": "Check operation",
+    "instruction": "Engine warm, in neutral: pull the lever and select first. The bike must not creep or lurch. Ride off gently and open the throttle hard in a high gear at low revs: revs climbing without speed means the clutch is slipping.",
+    "depends_on": [
+     "leaks"
+    ],
+    "verification": [
+     "No drag, no slip."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "slip-drag",
+      "label": "Slipping or dragging",
+      "next_step": "record-out",
+      "condition": "Slip or drag: the plates and drums need inspection or replacement."
+     }
+    ]
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the fluid level, any top-up, the clutch feel and the next plate inspection due at 2.5 race hours. The clutch fluid itself is replaced every 90 operating hours or 24 months, whichever comes first.",
+    "depends_on": [
+     "operate"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-clutch-check-v1-tf250c26-tf450c26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-C",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "clutch",
+   "clutch_hydraulics"
+  ],
+  "title": "Check the hydraulic clutch",
+  "entry_state": [
+   "Bike on level ground."
+  ],
+  "exit_state": [
+   "Clutch fluid at the upper line, no leaks, clutch neither slipping nor dragging."
+  ],
+  "completeness": "Covers fluid level, top-up, leak check and a functional slip and drag test, with the plate inspection interval.",
+  "excluded": [
+   "Clutch plate replacement",
+   "Clutch fluid replacement and bleeding"
+  ],
+  "required_tools": [
+   {
+    "name": "Screwdriver for the cap fasteners",
+    "size": null
+   },
+   {
+    "name": "Rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "DOT 4 brake and clutch fluid",
+    "purpose": "From a new, sealed container."
+   }
+  ],
+  "prerequisites": [
+   "Rags over painted parts: the fluid strips paint."
+  ],
+  "critical_stop_conditions": [
+   "Fluid leak or soft lever: do not ride.",
+   "Clutch slipping: plates need attention before racing."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "The clutch is hydraulic and self-adjusting. Check its operation and fluid level regularly; the friction plates, steel plates and drums are checked every 2.5 hours of race use. Write down the date, hours and how the clutch has felt (slipping, dragging, lever feel).",
+    "depends_on": [],
+    "verification": [
+     "Date, hours and symptoms recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "level-res",
+    "title": "Level the reservoir",
+    "instruction": "Clean round the clutch reservoir cap. Turn the bars until the reservoir sits level; if needed, mark its position, loosen the clamp and rotate it level.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Reservoir level and clean."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fluid",
+    "title": "Check the fluid",
+    "instruction": "Remove the cap fasteners, cap and diaphragm. Fluid must reach the upper level line with the reservoir level.",
+    "depends_on": [
+     "level-res"
+    ],
+    "verification": [
+     "Fluid level seen."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "low",
+      "label": "Fluid low",
+      "next_step": "top-up",
+      "condition": "Below the upper line."
+     },
+     {
+      "id": "ok",
+      "label": "Fluid at the line",
+      "next_step": "close",
+      "condition": "At the line."
+     }
+    ]
+   },
+   {
+    "id": "top-up",
+    "title": "Top up",
+    "instruction": "Fill to the upper line with new DOT 4 fluid from a sealed container. A noticeable drop since the last check means a leak: find it before riding.",
+    "depends_on": [
+     "fluid"
+    ],
+    "verification": [
+     "Fluid at the upper line."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "close",
+    "title": "Close the reservoir",
+    "instruction": "Refit the diaphragm correctly seated between the cap plate and the reservoir and tighten the small cap fasteners gently — they are easy to strip. Put the reservoir back in its marked position and tighten the clamp.",
+    "depends_on": [
+     "fluid"
+    ],
+    "verification": [
+     "Cap sealed, reservoir back in position."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "leaks",
+    "title": "Check for leaks",
+    "instruction": "Pull the lever and hold it. Look along the hose and at both unions and at the slave end on the engine for any wetness.",
+    "depends_on": [
+     "close"
+    ],
+    "verification": [
+     "No leaks."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "leak",
+      "label": "Leak found",
+      "next_step": "record-out",
+      "condition": "Any leak or a soft lever that returns slowly: do not ride; record it and have the hydraulics repaired."
+     }
+    ]
+   },
+   {
+    "id": "operate",
+    "title": "Check operation",
+    "instruction": "Engine warm, in neutral: pull the lever and select first. The bike must not creep or lurch. Ride off gently and open the throttle hard in a high gear at low revs: revs climbing without speed means the clutch is slipping.",
+    "depends_on": [
+     "leaks"
+    ],
+    "verification": [
+     "No drag, no slip."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "slip-drag",
+      "label": "Slipping or dragging",
+      "next_step": "record-out",
+      "condition": "Slip or drag: the plates and drums need inspection or replacement."
+     }
+    ]
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the fluid level, any top-up, the clutch feel and the next plate inspection due at 2.5 race hours. The clutch fluid itself is replaced every 24 months.",
+    "depends_on": [
+     "operate"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-clutch-check-v1-tf250e26-tf450e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-E",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "clutch",
+   "clutch_hydraulics"
+  ],
+  "title": "Check the hydraulic clutch",
+  "entry_state": [
+   "Bike on level ground."
+  ],
+  "exit_state": [
+   "Clutch fluid at the upper line, no leaks, clutch neither slipping nor dragging."
+  ],
+  "completeness": "Covers fluid level, top-up, leak check and a functional slip and drag test, with the plate inspection interval.",
+  "excluded": [
+   "Clutch plate replacement",
+   "Clutch fluid replacement and bleeding"
+  ],
+  "required_tools": [
+   {
+    "name": "Screwdriver for the cap fasteners",
+    "size": null
+   },
+   {
+    "name": "Rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "DOT 4 brake and clutch fluid",
+    "purpose": "From a new, sealed container."
+   }
+  ],
+  "prerequisites": [
+   "Rags over painted parts: the fluid strips paint."
+  ],
+  "critical_stop_conditions": [
+   "Fluid leak or soft lever: do not ride.",
+   "Clutch slipping: plates need attention before racing."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "The clutch is hydraulic and self-adjusting. Check its operation and fluid level regularly; the friction plates, steel plates and drums are checked every 3.5 hours of race use. Write down the date, hours and how the clutch has felt (slipping, dragging, lever feel).",
+    "depends_on": [],
+    "verification": [
+     "Date, hours and symptoms recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "level-res",
+    "title": "Level the reservoir",
+    "instruction": "Clean round the clutch reservoir cap. Turn the bars until the reservoir sits level; if needed, mark its position, loosen the clamp and rotate it level.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Reservoir level and clean."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fluid",
+    "title": "Check the fluid",
+    "instruction": "Remove the cap fasteners, cap and diaphragm. Fluid must reach the upper level line with the reservoir level.",
+    "depends_on": [
+     "level-res"
+    ],
+    "verification": [
+     "Fluid level seen."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "low",
+      "label": "Fluid low",
+      "next_step": "top-up",
+      "condition": "Below the upper line."
+     },
+     {
+      "id": "ok",
+      "label": "Fluid at the line",
+      "next_step": "close",
+      "condition": "At the line."
+     }
+    ]
+   },
+   {
+    "id": "top-up",
+    "title": "Top up",
+    "instruction": "Fill to the upper line with new DOT 4 fluid from a sealed container. A noticeable drop since the last check means a leak: find it before riding.",
+    "depends_on": [
+     "fluid"
+    ],
+    "verification": [
+     "Fluid at the upper line."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "close",
+    "title": "Close the reservoir",
+    "instruction": "Refit the diaphragm correctly seated between the cap plate and the reservoir and tighten the small cap fasteners gently — they are easy to strip. Put the reservoir back in its marked position and tighten the clamp.",
+    "depends_on": [
+     "fluid"
+    ],
+    "verification": [
+     "Cap sealed, reservoir back in position."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "leaks",
+    "title": "Check for leaks",
+    "instruction": "Pull the lever and hold it. Look along the hose and at both unions and at the slave end on the engine for any wetness.",
+    "depends_on": [
+     "close"
+    ],
+    "verification": [
+     "No leaks."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "leak",
+      "label": "Leak found",
+      "next_step": "record-out",
+      "condition": "Any leak or a soft lever that returns slowly: do not ride; record it and have the hydraulics repaired."
+     }
+    ]
+   },
+   {
+    "id": "operate",
+    "title": "Check operation",
+    "instruction": "Engine warm, in neutral: pull the lever and select first. The bike must not creep or lurch. Ride off gently and open the throttle hard in a high gear at low revs: revs climbing without speed means the clutch is slipping.",
+    "depends_on": [
+     "leaks"
+    ],
+    "verification": [
+     "No drag, no slip."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "slip-drag",
+      "label": "Slipping or dragging",
+      "next_step": "record-out",
+      "condition": "Slip or drag: the plates and drums need inspection or replacement."
+     }
+    ]
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the fluid level, any top-up, the clutch feel and the next plate inspection due at 3.5 race hours. The clutch fluid itself is replaced every 90 operating hours or 24 months, whichever comes first.",
+    "depends_on": [
+     "operate"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-rider-aids-v1-tf250x24-tf250x25-tf250x26-tf450rc25-tf450x26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-RC Edition",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "engine_management",
+   "controls",
+   "electrical"
+  ],
+  "title": "Set the engine map, traction, quickshifter and launch control",
+  "entry_state": [
+   "Bike ready to ride."
+  ],
+  "exit_state": [
+   "Rider aids set for the conditions and recorded."
+  ],
+  "completeness": "Covers map choice, switch brightness, traction control, quickshifter use and reset, launch control arming and cancelling, and the holeshot device.",
+  "excluded": [
+   "Engine calibration changes with a diagnostic tool"
+  ],
+  "required_tools": [],
+  "required_parts": [],
+  "prerequisites": [
+   "Bike started and warm."
+  ],
+  "critical_stop_conditions": [
+   "Switch lights not responding: check the electrical system before relying on any rider aid."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the current setup",
+    "instruction": "Note which map, traction control, launch control and quickshifter settings you ride with now, and the track conditions, so you can compare.",
+    "depends_on": [],
+    "verification": [
+     "Current settings recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "map",
+    "title": "Choose the engine map",
+    "instruction": "MAP 1 gives the standard engine response and traction control; MAP 2 gives full-power response and traction control. A short press on the MAP switch on the left switch housing swaps between them. The MAP switch is lit with MAP 2 and dark with MAP 1.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Map chosen and confirmed by the switch light."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "brightness",
+    "title": "Set the switch light brightness",
+    "instruction": "A long press on the MAP switch changes the brightness of the switch housing lights. Set it so you can read them in sun.",
+    "depends_on": [
+     "map"
+    ],
+    "verification": [
+     "Switch lights readable."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tc",
+    "title": "Set traction control",
+    "instruction": "A short press on the TC switch turns traction control on (its light comes on) or off (light off). Start with it on for slippery or hard-pack tracks.",
+    "depends_on": [
+     "brightness"
+    ],
+    "verification": [
+     "Traction control state confirmed by the light."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "qs",
+    "title": "Set the quickshifter",
+    "instruction": "A short press on the quickshifter switch turns it on or off. It only works on upshifts from 2nd gear and above 2,500 rpm, and does nothing if you try to shift up from 5th. You still need the clutch for first to second, all downshifts, stopping and pulling away. If shifts feel wrong after work on the shift linkage, a long press resets the quickshifter's learned adaption.",
+    "depends_on": [
+     "tc"
+    ],
+    "verification": [
+     "Quickshifter state chosen."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "lc",
+    "title": "Arm launch control at the gate",
+    "instruction": "With the bike stopped, engine idling and the gearbox in neutral, press and hold the LC switch until its light comes on. Use the clutch exactly as normal for the start. The light flashes during the start and launch control switches itself off a few seconds after the start; a long press on the LC switch or a fully open throttle also cancels it.",
+    "depends_on": [
+     "qs"
+    ],
+    "verification": [
+     "Launch control light on before the start."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "holeshot",
+    "title": "Set the holeshot device (if fitted)",
+    "instruction": "Engine off, in neutral. Choose the top piston with the lever for the least fork compression or the bottom piston for the most. Push the fork fully down, let the lever go slowly once the piston is in the locking area and check the fork stays down. It releases by itself when the fork is compressed hard, for example on the first braking or a big bump.",
+    "depends_on": [
+     "lc"
+    ],
+    "verification": [
+     "Fork held down by the chosen piston."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record what worked",
+    "instruction": "After the session, write down the map, traction, quickshifter and launch settings with the track conditions and how the bike felt.",
+    "depends_on": [
+     "holeshot"
+    ],
+    "verification": [
+     "Settings and results recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-rider-aids-v1-tf250c26-tf450c26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-C",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "engine_management",
+   "controls",
+   "electrical"
+  ],
+  "title": "Set the engine map, traction, quickshifter and launch control",
+  "entry_state": [
+   "Bike ready to ride."
+  ],
+  "exit_state": [
+   "Rider aids set for the conditions and recorded."
+  ],
+  "completeness": "Covers map choice, switch brightness, traction control, quickshifter use and reset, launch control arming and cancelling.",
+  "excluded": [
+   "Engine calibration changes with a diagnostic tool"
+  ],
+  "required_tools": [],
+  "required_parts": [],
+  "prerequisites": [
+   "Bike started and warm."
+  ],
+  "critical_stop_conditions": [
+   "Switch lights not responding: check the electrical system before relying on any rider aid."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the current setup",
+    "instruction": "Note which map, traction control, launch control and quickshifter settings you ride with now, and the track conditions, so you can compare.",
+    "depends_on": [],
+    "verification": [
+     "Current settings recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "map",
+    "title": "Choose the engine map",
+    "instruction": "MAP 1 gives the standard engine response and traction control; MAP 2 gives full-power response and traction control. A short press on the MAP switch on the left switch housing swaps between them. The MAP switch is lit with MAP 2 and dark with MAP 1.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Map chosen and confirmed by the switch light."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "brightness",
+    "title": "Set the switch light brightness",
+    "instruction": "A long press on the MAP switch changes the brightness of the switch housing lights. Set it so you can read them in sun.",
+    "depends_on": [
+     "map"
+    ],
+    "verification": [
+     "Switch lights readable."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tc",
+    "title": "Set traction control",
+    "instruction": "A short press on the TC switch turns traction control on (its light comes on) or off (light off). Start with it on for slippery or hard-pack tracks.",
+    "depends_on": [
+     "brightness"
+    ],
+    "verification": [
+     "Traction control state confirmed by the light."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "qs",
+    "title": "Set the quickshifter",
+    "instruction": "A short press on the quickshifter switch turns it on or off. It only works on upshifts from 2nd gear and above 2,500 rpm, and does nothing if you try to shift up from 5th. You still need the clutch for first to second, all downshifts, stopping and pulling away. If shifts feel wrong after work on the shift linkage, a long press resets the quickshifter's learned adaption.",
+    "depends_on": [
+     "tc"
+    ],
+    "verification": [
+     "Quickshifter state chosen."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "lc",
+    "title": "Arm launch control at the gate",
+    "instruction": "With the bike stopped, engine idling and the gearbox in neutral, press and hold the LC switch until its light comes on. Use the clutch exactly as normal for the start. The light flashes during the start and launch control switches itself off a few seconds after the start; a long press on the LC switch or a fully open throttle also cancels it.",
+    "depends_on": [
+     "qs"
+    ],
+    "verification": [
+     "Launch control light on before the start."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record what worked",
+    "instruction": "After the session, write down the map, traction, quickshifter and launch settings with the track conditions and how the bike felt.",
+    "depends_on": [
+     "lc"
+    ],
+    "verification": [
+     "Settings and results recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-rider-aids-v1-tf250e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "engine_management",
+   "controls",
+   "electrical"
+  ],
+  "title": "Set the engine map, traction, quickshifter and launch control",
+  "entry_state": [
+   "Bike ready to ride."
+  ],
+  "exit_state": [
+   "Rider aids set for the conditions and recorded."
+  ],
+  "completeness": "Covers map choice, switch brightness, traction control, quickshifter use and reset, launch control arming and cancelling.",
+  "excluded": [
+   "Engine calibration changes with a diagnostic tool"
+  ],
+  "required_tools": [],
+  "required_parts": [],
+  "prerequisites": [
+   "Bike started and warm."
+  ],
+  "critical_stop_conditions": [
+   "Switch lights not responding: check the electrical system before relying on any rider aid."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the current setup",
+    "instruction": "Note which map, traction control, launch control and quickshifter settings you ride with now, and the track conditions, so you can compare.",
+    "depends_on": [],
+    "verification": [
+     "Current settings recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "map",
+    "title": "Choose the engine map",
+    "instruction": "MAP 1 gives the standard engine response and traction control; MAP 2 gives full-power response and traction control. A short press on the MAP switch on the left switch housing swaps between them. The MAP switch is lit with MAP 2 and dark with MAP 1.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Map chosen and confirmed by the switch light."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "brightness",
+    "title": "Set the switch light brightness",
+    "instruction": "A long press on the MAP switch changes the brightness of the switch housing lights. Set it so you can read them in sun.",
+    "depends_on": [
+     "map"
+    ],
+    "verification": [
+     "Switch lights readable."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tc",
+    "title": "Set traction control",
+    "instruction": "A short press on the TC switch turns traction control on (its light comes on) or off (light off). Start with it on for slippery or hard-pack tracks.",
+    "depends_on": [
+     "brightness"
+    ],
+    "verification": [
+     "Traction control state confirmed by the light."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "qs",
+    "title": "Set the quickshifter",
+    "instruction": "A short press on the quickshifter switch turns it on or off. It only works on upshifts from 2nd gear and above 2,500 rpm, and does nothing if you try to shift up from 6th. You still need the clutch for first to second, all downshifts, stopping and pulling away. If shifts feel wrong after work on the shift linkage, a long press resets the quickshifter's learned adaption.",
+    "depends_on": [
+     "tc"
+    ],
+    "verification": [
+     "Quickshifter state chosen."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "lc",
+    "title": "Arm launch control at the gate",
+    "instruction": "With the bike stopped, engine idling and the gearbox in neutral, press and hold the LC switch until its light comes on. Use the clutch exactly as normal for the start. The light flashes during the start and launch control switches itself off a few seconds after the start; a long press on the LC switch or a fully open throttle also cancels it.",
+    "depends_on": [
+     "qs"
+    ],
+    "verification": [
+     "Launch control light on before the start."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record what worked",
+    "instruction": "After the session, write down the map, traction, quickshifter and launch settings with the track conditions and how the bike felt.",
+    "depends_on": [
+     "lc"
+    ],
+    "verification": [
+     "Settings and results recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ }
+]

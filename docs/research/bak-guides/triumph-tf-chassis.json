@@ -1,0 +1,2365 @@
+[
+ {
+  "id": "bak-triumph-chain-adjust-v1-tf250x24-tf250x25-tf250x26-tf450rc25-tf450x26-tf250c26-tf450c26-tf250e26-tf450e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-RC Edition",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-E",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "chain",
+   "rear_wheel",
+   "swingarm",
+   "rear_brake"
+  ],
+  "title": "Check and adjust the drive chain",
+  "entry_state": [
+   "Bike clean, on a stand."
+  ],
+  "exit_state": [
+   "Chain free movement in range at the tightest point, both sides on the same mark, every nut torqued, chain lubricated."
+  ],
+  "completeness": "Covers finding the tight spot, measuring at the rubbing strip, adjusting both sides equally, torques, recheck, brake check and lubrication.",
+  "excluded": [
+   "Chain or sprocket replacement",
+   "Chain wear measurement (separate guide)"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand that lifts the rear wheel",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Axle wrench",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Chain lubricant",
+    "purpose": "Triumph Performance chain lubricant or equal."
+   }
+  ],
+  "prerequisites": [
+   "Chain clean enough to see the links."
+  ],
+  "critical_stop_conditions": [
+   "Adjuster marks not the same both sides: the wheel is misaligned.",
+   "Spindle nut or lock nuts not torqued: do not ride.",
+   "Stiff links or damaged rollers: replace the chain."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Check, adjust and lubricate the chain after every race and whenever it looks dry. Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "stand",
+    "title": "Lift the rear wheel",
+    "instruction": "Put the bike on a stand with the rear wheel off the ground and the rear suspension fully unloaded.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Rear wheel off the ground, shock extended."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tight-spot",
+    "title": "Find the tightest point",
+    "instruction": "Turn the rear wheel slowly and find where the chain is tightest. Keep fingers away from the chain and sprocket.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Tightest point found."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "measure",
+    "title": "Measure the free movement",
+    "instruction": "At the tightest point, push the chain up directly above the end of the chain rubbing strip until it is taut, and measure from the swingarm surface to the lower edge of the chain at that point. It must be 55–58 mm (2.17–2.28 in).",
+    "depends_on": [
+     "tight-spot"
+    ],
+    "verification": [
+     "Free movement measured."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "in-range",
+      "label": "In range",
+      "next_step": "lube",
+      "condition": "Within range."
+     },
+     {
+      "id": "adjust",
+      "label": "Out of range",
+      "next_step": "loosen",
+      "condition": "Too tight or too loose."
+     }
+    ]
+   },
+   {
+    "id": "loosen",
+    "title": "Loosen the axle",
+    "instruction": "Loosen the rear wheel spindle nut and the lock nuts on both chain adjuster bolts.",
+    "depends_on": [
+     "measure"
+    ],
+    "verification": [
+     "Spindle nut and both lock nuts loose."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "adjust",
+    "title": "Adjust both sides equally",
+    "instruction": "Turn both adjuster bolts by the same amount, using the adjuster marks as a guide: clockwise increases free movement, counterclockwise reduces it. Push the wheel firmly against the adjusters and check the same mark lines up on both sides.",
+    "depends_on": [
+     "loosen"
+    ],
+    "verification": [
+     "Same mark on both sides, wheel against the adjusters."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tighten",
+    "title": "Tighten",
+    "instruction": "Tighten both adjuster lock nuts to 25 N·m (18 lbf·ft) and the rear wheel spindle nut to 120 N·m (89 lbf·ft).",
+    "depends_on": [
+     "adjust"
+    ],
+    "verification": [
+     "Lock nuts and spindle nut torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "recheck",
+    "title": "Measure again",
+    "instruction": "Find the tightest point again and remeasure. It must still be 55–58 mm (2.17–2.28 in).",
+    "depends_on": [
+     "tighten"
+    ],
+    "verification": [
+     "Free movement in range after tightening."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "still-out",
+      "label": "Moved out of range",
+      "next_step": "loosen",
+      "condition": "Readjust."
+     }
+    ]
+   },
+   {
+    "id": "brake",
+    "title": "Check the rear brake",
+    "instruction": "Spin the wheel: it must turn freely, then stop firmly when you press the pedal.",
+    "depends_on": [
+     "recheck"
+    ],
+    "verification": [
+     "Rear brake works and does not drag."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "lube",
+    "title": "Clean and lubricate",
+    "instruction": "If the chain is dirty, clean it first, never with a pressure washer. Apply chain lubricant to the sides of the rollers and leave the bike standing, ideally overnight, so it soaks in. Wipe off the excess before riding.",
+    "depends_on": [
+     "measure"
+    ],
+    "verification": [
+     "Chain lubricated, excess wiped."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the free movement found and set, the adjuster mark used and the date.",
+    "depends_on": [
+     "lube"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-chain-wear-v1-tf250x24",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2024
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "chain",
+   "sprockets",
+   "swingarm"
+  ],
+  "title": "Check chain, sprocket and rubbing strip wear",
+  "entry_state": [
+   "Bike clean, on a stand."
+  ],
+  "exit_state": [
+   "Chain, sprockets and sliders measured and inspected, worn parts identified, results recorded."
+  ],
+  "completeness": "Covers damage check, 20-link stretch measurement, sprocket wear and rubbing strip and slider inspection with fastener torques.",
+  "excluded": [
+   "Chain riveting and sprocket fitting"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand that lifts the rear wheel",
+    "size": null
+   },
+   {
+    "name": "Steel rule or vernier",
+    "size": null
+   },
+   {
+    "name": "Weight to tension the chain",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Drive chain",
+    "purpose": "DID 520DMA4K SDH, 114 link non-O-ring, if replacement is needed."
+   },
+   {
+    "name": "Rubbing strips or sliders",
+    "purpose": "If worn."
+   }
+  ],
+  "prerequisites": [
+   "Chain cleaned."
+  ],
+  "critical_stop_conditions": [
+   "Chain over the limit or damaged: do not ride.",
+   "Missing or worn-through slider: the chain will cut the frame or swingarm."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Check chain, sprockets and rubbing strips every 15 operating hours. Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "stand",
+    "title": "Lift the rear wheel",
+    "instruction": "Put the bike on a stand with the rear wheel off the ground and the rear suspension unloaded.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Rear wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "damage",
+    "title": "Look for damage",
+    "instruction": "Turn the wheel slowly and check every link for damaged rollers, loose pins and stiff links. Never try to free a stiff link; it means the chain is finished.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Whole chain inspected."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "damaged",
+      "label": "Damaged",
+      "next_step": "replace",
+      "condition": "Any damaged roller, loose pin or stiff link."
+     }
+    ]
+   },
+   {
+    "id": "stretch",
+    "title": "Stretch and measure",
+    "instruction": "Hang a moderate weight on the chain to pull it taut. On the straight run, measure from the centre of one pin to the centre of the pin 20 links further on. Measure in several places, because chains wear unevenly. Replace the chain if any length exceeds 317.5 mm (12.5 in).",
+    "depends_on": [
+     "damage"
+    ],
+    "verification": [
+     "Several 20-link lengths measured."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "worn",
+      "label": "Over the limit",
+      "next_step": "replace",
+      "condition": "Any measurement over the limit."
+     }
+    ]
+   },
+   {
+    "id": "sprockets",
+    "title": "Check the sprockets",
+    "instruction": "Turn the wheel and look at both sprockets for hooked, uneven or damaged teeth.",
+    "depends_on": [
+     "stretch"
+    ],
+    "verification": [
+     "Both sprockets inspected."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "sprockets-worn",
+      "label": "Sprockets worn",
+      "next_step": "replace",
+      "condition": "Worn sprockets: replace both sprockets with the chain, since a new chain on worn sprockets wears out fast."
+     }
+    ]
+   },
+   {
+    "id": "sliders",
+    "title": "Check the rubbing strips",
+    "instruction": "Inspect the chain rubbing strip on the swingarm and the upper and lower sliders for wear, cracks and missing pieces. If a rubbing strip or slider is worn, cracked or missing, replace it: upper slider to engine fastener 10 N·m (89 lbf·in), upper slider guard to frame fastener 25 N·m (18 lbf·ft), lower slider fastener 10 N·m (89 lbf·in) with a new fastener.",
+    "depends_on": [
+     "sprockets"
+    ],
+    "verification": [
+     "Strips and sliders sound, any replaced part torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "replace",
+    "title": "Plan the replacement",
+    "instruction": "If anything failed, fit a new chain (DID 520DMA4K SDH, 114 link non-O-ring) and sprockets as a set, then set the free movement with the chain adjustment guide. A chain that breaks or jumps off can lock the rear wheel.",
+    "depends_on": [
+     "damage"
+    ],
+    "verification": [
+     "Replacement planned or done."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the 20-link lengths, sprocket and slider condition and anything replaced.",
+    "depends_on": [
+     "replace"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-chain-wear-v1-tf250x26-tf450rc25-tf450x26-tf250c26-tf450c26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-RC Edition",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-C",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "chain",
+   "sprockets",
+   "swingarm"
+  ],
+  "title": "Check chain, sprocket and rubbing strip wear",
+  "entry_state": [
+   "Bike clean, on a stand."
+  ],
+  "exit_state": [
+   "Chain, sprockets and sliders measured and inspected, worn parts identified, results recorded."
+  ],
+  "completeness": "Covers damage check, 20-link stretch measurement, sprocket wear and rubbing strip and slider inspection with fastener torques.",
+  "excluded": [
+   "Chain riveting and sprocket fitting"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand that lifts the rear wheel",
+    "size": null
+   },
+   {
+    "name": "Steel rule or vernier",
+    "size": null
+   },
+   {
+    "name": "Weight to tension the chain",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Drive chain",
+    "purpose": "DID 520DMA4K SDH, 114 link non-O-ring, if replacement is needed."
+   },
+   {
+    "name": "Rubbing strips or sliders",
+    "purpose": "If worn."
+   }
+  ],
+  "prerequisites": [
+   "Chain cleaned."
+  ],
+  "critical_stop_conditions": [
+   "Chain over the limit or damaged: do not ride.",
+   "Missing or worn-through slider: the chain will cut the frame or swingarm."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Check chain, sprockets and rubbing strips every 15 operating hours. Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "stand",
+    "title": "Lift the rear wheel",
+    "instruction": "Put the bike on a stand with the rear wheel off the ground and the rear suspension unloaded.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Rear wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "damage",
+    "title": "Look for damage",
+    "instruction": "Turn the wheel slowly and check every link for damaged rollers, loose pins and stiff links. Never try to free a stiff link; it means the chain is finished.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Whole chain inspected."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "damaged",
+      "label": "Damaged",
+      "next_step": "replace",
+      "condition": "Any damaged roller, loose pin or stiff link."
+     }
+    ]
+   },
+   {
+    "id": "stretch",
+    "title": "Stretch and measure",
+    "instruction": "Hang a moderate weight on the chain to pull it taut. On the straight run, measure from the centre of one pin to the centre of the pin 20 links further on. Measure in several places, because chains wear unevenly. Replace the chain if any length exceeds 320 mm (12.6 in).",
+    "depends_on": [
+     "damage"
+    ],
+    "verification": [
+     "Several 20-link lengths measured."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "worn",
+      "label": "Over the limit",
+      "next_step": "replace",
+      "condition": "Any measurement over the limit."
+     }
+    ]
+   },
+   {
+    "id": "sprockets",
+    "title": "Check the sprockets",
+    "instruction": "Turn the wheel and look at both sprockets for hooked, uneven or damaged teeth.",
+    "depends_on": [
+     "stretch"
+    ],
+    "verification": [
+     "Both sprockets inspected."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "sprockets-worn",
+      "label": "Sprockets worn",
+      "next_step": "replace",
+      "condition": "Worn sprockets: replace both sprockets with the chain, since a new chain on worn sprockets wears out fast."
+     }
+    ]
+   },
+   {
+    "id": "sliders",
+    "title": "Check the rubbing strips",
+    "instruction": "Inspect the chain rubbing strip on the swingarm and the upper and lower sliders for wear, cracks and missing pieces. If a rubbing strip or slider is worn, cracked or missing, replace it: upper slider to engine fastener 10 N·m (89 lbf·in), upper slider guard to frame fastener 25 N·m (18 lbf·ft), lower slider fastener 10 N·m (89 lbf·in).",
+    "depends_on": [
+     "sprockets"
+    ],
+    "verification": [
+     "Strips and sliders sound, any replaced part torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "replace",
+    "title": "Plan the replacement",
+    "instruction": "If anything failed, fit a new chain (DID 520DMA4K SDH, 114 link non-O-ring) and sprockets as a set, then set the free movement with the chain adjustment guide. A chain that breaks or jumps off can lock the rear wheel.",
+    "depends_on": [
+     "damage"
+    ],
+    "verification": [
+     "Replacement planned or done."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the 20-link lengths, sprocket and slider condition and anything replaced.",
+    "depends_on": [
+     "replace"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-chain-wear-v1-tf250e26-tf450e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-E",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "chain",
+   "sprockets",
+   "swingarm"
+  ],
+  "title": "Check chain, sprocket and rubbing strip wear",
+  "entry_state": [
+   "Bike clean, on a stand."
+  ],
+  "exit_state": [
+   "Chain, sprockets and sliders measured and inspected, worn parts identified, results recorded."
+  ],
+  "completeness": "Covers damage check, 20-link stretch measurement, sprocket wear and rubbing strip and slider inspection with fastener torques.",
+  "excluded": [
+   "Chain riveting and sprocket fitting"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand that lifts the rear wheel",
+    "size": null
+   },
+   {
+    "name": "Steel rule or vernier",
+    "size": null
+   },
+   {
+    "name": "Weight to tension the chain",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Drive chain",
+    "purpose": "DID 520VT2, 118 link O-ring, if replacement is needed."
+   },
+   {
+    "name": "Rubbing strips or sliders",
+    "purpose": "If worn."
+   }
+  ],
+  "prerequisites": [
+   "Chain cleaned."
+  ],
+  "critical_stop_conditions": [
+   "Chain over the limit or damaged: do not ride.",
+   "Missing or worn-through slider: the chain will cut the frame or swingarm."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Check chain, sprockets and rubbing strips every 15 operating hours. Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "stand",
+    "title": "Lift the rear wheel",
+    "instruction": "Put the bike on a stand with the rear wheel off the ground and the rear suspension unloaded.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Rear wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "damage",
+    "title": "Look for damage",
+    "instruction": "Turn the wheel slowly and check every link for damaged rollers, loose pins and stiff links. Never try to free a stiff link; it means the chain is finished.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Whole chain inspected."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "damaged",
+      "label": "Damaged",
+      "next_step": "replace",
+      "condition": "Any damaged roller, loose pin or stiff link."
+     }
+    ]
+   },
+   {
+    "id": "stretch",
+    "title": "Stretch and measure",
+    "instruction": "Hang a moderate weight on the chain to pull it taut. On the straight run, measure from the centre of one pin to the centre of the pin 20 links further on. Measure in several places, because chains wear unevenly. Replace the chain if any length exceeds 318.2 mm (12.53 in).",
+    "depends_on": [
+     "damage"
+    ],
+    "verification": [
+     "Several 20-link lengths measured."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "worn",
+      "label": "Over the limit",
+      "next_step": "replace",
+      "condition": "Any measurement over the limit."
+     }
+    ]
+   },
+   {
+    "id": "sprockets",
+    "title": "Check the sprockets",
+    "instruction": "Turn the wheel and look at both sprockets for hooked, uneven or damaged teeth.",
+    "depends_on": [
+     "stretch"
+    ],
+    "verification": [
+     "Both sprockets inspected."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "sprockets-worn",
+      "label": "Sprockets worn",
+      "next_step": "replace",
+      "condition": "Worn sprockets: replace both sprockets with the chain, since a new chain on worn sprockets wears out fast."
+     }
+    ]
+   },
+   {
+    "id": "sliders",
+    "title": "Check the rubbing strips",
+    "instruction": "Inspect the chain rubbing strip on the swingarm and the upper and lower sliders for wear, cracks and missing pieces. If a rubbing strip or slider is worn, cracked or missing, replace it: upper slider to engine fastener 10 N·m (89 lbf·in), upper slider guard to frame fastener 25 N·m (18 lbf·ft), lower slider fastener 10 N·m (89 lbf·in).",
+    "depends_on": [
+     "sprockets"
+    ],
+    "verification": [
+     "Strips and sliders sound, any replaced part torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "replace",
+    "title": "Plan the replacement",
+    "instruction": "If anything failed, fit a new chain (DID 520VT2, 118 link O-ring) and sprockets as a set, then set the free movement with the chain adjustment guide. A chain that breaks or jumps off can lock the rear wheel.",
+    "depends_on": [
+     "damage"
+    ],
+    "verification": [
+     "Replacement planned or done."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the 20-link lengths, sprocket and slider condition and anything replaced.",
+    "depends_on": [
+     "replace"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-brakes-check-v1-tf250x24-tf250x26-tf450rc25-tf450x26-tf250c26-tf450c26-tf250e26-tf450e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-RC Edition",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-E",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "brakes",
+   "front_brake",
+   "rear_brake"
+  ],
+  "title": "Check brake fluid, pads and discs",
+  "entry_state": [
+   "Bike on level ground, brakes cool."
+  ],
+  "exit_state": [
+   "Fluid at the marks, pads and discs inside their limits, firm lever and pedal."
+  ],
+  "completeness": "Covers fluid levels and top-up, pad measurement and change, disc thickness and run-out checks and bedding in.",
+  "excluded": [
+   "Brake fluid replacement and bleeding",
+   "Disc replacement",
+   "Caliper rebuild"
+  ],
+  "required_tools": [
+   {
+    "name": "Vernier or pad gauge",
+    "size": null
+   },
+   {
+    "name": "Micrometer for the discs",
+    "size": null
+   },
+   {
+    "name": "Dial gauge",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Soft tool to push pistons back",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Brake fluid",
+    "purpose": "DOT 4 from a sealed container."
+   },
+   {
+    "name": "Brake pads",
+    "purpose": "Full set per wheel when worn."
+   },
+   {
+    "name": "Cable ties",
+    "purpose": "Two new ones for the rear master cylinder cover."
+   }
+  ],
+  "prerequisites": [
+   "Rags over paint: brake fluid strips it."
+  ],
+  "critical_stop_conditions": [
+   "Soft or spongy lever or pedal: do not ride.",
+   "Pad at or below its minimum: replace before riding.",
+   "Disc cracked or out of limits: do not ride.",
+   "Never get fluid, wax or lube on the discs."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Check brake fluid levels, pads and discs after the first operating hour and every 15 operating hours, and before every race. Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "front-level",
+    "title": "Check the front fluid",
+    "instruction": "Turn the bars so the front reservoir is level and look at the sight glass on the reservoir. Fluid must reach the upper level mark.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Front level seen."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-level",
+    "title": "Check the rear fluid",
+    "instruction": "Hold the bike upright on level ground and look at the sight glass on the rear master cylinder. Fluid must reach the top of the glass.",
+    "depends_on": [
+     "front-level"
+    ],
+    "verification": [
+     "Rear level seen."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "low",
+      "label": "A level is low",
+      "next_step": "top-up",
+      "condition": "Below the mark."
+     },
+     {
+      "id": "ok",
+      "label": "Both levels correct",
+      "next_step": "front-pads",
+      "condition": "Both at their marks."
+     }
+    ]
+   },
+   {
+    "id": "top-up",
+    "title": "Top up",
+    "instruction": "Cover painted parts. Front: clean the cap, remove its small fasteners, cap and diaphragm, fill to the upper line with new DOT 4 fluid from a sealed container, refit with the diaphragm seated and tighten the fasteners gently. Rear: remove the two cable ties and the master cylinder cover, clean round the cap, remove the cap with its O-ring and diaphragm, fill to the upper line, refit the cap at 17 N·m (13 lbf·ft) and refit the cover with new cable ties. A clear drop since last time means worn pads or a leak.",
+    "depends_on": [
+     "rear-level"
+    ],
+    "verification": [
+     "Both levels correct, caps sealed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "front-pads",
+    "title": "Measure the front pads",
+    "instruction": "Look into the caliper and measure each pad including its carrier plate. Replace both front pads if either is at or under 3.7 mm (0.15 in).",
+    "depends_on": [
+     "rear-level"
+    ],
+    "verification": [
+     "Front pads measured."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-pads",
+    "title": "Measure the rear pads",
+    "instruction": "Measure the rear pads including carrier plate: the inner pad must be more than 4.5 mm (0.18 in) and the outer pad (with its insulator and shim) more than 6.4 mm (0.25 in).",
+    "depends_on": [
+     "front-pads"
+    ],
+    "verification": [
+     "Rear pads measured."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "pads-worn",
+      "label": "Pads at the limit",
+      "next_step": "pad-change",
+      "condition": "Any pad at or under its minimum."
+     },
+     {
+      "id": "pads-ok",
+      "label": "Pads fine",
+      "next_step": "discs",
+      "condition": "All pads above their minimum."
+     }
+    ]
+   },
+   {
+    "id": "pad-change",
+    "title": "Change the pads",
+    "instruction": "Pads are always changed as a set per wheel. Open the reservoir, push the old pads back to retract the pistons without letting fluid overflow, remove the two R-clips and the retaining pin and take the pads out. Check the anti-rattle spring (rear: arrow pointing forward) and the sliding plate are in place, fit the new pads, the pin and the R-clips the same way round. Pump the lever or pedal until firm, set the fluid level and close the reservoir (rear cap 17 N·m (13 lbf·ft)). Use pads with the correct carrier plate thickness; thin aftermarket backing plates can fall out of the caliper.",
+    "depends_on": [
+     "rear-pads"
+    ],
+    "verification": [
+     "New pads fitted, lever and pedal firm, levels set."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "discs",
+    "title": "Check the discs",
+    "instruction": "Look for cracks and damage, then measure thickness at several points on the braking surface. Front service limit 2.7 mm (0.11 in), rear 3.6 mm (0.14 in). Run-out, measured with a dial gauge, must not exceed 0.05 mm (0.002 in) front and 0.05 mm (0.002 in) rear.",
+    "depends_on": [
+     "rear-pads"
+    ],
+    "verification": [
+     "Both discs measured."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "disc-bad",
+      "label": "Disc out of limits",
+      "next_step": "record-out",
+      "condition": "Cracked, too thin or too much run-out: replace the disc before riding."
+     }
+    ]
+   },
+   {
+    "id": "bed-in",
+    "title": "Bed in new parts",
+    "instruction": "After new pads or discs, ride with care and avoid hard braking until they have bedded in.",
+    "depends_on": [
+     "discs"
+    ],
+    "verification": [
+     "Bedding-in done or not needed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down fluid levels, pad thicknesses, disc readings and what was replaced.",
+    "depends_on": [
+     "bed-in"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-brake-pedal-v1-tf250x24-tf250x25-tf250x26-tf450rc25-tf450x26-tf250c26-tf450c26-tf250e26-tf450e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-RC Edition",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-E",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "rear_brake",
+   "controls"
+  ],
+  "title": "Set the rear brake pedal height and free play",
+  "entry_state": [
+   "Bike on a stand."
+  ],
+  "exit_state": [
+   "Pedal at the chosen height with correct free play, lock nuts torqued, no drag."
+  ],
+  "completeness": "Covers free play check, pedal height, push rod setting and drag check.",
+  "excluded": [
+   "Master cylinder service"
+  ],
+  "required_tools": [
+   {
+    "name": "Spanners",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   },
+   {
+    "name": "Stand that lifts the rear wheel",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Brakes cool."
+  ],
+  "critical_stop_conditions": [
+   "No free play at the pedal: do not ride, the brake can overheat or lock.",
+   "Brake dragging after release: correct before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Write down why the pedal is being adjusted (height preference, too much or too little free play).",
+    "depends_on": [],
+    "verification": [
+     "Reason recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "measure",
+    "title": "Check the free play",
+    "instruction": "Press the pedal down by hand between the toe-piece fasteners until you feel resistance. Free play at the pedal must be 6–9 mm (0.24–0.35 in); the push rod itself needs at least 1 mm (0.04 in), which is roughly the pedal free play divided by six.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Free play measured."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "ok",
+      "label": "Free play correct and height fine",
+      "next_step": "wheel",
+      "condition": "Nothing to change."
+     },
+     {
+      "id": "change",
+      "label": "Change needed",
+      "next_step": "spring",
+      "condition": "Wrong free play or a new height wanted."
+     }
+    ]
+   },
+   {
+    "id": "spring",
+    "title": "Unhook the return spring",
+    "instruction": "Detach the return spring from the pedal.",
+    "depends_on": [
+     "measure"
+    ],
+    "verification": [
+     "Spring off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "pushrod-back",
+    "title": "Back off the push rod",
+    "instruction": "Loosen the master cylinder push rod lock nut and turn the push rod for maximum free play.",
+    "depends_on": [
+     "spring"
+    ],
+    "verification": [
+     "Push rod backed off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "height",
+    "title": "Set the pedal height",
+    "instruction": "Loosen the lock nut on the pedal height adjuster screw, turn the screw for the height you want, then hold it and tighten the lock nut to 10 N·m (89 lbf·in). The adjustment range is small; too low a pedal may not give enough free play.",
+    "depends_on": [
+     "pushrod-back"
+    ],
+    "verification": [
+     "Height set, lock nut torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "pushrod-set",
+    "title": "Set the push rod",
+    "instruction": "Turn the push rod until the adjuster screw touches the frame, then back it off by one and a half turns. Hold it and tighten its lock nut to 10 N·m (89 lbf·in).",
+    "depends_on": [
+     "height"
+    ],
+    "verification": [
+     "Push rod set, lock nut torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "spring-on",
+    "title": "Refit the spring and recheck",
+    "instruction": "Hook the spring back on and check the pedal free play is 6–9 mm (0.24–0.35 in). Adjust the height again if it is not.",
+    "depends_on": [
+     "pushrod-set"
+    ],
+    "verification": [
+     "Free play in range."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "wrong",
+      "label": "Still out",
+      "next_step": "spring",
+      "condition": "Repeat the adjustment."
+     }
+    ]
+   },
+   {
+    "id": "wheel",
+    "title": "Check for drag",
+    "instruction": "Lift the rear wheel, spin it, press and release the pedal and spin it again. It must turn freely without the brake dragging. A pedal with no free play overheats the brake.",
+    "depends_on": [
+     "measure"
+    ],
+    "verification": [
+     "No drag after releasing the pedal."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the free play and any change of height. Get used to a new pedal position before racing.",
+    "depends_on": [
+     "wheel"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-pre-ride-v1-tf250x24-tf250x25-tf250x26-tf450rc25-tf450x26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-RC Edition",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "frame",
+   "brakes",
+   "tires",
+   "wheels",
+   "chain",
+   "cooling",
+   "lubrication",
+   "controls",
+   "steering"
+  ],
+  "title": "Pre-ride check",
+  "entry_state": [
+   "Bike cold, on level ground."
+  ],
+  "exit_state": [
+   "Every item checked, faults fixed or the bike parked until they are."
+  ],
+  "completeness": "Covers frame, steering, fork, brakes, tyres, wheels, oil, coolant, clutch, throttle, chain, fuel, air filter, fasteners and stop switch.",
+  "excluded": [
+   "Any repair found necessary (see the matching guide)"
+  ],
+  "required_tools": [
+   {
+    "name": "Tyre pressure gauge",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Engine cold for the coolant check."
+  ],
+  "critical_stop_conditions": [
+   "Any crack, leak, soft brake or sticking throttle: do not ride."
+  ],
+  "steps": [
+   {
+    "id": "frame",
+    "title": "Frame, swingarm and bar",
+    "instruction": "Look over the frame welds, subframe and engine mounts, footrests, swingarm welds and mounts, and the handlebar near its clamps for cracks or bends. Damaged frame, swingarm or bar parts are replaced, never repaired.",
+    "depends_on": [],
+    "verification": [
+     "No cracks or bends."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "cracked",
+      "label": "Crack or bend found",
+      "next_step": "record-out",
+      "condition": "Do not ride; record it."
+     }
+    ]
+   },
+   {
+    "id": "steering",
+    "title": "Steering and fork",
+    "instruction": "Turn the bars lock to lock: smooth, not loose, and no cable binding. Pump the fork with the front brake on: smooth, no leaks at the seals.",
+    "depends_on": [
+     "frame"
+    ],
+    "verification": [
+     "Steering smooth, fork dry."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "brakes",
+    "title": "Brakes",
+    "instruction": "Pull the lever and press the pedal: both firm, not spongy, not travelling too far. Check both fluid levels at their marks and enough pad left.",
+    "depends_on": [
+     "steering"
+    ],
+    "verification": [
+     "Lever and pedal firm, levels correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tyres",
+    "title": "Tyres and wheels",
+    "instruction": "Check cold tyre pressures front 14 psi (0.97 bar), rear 14 psi (0.97 bar), tread wear and cuts. Check the rims for dents and squeeze the spokes for any loose one.",
+    "depends_on": [
+     "brakes"
+    ],
+    "verification": [
+     "Pressures set, tyres and wheels sound."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "engine-oil",
+    "title": "Oil and leaks",
+    "instruction": "With the bike upright and level, check the oil in the sight glass and look under the engine for any oil, coolant or fuel leak.",
+    "depends_on": [
+     "tyres"
+    ],
+    "verification": [
+     "Oil level correct, no leaks."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "coolant",
+    "title": "Coolant",
+    "instruction": "Engine cold: coolant 10 mm (0.39 in) above the radiator fins.",
+    "depends_on": [
+     "engine-oil"
+    ],
+    "verification": [
+     "Coolant level correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "clutch",
+    "title": "Clutch",
+    "instruction": "Clutch fluid at the upper line and no leaks; lever action smooth.",
+    "depends_on": [
+     "coolant"
+    ],
+    "verification": [
+     "Clutch fluid correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "throttle",
+    "title": "Throttle",
+    "instruction": "Throttle opens smoothly and snaps shut on its own; free play 2–3 mm (0.08–0.12 in).",
+    "depends_on": [
+     "clutch"
+    ],
+    "verification": [
+     "Throttle returns, free play correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "chain",
+    "title": "Chain",
+    "instruction": "Chain clean, lubricated, free movement 55–58 mm (2.17–2.28 in) at the tightest point, no stiff links.",
+    "depends_on": [
+     "throttle"
+    ],
+    "verification": [
+     "Chain correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fuel-air",
+    "title": "Fuel and air filter",
+    "instruction": "Enough fuel and no leaks. Fill no higher than 35 mm (1.38 in) below the filler neck, so the fuel has room to expand. Air filter clean and seated.",
+    "depends_on": [
+     "chain"
+    ],
+    "verification": [
+     "Fuel and filter ready."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fasteners",
+    "title": "Fasteners and stop switch",
+    "instruction": "Check the obvious fasteners and hose clamps are tight. Start the engine and check the stop switch shuts it off.",
+    "depends_on": [
+     "fuel-air"
+    ],
+    "verification": [
+     "Fasteners tight, stop switch works."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the date, hours and anything found or fixed. Any fault found must be put right before riding.",
+    "depends_on": [
+     "fasteners"
+    ],
+    "verification": [
+     "Check recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-pre-ride-v1-tf250c26-tf450c26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-C",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "frame",
+   "brakes",
+   "tires",
+   "wheels",
+   "chain",
+   "cooling",
+   "lubrication",
+   "controls",
+   "steering"
+  ],
+  "title": "Pre-ride check",
+  "entry_state": [
+   "Bike cold, on level ground."
+  ],
+  "exit_state": [
+   "Every item checked, faults fixed or the bike parked until they are."
+  ],
+  "completeness": "Covers frame, steering, fork, brakes, tyres, wheels, oil, coolant, clutch, throttle, chain, fuel, air filter, fasteners and stop switch.",
+  "excluded": [
+   "Any repair found necessary (see the matching guide)"
+  ],
+  "required_tools": [
+   {
+    "name": "Tyre pressure gauge",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Engine cold for the coolant check."
+  ],
+  "critical_stop_conditions": [
+   "Any crack, leak, soft brake or sticking throttle: do not ride."
+  ],
+  "steps": [
+   {
+    "id": "frame",
+    "title": "Frame, swingarm and bar",
+    "instruction": "Look over the frame welds, subframe and engine mounts, footrests, swingarm welds and mounts, and the handlebar near its clamps for cracks or bends. Damaged frame, swingarm or bar parts are replaced, never repaired.",
+    "depends_on": [],
+    "verification": [
+     "No cracks or bends."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "cracked",
+      "label": "Crack or bend found",
+      "next_step": "record-out",
+      "condition": "Do not ride; record it."
+     }
+    ]
+   },
+   {
+    "id": "steering",
+    "title": "Steering and fork",
+    "instruction": "Turn the bars lock to lock: smooth, not loose, and no cable binding. Pump the fork with the front brake on: smooth, no leaks at the seals.",
+    "depends_on": [
+     "frame"
+    ],
+    "verification": [
+     "Steering smooth, fork dry."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "brakes",
+    "title": "Brakes",
+    "instruction": "Pull the lever and press the pedal: both firm, not spongy, not travelling too far. Check both fluid levels at their marks and enough pad left.",
+    "depends_on": [
+     "steering"
+    ],
+    "verification": [
+     "Lever and pedal firm, levels correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tyres",
+    "title": "Tyres and wheels",
+    "instruction": "Check cold tyre pressures front 14 psi (0.97 bar), rear 14 psi (0.97 bar), tread wear and cuts. Check the rims for dents and squeeze the spokes for any loose one.",
+    "depends_on": [
+     "brakes"
+    ],
+    "verification": [
+     "Pressures set, tyres and wheels sound."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "engine-oil",
+    "title": "Oil and leaks",
+    "instruction": "With the bike upright and level, check the oil in the sight glass and look under the engine for any oil, coolant or fuel leak.",
+    "depends_on": [
+     "tyres"
+    ],
+    "verification": [
+     "Oil level correct, no leaks."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "coolant",
+    "title": "Coolant",
+    "instruction": "Engine cold: coolant 10 mm (0.39 in) above the radiator fins.",
+    "depends_on": [
+     "engine-oil"
+    ],
+    "verification": [
+     "Coolant level correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "clutch",
+    "title": "Clutch",
+    "instruction": "Clutch fluid at the upper line and no leaks; lever action smooth.",
+    "depends_on": [
+     "coolant"
+    ],
+    "verification": [
+     "Clutch fluid correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "throttle",
+    "title": "Throttle",
+    "instruction": "Throttle opens smoothly and snaps shut on its own; free play 2–3 mm (0.08–0.12 in).",
+    "depends_on": [
+     "clutch"
+    ],
+    "verification": [
+     "Throttle returns, free play correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "chain",
+    "title": "Chain",
+    "instruction": "Chain clean, lubricated, free movement 55–58 mm (2.17–2.28 in) at the tightest point, no stiff links.",
+    "depends_on": [
+     "throttle"
+    ],
+    "verification": [
+     "Chain correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fuel-air",
+    "title": "Fuel and air filter",
+    "instruction": "Enough fuel and no leaks. Fill no higher than 35 mm (1.38 in) below the filler neck, so the fuel has room to expand. Air filter clean and seated.",
+    "depends_on": [
+     "chain"
+    ],
+    "verification": [
+     "Fuel and filter ready."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fasteners",
+    "title": "Fasteners and stop switch",
+    "instruction": "Check the obvious fasteners and hose clamps are tight. Start the engine and check the stop switch shuts it off. Check the side stand folds up and is held by its rubber strap.",
+    "depends_on": [
+     "fuel-air"
+    ],
+    "verification": [
+     "Fasteners tight, stop switch works."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the date, hours and anything found or fixed. Any fault found must be put right before riding.",
+    "depends_on": [
+     "fasteners"
+    ],
+    "verification": [
+     "Check recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-pre-ride-v1-tf250e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "frame",
+   "brakes",
+   "tires",
+   "wheels",
+   "chain",
+   "cooling",
+   "lubrication",
+   "controls",
+   "steering"
+  ],
+  "title": "Pre-ride check",
+  "entry_state": [
+   "Bike cold, on level ground."
+  ],
+  "exit_state": [
+   "Every item checked, faults fixed or the bike parked until they are."
+  ],
+  "completeness": "Covers frame, steering, fork, brakes, tyres, wheels, oil, coolant, clutch, throttle, chain, fuel, air filter, fasteners and stop switch.",
+  "excluded": [
+   "Any repair found necessary (see the matching guide)"
+  ],
+  "required_tools": [
+   {
+    "name": "Tyre pressure gauge",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Engine cold for the coolant check."
+  ],
+  "critical_stop_conditions": [
+   "Any crack, leak, soft brake or sticking throttle: do not ride."
+  ],
+  "steps": [
+   {
+    "id": "frame",
+    "title": "Frame, swingarm and bar",
+    "instruction": "Look over the frame welds, subframe and engine mounts, footrests, swingarm welds and mounts, and the handlebar near its clamps for cracks or bends. Damaged frame, swingarm or bar parts are replaced, never repaired.",
+    "depends_on": [],
+    "verification": [
+     "No cracks or bends."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "cracked",
+      "label": "Crack or bend found",
+      "next_step": "record-out",
+      "condition": "Do not ride; record it."
+     }
+    ]
+   },
+   {
+    "id": "steering",
+    "title": "Steering and fork",
+    "instruction": "Turn the bars lock to lock: smooth, not loose, and no cable binding. Pump the fork with the front brake on: smooth, no leaks at the seals.",
+    "depends_on": [
+     "frame"
+    ],
+    "verification": [
+     "Steering smooth, fork dry."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "brakes",
+    "title": "Brakes",
+    "instruction": "Pull the lever and press the pedal: both firm, not spongy, not travelling too far. Check both fluid levels at their marks and enough pad left.",
+    "depends_on": [
+     "steering"
+    ],
+    "verification": [
+     "Lever and pedal firm, levels correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tyres",
+    "title": "Tyres and wheels",
+    "instruction": "Check the cold tyre pressures against your recorded setting, tread wear and cuts. Check the rims for dents and squeeze the spokes for any loose one.",
+    "depends_on": [
+     "brakes"
+    ],
+    "verification": [
+     "Pressures set, tyres and wheels sound."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "engine-oil",
+    "title": "Oil and leaks",
+    "instruction": "With the bike upright and level, check the oil in the sight glass and look under the engine for any oil, coolant or fuel leak.",
+    "depends_on": [
+     "tyres"
+    ],
+    "verification": [
+     "Oil level correct, no leaks."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "coolant",
+    "title": "Coolant",
+    "instruction": "Engine cold: coolant 10 mm (0.39 in) above the radiator fins.",
+    "depends_on": [
+     "engine-oil"
+    ],
+    "verification": [
+     "Coolant level correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "clutch",
+    "title": "Clutch",
+    "instruction": "Clutch fluid at the upper line and no leaks; lever action smooth.",
+    "depends_on": [
+     "coolant"
+    ],
+    "verification": [
+     "Clutch fluid correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "throttle",
+    "title": "Throttle",
+    "instruction": "Throttle opens smoothly and snaps shut on its own; free play 2–3 mm (0.08–0.12 in).",
+    "depends_on": [
+     "clutch"
+    ],
+    "verification": [
+     "Throttle returns, free play correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "chain",
+    "title": "Chain",
+    "instruction": "Chain clean, lubricated, free movement 55–58 mm (2.17–2.28 in) at the tightest point, no stiff links.",
+    "depends_on": [
+     "throttle"
+    ],
+    "verification": [
+     "Chain correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fuel-air",
+    "title": "Fuel and air filter",
+    "instruction": "Enough fuel and no leaks. Never fill into the filler neck; leave room for the fuel to expand. Air filter clean and seated.",
+    "depends_on": [
+     "chain"
+    ],
+    "verification": [
+     "Fuel and filter ready."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fasteners",
+    "title": "Fasteners and stop switch",
+    "instruction": "Check the obvious fasteners and hose clamps are tight. Start the engine and check the stop switch shuts it off. Check the side stand folds up and is held by its rubber strap.",
+    "depends_on": [
+     "fuel-air"
+    ],
+    "verification": [
+     "Fasteners tight, stop switch works."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the date, hours and anything found or fixed. Any fault found must be put right before riding.",
+    "depends_on": [
+     "fasteners"
+    ],
+    "verification": [
+     "Check recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-pre-ride-v1-tf450e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "frame",
+   "brakes",
+   "tires",
+   "wheels",
+   "chain",
+   "cooling",
+   "lubrication",
+   "controls",
+   "steering"
+  ],
+  "title": "Pre-ride check",
+  "entry_state": [
+   "Bike cold, on level ground."
+  ],
+  "exit_state": [
+   "Every item checked, faults fixed or the bike parked until they are."
+  ],
+  "completeness": "Covers frame, steering, fork, brakes, tyres, wheels, oil, coolant, clutch, throttle, chain, fuel, air filter, fasteners and stop switch.",
+  "excluded": [
+   "Any repair found necessary (see the matching guide)"
+  ],
+  "required_tools": [
+   {
+    "name": "Tyre pressure gauge",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Engine cold for the coolant check."
+  ],
+  "critical_stop_conditions": [
+   "Any crack, leak, soft brake or sticking throttle: do not ride."
+  ],
+  "steps": [
+   {
+    "id": "frame",
+    "title": "Frame, swingarm and bar",
+    "instruction": "Look over the frame welds, subframe and engine mounts, footrests, swingarm welds and mounts, and the handlebar near its clamps for cracks or bends. Damaged frame, swingarm or bar parts are replaced, never repaired.",
+    "depends_on": [],
+    "verification": [
+     "No cracks or bends."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "cracked",
+      "label": "Crack or bend found",
+      "next_step": "record-out",
+      "condition": "Do not ride; record it."
+     }
+    ]
+   },
+   {
+    "id": "steering",
+    "title": "Steering and fork",
+    "instruction": "Turn the bars lock to lock: smooth, not loose, and no cable binding. Pump the fork with the front brake on: smooth, no leaks at the seals.",
+    "depends_on": [
+     "frame"
+    ],
+    "verification": [
+     "Steering smooth, fork dry."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "brakes",
+    "title": "Brakes",
+    "instruction": "Pull the lever and press the pedal: both firm, not spongy, not travelling too far. Check both fluid levels at their marks and enough pad left.",
+    "depends_on": [
+     "steering"
+    ],
+    "verification": [
+     "Lever and pedal firm, levels correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tyres",
+    "title": "Tyres and wheels",
+    "instruction": "Check cold tyre pressures for off-road use front 14 psi (0.97 bar), rear 14 psi (0.97 bar) (mixed off-road and road: front 22 psi (1.52 bar), rear 26 psi (1.8 bar); road: front 36 psi (2.48 bar), rear 36 psi (2.48 bar)), tread wear and cuts. Check the rims for dents and squeeze the spokes for any loose one.",
+    "depends_on": [
+     "brakes"
+    ],
+    "verification": [
+     "Pressures set, tyres and wheels sound."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "engine-oil",
+    "title": "Oil and leaks",
+    "instruction": "With the bike upright and level, check the oil in the sight glass and look under the engine for any oil, coolant or fuel leak.",
+    "depends_on": [
+     "tyres"
+    ],
+    "verification": [
+     "Oil level correct, no leaks."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "coolant",
+    "title": "Coolant",
+    "instruction": "Engine cold: coolant 10 mm (0.39 in) above the radiator fins.",
+    "depends_on": [
+     "engine-oil"
+    ],
+    "verification": [
+     "Coolant level correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "clutch",
+    "title": "Clutch",
+    "instruction": "Clutch fluid at the upper line and no leaks; lever action smooth.",
+    "depends_on": [
+     "coolant"
+    ],
+    "verification": [
+     "Clutch fluid correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "throttle",
+    "title": "Throttle",
+    "instruction": "Throttle opens smoothly and snaps shut on its own; free play 2–3 mm (0.08–0.12 in).",
+    "depends_on": [
+     "clutch"
+    ],
+    "verification": [
+     "Throttle returns, free play correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "chain",
+    "title": "Chain",
+    "instruction": "Chain clean, lubricated, free movement 55–58 mm (2.17–2.28 in) at the tightest point, no stiff links.",
+    "depends_on": [
+     "throttle"
+    ],
+    "verification": [
+     "Chain correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fuel-air",
+    "title": "Fuel and air filter",
+    "instruction": "Enough fuel and no leaks. Never fill into the filler neck; leave room for the fuel to expand. Air filter clean and seated.",
+    "depends_on": [
+     "chain"
+    ],
+    "verification": [
+     "Fuel and filter ready."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fasteners",
+    "title": "Fasteners and stop switch",
+    "instruction": "Check the obvious fasteners and hose clamps are tight. Start the engine and check the stop switch shuts it off. Check the side stand folds up and is held by its rubber strap.",
+    "depends_on": [
+     "fuel-air"
+    ],
+    "verification": [
+     "Fasteners tight, stop switch works."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the date, hours and anything found or fixed. Any fault found must be put right before riding.",
+    "depends_on": [
+     "fasteners"
+    ],
+    "verification": [
+     "Check recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-after-wash-v1-tf250x24-tf250x25-tf250x26-tf450rc25-tf450x26-tf250c26-tf450c26-tf250e26-tf450e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-RC Edition",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-E",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "bodywork",
+   "air_filter",
+   "chain",
+   "brakes",
+   "fork",
+   "electrical"
+  ],
+  "title": "Wash the bike and check it afterwards",
+  "entry_state": [
+   "Engine cold."
+  ],
+  "exit_state": [
+   "Bike clean and dry, airbox dry, chain lubricated, brakes tested."
+  ],
+  "completeness": "Covers covering openings, hand washing, drying, airbox check, brake disc care, lubrication, fork seal wipe and drying run.",
+  "excluded": [
+   "Air filter service (separate guide)"
+  ],
+  "required_tools": [
+   {
+    "name": "Plastic bags and rubber bands",
+    "size": null
+   },
+   {
+    "name": "Soft sponge and cloths",
+    "size": null
+   },
+   {
+    "name": "Mild motorcycle cleaner",
+    "size": null
+   },
+   {
+    "name": "Oil-free brake cleaner",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Chain lubricant",
+    "purpose": "For after washing."
+   }
+  ],
+  "prerequisites": [
+   "Engine and exhaust cold."
+  ],
+  "critical_stop_conditions": [
+   "Water in the airbox: do not start until it is dry.",
+   "Brakes weak after washing: do not ride."
+  ],
+  "steps": [
+   {
+    "id": "prep",
+    "title": "Before washing",
+    "instruction": "Let the engine cool. Plug the exhaust outlet with a plastic bag and rubber band, cover the airbox intake, and bag the levers and switch housings.",
+    "depends_on": [],
+    "verification": [
+     "Exhaust, intake and switches covered."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wash",
+    "title": "Wash gently",
+    "instruction": "Use cold water with a mild motorcycle cleaner and a soft sponge. Never use a pressure washer or steam cleaner, and never spray near the air intake, electrical parts, brake calipers and master cylinders, switch housings, steering head, suspension seals, under the tank or at the wheel bearings. Do not pressure-wash the radiator fins or the chain.",
+    "depends_on": [
+     "prep"
+    ],
+    "verification": [
+     "Bike washed by hand without pressure."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "uncover",
+    "title": "Uncover and dry",
+    "instruction": "Remove the bags and covers, clear the intake and dry the bike with a cloth so water does not stand on it.",
+    "depends_on": [
+     "wash"
+    ],
+    "verification": [
+     "Covers off, intake clear, bike dry."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "airbox",
+    "title": "Check the airbox",
+    "instruction": "Open the air filter cover panel and check no water got past the filter. Wet foam or water in the airbox means the filter must be cleaned and dried before the next start.",
+    "depends_on": [
+     "uncover"
+    ],
+    "verification": [
+     "Airbox dry."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "wet",
+      "label": "Water inside",
+      "next_step": "record-out",
+      "condition": "Clean and dry the filter and airbox before starting."
+     }
+    ]
+   },
+   {
+    "id": "brakes",
+    "title": "Brakes",
+    "instruction": "Never wax or lubricate the discs; clean them only with an oil-free brake cleaner. Test both brakes before riding.",
+    "depends_on": [
+     "airbox"
+    ],
+    "verification": [
+     "Discs clean, brakes firm."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "lube",
+    "title": "Lubricate",
+    "instruction": "Dry and lubricate the chain, then check its free movement is 55–58 mm (2.17–2.28 in). Lightly lubricate pivots, bolts and nuts.",
+    "depends_on": [
+     "brakes"
+    ],
+    "verification": [
+     "Chain lubricated and in range."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fork-seals",
+    "title": "Fork seals",
+    "instruction": "Wipe the fork tubes and the dust seals clean; dirt left under the seals causes leaks.",
+    "depends_on": [
+     "lube"
+    ],
+    "verification": [
+     "Fork tubes clean."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "run",
+    "title": "Run the engine",
+    "instruction": "Outdoors, start the engine and let it run for a few minutes to drive out moisture. Do not use it to dry a hot exhaust.",
+    "depends_on": [
+     "fork-seals"
+    ],
+    "verification": [
+     "Engine run, no warning light."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Note anything found while washing: cracks, leaks, loose parts, worn grips.",
+    "depends_on": [
+     "run"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ }
+]
