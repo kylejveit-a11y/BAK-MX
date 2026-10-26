@@ -1,0 +1,255 @@
+{
+ "target": {
+  "manufacturer": "Kawasaki",
+  "model": "KX450",
+  "model_year": 2026,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "Kawasaki 2026 KX450 Owner's Manual 99814-0121 (US English e-book, Kawasaki KTIVS)",
+  "source_url": "https://pws.ktivs.net/proxy/manuals/99814-0121-o5kx450mtf-us-en_ebook-cc6574ed9226ee3c6838ff7eaa4cf343/index.html",
+  "kind": "owners_manual",
+  "document_revision": "99814-0121"
+ },
+ "values": [
+  {
+   "joint": "Front fork / Spring rate (standard)",
+   "value": "5.0 N/mm (0.51 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)"
+   ],
+   "page": "e-book page 156"
+  },
+  {
+   "joint": "Front fork / Optional spring (SOFT)",
+   "value": "4.8 N/mm (K=0.49 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)",
+    "optional fork spring listed in the fork oil amount table"
+   ],
+   "page": "e-book page 156"
+  },
+  {
+   "joint": "Front fork / Optional spring (HARD)",
+   "value": "5.2 N/mm (K=0.53 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)",
+    "optional fork spring listed in the fork oil amount table"
+   ],
+   "page": "e-book page 156"
+  },
+  {
+   "joint": "Front fork / Fork oil type",
+   "value": "Kawasaki Fork Oil A15-00 (P/No. 44091-0023, 1 L)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)"
+   ],
+   "page": "e-book page 147"
+  },
+  {
+   "joint": "Front fork / Fork oil amount (outer tube, standard)",
+   "value": "321 mL (10.9 US oz.)",
+   "unit": "mL",
+   "property": "specification",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)",
+    "with standard fork spring"
+   ],
+   "page": "e-book page 15"
+  },
+  {
+   "joint": "Front fork / Fork oil amount adjustable range (outer tube)",
+   "value": "315 – 399 mL (10.7 – 13.5 US oz.)",
+   "unit": "mL",
+   "property": "specification",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)",
+    "with standard fork spring"
+   ],
+   "page": "e-book page 156"
+  },
+  {
+   "joint": "Front fork / Fork oil amount (cylinder unit)",
+   "value": "248 mL (8.38 US oz.)",
+   "unit": "mL",
+   "property": "specification",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)"
+   ],
+   "page": "e-book page 15"
+  },
+  {
+   "joint": "Front fork / Rebound damping standard setting",
+   "value": "12 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)",
+    "counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+   ],
+   "page": "e-book page 132"
+  },
+  {
+   "joint": "Front fork / Rebound damping usable range",
+   "value": "16 clicks or less",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)",
+    "counterclockwise from the fully seated position"
+   ],
+   "page": "e-book page 132"
+  },
+  {
+   "joint": "Front fork / Compression damping standard setting",
+   "value": "12 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)",
+    "counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+   ],
+   "page": "e-book page 134"
+  },
+  {
+   "joint": "Front fork / Compression damping usable range",
+   "value": "16 clicks or less",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)",
+    "counterclockwise from the fully seated position"
+   ],
+   "page": "e-book page 134"
+  },
+  {
+   "joint": "Front fork / Standard fork height (clamp position)",
+   "value": "5 mm (0.2 in.)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)",
+    "between the top end of the outer tube and the upper surface of the steering stem head"
+   ],
+   "page": "e-book page 161"
+  },
+  {
+   "joint": "Rear shock / Spring rate (standard)",
+   "value": "K=54 N/mm (K=5.5 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)"
+   ],
+   "page": "e-book page 170"
+  },
+  {
+   "joint": "Rear shock / Optional springs",
+   "value": "K=52 N/mm (K=5.3 kgf/mm); K=54 N/mm (K=5.5 kgf/mm) standard; K=56 N/mm (K=5.7 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)",
+    "optional rear shock absorber springs table (part numbers not printed)"
+   ],
+   "page": "e-book page 170"
+  },
+  {
+   "joint": "Rear shock / Spring preload adjusting nut position (standard)",
+   "value": "120.1 mm (4.728 in.)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)",
+    "from the center of the upper rear shock absorber pivot point to the adjusting nut"
+   ],
+   "page": "e-book page 170"
+  },
+  {
+   "joint": "Rear shock / Spring preload adjusting nut adjustable range",
+   "value": "117.5 – 127.0 mm (4.626 – 5.000 in.); 117.5 – 123.0 mm (4.626 – 4.843 in.); 117.5 – 123.5 mm (4.626 – 4.862 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)",
+    "the manual tabulates one adjustable range per optional spring; the e-book text layer does not preserve which range belongs to which spring, so the printed ranges are listed together"
+   ],
+   "page": "e-book page 170"
+  },
+  {
+   "joint": "Rear shock / Rebound damping standard setting",
+   "value": "13 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)",
+    "counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+   ],
+   "page": "e-book page 133"
+  },
+  {
+   "joint": "Rear shock / Rebound damping usable range",
+   "value": "22 clicks or less",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)",
+    "counterclockwise from the fully seated position"
+   ],
+   "page": "e-book page 133"
+  },
+  {
+   "joint": "Rear shock / Low-speed compression damping standard setting",
+   "value": "11 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)",
+    "counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+   ],
+   "page": "e-book page 167"
+  },
+  {
+   "joint": "Rear shock / Low-speed compression damping usable range",
+   "value": "19 clicks or less",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)",
+    "counterclockwise from the fully seated position"
+   ],
+   "page": "e-book page 167"
+  },
+  {
+   "joint": "Rear shock / High-speed compression damping standard setting",
+   "value": "2 turns out",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)",
+    "counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+   ],
+   "page": "e-book page 166"
+  },
+  {
+   "joint": "Rear shock / High-speed compression damping usable range",
+   "value": "4 turns or less",
+   "unit": "turns",
+   "property": "specification",
+   "conditions": [
+    "combined KX450/KX450X manual; value given for model code KX450M (KX450)",
+    "counterclockwise from the fully seated position"
+   ],
+   "page": "e-book page 166"
+  }
+ ]
+}

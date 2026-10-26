@@ -1,0 +1,175 @@
+{
+ "target": {
+  "manufacturer": "Triumph",
+  "model": "TF 250-X",
+  "model_year": 2025,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "OHB_TF250-X_TF450-X and TF450RC Edition_3850672-US",
+  "source_url": "https://api.triumphtechnicalinformation.com/handbooks/documents/697b0a68aa5a3d37f2aa2ef0/pdf",
+  "kind": "owners_handbook",
+  "document_revision": "3850672-US (handbook prints no model year; year assignment from the Triumph technical information portal listing)"
+ },
+ "values": [
+  {
+   "joint": "Rear shock / Spring rate (standard)",
+   "value": "56 N/mm",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "part numbers not printed; obtain from a Triumph motocross and enduro center"
+   ],
+   "page": "69"
+  },
+  {
+   "joint": "Rear shock / Optional springs (color identification)",
+   "value": "52 N/mm (Yellow); 54 N/mm (Pink); 56 N/mm (White); 58 N/mm (Gold); 60 N/mm (Brown)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "69"
+  },
+  {
+   "joint": "Rear shock / Spring selection by rider weight",
+   "value": "65 - 75 (143 - 165): 52 N/mm; 75 - 85 (143 - 187): 56 N/mm; 85 - 95 (187 - 209): 60 N/mm",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "rider weight kg (lbs) to spring rate, as printed"
+   ],
+   "page": "69"
+  },
+  {
+   "joint": "Rear shock / Static sag",
+   "value": "1.4 in (36 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "rear wheel off the ground (A) minus motorcycle standing unloaded (B), center of rear wheel to SAG marking on rear fender"
+   ],
+   "page": "70"
+  },
+  {
+   "joint": "Rear shock / Riding (rider) sag",
+   "value": "4.02 in (102 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "rider in full protective clothing seated, full fuel tank"
+   ],
+   "page": "72"
+  },
+  {
+   "joint": "Rear shock / Rebound damping standard setting",
+   "value": "11 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "counterclockwise from the fully clockwise position"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Rear shock / Low-speed compression damping standard setting",
+   "value": "11 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "counterclockwise from the fully clockwise position"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Rear shock / High-speed compression damping standard setting",
+   "value": "⅞ turn",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [
+    "counterclockwise from the fully clockwise position"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Front fork / Spring rate (standard)",
+   "value": "4.7 N/mm",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "fork spring preload is not adjustable"
+   ],
+   "page": "78"
+  },
+  {
+   "joint": "Front fork / Optional springs (identification marks)",
+   "value": "4.5 N/mm (marks 1-2); 4.6 N/mm (1-3); 4.7 N/mm (1-4); 4.8 N/mm (1-5); 4.9 N/mm (2-2)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "part numbers not printed"
+   ],
+   "page": "78"
+  },
+  {
+   "joint": "Front fork / Compression damping standard setting",
+   "value": "10 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "counterclockwise from the fully clockwise position"
+   ],
+   "page": "79"
+  },
+  {
+   "joint": "Front fork / Rebound damping standard setting",
+   "value": "12 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "counterclockwise from the fully clockwise position"
+   ],
+   "page": "79"
+  },
+  {
+   "joint": "Front fork / Fork oil volume, fork damper assembly",
+   "value": "11.9 cu in (195 cc)",
+   "unit": "cc",
+   "property": "specification",
+   "conditions": [
+    "Fork Oil Volume Table (not split by model)"
+   ],
+   "page": "82"
+  },
+  {
+   "joint": "Front fork / Fork oil volume, fork outer tube",
+   "value": "19.2 cu in (315 cc)",
+   "unit": "cc",
+   "property": "specification",
+   "conditions": [
+    "Fork Oil Volume Table (not split by model)"
+   ],
+   "page": "82"
+  },
+  {
+   "joint": "Front fork / Fork oil volume, total",
+   "value": "31.1 cu in (510 cc)",
+   "unit": "cc",
+   "property": "specification",
+   "conditions": [
+    "Fork Oil Volume Table (not split by model)"
+   ],
+   "page": "82"
+  },
+  {
+   "joint": "Front fork / Fork outer tube oil adjustment range",
+   "value": "17.7 - 22.3 cu in (290 - 365 cc)",
+   "unit": "cc",
+   "property": "specification",
+   "conditions": [
+    "adjust in 0.17 fl oz (5 cc) steps"
+   ],
+   "page": "82"
+  }
+ ]
+}

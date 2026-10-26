@@ -1,0 +1,192 @@
+{
+ "target": {
+  "manufacturer": "Triumph",
+  "model": "TF 450-E",
+  "model_year": 2026,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "OHB_TF250-E and TF450-E_3850136-US",
+  "source_url": "https://api.triumphtechnicalinformation.com/handbooks/documents/697b112531d8347c29c5ce2b/pdf",
+  "kind": "owners_handbook",
+  "document_revision": "3850136-US (handbook prints no model year; year assignment from the Triumph technical information portal listing)"
+ },
+ "values": [
+  {
+   "joint": "Rear shock / Spring rate (standard)",
+   "value": "58 N/mm",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "handbook covers TF250-E and TF450-E; rear spring, sag, spring options and fork oil table are printed once for both",
+    "part numbers not printed; obtain from a Triumph motocross and enduro center"
+   ],
+   "page": "82"
+  },
+  {
+   "joint": "Rear shock / Optional springs (color identification)",
+   "value": "54 N/mm (Pink); 56 N/mm (White); 58 N/mm (Gold); 60 N/mm (Brown)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "handbook covers TF250-E and TF450-E; rear spring, sag, spring options and fork oil table are printed once for both"
+   ],
+   "page": "82"
+  },
+  {
+   "joint": "Rear shock / Spring selection by rider weight",
+   "value": "65 - 75 (143 - 165): 56 N/mm; 75 - 85 (143 - 187): 58 N/mm; 85 - 95 (187 - 209): 60 N/mm",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "handbook covers TF250-E and TF450-E; rear spring, sag, spring options and fork oil table are printed once for both",
+    "rider weight kg (lbs) to spring rate, as printed"
+   ],
+   "page": "82"
+  },
+  {
+   "joint": "Rear shock / Static sag",
+   "value": "1.73 in (44 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "handbook covers TF250-E and TF450-E; rear spring, sag, spring options and fork oil table are printed once for both",
+    "rear wheel off the ground (A) minus motorcycle standing unloaded (B), center of rear wheel to SAG marking on rear fender"
+   ],
+   "page": "83"
+  },
+  {
+   "joint": "Rear shock / Riding (rider) sag",
+   "value": "4.02 in (102 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "handbook covers TF250-E and TF450-E; rear spring, sag, spring options and fork oil table are printed once for both",
+    "rider in full protective clothing seated, full fuel tank"
+   ],
+   "page": "85"
+  },
+  {
+   "joint": "Rear shock / Rebound damping standard setting",
+   "value": "12 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "handbook covers TF250-E and TF450-E; rear spring, sag, spring options and fork oil table are printed once for both",
+    "counterclockwise from the fully clockwise position"
+   ],
+   "page": "87"
+  },
+  {
+   "joint": "Rear shock / Low-speed compression damping standard setting",
+   "value": "10 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "handbook covers TF250-E and TF450-E; rear spring, sag, spring options and fork oil table are printed once for both",
+    "counterclockwise from the fully clockwise position"
+   ],
+   "page": "87"
+  },
+  {
+   "joint": "Rear shock / High-speed compression damping standard setting",
+   "value": "1 turn",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [
+    "handbook covers TF250-E and TF450-E; rear spring, sag, spring options and fork oil table are printed once for both",
+    "counterclockwise from the fully clockwise position"
+   ],
+   "page": "87"
+  },
+  {
+   "joint": "Front fork / Spring rate (standard)",
+   "value": "4.4 N/mm",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "handbook covers TF250-E and TF450-E; rear spring, sag, spring options and fork oil table are printed once for both",
+    "fork spring preload is not adjustable"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Front fork / Optional springs (identification marks)",
+   "value": "4.4 N/mm (marks 1-1); 4.5 N/mm (1-2); 4.6 N/mm (1-3); 4.7 N/mm (1-4)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "handbook covers TF250-E and TF450-E; rear spring, sag, spring options and fork oil table are printed once for both",
+    "part numbers not printed"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Front fork / Compression damping standard setting",
+   "value": "6 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "handbook covers TF250-E and TF450-E; rear spring, sag, spring options and fork oil table are printed once for both",
+    "counterclockwise from the fully clockwise position"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Front fork / Rebound damping standard setting",
+   "value": "6 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "handbook covers TF250-E and TF450-E; rear spring, sag, spring options and fork oil table are printed once for both",
+    "counterclockwise from the fully clockwise position"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Front fork / Fork oil volume, fork damper assembly",
+   "value": "11.9 cu in (195 cc)",
+   "unit": "cc",
+   "property": "specification",
+   "conditions": [
+    "handbook covers TF250-E and TF450-E; rear spring, sag, spring options and fork oil table are printed once for both",
+    "Fork Oil Volume Table (not split by model)"
+   ],
+   "page": "96"
+  },
+  {
+   "joint": "Front fork / Fork oil volume, fork outer tube",
+   "value": "17.7 cu in (290 cc)",
+   "unit": "cc",
+   "property": "specification",
+   "conditions": [
+    "handbook covers TF250-E and TF450-E; rear spring, sag, spring options and fork oil table are printed once for both",
+    "Fork Oil Volume Table (not split by model)"
+   ],
+   "page": "96"
+  },
+  {
+   "joint": "Front fork / Fork oil volume, total",
+   "value": "29.6 cu in (485 cc)",
+   "unit": "cc",
+   "property": "specification",
+   "conditions": [
+    "handbook covers TF250-E and TF450-E; rear spring, sag, spring options and fork oil table are printed once for both",
+    "Fork Oil Volume Table (not split by model)"
+   ],
+   "page": "96"
+  },
+  {
+   "joint": "Front fork / Fork outer tube oil adjustment range",
+   "value": "15.9 - 20.1 cu in (260 - 330 cc)",
+   "unit": "cc",
+   "property": "specification",
+   "conditions": [
+    "handbook covers TF250-E and TF450-E; rear spring, sag, spring options and fork oil table are printed once for both",
+    "adjust in 0.17 fl oz (5 cc) steps"
+   ],
+   "page": "96"
+  }
+ ]
+}

@@ -1,0 +1,239 @@
+{
+ "target": {
+  "manufacturer": "Kawasaki",
+  "model": "KX450X",
+  "model_year": 2021,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "Kawasaki 2021 KX450X Owner's Manual 99803-0182 (US English e-book, Kawasaki KTIVS)",
+  "source_url": "https://pws.ktivs.net/proxy/manual-files/99803-0182-o5kx450kmf-us-en-e98b8b5fdd3679694533728ebef10750/index.html",
+  "kind": "owners_manual",
+  "document_revision": "99803-0182"
+ },
+ "values": [
+  {
+   "joint": "Front fork / Spring rate (standard)",
+   "value": "4.8 N/mm (0.49 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 146"
+  },
+  {
+   "joint": "Front fork / Optional spring (SOFT)",
+   "value": "4.6 N/mm (K=0.47 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "optional fork spring listed in the fork oil amount table"
+   ],
+   "page": "e-book page 147"
+  },
+  {
+   "joint": "Front fork / Optional spring (HARD)",
+   "value": "5.0 N/mm (K=0.51 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "optional fork spring listed in the fork oil amount table"
+   ],
+   "page": "e-book page 147"
+  },
+  {
+   "joint": "Front fork / Fork oil type",
+   "value": "Kawasaki Fork Oil A15-00 (P/No. 44091-0023, 1 L)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 137"
+  },
+  {
+   "joint": "Front fork / Fork oil amount (outer tube, standard)",
+   "value": "331 mL (11.2 US oz.)",
+   "unit": "mL",
+   "property": "specification",
+   "conditions": [
+    "with standard fork spring"
+   ],
+   "page": "e-book page 146"
+  },
+  {
+   "joint": "Front fork / Fork oil amount adjustable range (outer tube)",
+   "value": "314.9 – 416.3 mL (10.65 – 14.08 US oz.)",
+   "unit": "mL",
+   "property": "specification",
+   "conditions": [
+    "with standard fork spring"
+   ],
+   "page": "e-book page 146"
+  },
+  {
+   "joint": "Front fork / Fork oil amount (cylinder unit)",
+   "value": "253 mL (8.55 US oz.)",
+   "unit": "mL",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 14"
+  },
+  {
+   "joint": "Front fork / Rebound damping standard setting",
+   "value": "8 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+   ],
+   "page": "e-book page 125"
+  },
+  {
+   "joint": "Front fork / Rebound damping usable range",
+   "value": "16 clicks or less",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "counterclockwise from the fully seated position"
+   ],
+   "page": "e-book page 125"
+  },
+  {
+   "joint": "Front fork / Compression damping standard setting",
+   "value": "10 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+   ],
+   "page": "e-book page 126"
+  },
+  {
+   "joint": "Front fork / Compression damping usable range",
+   "value": "16 clicks or less",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "counterclockwise from the fully seated position"
+   ],
+   "page": "e-book page 126"
+  },
+  {
+   "joint": "Front fork / Standard air pressure",
+   "value": "atmospheric (0 kPa, 0 kgf/cm², 0 psi)",
+   "unit": "kPa",
+   "property": "specification",
+   "conditions": [
+    "release air through the pressure relief screw in each fork cap before each race, front wheel off the ground"
+   ],
+   "page": "e-book page 124"
+  },
+  {
+   "joint": "Front fork / Standard fork height (clamp position)",
+   "value": "0 mm (0 in.)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "below the surface of the top plug (outer tube top relative to fork clamp)"
+   ],
+   "page": "e-book page 152"
+  },
+  {
+   "joint": "Rear shock / Spring rate (standard)",
+   "value": "K=52 N/mm (K=5.3 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 157"
+  },
+  {
+   "joint": "Rear shock / Optional springs",
+   "value": "K=50 N/mm (K=5.1 kgf/mm); K=52 N/mm (K=5.3 kgf/mm) standard; K=54 N/mm (K=5.5 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "optional rear shock absorber springs table (part numbers not printed)"
+   ],
+   "page": "e-book page 157"
+  },
+  {
+   "joint": "Rear shock / Spring preload adjusting nut position (standard)",
+   "value": "144.2 mm (5.677 in.)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "from the center of the upper rear shock absorber pivot point to the adjusting nut"
+   ],
+   "page": "e-book page 157"
+  },
+  {
+   "joint": "Rear shock / Spring preload adjusting nut adjustable range",
+   "value": "140.8 – 147.8 mm (5.543 – 5.819 in.); 140.8 – 149.8 mm (5.543 – 5.898 in.); 140.8 – 148.8 mm (5.543 – 5.858 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "the manual tabulates one adjustable range per optional spring; the e-book text layer does not preserve which range belongs to which spring, so the printed ranges are listed together"
+   ],
+   "page": "e-book page 157"
+  },
+  {
+   "joint": "Rear shock / Rebound damping standard setting",
+   "value": "9 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+   ],
+   "page": "e-book page 154"
+  },
+  {
+   "joint": "Rear shock / Rebound damping usable range",
+   "value": "22 clicks or less",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "counterclockwise from the fully seated position"
+   ],
+   "page": "e-book page 154"
+  },
+  {
+   "joint": "Rear shock / Low-speed compression damping standard setting",
+   "value": "12 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+   ],
+   "page": "e-book page 156"
+  },
+  {
+   "joint": "Rear shock / Low-speed compression damping usable range",
+   "value": "19 clicks or less",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "counterclockwise from the fully seated position"
+   ],
+   "page": "e-book page 156"
+  },
+  {
+   "joint": "Rear shock / High-speed compression damping standard setting",
+   "value": "2 turns out",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [
+    "counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+   ],
+   "page": "e-book page 155"
+  },
+  {
+   "joint": "Rear shock / High-speed compression damping usable range",
+   "value": "4 turns or less",
+   "unit": "turns",
+   "property": "specification",
+   "conditions": [
+    "counterclockwise from the fully seated position"
+   ],
+   "page": "e-book page 155"
+  }
+ ]
+}

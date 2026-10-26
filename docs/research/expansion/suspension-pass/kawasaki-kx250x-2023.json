@@ -1,0 +1,257 @@
+{
+ "target": {
+  "manufacturer": "Kawasaki",
+  "model": "KX250X",
+  "model_year": 2023,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "Kawasaki 2023 KX250X Owner's Manual 99803-0306 (US English e-book, Kawasaki KTIVS)",
+  "source_url": "https://pws.ktivs.net/proxy/manual-files/99803-0306-o5kx252cpf-us-en-f4f3c05d8cb1cd1f14326ae7a3dc9206/index.html",
+  "kind": "owners_manual",
+  "document_revision": "99803-0306"
+ },
+ "values": [
+  {
+   "joint": "Front fork / Spring rate (standard)",
+   "value": "4.7 N/mm (0.48 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)"
+   ],
+   "page": "e-book page 151"
+  },
+  {
+   "joint": "Front fork / Optional spring (SOFT)",
+   "value": "4.6 N/mm (K=0.47 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)",
+    "optional fork spring listed in the fork oil amount table"
+   ],
+   "page": "e-book page 151"
+  },
+  {
+   "joint": "Front fork / Optional spring (HARD)",
+   "value": "4.8 N/mm (K=0.49 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)",
+    "optional fork spring listed in the fork oil amount table"
+   ],
+   "page": "e-book page 151"
+  },
+  {
+   "joint": "Front fork / Fork oil type",
+   "value": "KHL15-11 (P/No. 44091-0020, 1 L; P/No. 44091-0021, 4 L)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)"
+   ],
+   "page": "e-book page 143"
+  },
+  {
+   "joint": "Front fork / Fork oil amount (outer tube, standard)",
+   "value": "270 mL (9.13 US oz.)",
+   "unit": "mL",
+   "property": "specification",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)",
+    "with standard fork spring"
+   ],
+   "page": "e-book page 15"
+  },
+  {
+   "joint": "Front fork / Fork oil amount (cylinder unit)",
+   "value": "211 mL (7.13 US oz.)",
+   "unit": "mL",
+   "property": "specification",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)"
+   ],
+   "page": "e-book page 143"
+  },
+  {
+   "joint": "Front fork / Rebound damping standard setting",
+   "value": "13 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)",
+    "counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+   ],
+   "page": "e-book page 130"
+  },
+  {
+   "joint": "Front fork / Rebound damping usable range",
+   "value": "20 clicks or more",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)",
+    "counterclockwise from the fully seated position"
+   ],
+   "page": "e-book page 130"
+  },
+  {
+   "joint": "Front fork / Compression damping standard setting",
+   "value": "10 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)",
+    "counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+   ],
+   "page": "e-book page 131"
+  },
+  {
+   "joint": "Front fork / Compression damping usable range",
+   "value": "23 clicks or more",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)",
+    "counterclockwise from the fully seated position"
+   ],
+   "page": "e-book page 131"
+  },
+  {
+   "joint": "Front fork / Standard air pressure",
+   "value": "atmospheric (0 kPa, 0 kgf/cm², 0 psi)",
+   "unit": "kPa",
+   "property": "specification",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)",
+    "release air through the pressure relief screw in each fork cap before each race, front wheel off the ground"
+   ],
+   "page": "e-book page 128"
+  },
+  {
+   "joint": "Front fork / Standard fork height (clamp position)",
+   "value": "5 mm (0.2 in.)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)",
+    "below the surface of the top plug (outer tube top relative to fork clamp)"
+   ],
+   "page": "e-book page 155"
+  },
+  {
+   "joint": "Rear shock / Spring rate (standard)",
+   "value": "K=54 N/mm (K=5.5 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)"
+   ],
+   "page": "e-book page 161"
+  },
+  {
+   "joint": "Rear shock / Optional springs",
+   "value": "K=52 N/mm (K=5.3 kgf/mm); K=54 N/mm (K=5.5 kgf/mm) standard; K=56 N/mm (K=5.7 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)",
+    "optional rear shock absorber springs table (part numbers not printed)"
+   ],
+   "page": "e-book page 161"
+  },
+  {
+   "joint": "Rear shock / Spring preload adjusting nut position (standard)",
+   "value": "123.1 mm (4.846 in.)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)",
+    "from the center of the upper rear shock absorber pivot point to the adjusting nut"
+   ],
+   "page": "e-book page 160"
+  },
+  {
+   "joint": "Rear shock / Spring preload adjusting nut adjustable range",
+   "value": "120.6 – 132.6 mm (4.748 – 5.220 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)",
+    "same range printed for K=52, K=54 and K=56 springs"
+   ],
+   "page": "e-book page 161"
+  },
+  {
+   "joint": "Rear shock / Rebound damping standard setting",
+   "value": "15 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)",
+    "counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+   ],
+   "page": "e-book page 157"
+  },
+  {
+   "joint": "Rear shock / Rebound damping usable range",
+   "value": "38 clicks or less",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)",
+    "counterclockwise from the fully seated position"
+   ],
+   "page": "e-book page 157"
+  },
+  {
+   "joint": "Rear shock / Low-speed compression damping standard setting",
+   "value": "8 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)",
+    "counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+   ],
+   "page": "e-book page 159"
+  },
+  {
+   "joint": "Rear shock / Low-speed compression damping usable range",
+   "value": "21 clicks or less",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)",
+    "counterclockwise from the fully seated position"
+   ],
+   "page": "e-book page 159"
+  },
+  {
+   "joint": "Rear shock / High-speed compression damping standard setting",
+   "value": "1 1/2 turns out",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)",
+    "counterclockwise from the fully seated position (adjuster turned fully clockwise)",
+    "fraction reconstructed from the e-book text layer, where whole number and fraction are printed without a space"
+   ],
+   "page": "e-book page 158"
+  },
+  {
+   "joint": "Rear shock / High-speed compression damping usable range",
+   "value": "2 1/4 turns or less",
+   "unit": "turns",
+   "property": "specification",
+   "conditions": [
+    "combined KX250/KX250X manual; value given for model code KX252D (KX250X)",
+    "counterclockwise from the fully seated position",
+    "fraction reconstructed from the e-book text layer, where whole number and fraction are printed without a space"
+   ],
+   "page": "e-book page 158"
+  }
+ ]
+}
