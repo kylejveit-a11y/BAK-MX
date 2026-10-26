@@ -21,7 +21,8 @@ for pdf in sorted(glob.glob(os.path.join(sys.argv[1],'*.pdf'))):
                 c=col(pdf,p,x)
                 if heading not in c:continue
                 body=c.split(heading,1)[1]
-                m=re.search(r'STD Spring rate\s+([0-9.]+)',body)
+                body=re.split(r'\n\s*TIP\b',body)[0]
+                m=re.search(r'STD spring rate\s+(?:\(?N/mm\)?\s+)?([0-9]+(?:\.[0-9]+)?)',body,re.I)
                 if not m: continue
                 std=float(m.group(1))
                 rates=[]
@@ -33,6 +34,15 @@ for pdf in sorted(glob.glob(os.path.join(sys.argv[1],'*.pdf'))):
                         v=float(r.group(1))
                         if 20<=v<=90 and v not in seen:seen.append(v)
                     rates=[{'rate':v} for v in seen]
+                if key=='rear' and not rates:
+                    other=col(pdf,p,306 if x==0 else 0)
+                    if re.search(PN,other):
+                        seen=[]
+                        for r in re.finditer(r'^\s*(?:SOFT|STIFF)?\s*([0-9]{2}(?:\.[0-9])?)\s*(?:$|\s{2,}|'+PN+')',other.split('TIP')[0],re.M):
+                            v=float(r.group(1))
+                            if 30<=v<=80 and v not in seen:seen.append(v)
+                        rates=[{'rate':v} for v in seen]
+                if key=='rear':rates=sorted(rates,key=lambda o:o['rate'])
                 rec[key]={'std_rate_n_mm':std,'options':rates,'pdf_page':p}
                 break
             if rec[key]:break

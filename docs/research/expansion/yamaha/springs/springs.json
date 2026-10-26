@@ -58,9 +58,6 @@
    "std_rate_n_mm": 56.0,
    "options": [
     {
-     "rate": 56.0
-    },
-    {
      "rate": 50.0
     },
     {
@@ -68,6 +65,9 @@
     },
     {
      "rate": 54.0
+    },
+    {
+     "rate": 56.0
     },
     {
      "rate": 58.0
@@ -146,9 +146,6 @@
    "std_rate_n_mm": 56.0,
    "options": [
     {
-     "rate": 56.0
-    },
-    {
      "rate": 50.0
     },
     {
@@ -156,6 +153,9 @@
     },
     {
      "rate": 54.0
+    },
+    {
+     "rate": 56.0
     },
     {
      "rate": 58.0
@@ -234,9 +234,6 @@
    "std_rate_n_mm": 56.0,
    "options": [
     {
-     "rate": 56.0
-    },
-    {
      "rate": 48.0
     },
     {
@@ -247,6 +244,9 @@
     },
     {
      "rate": 54.0
+    },
+    {
+     "rate": 56.0
     },
     {
      "rate": 58.0
@@ -264,8 +264,83 @@
   "model_year": 2025,
   "code": "BXB-2819U-10",
   "sha256": "28a36bfbe4728bb49691b080818ee011008a52b60339985b03c223717b1d7f1e",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.6,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 422
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 423
+  },
   "notes": []
  },
  {
@@ -273,8 +348,83 @@
   "model_year": 2026,
   "code": "DP2-2819U-10",
   "sha256": "1849424089b2cb189663382f7d51d2ab5e2d6ae1ad196e502dd135575981d921",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.6,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 420
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 421
+  },
   "notes": []
  },
  {
@@ -345,9 +495,6 @@
    "std_rate_n_mm": 56.0,
    "options": [
     {
-     "rate": 56.0
-    },
-    {
      "rate": 50.0
     },
     {
@@ -355,6 +502,9 @@
     },
     {
      "rate": 54.0
+    },
+    {
+     "rate": 56.0
     },
     {
      "rate": 58.0
@@ -426,9 +576,6 @@
    "std_rate_n_mm": 56.0,
    "options": [
     {
-     "rate": 56.0
-    },
-    {
      "rate": 48.0
     },
     {
@@ -439,6 +586,9 @@
     },
     {
      "rate": 54.0
+    },
+    {
+     "rate": 56.0
     },
     {
      "rate": 58.0
@@ -510,9 +660,6 @@
    "std_rate_n_mm": 56.0,
    "options": [
     {
-     "rate": 56.0
-    },
-    {
      "rate": 48.0
     },
     {
@@ -523,6 +670,9 @@
     },
     {
      "rate": 54.0
+    },
+    {
+     "rate": 56.0
     },
     {
      "rate": 58.0
@@ -540,7 +690,56 @@
   "model_year": 2024,
   "code": "BNK-2819U-10",
   "sha256": "add785d416779586138b6d50984431daeb8f77cf8009073ef3e436aa96d3e2e7",
-  "front": null,
+  "front": {
+   "std_rate_n_mm": 4.8,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 416
+  },
   "rear": null,
   "notes": []
  },
@@ -549,8 +748,83 @@
   "model_year": 2025,
   "code": "BNK-2819U-11",
   "sha256": "8b93e87387eaf46b4eff34575b2e2aa4262ec268475225176f43537483ebad29",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.8,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 416
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 417
+  },
   "notes": []
  },
  {
@@ -558,8 +832,83 @@
   "model_year": 2026,
   "code": "DP0-2819U-10",
   "sha256": "fe5e907ae0a9549b3fb82a86522fbf6e8994e20bf44b4821ac5d96d2c88e8d27",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.8,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 416
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 417
+  },
   "notes": []
  },
  {
@@ -567,8 +916,83 @@
   "model_year": 2027,
   "code": "DP4-2819U-10",
   "sha256": "ed45b738c8c4d827eda03c89a3351c0b1680523e7f2a1c3d059a1d27dabcbe31",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.8,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 430
+  },
+  "rear": {
+   "std_rate_n_mm": 58.0,
+   "options": [
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 431
+  },
   "notes": []
  },
  {
@@ -576,8 +1000,78 @@
   "model_year": 2021,
   "code": "B1B-2819U-10",
   "sha256": "874daef9493e760343bfeda5e7612171312e99d2b207c6a969900b72b52a217a",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.1,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "1C3-23141-A1"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "1C3-23141-B1"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "1C3-23141-C1"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "1C3-23141-D1"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "1C3-23141-E1"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "1C3-23141-F1"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "1C3-23141-G1"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "1C3-23141-H1"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "1C3-23141-J1"
+    }
+   ],
+   "pdf_page": 261
+  },
+  "rear": {
+   "std_rate_n_mm": 46.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 262
+  },
   "notes": []
  },
  {
@@ -585,8 +1079,78 @@
   "model_year": 2022,
   "code": "B1B-2819U-11",
   "sha256": "04cf83eba6c9ea3759a44f2f56021047bc0fd57835045ae1088a424a07512638",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.1,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "1C3-23141-A1"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "1C3-23141-B1"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "1C3-23141-C1"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "1C3-23141-D1"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "1C3-23141-E1"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "1C3-23141-F1"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "1C3-23141-G1"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "1C3-23141-H1"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "1C3-23141-J1"
+    }
+   ],
+   "pdf_page": 261
+  },
+  "rear": {
+   "std_rate_n_mm": 46.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 262
+  },
   "notes": []
  },
  {
@@ -594,8 +1158,94 @@
   "model_year": 2023,
   "code": "BRX-2819U-10",
   "sha256": "36c461c9bbe6933aa62a48c30c93e34e040ba33c04ebaeb6bf208a87a91de069",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.2,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "BRY-23141-00"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "BRY-23141-10"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 270
+  },
+  "rear": {
+   "std_rate_n_mm": 48.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 271
+  },
   "notes": [],
   "fork_oil": {
    "standard_cm3": 280,
@@ -610,8 +1260,94 @@
   "model_year": 2024,
   "code": "BRX-2819U-11",
   "sha256": "3aa3eaccc3de4e28f356db375a7ce00403eb7a9cad543be27b875c5ca0741815",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.2,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "BRY-23141-00"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "BRY-23141-10"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 270
+  },
+  "rear": {
+   "std_rate_n_mm": 48.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 271
+  },
   "notes": []
  },
  {
@@ -619,8 +1355,94 @@
   "model_year": 2025,
   "code": "DF3-2819U-10",
   "sha256": "33157ba03d6e7a016a4ec02d17547eb632c2e34e9520e6692accccff0a82d4c3",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.2,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "BRY-23141-00"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "BRY-23141-10"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 291
+  },
+  "rear": {
+   "std_rate_n_mm": 48.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 292
+  },
   "notes": []
  },
  {
@@ -628,8 +1450,94 @@
   "model_year": 2026,
   "code": "DF3-2819U-11",
   "sha256": "9ba639ac857fdf4b80a898550333948c103ca86472a6d9554cd21d177c8bb2c3",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.2,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "BRY-23141-00"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "BRY-23141-10"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 291
+  },
+  "rear": {
+   "std_rate_n_mm": 48.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 292
+  },
   "notes": []
  },
  {
@@ -637,8 +1545,94 @@
   "model_year": 2027,
   "code": "DF3-2819U-12",
   "sha256": "b82501f09127f98e83dcef83300433d6cf95c81f4120613d6583af0af55b4ce8",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.2,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "BRY-23141-00"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "BRY-23141-10"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 291
+  },
+  "rear": {
+   "std_rate_n_mm": 48.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 292
+  },
   "notes": []
  },
  {
@@ -655,8 +1649,78 @@
   "model_year": 2021,
   "code": "B0V-2819U-10",
   "sha256": "6a4fd9842745dfc42eaa9b78faf7325195f43f82255ce72d1786e73f22234148",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.1,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "1C3-23141-A1"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "1C3-23141-B1"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "1C3-23141-C1"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "1C3-23141-D1"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "1C3-23141-E1"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "1C3-23141-F1"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "1C3-23141-G1"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "1C3-23141-H1"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "1C3-23141-J1"
+    }
+   ],
+   "pdf_page": 261
+  },
+  "rear": {
+   "std_rate_n_mm": 46.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 262
+  },
   "notes": []
  },
  {
@@ -664,7 +1728,56 @@
   "model_year": 2022,
   "code": "B4X-2819U-10",
   "sha256": "2b1aa583a58bc51422c80074a60684ad047c2488a11604ec93c6963a0ae99da4",
-  "front": null,
+  "front": {
+   "std_rate_n_mm": 4.2,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 270
+  },
   "rear": null,
   "notes": []
  },
@@ -673,8 +1786,94 @@
   "model_year": 2023,
   "code": "B4X-2819U-11",
   "sha256": "8497bf094905bf572efdd114a61366758ce7f40bbea40ec02b6dfdd683942f7e",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.2,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "BRY-23141-00"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "BRY-23141-10"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 270
+  },
+  "rear": {
+   "std_rate_n_mm": 48.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 271
+  },
   "notes": []
  },
  {
@@ -682,8 +1881,94 @@
   "model_year": 2024,
   "code": "B4X-2819U-12",
   "sha256": "22354854cddb4bb6983e5f3b6238de3dde3f25febb2c1cfe239c6a3cc5918cf3",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.2,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "BRY-23141-00"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "BRY-23141-10"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 268
+  },
+  "rear": {
+   "std_rate_n_mm": 48.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 269
+  },
   "notes": [],
   "fork_oil": {
    "standard_cm3": 305,
@@ -698,8 +1983,94 @@
   "model_year": 2025,
   "code": "D68-2819U-10",
   "sha256": "2d37d6143ff076d54bb34582de4c3eaec296a0ba88d216a1e8eb0d5e71be4804",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.2,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "BRY-23141-00"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "BRY-23141-10"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 289
+  },
+  "rear": {
+   "std_rate_n_mm": 48.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 290
+  },
   "notes": [],
   "fork_oil": {
    "standard_cm3": 305,
@@ -714,8 +2085,94 @@
   "model_year": 2026,
   "code": "D68-2819U-11",
   "sha256": "c85b65bb31135f6e11a7b358dabbc96559a93a35e1fd690e224e6b66292c918f",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.2,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "BRY-23141-00"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "BRY-23141-10"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 289
+  },
+  "rear": {
+   "std_rate_n_mm": 48.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 290
+  },
   "notes": [],
   "fork_oil": {
    "standard_cm3": 305,
@@ -730,8 +2187,94 @@
   "model_year": 2027,
   "code": "D68-2819U-12",
   "sha256": "8bdda7cdfc0c173ddebd3876141215445a2e68bbf3fb9af5d19df7d2003b167c",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.2,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "BRY-23141-00"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "BRY-23141-10"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 289
+  },
+  "rear": {
+   "std_rate_n_mm": 48.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 290
+  },
   "notes": [],
   "fork_oil": {
    "standard_cm3": 305,
@@ -800,9 +2343,6 @@
    "std_rate_n_mm": 56.0,
    "options": [
     {
-     "rate": 56.0
-    },
-    {
      "rate": 50.0
     },
     {
@@ -810,6 +2350,9 @@
     },
     {
      "rate": 54.0
+    },
+    {
+     "rate": 56.0
     },
     {
      "rate": 58.0
@@ -888,9 +2431,6 @@
    "std_rate_n_mm": 56.0,
    "options": [
     {
-     "rate": 56.0
-    },
-    {
      "rate": 50.0
     },
     {
@@ -898,6 +2438,9 @@
     },
     {
      "rate": 54.0
+    },
+    {
+     "rate": 56.0
     },
     {
      "rate": 58.0
@@ -976,9 +2519,6 @@
    "std_rate_n_mm": 56.0,
    "options": [
     {
-     "rate": 56.0
-    },
-    {
      "rate": 48.0
     },
     {
@@ -989,6 +2529,9 @@
     },
     {
      "rate": 54.0
+    },
+    {
+     "rate": 56.0
     },
     {
      "rate": 58.0
@@ -1060,9 +2603,6 @@
    "std_rate_n_mm": 56.0,
    "options": [
     {
-     "rate": 56.0
-    },
-    {
      "rate": 48.0
     },
     {
@@ -1073,6 +2613,9 @@
     },
     {
      "rate": 54.0
+    },
+    {
+     "rate": 56.0
     },
     {
      "rate": 58.0
@@ -1090,8 +2633,83 @@
   "model_year": 2025,
   "code": "BXA-2819U-10",
   "sha256": "e9b3961ba75f0b13e024fd0b60abff1041d166b27e57c1e3c1783c72c12ee67b",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.6,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 398
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 399
+  },
   "notes": []
  },
  {
@@ -1099,8 +2717,83 @@
   "model_year": 2026,
   "code": "DP3-2819U-10",
   "sha256": "9d463606f677836ffb448b86cb06524412d24551b2edfbbf2b89f16d22277130",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.6,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 400
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 401
+  },
   "notes": []
  },
  {
@@ -1108,8 +2801,83 @@
   "model_year": 2027,
   "code": "DP3-2819U-11",
   "sha256": "42a9d1a05ec9d213d2f06bc2f5c854dd09a4ebc76bdbdd9d08d1a643e6d65362",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.6,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 400
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 401
+  },
   "notes": []
  },
  {
@@ -1164,13 +2932,13 @@
    "std_rate_n_mm": 56.0,
    "options": [
     {
-     "rate": 56.0
-    },
-    {
      "rate": 52.0
     },
     {
      "rate": 54.0
+    },
+    {
+     "rate": 56.0
     },
     {
      "rate": 58.0
@@ -1226,13 +2994,13 @@
    "std_rate_n_mm": 56.0,
    "options": [
     {
-     "rate": 56.0
-    },
-    {
      "rate": 52.0
     },
     {
      "rate": 54.0
+    },
+    {
+     "rate": 56.0
     },
     {
      "rate": 58.0
@@ -1330,13 +3098,13 @@
    "std_rate_n_mm": 56.0,
    "options": [
     {
-     "rate": 56.0
-    },
-    {
      "rate": 52.0
     },
     {
      "rate": 54.0
+    },
+    {
+     "rate": 56.0
     },
     {
      "rate": 58.0
@@ -1392,13 +3160,13 @@
    "std_rate_n_mm": 56.0,
    "options": [
     {
-     "rate": 56.0
-    },
-    {
      "rate": 52.0
     },
     {
      "rate": 54.0
+    },
+    {
+     "rate": 56.0
     },
     {
      "rate": 58.0
@@ -1423,8 +3191,61 @@
   "model_year": 2025,
   "code": "D01-2819U-10",
   "sha256": "fc8a31623daae1c746126688fac22c0b0698611a03dc98083876d2a3516a96da",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.7,
+   "options": [
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 388
+  },
+  "rear": {
+   "std_rate_n_mm": 54.0,
+   "options": [
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 389
+  },
   "notes": [],
   "fork_oil": {
    "standard_cm3": 280,
@@ -1439,8 +3260,61 @@
   "model_year": 2026,
   "code": "DR8-2819U-10",
   "sha256": "1a4cbe46f057fdedfcb50bde0bc7f67180eb649725f8a18f756dd6d12588bec9",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.7,
+   "options": [
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 390
+  },
+  "rear": {
+   "std_rate_n_mm": 54.0,
+   "options": [
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 391
+  },
   "notes": [],
   "fork_oil": {
    "standard_cm3": 280,
@@ -1455,8 +3329,61 @@
   "model_year": 2027,
   "code": "D05-2819U-10",
   "sha256": "ee02280139498348008b90fa4fed317228500c47caf76eb1712d1669e19d1578",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.7,
+   "options": [
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 412
+  },
+  "rear": {
+   "std_rate_n_mm": 54.0,
+   "options": [
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 413
+  },
   "notes": []
  },
  {
@@ -1473,8 +3400,78 @@
   "model_year": 2021,
   "code": "BF1-2819U-10",
   "sha256": "2cd32cdb7b01212b35ca3ddab57c60cf47873ad6ef19f18ad57b98e779e41ab7",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.3,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "1C3-23141-A1"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "1C3-23141-B1"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "1C3-23141-C1"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "1C3-23141-D1"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "1C3-23141-E1"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "1C3-23141-F1"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "1C3-23141-G1"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "1C3-23141-H1"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "1C3-23141-J1"
+    }
+   ],
+   "pdf_page": 268
+  },
+  "rear": {
+   "std_rate_n_mm": 48.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 269
+  },
   "notes": []
  },
  {
@@ -1482,8 +3479,78 @@
   "model_year": 2022,
   "code": "BF1-2819U-11",
   "sha256": "d861639a6063fcac902ad80ab88e7987e6c43ed020301aebcef31821f660182f",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.3,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "1C3-23141-A1"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "1C3-23141-B1"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "1C3-23141-C1"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "1C3-23141-D1"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "1C3-23141-E1"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "1C3-23141-F1"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "1C3-23141-G1"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "1C3-23141-H1"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "1C3-23141-J1"
+    }
+   ],
+   "pdf_page": 268
+  },
+  "rear": {
+   "std_rate_n_mm": 48.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 269
+  },
   "notes": []
  },
  {
@@ -1491,8 +3558,94 @@
   "model_year": 2023,
   "code": "BRY-2819U-10",
   "sha256": "57046da49115944c1bcb8fdc787017fe944416f23abd37c7b683ba3ce39556fe",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.3,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "BRY-23141-00"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "BRY-23141-10"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 269
+  },
+  "rear": {
+   "std_rate_n_mm": 48.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 270
+  },
   "notes": [],
   "fork_oil": {
    "standard_cm3": 285,
@@ -1507,8 +3660,94 @@
   "model_year": 2024,
   "code": "BRY-2819U-11",
   "sha256": "1311dc9b28272d24aac3e4752bdc66f76f03fd3f53a1309633482a718f99b6ee",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.3,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "BRY-23141-00"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "BRY-23141-10"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 269
+  },
+  "rear": {
+   "std_rate_n_mm": 48.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 270
+  },
   "notes": []
  },
  {
@@ -1516,8 +3755,94 @@
   "model_year": 2025,
   "code": "DF4-2819U-10",
   "sha256": "4c878b94cd77fd5feed7b578094b3f734fdf20168422f5ad56fa8f0b7f45d925",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.3,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "BRY-23141-00"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "BRY-23141-10"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 287
+  },
+  "rear": {
+   "std_rate_n_mm": 48.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 288
+  },
   "notes": []
  },
  {
@@ -1525,8 +3850,94 @@
   "model_year": 2026,
   "code": "DF4-2819U-11",
   "sha256": "3ed020bc37697d7b26a03cd48aee67c5f960cf869996c409e8c61cbf6a47a263",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.3,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "BRY-23141-00"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "BRY-23141-10"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 287
+  },
+  "rear": {
+   "std_rate_n_mm": 48.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 288
+  },
   "notes": []
  },
  {
@@ -1534,8 +3945,94 @@
   "model_year": 2027,
   "code": "DF4-2819U-12",
   "sha256": "28177d3e357552779d24f161ccaf78c2a3da658132e67e37a5f44329a52b163f",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.3,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "BRY-23141-00"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "BRY-23141-10"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 287
+  },
+  "rear": {
+   "std_rate_n_mm": 48.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 288
+  },
   "notes": []
  },
  {
@@ -1552,8 +4049,78 @@
   "model_year": 2021,
   "code": "BF1-2819U-10",
   "sha256": "2cd32cdb7b01212b35ca3ddab57c60cf47873ad6ef19f18ad57b98e779e41ab7",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.3,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "1C3-23141-A1"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "1C3-23141-B1"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "1C3-23141-C1"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "1C3-23141-D1"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "1C3-23141-E1"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "1C3-23141-F1"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "1C3-23141-G1"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "1C3-23141-H1"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "1C3-23141-J1"
+    }
+   ],
+   "pdf_page": 268
+  },
+  "rear": {
+   "std_rate_n_mm": 48.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 269
+  },
   "notes": []
  },
  {
@@ -1561,8 +4128,86 @@
   "model_year": 2022,
   "code": "BCR-2819U-10",
   "sha256": "7e35f5a2255910883c8d285ab17b4c8df93b6bd5f5bce169f961739f7eac772b",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.4,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 267
+  },
+  "rear": {
+   "std_rate_n_mm": 50.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 268
+  },
   "notes": []
  },
  {
@@ -1570,8 +4215,94 @@
   "model_year": 2023,
   "code": "BCR-2819U-11",
   "sha256": "5987b96f081f7c33d155d566ee0cdf7a9a7082e05a4270320d06847e43483659",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.4,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "BRY-23141-00"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "BRY-23141-10"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 267
+  },
+  "rear": {
+   "std_rate_n_mm": 50.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 268
+  },
   "notes": []
  },
  {
@@ -1579,8 +4310,94 @@
   "model_year": 2024,
   "code": "BCR-2819U-12",
   "sha256": "766bc3ef6c02e72741f31cc31f8433568b0502dcc0638c685ab1ce37d71e497a",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.4,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "BRY-23141-00"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "BRY-23141-10"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 267
+  },
+  "rear": {
+   "std_rate_n_mm": 50.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 268
+  },
   "notes": [],
   "fork_oil": {
    "standard_cm3": 310,
@@ -1595,8 +4412,94 @@
   "model_year": 2025,
   "code": "D69-2819U-10",
   "sha256": "30918eb3f0c0ad42f33814baedc946c9ade6c31403f03a25257d05b0a9267050",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.4,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "BRY-23141-00"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "BRY-23141-10"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 285
+  },
+  "rear": {
+   "std_rate_n_mm": 50.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 286
+  },
   "notes": [],
   "fork_oil": {
    "standard_cm3": 310,
@@ -1611,8 +4514,94 @@
   "model_year": 2026,
   "code": "D69-2819U-11",
   "sha256": "454ed477eebbdaea52986a21be86225f74e7895e905138881cc21a16bdabf2d2",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.4,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "BRY-23141-00"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "BRY-23141-10"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 285
+  },
+  "rear": {
+   "std_rate_n_mm": 50.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 286
+  },
   "notes": [],
   "fork_oil": {
    "standard_cm3": 310,
@@ -1627,8 +4616,94 @@
   "model_year": 2027,
   "code": "D69-2819U-12",
   "sha256": "79dc2b20faec6f0040fea0606a193af63b1e15e6f5f8e57cc4dad1905dec13d5",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.4,
+   "options": [
+    {
+     "rate": 3.9,
+     "part_number": "BRY-23141-00"
+    },
+    {
+     "rate": 4.0,
+     "part_number": "BRY-23141-10"
+    },
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 285
+  },
+  "rear": {
+   "std_rate_n_mm": 50.0,
+   "options": [
+    {
+     "rate": 42.0
+    },
+    {
+     "rate": 44.0
+    },
+    {
+     "rate": 46.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    }
+   ],
+   "pdf_page": 286
+  },
   "notes": [],
   "fork_oil": {
    "standard_cm3": 310,
@@ -1697,9 +4772,6 @@
    "std_rate_n_mm": 56.0,
    "options": [
     {
-     "rate": 56.0
-    },
-    {
      "rate": 50.0
     },
     {
@@ -1707,6 +4779,9 @@
     },
     {
      "rate": 54.0
+    },
+    {
+     "rate": 56.0
     },
     {
      "rate": 58.0
@@ -1778,9 +4853,6 @@
    "std_rate_n_mm": 56.0,
    "options": [
     {
-     "rate": 56.0
-    },
-    {
      "rate": 48.0
     },
     {
@@ -1791,6 +4863,9 @@
     },
     {
      "rate": 54.0
+    },
+    {
+     "rate": 56.0
     },
     {
      "rate": 58.0
@@ -1869,9 +4944,6 @@
    "std_rate_n_mm": 56.0,
    "options": [
     {
-     "rate": 56.0
-    },
-    {
      "rate": 48.0
     },
     {
@@ -1882,6 +4954,9 @@
     },
     {
      "rate": 54.0
+    },
+    {
+     "rate": 56.0
     },
     {
      "rate": 58.0
@@ -1960,9 +5035,6 @@
    "std_rate_n_mm": 56.0,
    "options": [
     {
-     "rate": 56.0
-    },
-    {
      "rate": 48.0
     },
     {
@@ -1973,6 +5045,9 @@
     },
     {
      "rate": 54.0
+    },
+    {
+     "rate": 56.0
     },
     {
      "rate": 58.0
@@ -1997,7 +5072,56 @@
   "model_year": 2024,
   "code": "BNL-2819U-10",
   "sha256": "3ea319f1d25a36a9a3d55f0c116c78082a248a4dfd3499c95c2630681171682b",
-  "front": null,
+  "front": {
+   "std_rate_n_mm": 4.8,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 392
+  },
   "rear": null,
   "notes": []
  },
@@ -2006,8 +5130,83 @@
   "model_year": 2025,
   "code": "BNL-2819U-11",
   "sha256": "c94d6d80d2bc930919cd21f768b1390a6768d4be595e2ca4572304519e9ed5eb",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.8,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 390
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 391
+  },
   "notes": []
  },
  {
@@ -2015,8 +5214,83 @@
   "model_year": 2026,
   "code": "DP1-2819U-10",
   "sha256": "60edb22833ba4f26f52e4254fb9e5ff66492038061a34f978e260809b151d7e6",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.8,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 392
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 393
+  },
   "notes": []
  },
  {
@@ -2024,8 +5298,83 @@
   "model_year": 2027,
   "code": "DP5-2819U-10",
   "sha256": "908521b3a1f7785b6c475897de2650e942e3600a6900b222c34cc805e05a17cf",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 4.7,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 402
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 403
+  },
   "notes": []
  },
  {
@@ -2085,7 +5434,27 @@
    ],
    "pdf_page": 352
   },
-  "rear": null,
+  "rear": {
+   "std_rate_n_mm": 58.0,
+   "options": [
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 353
+  },
   "notes": []
  },
  {
@@ -2131,9 +5500,6 @@
    "std_rate_n_mm": 58.0,
    "options": [
     {
-     "rate": 58.0
-    },
-    {
      "rate": 52.0
     },
     {
@@ -2141,6 +5507,9 @@
     },
     {
      "rate": 56.0
+    },
+    {
+     "rate": 58.0
     },
     {
      "rate": 60.0
@@ -2193,9 +5562,6 @@
    "std_rate_n_mm": 58.0,
    "options": [
     {
-     "rate": 58.0
-    },
-    {
      "rate": 52.0
     },
     {
@@ -2203,6 +5569,9 @@
     },
     {
      "rate": 56.0
+    },
+    {
+     "rate": 58.0
     },
     {
      "rate": 60.0
@@ -2255,9 +5624,6 @@
    "std_rate_n_mm": 58.0,
    "options": [
     {
-     "rate": 58.0
-    },
-    {
      "rate": 52.0
     },
     {
@@ -2265,6 +5631,9 @@
     },
     {
      "rate": 56.0
+    },
+    {
+     "rate": 58.0
     },
     {
      "rate": 60.0
@@ -2317,9 +5686,6 @@
    "std_rate_n_mm": 58.0,
    "options": [
     {
-     "rate": 58.0
-    },
-    {
      "rate": 52.0
     },
     {
@@ -2327,6 +5693,9 @@
     },
     {
      "rate": 56.0
+    },
+    {
+     "rate": 58.0
     },
     {
      "rate": 60.0
@@ -2348,8 +5717,61 @@
   "model_year": 2025,
   "code": "D02-2819U-10",
   "sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 5.0,
+   "options": [
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 384
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 385
+  },
   "notes": [],
   "fork_oil": {
    "standard_cm3": 275,
@@ -2364,8 +5786,61 @@
   "model_year": 2026,
   "code": "D03-2819U-10",
   "sha256": "7c7286739a2c5f687c45b395d9cfbe92199e2799410f37a31282c625a98e73bd",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 5.0,
+   "options": [
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 396
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 397
+  },
   "notes": []
  },
  {
@@ -2373,8 +5848,61 @@
   "model_year": 2027,
   "code": "D03-2819U-11",
   "sha256": "3629816a57fb9bca6ec5a05d375234f0cb66641e868da547461d044c9aae4456",
-  "front": null,
-  "rear": null,
+  "front": {
+   "std_rate_n_mm": 5.0,
+   "options": [
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 396
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 397
+  },
   "notes": []
  }
 ]
