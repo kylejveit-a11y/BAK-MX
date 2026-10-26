@@ -1,0 +1,209 @@
+{
+ "target": {
+  "manufacturer": "Kawasaki",
+  "model": "KX112",
+  "model_year": 2027,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "2027 KX112 Kawasaki spec sheet (kawasaki.com)",
+  "source_url": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2027-kx112",
+  "kind": "spec_sheet",
+  "document_revision": "2027-kx112"
+ },
+ "values": [
+  {
+   "joint": "Spec sheet / Engine",
+   "value": "2-stroke, single-cylinder with exhaust power valve (KIPS), liquid-cooled",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Displacement",
+   "value": "112cc",
+   "unit": "cc",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Bore x Stroke",
+   "value": "52.5 x 51.6mm",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Compression Ratio",
+   "value": "9.9:1 (low speed) / 8.6:1 (high speed)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Fuel System",
+   "value": "28mm Keihin carburetor",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Ignition",
+   "value": "CDI with digital advance",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Transmission",
+   "value": "6-speed, return shift, with wet multi-disc manual clutch",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Final Drive",
+   "value": "Chain",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Front Suspension / Wheel Travel",
+   "value": "43mm inverted fork with adjustable compression and rebound damping/10.8 in",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Rear Suspension / Wheel Travel",
+   "value": "Uni-Trak® single shock with adjustable dual-range (high-low-speed) compression and rebound damping, plus adjustable spring preload/12.0 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Front Tire",
+   "value": "70/100-19",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Rear Tire",
+   "value": "90/100-16",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Front Brakes",
+   "value": "Single 240mm petal disc with dual-piston caliper",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Rear Brakes",
+   "value": "Single 220mm petal disc with single-piston caliper",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Frame Type",
+   "value": "Perimeter, high-tensile steel",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Rake/Trail",
+   "value": "29.2°/4.6 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Overall Length",
+   "value": "76.2 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Overall Width",
+   "value": "31.5 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Overall Height",
+   "value": "45.9 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Ground Clearance",
+   "value": "13.0 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Seat Height",
+   "value": "34.1 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Curb Weight",
+   "value": "164.9 lb* without fuel / 172.8 lb*",
+   "unit": "lb",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Fuel Capacity",
+   "value": "1.32 gal",
+   "unit": "gal",
+   "property": "capacity",
+   "conditions": [],
+   "page": "1"
+  },
+  {
+   "joint": "Spec sheet / Wheelbase Features",
+   "value": "51.6 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1"
+  }
+ ]
+}

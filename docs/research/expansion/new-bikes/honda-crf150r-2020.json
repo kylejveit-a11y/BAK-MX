@@ -1,0 +1,1600 @@
+{
+ "target": {
+  "manufacturer": "Honda",
+  "model": "CRF150R",
+  "model_year": 2020,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "2020 CRF150R/RB Owner's Manual & Competition Handbook 31KSE710 (Honda Motopub, American Honda)",
+  "source_url": "https://2rom-prd-data.hondamotopub.com/om/AHM/CRF150R-RB/2020/CRF150R.RB_31KSE710_0.pdf",
+  "kind": "owners_manual_competition_handbook",
+  "document_revision": "31KSE710"
+ },
+ "values": [
+  {
+   "joint": "Specifications / Dimension / Overall length",
+   "value": "72.1 in (1,832 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Dimension / Overall width",
+   "value": "30.3 in (770 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Dimension / Overall height",
+   "value": "44.6 in (1,133 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Dimension / Wheelbase",
+   "value": "49.6 in (1,260 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Dimension / Seat height",
+   "value": "32.8 in (832 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Dimension / Footpeg height",
+   "value": "14.9 in (379 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Dimension / Ground clearance",
+   "value": "11.9 in (301 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Frame / Type",
+   "value": "Semi double cradle",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Frame / F. suspension",
+   "value": "Telescopic fork, travel 9.5 in (241 mm), stroke 10.8 in (275 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Frame / R. suspension",
+   "value": "Pro-link, travel 10.7 in (272 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Frame / Front tire",
+   "value": "70/100 – 17 40M",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Frame / Front tire - AC",
+   "value": "DUNLOP MX71F",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Frame / Front tire - CM",
+   "value": "BRIDGESTONE M23",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Frame / Rear tire",
+   "value": "90/100 – 14 49M",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Frame / Rear tire - AC",
+   "value": "DUNLOP MX71",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Frame / Rear tire - CM",
+   "value": "BRIDGESTONE M22",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Frame / Tire type",
+   "value": "bias-ply, tube",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Frame / Tire pressure, front (cold)",
+   "value": "15 psi (100 kPa, 1.0 kgf/cm2)",
+   "unit": "psi",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Frame / Tire pressure, rear (cold)",
+   "value": "15 psi (100 kPa, 1.0 kgf/cm2)",
+   "unit": "psi",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Frame / F. brake, swept area",
+   "value": "Single disc brake, 55.5 in2 (358.1 cm2)",
+   "unit": "in2",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Frame / R. brake, swept area",
+   "value": "Single disc brake, 46.6 in2 (300.7 cm2)",
+   "unit": "in2",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Frame / Fuel recommendation",
+   "value": "unleaded gasoline, pump octane number of 91 or higher",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Frame / Fuel capacity",
+   "value": "1.14 US gal (4.3 ℓ)",
+   "unit": "US gal",
+   "property": "capacity",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Frame / Caster angle",
+   "value": "27°2’",
+   "unit": "°",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Frame / Trail length",
+   "value": "3.1 in (78 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Frame / Fork oil capacity",
+   "value": "12.04 US oz (356 cm3)",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Type",
+   "value": "Liquid cooled, 4-stroke",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Cylinder arrangement",
+   "value": "Single 19° inclined from vertical",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Bore and stroke",
+   "value": "2.60 x 1.72 in (66.0 x 43.7 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Displacement",
+   "value": "9.13 cu-in (149.7 cm3)",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Compression ratio",
+   "value": "11.7 : 1",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Valve clearance - Intake",
+   "value": "0.006 ± 0.001 in (0.16 ± 0.03 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Valve clearance - Exhaust",
+   "value": "0.010 ± 0.001 in (0.26 ± 0.03 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Engine oil capacity - After draining",
+   "value": "0.59 US qt (0.56 ℓ)",
+   "unit": "US qt",
+   "property": "capacity",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Engine oil capacity - After draining and oil filter change",
+   "value": "0.62 US qt (0.59 ℓ)",
+   "unit": "US qt",
+   "property": "capacity",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Engine oil capacity - After disassembly",
+   "value": "0.74 US qt (0.70 ℓ)",
+   "unit": "US qt",
+   "property": "capacity",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Transmission oil capacity - After draining",
+   "value": "0.60 US qt (0.57 ℓ)",
+   "unit": "US qt",
+   "property": "capacity",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Transmission oil capacity - After disassembly",
+   "value": "0.69 US qt (0.65 ℓ)",
+   "unit": "US qt",
+   "property": "capacity",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Carburetor - Type",
+   "value": "Piston valve",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Carburetor - Identification number",
+   "value": "FCR08D",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Carburetor - Main jet (standard)",
+   "value": "# 140",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Carburetor - Jet needle (standard)",
+   "value": "NMQT",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Carburetor - Needle clip position (standard)",
+   "value": "3rd groove",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Carburetor - Slow jet (standard)",
+   "value": "# 38",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Carburetor - Pilot screw opening",
+   "value": "2 1/8 turns out",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Carburetor - Float level",
+   "value": "0.28 in (7.0 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Carburetor - Idle speed",
+   "value": "2,100 ± 100 rpm",
+   "unit": "rpm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Engine / Cooling capacity - After disassembly",
+   "value": "0.80 US qt (0.76 ℓ)",
+   "unit": "US qt",
+   "property": "capacity",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Drive train / Clutch type",
+   "value": "Wet, multi-plate type",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Drive train / Transmission",
+   "value": "5-speed, constant mesh",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Drive train / Primary reduction",
+   "value": "4.117",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Drive train / Gear ratio I",
+   "value": "2.214",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Drive train / Gear ratio II",
+   "value": "1.647",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Drive train / Gear ratio III",
+   "value": "1.318",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Drive train / Gear ratio IV",
+   "value": "1.105",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Drive train / Gear ratio V",
+   "value": "0.956",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Drive train / Final reduction",
+   "value": "3.333",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Drive train / Gear shift pattern",
+   "value": "Left foot-operated return system 1-N-2-3-4-5",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Electrical / Ignition",
+   "value": "ICM",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Electrical / Starting system",
+   "value": "Kickstarter",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Electrical / Spark plug - Standard",
+   "value": "NGK CR8EH-9 / DENSO U24FER9",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Electrical / Spark plug - Optional",
+   "value": "NGK CR9EH-9 / DENSO U27FER9",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Specifications / Electrical / Spark plug gap",
+   "value": "0.031 – 0.035 in (0.8 – 0.9 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Front Suspension Damping / Compression damping - standard position",
+   "value": "Turn the adjuster counterclockwise 1 1/4 turn from the full hard position",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "100"
+  },
+  {
+   "joint": "Front Suspension Damping / Rebound damping - standard position",
+   "value": "Turn the adjuster counterclockwise 1 1/4 turn from the full hard position",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "100"
+  },
+  {
+   "joint": "Front Suspension Damping / Compression damping adjuster range",
+   "value": "6 1/4 turns or less",
+   "unit": "turns",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "100"
+  },
+  {
+   "joint": "Front Suspension Damping / Rebound damping adjuster range",
+   "value": "3 turns or less",
+   "unit": "turns",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "100"
+  },
+  {
+   "joint": "Fork Oil Level (CRF150R) / Standard fork spring rate",
+   "value": "19.0 lbf/in (3.33 N/mm)",
+   "unit": "N/mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Fork Oil Level (CRF150R) / Standard fork spring - Standard oil level",
+   "value": "4.88 in (124.0 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "[capacity] 12.04 US oz (356.0 cm3)"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Fork Oil Level (CRF150R) / Standard fork spring - Maximum oil level",
+   "value": "4.83 in (122.8 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "[capacity] 12.07 US oz (357.0 cm3)"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Fork Oil Level (CRF150R) / Standard fork spring - Minimum oil level",
+   "value": "7.43 in (188.7 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "[capacity] 10.27 US oz (303.7 cm3)"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Front Suspension / Recommended fork oil",
+   "value": "HP Fork Oil, SS-19 or an equivalent",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "70"
+  },
+  {
+   "joint": "Front Suspension / Standard fork air pressure",
+   "value": "0 psi (0 kPa, 0 kgf/cm2)",
+   "unit": "psi",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "94"
+  },
+  {
+   "joint": "Rear Suspension Adjustments / Spring preload length (Standard spring) - Standard",
+   "value": "9.23 in (234.5 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "102"
+  },
+  {
+   "joint": "Rear Suspension Adjustments / Spring preload length (Standard spring) - Min.",
+   "value": "8.7 in (222 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "102"
+  },
+  {
+   "joint": "Rear Suspension Adjustments / Compression damping - standard position",
+   "value": "Turn the adjuster counterclockwise 1 – 1 1/4 turns from the full hard position, punch mark aligned with reference mark",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "103"
+  },
+  {
+   "joint": "Rear Suspension Adjustments / Rebound damping - standard position",
+   "value": "Turn the adjuster counterclockwise 3/8 – 5/8 turns from the full hard position, punch mark aligned with reference mark",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "103"
+  },
+  {
+   "joint": "Rear Suspension Adjustments / Standard Race Sag",
+   "value": "3.3 in (85 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "104"
+  },
+  {
+   "joint": "Drive Chain / Drive chain slack",
+   "value": "1 3/8 – 1 3/4 in (35 – 45 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "82"
+  },
+  {
+   "joint": "Drive Chain / Replacement chain size/link",
+   "value": "DID420DS3/120",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "84"
+  },
+  {
+   "joint": "Drive Chain / Chain length service limit (span of 21 pins, 20 pitches)",
+   "value": "10.20 in (259.0 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "84"
+  },
+  {
+   "joint": "Spark Plug / Recommended standard spark plug",
+   "value": "CR8EH-9 (NGK) / U24FER9 (DENSO)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "52"
+  },
+  {
+   "joint": "Torque Specifications - Engine / 1 Cylinder head cover bolts",
+   "value": "10 N•m (7 lbf•ft, 1.0 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "137"
+  },
+  {
+   "joint": "Torque Specifications - Engine / 2 Exhaust pipe joint nuts",
+   "value": "11 N•m (8 lbf•ft, 1.1 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "137"
+  },
+  {
+   "joint": "Torque Specifications - Engine / 3 Coolant drain bolt",
+   "value": "10 N•m (7 lbf•ft, 1.0 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "137"
+  },
+  {
+   "joint": "Torque Specifications - Engine / 4 Crankshaft hole cap",
+   "value": "15 N•m (11 lbf•ft, 1.5 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [
+    "NOTE 5: Apply grease to the threads"
+   ],
+   "page": "137"
+  },
+  {
+   "joint": "Torque Specifications - Engine / 5 Transmission oil check bolt",
+   "value": "10 N•m (7 lbf•ft, 1.0 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "137"
+  },
+  {
+   "joint": "Torque Specifications - Engine / 6 Cylinder bolt",
+   "value": "10 N•m (7 lbf•ft, 1.0 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "137"
+  },
+  {
+   "joint": "Torque Specifications - Engine / 7 Oil filter cover bolts",
+   "value": "10 N•m (7 lbf•ft, 1.0 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "137"
+  },
+  {
+   "joint": "Torque Specifications - Engine / 8 Cylinder head bolts",
+   "value": "10 N•m (7 lbf•ft, 1.0 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "137"
+  },
+  {
+   "joint": "Torque Specifications - Engine / 9 Drive sprocket bolt",
+   "value": "13 N•m (10 lbf•ft, 1.3 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "137"
+  },
+  {
+   "joint": "Torque Specifications - Engine / 10 Transmission oil drain bolt",
+   "value": "22 N•m (16 lbf•ft, 2.2 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [
+    "NOTE 3: Apply oil to the threads and seating surface"
+   ],
+   "page": "137"
+  },
+  {
+   "joint": "Torque Specifications - Engine / 11 Engine oil drain bolt",
+   "value": "22 N•m (16 lbf•ft, 2.2 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [
+    "NOTE 3: Apply oil to the threads and seating surface"
+   ],
+   "page": "137"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 1 Steering stem nut",
+   "value": "128 N•m (94 lbf•ft, 13.1 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "138"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 2 Fork bridge upper pinch bolts",
+   "value": "22 N•m (16 lbf•ft, 2.2 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "138"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 3 Fork bridge lower pinch bolts",
+   "value": "22 N•m (16 lbf•ft, 2.2 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "138"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 4 Handlebar upper holder bolts",
+   "value": "22 N•m (16 lbf•ft, 2.2 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "138"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 5 Front axle nut",
+   "value": "69 N•m (51 lbf•ft, 7.0 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [
+    "NOTE 1: U-nut"
+   ],
+   "page": "138"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 6 Rear axle nut",
+   "value": "88 N•m (65 lbf•ft, 9.0 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [
+    "NOTE 1: U-nut"
+   ],
+   "page": "138"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 7 Chain adjuster lock nuts",
+   "value": "27 N•m (20 lbf•ft, 2.8 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [
+    "NOTE 2: UBS nut"
+   ],
+   "page": "138"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 8 Front engine hanger bracket nuts (10 mm)",
+   "value": "64 N•m (47 lbf•ft, 6.5 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "138"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 9 Front engine hanger bracket nut (8 mm)",
+   "value": "34 N•m (25 lbf•ft, 3.5 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "138"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 10 Middle engine mounting nut",
+   "value": "64 N•m (47 lbf•ft, 6.5 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "138"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 11 Shock absorber",
+   "value": "44 N•m (32 lbf•ft, 4.5 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [
+    "NOTE 1: U-nut"
+   ],
+   "page": "138"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 12 Swingarm pivot nut",
+   "value": "83 N•m (61 lbf•ft, 8.5 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "138"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 13 Rear shock arm nuts (swingarm side)",
+   "value": "44 N•m (32 lbf•ft, 4.5 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [
+    "NOTE 1: U-nut"
+   ],
+   "page": "138"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 13 Rear shock arm nuts (shock link side)",
+   "value": "44 N•m (32 lbf•ft, 4.5 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [
+    "NOTE 1: U-nut"
+   ],
+   "page": "138"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 14 Rear shock link nuts (frame side)",
+   "value": "44 N•m (32 lbf•ft, 4.5 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [
+    "NOTE 1: U-nut"
+   ],
+   "page": "138"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 15 Shock spring lock nut",
+   "value": "44 N•m (32 lbf•ft, 4.5 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "138"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 16 Kickstarter arm bolt",
+   "value": "38 N•m (28 lbf•ft, 3.9 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "138"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 17 Throttle cable adjuster lock nut",
+   "value": "4.0 N•m (3.0 lbf•ft, 0.4 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "138"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 18 Brake lever adjuster lock nut",
+   "value": "5.9 N•m (4.4 lbf•ft, 0.6 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "138"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 19 Brake pedal adjuster lock nut",
+   "value": "5.9 N•m (4.4 lbf•ft, 0.6 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "138"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 20 Brake hose bolts",
+   "value": "34 N•m (25 lbf•ft, 3.5 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "139"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 21 Brake caliper mounting bolts",
+   "value": "30 N•m (22 lbf•ft, 3.1 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [
+    "NOTE 4: Alock bolt"
+   ],
+   "page": "139"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 22 Brake disc bolts",
+   "value": "20 N•m (15 lbf•ft, 2.0 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [
+    "NOTE 4: Alock bolt"
+   ],
+   "page": "139"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 23 Brake pedal pivot bolt",
+   "value": "32 N•m (24 lbf•ft, 3.3 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "139"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 24 Spokes",
+   "value": "3.7 N•m (2.7 lbf•ft, 0.4 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "139"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 25 Rim locks",
+   "value": "12.4 N•m (9 lbf•ft, 1.3 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "139"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 26 Subframe upper/lower mounting bolts",
+   "value": "30 N•m (22 lbf•ft, 3.1 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "139"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 27 Fork cap",
+   "value": "34 N•m (25 lbf•ft, 3.5 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "139"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 28 Fork cap lock nut",
+   "value": "19.7 N•m (15 lbf•ft, 2.0 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "139"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 29 Fork protector bolts",
+   "value": "7 N•m (5.2 lbf•ft, 0.7 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [
+    "NOTE 4: Alock bolt"
+   ],
+   "page": "139"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 30 Muffler mounting bolts",
+   "value": "32 N•m (24 lbf•ft, 3.3 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "139"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 31 Muffler clamp bolt",
+   "value": "21 N•m (15 lbf•ft, 2.1 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "139"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 32 Driven sprocket nuts",
+   "value": "32 N•m (24 lbf•ft, 3.3 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [
+    "NOTE 1: U-nut"
+   ],
+   "page": "139"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 33 Seat mounting bolts",
+   "value": "26 N•m (19 lbf•ft, 2.7 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "139"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 34 Front brake reservoir cap screws",
+   "value": "1.5 N•m (1.1 lbf•ft, 0.2 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "139"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 35 Rear brake reservoir cap bolts",
+   "value": "1.5 N•m (1.1 lbf•ft, 0.2 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "139"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 36 Fork air pressure release screw",
+   "value": "1.3 N•m (1.0 lbf•ft, 0.1 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "139"
+  },
+  {
+   "joint": "Torque Specifications - Frame / 37 Fuel valve bolts",
+   "value": "10 N•m (7 lbf•ft, 1.0 kgf•m)",
+   "unit": "N•m",
+   "property": "torque",
+   "conditions": [],
+   "page": "139"
+  },
+  {
+   "joint": "Maintenance Schedule / THROTTLE OPERATION",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / HOT STARTER",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / AIR FILTER",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: C",
+    "NOTE 1"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / CRANKCASE BREATHER",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / SPARK PLUG",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / VALVE CLEARANCE/DECOMPRESSOR SYSTEM",
+   "value": "Every 6 races or about 15.0 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I",
+    "NOTE 4"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / ENGINE OIL",
+   "value": "Every 6 races or about 15.0 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: R",
+    "NOTE 3"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / ENGINE OIL FILTER",
+   "value": "Every 6 races or about 15.0 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: R",
+    "NOTE 3"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / ENGINE IDLE SPEED",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / PISTON AND PISTON RINGS",
+   "value": "Every 6 races or about 15.0 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: R"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / PISTON PIN",
+   "value": "Every 6 races or about 15.0 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: R"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / TRANSMISSION OIL",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I",
+    "NOTE 5"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / TRANSMISSION OIL",
+   "value": "Every 6 races or about 15.0 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: R",
+    "NOTE 5"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / RADIATOR COOLANT",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I",
+    "NOTE 2"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / COOLING SYSTEM",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / DRIVE CHAIN",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I, L"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / DRIVE CHAIN",
+   "value": "Every 3 races or about 7.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: R"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / DRIVE CHAIN SLIDER",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / DRIVE CHAIN ROLLER",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / DRIVE SPROCKET",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / DRIVEN SPROCKET",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / BRAKE FLUID",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I",
+    "NOTE 2"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / BRAKE PADS WEAR",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / BRAKE SYSTEM",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / CLUTCH SYSTEM",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I",
+    "NOTE 5"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / CONTROL CABLES",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I, L"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / EXHAUST PIPE/MUFFLER",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / SUSPENSION",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / SWINGARM/SHOCK LINKAGE",
+   "value": "Every 3 races or about 7.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: L"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / FORK OIL",
+   "value": "Every 3 races or about 7.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: R",
+    "NOTE 3"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / NUTS, BOLTS, FASTENERS",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / WHEELS/TIRES",
+   "value": "Each race or about 2.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I"
+   ],
+   "page": "21"
+  },
+  {
+   "joint": "Maintenance Schedule / STEERING HEAD BEARINGS",
+   "value": "Every 9 races or about 22.5 hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "procedure: I"
+   ],
+   "page": "21"
+  }
+ ]
+}

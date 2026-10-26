@@ -1,0 +1,905 @@
+{
+ "target": {
+  "manufacturer": "Yamaha",
+  "model": "YZ85",
+  "model_year": 2026,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "2026 YZ85 Owner's Manual B4B-28199-17",
+  "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-17_02.pdf",
+  "kind": "owners_manual",
+  "document_revision": "B4B-28199-17"
+ },
+ "values": [
+  {
+   "joint": "Specifications / Dimensions - Overall length",
+   "value": "1820 mm (71.7 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "(YZ85T2)"
+   ],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Dimensions - Overall length",
+   "value": "1895 mm (74.6 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "(YZ85LWT)"
+   ],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Dimensions - Overall width",
+   "value": "760 mm (29.9 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Dimensions - Overall height",
+   "value": "1135 mm (44.7 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "(YZ85T2)"
+   ],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Dimensions - Overall height",
+   "value": "1175 mm (46.3 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "(YZ85LWT)"
+   ],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Dimensions - Seat height",
+   "value": "840 mm (33.1 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "(YZ85T2)"
+   ],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Dimensions - Seat height",
+   "value": "885 mm (34.8 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "(YZ85LWT)"
+   ],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Dimensions - Wheelbase",
+   "value": "1255 mm (49.4 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "(YZ85T2)"
+   ],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Dimensions - Wheelbase",
+   "value": "1285 mm (50.6 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "(YZ85LWT)"
+   ],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Dimensions - Ground clearance",
+   "value": "320 mm (12.60 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "(YZ85T2)"
+   ],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Dimensions - Ground clearance",
+   "value": "360 mm (14.17 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "(YZ85LWT)"
+   ],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Weight - Curb weight",
+   "value": "73 kg (161 lb)",
+   "unit": "kg",
+   "property": "specification",
+   "conditions": [
+    "(YZ85T2)"
+   ],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Weight - Curb weight",
+   "value": "75 kg (165 lb)",
+   "unit": "kg",
+   "property": "specification",
+   "conditions": [
+    "(YZ85LWT)"
+   ],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Weight - Maximum rider weight",
+   "value": "62.0 kg (137 lb)",
+   "unit": "kg",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Engine - Combustion cycle",
+   "value": "2-stroke",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Engine - Cooling system",
+   "value": "Liquid cooled",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Engine - Number of cylinders",
+   "value": "Single cylinder",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Engine - Displacement",
+   "value": "85 cm³",
+   "unit": "cm³",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Engine - Bore × stroke",
+   "value": "47.5 × 47.8 mm (1.87 × 1.88 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Engine - Starting system",
+   "value": "Kickstarter",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Engine oil - Engine oil",
+   "value": "YAMALUBE 2R",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Transmission oil - Type",
+   "value": "Motor oil SAE 10W-40 type SG or higher",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Transmission oil - Quantity",
+   "value": "0.50 L (0.53 US qt, 0.44 Imp.qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Coolant quantity - Radiator (including all routes)",
+   "value": "0.50 L (0.53 US qt, 0.44 Imp.qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Fuel - Recommended fuel",
+   "value": "Unleaded gasoline (E10 acceptable)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Fuel - Octane number (RON)",
+   "value": "98",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Fuel - Fuel tank capacity",
+   "value": "5.0 L (1.3 US gal, 1.1 Imp.gal)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Carburetor - Type × quantity",
+   "value": "PWK28 × 1",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Drivetrain - Gear ratio - 1st",
+   "value": "2.455 (27/11)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Drivetrain - Gear ratio - 2nd",
+   "value": "1.882 (32/17)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Drivetrain - Gear ratio - 3rd",
+   "value": "1.529 (26/17)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Drivetrain - Gear ratio - 4th",
+   "value": "1.294 (22/17)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Drivetrain - Gear ratio - 5th",
+   "value": "1.130 (26/23)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Drivetrain - Gear ratio - 6th",
+   "value": "1.000 (25/25)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Front tire - Type",
+   "value": "With tube",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Front tire - Size",
+   "value": "70/100-17 40M",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "(YZ85T2)"
+   ],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Front tire - Size",
+   "value": "70/100-19 42M",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "(YZ85LWT)"
+   ],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Front tire - Manufacturer/model",
+   "value": "DUNLOP/MX3SF",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Rear tire - Type",
+   "value": "With tube",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Rear tire - Size",
+   "value": "90/100-14 49M",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "(YZ85T2)"
+   ],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Rear tire - Size",
+   "value": "90/100-16 52M",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "(YZ85LWT)"
+   ],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Rear tire - Manufacturer/model",
+   "value": "DUNLOP/MX3S",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Front brake - Type",
+   "value": "Hydraulic single disc brake",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-1"
+  },
+  {
+   "joint": "Specifications / Rear brake - Type",
+   "value": "Hydraulic single disc brake",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-2"
+  },
+  {
+   "joint": "Specifications / Front suspension - Type",
+   "value": "Telescopic fork",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-2"
+  },
+  {
+   "joint": "Specifications / Rear suspension - Type",
+   "value": "Swingarm (link suspension)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "9-2"
+  },
+  {
+   "joint": "Fuel / Recommended fuel",
+   "value": "Premium unleaded gasoline (E10 acceptable)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "4-4"
+  },
+  {
+   "joint": "Fuel / Recommended 2-stroke engine oil",
+   "value": "YAMALUBE 2R",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "4-4"
+  },
+  {
+   "joint": "Fuel / Fuel tank capacity",
+   "value": "5.0 L (1.3 US gal, 1.1 Imp.gal)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "4-4"
+  },
+  {
+   "joint": "Fuel / Mixing ratio (gasoline to oil) - Break-in period",
+   "value": "15:1",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [],
+   "page": "4-4"
+  },
+  {
+   "joint": "Fuel / Mixing ratio (gasoline to oil) - After break-in",
+   "value": "30:1",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [],
+   "page": "4-4"
+  },
+  {
+   "joint": "Front fork / Rebound damping setting - Minimum (soft)",
+   "value": "20 click(s) in direction (b)",
+   "unit": "click(s)",
+   "property": "setting",
+   "conditions": [],
+   "page": "4-9"
+  },
+  {
+   "joint": "Front fork / Rebound damping setting - Standard",
+   "value": "7 click(s) in direction (b)",
+   "unit": "click(s)",
+   "property": "setting",
+   "conditions": [],
+   "page": "4-9"
+  },
+  {
+   "joint": "Front fork / Rebound damping setting - Maximum (hard)",
+   "value": "1 click(s) in direction (b)",
+   "unit": "click(s)",
+   "property": "setting",
+   "conditions": [],
+   "page": "4-9"
+  },
+  {
+   "joint": "Front fork / Compression damping setting - Minimum (soft)",
+   "value": "20 click(s) in direction (b)",
+   "unit": "click(s)",
+   "property": "setting",
+   "conditions": [],
+   "page": "4-10"
+  },
+  {
+   "joint": "Front fork / Compression damping setting - Standard",
+   "value": "10 (YZ85LWT) 12 (YZ85T2) click(s) in direction (b)",
+   "unit": "click(s)",
+   "property": "setting",
+   "conditions": [],
+   "page": "4-10"
+  },
+  {
+   "joint": "Front fork / Compression damping setting - Maximum (hard)",
+   "value": "1 click(s) in direction (b)",
+   "unit": "click(s)",
+   "property": "setting",
+   "conditions": [],
+   "page": "4-10"
+  },
+  {
+   "joint": "Adjusting the shock absorber / Tightening torque - Locknut",
+   "value": "30 N·m (3.0 kgf·m, 22 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "4-12"
+  },
+  {
+   "joint": "Shock absorber / Spring preload - Minimum (soft)",
+   "value": "Distance A = 218.5 mm (8.60 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "4-12"
+  },
+  {
+   "joint": "Shock absorber / Spring preload - Standard",
+   "value": "Distance A = 210.0 mm (8.27 in) (YZ85LWT) 215.0 mm (8.46 in) (YZ85T2)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "4-12"
+  },
+  {
+   "joint": "Shock absorber / Spring preload - Maximum (hard)",
+   "value": "Distance A = 202.0 mm (7.95 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "4-12"
+  },
+  {
+   "joint": "Shock absorber / Rebound damping setting - Minimum (soft)",
+   "value": "20 click(s) in direction (b)",
+   "unit": "click(s)",
+   "property": "setting",
+   "conditions": [],
+   "page": "4-12"
+  },
+  {
+   "joint": "Shock absorber / Rebound damping setting - Standard",
+   "value": "10 (YZ85LWT) 6 (YZ85T2) click(s) in direction (b)",
+   "unit": "click(s)",
+   "property": "setting",
+   "conditions": [],
+   "page": "4-12"
+  },
+  {
+   "joint": "Shock absorber / Rebound damping setting - Maximum (hard)",
+   "value": "1 click(s) in direction (b)",
+   "unit": "click(s)",
+   "property": "setting",
+   "conditions": [],
+   "page": "4-12"
+  },
+  {
+   "joint": "Shock absorber / Compression damping setting - Minimum (soft)",
+   "value": "15 click(s) in direction (b)",
+   "unit": "click(s)",
+   "property": "setting",
+   "conditions": [],
+   "page": "4-13"
+  },
+  {
+   "joint": "Shock absorber / Compression damping setting - Standard",
+   "value": "10 (YZ85LWT) 9 (YZ85T2) click(s) in direction (b)",
+   "unit": "click(s)",
+   "property": "setting",
+   "conditions": [],
+   "page": "4-13"
+  },
+  {
+   "joint": "Shock absorber / Compression damping setting - Maximum (hard)",
+   "value": "1 click(s) in direction (b)",
+   "unit": "click(s)",
+   "property": "setting",
+   "conditions": [],
+   "page": "4-13"
+  },
+  {
+   "joint": "Spark plug / Specified spark plug",
+   "value": "NGK/BR10EG",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "7-7"
+  },
+  {
+   "joint": "Spark plug / Spark plug gap",
+   "value": "0.5–0.6 mm (0.020–0.024 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "7-7"
+  },
+  {
+   "joint": "Checking the spark plug / Tightening torque - Spark plug",
+   "value": "20 N·m (2.0 kgf·m, 15 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "7-8"
+  },
+  {
+   "joint": "Transmission oil / Recommended transmission oil",
+   "value": "Motor oil SAE 10W-40 type SG or higher",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "7-9"
+  },
+  {
+   "joint": "Transmission oil / Oil change quantity",
+   "value": "0.50 L (0.53 US qt, 0.44 Imp.qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "7-9"
+  },
+  {
+   "joint": "Checking the spark plug / Tightening torque - Transmission oil drain bolt",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "7-9"
+  },
+  {
+   "joint": "Checking the spark plug / Tightening torque - Coolant drain bolt",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "7-11"
+  },
+  {
+   "joint": "Coolant / Antifreeze/water mixture ratio",
+   "value": "1:1",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [],
+   "page": "7-11"
+  },
+  {
+   "joint": "Coolant / Coolant quantity - Radiator (including all routes)",
+   "value": "0.50 L (0.53 US qt, 0.44 Imp.qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "7-11"
+  },
+  {
+   "joint": "Throttle grip / Throttle grip free play",
+   "value": "3.0–6.0 mm (0.12–0.24 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "7-13"
+  },
+  {
+   "joint": "Tires / Standard tire air pressure - Front",
+   "value": "100 kPa (1.00 kgf/cm², 15 psi)",
+   "unit": "kPa",
+   "property": "setting",
+   "conditions": [],
+   "page": "7-14"
+  },
+  {
+   "joint": "Tires / Standard tire air pressure - Rear",
+   "value": "100 kPa (1.00 kgf/cm², 15 psi)",
+   "unit": "kPa",
+   "property": "setting",
+   "conditions": [],
+   "page": "7-14"
+  },
+  {
+   "joint": "Clutch / Clutch lever free play",
+   "value": "7.0–12.0 mm (0.28–0.47 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "7-16"
+  },
+  {
+   "joint": "Brakes / Specified brake fluid",
+   "value": "DOT 4",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "7-19"
+  },
+  {
+   "joint": "Drive chain / Drive chain slack - Distance A",
+   "value": "58.0–68.0 mm (2.28–2.68 in) (YZ85T2) 65.0–75.0 mm (2.56–2.95 in) (YZ85LWT)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "7-21"
+  },
+  {
+   "joint": "Changing the brake fluid / Tightening torque - Locknut",
+   "value": "21 N·m (2.1 kgf·m, 15 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "7-22"
+  },
+  {
+   "joint": "Changing the brake fluid / Tightening torque - Axle nut",
+   "value": "80 N·m (8.0 kgf·m, 59 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "7-22"
+  },
+  {
+   "joint": "Checking the wheel bearings / Tightening torque - Axle nut",
+   "value": "70 N·m (7.0 kgf·m, 52 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "7-27"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Piston - Check piston for carbon deposits and",
+   "value": "After break-in; Every race",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-2"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Piston - Replace.",
+   "value": "Every fifth race; As required",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-2"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Piston rings - Check piston ring end gap and rings for damage.",
+   "value": "After break-in; Every race",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-2"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Piston rings - Replace.",
+   "value": "Every third race; As required",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-2"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Piston pin and small end bearing - Check piston pin and small end bearing for damage.",
+   "value": "Every race",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-2"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Piston pin and small end bearing - Replace.",
+   "value": "As required",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-2"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Cylinder head - Check cylinder head for carbon deposits.",
+   "value": "After break-in; Every race",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-2"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Cylinder - Check cylinder for score marks or wear.",
+   "value": "After break-in; Every race",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-2"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Cylinder - Replace.",
+   "value": "As required",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-2"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / YPVS - Check YPVS for carbon deposits and cracks or damage.",
+   "value": "After break-in; Every race",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-3"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Clutch - Check clutch housing, friction plates, clutch plates and clutch springs for wear or damage.",
+   "value": "After break-in; Every race",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-3"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Transmission - Change the transmission oil.",
+   "value": "After break-in; Every fifth race",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-3"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Exhaust system - Check exhaust pipe and muffler for carbon deposits.",
+   "value": "After break-in; Every race",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-3"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Crankshaft - Check crankshaft for carbon deposits and damage.",
+   "value": "Every fifth race; As required",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-3"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Carburetor - Check carburetor settings and for obstructions.",
+   "value": "After break-in; Every race",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-3"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Spark plug - Check condition.",
+   "value": "After break-in; Every race",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-4"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Spark plug - Replace.",
+   "value": "As required",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-4"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Cooling system - Change coolant.",
+   "value": "Every 2 years",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-4"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Brakes - Replace brake fluid.",
+   "value": "Every year",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-4"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Front fork - Replace fork oil.",
+   "value": "After break-in; Every fifth race",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-5"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Steering head - Clean and lubricate with lithium-soap-based grease.",
+   "value": "Every fifth race",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-5"
+  },
+  {
+   "joint": "Periodic maintenance and lubrication chart / Tires and wheels - Check wheel bearings for looseness.",
+   "value": "Every third race",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "7-6"
+  }
+ ]
+}

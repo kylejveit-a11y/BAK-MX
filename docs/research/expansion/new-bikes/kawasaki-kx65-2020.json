@@ -1,0 +1,289 @@
+{
+ "target": {
+  "manufacturer": "Kawasaki",
+  "model": "KX65",
+  "model_year": 2020,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "Kawasaki 2020 KX65 Owner's Manual 99803-0030 (US English, Kawasaki KTIVS e-book reader; viewer also at https://pws.ktivs.net/dispeBook?file=99803-0030&lang_code=EN)",
+  "source_url": "https://pws.ktivs.net/proxy/manual-files/99803-0030-o5kx65alf-us-en-960aa4d53e2693a7630518c0ac310e89/index.html",
+  "kind": "owners_manual",
+  "document_revision": "99803-0030"
+ },
+ "values": [
+  {
+   "joint": "Tightening torque / Air Bleeder Bolt",
+   "value": "9.4 N·m (0.96 kgf·m, 83 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "43"
+  },
+  {
+   "joint": "Tightening torque / Impeller Bolt",
+   "value": "8.3 N·m (0.85 kgf·m, 74 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "63"
+  },
+  {
+   "joint": "Tightening torque / Kick Pedal Bolt",
+   "value": "9.4 N·m (0.96 kgf·m, 83 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "64"
+  },
+  {
+   "joint": "Tightening torque / Lower Clamp Bolt",
+   "value": "44 N·m (4.5 kgf·m, 33 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "88"
+  },
+  {
+   "joint": "Fuel / Gasoline-Engine Oil Mixing Ratio",
+   "value": "32:1 (gasoline:engine oil)",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [],
+   "page": "24"
+  },
+  {
+   "joint": "Spark plug / Standard Spark Plug",
+   "value": "NGK BR10EG",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "44"
+  },
+  {
+   "joint": "Coolant / Coolant Total Amount",
+   "value": "0.4 L (0.42 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "41"
+  },
+  {
+   "joint": "Spec sheet / Engine",
+   "value": "2-stroke single with exhaust power valve, liquid-cooled",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Displacement",
+   "value": "64cc",
+   "unit": "cc",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Bore x Stroke",
+   "value": "45.5 x 41.6mm",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Compression Ratio",
+   "value": "8.4:1",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Fuel System",
+   "value": "24mm Mikuni carburetor",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Ignition",
+   "value": "CDI with digital advance",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Transmission",
+   "value": "6-speed, return shift, with wet multi-disc manual clutch",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Final Drive",
+   "value": "Chain",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Front Suspension / Wheel Travel",
+   "value": "33mm leading axle telescopic fork with 4-way rebound damping/8.3 in",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Rear Suspension / Wheel Travel",
+   "value": "Uni-Trak® single shock system with 4-way rebound damping and fully adjustable spring preload/9.4 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Front Tire",
+   "value": "60/100-14",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Rear Tire",
+   "value": "80/100-12",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Front Brakes",
+   "value": "Single 180mm disc with single-piston caliper",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Rear Brakes",
+   "value": "Single 180mm disc with single-piston caliper",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Frame Type",
+   "value": "Tubular, semi-double cradle",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Rake/Trail",
+   "value": "27°/2.4 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Overall Length",
+   "value": "62.6 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Overall Width",
+   "value": "29.9 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Overall Height",
+   "value": "37.6 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Ground Clearance",
+   "value": "12.0 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Seat Height",
+   "value": "29.9 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Curb Weight",
+   "value": "132.2 lb*",
+   "unit": "lb",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Fuel Capacity",
+   "value": "1.0 gal",
+   "unit": "gal",
+   "property": "capacity",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  },
+  {
+   "joint": "Spec sheet / Wheelbase",
+   "value": "44.1 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2020-kx65"
+  }
+ ]
+}

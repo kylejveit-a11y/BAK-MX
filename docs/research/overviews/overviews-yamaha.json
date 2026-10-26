@@ -1,0 +1,5059 @@
+{
+ "bikes": [
+  {
+   "make": "Yamaha",
+   "model": "YZ250F",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "generation": "2019-2023 reverse-head engine, electric start",
+   "summary": "Testers treat this generation as the low-to-mid torque specialist of the 250F class: it pulls almost like a bigger bike out of corners and lets riders carry a higher gear, but it runs out of revs earlier than the European bikes, so it needs more shifting. The KYB spring fork is well liked, though it softens after break-in and dives on corner entry for faster or heavier riders. Off-throttle engine braking pitches the chassis, and most testers load a less-engine-braking or top-end map in the app. Recurring owner complaints are a cramped cockpit for tall riders, seat foam that packs down, a soft front brake and an air filter that does not seal well.",
+   "points": [
+    {
+     "aspect": "engine_low",
+     "verdict": "strength",
+     "statement": "Strong bottom-to-mid torque for a 250F; riders can corner a gear higher than on rival bikes.",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "keeferinctesting.com",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-7-22-2020-yamaha-yz250f-on-track-facts-and-figures/",
+      "https://www.keeferinctesting.com/2021-8-25-2022-yamaha-yz250f-first-impression/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-yamaha-yz250f"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "statement": "Runs out of pull and over-rev earlier than the KTM-group and Honda bikes, so riders shift more.",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "keeferinctesting.com",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-7-22-2020-yamaha-yz250f-on-track-facts-and-figures/",
+      "https://www.keeferinctesting.com/2022-2023-yamaha-yz250f-top-5-mods/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-yamaha-yz250f",
+      "https://motocrossactionmag.com/mxa-2020-yamaha-yz250f"
+     ]
+    },
+    {
+     "aspect": "engine_low",
+     "verdict": "neutral",
+     "statement": "The 2021-2023 engine lost a little bottom-end roll-on compared with 2019-2020 while revving more freely.",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2021-8-25-2022-yamaha-yz250f-first-impression/",
+      "https://www.keeferinctesting.com/2021-1-13-drd-stainless-full-muffler-system/"
+     ]
+    },
+    {
+     "aspect": "power_delivery",
+     "verdict": "weakness",
+     "statement": "Noticeable engine braking makes the chassis pitch on corner entry at stock settings.",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-7-22-2020-yamaha-yz250f-on-track-facts-and-figures/",
+      "https://www.keeferinctesting.com/?p=13239",
+      "https://www.keeferinctesting.com/2023-250-mx-baseline-settings/"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "weakness",
+     "statement": "Stock maps feel abrupt for average riders, and a slight hesitation at the first crack of throttle in slow ruts remained even after remapping on the 2023.",
+     "years": [
+      2021,
+      2023
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-yamaha-yz250f",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz250f"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "statement": "The KYB spring fork is rated among the best stock forks and handles big whoops well.",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "keeferinctesting.com",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-7-22-2020-yamaha-yz250f-on-track-facts-and-figures/",
+      "https://motocrossactionmag.com/mxa-race-test-2019-yamaha-yz250f"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Once broken in the fork goes soft and dives into flat corners and under braking for faster or heavier riders.",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "keeferinctesting.com",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/?p=13239",
+      "https://www.keeferinctesting.com/2020-1-7-2020-yamaha-yz250f-top-5-mods/",
+      "https://motocrossactionmag.com/mxa-2020-yamaha-yz250f"
+     ]
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "strength",
+     "statement": "At about 105 mm sag the shock balances riders from roughly 150 to 195 lb with good rear traction.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-7-22-2020-yamaha-yz250f-on-track-facts-and-figures/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "statement": "The 2022 update added low-speed fork damping, giving more hold-up, less pitching and better braking-bump compliance.",
+     "years": [
+      2022,
+      2023
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2021-8-25-2022-yamaha-yz250f-first-impression/"
+     ]
+    },
+    {
+     "aspect": "handling",
+     "verdict": "strength",
+     "statement": "Planted, predictable chassis that tracks straight and turns point-and-shoot; less agile than the KTM but forgiving, with a frame that flexes well.",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Vital MX"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2019-yamaha-yz250f",
+      "https://www.vitalmx.com/features/2022-Vital-MX-250-Shootout,7613"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "statement": "Cockpit is cramped for riders around 5'10 and taller, and seat foam packs down within 10-20 hours.",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com",
+      "PulpMX"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-7-22-2020-yamaha-yz250f-on-track-facts-and-figures/",
+      "https://www.keeferinctesting.com/2021-8-25-2022-yamaha-yz250f-first-impression/",
+      "https://www.keeferinctesting.com/2022-2023-yamaha-yz250f-top-5-mods/",
+      "https://www.keeferinctesting.com/2021-7-18-raptor-titanium-offset-footpegs-yamaha-yz250f450f/",
+      "https://pulpmx.com/2020/10/28/six-things-about-the-2021-yamaha-yz250f/"
+     ]
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "weakness",
+     "statement": "Front brake feels mushy or spongy from the factory.",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-2020-yamaha-yz250f",
+      "https://www.keeferinctesting.com/how-to-turn-your-yz-nissin-brakes-into-ktm-brembo-brakes/"
+     ]
+    },
+    {
+     "aspect": "maintenance",
+     "verdict": "weakness",
+     "statement": "Air filter does not seal well; dirt collects at the back of the airbox. The 2020 filter grommet helped but did not fully cure it.",
+     "years": [
+      2019,
+      2020
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-2020-yamaha-yz250f",
+      "https://www.keeferinctesting.com/2019-7-22-2020-yamaha-yz250f-on-track-facts-and-figures/"
+     ]
+    },
+    {
+     "aspect": "maintenance",
+     "verdict": "neutral",
+     "statement": "Stock muffler packing goes raspy after about 10-20 hours.",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com",
+      "PulpMX"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-12-16-fmf-41-rct-stainless-muffler-system-for-2020-yz250f/",
+      "https://www.keeferinctesting.com/2021-9-25-2022-yamaha-yz250f-baseline-settings/",
+      "https://pulpmx.com/2021/05/23/stock-slip-on-or-full-system-yamaha-yz250-450f/"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "weakness",
+     "statement": "Stock lithium batteries failed on a test bike and left the tester stranded.",
+     "years": [
+      2019,
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-1-7-2020-yamaha-yz250f-top-5-mods/",
+      "https://www.keeferinctesting.com/?p=13239"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "weakness",
+     "statement": "A few owners reported cam chain failures on 2019-2020 bikes; the sample is small.",
+     "years": [
+      2019,
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Vital MX forum"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/comment/4039439"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "neutral",
+     "statement": "A few owners tied hard starting, stalling and fouled plugs to the idle setting.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Vital MX forum"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/forums/Moto-Related,20/21-yz250f,1381166?page=10"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "statement": "Cable clutch heats up under hard use and needs free play adjusted between motos.",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-yamaha-yz250f"
+     ]
+    },
+    {
+     "aspect": "maintenance",
+     "verdict": "neutral",
+     "statement": "Some bikes have too much throttle free play even with the adjuster fully out.",
+     "years": [
+      2019,
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2021-5-11-yamaha-yz250f-throttle-cable-fix/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Chassis pitches on corner entry from engine braking",
+     "fix": "Load a less-engine-braking (free-revving) map in the Power Tuner app",
+     "result": "Less decel pitching, lighter mid-corner feel and a little more top end",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2019-7-22-2020-yamaha-yz250f-on-track-facts-and-figures/",
+      "https://www.keeferinctesting.com/2020-11-17-my-favorite-2021-yamaha-yz250f-maps/",
+      "https://pulpmx.com/2020/10/28/six-things-about-the-2021-yamaha-yz250f/"
+     ]
+    },
+    {
+     "problem": "Runs out of pull on top",
+     "fix": "Tuner or factory map aimed at mid and top end",
+     "result": "More pull through 2nd and 3rd and the next gear lands in the power; 13/51 stopped forcing short shifts",
+     "support": 2,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2019-yamaha-yz250f",
+      "https://www.keeferinctesting.com/2021-8-25-2022-yamaha-yz250f-first-impression/"
+     ]
+    },
+    {
+     "problem": "Low-to-mid lacks punch on stock exhaust",
+     "fix": "Full aftermarket exhaust system",
+     "result": "More low-to-mid pull and smoother pull through the gears; top end about the same",
+     "support": 2,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-team-tested-dr-d-2019-yamaha-yz250f-exhaust",
+      "https://www.keeferinctesting.com/2021-1-13-drd-stainless-full-muffler-system/",
+      "https://pulpmx.com/2021/05/23/stock-slip-on-or-full-system-yamaha-yz250-450f/"
+     ]
+    },
+    {
+     "problem": "Throttle response and pull",
+     "fix": "Vent the airbox lid (drilled holes or vented cover)",
+     "result": "More pull and response; intake noise goes up and the filter gets dirtier faster",
+     "support": 2,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2019-yamaha-yz250f",
+      "https://www.keeferinctesting.com/2020-10-19-slater-skins-air-box-cover-yamaha-yz250f450f/",
+      "https://pulpmx.com/2021/01/04/top-5-mods-2021-yamaha-yz250f/"
+     ]
+    },
+    {
+     "problem": "Wants more top end and over-rev",
+     "fix": "Ported head or engine kit (factory accessory kit or dual-injector setup)",
+     "result": "Stronger top-end surge and over-rev, with slightly less low-end response on one kit",
+     "support": 2,
+     "urls": [
+      "https://www.keeferinctesting.com/2021-10-10-2022-yamaha-yz250f-gytr-high-performance-engine-kit/",
+      "https://www.keeferinctesting.com/2022-2023-yamaha-yz250f-top-5-mods/",
+      "https://dirtbiketest.com/product-tests/gytr-ported-cylinder-head/"
+     ]
+    },
+    {
+     "problem": "Fork dives and front washes in flat corners",
+     "fix": "Stiffer 4.8 N/mm fork springs or 5 cc more fork oil",
+     "result": "More hold-up, less pitching and a calmer front under braking",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/?p=13239",
+      "https://www.keeferinctesting.com/2020-1-7-2020-yamaha-yz250f-top-5-mods/"
+     ]
+    },
+    {
+     "problem": "Cramped rider triangle",
+     "fix": "Lower and rearward footpeg mounts (about 5-7 mm down and 5 mm back)",
+     "result": "More room for riders 5'8 to 6'2 without losing ground clearance",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2021-7-18-raptor-titanium-offset-footpegs-yamaha-yz250f450f/",
+      "https://www.keeferinctesting.com/2022-2023-yamaha-yz250f-top-5-mods/",
+      "https://pulpmx.com/2020/10/28/six-things-about-the-2021-yamaha-yz250f/"
+     ]
+    },
+    {
+     "problem": "Spongy front brake",
+     "fix": "Swap to an older KTM Brembo master cylinder with the stock Yamaha caliper",
+     "result": "Firmer, more powerful front brake",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/how-to-turn-your-yz-nissin-brakes-into-ktm-brembo-brakes/",
+      "https://www.keeferinctesting.com/2022-2023-yamaha-yz250f-top-5-mods/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Where the stock engine is strongest",
+     "sides": [
+      "Most tests call it the strongest low-to-mid engine in the class",
+      "One exhaust test found stock weaker from idle to about 10,000 rpm and stronger only above that"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-7-22-2020-yamaha-yz250f-on-track-facts-and-figures/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-yamaha-yz250f",
+      "https://motocrossactionmag.com/mxa-team-tested-dr-d-2019-yamaha-yz250f-exhaust"
+     ]
+    },
+    {
+     "topic": "Stock shock",
+     "sides": [
+      "The shock balances a wide rider weight range with good traction",
+      "Another test found the shock wallows and turned rebound in"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-7-22-2020-yamaha-yz250f-on-track-facts-and-figures/",
+      "https://motocrossactionmag.com/mxa-race-test-2019-yamaha-yz250f"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Yamaha",
+   "model": "YZ250F",
+   "years": [
+    2024,
+    2025,
+    2026
+   ],
+   "generation": "2024-2026 YZ450F-based frame and bigger airbox",
+   "summary": "The 2024 update moved the YZ250F to a slimmer frame based on the YZ450F, with a bigger, lower airbox. Testers agree it lost low-end snap: there is a lag off the bottom and riders need clutch, while the mid and top got stronger. Tuners blame the larger airbox. The chassis turns and tips into ruts more easily but felt busier at speed, and the 2024 fork was soft and dived. The 2025 linkage and shock changes calmed it. Alternative app maps such as the factory 'Response' map are the usual way to bring back the bottom end, and the bike is loud.",
+   "points": [
+    {
+     "aspect": "engine_low",
+     "verdict": "weakness",
+     "statement": "Weaker, laggy bottom end compared with 2023; slower riders need clutch to get into the power and it can bog a gear too tall.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike Test",
+      "keeferinctesting.com",
+      "Cycle News"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+      "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz250f-first-impression/",
+      "https://dirtbiketest.com/fresh-dirt/words-2025-yamaha-yz250f-first-impression/",
+      "https://www.keeferinctesting.com/slater-skins-air-box-cover-2024-yz250f-450f/",
+      "https://cyclenews.com/2024/10/article/2025-yamaha-yz250f-review",
+      "https://motocrossactionmag.com/2024-mxa-250-four-stroke-shootout-suzuki-honda-kawasaki-yamaha-gasgas-husqvarna-ktm"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "strength",
+     "statement": "Stronger mid and high-rpm pull with the best over-rev this engine has had; suits fast riders who keep it revved.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+      "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz250f-first-impression/",
+      "https://dirtbiketest.com/fresh-dirt/words-2025-yamaha-yz250f-first-impression/"
+     ]
+    },
+    {
+     "aspect": "engine_low",
+     "verdict": "neutral",
+     "statement": "Tuners link the softer low end and heavier engine-braking feel to the larger, lower-velocity airbox.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+      "https://www.keeferinctesting.com/slater-skins-air-box-cover-2024-yz250f-450f/",
+      "https://www.keeferinctesting.com/twisted-development-airbox-mod-2024-yamaha-yz250f"
+     ]
+    },
+    {
+     "aspect": "power_delivery",
+     "verdict": "weakness",
+     "statement": "Leaves a gap between 2nd and 3rd gear; needs more shifting and corner speed.",
+     "years": [
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike Test",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz250f-first-impression/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "strength",
+     "statement": "Alternative app maps (the factory 'Response' map, test-rider and tester maps) bring back low-end response; the 2025 standard map already feels like the 2024 'Response' map.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike Test",
+      "Vital MX forum",
+      "keeferinctesting.com",
+      "Cycle News",
+      "PulpMX"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz250f-first-impression/",
+      "https://www.vitalmx.com/comment/5875766",
+      "https://www.keeferinctesting.com/optional-2025-yamaha-yz250f-ecu-map/",
+      "https://www.keeferinctesting.com/2024-2025-yamaha-yz250f-optional-power-tuner-map/",
+      "https://cyclenews.com/2024/10/article/2025-yamaha-yz250f-review",
+      "https://pulpmx.com/2023/09/26/ten-things-about-the-2024-yamaha-yz250f-on-track/"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "statement": "On the 2025, testers preferred the standard map; the performance map added mid and top but took away too much bottom.",
+     "years": [
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/words-2025-yamaha-yz250f-first-impression/"
+     ]
+    },
+    {
+     "aspect": "noise",
+     "verdict": "weakness",
+     "statement": "Loud and raspy when revved, with intake noise from the bigger airbox.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike Test",
+      "Cycle News"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+      "https://motocrossactionmag.com/test-racing-the-2025-yamaha-yz250fx-at-the-ironman-gncc",
+      "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz250f-first-impression/",
+      "https://cyclenews.com/2024/10/article/2025-yamaha-yz250f-review"
+     ]
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "statement": "Feels slim and light, turns and tips into ruts very easily, with more frame feedback.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Australasian Dirt Bike",
+      "Motocross Action",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://adbmag.com.au/editorial/motocross-launch-2024-yamaha-yz250f/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+      "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz250f-first-impression/"
+     ]
+    },
+    {
+     "aspect": "stability",
+     "verdict": "weakness",
+     "statement": "The 2024 front end feels busy or twitchy on fast, rough straights, and the chassis is stiffer and less comfortable than before.",
+     "years": [
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Australasian Dirt Bike",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://adbmag.com.au/editorial/motocross-launch-2024-yamaha-yz250f/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+      "https://motocrossactionmag.com/mxa-team-tested-luxon-mx-gen3-pro-yz250-450-triple-clamp"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "The 2024 fork is soft: it dives in corners and under braking and blows through on big hits, and the bike pitches.",
+     "years": [
+      2024
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Vital MX forum",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-team-tested-ahm-suspension-yz250f-suspension-re-valve/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+      "https://www.vitalmx.com/comment/5867866",
+      "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz250f-first-impression/"
+     ]
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "statement": "The 2024 shock wallows.",
+     "years": [
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-team-tested-ahm-suspension-yz250f-suspension-re-valve/"
+     ]
+    },
+    {
+     "aspect": "balance",
+     "verdict": "strength",
+     "statement": "The 2025 linkage and settings cut fork dive and pitching, hold the bike higher in the stroke and give a more planted rear.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike Test",
+      "Cycle News",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/words-2025-yamaha-yz250f-first-impression/",
+      "https://cyclenews.com/2024/10/article/2025-yamaha-yz250f-review",
+      "https://www.keeferinctesting.com/2025-250-mx-baseline-suspension-settings/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Even on 2024-2026 bikes the fork reacts too quickly when loading the front in corners and the front can wash; the rear sits high for riders under about 160 lb.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com",
+      "PulpMX"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2024-250-mx-baseline-suspension-settings/",
+      "https://www.keeferinctesting.com/2025-250-mx-baseline-suspension-settings/",
+      "https://www.keeferinctesting.com/2026-250-mx-baseline-suspension-settings/",
+      "https://pulpmx.com/2026/01/06/2026-yamaha-yz250f-baseline-suspension-settings-optional-ecu-map/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "statement": "Cable clutch heats up and needs free play adjusted during or between motos.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Australasian Dirt Bike"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+      "https://adbmag.com.au/editorial/motocross-launch-2024-yamaha-yz250f/"
+     ]
+    },
+    {
+     "aspect": "weight_feel",
+     "verdict": "strength",
+     "statement": "About 3 lb lighter than the 2023.",
+     "years": [
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+      "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz250f-first-impression/"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "neutral",
+     "statement": "Cockpit is roomier than 2023 with a flatter seat and lower, rearward pegs, yet riders 5'10 and up still found it cramped.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+      "https://www.keeferinctesting.com/works-connection-aluminum-offset-footpeg-mounts-yamaha-yz250f-450f/"
+     ]
+    },
+    {
+     "aspect": "maintenance",
+     "verdict": "weakness",
+     "statement": "The stock filter let dirt into the intake on a test bike; testers fitted an aftermarket filter and cage.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f"
+     ]
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "weakness",
+     "statement": "Front brake still feels spongy.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/yz-250-450f-brembo-brake-mod-re-visit/"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "neutral",
+     "statement": "Owner reports on 2024-2025 bikes show no pattern of engine failures so far.",
+     "years": [
+      2024,
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Vital MX forum"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/comment/7609446"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "strength",
+     "statement": "Stock Yamaha wheels ranked toughest of the OEM wheelsets tested.",
+     "years": [
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/oem-yamaha-fully-assembled-wheelsets-are-they-worth-it/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "neutral",
+     "statement": "On one tuner's dyno the 2025 was 6th of 8 for peak power and lowest for torque, with the latest torque peak; the magazine noted its part-throttle feel on track is better than the numbers suggest.",
+     "years": [
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/250-motocross-bikes-on-the-dyno-the-wrap/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Weak low end",
+     "fix": "Load the 'Response' preset or a test-rider/tester map",
+     "result": "Low end comes back, revs can drop and 3rd works in corners; 'Response' hits a little harder",
+     "support": 3,
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz250f-first-impression/",
+      "https://www.vitalmx.com/comment/5875766",
+      "https://www.keeferinctesting.com/optional-2025-yamaha-yz250f-ecu-map/",
+      "https://pulpmx.com/2023/09/26/ten-things-about-the-2024-yamaha-yz250f-on-track/"
+     ]
+    },
+    {
+     "problem": "Low-end lull and long 2nd-to-3rd gap",
+     "fix": "One tooth smaller rear sprocket (50 to 49) to lengthen the gears",
+     "result": "Helped the lull but did not fix it",
+     "support": 2,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+      "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz250f-first-impression/"
+     ]
+    },
+    {
+     "problem": "Fork dives and blows through (2024)",
+     "fix": "2-3 clicks more fork compression, raise fork tubes about 2.5 mm, or a stiffer revalve",
+     "result": "Less dive and more hold-up; one revalve for intermediate/pro riders removed wallow, though vet testers preferred stock",
+     "support": 3,
+     "urls": [
+      "https://www.vitalmx.com/comment/5867866",
+      "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz250f-first-impression/",
+      "https://motocrossactionmag.com/mxa-team-tested-ahm-suspension-yz250f-suspension-re-valve/"
+     ]
+    },
+    {
+     "problem": "Front tips in too quickly",
+     "fix": "Slide the fork tubes down a few millimetres in the clamps",
+     "result": "Calmer turn-in",
+     "support": 1,
+     "urls": [
+      "https://adbmag.com.au/editorial/motocross-launch-2024-yamaha-yz250f/"
+     ]
+    },
+    {
+     "problem": "Front twitchy at speed",
+     "fix": "Aftermarket clamps at 23 mm offset (stock 22)",
+     "result": "Calmer entry on choppy ground and less head shake; 22 mm in the aftermarket clamps gave more front traction",
+     "support": 1,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-team-tested-luxon-mx-gen3-pro-yz250-450-triple-clamp"
+     ]
+    },
+    {
+     "problem": "Low-end response",
+     "fix": "Fit a 2023-24 YZ450F airbox with a remapped aftermarket ECU",
+     "result": "Better low-end pickup and more pull through 2nd-4th; 3rd usable in corners",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/twisted-development-airbox-mod-2024-yamaha-yz250f"
+     ]
+    },
+    {
+     "problem": "Low-end response",
+     "fix": "Vented airbox lid",
+     "result": "More low response and mid punch; much louder intake",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/slater-skins-air-box-cover-2024-yz250f-450f/"
+     ]
+    },
+    {
+     "problem": "Fork too quick in corners, rear high for light riders",
+     "fix": "Slower rebound both ends and softer shock high-speed compression for riders under 160 lb",
+     "result": "Calmer chassis; rear squats on exits and the fork settles on braking bumps",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2024-250-mx-baseline-suspension-settings/",
+      "https://www.keeferinctesting.com/2026-250-mx-baseline-suspension-settings/",
+      "https://pulpmx.com/2026/01/06/2026-yamaha-yz250f-baseline-suspension-settings-optional-ecu-map/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Top-end strength in class",
+     "sides": [
+      "Testers found the top end strong and the best over-rev Yamaha has made on this engine",
+      "A 2024 shootout found it still could not match the KTM, Husqvarna, Kawasaki or GasGas at high rpm"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz250f-first-impression/",
+      "https://motocrossactionmag.com/2024-mxa-250-four-stroke-shootout-suzuki-honda-kawasaki-yamaha-gasgas-husqvarna-ktm"
+     ]
+    },
+    {
+     "topic": "2024 stability",
+     "sides": [
+      "Some testers found the front busy and twitchy at speed",
+      "Another test found it nimble with no stability issues"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+      "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz250f-first-impression/"
+     ]
+    },
+    {
+     "topic": "Intake noise",
+     "sides": [
+      "Several tests call the airbox loud",
+      "One launch tester found it quieter than before at lower revs"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz250f",
+      "https://adbmag.com.au/editorial/motocross-launch-2024-yamaha-yz250f/"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Yamaha",
+   "model": "YZ250F",
+   "years": [
+    2027
+   ],
+   "generation": "2027 all-new (YZ450F-based)",
+   "summary": "Only launch impressions exist so far. One heavier tester found it slightly soft right off the bottom but pulling harder and longer as revs rise, turning in willingly, with stock suspension soft over braking bumps for his weight. Another tester's setting changes were aimed at bigger jump landings.",
+   "points": [
+    {
+     "aspect": "engine_low",
+     "verdict": "weakness",
+     "statement": "A touch soft right off the bottom; an accessory intake and a more aggressive map sharpen it.",
+     "years": [
+      2027
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "MotoOnline"
+     ],
+     "urls": [
+      "https://www.motoonline.com/au/tested-2027-yamaha-yz250f/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "strength",
+     "statement": "Pulls harder and longer as revs rise, past where riders expect the limiter.",
+     "years": [
+      2027
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "MotoOnline"
+     ],
+     "urls": [
+      "https://www.motoonline.com/au/tested-2027-yamaha-yz250f/"
+     ]
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "statement": "Turns in willingly and holds lines.",
+     "years": [
+      2027
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "MotoOnline"
+     ],
+     "urls": [
+      "https://www.motoonline.com/au/tested-2027-yamaha-yz250f/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Stock suspension felt soft over braking bumps for a heavier rider.",
+     "years": [
+      2027
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "MotoOnline"
+     ],
+     "urls": [
+      "https://www.motoonline.com/au/tested-2027-yamaha-yz250f/"
+     ]
+    }
+   ],
+   "common_fixes": [],
+   "disagreements": []
+  },
+  {
+   "make": "Yamaha",
+   "model": "YZ450F",
+   "years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+   ],
+   "generation": "2018-2022 electric-start generation",
+   "summary": "Testers liked this generation's engine on the track: broad, linear power with strong pull, though the first crack of throttle can be abrupt and most testers loaded a smoother preset such as the TP map. From 2020 it felt mellower below about 9,000 rpm with lighter engine braking and a more precise chassis. The 2018-2019 felt twitchy at speed. The KYB suspension was praised for comfort across a wide rider weight range, and the cable clutch for its light pull. Recurring complaints were cramped ergonomics for tall riders, seat foam that packs down, an air filter setup that lets dirt in and slow hot restarts.",
+   "points": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "weakness",
+     "statement": "Smooth and linear overall, but the first crack of throttle is abrupt or jerky, especially on hard-pack.",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine",
+      "Dirt Bike Test",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+      "https://dirtbikemagazine.com/2020-yamaha-yz450f-full-test",
+      "https://dirtbiketest.com/fresh-dirt/2022-yamaha-yz450f-same-bike-new-reputation/",
+      "https://www.keeferinctesting.com/2019-8-23-2020-yamaha-yz450f-in-depth-first-ride/",
+      "https://www.keeferinctesting.com/?p=13289"
+     ]
+    },
+    {
+     "aspect": "engine_mid",
+     "verdict": "neutral",
+     "statement": "From 2020 the engine feels mellow below about 9,000 rpm and does its best work above it, with lighter engine braking so it coasts into corners.",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+      "https://dirtbikemagazine.com/2020-yamaha-yz450f-full-test",
+      "https://www.keeferinctesting.com/2019-8-23-2020-yamaha-yz450f-in-depth-first-ride/"
+     ]
+    },
+    {
+     "aspect": "engine_low",
+     "verdict": "strength",
+     "statement": "The 2018-2019 engine had a long usable powerband with strong low end and top end and the best throttle response in its class.",
+     "years": [
+      2018,
+      2019
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine",
+      "Dirtbikes.com"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2018-yamaha-yz450f1",
+      "https://dirtbikemagazine.com/2019-yamaha-yz450f-full-test/",
+      "https://dirtbikes.com/2018-450cc-motocross-shootout-whos-the-best/2"
+     ]
+    },
+    {
+     "aspect": "engine_mid",
+     "verdict": "neutral",
+     "statement": "On magazine dynos it often trails rivals from about 6,000 to 8,000 rpm and comes alive late, even when peak power is competitive.",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+      "https://motocrossactionmag.com/mxa-race-test-2022-yamaha-yz450f",
+      "https://www.dirtrider.com/story/tests/2020-yamaha-yz450f-dyno-test",
+      "https://dirtrider.com/story/tests/2021-yamaha-yz450f-dyno-test"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "statement": "Most testers run a smoother factory preset (the TP map) or a mellower custom map instead of the stock map.",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "keeferinctesting.com",
+      "Motocross Action",
+      "Vital MX",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-8-23-2020-yamaha-yz450f-in-depth-first-ride/",
+      "https://www.keeferinctesting.com/?p=13289",
+      "https://motocrossactionmag.com/mxa-race-test-2022-yamaha-yz450f",
+      "https://motocrossactionmag.com/mxa-race-test-2018-yamaha-yz450f1",
+      "https://www.vitalmx.com/features/2020-Vital-MX-450-Shootout-FULL-TEST,6707",
+      "https://dirtbiketest.com/fresh-dirt/2022-yamaha-yz450f-same-bike-new-reputation/"
+     ]
+    },
+    {
+     "aspect": "power_delivery",
+     "verdict": "weakness",
+     "statement": "Spools up fast and spins or wheelies out of hard-pack corners; mapping alone did not fix it.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-11-4-hinson-momentum-steel-clutch-basket/"
+     ]
+    },
+    {
+     "aspect": "stability",
+     "verdict": "weakness",
+     "statement": "The 2018-2019 felt twitchy and loose at speed and on corner exit compared with the KTM.",
+     "years": [
+      2018,
+      2019
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2018-yamaha-yz450f1",
+      "https://dirtbikemagazine.com/2019-yamaha-yz450f-full-test/"
+     ]
+    },
+    {
+     "aspect": "handling",
+     "verdict": "strength",
+     "statement": "From 2020 the chassis feels more precise, agile and lighter, while still steering mainly from the rear.",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Dirt Bike Test",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2020-yamaha-yz450f-full-test",
+      "https://dirtbiketest.com/fresh-dirt/2022-yamaha-yz450f-same-bike-new-reputation/",
+      "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "statement": "KYB suspension is comfortable and resists bottoming across a wide rider weight range; most testers stayed close to stock.",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Vital MX",
+      "Motocross Action",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2020-yamaha-yz450f-full-test",
+      "https://www.vitalmx.com/features/2020-Vital-MX-450-Shootout-FULL-TEST,6707",
+      "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+      "https://www.keeferinctesting.com/2020-9-28-which-bike-is-best-for-you-2021-yamaha-yz450f-vs-kawasaki-kx450/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Once broken in, the fork dives off throttle and is slightly soft on big bumps at speed.",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/?p=13243",
+      "https://www.keeferinctesting.com/?p=13289",
+      "https://www.keeferinctesting.com/?p=13327"
+     ]
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "statement": "The 2020 shock squats and sits low under throttle, with a harsh mid-stroke.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-8-23-2020-yamaha-yz450f-in-depth-first-ride/",
+      "https://www.keeferinctesting.com/2020-3-9-pro-circuit-link-arm-2020-yamaha-yz450f/"
+     ]
+    },
+    {
+     "aspect": "weight_feel",
+     "verdict": "weakness",
+     "statement": "Feels heavy or vague landing into a lean compared with the KTM and Husqvarna; magazine scales put it 15-17 lb heavier than the KTM.",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "keeferinctesting.com",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-8-23-2020-yamaha-yz450f-in-depth-first-ride/",
+      "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+      "https://motocrossactionmag.com/mxa-race-test-2018-yamaha-yz450f1"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "statement": "Cramped for tall riders, with bars high and seat low on 2018-2019 and a firm seat that packs down.",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+      "https://dirtbikemagazine.com/2019-yamaha-yz450f-full-test/",
+      "https://www.keeferinctesting.com/2019-10-7-yz450f-gytr-tall-seat/",
+      "https://www.keeferinctesting.com/2020-10-7-flo-motorsports-lowering-footpegs-yamaha-yz450f/",
+      "https://www.keeferinctesting.com/pdr-performance-offset-footpeg-mount-yamaha-yz450f/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "strength",
+     "statement": "The cable clutch was rated the best non-hydraulic clutch in the class with an easy pull.",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+      "https://dirtbikemagazine.com/2019-yamaha-yz450f-full-test/",
+      "https://dirtbikemagazine.com/2020-yamaha-yz450f-full-test"
+     ]
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "neutral",
+     "statement": "The 2018-2019 brakes had weak initial bite and then grabbed; the 2020 Nissin front is much stronger and touchier.",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2018-yamaha-yz450f1",
+      "https://www.keeferinctesting.com/2019-8-23-2020-yamaha-yz450f-in-depth-first-ride/"
+     ]
+    },
+    {
+     "aspect": "maintenance",
+     "verdict": "weakness",
+     "statement": "Air filter setup lets dirt in: the flat filter dries on the backfire screen, and without the screen dirt can drop into the boot during filter changes.",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+      "https://www.keeferinctesting.com/2019-12-2-twin-air-power-flow-filter-kit-yamaha-yz450f/",
+      "https://www.keeferinctesting.com/yamaha-gytr-air-flow-kit-yz450f/",
+      "https://motocrossactionmag.com/mxa-team-tested-yamaha-gytr-yz450f-airflow-kit/"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "weakness",
+     "statement": "Slow hot restarts after a stall and quick overheating at idle.",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike Test",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/2022-yamaha-yz450f-same-bike-new-reputation/",
+      "https://dirtbikemagazine.com/2020-yamaha-yz450f-full-test"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "strength",
+     "statement": "One test bike went 100 hours with basic maintenance.",
+     "years": [
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-9-28-which-bike-is-best-for-you-2021-yamaha-yz450f-vs-kawasaki-kx450/"
+     ]
+    },
+    {
+     "aspect": "maintenance",
+     "verdict": "weakness",
+     "statement": "The wrap-around exhaust is hard to remove and intake noise is loud.",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2022-yamaha-yz450f",
+      "https://dirtbikemagazine.com/2020-yamaha-yz450f-full-test"
+     ]
+    },
+    {
+     "aspect": "other",
+     "verdict": "strength",
+     "statement": "Won a 2020 450 bracket shootout and was ranked first or second by every tester in another.",
+     "years": [
+      2020
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "keeferinctesting.com",
+      "Vital MX"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-6-2020-450-mx-bracket-shootout-the-podium/",
+      "https://www.vitalmx.com/features/2020-Vital-MX-450-Shootout-FULL-TEST,6707"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Abrupt low-end hit",
+     "fix": "Run the smoother TP 3.0 preset or another softer factory map",
+     "result": "Linear, easy roll-on that pulls longer; also good for starts",
+     "support": 3,
+     "urls": [
+      "https://www.keeferinctesting.com/2019-8-23-2020-yamaha-yz450f-in-depth-first-ride/",
+      "https://www.keeferinctesting.com/?p=13289",
+      "https://motocrossactionmag.com/mxa-race-test-2022-yamaha-yz450f",
+      "https://www.vitalmx.com/features/2020-Vital-MX-450-Shootout-FULL-TEST,6707"
+     ]
+    },
+    {
+     "problem": "Abrupt low end for experienced riders",
+     "fix": "Ride one gear higher on the stock map",
+     "result": "Softens the hit and engine braking and avoids stalling",
+     "support": 2,
+     "urls": [
+      "https://dirtbikemagazine.com/2020-yamaha-yz450f-full-test",
+      "https://dirtbiketest.com/fresh-dirt/2022-yamaha-yz450f-same-bike-new-reputation/"
+     ]
+    },
+    {
+     "problem": "Wheelspin on hard-pack exits",
+     "fix": "Heavier steel clutch basket",
+     "result": "Calmer exits and less wheelspin, with slightly more engine braking",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2020-11-4-hinson-momentum-steel-clutch-basket/"
+     ]
+    },
+    {
+     "problem": "Rear squats under throttle",
+     "fix": "Longer aftermarket link arm plus softer high-speed compression",
+     "result": "Flatter decel, better exit traction; firmer if ridden lazily",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2020-3-9-pro-circuit-link-arm-2020-yamaha-yz450f/"
+     ]
+    },
+    {
+     "problem": "Fork dives and shock squats",
+     "fix": "Revalve on stock springs",
+     "result": "More fork hold-up without deflection, firmer shock that squats less",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/?p=13289",
+      "https://www.keeferinctesting.com/?p=17321"
+     ]
+    },
+    {
+     "problem": "Cramped for tall riders",
+     "fix": "Taller seat and lower/rearward footpegs",
+     "result": "Better attack position and easier sit-to-stand",
+     "support": 2,
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-7-yz450f-gytr-tall-seat/",
+      "https://www.keeferinctesting.com/2020-10-7-flo-motorsports-lowering-footpegs-yamaha-yz450f/",
+      "https://www.keeferinctesting.com/pdr-performance-offset-footpeg-mount-yamaha-yz450f/",
+      "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f"
+     ]
+    },
+    {
+     "problem": "Air intake",
+     "fix": "Domed filter kit and raised airbox lid, optionally with a tuner map",
+     "result": "About 2 hp more at peak and more over-rev on one magazine dyno",
+     "support": 1,
+     "urls": [
+      "https://motocrossactionmag.com/mxas-crazy-trick-to-get-our-2021-yamaha-yz450f-over-60-horsepower/"
+     ]
+    },
+    {
+     "problem": "Chassis unsettled on acceleration and braking",
+     "fix": "Change gearing from 13/49 to 14/53",
+     "result": "Chassis settles and 3rd stays usable",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2022-mx-gearing-guide-updated/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Engine strength vs rivals",
+     "sides": [
+      "A tester's head-to-head found it ahead of the KX450 at low, mid and top",
+      "Magazine dynos put it near the bottom of the class from 6,000 to 8,000 rpm"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-9-28-which-bike-is-best-for-you-2021-yamaha-yz450f-vs-kawasaki-kx450/",
+      "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz450f",
+      "https://www.dirtrider.com/story/tests/2020-yamaha-yz450f-dyno-test"
+     ]
+    },
+    {
+     "topic": "Best map choice",
+     "sides": [
+      "Most testers preferred the TP preset or a mellower map",
+      "One magazine preferred the new 2020 stock map on loose, good-traction tracks"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-8-23-2020-yamaha-yz450f-in-depth-first-ride/",
+      "https://dirtbikemagazine.com/2020-yamaha-yz450f-full-test"
+     ]
+    },
+    {
+     "topic": "Aftermarket exhaust",
+     "sides": [
+      "One test found both aftermarket systems lost some over-rev against a very good stock system",
+      "Other tests found full systems smoothed roll-on and added mid and top"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-11-25-fmf-vs-pro-circuit-2020-yamaha-yz450f-muffler-comparison/",
+      "https://pulpmx.com/2021/05/23/stock-slip-on-or-full-system-yamaha-yz250-450f/"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Yamaha",
+   "model": "YZ450F",
+   "years": [
+    2023,
+    2024,
+    2025
+   ],
+   "generation": "2023-2025 all-new engine and frame",
+   "summary": "Testers rate this engine among the strongest in the class, but the first crack of throttle is very sharp: it wheelies and breaks traction, and most testers detune it with a richer low-rpm map, a flywheel weight or a smoother exhaust. The 2023-2024 chassis turns sharper than any earlier YZ450F but gives up straight-line stability, with head shake and oversteer. The 2025 linkage and mount changes calmed it for most testers. Recurring complaints are a cable clutch that fades, a thin hard seat, dirt getting past the filter cage and a loud intake.",
+   "points": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "weakness",
+     "statement": "Very sharp first crack of throttle: it pops out of ruts, wheelies and breaks traction; most riders need it detuned.",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "support": 5,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine",
+      "keeferinctesting.com",
+      "Australasian Dirt Bike",
+      "Cycle News"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+      "https://motocrossactionmag.com/mxa-race-test-2025-yamaha-yz450f/",
+      "https://dirtbikemagazine.com/riding-the-2024-yamaha-yz450f-long-term-the-wrap/",
+      "https://www.keeferinctesting.com/yamaha-yz450f-flywheel-weight/",
+      "https://adbmag.com.au/editorial/product-test-2-gytr-akrapovic-titanium-exhaust/",
+      "https://www.cyclenews.com/2024/09/article/2025-yamaha-yz450f-review/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "strength",
+     "statement": "Very strong, linear pull through the mid and top with a long over-rev; among the most powerful engines in the class.",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Cycle News",
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+      "https://www.cyclenews.com/2024/09/article/2025-yamaha-yz450f-review/",
+      "https://motocrossactionmag.com/mxa-race-test-2025-yamaha-yz450f/",
+      "https://www.dirtrider.com/tests/yamaha-yz450f-dyno-test-2025"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "statement": "Testers detune it with a richer low-rpm or smoother map; a fully softened map still revs past 11,000 rpm.",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine",
+      "keeferinctesting.com",
+      "Australasian Dirt Bike"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+      "https://motocrossactionmag.com/ask-the-mxperts-does-mxa-have-any-updated-2023-2024-yz450f-maps",
+      "https://dirtbikemagazine.com/riding-the-2025-yamaha-yz450f-the-wrap/",
+      "https://www.keeferinctesting.com/?p=24385",
+      "https://adbmag.com.au/editorial/2024-yamaha-yz450f-dyno-test/"
+     ]
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "statement": "The sharpest-turning YZ450F yet, feeling lighter and more agile than 2022.",
+     "years": [
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+      "https://www.keeferinctesting.com/fcp-engine-mounts-2023-yz450f/"
+     ]
+    },
+    {
+     "aspect": "stability",
+     "verdict": "weakness",
+     "statement": "Less stable at speed: aggressive turn-in, front-end oversteer and head shake, plus harshness at the edge of the tire.",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "keeferinctesting.com",
+      "Cycle News"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+      "https://motocrossactionmag.com/mxa-race-test-2025-yamaha-yz450f/",
+      "https://motocrossactionmag.com/mxa-team-tested-luxon-mx-gen3-pro-yz250-450-triple-clamp",
+      "https://www.keeferinctesting.com/fcp-engine-mounts-2023-yz450f/",
+      "https://www.cyclenews.com/2024/09/article/2025-yamaha-yz450f-review/"
+     ]
+    },
+    {
+     "aspect": "balance",
+     "verdict": "strength",
+     "statement": "The 2025 linkage, mounts and springs make it more planted and less twitchy, with less pitching.",
+     "years": [
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Cycle News",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2024/09/article/2025-yamaha-yz450f-review/",
+      "https://www.keeferinctesting.com/2025-450-mx-baseline-suspension-settings/"
+     ]
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "statement": "Shock is stiff on high-speed compression relative to a softer fork; on 2023 it also sat low on big hits.",
+     "years": [
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "keeferinctesting.com",
+      "Vital MX forum"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2023-450-mx-baseline-suspension-settings/",
+      "https://www.keeferinctesting.com/2024-450-mx-suspension-baseline-settings/",
+      "https://www.keeferinctesting.com/the-weekend-race-set-up-2023-yamaha-yz450f/",
+      "https://www.vitalmx.com/forums/moto-related/2024-yz-450-stock-suspension-set"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "The softer 2025 fork springs suit vets and novices, but fast testers found the front too soft.",
+     "years": [
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-yamaha-yz450f/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "The 2023 front end is light in shallow ruts and pushes when setting up wide.",
+     "years": [
+      2023
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2023-yamaha-yz450f-triple-clamp-mod/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "statement": "The disc-spring cable clutch fades or slips under hard use and its spring is too soft; plates last 10-12 hours for a rider who covers the clutch.",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+      "https://motocrossactionmag.com/mxa-race-test-2025-yamaha-yz450f/",
+      "https://www.keeferinctesting.com/the-weekend-race-set-up-2023-yamaha-yz450f/",
+      "https://www.keeferinctesting.com/should-you-hydraulic-or-cable-23-24-yz450f-gytr-hydraulic-clutch-kit/"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "statement": "Seat is thin, domed and stiff, breaks down within about 8-10 hours, and the side panel catches boots.",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "keeferinctesting.com",
+      "Cycle News"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+      "https://motocrossactionmag.com/mxa-race-test-2025-yamaha-yz450f/",
+      "https://www.keeferinctesting.com/guts-racing-wide-top-seat-foam-2023-2024-yz450f/",
+      "https://www.keeferinctesting.com/seat-concepts-race-2-0-complete-seat-23-24-yz450f/",
+      "https://www.cyclenews.com/2024/09/article/2025-yamaha-yz450f-review/"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "statement": "Even with the lower, rearward pegs the cockpit is cramped for riders 5'10 and up.",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/works-connection-aluminum-offset-footpeg-mounts-yamaha-yz250f-450f/"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "statement": "On 2023-2024 the map button sits where the kill button gets pressed, and the throttle position causes thumb blisters.",
+     "years": [
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Cycle News"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450f",
+      "https://www.cyclenews.com/2024/09/article/2025-yamaha-yz450f-review/"
+     ]
+    },
+    {
+     "aspect": "maintenance",
+     "verdict": "weakness",
+     "statement": "Dirt can get past the filter cage at the front edge, and pulling the filter lets dirt drop into the intake.",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+      "https://www.keeferinctesting.com/twin-air-power-flow-kit-2023-yamaha-yz450f/",
+      "https://motocrossactionmag.com/mxa-team-tested-2024-yz450f-twin-air-powerflow-kit-srp-high-flow-airbox-cover/"
+     ]
+    },
+    {
+     "aspect": "noise",
+     "verdict": "weakness",
+     "statement": "Loud intake roar from the front airbox.",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Cycle News",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2024/09/article/2025-yamaha-yz450f-review/",
+      "https://dirtbikemagazine.com/riding-the-2024-yamaha-yz450f-long-term-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "weight_feel",
+     "verdict": "strength",
+     "statement": "About 5 lb lighter than the 2022 on magazine scales.",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450f",
+      "https://dirtbikemagazine.com/2023-yamaha-yz450f-weight-correction/"
+     ]
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "weakness",
+     "statement": "2nd and 3rd gear are poorly spaced for some riders.",
+     "years": [
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-yamaha-yz450f/"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "weakness",
+     "statement": "Several consumer 2025 bikes broke connecting rods.",
+     "years": [
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-yamaha-yz450f/"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "strength",
+     "statement": "Stock Yamaha wheels ranked toughest of the OEM wheelsets tested.",
+     "years": [
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/oem-yamaha-fully-assembled-wheelsets-are-they-worth-it/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Abrupt low end",
+     "fix": "Richer map below about 5,000 rpm, often with a 48-tooth rear sprocket",
+     "result": "Calmer exits; taller 2nd pulls longer before 3rd",
+     "support": 1,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f",
+      "https://motocrossactionmag.com/ask-the-mxperts-does-mxa-have-any-updated-2023-2024-yz450f-maps",
+      "https://motocrossactionmag.com/mxa-race-test-2025-yamaha-yz450f/"
+     ]
+    },
+    {
+     "problem": "Spools fast, wheelies and spins",
+     "fix": "Flywheel weight (about 80 g)",
+     "result": "Calmer power build, more traction and better lugging without extra engine braking",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/yamaha-yz450f-flywheel-weight/"
+     ]
+    },
+    {
+     "problem": "Harsh initial hit",
+     "fix": "Aftermarket slip-on or full exhaust",
+     "result": "Smoother, more linear low end and better rear traction, revving out about as far as stock",
+     "support": 3,
+     "urls": [
+      "https://pulpmx.com/2023/06/14/fmf-4-1-slip-on-2023-yamaha-yz450f/",
+      "https://www.vitalmx.com/features/fmf-factory-4-1-slip-2024-yamaha-yz450f-tested",
+      "https://www.keeferinctesting.com/?p=27581",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450f"
+     ]
+    },
+    {
+     "problem": "Head shake and oversteer at speed",
+     "fix": "Slide forks down in the clamps, snug the steering stem slightly, or fit 23 mm offset clamps",
+     "result": "Calmer steering and straighter tracking",
+     "support": 1,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-yamaha-yz450f/",
+      "https://motocrossactionmag.com/mxa-team-tested-luxon-mx-gen3-pro-yz250-450-triple-clamp",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450f"
+     ]
+    },
+    {
+     "problem": "Unstable on braking bumps",
+     "fix": "Aftermarket engine mounts",
+     "result": "Calmer over braking bumps and more front feel on throttle, slightly heavier turn-in",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/fcp-engine-mounts-2023-yz450f/",
+      "https://pulpmx.com/2025/08/24/final-draft-2025-yamaha-yz450f/"
+     ]
+    },
+    {
+     "problem": "Clutch fade",
+     "fix": "Factory-accessory hydraulic clutch kit or an aftermarket basket and spring kit",
+     "result": "Lighter pull, more consistent engagement and starts",
+     "support": 2,
+     "urls": [
+      "https://www.keeferinctesting.com/should-you-hydraulic-or-cable-23-24-yz450f-gytr-hydraulic-clutch-kit/",
+      "https://www.keeferinctesting.com/the-weekend-race-set-up-2023-yamaha-yz450f/",
+      "https://motocrossactionmag.com/mxa-race-test-2025-yamaha-yz450f/",
+      "https://pulpmx.com/2025/08/24/final-draft-2025-yamaha-yz450f/"
+     ]
+    },
+    {
+     "problem": "Rear squat and empty feel under load",
+     "fix": "Aftermarket linkage with sag reset to 104-105 mm",
+     "result": "Better rear traction and comfort",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/?p=28593"
+     ]
+    },
+    {
+     "problem": "Air intake",
+     "fix": "Domed filter kit plus a vented airbox cover",
+     "result": "Over 2 hp gained and quicker revving; much louder",
+     "support": 1,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-team-tested-2024-yz450f-twin-air-powerflow-kit-srp-high-flow-airbox-cover/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "2025 stability",
+     "sides": [
+      "One review found the 2025 more planted and less twitchy at speed",
+      "A race test still found head shake at speed and tuck on entry until clamps and fork height were changed"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2024/09/article/2025-yamaha-yz450f-review/",
+      "https://motocrossactionmag.com/mxa-race-test-2025-yamaha-yz450f/"
+     ]
+    },
+    {
+     "topic": "Factory smooth map",
+     "sides": [
+      "One magazine's testers mostly chose the factory Smooth Linear map and kept it",
+      "Another found it did not tame the low end enough and built a richer custom map"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/riding-the-2025-yamaha-yz450f-the-wrap/",
+      "https://motocrossactionmag.com/ask-the-mxperts-does-mxa-have-any-updated-2023-2024-yz450f-maps"
+     ]
+    },
+    {
+     "topic": "Gearing direction",
+     "sides": [
+      "One magazine went to a 48-tooth rear to soften exits",
+      "A tester went to 13/50 on deep East Coast dirt to recover 2nd and reach 3rd sooner"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-yamaha-yz450f/",
+      "https://www.keeferinctesting.com/2025-mx-gearing-guide/"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Yamaha",
+   "model": "YZ450F",
+   "years": [
+    2026
+   ],
+   "generation": "2026 update (intake, flywheel, hydraulic clutch, frame stiffness)",
+   "summary": "Testers found the 2026 smoother, quieter and easier to ride than 2025, but it gives up some low-rpm snap and peak power and ranked mid-pack or lower on shootout dynos. Several shootouts still rated it highly because the chassis is more stable and balanced than 2023-2025 while turning precisely, although it carves deep ruts and flat turns less well than the best rivals. The fork is the main setup issue: testers found it harsh in the mid-stroke but disagreed on why. The 51-tooth stock rear sprocket makes 2nd gear very short.",
+   "points": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "statement": "Smoother and easier to ride, with a more linear low-mid and a broader peak.",
+     "years": [
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/?p=101518",
+      "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+      "https://motocrossactionmag.com/mxa-race-test-2026-yamaha-yz450f/"
+     ]
+    },
+    {
+     "aspect": "engine_low",
+     "verdict": "weakness",
+     "statement": "Feels more plugged up or choked down low than 2025 and gives up some peak and quick revving.",
+     "years": [
+      2026
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "keeferinctesting.com",
+      "Motocross Action",
+      "Vital MX",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/optional-2026-yamaha-yz450f-maps/",
+      "https://motocrossactionmag.com/mxa-race-test-2026-yamaha-yz450f/",
+      "https://www.vitalmx.com/comment/8453606",
+      "https://dirtbikemagazine.com/?p=101518"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "neutral",
+     "statement": "Ranked mid-pack or lower on shootout dynos (about 54-57 hp), roughly 3 hp below the 2025 on one magazine's dyno.",
+     "years": [
+      2026
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Vital MX",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/?p=101733",
+      "https://www.vitalmx.com/comment/8453606",
+      "https://motocrossactionmag.com/mxa-race-test-2026-yamaha-yz450f/"
+     ]
+    },
+    {
+     "aspect": "power_delivery",
+     "verdict": "weakness",
+     "statement": "More engine braking than 2024-2025 makes it harder to roll corners and upsets the chassis on entry.",
+     "years": [
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/?p=29402"
+     ]
+    },
+    {
+     "aspect": "stability",
+     "verdict": "strength",
+     "statement": "More stable and balanced than 2023-2025 while still turning precisely.",
+     "years": [
+      2026
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2026-yamaha-yz450f/",
+      "https://dirtbikemagazine.com/?p=101518",
+      "https://www.keeferinctesting.com/?p=29460"
+     ]
+    },
+    {
+     "aspect": "turning",
+     "verdict": "weakness",
+     "statement": "Slides through flat turns more than it carves; weaker in deep ruts and flat-turn traction than the best rivals.",
+     "years": [
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Vital MX",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+      "https://dirtbikemagazine.com/?p=101518"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Fork feels harsh or stiff in the mid-stroke and can overpower the shock, hurting front traction.",
+     "years": [
+      2026
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Vital MX",
+      "keeferinctesting.com",
+      "Dirt Bike magazine",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+      "https://www.keeferinctesting.com/?p=29306",
+      "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+      "https://motocrossactionmag.com/mxa-race-test-2026-yamaha-yz450f/"
+     ]
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "strength",
+     "statement": "Shock is much better than the 2025.",
+     "years": [
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/?p=29306"
+     ]
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "weakness",
+     "statement": "The stock 51-tooth rear sprocket makes 2nd gear very short and 3rd can struggle in some corners.",
+     "years": [
+      2026
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "keeferinctesting.com",
+      "Vital MX",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/?p=29762",
+      "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+      "https://motocrossactionmag.com/mxa-race-test-2026-yamaha-yz450f/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "strength",
+     "statement": "The new hydraulic clutch is lighter and needs no mid-moto adjustment.",
+     "years": [
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2026-yamaha-yz450f/"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "statement": "Round seat, tall feel and side panels that catch boots.",
+     "years": [
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2026-yamaha-yz450f/",
+      "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/"
+     ]
+    },
+    {
+     "aspect": "vibration",
+     "verdict": "strength",
+     "statement": "Little to no vibration; least in one 2026 shootout.",
+     "years": [
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Vital MX",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/comment/8453606",
+      "https://www.keeferinctesting.com/?p=29460"
+     ]
+    },
+    {
+     "aspect": "noise",
+     "verdict": "strength",
+     "statement": "Noticeably quieter than 2023-2025.",
+     "years": [
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2026-yamaha-yz450f/"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "weakness",
+     "statement": "Exposed stator wire and clutch line, and a low-pressure radiator cap.",
+     "years": [
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2026-yamaha-yz450f/"
+     ]
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "neutral",
+     "statement": "Owners around 230 lb say it needs heavier springs.",
+     "years": [
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Vital MX forum"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/comment/8819881"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "2nd gear too short",
+     "fix": "Go from 13/51 to 13/50",
+     "result": "Usable 2nd for vet riders and 3rd comes in easier; fast riders kept 51",
+     "support": 2,
+     "urls": [
+      "https://www.keeferinctesting.com/?p=29762",
+      "https://motocrossactionmag.com/mxa-race-test-2026-yamaha-yz450f/"
+     ]
+    },
+    {
+     "problem": "Engine feels choked",
+     "fix": "Fit a 2025-style accessory airbox or raised intake cover with a freer aftermarket or 2025 exhaust",
+     "result": "Stronger, more responsive feel with clearer bottom-end gain",
+     "support": 2,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2026-yamaha-yz450f/",
+      "https://adbmag.com.au/editorial/long-term-test-10-2026-yamaha-yz450f/"
+     ]
+    },
+    {
+     "problem": "Engine braking upsets corner entry",
+     "fix": "App map that relaxes the engine on deceleration",
+     "result": "Better corner-entry balance",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/?p=29402"
+     ]
+    },
+    {
+     "problem": "Low end lacks excitement",
+     "fix": "Optional test-rider or tester maps",
+     "result": "More low-end excitement or exit connection",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/optional-2026-yamaha-yz450f-maps/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Why the fork feels harsh",
+     "sides": [
+      "One shootout found it stiff early and overpowering the shock; the fix was raising the fork 2-5 mm and softening compression",
+      "A race test found it was actually too soft and riding low where damping ramps up; more shock sag plus 2 clicks stiffer fork compression made it plusher"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+      "https://motocrossactionmag.com/mxa-race-test-2026-yamaha-yz450f/"
+     ]
+    },
+    {
+     "topic": "Turning",
+     "sides": [
+      "One magazine said the new frame turns with less effort",
+      "Another shootout found it weaker carving flat turns and ruts"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+      "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Yamaha",
+   "model": "YZ450F",
+   "years": [
+    2027
+   ],
+   "generation": "2027 update",
+   "summary": "Only one day-one magazine test so far. On paper the 2027 fork is softer, but testers found it rode higher in the stroke and harsher than the 2026, and they softened fork compression.",
+   "points": [
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Fork rides higher in the stroke and feels harsher than 2026 despite softer specs; testers went 2 clicks softer on compression, and slower riders raised the forks 5 mm.",
+     "years": [
+      2027
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/2027-yamaha-yz450f-test-can-our-shootout-winner-get-better/"
+     ]
+    }
+   ],
+   "common_fixes": [],
+   "disagreements": []
+  },
+  {
+   "make": "Yamaha",
+   "model": "YZ450FX",
+   "years": [
+    2019,
+    2020
+   ],
+   "generation": "2019-2020",
+   "summary": "One outlet tested this generation. Testers found it strong and smooth off the bottom, hard to stall and free-revving, with a plush, stable chassis. On the 2019 the clutch lost bite on sudden release.",
+   "points": [
+    {
+     "aspect": "engine_low",
+     "verdict": "strength",
+     "statement": "Strong, smooth bottom end that is hard to stall, then lively and free-revving through the mid and top.",
+     "years": [
+      2019,
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/2019-yamaha-yz450fx-riding-impression"
+     ]
+    },
+    {
+     "aspect": "handling",
+     "verdict": "strength",
+     "statement": "Plush and stable chassis.",
+     "years": [
+      2019,
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/2019-yamaha-yz450fx-riding-impression"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "statement": "Clutch lost bite on sudden release on the 2019 test bike.",
+     "years": [
+      2019
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/2019-yamaha-yz450fx-riding-impression"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Sprint enduro setup",
+     "fix": "A little less fork compression, a little more shock high-speed compression, rear ride height kept up, one tooth smaller rear sprocket for tight going",
+     "result": "Better balance in tight terrain",
+     "support": 1,
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/2019-yamaha-yz450fx-riding-impression"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "make": "Yamaha",
+   "model": "YZ450FX",
+   "years": [
+    2021,
+    2022,
+    2023
+   ],
+   "generation": "2021-2023",
+   "summary": "Testers found this FX smooth and torquey down low, able to lug deep without much clutch and stall less than rivals, though the stock map 1 felt too aggressive and jerky off the bottom. The chassis felt more agile than the 2019-2020 but steered heavier in tight trees. Stock suspension suits slow technical terrain but is too soft for fast GP and desert racing.",
+   "points": [
+    {
+     "aspect": "engine_low",
+     "verdict": "strength",
+     "statement": "Smooth low-end torque that lugs deep with little clutch; stalls less than rivals.",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/bike-tests/2021-yamaha-yz450fx/"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "weakness",
+     "statement": "Stock map 1 feels too aggressive and jerky off the bottom; testers prefer softer maps for tight terrain.",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike Test",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/bike-tests/2023-yamaha-yz450fx/",
+      "https://dirtbiketest.com/bike-tests/2021-yamaha-yz450fx/",
+      "https://www.keeferinctesting.com/2021-5-24-2021-yamaha-yz450fx-optional-maps/"
+     ]
+    },
+    {
+     "aspect": "handling",
+     "verdict": "neutral",
+     "statement": "More agile and precise than 2019-2020 but with longer, heavier steering in tight trees.",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/bike-tests/2024-yamaha-yz450fx/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Stock suspension is too soft for high-speed GP or desert racing and rides low; it works well in slow technical terrain.",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-grand-prix-racing-on-the-yamaha-yz450fx-honda-crf450rx/",
+      "https://dirtbiketest.com/fresh-dirt/tuned-2022-yamaha-yz450fx-bike-build-phase-1/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2023-yamaha-yz450fx/"
+     ]
+    },
+    {
+     "aspect": "engine_mid",
+     "verdict": "neutral",
+     "statement": "About 53 hp on one magazine's dyno.",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://dirtrider.com/story/tests/2021-yamaha-yz450fx-dyno-test"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Too soft for desert and GP",
+     "fix": "Stiffer fork and shock springs with minor valving changes, and 14/52 gearing",
+     "result": "Better bump absorption and bottoming resistance; chassis settles on acceleration and 2nd is usable in corners",
+     "support": 1,
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/tuned-2022-yamaha-yz450fx-bike-build-phase-1/"
+     ]
+    },
+    {
+     "problem": "Abrupt in tight terrain",
+     "fix": "Softer tester-made map",
+     "result": "Can lug with little clutch",
+     "support": 2,
+     "urls": [
+      "https://dirtbiketest.com/bike-tests/2023-yamaha-yz450fx/",
+      "https://www.keeferinctesting.com/2021-5-24-2021-yamaha-yz450fx-optional-maps/"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "make": "Yamaha",
+   "model": "YZ450FX",
+   "years": [
+    2024,
+    2025,
+    2026
+   ],
+   "generation": "2024-2026 (based on the 2023 YZ450F)",
+   "summary": "Testers agree the FX is quick and strong through the mid and top, but they disagree on the low end: one magazine called it detuned and manageable, while another found the low-rpm response crisp enough to be unsettling and tuned the maps down. First gear is so low it is rarely used. The most common chassis complaint is a lack of stability at speed, with slight head shake in chop. Opinions on the KYB suspension range from plush and predictable to stiff and race-oriented.",
+   "points": [
+    {
+     "aspect": "gearing",
+     "verdict": "neutral",
+     "statement": "First gear is extremely low and rarely used; 2nd works in tight woods and 3rd is the key gear.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450fx-cross-country/",
+      "https://dirtbiketest.com/bike-tests/2024-yamaha-yz450fx/"
+     ]
+    },
+    {
+     "aspect": "stability",
+     "verdict": "weakness",
+     "statement": "Wants more stability at speed; slight head shake over high-speed chop.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike Test",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450fx-cross-country/",
+      "https://dirtbiketest.com/fresh-dirt/this-or-that-23-5mm-ride-engineering-vs-luxon-triple-clamps-for-yamaha/",
+      "https://www.keeferinctesting.com/2025-yamaha-yz450fx-off-road-race-test/"
+     ]
+    },
+    {
+     "aspect": "handling",
+     "verdict": "neutral",
+     "statement": "Feels much lighter and more precise than earlier FX models, with a little front squirm under hard braking and less bump compliance.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/bike-tests/2024-yamaha-yz450fx/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "statement": "KYB spring fork rated the most predictable of the off-road 450s: plush and never blows through.",
+     "years": [
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450fx-cross-country/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "A 200 lb tester found the fork soft and sometimes harsh and slowed rebound; stock springs are slightly light for that weight.",
+     "years": [
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz450fx-off-road-racer-first-impression/"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "statement": "Seat shape, harsh grips and hard-to-grip sides; no stock handguards.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450fx-cross-country/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "neutral",
+     "statement": "Cable clutch survived a 10-hour race, but testers preferred the accessory hydraulic kit.",
+     "years": [
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450fx-cross-country/"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "statement": "In tight or muddy terrain testers run the mellow map with the app power slider turned down and traction control on; fast riders keep the stock map.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz450fx-off-road-racer-first-impression/",
+      "https://dirtbiketest.com/bike-tests/2025-yamaha-yz450fx/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2026-yamaha-yz450fx/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Head shake in high-speed chop",
+     "fix": "Two clicks more fork compression, 23.5 mm offset clamps, or a more stretched-out setup for fast races",
+     "result": "Head shake gone, more stability and plant; one setup turned worse when seated",
+     "support": 3,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450fx-cross-country/",
+      "https://dirtbiketest.com/fresh-dirt/this-or-that-23-5mm-ride-engineering-vs-luxon-triple-clamps-for-yamaha/",
+      "https://www.keeferinctesting.com/2025-yamaha-yz450fx-off-road-race-test/"
+     ]
+    },
+    {
+     "problem": "Fast GP and desert",
+     "fix": "Fork 5 mm up (stock 8) with more compression, 100 mm sag, 14/52 or 14/53 gearing",
+     "result": "More stability at speed",
+     "support": 1,
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/2024-2025-yz450fx-chassis-setup-tips/"
+     ]
+    },
+    {
+     "problem": "Throttle jolts and stalling in tight terrain",
+     "fix": "Factory-accessory 50 g flywheel weight",
+     "result": "Smoother off idle and less stall risk; revs build slower, so 3rd is harder to pull for fast riders",
+     "support": 1,
+     "urls": [
+      "https://dirtbiketest.com/product-tests/gytr-flywheel-weight-for-yz450fx/"
+     ]
+    },
+    {
+     "problem": "Rocky GP flats",
+     "fix": "Foam mousse inserts",
+     "result": "No flats in rocky races",
+     "support": 1,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450fx-cross-country/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Low-end character",
+     "sides": [
+      "One race test called it detuned, quick-revving and manageable",
+      "Another found crisp, sometimes unsettling low-rpm response, and the 2026 stock map felt aggressive"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450fx-cross-country/",
+      "https://dirtbiketest.com/bike-tests/2024-yamaha-yz450fx/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2026-yamaha-yz450fx/"
+     ]
+    },
+    {
+     "topic": "Suspension feel",
+     "sides": [
+      "Rated plush and the most predictable of the off-road 450s",
+      "Found stiff and race-oriented on the 2026, or soft for a 200 lb rider"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-yamaha-yz450fx-cross-country/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2026-yamaha-yz450fx/",
+      "https://dirtbiketest.com/fresh-dirt/2024-yamaha-yz450fx-off-road-racer-first-impression/"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Yamaha",
+   "model": "YZ250FX",
+   "years": [
+    2020,
+    2021
+   ],
+   "generation": "2020-2021",
+   "summary": "Testers liked the FX's strong bottom end and wide-ratio gearbox, which lets riders stay in one gear on most trails, with top-end pull close to the best 250Fs. The stock suspension suits East Coast roots and rocks but is too soft for fast GP, desert or motocross. Starting was a weak point, especially in gear or on hot restarts.",
+   "points": [
+    {
+     "aspect": "engine_low",
+     "verdict": "strength",
+     "statement": "Strong bottom end that lugs well; the wide-ratio box lets most trail be ridden in one gear.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "keeferinctesting.com",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-11-20-33rk864ebg2i6lk3ymoq8ff0y2peh1/",
+      "https://dirtbiketest.com/bike-tests/2020-yamaha-yz250fx/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "strength",
+     "statement": "No mid-to-top drop-off, and top-end pull close to the hardest-pulling 250F, though it is not the quickest-revving.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/bike-tests/2020-yamaha-yz250fx/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "statement": "GNCC-style valving rolls over rocks and roots and suits East Coast woods.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "keeferinctesting.com",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-11-20-33rk864ebg2i6lk3ymoq8ff0y2peh1/",
+      "https://dirtbiketest.com/bike-tests/2020-yamaha-yz250fx/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Stock suspension is too soft and wallowy for fast GP, desert, motocross or aggressive riders.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike Test",
+      "Motocross Action",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/bike-tests/2020-yamaha-yz250fx/",
+      "https://dirtbiketest.com/product-tests/precision-concepts-suspension-revalve-for-yz250fx/",
+      "https://motocrossactionmag.com/amp/mxa-race-test-2021-yamaha-yz250fx-cross-country/",
+      "https://www.keeferinctesting.com/2020-8-26-2020-yamaha-yz250fx-reviewbaseline-suspension-settings/"
+     ]
+    },
+    {
+     "aspect": "other",
+     "verdict": "weakness",
+     "statement": "Hard to start in gear and on hot restarts.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "keeferinctesting.com",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-11-20-33rk864ebg2i6lk3ymoq8ff0y2peh1/",
+      "https://dirtbiketest.com/bike-tests/2020-yamaha-yz250fx/"
+     ]
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "weakness",
+     "statement": "On MX or GP tracks riders hunt between 2nd-3rd and 3rd-4th.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/bike-tests/2020-yamaha-yz250fx/"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "neutral",
+     "statement": "A long-term desert bike needed throttle cables and wheel bearings around 60 hours, clutch plates at 75 and a top end with timing chain around 80; its crank later failed after engine mods and long stretches on the rev limiter.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/long-haul-update-2020-yamaha-yz250fx-update-2/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Too soft for fast racing",
+     "fix": "Stiffer springs, revalve and fork oil raised (295 cc to about 320-365 cc)",
+     "result": "More hold-up for braking and turns, smoother bottoming, less see-saw while keeping comfort",
+     "support": 1,
+     "urls": [
+      "https://dirtbiketest.com/product-tests/precision-concepts-suspension-revalve-for-yz250fx/"
+     ]
+    },
+    {
+     "problem": "Gaps between gears on MX or GP",
+     "fix": "Add 1-2 teeth to the rear sprocket",
+     "result": "Less hunting between gears",
+     "support": 1,
+     "urls": [
+      "https://dirtbiketest.com/bike-tests/2020-yamaha-yz250fx/"
+     ]
+    },
+    {
+     "problem": "Hard starting in gear",
+     "fix": "Start in neutral, or crack the throttle while pressing the starter",
+     "result": "Starts reliably",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2019-11-20-33rk864ebg2i6lk3ymoq8ff0y2peh1/"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "make": "Yamaha",
+   "model": "YZ250FX",
+   "years": [
+    2022,
+    2023,
+    2024
+   ],
+   "generation": "2022-2024 engine update",
+   "summary": "Mainly one outlet's first impression. Testers found strong low-end torque that lugs and recovers from too tall a gear, a strong midrange and a top end competitive with the highest-revving 250Fs. The stock fork felt firm early and rode high while the shock felt soft, so the bike was unbalanced until the clickers were reset.",
+   "points": [
+    {
+     "aspect": "engine_low",
+     "verdict": "strength",
+     "statement": "Exceptional low-end torque for a 250F that lugs and recovers from too tall a gear, with a strong mid and a competitive top end.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2022-yamaha-yz250fx/"
+     ]
+    },
+    {
+     "aspect": "balance",
+     "verdict": "weakness",
+     "statement": "Fork feels firm early and rides high while the shock is soft, leaving the bike unbalanced at stock settings.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2022-yamaha-yz250fx/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "neutral",
+     "statement": "About 38 hp on one magazine's rear-wheel dyno, essentially the same as 2021.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://www.dirtrider.com/story/tests/yamaha-yz250fx-dyno-test-2022"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Front-to-rear imbalance",
+     "fix": "Soften the fork clickers and add shock high-speed compression",
+     "result": "Balanced and raceable close to stock",
+     "support": 1,
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2022-yamaha-yz250fx/"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "make": "Yamaha",
+   "model": "YZ250FX",
+   "years": [
+    2025,
+    2026
+   ],
+   "generation": "2025-2026 (based on the 2024 YZ250F)",
+   "summary": "Testers found a longer, more linear powerband with a strong bottom-end hit, and suspension that stays plush over roots and rocks while resisting bottoming. Two separate tests reported the bike hard to start in gear even when warm.",
+   "points": [
+    {
+     "aspect": "other",
+     "verdict": "weakness",
+     "statement": "Hard to start in gear even when warm; riders restart in neutral.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Ultimate Motorcycling"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/test-racing-the-2025-yamaha-yz250fx-at-the-ironman-gncc",
+      "https://ultimatemotorcycling.com/2025/07/28/2025-yamaha-yz250fx-review-11-fast-facts-from-the-trails/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "statement": "Plush over rocks, roots and whoops yet resists bottoming at stock settings.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Ultimate Motorcycling"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/test-racing-the-2025-yamaha-yz250fx-at-the-ironman-gncc",
+      "https://ultimatemotorcycling.com/2025/07/28/2025-yamaha-yz250fx-review-11-fast-facts-from-the-trails/"
+     ]
+    },
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "statement": "Longer, more linear powerband with a strong bottom-end hit.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/test-racing-the-2025-yamaha-yz250fx-at-the-ironman-gncc"
+     ]
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "neutral",
+     "statement": "One tester sometimes wanted a lower 1st and taller 6th.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Ultimate Motorcycling"
+     ],
+     "urls": [
+      "https://ultimatemotorcycling.com/2025/07/28/2025-yamaha-yz250fx-review-11-fast-facts-from-the-trails/"
+     ]
+    }
+   ],
+   "common_fixes": [],
+   "disagreements": []
+  },
+  {
+   "make": "Yamaha",
+   "model": "YZ125",
+   "years": [
+    2020,
+    2021
+   ],
+   "generation": "2020-2021 (Mikuni carb engine)",
+   "summary": "Magazine tests found the older YZ125 pulled harder than the KTM 125 below about 8,000 rpm and was easy to keep on the pipe, but fell well behind it on top. Suspension is set up for light riders.",
+   "points": [
+    {
+     "aspect": "engine_low",
+     "verdict": "strength",
+     "statement": "Pulls harder than the KTM 125 below about 8,000 rpm and is easy to keep on the pipe.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxas-2020-ktm-125sx-vs-2020-yamaha-yz125-unshootout",
+      "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz125"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "statement": "Clearly slower than the KTM 125 above about 8,000 rpm, roughly 3-4 hp down at peak.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxas-2020-ktm-125sx-vs-2020-yamaha-yz125-unshootout",
+      "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz125"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Set up for light riders; fast or heavy riders need stiffer springs.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-yamaha-yz125-two-stroke/"
+     ]
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "weakness",
+     "statement": "Stock gearing is slightly tall for a lugging style.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-3-29-top-6-mods-to-the-yamaha-yz125/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Gearing slightly tall",
+     "fix": "13/49 sprocket",
+     "result": "More 2nd-gear grunt and earlier 3rd",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2020-3-29-top-6-mods-to-the-yamaha-yz125/"
+     ]
+    },
+    {
+     "problem": "Wants more power",
+     "fix": "Aftermarket pipe (about 2 hp); porting with raised compression and race gas for more",
+     "result": "Pipe choice moves power toward the top or toward the low-mid",
+     "support": 2,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2021-yamaha-yz125",
+      "https://www.keeferinctesting.com/?p=13106"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "make": "Yamaha",
+   "model": "YZ125",
+   "years": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026,
+    2027
+   ],
+   "generation": "2022-on new engine (Keihin carb, power jet)",
+   "summary": "The 2022 engine traded bottom end for more mid-to-top: testers found it weaker off the bottom and slower to come on the pipe, so riders slip the clutch out of turns, though pros liked it. On dynos it trails the European 125s. Many owners report rich jetting down low, with plug fouling and bogging, and lean it out. The suspension suits roughly 150-175 lb riders; heavier or faster riders find it soft.",
+   "points": [
+    {
+     "aspect": "engine_low",
+     "verdict": "weakness",
+     "statement": "Weaker off the bottom and slower to come on the pipe than the 2021; riders slip the clutch out of turns and beginners struggle.",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine",
+      "Vital MX"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-yamaha-yz125",
+      "https://dirtbikemagazine.com/riding-the-2023-yamaha-yz125x-the-wrap/",
+      "https://www.vitalmx.com/features/fastest-yz125-ever-project-bike-pro-circuit-yamaha-yz125"
+     ]
+    },
+    {
+     "aspect": "engine_mid",
+     "verdict": "strength",
+     "statement": "Stronger from about 7,500 rpm to peak than the old engine; pros liked it.",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-yamaha-yz125"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "statement": "Makes the least peak power of the current 125s on magazine dynos.",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/the-must-read-motocross-action-2022-125-two-stroke-shootout",
+      "https://motocrossactionmag.com/test-update-2023-yamaha-yz125-two-stroke-trustworty-timeless-true",
+      "https://dirtbikemagazine.com/125-2-strokes-on-the-dyno-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "jetting",
+     "verdict": "weakness",
+     "statement": "Stock jetting runs rich low-to-mid: plug fouling on trails, burbling on coast-down and bogs off jump faces.",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Vital MX forum",
+      "keeferinctesting.com",
+      "PulpMX",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/22-YZ125-fouling-plugs,1404714?page=0",
+      "https://www.keeferinctesting.com/?p=27807",
+      "https://pulpmx.com/2025/04/22/2025-yamaha-yz125-old-guy-on-a-small-bike/",
+      "https://motocrossactionmag.com/mxa-race-test-2025-yamahas-legacy-two-strokes-2025-yz125-yz250/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "neutral",
+     "statement": "Suspension suits roughly 150-175 lb riders; heavier or faster riders find it soft, even after the 2025 spring and valving change.",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "keeferinctesting.com",
+      "PulpMX",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/?p=27807",
+      "https://www.keeferinctesting.com/?p=28088",
+      "https://pulpmx.com/2025/04/22/2025-yamaha-yz125-old-guy-on-a-small-bike/",
+      "https://motocrossactionmag.com/mxa-race-test-2025-yamahas-legacy-two-strokes-2025-yz125-yz250/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "The 2022 springs and valving are too stiff for riders around 155 lb and for novice or vet riders.",
+     "years": [
+      2022
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-yamaha-yz125"
+     ]
+    },
+    {
+     "aspect": "tires",
+     "verdict": "weakness",
+     "statement": "Stock front tire lost grip after 6-8 hours.",
+     "years": [
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/?p=28088"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Rich low end, fouling and bog",
+     "fix": "Leaner pilot jet and a different needle (Y4 or CCL family), air screw about 1.25-1.75 turns, power jet adjusted",
+     "result": "Cleaner low end with no bog for most owners; no single fix works for everyone",
+     "support": 3,
+     "urls": [
+      "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/22-YZ125-fouling-plugs,1404714?page=0",
+      "https://www.vitalmx.com/comment/8990241",
+      "https://www.procircuit.com/jetting-specs16",
+      "https://www.procircuit.com/jetting-specs17",
+      "https://www.keeferinctesting.com/?p=27807"
+     ]
+    },
+    {
+     "problem": "Can't pull 3rd in deep soil or hills",
+     "fix": "13/50 rear sprocket",
+     "result": "3rd gear usable",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/?p=28088",
+      "https://pulpmx.com/2025/04/22/2025-yamaha-yz125-old-guy-on-a-small-bike/"
+     ]
+    },
+    {
+     "problem": "More top end",
+     "fix": "Aftermarket pipe and silencer",
+     "result": "No change below about 9,500 rpm, then faster build and more over-rev (about 1.4 hp on one dyno)",
+     "support": 2,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-team-tested-pro-circuit-2022-yz125-pipe-silencer",
+      "https://www.keeferinctesting.com/?p=28088"
+     ]
+    },
+    {
+     "problem": "Soft low end",
+     "fix": "Bolt-on package: pipe, ported cylinder and head, race piston, programmable ignition, reeds",
+     "result": "Soft low end gone and strong pull into the over-rev on race fuel",
+     "support": 1,
+     "urls": [
+      "https://www.vitalmx.com/features/fastest-yz125-ever-project-bike-pro-circuit-yamaha-yz125"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Midrange on track vs dyno",
+     "sides": [
+      "Dynos put it last among the current 125s",
+      "One magazine's riders still rated it strongest in the midrange, crediting its low flywheel effect"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/125-2-strokes-on-the-dyno-the-wrap/"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Yamaha",
+   "model": "YZ250",
+   "years": [
+    2020,
+    2021
+   ],
+   "generation": "2020-2021 (pre-2022 bodywork)",
+   "summary": "The YZ250 engine has been largely unchanged since 2006. A magazine found it makes its best power higher in the revs and does not like being lugged, so riders need the clutch out of corners. The KTM 250 SX was stronger low-mid, but the Yamaha was easier to ride and kept pulling past its peak. Owners often find stock jetting rich down low.",
+   "points": [
+    {
+     "aspect": "engine_low",
+     "verdict": "weakness",
+     "statement": "Doesn't like being lugged and needs clutch out of corners; the KTM 250 SX is about 4 hp stronger around 7,000 rpm.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-yamaha-yz250",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-yamaha-yz250-two-stroke/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "strength",
+     "statement": "Keeps pulling past its peak and is easier to ride than the KTM.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-yamaha-yz250",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-yamaha-yz250-two-stroke/"
+     ]
+    },
+    {
+     "aspect": "jetting",
+     "verdict": "weakness",
+     "statement": "Stock pilot runs rich at the bottom near sea level.",
+     "years": [
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Vital MX forum"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/2021-YZ250-Jetting-Yes-I-know-jetting,1386593"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Rich low end",
+     "fix": "Leaner pilot (about 45-48) and smaller power jet, needle clip adjusted",
+     "result": "Cleaner low end; one trail rider stopped fouling plugs",
+     "support": 2,
+     "urls": [
+      "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/2021-YZ250-Jetting-Yes-I-know-jetting,1386593",
+      "https://www.procircuit.com/jetting-specs17"
+     ]
+    },
+    {
+     "problem": "Off-idle dip",
+     "fix": "Re-time the power-valve governor by changing thrust washers so the valve opens earlier",
+     "result": "Fills the dip; needs a leaner power jet",
+     "support": 1,
+     "urls": [
+      "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Re-timing-the-YZ250-pv-governor,1380968"
+     ]
+    },
+    {
+     "problem": "More power",
+     "fix": "Aftermarket pipe",
+     "result": "About 2.5 hp more, mostly mid and up; too strong a hit for some vets on hard-pack",
+     "support": 1,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-team-tested-pro-circuit-03-21-yz250-pipe-and-silencer/"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "make": "Yamaha",
+   "model": "YZ250",
+   "years": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026,
+    2027
+   ],
+   "generation": "2022-on bodywork, airbox and suspension update",
+   "summary": "Testers describe a clean bottom and a hard-hitting midrange that needs a careful throttle into turns, pulling steadily to about 8,800 rpm. Lighter, slower and older riders found the stiffer 2022-on suspension harsh, while heavier riders found the stock springs light. The fork dives and pitches after break-in. Owners commonly lean out the jetting and tighten the head's squish.",
+   "points": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "neutral",
+     "statement": "Clean off idle with a hard-hitting midrange that needs careful throttle into turns; easy to keep in the meat, while the KTM is stronger low-mid but signs off sooner.",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz250-two-stroke",
+      "https://dirtbikemagazine.com/2022-yamaha-yz250-2-stroke-full-test"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Stock springs are light for riders over about 155-170 lb.",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "PulpMX",
+      "Motocross Action",
+      "Ride JBI Suspension"
+     ],
+     "urls": [
+      "https://pulpmx.com/2022/01/04/2022-yamaha-yz250-review-baseline-settings/",
+      "https://motocrossactionmag.com/mxa-team-tested-n2dirt-2022-yamaha-yz250-suspension-mods/",
+      "https://www.ridejbi.com/2022-2026-yamaha-yz250/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "The stiffer 2022-on valving feels harsh for vets, novices and light riders.",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz250-two-stroke",
+      "https://motocrossactionmag.com/mxa-race-test-2025-yamahas-legacy-two-strokes-2025-yz125-yz250/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "After break-in the fork dives under hard braking and pitches the bike forward.",
+     "years": [
+      2022,
+      2023
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz250-two-stroke"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "statement": "The KYB setup has enough hold-up yet absorbs small bumps and feels balanced for an average rider.",
+     "years": [
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2024-yz250-weekend-warrior-review/"
+     ]
+    },
+    {
+     "aspect": "weight_feel",
+     "verdict": "strength",
+     "statement": "About 217 lb without fuel, roughly 10 lb lighter than a YZ250F.",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2022-yamaha-yz250-2-stroke-full-test"
+     ]
+    },
+    {
+     "aspect": "maintenance",
+     "verdict": "weakness",
+     "statement": "The rear-facing airbox scoops let water in when washing, and the 22 mm swingarm axle limits wheel swaps.",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz250-two-stroke"
+     ]
+    },
+    {
+     "aspect": "jetting",
+     "verdict": "weakness",
+     "statement": "Owners often find stock jetting rich, even at the magazine's recommended settings.",
+     "years": [
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Vital MX forum"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/comment/8196441"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Springs too light for heavier riders",
+     "fix": "Stiffer springs (about 4.6 N/mm fork, 52 N/mm shock) or a respring with revalve",
+     "result": "One revalve fixed a fast-moving, knifing front and harsh mid-stroke while staying plush",
+     "support": 2,
+     "urls": [
+      "https://pulpmx.com/2022/01/04/2022-yamaha-yz250-review-baseline-settings/",
+      "https://motocrossactionmag.com/mxa-team-tested-n2dirt-2022-yamaha-yz250-suspension-mods/"
+     ]
+    },
+    {
+     "problem": "Fork dives and pitches after break-in",
+     "fix": "Close up fork compression and rebound",
+     "result": "More hold-up",
+     "support": 1,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz250-two-stroke"
+     ]
+    },
+    {
+     "problem": "Rich jetting",
+     "fix": "Leaner pilot, smaller power jet and needle clip changes",
+     "result": "Cleaner running; adjust for season",
+     "support": 2,
+     "urls": [
+      "https://www.vitalmx.com/comment/8196441",
+      "https://www.procircuit.com/jetting-specs17"
+     ]
+    },
+    {
+     "problem": "Too much hit",
+     "fix": "Longer silencer, milder head insert, a few degrees of ignition retard, earlier power-valve spring or a flywheel weight",
+     "result": "More linear delivery; power-valve damper results were mixed",
+     "support": 1,
+     "urls": [
+      "https://www.vitalmx.com/comment/8689971"
+     ]
+    },
+    {
+     "problem": "Large stock squish band",
+     "fix": "Mill the head to tighten squish to about 0.045 in on pump fuel",
+     "result": "Sharper running; head dowel bores may need deepening",
+     "support": 1,
+     "urls": [
+      "https://www.vitalmx.com/comment/8672966",
+      "https://www.vitalmx.com/comment/8196441"
+     ]
+    },
+    {
+     "problem": "Aftermarket pipe running rich",
+     "fix": "Raise needle one clip and drop the main one size",
+     "result": "Correct jetting with the pipe",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2021-10-2-fmf-fattygnarly-pipe-amp-powercore-2-silencer-2022-yz250/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "How aggressive the power is",
+     "sides": [
+      "A magazine found it hits harder than the KTM in the midrange",
+      "Another tester found it smooth and manageable rather than abrupt"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2022-yamaha-yz250-2-stroke-full-test",
+      "https://pulpmx.com/2022/01/04/2022-yamaha-yz250-review-baseline-settings/"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Yamaha",
+   "model": "YZ125X",
+   "years": [
+    2020,
+    2021,
+    2022
+   ],
+   "generation": "2020-2022 first generation (Mikuni)",
+   "summary": "Testers found the X much more tractable than the YZ125, smooth and torquey down low for a 125, which helps in tight woods. The top end is slower-revving and down on the European 125s. The soft cross-country suspension is plush on small hits but bottoms on big motocross impacts for heavier or faster riders. The small tank and lack of skid plate and handguards were the main practical complaints.",
+   "points": [
+    {
+     "aspect": "engine_low",
+     "verdict": "strength",
+     "statement": "Smooth, controllable bottom end that lugs well for a 125; easier to recover from too tall a gear.",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike Test",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-yamaha-yz125x-cross-country",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2020-yamaha-yz125x",
+      "https://www.keeferinctesting.com/2021-4-5-long-term-with-the-2021-yamaha-yz-125x/",
+      "https://www.keeferinctesting.com/2019-11-20-33rk864ebg2i6lk3ymoq8ff0y2peh1/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "statement": "Slower-revving and signs off early on top; clearly down on the Husqvarna TC125.",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "keeferinctesting.com",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2021-4-5-long-term-with-the-2021-yamaha-yz-125x/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2020-yamaha-yz125x"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Soft cross-country settings bottom on big MX-style hits for heavier or faster riders; one tester called it badly undersprung at 190 lb.",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "keeferinctesting.com",
+      "Dirt Bike Test",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-11-20-33rk864ebg2i6lk3ymoq8ff0y2peh1/",
+      "https://www.keeferinctesting.com/2021-4-5-long-term-with-the-2021-yamaha-yz-125x/",
+      "https://www.keeferinctesting.com/2020-12-8-2021-yamaha-yz125x-review-from-a-doctors-point-of-view/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2020-yamaha-yz125x",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-yamaha-yz125x-cross-country"
+     ]
+    },
+    {
+     "aspect": "other",
+     "verdict": "weakness",
+     "statement": "Small tank gives roughly 40 minutes of hard riding.",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-yamaha-yz125x-cross-country",
+      "https://www.keeferinctesting.com/2021-4-5-long-term-with-the-2021-yamaha-yz-125x/"
+     ]
+    },
+    {
+     "aspect": "other",
+     "verdict": "weakness",
+     "statement": "No skid plate or handguards; motocross tires work poorly off-road and vice versa.",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-yamaha-yz125x-cross-country"
+     ]
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "weakness",
+     "statement": "Front brake is only average.",
+     "years": [
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2021-4-5-long-term-with-the-2021-yamaha-yz-125x/"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "strength",
+     "statement": "45 hours of riding with only routine maintenance; the cable clutch held up.",
+     "years": [
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "keeferinctesting.com"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2021-4-5-long-term-with-the-2021-yamaha-yz-125x/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Front vague in chop and tight turns",
+     "fix": "Reduce race sag from about 110 mm to 107 mm",
+     "result": "More front traction in tight turns",
+     "support": 1,
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2020-yamaha-yz125x"
+     ]
+    },
+    {
+     "problem": "Soft for MX use",
+     "fix": "Stiffer clickers and 10 cc more fork oil, or respring and revalve",
+     "result": "Better hold-up; heavier riders still need springs",
+     "support": 2,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2020-yamaha-yz125x-cross-country",
+      "https://www.keeferinctesting.com/2021-4-5-long-term-with-the-2021-yamaha-yz-125x/"
+     ]
+    },
+    {
+     "problem": "Weak front brake",
+     "fix": "Oversize rotor and braided line",
+     "result": "Stronger front brake",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2021-4-5-long-term-with-the-2021-yamaha-yz-125x/"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "make": "Yamaha",
+   "model": "YZ125X",
+   "years": [
+    2023,
+    2024,
+    2025,
+    2026,
+    2027
+   ],
+   "generation": "2023-on (Keihin engine)",
+   "summary": "Testers found the second-generation X surprisingly torquey for a 125. It has much more low end than the 2022-on YZ125 and less engine braking, but a weaker top end. The soft suspension soaks up rocks and roots, while heavier or faster riders may want it stiffer. There is still no electric start and the tank is small.",
+   "points": [
+    {
+     "aspect": "engine_low",
+     "verdict": "strength",
+     "statement": "Surprisingly torquey; it can lug a taller gear and has much more low end than the motocross YZ125.",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Cycle News",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2024/06/article/2024-yamaha-yz125x-review/",
+      "https://dirtbikemagazine.com/riding-the-2023-yamaha-yz125x-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "statement": "Weaker top end; slower than the YZ125.",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/riding-the-2023-yamaha-yz125x-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "statement": "Softer KYB settings absorb repeated rock, root and braking-bump hits; heavier or faster riders may want it stiffer.",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Cycle News"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2024/06/article/2024-yamaha-yz125x-review/"
+     ]
+    },
+    {
+     "aspect": "other",
+     "verdict": "weakness",
+     "statement": "No electric start and a small 1.8 gal tank that limits range.",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Cycle News"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2024/06/article/2024-yamaha-yz125x-review/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Jetting for racing",
+     "fix": "Leaner pilot with a different needle and slide cutaway",
+     "result": "Cleaner running at race pace",
+     "support": 1,
+     "urls": [
+      "https://www.vitalmx.com/comment/7693891",
+      "https://www.vitalmx.com/comment/8990241"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "make": "Yamaha",
+   "model": "YZ250X",
+   "years": [
+    2020,
+    2021,
+    2022
+   ],
+   "generation": "2020-2022",
+   "summary": "Mainly one magazine's race test plus owner reports. The X is milder and more tractable than the YZ250, with a perky low-to-mid that suits rocky, tight terrain, but it does not make more power than the YZ250 anywhere. On a motocross track the tall 4th and 5th gears leave gaps, and the soft suspension bottoms on big jumps. Owners note it often finds neutral on 2-to-1 downshifts.",
+   "points": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "statement": "Milder and more tractable than the YZ250 with a perky low-to-mid for rocky, tight terrain; it never out-powers the YZ250.",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-2020-yamaha-yz250x-cross-country",
+      "https://motocrossactionmag.com/ask-the-mxperts-the-x-factor-versus-the-non-x-factor"
+     ]
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "weakness",
+     "statement": "Tall 4th and 5th leave big gaps on a motocross track.",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-2020-yamaha-yz250x-cross-country"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Soft suspension rides low and bottoms on big jumps for fast riders.",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-2020-yamaha-yz250x-cross-country"
+     ]
+    },
+    {
+     "aspect": "other",
+     "verdict": "weakness",
+     "statement": "Small tank and short reserve, no handguards or skid plate, kick start only.",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "ThumperTalk forum"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-2020-yamaha-yz250x-cross-country",
+      "https://www.thumpertalk.com/forums/topic/1430531-yz250x-talk-me-into-it/page/2"
+     ]
+    },
+    {
+     "aspect": "other",
+     "verdict": "weakness",
+     "statement": "Downshifting from 2nd to 1st on the move often finds neutral.",
+     "years": [
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "ThumperTalk forum"
+     ],
+     "urls": [
+      "https://www.thumpertalk.com/forums/topic/1430531-yz250x-talk-me-into-it/page/2"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "statement": "Testers liked stiffer clutch springs better than the softer stock ones.",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-2020-yamaha-yz250x-cross-country"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Stalling and hard hits in tight terrain",
+     "fix": "Heavier flywheel, auto-clutch, revalve and respring, 13/51 gearing",
+     "result": "Easier trail manners; owners call the carb simple once set up",
+     "support": 1,
+     "urls": [
+      "https://www.thumpertalk.com/forums/topic/1430531-yz250x-talk-me-into-it/page/2"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "make": "Yamaha",
+   "model": "YZ250X",
+   "years": [
+    2023,
+    2024,
+    2025,
+    2026,
+    2027
+   ],
+   "generation": "2023-on",
+   "summary": "One outlet's test. The newer intake reduced the on/off feel at the bottom and mid while keeping the two-stroke rush on top. The soft suspension worked in the woods and on an MX track without bottoming.",
+   "points": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "statement": "Smooth, strong low end with less on/off feel, but still revs out like a 250 two-stroke.",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Cycle News"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2024/04/article/2024-yamaha-yz250x-review/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "statement": "Softer than the YZ250 and absorbs roots and acceleration bumps without bottoming; go stiffer for fast western terrain.",
+     "years": [
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Cycle News"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2024/04/article/2024-yamaha-yz250x-review/"
+     ]
+    }
+   ],
+   "common_fixes": [],
+   "disagreements": []
+  },
+  {
+   "make": "Yamaha",
+   "model": "WR250F",
+   "years": [
+    2020,
+    2021
+   ],
+   "generation": "2020-2021",
+   "summary": "Little tester feedback exists for these years. The US bike ships restricted, and owners uncork it. Tall stock gearing made 2nd hard to hold in slow corners on one test bike.",
+   "points": [
+    {
+     "aspect": "engine_mid",
+     "verdict": "neutral",
+     "statement": "About 3 hp less than the YZ250F on the same magazine dyno in US form.",
+     "years": [
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://www.dirtrider.com/story/tests/2021-yamaha-wr250f-dyno-test"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Restricted US engine",
+     "fix": "Remove throttle stop, muffler restrictor and intake restrictor; pair with the competition ECU and a little more fuel if the tailpipe comes out",
+     "result": "Engine runs closer to YZ-FX output",
+     "support": 1,
+     "urls": [
+      "https://robrobinette.com/WR250F_Uncork.htm"
+     ]
+    },
+    {
+     "problem": "2nd gear runs out in slow corners",
+     "fix": "13/48 instead of 13/50 plus a slip-on and header",
+     "result": "Holds 2nd through slow corners; sharper response but less grip in slick going",
+     "support": 1,
+     "urls": [
+      "https://transmoto.com.au/2020-wr250f-12-bang-for-buck-mods/"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "make": "Yamaha",
+   "model": "WR250F",
+   "years": [
+    2022,
+    2023,
+    2024
+   ],
+   "generation": "2022-2024 (YZ250F-derived frame)",
+   "summary": "One European test. Testers found the 2022 stronger across the range, especially mid to top where it revs freely. Stalling and slow hot restarts were still a trait. The small oil capacity calls for frequent oil changes.",
+   "points": [
+    {
+     "aspect": "engine_top",
+     "verdict": "strength",
+     "statement": "Stronger across the range, especially mid to top, revving freely so gears can be held longer.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Enduro21"
+     ],
+     "urls": [
+      "https://enduro21.com/en/bikes/latest/tested-2022-yamaha-wr250f"
+     ]
+    },
+    {
+     "aspect": "other",
+     "verdict": "weakness",
+     "statement": "Still stalls more readily than a two-stroke in technical going, and hot restarts are awkward; a softer map reduces stalling.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Enduro21"
+     ],
+     "urls": [
+      "https://enduro21.com/en/bikes/latest/tested-2022-yamaha-wr250f"
+     ]
+    },
+    {
+     "aspect": "maintenance",
+     "verdict": "neutral",
+     "statement": "Small engine oil capacity, so testers advise frequent changes.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Enduro21"
+     ],
+     "urls": [
+      "https://enduro21.com/en/bikes/latest/tested-2022-yamaha-wr250f"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Restricted US engine",
+     "fix": "Remove throttle stop and restrictors and fit the competition ECU",
+     "result": "Stronger running; the ECU alone did not change off-idle response",
+     "support": 1,
+     "urls": [
+      "https://robrobinette.com/WR250F_Uncork.htm"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "make": "Yamaha",
+   "model": "WR250F",
+   "years": [
+    2025,
+    2026,
+    2027
+   ],
+   "generation": "2025-on",
+   "summary": "Testers found the 2025 lively, with a bigger midrange kick and a smooth climb to a high rev limit. The softer handlebar map tames it. The KYB suspension splits opinion: firm and precise at speed, but stiff on slow technical trails for some, while a 90 kg rider rated it excellent without changes. It is still a little easy to stall, and hot restarts can be slow.",
+   "points": [
+    {
+     "aspect": "engine_mid",
+     "verdict": "strength",
+     "statement": "Lively, with a bigger midrange kick than before and smooth all the way to a high rev limit.",
+     "years": [
+      2025,
+      2026,
+      2027
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Enduro21",
+      "AMCN"
+     ],
+     "urls": [
+      "https://enduro21.com/en/news/tested-2025-yamaha-wr250f-agile-racy-the-best-wr250f-yet",
+      "https://amcn.com.au/editorial/dirt-test-2025-yamaha-wr250f/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Fork feels stiff on slow technical trails, though firm and precise at speed.",
+     "years": [
+      2025,
+      2026,
+      2027
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Enduro21",
+      "Upshift"
+     ],
+     "urls": [
+      "https://enduro21.com/en/news/tested-2025-yamaha-wr250f-agile-racy-the-best-wr250f-yet",
+      "https://upshiftonline.com/blogs/content/2025-yamaha-wr250f-tested-in-idahos-high-country"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Fork transmits jolts through the arms over bigger chop for fast riders.",
+     "years": [
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Transmoto"
+     ],
+     "urls": [
+      "https://transmoto.com.au/2025-wr250f-suspension-set-up-tips/"
+     ]
+    },
+    {
+     "aspect": "other",
+     "verdict": "weakness",
+     "statement": "A little easy to stall, and hot restarts can take several seconds, worse after a stall on a hill.",
+     "years": [
+      2025,
+      2026,
+      2027
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Enduro21",
+      "AMCN"
+     ],
+     "urls": [
+      "https://enduro21.com/en/news/tested-2025-yamaha-wr250f-agile-racy-the-best-wr250f-yet",
+      "https://amcn.com.au/editorial/dirt-test-2025-yamaha-wr250f/"
+     ]
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "strength",
+     "statement": "Six-speed spread works from tight singletrack to fire roads.",
+     "years": [
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "AMCN"
+     ],
+     "urls": [
+      "https://amcn.com.au/editorial/dirt-test-2025-yamaha-wr250f/"
+     ]
+    },
+    {
+     "aspect": "maintenance",
+     "verdict": "weakness",
+     "statement": "The linkage collects dirt, and the right-side axle marks are hidden, so align the wheel from the left.",
+     "years": [
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Enduro21"
+     ],
+     "urls": [
+      "https://enduro21.com/en/bikes/latest/long-term-test-saying-hello-to-our-new-2026-yamaha-wr250f"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Chassis balance",
+     "fix": "Run less race sag than usual (about 95-100 mm)",
+     "result": "Better-balanced chassis",
+     "support": 1,
+     "urls": [
+      "https://transmoto.com.au/2025-wr250f-suspension-set-up-tips/"
+     ]
+    },
+    {
+     "problem": "Slick conditions",
+     "fix": "Use the softer second map",
+     "result": "Flatter midrange with some traction-control effect",
+     "support": 1,
+     "urls": [
+      "https://enduro21.com/en/news/tested-2025-yamaha-wr250f-agile-racy-the-best-wr250f-yet"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Stock suspension",
+     "sides": [
+      "Firm or stiff on slow technical trails",
+      "A 90 kg tester rated it a standout with no changes on grass track, enduro loops and trails"
+     ],
+     "urls": [
+      "https://enduro21.com/en/news/tested-2025-yamaha-wr250f-agile-racy-the-best-wr250f-yet",
+      "https://upshiftonline.com/blogs/content/2025-yamaha-wr250f-tested-in-idahos-high-country",
+      "https://amcn.com.au/editorial/dirt-test-2025-yamaha-wr250f/"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Yamaha",
+   "model": "WR450F",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "generation": "2019-2023",
+   "summary": "In US form testers found the WR450F docile and torquey, great on slow, tight trails but short of punch in sand, hills and open terrain. Uncorking it and fitting the competition ECU transforms it to near-YZ450FX performance. The trail-valved suspension is soft early and progressive deeper and needs firming up for fast desert. Unrestricted Australian bikes felt the opposite, too aggressive on hard-pack.",
+   "points": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "neutral",
+     "statement": "US-spec bike is docile and torquey with no real 450 hit; great on tight trails but struggles in sand, hills and open terrain.",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Ultimate Motorcycling",
+      "Dirt Bike magazine",
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://ultimatemotorcycling.com/2021/08/17/2021-yamaha-wr450f-review-18-fast-facts-from-the-trail/",
+      "https://dirtbikemagazine.com/riding-the-2021-yamaha-wr450f-the-wrap/",
+      "https://dirtrider.com/story/tests/2021-yamaha-wr450f-dyno-test"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "neutral",
+     "statement": "Same KYB hardware as the FX with softer trail valving: soft early, progressive deeper; firm it up for fast desert.",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike Test",
+      "Ultimate Motorcycling"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/this-or-that-yz450fx-vs-wr450f/",
+      "https://ultimatemotorcycling.com/2021/08/17/2021-yamaha-wr450f-review-18-fast-facts-from-the-trail/"
+     ]
+    },
+    {
+     "aspect": "other",
+     "verdict": "weakness",
+     "statement": "Stock bikes can stumble, cough or die when leaned over at low rpm.",
+     "years": [
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/riding-the-2021-yamaha-wr450f-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "other",
+     "verdict": "weakness",
+     "statement": "Fuel range is far below claims when ridden hard; one test ran dry at 35 miles in sand.",
+     "years": [
+      2023
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-ride-2023-yamaha-wr450f/"
+     ]
+    },
+    {
+     "aspect": "power_delivery",
+     "verdict": "weakness",
+     "statement": "Australian-spec 2019 felt too aggressive and tiring on hard-pack and rocks; the handlebar soft map did not calm it enough.",
+     "years": [
+      2019
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Australasian Dirt Bike"
+     ],
+     "urls": [
+      "https://adbmag.com.au/editorial/yamaha-wr450f-gytr-review/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Restricted, docile US engine",
+     "fix": "Remove throttle stop and intake/muffler restrictors and install the competition ECU, optionally with a slip-on",
+     "result": "Engine package close to the YZ450FX; one magazine estimated almost 20 hp more",
+     "support": 2,
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/this-or-that-yz450fx-vs-wr450f/",
+      "https://dirtbikemagazine.com/riding-the-2021-yamaha-wr450f-the-wrap/"
+     ]
+    },
+    {
+     "problem": "Low-rpm stumble when leaned over",
+     "fix": "Remap through the communication unit",
+     "result": "Cured, even with the stock quiet pipe",
+     "support": 1,
+     "urls": [
+      "https://dirtbikemagazine.com/riding-the-2021-yamaha-wr450f-the-wrap/"
+     ]
+    },
+    {
+     "problem": "Too aggressive (unrestricted bikes)",
+     "fix": "Softer app maps",
+     "result": "Far less aggressive in tight terrain",
+     "support": 1,
+     "urls": [
+      "https://adbmag.com.au/editorial/yamaha-wr450f-gytr-review/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Stalling",
+     "sides": [
+      "One test found the stock bike stumbling and dying at low rpm when leaned over",
+      "Another 2021 test reported no stalling"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/riding-the-2021-yamaha-wr450f-the-wrap/",
+      "https://ultimatemotorcycling.com/2021/08/17/2021-yamaha-wr450f-review-18-fast-facts-from-the-trail/"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Yamaha",
+   "model": "WR450F",
+   "years": [
+    2024,
+    2025,
+    2026
+   ],
+   "generation": "2024-2026 (YZ450F-derived chassis)",
+   "summary": "Testers find the newer WR450F punchy and willing to rev, with a very low first gear and enough torque in 2nd and 3rd to pull out of corners with little clutch. The app and mellow map can tame it a lot. Stock suspension felt firm at slow pace, so testers softened it with the fork knobs. The flameout trait of older WRs is mostly gone.",
+   "points": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "statement": "Punchy and willing to rev from mid to top with good low-speed traction; the app and mellow map tame it for slick going or beginners.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "MCNews",
+      "Australasian Dirt Bike"
+     ],
+     "urls": [
+      "https://www.mcnews.com.au/?p=465596",
+      "https://adbmag.com.au/editorial/enduro-test-2025-yamaha-wr450f/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Stock suspension feels firm at slow pace; testers softened compression.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "MCNews",
+      "Australasian Dirt Bike"
+     ],
+     "urls": [
+      "https://www.mcnews.com.au/?p=465596",
+      "https://adbmag.com.au/editorial/enduro-test-2025-yamaha-wr450f/"
+     ]
+    },
+    {
+     "aspect": "other",
+     "verdict": "neutral",
+     "statement": "Flameout is mostly gone, but bogging it in too high a gear can still make it sputter.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Australasian Dirt Bike"
+     ],
+     "urls": [
+      "https://adbmag.com.au/editorial/enduro-test-2025-yamaha-wr450f/"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "statement": "Tall seat.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Australasian Dirt Bike"
+     ],
+     "urls": [
+      "https://adbmag.com.au/editorial/enduro-test-2025-yamaha-wr450f/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "statement": "Clutch pull felt heavy at first; moving the perch outward helped.",
+     "years": [
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "MCNews"
+     ],
+     "urls": [
+      "https://www.mcnews.com.au/?p=465596"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Slick conditions",
+     "fix": "Start on the mellow map and switch to full power as the ground dries",
+     "result": "Better traction",
+     "support": 1,
+     "urls": [
+      "https://adbmag.com.au/editorial/enduro-test-2025-yamaha-wr450f/"
+     ]
+    }
+   ],
+   "disagreements": []
+  }
+ ]
+}

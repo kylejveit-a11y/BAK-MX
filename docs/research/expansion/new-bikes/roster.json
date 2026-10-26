@@ -1,0 +1,1206 @@
+{
+ "generated": "2026-10-26",
+ "note": "Bike-years confirmed sold in the US (from gap-manuals research plus manufacturer US spec sheets/brochures). Honda CRF150R 2023, 2024, 2027 status unknown and Suzuki RM85 excluded (not in scope).",
+ "roster": [
+  {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2020,
+   "us_sold": true,
+   "basis": "US-sold (known 2020 model; suzukicycles.",
+   "file_written": false,
+   "file": null,
+   "source_url": null
+  },
+  {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2021,
+   "us_sold": true,
+   "basis": "US-sold per Dirt Rider 2021 Suzuki lineup article (suzukicycles.",
+   "file_written": false,
+   "file": null,
+   "source_url": null
+  },
+  {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2022,
+   "us_sold": true,
+   "basis": "US-sold (suzukicycles.",
+   "file_written": false,
+   "file": null,
+   "source_url": null
+  },
+  {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2023,
+   "us_sold": true,
+   "basis": "US-sold (suzukicycles.",
+   "file_written": false,
+   "file": null,
+   "source_url": null
+  },
+  {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2024,
+   "us_sold": true,
+   "basis": "US-sold: suzukicycles.",
+   "file_written": false,
+   "file": null,
+   "source_url": null
+  },
+  {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2025,
+   "us_sold": true,
+   "basis": "US-sold: live suzukicycles. suzukicycles.com (Suzuki Motor USA) product brochure for the year.",
+   "file_written": true,
+   "file": "suzuki-rm-z250-2025.json",
+   "source_url": "https://suzukicycles.com/-/media/project/cycles/files/product-brochures/2025/motocross/2025_motocross_rm-z250_os_f.pdf"
+  },
+  {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2026,
+   "us_sold": true,
+   "basis": "US-sold: live suzukicycles. suzukicycles.com (Suzuki Motor USA) product brochure for the year.",
+   "file_written": true,
+   "file": "suzuki-rm-z250-2026.json",
+   "source_url": "https://suzukicycles.com/-/media/project/cycles/files/product-brochures/2026/motocross/2026motocrossrmz250pbr20.pdf"
+  },
+  {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2027,
+   "us_sold": true,
+   "basis": "US-sold: live suzukicycles. suzukicycles.com (Suzuki Motor USA) product brochure for the year.",
+   "file_written": true,
+   "file": "suzuki-rm-z250-2027.json",
+   "source_url": "https://suzukicycles.com/-/media/project/cycles/files/product-brochures/2027/q3/2027_motocross_rm-z250_pb.pdf"
+  },
+  {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2020,
+   "us_sold": true,
+   "basis": "US-sold (known 2020 model; suzukicycles.",
+   "file_written": false,
+   "file": null,
+   "source_url": null
+  },
+  {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2021,
+   "us_sold": true,
+   "basis": "US-sold per Dirt Rider 2021 Suzuki lineup article (suzukicycles.",
+   "file_written": false,
+   "file": null,
+   "source_url": null
+  },
+  {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2022,
+   "us_sold": true,
+   "basis": "US-sold (suzukicycles.",
+   "file_written": false,
+   "file": null,
+   "source_url": null
+  },
+  {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2023,
+   "us_sold": true,
+   "basis": "US-sold (suzukicycles.",
+   "file_written": false,
+   "file": null,
+   "source_url": null
+  },
+  {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2024,
+   "us_sold": true,
+   "basis": "US-sold: suzukicycles.",
+   "file_written": false,
+   "file": null,
+   "source_url": null
+  },
+  {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2025,
+   "us_sold": true,
+   "basis": "US-sold: live suzukicycles. suzukicycles.com (Suzuki Motor USA) product brochure for the year.",
+   "file_written": true,
+   "file": "suzuki-rm-z450-2025.json",
+   "source_url": "https://suzukicycles.com/-/media/project/cycles/files/product-brochures/2025/motocross/2025_motocross_rm-z450_os_f.pdf"
+  },
+  {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2026,
+   "us_sold": true,
+   "basis": "US-sold: live suzukicycles. suzukicycles.com (Suzuki Motor USA) product brochure for the year.",
+   "file_written": true,
+   "file": "suzuki-rm-z450-2026.json",
+   "source_url": "https://suzukicycles.com/-/media/project/cycles/files/product-brochures/2026/motocross/2026motocrossrmz450pbr20.pdf"
+  },
+  {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2027,
+   "us_sold": true,
+   "basis": "US-sold: live suzukicycles. suzukicycles.com (Suzuki Motor USA) product brochure for the year.",
+   "file_written": true,
+   "file": "suzuki-rm-z450-2027.json",
+   "source_url": "https://suzukicycles.com/-/media/project/cycles/files/product-brochures/2027/q3/2027_motocross_rm-z450_pb.pdf"
+  },
+  {
+   "manufacturer": "KTM",
+   "model": "50 SX",
+   "model_year": 2020,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "ktm-50-sx-2020.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3213996_en_OM.pdf"
+  },
+  {
+   "manufacturer": "KTM",
+   "model": "50 SX",
+   "model_year": 2021,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "ktm-50-sx-2021.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3214204_en_OM.pdf"
+  },
+  {
+   "manufacturer": "KTM",
+   "model": "50 SX",
+   "model_year": 2022,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "ktm-50-sx-2022.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3214406_en_OM.pdf"
+  },
+  {
+   "manufacturer": "KTM",
+   "model": "50 SX",
+   "model_year": 2023,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "ktm-50-sx-2023.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3214634_en_OM.pdf"
+  },
+  {
+   "manufacturer": "KTM",
+   "model": "50 SX",
+   "model_year": 2024,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "ktm-50-sx-2024.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3214828_en_OM.pdf"
+  },
+  {
+   "manufacturer": "KTM",
+   "model": "50 SX",
+   "model_year": 2025,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "ktm-50-sx-2025.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240036_en_OM.pdf"
+  },
+  {
+   "manufacturer": "KTM",
+   "model": "50 SX",
+   "model_year": 2026,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "ktm-50-sx-2026.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3240227_en_BA.pdf"
+  },
+  {
+   "manufacturer": "KTM",
+   "model": "50 SX",
+   "model_year": 2027,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "ktm-50-sx-2027.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3240373_en_BA.pdf"
+  },
+  {
+   "manufacturer": "KTM",
+   "model": "65 SX",
+   "model_year": 2020,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "ktm-65-sx-2020.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3213997_en_OM.pdf"
+  },
+  {
+   "manufacturer": "KTM",
+   "model": "65 SX",
+   "model_year": 2021,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "ktm-65-sx-2021.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3214205_en_OM.pdf"
+  },
+  {
+   "manufacturer": "KTM",
+   "model": "65 SX",
+   "model_year": 2022,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "ktm-65-sx-2022.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3214407_en_OM.pdf"
+  },
+  {
+   "manufacturer": "KTM",
+   "model": "65 SX",
+   "model_year": 2023,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "ktm-65-sx-2023.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3214635_en_OM.pdf"
+  },
+  {
+   "manufacturer": "KTM",
+   "model": "65 SX",
+   "model_year": 2024,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "ktm-65-sx-2024.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3214829_en_OM.pdf"
+  },
+  {
+   "manufacturer": "KTM",
+   "model": "65 SX",
+   "model_year": 2025,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "ktm-65-sx-2025.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240037_en_OM.pdf"
+  },
+  {
+   "manufacturer": "KTM",
+   "model": "65 SX",
+   "model_year": 2026,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "ktm-65-sx-2026.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3240228_en_BA.pdf"
+  },
+  {
+   "manufacturer": "KTM",
+   "model": "65 SX",
+   "model_year": 2027,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "ktm-65-sx-2027.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3240374_en_BA.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 50",
+   "model_year": 2020,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-50-2020.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402328_en_OM.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 50",
+   "model_year": 2021,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-50-2021.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402435_en_OM.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 50",
+   "model_year": 2022,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-50-2022.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402525_en_OM.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 50",
+   "model_year": 2023,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-50-2023.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402625_en_OM.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 50",
+   "model_year": 2024,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-50-2024.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402707_en_OM.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 50",
+   "model_year": 2025,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-50-2025.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402796_en_OM.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 50",
+   "model_year": 2026,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-50-2026.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3402877_en_BA.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 50",
+   "model_year": 2027,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-50-2027.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3402937_en_BA.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 65",
+   "model_year": 2020,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-65-2020.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402329_en_OM.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 65",
+   "model_year": 2021,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-65-2021.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402436_en_OM.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 65",
+   "model_year": 2022,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-65-2022.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402526_en_OM.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 65",
+   "model_year": 2023,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-65-2023.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402626_en_OM.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 65",
+   "model_year": 2024,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-65-2024.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402708_en_OM.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 65",
+   "model_year": 2025,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-65-2025.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402797_en_OM.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 65",
+   "model_year": 2026,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-65-2026.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3402878_en_BA.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 65",
+   "model_year": 2027,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-65-2027.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3402938_en_BA.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 85",
+   "model_year": 2020,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-85-2020.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/20_3402330_en_OM.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 85",
+   "model_year": 2021,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-85-2021.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402437_en_OM.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 85",
+   "model_year": 2022,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-85-2022.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3402527_en_OM.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 85",
+   "model_year": 2023,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-85-2023.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3402627_en_OM.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 85",
+   "model_year": 2024,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-85-2024.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3402709_en_OM.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 85",
+   "model_year": 2025,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-85-2025.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3402798_en_BA.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 85",
+   "model_year": 2026,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-85-2026.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3402879_en_BA.pdf"
+  },
+  {
+   "manufacturer": "Husqvarna",
+   "model": "TC 85",
+   "model_year": 2027,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "husqvarna-tc-85-2027.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3402939_en_BA.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 50",
+   "model_year": 2021,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-50-2021.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3215005_en_OM.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 50",
+   "model_year": 2022,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-50-2022.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3215048_en_OM.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 50",
+   "model_year": 2023,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-50-2023.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3215091_en_OM.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 50",
+   "model_year": 2024,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-50-2024.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215154_en_OM.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 50",
+   "model_year": 2025,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-50-2025.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215214_en_OM.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 50",
+   "model_year": 2026,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-50-2026.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3215262_en_BA.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 50",
+   "model_year": 2027,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-50-2027.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3215282_en_BA.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 65",
+   "model_year": 2021,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-65-2021.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3215006_en_OM.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 65",
+   "model_year": 2022,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-65-2022.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3215049_en_OM.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 65",
+   "model_year": 2023,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-65-2023.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3215092_en_OM.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 65",
+   "model_year": 2024,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-65-2024.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215155_en_OM.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 65",
+   "model_year": 2025,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-65-2025.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215215_en_OM.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 65",
+   "model_year": 2026,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-65-2026.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3215263_en_BA.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 65",
+   "model_year": 2027,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-65-2027.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3215283_en_BA.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 85",
+   "model_year": 2021,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-85-2021.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3215007_en_OM.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 85",
+   "model_year": 2022,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-85-2022.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/22_3215050_en_OM.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 85",
+   "model_year": 2023,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-85-2023.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/23_3215093_en_OM.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 85",
+   "model_year": 2024,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-85-2024.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/24_3215156_en_OM.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 85",
+   "model_year": 2025,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-85-2025.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3215216_en_BA.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 85",
+   "model_year": 2026,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-85-2026.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/26_3215264_en_BA.pdf"
+  },
+  {
+   "manufacturer": "GasGas",
+   "model": "MC 85",
+   "model_year": 2027,
+   "us_sold": true,
+   "basis": "Model-year owner's manual on the brand manuals portal; per gap-manuals research marked US-sold.",
+   "file_written": true,
+   "file": "gasgas-mc-85-2027.json",
+   "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/27_3215284_en_BA.pdf"
+  },
+  {
+   "manufacturer": "Yamaha",
+   "model": "YZ65",
+   "model_year": 2020,
+   "us_sold": true,
+   "basis": "US-sold inferred from US (LIT-11626) manual publication for the year.",
+   "file_written": true,
+   "file": "yamaha-yz65-2020.json",
+   "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR8-28199-11_02.pdf"
+  },
+  {
+   "manufacturer": "Yamaha",
+   "model": "YZ65",
+   "model_year": 2021,
+   "us_sold": true,
+   "basis": "US-sold inferred from US (LIT-11626) manual publication for the year.",
+   "file_written": true,
+   "file": "yamaha-yz65-2021.json",
+   "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR8-28199-12_02.pdf"
+  },
+  {
+   "manufacturer": "Yamaha",
+   "model": "YZ65",
+   "model_year": 2022,
+   "us_sold": true,
+   "basis": "US-sold inferred from US (LIT-11626) manual publication for the year.",
+   "file_written": true,
+   "file": "yamaha-yz65-2022.json",
+   "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR8-28199-13_02.pdf"
+  },
+  {
+   "manufacturer": "Yamaha",
+   "model": "YZ65",
+   "model_year": 2023,
+   "us_sold": true,
+   "basis": "US-sold inferred from US (LIT-11626) manual publication for the year.",
+   "file_written": true,
+   "file": "yamaha-yz65-2023.json",
+   "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR8-28199-14_02.pdf"
+  },
+  {
+   "manufacturer": "Yamaha",
+   "model": "YZ65",
+   "model_year": 2024,
+   "us_sold": true,
+   "basis": "US-sold inferred from US (LIT-11626) manual publication for the year.",
+   "file_written": true,
+   "file": "yamaha-yz65-2024.json",
+   "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BR8-28199-15_02.pdf"
+  },
+  {
+   "manufacturer": "Yamaha",
+   "model": "YZ65",
+   "model_year": 2025,
+   "us_sold": true,
+   "basis": "US-sold inferred from US (LIT-11626) manual publication for the year.",
+   "file_written": true,
+   "file": "yamaha-yz65-2025.json",
+   "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D99-28199-10_02.pdf"
+  },
+  {
+   "manufacturer": "Yamaha",
+   "model": "YZ65",
+   "model_year": 2026,
+   "us_sold": true,
+   "basis": "US-sold inferred from US (LIT-11626) manual publication for the year.",
+   "file_written": true,
+   "file": "yamaha-yz65-2026.json",
+   "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D99-28199-11_02.pdf"
+  },
+  {
+   "manufacturer": "Yamaha",
+   "model": "YZ65",
+   "model_year": 2027,
+   "us_sold": true,
+   "basis": "US-sold inferred from US (LIT-11626) manual publication for the year.",
+   "file_written": true,
+   "file": "yamaha-yz65-2027.json",
+   "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/D99-28199-12_02.pdf"
+  },
+  {
+   "manufacturer": "Yamaha",
+   "model": "YZ85",
+   "model_year": 2020,
+   "us_sold": true,
+   "basis": "US-sold inferred from US (LIT-11626) manual publication for the year.",
+   "file_written": true,
+   "file": "yamaha-yz85-2020.json",
+   "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-11_02.pdf"
+  },
+  {
+   "manufacturer": "Yamaha",
+   "model": "YZ85",
+   "model_year": 2021,
+   "us_sold": true,
+   "basis": "US-sold inferred from US (LIT-11626) manual publication for the year.",
+   "file_written": true,
+   "file": "yamaha-yz85-2021.json",
+   "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-12_02.pdf"
+  },
+  {
+   "manufacturer": "Yamaha",
+   "model": "YZ85",
+   "model_year": 2022,
+   "us_sold": true,
+   "basis": "US-sold inferred from US (LIT-11626) manual publication for the year.",
+   "file_written": true,
+   "file": "yamaha-yz85-2022.json",
+   "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-1A_02.pdf"
+  },
+  {
+   "manufacturer": "Yamaha",
+   "model": "YZ85",
+   "model_year": 2023,
+   "us_sold": true,
+   "basis": "US-sold inferred from US (LIT-11626) manual publication for the year.",
+   "file_written": true,
+   "file": "yamaha-yz85-2023.json",
+   "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-1B_02.pdf"
+  },
+  {
+   "manufacturer": "Yamaha",
+   "model": "YZ85",
+   "model_year": 2024,
+   "us_sold": true,
+   "basis": "US-sold inferred from US (LIT-11626) manual publication for the year.",
+   "file_written": true,
+   "file": "yamaha-yz85-2024.json",
+   "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-15_02.pdf"
+  },
+  {
+   "manufacturer": "Yamaha",
+   "model": "YZ85",
+   "model_year": 2025,
+   "us_sold": true,
+   "basis": "US-sold inferred from US (LIT-11626) manual publication for the year.",
+   "file_written": true,
+   "file": "yamaha-yz85-2025.json",
+   "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-16_02.pdf"
+  },
+  {
+   "manufacturer": "Yamaha",
+   "model": "YZ85",
+   "model_year": 2026,
+   "us_sold": true,
+   "basis": "US-sold inferred from US (LIT-11626) manual publication for the year.",
+   "file_written": true,
+   "file": "yamaha-yz85-2026.json",
+   "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4B-28199-17_02.pdf"
+  },
+  {
+   "manufacturer": "Yamaha",
+   "model": "YZ85",
+   "model_year": 2027,
+   "us_sold": true,
+   "basis": "US-sold inferred from US (LIT-11626) manual publication for the year.",
+   "file_written": true,
+   "file": "yamaha-yz85-2027.json",
+   "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/DA8-28199-10_02.pdf"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX65",
+   "model_year": 2020,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2020 KX65.",
+   "file_written": true,
+   "file": "kawasaki-kx65-2020.json",
+   "source_url": "https://pws.ktivs.net/proxy/manual-files/99803-0030-o5kx65alf-us-en-960aa4d53e2693a7630518c0ac310e89/index.html"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX65",
+   "model_year": 2021,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2021 KX65.",
+   "file_written": true,
+   "file": "kawasaki-kx65-2021.json",
+   "source_url": "https://pws.ktivs.net/proxy/manual-files/99803-0129-o5kx65cmf-us-en-513871a8cb8b04fa0e68b05b1f90d939/index.html"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX65",
+   "model_year": 2022,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2022 KX65.",
+   "file_written": true,
+   "file": "kawasaki-kx65-2022.json",
+   "source_url": "https://pws.ktivs.net/proxy/manual-files/99803-0218-o5kx65cnf-us-en-0b5517d9572dc5021b1abfaf5c59c08c/index.html"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX65",
+   "model_year": 2023,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2023 KX65.",
+   "file_written": true,
+   "file": "kawasaki-kx65-2023.json",
+   "source_url": "https://pws.ktivs.net/proxy/manual-files/99803-0303-o5kx65cpf-us-en-a375a122299c7de54b88dd2cd6579284/index.html"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX65",
+   "model_year": 2024,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2024 KX65.",
+   "file_written": true,
+   "file": "kawasaki-kx65-2024.json",
+   "source_url": "https://pws.ktivs.net/proxy/manuals/99803-0398-o5kx65crf-us-en-2a6600856678443bc703ceed3b2a50ee/index.html"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX65",
+   "model_year": 2025,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2025 KX65.",
+   "file_written": true,
+   "file": "kawasaki-kx65-2025.json",
+   "source_url": "https://pws.ktivs.net/proxy/manuals/99814-0012-o5kx65csf-us-en_ebook-1e99c082fa3f56e5749648ce67cfa8c5/index.html"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX65",
+   "model_year": 2026,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2026 KX65.",
+   "file_written": true,
+   "file": "kawasaki-kx65-2026.json",
+   "source_url": "https://pws.ktivs.net/proxy/manuals/99814-0120-o5kx65ctf-us-en_ebook-ee323f770cc3ac85467d16a1d30995d2/index.html"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX65",
+   "model_year": 2027,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2027 KX65.",
+   "file_written": true,
+   "file": "kawasaki-kx65-2027.json",
+   "source_url": "https://pws.ktivs.net/proxy/manuals/99814-0231-o5kx65cv-us-en_ebook-6b968ac1054914bb04f3d9462ae0a092/index.html"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX85",
+   "model_year": 2020,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2020 KX85.",
+   "file_written": true,
+   "file": "kawasaki-kx85-2020.json",
+   "source_url": "https://pws.ktivs.net/proxy/manual-files/99803-0029-o5kx85clf-us-en-222d7e05d96b94e6505a578540228c64/index.html"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX85",
+   "model_year": 2021,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2021 KX85.",
+   "file_written": true,
+   "file": "kawasaki-kx85-2021.json",
+   "source_url": "https://pws.ktivs.net/proxy/manual-files/99803-0128-o5kx85cmf-us-en-c60f8057b858c4f976f737b319d94bf7/index.html"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX85",
+   "model_year": 2022,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2022 KX85.",
+   "file_written": true,
+   "file": "kawasaki-kx85-2022.json",
+   "source_url": "https://pws.ktivs.net/proxy/manual-files/99803-0217-o5kx85cnf-us-en-ef42670916fcf39c6b767ee7b4f9952b/index.html"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX85",
+   "model_year": 2023,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2023 KX85.",
+   "file_written": true,
+   "file": "kawasaki-kx85-2023.json",
+   "source_url": "https://pws.ktivs.net/proxy/manual-files/99803-0304-o5kx85cpf-us-en-321638c3053159040e760ab5da539c86/index.html"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX85",
+   "model_year": 2024,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2024 KX85.",
+   "file_written": true,
+   "file": "kawasaki-kx85-2024.json",
+   "source_url": "https://pws.ktivs.net/proxy/manuals/99803-0399-o5kx85crf-us-en-500aa56a345979ea5fcb69d6095420d5/index.html"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX85",
+   "model_year": 2025,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2025 KX85.",
+   "file_written": true,
+   "file": "kawasaki-kx85-2025.json",
+   "source_url": "https://pws.ktivs.net/proxy/manuals/99814-0013-o5kx85csf-us-en_ebook-a353d7c171c64e496761520e2bcbb207/index.html"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX85",
+   "model_year": 2026,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2026 KX85.",
+   "file_written": true,
+   "file": "kawasaki-kx85-2026.json",
+   "source_url": "https://pws.ktivs.net/proxy/manuals/99814-0182-o5kx85etf-us-en_ebook-890ee7783884019f4355edd47cccbd6f/index.html"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX85",
+   "model_year": 2027,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2027 KX85.",
+   "file_written": true,
+   "file": "kawasaki-kx85-2027.json",
+   "source_url": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2027-kx85"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX112",
+   "model_year": 2022,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2022 KX112.",
+   "file_written": true,
+   "file": "kawasaki-kx112-2022.json",
+   "source_url": "https://pws.ktivs.net/proxy/manual-files/99803-0213-o5kx112anf-us-en-44e2150fc06874304a16d8cfa1d65a56/index.html"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX112",
+   "model_year": 2023,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2023 KX112.",
+   "file_written": true,
+   "file": "kawasaki-kx112-2023.json",
+   "source_url": "https://pws.ktivs.net/proxy/manual-files/99803-0304-o5kx85cpf-us-en-321638c3053159040e760ab5da539c86/index.html"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX112",
+   "model_year": 2024,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2024 KX112.",
+   "file_written": true,
+   "file": "kawasaki-kx112-2024.json",
+   "source_url": "https://pws.ktivs.net/proxy/manuals/99803-0399-o5kx85crf-us-en-500aa56a345979ea5fcb69d6095420d5/index.html"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX112",
+   "model_year": 2025,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases.",
+   "file_written": true,
+   "file": "kawasaki-kx112-2025.json",
+   "source_url": "https://pws.ktivs.net/proxy/manuals/99814-0013-o5kx85csf-us-en_ebook-a353d7c171c64e496761520e2bcbb207/index.html"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX112",
+   "model_year": 2026,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2026 KX112.",
+   "file_written": true,
+   "file": "kawasaki-kx112-2026.json",
+   "source_url": "https://pws.ktivs.net/proxy/manuals/99814-0181-o5kx112btf-us-en_ebook-2dc4140bc3e7c4a0813614aec6ad0a17/index.html"
+  },
+  {
+   "manufacturer": "Kawasaki",
+   "model": "KX112",
+   "model_year": 2027,
+   "us_sold": true,
+   "basis": "US-sold status from Kawasaki US parts model lists 2020-2026 and 2027 press releases. kawasaki.com US spec sheet published for 2027 KX112.",
+   "file_written": true,
+   "file": "kawasaki-kx112-2027.json",
+   "source_url": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2027-kx112"
+  },
+  {
+   "manufacturer": "Honda",
+   "model": "CRF150R",
+   "model_year": 2020,
+   "us_sold": true,
+   "basis": "163 pp: torque tables, maintenance schedule, valve clearance spec and adjustment, suspension settings/springs, piston/cylinder (top-end) service. Honda Motopub lists only 2018 and 2020 CRF150R.",
+   "file_written": true,
+   "file": "honda-crf150r-2020.json",
+   "source_url": "https://2rom-prd-data.hondamotopub.com/om/AHM/CRF150R-RB/2020/CRF150R.RB_31KSE710_0.pdf"
+  },
+  {
+   "manufacturer": "Honda",
+   "model": "CRF150R",
+   "model_year": 2021,
+   "us_sold": true,
+   "basis": "No official document captured. cdn.powersports.honda.com blocks scripted downloads (Akamai Access Denied) and search did not surface the year's file; Honda pattern is ml.remawmom.<code><yy><yy>omen.pd",
+   "file_written": false,
+   "file": null,
+   "source_url": null
+  },
+  {
+   "manufacturer": "Honda",
+   "model": "CRF150R",
+   "model_year": 2022,
+   "us_sold": true,
+   "basis": "No official document captured. cdn.powersports.honda.com blocks scripted downloads (Akamai Access Denied) and search did not surface the year's file; Honda pattern is ml.remawmom.<code><yy><yy>omen.pd",
+   "file_written": false,
+   "file": null,
+   "source_url": null
+  },
+  {
+   "manufacturer": "Honda",
+   "model": "CRF150R",
+   "model_year": 2025,
+   "us_sold": true,
+   "basis": "Read via WebFetch: owner's manual only (valve clearance IN 0.16 / EX 0.26 mm, few torques, no suspension standard settings, refers to separate Competition Handbook which was not found).",
+   "file_written": false,
+   "file": null,
+   "source_url": null
+  },
+  {
+   "manufacturer": "Honda",
+   "model": "CRF150R",
+   "model_year": 2026,
+   "us_sold": true,
+   "basis": "No official document captured. cdn.powersports.honda.com blocks scripted downloads (Akamai Access Denied) and search did not surface the year's file; Honda pattern is ml.remawmom.<code><yy><yy>omen.pd",
+   "file_written": false,
+   "file": null,
+   "source_url": null
+  }
+ ]
+}

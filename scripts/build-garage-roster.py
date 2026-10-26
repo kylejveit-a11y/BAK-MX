@@ -28,6 +28,13 @@ manual_confirmed={('Yamaha','YZ450F'):[2018,2019],('Yamaha','YZ250F'):[2019],
 for key,ys in manual_confirmed.items():
     years[key].update(ys)
     discipline.setdefault(key,'motocross');cycle.setdefault(key,'4-stroke')
+# Suzuki RM-Z and the mini bikes (KTM/Husqvarna/GasGas 50-85, YZ65/85, KX65/85/112, CRF150R): US sale confirmed from the
+# maker's own US spec sheets, brochures or manuals (docs/research/expansion/new-bikes/roster.json). Identity only.
+FOUR={('Suzuki','RM-Z250'),('Suzuki','RM-Z450'),('Honda','CRF150R')}
+for r in json.load(open('docs/research/expansion/new-bikes/roster.json',encoding='utf-8'))['roster']:
+    if r.get('us_sold') is True:
+        key=(r['manufacturer'],r['model']);years[key].add(r['model_year'])
+        discipline.setdefault(key,'motocross');cycle.setdefault(key,'4-stroke' if key in FOUR else '2-stroke')
 # Model-years with a complete manufacturer parts catalog on file: the manufacturer's own listing confirms the model-year exists.
 for r in json.load(open('docs/research/parts-pass14/INVENTORY_STATUS.json',encoding='utf-8'))['rows']:
     t=r['target']

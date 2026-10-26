@@ -1,0 +1,513 @@
+{
+ "target": {
+  "manufacturer": "Kawasaki",
+  "model": "KX85",
+  "model_year": 2023,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "Kawasaki 2023 KX85 Owner's Manual 99803-0304 (US English, Kawasaki KTIVS e-book reader; viewer also at https://pws.ktivs.net/dispeBook?file=99803-0304&lang_code=EN)",
+  "source_url": "https://pws.ktivs.net/proxy/manual-files/99803-0304-o5kx85cpf-us-en-321638c3053159040e760ab5da539c86/index.html",
+  "kind": "owners_manual",
+  "document_revision": "99803-0304"
+ },
+ "values": [
+  {
+   "joint": "Tightening torque / Transmission Oil Drain Bolt",
+   "value": "20 N·m (2.0 kgf·m, 15 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "43"
+  },
+  {
+   "joint": "Tightening torque / Air Bleeder Bolt",
+   "value": "10 N·m (1.0 kgf·m, 89 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "48"
+  },
+  {
+   "joint": "Tightening torque / Spark Plug",
+   "value": "25.5 N·m (2.60 kgf·m, 18.8 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "50"
+  },
+  {
+   "joint": "Tightening torque / Stator Coil Plate Mounting Screws",
+   "value": "5.2 N·m (0.53 kgf·m, 46 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "52"
+  },
+  {
+   "joint": "Tightening torque / Carburetor Cap Screws",
+   "value": "2.1 N·m (0.21 kgf·m, 19 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "66"
+  },
+  {
+   "joint": "Tightening torque / Clutch Spring Bolts",
+   "value": "9.3 N·m (0.95 kgf·m, 82 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "72"
+  },
+  {
+   "joint": "Tightening torque / Clutch Cover Bolts",
+   "value": "10 N·m (1.0 kgf·m, 89 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "72"
+  },
+  {
+   "joint": "Tightening torque / Cylinder Head Nuts",
+   "value": "25 N·m (2.5 kgf·m, 18 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "87"
+  },
+  {
+   "joint": "Tightening torque / Cylinder Bolts",
+   "value": "20 N·m (2.0 kgf·m, 15 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "87"
+  },
+  {
+   "joint": "Tightening torque / KIPSCover Bolts",
+   "value": "3.0 N·m (0.31 kgf·m, 27 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "88"
+  },
+  {
+   "joint": "Tightening torque / Engine Bracket Mounting Nuts",
+   "value": "30 N·m (3.1 kgf·m, 22 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "88"
+  },
+  {
+   "joint": "Tightening torque / Water Hose Clamp Screws",
+   "value": "3.0 N·m (0.31 kgf·m, 27 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "89"
+  },
+  {
+   "joint": "Tightening torque / Rear Axle Nut",
+   "value": "80 N·m (8.2 kgf·m, 59 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "97"
+  },
+  {
+   "joint": "Tightening torque / Handlebar Holder Bolts",
+   "value": "25 N·m (2.5 kgf·m, 18 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "102"
+  },
+  {
+   "joint": "Tightening torque / Handlebar Holder Nuts",
+   "value": "35 N·m (3.6 kgf·m, 26 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "103"
+  },
+  {
+   "joint": "Tightening torque / Front Fork Push Rod Nuts",
+   "value": "15 N·m (1.5 kgf·m, 11 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "122"
+  },
+  {
+   "joint": "Tightening torque / Front Fork Top Plugs",
+   "value": "28 N·m (2.9 kgf·m, 21 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "123"
+  },
+  {
+   "joint": "Tightening torque / Front Fork Clamp Bolts (Upper)",
+   "value": "20 N·m (2.0 kgf·m, 15 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "123"
+  },
+  {
+   "joint": "Tightening torque / Front Axle Nut",
+   "value": "80 N·m (8.2 kgf·m, 59 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "123"
+  },
+  {
+   "joint": "Tightening torque / Front Fork Clamp Bolts (Lower)",
+   "value": "20 N·m (2.0 kgf·m, 15 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "123"
+  },
+  {
+   "joint": "Tightening torque / Fork Protector Bolts",
+   "value": "3.5 N·m (0.36 kgf·m, 31 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "124"
+  },
+  {
+   "joint": "Tightening torque / Brake Hose Clamp Bolts",
+   "value": "7.0 N·m (0.71 kgf·m, 62 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "124"
+  },
+  {
+   "joint": "Tightening torque / Front Caliper Mounting Bolts",
+   "value": "25 N·m (2.5 kgf·m, 18 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "124"
+  },
+  {
+   "joint": "Fuel / Gasoline-Engine Oil Mixing Ratio - During break-in period",
+   "value": "16:1 (Gasoline:Engine Oil)",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Fuel / Gasoline-Engine Oil Mixing Ratio - After break-in period",
+   "value": "32:1 (Gasoline:Engine Oil)",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Fuel / Fuel Tank Capacity",
+   "value": "5.0 L (1.3 US gal)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "24"
+  },
+  {
+   "joint": "Spark plug / Standard Spark Plug",
+   "value": "NGK R6252K-105",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "49"
+  },
+  {
+   "joint": "Transmission oil / Transmission Oil Amount",
+   "value": "0.7 L (0.74 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [
+    "manual covers KX85C and KX112A"
+   ],
+   "page": "43"
+  },
+  {
+   "joint": "Spec sheet / Engine",
+   "value": "2-stroke single with exhaust power valve (KIPS), liquid-cooled",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Displacement",
+   "value": "84cc",
+   "unit": "cc",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Bore x Stroke",
+   "value": "48.5 x 45.8mm",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Compression Ratio",
+   "value": "10.9:1 (low speed) - 9.0:1 (high speed)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Fuel System",
+   "value": "28mm Keihin carburetor",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Ignition",
+   "value": "CDI with Digital Advance",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Transmission",
+   "value": "6-speed, return shift, with wet multi-disc manual clutch",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Final Drive",
+   "value": "Chain",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Front Suspension / Wheel Travel",
+   "value": "36mm inverted telescopic cartridge fork with 20-way compression damping/10.8 in",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Rear Suspension / Wheel Travel",
+   "value": "Uni-Trak® single shock system with 24-way compression and 21-way rebound damping, plus adjustable spring preload/10.8 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Front Tire",
+   "value": "70/100-17",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Rear Tire",
+   "value": "90/100-14",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Front Brakes",
+   "value": "Single 220mm petal disc with dual-piston caliper",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Rear Brakes",
+   "value": "Single 184mm petal disc with single-piston caliper",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Frame Type",
+   "value": "High-tensile steel perimeter design with subframe member",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Rake/Trail",
+   "value": "29°/3.8 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Overall Length",
+   "value": "72.0 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Overall Width",
+   "value": "30.1 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Overall Height",
+   "value": "43.3 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Ground Clearance",
+   "value": "11.4 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Seat Height",
+   "value": "32.7 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Curb Weight",
+   "value": "165.3 lb*",
+   "unit": "lb",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Fuel Capacity",
+   "value": "1.32 gal",
+   "unit": "gal",
+   "property": "capacity",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  },
+  {
+   "joint": "Spec sheet / Wheelbase",
+   "value": "49.8 in",
+   "unit": "in",
+   "property": "specification",
+   "conditions": [],
+   "page": "1",
+   "source": "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2023-kx85"
+  }
+ ]
+}

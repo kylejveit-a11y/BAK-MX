@@ -1,0 +1,2374 @@
+{
+ "target": {
+  "manufacturer": "Husqvarna",
+  "model": "TC 50",
+  "model_year": 2021,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "Husqvarna TC 50 2021 EU (en) - 2021 (portal model 'TC 50 2021')",
+  "source_url": "https://azwecdnepstoragewebsiteuploads.azureedge.net/21_3402435_en_OM.pdf",
+  "kind": "owners_manual",
+  "document_revision": "21_3402435_en_OM"
+ },
+ "values": [
+  {
+   "joint": "Engine / Design",
+   "value": "1-cylinder 2-stroke engine, water-cooled, with reed intake",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "130"
+  },
+  {
+   "joint": "Engine / Displacement",
+   "value": "49.0 cm³ (2.99 cu in)",
+   "unit": "cm³",
+   "property": "specification",
+   "conditions": [],
+   "page": "130"
+  },
+  {
+   "joint": "Engine / Stroke",
+   "value": "40 mm (1.57 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "130"
+  },
+  {
+   "joint": "Engine / Bore",
+   "value": "39.5 mm (1.555 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "130"
+  },
+  {
+   "joint": "Engine / Crankshaft bearing",
+   "value": "2 grooved ball bearings",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "130"
+  },
+  {
+   "joint": "Engine / Conrod bearing",
+   "value": "Needle bearing",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "130"
+  },
+  {
+   "joint": "Engine / Piston pin bearing",
+   "value": "Needle bearing",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "130"
+  },
+  {
+   "joint": "Engine / Pistons",
+   "value": "Aluminum cast",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "130"
+  },
+  {
+   "joint": "Engine / Piston rings",
+   "value": "1 rectangular ring",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "130"
+  },
+  {
+   "joint": "Engine / Engine lubrication (TC 50)",
+   "value": "Mixed lubrication",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "130"
+  },
+  {
+   "joint": "Engine / Engine lubrication (TC 50 MINI)",
+   "value": "Separate lubrication",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "130"
+  },
+  {
+   "joint": "Engine / Primary transmission",
+   "value": "33:61 straight cut spur gear wheel drive",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "130"
+  },
+  {
+   "joint": "Engine / Clutch",
+   "value": "Multi-disc centrifugal force clutch on the main shaft",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "130"
+  },
+  {
+   "joint": "Engine / Gearbox",
+   "value": "Rigid 1-stage reduction gear",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "130"
+  },
+  {
+   "joint": "Engine / Transmission ratio",
+   "value": "14:31",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "130"
+  },
+  {
+   "joint": "Engine / Ignition",
+   "value": "SELETTRA 2p D36",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "130"
+  },
+  {
+   "joint": "Engine / Spark plug",
+   "value": "NGK LR 8 B",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "130"
+  },
+  {
+   "joint": "Engine / Spark plug electrode gap",
+   "value": "0.60 mm (0.0236 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "130"
+  },
+  {
+   "joint": "Engine / Cooling",
+   "value": "Water-cooled",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "130"
+  },
+  {
+   "joint": "Engine / Starting aid",
+   "value": "Kick starter system",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "130"
+  },
+  {
+   "joint": "Engine tightening torques / Screw, bearing retainer",
+   "value": "5 Nm (3.7 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M5"
+   ],
+   "page": "130"
+  },
+  {
+   "joint": "Engine tightening torques / Screw, kick starter lever",
+   "value": "6 Nm (4.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M5",
+    "Loctite®243™"
+   ],
+   "page": "130"
+  },
+  {
+   "joint": "Engine tightening torques / Screw, oil pump (TC 50 MINI)",
+   "value": "6 Nm (4.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M5"
+   ],
+   "page": "130"
+  },
+  {
+   "joint": "Engine tightening torques / Screw, stator clamp",
+   "value": "6 Nm (4.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M5",
+    "Loctite® 222™"
+   ],
+   "page": "130"
+  },
+  {
+   "joint": "Engine tightening torques / Screw, water pump impeller",
+   "value": "2 Nm (1.5 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M5",
+    "Loctite®243™"
+   ],
+   "page": "130"
+  },
+  {
+   "joint": "Engine tightening torques / Bleeder flange of engine case",
+   "value": "4 Nm (3 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6",
+    "Loctite®243™"
+   ],
+   "page": "130"
+  },
+  {
+   "joint": "Engine tightening torques / Drain plug, water pump cover",
+   "value": "6 Nm (4.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6"
+   ],
+   "page": "130"
+  },
+  {
+   "joint": "Engine tightening torques / Screw, alternator cover",
+   "value": "6 Nm (4.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6"
+   ],
+   "page": "130"
+  },
+  {
+   "joint": "Engine tightening torques / Screw, clutch cover",
+   "value": "10 Nm (7.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6"
+   ],
+   "page": "130"
+  },
+  {
+   "joint": "Engine tightening torques / Screw, engine case",
+   "value": "10 Nm (7.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6"
+   ],
+   "page": "130"
+  },
+  {
+   "joint": "Engine tightening torques / Screw, engine sprocket cover",
+   "value": "10 Nm (7.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6"
+   ],
+   "page": "130"
+  },
+  {
+   "joint": "Engine tightening torques / Screw, exhaust flange",
+   "value": "10 Nm (7.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6",
+    "Loctite®243™"
+   ],
+   "page": "130"
+  },
+  {
+   "joint": "Engine tightening torques / Screw, fitting pin",
+   "value": "10 Nm (7.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6",
+    "Loctite®2701™"
+   ],
+   "page": "130"
+  },
+  {
+   "joint": "Engine tightening torques / Screw, gear oil level monitoring",
+   "value": "6 Nm (4.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6"
+   ],
+   "page": "130"
+  },
+  {
+   "joint": "Engine tightening torques / Screw, ground wire",
+   "value": "6 Nm (4.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6"
+   ],
+   "page": "130"
+  },
+  {
+   "joint": "Engine tightening torques / Screw, ignition coil",
+   "value": "4 Nm (3 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6",
+    "Loctite®243™"
+   ],
+   "page": "131"
+  },
+  {
+   "joint": "Engine tightening torques / Screw, intake flange",
+   "value": "5 Nm (3.7 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6",
+    "Loctite®243™"
+   ],
+   "page": "131"
+  },
+  {
+   "joint": "Engine tightening torques / Screw, pressure plate",
+   "value": "10 Nm (7.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6",
+    "Loctite®243™"
+   ],
+   "page": "131"
+  },
+  {
+   "joint": "Engine tightening torques / Screw, water pump cover",
+   "value": "10 Nm (7.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6"
+   ],
+   "page": "131"
+  },
+  {
+   "joint": "Engine tightening torques / Screw, cylinder head",
+   "value": "18 Nm (13.3 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M7"
+   ],
+   "page": "131"
+  },
+  {
+   "joint": "Engine tightening torques / Nuts, cylinder base",
+   "value": "20 Nm (14.8 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M8"
+   ],
+   "page": "131"
+  },
+  {
+   "joint": "Engine tightening torques / Screw, clutch basket",
+   "value": "35 Nm (25.8 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M8"
+   ],
+   "page": "131"
+  },
+  {
+   "joint": "Engine tightening torques / Stud bolt, cylinder base",
+   "value": "10 Nm (7.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M8"
+   ],
+   "page": "131"
+  },
+  {
+   "joint": "Engine tightening torques / Spark plug",
+   "value": "10 … 12 Nm (7.4 … 8.9 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M10x1"
+   ],
+   "page": "131"
+  },
+  {
+   "joint": "Engine tightening torques / Nut, primary gear wheel",
+   "value": "40 Nm (29.5 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M10x1.25",
+    "Loctite®243™"
+   ],
+   "page": "131"
+  },
+  {
+   "joint": "Engine tightening torques / Nut, rotor",
+   "value": "15 Nm (11.1 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M10x1.25",
+    "Loctite®243™"
+   ],
+   "page": "131"
+  },
+  {
+   "joint": "Engine tightening torques / Oil drain plug with magnet",
+   "value": "20 Nm (14.8 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M12x1.5"
+   ],
+   "page": "131"
+  },
+  {
+   "joint": "Carburetor with carburetor tuning - TC 50 / Carburetor type",
+   "value": "Dell`Orto PHBG 19BS",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "131"
+  },
+  {
+   "joint": "Carburetor with carburetor tuning - TC 50 / Needle position",
+   "value": "2nd position from top",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "131"
+  },
+  {
+   "joint": "Carburetor with carburetor tuning - TC 50 / Idle air adjusting screw - Open",
+   "value": "3 turns",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [],
+   "page": "131"
+  },
+  {
+   "joint": "Carburetor with carburetor tuning - TC 50 / Main jet",
+   "value": "95",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "131"
+  },
+  {
+   "joint": "Carburetor with carburetor tuning - TC 50 / Jet needle",
+   "value": "W7",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "131"
+  },
+  {
+   "joint": "Carburetor with carburetor tuning - TC 50 / Idling jet",
+   "value": "50",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "131"
+  },
+  {
+   "joint": "Carburetor with carburetor tuning - TC 50 / Needle jet",
+   "value": "262AU",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "131"
+  },
+  {
+   "joint": "Carburetor with carburetor tuning - TC 50 / Throttle slide",
+   "value": "40",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "131"
+  },
+  {
+   "joint": "Carburetor with carburetor tuning - TC 50 / Choke nozzle",
+   "value": "60",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "131"
+  },
+  {
+   "joint": "Carburetor with carburetor tuning - TC 50 MINI / Carburetor type",
+   "value": "Dell`Orto PHVA 12XS",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "131"
+  },
+  {
+   "joint": "Carburetor with carburetor tuning - TC 50 MINI / Needle position",
+   "value": "3rd position from top",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "131"
+  },
+  {
+   "joint": "Carburetor with carburetor tuning - TC 50 MINI / Idle air adjusting screw - Open",
+   "value": "1 turn",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "131"
+  },
+  {
+   "joint": "Carburetor with carburetor tuning - TC 50 MINI / Main jet",
+   "value": "65",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "131"
+  },
+  {
+   "joint": "Carburetor with carburetor tuning - TC 50 MINI / Jet needle",
+   "value": "A8",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "131"
+  },
+  {
+   "joint": "Carburetor with carburetor tuning - TC 50 MINI / Idling jet",
+   "value": "30",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "131"
+  },
+  {
+   "joint": "Carburetor with carburetor tuning - TC 50 MINI / Needle jet",
+   "value": "211FA",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "131"
+  },
+  {
+   "joint": "Carburetor with carburetor tuning - TC 50 MINI / Throttle slide",
+   "value": "40",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "131"
+  },
+  {
+   "joint": "Carburetor with carburetor tuning - TC 50 MINI / Choke nozzle",
+   "value": "60",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "131"
+  },
+  {
+   "joint": "Capacities - Gear oil / Gear oil",
+   "value": "0.20 l (0.21 qt.)",
+   "unit": "l",
+   "property": "capacity",
+   "conditions": [
+    "Gear oil (ATF Dexron 3)"
+   ],
+   "page": "132"
+  },
+  {
+   "joint": "Capacities - Coolant / Coolant",
+   "value": "0.7 l (0.7 qt.)",
+   "unit": "l",
+   "property": "capacity",
+   "conditions": [
+    "Coolant"
+   ],
+   "page": "132"
+  },
+  {
+   "joint": "Capacities - Fuel / Fuel tank capacity, approx.",
+   "value": "2.3 l (2.4 qt.)",
+   "unit": "l",
+   "property": "capacity",
+   "conditions": [
+    "Super unleaded (95 octane) mixed"
+   ],
+   "page": "132"
+  },
+  {
+   "joint": "Capacities - Fuel / (TC 50)",
+   "value": "with 2-stroke engine oil (1:60)",
+   "unit": "",
+   "property": "capacity",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Capacities - Fuel / Fuel tank capacity, approx. (TC 50 MINI)",
+   "value": "2.1 l (2.2 qt.)",
+   "unit": "l",
+   "property": "capacity",
+   "conditions": [
+    "Super unleaded (ROZ 95/RON 95/PON 91)"
+   ],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Frame",
+   "value": "Central tube frame of chrome molybdenum steel tubing, powder-coated",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Fork (TC 50)",
+   "value": "WP XACT 5235",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Fork (TC 50 MINI)",
+   "value": "WP XACT 5035",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Shock absorber (TC 50)",
+   "value": "WP XACT 5735",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Shock absorber (TC 50 MINI)",
+   "value": "WP XACT 5435",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Suspension travel (TC 50) - front",
+   "value": "205 mm (8.07 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Suspension travel (TC 50) - rear",
+   "value": "185 mm (7.28 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Suspension travel (TC 50 MINI) - front",
+   "value": "100 mm (3.94 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Suspension travel (TC 50 MINI) - rear",
+   "value": "147 mm (5.79 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Fork offset",
+   "value": "22 mm (0.87 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Brake system - front",
+   "value": "Disc brake with 4-piston brake caliper",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Brake system - rear",
+   "value": "Disc brake with 2-piston brake caliper",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Brake disc diameters - front",
+   "value": "160 mm (6.3 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Brake disc diameters - rear",
+   "value": "160 mm (6.3 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Brake discs - wear limits - front",
+   "value": "2.2 mm (0.087 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Brake discs - wear limits - rear",
+   "value": "2.2 mm (0.087 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Offroad tire pressure - front",
+   "value": "1.0 bar (15 psi)",
+   "unit": "bar",
+   "property": "setting",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Offroad tire pressure - rear",
+   "value": "1.0 bar (15 psi)",
+   "unit": "bar",
+   "property": "setting",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Secondary drive ratio (TC 50)",
+   "value": "11:40",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Secondary drive ratio (TC 50 MINI)",
+   "value": "10:42",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Chain",
+   "value": "1/2 x 3/16”",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Rear sprockets available",
+   "value": "38, 39, 40, 41, 42",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "132"
+  },
+  {
+   "joint": "Chassis / Steering head angle (TC 50)",
+   "value": "66°",
+   "unit": "°",
+   "property": "specification",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Chassis / Steering head angle (TC 50 MINI)",
+   "value": "67.4°",
+   "unit": "°",
+   "property": "specification",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Chassis / Wheelbase (TC 50)",
+   "value": "1,032 ± 10 mm (40.63 ± 0.39 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Chassis / Wheelbase (TC 50 MINI)",
+   "value": "914 ± 10 mm (35.98 ± 0.39 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Chassis / Seat height unloaded (TC 50)",
+   "value": "665 mm (26.18 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Chassis / Seat height unloaded (TC 50 MINI)",
+   "value": "558 mm (21.97 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Chassis / Ground clearance unloaded (TC 50)",
+   "value": "252 mm (9.92 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Chassis / Ground clearance unloaded (TC 50 MINI)",
+   "value": "184 mm (7.24 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Chassis / Weight without fuel approx. (TC 50)",
+   "value": "41.5 kg (91.5 lb.)",
+   "unit": "kg",
+   "property": "specification",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Chassis / Weight without fuel approx. (TC 50 MINI)",
+   "value": "40 kg (88 lb.)",
+   "unit": "kg",
+   "property": "specification",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Chassis / Maximum rider weight",
+   "value": "45 kg (99 lb.)",
+   "unit": "kg",
+   "property": "specification",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Tires / (TC 50) - front tire",
+   "value": "60/100 - 12 36M TT MAXXIS MAXX CROSS SI",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Tires / (TC 50) - rear tire",
+   "value": "2.75 - 10 38J TT MAXXIS MAXX CROSS SI",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Tires / (TC 50 MINI) - front tire",
+   "value": "2.50 - 10 33J TT MAXXIS MAXX CROSS SI",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Tires / (TC 50 MINI) - rear tire",
+   "value": "2.75 - 10 38J TT MAXXIS MAXX CROSS SI",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Fork - TC 50 / Fork article number",
+   "value": "07.18.6U.02",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Fork - TC 50 / Fork",
+   "value": "WP XACT 5235",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Fork - TC 50 / Rebound damping - Comfort",
+   "value": "15 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Fork - TC 50 / Rebound damping - Standard",
+   "value": "12 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Fork - TC 50 / Rebound damping - Sport",
+   "value": "10 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Fork - TC 50 / Air pressure",
+   "value": "2 bar (29 psi)",
+   "unit": "bar",
+   "property": "setting",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Fork - TC 50 / Fork length",
+   "value": "685 mm (26.97 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Fork - TC 50 / Spring length with preload spacer(s)",
+   "value": "337.5 mm (13.287 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Fork - TC 50 / Oil capacity external mechanism left",
+   "value": "25 ± 5 ml (0.85 ± 0.17 fl. oz.)",
+   "unit": "ml",
+   "property": "capacity",
+   "conditions": [
+    "Fork oil (SAE 4) (48601166S1)"
+   ],
+   "page": "133"
+  },
+  {
+   "joint": "Fork - TC 50 / Oil capacity, right cartridge",
+   "value": "225 ml (7.61 fl. oz.)",
+   "unit": "ml",
+   "property": "capacity",
+   "conditions": [
+    "Fork oil (SAE 4) (48601166S1)"
+   ],
+   "page": "133"
+  },
+  {
+   "joint": "Fork - TC 50 / Grease capacity, left cartridge",
+   "value": "6 g (0.21 oz)",
+   "unit": "g",
+   "property": "capacity",
+   "conditions": [
+    "Special grease (00062010053)"
+   ],
+   "page": "133"
+  },
+  {
+   "joint": "Fork - TC 50 MINI / Fork article number",
+   "value": "07.18.1U.01",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Fork - TC 50 MINI / Fork",
+   "value": "WP XACT 5035",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Fork - TC 50 MINI / Fork length",
+   "value": "580 mm (22.83 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "133"
+  },
+  {
+   "joint": "Fork - TC 50 MINI / Spring rate - Weight of rider: 15 … 25 kg (33 … 55 lb.)",
+   "value": "1.8 N/mm (10.3 lb/in)",
+   "unit": "N/mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Fork - TC 50 MINI / Spring rate - Weight of rider (standard): 25 … 35 kg (55 … 77 lb.)",
+   "value": "2.0 N/mm (11.4 lb/in)",
+   "unit": "N/mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Fork - TC 50 MINI / Spring rate - Weight of rider: 35 … 45 kg (77 … 99 lb.)",
+   "value": "2.2 N/mm (12.6 lb/in)",
+   "unit": "N/mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Fork - TC 50 MINI / Spring length with preload spacer(s)",
+   "value": "337.5 mm (13.287 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Fork - TC 50 MINI / Fork oil per fork leg",
+   "value": "230 ± 10 ml (7.78 ± 0.34 fl. oz.)",
+   "unit": "ml",
+   "property": "setting",
+   "conditions": [
+    "Fork oil (SAE 4) (48601166S1)"
+   ],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / Shock absorber article number",
+   "value": "03.18.7U.02",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / Shock absorber",
+   "value": "WP XACT 5735",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / Low-speed compression damping - Comfort",
+   "value": "18 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / Low-speed compression damping - Standard",
+   "value": "15 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / Low-speed compression damping - Sport",
+   "value": "12 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / High-speed compression damping - Comfort",
+   "value": "2.5 turns",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / High-speed compression damping - Standard",
+   "value": "2 turns",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / High-speed compression damping - Sport",
+   "value": "1.5 turns",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / Rebound damping - Comfort",
+   "value": "17 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / Rebound damping - Standard",
+   "value": "15 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / Rebound damping - Sport",
+   "value": "13 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / Spring preload",
+   "value": "3 mm (0.12 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / Spring rate - Weight of rider: 15 … 25 kg (33 … 55 lb.)",
+   "value": "25 N/mm (143 lb/in)",
+   "unit": "N/mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / Spring rate - Weight of rider (standard): 25 … 35 kg (55 … 77 lb.)",
+   "value": "30 N/mm (171 lb/in)",
+   "unit": "N/mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / Spring rate - Weight of rider: 35 … 45 kg (77 … 99 lb.)",
+   "value": "35 N/mm (200 lb/in)",
+   "unit": "N/mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / Spring length",
+   "value": "130 mm (5.12 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / Gas pressure",
+   "value": "10 bar (145 psi)",
+   "unit": "bar",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / Static sag",
+   "value": "12 mm (0.47 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / Riding sag",
+   "value": "80 mm (3.15 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / Fitted length",
+   "value": "275 mm (10.83 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 / Shock absorber oil",
+   "value": "Shock absorber fluid (SAE 2.5) (50180751S1)",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 MINI / Shock absorber article number",
+   "value": "03.18.9T.01",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 MINI / Shock absorber",
+   "value": "WP XACT 5435",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 MINI / Rebound damping - Standard",
+   "value": "12 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [],
+   "page": "134"
+  },
+  {
+   "joint": "Shock absorber - TC 50 MINI / Spring preload - Standard",
+   "value": "5 mm (0.2 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "135"
+  },
+  {
+   "joint": "Shock absorber - TC 50 MINI / Spring rate - Weight of rider: 15 … 25 kg (33 … 55 lb.)",
+   "value": "65 N/mm (371 lb/in)",
+   "unit": "N/mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "135"
+  },
+  {
+   "joint": "Shock absorber - TC 50 MINI / Spring rate - Weight of rider (standard): 25 … 35 kg (55 … 77 lb.)",
+   "value": "75 N/mm (428 lb/in)",
+   "unit": "N/mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "135"
+  },
+  {
+   "joint": "Shock absorber - TC 50 MINI / Spring rate - Weight of rider: 35 … 45 kg (77 … 99 lb.)",
+   "value": "85 N/mm (485 lb/in)",
+   "unit": "N/mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "135"
+  },
+  {
+   "joint": "Shock absorber - TC 50 MINI / Spring length",
+   "value": "120 mm (4.72 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "135"
+  },
+  {
+   "joint": "Shock absorber - TC 50 MINI / Gas pressure",
+   "value": "10 bar (145 psi)",
+   "unit": "bar",
+   "property": "setting",
+   "conditions": [],
+   "page": "135"
+  },
+  {
+   "joint": "Shock absorber - TC 50 MINI / Static sag",
+   "value": "10 mm (0.39 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "135"
+  },
+  {
+   "joint": "Shock absorber - TC 50 MINI / Riding sag",
+   "value": "65 mm (2.56 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "135"
+  },
+  {
+   "joint": "Shock absorber - TC 50 MINI / Fitted length",
+   "value": "245 mm (9.65 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "135"
+  },
+  {
+   "joint": "Shock absorber - TC 50 MINI / Shock absorber oil",
+   "value": "Shock absorber fluid (SAE 2.5) (50180751S1)",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Hose clip, carburetor (TC 50 MINI)",
+   "value": "2.8 Nm (2.07 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Hose clip, carburetor (TC 50)",
+   "value": "2.8 Nm (2.07 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, brake line bracket",
+   "value": "1.7 Nm (1.25 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread EJOT"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, brake line guide",
+   "value": "2 Nm (1.5 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread EJOT ®"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, side cover",
+   "value": "2 Nm (1.5 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread EJOT PT K60x20-Z"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, switch-off button",
+   "value": "0.4 Nm (0.3 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M3"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Spoke nipple",
+   "value": "3 Nm (2.2 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M3.5"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Remaining nuts, chassis",
+   "value": "5 Nm (3.7 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M5"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Remaining screws, chassis",
+   "value": "5 Nm (3.7 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M5"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, brake assembly",
+   "value": "5 Nm (3.7 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M5"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, brake linings",
+   "value": "8 Nm (5.9 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M5"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, throttle slide cover (TC 50 MINI)",
+   "value": "1.3 Nm (0.96 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M5"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Nut, push rod ball joint on foot brake cylinder",
+   "value": "10 Nm (7.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Nut, push rod, foot brake lever",
+   "value": "6 Nm (4.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Remaining nuts, chassis",
+   "value": "10 Nm (7.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Remaining screws, chassis",
+   "value": "10 Nm (7.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, chain sliding piece",
+   "value": "3 Nm (2.2 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, fender",
+   "value": "6 Nm (4.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, fork stub",
+   "value": "10 Nm (7.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, front brake disc",
+   "value": "14 Nm (10.3 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6",
+    "Loctite®243™"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, main silencer silent block",
+   "value": "6 Nm (4.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, rear brake caliper",
+   "value": "10 Nm (7.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6x16",
+    "Loctite®243™"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, rear brake caliper",
+   "value": "10 Nm (7.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6x40",
+    "Loctite®243™"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, rear brake disc",
+   "value": "14 Nm (10.3 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6",
+    "Loctite®243™"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, start number plate",
+   "value": "4 Nm (3 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, throttle grip",
+   "value": "4.5 Nm (3.32 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M6"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Nut, foot brake lever",
+   "value": "22 Nm (16.2 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M8"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Nut, rim lock",
+   "value": "10 Nm (7.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M8"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Remaining nuts, chassis",
+   "value": "25 Nm (18.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M8"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Remaining screws, chassis",
+   "value": "25 Nm (18.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M8"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, bottom triple clamp",
+   "value": "15 Nm (11.1 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M8"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, chain sliding piece",
+   "value": "15 Nm (11.1 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M8"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, engine bracket",
+   "value": "25 Nm (18.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M8",
+    "Loctite®243™"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, engine sprocket cover",
+   "value": "15 Nm (11.1 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M8"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, front brake caliper",
+   "value": "20 Nm (14.8 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M8x60",
+    "Loctite®243™"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, front brake caliper",
+   "value": "20 Nm (14.8 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M8x40",
+    "Loctite®243™"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, handlebar clamp",
+   "value": "20 Nm (14.8 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M8"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, rear sprocket",
+   "value": "25 Nm (18.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M8",
+    "Loctite®243™"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, steering stem",
+   "value": "20 Nm (14.8 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M8"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, top triple clamp",
+   "value": "20 Nm (14.8 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M8"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Nut, link fork pivot",
+   "value": "45 Nm (33.2 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M10"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Remaining nuts, chassis",
+   "value": "45 Nm (33.2 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M10"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Remaining screws, chassis",
+   "value": "45 Nm (33.2 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M10"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, bottom shock absorber",
+   "value": "45 Nm (33.2 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M10",
+    "Loctite®243™"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, front wheel spindle",
+   "value": "40 Nm (29.5 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M10",
+    "Loctite®243™"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, handlebar support",
+   "value": "40 Nm (29.5 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M10",
+    "Loctite®243™"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Screw, top shock absorber",
+   "value": "45 Nm (33.2 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M10",
+    "Loctite®243™"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Nut, rear wheel spindle",
+   "value": "40 Nm (29.5 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M12x1"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Chassis tightening torques / Nut, steering head",
+   "value": "10 Nm (7.4 lbf ft)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "thread M20x1.5"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Required work / Check the front brake linings.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check the brake linings of the rear brake.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check the brake discs.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check the brake lines for damage and leakage.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Change the foot brake cylinder sealing cup.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check the rear brake fluid level.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check the free travel of the foot brake lever.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check the frame.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check the link fork.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Checking the fork bearing for play.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Checking the shock absorber heim joint for play.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check the tire condition.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check tire pressure.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check the wheel bearing for play.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check the wheel hubs.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check the rim run-out.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check the spoke tension.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check the chain, rear sprocket, engine sprocket, and chain guide.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check the chain tension.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Grease all moving parts (e.g., hand lever, chain, ...) and check for smooth operation.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check the front brake fluid level.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check the play of the handbrake lever.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check the steering head bearing play.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Change the spark plug and spark plug connector.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Change the gear oil.",
+   "value": "Every 40 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check the gear oil level.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check all hoses (e.g. fuel, cooling, bleeder, drainage, etc.) and sleeves for cracking, leaks, and incorrect routing.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check the antifreeze and coolant level.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check the cables for damage and routing without sharp bends.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Check that the throttle cables are undamaged, routed without sharp bends, and set correctly.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Clean the air filter and air filter box.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "27"
+  },
+  {
+   "joint": "Required work / Change the glass fiber yarn filling of the main silencer.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours"
+   ],
+   "page": "28"
+  },
+  {
+   "joint": "Required work / Service the fork.",
+   "value": "Every 40 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 80 operating hours"
+   ],
+   "page": "28"
+  },
+  {
+   "joint": "Required work / Perform the shock absorber service.",
+   "value": "Every 80 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "28"
+  },
+  {
+   "joint": "Required work / Check the tightness of the easily accessible, safety-relevant screws and nuts.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "28"
+  },
+  {
+   "joint": "Required work / Check the idle speed.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "28"
+  },
+  {
+   "joint": "Required work / Check the clutch setting.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours"
+   ],
+   "page": "28"
+  },
+  {
+   "joint": "Required work / Final check: Check the vehicle for safe operation and take a test ride.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "28"
+  },
+  {
+   "joint": "Required work / Make a service entry in Husqvarna Motorcycles Dealer.net.",
+   "value": "Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 40 operating hours, Every 80 operating hours",
+    "one-time: After 10 operating hours"
+   ],
+   "page": "28"
+  },
+  {
+   "joint": "Recommended work / Change the front brake fluid.",
+   "value": "every 12 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: every 48 months"
+   ],
+   "page": "28"
+  },
+  {
+   "joint": "Recommended work / Change the rear brake fluid.",
+   "value": "every 12 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: every 48 months"
+   ],
+   "page": "28"
+  },
+  {
+   "joint": "Recommended work / Service the fork.",
+   "value": "After 10 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "one-time interval"
+   ],
+   "page": "28"
+  },
+  {
+   "joint": "Recommended work / Perform the shock absorber service.",
+   "value": "After 20 operating hours / Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "one-time interval"
+   ],
+   "page": "28"
+  },
+  {
+   "joint": "Recommended work / Lubricate the steering head bearing.",
+   "value": "every 12 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: every 48 months"
+   ],
+   "page": "28"
+  },
+  {
+   "joint": "Recommended work / Check/adjust the carburetor components.",
+   "value": "every 12 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: every 48 months"
+   ],
+   "page": "28"
+  },
+  {
+   "joint": "Recommended work / Change the coolant.",
+   "value": "every 48 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "28"
+  },
+  {
+   "joint": "Recommended work / Perform minor engine service. Check the cylinder and piston. Check the inlet membrane.)",
+   "value": "After 20 operating hours / Every 20 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "also marked periodic: Every 80 operating hours"
+   ],
+   "page": "28"
+  },
+  {
+   "joint": "Recommended work / Perform major engine service including removing and installing engine. (Check the clutch. Change the piston. Change the connecting rod, conrod bearing, and crank pin. Check the transmission. Change the crankshaft bearing. Change all engine bearings.)",
+   "value": "Every 80 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "28"
+  }
+ ]
+}
