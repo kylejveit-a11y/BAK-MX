@@ -1,0 +1,675 @@
+{
+ "target": {
+  "manufacturer": "Kawasaki",
+  "model": "KX450",
+  "model_year": 2024,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "Kawasaki owner's manual 99803-0401-01-o5kx450mrf-us-en (US English e-book; text layer file search.xml, Kawasaki KTIVS manual server) - KX450 2024 (KX450M)",
+  "source_url": "https://pws.ktivs.net/assets/manuals/99803-0401-01-o5kx450mrf-us-en_ebook-90735d052ae7d6b4d2c139d437d61f74/search.xml",
+  "kind": "owners_manual_ebook",
+  "document_revision": "99803-0401 (e-book published 2023/08/28 17:00:56)",
+  "sha256": "2b87ee93eee425de8fbd3cd348cbfbbcf9cd8594df7d4a56f7c9694f7a3790cd"
+ },
+ "values": [
+  {
+   "joint": "Specifications / Dimensions / Overall length",
+   "value": "2 180 mm (85.83 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 12"
+  },
+  {
+   "joint": "Specifications / Dimensions / Overall width",
+   "value": "820 mm (32.3 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 12"
+  },
+  {
+   "joint": "Specifications / Dimensions / Overall height",
+   "value": "1 270 mm (50.00 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 12"
+  },
+  {
+   "joint": "Specifications / Dimensions / Wheelbase",
+   "value": "1 480 mm (58.27 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 12"
+  },
+  {
+   "joint": "Specifications / Dimensions / Road clearance",
+   "value": "345 mm (13.6 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 12"
+  },
+  {
+   "joint": "Specifications / Dimensions / Curb mass",
+   "value": "112.6 kg (248.3 lb)",
+   "unit": "kg",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 12"
+  },
+  {
+   "joint": "Specifications / Dimensions / Fuel tank capacity",
+   "value": "6.2 L (1.6 US gal)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "e-book page 12"
+  },
+  {
+   "joint": "Specifications / Engine / Type",
+   "value": "4-stroke, DOHC, single-cylinder, liquid-cooled",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 12"
+  },
+  {
+   "joint": "Specifications / Engine / Bore x stroke",
+   "value": "96.0 × 62.1 mm (3.78 × 2.44 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 12"
+  },
+  {
+   "joint": "Specifications / Engine / Displacement",
+   "value": "449 cm³ (27.4 cu in.)",
+   "unit": "cm³",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 12"
+  },
+  {
+   "joint": "Specifications / Engine / Compression ratio",
+   "value": "12.5:1",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 12"
+  },
+  {
+   "joint": "Specifications / Engine / Ignition timing",
+   "value": "10° BTDC @2 300 r/min (rpm)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 12"
+  },
+  {
+   "joint": "Specifications / Engine / Spark plug",
+   "value": "NGK CPR8EB-9",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 12"
+  },
+  {
+   "joint": "Specifications / Transmission / Type",
+   "value": "5-speed, constant mesh, return shift",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 13"
+  },
+  {
+   "joint": "Specifications / Transmission / Gear ratio 1st",
+   "value": "1.750 (28/16)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 13"
+  },
+  {
+   "joint": "Specifications / Transmission / Gear ratio 2nd",
+   "value": "1.412 (24/17)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 13"
+  },
+  {
+   "joint": "Specifications / Transmission / Gear ratio 3rd",
+   "value": "1.188 (19/16)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 13"
+  },
+  {
+   "joint": "Specifications / Transmission / Gear ratio 4th",
+   "value": "1.000 (19/19)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 13"
+  },
+  {
+   "joint": "Specifications / Transmission / Gear ratio 5th",
+   "value": "0.875 (21/24)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 13"
+  },
+  {
+   "joint": "Specifications / Transmission / Primary reduction ratio",
+   "value": "2.727 (60/22)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 13"
+  },
+  {
+   "joint": "Specifications / Transmission / Final reduction ratio",
+   "value": "3.846 (50/13)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 13"
+  },
+  {
+   "joint": "Specifications / Transmission / Overall drive ratio",
+   "value": "9.178 @Top gear",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 13"
+  },
+  {
+   "joint": "Specifications / Engine oil / Type",
+   "value": "API SG, SH, SJ, SL or SM with JASO MA, MA1 or MA2",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 13"
+  },
+  {
+   "joint": "Specifications / Engine oil / Viscosity",
+   "value": "SAE 10W-40",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 13"
+  },
+  {
+   "joint": "Specifications / Engine oil / Capacity",
+   "value": "1.0 L (1.1 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "e-book page 13"
+  },
+  {
+   "joint": "Specifications / Frame / Steering angle",
+   "value": "42° to either side",
+   "unit": "°",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 13"
+  },
+  {
+   "joint": "Specifications / Frame / Caster",
+   "value": "26.6°",
+   "unit": "°",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 13"
+  },
+  {
+   "joint": "Specifications / Frame / Trail",
+   "value": "115 mm (4.53 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 13"
+  },
+  {
+   "joint": "Specifications / Tires / Front tire size and type",
+   "value": "80/100-21 51M/DUNLOP MX34F",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 14"
+  },
+  {
+   "joint": "Specifications / Tires / Rear tire size and type",
+   "value": "120/80-19 63M/DUNLOP MX34",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 14"
+  },
+  {
+   "joint": "Specifications / Wheels / Front rim size",
+   "value": "21 × 1.60",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 14"
+  },
+  {
+   "joint": "Specifications / Wheels / Rear rim size",
+   "value": "19 × 2.15",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 14"
+  },
+  {
+   "joint": "Specifications / Suspension / Front suspension travel",
+   "value": "305 mm (12.0 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 14"
+  },
+  {
+   "joint": "Specifications / Suspension / Rear wheel travel",
+   "value": "307 mm (12.1 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 14"
+  },
+  {
+   "joint": "Front fork / Fork oil type",
+   "value": "Kawasaki Fork Oil A15-00",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 14"
+  },
+  {
+   "joint": "Front fork / Fork oil amount, cylinder unit",
+   "value": "248 mL (8.38 US oz.)",
+   "unit": "mL",
+   "property": "capacity",
+   "conditions": [],
+   "page": "e-book page 14"
+  },
+  {
+   "joint": "Front fork / Fork oil amount, outer tube",
+   "value": "321 mL (10.9 US oz.)",
+   "unit": "mL",
+   "property": "capacity",
+   "conditions": [],
+   "page": "e-book page 14"
+  },
+  {
+   "joint": "Specifications / Electrical / Battery",
+   "value": "12.8 V 2.0 Ah (10 HR), Lithium-ion battery",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 14"
+  },
+  {
+   "joint": "Engine oil / Capacity, filter not removed",
+   "value": "0.8 L (0.8 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "e-book page 52"
+  },
+  {
+   "joint": "Engine oil / Capacity, filter removed",
+   "value": "0.9 L (1.0 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "e-book page 52"
+  },
+  {
+   "joint": "Engine oil / Capacity, engine completely dry",
+   "value": "1.0 L (1.1 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "e-book page 52"
+  },
+  {
+   "joint": "Spark plug / Gap",
+   "value": "0.8 ~ 0.9 mm (0.03 ~ 0.04 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CPR8EB-9 or CPR9EB-9"
+   ],
+   "page": "e-book page 57"
+  },
+  {
+   "joint": "Valve clearance / Exhaust",
+   "value": "0.14 ~ 0.18 mm (0.0055 ~ 0.0071 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 101"
+  },
+  {
+   "joint": "Valve clearance / Intake",
+   "value": "0.08 ~ 0.12 mm (0.0031 ~ 0.0047 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 101"
+  },
+  {
+   "joint": "Front fork / Standard air pressure",
+   "value": "atmospheric",
+   "unit": "kPa",
+   "property": "setting",
+   "conditions": [],
+   "page": "e-book page 128"
+  },
+  {
+   "joint": "Front fork / Rebound damping standard setting",
+   "value": "12 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+   ],
+   "page": "e-book page 129"
+  },
+  {
+   "joint": "Front fork / Rebound damping usable range",
+   "value": "16 clicks or less",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "counterclockwise from the fully seated position"
+   ],
+   "page": "e-book page 129"
+  },
+  {
+   "joint": "Front fork / Compression damping standard setting",
+   "value": "12 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+   ],
+   "page": "e-book page 130"
+  },
+  {
+   "joint": "Front fork / Compression damping usable range",
+   "value": "16 clicks or less",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "counterclockwise from the fully seated position"
+   ],
+   "page": "e-book page 130"
+  },
+  {
+   "joint": "Front fork / Fork oil amount, cylinder unit (standard)",
+   "value": "248 mL (8.38 US oz.)",
+   "unit": "mL",
+   "property": "capacity",
+   "conditions": [],
+   "page": "e-book page 141"
+  },
+  {
+   "joint": "Front fork / Suspension oil",
+   "value": "A15-00 (1 L): P/No. 44091-0023",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 141"
+  },
+  {
+   "joint": "Front fork / Cylinder unit oil level",
+   "value": "121 ~ 129 mm (4.76 ~ 5.08 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "measured from the top surface of the cylinder unit, piston rod fully stretched"
+   ],
+   "page": "e-book page 142"
+  },
+  {
+   "joint": "Front fork / Spring rate (standard)",
+   "value": "5.0 N/mm (0.51 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 150"
+  },
+  {
+   "joint": "Front fork / Fork oil amount, outer tube (standard)",
+   "value": "321 mL (10.9 US oz.)",
+   "unit": "mL",
+   "property": "capacity",
+   "conditions": [
+    "with standard fork spring"
+   ],
+   "page": "e-book page 150"
+  },
+  {
+   "joint": "Front fork / Fork oil amount, outer tube adjustable range",
+   "value": "315 ~ 399 mL (10.7 ~ 13.5 US oz.)",
+   "unit": "mL",
+   "property": "capacity",
+   "conditions": [
+    "with standard fork spring"
+   ],
+   "page": "e-book page 150"
+  },
+  {
+   "joint": "Front fork / Optional spring, soft",
+   "value": "4.8 N/mm (K = 0.49 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 151"
+  },
+  {
+   "joint": "Front fork / Fork oil amount with soft spring (standard)",
+   "value": "326 mL (11.0 US oz.)",
+   "unit": "mL",
+   "property": "capacity",
+   "conditions": [
+    "with 4.8 N/mm optional spring"
+   ],
+   "page": "e-book page 151"
+  },
+  {
+   "joint": "Front fork / Fork oil amount with soft spring, adjustable range",
+   "value": "320 ~ 405 mL (10.8 ~ 13.7 US oz.)",
+   "unit": "mL",
+   "property": "capacity",
+   "conditions": [
+    "with 4.8 N/mm optional spring"
+   ],
+   "page": "e-book page 151"
+  },
+  {
+   "joint": "Front fork / Optional spring, hard",
+   "value": "5.2 N/mm (K = 0.53 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 151"
+  },
+  {
+   "joint": "Front fork / Fork oil amount with hard spring (standard)",
+   "value": "315 mL (10.7 US oz.)",
+   "unit": "mL",
+   "property": "capacity",
+   "conditions": [
+    "with 5.2 N/mm optional spring"
+   ],
+   "page": "e-book page 151"
+  },
+  {
+   "joint": "Front fork / Fork oil amount with hard spring, adjustable range",
+   "value": "310 ~ 394 mL (10.5 ~ 13.3 US oz.)",
+   "unit": "mL",
+   "property": "capacity",
+   "conditions": [
+    "with 5.2 N/mm optional spring"
+   ],
+   "page": "e-book page 151"
+  },
+  {
+   "joint": "Front fork / Standard fork height",
+   "value": "5 mm (0.2 in.)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "between the top end of the outer tube and the upper surface of the steering stem head"
+   ],
+   "page": "e-book page 155"
+  },
+  {
+   "joint": "Rear shock / Rebound damping standard setting",
+   "value": "13 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+   ],
+   "page": "e-book page 157"
+  },
+  {
+   "joint": "Rear shock / Rebound damping usable range",
+   "value": "22 clicks or less",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "counterclockwise from the fully seated position"
+   ],
+   "page": "e-book page 157"
+  },
+  {
+   "joint": "Rear shock / High-speed compression damping standard setting",
+   "value": "2 turns out",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [
+    "counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+   ],
+   "page": "e-book page 158"
+  },
+  {
+   "joint": "Rear shock / High-speed compression damping usable range",
+   "value": "4 turns or less",
+   "unit": "turns",
+   "property": "specification",
+   "conditions": [
+    "counterclockwise from the fully seated position"
+   ],
+   "page": "e-book page 158"
+  },
+  {
+   "joint": "Rear shock / Low-speed compression damping standard setting",
+   "value": "11 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+   ],
+   "page": "e-book page 159"
+  },
+  {
+   "joint": "Rear shock / Low-speed compression damping usable range",
+   "value": "19 clicks or less",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "counterclockwise from the fully seated position"
+   ],
+   "page": "e-book page 159"
+  },
+  {
+   "joint": "Rear shock / Spring preload adjusting nut position (standard)",
+   "value": "120.1 mm (4.728 in.)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "from the center of the upper rear shock absorber pivot point"
+   ],
+   "page": "e-book page 160"
+  },
+  {
+   "joint": "Rear shock / Spring rate (standard)",
+   "value": "K = 54 N/mm (K = 5.5 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 160"
+  },
+  {
+   "joint": "Rear shock / Optional spring rate (softer)",
+   "value": "K = 52 N/mm (K = 5.3 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 160"
+  },
+  {
+   "joint": "Rear shock / Optional spring rate (harder)",
+   "value": "K = 56 N/mm (K = 5.7 kgf/mm)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 160"
+  },
+  {
+   "joint": "Rear shock / Preload nut adjustable range",
+   "value": "117.5 ~ 127.0 mm (4.626 ~ 5.000 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "with K = 52 N/mm spring"
+   ],
+   "page": "e-book page 160"
+  },
+  {
+   "joint": "Rear shock / Preload nut adjustable range",
+   "value": "117.5 ~ 123.0 mm (4.626 ~ 4.843 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "with K = 54 N/mm spring (standard)"
+   ],
+   "page": "e-book page 160"
+  },
+  {
+   "joint": "Rear shock / Preload nut adjustable range",
+   "value": "117.5 ~ 123.5 mm (4.626 ~ 4.862 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "with K = 56 N/mm spring"
+   ],
+   "page": "e-book page 160"
+  },
+  {
+   "joint": "Tires / Air pressure adjustable range",
+   "value": "100 ~ 125 kPa (1.0 ~ 1.2 kgf/cm², 14 ~ 18 psi)",
+   "unit": "kPa",
+   "property": "setting",
+   "conditions": [
+    "front and rear",
+    "check when tires are cold"
+   ],
+   "page": "e-book page 162"
+  }
+ ]
+}
