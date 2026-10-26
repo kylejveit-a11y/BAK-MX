@@ -17,10 +17,10 @@
    "electrical"
   ],
   "entry_state": [
-   "Complete, cold 2025 KTM 450 SX-F (US standard) on the floor with all bodywork, exhaust, fuel tank and engine fitted; oil and coolant still in the engine."
+   "Complete, cold bike on the floor with all bodywork, exhaust, fuel tank and engine fitted; oil and coolant still in the engine."
   ],
   "exit_state": [
-   "Engine out of the frame with oil and coolant drained, bolted to an engine work stand on the bench. Chassis still on the lift stand and strapped, swingarm pulled back and supported, subframe propped up, every removed part bagged, labelled and photographed. Continue with bak-ktm-450sxf-2025-engine-top-end-v1."
+   "Engine out of the frame with oil and coolant drained, bolted to an engine work stand on the bench. Chassis still on the lift stand and strapped, swingarm pulled back and supported, subframe propped up, every removed part bagged, labelled and photographed. Continue with the \"Top end: tear down, measure and rebuild the head, cylinder and piston\" job."
   ],
   "target": {
    "manufacturer": "KTM",
@@ -601,6 +601,614 @@
   ]
  },
  {
+  "id": "bak-ktm-450sxf-2025-engine-removal-shared-v1",
+  "component": "engine",
+  "affected_components": [
+   "exhaust",
+   "air_intake",
+   "fuel_tank",
+   "seat",
+   "subframe",
+   "cooling",
+   "chain",
+   "clutch_hydraulics",
+   "swingarm",
+   "linkage",
+   "wiring",
+   "electrical"
+  ],
+  "entry_state": [
+   "Complete, cold bike on the floor with all bodywork, exhaust, fuel tank and engine fitted; oil and coolant still in the engine."
+  ],
+  "exit_state": [
+   "Engine out of the frame with oil and coolant drained, bolted to an engine work stand on the bench. Chassis still on the lift stand and strapped, swingarm pulled back and supported, subframe propped up, every removed part bagged, labelled and photographed. Continue with the \"Top end: tear down, measure and rebuild the head, cylinder and piston\" job."
+  ],
+  "target": {
+   "manufacturer": "KTM",
+   "model": "450 SX-F",
+   "model_year": 2025,
+   "variant": "standard",
+   "region": "US"
+  },
+  "title": "Take the engine out of the frame",
+  "completeness": "Covers draining oil and coolant and every removal needed to lift the engine out and mount it on a bench stand; it does not open the engine and leaves the radiators, brakes and suspension in the chassis.",
+  "excluded": [
+   "Any work inside the engine",
+   "Radiator removal or coolant pipe replacement",
+   "Swingarm, linkage or frame bearing service",
+   "Engine guard removal (not fitted to the US standard SX-F)",
+   "Fuel pump or fuel filter service"
+  ],
+  "required_tools": [
+   {
+    "name": "Lift stand (KTM 78129955100) or an equally stable stand under the frame",
+    "size": null
+   },
+   {
+    "name": "Ratchet straps or tie-downs to hold the chassis on the stand",
+    "size": null
+   },
+   {
+    "name": "Metric sockets, wrenches, hex and Torx bits",
+    "size": null
+   },
+   {
+    "name": "Exhaust spring hook (KTM 50305017000C1)",
+    "size": null
+   },
+   {
+    "name": "Lock ring pliers for pulling the oil filter (KTM 51012011000)",
+    "size": null
+   },
+   {
+    "name": "Fuel line wash cap set (KTM 81212016100)",
+    "size": null
+   },
+   {
+    "name": "Compressed air with blow gun",
+    "size": null
+   },
+   {
+    "name": "Drain pans for oil and coolant",
+    "size": null
+   },
+   {
+    "name": "Chain master-link tool or pliers",
+    "size": null
+   },
+   {
+    "name": "Engine work stand (KTM 61229001000) with holder and fitting (KTM A46029002000)",
+    "size": null
+   },
+   {
+    "name": "Zip-lock bags, masking tape, marker and a phone camera",
+    "size": null
+   },
+   {
+    "name": "A helper or a hoist for lifting the engine",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Oil filter",
+    "purpose": "The old filter comes out during draining and should not be reused after an engine rebuild."
+   },
+   {
+    "name": "Drain plug seal ring and the O-rings for the oil screen plugs and oil filter cover",
+    "purpose": "Fitted with new sealing parts when the engine is closed up."
+   },
+   {
+    "name": "Seal ring for the coolant drain screw on the water pump cover",
+    "purpose": "Must be renewed whenever the drain screw is taken out."
+   },
+   {
+    "name": "Fresh Loctite 243 and 2701",
+    "purpose": "Needed on several fasteners at refit; buy now so the refit guide is not held up."
+   }
+  ],
+  "prerequisites": [
+   "Engine and exhaust completely cold before any coolant or exhaust part is touched.",
+   "Bike washed and dried, especially around the cylinder head, throttle body and engine cases.",
+   "A clear bench and a labelled bin or bag for every group of fasteners.",
+   "A helper available for the sprocket screw and for lifting the engine out."
+  ],
+  "critical_stop_conditions": [
+   "The chassis moves or rocks on the stand once the swingarm pivot is out: stop and strap it down before going further.",
+   "Metal chunks, flakes or a heavy paste of glitter on the drain plug magnet or oil screens: record and photograph them; the bottom-end guide is not optional.",
+   "Milky oil or oily coolant: note it as a likely head gasket, water pump seal or cracked part and plan the full top-end inspection.",
+   "Any fuel smell or leak at the quick coupling after capping: stop and re-seat the caps before working near the bike with tools.",
+   "The clutch lever is pulled while the slave cylinder is off: the piston can come out; stop, push it back and bleed the clutch at refit."
+  ],
+  "steps": [
+   {
+    "id": "photo-baseline",
+    "title": "Photograph the bike before you start",
+    "instruction": "Walk around the bike and take close photos of the wiring, hoses, cable ties and clamps on both sides of the engine, plus the throttle cable and fuel line routing. These photos are your refit map, so take more than you think you need. Lay out labelled bags for each area: exhaust, tank and seat, subframe, wiring, drive side, clutch side, mounts.",
+    "depends_on": [],
+    "verification": [
+     "Photos clearly show every harness clip, tie and hose run on both sides.",
+     "Bags are labelled and ready."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "lift-stand",
+    "title": "Lift the bike and strap it down",
+    "instruction": "Put the bike on the lift stand under the frame, below the engine, so that neither wheel touches the floor. Strap the frame to the stand or to an overhead point, because the bike loses its rear support when the swingarm pivot comes out later.",
+    "depends_on": [
+     "photo-baseline"
+    ],
+    "verification": [
+     "Both wheels clear of the floor.",
+     "The bike does not rock when pushed at the bars and seat."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "drain-oil-plugs",
+    "title": "Drain the oil from the bottom of the cases",
+    "instruction": "Set a pan under the engine. Remove the magnetic drain plug with its seal ring, the M16 screw plug with its O-ring, and the M20 plug that carries the long oil screen; leave any smaller screw beside the plugs alone. Let the oil run out completely while you look at the magnet and screen for debris.",
+    "depends_on": [
+     "lift-stand"
+    ],
+    "verification": [
+     "Oil fully drained.",
+     "Magnet and screen inspected and photographed; debris noted."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "drain-oil-filter",
+    "title": "Pull the oil filter",
+    "instruction": "Remove the screws on the oil filter cover and lift the cover off with its O-ring. Pull the filter out of its housing with the lock ring pliers and let the housing drain. Bag the cover, screws and plugs together.",
+    "depends_on": [
+     "drain-oil-plugs"
+    ],
+    "verification": [
+     "Filter out and housing empty.",
+     "Oil hardware bagged together."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "drain-coolant",
+    "title": "Drain the coolant",
+    "instruction": "With the engine cold and the bike upright, put a pan under the water pump cover. Take out the drain screw on the water pump cover, then remove the radiator cap so the system drains fully. Thread the drain screw back in by hand so it is not lost; it gets a new seal ring and its final torque when the engine is closed up.",
+    "depends_on": [
+     "drain-oil-filter"
+    ],
+    "verification": [
+     "Coolant stream has stopped.",
+     "Drain screw back in finger-tight; radiator cap stored."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-seat",
+    "title": "Take off the seat",
+    "instruction": "Remove the seat fixing screw at the back. Lift the rear of the seat, slide it toward the tank to free the front, and lift it away.",
+    "depends_on": [
+     "drain-coolant"
+    ],
+    "verification": [
+     "Seat off; screw bagged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fuel-line-off",
+    "title": "Disconnect the fuel line",
+    "instruction": "Unplug the fuel pump electrical connector. Blow dirt away from the fuel line quick coupling with compressed air, then release the coupling and fit the wash caps to both halves. A little fuel will run out, so have a rag ready and keep sparks away.",
+    "depends_on": [
+     "remove-seat"
+    ],
+    "verification": [
+     "Both fuel line ends capped.",
+     "No fuel dripping."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-tank",
+    "title": "Lift off the fuel tank",
+    "instruction": "Pull the breather hose off the tank lid. Remove the front tank screw with its rubber bushing and the two spoiler screws with their collar bushings. Ease both spoilers sideways off the radiators and lift the tank off without snagging the throttle cables.",
+    "depends_on": [
+     "fuel-line-off"
+    ],
+    "verification": [
+     "Tank off and stored away from the work area.",
+     "Bushings bagged with their screws."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-airbox-cover",
+    "title": "Remove the air filter box cover",
+    "instruction": "If the cover is secured with a screw, remove it. Unclip the cover at its front edge, swing it sideways and forward, and take it off. Cover the air filter so nothing falls in.",
+    "depends_on": [
+     "remove-tank"
+    ],
+    "verification": [
+     "Cover off; filter covered."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-silencer",
+    "title": "Take off the silencer",
+    "instruction": "Unhook the spring between the silencer and the header with the spring hook. Remove the silencer mounting screws with their washers and slide the silencer back off the header.",
+    "depends_on": [
+     "remove-airbox-cover"
+    ],
+    "verification": [
+     "Silencer off; screws, washers and spring bagged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-header",
+    "title": "Take off the header pipe",
+    "instruction": "Unhook the header springs at the cylinder head with the spring hook. Remove the screw that holds the header to the cylinder head brace and pull the header out of the exhaust port. Stuff a clean rag into the exhaust port.",
+    "depends_on": [
+     "remove-silencer"
+    ],
+    "verification": [
+     "Header off; exhaust port plugged with a rag."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-frame-guards",
+    "title": "Remove the frame protectors",
+    "instruction": "Cut the cable ties holding the frame protectors. Remove the screws with their washers, lift the left protector off, then push the right one forward and pull it out downward.",
+    "depends_on": [
+     "remove-header"
+    ],
+    "verification": [
+     "Both protectors off; screws bagged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "battery-negative",
+    "title": "Disconnect the battery negative",
+    "instruction": "Disconnect the negative cable from the 12-V battery and tuck it so it cannot spring back onto the terminal. Do this before any starter or harness connector is touched.",
+    "depends_on": [
+     "remove-frame-guards"
+    ],
+    "verification": [
+     "Negative cable off and isolated."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "tilt-subframe",
+    "title": "Swing the subframe up",
+    "instruction": "Loosen the clamp on the intake boot where it meets the throttle body. On each side, loosen the lower subframe screw and remove the upper one. Pivot the subframe and airbox up and prop or tie it there, watching that the intake boot slides off the throttle body cleanly.",
+    "depends_on": [
+     "battery-negative"
+    ],
+    "verification": [
+     "Subframe raised and secured.",
+     "Intake boot free of the throttle body and undamaged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-engine-braces",
+    "title": "Remove the engine braces",
+    "instruction": "Remove the screws holding the two engine braces (head stays) between the cylinder head and the frame and take the braces off. Keep the frame-side and engine-side screws apart, because they are different lengths and use different thread lockers at refit.",
+    "depends_on": [
+     "tilt-subframe"
+    ],
+    "verification": [
+     "Both braces off; screws bagged by position."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "unplug-sensors",
+    "title": "Unplug the engine wiring",
+    "instruction": "Unplug the crankshaft speed sensor, alternator and gear position sensor connectors, cutting cable ties and opening clips as needed. Photograph each plug before you separate it. Free the harness so it can be pulled clear of the engine.",
+    "depends_on": [
+     "remove-engine-braces"
+    ],
+    "verification": [
+     "All three engine harness connectors apart.",
+     "Harness free of the engine and photographed."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "starter-cable",
+    "title": "Disconnect the starter cable",
+    "instruction": "Push back the protective cap on the starter motor terminal, remove the nut and lift off the positive cable. Hang the cable out of the way and thread the nut back onto the terminal so it is not lost.",
+    "depends_on": [
+     "unplug-sensors"
+    ],
+    "verification": [
+     "Starter cable off and clear of the engine."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "head-connectors",
+    "title": "Unplug the cylinder head connectors",
+    "instruction": "Slide back the rubber cap on the sensor plug at the cylinder head and unplug it. Pull the spark plug connector off the plug. Move both leads clear of the head.",
+    "depends_on": [
+     "starter-cable"
+    ],
+    "verification": [
+     "Head sensor and spark plug connector disconnected."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "radiator-hoses",
+    "title": "Pull the radiator hoses off the engine",
+    "instruction": "Loosen the two hose clamps where the radiator hoses join the engine and twist the hoses off. Some coolant will still run out, so keep a pan under the bike. Check the hose ends for cracks while they are off.",
+    "depends_on": [
+     "head-connectors"
+    ],
+    "verification": [
+     "Both hoses off the engine; hose ends inspected."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "sprocket-cover",
+    "title": "Remove the engine sprocket cover",
+    "instruction": "Remove the two screws holding the engine sprocket cover and take the cover off. Note which screw is the M6 and which is the M8.",
+    "depends_on": [
+     "radiator-hoses"
+    ],
+    "verification": [
+     "Cover off; screws bagged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "loosen-sprocket-screw",
+    "title": "Break the sprocket screw loose",
+    "instruction": "Have a helper press the rear brake pedal hard to lock the drive while you break the engine sprocket screw loose. Only loosen it at this point; the chain is what holds the sprocket still.",
+    "depends_on": [
+     "sprocket-cover"
+    ],
+    "verification": [
+     "Sprocket screw loose but still in."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-chain",
+    "title": "Split and remove the chain",
+    "instruction": "Find the master link, remove its clip and side plate, push the link out and lift the chain off both sprockets. Lay a rag over the swingarm and frame so the chain does not scratch them.",
+    "depends_on": [
+     "loosen-sprocket-screw"
+    ],
+    "verification": [
+     "Chain off; master link parts bagged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-sprocket",
+    "title": "Take off the engine sprocket",
+    "instruction": "Remove the loosened sprocket screw with its washer and slide the sprocket off the countershaft.",
+    "depends_on": [
+     "remove-chain"
+    ],
+    "verification": [
+     "Sprocket, screw and washer bagged together."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-shift-lever",
+    "title": "Take off the shift lever",
+    "instruction": "Mark the lever and shaft with a paint pen so you can refit it on the same spline. Remove the pinch screw and washers and slide the lever off.",
+    "depends_on": [
+     "remove-sprocket"
+    ],
+    "verification": [
+     "Lever off and spline position marked."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-slave-cylinder",
+    "title": "Unbolt the clutch slave cylinder",
+    "instruction": "Remove the slave cylinder screws and lift it off the engine with its gasket, keeping the hydraulic line connected. Hang it on the frame without kinking the line, and zip-tie a spacer in the clutch lever so it cannot be pulled while the slave is off.",
+    "depends_on": [
+     "remove-shift-lever"
+    ],
+    "verification": [
+     "Slave cylinder hanging free; line not kinked.",
+     "Clutch lever blocked."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "throttle-body-off",
+    "title": "Pull the throttle body off the head",
+    "instruction": "Loosen the clamp holding the throttle body to the cylinder head intake. Pull the throttle body straight back off the head and hang it on the frame with its cables and wiring still attached. Tape over the intake port and the throttle body opening.",
+    "depends_on": [
+     "remove-slave-cylinder"
+    ],
+    "verification": [
+     "Throttle body free of the head and supported.",
+     "Both openings covered."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "linkage-split",
+    "title": "Disconnect the linkage",
+    "instruction": "Lift the swingarm slightly with a block or helper to take the load off the linkage. Remove the nut and bolt joining the linkage lever to the angle lever.",
+    "depends_on": [
+     "throttle-body-off"
+    ],
+    "verification": [
+     "Linkage lever free of the angle lever; hardware bagged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-swingarm-pivot",
+    "title": "Pull the swingarm pivot",
+    "instruction": "Check the chassis is still strapped down. Remove the swingarm pivot nut and drive or pull the pivot shaft out. Slide the swingarm back far enough to clear the engine and support it there, keeping the rear brake line free of kinks.",
+    "depends_on": [
+     "linkage-split"
+    ],
+    "verification": [
+     "Pivot shaft out; swingarm supported clear of the engine.",
+     "Chassis still stable on the stand."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-nothing-attached",
+    "title": "Check nothing is still attached",
+    "instruction": "Go around the engine with your photos and confirm no hose, wire, cable or tie still connects it to the frame. Wrap the frame tubes beside the engine with tape or rags to protect the finish.",
+    "depends_on": [
+     "remove-swingarm-pivot"
+    ],
+    "verification": [
+     "Nothing connects engine to chassis except the engine carrying screws.",
+     "Frame protected."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "lift-engine-out",
+    "title": "Lift the engine out",
+    "instruction": "With a helper holding the engine, remove the engine carrying screws. Tilt and lift the engine out of the frame to one side and set it on a clean, padded surface.",
+    "depends_on": [
+     "check-nothing-attached"
+    ],
+    "verification": [
+     "Engine out without hitting the frame or radiators.",
+     "Chassis still stable on its stand."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "mount-on-stand",
+    "title": "Mount the engine on the work stand",
+    "instruction": "Fit the holder and fitting to the engine work stand, then bolt the engine to it with the help of your helper or a hoist. Make sure it is tight before you put any wrench force on the engine.",
+    "depends_on": [
+     "lift-engine-out"
+    ],
+    "verification": [
+     "Engine solidly bolted to the work stand.",
+     "All chassis parts bagged and labelled."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   }
+  ],
+  "targets": [
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2026
+   }
+  ]
+ },
+ {
   "id": "bak-ktm-450sxf-2025-engine-top-end-v1",
   "component": "engine",
   "affected_components": [
@@ -613,12 +1221,12 @@
    "valve_clearance"
   ],
   "entry_state": [
-   "Engine out of the frame, drained, on an engine work stand (exit of bak-ktm-450sxf-2025-engine-removal-v1).",
-   "Resume point for a full rebuild: engine on the work stand with the bottom end closed, crank locked at TDC, timing chain and rails fitted and the cylinder head already reassembled (exit of bak-ktm-450sxf-2025-engine-bottom-end-v1); continue at step prep-cylinder-fit."
+   "Engine out of the frame, drained, on an engine work stand (exit of the \"Take the engine out of the frame\" job).",
+   "Resume point for a full rebuild: engine on the work stand with the bottom end closed, crank locked at TDC, timing chain and rails fitted and the cylinder head already reassembled (exit of the \"Bottom end: split the cases and rebuild crank, gearbox, clutch and pumps\" job); continue at step prep-cylinder-fit."
   ],
   "exit_state": [
-   "Complete engine on the work stand: top end assembled, timing marks confirmed, every valve clearance inside the specified range and recorded, crank lock removed, valve cover, spark plug and access plugs fitted, oil filter and oil screens installed and coolant drain screw sealed. No oil or coolant in it yet. Continue with bak-ktm-450sxf-2025-engine-refit-v1.",
-   "Bottom-end pause: if the bottom end is being rebuilt, stop after step branch-bottom-end with the cylinder head reassembled, run bak-ktm-450sxf-2025-engine-bottom-end-v1, then return to step prep-cylinder-fit."
+   "Complete engine on the work stand: top end assembled, timing marks confirmed, every valve clearance inside the specified range and recorded, crank lock removed, valve cover, spark plug and access plugs fitted, oil filter and oil screens installed and coolant drain screw sealed. No oil or coolant in it yet. Continue with the \"Put the engine back in the frame and reconnect everything\" job.",
+   "Bottom-end pause: if the bottom end is being rebuilt, stop after step branch-bottom-end with the cylinder head reassembled, run the \"Bottom end: split the cases and rebuild crank, gearbox, clutch and pumps\" job, then return to step prep-cylinder-fit."
   ],
   "target": {
    "manufacturer": "KTM",
@@ -1333,7 +1941,7 @@
    {
     "id": "branch-bottom-end",
     "title": "Decide whether to open the bottom end",
-    "instruction": "Look at your records and the service hours. If you found metal in the oil, the crank or gearbox needs attention, or this is the major service, pause here and run bak-ktm-450sxf-2025-engine-bottom-end-v1 now, then come back to the next step. Otherwise carry on.",
+    "instruction": "Look at your records and the service hours. If you found metal in the oil, the crank or gearbox needs attention, or this is the major service, pause here and run the \"Bottom end: split the cases and rebuild crank, gearbox, clutch and pumps\" job now, then come back to the next step. Otherwise carry on.",
     "depends_on": [
      "fit-rockers"
     ],
@@ -1657,6 +2265,1069 @@
   ]
  },
  {
+  "id": "bak-ktm-450sxf-2025-engine-top-end-shared-v1",
+  "component": "engine",
+  "affected_components": [
+   "cylinder_head",
+   "valvetrain",
+   "camshaft",
+   "timing_chain",
+   "cylinder",
+   "piston",
+   "valve_clearance"
+  ],
+  "entry_state": [
+   "Engine out of the frame, drained, on an engine work stand (exit of the \"Take the engine out of the frame\" job).",
+   "Resume point for a full rebuild: engine on the work stand with the bottom end closed, crank locked at TDC, timing chain and rails fitted and the cylinder head already reassembled (exit of the \"Bottom end: split the cases and rebuild crank, gearbox, clutch and pumps\" job); continue at step prep-cylinder-fit."
+  ],
+  "exit_state": [
+   "Complete engine on the work stand: top end assembled, timing marks confirmed, every valve clearance inside the specified range and recorded, crank lock removed, valve cover, spark plug and access plugs fitted, oil filter and oil screens installed and coolant drain screw sealed. No oil or coolant in it yet. Continue with the \"Put the engine back in the frame and reconnect everything\" job.",
+   "Bottom-end pause: if the bottom end is being rebuilt, stop after step branch-bottom-end with the cylinder head reassembled, run the \"Bottom end: split the cases and rebuild crank, gearbox, clutch and pumps\" job, then return to step prep-cylinder-fit."
+  ],
+  "target": {
+   "manufacturer": "KTM",
+   "model": "450 SX-F",
+   "model_year": 2025,
+   "variant": "standard",
+   "region": "US"
+  },
+  "title": "Top end: tear down, measure and rebuild the head, cylinder and piston",
+  "completeness": "Covers locking the engine at TDC, removing and refitting the tensioner, camshaft, rockers, head, valves, cylinder and piston, every printed top-end measurement, and the valve clearance check and shim swap; cam bearing replacement, valve guide replacement and seat machining are hand-offs.",
+  "excluded": [
+   "Valve guide replacement and valve seat machining (machine shop)",
+   "Camshaft bearing pressing in the head (hand-off step)",
+   "Cylinder replating or boring",
+   "Bottom-end work (separate guide)",
+   "Throttle body and injector service"
+  ],
+  "required_tools": [
+   {
+    "name": "Spark plug wrench with link (KTM 77229172000)",
+    "size": null
+   },
+   {
+    "name": "Crankshaft locking screw (KTM 61229015000)",
+    "size": null
+   },
+   {
+    "name": "Feeler gauge set (KTM 79129941000 or equivalent)",
+    "size": null
+   },
+   {
+    "name": "Valve spring compressor (KTM 59029019000) with insert (KTM 77029041200)",
+    "size": null
+   },
+   {
+    "name": "Limit plug gauge for valve guides (KTM 59029026006)",
+    "size": null
+   },
+   {
+    "name": "Piston ring compressor (KTM 60029015000)",
+    "size": null
+   },
+   {
+    "name": "Piston ring lock insertion tool (KTM 77329030100)",
+    "size": null
+   },
+   {
+    "name": "M6 screw to pull the rocker arm shafts",
+    "size": "M6"
+   },
+   {
+    "name": "Precision straightedge",
+    "size": null
+   },
+   {
+    "name": "Outside micrometer covering about 95 mm and a bore gauge",
+    "size": null
+   },
+   {
+    "name": "Dial gauge with V-blocks for valve run-out",
+    "size": null
+   },
+   {
+    "name": "Caliper for spring length and spring seat thickness",
+    "size": null
+   },
+   {
+    "name": "Torque wrenches covering 8 to 50 Nm",
+    "size": null
+   },
+   {
+    "name": "Egg-carton or labelled tray for shims, valves and rockers",
+    "size": null
+   },
+   {
+    "name": "Lock ring pliers (KTM 51012011000) for the oil filter",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Cylinder head gasket",
+    "purpose": "Never reuse."
+   },
+   {
+    "name": "Cylinder base gasket",
+    "purpose": "Never reuse."
+   },
+   {
+    "name": "Timing chain tensioner gasket",
+    "purpose": "A new gasket goes on whenever the tensioner is removed."
+   },
+   {
+    "name": "Valve cover seal and engine vent gasket",
+    "purpose": "Renew if hardened, flattened or torn."
+   },
+   {
+    "name": "Valve stem seals (four)",
+    "purpose": "New seals go on whenever a valve is removed."
+   },
+   {
+    "name": "Piston, rings, pin and two pin ring locks of the correct size group",
+    "purpose": "Piston is a replace item at the minor engine service; ring locks are not reused."
+   },
+   {
+    "name": "Valve shims as required",
+    "purpose": "Only the thicknesses your clearance readings call for."
+   },
+   {
+    "name": "Spark plug NGK LMAR9AI-10",
+    "purpose": "Renew if at or past its service interval."
+   },
+   {
+    "name": "Oil filter and new O-rings/seal ring for the oil screen plugs, filter cover and drain plug",
+    "purpose": "Installed at the end of this guide."
+   },
+   {
+    "name": "Seal ring for the coolant drain screw",
+    "purpose": "Renewed before the drain screw is torqued."
+   },
+   {
+    "name": "Engine oil SAE 10W/50 (JASO T903 MA2)",
+    "purpose": "For assembly lube and pre-filling the filter housing."
+   },
+   {
+    "name": "Valves, springs, spring seats and retainers",
+    "purpose": "Replace items at the major engine service, or when any measurement fails."
+   }
+  ],
+  "prerequisites": [
+   "Engine at room temperature, about 20 C (68 F), so the first valve clearance reading is valid.",
+   "Outside of the engine cleaned so no grit falls into the head or crankcase when it is opened.",
+   "A record sheet for clearances, shim sizes and every measurement in this guide.",
+   "Know which service you are doing: the minor service includes a new piston and a check of cylinder, head, camshaft, valve train and timing parts; the major service also renews the valves, springs, spring seats, retainers and timing chain."
+  ],
+  "critical_stop_conditions": [
+   "Camshaft LOCK mark and crank notch do not line up together: you are on the wrong stroke or the chain has jumped; do not fit the locking screw by force.",
+   "Cylinder or head sealing face out of flat by more than 0.10 mm (0.0039 in): that part must be replaced.",
+   "Piston-to-cylinder clearance above the 0.120 mm (0.00472 in) wear limit, or a scored bore: do not reassemble with those parts.",
+   "Any rocker arm roller with radial play: replace that rocker before setting clearance.",
+   "Limit plug gauge slides easily into a valve guide, cracked seat or spark plug thread damage: hand the head to a machine shop.",
+   "Piston rings catch while sliding the piston in: stop and re-compress; never force it.",
+   "After assembly the engine does not turn over smoothly by hand through two full turns: stop and find the contact before going further."
+  ],
+  "steps": [
+   {
+    "id": "clean-before-opening",
+    "title": "Clean around the head",
+    "instruction": "Blow and wipe all dirt from the valve cover, spark plug well and the joints between head, cylinder and cases. Grit that gets inside now ends up in the bearings later.",
+    "depends_on": [],
+    "verification": [
+     "Head area clean and dry."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-spark-plug",
+    "title": "Take out the spark plug",
+    "instruction": "Unscrew the spark plug with the spark plug wrench and link. Look at the plug firing end and note its colour and any oil or coolant residue.",
+    "depends_on": [
+     "clean-before-opening"
+    ],
+    "verification": [
+     "Plug out and condition noted."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-alternator-plug",
+    "title": "Open the crank access plug",
+    "instruction": "Unscrew the large screw plug in the alternator cover. This gives you access to turn the crankshaft.",
+    "depends_on": [
+     "remove-spark-plug"
+    ],
+    "verification": [
+     "Access plug out; its seal set aside."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-valve-cover",
+    "title": "Lift off the valve cover",
+    "instruction": "Remove the valve cover screws and lift the cover off together with its seal. Keep the seal on the cover if you plan to reuse it.",
+    "depends_on": [
+     "remove-alternator-plug"
+    ],
+    "verification": [
+     "Camshaft and rockers visible."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "find-tdc",
+    "title": "Turn the engine to TDC",
+    "instruction": "Turn the crankshaft counterclockwise through the access hole until the LOCK mark on the camshaft gear lines up with the centre of the camshaft retaining bracket. Both rockers should be loose at this point, which tells you the piston is at top dead centre on compression.",
+    "depends_on": [
+     "remove-valve-cover"
+    ],
+    "verification": [
+     "LOCK mark centred on the bracket.",
+     "Both rocker arms have free play."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "lock-crank",
+    "title": "Lock the crankshaft",
+    "instruction": "Remove the crankshaft fixing screw plug and its sealing washer from the engine case. Look through the hole: the notch in the crank web must be visible. Screw in the crankshaft locking screw and snug it to 10 Nm (7.4 lb-ft).",
+    "depends_on": [
+     "find-tdc"
+    ],
+    "verification": [
+     "Notch visible through the hole.",
+     "Locking screw installed and the crank cannot turn."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "measure-valve-clearance-baseline",
+    "title": "Measure the valve clearance as found",
+    "instruction": "With the engine cold, slide feeler blades between each valve and its rocker arm and find the thickest blade that passes with a light drag. The spec is 0.10 to 0.15 mm (0.0039 to 0.0059 in) intake and 0.12 to 0.17 mm (0.0047 to 0.0067 in) exhaust. Write down all four readings with their positions; you need them to choose shims later.",
+    "depends_on": [
+     "lock-crank"
+    ],
+    "verification": [
+     "All four clearances recorded with position.",
+     "Any reading outside spec flagged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-rocker-rollers",
+    "title": "Check the rocker rollers for play",
+    "instruction": "Hold each rocker arm and try to rock its roller up and down across its axle. No radial play is allowed; a roller that moves means that rocker arm gets replaced before any clearance work.",
+    "depends_on": [
+     "measure-valve-clearance-baseline"
+    ],
+    "verification": [
+     "Both rollers checked; any play recorded."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-tensioner",
+    "title": "Remove the timing chain tensioner",
+    "instruction": "Unscrew the tensioner plug and take out its washer and spring to release the chain tension. Then remove the two mounting screws and lift the tensioner body off with its gasket.",
+    "depends_on": [
+     "check-rocker-rollers"
+    ],
+    "verification": [
+     "Tensioner, spring and plug out and bagged together."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-cam-bracket",
+    "title": "Remove the camshaft retaining bracket",
+    "instruction": "Remove the bracket screws and lift off the camshaft retaining bracket with its lock washer.",
+    "depends_on": [
+     "remove-tensioner"
+    ],
+    "verification": [
+     "Bracket off; screws bagged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-camshaft",
+    "title": "Lift out the camshaft",
+    "instruction": "Press both rocker arms down slightly, ease the camshaft out of its bearing seat and slip the timing chain off the cam gear. Tie the chain up with a piece of wire so it cannot drop into the case.",
+    "depends_on": [
+     "remove-cam-bracket"
+    ],
+    "verification": [
+     "Camshaft out.",
+     "Chain tied up and not slack in the case."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "loosen-head-screws",
+    "title": "Unbolt the cylinder head",
+    "instruction": "Remove the single small M6 head screw first. Then loosen the M10 head screws a little at a time in a criss-cross order before taking them out with their washers.",
+    "depends_on": [
+     "remove-camshaft"
+    ],
+    "verification": [
+     "All head screws and washers out and bagged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "lift-head",
+    "title": "Lift the head off",
+    "instruction": "Lift the head straight up, feeding the timing chain through its tunnel and keeping the chain wire held. Remove the dowels and the head gasket.",
+    "depends_on": [
+     "loosen-head-screws"
+    ],
+    "verification": [
+     "Head off and on a clean surface.",
+     "Dowels accounted for."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "raise-cylinder",
+    "title": "Raise the cylinder just enough",
+    "instruction": "Stuff a clean rag around the connecting rod in the case mouth. Slide the cylinder up only until the piston pin is exposed below the cylinder base.",
+    "depends_on": [
+     "lift-head"
+    ],
+    "verification": [
+     "Rag in place.",
+     "Piston pin reachable."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-piston-pin",
+    "title": "Push out the piston pin",
+    "instruction": "Remove one piston pin ring lock, push the pin out and lift the cylinder off with the piston still inside it. Push the piston out of the bore from the bottom, then peel off the base gasket.",
+    "depends_on": [
+     "raise-cylinder"
+    ],
+    "verification": [
+     "Cylinder and piston off.",
+     "Case opening covered with a clean rag."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-rockers",
+    "title": "Remove the rocker arms",
+    "instruction": "Remove the rocker shaft retaining screws. Thread an M6 screw into the end of each rocker shaft, pull the shaft out, and lift the rocker away. Tag each rocker and shaft intake or exhaust.",
+    "depends_on": [
+     "remove-piston-pin"
+    ],
+    "verification": [
+     "Both rockers and shafts out and labelled."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-shims",
+    "title": "Lift out the shims",
+    "instruction": "Pick each shim off the top of its valve spring retainer and put it in a labelled tray slot for that exact valve. Read the thickness stamped on each and add it to your record.",
+    "depends_on": [
+     "remove-rockers"
+    ],
+    "verification": [
+     "Four shims stored by position with thickness noted."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-valves",
+    "title": "Take the valves out",
+    "instruction": "Compress each valve spring with the valve spring compressor and insert, lift out the two collets and release the spring. Remove the retainer and spring, push the valve out through the combustion chamber, then pull off the stem seal and the spring seat. Keep every part of each valve together and labelled by position.",
+    "depends_on": [
+     "remove-shims"
+    ],
+    "verification": [
+     "All four valve sets out and stored by position."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "clean-head",
+    "title": "Clean the head and blow the oil passages",
+    "instruction": "Soak and brush off carbon from the chamber and ports without touching the valve seat faces with a scraper. Wash the head and blow compressed air through every oil passage to confirm they are clear.",
+    "depends_on": [
+     "remove-valves"
+    ],
+    "verification": [
+     "Head clean.",
+     "All oil passages blow through."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-head-flatness",
+    "title": "Check the head gasket face for warp",
+    "instruction": "Lay a straightedge across the head gasket face in several directions and try feeler blades under it. The limit is 0.10 mm (0.0039 in). Also look for cracks around the valve seats and spark plug thread.",
+    "depends_on": [
+     "clean-head"
+    ],
+    "verification": [
+     "Warp reading recorded.",
+     "No cracks found."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-valve-guides",
+    "title": "Check the valve guides",
+    "instruction": "Try the limit plug gauge in each valve guide. If the gauge slides in easily, that guide and its valve need replacing by a machine shop.",
+    "depends_on": [
+     "check-head-flatness"
+    ],
+    "verification": [
+     "All four guides checked and result recorded."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-valves",
+    "title": "Measure valve run-out and inspect the faces",
+    "instruction": "Spin each valve in V-blocks with a dial gauge on the edge of the valve head; run-out must not exceed 0.05 mm (0.002 in). Inspect the sealing face and the chrome stem, where wear usually shows up at the guide area.",
+    "depends_on": [
+     "check-valve-guides"
+    ],
+    "verification": [
+     "Run-out recorded for all four valves.",
+     "Faces and stems inspected."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-seat-width",
+    "title": "Check the valve seat width",
+    "instruction": "Mark the valve face with a little marking compound, tap the valve against its seat and measure the contact band. Intake and exhaust are both specified at 2.00 mm (0.0787 in). A wide, narrow or broken band means the seat needs machining.",
+    "depends_on": [
+     "check-valves"
+    ],
+    "verification": [
+     "Seat width recorded for each valve."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-springs-seats",
+    "title": "Measure the valve springs and spring seats",
+    "instruction": "Look over each spring and spring seat for cracks or wear. Measure spring free length without the seat: at least 40.7 mm (1.602 in) for intake and exhaust. Measure spring seat thickness: 1.4 to 1.6 mm (0.055 to 0.063 in).",
+    "depends_on": [
+     "check-seat-width"
+    ],
+    "verification": [
+     "Spring lengths and seat thicknesses recorded.",
+     "Out-of-spec parts set aside for replacement."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-rocker-shafts",
+    "title": "Inspect the rocker shafts",
+    "instruction": "Check both rocker shafts and their bores for scoring, flats or other wear. Replace any shaft that is marked.",
+    "depends_on": [
+     "check-springs-seats"
+    ],
+    "verification": [
+     "Shafts inspected; result recorded."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-camshaft",
+    "title": "Inspect the camshaft",
+    "instruction": "Examine the lobes and journals for pitting, scuffing or wear. If the surface is damaged, also check that oil reaches the camshaft and rockers before reassembly, because a blocked oiling path will ruin the new part.",
+    "depends_on": [
+     "check-rocker-shafts"
+    ],
+    "verification": [
+     "Camshaft condition recorded."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "cam-bearing-handoff",
+    "title": "Hand off the cam bearings if rough",
+    "instruction": "Turn the camshaft bearings in the head by finger. If one feels rough or loose, take the bare head to a shop with the KTM camshaft-bearing press tools and ask for both bearings and the seal behind them to be renewed, with the small bearing pressed to its 1.4 mm (0.055 in) depth. Continue when it comes back.",
+    "depends_on": [
+     "check-camshaft"
+    ],
+    "verification": [
+     "Bearings smooth, or head back from the shop with new bearings."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-timing-parts",
+    "title": "Inspect the timing chain and rails",
+    "instruction": "With everything clean, check the cam gear and the crank timing sprocket teeth, the tensioning rail, guide rail and chain clip for grooves or breakage. Hang the chain and look for links that stay kinked. Replace anything worn; the chain is a replace item at the major service.",
+    "depends_on": [
+     "cam-bearing-handoff"
+    ],
+    "verification": [
+     "Timing parts condition recorded."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "measure-cylinder",
+    "title": "Measure the cylinder bore",
+    "instruction": "Inspect the bore for scoring. Measure the bore at several heights in two directions at right angles to find any ovality, and read the size group stamped on the side of the cylinder. Size I is 95.000 to 95.012 mm (3.74015 to 3.74062 in); size II is 95.013 to 95.025 mm (3.74066 to 3.74113 in).",
+    "depends_on": [
+     "check-timing-parts"
+    ],
+    "verification": [
+     "All bore readings and the size group recorded."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-cylinder-flatness",
+    "title": "Check the cylinder head face for warp",
+    "instruction": "Lay the straightedge across the cylinder top face in several directions and try feeler blades underneath. The limit is 0.10 mm (0.0039 in).",
+    "depends_on": [
+     "measure-cylinder"
+    ],
+    "verification": [
+     "Warp reading recorded."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "measure-piston",
+    "title": "Measure the piston",
+    "instruction": "Mic the skirt 90 degrees across from the pin axis, 7 mm (0.28 in) up from its lower edge. Size I is 94.93 to 94.96 mm (3.7374 to 3.7386 in) and size II is 94.94 to 94.97 mm (3.7378 to 3.739 in); the group is marked beside the pin boss. Do this for the old piston and for a new one if you have it.",
+    "depends_on": [
+     "check-cylinder-flatness"
+    ],
+    "verification": [
+     "Piston diameter and group recorded."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "calc-piston-clearance",
+    "title": "Work out piston-to-cylinder clearance",
+    "instruction": "Subtract the largest piston reading from the smallest bore reading for the tightest clearance, and the smallest piston reading from the largest bore reading for the loosest. New fit is 0.040 to 0.082 mm (size I) or 0.043 to 0.085 mm (size II); the wear limit is 0.120 mm (0.00472 in).",
+    "depends_on": [
+     "measure-piston"
+    ],
+    "verification": [
+     "Both clearance figures recorded and compared with spec."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-rings",
+    "title": "Check ring groove clearance and end gap",
+    "instruction": "With the rings on the piston, measure the gap between each ring and its groove; the limit is 0.08 mm (0.0031 in). Then push each ring squarely into the bore with the piston to 10 mm (0.39 in) below the top and read the gap between the ring ends: no more than 1.00 mm (0.0394 in) for the top ring and 1.20 mm (0.0472 in) for the oil ring. If the gap is over but the bore is in spec, replace the rings.",
+    "depends_on": [
+     "calc-piston-clearance"
+    ],
+    "verification": [
+     "Groove clearances and end gaps recorded."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-piston-pin",
+    "title": "Check the piston pin fit",
+    "instruction": "Look for blueing or wear on the pin. Slide it into the connecting rod small end and then into the piston and feel for rocking play. Play in the rod means rod and pin work; play in the piston means a new piston and pin.",
+    "depends_on": [
+     "check-rings"
+    ],
+    "verification": [
+     "Pin fit recorded for rod and piston."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "assemble-valves",
+    "title": "Fit the valves back into the head",
+    "instruction": "Fit each spring seat, then press a new stem seal onto each guide. Oil each valve stem and slide it into its original guide, fit the spring and retainer, compress the spring and set the collets with a dab of grease. Release slowly and tap the stem end lightly with a soft mallet to confirm the collets are locked.",
+    "depends_on": [
+     "check-piston-pin"
+    ],
+    "verification": [
+     "All four valves fitted in their original positions.",
+     "Collets seated."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "refit-shims",
+    "title": "Put the shims back",
+    "instruction": "Place each shim back on its own valve spring retainer. Use the original shims for now; you will correct them after the clearance check.",
+    "depends_on": [
+     "assemble-valves"
+    ],
+    "verification": [
+     "Shims back in their original positions."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-rockers",
+    "title": "Fit the rocker arms",
+    "instruction": "Set each rocker in place and push its shaft in with the threaded hole facing out. The shaft with the oil hole goes on the intake side and the cut-outs face up. Line up the holes in the shafts with the screw holes in the head, take out the M6 puller screw and torque the rocker shaft screws to 15 Nm (11.1 lb-ft).",
+    "depends_on": [
+     "refit-shims"
+    ],
+    "verification": [
+     "Rockers move freely.",
+     "Retaining screws at 15 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "branch-bottom-end",
+    "title": "Decide whether to open the bottom end",
+    "instruction": "Look at your records and the service hours. If you found metal in the oil, the crank or gearbox needs attention, or this is the major service, pause here and run the \"Bottom end: split the cases and rebuild crank, gearbox, clutch and pumps\" job now, then come back to the next step. Otherwise carry on.",
+    "depends_on": [
+     "fit-rockers"
+    ],
+    "verification": [
+     "Decision recorded: top end only, or bottom end first."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "prep-cylinder-fit",
+    "title": "Prepare for the cylinder",
+    "instruction": "Confirm the crank is locked at TDC with the locking screw and the timing chain is tied up. Clean the case gasket face and check the dowels are in place. Lay a new base gasket over the dowels.",
+    "depends_on": [
+     "branch-bottom-end"
+    ],
+    "verification": [
+     "Crank locked; base gasket on the dowels."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-piston-into-cylinder",
+    "title": "Load the piston into the cylinder",
+    "instruction": "Fit the rings with their markings facing up and turn the ring gaps 180 degrees apart. Fit one new ring lock in the piston. Oil the piston and bore, squeeze the rings fully with the ring compressor, and push the piston crown-first into the bottom of the upturned cylinder until the pin bore just sits below the cylinder base.",
+    "depends_on": [
+     "prep-cylinder-fit"
+    ],
+    "verification": [
+     "Piston in the bore with rings undamaged.",
+     "Pin bore still exposed below the cylinder."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-piston-pin",
+    "title": "Join the piston to the rod",
+    "instruction": "Lower the cylinder over the rod with the piston marking toward the exhaust side, feeding the timing chain up through its tunnel. Oil the pin, push it through piston and rod, and set the second new ring lock with the insertion tool, pressing it into the groove and turning it home. Check the ring lock is fully in its groove at both ends.",
+    "depends_on": [
+     "fit-piston-into-cylinder"
+    ],
+    "verification": [
+     "Piston marking toward the exhaust.",
+     "Both ring locks seated."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "seat-cylinder",
+    "title": "Slide the cylinder down",
+    "instruction": "Pull the rag from the case. Keep the timing chain taut and slide the cylinder down over the dowels onto the new base gasket.",
+    "depends_on": [
+     "fit-piston-pin"
+    ],
+    "verification": [
+     "Cylinder seated flat on the gasket.",
+     "Chain still taut and tied up."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-head",
+    "title": "Set the head in place",
+    "instruction": "Fit the head dowels and a new head gasket. Lower the head over the dowels, feeding the chain through, and keep the chain wire held.",
+    "depends_on": [
+     "seat-cylinder"
+    ],
+    "verification": [
+     "Head sitting flat on the gasket."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "torque-head",
+    "title": "Torque the head screws",
+    "instruction": "Oil the threads and collars of the M10 head screws and fit them with their washers; start the small M6 screw but leave it loose. Tighten the M10 screws in a criss-cross order to 10 Nm (7.4 lb-ft), then 30 Nm (22.1 lb-ft), then 50 Nm (36.9 lb-ft). Finally torque the M6 screw to 10 Nm (7.4 lb-ft).",
+    "depends_on": [
+     "fit-head"
+    ],
+    "verification": [
+     "All three stages done on every M10 screw; sign off on the record sheet.",
+     "M6 screw at 10 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-camshaft",
+    "title": "Fit the camshaft in time",
+    "instruction": "With the crank still locked, pull the chain up, fit the camshaft and wrap the chain over the cam gear. The LOCK mark on the cam must face up and sit flush with the mark in the head with no slack on the front run of the chain. Fit the lock washer and bracket and torque the bracket screws to 15 Nm (11.1 lb-ft).",
+    "depends_on": [
+     "torque-head"
+    ],
+    "verification": [
+     "LOCK mark flush with the head mark.",
+     "Bracket screws at 15 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "fit-tensioner",
+    "title": "Fit the chain tensioner",
+    "instruction": "Fit the tensioner body with a new gasket and torque its two screws to 10 Nm (7.4 lb-ft). Insert the spring and refit the plug with its seal ring, torqued to 8 Nm (5.9 lb-ft).",
+    "depends_on": [
+     "fit-camshaft"
+    ],
+    "verification": [
+     "Tensioner tight; chain under tension."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "turn-and-recheck",
+    "title": "Turn the engine and re-check timing",
+    "instruction": "Take out the crank locking screw. Turn the crank counterclockwise through several full turns by hand, feeling for any hard spot, and bring it back to TDC. Confirm the cam LOCK mark lines up with the centre of the bracket at the same moment the crank notch shows in the hole, then fit the locking screw again at 10 Nm (7.4 lb-ft).",
+    "depends_on": [
+     "fit-tensioner"
+    ],
+    "verification": [
+     "Engine turns freely.",
+     "Cam and crank marks line up together."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "check-clearance-new",
+    "title": "Check the valve clearance",
+    "instruction": "Measure all four clearances again with the feeler gauge and write them down. Intake must be 0.10 to 0.15 mm and exhaust 0.12 to 0.17 mm, engine cold.",
+    "depends_on": [
+     "turn-and-recheck"
+    ],
+    "verification": [
+     "New clearance readings recorded."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "calc-shims",
+    "title": "Work out any new shims",
+    "instruction": "For a valve out of range, take its shim thickness, add the measured clearance and subtract the clearance you are aiming for, ideally the middle of the range. That gives the shim size to fit. Write the new size beside the old one.",
+    "depends_on": [
+     "check-clearance-new"
+    ],
+    "verification": [
+     "New shim size listed for every out-of-range valve."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "swap-shims",
+    "title": "Swap the shims",
+    "instruction": "Remove the tensioner and camshaft again with the crank locked, as before. Lift each rocker at its outer end, swap the shim for the calculated size, and refit the camshaft in time and the tensioner with another new gasket at the same torques.",
+    "depends_on": [
+     "calc-shims"
+    ],
+    "verification": [
+     "Correct shims in place.",
+     "Cam timing re-checked."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "verify-clearance",
+    "title": "Confirm the final clearances",
+    "instruction": "Turn the engine over several times, return it to TDC and measure all four valves once more. Repeat the shim swap until every valve is in range, and record the final readings.",
+    "depends_on": [
+     "swap-shims"
+    ],
+    "verification": [
+     "All four clearances in range and recorded."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-crank-lock",
+    "title": "Remove the crank lock",
+    "instruction": "Take out the crankshaft locking screw and fit the screw plug with its sealing washer, torqued to 10 Nm (7.4 lb-ft).",
+    "depends_on": [
+     "verify-clearance"
+    ],
+    "verification": [
+     "Plug fitted at 10 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-valve-cover",
+    "title": "Fit the valve cover",
+    "instruction": "Fit the engine vent gasket into the valve cover and set the cover in place with its seal. Torque the valve cover screws to 10 Nm (7.4 lb-ft).",
+    "depends_on": [
+     "remove-crank-lock"
+    ],
+    "verification": [
+     "Seal sitting evenly all round."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-plugs",
+    "title": "Fit the spark plug and access plug",
+    "instruction": "Fit the spark plug with the plug wrench at 10 to 12 Nm (7.4 to 8.9 lb-ft). Refit the screw plug in the alternator cover at 18 Nm (13.3 lb-ft).",
+    "depends_on": [
+     "fit-valve-cover"
+    ],
+    "verification": [
+     "Spark plug and alternator cover plug torqued."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "prefill-filter-housing",
+    "title": "Install the oil filter",
+    "instruction": "Tilt the engine on its stand and fill the oil filter housing about one third with engine oil. Push in the new filter, oil the cover O-ring, fit the cover and torque its screws to 10 Nm (7.4 lb-ft).",
+    "depends_on": [
+     "fit-plugs"
+    ],
+    "verification": [
+     "Filter in; cover at 10 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-oil-screens",
+    "title": "Refit the oil screens and plugs",
+    "instruction": "Slide the long oil screen with its O-rings onto a pin wrench, guide it through the plug hole until it is fully home in the far case half, and fit the M20 plug with its O-ring at 15 Nm (11.1 lb-ft). Fit the M16 plug with a new O-ring at 15 Nm (11.1 lb-ft) and the magnetic drain plug with a new seal ring at 20 Nm (14.8 lb-ft).",
+    "depends_on": [
+     "prefill-filter-housing"
+    ],
+    "verification": [
+     "All three plugs torqued with new seals."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "seal-coolant-drain",
+    "title": "Seal the coolant drain screw",
+    "instruction": "Fit a new seal ring to the coolant drain screw on the water pump cover, apply Loctite 243 and torque it to 10 Nm (7.4 lb-ft).",
+    "depends_on": [
+     "fit-oil-screens"
+    ],
+    "verification": [
+     "Drain screw at 10 Nm with new seal ring."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "final-bench-check",
+    "title": "Final bench check",
+    "instruction": "Turn the engine slowly through two full turns by the rotor screw to feel for anything binding. Check every opening is closed or capped, and bag the record sheet with the engine.",
+    "depends_on": [
+     "seal-coolant-drain"
+    ],
+    "verification": [
+     "Engine turns freely.",
+     "All openings closed or capped.",
+     "Records complete."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   }
+  ],
+  "targets": [
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2026
+   }
+  ]
+ },
+ {
   "id": "bak-ktm-450sxf-2025-engine-bottom-end-v1",
   "component": "engine",
   "affected_components": [
@@ -1676,11 +3347,11 @@
    "timing_chain"
   ],
   "entry_state": [
-   "Engine on the work stand with the cylinder head, cylinder and piston removed, oil drained, filter out and crank locked at TDC with the locking screw (the top-end guide bak-ktm-450sxf-2025-engine-top-end-v1 paused at step branch-bottom-end).",
-   "Engine sprocket, shift lever and clutch slave cylinder already off (done in bak-ktm-450sxf-2025-engine-removal-v1)."
+   "Engine on the work stand with the cylinder head, cylinder and piston removed, oil drained, filter out and crank locked at TDC with the locking screw (the top-end guide the \"Top end: tear down, measure and rebuild the head, cylinder and piston\" job paused at step branch-bottom-end).",
+   "Engine sprocket, shift lever and clutch slave cylinder already off (done in the \"Take the engine out of the frame\" job)."
   ],
   "exit_state": [
-   "Bottom end rebuilt and closed on the work stand: cases sealed, crank end play recorded in spec, gears shift through all positions, oil pumps, timing chain, rails, primary drive, clutch, balancer, water pump, rotor, clutch and alternator covers, push rod and starter fitted. Crank locked at TDC and the timing chain tied up. Return to bak-ktm-450sxf-2025-engine-top-end-v1 at step prep-cylinder-fit."
+   "Bottom end rebuilt and closed on the work stand: cases sealed, crank end play recorded in spec, gears shift through all positions, oil pumps, timing chain, rails, primary drive, clutch, balancer, water pump, rotor, clutch and alternator covers, push rod and starter fitted. Crank locked at TDC and the timing chain tied up. Return to the \"Top end: tear down, measure and rebuild the head, cylinder and piston\" job at step prep-cylinder-fit."
   ],
   "target": {
    "manufacturer": "KTM",
@@ -1839,7 +3510,7 @@
    }
   ],
   "prerequisites": [
-   "Top end removed per bak-ktm-450sxf-2025-engine-top-end-v1 up to step branch-bottom-end.",
+   "Top end removed per the \"Top end: tear down, measure and rebuild the head, cylinder and piston\" job up to step branch-bottom-end.",
    "Spotless bench, plenty of labelled trays, and a phone to photograph each layer before it comes apart.",
    "Access to an oven for heating the case halves and a press or a shop that has one.",
    "Arrangements made with a crankshaft specialist if the crank needs rebuilding."
@@ -3135,6 +4806,1491 @@
   ]
  },
  {
+  "id": "bak-ktm-450sxf-2025-engine-bottom-end-shared-v1",
+  "component": "engine",
+  "affected_components": [
+   "clutch",
+   "primary_drive",
+   "water_pump",
+   "balancer",
+   "oil_pumps",
+   "alternator",
+   "starter_drive",
+   "shift_mechanism",
+   "transmission",
+   "crankshaft",
+   "crankcase",
+   "bearings",
+   "seals",
+   "timing_chain"
+  ],
+  "entry_state": [
+   "Engine on the work stand with the cylinder head, cylinder and piston removed, oil drained, filter out and crank locked at TDC with the locking screw (the top-end guide the \"Top end: tear down, measure and rebuild the head, cylinder and piston\" job paused at step branch-bottom-end).",
+   "Engine sprocket, shift lever and clutch slave cylinder already off (done in the \"Take the engine out of the frame\" job)."
+  ],
+  "exit_state": [
+   "Bottom end rebuilt and closed on the work stand: cases sealed, crank end play recorded in spec, gears shift through all positions, oil pumps, timing chain, rails, primary drive, clutch, balancer, water pump, rotor, clutch and alternator covers, push rod and starter fitted. Crank locked at TDC and the timing chain tied up. Return to the \"Top end: tear down, measure and rebuild the head, cylinder and piston\" job at step prep-cylinder-fit."
+  ],
+  "target": {
+   "manufacturer": "KTM",
+   "model": "450 SX-F",
+   "model_year": 2025,
+   "variant": "standard",
+   "region": "US"
+  },
+  "title": "Bottom end: split the cases and rebuild crank, gearbox, clutch and pumps",
+  "completeness": "Covers stripping both sides, splitting the cases, inspecting and measuring the crank, gearbox, shift parts, clutch, pumps and starter drive, changing case bearings and seals, and closing the cases; the connecting rod and crank pin pressing job is a specialist hand-off.",
+  "excluded": [
+   "Pressing the crankshaft apart and rebuilding the connecting rod (specialist hand-off)",
+   "Crankcase repair or welding",
+   "Stator rewinding or electrical testing beyond the starter bench test",
+   "XC-F US six-speed gearbox (different gear stack)",
+   "Top-end work (separate guide)"
+  ],
+  "required_tools": [
+   {
+    "name": "Crankshaft locking screw (KTM 61229015000)",
+    "size": null
+   },
+   {
+    "name": "Clutch holding wrench (KTM 59029003100, alternative KTM 51129003000)",
+    "size": null
+   },
+   {
+    "name": "Crank protection cap (KTM 75029090000)",
+    "size": null
+   },
+   {
+    "name": "Primary gear puller (KTM 75029021000)",
+    "size": null
+   },
+   {
+    "name": "Rotor puller (KTM 79229032044)",
+    "size": null
+   },
+   {
+    "name": "Engine case splitting puller (KTM 79229048100)",
+    "size": null
+   },
+   {
+    "name": "Balancer shaft locking screw (KTM 78129032000)",
+    "size": null
+   },
+   {
+    "name": "Water pump bearing pressing tool (KTM 79429006000) and seal pressing tool (KTM 60029043040)",
+    "size": null
+   },
+   {
+    "name": "Water pump shaft protection cap (KTM 90129005000)",
+    "size": null
+   },
+   {
+    "name": "Crank bearing inner race puller (KTM 58429037043)",
+    "size": null
+   },
+   {
+    "name": "Oven able to hold 150 C (302 F) for case halves, and a flat wooden board",
+    "size": null
+   },
+   {
+    "name": "Bearing drivers, internal bearing puller and a small press",
+    "size": null
+   },
+   {
+    "name": "Dial gauge with magnetic or case-mounted stand, V-blocks or roller blocks",
+    "size": null
+   },
+   {
+    "name": "Feeler gauge (KTM 79129941000 or equivalent) and straightedge",
+    "size": null
+   },
+   {
+    "name": "Caliper",
+    "size": null
+   },
+   {
+    "name": "Bench vise with soft jaws",
+    "size": null
+   },
+   {
+    "name": "Circlip pliers",
+    "size": null
+   },
+   {
+    "name": "Rubber mallet",
+    "size": null
+   },
+   {
+    "name": "12-V power supply with leads for the starter test",
+    "size": null
+   },
+   {
+    "name": "Torque wrenches covering 0.8 to 120 Nm",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Full engine gasket set: clutch cover, alternator cover and water pump cover gaskets",
+    "purpose": "Every gasket is renewed at the major service and whenever the joint is opened."
+   },
+   {
+    "name": "Loctite 5910 case sealant",
+    "purpose": "Seals the case joint; there is no case gasket."
+   },
+   {
+    "name": "Crankshaft seal for the clutch cover, countershaft seal, shift shaft seal and water pump shaft seal",
+    "purpose": "Seals disturbed during the rebuild are not reused."
+   },
+   {
+    "name": "Case bearings (main, gearbox, shift drum) and matching crank main bearing inner races",
+    "purpose": "All engine bearings are renewed at the major service."
+   },
+   {
+    "name": "New lock rings for the gearbox shafts",
+    "purpose": "Gearbox lock rings are replaced every time."
+   },
+   {
+    "name": "Suction oil pump",
+    "purpose": "Replaced at the major service."
+   },
+   {
+    "name": "Timing chain and crank timing sprocket",
+    "purpose": "Chain is renewed at the major service; the sprocket is usually ruined if pulled off the crank."
+   },
+   {
+    "name": "Freewheel",
+    "purpose": "Replaced at the major service."
+   },
+   {
+    "name": "Connecting rod kit with bearing and crank pin",
+    "purpose": "For the specialist crank rebuild at the major service."
+   },
+   {
+    "name": "Clutch friction discs and steels as needed",
+    "purpose": "Only if inspection or the pack thickness check calls for them."
+   },
+   {
+    "name": "Starter motor O-ring",
+    "purpose": "Renewed at every removal."
+   },
+   {
+    "name": "Oil pressure control valve sealing washer",
+    "purpose": "Renewed when the plug is removed."
+   },
+   {
+    "name": "Engine oil SAE 10W/50 and assembly grease",
+    "purpose": "Assembly lube for every bearing, gear and seal lip."
+   },
+   {
+    "name": "Loctite 243, 222 and 2701",
+    "purpose": "Thread lockers called for on internal fasteners."
+   }
+  ],
+  "prerequisites": [
+   "Top end removed per the \"Top end: tear down, measure and rebuild the head, cylinder and piston\" job up to step branch-bottom-end.",
+   "Spotless bench, plenty of labelled trays, and a phone to photograph each layer before it comes apart.",
+   "Access to an oven for heating the case halves and a press or a shop that has one.",
+   "Arrangements made with a crankshaft specialist if the crank needs rebuilding."
+  ],
+  "critical_stop_conditions": [
+   "Any new case bearing that is loose in its bore once the case has cooled: that case half must be replaced, not glued.",
+   "Crank run-out above 0.03 mm (0.0012 in) at either bearing pin, or rod side play outside 0.20 to 0.45 mm: crank goes to the specialist.",
+   "Crank end play outside 0.50 to 0.80 mm after shimming: do not seal the cases.",
+   "Oil pump rotor clearances over 0.20 mm (0.0079 in), or oil pressure valve spring shorter than 22.1 mm (0.87 in): replace before assembly.",
+   "Case halves will not close without pulling them together with the screws: stop, split again and find the misplaced part.",
+   "Gearbox will not shift through every gear on the bench, or the balancer marks cannot be aligned with the crank at TDC: stop before fitting the clutch cover.",
+   "Never clamp the crank by its pin in a vise and hammer on it; the webs twist and the crank is scrap."
+  ],
+  "steps": [
+   {
+    "id": "confirm-start",
+    "title": "Confirm the starting position",
+    "instruction": "Check the crank is locked at TDC with the locking screw, the case mouth is covered with a clean rag and the timing chain is tied up. Photograph the clutch side and the alternator side before anything comes off.",
+    "depends_on": [],
+    "verification": [
+     "Crank locked.",
+     "Reference photos taken."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-starter",
+    "title": "Remove the starter motor",
+    "instruction": "Remove the starter motor screws and pull the motor out of the case. Bag it with its screws.",
+    "depends_on": [
+     "confirm-start"
+    ],
+    "verification": [
+     "Starter out."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-push-rod",
+    "title": "Pull out the clutch push rod",
+    "instruction": "Slide the clutch push rod out of the main shaft from the slave cylinder side and keep it straight and clean.",
+    "depends_on": [
+     "remove-starter"
+    ],
+    "verification": [
+     "Push rod out."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-water-pump-cover",
+    "title": "Remove the water pump cover",
+    "instruction": "Remove the screws from the water pump cover, noting which screw goes where by length, and lift the cover off with its gasket.",
+    "depends_on": [
+     "remove-push-rod"
+    ],
+    "verification": [
+     "Cover off; screw positions noted."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-impeller",
+    "title": "Remove the impeller",
+    "instruction": "Undo the nut on the impeller and pull the impeller off its shaft.",
+    "depends_on": [
+     "remove-water-pump-cover"
+    ],
+    "verification": [
+     "Impeller and nut bagged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-clutch-cover",
+    "title": "Take off the clutch cover",
+    "instruction": "Remove the clutch cover screws and draw the cover off; the balancer shaft comes out with it. Lift the gasket and keep the dowels.",
+    "depends_on": [
+     "remove-impeller"
+    ],
+    "verification": [
+     "Cover and balancer off.",
+     "Dowels accounted for."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "unload-clutch-springs",
+    "title": "Unload the clutch spring retainer",
+    "instruction": "Back the spring retainer screws out a little at a time in a criss-cross order so the diaphragm spring unloads evenly. Lift off the spring retainer, the spring washer, the pretension ring and the pressure cap.",
+    "depends_on": [
+     "remove-clutch-cover"
+    ],
+    "verification": [
+     "All four parts off and kept in order."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-clutch-pack",
+    "title": "Take out the clutch discs",
+    "instruction": "Pull the whole friction and steel stack out in one go and lay it down in its stacking order. Remove the clutch throw-out.",
+    "depends_on": [
+     "unload-clutch-springs"
+    ],
+    "verification": [
+     "Disc stack kept in order.",
+     "Throw-out removed."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "loosen-clutch-nut",
+    "title": "Undo the inner hub nut",
+    "instruction": "Lock the clutch center with the KTM holding wrench and crack the hub nut loose. Remove the nut and its wedge lock washers.",
+    "depends_on": [
+     "remove-clutch-pack"
+    ],
+    "verification": [
+     "Nut and wedge washers off."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-basket",
+    "title": "Remove the hub and basket",
+    "instruction": "Slide off the inner hub and the thrust washer behind it, which often sticks to the hub. Pull the clutch basket off, then remove the needle bearing and collar bushing.",
+    "depends_on": [
+     "loosen-clutch-nut"
+    ],
+    "verification": [
+     "Hub, washer, basket, needle bearing and bushing out and kept together."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-torque-limiter",
+    "title": "Remove the torque limiter and starter idler",
+    "instruction": "Undo the screw and washer that retain the torque limiter, then lift off the limiter together with the starter idler (intermediate) gear.",
+    "depends_on": [
+     "remove-basket"
+    ],
+    "verification": [
+     "Both gears off."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-pump-idler",
+    "title": "Remove the oil pump idler gear",
+    "instruction": "Remove the lock ring and washer from the oil pump idler shaft and slide the idler gear off with its washer.",
+    "depends_on": [
+     "remove-torque-limiter"
+    ],
+    "verification": [
+     "Idler gear and washers bagged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-locking-lever",
+    "title": "Remove the gear locking lever",
+    "instruction": "Undo the locking lever screw and take it out together with the lever, washer, sleeve and spring.",
+    "depends_on": [
+     "remove-pump-idler"
+    ],
+    "verification": [
+     "Locking lever parts bagged together."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-drum-locator",
+    "title": "Remove the shift drum locating unit",
+    "instruction": "Remove its screw, push the shift shaft sliding plate away from the locating unit, and lift the unit off the end of the shift drum.",
+    "depends_on": [
+     "remove-locking-lever"
+    ],
+    "verification": [
+     "Locating unit off."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-shift-shaft",
+    "title": "Pull out the shift shaft",
+    "instruction": "Pull the shift shaft assembly out of the case with its washer.",
+    "depends_on": [
+     "remove-drum-locator"
+    ],
+    "verification": [
+     "Shift shaft out."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-primary-nut",
+    "title": "Undo the primary gear nut",
+    "instruction": "The primary gear nut has a left-hand thread, so turn it clockwise to loosen. With the crank still locked, break it free and remove it.",
+    "depends_on": [
+     "remove-shift-shaft"
+    ],
+    "verification": [
+     "Primary nut off."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "pull-primary-gear",
+    "title": "Pull the primary gear",
+    "instruction": "Put the protection cap in the crank end, fit the primary gear puller and draw the gear off. Lift out the woodruff key and the freewheel gear behind it.",
+    "depends_on": [
+     "remove-primary-nut"
+    ],
+    "verification": [
+     "Primary gear, key and freewheel gear off."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-alternator-cover",
+    "title": "Remove the alternator cover",
+    "instruction": "Remove the alternator cover screws and lift the cover off with its gasket. The stator stays in the cover.",
+    "depends_on": [
+     "pull-primary-gear"
+    ],
+    "verification": [
+     "Cover off; stator untouched."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "pull-rotor",
+    "title": "Pull the rotor",
+    "instruction": "With the crank still locked, remove the rotor screw. Fit the protection cap into the crank end, thread the rotor puller into the rotor, hold the puller body and turn its centre screw in until the rotor pops free. Keep the woodruff key.",
+    "depends_on": [
+     "remove-alternator-cover"
+    ],
+    "verification": [
+     "Rotor off; key kept."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-timing-chain",
+    "title": "Remove the timing chain and rails",
+    "instruction": "Remove the tensioning rail screw and rail, then the guide rail screw, guide rails and chain clip. If the chain will be reused, mark its running direction with paint, then lift it off the crank sprocket.",
+    "depends_on": [
+     "pull-rotor"
+    ],
+    "verification": [
+     "Chain and rails out; direction marked if reusing."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-gear-sensor",
+    "title": "Remove the gear position sensor",
+    "instruction": "Remove the two screws and take the gear position sensor off together with its protective plate.",
+    "depends_on": [
+     "remove-timing-chain"
+    ],
+    "verification": [
+     "Sensor and plate bagged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-mainshaft-circlip",
+    "title": "Remove the main shaft circlip and bushing",
+    "instruction": "Take the lock ring off the end of the gearbox main shaft and slide off the bushing.",
+    "depends_on": [
+     "remove-gear-sensor"
+    ],
+    "verification": [
+     "Circlip and bushing bagged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-suction-pump",
+    "title": "Remove the suction pump",
+    "instruction": "Remove the pump cover screws, the cover and its O-ring. Mark the outer face of the rotors with a felt pen, then lift out the inner and outer rotor and the drive pin.",
+    "depends_on": [
+     "remove-mainshaft-circlip"
+    ],
+    "verification": [
+     "Rotors out with orientation marked; pin kept."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-force-pump",
+    "title": "Remove the force pump",
+    "instruction": "Remove the lock ring and washer from the pump drive gear, slide the gear off and take out its pin. Remove the pump cover screws and cover, draw the pump shaft out until its second pin clears the inner rotor, take that pin out, then lift out the rotors and the shaft.",
+    "depends_on": [
+     "remove-suction-pump"
+    ],
+    "verification": [
+     "Force pump parts out and kept together."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-crank-lock",
+    "title": "Take out the crank locking screw",
+    "instruction": "Remove the crankshaft locking screw; the cases cannot separate while it is engaged.",
+    "depends_on": [
+     "remove-force-pump"
+    ],
+    "verification": [
+     "Locking screw out."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-case-screws",
+    "title": "Remove the case screws",
+    "instruction": "Push the case screws through a cardboard template of the case outline as you remove them, so each length goes back in its own hole.",
+    "depends_on": [
+     "remove-crank-lock"
+    ],
+    "verification": [
+     "All case screws out and mapped."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "split-cases",
+    "title": "Split the cases",
+    "instruction": "Tilt the engine so the left case half is up, and remove the work-stand fixing arm fitting from it. Bolt the case splitting puller to the left half with suitable screws and draw the half off evenly, tapping the shaft ends if needed. Never pry between the sealing faces, and keep the half from tilting as it comes off.",
+    "depends_on": [
+     "remove-case-screws"
+    ],
+    "verification": [
+     "Left case half off without damage.",
+     "Sealing faces unmarked."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-shift-rails",
+    "title": "Remove the shift rails",
+    "instruction": "Pull both shift rails out with their springs.",
+    "depends_on": [
+     "split-cases"
+    ],
+    "verification": [
+     "Both rails and springs out."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-drum-forks",
+    "title": "Remove the shift drum and forks",
+    "instruction": "Swing the forks aside, lift the shift drum out, then take out the forks. Keep each fork's roller on its pin and tag each fork with its position.",
+    "depends_on": [
+     "remove-shift-rails"
+    ],
+    "verification": [
+     "Drum and forks out; rollers kept; positions tagged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-shafts",
+    "title": "Lift out the gearbox shafts",
+    "instruction": "Lift the main shaft and countershaft out together with their O-ring and washer. Check the bearing for the washer if it is not on the shaft.",
+    "depends_on": [
+     "remove-drum-forks"
+    ],
+    "verification": [
+     "Both shafts out as a pair; washer found."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-crank",
+    "title": "Lift out the crankshaft",
+    "instruction": "Lift the crankshaft out of the right case half, then take the right half off the work stand.",
+    "depends_on": [
+     "remove-shafts"
+    ],
+    "verification": [
+     "Crank out; both halves free."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "clean-cases",
+    "title": "Clean the case halves",
+    "instruction": "Remove every trace of old sealant from both joint faces with a plastic scraper and solvent, without gouging the aluminium. Wash both halves.",
+    "depends_on": [
+     "remove-crank"
+    ],
+    "verification": [
+     "Faces clean and undamaged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-pressure-valve",
+    "title": "Check the oil pressure control valve",
+    "instruction": "Unscrew the oil pressure control valve plug from the right case and take out the spring and ball. The spring must be at least 22.1 mm (0.87 in) long. Refit the ball and spring and torque the plug with a new sealing washer to 20 Nm (14.8 lb-ft) after the case work is finished.",
+    "depends_on": [
+     "clean-cases"
+    ],
+    "verification": [
+     "Spring length recorded.",
+     "Valve refitted at 20 Nm with new washer."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "right-case-strip",
+    "title": "Strip the right case half",
+    "instruction": "Remove the remaining dowels, the piston-cooling oil nozzle, and the bearing retainer screws and retainers over the main shaft, countershaft and shift drum bearings.",
+    "depends_on": [
+     "check-pressure-valve"
+    ],
+    "verification": [
+     "Retainers and nozzle out; bearings exposed."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "right-case-bearings-out",
+    "title": "Heat out the right case bearings",
+    "instruction": "Heat the clean right case half evenly in an oven to 150 C (302 F). Wearing heat gloves, rap the case flat onto a wooden board so the bearings drop out, and pull any that stay with a bearing puller. Take out the washer behind the bearing.",
+    "depends_on": [
+     "right-case-strip"
+    ],
+    "verification": [
+     "All bearings due for replacement out.",
+     "Washer checked for damage."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "right-case-bearings-in",
+    "title": "Fit new bearings in the right case",
+    "instruction": "Reheat the case to 150 C (302 F), refit the washer, and drop the new bearings in cold. Lay the case flat and, if needed, press them home only on the outer race until they are fully seated or flush. Let the case cool and check every bearing is tight in its bore.",
+    "depends_on": [
+     "right-case-bearings-out"
+    ],
+    "verification": [
+     "All bearings seated and tight when cold."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "right-case-retainers",
+    "title": "Refit the right case retainers and nozzle",
+    "instruction": "Refit the bearing retainers with Loctite 243 on the screws at 6 Nm (4.4 lb-ft). Refit the piston-cooling oil nozzle with Loctite 243 at 2 Nm (1.5 lb-ft), then blow air through every oil channel.",
+    "depends_on": [
+     "right-case-bearings-in"
+    ],
+    "verification": [
+     "Retainers and nozzle torqued.",
+     "All channels blow through."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "left-case-strip",
+    "title": "Strip the left case half",
+    "instruction": "Remove the remaining dowels, the oil spray tube and its screw, the bearing retainers, and the countershaft and shift shaft seals.",
+    "depends_on": [
+     "right-case-retainers"
+    ],
+    "verification": [
+     "Seals, tube and retainers out."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "left-case-bearings",
+    "title": "Change the left case bearings",
+    "instruction": "Heat the half to 150 C (302 F) and drop the bearings out on the wooden board as before. Reheat, refit the washer, set the new cold bearings in and press home on the outer race only with the case flat. Check they are tight once cool.",
+    "depends_on": [
+     "left-case-strip"
+    ],
+    "verification": [
+     "All bearings tight when cold."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "left-case-seals",
+    "title": "Fit the left case seals and retainers",
+    "instruction": "Press the new countershaft and shift shaft seals in, open side inward, until flush. Refit the bearing retainers with Loctite 243 at 6 Nm (4.4 lb-ft) and the oil spray tube screw with Loctite 243 at 2 Nm (1.5 lb-ft). Refit the dowels and blow out every oil channel.",
+    "depends_on": [
+     "left-case-bearings"
+    ],
+    "verification": [
+     "Seals flush.",
+     "Fasteners torqued.",
+     "Channels clear."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "clutch-cover-crank-seal",
+    "title": "Renew the crank seal in the clutch cover",
+    "instruction": "Remove the lock ring and the old crankshaft seal from the clutch cover. Press the new seal in, open side inward, until flush, refit the lock ring and grease the sealing lip.",
+    "depends_on": [
+     "left-case-seals"
+    ],
+    "verification": [
+     "New seal flush; lock ring seated."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "water-pump-strip",
+    "title": "Strip the water pump",
+    "instruction": "Remove the balancer shaft and the water pump shaft seal from the clutch cover. Support the cover properly and press the water pump shaft bearing out toward the inside.",
+    "depends_on": [
+     "clutch-cover-crank-seal"
+    ],
+    "verification": [
+     "Seal and bearing out without cracking the cover."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "water-pump-build",
+    "title": "Rebuild the water pump",
+    "instruction": "With the cover supported, press the new bearing in to its stop with the bearing pressing tool. Press the new seal fully in with the seal tool so its narrower chamfer faces the balancer shaft.",
+    "depends_on": [
+     "water-pump-strip"
+    ],
+    "verification": [
+     "Bearing to the stop.",
+     "Seal fully home, correct way round."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-balancer",
+    "title": "Fit the balancer shaft into the cover",
+    "instruction": "Inspect the balancer shaft gear and bearing surfaces. Fit the protection cap over the water pump shaft end, slide the balancer shaft into place without cutting the seals, and remove the cap.",
+    "depends_on": [
+     "water-pump-build"
+    ],
+    "verification": [
+     "Balancer shaft in; seals undamaged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "crank-measure",
+    "title": "Measure the crankshaft",
+    "instruction": "Set the crank on roller blocks with a dial gauge on each main bearing pin and turn it slowly: run-out must not exceed 0.03 mm (0.0012 in). Measure the side play between the rod big end and the crank web with a feeler gauge: 0.20 to 0.45 mm (0.0079 to 0.0177 in). Check the big end for any up-and-down play and the timing sprocket teeth for wear.",
+    "depends_on": [
+     "fit-balancer"
+    ],
+    "verification": [
+     "Run-out at both pins recorded.",
+     "Rod side play recorded."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "crank-handoff",
+    "title": "Send the crank to a specialist if needed",
+    "instruction": "If any reading is out, the big end has play, or this is the major service, take the crank to a crankshaft specialist. Ask for a new rod, bearing and crank pin with the pin oil hole lined up with the web oil hole, side play set to 0.20 to 0.45 mm, run-out trued to 0.03 mm or less at both bearing pins, and the main bearing inner races and timing sprocket renewed if you are changing the case bearings or chain. Ask for the thickness of the compensating disks behind each inner race to be written down, and continue when it comes back.",
+    "depends_on": [
+     "crank-measure"
+    ],
+    "verification": [
+     "Crank back with a written record, or crank passed inspection."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "crank-end-play",
+    "title": "Check crank end play",
+    "instruction": "Oil the main bearings, set the crank into the right case half with the dowels in, and fit the left half dry with no sealant. Torque the case screws to 10 Nm (7.4 lb-ft). Mount a dial gauge on the crank end and push and pull the crank: end play must be 0.50 to 0.80 mm (0.0197 to 0.0315 in).",
+    "depends_on": [
+     "crank-handoff"
+    ],
+    "verification": [
+     "End play recorded."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "crank-end-play-correct",
+    "title": "Correct end play if needed",
+    "instruction": "If the end play is too small, the alternator-side inner race comes off and a compensating disk is removed; if too large, one is added. The clutch side normally carries a 0.2 mm disk. Pull and refit the inner race with the heated puller (heat it to 150 C (302 F) for removal and 120 C (248 F) for fitting), or have the specialist do it, then re-check and split the cases again.",
+    "depends_on": [
+     "crank-end-play"
+    ],
+    "verification": [
+     "End play in range and recorded.",
+     "Cases split again."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "measure-oil-pumps",
+    "title": "Measure both oil pumps",
+    "instruction": "Fit each pump's rotors in their bores and use feeler blades between the outer rotor and the case, and between the outer and inner rotor. Both gaps must be 0.20 mm (0.0079 in) or less. Replace the suction pump regardless at the major service.",
+    "depends_on": [
+     "crank-end-play-correct"
+    ],
+    "verification": [
+     "Four pump clearances recorded."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "strip-mainshaft",
+    "title": "Strip the main shaft",
+    "instruction": "Clamp the main shaft in soft jaws with the geared end down. Remove the parts one at a time and lay them out in order on a clean rag, photographing as you go: stop disk, second gear, fourth gear, needle bearing, stop disk, lock ring, third gear, lock ring, stop disk, fifth gear and its bushing.",
+    "depends_on": [
+     "measure-oil-pumps"
+    ],
+    "verification": [
+     "Parts laid out in order."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "strip-countershaft",
+    "title": "Strip the countershaft",
+    "instruction": "Clamp the countershaft the same way and remove the parts in order: stop disk, first gear, needle bearing, stop disk, fifth gear, lock ring, stop disk, third gear, needle bearing, stop disk, lock ring, fourth gear, lock ring, stop disk, second gear and needle bearing. Lay them out in order.",
+    "depends_on": [
+     "strip-mainshaft"
+    ],
+    "verification": [
+     "Parts laid out in order."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "inspect-gearbox",
+    "title": "Inspect the gearbox",
+    "instruction": "Check every needle bearing, the shaft journals and splines, the gear teeth and the gear bores for pitting, chips or bluing. Look at the engagement dogs and slots: rounded or chipped dogs mean that gear pair is replaced. Slide each sliding gear on its shaft splines; it must move freely. Check the stop disks for wear.",
+    "depends_on": [
+     "strip-countershaft"
+    ],
+    "verification": [
+     "Each gear pair passed or tagged for replacement."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "inspect-shift-parts",
+    "title": "Inspect the shift drum, forks and rails",
+    "instruction": "Look at the fork pads for wear or bluing and the drum grooves for wear. Check the drum turns smoothly in its bearing. Roll the fork rails on a flat surface for bend and check their springs, and slide each fork on its rail for scoring or stiffness.",
+    "depends_on": [
+     "inspect-gearbox"
+    ],
+    "verification": [
+     "Forks, drum and rails passed or tagged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "build-shift-shaft",
+    "title": "Check the shift shaft",
+    "instruction": "Grip the shift shaft by its short end in soft vise jaws. Fit the sliding plate guide-pin down onto the shift quadrant, then the pressure spring, spring guide, return spring with its offset end up and over the abutment bolt, and the stop disk. Check the sliding plate contact areas and return surface for notches, then measure the gap between the sliding plate and the quadrant: 0.40 to 0.80 mm (0.0157 to 0.0315 in).",
+    "depends_on": [
+     "inspect-shift-parts"
+    ],
+    "verification": [
+     "Shift shaft assembled.",
+     "Sliding plate gap recorded."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-starter-drive",
+    "title": "Check the starter drive",
+    "instruction": "Inspect the teeth and bearings of the starter intermediate gear, torque limiter and freewheel gear. Briefly connect the starter motor to a 12-V supply, case to negative and terminal to positive; it must spin. Fit a new O-ring to the starter.",
+    "depends_on": [
+     "build-shift-shaft"
+    ],
+    "verification": [
+     "Starter spins.",
+     "Gears passed or tagged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-freewheel",
+    "title": "Check or change the freewheel",
+    "instruction": "Fit the freewheel gear into the back of the primary gear while turning the primary gear clockwise. The primary gear must turn clockwise and lock counterclockwise. To change the freewheel, squeeze off its expansion ring, take out the old one, oil and fit the new one facing the same way, and refit the ring so all its lugs pass through the freewheel slots into the groove.",
+    "depends_on": [
+     "check-starter-drive"
+    ],
+    "verification": [
+     "Freewheel locks in one direction only."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "inspect-clutch",
+    "title": "Inspect the clutch parts",
+    "instruction": "Check the throw-out, the push rod on a flat surface for bend, the spring retainer, spring washer, pretension ring and pressure cap for wear. Check the inner hub, the damping rubbers and the basket slots for notching, and the needle bearing and bushing. Steels must be flat and unpitted and frictions free of bluing or scoring; measure the pack thickness, which must be at least 26.4 mm (1.039 in).",
+    "depends_on": [
+     "check-freewheel"
+    ],
+    "verification": [
+     "Pack thickness recorded.",
+     "Clutch parts passed or tagged."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "build-mainshaft",
+    "title": "Rebuild the main shaft",
+    "instruction": "Oil every part and use new lock rings. With the geared end down in soft jaws, fit the needle bearing and fifth gear, a stop disk and lock ring, third gear with its collar down, a lock ring, a stop disk and needle bearing, fourth gear, second gear and a final stop disk. Spin every gear to check it turns freely.",
+    "depends_on": [
+     "inspect-clutch"
+    ],
+    "verification": [
+     "Stack matches the order; all gears free."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "build-countershaft",
+    "title": "Rebuild the countershaft",
+    "instruction": "With the toothed end down in soft jaws, fit the needle bearing and second gear, stop disk and lock ring, fourth gear with its fork groove down, lock ring and stop disk, needle bearing and third gear, stop disk and lock ring, fifth gear and stop disk, needle bearing and first gear, and a final stop disk. Spin every gear to check it turns freely.",
+    "depends_on": [
+     "build-mainshaft"
+    ],
+    "verification": [
+     "Stack matches the order; all gears free."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "crank-into-case",
+    "title": "Set the crank into the right case",
+    "instruction": "Mount the right case half on the work stand. Oil the main bearing and lower the crankshaft into it.",
+    "depends_on": [
+     "build-countershaft"
+    ],
+    "verification": [
+     "Crank seated and turning freely."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "shafts-into-case",
+    "title": "Fit the gearbox shafts",
+    "instruction": "Oil the gearbox bearings and drop both gearbox shafts in as a pair, making sure the washer and O-ring are on.",
+    "depends_on": [
+     "crank-into-case"
+    ],
+    "verification": [
+     "Both shafts seated and turning."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-forks-drum",
+    "title": "Fit the forks, drum and rails",
+    "instruction": "Put the fork with the smaller bore into the main shaft groove, and the other two into the lower and upper countershaft grooves. Drop the shift drum into its bearing, swing each fork's roller into its drum track, and slide both rails in with their springs.",
+    "depends_on": [
+     "shafts-into-case"
+    ],
+    "verification": [
+     "Every roller in its drum track.",
+     "Rails fully home."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "apply-sealant",
+    "title": "Apply case sealant",
+    "instruction": "Check the dowels are in, degrease both joint faces and lay a thin, even bead of Loctite 5910 on the left case half.",
+    "depends_on": [
+     "fit-forks-drum"
+    ],
+    "verification": [
+     "Even, continuous bead; dowels in."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "close-cases",
+    "title": "Close the cases",
+    "instruction": "Lower the left half over the shafts, tapping lightly with a rubber mallet while turning the gearbox shafts until the faces meet; never use the screws to draw the halves together. Fit the M6x80 screws, then the M6x65 screws, and torque them all in a criss-cross order to 10 Nm (7.4 lb-ft). Refit the cap on the work-stand fixing arm.",
+    "depends_on": [
+     "apply-sealant"
+    ],
+    "verification": [
+     "Case faces closed all round.",
+     "Crank and shafts turn freely.",
+     "Screws torqued; sign off."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-suction-pump",
+    "title": "Fit the suction pump",
+    "instruction": "Oil the pump shaft and rotors. Slide the pump shaft in, fit the needle roller, fit the suction pump rotors as marked, a new O-ring and the cover, and torque the cover screws with Loctite 243 to 6 Nm (4.4 lb-ft).",
+    "depends_on": [
+     "close-cases"
+    ],
+    "verification": [
+     "Cover torqued; shaft turns."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-mainshaft-circlip",
+    "title": "Refit the main shaft bushing and circlip",
+    "instruction": "Slide the bushing onto the main shaft and fit a new lock ring.",
+    "depends_on": [
+     "fit-suction-pump"
+    ],
+    "verification": [
+     "Lock ring fully in its groove."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "lock-crank-tdc",
+    "title": "Lock the crank at TDC again",
+    "instruction": "Turn the crank until the notch shows in the locking screw hole and screw the crankshaft locking screw in.",
+    "depends_on": [
+     "fit-mainshaft-circlip"
+    ],
+    "verification": [
+     "Crank locked; notch visible."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-force-pump",
+    "title": "Fit the force pump",
+    "instruction": "Oil the rotors and fit them with the rounded side toward the case, then fit the pin. Fit the cover with its part number facing out and torque the screws with Loctite 243 to 6 Nm (4.4 lb-ft). Fit the drive pin, the pump gear, its washer and the lock ring, and turn the gear by hand to check it is free.",
+    "depends_on": [
+     "lock-crank-tdc"
+    ],
+    "verification": [
+     "Pump gear turns smoothly."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-gear-sensor",
+    "title": "Fit the gear position sensor",
+    "instruction": "Fit the gear position sensor with its protective plate and torque the screws with Loctite 243 to 5 Nm (3.7 lb-ft).",
+    "depends_on": [
+     "fit-force-pump"
+    ],
+    "verification": [
+     "Sensor fitted."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-timing-chain",
+    "title": "Fit the timing chain and rails",
+    "instruction": "Loop the chain onto the crank sprocket, keeping the marked direction if reused. Fit the guide rails and chain clip and torque the clip screw with Loctite 243 to 10 Nm (7.4 lb-ft). Fit the tensioning rail and torque its screw with Loctite 243 to 10 Nm (7.4 lb-ft). Tie the chain up.",
+    "depends_on": [
+     "fit-gear-sensor"
+    ],
+    "verification": [
+     "Rails secured; chain tied up."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-primary",
+    "title": "Fit the primary gear",
+    "instruction": "Fit the freewheel gear and the woodruff key, then slide the primary gear on with its slot over the key. Thread on the left-hand nut (turn counterclockwise) and torque it to 120 Nm (88.5 lb-ft) with the crank locked.",
+    "depends_on": [
+     "fit-timing-chain"
+    ],
+    "verification": [
+     "Primary nut at 120 Nm; sign off."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-shift-shaft",
+    "title": "Fit the shift shaft and drum locator",
+    "instruction": "Slide in the shift shaft with its washer. Hold the sliding plate away, fit the shift drum locating unit and torque its screw with Loctite 243 to 10 Nm (7.4 lb-ft). Fit the locking lever with its washer, sleeve and spring and torque its screw with Loctite 243 to 6 Nm (4.4 lb-ft).",
+    "depends_on": [
+     "fit-primary"
+    ],
+    "verification": [
+     "Locating unit and lever torqued."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "shift-test",
+    "title": "Shift through every gear",
+    "instruction": "Slip the shift lever on temporarily and, while turning the main shaft, click up and down through all five gears and neutral.",
+    "depends_on": [
+     "fit-shift-shaft"
+    ],
+    "verification": [
+     "Every gear and neutral engages cleanly."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-pump-idler-starter",
+    "title": "Fit the pump idler, starter idler and torque limiter",
+    "instruction": "Fit the oil pump idler gear with its washer and secure it with the washer and lock ring. Fit the starter intermediate gear with its groove facing out, then the torque limiter, and torque its screw with Loctite 243 to 10 Nm (7.4 lb-ft).",
+    "depends_on": [
+     "shift-test"
+    ],
+    "verification": [
+     "Gears fitted and turning."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-basket",
+    "title": "Fit the clutch basket and hub",
+    "instruction": "Oil and fit the collar bushing and needle bearings, slide the basket on and turn the oil pump gear until the basket teeth mesh. Fit the thrust washer with its teeth lined up with the holes in the main shaft, then the inner hub. Inspect the wedge lock washers, fit them with the nut, hold the hub with the holding wrench and torque the nut to 100 Nm (73.8 lb-ft).",
+    "depends_on": [
+     "fit-pump-idler-starter"
+    ],
+    "verification": [
+     "Basket meshed with the pump gear.",
+     "Hub nut at 100 Nm; sign off."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-clutch-discs",
+    "title": "Stack the clutch discs",
+    "instruction": "Soak the friction discs in engine oil. Start with the 1.0 mm (0.039 in) steel marked S, then alternate frictions with the seven 1.4 mm (0.055 in) steels, and finish with the other 1.0 mm steel.",
+    "depends_on": [
+     "fit-basket"
+    ],
+    "verification": [
+     "Thin steels at both ends of the stack."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-clutch-spring",
+    "title": "Fit the clutch spring stack",
+    "instruction": "Fit the throw-out and the pressure cap, then the pretension ring with TOP facing up and the spring washer. Fit the spring retainer with marking 1 and torque its screws in a criss-cross order to 8 Nm (5.9 lb-ft).",
+    "depends_on": [
+     "fit-clutch-discs"
+    ],
+    "verification": [
+     "Retainer screws at 8 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-spring-washer",
+    "title": "Check the clutch spring washer is flat",
+    "instruction": "Lay a straightedge across the spring washer and check the gap with feeler blades; it must be 0 to 0.10 mm (0 to 0.0039 in). If it is out, refit with the retainer marked 2 and check again, then 3. If none brings it in, replace the friction discs.",
+    "depends_on": [
+     "fit-clutch-spring"
+    ],
+    "verification": [
+     "Distortion recorded and in range; retainer marking noted."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-clutch-cover",
+    "title": "Fit the clutch cover with the balancer in time",
+    "instruction": "Fit a new gasket and check the dowels. With the crank still locked at TDC, set the balancer shaft with its locking screw so that its mark lines up with the tool. Ease the cover on without folding the crank seal lip, remove the balancer locking screw, and torque the M6x25 and M6x55 screws in a criss-cross order to 10 Nm (7.4 lb-ft).",
+    "depends_on": [
+     "check-spring-washer"
+    ],
+    "verification": [
+     "Balancer mark aligned before the cover went on.",
+     "Cover screws at 10 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": true,
+    "source_links": []
+   },
+   {
+    "id": "fit-impeller-cover",
+    "title": "Fit the impeller and water pump cover",
+    "instruction": "Fit the two-part impeller and torque its nut with Loctite 243 to 6 Nm (4.4 lb-ft). Fit the cover with a new gasket, start the M6x20, M6x45 and the M6x25 drain screw with a new seal ring and Loctite 243, then tighten them evenly to 10 Nm (7.4 lb-ft).",
+    "depends_on": [
+     "fit-clutch-cover"
+    ],
+    "verification": [
+     "Impeller turns; cover screws at 10 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-pushrod-starter",
+    "title": "Fit the push rod and starter",
+    "instruction": "Slide the clutch push rod back in. Fit the starter motor with its new O-ring and torque its screws to 10 Nm (7.4 lb-ft).",
+    "depends_on": [
+     "fit-impeller-cover"
+    ],
+    "verification": [
+     "Push rod in; starter tight."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-rotor",
+    "title": "Fit the rotor",
+    "instruction": "Check the woodruff key is seated, slide the rotor on with its slot over the key, and torque the rotor screw to 70 Nm (51.6 lb-ft) with the crank locked.",
+    "depends_on": [
+     "fit-pushrod-starter"
+    ],
+    "verification": [
+     "Rotor screw at 70 Nm; sign off."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-alternator-cover",
+    "title": "Fit the alternator cover",
+    "instruction": "Check the small clutch-lubrication oil nozzle in the cover's sealing face is clear. Fit a new gasket over the dowels and torque the cover screws to 10 Nm (7.4 lb-ft).",
+    "depends_on": [
+     "fit-rotor"
+    ],
+    "verification": [
+     "Cover on; screws at 10 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "handback-top-end",
+    "title": "Hand back to the top-end guide",
+    "instruction": "Confirm the crank is locked at TDC, the timing chain is tied up and the case mouth is covered. Return to the top-end guide at step prep-cylinder-fit.",
+    "depends_on": [
+     "fit-alternator-cover"
+    ],
+    "verification": [
+     "Bottom end closed and records complete."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   }
+  ],
+  "targets": [
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2026
+   }
+  ]
+ },
+ {
   "id": "bak-ktm-450sxf-2025-engine-refit-v1",
   "component": "engine",
   "affected_components": [
@@ -3152,11 +6308,11 @@
    "electrical"
   ],
   "entry_state": [
-   "Complete engine on the work stand with valve clearance verified, oil filter and screens fitted and no oil or coolant (exit of bak-ktm-450sxf-2025-engine-top-end-v1).",
-   "Chassis on the lift stand, strapped, with swingarm pulled back and subframe propped up, as left by bak-ktm-450sxf-2025-engine-removal-v1."
+   "Complete engine on the work stand with valve clearance verified, oil filter and screens fitted and no oil or coolant (exit of the \"Top end: tear down, measure and rebuild the head, cylinder and piston\" job).",
+   "Chassis on the lift stand, strapped, with swingarm pulled back and subframe propped up, as left by the \"Take the engine out of the frame\" job."
   ],
   "exit_state": [
-   "Engine mounted and every mount, linkage, control, hose, connector and body part refitted and torqued; battery reconnected. Engine still has no oil or coolant. Continue with bak-ktm-450sxf-2025-engine-first-start-v1."
+   "Engine mounted and every mount, linkage, control, hose, connector and body part refitted and torqued; battery reconnected. Engine still has no oil or coolant. Continue with the \"Fill, first start and break-in after an engine rebuild\" job."
   ],
   "target": {
    "manufacturer": "KTM",
@@ -3539,7 +6695,7 @@
    {
     "id": "fit-silencer",
     "title": "Fit the silencer",
-    "instruction": "Slide the silencer onto the header, start its screws with washers, hook on the spring, then torque the screws to 10 Nm (7.4 lb-ft).",
+    "instruction": "Slide the silencer onto the header, start its screws with washers, hook on the spring, then torque the screws to the general chassis value for their thread size: M6 10 Nm (7.4 lb-ft), M8 25 Nm (18.4 lb-ft).",
     "depends_on": [
      "fit-header"
     ],
@@ -3645,6 +6801,523 @@
   ]
  },
  {
+  "id": "bak-ktm-450sxf-2025-engine-refit-shared-v1",
+  "component": "engine",
+  "affected_components": [
+   "swingarm",
+   "linkage",
+   "chain",
+   "clutch_hydraulics",
+   "exhaust",
+   "air_intake",
+   "fuel_tank",
+   "seat",
+   "subframe",
+   "wiring",
+   "cooling",
+   "electrical"
+  ],
+  "entry_state": [
+   "Complete engine on the work stand with valve clearance verified, oil filter and screens fitted and no oil or coolant (exit of the \"Top end: tear down, measure and rebuild the head, cylinder and piston\" job).",
+   "Chassis on the lift stand, strapped, with swingarm pulled back and subframe propped up, as left by the \"Take the engine out of the frame\" job."
+  ],
+  "exit_state": [
+   "Engine mounted and every mount, linkage, control, hose, connector and body part refitted and torqued; battery reconnected. Engine still has no oil or coolant. Continue with the \"Fill, first start and break-in after an engine rebuild\" job."
+  ],
+  "target": {
+   "manufacturer": "KTM",
+   "model": "450 SX-F",
+   "model_year": 2025,
+   "variant": "standard",
+   "region": "US"
+  },
+  "title": "Put the engine back in the frame and reconnect everything",
+  "completeness": "Covers lifting the engine in and refitting mounts, swingarm, linkage, drive, controls, wiring, hoses, exhaust, airbox cover, tank and seat; filling fluids and starting are in the next guide.",
+  "excluded": [
+   "Filling oil and coolant and first start (next guide)",
+   "Chain adjustment and drivetrain wear checks",
+   "Clutch hydraulic bleeding unless the lever was pulled while the slave was off"
+  ],
+  "required_tools": [
+   {
+    "name": "Engine work stand holder and fitting",
+    "size": null
+   },
+   {
+    "name": "A helper or a hoist",
+    "size": null
+   },
+   {
+    "name": "Torque wrenches covering 2.5 to 100 Nm",
+    "size": null
+   },
+   {
+    "name": "Exhaust spring hook (KTM 50305017000C1)",
+    "size": null
+   },
+   {
+    "name": "Chain master-link tool or pliers",
+    "size": null
+   },
+   {
+    "name": "Compressed air and silicone spray",
+    "size": null
+   },
+   {
+    "name": "Metric sockets, hex and Torx bits",
+    "size": null
+   },
+   {
+    "name": "Cable ties",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Clutch slave cylinder gasket",
+    "purpose": "A new gasket goes on at every refit."
+   },
+   {
+    "name": "Loctite 243 and 2701",
+    "purpose": "Shift lever, engine braces, sprocket screw and subframe screws."
+   },
+   {
+    "name": "Master link for the chain",
+    "purpose": "Fit a new link if the old clip or plates are worn or bent."
+   },
+   {
+    "name": "Cable ties",
+    "purpose": "To re-secure the harness and frame protectors."
+   }
+  ],
+  "prerequisites": [
+   "Removal photos to hand for harness and hose routing.",
+   "All bagged chassis hardware from the removal guide laid out by area.",
+   "Frame mounting faces and the swingarm pivot area clean."
+  ],
+  "critical_stop_conditions": [
+   "Swingarm pivot shaft will not slide through without heavy force: stop and realign the engine and swingarm rather than hammering it.",
+   "Any wire or hose pinched between the engine and the frame: free it before tightening the mounts.",
+   "Clutch lever was pulled while the slave cylinder was off: push the slave piston back and bleed the clutch before riding.",
+   "Fuel line coupling not fully latched or leaks: do not continue to the start guide."
+  ],
+  "steps": [
+   {
+    "id": "engine-off-stand",
+    "title": "Take the engine off the work stand",
+    "instruction": "With your helper or a hoist, unbolt the engine from the work stand and remove the holder fitting from the engine.",
+    "depends_on": [],
+    "verification": [
+     "Engine free and supported."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "place-engine",
+    "title": "Lift the engine into the frame",
+    "instruction": "Check the frame tubes are still padded. With a helper, lower the engine into the frame from the side, watching the radiators and harness. Start the engine carrying screws but leave them loose.",
+    "depends_on": [
+     "engine-off-stand"
+    ],
+    "verification": [
+     "Engine in the frame; carrying screws started."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-swingarm-pivot",
+    "title": "Fit the swingarm pivot",
+    "instruction": "Bring the swingarm forward into line with the engine. Slide the pivot shaft through swingarm and engine and torque the pivot nut to 100 Nm (73.8 lb-ft).",
+    "depends_on": [
+     "place-engine"
+    ],
+    "verification": [
+     "Pivot nut at 100 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "torque-carrying-screws",
+    "title": "Torque the engine carrying screws",
+    "instruction": "Torque the engine carrying screws to 60 Nm (44.3 lb-ft).",
+    "depends_on": [
+     "fit-swingarm-pivot"
+    ],
+    "verification": [
+     "Carrying screws at 60 Nm; sign off."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "connect-linkage",
+    "title": "Reconnect the linkage",
+    "instruction": "Lift the swingarm slightly to line up the linkage lever with the angle lever, fit the bolt and torque the nut to 60 Nm (44.3 lb-ft).",
+    "depends_on": [
+     "torque-carrying-screws"
+    ],
+    "verification": [
+     "Linkage nut at 60 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-throttle-body",
+    "title": "Seat the throttle body",
+    "instruction": "Remove the tape from the intake and throttle body. Push the throttle body fully onto the cylinder head intake and torque its clamp screw to 5 Nm (3.7 lb-ft).",
+    "depends_on": [
+     "connect-linkage"
+    ],
+    "verification": [
+     "Throttle body fully on and square."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-shift-lever",
+    "title": "Fit the shift lever",
+    "instruction": "Slide the shift lever onto the spline at your paint mark and torque its screw with Loctite 243 to 14 Nm (10.3 lb-ft). Make sure it does not touch the frame or case through its travel.",
+    "depends_on": [
+     "fit-throttle-body"
+    ],
+    "verification": [
+     "Lever at its old position and clear of everything."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-slave",
+    "title": "Refit the clutch slave cylinder",
+    "instruction": "Remove the block from the clutch lever. Fit the slave cylinder with a new gasket and torque its screws to 10 Nm (7.4 lb-ft).",
+    "depends_on": [
+     "fit-shift-lever"
+    ],
+    "verification": [
+     "Slave tight; line not kinked."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-sprocket",
+    "title": "Fit the engine sprocket",
+    "instruction": "Slide the sprocket on with its collar facing the engine. Apply Loctite 2701 and start the screw with its washer, but do not tighten it yet.",
+    "depends_on": [
+     "fit-slave"
+    ],
+    "verification": [
+     "Sprocket on the right way round."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-chain",
+    "title": "Join the chain",
+    "instruction": "Route the chain over both sprockets and join it with the master link. The closed end of the clip must point in the direction the chain travels.",
+    "depends_on": [
+     "fit-sprocket"
+    ],
+    "verification": [
+     "Clip fitted and pointing the right way."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "torque-sprocket",
+    "title": "Torque the sprocket screw",
+    "instruction": "Have your helper hold the rear brake on and torque the sprocket screw to 60 Nm (44.3 lb-ft).",
+    "depends_on": [
+     "fit-chain"
+    ],
+    "verification": [
+     "Sprocket screw at 60 Nm; sign off."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-sprocket-cover",
+    "title": "Fit the sprocket cover",
+    "instruction": "Fit the engine sprocket cover. Torque the M6 screw to 10 Nm (7.4 lb-ft) and the M8 screw to 15 Nm (11.1 lb-ft).",
+    "depends_on": [
+     "torque-sprocket"
+    ],
+    "verification": [
+     "Cover secure."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-radiator-hoses",
+    "title": "Reconnect the radiator hoses",
+    "instruction": "Push both radiator hoses fully onto their engine stubs, set the clamps in their original positions and tighten them.",
+    "depends_on": [
+     "fit-sprocket-cover"
+    ],
+    "verification": [
+     "Both hoses fully on and clamped."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "connect-head",
+    "title": "Reconnect the head sensor and plug cap",
+    "instruction": "Plug in the sensor connector on the cylinder head and slide its rubber cap back over it. Push the spark plug connector firmly onto the plug.",
+    "depends_on": [
+     "fit-radiator-hoses"
+    ],
+    "verification": [
+     "Both connections firm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "connect-starter",
+    "title": "Reconnect the starter cable",
+    "instruction": "Fit the positive cable to the starter motor, tighten its nut to 4 Nm (3 lb-ft) and slide the protective cap over it.",
+    "depends_on": [
+     "connect-head"
+    ],
+    "verification": [
+     "Cable tight and covered."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "connect-harness",
+    "title": "Reconnect the engine harness",
+    "instruction": "Plug in the crankshaft speed sensor, alternator and gear position sensor connectors. Route the wiring exactly as in your photos, away from heat and moving parts, and secure it with its clamp and new cable ties.",
+    "depends_on": [
+     "connect-starter"
+    ],
+    "verification": [
+     "All three connectors latched.",
+     "Harness routed as before."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-engine-braces",
+    "title": "Fit the engine braces",
+    "instruction": "Fit both engine braces. Torque the screws into the engine with Loctite 243 and the screws into the frame with Loctite 2701, all to 25 Nm (18.4 lb-ft).",
+    "depends_on": [
+     "connect-harness"
+    ],
+    "verification": [
+     "All brace screws at 25 Nm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "lower-subframe",
+    "title": "Lower the subframe",
+    "instruction": "Lower the subframe, guiding the intake boot over the throttle body. Fit the screws with Loctite 2701 and torque the lower screws to 30 Nm (22.1 lb-ft) and the upper screws to 35 Nm (25.8 lb-ft) on both sides. Tighten the intake boot clamp.",
+    "depends_on": [
+     "fit-engine-braces"
+    ],
+    "verification": [
+     "Boot fully on the throttle body.",
+     "Subframe screws torqued both sides."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-frame-guards",
+    "title": "Refit the frame protectors",
+    "instruction": "Fit the left protector, then slide the right one in from below and push it back. Torque the screws to 3 Nm (2.2 lb-ft) and secure the protectors with cable ties.",
+    "depends_on": [
+     "lower-subframe"
+    ],
+    "verification": [
+     "Both protectors secure."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-header",
+    "title": "Fit the header pipe",
+    "instruction": "Remove the rag from the exhaust port. Fit the header into the port, hook on its springs with the spring hook, and torque the screw on the cylinder head brace to 15 Nm (11.1 lb-ft).",
+    "depends_on": [
+     "fit-frame-guards"
+    ],
+    "verification": [
+     "Header seated; springs on."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-silencer",
+    "title": "Fit the silencer",
+    "instruction": "Slide the silencer onto the header, start its screws with washers, hook on the spring, then torque the screws to the general chassis value for their thread size: M6 10 Nm (7.4 lb-ft), M8 25 Nm (18.4 lb-ft).",
+    "depends_on": [
+     "fit-header"
+    ],
+    "verification": [
+     "Silencer tight; spring hooked."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-airbox-cover",
+    "title": "Fit the air filter box cover",
+    "instruction": "Uncover the air filter, check it is seated, then clip the cover in. If your cover uses a screw, torque it to 3 Nm (2.2 lb-ft).",
+    "depends_on": [
+     "fit-silencer"
+    ],
+    "verification": [
+     "Cover clipped in."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-tank",
+    "title": "Fit the fuel tank",
+    "instruction": "Check the throttle cables are routed correctly, set the tank on, and slide the spoilers onto the radiators without trapping any cable. Reattach the breather hose, torque the spoiler screws to 6 Nm (4.4 lb-ft) and the front screw with its rubber bushing to 10 Nm (7.4 lb-ft).",
+    "depends_on": [
+     "fit-airbox-cover"
+    ],
+    "verification": [
+     "Tank seated; nothing trapped."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "connect-fuel",
+    "title": "Reconnect the fuel line",
+    "instruction": "Plug in the fuel pump connector. Take off the wash caps, blow both halves clean, wipe a little silicone spray onto the coupling O-ring with a lint-free cloth and snap the coupling together. Keep the line and cable well away from the exhaust.",
+    "depends_on": [
+     "fit-tank"
+    ],
+    "verification": [
+     "Coupling latched; tug test passes."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-seat",
+    "title": "Fit the seat",
+    "instruction": "Hook the front of the seat onto its collar bushings, push it back until the rear lugs engage, and torque the seat screw to 8 Nm (5.9 lb-ft).",
+    "depends_on": [
+     "connect-fuel"
+    ],
+    "verification": [
+     "Seat locked down."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "connect-battery",
+    "title": "Reconnect the battery",
+    "instruction": "Reconnect the negative battery cable and torque the terminal screw to 2.5 Nm (1.84 lb-ft).",
+    "depends_on": [
+     "fit-seat"
+    ],
+    "verification": [
+     "Battery connected."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "walkaround",
+    "title": "Do a full walk-around",
+    "instruction": "With your photos and record sheet, go over every fastener, clamp, connector and cable you touched. Pull the clutch lever and check it feels firm, twist the throttle and check it snaps closed, and check the rear wheel turns with the chain.",
+    "depends_on": [
+     "connect-battery"
+    ],
+    "verification": [
+     "Every item checked off.",
+     "Clutch firm; throttle returns."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   }
+  ],
+  "targets": [
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2026
+   }
+  ]
+ },
+ {
   "id": "bak-ktm-450sxf-2025-engine-first-start-v1",
   "component": "engine",
   "affected_components": [
@@ -3656,7 +7329,7 @@
    "chain"
   ],
   "entry_state": [
-   "Engine refitted and fully reconnected, battery connected, no oil or coolant yet (exit of bak-ktm-450sxf-2025-engine-refit-v1)."
+   "Engine refitted and fully reconnected, battery connected, no oil or coolant yet (exit of the \"Put the engine back in the frame and reconnect everything\" job)."
   ],
   "exit_state": [
    "Engine filled, started, leak-free, run in, re-checked after the first operating hour (valve clearance, fasteners, chain, fluids) and adaptation values reset by a dealer: bike ready to ride."
@@ -4048,6 +7721,420 @@
     "record_required": true,
     "diagram_reference_required": false,
     "source_links": []
+   }
+  ]
+ },
+ {
+  "id": "bak-ktm-450sxf-2025-engine-first-start-shared-v1",
+  "component": "engine",
+  "affected_components": [
+   "lubrication",
+   "cooling",
+   "clutch_hydraulics",
+   "engine_management",
+   "valve_clearance",
+   "chain"
+  ],
+  "entry_state": [
+   "Engine refitted and fully reconnected, battery connected, no oil or coolant yet (exit of the \"Put the engine back in the frame and reconnect everything\" job)."
+  ],
+  "exit_state": [
+   "Engine filled, started, leak-free, run in, re-checked after the first operating hour (valve clearance, fasteners, chain, fluids) and adaptation values reset by a dealer: bike ready to ride."
+  ],
+  "target": {
+   "manufacturer": "KTM",
+   "model": "450 SX-F",
+   "model_year": 2025,
+   "variant": "standard",
+   "region": "US"
+  },
+  "title": "Fill, first start and break-in after an engine rebuild",
+  "completeness": "Covers filling oil and coolant, checking the clutch fluid, first start, leak and temperature checks, idle, dealer initialization, quickshifter teach, the break-in rides and the one-hour checks; it does not give a timed break-in schedule because none is published for this model.",
+  "excluded": [
+   "Fork, shock and brake service",
+   "Suspension setup",
+   "Fuel pressure test (dealer tool)",
+   "Throttle position sensor adjustment"
+  ],
+  "required_tools": [
+   {
+    "name": "Funnel and a measuring jug",
+    "size": null
+   },
+   {
+    "name": "Coolant antifreeze tester",
+    "size": null
+   },
+   {
+    "name": "Feeler gauge (KTM 79129941000 or equivalent)",
+    "size": null
+   },
+   {
+    "name": "Crankshaft locking screw (KTM 61229015000) and spark plug wrench (KTM 77229172000)",
+    "size": null
+   },
+   {
+    "name": "Tachometer able to read idle speed",
+    "size": null
+   },
+   {
+    "name": "Bleed syringe (KTM 50329050000) with hose, if the clutch needs bleeding",
+    "size": null
+   },
+   {
+    "name": "Fire extinguisher and good ventilation or exhaust extraction",
+    "size": null
+   },
+   {
+    "name": "Torque wrenches",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Engine oil SAE 10W/50, JASO T903 MA2, fully synthetic, 1.20 l (1.27 qt)",
+    "purpose": "Total engine oil capacity."
+   },
+   {
+    "name": "Coolant: silicate-free with aluminium corrosion inhibitor, frost protection to at least -25 C (-13 F); premix recommended, 0.95 l (1 qt)",
+    "purpose": "Cooling system fill; never plain water."
+   },
+   {
+    "name": "Brake fluid DOT 4 or DOT 5.1",
+    "purpose": "For topping up or bleeding the clutch."
+   },
+   {
+    "name": "Fresh oil filter and drain plug seal ring",
+    "purpose": "For the oil change after break-in."
+   },
+   {
+    "name": "Fuel: unleaded ROZ 95, up to E10",
+    "purpose": "Fill the tank before starting."
+   }
+  ],
+  "prerequisites": [
+   "Engine refit guide completed and walk-around signed off.",
+   "Bike upright on level ground for filling and level checks.",
+   "Outdoors or with exhaust extraction; never run the engine in a closed room.",
+   "A dealer appointment for the diagnostics-tool initialization run."
+  ],
+  "critical_stop_conditions": [
+   "No oil level showing after filling, or oil visible in the coolant or coolant in the oil: do not start.",
+   "Knocking, metallic rattling or a loud valvetrain clatter that does not settle within seconds of starting: shut off immediately.",
+   "Any oil, coolant or fuel leak while running: shut off and fix it before continuing.",
+   "Coolant boiling out of the overflow, or one radiator staying cold while the other is hot: shut off; air lock or water pump fault.",
+   "Engine fails to start after six attempts: stop cranking and find the fault.",
+   "Any valve clearance out of range at the one-hour check: correct it before the bike is ridden again."
+  ],
+  "steps": [
+   {
+    "id": "fill-oil",
+    "title": "Fill the engine oil",
+    "instruction": "Stand the bike upright. Remove the oil filler plug with its O-ring and pour in 1.20 l (1.27 qt) of SAE 10W/50 engine oil. Refit the filler plug with its O-ring.",
+    "depends_on": [],
+    "verification": [
+     "Oil level visible in the sight glass."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fill-coolant",
+    "title": "Fill the coolant",
+    "instruction": "Confirm the drain screw on the water pump cover is tight. With the bike upright, slowly pour coolant into the radiator until it sits 10 mm (0.39 in) above the radiator fins, squeezing the hoses to push air out; the system holds about 0.95 l (1 qt). Refit the radiator cap.",
+    "depends_on": [
+     "fill-oil"
+    ],
+    "verification": [
+     "Coolant 10 mm above the fins; cap on."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-clutch-fluid",
+    "title": "Check the clutch fluid",
+    "instruction": "Turn the clutch reservoir on the bar level, open the cover and check the fluid is 4 mm (0.16 in) below the top edge, topping up with DOT 4 or 5.1 if needed. Pull the lever several times; it must feel firm.",
+    "depends_on": [
+     "fill-coolant"
+    ],
+    "verification": [
+     "Level correct; lever firm."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "bleed-clutch-if-soft",
+    "title": "Bleed the clutch if the lever is soft",
+    "instruction": "If the lever feels spongy, fill the bleed syringe with fresh fluid, connect it with a hose to the slave cylinder bleeder and open the bleeder slightly. Push fluid up until it comes out of the reservoir hole with no bubbles, draining the reservoir now and then so it does not overflow. Close the bleeder, reset the level to 4 mm below the edge and refit the cover.",
+    "depends_on": [
+     "check-clutch-fluid"
+    ],
+    "verification": [
+     "Lever firm with no sponginess."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "prestart-check",
+    "title": "Do the pre-start check",
+    "instruction": "Put fuel in the tank. Check under the bike for drips, confirm the throttle snaps shut, the transmission is in neutral and no tools or rags are left on the engine. Make sure there is ventilation and an extinguisher within reach.",
+    "depends_on": [
+     "bleed-clutch-if-soft"
+    ],
+    "verification": [
+     "No leaks, neutral selected, area safe."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "first-start",
+    "title": "Start the engine",
+    "instruction": "When the air is colder than 20 C (68 F), press the cold start knob fully in first. Press the start button for no more than 5 seconds at a time with the throttle closed, waiting 15 seconds between tries. After six failed tries, stop and find the fault.",
+    "depends_on": [
+     "prestart-check"
+    ],
+    "verification": [
+     "Engine running.",
+     "No knocking or heavy clatter."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "warm-low-revs",
+    "title": "Warm it up gently",
+    "instruction": "Let the engine warm at idle and light throttle only, never revving it hard while cold. Listen for unusual noise and watch the exhaust for blue or white smoke that does not clear.",
+    "depends_on": [
+     "first-start"
+    ],
+    "verification": [
+     "Engine runs smoothly without strange noise."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "leak-heat-check",
+    "title": "Check for leaks and even heating",
+    "instruction": "While it warms, look at every joint you opened: head, base, covers, plugs, hoses and the oil filter cover. Carefully feel the radiator hoses and both radiators as they warm; they should heat up together. Shut off at once if anything leaks or the coolant boils.",
+    "depends_on": [
+     "warm-low-revs"
+    ],
+    "verification": [
+     "No leaks.",
+     "Both radiators warming evenly."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-idle",
+    "title": "Check the idle speed",
+    "instruction": "With the engine fully warm and the cold start button back in its normal position, read the idle speed: 2,200 to 2,300 rpm. Adjust with the idle screw on the throttle body if needed; clockwise raises it.",
+    "depends_on": [
+     "leak-heat-check"
+    ],
+    "verification": [
+     "Idle speed recorded."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-oil-warm",
+    "title": "Check the oil level warm",
+    "instruction": "Shut off, wait one minute with the bike upright, and read the sight glass. Oil should sit between the middle and the top of the glass. Top up with the same oil if it is low.",
+    "depends_on": [
+     "check-idle"
+    ],
+    "verification": [
+     "Oil level correct."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-coolant-cold",
+    "title": "Re-check coolant once cold",
+    "instruction": "Let the engine cool completely. Open the radiator cap and top up to 10 mm (0.39 in) above the fins, since trapped air will have worked out. Check the antifreeze protection with a tester; it should read between -25 and -45 C (-13 and -49 F).",
+    "depends_on": [
+     "check-oil-warm"
+    ],
+    "verification": [
+     "Coolant topped up; antifreeze reading recorded."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "dealer-initialization",
+    "title": "Have the dealer reset the engine management",
+    "instruction": "Take the bike to a KTM dealer with the diagnostics tool. Ask them to clear the adaptation values, program the gear position sensor, run the initialization run and read out the fault memory. Ride only after it reports a successful initialization.",
+    "depends_on": [
+     "check-coolant-cold"
+    ],
+    "verification": [
+     "Initialization successful and fault memory clear."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "teach-quickshifter",
+    "title": "Teach the quickshifter",
+    "instruction": "Start the engine. Hold the QS button for at least 10 seconds until the QS lamp flashes, pull in the clutch, click into first and keep the shift lever pressed all the way down, then tap the QS button. The lamp turns blue when it has learned; if not, repeat.",
+    "depends_on": [
+     "dealer-initialization"
+    ],
+    "verification": [
+     "QS lamp blue."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "breakin-ride-1",
+    "title": "First break-in ride",
+    "instruction": "Ride a short, easy session: smooth throttle, keep varying the revs, short-shift and avoid full throttle and long periods at the same speed. Do not lug it in a high gear either. Follow the piston or ring maker's break-in times if they give them.",
+    "depends_on": [
+     "teach-quickshifter"
+    ],
+    "verification": [
+     "Session done without warning signs."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "heat-cycle-check",
+    "title": "Cool down and check after each session",
+    "instruction": "Let the engine cool fully after the session. Check the oil level, the coolant level and look for leaks before the next ride.",
+    "depends_on": [
+     "breakin-ride-1"
+    ],
+    "verification": [
+     "Levels correct; no leaks."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "breakin-progress",
+    "title": "Build up the load gradually",
+    "instruction": "Over the following sessions, use more throttle and revs step by step until you are riding normally. Stop and investigate any new noise, smoke, leak or loss of power.",
+    "depends_on": [
+     "heat-cycle-check"
+    ],
+    "verification": [
+     "Engine pulls cleanly with no new symptoms."
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "one-hour-valve-check",
+    "title": "Check the valve clearance after one hour",
+    "instruction": "After the first operating hour, with the engine at room temperature, remove the seat, tank, spark plug and valve cover, lock the crank at TDC and measure all four valves: intake 0.10 to 0.15 mm, exhaust 0.12 to 0.17 mm. Correct with shims if any is out, then refit the parts at the same torques as in the top-end guide.",
+    "depends_on": [
+     "breakin-progress"
+    ],
+    "verification": [
+     "All four clearances recorded and in range."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "one-hour-chassis-check",
+    "title": "Do the one-hour checks",
+    "instruction": "Check chain tension and the sprocket screw, then go over every screw, nut and hose clamp on the bike for tightness. Replace the fuel screen, check the coolant level, and have the fault memory read out after a test ride.",
+    "depends_on": [
+     "one-hour-valve-check"
+    ],
+    "verification": [
+     "Chain, fasteners and coolant checked.",
+     "Fault memory read."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "post-breakin-oil",
+    "title": "Change the oil after break-in",
+    "instruction": "Drain the oil warm, clean both oil screens, look closely at the drain magnet for metal, and fit a new filter and drain plug seal ring at the same torques as before. Refill with 1.20 l (1.27 qt) and check the level.",
+    "depends_on": [
+     "one-hour-chassis-check"
+    ],
+    "verification": [
+     "Fresh oil and filter in.",
+     "Magnet debris noted."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "log-hours",
+    "title": "Log the rebuild hours",
+    "instruction": "Write down the hour meter reading and the work done so the next minor (45 hour) and major (90 hour) engine services can be planned from this point.",
+    "depends_on": [
+     "post-breakin-oil"
+    ],
+    "verification": [
+     "Hour meter and rebuild summary recorded."
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   }
+  ],
+  "targets": [
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2026
    }
   ]
  }

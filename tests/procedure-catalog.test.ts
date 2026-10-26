@@ -31,9 +31,9 @@ test('coverage cannot transfer to neighboring years or bypass modified hardware 
  assert.ok(!modified.featured.some(p=>p.component==='engine'||p.component==='frame'));
  assert.ok(!modified.coverage.find(item=>item.system==='Engine')!.available.includes('Stock top-end'));
  const husqvarna=procedureCatalog({...bike,manufacturer:'Husqvarna',model:'FC 450',model_year:2025});
- assert.equal(husqvarna.available.length,4);
+ assert.equal(husqvarna.available.length,9);
  assert.equal(husqvarna.featured.length,0);
- assert.deepEqual(new Set(husqvarna.groups.map(group=>group.id)),new Set(['engine','suspension']));
+ assert.deepEqual(new Set(husqvarna.groups.map(group=>group.id)),new Set(['engine','suspension','chassis']));
  for(const fork of ['WP XACT PRO 6500','WP Cone Valve','Race Tech FSCS','spring-converted']){
   const converted=procedureCatalog({...bike,manufacturer:'Husqvarna',model:'FC 450',model_year:2025,configuration:{fork}});
   assert.ok(converted.available.every(p=>p.component!=='fork'),fork);

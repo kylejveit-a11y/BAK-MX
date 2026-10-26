@@ -887,6 +887,920 @@
   ]
  },
  {
+  "id": "bak-ktm-450sxf-2025-linkage-swingarm-bearings-shared-v1",
+  "component": "frame",
+  "affected_components": [
+   "shock",
+   "linkage",
+   "swingarm",
+   "rear_wheel",
+   "chain",
+   "rear_brake"
+  ],
+  "entry_state": [
+   "Complete, ready-to-ride bike on the ground; rear brake and chain in working order."
+  ],
+  "exit_state": [
+   "Linkage and swingarm pivot bearings, seals and spacers serviced; swingarm, linkage, chain, rear wheel and caliper refitted and torqued; chain tension set; ready to ride."
+  ],
+  "target": {
+   "manufacturer": "KTM",
+   "model": "450 SX-F",
+   "model_year": 2025,
+   "variant": "standard",
+   "region": "US"
+  },
+  "title": "Rebuild the rear linkage and swingarm pivot bearings",
+  "completeness": "Removes the rear wheel, linkage and swingarm, inspects and renews linkage needle bearings, spacers and seals and the swingarm pivot bearings, then rebuilds the whole rear end to a ready-to-ride bike; the shock itself stays in the frame and is not serviced.",
+  "excluded": [
+   "Shock absorber service, heim joint (top eye) bearing and spring changes",
+   "Swingarm or frame repair of any kind",
+   "Damaged or oversized bearing bores",
+   "Brake hydraulic work (the caliper is hung, not opened)"
+  ],
+  "required_tools": [
+   {
+    "name": "Lift stand",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 3 to 100 Nm",
+    "size": null
+   },
+   {
+    "name": "Sockets and combination wrenches for the linkage, pivot and axle fasteners",
+    "size": null
+   },
+   {
+    "name": "Bearing press, drawbolt bearing tool or bench vise with drivers",
+    "size": null
+   },
+   {
+    "name": "Stepped bearing drifts sized to the linkage and pivot bearings",
+    "size": null
+   },
+   {
+    "name": "Seal pick",
+    "size": null
+   },
+   {
+    "name": "Vernier caliper with depth gauge",
+    "size": null
+   },
+   {
+    "name": "Brass or plastic drift and soft mallet",
+    "size": null
+   },
+   {
+    "name": "Wood block or small jack for swingarm support",
+    "size": null
+   },
+   {
+    "name": "Pliers for the chain clip",
+    "size": null
+   },
+   {
+    "name": "Parts cleaner, rags, zip bags and marker",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Linkage needle bearings (angle lever and pull rod)",
+    "purpose": "Replace any that are rough, pitted or missing needles"
+   },
+   {
+    "name": "Linkage spacers",
+    "purpose": "Replace if stepped, pitted or rusted"
+   },
+   {
+    "name": "Linkage radial shaft seals",
+    "purpose": "Replace whenever the linkage is opened"
+   },
+   {
+    "name": "Swingarm pivot bearings, left and right",
+    "purpose": "Renew the pivot bearing on each side"
+   },
+   {
+    "name": "Swingarm pivot radial shaft seals (four)",
+    "purpose": "Fit new seals with the new bearings"
+   },
+   {
+    "name": "Pivot stop disks and collar bushings",
+    "purpose": "Replace if worn or damaged"
+   },
+   {
+    "name": "Angle lever spacing washers",
+    "purpose": "Only if the angle lever width measures under 54.91 mm"
+   },
+   {
+    "name": "Chain connecting link",
+    "purpose": "Replace if the old clip is bent or loose"
+   },
+   {
+    "name": "Loctite 2701",
+    "purpose": "Lower shock bolt"
+   },
+   {
+    "name": "Long-life grease (e.g. Motorex Bike Grease 2000)",
+    "purpose": "Bearings, seals, spacers, pivot shaft and axle"
+   }
+  ],
+  "prerequisites": [
+   "Bike cleaned and cool",
+   "Replacement bearings and seals in hand and checked against the old parts before anything is pressed in",
+   "A press or drawbolt tool is available; do not attempt to hammer bearings in"
+  ],
+  "critical_stop_conditions": [
+   "Any crack, bend or deformation in the swingarm: stop and replace it, do not repair",
+   "A bearing bore that is scored, oval or lets a new bearing slide in loose: stop, the part needs replacing",
+   "Angle lever width below 54.91 mm that spacing washers cannot correct: stop and replace the lever",
+   "Play at the shock top eye: that is a shock heim joint job, stop and hand the shock to a suspension shop",
+   "Bike unstable on the stand: stop and re-set it before removing the swingarm"
+  ],
+  "steps": [
+   {
+    "id": "wash-bike",
+    "title": "Wash the work area first",
+    "instruction": "Wash and dry the bike before you open anything, paying extra attention to the area you are about to work on. Grit that falls into an open bearing bore or brake system is how good parts fail early. Have a clean tray and zip bags with a marker ready for fasteners.",
+    "depends_on": [],
+    "verification": [
+     "Work area is free of mud and grit",
+     "Parts tray and labelled bags are ready"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "lift-bike",
+    "title": "Put the bike on the lift stand",
+    "instruction": "Pull the plug-in stand out of the rear axle and lift the bike onto a lift stand, placing it under the frame below the engine. Both wheels should hang free. Rock the bike gently to make sure it sits square and cannot tip, and keep anyone off it while it is up.",
+    "depends_on": [
+     "wash-bike"
+    ],
+    "verification": [
+     "Both wheels are off the ground",
+     "Bike is stable when pushed lightly from each side"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-rear-play",
+    "title": "Feel for play before you strip it",
+    "instruction": "Grab the swingarm at the back and try to move it up and down, then side to side. Clunks or side movement point at the pivot bearings; notchy or sticky movement through the stroke points at the linkage. Note what you feel so you can compare once it is rebuilt.",
+    "depends_on": [
+     "lift-bike"
+    ],
+    "verification": [
+     "Any play or roughness has been noted"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-frame-guards",
+    "title": "Take off the frame protectors",
+    "instruction": "Snip the cable ties, then remove the small screws and their bushings that hold the frame protectors. Lift the left protector away; slide the right one forward and drop it out from underneath. Bag the screws and bushings together.",
+    "depends_on": [
+     "check-rear-play"
+    ],
+    "verification": [
+     "Both frame protectors are off",
+     "Screws and bushings are bagged"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "retract-rear-piston",
+    "title": "Push the rear caliper piston back",
+    "instruction": "Squeeze the rear caliper toward the disc by hand to push the piston back a little; this gives the pads clearance so the wheel comes out and goes back in easily. Keep the caliper away from the spokes while you push.",
+    "depends_on": [
+     "remove-frame-guards"
+    ],
+    "verification": [
+     "Pads are no longer dragging hard on the disc"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-axle-nut",
+    "title": "Remove the rear axle nut and adjuster",
+    "instruction": "Spin off the rear axle nut and lift off that side's chain adjuster block. Slide the axle out only part of the way, just enough that the wheel can roll forward in the swingarm.",
+    "depends_on": [
+     "retract-rear-piston"
+    ],
+    "verification": [
+     "Nut and adjuster are bagged together",
+     "Axle is still holding the wheel"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "drop-chain",
+    "title": "Roll the wheel forward and lift the chain off",
+    "instruction": "Push the wheel as far forward as it will go to create slack, then lift the chain off the rear sprocket and lay it over a rag on the swingarm so it does not scratch anything.",
+    "depends_on": [
+     "remove-axle-nut"
+    ],
+    "verification": [
+     "Chain is off the rear sprocket"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-rear-wheel",
+    "title": "Pull the axle and lift the wheel out",
+    "instruction": "Hold the wheel up with one hand, pull the axle out, and lower the wheel out of the swingarm. Set it down on blocks or on its side with the brake disc facing up so the disc cannot be bent or contaminated. Take the two spacers out of the hub seals and keep them with the axle. From here on, do not touch the rear brake pedal.",
+    "depends_on": [
+     "drop-chain"
+    ],
+    "verification": [
+     "Wheel is out and resting so the disc carries no load",
+     "Both hub spacers are accounted for",
+     "Rear brake pedal has not been pressed"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "hang-rear-caliper",
+    "title": "Free the rear brake line and hang the caliper",
+    "instruction": "Unclip the rear brake hose from its guide on the swingarm. Slide the caliper forward off its mounting rail and hang it from the frame with a zip tie or wire so the hose is not stretched or kinked. The brake system stays closed; just keep your foot off the pedal.",
+    "depends_on": [
+     "remove-rear-wheel"
+    ],
+    "verification": [
+     "Caliper is hanging on a tie, not on its hose",
+     "Hose is free of the swingarm guide"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "split-chain",
+    "title": "Split the chain at the master link",
+    "instruction": "Roll the chain until the master link is somewhere easy to reach, pop the spring clip off with pliers, remove the side plate and push the link out. Take the chain off and lay it on clean cardboard. Look at the clip: if it is bent or loose on the pins, plan on a new connecting link.",
+    "depends_on": [
+     "hang-rear-caliper"
+    ],
+    "verification": [
+     "Chain is off the bike",
+     "Master link parts are bagged",
+     "Clip condition noted"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "support-swingarm",
+    "title": "Block the swingarm up",
+    "instruction": "Slide a wooden block or a small jack under the swingarm and lift it just enough to take the load off the linkage bolts. This keeps the bolts from binding as you pull them.",
+    "depends_on": [
+     "split-chain"
+    ],
+    "verification": [
+     "Swingarm is supported",
+     "Linkage bolts are not under load"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-shock-bottom-bolt",
+    "title": "Remove the lower shock bolt",
+    "instruction": "Remove the M10 bolt that holds the bottom of the shock to the angle lever. If it binds, raise or lower the swingarm block slightly until it slides out. Bag it on its own; it goes back with fresh thread locker.",
+    "depends_on": [
+     "support-swingarm"
+    ],
+    "verification": [
+     "Shock eye is free of the angle lever",
+     "Bolt is bagged and labelled"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-pullrod-lever-bolt",
+    "title": "Disconnect the pull rod from the angle lever",
+    "instruction": "Remove the nut and bolt joining the pull rod (linkage lever) to the angle lever. Look at the bolt head before it comes out: it has a flat that locks against the part beside it, and it must go back the same way. Snap a photo.",
+    "depends_on": [
+     "remove-shock-bottom-bolt"
+    ],
+    "verification": [
+     "Pull rod is free of the angle lever",
+     "Photo taken of the bolt-head flat orientation"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-angle-lever",
+    "title": "Remove the angle lever from the swingarm",
+    "instruction": "Remove the nut and bolt that hold the angle lever to the swingarm and lift the angle lever out. Keep the spacers and any thin washers on the lever and note which side they came from.",
+    "depends_on": [
+     "remove-pullrod-lever-bolt"
+    ],
+    "verification": [
+     "Angle lever is off",
+     "Spacers and washers are with the lever and their sides are noted"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-pullrod-frame-bolt",
+    "title": "Remove the pull rod from the frame",
+    "instruction": "Remove the nut and bolt that hold the pull rod to the frame and take the pull rod off. Bag and label all three linkage bolts and nuts separately so each goes back in its own hole.",
+    "depends_on": [
+     "remove-angle-lever"
+    ],
+    "verification": [
+     "Pull rod is off",
+     "Each linkage bolt is in its own labelled bag"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-swingarm-pivot",
+    "title": "Pull the swingarm pivot shaft",
+    "instruction": "Hold the swingarm, remove the pivot nut, and push the pivot shaft out; tap it with a brass or plastic drift if it sticks rather than hammering on the threads. Note the flat on the shaft head and how it sits. Ease the swingarm rearward out of the frame, keeping the collar bushings from dropping on the floor.",
+    "depends_on": [
+     "remove-pullrod-frame-bolt"
+    ],
+    "verification": [
+     "Swingarm is off the bike",
+     "Pivot shaft threads are undamaged",
+     "Collar bushings are recovered"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "clean-parts",
+    "title": "Strip and clean every part",
+    "instruction": "Pull the spacers and collar bushings out of the swingarm, angle lever and pull rod, wipe out the old grease, and wash everything in parts cleaner. Dry it with compressed air without spinning the bearings with the air jet. Lay the parts out by location.",
+    "depends_on": [
+     "remove-swingarm-pivot"
+    ],
+    "verification": [
+     "All parts are clean and dry",
+     "Parts are laid out by where they came from"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "inspect-swingarm",
+    "title": "Check the swingarm for cracks and bends",
+    "instruction": "Look over the swingarm under good light, especially around the pivot, the linkage lugs, the axle slots and any welds. Any crack, bend or deformation means the swingarm must be replaced; it cannot be repaired.",
+    "depends_on": [
+     "clean-parts"
+    ],
+    "verification": [
+     "No cracks, bends or deformation found, or replacement ordered"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "inspect-linkage",
+    "title": "Inspect needle bearings, spacers and seals",
+    "instruction": "Roll each needle bearing in the angle lever and pull rod with your finger: it should feel smooth, with every needle present and no rust or flat spots. Check the spacers for a worn step, pitting or rust where the needles ride, and check the seals for tears or hardening. Mark every bearing, spacer or seal that is not perfect for replacement; on a race bike most people just replace all of them.",
+    "depends_on": [
+     "inspect-swingarm"
+    ],
+    "verification": [
+     "Each bearing, spacer and seal has a keep or replace decision"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "measure-angle-lever-width",
+    "title": "Measure and record the angle lever width",
+    "instruction": "Measure the overall width of the angle lever across the bosses where the thin spacing washers sit. It should be 54.91 to 55.00 mm (2.1618 to 2.1654 in). If it measures under that, add spacing washers to bring the stack back into range.",
+    "depends_on": [
+     "inspect-linkage"
+    ],
+    "verification": [
+     "Width recorded",
+     "Width is 54.91 to 55.00 mm, or spacing washers have been added to correct it"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "record-bearing-depths",
+    "title": "Record how deep each needle bearing sits",
+    "instruction": "Before you press anything out, measure how far each linkage needle bearing sits below the face of its bore with a depth gauge or caliper, and write the number down for each position. These depths are not published, so the old bearings are your reference for fitting the new ones.",
+    "depends_on": [
+     "measure-angle-lever-width"
+    ],
+    "verification": [
+     "Depth for every linkage bearing position is written down"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "press-out-linkage-bearings",
+    "title": "Remove linkage seals and old bearings",
+    "instruction": "Pry the seals out with a seal pick without scratching the bore. Press each old needle bearing out with a bearing tool or a socket just smaller than its outside diameter, supporting the part on the opposite face. Use a press or a drawbolt puller, not a hammer.",
+    "depends_on": [
+     "record-bearing-depths"
+    ],
+    "verification": [
+     "Bores are empty, clean and free of score marks",
+     "Bearings came out without damaging the bore"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "press-in-linkage-bearings",
+    "title": "Press in new linkage needle bearings",
+    "instruction": "Press each new needle bearing in with the lettered end facing your tool, pushing only on the outer shell, until it reaches the depth you recorded for that bore. A stepped drift that locates in the bearing stops it from going in crooked. Spin each one with a finger afterwards to check that no needle was knocked out of place.",
+    "depends_on": [
+     "press-out-linkage-bearings"
+    ],
+    "verification": [
+     "Every new bearing sits at its recorded depth",
+     "All needles turn freely"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "grease-linkage",
+    "title": "Grease the linkage and fit new seals",
+    "instruction": "Pack each needle bearing with long-life grease, press in new seals with grease on the lips, and slide the greased spacers back in. Refit any spacing washers on the angle lever on the sides you noted.",
+    "depends_on": [
+     "press-in-linkage-bearings"
+    ],
+    "verification": [
+     "Bearings packed with grease",
+     "New seals are flush and greased",
+     "Spacers and washers are in place"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "swingarm-left-strip",
+    "title": "Strip the left swingarm pivot bearing",
+    "instruction": "On the left pivot, pull the two collar bushings, slide out the inner bushing, lever out both radial shaft seals and remove the stop disks. Press the old bearing out with a suitable driver, supporting the swingarm so the pivot boss carries the load.",
+    "depends_on": [
+     "grease-linkage"
+    ],
+    "verification": [
+     "Left bore is empty",
+     "Stop disks kept for reuse or replacement"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "swingarm-left-build",
+    "title": "Build the left pivot bearing back up",
+    "instruction": "Press the new bearing squarely into the left bore with a driver on its outer edge. Fit the stop disks, then press in the new seals and slide the inner bushing back through.",
+    "depends_on": [
+     "swingarm-left-strip"
+    ],
+    "verification": [
+     "New bearing is square in the bore",
+     "Stop disks and new seals are fitted",
+     "Inner bushing slides through freely"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "swingarm-right-strip",
+    "title": "Strip the right swingarm pivot bearing",
+    "instruction": "On the right pivot, pull the collar bushings and the inner bushing, lever out the seals and press the old bearing out. The right side has no stop disks.",
+    "depends_on": [
+     "swingarm-left-build"
+    ],
+    "verification": [
+     "Right bore is empty and undamaged"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "swingarm-right-build",
+    "title": "Build the right pivot bearing back up",
+    "instruction": "Press the new bearing into the right bore, press in the new seals and refit the inner bushing.",
+    "depends_on": [
+     "swingarm-right-strip"
+    ],
+    "verification": [
+     "New bearing seated square",
+     "New seals fitted",
+     "Inner bushing in place"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "grease-pivot",
+    "title": "Grease the pivot seals and fit the collars",
+    "instruction": "Coat the lips of all four pivot seals with long-life grease, then fit the collar bushings on both sides with their shoulders facing in toward the swingarm. Clean the pivot shaft and give it a light coat of grease.",
+    "depends_on": [
+     "swingarm-right-build"
+    ],
+    "verification": [
+     "Seal lips greased",
+     "Collar shoulders face inward on both sides",
+     "Pivot shaft greased"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-swingarm",
+    "title": "Fit the swingarm and torque the pivot",
+    "instruction": "Offer the swingarm up into the frame, keeping the collars in place, and slide the pivot shaft through with its head flat lined up as noted. Fit the nut and torque it to 100 Nm (73.8 lb-ft). Lift and drop the swingarm by hand: it should swing smoothly with no side play.",
+    "depends_on": [
+     "grease-pivot"
+    ],
+    "verification": [
+     "Pivot nut torqued to 100 Nm (73.8 lb-ft)",
+     "Swingarm moves smoothly with no side play"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-pullrod-frame",
+    "title": "Bolt the pull rod to the frame",
+    "instruction": "Set the pull rod into its frame mount, slide its bolt through, and torque the nut to 60 Nm (44.3 lb-ft).",
+    "depends_on": [
+     "fit-swingarm"
+    ],
+    "verification": [
+     "Frame-to-pull-rod nut torqued to 60 Nm (44.3 lb-ft)"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-angle-lever-loose",
+    "title": "Hang the angle lever on the swingarm, loose",
+    "instruction": "Fit the angle lever to the swingarm with its bolt and nut, but only run the nut on snug. It gets its final torque last, once everything is aligned.",
+    "depends_on": [
+     "fit-pullrod-frame"
+    ],
+    "verification": [
+     "Angle lever is on with the nut snug but not torqued"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-shock-bottom-loose",
+    "title": "Fit the lower shock bolt, loose",
+    "instruction": "Clean the threads of the lower shock bolt, apply Loctite 2701, and pass it through the angle lever and shock eye. Run it in but do not torque it yet. Raising the swingarm slightly with the block helps line the holes up.",
+    "depends_on": [
+     "fit-angle-lever-loose"
+    ],
+    "verification": [
+     "Lower shock bolt is in with thread locker, not yet torqued"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-pullrod-lever",
+    "title": "Join the pull rod to the angle lever",
+    "instruction": "Line the pull rod up with the angle lever, slide the bolt through with its head flat seated the way you photographed it, and torque the nut to 60 Nm (44.3 lb-ft).",
+    "depends_on": [
+     "fit-shock-bottom-loose"
+    ],
+    "verification": [
+     "Bolt-head flat sits against its stop",
+     "Nut torqued to 60 Nm (44.3 lb-ft)"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "torque-linkage-final",
+    "title": "Final-torque the shock and angle lever bolts",
+    "instruction": "Torque the lower shock bolt to 60 Nm (44.3 lb-ft), then torque the angle-lever-to-swingarm nut to 60 Nm (44.3 lb-ft). Put a paint mark across each linkage nut and bolt so you can spot movement later.",
+    "depends_on": [
+     "fit-pullrod-lever"
+    ],
+    "verification": [
+     "Lower shock bolt at 60 Nm (44.3 lb-ft)",
+     "Angle lever nut at 60 Nm (44.3 lb-ft)",
+     "All linkage fasteners paint-marked"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "cycle-linkage",
+    "title": "Work the rear suspension through its travel",
+    "instruction": "Remove the support block and lift the swingarm by hand through as much travel as you can. Movement should be smooth with no clicks, tight spots or side play. If anything binds, find out why now.",
+    "depends_on": [
+     "torque-linkage-final"
+    ],
+    "verification": [
+     "Swingarm and linkage move smoothly",
+     "No binding or play"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "refit-caliper",
+    "title": "Put the rear caliper back on its rail",
+    "instruction": "Slide the rear caliper back onto its rail on the swingarm and clip the brake hose back into its guide, following the original routing.",
+    "depends_on": [
+     "cycle-linkage"
+    ],
+    "verification": [
+     "Caliper is on its rail",
+     "Hose is in its guide and not twisted"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "refit-chain",
+    "title": "Route and join the chain",
+    "instruction": "Feed the chain around the swingarm, over the engine sprocket and back, then join it with the master link. Fit the clip so its closed end points the way the chain travels on the top run (toward the rear), and make sure it snaps fully into both pin grooves.",
+    "depends_on": [
+     "refit-caliper"
+    ],
+    "verification": [
+     "Chain runs on the engine sprocket and is joined",
+     "Clip closed end faces the direction of chain travel and is seated"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "prep-rear-hub",
+    "title": "Grease the rear seals and spacers",
+    "instruction": "Wipe the hub seals and the faces of both spacers clean, smear long-life grease on the seal lips and on the spacer faces, and push the spacers back into the seals. Clean the axle and give it a thin coat of the same grease.",
+    "depends_on": [
+     "refit-chain"
+    ],
+    "verification": [
+     "Seal lips and spacer faces are greased",
+     "Both spacers are seated in the hub",
+     "Axle is clean and lightly greased"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-rear-wheel",
+    "title": "Set the wheel in and slide the axle through",
+    "instruction": "Lift the wheel into the swingarm, guiding the brake disc between the two pads in the caliper. Loop the chain onto the rear sprocket, then push the axle through from the side it came out of.",
+    "depends_on": [
+     "prep-rear-hub"
+    ],
+    "verification": [
+     "Brake disc sits between the pads, not against the caliper body",
+     "Chain is on the rear sprocket",
+     "Axle passes through both adjusters and the hub"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-adjuster-loose",
+    "title": "Fit the adjuster and run the nut on loose",
+    "instruction": "Put the chain adjuster block back on the axle and spin the axle nut on by hand, leaving it loose. Check that both adjuster blocks are hooked correctly over the ends of their adjusting screws.",
+    "depends_on": [
+     "fit-rear-wheel"
+    ],
+    "verification": [
+     "Nut is on but not tight",
+     "Both adjusters sit properly on their adjusting screws"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "set-chain-tension",
+    "title": "Set and record chain tension",
+    "instruction": "With the bike on the stand, pull the chain upward at the rear end of the chain sliding piece on the swingarm while the bottom run stays tight, and measure the gap. The target is 58 to 61 mm (2.28 to 2.40 in). To change it, loosen the adjuster lock nuts and turn the adjusting screws on both sides by the same amount so the marks on the left and right adjusters line up with the same reference marks; that keeps the wheel straight. Check at two or three spots on the chain because chains wear unevenly, then tighten the lock nuts.",
+    "depends_on": [
+     "fit-adjuster-loose"
+    ],
+    "verification": [
+     "Measured tension is within 58 to 61 mm at the tightest spot",
+     "Left and right adjuster marks line up with the same reference",
+     "Adjuster lock nuts are tight"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "torque-axle-nut",
+    "title": "Torque the rear axle nut",
+    "instruction": "Confirm both adjusters are still seated on their screws, then torque the rear axle nut to 80 Nm (59 lb-ft). Recheck the chain gap once more after torquing.",
+    "depends_on": [
+     "set-chain-tension"
+    ],
+    "verification": [
+     "Axle nut torqued to 80 Nm (59 lb-ft)",
+     "Chain tension still within 58 to 61 mm"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "pump-rear-brake",
+    "title": "Pump the rear brake up",
+    "instruction": "Press the rear brake pedal several times until the pads meet the disc and the pedal firms up. Spin the wheel to make sure the brake releases and only drags lightly.",
+    "depends_on": [
+     "torque-axle-nut"
+    ],
+    "verification": [
+     "Pedal is firm",
+     "Wheel spins freely after the pedal is released"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-pedal-travel",
+    "title": "Check rear brake pedal free play",
+    "instruction": "Unhook the pedal return spring, move the pedal between its stop and the point where it touches the master cylinder piston, and measure the free play at the pedal tip. It should be 3 to 5 mm (0.12 to 0.20 in). Reconnect the spring.",
+    "depends_on": [
+     "pump-rear-brake"
+    ],
+    "verification": [
+     "Pedal free play is 3 to 5 mm",
+     "Return spring reconnected"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "refit-frame-guards",
+    "title": "Refit the frame protectors",
+    "instruction": "Set the left protector in place, slide the right one in from underneath and push it back, then fit the screws with their bushings and tighten them to 3 Nm (2.2 lb-ft). Replace the cable ties you cut.",
+    "depends_on": [
+     "check-pedal-travel"
+    ],
+    "verification": [
+     "Protector screws at 3 Nm (2.2 lb-ft)",
+     "Cable ties replaced"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "final-check",
+    "title": "Final check and test ride",
+    "instruction": "Take the bike off the stand, push down on the seat a few times to check the rear moves freely, and go over every fastener you touched. Ride a few easy laps, then recheck chain tension and swingarm play once it cools.",
+    "depends_on": [
+     "refit-frame-guards"
+    ],
+    "verification": [
+     "Rear suspension moves freely",
+     "All touched fasteners checked",
+     "Chain tension and play rechecked after the first ride"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   }
+  ],
+  "targets": [
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2027
+   }
+  ]
+ },
+ {
   "id": "bak-ktm-450sxf-2025-steering-head-bearings-v1",
   "component": "frame",
   "affected_components": [
@@ -1635,6 +2549,846 @@
   ]
  },
  {
+  "id": "bak-ktm-450sxf-2025-steering-head-bearings-shared-v1",
+  "component": "frame",
+  "affected_components": [
+   "fork",
+   "triple_clamps",
+   "front_wheel",
+   "front_brake",
+   "steering"
+  ],
+  "entry_state": [
+   "Complete, ready-to-ride bike."
+  ],
+  "exit_state": [
+   "Steering head bearings cleaned and greased, or replaced with new races and seals; triple clamps, fork, caliper, fender, number plate and front wheel refitted and torqued; steering play checked; ready to ride."
+  ],
+  "target": {
+   "manufacturer": "KTM",
+   "model": "450 SX-F",
+   "model_year": 2025,
+   "variant": "standard",
+   "region": "US"
+  },
+  "title": "Service or replace the steering head bearings",
+  "completeness": "Removes the front wheel, fork legs and triple clamps, then either regreases the steering head bearings or replaces both bearings, races and seals, and rebuilds to a ready-to-ride bike; fork internals and the FACTORY EDITION connectivity unit are not covered.",
+  "excluded": [
+   "Fork internal service",
+   "FACTORY EDITION parts (connectivity unit strap, different clamp hardware)",
+   "Handlebar or control replacement",
+   "Frame repair or damaged head tube bores"
+  ],
+  "required_tools": [
+   {
+    "name": "Lift stand",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 10 to 35 Nm",
+    "size": null
+   },
+   {
+    "name": "Sockets and hex bits for the clamp, axle and caliper fasteners",
+    "size": null
+   },
+   {
+    "name": "KTM tool bracket 58429089000",
+    "size": null
+   },
+   {
+    "name": "KTM pressing tool A46029092000 (race removal)",
+    "size": null
+   },
+   {
+    "name": "KTM pressing tool 58429091000 (race installation)",
+    "size": null
+   },
+   {
+    "name": "Bearing separator for the stem bearing",
+    "size": null
+   },
+   {
+    "name": "Tube sized to the stem bearing inner race",
+    "size": null
+   },
+   {
+    "name": "Plastic mallet",
+    "size": null
+   },
+   {
+    "name": "Parts cleaner and rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Steering head bearings, upper and lower, with races",
+    "purpose": "Only if inspection shows wear; replace as a set"
+   },
+   {
+    "name": "Steering head seal rings (frame upper and stem lower)",
+    "purpose": "Fit new whenever races or bearings are replaced"
+   },
+   {
+    "name": "High-viscosity grease (e.g. SKF LGHB 2)",
+    "purpose": "Bearings, races and seals"
+   },
+   {
+    "name": "Loctite 243",
+    "purpose": "M8 steering stem screw and front caliper screws"
+   },
+   {
+    "name": "Long-life grease",
+    "purpose": "Front wheel seals, spacers and axle"
+   }
+  ],
+  "prerequisites": [
+   "Bike clean",
+   "Fork air pressure gauge available for the final check"
+  ],
+  "critical_stop_conditions": [
+   "Race bore in the frame scored, cracked or loose on a new race: stop, frame repair is a specialist job",
+   "Steering still notchy after new bearings and races: stop and recheck race seating before riding",
+   "Any play remaining after adjustment: do not ride, play damages the new bearings and the head tube",
+   "Brake hose kinked or stretched during the job: inspect it and replace if damaged"
+  ],
+  "steps": [
+   {
+    "id": "wash-bike",
+    "title": "Wash the work area first",
+    "instruction": "Wash and dry the bike before you open anything, paying extra attention to the area you are about to work on. Grit that falls into an open bearing bore or brake system is how good parts fail early. Have a clean tray and zip bags with a marker ready for fasteners.",
+    "depends_on": [],
+    "verification": [
+     "Work area is free of mud and grit",
+     "Parts tray and labelled bags are ready"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "lift-bike",
+    "title": "Put the bike on the lift stand",
+    "instruction": "Pull the plug-in stand out of the rear axle and lift the bike onto a lift stand, placing it under the frame below the engine. Both wheels should hang free. Rock the bike gently to make sure it sits square and cannot tip, and keep anyone off it while it is up.",
+    "depends_on": [
+     "wash-bike"
+    ],
+    "verification": [
+     "Both wheels are off the ground",
+     "Bike is stable when pushed lightly from each side"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-steering-before",
+    "title": "Check the steering before you start",
+    "instruction": "With the bars straight, push the fork legs forward and back and feel for a clunk at the steering head. Then turn the bars slowly lock to lock and feel for notches or a spot where the steering wants to stop in the center. Note what you find.",
+    "depends_on": [
+     "lift-bike"
+    ],
+    "verification": [
+     "Play and notchiness noted"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "retract-front-pistons",
+    "title": "Push the front caliper pistons back",
+    "instruction": "Press the front caliper toward the disc by hand to nudge the pistons back slightly. Do not lever against the spokes while you do it.",
+    "depends_on": [
+     "check-steering-before"
+    ],
+    "verification": [
+     "Pads have a little clearance from the disc"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "loosen-front-axle",
+    "title": "Loosen the front axle screw and clamps",
+    "instruction": "Back the front axle screw out several turns but leave it engaged, then loosen the fork-foot pinch screws. Push on the head of the axle screw to drive the axle out of the clamp on the far side, then unscrew and remove the axle screw.",
+    "depends_on": [
+     "retract-front-pistons"
+    ],
+    "verification": [
+     "Pinch screws are loose",
+     "Axle has moved free of the clamp",
+     "Axle screw is out and bagged"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-front-wheel",
+    "title": "Pull the axle and drop the wheel out",
+    "instruction": "Support the wheel, slide the axle out, and roll the wheel forward out of the fork. Lay it down so the disc is protected and pull the two spacers out of the hub seals. Do not squeeze the front brake lever while the wheel is out; slip a spacer or a folded piece of cardboard between the pads if you have one.",
+    "depends_on": [
+     "loosen-front-axle"
+    ],
+    "verification": [
+     "Wheel is out and the disc is protected",
+     "Both front spacers are accounted for",
+     "Front brake lever has not been squeezed"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-front-caliper",
+    "title": "Unbolt the front caliper and hang it",
+    "instruction": "Remove the screws on the brake hose clamp at the fork guard, then remove the two caliper screws and lift the caliper off. Hang it from the frame with a tie so the hose has no tension or kinks.",
+    "depends_on": [
+     "remove-front-wheel"
+    ],
+    "verification": [
+     "Caliper hangs on a tie",
+     "Brake hose is not kinked"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-number-plate",
+    "title": "Remove the front number plate",
+    "instruction": "Remove the number plate screw, unhook the plate from the brake hose and lift it off.",
+    "depends_on": [
+     "remove-front-caliper"
+    ],
+    "verification": [
+     "Number plate is off"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-front-fender",
+    "title": "Remove the front fender",
+    "instruction": "Remove the fender screws and lift the fender off the bottom clamp.",
+    "depends_on": [
+     "remove-number-plate"
+    ],
+    "verification": [
+     "Fender is off",
+     "Screws are bagged"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "photo-fork-height",
+    "title": "Photograph fork height and orientation",
+    "instruction": "Take a photo of each fork tube where it exits the top clamp. At stock height, count down from the top of the tube: groove number two lines up level with the top face of the upper clamp. The right leg is the damping leg with its bleeder screw facing forward; the left leg is the air leg with its air valve facing forward.",
+    "depends_on": [
+     "remove-front-fender"
+    ],
+    "verification": [
+     "Photos show groove position and which leg is which"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-left-fork",
+    "title": "Pull the left fork leg",
+    "instruction": "Loosen the top and bottom clamp pinch screws on the left leg and slide the leg down and out with a slight twist. Lay it somewhere it cannot roll off the bench.",
+    "depends_on": [
+     "photo-fork-height"
+    ],
+    "verification": [
+     "Left leg is out and safe"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-right-fork",
+    "title": "Pull the right fork leg",
+    "instruction": "Do the same on the right: loosen both pinch screws and slide the leg out.",
+    "depends_on": [
+     "remove-left-fork"
+    ],
+    "verification": [
+     "Right leg is out and safe"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-bar-pad",
+    "title": "Take off the handlebar pad",
+    "instruction": "Pull the handlebar pad off the bar so you can get to the top clamp fasteners.",
+    "depends_on": [
+     "remove-right-fork"
+    ],
+    "verification": [
+     "Top clamp fasteners are accessible"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "free-top-clamp",
+    "title": "Undo the top clamp fasteners",
+    "instruction": "Remove the screw holding the wiring harness holder and move the harness out of the way. Remove the M8 steering stem screw in the top clamp, then remove the large M20 steering head screw in the center of the top clamp.",
+    "depends_on": [
+     "remove-bar-pad"
+    ],
+    "verification": [
+     "Harness is detached from the clamp",
+     "M8 stem screw and M20 head screw are out and bagged"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "lift-top-clamp",
+    "title": "Lift off the top clamp with the bars",
+    "instruction": "Lift the top clamp off the stem with the handlebar still attached and rest it on a towel over the tank or a box beside the bike. Keep the clutch line, brake hose, throttle cables and wiring free of sharp bends.",
+    "depends_on": [
+     "free-top-clamp"
+    ],
+    "verification": [
+     "Top clamp is off and supported",
+     "No line or cable is kinked or stretched"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "drop-bottom-clamp",
+    "title": "Remove the seal and drop the bottom clamp",
+    "instruction": "Pull the steering head seal off the top of the stem. Hold the bottom clamp, slide it down and out of the frame, and catch the upper bearing as it comes free.",
+    "depends_on": [
+     "lift-top-clamp"
+    ],
+    "verification": [
+     "Bottom clamp with stem is out",
+     "Upper bearing and seal recovered"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "clean-steering",
+    "title": "Clean bearings, races and seals",
+    "instruction": "Wash the old grease off both bearings, the races in the frame, the stem and the seals with parts cleaner, and dry everything. You cannot judge a bearing that is still covered in grease.",
+    "depends_on": [
+     "drop-bottom-clamp"
+    ],
+    "verification": [
+     "All bearing surfaces are clean and dry"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "inspect-steering",
+    "title": "Inspect and decide: regrease or replace",
+    "instruction": "Look at the races in the frame and the rollers on both bearings for dents, pitting, rust or dull bands. Small dents in the races at the straight-ahead position are what causes notchy steering. If the bearings and races are perfect, skip to greasing. If any part is marked, replace both bearings, both races and the seals as a set.",
+    "depends_on": [
+     "clean-steering"
+    ],
+    "verification": [
+     "Decision made: regrease only, or full bearing and race replacement"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-lower-race",
+    "title": "Remove the lower race from the frame",
+    "instruction": "Use the KTM tool bracket 58429089000 with pressing tool A46029092000 to pull the lower race out of the steering head. Keep the tool square so it does not chew the bore.",
+    "depends_on": [
+     "inspect-steering"
+    ],
+    "verification": [
+     "Lower race is out",
+     "Frame bore is undamaged"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-lower-race",
+    "title": "Press in the new lower race",
+    "instruction": "Press the new lower race into the frame until it bottoms out, using tool bracket 58429089000 with pressing tool 58429091000.",
+    "depends_on": [
+     "remove-lower-race"
+    ],
+    "verification": [
+     "New lower race is fully bottomed with no gap"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-upper-race",
+    "title": "Remove the upper race and seal",
+    "instruction": "Pull the upper race out with tool bracket 58429089000 and pressing tool A46029092000, then remove the seal ring from the top of the head tube.",
+    "depends_on": [
+     "fit-lower-race"
+    ],
+    "verification": [
+     "Upper race and seal are out",
+     "Bore is clean"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-upper-race",
+    "title": "Press in the new upper race and seal",
+    "instruction": "Press the new upper race in until it bottoms, using tool bracket 58429089000 with pressing tool 58429091000. Grease a new seal ring and fit it.",
+    "depends_on": [
+     "remove-upper-race"
+    ],
+    "verification": [
+     "Upper race fully bottomed",
+     "New greased seal fitted"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "replace-stem-bearing",
+    "title": "Replace the lower bearing on the stem",
+    "instruction": "Pull the old lower bearing off the stem with a bearing separator, then remove the seal ring under it. Grease and fit a new seal, then press the new bearing onto the stem with a tube that bears only on the inner race, until it stops.",
+    "depends_on": [
+     "fit-upper-race"
+    ],
+    "verification": [
+     "New seal under the bearing",
+     "New bearing pressed fully down on the inner race only"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "grease-steering",
+    "title": "Pack the bearings with grease",
+    "instruction": "Work high-viscosity grease (SKF LGHB 2 or equivalent) fully into both bearings and put a coat on both races and the seal lips.",
+    "depends_on": [
+     "replace-stem-bearing"
+    ],
+    "verification": [
+     "Both bearings packed",
+     "Races and seal lips greased"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-bottom-clamp",
+    "title": "Install the bottom clamp and upper bearing",
+    "instruction": "Slide the stem up through the head tube, drop the greased upper bearing over the stem into its race, and push the steering head seal down over it.",
+    "depends_on": [
+     "grease-steering"
+    ],
+    "verification": [
+     "Stem is fully home",
+     "Upper bearing and seal seated"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-top-clamp-loose",
+    "title": "Fit the top clamp with the M20 screw loose",
+    "instruction": "Set the top clamp with the bars onto the stem and thread in the M20 steering head screw, but do not tighten it yet.",
+    "depends_on": [
+     "fit-bottom-clamp"
+    ],
+    "verification": [
+     "Top clamp on and M20 screw started by hand"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "refit-fork-legs",
+    "title": "Slide both fork legs back in",
+    "instruction": "Push both legs up through the clamps: damping leg on the right with its bleeder screw forward, air leg on the left with its valve forward. Line groove number two (counting down from the top) up level with the top face of the upper clamp, matching your photos.",
+    "depends_on": [
+     "fit-top-clamp-loose"
+    ],
+    "verification": [
+     "Legs on the correct sides and facing correctly",
+     "Fork height matches the photos on both sides"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "torque-bottom-pinch",
+    "title": "Torque the bottom clamp pinch screws",
+    "instruction": "Torque the bottom clamp pinch screws on both legs to 12 Nm (8.9 lb-ft).",
+    "depends_on": [
+     "refit-fork-legs"
+    ],
+    "verification": [
+     "Bottom clamp screws at 12 Nm (8.9 lb-ft)"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "torque-head-screw",
+    "title": "Torque the M20 steering head screw",
+    "instruction": "Torque the M20 steering head screw to 12 Nm (8.9 lb-ft). This sets the bearing preload.",
+    "depends_on": [
+     "torque-bottom-pinch"
+    ],
+    "verification": [
+     "M20 head screw at 12 Nm (8.9 lb-ft)"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "torque-stem-screw",
+    "title": "Fit the M8 stem screw with thread locker",
+    "instruction": "Put Loctite 243 on the M8 steering stem screw, fit it, and torque to 20 Nm (14.8 lb-ft).",
+    "depends_on": [
+     "torque-head-screw"
+    ],
+    "verification": [
+     "M8 stem screw at 20 Nm (14.8 lb-ft) with thread locker"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "torque-top-pinch",
+    "title": "Settle the clamp and torque the top pinch screws",
+    "instruction": "Give the top clamp a few light taps with a plastic mallet to relieve any stress, then torque the top clamp pinch screws on both legs to 17 Nm (12.5 lb-ft).",
+    "depends_on": [
+     "torque-stem-screw"
+    ],
+    "verification": [
+     "Top clamp screws at 17 Nm (12.5 lb-ft)"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "refit-harness-holder",
+    "title": "Reattach the wiring harness holder",
+    "instruction": "Clip the wiring harness back into its holder on the left and fit its screw.",
+    "depends_on": [
+     "torque-top-pinch"
+    ],
+    "verification": [
+     "Harness is secured to the clamp"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "refit-front-caliper",
+    "title": "Bolt the front caliper back on",
+    "instruction": "Put Loctite 243 on the caliper screws, fit the caliper, and torque to 25 Nm (18.4 lb-ft). Refit the brake hose clamp on the fork guard.",
+    "depends_on": [
+     "refit-harness-holder"
+    ],
+    "verification": [
+     "Caliper screws at 25 Nm (18.4 lb-ft) with thread locker",
+     "Hose clamp refitted"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "refit-fender-plate",
+    "title": "Refit the fender, bar pad and number plate",
+    "instruction": "Fit the front fender and torque its screws to 12 Nm (8.9 lb-ft). Push the bar pad back on. Clip the brake hose into the holders on the number plate, set the plate so its lugs engage the fender, and fit its screw.",
+    "depends_on": [
+     "refit-front-caliper"
+    ],
+    "verification": [
+     "Fender screws at 12 Nm (8.9 lb-ft)",
+     "Number plate lugs engaged and hose in its holders"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "prep-front-hub",
+    "title": "Grease the front seals and spacers",
+    "instruction": "Clean the hub seal lips and both spacer faces, coat them with long-life grease, and press the spacers back into the seals. Clean the axle and give it a light film of grease.",
+    "depends_on": [
+     "refit-fender-plate"
+    ],
+    "verification": [
+     "Seals and spacer faces greased",
+     "Spacers seated",
+     "Axle lightly greased"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-front-wheel",
+    "title": "Set the front wheel in the fork",
+    "instruction": "Remove anything you wedged between the pads, lift the wheel into the fork guiding the disc between the pads, and slide the axle through both fork feet.",
+    "depends_on": [
+     "prep-front-hub"
+    ],
+    "verification": [
+     "Disc is between the pads",
+     "Axle passes through both fork feet"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "torque-front-axle",
+    "title": "Torque the front axle screw",
+    "instruction": "Fit the axle screw and torque it to 35 Nm (25.8 lb-ft), leaving the fork-foot pinch screws loose for now. Pump the front brake lever until it is firm and the pads are seated.",
+    "depends_on": [
+     "fit-front-wheel"
+    ],
+    "verification": [
+     "Axle screw torqued to 35 Nm (25.8 lb-ft)",
+     "Brake lever is firm"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "align-fork-pinch",
+    "title": "Let the fork settle, then tighten the pinch screws",
+    "instruction": "Take the bike off the stand, hold the front brake on and push the fork down hard a few times so the legs line up naturally on the axle. Then tighten the fork-foot pinch screws to 15 Nm (11.1 lb-ft).",
+    "depends_on": [
+     "torque-front-axle"
+    ],
+    "verification": [
+     "Fork compresses smoothly without binding",
+     "Fork-foot pinch screws torqued to 15 Nm (11.1 lb-ft)"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-routing",
+    "title": "Check cables and lines lock to lock",
+    "instruction": "Turn the bars fully left and right and watch the brake hose, clutch line, throttle cables and wiring. Nothing should stretch, pinch or snag.",
+    "depends_on": [
+     "align-fork-pinch"
+    ],
+    "verification": [
+     "All lines move freely through full lock"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-steering-play",
+    "title": "Check and, if needed, adjust steering play",
+    "instruction": "Lift the front off the ground again, rock the fork forward and back and feel for play, then swing the bars lock to lock. You want zero play and smooth movement with no notches. If there is play, loosen the top pinch screws, remove the M8 stem screw, loosen and retighten the M20 screw to 12 Nm (8.9 lb-ft), tap the clamp, refit the M8 screw with Loctite 243 at 20 Nm (14.8 lb-ft), and torque the top pinch screws to 17 Nm (12.5 lb-ft).",
+    "depends_on": [
+     "check-routing"
+    ],
+    "verification": [
+     "No play at the steering head",
+     "Steering is smooth with no notches"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "final-check",
+    "title": "Final check and test ride",
+    "instruction": "Off the stand, squeeze the front brake and pump the fork. Check the fork air pressure since the legs were handled. Ride gently first, then recheck steering play after the first ride.",
+    "depends_on": [
+     "check-steering-play"
+    ],
+    "verification": [
+     "Brake is firm",
+     "Steering checked again after the first ride"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   }
+  ],
+  "targets": [
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 XC-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FC 350",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FC 350",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FX 450",
+    "model_year": 2023
+   }
+  ]
+ },
+ {
   "id": "bak-ktm-450sxf-2025-front-wheel-bearings-v1",
   "component": "frame",
   "affected_components": [
@@ -2038,6 +3792,565 @@
     "record_required": false,
     "diagram_reference_required": false,
     "source_links": []
+   }
+  ]
+ },
+ {
+  "id": "bak-ktm-450sxf-2025-front-wheel-bearings-shared-v1",
+  "component": "frame",
+  "affected_components": [
+   "front_wheel",
+   "front_brake"
+  ],
+  "entry_state": [
+   "Complete, ready-to-ride bike."
+  ],
+  "exit_state": [
+   "Front wheel bearings, spacer tube and seals renewed; wheel refitted and torqued; ready to ride."
+  ],
+  "target": {
+   "manufacturer": "KTM",
+   "model": "450 SX-F",
+   "model_year": 2025,
+   "variant": "standard",
+   "region": "US"
+  },
+  "title": "Replace the front wheel bearings and seals",
+  "completeness": "Removes the front wheel and replaces both hub bearings and seals, cleans and greases the spacer tube, checks the disc, and refits the wheel to a ready-to-ride bike; tire, spoke and disc replacement are not covered.",
+  "excluded": [
+   "Tire or tube change",
+   "Spoke truing and rim run-out correction",
+   "Brake disc replacement",
+   "FACTORY EDITION brake disc guard"
+  ],
+  "required_tools": [
+   {
+    "name": "Lift stand",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 15 to 35 Nm",
+    "size": null
+   },
+   {
+    "name": "Hex bit or socket for the front axle screw",
+    "size": null
+   },
+   {
+    "name": "Seal pick or seal puller",
+    "size": null
+   },
+   {
+    "name": "Long drift or blind bearing puller",
+    "size": null
+   },
+   {
+    "name": "Bearing drivers matched to the outer race",
+    "size": null
+   },
+   {
+    "name": "Vernier caliper or micrometer",
+    "size": null
+   },
+   {
+    "name": "Wood blocks to support the hub",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Front wheel bearings (two)",
+    "purpose": "Replace as a pair"
+   },
+   {
+    "name": "Front hub radial shaft seals (two)",
+    "purpose": "Always fit new"
+   },
+   {
+    "name": "Front spacer tube",
+    "purpose": "Only if worn or damaged"
+   },
+   {
+    "name": "Long-life grease",
+    "purpose": "Seals, spacers, spacer tube and axle"
+   }
+  ],
+  "prerequisites": [
+   "Bike clean",
+   "New bearings and seals compared against the old ones before fitting"
+  ],
+  "critical_stop_conditions": [
+   "A new bearing slides into the hub without pressure, or the bore is scored: stop, the hub needs repair or replacement",
+   "Disc under 2.5 mm, cracked or warped: replace the disc and fit new pads with it",
+   "Front brake lever squeezed with the wheel out and the pistons pushed out too far: push them back before refitting, do not force the disc in"
+  ],
+  "steps": [
+   {
+    "id": "wash-bike",
+    "title": "Wash the work area first",
+    "instruction": "Wash and dry the bike before you open anything, paying extra attention to the area you are about to work on. Grit that falls into an open bearing bore or brake system is how good parts fail early. Have a clean tray and zip bags with a marker ready for fasteners.",
+    "depends_on": [],
+    "verification": [
+     "Work area is free of mud and grit",
+     "Parts tray and labelled bags are ready"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "lift-bike",
+    "title": "Put the bike on the lift stand",
+    "instruction": "Pull the plug-in stand out of the rear axle and lift the bike onto a lift stand, placing it under the frame below the engine. Both wheels should hang free. Rock the bike gently to make sure it sits square and cannot tip, and keep anyone off it while it is up.",
+    "depends_on": [
+     "wash-bike"
+    ],
+    "verification": [
+     "Both wheels are off the ground",
+     "Bike is stable when pushed lightly from each side"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-front-play",
+    "title": "Check front wheel bearing play",
+    "instruction": "Hold the fork leg and rock the top of the front wheel side to side. Any knock means the bearings need replacing; also spin the wheel and listen for grinding.",
+    "depends_on": [
+     "lift-bike"
+    ],
+    "verification": [
+     "Play or roughness noted"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "retract-front-pistons",
+    "title": "Push the front caliper pistons back",
+    "instruction": "Press the front caliper toward the disc by hand to nudge the pistons back slightly. Do not lever against the spokes while you do it.",
+    "depends_on": [
+     "check-front-play"
+    ],
+    "verification": [
+     "Pads have a little clearance from the disc"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "loosen-front-axle",
+    "title": "Loosen the front axle screw and clamps",
+    "instruction": "Back the front axle screw out several turns but leave it engaged, then loosen the fork-foot pinch screws. Push on the head of the axle screw to drive the axle out of the clamp on the far side, then unscrew and remove the axle screw.",
+    "depends_on": [
+     "retract-front-pistons"
+    ],
+    "verification": [
+     "Pinch screws are loose",
+     "Axle has moved free of the clamp",
+     "Axle screw is out and bagged"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-front-wheel",
+    "title": "Pull the axle and drop the wheel out",
+    "instruction": "Support the wheel, slide the axle out, and roll the wheel forward out of the fork. Lay it down so the disc is protected and pull the two spacers out of the hub seals. Do not squeeze the front brake lever while the wheel is out; slip a spacer or a folded piece of cardboard between the pads if you have one.",
+    "depends_on": [
+     "loosen-front-axle"
+    ],
+    "verification": [
+     "Wheel is out and the disc is protected",
+     "Both front spacers are accounted for",
+     "Front brake lever has not been squeezed"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-front-seals",
+    "title": "Lever out both hub seals",
+    "instruction": "Set the wheel on blocks so the hub is supported and the disc is clear of the bench. Lever out the seal on each side of the hub with a seal pick or a seal puller, taking care not to gouge the hub bore.",
+    "depends_on": [
+     "remove-front-wheel"
+    ],
+    "verification": [
+     "Both seals are out",
+     "Hub bores are not scratched"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "drive-out-first-bearing",
+    "title": "Drive out the non-disc-side bearing",
+    "instruction": "Reach through the disc-side bearing with a drift, push the center spacer tube to one side, and drive the bearing on the side opposite the disc out, working around its inner edge a little at a time. A blind bearing puller does the same job more neatly. Lift out the spacer tube.",
+    "depends_on": [
+     "remove-front-seals"
+    ],
+    "verification": [
+     "Non-disc-side bearing and spacer tube are out"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "drive-out-second-bearing",
+    "title": "Drive out the disc-side bearing",
+    "instruction": "Turn the wheel over and drive the disc-side bearing out from the inside the same way.",
+    "depends_on": [
+     "drive-out-first-bearing"
+    ],
+    "verification": [
+     "Hub is empty"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "inspect-front-hub",
+    "title": "Clean and inspect the hub bores",
+    "instruction": "Clean the hub bores and the spacer tube. Check the bores for scoring, spun-bearing marks or an oval shape; a new bearing should need pressing, not just slide in.",
+    "depends_on": [
+     "drive-out-second-bearing"
+    ],
+    "verification": [
+     "Bores are clean and undamaged"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "press-disc-side-bearing",
+    "title": "Press in the new disc-side bearing",
+    "instruction": "Press the new disc-side bearing in, sealed face out, pushing only on the outer race with a driver or a socket that matches its outside edge. Drive it until it bottoms against the shoulder in the hub.",
+    "depends_on": [
+     "inspect-front-hub"
+    ],
+    "verification": [
+     "Bearing is fully seated",
+     "Only the outer race was pressed"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-front-spacer-tube",
+    "title": "Grease and fit the spacer tube",
+    "instruction": "Clean the spacer tube, smear long-life grease on it, and drop it into the hub from the open side so it sits against the new bearing.",
+    "depends_on": [
+     "press-disc-side-bearing"
+    ],
+    "verification": [
+     "Spacer tube is in and centered"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "press-other-side-bearing",
+    "title": "Press in the non-disc-side bearing",
+    "instruction": "Press the second bearing in on the outer race until it stops. Then put a finger through and make sure the spacer tube is captured but not jammed, and that both bearings spin smoothly.",
+    "depends_on": [
+     "fit-front-spacer-tube"
+    ],
+    "verification": [
+     "Second bearing seated",
+     "Both bearings spin smoothly"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-front-seals",
+    "title": "Fit new hub seals",
+    "instruction": "Grease the lips of two new radial shaft seals and press them in on each side until they sit flush with the hub face.",
+    "depends_on": [
+     "press-other-side-bearing"
+    ],
+    "verification": [
+     "Both seals are flush and greased"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-front-disc",
+    "title": "Measure the front disc while it is off the bike",
+    "instruction": "Measure the front disc thickness in several places where the pads run. The minimum is 2.5 mm (0.098 in). Also look for cracks or warping.",
+    "depends_on": [
+     "fit-front-seals"
+    ],
+    "verification": [
+     "Disc thickness recorded and at least 2.5 mm",
+     "No cracks or warping"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "prep-front-hub",
+    "title": "Grease the front seals and spacers",
+    "instruction": "Clean the hub seal lips and both spacer faces, coat them with long-life grease, and press the spacers back into the seals. Clean the axle and give it a light film of grease.",
+    "depends_on": [
+     "check-front-disc"
+    ],
+    "verification": [
+     "Seals and spacer faces greased",
+     "Spacers seated",
+     "Axle lightly greased"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-front-wheel",
+    "title": "Set the front wheel in the fork",
+    "instruction": "Remove anything you wedged between the pads, lift the wheel into the fork guiding the disc between the pads, and slide the axle through both fork feet.",
+    "depends_on": [
+     "prep-front-hub"
+    ],
+    "verification": [
+     "Disc is between the pads",
+     "Axle passes through both fork feet"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "torque-front-axle",
+    "title": "Torque the front axle screw",
+    "instruction": "Fit the axle screw and torque it to 35 Nm (25.8 lb-ft), leaving the fork-foot pinch screws loose for now. Pump the front brake lever until it is firm and the pads are seated.",
+    "depends_on": [
+     "fit-front-wheel"
+    ],
+    "verification": [
+     "Axle screw torqued to 35 Nm (25.8 lb-ft)",
+     "Brake lever is firm"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "align-fork-pinch",
+    "title": "Let the fork settle, then tighten the pinch screws",
+    "instruction": "Take the bike off the stand, hold the front brake on and push the fork down hard a few times so the legs line up naturally on the axle. Then tighten the fork-foot pinch screws to 15 Nm (11.1 lb-ft).",
+    "depends_on": [
+     "torque-front-axle"
+    ],
+    "verification": [
+     "Fork compresses smoothly without binding",
+     "Fork-foot pinch screws torqued to 15 Nm (11.1 lb-ft)"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "final-check",
+    "title": "Spin, brake and ride",
+    "instruction": "Spin the wheel to check it runs free with only light pad drag, and pull the brake hard to confirm a firm lever. Ride gently first and check for play again afterwards.",
+    "depends_on": [
+     "align-fork-pinch"
+    ],
+    "verification": [
+     "Wheel spins freely",
+     "Brake lever firm",
+     "No play after the first ride"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   }
+  ],
+  "targets": [
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 XC-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 XC-F",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 XC-F",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 XC-F",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FC 350",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FC 350",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FX 450",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FX 450",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FX 350",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "GasGas",
+    "model": "MC 450F",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "GasGas",
+    "model": "MC 450F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "GasGas",
+    "model": "MC 450F",
+    "model_year": 2027
    }
   ]
  },
@@ -2519,6 +4832,584 @@
     "record_required": false,
     "diagram_reference_required": false,
     "source_links": []
+   }
+  ]
+ },
+ {
+  "id": "bak-ktm-450sxf-2025-rear-wheel-bearings-shared-v1",
+  "component": "frame",
+  "affected_components": [
+   "rear_wheel",
+   "rear_brake",
+   "chain"
+  ],
+  "entry_state": [
+   "Complete, ready-to-ride bike."
+  ],
+  "exit_state": [
+   "Rear wheel bearings, spacer tube, spacer washer and seals serviced; wheel refitted, chain tension set and axle torqued; ready to ride."
+  ],
+  "target": {
+   "manufacturer": "KTM",
+   "model": "450 SX-F",
+   "model_year": 2025,
+   "variant": "standard",
+   "region": "US"
+  },
+  "title": "Replace the rear wheel bearings and seals, then set the chain",
+  "completeness": "Removes the rear wheel, replaces both hub bearings and seals, checks the spacer washer and tube, refits the wheel and sets chain tension and alignment; sprocket, chain, tire and disc replacement are covered elsewhere or not at all.",
+  "excluded": [
+   "Tire or tube change",
+   "Spoke truing",
+   "Rear disc replacement",
+   "Chain and sprocket replacement (separate guide)"
+  ],
+  "required_tools": [
+   {
+    "name": "Lift stand",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 80 Nm",
+    "size": null
+   },
+   {
+    "name": "Axle nut socket",
+    "size": null
+   },
+   {
+    "name": "Seal pick or seal puller",
+    "size": null
+   },
+   {
+    "name": "Long drift or blind bearing puller",
+    "size": null
+   },
+   {
+    "name": "Bearing drivers matched to the outer race",
+    "size": null
+   },
+   {
+    "name": "Circlip pliers",
+    "size": null
+   },
+   {
+    "name": "Vernier caliper",
+    "size": null
+   },
+   {
+    "name": "Tape measure or ruler for chain tension",
+    "size": null
+   },
+   {
+    "name": "Wood blocks",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Rear wheel bearings (two)",
+    "purpose": "Replace as a pair"
+   },
+   {
+    "name": "Rear hub radial shaft seals",
+    "purpose": "Always fit new"
+   },
+   {
+    "name": "Rear spacer washer",
+    "purpose": "Only if worn or damaged"
+   },
+   {
+    "name": "Long-life grease",
+    "purpose": "Seals, spacers, spacer tube and axle"
+   }
+  ],
+  "prerequisites": [
+   "Bike clean"
+  ],
+  "critical_stop_conditions": [
+   "Hub bore scored or a new bearing pushes in by hand: stop, the hub needs replacing",
+   "Lock ring will not click fully into its groove: stop, the bearing is not fully seated",
+   "Rear disc under 3.5 mm, cracked or warped: replace the disc and fit new pads with it",
+   "Chain tension cannot be brought into 58 to 61 mm with the wheel straight: the chain is worn or the wrong length, stop and check the drivetrain"
+  ],
+  "steps": [
+   {
+    "id": "wash-bike",
+    "title": "Wash the work area first",
+    "instruction": "Wash and dry the bike before you open anything, paying extra attention to the area you are about to work on. Grit that falls into an open bearing bore or brake system is how good parts fail early. Have a clean tray and zip bags with a marker ready for fasteners.",
+    "depends_on": [],
+    "verification": [
+     "Work area is free of mud and grit",
+     "Parts tray and labelled bags are ready"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "lift-bike",
+    "title": "Put the bike on the lift stand",
+    "instruction": "Pull the plug-in stand out of the rear axle and lift the bike onto a lift stand, placing it under the frame below the engine. Both wheels should hang free. Rock the bike gently to make sure it sits square and cannot tip, and keep anyone off it while it is up.",
+    "depends_on": [
+     "wash-bike"
+    ],
+    "verification": [
+     "Both wheels are off the ground",
+     "Bike is stable when pushed lightly from each side"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-rear-wheel-play",
+    "title": "Check rear wheel bearing play",
+    "instruction": "Hold the swingarm and rock the top of the rear wheel side to side. A knock means the hub bearings need replacing. Spin it and listen for grinding too.",
+    "depends_on": [
+     "lift-bike"
+    ],
+    "verification": [
+     "Play or roughness noted"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "retract-rear-piston",
+    "title": "Push the rear caliper piston back",
+    "instruction": "Squeeze the rear caliper toward the disc by hand to push the piston back a little; this gives the pads clearance so the wheel comes out and goes back in easily. Keep the caliper away from the spokes while you push.",
+    "depends_on": [
+     "check-rear-wheel-play"
+    ],
+    "verification": [
+     "Pads are no longer dragging hard on the disc"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-axle-nut",
+    "title": "Remove the rear axle nut and adjuster",
+    "instruction": "Spin off the rear axle nut and lift off that side's chain adjuster block. Slide the axle out only part of the way, just enough that the wheel can roll forward in the swingarm.",
+    "depends_on": [
+     "retract-rear-piston"
+    ],
+    "verification": [
+     "Nut and adjuster are bagged together",
+     "Axle is still holding the wheel"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "drop-chain",
+    "title": "Roll the wheel forward and lift the chain off",
+    "instruction": "Push the wheel as far forward as it will go to create slack, then lift the chain off the rear sprocket and lay it over a rag on the swingarm so it does not scratch anything.",
+    "depends_on": [
+     "remove-axle-nut"
+    ],
+    "verification": [
+     "Chain is off the rear sprocket"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-rear-wheel",
+    "title": "Pull the axle and lift the wheel out",
+    "instruction": "Hold the wheel up with one hand, pull the axle out, and lower the wheel out of the swingarm. Set it down on blocks or on its side with the brake disc facing up so the disc cannot be bent or contaminated. Take the two spacers out of the hub seals and keep them with the axle. From here on, do not touch the rear brake pedal.",
+    "depends_on": [
+     "drop-chain"
+    ],
+    "verification": [
+     "Wheel is out and resting so the disc carries no load",
+     "Both hub spacers are accounted for",
+     "Rear brake pedal has not been pressed"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-rear-seals",
+    "title": "Lever out the rear hub seals",
+    "instruction": "Support the wheel on blocks with the hub clear of the bench and lever the seals out of both sides of the hub without gouging the bore.",
+    "depends_on": [
+     "remove-rear-wheel"
+    ],
+    "verification": [
+     "Seals are out",
+     "Bores undamaged"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "drive-out-sprocket-bearing",
+    "title": "Drive out the sprocket-side bearing",
+    "instruction": "Working from the brake-disc side through the hub, drive the sprocket-side bearing out from the inside toward the outside, moving the drift around its inner edge in small steps.",
+    "depends_on": [
+     "remove-rear-seals"
+    ],
+    "verification": [
+     "Sprocket-side bearing is out"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-spacer-washer",
+    "title": "Remove and check the spacer washer and tube",
+    "instruction": "Take out the spacer washer behind that bearing and check it for wear or damage; replace it if it is marked. Then lift out the center spacer tube.",
+    "depends_on": [
+     "drive-out-sprocket-bearing"
+    ],
+    "verification": [
+     "Spacer washer judged good or replaced",
+     "Spacer tube is out"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "drive-out-brake-bearing",
+    "title": "Remove the lock ring and brake-side bearing",
+    "instruction": "On the brake-disc side, remove the lock ring with circlip pliers, then drive that bearing out from the inside toward the outside.",
+    "depends_on": [
+     "check-spacer-washer"
+    ],
+    "verification": [
+     "Lock ring and brake-side bearing are out"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "inspect-rear-hub",
+    "title": "Clean and inspect the rear hub",
+    "instruction": "Clean both bores, the lock ring groove and the spacer tube, and check the bores for scoring or spun-bearing marks.",
+    "depends_on": [
+     "drive-out-brake-bearing"
+    ],
+    "verification": [
+     "Bores clean and undamaged",
+     "Lock ring groove clean"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "press-brake-bearing",
+    "title": "Press in the new brake-side bearing",
+    "instruction": "From the outside, press the new brake-side bearing in until it bottoms, pushing only on the outer race. Then fit the lock ring and listen for the click as it snaps into its groove.",
+    "depends_on": [
+     "inspect-rear-hub"
+    ],
+    "verification": [
+     "Bearing bottomed",
+     "Lock ring clicked into its groove"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-rear-spacer-tube",
+    "title": "Grease and fit the spacer tube and washer",
+    "instruction": "Clean and grease the spacer tube and drop it into the hub from the sprocket side, then put the spacer washer in place.",
+    "depends_on": [
+     "press-brake-bearing"
+    ],
+    "verification": [
+     "Spacer tube and washer in place"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "press-sprocket-bearing",
+    "title": "Press in the new sprocket-side bearing",
+    "instruction": "Press the new sprocket-side bearing in from the outside on its outer race until it stops. Check that both bearings spin smoothly.",
+    "depends_on": [
+     "fit-rear-spacer-tube"
+    ],
+    "verification": [
+     "Bearing bottomed",
+     "Both bearings turn smoothly"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-rear-seals",
+    "title": "Fit new rear hub seals",
+    "instruction": "Grease two new radial shaft seals and press them in on each side until they sit flush with the hub.",
+    "depends_on": [
+     "press-sprocket-bearing"
+    ],
+    "verification": [
+     "Seals flush and greased"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-rear-disc-sprocket",
+    "title": "Check the rear disc and sprocket while you are here",
+    "instruction": "Measure the rear disc thickness where the pads run; the minimum is 3.5 mm (0.138 in). Look for cracks or warping, and look over the sprocket for hooked or thin teeth.",
+    "depends_on": [
+     "fit-rear-seals"
+    ],
+    "verification": [
+     "Disc thickness recorded and at least 3.5 mm",
+     "Sprocket condition noted"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "prep-rear-hub",
+    "title": "Grease the rear seals and spacers",
+    "instruction": "Wipe the hub seals and the faces of both spacers clean, smear long-life grease on the seal lips and on the spacer faces, and push the spacers back into the seals. Clean the axle and give it a thin coat of the same grease.",
+    "depends_on": [
+     "check-rear-disc-sprocket"
+    ],
+    "verification": [
+     "Seal lips and spacer faces are greased",
+     "Both spacers are seated in the hub",
+     "Axle is clean and lightly greased"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-rear-wheel",
+    "title": "Set the wheel in and slide the axle through",
+    "instruction": "Lift the wheel into the swingarm, guiding the brake disc between the two pads in the caliper. Loop the chain onto the rear sprocket, then push the axle through from the side it came out of.",
+    "depends_on": [
+     "prep-rear-hub"
+    ],
+    "verification": [
+     "Brake disc sits between the pads, not against the caliper body",
+     "Chain is on the rear sprocket",
+     "Axle passes through both adjusters and the hub"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-adjuster-loose",
+    "title": "Fit the adjuster and run the nut on loose",
+    "instruction": "Put the chain adjuster block back on the axle and spin the axle nut on by hand, leaving it loose. Check that both adjuster blocks are hooked correctly over the ends of their adjusting screws.",
+    "depends_on": [
+     "fit-rear-wheel"
+    ],
+    "verification": [
+     "Nut is on but not tight",
+     "Both adjusters sit properly on their adjusting screws"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "set-chain-tension",
+    "title": "Set and record chain tension",
+    "instruction": "With the bike on the stand, pull the chain upward at the rear end of the chain sliding piece on the swingarm while the bottom run stays tight, and measure the gap. The target is 58 to 61 mm (2.28 to 2.40 in). To change it, loosen the adjuster lock nuts and turn the adjusting screws on both sides by the same amount so the marks on the left and right adjusters line up with the same reference marks; that keeps the wheel straight. Check at two or three spots on the chain because chains wear unevenly, then tighten the lock nuts.",
+    "depends_on": [
+     "fit-adjuster-loose"
+    ],
+    "verification": [
+     "Measured tension is within 58 to 61 mm at the tightest spot",
+     "Left and right adjuster marks line up with the same reference",
+     "Adjuster lock nuts are tight"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "torque-axle-nut",
+    "title": "Torque the rear axle nut",
+    "instruction": "Confirm both adjusters are still seated on their screws, then torque the rear axle nut to 80 Nm (59 lb-ft). Recheck the chain gap once more after torquing.",
+    "depends_on": [
+     "set-chain-tension"
+    ],
+    "verification": [
+     "Axle nut torqued to 80 Nm (59 lb-ft)",
+     "Chain tension still within 58 to 61 mm"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "pump-rear-brake",
+    "title": "Pump the rear brake up",
+    "instruction": "Press the rear brake pedal several times until the pads meet the disc and the pedal firms up. Spin the wheel to make sure the brake releases and only drags lightly.",
+    "depends_on": [
+     "torque-axle-nut"
+    ],
+    "verification": [
+     "Pedal is firm",
+     "Wheel spins freely after the pedal is released"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "final-check",
+    "title": "Spin, brake and ride",
+    "instruction": "Off the stand, spin the wheel, press the brake, and push the bike to feel for drag. Ride gently first and recheck chain tension and wheel play once it cools.",
+    "depends_on": [
+     "pump-rear-brake"
+    ],
+    "verification": [
+     "Wheel spins freely",
+     "Brake firm",
+     "Chain tension and play rechecked after the first ride"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   }
+  ],
+  "targets": [
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FC 450",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FC 350",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FC 350",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Husqvarna",
+    "model": "FC 350",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "GasGas",
+    "model": "MC 450F",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "GasGas",
+    "model": "MC 450F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "GasGas",
+    "model": "MC 450F",
+    "model_year": 2027
    }
   ]
  },
@@ -3051,6 +5942,551 @@
   ]
  },
  {
+  "id": "bak-ktm-450sxf-2025-chain-sprockets-shared-v1",
+  "component": "frame",
+  "affected_components": [
+   "chain",
+   "rear_wheel",
+   "engine_sprocket",
+   "rear_brake"
+  ],
+  "entry_state": [
+   "Complete, ready-to-ride bike."
+  ],
+  "exit_state": [
+   "New chain, engine sprocket and rear sprocket fitted; chain tension set, all covers back on; ready to ride."
+  ],
+  "target": {
+   "manufacturer": "KTM",
+   "model": "450 SX-F",
+   "model_year": 2025,
+   "variant": "standard",
+   "region": "US"
+  },
+  "title": "Replace the chain and both sprockets",
+  "completeness": "Checks chain, guide and slider wear, then replaces the chain, engine sprocket and rear sprocket together with tension and alignment set; chain guide, slider and sliding piece replacement are flagged but not walked through.",
+  "excluded": [
+   "Chain guide, chain sliding guard and sliding piece replacement",
+   "Countershaft seal replacement",
+   "Gearing changes beyond a like-for-like swap"
+  ],
+  "required_tools": [
+   {
+    "name": "Lift stand",
+    "size": null
+   },
+   {
+    "name": "Torque wrench covering 3 to 80 Nm",
+    "size": null
+   },
+   {
+    "name": "Sockets for sprocket screw, axle nut and sprocket nuts",
+    "size": null
+   },
+   {
+    "name": "Pliers for the master link clip",
+    "size": null
+   },
+   {
+    "name": "Chain breaker (only if the new chain must be shortened)",
+    "size": null
+   },
+   {
+    "name": "Vernier caliper",
+    "size": null
+   },
+   {
+    "name": "Tape measure or ruler",
+    "size": null
+   },
+   {
+    "name": "Spring scale or known weight for the chain wear pull",
+    "size": null
+   },
+   {
+    "name": "Helper to hold the rear brake",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Chain 5/8 x 1/4 in (520) with connecting link",
+    "purpose": "Replace together with both sprockets"
+   },
+   {
+    "name": "Engine sprocket (13 tooth stock)",
+    "purpose": "Replace with the chain"
+   },
+   {
+    "name": "Rear sprocket (51 tooth stock)",
+    "purpose": "Replace with the chain"
+   },
+   {
+    "name": "Loctite 2701",
+    "purpose": "Rear sprocket screws and engine sprocket screw"
+   },
+   {
+    "name": "Long-life grease",
+    "purpose": "Hub seals, spacers and axle"
+   },
+   {
+    "name": "Off-road chain lube",
+    "purpose": "New chain"
+   }
+  ],
+  "prerequisites": [
+   "Bike clean",
+   "Replacement chain and sprockets match the stock 13:51 gearing or the rider's chosen gearing"
+  ],
+  "critical_stop_conditions": [
+   "Never fit a new chain on worn sprockets or new sprockets with an old chain: replace all three together",
+   "Chain guide thinner than 6 mm, or slider worn down to the pins: replace before riding",
+   "Master link clip not fully seated or facing the wrong way: stop and refit it",
+   "Chain tension cannot reach 58 to 61 mm with the wheel straight: wrong chain length, stop"
+  ],
+  "steps": [
+   {
+    "id": "wash-bike",
+    "title": "Wash the work area first",
+    "instruction": "Wash and dry the bike before you open anything, paying extra attention to the area you are about to work on. Grit that falls into an open bearing bore or brake system is how good parts fail early. Have a clean tray and zip bags with a marker ready for fasteners.",
+    "depends_on": [],
+    "verification": [
+     "Work area is free of mud and grit",
+     "Parts tray and labelled bags are ready"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "lift-bike",
+    "title": "Put the bike on the lift stand",
+    "instruction": "Pull the plug-in stand out of the rear axle and lift the bike onto a lift stand, placing it under the frame below the engine. Both wheels should hang free. Rock the bike gently to make sure it sits square and cannot tip, and keep anyone off it while it is up.",
+    "depends_on": [
+     "wash-bike"
+    ],
+    "verification": [
+     "Both wheels are off the ground",
+     "Bike is stable when pushed lightly from each side"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "measure-old-chain",
+    "title": "Measure chain wear",
+    "instruction": "Shift to neutral. Pull up on the top run with about 10 to 15 kg (22 to 33 lb) of force and measure across 18 rollers on the bottom run. The maximum is 272 mm (10.71 in); check a few spots and record the longest. Even if you are replacing everything anyway, the number tells you how fast your chain wears.",
+    "depends_on": [
+     "lift-bike"
+    ],
+    "verification": [
+     "Longest 18-roller measurement recorded"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-guides",
+    "title": "Check the chain guide, slider and sliding piece",
+    "instruction": "Measure the chain guide thickness with a caliper; the minimum is 6 mm (0.24 in). Look at the chain sliding guard on the swingarm and the chain sliding piece: once they are worn so thin that the chain pins sit level with or below their wearing surface, replace them. Make sure each one is tight.",
+    "depends_on": [
+     "measure-old-chain"
+    ],
+    "verification": [
+     "Chain guide at least 6 mm, or replacement planned",
+     "Slider and sliding piece judged good or replaced"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-airbox-cover",
+    "title": "Remove the air filter box cover",
+    "instruction": "Remove the screw securing the air filter box cover if it has one, then pull the cover out at its rear corner, push it sideways and forward, and lift it off.",
+    "depends_on": [
+     "check-guides"
+    ],
+    "verification": [
+     "Air filter box cover is off and the filter is not disturbed"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-left-guard",
+    "title": "Remove the left frame protector",
+    "instruction": "Cut the cable ties and remove the left frame protector screws and bushings, then lift the protector off.",
+    "depends_on": [
+     "remove-airbox-cover"
+    ],
+    "verification": [
+     "Left frame protector is off"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-sprocket-cover",
+    "title": "Remove the engine sprocket cover",
+    "instruction": "Remove the M6 screw with its washer and the M8 screw from the engine sprocket cover and slide the cover forward off its holder. Clean out the packed dirt behind it.",
+    "depends_on": [
+     "remove-left-guard"
+    ],
+    "verification": [
+     "Sprocket cover is off",
+     "Area behind it is clean"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "loosen-engine-sprocket",
+    "title": "Break loose the engine sprocket screw",
+    "instruction": "Have a helper stand on the rear brake to lock the wheel, then remove the engine sprocket screw and its washer. The chain must still be fitted for this.",
+    "depends_on": [
+     "remove-sprocket-cover"
+    ],
+    "verification": [
+     "Engine sprocket screw and washer are out"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-old-chain",
+    "title": "Split and remove the old chain",
+    "instruction": "Bring the master link round to the rear sprocket, pop off the clip, take off the side plate, push the link out and pull the chain off.",
+    "depends_on": [
+     "loosen-engine-sprocket"
+    ],
+    "verification": [
+     "Old chain is off"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "retract-rear-piston",
+    "title": "Push the rear caliper piston back",
+    "instruction": "Squeeze the rear caliper toward the disc by hand to push the piston back a little; this gives the pads clearance so the wheel comes out and goes back in easily. Keep the caliper away from the spokes while you push.",
+    "depends_on": [
+     "remove-old-chain"
+    ],
+    "verification": [
+     "Pads are no longer dragging hard on the disc"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-wheel-for-sprocket",
+    "title": "Take the rear wheel out",
+    "instruction": "Remove the axle nut and adjuster, support the wheel and pull the axle, then lift the wheel out and set it down with the disc protected. Keep the spacers with the axle and do not press the brake pedal.",
+    "depends_on": [
+     "retract-rear-piston"
+    ],
+    "verification": [
+     "Wheel is out",
+     "Spacers are accounted for"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-engine-sprocket",
+    "title": "Slide off the engine sprocket",
+    "instruction": "Slide the engine sprocket off the countershaft splines. Wipe the splines and the shaft seal area clean and look for oil weeping at the seal.",
+    "depends_on": [
+     "remove-wheel-for-sprocket"
+    ],
+    "verification": [
+     "Sprocket off",
+     "Countershaft splines clean"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-rear-sprocket",
+    "title": "Remove the rear sprocket",
+    "instruction": "Remove the rear sprocket nuts and screws and lift the sprocket off. Clean the hub face so the new sprocket sits flat.",
+    "depends_on": [
+     "remove-engine-sprocket"
+    ],
+    "verification": [
+     "Old sprocket off",
+     "Hub face clean"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-rear-sprocket",
+    "title": "Fit the new rear sprocket",
+    "instruction": "Set the new sprocket on the hub, fit the screws with Loctite 2701, and torque the nuts to 35 Nm (25.8 lb-ft) in a crisscross pattern. Stock gearing is 13:51.",
+    "depends_on": [
+     "remove-rear-sprocket"
+    ],
+    "verification": [
+     "Sprocket nuts at 35 Nm (25.8 lb-ft) with thread locker",
+     "Sprocket sits flat on the hub"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-engine-sprocket",
+    "title": "Slide on the new engine sprocket",
+    "instruction": "Slide the new engine sprocket onto the countershaft splines with the same face outward as the old one. Leave the screw out for now.",
+    "depends_on": [
+     "fit-rear-sprocket"
+    ],
+    "verification": [
+     "Sprocket is on the splines facing the right way"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-bearings-refit-wheel",
+    "title": "Check the wheel bearings and refit the wheel",
+    "instruction": "Turn the hub bearings with a finger; if they are rough or loose, replace them before going further. Grease the seals and spacer faces, fit the spacers, and set the wheel into the swingarm with the disc between the pads. Slide the greased axle through.",
+    "depends_on": [
+     "fit-engine-sprocket"
+    ],
+    "verification": [
+     "Wheel bearings smooth",
+     "Wheel and axle fitted"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "size-new-chain",
+    "title": "Check the new chain length",
+    "instruction": "Lay the new chain beside the old one and match the link count. If it needs shortening, cut it with a chain breaker so the joint ends up as a master link, not a riveted pin you have broken.",
+    "depends_on": [
+     "check-bearings-refit-wheel"
+    ],
+    "verification": [
+     "New chain has the same link count as the old one"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-new-chain",
+    "title": "Fit and join the new chain",
+    "instruction": "Route the chain over the engine sprocket, through the guides and onto the rear sprocket, then join it with the master link. Point the closed end of the clip in the direction the chain moves, and check it snaps into both pin grooves.",
+    "depends_on": [
+     "size-new-chain"
+    ],
+    "verification": [
+     "Chain joined",
+     "Clip closed end faces the direction of travel and is fully seated"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-adjuster-loose-cs",
+    "title": "Fit the adjuster and run the nut on loose",
+    "instruction": "Put the chain adjuster back on the axle and spin the axle nut on loosely. Both adjusters must sit properly on their adjusting screws.",
+    "depends_on": [
+     "fit-new-chain"
+    ],
+    "verification": [
+     "Nut loose",
+     "Both adjusters seated on their screws"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "set-chain-tension",
+    "title": "Set and record chain tension",
+    "instruction": "With the bike on the stand, pull the chain upward at the rear end of the chain sliding piece on the swingarm while the bottom run stays tight, and measure the gap. The target is 58 to 61 mm (2.28 to 2.40 in). To change it, loosen the adjuster lock nuts and turn the adjusting screws on both sides by the same amount so the marks on the left and right adjusters line up with the same reference marks; that keeps the wheel straight. Check at two or three spots on the chain because chains wear unevenly, then tighten the lock nuts.",
+    "depends_on": [
+     "fit-adjuster-loose-cs"
+    ],
+    "verification": [
+     "Measured tension is within 58 to 61 mm at the tightest spot",
+     "Left and right adjuster marks line up with the same reference",
+     "Adjuster lock nuts are tight"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "torque-axle-nut",
+    "title": "Torque the rear axle nut",
+    "instruction": "Confirm both adjusters are still seated on their screws, then torque the rear axle nut to 80 Nm (59 lb-ft). Recheck the chain gap once more after torquing.",
+    "depends_on": [
+     "set-chain-tension"
+    ],
+    "verification": [
+     "Axle nut torqued to 80 Nm (59 lb-ft)",
+     "Chain tension still within 58 to 61 mm"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "pump-rear-brake",
+    "title": "Pump the rear brake up",
+    "instruction": "Press the rear brake pedal several times until the pads meet the disc and the pedal firms up. Spin the wheel to make sure the brake releases and only drags lightly.",
+    "depends_on": [
+     "torque-axle-nut"
+    ],
+    "verification": [
+     "Pedal is firm",
+     "Wheel spins freely after the pedal is released"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "torque-engine-sprocket",
+    "title": "Torque the engine sprocket screw",
+    "instruction": "Put Loctite 2701 on the engine sprocket screw, fit it with its washer, and with a helper holding the rear brake, torque it to 60 Nm (44.3 lb-ft).",
+    "depends_on": [
+     "pump-rear-brake"
+    ],
+    "verification": [
+     "Engine sprocket screw at 60 Nm (44.3 lb-ft) with thread locker"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "refit-sprocket-cover",
+    "title": "Refit the engine sprocket cover",
+    "instruction": "Slide the cover into its holder, fit the M6 screw with its washer at 10 Nm (7.4 lb-ft) and the M8 screw at 15 Nm (11.1 lb-ft).",
+    "depends_on": [
+     "torque-engine-sprocket"
+    ],
+    "verification": [
+     "M6 at 10 Nm (7.4 lb-ft)",
+     "M8 at 15 Nm (11.1 lb-ft)"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "refit-left-guard-airbox",
+    "title": "Refit the frame protector and airbox cover",
+    "instruction": "Fit the left frame protector screws with their bushings at 3 Nm (2.2 lb-ft) and replace the cable ties. Hook the air filter box cover in at the front and clip it in at the back, then fit its screw if your bike uses one.",
+    "depends_on": [
+     "refit-sprocket-cover"
+    ],
+    "verification": [
+     "Protector at 3 Nm (2.2 lb-ft)",
+     "Airbox cover fully clipped in"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "lube-chain",
+    "title": "Lube the new chain",
+    "instruction": "Spin the wheel and spray an off-road chain lube along the inside of the bottom run. Wipe off any that lands on the tire or disc with brake cleaner.",
+    "depends_on": [
+     "refit-left-guard-airbox"
+    ],
+    "verification": [
+     "Chain lubed",
+     "No lube on tire or disc"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "final-check",
+    "title": "Final check, ride, recheck tension",
+    "instruction": "Spin the wheel to check the chain runs straight onto both sprockets. Ride a few easy laps, then recheck chain tension once it cools; new chains stretch most at the start.",
+    "depends_on": [
+     "lube-chain"
+    ],
+    "verification": [
+     "Chain tracks straight",
+     "Tension rechecked after the first ride"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   }
+  ],
+  "targets": [
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2024
+   }
+  ]
+ },
+ {
   "id": "bak-ktm-450sxf-2025-brake-pads-v1",
   "component": "frame",
   "affected_components": [
@@ -3474,6 +6910,521 @@
   ]
  },
  {
+  "id": "bak-ktm-450sxf-2025-brake-pads-shared-v1",
+  "component": "frame",
+  "affected_components": [
+   "front_brake",
+   "rear_brake"
+  ],
+  "entry_state": [
+   "Complete, ready-to-ride bike on a lift stand or level ground."
+  ],
+  "exit_state": [
+   "New front and rear pads fitted, fluid levels corrected, lever and pedal free play checked; ready to ride."
+  ],
+  "target": {
+   "manufacturer": "KTM",
+   "model": "450 SX-F",
+   "model_year": 2025,
+   "variant": "standard",
+   "region": "US"
+  },
+  "title": "Replace front and rear brake pads",
+  "completeness": "Checks pad and disc wear and replaces front and rear pads with the calipers' pins, springs and sliding plates checked; caliper rebuilds, disc replacement and fluid changes are separate.",
+  "excluded": [
+   "Caliper or master cylinder seal rebuild",
+   "Brake disc replacement",
+   "Brake fluid change (separate guide)",
+   "FACTORY EDITION differences"
+  ],
+  "required_tools": [
+   {
+    "name": "Torque wrench covering 3 to 25 Nm",
+    "size": null
+   },
+   {
+    "name": "Hex bits for caliper screws",
+    "size": null
+   },
+   {
+    "name": "Pliers for cotter pins",
+    "size": null
+   },
+   {
+    "name": "Syringe for extracting fluid",
+    "size": null
+   },
+   {
+    "name": "Vernier caliper",
+    "size": null
+   },
+   {
+    "name": "Flat plastic tool for pushing pistons",
+    "size": null
+   },
+   {
+    "name": "Brake cleaner and rags",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Front brake pads (pair)",
+    "purpose": "Replace when under 1 mm, cracked or contaminated"
+   },
+   {
+    "name": "Rear brake pads (pair)",
+    "purpose": "Same limits as front"
+   },
+   {
+    "name": "Cotter pins for the pad pins",
+    "purpose": "Fit new ones"
+   },
+   {
+    "name": "Brake fluid DOT 4 or DOT 5.1 from a sealed container",
+    "purpose": "Top up after pumping the pistons out"
+   },
+   {
+    "name": "Loctite 243",
+    "purpose": "Front caliper screws"
+   }
+  ],
+  "prerequisites": [
+   "Brake discs checked: if a disc must be replaced, fit new pads at the same time"
+  ],
+  "critical_stop_conditions": [
+   "Disc below 2.5 mm front or 3.5 mm rear, cracked or warped: replace the disc and pads together",
+   "Fluid leaking from a caliper piston or a soft lever after pumping: stop, the system needs bleeding or a rebuild",
+   "Pads soaked with oil or brake fluid: replace them and clean the disc, never ride on them",
+   "No lever or pedal free play: pressure can build as the brake heats up, adjust before riding"
+  ],
+  "steps": [
+   {
+    "id": "wash-bike",
+    "title": "Wash the work area first",
+    "instruction": "Wash and dry the bike before you open anything, paying extra attention to the area you are about to work on. Grit that falls into an open bearing bore or brake system is how good parts fail early. Have a clean tray and zip bags with a marker ready for fasteners.",
+    "depends_on": [],
+    "verification": [
+     "Work area is free of mud and grit",
+     "Parts tray and labelled bags are ready"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-pad-thickness",
+    "title": "Measure pads and discs",
+    "instruction": "Look at the pads from the open side of each caliper and measure the friction material that is left. Below 1 mm (0.04 in), or any crack or contamination, means new pads. Measure each disc where the pads run: front minimum 2.5 mm (0.098 in), rear minimum 3.5 mm (0.138 in).",
+    "depends_on": [
+     "wash-bike"
+    ],
+    "verification": [
+     "Front and rear pad thickness recorded",
+     "Front and rear disc thickness recorded"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "open-front-reservoir",
+    "title": "Open the front brake reservoir",
+    "instruction": "Turn the bars so the front reservoir sits level, wrap a rag around it to protect the paint and plastics, remove the cover screws and lift off the cover and membrane. Brake fluid strips paint, so wipe up any drop straight away with water.",
+    "depends_on": [
+     "check-pad-thickness"
+    ],
+    "verification": [
+     "Reservoir level and open",
+     "Rag in place around it"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-front-caliper-pads",
+    "title": "Unbolt the front caliper",
+    "instruction": "Remove the two caliper screws. Rock the caliper gently side to side on the disc to push the pads back, then lift it up off the disc. Do not touch the brake lever while the caliper is off.",
+    "depends_on": [
+     "open-front-reservoir"
+    ],
+    "verification": [
+     "Caliper is off the disc",
+     "Lever has not been squeezed"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "push-front-pistons",
+    "title": "Push the front pistons fully back",
+    "instruction": "Push the pistons all the way back into the caliper with the old pads or a flat plastic tool, watching the reservoir. If the level rises close to the top, pull some fluid out with a syringe so it cannot overflow.",
+    "depends_on": [
+     "remove-front-caliper-pads"
+    ],
+    "verification": [
+     "Pistons fully retracted",
+     "Reservoir has not overflowed"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-front-pads",
+    "title": "Take out the old front pads",
+    "instruction": "Pull the cotter pins, slide out the pad pin and lift the pads out.",
+    "depends_on": [
+     "push-front-pistons"
+    ],
+    "verification": [
+     "Old pads out",
+     "Pin and cotter pins kept"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "clean-front-caliper",
+    "title": "Clean the caliper and check the springs",
+    "instruction": "Clean the caliper and bracket with brake cleaner. Check that the spring plate inside the caliper and the pad sliding plate on the bracket are sitting where they belong.",
+    "depends_on": [
+     "remove-front-pads"
+    ],
+    "verification": [
+     "Caliper clean",
+     "Spring plate and sliding plate correctly seated"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-front-pads",
+    "title": "Fit new front pads",
+    "instruction": "Fit both new pads together, never one, push them against the retainer spring so the holes line up, slide the pin through and fit new cotter pins. Check the pads and the spring are seated properly.",
+    "depends_on": [
+     "clean-front-caliper"
+    ],
+    "verification": [
+     "Pin through both pads",
+     "Cotter pins fitted",
+     "Spring and pads seated"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "refit-front-caliper-pads",
+    "title": "Refit the front caliper",
+    "instruction": "Slide the caliper back over the disc, apply Loctite 243 to the caliper screws, and torque them to 25 Nm (18.4 lb-ft).",
+    "depends_on": [
+     "fit-front-pads"
+    ],
+    "verification": [
+     "Caliper screws at 25 Nm (18.4 lb-ft) with thread locker"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "pump-front-lever",
+    "title": "Pump up the front brake and top up",
+    "instruction": "Pump the front lever until it firms up and the pads are against the disc. Top up with DOT 4 or DOT 5.1 fluid to 5 mm (0.2 in) below the reservoir rim, then fit the membrane, cover and screws.",
+    "depends_on": [
+     "refit-front-caliper-pads"
+    ],
+    "verification": [
+     "Lever is firm",
+     "Fluid 5 mm below the rim",
+     "Cover fitted"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-front-lever-play",
+    "title": "Check front lever free play",
+    "instruction": "Push the lever forward gently and check it moves at least 3 mm (0.12 in) before it starts pushing the piston. If not, adjust the lever reach screw by hand until it does.",
+    "depends_on": [
+     "pump-front-lever"
+    ],
+    "verification": [
+     "Front lever free play at least 3 mm"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-right-guard",
+    "title": "Remove the right frame protector",
+    "instruction": "Cut the cable ties and remove the frame protector screws and bushings; slide the right protector forward and drop it out from below to get at the rear reservoir.",
+    "depends_on": [
+     "check-front-lever-play"
+    ],
+    "verification": [
+     "Right frame protector off"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "open-rear-reservoir",
+    "title": "Open the rear reservoir",
+    "instruction": "Hold the bike upright, wrap a rag around the rear reservoir and unscrew the cap with its membrane and O-ring.",
+    "depends_on": [
+     "remove-right-guard"
+    ],
+    "verification": [
+     "Rear reservoir open",
+     "Bike upright"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "push-rear-piston",
+    "title": "Push the rear piston back",
+    "instruction": "Push the rear caliper toward the disc by hand to retract the piston, keeping clear of the spokes. Watch the reservoir and pull some fluid out with a syringe if it is getting close to overflowing.",
+    "depends_on": [
+     "open-rear-reservoir"
+    ],
+    "verification": [
+     "Piston retracted",
+     "Reservoir has not overflowed"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-rear-pads",
+    "title": "Take out the old rear pads",
+    "instruction": "Pull the cotter pins, slide the pad pin out and remove the pads.",
+    "depends_on": [
+     "push-rear-piston"
+    ],
+    "verification": [
+     "Old rear pads out"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "clean-rear-caliper",
+    "title": "Clean the rear caliper and check the springs",
+    "instruction": "Clean the caliper and bracket with brake cleaner. Check that the spring plate in the caliper and the sliding plate on the bracket are seated; the arrow on the spring plate should point the way the disc turns when the bike rolls forward.",
+    "depends_on": [
+     "remove-rear-pads"
+    ],
+    "verification": [
+     "Caliper clean",
+     "Spring plate arrow points in disc rotation direction"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fit-rear-pads",
+    "title": "Fit new rear pads",
+    "instruction": "Fit the new pair of pads with the decoupling plate on the pad that sits against the piston. Slide the pin through and fit new cotter pins.",
+    "depends_on": [
+     "clean-rear-caliper"
+    ],
+    "verification": [
+     "Decoupling plate on the piston-side pad",
+     "Pin and cotter pins fitted"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "pump-rear-pedal",
+    "title": "Pump up the rear brake and top up",
+    "instruction": "Pump the pedal until it firms up. With the bike upright, top up with DOT 4 or DOT 5.1 to the level mark, then refit the cap with its membrane and O-ring.",
+    "depends_on": [
+     "fit-rear-pads"
+    ],
+    "verification": [
+     "Pedal is firm",
+     "Fluid at the mark",
+     "Cap fitted with membrane and O-ring"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-pedal-play",
+    "title": "Check rear pedal free play",
+    "instruction": "Unhook the pedal spring and measure the free play at the pedal tip before it pushes the master cylinder piston. You want 3 to 5 mm (0.12 to 0.20 in). Hook the spring back on.",
+    "depends_on": [
+     "pump-rear-pedal"
+    ],
+    "verification": [
+     "Pedal free play 3 to 5 mm",
+     "Spring reconnected"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "refit-right-guard",
+    "title": "Refit the right frame protector",
+    "instruction": "Slide the right protector in from below and push it back, fit the screws with their bushings at 3 Nm (2.2 lb-ft) and replace the cable ties.",
+    "depends_on": [
+     "check-pedal-play"
+    ],
+    "verification": [
+     "Protector screws at 3 Nm (2.2 lb-ft)"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "bed-in-pads",
+    "title": "Bed in the new pads",
+    "instruction": "On a safe stretch, do a series of moderate stops from low speed, building up gradually. New pads grip less until they bed in, so do not start a moto on fresh pads without doing this.",
+    "depends_on": [
+     "refit-right-guard"
+    ],
+    "verification": [
+     "Both brakes bite consistently"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   }
+  ],
+  "targets": [
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 XC-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 XC-F",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 XC-F",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 XC-F",
+    "model_year": 2027
+   }
+  ]
+ },
+ {
   "id": "bak-ktm-450sxf-2025-brake-fluid-change-v1",
   "component": "frame",
   "affected_components": [
@@ -3841,6 +7792,465 @@
   ]
  },
  {
+  "id": "bak-ktm-450sxf-2025-brake-fluid-change-shared-v1",
+  "component": "frame",
+  "affected_components": [
+   "front_brake",
+   "rear_brake"
+  ],
+  "entry_state": [
+   "Complete, ready-to-ride bike, upright on a stand or level ground."
+  ],
+  "exit_state": [
+   "Front and rear brake fluid replaced and bled, levels set, lever and pedal firm; ready to ride."
+  ],
+  "target": {
+   "manufacturer": "KTM",
+   "model": "450 SX-F",
+   "model_year": 2025,
+   "variant": "standard",
+   "region": "US"
+  },
+  "title": "Change and bleed the front and rear brake fluid",
+  "completeness": "Replaces the fluid in both brake circuits using a pressure bleeder and sets the reservoir levels; caliper and master cylinder rebuilds and hand-pump or vacuum bleeding methods are not walked through.",
+  "excluded": [
+   "Caliper or master cylinder rebuild",
+   "Brake hose replacement",
+   "Bleeding without a pressure bleeder (pump-and-hold or vacuum methods)"
+  ],
+  "required_tools": [
+   {
+    "name": "KTM bleeding device 00029013100 or equivalent pressure bleeder",
+    "size": null
+   },
+   {
+    "name": "Bleeder cap 00029013005 (front reservoir)",
+    "size": null
+   },
+   {
+    "name": "Bleeder cap 00029013006 (rear reservoir)",
+    "size": null
+   },
+   {
+    "name": "Syringe (KTM 50329050000 or similar)",
+    "size": null
+   },
+   {
+    "name": "Box wrench for the bleeder screws",
+    "size": null
+   },
+   {
+    "name": "Catch bottle with clear hose",
+    "size": null
+   },
+   {
+    "name": "Torque wrench for the frame protector screws",
+    "size": null
+   },
+   {
+    "name": "Rags and a water spray",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Brake fluid DOT 4 or DOT 5.1, sealed container",
+    "purpose": "Fresh fluid for both circuits"
+   },
+   {
+    "name": "Cable ties",
+    "purpose": "Frame protector"
+   }
+  ],
+  "prerequisites": [
+   "Pads checked and secured before bleeding",
+   "Never mix fluid from an opened, old container"
+  ],
+  "critical_stop_conditions": [
+   "Lever or pedal still spongy after bleeding: do not ride, bleed again or find the leak",
+   "Fluid leaking at a bleeder, banjo or reservoir cap: stop and fix before riding",
+   "Brake fluid on the pads or disc: clean the disc, replace contaminated pads",
+   "Reservoir run dry during bleeding: air has entered the master cylinder, start the bleed again"
+  ],
+  "steps": [
+   {
+    "id": "wash-bike",
+    "title": "Wash the work area first",
+    "instruction": "Wash and dry the bike before you open anything, paying extra attention to the area you are about to work on. Grit that falls into an open bearing bore or brake system is how good parts fail early. Have a clean tray and zip bags with a marker ready for fasteners.",
+    "depends_on": [],
+    "verification": [
+     "Work area is free of mud and grit",
+     "Parts tray and labelled bags are ready"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "prepare-bleeder",
+    "title": "Set up the bleeding device",
+    "instruction": "This guide uses a pressure bleeder (KTM bleeding device 00029013100) with the matching reservoir caps: 00029013005 for the front and 00029013006 for the rear. Read the bleeder's own instructions and make sure it is clean and filled with fresh DOT 4 or DOT 5.1 brake fluid from a sealed container.",
+    "depends_on": [
+     "wash-bike"
+    ],
+    "verification": [
+     "Bleeder is clean and filled with fresh DOT 4 or DOT 5.1"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "protect-paint-front",
+    "title": "Level and protect the front reservoir",
+    "instruction": "Turn the bars so the front reservoir is level and cover the tank, plastics and fork with rags; brake fluid eats paint.",
+    "depends_on": [
+     "prepare-bleeder"
+    ],
+    "verification": [
+     "Reservoir level",
+     "Painted parts covered"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "empty-front-reservoir",
+    "title": "Swap out the old front reservoir fluid",
+    "instruction": "Remove the reservoir cover screws, cover and membrane. Suck the old fluid out of the reservoir with a syringe and refill it with fresh fluid.",
+    "depends_on": [
+     "protect-paint-front"
+    ],
+    "verification": [
+     "Old reservoir fluid removed",
+     "Reservoir refilled with fresh fluid"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "connect-bleeder-front",
+    "title": "Fit the bleeder cap and connect",
+    "instruction": "Fit bleeder cap 00029013005 on the front reservoir, connect the bleeding device to it, and open its shut-off valve. Check the gauge reads 2 to 2.5 bar (29 to 36 psi) and correct it on the regulator if not.",
+    "depends_on": [
+     "empty-front-reservoir"
+    ],
+    "verification": [
+     "Bleeder cap sealed on the reservoir",
+     "Pressure 2 to 2.5 bar"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "flush-front",
+    "title": "Flush fresh fluid through the caliper",
+    "instruction": "Pull the dust cap off the front caliper bleeder and push on the catch-bottle hose. Open the bleeder about half a turn and let fluid run until it comes out clean and with no bubbles, then close the bleeder.",
+    "depends_on": [
+     "connect-bleeder-front"
+    ],
+    "verification": [
+     "Fluid in the hose is clean and bubble-free",
+     "Bleeder closed"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "set-front-level",
+    "title": "Close the supply and set the level",
+    "instruction": "Close the bleeder's shut-off valve, then crack the caliper bleeder again until fluid stops coming out; this drops the reservoir to a safe level. Snug the bleeder, pull off the hose and refit the dust cap.",
+    "depends_on": [
+     "flush-front"
+    ],
+    "verification": [
+     "Fluid has stopped flowing",
+     "Bleeder snug, dust cap on"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "close-front-reservoir",
+    "title": "Disconnect and close the front reservoir",
+    "instruction": "Disconnect the bleeding device and remove its cap. Top up to 5 mm (0.2 in) below the reservoir rim, then fit the membrane, cover and screws.",
+    "depends_on": [
+     "set-front-level"
+    ],
+    "verification": [
+     "Fluid 5 mm below the rim",
+     "Cover fitted"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-front-lever-firm",
+    "title": "Check the front lever",
+    "instruction": "Squeeze the front lever several times. It must come up firm at the same point every time. A spongy lever means air is still in the system: bleed again.",
+    "depends_on": [
+     "close-front-reservoir"
+    ],
+    "verification": [
+     "Lever is firm and consistent"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "remove-right-guard-bf",
+    "title": "Remove the right frame protector",
+    "instruction": "Cut the cable ties, remove the frame protector screws and bushings, and slide the right protector forward and down to reach the rear reservoir.",
+    "depends_on": [
+     "check-front-lever-firm"
+    ],
+    "verification": [
+     "Right frame protector off"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "empty-rear-reservoir",
+    "title": "Swap out the old rear reservoir fluid",
+    "instruction": "Cover nearby paint, unscrew the rear reservoir cap with its membrane and O-ring, suck out the old fluid with a syringe and fill with fresh.",
+    "depends_on": [
+     "remove-right-guard-bf"
+    ],
+    "verification": [
+     "Old fluid removed",
+     "Reservoir refilled"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "connect-bleeder-rear",
+    "title": "Fit the rear bleeder cap and connect",
+    "instruction": "Fit bleeder cap 00029013006 on the rear reservoir, connect the bleeding device, open its shut-off valve and confirm 2 to 2.5 bar (29 to 36 psi).",
+    "depends_on": [
+     "empty-rear-reservoir"
+    ],
+    "verification": [
+     "Cap sealed",
+     "Pressure 2 to 2.5 bar"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "flush-rear",
+    "title": "Flush fresh fluid through the rear caliper",
+    "instruction": "Pull the dust cap off the rear caliper bleeder, attach the catch-bottle hose, open the bleeder about half a turn and run fluid through until it is clean and bubble-free. Close the bleeder.",
+    "depends_on": [
+     "connect-bleeder-rear"
+    ],
+    "verification": [
+     "Fluid clean and bubble-free",
+     "Bleeder closed"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "set-rear-level",
+    "title": "Close the supply and set the rear level",
+    "instruction": "Close the shut-off valve, then open the caliper bleeder again until flow stops. Snug the bleeder, remove the hose and refit the dust cap. Disconnect the bleeding device and its cap.",
+    "depends_on": [
+     "flush-rear"
+    ],
+    "verification": [
+     "Flow has stopped",
+     "Bleeder snug and capped",
+     "Bleeding device disconnected"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "close-rear-reservoir",
+    "title": "Set the rear fluid level and close up",
+    "instruction": "Stand the bike upright, bring the fluid to the level mark, and screw the cap on with its membrane and O-ring.",
+    "depends_on": [
+     "set-rear-level"
+    ],
+    "verification": [
+     "Fluid at the mark",
+     "Cap fitted with membrane and O-ring"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-pedal-firm",
+    "title": "Check the rear pedal",
+    "instruction": "Press the pedal several times; it must be firm at the same point every time. If it is spongy, bleed again.",
+    "depends_on": [
+     "close-rear-reservoir"
+    ],
+    "verification": [
+     "Pedal firm and consistent"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "refit-right-guard-bf",
+    "title": "Refit the right frame protector",
+    "instruction": "Slide the protector in from below and push it back, fit the screws with their bushings at 3 Nm (2.2 lb-ft), and replace the cable ties.",
+    "depends_on": [
+     "check-pedal-firm"
+    ],
+    "verification": [
+     "Protector at 3 Nm (2.2 lb-ft)"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "clean-up-fluid",
+    "title": "Clean up and test",
+    "instruction": "Wash away any spilled fluid with water, remove the rags and check the bleeders and reservoir caps for weeping. Test both brakes at low speed before riding hard.",
+    "depends_on": [
+     "refit-right-guard-bf"
+    ],
+    "verification": [
+     "No leaks",
+     "No fluid left on paint, discs or pads",
+     "Both brakes work at low speed"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   }
+  ],
+  "targets": [
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 XC-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 XC-F",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 XC-F",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 XC-F",
+    "model_year": 2027
+   }
+  ]
+ },
+ {
   "id": "bak-ktm-450sxf-2025-clutch-fluid-change-v1",
   "component": "engine",
   "affected_components": [
@@ -4060,6 +8470,321 @@
     "record_required": false,
     "diagram_reference_required": false,
     "source_links": []
+   }
+  ]
+ },
+ {
+  "id": "bak-ktm-450sxf-2025-clutch-fluid-change-shared-v1",
+  "component": "engine",
+  "affected_components": [
+   "clutch",
+   "clutch_hydraulics"
+  ],
+  "entry_state": [
+   "Complete, ready-to-ride bike on a stand or level ground."
+  ],
+  "exit_state": [
+   "Hydraulic clutch fluid replaced and bled, level set at 4 mm below the rim; ready to ride."
+  ],
+  "target": {
+   "manufacturer": "KTM",
+   "model": "450 SX-F",
+   "model_year": 2025,
+   "variant": "standard",
+   "region": "US"
+  },
+  "title": "Change and bleed the hydraulic clutch fluid",
+  "completeness": "Replaces the hydraulic clutch fluid by reverse-filling from the slave cylinder with a syringe and sets the reservoir level; clutch pack, slave and master cylinder rebuilds are not covered.",
+  "excluded": [
+   "Clutch pack inspection or replacement",
+   "Clutch master or slave cylinder rebuild",
+   "Clutch line replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Bleeding syringe (KTM 50329050000 or similar) with clear hose",
+    "size": null
+   },
+   {
+    "name": "Second syringe for extracting fluid",
+    "size": null
+   },
+   {
+    "name": "Box wrench for the slave cylinder bleeder",
+    "size": null
+   },
+   {
+    "name": "Hex or Phillips driver for the reservoir cover",
+    "size": null
+   },
+   {
+    "name": "Rags and a water spray",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Brake fluid DOT 4 or DOT 5.1, sealed container",
+    "purpose": "Hydraulic clutch fluid"
+   }
+  ],
+  "prerequisites": [
+   "Clutch lever and line in good condition with no visible leaks"
+  ],
+  "critical_stop_conditions": [
+   "Bubbles keep appearing at the reservoir after a long fill: check the hose fit at the bleeder and the line fittings for an air leak",
+   "Lever goes soft or comes back to the bar: stop, air or a leak remains",
+   "Fluid weeping at the slave cylinder or master cylinder: stop and fix before riding",
+   "Bike creeps or crunches into gear with the lever pulled: clutch is not releasing, do not ride"
+  ],
+  "steps": [
+   {
+    "id": "wash-bike",
+    "title": "Wash the work area first",
+    "instruction": "Wash and dry the bike before you open anything, paying extra attention to the area you are about to work on. Grit that falls into an open bearing bore or brake system is how good parts fail early. Have a clean tray and zip bags with a marker ready for fasteners.",
+    "depends_on": [],
+    "verification": [
+     "Work area is free of mud and grit",
+     "Parts tray and labelled bags are ready"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "level-clutch-reservoir",
+    "title": "Level and open the clutch reservoir",
+    "instruction": "Turn the bars so the clutch reservoir on the left of the handlebar is level, wrap rags around it and over the tank and plastics, then remove the cover screws and lift off the cover and membrane.",
+    "depends_on": [
+     "wash-bike"
+    ],
+    "verification": [
+     "Reservoir level and open",
+     "Paint covered"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "extract-old-clutch-fluid",
+    "title": "Pull out the old fluid in the reservoir",
+    "instruction": "Suck the old fluid out of the reservoir with a syringe; leave the bottom of the reservoir just wet so no air enters the master cylinder.",
+    "depends_on": [
+     "level-clutch-reservoir"
+    ],
+    "verification": [
+     "Old fluid removed from the reservoir"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "fill-syringe",
+    "title": "Fill the syringe with fresh fluid",
+    "instruction": "Fill a clean bleeding syringe (KTM 50329050000 or similar) with fresh DOT 4 or DOT 5.1 brake fluid and fit a short length of clear hose that fits snugly on a bleeder nipple. Push out any air bubbles from the syringe.",
+    "depends_on": [
+     "extract-old-clutch-fluid"
+    ],
+    "verification": [
+     "Syringe full with no air in it"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "connect-slave",
+    "title": "Connect the syringe to the slave cylinder",
+    "instruction": "Follow the clutch line down to the slave cylinder on the engine, pull the dust cap off its bleeder screw and push the syringe hose on.",
+    "depends_on": [
+     "fill-syringe"
+    ],
+    "verification": [
+     "Syringe hose is tight on the slave cylinder bleeder"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "crack-slave-bleeder",
+    "title": "Crack the slave bleeder",
+    "instruction": "Open the slave bleeder just enough that fluid can be pushed in with the syringe, no more.",
+    "depends_on": [
+     "connect-slave"
+    ],
+    "verification": [
+     "Bleeder open a small amount"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "reverse-fill",
+    "title": "Push fluid up through the system",
+    "instruction": "Press the syringe steadily so fresh fluid flows up from the slave cylinder to the master cylinder. Keep going until fluid rising out of the small hole in the bottom of the reservoir comes up clean and with no bubbles. Pull fluid out of the reservoir with a second syringe now and then so it does not overflow.",
+    "depends_on": [
+     "crack-slave-bleeder"
+    ],
+    "verification": [
+     "Fluid from the reservoir hole is clean and bubble-free",
+     "Reservoir has not overflowed"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "close-slave",
+    "title": "Close the slave bleeder",
+    "instruction": "Snug the slave bleeder while the syringe is still pressing, then remove the syringe and hose and refit the dust cap. Wipe off any fluid around the slave cylinder.",
+    "depends_on": [
+     "reverse-fill"
+    ],
+    "verification": [
+     "Bleeder snug",
+     "Dust cap on",
+     "No fluid on the engine case"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "set-clutch-level",
+    "title": "Set the reservoir level",
+    "instruction": "With the reservoir still level, set the fluid 4 mm (0.16 in) below the reservoir rim. Fit the membrane and cover and tighten the screws. The level climbs as the clutch plates wear, so do not overfill.",
+    "depends_on": [
+     "close-slave"
+    ],
+    "verification": [
+     "Fluid 4 mm below the rim",
+     "Cover fitted"
+    ],
+    "source_pdf_pages": [],
+    "record_required": true,
+    "diagram_reference_required": false,
+    "source_links": []
+   },
+   {
+    "id": "check-clutch-feel",
+    "title": "Check the clutch lever and disengagement",
+    "instruction": "Pull the clutch lever several times: it should feel the same every pull with a clear take-up point. Start the engine, pull the lever and select first; the bike should not creep or lurch. Wash off any spilled fluid with water.",
+    "depends_on": [
+     "set-clutch-level"
+    ],
+    "verification": [
+     "Lever feel consistent",
+     "Clutch disengages fully with the engine running",
+     "No spilled fluid left on the bike"
+    ],
+    "source_pdf_pages": [],
+    "record_required": false,
+    "diagram_reference_required": false,
+    "source_links": []
+   }
+  ],
+  "targets": [
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "450 XC-F",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 SX-F",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 XC-F",
+    "model_year": 2023
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 XC-F",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 XC-F",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "KTM",
+    "model": "350 XC-F",
+    "model_year": 2027
    }
   ]
  }
