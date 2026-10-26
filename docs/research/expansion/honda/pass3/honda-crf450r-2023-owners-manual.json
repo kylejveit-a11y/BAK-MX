@@ -1,0 +1,488 @@
+{
+ "target": {
+  "manufacturer": "Honda",
+  "model": "CRF450R",
+  "model_year": 2023,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "2023 CRF450R/RX/RWE Owner's Manual 31MKE660 (American Honda)",
+  "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2323omen.pdf",
+  "kind": "owners_manual",
+  "document_revision": "31MKE660",
+  "sha256": "6de49d2bc03946ec51343e694793bf01561779f173214d947c1f4196030cb0dc"
+ },
+ "values": [
+  {
+   "joint": "Engine / Engine mode / Mode 1",
+   "value": "PGM-FI mode 1: standard setting",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "engine mode select button"
+   ],
+   "page": "16"
+  },
+  {
+   "joint": "Engine / Engine mode / Mode 2",
+   "value": "PGM-FI mode 2: smooth setting (reduced throttle response)",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "16"
+  },
+  {
+   "joint": "Engine / Engine mode / Mode 3",
+   "value": "PGM-FI mode 3: aggressive setting (increased throttle response)",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "16"
+  },
+  {
+   "joint": "Engine / Engine mode / Selection",
+   "value": "vehicle stopped, throttle closed, fast idle knob pushed in; hold mode button 1 second or more; blue indicator blinks mode number",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "18"
+  },
+  {
+   "joint": "Engine / Torque control (HSTC) / Modes",
+   "value": "3 levels (1 high, 2 middle, 3 low intervention) plus OFF",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "19"
+  },
+  {
+   "joint": "Engine / Torque control (HSTC) / Factory setting",
+   "value": "mode 2",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "last mode selected is saved"
+   ],
+   "page": "20"
+  },
+  {
+   "joint": "Engine / Torque control (HSTC) / On/off",
+   "value": "press and hold Torque Control button to switch on/off; press to cycle levels",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "20"
+  },
+  {
+   "joint": "Engine / Torque control (HSTC) / Limits",
+   "value": "does not act on deceleration/engine braking; use recommended tires and sprockets for correct operation",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "10"
+  },
+  {
+   "joint": "Engine / Launch control / Levels",
+   "value": "level 1 high, level 2 middle, level 3 low rev limit during launch",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "HRC Launch Control"
+   ],
+   "page": "22"
+  },
+  {
+   "joint": "Engine / Launch control / Factory setting",
+   "value": "level 2",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "last level selected is saved"
+   ],
+   "page": "22"
+  },
+  {
+   "joint": "Engine / Launch control / Activation",
+   "value": "engine running over 2 seconds, throttle closed, hold start button with clutch pulled until purple indicator blinks",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "21"
+  },
+  {
+   "joint": "Engine / Launch control / Gear",
+   "value": "launch in 1st or 2nd gear, open throttle halfway or more",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "23"
+  },
+  {
+   "joint": "Engine / Launch control / Cancel conditions",
+   "value": "disabled in 3rd gear or with throttle fully closed; quick press of start button cancels",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "23"
+  },
+  {
+   "joint": "Engine / Starting / Fast idle knob",
+   "value": "pull fast idle knob fully out when 10°C (50°F) or below; push back in about a minute after start",
+   "unit": "°F",
+   "property": "setting",
+   "conditions": [
+    "cold start"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Engine / Starting / Flooded engine",
+   "value": "throttle fully open, clutch in, press start 5 seconds to clear fuel",
+   "unit": "s",
+   "property": "setting",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Engine / Break-in / Period",
+   "value": "first operating day or 15 miles (25 km); repeat after piston, ring, cylinder or crank replacement",
+   "unit": "km",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "8"
+  },
+  {
+   "joint": "Drivetrain / Transmission / Type",
+   "value": "5 speed, one-down four-up (1-N-2-3-4-5)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "72"
+  },
+  {
+   "joint": "Fuel system / Fuel / Type",
+   "value": "unleaded gasoline, PON 91 or higher",
+   "unit": "PON",
+   "property": "specification",
+   "conditions": [],
+   "page": "71"
+  },
+  {
+   "joint": "Fuel system / Fuel / Ethanol",
+   "value": "ethanol up to 10% by volume approved; no methanol",
+   "unit": "%",
+   "property": "specification",
+   "conditions": [],
+   "page": "67"
+  },
+  {
+   "joint": "Fuel system / Fuel tank / Capacity",
+   "value": "1.66 US gal (6.3 L)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "29"
+  },
+  {
+   "joint": "Fuel system / Fuel tank / Fill level",
+   "value": "do not fill into the filler neck",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "29"
+  },
+  {
+   "joint": "Maintenance / Pre-ride / Clutch lever freeplay",
+   "value": "check clutch lever freeplay before each ride",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "39"
+  },
+  {
+   "joint": "Maintenance / Between motos / Fork air",
+   "value": "release fork air with pressure release screws, front wheel off ground",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "41"
+  },
+  {
+   "joint": "Maintenance / Storage / Engine oil",
+   "value": "change engine oil if more than 4 months since last change before storage",
+   "unit": "months",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "62"
+  },
+  {
+   "joint": "Chassis / Geometry / Caster angle",
+   "value": "27°7'",
+   "unit": "°",
+   "property": "specification",
+   "conditions": [],
+   "page": "71"
+  },
+  {
+   "joint": "Chassis / Geometry / Trail",
+   "value": "4.5 in (114 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "71"
+  },
+  {
+   "joint": "Wheels / Tire size / Front",
+   "value": "80/100-21 51M",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "bias-ply, tube"
+   ],
+   "page": "71"
+  },
+  {
+   "joint": "Wheels / Tire size / Rear",
+   "value": "120/80-19 63M",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "bias-ply, tube"
+   ],
+   "page": "71"
+  },
+  {
+   "joint": "Wheels / Recommended tire / Front",
+   "value": "DUNLOP MX33F",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "71"
+  },
+  {
+   "joint": "Wheels / Recommended tire / Rear",
+   "value": "DUNLOP MX33",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "71"
+  },
+  {
+   "joint": "Wheels / Tire pressure / Front (cold)",
+   "value": "15 psi (100 kPa, 1.0 kgf/cm2)",
+   "unit": "psi",
+   "property": "specification",
+   "conditions": [
+    "cold"
+   ],
+   "page": "71"
+  },
+  {
+   "joint": "Wheels / Tire pressure / Rear (cold)",
+   "value": "15 psi (100 kPa, 1.0 kgf/cm2)",
+   "unit": "psi",
+   "property": "specification",
+   "conditions": [
+    "cold"
+   ],
+   "page": "71"
+  },
+  {
+   "joint": "Engine / Basic / Bore x stroke",
+   "value": "96.000 x 62.138 mm (3.7795 x 2.4464 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "72"
+  },
+  {
+   "joint": "Engine / Basic / Displacement",
+   "value": "449.77 cm3 (27.436 cu-in)",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [],
+   "page": "72"
+  },
+  {
+   "joint": "Engine / Basic / Compression ratio",
+   "value": "13.5 : 1",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "72"
+  },
+  {
+   "joint": "Engine / Valve clearance / Intake",
+   "value": "0.13 ± 0.03 mm (0.005 ± 0.001 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "cold"
+   ],
+   "page": "72"
+  },
+  {
+   "joint": "Engine / Valve clearance / Exhaust",
+   "value": "0.28 ± 0.03 mm (0.011 ± 0.001 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "cold"
+   ],
+   "page": "72"
+  },
+  {
+   "joint": "Engine / Engine oil / Recommended oil",
+   "value": "SAE 10W-30, API SJ or higher (not energy/resource conserving), JASO T 903 MA; Pro Honda GN4 or equivalent",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "72"
+  },
+  {
+   "joint": "Engine / Engine oil / Capacity at draining",
+   "value": "1.00 L (1.06 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "72"
+  },
+  {
+   "joint": "Engine / Engine oil / Capacity at oil filter change",
+   "value": "1.04 L (1.10 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "72"
+  },
+  {
+   "joint": "Engine / Engine oil / Capacity at disassembly",
+   "value": "1.35 L (1.43 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "72"
+  },
+  {
+   "joint": "Engine / Idle speed / Standard",
+   "value": "2,000 ± 100 rpm",
+   "unit": "rpm",
+   "property": "specification",
+   "conditions": [],
+   "page": "72"
+  },
+  {
+   "joint": "Cooling / Coolant / Recommended",
+   "value": "Pro Honda HP Coolant",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "72"
+  },
+  {
+   "joint": "Cooling / Coolant / Capacity after draining",
+   "value": "1.08 L (1.14 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "72"
+  },
+  {
+   "joint": "Cooling / Coolant / Capacity after disassembly",
+   "value": "1.14 L (1.20 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "72"
+  },
+  {
+   "joint": "Drivetrain / Ratios / Primary reduction",
+   "value": "2.357",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "72"
+  },
+  {
+   "joint": "Drivetrain / Ratios / Gear 1st",
+   "value": "2.133",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "72"
+  },
+  {
+   "joint": "Drivetrain / Ratios / Gear 2nd",
+   "value": "1.706",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "72"
+  },
+  {
+   "joint": "Drivetrain / Ratios / Gear 3rd",
+   "value": "1.421",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "72"
+  },
+  {
+   "joint": "Drivetrain / Ratios / Gear 4th",
+   "value": "1.211",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "72"
+  },
+  {
+   "joint": "Drivetrain / Ratios / Gear 5th",
+   "value": "1.043",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "72"
+  },
+  {
+   "joint": "Drivetrain / Ratios / Final reduction",
+   "value": "3.769",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "72"
+  },
+  {
+   "joint": "Electrical / Battery / Type",
+   "value": "HY85S lithium-ion, 12 V-2.0 Ah (20 HR)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "73"
+  },
+  {
+   "joint": "Electrical / Spark plug / Type",
+   "value": "NGK SILMAR9A-9S",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "73"
+  },
+  {
+   "joint": "Electrical / Spark plug / Gap",
+   "value": "0.80 - 0.90 mm (0.031 - 0.035 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "73"
+  },
+  {
+   "joint": "Electrical / Fuses / Main fuse",
+   "value": "10 A",
+   "unit": "A",
+   "property": "specification",
+   "conditions": [],
+   "page": "73"
+  }
+ ]
+}

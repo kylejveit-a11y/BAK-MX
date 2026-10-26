@@ -1,0 +1,400 @@
+{
+ "target": {
+  "manufacturer": "Honda",
+  "model": "CRF250R",
+  "model_year": 2025,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "2025 CRF250R/RX/RWE Owner's Manual 31K95670 (American Honda Motor Co.)",
+  "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952525omen.pdf",
+  "kind": "owners_manual",
+  "document_revision": "31K95670",
+  "sha256": "0f7db0137d59183929d1d9aaef7c150c0f00e3b553d139a62a94bd3a862efac0"
+ },
+ "values": [
+  {
+   "joint": "Engine / ECU / Engine mode 1",
+   "value": "PGM-FI mode 1: standard setting",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF250R",
+    "engine mode select button"
+   ],
+   "page": "16"
+  },
+  {
+   "joint": "Engine / ECU / Engine mode 2",
+   "value": "PGM-FI mode 2: smooth setting (reduced throttle response)",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF250R",
+    "engine mode select button"
+   ],
+   "page": "16"
+  },
+  {
+   "joint": "Engine / ECU / Engine mode 3",
+   "value": "PGM-FI mode 3: aggressive setting (increased throttle response)",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF250R",
+    "engine mode select button"
+   ],
+   "page": "16"
+  },
+  {
+   "joint": "Engine / ECU / Engine mode change",
+   "value": "Engine running, bike stopped, throttle closed: hold mode button 1 s or more; blue indicator blinks mode number; fast idle knob must be pushed in",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "18"
+  },
+  {
+   "joint": "Engine / ECU / Launch control levels",
+   "value": "Level 1 high rev limit, level 2 middle, level 3 low; factory setting level 2; last level saved",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF250R",
+    "HRC Launch Control"
+   ],
+   "page": "22"
+  },
+  {
+   "joint": "Engine / ECU / Launch control use",
+   "value": "Standby: throttle closed, hold start button with clutch pulled until purple indicator blinks; launch in 1st or 2nd gear opening throttle halfway or more; cancels in 3rd gear or with throttle closed",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF250R",
+    "HRC Launch Control"
+   ],
+   "page": "23"
+  },
+  {
+   "joint": "Engine / ECU / Torque control (HSTC) levels",
+   "value": "Mode 1 allows high rear wheel slip, mode 2 middle, mode 3 low, OFF no operation",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF250R",
+    "Honda Selectable Torque Control"
+   ],
+   "page": "19"
+  },
+  {
+   "joint": "Engine / ECU / Torque control (HSTC) factory setting",
+   "value": "Mode 2; last mode saved; press and hold button to turn on/off",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF250R",
+    "Honda Selectable Torque Control"
+   ],
+   "page": "20"
+  },
+  {
+   "joint": "Engine / Fuel / Octane",
+   "value": "Unleaded gasoline, pump octane number (PON) 91 or higher",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "29"
+  },
+  {
+   "joint": "Engine / Fuel / Ethanol",
+   "value": "Ethanol blends up to 10% by volume approved; no methanol",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "68"
+  },
+  {
+   "joint": "Chassis / Fuel tank / Capacity",
+   "value": "6.3 L (1.66 US gal)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "29"
+  },
+  {
+   "joint": "Engine / Break-in",
+   "value": "First operating day or 15 miles (25 km): avoid full-throttle starts, hard braking; repeat after piston, rings, cylinder or crank replacement",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "8"
+  },
+  {
+   "joint": "Engine / Transmission / Type",
+   "value": "5-speed, one-down four-up (1-N-2-3-4-5)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Engine / Transmission / Primary reduction",
+   "value": "3.047",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Engine / Transmission / Gear ratio 1st",
+   "value": "2.384",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Engine / Transmission / Gear ratio 2nd",
+   "value": "1.933",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Engine / Transmission / Gear ratio 3rd",
+   "value": "1.600",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Engine / Transmission / Gear ratio 4th",
+   "value": "1.350",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Engine / Transmission / Gear ratio 5th",
+   "value": "1.153",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Drive / Final reduction",
+   "value": "3.846",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Engine / Bore x stroke",
+   "value": "79.000 x 50.887 mm (3.1102 x 2.0034 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Engine / Displacement",
+   "value": "249.43 cm3 (15.215 cu-in)",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Engine / Compression ratio",
+   "value": "13.9:1",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Engine / Engine oil / Capacity at oil and filter change",
+   "value": "1.08 L (1.14 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [
+    "CRF250R",
+    "after draining and oil filter change"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Engine / Spark plug / Gap",
+   "value": "0.8 - 0.9 mm (0.03 - 0.04 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250R",
+    "NGK SILMAR9A9S"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Electrical / Battery",
+   "value": "HJ12L lithium-ion, 12 V 2.3 Ah (20 HR)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Electrical / Main fuse",
+   "value": "10 A",
+   "unit": "A",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Chassis / Tires / Type",
+   "value": "Bias-ply, tube type",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Chassis / Tires / Cold pressure",
+   "value": "Front and rear 15 psi (100 kPa, 1.0 kgf/cm2)",
+   "unit": "psi",
+   "property": "setting",
+   "conditions": [
+    "CRF250R",
+    "cold"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Chassis / Tires / Front size",
+   "value": "80/100-21 M/C 51M MST",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250R",
+    "21 in front wheel"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Chassis / Tires / Rear size",
+   "value": "100/90-19 57M NHS",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250R",
+    "19 in rear wheel"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Chassis / Tires / Front recommended",
+   "value": "PIRELLI SCORPION MX32 MID SOFT",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Chassis / Tires / Rear recommended",
+   "value": "PIRELLI SCORPION MX32 MID SOFT",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Chassis / Steering / Caster angle",
+   "value": "27°33'",
+   "unit": "deg",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "72"
+  },
+  {
+   "joint": "Chassis / Steering / Trail",
+   "value": "117 mm (4.6 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "72"
+  },
+  {
+   "joint": "Chassis / Exhaust / Material",
+   "value": "Stainless steel exhaust pipe and muffler",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "62"
+  },
+  {
+   "joint": "Maintenance / Fork air release screw",
+   "value": "Release built-up fork pressure with front wheel off the ground using pressure release screws (between races/motos)",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF250R"
+   ],
+   "page": "41"
+  }
+ ]
+}

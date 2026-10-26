@@ -1,0 +1,2338 @@
+{
+ "target": {
+  "manufacturer": "Honda",
+  "model": "CRF450R",
+  "model_year": 2020,
+  "variant": "RWE",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "2020 CRF450R/RX/RWE Owner's Manual & Competition Handbook 31MKE630 (American Honda)",
+  "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+  "kind": "owners_manual_competition_handbook",
+  "document_revision": "31MKE630",
+  "sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2"
+ },
+ "values": [
+  {
+   "joint": "Maintenance schedule / Fuel Line / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [
+    "Note 6: replace every year"
+   ],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Fuel Line / Replace",
+   "value": "every 12 races (about 30.0 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [
+    "Note 6: replace every year"
+   ],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Fuel Pump Filter / Replace",
+   "value": "every 12 races (about 30.0 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [
+    "Note 6: replace every year"
+   ],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Throttle Operation / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Air Filter / Clean",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [
+    "Note 1: clean after every race (RX) / moto (R, RWE) in dusty conditions"
+   ],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Crankcase Breather / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Spark Plug / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Valve Clearance/Decompressor System / Inspect",
+   "value": "every 6 races (about 15.0 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [
+    "Note 4: inspect after the first break-in ride"
+   ],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Engine Oil / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [
+    "Note 3: replace after the first break-in ride",
+    "Note 5: replace the engine oil if the clutch discs and plates are replaced"
+   ],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Engine Oil / Replace",
+   "value": "every 6 races (about 15.0 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [
+    "Note 3: replace after the first break-in ride",
+    "Note 5: replace the engine oil if the clutch discs and plates are replaced"
+   ],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Engine Oil Filter / Replace",
+   "value": "every 6 races (about 15.0 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [
+    "Note 3: replace after the first break-in ride"
+   ],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Engine Idle Speed / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Piston And Piston Rings / Replace",
+   "value": "every 6 races (about 15.0 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Piston Pin / Replace",
+   "value": "every 6 races (about 15.0 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Radiator Coolant / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [
+    "Note 2: replace every 2 years"
+   ],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Cooling System / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Drive Chain / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Drive Chain / Lubricate",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Drive Chain / Replace",
+   "value": "every 3 races (about 7.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Drive Chain Slider / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Drive Chain Roller / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Drive Sprocket / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Driven Sprocket / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Brake Fluid / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [
+    "Note 2: replace every 2 years"
+   ],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Brake Pads Wear / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Brake System / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Clutch System / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [
+    "Note 5: replace the engine oil if the clutch discs and plates are replaced"
+   ],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Control Cables / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Control Cables / Lubricate",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Exhaust Pipe/Muffler / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Suspension / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Swingarm/Shock Linkage / Lubricate",
+   "value": "every 3 races (about 7.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Fork Oil / Replace",
+   "value": "every 9 races (about 22.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [
+    "Note 3: replace after the first break-in ride"
+   ],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Nuts, bolts, fasteners / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Wheels/Tires / Inspect",
+   "value": "each race (about 2.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Steering Head Bearings / Inspect",
+   "value": "every 9 races (about 22.5 hours)",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Basis / Each race interval",
+   "value": "each race or about 2.5 hours",
+   "unit": "hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "26"
+  },
+  {
+   "joint": "Maintenance schedule / Basis / Interval unit",
+   "value": "intervals counted in motos (R/RWE) and riding hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "24"
+  },
+  {
+   "joint": "Maintenance schedule / Engine oil and filter / Replace",
+   "value": "every 6 races or about every 15.0 hours",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "64"
+  },
+  {
+   "joint": "Maintenance schedule / Piston, rings and pin / Replace",
+   "value": "every 6 races or about every 15.0 hours",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "90"
+  },
+  {
+   "joint": "Maintenance schedule / Fork oil / Replace (text)",
+   "value": "every 9 races or 22.5 hours",
+   "unit": "races",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "97"
+  },
+  {
+   "joint": "Maintenance schedule / Fork / Disassemble and clean",
+   "value": "disassemble and clean the fork after the first 3 hours of riding",
+   "unit": "hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "97"
+  },
+  {
+   "joint": "Break-in / Suspension / Break-in time",
+   "value": "about 1 hour of riding to work in the suspension before adjusting",
+   "unit": "hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "97"
+  },
+  {
+   "joint": "Break-in / Engine / Period",
+   "value": "first operating day or 15 miles (25 km); repeat after piston, ring, cylinder or crank replacement",
+   "unit": "km",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "20"
+  },
+  {
+   "joint": "Engine / Engine oil / API classification",
+   "value": "SG or higher (not energy/resource conserving)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "62"
+  },
+  {
+   "joint": "Engine / Engine oil / Viscosity",
+   "value": "SAE 10W-30",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "62"
+  },
+  {
+   "joint": "Engine / Engine oil / JASO standard",
+   "value": "JASO T 903 MA",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "62"
+  },
+  {
+   "joint": "Engine / Engine oil / Recommended oil",
+   "value": "Pro Honda GN4 4-stroke oil (USA & Canada), Honda 4-stroke oil or equivalent",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "62"
+  },
+  {
+   "joint": "Engine / Engine oil / Capacity at draining",
+   "value": "1.00 L (1.06 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "64"
+  },
+  {
+   "joint": "Engine / Engine oil / Capacity at oil filter change",
+   "value": "1.04 L (1.10 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "64"
+  },
+  {
+   "joint": "Engine / Engine oil / Capacity at disassembly",
+   "value": "1.35 L (1.43 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "173"
+  },
+  {
+   "joint": "Engine / Idle speed / Standard",
+   "value": "2,000 ± 100 rpm",
+   "unit": "rpm",
+   "property": "specification",
+   "conditions": [],
+   "page": "72"
+  },
+  {
+   "joint": "Engine / Throttle / Grip freeplay",
+   "value": "2 - 6 mm (1/16 - 1/4 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "70"
+  },
+  {
+   "joint": "Clutch / Clutch lever / Freeplay",
+   "value": "10 - 20 mm (3/8 - 13/16 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "cable clutch",
+    "measured at lever tip"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Clutch / Clutch cable / Adjustment",
+   "value": "cable end adjuster (+) increases, (-) decreases freeplay; use integral cable adjuster when end adjuster runs out",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "73"
+  },
+  {
+   "joint": "Clutch / Friction discs / Thickness service limit",
+   "value": "2.85 mm (0.112 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "76"
+  },
+  {
+   "joint": "Clutch / Clutch springs / Free length service limit",
+   "value": "48.70 mm (1.917 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "76"
+  },
+  {
+   "joint": "Clutch / Clutch plates / Warpage service limit",
+   "value": "0.15 mm (0.006 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "76"
+  },
+  {
+   "joint": "Clutch / Clutch pack / Composition",
+   "value": "six clutch plates and five clutch discs B stacked alternately, plus disc C",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "76"
+  },
+  {
+   "joint": "Engine / Air filter / Filter oil quantity",
+   "value": "40 cm3 (1.4 US oz) Pro Honda Foam Air Filter Oil",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [],
+   "page": "68"
+  },
+  {
+   "joint": "Engine / Spark plug / Type standard",
+   "value": "NGK SILMAR9A-9S",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "standard"
+   ],
+   "page": "78"
+  },
+  {
+   "joint": "Engine / Spark plug / Type optional",
+   "value": "NGK SILMAR10A-9S",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "optional, for extended high speed riding"
+   ],
+   "page": "174"
+  },
+  {
+   "joint": "Engine / Spark plug / Gap",
+   "value": "0.8 - 0.9 mm (0.031 - 0.035 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "do not adjust; replace if out of spec"
+   ],
+   "page": "78"
+  },
+  {
+   "joint": "Engine / Spark plug / Reading",
+   "value": "ride 10 - 15 minutes, full throttle, kill engine with clutch in and coast; normal = dark brown to light tan",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "155"
+  },
+  {
+   "joint": "Engine / Valve clearance / Intake",
+   "value": "0.13 ± 0.03 mm (0.005 ± 0.001 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "cold"
+   ],
+   "page": "81"
+  },
+  {
+   "joint": "Engine / Valve clearance / Exhaust",
+   "value": "0.28 ± 0.03 mm (0.011 ± 0.001 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "cold"
+   ],
+   "page": "81"
+  },
+  {
+   "joint": "Engine / Valve clearance / Shim range",
+   "value": "73 shims, 1.200 mm to 3.000 mm in 0.025 mm steps",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "83"
+  },
+  {
+   "joint": "Engine / Basic / Bore x stroke",
+   "value": "96.000 x 62.138 mm (3.7795 x 2.4464 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "173"
+  },
+  {
+   "joint": "Engine / Basic / Displacement",
+   "value": "449.77 cm3 (27.436 cu-in)",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [],
+   "page": "173"
+  },
+  {
+   "joint": "Engine / Basic / Compression ratio",
+   "value": "13.5 : 1",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "173"
+  },
+  {
+   "joint": "Engine / Basic / Cylinder",
+   "value": "single, inclined 10° from vertical, liquid cooled 4-stroke",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "173"
+  },
+  {
+   "joint": "Engine / Throttle body / Identification number",
+   "value": "GQ2JA",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "173"
+  },
+  {
+   "joint": "Cooling / Coolant / Recommended",
+   "value": "Pro Honda HP Coolant or equivalent ethylene glycol antifreeze for aluminum engines",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "65"
+  },
+  {
+   "joint": "Cooling / Coolant / Concentration",
+   "value": "50/50 antifreeze and water from factory; not below 40%; up to 60% only for extra freeze protection",
+   "unit": "%",
+   "property": "specification",
+   "conditions": [],
+   "page": "65"
+  },
+  {
+   "joint": "Cooling / Coolant / Normal overflow loss",
+   "value": "20 - 60 cm3 (0.7 - 2.0 US oz)",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [],
+   "page": "65"
+  },
+  {
+   "joint": "Cooling / Coolant / Capacity after draining",
+   "value": "1.07 L (1.13 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "65"
+  },
+  {
+   "joint": "Cooling / Coolant / Capacity after disassembly",
+   "value": "1.13 L (1.19 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "65"
+  },
+  {
+   "joint": "Cooling / Radiator / Replacement criterion",
+   "value": "replace if air flow restricted over more than 20% of radiating surface",
+   "unit": "%",
+   "property": "specification",
+   "conditions": [],
+   "page": "66"
+  },
+  {
+   "joint": "Engine / Intake / Insulator band gap",
+   "value": "11.0 ± 1.0 mm (0.43 ± 0.04 in) between band ends",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "95"
+  },
+  {
+   "joint": "Engine / Starting / Fast idle knob",
+   "value": "pull fast idle knob fully up when 10°C (50°F) or below; push back about a minute after start",
+   "unit": "°F",
+   "property": "setting",
+   "conditions": [
+    "cold start"
+   ],
+   "page": "17"
+  },
+  {
+   "joint": "Engine / Starting / Flooded engine",
+   "value": "throttle fully open, clutch in, press start 5 seconds",
+   "unit": "s",
+   "property": "setting",
+   "conditions": [],
+   "page": "18"
+  },
+  {
+   "joint": "Engine / Engine mode / Mode 1",
+   "value": "PGM-FI mode 1: standard setting",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "140"
+  },
+  {
+   "joint": "Engine / Engine mode / Mode 2",
+   "value": "PGM-FI mode 2: smooth setting (reduced throttle response)",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "140"
+  },
+  {
+   "joint": "Engine / Engine mode / Mode 3",
+   "value": "PGM-FI mode 3: aggressive setting (increased throttle response)",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "140"
+  },
+  {
+   "joint": "Engine / Engine mode / Selection",
+   "value": "stopped, throttle closed, fast idle knob in; hold mode button 1 second or more",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "140"
+  },
+  {
+   "joint": "Engine / Torque control (HSTC) / Modes",
+   "value": "3 levels (1 high, 2 middle, 3 low slip control) plus OFF",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "141"
+  },
+  {
+   "joint": "Engine / Torque control (HSTC) / Factory setting",
+   "value": "mode 2",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "last mode selected is saved"
+   ],
+   "page": "141"
+  },
+  {
+   "joint": "Engine / Torque control (HSTC) / On/off",
+   "value": "press and hold Torque Control button to switch on/off",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "141"
+  },
+  {
+   "joint": "Engine / Launch control / Levels",
+   "value": "level 1 high, 2 middle, 3 low rev limit and rear wheel slip during launch",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "HRC Launch Control"
+   ],
+   "page": "142"
+  },
+  {
+   "joint": "Engine / Launch control / Factory setting",
+   "value": "level 2",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "142"
+  },
+  {
+   "joint": "Engine / Launch control / Gear",
+   "value": "launch in 1st or 2nd gear, throttle halfway or more; disabled in 3rd gear or throttle closed",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "142"
+  },
+  {
+   "joint": "Drivetrain / Transmission / Type",
+   "value": "5-speed constant mesh, 1-N-2-3-4-5; wet multi-plate clutch",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "174"
+  },
+  {
+   "joint": "Drivetrain / Ratios / Primary reduction",
+   "value": "2.357",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "174"
+  },
+  {
+   "joint": "Drivetrain / Ratios / Gear 1st",
+   "value": "2.133",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "174"
+  },
+  {
+   "joint": "Drivetrain / Ratios / Gear 2nd",
+   "value": "1.706",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "174"
+  },
+  {
+   "joint": "Drivetrain / Ratios / Gear 3rd",
+   "value": "1.421",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "174"
+  },
+  {
+   "joint": "Drivetrain / Ratios / Gear 4th",
+   "value": "1.211",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "174"
+  },
+  {
+   "joint": "Drivetrain / Ratios / Gear 5th",
+   "value": "1.043",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "174"
+  },
+  {
+   "joint": "Drivetrain / Ratios / Final reduction",
+   "value": "3.769",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "174"
+  },
+  {
+   "joint": "Drivetrain / Drive chain / Slack",
+   "value": "35 - 45 mm (1 3/8 - 1 3/4 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "vertical movement midway on upper run between sprockets",
+    "rear wheel off ground"
+   ],
+   "page": "122"
+  },
+  {
+   "joint": "Drivetrain / Drive chain slider / Service limit",
+   "value": "upper side 5 mm (0.2 in); lower side 2.5 mm (0.10 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "122"
+  },
+  {
+   "joint": "Drivetrain / Drive chain roller / Service limit",
+   "value": "upper 31 mm (1.2 in); lower 31 mm (1.2 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "123"
+  },
+  {
+   "joint": "Drivetrain / Drive chain / Plate height service limit",
+   "value": "14.0 mm (0.55 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "125"
+  },
+  {
+   "joint": "Drivetrain / Drive chain / 17-pin length service limit",
+   "value": "257.0 mm (10.12 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "125"
+  },
+  {
+   "joint": "Drivetrain / Drive chain / Size/links",
+   "value": "GB520TXZ/114RJ",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "125"
+  },
+  {
+   "joint": "Drivetrain / Drive chain / Lubricant",
+   "value": "Pro Honda HP Chain Lube or equivalent",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "123"
+  },
+  {
+   "joint": "Gearing / Driven sprocket / Standard",
+   "value": "49T aluminum, 114-link chain",
+   "unit": "teeth",
+   "property": "specification",
+   "conditions": [],
+   "page": "181"
+  },
+  {
+   "joint": "Gearing / Driven sprocket / Optional",
+   "value": "48T and 50T aluminum",
+   "unit": "teeth",
+   "property": "specification",
+   "conditions": [
+    "optional part"
+   ],
+   "page": "181"
+  },
+  {
+   "joint": "Gearing / Guidance / Track conditions",
+   "value": "wet, slippery or sandy: higher gearing (fewer teeth); average: standard; hard tracks: lower gearing (more teeth); one tooth change usually enough",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "157"
+  },
+  {
+   "joint": "Chassis / Wheelbase / Guidance",
+   "value": "adjust wheelbase by chain links; keep it as short as possible; recheck race sag after changes",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "156"
+  },
+  {
+   "joint": "Chassis / Fork height / Standard position",
+   "value": "groove in outer tube aligned with top surface of upper fork bridge (not adjustable)",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "156"
+  },
+  {
+   "joint": "Brakes / Brake fluid / Type",
+   "value": "Honda DOT 4 brake fluid",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "116"
+  },
+  {
+   "joint": "Brakes / Brake pads / Wear limit",
+   "value": "1.0 mm (0.04 in) lining thickness; replace both pads",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "117"
+  },
+  {
+   "joint": "Brakes / Front / Swept area",
+   "value": "361.0 cm2 (56.0 in2)",
+   "unit": "cm2",
+   "property": "specification",
+   "conditions": [
+    "single disc"
+   ],
+   "page": "173"
+  },
+  {
+   "joint": "Brakes / Rear / Swept area",
+   "value": "390.3 cm2 (60.5 in2)",
+   "unit": "cm2",
+   "property": "specification",
+   "conditions": [
+    "single disc"
+   ],
+   "page": "173"
+  },
+  {
+   "joint": "Wheels / Tire pressure / Front (cold)",
+   "value": "15 psi (100 kPa, 1.0 kgf/cm2)",
+   "unit": "psi",
+   "property": "specification",
+   "conditions": [
+    "cold"
+   ],
+   "page": "119"
+  },
+  {
+   "joint": "Wheels / Tire pressure / Rear (cold)",
+   "value": "15 psi (100 kPa, 1.0 kgf/cm2)",
+   "unit": "psi",
+   "property": "specification",
+   "conditions": [
+    "cold"
+   ],
+   "page": "119"
+  },
+  {
+   "joint": "Wheels / Tire size / Front",
+   "value": "80/100-21 51M",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "bias-ply, tube"
+   ],
+   "page": "120"
+  },
+  {
+   "joint": "Wheels / Tire size / Rear",
+   "value": "120/80-19 63M",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "bias-ply, tube"
+   ],
+   "page": "120"
+  },
+  {
+   "joint": "Wheels / Recommended tire / Front and rear",
+   "value": "DUNLOP MX3SF front, MX3S rear",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "120"
+  },
+  {
+   "joint": "Fuel system / Fuel tank / Capacity",
+   "value": "6.3 L (1.66 US gal)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "173"
+  },
+  {
+   "joint": "Fuel system / Fuel / Type",
+   "value": "unleaded gasoline, pump octane number 91 or higher",
+   "unit": "PON",
+   "property": "specification",
+   "conditions": [],
+   "page": "173"
+  },
+  {
+   "joint": "Chassis / Geometry / Caster angle",
+   "value": "27°22'",
+   "unit": "°",
+   "property": "specification",
+   "conditions": [],
+   "page": "173"
+  },
+  {
+   "joint": "Chassis / Geometry / Trail",
+   "value": "116 mm (4.6 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "173"
+  },
+  {
+   "joint": "Suspension / Fork / Travel and stroke",
+   "value": "travel 268 mm (10.55 in), stroke 305 mm (12.01 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "173"
+  },
+  {
+   "joint": "Suspension / Shock / Rear wheel travel",
+   "value": "314 mm (12.36 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "173"
+  },
+  {
+   "joint": "Electrical / Battery / Type",
+   "value": "HY85S lithium-ion, 12 V-2.0 Ah (20 HR)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "174"
+  },
+  {
+   "joint": "Electrical / Fuses / Main fuse",
+   "value": "10 A",
+   "unit": "A",
+   "property": "specification",
+   "conditions": [],
+   "page": "174"
+  },
+  {
+   "joint": "Suspension / Fork oil / Type",
+   "value": "Pro Honda HP Fork Oil A15-00 or equivalent",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "97"
+  },
+  {
+   "joint": "Suspension / Fork oil / Standard capacity (outer tube)",
+   "value": "356 cm3 (12.0 US oz)",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "per leg",
+    "outer tube (except damper)",
+    "standard spring"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Damper filling capacity",
+   "value": "248 cm3 (8.4 US oz)",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "inner chamber (fork damper)",
+    "before bleeding"
+   ],
+   "page": "107"
+  },
+  {
+   "joint": "Suspension / Fork oil / Damper oil after bleeding",
+   "value": "243 cm3 (8.2 US oz)",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "inner chamber (fork damper)"
+   ],
+   "page": "109"
+  },
+  {
+   "joint": "Suspension / Fork / Air pressure standard",
+   "value": "0 psi (0 kPa); release built-up air between races (RX) / motos (R, RWE) with front wheel off ground",
+   "unit": "psi",
+   "property": "setting",
+   "conditions": [],
+   "page": "143"
+  },
+  {
+   "joint": "Suspension / Fork / Oil volume effect zone",
+   "value": "oil capacity changes are felt only in the final 100 mm (3.9 in) of fork travel",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "143"
+  },
+  {
+   "joint": "Suspension / Fork / Construction",
+   "value": "inverted fork with sealed damper cartridges, separate air and oil chambers",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "143"
+  },
+  {
+   "joint": "Suspension / Fork / Compression damping adjuster range",
+   "value": "16 clicks or more (4 clicks per turn)",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [],
+   "page": "144"
+  },
+  {
+   "joint": "Suspension / Fork / Compression damping standard",
+   "value": "8 clicks out",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "from full hard",
+    "first click is position 1",
+    "same on both legs"
+   ],
+   "page": "144"
+  },
+  {
+   "joint": "Suspension / Fork / Rebound damping adjuster range",
+   "value": "16 clicks or more (4 clicks per turn)",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [],
+   "page": "144"
+  },
+  {
+   "joint": "Suspension / Fork / Rebound damping standard",
+   "value": "9 clicks out",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "from full hard",
+    "first click is position 1",
+    "same on both legs"
+   ],
+   "page": "144"
+  },
+  {
+   "joint": "Suspension / Fork spring / Rider weight range",
+   "value": "standard springs suit riders about 77 - 91 kg (170 - 200 lb) without gear",
+   "unit": "kg",
+   "property": "setting",
+   "conditions": [
+    "heavier riders: more oil or stiff spring"
+   ],
+   "page": "144"
+  },
+  {
+   "joint": "Suspension / Fork oil / Adjustment step",
+   "value": "change oil in 5 cm3 (0.2 US oz) steps in both legs; never below minimum",
+   "unit": "cm3",
+   "property": "setting",
+   "conditions": [],
+   "page": "144"
+  },
+  {
+   "joint": "Suspension / Fork oil / Standard capacity with standard spring",
+   "value": "356 cm3 (12.0 US oz)",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "per leg",
+    "outer tube"
+   ],
+   "page": "145"
+  },
+  {
+   "joint": "Suspension / Fork oil / Maximum capacity with standard spring",
+   "value": "389 cm3 (13.2 US oz)",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "per leg",
+    "outer tube"
+   ],
+   "page": "145"
+  },
+  {
+   "joint": "Suspension / Fork oil / Minimum capacity with standard spring",
+   "value": "304 cm3 (10.3 US oz)",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "per leg",
+    "outer tube"
+   ],
+   "page": "145"
+  },
+  {
+   "joint": "Suspension / Fork oil / Standard capacity with softer spring",
+   "value": "361 cm3 (12.2 US oz)",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "per leg",
+    "outer tube"
+   ],
+   "page": "145"
+  },
+  {
+   "joint": "Suspension / Fork oil / Maximum capacity with softer spring",
+   "value": "394 cm3 (13.3 US oz)",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "per leg",
+    "outer tube"
+   ],
+   "page": "145"
+  },
+  {
+   "joint": "Suspension / Fork oil / Minimum capacity with softer spring",
+   "value": "309 cm3 (10.5 US oz)",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "per leg",
+    "outer tube"
+   ],
+   "page": "145"
+  },
+  {
+   "joint": "Suspension / Fork oil / Standard capacity with stiffer spring",
+   "value": "350 cm3 (11.8 US oz)",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "per leg",
+    "outer tube"
+   ],
+   "page": "145"
+  },
+  {
+   "joint": "Suspension / Fork oil / Maximum capacity with stiffer spring",
+   "value": "383 cm3 (13.0 US oz)",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "per leg",
+    "outer tube"
+   ],
+   "page": "145"
+  },
+  {
+   "joint": "Suspension / Fork oil / Minimum capacity with stiffer spring",
+   "value": "299 cm3 (10.1 US oz)",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "per leg",
+    "outer tube"
+   ],
+   "page": "145"
+  },
+  {
+   "joint": "Suspension / Fork spring / Soft spring rate",
+   "value": "4.8 N/mm (27.4 lbf/in)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "optional spring"
+   ],
+   "page": "181"
+  },
+  {
+   "joint": "Suspension / Fork spring / Soft spring identification",
+   "value": "1 scribe mark",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "181"
+  },
+  {
+   "joint": "Suspension / Fork spring / Standard spring rate",
+   "value": "5.0 N/mm (28.6 lbf/in)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "standard spring"
+   ],
+   "page": "181"
+  },
+  {
+   "joint": "Suspension / Fork spring / Standard spring identification",
+   "value": "2 scribe marks or no mark (factory)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "181"
+  },
+  {
+   "joint": "Suspension / Fork spring / Stiff spring rate",
+   "value": "5.2 N/mm (29.7 lbf/in)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "optional spring"
+   ],
+   "page": "181"
+  },
+  {
+   "joint": "Suspension / Fork spring / Stiff spring identification",
+   "value": "3 scribe marks",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "181"
+  },
+  {
+   "joint": "Suspension / Fork / Center bolt lock nut thread length",
+   "value": "9 - 11 mm (0.35 - 0.43 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "111"
+  },
+  {
+   "joint": "Suspension / Fork / Center bolt to lock nut clearance",
+   "value": "1.5 - 2.0 mm (0.06 - 0.08 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "112"
+  },
+  {
+   "joint": "Suspension / Fork / Axle holder to outer tube length",
+   "value": "312 ± 2 mm (12.3 ± 0.1 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "113"
+  },
+  {
+   "joint": "Suspension / Fork / Wear ring replacement",
+   "value": "replace wear ring at 1.5 mm (0.06 in) or flush with outer tube",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "97"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 30°C/86°F / 5 min inverted",
+   "value": "16.5 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 30°C/86°F / 10 min inverted",
+   "value": "14.1 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 30°C/86°F / 20 min inverted",
+   "value": "12.7 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 30°C/86°F / 35 min inverted",
+   "value": "11.8 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 30°C/86°F / 55 min inverted",
+   "value": "11 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 30°C/86°F / 85 min inverted",
+   "value": "10.1 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 30°C/86°F / 145 min inverted",
+   "value": "8.6 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 20°C/68°F / 5 min inverted",
+   "value": "17.4 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 20°C/68°F / 10 min inverted",
+   "value": "15 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 20°C/68°F / 20 min inverted",
+   "value": "13.7 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 20°C/68°F / 35 min inverted",
+   "value": "12.6 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 20°C/68°F / 55 min inverted",
+   "value": "11.5 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 20°C/68°F / 85 min inverted",
+   "value": "10.5 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 20°C/68°F / 145 min inverted",
+   "value": "9.1 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 10°C/50°F / 5 min inverted",
+   "value": "18.9 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 10°C/50°F / 10 min inverted",
+   "value": "16.5 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 10°C/50°F / 20 min inverted",
+   "value": "14.8 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 10°C/50°F / 35 min inverted",
+   "value": "13.7 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 10°C/50°F / 55 min inverted",
+   "value": "12.5 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 10°C/50°F / 85 min inverted",
+   "value": "11.4 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 10°C/50°F / 145 min inverted",
+   "value": "9.8 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 0°C/32°F / 5 min inverted",
+   "value": "20 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 0°C/32°F / 10 min inverted",
+   "value": "18.4 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 0°C/32°F / 20 min inverted",
+   "value": "15.9 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 0°C/32°F / 35 min inverted",
+   "value": "14.5 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 0°C/32°F / 55 min inverted",
+   "value": "13.7 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 0°C/32°F / 85 min inverted",
+   "value": "13 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper installed) / 0°C/32°F / 145 min inverted",
+   "value": "11.7 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "fork inverted to drain"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 30°C/86°F / 5 min inverted",
+   "value": "6.5 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 30°C/86°F / 10 min inverted",
+   "value": "5.7 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 30°C/86°F / 20 min inverted",
+   "value": "5.2 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 30°C/86°F / 35 min inverted",
+   "value": "4.5 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 30°C/86°F / 55 min inverted",
+   "value": "4.1 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 30°C/86°F / 85 min inverted",
+   "value": "3.7 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 30°C/86°F / 145 min inverted",
+   "value": "3.3 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 20°C/68°F / 5 min inverted",
+   "value": "6.7 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 20°C/68°F / 10 min inverted",
+   "value": "6.2 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 20°C/68°F / 20 min inverted",
+   "value": "5.4 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 20°C/68°F / 35 min inverted",
+   "value": "4.7 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 20°C/68°F / 55 min inverted",
+   "value": "4.4 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 20°C/68°F / 85 min inverted",
+   "value": "3.8 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 20°C/68°F / 145 min inverted",
+   "value": "3.5 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 10°C/50°F / 5 min inverted",
+   "value": "7.3 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 10°C/50°F / 10 min inverted",
+   "value": "6.4 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 10°C/50°F / 20 min inverted",
+   "value": "5.6 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 10°C/50°F / 35 min inverted",
+   "value": "5 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 10°C/50°F / 55 min inverted",
+   "value": "4.6 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 10°C/50°F / 85 min inverted",
+   "value": "4.2 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 10°C/50°F / 145 min inverted",
+   "value": "3.8 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 0°C/32°F / 5 min inverted",
+   "value": "8.6 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 0°C/32°F / 10 min inverted",
+   "value": "8.2 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 0°C/32°F / 20 min inverted",
+   "value": "7.9 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 0°C/32°F / 35 min inverted",
+   "value": "7.6 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 0°C/32°F / 55 min inverted",
+   "value": "7.3 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 0°C/32°F / 85 min inverted",
+   "value": "6.8 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Fork oil / Remaining oil after draining (damper and spring removed) / 0°C/32°F / 145 min inverted",
+   "value": "6 cm3",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "outer tube drained"
+   ],
+   "page": "110"
+  },
+  {
+   "joint": "Suspension / Shock / Construction",
+   "value": "single shock with aluminum reservoir, nitrogen in rubber bladder; do not disassemble (dealer service)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "pressure value not given in manual"
+   ],
+   "page": "113"
+  },
+  {
+   "joint": "Suspension / Shock spring / Soft spring rate",
+   "value": "54 N/mm (308.3 lbf/in)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "optional spring"
+   ],
+   "page": "181"
+  },
+  {
+   "joint": "Suspension / Shock spring / Soft spring identification",
+   "value": "white paint",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "181"
+  },
+  {
+   "joint": "Suspension / Shock spring / Standard spring rate",
+   "value": "56 N/mm (319.8 lbf/in)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "standard spring"
+   ],
+   "page": "181"
+  },
+  {
+   "joint": "Suspension / Shock spring / Standard spring identification",
+   "value": "blue paint or no mark (factory)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "181"
+  },
+  {
+   "joint": "Suspension / Shock spring / Stiff spring rate",
+   "value": "58 N/mm (331.2 lbf/in)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "optional spring"
+   ],
+   "page": "181"
+  },
+  {
+   "joint": "Suspension / Shock spring / Stiff spring identification",
+   "value": "yellow paint",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "181"
+  },
+  {
+   "joint": "Suspension / Shock / Spring preload length standard",
+   "value": "237.0 mm (9.33 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "standard (medium) spring"
+   ],
+   "page": "147"
+  },
+  {
+   "joint": "Suspension / Shock / Spring preload length maximum",
+   "value": "239.0 mm (9.41 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "do not exceed"
+   ],
+   "page": "147"
+  },
+  {
+   "joint": "Suspension / Shock / Spring preload length minimum standard spring",
+   "value": "230.0 mm (9.06 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "56 N/mm"
+   ],
+   "page": "147"
+  },
+  {
+   "joint": "Suspension / Shock / Spring preload length minimum soft spring",
+   "value": "230.5 mm (9.07 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "54 N/mm"
+   ],
+   "page": "146"
+  },
+  {
+   "joint": "Suspension / Shock / Spring preload length minimum stiff spring",
+   "value": "232.0 mm (9.13 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "58 N/mm"
+   ],
+   "page": "146"
+  },
+  {
+   "joint": "Suspension / Shock / Preload per adjuster turn",
+   "value": "1 turn = 1.5 mm (0.06 in) spring length = 78 N (18 lbf)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "standard spring"
+   ],
+   "page": "147"
+  },
+  {
+   "joint": "Suspension / Shock / Preload access",
+   "value": "remove subframe and right muffler joint pipe (RWE) to reach preload rings",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "RWE only"
+   ],
+   "page": "146"
+  },
+  {
+   "joint": "Suspension / Shock / High speed compression adjuster range",
+   "value": "3 1/2 turns or more",
+   "unit": "turns",
+   "property": "specification",
+   "conditions": [
+    "hex portion of compression adjuster"
+   ],
+   "page": "147"
+  },
+  {
+   "joint": "Suspension / Shock / High speed compression standard",
+   "value": "3 turns out, then within ±1/4 turn align punch marks",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [
+    "from full hard"
+   ],
+   "page": "147"
+  },
+  {
+   "joint": "Suspension / Shock / High speed compression adjustment step",
+   "value": "1/4 turn increments (adjustment section); guideline table uses 1/12 turn steps",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [],
+   "page": "147"
+  },
+  {
+   "joint": "Suspension / Shock / Low speed compression adjuster range",
+   "value": "13 clicks or more (4 clicks per turn)",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "center screw of compression adjuster"
+   ],
+   "page": "148"
+  },
+  {
+   "joint": "Suspension / Shock / Low speed compression standard",
+   "value": "10 clicks out, align punch marks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "from full hard",
+    "first click is position 1"
+   ],
+   "page": "148"
+  },
+  {
+   "joint": "Suspension / Shock / Rebound damping adjuster range",
+   "value": "17 clicks or more (8 clicks per turn)",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "lower end of shock"
+   ],
+   "page": "148"
+  },
+  {
+   "joint": "Suspension / Shock / Rebound damping standard",
+   "value": "6 - 9 clicks out, align punch marks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "from full hard",
+    "first click is position 1"
+   ],
+   "page": "148"
+  },
+  {
+   "joint": "Suspension / Shock / Race sag standard",
+   "value": "105 mm (4.1 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "rider aboard in gear"
+   ],
+   "page": "149"
+  },
+  {
+   "joint": "Suspension / Shock / Race sag measurement points",
+   "value": "center of seat mounting bolt to center of chain adjuster lock nut, unloaded (on stand) minus loaded with rider",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "149"
+  },
+  {
+   "joint": "Suspension / Shock / Race sag rule of thumb",
+   "value": "about one-third of maximum rear travel",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "149"
+  },
+  {
+   "joint": "Suspension / Shock / Race sag less (95 mm example)",
+   "value": "less sag (e.g. 95 mm / 3.7 in) improves turning in tight terrain, slightly less straight-line stability",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "149"
+  },
+  {
+   "joint": "Suspension / Shock / Race sag more (115 mm example)",
+   "value": "more sag (e.g. 115 mm / 4.5 in) may improve stability on fast terrain but slows turning",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "149"
+  },
+  {
+   "joint": "Suspension / Shock / Race sag range",
+   "value": "95 - 115 mm (3.7 - 4.5 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "156"
+  },
+  {
+   "joint": "Suspension / Shock / Rear traction tip",
+   "value": "for more rear traction raise rear by running about 90 mm sag instead of 100 mm",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "156"
+  },
+  {
+   "joint": "Suspension guideline / Track / Soft surface",
+   "value": "sand and mud: more compression damping front and rear; sand: a bit more rebound; mud: consider stiffer optional springs",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "track condition"
+   ],
+   "page": "151"
+  },
+  {
+   "joint": "Suspension guideline / Track / Hard surface",
+   "value": "fast hard track without big jumps: standard springs, softer compression and rebound damping",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "track condition"
+   ],
+   "page": "151"
+  },
+  {
+   "joint": "Suspension guideline / Shock / Sand track",
+   "value": "increase race sag +5 to 10 mm (+0.2 to 0.4 in); stiffer compression and especially rebound",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "track condition"
+   ],
+   "page": "154"
+  },
+  {
+   "joint": "Suspension guideline / Shock / Mud track",
+   "value": "stiffer damping, optional stiff spring, reduce race sag -5 to -10 mm (-0.2 to -0.4 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "track condition"
+   ],
+   "page": "154"
+  },
+  {
+   "joint": "Suspension guideline / Fork / Oil volume step",
+   "value": "raise or lower fork oil in 5 cm3 (0.2 US oz) steps",
+   "unit": "cm3",
+   "property": "setting",
+   "conditions": [],
+   "page": "153"
+  },
+  {
+   "joint": "Suspension guideline / General / Adjustment step",
+   "value": "one click or 1/12 turn at a time, test ride after each change",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "152"
+  },
+  {
+   "joint": "Suspension guideline / Shock / Stiff on small bumps",
+   "value": "softer low speed compression first, then low and high speed together",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "154"
+  },
+  {
+   "joint": "Suspension guideline / Shock / Bottoms on jump landings",
+   "value": "stiffer high speed compression; then both compression and stiff spring if needed",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "154"
+  },
+  {
+   "joint": "Suspension guideline / Shock / Bottoms after continuous bumps",
+   "value": "softer rebound; then stiffer compression with softer rebound and stiff spring if needed",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "154"
+  },
+  {
+   "joint": "Controls / Handlebar / Positions",
+   "value": "forward 26 mm (front holes), forward 16 mm (front holes, holders rotated), standard (rear holes), back 10 mm (rear holes, holders rotated)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "160"
+  },
+  {
+   "joint": "Controls / Levers / Mounting",
+   "value": "torque clutch and brake perch bolts so assemblies can rotate in a fall; tighten top bolts first",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "159"
+  },
+  {
+   "joint": "Tools / Special tools / List",
+   "value": "tensioner stopper 07AMG-001A100, lock nut wrench 07WMA-KZ30100, spoke wrenches 07JMA-MR60100 and 070MA-KZ30100, piston base 07958-2500001",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "182"
+  }
+ ]
+}

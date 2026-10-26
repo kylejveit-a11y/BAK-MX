@@ -1,0 +1,1698 @@
+{
+ "target": {
+  "manufacturer": "Honda",
+  "model": "CRF250RX",
+  "model_year": 2020,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "2020 CRF250R/RX Owner's Manual & Competition Handbook 31K95620 (American Honda Motor Co.)",
+  "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31k95620_crf250r_rx.pdf",
+  "kind": "owners_manual_competition_handbook",
+  "document_revision": "31K95620",
+  "sha256": "57a3fa62dd48d05665351b722336dcdcee1af59526a3b5324154c28bdb93cbcd"
+ },
+ "values": [
+  {
+   "joint": "Suspension / Fork / Compression damping standard",
+   "value": "12 clicks out from stiffest (first click is position 1)",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX",
+    "from full hard (clockwise until it lightly seats)",
+    "both legs same position"
+   ],
+   "page": "146"
+  },
+  {
+   "joint": "Suspension / Fork / Rebound damping standard",
+   "value": "15 clicks out from stiffest (first click is position 1)",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX",
+    "from full hard (clockwise until it lightly seats)",
+    "both legs same position"
+   ],
+   "page": "146"
+  },
+  {
+   "joint": "Suspension / Fork / Compression damping adjuster range",
+   "value": "16 clicks or more (4 clicks per turn)",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "clockwise = harder"
+   ],
+   "page": "146"
+  },
+  {
+   "joint": "Suspension / Fork / Rebound damping adjuster range",
+   "value": "16 clicks or more (4 clicks per turn)",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "clockwise = harder"
+   ],
+   "page": "146"
+  },
+  {
+   "joint": "Suspension / Fork / Air pressure",
+   "value": "Standard air pressure 0 psi (0 kPa); release built-up pressure between motos (R) / races (RX) with front wheel off ground",
+   "unit": "psi",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "145"
+  },
+  {
+   "joint": "Suspension / Fork / Recommended fork oil",
+   "value": "Pro Honda HP Fork Oil, A15-00 or equivalent",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "28"
+  },
+  {
+   "joint": "Suspension / Fork / Rider weight for standard spring",
+   "value": "Standard fork springs suit riders about 170 - 200 lb (77 - 91 kg) without riding gear; heavier riders raise oil capacity or use stiff spring",
+   "unit": "lb",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "146"
+  },
+  {
+   "joint": "Suspension / Fork / Oil effect zone",
+   "value": "Fork oil capacity changes are felt only in the final 100 mm (3.9 in) of fork travel",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "145"
+  },
+  {
+   "joint": "Suspension / Fork / Oil capacity standard (outer tube, per leg)",
+   "value": "356 cm3 (12.0 US oz)",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "CRF250RX",
+    "except damper",
+    "standard spring"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Suspension / Fork / Damper (inner) oil after bleeding",
+   "value": "243 cm3 (8.2 US oz)",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "CRF250RX",
+    "inner chamber (damper)"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Suspension / Fork / Damper (inner) filling oil",
+   "value": "248 cm3 (8.4 US oz) before air bleeding",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "CRF250RX",
+    "inner chamber (damper)"
+   ],
+   "page": "112"
+  },
+  {
+   "joint": "Suspension / Fork / Oil capacity maximum (standard spring)",
+   "value": "391 cm3",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "CRF250RX",
+    "outer chamber oil, per leg",
+    "standard spring"
+   ],
+   "page": "147"
+  },
+  {
+   "joint": "Suspension / Fork / Oil capacity standard (standard spring)",
+   "value": "356 cm3",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "CRF250RX",
+    "outer chamber oil, per leg",
+    "standard spring"
+   ],
+   "page": "147"
+  },
+  {
+   "joint": "Suspension / Fork / Oil capacity minimum (standard spring)",
+   "value": "306 cm3",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "CRF250RX",
+    "outer chamber oil, per leg",
+    "standard spring"
+   ],
+   "page": "147"
+  },
+  {
+   "joint": "Suspension / Fork / Oil capacity maximum (soft spring)",
+   "value": "396 cm3",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "CRF250RX",
+    "outer chamber oil, per leg",
+    "soft spring"
+   ],
+   "page": "147"
+  },
+  {
+   "joint": "Suspension / Fork / Oil capacity standard (soft spring)",
+   "value": "361 cm3",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "CRF250RX",
+    "outer chamber oil, per leg",
+    "soft spring"
+   ],
+   "page": "147"
+  },
+  {
+   "joint": "Suspension / Fork / Oil capacity minimum (soft spring)",
+   "value": "311 cm3",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "CRF250RX",
+    "outer chamber oil, per leg",
+    "soft spring"
+   ],
+   "page": "147"
+  },
+  {
+   "joint": "Suspension / Fork / Oil capacity maximum (stiff spring)",
+   "value": "393 cm3",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "CRF250RX",
+    "outer chamber oil, per leg",
+    "stiff spring"
+   ],
+   "page": "147"
+  },
+  {
+   "joint": "Suspension / Fork / Oil capacity standard (stiff spring)",
+   "value": "358 cm3",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "CRF250RX",
+    "outer chamber oil, per leg",
+    "stiff spring"
+   ],
+   "page": "147"
+  },
+  {
+   "joint": "Suspension / Fork / Oil capacity minimum (stiff spring)",
+   "value": "308 cm3",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "CRF250RX",
+    "outer chamber oil, per leg",
+    "stiff spring"
+   ],
+   "page": "147"
+  },
+  {
+   "joint": "Suspension / Fork / Oil capacity adjustment step",
+   "value": "Change fork oil capacity in 5 cm3 (0.2 US oz) increments in both legs; never below minimum",
+   "unit": "cm3",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "146"
+  },
+  {
+   "joint": "Suspension / Fork / Spring rate standard",
+   "value": "4.6 N/mm (26.3 lbf/in), no mark (factory) or 1 scribe mark",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "standard spring"
+   ],
+   "page": "182"
+  },
+  {
+   "joint": "Suspension / Fork / Optional spring soft",
+   "value": "4.4 N/mm (25.1 lbf/in), ID: 2 scribe marks",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "optional part"
+   ],
+   "page": "182"
+  },
+  {
+   "joint": "Suspension / Fork / Optional spring stiff",
+   "value": "4.8 N/mm (27.4 lbf/in), ID: 1 scribe mark",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "optional part"
+   ],
+   "page": "182"
+  },
+  {
+   "joint": "Suspension / Shock / Spring rate standard",
+   "value": "50 N/mm (285.5 lbf/in), ID: Light green paint or no mark (factory)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "standard spring"
+   ],
+   "page": "182"
+  },
+  {
+   "joint": "Suspension / Shock / Optional spring soft",
+   "value": "48 N/mm (274.1 lbf/in), ID: Brown paint",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "optional part"
+   ],
+   "page": "182"
+  },
+  {
+   "joint": "Suspension / Shock / Optional spring stiff",
+   "value": "52 N/mm (296.9 lbf/in), ID: Red paint",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "optional part"
+   ],
+   "page": "182"
+  },
+  {
+   "joint": "Suspension / Shock / Spring installed length standard (preload)",
+   "value": "233.5 mm (9.19 in); max 239.0 mm, min 228.0 mm",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX",
+    "standard spring"
+   ],
+   "page": "149"
+  },
+  {
+   "joint": "Suspension / Shock / Spring installed length minimum (standard spring)",
+   "value": "228.0 mm (do not shorten below)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "standard spring"
+   ],
+   "page": "148"
+  },
+  {
+   "joint": "Suspension / Shock / Spring installed length minimum (soft spring)",
+   "value": "228.0 mm (do not shorten below)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "soft spring"
+   ],
+   "page": "148"
+  },
+  {
+   "joint": "Suspension / Shock / Spring installed length minimum (stiff spring)",
+   "value": "227.0 mm (do not shorten below)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "stiff spring"
+   ],
+   "page": "148"
+  },
+  {
+   "joint": "Suspension / Shock / Spring installed length maximum",
+   "value": "239.0 mm (9.41 in) (do not lengthen beyond)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "149"
+  },
+  {
+   "joint": "Suspension / Shock / Preload force change per adjuster turn",
+   "value": "1.5 mm / 75 N (17 lbf) per turn",
+   "unit": "N",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "standard spring"
+   ],
+   "page": "149"
+  },
+  {
+   "joint": "Suspension / Shock / High-speed compression standard",
+   "value": "2 11/12 - 3 5/12 turns out from stiffest, adjusted until punch marks align",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX",
+    "from full hard (lightly seated)"
+   ],
+   "page": "149"
+  },
+  {
+   "joint": "Suspension / Shock / High-speed compression adjuster range",
+   "value": "3 1/2 turns or more; adjust in 1/12 turn increments",
+   "unit": "turns",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "149"
+  },
+  {
+   "joint": "Suspension / Shock / Low-speed compression standard",
+   "value": "8 clicks out from stiffest, punch marks aligned",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX",
+    "from full hard"
+   ],
+   "page": "150"
+  },
+  {
+   "joint": "Suspension / Shock / Low-speed compression adjuster range",
+   "value": "13 clicks or more (4 clicks per turn)",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "150"
+  },
+  {
+   "joint": "Suspension / Shock / Rebound damping standard",
+   "value": "7 - 10 clicks out from stiffest, punch marks aligned",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX",
+    "from full hard"
+   ],
+   "page": "150"
+  },
+  {
+   "joint": "Suspension / Shock / Rebound adjuster range",
+   "value": "17 clicks or more (6 clicks per turn)",
+   "unit": "clicks",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "adjuster at lower end of shock"
+   ],
+   "page": "150"
+  },
+  {
+   "joint": "Suspension / Shock / Race sag standard",
+   "value": "105 mm (4.1 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX",
+    "rider aboard in riding gear, race weight"
+   ],
+   "page": "151"
+  },
+  {
+   "joint": "Suspension / Shock / Race sag guidance",
+   "value": "Less sag (e.g. 95 mm) improves turning on tight terrain; more sag (e.g. 115 mm) may improve stability on fast terrain; race sag about one-third of max travel",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "151"
+  },
+  {
+   "joint": "Suspension / Shock / Race sag measurement points",
+   "value": "Center of seat mounting bolt to center of chain adjuster lock nut, unloaded (rear wheel off ground) minus loaded with rider",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "150"
+  },
+  {
+   "joint": "Suspension / Shock / Race sag sand track",
+   "value": "Increase standard race sag +5 to +10 mm (reduce preload); stiffen compression and especially rebound",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX",
+    "sand track"
+   ],
+   "page": "156"
+  },
+  {
+   "joint": "Suspension / Shock / Race sag mud track",
+   "value": "Reduce standard race sag -5 to -10 mm; stiffen compression and rebound; optional stiff spring",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX",
+    "mud track"
+   ],
+   "page": "156"
+  },
+  {
+   "joint": "Suspension / Track conditions / Soft surface",
+   "value": "Increase compression damping front and rear; sand may need more rebound; stiffer optional springs can help in mud",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX",
+    "soft ground, sand, mud"
+   ],
+   "page": "153"
+  },
+  {
+   "joint": "Suspension / Track conditions / Hard surface",
+   "value": "Fast hard track without big jumps: standard springs with softer compression and rebound damping",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX",
+    "hard surface"
+   ],
+   "page": "153"
+  },
+  {
+   "joint": "Suspension / Adjustment step size",
+   "value": "One click or 1/12 turn per change; test ride after each adjustment",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "154"
+  },
+  {
+   "joint": "Suspension / Travel",
+   "value": "Front fork travel 268 mm (10.6 in), stroke 305 mm; rear Pro-Link travel 317 mm (12.5 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / ECU / Engine mode 1",
+   "value": "PGM-FI mode 1: standard setting",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX",
+    "engine mode select button"
+   ],
+   "page": "142"
+  },
+  {
+   "joint": "Engine / ECU / Engine mode 2",
+   "value": "PGM-FI mode 2: smooth setting (reduced throttle response)",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX",
+    "engine mode select button"
+   ],
+   "page": "142"
+  },
+  {
+   "joint": "Engine / ECU / Engine mode 3",
+   "value": "PGM-FI mode 3: aggressive setting (increased throttle response)",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX",
+    "engine mode select button"
+   ],
+   "page": "142"
+  },
+  {
+   "joint": "Engine / ECU / Engine mode change",
+   "value": "Engine running, bike stopped, throttle closed: hold mode button 1 s or more; blue indicator blinks mode number; fast idle knob must be pushed in",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "142"
+  },
+  {
+   "joint": "Engine / ECU / Launch control levels",
+   "value": "Level 1 high rev limit, level 2 middle, level 3 low; factory setting level 2; last level saved",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX",
+    "HRC Launch Control"
+   ],
+   "page": "143"
+  },
+  {
+   "joint": "Engine / ECU / Launch control use",
+   "value": "Launch in 1st or 2nd gear opening throttle halfway or more; cancels in 3rd gear or with throttle fully closed",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX",
+    "HRC Launch Control"
+   ],
+   "page": "144"
+  },
+  {
+   "joint": "Chassis / Tires / Front size",
+   "value": "90/90-21 54M",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Chassis / Tires / Rear size",
+   "value": "110/100-18 64M",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "18 in rear wheel (RX only)"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Chassis / Tires / Front recommended",
+   "value": "DUNLOP AT81F",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Chassis / Tires / Rear recommended",
+   "value": "DUNLOP AT81",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Chassis / Tires / Type",
+   "value": "Bias-ply, tube",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Chassis / Tires / Cold pressure front",
+   "value": "100 kPa (1.0 kgf/cm2, 15 psi)",
+   "unit": "kPa",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX",
+    "cold"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Chassis / Tires / Cold pressure rear",
+   "value": "100 kPa (1.0 kgf/cm2, 15 psi)",
+   "unit": "kPa",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX",
+    "cold"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Chassis / Steering / Caster angle",
+   "value": "27°18'",
+   "unit": "deg",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Chassis / Steering / Trail",
+   "value": "115 mm (4.5 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Chassis / Brakes / Swept area",
+   "value": "Front single disc 361.0 cm2 (56.0 in2); rear single disc 390.3 cm2 (60.5 in2)",
+   "unit": "cm2",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Fuel / Octane",
+   "value": "Unleaded gasoline, pump octane number 91 or higher",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Chassis / Fuel tank / Capacity",
+   "value": "8.5 L (2.25 US gal)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [
+    "CRF250RX",
+    "RX larger tank"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Bore x stroke",
+   "value": "79.000 x 50.887 mm (3.1102 x 2.0034 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Displacement",
+   "value": "249.43 cm3 (15.215 cu-in)",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Compression ratio",
+   "value": "13.9:1",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Valve clearance / Intake",
+   "value": "0.09 ± 0.03 mm (0.004 ± 0.001 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "cold"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Valve clearance / Exhaust",
+   "value": "0.19 ± 0.03 mm (0.007 ± 0.001 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "cold"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Engine oil / Capacity at draining",
+   "value": "1.08 L (1.14 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [
+    "CRF250RX",
+    "oil change"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Engine oil / Capacity at oil and filter change",
+   "value": "1.12 L (1.18 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Engine oil / Capacity at disassembly",
+   "value": "1.35 L (1.43 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Throttle body ID",
+   "value": "GQA7A",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Idle speed",
+   "value": "2,000 ± 100 rpm",
+   "unit": "rpm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Coolant / Capacity at change",
+   "value": "0.94 L (0.99 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [
+    "CRF250RX",
+    "after draining"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Coolant / Capacity at disassembly",
+   "value": "1.09 L (1.15 US qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Transmission / Type",
+   "value": "5-speed constant mesh, wet multi-plate clutch, 1-N-2-3-4-5",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Transmission / Primary reduction",
+   "value": "3.473",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Transmission / Gear ratio 1st",
+   "value": "2.230",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Transmission / Gear ratio 2nd",
+   "value": "1.750",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Transmission / Gear ratio 3rd",
+   "value": "1.470",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Transmission / Gear ratio 4th",
+   "value": "1.227",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Transmission / Gear ratio 5th",
+   "value": "1.043",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Drive / Final reduction",
+   "value": "3.692",
+   "unit": "ratio",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Electrical / Battery",
+   "value": "HY85S lithium-ion, 12 V 2.0 Ah (20 HR)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Spark plug / Type",
+   "value": "NGK R0451B-9",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Spark plug / Gap",
+   "value": "0.60 - 0.70 mm (0.024 - 0.028 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Electrical / Main fuse",
+   "value": "10 A",
+   "unit": "A",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Engine / Engine oil / Recommended oil",
+   "value": "Pro Honda GN4 4-stroke (or Honda 4-stroke or equivalent), API SJ or higher (not energy/resource conserving), JASO T903 MA, SAE 10W-30",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "64"
+  },
+  {
+   "joint": "Engine / Coolant / Recommended coolant",
+   "value": "Pro Honda HP Coolant or equivalent ethylene glycol antifreeze with corrosion inhibitors for aluminum engines",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "68"
+  },
+  {
+   "joint": "Engine / Coolant / Normal overflow loss",
+   "value": "20 - 60 cm3 (0.7 - 2.0 US oz)",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "68"
+  },
+  {
+   "joint": "Engine / Air filter / Filter oil",
+   "value": "44 cm3 (1.5 US oz) Pro Honda Foam Air Filter Oil or equivalent from inside of element",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "71"
+  },
+  {
+   "joint": "Engine / Air filter / Housing sealer",
+   "value": "1.5 - 5.5 g (0.05 - 0.19 oz) Pro Honda Foam Air Filter Sealer on element contact area",
+   "unit": "g",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "71"
+  },
+  {
+   "joint": "Engine / Throttle / Freeplay",
+   "value": "2 - 6 mm (1/16 - 1/4 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Engine / Clutch / Lever freeplay",
+   "value": "10 - 20 mm (3/8 - 13/16 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "76"
+  },
+  {
+   "joint": "Engine / Clutch / Friction disc thickness service limit",
+   "value": "2.85 mm (0.112 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "79"
+  },
+  {
+   "joint": "Engine / Clutch / Spring free length service limit",
+   "value": "55.32 mm (2.178 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "79"
+  },
+  {
+   "joint": "Engine / Clutch / Plate warpage service limit",
+   "value": "0.10 mm (0.004 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "79"
+  },
+  {
+   "joint": "Engine / Clutch / Disc stack",
+   "value": "Clutch disc A (green), seven plates and six discs B alternately, clutch disc C (black)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "79"
+  },
+  {
+   "joint": "Engine / Break-in",
+   "value": "First operating day or 15 miles (25 km): avoid full-throttle starts and rapid acceleration; repeat after piston, rings, cylinder or crank replacement",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "20"
+  },
+  {
+   "joint": "Drive / Chain / Slack",
+   "value": "35 - 45 mm (1 3/8 - 1 3/4 in) vertical movement",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF250RX",
+    "upper run, midway between sprockets",
+    "rear wheel off ground, neutral"
+   ],
+   "page": "127"
+  },
+  {
+   "joint": "Drive / Chain / Plate height service limit",
+   "value": "13.3 mm (0.52 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "RX O-ring chain"
+   ],
+   "page": "130"
+  },
+  {
+   "joint": "Drive / Chain slider / Service limit",
+   "value": "Upper side 5 mm (0.2 in); lower side 2.5 mm (0.10 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "127"
+  },
+  {
+   "joint": "Drive / Chain roller / Service limit",
+   "value": "Upper and lower roller 31 mm (1.2 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "128"
+  },
+  {
+   "joint": "Chassis / Brakes / Pad wear limit",
+   "value": "1.0 mm (0.04 in); replace both pads",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "122"
+  },
+  {
+   "joint": "Drive / Sprocket / Driven sprocket standard",
+   "value": "48T aluminum with 114-link chain",
+   "unit": "teeth",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "182"
+  },
+  {
+   "joint": "Drive / Sprocket / Driven sprocket optional",
+   "value": "49T aluminum",
+   "unit": "teeth",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "optional part"
+   ],
+   "page": "182"
+  },
+  {
+   "joint": "Drive / Chain / Optional chain",
+   "value": "D.I.D 520 MXV5/120ZB",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "optional part"
+   ],
+   "page": "182"
+  },
+  {
+   "joint": "Optional Parts / Rear brake pads",
+   "value": "Standard pads focus on braking force and wear resistance; optional pads emphasize controllability",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "optional part"
+   ],
+   "page": "182"
+  },
+  {
+   "joint": "Optional Parts / Rear brake disc cover",
+   "value": "Optional rear brake disc cover and bolts to extend pad life in mud",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "optional part"
+   ],
+   "page": "182"
+  },
+  {
+   "joint": "Optional Parts / Pin spanner",
+   "value": "Pin spanner A (two required) for shock spring preload",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "optional part / tool"
+   ],
+   "page": "182"
+  },
+  {
+   "joint": "Chassis / Sidestand",
+   "value": "Side stand fitted",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF250RX",
+    "RX only"
+   ],
+   "page": "-4"
+  },
+  {
+   "joint": "Maintenance Schedule / Fuel line / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Fuel line / Replace",
+   "value": "every 8 races or about 30.0 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Fuel line / Calendar replacement",
+   "value": "Replace every year",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Fuel pump filter / Replace",
+   "value": "every 8 races or about 30.0 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Fuel pump filter / Calendar replacement",
+   "value": "Replace every year",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Throttle operation / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Air filter / Clean",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Air filter / Dusty conditions",
+   "value": "Clean after every moto/race in dusty riding conditions",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Crankcase breather / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Spark plug / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Valve clearance and decompressor system / Inspect",
+   "value": "every 4 races or about 15.0 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Valve clearance and decompressor system / Break-in",
+   "value": "Inspect after the first break-in ride",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Engine oil / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Engine oil / Replace",
+   "value": "every 4 races or about 15.0 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Engine oil / Break-in",
+   "value": "Replace after the first break-in ride",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Engine oil / Clutch service",
+   "value": "Replace the engine oil if the clutch discs and plates are replaced",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Engine oil filter / Replace",
+   "value": "every 4 races or about 15.0 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Engine oil filter / Break-in",
+   "value": "Replace after the first break-in ride",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Engine idle speed / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Piston and piston rings / Replace",
+   "value": "every 4 races or about 15.0 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Piston pin / Replace",
+   "value": "every 4 races or about 15.0 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Radiator coolant / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Radiator coolant / Calendar replacement",
+   "value": "Replace every 2 years",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Cooling system / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Drive chain / Inspect and lubricate",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Drive chain / Replace",
+   "value": "every 2 races or about 7.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Drive chain slider / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Drive chain roller / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Drive sprocket / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Driven sprocket / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Brake fluid / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Brake fluid / Calendar replacement",
+   "value": "Replace every 2 years",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Brake pads wear / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Brake system / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Clutch system / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Clutch system / Clutch service",
+   "value": "Replace the engine oil if the clutch discs and plates are replaced",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Control cables / Inspect and lubricate",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Exhaust pipe and muffler / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Suspension / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Swingarm and shock linkage / Lubricate",
+   "value": "every 2 races or about 7.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Fork oil / Replace",
+   "value": "every 6 races or about 22.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Fork oil / Break-in",
+   "value": "Replace after the first break-in ride",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Nuts, bolts, fasteners / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Wheels and tires / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Steering head bearings / Inspect",
+   "value": "every 6 races or about 22.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Sidestand / Inspect",
+   "value": "each race or about 3.5 hours",
+   "unit": "interval",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  },
+  {
+   "joint": "Maintenance Schedule / Basis",
+   "value": "R intervals in motos/races (each race about 2.5 h); RX in races (each race about 3.5 h); severe use needs more frequent service",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "CRF250RX"
+   ],
+   "page": "25"
+  }
+ ]
+}
