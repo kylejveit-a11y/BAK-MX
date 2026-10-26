@@ -1,0 +1,2356 @@
+{
+ "bikes": [
+  {
+   "make": "Triumph",
+   "model": "TF 250-X",
+   "years": [
+    2024,
+    2025,
+    2026
+   ],
+   "generation": "First generation (2024-2026; 2027 update not yet tested)",
+   "summary": "Testers rate the TF 250-X chassis as its best trait: light, stable and very good in corners, though the stock KYB setting is soft and aimed at a mid-weight novice or intermediate rider. The 2024 engine bogged on a hard throttle snap and made its power high in the rev range; the 2025 map update reduced but did not fully cure the low-rpm stumble for every tester. Tall gearing, gaps between 2nd, 3rd and 4th and a stiff, notchy gearbox are the most repeated complaints. Common first changes are less rear sag, a tooth or two more on the rear sprocket, a 110 rear tyre and stiffer springs for heavier riders.",
+   "points": [
+    {
+     "aspect": "engine_low",
+     "verdict": "weakness",
+     "statement": "2024 engine is crisp just off idle but bogs or stumbles when the throttle is snapped, then dips and surges into the midrange; low end and midrange were its weakest areas against class leaders.",
+     "years": [
+      2024
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike Test",
+      "Dirt Bike Magazine"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2024-triumph-tf250-x",
+      "https://dirtbiketest.com/bike-tests/2024-triumph-tf-250-x/",
+      "https://dirtbikemagazine.com/finally-triumph-tf250x-test-bike-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "strength",
+     "statement": "The 2025 fuel map (also a dealer flash for 2024 bikes) cleaned up much of the low-rpm stumble and added measurable power over the 2024 calibration.",
+     "years": [
+      2024,
+      2025
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Rider",
+      "Vital MX",
+      "Keefer Inc Testing",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.dirtrider.com/tests/triumph-tf-250-x-dyno-test-2025",
+      "https://www.vitalmx.com/features/2025-triumph-tf-250x-review",
+      "https://www.keeferinctesting.com/?p=28483",
+      "https://motocrossactionmag.com/mxa-race-test-2025-triumph-tf250-x/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "neutral",
+     "statement": "Power sits high in the range; it works best revved toward the limiter rather than short-shifted, and the gear gaps make that more necessary.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Australasian Dirt Bike",
+      "MCNews AU",
+      "Dirt Bike Magazine",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://adbmag.com.au/?p=48204",
+      "https://dirtbikemagazine.com/finally-triumph-tf250x-test-bike-the-wrap/",
+      "https://dirtbiketest.com/bike-tests/2024-triumph-tf-250-x/"
+     ]
+    },
+    {
+     "aspect": "engine_mid",
+     "verdict": "weakness",
+     "statement": "On dynos it trails the KTM-family 250s by roughly 1.5-4 hp through most of the midrange and top, landing mid-pack on peak power.",
+     "years": [
+      2024,
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike Magazine"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2024-triumph-tf250-x",
+      "https://dirtbikemagazine.com/250-motocross-bikes-on-the-dyno-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "weakness",
+     "statement": "Stock 13/48 gearing feels tall with wide 2-3 and 3-4 gaps; most testers went one or two teeth larger on the rear to help third-gear recovery.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 5,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Dirt Bike Test",
+      "Dirt Bike Magazine",
+      "Motocross Action",
+      "MCNews AU"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/?p=28319",
+      "https://dirtbiketest.com/bike-tests/2024-triumph-tf-250-x/",
+      "https://dirtbikemagazine.com/finally-triumph-tf250x-test-bike-the-wrap/",
+      "https://motocrossactionmag.com/mxa-race-test-2025-triumph-tf250-x/"
+     ]
+    },
+    {
+     "aspect": "transmission",
+     "verdict": "weakness",
+     "statement": "Shifting is stiff and notchy, especially into third, with occasional false neutrals; it eases somewhat with break-in.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike Magazine",
+      "MX1 Onboard",
+      "Vital MX forum (owners)"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2024-triumph-tf250-x",
+      "https://dirtbikemagazine.com/finally-triumph-tf250x-test-bike-the-wrap/",
+      "https://mx1onboard.com/we-test-the-best-six-250-bikes-of-2025/",
+      "https://www.vitalmx.com/forums/moto-related/triumph-tf250x-worth-it?page=1"
+     ]
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "statement": "Chassis is light, nimble and stable, with very good corner speed and a forgiving amount of flex; several testers called it the most fun bike in the class to ride in stock form.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 6,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Australasian Dirt Bike",
+      "Dirt Bike Test",
+      "Dirt Bike Magazine",
+      "MX1 Onboard",
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-triumph-tf250-x/",
+      "https://adbmag.com.au/?p=48204",
+      "https://dirtbiketest.com/bike-tests/2024-triumph-tf-250-x/",
+      "https://dirtbikemagazine.com/finally-triumph-tf250x-test-bike-the-wrap/",
+      "https://mx1onboard.com/we-test-the-best-six-250-bikes-of-2025/",
+      "https://www.keeferinctesting.com/?p=29823"
+     ]
+    },
+    {
+     "aspect": "turning",
+     "verdict": "weakness",
+     "statement": "Tends to stand up mid-corner in tight turns, partly blamed on the narrow 100-section stock rear tyre.",
+     "years": [
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://pulpmx.com/?p=171223"
+     ]
+    },
+    {
+     "aspect": "stability",
+     "verdict": "weakness",
+     "statement": "Front can feel busy entering fast, rough corners.",
+     "years": [
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/bike-tests/2024-triumph-tf-250-x/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Stock KYB setting is soft and plush, suited to roughly 155-175 lb novice and intermediate riders; faster or heavier riders bottom the shock on big landings and the fork dives under hard braking.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 6,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Vital MX",
+      "Dirt Bike Magazine",
+      "Dirt Bike Test",
+      "MotoOnline",
+      "Bike Review AU"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2024-triumph-tf250-x",
+      "https://www.vitalmx.com/features/2025-triumph-tf-250x-review",
+      "https://dirtbikemagazine.com/finally-triumph-tf250x-test-bike-the-wrap/",
+      "https://dirtbiketest.com/bike-tests/2024-triumph-tf-250-x/",
+      "https://www.motoonline.com/au/tested-2024-triumph-tf-250-x/",
+      "https://bikereview.com.au/?p=137533"
+     ]
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "statement": "Rear sits low under load at the handbook sag, and the shock wants more end-of-stroke support.",
+     "years": [
+      2024,
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Australasian Dirt Bike"
+     ],
+     "urls": [
+      "https://pulpmx.com/?p=171223",
+      "https://adbmag.com.au/?p=48204"
+     ]
+    },
+    {
+     "aspect": "balance",
+     "verdict": "neutral",
+     "statement": "Bike is sensitive to fork height, sag and shock high-speed compression changes; small adjustments change its balance noticeably.",
+     "years": [
+      2024,
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Cycle News"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-triumph-tf250-x/",
+      "https://www.cyclenews.com/2024/03/article/2024-triumph-tf-250x-review/"
+     ]
+    },
+    {
+     "aspect": "tires",
+     "verdict": "weakness",
+     "statement": "Stock Pirelli rear in 100/90-19 on a narrow 1.85 rim limits traction and its carcass rolls or folds under load once worn; a 110 rear is the preferred swap.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action",
+      "Vital MX",
+      "Ultimate Motorcycling"
+     ],
+     "urls": [
+      "https://pulpmx.com/?p=171223",
+      "https://motocrossactionmag.com/mxa-race-test-2024-triumph-tf250-x",
+      "https://www.vitalmx.com/features/2025-triumph-tf-250x-review"
+     ]
+    },
+    {
+     "aspect": "electronics",
+     "verdict": "weakness",
+     "statement": "The tuning app only loads preset maps; fuel and ignition cannot be edited, which testers see as a limitation versus Japanese tuning apps.",
+     "years": [
+      2024,
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike Test",
+      "Vital MX"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/bike-tests/2024-triumph-tf-250-x/",
+      "https://www.vitalmx.com/features/2025-triumph-tf-250x-review"
+     ]
+    },
+    {
+     "aspect": "electronics",
+     "verdict": "weakness",
+     "statement": "Motocross testers mostly left traction control off because it dulled the power.",
+     "years": [
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike Magazine",
+      "Australasian Dirt Bike"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/finally-triumph-tf250x-test-bike-the-wrap/",
+      "https://adbmag.com.au/?p=48204"
+     ]
+    },
+    {
+     "aspect": "weight_feel",
+     "verdict": "strength",
+     "statement": "Weighs in among the lightest 250s on magazine scales.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike Magazine",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/finally-triumph-tf250x-test-bike-the-wrap/",
+      "https://motocrossactionmag.com/mxa-race-test-2025-triumph-tf250-x/"
+     ]
+    },
+    {
+     "aspect": "maintenance",
+     "verdict": "weakness",
+     "statement": "Torx fasteners throughout mean special tools rather than standard T-handles.",
+     "years": [
+      2024,
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2024-triumph-tf250-x",
+      "https://dirtbiketest.com/bike-tests/2024-triumph-tf-250-x/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "statement": "Clutch can turn notchy, slip under acceleration or drag, attributed to poor oil flow through the stock clutch centre; recall work fits a new hub and plates.",
+     "years": [
+      2024,
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Rekluse (vendor blog)"
+     ],
+     "urls": [
+      "https://www.rekluse.com/blog/common-triumph-tf-250-x-clutch-problems-and-how-rekluse-can-help/"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "weakness",
+     "statement": "Isolated owner reports of stalling (including off a jump face) and one bike that jumped cam timing after a slow tip-over.",
+     "years": [
+      2024,
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Vital MX forum (owners)"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/forums/moto-related/triumph-tf250x-worth-it?page=1",
+      "https://www.vitalmx.com/forums/moto-related/new-triumph-tf250x-any-new-owners-out-there-initial-thoughts?page=9"
+     ]
+    },
+    {
+     "aspect": "other",
+     "verdict": "neutral",
+     "statement": "Placed mid-to-low in group shootouts: seventh of eight in one 2025 test, fourth of seven in a 2026 test.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/2025-motocross-action-250-shootout-suzuki-triumph-kawasaki-honda-yamaha-gasgas-husqvarna-ktm",
+      "https://www.dirtrider.com/tests/triumph-tf-250-x-best-motocross-bike-4th-place-2026/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Rear rides low and bottoms at the handbook 105 mm sag",
+     "fix": "Run 100-104 mm race sag and add shock high-speed compression",
+     "result": "Rear holds up under throttle and the bike turns more readily",
+     "support": 6,
+     "outlets": [
+      "Keefer Inc Testing",
+      "Dirt Bike Test",
+      "Dirt Bike Magazine",
+      "Australasian Dirt Bike",
+      "MCNews AU",
+      "Ultimate Motorcycling"
+     ],
+     "urls": [
+      "https://pulpmx.com/?p=171223",
+      "https://www.keeferinctesting.com/?p=29823",
+      "https://dirtbiketest.com/bike-tests/2024-triumph-tf-250-x/",
+      "https://dirtbikemagazine.com/finally-triumph-tf250x-test-bike-the-wrap/",
+      "https://adbmag.com.au/?p=48204"
+     ]
+    },
+    {
+     "problem": "Soft fork for faster riders",
+     "fix": "Add 2-4 clicks of fork compression and run the fork about 3 mm up (or drop it in the clamps on fast tracks to calm a busy front)",
+     "result": "More hold-up and better balance; lowering the fork calmed fast rough corners at some cost to turning",
+     "support": 3,
+     "outlets": [
+      "Keefer Inc Testing",
+      "Vital MX",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://pulpmx.com/?p=171223",
+      "https://www.vitalmx.com/features/2025-triumph-tf-250x-review",
+      "https://dirtbiketest.com/bike-tests/2024-triumph-tf-250-x/"
+     ]
+    },
+    {
+     "problem": "Stock springs too soft for riders over about 80 kg",
+     "fix": "Fit Triumph medium or hard spring sets",
+     "result": "Bike could be pushed harder with more confidence on jumps and corners, no clicker changes needed",
+     "support": 3,
+     "outlets": [
+      "MotoOnline",
+      "Bike Review AU",
+      "Australasian Dirt Bike"
+     ],
+     "urls": [
+      "https://www.motoonline.com/au/tested-2024-triumph-tf-250-x/",
+      "https://bikereview.com.au/?p=137533",
+      "https://adbmag.com.au/?p=48204"
+     ]
+    },
+    {
+     "problem": "Tall gearing and gappy 2nd-3rd",
+     "fix": "13/49 or 13/50 rear (KTM rear sprockets fit), chain lengthened as needed",
+     "result": "Better third-gear recovery and tighter gear spread",
+     "support": 5,
+     "outlets": [
+      "Keefer Inc Testing",
+      "Dirt Bike Test",
+      "Dirt Bike Magazine",
+      "Motocross Action",
+      "MCNews AU"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/?p=28319",
+      "https://dirtbiketest.com/bike-tests/2024-triumph-tf-250-x/",
+      "https://dirtbikemagazine.com/finally-triumph-tf250x-test-bike-the-wrap/",
+      "https://motocrossactionmag.com/mxa-race-test-2025-triumph-tf250-x/"
+     ]
+    },
+    {
+     "problem": "Low-rpm bog on 2024 bikes",
+     "fix": "Dealer flash to the 2025 calibration or the richer Akrapovic map",
+     "result": "Bog greatly reduced, though the dip-and-surge shape did not fully disappear for every tester",
+     "support": 3,
+     "outlets": [
+      "Motocross Action",
+      "Keefer Inc Testing",
+      "Vital MX"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-triumph-tf250-x/",
+      "https://www.keeferinctesting.com/?p=28483",
+      "https://www.vitalmx.com/features/2025-triumph-tf-250x-review"
+     ]
+    },
+    {
+     "problem": "Wants more corner-exit pull",
+     "fix": "Aftermarket full exhaust (FMF or Akrapovic) with matching map",
+     "result": "Stronger 2nd and 3rd gear pull and longer midrange; the FMF system softened the initial crack off idle slightly",
+     "support": 4,
+     "outlets": [
+      "Keefer Inc Testing",
+      "Bike Review AU",
+      "MotoOnline",
+      "Australasian Dirt Bike"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/?p=28483",
+      "https://bikereview.com.au/?p=137533",
+      "https://www.motoonline.com/au/tested-2024-triumph-tf-250-x/",
+      "https://adbmag.com.au/?p=48204"
+     ]
+    },
+    {
+     "problem": "Rear traction and mid-corner stand-up",
+     "fix": "Swap to a 110-section rear tyre (often Dunlop MX34)",
+     "result": "Better traction for most testers; one test felt little change",
+     "support": 3,
+     "outlets": [
+      "Keefer Inc Testing",
+      "Ultimate Motorcycling",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://pulpmx.com/?p=171223",
+      "https://dirtbiketest.com/bike-tests/2024-triumph-tf-250-x/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "How completely the 2025 map fixed the low-rpm stumble",
+     "sides": [
+      "Hesitation and midrange dip removed",
+      "Sputter fixed but some bog remains low down"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/features/2025-triumph-tf-250x-review",
+      "https://motocrossactionmag.com/2025-motocross-action-250-shootout-suzuki-triumph-kawasaki-honda-yamaha-gasgas-husqvarna-ktm",
+      "https://www.dirtrider.com/tests/triumph-tf-250-x-dyno-test-2025"
+     ]
+    },
+    {
+     "topic": "Stock suspension balance",
+     "sides": [
+      "Well balanced out of the box and needing little tuning",
+      "Too soft and bottoms easily",
+      "Fork slightly stiffer than the shock"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/?p=29823",
+      "https://www.vitalmx.com/features/2025-triumph-tf-250x-review",
+      "https://dirtbiketest.com/bike-tests/2024-triumph-tf-250-x/"
+     ]
+    },
+    {
+     "topic": "Preferred stock map",
+     "sides": [
+      "Map 1 (standard) is stronger in the midrange",
+      "Map 2 (soft) preferred and loses little power"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2024-triumph-tf250-x",
+      "https://dirtbikemagazine.com/finally-triumph-tf250x-test-bike-the-wrap/",
+      "https://www.motoonline.com/au/tested-2024-triumph-tf-250-x/"
+     ]
+    },
+    {
+     "topic": "Quickshifter",
+     "sides": [
+      "Helps with the stiff gearbox and works well",
+      "Ignition cut is distracting, drops out if the lever is not fully lifted, or shifts irregularly"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2024-triumph-tf250-x",
+      "https://mx1onboard.com/we-test-the-best-six-250-bikes-of-2025/",
+      "https://dirtbiketest.com/bike-tests/2024-triumph-tf-250-x/"
+     ]
+    },
+    {
+     "topic": "Stock gearing",
+     "sides": [
+      "13/48 felt right at the launch",
+      "Too tall; go 1-2 teeth larger"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2024/03/article/2024-triumph-tf-250x-review/",
+      "https://dirtbikemagazine.com/finally-triumph-tf250x-test-bike-the-wrap/"
+     ]
+    },
+    {
+     "topic": "Footpegs packing with mud",
+     "sides": [
+      "Pegs pack with mud",
+      "Mud never packed the peg pivot"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2024-triumph-tf250-x",
+      "https://www.cyclenews.com/2024/03/article/2024-triumph-tf-250x-review/"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Triumph",
+   "model": "TF 450-RC Edition / TF 450-X",
+   "years": [
+    2025,
+    2026
+   ],
+   "generation": "First generation 450 MX (2025 RC Edition, 2026 450-X)",
+   "summary": "Testers describe the Triumph 450 as smooth and linear rather than brutal: mild off the bottom in the standard map, strong in the midrange and tapering on top, easy to ride over long motos. The chassis earns the most praise for stability and cornering, while the front end can feel vague or light off the throttle. Stock KYB settings are soft and comfortable for a mid-weight rider, though one shootout found the fork harsh and the shock dead. Tall gearing, notchy shifting with false neutrals on early bikes and a vague stock clutch are the recurring complaints.",
+   "points": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "statement": "Delivery is smooth and linear rather than aggressive, easy on the rider over long motos and closer in character to the milder Japanese 450s.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike Magazine",
+      "Australasian Dirt Bike",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/?p=100006",
+      "https://adbmag.com.au/editorial/mx-comparo-yamaha-yz450f-v-triumph-tf-450-x/",
+      "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/"
+     ]
+    },
+    {
+     "aspect": "engine_low",
+     "verdict": "weakness",
+     "statement": "Initial throttle and bottom end feel soft or disconnected in the standard map; testers wanted more bottom-to-mid pull.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike Magazine",
+      "Vital MX",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/?p=100006",
+      "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+      "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "statement": "Top end tapers early and over-rev is rough near the limiter, so it works best shifted earlier than most 450s.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike Magazine",
+      "Vital MX"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/?p=100006",
+      "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx"
+     ]
+    },
+    {
+     "aspect": "engine_mid",
+     "verdict": "strength",
+     "statement": "Measures competitively on dynos (top of one eight-bike test, third of twelve in another) yet feels milder than its numbers because the curve is so smooth.",
+     "years": [
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Vital MX",
+      "Dirt Bike Magazine"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+      "https://dirtbikemagazine.com/?p=101733"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "strength",
+     "statement": "The Carmichael-developed map on the RC Edition is sharper low down with more hit and pull, and testers preferred it to the standard map.",
+     "years": [
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike Magazine",
+      "Cycle News"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/?p=100006",
+      "https://www.cyclenews.com/2025/02/article/2025-triumph-tf-450-rc-edition-review/"
+     ]
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "statement": "Stable at speed and under braking, good in ruts and strong in corners; one of the best straight-line 450s and the chassis is its best trait.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 5,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike Magazine",
+      "Australasian Dirt Bike",
+      "Dirt Bike Test",
+      "Vital MX",
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/?p=101824",
+      "https://adbmag.com.au/editorial/mx-comparo-yamaha-yz450f-v-triumph-tf-450-x/",
+      "https://dirtbiketest.com/fresh-dirt/world-debut-2025-triumph-tx450-rc-first-impression/",
+      "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+      "https://www.keeferinctesting.com/?p=29670"
+     ]
+    },
+    {
+     "aspect": "front_end",
+     "verdict": "weakness",
+     "statement": "Front end feels light or vague off the throttle and can push in corners; it is harder to lean in than testers wanted.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Ultimate Motorcycling",
+      "Cycle News",
+      "Vital MX forum (owners)"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/?p=29670",
+      "https://ultimatemotorcycling.com/2024/11/19/2025-triumph-tf-450-rc-edition-review-goat-developed/",
+      "https://www.cyclenews.com/2025/02/article/2025-triumph-tf-450-rc-edition-review/",
+      "https://www.vitalmx.com/comment/8996096"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "neutral",
+     "statement": "Stock KYB setting is soft and comfortable, aimed at a roughly 170-175 lb novice or intermediate; faster or heavier riders use up the travel in rough second motos.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike Magazine",
+      "Australasian Dirt Bike",
+      "Keefer Inc Testing",
+      "Ultimate Motorcycling"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/?p=101824",
+      "https://dirtbikemagazine.com/?p=100006",
+      "https://www.keeferinctesting.com/?p=29670",
+      "https://ultimatemotorcycling.com/2024/11/19/2025-triumph-tf-450-rc-edition-review-goat-developed/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "neutral",
+     "statement": "Fork rides high in its stroke despite being soft, which lets riders run more rear preload.",
+     "years": [
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/?p=100006"
+     ]
+    },
+    {
+     "aspect": "sag",
+     "verdict": "neutral",
+     "statement": "Testers settled at 100-104 mm race sag rather than the 105 mm standard; the 2026 bike was sensitive to small sag measuring errors.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 6,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike Magazine",
+      "Dirt Bike Test",
+      "Cycle News",
+      "Ultimate Motorcycling",
+      "Australasian Dirt Bike",
+      "Vital MX forum (owners)"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/?p=101824",
+      "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/",
+      "https://www.cyclenews.com/2025/02/article/2025-triumph-tf-450-rc-edition-review/",
+      "https://ultimatemotorcycling.com/2024/11/19/2025-triumph-tf-450-rc-edition-review-goat-developed/",
+      "https://adbmag.com.au/?p=51643",
+      "https://www.vitalmx.com/comment/8996096"
+     ]
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "weakness",
+     "statement": "Stock gearing feels tall and needs extra clutch on tight tracks; a gap between 2nd and 3rd is noticeable.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike Test",
+      "Dirt Rider",
+      "Australasian Dirt Bike",
+      "Vital MX forum (owners)"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/",
+      "https://www.dirtrider.com/triumph/tf-450-rc/",
+      "https://adbmag.com.au/editorial/mx-comparo-yamaha-yz450f-v-triumph-tf-450-x/",
+      "https://www.vitalmx.com/forums/moto-related/triumph-tf450-reviews-and-setup-tips"
+     ]
+    },
+    {
+     "aspect": "transmission",
+     "verdict": "weakness",
+     "statement": "Early bikes shift notchily under power with false neutrals between 2nd-3rd and 3rd-4th; owners report gearbox parts updated by a service bulletin.",
+     "years": [
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Australasian Dirt Bike",
+      "Vital MX forum (owners)"
+     ],
+     "urls": [
+      "https://adbmag.com.au/editorial/mx-comparo-yamaha-yz450f-v-triumph-tf-450-x/",
+      "https://www.vitalmx.com/forums/moto-related/triumph-tf450-transmission-updates?page=5"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "statement": "Stock clutch feels light and vague with a long, soft engagement.",
+     "years": [
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://keeferinctesting.com/?p=28824",
+      "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/"
+     ]
+    },
+    {
+     "aspect": "weight_feel",
+     "verdict": "strength",
+     "statement": "Among the lightest 450s on magazine scales.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike Magazine",
+      "Vital MX"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/?p=101824",
+      "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx"
+     ]
+    },
+    {
+     "aspect": "vibration",
+     "verdict": "weakness",
+     "statement": "More vibration than most Japanese 450s.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/?p=29670"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "neutral",
+     "statement": "A 20-hour test bike needed nothing beyond oil changes; early bikes had a water-pump whine that faded after break-in.",
+     "years": [
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike Test",
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/",
+      "https://www.dirtrider.com/triumph/tf-450-rc/"
+     ]
+    },
+    {
+     "aspect": "tires",
+     "verdict": "strength",
+     "statement": "A 120-section rear tyre helped the shock keep the rear on the ground.",
+     "years": [
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Tall gearing, 2nd-3rd gap",
+     "fix": "One or two teeth larger rear (13/49-13/50, longer chain); heavier owners up to 13/52",
+     "result": "Better drive out of turns and improved engine and chassis feel",
+     "support": 5,
+     "outlets": [
+      "Dirt Bike Test",
+      "Dirt Rider",
+      "Australasian Dirt Bike",
+      "Vital MX forum (owners)",
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/",
+      "https://www.dirtrider.com/triumph/tf-450-rc/",
+      "https://www.vitalmx.com/forums/moto-related/triumph-tf450-reviews-and-setup-tips",
+      "https://www.keeferinctesting.com/fmf-4-1-muffler-system-for-triumph-tf-450-rc-edition/"
+     ]
+    },
+    {
+     "problem": "Front light or pushing in corners",
+     "fix": "Less rear sag (100-102 mm), a few clicks more fork compression, fork raised 1-2 mm",
+     "result": "Better front-end tracking in ruts and more bite",
+     "support": 3,
+     "outlets": [
+      "Cycle News",
+      "Ultimate Motorcycling",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2025/02/article/2025-triumph-tf-450-rc-edition-review/",
+      "https://ultimatemotorcycling.com/2024/11/19/2025-triumph-tf-450-rc-edition-review-goat-developed/",
+      "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/"
+     ]
+    },
+    {
+     "problem": "Front hard to feel off the throttle",
+     "fix": "Aftermarket triple clamps",
+     "result": "Improved off-throttle front-end tracking",
+     "support": 1,
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/?p=29670"
+     ]
+    },
+    {
+     "problem": "Vague clutch with soft bite",
+     "fix": "Aftermarket clutch kit with stiffer spring and extra steel plates",
+     "result": "Firmer pull, more bite and shorter engagement; noticeable but not dramatic",
+     "support": 2,
+     "outlets": [
+      "Keefer Inc Testing",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://keeferinctesting.com/?p=28824",
+      "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/"
+     ]
+    },
+    {
+     "problem": "Wants more low-mid pull",
+     "fix": "FMF full system or opening the stock muffler baffle",
+     "result": "FMF gave longer, stronger midrange in 2nd and 3rd with a softer initial crack; baffle mod gave only a small gain",
+     "support": 2,
+     "outlets": [
+      "Keefer Inc Testing",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/fmf-4-1-muffler-system-for-triumph-tf-450-rc-edition/",
+      "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/"
+     ]
+    },
+    {
+     "problem": "Heavier riders (195-240 lb) blowing through the fork",
+     "fix": "More fork oil (about 10 cc per leg) or stiffer fork springs, plus slightly stiffer compression and slower rebound",
+     "result": "Better g-out and jump-face support",
+     "support": 2,
+     "outlets": [
+      "Dirt Bike Test",
+      "Vital MX forum (owners)"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/",
+      "https://www.vitalmx.com/forums/moto-related/triumph-tf450-reviews-and-setup-tips"
+     ]
+    },
+    {
+     "problem": "Notchy shifts and false neutrals on early bikes",
+     "fix": "Dealer gearbox update; one owner polished gear dogs and shift-fork parts",
+     "result": "Owner reported cleaner shifting; bulletin outcome not yet confirmed",
+     "support": 1,
+     "outlets": [
+      "Vital MX forum (owners)"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/forums/moto-related/triumph-tf450-transmission-updates?page=5",
+      "https://www.vitalmx.com/forums/moto-related/possible-fix-triumph-tf-transmissions"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Suspension quality on stock settings",
+     "sides": [
+      "Plush, good hold-up and balanced for a mid-weight rider",
+      "Fork harsh and inconsistent, shock dead (all three testers in one 2026 shootout)"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/?p=101824",
+      "https://adbmag.com.au/editorial/mx-comparo-yamaha-yz450f-v-triumph-tf-450-x/",
+      "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx"
+     ]
+    },
+    {
+     "topic": "Bottom-end character",
+     "sides": [
+      "Soft off the bottom in the standard map",
+      "Standard map snappy and abrupt off the bottom",
+      "Good pull from just above idle, usable lugged a gear high"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/?p=100006",
+      "https://ultimatemotorcycling.com/2024/11/19/2025-triumph-tf-450-rc-edition-review-goat-developed/",
+      "https://dirtbiketest.com/fresh-dirt/world-debut-2025-triumph-tx450-rc-first-impression/"
+     ]
+    },
+    {
+     "topic": "Carmichael map",
+     "sides": [
+      "Sharper with more low-end hit",
+      "More controllable and linear than the standard map"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/?p=100006",
+      "https://ultimatemotorcycling.com/2024/11/19/2025-triumph-tf-450-rc-edition-review-goat-developed/"
+     ]
+    },
+    {
+     "topic": "Stock clutch durability",
+     "sides": [
+      "Plates lasted about 10 hours",
+      "Stock clutch held up over 20 hours"
+     ],
+     "urls": [
+      "https://keeferinctesting.com/?p=28824",
+      "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/"
+     ]
+    },
+    {
+     "topic": "Overall standing",
+     "sides": [
+      "Last of eight in a 2026 shootout",
+      "Even with a YZ450F head to head",
+      "Would have finished near the front of a 2025 shootout"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+      "https://adbmag.com.au/editorial/mx-comparo-yamaha-yz450f-v-triumph-tf-450-x/",
+      "https://dirtbikemagazine.com/?p=100006"
+     ]
+    },
+    {
+     "topic": "Spring rates for lighter riders",
+     "sides": [
+      "Stock springs suit a 170-175 lb rider",
+      "Riders at or under 170 lb may find stock springs too stiff"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/?p=101824",
+      "https://dirtbiketest.com/bike-tests/20-hour-test-triumph-tf450-rc/"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Triumph",
+   "model": "TF 450-C",
+   "years": [
+    2026
+   ],
+   "generation": "First generation cross-country (2026)",
+   "summary": "Few independent tests exist, all from wet clay woods launches. Testers liked the linear, connected roll-on and midrange, and one found it unusually resistant to stalling at low rpm, while another found little bottom end on tight greasy trail. Traction control split opinion, and two testers ran less sag than standard to help tight turning.",
+   "points": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "statement": "Roll-on is linear and connected, with the midrange as its strength.",
+     "years": [
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Cycle News",
+      "Motocross Performance Magazine"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2026/02/article/2026-triumph-tf-450-c-review/",
+      "https://www.mxpmag.com/?p=74917"
+     ]
+    },
+    {
+     "aspect": "engine_low",
+     "verdict": "neutral",
+     "statement": "Did not stall at low rpm in tight trail the way most 450s do.",
+     "years": [
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Performance Magazine"
+     ],
+     "urls": [
+      "https://www.mxpmag.com/?p=74917"
+     ]
+    },
+    {
+     "aspect": "electronics",
+     "verdict": "strength",
+     "statement": "Traction control raised for slick clay limited wheelspin and kept the rear in check.",
+     "years": [
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Ultimate Motorcycling",
+      "Cycle News"
+     ],
+     "urls": [
+      "https://ultimatemotorcycling.com/2025/11/04/2026-triumph-tf-450-c-review-testing-in-trails-heaven-wv/",
+      "https://www.cyclenews.com/2026/02/article/2026-triumph-tf-450-c-review/"
+     ]
+    },
+    {
+     "aspect": "suspension",
+     "verdict": "strength",
+     "statement": "Fork resisted bottoming on fast drop-offs and the shock used its full stroke for a 180 lb rider on stock clickers.",
+     "years": [
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Ultimate Motorcycling"
+     ],
+     "urls": [
+      "https://ultimatemotorcycling.com/2025/11/04/2026-triumph-tf-450-c-review-testing-in-trails-heaven-wv/"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "weakness",
+     "statement": "Engine flamed out at low speed under heavy throttle late in the day, with slow restarts; tester suspected rich mapping.",
+     "years": [
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Cycle News"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2026/02/article/2026-triumph-tf-450-c-review/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Slow turning in tight switchbacks",
+     "fix": "Run 102 mm race sag instead of the 105 mm standard",
+     "result": "More front weight bias and better turning",
+     "support": 2,
+     "outlets": [
+      "Ultimate Motorcycling",
+      "Cycle News"
+     ],
+     "urls": [
+      "https://ultimatemotorcycling.com/2025/11/04/2026-triumph-tf-450-c-review-testing-in-trails-heaven-wv/",
+      "https://www.cyclenews.com/2026/02/article/2026-triumph-tf-450-c-review/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Low-end strength in tight trail",
+     "sides": [
+      "Little bottom end; needs revs and momentum",
+      "Pulls linearly and does not stall at low rpm"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2026/02/article/2026-triumph-tf-450-c-review/",
+      "https://www.mxpmag.com/?p=74917"
+     ]
+    },
+    {
+     "topic": "Traction control",
+     "sides": [
+      "Useful on slick clay",
+      "Made the throttle feel flat; turned off"
+     ],
+     "urls": [
+      "https://ultimatemotorcycling.com/2025/11/04/2026-triumph-tf-450-c-review-testing-in-trails-heaven-wv/",
+      "https://www.mxpmag.com/?p=74917"
+     ]
+    },
+    {
+     "topic": "Race sag",
+     "sides": [
+      "102 mm for tight woods",
+      "108 mm on stock clickers"
+     ],
+     "urls": [
+      "https://ultimatemotorcycling.com/2025/11/04/2026-triumph-tf-450-c-review-testing-in-trails-heaven-wv/",
+      "https://www.mxpmag.com/?p=74917"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Triumph",
+   "model": "TF 250-C",
+   "years": [
+    2026
+   ],
+   "generation": "First generation cross-country (2026)",
+   "summary": "No independent tester or rider findings were found for the TF 250-C. It shares its platform with the TF 250-X, so 250-X engine and chassis findings are the closest reference, but nothing here confirms how the C-specific suspension and mapping ride.",
+   "points": [],
+   "common_fixes": [],
+   "disagreements": []
+  },
+  {
+   "make": "Triumph",
+   "model": "TF 250-E",
+   "years": [
+    2026
+   ],
+   "generation": "First generation enduro (2026)",
+   "summary": "Launch testers found the 250-E pulls cleanly from low revs without stalling, with a strong midrange that lets it hold gears longer. The upshift quickshifter can refuse a shift under hard acceleration. Suspension and clutch impressions were mixed between tests.",
+   "points": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "statement": "Pulls smoothly from low revs without stalling or popping, with a stronger midrange than expected that lets it hold each gear longer.",
+     "years": [
+      2026
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "MOTORRAD",
+      "1000PS",
+      "Enduro21",
+      "Bike Review AU"
+     ],
+     "urls": [
+      "https://www.motorradonline.de/enduro/triumph-tf-250e-450e-erster-fahrtest-well-done-aber-so-was-von/",
+      "https://www.1000ps.com/en-gb/article/3012584/test-triumph-tf-250-e-a-tf-450-e-2025",
+      "https://enduro21.com/en/news/tested-triumph-enduro-models-everything-you-need-to-know",
+      "https://bikereview.com.au/bike-review-triumph-tf-250-e-and-tf-450-e-enduro-launch/"
+     ]
+    },
+    {
+     "aspect": "engine_low",
+     "verdict": "weakness",
+     "statement": "On long steep climbs it needed a couple of stops where the 450-E went straight up.",
+     "years": [
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "MOTORRAD"
+     ],
+     "urls": [
+      "https://www.motorradonline.de/enduro/triumph-tf-250e-450e-erster-fahrtest-well-done-aber-so-was-von/"
+     ]
+    },
+    {
+     "aspect": "electronics",
+     "verdict": "weakness",
+     "statement": "Quickshifter works best at high revs and full throttle and sometimes fails to engage the next gear under hard acceleration.",
+     "years": [
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "1000PS",
+      "MOTORRAD"
+     ],
+     "urls": [
+      "https://www.1000ps.com/en-gb/article/3012584/test-triumph-tf-250-e-a-tf-450-e-2025",
+      "https://www.motorradonline.de/enduro/triumph-tf-250e-450e-erster-fahrtest-well-done-aber-so-was-von/"
+     ]
+    },
+    {
+     "aspect": "electronics",
+     "verdict": "strength",
+     "statement": "Traction control trims wheelspin rather than cutting power and works well in wet conditions.",
+     "years": [
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "MOTORRAD",
+      "Bike Review AU"
+     ],
+     "urls": [
+      "https://www.motorradonline.de/enduro/triumph-tf-250e-450e-erster-fahrtest-well-done-aber-so-was-von/",
+      "https://bikereview.com.au/bike-review-triumph-tf-250-e-and-tf-450-e-enduro-launch/"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "statement": "Difference between the soft and standard maps is noticeable but not extreme; the soft map suits singletrack.",
+     "years": [
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "1000PS"
+     ],
+     "urls": [
+      "https://www.1000ps.com/en-gb/article/3012584/test-triumph-tf-250-e-a-tf-450-e-2025"
+     ]
+    },
+    {
+     "aspect": "suspension",
+     "verdict": "strength",
+     "statement": "Baseline is firm but not harsh, and most riders can skip a suspension shop.",
+     "years": [
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "MOTORRAD"
+     ],
+     "urls": [
+      "https://www.motorradonline.de/enduro/triumph-tf-250e-450e-erster-fahrtest-well-done-aber-so-was-von/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Handling not settled",
+     "fix": "A couple of clicks more compression and 40 mm static sag (set with a KYB technician)",
+     "result": "Calmer handling",
+     "support": 1,
+     "outlets": [
+      "Enduro21"
+     ],
+     "urls": [
+      "https://enduro21.com/en/news/tested-triumph-enduro-models-everything-you-need-to-know"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Clutch feel",
+     "sides": [
+      "Excellent, can lug up a hill with one finger",
+      "Heavy clutch pull"
+     ],
+     "urls": [
+      "https://www.motorradonline.de/enduro/triumph-tf-250e-450e-erster-fahrtest-well-done-aber-so-was-von/",
+      "https://enduro21.com/en/news/tested-triumph-enduro-models-everything-you-need-to-know"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Triumph",
+   "model": "TF 450-E",
+   "years": [
+    2026
+   ],
+   "generation": "First generation enduro (2026)",
+   "summary": "Testers describe the 450-E as linear, controllable and easy to lug, with a strong midrange and a light, almost 350-like feel. The main chassis complaint is a fork that is softer than the shock and dives on braking or at speed, which several testers balanced by lowering the rear. The rev limiter is abrupt and the quickshifter can balk under hard acceleration.",
+   "points": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "statement": "Delivery is linear and controllable with a broad torque spread; it lugs well and feels lighter than its size.",
+     "years": [
+      2026
+     ],
+     "support": 5,
+     "strength": "strong consensus",
+     "outlets": [
+      "MOTORRAD",
+      "Bike Review AU",
+      "Vital MX",
+      "Cycle News",
+      "Australasian Dirt Bike"
+     ],
+     "urls": [
+      "https://www.motorradonline.de/enduro/triumph-tf-250e-450e-erster-fahrtest-well-done-aber-so-was-von/",
+      "https://bikereview.com.au/bike-review-triumph-tf-250-e-and-tf-450-e-enduro-launch/",
+      "https://www.vitalmx.com/features/2026-triumph-tf-450-e-dual-sport-or-xc-race-bike-vital-mx-tested",
+      "https://www.cyclenews.com/2025/08/article/2026-triumph-tf-450-e-review/",
+      "https://adbmag.com.au/editorial/enduro-launch-2026-triumph-tf-450-e-2/"
+     ]
+    },
+    {
+     "aspect": "engine_mid",
+     "verdict": "strength",
+     "statement": "Midrange is its standout and pulls harder than a typical trail bike.",
+     "years": [
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Cycle News",
+      "Vital MX"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2025/08/article/2026-triumph-tf-450-e-review/",
+      "https://www.vitalmx.com/features/2026-triumph-tf-450-e-dual-sport-or-xc-race-bike-vital-mx-tested"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "statement": "The soft map is noticeably smoother and suits casual trail riding or mud, while the standard map suits racing.",
+     "years": [
+      2026
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Cycle News",
+      "1000PS",
+      "MOTORRAD"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2025/08/article/2026-triumph-tf-450-e-review/",
+      "https://www.1000ps.com/en-gb/article/3012584/test-triumph-tf-250-e-a-tf-450-e-2025",
+      "https://www.motorradonline.de/enduro/triumph-tf-250e-450e-erster-fahrtest-well-done-aber-so-was-von/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Fork is softer than the shock and dives on hard braking or reaches its limits at speed on rough ground.",
+     "years": [
+      2026
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Vital MX",
+      "1000PS",
+      "Dirt Bike Magazine"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/features/2026-triumph-tf-450-e-dual-sport-or-xc-race-bike-vital-mx-tested",
+      "https://www.1000ps.com/en-gb/article/3012584/test-triumph-tf-250-e-a-tf-450-e-2025",
+      "https://dirtbikemagazine.com/off-road-impression-triumph-tf450-e/"
+     ]
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "statement": "Shock rebound is a little fast and the rear could use more bottoming resistance in big high-speed whoops.",
+     "years": [
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2026-triumph-tf450-e-first-impression/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "statement": "Rev limiter is abrupt and buzzes the pegs and bars.",
+     "years": [
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Vital MX"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/features/2026-triumph-tf-450-e-dual-sport-or-xc-race-bike-vital-mx-tested"
+     ]
+    },
+    {
+     "aspect": "electronics",
+     "verdict": "weakness",
+     "statement": "Quickshifter sometimes fails to engage the next gear under hard acceleration.",
+     "years": [
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "1000PS",
+      "MOTORRAD"
+     ],
+     "urls": [
+      "https://www.1000ps.com/en-gb/article/3012584/test-triumph-tf-250-e-a-tf-450-e-2025",
+      "https://www.motorradonline.de/enduro/triumph-tf-250e-450e-erster-fahrtest-well-done-aber-so-was-von/"
+     ]
+    },
+    {
+     "aspect": "electronics",
+     "verdict": "strength",
+     "statement": "Traction control keeps slip low in wet conditions.",
+     "years": [
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Bike Review AU",
+      "MOTORRAD"
+     ],
+     "urls": [
+      "https://bikereview.com.au/bike-review-triumph-tf-250-e-and-tf-450-e-enduro-launch/",
+      "https://www.motorradonline.de/enduro/triumph-tf-250e-450e-erster-fahrtest-well-done-aber-so-was-von/"
+     ]
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "strength",
+     "statement": "Stock 13/51 gearing with six well-spaced ratios felt about right.",
+     "years": [
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Australasian Dirt Bike"
+     ],
+     "urls": [
+      "https://adbmag.com.au/editorial/enduro-launch-2026-triumph-tf-450-e-2/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Fork dives and the bike sits nose-down",
+     "fix": "Lower the rear (race sag 105-108 mm), add fork compression and slow fork rebound",
+     "result": "Bike levels out and the front holds up better",
+     "support": 3,
+     "outlets": [
+      "Vital MX",
+      "Dirt Bike Magazine",
+      "Australasian Dirt Bike"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/features/2026-triumph-tf-450-e-dual-sport-or-xc-race-bike-vital-mx-tested",
+      "https://dirtbikemagazine.com/off-road-impression-triumph-tf450-e/",
+      "https://adbmag.com.au/editorial/enduro-launch-2026-triumph-tf-450-e-2/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Suspension baseline",
+     "sides": [
+      "Firm but not harsh, or balanced and compliant",
+      "Fork too soft for fast riding"
+     ],
+     "urls": [
+      "https://www.motorradonline.de/enduro/triumph-tf-250e-450e-erster-fahrtest-well-done-aber-so-was-von/",
+      "https://www.keeferinctesting.com/2026-triumph-tf450-e-first-impression/",
+      "https://www.1000ps.com/en-gb/article/3012584/test-triumph-tf-250-e-a-tf-450-e-2025",
+      "https://www.vitalmx.com/features/2026-triumph-tf-450-e-dual-sport-or-xc-race-bike-vital-mx-tested"
+     ]
+    },
+    {
+     "topic": "Race sag",
+     "sides": [
+      "102 mm as recommended by KYB",
+      "105-108 mm to level the bike"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2026-triumph-tf450-e-first-impression/",
+      "https://www.vitalmx.com/features/2026-triumph-tf-450-e-dual-sport-or-xc-race-bike-vital-mx-tested",
+      "https://adbmag.com.au/editorial/enduro-launch-2026-triumph-tf-450-e-2/"
+     ]
+    },
+    {
+     "topic": "Map choice in the wet",
+     "sides": [
+      "Soft map plus traction control",
+      "Full-power map, since traction control already limits slip",
+      "Soft map too soft low down"
+     ],
+     "urls": [
+      "https://www.motorradonline.de/enduro/triumph-tf-250e-450e-erster-fahrtest-well-done-aber-so-was-von/",
+      "https://bikereview.com.au/bike-review-triumph-tf-250-e-and-tf-450-e-enduro-launch/",
+      "https://www.vitalmx.com/features/2026-triumph-tf-450-e-dual-sport-or-xc-race-bike-vital-mx-tested"
+     ]
+    },
+    {
+     "topic": "Clutch feel",
+     "sides": [
+      "Excellent",
+      "Heavy pull"
+     ],
+     "urls": [
+      "https://www.motorradonline.de/enduro/triumph-tf-250e-450e-erster-fahrtest-well-done-aber-so-was-von/",
+      "https://enduro21.com/en/news/tested-triumph-enduro-models-everything-you-need-to-know"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Suzuki",
+   "model": "RM-Z250",
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "generation": "2019-2025 generation (pool covers 2019, 2020, 2024)",
+   "summary": "Testers agree the RM-Z250 is sprung and valved too stiff at both ends for most riders, and that its engine has a good bottom but fades through the mid and top. Once the suspension is softened it is rated one of the best-cornering 250Fs. It sits at the back of recent shootouts and was lowest on one dyno comparison. Reported reliability on a hard-raced project bike was good.",
+   "points": [
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Fork and shock are too stiff for most riders, deflecting on dry chop; testers wanted a spring rate softer at each end.",
+     "years": [
+      2019,
+      2020,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-15-2020-suzuki-rm-z250-test/",
+      "https://www.keeferinctesting.com/2020-6-22-2020-suzuki-rm-z250-blue-collar-project-part-two/",
+      "https://www.keeferinctesting.com/27522-2/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/"
+     ]
+    },
+    {
+     "aspect": "engine_mid",
+     "verdict": "weakness",
+     "statement": "Good, snappy bottom end but power flattens through the mid and signs off on top, forcing short shifts.",
+     "years": [
+      2019,
+      2020,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-15-2020-suzuki-rm-z250-test/",
+      "https://www.keeferinctesting.com/2020-8-9-2020-suzuki-rm-z-250-blue-collar-project/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "statement": "Lowest peak power of eight 250s on one 2025 dyno comparison.",
+     "years": [
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/250-motocross-bikes-on-the-dyno-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "statement": "Among the best-cornering 250Fs once the springs are softened; suits front-end steerers.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-15-2020-suzuki-rm-z250-test/"
+     ]
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "statement": "Rear sits high and stiff, costing rear traction.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-15-2020-suzuki-rm-z250-test/"
+     ]
+    },
+    {
+     "aspect": "stability",
+     "verdict": "weakness",
+     "statement": "Chassis feels stiff on chop and slap-downs.",
+     "years": [
+      2019,
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-8-9-2020-suzuki-rm-z-250-blue-collar-project/"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "statement": "White coupler is the most aggressive, freer-revving map; grey feels rich and smooth.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-15-2020-suzuki-rm-z250-test/"
+     ]
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "strength",
+     "statement": "Brakes stay controllable with no fade over long hill sessions.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-15-2020-suzuki-rm-z250-test/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "statement": "Stock clutch slips under heavy load.",
+     "years": [
+      2019,
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-6-22-2020-suzuki-rm-z250-blue-collar-project-part-two/"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "strength",
+     "statement": "Hard-raced project bike had no issues.",
+     "years": [
+      2019,
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-8-9-2020-suzuki-rm-z-250-blue-collar-project/"
+     ]
+    },
+    {
+     "aspect": "other",
+     "verdict": "weakness",
+     "statement": "Finishes last in recent 250 shootouts.",
+     "years": [
+      2024,
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/27522-2/",
+      "https://motocrossactionmag.com/2025-motocross-action-250-shootout-suzuki-triumph-kawasaki-honda-yamaha-gasgas-husqvarna-ktm"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Suspension too stiff, harsh on chop",
+     "fix": "Softer springs (about 4.9 N/mm fork, 50 N/mm shock) or a revalve with lighter springs; 108 mm sag",
+     "result": "More compliance, calmer chassis, better turning and stability",
+     "support": 2,
+     "outlets": [
+      "Keefer Inc Testing",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-15-2020-suzuki-rm-z250-test/",
+      "https://www.keeferinctesting.com/2020-6-22-2020-suzuki-rm-z250-blue-collar-project-part-two/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/"
+     ]
+    },
+    {
+     "problem": "Flat midrange and weak top",
+     "fix": "Aftermarket exhaust, or porting, valve job and ECU work",
+     "result": "Better character; about 10% more mid-top on the dyno with the engine work",
+     "support": 2,
+     "outlets": [
+      "Dirt Bike Test",
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/",
+      "https://www.keeferinctesting.com/2020-8-9-2020-suzuki-rm-z-250-blue-collar-project/"
+     ]
+    },
+    {
+     "problem": "Feels air-starved when ridden hard",
+     "fix": "Cut the airbox snorkels and open the airbox edges",
+     "result": "Better response and pull everywhere; louder and dirtier filter",
+     "support": 1,
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-6-3-2020-suzuki-rm-z250-tipstricks-part-1/"
+     ]
+    },
+    {
+     "problem": "Stiff chassis on chop",
+     "fix": "4 mm hole drilled in the upper engine mounts",
+     "result": "Softer over chop and slap-downs with more front bite",
+     "support": 1,
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-8-9-2020-suzuki-rm-z-250-blue-collar-project/"
+     ]
+    },
+    {
+     "problem": "Clutch slip under load",
+     "fix": "Aftermarket clutch pack",
+     "result": "Hooks up and lightens the pull",
+     "support": 1,
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-6-22-2020-suzuki-rm-z250-blue-collar-project-part-two/"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "make": "Suzuki",
+   "model": "RM-Z450",
+   "years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "generation": "2018-2026 generation (pool covers 2020-2026)",
+   "summary": "The RM-Z450 is consistently praised for cornering: it leans in easily and holds ruts. The air-free BFRC shock is the most repeated complaint, being hard to set up, harsh in the rough and prone to riding high off the throttle, and the coil fork also wants softening or a revalve. The engine fades on top and rewards short shifting, most testers add a tooth to the rear sprocket, and it is the heaviest 450 with no electric start or hydraulic clutch.",
+   "points": [
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "statement": "Leans into corners easily, holds ruts well and has a sharp turn-in.",
+     "years": [
+      2020,
+      2024,
+      2025
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-25-2020-450-mx-bracket-shootout-fourth-fifth-sixth/",
+      "https://www.keeferinctesting.com/living-with-the-2025-suzuki-rm-z450-part-two/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/"
+     ]
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "statement": "BFRC shock is hard to dial in, harsh in rough conditions, and rides high or kicks off the throttle into corners.",
+     "years": [
+      2020,
+      2021,
+      2024,
+      2025,
+      2026
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action",
+      "Dirt Bike Magazine"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-25-2020-450-mx-bracket-shootout-fourth-fifth-sixth/",
+      "https://www.keeferinctesting.com/2021-6-28-top-5-mods-to-the-2021-suzuki-rm-z450/",
+      "https://www.keeferinctesting.com/living-with-the-2025-suzuki-rm-z450-part-two/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/",
+      "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Showa coil fork is stiff and benefits from softer compression or a revalve.",
+     "years": [
+      2024,
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/"
+     ]
+    },
+    {
+     "aspect": "stability",
+     "verdict": "weakness",
+     "statement": "Rigid chassis gives head shake in successive chop and at speed in rough sections.",
+     "years": [
+      2020,
+      2021,
+      2024,
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-7-6-ride-engineering-22mm-triple-clamp-and-one-piece-bar-mount-suzuki-rm-z450/",
+      "https://www.keeferinctesting.com/rm-z450-race-tech-re-valve/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "statement": "Fades on top and revs out quickly, so it works best short-shifted.",
+     "years": [
+      2020,
+      2024,
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-25-2020-450-mx-bracket-shootout-fourth-fifth-sixth/",
+      "https://www.keeferinctesting.com/living-with-the-2025-suzuki-rm-z450-part-two/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/"
+     ]
+    },
+    {
+     "aspect": "engine_mid",
+     "verdict": "neutral",
+     "statement": "Mid-to-lower pack on a 2026 twelve-bike dyno comparison.",
+     "years": [
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/?p=101733"
+     ]
+    },
+    {
+     "aspect": "weight_feel",
+     "verdict": "weakness",
+     "statement": "Heaviest 450 on magazine scales.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike Magazine"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/",
+      "https://dirtbikemagazine.com/?p=101824"
+     ]
+    },
+    {
+     "aspect": "features",
+     "verdict": "weakness",
+     "statement": "Kick start only, with a cable clutch rather than hydraulic.",
+     "years": [
+      2024,
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike Magazine"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/",
+      "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "statement": "Stock clutch fades quickly and has a narrow engagement.",
+     "years": [
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2021-6-28-top-5-mods-to-the-2021-suzuki-rm-z450/"
+     ]
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "weakness",
+     "statement": "Front brake is powerful but grabby.",
+     "years": [
+      2024,
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "weakness",
+     "statement": "Cold-blooded and rich for the first lap.",
+     "years": [
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/living-with-the-2025-suzuki-rm-z450-part-two/"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "neutral",
+     "statement": "30+ hours on a 2025 bike with only routine maintenance, though a 2021 test bike leaked a shock seal early.",
+     "years": [
+      2021,
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/living-with-the-2025-suzuki-rm-z450-part-two/",
+      "https://www.keeferinctesting.com/rm-z450-race-tech-re-valve/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Bogs or wants third gear sooner out of turns",
+     "fix": "One tooth larger rear (13/51 instead of 13/50), or one to two teeth",
+     "result": "Better drive out of tight turns",
+     "support": 3,
+     "outlets": [
+      "Motocross Action",
+      "Keefer Inc Testing",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/",
+      "https://www.keeferinctesting.com/2021-4-1-2021-250450-motocross-gearing-specs/",
+      "https://www.keeferinctesting.com/living-with-the-2025-suzuki-rm-z450-part-two/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/"
+     ]
+    },
+    {
+     "problem": "Shock rides high off throttle and the bike knifes on entry",
+     "fix": "Lower the rear with longer link arms and about 107 mm sag; some testers swap in the RM-Z250 shock",
+     "result": "Calmer corner entry and firmer initial stroke",
+     "support": 2,
+     "outlets": [
+      "Motocross Action",
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/",
+      "https://www.keeferinctesting.com/2021-6-28-top-5-mods-to-the-2021-suzuki-rm-z450/"
+     ]
+    },
+    {
+     "problem": "Head shake in chop",
+     "fix": "Lower the rear and raise the front, add fork flex with softer-flexing clamps, or a fork revalve",
+     "result": "Settled corner entry and less head shake",
+     "support": 2,
+     "outlets": [
+      "Motocross Action",
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/",
+      "https://www.keeferinctesting.com/2020-7-6-ride-engineering-22mm-triple-clamp-and-one-piece-bar-mount-suzuki-rm-z450/",
+      "https://www.keeferinctesting.com/rm-z450-race-tech-re-valve/"
+     ]
+    },
+    {
+     "problem": "Stiff fork",
+     "fix": "Two clicks softer compression",
+     "result": "Noticeably better",
+     "support": 1,
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/"
+     ]
+    },
+    {
+     "problem": "Lethargic power",
+     "fix": "Full exhaust system",
+     "result": "Cleaner, longer pull; no extra bottom end",
+     "support": 1,
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-6-24-2020-fmf-factory-rct-41-stainless-full-system-suzuki-rm-z450/"
+     ]
+    },
+    {
+     "problem": "Lacks bottom pull",
+     "fix": "Slip-on with insert, higher-compression piston, optional aggressive map",
+     "result": "More bottom and exit pull",
+     "support": 1,
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2021-6-28-top-5-mods-to-the-2021-suzuki-rm-z450/",
+      "https://www.keeferinctesting.com/2021-5-7-optional-2021-rm-z450-mx-tuner-20-aggressive-map/"
+     ]
+    },
+    {
+     "problem": "Clutch fade",
+     "fix": "Full aftermarket clutch kit",
+     "result": "Firmer feel and longer plate life",
+     "support": 1,
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2021-6-28-top-5-mods-to-the-2021-suzuki-rm-z450/"
+     ]
+    },
+    {
+     "problem": "Coolant loss in long motos",
+     "fix": "Higher-pressure radiator cap",
+     "result": "Stopped the loss",
+     "support": 1,
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Bottom-end strength",
+     "sides": [
+      "Strong low end with best pull 7,000-8,800 rpm",
+      "Lacks bottom pull and recovers slowly a gear high"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/",
+      "https://www.keeferinctesting.com/2021-6-28-top-5-mods-to-the-2021-suzuki-rm-z450/"
+     ]
+    }
+   ]
+  }
+ ]
+}

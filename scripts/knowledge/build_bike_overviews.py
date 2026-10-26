@@ -5,16 +5,23 @@ Reads docs/research/overviews/*.json (built from the research pools with a sourc
 keeps statements, years, support counts and strength, but no outlet names or links: Ask BAK uses it as background and
 says "testers consistently report ..." without naming anyone. Points supported by one source are kept but marked."""
 import glob,json,os,re
+from urllib.parse import urlparse
 root=os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 NAMES=re.compile(r"\b(Kris Keefer|Keefer|Motocross Action|MXA|Dirt Bike(?: magazine)?|Vital ?MX|Swapmoto(?: Live)?|Racer X|Dirt Rider|Cycle News|Mark Johnson|REP Suspension|Factory Connection|Race Tech|Pro Circuit|ThumperTalk)\b",re.I)
 clean=lambda s:NAMES.sub('a tester',s or '').strip()
+def support(p):
+    # Never trust a stated count above the number of distinct sites actually linked.
+    sites={urlparse(u).netloc.replace('www.','') for u in p.get('urls') or [] if u}
+    n=int(p.get('support') or 1)
+    return min(n,len(sites)) if sites else min(n,1)
+strength=lambda n:'strong consensus' if n>=3 else 'consensus' if n==2 else 'single source'
 out={};n=0
 for f in sorted(glob.glob(os.path.join(root,'docs','research','overviews','*.json'))):
     for b in json.load(open(f))['bikes']:
         key=f"{b['make']}|{b['model']}"
-        pts=[{'aspect':p.get('aspect'),'verdict':p.get('verdict'),'statement':clean(p['statement']),'years':p.get('years') or b['years'],'support':p.get('support',1),'strength':p.get('strength','single source')} for p in b.get('points',[]) if p.get('statement')]
+        pts=[{'aspect':p.get('aspect'),'verdict':p.get('verdict'),'statement':clean(p['statement']),'years':p.get('years') or b['years'],'support':support(p),'strength':strength(support(p))} for p in b.get('points',[]) if p.get('statement')]
         pts.sort(key=lambda p:-p['support'])
-        fixes=[{'problem':clean(x.get('problem')),'fix':clean(x.get('fix')),'result':clean(x.get('result')),'support':x.get('support',1)} for x in b.get('common_fixes',[])]
+        fixes=[{'problem':clean(x.get('problem')),'fix':clean(x.get('fix')),'result':clean(x.get('result')),'support':support(x)} for x in b.get('common_fixes',[])]
         dis=[{'topic':clean(x.get('topic')),'sides':[clean(s) for s in x.get('sides',[])]} for x in b.get('disagreements',[])]
         out.setdefault(key,[]).append({'years':b['years'],'generation':clean(b.get('generation','')),'summary':clean(b.get('summary','')),'points':pts,'common_fixes':fixes,'disagreements':dis});n+=1
 dst=os.path.join(root,'server','bike-overviews.ts')
