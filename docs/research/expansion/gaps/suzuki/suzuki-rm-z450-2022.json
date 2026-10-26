@@ -1,0 +1,34 @@
+{
+ "target": {
+  "manufacturer": "Suzuki",
+  "model": "RM-Z450",
+  "model_year": 2022,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "Suzuki Releases Additional 2022 Models (Suzuki Motor USA press release, June 9, 2021)",
+  "source_url": "https://suzukicycles.com/news/2020/11/suzuki-releases-additional-2022-models",
+  "kind": "maker_press_release",
+  "document_revision": "2021-06-09",
+  "sha256": "08bf5ba5eaeb6b62e3650f71327fcb578b3e69d2737c82315c7ea290d74fb62c"
+ },
+ "values": [
+  {
+   "joint": "Motocross Models / EFI tuning tool and fuel couplers",
+   "value": "MX-Tuner 2.0 app system and fuel-coupler system included with each 2022 RM-Z450",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "Motocross Models: RM-Z450"
+  },
+  {
+   "joint": "Pricing / MSRP",
+   "value": "$8,999",
+   "unit": "USD",
+   "property": "specification",
+   "conditions": [],
+   "page": "Motocross Models: RM-Z450"
+  }
+ ]
+}

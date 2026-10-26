@@ -1,0 +1,82 @@
+{
+ "target": {
+  "manufacturer": "Suzuki",
+  "model": "RM-Z250",
+  "model_year": 2024,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "Suzuki RM-Z Motocross Motorcycles & Select Youth Products Launch for 2024 (Suzuki Motor USA press release, June 21, 2023)",
+  "source_url": "https://suzukicycles.com/news/2023/06/suzuki-rmz-motocross-motorcycles-and-select-youth-products-launch-for-2024",
+  "kind": "maker_press_release",
+  "document_revision": "2023-06-21",
+  "sha256": "5b2345d29fa4c1837e62bcbe3f14a8a31a7b69d5bcb96d1ce5688757a9ff5f25"
+ },
+ "values": [
+  {
+   "joint": "Key Features / Suspension supplier",
+   "value": "KYB (coil spring fork and rear shock)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "RM-Z250 section, Key Features"
+  },
+  {
+   "joint": "Key Features / Rear shock adjustment",
+   "value": "Four-way damping force adjustment",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "RM-Z250 section"
+  },
+  {
+   "joint": "Key Features / Fuel system",
+   "value": "Dual fuel injector system",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "RM-Z250 section, Key Features"
+  },
+  {
+   "joint": "Key Features / Tires",
+   "value": "Dunlop MX33",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "RM-Z250 section, Key Features"
+  },
+  {
+   "joint": "Key Features / EFI tuning tool supplied",
+   "value": "MX-Tuner 2.0 (smartphone application)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "RM-Z250 section, Key Features"
+  },
+  {
+   "joint": "Key Features / Fuel couplers",
+   "value": "Included with the bike",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "RM-Z250 section, Key Features"
+  },
+  {
+   "joint": "Key Features / Starting aid",
+   "value": "Suzuki Holeshot Assist Control (S-HAC)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "RM-Z250 section, Key Features"
+  },
+  {
+   "joint": "Pricing / MSRP",
+   "value": "$8,099",
+   "unit": "USD",
+   "property": "specification",
+   "conditions": [],
+   "page": "RM-Z250 section"
+  }
+ ]
+}

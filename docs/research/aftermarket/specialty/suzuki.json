@@ -1,0 +1,396 @@
+{
+ "slice": "Suzuki web pass (aftermarket)",
+ "generated": "2026-10-26",
+ "notes": "Specialty product shape as in specialty/honda.json. Prices are as seen on the cited page/date. Avoids products already in aftermarket/specialty/*.json (Pro Circuit engine parts, Twisted Development ECU items, Ride Engineering clamps/link listing, REP springs, Hot Cams) except where a media test adds a result. Product pages for Pro Circuit, Race Tech, Enzo, MX-Tech, Factory Connection, Twisted Development and Yoshimura were unreachable or had no searchable RM-Z fitment from this environment.",
+ "products": [
+  {
+   "category": "chassis",
+   "subcategory": "engine mounts",
+   "brand": "FCP Racing",
+   "product": "Suzuki RM-Z450 engine mount kit (2018-2026)",
+   "part_numbers": [
+    "EMK-S4F-001"
+   ],
+   "variants": [
+    "$429.00 listed 2026-10-26",
+    "CNC titanium front mounts, aluminum top mounts, titanium bolt; 395 g listed"
+   ],
+   "fits": [
+    {
+     "make": "Suzuki",
+     "model": "RM-Z450",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ]
+    }
+   ],
+   "what_it_changes": "Replaces stock engine mounts to add torsional flex to a rigid chassis.",
+   "claimed_result": "Maker claims plusher feel, better front traction; AMA Limited/Stock legal.",
+   "url": "https://fcpracing.com/product/suzuki-rm-z450-2018-2026/",
+   "source_date": "2026-10-26",
+   "id": "sz-001"
+  },
+  {
+   "category": "chassis",
+   "subcategory": "engine mounts",
+   "brand": "FCP Racing",
+   "product": "Suzuki RM-Z250 engine mount kit (2019-2026)",
+   "part_numbers": [
+    "EMK-S2F-001"
+   ],
+   "variants": [
+    "$449.00 listed 2026-10-26",
+    "CNC titanium front mounts, aluminum top mounts"
+   ],
+   "fits": [
+    {
+     "make": "Suzuki",
+     "model": "RM-Z250",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ]
+    }
+   ],
+   "what_it_changes": "Replaces stock engine mounts to add chassis compliance.",
+   "claimed_result": "Maker claims plusher feel and better front traction; MXA 2025 RM-Z250 test cites these mounts for the stiff frame.",
+   "url": "https://fcpracing.com/product/suzuki-rm-z250-2019-2026/",
+   "source_date": "2026-10-26",
+   "id": "sz-002"
+  },
+  {
+   "category": "suspension",
+   "subcategory": "re-valve service",
+   "brand": "Race Tech",
+   "product": "Fork and shock re-valve with Gold Valves and lighter springs (RM-Z250)",
+   "part_numbers": [],
+   "variants": [
+    "Valved for tester spec; lighter springs front and rear"
+   ],
+   "fits": [
+    {
+     "make": "Suzuki",
+     "model": "RM-Z250",
+     "years": [
+      2020
+     ]
+    }
+   ],
+   "what_it_changes": "Damping and spring rates on KYB fork and shock.",
+   "claimed_result": "Tester: much more front-end comfort, calmer chassis, kept bottoming resistance.",
+   "url": "https://www.keeferinctesting.com/2020-6-22-2020-suzuki-rm-z250-blue-collar-project-part-two/",
+   "source_date": "2020-06-22",
+   "id": "sz-003"
+  },
+  {
+   "category": "suspension",
+   "subcategory": "re-valve service",
+   "brand": "Race Tech",
+   "product": "Showa coil fork and BFRC shock re-valve with Gold Valves and softer springs (RM-Z450)",
+   "part_numbers": [],
+   "variants": [
+    "Swapmoto bike: valved to test-rider spec, softer fork and shock springs",
+    "Keefer loan bike: valved for an intermediate rider, stiffer springs"
+   ],
+   "fits": [
+    {
+     "make": "Suzuki",
+     "model": "RM-Z450",
+     "years": [
+      2020,
+      2021
+     ]
+    }
+   ],
+   "what_it_changes": "Fork and BFRC shock damping and springs.",
+   "claimed_result": "Testers: shock gains rebound control and stops lifting; harshness in rough terrain largely gone; head shake reduced but not eliminated.",
+   "url": "https://swapmotolive.com/race-tech-transforms-our-2020-suzuki-rm-z450/features/",
+   "source_date": "2020-07-21",
+   "id": "sz-004"
+  },
+  {
+   "category": "engine",
+   "subcategory": "cylinder head service",
+   "brand": "Race Tech",
+   "product": "Head porting, five-angle valve job and matched Vortex ECU map (RM-Z250)",
+   "part_numbers": [],
+   "variants": [
+    "About $1500 for head work plus ECU per tester"
+   ],
+   "fits": [
+    {
+     "make": "Suzuki",
+     "model": "RM-Z250",
+     "years": [
+      2020
+     ]
+    }
+   ],
+   "what_it_changes": "Intake/exhaust flow and fuel/ignition map.",
+   "claimed_result": "Tuner dyno: about 10% more power through mid and top; tester felt broader, easier power.",
+   "url": "https://www.keeferinctesting.com/2020-8-9-2020-suzuki-rm-z-250-blue-collar-project/",
+   "source_date": "2020-08-09",
+   "id": "sz-005"
+  },
+  {
+   "category": "suspension",
+   "subcategory": "linkage",
+   "brand": "Ride Engineering",
+   "product": "1mm-longer performance (lowering) link, 2018-2020 RM-Z450",
+   "part_numbers": [],
+   "variants": [
+    "$219.99 at time of test"
+   ],
+   "fits": [
+    {
+     "make": "Suzuki",
+     "model": "RM-Z450",
+     "years": [
+      2018,
+      2019,
+      2020
+     ]
+    }
+   ],
+   "what_it_changes": "Lowers the rear and changes shock leverage.",
+   "claimed_result": "Tester: rear settles on decel, less knifing on corner entry; run 107mm sag with fork height 4-5mm.",
+   "url": "https://www.keeferinctesting.com/2020-3-31-ride-engineering-2018-2020-suzuki-rm-z-450-performance-link/",
+   "source_date": "2020-03-31",
+   "id": "sz-006"
+  },
+  {
+   "category": "suspension",
+   "subcategory": "linkage",
+   "brand": "Pro Circuit",
+   "product": "Longer shock linkage (RM-Z450)",
+   "part_numbers": [],
+   "variants": [
+    "MXA ran it for several seasons"
+   ],
+   "fits": [
+    {
+     "make": "Suzuki",
+     "model": "RM-Z450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    }
+   ],
+   "what_it_changes": "Lowers the rear and firms the initial shock stroke.",
+   "claimed_result": "MXA recommends a 1mm-longer link with 105mm race sag.",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-suzuki-rm-z450",
+   "source_date": "2023-12-11",
+   "id": "sz-007"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full system",
+   "brand": "FMF",
+   "product": "Factory 4.1 RCT stainless full system (RM-Z450)",
+   "part_numbers": [],
+   "variants": [
+    "$749.99 at time of test",
+    "Tester weight 6 lb 11 oz vs about 9 lb stock"
+   ],
+   "fits": [
+    {
+     "make": "Suzuki",
+     "model": "RM-Z450",
+     "years": [
+      2020
+     ]
+    }
+   ],
+   "what_it_changes": "Exhaust; about 3 lb lighter than stock.",
+   "claimed_result": "Tester: cleaner, longer pull and better over-rev; no extra third-gear lugging.",
+   "url": "https://www.keeferinctesting.com/2020-6-24-2020-fmf-factory-rct-41-stainless-full-system-suzuki-rm-z450/",
+   "source_date": "2020-06-25",
+   "id": "sz-008"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full system",
+   "brand": "Pro Circuit",
+   "product": "T-6 exhaust (RM Army Edition kit)",
+   "part_numbers": [],
+   "variants": [
+    "Stainless head pipe, titanium silencer shell, carbon end cap; free with 2024 RM-Z bought by 2023-09-30 per Suzuki"
+   ],
+   "fits": [
+    {
+     "make": "Suzuki",
+     "model": "RM-Z450",
+     "years": [
+      2024
+     ]
+    },
+    {
+     "make": "Suzuki",
+     "model": "RM-Z250",
+     "years": [
+      2024
+     ]
+    }
+   ],
+   "what_it_changes": "Exhaust plus matching Pro Circuit map via MX-Tuner.",
+   "claimed_result": "Dirt Bike: a little more top-end power and less weight; MXA: PC map much better than stock on the RM-Z250.",
+   "url": "https://dirtbikemagazine.com/2024-suzuki-rmz450-rm-army-edition-full-test/",
+   "source_date": "2023-12-09",
+   "id": "sz-009"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "slip-on",
+   "brand": "Pro Circuit",
+   "product": "Slip-on muffler with insert (RM-Z450)",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Suzuki",
+     "model": "RM-Z450",
+     "years": [
+      2021
+     ]
+    }
+   ],
+   "what_it_changes": "Exhaust back pressure via insert.",
+   "claimed_result": "Tester: with insert fitted, better bottom-mid response and recovery when a gear high; top end unchanged.",
+   "url": "https://www.keeferinctesting.com/2021-6-28-top-5-mods-to-the-2021-suzuki-rm-z450/",
+   "source_date": "2021-06-28",
+   "id": "sz-010"
+  },
+  {
+   "category": "engine",
+   "subcategory": "piston",
+   "brand": "Vertex",
+   "product": "13.5:1 high-compression piston kit (RM-Z450)",
+   "part_numbers": [],
+   "variants": [
+    "Stock compression 12.5:1 per tester"
+   ],
+   "fits": [
+    {
+     "make": "Suzuki",
+     "model": "RM-Z450",
+     "years": [
+      2021
+     ]
+    }
+   ],
+   "what_it_changes": "Compression ratio.",
+   "claimed_result": "Tester: livelier bottom-mid on soft/deep tracks, still pump-fuel safe.",
+   "url": "https://www.keeferinctesting.com/2021-6-28-top-5-mods-to-the-2021-suzuki-rm-z450/",
+   "source_date": "2021-06-28",
+   "id": "sz-011"
+  },
+  {
+   "category": "clutch",
+   "subcategory": "complete clutch kit",
+   "brand": "Hinson",
+   "product": "Clutch kit (basket, pressure plate, inner hub, plates, springs) RM-Z450",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Suzuki",
+     "model": "RM-Z450",
+     "years": [
+      2021
+     ]
+    }
+   ],
+   "what_it_changes": "Clutch components and lever feel.",
+   "claimed_result": "Tester: firmer, more positive engagement, no fade over months, fewer plate changes.",
+   "url": "https://www.keeferinctesting.com/2021-6-28-top-5-mods-to-the-2021-suzuki-rm-z450/",
+   "source_date": "2021-06-28",
+   "id": "sz-012"
+  },
+  {
+   "category": "clutch",
+   "subcategory": "clutch pack",
+   "brand": "Rekluse",
+   "product": "Torq-Drive clutch pack (RM-Z250)",
+   "part_numbers": [],
+   "variants": [
+    "Fits stock basket/hub; about a third of full-kit price per tester"
+   ],
+   "fits": [
+    {
+     "make": "Suzuki",
+     "model": "RM-Z250",
+     "years": [
+      2020
+     ]
+    }
+   ],
+   "what_it_changes": "Friction plate stack.",
+   "claimed_result": "Tester: lighter pull, less slip under load, better drive on starts and hills.",
+   "url": "https://www.keeferinctesting.com/2020-6-22-2020-suzuki-rm-z250-blue-collar-project-part-two/",
+   "source_date": "2020-06-22",
+   "id": "sz-013"
+  },
+  {
+   "category": "intake",
+   "subcategory": "air filter kit",
+   "brand": "No Toil",
+   "product": "Super Flow air filter kit (cage without backfire screen plus high-flow filter) RM-Z250",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Suzuki",
+     "model": "RM-Z250",
+     "years": [
+      2020
+     ]
+    }
+   ],
+   "what_it_changes": "Intake flow.",
+   "claimed_result": "Tester: quicker-revving, better mid-corner recovery when combined with airbox trimming.",
+   "url": "https://www.keeferinctesting.com/2020-6-22-2020-suzuki-rm-z250-blue-collar-project-part-two/",
+   "source_date": "2020-06-22",
+   "id": "sz-014"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full system",
+   "brand": "Yoshimura",
+   "product": "RS-12 exhaust (RM-Z450)",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Suzuki",
+     "model": "RM-Z450",
+     "years": [
+      2020
+     ]
+    }
+   ],
+   "what_it_changes": "Exhaust.",
+   "claimed_result": "Used on Race Tech engine build (head decked/ported, valves cut) for more pep without race fuel.",
+   "url": "https://swapmotolive.com/race-tech-transforms-our-2020-suzuki-rm-z450/features/",
+   "source_date": "2020-07-21",
+   "id": "sz-015"
+  }
+ ]
+}

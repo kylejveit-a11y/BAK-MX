@@ -1,0 +1,34 @@
+{
+ "target": {
+  "manufacturer": "Suzuki",
+  "model": "RM-Z450",
+  "model_year": 2021,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "Suzuki Announces New and Returning 2021 Models (Suzuki Motor USA press release, September 9, 2020)",
+  "source_url": "https://suzukicycles.com/news/2020/12/suzuki-announces-new-and-returning-2021-models",
+  "kind": "maker_press_release",
+  "document_revision": "2020-09-09",
+  "sha256": "4befc9887d42a7affd47eef1c2bbab2edc132bdbc54b6ab9441bd7c7604c5912"
+ },
+ "values": [
+  {
+   "joint": "Motocross models / EFI tuning tool and fuel couplers",
+   "value": "MX-Tuner 2.0 and fuel-coupler system included with each 2021 RM-Z250 and RM-Z450",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "Motocross models"
+  },
+  {
+   "joint": "Pricing / MSRP",
+   "value": "$8,999",
+   "unit": "USD",
+   "property": "specification",
+   "conditions": [],
+   "page": "Motocross models"
+  }
+ ]
+}

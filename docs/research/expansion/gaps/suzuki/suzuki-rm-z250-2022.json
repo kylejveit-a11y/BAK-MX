@@ -1,0 +1,50 @@
+{
+ "target": {
+  "manufacturer": "Suzuki",
+  "model": "RM-Z250",
+  "model_year": 2022,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "Suzuki Releases Additional 2022 Models (Suzuki Motor USA press release, June 9, 2021)",
+  "source_url": "https://suzukicycles.com/news/2020/11/suzuki-releases-additional-2022-models",
+  "kind": "maker_press_release",
+  "document_revision": "2021-06-09",
+  "sha256": "08bf5ba5eaeb6b62e3650f71327fcb578b3e69d2737c82315c7ea290d74fb62c"
+ },
+ "values": [
+  {
+   "joint": "Motocross Models / Fuel system",
+   "value": "Dual injector EFI, center-port cylinder head",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "RM-Z250 section"
+  },
+  {
+   "joint": "Motocross Models / Suspension supplier",
+   "value": "KYB (coil spring fork; rear shock with four-way damping force adjustment)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "RM-Z250 section"
+  },
+  {
+   "joint": "Motocross Models / Frame and swingarm",
+   "value": "Twin-spar aluminum frame, hydro-formed swingarm",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "RM-Z250 section"
+  },
+  {
+   "joint": "Pricing / MSRP",
+   "value": "$7,899",
+   "unit": "USD",
+   "property": "specification",
+   "conditions": [],
+   "page": "RM-Z250 section"
+  }
+ ]
+}

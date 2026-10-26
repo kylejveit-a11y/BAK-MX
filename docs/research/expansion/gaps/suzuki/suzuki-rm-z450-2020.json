@@ -1,0 +1,68 @@
+{
+ "target": {
+  "manufacturer": "Suzuki",
+  "model": "RM-Z450",
+  "model_year": 2020,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "Suzuki Introduces All New MX-Tuner 2.0 Performance Tuning System (Suzuki Motor USA press release, August 4, 2020)",
+  "source_url": "https://suzukicycles.com/news/2020/11/suzuki-introduces-all-new-mx-tuner-performance-tuning-system",
+  "kind": "maker_press_release",
+  "document_revision": "2020-08-04",
+  "sha256": "2e64b4959b9a83c1ba9efc3971e536d0e2c0a2e8e160a31cdcea9e03e42ac087"
+ },
+ "values": [
+  {
+   "joint": "MX-Tuner 2.0 / Compatibility",
+   "value": "Compatible with the 2020 model",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "MX-Tuner 2.0 accessory"
+   ],
+   "page": "Compatible models list"
+  },
+  {
+   "joint": "MX-Tuner 2.0 / Pre-programmed maps",
+   "value": "Four: Aggressive, Smooth, Richer, Leaner",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "MX-Tuner 2.0 accessory"
+   ],
+   "page": "Key Features"
+  },
+  {
+   "joint": "MX-Tuner 2.0 / Custom maps",
+   "value": "Fuel and ignition maps editable per cell or whole grid; uploaded to a Suzuki coupler",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "MX-Tuner 2.0 accessory"
+   ],
+   "page": "Key Features"
+  },
+  {
+   "joint": "MX-Tuner 2.0 / Fuel couplers",
+   "value": "Suzuki couplers supplied with RM-Z models accept uploaded maps",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "MX-Tuner 2.0 accessory"
+   ],
+   "page": "Key Features"
+  },
+  {
+   "joint": "MX-Tuner 2.0 / Required hardware",
+   "value": "MX-Tuner 2.0 unit, battery wiring harness, 12-volt battery (not included)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "MX-Tuner 2.0 accessory"
+   ],
+   "page": "Necessary Hardware"
+  }
+ ]
+}
