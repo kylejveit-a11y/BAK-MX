@@ -1,0 +1,1190 @@
+{
+ "target": {
+  "manufacturer": "Kawasaki",
+  "model": "KX250",
+  "model_year": 2023,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "Kawasaki owner's manual 99803-0306-o5kx252cpf-us-en (US English e-book; text layer file search.xml, Kawasaki KTIVS manual server) - KX250 2023 (KX252C)",
+  "source_url": "https://pws.ktivs.net/assets/manual-files/99803-0306-o5kx252cpf-us-en-f4f3c05d8cb1cd1f14326ae7a3dc9206/search.xml",
+  "kind": "owners_manual_ebook",
+  "document_revision": "99803-0306 (e-book published 2022/10/22 1:39:57 +09:00)",
+  "sha256": "e1a99ffc9760f58e69856f78b8ffec82b0791549954114b58e8d170047a01839"
+ },
+ "values": [
+  {
+   "joint": "Torque table / Clutch Master Cylinder Clamp Bolts",
+   "value": "9.0 N·m (0.92 kgf·m, 80 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "S: follow the specified tightening sequence"
+   ],
+   "page": "e-book page 176",
+   "image_sha256": "787b70e4a5e58e97fd5313d749d9fe84b28b26f5b73e6b3faf6e9f3e1b02344c"
+  },
+  {
+   "joint": "Torque table / Front Axle Clamp Bolts",
+   "value": "23 N·m (2.3 kgf·m, 17 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "AL: tighten the two clamp bolts alternately two times",
+    "S: follow the specified tightening sequence"
+   ],
+   "page": "e-book page 176",
+   "image_sha256": "787b70e4a5e58e97fd5313d749d9fe84b28b26f5b73e6b3faf6e9f3e1b02344c"
+  },
+  {
+   "joint": "Torque table / Front Axle Nut",
+   "value": "80 N·m (8.2 kgf·m, 59 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "S: follow the specified tightening sequence"
+   ],
+   "page": "e-book page 176",
+   "image_sha256": "787b70e4a5e58e97fd5313d749d9fe84b28b26f5b73e6b3faf6e9f3e1b02344c"
+  },
+  {
+   "joint": "Torque table / Rear Axle Nut",
+   "value": "110 N·m (11.2 kgf·m, 81.1 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "R: replacement part"
+   ],
+   "page": "e-book page 176",
+   "image_sha256": "787b70e4a5e58e97fd5313d749d9fe84b28b26f5b73e6b3faf6e9f3e1b02344c"
+  },
+  {
+   "joint": "Torque table / Spoke Nipples",
+   "value": "3.9 N·m (0.40 kgf·m, 35 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 176",
+   "image_sha256": "787b70e4a5e58e97fd5313d749d9fe84b28b26f5b73e6b3faf6e9f3e1b02344c"
+  },
+  {
+   "joint": "Torque table / Engine Sprocket Nut",
+   "value": "80 N·m (8.2 kgf·m, 59 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 176",
+   "image_sha256": "787b70e4a5e58e97fd5313d749d9fe84b28b26f5b73e6b3faf6e9f3e1b02344c"
+  },
+  {
+   "joint": "Torque table / Rear Sprocket Nuts",
+   "value": "35 N·m (3.6 kgf·m, 26 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "R: replacement part",
+    "S: follow the specified tightening sequence"
+   ],
+   "page": "e-book page 176",
+   "image_sha256": "787b70e4a5e58e97fd5313d749d9fe84b28b26f5b73e6b3faf6e9f3e1b02344c"
+  },
+  {
+   "joint": "Torque table / Brake Pedal Bolt",
+   "value": "25 N·m (2.5 kgf·m, 18 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "G: apply grease",
+    "L: apply a non-permanent locking agent"
+   ],
+   "page": "e-book page 176",
+   "image_sha256": "787b70e4a5e58e97fd5313d749d9fe84b28b26f5b73e6b3faf6e9f3e1b02344c"
+  },
+  {
+   "joint": "Torque table / Front Brake Disc Mounting Bolts",
+   "value": "10 N·m (1.0 kgf·m, 89 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "L: apply a non-permanent locking agent",
+    "S: follow the specified tightening sequence"
+   ],
+   "page": "e-book page 176",
+   "image_sha256": "787b70e4a5e58e97fd5313d749d9fe84b28b26f5b73e6b3faf6e9f3e1b02344c"
+  },
+  {
+   "joint": "Torque table / Front Caliper Mounting Bolts",
+   "value": "25 N·m (2.5 kgf·m, 18 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 176",
+   "image_sha256": "787b70e4a5e58e97fd5313d749d9fe84b28b26f5b73e6b3faf6e9f3e1b02344c"
+  },
+  {
+   "joint": "Torque table / Front Brake Master Cylinder Clamp Bolts",
+   "value": "9.0 N·m (0.92 kgf·m, 80 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "S: follow the specified tightening sequence"
+   ],
+   "page": "e-book page 176",
+   "image_sha256": "787b70e4a5e58e97fd5313d749d9fe84b28b26f5b73e6b3faf6e9f3e1b02344c"
+  },
+  {
+   "joint": "Torque table / Rear Brake Disc Mounting Bolts",
+   "value": "23 N·m (2.3 kgf·m, 17 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "L: apply a non-permanent locking agent",
+    "S: follow the specified tightening sequence"
+   ],
+   "page": "e-book page 176",
+   "image_sha256": "787b70e4a5e58e97fd5313d749d9fe84b28b26f5b73e6b3faf6e9f3e1b02344c"
+  },
+  {
+   "joint": "Torque table / Rear Master Cylinder Mounting Bolts",
+   "value": "10 N·m (1.0 kgf·m, 89 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 176",
+   "image_sha256": "787b70e4a5e58e97fd5313d749d9fe84b28b26f5b73e6b3faf6e9f3e1b02344c"
+  },
+  {
+   "joint": "Torque table / Front Fork Clamp Bolts (Lower)",
+   "value": "23 N·m (2.3 kgf·m, 17 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "AL: tighten the two clamp bolts alternately two times"
+   ],
+   "page": "e-book page 176",
+   "image_sha256": "787b70e4a5e58e97fd5313d749d9fe84b28b26f5b73e6b3faf6e9f3e1b02344c"
+  },
+  {
+   "joint": "Torque table / Front Fork Clamp Bolts (Upper)",
+   "value": "23 N·m (2.3 kgf·m, 17 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "AL: tighten the two clamp bolts alternately two times"
+   ],
+   "page": "e-book page 176",
+   "image_sha256": "787b70e4a5e58e97fd5313d749d9fe84b28b26f5b73e6b3faf6e9f3e1b02344c"
+  },
+  {
+   "joint": "Torque table / Rear Shock Absorber Nut (Lower)",
+   "value": "35 N·m (3.6 kgf·m, 26 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "R: replacement part"
+   ],
+   "page": "e-book page 176",
+   "image_sha256": "787b70e4a5e58e97fd5313d749d9fe84b28b26f5b73e6b3faf6e9f3e1b02344c"
+  },
+  {
+   "joint": "Torque table / Rear Shock Absorber Nut (Upper)",
+   "value": "40 N·m (4.1 kgf·m, 30 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "R: replacement part"
+   ],
+   "page": "e-book page 176",
+   "image_sha256": "787b70e4a5e58e97fd5313d749d9fe84b28b26f5b73e6b3faf6e9f3e1b02344c"
+  },
+  {
+   "joint": "Torque table / Rocker Arm Pivot Nut",
+   "value": "60 N·m (6.1 kgf·m, 44 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "EO: apply engine oil",
+    "R: replacement part"
+   ],
+   "page": "e-book page 176",
+   "image_sha256": "787b70e4a5e58e97fd5313d749d9fe84b28b26f5b73e6b3faf6e9f3e1b02344c"
+  },
+  {
+   "joint": "Torque table / Swingarm Pivot Shaft Nut",
+   "value": "100 N·m (10.2 kgf·m, 73.8 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "R: replacement part"
+   ],
+   "page": "e-book page 176",
+   "image_sha256": "787b70e4a5e58e97fd5313d749d9fe84b28b26f5b73e6b3faf6e9f3e1b02344c"
+  },
+  {
+   "joint": "Torque table / Tie-Rod Mounting Nuts",
+   "value": "60 N·m (6.1 kgf·m, 44 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "R: replacement part"
+   ],
+   "page": "e-book page 177",
+   "image_sha256": "9e956487416ed2c557b9ff0160fa6144d3490e612fe1d4c43100d905e98676e2"
+  },
+  {
+   "joint": "Torque table / Handlebar Clamp Bolts",
+   "value": "25 N·m (2.5 kgf·m, 18 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "AL: tighten the two clamp bolts alternately two times",
+    "EO: apply engine oil"
+   ],
+   "page": "e-book page 177",
+   "image_sha256": "9e956487416ed2c557b9ff0160fa6144d3490e612fe1d4c43100d905e98676e2"
+  },
+  {
+   "joint": "Torque table / Handlebar Holder Nuts",
+   "value": "35 N·m (3.6 kgf·m, 26 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "R: replacement part"
+   ],
+   "page": "e-book page 177",
+   "image_sha256": "9e956487416ed2c557b9ff0160fa6144d3490e612fe1d4c43100d905e98676e2"
+  },
+  {
+   "joint": "Torque table / Steering Stem Head Nut",
+   "value": "100 N·m (10.2 kgf·m, 73.8 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 177",
+   "image_sha256": "9e956487416ed2c557b9ff0160fa6144d3490e612fe1d4c43100d905e98676e2"
+  },
+  {
+   "joint": "Torque table / Steering Stem Nut",
+   "value": "5.0 N·m (0.51 kgf·m, 44 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 177",
+   "image_sha256": "9e956487416ed2c557b9ff0160fa6144d3490e612fe1d4c43100d905e98676e2"
+  },
+  {
+   "joint": "Torque table / Rear Frame Mounting Bolts",
+   "value": "35 N·m (3.6 kgf·m, 26 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "S: follow the specified tightening sequence"
+   ],
+   "page": "e-book page 177",
+   "image_sha256": "9e956487416ed2c557b9ff0160fa6144d3490e612fe1d4c43100d905e98676e2"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Oil Filter Cap Bolts",
+   "value": "10 N·m (1.0 kgf·m, 89 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 53",
+   "image_sha256": "4966772ca7b07f45e7f3e020a48ddfa0231f78f0fb72d75e6f7bea4233b9293d"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Engine Oil Drain Bolt",
+   "value": "10 N·m (1.0 kgf·m, 89 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 53",
+   "image_sha256": "4966772ca7b07f45e7f3e020a48ddfa0231f78f0fb72d75e6f7bea4233b9293d"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Coolant Drain Bolt",
+   "value": "7.0 N·m (0.71 kgf·m, 62 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 57",
+   "image_sha256": "c699a43235cdf7fa02d781639754464de39787d1f8f4864fd412296e3f0a1368"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Air Bleeder Screw",
+   "value": "1.6 N·m (0.16 kgf·m, 14 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 58",
+   "image_sha256": "fc62825891e63da9047bc70bb3d3422a9c070f80df05353aea12534886669121"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Spark Plug",
+   "value": "13 N·m (1.3 kgf·m, 115 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 64",
+   "image_sha256": "12ee060fbf73e6fb8795067ddad4fa2bc40fae6380df855f6af8ea10e4e65b10"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Radiator Shroud Bolts",
+   "value": "7.0 N·m (0.71 kgf·m, 62 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 66",
+   "image_sha256": "95c6fe527c978500a61f2869457cf03e86f8117499efeb8416b079c785b360c5"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Seat Bolts",
+   "value": "25 N·m (2.5 kgf·m, 18 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 67",
+   "image_sha256": "9bd7e6e4cff294ec3f95bb0b7da1346989a52254fd82540c01bfbef789c98360"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Seat Bolt",
+   "value": "25 N·m (2.5 kgf·m, 18 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 74",
+   "image_sha256": "1c620cc058818a91fb0697dfe7e11ceceac53e59a3f27af5f62eea68c5b113f0"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Side Cover Bolt",
+   "value": "7.0 N·m (0.71 kgf·m, 62 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 74",
+   "image_sha256": "1c620cc058818a91fb0697dfe7e11ceceac53e59a3f27af5f62eea68c5b113f0"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Accelerator Cable Bolt",
+   "value": "3.0 N·m (0.31 kgf·m, 27 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 83",
+   "image_sha256": "468b9cc1fb66f2be53c5946f9d162db1c64eb273d80b2f720fb711815da8f489"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Decelerator Cable Bolt Locknut",
+   "value": "3.0 N·m (0.31 kgf·m, 27 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 84",
+   "image_sha256": "65c77bbb2fe98759a287164dd1c6ee4138306f1fca74a11a2e4484717e9f1add"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Throttle Body Assy Clamp Bolt",
+   "value": "1.1 N·m (0.11 kgf·m, 10 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 85",
+   "image_sha256": "bfbf77a4abe92d70cba02ba6009bc209b582ca6bb11f99153f9189904f2cbab9"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Air Cleaner Duct Clamp Bolt",
+   "value": "3.5 N·m (0.36 kgf·m, 31 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 86",
+   "image_sha256": "c71c53106ce9508fc96f2dc108623ecb0d169ece48dc93daacc40ecef9d0ea81"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Rear Frame Mounting Bolts",
+   "value": "35 N·m (3.6 kgf·m, 26 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 86",
+   "image_sha256": "c71c53106ce9508fc96f2dc108623ecb0d169ece48dc93daacc40ecef9d0ea81"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Battery Terminal Screws",
+   "value": "4.5 N·m (0.46 kgf·m, 40 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 90",
+   "image_sha256": "8c077d575aa94d910fefb6acedd9bed689cffc241bc3a42bf72987ac11a2e06b"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Clutch Spring Bolts",
+   "value": "9.0 N·m (0.92 kgf·m, 80 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 96",
+   "image_sha256": "442df22c636cfdee95c5002d9331909b1a9300e213dfe1d99c0ad358980c3e9b"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Clutch Hub Nut",
+   "value": "100 N·m (10.2 kgf·m, 73.8 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 98",
+   "image_sha256": "a14ace4c77a05967a24618fcc6bf12b274f4b8f07e91e241f5088fbdea4615b7"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Clutch Cover Bolts",
+   "value": "10 N·m (1.0 kgf·m, 89 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 99",
+   "image_sha256": "0c48d6ff3d2e24efd2eb5475228e1302add178464e1f06771d4be993c34e1c92"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Brake Pedal Bolt",
+   "value": "25 N·m (2.5 kgf·m, 18 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 99",
+   "image_sha256": "0c48d6ff3d2e24efd2eb5475228e1302add178464e1f06771d4be993c34e1c92"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Cylinder Head Cover Bolts",
+   "value": "10 N·m (1.0 kgf·m, 89 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 104",
+   "image_sha256": "65f433d29185b1e5d9a408a6292c593fd4fb64dfef09ecfeda33658cae4deb09"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Muffler Bolts",
+   "value": "21 N·m (2.1 kgf·m, 15 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 107",
+   "image_sha256": "a90f007aedeef17001d0428a4034f089b06a908061bcd613f286ed25799e5990"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Muffler Clamp Bolt",
+   "value": "11 N·m (1.1 kgf·m, 97 in·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 107",
+   "image_sha256": "a90f007aedeef17001d0428a4034f089b06a908061bcd613f286ed25799e5990"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Rear Axle Nut",
+   "value": "110 N·m (11.2 kgf·m, 81.1 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 111",
+   "image_sha256": "7d88c4d121a82bf48bb12de1dc45f39f428b60124be9238722f1e2b9609f0e28"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Handlebar Holder Nuts",
+   "value": "35 N·m (3.6 kgf·m, 26 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 117",
+   "image_sha256": "9237309660089905463a70fc4c077b7fa48c454f2165f38f2a8f5b5f7f7c915e"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Footpeg Bracket Bolts (M10)",
+   "value": "35 N·m (3.6 kgf·m, 26 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 120",
+   "image_sha256": "19890c1da07e6a83c44a16dc9bed3f8778dd9def2d56af77e4c8f500f02a2f56"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Footpeg Bracket Bolts (M8)",
+   "value": "17 N·m (1.7 kgf·m, 13 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 120",
+   "image_sha256": "19890c1da07e6a83c44a16dc9bed3f8778dd9def2d56af77e4c8f500f02a2f56"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Steering Stem Head Nut",
+   "value": "100 N·m (10.2 kgf·m, 73.8 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 126",
+   "image_sha256": "4dba20d3b657515fc5925539df732858b88d17e362e67a2e9353a8678d044c02"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Front Fork Clamp Bolts (Upper)",
+   "value": "23 N·m (2.3 kgf·m, 17 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 126",
+   "image_sha256": "4dba20d3b657515fc5925539df732858b88d17e362e67a2e9353a8678d044c02"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Base Valve Assembly",
+   "value": "27.5 N·m (2.80 kgf·m, 20.3 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 144",
+   "image_sha256": "959fe5f094e54d99e4bdba71f7090165426d258d6f9f461193801711bc56cce2"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Adjuster Assembly Locknut",
+   "value": "28.5 N·m (2.91 kgf·m, 21.0 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 149",
+   "image_sha256": "edf4dc20f86c234a0bb8bc26262535fd6160a57bd3e67d0289bf8290cf21ec1b"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Adjuster Assembly",
+   "value": "55 N·m (5.6 kgf·m, 41 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 150",
+   "image_sha256": "be5334a73a54ed9bfb96d6e98e323eb4856ce4955772d6cad59bc9dd036d028d"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Front Caliper Mounting Bolts",
+   "value": "25 N·m (2.5 kgf·m, 18 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 152",
+   "image_sha256": "ff391f9b9706a9a25e4081529e54f6c6f4f1943c7dc06e6e848e8e6da93a3aef"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Front Fork Top Plug",
+   "value": "45 N·m (4.6 kgf·m, 33 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 152",
+   "image_sha256": "ff391f9b9706a9a25e4081529e54f6c6f4f1943c7dc06e6e848e8e6da93a3aef"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Left Front Axle Clamp Bolts",
+   "value": "23 N·m (2.3 kgf·m, 17 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 153",
+   "image_sha256": "28f387e87d5688ebab8022b12a011d4c0513cd5e75eaeb23c5f56dcbb0d964d0"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Front Axle Nut",
+   "value": "80 N·m (8.2 kgf·m, 59 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 153",
+   "image_sha256": "28f387e87d5688ebab8022b12a011d4c0513cd5e75eaeb23c5f56dcbb0d964d0"
+  },
+  {
+   "joint": "Tightening torque (procedure) / Right Front Axle Clamp Bolts",
+   "value": "23 N·m (2.3 kgf·m, 17 ft·lb)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "e-book page 154",
+   "image_sha256": "32e638529b2d19e83905fa591dd3819158c4412ac1f222900e3015cc30ba37c1"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (engine) / Throttle cable - inspect and adjust",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 44",
+   "image_sha256": "b317f3e5aa5b90818d455884865fb67421d65760b01c1d080a9b75adc2ac8540"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (engine) / Valve clearance - inspect",
+   "value": "Every 6 races (or 15 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 44",
+   "image_sha256": "b317f3e5aa5b90818d455884865fb67421d65760b01c1d080a9b75adc2ac8540"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (engine) / Clutch plates - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 44",
+   "image_sha256": "b317f3e5aa5b90818d455884865fb67421d65760b01c1d080a9b75adc2ac8540"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (engine) / Spark plug - clean and inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 44",
+   "image_sha256": "b317f3e5aa5b90818d455884865fb67421d65760b01c1d080a9b75adc2ac8540"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (engine) / Clutch - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 44",
+   "image_sha256": "b317f3e5aa5b90818d455884865fb67421d65760b01c1d080a9b75adc2ac8540"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (engine) / Clutch fluid level - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 44",
+   "image_sha256": "b317f3e5aa5b90818d455884865fb67421d65760b01c1d080a9b75adc2ac8540"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (engine) / Air cleaner element - clean",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 44",
+   "image_sha256": "b317f3e5aa5b90818d455884865fb67421d65760b01c1d080a9b75adc2ac8540"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (engine) / Throttle body assy - inspect and adjust",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 44",
+   "image_sha256": "b317f3e5aa5b90818d455884865fb67421d65760b01c1d080a9b75adc2ac8540"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (engine) / Cylinder head, cylinder - inspect",
+   "value": "Every 6 races (or 15 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [
+    "K: dealer service (or per Service Manual) recommended"
+   ],
+   "page": "e-book page 44",
+   "image_sha256": "b317f3e5aa5b90818d455884865fb67421d65760b01c1d080a9b75adc2ac8540"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (engine) / Crankshaft - inspect",
+   "value": "Every 6 races (or 15 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [
+    "K: dealer service (or per Service Manual) recommended"
+   ],
+   "page": "e-book page 44",
+   "image_sha256": "b317f3e5aa5b90818d455884865fb67421d65760b01c1d080a9b75adc2ac8540"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (engine) / Exhaust system - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 45",
+   "image_sha256": "a4323574beb19f78e87892d5a9a90113da967d5058adb9d30cd0bfb8aabd21a7"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (engine) / Shift pedal - clean",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 45",
+   "image_sha256": "a4323574beb19f78e87892d5a9a90113da967d5058adb9d30cd0bfb8aabd21a7"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (engine) / Engine sprocket - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 45",
+   "image_sha256": "a4323574beb19f78e87892d5a9a90113da967d5058adb9d30cd0bfb8aabd21a7"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (engine) / Coolant level - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 45",
+   "image_sha256": "a4323574beb19f78e87892d5a9a90113da967d5058adb9d30cd0bfb8aabd21a7"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (engine) / Breather hose - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 45",
+   "image_sha256": "a4323574beb19f78e87892d5a9a90113da967d5058adb9d30cd0bfb8aabd21a7"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (engine) / Water hoses and connections - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 45",
+   "image_sha256": "a4323574beb19f78e87892d5a9a90113da967d5058adb9d30cd0bfb8aabd21a7"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (engine) / Clutch hose, connections - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 45",
+   "image_sha256": "a4323574beb19f78e87892d5a9a90113da967d5058adb9d30cd0bfb8aabd21a7"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Brake - adjust",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 46",
+   "image_sha256": "3540d64d499b3042953b006717f7d8e79498ff80c3553c7ebf6f8c78e2d778c5"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Brake pad wear - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 46",
+   "image_sha256": "3540d64d499b3042953b006717f7d8e79498ff80c3553c7ebf6f8c78e2d778c5"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Brake fluid level - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 46",
+   "image_sha256": "3540d64d499b3042953b006717f7d8e79498ff80c3553c7ebf6f8c78e2d778c5"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Spoke tightness and rim runout - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 46",
+   "image_sha256": "3540d64d499b3042953b006717f7d8e79498ff80c3553c7ebf6f8c78e2d778c5"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Rear axle nut - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 46",
+   "image_sha256": "3540d64d499b3042953b006717f7d8e79498ff80c3553c7ebf6f8c78e2d778c5"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Drive chain - inspect and adjust",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 46",
+   "image_sha256": "3540d64d499b3042953b006717f7d8e79498ff80c3553c7ebf6f8c78e2d778c5"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Drive chain - lubricate",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 46",
+   "image_sha256": "3540d64d499b3042953b006717f7d8e79498ff80c3553c7ebf6f8c78e2d778c5"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Drive chain wear - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 46",
+   "image_sha256": "3540d64d499b3042953b006717f7d8e79498ff80c3553c7ebf6f8c78e2d778c5"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Front fork - clean and inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 46",
+   "image_sha256": "3540d64d499b3042953b006717f7d8e79498ff80c3553c7ebf6f8c78e2d778c5"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Nuts, bolts, fasteners - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 46",
+   "image_sha256": "3540d64d499b3042953b006717f7d8e79498ff80c3553c7ebf6f8c78e2d778c5"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Fuel system - clean",
+   "value": "Every 3 races (or 7.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [
+    "K: dealer service (or per Service Manual) recommended"
+   ],
+   "page": "e-book page 46",
+   "image_sha256": "3540d64d499b3042953b006717f7d8e79498ff80c3553c7ebf6f8c78e2d778c5"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Fuel hose, connections - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 46",
+   "image_sha256": "3540d64d499b3042953b006717f7d8e79498ff80c3553c7ebf6f8c78e2d778c5"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Brake hoses, connections - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 46",
+   "image_sha256": "3540d64d499b3042953b006717f7d8e79498ff80c3553c7ebf6f8c78e2d778c5"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Steering play - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 46",
+   "image_sha256": "3540d64d499b3042953b006717f7d8e79498ff80c3553c7ebf6f8c78e2d778c5"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Steering stem bearing - lubricate",
+   "value": "Every 6 races (or 15 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [
+    "K: dealer service (or per Service Manual) recommended"
+   ],
+   "page": "e-book page 46",
+   "image_sha256": "3540d64d499b3042953b006717f7d8e79498ff80c3553c7ebf6f8c78e2d778c5"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Rear sprocket - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 46",
+   "image_sha256": "3540d64d499b3042953b006717f7d8e79498ff80c3553c7ebf6f8c78e2d778c5"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / General lubrication - perform",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 46",
+   "image_sha256": "3540d64d499b3042953b006717f7d8e79498ff80c3553c7ebf6f8c78e2d778c5"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Wheel bearing - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [
+    "K: dealer service (or per Service Manual) recommended"
+   ],
+   "page": "e-book page 47",
+   "image_sha256": "73c761d76b58a3b858eb53dbabcb37c1366a7df61ef830e6202aa573096e4e93"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Swingarm and UNI-TRAK linkage pivots - inspect",
+   "value": "Every 3 races (or 7.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [
+    "K: dealer service (or per Service Manual) recommended"
+   ],
+   "page": "e-book page 47",
+   "image_sha256": "73c761d76b58a3b858eb53dbabcb37c1366a7df61ef830e6202aa573096e4e93"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Swingarm and UNI-TRAK linkage pivots - lubricate",
+   "value": "Every 3 races (or 7.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [
+    "K: dealer service (or per Service Manual) recommended"
+   ],
+   "page": "e-book page 47",
+   "image_sha256": "73c761d76b58a3b858eb53dbabcb37c1366a7df61ef830e6202aa573096e4e93"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Frame - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 47",
+   "image_sha256": "73c761d76b58a3b858eb53dbabcb37c1366a7df61ef830e6202aa573096e4e93"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Wheels/tires - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 47",
+   "image_sha256": "73c761d76b58a3b858eb53dbabcb37c1366a7df61ef830e6202aa573096e4e93"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Rear shock absorber - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 47",
+   "image_sha256": "73c761d76b58a3b858eb53dbabcb37c1366a7df61ef830e6202aa573096e4e93"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic inspection (chassis) / Cable - inspect",
+   "value": "After each race (or 2.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 47",
+   "image_sha256": "73c761d76b58a3b858eb53dbabcb37c1366a7df61ef830e6202aa573096e4e93"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic replacement / Engine oil - change",
+   "value": "Every 6 races (or 15 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 48",
+   "image_sha256": "a39d9a7e71c9dcab18fa50e26ae2fa20a6e56860afc462908a8596fbb74b77e2"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic replacement / Oil filter - replace",
+   "value": "Every 6 races (or 15 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 48",
+   "image_sha256": "a39d9a7e71c9dcab18fa50e26ae2fa20a6e56860afc462908a8596fbb74b77e2"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic replacement / Piston and piston ring - replace",
+   "value": "Every 6 races (or 15 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [
+    "K: dealer service (or per Service Manual) recommended"
+   ],
+   "page": "e-book page 48",
+   "image_sha256": "a39d9a7e71c9dcab18fa50e26ae2fa20a6e56860afc462908a8596fbb74b77e2"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic replacement / Piston pin - replace",
+   "value": "Every 6 races (or 15 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [
+    "K: dealer service (or per Service Manual) recommended"
+   ],
+   "page": "e-book page 48",
+   "image_sha256": "a39d9a7e71c9dcab18fa50e26ae2fa20a6e56860afc462908a8596fbb74b77e2"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic replacement / Muffler mount damper - replace",
+   "value": "Every 3 races (or 7.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 48",
+   "image_sha256": "a39d9a7e71c9dcab18fa50e26ae2fa20a6e56860afc462908a8596fbb74b77e2"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic replacement / Muffler - replace",
+   "value": "Every 6 races (or 15 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 48",
+   "image_sha256": "a39d9a7e71c9dcab18fa50e26ae2fa20a6e56860afc462908a8596fbb74b77e2"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic replacement / Spark plug - replace",
+   "value": "Every 3 races (or 7.5 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 48",
+   "image_sha256": "a39d9a7e71c9dcab18fa50e26ae2fa20a6e56860afc462908a8596fbb74b77e2"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic replacement / Clutch fluid - change",
+   "value": "Every 2 years",
+   "unit": "years",
+   "property": "service_interval",
+   "conditions": [
+    "K: dealer service (or per Service Manual) recommended"
+   ],
+   "page": "e-book page 48",
+   "image_sha256": "a39d9a7e71c9dcab18fa50e26ae2fa20a6e56860afc462908a8596fbb74b77e2"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic replacement / Clutch master cylinder cup and dust cover - replace",
+   "value": "Every 2 years",
+   "unit": "years",
+   "property": "service_interval",
+   "conditions": [
+    "K: dealer service (or per Service Manual) recommended"
+   ],
+   "page": "e-book page 48",
+   "image_sha256": "a39d9a7e71c9dcab18fa50e26ae2fa20a6e56860afc462908a8596fbb74b77e2"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic replacement / Clutch slave cylinder piston seal - replace",
+   "value": "Every 2 years",
+   "unit": "years",
+   "property": "service_interval",
+   "conditions": [
+    "K: dealer service (or per Service Manual) recommended"
+   ],
+   "page": "e-book page 48",
+   "image_sha256": "a39d9a7e71c9dcab18fa50e26ae2fa20a6e56860afc462908a8596fbb74b77e2"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic replacement / Clutch hose - replace",
+   "value": "Every 4 years",
+   "unit": "years",
+   "property": "service_interval",
+   "conditions": [
+    "K: dealer service (or per Service Manual) recommended"
+   ],
+   "page": "e-book page 48",
+   "image_sha256": "a39d9a7e71c9dcab18fa50e26ae2fa20a6e56860afc462908a8596fbb74b77e2"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic replacement / Brake fluid - change",
+   "value": "Every 2 years",
+   "unit": "years",
+   "property": "service_interval",
+   "conditions": [
+    "K: dealer service (or per Service Manual) recommended"
+   ],
+   "page": "e-book page 48",
+   "image_sha256": "a39d9a7e71c9dcab18fa50e26ae2fa20a6e56860afc462908a8596fbb74b77e2"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic replacement / Brake master cylinder cup and dust cover - replace",
+   "value": "Every 2 years",
+   "unit": "years",
+   "property": "service_interval",
+   "conditions": [
+    "K: dealer service (or per Service Manual) recommended"
+   ],
+   "page": "e-book page 48",
+   "image_sha256": "a39d9a7e71c9dcab18fa50e26ae2fa20a6e56860afc462908a8596fbb74b77e2"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic replacement / Brake caliper fluid seal and dust seal - replace",
+   "value": "Every 2 years",
+   "unit": "years",
+   "property": "service_interval",
+   "conditions": [
+    "K: dealer service (or per Service Manual) recommended"
+   ],
+   "page": "e-book page 48",
+   "image_sha256": "a39d9a7e71c9dcab18fa50e26ae2fa20a6e56860afc462908a8596fbb74b77e2"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic replacement / Brake hoses - replace",
+   "value": "Every 4 years",
+   "unit": "years",
+   "property": "service_interval",
+   "conditions": [
+    "K: dealer service (or per Service Manual) recommended"
+   ],
+   "page": "e-book page 48",
+   "image_sha256": "a39d9a7e71c9dcab18fa50e26ae2fa20a6e56860afc462908a8596fbb74b77e2"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic replacement / Front fork oil - change",
+   "value": "Every 6 races (or 15 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 48",
+   "image_sha256": "a39d9a7e71c9dcab18fa50e26ae2fa20a6e56860afc462908a8596fbb74b77e2"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic replacement / Fuel hose - replace",
+   "value": "Every 5 years",
+   "unit": "years",
+   "property": "service_interval",
+   "conditions": [
+    "K: dealer service (or per Service Manual) recommended"
+   ],
+   "page": "e-book page 49",
+   "image_sha256": "e390716af154d6113019b82346ba9f3b42ef113c13eb22b91cc4091be55e0bfb"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic replacement / Rear shock absorber oil - change",
+   "value": "Every 6 races (or 15 hours)",
+   "unit": "races/hours",
+   "property": "service_interval",
+   "conditions": [
+    "K: dealer service (or per Service Manual) recommended"
+   ],
+   "page": "e-book page 49",
+   "image_sha256": "e390716af154d6113019b82346ba9f3b42ef113c13eb22b91cc4091be55e0bfb"
+  },
+  {
+   "joint": "Periodic maintenance chart / Periodic replacement / Air cleaner element - replace",
+   "value": "If damaged",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [],
+   "page": "e-book page 49",
+   "image_sha256": "e390716af154d6113019b82346ba9f3b42ef113c13eb22b91cc4091be55e0bfb"
+  }
+ ]
+}
