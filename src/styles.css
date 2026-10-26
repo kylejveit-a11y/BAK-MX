@@ -1218,3 +1218,10 @@ input[type=file]::file-selector-button{background:#12151b;border:0;border-radius
 .support-dots{display:flex;gap:3px}.support-dots i{width:7px;height:7px;border-radius:50%;display:block}
 .support-dots .lvl-full{background:#3fd17f}.support-dots .lvl-strong{background:#4c94ff}.support-dots .lvl-good{background:#f2b23e}.support-dots .lvl-basic{background:#8d95a2}
 .support-brand .support-years{justify-content:flex-start;padding:0 4px 14px}.support-inline{flex-basis:100%;margin-top:6px}
+/* pick-several fields (Garage: "Also ride") */
+.chip-picks{display:flex;flex-wrap:wrap;gap:8px}
+.chip-pick{display:inline-flex;cursor:pointer}
+.chip-pick input{position:absolute;opacity:0;width:1px;height:1px}
+.chip-pick span{border:1px solid var(--card-line);border-radius:999px;padding:7px 13px;font-size:14px;color:#c9cfd9;background:transparent}
+.chip-pick input:checked+span{border-color:#6AA4FF;background:rgba(106,164,255,.16);color:#fff;font-weight:700}
+.chip-pick input:focus-visible+span{outline:2px solid #6AA4FF;outline-offset:2px}

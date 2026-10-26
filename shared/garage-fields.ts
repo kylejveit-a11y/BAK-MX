@@ -2,14 +2,21 @@ import type {Bike} from './types.ts';
 import {readInstalled,systemsRecorded,partSystems} from './installed-parts.ts';
 /** One definition of the build profile for web and native, so a bike edited on either reads the same. Settings live here;
  *  parts and work done live only on the build sheet (installed-parts.ts), so the two can never disagree. */
-export type GarageField={key:string;label:string;numeric?:boolean;unit?:string;placeholder?:string;options?:string[];hint?:string;more?:boolean};
+export type GarageField={key:string;label:string;numeric?:boolean;unit?:string;placeholder?:string;options?:string[];hint?:string;more?:boolean;/** pick several; saved as one comma-separated string */multi?:boolean};
+/** Kinds of riding, used for the main one and for the others a rider also does. */
+export const RIDING_TYPES=['Motocross','Supercross','Arenacross','Cross-country / GNCC','Hare scrambles','Enduro','Desert','Trail','Flat track','Pit bike'];
+/** A multi-pick field's saved string as a list, and back. */
+export const multiValues=(v:unknown)=>String(v??'').split(',').map(x=>x.trim()).filter(Boolean);
+export const multiString=(list:string[])=>list.join(', ');
 /** Written the way riders write it on the setup sheet in the truck: clicks out from all the way in, sag in mm, gearing 13/50.
  *  Everything is optional; "more" fields stay folded away so a first setup takes a couple of minutes. */
 export const garageFieldGroups:Record<string,GarageField[]>={
  'You':[
   {key:'geared_weight_lb',label:'Weight in riding gear',numeric:true,unit:'lb',placeholder:'185'},
   {key:'skill_level',label:'Riding level',options:['Beginner','Novice','Intermediate','Expert','Pro','Vet']},
-  {key:'discipline',label:'Where you ride most',options:['Motocross','Supercross / arenacross','Sand','Hard-pack','Woods / GNCC','Enduro','Desert','Trail']},
+  {key:'discipline',label:'Main kind of riding',options:RIDING_TYPES},
+  {key:'other_disciplines',label:'Also ride',options:RIDING_TYPES,multi:true,hint:'Pick every other kind you ride'},
+  {key:'usual_dirt',label:'Usual dirt',options:['Sand','Loam','Hard-pack','Clay','Mixed','Mud / wet'],more:true},
   {key:'height_in',label:'Height',numeric:true,unit:'in',placeholder:'70',more:true},
   {key:'years_riding',label:'Years riding',numeric:true,unit:'yrs',placeholder:'6',more:true},
   {key:'race_class',label:'Race class',placeholder:'250 B, Vet 30+, or none',more:true},

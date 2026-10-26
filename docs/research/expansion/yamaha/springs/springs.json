@@ -1,0 +1,2380 @@
+[
+ {
+  "model": "WR250F",
+  "model_year": 2020,
+  "code": "BAK-28199-10",
+  "sha256": "7af30805b5d9ac93ddb0e539f282fed0bd001df48127cdca6df5a5a5140ea31a",
+  "front": {
+   "std_rate_n_mm": 4.6,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 396
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 398
+  },
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 295,
+   "range_cm3": [
+    260,
+    365
+   ]
+  }
+ },
+ {
+  "model": "WR250F",
+  "model_year": 2021,
+  "code": "BAK-2819U-11",
+  "sha256": "86aea6461600e0a35acae3fde997d4426c422c8bb74dd36a6c146562c109c115",
+  "front": {
+   "std_rate_n_mm": 4.6,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 392
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 394
+  },
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 295,
+   "range_cm3": [
+    260,
+    365
+   ]
+  }
+ },
+ {
+  "model": "WR250F",
+  "model_year": 2024,
+  "code": "BAK-2819U-14",
+  "sha256": "bf7343a8b0faccea80f47dd1f415a2ba91977cbc86fd0b6a913b2e61fe331230",
+  "front": {
+   "std_rate_n_mm": 4.6,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 392
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 393
+  },
+  "notes": []
+ },
+ {
+  "model": "WR250F",
+  "model_year": 2025,
+  "code": "BXB-2819U-10",
+  "sha256": "28a36bfbe4728bb49691b080818ee011008a52b60339985b03c223717b1d7f1e",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "WR250F",
+  "model_year": 2026,
+  "code": "DP2-2819U-10",
+  "sha256": "1849424089b2cb189663382f7d51d2ab5e2d6ae1ad196e502dd135575981d921",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "WR450F",
+  "model_year": 2019,
+  "code": "B7R-28199-10",
+  "sha256": "818ace1787c9b04df599a5f66302f2f934b633c2b67cb78023359e85d0ae0e73",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "WR450F",
+  "model_year": 2020,
+  "code": "B7R-28199-11",
+  "sha256": "8c604a2203bf98d166d26fa673b9e647b67302d884de0dc7b4b899288287bb97",
+  "front": {
+   "std_rate_n_mm": 4.6,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 392
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 394
+  },
+  "notes": []
+ },
+ {
+  "model": "WR450F",
+  "model_year": 2021,
+  "code": "BDB-2819U-10",
+  "sha256": "ba839b9fb99aaed9731f0a3c84e3f6ffe68c881580150e427900cb23264f3b3e",
+  "front": {
+   "std_rate_n_mm": 4.6,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 390
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 392
+  },
+  "notes": []
+ },
+ {
+  "model": "WR450F",
+  "model_year": 2023,
+  "code": "BDB-2819U-12",
+  "sha256": "cf246bf517548572cd2df10602ffc40ca53bafc9cbcb2414b24c7f70454b0ff4",
+  "front": {
+   "std_rate_n_mm": 4.6,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 392
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 393
+  },
+  "notes": []
+ },
+ {
+  "model": "WR450F",
+  "model_year": 2024,
+  "code": "BNK-2819U-10",
+  "sha256": "add785d416779586138b6d50984431daeb8f77cf8009073ef3e436aa96d3e2e7",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "WR450F",
+  "model_year": 2025,
+  "code": "BNK-2819U-11",
+  "sha256": "8b93e87387eaf46b4eff34575b2e2aa4262ec268475225176f43537483ebad29",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "WR450F",
+  "model_year": 2026,
+  "code": "DP0-2819U-10",
+  "sha256": "fe5e907ae0a9549b3fb82a86522fbf6e8994e20bf44b4821ac5d96d2c88e8d27",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "WR450F",
+  "model_year": 2027,
+  "code": "DP4-2819U-10",
+  "sha256": "ed45b738c8c4d827eda03c89a3351c0b1680523e7f2a1c3d059a1d27dabcbe31",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ125X",
+  "model_year": 2021,
+  "code": "B1B-2819U-10",
+  "sha256": "874daef9493e760343bfeda5e7612171312e99d2b207c6a969900b72b52a217a",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ125X",
+  "model_year": 2022,
+  "code": "B1B-2819U-11",
+  "sha256": "04cf83eba6c9ea3759a44f2f56021047bc0fd57835045ae1088a424a07512638",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ125X",
+  "model_year": 2023,
+  "code": "BRX-2819U-10",
+  "sha256": "36c461c9bbe6933aa62a48c30c93e34e040ba33c04ebaeb6bf208a87a91de069",
+  "front": null,
+  "rear": null,
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 280,
+   "range_cm3": [
+    260,
+    365
+   ]
+  }
+ },
+ {
+  "model": "YZ125X",
+  "model_year": 2024,
+  "code": "BRX-2819U-11",
+  "sha256": "3aa3eaccc3de4e28f356db375a7ce00403eb7a9cad543be27b875c5ca0741815",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ125X",
+  "model_year": 2025,
+  "code": "DF3-2819U-10",
+  "sha256": "33157ba03d6e7a016a4ec02d17547eb632c2e34e9520e6692accccff0a82d4c3",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ125X",
+  "model_year": 2026,
+  "code": "DF3-2819U-11",
+  "sha256": "9ba639ac857fdf4b80a898550333948c103ca86472a6d9554cd21d177c8bb2c3",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ125X",
+  "model_year": 2027,
+  "code": "DF3-2819U-12",
+  "sha256": "b82501f09127f98e83dcef83300433d6cf95c81f4120613d6583af0af55b4ce8",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ125",
+  "model_year": 2020,
+  "code": "B0V-28199-11",
+  "sha256": "6101b0090bca1208bb27b1e0b55ce2f473c50e01cbdb740cfa5c07355554d8cc",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ125",
+  "model_year": 2021,
+  "code": "B0V-2819U-10",
+  "sha256": "6a4fd9842745dfc42eaa9b78faf7325195f43f82255ce72d1786e73f22234148",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ125",
+  "model_year": 2022,
+  "code": "B4X-2819U-10",
+  "sha256": "2b1aa583a58bc51422c80074a60684ad047c2488a11604ec93c6963a0ae99da4",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ125",
+  "model_year": 2023,
+  "code": "B4X-2819U-11",
+  "sha256": "8497bf094905bf572efdd114a61366758ce7f40bbea40ec02b6dfdd683942f7e",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ125",
+  "model_year": 2024,
+  "code": "B4X-2819U-12",
+  "sha256": "22354854cddb4bb6983e5f3b6238de3dde3f25febb2c1cfe239c6a3cc5918cf3",
+  "front": null,
+  "rear": null,
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 305,
+   "range_cm3": [
+    285,
+    365
+   ]
+  }
+ },
+ {
+  "model": "YZ125",
+  "model_year": 2025,
+  "code": "D68-2819U-10",
+  "sha256": "2d37d6143ff076d54bb34582de4c3eaec296a0ba88d216a1e8eb0d5e71be4804",
+  "front": null,
+  "rear": null,
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 305,
+   "range_cm3": [
+    285,
+    365
+   ]
+  }
+ },
+ {
+  "model": "YZ125",
+  "model_year": 2026,
+  "code": "D68-2819U-11",
+  "sha256": "c85b65bb31135f6e11a7b358dabbc96559a93a35e1fd690e224e6b66292c918f",
+  "front": null,
+  "rear": null,
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 305,
+   "range_cm3": [
+    285,
+    365
+   ]
+  }
+ },
+ {
+  "model": "YZ125",
+  "model_year": 2027,
+  "code": "D68-2819U-12",
+  "sha256": "8bdda7cdfc0c173ddebd3876141215445a2e68bbf3fb9af5d19df7d2003b167c",
+  "front": null,
+  "rear": null,
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 305,
+   "range_cm3": [
+    285,
+    365
+   ]
+  }
+ },
+ {
+  "model": "YZ250FX",
+  "model_year": 2020,
+  "code": "BAJ-28199-10",
+  "sha256": "3376359ce1cb32203efa0643eb53188f58c7a6936f2a86e4c4367b54b6af3361",
+  "front": {
+   "std_rate_n_mm": 4.6,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 364
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 366
+  },
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 295,
+   "range_cm3": [
+    260,
+    365
+   ]
+  }
+ },
+ {
+  "model": "YZ250FX",
+  "model_year": 2021,
+  "code": "BAJ-2819U-11",
+  "sha256": "6107dda7cc2393e28c0291a709484d6fe657a398515579c924095442d50a0e19",
+  "front": {
+   "std_rate_n_mm": 4.6,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 366
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 368
+  },
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 295,
+   "range_cm3": [
+    260,
+    365
+   ]
+  }
+ },
+ {
+  "model": "YZ250FX",
+  "model_year": 2022,
+  "code": "BAJ-2819U-12",
+  "sha256": "c9117f41e8a41ea60aef6bded7c4992c3b6b1d107af88ea15a252fd202299ce8",
+  "front": {
+   "std_rate_n_mm": 4.6,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 366
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 367
+  },
+  "notes": []
+ },
+ {
+  "model": "YZ250FX",
+  "model_year": 2023,
+  "code": "BAJ-2819U-13",
+  "sha256": "eb27053ad64665a66e39f5ac2a940bd152fc658288e2201bd1afee60db630414",
+  "front": {
+   "std_rate_n_mm": 4.6,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 366
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 367
+  },
+  "notes": []
+ },
+ {
+  "model": "YZ250FX",
+  "model_year": 2025,
+  "code": "BXA-2819U-10",
+  "sha256": "e9b3961ba75f0b13e024fd0b60abff1041d166b27e57c1e3c1783c72c12ee67b",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ250FX",
+  "model_year": 2026,
+  "code": "DP3-2819U-10",
+  "sha256": "9d463606f677836ffb448b86cb06524412d24551b2edfbbf2b89f16d22277130",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ250FX",
+  "model_year": 2027,
+  "code": "DP3-2819U-11",
+  "sha256": "42a9d1a05ec9d213d2f06bc2f5c854dd09a4ebc76bdbdd9d08d1a643e6d65362",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ250F",
+  "model_year": 2019,
+  "code": "B7B-28199-10",
+  "sha256": "058809affb7915aa597b13b45c40adc1e70251fc9e748322abb405d24fda01ce",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ250F",
+  "model_year": 2020,
+  "code": "B7B-28199-11",
+  "sha256": "0a680d50262a0cab7323e3b97bf0565d358a726852610ee41ed48d747a4cd054",
+  "front": {
+   "std_rate_n_mm": 4.7,
+   "options": [
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 352
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 353
+  },
+  "notes": []
+ },
+ {
+  "model": "YZ250F",
+  "model_year": 2021,
+  "code": "B7B-2819U-12",
+  "sha256": "c2f65141ab95bdbe20d7bdd027bfdde93d2d79dbcb4ff0ccb54140ed7fb0578b",
+  "front": {
+   "std_rate_n_mm": 4.7,
+   "options": [
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 356
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 357
+  },
+  "notes": []
+ },
+ {
+  "model": "YZ250F",
+  "model_year": 2022,
+  "code": "B7B-2819U-13",
+  "sha256": "17e7cc840c86a2afe05fbe38a5197778932470ad4d57e0a78b08eed3e386bc4f",
+  "front": {
+   "std_rate_n_mm": 4.7,
+   "options": [
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 356
+  },
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ250F",
+  "model_year": 2023,
+  "code": "BSB-2819U-10",
+  "sha256": "d0a100edf6abb20bc424fe6f0924e007993abb0a81c0893ea09088efa3689217",
+  "front": {
+   "std_rate_n_mm": 4.7,
+   "options": [
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 354
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 355
+  },
+  "notes": []
+ },
+ {
+  "model": "YZ250F",
+  "model_year": 2024,
+  "code": "BMF-2819U-10",
+  "sha256": "e88dc0d7a05400f011ce7a147d005e7e3e4aef282f3455840c05ac99c83d9330",
+  "front": {
+   "std_rate_n_mm": 4.7,
+   "options": [
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 378
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 379
+  },
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 280,
+   "range_cm3": [
+    260,
+    365
+   ]
+  }
+ },
+ {
+  "model": "YZ250F",
+  "model_year": 2025,
+  "code": "D01-2819U-10",
+  "sha256": "fc8a31623daae1c746126688fac22c0b0698611a03dc98083876d2a3516a96da",
+  "front": null,
+  "rear": null,
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 280,
+   "range_cm3": [
+    260,
+    365
+   ]
+  }
+ },
+ {
+  "model": "YZ250F",
+  "model_year": 2026,
+  "code": "DR8-2819U-10",
+  "sha256": "1a4cbe46f057fdedfcb50bde0bc7f67180eb649725f8a18f756dd6d12588bec9",
+  "front": null,
+  "rear": null,
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 280,
+   "range_cm3": [
+    260,
+    365
+   ]
+  }
+ },
+ {
+  "model": "YZ250F",
+  "model_year": 2027,
+  "code": "D05-2819U-10",
+  "sha256": "ee02280139498348008b90fa4fed317228500c47caf76eb1712d1669e19d1578",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ250X",
+  "model_year": 2020,
+  "code": "B9U-28199-11",
+  "sha256": "112713a7256a234953896fb34d9ddfd308a897c1c623fe29f95a344080a4ce2e",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ250X",
+  "model_year": 2021,
+  "code": "BF1-2819U-10",
+  "sha256": "2cd32cdb7b01212b35ca3ddab57c60cf47873ad6ef19f18ad57b98e779e41ab7",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ250X",
+  "model_year": 2022,
+  "code": "BF1-2819U-11",
+  "sha256": "d861639a6063fcac902ad80ab88e7987e6c43ed020301aebcef31821f660182f",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ250X",
+  "model_year": 2023,
+  "code": "BRY-2819U-10",
+  "sha256": "57046da49115944c1bcb8fdc787017fe944416f23abd37c7b683ba3ce39556fe",
+  "front": null,
+  "rear": null,
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 285,
+   "range_cm3": [
+    265,
+    365
+   ]
+  }
+ },
+ {
+  "model": "YZ250X",
+  "model_year": 2024,
+  "code": "BRY-2819U-11",
+  "sha256": "1311dc9b28272d24aac3e4752bdc66f76f03fd3f53a1309633482a718f99b6ee",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ250X",
+  "model_year": 2025,
+  "code": "DF4-2819U-10",
+  "sha256": "4c878b94cd77fd5feed7b578094b3f734fdf20168422f5ad56fa8f0b7f45d925",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ250X",
+  "model_year": 2026,
+  "code": "DF4-2819U-11",
+  "sha256": "3ed020bc37697d7b26a03cd48aee67c5f960cf869996c409e8c61cbf6a47a263",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ250X",
+  "model_year": 2027,
+  "code": "DF4-2819U-12",
+  "sha256": "28177d3e357552779d24f161ccaf78c2a3da658132e67e37a5f44329a52b163f",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ250",
+  "model_year": 2020,
+  "code": "B9U-28199-11",
+  "sha256": "112713a7256a234953896fb34d9ddfd308a897c1c623fe29f95a344080a4ce2e",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ250",
+  "model_year": 2021,
+  "code": "BF1-2819U-10",
+  "sha256": "2cd32cdb7b01212b35ca3ddab57c60cf47873ad6ef19f18ad57b98e779e41ab7",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ250",
+  "model_year": 2022,
+  "code": "BCR-2819U-10",
+  "sha256": "7e35f5a2255910883c8d285ab17b4c8df93b6bd5f5bce169f961739f7eac772b",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ250",
+  "model_year": 2023,
+  "code": "BCR-2819U-11",
+  "sha256": "5987b96f081f7c33d155d566ee0cdf7a9a7082e05a4270320d06847e43483659",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ250",
+  "model_year": 2024,
+  "code": "BCR-2819U-12",
+  "sha256": "766bc3ef6c02e72741f31cc31f8433568b0502dcc0638c685ab1ce37d71e497a",
+  "front": null,
+  "rear": null,
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 310,
+   "range_cm3": [
+    290,
+    365
+   ]
+  }
+ },
+ {
+  "model": "YZ250",
+  "model_year": 2025,
+  "code": "D69-2819U-10",
+  "sha256": "30918eb3f0c0ad42f33814baedc946c9ade6c31403f03a25257d05b0a9267050",
+  "front": null,
+  "rear": null,
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 310,
+   "range_cm3": [
+    290,
+    365
+   ]
+  }
+ },
+ {
+  "model": "YZ250",
+  "model_year": 2026,
+  "code": "D69-2819U-11",
+  "sha256": "454ed477eebbdaea52986a21be86225f74e7895e905138881cc21a16bdabf2d2",
+  "front": null,
+  "rear": null,
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 310,
+   "range_cm3": [
+    290,
+    365
+   ]
+  }
+ },
+ {
+  "model": "YZ250",
+  "model_year": 2027,
+  "code": "D69-2819U-12",
+  "sha256": "79dc2b20faec6f0040fea0606a193af63b1e15e6f5f8e57cc4dad1905dec13d5",
+  "front": null,
+  "rear": null,
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 310,
+   "range_cm3": [
+    290,
+    365
+   ]
+  }
+ },
+ {
+  "model": "YZ450FX",
+  "model_year": 2020,
+  "code": "B3J-28199-11",
+  "sha256": "ff63e727ef2fbbdcf9fc678731bc254b835250043992f0c42a903dccdf75d8b9",
+  "front": {
+   "std_rate_n_mm": 4.6,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 360
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 362
+  },
+  "notes": []
+ },
+ {
+  "model": "YZ450FX",
+  "model_year": 2021,
+  "code": "BEX-2819U-10",
+  "sha256": "fc890ba96324f2ebcae5aee2f7b4c33c13e20a6ed4adefeb0daafd5d136c2ebb",
+  "front": {
+   "std_rate_n_mm": 4.6,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 362
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 364
+  },
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 290,
+   "range_cm3": [
+    260,
+    365
+   ]
+  }
+ },
+ {
+  "model": "YZ450FX",
+  "model_year": 2022,
+  "code": "BEX-2819U-11",
+  "sha256": "628162841843d9fa45c9d45f905944958bce7f56d12d4c153fca873376a33d0d",
+  "front": {
+   "std_rate_n_mm": 4.6,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 362
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 363
+  },
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 290,
+   "range_cm3": [
+    260,
+    365
+   ]
+  }
+ },
+ {
+  "model": "YZ450FX",
+  "model_year": 2023,
+  "code": "BEX-2819U-12",
+  "sha256": "3e8ebc08be238b9ba2416c98704a10fb885a0aa41579f741fab16188a2cfea90",
+  "front": {
+   "std_rate_n_mm": 4.6,
+   "options": [
+    {
+     "rate": 4.1,
+     "part_number": "B3J-23141-10"
+    },
+    {
+     "rate": 4.2,
+     "part_number": "B3J-23141-20"
+    },
+    {
+     "rate": 4.3,
+     "part_number": "B3J-23141-30"
+    },
+    {
+     "rate": 4.4,
+     "part_number": "B3J-23141-40"
+    },
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 364
+  },
+  "rear": {
+   "std_rate_n_mm": 56.0,
+   "options": [
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 48.0
+    },
+    {
+     "rate": 50.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 365
+  },
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 290,
+   "range_cm3": [
+    260,
+    365
+   ]
+  }
+ },
+ {
+  "model": "YZ450FX",
+  "model_year": 2024,
+  "code": "BNL-2819U-10",
+  "sha256": "3ea319f1d25a36a9a3d55f0c116c78082a248a4dfd3499c95c2630681171682b",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ450FX",
+  "model_year": 2025,
+  "code": "BNL-2819U-11",
+  "sha256": "c94d6d80d2bc930919cd21f768b1390a6768d4be595e2ca4572304519e9ed5eb",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ450FX",
+  "model_year": 2026,
+  "code": "DP1-2819U-10",
+  "sha256": "60edb22833ba4f26f52e4254fb9e5ff66492038061a34f978e260809b151d7e6",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ450FX",
+  "model_year": 2027,
+  "code": "DP5-2819U-10",
+  "sha256": "908521b3a1f7785b6c475897de2650e942e3600a6900b222c34cc805e05a17cf",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ450F",
+  "model_year": 2018,
+  "code": "BR9-28199-10",
+  "sha256": "c6cee232bc56113e20c7293ebaf2bf398cdf90caecfa9669a9fb3fad10e65cd7",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ450F",
+  "model_year": 2019,
+  "code": "BR9-28199-11",
+  "sha256": "ed57946c3cf5ff5c68842b4241e52079ea1fc1e1da3ce5f835aee129d2321779",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ450F",
+  "model_year": 2020,
+  "code": "B2W-28199-10",
+  "sha256": "ee1b8c9747c089fe345097dc16955d7fa30e005a1c77b6d81e919d6ee3f6080e",
+  "front": {
+   "std_rate_n_mm": 5.0,
+   "options": [
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 352
+  },
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ450F",
+  "model_year": 2021,
+  "code": "B2W-2819U-11",
+  "sha256": "d322a59a3df2dd9431047d5416f18f73bee530a0ce6a86b60f8b3ae2c1f5eca9",
+  "front": {
+   "std_rate_n_mm": 5.0,
+   "options": [
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 356
+  },
+  "rear": {
+   "std_rate_n_mm": 58.0,
+   "options": [
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 357
+  },
+  "notes": []
+ },
+ {
+  "model": "YZ450F",
+  "model_year": 2022,
+  "code": "B2W-2819U-12",
+  "sha256": "54b246fb2956c8970193b54cce160544ece74a7259169a188b6aacd8c9dd4608",
+  "front": {
+   "std_rate_n_mm": 5.0,
+   "options": [
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 354
+  },
+  "rear": {
+   "std_rate_n_mm": 58.0,
+   "options": [
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 355
+  },
+  "notes": []
+ },
+ {
+  "model": "YZ450F",
+  "model_year": 2023,
+  "code": "BHR-2819U-10",
+  "sha256": "9a8605e26301ba1d0d1d21e93d23cca721bdcdbece6188775626a8819332aa9f",
+  "front": {
+   "std_rate_n_mm": 5.0,
+   "options": [
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 376
+  },
+  "rear": {
+   "std_rate_n_mm": 58.0,
+   "options": [
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 377
+  },
+  "notes": []
+ },
+ {
+  "model": "YZ450F",
+  "model_year": 2024,
+  "code": "BHR-2819U-11",
+  "sha256": "6e784b3b15fe1e131f0e385676ca2873e74d783ee2499ce561e595bcea9ca9be",
+  "front": {
+   "std_rate_n_mm": 5.0,
+   "options": [
+    {
+     "rate": 4.5,
+     "part_number": "BR9-23141-20"
+    },
+    {
+     "rate": 4.6,
+     "part_number": "BR9-23141-30"
+    },
+    {
+     "rate": 4.7,
+     "part_number": "BR9-23141-40"
+    },
+    {
+     "rate": 4.8,
+     "part_number": "BR9-23141-50"
+    },
+    {
+     "rate": 4.9,
+     "part_number": "BR9-23141-60"
+    },
+    {
+     "rate": 5.0,
+     "part_number": "BR9-23141-70"
+    },
+    {
+     "rate": 5.1,
+     "part_number": "BR9-23141-80"
+    }
+   ],
+   "pdf_page": 376
+  },
+  "rear": {
+   "std_rate_n_mm": 58.0,
+   "options": [
+    {
+     "rate": 58.0
+    },
+    {
+     "rate": 52.0
+    },
+    {
+     "rate": 54.0
+    },
+    {
+     "rate": 56.0
+    },
+    {
+     "rate": 60.0
+    }
+   ],
+   "pdf_page": 377
+  },
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 270,
+   "range_cm3": [
+    260,
+    365
+   ]
+  }
+ },
+ {
+  "model": "YZ450F",
+  "model_year": 2025,
+  "code": "D02-2819U-10",
+  "sha256": "5005e7d8492c9482dfe44c6d752609a9a70a836f5b1dc94be3149d5d493de8ac",
+  "front": null,
+  "rear": null,
+  "notes": [],
+  "fork_oil": {
+   "standard_cm3": 275,
+   "range_cm3": [
+    260,
+    365
+   ]
+  }
+ },
+ {
+  "model": "YZ450F",
+  "model_year": 2026,
+  "code": "D03-2819U-10",
+  "sha256": "7c7286739a2c5f687c45b395d9cfbe92199e2799410f37a31282c625a98e73bd",
+  "front": null,
+  "rear": null,
+  "notes": []
+ },
+ {
+  "model": "YZ450F",
+  "model_year": 2027,
+  "code": "D03-2819U-11",
+  "sha256": "3629816a57fb9bca6ec5a05d375234f0cb66641e868da547461d044c9aae4456",
+  "front": null,
+  "rear": null,
+  "notes": []
+ }
+]
