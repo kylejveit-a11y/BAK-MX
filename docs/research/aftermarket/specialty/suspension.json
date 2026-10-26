@@ -1187,7 +1187,9 @@
   },
   {
    "category": "suspension",
-   "part_numbers": [],
+   "part_numbers": [
+    "412117"
+   ],
    "variants": [],
    "fits": [
     {
@@ -1535,7 +1537,9 @@
   },
   {
    "category": "suspension",
-   "part_numbers": [],
+   "part_numbers": [
+    "412500"
+   ],
    "variants": [
     "YZ (NR41) Linkage - BARE ($310.00)"
    ],
@@ -1639,7 +1643,9 @@
   },
   {
    "category": "suspension",
-   "part_numbers": [],
+   "part_numbers": [
+    "412077"
+   ],
    "variants": [],
    "fits": [
     {
@@ -1776,7 +1782,9 @@
   },
   {
    "category": "suspension",
-   "part_numbers": [],
+   "part_numbers": [
+    "412203"
+   ],
    "variants": [],
    "fits": [],
    "supporting_parts": "Only for WP Cone Valve forks (XACT PRO 7548) and WP cartridge kits (e.g. XACT PRO 6500) - not stock AER forks.",
@@ -8181,7 +8189,12 @@
   "Öhlins: no 2024+ KTM-group RXF fork or Honda/Kawasaki/Yamaha TTX shock captured.",
   "Ride Engineering: linkages and holeshot devices not captured (site errors).",
   "Triumph TF: only REP springs and JBI revalves found; no linkage/clamp/cartridge kits confirmed.",
-  "Pro Circuit service pricing for 2020+ bikes not published."
+  "Pro Circuit service pricing for 2020+ bikes not published.",
+  "ss-013: REP 2024.5+ CR22 linkage variants now include KTM 450 SXF and GasGas MC 125/250/350/450 + 250F/350F/450F; SKUs 412117-2 (125 SX), 412117-3 (250 SX), 412117-4 (150 SX), others blank. Source: repsuspension.com/products/ktm-husqvarna-gas-gas-cr22-new-gen-linkage-2024-5-and-up-version.json",
+  "ss-015: REP Honda New Gen Linkage page options: CRF250 2021-2022 and CRF450 2020-2022, $450 single variant. MXA tested a REP CRF250 linkage on 2023-2024 CRF250 at $600 - possibly a different/updated part; reconcile.",
+  "ss-018: REP springs are tagged across brands; Triumph shares QS31 fork / 897.00 shock series with Yamaha, RM-Z250 and Stark (see new spring records).",
+  "ss-009: WP Pro Components page pairs the Honda 7548 fork (CRF250R/RX MY22, CRF450R/RX MY21) with an APEX PRO 7746 shock, not 8950 - verify.",
+  "ss-070: Ride Engineering 2026 catalog (rev 4/21/26) lists KTM/Husq/GasGas split clamps at $874.90."
  ],
  "not_done": [
   "Blocked/failed fetches: wp-suspension.com/en-us/products/offroad, luxonmx.com root, luxonmx Honda 2025 link page, technicaltouchusa product pages (pq446119, pq464664), factoryconnection.com Revalve-basicPricing and Products-index, ride-engineering.com product/category pages, rockymountainatvmc.com Ride Engineering page, repsuspension.com/cost-estimate.",
