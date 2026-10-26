@@ -3,7 +3,7 @@ import {coachFocus,type ChatMedia} from '../shared/coach-focus.ts';
 import {factSystem} from '../shared/fact-system.ts';
 import {workshopContext,workshopReferences,type GuidedStep} from './workshop-context.ts';
 import {usConfiguration} from '../shared/garage-fields.ts';
-import {sameBikeScope} from '../shared/bike-identity.ts';
+import {sameBikeScope,canonicalVariant} from '../shared/bike-identity.ts';
 import {relatedReferences} from './references.ts';
 import {z} from 'zod';
 import type {Bike,Claim,EngineeringResponse,Message} from '../shared/types.ts';
@@ -24,8 +24,10 @@ import {bikeOverviews} from './bike-overviews.ts';
 
 /** Published tester settings for this exact bike, or the nearest model year of the same model (marked). Private reasoning context. */
 /** What testers and riders repeatedly report about this model's generation that covers the rider's year (or the nearest one, labelled). */
-export function bikeOverviewFor(bike:{manufacturer:string;model:string;model_year:number}){
- const list=bikeOverviews[`${bike.manufacturer}|${bike.model}`];if(!list?.length)return null;
+export function bikeOverviewFor(bike:{manufacturer:string;model:string;model_year:number;variant?:string}){
+ // A Works Edition has its own tester picture when one exists (key "CRF450RWE"); otherwise the R's applies.
+ const own=bike.variant&&canonicalVariant(bike.variant)==='RWE'?bikeOverviews[`${bike.manufacturer}|${bike.model}WE`]:undefined;
+ const list=own?.some(o=>o.years.includes(bike.model_year))?own:bikeOverviews[`${bike.manufacturer}|${bike.model}`];if(!list?.length)return null;
  const exact=list.find(o=>o.years.includes(bike.model_year));
  if(exact)return {...exact,points:exact.points.filter(p=>!p.years?.length||p.years.includes(bike.model_year))};
  const near=[...list].sort((a,b)=>Math.min(...a.years.map(y=>Math.abs(y-bike.model_year)))-Math.min(...b.years.map(y=>Math.abs(y-bike.model_year))))[0];

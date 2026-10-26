@@ -41,3 +41,12 @@ test('evidence search shares the fact budget across every search',async()=>{
  assert.equal(out.length,60);for(const p of 'abcdef')assert.ok(out.filter(c=>c.id.startsWith(p)).length>=10,p);
  assert.deepEqual((mergeSearchResults([[{id:'x'} as never,{id:'y'} as never],[{id:'x'} as never]],60) as {id:string}[]).map(c=>c.id),['x','y']);
 });
+
+test('Works Edition is recognised whatever the rider calls it, and keeps its own tester picture',async()=>{
+ const {canonicalVariant,canonicalModel}=await import('../shared/bike-identity.ts');
+ for(const v of ['RWE','Works Edition','CRF450RWE','HRC WE'])assert.equal(canonicalVariant(v),'RWE',v);
+ assert.equal(canonicalVariant('Factory Edition'),'Factory Edition');assert.equal(canonicalModel('Suzuki','rmz450'),'RM-Z450');
+ const {bikeOverviewFor}=await import('../server/engineering.ts');
+ const we=bikeOverviewFor({manufacturer:'Honda',model:'CRF450R',model_year:2025,variant:'RWE'}),std=bikeOverviewFor({manufacturer:'Honda',model:'CRF450R',model_year:2025,variant:'standard'});
+ assert.match(we!.generation,/Works Edition/);assert.doesNotMatch(std!.generation,/Works Edition/);
+});
