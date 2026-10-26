@@ -33,3 +33,11 @@ test('chat takes up to 4 photos, or the frames of one clip with matching times',
  assert.equal(chatSchema.safeParse({...base,media:{kind:'photos',focus:'track'}}).success,false);
  assert.equal(chatSchema.safeParse({...base,photo_ids:ids(2),media:{kind:'photos',focus:'wheelie'}}).success,false);
 });
+
+test('evidence search shares the fact budget across every search',async()=>{
+ const {mergeSearchResults}=await import('../server/claims.ts');
+ const mk=(p:string,n:number)=>Array.from({length:n},(_,i)=>({id:p+i}) as never);
+ const out=mergeSearchResults([mk('a',12),mk('b',12),mk('c',12),mk('d',12),mk('e',12),mk('f',12)],60) as {id:string}[];
+ assert.equal(out.length,60);for(const p of 'abcdef')assert.ok(out.filter(c=>c.id.startsWith(p)).length>=10,p);
+ assert.deepEqual((mergeSearchResults([[{id:'x'} as never,{id:'y'} as never],[{id:'x'} as never]],60) as {id:string}[]).map(c=>c.id),['x','y']);
+});
