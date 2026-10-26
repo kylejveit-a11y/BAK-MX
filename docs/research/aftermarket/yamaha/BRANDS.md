@@ -1,6 +1,6 @@
 # Yamaha YZ: aftermarket brands
 
-399 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
+400 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
 
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
@@ -9,10 +9,10 @@
 | FMF | 276 | exhaust (166), Exhaust (99), protection (6), Tools and Maintenance (2), Uncategorised (1), Body (1) | Cycle Gear 64, MotoSport 39, research 173 |
 | Cycra | 274 | Controls (54), controls (52), Handlebars & Controls (47), protection (43), Uncategorised (31), Body (20) | Cycle Gear 97, MotoSport 80, research 97 |
 | Pro Taper | 233 | controls (54), Controls (50), Uncategorised (42), Handlebars & Controls (25), Chain & Sprocket (18), drivetrain (17) | Cycle Gear 89, MotoSport 66, research 78 |
+| Pro Circuit | 220 | Exhaust (69), engine (59), exhaust (47), suspension (12), Engine (9), Uncategorised (4) | Cycle Gear 50, MotoSport 42, research 128 |
 | Renthal | 215 | controls (62), gearing (32), Controls (31), Uncategorised (26), Handlebars & Controls (19), drivetrain (14) | Cycle Gear 61, MotoSport 41, research 113 |
 | RFX | 211 | Uncategorised (60), controls (24), drivetrain (17), Controls (15), Chain & Sprocket (10), Seats (8) | Cycle Gear 100, MotoSport 43, research 68 |
 | Polisport | 210 | protection (36), Uncategorised (33), Body (27), Bike Protection (25), body (14), controls (11) | Cycle Gear 77, MotoSport 54, research 79 |
-| Pro Circuit | 207 | Exhaust (69), engine (54), exhaust (42), suspension (10), Engine (9), Uncategorised (4) | Cycle Gear 50, MotoSport 42, research 115 |
 | Zeta | 186 | controls (55), Uncategorised (36), Handlebars & Controls (33), Suspension (13), suspension (11), Bike Protection (7) | Cycle Gear 96, research 90 |
 | Factory Effex | 177 | Graphics (72), Uncategorised (33), controls (15), body (13), Handlebars & Controls (9), intake (8) | Cycle Gear 49, MotoSport 86, research 42 |
 | Motion Pro | 173 | Controls (42), Uncategorised (22), Suspension (17), Tools and Maintenance (17), controls (17), Fuel System (13) | Cycle Gear 38, MotoSport 103, research 32 |
@@ -20,32 +20,32 @@
 | Bolt Hardware | 139 | Uncategorised (58), body (43), engine (8), Exhaust (7), Body & Fairing (5), exhaust (5) | Cycle Gear 73, research 66 |
 | ODI | 136 | controls (43), Controls (42), Uncategorised (37), Handlebars & Controls (9), body (3), UTV / ATV Parts (1) | Cycle Gear 47, MotoSport 43, research 46 |
 | Fire Power | 133 | Uncategorised (20), controls (19), drivetrain (17), Chain & Sprocket (15), wheels (13), Drive (12) | Cycle Gear 54, MotoSport 22, research 57 |
-| Works Connection | 128 | Bike Protection (21), Suspension (13), Uncategorised (13), protection (11), Controls (10), chassis (9) | Cycle Gear 44, MotoSport 40, research 44 |
+| Works Connection | 130 | Bike Protection (21), Suspension (13), Uncategorised (13), protection (11), Controls (10), chassis (10) | Cycle Gear 44, MotoSport 40, research 46 |
 | Vertex | 124 | engine (66), Uncategorised (26), Engine (17), suspension (5), Exhaust (4), electrics (3) | Cycle Gear 30, MotoSport 17, research 77 |
-| Rekluse | 119 | clutch (49), Drive & Transmission (29), Engine (27), Uncategorised (7), UTV / ATV Parts (2), Controls (2) | Cycle Gear 38, MotoSport 30, research 51 |
+| Rekluse | 122 | clutch (49), Drive & Transmission (29), Engine (27), Uncategorised (7), engine (4), UTV / ATV Parts (2) | Cycle Gear 38, MotoSport 30, research 54 |
 | Yamaha Genuine Accessories | 111 | Accessories (100), Hard Parts (10), Batteries & Battery Leads (1) | Yamaha dealer 111 |
 | Rugged Radios | 105 | Vehicle Communication (60), Accessories (42), Helmets (3) | MotoSport 105 |
-| Hinson | 99 | Drive & Transmission (34), clutch (25), Engine (21), drivetrain (10), Uncategorised (6), engine (3) | Cycle Gear 40, MotoSport 21, research 38 |
+| Hinson | 102 | Drive & Transmission (34), clutch (25), Engine (21), drivetrain (10), Uncategorised (6), engine (6) | Cycle Gear 40, MotoSport 21, research 41 |
 | Pro X | 93 | Uncategorised (31), Engine (20), engine (17), Drive & Transmission (6), drivetrain (5), clutch (5) | Cycle Gear 37, MotoSport 23, research 33 |
-| Twin Air | 86 | intake (24), Tools and Maintenance (14), Air & Fuel (12), Uncategorised (7), Engine (6), Bike Protection (4) | Cycle Gear 28, MotoSport 26, research 32 |
+| Twin Air | 87 | intake (25), Tools and Maintenance (14), Air & Fuel (12), Uncategorised (7), Engine (6), Bike Protection (4) | Cycle Gear 28, MotoSport 26, research 33 |
 | DRC | 85 | Uncategorised (12), Lights and Electrical (12), Wheels and Rims (10), Controls (9), Suspension (7), Exhaust (6) | Cycle Gear 15, MotoSport 52, research 18 |
 | D'COR Visuals | 83 | Graphics (77), Body (6) | MotoSport 83 |
 | Trail Tech | 81 | Lights and Electrical (42), Gauges (10), Engine (10), electrics (4), Body (3), tools (3) | Cycle Gear 13, MotoSport 56, research 12 |
 | Enduro Engineering | 80 | Bike Protection (24), protection (22), controls (11), Handlebars & Controls (8), cooling (4), Uncategorised (3) | Cycle Gear 39, research 41 |
+| Ride Engineering | 79 | Controls (20), chassis (18), Brakes (14), suspension (12), engine (6), Drive (3) | MotoSport 43, research 36 |
 | Moto-Master | 78 | brakes (34), Brakes (26), drivetrain (9), Chain & Sprocket (5), Uncategorised (4) | Cycle Gear 22, MotoSport 13, research 43 |
-| Ride Engineering | 78 | Controls (20), chassis (17), Brakes (14), suspension (12), engine (6), Drive (3) | MotoSport 43, research 35 |
 | RAM Mounts | 76 | Lights and Electrical (68), Controls (4), Uncategorised (2), body (2) | Cycle Gear 2, MotoSport 72, research 2 |
 | Boyesen | 74 | Uncategorised (23), clutch (13), intake (11), cooling (11), Engine (9), Intake (4) | Cycle Gear 23, MotoSport 13, research 38 |
 | RK | 71 | Chain & Sprocket (33), drivetrain (32), Drive (4), gearing (2) | Cycle Gear 33, MotoSport 4, research 34 |
+| Yoshimura | 71 | exhaust (37), Exhaust (28), Lights and Electrical (2), Body & Fairing (1), Body (1), protection (1) | Cycle Gear 19, MotoSport 13, research 39 |
 | Helix Racing Products | 70 | Uncategorised (12), intake (11), Exhaust (9), Air & Fuel (9), cooling (8), exhaust (7) | Cycle Gear 35, research 35 |
 | Barkbusters | 66 | controls (30), Handlebars & Controls (29), UTV / ATV Parts (6), Uncategorised (1) | Cycle Gear 36, research 30 |
 | Pivot Works | 62 | Suspension (18), wheels (13), suspension (12), Uncategorised (9), Wheels and Rims (5), chassis (5) | Cycle Gear 19, MotoSport 13, research 30 |
 | Wiseco | 59 | Engine (28), engine (19), Uncategorised (11), Fuel System (1) | Cycle Gear 11, MotoSport 29, research 19 |
-| Yoshimura | 59 | Exhaust (28), exhaust (25), Lights and Electrical (2), Body & Fairing (1), Body (1), protection (1) | Cycle Gear 19, MotoSport 13, research 27 |
 | Athena | 56 | Engine (25), Uncategorised (15), engine (11), cooling (3), Suspension (2) | Cycle Gear 15, MotoSport 27, research 14 |
+| Twisted Development | 56 | engine (32), tuning (23), intake (1) | research 56 |
 | Bolt | 55 | Body (44), Drive (6), Wheels and Rims (2), Engine (2), Exhaust (1) | MotoSport 55 |
 | K&N | 55 | Air & Fuel (22), intake (17), Tools and Maintenance (10), engine (2), Uncategorised (1), UTV / ATV Parts (1) | Cycle Gear 24, MotoSport 12, research 19 |
-| Twisted Development | 55 | engine (31), tuning (23), intake (1) | research 55 |
 | BikeMaster | 54 | Chain & Sprocket (10), drivetrain (9), Tools and Maintenance (7), Suspension (5), Uncategorised (3), Controls (2) | Cycle Gear 15, MotoSport 26, research 13 |
 | Flo Motorsports | 53 | controls (19), Controls (12), Uncategorised (10), Handlebars & Controls (5), cooling (3), Bike Protection (2) | Cycle Gear 18, MotoSport 12, research 23 |
 | Quad Lock | 53 | Lights and Electrical (53) | MotoSport 53 |
@@ -59,16 +59,16 @@
 | All Balls Racing | 48 | Uncategorised (15), Suspension (10), wheels (7), suspension (7), chassis (3), intake (2) | Cycle Gear 25, research 23 |
 | Fastway | 48 | Controls (36), Body (4), Exhaust (4), Tools and Maintenance (1), Farming and Hunting (1), Suspension (1) | MotoSport 47, research 1 |
 | Cylinder Works | 47 | engine (31), Engine (10), Uncategorised (6) | Cycle Gear 6, MotoSport 10, research 31 |
+| Factory Links | 47 | wheels (18), suspension (9), Uncategorised (8), Suspension (6), chassis (6) | Cycle Gear 14, research 33 |
 | Kriega | 47 | Luggage and Racks (27), Riding Gear (13), Farming and Hunting (2), Bike Protection (1), Uncategorised (1), Suspension (1) | Cycle Gear 2, MotoSport 43, research 2 |
 | KTM PowerParts | 47 | Controls (16), Lights and Electrical (5), Body (4), Graphics (4), Tools and Maintenance (4), Drive (3) | MotoSport 43, research 4 |
-| Factory Links | 46 | wheels (18), Uncategorised (8), suspension (8), Suspension (6), chassis (6) | Cycle Gear 14, research 32 |
 | Yamaha GYTR | 44 | GYTR (44) | Yamaha dealer 44 |
 | EK Chain | 43 | Chain & Sprocket (22), drivetrain (21) | Cycle Gear 22, research 21 |
 | Koso | 42 | Gauges (15), electrics (13), Lights and Electrical (7), Uncategorised (2), Lighting (2), Controls (2) | Cycle Gear 19, MotoSport 9, research 14 |
 | P3 | 42 | Bike Protection (10), Skid Plates and Guards (9), protection (9), Exhaust (6), Body (5), Brakes (1) | Cycle Gear 11, MotoSport 22, research 9 |
 | IMS | 41 | Uncategorised (17), controls (11), Controls (7), Body (3), intake (2), Brakes (1) | Cycle Gear 17, MotoSport 11, research 13 |
+| XPR Motorsports | 41 | tuning (20), engine (20), intake (1) | research 41 |
 | Namz Custom Cycle | 40 | Lights and Electrical (40) | MotoSport 40 |
-| XPR Motorsports | 40 | tuning (20), engine (19), intake (1) | research 40 |
 | BILT FACTORY | 39 | controls (14), Uncategorised (12), Handlebars & Controls (4), brakes (2), wheels (2), Brakes (1) | Cycle Gear 18, research 21 |
 | UFO | 39 | Uncategorised (21), body (10), Lighting (2), Body (2), Drive & Transmission (1), drivetrain (1) | Cycle Gear 24, MotoSport 2, research 13 |
 | All Balls | 37 | Suspension (12), Brakes (7), Engine (5), Wheels and Rims (4), Fuel System (4), Drive (3) | MotoSport 37 |
@@ -110,22 +110,22 @@
 | Domino | 20 | Uncategorised (9), controls (9), Controls (2) | Cycle Gear 9, MotoSport 2, research 9 |
 | EBC | 20 | brakes (9), Brakes (7), Engine (4) | MotoSport 11, research 9 |
 | G2 Ergonomics | 20 | Controls (15), Handlebars & Controls (2), controls (2), Brakes (1) | Cycle Gear 2, MotoSport 16, research 2 |
+| Race Tech | 20 | suspension (12), Suspension (8) | Cycle Gear 2, MotoSport 6, research 12 |
 | Afam Sprockets | 19 | Chain & Sprocket (10), drivetrain (9) | Cycle Gear 10, research 9 |
 | Artrax | 19 | Tires (19) | MotoSport 19 |
 | Baja Designs | 19 | electrics (11), Lighting (8) | Cycle Gear 8, research 11 |
+| Factory Connection | 19 | Suspension (10), suspension (9) | Cycle Gear 4, MotoSport 6, research 9 |
 | Puig | 19 | controls (10), Uncategorised (4), Handlebars & Controls (3), Bike Protection (1), Controls (1) | Cycle Gear 8, MotoSport 1, research 10 |
 | ASV | 18 | Controls (18) | MotoSport 18 |
 | DCOR | 18 | body (7), Uncategorised (4), controls (3), Seats (2), Bike Protection (2) | Cycle Gear 8, research 10 |
 | E-Line | 18 | protection (6), Bike Protection (4), Body (4), Exhaust (2), Lighting (1), Suspension (1) | Cycle Gear 6, MotoSport 6, research 6 |
 | Permatex | 18 | Engine (11), Body (7) | MotoSport 18 |
 | Pro-X | 18 | engine (18) | research 18 |
-| Race Tech | 18 | suspension (10), Suspension (8) | Cycle Gear 2, MotoSport 6, research 10 |
 | Xtrig | 18 | chassis (9), suspension (5), Controls (3), Suspension (1) | MotoSport 4, research 14 |
 | Hardline | 17 | Lights and Electrical (6), Gauges (5), electrics (3), Uncategorised (1), Wheels and Rims (1), chassis (1) | Cycle Gear 6, MotoSport 7, research 4 |
 | NOCO Genius | 17 | Lights and Electrical (12), Tools and Maintenance (5) | MotoSport 17 |
 | SKF | 17 | Suspension (9), Wheels and Rims (4), wheels (2), Uncategorised (1), suspension (1) | Cycle Gear 2, MotoSport 12, research 3 |
 | Antigravity | 16 | Lights and Electrical (9), Tools and Maintenance (7) | MotoSport 16 |
-| Factory Connection | 16 | Suspension (10), suspension (6) | Cycle Gear 4, MotoSport 6, research 6 |
 | Guts | 16 | Uncategorised (8), body (8) | Cycle Gear 8, research 8 |
 | Luxon MX | 16 | suspension (9), chassis (7) | research 16 |
 | Moto Tassinari | 16 | Uncategorised (8), intake (8) | Cycle Gear 8, research 8 |
@@ -353,6 +353,7 @@
 | K&S | 1 | Fuel System (1) | MotoSport 1 |
 | K-Tech Suspension | 1 | suspension (1) | research 1 |
 | Kawasaki (OEM, KYB-made) | 1 | chassis (1) | research 1 |
+| Kouba | 1 | suspension (1) | research 1 |
 | KoubaLink | 1 | suspension (1) | research 1 |
 | KoubaLinks | 1 | Suspension (1) | MotoSport 1 |
 | KTM | 1 | tuning (1) | research 1 |

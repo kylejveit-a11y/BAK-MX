@@ -1,0 +1,1949 @@
+{
+ "slice": "Honda web pass (aftermarket)",
+ "generated": "2026-10-26",
+ "notes": "Specialty product shape (category, subcategory, brand, product, part_numbers, variants, fits, what_it_changes, claimed_result, url). Prices are retail listings seen 2026-10-26 unless a test date is given. Avoids duplicating products already in aftermarket/specialty/*.json except where a part number was confirmed.",
+ "products": [
+  {
+   "category": "suspension",
+   "subcategory": "linkage + shock modification",
+   "brand": "Factory Connection",
+   "product": "Honda Linkage Set (rocker and pull rods) with shock modification",
+   "part_numbers": [],
+   "variants": [
+    "Applications per FC: 2021-2023 CRF450R/CRF450RWE/CRF450RX; 2022-2023 CRF250R/CRF250RX",
+    "Retail $455 plus shock mod (stock shock revalve labor $227 + $20 fluids + parts; FC-revalved shock $125 + $20 + parts)"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2021,
+      2022,
+      2023
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2021,
+      2022,
+      2023
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2022,
+      2023
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2022,
+      2023
+     ]
+    }
+   ],
+   "what_it_changes": "Full linkage (rocker and pull rods) with OEM bearings; shock must be modified to match so ride height is unchanged; rider sag must be reset.",
+   "claimed_result": "Tester: less harsh on acceleration chop, flatter on braking bumps, less stinkbug on corner entry; sag 105-106mm.",
+   "url": "https://www.keeferinctesting.com/factory-connection-linkage-shock-modification-2021-2022-honda-crf450r/",
+   "source_date": "2022-08-17",
+   "id": "ha-001"
+  },
+  {
+   "category": "chassis",
+   "subcategory": "triple clamps",
+   "brand": "Ride Engineering",
+   "product": "Split Triple Clamps 22mm / 23.5mm offset (2021 CRF450R/RX)",
+   "part_numbers": [],
+   "variants": [
+    "$649.90, red or black; 10 oz lighter than stock",
+    "22mm: bar 8mm ahead of stem (5 or 11mm with Ride one-piece mount); 23.5mm: 9.5mm ahead (6.5 or 12.5mm)",
+    "Showa steering damper option without frame drilling"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2021
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2021
+     ]
+    }
+   ],
+   "what_it_changes": "More offset and less clamp rigidity.",
+   "claimed_result": "Tester: less bar vibration and harshness, less knifing in ruts, better straight-line stability; fork went 1 click stiffer and slower. Torque 15 ft-lb top / 12 bottom (14/11 for raw finish).",
+   "url": "https://www.keeferinctesting.com/2021-4-13-ride-engineering-235mm-offset-split-triple-clamps/",
+   "source_date": "2021-04-14",
+   "id": "ha-002"
+  },
+  {
+   "category": "engine",
+   "subcategory": "clutch actuation arm",
+   "brand": "XPR Motorsports",
+   "product": "Longer clutch arm (CRF450R)",
+   "part_numbers": [],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2017,
+      2018,
+      2019,
+      2020
+     ]
+    }
+   ],
+   "what_it_changes": "Longer actuation arm changes lever ratio.",
+   "claimed_result": "Wider engagement, roughly half the lever effort (one-finger pull).",
+   "url": "https://www.keeferinctesting.com/2019-9-30-2017-2020-honda-crf450r-clutch-fixes/",
+   "source_date": "2019-09-30",
+   "id": "ha-003"
+  },
+  {
+   "category": "engine",
+   "subcategory": "ECU reflash",
+   "brand": "Twisted Development",
+   "product": "Stock ECU reflash, maps 2 and 3 (2021 CRF450R)",
+   "part_numbers": [],
+   "variants": [
+    "About $200 (2020 price); map 1 locked"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2021
+     ]
+    }
+   ],
+   "what_it_changes": "Rewrites maps 2 and 3 in the stock ECU.",
+   "claimed_result": "Map 2 cleaner low-rpm with more pull; map 3 more bottom snap with less over-rev.",
+   "url": "https://www.keeferinctesting.com/2020-10-26-2021-honda-crf450r-initial-baseline-settingsmods/",
+   "source_date": "2020-10-26",
+   "id": "ha-004"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full system",
+   "brand": "Yoshimura",
+   "product": "RS-9T full system (2020 CRF250R)",
+   "part_numbers": [],
+   "variants": [
+    "Slip-on $809; stainless full $909 (almost 1 lb lighter than stock); titanium full $1499 (2020 prices)"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2020
+     ]
+    }
+   ],
+   "what_it_changes": "Header and dual mufflers.",
+   "claimed_result": "More bottom-mid meat, crisper third-gear response; no top-end loss.",
+   "url": "https://www.keeferinctesting.com/2020-6-9-yoshimura-rs-9t-stainless-full-system-2020-honda-crf250r/",
+   "source_date": "2020-06-10",
+   "id": "ha-005"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full system",
+   "brand": "Yoshimura",
+   "product": "RS-12 full system (2022-2023 CRF250R)",
+   "part_numbers": [],
+   "variants": [
+    "Slip-on $719; stainless full $949 (about 1 lb heavier than stock); titanium full $1259 (2023 prices)"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2022,
+      2023
+     ]
+    }
+   ],
+   "what_it_changes": "Header and dual mufflers spec'd for 22-23 engine.",
+   "claimed_result": "Keeps low end, adds mid/top pull, holds gears longer, quicker recovery.",
+   "url": "https://www.keeferinctesting.com/yoshimura-rs-12-stainless-muffler-system-2023-honda-crf250r/",
+   "source_date": "2023-07-13",
+   "id": "ha-006"
+  },
+  {
+   "category": "intake",
+   "subcategory": "air filter cage / backfire screen delete",
+   "brand": "Twin Air",
+   "product": "PowerFlow Kit (Honda CRF450R)",
+   "part_numbers": [],
+   "variants": [
+    "$299.95; includes cage, plate, pre-oiled filter, liquid gasket"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2026
+     ]
+    }
+   ],
+   "what_it_changes": "Removes stock backfire screen and filter system for more airflow.",
+   "claimed_result": "More low-rpm response, freer revving, better on/off throttle connection.",
+   "url": "https://www.keeferinctesting.com/twin-air-powerflow-kit-honda-crf450r/",
+   "source_date": "2025-09-25",
+   "id": "ha-007"
+  },
+  {
+   "category": "suspension",
+   "subcategory": "fork springs",
+   "brand": "Race Tech",
+   "product": "Front fork springs CRF150R '07-26",
+   "part_numbers": [
+    "FRSP 3245"
+   ],
+   "variants": [
+    "Rates .34 (stock), .36, .38, .42, .46 kg/mm",
+    "$149.99"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF150R",
+     "years": [
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ]
+    }
+   ],
+   "what_it_changes": "Replaces stock .34 kg/mm fork springs with rider-weight rates.",
+   "claimed_result": "",
+   "url": "https://www.crfsonly.com/crf150r07-26-racetech-front-fork-springs",
+   "source_date": "",
+   "id": "ha-008"
+  },
+  {
+   "category": "engine",
+   "subcategory": "clutch springs",
+   "brand": "Pro Circuit",
+   "product": "Heavy Duty Clutch Springs CRF150R 2007-2025",
+   "part_numbers": [
+    "PCCSH12150-CS (from image filename, unconfirmed)"
+   ],
+   "variants": [],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF150R",
+     "years": [
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ]
+    }
+   ],
+   "what_it_changes": "Heavier clutch springs.",
+   "claimed_result": "",
+   "url": "https://www.firestormmotorcycles.com.au/honda-crf150r-2007-2025-pro-circuit-heavy-duty-clu",
+   "source_date": "",
+   "id": "ha-009"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full system",
+   "brand": "Pro Circuit",
+   "product": "T-6 Exhaust System CRF150R / RB Expert",
+   "part_numbers": [
+    "0111415G"
+   ],
+   "variants": [
+    "Stainless head/mid pipe and end cap, aluminum canister; removable USFS spark arrestor; RC-4 resonance chamber",
+    "$1,089.95 list (CycleGear)"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF150R",
+     "years": [
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF150RB",
+     "years": [
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ]
+    }
+   ],
+   "what_it_changes": "Full exhaust replacement.",
+   "claimed_result": "Seller copy: Ti-6 performance at lower cost; better throttle response; meets AMA amateur sound rules.",
+   "url": "https://www.cyclegear.com/parts/pro-circuit-t-6-exhaust-system-honda-crf150r-rb-expert-2007-2022",
+   "source_date": "",
+   "id": "ha-010"
+  },
+  {
+   "category": "engine",
+   "subcategory": "carb jetting",
+   "brand": "Pro Circuit",
+   "product": "CRF150R jetting spec (pilot jet 45)",
+   "part_numbers": [],
+   "variants": [
+    "Same spec listed for 2021-2022, 2025 and 2026"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF150R",
+     "years": [
+      2021,
+      2022,
+      2025,
+      2026
+     ]
+    }
+   ],
+   "what_it_changes": "Pilot jet 38 to 45; other jetting stock.",
+   "claimed_result": "",
+   "url": "https://www.procircuit.com/jetting-specs17",
+   "source_date": "",
+   "id": "ha-011"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "slip-on",
+   "brand": "Yoshimura",
+   "product": "RS-12evo Stainless Slip-On (2027 CRF450R)",
+   "part_numbers": [
+    "225872S520"
+   ],
+   "variants": [
+    "$749; pre-order, shipping early Jan 2027"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2027
+     ]
+    }
+   ],
+   "what_it_changes": "Stainless hydroformed slip-on muffler with carbon end cap.",
+   "claimed_result": "Maker: 6.3 lb; boosts stock performance even with USFS spark arrestor; 95.5 dB at 4750 rpm.",
+   "url": "https://www.yoshimura-rd.com/products/crf450r-rs-12evo-stainless-slip-on-exhaust-w-stainless-muffler-225872s520",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-012"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full system",
+   "brand": "Yoshimura",
+   "product": "RS-12evo SS/Ti Full Exhaust (2027 CRF450R/RX)",
+   "part_numbers": [
+    "225870S720"
+   ],
+   "variants": [
+    "$1,249; stainless header, titanium muffler"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2027
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2027
+     ]
+    }
+   ],
+   "what_it_changes": "Full system for the 2027 engine.",
+   "claimed_result": "Maker: same power as full-Ti RS-12evo at lower cost; lighter than stock.",
+   "url": "https://www.yoshimura-rd.com/products/crf450r-rx-rs12evo-hybrid-stainless-titanium-full-exhaust-225870s720",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-013"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full system",
+   "brand": "Yoshimura",
+   "product": "RS-12evo Titanium Full Exhaust (2027 CRF450R/RX)",
+   "part_numbers": [
+    "225871S720"
+   ],
+   "variants": [
+    "$1,799"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2027
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2027
+     ]
+    }
+   ],
+   "what_it_changes": "Full titanium system with hydroformed Ti muffler.",
+   "claimed_result": "Maker: 109 dB compatible; more rideability, power and torque with less weight.",
+   "url": "https://www.yoshimura-rd.com/products/crf450r-rx-rs-12-titanium-full-exhaust-w-titanium-muffler-225871s720",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-014"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full system",
+   "brand": "Yoshimura",
+   "product": "RS-12 Titanium / Stainless Full Exhaust (2025-26 CRF450R/RX)",
+   "part_numbers": [
+    "225861S720",
+    "225860S520"
+   ],
+   "variants": [
+    "225861S720 titanium $1,699",
+    "225860S520 stainless $1,099"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2025,
+      2026
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2025,
+      2026
+     ]
+    }
+   ],
+   "what_it_changes": "Full system with hydroformed RS-12 muffler for the 2025 chassis/airbox/ECU.",
+   "claimed_result": "Maker: max +3.7% hp and +1.3% torque over stock.",
+   "url": "https://www.yoshimura-rd.com/products/crf450r-rx-rs-12-titanium-full-exhaust-w-titanium-muffler-225861s720",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-015"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full system",
+   "brand": "Yoshimura",
+   "product": "RS-12 Titanium / Stainless Full Exhaust (2025-27 CRF250R/RX)",
+   "part_numbers": [
+    "228461S720",
+    "228460S520"
+   ],
+   "variants": [
+    "228461S720 titanium $1,699",
+    "228460S520 stainless $1,099"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2025,
+      2026,
+      2027
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2025,
+      2026,
+      2027
+     ]
+    }
+   ],
+   "what_it_changes": "Full system for the 2025+ CRF250R.",
+   "claimed_result": "Maker: up to +8% hp at 12,000 rpm and +8% torque at 8650 rpm.",
+   "url": "https://www.yoshimura-rd.com/products/crf250r-rx-rs-12-titanium-full-exhaust-w-titanium-muffler-228461s720",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-016"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full system / slip-on",
+   "brand": "Yoshimura",
+   "product": "RS-12 Full Exhaust and Slip-on (2022-24 CRF250R/RX)",
+   "part_numbers": [
+    "228451S720",
+    "228450S320",
+    "228452S320"
+   ],
+   "variants": [
+    "228451S720 titanium full $1,499",
+    "228450S320 stainless full $1,099",
+    "228452S320 stainless slip-on $509"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2022,
+      2023,
+      2024
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2022,
+      2023,
+      2024
+     ]
+    }
+   ],
+   "what_it_changes": "RS-12 with built-in resonance chamber.",
+   "claimed_result": "Maker: most bottom/mid and maximum over-rev for the 2022 engine.",
+   "url": "https://www.yoshimura-rd.com/products/crf250r-rx-rs-12-stainless-full-exhaust-w-stainless-muffler-228450s320",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-017"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "slip-on",
+   "brand": "Yoshimura",
+   "product": "RS-12 Stainless Slip-on (2021-24 CRF450R/RX, 2023-24 CRF450R-S)",
+   "part_numbers": [
+    "225852S320"
+   ],
+   "variants": [
+    "$849"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    }
+   ],
+   "what_it_changes": "Asymmetric slip-on with resonance chamber.",
+   "claimed_result": "",
+   "url": "https://www.yoshimura-rd.com/products/crf450r-rx-rs-12-stainless-slip-on-w-stainless-muffler-225852s320",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-018"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full system",
+   "brand": "Yoshimura",
+   "product": "RS-9T Stainless Full Exhaust (2017-20 CRF450R/RX, 2022 CRF450R-S)",
+   "part_numbers": [
+    "225840R520"
+   ],
+   "variants": [
+    "$1,219; dual tapered mufflers"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2017,
+      2018,
+      2019,
+      2020
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2017,
+      2018,
+      2019,
+      2020
+     ]
+    }
+   ],
+   "what_it_changes": "Dual-muffler system tucked under side panels.",
+   "claimed_result": "Maker: more tractable power and improved torque.",
+   "url": "https://www.yoshimura-rd.com/products/honda-crf450r-exhaust-system-225840r520",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-019"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full system",
+   "brand": "Yoshimura",
+   "product": "RS-9T Dual Stainless Full Exhaust (2018-21 CRF250R / RX)",
+   "part_numbers": [
+    "22843AR520"
+   ],
+   "variants": [
+    "$1,219"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2019,
+      2020,
+      2021
+     ]
+    }
+   ],
+   "what_it_changes": "Dual-header system.",
+   "claimed_result": "Maker: more bottom, mid and top; 0.5 lb lighter than stock; lower dB.",
+   "url": "https://www.yoshimura-rd.com/products/honda-crf250r-exhaust-system-22843ar520",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-020"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "service kit",
+   "brand": "Yoshimura",
+   "product": "CRF450RWE Works Edition Premium Muffler Repack Kit",
+   "part_numbers": [
+    "REPCK-CRF450RWE"
+   ],
+   "variants": [
+    "$104"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ]
+    }
+   ],
+   "what_it_changes": "Repack for the RWE's stock Yoshimura muffler.",
+   "claimed_result": "",
+   "url": "https://www.yoshimura-rd.com/products/crf450r-works-edition-muffler-repack-kit-repck-crf450rwe",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-021"
+  },
+  {
+   "category": "suspension",
+   "subcategory": "linkage",
+   "brand": "Pro Circuit",
+   "product": "Linkage System CRF250R/RWE/RX 25-26, CRF450R/RWE/RX 2025",
+   "part_numbers": [
+    "HLS25450"
+   ],
+   "variants": [
+    "$569.95"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2025,
+      2026
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2025,
+      2026
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2025
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2025
+     ]
+    }
+   ],
+   "what_it_changes": "Replacement linkage for the 2025+ one-piece linkage generation.",
+   "claimed_result": "",
+   "url": "https://www.procircuit.com/linkage-system-honda",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-022"
+  },
+  {
+   "category": "suspension",
+   "subcategory": "pull rods",
+   "brand": "Pro Circuit",
+   "product": "Pull Rods CRF450R 17-20 / 450RX 19-20 / CRF250R 18-21 / 250RX 19-21",
+   "part_numbers": [
+    "HPA17450"
+   ],
+   "variants": [
+    "$224.95"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2017,
+      2018,
+      2019,
+      2020
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2019,
+      2020
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2019,
+      2020,
+      2021
+     ]
+    }
+   ],
+   "what_it_changes": "Linkage pull rods (changes linkage ratio).",
+   "claimed_result": "",
+   "url": "https://www.procircuit.com/honda-linkage-arms",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-023"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full system",
+   "brand": "Pro Circuit",
+   "product": "T-6 Stainless / Ti-6 / Ti-6 BC Pro systems, CRF250R/RX 22-27 and CRF450R/RX 21-25",
+   "part_numbers": [
+    "0112425G",
+    "0312425F",
+    "0312425FP",
+    "0312525BC",
+    "0112145G",
+    "0312145F",
+    "0312545BC"
+   ],
+   "variants": [
+    "250 T-6 stainless 0112425G $1,169.95",
+    "250 Ti-6 0312425F $1,555.95",
+    "250 Ti-6 Pro 0312425FP (22-25) $1,555.95",
+    "250 Ti-6 BC Pro 0312525BC $1,636.95",
+    "450 T-6 stainless 0112145G $1,169.95",
+    "450 Ti-6 0312145F $1,555.95",
+    "450 Ti-6 BC Pro 0312545BC $1,636.95"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ]
+    }
+   ],
+   "what_it_changes": "Full single-muffler systems.",
+   "claimed_result": "",
+   "url": "https://www.procircuit.com/honda-t-6-systems",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-024"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "full system (dual)",
+   "brand": "Pro Circuit",
+   "product": "T-6 / Ti-6 dual systems, CRF250R 18-21 and CRF450R 17-20",
+   "part_numbers": [
+    "0112025G2",
+    "0111825G2",
+    "0312025F2",
+    "0311825F2",
+    "0312025FP2",
+    "0111945G2",
+    "0111745G2",
+    "0311945F2",
+    "0311745F2",
+    "0311945FP2",
+    "0311745FP2"
+   ],
+   "variants": [
+    "CRF250R/RX 2020-21 T-6 dual w/ spark arrestors 0112025G2 $1,319.95",
+    "CRF250R 18-19 T-6 dual 0111825G2",
+    "CRF250R/RX 20-21 Ti-6 dual 0312025F2 $1,816.95",
+    "CRF450R 19-20 T-6 dual 0111945G2 $1,295.95",
+    "CRF450R/RX 17-18 T-6 dual 0111745G2",
+    "CRF450R 19-20 Ti-6 dual 0311945F2 $2,024.95"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2020,
+      2021
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2017,
+      2018,
+      2019,
+      2020
+     ]
+    }
+   ],
+   "what_it_changes": "Twin-header dual-muffler systems for the twin-pipe generation.",
+   "claimed_result": "",
+   "url": "https://www.procircuit.com/honda-ti-6-systems",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-025"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "slip-on",
+   "brand": "Pro Circuit",
+   "product": "T-6 Stainless Slip-ons CRF250R/RX and CRF450R/RX",
+   "part_numbers": [
+    "0112425A",
+    "0112225A",
+    "0112025A2",
+    "0112145A",
+    "0111945A2"
+   ],
+   "variants": [
+    "CRF250R/RX 25-27 0112425A $799.95",
+    "CRF250R/RX 22-24 0112225A $799.95",
+    "CRF250R/RX 2020-21 dual w/ spark arrestor 0112025A2 $1,045.95",
+    "CRF450R/RX 21-25 0112145A $799.95",
+    "CRF450R 19-20 dual 0111945A2 $1,045.95"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ]
+    }
+   ],
+   "what_it_changes": "Slip-on muffler(s).",
+   "claimed_result": "",
+   "url": "https://www.procircuit.com/honda-t-6-slip-ons",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-026"
+  },
+  {
+   "category": "engine",
+   "subcategory": "clutch cover",
+   "brand": "Pro Circuit",
+   "product": "T-6 Clutch Cover CRF450R 17-25 / CRF450RX 21-25; CRF250 18-20",
+   "part_numbers": [
+    "CCH21450",
+    "CCH19250"
+   ],
+   "variants": [
+    "CCH21450 $224.95",
+    "CCH19250 $169.95"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2018,
+      2019,
+      2020
+     ]
+    }
+   ],
+   "what_it_changes": "Replacement clutch cover.",
+   "claimed_result": "",
+   "url": "https://www.procircuit.com/clutch-covers-honda",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-027"
+  },
+  {
+   "category": "engine",
+   "subcategory": "valves",
+   "brand": "Pro Circuit",
+   "product": "Titanium Intake Valves CRF450R '17-'26",
+   "part_numbers": [
+    "IVH17450"
+   ],
+   "variants": [
+    "$357.95"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ]
+    }
+   ],
+   "what_it_changes": "Replacement titanium intake valves.",
+   "claimed_result": "",
+   "url": "https://www.procircuit.com/intake-valves-honda",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-028"
+  },
+  {
+   "category": "engine",
+   "subcategory": "valves",
+   "brand": "Pro Circuit",
+   "product": "Titanium Intake / Exhaust Valves CRF150R 2007-2026",
+   "part_numbers": [
+    "IVH07150",
+    "EVH07150"
+   ],
+   "variants": [
+    "IVH07150 intake $357.95",
+    "EVH07150 exhaust $357.95"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF150R",
+     "years": [
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ]
+    }
+   ],
+   "what_it_changes": "Replacement titanium valves (stock 150R valves are stainless per other sources).",
+   "claimed_result": "",
+   "url": "https://www.procircuit.com/intake-valves-honda",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-029"
+  },
+  {
+   "category": "exhaust",
+   "subcategory": "slip-on / full system",
+   "brand": "Pro Circuit",
+   "product": "CRF150R T-6 Stainless Slip-On and Ti-6 Pro system",
+   "part_numbers": [
+    "0111415A",
+    "0311415FP"
+   ],
+   "variants": [
+    "T-6 slip-on CRF150R '07-'25 0111415A $649.95",
+    "Ti-6 Pro titanium system CRF150R '07-18 0311415FP $1,396.95"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF150R",
+     "years": [
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ]
+    }
+   ],
+   "what_it_changes": "Muffler / full system.",
+   "claimed_result": "",
+   "url": "https://www.procircuit.com/honda-t-6-slip-on-crf150r-07-22",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-030"
+  },
+  {
+   "category": "controls",
+   "subcategory": "clutch lever",
+   "brand": "Pro Circuit",
+   "product": "Clutch Lever CRF450 21-25",
+   "part_numbers": [
+    "PCCL04-01-056"
+   ],
+   "variants": [
+    "$29.95"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ]
+    }
+   ],
+   "what_it_changes": "Replacement hydraulic clutch lever.",
+   "claimed_result": "",
+   "url": "https://www.procircuit.com/brake-levers-honda",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-031"
+  },
+  {
+   "category": "engine",
+   "subcategory": "clutch pack",
+   "brand": "Rekluse",
+   "product": "TorqDrive Clutch Pack Honda CRF250R/RX 2022-2026",
+   "part_numbers": [
+    "RMS-2801101"
+   ],
+   "variants": [
+    "$429 (CycleGear)"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ]
+    }
+   ],
+   "what_it_changes": "Thin friction/steel pack that fits more discs in the stock basket.",
+   "claimed_result": "Maker: less slip, more power to the ground. Testers (Keefer) report better lever feel and clutch life on CRF250R.",
+   "url": "https://www.cyclegear.com/parts/rekluse-torq-drive-clutch-pack-honda-crf250r-rx-2022-2025",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-032"
+  },
+  {
+   "category": "engine",
+   "subcategory": "clutch kit",
+   "brand": "Rekluse",
+   "product": "APEX Manual Clutch Kit Honda CRF250R/RX/RWE 2022-2025",
+   "part_numbers": [
+    "RMS-7401101"
+   ],
+   "variants": [
+    "$1,259"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025
+     ]
+    }
+   ],
+   "what_it_changes": "Complete billet basket/hub/pressure plate with TorqDrive plates, fixed-pin inner hub.",
+   "claimed_result": "Maker: smoother lever, durability, fade-free; prevents basket notching.",
+   "url": "https://www.cyclegear.com/parts/rekluse-apex-manual-clutch-kit-honda-crf250r-crf250rx-crf250rwe-2022-2025",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-033"
+  },
+  {
+   "category": "engine",
+   "subcategory": "clutch kit",
+   "brand": "Rekluse",
+   "product": "Core Manual TorqDrive Clutch Kit Honda CRF250R/RX 2022-2026",
+   "part_numbers": [
+    "RMS-7101101"
+   ],
+   "variants": [
+    "$1,099"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ]
+    }
+   ],
+   "what_it_changes": "Billet core components with TorqDrive pack.",
+   "claimed_result": "",
+   "url": "https://www.cyclegear.com/parts/rekluse-core-manual-torq-drive-clutch-kit-honda-crf250r-crf250rx-2022-2023",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-034"
+  },
+  {
+   "category": "engine",
+   "subcategory": "clutch basket",
+   "brand": "Hinson",
+   "product": "Billetproof Clutch Basket Honda CRF250R/RX 2022",
+   "part_numbers": [
+    "H894-B-2201"
+   ],
+   "variants": [
+    "$299.99"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2022
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2022
+     ]
+    }
+   ],
+   "what_it_changes": "Billet basket replacing OEM.",
+   "claimed_result": "",
+   "url": "https://www.cyclegear.com/parts/hinson-billetproof-clutch-basket-honda-crf250r-crf250rx-2022",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-035"
+  },
+  {
+   "category": "engine",
+   "subcategory": "clutch kit",
+   "brand": "Hinson",
+   "product": "Complete Billetproof Conventional Clutch Kit CRF450R/WE/RX 2021-2024",
+   "part_numbers": [
+    "HC597-2101"
+   ],
+   "variants": [
+    "$1,179.99"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    }
+   ],
+   "what_it_changes": "Billet basket, inner hub, pressure plate with plates/springs.",
+   "claimed_result": "Maker: improved clutch performance and durability. (Confirms the HC597-2101 number noted as unconfirmed in the existing engine4 entry.)",
+   "url": "https://www.cyclegear.com/parts/hinson-complete-billetproof-conventional-clutch-kit-honda-crf450r-crf450we-crf450rx-2021-2023",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-036"
+  },
+  {
+   "category": "engine",
+   "subcategory": "clutch components",
+   "brand": "Hinson",
+   "product": "Billetproof basket / inner hub / pressure plate / FSC plate-spring kit CRF450R/WE/RX 2021-2024",
+   "part_numbers": [
+    "H597-B-2101",
+    "H597-IH-2101",
+    "H597-PP-2101",
+    "FSC059-8-001"
+   ],
+   "variants": [
+    "Basket $299.99",
+    "Inner hub $319.99",
+    "Pressure plate $199.99 (R/WE)",
+    "FSC plate/spring kit $219.99 (R/WE)"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    }
+   ],
+   "what_it_changes": "Individual billet clutch components and friction/steel/spring kit.",
+   "claimed_result": "",
+   "url": "https://www.cyclegear.com/parts/hinson-billetproof-clutch-basket-honda-crf450r-works-edition-rx-2021-2022",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-037"
+  },
+  {
+   "category": "controls",
+   "subcategory": "clutch lever",
+   "brand": "Works Connection",
+   "product": "Elite Clutch Lever Honda 250cc-450cc 2017-2026",
+   "part_numbers": [
+    "16-861",
+    "16-866"
+   ],
+   "variants": [
+    "$49.95"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ]
+    }
+   ],
+   "what_it_changes": "Replacement clutch lever.",
+   "claimed_result": "",
+   "url": "https://www.cyclegear.com/parts/works-connection-elite-clutch-lever-honda-250cc-450cc-2017-2022",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-038"
+  },
+  {
+   "category": "suspension",
+   "subcategory": "fork springs",
+   "brand": "Factory Connection",
+   "product": "Fork Springs (LRN series) Honda/Kawasaki/Suzuki 250-450",
+   "part_numbers": [
+    "LRN-045",
+    "LRN-047",
+    "LRN-049",
+    "LRN-051",
+    "LRN-053",
+    "LRN-055"
+   ],
+   "variants": [
+    "$159.95/pair",
+    "Rates 4.5-5.5 N/mm per part numbers"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    }
+   ],
+   "what_it_changes": "Coil fork springs by rider weight.",
+   "claimed_result": "",
+   "url": "https://www.cyclegear.com/parts/factory-connection-fork-springs-honda-kawasaki-suzuki-250-450cc",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-039"
+  },
+  {
+   "category": "suspension",
+   "subcategory": "shock springs",
+   "brand": "Factory Connection",
+   "product": "Shock Spring (ALL series) Honda CRF250R/CRF450R/RX/R-S/RL/L/X 2017-2027",
+   "part_numbers": [
+    "ALL-0047",
+    "ALL-0049",
+    "ALL-0051",
+    "ALL-0053",
+    "ALL-0057",
+    "ALL-0059",
+    "ALL-0061",
+    "ALL-0063"
+   ],
+   "variants": [
+    "$159.95"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ]
+    }
+   ],
+   "what_it_changes": "Steel shock springs, rate per part number.",
+   "claimed_result": "",
+   "url": "https://www.cyclegear.com/parts/factory-connection-shock-spring-honda-crf250r-crf450r-rx-r-s-rl-l-x-2017-2022",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-040"
+  },
+  {
+   "category": "suspension",
+   "subcategory": "fork springs",
+   "brand": "Race Tech",
+   "product": "Fork Springs CRF250RX '19-24",
+   "part_numbers": [
+    "FRSP 4547"
+   ],
+   "variants": [
+    "Rates 0.38-0.56 kg/mm",
+    "$159.95"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    }
+   ],
+   "what_it_changes": "Rider-weight fork springs.",
+   "claimed_result": "",
+   "url": "https://www.crfsonly.com/crf250rx19-25-race-tech-fork-springs",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-041"
+  },
+  {
+   "category": "suspension",
+   "subcategory": "lowering link",
+   "brand": "Kouba",
+   "product": "Lowering Link CRF250R/RX 25-27, CRF450R/RX 25-26",
+   "part_numbers": [
+    "CRF25-2",
+    "CRF25-3"
+   ],
+   "variants": [
+    "CRF25-2 about 1.5 in lower",
+    "CRF25-3 about 2 in lower",
+    "$170.05"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2025,
+      2026,
+      2027
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2025,
+      2026,
+      2027
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2025,
+      2026
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2025,
+      2026
+     ]
+    }
+   ],
+   "what_it_changes": "Rear lowering link reducing seat height; changes geometry.",
+   "claimed_result": "",
+   "url": "https://www.crfsonly.com/crf450r2025-kouba-lowering-link",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-042"
+  },
+  {
+   "category": "suspension",
+   "subcategory": "linkage bearing kit",
+   "brand": "Factory Links",
+   "product": "Linkage Bearing Rebuild Kit Honda 250-450",
+   "part_numbers": [
+    "P1077861 (retailer item #)"
+   ],
+   "variants": [
+    "$104.95; needle bearings, collars, pins, dust seals"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450RX",
+     "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF250RX",
+     "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ]
+    }
+   ],
+   "what_it_changes": "OEM-quality linkage service parts.",
+   "claimed_result": "",
+   "url": "https://www.cyclegear.com/parts/factory-links-linkage-bearing-rebuild-kit-honda-250cc-450cc-2017-2023",
+   "source_date": "2026-10-26 (retail listing)",
+   "id": "ha-043"
+  },
+  {
+   "category": "chassis",
+   "subcategory": "radiator braces",
+   "brand": "Works Connection",
+   "product": "Radiator Braces CRF250R/CRF450R 2025-2026",
+   "part_numbers": [
+    "18-711",
+    "18-B711"
+   ],
+   "variants": [
+    "18-711 raw $124.95 (Cycle News) / $158.95 (CycleGear)",
+    "18-B711 satin black $149.95"
+   ],
+   "fits": [
+    {
+     "make": "Honda",
+     "model": "CRF250R",
+     "years": [
+      2025,
+      2026
+     ]
+    },
+    {
+     "make": "Honda",
+     "model": "CRF450R",
+     "years": [
+      2025,
+      2026
+     ]
+    }
+   ],
+   "what_it_changes": "5052 aluminum braces behind shrouds with rubber isolators.",
+   "claimed_result": "Maker: crash protection while keeping OEM flex.",
+   "url": "https://cyclenews.com/2024/10/article/works-connection-crf250r450r-radiator-braces",
+   "source_date": "2024-10",
+   "id": "ha-044"
+  }
+ ]
+}

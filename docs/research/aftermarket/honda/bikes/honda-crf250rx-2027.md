@@ -1,6 +1,6 @@
 # Honda CRF250RX 2027: aftermarket parts
 
-6 listings whose stated fitment names this bike: 6 researched parts (with what they change and rider findings), 0 dealer and retailer listings specific to this bike, and 0 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+11 listings whose stated fitment names this bike: 11 researched parts (with what they change and rider findings), 0 dealer and retailer listings specific to this bike, and 0 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -11,5 +11,10 @@
 | FMF | Factory 4.1 RCT full system - CRF250R, CRF250RX | 041644, 041645 | FMF: Resonance Chamber Technology inside and out, shorter length, muffler moved forward to centralize mass; claims 'massive' power gains across the rpm range and big weight savings; RTS quick-tuning. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/factory-4-1-rct-titanium-anodized-full-system-w-carbon-end-cap-041645) | high |
 | FMF | Factory 4.1 RCT slip-on - CRF250R, CRF250RX | 041642, 041643 | FMF: Resonance Chamber Technology inside and out, shorter length, muffler moved forward to centralize mass; claims 'massive' power gains across the rpm range and big weight savings; RTS quick-tuning. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/factory-4-1-rct-titanium-anodized-sl-slip-on-w-carbon-cap-041643) | high |
 | FMF | MegaBomb header - CRF250R, CRF250RX | 041614, 041615 | FMF MegaBomb four-stroke header (resonance chamber 'bomb' near the port); used with FMF mid/muffler. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/titanium-megabomb-041615) | high |
+| Pro Circuit | T-6 Stainless Slip-ons CRF250R/RX and CRF450R/RX | 0112425A, 0112225A, 0112025A2, 0112145A, 0111945A2 | Slip-on muffler(s). |  | [source](None) |  |
 | Pro Circuit | T-6 Stainless Slip-On, CRF250R/RX '25-27 | 0112425A |  | Slip-ons fit stock head pipe only (Pro Circuit). | [Pro Circuit (maker)](https://www.procircuit.com/t-6-slip-on-crf250-2025) | high |
+| Pro Circuit | T-6 Stainless / Ti-6 / Ti-6 BC Pro systems, CRF250R/RX 22-27 and CRF450R/RX 21-25 | 0112425G, 0312425F, 0312425FP, 0312525BC, 0112145G, 0312145F, 0312545BC | Full single-muffler systems. |  | [source](None) |  |
+| Yoshimura | RS-12 Titanium / Stainless Full Exhaust (2025-27 CRF250R/RX) | 228461S720, 228460S520 | Full system for the 2025+ CRF250R. |  | [source](None) |  |
+| Factory Connection | Shock Spring (ALL series) Honda CRF250R/CRF450R/RX/R-S/RL/L/X 2017-2027 | ALL-0047, ALL-0049, ALL-0051, ALL-0053, ALL-0057, ALL-0059, ALL-0061, ALL-0063 | Steel shock springs, rate per part number. |  | [source](None) |  |
+| Kouba | Lowering Link CRF250R/RX 25-27, CRF450R/RX 25-26 | CRF25-2, CRF25-3 | Rear lowering link reducing seat height; changes geometry. |  | [source](None) |  |
 

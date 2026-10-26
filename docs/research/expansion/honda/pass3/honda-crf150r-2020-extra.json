@@ -1,0 +1,1656 @@
+{
+ "target": {
+  "manufacturer": "Honda",
+  "model": "CRF150R",
+  "model_year": 2020,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "2020 CRF150R/RB Owner's Manual & Competition Handbook 31KSE710 (Honda Motopub, American Honda)",
+  "source_url": "https://2rom-prd-data.hondamotopub.com/om/AHM/CRF150R-RB/2020/CRF150R.RB_31KSE710_0.pdf",
+  "kind": "owners_manual_competition_handbook",
+  "document_revision": "31KSE710",
+  "sha256": "bda831cf522f232f6de119e5828917a7065a7759dd29c0c79afcd0b288c55a80"
+ },
+ "values": [
+  {
+   "joint": "Specifications (CRF150RB) / Dimension / Overall length",
+   "value": "74.8 in (1,900 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Dimension / Overall width",
+   "value": "30.3 in (770 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Dimension / Overall height",
+   "value": "46.1 in (1,171 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Dimension / Wheelbase",
+   "value": "50.6 in (1,285 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Dimension / Seat height",
+   "value": "34.1 in (866 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Dimension / Footpeg height",
+   "value": "16.3 in (413 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Dimension / Ground clearance",
+   "value": "13.2 in (336 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Frame / Type",
+   "value": "Semi double cradle",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Frame / F. suspension",
+   "value": "Telescopic fork, travel 9.5 in (241 mm), stroke 10.8 in (275 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Frame / R. suspension",
+   "value": "Pro-link, travel 11.1 in (282 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Frame / Front tire",
+   "value": "70/100 – 19 42M",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Frame / Front tire - AC",
+   "value": "DUNLOP MX71F",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Frame / Front tire - CM",
+   "value": "BRIDGESTONE M61",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Frame / Rear tire",
+   "value": "90/100 – 16 52M",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Frame / Rear tire - AC",
+   "value": "DUNLOP MX71",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Frame / Rear tire - CM",
+   "value": "BRIDGESTONE M58",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Frame / Tire type",
+   "value": "bias-ply, tube",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Frame / Tire pressure, front (cold)",
+   "value": "15 psi (100 kPa, 1.0 kgf/cm2)",
+   "unit": "kPa",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Frame / Tire pressure, rear (cold)",
+   "value": "15 psi (100 kPa, 1.0 kgf/cm2)",
+   "unit": "kPa",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Frame / F. brake, swept area",
+   "value": "Single disc brake, 55.5 in2 (358.1 cm2)",
+   "unit": "cm2",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Frame / R. brake, swept area",
+   "value": "Single disc brake, 46.6 in2 (300.7 cm2)",
+   "unit": "cm2",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Frame / Fuel recommendation",
+   "value": "unleaded gasoline, pump octane number of 91 or higher",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Frame / Fuel capacity",
+   "value": "1.14 US gal (4.3 ℓ)",
+   "unit": "l",
+   "property": "capacity",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Frame / Caster angle",
+   "value": "27°48’",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Frame / Trail length",
+   "value": "3.8 in (96 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Frame / Fork oil capacity",
+   "value": "11.57 US oz (342 cm3)",
+   "unit": "cm3",
+   "property": "capacity",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Type",
+   "value": "Liquid cooled, 4-stroke",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Cylinder arrangement",
+   "value": "Single 19° inclined from vertical",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Bore and stroke",
+   "value": "2.60 x 1.72 in (66.0 x 43.7 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Displacement",
+   "value": "9.13 cu-in (149.7 cm3)",
+   "unit": "cm3",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Compression ratio",
+   "value": "11.7 : 1",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Valve clearance - Intake",
+   "value": "0.006 ± 0.001 in (0.16 ± 0.03 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Valve clearance - Exhaust",
+   "value": "0.010 ± 0.001 in (0.26 ± 0.03 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Engine oil capacity - After draining",
+   "value": "0.59 US qt (0.56 ℓ)",
+   "unit": "l",
+   "property": "capacity",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Engine oil capacity - After draining and oil filter change",
+   "value": "0.62 US qt (0.59 ℓ)",
+   "unit": "l",
+   "property": "capacity",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Engine oil capacity - After disassembly",
+   "value": "0.74 US qt (0.70 ℓ)",
+   "unit": "l",
+   "property": "capacity",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Transmission oil capacity - After draining",
+   "value": "0.60 US qt (0.57 ℓ)",
+   "unit": "l",
+   "property": "capacity",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Transmission oil capacity - After disassembly",
+   "value": "0.69 US qt (0.65 ℓ)",
+   "unit": "l",
+   "property": "capacity",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Carburetor - Type",
+   "value": "Piston valve",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Carburetor - Identification number",
+   "value": "FCR08D",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Carburetor - Main jet (standard)",
+   "value": "# 140",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Carburetor - Jet needle (standard)",
+   "value": "NMQT",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Carburetor - Needle clip position (standard)",
+   "value": "3rd groove",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Carburetor - Slow jet (standard)",
+   "value": "# 38",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Carburetor - Pilot screw opening",
+   "value": "2 1/8 turns out",
+   "unit": "turns",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Carburetor - Float level",
+   "value": "0.28 in (7.0 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Carburetor - Idle speed",
+   "value": "2,100 ± 100 rpm",
+   "unit": "rpm",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Engine / Cooling capacity - After disassembly",
+   "value": "0.80 US qt (0.76 ℓ)",
+   "unit": "l",
+   "property": "capacity",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Drive train / Clutch type",
+   "value": "Wet, multi-plate type",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Drive train / Transmission",
+   "value": "5-speed, constant mesh",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Drive train / Primary reduction",
+   "value": "4.117",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Drive train / Gear ratio I",
+   "value": "2.214",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Drive train / Gear ratio II",
+   "value": "1.647",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Drive train / Gear ratio III",
+   "value": "1.318",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Drive train / Gear ratio IV",
+   "value": "1.105",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Drive train / Gear ratio V",
+   "value": "0.956",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Drive train / Final reduction",
+   "value": "3.733",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Drive train / Gear shift pattern",
+   "value": "Left foot-operated return system 1-N-2-3-4-5",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Electrical / Ignition",
+   "value": "ICM",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Electrical / Starting system",
+   "value": "Kickstarter",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Electrical / Spark plug - Standard",
+   "value": "NGK CR8EH-9 / DENSO U24FER9",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Electrical / Spark plug - Optional",
+   "value": "NGK CR9EH-9 / DENSO U27FER9",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Specifications (CRF150RB) / Electrical / Spark plug gap",
+   "value": "0.031 – 0.035 in (0.8 – 0.9 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Fork Oil Level (CRF150R) / Optional stiffer 20.2 lbf/in (3.53 N/mm) fork spring (1 scribe mark) - Standard oil level",
+   "value": "5.04 in (128.1 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "[capacity] 11.93 US oz (352.7 cm3)"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Fork Oil Level (CRF150R) / Optional stiffer 20.2 lbf/in (3.53 N/mm) fork spring (1 scribe mark) - Maximum oil level",
+   "value": "5.04 in (128.1 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "[capacity] 11.93 US oz (352.7 cm3)"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Fork Oil Level (CRF150R) / Optional stiffer 20.2 lbf/in (3.53 N/mm) fork spring (1 scribe mark) - Minimum oil level",
+   "value": "7.64 in (194.1 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "[capacity] 10.13 US oz (299.4 cm3)"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Fork Oil Level (CRF150R) / Optional softer 17.9 lbf/in (3.14 N/mm) fork spring (2 coils at one end, 1 coil at other end) - Standard oil level",
+   "value": "5.02 in (127.5 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "[capacity] 11.95 US oz (353.2 cm3)"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Fork Oil Level (CRF150R) / Optional softer 17.9 lbf/in (3.14 N/mm) fork spring (2 coils at one end, 1 coil at other end) - Maximum oil level",
+   "value": "5.02 in (127.5 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "[capacity] 11.95 US oz (353.2 cm3)"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Fork Oil Level (CRF150R) / Optional softer 17.9 lbf/in (3.14 N/mm) fork spring (2 coils at one end, 1 coil at other end) - Minimum oil level",
+   "value": "7.61 in (193.4 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "[capacity] 10.14 US oz (299.9 cm3)"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Fork Oil Level (CRF150RB) / Standard 20.2 lbf/in (3.53 N/mm) fork spring (1 scribe mark) - Standard oil level",
+   "value": "5.55 in (141.0 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150RB",
+    "[capacity] 11.57 US oz (342.0 cm3)"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Fork Oil Level (CRF150RB) / Standard 20.2 lbf/in (3.53 N/mm) fork spring (1 scribe mark) - Maximum oil level",
+   "value": "5.16 in (131.0 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150RB",
+    "[capacity] 11.84 US oz (350.1 cm3)"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Fork Oil Level (CRF150RB) / Standard 20.2 lbf/in (3.53 N/mm) fork spring (1 scribe mark) - Minimum oil level",
+   "value": "7.63 in (193.7 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150RB",
+    "[capacity] 10.13 US oz (299.4 cm3)"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Fork Oil Level (CRF150RB) / Optional stiffer 21.3 lbf/in (3.73 N/mm) fork spring (2 scribe marks) - Standard oil level",
+   "value": "5.43 in (137.9 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150RB",
+    "[capacity] 11.65 US oz (344.5 cm3)"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Fork Oil Level (CRF150RB) / Optional stiffer 21.3 lbf/in (3.73 N/mm) fork spring (2 scribe marks) - Maximum oil level",
+   "value": "5.04 in (127.9 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150RB",
+    "[capacity] 11.92 US oz (352.6 cm3)"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Fork Oil Level (CRF150RB) / Optional stiffer 21.3 lbf/in (3.73 N/mm) fork spring (2 scribe marks) - Minimum oil level",
+   "value": "7.50 in (190.6 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150RB",
+    "[capacity] 10.21 US oz (301.9 cm3)"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Fork Oil Level (CRF150RB) / Optional softer 19.0 lbf/in (3.33 N/mm) fork spring (1 coil at both ends) - Standard oil level",
+   "value": "5.34 in (135.7 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150RB",
+    "[capacity] 11.71 US oz (346.3 cm3)"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Fork Oil Level (CRF150RB) / Optional softer 19.0 lbf/in (3.33 N/mm) fork spring (1 coil at both ends) - Maximum oil level",
+   "value": "4.95 in (125.7 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150RB",
+    "[capacity] 11.99 US oz (354.4 cm3)"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Fork Oil Level (CRF150RB) / Optional softer 19.0 lbf/in (3.33 N/mm) fork spring (1 coil at both ends) - Minimum oil level",
+   "value": "7.42 in (188.4 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150RB",
+    "[capacity] 10.27 US oz (303.7 cm3)"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Fork Oil Level (CRF150RB) / Standard fork spring rate",
+   "value": "20.2 lbf/in (3.53 N/mm)",
+   "unit": "N/mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Front Suspension / Oil level adjustment step when fork too hard on big bumps",
+   "value": "Lower oil level in 0.2 in (5 mm) increments (not below minimum level), with compression adjuster 1/4 turn softer",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Front Suspension / Effect of fork oil level",
+   "value": "Felt only in the final 3.9 in (100 mm) of fork travel",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB"
+   ],
+   "page": "94"
+  },
+  {
+   "joint": "Rear Suspension Adjustments / Spring preload per adjuster turn",
+   "value": "0.06 in (1.5 mm) / 16.5 lbf (7.5 kgf)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "102"
+  },
+  {
+   "joint": "Rear Suspension Adjustments / Spring preload per adjuster turn",
+   "value": "0.06 in (1.5 mm) / 17.2 lbf (7.8 kgf)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "102"
+  },
+  {
+   "joint": "Rear Suspension Adjustments / Spring preload length (Optional softer spring 268.4 lbf/in (47.0 N/mm)) - Min.",
+   "value": "8.8 in (223 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "102"
+  },
+  {
+   "joint": "Rear Suspension Adjustments / Spring preload length (Optional stiffer spring 291.2 lbf/in (51.0 N/mm)) - Min.",
+   "value": "8.9 in (226 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "102"
+  },
+  {
+   "joint": "Rear Suspension Adjustments / Spring preload length - Max. (do not increase beyond)",
+   "value": "9.27 in (235.5 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "102"
+  },
+  {
+   "joint": "Rear Suspension Adjustments / Spring preload length (Standard spring) - Standard",
+   "value": "9.21 in (234.0 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "102"
+  },
+  {
+   "joint": "Rear Suspension Adjustments / Spring preload length (Standard spring) - Min.",
+   "value": "8.9 in (226 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "102"
+  },
+  {
+   "joint": "Rear Suspension Adjustments / Spring preload length (Optional softer spring 279.8 lbf/in (49.0 N/mm)) - Min.",
+   "value": "8.7 in (222 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "102"
+  },
+  {
+   "joint": "Rear Suspension Adjustments / Spring preload length (Optional stiffer spring 302.6 lbf/in (53.0 N/mm)) - Min.",
+   "value": "8.7 in (221 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "102"
+  },
+  {
+   "joint": "Rear Suspension Adjustments / Spring preload length - Max. (do not increase beyond)",
+   "value": "9.25 in (235.0 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "102"
+  },
+  {
+   "joint": "Rear Suspension Adjustments / Compression damping adjuster range",
+   "value": "3 turns or less",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB"
+   ],
+   "page": "103"
+  },
+  {
+   "joint": "Rear Suspension Adjustments / Rebound damping adjuster range",
+   "value": "3 turns or less",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB"
+   ],
+   "page": "103"
+  },
+  {
+   "joint": "Rear Suspension Adjustments / Free sag (with race sag set)",
+   "value": "0.4 to 1.0 in (10 to 25 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB"
+   ],
+   "page": "105"
+  },
+  {
+   "joint": "Chassis Adjustments / Race sag adjustment range",
+   "value": "3.3 – 4.1 in (85 – 105 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB"
+   ],
+   "page": "123"
+  },
+  {
+   "joint": "Chassis Adjustments / Reduced sag for more rear traction",
+   "value": "3.1 in (80 mm) or 3.0 in (75 mm) instead of 3.3 in (85 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB"
+   ],
+   "page": "123"
+  },
+  {
+   "joint": "Chassis Adjustments / Fork tube position",
+   "value": "Not adjustable; groove in outer tube aligned with top surface of upper fork clamp",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB"
+   ],
+   "page": "123"
+  },
+  {
+   "joint": "Carburetor / Adjustments for altitude & temperature - conditions",
+   "value": "Cold temperature, dry air: mixture lean, richen; warm temperature, high humidity, high altitude: mixture rich, lean; component affected: main jet (jet needle stage)",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 10,000 ft (3,050 m) – 7,500 ft (2,300 m) / -21° to 0°F (-30° to -17°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #140",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 10,000 ft (3,050 m) – 7,500 ft (2,300 m)",
+    "temperature -21° to 0°F (-30° to -17°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 10,000 ft (3,050 m) – 7,500 ft (2,300 m) / -1° to 20°F (-18° to -6°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #138",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 10,000 ft (3,050 m) – 7,500 ft (2,300 m)",
+    "temperature -1° to 20°F (-18° to -6°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 10,000 ft (3,050 m) – 7,500 ft (2,300 m) / 19° to 40°F (-7° to 5°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #138",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 10,000 ft (3,050 m) – 7,500 ft (2,300 m)",
+    "temperature 19° to 40°F (-7° to 5°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 10,000 ft (3,050 m) – 7,500 ft (2,300 m) / 39° to 60°F (4° to 16°C)",
+   "value": "PS 1 7/8 turns out, SJ #38, needle clip 3rd, JN NMRT, MJ #138",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 10,000 ft (3,050 m) – 7,500 ft (2,300 m)",
+    "temperature 39° to 60°F (4° to 16°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 10,000 ft (3,050 m) – 7,500 ft (2,300 m) / 59° to 80°F (15° to 27°C)",
+   "value": "PS 1 7/8 turns out, SJ #38, needle clip 3rd, JN NMRT, MJ #138",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 10,000 ft (3,050 m) – 7,500 ft (2,300 m)",
+    "temperature 59° to 80°F (15° to 27°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 10,000 ft (3,050 m) – 7,500 ft (2,300 m) / 79° to 100°F (26° to 38°C)",
+   "value": "PS 1 5/8 turns out, SJ #38, needle clip 2nd, JN NMQT, MJ #135",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 10,000 ft (3,050 m) – 7,500 ft (2,300 m)",
+    "temperature 79° to 100°F (26° to 38°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 10,000 ft (3,050 m) – 7,500 ft (2,300 m) / 99° to 120°F (37° to 49°C)",
+   "value": "PS 1 5/8 turns out, SJ #38, needle clip 2nd, JN NMQT, MJ #135",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 10,000 ft (3,050 m) – 7,500 ft (2,300 m)",
+    "temperature 99° to 120°F (37° to 49°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 7,499 ft (2,299 m) – 5,000 ft (1,500 m) / -21° to 0°F (-30° to -17°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #140",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 7,499 ft (2,299 m) – 5,000 ft (1,500 m)",
+    "temperature -21° to 0°F (-30° to -17°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 7,499 ft (2,299 m) – 5,000 ft (1,500 m) / -1° to 20°F (-18° to -6°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #140",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 7,499 ft (2,299 m) – 5,000 ft (1,500 m)",
+    "temperature -1° to 20°F (-18° to -6°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 7,499 ft (2,299 m) – 5,000 ft (1,500 m) / 19° to 40°F (-7° to 5°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #138",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 7,499 ft (2,299 m) – 5,000 ft (1,500 m)",
+    "temperature 19° to 40°F (-7° to 5°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 7,499 ft (2,299 m) – 5,000 ft (1,500 m) / 39° to 60°F (4° to 16°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #138",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 7,499 ft (2,299 m) – 5,000 ft (1,500 m)",
+    "temperature 39° to 60°F (4° to 16°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 7,499 ft (2,299 m) – 5,000 ft (1,500 m) / 59° to 80°F (15° to 27°C)",
+   "value": "PS 1 7/8 turns out, SJ #38, needle clip 3rd, JN NMRT, MJ #138",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 7,499 ft (2,299 m) – 5,000 ft (1,500 m)",
+    "temperature 59° to 80°F (15° to 27°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 7,499 ft (2,299 m) – 5,000 ft (1,500 m) / 79° to 100°F (26° to 38°C)",
+   "value": "PS 1 7/8 turns out, SJ #38, needle clip 3rd, JN NMRT, MJ #138",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 7,499 ft (2,299 m) – 5,000 ft (1,500 m)",
+    "temperature 79° to 100°F (26° to 38°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 7,499 ft (2,299 m) – 5,000 ft (1,500 m) / 99° to 120°F (37° to 49°C)",
+   "value": "PS 1 5/8 turns out, SJ #38, needle clip 2nd, JN NMQT, MJ #135",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 7,499 ft (2,299 m) – 5,000 ft (1,500 m)",
+    "temperature 99° to 120°F (37° to 49°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 4,999 ft (1,499 m) – 2,500 ft (750 m) / -21° to 0°F (-30° to -17°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #142",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 4,999 ft (1,499 m) – 2,500 ft (750 m)",
+    "temperature -21° to 0°F (-30° to -17°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 4,999 ft (1,499 m) – 2,500 ft (750 m) / -1° to 20°F (-18° to -6°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #140",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 4,999 ft (1,499 m) – 2,500 ft (750 m)",
+    "temperature -1° to 20°F (-18° to -6°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 4,999 ft (1,499 m) – 2,500 ft (750 m) / 19° to 40°F (-7° to 5°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #140",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 4,999 ft (1,499 m) – 2,500 ft (750 m)",
+    "temperature 19° to 40°F (-7° to 5°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 4,999 ft (1,499 m) – 2,500 ft (750 m) / 39° to 60°F (4° to 16°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #138",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 4,999 ft (1,499 m) – 2,500 ft (750 m)",
+    "temperature 39° to 60°F (4° to 16°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 4,999 ft (1,499 m) – 2,500 ft (750 m) / 59° to 80°F (15° to 27°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #138",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 4,999 ft (1,499 m) – 2,500 ft (750 m)",
+    "temperature 59° to 80°F (15° to 27°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 4,999 ft (1,499 m) – 2,500 ft (750 m) / 79° to 100°F (26° to 38°C)",
+   "value": "PS 1 7/8 turns out, SJ #38, needle clip 3rd, JN NMRT, MJ #138",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 4,999 ft (1,499 m) – 2,500 ft (750 m)",
+    "temperature 79° to 100°F (26° to 38°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 4,999 ft (1,499 m) – 2,500 ft (750 m) / 99° to 120°F (37° to 49°C)",
+   "value": "PS 1 7/8 turns out, SJ #38, needle clip 3rd, JN NMRT, MJ #138",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 4,999 ft (1,499 m) – 2,500 ft (750 m)",
+    "temperature 99° to 120°F (37° to 49°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 2,499 ft (749 m) – 1,000 ft (300 m) / -21° to 0°F (-30° to -17°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #142",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 2,499 ft (749 m) – 1,000 ft (300 m)",
+    "temperature -21° to 0°F (-30° to -17°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 2,499 ft (749 m) – 1,000 ft (300 m) / -1° to 20°F (-18° to -6°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #142",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 2,499 ft (749 m) – 1,000 ft (300 m)",
+    "temperature -1° to 20°F (-18° to -6°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 2,499 ft (749 m) – 1,000 ft (300 m) / 19° to 40°F (-7° to 5°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #140",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 2,499 ft (749 m) – 1,000 ft (300 m)",
+    "temperature 19° to 40°F (-7° to 5°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 2,499 ft (749 m) – 1,000 ft (300 m) / 39° to 60°F (4° to 16°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #140",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 2,499 ft (749 m) – 1,000 ft (300 m)",
+    "temperature 39° to 60°F (4° to 16°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 2,499 ft (749 m) – 1,000 ft (300 m) / 59° to 80°F (15° to 27°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #138",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 2,499 ft (749 m) – 1,000 ft (300 m)",
+    "temperature 59° to 80°F (15° to 27°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 2,499 ft (749 m) – 1,000 ft (300 m) / 79° to 100°F (26° to 38°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #138",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 2,499 ft (749 m) – 1,000 ft (300 m)",
+    "temperature 79° to 100°F (26° to 38°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 2,499 ft (749 m) – 1,000 ft (300 m) / 99° to 120°F (37° to 49°C)",
+   "value": "PS 1 7/8 turns out, SJ #38, needle clip 3rd, JN NMRT, MJ #138",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 2,499 ft (749 m) – 1,000 ft (300 m)",
+    "temperature 99° to 120°F (37° to 49°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 999 ft (299 m) – 0 m (sea level) / -21° to 0°F (-30° to -17°C)",
+   "value": "PS 2 3/8 turns out, SJ #38, needle clip 4th, JN NMRT, MJ #142",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 999 ft (299 m) – 0 m (sea level)",
+    "temperature -21° to 0°F (-30° to -17°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 999 ft (299 m) – 0 m (sea level) / -1° to 20°F (-18° to -6°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #142",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 999 ft (299 m) – 0 m (sea level)",
+    "temperature -1° to 20°F (-18° to -6°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 999 ft (299 m) – 0 m (sea level) / 19° to 40°F (-7° to 5°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #142",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 999 ft (299 m) – 0 m (sea level)",
+    "temperature 19° to 40°F (-7° to 5°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 999 ft (299 m) – 0 m (sea level) / 39° to 60°F (4° to 16°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #140",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 999 ft (299 m) – 0 m (sea level)",
+    "temperature 39° to 60°F (4° to 16°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 999 ft (299 m) – 0 m (sea level) / 59° to 80°F (15° to 27°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #140",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 999 ft (299 m) – 0 m (sea level)",
+    "temperature 59° to 80°F (15° to 27°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 999 ft (299 m) – 0 m (sea level) / 79° to 100°F (26° to 38°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #138",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 999 ft (299 m) – 0 m (sea level)",
+    "temperature 79° to 100°F (26° to 38°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor Adjustments for Altitude & Temperature / 999 ft (299 m) – 0 m (sea level) / 99° to 120°F (37° to 49°C)",
+   "value": "PS 2 1/8 turns out, SJ #38, needle clip 3rd, JN NMQT, MJ #138",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB",
+    "altitude 999 ft (299 m) – 0 m (sea level)",
+    "temperature 99° to 120°F (37° to 49°C)"
+   ],
+   "page": "117"
+  },
+  {
+   "joint": "Carburetor / Optional muffler",
+   "value": "Standard muffler does not conform to AMA noise emission regulation (stated for 2019 year); an AMA-conformed optional muffler requires carburetor setting changes",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB"
+   ],
+   "page": "118"
+  },
+  {
+   "joint": "Optional Parts / Main jet",
+   "value": "Standard #140; optional #128 – #148 (increments of 2 or 3)",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB"
+   ],
+   "page": "143"
+  },
+  {
+   "joint": "Optional Parts / Slow jet",
+   "value": "Standard #38; optional #35 – #42 (increments of 2 or 3)",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB"
+   ],
+   "page": "143"
+  },
+  {
+   "joint": "Optional Parts / Jet needle",
+   "value": "Standard NMQT, straight diameter ø2.775 mm",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB"
+   ],
+   "page": "143"
+  },
+  {
+   "joint": "Optional Parts / Jet needles, standard series (rich to lean)",
+   "value": "NMQR ø2.755, NMQS ø2.765, NMQT ø2.775 (standard), NMQU ø2.785, NMQV ø2.795 mm",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB"
+   ],
+   "page": "143"
+  },
+  {
+   "joint": "Optional Parts / Jet needles, 1/2 clip position leaner at 1/8 to 3/4 throttle (rich to lean)",
+   "value": "NMRR ø2.755, NMRS ø2.765, NMRT ø2.775, NMRU ø2.785, NMRV ø2.795 mm",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB"
+   ],
+   "page": "143"
+  },
+  {
+   "joint": "Optional Parts / Leak jet (fuel flow decrease to increase)",
+   "value": "#75, #70, #65 (standard), #60, #55",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB"
+   ],
+   "page": "143"
+  },
+  {
+   "joint": "Optional Parts / Driven sprocket <chain links>",
+   "value": "49T aluminum <120>, 50T steel <120> (standard), 50T aluminum <120>, 51T aluminum <120>",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "143"
+  },
+  {
+   "joint": "Optional Parts / Driven sprocket <chain links>",
+   "value": "55T aluminum <126>, 56T steel <126> (standard), 56T aluminum <126>, 57T aluminum <126>",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "143"
+  },
+  {
+   "joint": "Optional Parts / Drive chain",
+   "value": "Standard DID420DS3, 120 links",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "143"
+  },
+  {
+   "joint": "Optional Parts / Drive chain",
+   "value": "Standard DID420DS3, 126 links",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "143"
+  },
+  {
+   "joint": "Optional Parts / Drive chain (optional)",
+   "value": "DID420DS3, 130 links",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB"
+   ],
+   "page": "143"
+  },
+  {
+   "joint": "Optional Parts / Shock springs",
+   "value": "Softer 268.4 lbf/in (47.0 N/mm) red mark; Standard 279.8 lbf/in (49.0 N/mm) white mark; Stiffer 291.2 lbf/in (51.0 N/mm) no mark",
+   "unit": "N/mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "144"
+  },
+  {
+   "joint": "Optional Parts / Shock springs",
+   "value": "Softer 279.8 lbf/in (49.0 N/mm) white mark; Standard 291.2 lbf/in (51.0 N/mm) no mark; Stiffer 302.6 lbf/in (53.0 N/mm) black mark",
+   "unit": "N/mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "144"
+  },
+  {
+   "joint": "Optional Parts / Fork springs",
+   "value": "Softer 17.9 lbf/in (3.14 N/mm) 2 coils at one end, 1 coil at other end; Standard 19.0 lbf/in (3.33 N/mm) 1 coil at both ends; Stiffer 20.2 lbf/in (3.53 N/mm) 1 scribe mark",
+   "unit": "N/mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150R"
+   ],
+   "page": "144"
+  },
+  {
+   "joint": "Optional Parts / Fork springs",
+   "value": "Softer 19.0 lbf/in (3.33 N/mm) 1 coil at both ends; Standard 20.2 lbf/in (3.53 N/mm) 1 scribe mark; Stiffer 21.3 lbf/in (3.73 N/mm) 2 scribe marks",
+   "unit": "N/mm",
+   "property": "setting",
+   "conditions": [
+    "CRF150RB"
+   ],
+   "page": "144"
+  },
+  {
+   "joint": "Optional Parts / Maximum load capacity",
+   "value": "150 lb (68 kg); rider weight must not exceed",
+   "unit": "kg",
+   "property": "specification",
+   "conditions": [
+    "CRF150R",
+    "CRF150RB"
+   ],
+   "page": "144"
+  }
+ ]
+}

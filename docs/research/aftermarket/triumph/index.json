@@ -663,56 +663,56 @@
 },
 "listing_counts": {
 "Triumph|TF 250-C|2026": {
-"Cycle Gear": 1045,
 "MotoSport": 2298,
+"Cycle Gear": 1045,
 "Triumph dealer": 37,
 "research": 48
 },
 "Triumph|TF 250-E|2026": {
-"Cycle Gear": 1150,
 "MotoSport": 2298,
+"Cycle Gear": 1150,
 "Triumph dealer": 33,
 "research": 49
 },
 "Triumph|TF 250-X|2024": {
-"Cycle Gear": 71,
 "MotoSport": 2366,
+"Cycle Gear": 71,
 "research": 115,
 "Triumph dealer": 54
 },
 "Triumph|TF 250-X|2025": {
-"Cycle Gear": 1075,
 "MotoSport": 2372,
-"Triumph dealer": 54,
-"research": 101
+"Cycle Gear": 1075,
+"research": 101,
+"Triumph dealer": 54
 },
 "Triumph|TF 250-X|2026": {
 "MotoSport": 2365,
-"research": 77,
 "Cycle Gear": 55,
-"Triumph dealer": 36
+"Triumph dealer": 36,
+"research": 77
 },
 "Triumph|TF 450-C|2026": {
-"Cycle Gear": 974,
 "MotoSport": 2312,
+"Cycle Gear": 974,
 "Triumph dealer": 36,
 "research": 52
 },
 "Triumph|TF 450-E|2026": {
 "MotoSport": 2306,
-"research": 50,
 "Cycle Gear": 47,
-"Triumph dealer": 35
+"Triumph dealer": 35,
+"research": 50
 },
 "Triumph|TF 450-RC Edition|2025": {
-"Cycle Gear": 983,
 "MotoSport": 2363,
+"Cycle Gear": 983,
 "Triumph dealer": 27,
 "research": 97
 },
 "Triumph|TF 450-X|2026": {
-"Cycle Gear": 1035,
 "MotoSport": 2356,
+"Cycle Gear": 1035,
 "Triumph dealer": 34,
 "research": 53
 }
@@ -1551,6 +1551,50 @@
 "es-025",
 "es-026",
 "es-027",
+"ha-001",
+"ha-002",
+"ha-003",
+"ha-004",
+"ha-005",
+"ha-006",
+"ha-007",
+"ha-008",
+"ha-009",
+"ha-010",
+"ha-011",
+"ha-012",
+"ha-013",
+"ha-014",
+"ha-015",
+"ha-016",
+"ha-017",
+"ha-018",
+"ha-019",
+"ha-020",
+"ha-021",
+"ha-022",
+"ha-023",
+"ha-024",
+"ha-025",
+"ha-026",
+"ha-027",
+"ha-028",
+"ha-029",
+"ha-030",
+"ha-031",
+"ha-032",
+"ha-033",
+"ha-034",
+"ha-035",
+"ha-036",
+"ha-037",
+"ha-038",
+"ha-039",
+"ha-040",
+"ha-041",
+"ha-042",
+"ha-043",
+"ha-044",
 "hb-001",
 "hb-002",
 "hb-003",
@@ -2002,7 +2046,13 @@
 "en4-133",
 "en4-134",
 "en4-135",
-"en4-136"
+"en4-136",
+"ha-010",
+"ha-024",
+"ha-026",
+"ha-028",
+"ha-029",
+"ha-030"
 ],
 "tfb-003": [
 "en-208",
@@ -2080,7 +2130,9 @@
 "en-217",
 "en-218",
 "en4-154",
-"en4-155"
+"en4-155",
+"ha-035",
+"ha-036"
 ],
 "tfb-010": [
 "ch-022",

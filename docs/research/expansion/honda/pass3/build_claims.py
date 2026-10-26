@@ -6,7 +6,7 @@ HERE=os.path.dirname(os.path.abspath(__file__));NS=uuid.UUID('4f0d6b1e-8a77-4c2e
 UNSURE=re.compile(r'flag|unclear|rebuilt|reconstruct|column order|not preserve|not tied|uncertain|inferred|ambiguous',re.I)
 DOMAIN={'torque':'service','capacity':'service','service_interval':'maintenance','setting':'suspension','specification':'specification'}
 q=lambda s:"'"+str(s).replace("'","''")+"'";rows=[];skip=0
-for f in sorted(glob.glob(os.path.join(HERE,'*-20*.json'))):
+for f in sorted(glob.glob(os.path.join(HERE,'honda-*.json'))):
     d=json.load(open(f));t,doc=d['target'],d['source_document'];mk,m,y=t['manufacturer'],t['model'],t['model_year']
     var=t.get('variant','standard');app={'model':m,'region':'US','variant':var,'model_year':y,'manufacturer':mk}
     for v in d['values']:

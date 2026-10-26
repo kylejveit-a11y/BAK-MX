@@ -1,0 +1,5405 @@
+{
+ "bikes": [
+  {
+   "make": "Honda",
+   "model": "CRF450R",
+   "years": [
+    2020
+   ],
+   "generation": "2020 (last year of the 2017-generation frame and twin-muffler engine)",
+   "summary": "A powerful, light-turning 450 with a well-liked rider triangle, but testers agree the stiff chassis is harsh on bumps and nervous at speed on fast, rough tracks, and it was called the hardest bike in one shootout to set up. The clutch is the clear weak point: it heats up, slips and has a narrow engagement. The fork dives under hard braking and is soft on big hits, and the bike is heavy for its class with twin mufflers. Clutch packs, lower chassis bolt torques, calmer ECU maps or exhausts and lower fork height were the usual fixes.",
+   "points": [
+    {
+     "aspect": "stability",
+     "verdict": "weakness",
+     "statement": "Stiff chassis is harsh on bumps and twitchy or unpredictable at speed on fast, rough tracks, and can feel different day to day; it is happiest on tight, turny tracks.",
+     "years": [
+      2020
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Vital MX",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-5-6-top-5-money-mods-and-top-3-free-mods-honda-crf450r/",
+      "https://www.keeferinctesting.com/2019-10-25-2020-450-mx-bracket-shootout-fourth-fifth-sixth/",
+      "https://www.keeferinctesting.com/2019-11-5-akrapovic-evolution-muffler-system-2020-honda-crf450r/",
+      "https://www.vitalmx.com/features/2020-Vital-MX-450-Shootout-FULL-TEST,6707",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-2020-450-four-stroke-shootout"
+     ]
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "statement": "Turns well and feels light; the 2020 battery moved lower and makes tip-in easier.",
+     "years": [
+      2020
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-8-12-2020-honda-crf450r-first-impression/",
+      "https://www.keeferinctesting.com/2020-5-6-top-5-money-mods-and-top-3-free-mods-honda-crf450r/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-2020-450-four-stroke-shootout"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "strength",
+     "statement": "Rider triangle is widely liked.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-8-12-2020-honda-crf450r-first-impression/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "statement": "Clutch is the weak point: it heats up and slips or drags within a moto, the pull is heavy and engagement is narrow and on/off.",
+     "years": [
+      2020
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Motocross Action",
+      "Vital MX forum",
+      "Vital MX"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-9-30-2017-2020-honda-crf450r-clutch-fixes/",
+      "https://www.keeferinctesting.com/2020-5-6-top-5-money-mods-and-top-3-free-mods-honda-crf450r/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-2020-450-four-stroke-shootout",
+      "https://www.vitalmx.com/forums/Moto-Related,20/Happy-with-you-2020-Honda-CRF450R,1383420",
+      "https://www.vitalmx.com/features/2020-Vital-MX-450-Shootout-FULL-TEST,6707"
+     ]
+    },
+    {
+     "aspect": "engine",
+     "verdict": "strength",
+     "statement": "Very strong engine: the most powerful 450 of 2020 on one magazine dyno, with 2020 mapping smoother off the bottom and pulling longer through mid and top than 2019.",
+     "years": [
+      2020
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-2020-450-four-stroke-shootout",
+      "https://www.keeferinctesting.com/2019-8-12-2020-honda-crf450r-first-impression/"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "weakness",
+     "statement": "Even the 2020 stock maps deliver too much for anything but loamy dirt, which upsets the stiff chassis.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-5-6-top-5-money-mods-and-top-3-free-mods-honda-crf450r/",
+      "https://www.keeferinctesting.com/2019-8-12-2020-honda-crf450r-first-impression/"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "statement": "Most magazine testers stayed on the standard map; the aggressive map felt crisper but measured about 1 hp less everywhere.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-2020-honda-crf450"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Fork dives under hard braking at race pace and is too soft on big hits and landings; one magazine also found it harsh on small braking bumps and could not fix that with the clickers.",
+     "years": [
+      2020
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-8-12-2020-honda-crf450r-first-impression/",
+      "https://www.keeferinctesting.com/2019-9-16-2020-honda-crf450r-start-upbaseline-settingstipstricks/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-2020-450-four-stroke-shootout"
+     ]
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "statement": "Shock is comfortable but runs out of support at the end of the stroke on G-outs.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-8-12-2020-honda-crf450r-first-impression/"
+     ]
+    },
+    {
+     "aspect": "weight",
+     "verdict": "weakness",
+     "statement": "Heavy for the class (about 15 lb over the lightest 450 without fuel); the twin mufflers add weight and replacement cost.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-2020-450-four-stroke-shootout"
+     ]
+    },
+    {
+     "aspect": "sound",
+     "verdict": "weakness",
+     "statement": "Measured over the 115 dB two-metre-max limit used by pro racing, though it passed the 94 dB amateur test.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-2020-honda-crf450"
+     ]
+    },
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Boils coolant quickly in hard use.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-2020-honda-crf450"
+     ]
+    },
+    {
+     "aspect": "maintenance",
+     "verdict": "weakness",
+     "statement": "Keep water away from the handlebar map and kill switches when washing; water there can stop the bike starting.",
+     "years": [
+      2020
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Vital MX forum"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-9-16-2020-honda-crf450r-start-upbaseline-settingstipstricks/",
+      "https://www.vitalmx.com/forums/Moto-Related,20/Happy-with-you-2020-Honda-CRF450R,1383420"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "strength",
+     "statement": "One owner reported about 140 trouble-free hours with oil and filter changed every 6 hours.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Vital MX forum"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/forums/Moto-Related,20/Happy-with-you-2020-Honda-CRF450R,1383420"
+     ]
+    },
+    {
+     "aspect": "other",
+     "verdict": "neutral",
+     "statement": "Traction control helped most testers once the track got slick in the afternoon.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-8-12-2020-honda-crf450r-first-impression/"
+     ]
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "neutral",
+     "statement": "Stock 13/49 is in the ballpark; some testers preferred a taller 13/48.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-2020-honda-crf450"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Clutch slips, heats up or engages on/off",
+     "fix": "Remove the judder spring and add a full-size friction plate, or fit an aftermarket clutch pack (Hinson or Rekluse); a longer clutch arm or different clutch cam widens engagement",
+     "result": "Wider engagement, less slip and longer clutch life; a longer arm roughly halved lever effort",
+     "support": 3,
+     "urls": [
+      "https://www.keeferinctesting.com/2019-9-30-2017-2020-honda-crf450r-clutch-fixes/",
+      "https://www.keeferinctesting.com/2020-5-6-top-5-money-mods-and-top-3-free-mods-honda-crf450r/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-2020-450-four-stroke-shootout",
+      "https://www.vitalmx.com/forums/Moto-Related,20/Happy-with-you-2020-Honda-CRF450R,1383420"
+     ]
+    },
+    {
+     "problem": "Harsh chassis on square edges",
+     "fix": "Lower swingarm-pivot and engine-hanger bolt torque and seat the engine up and back in the frame before torquing",
+     "result": "Softer square-edge feel, more rear traction, less vibration and easier initial lean",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2020-5-6-top-5-money-mods-and-top-3-free-mods-honda-crf450r/",
+      "https://www.keeferinctesting.com/2019-9-16-2020-honda-crf450r-start-upbaseline-settingstipstricks/"
+     ]
+    },
+    {
+     "problem": "Delivery and engine braking upset the chassis",
+     "fix": "Aftermarket ECU with linear maps, or an aftermarket muffler with a smoother low end",
+     "result": "Less engine braking and pitching; calmer chassis",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2020-5-6-top-5-money-mods-and-top-3-free-mods-honda-crf450r/",
+      "https://www.keeferinctesting.com/2019-11-5-akrapovic-evolution-muffler-system-2020-honda-crf450r/",
+      "https://www.keeferinctesting.com/2020-4-5-2020-honda-crf450r-three-way-muffler-system-comparison/"
+     ]
+    },
+    {
+     "problem": "Fork dives and is soft on big hits",
+     "fix": "Stiffer fork compression and slower rebound (pros went much stiffer), stiffer springs or a revalve for a lasting fix; shock high-speed compression a quarter turn in at about 105-107 mm sag",
+     "result": "Calmer front under braking and better G-out support",
+     "support": 2,
+     "urls": [
+      "https://www.keeferinctesting.com/2019-8-12-2020-honda-crf450r-first-impression/",
+      "https://www.keeferinctesting.com/2019-9-16-2020-honda-crf450r-start-upbaseline-settingstipstricks/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-2020-450-four-stroke-shootout"
+     ]
+    },
+    {
+     "problem": "Nervous at speed",
+     "fix": "Lower the forks in the clamps (flush to about 2 mm)",
+     "result": "Calmer on fast tracks at some cost to turn-in",
+     "support": 2,
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-25-2020-450-mx-bracket-shootout-fourth-fifth-sixth/",
+      "https://www.vitalmx.com/features/2020-Vital-MX-450-Shootout-FULL-TEST,6707"
+     ]
+    },
+    {
+     "problem": "Boiling over",
+     "fix": "Higher-pressure radiator cap and check the fins for roost damage",
+     "result": "Holds coolant in hard use",
+     "support": 1,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-2020-honda-crf450"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "make": "Honda",
+   "model": "CRF450R",
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "generation": "2021-2024 (all-new 2021 frame and single exhaust; 2023 engine and frame refinements)",
+   "summary": "Testers consistently praise this CRF450R's turn-in and cornering but call the chassis harsh and tiring on dry, choppy tracks, nervous at speed and unusually sensitive to small setup changes. Early 2021 bikes ran rich and popped until Honda's free dealer reflash, and a 2021 drive-chain recall covered some early bikes; from 2023 the engine became more linear and torque-led. Stock suspension was the top complaint (soft in 2021, harsh or stagey from 2022), so the most common fixes were stiffer springs, a revalve or aftermarket linkage, longer-offset clamps, lower fork height and lower chassis bolt torques. A higher-pressure radiator cap is a standard recommendation.",
+   "points": [
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Early 2021 bikes ran rich and dirty at low rpm and popped or flamed out in some maps; Honda issued a free dealer ECU reflash (also for the RX and Works Edition) and the corrected map became standard for 2022.",
+     "years": [
+      2021
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Motocross Action",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-9-17-2021-honda-crf450r-first-ride-impression/",
+      "https://www.keeferinctesting.com/2020-10-9-on-my-own-dime-2021-honda-crf450r/",
+      "https://www.keeferinctesting.com/2020-10-26-2021-honda-crf450r-initial-baseline-settingsmods/",
+      "https://motocrossactionmag.com/mxa-tech-spec-a-brief-history-of-the-2021-honda-crf450-mapping-glitch",
+      "https://motocrossactionmag.com/mxa-race-test-2022-honda-crf450",
+      "https://dirtbikemagazine.com/riding-the-2021-honda-crf450r-the-wrap/",
+      "https://dirtbikemagazine.com/amp/rating-the-2021-450-mx-bikes-so-far-the-wrap/",
+      "https://dirtbikemagazine.com/honda-works-edition-full-test/"
+     ]
+    },
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Recall (April 2021): the drive chain can break on about 536 early red 2021 CRF450Rs (a specific VIN range); free dealer repair.",
+     "years": [
+      2021
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "US CPSC",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://cpsc.gov/Recalls/2021/Off-Road-Motorcycles-Recalled-by-American-Honda-Due-to-Crash-and-Injury-Hazards-Recall-Alert",
+      "https://dirtbikemagazine.com/riding-the-2022-honda-crf450r-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "power_delivery",
+     "verdict": "neutral",
+     "statement": "2021-2022 engine is strong and quick-revving with a big top end, but the bottom is ordinary before a steep surge around 7,000 rpm; with the occasional low-rpm hiccup it is easy to stall and demanding even for good riders.",
+     "years": [
+      2021,
+      2022
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Vital MX"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2023-honda-crf450r-full-test/",
+      "https://dirtbikemagazine.com/amp/rating-the-2021-450-mx-bikes-so-far-the-wrap/",
+      "https://vitalmx.com/features/Vital-MX-450-Shootout-Full-Test,7152"
+     ]
+    },
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "statement": "From 2023 the engine is more linear and torque-led: precise throttle control at low rpm, stronger low-mid and a less frantic top, controllable by throttle rather than clutch.",
+     "years": [
+      2023,
+      2024
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine",
+      "Dirt Rider",
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2023-honda-crf450",
+      "https://dirtbikemagazine.com/2023-450-mx-shootout-full-test/",
+      "https://dirtbikemagazine.com/2023-honda-crf450r-full-test/",
+      "https://dirtrider.com/tests/honda-crf450r-dyno-test-2023",
+      "https://www.keeferinctesting.com/2023-honda-crf450r-updates-and-what-they-mean-on-the-track/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "neutral",
+     "statement": "The 2023 retune traded some peak power for torque: it led its class on peak torque on one dyno but sat mid-pack on peak horsepower and fell behind the 2022 above about 8,300 rpm.",
+     "years": [
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Rider",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://dirtrider.com/tests/honda-crf450r-dyno-test-2023",
+      "https://motocrossactionmag.com/mxa-race-test-2023-honda-crf450"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "statement": "2022 mapping is cleaner and makes all three maps usable, though some lean popping on deceleration remained into 2023.",
+     "years": [
+      2022,
+      2023
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/riding-the-2022-honda-crf450r-the-wrap/",
+      "https://www.keeferinctesting.com/2021-9-20-ite4wmr90kaosq7uq6dzeueyqvbna4/",
+      "https://www.keeferinctesting.com/2023-honda-crf450r-baseline-settings-tips/"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "statement": "Standard map (map 1) is the usual choice; the aggressive map is sharper off the bottom but makes less peak power and can ping on hot days.",
+     "years": [
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450",
+      "https://motocrossactionmag.com/mxa-race-test-2023-honda-crf450",
+      "https://www.keeferinctesting.com/2023-honda-crf450r-baseline-settings-tips/"
+     ]
+    },
+    {
+     "aspect": "electronics",
+     "verdict": "neutral",
+     "statement": "Traction control helps on hard-pack and loose-over-hard dirt but makes the bike feel choked in sand or very loose soil.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/riding-the-2022-honda-crf450r-the-wrap/",
+      "https://dirtbikemagazine.com/2023-honda-crf450r-full-test/",
+      "https://dirtbikemagazine.com/riding-the-2021-honda-crf450r-the-wrap/",
+      "https://www.keeferinctesting.com/2021-9-20-ite4wmr90kaosq7uq6dzeueyqvbna4/"
+     ]
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "statement": "Sharp, precise turn-in and excellent in tight corners, on or off the throttle.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 5,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Vital MX",
+      "Keefer Inc. Testing",
+      "Swapmoto Live",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450",
+      "https://vitalmx.com/features/Vital-MX-450-Shootout-Full-Test,7152",
+      "https://www.keeferinctesting.com/2020-10-9-on-my-own-dime-2021-honda-crf450r/",
+      "https://www.swapmotolive.com/2024-450-mx-shootout-gas-gas-vs-honda-vs-husqvarna-vs-kawasaki-vs-ktm-vs-yamaha/shootout/2024-450-shootout/4/",
+      "https://dirtbikemagazine.com/2023-honda-crf450r-full-test/"
+     ]
+    },
+    {
+     "aspect": "stability",
+     "verdict": "weakness",
+     "statement": "Harsh and tiring on dry, choppy tracks, rigid on hard landings, loose at the rear on exits and prone to wander or head shake at speed; happiest on smooth tracks.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 6,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Vital MX",
+      "Vital MX forum",
+      "Keefer Inc. Testing",
+      "Dirt Bike magazine",
+      "Swapmoto Live"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450",
+      "https://vitalmx.com/features/Vital-MX-450-Shootout-Full-Test,7152",
+      "https://www.vitalmx.com/forums/tech-helprace-shop/2024-crf450r-wtf-need-advice",
+      "https://www.vitalmx.com/comment/7473471",
+      "https://www.keeferinctesting.com/2021-3-15-2021-honda-crf450r-torque-specs/",
+      "https://www.keeferinctesting.com/2021-4-13-ride-engineering-235mm-offset-split-triple-clamps/",
+      "https://dirtbikemagazine.com/2023-honda-crf450r-full-test/",
+      "https://www.swapmotolive.com/2024-450-mx-shootout-gas-gas-vs-honda-vs-husqvarna-vs-kawasaki-vs-ktm-vs-yamaha/shootout/2024-450-shootout/4/",
+      "https://www.swapmotolive.com/?p=92944"
+     ]
+    },
+    {
+     "aspect": "balance",
+     "verdict": "weakness",
+     "statement": "Very sensitive to setup: a few mm of sag or 1 mm of fork height is felt, fore/aft balance is hard to find, and a setting does not carry well from track to track.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Vital MX forum",
+      "Keefer Inc. Testing",
+      "Motocross Action",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/forums/moto-related/21-24-crf-450-mods",
+      "https://repsuspension.com/blogs/tested/keefer-tested-rep-suspension-linkage-system-for-2023-honda-crf450r",
+      "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450",
+      "https://dirtbikemagazine.com/2023-honda-crf450r-full-test/"
+     ]
+    },
+    {
+     "aspect": "turning",
+     "verdict": "weakness",
+     "statement": "At the stock 22 mm offset the front can knife into hooked ruts and oversteer in long rutted corners.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Swapmoto Live"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-9-17-2021-honda-crf450r-first-ride-impression/",
+      "https://www.keeferinctesting.com/2021-4-13-ride-engineering-235mm-offset-split-triple-clamps/",
+      "https://www.keeferinctesting.com/talon-raptor-clamps-review-honda-crf450r/",
+      "https://www.keeferinctesting.com/aftermarket-parts-that-actually-work-2023-honda-crf450r/",
+      "https://www.swapmotolive.com/2024-450-mx-shootout-gas-gas-vs-honda-vs-husqvarna-vs-kawasaki-vs-ktm-vs-yamaha/shootout/2024-450-shootout/4/"
+     ]
+    },
+    {
+     "aspect": "handling",
+     "verdict": "weakness",
+     "statement": "Rear can sit high entering corners off the throttle; curing that with less sag or a stiffer fork makes the chassis edgier.",
+     "years": [
+      2021,
+      2022
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/factory-connection-linkage-shock-modification-2021-2022-honda-crf450r/"
+     ]
+    },
+    {
+     "aspect": "stability",
+     "verdict": "strength",
+     "statement": "The 2023 frame changes and steel head stays made the rear calmer and more compliant in corners.",
+     "years": [
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2023-honda-crf450r-updates-and-what-they-mean-on-the-track/",
+      "https://motocrossactionmag.com/mxa-race-test-2023-honda-crf450"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "2021 suspension is soft and unbalanced for fast or 170 lb-plus riders: the fork pitches and bottoms and the rear blows through its stroke in ruts on the stock 54 N/mm spring.",
+     "years": [
+      2021
+     ],
+     "support": 5,
+     "strength": "strong consensus",
+     "outlets": [
+      "Vital MX",
+      "Dirt Bike magazine",
+      "Keefer Inc. Testing",
+      "Motocross Action",
+      "Swapmoto Live"
+     ],
+     "urls": [
+      "https://vitalmx.com/features/Vital-MX-450-Shootout-Full-Test,7152",
+      "https://dirtbikemagazine.com/amp/rating-the-2021-450-mx-bikes-so-far-the-wrap/",
+      "https://dirtbikemagazine.com/riding-the-2021-honda-crf450r-the-wrap/",
+      "https://www.keeferinctesting.com/2020-9-17-2021-honda-crf450r-first-ride-impression/",
+      "https://www.keeferinctesting.com/2020-10-26-2021-honda-crf450r-initial-baseline-settingsmods/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-honda-crf450",
+      "https://www.swapmotolive.com/?p=92944"
+     ]
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "statement": "From 2022 the fork is harsh in the mid or late stroke and the shock is stagey: it wallows in small bumps yet is harsh accelerating out of corners on baked, square-edged tracks.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2022-honda-crf450",
+      "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450",
+      "https://www.keeferinctesting.com/rep-linkage-system-2023-honda-crf450r/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "strength",
+     "statement": "Hydraulic clutch has a light pull, engages in the same place every time and does not fade.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Motocross Action",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-9-17-2021-honda-crf450r-first-ride-impression/",
+      "https://motocrossactionmag.com/mxa-race-test-2022-honda-crf450",
+      "https://dirtbikemagazine.com/riding-the-2021-honda-crf450r-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "statement": "Hydraulic clutch engagement is narrow and on/off, and the clutch is not bulletproof under hard racing.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/honda-crf450r-hydraulic-clutch-improvement/",
+      "https://www.keeferinctesting.com/2021-8-12-on-my-own-dime-2022-honda-crf450r-1/",
+      "https://motocrossactionmag.com/mxa-race-test-2022-honda-crf450"
+     ]
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "strength",
+     "statement": "Front brake rated among the best on a Japanese bike.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Swapmoto Live"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-9-17-2021-honda-crf450r-first-ride-impression/",
+      "https://www.swapmotolive.com/2024-450-mx-shootout-gas-gas-vs-honda-vs-husqvarna-vs-kawasaki-vs-ktm-vs-yamaha/shootout/2024-450-shootout/4/"
+     ]
+    },
+    {
+     "aspect": "vibration",
+     "verdict": "weakness",
+     "statement": "More engine vibration through the pegs and bars than rivals, at low rpm and as a high-rpm buzz with the stock muffler.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Swapmoto Live"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2021-3-30-mods-that-will-make-you-love-your-2021-honda-crf450r-more/",
+      "https://www.keeferinctesting.com/2020-10-26-2021-honda-crf450r-initial-baseline-settingsmods/",
+      "https://www.swapmotolive.com/?p=92944"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "strength",
+     "statement": "Slim bike with a rider triangle that suits most body sizes; the shift lever is short.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450",
+      "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450"
+     ]
+    },
+    {
+     "aspect": "weight",
+     "verdict": "strength",
+     "statement": "Weighed about 233 lb without fuel in 2021 and 2023, the lightest Japanese 450 in that test.",
+     "years": [
+      2021,
+      2023
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2023-450-mx-shootout-full-test/"
+     ]
+    },
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Radiators boil over quickly in hard use on the stock 1.1 cap.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2022-honda-crf450",
+      "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450"
+     ]
+    },
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "A 14-tooth countershaft sprocket can damage the clutch slave cylinder on 2021 bikes.",
+     "years": [
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2021-3-30-mods-that-will-make-you-love-your-2021-honda-crf450r-more/"
+     ]
+    },
+    {
+     "aspect": "maintenance",
+     "verdict": "weakness",
+     "statement": "Upside-down air filter gets dirty quickly and is awkward to service; seat foam breaks down quickly; exhaust flange studs can back out of the head.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450",
+      "https://motocrossactionmag.com/mxa-race-test-2022-honda-crf450",
+      "https://motocrossactionmag.com/mxa-race-test-2023-honda-crf450"
+     ]
+    },
+    {
+     "aspect": "durability",
+     "verdict": "weakness",
+     "statement": "2022 muffler dents easily from leg pressure; 2023 got a heat-treated muffler body.",
+     "years": [
+      2022
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2023-honda-crf450r-updates-and-what-they-mean-on-the-track/"
+     ]
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "neutral",
+     "statement": "Many testers go one tooth larger on the rear (13/50) so third gear pulls sooner in turns.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2022-honda-crf450",
+      "https://motocrossactionmag.com/mxa-race-test-2023-honda-crf450"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Rich, dirty low end and popping (2021)",
+     "fix": "Honda dealer ECU reflash; use map 1 or 3 until then; an independent reflash also cleaned it up",
+     "result": "Cleaner low-rpm running; the fix became the 2022 standard map",
+     "support": 3,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-tech-spec-a-brief-history-of-the-2021-honda-crf450-mapping-glitch",
+      "https://www.keeferinctesting.com/2021-3-30-mods-that-will-make-you-love-your-2021-honda-crf450r-more/",
+      "https://www.keeferinctesting.com/2020-10-26-2021-honda-crf450r-initial-baseline-settingsmods/",
+      "https://dirtbikemagazine.com/riding-the-2021-honda-crf450r-the-wrap/"
+     ]
+    },
+    {
+     "problem": "Engine braking and on/off feel upset the chassis",
+     "fix": "Aftermarket ECU or a reflash of the stock ECU's maps 2 and 3",
+     "result": "Less engine braking, cleaner low-rpm cornering, more rear bite; third gear lugs on stock gearing",
+     "support": 2,
+     "urls": [
+      "https://www.keeferinctesting.com/aftermarket-parts-that-actually-work-2023-honda-crf450r/",
+      "https://cyclenews.com/2021/02/article/tokyomods-ecu-reprogramming-review",
+      "https://pulpmx.com/?p=161922"
+     ]
+    },
+    {
+     "problem": "Touchy low end, decel harshness",
+     "fix": "Aftermarket exhaust (slip-on or full system)",
+     "result": "Smoother low-rpm roll-on, less engine braking and vibration, more mid; one full system with an ECU flash measured about 4.7% more peak power",
+     "support": 3,
+     "urls": [
+      "https://www.keeferinctesting.com/2021-5-19-slip-on-or-full-system-2021-honda-crf450250r/",
+      "https://www.keeferinctesting.com/2021-10-20-akrapovic-evolution-muffler-system-2021-2022-honda-crf450r/",
+      "https://www.cyclenews.com/2021/07/article/yoshimura-rs-12-titanium-full-exhaust-with-titanium-muffler",
+      "https://www.vitalmx.com/forums/moto-related/21-24-crf-450-mods"
+     ]
+    },
+    {
+     "problem": "Nervous at speed, knifing in ruts",
+     "fix": "Longer-offset clamps (23.5-24 mm), often with a revalve",
+     "result": "More stability and rut tracking, less vibration and harshness, turning kept",
+     "support": 2,
+     "urls": [
+      "https://www.keeferinctesting.com/talon-raptor-clamps-review-honda-crf450r/",
+      "https://www.keeferinctesting.com/aftermarket-parts-that-actually-work-2023-honda-crf450r/",
+      "https://www.keeferinctesting.com/2021-4-13-ride-engineering-235mm-offset-split-triple-clamps/",
+      "https://www.keeferinctesting.com/2024-honda-crf450r-baseline-settings-mods-that-work",
+      "https://www.vitalmx.com/forums/moto-related/21-24-crf-450-mods",
+      "https://www.vitalmx.com/forums/tech-helprace-shop/2024-crf450r-wtf-need-advice",
+      "https://www.vitalmx.com/comment/7473471"
+     ]
+    },
+    {
+     "problem": "Head shake",
+     "fix": "Lower the forks from the stock 5 mm to about 2.5 mm or flush",
+     "result": "Calmer at speed without losing turn-in",
+     "support": 2,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-team-tested-ahm-2023-honda-450-fork-shock-re-valve",
+      "https://www.keeferinctesting.com/?p=24664",
+      "https://motocrossactionmag.com/mxa-race-test-2023-honda-crf450"
+     ]
+    },
+    {
+     "problem": "Harsh on square edges",
+     "fix": "Lower chassis bolt torques slightly (axle, pivot, hangers, clamp pinch bolts) with thread locker",
+     "result": "More compliance and traction; Honda responds to this more than other bikes",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2021-3-15-2021-honda-crf450r-torque-specs/",
+      "https://www.keeferinctesting.com/2023-honda-crf450r-baseline-settings-tips/"
+     ]
+    },
+    {
+     "problem": "Stock suspension soft for heavier or faster riders",
+     "fix": "One spring rate stiffer at each end (fork about 5.1 N/mm, shock 56 N/mm; 58 N/mm over about 200 lb)",
+     "result": "Bike rides higher and settles; more traction and track toughness, less oversteer",
+     "support": 4,
+     "urls": [
+      "https://www.keeferinctesting.com/2021-3-30-mods-that-will-make-you-love-your-2021-honda-crf450r-more/",
+      "https://www.keeferinctesting.com/?p=24664",
+      "https://motocrossactionmag.com/mxa-race-test-2022-honda-crf450",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-honda-crf450",
+      "https://dirtbikemagazine.com/riding-the-2021-honda-crf450r-the-wrap/",
+      "https://www.swapmotolive.com/?p=92944"
+     ]
+    },
+    {
+     "problem": "Harsh or unbalanced suspension",
+     "fix": "Revalve fork and shock",
+     "result": "More consistently plush fork and less loose feel at speed; owners name it the top improvement",
+     "support": 2,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-team-tested-ahm-2023-honda-450-fork-shock-re-valve",
+      "https://motocrossactionmag.com/mxa-race-test-2022-honda-crf450",
+      "https://www.vitalmx.com/forums/moto-related/21-24-crf-450-mods",
+      "https://www.vitalmx.com/forums/tech-helprace-shop/2024-crf450r-wtf-need-advice"
+     ]
+    },
+    {
+     "problem": "Shock harsh accelerating out of corners",
+     "fix": "Aftermarket linkage with a flatter early and steeper late rate, plus a lighter spring and matched valving",
+     "result": "Corner-exit harshness roughly halved, better tracking, flatter on braking bumps",
+     "support": 3,
+     "urls": [
+      "https://www.keeferinctesting.com/rep-linkage-system-2023-honda-crf450r/",
+      "https://www.keeferinctesting.com/factory-connection-linkage-shock-modification-2021-2022-honda-crf450r/",
+      "https://www.vitalmx.com/forums/moto-related/21-24-crf-450-mods",
+      "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450"
+     ]
+    },
+    {
+     "problem": "Narrow hydraulic clutch engagement",
+     "fix": "Fit a 2023 Kawasaki KX master cylinder and flip the stock line",
+     "result": "More progressive engagement",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/honda-crf450r-hydraulic-clutch-improvement/"
+     ]
+    },
+    {
+     "problem": "Engine vibration",
+     "fix": "Engine tilt procedure when torquing mounts, plus an aftermarket muffler or longer-offset clamps",
+     "result": "Reduced vibration",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2021-3-30-mods-that-will-make-you-love-your-2021-honda-crf450r-more/",
+      "https://www.keeferinctesting.com/2020-10-26-2021-honda-crf450r-initial-baseline-settingsmods/"
+     ]
+    },
+    {
+     "problem": "Boiling over",
+     "fix": "1.8 high-pressure radiator cap",
+     "result": "Holds coolant in hard use",
+     "support": 1,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450",
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450"
+     ]
+    },
+    {
+     "problem": "Aggressive map pings",
+     "fix": "Use the standard map, or mix race fuel with pump fuel",
+     "result": "No detonation",
+     "support": 1,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2023-honda-crf450"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "2021-2022 power character",
+     "sides": [
+      "One tester found it smoother and longer-pulling than 2020 and easy to roll on.",
+      "Other tests found an ordinary bottom, a low-rpm stumble and a steep surge around 7,000 rpm that was hard to manage."
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-9-17-2021-honda-crf450r-first-ride-impression/",
+      "https://www.keeferinctesting.com/2021-8-12-on-my-own-dime-2022-honda-crf450r-1/",
+      "https://dirtbikemagazine.com/amp/rating-the-2021-450-mx-bikes-so-far-the-wrap/",
+      "https://dirtbikemagazine.com/2023-honda-crf450r-full-test/"
+     ]
+    },
+    {
+     "topic": "Why the chassis feels harsh",
+     "sides": [
+      "Testers blamed an overly rigid aluminium frame.",
+      "Honda later said the old frame was among the softest and that flex caused the harshness; one tester also found the 2021 frame softer and straighter-tracking than 2020."
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2024-honda-crf450",
+      "https://www.cyclenews.com/2024/08/article/2025-honda-crf450r-review/",
+      "https://www.keeferinctesting.com/2020-9-17-2021-honda-crf450r-first-ride-impression/"
+     ]
+    },
+    {
+     "topic": "Front brake",
+     "sides": [
+      "Testers rated it among the best brakes in the class.",
+      "Another had it overheat within a few laps in a 2021 shootout."
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-9-17-2021-honda-crf450r-first-ride-impression/",
+      "https://www.swapmotolive.com/2024-450-mx-shootout-gas-gas-vs-honda-vs-husqvarna-vs-kawasaki-vs-ktm-vs-yamaha/shootout/2024-450-shootout/4/",
+      "https://vitalmx.com/features/Vital-MX-450-Shootout-Full-Test,7152"
+     ]
+    },
+    {
+     "topic": "Race sag",
+     "sides": [
+      "Owners found 110 mm too low and harsh and went back to Honda's 105 mm.",
+      "One magazine advised 100 or 108 mm and avoiding 105 mm; another found most testers liked more than 105 mm."
+     ],
+     "urls": [
+      "https://www.vitalmx.com/forums/tech-helprace-shop/2024-crf450r-wtf-need-advice",
+      "https://www.vitalmx.com/comment/7473471",
+      "https://motocrossactionmag.com/mxa-race-test-2023-honda-crf450",
+      "https://dirtbikemagazine.com/2023-honda-crf450r-full-test/"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Honda",
+   "model": "CRF450R",
+   "years": [
+    2025,
+    2026
+   ],
+   "generation": "2025-2026 (stiffer frame with about 70% new parts, new linkage and suspension)",
+   "summary": "Most testers say the 2025 frame transformed the CRF450R: more planted and stable at speed, less vibration, more neutral in corners and much less setup-sensitive, while keeping its sharp turn-in. The engine has the strongest low-to-mid pull of its class and is very usable, but tapers on top and measures a few hp behind the leaders. The plusher suspension suits 160-175 lb novice to intermediate riders; fast and heavier riders find it too soft and add compression, adjust fork height or fit stiffer springs. A minority still report harshness on hard, edgy tracks or pitching, and the 2025-2026 bikes are covered by an April 2026 handlebar-clamp recall.",
+   "points": [
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Recall (April 2026): the handlebar clamp can let the bar rotate unexpectedly on about 12,600 US 2025-2026 CRF250R/RX/Works Edition and CRF450R/RX/Works Edition bikes; stop riding until a dealer inspects and replaces the clamp free (check the VIN on Honda's recall lookup).",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "US CPSC"
+     ],
+     "urls": [
+      "https://cpsc.gov/Recalls/2026/American-Honda-Motor-Recalls-Off-Road-Motorcycles-Due-to-Risk-of-Serious-Injury-or-Death-Due-to-Crash-Hazard"
+     ]
+    },
+    {
+     "aspect": "engine_low",
+     "verdict": "strength",
+     "statement": "Very linear and usable with the strongest low-to-mid pull in its class and a crisp throttle connection; it can pull third gear in corners.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 7,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Cycle News",
+      "PulpMX",
+      "Vital MX",
+      "Dirt Bike magazine",
+      "Dirt Rider",
+      "MotoOnline"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450",
+      "https://www.cyclenews.com/2024/08/article/2025-honda-crf450r-review/",
+      "https://pulpmx.com/2024/07/17/five-things-about-the-2025-honda-crf450r/",
+      "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+      "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+      "https://dirtbikemagazine.com/2026-honda-crf450r-full-test/",
+      "https://dirtrider.com/tests/honda-crf450r-dyno-test-2025",
+      "https://www.motoonline.com/au/tested-2026-honda-crf-range/"
+     ]
+    },
+    {
+     "aspect": "engine_low",
+     "verdict": "neutral",
+     "statement": "The low-end torque is so strong it can be hard to control on some tracks; shift early because it signs off past its peak.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+      "https://dirtbikemagazine.com/2026-honda-crf450r-full-test/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "statement": "Tapers off on top; peak power measures a few hp behind the class leaders, though it rides better than its dyno number.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine",
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2026-honda-crf450/",
+      "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+      "https://dirtbikemagazine.com/?p=101733",
+      "https://dirtrider.com/tests/honda-crf450r-dyno-test-2025",
+      "https://www.dirtrider.com/tests/honda-crf450r-best-motocross-bike-2nd-place-2026/"
+     ]
+    },
+    {
+     "aspect": "stability",
+     "verdict": "strength",
+     "statement": "Much better high-speed stability with less vibration and harsh slap-down; more neutral and less front-heavy in corners.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 5,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Cycle News",
+      "PulpMX",
+      "Dirt Bike magazine",
+      "Swapmoto Live"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2026-honda-crf450/",
+      "https://www.cyclenews.com/2024/08/article/2025-honda-crf450r-review/",
+      "https://pulpmx.com/2024/07/17/five-things-about-the-2025-honda-crf450r/",
+      "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+      "https://dirtbikemagazine.com/2026-honda-crf450r-full-test/",
+      "https://dirtbikemagazine.com/mx-test-honda-crf450rwe/",
+      "https://swapmotolive.com/2025-450-mx-bike-shootout-in-depth/shootout/2025-450-shootout/5"
+     ]
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "statement": "Accurate turn-in, the easiest bike to turn in ruts and strong on inside lines; it favours tight tracks over fast sweepers.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Cycle News",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2026-honda-crf450/",
+      "https://www.cyclenews.com/2024/08/article/2025-honda-crf450r-review/",
+      "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+      "https://dirtbikemagazine.com/2026-honda-crf450r-full-test/"
+     ]
+    },
+    {
+     "aspect": "balance",
+     "verdict": "strength",
+     "statement": "Well balanced out of the crate and far less setup-sensitive than the 2021-2024 bike; no need for constant fork-height changes between tracks.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "MotoOnline"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+      "https://dirtbikemagazine.com/2026-honda-crf450r-full-test/",
+      "https://www.motoonline.com/au/tested-2026-honda-crf-range/"
+     ]
+    },
+    {
+     "aspect": "handling",
+     "verdict": "weakness",
+     "statement": "Can feel busy and pitch between acceleration and braking, partly because the suspension is soft.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "MXP Mag",
+      "Swapmoto Live"
+     ],
+     "urls": [
+      "https://www.mxpmag.com/2027-honda-crf450r-first-ride-impressions-at-spring-creek-mx/",
+      "https://swapmotolive.com/2025-450-mx-bike-shootout-in-depth/shootout/2025-450-shootout/5"
+     ]
+    },
+    {
+     "aspect": "stability",
+     "verdict": "weakness",
+     "statement": "Some riders still find it harsh over square edges and unsettled on fast hard-pack, with a kicking feel through the rear.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Vital MX forum"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/ride-engineering-23-5mm-triple-clamps-2025-honda-crf450r/",
+      "https://www.vitalmx.com/comment/7606711",
+      "https://www.vitalmx.com/comment/7302631"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "statement": "Coil fork is much plusher with no harsh spot; setup is spot-on for a 160-175 lb intermediate or vet rider.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 6,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "PulpMX",
+      "Cycle News",
+      "Dirt Bike magazine",
+      "MotoOnline",
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2026-honda-crf450/",
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450",
+      "https://pulpmx.com/2024/07/17/five-things-about-the-2025-honda-crf450r/",
+      "https://www.cyclenews.com/2024/08/article/2025-honda-crf450r-review/",
+      "https://dirtbikemagazine.com/2026-honda-crf450r-full-test/",
+      "https://www.motoonline.com/au/tested-2025-honda-crf450r/",
+      "https://www.dirtrider.com/tests/honda-crf450r-best-motocross-bike-2nd-place-2026/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Too soft for fast intermediates, pros and heavier riders: the fork dives under hard braking and can bottom on big jumps, and the softer 52 N/mm shock spring suits lighter riders.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 7,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Vital MX",
+      "Keefer Inc. Testing",
+      "Swapmoto Live",
+      "Vital MX forum",
+      "Dirt Rider",
+      "MotoOnline"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450",
+      "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+      "https://www.keeferinctesting.com/?p=28578",
+      "https://swapmotolive.com/2025-450-mx-bike-shootout-in-depth/shootout/2025-450-shootout/5",
+      "https://www.vitalmx.com/comment/7606711",
+      "https://www.dirtrider.com/tests/honda-crf450r-best-motocross-bike-2nd-place-2026/",
+      "https://www.motoonline.com/au/tested-2025-honda-crf450r/"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "strength",
+     "statement": "Rider triangle rated best in class.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Vital MX",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "statement": "Shift lever is short and hard to get a boot under.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2026-honda-crf450/",
+      "https://www.dirtrider.com/tests/honda-crf450r-best-motocross-bike-2nd-place-2026/"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "statement": "Cockpit details draw complaints: narrow stock bar, thin seat foam or slippery seat cover, and large, hard grips.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Rider",
+      "Swapmoto Live"
+     ],
+     "urls": [
+      "https://www.dirtrider.com/tests/honda-crf450r-best-motocross-bike-2nd-place-2026/",
+      "https://swapmotolive.com/2025-450-mx-bike-shootout-in-depth/shootout/2025-450-shootout/5"
+     ]
+    },
+    {
+     "aspect": "weight_feel",
+     "verdict": "strength",
+     "statement": "Feels the lightest of its class on the track despite a wet weight in the high 240s.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://www.dirtrider.com/tests/honda-crf450r-best-motocross-bike-2nd-place-2026/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "statement": "Hydraulic clutch has a narrow, on/off engagement that contributes to occasional stalling.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://www.dirtrider.com/tests/honda-crf450r-best-motocross-bike-2nd-place-2026/"
+     ]
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "weakness",
+     "statement": "Brakes are not up to the European bikes' standard.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2026-honda-crf450/",
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450"
+     ]
+    },
+    {
+     "aspect": "electronics",
+     "verdict": "weakness",
+     "statement": "Three settings each for map, launch and traction control with flash codes and no phone app confuse riders.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2026-honda-crf450/"
+     ]
+    },
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Radiator boils over in hard use on the stock 1.1 cap.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2026-honda-crf450/",
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450"
+     ]
+    },
+    {
+     "aspect": "durability",
+     "verdict": "weakness",
+     "statement": "Muffler dents easily from boots.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Swapmoto Live"
+     ],
+     "urls": [
+      "https://swapmotolive.com/2025-450-mx-bike-shootout-in-depth/shootout/2025-450-shootout/5"
+     ]
+    },
+    {
+     "aspect": "air_filter",
+     "verdict": "weakness",
+     "statement": "The new triangular air filter is small.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450"
+     ]
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "neutral",
+     "statement": "Stock 13/49 is close; some testers prefer 13/50.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2026-honda-crf450/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Fork soft on big jumps and under braking",
+     "fix": "Add 2-3 clicks of fork compression, adjust fork height (most went to flush-2.5 mm) and add about half a turn of shock high-speed compression",
+     "result": "Better balance and hold-up on big jumps",
+     "support": 5,
+     "urls": [
+      "https://pulpmx.com/2024/07/17/five-things-about-the-2025-honda-crf450r/",
+      "https://www.cyclenews.com/2024/08/article/2025-honda-crf450r-review/",
+      "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+      "https://www.keeferinctesting.com/?p=28578",
+      "https://www.motoonline.com/au/tested-2025-honda-crf450r/"
+     ]
+    },
+    {
+     "problem": "Too soft for heavier riders",
+     "fix": "Stiffer springs: about 5.1 N/mm fork and 54 N/mm shock over about 190 lb; stiffer shock spring over about 220 lb",
+     "result": "More support, less pitching and better chassis feel",
+     "support": 5,
+     "urls": [
+      "https://www.keeferinctesting.com/?p=28578",
+      "https://ridejbi.com/2025-honda-crf450r",
+      "https://www.vitalmx.com/comment/7302631",
+      "https://www.vitalmx.com/comment/7606711",
+      "https://swapmotolive.com/2025-450-mx-bike-shootout-in-depth/shootout/2025-450-shootout/5",
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450"
+     ]
+    },
+    {
+     "problem": "Fast and pro riders want more support",
+     "fix": "Send fork and shock out for firmer valving",
+     "result": "Firmer setting suited to pace; owners report most harshness gone when combined with clamps",
+     "support": 3,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2026-honda-crf450/",
+      "https://swapmotolive.com/2025-450-mx-bike-shootout-in-depth/shootout/2025-450-shootout/5",
+      "https://www.vitalmx.com/comment/7606711"
+     ]
+    },
+    {
+     "problem": "Harsh and unstable on fast hard-pack",
+     "fix": "Aftermarket 23.5 mm offset clamps",
+     "result": "More flex, calmer chassis and better edge comfort; flat-corner exits less planted until the forks were raised",
+     "support": 2,
+     "urls": [
+      "https://www.keeferinctesting.com/ride-engineering-23-5mm-triple-clamps-2025-honda-crf450r/",
+      "https://www.vitalmx.com/comment/7606711"
+     ]
+    },
+    {
+     "problem": "Harsh chassis feel",
+     "fix": "Lower axle, clamp-pinch, pivot and shock-bolt torques slightly with thread locker",
+     "result": "More compliance for one tester; owners report only partial improvement",
+     "support": 2,
+     "urls": [
+      "https://www.keeferinctesting.com/?p=28903",
+      "https://www.vitalmx.com/comment/7302631"
+     ]
+    },
+    {
+     "problem": "Boiling over",
+     "fix": "1.8 high-pressure radiator cap in place of the stock 1.1",
+     "result": "Stopped boil-over",
+     "support": 1,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2026-honda-crf450/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "High-speed chassis calm",
+     "sides": [
+      "Most tests call the 2025-on chassis stable and largely bug-free.",
+      "One tester still found it harsh and unstable on fast hard-pack, some owners report a kicking rear on edgy tracks, and one 2026 shootout found it slightly front-heavy in rough high-speed sections."
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2026-honda-crf450/",
+      "https://www.keeferinctesting.com/ride-engineering-23-5mm-triple-clamps-2025-honda-crf450r/",
+      "https://www.vitalmx.com/comment/7302631",
+      "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx"
+     ]
+    },
+    {
+     "topic": "Pitching",
+     "sides": [
+      "One magazine found the stiffer rising-rate linkage makes it less pitchy.",
+      "Other testers found it busy and pitchy between acceleration and braking."
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2026-honda-crf450/",
+      "https://www.mxpmag.com/2027-honda-crf450r-first-ride-impressions-at-spring-creek-mx/",
+      "https://swapmotolive.com/2025-450-mx-bike-shootout-in-depth/shootout/2025-450-shootout/5"
+     ]
+    },
+    {
+     "topic": "Front-end weight",
+     "sides": [
+      "One shootout called it well balanced since the 2025 frame stiffening.",
+      "Another found it slightly front-heavy in rough high-speed sections."
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+      "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx"
+     ]
+    },
+    {
+     "topic": "Airbox backfire screen",
+     "sides": [
+      "One magazine found removing the backfire screen made almost no difference.",
+      "A tester found a replacement cage added low-rpm response and freer revving, about a slip-on's worth."
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf450",
+      "https://www.keeferinctesting.com/twin-air-powerflow-kit-honda-crf450r/"
+     ]
+    },
+    {
+     "topic": "Fork height for bottoming resistance",
+     "sides": [
+      "Most testers slid the forks toward flush-2.5 mm and added compression.",
+      "One test instead raised the tubes in the clamps to help bottoming resistance."
+     ],
+     "urls": [
+      "https://pulpmx.com/2024/07/17/five-things-about-the-2025-honda-crf450r/",
+      "https://www.vitalmx.com/features/2026-450-motocross-shootout-vital-mx",
+      "https://www.dirtrider.com/tests/honda-crf450r-best-motocross-bike-2nd-place-2026/"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Honda",
+   "model": "CRF450R",
+   "years": [
+    2027
+   ],
+   "generation": "2027 (all-new engine, frame and suspension)",
+   "summary": "Early tests only. Testers say the new engine keeps the low end but now revs, with more mid and top, less vibration and taller gearing, and the slipper-style clutch eases corner entry. The chassis is calmer and more composed in rough sections than the 2025-2026, curing much of its pitching, though turn-in takes a little more effort and it can still hunt for lines in the rough. Stock suspension is plush and well controlled. Electronics and cockpit details draw minor complaints.",
+   "points": [
+    {
+     "aspect": "engine",
+     "verdict": "strength",
+     "statement": "Smoother and more linear with less vibration; keeps the strong low end but now revs with much more mid and top and no surge, and taller gearing means fewer shifts.",
+     "years": [
+      2027
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Cycle News",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2026/08/article/2027-honda-crf450r-review/",
+      "https://dirtbikemagazine.com/riding-the-2027-honda-crf450r-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "strength",
+     "statement": "New slipper-style clutch cuts compression braking and makes corner entry easier.",
+     "years": [
+      2027
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Cycle News"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2026/08/article/2027-honda-crf450r-review/"
+     ]
+    },
+    {
+     "aspect": "stability",
+     "verdict": "strength",
+     "statement": "Calmer and more composed in whoops and rough ground; the front holds up better from acceleration to braking, curing the 2025-2026 pitching, and it is far more stable on smooth tracks.",
+     "years": [
+      2027
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "MXP Mag",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://www.mxpmag.com/2027-honda-crf450r-first-ride-impressions-at-spring-creek-mx/",
+      "https://dirtbikemagazine.com/riding-the-2027-honda-crf450r-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "handling",
+     "verdict": "weakness",
+     "statement": "In rough sections it can still hunt for lines.",
+     "years": [
+      2027
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/riding-the-2027-honda-crf450r-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "turning",
+     "verdict": "neutral",
+     "statement": "Turn-in takes more effort than the 2026, but it is more planted once in the corner.",
+     "years": [
+      2027
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Cycle News"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2026/08/article/2027-honda-crf450r-review/"
+     ]
+    },
+    {
+     "aspect": "suspension",
+     "verdict": "strength",
+     "statement": "Plush and well controlled with less mid-stroke harshness.",
+     "years": [
+      2027
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2027-honda-crf450r/"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "statement": "Standard map works best in deep dirt; the smooth map is too soft there.",
+     "years": [
+      2027
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Cycle News"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2026/08/article/2027-honda-crf450r-review/"
+     ]
+    },
+    {
+     "aspect": "electronics",
+     "verdict": "weakness",
+     "statement": "Changing maps means holding the button for several seconds at idle; it cannot be done on the fly.",
+     "years": [
+      2027
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2027-honda-crf450r/"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "statement": "Stock grips are harsh and bulky and the seat cover is slippery under acceleration.",
+     "years": [
+      2027
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2027-honda-crf450r/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Bike not level for a heavier rider",
+     "fix": "Slide the forks down 2.5 mm and soften shock high-speed compression a quarter turn",
+     "result": "Bike sat level (200 lb tester)",
+     "support": 1,
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2027-honda-crf450r/"
+     ]
+    },
+    {
+     "problem": "Unsettled in rough sections",
+     "fix": "The usual Honda fix (softer rear, forks flush) was too much; going back to stock with the fork slightly stiffer and the shock slightly slower worked better",
+     "result": "Better balance in the rough",
+     "support": 1,
+     "urls": [
+      "https://dirtbikemagazine.com/riding-the-2027-honda-crf450r-the-wrap/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Aggressive map",
+     "sides": [
+      "One test found it adds over-rev with the same low end and is usable full time in good traction.",
+      "Another found it signs off earlier than standard."
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/riding-the-2027-honda-crf450r-the-wrap/",
+      "https://www.cyclenews.com/2026/08/article/2027-honda-crf450r-review/"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Honda",
+   "model": "CRF450RWE",
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "generation": "2021-24 Works Edition (CRF450RWE)",
+   "summary": "The Works Edition's ported head, titanium full exhaust and own mapping smooth the standard bike's steep hit and add a few hp across the upper range, which testers say makes it faster and easier to ride. Its suspension uses the standard springs (and mostly the same valving) with low-friction coatings, so it rides lower and feels soft, especially at the rear. It shares the standard bike's nervous, setup-sensitive chassis, and 2021 bikes needed the same dealer ECU reflash. Stiffer rear springs, linkage and clamp changes were the common fixes.",
+   "points": [
+    {
+     "aspect": "engine",
+     "verdict": "strength",
+     "statement": "Porting, pipe and mapping smooth the standard bike's steep mid hit and tame the chassis; faster and easier to ride than the standard bike, quieter and cleaner-running.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Motocross Action",
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/honda-works-edition-full-test/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-honda-crf450we",
+      "https://dirtbikemagazine.com/honda-crf450rwe-full-test/",
+      "https://www.dirtrider.com/tests/honda-crf450rwe-dyno-test-2023/"
+     ]
+    },
+    {
+     "aspect": "dyno",
+     "verdict": "strength",
+     "statement": "Measures more than the standard bike: about 2-2.5 hp more at peak on two magazine dynos, the most peak power of any 450 one magazine tested in 2021, and the strongest production 450 up to 7,500 rpm in 2024.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Rider",
+      "Motocross Action",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtrider.com/story/tests/2021-honda-crf450rwe-dyno-test",
+      "https://www.dirtrider.com/tests/honda-crf450rwe-dyno-test-2023/",
+      "https://motocrossactionmag.com/mxa-race-test-2023-honda-crf450",
+      "https://dirtbikemagazine.com/honda-crf450rwe-full-test/"
+     ]
+    },
+    {
+     "aspect": "suspension",
+     "verdict": "weakness",
+     "statement": "Same springs and mostly the same valving as the standard bike, but the low-friction coatings let it sit deeper in the stroke; both ends feel soft, and the soft rear makes it busy into fast corners for riders over about 180 lb.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/honda-works-edition-full-test/",
+      "https://dirtbikemagazine.com/2022-honda-crf450r-works-edition-full-test/",
+      "https://dirtbikemagazine.com/honda-crf450rwe-full-test/",
+      "https://www.keeferinctesting.com/2021-3-30-mods-that-will-make-you-love-your-2021-honda-crf450r-more/"
+     ]
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "statement": "Shock is harsh accelerating out of corners.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/aftermarket-parts-that-actually-work-2023-honda-crf450r/"
+     ]
+    },
+    {
+     "aspect": "handling",
+     "verdict": "weakness",
+     "statement": "Very light-feeling and supercross-quick, but the front is sensitive and it can get nervous suddenly; setup has to be right.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-honda-crf450we",
+      "https://dirtbikemagazine.com/honda-crf450rwe-full-test/"
+     ]
+    },
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "2021 Works Editions shared the standard bike's low-rpm mapping glitch and are covered by Honda's free dealer ECU reflash.",
+     "years": [
+      2021
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Motocross Action",
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/honda-works-edition-full-test/",
+      "https://motocrossactionmag.com/mxa-tech-spec-a-brief-history-of-the-2021-honda-crf450-mapping-glitch",
+      "https://www.keeferinctesting.com/2021-3-30-mods-that-will-make-you-love-your-2021-honda-crf450r-more/"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "statement": "The mild map only trims peak and over-rev rather than softening the bottom, because the bike is a bit sleepy down low; traction control tames it in soft soil.",
+     "years": [
+      2022
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2022-honda-crf450r-works-edition-full-test/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "strength",
+     "statement": "Comes with an aftermarket clutch basket and higher-volume clutch cover from the factory.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-honda-crf450we"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "statement": "Fork-guard bolts pack with dirt and the guards cannot hold a holeshot device; grips are thick and the levers awkwardly shaped.",
+     "years": [
+      2023
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-honda-crf450we"
+     ]
+    },
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "A 14-tooth countershaft sprocket can damage the clutch slave cylinder on 2021 bikes.",
+     "years": [
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2021-3-30-mods-that-will-make-you-love-your-2021-honda-crf450r-more/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Soft, low-riding rear",
+     "fix": "Stiffer shock spring (54 to 56 N/mm), or more rear preload; one spring rate up at each end for riders over about 180 lb",
+     "result": "Settled the bike and cured the sudden nervousness for several testers",
+     "support": 2,
+     "urls": [
+      "https://dirtbikemagazine.com/honda-works-edition-full-test/",
+      "https://dirtbikemagazine.com/2022-honda-crf450r-works-edition-full-test/",
+      "https://dirtbikemagazine.com/honda-crf450rwe-full-test/",
+      "https://www.keeferinctesting.com/2021-3-30-mods-that-will-make-you-love-your-2021-honda-crf450r-more/"
+     ]
+    },
+    {
+     "problem": "Shock harsh accelerating out of corners",
+     "fix": "Aftermarket linkage (linear early, progressive late) with matched valving",
+     "result": "Harshness roughly halved",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/aftermarket-parts-that-actually-work-2023-honda-crf450r/"
+     ]
+    },
+    {
+     "problem": "Engine braking and on/off feel",
+     "fix": "Aftermarket ECU",
+     "result": "Less engine braking; third gear lugs on stock gearing",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/aftermarket-parts-that-actually-work-2023-honda-crf450r/"
+     ]
+    },
+    {
+     "problem": "Knifing in ruts and bar vibration",
+     "fix": "23.5 mm offset clamps",
+     "result": "Less vibration, oversteer and harshness",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/aftermarket-parts-that-actually-work-2023-honda-crf450r/"
+     ]
+    },
+    {
+     "problem": "Low-rpm mapping glitch (2021)",
+     "fix": "Honda dealer ECU reflash",
+     "result": "Clean running",
+     "support": 3,
+     "urls": [
+      "https://dirtbikemagazine.com/honda-works-edition-full-test/",
+      "https://motocrossactionmag.com/mxa-tech-spec-a-brief-history-of-the-2021-honda-crf450-mapping-glitch",
+      "https://www.keeferinctesting.com/2021-3-30-mods-that-will-make-you-love-your-2021-honda-crf450r-more/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Preferred map after the 2021 reflash",
+     "sides": [
+      "One magazine's testers preferred the standard map.",
+      "Another magazine's testers mostly preferred map 2."
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/honda-works-edition-full-test/",
+      "https://motocrossactionmag.com/mxa-tech-spec-a-brief-history-of-the-2021-honda-crf450-mapping-glitch"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Honda",
+   "model": "CRF450RWE",
+   "years": [
+    2025,
+    2026
+   ],
+   "generation": "2025-26 Works Edition (CRF450RWE)",
+   "summary": "Built on the 2025 chassis, the Works Edition's pipe, polished ports and own mapping make the power more linear with a gentler fall-off on top and clean, pop-free fueling, and it out-pulls the standard bike from about 4,200 rpm to the limiter on the dyno. Its coated fork moves more freely and can feel like more brake dive, while the 18 mm shaft shock is firmer under power than the standard bike. Testers added fork damping, and heavier riders went up a spring rate. It is part of the April 2026 handlebar-clamp recall.",
+   "points": [
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Recall (April 2026): the handlebar clamp can let the bar rotate unexpectedly on about 12,600 US 2025-2026 CRF250R/RX/Works Edition and CRF450R/RX/Works Edition bikes; stop riding until a dealer inspects and replaces the clamp free (check the VIN on Honda's recall lookup).",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "US CPSC"
+     ],
+     "urls": [
+      "https://cpsc.gov/Recalls/2026/American-Honda-Motor-Recalls-Off-Road-Motorcycles-Due-to-Risk-of-Serious-Injury-or-Death-Due-to-Crash-Hazard"
+     ]
+    },
+    {
+     "aspect": "engine",
+     "verdict": "strength",
+     "statement": "More linear power with a gentler fall-off on top than the standard bike, with clean fueling, no pops or hiccups and little stall risk; on the dyno it out-pulls the standard bike from about 4,200 rpm to the roughly 11,500 rpm limiter.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/mx-test-honda-crf450rwe/",
+      "https://dirtrider.com/tests/honda-crf450rwe-dyno-test-2025"
+     ]
+    },
+    {
+     "aspect": "suspension",
+     "verdict": "neutral",
+     "statement": "Coated fork moves quicker and feels softer mid-stroke than the standard bike, which can feel like more brake dive; the 18 mm shaft shock is firmer on the throttle than the standard bike's softer end stroke.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2025-honda-crf450rwe-baseline-suspension-settings/",
+      "https://dirtbikemagazine.com/mx-test-honda-crf450rwe/"
+     ]
+    },
+    {
+     "aspect": "cost",
+     "verdict": "neutral",
+     "statement": "Costs about $2,900 more than the standard bike, roughly what the matching aftermarket exhaust, clutch parts and head porting would cost.",
+     "years": [
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/mx-test-honda-crf450rwe/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Coated fork moves too freely, more brake dive",
+     "fix": "Add fork compression and rebound damping (about 8-10 out compression, 8-9 out rebound) with forks flush-2 mm",
+     "result": "Calmer front",
+     "support": 2,
+     "urls": [
+      "https://dirtbikemagazine.com/mx-test-honda-crf450rwe/",
+      "https://www.keeferinctesting.com/2025-honda-crf450rwe-baseline-suspension-settings/",
+      "https://www.keeferinctesting.com/2025-honda-crf450rwe-baseline-suspension-settings-and-torque-values/"
+     ]
+    },
+    {
+     "problem": "Soft for heavier riders or soft east-coast soil",
+     "fix": "Heavier springs (5.1-5.2 N/mm fork, 54-56 N/mm shock) for riders over about 180-185 lb; on stock springs in soft soil run stiffer clickers",
+     "result": "Rides higher in soft dirt that sucks the bike down",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2025-honda-crf450rwe-baseline-suspension-settings/",
+      "https://www.keeferinctesting.com/2025-honda-crf450rwe-east-coast-baseline-suspension-settings/"
+     ]
+    },
+    {
+     "problem": "Chassis harshness",
+     "fix": "Slightly lower chassis bolt torques (axle, clamp pinch bolts, swingarm pivot)",
+     "result": "More compliance",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2025-honda-crf450rwe-baseline-suspension-settings-and-torque-values/"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "make": "Honda",
+   "model": "CRF250R",
+   "years": [
+    2020,
+    2021
+   ],
+   "generation": "2020-2021 (twin-muffler engine, 2020 frame and suspension update)",
+   "summary": "A high-revving 250 whose strength is top-end and over-rev; most US testers still found the bottom end soft and slow-revving out of corners despite Honda's 2020 low-end changes. The 2020 clutch update made the clutch a strong point and the Showa suspension was rated plush and easy to set up, though faster or heavier riders found the fork divey and the shock empty on G-outs. Testers reported a twitchy front or head shake in rough ground (one cause was a steering-head nut left loose from the factory) and an engine that runs hot and pushes coolant. Aftermarket full exhausts and a plug-in ECU were the usual low-end fixes.",
+   "points": [
+    {
+     "aspect": "engine_low",
+     "verdict": "weakness",
+     "statement": "Bottom end feels soft and slow-revving; power comes in late and the clutch is needed to wake it up out of corners, so it needs a gear lower and more shifting than rivals.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Rider",
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2021-honda-crf250",
+      "https://dirtrider.com/story/tests/2020-honda-crf250r-dyno-test",
+      "https://www.keeferinctesting.com/2021-2-9-fmf-41-rct-muffler-system-2020-2021-honda-crf250r/",
+      "https://www.keeferinctesting.com/2021-5-19-slip-on-or-full-system-2021-honda-crf450250r/",
+      "https://www.keeferinctesting.com/2020-11-15-2021-honda-crf250r-baseline-settingstop-five-mods/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "strength",
+     "statement": "Pulls hard at high rpm and over-revs further than most rival 250Fs; it rewards being kept on the boil.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Australasian Dirt Bike",
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2021-honda-crf250",
+      "https://adbmag.com.au/editorial/2020-honda-crf250r-review/",
+      "https://www.keeferinctesting.com/2019-7-12-2020-kx250-versus-2019-yz250f-comparison/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "statement": "Showa suspension is plush, comfortable on decel bumps and easy to set up for an average rider.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Australasian Dirt Bike",
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2021-honda-crf250",
+      "https://adbmag.com.au/editorial/2020-honda-crf250r-review/",
+      "https://www.keeferinctesting.com/2020-11-15-2021-honda-crf250r-baseline-settingstop-five-mods/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "For fast or 160-190 lb riders the fork dives under hard braking and the shock runs out of support at the end of the stroke on G-outs; over about 190 lb a spring rate up at each end is needed.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-8-14-2020-honda-crf250r-first-impression/",
+      "https://www.keeferinctesting.com/2020-11-15-2021-honda-crf250r-baseline-settingstop-five-mods/"
+     ]
+    },
+    {
+     "aspect": "stability",
+     "verdict": "weakness",
+     "statement": "Front can feel twitchy, knife into corners or shake at speed in rough ground, especially for lighter riders.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-8-14-2020-honda-crf250r-first-impression/",
+      "https://www.keeferinctesting.com/2020-11-15-2021-honda-crf250r-baseline-settingstop-five-mods/",
+      "https://motocrossactionmag.com/mxa-race-test-2021-honda-crf250"
+     ]
+    },
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Steering-head bearing can come too loose from the factory, causing knifing in corners and slight head shake on deceleration.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-8-14-2020-honda-crf250r-first-impression/",
+      "https://www.keeferinctesting.com/2020-11-15-2021-honda-crf250r-baseline-settingstop-five-mods/"
+     ]
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "statement": "Quick turning with no wag, rated its best trait by one magazine.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2021-honda-crf250"
+     ]
+    },
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Runs hot when idling or in long high-rpm motos, sand or heat and can push coolant out of the overflow, despite the 2020 radiator change.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-8-14-2020-honda-crf250r-first-impression/",
+      "https://www.keeferinctesting.com/2020-11-15-2021-honda-crf250r-baseline-settingstop-five-mods/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "strength",
+     "statement": "The 2020 clutch update (stiffer springs, better fibres, more oil) stopped the slipping of earlier bikes and made the clutch a strong point.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2021-honda-crf250",
+      "https://www.keeferinctesting.com/2019-8-14-2020-honda-crf250r-first-impression/"
+     ]
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "strength",
+     "statement": "Second-to-third spacing improved for 2020 so third is usable.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-8-14-2020-honda-crf250r-first-impression/"
+     ]
+    },
+    {
+     "aspect": "weight",
+     "verdict": "weakness",
+     "statement": "About 10 lb heavier than the lightest 250F; the twin mufflers add weight and replacement cost.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2021-honda-crf250"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "weakness",
+     "statement": "The three stock maps feel too similar to one magazine; one tester chose the aggressive map for corner torque and the standard map for longer pull in second and third.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2021-honda-crf250",
+      "https://www.keeferinctesting.com/?p=13290"
+     ]
+    },
+    {
+     "aspect": "maintenance",
+     "verdict": "weakness",
+     "statement": "Rear fender can break if used to lift the bike and engine-cover paint scratches on the first ride.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2021-honda-crf250"
+     ]
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "neutral",
+     "statement": "Front brake is powerful; the rear pedal sits low.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-8-14-2020-honda-crf250r-first-impression/"
+     ]
+    },
+    {
+     "aspect": "starts",
+     "verdict": "strength",
+     "statement": "Launch control works well on tacky gates with the stronger 2020 bottom end; keep 1-2 cm of clutch freeplay for starts.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Australasian Dirt Bike"
+     ],
+     "urls": [
+      "https://adbmag.com.au/editorial/2020-honda-crf250r-review/"
+     ]
+    },
+    {
+     "aspect": "maintenance",
+     "verdict": "weakness",
+     "statement": "An aftermarket dual-pipe system's header springs broke twice in 22 hours; replace them every 8-10 hours.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2021-2-9-fmf-41-rct-muffler-system-2020-2021-honda-crf250r/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Weak bottom end out of corners",
+     "fix": "Aftermarket full exhaust system (slip-ons or quiet inserts lose most of the benefit)",
+     "result": "Better bottom and low-mid pull and quicker second/third recovery, so a higher gear can be held; no top-end loss",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2021-2-9-fmf-41-rct-muffler-system-2020-2021-honda-crf250r/",
+      "https://www.keeferinctesting.com/2020-6-9-yoshimura-rs-9t-stainless-full-system-2020-honda-crf250r/",
+      "https://www.keeferinctesting.com/2021-5-19-slip-on-or-full-system-2021-honda-crf450250r/"
+     ]
+    },
+    {
+     "problem": "Weak bottom end",
+     "fix": "Plug-in aftermarket ECU with tuned maps",
+     "result": "More low-end grunt and longer-pulling gears than any exhaust tested",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2020-11-15-2021-honda-crf250r-baseline-settingstop-five-mods/"
+     ]
+    },
+    {
+     "problem": "Third gear hard to use",
+     "fix": "One tooth larger rear sprocket (13/49)",
+     "result": "Third gear usable in corners, at some cost to second",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2021-2-9-fmf-41-rct-muffler-system-2020-2021-honda-crf250r/",
+      "https://www.keeferinctesting.com/2020-11-15-2021-honda-crf250r-baseline-settingstop-five-mods/"
+     ]
+    },
+    {
+     "problem": "Fork dive and head shake",
+     "fix": "Stiffer fork compression and forks raised from 5 mm to about 3 mm in the clamps (back toward flush if it shakes); for oversteer lower the sag first, then drop the forks",
+     "result": "Calmer front on braking and corner entry",
+     "support": 2,
+     "urls": [
+      "https://keeferinctesting.com/?p=13238",
+      "https://motocrossactionmag.com/mxa-race-test-2021-honda-crf250",
+      "https://www.keeferinctesting.com/2020-11-15-2021-honda-crf250r-baseline-settingstop-five-mods/"
+     ]
+    },
+    {
+     "problem": "Shock empty on G-outs",
+     "fix": "High-speed compression about 1/8 turn in and sag around 100-103 mm; slower low-speed and rebound rather than more high-speed (which loads the front)",
+     "result": "Rear held up better; 105 mm sag added stability but slowed turning",
+     "support": 2,
+     "urls": [
+      "https://www.keeferinctesting.com/2019-8-14-2020-honda-crf250r-first-impression/",
+      "https://motocrossactionmag.com/mxa-race-test-2021-honda-crf250",
+      "https://www.keeferinctesting.com/2020-11-15-2021-honda-crf250r-baseline-settingstop-five-mods/"
+     ]
+    },
+    {
+     "problem": "Twitchy front, knifing",
+     "fix": "Snug the steering-head nut",
+     "result": "Front settled",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2019-8-14-2020-honda-crf250r-first-impression/",
+      "https://www.keeferinctesting.com/2020-11-15-2021-honda-crf250r-baseline-settingstop-five-mods/"
+     ]
+    },
+    {
+     "problem": "Running hot",
+     "fix": "Check coolant often, do not idle in the pits; aftermarket water-pump cover and impeller",
+     "result": "Less heat stress",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2020-11-15-2021-honda-crf250r-baseline-settingstop-five-mods/"
+     ]
+    },
+    {
+     "problem": "Clutch feel and life",
+     "fix": "Aftermarket clutch pack in the stock basket",
+     "result": "Better lever feel, longer life, less slip in soft dirt",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2020-11-15-2021-honda-crf250r-baseline-settingstop-five-mods/"
+     ]
+    },
+    {
+     "problem": "Square-edge harshness",
+     "fix": "Stock engine-mount torques, swingarm pivot at 52 ft-lb",
+     "result": "More lean-angle compliance",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2020-11-15-2021-honda-crf250r-baseline-settingstop-five-mods/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Bottom-end strength",
+     "sides": [
+      "Most US tests found the low end soft and lethargic.",
+      "One Australian test of the 2020 found it pulled early with a strong midrange."
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2021-honda-crf250",
+      "https://adbmag.com.au/editorial/2020-honda-crf250r-review/"
+     ]
+    },
+    {
+     "topic": "Cornering feel",
+     "sides": [
+      "One magazine rated quick, wag-free turning its best trait.",
+      "One tester found the 2020 harder to hold leaned mid-corner than the 2019, though more stable."
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2021-honda-crf250",
+      "https://www.keeferinctesting.com/2019-8-14-2020-honda-crf250r-first-impression/"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Honda",
+   "model": "CRF250R",
+   "years": [
+    2022,
+    2023,
+    2024
+   ],
+   "generation": "2022-2024 (single exhaust, low-mid engine, CRF450R-style frame)",
+   "summary": "The 2022 redesign swapped the old top-end character for much stronger bottom and midrange pull and made the bike one of the lightest 250Fs, but the engine falls off early on top and trails the class on peak power. Most testers found the chassis rigid and touchy, with a twitchy front and head shake that needs setup work, though it corners very well. The stock Showa fork was widely called too stiff and harsh while the shock felt soft, and both ends react to single-click changes. Common fixes are fork oil and valving changes, slower shock low-speed and rebound, longer-offset clamps, a high-pressure radiator cap and a tooth more on the rear sprocket.",
+   "points": [
+    {
+     "aspect": "engine_low",
+     "verdict": "strength",
+     "statement": "Much stronger bottom-to-mid pull than the 2020-2021 bike; it exits corners with little clutch and lugs third gear more easily.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 5,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Motocross Action",
+      "Dirt Bike magazine",
+      "Ultimate Motorcycling",
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2021-8-5-2022-honda-crf250r-first-impression/",
+      "https://motocrossactionmag.com/2022-mxa-250-four-stroke-shootout",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-honda-crf250",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-honda-crf250",
+      "https://dirtbikemagazine.com/title-2022-honda-crf250r-full-test/",
+      "https://ultimatemotorcycling.com/2023/06/10/2023-honda-crf250r-review-long-term-mx-tested",
+      "https://www.dirtrider.com/story/tests/honda-crf250r-dyno-test-2022/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "statement": "Power falls off after the midrange and lacks over-rev, so a lower gear is often needed in corners.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/yoshimura-rs-12-full-stainless-system-2022-honda-crf250r/",
+      "https://www.keeferinctesting.com/yoshimura-rs-12-stainless-muffler-system-2023-honda-crf250r/",
+      "https://motocrossactionmag.com/2022-mxa-250-four-stroke-shootout",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-honda-crf250"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "statement": "Measured peak power sits at or near the bottom of the 250F class and below the 2020-2021 bike.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Motocross Action",
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2022-250-mx-bikes-on-the-dyno-the-wrap/",
+      "https://motocrossactionmag.com/2022-mxa-250-four-stroke-shootout",
+      "https://www.dirtrider.com/story/tests/honda-crf250r-dyno-test-2022/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-honda-crf250"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "statement": "Standard map (map 1) is the usual pick; map 3 adds snap down low but signs off sooner on top.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Ultimate Motorcycling"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2023-honda-crf250r-review-set-up-specs/",
+      "https://ultimatemotorcycling.com/2023/06/10/2023-honda-crf250r-review-long-term-mx-tested"
+     ]
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "weakness",
+     "statement": "Third gear is short so riders often skip to fourth.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2023-honda-crf250r-review-set-up-specs/"
+     ]
+    },
+    {
+     "aspect": "stability",
+     "verdict": "weakness",
+     "statement": "Frame feels rigid and touchy: twitchy front, mid-corner oversteer and head shake in rough ground, especially for lighter riders, with fore-aft balance hard to find.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Cycle News",
+      "Vital MX forum",
+      "Ultimate Motorcycling"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-honda-crf250",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-honda-crf250",
+      "https://www.cyclenews.com/2024/07/article/2025-honda-crf250r-review/",
+      "https://www.vitalmx.com/comment/6573596",
+      "https://ultimatemotorcycling.com/2023/06/10/2023-honda-crf250r-review-long-term-mx-tested"
+     ]
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "statement": "Rated one of the best-cornering 250Fs and forgiving on the throttle while leaned over.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2023-honda-crf250r-review-set-up-specs/",
+      "https://www.keeferinctesting.com/2021-8-5-2022-honda-crf250r-first-impression/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Stock fork is firm and harsh, especially late in the stroke and for riders under about 170 lb, while the shock is softer, leaving the bike unbalanced; valving was unchanged for three years.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Keefer Inc. Testing",
+      "Ultimate Motorcycling"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-honda-crf250",
+      "https://www.keeferinctesting.com/2023-honda-crf250r-review-set-up-specs/",
+      "https://www.keeferinctesting.com/2024-250-mx-baseline-suspension-settings/",
+      "https://ultimatemotorcycling.com/2023/06/10/2023-honda-crf250r-review-long-term-mx-tested"
+     ]
+    },
+    {
+     "aspect": "balance",
+     "verdict": "weakness",
+     "statement": "Very sensitive to single clicks, especially shock high-speed compression: stiffening it puts weight on the front and makes the fork harsher.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2024-250-mx-baseline-suspension-settings/",
+      "https://www.keeferinctesting.com/2023-250-mx-baseline-settings/",
+      "https://motocrossactionmag.com/2022-mxa-250-four-stroke-shootout",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-honda-crf250"
+     ]
+    },
+    {
+     "aspect": "tires",
+     "verdict": "weakness",
+     "statement": "Stock 100/90-19 rear tire is too narrow for the engine's low-end and gives up grip at lean; the stock tires also wear quickly.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-honda-crf250",
+      "https://www.keeferinctesting.com/2021-8-5-2022-honda-crf250r-first-impression/"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "strength",
+     "statement": "Build quality rated highly: the revised water pump stopped coolant loss and owners report valves staying in spec past 40 hard hours.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Vital MX forum"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2021-8-5-2022-honda-crf250r-first-impression/",
+      "https://www.vitalmx.com/comment/7721306"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "strength",
+     "statement": "Nine-plate cable clutch holds up to abuse.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2021-8-5-2022-honda-crf250r-first-impression/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-honda-crf250"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "statement": "Owners still name the stock clutch (one at about 45 hours) and the stock chain as the first wear items.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Vital MX forum"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/comment/7721306"
+     ]
+    },
+    {
+     "aspect": "weight_feel",
+     "verdict": "strength",
+     "statement": "About 8-10 lb lighter than the 2021 after dropping the second muffler; one magazine measured it the lightest 250F of 2024.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-honda-crf250",
+      "https://dirtbikemagazine.com/title-2022-honda-crf250r-full-test/"
+     ]
+    },
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Stock 1.1 radiator cap lets it overheat when worked hard.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-honda-crf250"
+     ]
+    },
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Upside-down air filter gets dirty quickly in dust; check it often.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-honda-crf250"
+     ]
+    },
+    {
+     "aspect": "maintenance",
+     "verdict": "weakness",
+     "statement": "Seat foam breaks down in about 10-12 hours.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2023-honda-crf250r-review-set-up-specs/"
+     ]
+    },
+    {
+     "aspect": "sound",
+     "verdict": "weakness",
+     "statement": "Stock muffler is loud and harsh.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-honda-crf250"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Harsh, stiff fork",
+     "fix": "Lower fork oil about 5 cc per leg, soften compression and quicken rebound; revalve for lighter riders",
+     "result": "Less harshness deep in the stroke and better balance with the shock",
+     "support": 3,
+     "urls": [
+      "https://www.keeferinctesting.com/2023-honda-crf250r-review-set-up-specs/",
+      "https://www.keeferinctesting.com/2024-250-mx-baseline-suspension-settings/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-honda-crf250",
+      "https://ultimatemotorcycling.com/2023/06/10/2023-honda-crf250r-review-long-term-mx-tested"
+     ]
+    },
+    {
+     "problem": "Soft shock, poor acceleration hold-up",
+     "fix": "Slower shock low-speed compression and rebound instead of more high-speed compression",
+     "result": "More hold-up and exit traction without loading the front",
+     "support": 2,
+     "urls": [
+      "https://www.keeferinctesting.com/2024-250-mx-baseline-suspension-settings/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-honda-crf250"
+     ]
+    },
+    {
+     "problem": "Twitchy front and head shake",
+     "fix": "Longer-offset clamps (23.5-24 mm vs stock 22 mm), correct springs, 105-108 mm sag and forks near flush; some added a steering damper; avoid raising the forks",
+     "result": "More stability on fast and rough tracks",
+     "support": 2,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-honda-crf250",
+      "https://www.vitalmx.com/comment/6573596"
+     ]
+    },
+    {
+     "problem": "Harsh rising-rate rear",
+     "fix": "Aftermarket linkage with a more linear rate",
+     "result": "Plush start to the stroke that ramps up later",
+     "support": 1,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-honda-crf250"
+     ]
+    },
+    {
+     "problem": "Short third gear",
+     "fix": "13/51 gearing",
+     "result": "Third usable in corners",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2023-honda-crf250r-review-set-up-specs/"
+     ]
+    },
+    {
+     "problem": "Lacks top end",
+     "fix": "Aftermarket full exhaust",
+     "result": "Kept the low end and added midrange, top and quicker recovery; second gear pulls longer",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/yoshimura-rs-12-full-stainless-system-2022-honda-crf250r/",
+      "https://keeferinctesting.com/?p=16876",
+      "https://www.keeferinctesting.com/akrapovic-evolution-system-2022-honda-crf250r/",
+      "https://www.keeferinctesting.com/yoshimura-rs-12-stainless-muffler-system-2023-honda-crf250r/"
+     ]
+    },
+    {
+     "problem": "Overheats when worked hard",
+     "fix": "1.8 high-pressure radiator cap",
+     "result": "Holds coolant in hard use",
+     "support": 1,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-honda-crf250"
+     ]
+    },
+    {
+     "problem": "Seat foam collapses",
+     "fix": "Firmer aftermarket foam",
+     "result": "Lasts longer",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2023-honda-crf250r-review-set-up-specs/"
+     ]
+    },
+    {
+     "problem": "Clutch and chain wear",
+     "fix": "Aftermarket clutch pack; replace the stock chain early",
+     "result": "Longer life",
+     "support": 1,
+     "urls": [
+      "https://www.vitalmx.com/comment/7721306"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Stock fork firmness",
+     "sides": [
+      "Most tests found the fork too stiff and harsh.",
+      "One 2022 shootout found it too soft with a light rear and added compression."
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-honda-crf250",
+      "https://motocrossactionmag.com/2022-mxa-250-four-stroke-shootout"
+     ]
+    },
+    {
+     "topic": "Top-end character",
+     "sides": [
+      "Several tests found it falls off early with a short top end.",
+      "One 2022 shootout found it linear and over-revving well, and one long-term test said it still revs to about 14,000 rpm."
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/2022-mxa-250-four-stroke-shootout",
+      "https://ultimatemotorcycling.com/2023/06/10/2023-honda-crf250r-review-long-term-mx-tested"
+     ]
+    },
+    {
+     "topic": "Chassis feel",
+     "sides": [
+      "Several tests called the frame rigid, harsh and nervous.",
+      "One tester found it forgiving leaned over and less rigid than the CRF450R."
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-honda-crf250",
+      "https://www.keeferinctesting.com/2023-honda-crf250r-review-set-up-specs/"
+     ]
+    },
+    {
+     "topic": "Cooling",
+     "sides": [
+      "One tester found the 2022 pump and louvers cured coolant loss.",
+      "Another recommends a higher-pressure cap because it overheats when worked hard."
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2021-8-5-2022-honda-crf250r-first-impression/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-honda-crf250"
+     ]
+    },
+    {
+     "topic": "Clutch durability",
+     "sides": [
+      "Testers say the nine-plate clutch survives abuse.",
+      "Owners name the stock clutch as the most common early wear item."
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2021-8-5-2022-honda-crf250r-first-impression/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-honda-crf250",
+      "https://www.vitalmx.com/comment/7721306"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Honda",
+   "model": "CRF250R",
+   "years": [
+    2025,
+    2026
+   ],
+   "generation": "2025-2026 (stiffer new frame, revised airbox, linkage and suspension)",
+   "summary": "Testers broadly agree the 2025 frame fixed much of the earlier nervousness: the bike is more planted, precise and stable with less pitching, corners excellently and still feels light. The engine is strong off the bottom but goes flat on top where the Austrian bikes and the Kawasaki pull, measuring roughly 3-4 hp down, so most riders prefer the aggressive map. Suspension is plusher than before but soft for riders over about 175 lb or fast riders, and the stock Pirelli tires (especially the 100/90 rear) are widely criticised. The 2025-2026 bikes are covered by an April 2026 handlebar-clamp recall.",
+   "points": [
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Recall (April 2026): the handlebar clamp can let the bar rotate unexpectedly on about 12,600 US 2025-2026 CRF250R/RX/Works Edition and CRF450R/RX/Works Edition bikes; stop riding until a dealer inspects and replaces the clamp free (check the VIN on Honda's recall lookup).",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "US CPSC"
+     ],
+     "urls": [
+      "https://cpsc.gov/Recalls/2026/American-Honda-Motor-Recalls-Off-Road-Motorcycles-Due-to-Risk-of-Serious-Injury-or-Death-Due-to-Crash-Hazard"
+     ]
+    },
+    {
+     "aspect": "engine_low",
+     "verdict": "strength",
+     "statement": "Strong off the bottom; easier to drive out of ruts and hold third gear than earlier bikes.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 7,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Cycle News",
+      "Keefer Inc. Testing",
+      "Dirt Bike magazine",
+      "Vital MX",
+      "Dirt Rider",
+      "Ultimate Motorcycling"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf250/",
+      "https://www.cyclenews.com/2024/07/article/2025-honda-crf250r-review/",
+      "https://www.keeferinctesting.com/life-with-the-2026-honda-crf250r/",
+      "https://dirtbikemagazine.com/full-test-2026-honda-crf250r/",
+      "https://www.vitalmx.com/features/tested-2026-honda-crf250r-setup-notes-and-recommended-changes",
+      "https://dirtbikemagazine.com/riding-the-2025-honda-crf250rwe-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "statement": "Mid-to-top pull and over-rev trail the Austrian 250s and the KX250 and it goes flat where they come alive; peak power measures roughly 3-4 hp down and below the 2019-2021 bikes.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 6,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Keefer Inc. Testing",
+      "Dirt Bike magazine",
+      "Vital MX",
+      "Dirt Rider",
+      "Cycle News"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf250/",
+      "https://www.keeferinctesting.com/yoshimura-rs-12-stainless-muffler-system-2026-honda-crf250r/",
+      "https://dirtbikemagazine.com/full-test-2026-honda-crf250r/",
+      "https://dirtbikemagazine.com/250-motocross-bikes-on-the-dyno-the-wrap/",
+      "https://www.vitalmx.com/features/tested-2026-honda-crf250r-setup-notes-and-recommended-changes",
+      "https://dirtbikemagazine.com/riding-the-2025-honda-crf250rwe-the-wrap/",
+      "https://dirtrider.com/tests/honda-crf250r-dyno-test-2025"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "statement": "Aggressive map is the most common pick on the stock bike for its extra hit and pull.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Cycle News",
+      "MotoOnline",
+      "Dirt Bike magazine",
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2024/07/article/2025-honda-crf250r-review/",
+      "https://www.motoonline.com/au/tested-2026-honda-crf-range/",
+      "https://dirtbikemagazine.com/full-test-2026-honda-crf250r/",
+      "https://www.keeferinctesting.com/life-with-the-2026-honda-crf250r/"
+     ]
+    },
+    {
+     "aspect": "stability",
+     "verdict": "strength",
+     "statement": "More planted and precise with less pitching and front wiggle on entry; needs less effort to hold a line in braking bumps.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 6,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Cycle News",
+      "Ultimate Motorcycling",
+      "Vital MX",
+      "Dirt Bike magazine",
+      "MCNews"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf250/",
+      "https://www.cyclenews.com/2024/07/article/2025-honda-crf250r-review/",
+      "https://ultimatemotorcycling.com/2024/07/01/2025-honda-crf250r-review-national-track-test/",
+      "https://www.vitalmx.com/features/tested-2026-honda-crf250r-setup-notes-and-recommended-changes",
+      "https://dirtbikemagazine.com/riding-the-2025-honda-crf250rwe-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "statement": "Excellent cornering and front-end traction with very quick, light steering; arguably the best-handling 250 in its class and it fits a wide range of rider sizes.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Vital MX",
+      "MotoOnline",
+      "Australasian Dirt Bike",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/features/tested-2026-honda-crf250r-setup-notes-and-recommended-changes",
+      "https://www.motoonline.com/au/tested-2026-honda-crf-range/",
+      "https://adbmag.com.au/editorial/long-term-test-1-2025-honda-crf250r/",
+      "https://dirtbikemagazine.com/riding-the-2025-honda-crf250rwe-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "stability",
+     "verdict": "neutral",
+     "statement": "Can feel harsh in the forearms, busy under braking or twitchy in long choppy corners until fork height, clickers and clamp torque are adjusted.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "MotoOnline"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/life-with-the-2026-honda-crf250r/",
+      "https://www.motoonline.com/au/tested-2026-honda-crf-range/"
+     ]
+    },
+    {
+     "aspect": "weight_feel",
+     "verdict": "strength",
+     "statement": "Feels very light and easy to scrub and whip.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "MotoOnline"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf250/",
+      "https://www.motoonline.com/au/tested-2026-honda-crf-range/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "statement": "Fork is plusher over small bumps with a linear ramp; the shock stays planted under power and the setup is comfortable yet controlled.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Cycle News",
+      "Motocross Action",
+      "Vital MX",
+      "Australasian Dirt Bike"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2024/07/article/2025-honda-crf250r-review/",
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf250/",
+      "https://www.vitalmx.com/features/tested-2026-honda-crf250r-setup-notes-and-recommended-changes",
+      "https://adbmag.com.au/editorial/long-term-test-1-2025-honda-crf250r/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Both ends are soft for riders over about 175 lb, fast riders or very rough tracks; the shock squats under acceleration.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 5,
+     "strength": "strong consensus",
+     "outlets": [
+      "Cycle News",
+      "Keefer Inc. Testing",
+      "Vital MX",
+      "Motocross Action",
+      "MotoOnline"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2024/07/article/2025-honda-crf250r-review/",
+      "https://www.keeferinctesting.com/?p=28690",
+      "https://www.vitalmx.com/features/tested-2026-honda-crf250r-setup-notes-and-recommended-changes",
+      "https://www.keeferinctesting.com/life-with-the-2026-honda-crf250r/",
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf250/",
+      "https://www.motoonline.com/au/tested-2026-honda-crf-range/"
+     ]
+    },
+    {
+     "aspect": "tires",
+     "verdict": "weakness",
+     "statement": "Stock Pirelli tires lose grip at lean, the 100/90-19 rear is too small and the front wears out fast; testers want a 110 rear.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine",
+      "Vital MX",
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf250/",
+      "https://dirtbikemagazine.com/full-test-2026-honda-crf250r/",
+      "https://www.vitalmx.com/features/tested-2026-honda-crf250r-setup-notes-and-recommended-changes",
+      "https://www.keeferinctesting.com/life-with-the-2026-honda-crf250r/"
+     ]
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "weakness",
+     "statement": "First and second feel long and there is a big gap into a third gear that revs out quickly, forcing early shifts to fourth.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Vital MX",
+      "Cycle News"
+     ],
+     "urls": [
+      "https://www.vitalmx.com/features/tested-2026-honda-crf250r-setup-notes-and-recommended-changes",
+      "https://www.cyclenews.com/2024/07/article/2025-honda-crf250r-review/"
+     ]
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "strength",
+     "statement": "Revised front caliper gives a smoother, more linear feel.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf250/"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "neutral",
+     "statement": "Wider midsection grips well but tall riders' legs can catch the shrouds in deep ruts.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf250/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Busy front, instability",
+     "fix": "Lower the forks from the stock height toward 2-3 mm or flush and run about 103-108 mm sag",
+     "result": "Better cornering and stability",
+     "support": 2,
+     "urls": [
+      "https://dirtbikemagazine.com/full-test-2026-honda-crf250r/",
+      "https://www.keeferinctesting.com/life-with-the-2026-honda-crf250r/",
+      "https://www.keeferinctesting.com/?p=29823"
+     ]
+    },
+    {
+     "problem": "Fork soft as the track roughens or on hard-pack",
+     "fix": "Add 2-4 clicks of fork compression (and a couple of clicks of rebound on hard-pack)",
+     "result": "Holds up better in braking bumps; cured instability on hard-pack",
+     "support": 4,
+     "urls": [
+      "https://ultimatemotorcycling.com/2024/07/01/2025-honda-crf250r-review-national-track-test/",
+      "https://www.vitalmx.com/features/tested-2026-honda-crf250r-setup-notes-and-recommended-changes",
+      "https://www.motoonline.com/au/tested-2026-honda-crf-range/"
+     ]
+    },
+    {
+     "problem": "Too soft for heavier riders",
+     "fix": "Stiffer springs for riders over about 180 lb (no revalve needed per one test); fork revalve for heavier or fast intermediate riders",
+     "result": "Better hold-up",
+     "support": 2,
+     "urls": [
+      "https://www.vitalmx.com/features/tested-2026-honda-crf250r-setup-notes-and-recommended-changes",
+      "https://www.keeferinctesting.com/life-with-the-2026-honda-crf250r/"
+     ]
+    },
+    {
+     "problem": "Shock squats on acceleration",
+     "fix": "Stiffer shock low-speed compression and slower rebound (avoid stiffening high-speed, which made the front harsh)",
+     "result": "More support and corner traction",
+     "support": 2,
+     "urls": [
+      "https://www.keeferinctesting.com/?p=28690",
+      "https://www.vitalmx.com/features/tested-2026-honda-crf250r-setup-notes-and-recommended-changes"
+     ]
+    },
+    {
+     "problem": "Rear tire too narrow",
+     "fix": "110/80-19 rear on a 2.15 rim",
+     "result": "More rear grip",
+     "support": 2,
+     "urls": [
+      "https://www.vitalmx.com/features/tested-2026-honda-crf250r-setup-notes-and-recommended-changes",
+      "https://dirtbikemagazine.com/full-test-2026-honda-crf250r/"
+     ]
+    },
+    {
+     "problem": "Forearm harshness",
+     "fix": "Lower triple-clamp pinch-bolt torque (check service manual minimums)",
+     "result": "Less harshness and better front tire feel",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/life-with-the-2026-honda-crf250r/",
+      "https://www.keeferinctesting.com/2025-honda-crf250rx-weekend-warrior-review/"
+     ]
+    },
+    {
+     "problem": "Lacks top end",
+     "fix": "Aftermarket full exhaust, run with the standard map",
+     "result": "Felt about 2 hp stronger with better bottom, mid and over-rev",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/life-with-the-2026-honda-crf250r/",
+      "https://www.keeferinctesting.com/yoshimura-rs-12-stainless-muffler-system-2026-honda-crf250r/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Preferred map",
+     "sides": [
+      "Most testers prefer the aggressive map.",
+      "Another found the aggressive map tops out quickly and preferred standard."
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2024/07/article/2025-honda-crf250r-review/",
+      "https://www.vitalmx.com/features/tested-2026-honda-crf250r-setup-notes-and-recommended-changes"
+     ]
+    },
+    {
+     "topic": "Top-end feel",
+     "sides": [
+      "Most testers say it lacks top-end punch.",
+      "One magazine's dyno runs looked better on top than expected, and a long-term tester said it did not feel slow on track."
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2024/07/article/2025-honda-crf250r-review/",
+      "https://www.keeferinctesting.com/life-with-the-2026-honda-crf250r/"
+     ]
+    },
+    {
+     "topic": "Bottom-end torque",
+     "sides": [
+      "Most say it is strong off the bottom.",
+      "An Australian test wanted more torque out of turns in deep mud, and a heavy long-term tester found it soft off the bottom."
+     ],
+     "urls": [
+      "https://www.motoonline.com/au/tested-2026-honda-crf-range/",
+      "https://adbmag.com.au/editorial/long-term-test-1-2025-honda-crf250r/"
+     ]
+    },
+    {
+     "topic": "Opening the airbox",
+     "sides": [
+      "One magazine saw no dyno gain from removing the filter cover and backfire screen.",
+      "A long-term test bike felt sharper response after removing the screen and enlarging the airbox hole, done together with an ECU remap."
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf250/",
+      "https://adbmag.com.au/?p=51338"
+     ]
+    },
+    {
+     "topic": "Gear spacing",
+     "sides": [
+      "One magazine liked stock gearing and changed nothing.",
+      "Other tests found first and second long and a gap to third that revs out quickly."
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf250/",
+      "https://www.vitalmx.com/features/tested-2026-honda-crf250r-setup-notes-and-recommended-changes"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Honda",
+   "model": "CRF250RWE",
+   "years": [
+    2025,
+    2026
+   ],
+   "generation": "2025-26 Works Edition (CRF250RWE)",
+   "summary": "The 250 Works Edition adds ported ports, a titanium exhaust, its own mapping, coated suspension with an 18 mm shock shaft, a hydraulic clutch and Dunlop tires to the 2025 chassis. Testers agree it keeps pulling on top where the standard bike goes flat, though it still trails the Austrian 250s off starts and up hills and gives up a little very low down. The coated suspension moves more freely early and holds up slightly better deep in the stroke. It is part of the April 2026 handlebar-clamp recall.",
+   "points": [
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Recall (April 2026): the handlebar clamp can let the bar rotate unexpectedly on about 12,600 US 2025-2026 CRF250R/RX/Works Edition and CRF450R/RX/Works Edition bikes; stop riding until a dealer inspects and replaces the clamp free (check the VIN on Honda's recall lookup).",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "US CPSC"
+     ],
+     "urls": [
+      "https://cpsc.gov/Recalls/2026/American-Honda-Motor-Recalls-Off-Road-Motorcycles-Due-to-Risk-of-Serious-Injury-or-Death-Due-to-Crash-Hazard"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "strength",
+     "statement": "Keeps power climbing where the standard 2025 CRF250R goes flat: snappier, quicker-revving and better over-rev; on the dyno it gains from about 5,400 rpm to the limiter.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Cycle News",
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/riding-the-2025-honda-crf250rwe-the-wrap/",
+      "https://www.cyclenews.com/2024/11/article/2025-honda-crf250rwe-review/",
+      "https://dirtrider.com/tests/honda-crf250rwe-dyno-test-2025"
+     ]
+    },
+    {
+     "aspect": "engine",
+     "verdict": "weakness",
+     "statement": "Still slower than the Austrian 250s off starts and up hills, and gives up a little power around 3,900-5,100 rpm versus the standard bike.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf250-works-edition",
+      "https://dirtrider.com/tests/honda-crf250rwe-dyno-test-2025"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "statement": "Testers ran the aggressive map.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Cycle News",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2024/11/article/2025-honda-crf250rwe-review/",
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf250-works-edition"
+     ]
+    },
+    {
+     "aspect": "suspension",
+     "verdict": "strength",
+     "statement": "Coated fork and 18 mm shaft shock move more freely early in the stroke and hold up a little better deep than the standard bike; one tester wanted it calmer at speed on the throttle.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Cycle News",
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/riding-the-2025-honda-crf250rwe-the-wrap/",
+      "https://www.cyclenews.com/2024/11/article/2025-honda-crf250rwe-review/",
+      "https://www.keeferinctesting.com/2025-honda-crf250rwe-baseline-suspension-settings/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "neutral",
+     "statement": "Hydraulic clutch (the standard bike has a cable) feels normal quickly, though cable fans may miss the engagement feel.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Cycle News",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2024/11/article/2025-honda-crf250rwe-review/",
+      "https://dirtbikemagazine.com/riding-the-2025-honda-crf250rwe-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "tires",
+     "verdict": "strength",
+     "statement": "Its Dunlop tires and 110/90-19 rear suit western dirt much better than the standard bike's Pirellis.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Cycle News"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/riding-the-2025-honda-crf250rwe-the-wrap/",
+      "https://www.cyclenews.com/2024/11/article/2025-honda-crf250rwe-review/"
+     ]
+    },
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Stock 1.1 radiator cap was swapped immediately; seat foam is thin and the bars are crowded with the clutch master cylinder and switches.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf250-works-edition"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Overheating risk",
+     "fix": "1.8 high-pressure radiator cap",
+     "result": "Holds coolant",
+     "support": 1,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2025-honda-crf250-works-edition"
+     ]
+    },
+    {
+     "problem": "Quick-moving suspension busy on throttle at speed",
+     "fix": "Fork compression 9 out, rebound 11 out at 4 mm height; shock low-speed 7 out, rebound 10 out at 105 mm sag (160-190 lb)",
+     "result": "Calmer at speed",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2025-honda-crf250rwe-baseline-suspension-settings/"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "make": "Honda",
+   "model": "CRF250RX",
+   "years": [
+    2020,
+    2021
+   ],
+   "generation": "2020-2021 (off-road version of the twin-muffler CRF250R)",
+   "summary": "Two full tests. Handling and turning are outstanding and the suspension is plush with little brake dive, but the engine is a revver with a weak bottom that can stall in tight going. The clutch faded in a muddy race, it boils over with heavy clutch use, and the twin mufflers lack spark arrestors. A spark-arrested aftermarket system added bottom end.",
+   "points": [
+    {
+     "aspect": "engine",
+     "verdict": "weakness",
+     "statement": "Still a top-end revver with weak bottom-end pull and some stalling in tight terrain; the mild map only tames the top.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Cycle News"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/honda-crf250rx-full-test-2/",
+      "https://www.cyclenews.com/2020/02/article/2020-honda-crf250rx-review/"
+     ]
+    },
+    {
+     "aspect": "handling",
+     "verdict": "strength",
+     "statement": "Outstanding handling and turning; suspension is excellent, slightly softer than the motocross bike, sits tall with little brake dive.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/honda-crf250rx-full-test-2/"
+     ]
+    },
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Boils over with heavy clutch use on warm days.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/honda-crf250rx-full-test-2/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "statement": "Clutch faded badly and wore quickly in a muddy cross-country race and needed adjuster turns to regain bite.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Cycle News"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2020/02/article/2020-honda-crf250rx-review/"
+     ]
+    },
+    {
+     "aspect": "exhaust",
+     "verdict": "weakness",
+     "statement": "Twin mufflers with no spark arrestors double the cost of making it trail-legal; no handguards stock.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/honda-crf250rx-full-test-2/"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "statement": "The 2.2-gallon tank feels top-heavy when full.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Cycle News"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2020/02/article/2020-honda-crf250rx-review/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Weak bottom end, no spark arrestors",
+     "fix": "Aftermarket stainless full system with spark arrestors",
+     "result": "Added bottom end",
+     "support": 1,
+     "urls": [
+      "https://dirtbikemagazine.com/honda-crf250rx-full-test-2/"
+     ]
+    },
+    {
+     "problem": "Boiling over",
+     "fix": "Aftermarket water-pump impeller and waterless coolant",
+     "result": "Stopped boil-overs",
+     "support": 1,
+     "urls": [
+      "https://dirtbikemagazine.com/honda-crf250rx-full-test-2/"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "make": "Honda",
+   "model": "CRF250RX",
+   "years": [
+    2022,
+    2023,
+    2024
+   ],
+   "generation": "2022-2024 (off-road version of the 2022 CRF250R)",
+   "summary": "Off-road testers like the RX engine: it pulls low, hits hard in the midrange and lets riders stay in a higher gear on tight trails, with the aggressive map the favourite. Its softer springs and valving are plush, more user-friendly than the stiff motocross bike and good in rocks, but too soft for grand-prix pace without extra compression. Testers also mention a firm clutch pull, a wide tank and a wish for a sixth gear.",
+   "points": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "statement": "Broad engine that pulls from low rpm, hits hard in the midrange and tolerates being a gear high while still revving.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Dirt Bike magazine",
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2023-honda-crf250rx-450rx-first-impressions/",
+      "https://dirtbikemagazine.com/riding-the-2022-honda-crf250rx-the-wrap/",
+      "https://dirtrider.com/story/tests/honda-crf250rx-dyno-test-2022"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "statement": "Riders preferred the aggressive map, especially for uphills and motocross.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Cycle News"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/riding-the-2022-honda-crf250rx-the-wrap/",
+      "https://www.cyclenews.com/2023/01/article/2023-honda-crf250rx-crf450rx-review/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "statement": "Softer springs and valving are plush on track and trail, excellent in rocks and more user-friendly than the noticeably stiff motocross bike.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Motocross Action",
+      "Cycle News"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/riding-the-2022-honda-crf250rx-the-wrap/",
+      "https://motocrossactionmag.com/mxa-race-test-mxa-race-test-the-real-test-of-the-2023-honda-crf250rx-cross-country",
+      "https://www.cyclenews.com/2023/01/article/2023-honda-crf250rx-crf450rx-review/"
+     ]
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "statement": "Too soft for grand-prix speed: the fork wants a few clicks more compression and the shock is soft relative to the fork.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Motocross Action",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/riding-the-2022-honda-crf250rx-the-wrap/",
+      "https://motocrossactionmag.com/mxa-race-test-mxa-race-test-the-real-test-of-the-2023-honda-crf250rx-cross-country",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2022-honda-crf250rx/"
+     ]
+    },
+    {
+     "aspect": "weight",
+     "verdict": "strength",
+     "statement": "The 2022 RX weighed about 7 lb less than the 2021 on the same scale.",
+     "years": [
+      2022
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/riding-the-2022-honda-crf250rx-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "statement": "Clutch pull feels firm.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2023-honda-crf250rx-450rx-first-impressions/"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "statement": "Oversized fuel tank is noticeable when putting a leg out.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2023-honda-crf250rx-450rx-first-impressions/"
+     ]
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "weakness",
+     "statement": "Five-speed gearbox shared with the motocross bike; off-road testers want a sixth gear.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-mxa-race-test-the-real-test-of-the-2023-honda-crf250rx-cross-country"
+     ]
+    },
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Stock 1.1 radiator cap lets it overheat when worked hard; the upside-down air filter clogs quickly in dust.",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-mxa-race-test-the-real-test-of-the-2023-honda-crf250rx-cross-country",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-honda-crf250"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Fork dives on big hits at speed",
+     "fix": "Stiffen fork compression 1-2 clicks (or more) so it rides higher",
+     "result": "Holds up better without losing much plushness",
+     "support": 3,
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2022-honda-crf250rx/",
+      "https://motocrossactionmag.com/mxa-race-test-mxa-race-test-the-real-test-of-the-2023-honda-crf250rx-cross-country",
+      "https://dirtbikemagazine.com/riding-the-2022-honda-crf250rx-the-wrap/"
+     ]
+    },
+    {
+     "problem": "Harsh in tight rocks",
+     "fix": "Soften compression 2-3 clicks at both ends",
+     "result": "Smoother in slow technical terrain",
+     "support": 1,
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2023-honda-crf250rx/"
+     ]
+    },
+    {
+     "problem": "Unstable at speed",
+     "fix": "Add sag (107-108 mm) and lower the forks 1-3 mm in the clamps",
+     "result": "More stability without giving up much cornering",
+     "support": 1,
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/2022-250f-xc-race-comparison/"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "make": "Honda",
+   "model": "CRF250RX",
+   "years": [
+    2025,
+    2026
+   ],
+   "generation": "2025-2026 (2025 frame, airbox and suspension update)",
+   "summary": "Off-road testers rate the 2025 RX's engine the best-mannered of the cross-country 250Fs: torque-rich below 7,000 rpm with no stalling, though a few hp shy at peak. The 2025 frame and one-piece pull rod make it more comfortable and predictable than the 2022-2024, and a mostly stock bike survived a 24-hour race. The suspension suits a moderate-pace rider of about 170 lb, with the fork feeling softer than the shock. Complaints are the wide tank, the five-speed gearbox, the stock front tire and a cable clutch that fades when abused. It is part of the April 2026 handlebar-clamp recall.",
+   "points": [
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Recall (April 2026): the handlebar clamp can let the bar rotate unexpectedly on about 12,600 US 2025-2026 CRF250R/RX/Works Edition and CRF450R/RX/Works Edition bikes; stop riding until a dealer inspects and replaces the clamp free (check the VIN on Honda's recall lookup).",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "US CPSC"
+     ],
+     "urls": [
+      "https://cpsc.gov/Recalls/2026/American-Honda-Motor-Recalls-Off-Road-Motorcycles-Due-to-Risk-of-Serious-Injury-or-Death-Due-to-Crash-Hazard"
+     ]
+    },
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "statement": "Best off-road delivery of the cross-country 250Fs: strong below 7,000 rpm with no tendency to stall or cough, and the off-road map softens the transition into the main power; the top end signs off earlier and peak is about 3-4 hp shy of the fastest 250s.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/off-road-test-honda-crf250rx/",
+      "https://dirtbikemagazine.com/riding-the-2025-honda-crf450rx-crf250rx-the-wrap/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2025-honda-crf250rx/"
+     ]
+    },
+    {
+     "aspect": "chassis",
+     "verdict": "strength",
+     "statement": "The 2025 frame and one-piece pull rod add comfort and predictability over the rigid 2022-2024 chassis, with less rider fatigue.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://www.dirtrider.com/tests/honda-crf250rx-review/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "neutral",
+     "statement": "Fork feels softer than the shock on big hits now that the shock holds up better.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike Test",
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2025-honda-crf250rx/",
+      "https://www.dirtrider.com/tests/honda-crf250rx-review/"
+     ]
+    },
+    {
+     "aspect": "suspension",
+     "verdict": "neutral",
+     "statement": "Setup suits a rider of about 170 lb at moderate trail pace; too soft for motocross or desert speed and too stiff for light riders in tight trails.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/off-road-test-honda-crf250rx/"
+     ]
+    },
+    {
+     "aspect": "durability",
+     "verdict": "strength",
+     "statement": "A mostly stock 2025 RX ran a full 24-hour race with only tip-over damage and a bent shifter.",
+     "years": [
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://www.dirtrider.com/tests/honda-crf250rx-glen-helen-24-hour-endurance-race-review"
+     ]
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "weakness",
+     "statement": "Five-speed gearbox works on trails but testers miss a taller sixth gear for fire roads.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike Test",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2025-honda-crf250rx/",
+      "https://dirtbikemagazine.com/off-road-test-honda-crf250rx/"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "statement": "The 2.1-gallon tank is wide and carries fuel high, so handling changes noticeably from full to empty.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://www.dirtrider.com/tests/honda-crf250rx-review/"
+     ]
+    },
+    {
+     "aspect": "tires",
+     "verdict": "weakness",
+     "statement": "Stock front tire gives poor grip.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2025-honda-crf250rx/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "statement": "Cable clutch has an easy pull but fades if abused.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/off-road-test-honda-crf250rx/"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "statement": "Arm fatigue on long rides, blamed on the aluminium chassis.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2025-honda-crf250rx-weekend-warrior-review/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Fork low under big hits",
+     "fix": "Two clicks more fork compression and 104-105 mm sag, or springs matched to rider weight",
+     "result": "Fork held higher in the stroke while staying plush; better front-rear balance",
+     "support": 2,
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2025-honda-crf250rx/",
+      "https://www.dirtrider.com/tests/honda-crf250rx-review/"
+     ]
+    },
+    {
+     "problem": "Arm fatigue",
+     "fix": "Lower triple-clamp pinch-bolt torque and soften fork and shock high-speed compression",
+     "result": "Less harshness through the bars",
+     "support": 1,
+     "urls": [
+      "https://www.keeferinctesting.com/2025-honda-crf250rx-weekend-warrior-review/"
+     ]
+    },
+    {
+     "problem": "Poor front grip",
+     "fix": "Swap the stock front for a better intermediate tire",
+     "result": "More front traction",
+     "support": 2,
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2025-honda-crf250rx/",
+      "https://www.keeferinctesting.com/2025-honda-crf250rx-weekend-warrior-review/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Fork compression direction",
+     "sides": [
+      "One tester stiffened fork compression to hold it up.",
+      "Another softened high-speed compression over several rides for comfort."
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2025-honda-crf250rx/",
+      "https://www.keeferinctesting.com/2025-honda-crf250rx-weekend-warrior-review/"
+     ]
+    },
+    {
+     "topic": "Chassis comfort",
+     "sides": [
+      "One test found the 2025 frame cut fatigue versus the old bike.",
+      "A long-term tester still had arm fatigue and blamed the aluminium chassis."
+     ],
+     "urls": [
+      "https://www.dirtrider.com/tests/honda-crf250rx-review/",
+      "https://www.keeferinctesting.com/2025-honda-crf250rx-weekend-warrior-review/"
+     ]
+    },
+    {
+     "topic": "Hydraulic clutch conversion",
+     "sides": [
+      "One test says converting needs machine work with no bolt-on kit.",
+      "Another says it can be done with OEM parts from the 250 Works Edition."
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/off-road-test-honda-crf250rx/",
+      "https://www.dirtrider.com/tests/honda-crf250rx-review/"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Honda",
+   "model": "CRF450RX",
+   "years": [
+    2020
+   ],
+   "generation": "2020 (off-road version of the 2017-generation CRF450R)",
+   "summary": "Only one full test plus a dyno run on the same engine. Its huge, throbbing low end is great for grand-prix and desert racing but hard to manage in tight, rocky trails, with a constant stall risk, and the stock radiator cap lets it steam in clutch-heavy riding. Suspension is a little softer than the motocross bike yet resists bottoming well. The wide tank, tall first gear and lack of handguards are the other complaints.",
+   "points": [
+    {
+     "aspect": "power_delivery",
+     "verdict": "neutral",
+     "statement": "Huge, throbbing power that gets more frantic up top: great in grand-prix and desert racing but hard to control in tight, rocky trails, with a constant stall risk; the mild map and traction control do not smooth the low end.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/honda-crf450rx-full-test-3/"
+     ]
+    },
+    {
+     "aspect": "dyno",
+     "verdict": "strength",
+     "statement": "Made the most power of the 450 off-road bikes on one magazine dyno (measured on the identical 2019 engine).",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Rider"
+     ],
+     "urls": [
+      "https://dirtrider.com/2019-honda-crf450rx-dyno-test"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "statement": "A little softer than the motocross bike, well suited to grand-prix racing; stays up in the stroke and takes a big hit to bottom.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/honda-crf450rx-full-test-3/"
+     ]
+    },
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Starts steaming within minutes of first-gear or clutch-heavy riding on the stock 1.1 radiator cap.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/honda-crf450rx-full-test-3/"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "statement": "The 2.25-gallon tank is wide and cumbersome on technical rides, first gear is tall for trails and no handguards are fitted.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/honda-crf450rx-full-test-3/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Head shake in desert racing",
+     "fix": "Fit a steering stabilizer",
+     "result": "Recommended for desert speed",
+     "support": 1,
+     "urls": [
+      "https://dirtbikemagazine.com/honda-crf450rx-full-test-3/"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "make": "Honda",
+   "model": "CRF450RX",
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "generation": "2021-2024 (off-road version of the 2021 CRF450R)",
+   "summary": "Testers call the RX a very tractable, torque-led engine that is strong but can be tiring in tight trails; the 2023 update moved the hit lower and made it more gradual. It turns quickly and precisely, and its softer suspension is supple in whoops and rocks but too soft for big jumps and fast or heavy riders. Complaints include the wide, top-heavy tank, traction control that can bog on loose hills, and a chassis some found stiff or prone to moving around at speed. Early 2021 bikes needed Honda's free mapping reflash.",
+   "points": [
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Early 2021 RXs share the CRF450R's mid-throttle hiccup and popping; Honda's free dealer ECU reflash fixes it.",
+     "years": [
+      2021
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/honda-works-edition-full-test/",
+      "https://motocrossactionmag.com/mxa-tech-spec-a-brief-history-of-the-2021-honda-crf450-mapping-glitch"
+     ]
+    },
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "statement": "Very tractable, torque-led engine that feels slightly detuned versus the motocross bike; strong, but can be tiring or too much in tight technical trails.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Dirt Bike magazine",
+      "Motocross Action",
+      "Cycle News"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2023-honda-crf250rx-450rx-first-impressions/",
+      "https://dirtbikemagazine.com/2023-honda-crf450rx-full-test/",
+      "https://motocrossactionmag.com/2024-cross-country-battle-honda-crf450rx-vs-kawasaki-kx450x",
+      "https://www.cyclenews.com/2023/01/article/2023-honda-crf250rx-crf450rx-review/"
+     ]
+    },
+    {
+     "aspect": "power_delivery",
+     "verdict": "weakness",
+     "statement": "The 2021-2022 engine had a hard rush between about 7,500 and 8,500 rpm that felt light-switch-like.",
+     "years": [
+      2021,
+      2022
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Cycle News"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/riding-the-2023-honda-crf450rx-the-wrap/",
+      "https://www.cyclenews.com/2023/01/article/2023-honda-crf250rx-crf450rx-review/"
+     ]
+    },
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "statement": "From 2023 the hit moved to the bottom and ramps up more gradually, making it much easier to ride and all three maps useful, at the cost of some peak power.",
+     "years": [
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Cycle News"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2023-honda-crf450rx-full-test/",
+      "https://dirtbikemagazine.com/riding-the-2023-honda-crf450rx-the-wrap/",
+      "https://www.cyclenews.com/2023/01/article/2023-honda-crf250rx-crf450rx-review/"
+     ]
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "statement": "Turns quickly and precisely, stable in sand berms; rut cornering is its most consistent trait.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-grand-prix-racing-on-the-yamaha-yz450fx-honda-crf450rx",
+      "https://dirtbikemagazine.com/2023-honda-crf450rx-full-test/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "strength",
+     "statement": "Softer valving with the same springs as the R gives a supple, forgiving initial stroke that is great in whoops and rocky trails.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/2024-cross-country-battle-honda-crf450rx-vs-kawasaki-kx450x",
+      "https://dirtbikemagazine.com/2023-honda-crf450rx-full-test/",
+      "https://dirtbikemagazine.com/honda-crf450rx-full-test-2/"
+     ]
+    },
+    {
+     "aspect": "suspension",
+     "verdict": "weakness",
+     "statement": "Too soft for heavier or faster riders and overwhelmed by big jumps and speed on a motocross track.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-grand-prix-racing-on-the-yamaha-yz450fx-honda-crf450rx",
+      "https://dirtbikemagazine.com/honda-crf450rx-full-test-2/",
+      "https://dirtbikemagazine.com/riding-the-2023-honda-crf450rx-the-wrap/",
+      "https://motocrossactionmag.com/2024-cross-country-battle-honda-crf450rx-vs-kawasaki-kx450x"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Fork has a harsh top-out feel.",
+     "years": [
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/2024-cross-country-battle-honda-crf450rx-vs-kawasaki-kx450x"
+     ]
+    },
+    {
+     "aspect": "stability",
+     "verdict": "strength",
+     "statement": "Feels less rigid and more planted than the CRF450R.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2023-honda-crf250rx-450rx-first-impressions/"
+     ]
+    },
+    {
+     "aspect": "chassis",
+     "verdict": "weakness",
+     "statement": "Chassis can feel stiff, and the frame can bind and unload, moving the bike side to side at speed.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Racer X"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2023-honda-crf450rx-full-test/",
+      "https://racerxonline.com/2024/03/14/racer-x-films-2024-honda-crf450rx-garage-build"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "statement": "The 2.1-gallon tank is wide and top-heavy, making the bike feel bulkier and less nimble and getting in the way when putting a leg out.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc. Testing",
+      "Motocross Action",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2023-honda-crf250rx-450rx-first-impressions/",
+      "https://motocrossactionmag.com/2024-cross-country-battle-honda-crf450rx-vs-kawasaki-kx450x",
+      "https://dirtbikemagazine.com/riding-the-2023-honda-crf450rx-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "strength",
+     "statement": "Hydraulic clutch has one of the lightest pulls in the class and never fades.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/honda-crf450rx-full-test-2/",
+      "https://dirtbikemagazine.com/honda-crf450rx-full-test-4/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "statement": "Hydraulic clutch pull is firm and engagement too on/off.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc. Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2023-honda-crf250rx-450rx-first-impressions/"
+     ]
+    },
+    {
+     "aspect": "electronics",
+     "verdict": "weakness",
+     "statement": "Traction control helps on flat, dry, rocky ground but is inconsistent and can make the bike go flat on loose or sandy hills; map button flash order is confusing and launch control is useless for dead-engine starts.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2023-honda-crf450rx-full-test/",
+      "https://dirtbikemagazine.com/honda-crf450rx-full-test-2/"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "strength",
+     "statement": "Reliability proved solid over a long test with a good clutch and brakes.",
+     "years": [
+      2022
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/honda-crf450rx-full-test-4/"
+     ]
+    },
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Stalls and overheats when ridden slowly in tight trails.",
+     "years": [
+      2022
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/honda-crf450rx-full-test-4/"
+     ]
+    },
+    {
+     "aspect": "weight",
+     "verdict": "strength",
+     "statement": "Only about 5 lb heavier than the R despite the kickstand and handguards; the handguards and sealed chain are good quality.",
+     "years": [
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/honda-crf450rx-full-test-2/"
+     ]
+    },
+    {
+     "aspect": "service",
+     "verdict": "neutral",
+     "statement": "Airbox vent can take in water at crossings; tape it over first.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-grand-prix-racing-on-the-yamaha-yz450fx-honda-crf450rx"
+     ]
+    },
+    {
+     "aspect": "tires",
+     "verdict": "weakness",
+     "statement": "Stock rear tire spins in sand.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-grand-prix-racing-on-the-yamaha-yz450fx-honda-crf450rx"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Unstable at speed",
+     "fix": "Add sag (about 107-108 mm) and lower the forks in the clamps or run them flush; 23.5 mm offset clamps",
+     "result": "More stability without giving up much cornering",
+     "support": 2,
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/2023-450cc-off-road-shootout/",
+      "https://motocrossactionmag.com/mxa-race-test-grand-prix-racing-on-the-yamaha-yz450fx-honda-crf450rx",
+      "https://motocrossactionmag.com/2024-cross-country-battle-honda-crf450rx-vs-kawasaki-kx450x"
+     ]
+    },
+    {
+     "problem": "Too soft for fast riders or jumps",
+     "fix": "Stiffer grand-prix valving, or the motocross bike's stiffer rear spring",
+     "result": "Holds up at race pace",
+     "support": 2,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-grand-prix-racing-on-the-yamaha-yz450fx-honda-crf450rx",
+      "https://dirtbikemagazine.com/honda-crf450rx-full-test-4/"
+     ]
+    },
+    {
+     "problem": "Front heavy in tight trails",
+     "fix": "Raise the forks up to 5 mm in the clamps",
+     "result": "Quicker steering in tight going",
+     "support": 1,
+     "urls": [
+      "https://dirtbikemagazine.com/honda-crf450rx-full-test-4/"
+     ]
+    },
+    {
+     "problem": "Stiff-feeling chassis",
+     "fix": "Aftermarket engine hangers",
+     "result": "More comfort and traction",
+     "support": 1,
+     "urls": [
+      "https://racerxonline.com/2024/03/14/racer-x-films-2024-honda-crf450rx-garage-build"
+     ]
+    },
+    {
+     "problem": "Rear spins in sand",
+     "fix": "Sand-specific rear tire",
+     "result": "Better drive in sand",
+     "support": 1,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-grand-prix-racing-on-the-yamaha-yz450fx-honda-crf450rx"
+     ]
+    },
+    {
+     "problem": "Drag on deceleration",
+     "fix": "Swap the O-ring chain for a standard motocross chain",
+     "result": "Less drag, freer deceleration",
+     "support": 1,
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-grand-prix-racing-on-the-yamaha-yz450fx-honda-crf450rx"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Clutch feel",
+     "sides": [
+      "One magazine found the hydraulic clutch among the lightest in the class and fade-free.",
+      "Another tester found the pull firm and the engagement on/off."
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/honda-crf450rx-full-test-2/",
+      "https://www.keeferinctesting.com/2023-honda-crf250rx-450rx-first-impressions/"
+     ]
+    },
+    {
+     "topic": "Chassis at speed",
+     "sides": [
+      "One tester found it less rigid and more planted than the R.",
+      "Others found it stiff or prone to side-to-side movement at speed."
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2023-honda-crf250rx-450rx-first-impressions/",
+      "https://dirtbikemagazine.com/2023-honda-crf450rx-full-test/",
+      "https://racerxonline.com/2024/03/14/racer-x-films-2024-honda-crf450rx-garage-build"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Honda",
+   "model": "CRF450RX",
+   "years": [
+    2025,
+    2026
+   ],
+   "generation": "2025-2026 (2025 frame and airbox update)",
+   "summary": "Little tester data. The stiffer 2025 frame makes it very planted and secure at speed while still steering quickly, and testers no longer needed to drop the forks. Opinions split on the engine: one test found the new airbox softened the hit and cut stalling, another said it still hits like a motocross bike at trials-type speeds. Suspension is only a little softer than the R and soft for big jumps. It is part of the April 2026 handlebar-clamp recall.",
+   "points": [
+    {
+     "aspect": "known issue",
+     "verdict": "weakness",
+     "statement": "Recall (April 2026): the handlebar clamp can let the bar rotate unexpectedly on about 12,600 US 2025-2026 CRF250R/RX/Works Edition and CRF450R/RX/Works Edition bikes; stop riding until a dealer inspects and replaces the clamp free (check the VIN on Honda's recall lookup).",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "US CPSC"
+     ],
+     "urls": [
+      "https://cpsc.gov/Recalls/2026/American-Honda-Motor-Recalls-Off-Road-Motorcycles-Due-to-Risk-of-Serious-Injury-or-Death-Due-to-Crash-Hazard"
+     ]
+    },
+    {
+     "aspect": "handling",
+     "verdict": "strength",
+     "statement": "Stiffer frame makes it very planted and secure at speed despite light, quick steering; the forks no longer need dropping in the clamps.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike magazine",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/riding-the-2025-honda-crf450rx-crf250rx-the-wrap/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2025-honda-crf450rx/"
+     ]
+    },
+    {
+     "aspect": "power_delivery",
+     "verdict": "strength",
+     "statement": "Torque-first delivery with a softer hit, cleaner fueling and fewer low-rpm stalls than before.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Cycle News"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2025/03/article/2025-honda-crf450rx-review/"
+     ]
+    },
+    {
+     "aspect": "power_delivery",
+     "verdict": "weakness",
+     "statement": "Even in the softest map it has a motocross-style hit; at very low speed first gear hits too hard and second wants to stall, demanding lots of clutch.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/riding-the-2025-honda-crf450rx-crf250rx-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "statement": "Smooth map with the strongest traction setting makes it feel like a 350, good for tight single-track; standard or aggressive suit loam and sand.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Cycle News"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2025/03/article/2025-honda-crf450rx-review/"
+     ]
+    },
+    {
+     "aspect": "suspension",
+     "verdict": "neutral",
+     "statement": "Only a little softer than the R; it settles into the stroke and soaks up chatter but is soft for big motocross jumps.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Cycle News",
+      "Dirt Bike magazine"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2025/03/article/2025-honda-crf450rx-review/",
+      "https://dirtbikemagazine.com/riding-the-2025-honda-crf450rx-crf250rx-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "weakness",
+     "statement": "Five-speed gearbox; off-road testers want a sixth gear.",
+     "years": [
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Cycle News"
+     ],
+     "urls": [
+      "https://cyclenews.com/2024/05/article/new-2025-honda-crf450rx-crf250rx-off-road-models-specs-and-prices"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Unstable at speed",
+     "fix": "Add sag (107-108 mm) and lower the forks in the clamps",
+     "result": "More stability without giving up much cornering",
+     "support": 1,
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/2026-450-off-road-shootout/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Low-speed engine manners",
+     "sides": [
+      "One test found the 2025 airbox softened the hit and reduced stalling.",
+      "Another found it still hits hard and wants to stall at trials-type speeds even in the softest map."
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2025/03/article/2025-honda-crf450rx-review/",
+      "https://dirtbikemagazine.com/riding-the-2025-honda-crf450rx-crf250rx-the-wrap/"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Honda",
+   "model": "CRF150R",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "generation": "2020-2026 (carbureted four-stroke, platform largely unchanged since 2007)",
+   "summary": "Little tester data. The carbureted 150 revs quickly but has little low-end torque, stalls easily and trails European 85cc two-strokes on power-to-weight; the kick-start is hard for some kids. Stock suspension is harsh at slow speeds and needs springs and valving for heavier riders. A tuner's jetting only raises the pilot jet.",
+   "points": [
+    {
+     "aspect": "engine",
+     "verdict": "weakness",
+     "statement": "Light flywheel lets it rev quickly, but it has little low-end torque, slows fast off the throttle, stalls easily and trails European 85cc two-strokes on power-to-weight.",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Hideout",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrosshideout.com/honda-crf150r-review/",
+      "https://motocrossactionmag.com/mxa-buyers-guide-2024-mini-cycle-buyers-guide"
+     ]
+    },
+    {
+     "aspect": "ergonomics",
+     "verdict": "weakness",
+     "statement": "Kick-starting is hard for some kids.",
+     "years": [
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-buyers-guide-2024-mini-cycle-buyers-guide"
+     ]
+    },
+    {
+     "aspect": "suspension",
+     "verdict": "weakness",
+     "statement": "Stock valving is harsh at slow speed and on trails; heavier riders need stiffer springs and a revalve.",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Hideout"
+     ],
+     "urls": [
+      "https://motocrosshideout.com/honda-crf150r-review/"
+     ]
+    },
+    {
+     "aspect": "service",
+     "verdict": "neutral",
+     "statement": "Engine and transmission oil are drained separately (every 10-15 hours); stale pump gas left in the carburettor is a common cause of starting problems.",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Hideout"
+     ],
+     "urls": [
+      "https://motocrosshideout.com/honda-crf150r-review/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Jetting baseline",
+     "fix": "Keep stock main (138), needle (clip 3) and leak jet; raise the pilot from 38 to 45 (premium pump gas, 0-1,500 ft)",
+     "result": "Tuner baseline jetting",
+     "support": 1,
+     "urls": [
+      "https://www.procircuit.com/jetting-specs13",
+      "https://www.procircuit.com/jetting-specs16",
+      "https://www.procircuit.com/jetting-specs17"
+     ]
+    },
+    {
+     "problem": "Stalls, little low end",
+     "fix": "Flywheel weight, auto-clutch or jetting changes",
+     "result": "Fewer stalls",
+     "support": 1,
+     "urls": [
+      "https://motocrosshideout.com/honda-crf150r-review/"
+     ]
+    },
+    {
+     "problem": "Hard starting after storage",
+     "fix": "Drain the carburettor and fuel before storage",
+     "result": "Avoids stale-fuel starting problems",
+     "support": 1,
+     "urls": [
+      "https://motocrosshideout.com/honda-crf150r-review/"
+     ]
+    }
+   ],
+   "disagreements": []
+  }
+ ]
+}
