@@ -1,0 +1,89 @@
+{
+ "note": "Each URL below is the exact source_url used by the 174 Triumph rows in docs/research/expansion/suspension-pass/claims.sql (174 = 16+64+32+32+30). All five now map to a downloaded, hashed PDF. The previous retrieval kept no hash, so byte-identity with that earlier copy cannot be proven; the page/value spot check passed 174/174.",
+ "sources": [
+  {
+   "url": "https://api.triumphtechnicalinformation.com/handbooks/documents/697b08172114eb1a98f6704f/pdf",
+   "sha256": "c615b7b3a97d3329beeb7a7fe6dfb869fb5d45d0855690a78d8d7a8e3d04bd42",
+   "bytes": 9534471,
+   "title": "OHB_TF250-X and TF450RC Edition_3850529-US",
+   "document_revision": "3850529-US",
+   "pdf_pages": 228,
+   "pdf_moddate": "Thu Nov 27 09:03:06 2025 EST",
+   "local_file": "dl/697b08172114eb1a98f6704f/doc.pdf",
+   "retrieved": "2026-10-26 (shell curl, no sign-in; listing via the public handbooks API used by triumphtechnicalinformation.com/handbooks)",
+   "scope": "portal: TF250-X 2023, 2024, 2025 (VIN BS4847 to CC7868, model code ZB1)",
+   "blocked_facts_mapped": 16,
+   "blocked_fact_check": "every one of the blocked facts on this URL in docs/research/expansion/suspension-pass/claims.sql was found (value numbers) on its stated page of this download"
+  },
+  {
+   "url": "https://api.triumphtechnicalinformation.com/handbooks/documents/697b0a68aa5a3d37f2aa2ef0/pdf",
+   "sha256": "384f437964981d64de075a220d87fdf7d74b5c35529940d44d14f4d14ffdc317",
+   "bytes": 9973068,
+   "title": "OHB_TF250-X_TF450-X and TF450RC Edition_3850672-US",
+   "document_revision": "3850672-US",
+   "pdf_pages": 248,
+   "pdf_moddate": "Thu Nov 27 08:43:59 2025 EST",
+   "local_file": "dl/697b0a68aa5a3d37f2aa2ef0/doc.pdf",
+   "retrieved": "2026-10-26 (shell curl, no sign-in; listing via the public handbooks API used by triumphtechnicalinformation.com/handbooks)",
+   "scope": "portal: TF250-X 2025 (VIN CF3825 onward, ZB2), TF250-X 2026 (ZB2), TF450-X 2026 (ZD1), TF450RC Edition 2025 (ZY2)",
+   "blocked_facts_mapped": 64,
+   "blocked_fact_check": "every one of the blocked facts on this URL in docs/research/expansion/suspension-pass/claims.sql was found (value numbers) on its stated page of this download"
+  },
+  {
+   "url": "https://api.triumphtechnicalinformation.com/handbooks/documents/697b1c4ec47604be99a352a4/pdf",
+   "sha256": "793bf0e713f0597d77a66ba1239e858ff2a42ac06b75f765891a2619becd5c30",
+   "bytes": 56626302,
+   "title": "OHB_TF250-C and TF450-C_3850699-US",
+   "document_revision": "3850699-US",
+   "pdf_pages": 230,
+   "pdf_moddate": "Thu Nov 27 04:25:27 2025 EST",
+   "local_file": "dl/697b1c4ec47604be99a352a4/doc.pdf",
+   "retrieved": "2026-10-26 (shell curl, no sign-in; listing via the public handbooks API used by triumphtechnicalinformation.com/handbooks)",
+   "scope": "portal: TF250-C 2026 (ZR2), TF450-C 2026 (ZT2)",
+   "blocked_facts_mapped": 32,
+   "blocked_fact_check": "every one of the blocked facts on this URL in docs/research/expansion/suspension-pass/claims.sql was found (value numbers) on its stated page of this download"
+  },
+  {
+   "url": "https://api.triumphtechnicalinformation.com/handbooks/documents/697b112531d8347c29c5ce2b/pdf",
+   "sha256": "301b80987eade7c883daecdf14bf38a92641369e54776f8a38f86077c19fe559",
+   "bytes": 12194614,
+   "title": "OHB_TF250-E and TF450-E_3850136-US",
+   "document_revision": "3850136-US",
+   "pdf_pages": 256,
+   "pdf_moddate": "Thu Nov 27 06:34:19 2025 EST",
+   "local_file": "dl/697b112531d8347c29c5ce2b/doc.pdf",
+   "retrieved": "2026-10-26 (shell curl, no sign-in; listing via the public handbooks API used by triumphtechnicalinformation.com/handbooks)",
+   "scope": "portal: TF250-E 2026 (ZG1), TF450-E 2026 (ZJ1)",
+   "blocked_facts_mapped": 32,
+   "blocked_fact_check": "every one of the blocked facts on this URL in docs/research/expansion/suspension-pass/claims.sql was found (value numbers) on its stated page of this download"
+  },
+  {
+   "url": "https://api.triumphtechnicalinformation.com/handbooks/documents/6ab239eb1685389dfa339f9a/pdf",
+   "sha256": "e1cf3fb2e9210c91e441e610e69d1705daf93c16867729745e8ae5a7f87b77cc",
+   "bytes": 11287372,
+   "title": "OHB_TF250-X and TF450-X_3850823-US",
+   "document_revision": "3850823-US",
+   "pdf_pages": 226,
+   "pdf_moddate": "Wed Jan 21 08:08:20 2026 EST",
+   "local_file": "dl/6ab239eb1685389dfa339f9a/doc.pdf",
+   "retrieved": "2026-10-26 (shell curl, no sign-in; listing via the public handbooks API used by triumphtechnicalinformation.com/handbooks)",
+   "scope": "portal: TF250-X 2027 (ZB3); not in the Garage roster (2027)",
+   "blocked_facts_mapped": 30,
+   "blocked_fact_check": "every one of the blocked facts on this URL in docs/research/expansion/suspension-pass/claims.sql was found (value numbers) on its stated page of this download"
+  },
+  {
+   "url": "https://api.triumphtechnicalinformation.com/handbooks/documents/6622cbf5ceb1ab226aad5abf/pdf",
+   "sha256": "35661edc744f31298d3c9b638ec19c18bb9d6643c72adb3e49c2e5f5f586e982",
+   "bytes": 73614,
+   "title": "TF250-X  Handbook Addendum_US",
+   "document_revision": "Owner's Handbook Addendum 01",
+   "pdf_pages": 1,
+   "pdf_moddate": "Fri Apr 19 12:16:10 2024 EDT",
+   "local_file": "dl/6622cbf5ceb1ab226aad5abf/doc.pdf",
+   "retrieved": "2026-10-26 (shell curl, no sign-in; listing via the public handbooks API used by triumphtechnicalinformation.com/handbooks)",
+   "scope": "portal: TF250-X 2023, 2024, 2025 (ZB1)",
+   "blocked_facts_mapped": 0,
+   "blocked_fact_check": null
+  }
+ ]
+}

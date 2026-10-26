@@ -1,0 +1,2203 @@
+{
+ "target": {
+  "manufacturer": "Triumph",
+  "model": "TF 450-C",
+  "model_year": 2026,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "OHB_TF250-C and TF450-C_3850699-US",
+  "source_url": "https://api.triumphtechnicalinformation.com/handbooks/documents/697b1c4ec47604be99a352a4/pdf",
+  "kind": "owners_handbook",
+  "document_revision": "3850699-US (model year from the Triumph technical information portal listing for this model; handbook prints no model year)",
+  "sha256": "793bf0e713f0597d77a66ba1239e858ff2a42ac06b75f765891a2619becd5c30"
+ },
+ "values": [
+  {
+   "joint": "Payload / Maximum payload (rider in full protective clothing)",
+   "value": "203 lb (92 kg)",
+   "unit": "kg",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Engine / Engine configuration",
+   "value": "1 Cylinder 4 Valve SOHC",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Engine / Displacement",
+   "value": "27.4 cu in (449.5 cc)",
+   "unit": "cc",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Engine / Bore x stroke",
+   "value": "3.74 x 2.5 in (95 x 63.4 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Engine / Compression ratio",
+   "value": "13.1:1",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Lubrication / Lubrication system",
+   "value": "Pressure lubrication, with two trochoidal pumps",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Lubrication / Oil capacity (dry fill)",
+   "value": "1.20 litre",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Lubrication / Oil capacity (wet fill including oil filter)",
+   "value": "1.15 litre",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Lubrication / Oil capacity (wet fill excluding oil filter)",
+   "value": "1.05 litre",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Cooling System / Coolant type",
+   "value": "Triumph D2053 OAT coolant (premixed)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Cooling System / Coolant ratio",
+   "value": "50/50 (premixed as supplied by Triumph)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Cooling System / Cooling system capacity",
+   "value": "0.25 gallons (0.95 litres)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Fuel System / Type",
+   "value": "Electronic fuel injection",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "223"
+  },
+  {
+   "joint": "Fuel System / Injector type",
+   "value": "Solenoid operated",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "223"
+  },
+  {
+   "joint": "Fuel System / Fuel pump type",
+   "value": "Submerged electric",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "223"
+  },
+  {
+   "joint": "Fuel System / Fuel pressure (nominal)",
+   "value": "50.8 lb/in² (3.5 bar)",
+   "unit": "psi",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "223"
+  },
+  {
+   "joint": "Fuel / Type",
+   "value": "95 RON unleaded",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "223"
+  },
+  {
+   "joint": "Fuel / Fuel tank capacity (motorcycle upright)",
+   "value": "2.11 gallons (8 liters)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "223"
+  },
+  {
+   "joint": "Ignition / Ignition system",
+   "value": "Digital electronic",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "223"
+  },
+  {
+   "joint": "Ignition / Electronic rev limiter",
+   "value": "11,400 rpm",
+   "unit": "rpm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "223"
+  },
+  {
+   "joint": "Ignition / Spark plug type",
+   "value": "NGK LMAR9AI-8",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "223"
+  },
+  {
+   "joint": "Ignition / Spark plug gap",
+   "value": "0.031 in +0/-0.004 (0.8 mm +0/-0.1)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "223"
+  },
+  {
+   "joint": "Transmission / Transmission type",
+   "value": "5 Speed, Constant Mesh",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "223"
+  },
+  {
+   "joint": "Transmission / Clutch type",
+   "value": "Wet multiplate",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "223"
+  },
+  {
+   "joint": "Transmission / Final drive chain",
+   "value": "DID 520DMA4K SDH, 114 link non-O-ring",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "223"
+  },
+  {
+   "joint": "Transmission / Primary drive ratio",
+   "value": "2.34:1 (75/32)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "223"
+  },
+  {
+   "joint": "Transmission / Final drive ratio",
+   "value": "3.69:1 (48/13)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "223"
+  },
+  {
+   "joint": "Transmission / Gear ratios - 1st gear",
+   "value": "2.14:1 (30/14)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "223"
+  },
+  {
+   "joint": "Transmission / Gear ratios - 2nd gear",
+   "value": "1.72:1 (31/18)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "223"
+  },
+  {
+   "joint": "Transmission / Gear ratios - 3rd gear",
+   "value": "1.45:1 (29/20)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "223"
+  },
+  {
+   "joint": "Transmission / Gear ratios - 4th gear",
+   "value": "1.23:1 (27/22)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "223"
+  },
+  {
+   "joint": "Transmission / Gear ratios - 5th gear",
+   "value": "1.04:1 (25/24)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "223"
+  },
+  {
+   "joint": "Tires / Front tire size",
+   "value": "80/100 x 21",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "224"
+  },
+  {
+   "joint": "Tires / Rear tire size",
+   "value": "120/90-18",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "224"
+  },
+  {
+   "joint": "Tires / Front tire pressure",
+   "value": "14 lb/in² (0.97 bar)",
+   "unit": "psi",
+   "property": "setting",
+   "conditions": [
+    "TF450-C",
+    "cold"
+   ],
+   "page": "224"
+  },
+  {
+   "joint": "Tires / Rear tire pressure",
+   "value": "14 lb/in² (0.97 bar)",
+   "unit": "psi",
+   "property": "setting",
+   "conditions": [
+    "TF450-C",
+    "cold"
+   ],
+   "page": "224"
+  },
+  {
+   "joint": "Electrical Equipment / Battery type",
+   "value": "HJTZ5S-FP",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "224"
+  },
+  {
+   "joint": "Electrical Equipment / Battery rating",
+   "value": "12V 2.0Ah",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "224"
+  },
+  {
+   "joint": "Electrical Equipment / Alternator rating",
+   "value": "5 Amp at 2,000 rpm. 6 Amp at 8,000 rpm",
+   "unit": "rpm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "224"
+  },
+  {
+   "joint": "Frame / Rake",
+   "value": "27.4°",
+   "unit": "deg",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "225"
+  },
+  {
+   "joint": "Frame / Trail",
+   "value": "0.06 in (116 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "225"
+  },
+  {
+   "joint": "Specifications / Torque Figures / Battery Terminals",
+   "value": "40 lbf in (4.5 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "225"
+  },
+  {
+   "joint": "Specifications / Torque Figures / Clutch Lever Nut",
+   "value": "53 lbf in (6 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "225"
+  },
+  {
+   "joint": "Specifications / Torque Figures / Oil Filter",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "225"
+  },
+  {
+   "joint": "Specifications / Torque Figures / Spark Plug",
+   "value": "11 lbf ft (15 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "225"
+  },
+  {
+   "joint": "Specifications / Torque Figures / Sump Plug",
+   "value": "15 lbf ft (20 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "225"
+  },
+  {
+   "joint": "Specifications / Torque Figures / Rear Wheel Spindle Nut",
+   "value": "89 lbf ft (120 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "225"
+  },
+  {
+   "joint": "Fluids and Lubricants / Bearings and pivots",
+   "value": "Triumph Performance RG2 grease (NLGI 2)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "225"
+  },
+  {
+   "joint": "Fluids and Lubricants / Brake fluid",
+   "value": "Triumph Performance DOT 4 brake and clutch fluid",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "225"
+  },
+  {
+   "joint": "Fluids and Lubricants / Coolant",
+   "value": "Triumph D2053 OAT coolant (premixed)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "225"
+  },
+  {
+   "joint": "Fluids and Lubricants / Drive chain",
+   "value": "Triumph Performance chain lubricant",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "225"
+  },
+  {
+   "joint": "Fluids and Lubricants / Engine oil",
+   "value": "Triumph Performance fully synthetic engine oil is recommended.",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "225"
+  },
+  {
+   "joint": "Torque / Oil filter cover fasteners",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "100"
+  },
+  {
+   "joint": "Torque / Oil drain plug",
+   "value": "15 lbf ft (20 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "100"
+  },
+  {
+   "joint": "Torque / Oil strainer plugs",
+   "value": "11 lbf ft (15 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Torque / Coolant drain fastener (water pump cover)",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "106"
+  },
+  {
+   "joint": "Torque / Spark plug",
+   "value": "11 lbf ft (15 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "121, 122"
+  },
+  {
+   "joint": "Torque / Muffler transition piece fasteners",
+   "value": "62 lbf in (7 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "124"
+  },
+  {
+   "joint": "Torque / Muffler end cap fasteners",
+   "value": "62 lbf in (7 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "125"
+  },
+  {
+   "joint": "Torque / Fuel tank center fastener",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "127"
+  },
+  {
+   "joint": "Torque / Side panel rear fastener",
+   "value": "27 lbf in (3 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "129"
+  },
+  {
+   "joint": "Torque / Side panel front fasteners",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "129"
+  },
+  {
+   "joint": "Torque / Side panel upper fastener",
+   "value": "27 lbf in (3 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "129"
+  },
+  {
+   "joint": "Torque / Drive chain adjuster lock nuts",
+   "value": "18 lbf ft (25 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "135"
+  },
+  {
+   "joint": "Torque / Rear wheel spindle",
+   "value": "89 lbf ft (120 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "177"
+  },
+  {
+   "joint": "Torque / Rear brake master cylinder reservoir cap",
+   "value": "13 lbf ft (17 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "144, 154"
+  },
+  {
+   "joint": "Torque / Rear brake disc fasteners",
+   "value": "9 lbf ft (12 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "159"
+  },
+  {
+   "joint": "Torque / Front fork air bleed screw",
+   "value": "11.5 lbf in (1.3 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "167"
+  },
+  {
+   "joint": "Torque / Drive chain upper slider to engine fastener",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "171"
+  },
+  {
+   "joint": "Torque / Drive chain lower slider fastener",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "171"
+  },
+  {
+   "joint": "Torque / Drive chain upper slider guard to frame fastener",
+   "value": "18 lbf ft (25 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "171"
+  },
+  {
+   "joint": "Torque / Front wheel spindle nut",
+   "value": "44 lbf ft (60 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "174"
+  },
+  {
+   "joint": "Torque / Front wheel spindle clamp bolts (outer)",
+   "value": "14 lbf ft (19 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "174"
+  },
+  {
+   "joint": "Torque / Front wheel spindle clamp bolts (inner)",
+   "value": "14 lbf ft (19 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "174"
+  },
+  {
+   "joint": "Torque / Front wheel spoke nipple",
+   "value": "53 lbf in (6 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "178"
+  },
+  {
+   "joint": "Torque / Rear wheel spoke nipple",
+   "value": "53 lbf in (6 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "178"
+  },
+  {
+   "joint": "Torque / Rim lock fastener",
+   "value": "9 lbf ft (12 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "182"
+  },
+  {
+   "joint": "Torque / Front fork protector fasteners",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "186"
+  },
+  {
+   "joint": "Torque / Front brake hose retaining clamp fasteners",
+   "value": "27 lbf in (3 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "186"
+  },
+  {
+   "joint": "Torque / Battery terminal fasteners",
+   "value": "40 lbf in (4.5 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "202"
+  },
+  {
+   "joint": "Torque / Battery strap flanged fasteners",
+   "value": "53 lbf in (6 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "202"
+  },
+  {
+   "joint": "Torque / Handlebar clamp fasteners",
+   "value": "18 lbf ft (25 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "74, 77"
+  },
+  {
+   "joint": "Torque / Handlebar riser bolt",
+   "value": "30 lbf ft (40 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "76"
+  },
+  {
+   "joint": "Torque / Brake pedal height adjuster lock nut",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "79"
+  },
+  {
+   "joint": "Torque / Rear brake master cylinder push rod lock nut",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "79"
+  },
+  {
+   "joint": "Torque / Gear shift pedal pinch bolt",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "82"
+  },
+  {
+   "joint": "Torque / Seat fasteners",
+   "value": "71 lbf in (8 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "39"
+  },
+  {
+   "joint": "Torque / Skid plate rear fasteners",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "192"
+  },
+  {
+   "joint": "Torque / Skid plate front fasteners",
+   "value": "53 lbf in (6 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "192"
+  },
+  {
+   "joint": "Controls / Throttle twist grip free play",
+   "value": "0.08 - 0.12 in (2 - 3 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "111"
+  },
+  {
+   "joint": "Fuel / Fill level below filler neck",
+   "value": "1.38 in (35 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "34"
+  },
+  {
+   "joint": "Quickshifter / Minimum engine speed for upshift",
+   "value": "2,500 rpm",
+   "unit": "rpm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "47"
+  },
+  {
+   "joint": "Cooling / Coolant level above radiator fins",
+   "value": "0.39 in (10 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "103"
+  },
+  {
+   "joint": "Final drive / Drive chain free movement (swinging arm to chain at force point)",
+   "value": "2.17 - 2.28 in (55 - 58 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "134"
+  },
+  {
+   "joint": "Final drive / Drive chain wear limit (length across 20 links)",
+   "value": "12.6 in (320 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "137"
+  },
+  {
+   "joint": "Brakes / Front brake pad minimum thickness (carrier plate and lining)",
+   "value": "0.15 in (3.70 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "146"
+  },
+  {
+   "joint": "Brakes / Rear brake pad minimum thickness (carrier plate and lining) / Inner pad",
+   "value": "0.18 in (4.50 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "148"
+  },
+  {
+   "joint": "Brakes / Rear brake pad minimum thickness (carrier plate and lining) / Outer pad",
+   "value": "0.25 in (6.40 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "148"
+  },
+  {
+   "joint": "Brakes / Brake pedal free play",
+   "value": "0.24 - 0.35 in (6 - 9 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "80"
+  },
+  {
+   "joint": "Brakes / Rear master cylinder push rod free play (minimum)",
+   "value": "0.04 in (1 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "80"
+  },
+  {
+   "joint": "Wheels / Front wheel rim axial run-out limit",
+   "value": "0.07 in (1.8 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "179"
+  },
+  {
+   "joint": "Wheels / Front wheel rim radial run-out limit",
+   "value": "0.07 in (1.8 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "179"
+  },
+  {
+   "joint": "Wheels / Rear wheel rim axial run-out limit",
+   "value": "0.07 in (1.8 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "179"
+  },
+  {
+   "joint": "Wheels / Rear wheel rim radial run-out limit",
+   "value": "0.07 in (1.8 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "179"
+  },
+  {
+   "joint": "Front fork / Oil volume / Fork damper assembly",
+   "value": "11.9 cu in (195 cc)",
+   "unit": "cc",
+   "property": "capacity",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Front fork / Oil volume / Fork outer tube",
+   "value": "19.2 cu in (315 cc)",
+   "unit": "cc",
+   "property": "capacity",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Front fork / Oil volume / Total",
+   "value": "31.1 cu in (510 cc)",
+   "unit": "cc",
+   "property": "capacity",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Front fork / Outer tube oil adjustment range",
+   "value": "17.7 - 22.3 cu in (290 - 365 cc)",
+   "unit": "cc",
+   "property": "setting",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Front fork / Oil volume adjustment step",
+   "value": "0.17 fl oz (5 cc)",
+   "unit": "cc",
+   "property": "setting",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Handlebar / Reach adjustment (forward offset from rear position)",
+   "value": "0.35 in (9 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "TF450-C",
+    "printed once for all models in this handbook"
+   ],
+   "page": "74"
+  },
+  {
+   "joint": "Rear shock / Spring rate (standard)",
+   "value": "56 N/mm",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "61"
+  },
+  {
+   "joint": "Rear shock / Spring options available",
+   "value": "5 springs, 52 N/mm to 60 N/mm",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "61"
+  },
+  {
+   "joint": "Rear shock / Spring color identification",
+   "value": "52 N/mm Yellow; 54 N/mm Pink; 56 N/mm White; 58 N/mm Gold; 60 N/mm Brown",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "61"
+  },
+  {
+   "joint": "Rear shock / Spring selection by rider weight",
+   "value": "65 - 75 kg (143 - 165 lbs): 52 N/mm; 75 - 85 kg (143 - 187 lbs, as printed): 56 N/mm; 85 - 95 kg (187 - 209 lbs): 60 N/mm",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C",
+    "guide table",
+    "printed once for TF250-C and TF450-C"
+   ],
+   "page": "61"
+  },
+  {
+   "joint": "Rear shock / Static sag",
+   "value": "1.42 in (36 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "TF450-C",
+    "rear wheel off the ground minus motorcycle standing unloaded, measured from rear wheel center to SAG mark on rear fender",
+    "printed once for TF250-C and TF450-C"
+   ],
+   "page": "62"
+  },
+  {
+   "joint": "Rear shock / Riding sag",
+   "value": "4.1 in (105 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "TF450-C",
+    "rider in full protective clothing seated, full fuel tank",
+    "printed once for TF250-C and TF450-C"
+   ],
+   "page": "64"
+  },
+  {
+   "joint": "Rear shock / Rebound damping",
+   "value": "12 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "TF450-C",
+    "factory standard setting",
+    "number of adjuster clicks counterclockwise from the fully clockwise position"
+   ],
+   "page": "65"
+  },
+  {
+   "joint": "Rear shock / Low speed compression damping",
+   "value": "12 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "TF450-C",
+    "factory standard setting",
+    "number of adjuster clicks counterclockwise from the fully clockwise position"
+   ],
+   "page": "65"
+  },
+  {
+   "joint": "Rear shock / High speed compression damping",
+   "value": "1 3/4 turns",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [
+    "TF450-C",
+    "factory standard setting",
+    "number of adjuster turns counterclockwise from the fully clockwise position"
+   ],
+   "page": "65"
+  },
+  {
+   "joint": "Front fork / Spring rate (standard)",
+   "value": "4.7 N/mm",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "69"
+  },
+  {
+   "joint": "Front fork / Spring options available (identification marks)",
+   "value": "4.5 N/mm (1-2); 4.6 N/mm (1-3); 4.7 N/mm (1-4); 4.8 N/mm (1-5); 4.9 N/mm (2-2)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C",
+    "spring preload not adjustable"
+   ],
+   "page": "69"
+  },
+  {
+   "joint": "Front fork / Compression damping",
+   "value": "11 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "TF450-C",
+    "factory standard setting",
+    "number of adjuster clicks counterclockwise from the fully clockwise position"
+   ],
+   "page": "70"
+  },
+  {
+   "joint": "Front fork / Rebound damping",
+   "value": "13 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "TF450-C",
+    "factory standard setting",
+    "number of adjuster clicks counterclockwise from the fully clockwise position"
+   ],
+   "page": "70"
+  },
+  {
+   "joint": "Suspension / Factory setting rider weight",
+   "value": "165 - 187 lb (75 - 85 kg)",
+   "unit": "kg",
+   "property": "specification",
+   "conditions": [
+    "TF450-C",
+    "rider wearing full protective clothing"
+   ],
+   "page": "60"
+  },
+  {
+   "joint": "Engine / Idle speed",
+   "value": "2100 - 2200 rpm",
+   "unit": "rpm",
+   "property": "setting",
+   "conditions": [
+    "TF450-C",
+    "engine warm, cold start lever not engaged"
+   ],
+   "page": "113"
+  },
+  {
+   "joint": "Brakes / Front disc thickness (standard)",
+   "value": "0.12 in (3.00 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "155"
+  },
+  {
+   "joint": "Brakes / Front disc thickness (service limit)",
+   "value": "0.11 in (2.70 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "155"
+  },
+  {
+   "joint": "Brakes / Front disc run-out (service limit)",
+   "value": "0.002 in (0.05 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "155"
+  },
+  {
+   "joint": "Brakes / Rear disc thickness (standard)",
+   "value": "0.157 in (4.0 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "156"
+  },
+  {
+   "joint": "Brakes / Rear disc thickness (service limit)",
+   "value": "0.14 in (3.6 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "156"
+  },
+  {
+   "joint": "Brakes / Rear disc run-out (service limit)",
+   "value": "0.002 in (0.05 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "156"
+  },
+  {
+   "joint": "Torque / Front brake disc fasteners",
+   "value": "9 lbf ft (12 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "158"
+  },
+  {
+   "joint": "Rider aids / Engine maps",
+   "value": "MAP 1: standard engine response and traction control; MAP 2: full power engine response and traction control",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "36"
+  },
+  {
+   "joint": "Rider aids / Engine map switch",
+   "value": "short press toggles MAP 1 / MAP 2 (switch lit when MAP 2 is selected); the switch also sets switch housing LED brightness",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "36"
+  },
+  {
+   "joint": "Rider aids / Traction control",
+   "value": "on/off with a short press of the TC switch (LED lit when on)",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "35"
+  },
+  {
+   "joint": "Rider aids / Launch control activation",
+   "value": "motorcycle stationary, engine at idle, neutral; press and hold LC switch until LED lights",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "35"
+  },
+  {
+   "joint": "Rider aids / Launch control deactivation",
+   "value": "automatically a few seconds after the start; or long press on LC switch; or throttle fully open",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "35"
+  },
+  {
+   "joint": "Rider aids / Quickshifter",
+   "value": "upshifts only, from 2nd gear, above 2,500 rpm; short press on/off, long press resets adaption; clutch required for 1st-2nd, downshifts, stopping and pulling away",
+   "unit": "rpm",
+   "property": "setting",
+   "conditions": [
+    "TF450-C"
+   ],
+   "page": "47"
+  },
+  {
+   "joint": "Break-in / Throttle limit",
+   "value": "first 20 minutes: 50% or less throttle opening; next 40 minutes (20 - 60 min): 75% or less",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "check fasteners, oil level and leaks after each stage"
+   ],
+   "page": "42"
+  },
+  {
+   "joint": "Service schedule / Lubrication / Engine oil - replace",
+   "value": "after the first operating hour; every 2.5 hours of race riding conditions; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Lubrication / Engine oil filter - replace",
+   "value": "after the first operating hour; every 2.5 hours of race riding conditions; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Lubrication / Engine oil filter screens - clean",
+   "value": "after the first operating hour; every 2.5 hours of race riding conditions; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Fuel System and Engine Management / Fuel system - check for leaks",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Fuel System and Engine Management / Fuel system - check the fuel pressure",
+   "value": "after the first operating hour; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Fuel System and Engine Management / Fuel system - check the idle speed",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Fuel System and Engine Management / Throttle cables - check function, routing and adjust as necessary",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Fuel System and Engine Management / Air filter - clean the air filter element and housing",
+   "value": "every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Fuel System and Engine Management / Fuel system - replace the fuel filter and fuel pre-filter",
+   "value": "every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Fuel System and Engine Management / Spark plug and spark plug cap - replace",
+   "value": "every 45 operating hours; every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Fuel System and Engine Management / Exhaust muffler - replace wadding",
+   "value": "every 45 operating hours; every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Fuel System and Engine Management / Fuel system - replace the fuel screen",
+   "value": "every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Cooling System / Cooling system - check for leaks",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Cooling System / Cooling system - check coolant hoses for chafing, cracks or damage. Replace if necessary",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Cooling System / Coolant level - check/adjust",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Cooling System / Coolant - replace",
+   "value": "every 24 months; marked * (subject to an additional labour charge above the basic service, as the handbook notes)",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Engine / Valve clearances - check/adjust",
+   "value": "after the first operating hour; every 45 operating hours; every 90 operating hours; marked * (subject to an additional labour charge above the basic service, as the handbook notes)",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Engine / Clutch friction plates - check and if necessary replace",
+   "value": "every 2.5 hours of race riding conditions",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Engine / Clutch - steel plates - check for damage and wear",
+   "value": "every 2.5 hours of race riding conditions",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Engine / Clutch - inner and outer drum - check for damage and wear",
+   "value": "every 2.5 hours of race riding conditions",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Engine / Clutch - check operation",
+   "value": "every 2.5 hours of race riding conditions; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Engine / Clutch fluid level - check",
+   "value": "every 2.5 hours of race riding conditions; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Engine / Primary Gear Nut - Replace",
+   "value": "every 45 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Engine / Engine - minor service (refer to service manual)",
+   "value": "every 45 operating hours; every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Engine / Engine - major service (refer to service manual)",
+   "value": "every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Engine / Clutch fluid - replace",
+   "value": "every 24 months; marked * (subject to an additional labour charge above the basic service, as the handbook notes)",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "92"
+  },
+  {
+   "joint": "Service schedule / Wheels and Tires / Tire wear/tire damage - check",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Wheels and Tires / Tire pressures - check/adjust",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Wheels and Tires / Wheels - check wheel rim run out",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Wheels and Tires / Wheels - check for broken or damaged spokes and check spoke tightness",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Wheels and Tires / Wheel bearings and seals - check for wear/smooth operation",
+   "value": "every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Wheels and Tires / Wheels - check hubs and rims for damage",
+   "value": "every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Steering and Suspension / Steering - check for free operation",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Steering and Suspension / Steering head bearings - check/adjust",
+   "value": "after the first operating hour; every 2.5 hours of race riding conditions; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Steering and Suspension / Front forks - check for leaks and wear",
+   "value": "every 15 operating hours; every 30 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Steering and Suspension / Swinging arm - check for damage and cracking",
+   "value": "every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Steering and Suspension / Swinging arm - check for bearing free play",
+   "value": "every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Steering and Suspension / Rear suspension linkage - check for wear",
+   "value": "every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Steering and Suspension / Rear suspension unit - check for leaks and wear",
+   "value": "every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Steering and Suspension / Handle bar grips - replace",
+   "value": "every 30 operating hours; every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Steering and Suspension / Front forks - service",
+   "value": "every 45 operating hours; every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Steering and Suspension / Rear suspension unit - service",
+   "value": "every 45 operating hours; every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Steering and Suspension / Steering head bearings - lubricate",
+   "value": "every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Steering and Suspension / Upper yoke center clamp fastener- replace",
+   "value": "every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Brakes / Brake fluid levels - check",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Brakes / Brake pads and discs - check wear levels",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months; marked * (subject to an additional labour charge above the basic service, as the handbook notes)",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Brakes / Brake system - check lines and hoses for damage and leaks. Check brake union tightness",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Brakes / Front brake lever - check travel",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Brakes / Rear brake pedal - check travel",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Brakes / Brake system - check operation",
+   "value": "every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Brakes / Brake fluid - replace",
+   "value": "every 90 operating hours; every 24 months; marked * (subject to an additional labour charge above the basic service, as the handbook notes)",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "93"
+  },
+  {
+   "joint": "Service schedule / Final Drive / Drive chain slack - check/adjust",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "94"
+  },
+  {
+   "joint": "Service schedule / Final Drive / Drive chain - lubricate",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "94"
+  },
+  {
+   "joint": "Service schedule / Final Drive / Drive chain and sprockets - check for wear",
+   "value": "every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; marked * (subject to an additional labour charge above the basic service, as the handbook notes)",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "94"
+  },
+  {
+   "joint": "Service schedule / Final Drive / Drive chain rubbing strips - check",
+   "value": "every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; marked * (subject to an additional labour charge above the basic service, as the handbook notes)",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "94"
+  },
+  {
+   "joint": "Service schedule / Electrical / Electrical system - check operation",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "94"
+  },
+  {
+   "joint": "Service schedule / Electrical / 12 Volt battery - check and charge",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "94"
+  },
+  {
+   "joint": "Service schedule / General / Fasteners - check tightness (accessible fasteners only)",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "94"
+  },
+  {
+   "joint": "Service schedule / General / Engine ECM - check for latest calibration download using the Triumph diagnostic tool",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "94"
+  },
+  {
+   "joint": "Service schedule / General / Carry out test ride",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "94"
+  },
+  {
+   "joint": "Service schedule / General / Safety check - carry out a final check for operating safety",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "94"
+  },
+  {
+   "joint": "Service schedule / General / Complete the service record",
+   "value": "after the first operating hour; every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "94"
+  },
+  {
+   "joint": "Service schedule / General / Frame - check for damage and cracking",
+   "value": "every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "94"
+  },
+  {
+   "joint": "Service schedule / General / Side stand - check for wear/smooth operation",
+   "value": "every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "94"
+  },
+  {
+   "joint": "Service schedule / General / Carry out all outstanding Service Bulletin and warranty work",
+   "value": "every 15 operating hours; every 30 operating hours; every 45 operating hours; every 90 operating hours; every 24 months",
+   "unit": "",
+   "property": "service_interval",
+   "conditions": [
+    "TF450-C",
+    "Scheduled Maintenance Table, printed once for all models in this handbook"
+   ],
+   "page": "94"
+  }
+ ]
+}

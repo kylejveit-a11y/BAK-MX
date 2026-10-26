@@ -1,0 +1,90 @@
+{
+ "target": {
+  "manufacturer": "Triumph",
+  "model": "TF 250-X",
+  "model_year": 2025,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "TF250-X Handbook Addendum_US (Owner's Handbook Addendum 01)",
+  "source_url": "https://api.triumphtechnicalinformation.com/handbooks/documents/6622cbf5ceb1ab226aad5abf/pdf",
+  "kind": "owners_handbook_addendum",
+  "document_revision": "Addendum 01 (US) (model year from the Triumph technical information portal listing for this model; handbook prints no model year)",
+  "sha256": "35661edc744f31298d3c9b638ec19c18bb9d6643c72adb3e49c2e5f5f586e982"
+ },
+ "values": [
+  {
+   "joint": "Specifications / Torque Figures / Rear Wheel Spindle Nut",
+   "value": "89 lbf ft (120 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF250-X",
+    "revised from 59 lbf ft (80 Nm)",
+    "applies to the VIN range BS4847 to CC7868 (model code ZB1)"
+   ],
+   "page": "1"
+  },
+  {
+   "joint": "Tires / Front tire pressure (Addendum 01 revision)",
+   "value": "14 PSI",
+   "unit": "psi",
+   "property": "setting",
+   "conditions": [
+    "TF250-X",
+    "cold",
+    "revised from 15 PSI",
+    "applies to the VIN range BS4847 to CC7868 (model code ZB1)"
+   ],
+   "page": "1"
+  },
+  {
+   "joint": "Tires / Rear tire pressure (Addendum 01 revision)",
+   "value": "14 PSI",
+   "unit": "psi",
+   "property": "setting",
+   "conditions": [
+    "TF250-X",
+    "cold",
+    "revised from 15 PSI",
+    "applies to the VIN range BS4847 to CC7868 (model code ZB1)"
+   ],
+   "page": "1"
+  },
+  {
+   "joint": "Torque / Front fork air bleed screw",
+   "value": "11.5 lbf in (1.3 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF250-X",
+    "applies to the VIN range BS4847 to CC7868 (model code ZB1)"
+   ],
+   "page": "1"
+  },
+  {
+   "joint": "Noise / Average noise level",
+   "value": "96 dB(A)",
+   "unit": "dB(A)",
+   "property": "specification",
+   "conditions": [
+    "TF250-X",
+    "as measured to the standard named in the addendum",
+    "applies to the VIN range BS4847 to CC7868 (model code ZB1)"
+   ],
+   "page": "1"
+  },
+  {
+   "joint": "Vibration / Vibration level on smooth paved surface",
+   "value": "below 8.2 ft/s² (2.5 m/s²)",
+   "unit": "m/s²",
+   "property": "specification",
+   "conditions": [
+    "TF250-X",
+    "applies to the VIN range BS4847 to CC7868 (model code ZB1)"
+   ],
+   "page": "1"
+  }
+ ]
+}
