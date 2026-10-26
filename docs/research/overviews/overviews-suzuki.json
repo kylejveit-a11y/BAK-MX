@@ -1,0 +1,1179 @@
+{
+ "bikes": [
+  {
+   "make": "Suzuki",
+   "model": "RM-Z250",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "generation": "2019-2026 platform (data covers 2020-2026)",
+   "summary": "Testers across every outlet agree the RM-Z250 is sprung far too stiff for typical 250 riders, the fork above all, and that softer springs or a revalve transform it. The engine pulls well low but flattens through the mid and top, it is the least powerful 250 on magazine dynos, and it has placed last in recent shootouts. With the suspension sorted it is rated among the best-cornering 250Fs, and its easy power suits novices and intermediates. The frame feels stiff on chop, the clutch slips when worked hard, and testers run the aggressive white coupler.",
+   "points": [
+    {
+     "aspect": "suspension",
+     "verdict": "weakness",
+     "statement": "Stock fork and shock springs are far too stiff for most riders; the fork deflects and rides harsh on small and dry chop, and some testers found it nearly unrideable.",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "support": 6,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Dirt Bike Magazine",
+      "Motocross Action",
+      "Cycle News",
+      "Swapmoto Live",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-15-2020-suzuki-rm-z250-test/",
+      "https://www.keeferinctesting.com/2020-6-22-2020-suzuki-rm-z250-blue-collar-project-part-two/",
+      "https://www.keeferinctesting.com/2024-250-mx-baseline-suspension-settings/",
+      "https://dirtbikemagazine.com/2020-250-mx-shootout-full-test/",
+      "https://dirtbikemagazine.com/2023-250-mx-shootout/",
+      "https://dirtbikemagazine.com/ressurecting-the-suzuki-rmz-250-the-wrap/",
+      "https://motocrossactionmag.com/mxa-2020-suzuki-rm-z250",
+      "https://motocrossactionmag.com/mxa-race-test-2024-suzuki-rm-z250",
+      "https://motocrossactionmag.com/mxa-race-test-2025-suzuki-rm-z250",
+      "https://www.cyclenews.com/2022/04/article/2022-suzuki-rm-z250-and-rm-z450-review/",
+      "https://swapmotolive.com/track-tested-2020-sml-250-mx-shootout/shootout/",
+      "https://swapmotolive.com/2026-250-mx-bike-shootout-in-depth/2026-mx/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/"
+     ]
+    },
+    {
+     "aspect": "engine_mid",
+     "verdict": "weakness",
+     "statement": "Good snap off the bottom, but power flattens through the midrange and signs off on top, so it must be short-shifted and recovers poorly after a short shift.",
+     "years": [
+      2020,
+      2021,
+      2023,
+      2024
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Dirt Bike Test",
+      "Motocross Action",
+      "Dirt Bike Magazine"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-15-2020-suzuki-rm-z250-test/",
+      "https://www.keeferinctesting.com/2020-8-9-2020-suzuki-rm-z-250-blue-collar-project/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/",
+      "https://motocrossactionmag.com/mxa-tech-spec-10-things-you-need-to-know-about-the-2023-suzuki-rm-z250",
+      "https://dirtbikemagazine.com/2021-250-mx-shootout/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "statement": "Lowest peak power in the class on magazine dynos, roughly 4-5 hp behind the leading 250s, and more than a stock rival even after expensive engine work.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike Magazine",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2021-250-mx-shootout/",
+      "https://dirtbikemagazine.com/2023-250-mx-shootout/",
+      "https://dirtbikemagazine.com/2023-250-mx-bikes-on-the-dyno-the-wrap/",
+      "https://dirtbikemagazine.com/250-motocross-bikes-on-the-dyno-the-wrap/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-suzuki-rm-z250",
+      "https://motocrossactionmag.com/mxa-tech-spec-10-things-you-need-to-know-about-the-2023-suzuki-rm-z250",
+      "https://motocrossactionmag.com/mxas-2023-250-four-stroke-shootout-the-final-word-on-the-2023-crop"
+     ]
+    },
+    {
+     "aspect": "other",
+     "verdict": "weakness",
+     "statement": "Finishes last in recent multi-bike 250 shootouts.",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Motocross Action",
+      "Cycle News",
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxas-2023-250-four-stroke-shootout-the-final-word-on-the-2023-crop",
+      "https://motocrossactionmag.com/2024-mxa-250-four-stroke-shootout-suzuki-honda-kawasaki-yamaha-gasgas-husqvarna-ktm",
+      "https://motocrossactionmag.com/2025-motocross-action-250-shootout-suzuki-triumph-kawasaki-honda-yamaha-gasgas-husqvarna-ktm",
+      "https://www.cyclenews.com/2024/12/article/2025-250cc-4-stroke-motocross-shootout/",
+      "https://www.keeferinctesting.com/27522-2/"
+     ]
+    },
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "statement": "Once the suspension is softened it is rated the best- or among the best-cornering 250Fs, rewarding riders who steer with the front.",
+     "years": [
+      2020
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-15-2020-suzuki-rm-z250-test/",
+      "https://motocrossactionmag.com/mxa-2020-suzuki-rm-z250"
+     ]
+    },
+    {
+     "aspect": "engine_low",
+     "verdict": "strength",
+     "statement": "Torquey, easy power and a light, nimble feel suit novice to intermediate riders, though it gives away too much on top for advanced classes.",
+     "years": [
+      2021
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike Magazine",
+      "Racer X"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2021-250-mx-shootout/",
+      "https://racerxonline.com/2021/05/12/racer-x-films-2021-suzuki-rm-z250-bike-intro"
+     ]
+    },
+    {
+     "aspect": "chassis",
+     "verdict": "weakness",
+     "statement": "Aluminum frame feels stiff over chop and slap-downs.",
+     "years": [
+      2020,
+      2022,
+      2025
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action",
+      "Dirt Bike Magazine"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-8-9-2020-suzuki-rm-z-250-blue-collar-project/",
+      "https://motocrossactionmag.com/mxa-race-test-2025-suzuki-rm-z250",
+      "https://dirtbikemagazine.com/ressurecting-the-suzuki-rmz-250-the-wrap/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "statement": "Clutch slips under heavy load or after hard riding, and plates wear quickly.",
+     "years": [
+      2020,
+      2021,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-6-22-2020-suzuki-rm-z250-blue-collar-project-part-two/",
+      "https://motocrossactionmag.com/mxa-2020-suzuki-rm-z250",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z250",
+      "https://motocrossactionmag.com/mxa-tech-spec-10-things-you-need-to-know-about-the-2023-suzuki-rm-z250",
+      "https://motocrossactionmag.com/mxa-race-test-2024-suzuki-rm-z250"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "statement": "Of the plug-in couplers, white is the most aggressive and freest-revving and is the testers' usual pick; the mellow coupler suits newer riders.",
+     "years": [
+      2020,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action",
+      "Cycle News"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-15-2020-suzuki-rm-z250-test/",
+      "https://www.keeferinctesting.com/2022-mx-gearing-guide-updated/",
+      "https://www.keeferinctesting.com/2026-250-450-mx-gearing-guide/",
+      "https://motocrossactionmag.com/mxa-2020-suzuki-rm-z250",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-suzuki-rm-z250",
+      "https://motocrossactionmag.com/mxa-race-test-2024-suzuki-rm-z250",
+      "https://www.cyclenews.com/2022/10/article/2023-suzuki-rm-z250-rm-z450-review/"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "strength",
+     "statement": "On the RM Army edition, the Pro Circuit map with the Pro Circuit exhaust is clearly better than stock.",
+     "years": [
+      2024,
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2024-suzuki-rm-z250",
+      "https://motocrossactionmag.com/mxa-race-test-2025-suzuki-rm-z250",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "strength",
+     "statement": "No significant failures reported on hard-raced test bikes.",
+     "years": [
+      2020,
+      2021
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-8-9-2020-suzuki-rm-z-250-blue-collar-project/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z250"
+     ]
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "statement": "Rear sits high and stiff at stock sag, costing rear traction.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-15-2020-suzuki-rm-z250-test/"
+     ]
+    },
+    {
+     "aspect": "transmission",
+     "verdict": "weakness",
+     "statement": "Shifts are notchy under load and it vibrates more than other 250s.",
+     "years": [
+      2020
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-2020-suzuki-rm-z250"
+     ]
+    },
+    {
+     "aspect": "gearing",
+     "verdict": "neutral",
+     "statement": "Stock 13/50 gearing is kept unchanged by a tester year after year.",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2022-mx-gearing-guide-updated/",
+      "https://www.keeferinctesting.com/2023-mx-gearing-spec-guide/",
+      "https://www.keeferinctesting.com/2024-mx-gearing-guide/",
+      "https://www.keeferinctesting.com/2025-mx-gearing-guide/",
+      "https://www.keeferinctesting.com/2026-250-450-mx-gearing-guide/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Fork and shock too stiff, harsh on chop",
+     "fix": "Drop one or two spring rates (about 4.7-4.9 N/mm fork, 50 N/mm shock), set sag around 105-108 mm and back fork compression out 3-5 clicks",
+     "result": "More compliance and traction, calmer chassis, better turning and stability",
+     "support": 6,
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action",
+      "Swapmoto Live",
+      "Dirt Bike Magazine",
+      "Dirt Bike Test",
+      "Ultimate Motorcycling"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-15-2020-suzuki-rm-z250-test/",
+      "https://www.keeferinctesting.com/2024-250-mx-baseline-suspension-settings/",
+      "https://motocrossactionmag.com/mxa-2020-suzuki-rm-z250",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2022-suzuki-rm-z250",
+      "https://motocrossactionmag.com/mxa-tech-spec-10-things-you-need-to-know-about-the-2023-suzuki-rm-z250",
+      "https://swapmotolive.com/track-tested-2020-sml-250-mx-shootout/shootout/",
+      "https://swapmotolive.com/2026-250-mx-bike-shootout-in-depth/2026-mx/",
+      "https://dirtbikemagazine.com/2023-250-mx-shootout/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/",
+      "https://ultimatemotorcycling.com/2023/09/30/2024-suzuki-rm-z250-first-ride-review-pro-circuit-equipped/"
+     ]
+    },
+    {
+     "problem": "Stiff suspension even after clicker changes",
+     "fix": "Revalve with lighter springs",
+     "result": "Comfort without losing bottoming resistance; called a big gain",
+     "support": 4,
+     "outlets": [
+      "Keefer Inc Testing",
+      "Dirt Bike Magazine",
+      "Dirt Bike Test",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-6-22-2020-suzuki-rm-z250-blue-collar-project-part-two/",
+      "https://dirtbikemagazine.com/2020-250-mx-shootout-full-test/",
+      "https://dirtbikemagazine.com/ressurecting-the-suzuki-rmz-250-the-wrap/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/",
+      "https://motocrossactionmag.com/mxa-race-test-2025-suzuki-rm-z250"
+     ]
+    },
+    {
+     "problem": "Stiff fork when keeping stock springs",
+     "fix": "Compression fully out and fork oil level lowered (20-30 cc / about 30 mm per leg)",
+     "result": "Usable stopgap; revalve and respring still preferred",
+     "support": 1,
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-2020-suzuki-rm-z250",
+      "https://motocrossactionmag.com/mxa-race-test-2024-suzuki-rm-z250",
+      "https://motocrossactionmag.com/mxa-race-test-2025-suzuki-rm-z250"
+     ]
+    },
+    {
+     "problem": "Stiff frame on chop",
+     "fix": "More compliant engine mounts (drilled stock mounts or aftermarket)",
+     "result": "Softer over chop and slap-downs, more front bite",
+     "support": 3,
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action",
+      "Dirt Bike Magazine"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-8-9-2020-suzuki-rm-z-250-blue-collar-project/",
+      "https://motocrossactionmag.com/mxa-race-test-2025-suzuki-rm-z250",
+      "https://dirtbikemagazine.com/ressurecting-the-suzuki-rmz-250-the-wrap/"
+     ]
+    },
+    {
+     "problem": "Flat midrange and weak top",
+     "fix": "Aftermarket exhaust with matching map, or head port, valve job and ECU tuning",
+     "result": "Better character; about 10% more mid-top on the dyno with engine work",
+     "support": 3,
+     "outlets": [
+      "Dirt Bike Test",
+      "Motocross Action",
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/",
+      "https://motocrossactionmag.com/mxa-race-test-2024-suzuki-rm-z250",
+      "https://www.keeferinctesting.com/2020-8-9-2020-suzuki-rm-z-250-blue-collar-project/"
+     ]
+    },
+    {
+     "problem": "Clutch slip",
+     "fix": "Stiffer clutch springs or an aftermarket clutch pack",
+     "result": "Hooks up under load, lighter pull with the clutch pack",
+     "support": 2,
+     "outlets": [
+      "Motocross Action",
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z250",
+      "https://motocrossactionmag.com/mxa-tech-spec-10-things-you-need-to-know-about-the-2023-suzuki-rm-z250",
+      "https://www.keeferinctesting.com/2020-6-22-2020-suzuki-rm-z250-blue-collar-project-part-two/"
+     ]
+    },
+    {
+     "problem": "Feels air-starved when ridden hard",
+     "fix": "Trim the side-panel snorkels and open the airbox edges",
+     "result": "Better response and pull everywhere; louder and the filter dirties faster",
+     "support": 1,
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-6-3-2020-suzuki-rm-z250-tipstricks-part-1/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Bottom-end strength",
+     "sides": [
+      "Strong snap off idle and good low-mid pull",
+      "Low-end torque unremarkable, slow throttle response and down on acceleration",
+      "Revs hard mid-top but lacks low end, needs frequent shifting"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-15-2020-suzuki-rm-z250-test/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/",
+      "https://dirtbikemagazine.com/2020-250-mx-shootout-full-test/",
+      "https://www.cyclenews.com/2022/10/article/2023-suzuki-rm-z250-rm-z450-review/"
+     ]
+    },
+    {
+     "topic": "Front brake",
+     "sides": [
+      "Controllable with no fade over a long hilly moto",
+      "Front brake weak and fades"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-15-2020-suzuki-rm-z250-test/",
+      "https://motocrossactionmag.com/mxa-race-test-2024-suzuki-rm-z250"
+     ]
+    },
+    {
+     "topic": "Rear end at stock settings",
+     "sides": [
+      "Rear rides high and stiff",
+      "Rear feels loose while the front is stiff"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-15-2020-suzuki-rm-z250-test/",
+      "https://dirtbikemagazine.com/ressurecting-the-suzuki-rmz-250-the-wrap/"
+     ]
+    }
+   ]
+  },
+  {
+   "make": "Suzuki",
+   "model": "RM-Z450",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "generation": "2018-2026 platform (data covers 2020-2026)",
+   "summary": "Testers consistently praise the RM-Z450's cornering and its smooth, easy powerband, but say it revs out early, is low on peak power and is the heaviest 450, with no electric start or hydraulic clutch. The air-free BFRC shock is the most repeated complaint: hard to tune, harsh over bumps and short on rebound control, so the rear rides high and the bike sits nose-down. The coil fork is usually judged harsh early in the stroke. Common fixes are a longer shock link with more sag, raising the fork in the clamps, a revalve or RM-Z250 shock, and a 13/51 sprocket.",
+   "points": [
+    {
+     "aspect": "turning",
+     "verdict": "strength",
+     "statement": "Sharp turn-in, leans into corners easily, holds ruts and tracks well through every phase of a turn.",
+     "years": [
+      2020,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "support": 5,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action",
+      "Dirt Bike Test",
+      "Dirt Bike Magazine",
+      "Swapmoto Live"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-25-2020-450-mx-bracket-shootout-fourth-fifth-sixth/",
+      "https://www.keeferinctesting.com/living-with-the-2025-suzuki-rm-z450-part-two/",
+      "https://motocrossactionmag.com/mxa-race-test-2023-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/",
+      "https://dirtbikemagazine.com/2024-suzuki-rmz450-rm-army-edition-full-test/",
+      "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+      "https://swapmotolive.com/2026-450-mx-shootout-in-depth/shootout/2026-mx-shootout/"
+     ]
+    },
+    {
+     "aspect": "suspension_rear",
+     "verdict": "weakness",
+     "statement": "The air-free BFRC shock is hard to tune (adjusters work in turns), gets harsh over repeated bumps and off-cambers, and lacks rebound control so the rear rises or kicks off the throttle.",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "support": 5,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action",
+      "Dirt Bike Magazine",
+      "Swapmoto Live",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-3-31-ride-engineering-2018-2020-suzuki-rm-z-450-performance-link/",
+      "https://www.keeferinctesting.com/2021-6-28-top-5-mods-to-the-2021-suzuki-rm-z450/",
+      "https://www.keeferinctesting.com/2024-450-mx-suspension-baseline-settings/",
+      "https://www.keeferinctesting.com/living-with-the-2025-suzuki-rm-z450-part-two/",
+      "https://motocrossactionmag.com/mxa-race-test-2022-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-2023-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-2025-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/",
+      "https://dirtbikemagazine.com/2022-450-mx-shootout/",
+      "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+      "https://swapmotolive.com/track-tested-2020-sml-450-mx-shootout/shootout/",
+      "https://swapmotolive.com/race-tech-transforms-our-2020-suzuki-rm-z450/features/",
+      "https://swapmotolive.com/2026-450-mx-shootout-in-depth/shootout/2026-mx-shootout/",
+      "https://dirtbiketest.com/fresh-dirt/2020-suzuki-rm-z450-impression-its-not-low-hanging-fruit/"
+     ]
+    },
+    {
+     "aspect": "balance",
+     "verdict": "weakness",
+     "statement": "Stock balance is off: the rear sits high and overpowers the front, giving a nose-down stance that makes the front knife on corner entry.",
+     "years": [
+      2020,
+      2021,
+      2024
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Swapmoto Live",
+      "Dirt Bike Magazine",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-3-31-ride-engineering-2018-2020-suzuki-rm-z-450-performance-link/",
+      "https://www.keeferinctesting.com/2021-6-28-top-5-mods-to-the-2021-suzuki-rm-z450/",
+      "https://swapmotolive.com/track-tested-2020-sml-450-mx-shootout/shootout/",
+      "https://dirtbikemagazine.com/2020-450-mx-shootout-full-test/",
+      "https://dirtbikemagazine.com/2024-suzuki-rmz450-rm-army-edition-full-test/",
+      "https://dirtbiketest.com/fresh-dirt/2020-suzuki-rm-z450-impression-its-not-low-hanging-fruit/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Coil fork is stiff early in the stroke for most riders and benefits from softening or a revalve.",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "support": 4,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike Test",
+      "Cycle News",
+      "Dirt Bike Magazine",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/",
+      "https://www.cyclenews.com/2021/05/article/2021-suzuki-rm-z450-review/",
+      "https://www.cyclenews.com/2022/04/article/2022-suzuki-rm-z250-and-rm-z450-review/",
+      "https://dirtbikemagazine.com/2023-450-mx-shootout-full-test/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/"
+     ]
+    },
+    {
+     "aspect": "suspension_front",
+     "verdict": "weakness",
+     "statement": "Fork can be soft late in the stroke for a 450, diving and bottoming under heavier or faster riders.",
+     "years": [
+      2020,
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Motocross Action",
+      "Swapmoto Live"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2023-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-suzuki-rm-z450",
+      "https://swapmotolive.com/big-and-tall-plus-sized-450-shootout-2/track-tested/"
+     ]
+    },
+    {
+     "aspect": "engine_mid",
+     "verdict": "strength",
+     "statement": "Power is smooth, linear and broad with a strong low-mid; testers say it suits beginners through pros.",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2025,
+      2026
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike Magazine",
+      "Motocross Action",
+      "Swapmoto Live"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2020-suzuki-rm-z450-full-test/",
+      "https://dirtbikemagazine.com/2021-450-motocross-shootout/",
+      "https://motocrossactionmag.com/mxa-race-test-2022-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/",
+      "https://swapmotolive.com/2026-450-mx-shootout-in-depth/shootout/2026-mx-shootout/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "statement": "Revs out early and fades past about 9,000 rpm, so it works best short-shifted.",
+     "years": [
+      2020,
+      2022,
+      2023,
+      2025
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action",
+      "Dirt Bike Magazine"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2019-10-25-2020-450-mx-bracket-shootout-fourth-fifth-sixth/",
+      "https://www.keeferinctesting.com/living-with-the-2025-suzuki-rm-z450-part-two/",
+      "https://motocrossactionmag.com/mxa-race-test-2022-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-2025-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/",
+      "https://dirtbikemagazine.com/2023-450-mx-shootout-full-test/"
+     ]
+    },
+    {
+     "aspect": "engine_top",
+     "verdict": "weakness",
+     "statement": "Low peak power for the class on magazine dynos (lowest of its group in 2023, lower half of twelve in 2026) and less torque than most rivals.",
+     "years": [
+      2023,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike Magazine",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2023-450-mx-shootout-full-test/",
+      "https://dirtbikemagazine.com/2023-450-mx-bikes-on-the-dyno-the-wrap/",
+      "https://dirtbikemagazine.com/?p=101733",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-yamaha-yz450f"
+     ]
+    },
+    {
+     "aspect": "weight_feel",
+     "verdict": "weakness",
+     "statement": "Heaviest 450 on magazine scales, about 238-241 lb without fuel.",
+     "years": [
+      2020,
+      2022,
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike Magazine",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2020-suzuki-rm-z450-full-test/",
+      "https://dirtbikemagazine.com/ktm-450sx-f-full-test/",
+      "https://dirtbikemagazine.com/?p=101824",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/"
+     ]
+    },
+    {
+     "aspect": "features",
+     "verdict": "weakness",
+     "statement": "Kick start only and a cable clutch; the kick lever sits high for shorter riders.",
+     "years": [
+      2020,
+      2021,
+      2025,
+      2026
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Dirt Bike Magazine",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2020-suzuki-rm-z450-full-test/",
+      "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/"
+     ]
+    },
+    {
+     "aspect": "stability",
+     "verdict": "weakness",
+     "statement": "Rigid chassis gives head shake in successive chop and twitchiness at speed in the rough.",
+     "years": [
+      2020,
+      2021,
+      2023,
+      2025
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-7-6-ride-engineering-22mm-triple-clamp-and-one-piece-bar-mount-suzuki-rm-z450/",
+      "https://www.keeferinctesting.com/rm-z450-race-tech-re-valve/",
+      "https://motocrossactionmag.com/mxa-2020-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-2023-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/"
+     ]
+    },
+    {
+     "aspect": "clutch",
+     "verdict": "weakness",
+     "statement": "Stock clutch fades or heats when worked hard and has a narrow engagement.",
+     "years": [
+      2021,
+      2026
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action",
+      "Swapmoto Live"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2021-6-28-top-5-mods-to-the-2021-suzuki-rm-z450/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+      "https://swapmotolive.com/2026-450-mx-shootout-in-depth/shootout/2026-mx-shootout/"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "neutral",
+     "statement": "Testers prefer the aggressive (white) coupler or an aggressive tuner map for a livelier hit and more exit pull.",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2026
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Dirt Bike Magazine",
+      "Cycle News",
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://dirtbikemagazine.com/2020-suzuki-rm-z450-full-test/",
+      "https://www.cyclenews.com/2021/05/article/2021-suzuki-rm-z450-review/",
+      "https://www.keeferinctesting.com/2021-5-7-optional-2021-rm-z450-mx-tuner-20-aggressive-map/",
+      "https://www.keeferinctesting.com/2022-mx-gearing-guide-updated/",
+      "https://www.keeferinctesting.com/2026-250-450-mx-gearing-guide/"
+     ]
+    },
+    {
+     "aspect": "electronics",
+     "verdict": "weakness",
+     "statement": "The phone tuning app is clunkier than rivals' and needs an external battery to load maps.",
+     "years": [
+      2023,
+      2024
+     ],
+     "support": 2,
+     "strength": "consensus",
+     "outlets": [
+      "Cycle News",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2022/10/article/2023-suzuki-rm-z250-rm-z450-review/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-suzuki-rm-z450"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "strength",
+     "statement": "Long-term bikes ran a year or 30+ hours with only routine maintenance.",
+     "years": [
+      2020,
+      2021,
+      2025
+     ],
+     "support": 3,
+     "strength": "strong consensus",
+     "outlets": [
+      "Keefer Inc Testing",
+      "Dirt Bike Test",
+      "Racer X"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/living-with-the-2025-suzuki-rm-z450-part-two/",
+      "https://dirtbiketest.com/fresh-dirt/2020-suzuki-rm-z450-impression-its-not-low-hanging-fruit/",
+      "https://racerxonline.com/2021/05/18/racer-x-films-2021-suzuki-rm-z450-bike-intro"
+     ]
+    },
+    {
+     "aspect": "brakes",
+     "verdict": "weakness",
+     "statement": "Front brake is powerful but grabby.",
+     "years": [
+      2020,
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-2020-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/"
+     ]
+    },
+    {
+     "aspect": "mapping",
+     "verdict": "weakness",
+     "statement": "Cold-blooded and rich for the first lap.",
+     "years": [
+      2025
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/living-with-the-2025-suzuki-rm-z450-part-two/"
+     ]
+    },
+    {
+     "aspect": "reliability",
+     "verdict": "weakness",
+     "statement": "A lightly used loaner test bike arrived with a leaking shock seal.",
+     "years": [
+      2021
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/rm-z450-race-tech-re-valve/"
+     ]
+    },
+    {
+     "aspect": "tires",
+     "verdict": "weakness",
+     "statement": "Stock tires lost grip as the track dried.",
+     "years": [
+      2024
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/"
+     ]
+    },
+    {
+     "aspect": "chassis",
+     "verdict": "neutral",
+     "statement": "A fresh 2022 felt far more balanced and stable on stock clickers than a used 2021, pointing to wear or unit variation.",
+     "years": [
+      2021,
+      2022
+     ],
+     "support": 1,
+     "strength": "single source",
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2022-suzuki-rm-z450-re-boot/"
+     ]
+    }
+   ],
+   "common_fixes": [
+    {
+     "problem": "Shuffling between second and third, weak drive out of tight turns",
+     "fix": "One or two teeth larger rear sprocket (13/51 instead of 13/50)",
+     "result": "Reaches third sooner and drives harder out of turns",
+     "support": 3,
+     "outlets": [
+      "Motocross Action",
+      "Keefer Inc Testing",
+      "Dirt Bike Test"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/",
+      "https://www.keeferinctesting.com/2021-4-1-2021-250450-motocross-gearing-specs/",
+      "https://www.keeferinctesting.com/2022-mx-gearing-guide-updated/",
+      "https://www.keeferinctesting.com/2026-250-450-mx-gearing-guide/",
+      "https://www.keeferinctesting.com/living-with-the-2025-suzuki-rm-z450-part-two/",
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/"
+     ]
+    },
+    {
+     "problem": "Rear rides high, nose-down stance, front knifes on entry",
+     "fix": "Longer (about 1 mm) shock link, sag 105-110 mm, and fork raised 2-5 mm or flush in the clamps",
+     "result": "Calmer rear on deceleration, better balance and corner entry",
+     "support": 4,
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action",
+      "Swapmoto Live",
+      "Dirt Bike Magazine"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-3-31-ride-engineering-2018-2020-suzuki-rm-z-450-performance-link/",
+      "https://www.keeferinctesting.com/2021-6-28-top-5-mods-to-the-2021-suzuki-rm-z450/",
+      "https://motocrossactionmag.com/mxa-2020-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/",
+      "https://swapmotolive.com/track-tested-2020-sml-450-mx-shootout/shootout/",
+      "https://dirtbikemagazine.com/2024-suzuki-rmz450-rm-army-edition-full-test/"
+     ]
+    },
+    {
+     "problem": "Shock harsh with little rebound control",
+     "fix": "Shock revalve (with softer springs), or fit the RM-Z250 KYB shock",
+     "result": "Revalve removed the mid-corner lift; swap suggested by testers",
+     "support": 4,
+     "outlets": [
+      "Swapmoto Live",
+      "Dirt Bike Magazine",
+      "Motocross Action",
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://swapmotolive.com/race-tech-transforms-our-2020-suzuki-rm-z450/features/",
+      "https://swapmotolive.com/2026-450-mx-shootout-in-depth/shootout/2026-mx-shootout/",
+      "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/",
+      "https://www.keeferinctesting.com/rm-z450-race-tech-re-valve/"
+     ]
+    },
+    {
+     "problem": "Shock harsh at stock clickers",
+     "fix": "Shock compression about 1-1.25 turns out and rebound 1-1.5 turns out (from about 3)",
+     "result": "More comfort while keeping hold-up",
+     "support": 2,
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2024-450-mx-suspension-baseline-settings/",
+      "https://www.keeferinctesting.com/2025-450-mx-baseline-suspension-settings/",
+      "https://www.keeferinctesting.com/2026-450-mx-baseline-suspension-settings/",
+      "https://motocrossactionmag.com/mxa-2020-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-2022-suzuki-rm-z450"
+     ]
+    },
+    {
+     "problem": "Fork soft late in the stroke",
+     "fix": "About 10 cc more oil per leg and more fork compression (about 4 clicks stiffer)",
+     "result": "Firmer last part of the travel and better front-rear balance",
+     "support": 2,
+     "outlets": [
+      "Motocross Action",
+      "Dirt Bike Magazine"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-2020-suzuki-rm-z450",
+      "https://motocrossactionmag.com/mxa-race-test-2023-suzuki-rm-z450",
+      "https://dirtbikemagazine.com/2024-suzuki-rmz450-rm-army-edition-full-test/"
+     ]
+    },
+    {
+     "problem": "Head shake in chop",
+     "fix": "Softer-flexing triple clamps, lowering the rear and raising the front, or a revalve",
+     "result": "Settled corner entry and less head shake, not fully cured",
+     "support": 2,
+     "outlets": [
+      "Keefer Inc Testing",
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-7-6-ride-engineering-22mm-triple-clamp-and-one-piece-bar-mount-suzuki-rm-z450/",
+      "https://www.keeferinctesting.com/rm-z450-race-tech-re-valve/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/"
+     ]
+    },
+    {
+     "problem": "Lethargic or weak bottom-end pull",
+     "fix": "Aftermarket exhaust, higher-compression piston and aggressive map",
+     "result": "Cleaner, longer pull and more exit drive",
+     "support": 1,
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2020-6-24-2020-fmf-factory-rct-41-stainless-full-system-suzuki-rm-z450/",
+      "https://www.keeferinctesting.com/2021-6-28-top-5-mods-to-the-2021-suzuki-rm-z450/",
+      "https://www.keeferinctesting.com/2021-5-7-optional-2021-rm-z450-mx-tuner-20-aggressive-map/"
+     ]
+    },
+    {
+     "problem": "Clutch fade",
+     "fix": "Full aftermarket clutch kit",
+     "result": "Firmer engagement and longer plate life",
+     "support": 1,
+     "outlets": [
+      "Keefer Inc Testing"
+     ],
+     "urls": [
+      "https://www.keeferinctesting.com/2021-6-28-top-5-mods-to-the-2021-suzuki-rm-z450/"
+     ]
+    },
+    {
+     "problem": "Coolant loss in long motos",
+     "fix": "Higher-pressure radiator cap (1.8-2.0 kg/cm2)",
+     "result": "Stopped the loss",
+     "support": 1,
+     "outlets": [
+      "Motocross Action"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/"
+     ]
+    }
+   ],
+   "disagreements": [
+    {
+     "topic": "Stock shock",
+     "sides": [
+      "Works well out of the box",
+      "Harsh, hard to tune and short on rebound control"
+     ],
+     "urls": [
+      "https://www.cyclenews.com/2021/05/article/2021-suzuki-rm-z450-review/",
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/",
+      "https://swapmotolive.com/2026-450-mx-shootout-in-depth/shootout/2026-mx-shootout/",
+      "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/"
+     ]
+    },
+    {
+     "topic": "Fork stiffness",
+     "sides": [
+      "Stiff early in the stroke, soften compression",
+      "Soft late in the stroke or front softer than rear; add oil and compression",
+      "Front suspension rated excellent"
+     ],
+     "urls": [
+      "https://dirtbiketest.com/fresh-dirt/first-impression-2024-suzuki-rm-z450-rm-z250/",
+      "https://motocrossactionmag.com/mxa-race-test-2023-suzuki-rm-z450",
+      "https://dirtbikemagazine.com/2024-suzuki-rmz450-rm-army-edition-full-test/",
+      "https://dirtbikemagazine.com/2022-450-mx-shootout/"
+     ]
+    },
+    {
+     "topic": "Stability",
+     "sides": [
+      "Head shake and twitchiness at speed",
+      "Fairly stable; weight and fresh parts add stability"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-2023-suzuki-rm-z450",
+      "https://www.keeferinctesting.com/rm-z450-race-tech-re-valve/",
+      "https://dirtbikemagazine.com/2026-450-mx-shootout-february-2026-issue/",
+      "https://www.keeferinctesting.com/2022-suzuki-rm-z450-re-boot/",
+      "https://www.keeferinctesting.com/living-with-the-2025-suzuki-rm-z450-part-two/"
+     ]
+    },
+    {
+     "topic": "Bottom-end strength",
+     "sides": [
+      "Strong low end with best pull around 7,000-8,800 rpm",
+      "Lacks bottom pull and recovers slowly a gear high"
+     ],
+     "urls": [
+      "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2025-suzuki-rm-z450/",
+      "https://www.keeferinctesting.com/2021-6-28-top-5-mods-to-the-2021-suzuki-rm-z450/"
+     ]
+    }
+   ]
+  }
+ ]
+}
