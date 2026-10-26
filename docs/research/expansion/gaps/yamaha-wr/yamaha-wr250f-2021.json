@@ -1,0 +1,4927 @@
+{
+ "target": {
+  "manufacturer": "Yamaha",
+  "model": "WR250F",
+  "model_year": 2021,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "2021 Yamaha WR250F Owner's Service Manual (BAK-2819U-11, LIT-11626-34-56; Yamaha Motor Corporation, U.S.A.)",
+  "source_url": "https://library.ymcapps.net/library/om/contents/pdf/10/BAK-2819U-11_02.pdf",
+  "kind": "owners_service_manual",
+  "document_revision": "BAK-2819U-11 / LIT-11626-34-56; First edition July 2020; model code WR250FM",
+  "sha256": "86aea6461600e0a35acae3fde997d4426c422c8bb74dd36a6c146562c109c115"
+ },
+ "values": [
+  {
+   "joint": "Specifications / General / Model / Model",
+   "value": "BAK7",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.54 (printed 2-1)"
+  },
+  {
+   "joint": "Specifications / General / Dimensions / Overall length",
+   "value": "2175 mm (85.6 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.54 (printed 2-1)"
+  },
+  {
+   "joint": "Specifications / General / Dimensions / Overall width",
+   "value": "825 mm (32.5 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.54 (printed 2-1)"
+  },
+  {
+   "joint": "Specifications / General / Dimensions / Overall height",
+   "value": "1270 mm (50.0 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.54 (printed 2-1)"
+  },
+  {
+   "joint": "Specifications / General / Dimensions / Seat height",
+   "value": "955 mm (37.6 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.54 (printed 2-1)"
+  },
+  {
+   "joint": "Specifications / General / Dimensions / Wheelbase",
+   "value": "1480 mm (58.3 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.54 (printed 2-1)"
+  },
+  {
+   "joint": "Specifications / General / Dimensions / Ground clearance",
+   "value": "320 mm (12.60 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.54 (printed 2-1)"
+  },
+  {
+   "joint": "Specifications / General / Weight / Curb weight",
+   "value": "115 kg (254 lb)",
+   "unit": "kg",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.54 (printed 2-1)"
+  },
+  {
+   "joint": "Specifications / General / Weight / Riding capacity",
+   "value": "1 person",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.54 (printed 2-1)"
+  },
+  {
+   "joint": "Specifications / General / Shift up points / 1st → 2nd",
+   "value": "20 km/h (12 mph)",
+   "unit": "km/h",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.54 (printed 2-1)"
+  },
+  {
+   "joint": "Specifications / General / Shift up points / 2nd → 3rd",
+   "value": "30 km/h (19 mph)",
+   "unit": "km/h",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.54 (printed 2-1)"
+  },
+  {
+   "joint": "Specifications / General / Shift up points / 3rd → 4th",
+   "value": "40 km/h (25 mph)",
+   "unit": "km/h",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.54 (printed 2-1)"
+  },
+  {
+   "joint": "Specifications / General / Shift up points / 4th → 5th",
+   "value": "50 km/h (31 mph)",
+   "unit": "km/h",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.54 (printed 2-1)"
+  },
+  {
+   "joint": "Specifications / General / Shift up points / 5th → 6th",
+   "value": "60 km/h (37 mph)",
+   "unit": "km/h",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.54 (printed 2-1)"
+  },
+  {
+   "joint": "Specifications / General / Shift down points / 6th → 5th",
+   "value": "45 km/h (28 mph)",
+   "unit": "km/h",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.54 (printed 2-1)"
+  },
+  {
+   "joint": "Specifications / General / Shift down points / 5th → 4th",
+   "value": "35 km/h (22 mph)",
+   "unit": "km/h",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.54 (printed 2-1)"
+  },
+  {
+   "joint": "Specifications / General / Shift down points / 4th → 3rd",
+   "value": "25 km/h (16 mph)",
+   "unit": "km/h",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.54 (printed 2-1)"
+  },
+  {
+   "joint": "Specifications / General / Shift down points / 3rd → 2nd",
+   "value": "25 km/h (16 mph)",
+   "unit": "km/h",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.54 (printed 2-1)"
+  },
+  {
+   "joint": "Specifications / General / Shift down points / 2nd → 1st",
+   "value": "25 km/h (16 mph)",
+   "unit": "km/h",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.54 (printed 2-1)"
+  },
+  {
+   "joint": "Specifications / General / Shift down points / Clutch off speed",
+   "value": "20 km/h (12 mph)",
+   "unit": "km/h",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.54 (printed 2-1)"
+  },
+  {
+   "joint": "Specifications / Engine / Engine / Combustion cycle",
+   "value": "4-stroke",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Engine / Cooling system",
+   "value": "Liquid cooled",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Engine / Valve train",
+   "value": "DOHC",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Engine / Displacement",
+   "value": "250 cm³",
+   "unit": "cm³",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Engine / Number of cylinders",
+   "value": "Single cylinder",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Engine / Bore × stroke",
+   "value": "77.0 × 53.6 mm (3.03 × 2.11 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Engine / Compression ratio",
+   "value": "13.8 : 1",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Engine / Starting system",
+   "value": "Electric starter",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Fuel / Recommended fuel",
+   "value": "Premium unleaded gasoline (E10 acceptable)",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Fuel / Fuel tank capacity",
+   "value": "7.9 L (2.1 US gal, 1.7 Imp.gal)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Fuel / Fuel reserve amount",
+   "value": "2.0 L (0.53 US gal, 0.44 Imp.gal)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Engine oil / Recommended brand",
+   "value": "YAMALUBE",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Engine oil / SAE viscosity grades",
+   "value": "10W-40, 10W-50, 15W-40, 20W-40 or 20W-50",
+   "unit": "W",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Engine oil / Recommended engine oil grade",
+   "value": "API service SG type or higher, JASO standard MA",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Engine oil / Lubrication system",
+   "value": "Wet sump",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Engine oil / Engine oil quantity / Oil change",
+   "value": "0.73 L (0.77 US qt, 0.64 Imp.qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Engine oil / Engine oil quantity / With oil filter removal",
+   "value": "0.75 L (0.79 US qt, 0.66 Imp.qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Engine oil / Engine oil quantity / Quantity (disassembled)",
+   "value": "0.95 L (1.00 US qt, 0.84 Imp.qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Oil filter / Oil filter type",
+   "value": "Cartridge",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Cooling system / Coolant quantity / Radiator (including all routes)",
+   "value": "0.93 L (0.98 US qt, 0.82 Imp.qt)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Cooling system / Radiator cap valve opening pressure",
+   "value": "107.9–137.3 kPa (1.08–1.37 kgf/cm², 15.6–19.9 psi)",
+   "unit": "kPa",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Spark plug(s) / Manufacturer/model",
+   "value": "NGK/LMAR8E-J",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Spark plug(s) / Spark plug gap",
+   "value": "0.6–0.7 mm (0.024–0.028 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Cylinder head / Warpage limit",
+   "value": "0.05 mm (0.0020 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Camshaft / Camshaft cap inside diameter",
+   "value": "22.000–22.021 mm (0.8661–0.8670 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Camshaft / Camshaft journal diameter",
+   "value": "21.959–21.972 mm (0.8645–0.8650 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Camshaft / Camshaft-journal-to-camshaft-cap clearance",
+   "value": "0.028–0.062 mm (0.0011–0.0024 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Camshaft / Camshaft-journal-to-camshaft-cap clearance limit",
+   "value": "0.080 mm (0.0032 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Camshaft / Camshaft lobe dimensions / Lobe height limit (Intake)",
+   "value": "32.130 mm (1.2650 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Camshaft / Camshaft lobe dimensions / Lobe height limit (Exhaust)",
+   "value": "33.750 mm (1.3287 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Valve, valve seat, valve guide / Valve clearance (cold) / Intake",
+   "value": "0.12–0.19 mm (0.0047–0.0075 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "engine cold"
+   ],
+   "page": "PDF p.55 (printed 2-2)"
+  },
+  {
+   "joint": "Specifications / Engine / Valve, valve seat, valve guide / Valve clearance (cold) / Exhaust",
+   "value": "0.17–0.24 mm (0.0067–0.0094 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "engine cold"
+   ],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Valve, valve seat, valve guide / Valve dimensions / Valve seat contact width limit (intake)",
+   "value": "1.6 mm (0.06 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Valve, valve seat, valve guide / Valve dimensions / Valve seat contact width limit (exhaust)",
+   "value": "1.6 mm (0.06 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Valve, valve seat, valve guide / Valve dimensions / Valve stem diameter limit (intake)",
+   "value": "4.945 mm (0.1947 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Valve, valve seat, valve guide / Valve dimensions / Valve stem diameter limit (exhaust)",
+   "value": "4.430 mm (0.1744 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Valve, valve seat, valve guide / Valve dimensions / Valve guide inside diameter (intake)",
+   "value": "5.000–5.012 mm (0.1969–0.1973 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Valve, valve seat, valve guide / Valve dimensions / Valve guide inside diameter (exhaust)",
+   "value": "4.500–4.512 mm (0.1772–0.1776 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Valve, valve seat, valve guide / Valve dimensions / Valve-stem-to-valve-guide clearance limit (intake)",
+   "value": "0.080 mm (0.0032 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Valve, valve seat, valve guide / Valve dimensions / Valve-stem-to-valve-guide clearance limit (exhaust)",
+   "value": "0.100 mm (0.0039 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Valve, valve seat, valve guide / Valve dimensions / Valve stem runout",
+   "value": "0.020 mm (0.0008 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Valve spring / Free length limit (intake)",
+   "value": "34.94 mm (1.38 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Valve spring / Free length limit (exhaust)",
+   "value": "33.82 mm (1.33 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Cylinder / Bore",
+   "value": "77.000–77.010 mm (3.0315–3.0319 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Cylinder / Wear limit",
+   "value": "77.060 mm (3.0339 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Piston / Piston-to-cylinder clearance",
+   "value": "0.030–0.055 mm (0.0012–0.0022 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Piston / Diameter",
+   "value": "76.955–76.970 mm (3.0297–3.0303 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Piston / Measuring point (from piston skirt bottom)",
+   "value": "4.0 mm (0.16 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Piston / Piston pin bore inside diameter limit",
+   "value": "16.043 mm (0.6316 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Piston / Piston pin outside diameter limit",
+   "value": "15.971 mm (0.6288 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Piston / Piston-pin-to-piston-pin-bore clearance",
+   "value": "0.002–0.022 mm (0.0001–0.0009 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Piston ring / Top ring / End gap limit",
+   "value": "0.50 mm (0.0197 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Piston ring / Top ring / Ring side clearance",
+   "value": "0.030–0.065 mm (0.0012–0.0026 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Piston ring / Top ring / Side clearance limit",
+   "value": "0.115 mm (0.0045 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Crankshaft / Crank assembly width",
+   "value": "55.93–56.00 mm (2.202–2.205 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Crankshaft / Runout limit",
+   "value": "0.030 mm (0.0012 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Clutch / Clutch type",
+   "value": "Wet, multiple-disc",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Clutch / Clutch lever free play",
+   "value": "7.0–12.0 mm (0.28–0.47 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Clutch / Friction plate 1 thickness",
+   "value": "2.70–2.90 mm (0.106–0.114 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Clutch / Friction plate 1 wear limit",
+   "value": "2.60 mm (0.102 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Clutch / Friction plate 1 plate quantity",
+   "value": "2 pcs",
+   "unit": "pcs",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Clutch / Friction plate 2 thickness",
+   "value": "2.72–2.88 mm (0.107–0.113 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Clutch / Friction plate 2 wear limit",
+   "value": "2.62 mm (0.103 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Clutch / Friction plate 2 plate quantity",
+   "value": "6 pcs",
+   "unit": "pcs",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Clutch / Clutch plate thickness",
+   "value": "1.50–1.70 mm (0.059–0.067 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Clutch / Clutch plate plate quantity",
+   "value": "7 pcs",
+   "unit": "pcs",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Clutch / Clutch plate warpage limit",
+   "value": "0.10 mm (0.004 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Clutch / Clutch spring free length",
+   "value": "44.00 mm (1.73 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Clutch / Clutch spring free length limit",
+   "value": "41.80 mm (1.65 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Clutch / Push rod bending limit",
+   "value": "0.30 mm (0.012 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.56 (printed 2-3)"
+  },
+  {
+   "joint": "Specifications / Engine / Drivetrain / Primary reduction ratio",
+   "value": "3.353 (57/17)",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Drivetrain / Transmission type",
+   "value": "Constant mesh 6-speed",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Drivetrain / Gear ratio / 1st",
+   "value": "2.385 (31/13)",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Drivetrain / Gear ratio / 2nd",
+   "value": "1.813 (29/16)",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Drivetrain / Gear ratio / 3rd",
+   "value": "1.444 (26/18)",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Drivetrain / Gear ratio / 4th",
+   "value": "1.143 (24/21)",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Drivetrain / Gear ratio / 5th",
+   "value": "0.957 (22/23)",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Drivetrain / Gear ratio / 6th",
+   "value": "0.815 (22/27)",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Drivetrain / Main axle runout limit",
+   "value": "0.08 mm (0.0032 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Drivetrain / Drive axle runout limit",
+   "value": "0.08 mm (0.0032 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Drivetrain / Secondary reduction ratio",
+   "value": "3.923 (51/13)",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Drivetrain / Final drive",
+   "value": "Chain",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Air filter / Air filter element",
+   "value": "Wet element",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Air filter / Air filter oil grade",
+   "value": "Yamaha foam air filter oil or other quality foam air filter oil",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Fuel pump / Pump type",
+   "value": "Electrical",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Fuel pump / Maximum consumption amperage",
+   "value": "2.4 A",
+   "unit": "A",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Fuel injector / Resistance",
+   "value": "12.0 Ω",
+   "unit": "Ω",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Throttle body / ID mark",
+   "value": "BAK1",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Idling condition / Engine idling speed",
+   "value": "1900–2100 r/min",
+   "unit": "r/min",
+   "property": "specification",
+   "conditions": [
+    "idling condition table"
+   ],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Idling condition / Exhaust gas sampling point",
+   "value": "Sampling port on the exhaust pipe",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "idling condition table"
+   ],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Idling condition / Coolant temperature",
+   "value": "70–80 °C (158–176 °F)",
+   "unit": "°C",
+   "property": "specification",
+   "conditions": [
+    "idling condition table"
+   ],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Idling condition / Fuel line pressure (at idle)",
+   "value": "300–390 kPa (3.0–3.9 kgf/cm², 43.5–56.6 psi)",
+   "unit": "kPa",
+   "property": "specification",
+   "conditions": [
+    "idling condition table"
+   ],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Idling condition / CO%",
+   "value": "4.0–5.0 %",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "idling condition table"
+   ],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Idling condition / Intake vacuum",
+   "value": "43.7 kPa (328 mmHg, 12.9 inHg)",
+   "unit": "kPa",
+   "property": "specification",
+   "conditions": [
+    "idling condition table"
+   ],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Engine / Idling condition / Throttle grip free play",
+   "value": "3.0–6.0 mm (0.12–0.24 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "idling condition table"
+   ],
+   "page": "PDF p.57 (printed 2-4)"
+  },
+  {
+   "joint": "Specifications / Chassis / Chassis / Caster angle",
+   "value": "27.2 °",
+   "unit": "°",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Chassis / Trail",
+   "value": "116 mm (4.6 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front wheel / Wheel type",
+   "value": "Spoke wheel",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front wheel / Rim size",
+   "value": "21 x 1.60",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front wheel / Radial wheel runout limit",
+   "value": "2.0 mm (0.08 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front wheel / Lateral wheel runout limit",
+   "value": "2.0 mm (0.08 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front wheel / Wheel axle bending limit",
+   "value": "0.50 mm (0.02 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear wheel / Wheel type",
+   "value": "Spoke wheel",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear wheel / Rim size",
+   "value": "18 x 2.15",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear wheel / Radial wheel runout limit",
+   "value": "2.0 mm (0.08 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear wheel / Lateral wheel runout limit",
+   "value": "2.0 mm (0.08 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear wheel / Wheel axle bending limit",
+   "value": "0.50 mm (0.02 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front tire / Type",
+   "value": "With tube",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front tire / Size",
+   "value": "80/100-21 51M",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front tire / Manufacturer/model",
+   "value": "DUNLOP/MX3SF",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear tire / Type",
+   "value": "With tube",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear tire / Size",
+   "value": "110/100-18 64M",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear tire / Manufacturer/model",
+   "value": "DUNLOP/MX3S",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Tire air pressure (measured on cold tires) / Front",
+   "value": "100 kPa (1.00 kgf/cm², 15 psi)",
+   "unit": "kPa",
+   "property": "setting",
+   "conditions": [
+    "cold tires, stock tires"
+   ],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Tire air pressure (measured on cold tires) / Rear",
+   "value": "100 kPa (1.00 kgf/cm², 15 psi)",
+   "unit": "kPa",
+   "property": "setting",
+   "conditions": [
+    "cold tires, stock tires"
+   ],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front brake / Type",
+   "value": "Hydraulic single disc brake",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front brake / Brake disc thickness limit",
+   "value": "2.5 mm (0.10 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front brake / Brake disc runout limit (as measured on wheel)",
+   "value": "0.15 mm (0.0059 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front brake / Brake pad lining thickness limit",
+   "value": "1.0 mm (0.04 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front brake / Master cylinder inside diameter",
+   "value": "9.52 mm (0.37 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front brake / Caliper cylinder inside diameter (Left)",
+   "value": "22.65 mm, 22.65 mm (0.89 in, 0.89 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front brake / Specified brake fluid",
+   "value": "DOT 4",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear brake / Type",
+   "value": "Hydraulic single disc brake",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear brake / Brake pedal position",
+   "value": "5.0 mm (0.20 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear brake / Brake disc thickness limit",
+   "value": "3.5 mm (0.14 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear brake / Brake disc runout limit (as measured on wheel)",
+   "value": "0.15 mm (0.0059 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear brake / Brake pad lining thickness limit",
+   "value": "1.0 mm (0.04 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear brake / Master cylinder inside diameter",
+   "value": "11.0 mm (0.43 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear brake / Caliper cylinder inside diameter",
+   "value": "25.40 mm (1.00 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear brake / Specified brake fluid",
+   "value": "DOT 4",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front suspension / Type",
+   "value": "Telescopic fork",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.58 (printed 2-5)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front suspension / Spring",
+   "value": "Coil spring",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front suspension / Shock absorber",
+   "value": "Hydraulic damper",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front suspension / Wheel travel",
+   "value": "310 mm (12.2 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front suspension / Fork spring free length limit",
+   "value": "492.0 mm (19.37 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front suspension / Inner tube bending limit",
+   "value": "0.2 mm (0.01 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front suspension / Recommended oil",
+   "value": "Yamaha Suspension Oil S1",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front suspension / Quantity (left)",
+   "value": "501.0 cm³ (16.94 US oz, 17.67 Imp.oz)",
+   "unit": "cm³",
+   "property": "capacity",
+   "conditions": [
+    "total fork oil per leg as given in specification table"
+   ],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front suspension / Quantity (right)",
+   "value": "501.0 cm³ (16.94 US oz, 17.67 Imp.oz)",
+   "unit": "cm³",
+   "property": "capacity",
+   "conditions": [
+    "total fork oil per leg as given in specification table"
+   ],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front suspension / Rebound damping / Adjusting system",
+   "value": "Mechanical adjustable type",
+   "unit": null,
+   "property": "setting",
+   "conditions": [],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front suspension / Rebound damping / Unit for adjustment",
+   "value": "Click",
+   "unit": null,
+   "property": "setting",
+   "conditions": [],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front suspension / Rebound damping / Adjustment value from the start position (Soft)",
+   "value": "20",
+   "unit": null,
+   "property": "setting",
+   "conditions": [
+    "counted from the fully turned-in start position"
+   ],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front suspension / Rebound damping / Adjustment value from the start position (STD)",
+   "value": "8",
+   "unit": null,
+   "property": "setting",
+   "conditions": [
+    "counted from the fully turned-in start position"
+   ],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front suspension / Rebound damping / Adjustment value from the start position (Hard)",
+   "value": "0",
+   "unit": null,
+   "property": "setting",
+   "conditions": [
+    "counted from the fully turned-in start position"
+   ],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front suspension / Compression damping / Adjusting system",
+   "value": "Mechanical adjustable type",
+   "unit": null,
+   "property": "setting",
+   "conditions": [],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front suspension / Compression damping / Unit for compression damping adjustment",
+   "value": "Click",
+   "unit": null,
+   "property": "setting",
+   "conditions": [],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front suspension / Compression damping / Adjustment value from the start position (Soft)",
+   "value": "20",
+   "unit": null,
+   "property": "setting",
+   "conditions": [
+    "counted from the fully turned-in start position"
+   ],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front suspension / Compression damping / Adjustment value from the start position (STD)",
+   "value": "11",
+   "unit": null,
+   "property": "setting",
+   "conditions": [
+    "counted from the fully turned-in start position"
+   ],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Front suspension / Compression damping / Adjustment value from the start position (Hard)",
+   "value": "0",
+   "unit": null,
+   "property": "setting",
+   "conditions": [
+    "counted from the fully turned-in start position"
+   ],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Type",
+   "value": "Swingarm (link suspension)",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Spring",
+   "value": "Coil spring",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Shock absorber",
+   "value": "Gas-hydraulic damper",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Wheel travel",
+   "value": "317 mm (12.5 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Spring preload / Adjusting system",
+   "value": "Mechanical adjustable type",
+   "unit": null,
+   "property": "setting",
+   "conditions": [],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Spring preload / Adjustment value (Soft)",
+   "value": "1.5 mm (0.06 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Spring preload / Adjustment value (STD)",
+   "value": "7.0 mm (0.28 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Spring preload / Adjustment value (Hard)",
+   "value": "18.0 mm (0.71 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Rebound damping / Adjusting system",
+   "value": "Mechanical adjustable type",
+   "unit": null,
+   "property": "setting",
+   "conditions": [],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Rebound damping / Unit for adjustment",
+   "value": "Click",
+   "unit": null,
+   "property": "setting",
+   "conditions": [],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Rebound damping / Adjustment value from the start position (Soft)",
+   "value": "30",
+   "unit": null,
+   "property": "setting",
+   "conditions": [
+    "counted from the fully turned-in start position"
+   ],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Rebound damping / Adjustment value from the start position (STD)",
+   "value": "11",
+   "unit": null,
+   "property": "setting",
+   "conditions": [
+    "counted from the fully turned-in start position"
+   ],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Rebound damping / Adjustment value from the start position (Hard)",
+   "value": "0",
+   "unit": null,
+   "property": "setting",
+   "conditions": [
+    "counted from the fully turned-in start position"
+   ],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Compression damping / Adjusting system",
+   "value": "Mechanical adjustable type",
+   "unit": null,
+   "property": "setting",
+   "conditions": [],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Fast compression damping / Unit for adjustment",
+   "value": "Turn",
+   "unit": null,
+   "property": "setting",
+   "conditions": [],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Fast compression damping / Adjustment value from the start position (Soft)",
+   "value": "2",
+   "unit": null,
+   "property": "setting",
+   "conditions": [
+    "counted from the fully turned-in start position"
+   ],
+   "page": "PDF p.59 (printed 2-6)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Fast compression damping / Adjustment value from the start position (STD)",
+   "value": "1",
+   "unit": null,
+   "property": "setting",
+   "conditions": [
+    "counted from the fully turned-in start position"
+   ],
+   "page": "PDF p.60 (printed 2-7)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Fast compression damping / Adjustment value from the start position (Hard)",
+   "value": "0",
+   "unit": null,
+   "property": "setting",
+   "conditions": [
+    "counted from the fully turned-in start position"
+   ],
+   "page": "PDF p.60 (printed 2-7)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Slow compression damping / Unit for adjustment",
+   "value": "Click",
+   "unit": null,
+   "property": "setting",
+   "conditions": [],
+   "page": "PDF p.60 (printed 2-7)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Slow compression damping / Adjustment value from the start position (Soft)",
+   "value": "20",
+   "unit": null,
+   "property": "setting",
+   "conditions": [
+    "counted from the fully turned-in start position"
+   ],
+   "page": "PDF p.60 (printed 2-7)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Slow compression damping / Adjustment value from the start position (STD)",
+   "value": "8",
+   "unit": null,
+   "property": "setting",
+   "conditions": [
+    "counted from the fully turned-in start position"
+   ],
+   "page": "PDF p.60 (printed 2-7)"
+  },
+  {
+   "joint": "Specifications / Chassis / Rear suspension / Slow compression damping / Adjustment value from the start position (Hard)",
+   "value": "0",
+   "unit": null,
+   "property": "setting",
+   "conditions": [
+    "counted from the fully turned-in start position"
+   ],
+   "page": "PDF p.60 (printed 2-7)"
+  },
+  {
+   "joint": "Specifications / Chassis / Drive chain / Size",
+   "value": "520",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.60 (printed 2-7)"
+  },
+  {
+   "joint": "Specifications / Chassis / Drive chain / Chain type",
+   "value": "Sealed type",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.60 (printed 2-7)"
+  },
+  {
+   "joint": "Specifications / Chassis / Drive chain / Number of links",
+   "value": "114",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.60 (printed 2-7)"
+  },
+  {
+   "joint": "Specifications / Chassis / Drive chain / Drive chain slack (Maintenance stand)",
+   "value": "50.0–60.0 mm (1.97–2.36 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.60 (printed 2-7)"
+  },
+  {
+   "joint": "Specifications / Chassis / Drive chain / 15-link length limit",
+   "value": "239.3 mm (9.42 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.60 (printed 2-7)"
+  },
+  {
+   "joint": "Specifications / Electrical / Voltage / System voltage",
+   "value": "12 V",
+   "unit": "V",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Ignition system / Ignition system",
+   "value": "TCI",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Ignition system / Ignition timing (B.T.D.C.)",
+   "value": "8.0–12.0 °/2000 r/min",
+   "unit": "°",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Engine control unit / Model",
+   "value": "BAK2",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Ignition coil / Primary coil resistance",
+   "value": "2.16–2.64 Ω",
+   "unit": "Ω",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Ignition coil / Secondary coil resistance",
+   "value": "8.64–12.96 kΩ",
+   "unit": "kΩ",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Spark plug cap / Resistance",
+   "value": "7.50–12.50 kΩ",
+   "unit": "kΩ",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Charging system / Charging system",
+   "value": "AC magneto",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Charging system / Standard output",
+   "value": "14.0 V, 10.0 A at 5000 r/min",
+   "unit": "V",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Charging system / Stator coil resistance",
+   "value": "0.368–0.552 Ω",
+   "unit": "Ω",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Rectifier/regulator / Regulator type",
+   "value": "Single-phase",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Rectifier/regulator / Regulated voltage (DC)",
+   "value": "14.0–14.8 V",
+   "unit": "V",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Battery / Model",
+   "value": "YTZ7S(F)",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Battery / Voltage, capacity",
+   "value": "12 V, 6.0 Ah (10 HR)",
+   "unit": "V",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Headlight / Bulb type",
+   "value": "Halogen bulb",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Bulb wattage / Headlight",
+   "value": "HS1, 35.0 W/35.0 W",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Bulb wattage / Brake/tail light",
+   "value": "LED",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Bulb wattage / Meter lighting",
+   "value": "EL (Electroluminescent)",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Indicator light / Fuel level warning light",
+   "value": "1.7 W",
+   "unit": "W",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Indicator light / Engine trouble warning light",
+   "value": "1.7 W",
+   "unit": "W",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Starter motor / Brush overall length",
+   "value": "7.0 mm (0.28 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Starter motor / Brush overall length limit",
+   "value": "3.5 mm (0.14 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "service limit"
+   ],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Starter motor / Brush spring force",
+   "value": "3.92–5.88 N (400–600 gf, 14.11–21.17 oz)",
+   "unit": "N",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Starter motor / Mica undercut (depth)",
+   "value": "1.50 mm (0.06 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Fuel injection sensor / Crankshaft position sensor resistance",
+   "value": "228–342 Ω",
+   "unit": "Ω",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Fuel injection sensor / Intake air temperature sensor resistance (0 °C)",
+   "value": "5400–6600 Ω at 0 °C (5400–6600 Ω at 32 °F)",
+   "unit": "Ω",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Fuel injection sensor / Intake air temperature sensor resistance (80 °C)",
+   "value": "290–390 Ω at 80 °C (290–390 Ω at 176 °F)",
+   "unit": "Ω",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Fuel injection sensor / Coolant temperature sensor resistance (20 °C)",
+   "value": "2513–2777 Ω at 20 °C (2513–2777 Ω at 68 °F)",
+   "unit": "Ω",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Fuel injection sensor / Coolant temperature sensor resistance (100 °C)",
+   "value": "210–221 Ω at 100 °C (210–221 Ω at 212 °F)",
+   "unit": "Ω",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Fuse(s) / Main fuse",
+   "value": "15.0 A",
+   "unit": "A",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.61 (printed 2-8)"
+  },
+  {
+   "joint": "Specifications / Electrical / Fuse(s) / Radiator fan motor fuse",
+   "value": "5.0 A",
+   "unit": "A",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.62 (printed 2-9)"
+  },
+  {
+   "joint": "Specifications / Electrical / Fuse(s) / Spare fuse",
+   "value": "15.0 A",
+   "unit": "A",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.62 (printed 2-9)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Camshaft cap bolt (M6, qty 8)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply engine oil"
+   ],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Spark plug (M10, qty 1)",
+   "value": "13 N·m (1.3 kgf·m, 9.6 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Cylinder head stud bolt (exhaust pipe) (M6, qty 2)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Oil passage plug (cylinder head) (M6, qty 1)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Cylinder head bolt (M9, qty 4)",
+   "value": "30 N·m all bolts in order; then one bolt at a time loosen and retighten to 15 N·m + 60°; finally all bolts + 60° (total 120°)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply molybdenum disulfide grease",
+    "TIP lubricant: molybdenum disulfide oil on threads, seats and washers for first and second passes",
+    "lubricant uncertain: table symbol M (molybdenum disulfide grease) but TIP says molybdenum disulfide oil",
+    "multi-step procedure from TIP under torque table"
+   ],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Cylinder head nut (M6, qty 2)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Cylinder head cover bolt (M6, qty 2)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Stud bolt (cylinder head cover) (M6, qty 1)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Cylinder bolt (M6, qty 1)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Oil pressure check bolt (M6, qty 1)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Balancer weight plate screw (M6, qty 2)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Balancer weight gear nut (M14, qty 1)",
+   "value": "50 N·m (5.0 kgf·m, 37 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Balancer nut (M10, qty 1)",
+   "value": "38 N·m (3.8 kgf·m, 28 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Timing chain guide stopper plate (exhaust side) (M6, qty 1)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Timing chain tensioner cap bolt (M6, qty 1)",
+   "value": "6 N·m (0.6 kgf·m, 4.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Timing chain tensioner bolt (M6, qty 2)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Coolant drain bolt (M6, qty 1)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Radiator hose clamp screw (M6, qty 8)",
+   "value": "1.5 N·m (0.15 kgf·m, 1.1 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Radiator bolt (M6, qty 4)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Radiator pipe joint bolt (M6, qty 1)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Radiator fan bolt (M6, qty 3)",
+   "value": "8 N·m (0.8 kgf·m, 5.9 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Water pump housing cover bolt (M6, qty 4)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Water pump impeller (M8, qty 1)",
+   "value": "14 N·m (1.4 kgf·m, 10 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Oil pump bolt (M5, qty 2)",
+   "value": "5 N·m (0.5 kgf·m, 3.7 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Oil pump cover screw (M4, qty 1)",
+   "value": "2.0 N·m (0.20 kgf·m, 1.5 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Oil strainer bolt (M6, qty 1)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Throttle cable cover bolt (M5, qty 1)",
+   "value": "3.5 N·m (0.35 kgf·m, 2.6 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Throttle body joint bolt (M6, qty 2)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Throttle body joint clamp screw (M5, qty 1)",
+   "value": "3.0 N·m (0.30 kgf·m, 2.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Air filter case joint clamp screw (M5, qty 1)",
+   "value": "3.0 N·m (0.30 kgf·m, 2.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Air filter case bolt (M6, qty 3)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.64 (printed 2-11)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Clutch cable locknut (clutch cable adjuster) (M6, qty 1)",
+   "value": "4.3 N·m (0.43 kgf·m, 3.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Clutch cable locknut (engine side) (M8, qty 1)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Exhaust pipe nut (M6, qty 2)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Exhaust pipe protector screw (M6, qty 2)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Exhaust pipe bracket bolt (M8, qty 1)",
+   "value": "20 N·m (2.0 kgf·m, 15 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Silencer bolt (front) (M8, qty 1)",
+   "value": "30 N·m (3.0 kgf·m, 22 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Silencer bolt (rear) (M8, qty 1)",
+   "value": "30 N·m (3.0 kgf·m, 22 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Exhaust pipe clamp bolt (M8, qty 2)",
+   "value": "12 N·m (1.2 kgf·m, 8.9 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Spark arrester bolt (M5, qty 4)",
+   "value": "9 N·m (0.9 kgf·m, 6.6 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Silencer cap screw (M5, qty 6)",
+   "value": "5 N·m (0.5 kgf·m, 3.7 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Oil nozzle bolt (M5, qty 1)",
+   "value": "5 N·m (0.5 kgf·m, 3.7 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Engine oil drain bolt (M10, qty 1)",
+   "value": "20 N·m (2.0 kgf·m, 15 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Crankcase bolt (M6, qty 13)",
+   "value": "12 N·m (1.2 kgf·m, 8.9 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Clutch cable holder bolt (M6, qty 2)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Crankshaft end accessing screw (M36, qty 1)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Timing mark accessing screw (M14, qty 1)",
+   "value": "6 N·m (0.6 kgf·m, 4.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Drive sprocket cover bolt (M6, qty 2)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Crankcase bearing cover plate screw (M8, qty 4)",
+   "value": "22 N·m (2.2 kgf·m, 16 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Bearing plate cover bolt (left side of the drive axle) (M6, qty 2)",
+   "value": "12 N·m (1.2 kgf·m, 8.9 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Plate bolt (M6, qty 4)",
+   "value": "12 N·m (1.2 kgf·m, 8.9 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Clutch cover bolt (M6, qty 6)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Crankcase cover bolt (left) (M6, qty 7)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Crankcase cover bolt (right) (M6, qty 9)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Oil filter element cover bolt (M6, qty 2)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Starter clutch screw (M6, qty 8)",
+   "value": "12 N·m (1.2 kgf·m, 8.9 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Primary drive gear nut (M16, qty 1)",
+   "value": "105 N·m (10.5 kgf·m, 77 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Clutch spring bolt (M6, qty 6)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Clutch boss nut (M20, qty 1)",
+   "value": "95 N·m (9.5 kgf·m, 70 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "stake the nut after tightening",
+    "apply engine oil"
+   ],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Drive sprocket nut (M18, qty 1)",
+   "value": "75 N·m (7.5 kgf·m, 55 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "use a lock washer"
+   ],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Segment (M8, qty 1)",
+   "value": "30 N·m (3.0 kgf·m, 22 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Shift guide bolt (M6, qty 2)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Stopper lever bolt (M6, qty 1)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Shift pedal bolt (M6, qty 1)",
+   "value": "12 N·m (1.2 kgf·m, 8.9 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.65 (printed 2-12)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Generator rotor nut (M12, qty 1)",
+   "value": "65 N·m (6.5 kgf·m, 48 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.66 (printed 2-13)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Stator coil screw (M5, qty 3)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.66 (printed 2-13)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Crankshaft position sensor bolt (M6, qty 2)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.66 (printed 2-13)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Stator coil assembly lead holder bolt (M5, qty 1)",
+   "value": "8 N·m (0.8 kgf·m, 5.9 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.66 (printed 2-13)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Coolant temperature sensor (M10, qty 1)",
+   "value": "15 N·m (1.5 kgf·m, 11 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.66 (printed 2-13)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Gear position switch bolt (M5, qty 2)",
+   "value": "3.5 N·m (0.35 kgf·m, 2.6 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.66 (printed 2-13)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Rectifier/regulator bolt (M6, qty 2)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.66 (printed 2-13)"
+  },
+  {
+   "joint": "Tightening torques / Engine / ECU bolt (M5, qty 2)",
+   "value": "3.8 N·m (0.38 kgf·m, 2.8 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.66 (printed 2-13)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Ignition coil bolt (M6, qty 2)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.66 (printed 2-13)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Starter motor bolt (M6, qty 2)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.66 (printed 2-13)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Nut (holder) (M6, qty 1)",
+   "value": "8 N·m (0.8 kgf·m, 5.9 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.66 (printed 2-13)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Throttle position sensor screw (M5, qty 1)",
+   "value": "3.5 N·m (0.35 kgf·m, 2.6 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.66 (printed 2-13)"
+  },
+  {
+   "joint": "Tightening torques / Engine / Intake air pressure sensor screw (M6, qty 1)",
+   "value": "3.5 N·m (0.35 kgf·m, 2.6 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.66 (printed 2-13)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Upper bracket pinch bolt (M8, qty 4)",
+   "value": "21 N·m (2.1 kgf·m, 15 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Lower bracket pinch bolt (M8, qty 4)",
+   "value": "21 N·m (2.1 kgf·m, 15 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Steering stem nut (M24, qty 1)",
+   "value": "145 N·m (14.5 kgf·m, 107 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Upper handlebar holder bolt (M8, qty 4)",
+   "value": "28 N·m (2.8 kgf·m, 21 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Lower handlebar holder nut (M10, qty 2)",
+   "value": "40 N·m (4.0 kgf·m, 30 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Engine stop switch screw (M3, qty 1)",
+   "value": "0.5 N·m (0.05 kgf·m, 0.37 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Start switch (M3, qty 1)",
+   "value": "0.5 N·m (0.05 kgf·m, 0.37 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Lower ring nut (M28, qty 1)",
+   "value": "Seat at approx. 38 N·m with steering nut wrench, loosen one turn, then final 7 N·m",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race",
+    "multi-step procedure from TIP under torque table"
+   ],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Damper assembly (front fork) (M51, qty 2)",
+   "value": "30 N·m (3.0 kgf·m, 22 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Inner tube and adjuster (M22, qty 2)",
+   "value": "55 N·m (5.5 kgf·m, 41 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Base valve (front fork) (M42, qty 2)",
+   "value": "28 N·m (2.8 kgf·m, 21 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Adjuster (damper assembly) (M12, qty 2)",
+   "value": "29 N·m (2.9 kgf·m, 21 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Bleed screw (front fork) (M5, qty 2)",
+   "value": "1.3 N·m (0.13 kgf·m, 0.95 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Front fork protector bolt (M6, qty 6)",
+   "value": "5 N·m (0.5 kgf·m, 3.7 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Speed sensor bolt (M6, qty 1)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Plate bolt (M5, qty 2)",
+   "value": "3.8 N·m (0.38 kgf·m, 2.8 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Throttle grip cap screw (M5, qty 2)",
+   "value": "3.8 N·m (0.38 kgf·m, 2.8 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Clutch lever holder bolt (M5, qty 2)",
+   "value": "3.8 N·m (0.38 kgf·m, 2.8 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Clutch lever nut (M6, qty 1)",
+   "value": "4.0 N·m (0.40 kgf·m, 3.0 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Front brake master cylinder holder bolt (M6, qty 2)",
+   "value": "9 N·m (0.9 kgf·m, 6.6 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Front brake master cylinder reservoir cap screw (M4, qty 2)",
+   "value": "1.5 N·m (0.15 kgf·m, 1.1 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Front brake lever pivot bolt (M6, qty 1)",
+   "value": "6 N·m (0.6 kgf·m, 4.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Front brake lever pivot nut (M6, qty 1)",
+   "value": "6 N·m (0.6 kgf·m, 4.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Locknut (front brake lever position) (M6, qty 1)",
+   "value": "5 N·m (0.5 kgf·m, 3.7 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Front brake hose union bolt (M10, qty 2)",
+   "value": "30 N·m (3.0 kgf·m, 22 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Front brake caliper bolt (M8, qty 2)",
+   "value": "28 N·m (2.8 kgf·m, 21 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Front brake pad pin (M10, qty 1)",
+   "value": "17 N·m (1.7 kgf·m, 13 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Front brake pad pin plug (M10, qty 1)",
+   "value": "2.5 N·m (0.25 kgf·m, 1.8 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Front brake caliper bleed screw (M8, qty 1)",
+   "value": "6 N·m (0.6 kgf·m, 4.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Front wheel axle nut (M18, qty 1)",
+   "value": "115 N·m (11.5 kgf·m, 85 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Front wheel axle pinch bolt (M8, qty 4)",
+   "value": "21 N·m (2.1 kgf·m, 15 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Front brake disc bolt (M6, qty 6)",
+   "value": "12 N·m (1.2 kgf·m, 8.9 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race",
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.67 (printed 2-14)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Rear brake disc bolt (M6, qty 6)",
+   "value": "12 N·m (1.2 kgf·m, 8.9 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race",
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Footrest bracket bolt (M10, qty 4)",
+   "value": "55 N·m (5.5 kgf·m, 41 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Sidestand bolt (M10, qty 1)",
+   "value": "35 N·m (3.5 kgf·m, 26 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "apply locking agent (LOCTITE)"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Rear brake pedal bolt (M8, qty 1)",
+   "value": "26 N·m (2.6 kgf·m, 19 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Rear brake pedal adjusting locknut (M6, qty 1)",
+   "value": "6 N·m (0.6 kgf·m, 4.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Rear brake master cylinder bolt (M6, qty 2)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Rear brake master cylinder reservoir cap bolt (M4, qty 2)",
+   "value": "1.5 N·m (0.15 kgf·m, 1.1 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Rear brake hose union bolt (M10, qty 2)",
+   "value": "30 N·m (3.0 kgf·m, 22 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Rear brake caliper bleed screw (M8, qty 1)",
+   "value": "6 N·m (0.6 kgf·m, 4.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Rear brake pad pin (M10, qty 1)",
+   "value": "17 N·m (1.7 kgf·m, 13 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Rear brake pad pin plug (M10, qty 1)",
+   "value": "2.5 N·m (0.25 kgf·m, 1.8 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Rear wheel axle nut (M20, qty 1)",
+   "value": "125 N·m (12.5 kgf·m, 92 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Drive chain puller locknut (M8, qty 2)",
+   "value": "21 N·m (2.1 kgf·m, 15 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Rear wheel sprocket nut (M8, qty 6)",
+   "value": "50 N·m (5.0 kgf·m, 37 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Nipple (spoke) (—, qty 72)",
+   "value": "2.5 N·m (0.25 kgf·m, 1.8 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Bolt (rear brake disc cover) (M6, qty 2)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Rear brake caliper protector bolt (M6, qty 2)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Engine mounting bolt (upper side) (M10, qty 2)",
+   "value": "45 N·m (4.5 kgf·m, 33 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Engine mounting nut (front side) (M10, qty 1)",
+   "value": "55 N·m (5.5 kgf·m, 41 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Engine mounting nut (lower side) (M10, qty 1)",
+   "value": "53 N·m (5.3 kgf·m, 39 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Engine bracket bolt (upper side) (M8, qty 4)",
+   "value": "34 N·m (3.4 kgf·m, 25 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Engine bracket bolt (front side) (M8, qty 4)",
+   "value": "34 N·m (3.4 kgf·m, 25 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Rear frame bolt (M8, qty 4)",
+   "value": "38 N·m (3.8 kgf·m, 28 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Engine guard bolt (M6, qty 3)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Pivot shaft nut (M16, qty 1)",
+   "value": "85 N·m (8.5 kgf·m, 63 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Rear shock absorber assembly upper nut (M10, qty 1)",
+   "value": "56 N·m (5.6 kgf·m, 41 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Rear shock absorber assembly lower nut (M10, qty 1)",
+   "value": "53 N·m (5.3 kgf·m, 39 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Locknut (rear shock absorber locknut) (M60, qty 1)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Relay arm nut (swingarm side) (M14, qty 1)",
+   "value": "70 N·m (7.0 kgf·m, 52 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Connecting arm nut (relay arm side) (M14, qty 1)",
+   "value": "80 N·m (8.0 kgf·m, 59 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Connecting arm nut (frame side) (M14, qty 1)",
+   "value": "80 N·m (8.0 kgf·m, 59 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Brake hose holder screw (M5, qty 4)",
+   "value": "3.5 N·m (0.35 kgf·m, 2.6 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Drive chain tensioner bolt (upper side) (M8, qty 1)",
+   "value": "16 N·m (1.6 kgf·m, 12 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.68 (printed 2-15)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Drive chain tensioner bolt (lower side) (M8, qty 1)",
+   "value": "16 N·m (1.6 kgf·m, 12 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Bolt (drive chain support) (M6, qty 1)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Drive chain support nut (M6, qty 2)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Drive chain guide bolt (M5, qty 3)",
+   "value": "4.0 N·m (0.40 kgf·m, 3.0 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Fuel tank bolt (front side) (M6, qty 2)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Fuel tank bolt (boss) (M6, qty 2)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Fuel tank bolt (rear side) (M6, qty 1)",
+   "value": "9 N·m (0.9 kgf·m, 6.6 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Fuel tank bracket bolt (M6, qty 2)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Fuel pump bolt (M5, qty 5)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Screw (fuel inlet pipe) (M5, qty 2)",
+   "value": "3.5 N·m (0.35 kgf·m, 2.6 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Bolt (fuel tank cap cover) (M6, qty 2)",
+   "value": "4.0 N·m (0.40 kgf·m, 3.0 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Seat set bracket screw (M6, qty 1)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Seat bolt (M8, qty 2)",
+   "value": "22 N·m (2.2 kgf·m, 16 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Side cover bolt (left) (M6, qty 2)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Side cover bolt (right) (M6, qty 2)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Air scoop bolt (frame) (M6, qty 2)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Air scoop bolt (fuel tank) (M6, qty 2)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Air scoop bolt (radiator guard) (M6, qty 4)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Front fender bolt (M6, qty 4)",
+   "value": "10 N·m (1.0 kgf·m, 7.4 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Rear fender bolt (front side) (M6, qty 4)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Rear fender bolt (rear side) (M6, qty 2)",
+   "value": "16 N·m (1.6 kgf·m, 12 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Headlight body and headlight stay bolt (M6, qty 2)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Multi-function meter nut (M5, qty 2)",
+   "value": "3.8 N·m (0.38 kgf·m, 2.8 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Multi-function meter bracket bolt (M6, qty 1)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Front brake hose guide and head light stay bolt (M5, qty 1)",
+   "value": "3.8 N·m (0.38 kgf·m, 2.8 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Screw (mud flap) (—, qty 2)",
+   "value": "1.3 N·m (0.13 kgf·m, 0.95 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [
+    "check tightness after break-in or before each race"
+   ],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Tightening torques / Chassis / Frame ground bolt (negative battery lead) (M5, qty 1)",
+   "value": "7 N·m (0.7 kgf·m, 5.2 lb·ft)",
+   "unit": "N·m",
+   "property": "torque",
+   "conditions": [],
+   "page": "PDF p.69 (printed 2-16)"
+  },
+  {
+   "joint": "Maintenance / Emission control system chart / Fuel line / Check fuel hoses for cracks or damage.; Replace if necessary.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.89 (printed 3-1)"
+  },
+  {
+   "joint": "Maintenance / Emission control system chart / Spark plug / Check condition.; Adjust gap and clean.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.89 (printed 3-1)"
+  },
+  {
+   "joint": "Maintenance / Emission control system chart / Valve clearance / Check and adjust valve clearance when engine is cold.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.89 (printed 3-1)"
+  },
+  {
+   "joint": "Maintenance / Emission control system chart / Air filter element / Clean with solvent and apply Yamaha foam air filter oil or other quality foam air filter oil.; Replace if necessary.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.89 (printed 3-1)"
+  },
+  {
+   "joint": "Maintenance / Emission control system chart / Breather system / Check ventilation hose for cracks or damage and drain any deposits.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.89 (printed 3-1)"
+  },
+  {
+   "joint": "Maintenance / Emission control system chart / Breather system / Replace.",
+   "value": "Every 2 years",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.89 (printed 3-1)"
+  },
+  {
+   "joint": "Maintenance / Emission control system chart / Fuel injection / Adjust engine idling speed.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.89 (printed 3-1)"
+  },
+  {
+   "joint": "Maintenance / Emission control system chart / Exhaust system / Check for leakage.; Tighten if necessary.; Replace gasket(s) if necessary.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.89 (printed 3-1)"
+  },
+  {
+   "joint": "Maintenance / Emission control system chart / Engine oil / Change (warm engine before draining).",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.89 (printed 3-1)"
+  },
+  {
+   "joint": "Maintenance / Emission control system chart / Engine oil filter element / Replace.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.89 (printed 3-1)"
+  },
+  {
+   "joint": "Maintenance / Emission control system chart / Engine oil strainer / Clean.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.89 (printed 3-1)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Clutch / Check operation.; Adjust or replace cable.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.89 (printed 3-1)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Cooling system / Check hoses for cracks of damage.; Replace if necessary.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.89 (printed 3-1)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Cooling system / Replace with ethylene glycol anti-freeze coolant every 1 year.",
+   "value": "Every 1 year",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.89 (printed 3-1)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Spark arrester / Clean.",
+   "value": "3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Front brake / Check operation, fluid level, and for fluid leakage.; Replace brake pads if necessary.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Front brake / Replace brake fluid every 1 year.",
+   "value": "Every 1 year",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Rear brake / Check operation, fluid level, and for fluid leakage.; Replace brake pads if necessary.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Rear brake / Replace brake fluid every 1 year.",
+   "value": "Every 1 year",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Brake hoses / Check for cracks or damage.",
+   "value": "1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Brake hoses / Replace.",
+   "value": "Every 4 years",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Wheels / Check runout, spoke tightness and for damage.; Tighten spokes if necessary.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Tires / Check tread depth and for damage.; Replace if necessary.; Check air pressure.; Correct if necessary.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Wheel bearings / Check bearings for smooth operation.; Replace if necessary.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Swingarm pivot bearings / Check bearing assemblies for looseness.; Moderately repack with lithium-soap-based grease.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Drive chain / Check chain slack/alignment and condition.; Adjust and lubricate chain with a special O-ring chain lubricant thoroughly.",
+   "value": "Every ride",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Steering bearings / Check bearing assemblies for looseness.; Moderately repack with lithium-soap-based grease every 1200 mi (2000 km) or 12 months...",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Brake and clutch lever pivot shafts / Apply lithium-soap-based grease (all-purpose grease) or silicone grease lightly.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Brake pedal pivot shafts / Apply lithium-soap-based grease (all-purpose grease) lightly.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Sidestand pivot / Check operation.; Apply lithium-soap-based grease (all-purpose grease) lightly.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Front fork / Check operation and for oil leakage.; Replace if necessary.",
+   "value": "1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Shock absorber assembly / Check operation and for oil leakage.; Replace if necessary.",
+   "value": "1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Rear suspension link pivots / Apply molybdenum disulfide grease lightly.",
+   "value": "1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Control cables / Apply Yamaha chain and cable lube or engine oil 10W-30 thoroughly.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Throttle grip housing and cable / Check operation and free play.; Adjust the throttle cable free play if necessary.; Lubricate the throttle grip housing and cable.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Chassis fasteners / Check all chassis fitting and fasteners.; Correct if necessary.",
+   "value": "Initial 600 mi (1000 km) or 1 month; 1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / General maintenance and lubrication chart / Battery / Check terminal for looseness and corrosion.",
+   "value": "1800 mi (3000 km) or 3 months; 3000 mi (5000 km) or 6 months",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.90 (printed 3-2)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Engine oil / Replace.",
+   "value": "After break-in; Every fifth race (or 1000 km)",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.91 (printed 3-3)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Valve / Check the valve clearances.",
+   "value": "After break-in; Every third race (or 500 km)",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.91 (printed 3-3)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Valve / Check the valve seats and the valve stems for wear.",
+   "value": "Every fifth race (or 1000 km)",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.91 (printed 3-3)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Valve / Replace.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.91 (printed 3-3)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Valve spring / Check the free length.",
+   "value": "Every fifth race (or 1000 km)",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.91 (printed 3-3)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Valve spring / Replace.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.91 (printed 3-3)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Valve lifter / Check for scratches and wear.",
+   "value": "Every fifth race (or 1000 km)",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.91 (printed 3-3)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Valve lifter / Replace.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.91 (printed 3-3)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Camshaft / Inspect the camshaft surface.; Inspect the decompression system.",
+   "value": "Every fifth race (or 1000 km)",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.91 (printed 3-3)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Camshaft / Replace.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.91 (printed 3-3)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Camshaft sprocket / Check for wear on the teeth and for damage.",
+   "value": "Every fifth race (or 1000 km)",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.91 (printed 3-3)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Camshaft sprocket / Replace.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.91 (printed 3-3)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Piston / Inspect crack.; Inspect carbon deposits and eliminate them.",
+   "value": "Every fifth race (or 1000 km); As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.91 (printed 3-3)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Piston / Clean.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.91 (printed 3-3)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Piston / Replace. (It is recommended that the piston pin and ring are also replaced at the same time.)",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.91 (printed 3-3)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Piston ring / Check the ring end gap.",
+   "value": "Every fifth race (or 1000 km)",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.91 (printed 3-3)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Piston ring / Replace.",
+   "value": "Every fifth race (or 1000 km); As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.91 (printed 3-3)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Piston pin / Inspect.",
+   "value": "Every fifth race (or 1000 km)",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.91 (printed 3-3)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Piston pin / Replace.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.91 (printed 3-3)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Cylinder head / Inspect carbon deposits and eliminate them.; Change gasket.",
+   "value": "Every fifth race (or 1000 km)",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.91 (printed 3-3)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Cylinder / Inspect score marks.; Inspect wear.",
+   "value": "Every fifth race (or 1000 km)",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Cylinder / Replace.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Clutch / Inspect housing, friction plate, clutch plate and spring.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Clutch / Replace.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Transmission / Inspect.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Transmission / Replace bearings.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Shift fork, shift cam, guide bar / Inspect wear.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Generator rotor nut / Retighten.",
+   "value": "After break-in; Every fifth race (or 1000 km)",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Muffler / Inspect and retighten.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Muffler / Clean.",
+   "value": "Every fifth race (or 1000 km)",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Muffler / Replace.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Crank / Inspect and clean.",
+   "value": "Every fifth race (or 1000 km); As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Throttle body / Inspect.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Spark plug / Inspect and clean.",
+   "value": "After break-in; Every third race (or 500 km)",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Spark plug / Replace.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Drive chain / Lubricate, slack, alignment.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Drive chain / Replace.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Cooling system / Check coolant level and leakage.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Cooling system / Check radiator cap operation.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Cooling system / Replace coolant.",
+   "value": "As required; Every two years",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Cooling system / Inspect hoses.",
+   "value": "Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Outside nuts and bolts / Retighten.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Air filter / Clean and lubricate.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Air filter / Replace.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Oil filter / Replace.",
+   "value": "After break-in; Every fifth race (or 1000 km)",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Engine guard / Replace.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Frame / Clean and inspect.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Fuel tank, fuel pump / Clean and inspect.",
+   "value": "After break-in; Every third race (or 500 km)",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Fuel hose / Inspect.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Fuel hose / Replace.",
+   "value": "As required; Every four years",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Brake(s) / Adjust lever position and pedal position.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Brake(s) / Lubricate pivot point.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Brake(s) / Check brake disc surface.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Brake(s) / Check fluid level and leakage.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Brake(s) / Retighten brake disc bolts, caliper bolts, master cylinder bolts and union bolts.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Brake(s) / Replace pads.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Brake(s) / Replace brake fluid.",
+   "value": "As required; Every one year",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.92 (printed 3-4)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Front fork(s) / Inspect and adjust.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Front fork(s) / Replace oil.",
+   "value": "After break-in; Every fifth race (or 1000 km)",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Front fork(s) / Replace oil seal.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Front fork oil seal and dust seal / Clean and lubricate.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Protector guide / Replace.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Rear shock absorber / Inspect and adjust.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Rear shock absorber / Lubricate. (After rain ride)",
+   "value": "Every third race (or 500 km); As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Rear shock absorber / Retighten.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Drive chain guard and roller / Inspect.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Drive chain stopper / Inspect.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Swingarm / Inspect, lube and retighten.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Relay arm, connecting rod / Inspect, lube and retighten.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Sidestand / Lubricate.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Steering head / Inspect free play and retighten.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Steering head / Clean and lubricate.",
+   "value": "Every fifth race (or 1000 km)",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Steering head / Replace bearings.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Tire, wheels / Inspect air pressure, wheel runout, tire wear and spoke looseness.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Tire, wheels / Retighten sprocket bolt.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Tire, wheels / Inspect bearings.",
+   "value": "Every third race (or 500 km)",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Tire, wheels / Replace bearings.",
+   "value": "As required",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Tire, wheels / Lubricate.",
+   "value": "Every third race (or 500 km)",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Throttle, control cable / Check routing and connection.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Maintenance / Competition use intervals / Throttle, control cable / Lubricate.",
+   "value": "After break-in; Every race",
+   "unit": null,
+   "property": "service_interval",
+   "conditions": [],
+   "page": "PDF p.93 (printed 3-5)"
+  },
+  {
+   "joint": "Tuning / Sprocket setting parts / Rear wheel sprocket / 48T",
+   "value": "5GS-25448-50",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "part number for 48-tooth rear wheel sprocket"
+   ],
+   "page": "PDF p.390 (printed 10-1)"
+  },
+  {
+   "joint": "Tuning / Sprocket setting parts / Rear wheel sprocket / 50T",
+   "value": "5TJ-25450-80",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "part number for 50-tooth rear wheel sprocket"
+   ],
+   "page": "PDF p.390 (printed 10-1)"
+  },
+  {
+   "joint": "Tuning / Sprocket setting parts / Rear wheel sprocket / 51T",
+   "value": "BAK-25451-00",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "part number for 51-tooth rear wheel sprocket",
+    "STD (standard fitment)"
+   ],
+   "page": "PDF p.390 (printed 10-1)"
+  },
+  {
+   "joint": "Tuning / Sprocket setting parts / Rear wheel sprocket / 52T",
+   "value": "5TJ-25452-80",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "part number for 52-tooth rear wheel sprocket"
+   ],
+   "page": "PDF p.390 (printed 10-1)"
+  },
+  {
+   "joint": "Tuning / Sprocket setting parts / Drive sprocket / 13T",
+   "value": "9383B-13218",
+   "unit": null,
+   "property": "specification",
+   "conditions": [
+    "part number for 13-tooth drive sprocket",
+    "STD (standard fitment)"
+   ],
+   "page": "PDF p.390 (printed 10-1)"
+  },
+  {
+   "joint": "Tuning / Tire pressure / Standard",
+   "value": "100 kPa (1.00 kgf/cm², 15 psi)",
+   "unit": "kPa",
+   "property": "setting",
+   "conditions": [
+    "front and rear, as given in tuning chapter"
+   ],
+   "page": "PDF p.390 (printed 10-1)"
+  },
+  {
+   "joint": "Tuning / Tire pressure / Soft-ground range (rain, mud, sand, slippery)",
+   "value": "60–80 kPa (0.60–0.80 kgf/cm², 9–12 psi)",
+   "unit": "kPa",
+   "property": "setting",
+   "conditions": [
+    "rain, mud, sand, slippery conditions per tuning chapter"
+   ],
+   "page": "PDF p.390 (printed 10-1)"
+  },
+  {
+   "joint": "Tuning / Tire pressure / Hard-ground range (stony or hard surface)",
+   "value": "100–120 kPa (1.00–1.20 kgf/cm², 15–18 psi)",
+   "unit": "kPa",
+   "property": "setting",
+   "conditions": [
+    "stony or hard surface conditions per tuning chapter"
+   ],
+   "page": "PDF p.390 (printed 10-1)"
+  },
+  {
+   "joint": "Tuning / Front fork / Fork oil standard amount (air spring setting)",
+   "value": "295 cm³ (9.97 US oz, 10.4 Imp.oz)",
+   "unit": "cm³",
+   "property": "setting",
+   "conditions": [
+    "per fork leg; tuning chapter oil-level adjustment"
+   ],
+   "page": "PDF p.391 (printed 10-2)"
+  },
+  {
+   "joint": "Tuning / Front fork / Fork oil amount adjustment range",
+   "value": "260–365 cm³ (8.79–12.34 US oz, 9.17–12.87 Imp.oz)",
+   "unit": "cm³",
+   "property": "setting",
+   "conditions": [
+    "per fork leg; adjust in steps given in manual"
+   ],
+   "page": "PDF p.391 (printed 10-2)"
+  },
+  {
+   "joint": "Tuning / Front fork / Fork oil amount adjustment step",
+   "value": "5 cm³",
+   "unit": "cm³",
+   "property": "setting",
+   "conditions": [
+    "increment or decrement step"
+   ],
+   "page": "PDF p.391 (printed 10-2)"
+  },
+  {
+   "joint": "Tuning / Front fork / Recommended fork oil",
+   "value": "Yamaha Suspension Oil S1",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.391 (printed 10-2)"
+  },
+  {
+   "joint": "Tuning / Rear suspension / Spring set length - rider sag standard figure",
+   "value": "90–100 mm (3.5–3.9 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "rear axle to rear fender bolt, stand height minus height with rider aboard"
+   ],
+   "page": "PDF p.393 (printed 10-4)"
+  },
+  {
+   "joint": "Tuning / Rear suspension / Standard shock overall length",
+   "value": "460.5 mm (18.1 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "do not fit a shock longer than this"
+   ],
+   "page": "PDF p.393 (printed 10-4)"
+  },
+  {
+   "joint": "Tuning / Rear suspension / Spring preload position minimum",
+   "value": "1.5 mm (0.06 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "spring turned in from its free length"
+   ],
+   "page": "PDF p.394 (printed 10-5)"
+  },
+  {
+   "joint": "Tuning / Rear suspension / Spring preload position standard",
+   "value": "7.0 mm (0.28 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "spring turned in from its free length"
+   ],
+   "page": "PDF p.394 (printed 10-5)"
+  },
+  {
+   "joint": "Tuning / Rear suspension / Spring preload position maximum",
+   "value": "18.0 mm (0.71 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "spring turned in from its free length"
+   ],
+   "page": "PDF p.394 (printed 10-5)"
+  },
+  {
+   "joint": "Tuning / Gearing / Standard drive sprocket",
+   "value": "13T",
+   "unit": "teeth",
+   "property": "specification",
+   "conditions": [
+    "STD in sprocket setting parts table"
+   ],
+   "page": "PDF p.390 (printed 10-1)"
+  },
+  {
+   "joint": "Tuning / Gearing / Standard rear wheel sprocket",
+   "value": "51T",
+   "unit": "teeth",
+   "property": "specification",
+   "conditions": [
+    "STD in sprocket setting parts table"
+   ],
+   "page": "PDF p.390 (printed 10-1)"
+  },
+  {
+   "joint": "Tuning / Gearing / Rear wheel sprocket sizes listed",
+   "value": "48T, 50T, 51T, 52T",
+   "unit": "teeth",
+   "property": "specification",
+   "conditions": [
+    "standard plus optional sizes in sprocket setting parts table"
+   ],
+   "page": "PDF p.390 (printed 10-1)"
+  },
+  {
+   "joint": "Tuning / Front fork setting parts / Fork spring standard rate",
+   "value": "4.6",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.392 (printed 10-3)"
+  },
+  {
+   "joint": "Tuning / Front fork setting parts / Fork spring rates listed",
+   "value": "4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 5.0, 5.1",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "standard plus optional springs"
+   ],
+   "page": "PDF p.392 (printed 10-3)"
+  },
+  {
+   "joint": "Tuning / Front fork setting parts / Fork spring 4.1 N/mm",
+   "value": "4.1",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "part number B3J-23141-10",
+    "I.D. slits III",
+    "optional spring"
+   ],
+   "page": "PDF p.392 (printed 10-3)"
+  },
+  {
+   "joint": "Tuning / Front fork setting parts / Fork spring 4.2 N/mm",
+   "value": "4.2",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "part number B3J-23141-20",
+    "I.D. slits IIII",
+    "optional spring"
+   ],
+   "page": "PDF p.392 (printed 10-3)"
+  },
+  {
+   "joint": "Tuning / Front fork setting parts / Fork spring 4.3 N/mm",
+   "value": "4.3",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "part number B3J-23141-30",
+    "I.D. slits IIIII",
+    "optional spring"
+   ],
+   "page": "PDF p.392 (printed 10-3)"
+  },
+  {
+   "joint": "Tuning / Front fork setting parts / Fork spring 4.4 N/mm",
+   "value": "4.4",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "part number B3J-23141-40",
+    "I.D. slits I-I",
+    "optional spring"
+   ],
+   "page": "PDF p.392 (printed 10-3)"
+  },
+  {
+   "joint": "Tuning / Front fork setting parts / Fork spring 4.5 N/mm",
+   "value": "4.5",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "part number BR9-23141-20",
+    "I.D. slits I-II",
+    "optional spring"
+   ],
+   "page": "PDF p.392 (printed 10-3)"
+  },
+  {
+   "joint": "Tuning / Front fork setting parts / Fork spring 4.6 N/mm",
+   "value": "4.6",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "part number BR9-23141-30",
+    "I.D. slits I-III",
+    "standard spring"
+   ],
+   "page": "PDF p.392 (printed 10-3)"
+  },
+  {
+   "joint": "Tuning / Front fork setting parts / Fork spring 4.7 N/mm",
+   "value": "4.7",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "part number BR9-23141-40",
+    "I.D. slits I-IIII",
+    "optional spring"
+   ],
+   "page": "PDF p.392 (printed 10-3)"
+  },
+  {
+   "joint": "Tuning / Front fork setting parts / Fork spring 4.8 N/mm",
+   "value": "4.8",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "part number BR9-23141-50",
+    "I.D. slits I-IIIII",
+    "optional spring"
+   ],
+   "page": "PDF p.392 (printed 10-3)"
+  },
+  {
+   "joint": "Tuning / Front fork setting parts / Fork spring 4.9 N/mm",
+   "value": "4.9",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "part number BR9-23141-60",
+    "I.D. slits II-II",
+    "optional spring"
+   ],
+   "page": "PDF p.392 (printed 10-3)"
+  },
+  {
+   "joint": "Tuning / Front fork setting parts / Fork spring 5.0 N/mm",
+   "value": "5.0",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "part number BR9-23141-70",
+    "I.D. slits II-III",
+    "optional spring"
+   ],
+   "page": "PDF p.392 (printed 10-3)"
+  },
+  {
+   "joint": "Tuning / Front fork setting parts / Fork spring 5.1 N/mm",
+   "value": "5.1",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "part number BR9-23141-80",
+    "I.D. slits II-IIII",
+    "optional spring"
+   ],
+   "page": "PDF p.392 (printed 10-3)"
+  },
+  {
+   "joint": "Tuning / Rear shock setting parts / Shock spring standard rate",
+   "value": "56",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.394 (printed 10-5)"
+  },
+  {
+   "joint": "Tuning / Rear shock setting parts / Shock spring rates listed",
+   "value": "50, 52, 54, 56, 58, 60",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "standard plus optional springs"
+   ],
+   "page": "PDF p.394 (printed 10-5)"
+  },
+  {
+   "joint": "Tuning / Rear shock setting parts / Shock spring 50 N/mm",
+   "value": "50",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "part B3J-22212-00 spring color Blue, I.D. mark Green",
+    "part B3J-22212-10 spring color Black, I.D. mark Green",
+    "optional spring"
+   ],
+   "page": "PDF p.394 (printed 10-5)"
+  },
+  {
+   "joint": "Tuning / Rear shock setting parts / Shock spring 52 N/mm",
+   "value": "52",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "part BR9-22212-00 spring color Blue, I.D. mark Yellow",
+    "part BR9-22212-50 spring color Black, I.D. mark Yellow",
+    "optional spring"
+   ],
+   "page": "PDF p.394 (printed 10-5)"
+  },
+  {
+   "joint": "Tuning / Rear shock setting parts / Shock spring 54 N/mm",
+   "value": "54",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "part BR9-22212-10 spring color Blue, I.D. mark Pink",
+    "part BR9-22212-60 spring color Black, I.D. mark Pink",
+    "optional spring"
+   ],
+   "page": "PDF p.394 (printed 10-5)"
+  },
+  {
+   "joint": "Tuning / Rear shock setting parts / Shock spring 56 N/mm",
+   "value": "56",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "part BR9-22212-20 spring color Blue, I.D. mark White",
+    "part BR9-22212-70 spring color Black, I.D. mark White",
+    "standard spring"
+   ],
+   "page": "PDF p.394 (printed 10-5)"
+  },
+  {
+   "joint": "Tuning / Rear shock setting parts / Shock spring 58 N/mm",
+   "value": "58",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "part BR9-22212-30 spring color Blue, I.D. mark Silver",
+    "part BR9-22212-80 spring color Black, I.D. mark Silver",
+    "optional spring"
+   ],
+   "page": "PDF p.394 (printed 10-5)"
+  },
+  {
+   "joint": "Tuning / Rear shock setting parts / Shock spring 60 N/mm",
+   "value": "60",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "part BR9-22212-40 spring color Blue, I.D. mark Brown",
+    "part BR9-22212-90 spring color Black, I.D. mark Brown",
+    "optional spring"
+   ],
+   "page": "PDF p.394 (printed 10-5)"
+  },
+  {
+   "joint": "Periodic checks / Cooling system / Coolant mixing ratio",
+   "value": "1:1 (Coolant:Water)",
+   "unit": null,
+   "property": "specification",
+   "conditions": [],
+   "page": "PDF p.109 (printed 3-21)"
+  },
+  {
+   "joint": "Chassis adjustments / Front brake / Brake lever position (standard)",
+   "value": "100 mm (3.94 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "lever position \"a\" per front disc brake adjustment"
+   ],
+   "page": "PDF p.111 (printed 3-23)"
+  },
+  {
+   "joint": "Chassis adjustments / Front brake / Brake lever position adjustment range",
+   "value": "86–105 mm (3.39–4.13 in)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [],
+   "page": "PDF p.111 (printed 3-23)"
+  },
+  {
+   "joint": "Front fork assembly / Damper assembly / Oil fill amount",
+   "value": "216 cm³ (7.30 US oz, 7.62 Imp.oz)",
+   "unit": "cm³",
+   "property": "capacity",
+   "conditions": [
+    "inner damper assembly fill, per fork leg, damper fully stretched"
+   ],
+   "page": "PDF p.173 (printed 4-47)"
+  },
+  {
+   "joint": "Front fork assembly / Damper assembly / Standard oil level",
+   "value": "145–148 mm (5.71–5.83 in)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "From top of fully stretched damper assembly, left and right damper"
+   ],
+   "page": "PDF p.174 (printed 4-48)"
+  },
+  {
+   "joint": "Fuel injection / Power Tuner / Injection and ignition timing correction setting range",
+   "value": "0–8",
+   "unit": null,
+   "property": "setting",
+   "conditions": [
+    "as shown in diagnostic code 60 EEPROM description; set with Yamaha Power Tuner"
+   ],
+   "page": "PDF p.349 (printed 8-48)"
+  }
+ ]
+}
