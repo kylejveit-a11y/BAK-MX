@@ -663,56 +663,56 @@
 },
 "listing_counts": {
 "Triumph|TF 250-C|2026": {
-"MotoSport": 2298,
 "Cycle Gear": 1045,
+"MotoSport": 2298,
 "Triumph dealer": 37,
 "research": 48
 },
 "Triumph|TF 250-E|2026": {
-"MotoSport": 2298,
 "Cycle Gear": 1150,
+"MotoSport": 2298,
 "Triumph dealer": 33,
 "research": 49
 },
 "Triumph|TF 250-X|2024": {
 "MotoSport": 2366,
 "Cycle Gear": 71,
-"research": 115,
-"Triumph dealer": 54
+"Triumph dealer": 54,
+"research": 115
 },
 "Triumph|TF 250-X|2025": {
-"MotoSport": 2372,
 "Cycle Gear": 1075,
-"research": 101,
-"Triumph dealer": 54
+"MotoSport": 2372,
+"Triumph dealer": 54,
+"research": 101
 },
 "Triumph|TF 250-X|2026": {
-"MotoSport": 2365,
 "Cycle Gear": 55,
+"MotoSport": 2365,
 "Triumph dealer": 36,
 "research": 77
 },
 "Triumph|TF 450-C|2026": {
-"MotoSport": 2312,
 "Cycle Gear": 974,
+"MotoSport": 2312,
 "Triumph dealer": 36,
 "research": 52
 },
 "Triumph|TF 450-E|2026": {
-"MotoSport": 2306,
 "Cycle Gear": 47,
+"MotoSport": 2306,
 "Triumph dealer": 35,
 "research": 50
 },
 "Triumph|TF 450-RC Edition|2025": {
-"MotoSport": 2363,
 "Cycle Gear": 983,
+"MotoSport": 2363,
 "Triumph dealer": 27,
 "research": 97
 },
 "Triumph|TF 450-X|2026": {
-"MotoSport": 2356,
 "Cycle Gear": 1035,
+"MotoSport": 2356,
 "Triumph dealer": 34,
 "research": 53
 }
@@ -1781,6 +1781,21 @@
 "ss2-076",
 "ss2-077",
 "ss2-078",
+"sz-001",
+"sz-002",
+"sz-003",
+"sz-004",
+"sz-005",
+"sz-006",
+"sz-007",
+"sz-008",
+"sz-009",
+"sz-010",
+"sz-011",
+"sz-012",
+"sz-013",
+"sz-014",
+"sz-015",
 "tn-001",
 "tn-002",
 "tn-003",
@@ -1872,7 +1887,9 @@
 "ss2-049",
 "ss2-050",
 "ss2-051",
-"ss2-052"
+"ss2-052",
+"sz-001",
+"sz-002"
 ],
 "tf5f-003": [
 "tri-T9601521",
@@ -1987,7 +2004,8 @@
 "en-147",
 "en-148",
 "en-149",
-"en-150"
+"en-150",
+"sz-008"
 ],
 "tfb-002": [
 "cg-pro-circuit-t-6-exhaust-system-triumph-tc450c-tf450rc",
@@ -2052,7 +2070,8 @@
 "ha-026",
 "ha-028",
 "ha-029",
-"ha-030"
+"ha-030",
+"sz-009"
 ],
 "tfb-003": [
 "en-208",
@@ -2132,7 +2151,8 @@
 "en4-154",
 "en4-155",
 "ha-035",
-"ha-036"
+"ha-036",
+"sz-012"
 ],
 "tfb-010": [
 "ch-022",
