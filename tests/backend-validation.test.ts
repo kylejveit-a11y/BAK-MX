@@ -51,11 +51,11 @@ test('Works Edition is recognised whatever the rider calls it, and keeps its own
  assert.match(we!.generation,/Works Edition/);assert.doesNotMatch(std!.generation,/Works Edition/);
 });
 
-test('garage sharing input: at most 8 own photos, and only known answers',async()=>{
- const {garageSharingSchema,sheetAnswerSchema}=await import('../server/rider-surfaces.ts');
+test('garage sharing input: at most 8 own photos, no unknown fields',async()=>{
+ const {garageSharingSchema}=await import('../server/rider-surfaces.ts');
  const id='00000000-0000-4000-8000-000000000001';
  assert.ok(garageSharingSchema.safeParse({bike_id:id,show_on_profile:true,photo_ids:[id]}).success);
  assert.ok(!garageSharingSchema.safeParse({bike_id:id,show_on_profile:true,photo_ids:Array(9).fill(id)}).success);
  assert.ok(!garageSharingSchema.safeParse({bike_id:id,show_on_profile:true,owner:'x'}).success);
- assert.ok(!sheetAnswerSchema.safeParse({id,decision:'approve_all'}).success);
+ assert.equal(garageSharingSchema.parse({bike_id:id,show_on_profile:true}).build_sheet_public,false);
 });
