@@ -14,3 +14,6 @@ export const tint=(alpha:number)=>withAlpha(colors.accent,alpha);
 export const metalHighlight=()=>mix(colors.accent,'#ffffff',0.45);
 const mix=(a:string,b:string,t:number)=>{const p=(h:string)=>[1,3,5].map(i=>parseInt(h.slice(i,i+2),16));const x=p(a),y=p(b);return '#'+x.map((v,i)=>Math.round(v+(y[i]-v)*t).toString(16).padStart(2,'0')).join('');};
 export const glowTint=(alpha:number)=>withAlpha(colors.glow,alpha);
+
+/** Less motion: the rider's choice in Account › Preferences, or the phone's own Reduce Motion setting. */
+export const motion={chosen:false,system:false,get reduced(){return this.chosen||this.system;}};

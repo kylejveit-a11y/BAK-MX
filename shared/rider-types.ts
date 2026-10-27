@@ -1,6 +1,6 @@
 /** Shapes returned by the rider-surface API. Shared by the web and native clients. */
 export type PhotoRef={id:string;url:string;width:number|null;height:number|null};
-export type RiderRef={user_id:string;handle:string;display_name:string;location:string;riding_class:string;avatar_url?:string};
+export type RiderRef={user_id:string;handle:string;display_name:string;location:string;riding_class:string;race_number?:string;avatar_url?:string};
 export type Profile=RiderRef&{bio:string;created_at:string;updated_at?:string;avatar_photo_id?:string|null};
 export type PostCategory='build'|'setup_question'|'ride_plan'|'general';
 export type Post={id:string;user_id:string;category:PostCategory;body:string;bike_label:string;created_at:string;author:RiderRef;mine:boolean;like_count:number;liked:boolean;comment_count:number;photos?:PhotoRef[]};

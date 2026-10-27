@@ -46,7 +46,7 @@ export function testerBaselinesFor(bike:{manufacturer:string;model:string;model_
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-47';
+export const PROMPT_VERSION='mx-engineering-48';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -175,7 +175,7 @@ export function responseViolations(r:Parsed,claims:Claim[],fitted:string[]=[],kn
  if(/\b[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\b/i.test(r.summary+' '+r.answer))found.push('The rider-facing text shows an internal identifier. Name the source in plain words instead.');
  const own=fitted.join(' ').toLowerCase(),named=(JSON.stringify(r).match(/\b(Keefer|Motocross Action|MXA|Bones Bacon|Slavens|Teknik)\b/gi)??[]).filter(n=>!own.includes(n.toLowerCase()));
  if(named.length)found.push('The rider-facing text names a tester, magazine or tuner. Say what suspension tuners and testers commonly find, in your own words, without names or their numbers.');
- if(/\b(research notes?|bike notes|our notes|recorded in our|on file in our|supplied (notes|data|research|context)|provided (notes|data|context)|installed_parts|tester_baselines|bike_overview|setup_knowledge|racing_knowledge|coaching_knowledge|coaching_history|other_disciplines|usual_dirt|rider_media|earlier_fix|bike_knowledge|other_bikes_knowledge|reviewed_workshop|rider_own_manual|verified_claims|authored_hypotheses|garage_updates)\b/i.test(JSON.stringify({a:r.answer,s:r.summary,c:r.setup_changes,n:r.next_step})))found.push('The rider-facing text describes how BAK is fed (research notes, supplied data, input field names). Speak plainly: "testers report", "the maker claims", "your build sheet shows".');
+ if(/\b(research notes?|bike notes|our notes|recorded in our|on file in our|supplied (notes|data|research|context)|provided (notes|data|context)|installed_parts|tester_baselines|bike_overview|setup_knowledge|racing_knowledge|coaching_knowledge|coaching_history|other_disciplines|usual_dirt|rider_media|rider_preferences|earlier_fix|bike_knowledge|other_bikes_knowledge|reviewed_workshop|rider_own_manual|verified_claims|authored_hypotheses|garage_updates)\b/i.test(JSON.stringify({a:r.answer,s:r.summary,c:r.setup_changes,n:r.next_step})))found.push('The rider-facing text describes how BAK is fed (research notes, supplied data, input field names). Speak plainly: "testers report", "the maker claims", "your build sheet shows".');
  return [...new Set(found)];
 }
 export function validateResponse(value:unknown,claims:Claim[],fitted:string[]=[],knowledge:Knowledge[]=[]):EngineeringResponse{
@@ -275,6 +275,10 @@ When input.bike is null the rider is asking a general question with no build cho
 
 STYLE
 Units: this is a US rider. Rider weight is in pounds (geared_weight_lb) and height in inches. Use US units in your own wording: lb, mph, psi, °F, inches and feet, fluid ounces and quarts. Keep a published value exactly as its source states it (sag and clearances in mm, torque in Nm, spring rates in N/mm or kg/mm, capacities in ml or litres) and, when it helps, add the US equivalent in brackets after it, for example torque as "35 Nm (26 ft-lb)". Never drop or replace the published figure.
+RIDER PREFERENCES (rider_preferences, when present; the rider chose these in Account, and they shape delivery only, never the facts):
+- units "metric": use metric in your own wording (kg, km/h, bar, °C, mm and cm, ml and litres) and give a US figure in brackets only where a rider would expect it (tire pressure "0.9 bar (13 psi)"). Rider weight and height are still stored in lb and inches: convert them when you mention them. Published values still stay exactly as their source states them. units "us" (or absent): as above.
+- answer_length "quick": lead with the fix and the number in two to four sentences; keep the "why" to one line; no tables unless the rider asked for a list of values; keep the same next_step, safety warnings and confidence, and still flag missing data. A safety issue always gets the words it needs. "full" (or absent): the normal depth.
+- tone "encouraging": warmer and more patient, name what the rider is doing right before the change, frame changes as the next step; never soften a safety warning or invent praise. "straight" (or absent): direct and plain, no padding.
 Sound like a factory race mechanic and suspension tuner talking to a rider at the track: knowledgeable without arrogance, confident where the evidence supports it, straight about what is not known. Plain rider language; never robotic, corporate or academic. Never open with praise or filler ("Great question", "Absolutely", "I'd be happy to help"), never restate the question, no emojis.
 Lead with the answer or the most likely explanation in the first sentence, then why it happens in a sentence or two.
 Match the reply to the question. A simple question (what is race sag, what is a torque value) gets a short direct answer, not a diagnostic report. For troubleshooting, short headed sections help when they fit: "What I think is happening", "Why it happens", "What I'd check first", "What to look for", "What I'd change". Use only the ones the question needs; they are not a template. Use a table to compare settings or specifications, and numbered steps when order matters.
@@ -373,10 +377,12 @@ export function riderMedia(media:ChatMedia|null,count:number,before:Before|null=
 }
 
 /** Steps 3 and 4. `claims` is the retrieved exact-bike evidence. */
-export async function generateAnswer(bike:Bike|null,history:Message[],claims:Claim[],message:string,lookups:string[]=[],onDraft?:(draft:{summary:string;answer:string})=>void,setupHistory:SetupResultRow[]=[],knowledge:Knowledge[]=[],guided?:GuidedStep|null,voice=false,riderManual:{page:number;text:string}[]=[],images:string[]=[],tracks:TrackProfile[]=[],media:ChatMedia|null=null,coaching:Coaching|null=null){
+/** How the rider wants answers: units first, quick or full, straight or encouraging. Saved in Account › Preferences. */
+export type RiderPreferences={units:'us'|'metric';answer_length:'quick'|'full';tone:'straight'|'encouraging'};
+export async function generateAnswer(bike:Bike|null,history:Message[],claims:Claim[],message:string,lookups:string[]=[],onDraft?:(draft:{summary:string;answer:string})=>void,setupHistory:SetupResultRow[]=[],knowledge:Knowledge[]=[],guided?:GuidedStep|null,voice=false,riderManual:{page:number;text:string}[]=[],images:string[]=[],tracks:TrackProfile[]=[],media:ChatMedia|null=null,coaching:Coaching|null=null,preferences:RiderPreferences|null=null){
  const before=coaching?.before&&media?.kind==='clip'?coaching.before:null;if(before)images=[...images,...before.urls];
  const started=Date.now(),fitted=bike?readInstalled(bike.configuration).parts.map(p=>p.b).filter(Boolean):[];
- const input={...buildEngineeringInput(bike,history,claims,message,setupHistory,knowledge,guided,voice,riderManual,tracks),spec_lookups_performed:lookups,rider_photos_attached:images.length,...(images.length?{rider_media:riderMedia(media,images.length-(before?.urls.length??0),before)}:{}),...(coaching?.history.length?{coaching_history:coaching.history}:{})};
+ const input={...buildEngineeringInput(bike,history,claims,message,setupHistory,knowledge,guided,voice,riderManual,tracks),spec_lookups_performed:lookups,rider_photos_attached:images.length,...(images.length?{rider_media:riderMedia(media,images.length-(before?.urls.length??0),before)}:{}),...(coaching?.history.length?{coaching_history:coaching.history}:{}),...(preferences?{rider_preferences:preferences}:{})};
  const {wire:full,real}=toWire(input);
  // The provider caches the instructions block as a unit. The reference library is identical on every request, so it rides
  // there; only what changes per question (bike, conversation, retrieved evidence, message) is sent as input.

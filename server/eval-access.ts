@@ -23,6 +23,7 @@ const body=z.object({
  // Coaching tests: still frames as inline JPEGs (never links), and the clip details the app would send with them.
  images:z.array(z.string().regex(/^data:image\/jpeg;base64,[A-Za-z0-9+/=]+$/).max(400000)).max(CLIP_MAX_FRAMES).default([]),
  media:z.discriminatedUnion('kind',[z.object({kind:z.literal('clip'),duration:z.number().min(0).max(120),frames:z.array(z.number().min(0).max(120)).min(2).max(CLIP_MAX_FRAMES),focus:z.enum(COACH_FOCUS_IDS).optional(),slowmo:z.boolean().optional()}).strict(),z.object({kind:z.literal('photos'),focus:z.enum(COACH_FOCUS_IDS)}).strict()]).optional(),
+ preferences:z.object({units:z.enum(['us','metric']),answer_length:z.enum(['quick','full']),tone:z.enum(['straight','encouraging'])}).strict().optional(),
  setup_history:z.array(z.object({recorded_at:z.string().default(()=>new Date().toISOString()),track:z.string().max(120).default(''),conditions:z.string().max(120).default(''),
   change_made:z.string().max(1000).default(''),result:z.enum(['better','no_change','worse','not_tested']),notes:z.string().max(1000).default('')})).max(8).default([]),
 });
@@ -46,7 +47,7 @@ export async function handleEval(req:Request):Promise<Response>{
   const lookups=bike?await planSpecLookups(bike,history,data.message):[];
   const claims=bike?await searchBikeClaims(admin,bike,lookups):[];
   const knowledge=bike?[...await bikeKnowledge(admin,bike,data.message,lookups),...await comparisonKnowledge(admin,bike,data.message)]:[];
-  const {response}=await generateAnswer(bike,history,claims,data.message,lookups,()=>{},data.setup_history as never,knowledge,data.guided??null,data.voice===true,[],data.images,[],data.media??null);
+  const {response}=await generateAnswer(bike,history,claims,data.message,lookups,()=>{},data.setup_history as never,knowledge,data.guided??null,data.voice===true,[],data.images,[],data.media??null,null,data.preferences??null);
   await log(true);
   return new Response(JSON.stringify({prompt_version:PROMPT_VERSION,model:process.env.OPENAI_MODEL,ms:Date.now()-t0,published_claims:claims.length,lookups,response}),{headers:{'content-type':'application/json','cache-control':'no-store'}});
  }catch(e){await log(false,String((e as Error)?.message??e));throw e;}

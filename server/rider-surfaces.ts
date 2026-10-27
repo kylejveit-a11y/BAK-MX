@@ -18,7 +18,9 @@ const text=(max:number)=>z.string().trim().min(1).max(max);
 const optionalText=(max:number)=>z.string().trim().max(max).default('');
 export const POST_CATEGORIES=['build','setup_question','ride_plan','general'] as const;
 export const EVENT_TYPES=['ride_day','race','practice','clinic','meetup'] as const;
-export const profileSchema=z.object({handle:z.string().trim().toLowerCase().regex(/^[a-z0-9_]{3,24}$/,'Use 3–24 lowercase letters, numbers or underscores'),display_name:optionalText(60),bio:optionalText(500),avatar_photo_id:z.string().uuid().nullable().optional(),location:optionalText(80),riding_class:optionalText(60),accept_rules:z.literal(true).optional()}).strict();
+export const profileSchema=z.object({handle:z.string().trim().toLowerCase().regex(/^[a-z0-9_]{3,24}$/,'Use 3–24 lowercase letters, numbers or underscores'),display_name:optionalText(60),bio:optionalText(500),avatar_photo_id:z.string().uuid().nullable().optional(),location:optionalText(80),riding_class:optionalText(60),race_number:z.string().trim().regex(/^([0-9]{1,3})?$/,'Race number is 1 to 3 digits').optional(),accept_rules:z.literal(true).optional()}).strict();
+export const preferencesSchema=z.object({units:z.enum(['us','metric']),answer_length:z.enum(['quick','full']),tone:z.enum(['straight','encouraging'])}).strict();
+export const DEFAULT_PREFERENCES={units:'us',answer_length:'full',tone:'straight'} as const;
 export const postSchema=z.object({category:z.enum(POST_CATEGORIES),body:text(4000),bike_label:optionalText(120),photo_ids:photoIds(4)}).strict();
 export const commentSchema=z.object({post_id:uuid,body:text(2000)}).strict();
 const instant=z.string().refine(v=>Number.isFinite(Date.parse(v)),{message:'Use a valid date and time'}).transform(v=>new Date(v).toISOString());
@@ -44,14 +46,14 @@ async function withAvatars<T extends Row>(rows:T[]):Promise<T[]>{
 }
 async function profilesFor(db:Db,ids:string[]):Promise<Map<string,Row>>{
  const unique=[...new Set(ids)];if(!unique.length)return new Map();
- const rows=checked(await db.from('profiles').select('user_id,handle,display_name,location,riding_class,avatar_photo_id').in('user_id',unique)) as Row[]|null;
+ const rows=checked(await db.from('profiles').select('user_id,handle,display_name,location,riding_class,race_number,avatar_photo_id').in('user_id',unique)) as Row[]|null;
  return new Map((await withAvatars(rows??[])).map(r=>[r.user_id,r]));
 }
 async function requireProfile(db:Db,owner:string){
  const profile=checked(await db.from('profiles').select('user_id').eq('user_id',owner).maybeSingle());
  if(!profile)throw new HttpError(409,'Set up your rider profile before posting or messaging.');
 }
-const author=(profiles:Map<string,Row>,id:string)=>profiles.get(id)??{user_id:id,handle:'rider',display_name:'',location:'',riding_class:'',avatar_url:''};
+const author=(profiles:Map<string,Row>,id:string)=>profiles.get(id)??{user_id:id,handle:'rider',display_name:'',location:'',riding_class:'',race_number:'',avatar_url:''};
 /** First-pass screen on rider-written text; reports and blocks handle the rest. */
 function screen(...texts:(string|null|undefined)[]){if(texts.some(t=>t&&objectionable(t)))throw new HttpError(422,'That wording isn’t allowed here. Edit it and try again.');}
 function saveFailed(error:{code?:string}|null,conflict:string):never{
@@ -88,11 +90,17 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
  }
  if(path==='/api/profiles'&&method==='GET'){
   const rider=id('id');
-  const found=checked(await db.from('profiles').select('user_id,handle,display_name,bio,location,riding_class,created_at,avatar_photo_id').eq('user_id',rider).maybeSingle()) as Row|null;const profile=found?(await withAvatars([found]))[0]:null;
+  const found=checked(await db.from('profiles').select('user_id,handle,display_name,bio,location,riding_class,race_number,created_at,avatar_photo_id').eq('user_id',rider).maybeSingle()) as Row|null;const profile=found?(await withAvatars([found]))[0]:null;
   if(!profile)throw new HttpError(404,'Rider not found');
   const posts=(checked(await db.from('posts').select('id,category,body,bike_label,created_at,photo_ids').eq('user_id',rider).is('removed_at',null).order('created_at',{ascending:false}).limit(20))??[]) as Row[];
   const plinks=await photoLinks(posts.flatMap(p=>p.photo_ids??[]));
   return json({profile,posts:posts.map(({photo_ids,...p})=>({...p,photos:pick(plinks,photo_ids)})),bikes:await publicGarage(db,rider,owner),mine:rider===owner});
+ }
+
+ // ---- Preferences: how BAK answers (units, length, tone)
+ if(path==='/api/preferences'){
+  if(method==='GET'){const row=checked(await db.from('rider_preferences').select('units,answer_length,tone').eq('user_id',owner).maybeSingle()) as Row|null;return json(row??DEFAULT_PREFERENCES);}
+  if(method==='PUT'){const data=preferencesSchema.parse(await readJson(req));const result=await db.from('rider_preferences').upsert({...data,user_id:owner,updated_at:new Date().toISOString()},{onConflict:'user_id'}).select('units,answer_length,tone').single();if(result.error)saveFailed(result.error,'');return json(result.data);}
  }
 
  // ---- Community

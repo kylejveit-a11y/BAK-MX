@@ -27,7 +27,7 @@ export function ProfileEditor({profile,onSaved,compact=false}:{profile:Profile|n
  async function submit(e:FormEvent<HTMLFormElement>){
   e.preventDefault();const f=new FormData(e.currentTarget);setBusy(true);setError('');setSaved(false);
   try{
-   const next=await api<Profile>('/profile','PUT',{handle:String(f.get('handle')||'').trim().toLowerCase().replace(/[\s-]+/g,'_').replace(/[^a-z0-9_]/g,'').replace(/_+$/,''),display_name:String(f.get('display_name')||''),bio:String(f.get('bio')||''),location:String(f.get('location')||''),riding_class:String(f.get('riding_class')||''),...(profile?{}:{accept_rules:true})});
+   const next=await api<Profile>('/profile','PUT',{handle:String(f.get('handle')||'').trim().toLowerCase().replace(/[\s-]+/g,'_').replace(/[^a-z0-9_]/g,'').replace(/_+$/,''),display_name:String(f.get('display_name')||''),bio:String(f.get('bio')||''),location:String(f.get('location')||''),riding_class:String(f.get('riding_class')||''),race_number:String(f.get('race_number')||'').replace(/[^0-9]/g,'').slice(0,3),...(profile?{}:{accept_rules:true})});
    onSaved(next);setSaved(true);
   }catch(err){setError((err as Error).message);}finally{setBusy(false);}
  }
@@ -38,6 +38,7 @@ export function ProfileEditor({profile,onSaved,compact=false}:{profile:Profile|n
    <label className="field"><span>Display name</span><input name="display_name" defaultValue={profile?.display_name||''} maxLength={60}/></label>
    <label className="field"><span>Home area</span><input name="location" defaultValue={profile?.location||''} maxLength={80} placeholder="City or region"/></label>
    <label className="field"><span>Class / riding</span><input name="riding_class" defaultValue={profile?.riding_class||''} maxLength={60} placeholder="250 B, Vet 30+, weekend rider…"/></label>
+   <label className="field"><span>Race number</span><input name="race_number" inputMode="numeric" pattern="[0-9]{0,3}" defaultValue={profile?.race_number||''} maxLength={3} placeholder="e.g. 36"/></label>
   </div>
   {!compact&&<label className="field"><span>About</span><textarea name="bio" rows={3} maxLength={500} defaultValue={profile?.bio||''} placeholder="What you ride and where."/></label>}
   {!profile&&<div className="rules"><span className="eyebrow">COMMUNITY RULES</span><ul>{COMMUNITY_RULES.map((r,i)=><li key={i}>{r}</li>)}</ul><label className="field check"><input type="checkbox" name="accept" required/><span>I agree to the community rules.</span></label></div>}
@@ -347,7 +348,7 @@ export function RiderProfile({riderId,onClose,onMessage}:{riderId:string;onClose
   {error&&<div className="error" role="alert">{error}</div>}
   {!data&&!error&&<p className="subtle" role="status">Loading rider…</p>}
   {data&&<>
-   <header className="post-head"><div className="avatar" aria-hidden="true">{riderName(data.profile).replace('@','').slice(0,1).toUpperCase()}</div><div><h2 style={{margin:0}}>{riderName(data.profile)}</h2><span className="subtle">@{data.profile.handle}{data.profile.location?' · '+data.profile.location:''}{data.profile.riding_class?' · '+data.profile.riding_class:''}</span></div></header>
+   <header className="post-head"><div className="avatar" aria-hidden="true">{riderName(data.profile).replace('@','').slice(0,1).toUpperCase()}</div><div><h2 style={{margin:0}}>{data.profile.race_number&&<span className="race-plate">{data.profile.race_number}</span>}{riderName(data.profile)}</h2><span className="subtle">@{data.profile.handle}{data.profile.location?' · '+data.profile.location:''}{data.profile.riding_class?' · '+data.profile.riding_class:''}</span></div></header>
    {data.profile.bio&&<p className="plain-message">{data.profile.bio}</p>}
    <p className="subtle">Riding with BAK MX since {new Date(data.profile.created_at).toLocaleDateString([],{month:'long',year:'numeric'})}</p>
    {!data.mine&&<RiderActions rider={data.profile} target={{type:'profile',id:data.profile.user_id}} onMessage={r=>{onClose();onMessage(r);}} onBlocked={onClose}/>}

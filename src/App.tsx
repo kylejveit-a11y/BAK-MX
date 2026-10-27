@@ -86,6 +86,7 @@ export function App(){
  {page==='Specs'&&!!session&&<PartsCatalog bike={bike}/>}
 {page==='Account'&&<ProfilePanel key={'profile-'+(session?.user.id||'none')} signedIn={!!session}/>}
  {page==='Account'&&<Account key={session?.user.id||'signed-out'} session={session} onSignIn={()=>setAuth(true)} onSignedOut={()=>{setBikes([]);go('Overview')}}/>}
+ {page==='Account'&&session&&<Preferences/>}
  {page==='Account'&&<AppColor bike={bike} mode={colorMode} onChange={m=>{setColorMode(m);try{localStorage.setItem('bak.app-color',m);}catch{}}}/>}
  {page==='Account'&&<Feedback signedIn={!!session} bike={bike}/>}
  {page==='Account'&&<ReportQueue signedIn={!!session}/>}
@@ -247,5 +248,19 @@ function AppColor({bike,mode,onChange}:{bike?:Bike;mode:ThemeMode;onChange:(m:Th
  return <section className="panel"><span className="eyebrow">APP COLOR</span>
   {opt('bike','Match my bike',bike?(own.key==='bak'?'This bike uses BAK blue':`${own.label} for your ${bike.manufacturer}. Changes when you switch bikes.`):'Follows the bike you have selected',own.deep)}
   {opt('bak','BAK blue','The same blue on every bike',bak.deep)}
+ </section>;
+}
+
+/** Account › Preferences: how BAK answers. Saved to the account, so the phone app follows the same choices. */
+function Preferences(){
+ type P={units:'us'|'metric';answer_length:'quick'|'full';tone:'straight'|'encouraging'};
+ const [p,setP]=useState<P|null>(null),[error,setError]=useState('');
+ useEffect(()=>{api<P>('/preferences').then(setP).catch(e=>setError((e as Error).message));},[]);
+ async function save(next:Partial<P>){if(!p)return;const merged={...p,...next};setP(merged);setError('');try{setP(await api<P>('/preferences','PUT',merged));}catch(e){setP(p);setError((e as Error).message);}}
+ const group=<K extends keyof P>(label:string,key:K,items:[P[K],string][])=><div className="field"><span>{label}</span><div className="button-row" style={{marginTop:4}}>{items.map(([v,t])=><button key={String(v)} type="button" className={'button'+(p?.[key]===v?'':' secondary')} aria-pressed={p?.[key]===v} onClick={()=>void save({[key]:v} as Partial<P>)}>{t}</button>)}</div></div>;
+ return <section className="panel"><span className="eyebrow">PREFERENCES</span>
+  {!p&&!error&&<p className="subtle" role="status">Loading…</p>}
+  {p&&<>{group('Units in BAK’s answers','units',[['us','lb · psi · in'],['metric','kg · bar · mm']])}{group('Answer length','answer_length',[['quick','Quick'],['full','Full']])}{group('How BAK talks','tone',[['straight','Straight shooter'],['encouraging','Encouraging']])}</>}
+  {error&&<div className="error" role="alert">{error}</div>}
  </section>;
 }

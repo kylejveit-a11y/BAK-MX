@@ -1236,3 +1236,4 @@ input:focus,select:focus,textarea:focus{border-color:var(--bike-accent)}
 .app-header{box-shadow:0 1px 0 0 color-mix(in srgb,var(--bike-accent) 22%,transparent),0 10px 40px -18px var(--bike-wash)}
 body{background-image:radial-gradient(90% 40% at 50% -8%,var(--bike-wash),transparent 62%)}
 .app-header,body{transition:box-shadow .35s ease,background-image .35s ease}
+.race-plate{display:inline-block;margin-right:10px;padding:1px 10px;border-radius:6px;transform:skewX(-10deg);background:linear-gradient(180deg,color-mix(in srgb,var(--bike-accent) 55%,#fff),var(--bike-accent) 50%,var(--bike-deep));color:#0b0c10;font-weight:900;font-style:italic;border:1px solid rgba(255,255,255,.3);border-bottom-color:rgba(0,0,0,.5)}

@@ -5,13 +5,13 @@ import {Animated,FlatList,Modal,StyleSheet,Text,TextInput,View,useWindowDimensio
 import {Pressable} from './Touch';
 import {colors} from './theme';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
-import * as Haptics from 'expo-haptics';
+import {tap as hTap,select as hSelect} from './haptics';
 import {Icon} from './Icon';
 
 export type Option={value:string;label:string;detail?:string};
 const ROW=54;
 const C={bg:'#060609',text:'#f6f7f9',muted:'#adb5c1',dim:'#7d8593',line:'#232833',band:'#14171d',get accent(){return colors.accent;},get primary(){return colors.primary;}};
-const tick=()=>{void Haptics.selectionAsync().catch(()=>{});};
+const tick=()=>{hSelect();};
 
 type SheetProps={visible:boolean;step?:string;title:string;options:Option[];value?:string;onPick:(value:string)=>void;onClose:()=>void;back?:{label:string;onPress:()=>void};footer?:{label:string;onPress:()=>void};searchPlaceholder?:string};
 
@@ -30,7 +30,7 @@ export function WheelSheet({visible,step,title,options,value,onPick,onClose,back
  // Start on the current value each time a step opens.
  useEffect(()=>{if(!visible)return;const i=Math.max(0,list.findIndex(o=>o.value===value));centerRef.current=i;setCenter(i);y.setValue(i*ROW);requestAnimationFrame(()=>ref.current?.scrollToOffset({offset:i*ROW,animated:false}));},[visible,title,list.length]);
  const onScroll=Animated.event([{nativeEvent:{contentOffset:{y}}}],{useNativeDriver:true,listener:(e:NativeSyntheticEvent<NativeScrollEvent>)=>{const i=Math.max(0,Math.min(list.length-1,Math.round(e.nativeEvent.contentOffset.y/ROW)));if(i!==centerRef.current){centerRef.current=i;setCenter(i);tick();}}});
- const choose=(i:number)=>{const o=list[i];if(!o)return;if(i!==centerRef.current){ref.current?.scrollToOffset({offset:i*ROW,animated:true});return;}void Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(()=>{});onPick(o.value);};
+ const choose=(i:number)=>{const o=list[i];if(!o)return;if(i!==centerRef.current){ref.current?.scrollToOffset({offset:i*ROW,animated:true});return;}hTap();onPick(o.value);};
  return <Modal visible={visible} animationType="fade" presentationStyle="overFullScreen" transparent onRequestClose={onClose} statusBarTranslucent>
   <View style={[st.sheet,{paddingTop:insets.top+10,paddingBottom:insets.bottom+12}]}>
    <View style={st.top}>

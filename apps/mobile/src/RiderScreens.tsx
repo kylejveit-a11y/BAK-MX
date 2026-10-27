@@ -1,11 +1,13 @@
 import {PublicGarage,type PublicBike} from './GarageSharing';
+import {RacePlate} from './RacePlate';
+import {motion} from './theme';
 import {usedLinkTokens} from './appLinks';
 import React,{useCallback,useContext,useEffect,useRef,useState} from 'react';
 import {ActivityIndicator,Alert,Animated,Image,KeyboardAvoidingView,Linking,Modal,Platform,ScrollView,Share,StyleSheet,Text,TextInput,View} from 'react-native';
 import {Pressable} from './Touch';
 import {success} from './haptics';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
-import * as Haptics from 'expo-haptics';
+import {tap as hTap,select as hSelect} from './haptics';
 import {useFocusEffect} from '@react-navigation/native';
 import {DateField,rideDays,recentDays} from './DateSheet';
 import {AttachedPhotos,PostPhotos} from './PhotoUI';
@@ -41,7 +43,8 @@ export function Choices<T extends string>({label,value,items,onChange,disabled=f
  return <View style={{gap:8}}><Text style={{color:'#adb5c1',fontSize:12.5,fontWeight:'600'}}>{label}</Text><View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{items.map(i=>{const on=i.value===value;return <Pressable key={i.value} haptic="select" accessibilityRole="button" accessibilityState={{selected:on,disabled}} disabled={disabled} onPress={()=>onChange(i.value)} style={({pressed})=>[{paddingHorizontal:14,paddingVertical:9,borderRadius:18,borderWidth:on?0:1,margin:on?1:0,borderColor:'#343a45',opacity:pressed?0.7:1},on&&blueLift]}>{on&&<BlueFace radius={18}/>}<Text style={[{color:on?'#ffffff':colors.text,fontSize:14,fontWeight:on?'700':'500'},on&&onBlueText]}>{i.label}</Text></Pressable>;})}</View></View>;
 }
 /** Tap-to-start row: an open line with a plus, not a box. */
-export function StartRow({icon,title,detail,onPress}:{icon:IconName;title:string;detail?:string;onPress:()=>void}){return <TileGrid><Tile icon={icon} title={title} detail={detail} trailing="plus" onPress={onPress}/></TileGrid>;}
+/** The row's bottom line doubles as the top line of the card under it, so the two never stack into a pair of lines. */
+export function StartRow({icon,title,detail,onPress}:{icon:IconName;title:string;detail?:string;onPress:()=>void}){return <View style={{marginBottom:-18}}><TileGrid><Tile icon={icon} title={title} detail={detail} trailing="plus" onPress={onPress}/></TileGrid></View>;}
 export function FormHead({title,onCancel}:{title:string;onCancel:()=>void}){return <SectionHead title={title} action="Cancel" onAction={onCancel}/>;}
 
 function useProfile(){
@@ -53,11 +56,11 @@ function useProfile(){
 
 /* ------------------------------------------------------------------ Profile */
 export function ProfileEditor({profile,onSaved}:{profile:Profile|null;onSaved:(p:Profile)=>void}){
- const [handle,setHandle]=useState(profile?.handle??''),[name,setName]=useState(profile?.display_name??''),[location,setLocation]=useState(profile?.location??''),[riding,setRiding]=useState(profile?.riding_class??''),[bio,setBio]=useState(profile?.bio??''),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[agreed,setAgreed]=useState(false);
- useEffect(()=>{setHandle(profile?.handle??'');setName(profile?.display_name??'');setLocation(profile?.location??'');setRiding(profile?.riding_class??'');setBio(profile?.bio??'');},[profile?.user_id,profile?.updated_at]);
+ const [handle,setHandle]=useState(profile?.handle??''),[name,setName]=useState(profile?.display_name??''),[location,setLocation]=useState(profile?.location??''),[riding,setRiding]=useState(profile?.riding_class??''),[bio,setBio]=useState(profile?.bio??''),[number,setNumber]=useState(profile?.race_number??''),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[agreed,setAgreed]=useState(false);
+ useEffect(()=>{setHandle(profile?.handle??'');setName(profile?.display_name??'');setLocation(profile?.location??'');setRiding(profile?.riding_class??'');setBio(profile?.bio??'');setNumber(profile?.race_number??'');},[profile?.user_id,profile?.updated_at]);
  async function save(){
   if(busy)return;setBusy(true);setNotice('');
-  try{if(!/^[A-Za-z0-9_]{3,24}$/.test(handle.trim()))throw new Error('Handle must be 3–24 letters, numbers or underscores.');if(!profile&&!agreed)throw new Error('Agree to the community rules to create your profile.');onSaved(await api<Profile>('/api/profile','PUT',{handle:handle.trim().toLowerCase(),display_name:name,location,riding_class:riding,bio,...(profile?{}:{accept_rules:true})}));setNotice('Profile saved.');}
+  try{if(!/^[A-Za-z0-9_]{3,24}$/.test(handle.trim()))throw new Error('Handle must be 3–24 letters, numbers or underscores.');if(!profile&&!agreed)throw new Error('Agree to the community rules to create your profile.');onSaved(await api<Profile>('/api/profile','PUT',{handle:handle.trim().toLowerCase(),display_name:name,location,riding_class:riding,bio,race_number:number.trim(),...(profile?{}:{accept_rules:true})}));setNotice('Profile saved.');}
   catch(e){setNotice(errorText(e));}finally{setBusy(false);}
  }
  return <View style={{gap:12}}>
@@ -66,6 +69,7 @@ export function ProfileEditor({profile,onSaved}:{profile:Profile|null;onSaved:(p
   <Field editable={!busy} label="Display name" placeholder="The name riders see" value={name} onChangeText={setName} maxLength={60} autoCapitalize="words"/>
   <Field editable={!busy} label="Home area" placeholder="e.g. Tampa, FL" value={location} onChangeText={setLocation} maxLength={80} autoCapitalize="words"/>
   <Field editable={!busy} label="Class / riding" placeholder="e.g. Vet 35+, 450 C" value={riding} onChangeText={setRiding} maxLength={60}/>
+  <Field editable={!busy} label="Race number" placeholder="e.g. 36" value={number} onChangeText={t=>setNumber(t.replace(/[^0-9]/g,'').slice(0,3))} keyboardType="number-pad" maxLength={3}/>
   <Field editable={!busy} label="About" placeholder="What you ride, where, what you’re working on" value={bio} onChangeText={setBio} maxLength={500} multiline autoCapitalize="sentences"/>
   {!profile&&<View style={{gap:8,paddingTop:8}}><Text style={{color:'#9aa2ae',fontSize:11.5,fontWeight:'600',letterSpacing:1}}>COMMUNITY RULES</Text>{COMMUNITY_RULES.map((r,i)=><Copy key={i}>• {r}</Copy>)}<CheckRow label="I agree to the community rules" checked={agreed} onPress={()=>setAgreed(!agreed)}/></View>}
   <Notice text={notice}/>
@@ -116,7 +120,7 @@ export function CommunityScreen({bike,onMessage}:{bike?:Bike;onMessage:(r:RiderR
  const run=useRef(0);
  const load=useCallback(async()=>{const mine=++run.current;setLoading(true);try{const data=await api<Post[]>('/api/posts'+(filter?'?category='+filter:''));if(mine===run.current){setPosts(data);setNotice('');}}catch(e){if(mine===run.current)setNotice(errorText(e));}finally{if(mine===run.current)setLoading(false);}},[filter]);
  useFocusEffect(useCallback(()=>{if(profile)void load();},[load,profile?.user_id]));
- async function like(p:Post){void Haptics.selectionAsync().catch(()=>{});setPosts(old=>old.map(x=>x.id===p.id?{...x,liked:!p.liked,like_count:p.like_count+(p.liked?-1:1)}:x));try{await api('/api/likes?post_id='+p.id,p.liked?'DELETE':'PUT');}catch(e){setNotice(errorText(e));void load();}}
+ async function like(p:Post){hSelect();setPosts(old=>old.map(x=>x.id===p.id?{...x,liked:!p.liked,like_count:p.like_count+(p.liked?-1:1)}:x));try{await api('/api/likes?post_id='+p.id,p.liked?'DELETE':'PUT');}catch(e){setNotice(errorText(e));void load();}}
  async function report(p:Post){if(!reason.trim())return;try{await api('/api/reports','POST',{target_type:'post',target_id:p.id,reason});setReporting('');setReason('');setNotice('Report received. We review reports and remove posts that break the rules.');}catch(e){setNotice(errorText(e));}}
  function more(p:Post){
   const block=()=>Alert.alert(`Block ${riderName(p.author)}?`,'You won’t see their posts, events or messages, and they won’t see yours.',[{text:'Cancel',style:'cancel'},{text:'Block',style:'destructive',onPress:()=>void api('/api/blocks?user_id='+p.user_id,'PUT').then(()=>setPosts(old=>old.filter(x=>x.user_id!==p.user_id))).catch(e=>setNotice(errorText(e)))}]);
@@ -433,7 +437,7 @@ export function RiderProfileView({riderId,onBack,onMessage}:{riderId:string;onBa
   {data&&<>
    <View style={{alignItems:'center',gap:8,paddingVertical:8}}>
     <Avatar name={riderName(data.profile)} uri={data.profile.avatar_url} size={92}/>
-    <Text style={{color:colors.text,fontSize:26,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.6}}>{riderName(data.profile)}</Text>
+    <View style={{flexDirection:'row',alignItems:'center',gap:10}}>{!!data.profile.race_number&&<RacePlate number={data.profile.race_number}/>}<Text style={{color:colors.text,fontSize:26,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.6}}>{riderName(data.profile)}</Text></View>
     <Text style={{color:'#adb5c1',fontSize:14}}>@{data.profile.handle}{data.profile.location?' · '+data.profile.location:''}{data.profile.riding_class?' · '+data.profile.riding_class:''}</Text>
     {!!data.profile.bio&&<Text selectable style={{color:colors.text,fontSize:15.5,lineHeight:23,textAlign:'center'}}>{data.profile.bio}</Text>}
     <Text style={{color:'#9aa2ae',fontSize:12.5}}>Riding with BAK MX since {new Date(data.profile.created_at).toLocaleDateString([],{month:'long',year:'numeric'})}</Text>
@@ -449,7 +453,7 @@ export function RiderProfileView({riderId,onBack,onMessage}:{riderId:string;onBa
 /** Gray placeholder cards that gently pulse while the feed or events load, instead of a line of text. */
 function SkeletonList({kind}:{kind:'post'|'event'}){
  const pulse=useRef(new Animated.Value(0.45)).current;
- useEffect(()=>{const loop=Animated.loop(Animated.sequence([Animated.timing(pulse,{toValue:0.9,duration:700,useNativeDriver:true}),Animated.timing(pulse,{toValue:0.45,duration:700,useNativeDriver:true})]));loop.start();return()=>loop.stop();},[pulse]);
+ useEffect(()=>{if(motion.reduced)return;const loop=Animated.loop(Animated.sequence([Animated.timing(pulse,{toValue:0.9,duration:700,useNativeDriver:true}),Animated.timing(pulse,{toValue:0.45,duration:700,useNativeDriver:true})]));loop.start();return()=>loop.stop();},[pulse]);
  const bar=(w:number|`${number}%`,h=12)=><View style={{width:w,height:h,borderRadius:6,backgroundColor:'#20242c'}}/>;
  return <Animated.View accessibilityLabel={kind==='post'?'Loading the feed':'Loading events'} accessibilityRole="progressbar" style={{gap:22,opacity:pulse}}>
   {[0,1,2].slice(0,kind==='post'?2:3).map(i=>kind==='post'
