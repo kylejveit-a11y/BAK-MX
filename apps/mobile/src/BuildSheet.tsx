@@ -7,7 +7,7 @@ import {decodeFamily,familyOf,NOTE_HINT,WORK,providersFor,cleanName,canonBrand,p
 import {checkBuild,typeOfPart,slotOf,type BuildCheck} from '../../../shared/build-check';
 import {fuelSystem,fuelSystemLabel} from '../../../shared/fuel-system';
 import {api,apiOrigin} from './api';
-import {Button,Card,Copy,Notice,colors,LinkAction,Icon} from './ui';
+import {Button,Card,Copy,Notice,colors,tint,LinkAction,Icon} from './ui';
 import {select as hSelect} from './haptics';
 
 type Value=ReturnType<typeof readInstalled>;
@@ -334,7 +334,7 @@ function TypeRow({label,small,onPress,children}:{label:string;small?:string;onPr
    <View style={{flex:1,gap:2}}><Text style={[st.rowTitle,set&&{color:colors.text,fontWeight:'800'}]}>{name}</Text>{!set&&<Text style={st.small}>{paren?paren.charAt(0).toUpperCase()+paren.slice(1)+' · ':''}{small}</Text>}</View>
    {set?<Text style={{color:colors.accent,fontSize:14,fontWeight:'700'}}>Change</Text>:<Icon name="plus" size={18} color={colors.accent} weight={2}/>}
   </Pressable>
-  {set&&<View style={st.setRail}>{children}</View>}
+  {set&&<View style={[st.setRail,{borderLeftColor:colors.accent,backgroundColor:tint(0.05)}]}>{children}</View>}
  </View>;
 }
 function Warn({text}:{text:string}){return <View style={{flexDirection:'row',gap:10,alignItems:'flex-start'}}><View style={{width:3,height:16,marginTop:3,borderRadius:1,backgroundColor:AMBER,transform:[{skewX:'-18deg'}]}}/><Text style={{color:'#efe1c2',fontSize:14,lineHeight:20,flex:1}}>{text}</Text></View>;}
@@ -369,7 +369,7 @@ const st={
  section:{color:colors.muted,fontSize:12,fontWeight:'700' as const,letterSpacing:1.5,marginBottom:-6,marginTop:4},
  fitted:{paddingVertical:14,gap:8,borderBottomWidth:1,borderBottomColor:colors.line},
  typeBlock:{borderBottomWidth:1,borderBottomColor:colors.line},
- setRail:{borderLeftWidth:2,borderBottomWidth:0,borderLeftColor:colors.accent,paddingLeft:14,marginBottom:10,backgroundColor:'rgba(106,164,255,0.05)',borderRadius:4},
+ setRail:{borderLeftWidth:2,borderBottomWidth:0,paddingLeft:14,marginBottom:10,borderRadius:4},
  option:{paddingVertical:14,gap:10,borderBottomWidth:1,borderBottomColor:colors.line},
  brand:{color:colors.muted,fontSize:11,letterSpacing:1,fontWeight:'700' as const},
  note:{borderLeftWidth:2,borderLeftColor:colors.line,paddingLeft:10,gap:2},

@@ -10,7 +10,8 @@ import {Icon,type IconName} from './Icon';
 import {BlueFace,blueLift,onBlueText} from './BlueFace';
 export {BlueFace,blueLift,onBlueText};
 export {Icon,type IconName};
-export const colors={bg:'#060609',panel:'#121418',text:'#f6f7f9',muted:'#bcc3cd',primary:'#2F74E8',accent:'#6AA4FF',line:'#30353f'};
+import {colors,tint} from './theme';
+export {colors,tint};
 /** Screen body. Content runs edge to edge under the floating glass header and tab bar.
  safeTop pads under the status bar on screens with no header; footer floats as a glass bar above the tab bar or keyboard. */
 export function Page({title,children,safeTop=false,footer,scrollRef}:{title:string;children:React.ReactNode;safeTop?:boolean;footer?:React.ReactNode;scrollRef?:React.Ref<ScrollView>}){

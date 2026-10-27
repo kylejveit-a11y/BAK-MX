@@ -3,13 +3,14 @@
 import React,{useEffect,useMemo,useRef,useState} from 'react';
 import {Animated,FlatList,Modal,StyleSheet,Text,TextInput,View,useWindowDimensions,type NativeScrollEvent,type NativeSyntheticEvent} from 'react-native';
 import {Pressable} from './Touch';
+import {colors} from './theme';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import * as Haptics from 'expo-haptics';
 import {Icon} from './Icon';
 
 export type Option={value:string;label:string;detail?:string};
 const ROW=54;
-const C={bg:'#060609',text:'#f6f7f9',muted:'#adb5c1',dim:'#7d8593',line:'#232833',band:'#14171d',accent:'#6AA4FF',primary:'#2F74E8'};
+const C={bg:'#060609',text:'#f6f7f9',muted:'#adb5c1',dim:'#7d8593',line:'#232833',band:'#14171d',get accent(){return colors.accent;},get primary(){return colors.primary;}};
 const tick=()=>{void Haptics.selectionAsync().catch(()=>{});};
 
 type SheetProps={visible:boolean;step?:string;title:string;options:Option[];value?:string;onPick:(value:string)=>void;onClose:()=>void;back?:{label:string;onPress:()=>void};footer?:{label:string;onPress:()=>void};searchPlaceholder?:string};

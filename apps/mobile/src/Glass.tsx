@@ -8,8 +8,11 @@ import {GlassView,isLiquidGlassAvailable} from 'expo-glass-effect';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {Icon,type IconName} from './Icon';
 import type {BottomTabBarProps} from '@react-navigation/bottom-tabs';
+import Svg,{Defs,LinearGradient,RadialGradient,Rect,Stop,Ellipse} from 'react-native-svg';
 
 const liquid=(()=>{try{return Platform.OS==='ios'&&isLiquidGlassAvailable();}catch{return false;}})();
+import {colors} from './theme';
+/** @deprecated read colors.accent so the bike's colour applies */
 export const ACCENT='#6AA4FF';
 
 /** Dark glass surface. Children sit on top. */
@@ -43,14 +46,24 @@ export function FloatingTabBar({state,navigation}:BottomTabBarProps){
  const routes=state.routes.filter(r=>icons[r.name]);
  const current=state.routes[state.index]?.name;
  return <View pointerEvents="box-none" style={{position:'absolute',left:0,right:0,bottom:tabBottom(insets.bottom),alignItems:'center'}}>
-  <View style={{width:'92%',maxWidth:460,borderRadius:TAB_H/2,shadowColor:'#000',shadowOpacity:0.5,shadowRadius:18,shadowOffset:{width:0,height:8}}}><Glass strong style={{height:TAB_H,borderRadius:TAB_H/2,flexDirection:'row',alignItems:'center',paddingHorizontal:6}}>
+  <View style={{width:'92%',maxWidth:460,borderRadius:TAB_H/2,shadowColor:'#000',shadowOpacity:0.5,shadowRadius:18,shadowOffset:{width:0,height:8}}}><TabGlow/><Glass strong style={{height:TAB_H,borderRadius:TAB_H/2,flexDirection:'row',alignItems:'center',paddingHorizontal:6}}>
    {routes.map(r=>{const on=r.name===current;
     return <Pressable key={r.key} haptic="select" accessibilityRole="tab" accessibilityState={{selected:on}} accessibilityLabel={labels[r.name]??r.name} onPress={()=>{const e=navigation.emit({type:'tabPress',target:r.key,canPreventDefault:true});if(!on&&!e.defaultPrevented)navigation.navigate(r.name as never);}} style={({pressed})=>({flex:1,alignItems:'center',justifyContent:'center',height:TAB_H,opacity:pressed?0.6:1})}>
-     <View style={{height:3,width:16,marginBottom:5,borderRadius:1,backgroundColor:on?ACCENT:'transparent',transform:[{skewX:'-24deg'}]}}/>
+     <View style={{height:3,width:16,marginBottom:5,borderRadius:1,backgroundColor:on?colors.accent:'transparent',transform:[{skewX:'-24deg'}]}}/>
      <Icon name={icons[r.name]} size={24} color={on?'#f6f7f9':'#9ea6b3'} bg="#0d0f13" weight={on?1.9:1.6}/>
      <Text style={{color:on?'#f6f7f9':'#9ea6b3',fontSize:10.5,fontWeight:on?'800':'600',marginTop:2,letterSpacing:0.2}}>{labels[r.name]??r.name}</Text>
     </Pressable>;})}
   </Glass></View>
+ </View>;
+}
+
+/** The bike's colour as a soft light under the floating tab bar: present, never loud. */
+function TabGlow(){
+ const id=React.useId().replace(/[^a-zA-Z0-9]/g,'');
+ return <View pointerEvents="none" style={{position:'absolute',left:'-6%',right:'-6%',top:-26,bottom:-30}}>
+  <Svg width="100%" height="100%"><Defs><RadialGradient id={'tg'+id} cx="50%" cy="55%" rx="50%" ry="50%">
+   <Stop offset="0" stopColor={colors.glow} stopOpacity="0.20"/><Stop offset="0.55" stopColor={colors.glow} stopOpacity="0.07"/><Stop offset="1" stopColor={colors.glow} stopOpacity="0"/>
+  </RadialGradient></Defs><Ellipse cx="50%" cy="55%" rx="50%" ry="50%" fill={`url(#tg${id})`}/></Svg>
  </View>;
 }
 
@@ -59,8 +72,18 @@ export function FloatingTabBar({state,navigation}:BottomTabBarProps){
  *  you couldn't tell where the page began. The bar is a dark, nearly solid frost: a hint of what's under it, never readable. */
 export function GlassHeader(){
  const line={borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'rgba(255,255,255,0.10)'};
- if(Platform.OS==='ios')return <BlurView intensity={80} tint="systemChromeMaterialDark" style={[StyleSheet.absoluteFill,{overflow:'hidden'},line]}><View style={[StyleSheet.absoluteFill,{backgroundColor:'rgba(6,7,9,0.86)'}]}/></BlurView>;
- return <View style={[StyleSheet.absoluteFill,{backgroundColor:'rgba(6,7,9,0.96)'},line]}/>;
+ if(Platform.OS==='ios')return <BlurView intensity={80} tint="systemChromeMaterialDark" style={[StyleSheet.absoluteFill,{overflow:'hidden'},line]}><View style={[StyleSheet.absoluteFill,{backgroundColor:'rgba(6,7,9,0.86)'}]}/><HeaderEdge/></BlurView>;
+ return <View style={[StyleSheet.absoluteFill,{backgroundColor:'rgba(6,7,9,0.96)'},line]}><HeaderEdge/></View>;
+}
+/** A faint wash of the bike's colour rising from the header's bottom edge, brightest in the middle. */
+function HeaderEdge(){
+ const id=React.useId().replace(/[^a-zA-Z0-9]/g,'');
+ return <View pointerEvents="none" style={[StyleSheet.absoluteFill]}>
+  <Svg width="100%" height="100%"><Defs>
+   <LinearGradient id={'hv'+id} x1="0" y1="0" x2="0" y2="1"><Stop offset="0.35" stopColor={colors.glow} stopOpacity="0"/><Stop offset="1" stopColor={colors.glow} stopOpacity="0.10"/></LinearGradient>
+   <LinearGradient id={'hl'+id} x1="0" y1="0" x2="1" y2="0"><Stop offset="0" stopColor={colors.accent} stopOpacity="0"/><Stop offset="0.5" stopColor={colors.accent} stopOpacity="0.55"/><Stop offset="1" stopColor={colors.accent} stopOpacity="0"/></LinearGradient>
+  </Defs><Rect x="0" y="0" width="100%" height="100%" fill={`url(#hv${id})`}/><Rect x="0" y="99%" width="100%" height="1" fill={`url(#hl${id})`}/></Svg>
+ </View>;
 }
 
 /** Header text button (Account). The icon prop is kept for callers but the label is what shows. */

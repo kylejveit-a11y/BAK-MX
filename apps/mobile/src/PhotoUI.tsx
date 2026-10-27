@@ -2,11 +2,12 @@
 import React,{useState} from 'react';
 import {ActivityIndicator,Image,Modal,ScrollView,StyleSheet,Text,View,useWindowDimensions} from 'react-native';
 import {Pressable} from './Touch';
+import {colors} from './theme';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {Icon} from './Icon';
 import type {Photo} from './photos';
 
-const C={bg:'#060609',text:'#f6f7f9',muted:'#adb5c1',accent:'#6AA4FF',line:'#2a2f39'};
+const C={bg:'#060609',text:'#f6f7f9',muted:'#adb5c1',get accent(){return colors.accent;},line:'#2a2f39'};
 const ratio=(p?:Photo)=>p?.width&&p?.height?Math.min(1.25,Math.max(0.5625,p.height/p.width)):1;
 
 /** Thumbnails of photos attached to something being written, each with a remove button. */

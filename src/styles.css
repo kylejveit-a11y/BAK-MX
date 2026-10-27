@@ -1225,3 +1225,14 @@ input[type=file]::file-selector-button{background:#12151b;border:0;border-radius
 .chip-pick span{border:1px solid var(--card-line);border-radius:999px;padding:7px 13px;font-size:14px;color:#c9cfd9;background:transparent}
 .chip-pick input:checked+span{border-color:#6AA4FF;background:rgba(106,164,255,.16);color:#fff;font-weight:700}
 .chip-pick input:focus-visible+span{outline:2px solid #6AA4FF;outline-offset:2px}
+
+/* Bike colour: the selected bike's maker colour (deep, metallic versions) as the accent layer. BAK blue stays on the main
+   buttons. Set at runtime on :root by App (--accent, --bike-*); defaults are BAK blue. */
+:root{--bike-accent:#6AA4FF;--bike-deep:#2F74E8;--bike-glow:#2F74E8;--bike-tint:rgba(106,164,255,.16);--bike-wash:rgba(47,116,232,.10)}
+input:focus,select:focus,textarea:focus{border-color:var(--bike-accent)}
+.notice,.next-step,.service-target,.calculation-result,.rider-strip,.membership,.principle-panel{border-left-color:var(--bike-accent)}
+.chip-pick input:checked+span{border-color:var(--bike-accent);background:var(--bike-tint)}
+.chip-pick input:focus-visible+span{outline-color:var(--bike-accent)}
+.app-header{box-shadow:0 1px 0 0 color-mix(in srgb,var(--bike-accent) 22%,transparent),0 10px 40px -18px var(--bike-wash)}
+body{background-image:radial-gradient(90% 40% at 50% -8%,var(--bike-wash),transparent 62%)}
+.app-header,body{transition:box-shadow .35s ease,background-image .35s ease}

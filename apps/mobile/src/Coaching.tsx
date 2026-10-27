@@ -9,7 +9,7 @@ import {api} from './api';
 import type {Photo} from './photos';
 import {MessagePhotos} from './PhotoUI';
 import {RichText,Disclosure} from './RichText';
-import {Button,Card,Eyebrow,Notice,colors} from './ui';
+import {Button,Card,Eyebrow,Notice,colors,tint} from './ui';
 import {TextInput} from 'react-native';
 
 export type Tried={result:'better'|'no_change'|'worse';note:string;updated_at:string};
@@ -66,7 +66,7 @@ export function CompareChips({sessions,focus,value,onChange}:{sessions:CoachingS
  return <View style={{gap:6,paddingTop:6}}>
   <Text style={{color:'#7d8593',fontSize:12}}>Compare with an earlier clip?</Text>
   <ScrollView horizontal showsHorizontalScrollIndicator={false} keyboardShouldPersistTaps="handled" contentContainerStyle={{gap:6}}>
-   {clips.map(s=>{const on=value===s.id;return <Pressable key={s.id} accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>onChange(on?null:s.id)} hitSlop={4} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:6,paddingLeft:4,paddingRight:12,paddingVertical:4,borderRadius:15,borderWidth:1,borderColor:on?colors.accent:'#2f3540',backgroundColor:on?'rgba(106,164,255,0.16)':'transparent',opacity:pressed?0.7:1})}>
+   {clips.map(s=>{const on=value===s.id;return <Pressable key={s.id} accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>onChange(on?null:s.id)} hitSlop={4} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:6,paddingLeft:4,paddingRight:12,paddingVertical:4,borderRadius:15,borderWidth:1,borderColor:on?colors.accent:'#2f3540',backgroundColor:on?tint(0.16):'transparent',opacity:pressed?0.7:1})}>
     {!!s.photos[0]&&<Image source={{uri:s.photos[Math.floor(s.photos.length/2)].url}} style={{width:22,height:22,borderRadius:11}} accessibilityIgnoresInvertColors/>}
     <Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:13,fontWeight:on?'700':'500'}}>{sessionLabel(s)}</Text></Pressable>;})}
   </ScrollView>
@@ -86,7 +86,7 @@ export function TriedCard({messageId,tried,onSaved,onAsk}:{messageId:string;trie
  async function save(){if(!pick)return;setBusy(true);setError('');try{const t=await api<Tried>('/api/coaching/result','POST',{message_id:messageId,result:pick,note:note.trim()});setEdit(false);onSaved(t);}catch(e){setError(e instanceof Error?e.message:'That did not save. Try again.');}finally{setBusy(false);}}
  return <View style={st.box}>
   <Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>Tried it? Did it help?</Text>
-  <View style={{flexDirection:'row',gap:8}}>{TRIED.map(t=>{const on=pick===t.key;return <Pressable key={t.key} accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setPick(t.key)} style={({pressed})=>({flex:1,alignItems:'center',paddingVertical:10,borderRadius:20,borderWidth:1,borderColor:on?colors.accent:'#343a45',backgroundColor:on?'rgba(106,164,255,0.16)':'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':colors.text,fontSize:15,fontWeight:on?'700':'500'}}>{t.label}</Text></Pressable>;})}</View>
+  <View style={{flexDirection:'row',gap:8}}>{TRIED.map(t=>{const on=pick===t.key;return <Pressable key={t.key} accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setPick(t.key)} style={({pressed})=>({flex:1,alignItems:'center',paddingVertical:10,borderRadius:20,borderWidth:1,borderColor:on?colors.accent:'#343a45',backgroundColor:on?tint(0.16):'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':colors.text,fontSize:15,fontWeight:on?'700':'500'}}>{t.label}</Text></Pressable>;})}</View>
   {pick&&<>
    <TextInput multiline value={note} onChangeText={setNote} maxLength={1000} placeholder={pick==='better'?'What felt better? (optional)':pick==='worse'?'What got worse? (optional)':'Anything you noticed? (optional)'} placeholderTextColor="#7d8593" style={st.input}/>
    <Notice text={error}/>

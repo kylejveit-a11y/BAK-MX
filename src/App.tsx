@@ -9,6 +9,7 @@ import {createSubmission,finishCreate} from './createSubmission';
 import {RichText} from './RichText';
 import {BikeParts} from './BikeParts';
 import {ProfileSharing} from './GarageSharing';
+import {themeFor,withAlpha,allThemes,type ThemeMode} from '../shared/brand-theme';
 import {Triage} from './Triage';
 import {RideCheck} from './RideCheck';
 import {GarageUpdates} from './GarageUpdates';
@@ -46,6 +47,8 @@ export function App(){
  const currentUser=useRef(session?.user.id);currentUser.current=session?.user.id;
  const bikes=fetchedBikes.filter(b=>b.user_id===session?.user.id);
  const bike=bikes.find(b=>b.id===selected)||bikes[0];
+ const [colorMode,setColorMode]=useState<ThemeMode>(()=>{try{return localStorage.getItem('bak.app-color')==='bak'?'bak':'bike';}catch{return 'bike';}});
+ useEffect(()=>{const t=themeFor(bike?.manufacturer,colorMode),r=document.documentElement.style;r.setProperty('--accent',t.accent);r.setProperty('--bike-accent',t.accent);r.setProperty('--bike-deep',t.deep);r.setProperty('--bike-glow',t.glow);r.setProperty('--bike-tint',withAlpha(t.accent,0.16));r.setProperty('--bike-wash',withAlpha(t.glow,0.10));},[bike?.manufacturer,colorMode]);
  useEffect(()=>{setSelected('');setEditing(undefined);if(!session)return;try{setSelected(localStorage.getItem('bakmx:active-bike:'+session.user.id)||'');}catch{setError('Your active bike could not be restored on this browser.');}},[session?.user.id]);
  function selectBike(id:string){setSelected(id);if(session)try{localStorage.setItem('bakmx:active-bike:'+session.user.id,id);}catch{setError('Your active bike changed, but could not be saved on this browser.');}}
  useEffect(()=>{if(!supabase)return;supabase.auth.getSession().then(({data})=>setSession(data.session));const {data}=supabase.auth.onAuthStateChange((event,s)=>{setSession(s);if(event==='PASSWORD_RECOVERY'){setAuthMode('reset');setAuth(true)}});return()=>data.subscription.unsubscribe()},[]);
@@ -83,6 +86,7 @@ export function App(){
  {page==='Specs'&&!!session&&<PartsCatalog bike={bike}/>}
 {page==='Account'&&<ProfilePanel key={'profile-'+(session?.user.id||'none')} signedIn={!!session}/>}
  {page==='Account'&&<Account key={session?.user.id||'signed-out'} session={session} onSignIn={()=>setAuth(true)} onSignedOut={()=>{setBikes([]);go('Overview')}}/>}
+ {page==='Account'&&<AppColor bike={bike} mode={colorMode} onChange={m=>{setColorMode(m);try{localStorage.setItem('bak.app-color',m);}catch{}}}/>}
  {page==='Account'&&<Feedback signedIn={!!session} bike={bike}/>}
  {page==='Account'&&<ReportQueue signedIn={!!session}/>}
  <footer className="page-footer"><span>BAK<span> MX</span></span><p>Built in garages. Proven on rides.</p><span>OFF-ROAD / BUILD-SPECIFIC GUIDANCE</span></footer></div></main><nav className="bottom-nav" aria-label="Mobile navigation">{nav.filter(n=>['Overview','Ask BAK','Garage','Community','Events'].includes(n.name)).map(({name,icon:Icon})=><button key={name} className={page===name?'active':''} aria-current={page===name?'page':undefined} onClick={()=>go(name)}><Icon size={20}/><span>{name==='Overview'?'Home':name==='Ask BAK'?'Chat':name}</span></button>)}</nav>
@@ -232,3 +236,16 @@ function Account({session,onSignIn,onSignedOut}:{session:Session|null;onSignIn:(
 
 /** Apple 5.1.2(i): before the first Ask BAK question, say what goes to the AI provider and get the rider's permission. */
 function AiConsent({onAgree,returning=false}:{onAgree:()=>void;returning?:boolean}){return <section className="panel ai-consent" aria-labelledby="ai-consent-title"><h3 id="ai-consent-title">{returning?aiConsentUpdatedTitle:aiConsentTitle}</h3>{returning&&<p>{aiConsentUpdatedIntro}</p>}<ul>{aiConsentPoints.map(p=><li key={p}>{p}</li>)}</ul><Button onClick={onAgree}>{aiConsentAgree}</Button></section>}
+
+/** Account › App colour: follow the selected bike's maker colour, or BAK blue everywhere. Remembered on this browser. */
+function AppColor({bike,mode,onChange}:{bike?:Bike;mode:ThemeMode;onChange:(m:ThemeMode)=>void}){
+ const own=themeFor(bike?.manufacturer,'bike'),bak=allThemes()[0];
+ const opt=(m:ThemeMode,title:string,detail:string,swatch:string)=><label key={m} className="check-row" style={{display:'flex',gap:12,alignItems:'center',padding:'8px 0',cursor:'pointer'}}>
+  <input type="radio" name="app-color" checked={mode===m} onChange={()=>onChange(m)} style={{width:'auto'}}/>
+  <span aria-hidden="true" style={{width:22,height:22,borderRadius:11,background:swatch,flexShrink:0,border:mode===m?'2px solid #fff':'2px solid transparent'}}/>
+  <span><b>{title}</b><br/><span className="subtle">{detail}</span></span></label>;
+ return <section className="panel"><span className="eyebrow">APP COLOR</span>
+  {opt('bike','Match my bike',bike?(own.key==='bak'?'This bike uses BAK blue':`${own.label} for your ${bike.manufacturer}. Changes when you switch bikes.`):'Follows the bike you have selected',own.deep)}
+  {opt('bak','BAK blue','The same blue on every bike',bak.deep)}
+ </section>;
+}
