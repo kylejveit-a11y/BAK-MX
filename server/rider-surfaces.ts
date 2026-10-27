@@ -1,7 +1,8 @@
 import type {SupabaseClient} from '@supabase/supabase-js';
 import {photoLinks,pick,photoIds,requireOwnPhotos} from './rider-photos.ts';
 import {z} from 'zod';
-import {checked} from './database.ts';
+import {adminDb,checked} from './database.ts';
+import {readInstalled,systemLabel,partLabel} from '../shared/installed-parts.ts';
 import {collectPages} from './pagination.ts';
 import {HttpError,readJson,uuid} from './validation.ts';
 import {objectionable} from './content-rules.ts';
@@ -24,6 +25,9 @@ const instant=z.string().refine(v=>Number.isFinite(Date.parse(v)),{message:'Use 
 export const eventSchema=z.object({title:text(120),event_type:z.enum(EVENT_TYPES),starts_at:instant,ends_at:instant.nullable().default(null),location_name:text(160),description:optionalText(4000)}).strict().refine(v=>!v.ends_at||v.ends_at>=v.starts_at,{message:'An event cannot end before it starts'});
 export const rsvpSchema=z.object({event_id:uuid,status:z.enum(['going','interested'])}).strict();
 export const messageSchema=z.object({recipient_id:uuid,body:text(4000)}).strict();
+export const garageSharingSchema=z.object({bike_id:uuid,show_on_profile:z.boolean(),photo_ids:z.array(z.string().uuid()).max(8).default([])}).strict();
+export const sheetAskSchema=z.object({bike_id:uuid}).strict();
+export const sheetAnswerSchema=z.object({id:uuid,decision:z.enum(['approve','decline','revoke'])}).strict();
 export const reportSchema=z.object({target_type:z.enum(['post','comment','event','message','profile']),target_id:uuid,reason:text(1000)}).strict();
 export const feedbackSchema=z.object({category:z.enum(['bug','answer_quality','missing_data','idea','other']),body:text(4000),context:z.record(z.unknown()).default({})}).strict().refine(v=>JSON.stringify(v.context).length<=4000,{message:'Feedback context is too large'});
 const hours=z.number().finite().min(0).max(100000).nullable().default(null);
@@ -58,6 +62,23 @@ function saveFailed(error:{code?:string}|null,conflict:string):never{
  throw new HttpError(503,'Could not save. Nothing was changed.');
 }
 
+const bikeLabel=(b:Row)=>[b.model_year,b.manufacturer,b.model].filter(Boolean).join(' ')+(b.nickname?` “${b.nickname}”`:'');
+/** The bikes a rider shows on their profile, with their chosen photos and where the viewer's build-sheet request stands. */
+async function publicGarage(db:Db,rider:string,viewer:string){
+ const {data,error}=await db.rpc('public_garage',{p_user:rider});if(error||!Array.isArray(data))return [];
+ const bikes=data as Row[];if(!bikes.length)return [];
+ const links=await photoLinks(bikes.flatMap(b=>b.public_photo_ids??[]));
+ const asked=rider===viewer?[]:((await db.from('build_sheet_requests').select('bike_id,status').eq('requester_id',viewer).in('bike_id',bikes.map(b=>b.id))).data??[]) as Row[];
+ return bikes.map(b=>({id:b.id,label:bikeLabel(b),manufacturer:b.manufacturer,model:b.model,model_year:b.model_year,nickname:b.nickname??'',photos:pick(links,b.public_photo_ids??[]),sheet:rider===viewer?'mine':asked.find(a=>a.bike_id===b.id)?.status??'none'}));
+}
+/** A bike that is on its owner's profile and visible to this rider (no block either way), with its owner and name. Bikes are
+ * owner-only, so the owner id is looked up with the service key; what the rider may see still comes from public_garage. */
+async function shownBike(db:Db,bikeId:string){
+ const row=(await adminDb().from('bikes').select('user_id').eq('id',bikeId).maybeSingle()).data as Row|null;if(!row)return null;
+ const garage=(await db.rpc('public_garage',{p_user:row.user_id})).data as Row[]|null;const bike=garage?.find(b=>b.id===bikeId);
+ return bike?{owner_id:row.user_id as string,label:bikeLabel(bike)}:null;
+}
+
 export async function handleRiderSurfaces(req:Request,url:URL,path:string,method:string,db:Db,owner:string):Promise<Response|null>{
  const q=(name:string)=>url.searchParams.get(name);
  const id=(name:string)=>uuid.parse(q(name));
@@ -81,7 +102,7 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
   if(!profile)throw new HttpError(404,'Rider not found');
   const posts=(checked(await db.from('posts').select('id,category,body,bike_label,created_at,photo_ids').eq('user_id',rider).is('removed_at',null).order('created_at',{ascending:false}).limit(20))??[]) as Row[];
   const plinks=await photoLinks(posts.flatMap(p=>p.photo_ids??[]));
-  return json({profile,posts:posts.map(({photo_ids,...p})=>({...p,photos:pick(plinks,photo_ids)})),mine:rider===owner});
+  return json({profile,posts:posts.map(({photo_ids,...p})=>({...p,photos:pick(plinks,photo_ids)})),bikes:await publicGarage(db,rider,owner),mine:rider===owner});
  }
 
  // ---- Community
@@ -204,6 +225,60 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
    if(result.error)saveFailed(result.error,'This message already exists.');
    return json({...result.data,mine:true},201);
   }
+ }
+
+
+ // ---- Garage sharing: bikes on a profile, and build-sheet requests
+ if(path==='/api/garage-sharing'){
+  if(method==='GET'){
+   const bikeId=id('bike_id');
+   const bike=checked(await db.from('bikes').select('id,show_on_profile,public_photo_ids').eq('id',bikeId).eq('user_id',owner).maybeSingle()) as Row|null;
+   if(!bike)throw new HttpError(404,'Bike not found');
+   const rows=(checked(await db.from('build_sheet_requests').select('id,requester_id,status,created_at,decided_at').eq('bike_id',bikeId).eq('owner_id',owner).order('created_at',{ascending:false}).limit(100))??[]) as Row[];
+   const profiles=await profilesFor(db,rows.map(r=>r.requester_id));
+   return json({show_on_profile:bike.show_on_profile,photo_ids:bike.public_photo_ids??[],requests:rows.filter(r=>profiles.has(r.requester_id)).map(r=>({id:r.id,rider:author(profiles,r.requester_id),status:r.status,created_at:r.created_at,decided_at:r.decided_at}))});
+  }
+  if(method==='PUT'){
+   const data=garageSharingSchema.parse(await readJson(req));const photoIds=[...new Set(data.photo_ids)];
+   if(photoIds.length){const own=(checked(await db.from('rider_photos').select('id').eq('user_id',owner).eq('kind','bike').eq('bike_id',data.bike_id).in('id',photoIds))??[]) as Row[];if(own.length!==photoIds.length)throw new HttpError(404,'Photo not found');}
+   const result=await db.from('bikes').update({show_on_profile:data.show_on_profile,public_photo_ids:photoIds}).eq('id',data.bike_id).eq('user_id',owner).select('id,show_on_profile,public_photo_ids').maybeSingle();
+   if(result.error)saveFailed(result.error,'');if(!result.data)throw new HttpError(404,'Bike not found');
+   return json({show_on_profile:result.data.show_on_profile,photo_ids:result.data.public_photo_ids??[]});
+  }
+ }
+ if(path==='/api/build-sheet-requests'&&method==='POST'){
+  const data=sheetAskSchema.parse(await readJson(req));await requireProfile(db,owner);
+  const shown=await shownBike(db,data.bike_id);if(!shown)throw new HttpError(404,'That bike isn’t shared on a profile.');
+  if(shown.owner_id===owner)throw new HttpError(400,'This is your own bike.');
+  const existing=checked(await db.from('build_sheet_requests').select('id,status,decided_at').eq('bike_id',data.bike_id).eq('requester_id',owner).maybeSingle()) as Row|null;
+  if(existing?.status==='pending'||existing?.status==='approved')return json({status:existing.status});
+  if(existing&&Date.parse(existing.decided_at??'')>Date.now()-7*864e5)throw new HttpError(409,'You can ask again a week after the last answer.');
+  const result=existing
+   ?await db.from('build_sheet_requests').update({status:'pending',decided_at:null,created_at:new Date().toISOString()}).eq('id',existing.id).select('status').single()
+   :await db.from('build_sheet_requests').insert({bike_id:data.bike_id,owner_id:shown.owner_id,requester_id:owner}).select('status').single();
+  if(result.error)saveFailed(result.error,'You already asked for this build sheet.');
+  // Let the owner know in Messages, where they already look.
+  await db.from('direct_messages').insert({sender_id:owner,recipient_id:shown.owner_id,body:`Asked to see the build sheet for your ${shown.label}. You can answer in Garage › Photos.`});
+  return json({status:'pending'},201);
+ }
+ if(path==='/api/build-sheet-requests/answer'&&method==='POST'){
+  const data=sheetAnswerSchema.parse(await readJson(req));
+  const row=checked(await db.from('build_sheet_requests').select('id,bike_id,requester_id,status').eq('id',data.id).eq('owner_id',owner).maybeSingle()) as Row|null;
+  if(!row)throw new HttpError(404,'Request not found');
+  const status=data.decision==='approve'?'approved':data.decision==='decline'?'declined':'revoked';
+  if(data.decision==='revoke'&&row.status!=='approved')throw new HttpError(409,'That build sheet isn’t being shared.');
+  const result=await db.from('build_sheet_requests').update({status,decided_at:new Date().toISOString()}).eq('id',row.id).eq('owner_id',owner).select('id,status,decided_at').single();
+  if(result.error)saveFailed(result.error,'');
+  if(status==='approved'){const bike=checked(await db.from('bikes').select('manufacturer,model,model_year,nickname').eq('id',row.bike_id).eq('user_id',owner).maybeSingle()) as Row|null;
+   if(bike)await db.from('direct_messages').insert({sender_id:owner,recipient_id:row.requester_id,body:`Shared my build sheet for the ${bikeLabel(bike)}. Open my profile to see it.`});}
+  return json(result.data);
+ }
+ if(path==='/api/build-sheet'&&method==='GET'){
+  const {data,error}=await db.rpc('shared_build_sheet',{p_bike:id('bike_id')});
+  if(error)throw new HttpError(503,'The build sheet could not load.');
+  if(!data)throw new HttpError(403,'This build sheet isn’t shared with you.');
+  const sheet=data as Row,{parts,stock}=readInstalled(sheet.configuration as Record<string,unknown>);
+  return json({bike:{id:sheet.id,label:bikeLabel(sheet)},parts:parts.map(p=>({system:p.s,system_label:systemLabel(p.s),name:partLabel(p),detail:p.d??'',off_bike:!!p.o})),stock_systems:stock.map(k=>systemLabel(k))});
  }
 
  // ---- Blocks, reports, feedback

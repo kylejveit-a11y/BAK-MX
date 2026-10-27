@@ -1,5 +1,5 @@
 import type {ChatMedia} from './coach-focus.ts';
-export type Bike = { id:string; user_id:string; manufacturer:string; model:string; model_year:number; variant:string; region:string; nickname:string; engine_hours:number|null; configuration:Record<string,unknown>; created_at:string; updated_at:string; };
+export type Bike = { id:string; user_id:string; manufacturer:string; model:string; model_year:number; variant:string; region:string; nickname:string; engine_hours:number|null; configuration:Record<string,unknown>; created_at:string; updated_at:string; show_on_profile?:boolean; };
 export type ServiceEvent = { id:string; user_id:string; bike_id:string; category:string; performed_at:string; engine_hours:number|null; notes:string; next_due_hours:number|null; interval_source:string; created_at:string; };
 export type Conversation = { id:string; user_id:string; bike_id:string|null; title:string; mode:'ask'|'diagnose'|'setup'; created_at:string; updated_at:string; };
 export type Message = { id:string; conversation_id:string; user_id:string; role:'user'|'assistant'; content:string; response:EngineeringResponse|null; created_at:string; photo_ids?:string[]; photos?:{id:string;url:string;width:number|null;height:number|null}[]; media?:ChatMedia|null; };

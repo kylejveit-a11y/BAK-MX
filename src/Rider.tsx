@@ -1,3 +1,4 @@
+import {PublicGarage,type PublicBike} from './GarageSharing';
 import {Fragment,useEffect,useRef,useState,type FormEvent,type ReactNode} from 'react';
 import {ArrowLeft,ArrowRight,CalendarDays,Check,Flag,Heart,MapPin,MessageCircle,MessageSquare,Plus,Send,ShieldOff,Trash2,UserRound,Users,X} from 'lucide-react';
 import type {Bike} from '../shared/types';
@@ -339,7 +340,7 @@ export function SetupGuide({onAsk}:{onAsk?:(text:string)=>void}){
 
 /* ------------------------------------------------------------------ Rider profile */
 export function RiderProfile({riderId,onClose,onMessage}:{riderId:string;onClose:()=>void;onMessage:(r:RiderRef)=>void}){
- const [data,setData]=useState<{profile:Profile;posts:{id:string;category:PostCategory;body:string;bike_label:string;created_at:string}[];mine:boolean}|null>(null),[error,setError]=useState('');
+ const [data,setData]=useState<{profile:Profile;posts:{id:string;category:PostCategory;body:string;bike_label:string;created_at:string}[];bikes?:PublicBike[];mine:boolean}|null>(null),[error,setError]=useState('');
  useEffect(()=>{let live=true;setData(null);setError('');api<typeof data>('/profiles?id='+riderId).then(d=>{if(live)setData(d);}).catch(e=>{if(live)setError(e.message);});return()=>{live=false};},[riderId]);
  return <div className="modal-backdrop" onClick={e=>{if(e.target===e.currentTarget)onClose();}}><section className="modal wide" role="dialog" aria-modal="true" aria-label="Rider profile"><button className="icon-button modal-close" onClick={onClose} aria-label="Close"><X/></button>
   {error&&<div className="error" role="alert">{error}</div>}
@@ -349,6 +350,7 @@ export function RiderProfile({riderId,onClose,onMessage}:{riderId:string;onClose
    {data.profile.bio&&<p className="plain-message">{data.profile.bio}</p>}
    <p className="subtle">Riding with BAK MX since {new Date(data.profile.created_at).toLocaleDateString([],{month:'long',year:'numeric'})}</p>
    {!data.mine&&<RiderActions rider={data.profile} target={{type:'profile',id:data.profile.user_id}} onMessage={r=>{onClose();onMessage(r);}} onBlocked={onClose}/>}
+   <PublicGarage bikes={data.bikes??[]}/>
    <div className="section-line"><h2>Recent posts</h2></div>
    {!data.posts.length&&<p className="subtle">No posts yet.</p>}
    {data.posts.map(p=><div className="comment" key={p.id}><span className="kind-tag" style={{marginLeft:0}}>{POST_CATEGORY_LABELS[p.category].toUpperCase()}</span>{p.bike_label&&<span className="bike-tag" style={{marginLeft:8}}>{p.bike_label}</span>}<p className="plain-message">{p.body}</p><span className="subtle">{when(p.created_at)}</span></div>)}

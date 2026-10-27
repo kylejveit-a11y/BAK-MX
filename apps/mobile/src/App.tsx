@@ -131,13 +131,13 @@ function Garage({navigation,route}:BottomTabScreenProps<Tabs,'Garage'>){const [f
    <View style={{flexDirection:'row',gap:10}}><View style={{flex:1}}><Button disabled={busy} title="Ask BAK" onPress={()=>navigation.navigate('Ask BAK')}/></View><View style={{flex:1}}><Button secondary disabled={busy} title="Edit details" onPress={()=>{load(b);setFormOpen(true);}}/></View></View>
    <TileGrid>
     <Tile icon="shock" title="Build sheet" detail="What’s stock and what’s changed" onPress={()=>setGtab('build')}/>
-    <Tile icon="camera" title={garagePhotos.photos?.length?'Photos':'Add photos of your bike'} detail={garagePhotos.photos?.length?'Only you see these':'Before and after, how parts are fitted'} right={garagePhotos.photos?.length?String(garagePhotos.photos.length):undefined} trailing={garagePhotos.photos?.length?'chevron':'plus'} onPress={()=>setGtab('photos')}/>
+    <Tile icon="camera" title={garagePhotos.photos?.length?'Photos':'Add photos of your bike'} detail={b.show_on_profile?'On your profile':garagePhotos.photos?.length?'Only you see these':'Before and after, how parts are fitted'} right={garagePhotos.photos?.length?String(garagePhotos.photos.length):undefined} trailing={garagePhotos.photos?.length?'chevron':'plus'} onPress={()=>setGtab('photos')}/>
     <Tile icon="oil" title="Service log" detail="Oil, filters, top ends" onPress={()=>navigation.navigate('Maintenance')}/>
     <Tile icon="plus" title="Add another bike" onPress={()=>{load();setFormOpen(true);}}/>
    </TileGrid>
   </>}
   {gtab==='build'&&<BuildSheet bike={b} onSaved={()=>{void c.reload();}} onAsk={text=>navigation.navigate('Ask BAK',{mode:'ask',context:text,contextToken:randomUUID(),contextBikeId:b.id})}/>}
-  {gtab==='photos'&&<BikePhotos key={'photos-'+b.id} bike={b}/>}
+  {gtab==='photos'&&<BikePhotos key={'photos-'+b.id} bike={b} onSharingChanged={()=>{void c.reload();}}/>}
   {gtab==='coaching'&&<CoachingList key={'coaching-'+b.id} bike={b} onCoach={()=>navigation.navigate('Ask BAK',{clip:randomUUID()})}/>}
  </>;})()}
  {show&&<>

@@ -1,3 +1,4 @@
+import {PublicGarage,type PublicBike} from './GarageSharing';
 import {usedLinkTokens} from './appLinks';
 import React,{useCallback,useContext,useEffect,useRef,useState} from 'react';
 import {ActivityIndicator,Alert,Animated,Image,KeyboardAvoidingView,Linking,Modal,Platform,ScrollView,Share,StyleSheet,Text,TextInput,View} from 'react-native';
@@ -424,7 +425,7 @@ export function SetupGuideCard({onAsk}:{onAsk?:(text:string)=>void}){
 
 /* ------------------------------------------------------------------ Rider profile */
 export function RiderProfileView({riderId,onBack,onMessage}:{riderId:string;onBack:()=>void;onMessage:(r:RiderRef)=>void}){
- const [data,setData]=useState<{profile:Profile;posts:{id:string;category:PostCategory;body:string;bike_label:string;created_at:string;photos?:Photo[]}[];mine:boolean}|null>(null),[notice,setNotice]=useState('');
+ const [data,setData]=useState<{profile:Profile;posts:{id:string;category:PostCategory;body:string;bike_label:string;created_at:string;photos?:Photo[]}[];bikes?:PublicBike[];mine:boolean}|null>(null),[notice,setNotice]=useState('');
  useEffect(()=>{let live=true;setData(null);setNotice('');api<NonNullable<typeof data>>('/api/profiles?id='+riderId).then(d=>{if(live)setData(d);}).catch(e=>{if(live)setNotice(errorText(e));});return()=>{live=false;};},[riderId]);
  return <Page title=""><BackLink title="Community" onPress={onBack}/><Notice text={notice}/>
   {!data&&!notice&&<Copy>Loading rider…</Copy>}
@@ -437,6 +438,7 @@ export function RiderProfileView({riderId,onBack,onMessage}:{riderId:string;onBa
     <Text style={{color:'#9aa2ae',fontSize:12.5}}>Riding with BAK MX since {new Date(data.profile.created_at).toLocaleDateString([],{month:'long',year:'numeric'})}</Text>
     {!data.mine&&<RiderActions rider={data.profile} target={{type:'profile',id:data.profile.user_id}} onMessage={onMessage} onBlocked={onBack}/>}
    </View>
+   <PublicGarage bikes={data.bikes??[]}/>
    <Eyebrow>RECENT POSTS</Eyebrow>{!data.posts.length&&<Copy>No posts yet.</Copy>}
    <View style={{marginHorizontal:-20}}>{data.posts.map(p=><View key={p.id} style={{paddingVertical:16,gap:10,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#262b34'}}><Text style={{color:'#adb5c1',fontSize:12.5,paddingHorizontal:20}}><Text style={{color:colors.accent,fontWeight:'700'}}>{POST_CATEGORY_LABELS[p.category]}</Text>{p.bike_label?' · '+p.bike_label:''} · {ago(p.created_at)}</Text><Text selectable style={{color:colors.text,fontSize:16,lineHeight:24,paddingHorizontal:20}}>{p.body}</Text>{!!p.photos?.length&&<PostPhotos photos={p.photos}/>}</View>)}</View>
   </>}
