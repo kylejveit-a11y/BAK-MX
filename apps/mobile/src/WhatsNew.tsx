@@ -5,7 +5,7 @@ import {Platform,Text,View} from 'react-native';
 import {Pressable} from './Touch';
 import {Icon,type IconName} from './Icon';
 import {Disclosure} from './RichText';
-import {Button,Card,colors} from './ui';
+import {MetalMark,Button,Card,colors} from './ui';
 import {useProgress} from './localProgress';
 
 const KEY='whats-new-2026-10-widgets',MAX_OPENS=4;
@@ -35,7 +35,7 @@ export function WhatsNewCard({account,show=Platform.OS==='ios'}:{account:string;
  return <Card>
   <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}>
    <View style={{flexDirection:'row',alignItems:'center',gap:8}}>
-    <View style={{width:18,height:3,borderRadius:2,backgroundColor:colors.accent,transform:[{skewX:'-24deg'}]}}/>
+    <MetalMark width={18}/>
     <Text style={{color:colors.accent,fontSize:11.5,fontWeight:'800',letterSpacing:1.4}}>NEW ON IPHONE</Text>
    </View>
    <Pressable accessibilityRole="button" accessibilityLabel="Close" hitSlop={12} onPress={close} style={({pressed})=>({opacity:pressed?0.5:1,padding:2})}><Icon name="close" size={18} color="#9ea6b3"/></Pressable>

@@ -10,8 +10,9 @@ import {Icon,type IconName} from './Icon';
 import {BlueFace,blueLift,onBlueText} from './BlueFace';
 export {BlueFace,blueLift,onBlueText};
 export {Icon,type IconName};
-import {colors,tint} from './theme';
+import {colors,tint,metalHighlight} from './theme';
 export {colors,tint};
+import Svg,{Defs,LinearGradient,Rect,Stop} from 'react-native-svg';
 /** Screen body. Content runs edge to edge under the floating glass header and tab bar.
  safeTop pads under the status bar on screens with no header; footer floats as a glass bar above the tab bar or keyboard. */
 export function Page({title,children,safeTop=false,footer,scrollRef}:{title:string;children:React.ReactNode;safeTop?:boolean;footer?:React.ReactNode;scrollRef?:React.Ref<ScrollView>}){
@@ -26,11 +27,42 @@ export function Page({title,children,safeTop=false,footer,scrollRef}:{title:stri
   </ScrollView>
   {/* pages without a header: cover the status bar so text never scrolls up under the clock */}
   {safeTop?<View pointerEvents="none" style={{position:'absolute',left:0,right:0,top:0,height:insets.top,backgroundColor:colors.bg,opacity:0.96}}/>:null}
+  {(inTabs||footer)&&kb===0?<BottomScrim height={(footer?footH+footBottom:bottomChrome)+26}/>:null}
   {footer?<View onLayout={e=>setFootH(e.nativeEvent.layout.height)} pointerEvents="box-none" style={{position:'absolute',left:12,right:12,bottom:footBottom}}><Glass strong style={{borderRadius:26}}>{footer}</Glass></View>:null}
  </View>;
 }
+/** A raked accent mark finished like anodized metal: a bright edge on top, the colour through the middle, a deep base. */
+export function MetalMark({width,height=3,dim=false,skew=-24}:{width:number;height?:number;dim?:boolean;skew?:number}){
+ const id=React.useId().replace(/[^a-zA-Z0-9]/g,'');
+ return <View style={{width,height,borderRadius:1,overflow:'hidden',opacity:dim?0.45:1,transform:[{skewX:`${skew}deg`}]}}><Svg width={width} height={height}><Defs>
+  <LinearGradient id={'m'+id} x1="0" y1="0" x2="0" y2="1"><Stop offset="0" stopColor={metalHighlight()}/><Stop offset="0.5" stopColor={colors.accent}/><Stop offset="1" stopColor={colors.primary}/></LinearGradient>
+  <LinearGradient id={'h'+id} x1="0" y1="0" x2="1" y2="0"><Stop offset="0" stopColor="#ffffff" stopOpacity="0"/><Stop offset="0.35" stopColor="#ffffff" stopOpacity="0.35"/><Stop offset="0.6" stopColor="#ffffff" stopOpacity="0"/></LinearGradient>
+ </Defs><Rect x="0" y="0" width={width} height={height} fill={`url(#m${id})`}/><Rect x="0" y="0" width={width} height={height} fill={`url(#h${id})`}/></Svg></View>;
+}
+/** Your message in chat, finished like the bike's anodized colour: light on the top edge, the colour through the middle,
+ *  a deep base, a brushed grain and a soft diagonal sheen. Stays dark enough that white text reads clearly. */
+export function MetalBubble({children}:{children:React.ReactNode}){
+ const id=React.useId().replace(/[^a-zA-Z0-9]/g,'');
+ return <View style={{borderRadius:16,overflow:'hidden'}}>
+  <View pointerEvents="none" style={StyleSheet.absoluteFill}><Svg width="100%" height="100%"><Defs>
+   <LinearGradient id={'b'+id} x1="0" y1="0" x2="0" y2="1"><Stop offset="0" stopColor={metalHighlight()} stopOpacity="0.30"/><Stop offset="0.45" stopColor={colors.accent} stopOpacity="0.17"/><Stop offset="1" stopColor={colors.primary} stopOpacity="0.32"/></LinearGradient>
+   <LinearGradient id={'s'+id} x1="0" y1="0" x2="1" y2="1"><Stop offset="0.15" stopColor="#ffffff" stopOpacity="0"/><Stop offset="0.38" stopColor="#ffffff" stopOpacity="0.07"/><Stop offset="0.6" stopColor="#ffffff" stopOpacity="0"/></LinearGradient>
+  </Defs><Rect x="0" y="0" width="100%" height="100%" fill={`url(#b${id})`}/><Rect x="0" y="0" width="100%" height="100%" fill={`url(#s${id})`}/></Svg>
+   <Image source={require('../assets/brushed.png')} resizeMode="repeat" style={[StyleSheet.absoluteFill,{opacity:0.07,width:'100%',height:'100%'}]} accessibilityIgnoresInvertColors/>
+   <View style={[StyleSheet.absoluteFill,{borderRadius:16,borderWidth:1,borderTopColor:'rgba(255,255,255,0.20)',borderLeftColor:tint(0.22),borderRightColor:tint(0.12),borderBottomColor:'rgba(0,0,0,0.45)'}]}/>
+  </View>
+  <View style={{paddingHorizontal:14,paddingVertical:10}}>{children}</View>
+ </View>;
+}
+/** Fades the page into the background behind the floating tab bar and message box, so text never runs under them. */
+function BottomScrim({height}:{height:number}){
+ const id=React.useId().replace(/[^a-zA-Z0-9]/g,'');
+ return <View pointerEvents="none" style={{position:'absolute',left:0,right:0,bottom:0,height}}><Svg width="100%" height="100%"><Defs><LinearGradient id={'sc'+id} x1="0" y1="0" x2="0" y2="1">
+  <Stop offset="0" stopColor={colors.bg} stopOpacity="0"/><Stop offset="0.38" stopColor={colors.bg} stopOpacity="0.82"/><Stop offset="1" stopColor={colors.bg} stopOpacity="0.97"/>
+ </LinearGradient></Defs><Rect x="0" y="0" width="100%" height="100%" fill={`url(#sc${id})`}/></Svg></View>;
+}
 /** Page title: heavy italic with a raked accent stripe, the BAK MX signature. */
-export function PageTitle({children}:{children:React.ReactNode}){return <View style={{gap:9}}><Text style={s.title}>{children}</Text><View style={{flexDirection:'row',gap:4}}><View style={{width:26,height:3,borderRadius:1,backgroundColor:colors.accent,transform:[{skewX:'-24deg'}]}}/><View style={{width:8,height:3,borderRadius:1,backgroundColor:colors.accent,opacity:0.45,transform:[{skewX:'-24deg'}]}}/></View></View>}
+export function PageTitle({children}:{children:React.ReactNode}){return <View style={{gap:9}}><Text style={s.title}>{children}</Text><View style={{flexDirection:'row',gap:4}}><MetalMark width={26}/><MetalMark width={8} dim/></View></View>}
 /** A section: a hairline above, room around it. No boxes. */
 export function Card({children}:{children:React.ReactNode}){return <View style={s.card}>{children}</View>}
 export function Copy({children,strong=false}:{children:React.ReactNode;strong?:boolean}){return <Text selectable style={[s.copy,strong&&{color:colors.text,fontWeight:'700',fontSize:18}]}>{children}</Text>}

@@ -10,4 +10,7 @@ export function applyTheme(t:BrandTheme){if(t.key===current.key)return false;cur
 export const currentTheme=()=>current;
 /** The accent at an opacity, for chip fills and soft highlights. */
 export const tint=(alpha:number)=>withAlpha(colors.accent,alpha);
+/** The accent lifted toward white, for the bright top edge of metal finishes. */
+export const metalHighlight=()=>mix(colors.accent,'#ffffff',0.45);
+const mix=(a:string,b:string,t:number)=>{const p=(h:string)=>[1,3,5].map(i=>parseInt(h.slice(i,i+2),16));const x=p(a),y=p(b);return '#'+x.map((v,i)=>Math.round(v+(y[i]-v)*t).toString(16).padStart(2,'0')).join('');};
 export const glowTint=(alpha:number)=>withAlpha(colors.glow,alpha);

@@ -9,7 +9,7 @@ import {procedureCatalog} from '../../../shared/procedure-catalog';
 import {createProcedureRun,validateProcedureRun,recordProcedureStep,followProcedureBranch,procedureStepRecorded,type ProcedureRun,type ReviewedProcedure} from '../../../shared/procedures';
 import {parseGuidedInput,stepSpeech,guidedHelp,riderText,toSpeech,type GuidedCommand} from '../../../shared/guided-job';
 import {readProgress,writeProgress} from './localProgress';
-import {BlueFace,blueLift,onBlueText,Button,Card,Copy,Field,Icon,LinkAction,Notice,Tile,colors} from './ui';
+import {MetalMark,BlueFace,blueLift,onBlueText,Button,Card,Copy,Field,Icon,LinkAction,Notice,Tile,colors} from './ui';
 import {WheelSheet} from './Wheel';
 
 // Same storage as the Workshop guide screen (procedure-<bike>-<procedure>, newest run first), so progress is shared.
@@ -117,7 +117,7 @@ export function GuidedJobCardNative({job,voice,onSay,busy}:{job:NativeGuidedJob;
  const round=(label:string,icon:'chevronLeft'|'refresh',onPress:()=>void,disabled=false)=><Pressable accessibilityRole="button" accessibilityLabel={label} disabled={disabled} onPress={onPress} style={({pressed})=>({width:52,height:52,borderRadius:26,borderWidth:1,borderColor:'#343a45',alignItems:'center',justifyContent:'center',opacity:disabled?0.35:pressed?0.6:1})}><Icon name={icon} size={21} color={colors.text} weight={2}/></Pressable>;
  return <Card>
   <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}>
-   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><View style={{width:14,height:3,borderRadius:1,backgroundColor:colors.accent,transform:[{skewX:'-24deg'}]}}/><Text style={{color:colors.accent,fontWeight:'800',letterSpacing:1.6,fontSize:11.5}}>{finished?'JOB COMPLETE':`STEP ${run.step_index+1} OF ${procedure.steps.length}`}</Text></View>
+   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={14}/><Text style={{color:colors.accent,fontWeight:'800',letterSpacing:1.6,fontSize:11.5}}>{finished?'JOB COMPLETE':`STEP ${run.step_index+1} OF ${procedure.steps.length}`}</Text></View>
    <Pressable accessibilityRole="button" accessibilityLabel="Close job, progress is kept" hitSlop={10} onPress={()=>onSay(job.end())}><Text style={{color:'#adb5c1',fontSize:14,fontWeight:'600'}}>Close job</Text></Pressable>
   </View>
   <Text numberOfLines={1} style={{color:'#adb5c1',fontSize:13,fontWeight:'600'}}>{procedure.title}</Text>

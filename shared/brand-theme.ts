@@ -10,7 +10,7 @@ const THEMES:Record<string,BrandTheme>={
  KTM:{key:'ktm',label:'Orange',accent:'#F08C42',deep:'#B85A1C',glow:'#D9651E'},
  Husqvarna:{key:'husqvarna',label:'Steel blue',accent:'#93ABE4',deep:'#2D4A8E',glow:'#34569F'},
  GasGas:{key:'gasgas',label:'Crimson',accent:'#F0627A',deep:'#B01F3D',glow:'#C4273F'},
- Honda:{key:'honda',label:'Red',accent:'#EE6650',deep:'#B2281C',glow:'#C7301F'},
+ Honda:{key:'honda',label:'Red',accent:'#F0484E',deep:'#B3141D',glow:'#C9151F'},
  Yamaha:{key:'yamaha',label:'Racing blue',accent:'#6F97F7',deep:'#2150CF',glow:'#2758DD'},
  Kawasaki:{key:'kawasaki',label:'Green',accent:'#98CC5F',deep:'#3D7A1E',glow:'#4C9424'},
  Suzuki:{key:'suzuki',label:'Yellow',accent:'#E6CC52',deep:'#9C8114',glow:'#B8971A'},

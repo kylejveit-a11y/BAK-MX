@@ -11,7 +11,7 @@ import type {BottomTabBarProps} from '@react-navigation/bottom-tabs';
 import Svg,{Defs,LinearGradient,RadialGradient,Rect,Stop,Ellipse} from 'react-native-svg';
 
 const liquid=(()=>{try{return Platform.OS==='ios'&&isLiquidGlassAvailable();}catch{return false;}})();
-import {colors} from './theme';
+import {colors,metalHighlight} from './theme';
 /** @deprecated read colors.accent so the bike's colour applies */
 export const ACCENT='#6AA4FF';
 
@@ -49,7 +49,7 @@ export function FloatingTabBar({state,navigation}:BottomTabBarProps){
   <View style={{width:'92%',maxWidth:460,borderRadius:TAB_H/2,shadowColor:'#000',shadowOpacity:0.5,shadowRadius:18,shadowOffset:{width:0,height:8}}}><TabGlow/><Glass strong style={{height:TAB_H,borderRadius:TAB_H/2,flexDirection:'row',alignItems:'center',paddingHorizontal:6}}>
    {routes.map(r=>{const on=r.name===current;
     return <Pressable key={r.key} haptic="select" accessibilityRole="tab" accessibilityState={{selected:on}} accessibilityLabel={labels[r.name]??r.name} onPress={()=>{const e=navigation.emit({type:'tabPress',target:r.key,canPreventDefault:true});if(!on&&!e.defaultPrevented)navigation.navigate(r.name as never);}} style={({pressed})=>({flex:1,alignItems:'center',justifyContent:'center',height:TAB_H,opacity:pressed?0.6:1})}>
-     <View style={{height:3,width:16,marginBottom:5,borderRadius:1,backgroundColor:on?colors.accent:'transparent',transform:[{skewX:'-24deg'}]}}/>
+     <View style={{marginBottom:5,height:3,width:16,opacity:on?1:0}}><TabMark/></View>
      <Icon name={icons[r.name]} size={24} color={on?'#f6f7f9':'#9ea6b3'} bg="#0d0f13" weight={on?1.9:1.6}/>
      <Text style={{color:on?'#f6f7f9':'#9ea6b3',fontSize:10.5,fontWeight:on?'800':'600',marginTop:2,letterSpacing:0.2}}>{labels[r.name]??r.name}</Text>
     </Pressable>;})}
@@ -57,6 +57,11 @@ export function FloatingTabBar({state,navigation}:BottomTabBarProps){
  </View>;
 }
 
+/** Active-tab stripe in the metal finish (drawn here: ui.tsx imports this file). */
+function TabMark(){
+ const id=React.useId().replace(/[^a-zA-Z0-9]/g,'');
+ return <View style={{width:16,height:3,borderRadius:1,overflow:'hidden',transform:[{skewX:'-24deg'}]}}><Svg width={16} height={3}><Defs><LinearGradient id={'t'+id} x1="0" y1="0" x2="0" y2="1"><Stop offset="0" stopColor={metalHighlight()}/><Stop offset="0.5" stopColor={colors.accent}/><Stop offset="1" stopColor={colors.primary}/></LinearGradient></Defs><Rect x="0" y="0" width={16} height={3} fill={`url(#t${id})`}/></Svg></View>;
+}
 /** The bike's colour as a soft light under the floating tab bar: present, never loud. */
 function TabGlow(){
  const id=React.useId().replace(/[^a-zA-Z0-9]/g,'');
