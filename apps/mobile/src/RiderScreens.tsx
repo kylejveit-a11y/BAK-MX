@@ -238,7 +238,7 @@ export function parseLocalStamp(value:string):Date|null{
 }
 export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
  const {profile,setProfile}=useProfile();
- const [events,setEvents]=useState<RideEvent[]>([]),[scope,setScope]=useState<'upcoming'|'past'>('upcoming'),[notice,setNotice]=useState(''),[loading,setLoading]=useState(false),[creating,setCreating]=useState(false),[busy,setBusy]=useState(false),[open,setOpen]=useState('');
+ const [formNotice,setFormNotice]=useState('');const [events,setEvents]=useState<RideEvent[]>([]),[scope,setScope]=useState<'upcoming'|'past'>('upcoming'),[notice,setNotice]=useState(''),[loading,setLoading]=useState(false),[creating,setCreating]=useState(false),[busy,setBusy]=useState(false),[open,setOpen]=useState('');
  const [title,setTitle]=useState(''),[type,setType]=useState('practice'),[starts,setStarts]=useState(()=>{const d=new Date(Date.now()+86400000);d.setHours(9,0,0,0);return localStamp(d);}),[ends,setEnds]=useState(''),[place,setPlace]=useState(''),[details,setDetails]=useState('');
  const load=useCallback(async()=>{setLoading(true);try{setEvents(await api<RideEvent[]>('/api/events?scope='+scope));setNotice('');}catch(e){setNotice(errorText(e));}finally{setLoading(false);}},[scope]);
  useFocusEffect(useCallback(()=>{if(profile)void load();},[load,profile?.user_id]));
@@ -248,24 +248,25 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
    const start=parseLocalStamp(starts),end=ends.trim()?parseLocalStamp(ends):null;
    if(!title.trim()||!place.trim())throw new Error('Enter the event name and the track or location.');
    if(!start||(ends.trim()&&!end))throw new Error('Pick a start date and time.');
+   if(end&&end<start)throw new Error('The end time is before the start. Change the end, or clear it.');
    await api('/api/events','POST',{title,event_type:type,starts_at:start.toISOString(),ends_at:end?end.toISOString():null,location_name:place,description:details});
    success();setTitle('');setPlace('');setDetails('');setEnds('');setCreating(false);setScope('upcoming');await load();
-  }catch(e){setNotice(errorText(e));}finally{setBusy(false);}
+  }catch(e){setFormNotice(errorText(e));}finally{setBusy(false);}
  }
  async function rsvp(ev:RideEvent,status:'going'|'interested'){try{if(ev.my_rsvp===status)await api('/api/rsvps?event_id='+ev.id,'DELETE');else await api('/api/rsvps','PUT',{event_id:ev.id,status});await load();}catch(e){setNotice(errorText(e));}}
  if(profile===undefined)return <Page title="Events"><Copy>Loading…</Copy></Page>;
  if(!profile)return <Page title="Events"><Copy>Ride days, races, practice nights, clinics and meetups posted by riders.</Copy><NeedsProfile onSaved={setProfile}/></Page>;
  return <Page title="Events">
   <Segments value={scope} items={[{value:'upcoming',label:'Upcoming'},{value:'past',label:'Past'}]} onChange={setScope}/>
-  {!creating&&<StartRow icon="flag" title="Post an event" detail="Ride day, race, practice night, clinic or meetup" onPress={()=>setCreating(true)}/>}
-  {creating&&<Card><FormHead title="New event" onCancel={()=>setCreating(false)}/>
+  {!creating&&<StartRow icon="flag" title="Post an event" detail="Ride day, race, practice night, clinic or meetup" onPress={()=>{setFormNotice('');setCreating(true);}}/>}
+  {creating&&<Card><FormHead title="New event" onCancel={()=>{setFormNotice('');setCreating(false);}}/>
    <Field editable={!busy} label="Event name" placeholder="e.g. Saturday practice at Dade City" value={title} onChangeText={setTitle} maxLength={120} autoCapitalize="sentences"/>
    <Choices disabled={busy} label="Type" value={type} items={options(EVENT_TYPE_LABELS)} onChange={setType}/>
-   <DateField disabled={busy} label="Starts" time value={starts} onChange={setStarts} years={[new Date().getFullYear(),new Date().getFullYear()+2]} quick={rideDays()}/>
-   <DateField disabled={busy} label="Ends" time optional value={ends} onChange={setEnds} years={[new Date().getFullYear(),new Date().getFullYear()+2]} quick={rideDays()}/>
+   <DateField disabled={busy} label="Starts" time value={starts} onChange={v=>{setStarts(v);const a=parseLocalStamp(v),b=ends.trim()?parseLocalStamp(ends):null;if(a&&b&&b<a)setEnds('');}} years={[new Date().getFullYear(),new Date().getFullYear()+2]} quick={rideDays()}/>
+   <DateField disabled={busy} label="Ends" time optional seed={starts} value={ends} onChange={setEnds} years={[new Date().getFullYear(),new Date().getFullYear()+2]} quick={rideDays()}/>
    <Field editable={!busy} label="Track or location" placeholder="Track name or address" value={place} onChangeText={setPlace} maxLength={160} autoCapitalize="words"/>
    <Field editable={!busy} label="Details" placeholder="Gate time, classes, cost, what to bring" value={details} onChangeText={setDetails} multiline maxLength={4000} autoCapitalize="sentences"/>
-   <Button disabled={busy} title={busy?'Saving…':'Publish event'} onPress={()=>void create()}/></Card>}
+   <Button disabled={busy} title={busy?'Saving…':'Publish event'} onPress={()=>void create()}/><Notice text={formNotice}/></Card>}
   <Notice text={notice}/>
   {loading&&!events.length&&<SkeletonList kind="event"/>}
   {!loading&&!events.length&&<Card><Copy strong>{scope==='upcoming'?'No upcoming events yet.':'No past events.'}</Copy><Copy>{scope==='upcoming'?'Post the next ride day or practice night so other riders can plan around it.':'Events you could see are listed here after they happen.'}</Copy></Card>}

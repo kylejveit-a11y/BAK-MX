@@ -75,7 +75,8 @@ function Wheels({children}:{children:React.ReactNode}){return <View style={{heig
  <View style={{flexDirection:'row',justifyContent:'space-between'}}>{children}</View></View>;}
 
 /** Field row that opens the date sheet. */
-export function DateField({label,value,onChange,time=false,optional=false,years,quick,disabled=false}:{label:string;value:string;onChange:(v:string)=>void;time?:boolean;optional?:boolean;years:[number,number];quick?:{label:string;date:Date}[];disabled?:boolean}){
+/** seed: where the picker opens when the field is empty (an end time opens on the start, not today). */
+export function DateField({label,value,onChange,time=false,optional=false,years,quick,disabled=false,seed}:{label:string;value:string;onChange:(v:string)=>void;time?:boolean;optional?:boolean;years:[number,number];quick?:{label:string;date:Date}[];disabled?:boolean;seed?:string}){
  const [open,setOpen]=useState(false);
  const shown=value?formatValue(value,time):'';
  return <>
@@ -83,7 +84,7 @@ export function DateField({label,value,onChange,time=false,optional=false,years,
    <View style={{flex:1,gap:3}}><Text style={st.rowLabel}>{label}</Text><Text style={{color:shown?C.text:C.dim,fontSize:17,fontWeight:shown?'600':'500'}}>{shown||(optional?'Optional':'Choose')}</Text></View>
    <Icon name={time?'clock':'calendar'} size={20} color={C.muted}/>
   </Pressable>
-  <DateSheet visible={open} title={label} value={value} time={time} years={years} quick={quick} onClose={()=>setOpen(false)} onDone={v=>{setOpen(false);onChange(v);}} onClear={optional&&value?()=>{setOpen(false);onChange('');}:undefined}/>
+  <DateSheet visible={open} title={label} value={value||seed||''} time={time} years={years} quick={quick} onClose={()=>setOpen(false)} onDone={v=>{setOpen(false);onChange(v);}} onClear={optional&&value?()=>{setOpen(false);onChange('');}:undefined}/>
  </>;
 }
 /** Ride-day shortcuts: today, tomorrow and the coming weekend. */

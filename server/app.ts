@@ -22,7 +22,10 @@ import {handleEval} from './eval-access.ts';
 import {proceduresForBike} from '../shared/procedures.ts';
 import {exactBikeScope} from '../shared/bike-identity.ts';
 export function json(data:unknown,status=200){return new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});}
-export async function handleRequest(req:Request):Promise<Response>{try{return await route(req);}catch(e){if(e instanceof ZodError)return json({error:'Invalid request',issues:e.issues.map(i=>({path:i.path,message:i.message}))},400);if(e instanceof HttpError)return json({error:e.message},e.status);return json({error:'Service temporarily unavailable'},503);}}
+/** The first validation problem in plain words when we wrote it ("An event cannot end before it starts"); zod's own
+ *  wording ("Required", "Invalid uuid") becomes a plain prompt instead. */
+export function friendlyIssue(e:ZodError){const m=e.issues[0]?.message??'';return m&&!/^(Required|Invalid|Expected|String must|Number must|Array must|Unrecognized|Too (small|big))/i.test(m)?m:'Some details are missing or not valid. Check the form and try again.';}
+export async function handleRequest(req:Request):Promise<Response>{try{return await route(req);}catch(e){if(e instanceof ZodError)return json({error:friendlyIssue(e),issues:e.issues.map(i=>({path:i.path,message:i.message}))},400);if(e instanceof HttpError)return json({error:e.message},e.status);return json({error:'Service temporarily unavailable'},503);}}
 async function route(req:Request):Promise<Response>{const url=new URL(req.url),originalPath=url.pathname.replace(/\/$/,''),method=req.method;
  let path=originalPath;
  if(path==='/api/services')path='/api/service-events';

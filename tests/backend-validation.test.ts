@@ -59,3 +59,11 @@ test('garage sharing input: at most 8 own photos, no unknown fields',async()=>{
  assert.ok(!garageSharingSchema.safeParse({bike_id:id,show_on_profile:true,owner:'x'}).success);
  assert.equal(garageSharingSchema.parse({bike_id:id,show_on_profile:true}).build_sheet_public,false);
 });
+
+test('validation errors reach the rider in plain words',async()=>{
+ const {friendlyIssue}=await import('../server/app.ts');
+ const {eventSchema}=await import('../server/rider-surfaces.ts');
+ const r=eventSchema.safeParse({title:'Practice',event_type:'practice',starts_at:'2026-11-01T16:00:00Z',ends_at:'2026-10-27T07:00:00Z',location_name:'BAK MX',description:''});
+ assert.ok(!r.success);assert.equal(friendlyIssue(r.error),'An event cannot end before it starts');
+ const r2=eventSchema.safeParse({});assert.ok(!r2.success);assert.match(friendlyIssue(r2.error),/Check the form/);
+});

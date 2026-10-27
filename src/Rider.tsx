@@ -140,6 +140,7 @@ export function Events({signedIn,onSignIn,onMessage}:{signedIn:boolean;onSignIn:
   try{
    const start=new Date(String(f.get('starts_at')));if(!Number.isFinite(start.getTime()))throw Error('Choose a start date and time.');
    const endRaw=String(f.get('ends_at')||''),end=endRaw?new Date(endRaw):null;
+   if(end&&end<start)throw Error('The end time is before the start. Change the end, or clear it.');
    await api('/events','POST',{title:String(f.get('title')||''),event_type:String(f.get('event_type')),starts_at:start.toISOString(),ends_at:end?end.toISOString():null,location_name:String(f.get('location_name')||''),description:String(f.get('description')||'')});
    form.reset();setCreating(false);setScope('upcoming');await load();
   }catch(err){setError((err as Error).message);}finally{setBusy(false);}
