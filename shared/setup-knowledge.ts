@@ -64,7 +64,7 @@ export const adjusters:Adjuster[]=[
  {id:'tire_pressure',name:'Tire pressure',controls:'Carcass stiffness and contact patch.',
   firmer_or_more:'Higher pressure: firmer, protects the rim, more precise on hard pack.',too_much:'Deflects, less grip, harsh.',
   softer_or_less:'Lower pressure: more grip and compliance in soft or slick conditions.',too_little:'Pinch flats, rim damage, vague and squirmy.',
-  notes:'Check cold, before every ride. A pressure problem is often mistaken for a suspension problem.'},
+  notes:'Check cold, before every ride. A pressure problem is often mistaken for a suspension problem. Start from the maker’s cold figure for the bike and move it in small steps for conditions, testing each one. Mousse inserts have no pressure to set.'},
  {id:'gearing',name:'Final-drive gearing',controls:'How engine speed is matched to wheel speed.',
   firmer_or_more:'More rear teeth or fewer front teeth (shorter): stronger pull, gears come sooner, less top speed.',too_much:'Busy shifting, runs out of gear on straights, harder to carry a gear through a corner.',
   softer_or_less:'Fewer rear teeth or more front teeth (taller): longer gears, more top speed.',too_little:'Lazy out of corners, needs clutch to stay in the power.',
