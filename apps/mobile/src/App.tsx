@@ -98,6 +98,8 @@ function Welcome({onStart,onSignIn}:{onStart:()=>void;onSignIn:()=>void}){
 const DEVICE='device';
 type PendingBike={make:string;model:string;year:string};
 function Auth({recovery,done,initialError}:{recovery:boolean;done:()=>void;initialError:string}){
+ // Signed out there is no rider's bike: the sign-in screens always use BAK's own colours, never the last rider's make.
+ useState(()=>{applyTheme(themeFor(null,'bak'));return 0;});
  // Three separate screens: sign in, create an account, reset password. Switching never submits anything.
  const[welcome,setWelcome]=useState(()=>!recovery&&readProgress<boolean>(DEVICE,'welcome-seen',false)!==true);
  const[mode,setMode]=useState<'login'|'signup'|'reset'>('login'),[email,setEmail]=useState(''),[password,setPassword]=useState(''),[notice,setNotice]=useState(initialError),[warn,setWarn]=useState(!!initialError),[busy,setBusy]=useState(false),[sent,setSent]=useState(false);
