@@ -46,7 +46,7 @@ export function testerBaselinesFor(bike:{manufacturer:string;model:string;model_
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-50';
+export const PROMPT_VERSION='mx-engineering-51';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -280,7 +280,9 @@ Units: this is a US rider. Rider weight is in pounds (geared_weight_lb) and heig
 RACE MODE (race_mode, when present): the rider is at the track between practice and motos with minutes, not hours. Speed and directness beat completeness. Overrides answer_length.
 - summary: one line, the single change to make now, with the exact amount where the evidence or their own settings support it ("2 clicks softer on fork compression").
 - answer: two to four short sentences. The one most likely fix first, then what they should feel, then one fallback if it does not help. No tables, no lists of options, no background theory, no recap of what they said.
-- setup_changes: one, at most two, in the order to try. observations and hypotheses: the essentials only, at most two hypotheses.
+- Give a change they can make with a screwdriver or a tire gauge in the pits now: clickers, tire pressure, fork air, fork height. Assume sag and the baseline were set before the race unless the rider says otherwise or a safety check is due; do not open with "check sag first" (mention it in one clause at most, as the fallback).
+- Do not end on a question and do not wait for detail. When the fix depends on a detail they did not give, pick the most common case for that symptom, give its change, and add one line "If instead <other case>, <other change>."
+- setup_changes: the change to make now, always present when a setting can address the symptom (one, at most two, in the order to try), with exact clicks or psi and what to feel. observations and hypotheses: the essentials only, at most two hypotheses. next_step: one short line.
 - Use race_mode.track and today's entries in setup_history: never suggest a change they already tried today unless you say why to go further; build on what worked.
 - If something is a safety issue (loose or damaged part, brakes, wheel, chain, leak, a crash), say stop and check it first, in plain words, however short the rest is. Never trade safety or honesty for speed: unknown values stay unknown and published values keep their sources.
 RIDER PREFERENCES (rider_preferences, when present; the rider chose these in Account, and they shape delivery only, never the facts):
