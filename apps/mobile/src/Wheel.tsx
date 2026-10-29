@@ -88,10 +88,11 @@ export function WheelSelect({label,value,options,onChange,disabled=false,placeho
 /** Make → model → year in one flow, one tap per step: brand tiles, a searchable model list, year chips. Riders pick with
  *  gloves and in a hurry, so no scrolling wheel here. A step back at each stage. */
 export function BikeWheel({visible,makes,modelsFor,yearsFor,initial,onDone,onClose,footer}:{visible:boolean;makes:string[];modelsFor:(make:string)=>string[];yearsFor:(make:string,model:string)=>number[];initial?:{make?:string;model?:string;year?:string};onDone:(b:{make:string;model:string;year:string})=>void;onClose:()=>void;footer?:{label:string;onPress:()=>void}}){
- const insets=useSafeAreaInsets();
+ const insets=useSafeAreaInsets(),chipW=Math.floor((useWindowDimensions().width-44-20)/3);
  const [stage,setStage]=useState<0|1|2>(0),[make,setMake]=useState(initial?.make??''),[model,setModel]=useState(initial?.model??''),[q,setQ]=useState('');
  useEffect(()=>{if(visible){setStage(0);setMake(initial?.make??'');setModel(initial?.model??'');setQ('');}},[visible]);
- const models=useMemo(()=>make?modelsFor(make):[],[make,modelsFor]);
+ // Smallest to biggest the way riders read them (50 SX before 125 SX), not alphabetical text order.
+ const models=useMemo(()=>make?[...modelsFor(make)].sort((a,b)=>a.localeCompare(b,'en',{numeric:true,sensitivity:'base'})):[],[make,modelsFor]);
  const shown=useMemo(()=>{const t=q.trim().toLowerCase();return t?models.filter(m=>m.toLowerCase().includes(t)):models;},[models,q]);
  const years=make&&model?[...yearsFor(make,model)].sort((a,b)=>b-a):[];
  const range=(m:string)=>{const y=yearsFor(make,m);return y.length?(Math.min(...y)===Math.max(...y)?String(y[0]):`${Math.min(...y)}–${Math.max(...y)}`):'';};
@@ -126,7 +127,7 @@ export function BikeWheel({visible,makes,modelsFor,yearsFor,initial,onDone,onClo
     {head('03 / YEAR',`${make} ${model}`,{label:'Change model',onPress:()=>setStage(1)})}
     <View style={{flexDirection:'row',flexWrap:'wrap',gap:10,marginTop:6}}>
      {years.map(y=>{const on=initial?.make===make&&initial?.model===model&&initial?.year===String(y);return <Pressable key={y} haptic="press" accessibilityRole="button" accessibilityState={{selected:on}} accessibilityLabel={String(y)} onPress={()=>onDone({make,model,year:String(y)})}
-      style={({pressed})=>[st.chip,on&&{borderColor:C.accent},pressed&&{opacity:0.7,transform:[{scale:0.97}]}]}>
+      style={({pressed})=>[st.chip,{width:chipW},on&&{borderColor:C.accent},pressed&&{opacity:0.7,transform:[{scale:0.97}]}]}>
       <Text style={{color:C.text,fontSize:19,fontWeight:'800'}}>{y}</Text>
      </Pressable>;})}
     </View>
@@ -153,6 +154,6 @@ const st=StyleSheet.create({
  rowLabel:{color:C.muted,fontSize:12.5,fontWeight:'600'},
  tile:{width:'48.5%',minHeight:76,borderRadius:16,borderWidth:1,borderColor:'#2a2f39',backgroundColor:'#0e1015',paddingHorizontal:14,paddingVertical:12,justifyContent:'center',gap:3},
  listRow:{flexDirection:'row',alignItems:'center',gap:12,minHeight:62,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:C.line},
- chip:{width:96,height:56,borderRadius:14,borderWidth:1,borderColor:'#2a2f39',backgroundColor:'#0e1015',alignItems:'center',justifyContent:'center'},
+ chip:{height:56,borderRadius:14,borderWidth:1,borderColor:'#2a2f39',backgroundColor:'#0e1015',alignItems:'center',justifyContent:'center'},
  pill:{flexDirection:'row',alignItems:'center',gap:6,borderWidth:1,borderColor:'#2f3540',borderRadius:18,paddingHorizontal:13,paddingVertical:7,maxWidth:'100%'},
 });
