@@ -9,6 +9,7 @@ import {fuelSystem,fuelSystemLabel} from '../../../shared/fuel-system';
 import {api,apiOrigin} from './api';
 import {Button,Card,Copy,Notice,colors,tint,LinkAction,Icon} from './ui';
 import {select as hSelect} from './haptics';
+import {BuildSheetDoc,type SheetData} from './BuildSheetDoc';
 
 type Value=ReturnType<typeof readInstalled>;
 type Screen={id:'home'}|{id:'types'}|{id:'options';type:string|null}|{id:'work';work:Work}|{id:'detail';work:Work;who:string;r?:string}|{id:'custom';type:string|null};
@@ -29,7 +30,7 @@ const shortLine=(p:InstalledPart)=>[canonBrand(p.b),cleanName(p.b,p.n)].filter(B
  *  anything on the sheet that doesn't add up. */
 /** "86.99 USD" → "$86.99"; pounds and euros keep their sign so a UK dealer's price never reads as dollars. */
 const priceText=(p:string)=>{const m=p.match(/^([\d.,]+)\s*([A-Z]{3})?$/);if(!m)return p;const sign={USD:'$',GBP:'£',EUR:'€'}[m[2]??'USD' as 'USD'];return sign?sign+m[1]:`${m[1]} ${m[2]}`;};
-export function BuildSheet({bike,onSaved,onAsk}:{bike:Bike;onSaved:(b:Bike)=>void;onAsk?:(text:string)=>void}){
+export function BuildSheet({bike,onSaved,onAsk,raceNumber}:{bike:Bike;onSaved:(b:Bike)=>void;onAsk?:(text:string)=>void;raceNumber?:string}){
  const value=useMemo(()=>readInstalled(bike.configuration),[bike.configuration]);
  const checks=useMemo(()=>checkBuild(bike),[bike]);
  const [catalog,setCatalog]=useState<CatalogPart[]|null|undefined>(undefined),[open,setOpen]=useState<PartSystem|null>(null),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
@@ -38,6 +39,7 @@ export function BuildSheet({bike,onSaved,onAsk}:{bike:Bike;onSaved:(b:Bike)=>voi
   loadFamily(fam).then(f=>{if(live)setCatalog(decodeFamily(f,bike.manufacturer,bike.model,bike.model_year));}).catch(()=>{if(live)setCatalog(null);});
   return()=>{live=false;};},[bike.manufacturer,bike.model,bike.model_year]);
  const recorded=new Set([...value.parts.filter(p=>!p.o).map(p=>p.s),...value.stock]).size;
+ const [editing,setEditing]=useState(()=>recorded===0);
  // saves run one after another so a quick run of picks can't land out of order
  const chain=React.useRef<Promise<unknown>>(Promise.resolve());
  function persist(next:Value){
@@ -51,7 +53,17 @@ export function BuildSheet({bike,onSaved,onAsk}:{bike:Bike;onSaved:(b:Bike)=>voi
   try{await persist(next);setOpen(null);}
   catch(e){setNotice(errorText(e));}finally{setBusy(false);}
  }
+ if(!editing){
+  const data:SheetData={title:`${bike.model_year} ${bike.manufacturer} ${bike.model}`,subtitle:bike.nickname||undefined,raceNumber,hours:bike.engine_hours,updated:bike.updated_at,
+   parts:value.parts.map(p=>({system:p.s,brand:canonBrand(p.b),name:cleanName(p.b,p.n),size:p.v,color:p.k,detail:p.d,off:p.o})),stock:value.stock,checks:checks.map(c=>c.text)};
+  return <Card>
+   <BuildSheetDoc data={data} mine/>
+   <Button title="Edit build sheet" onPress={()=>setEditing(true)}/>
+   {value.parts.length>0&&onAsk&&<LinkAction title="Ask BAK about this build" onPress={()=>onAsk('I\'ve recorded my aftermarket parts in the Garage. Anything I should check or set up differently because of what\'s fitted?')}/>}
+  </Card>;
+ }
  return <Card>
+  {recorded>0&&<Pressable accessibilityRole="button" onPress={()=>{setOpen(null);setEditing(false);}} hitSlop={8} style={{alignSelf:'flex-end'}}><Text style={{color:colors.accent,fontSize:15.5,fontWeight:'700'}}>Done</Text></Pressable>}
   <Text style={st.eyebrow}>BUILD SHEET</Text>
   <Text style={st.h2}>What’s on your {bike.model}?</Text>
   <Copy>Tap a section and pick what’s fitted. Keep spare parts too (a second suspension set, sand tires) and mark them on or off the bike.</Copy>

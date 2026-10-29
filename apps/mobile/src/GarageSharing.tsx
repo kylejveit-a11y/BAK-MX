@@ -6,6 +6,8 @@ import type {Bike} from '../../../shared/types';
 import {api} from './api';
 import type {Photo} from './photos';
 import {PhotoViewer} from './PhotoUI';
+import {BuildSheetDoc} from './BuildSheetDoc';
+import type {PartSystem} from '../../../shared/installed-parts';
 import {Pressable} from './Touch';
 import {Card,Eyebrow,Notice,colors} from './ui';
 
@@ -53,17 +55,16 @@ export function ProfileSharing({bike,photos,onChanged}:{bike:Bike;photos:Photo[]
 }
 
 export type PublicBike={id:string;label:string;photos:Photo[];sheet:'mine'|'public'|'private'};
-type Sheet={bike:{label:string};parts:{system:string;system_label:string;name:string;detail:string;off_bike:boolean}[];stock_systems:string[]};
+type Sheet={bike:{label:string;manufacturer:string;model:string;model_year:number;nickname:string};parts:{system:PartSystem;system_label:string;name:string;brand:string;part:string;size:string;color:string;detail:string;off_bike:boolean}[];stock:PartSystem[];stock_systems:string[]};
 
 /** A rider's profile: the bikes they show, their photos, and the build sheet when it's public. */
-export function PublicGarage({bikes}:{bikes:PublicBike[]}){
+export function PublicGarage({bikes,raceNumber}:{bikes:PublicBike[];raceNumber?:string}){
  if(!bikes.length)return null;
- return <View style={{gap:12}}><Eyebrow>GARAGE</Eyebrow>{bikes.map(b=><PublicBikeCard key={b.id} bike={b}/>)}</View>;
+ return <View style={{gap:12}}><Eyebrow>GARAGE</Eyebrow>{bikes.map(b=><PublicBikeCard key={b.id} bike={b} raceNumber={raceNumber}/>)}</View>;
 }
-function PublicBikeCard({bike}:{bike:PublicBike}){
+function PublicBikeCard({bike,raceNumber}:{bike:PublicBike;raceNumber?:string}){
  const state=bike.sheet,[sheet,setSheet]=useState<Sheet|null>(null),[open,setOpen]=useState(false),[viewer,setViewer]=useState<number|null>(null),[notice,setNotice]=useState(''),[busy,setBusy]=useState(false);
  async function view(){if(open){setOpen(false);return;}setBusy(true);setNotice('');try{setSheet(await api<Sheet>(`/api/build-sheet?bike_id=${bike.id}`));setOpen(true);}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
- const groups=sheet?Object.entries(sheet.parts.reduce<Record<string,Sheet['parts']>>((m,p)=>{(m[p.system_label]??=[]).push(p);return m;},{})):[];
  return <Card>
   <Text style={{color:colors.text,fontSize:17,fontWeight:'800'}}>{bike.label}</Text>
   {!!bike.photos.length&&<ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap:8}}>
@@ -72,14 +73,7 @@ function PublicBikeCard({bike}:{bike:PublicBike}){
   {state==='mine'&&<Text style={{color:colors.muted,fontSize:13.5}}>This is how riders see your bike. Set the build sheet public or private in Garage › Photos.</Text>}
   {state==='private'&&<Text style={{color:colors.muted,fontSize:13.5}}>Build sheet is private.</Text>}
   {(state==='public'||state==='mine')&&<Pressable accessibilityRole="button" onPress={()=>void view()} hitSlop={6}><Text style={{color:colors.accent,fontSize:15,fontWeight:'700'}}>{open?'Hide build sheet':busy?'Loading…':'View build sheet'}</Text></Pressable>}
-  {open&&sheet&&<View style={{gap:10}}>
-   {!groups.length&&<Text style={{color:colors.muted,fontSize:14}}>No parts recorded yet.</Text>}
-   {groups.map(([label,parts])=><View key={label} style={{gap:3}}>
-    <Text style={{color:'#9aa2ae',fontSize:12,fontWeight:'700',letterSpacing:0.6}}>{label.toUpperCase()}</Text>
-    {parts.map((p,i)=><Text key={i} selectable style={{color:colors.text,fontSize:14.5,lineHeight:20}}>{p.name}{p.detail?<Text style={{color:colors.muted}}> · {p.detail}</Text>:null}{p.off_bike?<Text style={{color:colors.muted}}> (spare, off the bike)</Text>:null}</Text>)}
-   </View>)}
-   {!!sheet.stock_systems.length&&<Text style={{color:colors.muted,fontSize:13.5}}>Stock: {sheet.stock_systems.join(', ')}</Text>}
-  </View>}
+  {open&&sheet&&<BuildSheetDoc data={{title:`${sheet.bike.model_year} ${sheet.bike.manufacturer} ${sheet.bike.model}`,subtitle:sheet.bike.nickname||undefined,raceNumber:raceNumber||undefined,parts:sheet.parts.map(p=>({system:p.system,brand:p.brand,name:p.part||p.name,size:p.size||undefined,color:p.color||undefined,detail:p.detail||undefined,off:p.off_bike})),stock:sheet.stock??[]}}/>}
   <Notice text={notice}/>
   <PhotoViewer photos={bike.photos} start={viewer} onClose={()=>setViewer(null)}/>
  </Card>;

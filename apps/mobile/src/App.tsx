@@ -157,7 +157,7 @@ function Garage({navigation,route}:BottomTabScreenProps<Tabs,'Garage'>){const [f
     <Tile icon="plus" title="Add another bike" onPress={()=>{load();setFormOpen(true);}}/>
    </TileGrid>
   </>}
-  {gtab==='build'&&<BuildSheet bike={b} onSaved={()=>{void c.reload();}} onAsk={text=>navigation.navigate('Ask BAK',{mode:'ask',context:text,contextToken:randomUUID(),contextBikeId:b.id})}/>}
+  {gtab==='build'&&<BuildSheet raceNumber={raceNo} bike={b} onSaved={()=>{void c.reload();}} onAsk={text=>navigation.navigate('Ask BAK',{mode:'ask',context:text,contextToken:randomUUID(),contextBikeId:b.id})}/>}
   {gtab==='photos'&&<BikePhotos key={'photos-'+b.id} bike={b} onSharingChanged={()=>{void c.reload();}}/>}
   {gtab==='coaching'&&<CoachingList key={'coaching-'+b.id} bike={b} onCoach={()=>navigation.navigate('Ask BAK',{clip:randomUUID()})}/>}
  </>;})()}

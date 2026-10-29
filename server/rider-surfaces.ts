@@ -3,6 +3,7 @@ import {photoLinks,pick,photoIds,requireOwnPhotos} from './rider-photos.ts';
 import {z} from 'zod';
 import {checked} from './database.ts';
 import {readInstalled,systemLabel,partLabel} from '../shared/installed-parts.ts';
+import {canonBrand,cleanName} from '../shared/parts-picker.ts';
 import {collectPages} from './pagination.ts';
 import {HttpError,readJson,uuid} from './validation.ts';
 import {objectionable} from './content-rules.ts';
@@ -246,7 +247,7 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
   if(error)throw new HttpError(503,'The build sheet could not load.');
   if(!data)throw new HttpError(403,'This build sheet is private.');
   const sheet=data as Row,{parts,stock}=readInstalled(sheet.configuration as Record<string,unknown>);
-  return json({bike:{id:sheet.id,label:bikeLabel(sheet)},parts:parts.map(p=>({system:p.s,system_label:systemLabel(p.s),name:partLabel(p),detail:p.d??'',off_bike:!!p.o})),stock_systems:stock.map(k=>systemLabel(k))});
+  return json({bike:{id:sheet.id,label:bikeLabel(sheet),manufacturer:sheet.manufacturer,model:sheet.model,model_year:sheet.model_year,nickname:sheet.nickname??''},parts:parts.map(p=>({system:p.s,system_label:systemLabel(p.s),name:partLabel(p),brand:canonBrand(p.b),part:cleanName(p.b,p.n),size:p.v??'',color:p.k??'',detail:p.d??'',off_bike:!!p.o})),stock:stock,stock_systems:stock.map(k=>systemLabel(k))});
  }
 
  // ---- Blocks, reports, feedback
