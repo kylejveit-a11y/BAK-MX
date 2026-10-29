@@ -5,7 +5,7 @@ import React,{useCallback,useEffect,useMemo,useRef,useState} from 'react';
 import {Modal,ScrollView,Text,TextInput,View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import Svg,{Defs,LinearGradient,Rect,Stop} from 'react-native-svg';
-import {RACE_PHASES,hydratePrepList,toSaved,defaultPrepList,type PrepItem,type RacePhase} from '../../../shared/race-prep';
+import {RACE_PHASES,hydratePrepList,toSaved,defaultPrepList,fitsEngine,type PrepItem,type RacePhase} from '../../../shared/race-prep';
 import {garageModelInfo} from '../../../shared/garage-models';
 import type {Bike} from '../../../shared/types';
 import {api} from './api';
@@ -16,6 +16,7 @@ import {metalHighlight} from './theme';
 import {select as hSelect,success} from './haptics';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
+export const engineOf=(bike?:Bike)=>bike?garageModelInfo[`${bike.manufacturer}|${bike.model}`]?.engine??null:null;
 export const disciplineOf=(bike?:Bike)=>bike&&garageModelInfo[`${bike.manufacturer}|${bike.model}`]?.discipline!=='motocross'?'offroad' as const:'mx' as const;
 
 /** Every open copy of the list hears about a change, so Home's counts and the widget follow the sheet at once. */
@@ -23,14 +24,16 @@ const listeners=new Set<()=>void>();
 const changed=()=>{for(const l of listeners)l();};
 /** The rider's list and checks, shared by the full sheet and the race-day card. */
 export function useRacePrep(account:string,bike?:Bike){
- const discipline=disciplineOf(bike);
- const [list,setList]=useState<PrepItem[]>(()=>hydratePrepList(readProgress(account,'race-prep-list',null),discipline));
+ const discipline=disciplineOf(bike),engine=engineOf(bike);
+ const [all,setList]=useState<PrepItem[]>(()=>hydratePrepList(readProgress(account,'race-prep-list',null),discipline));
  const [checks,setChecks]=useState<Record<string,boolean>>(()=>readProgress(account,'race-prep-checks',{}));
  const [error,setError]=useState('');
  useEffect(()=>{api<{items:PrepItem[]|null}>('/api/race-checklist').then(r=>{setList(hydratePrepList(r.items,discipline));try{writeProgress(account,'race-prep-list',r.items);}catch{}}).catch(()=>{});},[account,discipline]);
  useEffect(()=>{const l=()=>{setChecks(readProgress(account,'race-prep-checks',{}));setList(hydratePrepList(readProgress(account,'race-prep-list',null),discipline));};listeners.add(l);return()=>{listeners.delete(l);};},[account,discipline]);
  const timer=useRef<ReturnType<typeof setTimeout>|null>(null);
- const saveList=(next:PrepItem[]|null)=>{const shown=next??defaultPrepList(discipline);setList(shown);const saved=next?toSaved(next):null;try{writeProgress(account,'race-prep-list',saved);}catch{}changed();
+ // What this bike shows; items for the other engine type stay in the saved list for the rider's other bikes.
+ const list=all.filter(i=>fitsEngine(i,engine)),hidden=all.filter(i=>!fitsEngine(i,engine));
+ const saveList=(edited:PrepItem[]|null)=>{const next=edited?[...edited,...hidden]:null;const shown=next??defaultPrepList(discipline);setList(shown);const saved=next?toSaved(next):null;try{writeProgress(account,'race-prep-list',saved);}catch{}changed();
   if(timer.current)clearTimeout(timer.current);timer.current=setTimeout(()=>{api('/api/race-checklist','PUT',{items:saved}).then(()=>setError('')).catch(e=>setError(errorText(e)));},600);};
  const toggle=(id:string)=>{const next={...checks,[id]:!checks[id]};setChecks(next);try{writeProgress(account,'race-prep-checks',next);}catch{}changed();};
  const clear=(phase?:RacePhase)=>{const next=phase?Object.fromEntries(Object.entries(checks).filter(([id])=>list.find(i=>i.id===id)?.phase!==phase)):{};setChecks(next);try{writeProgress(account,'race-prep-checks',next);}catch{}changed();};

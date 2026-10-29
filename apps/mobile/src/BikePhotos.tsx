@@ -1,3 +1,4 @@
+import {LoadingImage} from './ui';
 import React,{useCallback,useEffect,useState} from 'react';
 import {Alert,Image,Text,View,useWindowDimensions} from 'react-native';
 import type {Bike} from '../../../shared/types';
@@ -33,5 +34,5 @@ export function BikePhotos({bike,onSharingChanged}:{bike:Bike;onSharingChanged?:
 export function BikeCover({bikeId}:{bikeId:string}){
  const {photos}=useBikePhotos(bikeId),{width}=useWindowDimensions();
  const p=photos?.[0];if(!p)return null;
- return <Image source={{uri:p.url}} accessibilityLabel="Your bike" style={{width:width-40,height:Math.round((width-40)*0.56),borderRadius:14,backgroundColor:'#101217'}} resizeMode="cover"/>;
+ return <LoadingImage source={{uri:p.url}} accessibilityLabel="Your bike" style={{width:width-40,height:Math.round((width-40)*0.56),borderRadius:14}} resizeMode="cover"/>;
 }

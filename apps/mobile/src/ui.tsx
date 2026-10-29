@@ -1,5 +1,5 @@
 import React from 'react';
-import {Text,View,Image,TextInput,ScrollView,StyleSheet,type TextInputProps} from 'react-native';
+import {Animated,Text,View,Image,TextInput,ScrollView,StyleSheet,type ImageProps,type TextInputProps} from 'react-native';
 import {Pressable} from './Touch';
 import {HeaderHeightContext} from '@react-navigation/elements';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
@@ -10,7 +10,7 @@ import {Icon,type IconName} from './Icon';
 import {BlueFace,blueLift,onBlueText} from './BlueFace';
 export {BlueFace,blueLift,onBlueText};
 export {Icon,type IconName};
-import {colors,tint,metalHighlight} from './theme';
+import {colors,tint,metalHighlight,motion} from './theme';
 export {colors,tint};
 import Svg,{Defs,LinearGradient,Rect,Stop} from 'react-native-svg';
 /** Screen body. Content runs edge to edge under the floating glass header and tab bar.
@@ -107,3 +107,14 @@ export function BackLink({title,onPress}:{title:string;onPress:()=>void}){return
 export function IconAction({icon,label,onPress,active=false,danger=false}:{icon:IconName;label:string;onPress:()=>void;active?:boolean;danger?:boolean}){const c=danger?'#efb5be':active?colors.accent:'#b2b9c4';return <Pressable haptic="select" accessibilityRole="button" accessibilityState={{selected:active}} accessibilityLabel={label} hitSlop={8} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:6,paddingVertical:6,opacity:pressed?0.55:1})}><Icon name={icon} size={18} color={c} accent={c}/><Text style={{color:c,fontSize:14,fontWeight:'600'}}>{label}</Text></Pressable>}
 /** Tick box with a label. */
 export function CheckRow({label,checked,onPress}:{label:string;checked:boolean;onPress:()=>void}){return <Pressable haptic="select" accessibilityRole="checkbox" accessibilityState={{checked}} onPress={onPress} hitSlop={6} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:10,paddingVertical:6,opacity:pressed?0.6:1})}><Icon name={checked?'checkboxOn':'checkbox'} size={20} color={checked?'#ffffff':'#adb5c1'} accent={colors.primary}/><Text style={{color:colors.text,fontSize:15,flex:1}}>{label}</Text></Pressable>}
+
+/** A remote photo that shows a soft pulse while it downloads, instead of a flat grey box. Same props as Image. */
+export function LoadingImage({style,onLoad,...rest}:ImageProps){
+ const [loaded,setLoaded]=React.useState(false),pulse=React.useRef(new Animated.Value(0.5)).current;
+ React.useEffect(()=>{if(loaded||motion.reduced)return;const a=Animated.loop(Animated.sequence([Animated.timing(pulse,{toValue:1,duration:700,useNativeDriver:true}),Animated.timing(pulse,{toValue:0.5,duration:700,useNativeDriver:true})]));a.start();return()=>a.stop();},[loaded]);
+ const flat=StyleSheet.flatten(style)??{};
+ return <View style={{width:flat.width,height:flat.height,aspectRatio:flat.aspectRatio,borderRadius:flat.borderRadius,overflow:'hidden'}}>
+  {!loaded&&<Animated.View pointerEvents="none" style={[StyleSheet.absoluteFill,{backgroundColor:'#1a1e25',opacity:pulse}]}/>}
+  <Image {...rest} style={[style,{backgroundColor:'transparent'}]} onLoad={e=>{setLoaded(true);onLoad?.(e);}}/>
+ </View>;
+}

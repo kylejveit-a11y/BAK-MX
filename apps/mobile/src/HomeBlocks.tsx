@@ -1,7 +1,7 @@
 // Home, the rider's way: blocks they can turn on, off and reorder (saved on this phone), and race-day mode, which turns Home
 // into a track-day screen: today's setup, a between-motos checklist and a fast change log that goes into the setup log.
 import React,{useCallback,useEffect,useState} from 'react';
-import {Modal,ScrollView,Switch,Text,TextInput,View} from 'react-native';
+import {Keyboard,Modal,ScrollView,Switch,Text,TextInput,View} from 'react-native';
 import {useFocusEffect} from '@react-navigation/native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import type {Bike,ServiceEvent,Conversation,EngineeringResponse} from '../../../shared/types';
@@ -15,6 +15,7 @@ import {Pressable} from './Touch';
 import {Button,Card,Copy,Eyebrow,Icon,MetalMark,Notice,colors,tint,type IconName} from './ui';
 import {success} from './haptics';
 import {RacePrepCard,RacePrepSheet,useRacePrep,Progress} from './RacePrep';
+import {RACE_PHASES,phaseForDaysOut} from '../../../shared/race-prep';
 import {setRaceWidget} from './widgets/sync';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
@@ -204,15 +205,17 @@ export function RaceSetupCard({account,bike,track,day,onOpenChat}:{account:strin
 /** Keeps the widget's race countdown in step with the race and the prep list (off when the rider turned it off). */
 export function useRaceWidget(account:string,bike:Bike|undefined,race:RaceDay){
  const {list,checks}=useRacePrep(account,bike);
- const before=list.filter(i=>i.phase!=='after'),done=before.filter(i=>checks[i.id]).length;
+ // Count only the phase that matters now (the week before, the night before, race day), not the whole list.
+ const phase=phaseForDaysOut(daysToGo(race.day)),before=list.filter(i=>i.phase===phase),done=before.filter(i=>checks[i.id]).length,phaseName=RACE_PHASES.find(p=>p.id===phase)?.short??'Prep';
  const show=race.on&&race.widget!==false&&race.day>=today();
- useEffect(()=>{setRaceWidget(show?{track:race.track,day:race.day,done,total:before.length}:null);},[show,race.track,race.day,done,before.length]);
+ useEffect(()=>{setRaceWidget(show?{track:race.track,day:race.day,done,total:before.length}:null);},[show,race.track,race.day,done,before.length,phaseName]);
 }
 
 /** Home before the race: the countdown, BAK's setup for it and the prep list. */
 export function RaceCountdown({account,bike,race,onPrep,onEnd,onOpenChat}:{account:string;bike:Bike;race:RaceDay;onPrep:()=>void;onEnd:()=>void;onOpenChat:(c:string)=>void}){
  const {list,checks}=useRacePrep(account,bike);
- const before=list.filter(i=>i.phase!=='after'),done=before.filter(i=>checks[i.id]).length;
+ // Count only the phase that matters now (the week before, the night before, race day), not the whole list.
+ const phase=phaseForDaysOut(daysToGo(race.day)),before=list.filter(i=>i.phase===phase),done=before.filter(i=>checks[i.id]).length,phaseName=RACE_PHASES.find(p=>p.id===phase)?.short??'Prep';
  const n=daysToGo(race.day),date=new Date(race.day+'T12:00:00').toLocaleDateString('en-US',{weekday:'long',month:'short',day:'numeric'});
  return <>
   <Card>
@@ -222,7 +225,7 @@ export function RaceCountdown({account,bike,race,onPrep,onEnd,onOpenChat}:{accou
     <View style={{flex:1,gap:2,paddingBottom:4}}><Text style={{color:colors.text,fontSize:21,fontWeight:'800'}} numberOfLines={2}>{race.track||'Race day'}</Text><Text style={{color:colors.muted,fontSize:14}}>{date}</Text></View>
    </View>
    {before.length>0&&<Pressable accessibilityRole="button" onPress={onPrep} style={{gap:5}}>
-    <View style={{flexDirection:'row',justifyContent:'space-between'}}><Text style={{color:colors.text,fontSize:14.5,fontWeight:'600'}}>Prep</Text><Text style={{color:colors.muted,fontSize:13}}>{done} of {before.length} ready</Text></View>
+    <View style={{flexDirection:'row',justifyContent:'space-between'}}><Text style={{color:colors.text,fontSize:14.5,fontWeight:'600'}}>Prep · {phaseName}</Text><Text style={{color:colors.muted,fontSize:13}}>{done} of {before.length} ready</Text></View>
     <Progress done={done} total={before.length}/>
    </Pressable>}
   </Card>
@@ -293,19 +296,25 @@ export function RaceDayHome({bike,account,track,onEnd,onAsk,onQuick,onOpenChat}:
  </>;
 }
 
+type KnownTrack={name:string;city:string|null;state:string;aliases?:string[];weather:boolean};
 /** Starts race day: shows the bike it's for (switchable) and asks which track, with one-tap picks from the rider's recent
  *  setup-log tracks and the events they're going to. */
 export function RaceDayStart({visible,bike,bikes,onSwitch,onStart,onClose}:{visible:boolean;bike:Bike;bikes:Bike[];onSwitch:(id:string)=>void;onStart:(track:string,day:string,widget:boolean)=>void;onClose:()=>void}){
- const [day,setDay]=useState(today()),[widget,setWidget]=useState(true),[track,setTrack]=useState(''),[picks,setPicks]=useState<string[]>([]),[choosing,setChoosing]=useState(false);const insets=useSafeAreaInsets();
+ const [day,setDay]=useState(today()),[widget,setWidget]=useState(true),[dir,setDir]=useState<KnownTrack[]>(()=>readProgress<KnownTrack[]>('device','track-directory',[])),[track,setTrack]=useState(''),[picks,setPicks]=useState<string[]>([]),[choosing,setChoosing]=useState(false);const insets=useSafeAreaInsets();
  useEffect(()=>{if(!visible)return;let live=true;setTrack('');setDay(today());setChoosing(false);
   Promise.all([api<SetupLog[]>(`/api/setup-logs?bike_id=${bike.id}`).catch(()=>[] as SetupLog[]),api<RideEvent[]>('/api/events?scope=upcoming').catch(()=>[] as RideEvent[])]).then(([logs,events])=>{
    const soon=events.filter(e=>!e.canceled_at&&(e.my_rsvp==='going'||e.mine)&&Date.parse(e.starts_at)-Date.now()<30*864e5).map(e=>e.location_name);
    const seen=new Set<string>(),list=[...soon,...logs.map(l=>l.track)].map(t=>t.trim()).filter(t=>t&&!seen.has(t.toLowerCase())&&!!seen.add(t.toLowerCase()));
    if(live)setPicks(list.slice(0,6));});
   return()=>{live=false;};},[visible,bike.id]);
+ // BAK's tracks, kept on the phone so the picker works with no signal at the track.
+ useEffect(()=>{if(!visible)return;api<KnownTrack[]>('/api/tracks').then(r=>{if(Array.isArray(r)&&r.length){setDir(r);try{writeProgress('device','track-directory',r);}catch{}}}).catch(()=>{});},[visible]);
+ const norm=(x:string)=>x.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+ const typed=norm(track),known=dir.find(t=>norm(t.name)===typed||(t.aliases??[]).some(a=>norm(a)===typed));
+ const suggestions=typed.length<2||known?[]:dir.filter(t=>[t.name,t.city??'',...(t.aliases??[])].some(x=>norm(x).includes(typed))).slice(0,5);
  const name=(b:Bike)=>b.nickname||`${b.model_year} ${b.manufacturer} ${b.model}`;
  return <Modal visible={visible} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
-  <ScrollView keyboardShouldPersistTaps="handled" style={{flex:1,backgroundColor:colors.bg}} contentContainerStyle={{padding:20,paddingBottom:insets.bottom+20,gap:18}}>
+  <ScrollView keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets style={{flex:1,backgroundColor:colors.bg}} contentContainerStyle={{padding:20,paddingBottom:insets.bottom+20,gap:18}}>
    <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><Text style={{color:colors.text,fontSize:26,fontWeight:'900',fontStyle:'italic'}}>Race day</Text><Pressable accessibilityRole="button" onPress={onClose} hitSlop={8}><Text style={{color:colors.muted,fontSize:16}}>Cancel</Text></Pressable></View>
    <Copy>Pick the track and the day. BAK works out a starting setup for that track and the forecast, and Home counts down with your prep list. On the day, Home becomes your track-day screen: quick ask, a change log and today’s entries. It ends by itself the day after.</Copy>
    <View style={{gap:8}}>
@@ -319,8 +328,12 @@ export function RaceDayStart({visible,bike,bikes,onSwitch,onStart,onClose}:{visi
    <View style={{gap:8}}>
     <Text style={{color:'#adb5c1',fontSize:12.5,fontWeight:'600'}}>Track</Text>
     {picks.length>0&&<View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{picks.map(t=>{const on=track===t;return <Pressable key={t} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setTrack(on?'':t)} style={({pressed})=>({paddingHorizontal:12,paddingVertical:8,borderRadius:16,borderWidth:1,borderColor:on?colors.accent:'#343a45',backgroundColor:on?tint(0.16):'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:14.5,fontWeight:on?'700':'500'}}>{t}</Text></Pressable>;})}</View>}
-    <TextInput value={track} onChangeText={setTrack} maxLength={120} placeholder={picks.length?'Or type the track name':'Track name, e.g. Dade City MX'} placeholderTextColor="#7d8593" autoCapitalize="words" style={{color:colors.text,fontSize:18,fontWeight:'600',borderBottomWidth:1,borderBottomColor:colors.accent,paddingVertical:10}}/>
-    <Text style={{color:'#7d8593',fontSize:12.5}}>Optional. It goes on each change you log today, so you can find what worked at this track next time.</Text>
+    <TextInput value={track} onChangeText={setTrack} maxLength={120} placeholder={picks.length?'Or search BAK’s tracks':'Search tracks, e.g. Dade City'} placeholderTextColor="#7d8593" autoCapitalize="words" autoCorrect={false} returnKeyType="done" onSubmitEditing={()=>Keyboard.dismiss()} style={{color:colors.text,fontSize:18,fontWeight:'600',borderBottomWidth:1,borderBottomColor:colors.accent,paddingVertical:10}}/>
+    {suggestions.length>0&&<View style={{gap:2}}>{suggestions.map(t=><Pressable key={t.name} haptic="select" accessibilityRole="button" accessibilityLabel={`${t.name}${t.weather?', forecast available':''}`} onPress={()=>{setTrack(t.name);Keyboard.dismiss();}} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:10,paddingVertical:11,borderBottomWidth:1,borderBottomColor:'#1d2128',opacity:pressed?0.6:1})}>
+     <View style={{flex:1,gap:1}}><Text style={{color:colors.text,fontSize:16,fontWeight:'600'}}>{t.name}</Text><Text style={{color:'#8b93a1',fontSize:12.5}}>{[t.city,t.state].filter(Boolean).join(', ')}</Text></View>
+     {t.weather&&<Text style={{color:colors.accent,fontSize:12,fontWeight:'700'}}>Forecast</Text>}
+    </Pressable>)}</View>}
+    <Text style={{color:known?.weather?'#7fd09a':'#7d8593',fontSize:12.5,lineHeight:18}}>{known?(known.weather?'BAK knows this track and can use the forecast for it.':'BAK knows this track. No forecast for it yet.'):track.trim()?'Not one of BAK’s tracks yet: the setup works from your bike and what you tell it, without a forecast.':'Optional. Pick one of BAK’s tracks for its dirt, layout and the forecast. It also goes on each change you log.'}</Text>
    </View>
    <View style={{gap:8}}>
     <DateField label="Race day" value={day} onChange={v=>setDay(v&&v>=today()?v:today())} years={[new Date().getFullYear(),new Date().getFullYear()+1]} quick={rideDays()}/>

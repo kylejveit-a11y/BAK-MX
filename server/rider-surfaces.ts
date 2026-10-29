@@ -8,6 +8,7 @@ import {collectPages} from './pagination.ts';
 import {HttpError,readJson,uuid} from './validation.ts';
 import {objectionable} from './content-rules.ts';
 import {exactBikeScope} from '../shared/bike-identity.ts';
+import {trackDirectory} from './tracks.ts';
 import type {Bike} from '../shared/types.ts';
 
 /** Profile, community, events, messages, moderation, feedback, setup log and parts catalog.
@@ -99,6 +100,9 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
   const plinks=await photoLinks(posts.flatMap(p=>p.photo_ids??[]));
   return json({profile,posts:posts.map(({photo_ids,...p})=>({...p,photos:pick(plinks,photo_ids)})),bikes:await publicGarage(db,rider,owner),mine:rider===owner});
  }
+
+ // ---- Tracks BAK knows (race-day picker)
+ if(path==='/api/tracks'&&method==='GET')return json(await trackDirectory(db as never));
 
  // ---- Preferences: how BAK answers (units, length, tone)
  if(path==='/api/preferences'){

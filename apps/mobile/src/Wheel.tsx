@@ -1,7 +1,7 @@
 // Full-screen selector: search, a snapping wheel with a lit center row, and step-by-step drilling (make → model → year).
 // Replaces the stock iOS picker everywhere so choosing things feels like one deliberate tool.
 import React,{useEffect,useMemo,useRef,useState} from 'react';
-import {Animated,FlatList,Modal,StyleSheet,Text,TextInput,View,useWindowDimensions,type NativeScrollEvent,type NativeSyntheticEvent} from 'react-native';
+import {Animated,FlatList,Modal,ScrollView,StyleSheet,Text,TextInput,View,useWindowDimensions,type NativeScrollEvent,type NativeSyntheticEvent} from 'react-native';
 import {Pressable} from './Touch';
 import {colors} from './theme';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
@@ -22,6 +22,8 @@ export function WheelSheet({visible,step,title,options,value,onPick,onClose,back
  useEffect(()=>{if(visible)setQ('');},[visible,title]);
  const list=useMemo(()=>{const t=q.trim().toLowerCase();return t?options.filter(o=>`${o.label} ${o.detail??''}`.toLowerCase().includes(t)):options;},[options,q]);
  const searchable=options.length>8;
+ // A short list is quicker as plain rows to tap (and works with gloves); the wheel is for long lists.
+ const short=options.length<=10;
  const wheelH=Math.max(ROW*5,Math.min(ROW*7,height-insets.top-insets.bottom-(searchable?300:250)));
  const pad=(wheelH-ROW)/2;
  const y=useRef(new Animated.Value(0)).current,ref=useRef<FlatList<Option>>(null);
@@ -39,6 +41,10 @@ export function WheelSheet({visible,step,title,options,value,onPick,onClose,back
    </View>
    <Text style={st.title} numberOfLines={2}>{title}</Text>
    {back?<Pressable accessibilityRole="button" onPress={back.onPress} hitSlop={8} style={{alignSelf:'flex-start',paddingVertical:6}}><View style={{flexDirection:'row',alignItems:'center',gap:4}}><Icon name="chevronLeft" size={16} color={C.accent} weight={2.1}/><Text style={{color:C.accent,fontWeight:'600',fontSize:14}}>{back.label}</Text></View></Pressable>:<View style={{height:6}}/>}
+   {short?<ScrollView style={{flex:1,marginTop:6}} contentContainerStyle={{paddingBottom:12}}>{options.map(o=>{const on=o.value===value;return <Pressable key={o.value||'__none'} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} accessibilityLabel={o.label} onPress={()=>onPick(o.value)} style={({pressed})=>[st.listRow,pressed&&{opacity:0.6}]}>
+     <View style={{flex:1,gap:2}}><Text style={{color:on?C.accent:C.text,fontSize:18,fontWeight:on?'800':'600'}}>{o.label}</Text>{!!o.detail&&<Text style={{color:C.dim,fontSize:13}}>{o.detail}</Text>}</View>
+     {on&&<Icon name="check" size={18} color={C.accent} weight={2.4}/>}
+    </Pressable>;})}{footer&&<Pressable accessibilityRole="button" onPress={footer.onPress} hitSlop={8} style={{paddingTop:16}}><Text style={{color:C.muted,fontWeight:'600',fontSize:15}}>{footer.label}</Text></Pressable>}</ScrollView>:<>
    {searchable&&<View style={st.search}><Icon name="search" size={17} color={C.muted}/><TextInput value={q} onChangeText={setQ} placeholder={searchPlaceholder??'Search'} placeholderTextColor={C.dim} style={st.searchInput} autoCorrect={false} autoCapitalize="none" clearButtonMode="while-editing" accessibilityLabel="Search"/></View>}
    <View style={{flex:1,justifyContent:'center'}}>
    <View style={{height:wheelH,justifyContent:'center'}}>
@@ -63,7 +69,7 @@ export function WheelSheet({visible,step,title,options,value,onPick,onClose,back
    <View style={st.bottom}>
     {footer?<Pressable accessibilityRole="button" onPress={footer.onPress} hitSlop={8}><Text style={{color:C.muted,fontWeight:'600',fontSize:14}}>{footer.label}</Text></Pressable>:<View/>}
     <Pressable haptic={false} accessibilityRole="button" disabled={!list.length} onPress={()=>choose(center)} style={({pressed})=>[st.choose,(pressed||!list.length)&&{opacity:0.6}]}><Text style={{color:'#ffffff',fontWeight:'800',fontSize:15}}>Choose</Text></Pressable>
-   </View>
+   </View></>}
   </View>
  </Modal>;
 }

@@ -37,3 +37,10 @@ export async function trackContext(db:SupabaseClient,owner:string,texts:string[]
   });
  }catch{return [];}
 }
+
+/** The tracks BAK knows, for the race-day track picker: name, place, and whether a forecast can be had (location on file). */
+export async function trackDirectory(db:SupabaseClient):Promise<{name:string;city:string|null;state:string;weather:boolean}[]>{
+ const {data,error}=await db.from('tracks').select('name,aliases,city,state,lat,lng').eq('review_status','APPROVED').order('name').limit(2000);
+ if(error||!Array.isArray(data))return [];
+ return data.map(r=>({name:r.name as string,city:(r.city as string|null)??null,state:r.state as string,aliases:(r.aliases as string[]|null)??[],weather:r.lat!=null&&r.lng!=null})) as never;
+}

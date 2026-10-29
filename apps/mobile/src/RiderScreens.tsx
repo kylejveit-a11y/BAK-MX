@@ -1,3 +1,4 @@
+import {garageModelInfo} from '../../../shared/garage-models';
 import {PublicGarage,type PublicBike} from './GarageSharing';
 import {RacePlate} from './RacePlate';
 import {motion} from './theme';
@@ -83,7 +84,8 @@ export function ProfileCard(){
  async function changePhoto(){if(!profile)return;setPhotoNote('');try{const picked=await addPhotos('avatar',{square:true,title:'Profile photo'});if(!picked.length)return;setPhotoBusy(true);const saved=await api<Profile>('/api/profile','PUT',{handle:profile.handle,display_name:profile.display_name,bio:profile.bio,location:profile.location,riding_class:profile.riding_class,avatar_photo_id:picked[0].id});setProfile(saved);}catch(e){setPhotoNote(errorText(e));}finally{setPhotoBusy(false);}}
  const [blocks,setBlocks]=useState<{blocked_id:string;created_at:string}[]>([]);
  useFocusEffect(useCallback(()=>{api<{blocked_id:string;created_at:string}[]>('/api/blocks').then(setBlocks).catch(()=>setBlocks([]));},[]));
- if(profile===undefined)return null;
+ // While the profile loads, hold its space so the rest of Account doesn't jump down when it arrives.
+ if(profile===undefined)return <Card><View accessibilityLabel="Loading your profile" style={{flexDirection:'row',alignItems:'center',gap:14}}><View style={{width:56,height:56,borderRadius:28,backgroundColor:'#15181e'}}/><View style={{flex:1,gap:8}}><View style={{width:'55%',height:16,borderRadius:5,backgroundColor:'#15181e'}}/><View style={{width:'80%',height:12,borderRadius:4,backgroundColor:'#121519'}}/></View></View></Card>;
  return <Card>{profile?<View style={{flexDirection:'row',alignItems:'center',gap:14}}><Pressable accessibilityRole="button" accessibilityLabel="Change profile photo" disabled={photoBusy} onPress={()=>void changePhoto()}><Avatar name={riderName(profile)} uri={profile.avatar_url} size={56}/><View style={{position:'absolute',right:-2,bottom:-2,width:24,height:24,borderRadius:12,alignItems:'center',justifyContent:'center',...blueLift}}><BlueFace radius={12}/>{photoBusy?<ActivityIndicator size="small" color="#ffffff"/>:<Icon name="camera" size={12} color="#ffffff" weight={2.2}/>}</View></Pressable><View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:20,fontWeight:'800'}}>{riderName(profile)}</Text><Text style={{color:'#adb5c1',fontSize:13.5}}>@{profile.handle}{profile.location?' · '+profile.location:''}{profile.riding_class?' · '+profile.riding_class:''}</Text></View><Pressable accessibilityRole="button" hitSlop={10} onPress={()=>setEditing(!editing)}><Text style={{color:colors.accent,fontWeight:'700',fontSize:15}}>{editing?'Done':'Edit'}</Text></Pressable></View>:<Copy strong>Rider profile</Copy>}{!!profile?.bio&&!editing&&<Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{profile.bio}</Text>}<Notice text={profileError||photoNote}/>{(!profile||editing)&&<ProfileEditor profile={profile} onSaved={p=>{setProfile(p);setEditing(false);}}/>}
   {blocks.length>0&&<View style={{gap:8}}><Copy strong>Blocked riders</Copy>{blocks.map(b=><Row key={b.blocked_id}><Copy>Blocked {day(b.created_at)}</Copy><Link title="Unblock" onPress={()=>void api('/api/blocks?user_id='+b.blocked_id,'DELETE').then(()=>setBlocks(old=>old.filter(x=>x.blocked_id!==b.blocked_id))).catch(()=>{})}/></Row>)}</View>}
  </Card>;
@@ -415,14 +417,17 @@ export function PartsCatalogCard({bike}:{bike?:Bike}){
 }
 
 /* ------------------------------------------------------------------ Setup guide */
-export function SetupGuideCard({onAsk}:{onAsk?:(text:string)=>void}){
+export function SetupGuideCard({onAsk,bike}:{onAsk?:(text:string)=>void;bike?:Bike}){
+ // Only what this bike has: no carburetor jetting on a fuel-injected four-stroke.
+ const engine=bike?garageModelInfo[`${bike.manufacturer}|${bike.model}`]?.engine:undefined;
+ const shownAdjusters=adjusters.filter(a=>!(engine==='4-stroke'&&a.id==='two_stroke_jetting'));
  const [view,setView]=useState<'feel'|'adjusters'>('feel'),[open,setOpen]=useState('');
  const head=(id:string,label:string,sub?:string)=><Pressable accessibilityRole="button" accessibilityState={{expanded:open===id}} onPress={()=>setOpen(open===id?'':id)} style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',minHeight:44,borderTopWidth:1,borderTopColor:colors.line,paddingTop:10}}><View style={{flex:1}}><Text style={{color:colors.text,fontSize:16,fontWeight:'600'}}>{label}</Text>{!!sub&&<Text style={{color:colors.muted,fontSize:12}}>{sub}</Text>}</View><Icon name={open===id?'chevronDown':'chevronRight'} size={17} color="#adb5c1"/></Pressable>;
  return <Card>
   <Segments value={view} items={[{value:'feel',label:'By what you feel'},{value:'adjusters',label:'By adjustment'}]} onChange={v=>{setView(v);setOpen('');}}/>
   {view==='feel'?symptomGuides.map(g=><View key={g.id} style={{gap:8}}>{head(g.id,`“${g.rider_says[0]}”`,g.rider_says.slice(1,4).join(', '))}
    {open===g.id&&<View style={{gap:8}}><Copy>{g.where}</Copy><Text style={{color:colors.accent,fontSize:11,fontWeight:'800',letterSpacing:1.5}}>CHECK FIRST</Text>{g.check_first.map((c,i)=><Text key={i} style={{color:colors.text,fontSize:15,lineHeight:22}}>• {c}</Text>)}<Text style={{color:colors.accent,fontSize:11,fontWeight:'800',letterSpacing:1.5}}>LIKELY CAUSES</Text>{g.likely.map((l,i)=><View key={i} style={{gap:2}}><Text style={{color:colors.text,fontSize:15,fontWeight:'700',lineHeight:22}}>{l.cause}</Text><Copy>{l.tell}</Copy><Text style={{color:colors.primary,fontSize:15,lineHeight:22}}>First change: {l.first_change}</Text></View>)}{onAsk&&<Link title="Ask BAK about this on my bike" onPress={()=>onAsk(`My bike ${g.rider_says[0]}. `)}/>}</View>}</View>)
-  :adjusters.map(a=><View key={a.id} style={{gap:8}}>{head(a.id,a.name)}
+  :shownAdjusters.map(a=><View key={a.id} style={{gap:8}}>{head(a.id,a.name)}
    {open===a.id&&<View style={{gap:8}}><Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{a.controls}</Text><Text style={{color:colors.accent,fontSize:11,fontWeight:'800',letterSpacing:1.5}}>FIRMER / MORE</Text><Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{a.firmer_or_more}</Text><Copy>Too much: {a.too_much}</Copy><Text style={{color:colors.accent,fontSize:11,fontWeight:'800',letterSpacing:1.5}}>SOFTER / LESS</Text><Text style={{color:colors.text,fontSize:15,lineHeight:22}}>{a.softer_or_less}</Text><Copy>Too little: {a.too_little}</Copy><Copy>{a.notes}</Copy></View>}</View>)}
   <Text style={{color:colors.accent,fontSize:11,fontWeight:'800',letterSpacing:1.5,marginTop:6}}>BEFORE YOU TOUCH A CLICKER</Text>{beforeYouTune.map((b,i)=><Copy key={i}>• {b}</Copy>)}
  </Card>;

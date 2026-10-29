@@ -17,3 +17,15 @@ test('a saved list keeps the rider\'s own items and order, and BAK\'s why on the
  assert.deepEqual(list.map(i=>i.id),['own-1',first.id]);assert.equal(list[1].why,first.why);assert.equal(list[0].why,undefined);
  assert.equal(hydratePrepList(null,'mx').length,defaultPrepList('mx').length);
 });
+
+import {fitsEngine,phaseForDaysOut} from '../shared/race-prep.ts';
+test('prep items for the other engine type are hidden, custom items always show',()=>{
+ const premix=PREP_ITEMS.find(i=>i.id==='night-fuel-can-right-premix-ratio')!,fresh=PREP_ITEMS.find(i=>i.id==='night-fuel-can-fresh-fuel')!;
+ assert.equal(fitsEngine(premix,'4-stroke'),false);assert.equal(fitsEngine(premix,'2-stroke'),true);
+ assert.equal(fitsEngine(fresh,'2-stroke'),false);assert.equal(fitsEngine(fresh,'4-stroke'),true);
+ assert.equal(fitsEngine(premix,null),true);
+ assert.equal(fitsEngine({id:'x',custom:true},'4-stroke'),true);
+});
+test('the prep phase follows the days to go',()=>{
+ assert.equal(phaseForDaysOut(5),'week');assert.equal(phaseForDaysOut(2),'week');assert.equal(phaseForDaysOut(1),'night');assert.equal(phaseForDaysOut(0),'track');
+});

@@ -1,4 +1,5 @@
 // Photo pieces used across the app: attached thumbnails, a post carousel, a Garage grid and a full-screen viewer.
+import {LoadingImage} from './ui';
 import React,{useState} from 'react';
 import {ActivityIndicator,Image,Modal,ScrollView,StyleSheet,Text,View,useWindowDimensions} from 'react-native';
 import {Pressable} from './Touch';
@@ -29,7 +30,7 @@ export function PostPhotos({photos}:{photos:Photo[]}){
  const h=Math.round(width*ratio(photos[0]));
  return <View>
   <ScrollView horizontal pagingEnabled showsHorizontalScrollIndicator={false} onMomentumScrollEnd={e=>setPage(Math.round(e.nativeEvent.contentOffset.x/width))} scrollEventThrottle={16}>
-   {photos.map((p,i)=><Pressable key={p.id} accessibilityRole="imagebutton" accessibilityLabel={`Photo ${i+1} of ${photos.length}`} onPress={()=>setViewer(i)}><Image source={{uri:p.url}} style={{width,height:h,backgroundColor:'#101217'}} resizeMode="cover" accessibilityIgnoresInvertColors/></Pressable>)}
+   {photos.map((p,i)=><Pressable key={p.id} accessibilityRole="imagebutton" accessibilityLabel={`Photo ${i+1} of ${photos.length}`} onPress={()=>setViewer(i)}><LoadingImage source={{uri:p.url}} style={{width,height:h}} resizeMode="cover" accessibilityIgnoresInvertColors/></Pressable>)}
   </ScrollView>
   {photos.length>1&&<><View style={st.counter}><Text style={{color:C.text,fontSize:12,fontWeight:'700'}}>{page+1}/{photos.length}</Text></View>
    <View style={{flexDirection:'row',justifyContent:'center',gap:5,paddingTop:8}}>{photos.map((p,i)=><View key={p.id} style={{width:i===page?14:5,height:5,borderRadius:3,backgroundColor:i===page?C.accent:'#3a404b'}}/>)}</View></>}
