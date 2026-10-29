@@ -9,7 +9,8 @@ import {AI_CONSENT_VERSION} from '../../../shared/ai-consent';
 import {randomUUID} from 'expo-crypto';
 import {DateField,rideDays} from './DateSheet';
 import {EVENT_TYPE_LABELS,SETUP_RESULT_LABELS,type RideEvent,type SetupLog,type SetupResult} from '../../../shared/rider-types';
-import {api,apiStream} from './api';
+import {api,apiStream,apiQueued,currentStore} from './api';
+import {isLocal,pending,withPending} from './offline';
 import {readProgress,writeProgress} from './localProgress';
 import {Pressable} from './Touch';
 import {Button,Card,Copy,Eyebrow,Icon,MetalMark,Notice,colors,tint,type IconName} from './ui';
@@ -238,6 +239,11 @@ export function RaceCountdown({account,bike,race,onPrep,onEnd,onOpenChat}:{accou
 }
 
 const CHANGES=['Fork compression','Fork rebound','Shock low-speed','Shock high-speed','Shock rebound','Sag','Front tire','Rear tire','Fork height','Other'];
+/** Setup logs from the server or cache, plus any logged here with no signal that are still waiting to send. */
+export function setupLogsWithPending(rows:SetupLog[],bikeId:string):SetupLog[]{
+ const store=currentStore();if(!store)return rows;
+ return withPending(rows,pending(store),'/api/setup-logs',w=>{const b=w.body as Partial<SetupLog>&{bike_id?:string};return b.bike_id===bikeId?{id:w.id,user_id:'',bike_id:bikeId,recorded_at:b.recorded_at??w.created_at,track:b.track??'',conditions:b.conditions??'',engine_hours:b.engine_hours??null,settings:b.settings??{},change_made:b.change_made??'',result:b.result??'not_tested',notes:b.notes??'',created_at:w.created_at}:null;},r=>r.recorded_at);
+}
 const config=(b:Bike,k:string)=>{const v=b.configuration?.[k];return v==null||v===''?'':String(v);};
 
 /** The race-day Home: today's setup, the between-motos check, a fast change log and today's entries. */
@@ -246,7 +252,7 @@ const QUICK=['Front pushes in turns','Front harsh on braking bumps','Rear kicks 
 export function RaceDayHome({bike,account,track,onEnd,onAsk,onQuick,onOpenChat}:{bike:Bike;account:string;track:string;onEnd:()=>void;onAsk:(text:string)=>void;onQuick:(text:string)=>void;onOpenChat:(c:string)=>void}){
  const [prepOpen,setPrepOpen]=useState(false);
  const [logs,setLogs]=useState<SetupLog[]>([]),[moto,setMoto]=useState('Moto 1'),[what,setWhat]=useState(''),[detail,setDetail]=useState(''),[result,setResult]=useState<SetupResult>('not_tested'),[note,setNote]=useState(''),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
- const load=useCallback(async()=>{try{const all=await api<SetupLog[]>(`/api/setup-logs?bike_id=${bike.id}`);setLogs(all.filter(l=>dayOf(new Date(l.recorded_at))===today()));}catch(e){setNotice(errorText(e));}},[bike.id]);
+ const load=useCallback(async()=>{try{const all=setupLogsWithPending(await api<SetupLog[]>(`/api/setup-logs?bike_id=${bike.id}`),bike.id);setLogs(all.filter(l=>dayOf(new Date(l.recorded_at))===today()));}catch(e){setNotice(errorText(e));}},[bike.id]);
  useEffect(()=>{void load();},[load]);
  const setup:[string,string][]=[['Fork comp',config(bike,'fork_compression')],['Fork reb',config(bike,'fork_rebound')],['Shock comp',config(bike,'shock_compression')],['Shock reb',config(bike,'shock_rebound')],['Race sag',config(bike,'rider_sag_mm')?config(bike,'rider_sag_mm')+' mm':''],['Tires',config(bike,'tire_pressures')]];
  const known=setup.filter(([,v])=>v);
@@ -255,8 +261,9 @@ export function RaceDayHome({bike,account,track,onEnd,onAsk,onQuick,onOpenChat}:
   setBusy(true);setNotice('');
   try{
    const settings:Record<string,string>={};for(const k of ['fork_compression','fork_rebound','shock_rebound','rider_sag_mm','fork_height_mm']){const v=config(bike,k);if(v)settings[k]=v.slice(0,200);}
-   await api('/api/setup-logs','POST',{bike_id:bike.id,recorded_at:new Date().toISOString(),track:track.slice(0,120),conditions:`Race day · ${moto}`.slice(0,200),engine_hours:bike.engine_hours??null,settings,change_made:`${what}${detail.trim()?': '+detail.trim():''}`.slice(0,1000),result,notes:note.trim().slice(0,4000)});
-   success();setWhat('');setDetail('');setNote('');setResult('not_tested');await load();
+   const body={bike_id:bike.id,recorded_at:new Date().toISOString(),track:track.slice(0,120),conditions:`Race day · ${moto}`.slice(0,200),engine_hours:bike.engine_hours??null,settings,change_made:`${what}${detail.trim()?': '+detail.trim():''}`.slice(0,1000),result,notes:note.trim().slice(0,4000)};
+   const saved=await apiQueued<SetupLog>('/api/setup-logs',body,{...body,user_id:account,created_at:body.recorded_at},'Race-day change');
+   success();setWhat('');setDetail('');setNote('');setResult('not_tested');if(saved.pending)setNotice('No signal. Saved on this phone; it sends when you’re back in range.');await load();
   }catch(e){setNotice(errorText(e));}finally{setBusy(false);}
  }
  const chip=(label:string,on:boolean,onPress:()=>void)=><Pressable key={label} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={onPress} style={({pressed})=>({paddingHorizontal:12,paddingVertical:7,borderRadius:16,borderWidth:1,borderColor:on?colors.accent:'#343a45',backgroundColor:on?tint(0.16):'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:14,fontWeight:on?'700':'500'}}>{label}</Text></Pressable>;
@@ -291,7 +298,7 @@ export function RaceDayHome({bike,account,track,onEnd,onAsk,onQuick,onOpenChat}:
   {logs.length>0&&<Card><Eyebrow>TODAY</Eyebrow>
    {logs.map(l=><View key={l.id} style={{gap:2,paddingVertical:4}}>
     <Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>{l.change_made}</Text>
-    <Text style={{color:colors.muted,fontSize:13.5}}>{time(l.recorded_at)} · {l.conditions.replace('Race day · ','')} · <Text style={{color:l.result==='better'?'#7fd09a':l.result==='worse'?'#ef9aa1':colors.muted,fontWeight:'700'}}>{SETUP_RESULT_LABELS[l.result]}</Text>{l.notes?` · ${l.notes}`:''}</Text>
+    <Text style={{color:colors.muted,fontSize:13.5}}>{time(l.recorded_at)} · {l.conditions.replace('Race day · ','')}{isLocal(l.id)?' · waiting for signal':''} · <Text style={{color:l.result==='better'?'#7fd09a':l.result==='worse'?'#ef9aa1':colors.muted,fontWeight:'700'}}>{SETUP_RESULT_LABELS[l.result]}</Text>{l.notes?` · ${l.notes}`:''}</Text>
    </View>)}
    <Pressable accessibilityRole="button" onPress={()=>onAsk(`Race day${track?` at ${track}`:''}. Here's what I changed today and how it rode:\n${logs.slice().reverse().map(l=>`- ${l.conditions.replace('Race day · ','')}: ${l.change_made} → ${SETUP_RESULT_LABELS[l.result]}${l.notes?` (${l.notes})`:''}`).join('\n')}\nWhat should I try next?`)} hitSlop={6}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>Ask BAK what to try next</Text></Pressable>
   </Card>}

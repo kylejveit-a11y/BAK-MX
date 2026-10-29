@@ -11,6 +11,8 @@ import {BlueFace,blueLift,onBlueText} from './BlueFace';
 export {BlueFace,blueLift,onBlueText};
 export {Icon,type IconName};
 import {colors,tint,metalHighlight,motion} from './theme';
+import {useConnection} from './offline';
+import {currentStore} from './api';
 export {colors,tint};
 import Svg,{Defs,LinearGradient,Rect,Stop} from 'react-native-svg';
 /** Screen body. Content runs edge to edge under the floating glass header and tab bar.
@@ -23,6 +25,7 @@ export function Page({title,children,safeTop=false,footer,scrollRef}:{title:stri
  return <View style={{flex:1,backgroundColor:colors.bg}}>
   <ScrollView ref={scrollRef} keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets={!footer} scrollIndicatorInsets={{top:header,bottom:bottomChrome}}
    contentContainerStyle={[s.page,{paddingTop:(safeTop?insets.top:header)+16,paddingBottom:(footer?footH+footBottom:bottomChrome)+28}]}>
+   <OfflineLine/>
    {title?<PageTitle>{title}</PageTitle>:null}{children}
   </ScrollView>
   {/* pages without a header: cover the status bar so text never scrolls up under the clock */}
@@ -30,6 +33,13 @@ export function Page({title,children,safeTop=false,footer,scrollRef}:{title:stri
   {(inTabs||footer)&&kb===0?<BottomScrim height={(footer?footH+footBottom:bottomChrome)+26}/>:null}
   {footer?<View onLayout={e=>setFootH(e.nativeEvent.layout.height)} pointerEvents="box-none" style={{position:'absolute',left:12,right:12,bottom:footBottom}}><Glass strong style={{borderRadius:26}}>{footer}</Glass></View>:null}
  </View>;
+}
+/** One quiet line when there's no signal or changes are waiting; nothing when all is well. */
+function OfflineLine(){
+ const {offline,waiting}=useConnection(currentStore());
+ if(!offline&&!waiting)return null;
+ const text=offline?(waiting?`No signal. Showing what’s saved on this phone; ${waiting} ${waiting===1?'change waits':'changes wait'} to send.`:'No signal. Showing what’s saved on this phone.'):`${waiting} ${waiting===1?'change waiting':'changes waiting'} to send.`;
+ return <View accessibilityLiveRegion="polite" style={{flexDirection:'row',alignItems:'center',gap:8,paddingHorizontal:12,paddingVertical:8,borderRadius:10,backgroundColor:'rgba(226,189,114,0.10)',marginBottom:-6}}><View style={{width:7,height:7,borderRadius:4,backgroundColor:'#e2bd72'}}/><Text style={{color:'#f0d79a',fontSize:13,flex:1}}>{text}</Text></View>;
 }
 /** A raked accent mark finished like anodized metal: a bright edge on top, the colour through the middle, a deep base. */
 export function MetalMark({width,height=3,dim=false,skew=-24}:{width:number;height?:number;dim?:boolean;skew?:number}){

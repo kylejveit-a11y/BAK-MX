@@ -15,7 +15,8 @@ import {AttachedPhotos,PostPhotos} from './PhotoUI';
 import {addPhotos,pickImages,uploadPhoto,type Photo} from './photos';
 import type {Bike} from '../../../shared/types';
 import {COMMUNITY_RULES,EVENT_TYPE_LABELS,POST_CATEGORY_LABELS,SETUP_FIELDS,SETUP_RESULT_LABELS,riderName,setupDifferences,type Part,type PartAssembly,type PartCatalog,type Post,type PostCategory,type PostComment,type Profile,type RideEvent,type RiderRef,type SetupLog,type SetupResult,type ThreadMessage,type ThreadSummary} from '../../../shared/rider-types';
-import {api} from './api';
+import {setupLogsWithPending} from './HomeBlocks';
+import {api,apiQueued} from './api';
 import {adjusters,beforeYouTune,symptomGuides} from '../../../shared/setup-knowledge';
 import {BlueFace,blueLift,onBlueText,Avatar,BackLink,Button,Card,CheckRow,Copy,Eyebrow,Field,Icon,IconAction,type IconName,Notice,Page,SectionHead,Tile,TileGrid,colors} from './ui';
 
@@ -324,7 +325,7 @@ export function SetupLogCard({bike,onAsk,prefill}:{bike?:Bike;onAsk:(text:string
  const [loaded,setLoaded]=useState(false);
  const [logs,setLogs]=useState<SetupLog[]>([]),[adding,setAdding]=useState(false),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');const [showMore,setShowMore]=useState(false);
  const [date,setDate]=useState(()=>new Date().toISOString().slice(0,10)),[track,setTrack]=useState(''),[conditions,setConditions]=useState(''),[hours,setHours]=useState(''),[settings,setSettings]=useState<Record<string,string>>({}),[change,setChange]=useState(''),[result,setResult]=useState<SetupResult>('not_tested'),[notes,setNotes]=useState('');
- const load=useCallback(async()=>{if(!bike)return;try{setLogs(await api<SetupLog[]>('/api/setup-logs?bike_id='+bike.id));setNotice('');}catch(e){setNotice(errorText(e));}finally{setLoaded(true);}},[bike?.id]);
+ const load=useCallback(async()=>{if(!bike)return;try{setLogs(setupLogsWithPending(await api<SetupLog[]>('/api/setup-logs?bike_id='+bike.id),bike.id));setNotice('');}catch(e){setNotice(errorText(e));}finally{setLoaded(true);}},[bike?.id]);
  useFocusEffect(useCallback(()=>{setLogs([]);setLoaded(false);void load();},[load]));
  function begin(){const latest=logs[0];setSettings(Object.fromEntries(SETUP_FIELDS.map(f=>[f.key,latest?.settings[f.key]==null?'':String(latest.settings[f.key])])));setHours(bike?.engine_hours?.toString()??'');setChange('');setNotes('');setResult('not_tested');setAdding(true);}
  async function save(){
@@ -332,7 +333,7 @@ export function SetupLogCard({bike,onAsk,prefill}:{bike?:Bike;onAsk:(text:string
   try{
    if(!/^\d{4}-\d{2}-\d{2}$/.test(date)||!Number.isFinite(Date.parse(date+'T12:00:00')))throw new Error('Pick the date you rode.');
    const h=hours.trim()?Number(hours):null;if(h!==null&&(!Number.isFinite(h)||h<0))throw new Error('Hours must be zero or greater.');
-   await api('/api/setup-logs','POST',{bike_id:bike.id,recorded_at:new Date(date+'T12:00:00').toISOString(),track,conditions,engine_hours:h,settings:Object.fromEntries(SETUP_FIELDS.map(f=>[f.key,settings[f.key]?.trim()||null])),change_made:change,result,notes});
+   const logBody={bike_id:bike.id,recorded_at:new Date(date+'T12:00:00').toISOString(),track,conditions,engine_hours:h,settings:Object.fromEntries(SETUP_FIELDS.map(f=>[f.key,settings[f.key]?.trim()||null])),change_made:change,result,notes};const savedLog=await apiQueued<SetupLog>('/api/setup-logs',logBody,{...logBody,user_id:'',created_at:new Date().toISOString()} as Omit<SetupLog,'id'>,'Setup log');if(savedLog.pending)setNotice('No signal. Saved on this phone; it sends when you’re back in range.');
    success();setAdding(false);await load();
   }catch(e){setNotice(errorText(e));}finally{setBusy(false);}
  }
