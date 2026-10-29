@@ -106,6 +106,9 @@ export function RacePrepSheet({visible,onClose,account,bike,startPhase='week'}:{
 /** Race-day Home: the between-motos part of the rider's own list, with the full prep list one tap away. */
 export function RacePrepCard({account,bike,phase='motos',onOpen}:{account:string;bike:Bike;phase?:RacePhase;onOpen:()=>void}){
  const {list,checks,toggle,clear}=useRacePrep(account,bike);
+ const [hidden,setHidden]=useState(()=>readProgress(account,'race-prep-hidden',false));
+ const hide=(v:boolean)=>{setHidden(v);try{writeProgress(account,'race-prep-hidden',v);}catch{}};
+ if(hidden)return <Pressable accessibilityRole="button" onPress={()=>hide(false)} hitSlop={6} style={{alignSelf:'flex-start'}}><Text style={{color:colors.muted,fontSize:14.5}}>Show prep list</Text></Pressable>;
  const items=list.filter(i=>i.phase===phase),done=items.filter(i=>checks[i.id]).length;
  return <Card>
   <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'baseline'}}><Eyebrow>{RACE_PHASES.find(p=>p.id===phase)!.label.toUpperCase()} · {done}/{items.length}</Eyebrow>
@@ -113,6 +116,24 @@ export function RacePrepCard({account,bike,phase='motos',onOpen}:{account:string
   <Progress done={done} total={items.length}/>
   <View>{items.map(i=><CheckRow key={i.id} item={i} on={!!checks[i.id]} onPress={()=>toggle(i.id)}/>)}</View>
   {!items.length&&<Text style={{color:colors.muted,fontSize:14}}>Nothing on this list yet. Open the full prep list to add your own.</Text>}
-  {done>0&&<Pressable accessibilityRole="button" onPress={()=>clear(phase)} hitSlop={6}><Text style={{color:colors.muted,fontSize:14}}>Clear for the next moto</Text></Pressable>}
+  <View style={{flexDirection:'row',justifyContent:'space-between'}}>
+   {done>0?<Pressable accessibilityRole="button" onPress={()=>clear(phase)} hitSlop={6}><Text style={{color:colors.muted,fontSize:14}}>Clear for the next moto</Text></Pressable>:<View/>}
+   <Pressable accessibilityRole="button" onPress={()=>hide(true)} hitSlop={6}><Text style={{color:colors.muted,fontSize:14}}>Hide</Text></Pressable>
+  </View>
+ </Card>;
+}
+
+/** Home block: race prep at a glance (the phase with the most left to do), opening the full list. Optional in Edit Home. */
+export function RacePrepBlock({account,bike,onOpen}:{account:string;bike:Bike;onOpen:()=>void}){
+ const {list,checks}=useRacePrep(account,bike);
+ const rows=RACE_PHASES.map(p=>{const its=list.filter(i=>i.phase===p.id);return {p,done:its.filter(i=>checks[i.id]).length,total:its.length};}).filter(r=>r.total>0);
+ const started=rows.some(r=>r.done>0);
+ return <Card>
+  <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={14}/><Eyebrow>RACE PREP</Eyebrow></View>
+   <Pressable accessibilityRole="button" onPress={onOpen} hitSlop={8} style={{flexDirection:'row',alignItems:'center',gap:4}}><Text style={{color:colors.accent,fontWeight:'700'}}>{started?'Open':'Start'}</Text><Icon name="chevronRight" size={15} color={colors.accent} weight={2.2}/></Pressable></View>
+  {!started&&<Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>Your checklist from the week before to after the race. Make it yours: add, remove and reorder.</Text>}
+  {started&&rows.map(r=><Pressable key={r.p.id} accessibilityRole="button" onPress={onOpen} style={{gap:5}}>
+   <View style={{flexDirection:'row',justifyContent:'space-between'}}><Text style={{color:colors.text,fontSize:14.5,fontWeight:'600'}}>{r.p.short}</Text><Text style={{color:colors.muted,fontSize:13}}>{r.done}/{r.total}</Text></View>
+   <Progress done={r.done} total={r.total}/></Pressable>)}
  </Card>;
 }

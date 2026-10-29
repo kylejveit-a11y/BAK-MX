@@ -34,7 +34,7 @@ import {api,configured,supabase,ApiError} from './api';
 import {applyTheme,motion} from './theme';
 import {setHapticsEnabled} from './haptics';
 import {RacePlate} from './RacePlate';
-import {RacePrepSheet} from './RacePrep';
+import {RacePrepSheet,RacePrepBlock} from './RacePrep';
 import {HomeEditor,useHomeLayout,useRaceDay,RaceDayHome,RaceDayStart,ServiceDueBlock,LastSetupBlock,EventsBlock,CoachingBlock,type HomeBlock} from './HomeBlocks';
 import {themeFor,allThemes,type ThemeMode} from '../../../shared/brand-theme';
 import {MetalMark,MetalBubble,BlueFace,blueLift,Button,Card,Copy,Field,Notice,Page,PageTitle,Select,colors,tint,Brand,Eyebrow,Chip,Tile,TileGrid,AskBar,LinkAction,Icon,type IconName} from './ui';
@@ -102,6 +102,7 @@ function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,s
  if(race.on&&bike)return <Page title=""><RaceDayHome bike={bike} account={session.user.id} track={race.track} onEnd={end} onAsk={ask}/><AskBar onPress={()=>navigation.navigate('Ask BAK')} onSnap={()=>navigation.navigate('Ask BAK',{camera:randomUUID()})}/></Page>;
  const blocks:Record<HomeBlock,React.ReactNode>={
   ask:<AskBar onPress={()=>navigation.navigate('Ask BAK')} onSnap={bike?()=>navigation.navigate('Ask BAK',{camera:randomUUID()}):undefined}/>,
+  prep:bike?<RacePrepBlock account={session.user.id} bike={bike} onOpen={()=>setPrepOpen(true)}/>:null,
   bike:(bike?<Card><View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><Eyebrow>YOUR BIKE</Eyebrow><Pressable accessibilityRole="button" hitSlop={8} onPress={()=>navigation.navigate('Garage')} style={{flexDirection:'row',alignItems:'center',gap:4}}><Text style={{color:colors.accent,fontWeight:'700'}}>Garage</Text><Icon name="chevronRight" size={15} color={colors.accent} weight={2.2}/></Pressable></View><BikeCover key={bike.id} bikeId={bike.id}/><Text style={{color:colors.text,fontSize:20,fontWeight:'800'}}>{bike.model_year} {bike.manufacturer} {bike.model}</Text><Copy>{bike.engine_hours!=null?`${bike.engine_hours} hours`:'Hours not set'}</Copy>{bikes.length>1&&<SwitchBike/>}<BikeReadiness bike={bike} onEdit={open=>navigation.navigate('Garage',{open,token:randomUUID()})}/></Card>:!bikesLoaded?<Card><View style={{paddingVertical:28,alignItems:'center'}}><ActivityIndicator color={colors.accent}/></View></Card>:<Card><Eyebrow>START HERE</Eyebrow><Text style={{color:colors.text,fontSize:20,fontWeight:'800'}}>Add your bike</Text><Copy>Make, model and year. Your weight and clickers if you know them. Two minutes.</Copy><Button title="Add your bike" onPress={()=>navigation.navigate('Garage')}/></Card>),
   service:bike?<ServiceDueBlock bike={bike} onOpen={()=>navigation.navigate('Maintenance')}/>:null,
   setup:bike?<LastSetupBlock bike={bike} onOpen={()=>navigation.navigate('Setup')}/>:null,
@@ -113,7 +114,7 @@ function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,s
  <WhatsNewCard account={session.user.id}/>
  {layout.filter(b=>b.on).map(b=><React.Fragment key={b.id}>{blocks[b.id]}</React.Fragment>)}
  <View style={{flexDirection:'row',justifyContent:'space-between',paddingTop:4}}>
-  {bike?<View style={{flexDirection:'row',gap:20}}><Pressable accessibilityRole="button" onPress={()=>setStarting(true)} hitSlop={6} style={{flexDirection:'row',alignItems:'center',gap:6}}><Icon name="flag" size={17} color={colors.accent}/><Text style={{color:colors.accent,fontSize:15,fontWeight:'700'}}>Race day</Text></Pressable><Pressable accessibilityRole="button" onPress={()=>setPrepOpen(true)} hitSlop={6}><Text style={{color:colors.accent,fontSize:15,fontWeight:'700'}}>Race prep</Text></Pressable></View>:<View/>}
+  {bike?<Pressable accessibilityRole="button" onPress={()=>setStarting(true)} hitSlop={6} style={{flexDirection:'row',alignItems:'center',gap:6}}><Icon name="flag" size={17} color={colors.accent}/><Text style={{color:colors.accent,fontSize:15,fontWeight:'700'}}>Race day</Text></Pressable>:<View/>}
   <Pressable accessibilityRole="button" onPress={()=>setEditing(true)} hitSlop={6}><Text style={{color:colors.muted,fontSize:15}}>Edit Home</Text></Pressable>
  </View>
  {bike&&<RacePrepSheet visible={prepOpen} onClose={()=>setPrepOpen(false)} account={session.user.id} bike={bike}/>}

@@ -19,10 +19,11 @@ const when=(iso:string)=>new Date(iso).toLocaleDateString([],{weekday:'short',mo
 const time=(iso:string)=>new Date(iso).toLocaleTimeString([],{hour:'numeric',minute:'2-digit'});
 
 // ------------------------------------------------------------------ layout
-export type HomeBlock='ask'|'bike'|'service'|'setup'|'events'|'coaching'|'tools';
+export type HomeBlock='ask'|'bike'|'prep'|'service'|'setup'|'events'|'coaching'|'tools';
 export const HOME_BLOCKS:{id:HomeBlock;label:string;detail:string}[]=[
  {id:'ask',label:'Ask BAK',detail:'The question bar'},
  {id:'bike',label:'Your bike',detail:'Photo, hours and setup checklist'},
+ {id:'prep',label:'Race prep',detail:'Your own checklist, week before to after'},
  {id:'service',label:'Service due',detail:'What’s due next, by hours'},
  {id:'setup',label:'Last setup change',detail:'What you changed and how it rode'},
  {id:'events',label:'Upcoming events',detail:'Your next ride days and races'},
@@ -33,7 +34,7 @@ type Layout={id:HomeBlock;on:boolean}[];
 const DEFAULT_LAYOUT:Layout=HOME_BLOCKS.map(b=>({id:b.id,on:true}));
 /** Saved order, with any block added in a later version appended (on) so riders always see new things once. */
 export function useHomeLayout(account:string){
- const [layout,setLayout]=useState<Layout>(()=>{const saved=readProgress<Layout|null>(account,'home-layout',null);if(!saved)return DEFAULT_LAYOUT;const known=saved.filter(b=>HOME_BLOCKS.some(h=>h.id===b.id));return [...known,...DEFAULT_LAYOUT.filter(d=>!known.some(k=>k.id===d.id))];});
+ const [layout,setLayout]=useState<Layout>(()=>{const saved=readProgress<Layout|null>(account,'home-layout',null);if(!saved)return DEFAULT_LAYOUT;const known=saved.filter(b=>HOME_BLOCKS.some(h=>h.id===b.id));const out=[...known];DEFAULT_LAYOUT.forEach((d,i)=>{if(out.some(k=>k.id===d.id))return;const prev=DEFAULT_LAYOUT[i-1],at=prev?out.findIndex(k=>k.id===prev.id):-1;out.splice(at+1,0,d);});return out;});
  const save=(next:Layout)=>{setLayout(next);try{writeProgress(account,'home-layout',next);}catch{}};
  return {layout,save,reset:()=>save(DEFAULT_LAYOUT)};
 }
