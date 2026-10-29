@@ -63,7 +63,7 @@ export function BuildSheet({bike,onSaved,onAsk,raceNumber}:{bike:Bike;onSaved:(b
   </Card>;
  }
  return <Card>
-  {recorded>0&&<Pressable accessibilityRole="button" onPress={()=>{setOpen(null);setEditing(false);}} hitSlop={8} style={{alignSelf:'flex-end'}}><Text style={{color:colors.accent,fontSize:15.5,fontWeight:'700'}}>Done</Text></Pressable>}
+  {recorded>0&&<Pressable accessibilityRole="button" onPress={()=>{setOpen(null);setEditing(false);}} hitSlop={8} style={{alignSelf:'flex-end'}}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>Done</Text></Pressable>}
   <Text style={st.eyebrow}>BUILD SHEET</Text>
   <Text style={st.h2}>What’s on your {bike.model}?</Text>
   <Copy>Tap a section and pick what’s fitted. Keep spare parts too (a second suspension set, sand tires) and mark them on or off the bike.</Copy>
@@ -203,7 +203,7 @@ function PartRow({part,choice,flagged,onToggle,onRemove,onColor,inRail=false}:{p
    </Pressable>
    <OnOff on={!part.o} onPress={onToggle}/>
   </View>
-  <Pressable accessibilityRole="button" onPress={()=>setOpen(!open)} style={{flexDirection:'row',alignItems:'center',gap:4}} hitSlop={6}><Text style={{color:colors.accent,fontSize:13.5,fontWeight:'600'}}>Details</Text><Icon name={open?'chevronUp':'chevronDown'} size={13} color={colors.accent} weight={2.2}/></Pressable>
+  <Pressable accessibilityRole="button" onPress={()=>setOpen(!open)} style={{flexDirection:'row',alignItems:'center',gap:4}} hitSlop={6}><Text style={{color:colors.text,fontSize:13.5,fontWeight:'600'}}>Details</Text><Icon name={open?'chevronUp':'chevronDown'} size={13} color={colors.accent} weight={2.2}/></Pressable>
   {open&&<View style={{gap:8}}>
    <Note label="PART" text={[canonBrand(part.b),part.n].filter(Boolean).join(' ')}/>
    {palette.length>0&&<Chips label="Color" options={palette.map(x=>x.name)} value={part.k} onPick={onColor} indent={0}/>}
@@ -298,7 +298,7 @@ function Options({type,system,choices,have,onAdd,onCustom,pendingRef}:{type:stri
         {!!c.caution&&<Note label="HEADS UP" text={c.caution} warn/>}
         {c.testers.slice(0,1).map(t=><Note key={t} label="RIDERS FOUND" text={t}/>)}
         {!!c.opts?.length&&<Note label="OPTIONS" text={c.opts.slice(0,8).map(o=>o.pn?`${o.label} (${o.pn})`:o.label).join(', ')+(c.opts.length>8?` +${c.opts.length-8} more`:'')}/>}
-        {!!c.links?.length&&<View style={{gap:4}}><Text style={st.noteLabel}>WHERE TO BUY</Text>{c.links.map(l=><Pressable key={l.url} accessibilityRole="link" onPress={()=>void Linking.openURL(l.url).catch(()=>{})} hitSlop={6}><Text style={{color:colors.accent,fontSize:14,fontWeight:'600'}}>{l.seller}{l.price?` · ${priceText(l.price)}`:''} ›</Text></Pressable>)}</View>}
+        {!!c.links?.length&&<View style={{gap:4}}><Text style={st.noteLabel}>WHERE TO BUY</Text>{c.links.map(l=><Pressable key={l.url} accessibilityRole="link" onPress={()=>void Linking.openURL(l.url).catch(()=>{})} hitSlop={6}><Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>{l.seller}{l.price?` · ${priceText(l.price)}`:''} ›</Text></Pressable>)}</View>}
         <Note label={c.pns.length>1?'PART NUMBERS (BY SIZE OR COLOR)':'PART NUMBER'} text={c.pns.length?c.pns.slice(0,8).join(', ')+(c.pns.length>8?` +${c.pns.length-8} more`:''):'Not listed'}/>
        </View>}
       </View>;})}
@@ -344,7 +344,7 @@ function TypeRow({label,small,onPress,children}:{label:string;small?:string;onPr
  return <View style={st.typeBlock}>
   <Pressable accessibilityRole="button" accessibilityLabel={`${name}. ${set?'Set':small??''}`} onPress={onPress} style={({pressed})=>[{flexDirection:'row',alignItems:'center',gap:10,paddingVertical:14},pressed&&{opacity:0.55}]}>
    <View style={{flex:1,gap:2}}><Text style={[st.rowTitle,set&&{color:colors.text,fontWeight:'800'}]}>{name}</Text>{!set&&<Text style={st.small}>{paren?paren.charAt(0).toUpperCase()+paren.slice(1)+' · ':''}{small}</Text>}</View>
-   {set?<Text style={{color:colors.accent,fontSize:14,fontWeight:'700'}}>Change</Text>:<Icon name="plus" size={18} color={colors.accent} weight={2}/>}
+   {set?<Text style={{color:colors.text,fontSize:14,fontWeight:'700'}}>Change</Text>:<Icon name="plus" size={18} color={colors.accent} weight={2}/>}
   </Pressable>
   {set&&<View style={[st.setRail,{borderLeftColor:colors.accent,backgroundColor:tint(0.05)}]}>{children}</View>}
  </View>;

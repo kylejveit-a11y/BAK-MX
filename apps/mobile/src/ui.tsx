@@ -96,13 +96,13 @@ export function TileGrid({children}:{children:React.ReactNode}){return <View sty
 /** The home prompt: an open line that opens chat. */
 export function AskBar({onPress,onSnap}:{onPress:()=>void;onSnap?:()=>void}){return <Pressable accessibilityRole="button" accessibilityLabel="Ask BAK about your bike" onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,borderRadius:28,borderWidth:1,borderColor:'#343a45',paddingVertical:8,paddingLeft:20,paddingRight:8,opacity:pressed?0.7:1})}><Text style={{color:'#c9cfd9',fontSize:16,fontWeight:'500',flex:1}}>Ask BAK about your bike…</Text>{onSnap&&<Pressable accessibilityRole="button" accessibilityLabel="Snap a part and ask BAK" hitSlop={6} onPress={onSnap} style={({pressed})=>({width:40,height:40,borderRadius:20,borderWidth:1,borderColor:'#343a45',backgroundColor:'#14171d',alignItems:'center',justifyContent:'center',opacity:pressed?0.6:1})}><Icon name="camera" size={20} color="#e6e9ef"/></Pressable>}<View style={[{borderRadius:20,width:40,height:40,alignItems:'center',justifyContent:'center'},blueLift]}><BlueFace radius={20}/><Icon name="arrowUp" size={20} color="#ffffff" weight={2.4}/></View></Pressable>}
 /** Quiet text action: accent label with an arrow. For secondary moves under a section. */
-export function LinkAction({title,onPress,icon,disabled=false,muted=false,arrow=true}:{title:string;onPress:()=>void;icon?:IconName|React.ReactNode;disabled?:boolean;muted?:boolean;arrow?:boolean}){const c=muted?'#b2b9c4':colors.accent;return <Pressable accessibilityRole="button" accessibilityState={{disabled}} disabled={disabled} onPress={onPress} hitSlop={6} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:8,paddingVertical:10,opacity:pressed||disabled?0.55:1})}>{typeof icon==='string'?<Icon name={icon as IconName} size={18} color={c}/>:icon}<Text style={{color:c,fontSize:15,fontWeight:'700'}}>{title}</Text>{arrow&&<Icon name="arrowRight" size={16} color={c} weight={2}/>}</Pressable>}
+export function LinkAction({title,onPress,icon,disabled=false,muted=false,arrow=true}:{title:string;onPress:()=>void;icon?:IconName|React.ReactNode;disabled?:boolean;muted?:boolean;arrow?:boolean}){const c=muted?'#b2b9c4':colors.text;return <Pressable accessibilityRole="button" accessibilityState={{disabled}} disabled={disabled} onPress={onPress} hitSlop={6} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:8,paddingVertical:10,opacity:pressed||disabled?0.55:1})}>{typeof icon==='string'?<Icon name={icon as IconName} size={18} color={muted?c:colors.accent}/>:icon}<Text style={{color:c,fontSize:15,fontWeight:'700'}}>{title}</Text>{arrow&&<Icon name="arrowRight" size={16} color={muted?c:colors.accent} weight={2}/>}</Pressable>}
 /** Round initial for a rider. */
 export function Avatar({name,size=40,uri}:{name:string;size?:number;uri?:string|null}){if(uri)return <Image source={{uri}} accessibilityIgnoresInvertColors style={{width:size,height:size,borderRadius:size/2,backgroundColor:'#14171d'}}/>;return <View style={{width:size,height:size,borderRadius:size/2,borderWidth:1,borderColor:'#343a45',alignItems:'center',justifyContent:'center'}}><Text style={{color:colors.text,fontWeight:'800',fontStyle:'italic',fontSize:size*0.4}}>{name.replace('@','').slice(0,1).toUpperCase()}</Text></View>}
 /** Heading row for a form or section with a quiet action on the right. */
 export function SectionHead({title,action,onAction}:{title:string;action?:string;onAction?:()=>void}){return <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}><Text style={{color:colors.text,fontSize:19,fontWeight:'800'}}>{title}</Text>{!!action&&<Pressable accessibilityRole="button" hitSlop={10} onPress={onAction}><Text style={{color:'#adb5c1',fontSize:15,fontWeight:'600'}}>{action}</Text></Pressable>}</View>}
 /** Back to the previous list. */
-export function BackLink({title,onPress}:{title:string;onPress:()=>void}){return <Pressable accessibilityRole="button" hitSlop={8} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:4,alignSelf:'flex-start',paddingVertical:4,opacity:pressed?0.55:1})}><Icon name="chevronLeft" size={17} color={colors.accent} weight={2.1}/><Text style={{color:colors.accent,fontSize:15,fontWeight:'600'}}>{title}</Text></Pressable>}
+export function BackLink({title,onPress}:{title:string;onPress:()=>void}){return <Pressable accessibilityRole="button" hitSlop={8} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:4,alignSelf:'flex-start',paddingVertical:4,opacity:pressed?0.55:1})}><Icon name="chevronLeft" size={17} color={colors.accent} weight={2.1}/><Text style={{color:colors.text,fontSize:15,fontWeight:'600'}}>{title}</Text></Pressable>}
 /** Small icon + label action, e.g. likes and comments. */
 export function IconAction({icon,label,onPress,active=false,danger=false}:{icon:IconName;label:string;onPress:()=>void;active?:boolean;danger?:boolean}){const c=danger?'#efb5be':active?colors.accent:'#b2b9c4';return <Pressable haptic="select" accessibilityRole="button" accessibilityState={{selected:active}} accessibilityLabel={label} hitSlop={8} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:6,paddingVertical:6,opacity:pressed?0.55:1})}><Icon name={icon} size={18} color={c} accent={c}/><Text style={{color:c,fontSize:14,fontWeight:'600'}}>{label}</Text></Pressable>}
 /** Tick box with a label. */
@@ -116,5 +116,30 @@ export function LoadingImage({style,onLoad,...rest}:ImageProps){
  return <View style={{width:flat.width,height:flat.height,aspectRatio:flat.aspectRatio,borderRadius:flat.borderRadius,overflow:'hidden'}}>
   {!loaded&&<Animated.View pointerEvents="none" style={[StyleSheet.absoluteFill,{backgroundColor:'#1a1e25',opacity:pulse}]}/>}
   <Image {...rest} style={[style,{backgroundColor:'transparent'}]} onLoad={e=>{setLoaded(true);onLoad?.(e);}}/>
+ </View>;
+}
+
+/** One choice from a few, as a single control: a dark rail with the chosen option lifted out of it. Calm, no colour wash. */
+export function Segmented<T extends string>({value,items,onChange,disabled=false,label}:{value:T|undefined;items:{value:T;label:string}[];onChange:(v:T)=>void;disabled?:boolean;label?:string}){
+ return <View style={{gap:7}}>
+  {!!label&&<Text style={{color:'#adb5c1',fontSize:12.5,fontWeight:'600'}}>{label}</Text>}
+  <View accessibilityRole="radiogroup" style={{flexDirection:'row',padding:3,borderRadius:14,backgroundColor:'#0c0e12',borderWidth:1,borderColor:'#22262e'}}>
+   {items.map(i=>{const on=i.value===value;return <Pressable key={i.value} haptic="select" accessibilityRole="radio" accessibilityState={{selected:on,disabled}} disabled={disabled} onPress={()=>onChange(i.value)}
+    style={({pressed})=>[{flex:1,alignItems:'center',justifyContent:'center',minHeight:40,borderRadius:11,paddingHorizontal:8},on&&{backgroundColor:'#1e232c',borderWidth:1,borderColor:'#3a414d',shadowColor:'#000',shadowOpacity:0.35,shadowRadius:4,shadowOffset:{width:0,height:2}},pressed&&!on&&{opacity:0.6}]}>
+    <Text numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.8} style={{color:on?'#ffffff':'#8f97a4',fontSize:14.5,fontWeight:on?'700':'500'}}>{i.label}</Text>
+   </Pressable>;})}
+  </View>
+ </View>;
+}
+/** A collapsed group of settings: a row with what's inside and its current state; tap to open. */
+export function Section({icon,title,summary,children,startOpen=false}:{icon:IconName;title:string;summary?:string;children:React.ReactNode;startOpen?:boolean}){
+ const [open,setOpen]=React.useState(startOpen);
+ return <View style={{borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39'}}>
+  <Pressable haptic="select" accessibilityRole="button" accessibilityState={{expanded:open}} accessibilityLabel={`${title}${summary?`, ${summary}`:''}`} onPress={()=>setOpen(!open)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:14,paddingVertical:16,opacity:pressed?0.6:1})}>
+   <View style={{width:36,height:36,borderRadius:11,borderWidth:1,borderColor:'#262b34',backgroundColor:'#0e1015',alignItems:'center',justifyContent:'center'}}><Icon name={icon} size={18} color={open?colors.accent:'#b2b9c4'}/></View>
+   <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16.5,fontWeight:'700'}}>{title}</Text>{!!summary&&<Text numberOfLines={1} style={{color:'#8f97a4',fontSize:13.5}}>{summary}</Text>}</View>
+   <Icon name={open?'chevronUp':'chevronDown'} size={17} color="#8f97a4"/>
+  </Pressable>
+  {open&&<View style={{gap:14,paddingBottom:20}}>{children}</View>}
  </View>;
 }

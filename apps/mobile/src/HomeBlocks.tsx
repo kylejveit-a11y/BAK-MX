@@ -17,6 +17,7 @@ import {success} from './haptics';
 import {RacePrepCard,RacePrepSheet,useRacePrep,Progress} from './RacePrep';
 import {RACE_PHASES,phaseForDaysOut} from '../../../shared/race-prep';
 import {setRaceWidget} from './widgets/sync';
+import {RichText} from './RichText';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
 /** The rider's own calendar day (not UTC), so an evening practice still counts as today. */
@@ -54,7 +55,7 @@ export function HomeEditor({visible,layout,onChange,onReset,onClose}:{visible:bo
   <View style={{flex:1,backgroundColor:colors.bg,paddingTop:20,paddingBottom:insets.bottom+12}}>
    <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingHorizontal:20,paddingBottom:12}}>
     <Text style={{color:colors.text,fontSize:24,fontWeight:'900',fontStyle:'italic'}}>Edit Home</Text>
-    <Pressable accessibilityRole="button" onPress={onClose} hitSlop={8}><Text style={{color:colors.accent,fontSize:16,fontWeight:'700'}}>Done</Text></Pressable>
+    <Pressable accessibilityRole="button" onPress={onClose} hitSlop={8}><Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>Done</Text></Pressable>
    </View>
    <Text style={{color:colors.muted,fontSize:14,paddingHorizontal:20,paddingBottom:10}}>Turn blocks on or off and move them up or down. Saved on this phone.</Text>
    <ScrollView contentContainerStyle={{paddingHorizontal:20,gap:2}}>
@@ -74,7 +75,7 @@ export function HomeEditor({visible,layout,onChange,onReset,onClose}:{visible:bo
 function BlockHead({title,action,onAction}:{title:string;action?:string;onAction?:()=>void}){
  return <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}>
   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={14}/><Eyebrow>{title}</Eyebrow></View>
-  {action&&onAction&&<Pressable accessibilityRole="button" hitSlop={8} onPress={onAction} style={{flexDirection:'row',alignItems:'center',gap:4}}><Text style={{color:colors.accent,fontWeight:'700'}}>{action}</Text><Icon name="chevronRight" size={15} color={colors.accent} weight={2.2}/></Pressable>}
+  {action&&onAction&&<Pressable accessibilityRole="button" hitSlop={8} onPress={onAction} style={{flexDirection:'row',alignItems:'center',gap:4}}><Text style={{color:colors.text,fontWeight:'700'}}>{action}</Text><Icon name="chevronRight" size={15} color={colors.accent} weight={2.2}/></Pressable>}
  </View>;
 }
 
@@ -118,7 +119,7 @@ export function EventsBlock({onOpen}:{onOpen:()=>void}){
  const mine=events.filter(e=>e.my_rsvp||e.mine),list=(mine.length?mine:events).slice(0,2);
  return <Card><BlockHead title={mine.length?'YOUR NEXT EVENTS':'UPCOMING EVENTS'} action="Events" onAction={onOpen}/>
   {list.map(e=><Pressable key={e.id} accessibilityRole="button" onPress={onOpen} style={({pressed})=>({gap:2,opacity:pressed?0.7:1})}>
-   <Text style={{color:colors.accent,fontSize:12.5,fontWeight:'700'}}>{EVENT_TYPE_LABELS[e.event_type]}{e.my_rsvp==='going'?' · You’re going':e.my_rsvp==='interested'?' · Interested':''}</Text>
+   <Text style={{color:colors.text,fontSize:12.5,fontWeight:'700'}}>{EVENT_TYPE_LABELS[e.event_type]}{e.my_rsvp==='going'?' · You’re going':e.my_rsvp==='interested'?' · Interested':''}</Text>
    <Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{e.title}</Text>
    <Text style={{color:colors.muted,fontSize:13.5}}>{when(e.starts_at)} · {time(e.starts_at)} · {e.location_name}</Text>
   </Pressable>)}
@@ -131,7 +132,7 @@ export function CoachingBlock({bike,onOpen}:{bike:Bike;onOpen:()=>void}){
  useFocusEffect(useCallback(()=>{api<Coached[]>(`/api/coaching?bike_id=${bike.id}`).then(l=>setS(l[0]??null)).catch(()=>setS(null));},[bike.id]));
  if(!s||!s.fix)return null;
  return <Card><BlockHead title="LAST COACHING" action="Coaching" onAction={onOpen}/>
-  <Text style={{color:colors.text,fontSize:15.5,lineHeight:22}}><Text style={{color:colors.accent,fontWeight:'700'}}>Fix: </Text>{s.fix}</Text>
+  <Text style={{color:colors.text,fontSize:15.5,lineHeight:22}}><Text style={{color:colors.text,fontWeight:'700'}}>Fix: </Text>{s.fix}</Text>
   {!!s.drill&&<Text style={{color:colors.muted,fontSize:14.5,lineHeight:21}}><Text style={{fontWeight:'700'}}>Drill: </Text>{s.drill}</Text>}
  </Card>;
 }
@@ -156,6 +157,8 @@ export function useRaceDay(account:string){
 }
 
 // ------------------------------------------------------------------ BAK's starting setup for the race
+/** Short lines on the card show as plain text: no markdown asterisks. */
+const plain=(t:string)=>t.replace(/\*\*/g,'').replace(/(^|\s)\*(\S)/g,'$1$2');
 type RaceSetup={key:string;at:string;summary:string;answer:string;changes:{setting:string;change:string;expect:string;go_back_if:string}[];next:string;conversation:string};
 const setupKey=(bike:Bike,track:string,day:string)=>`${bike.id}|${track.trim().toLowerCase()}|${day}`;
 /** BAK works out a starting setup for this track, date and forecast from what is on the bike now. Saved on the phone. */
@@ -182,21 +185,21 @@ export function RaceSetupCard({account,bike,track,day,onOpenChat}:{account:strin
  return <Card>
   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={14}/><Eyebrow>BAK’S SETUP FOR {track?track.toUpperCase():'THIS RACE'}</Eyebrow></View>
   {!saved&&!live&&<Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>BAK works out where to start for this track and day: the dirt and layout, the weather forecast once it’s within a week, and what’s on your bike now. {track?'':'Add the track for track info and weather. '}It may say your setup is already right.</Text>}
-  {live&&<View style={{gap:6}}>{!!live.summary&&<Text style={{color:colors.text,fontSize:16,fontWeight:'700',lineHeight:22}}>{live.summary}</Text>}{!!live.answer&&<Text style={{color:colors.text,fontSize:15,lineHeight:21}}>{live.answer}</Text>}<Text style={{color:'#8b93a1',fontSize:12.5}}>{live.summary||live.answer?'Writing… final checks run before it’s saved.':'Reading the track, the forecast and your bike…'}</Text></View>}
+  {live&&<View style={{gap:6}}>{!!live.summary&&<Text style={{color:colors.text,fontSize:16,fontWeight:'700',lineHeight:22}}>{plain(live.summary)}</Text>}{!!live.answer&&<RichText text={live.answer}/>}<Text style={{color:'#8b93a1',fontSize:12.5}}>{live.summary||live.answer?'Writing… final checks run before it’s saved.':'Reading the track, the forecast and your bike…'}</Text></View>}
   {saved&&!live&&<View style={{gap:10}}>
-   <Text style={{color:colors.text,fontSize:16,fontWeight:'700',lineHeight:22}}>{saved.summary}</Text>
+   <Text style={{color:colors.text,fontSize:16,fontWeight:'700',lineHeight:22}}>{plain(saved.summary)}</Text>
    {saved.changes.length>0?saved.changes.map((c,i)=><View key={i} style={{gap:2,borderLeftWidth:3,borderLeftColor:colors.accent,paddingLeft:10}}>
     <Text style={{color:'#9aa2ae',fontSize:11.5,fontWeight:'800',letterSpacing:0.8}}>{c.setting.toUpperCase()}</Text>
-    <Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>{c.change}</Text>
-    {!!c.expect&&<Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>{c.expect}</Text>}
+    <Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>{plain(c.change)}</Text>
+    {!!c.expect&&<Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>{plain(c.expect)}</Text>}
    </View>):<Text style={{color:'#7fd09a',fontSize:14.5,fontWeight:'700'}}>Keep what’s on the bike.</Text>}
-   {!!saved.answer&&<Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>{saved.answer}</Text>}
-   {!!saved.next&&<Text style={{color:colors.text,fontSize:14,lineHeight:20}}><Text style={{fontWeight:'700'}}>First practice: </Text>{saved.next}</Text>}
+   {!!saved.answer&&<RichText text={saved.answer}/>}
+   {!!saved.next&&<Text style={{color:colors.text,fontSize:14,lineHeight:20}}><Text style={{fontWeight:'700'}}>First practice: </Text>{plain(saved.next)}</Text>}
    <Text style={{color:'#6f7784',fontSize:12}}>Worked out {new Date(saved.at).toLocaleDateString('en-US',{month:'short',day:'numeric'})} at {new Date(saved.at).toLocaleTimeString([],{hour:'numeric',minute:'2-digit'})}{stale?' · the forecast is out now, refresh it':''}</Text>
   </View>}
   <Notice text={notice}/>
   <View style={{flexDirection:'row',gap:18,alignItems:'center'}}>
-   <Pressable accessibilityRole="button" disabled={busy} onPress={()=>void get()} hitSlop={6}><Text style={{color:colors.accent,fontSize:15,fontWeight:'700',opacity:busy?0.5:1}}>{busy?'Working it out…':saved?'Refresh':'Get BAK’s setup'}</Text></Pressable>
+   <Pressable accessibilityRole="button" disabled={busy} onPress={()=>void get()} hitSlop={6}><Text style={{color:colors.text,fontSize:15,fontWeight:'700',opacity:busy?0.5:1}}>{busy?'Working it out…':saved?'Refresh':'Get BAK’s setup'}</Text></Pressable>
    {saved&&!busy&&<Pressable accessibilityRole="button" onPress={()=>onOpenChat(saved.conversation)} hitSlop={6}><Text style={{color:colors.muted,fontSize:15}}>Ask about it</Text></Pressable>}
   </View>
  </Card>;
@@ -290,7 +293,7 @@ export function RaceDayHome({bike,account,track,onEnd,onAsk,onQuick,onOpenChat}:
     <Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>{l.change_made}</Text>
     <Text style={{color:colors.muted,fontSize:13.5}}>{time(l.recorded_at)} · {l.conditions.replace('Race day · ','')} · <Text style={{color:l.result==='better'?'#7fd09a':l.result==='worse'?'#ef9aa1':colors.muted,fontWeight:'700'}}>{SETUP_RESULT_LABELS[l.result]}</Text>{l.notes?` · ${l.notes}`:''}</Text>
    </View>)}
-   <Pressable accessibilityRole="button" onPress={()=>onAsk(`Race day${track?` at ${track}`:''}. Here's what I changed today and how it rode:\n${logs.slice().reverse().map(l=>`- ${l.conditions.replace('Race day · ','')}: ${l.change_made} → ${SETUP_RESULT_LABELS[l.result]}${l.notes?` (${l.notes})`:''}`).join('\n')}\nWhat should I try next?`)} hitSlop={6}><Text style={{color:colors.accent,fontSize:15,fontWeight:'700'}}>Ask BAK what to try next</Text></Pressable>
+   <Pressable accessibilityRole="button" onPress={()=>onAsk(`Race day${track?` at ${track}`:''}. Here's what I changed today and how it rode:\n${logs.slice().reverse().map(l=>`- ${l.conditions.replace('Race day · ','')}: ${l.change_made} → ${SETUP_RESULT_LABELS[l.result]}${l.notes?` (${l.notes})`:''}`).join('\n')}\nWhat should I try next?`)} hitSlop={6}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>Ask BAK what to try next</Text></Pressable>
   </Card>}
   <Pressable accessibilityRole="button" onPress={onEnd} style={{alignSelf:'center',paddingVertical:10}}><Text style={{color:colors.muted,fontSize:15}}>End race day</Text></Pressable>
  </>;
@@ -321,7 +324,7 @@ export function RaceDayStart({visible,bike,bikes,onSwitch,onStart,onClose}:{visi
     <Text style={{color:'#adb5c1',fontSize:12.5,fontWeight:'600'}}>Bike</Text>
     <View style={{flexDirection:'row',alignItems:'center',gap:10}}>
      <Text style={{flex:1,color:colors.text,fontSize:18,fontWeight:'800'}}>{name(bike)}</Text>
-     {bikes.length>1&&<Pressable accessibilityRole="button" onPress={()=>setChoosing(!choosing)} hitSlop={8}><Text style={{color:colors.accent,fontSize:15,fontWeight:'700'}}>{choosing?'Close':'Change'}</Text></Pressable>}
+     {bikes.length>1&&<Pressable accessibilityRole="button" onPress={()=>setChoosing(!choosing)} hitSlop={8}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{choosing?'Close':'Change'}</Text></Pressable>}
     </View>
     {choosing&&<View style={{gap:4}}>{bikes.filter(b=>b.id!==bike.id).map(b=><Pressable key={b.id} accessibilityRole="button" onPress={()=>{onSwitch(b.id);setChoosing(false);}} style={({pressed})=>({paddingVertical:10,opacity:pressed?0.6:1})}><Text style={{color:colors.text,fontSize:16}}>{name(b)}</Text></Pressable>)}</View>}
    </View>
@@ -331,7 +334,7 @@ export function RaceDayStart({visible,bike,bikes,onSwitch,onStart,onClose}:{visi
     <TextInput value={track} onChangeText={setTrack} maxLength={120} placeholder={picks.length?'Or search BAK’s tracks':'Search tracks, e.g. Dade City'} placeholderTextColor="#7d8593" autoCapitalize="words" autoCorrect={false} returnKeyType="done" onSubmitEditing={()=>Keyboard.dismiss()} style={{color:colors.text,fontSize:18,fontWeight:'600',borderBottomWidth:1,borderBottomColor:colors.accent,paddingVertical:10}}/>
     {suggestions.length>0&&<View style={{gap:2}}>{suggestions.map(t=><Pressable key={t.name} haptic="select" accessibilityRole="button" accessibilityLabel={`${t.name}${t.weather?', forecast available':''}`} onPress={()=>{setTrack(t.name);Keyboard.dismiss();}} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:10,paddingVertical:11,borderBottomWidth:1,borderBottomColor:'#1d2128',opacity:pressed?0.6:1})}>
      <View style={{flex:1,gap:1}}><Text style={{color:colors.text,fontSize:16,fontWeight:'600'}}>{t.name}</Text><Text style={{color:'#8b93a1',fontSize:12.5}}>{[t.city,t.state].filter(Boolean).join(', ')}</Text></View>
-     {t.weather&&<Text style={{color:colors.accent,fontSize:12,fontWeight:'700'}}>Forecast</Text>}
+     {t.weather&&<Text style={{color:colors.text,fontSize:12,fontWeight:'700'}}>Forecast</Text>}
     </Pressable>)}</View>}
     <Text style={{color:known?.weather?'#7fd09a':'#7d8593',fontSize:12.5,lineHeight:18}}>{known?(known.weather?'BAK knows this track and can use the forecast for it.':'BAK knows this track. No forecast for it yet.'):track.trim()?'Not one of BAK’s tracks yet: the setup works from your bike and what you tell it, without a forecast.':'Optional. Pick one of BAK’s tracks for its dirt, layout and the forecast. It also goes on each change you log.'}</Text>
    </View>

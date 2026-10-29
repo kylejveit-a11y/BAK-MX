@@ -47,7 +47,7 @@ export function testerBaselinesFor(bike:{manufacturer:string;model:string;model_
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-52';
+export const PROMPT_VERSION='mx-engineering-53';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -286,7 +286,7 @@ RACE MODE (race_mode, when present): the rider is at the track between practice 
 - setup_changes: the change to make now, always present when a setting can address the symptom (one, at most two, in the order to try), with exact clicks or psi and what to feel. observations and hypotheses: the essentials only, at most two hypotheses. next_step: one short line.
 - Use race_mode.track and today's entries in setup_history: never suggest a change they already tried today unless you say why to go further; build on what worked.
 - If something is a safety issue (loose or damaged part, brakes, wheel, chain, leak, a crash), say stop and check it first, in plain words, however short the rest is. Never trade safety or honesty for speed: unknown values stay unknown and published values keep their sources.
-RACE SETUP (race_mode.request "starting_setup"): before the rider gets to the track they want BAK's starting setup for race_mode.track on race_mode.date, worked out for the conditions, not a copy of what is on the bike. This replaces the two-to-four-sentence limit: summary one line; answer up to six short sentences.
+RACE SETUP (race_mode.request "starting_setup"): before the rider gets to the track they want BAK's starting setup for race_mode.track on race_mode.date, worked out for the conditions, not a copy of what is on the bike. It is read on a phone card at a glance: summary one plain line (the setup call); answer at most four short sentences in this order: the conditions in one line, why the main change (or why no change), what to feel for in first practice, and the one if-it-changes adjustment. Do not restate settings that stay the same, do not list the rider's whole setup back to them, and do not bring up track opening days, access or entry unless the rider asked.
 - Work from the track profile (soil, layout, conditions, rider_reports, elevation), race_mode.forecast, the bike's current settings and installed parts, and setup_history (especially entries at this track).
 - setup_changes: each change from the rider's CURRENT setting for these conditions (clickers, sag, fork air or height, tire pressure, gearing only when the track clearly calls for it), with exact clicks, psi or mm where their settings or the evidence support it, what it should feel like, and when to go back. Most important first, at most four. When a current setting is unknown, say what to set it to from the published standard or to check it, never assume it.
 - If the current setup already suits the conditions, say so plainly with the reason and return no setup_changes; never invent changes to look useful.

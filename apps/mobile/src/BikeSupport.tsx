@@ -41,7 +41,7 @@ export function SupportPicker({onSeeAll,pick:outer,onPick,onStart,title}:{onSeeA
   </Pressable></MetalWell>
   {row?<SupportDetail row={row}/>:<Text style={[{color:'#aab1bc',fontSize:13.5,lineHeight:20},engraved]}>If yours isn’t listed, it isn’t supported yet.</Text>}
   {row&&onStart&&<Button title="Create my account with this bike" onPress={onStart}/>}
-  {onSeeAll&&<Pressable accessibilityRole="button" onPress={onSeeAll}><Text style={{color:colors.accent,fontWeight:'700'}}>See all supported bikes →</Text></Pressable>}
+  {onSeeAll&&<Pressable accessibilityRole="button" onPress={onSeeAll}><Text style={{color:colors.text,fontWeight:'700'}}>See all supported bikes →</Text></Pressable>}
   <BikeWheel visible={open} makes={makes} modelsFor={modelsFor} yearsFor={yearsFor} initial={pick??undefined} onClose={()=>setOpen(false)} onDone={b=>{setPick(b);setOpen(false);}}/>
  </MetalPanel>;
 }

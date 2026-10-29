@@ -72,7 +72,7 @@ function PublicBikeCard({bike,raceNumber}:{bike:PublicBike;raceNumber?:string}){
   </ScrollView>}
   {state==='mine'&&<Text style={{color:colors.muted,fontSize:13.5}}>This is how riders see your bike. Set the build sheet public or private in Garage › Photos.</Text>}
   {state==='private'&&<Text style={{color:colors.muted,fontSize:13.5}}>Build sheet is private.</Text>}
-  {(state==='public'||state==='mine')&&<Pressable accessibilityRole="button" onPress={()=>void view()} hitSlop={6}><Text style={{color:colors.accent,fontSize:15,fontWeight:'700'}}>{open?'Hide build sheet':busy?'Loading…':'View build sheet'}</Text></Pressable>}
+  {(state==='public'||state==='mine')&&<Pressable accessibilityRole="button" onPress={()=>void view()} hitSlop={6}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{open?'Hide build sheet':busy?'Loading…':'View build sheet'}</Text></Pressable>}
   {open&&sheet&&<BuildSheetDoc data={{title:`${sheet.bike.model_year} ${sheet.bike.manufacturer} ${sheet.bike.model}`,subtitle:sheet.bike.nickname||undefined,raceNumber:raceNumber||undefined,parts:sheet.parts.map(p=>({system:p.system,brand:p.brand,name:p.part||p.name,size:p.size||undefined,color:p.color||undefined,detail:p.detail||undefined,off:p.off_bike})),stock:sheet.stock??[]}}/>}
   <Notice text={notice}/>
   <PhotoViewer photos={bike.photos} start={viewer} onClose={()=>setViewer(null)}/>

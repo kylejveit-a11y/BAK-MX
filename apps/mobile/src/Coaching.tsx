@@ -34,7 +34,7 @@ export function CoachingList({bike,onCoach}:{bike:Bike;onCoach:()=>void}){
   <Notice text={error}/>
   {sessions!==null&&!sessions.length&&!error&&<View style={{gap:10}}>
    <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>Send BAK a short clip of you riding a corner, jump or section. Each session lands here with the fix and a drill, so you can see what you have worked on and send a new clip to check it stuck.</Text>
-   <Pressable accessibilityRole="button" onPress={onCoach} hitSlop={6}><Text style={{color:colors.accent,fontSize:15,fontWeight:'700'}}>Coach me from a clip</Text></Pressable>
+   <Pressable accessibilityRole="button" onPress={onCoach} hitSlop={6}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>Coach me from a clip</Text></Pressable>
   </View>}
   {sessions?.map((s,i)=><Session key={s.id} s={s} first={i===0}/>)}
  </Card>;
@@ -47,7 +47,7 @@ function Session({s,first}:{s:CoachingSession;first:boolean}){
    {!!s.photos[0]&&<Image source={{uri:s.photos[Math.floor(s.photos.length/2)].url}} style={{width:64,height:64,borderRadius:10,backgroundColor:'#101217'}} accessibilityIgnoresInvertColors/>}
    <View style={{flex:1,gap:4}}>
     <Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>{sessionLabel(s)}{s.media.kind==='clip'?` · ${s.media.duration.toFixed(0)} s clip`:''}</Text>
-    {!!s.fix&&<Text selectable style={{color:colors.text,fontSize:14.5,lineHeight:21}}><Text style={{color:colors.accent,fontWeight:'700'}}>Fix: </Text>{s.fix}</Text>}
+    {!!s.fix&&<Text selectable style={{color:colors.text,fontSize:14.5,lineHeight:21}}><Text style={{color:colors.text,fontWeight:'700'}}>Fix: </Text>{s.fix}</Text>}
     {!!s.drill&&<Text selectable style={{color:colors.muted,fontSize:14,lineHeight:20}}><Text style={{fontWeight:'700'}}>Drill: </Text>{s.drill}</Text>}
     {s.tried&&<Text style={{color:s.tried.result==='better'?'#7fd09a':colors.muted,fontSize:13.5,fontWeight:'600'}}>You said it {TRIED.find(t=>t.key===s.tried!.result)?.said}{s.tried.note?`: ${s.tried.note}`:''}</Text>}
    </View>
@@ -79,7 +79,7 @@ export function TriedCard({messageId,tried,onSaved,onAsk}:{messageId:string;trie
  if(tried&&!edit){const t=TRIED.find(x=>x.key===tried.result)!;return <View style={st.box}>
   <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>You said this <Text style={{color:colors.text,fontWeight:'700'}}>{t.said}</Text>{tried.note?`: ${tried.note}`:'.'}</Text>
   <View style={{flexDirection:'row',gap:16}}>
-   <Pressable accessibilityRole="button" onPress={()=>onAsk(`I tried the coaching from my clip and it ${t.said}.${tried.note?' '+tried.note:''} What should I work on next?`)} hitSlop={6}><Text style={{color:colors.accent,fontSize:14.5,fontWeight:'700'}}>Ask BAK what's next</Text></Pressable>
+   <Pressable accessibilityRole="button" onPress={()=>onAsk(`I tried the coaching from my clip and it ${t.said}.${tried.note?' '+tried.note:''} What should I work on next?`)} hitSlop={6}><Text style={{color:colors.text,fontSize:14.5,fontWeight:'700'}}>Ask BAK what's next</Text></Pressable>
    <Pressable accessibilityRole="button" onPress={()=>{setPick(tried.result);setNote(tried.note);setEdit(true);}} hitSlop={6}><Text style={{color:colors.muted,fontSize:14.5}}>Change</Text></Pressable>
   </View>
  </View>;}

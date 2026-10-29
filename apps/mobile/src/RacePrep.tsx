@@ -51,7 +51,7 @@ function CheckRow({item,on,onPress}:{item:PrepItem;on:boolean;onPress:()=>void})
  return <Pressable haptic="select" accessibilityRole="checkbox" accessibilityState={{checked:on}} accessibilityLabel={item.label} onPress={onPress} style={({pressed})=>({flexDirection:'row',alignItems:'flex-start',gap:12,paddingVertical:9,opacity:pressed?0.7:1})}>
   <View style={{width:24,height:24,borderRadius:7,marginTop:1,borderWidth:1.5,borderColor:on?colors.accent:'#4a515d',backgroundColor:on?tint(0.24):'transparent',alignItems:'center',justifyContent:'center'}}>{on&&<Icon name="check" size={15} color="#ffffff"/>}</View>
   <View style={{flex:1,gap:2}}>
-   <Text style={{color:on?'#7d8593':colors.text,fontSize:16,fontWeight:'600',textDecorationLine:on?'line-through':'none'}}>{item.label}{item.custom?<Text style={{color:colors.accent,fontSize:11,fontWeight:'800',letterSpacing:0.6}}>  YOURS</Text>:null}</Text>
+   <Text style={{color:on?'#7d8593':colors.text,fontSize:16,fontWeight:'600',textDecorationLine:on?'line-through':'none'}}>{item.label}{item.custom?<Text style={{color:'#9aa2ae',fontSize:11,fontWeight:'800',letterSpacing:0.6}}>  YOURS</Text>:null}</Text>
    {!!item.why&&!on&&<Text style={{color:colors.muted,fontSize:13,lineHeight:18}}>{item.why}</Text>}
   </View>
  </Pressable>;
@@ -74,7 +74,7 @@ export function RacePrepSheet({visible,onClose,account,bike,startPhase='week'}:{
     <View style={{gap:6}}><Text style={{color:colors.text,fontSize:28,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.8}}>Race prep</Text><View style={{flexDirection:'row',gap:4}}><MetalMark width={26}/><MetalMark width={8} dim/></View></View>
     <View style={{flexDirection:'row',gap:18,alignItems:'center'}}>
      <Pressable accessibilityRole="button" onPress={()=>setEditing(!editing)} hitSlop={8}><Text style={{color:editing?colors.accent:colors.muted,fontSize:15.5,fontWeight:'700'}}>{editing?'Done editing':'Edit list'}</Text></Pressable>
-     <Pressable accessibilityRole="button" onPress={onClose} hitSlop={8}><Text style={{color:colors.accent,fontSize:15.5,fontWeight:'700'}}>Close</Text></Pressable>
+     <Pressable accessibilityRole="button" onPress={onClose} hitSlop={8}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>Close</Text></Pressable>
     </View>
    </View>
    <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{paddingHorizontal:20,gap:8,paddingVertical:12}} style={{flexGrow:0}}>
@@ -90,7 +90,7 @@ export function RacePrepSheet({visible,onClose,account,bike,startPhase='week'}:{
     {!editing&&<View>{items.map(i=><CheckRow key={i.id} item={i} on={!!checks[i.id]} onPress={()=>toggle(i.id)}/>)}</View>}
     {editing&&<View>{items.map((i,n)=><View key={i.id} style={{flexDirection:'row',alignItems:'center',gap:8,paddingVertical:8,borderBottomWidth:1,borderBottomColor:'#1a1e25'}}>
      <Pressable accessibilityRole="button" accessibilityLabel={`Remove ${i.label}`} onPress={()=>{hSelect();remove(i.id);}} hitSlop={6} style={{width:26,height:26,borderRadius:13,backgroundColor:'#3a1d22',alignItems:'center',justifyContent:'center'}}><Text style={{color:'#ef9aa1',fontSize:18,fontWeight:'900',marginTop:-2}}>−</Text></Pressable>
-     <Text style={{flex:1,color:colors.text,fontSize:15.5}}>{i.label}{i.custom?<Text style={{color:colors.accent,fontSize:11,fontWeight:'800'}}>  YOURS</Text>:null}</Text>
+     <Text style={{flex:1,color:colors.text,fontSize:15.5}}>{i.label}{i.custom?<Text style={{color:colors.text,fontSize:11,fontWeight:'800'}}>  YOURS</Text>:null}</Text>
      <Pressable accessibilityRole="button" accessibilityLabel="Move up" disabled={n===0} onPress={()=>move(i.id,-1)} hitSlop={6} style={{opacity:n===0?0.25:1,padding:4}}><Icon name="chevronUp" size={17} color={colors.text}/></Pressable>
      <Pressable accessibilityRole="button" accessibilityLabel="Move down" disabled={n===items.length-1} onPress={()=>move(i.id,1)} hitSlop={6} style={{opacity:n===items.length-1?0.25:1,padding:4}}><Icon name="chevronDown" size={17} color={colors.text}/></Pressable>
     </View>)}</View>}
@@ -98,7 +98,7 @@ export function RacePrepSheet({visible,onClose,account,bike,startPhase='week'}:{
     <View style={{flexDirection:'row',alignItems:'center',gap:10,borderWidth:1,borderColor:'#2f3540',borderStyle:'dashed',borderRadius:12,paddingHorizontal:12,marginTop:6}}>
      <Icon name="plus" size={16} color={colors.accent}/>
      <TextInput value={draft} onChangeText={setDraft} onSubmitEditing={add} blurOnSubmit={false} returnKeyType="done" maxLength={80} placeholder="Add your own item" placeholderTextColor="#7d8593" style={{flex:1,color:colors.text,fontSize:15.5,paddingVertical:12}}/>
-     {!!draft.trim()&&<Pressable accessibilityRole="button" onPress={add} hitSlop={6}><Text style={{color:colors.accent,fontSize:15,fontWeight:'700'}}>Add</Text></Pressable>}
+     {!!draft.trim()&&<Pressable accessibilityRole="button" onPress={add} hitSlop={6}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>Add</Text></Pressable>}
     </View>
     <Notice text={error}/>
     <View style={{flexDirection:'row',justifyContent:'space-between',paddingTop:10}}>
@@ -119,7 +119,7 @@ export function RacePrepCard({account,bike,phase='motos',onOpen}:{account:string
  const items=list.filter(i=>i.phase===phase),done=items.filter(i=>checks[i.id]).length;
  return <Card>
   <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'baseline'}}><Eyebrow>{RACE_PHASES.find(p=>p.id===phase)!.label.toUpperCase()} · {done}/{items.length}</Eyebrow>
-   <Pressable accessibilityRole="button" onPress={onOpen} hitSlop={8}><Text style={{color:colors.accent,fontWeight:'700'}}>Full prep list</Text></Pressable></View>
+   <Pressable accessibilityRole="button" onPress={onOpen} hitSlop={8}><Text style={{color:colors.text,fontWeight:'700'}}>Full prep list</Text></Pressable></View>
   <Progress done={done} total={items.length}/>
   <View>{items.map(i=><CheckRow key={i.id} item={i} on={!!checks[i.id]} onPress={()=>toggle(i.id)}/>)}</View>
   {!items.length&&<Text style={{color:colors.muted,fontSize:14}}>Nothing on this list yet. Open the full prep list to add your own.</Text>}
@@ -137,7 +137,7 @@ export function RacePrepBlock({account,bike,onOpen}:{account:string;bike:Bike;on
  const started=rows.some(r=>r.done>0);
  return <Card>
   <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={14}/><Eyebrow>RACE PREP</Eyebrow></View>
-   <Pressable accessibilityRole="button" onPress={onOpen} hitSlop={8} style={{flexDirection:'row',alignItems:'center',gap:4}}><Text style={{color:colors.accent,fontWeight:'700'}}>{started?'Open':'Start'}</Text><Icon name="chevronRight" size={15} color={colors.accent} weight={2.2}/></Pressable></View>
+   <Pressable accessibilityRole="button" onPress={onOpen} hitSlop={8} style={{flexDirection:'row',alignItems:'center',gap:4}}><Text style={{color:colors.text,fontWeight:'700'}}>{started?'Open':'Start'}</Text><Icon name="chevronRight" size={15} color={colors.accent} weight={2.2}/></Pressable></View>
   {!started&&<Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>Your checklist from the week before to after the race. Make it yours: add, remove and reorder.</Text>}
   {started&&rows.map(r=><Pressable key={r.p.id} accessibilityRole="button" onPress={onOpen} style={{gap:5}}>
    <View style={{flexDirection:'row',justifyContent:'space-between'}}><Text style={{color:colors.text,fontSize:14.5,fontWeight:'600'}}>{r.p.short}</Text><Text style={{color:colors.muted,fontSize:13}}>{r.done}/{r.total}</Text></View>

@@ -13,7 +13,7 @@ const periodLabel=(value:string)=>({P1W:'week',P1M:'month',P3M:'3 months',P6M:'6
 const isSubscription=(p:PurchasesPackage)=>!!p.product.subscriptionPeriod;
 
 /** Ask BAK plan: current plan, what's left, free sets, store plans and credit packs. Store purchases are verified by the server. */
-export function PlansCard(){
+export function PlansCard({bare=false}:{bare?:boolean}){
  const [usage,setUsage]=useState<UsageView|null>(null),[packages,setPackages]=useState<PurchasesPackage[]>([]),[notice,setNotice]=useState(''),[busy,setBusy]=useState(false);
  const load=useCallback(()=>{api<UsageView>('/api/usage').then(setUsage).catch(e=>setNotice(errorText(e)));},[]);
  useFocusEffect(load);
@@ -22,10 +22,11 @@ export function PlansCard(){
  const meter=(used:number,total:number)=><View style={{height:3,borderRadius:2,backgroundColor:'#222834',overflow:'hidden'}}><View style={{height:3,width:`${Math.min(100,total?100*used/total:0)}%`,backgroundColor:colors.accent}}/></View>;
  const line=(label:string,value:string)=><View style={{flexDirection:'row',justifyContent:'space-between'}}><Text style={{color:'#adb5c1',fontSize:14}}>{label}</Text><Text style={{color:colors.text,fontSize:14,fontWeight:'700'}}>{value}</Text></View>;
  const manage=()=>void Linking.openURL(Platform.OS==='ios'?'https://apps.apple.com/account/subscriptions':'https://play.google.com/store/account/subscriptions').catch(e=>setNotice(errorText(e)));
- return <Card>
-  <Eyebrow>ASK BAK PLAN</Eyebrow>
+ const Wrap=bare?View:Card;
+ return <Wrap style={bare?{gap:12}:undefined}>
+  {!bare&&<Eyebrow>ASK BAK PLAN</Eyebrow>}
   {!usage?<Copy>Checking your plan…</Copy>:<>
-   <View style={{flexDirection:'row',alignItems:'baseline',gap:10}}><Text style={{color:colors.text,fontSize:24,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.6}}>{TIER_LABEL[tier]}</Text>{usage.access_mode==='beta'&&<Text style={{color:colors.accent,fontSize:12,fontWeight:'800',letterSpacing:1.2}}>BETA</Text>}</View>
+   <View style={{flexDirection:'row',alignItems:'baseline',gap:10}}><Text style={{color:colors.text,fontSize:24,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.6}}>{TIER_LABEL[tier]}</Text>{usage.access_mode==='beta'&&<Text style={{color:'#9aa2ae',fontSize:12,fontWeight:'800',letterSpacing:1.2}}>BETA</Text>}</View>
    <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>{usage.access_mode==='beta'?`Everyone gets ${usage.daily_limit} questions a day during the beta.`:TIER_BLURB[tier]}</Text>
    <View style={{gap:8,paddingTop:2}}>
     {usage.unlimited?line('Questions','Unlimited'):usage.daily_limit>0&&<>{line('Used today',`${usage.used_today} of ${usage.daily_limit}`)}{meter(usage.used_today,usage.daily_limit)}</>}
@@ -42,5 +43,5 @@ export function PlansCard(){
   {packs.map(p=><Tile key={p.identifier} title={p.product.title} right={p.product.priceString} onPress={()=>{if(!busy)void task(()=>purchase(p),'Credits added.');}}/>)}
   {packages.length>0&&<Text style={{color:'#9aa2ae',fontSize:12,lineHeight:17}}>Subscriptions renew automatically unless cancelled in your store account at least 24 hours before the period ends. The store purchase sheet confirms the billing period and full terms before payment.</Text>}
   <View style={{flexDirection:'row',gap:22,flexWrap:'wrap'}}><LinkAction muted arrow={false} disabled={busy} title="Restore purchases" onPress={()=>void task(restore,'Purchases restored.')}/><LinkAction muted arrow={false} title="Manage subscription" onPress={manage}/></View>
- </Card>;
+ </Wrap>;
 }

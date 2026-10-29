@@ -61,7 +61,7 @@ export function BuildSheetDoc({data,mine=false}:{data:SheetData;mine?:boolean}){
       return <View key={k} style={{flexDirection:'row',gap:12,padding:14,borderTopWidth:i?1:0,borderTopColor:'#1a1e25'}}>
        <View style={{width:96,gap:4}}>
         <Text style={{color:colors.text,fontSize:13.5,fontWeight:'800'}}>{label(k)}</Text>
-        {parts.length?<Text style={{color:colors.accent,fontSize:11,fontWeight:'800',letterSpacing:0.8}}>MODIFIED</Text>:<View style={{alignSelf:'flex-start',paddingHorizontal:7,paddingVertical:2,borderRadius:6,backgroundColor:tint(0.12)}}><Text style={{color:colors.accent,fontSize:11,fontWeight:'800',letterSpacing:0.8}}>STOCK</Text></View>}
+        {parts.length?<Text style={{color:'#9aa2ae',fontSize:11,fontWeight:'800',letterSpacing:0.8}}>MODIFIED</Text>:<View style={{alignSelf:'flex-start',paddingHorizontal:7,paddingVertical:2,borderRadius:6,backgroundColor:tint(0.12)}}><Text style={{color:'#9aa2ae',fontSize:11,fontWeight:'800',letterSpacing:0.8}}>STOCK</Text></View>}
        </View>
        <View style={{flex:1,gap:10}}>
         {parts.length?parts.map((p,j)=><PartLine key={j} p={p}/>):<Text style={{color:colors.muted,fontSize:14}}>As it came from the factory</Text>}
@@ -88,7 +88,7 @@ function Stat({value,label}:{value:string;label:string}){
 function PartLine({p}:{p:SheetPart}){
  const tags=[p.size,p.color].filter(Boolean) as string[];
  return <View style={{gap:2}}>
-  {!!p.brand&&<Text style={{color:colors.accent,fontSize:11.5,fontWeight:'800',letterSpacing:0.9}}>{p.brand.toUpperCase()}</Text>}
+  {!!p.brand&&<Text style={{color:'#9aa2ae',fontSize:11.5,fontWeight:'800',letterSpacing:0.9}}>{p.brand.toUpperCase()}</Text>}
   <Text style={{color:colors.text,fontSize:15,fontWeight:'600',lineHeight:20}}>{p.name}{tags.length?<Text style={{color:colors.muted,fontWeight:'500'}}>  ·  {tags.join(' · ')}</Text>:null}</Text>
   {!!p.detail&&<Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>{p.detail}</Text>}
  </View>;

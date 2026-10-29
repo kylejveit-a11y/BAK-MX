@@ -13,7 +13,7 @@ type FrameLink={find:(t:number)=>number;open:(i:number)=>void};
 function timed(text:string,key:string,ft?:FrameLink):React.ReactNode[]{
  if(!ft)return [text];
  const out:React.ReactNode[]=[],rx=new RegExp(TIME_MENTION.source,'g');let last=0,m:RegExpExecArray|null;
- while((m=rx.exec(text))){const i=ft.find(parseFloat(m[1]));if(i<0)continue;if(m.index>last)out.push(text.slice(last,m.index));const at=m.index;out.push(<Text key={key+'t'+at} accessibilityRole="link" accessibilityHint="Shows that frame of your clip" onPress={()=>ft.open(i)} style={{color:colors.accent,fontWeight:'700',textDecorationLine:'underline'}}>{m[0]}</Text>);last=at+m[0].length;}
+ while((m=rx.exec(text))){const i=ft.find(parseFloat(m[1]));if(i<0)continue;if(m.index>last)out.push(text.slice(last,m.index));const at=m.index;out.push(<Text key={key+'t'+at} accessibilityRole="link" accessibilityHint="Shows that frame of your clip" onPress={()=>ft.open(i)} style={{color:colors.text,fontWeight:'700',textDecorationLine:'underline'}}>{m[0]}</Text>);last=at+m[0].length;}
  if(last<text.length)out.push(text.slice(last));return out;
 }
 function inline(text:string,key:string,ft?:FrameLink):React.ReactNode[]{
@@ -59,7 +59,7 @@ export function Disclosure({title,children}:{title:string;children:React.ReactNo
  const [open,setOpen]=React.useState(false);
  return <View style={{gap:10}}>
   <Pressable accessibilityRole="button" accessibilityState={{expanded:open}} onPress={()=>setOpen(!open)} hitSlop={6} style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingVertical:4}}>
-   <Text style={{color:colors.accent,fontSize:14.5,fontWeight:'600'}}>{title}</Text><Text style={{color:colors.accent,fontSize:14}}>{open?'Hide':'Show'}</Text>
+   <Text style={{color:colors.text,fontSize:14.5,fontWeight:'600'}}>{title}</Text><Text style={{color:colors.text,fontSize:14}}>{open?'Hide':'Show'}</Text>
   </Pressable>
   {open&&<View style={{gap:10}}>{children}</View>}
  </View>;
