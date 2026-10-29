@@ -95,7 +95,7 @@ function CommunityTab({navigation}:BottomTabScreenProps<Tabs,'Community'>){const
 function EventsTab({navigation}:BottomTabScreenProps<Tabs,'Events'>){return <EventsScreen onMessage={rider=>navigation.navigate('Messages',{rider})}/>;}
 function MessagesTab({navigation,route}:BottomTabScreenProps<Tabs,'Messages'>){return <MessagesScreen startWith={route.params?.rider} onStarted={()=>navigation.setParams({rider:undefined})}/>;}
 function WorkshopJob({navigation}:BottomTabScreenProps<Tabs,'Workshop'>){const{bike,session}=useContext(Ctx);return <WorkshopScreen bike={bike} ownerId={session.user.id} onAsk={context=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',context:`Help me with this workshop step on my ${bike.model_year} ${bike.manufacturer} ${bike.model}, ${bike.variant}, ${bike.region}.\n\n${context}`,contextToken:randomUUID(),contextBikeId:bike.id});}}/>;}
-function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,session,bikesLoaded}=useContext(Ctx);
+function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,session,bikesLoaded,select}=useContext(Ctx);
  const {layout,save,reset}=useHomeLayout(session.user.id),{race,start,end}=useRaceDay(session.user.id),[editing,setEditing]=useState(false),[starting,setStarting]=useState(false);
  const ask=(text:string)=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',context:text,contextToken:randomUUID(),contextBikeId:bike.id});};
  if(race.on&&bike)return <Page title=""><RaceDayHome bike={bike} account={session.user.id} track={race.track} onEnd={end} onAsk={ask}/><AskBar onPress={()=>navigation.navigate('Ask BAK')} onSnap={()=>navigation.navigate('Ask BAK',{camera:randomUUID()})}/></Page>;
@@ -116,7 +116,7 @@ function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,s
   <Pressable accessibilityRole="button" onPress={()=>setEditing(true)} hitSlop={6}><Text style={{color:colors.muted,fontSize:15}}>Edit Home</Text></Pressable>
  </View>
  <HomeEditor visible={editing} layout={layout} onChange={save} onReset={reset} onClose={()=>setEditing(false)}/>
- <RaceDayStart visible={starting} onClose={()=>setStarting(false)} onStart={t=>{start(t);setStarting(false);}}/>
+ {bike&&<RaceDayStart visible={starting} bike={bike} bikes={bikes} onSwitch={select} onClose={()=>setStarting(false)} onStart={t=>{start(t);setStarting(false);}}/>}
  </Page>}
 type Coverage={specs:number;suspension_settings:number;torque_values:number;parts_catalog:{complete:boolean;part_count:number}|null;workshop_guides:number};
 function BikeReadiness({bike,onEdit}:{bike:Bike;onEdit?:(open:'edit'|'build')=>void}){const[coverage,setCoverage]=useState<Coverage|null>(null);const progress=buildProgress(bike);useEffect(()=>{let live=true;setCoverage(null);api<Coverage>(`/api/coverage?bike_id=${bike.id}`).then(r=>{if(live)setCoverage(r);}).catch(()=>{});return()=>{live=false;};},[bike.id,bike.updated_at]);

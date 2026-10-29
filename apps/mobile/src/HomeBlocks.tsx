@@ -197,15 +197,36 @@ export function RaceDayHome({bike,account,track,onEnd,onAsk}:{bike:Bike;account:
  </>;
 }
 
-/** Asks for the track and starts race day. */
-export function RaceDayStart({visible,onStart,onClose}:{visible:boolean;onStart:(track:string)=>void;onClose:()=>void}){
- const [track,setTrack]=useState('');const insets=useSafeAreaInsets();
+/** Starts race day: shows the bike it's for (switchable) and asks which track, with one-tap picks from the rider's recent
+ *  setup-log tracks and the events they're going to. */
+export function RaceDayStart({visible,bike,bikes,onSwitch,onStart,onClose}:{visible:boolean;bike:Bike;bikes:Bike[];onSwitch:(id:string)=>void;onStart:(track:string)=>void;onClose:()=>void}){
+ const [track,setTrack]=useState(''),[picks,setPicks]=useState<string[]>([]),[choosing,setChoosing]=useState(false);const insets=useSafeAreaInsets();
+ useEffect(()=>{if(!visible)return;let live=true;setTrack('');setChoosing(false);
+  Promise.all([api<SetupLog[]>(`/api/setup-logs?bike_id=${bike.id}`).catch(()=>[] as SetupLog[]),api<RideEvent[]>('/api/events?scope=upcoming').catch(()=>[] as RideEvent[])]).then(([logs,events])=>{
+   const soon=events.filter(e=>!e.canceled_at&&(e.my_rsvp==='going'||e.mine)&&Date.parse(e.starts_at)-Date.now()<3*864e5).map(e=>e.location_name);
+   const seen=new Set<string>(),list=[...soon,...logs.map(l=>l.track)].map(t=>t.trim()).filter(t=>t&&!seen.has(t.toLowerCase())&&!!seen.add(t.toLowerCase()));
+   if(live)setPicks(list.slice(0,6));});
+  return()=>{live=false;};},[visible,bike.id]);
+ const name=(b:Bike)=>b.nickname||`${b.model_year} ${b.manufacturer} ${b.model}`;
  return <Modal visible={visible} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
-  <View style={{flex:1,backgroundColor:colors.bg,padding:20,paddingBottom:insets.bottom+20,gap:16}}>
+  <ScrollView keyboardShouldPersistTaps="handled" style={{flex:1,backgroundColor:colors.bg}} contentContainerStyle={{padding:20,paddingBottom:insets.bottom+20,gap:18}}>
    <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><Text style={{color:colors.text,fontSize:26,fontWeight:'900',fontStyle:'italic'}}>Race day</Text><Pressable accessibilityRole="button" onPress={onClose} hitSlop={8}><Text style={{color:colors.muted,fontSize:16}}>Cancel</Text></Pressable></View>
-   <Copy>Home turns into your track-day screen: today’s setup, a between-motos check and a quick change log. It ends by itself tomorrow.</Copy>
-   <TextInput autoFocus value={track} onChangeText={setTrack} maxLength={120} placeholder="Where are you riding?" placeholderTextColor="#7d8593" style={{color:colors.text,fontSize:20,fontWeight:'700',borderBottomWidth:1,borderBottomColor:colors.accent,paddingVertical:12}}/>
+   <Copy>Home becomes your track-day screen: today’s setup, a between-motos check and a quick change log. It ends by itself tomorrow.</Copy>
+   <View style={{gap:8}}>
+    <Text style={{color:'#adb5c1',fontSize:12.5,fontWeight:'600'}}>Bike</Text>
+    <View style={{flexDirection:'row',alignItems:'center',gap:10}}>
+     <Text style={{flex:1,color:colors.text,fontSize:18,fontWeight:'800'}}>{name(bike)}</Text>
+     {bikes.length>1&&<Pressable accessibilityRole="button" onPress={()=>setChoosing(!choosing)} hitSlop={8}><Text style={{color:colors.accent,fontSize:15,fontWeight:'700'}}>{choosing?'Close':'Change'}</Text></Pressable>}
+    </View>
+    {choosing&&<View style={{gap:4}}>{bikes.filter(b=>b.id!==bike.id).map(b=><Pressable key={b.id} accessibilityRole="button" onPress={()=>{onSwitch(b.id);setChoosing(false);}} style={({pressed})=>({paddingVertical:10,opacity:pressed?0.6:1})}><Text style={{color:colors.text,fontSize:16}}>{name(b)}</Text></Pressable>)}</View>}
+   </View>
+   <View style={{gap:8}}>
+    <Text style={{color:'#adb5c1',fontSize:12.5,fontWeight:'600'}}>Track</Text>
+    {picks.length>0&&<View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{picks.map(t=>{const on=track===t;return <Pressable key={t} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setTrack(on?'':t)} style={({pressed})=>({paddingHorizontal:12,paddingVertical:8,borderRadius:16,borderWidth:1,borderColor:on?colors.accent:'#343a45',backgroundColor:on?tint(0.16):'transparent',opacity:pressed?0.7:1})}><Text style={{color:on?'#ffffff':'#c9cfd9',fontSize:14.5,fontWeight:on?'700':'500'}}>{t}</Text></Pressable>;})}</View>}
+    <TextInput value={track} onChangeText={setTrack} maxLength={120} placeholder={picks.length?'Or type the track name':'Track name, e.g. Dade City MX'} placeholderTextColor="#7d8593" autoCapitalize="words" style={{color:colors.text,fontSize:18,fontWeight:'600',borderBottomWidth:1,borderBottomColor:colors.accent,paddingVertical:10}}/>
+    <Text style={{color:'#7d8593',fontSize:12.5}}>Optional. It goes on each change you log today, so you can find what worked at this track next time.</Text>
+   </View>
    <Button title="Start race day" onPress={()=>{onStart(track);setTrack('');}}/>
-  </View>
+  </ScrollView>
  </Modal>;
 }
