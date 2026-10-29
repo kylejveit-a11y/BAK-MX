@@ -6,7 +6,7 @@ import {HttpError,readJson} from './validation.ts';
 import {COACH_FOCUS_IDS,CLIP_MAX_FRAMES} from '../shared/coach-focus.ts';
 import {searchBikeClaims} from './claims.ts';
 import {bikeKnowledge,comparisonKnowledge} from './knowledge.ts';
-import {generateAnswer,planSpecLookups,PROMPT_VERSION} from './engineering.ts';
+import {generateAnswer,planSpecLookups,raceLookups,PROMPT_VERSION} from './engineering.ts';
 /** Test access to Ask BAK for automated evaluation (POST /api/eval/ask), approved by Kyle 2026-10-15. Gated by a bearer
  *  token whose SHA-256 is in eval_access_tokens (expiring, revocable, capped per day). The bike, prior turns and ride results
  *  come in the request, so a run never reads or writes any rider's account, bikes, conversations or AI allowance. Each run is
@@ -23,6 +23,7 @@ const body=z.object({
  // Coaching tests: still frames as inline JPEGs (never links), and the clip details the app would send with them.
  images:z.array(z.string().regex(/^data:image\/jpeg;base64,[A-Za-z0-9+/=]+$/).max(400000)).max(CLIP_MAX_FRAMES).default([]),
  media:z.discriminatedUnion('kind',[z.object({kind:z.literal('clip'),duration:z.number().min(0).max(120),frames:z.array(z.number().min(0).max(120)).min(2).max(CLIP_MAX_FRAMES),focus:z.enum(COACH_FOCUS_IDS).optional(),slowmo:z.boolean().optional()}).strict(),z.object({kind:z.literal('photos'),focus:z.enum(COACH_FOCUS_IDS)}).strict()]).optional(),
+ race:z.object({track:z.string().trim().max(120).optional()}).strict().optional(),
  preferences:z.object({units:z.enum(['us','metric']),answer_length:z.enum(['quick','full']),tone:z.enum(['straight','encouraging'])}).strict().optional(),
  setup_history:z.array(z.object({recorded_at:z.string().default(()=>new Date().toISOString()),track:z.string().max(120).default(''),conditions:z.string().max(120).default(''),
   change_made:z.string().max(1000).default(''),result:z.enum(['better','no_change','worse','not_tested']),notes:z.string().max(1000).default('')})).max(8).default([]),
@@ -44,10 +45,10 @@ export async function handleEval(req:Request):Promise<Response>{
  const t0=Date.now(),label=bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:'no bike';
  const log=(ok:boolean,error?:string)=>admin.from('eval_runs').insert({token_id:tok.id,bike:label,message:data.message.slice(0,500),prompt_version:PROMPT_VERSION,ms:Date.now()-t0,ok,error:error?.slice(0,300)??null}).then(()=>{},()=>{});
  try{
-  const lookups=bike?await planSpecLookups(bike,history,data.message):[];
+  const lookups=bike?(data.race?raceLookups(data.message):await planSpecLookups(bike,history,data.message)):[];
   const claims=bike?await searchBikeClaims(admin,bike,lookups):[];
   const knowledge=bike?[...await bikeKnowledge(admin,bike,data.message,lookups),...await comparisonKnowledge(admin,bike,data.message)]:[];
-  const {response}=await generateAnswer(bike,history,claims,data.message,lookups,()=>{},data.setup_history as never,knowledge,data.guided??null,data.voice===true,[],data.images,[],data.media??null,null,data.preferences??null);
+  const {response}=await generateAnswer(bike,history,claims,data.message,lookups,()=>{},data.setup_history as never,knowledge,data.guided??null,data.voice===true,[],data.images,[],data.media??null,null,data.preferences??null,data.race??null);
   await log(true);
   return new Response(JSON.stringify({prompt_version:PROMPT_VERSION,model:process.env.OPENAI_MODEL,ms:Date.now()-t0,published_claims:claims.length,lookups,response}),{headers:{'content-type':'application/json','cache-control':'no-store'}});
  }catch(e){await log(false,String((e as Error)?.message??e));throw e;}

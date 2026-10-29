@@ -15,7 +15,7 @@ import {CoachingList,CompareChips,TriedCard,useCoachingSessions} from './Coachin
 import {success} from './haptics';
 import {FloatingTabBar,GlassHeader,HeaderButton} from './Glass';
 import {SafeAreaProvider,useSafeAreaInsets} from 'react-native-safe-area-context';
-import {NavigationContainer,DarkTheme,useFocusEffect,createNavigationContainerRef} from '@react-navigation/native';
+import {NavigationContainer,DarkTheme,useFocusEffect,useIsFocused,createNavigationContainerRef} from '@react-navigation/native';
 import {WhatsNewCard} from './WhatsNew';
 import {syncBikeWidget,clearBikeWidget,endGuideActivity} from './widgets/sync';
 import {parseAppLink,takePendingLink,watchPendingLinks,usedLinkTokens,type AppLink} from './appLinks';
@@ -30,12 +30,12 @@ import {finalDrive,sagPercent,gearingChange,speedKmh,displacementCc,springRateNm
 import {createAttempt} from '../../../shared/create-retry';
 import {bikeScope,chatScope,createRequestGate,selectedBikeId,validServiceDate,retryRequest,appendWorkshopContext} from './continuity';
 import {readProgress,writeProgress,useProgress,exportProgress,clearProgress} from './localProgress';
-import {api,configured,supabase,ApiError} from './api';
+import {api,apiStream,configured,supabase,ApiError} from './api';
 import {applyTheme,motion} from './theme';
 import {setHapticsEnabled} from './haptics';
 import {RacePlate} from './RacePlate';
 import {RacePrepSheet,RacePrepBlock} from './RacePrep';
-import {HomeEditor,useHomeLayout,useRaceDay,RaceDayHome,RaceDayStart,ServiceDueBlock,LastSetupBlock,EventsBlock,CoachingBlock,type HomeBlock} from './HomeBlocks';
+import {HomeEditor,useHomeLayout,useRaceDay,readRaceDay,RaceDayHome,RaceDayStart,ServiceDueBlock,LastSetupBlock,EventsBlock,CoachingBlock,type HomeBlock} from './HomeBlocks';
 import {themeFor,allThemes,type ThemeMode} from '../../../shared/brand-theme';
 import {MetalMark,MetalBubble,BlueFace,blueLift,Button,Card,Copy,Field,Notice,Page,PageTitle,Select,colors,tint,Brand,Eyebrow,Chip,Tile,TileGrid,AskBar,LinkAction,Icon,type IconName} from './ui';
 import {SupportPicker,SupportedBikesScreen} from './BikeSupport';
@@ -99,7 +99,9 @@ function WorkshopJob({navigation}:BottomTabScreenProps<Tabs,'Workshop'>){const{b
 function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,session,bikesLoaded,select}=useContext(Ctx);
  const {layout,save,reset}=useHomeLayout(session.user.id),{race,start,end}=useRaceDay(session.user.id),[editing,setEditing]=useState(false),[starting,setStarting]=useState(false),[prepOpen,setPrepOpen]=useState(false);
  const ask=(text:string)=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',context:text,contextToken:randomUUID(),contextBikeId:bike.id});};
- if(race.on&&bike)return <Page title=""><RaceDayHome bike={bike} account={session.user.id} track={race.track} onEnd={end} onAsk={ask}/><AskBar onPress={()=>navigation.navigate('Ask BAK')} onSnap={()=>navigation.navigate('Ask BAK',{camera:randomUUID()})}/></Page>;
+ // Quick ask on race day: sent straight away, no typing.
+ const quick=(text:string)=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',prompt:text,promptToken:randomUUID()});};
+ if(race.on&&bike)return <Page title=""><RaceDayHome bike={bike} account={session.user.id} track={race.track} onEnd={end} onAsk={ask} onQuick={quick}/><AskBar onPress={()=>navigation.navigate('Ask BAK')} onSnap={()=>navigation.navigate('Ask BAK',{camera:randomUUID()})}/></Page>;
  const blocks:Record<HomeBlock,React.ReactNode>={
   ask:<AskBar onPress={()=>navigation.navigate('Ask BAK')} onSnap={bike?()=>navigation.navigate('Ask BAK',{camera:randomUUID()}):undefined}/>,
   prep:bike?<RacePrepBlock account={session.user.id} bike={bike} onOpen={()=>setPrepOpen(true)}/>:null,
@@ -193,6 +195,9 @@ function ChatForBike({route}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  const[agreedBefore]=useState(()=>AI_CONSENT_PREVIOUS.some(v=>readProgress<boolean>(session.user.id,'ai-consent-'+v,false)===true));
  const returning=()=>agreedBefore||messages.length>0||threads.length>0;
  const[note,setNote,noteError]=useProgress(session.user.id,`tuning-note-draft-${bike?.id??'none'}`,''),[savedNotes,setSavedNotes,saveNoteError]=useProgress<{id:string;at:string;text:string;conversation:string}[]>(session.user.id,`tuning-notes-${bike?.id??'none'}`,[]);
+ // Race mode: short, fast answers between motos. On by itself while race day is running; the rider can flip it either way.
+ useIsFocused();const raceDay=readRaceDay(session.user.id),[fastPick,setFastPick]=useState<{day:string;on:boolean}|null>(null),fast=fastPick&&fastPick.day===new Date().toDateString()?fastPick.on:!!raceDay;
+ const[live,setLive]=useState<{question:string;summary:string;answer:string}|null>(null);
  const alive=useAlive(),refreshVersion=useRef(createRequestGate()),sending=useRef(false),request=useRef<{id:string;text:string;conversation:string}|null>(readProgress(session.user.id,`chat-request-${bike?.id??'none'}`,null));
  function rememberRequest(value:{id:string;text:string;conversation:string}|null){try{writeProgress(session.user.id,`chat-request-${bike?.id??'none'}`,value);request.current=value;}catch{if(value)throw new Error('This device could not save the question for safe retry. Free some storage and try again.');request.current=null;setNotice('Your answer is available, but this device could not clear its saved retry record. Refresh history before resending.');}}
  useEffect(()=>{if(route.params?.mode&&!sending.current)setMode(route.params.mode);},[route.params?.mode]);
@@ -218,7 +223,8 @@ function ChatForBike({route}:BottomTabScreenProps<Tabs,'Ask BAK'>){
    let conversation=id;
    if(!conversation){const body={bike_id:bike.id,title:text.trim().slice(0,100),mode},attemptKey=`conversation-create-${bike.id}-${mode}`,attempt=createAttempt(readProgress(session.user.id,attemptKey,null),body,randomUUID);writeProgress(session.user.id,attemptKey,attempt);const r=await api<Conversation>('/api/conversations','POST',{...body,create_id:attempt.id});if(!alive.current)return;conversation=r.id;if(setId(conversation)){try{writeProgress(session.user.id,attemptKey,null);}catch{}}setThreads(old=>old.some(t=>t.id===r.id)?old:[r,...old]);}
    rememberRequest(retryRequest(request.current,text,conversation,randomUUID));
-   const sent=await api<{message:Message;request_id:string}>('/api/chat','POST',{conversation_id:conversation,message:text,request_id:request.current!.id,...(job.guided?{guided:job.guided}:{}),...(voice.on?{voice:true}:{}),...(photosNow.length?{photo_ids:photosNow.map(p=>p.id),...(clipNow?{media:{kind:'clip' as const,...clipNow,...(focus?{focus}:{}),...(slowmo?{slowmo:true}:{}),...(compareTo?{compare_to:compareTo}:{}),...(where?{track:where}:{})}}:focus?{media:{kind:'photos' as const,focus,...(where?{track:where}:{})}}:{})}:{})});
+   if(alive.current)setLive({question:text,summary:'',answer:''});
+   const sent=await apiStream<{message:Message;request_id:string}>('/api/chat',{conversation_id:conversation,message:text,request_id:request.current!.id,...(fast?{race:raceDay?.track?{track:raceDay.track.slice(0,120)}:{}}:{}),...(job.guided?{guided:job.guided}:{}),...(voice.on?{voice:true}:{}),...(photosNow.length?{photo_ids:photosNow.map(p=>p.id),...(clipNow?{media:{kind:'clip' as const,...clipNow,...(focus?{focus}:{}),...(slowmo?{slowmo:true}:{}),...(compareTo?{compare_to:compareTo}:{}),...(where?{track:where}:{})}}:focus?{media:{kind:'photos' as const,focus,...(where?{track:where}:{})}}:{})}:{})},event=>{if(event.type==='draft'&&alive.current)setLive(l=>l&&{...l,summary:String(event.summary||''),answer:String(event.answer||'')});});
    if(!alive.current)return;
    setMessages(old=>[...old,sent.message]);if(spoken===undefined){setDraft('');setAttached([]);setClip(null);setFocus(null);setSlowmo(false);setCompareTo(null);setWhere(null);void coachingSessions.reload();}rememberRequest(null);
    if(voice.on&&sent.message.response)voice.speak(toSpeech(sent.message.response.answer||sent.message.response.summary));
@@ -226,7 +232,7 @@ function ChatForBike({route}:BottomTabScreenProps<Tabs,'Ask BAK'>){
    if(!alive.current)return;
    setMessages(r);success();void api('/api/receipts','POST',{request_id:sent.request_id}).catch(()=>{});
   }catch(e){if(alive.current){setNotice(errorText(e));if(e instanceof ApiError&&e.status===409&&e.message.includes('failed'))rememberRequest(null);}}
-  finally{sending.current=false;if(alive.current)setBusy(false);}
+  finally{sending.current=false;if(alive.current){setBusy(false);setLive(null);}}
  }
  // From Siri ("Ask BAK MX …"): send the spoken question for the active bike; before AI consent it waits in the box.
  useEffect(()=>{const p=route.params;if(!p?.promptToken||usedLinkTokens.has(p.promptToken)||!bike)return;usedLinkTokens.add(p.promptToken);const text=p.prompt?.trim();if(!text)return;if(aiOk&&!sending.current)void send(text);else setDraft(text);},[route.params?.promptToken,bike?.id,aiOk]);
@@ -240,7 +246,7 @@ function ChatForBike({route}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  async function attachClip(){if(attached.length||!bike)return;try{const c=await pickClipFrames();if(!c)return;setUploading(c.frames.length);const done:typeof attached=[];for(const f of c.frames){done.push(await uploadPhoto(f.asset,'chat',bike.id));setUploading(n=>Math.max(0,n-1));}setAttached(done);setClip({duration:c.duration,frames:c.frames.map(f=>Math.round(f.time*100)/100)});}catch(e){setNotice(errorText(e));}finally{setUploading(0);}}
  async function attach(from?:'camera'|'library'){if(attached.length>=4||clip||!bike)return;const source=from??await chooseChatSource();if(!source)return;if(source==='video'){await attachClip();return;}try{const picked=await pickImages(source,4-attached.length);if(!picked.length)return;setUploading(picked.length);for(const a of picked){const p=await uploadPhoto(a,'chat',bike.id);setAttached(old=>[...old,p]);setUploading(n=>Math.max(0,n-1));}}catch(e){setNotice(errorText(e));}finally{setUploading(0);}}
  const composer=aiOk&&bike&&!triage?<View style={{gap:2}}>
-  {busy&&<WorkingLine/>}
+  {busy&&<WorkingLine fast={fast}/>}
   {(attached.length>0||uploading>0)&&<View style={{paddingHorizontal:12,paddingTop:10}}>{clip&&<Text style={{color:'#adb5c1',fontSize:12.5,marginBottom:6}}>Clip · {attached.length} frames from {clip.duration.toFixed(1)} s · BAK reads them in order</Text>}{attached.length>0&&!uploading&&<><FocusChips focus={focus} onFocus={setFocus} slowmo={clip?slowmo:null} onSlowmo={setSlowmo} tracks={recentTracks} where={where} onWhere={setWhere}/>{clip&&!!coachingSessions.sessions?.length&&<CompareChips sessions={coachingSessions.sessions} focus={focus} value={compareTo} onChange={setCompareTo}/>}</>}<AttachedPhotos photos={attached} uploading={uploading} size={clip?44:60} onRemove={id=>{if(clip){const all=attached;setAttached([]);setClip(null);setFocus(null);setSlowmo(false);setCompareTo(null);for(const p of all)void api('/api/photos?id='+p.id,'DELETE').catch(()=>{});return;}setAttached(old=>{const left=old.filter(p=>p.id!==id);if(!left.length)setFocus(null);return left;});void api('/api/photos?id='+id,'DELETE').catch(()=>{});}}/></View>}
   <View style={{flexDirection:'row',alignItems:'flex-end',gap:6,paddingLeft:6,paddingRight:6,paddingVertical:6}}>
    <Pressable accessibilityRole="button" accessibilityLabel="Add photos or a riding clip for BAK" disabled={busy||attached.length>=4||!!clip||!!uploading} onPress={()=>void attach()} hitSlop={6} style={({pressed})=>({width:38,height:38,borderRadius:19,alignItems:'center',justifyContent:'center',opacity:busy||attached.length>=4?0.35:pressed?0.6:1})}><Icon name="camera" size={22} color="#c9cfd9"/></Pressable>
@@ -254,6 +260,7 @@ function ChatForBike({route}:BottomTabScreenProps<Tabs,'Ask BAK'>){
   <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>
    {bikes.length>1?<Select inline disabled={busy} label="Current bike" value={bike?.id??''} options={bikes.map(b=>({value:b.id,label:`${b.model_year} ${b.manufacturer} ${b.model}`}))} onChange={select}/>:bike?<View style={{borderWidth:1,borderColor:'#2f3540',borderRadius:18,paddingHorizontal:13,paddingVertical:7}}><Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>{bike.model_year} {bike.manufacturer} {bike.model}</Text></View>:null}
    {(threads.length>0||!!id)&&<Select inline disabled={busy} label="Your chats" value={id} options={[{value:'',label:'New chat'},...threads.map(t=>({value:t.id,label:t.title}))]} onChange={v=>{if(sending.current)return;refreshVersion.current.invalidate();setId(v);setMessages([]);setDraft('');setNotice('');rememberRequest(null);}}/>}
+   {bike&&<Pressable haptic="select" accessibilityRole="switch" accessibilityState={{checked:fast}} accessibilityLabel="Race mode: short, fast answers" accessibilityHint={fast?'On. Answers are the one change to make, short.':'Off. Answers are full depth.'} disabled={busy} onPress={()=>setFastPick({day:new Date().toDateString(),on:!fast})} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:6,borderWidth:1,borderColor:fast?colors.accent:'#2f3540',backgroundColor:fast?tint(0.16):'transparent',borderRadius:18,paddingHorizontal:12,paddingVertical:7,opacity:pressed?0.7:1})}><Icon name="bolt" size={14} color={fast?colors.accent:'#9aa2ae'}/><Text style={{color:fast?colors.text:'#adb5c1',fontSize:14,fontWeight:'700'}}>Race mode{fast?' on':''}</Text></Pressable>}
   </View>
   {!bike&&<Notice text="Add your motorcycle in Garage to begin."/>}
  </View>
@@ -269,6 +276,10 @@ function ChatForBike({route}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  {/free sets? left/.test(notice)&&<Button title="Start next free set" disabled={busy} onPress={()=>void api('/api/usage/next-set','POST',{}).then(()=>setNotice('Your next free set is ready. Send your question again.')).catch(e=>setNotice(errorText(e)))}/>}
  {!messages.length&&!triage&&<View style={{gap:8,paddingTop:6}}><Text style={{color:colors.text,fontSize:22,fontWeight:'800',letterSpacing:-0.4}}>{bike?`Ask about your ${bike.model}`:'Ask BAK'}</Text><Copy>Tell it the way you’d tell your buddy: what you feel, where on the track, what you already tried. Add a photo if it helps.</Copy></View>}
  {!aiOk?<Card><Copy strong>{returning()?aiConsentUpdatedTitle:aiConsentTitle}</Copy>{returning()&&<Copy>{aiConsentUpdatedIntro}</Copy>}{aiConsentPoints.map(t=><Copy key={t}>• {t}</Copy>)}<Button title={aiConsentAgree} onPress={()=>{try{writeProgress(session.user.id,'ai-consent-'+AI_CONSENT_VERSION,true);}catch{}setAiOk(true);}}/></Card>:<>
+  {live&&<>
+   <View style={{alignSelf:'flex-end',maxWidth:'85%'}}><MetalBubble><Text selectable style={{color:colors.text,fontSize:15.5,lineHeight:22}}>{live.question}</Text></MetalBubble></View>
+   {!!(live.summary||live.answer)&&<Card><View style={{flexDirection:'row',alignItems:'center',gap:7}}><MetalMark width={14}/><Eyebrow>BAK · WRITING</Eyebrow></View>{!!live.summary&&<Text style={{color:colors.text,fontSize:16.5,fontWeight:'700',lineHeight:23}}>{live.summary}</Text>}{!!live.answer&&<Text style={{color:colors.text,fontSize:15.5,lineHeight:22}}>{live.answer}</Text>}<Text style={{color:'#8b93a1',fontSize:12}}>Draft. Final checks run before it’s saved.</Text></Card>}
+  </>}
   {bike&&!busy&&triage&&<TriageCard onDone={t=>{setDraft(t);setTriage(false);}} onCancel={()=>setTriage(false)}/>}
   {bike&&!triage&&!job.run&&!messages.length&&<TileGrid><Tile icon="pulse" title="Handling problem?" detail="Answer a few taps and BAK writes it up" onPress={()=>setTriage(true)}/>{mode==='ask'&&<GuidedJobCardNative job={job} voice={voice} onSay={say} busy={busy}/>}</TileGrid>}
   {bike&&!!job.run&&mode==='ask'&&<GuidedJobCardNative job={job} voice={voice} onSay={say} busy={busy}/>}
@@ -322,7 +333,7 @@ function ServiceRow({e,hoursNow,onDelete}:{e:ServiceEvent;hoursNow:number|null;o
   <Icon name={open?'chevronDown':'chevronRight'} size={17} color="#7d8593"/></Pressable>
   {open&&<View style={{gap:6,paddingBottom:12}}><Copy>{e.notes||'No notes.'}</Copy>{e.next_due_hours!==null&&<Copy>Next at {e.next_due_hours} h{hoursNow!==null?` · ${Math.max(0,e.next_due_hours-hoursNow).toFixed(1)} h to go`:''}{e.interval_source?` · ${e.interval_source}`:''}</Copy>}<LinkAction muted arrow={false} title="Delete entry" onPress={onDelete}/></View>}
  </View>;}
-function WorkingLine(){const [t,setT]=useState(0);useEffect(()=>{const id=setInterval(()=>setT(x=>x+1),1000);return()=>clearInterval(id);},[]);const stage=t<6?'Reading your build sheet':t<14?'Checking the manual and known issues for your bike':t<45?'Writing your answer':'Still writing. Long answers can take up to a minute';return <Text accessibilityLiveRegion="polite" style={{color:'#b2b9c4',fontSize:12.5,paddingLeft:18,paddingTop:8}}>{stage}… {t}s</Text>;}
+function WorkingLine({fast=false}:{fast?:boolean}){const [t,setT]=useState(0);useEffect(()=>{const id=setInterval(()=>setT(x=>x+1),1000);return()=>clearInterval(id);},[]);const stage=fast?(t<3?'Race mode · reading your setup':'Race mode · writing the fix'):t<6?'Reading your build sheet':t<14?'Checking the manual and known issues for your bike':t<45?'Writing your answer':'Still writing. Long answers can take up to a minute';return <Text accessibilityLiveRegion="polite" style={{color:'#b2b9c4',fontSize:12.5,paddingLeft:18,paddingTop:8}}>{stage}… {t}s</Text>;}
 /** Account › Preferences: how BAK answers (saved to the account, used on every question) and how this phone feels. */
 type Prefs={units:'us'|'metric';answer_length:'quick'|'full';tone:'straight'|'encouraging'};
 function PreferencesCard(){

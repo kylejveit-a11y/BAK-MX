@@ -14,7 +14,9 @@ import {success} from './haptics';
 import {RacePrepCard,RacePrepSheet} from './RacePrep';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
-const today=()=>new Date().toISOString().slice(0,10);
+/** The rider's own calendar day (not UTC), so an evening practice still counts as today. */
+const dayOf=(d:Date)=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+const today=()=>dayOf(new Date());
 const when=(iso:string)=>new Date(iso).toLocaleDateString([],{weekday:'short',month:'short',day:'numeric'});
 const time=(iso:string)=>new Date(iso).toLocaleTimeString([],{hour:'numeric',minute:'2-digit'});
 
@@ -131,8 +133,10 @@ export function CoachingBlock({bike,onOpen}:{bike:Bike;onOpen:()=>void}){
 
 // ------------------------------------------------------------------ race day
 export type RaceDay={on:boolean;track:string;day:string};
+/** Today's race day, if one is running. Read fresh each time so Ask BAK sees it as soon as it starts. */
+export function readRaceDay(account:string):RaceDay|null{const r=readProgress<RaceDay|null>(account,'race-day',null);return r&&r.on&&r.day===today()?r:null;}
 export function useRaceDay(account:string){
- const [race,setRace]=useState<RaceDay>(()=>{const r=readProgress<RaceDay|null>(account,'race-day',null);return r&&r.on&&r.day===today()?r:{on:false,track:'',day:''};});
+ const [race,setRace]=useState<RaceDay>(()=>readRaceDay(account)??{on:false,track:'',day:''});
  const save=(r:RaceDay)=>{setRace(r);try{writeProgress(account,'race-day',r);}catch{}};
  return {race,start:(track:string)=>save({on:true,track:track.trim(),day:today()}),end:()=>save({on:false,track:'',day:''})};
 }
@@ -141,10 +145,12 @@ const CHANGES=['Fork compression','Fork rebound','Shock low-speed','Shock high-s
 const config=(b:Bike,k:string)=>{const v=b.configuration?.[k];return v==null||v===''?'':String(v);};
 
 /** The race-day Home: today's setup, the between-motos check, a fast change log and today's entries. */
-export function RaceDayHome({bike,account,track,onEnd,onAsk}:{bike:Bike;account:string;track:string;onEnd:()=>void;onAsk:(text:string)=>void}){
+/** What riders feel between motos, in their words. One tap sends it to BAK in race mode. */
+const QUICK=['Front pushes in turns','Front harsh on braking bumps','Rear kicks on braking bumps','Rear squats out of turns','Bottoms on jumps','Harsh on landings','Headshake on the straights','Won’t hold the rut','No rear hookup','Bogs out of turns'];
+export function RaceDayHome({bike,account,track,onEnd,onAsk,onQuick}:{bike:Bike;account:string;track:string;onEnd:()=>void;onAsk:(text:string)=>void;onQuick:(text:string)=>void}){
  const [prepOpen,setPrepOpen]=useState(false);
  const [logs,setLogs]=useState<SetupLog[]>([]),[moto,setMoto]=useState('Moto 1'),[what,setWhat]=useState(''),[detail,setDetail]=useState(''),[result,setResult]=useState<SetupResult>('not_tested'),[note,setNote]=useState(''),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
- const load=useCallback(async()=>{try{const all=await api<SetupLog[]>(`/api/setup-logs?bike_id=${bike.id}`);setLogs(all.filter(l=>l.recorded_at.slice(0,10)===today()));}catch(e){setNotice(errorText(e));}},[bike.id]);
+ const load=useCallback(async()=>{try{const all=await api<SetupLog[]>(`/api/setup-logs?bike_id=${bike.id}`);setLogs(all.filter(l=>dayOf(new Date(l.recorded_at))===today()));}catch(e){setNotice(errorText(e));}},[bike.id]);
  useEffect(()=>{void load();},[load]);
  const setup:[string,string][]=[['Fork comp',config(bike,'fork_compression')],['Fork reb',config(bike,'fork_rebound')],['Shock comp',config(bike,'shock_compression')],['Shock reb',config(bike,'shock_rebound')],['Race sag',config(bike,'rider_sag_mm')?config(bike,'rider_sag_mm')+' mm':''],['Tires',config(bike,'tire_pressures')]];
  const known=setup.filter(([,v])=>v);
@@ -167,6 +173,10 @@ export function RaceDayHome({bike,account,track,onEnd,onAsk}:{bike:Bike;account:
   <Card><Eyebrow>TODAY’S SETUP</Eyebrow>
    {known.length?<View style={{flexDirection:'row',flexWrap:'wrap',rowGap:12}}>{known.map(([k,v])=><View key={k} style={{width:'50%',gap:2}}><Text style={{color:'#9aa2ae',fontSize:12}}>{k}</Text><Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{v}</Text></View>)}</View>
    :<Copy>Your clickers, sag and tire pressures show here once they’re in Garage › Edit details.</Copy>}
+  </Card>
+  <Card><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="bolt" size={16} color={colors.accent}/><Eyebrow>QUICK ASK</Eyebrow></View>
+   <Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>Tap what the bike did. BAK answers in race mode: the one change to make, short and fast.</Text>
+   <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{QUICK.map(q=>chip(q,false,()=>onQuick(`Race day${track?` at ${track}`:''}, between motos: ${q.toLowerCase()}. What's the one change to make?`)))}</View>
   </Card>
   <RacePrepCard account={account} bike={bike} onOpen={()=>setPrepOpen(true)}/>
   <RacePrepSheet visible={prepOpen} onClose={()=>setPrepOpen(false)} account={account} bike={bike} startPhase="motos"/>
