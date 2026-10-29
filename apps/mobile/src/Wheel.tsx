@@ -85,15 +85,56 @@ export function WheelSelect({label,value,options,onChange,disabled=false,placeho
  return <>{row}<WheelSheet visible={open} title={label} options={options} value={value} onClose={()=>setOpen(false)} onPick={v=>{setOpen(false);onChange(v);}}/></>;
 }
 
-/** Make → model → year in one flow, with a step back at each stage. */
+/** Make → model → year in one flow, one tap per step: brand tiles, a searchable model list, year chips. Riders pick with
+ *  gloves and in a hurry, so no scrolling wheel here. A step back at each stage. */
 export function BikeWheel({visible,makes,modelsFor,yearsFor,initial,onDone,onClose,footer}:{visible:boolean;makes:string[];modelsFor:(make:string)=>string[];yearsFor:(make:string,model:string)=>number[];initial?:{make?:string;model?:string;year?:string};onDone:(b:{make:string;model:string;year:string})=>void;onClose:()=>void;footer?:{label:string;onPress:()=>void}}){
- const [stage,setStage]=useState<0|1|2>(0),[make,setMake]=useState(initial?.make??''),[model,setModel]=useState(initial?.model??'');
- useEffect(()=>{if(visible){setStage(0);setMake(initial?.make??'');setModel(initial?.model??'');}},[visible]);
- const close=()=>onClose();
- if(stage===0)return <WheelSheet visible={visible} step="01 / MAKE" title="Your bike." options={makes.map(m=>({value:m,label:m}))} value={make} onClose={close} footer={footer} searchPlaceholder="Search makes" onPick={m=>{setMake(m);if(m!==make)setModel('');setStage(1);}}/>;
- if(stage===1){const list=modelsFor(make);return <WheelSheet visible={visible} step="02 / MODEL" title={make} options={list.map(m=>({value:m,label:m,detail:(()=>{const y=yearsFor(make,m);return y.length?`${Math.min(...y)}–${Math.max(...y)}`:'';})()}))} value={model} onClose={close} back={{label:'Change make',onPress:()=>setStage(0)}} footer={footer} searchPlaceholder={`Search ${make} models`} onPick={m=>{setModel(m);setStage(2);}}/>;}
- const years=[...yearsFor(make,model)].sort((a,b)=>b-a);
- return <WheelSheet visible={visible} step="03 / YEAR" title={`${make} ${model}`} options={years.map(y=>({value:String(y),label:String(y)}))} value={initial?.make===make&&initial?.model===model?initial?.year:String(years[0]??'')} onClose={close} back={{label:'Change model',onPress:()=>setStage(1)}} footer={footer} onPick={y=>onDone({make,model,year:y})}/>;
+ const insets=useSafeAreaInsets();
+ const [stage,setStage]=useState<0|1|2>(0),[make,setMake]=useState(initial?.make??''),[model,setModel]=useState(initial?.model??''),[q,setQ]=useState('');
+ useEffect(()=>{if(visible){setStage(0);setMake(initial?.make??'');setModel(initial?.model??'');setQ('');}},[visible]);
+ const models=useMemo(()=>make?modelsFor(make):[],[make,modelsFor]);
+ const shown=useMemo(()=>{const t=q.trim().toLowerCase();return t?models.filter(m=>m.toLowerCase().includes(t)):models;},[models,q]);
+ const years=make&&model?[...yearsFor(make,model)].sort((a,b)=>b-a):[];
+ const range=(m:string)=>{const y=yearsFor(make,m);return y.length?(Math.min(...y)===Math.max(...y)?String(y[0]):`${Math.min(...y)}–${Math.max(...y)}`):'';};
+ const head=(step:string,title:string,back?:{label:string;onPress:()=>void})=><>
+  <View style={st.top}><Text style={st.step}>{step}</Text><Pressable accessibilityRole="button" accessibilityLabel="Close" hitSlop={12} onPress={onClose} style={({pressed})=>[st.close,pressed&&{opacity:0.6}]}><Icon name="close" size={18} color={C.text} weight={2}/></Pressable></View>
+  <Text style={st.title} numberOfLines={2}>{title}</Text>
+  {back?<Pressable accessibilityRole="button" onPress={back.onPress} hitSlop={8} style={{alignSelf:'flex-start',paddingVertical:8}}><View style={{flexDirection:'row',alignItems:'center',gap:4}}><Icon name="chevronLeft" size={16} color={C.accent} weight={2.1}/><Text style={{color:C.accent,fontWeight:'600',fontSize:15}}>{back.label}</Text></View></Pressable>:<View style={{height:10}}/>}
+ </>;
+ return <Modal visible={visible} animationType="fade" presentationStyle="overFullScreen" transparent onRequestClose={onClose} statusBarTranslucent>
+  <View style={[st.sheet,{paddingTop:insets.top+10,paddingBottom:insets.bottom+12}]}>
+   {stage===0&&<>
+    {head('01 / MAKE','Your bike.')}
+    <View style={{flexDirection:'row',flexWrap:'wrap',justifyContent:'space-between',rowGap:12,marginTop:6}}>
+     {makes.map(m=>{const on=m===make;return <Pressable key={m} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} accessibilityLabel={m} onPress={()=>{if(m!==make)setModel('');setMake(m);setQ('');setStage(1);}}
+      style={({pressed})=>[st.tile,on&&{borderColor:C.accent},pressed&&{opacity:0.7,transform:[{scale:0.98}]}]}>
+      <Text numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.7} style={{color:C.text,fontSize:21,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.5}}>{m}</Text>
+      <Text style={{color:C.dim,fontSize:12.5}}>{modelsFor(m).length} models</Text>
+     </Pressable>;})}
+    </View>
+   </>}
+   {stage===1&&<>
+    {head('02 / MODEL',make,{label:'Change make',onPress:()=>setStage(0)})}
+    {models.length>8&&<View style={st.search}><Icon name="search" size={17} color={C.muted}/><TextInput value={q} onChangeText={setQ} placeholder={`Search ${make} models`} placeholderTextColor={C.dim} style={st.searchInput} autoCorrect={false} autoCapitalize="none" clearButtonMode="while-editing" accessibilityLabel="Search models"/></View>}
+    <FlatList data={shown} keyExtractor={m=>m} keyboardShouldPersistTaps="handled" style={{flex:1,marginTop:4}} contentContainerStyle={{paddingBottom:12}}
+     ListEmptyComponent={<Text style={{color:C.muted,fontSize:15,paddingVertical:20}}>Nothing matches “{q.trim()}”.</Text>}
+     renderItem={({item})=>{const on=item===model;return <Pressable haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} accessibilityLabel={`${item}, ${range(item)}`} onPress={()=>{setModel(item);setStage(2);}} style={({pressed})=>[st.listRow,pressed&&{opacity:0.6}]}>
+      <View style={{flex:1,gap:2}}><Text style={{color:on?C.accent:C.text,fontSize:18,fontWeight:'700'}}>{item}</Text><Text style={{color:C.dim,fontSize:13}}>{range(item)}</Text></View>
+      <Icon name="chevronRight" size={17} color={C.muted}/>
+     </Pressable>;}}/>
+   </>}
+   {stage===2&&<>
+    {head('03 / YEAR',`${make} ${model}`,{label:'Change model',onPress:()=>setStage(1)})}
+    <View style={{flexDirection:'row',flexWrap:'wrap',gap:10,marginTop:6}}>
+     {years.map(y=>{const on=initial?.make===make&&initial?.model===model&&initial?.year===String(y);return <Pressable key={y} haptic="press" accessibilityRole="button" accessibilityState={{selected:on}} accessibilityLabel={String(y)} onPress={()=>onDone({make,model,year:String(y)})}
+      style={({pressed})=>[st.chip,on&&{borderColor:C.accent},pressed&&{opacity:0.7,transform:[{scale:0.97}]}]}>
+      <Text style={{color:C.text,fontSize:19,fontWeight:'800'}}>{y}</Text>
+     </Pressable>;})}
+    </View>
+   </>}
+   <View style={{flex:stage===1?0:1}}/>
+   {footer&&<Pressable accessibilityRole="button" onPress={footer.onPress} hitSlop={8} style={{paddingTop:12}}><Text style={{color:C.muted,fontWeight:'600',fontSize:15}}>{footer.label}</Text></Pressable>}
+  </View>
+ </Modal>;
 }
 
 const st=StyleSheet.create({
@@ -110,5 +151,8 @@ const st=StyleSheet.create({
  choose:{backgroundColor:C.primary,borderRadius:24,paddingHorizontal:26,paddingVertical:13},
  row:{flexDirection:'row',alignItems:'center',gap:12,paddingVertical:13,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:C.line},
  rowLabel:{color:C.muted,fontSize:12.5,fontWeight:'600'},
+ tile:{width:'48.5%',minHeight:76,borderRadius:16,borderWidth:1,borderColor:'#2a2f39',backgroundColor:'#0e1015',paddingHorizontal:14,paddingVertical:12,justifyContent:'center',gap:3},
+ listRow:{flexDirection:'row',alignItems:'center',gap:12,minHeight:62,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:C.line},
+ chip:{width:96,height:56,borderRadius:14,borderWidth:1,borderColor:'#2a2f39',backgroundColor:'#0e1015',alignItems:'center',justifyContent:'center'},
  pill:{flexDirection:'row',alignItems:'center',gap:6,borderWidth:1,borderColor:'#2f3540',borderRadius:18,paddingHorizontal:13,paddingVertical:7,maxWidth:'100%'},
 });
