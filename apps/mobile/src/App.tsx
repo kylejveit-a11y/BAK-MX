@@ -5,7 +5,7 @@ import {RichText,Disclosure} from './RichText';
 import React,{useEffect,useState,createContext,useContext,useCallback,useRef} from 'react';
 import {AccessibilityInfo,ActionSheetIOS,AppState,Alert,Linking,Platform,View,Text,ActivityIndicator,StyleSheet,TextInput,ScrollView,Switch} from 'react-native';
 import {Pressable} from './Touch';
-import {BikeWheel} from './Wheel';
+import {BikeWheel,PickButton} from './Wheel';
 import {DateField,recentDays,formatValue} from './DateSheet';
 import {BikePhotos,BikeCover,useBikePhotos} from './BikePhotos';
 import {AttachedPhotos,MessagePhotos} from './PhotoUI';
@@ -292,7 +292,15 @@ function ChatForBike({route}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  const canSend=!busy&&!!bike&&!uploading&&(!!draft.trim()||attached.length>0)&&draft.length<=8000;
  async function attachClip(){if(attached.length||!bike)return;try{const c=await pickClipFrames();if(!c)return;setUploading(c.frames.length);const done:typeof attached=[];for(const f of c.frames){done.push(await uploadPhoto(f.asset,'chat',bike.id));setUploading(n=>Math.max(0,n-1));}setAttached(done);setClip({duration:c.duration,frames:c.frames.map(f=>Math.round(f.time*100)/100)});}catch(e){setNotice(errorText(e));}finally{setUploading(0);}}
  async function attach(from?:'camera'|'library'){if(attached.length>=4||clip||!bike)return;const source=from??await chooseChatSource();if(!source)return;if(source==='video'){await attachClip();return;}try{const picked=await pickImages(source,4-attached.length);if(!picked.length)return;setUploading(picked.length);for(const a of picked){const p=await uploadPhoto(a,'chat',bike.id);setAttached(old=>[...old,p]);setUploading(n=>Math.max(0,n-1));}}catch(e){setNotice(errorText(e));}finally{setUploading(0);}}
+ const chip={flexDirection:'row' as const,alignItems:'center' as const,gap:5,height:30,paddingHorizontal:10,borderRadius:15,borderWidth:1,borderColor:'#2a2f39',backgroundColor:'rgba(255,255,255,0.03)',maxWidth:170},chipText={color:'#c9cfd9',fontSize:13,fontWeight:'600' as const,flexShrink:1};
  const composer=aiOk&&bike&&!triage?<View style={{gap:2}}>
+  <View style={{flexDirection:'row',alignItems:'center',gap:6,paddingHorizontal:8,paddingTop:8}}>
+   {bikes.length>1?<PickButton title="Current bike" accessibilityLabel={`Bike: ${bike.model_year} ${bike.manufacturer} ${bike.model}. Change`} disabled={busy} value={bike.id} options={bikes.map(b=>({value:b.id,label:`${b.model_year} ${b.manufacturer} ${b.model}`}))} onChange={select}><View style={chip}><Icon name="moto" size={14} color="#b2b9c4"/><Text numberOfLines={1} style={chipText}>{bike.manufacturer} {bike.model}</Text><Icon name="chevronDown" size={12} color="#8f97a4"/></View></PickButton>
+   :<View style={chip}><Icon name="moto" size={14} color="#b2b9c4"/><Text numberOfLines={1} style={chipText}>{bike.manufacturer} {bike.model}</Text></View>}
+   {(threads.length>0||!!id)&&<PickButton title="Your chats" accessibilityLabel={`Chats: ${id?threads.find(t=>t.id===id)?.title??'this chat':'new chat'}. Change`} disabled={busy} value={id} options={[{value:'',label:'New chat'},...threads.map(t=>({value:t.id,label:t.title}))]} onChange={v=>{if(sending.current)return;refreshVersion.current.invalidate();setId(v);setMessages([]);setDraft('');setNotice('');rememberRequest(null);}}><View style={chip}><Icon name="messages" size={14} color="#b2b9c4"/><Text style={chipText}>{id?'Chats':'New chat'}</Text><Icon name="chevronDown" size={12} color="#8f97a4"/></View></PickButton>}
+   <View style={{flex:1}}/>
+   <Pressable haptic="select" accessibilityRole="switch" accessibilityState={{checked:fast}} accessibilityLabel="Race mode: short, fast answers" accessibilityHint={fast?'On. Answers are the one change to make, short.':'Off. Answers are full depth.'} disabled={busy} onPress={()=>setFastPick({day:new Date().toDateString(),on:!fast})} style={({pressed})=>[chip,fast&&{borderColor:colors.accent,backgroundColor:tint(0.14)},{opacity:pressed?0.7:1}]}><Icon name="bolt" size={14} color={fast?colors.accent:'#8f97a4'}/><Text style={[chipText,{color:fast?colors.text:'#8f97a4'}]}>Race{fast?' on':''}</Text></Pressable>
+  </View>
   {busy&&<WorkingLine fast={fast}/>}
   {(attached.length>0||uploading>0)&&<View style={{paddingHorizontal:12,paddingTop:10}}>{clip&&<Text style={{color:'#adb5c1',fontSize:12.5,marginBottom:6}}>Clip · {attached.length} frames from {clip.duration.toFixed(1)} s · BAK reads them in order</Text>}{attached.length>0&&!uploading&&<><FocusChips focus={focus} onFocus={setFocus} slowmo={clip?slowmo:null} onSlowmo={setSlowmo} tracks={recentTracks} where={where} onWhere={setWhere}/>{clip&&!!coachingSessions.sessions?.length&&<CompareChips sessions={coachingSessions.sessions} focus={focus} value={compareTo} onChange={setCompareTo}/>}</>}<AttachedPhotos photos={attached} uploading={uploading} size={clip?44:60} onRemove={id=>{if(clip){const all=attached;setAttached([]);setClip(null);setFocus(null);setSlowmo(false);setCompareTo(null);for(const p of all)void api('/api/photos?id='+p.id,'DELETE').catch(()=>{});return;}setAttached(old=>{const left=old.filter(p=>p.id!==id);if(!left.length)setFocus(null);return left;});void api('/api/photos?id='+id,'DELETE').catch(()=>{});}}/></View>}
   <View style={{flexDirection:'row',alignItems:'flex-end',gap:6,paddingLeft:6,paddingRight:6,paddingVertical:6}}>
@@ -303,12 +311,8 @@ function ChatForBike({route}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  </View>:null;
  const[notesOpen,setNotesOpen]=useState(false);
  return <Page title="" footer={composer}>
- <View style={{gap:14}}><PageTitle>Ask BAK</PageTitle>
-  <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>
-   {bikes.length>1?<Select inline disabled={busy} label="Current bike" value={bike?.id??''} options={bikes.map(b=>({value:b.id,label:`${b.model_year} ${b.manufacturer} ${b.model}`}))} onChange={select}/>:bike?<View style={{borderWidth:1,borderColor:'#2f3540',borderRadius:18,paddingHorizontal:13,paddingVertical:7}}><Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>{bike.model_year} {bike.manufacturer} {bike.model}</Text></View>:null}
-   {(threads.length>0||!!id)&&<Select inline disabled={busy} label="Your chats" value={id} options={[{value:'',label:'New chat'},...threads.map(t=>({value:t.id,label:t.title}))]} onChange={v=>{if(sending.current)return;refreshVersion.current.invalidate();setId(v);setMessages([]);setDraft('');setNotice('');rememberRequest(null);}}/>}
-   {bike&&<Pressable haptic="select" accessibilityRole="switch" accessibilityState={{checked:fast}} accessibilityLabel="Race mode: short, fast answers" accessibilityHint={fast?'On. Answers are the one change to make, short.':'Off. Answers are full depth.'} disabled={busy} onPress={()=>setFastPick({day:new Date().toDateString(),on:!fast})} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:6,borderWidth:1,borderColor:fast?colors.accent:'#2f3540',backgroundColor:fast?tint(0.16):'transparent',borderRadius:18,paddingHorizontal:12,paddingVertical:7,opacity:pressed?0.7:1})}><Icon name="bolt" size={14} color={fast?colors.accent:'#9aa2ae'}/><Text style={{color:fast?colors.text:'#adb5c1',fontSize:14,fontWeight:'700'}}>Race mode{fast?' on':''}</Text></Pressable>}
-  </View>
+ {/* The bike, chats and race mode live on the composer (like other chat apps), so the conversation gets the screen. */}
+ <View style={{gap:14}}>{messages.length===0&&!live&&<PageTitle>Ask BAK</PageTitle>}
   {!bike&&<Notice text="Add your motorcycle in Garage to begin."/>}
  </View>
  <Notice text={notice||draftError||noteError||saveNoteError}/>

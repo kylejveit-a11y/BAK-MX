@@ -163,3 +163,10 @@ const st=StyleSheet.create({
  chip:{height:56,borderRadius:14,borderWidth:1,borderColor:'#2a2f39',backgroundColor:'#0e1015',alignItems:'center',justifyContent:'center'},
  pill:{flexDirection:'row',alignItems:'center',gap:6,borderWidth:1,borderColor:'#2f3540',borderRadius:18,paddingHorizontal:13,paddingVertical:7,maxWidth:'100%'},
 });
+
+/** Any trigger that opens the selector: the caller draws the button (a compact chip in the chat composer, say). */
+export function PickButton({title,options,value,onChange,disabled=false,accessibilityLabel,children}:{title:string;options:Option[];value:string;onChange:(v:string)=>void;disabled?:boolean;accessibilityLabel:string;children:React.ReactNode}){
+ const [open,setOpen]=useState(false);
+ return <><Pressable haptic="select" accessibilityRole="button" accessibilityLabel={accessibilityLabel} disabled={disabled} onPress={()=>setOpen(true)} style={({pressed})=>({opacity:pressed||disabled?0.6:1})}>{children}</Pressable>
+  <WheelSheet visible={open} title={title} options={options} value={value} onClose={()=>setOpen(false)} onPick={v=>{setOpen(false);onChange(v);}}/></>;
+}
