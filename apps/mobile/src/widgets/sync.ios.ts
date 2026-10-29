@@ -9,7 +9,7 @@ import {Asset} from 'expo-asset';
 import {File} from 'expo-file-system';
 import {makeBikeWidget} from './BikeWidget';
 import {makeGuideActivity} from './GuideActivity';
-import {bikeWidgetProps,emptyBikeWidget,guideActivityProps,type GuideStepInfo} from '../widgetData';
+import {bikeWidgetProps,emptyBikeWidget,guideActivityProps,raceTimeline,type GuideStepInfo,type RaceWidgetInfo} from '../widgetData';
 
 const ios=true;
 type Mods={bikeWidget:ReturnType<typeof makeBikeWidget>;guideActivity:ReturnType<typeof makeGuideActivity>};
@@ -33,15 +33,20 @@ async function widgetLogo():Promise<string>{
  }catch{return '';}
 }
 
-let lastKey='';
+let lastKey='',lastBike:Bike|undefined,race:RaceWidgetInfo|null=null;
+/** The race countdown for the widget (null: none). Re-draws the widget when it changes. */
+export function setRaceWidget(info:RaceWidgetInfo|null){
+ if(!ios)return;const key=JSON.stringify(info);if(key===JSON.stringify(race))return;race=info;
+ if(lastBike)void syncBikeWidget(lastBike);
+}
 /** Refreshes the widget for this bike (or clears it when there is none). */
 export async function syncBikeWidget(bike:Bike|undefined){
- if(!ios)return;const m=load();if(!m)return;
+ if(!ios)return;const m=load();if(!m)return;lastBike=bike;
  try{
   if(!bike){if(lastKey!=='none'){m.bikeWidget.updateSnapshot({...emptyBikeWidget,logo:await widgetLogo()});lastKey='none';}return;}
   const [services,logs]=await Promise.all([api<ServiceEvent[]>(`/api/services?bike_id=${bike.id}`).catch(()=>[] as ServiceEvent[]),api<SetupLog[]>(`/api/setup-logs?bike_id=${bike.id}`).catch(()=>[] as SetupLog[])]);
-  const props={...bikeWidgetProps(bike,services,logs),logo:await widgetLogo()},key=JSON.stringify(props);
-  if(key!==lastKey){m.bikeWidget.updateSnapshot(props);lastKey=key;}
+  const props={...bikeWidgetProps(bike,services,logs),logo:await widgetLogo()},key=JSON.stringify([props,race,new Date().toDateString()]);
+  if(key!==lastKey){if(race)m.bikeWidget.updateTimeline(raceTimeline(props,race));else m.bikeWidget.updateSnapshot(props);lastKey=key;}
  }catch{}
 }
 export function clearBikeWidget(){if(!ios)return;const m=load();if(!m)return;try{m.bikeWidget.updateSnapshot(emptyBikeWidget);lastKey='none';}catch{}}

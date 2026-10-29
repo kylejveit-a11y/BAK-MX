@@ -5,7 +5,7 @@ import {Capsule,HStack,Image,ProgressView,Spacer,Text,VStack} from '@expo/ui/swi
 import {aspectRatio,background,clipShape,containerBackground,font,foregroundStyle,frame,kerning,lineLimit,minimumScaleFactor,monospacedDigit,padding,resizable,tint,widgetURL} from '@expo/ui/swift-ui/modifiers';
 import {createWidget,type WidgetEnvironment} from 'expo-widgets';
 
-export type BikeWidgetProps={ready:boolean;logo:string;bike:string;hours:string;hoursSet:boolean;next:string;nextSet:boolean;nextUrgent:boolean;nextProgress:number;change:string;changeSet:boolean;changeWhen:string};
+export type BikeWidgetProps={ready:boolean;logo:string;bike:string;hours:string;hoursSet:boolean;next:string;nextSet:boolean;nextUrgent:boolean;nextProgress:number;change:string;changeSet:boolean;changeWhen:string;raceSet?:boolean;raceTrack?:string;raceWhen?:string;raceProgress?:number;raceDone?:string};
 
 const BikeWidgetLayout=(p:BikeWidgetProps,env:WidgetEnvironment)=>{
  'widget';
@@ -24,12 +24,13 @@ const BikeWidgetLayout=(p:BikeWidgetProps,env:WidgetEnvironment)=>{
  if(family==='accessoryRectangular'){
   return <VStack alignment="leading" spacing={1} modifiers={[containerBackground('clear','widget'),widgetURL('bakmx://service')]}>
    <Text modifiers={[font({size:13,weight:'bold'}),lineLimit(1)]}>{p.bike}</Text>
+   {p.raceSet?<Text modifiers={[font({size:12,weight:'semibold'}),lineLimit(1)]}>{p.raceWhen+' · '+p.raceTrack}</Text>:null}
    <Text modifiers={[font({size:12}),lineLimit(1)]}>{p.next}</Text>
    <Text modifiers={[font({size:12}),monospacedDigit(),lineLimit(1)]}>{p.hoursSet?p.hours+' hours':'Hours not set'}</Text>
   </VStack>;
  }
  if(family==='accessoryInline'){
-  return <Text modifiers={[widgetURL('bakmx://service')]}>{p.next}</Text>;
+  return <Text modifiers={[widgetURL('bakmx://service')]}>{p.raceSet?p.raceWhen+' · '+p.raceTrack:p.next}</Text>;
  }
  const pillColor=p.nextSet?text:'#9cc4ff';
  const hours=<HStack alignment="lastTextBaseline" spacing={4}>
@@ -40,6 +41,10 @@ const BikeWidgetLayout=(p:BikeWidgetProps,env:WidgetEnvironment)=>{
   <Image systemName={p.nextSet?'wrench.and.screwdriver.fill':'plus'} size={10} color={pillColor}/>
   <Text modifiers={[font({size:11.5,weight:'semibold'}),foregroundStyle(text),lineLimit(1),minimumScaleFactor(0.7)]}>{p.next}</Text>
  </HStack>;
+ const racePill=<HStack spacing={5} modifiers={[padding({horizontal:9,vertical:5}),background('rgba(106,164,255,0.24)'),clipShape('capsule')]}>
+  <Image systemName="flag.checkered" size={10} color={text}/>
+  <Text modifiers={[font({size:11.5,weight:'semibold'}),foregroundStyle(text),lineLimit(1),minimumScaleFactor(0.7)]}>{p.raceWhen}</Text>
+ </HStack>;
  const left=<VStack alignment="leading" spacing={0}>
   {logo}
   <Spacer/>
@@ -47,7 +52,7 @@ const BikeWidgetLayout=(p:BikeWidgetProps,env:WidgetEnvironment)=>{
   <Text modifiers={[font({size:13,weight:'semibold'}),foregroundStyle(soft),lineLimit(1),minimumScaleFactor(0.75)]}>{p.bike}</Text>
   {hours}
   <Spacer/>
-  {pill}
+  {family==='systemSmall'&&p.raceSet?racePill:pill}
  </VStack>;
  if(family==='systemSmall'){
   return <VStack alignment="leading" modifiers={[frame({maxWidth:10000,maxHeight:10000,alignment:'topLeading'}),containerBackground(steel,'widget'),widgetURL('bakmx://service')]}>{left}</VStack>;
@@ -55,11 +60,20 @@ const BikeWidgetLayout=(p:BikeWidgetProps,env:WidgetEnvironment)=>{
  return <HStack alignment="top" spacing={12} modifiers={[containerBackground(steel,'widget'),widgetURL('bakmx://service')]}>
   <VStack alignment="leading" modifiers={[frame({maxWidth:10000,maxHeight:10000,alignment:'topLeading'})]}>{left}</VStack>
   <VStack alignment="leading" spacing={5} modifiers={[frame({maxWidth:10000,maxHeight:10000,alignment:'topLeading'}),padding({all:12}),background({type:'linearGradient',colors:['rgba(255,255,255,0.12)','rgba(255,255,255,0.04)'],startPoint:{x:0,y:0},endPoint:{x:0,y:1}}),clipShape('roundedRectangle',16)]}>
-   <Text modifiers={[font({size:9.5,weight:'heavy'}),foregroundStyle(label),kerning(1)]}>LAST SETUP CHANGE</Text>
-   <Text modifiers={[font({size:15,weight:'semibold'}),foregroundStyle(p.changeSet?text:soft),lineLimit(3),minimumScaleFactor(0.8)]}>{p.change}</Text>
-   <Text modifiers={[font({size:11.5,weight:'medium'}),foregroundStyle(muted),lineLimit(1),minimumScaleFactor(0.8)]}>{p.changeWhen}</Text>
+   {p.raceSet?<VStack alignment="leading" spacing={5}>
+    <Text modifiers={[font({size:9.5,weight:'heavy'}),foregroundStyle(label),kerning(1)]}>NEXT RACE</Text>
+    <Text modifiers={[font({size:15,weight:'semibold'}),foregroundStyle(text),lineLimit(2),minimumScaleFactor(0.8)]}>{p.raceTrack}</Text>
+    <Text modifiers={[font({size:12.5,weight:'bold'}),foregroundStyle(accent),lineLimit(1),minimumScaleFactor(0.8)]}>{p.raceWhen}</Text>
+   </VStack>:<VStack alignment="leading" spacing={5}>
+    <Text modifiers={[font({size:9.5,weight:'heavy'}),foregroundStyle(label),kerning(1)]}>LAST SETUP CHANGE</Text>
+    <Text modifiers={[font({size:15,weight:'semibold'}),foregroundStyle(p.changeSet?text:soft),lineLimit(3),minimumScaleFactor(0.8)]}>{p.change}</Text>
+    <Text modifiers={[font({size:11.5,weight:'medium'}),foregroundStyle(muted),lineLimit(1),minimumScaleFactor(0.8)]}>{p.changeWhen}</Text>
+   </VStack>}
    <Spacer/>
-   {p.nextProgress>=0?<VStack alignment="leading" spacing={4}>
+   {p.raceSet&&p.raceProgress!==undefined&&p.raceProgress>=0?<VStack alignment="leading" spacing={4}>
+    <Text modifiers={[font({size:9.5,weight:'heavy'}),foregroundStyle(label),kerning(1)]}>{(p.raceDone||'PREP').toUpperCase()}</Text>
+    <ProgressView value={p.raceProgress} modifiers={[tint(accent)]}/>
+   </VStack>:p.nextProgress>=0?<VStack alignment="leading" spacing={4}>
     <Text modifiers={[font({size:9.5,weight:'heavy'}),foregroundStyle(label),kerning(1)]}>SERVICE INTERVAL</Text>
     <ProgressView value={p.nextProgress} modifiers={[tint(p.nextUrgent?urgent:accent)]}/>
    </VStack>:null}

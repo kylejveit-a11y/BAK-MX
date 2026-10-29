@@ -28,3 +28,15 @@ test('service bar shows how much of the interval is used',()=>{
   const p=bikeWidgetProps({...bike,engine_hours:40},[{id:'o',category:'Engine oil',engine_hours:30,next_due_hours:50}],[]);
   assert.equal(p.nextProgress,0.5);assert.equal(p.nextSet,true);
 });
+
+import {raceTimeline} from '../src/widgetData.ts';
+test('race countdown ticks over at each local midnight and drops off after race day',()=>{
+  const now=new Date(2026,9,29,15,30);
+  const t=raceTimeline({ready:true},{track:'Glen Helen',day:'2026-11-01',done:12,total:40},now);
+  assert.equal(t[0].date,now);assert.equal(t[0].props.raceWhen,'Race in 3 days');assert.equal(t[0].props.raceDone,'Prep 12 of 40');assert.equal(t[0].props.raceProgress,0.3);
+  assert.equal(t[1].props.raceWhen,'Race in 2 days');assert.equal(t[1].date.getHours(),0);
+  assert.equal(t[3].props.raceWhen,'Race day today');
+  assert.equal(t[4].props.raceSet,false);assert.equal(t.length,5);
+  assert.equal(raceTimeline({ready:true},null,now)[0].props.raceSet,false);
+  assert.equal(raceTimeline({ready:true},{track:'x',day:'2026-10-01',done:0,total:0},now)[0].props.raceSet,false);
+});

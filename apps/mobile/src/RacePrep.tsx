@@ -18,6 +18,9 @@ import {select as hSelect,success} from './haptics';
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
 export const disciplineOf=(bike?:Bike)=>bike&&garageModelInfo[`${bike.manufacturer}|${bike.model}`]?.discipline!=='motocross'?'offroad' as const:'mx' as const;
 
+/** Every open copy of the list hears about a change, so Home's counts and the widget follow the sheet at once. */
+const listeners=new Set<()=>void>();
+const changed=()=>{for(const l of listeners)l();};
 /** The rider's list and checks, shared by the full sheet and the race-day card. */
 export function useRacePrep(account:string,bike?:Bike){
  const discipline=disciplineOf(bike);
@@ -25,15 +28,16 @@ export function useRacePrep(account:string,bike?:Bike){
  const [checks,setChecks]=useState<Record<string,boolean>>(()=>readProgress(account,'race-prep-checks',{}));
  const [error,setError]=useState('');
  useEffect(()=>{api<{items:PrepItem[]|null}>('/api/race-checklist').then(r=>{setList(hydratePrepList(r.items,discipline));try{writeProgress(account,'race-prep-list',r.items);}catch{}}).catch(()=>{});},[account,discipline]);
+ useEffect(()=>{const l=()=>{setChecks(readProgress(account,'race-prep-checks',{}));setList(hydratePrepList(readProgress(account,'race-prep-list',null),discipline));};listeners.add(l);return()=>{listeners.delete(l);};},[account,discipline]);
  const timer=useRef<ReturnType<typeof setTimeout>|null>(null);
- const saveList=(next:PrepItem[]|null)=>{const shown=next??defaultPrepList(discipline);setList(shown);const saved=next?toSaved(next):null;try{writeProgress(account,'race-prep-list',saved);}catch{}
+ const saveList=(next:PrepItem[]|null)=>{const shown=next??defaultPrepList(discipline);setList(shown);const saved=next?toSaved(next):null;try{writeProgress(account,'race-prep-list',saved);}catch{}changed();
   if(timer.current)clearTimeout(timer.current);timer.current=setTimeout(()=>{api('/api/race-checklist','PUT',{items:saved}).then(()=>setError('')).catch(e=>setError(errorText(e)));},600);};
- const toggle=(id:string)=>{const next={...checks,[id]:!checks[id]};setChecks(next);try{writeProgress(account,'race-prep-checks',next);}catch{}};
- const clear=(phase?:RacePhase)=>{const next=phase?Object.fromEntries(Object.entries(checks).filter(([id])=>list.find(i=>i.id===id)?.phase!==phase)):{};setChecks(next);try{writeProgress(account,'race-prep-checks',next);}catch{}};
+ const toggle=(id:string)=>{const next={...checks,[id]:!checks[id]};setChecks(next);try{writeProgress(account,'race-prep-checks',next);}catch{}changed();};
+ const clear=(phase?:RacePhase)=>{const next=phase?Object.fromEntries(Object.entries(checks).filter(([id])=>list.find(i=>i.id===id)?.phase!==phase)):{};setChecks(next);try{writeProgress(account,'race-prep-checks',next);}catch{}changed();};
  return {list,checks,toggle,clear,saveList,error};
 }
 
-function Progress({done,total}:{done:number;total:number}){
+export function Progress({done,total}:{done:number;total:number}){
  const id=React.useId().replace(/[^a-zA-Z0-9]/g,''),pct=total?done/total:0;
  return <View style={{height:6,borderRadius:3,backgroundColor:'#1a1e25',overflow:'hidden'}}>
   <View style={{width:`${Math.round(pct*100)}%`,height:6}}><Svg width="100%" height="6"><Defs><LinearGradient id={'g'+id} x1="0" y1="0" x2="0" y2="1"><Stop offset="0" stopColor={metalHighlight()}/><Stop offset="0.5" stopColor={colors.accent}/><Stop offset="1" stopColor={colors.primary}/></LinearGradient></Defs><Rect x="0" y="0" width="100%" height="6" fill={`url(#g${id})`}/></Svg></View>

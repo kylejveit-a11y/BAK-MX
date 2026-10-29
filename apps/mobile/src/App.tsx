@@ -35,7 +35,7 @@ import {applyTheme,motion} from './theme';
 import {setHapticsEnabled} from './haptics';
 import {RacePlate} from './RacePlate';
 import {RacePrepSheet,RacePrepBlock} from './RacePrep';
-import {HomeEditor,useHomeLayout,useRaceDay,readRaceDay,RaceDayHome,RaceDayStart,ServiceDueBlock,LastSetupBlock,EventsBlock,CoachingBlock,type HomeBlock} from './HomeBlocks';
+import {HomeEditor,useHomeLayout,useRaceDay,readRaceDay,RaceCountdown,useRaceWidget,RaceDayHome,RaceDayStart,ServiceDueBlock,LastSetupBlock,EventsBlock,CoachingBlock,type HomeBlock} from './HomeBlocks';
 import {themeFor,allThemes,type ThemeMode} from '../../../shared/brand-theme';
 import {MetalMark,MetalBubble,BlueFace,blueLift,Button,Card,Copy,Field,Notice,Page,PageTitle,Select,colors,tint,Brand,Eyebrow,Chip,Tile,TileGrid,AskBar,LinkAction,Icon,type IconName} from './ui';
 import {SupportPicker,SupportedBikesScreen} from './BikeSupport';
@@ -52,7 +52,7 @@ import {garageFieldGroups,buildProgress,multiValues,multiString} from '../../../
 import {systemsRecorded,partSystems} from '../../../shared/installed-parts';
 import {CommunityScreen,EventsScreen,MessagesScreen,SetupLogCard,PartsCatalogCard,ProfileCard,FeedbackCard,StartRow,FormHead,SetupGuideCard} from './RiderScreens';
 import type {RiderRef} from '../../../shared/rider-types';
-type Tabs={Home:undefined;Garage:{open?:'edit'|'build';token?:string}|undefined;'Ask BAK':{mode?:Conversation['mode'];context?:string;contextToken?:string;contextBikeId?:string;prompt?:string;promptToken?:string;camera?:string;clip?:string}|undefined;Maintenance:undefined;Account:undefined;Setup:{note?:string;noteToken?:string}|undefined;Learn:undefined;Specs:undefined;Workshop:undefined;Bikes:undefined;Community:undefined;Events:undefined;Messages:{rider?:RiderRef}|undefined};
+type Tabs={Home:undefined;Garage:{open?:'edit'|'build';token?:string}|undefined;'Ask BAK':{mode?:Conversation['mode'];context?:string;contextToken?:string;contextBikeId?:string;prompt?:string;promptToken?:string;camera?:string;clip?:string;thread?:string;threadToken?:string}|undefined;Maintenance:undefined;Account:undefined;Setup:{note?:string;noteToken?:string}|undefined;Learn:undefined;Specs:undefined;Workshop:undefined;Bikes:undefined;Community:undefined;Events:undefined;Messages:{rider?:RiderRef}|undefined};
 const Tab=createBottomTabNavigator<Tabs>();
 // Siri, Shortcuts and the Action button open screens through these links (see appLinks.ts).
 const navRef=createNavigationContainerRef<Tabs>();let queuedLink:AppLink|null=null,initialLinkSeen=false;
@@ -97,11 +97,13 @@ function EventsTab({navigation}:BottomTabScreenProps<Tabs,'Events'>){return <Eve
 function MessagesTab({navigation,route}:BottomTabScreenProps<Tabs,'Messages'>){return <MessagesScreen startWith={route.params?.rider} onStarted={()=>navigation.setParams({rider:undefined})}/>;}
 function WorkshopJob({navigation}:BottomTabScreenProps<Tabs,'Workshop'>){const{bike,session}=useContext(Ctx);return <WorkshopScreen bike={bike} ownerId={session.user.id} onAsk={context=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',context:`Help me with this workshop step on my ${bike.model_year} ${bike.manufacturer} ${bike.model}, ${bike.variant}, ${bike.region}.\n\n${context}`,contextToken:randomUUID(),contextBikeId:bike.id});}}/>;}
 function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,session,bikesLoaded,select}=useContext(Ctx);
- const {layout,save,reset}=useHomeLayout(session.user.id),{race,start,end}=useRaceDay(session.user.id),[editing,setEditing]=useState(false),[starting,setStarting]=useState(false),[prepOpen,setPrepOpen]=useState(false);
+ const {layout,save,reset}=useHomeLayout(session.user.id),{race,start,end,isToday,upcoming}=useRaceDay(session.user.id),[editing,setEditing]=useState(false),[starting,setStarting]=useState(false),[prepOpen,setPrepOpen]=useState(false);
  const ask=(text:string)=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',context:text,contextToken:randomUUID(),contextBikeId:bike.id});};
  // Quick ask on race day: sent straight away, no typing.
  const quick=(text:string)=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',prompt:text,promptToken:randomUUID()});};
- if(race.on&&bike)return <Page title=""><RaceDayHome bike={bike} account={session.user.id} track={race.track} onEnd={end} onAsk={ask} onQuick={quick}/><AskBar onPress={()=>navigation.navigate('Ask BAK')} onSnap={()=>navigation.navigate('Ask BAK',{camera:randomUUID()})}/></Page>;
+ const openChat=(thread:string)=>navigation.navigate('Ask BAK',{thread,threadToken:randomUUID()});
+ useRaceWidget(session.user.id,bike,race);
+ if(isToday&&bike)return <Page title=""><RaceDayHome bike={bike} account={session.user.id} track={race.track} onEnd={end} onAsk={ask} onQuick={quick} onOpenChat={openChat}/><AskBar onPress={()=>navigation.navigate('Ask BAK')} onSnap={()=>navigation.navigate('Ask BAK',{camera:randomUUID()})}/></Page>;
  const blocks:Record<HomeBlock,React.ReactNode>={
   ask:<AskBar onPress={()=>navigation.navigate('Ask BAK')} onSnap={bike?()=>navigation.navigate('Ask BAK',{camera:randomUUID()}):undefined}/>,
   prep:bike?<RacePrepBlock account={session.user.id} bike={bike} onOpen={()=>setPrepOpen(true)}/>:null,
@@ -114,14 +116,15 @@ function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,s
  };
  return <Page title=""><View style={{gap:10,paddingTop:6}}><Text style={{color:colors.text,fontWeight:'900',fontStyle:'italic',fontSize:34,lineHeight:38,letterSpacing:-1.2}}>Know what works.{'\n'}<Text style={{color:'#7a8291'}}>Before your next ride.</Text></Text><Copy>Tell BAK what the bike is doing, the way you’d tell your buddy.</Copy></View>
  <WhatsNewCard account={session.user.id}/>
+ {upcoming&&bike&&<RaceCountdown account={session.user.id} bike={bike} race={race} onPrep={()=>setPrepOpen(true)} onEnd={end} onOpenChat={openChat}/>}
  {layout.filter(b=>b.on).map(b=><React.Fragment key={b.id}>{blocks[b.id]}</React.Fragment>)}
  <View style={{flexDirection:'row',justifyContent:'space-between',paddingTop:4}}>
-  {bike?<Pressable accessibilityRole="button" onPress={()=>setStarting(true)} hitSlop={6} style={{flexDirection:'row',alignItems:'center',gap:6}}><Icon name="flag" size={17} color={colors.accent}/><Text style={{color:colors.accent,fontSize:15,fontWeight:'700'}}>Race day</Text></Pressable>:<View/>}
+  {bike?<Pressable accessibilityRole="button" onPress={()=>setStarting(true)} hitSlop={6} style={{flexDirection:'row',alignItems:'center',gap:6}}><Icon name="flag" size={17} color={colors.accent}/><Text style={{color:colors.accent,fontSize:15,fontWeight:'700'}}>{upcoming?'Change race':'Race day'}</Text></Pressable>:<View/>}
   <Pressable accessibilityRole="button" onPress={()=>setEditing(true)} hitSlop={6}><Text style={{color:colors.muted,fontSize:15}}>Edit Home</Text></Pressable>
  </View>
  {bike&&<RacePrepSheet visible={prepOpen} onClose={()=>setPrepOpen(false)} account={session.user.id} bike={bike}/>}
  <HomeEditor visible={editing} layout={layout} onChange={save} onReset={reset} onClose={()=>setEditing(false)}/>
- {bike&&<RaceDayStart visible={starting} bike={bike} bikes={bikes} onSwitch={select} onClose={()=>setStarting(false)} onStart={t=>{start(t);setStarting(false);}}/>}
+ {bike&&<RaceDayStart visible={starting} bike={bike} bikes={bikes} onSwitch={select} onClose={()=>setStarting(false)} onStart={(t,d,w)=>{start(t,d,w);setStarting(false);}}/>}
  </Page>}
 type Coverage={specs:number;suspension_settings:number;torque_values:number;parts_catalog:{complete:boolean;part_count:number}|null;workshop_guides:number};
 function BikeReadiness({bike,onEdit}:{bike:Bike;onEdit?:(open:'edit'|'build')=>void}){const[coverage,setCoverage]=useState<Coverage|null>(null);const progress=buildProgress(bike);useEffect(()=>{let live=true;setCoverage(null);api<Coverage>(`/api/coverage?bike_id=${bike.id}`).then(r=>{if(live)setCoverage(r);}).catch(()=>{});return()=>{live=false;};},[bike.id,bike.updated_at]);
@@ -201,6 +204,8 @@ function ChatForBike({route}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  const alive=useAlive(),refreshVersion=useRef(createRequestGate()),sending=useRef(false),request=useRef<{id:string;text:string;conversation:string}|null>(readProgress(session.user.id,`chat-request-${bike?.id??'none'}`,null));
  function rememberRequest(value:{id:string;text:string;conversation:string}|null){try{writeProgress(session.user.id,`chat-request-${bike?.id??'none'}`,value);request.current=value;}catch{if(value)throw new Error('This device could not save the question for safe retry. Free some storage and try again.');request.current=null;setNotice('Your answer is available, but this device could not clear its saved retry record. Refresh history before resending.');}}
  useEffect(()=>{if(route.params?.mode&&!sending.current)setMode(route.params.mode);},[route.params?.mode]);
+ // Opened from a race setup: show that conversation.
+ useEffect(()=>{const p=route.params;if(!p?.thread||!p.threadToken||usedLinkTokens.has(p.threadToken)||sending.current)return;usedLinkTokens.add(p.threadToken);refreshVersion.current.invalidate();setId(p.thread);setMessages([]);setNotice('');},[route.params?.threadToken]);
  const appliedContext=useRef(readProgress(session.user.id,`chat-context-token-${bike?.id??'none'}`,''));
  useEffect(()=>{const params=route.params;if(!bike||!params?.context||!params.contextToken||params.contextBikeId!==bike.id||sending.current||appliedContext.current===params.contextToken)return;const next=appendWorkshopContext(draft,params.context);if(!setDraft(next))return;appliedContext.current=params.contextToken;try{writeProgress(session.user.id,`chat-context-token-${bike.id}`,params.contextToken);}catch{setNotice('Workshop context was added, but its receipt could not save on this device.');}if(next.length>8000)setNotice('Your draft and workshop context are preserved. Shorten the message to 8,000 characters before sending.');},[route.params?.contextToken,busy,bike?.id]);
  const refresh=useCallback(async()=>{if(!id||sending.current||!alive.current)return;const version=refreshVersion.current.begin();try{const r=await api<Message[]>(`/api/messages?conversation_id=${id}`);if(alive.current&&refreshVersion.current.accepts(version))setMessages(r);}catch(e){if(alive.current&&refreshVersion.current.accepts(version))setNotice(errorText(e));}},[id,alive]);

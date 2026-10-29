@@ -4,14 +4,18 @@ import React,{useCallback,useEffect,useState} from 'react';
 import {Modal,ScrollView,Switch,Text,TextInput,View} from 'react-native';
 import {useFocusEffect} from '@react-navigation/native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
-import type {Bike,ServiceEvent} from '../../../shared/types';
+import type {Bike,ServiceEvent,Conversation,EngineeringResponse} from '../../../shared/types';
+import {AI_CONSENT_VERSION} from '../../../shared/ai-consent';
+import {randomUUID} from 'expo-crypto';
+import {DateField,rideDays} from './DateSheet';
 import {EVENT_TYPE_LABELS,SETUP_RESULT_LABELS,type RideEvent,type SetupLog,type SetupResult} from '../../../shared/rider-types';
-import {api} from './api';
+import {api,apiStream} from './api';
 import {readProgress,writeProgress} from './localProgress';
 import {Pressable} from './Touch';
 import {Button,Card,Copy,Eyebrow,Icon,MetalMark,Notice,colors,tint,type IconName} from './ui';
 import {success} from './haptics';
-import {RacePrepCard,RacePrepSheet} from './RacePrep';
+import {RacePrepCard,RacePrepSheet,useRacePrep,Progress} from './RacePrep';
+import {setRaceWidget} from './widgets/sync';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
 /** The rider's own calendar day (not UTC), so an evening practice still counts as today. */
@@ -132,13 +136,99 @@ export function CoachingBlock({bike,onOpen}:{bike:Bike;onOpen:()=>void}){
 }
 
 // ------------------------------------------------------------------ race day
-export type RaceDay={on:boolean;track:string;day:string};
-/** Today's race day, if one is running. Read fresh each time so Ask BAK sees it as soon as it starts. */
-export function readRaceDay(account:string):RaceDay|null{const r=readProgress<RaceDay|null>(account,'race-day',null);return r&&r.on&&r.day===today()?r:null;}
+/** A race the rider set up: the track, the date (today or ahead) and whether the Home Screen widget counts down to it. */
+export type RaceDay={on:boolean;track:string;day:string;widget?:boolean};
+const OFF:RaceDay={on:false,track:'',day:''};
+/** The rider's race, today or still ahead; a past one is over. Read fresh each time so other screens see it at once. */
+export function readRace(account:string):RaceDay|null{const r=readProgress<RaceDay|null>(account,'race-day',null);return r&&r.on&&typeof r.day==='string'&&r.day>=today()?r:null;}
+/** Today's race day, if one is running (Ask BAK's race mode). */
+export function readRaceDay(account:string):RaceDay|null{const r=readRace(account);return r&&r.day===today()?r:null;}
+export const daysToGo=(day:string)=>{const [y,m,d]=day.split('-').map(Number);const t=new Date();t.setHours(0,0,0,0);return Math.round((new Date(y,m-1,d).getTime()-t.getTime())/864e5);};
+export const whenText=(day:string)=>{const n=daysToGo(day);return n<=0?'Today':n===1?'Tomorrow':`In ${n} days`;};
 export function useRaceDay(account:string){
- const [race,setRace]=useState<RaceDay>(()=>readRaceDay(account)??{on:false,track:'',day:''});
+ const [race,setRace]=useState<RaceDay>(()=>readRace(account)??OFF);
+ // Tabs stay mounted: re-read on focus so a race that passed or started elsewhere shows right.
+ useFocusEffect(useCallback(()=>{const r=readRace(account)??OFF;setRace(old=>old.on===r.on&&old.day===r.day&&old.track===r.track&&old.widget===r.widget?old:r);},[account]));
  const save=(r:RaceDay)=>{setRace(r);try{writeProgress(account,'race-day',r);}catch{}};
- return {race,start:(track:string)=>save({on:true,track:track.trim(),day:today()}),end:()=>save({on:false,track:'',day:''})};
+ return {race,isToday:race.on&&race.day===today(),upcoming:race.on&&race.day>today(),
+  start:(track:string,day:string=today(),widget=true)=>save({on:true,track:track.trim(),day,widget}),end:()=>save(OFF)};
+}
+
+// ------------------------------------------------------------------ BAK's starting setup for the race
+type RaceSetup={key:string;at:string;summary:string;answer:string;changes:{setting:string;change:string;expect:string;go_back_if:string}[];next:string;conversation:string};
+const setupKey=(bike:Bike,track:string,day:string)=>`${bike.id}|${track.trim().toLowerCase()}|${day}`;
+/** BAK works out a starting setup for this track, date and forecast from what is on the bike now. Saved on the phone. */
+export function RaceSetupCard({account,bike,track,day,onOpenChat}:{account:string;bike:Bike;track:string;day:string;onOpenChat:(conversation:string)=>void}){
+ const key=setupKey(bike,track,day);
+ const [saved,setSaved]=useState<RaceSetup|null>(()=>{const r=readProgress<RaceSetup|null>(account,'race-setup',null);return r&&r.key===key?r:null;});
+ const [live,setLive]=useState<{summary:string;answer:string}|null>(null),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
+ useEffect(()=>{const r=readProgress<RaceSetup|null>(account,'race-setup',null);setSaved(r&&r.key===key?r:null);},[account,key]);
+ const consent=readProgress<boolean>(account,'ai-consent-'+AI_CONSENT_VERSION,false)===true;
+ const away=daysToGo(day);
+ // The forecast only exists inside a week; a setup made before that is worth refreshing once it does.
+ const stale=!!saved&&away<=6&&daysToGo(saved.at.slice(0,10))>-1&&(Date.parse(day)-Date.parse(saved.at))/864e5>6.5;
+ async function get(){
+  if(busy)return;if(!consent){setNotice('Open Ask BAK once and agree to the AI terms, then come back.');return;}
+  setBusy(true);setNotice('');setLive({summary:'',answer:''});
+  try{
+   const conv=await api<Conversation>('/api/conversations','POST',{bike_id:bike.id,title:`Race setup · ${track||'track'} · ${day}`.slice(0,100),mode:'setup',create_id:randomUUID()});
+   const when=new Date(day+'T12:00:00').toLocaleDateString('en-US',{weekday:'long',month:'short',day:'numeric'});
+   const r=await apiStream<{response:EngineeringResponse}>('/api/chat',{conversation_id:conv.id,request_id:randomUUID(),message:`Starting setup for ${track||'my next race'} on ${when}. Work it out for the track and the conditions, starting from what's on my bike now.`.slice(0,8000),race:{...(track?{track:track.slice(0,120)}:{}),date:day,setup:true}},ev=>{if(ev.type==='draft')setLive({summary:String(ev.summary||''),answer:String(ev.answer||'')});});
+   const next:RaceSetup={key,at:new Date().toISOString(),summary:r.response.summary,answer:r.response.answer??'',changes:r.response.setup_changes??[],next:r.response.next_step?.action??'',conversation:conv.id};
+   setSaved(next);success();try{writeProgress(account,'race-setup',next);}catch{}
+  }catch(e){setNotice(errorText(e));}finally{setBusy(false);setLive(null);}
+ }
+ return <Card>
+  <View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={14}/><Eyebrow>BAK’S SETUP FOR {track?track.toUpperCase():'THIS RACE'}</Eyebrow></View>
+  {!saved&&!live&&<Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>BAK works out where to start for this track and day: the dirt and layout, the weather forecast once it’s within a week, and what’s on your bike now. {track?'':'Add the track for track info and weather. '}It may say your setup is already right.</Text>}
+  {live&&<View style={{gap:6}}>{!!live.summary&&<Text style={{color:colors.text,fontSize:16,fontWeight:'700',lineHeight:22}}>{live.summary}</Text>}{!!live.answer&&<Text style={{color:colors.text,fontSize:15,lineHeight:21}}>{live.answer}</Text>}<Text style={{color:'#8b93a1',fontSize:12.5}}>{live.summary||live.answer?'Writing… final checks run before it’s saved.':'Reading the track, the forecast and your bike…'}</Text></View>}
+  {saved&&!live&&<View style={{gap:10}}>
+   <Text style={{color:colors.text,fontSize:16,fontWeight:'700',lineHeight:22}}>{saved.summary}</Text>
+   {saved.changes.length>0?saved.changes.map((c,i)=><View key={i} style={{gap:2,borderLeftWidth:3,borderLeftColor:colors.accent,paddingLeft:10}}>
+    <Text style={{color:'#9aa2ae',fontSize:11.5,fontWeight:'800',letterSpacing:0.8}}>{c.setting.toUpperCase()}</Text>
+    <Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>{c.change}</Text>
+    {!!c.expect&&<Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>{c.expect}</Text>}
+   </View>):<Text style={{color:'#7fd09a',fontSize:14.5,fontWeight:'700'}}>Keep what’s on the bike.</Text>}
+   {!!saved.answer&&<Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>{saved.answer}</Text>}
+   {!!saved.next&&<Text style={{color:colors.text,fontSize:14,lineHeight:20}}><Text style={{fontWeight:'700'}}>First practice: </Text>{saved.next}</Text>}
+   <Text style={{color:'#6f7784',fontSize:12}}>Worked out {new Date(saved.at).toLocaleDateString('en-US',{month:'short',day:'numeric'})} at {new Date(saved.at).toLocaleTimeString([],{hour:'numeric',minute:'2-digit'})}{stale?' · the forecast is out now, refresh it':''}</Text>
+  </View>}
+  <Notice text={notice}/>
+  <View style={{flexDirection:'row',gap:18,alignItems:'center'}}>
+   <Pressable accessibilityRole="button" disabled={busy} onPress={()=>void get()} hitSlop={6}><Text style={{color:colors.accent,fontSize:15,fontWeight:'700',opacity:busy?0.5:1}}>{busy?'Working it out…':saved?'Refresh':'Get BAK’s setup'}</Text></Pressable>
+   {saved&&!busy&&<Pressable accessibilityRole="button" onPress={()=>onOpenChat(saved.conversation)} hitSlop={6}><Text style={{color:colors.muted,fontSize:15}}>Ask about it</Text></Pressable>}
+  </View>
+ </Card>;
+}
+
+/** Keeps the widget's race countdown in step with the race and the prep list (off when the rider turned it off). */
+export function useRaceWidget(account:string,bike:Bike|undefined,race:RaceDay){
+ const {list,checks}=useRacePrep(account,bike);
+ const before=list.filter(i=>i.phase!=='after'),done=before.filter(i=>checks[i.id]).length;
+ const show=race.on&&race.widget!==false&&race.day>=today();
+ useEffect(()=>{setRaceWidget(show?{track:race.track,day:race.day,done,total:before.length}:null);},[show,race.track,race.day,done,before.length]);
+}
+
+/** Home before the race: the countdown, BAK's setup for it and the prep list. */
+export function RaceCountdown({account,bike,race,onPrep,onEnd,onOpenChat}:{account:string;bike:Bike;race:RaceDay;onPrep:()=>void;onEnd:()=>void;onOpenChat:(c:string)=>void}){
+ const {list,checks}=useRacePrep(account,bike);
+ const before=list.filter(i=>i.phase!=='after'),done=before.filter(i=>checks[i.id]).length;
+ const n=daysToGo(race.day),date=new Date(race.day+'T12:00:00').toLocaleDateString('en-US',{weekday:'long',month:'short',day:'numeric'});
+ return <>
+  <Card>
+   <View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="flag" size={16} color={colors.accent}/><Eyebrow>NEXT RACE</Eyebrow></View>
+   <View style={{flexDirection:'row',alignItems:'flex-end',gap:14}}>
+    <View style={{alignItems:'center'}}><Text style={{color:colors.text,fontSize:44,fontWeight:'900',fontStyle:'italic',letterSpacing:-1.5,lineHeight:48}}>{n}</Text><Text style={{color:colors.muted,fontSize:12,fontWeight:'700',letterSpacing:1}}>{n===1?'DAY':'DAYS'}</Text></View>
+    <View style={{flex:1,gap:2,paddingBottom:4}}><Text style={{color:colors.text,fontSize:21,fontWeight:'800'}} numberOfLines={2}>{race.track||'Race day'}</Text><Text style={{color:colors.muted,fontSize:14}}>{date}</Text></View>
+   </View>
+   {before.length>0&&<Pressable accessibilityRole="button" onPress={onPrep} style={{gap:5}}>
+    <View style={{flexDirection:'row',justifyContent:'space-between'}}><Text style={{color:colors.text,fontSize:14.5,fontWeight:'600'}}>Prep</Text><Text style={{color:colors.muted,fontSize:13}}>{done} of {before.length} ready</Text></View>
+    <Progress done={done} total={before.length}/>
+   </Pressable>}
+  </Card>
+  <RaceSetupCard account={account} bike={bike} track={race.track} day={race.day} onOpenChat={onOpenChat}/>
+  <Pressable accessibilityRole="button" onPress={onEnd} style={{alignSelf:'flex-start'}} hitSlop={6}><Text style={{color:colors.muted,fontSize:14.5}}>Cancel this race</Text></Pressable>
+ </>;
 }
 
 const CHANGES=['Fork compression','Fork rebound','Shock low-speed','Shock high-speed','Shock rebound','Sag','Front tire','Rear tire','Fork height','Other'];
@@ -147,7 +237,7 @@ const config=(b:Bike,k:string)=>{const v=b.configuration?.[k];return v==null||v=
 /** The race-day Home: today's setup, the between-motos check, a fast change log and today's entries. */
 /** What riders feel between motos, in their words. One tap sends it to BAK in race mode. */
 const QUICK=['Front pushes in turns','Front harsh on braking bumps','Rear kicks on braking bumps','Rear squats out of turns','Bottoms on jumps','Harsh on landings','Headshake on the straights','Won’t hold the rut','No rear hookup','Bogs out of turns'];
-export function RaceDayHome({bike,account,track,onEnd,onAsk,onQuick}:{bike:Bike;account:string;track:string;onEnd:()=>void;onAsk:(text:string)=>void;onQuick:(text:string)=>void}){
+export function RaceDayHome({bike,account,track,onEnd,onAsk,onQuick,onOpenChat}:{bike:Bike;account:string;track:string;onEnd:()=>void;onAsk:(text:string)=>void;onQuick:(text:string)=>void;onOpenChat:(c:string)=>void}){
  const [prepOpen,setPrepOpen]=useState(false);
  const [logs,setLogs]=useState<SetupLog[]>([]),[moto,setMoto]=useState('Moto 1'),[what,setWhat]=useState(''),[detail,setDetail]=useState(''),[result,setResult]=useState<SetupResult>('not_tested'),[note,setNote]=useState(''),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
  const load=useCallback(async()=>{try{const all=await api<SetupLog[]>(`/api/setup-logs?bike_id=${bike.id}`);setLogs(all.filter(l=>dayOf(new Date(l.recorded_at))===today()));}catch(e){setNotice(errorText(e));}},[bike.id]);
@@ -170,7 +260,8 @@ export function RaceDayHome({bike,account,track,onEnd,onAsk,onQuick}:{bike:Bike;
    <Text style={{color:colors.text,fontSize:30,fontWeight:'900',fontStyle:'italic',letterSpacing:-1}}>{track||'Track day'}</Text>
    <Text style={{color:colors.muted,fontSize:14}}>{bike.model_year} {bike.manufacturer} {bike.model}{bike.engine_hours!=null?` · ${bike.engine_hours} h`:''}</Text>
   </View>
-  <Card><Eyebrow>TODAY’S SETUP</Eyebrow>
+  <RaceSetupCard account={account} bike={bike} track={track} day={today()} onOpenChat={onOpenChat}/>
+  <Card><Eyebrow>ON YOUR BIKE NOW</Eyebrow>
    {known.length?<View style={{flexDirection:'row',flexWrap:'wrap',rowGap:12}}>{known.map(([k,v])=><View key={k} style={{width:'50%',gap:2}}><Text style={{color:'#9aa2ae',fontSize:12}}>{k}</Text><Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{v}</Text></View>)}</View>
    :<Copy>Your clickers, sag and tire pressures show here once they’re in Garage › Edit details.</Copy>}
   </Card>
@@ -204,11 +295,11 @@ export function RaceDayHome({bike,account,track,onEnd,onAsk,onQuick}:{bike:Bike;
 
 /** Starts race day: shows the bike it's for (switchable) and asks which track, with one-tap picks from the rider's recent
  *  setup-log tracks and the events they're going to. */
-export function RaceDayStart({visible,bike,bikes,onSwitch,onStart,onClose}:{visible:boolean;bike:Bike;bikes:Bike[];onSwitch:(id:string)=>void;onStart:(track:string)=>void;onClose:()=>void}){
- const [track,setTrack]=useState(''),[picks,setPicks]=useState<string[]>([]),[choosing,setChoosing]=useState(false);const insets=useSafeAreaInsets();
- useEffect(()=>{if(!visible)return;let live=true;setTrack('');setChoosing(false);
+export function RaceDayStart({visible,bike,bikes,onSwitch,onStart,onClose}:{visible:boolean;bike:Bike;bikes:Bike[];onSwitch:(id:string)=>void;onStart:(track:string,day:string,widget:boolean)=>void;onClose:()=>void}){
+ const [day,setDay]=useState(today()),[widget,setWidget]=useState(true),[track,setTrack]=useState(''),[picks,setPicks]=useState<string[]>([]),[choosing,setChoosing]=useState(false);const insets=useSafeAreaInsets();
+ useEffect(()=>{if(!visible)return;let live=true;setTrack('');setDay(today());setChoosing(false);
   Promise.all([api<SetupLog[]>(`/api/setup-logs?bike_id=${bike.id}`).catch(()=>[] as SetupLog[]),api<RideEvent[]>('/api/events?scope=upcoming').catch(()=>[] as RideEvent[])]).then(([logs,events])=>{
-   const soon=events.filter(e=>!e.canceled_at&&(e.my_rsvp==='going'||e.mine)&&Date.parse(e.starts_at)-Date.now()<3*864e5).map(e=>e.location_name);
+   const soon=events.filter(e=>!e.canceled_at&&(e.my_rsvp==='going'||e.mine)&&Date.parse(e.starts_at)-Date.now()<30*864e5).map(e=>e.location_name);
    const seen=new Set<string>(),list=[...soon,...logs.map(l=>l.track)].map(t=>t.trim()).filter(t=>t&&!seen.has(t.toLowerCase())&&!!seen.add(t.toLowerCase()));
    if(live)setPicks(list.slice(0,6));});
   return()=>{live=false;};},[visible,bike.id]);
@@ -216,7 +307,7 @@ export function RaceDayStart({visible,bike,bikes,onSwitch,onStart,onClose}:{visi
  return <Modal visible={visible} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
   <ScrollView keyboardShouldPersistTaps="handled" style={{flex:1,backgroundColor:colors.bg}} contentContainerStyle={{padding:20,paddingBottom:insets.bottom+20,gap:18}}>
    <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><Text style={{color:colors.text,fontSize:26,fontWeight:'900',fontStyle:'italic'}}>Race day</Text><Pressable accessibilityRole="button" onPress={onClose} hitSlop={8}><Text style={{color:colors.muted,fontSize:16}}>Cancel</Text></Pressable></View>
-   <Copy>Home becomes your track-day screen: today’s setup, a between-motos check and a quick change log. It ends by itself tomorrow.</Copy>
+   <Copy>Pick the track and the day. BAK works out a starting setup for that track and the forecast, and Home counts down with your prep list. On the day, Home becomes your track-day screen: quick ask, a change log and today’s entries. It ends by itself the day after.</Copy>
    <View style={{gap:8}}>
     <Text style={{color:'#adb5c1',fontSize:12.5,fontWeight:'600'}}>Bike</Text>
     <View style={{flexDirection:'row',alignItems:'center',gap:10}}>
@@ -231,7 +322,14 @@ export function RaceDayStart({visible,bike,bikes,onSwitch,onStart,onClose}:{visi
     <TextInput value={track} onChangeText={setTrack} maxLength={120} placeholder={picks.length?'Or type the track name':'Track name, e.g. Dade City MX'} placeholderTextColor="#7d8593" autoCapitalize="words" style={{color:colors.text,fontSize:18,fontWeight:'600',borderBottomWidth:1,borderBottomColor:colors.accent,paddingVertical:10}}/>
     <Text style={{color:'#7d8593',fontSize:12.5}}>Optional. It goes on each change you log today, so you can find what worked at this track next time.</Text>
    </View>
-   <Button title="Start race day" onPress={()=>{onStart(track);setTrack('');}}/>
+   <View style={{gap:8}}>
+    <DateField label="Race day" value={day} onChange={v=>setDay(v&&v>=today()?v:today())} years={[new Date().getFullYear(),new Date().getFullYear()+1]} quick={rideDays()}/>
+   </View>
+   <View style={{flexDirection:'row',alignItems:'center',gap:12}}>
+    <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16,fontWeight:'600'}}>Countdown on the widget</Text><Text style={{color:'#7d8593',fontSize:12.5}}>Days to go and your prep progress on the BAK MX Home Screen widget.</Text></View>
+    <Switch value={widget} onValueChange={setWidget}/>
+   </View>
+   <Button title={day===today()?'Start race day':'Set up this race'} onPress={()=>{onStart(track,day,widget);setTrack('');}}/>
   </ScrollView>
  </Modal>;
 }

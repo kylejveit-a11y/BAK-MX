@@ -5,7 +5,7 @@ import {matchTracks,type TrackName} from '../shared/track-match.ts';
  *  any read failure returns nothing so the answer is never blocked. */
 export type TrackProfile={id:string;name:string;city:string|null;state:string;status:string;access:string;types:string[];tracks_on_site:string[];
  soil:Record<string,unknown>;layout:Record<string,unknown>;conditions:Record<string,unknown>;rider_reports:{says:string;source_type?:string;date?:string|null}[];
- confidence:string;gaps:string[];elevation_ft:number|null;race?:{date:string;kind:string;days_away:number}};
+ confidence:string;gaps:string[];elevation_ft:number|null;lat?:number|null;lng?:number|null;race?:{date:string;kind:string;days_away:number}};
 
 let names:{at:number;rows:TrackName[]}|null=null;
 async function trackNames(db:SupabaseClient):Promise<TrackName[]>{
@@ -14,7 +14,7 @@ async function trackNames(db:SupabaseClient):Promise<TrackName[]>{
  if(error||!Array.isArray(data))return names?.rows??[];
  names={at:Date.now(),rows:data as TrackName[]};return names.rows;
 }
-const FIELDS='id,name,city,state,status,access,types,tracks_on_site,soil,layout,conditions,rider_reports,confidence,gaps,elevation_ft';
+const FIELDS='id,name,city,state,status,access,types,tracks_on_site,soil,layout,conditions,rider_reports,confidence,gaps,elevation_ft,lat,lng';
 const shape=(r:Record<string,unknown>):TrackProfile=>({...(r as unknown as TrackProfile),
  // Riders get what riders said and when; the links stay on file for review, not in the briefing.
  rider_reports:((r.rider_reports as {says:string;source_type?:string;date?:string|null}[])??[]).slice(0,8).map(x=>({says:x.says,source_type:x.source_type,date:x.date??null}))});
