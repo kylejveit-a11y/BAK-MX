@@ -34,6 +34,7 @@ import {api,configured,supabase,ApiError} from './api';
 import {applyTheme,motion} from './theme';
 import {setHapticsEnabled} from './haptics';
 import {RacePlate} from './RacePlate';
+import {RacePrepSheet} from './RacePrep';
 import {HomeEditor,useHomeLayout,useRaceDay,RaceDayHome,RaceDayStart,ServiceDueBlock,LastSetupBlock,EventsBlock,CoachingBlock,type HomeBlock} from './HomeBlocks';
 import {themeFor,allThemes,type ThemeMode} from '../../../shared/brand-theme';
 import {MetalMark,MetalBubble,BlueFace,blueLift,Button,Card,Copy,Field,Notice,Page,PageTitle,Select,colors,tint,Brand,Eyebrow,Chip,Tile,TileGrid,AskBar,LinkAction,Icon,type IconName} from './ui';
@@ -96,7 +97,7 @@ function EventsTab({navigation}:BottomTabScreenProps<Tabs,'Events'>){return <Eve
 function MessagesTab({navigation,route}:BottomTabScreenProps<Tabs,'Messages'>){return <MessagesScreen startWith={route.params?.rider} onStarted={()=>navigation.setParams({rider:undefined})}/>;}
 function WorkshopJob({navigation}:BottomTabScreenProps<Tabs,'Workshop'>){const{bike,session}=useContext(Ctx);return <WorkshopScreen bike={bike} ownerId={session.user.id} onAsk={context=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',context:`Help me with this workshop step on my ${bike.model_year} ${bike.manufacturer} ${bike.model}, ${bike.variant}, ${bike.region}.\n\n${context}`,contextToken:randomUUID(),contextBikeId:bike.id});}}/>;}
 function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,session,bikesLoaded,select}=useContext(Ctx);
- const {layout,save,reset}=useHomeLayout(session.user.id),{race,start,end}=useRaceDay(session.user.id),[editing,setEditing]=useState(false),[starting,setStarting]=useState(false);
+ const {layout,save,reset}=useHomeLayout(session.user.id),{race,start,end}=useRaceDay(session.user.id),[editing,setEditing]=useState(false),[starting,setStarting]=useState(false),[prepOpen,setPrepOpen]=useState(false);
  const ask=(text:string)=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',context:text,contextToken:randomUUID(),contextBikeId:bike.id});};
  if(race.on&&bike)return <Page title=""><RaceDayHome bike={bike} account={session.user.id} track={race.track} onEnd={end} onAsk={ask}/><AskBar onPress={()=>navigation.navigate('Ask BAK')} onSnap={()=>navigation.navigate('Ask BAK',{camera:randomUUID()})}/></Page>;
  const blocks:Record<HomeBlock,React.ReactNode>={
@@ -112,9 +113,10 @@ function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,s
  <WhatsNewCard account={session.user.id}/>
  {layout.filter(b=>b.on).map(b=><React.Fragment key={b.id}>{blocks[b.id]}</React.Fragment>)}
  <View style={{flexDirection:'row',justifyContent:'space-between',paddingTop:4}}>
-  {bike?<Pressable accessibilityRole="button" onPress={()=>setStarting(true)} hitSlop={6} style={{flexDirection:'row',alignItems:'center',gap:6}}><Icon name="flag" size={17} color={colors.accent}/><Text style={{color:colors.accent,fontSize:15,fontWeight:'700'}}>Race day</Text></Pressable>:<View/>}
+  {bike?<View style={{flexDirection:'row',gap:20}}><Pressable accessibilityRole="button" onPress={()=>setStarting(true)} hitSlop={6} style={{flexDirection:'row',alignItems:'center',gap:6}}><Icon name="flag" size={17} color={colors.accent}/><Text style={{color:colors.accent,fontSize:15,fontWeight:'700'}}>Race day</Text></Pressable><Pressable accessibilityRole="button" onPress={()=>setPrepOpen(true)} hitSlop={6}><Text style={{color:colors.accent,fontSize:15,fontWeight:'700'}}>Race prep</Text></Pressable></View>:<View/>}
   <Pressable accessibilityRole="button" onPress={()=>setEditing(true)} hitSlop={6}><Text style={{color:colors.muted,fontSize:15}}>Edit Home</Text></Pressable>
  </View>
+ {bike&&<RacePrepSheet visible={prepOpen} onClose={()=>setPrepOpen(false)} account={session.user.id} bike={bike}/>}
  <HomeEditor visible={editing} layout={layout} onChange={save} onReset={reset} onClose={()=>setEditing(false)}/>
  {bike&&<RaceDayStart visible={starting} bike={bike} bikes={bikes} onSwitch={select} onClose={()=>setStarting(false)} onStart={t=>{start(t);setStarting(false);}}/>}
  </Page>}

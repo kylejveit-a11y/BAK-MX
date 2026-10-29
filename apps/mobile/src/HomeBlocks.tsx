@@ -11,6 +11,7 @@ import {readProgress,writeProgress} from './localProgress';
 import {Pressable} from './Touch';
 import {Button,Card,Copy,Eyebrow,Icon,MetalMark,Notice,colors,tint,type IconName} from './ui';
 import {success} from './haptics';
+import {RacePrepCard,RacePrepSheet} from './RacePrep';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
 const today=()=>new Date().toISOString().slice(0,10);
@@ -135,15 +136,12 @@ export function useRaceDay(account:string){
  return {race,start:(track:string)=>save({on:true,track:track.trim(),day:today()}),end:()=>save({on:false,track:'',day:''})};
 }
 
-const CHECKS=['Tire pressures set cold','Fork air bled','Chain slack and lube','Spokes and axle nuts','Air filter clean','Fuel and oil level'];
 const CHANGES=['Fork compression','Fork rebound','Shock low-speed','Shock high-speed','Shock rebound','Sag','Front tire','Rear tire','Fork height','Other'];
 const config=(b:Bike,k:string)=>{const v=b.configuration?.[k];return v==null||v===''?'':String(v);};
 
 /** The race-day Home: today's setup, the between-motos check, a fast change log and today's entries. */
 export function RaceDayHome({bike,account,track,onEnd,onAsk}:{bike:Bike;account:string;track:string;onEnd:()=>void;onAsk:(text:string)=>void}){
- const checkKey=`race-checks-${today()}`;
- const [checked,setChecked]=useState<string[]>(()=>readProgress<string[]>(account,checkKey,[]));
- const toggle=(c:string)=>{const next=checked.includes(c)?checked.filter(x=>x!==c):[...checked,c];setChecked(next);try{writeProgress(account,checkKey,next);}catch{}};
+ const [prepOpen,setPrepOpen]=useState(false);
  const [logs,setLogs]=useState<SetupLog[]>([]),[moto,setMoto]=useState('Moto 1'),[what,setWhat]=useState(''),[detail,setDetail]=useState(''),[result,setResult]=useState<SetupResult>('not_tested'),[note,setNote]=useState(''),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
  const load=useCallback(async()=>{try{const all=await api<SetupLog[]>(`/api/setup-logs?bike_id=${bike.id}`);setLogs(all.filter(l=>l.recorded_at.slice(0,10)===today()));}catch(e){setNotice(errorText(e));}},[bike.id]);
  useEffect(()=>{void load();},[load]);
@@ -169,12 +167,8 @@ export function RaceDayHome({bike,account,track,onEnd,onAsk}:{bike:Bike;account:
    {known.length?<View style={{flexDirection:'row',flexWrap:'wrap',rowGap:12}}>{known.map(([k,v])=><View key={k} style={{width:'50%',gap:2}}><Text style={{color:'#9aa2ae',fontSize:12}}>{k}</Text><Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{v}</Text></View>)}</View>
    :<Copy>Your clickers, sag and tire pressures show here once they’re in Garage › Edit details.</Copy>}
   </Card>
-  <Card><Eyebrow>BETWEEN MOTOS · {checked.length}/{CHECKS.length}</Eyebrow>
-   {CHECKS.map(c=>{const on=checked.includes(c);return <Pressable key={c} haptic="select" accessibilityRole="checkbox" accessibilityState={{checked:on}} onPress={()=>toggle(c)} style={{flexDirection:'row',alignItems:'center',gap:12,paddingVertical:4}}>
-    <View style={{width:22,height:22,borderRadius:6,borderWidth:1.5,borderColor:on?colors.accent:'#4a515d',backgroundColor:on?tint(0.22):'transparent',alignItems:'center',justifyContent:'center'}}>{on&&<Icon name="check" size={14} color="#ffffff"/>}</View>
-    <Text style={{color:on?colors.muted:colors.text,fontSize:15.5,textDecorationLine:on?'line-through':'none'}}>{c}</Text></Pressable>;})}
-   {checked.length>0&&<Pressable accessibilityRole="button" onPress={()=>{setChecked([]);try{writeProgress(account,checkKey,[]);}catch{}}} hitSlop={6}><Text style={{color:colors.muted,fontSize:14}}>Clear for the next moto</Text></Pressable>}
-  </Card>
+  <RacePrepCard account={account} bike={bike} onOpen={()=>setPrepOpen(true)}/>
+  <RacePrepSheet visible={prepOpen} onClose={()=>setPrepOpen(false)} account={account} bike={bike} startPhase="motos"/>
   <Card><Eyebrow>LOG A CHANGE</Eyebrow>
    <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{['Practice','Moto 1','Moto 2','Moto 3'].map(m=>chip(m,moto===m,()=>setMoto(m)))}</View>
    <Text style={{color:'#adb5c1',fontSize:12.5,fontWeight:'600'}}>What did you change?</Text>

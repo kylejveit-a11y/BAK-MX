@@ -21,6 +21,8 @@ export const POST_CATEGORIES=['build','setup_question','ride_plan','general'] as
 export const EVENT_TYPES=['ride_day','race','practice','clinic','meetup'] as const;
 export const profileSchema=z.object({handle:z.string().trim().toLowerCase().regex(/^[a-z0-9_]{3,24}$/,'Use 3–24 lowercase letters, numbers or underscores'),display_name:optionalText(60),bio:optionalText(500),avatar_photo_id:z.string().uuid().nullable().optional(),location:optionalText(80),riding_class:optionalText(60),race_number:z.string().trim().regex(/^([0-9]{1,3})?$/,'Race number is 1 to 3 digits').optional(),accept_rules:z.literal(true).optional()}).strict();
 export const preferencesSchema=z.object({units:z.enum(['us','metric']),answer_length:z.enum(['quick','full']),tone:z.enum(['straight','encouraging'])}).strict();
+export const RACE_PHASES=['week','night','track','motos','after'] as const;
+export const raceChecklistSchema=z.object({items:z.array(z.object({id:z.string().trim().min(1).max(64),label:z.string().trim().min(1).max(80),phase:z.enum(RACE_PHASES),custom:z.boolean().optional()}).strict()).max(200).nullable()}).strict();
 export const DEFAULT_PREFERENCES={units:'us',answer_length:'full',tone:'straight'} as const;
 export const postSchema=z.object({category:z.enum(POST_CATEGORIES),body:text(4000),bike_label:optionalText(120),photo_ids:photoIds(4)}).strict();
 export const commentSchema=z.object({post_id:uuid,body:text(2000)}).strict();
@@ -102,6 +104,14 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
  if(path==='/api/preferences'){
   if(method==='GET'){const row=checked(await db.from('rider_preferences').select('units,answer_length,tone').eq('user_id',owner).maybeSingle()) as Row|null;return json(row??DEFAULT_PREFERENCES);}
   if(method==='PUT'){const data=preferencesSchema.parse(await readJson(req));const result=await db.from('rider_preferences').upsert({...data,user_id:owner,updated_at:new Date().toISOString()},{onConflict:'user_id'}).select('units,answer_length,tone').single();if(result.error)saveFailed(result.error,'');return json(result.data);}
+ }
+
+ // ---- Race prep checklist: the rider's own list (null = BAK's list for their riding)
+ if(path==='/api/race-checklist'){
+  if(method==='GET'){const row=checked(await db.from('rider_preferences').select('race_checklist').eq('user_id',owner).maybeSingle()) as Row|null;return json({items:row?.race_checklist??null});}
+  if(method==='PUT'){const data=raceChecklistSchema.parse(await readJson(req));screen(...(data.items??[]).filter(i=>i.custom).map(i=>i.label));
+   const result=await db.from('rider_preferences').upsert({user_id:owner,race_checklist:data.items,updated_at:new Date().toISOString()},{onConflict:'user_id'}).select('race_checklist').single();
+   if(result.error)saveFailed(result.error,'');return json({items:result.data.race_checklist??null});}
  }
 
  // ---- Community
