@@ -212,3 +212,39 @@ textarea.hb-input{resize:vertical;min-height:72px}
 }
 .tabs.garage-tabs button{border:0;border-radius:0;background:none;color:#9ea6b3;font-weight:700;box-shadow:none;border-bottom:2px solid transparent;margin-bottom:-1px}
 .tabs.garage-tabs button.active{color:#fff;background:none;border-bottom-color:var(--bike-accent)}
+
+/* Fixes from the 7-minute site recording (2026-10-30) */
+/* 1. Nothing on a phone may push the page wider than the screen (Workshop job pages did). */
+@media(max-width:760px){
+ html,body{overflow-x:hidden;max-width:100%}
+ .content,.content .panel{min-width:0;max-width:100%}
+ .content .panel *{min-width:0}
+ .content input,.content textarea,.content select{max-width:100%;box-sizing:border-box}
+ .workshop-phases{display:flex;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;gap:8px;margin:16px -2px;padding:0 2px 4px}
+ .workshop-phases::-webkit-scrollbar{display:none}
+ .workshop-phases button{flex:0 0 auto;max-width:150px;white-space:normal}
+ .content .form-grid{grid-template-columns:minmax(0,1fr)}
+ .content .button-row{flex-wrap:wrap}
+ .content .button-row .button{max-width:100%;white-space:normal}
+}
+.workshop-phases button.active{background:var(--bike-tint);color:#fff;border-color:var(--bike-accent)}
+/* 2. One mark per section heading, no stray box. */
+.hb-block-head .eyebrow::before,.rx-eyebrow-row .eyebrow::before{content:none;display:none}
+.rx-eyebrow-row .rx-mark{width:16px;height:3px;border-radius:2px;transform:skewX(-24deg);background:var(--metal,var(--bike-accent))}
+/* 3. Chat: the strip between the message box and the tab bar is solid, so the answer never shows through. */
+@media(max-width:760px){
+ body:has(.content.chat-page)::after{content:"";position:fixed;left:0;right:0;bottom:0;height:calc(var(--composer-h,150px) + 104px + env(safe-area-inset-bottom));background:linear-gradient(180deg,rgba(7,8,10,0),#07080a 22%);opacity:1;z-index:65;pointer-events:none;transition:none}
+ .shell:has(.composer textarea:focus) .content.chat-page~*,body:has(.composer textarea:focus)::after{opacity:1}
+ .shell .bottom-nav{z-index:75}
+}
+/* 4. Bike form: VIN gets the full row so the hint is readable. */
+.bike-editor .vin-field{grid-column:1/-1}
+/* 5. Manual upload: a real button instead of the browser's "Choose File". */
+.rider-manual-add{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.rider-manual-add input[type=file]{flex:1 1 100%;font-size:14px;color:#9ea6b3;padding:12px 14px;border:1px dashed #343a45;border-radius:14px;background:#0e1015}
+.rider-manual-add input[type=file]::file-selector-button,.rider-manual-add input[type=file]::-webkit-file-upload-button{margin-right:12px;padding:8px 14px;border:1px solid #343a45;border-radius:999px;background:#15171d;color:#f1f2f5;font:600 13px/1 inherit;cursor:pointer}
+/* 6. Disclosure arrows: the app's chevron, not a bare triangle. */
+.procedure-guide details>summary{list-style:none;display:flex;align-items:center;gap:8px;cursor:pointer}
+.procedure-guide details>summary::-webkit-details-marker{display:none}
+.procedure-guide details>summary::after{content:"";width:7px;height:7px;border-right:2px solid var(--bike-accent);border-bottom:2px solid var(--bike-accent);transform:rotate(45deg);margin-left:auto;transition:transform .2s}
+.procedure-guide details[open]>summary::after{transform:rotate(-135deg)}

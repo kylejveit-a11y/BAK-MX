@@ -51,7 +51,7 @@ function route(url,method,post){
  await page.route(/supabase\.co/,r=>{const u=r.request().url();if(u.includes('/auth/v1/user'))return r.fulfill(json(session.user));if(u.includes('/auth/v1/token'))return r.fulfill(json(session));return r.fulfill(json({}));});
  await page.route(/\/api\//,r=>{const req=r.request();let post=null;try{post=req.postDataJSON();}catch{}try{return r.fulfill(route(req.url(),req.method(),post));}catch(e){console.log('ROUTE FAIL',req.url(),String(e));return r.fulfill(json([]));}});
  const scroll=async(dy)=>{await page.evaluate(y=>window.scrollBy({top:y,behavior:'instant'}),dy);await page.waitForTimeout(350);};
- const shot=async(name)=>{await page.waitForTimeout(500);await page.screenshot({path:out+name+'.png'});};
+ const window_w=width;const wide=[];const shot=async(name)=>{await page.waitForTimeout(500);const w=await page.evaluate(()=>document.documentElement.scrollWidth);if(w>window_w)wide.push(name+':'+w);await page.screenshot({path:out+name+'.png'});};
  const tab=async(name)=>{await page.getByRole('navigation',{name:'Mobile navigation'}).getByRole('button',{name}).click();};
  await page.goto('http://localhost:4173/',{waitUntil:'networkidle'});
  await shot('01-home');await scroll(900);await shot('02-home-scrolled');await scroll(900);await shot('03-home-scrolled-2');await scroll(-3000);
@@ -65,7 +65,7 @@ function route(url,method,post){
  await tab('Events');await shot('40-events');
  const menu=async(label,name)=>{await scroll(-5000);await page.waitForTimeout(400);await page.getByRole('button',{name:'Open menu'}).click();await page.waitForTimeout(300);await page.getByRole('button',{name:label}).first().click();await shot(name);};
  await menu(/Service log/,'50-service-log');await menu(/Messages/,'51-messages');await menu(/^Setup/,'52-setup-log');await menu(/Account/,'53-account');await scroll(700);await shot('54-account-scrolled');
- await menu(/Know-how/,'55-know-how');await menu(/Specs/,'56-specs');
+ await menu(/Know-how/,'55-know-how');await menu(/Specs/,'56-specs');await menu(/Workshop/,'57-workshop');const job=page.locator('select').filter({hasText:/Choose a job/}).first();if(await job.count()){const v=await job.locator('option').nth(2).getAttribute('value');if(v){await job.selectOption(v);await shot('58-workshop-job');}}
  await tab('Home');const race=page.getByRole('button',{name:/Race day/}).first();if(await race.count()){await race.click();await shot('60-race-day-start');}
- console.log(JSON.stringify({errors,shots:fs.readdirSync(out).length}));await b.close();
+ console.log(JSON.stringify({errors,wide,shots:fs.readdirSync(out).length}));await b.close();
 })().catch(e=>{console.error(e);process.exit(1);});
