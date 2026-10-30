@@ -35,6 +35,9 @@ Yamaha:
 - `yamaha_specs_2020.py`, `build_yamaha_specs_2020.py`: the older ruled-table layout of the 2020 two-stroke manuals (USA market
   column only, Standard / Limit columns, mm values checked against their inch conversion) and the damper settings from the
   adjustment procedures. Same jobs file format.
+- `yamaha_torques.py`: the chapter 2 TIGHTENING TORQUES tables (engine, chassis, older-layout electrical) from the table rules,
+  every N·m value checked against its printed kgf·m and lb·ft, remarks and the torque-check mark kept in the path; `--build jobs outdir`
+  writes `stage_manual_rows` payloads (see `docs/research/expansion/gaps/yamaha-torques/REPORT.md`).
 - Yamaha's library lists manuals per model and year through the JSON endpoints its web app calls
   (`parts.yamaha-motor.co.jp/ypec_b2c/services/omb2c/model_year_list/` and `model_list/`, POST, `baseCode` 6150, `langId` 02).
 
