@@ -9,6 +9,7 @@ import {HttpError,readJson,uuid} from './validation.ts';
 import {objectionable} from './content-rules.ts';
 import {exactBikeScope} from '../shared/bike-identity.ts';
 import {trackDirectory} from './tracks.ts';
+import {buildServicePlan} from '../shared/service-plan.ts';
 import type {Bike} from '../shared/types.ts';
 
 /** Profile, community, events, messages, moderation, feedback, setup log and parts catalog.
@@ -101,6 +102,12 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
   return json({profile,posts:posts.map(({photo_ids,...p})=>({...p,photos:pick(plinks,photo_ids)})),bikes:await publicGarage(db,rider,owner),mine:rider===owner});
  }
 
+ // ---- Service plan: the maker's own schedule for this exact bike, as reminder suggestions
+ if(path==='/api/service-plan'&&method==='GET'){
+  const bike=checked(await db.from('bikes').select('*').eq('id',id('bike_id')).eq('user_id',owner).maybeSingle()) as Bike|null;if(!bike)throw new HttpError(404,'Bike not found');
+  const rows=checked(await db.from('claims').select('id,statement').match({...exactBikeScope(bike),status:'VERIFIED',domain:'maintenance'}).limit(400)) as {id:string;statement:string}[];
+  return json({items:buildServicePlan(rows),source:rows.length?'manufacturer schedule':null});
+ }
  // ---- Tracks BAK knows (race-day picker)
  if(path==='/api/tracks'&&method==='GET')return json(await trackDirectory(db as never));
 

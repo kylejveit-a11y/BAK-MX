@@ -30,6 +30,7 @@ import {finalDrive,sagPercent,gearingChange,speedKmh,displacementCc,springRateNm
 import {createAttempt} from '../../../shared/create-retry';
 import {TRIAL_BLOCKS,TRIAL_BLOCK_SIZE} from '../../../shared/plans';
 import {phaseForDaysOut} from '../../../shared/race-prep';
+import type {PlanItem} from '../../../shared/service-plan';
 import {bikeScope,chatScope,createRequestGate,selectedBikeId,validServiceDate,retryRequest,appendWorkshopContext} from './continuity';
 import {readProgress,writeProgress,useProgress,exportProgress,clearProgress} from './localProgress';
 import {api,apiStream,apiQueued,configured,supabase,ApiError,currentStore} from './api';
@@ -363,6 +364,7 @@ function MaintenanceForBike({openWorkshop}:{openWorkshop:()=>void}){const{bike,s
   <Button disabled={busy||!bike} title={busy?'Saving…':'Save service'} onPress={()=>void save()}/>
  </Card>:<StartRow icon="oil" title="Log service" detail="What you did and at how many hours" onPress={()=>setAdding(true)}/>}
  {due0&&<Card><Eyebrow>COMING UP</Eyebrow>{due0}</Card>}
+ {bike&&!adding&&<ServicePlanCard bike={bike} events={events} onLog={item=>{const h=bike.engine_hours;setCategory(item.category);setDate(new Date().toISOString().slice(0,10));setHours(h!=null?String(h):'');setDue(h!=null?String(Math.round((h+item.every_hours)*10)/10):'');setSource(`Maker’s schedule · every ${item.every_hours} h`);setAdding(true);}}/>}
  <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',paddingTop:4}}><Copy strong>History</Copy><Pressable accessibilityRole="button" accessibilityLabel="Refresh" disabled={busy||!bike} hitSlop={8} onPress={()=>void refresh().catch(e=>setNotice(errorText(e)))}><Icon name="refresh" size={20} color="#b2b9c4"/></Pressable></View>
  {events.length===0&&<Copy>Nothing logged yet. Log your first oil change or filter and BAK can tell you what's due.</Copy>}
  <TileGrid>{events.map(e=><ServiceRow key={e.id} e={e} hoursNow={bike?.engine_hours??null} onDelete={()=>Alert.alert('Delete service entry?','This entry will be permanently removed.',[{text:'Cancel',style:'cancel'},{text:'Delete',style:'destructive',onPress:()=>void api(`/api/services?id=${e.id}`,'DELETE').then(refresh).catch(err=>setNotice(errorText(err)))}])}/>)}</TileGrid>
@@ -384,6 +386,25 @@ const mxPage=(env:string|undefined,page:'privacy'|'terms'|'support')=>env&&/^htt
 /** Optional VIN: checks the picked year (and maker where the code is well known) against the frame. Stays on the rider's bike record; never sent to the AI. */
 function VinField({value,onChange,bike,disabled}:{value:string;onChange:(v:string)=>void;bike:{manufacturer:string;model_year:number};disabled?:boolean}){const check=checkVin(value,bike);return <View style={{gap:4}}><Field editable={!disabled} label="VIN (optional)" placeholder="17 characters, on the steering head" autoCapitalize="characters" autoCorrect={false} maxLength={20} value={value} onChangeText={v=>onChange(cleanVin(v))}/>{check&&<Text style={{color:check.level==='ok'?'#9fd3ae':check.level==='check'?'#e9c77b':'#f0b4bd',fontSize:13,lineHeight:18}}>{check.text}</Text>}</View>;}
 const SERVICE_QUICK=['Engine oil','Oil filter','Air filter','Spark plug','Valve check','Top end','Fork service','Shock service','Chain & sprockets','Brake pads','Coolant','Clutch'];
+/** The maker's own service schedule for this exact bike, as reminders: what's due next by the hours on the bike. */
+function ServicePlanCard({bike,events,onLog}:{bike:Bike;events:ServiceEvent[];onLog:(item:PlanItem)=>void}){
+ const [plan,setPlan]=useState<PlanItem[]|null>(null),[open,setOpen]=useState(false);
+ useEffect(()=>{let live=true;setPlan(null);api<{items:PlanItem[]}>(`/api/service-plan?bike_id=${bike.id}`).then(r=>{if(live)setPlan(r.items);}).catch(()=>{if(live)setPlan([]);});return()=>{live=false;};},[bike.id]);
+ if(!plan||!plan.length)return null;
+ const h=bike.engine_hours;
+ // Where each job stands: hours since it was last logged (or since new), against the maker's interval.
+ const rows=plan.map(item=>{const last=events.filter(e=>e.category===item.category&&e.engine_hours!=null).sort((a,b)=>(b.engine_hours??0)-(a.engine_hours??0))[0];const at=last?.engine_hours??0;const due=h!=null?(last?at+item.every_hours:(item.first_hours!=null&&h<item.first_hours+item.every_hours?item.first_hours:item.every_hours)):null;const left=due!=null&&h!=null?due-h:null;return {item,last,due,left};}).sort((a,b)=>(a.left??1e9)-(b.left??1e9));
+ const shown=open?rows:rows.slice(0,4);
+ return <Card>
+  <View style={{flexDirection:'row',alignItems:'center',gap:8}}><MetalMark width={14}/><Eyebrow>{bike.manufacturer.toUpperCase()}’S SCHEDULE FOR THIS BIKE</Eyebrow></View>
+  <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>From the owner’s manual service table. {h==null?'Add the hours on the bike in Garage to see what’s due.':'Log a job and the next one is set from the maker’s interval.'}</Text>
+  {shown.map(({item,last,due,left})=><View key={item.category} style={{flexDirection:'row',alignItems:'center',gap:12,paddingVertical:9,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#2a2f39'}}>
+   <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'600'}}>{item.category}</Text><Text style={{color:left!=null&&left<=0?'#ef9aa1':'#9aa2ae',fontSize:13}}>{`every ${item.every_hours} h`}{left!=null?` · ${left<=0?'due now':`${Math.round(left*10)/10} h to go`}`:''}{last?'':' · not logged yet'}{item.note?` · ${item.note}`:''}</Text></View>
+   <Pressable accessibilityRole="button" accessibilityLabel={`Log ${item.category}`} onPress={()=>onLog(item)} hitSlop={8} style={({pressed})=>({paddingHorizontal:12,paddingVertical:7,borderRadius:12,borderWidth:1,borderColor:'#3a414d',backgroundColor:'#1e232c',opacity:pressed?0.7:1})}><Text style={{color:colors.text,fontSize:13.5,fontWeight:'700'}}>Log it</Text></Pressable>
+  </View>)}
+  {rows.length>4&&<Pressable accessibilityRole="button" onPress={()=>setOpen(!open)} hitSlop={6}><Text style={{color:'#b2b9c4',fontSize:14,fontWeight:'600'}}>{open?'Show fewer':`Show all ${rows.length}`}</Text></Pressable>}
+ </Card>;
+}
 function ServiceRow({e,hoursNow,onDelete}:{e:ServiceEvent;hoursNow:number|null;onDelete:()=>void}){const [open,setOpen]=useState(false);const d=e.performed_at.slice(0,10);
  return <View style={{borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'#2a2f39'}}><Pressable accessibilityRole="button" accessibilityState={{expanded:open}} onPress={()=>setOpen(!open)} style={{paddingVertical:13,flexDirection:'row',alignItems:'center',gap:12}}>
   <View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:16,fontWeight:'600'}}>{e.category}</Text><Text style={{color:'#adb5c1',fontSize:13}}>{formatValue(d,false)||d} · {e.engine_hours??'?'} h{e.next_due_hours!==null?` · next at ${e.next_due_hours} h`:''}{isLocal(e.id)?' · waiting for signal':''}</Text></View>
