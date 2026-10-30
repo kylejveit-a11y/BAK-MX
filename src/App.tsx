@@ -13,6 +13,7 @@ import {createSubmission,finishCreate} from './createSubmission';
 import {RichText} from './RichText';
 import {BikeParts} from './BikeParts';
 import {Maintenance} from './Maintenance';
+import {SpecsPage} from './SpecsPage';
 import {RacePrepBlock as RacePrepList,RacePrepSheet} from './RacePrep';
 import {CoachingList} from './Coaching';
 import {BikePhotos} from './GaragePhotos';
@@ -130,7 +131,7 @@ export function App(){
  {page==='Setup'&&<Setup bike={bike} signedIn={!!session} onSignIn={()=>setAuth(true)} onGarage={()=>go('Garage')} onAsk={()=>{setGeneral(false);go('Ask BAK')}}/>}
  {page==='Workshop'&&<Suspense fallback={<p className="subtle" role="status">Loading workshop guides…</p>}><Workshop bike={bike} onGarage={()=>go('Garage')} onAsk={text=>{if(bike){setAskPrefill({id:crypto.randomUUID(),identity:buildIdentity(bike),text});go('Ask BAK');}}}/></Suspense>}
  {page==='Maintenance'&&<Maintenance bike={bike} onGarage={()=>go('Garage')} signedIn={!!session} onSignIn={()=>setAuth(true)}/>}
- {page==='Specs'&&<Specs bike={bike} onGarage={()=>go('Garage')}/>}
+ {page==='Specs'&&<SpecsPage key={bike?.id||'none'} bike={bike} onGarage={()=>go('Garage')}/>}
  {page==='Specs'&&!!session&&<PartsCatalog bike={bike}/>}
 {page==='Account'&&<ProfilePanel key={'profile-'+(session?.user.id||'none')} signedIn={!!session}/>}
  {page==='Account'&&<div className="account-sections">

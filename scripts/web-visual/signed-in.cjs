@@ -8,6 +8,8 @@ const out=(process.argv[2]||'/tmp/web-visual')+'/';const width=Number(process.ar
 fs.mkdirSync(out,{recursive:true});
 const json=(body,status=200)=>({status,contentType:'application/json',body:JSON.stringify(body)});
 function ndjson(events){return {status:200,headers:{'Content-Type':'application/x-ndjson'},body:events.map(e=>JSON.stringify(e)).join('\n')+'\n'};}
+const CL=(i,st,prop)=>({id:'cl'+i,manufacturer:'KTM',model:'450 SX-F',model_year:2025,variant:'standard',region:'US',domain:prop==='service_interval'?'maintenance':'specification',property:prop||'specification',statement:st,source_url:'https://example.invalid/manual.pdf',source_locator:'PDF page '+(100+i)+'; printed '+(98+i),status:'VERIFIED',has_conflict:false});
+const CLAIMS=[CL(1,'Capacities / Engine oil: 1.10 l (1.16 qt.); Engine oil (SAE 10W/50). Applies to the US standard model named.'),CL(2,'Engine / Valve clearance / Intake at: 0.10 … 0.15 mm (0.0039 … 0.0059 in). Applies to the US standard model named.'),CL(3,'Engine / Valve clearance / Exhaust at: 0.20 … 0.25 mm (0.0079 … 0.0098 in). Applies to the US standard model named.'),CL(4,'Shock absorber / Riding sag: 105 mm. Applies to the US standard model named.'),CL(5,'Shock absorber / Static sag: 35 mm. Applies to the US standard model named.'),CL(6,'Fork / Compression damping / Standard: 12 clicks. Counted counterclockwise.'),CL(7,'Fork / Rebound damping / Standard: 18 clicks. Counted counterclockwise.'),CL(8,'Shock absorber / Rebound damping / Standard: 15 clicks. Counted counterclockwise.'),CL(9,'Chassis / Offroad tire pressure / front: 1.0 bar (15 psi). Applies to the US standard model named.'),CL(10,'Chassis tightening torques / Nut, rear wheel spindle (M20x1.5): 80 Nm (59 lbf ft). Applies to the US standard model named.','torque'),CL(11,'Chassis tightening torques / Screw, front brake caliper (M8): 25 Nm (18.4 lbf ft); Loctite® 243. Applies to the US standard model named.','torque'),CL(12,'Engine tightening torques / Spark plug (M10x1): 10 … 12 Nm (7.4 … 8.9 lbf ft). Applies to the US standard model named.','torque'),CL(13,'Service schedule / Change the engine oil and the oil filter: every 10 operating hours. From the manufacturer service schedule.','service_interval'),CL(14,'Engine / Spark plug: NGK LMAR8DI-10. Applies to the US standard model named.'),CL(15,'Capacities / Coolant: 1.20 l (1.27 qt.); Coolant. Applies to the US standard model named.')];
 let sent=false;
 function route(url,method,post){
  const u=new URL(url),p=u.pathname,q=u.searchParams;
@@ -28,14 +30,15 @@ function route(url,method,post){
  if(p==='/api/threads')return json(M.threads);
  if(p==='/api/thread')return json({rider:M.threads[0].rider,messages:[{id:'t1',body:'See you at Dade Saturday?',created_at:new Date(Date.now()-7200000).toISOString(),mine:false}]});
  if(p==='/api/comments')return json([]);
- if(p==='/api/parts/catalog')return json({catalog:null,assemblies:[]});
+ if(p==='/api/parts/catalog')return json({catalog:{id:'pc',source:'KTM',source_url:'',scope_label:'',complete:true,assembly_count:8,part_count:300},assemblies:['FRONT FORK, TRIPLE CLAMP','SHOCK ABSORBER','SWING ARM','CYLINDER HEAD','CLUTCH','FRONT WHEEL','REAR BRAKE CALIPER','TANK, SEAT','HANDLEBAR, CONTROLS','EXHAUST SYSTEM','WP SHIMS FOR SETTING','TRANSMISSION II - COUNTERSHAFT'].map((n,i)=>({id:'a'+i,name:n,diagram_url:'',source_url:'',position:i}))});
  if(p==='/api/coaching')return json(M.coaching);
  if(p==='/api/race-checklist')return json(M.checklist);
  if(p==='/api/tracks')return json(M.tracks);
  if(p==='/api/photos')return json([]);
  if(p==='/api/garage-sharing')return json({show_on_profile:false,photo_ids:[],build_sheet_public:false});
  if(p==='/api/build-sheet')return json(null,404);
- if(p==='/api/claims'||p==='/api/specs')return json([]);
+ if(p==='/api/claims')return json(CLAIMS);
+ if(p==='/api/claims/search')return json(CLAIMS.filter(c=>c.statement.toLowerCase().includes((q.get('q')||'').toLowerCase().split(' ')[0])));
  if(p==='/api/parts-catalog'||p.startsWith('/api/parts'))return json(null,404);
  if(p==='/api/blocks')return json([]);
  if(p==='/api/reports')return json([]);
@@ -65,7 +68,7 @@ function route(url,method,post){
  await tab('Events');await shot('40-events');
  const menu=async(label,name)=>{await scroll(-5000);await page.waitForTimeout(400);await page.getByRole('button',{name:'Open menu'}).click();await page.waitForTimeout(300);await page.getByRole('button',{name:label}).first().click();await shot(name);};
  await menu(/Service log/,'50-service-log');await menu(/Messages/,'51-messages');await menu(/^Setup/,'52-setup-log');await menu(/Account/,'53-account');await scroll(700);await shot('54-account-scrolled');
- await menu(/Know-how/,'55-know-how');await menu(/Specs/,'56-specs');await menu(/Workshop/,'57-workshop');const job=page.locator('select').filter({hasText:/Choose a job/}).first();if(await job.count()){const v=await job.locator('option').nth(2).getAttribute('value');if(v){await job.selectOption(v);await shot('58-workshop-job');}}
+ await menu(/Know-how/,'55-know-how');await menu(/Specs/,'56-specs');await scroll(700);await shot('56b-specs-scrolled');await page.getByRole('button',{name:/^Suspension/}).first().click().catch(()=>{});await shot('56c-specs-open');await scroll(1400);await shot('56d-parts');await menu(/Workshop/,'57-workshop');const job=page.locator('select').filter({hasText:/Choose a job/}).first();if(await job.count()){const v=await job.locator('option').nth(2).getAttribute('value');if(v){await job.selectOption(v);await shot('58-workshop-job');}}
  await tab('Home');const race=page.getByRole('button',{name:/Race day/}).first();if(await race.count()){await race.click();await shot('60-race-day-start');}
  console.log(JSON.stringify({errors,wide,shots:fs.readdirSync(out).length}));await b.close();
 })().catch(e=>{console.error(e);process.exit(1);});

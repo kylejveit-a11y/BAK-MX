@@ -237,3 +237,6 @@
  .rd-rsvp-button{font-size:13.5px;padding:0 10px}
  .rd-post-foot{gap:18px}
 }
+.pc-area{margin:18px 0 4px;font-size:11.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#8f97a4;display:flex;align-items:center;gap:8px}
+.pc-area::before{content:"";width:14px;height:3px;border-radius:2px;transform:skewX(-24deg);background:var(--bike-accent)}
+.parts-catalog .assembly-head span{text-transform:none;letter-spacing:0;font-weight:600}

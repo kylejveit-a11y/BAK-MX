@@ -1,0 +1,38 @@
+/* Specs page: compact, scannable rows; bike colour on marks only. */
+.sp-head h2{font-family:var(--display-title,inherit);font-style:italic;font-weight:900;letter-spacing:-.035em;font-size:24px;margin:4px 0 6px}
+.sp-search{display:flex;align-items:center;gap:8px;margin:16px 0 14px;padding:0 6px 0 14px;height:50px;border:1px solid #2a2f39;border-radius:16px;background:#0e1015;color:#8f97a4}
+.sp-search:focus-within{border-color:var(--bike-accent)}
+.sp-search input{flex:1;min-width:0;height:100%;border:0;background:transparent;color:#f1f2f5;font-size:16px;outline:none;padding:0}
+.sp-clear{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:#1b1e25;color:#b2b9c4;border:0}
+.sp-go{height:38px;padding:0 14px;border-radius:12px;border:1px solid #343a45;background:#15171d;color:#f1f2f5;font-weight:700;font-size:14px}
+.sp-go:disabled{opacity:.45}
+.sp-quick{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:0 0 16px}
+.sp-tile{display:flex;flex-direction:column;align-items:flex-start;gap:4px;text-align:left;padding:12px 14px;border-radius:14px;border:1px solid #23272f;background:linear-gradient(180deg,#14161c,#0f1116);position:relative;overflow:hidden}
+.sp-tile::before{content:"";position:absolute;left:0;top:12px;bottom:12px;width:2px;border-radius:2px;background:var(--bike-accent)}
+.sp-tile small{font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#8f97a4}
+.sp-tile b{font-size:15.5px;font-weight:700;color:#f6f7f9;line-height:1.3;overflow-wrap:anywhere}
+.sp-tile:active{opacity:.6}
+.sp-kinds{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:0 0 6px;padding-bottom:2px}
+.sp-kinds::-webkit-scrollbar{display:none}
+.sp-kinds button{flex:0 0 auto;display:inline-flex;align-items:center;gap:6px;height:34px;padding:0 12px;border-radius:17px;border:1px solid #2a2f39;background:transparent;color:#c9cfd9;font-size:13.5px;font-weight:600}
+.sp-kinds button span{font-size:12px;color:#8f97a4;font-weight:600}
+.sp-kinds button.on{border-color:var(--bike-accent);background:var(--bike-tint);color:#fff}
+.sp-kinds button:disabled{opacity:.4}
+.sp-groups{display:grid}
+.sp-group{border-bottom:1px solid #1b1f27}
+.sp-group-head{display:flex;align-items:center;gap:10px;width:100%;padding:16px 2px;background:none;border:0;color:#f1f2f5;font-size:16.5px;font-weight:700;text-align:left}
+.sp-group-head small{margin-left:auto;font-size:13px;color:#8f97a4;font-weight:600}
+.sp-group-head svg{color:#8f97a4;transition:transform .2s}
+.sp-group.open .sp-group-head svg{transform:rotate(180deg);color:var(--bike-accent)}
+.sp-list{list-style:none;margin:0 0 12px;padding:0;display:grid}
+.sp-row{border-top:1px solid #15181e}
+.sp-row-main{display:flex;align-items:baseline;justify-content:space-between;gap:14px;width:100%;padding:11px 2px;background:none;border:0;text-align:left;color:inherit}
+.sp-name{flex:1;min-width:0;font-size:14.5px;color:#c9cfd9;line-height:1.35}
+.sp-value{flex:0 1 46%;text-align:right;font-size:14.5px;font-weight:700;color:#f6f7f9;line-height:1.35;overflow-wrap:anywhere}
+.sp-row.on .sp-row-main{border-left:2px solid var(--bike-accent);padding-left:10px}
+.sp-detail{padding:0 2px 12px 12px;border-left:2px solid var(--bike-accent);font-size:13px;color:#9ea6b3;line-height:1.5}
+.sp-detail p{margin:0 0 6px}
+.sp-section{font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#8f97a4}
+.sp-src a{color:#c9cfd9;text-decoration:underline;text-decoration-color:var(--bike-accent);text-underline-offset:3px}
+.sp-results .subtle{margin:0 0 6px}
+@media(min-width:761px){.sp-quick{grid-template-columns:repeat(3,minmax(0,1fr))}}
