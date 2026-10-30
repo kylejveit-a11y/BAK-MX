@@ -147,6 +147,7 @@ export const whenClickersRunOut:string[]=[
  'The fork is fine early but bottoms at the end: oil volume or air, not compression clicks.',
  'Air pressure cannot make the fork both comfortable and supportive.',
  'A revalve usually needs a follow-up session with the tuner; judge it from a known baseline, after break-in.',
+ 'Heavier or lighter than the maker’s spring chart: the chart’s own step per weight band says how far past its end to go; the next rate on the maker’s optional spring list is the part to fit, and static sag after fitting is the proof. A projection past the chart is a starting point, never a published figure.',
 ];
 
 /** How track and conditions shift a setup. Directions only; the starting point is the rider’s own baseline. */
