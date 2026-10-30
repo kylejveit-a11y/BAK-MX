@@ -1,0 +1,201 @@
+/* Home blocks, race day, first setup, chat chips and tuning notes: the phone app's screens on the website.
+   Every rule is scoped under hb-* class names. Dark metallic surfaces; the bike colour is an accent only (marks, chevrons,
+   selected borders, faint tints) and lettering stays white or grey. */
+
+.hb-stack{display:flex;flex-direction:column;gap:14px}
+.hb-block{padding:20px 20px 18px}
+.hb-block>*+*{margin-top:12px}
+.hb-block>.hb-block-head{margin-top:0}
+.hb-block-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0}
+.hb-block-head .eyebrow{margin:0;display:inline-flex;align-items:center;gap:8px}
+.hb-mark{display:inline-block;width:14px;height:3px;border-radius:2px;background:linear-gradient(90deg,var(--bike-accent),var(--bike-deep));box-shadow:0 0 10px var(--bike-wash);flex-shrink:0}
+.hb-link{display:inline-flex;align-items:center;gap:4px;font-family:var(--display);font-weight:700;font-size:13.5px;color:#fff;padding:4px 0;background:none;border:0}
+.hb-link svg{color:var(--bike-accent)}
+.hb-link.muted{color:#98a2b5;font-weight:500}
+.hb-link.muted svg{color:#98a2b5}
+.hb-link:disabled{opacity:.5}
+.hb-title{font-family:var(--display);font-weight:800;font-style:italic;letter-spacing:-.03em;font-size:26px;line-height:1.1;color:#fff;margin:0}
+.hb-title.big{font-size:30px}
+.hb-copy{font-size:14px;line-height:1.5;color:#98a2b5;margin:0}
+.hb-copy.small{font-size:12.5px}
+.hb-strong{font-size:16px;font-weight:700;color:#fff;margin:0}
+.hb-line{font-size:13.5px;color:#98a2b5;margin:0}
+.hb-good{color:#9fdcb3}
+.hb-bad{color:#f0a3ad}
+.hb-row{display:flex;align-items:center;gap:10px}
+.hb-row.between{justify-content:space-between}
+.hb-row.wrap{flex-wrap:wrap;gap:8px}
+.hb-row.top{align-items:flex-start}
+.hb-grow{flex:1;min-width:0}
+.hb-error{margin:0;padding:10px 12px;border-radius:10px;border:1px solid #7a3038;background:#2a1418;color:#ffb4b9;font-size:13.5px;line-height:1.45}
+.hb-note{margin:0;font-size:12.5px;color:#7d8593;line-height:1.45}
+.hb-note.ok{color:#9fdcb3}
+.hb-divider{border:0;border-top:1px solid var(--line);margin:4px 0}
+
+/* chips: a row of taps; the selected one gets the bike colour on its border and a faint tint, text stays white */
+.hb-chips{display:flex;flex-wrap:wrap;gap:8px}
+.hb-chip{display:inline-flex;align-items:center;gap:6px;min-height:34px;padding:6px 13px;border-radius:999px;border:1px solid #343a45;background:transparent;color:#c9cfd9;font-size:14px;font-weight:500;text-align:left}
+.hb-chip:hover{border-color:#4a5160}
+.hb-chip.on{border-color:var(--bike-accent);background:var(--bike-tint);color:#fff;font-weight:700}
+.hb-chip.on svg{color:var(--bike-accent)}
+.hb-chip.square{border-radius:12px;min-height:40px;padding:8px 14px;font-size:15px}
+.hb-chip.square.on{border-color:#4a5160;background:#1e232c}
+.hb-chip:disabled{opacity:.45}
+
+/* dots for due / soon / fine */
+.hb-dot{width:8px;height:8px;border-radius:50%;background:#5fbf7f;flex-shrink:0}
+.hb-dot.soon{background:#e8c15a}
+.hb-dot.over{background:#ef6b73}
+
+/* the tile list: one row per shortcut, hairline divided, the chevron in the bike colour */
+.hb-tiles{display:grid;grid-template-columns:1fr 1fr;gap:0 32px;border-top:1px solid var(--line);margin-top:8px}
+.hb-tile{display:grid;grid-template-columns:30px minmax(0,1fr) 18px;grid-template-rows:auto auto;column-gap:14px;row-gap:2px;align-items:center;padding:15px 0;border:0;border-bottom:1px solid var(--line);border-radius:0;background:none;text-align:left;color:#eef1f6;min-width:0}
+.hb-tile svg:first-child{grid-row:1/3;color:#b2b9c4}
+.hb-tile strong{grid-column:2;font-family:var(--display);font-weight:600;font-size:16px;line-height:1.25}
+.hb-tile small{grid-column:2;color:#adb5c1;font-size:13px;line-height:1.4}
+.hb-tile .hb-tile-arrow{grid-column:3;grid-row:1/3;color:var(--bike-accent)}
+.hb-tile:hover strong{color:#fff}
+.hb-tile.featured strong{color:#fff}
+.hb-tile.featured svg:first-child{color:var(--bike-accent)}
+
+/* Home footer: race day and Edit Home */
+.hb-home-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:6px 2px 0}
+
+/* bike cover photo */
+.hb-cover{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:14px;border:1px solid var(--line);background:#0c0f14}
+
+/* a sheet: full-height on a phone, a centred panel on desktop */
+.hb-sheet-backdrop{position:fixed;inset:0;z-index:120;background:rgba(2,3,6,.72);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:center;padding:20px}
+.hb-sheet{position:relative;width:min(100%,560px);max-height:92vh;overflow:auto;background:#0b0d10;border:1px solid var(--line-strong);border-radius:20px;padding:24px 22px 26px;box-shadow:0 30px 120px #000c;display:flex;flex-direction:column;gap:18px}
+.hb-sheet-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.hb-sheet-head .hb-title{font-size:24px}
+.hb-sheet-close{font-size:15px;color:#98a2b5;font-weight:500;padding:6px 2px}
+.hb-sheet-close:hover{color:#fff}
+.hb-sheet .button{align-self:stretch;justify-content:center;display:inline-flex;align-items:center}
+.hb-sheet label.hb-field{display:flex;flex-direction:column;gap:6px}
+.hb-field-label{font-size:12.5px;font-weight:600;color:#adb5c1}
+.hb-input{width:100%;background:#0a0c10;border:1px solid var(--line-strong);border-radius:10px;color:#eef1f6;font-size:16px;padding:12px 14px}
+.hb-input:focus{outline:none;border-color:var(--bike-accent);box-shadow:0 0 0 3px var(--bike-wash)}
+.hb-input.line{background:none;border:0;border-bottom:1px solid var(--bike-accent);border-radius:0;padding:10px 0;font-size:18px;font-weight:600}
+.hb-input.line:focus{box-shadow:none}
+.hb-input.big{font-family:var(--display);font-size:32px;font-weight:800;font-style:italic;width:120px}
+.hb-unit{font-size:16px;color:#98a2b5;padding-bottom:12px}
+.hb-input::placeholder{color:#7d8593}
+textarea.hb-input{resize:vertical;min-height:72px}
+.hb-suggest{display:flex;flex-direction:column}
+.hb-suggest button{display:flex;align-items:center;gap:10px;padding:11px 2px;border-bottom:1px solid var(--line);text-align:left;color:#eef1f6}
+.hb-suggest button span{flex:1;display:flex;flex-direction:column;gap:1px;font-size:16px;font-weight:600}
+.hb-suggest button small{font-size:12.5px;color:#8b93a1;font-weight:400}
+.hb-suggest button em{font-style:normal;font-size:12px;font-weight:700;color:#fff}
+
+/* Edit Home rows */
+.hb-edit-row{display:flex;align-items:center;gap:10px;padding:12px 0;border-bottom:1px solid var(--line)}
+.hb-edit-row .hb-grow{display:flex;flex-direction:column;gap:2px}
+.hb-edit-row b{font-size:16px;font-weight:700;color:#fff}
+.hb-edit-row b.off{color:#7d8593}
+.hb-edit-row small{font-size:12.5px;color:#98a2b5}
+.hb-arrow{width:34px;height:34px;border-radius:17px;border:1px solid #2f3540;display:inline-flex;align-items:center;justify-content:center;color:#eef1f6}
+.hb-arrow:disabled{opacity:.25}
+.hb-switch{position:relative;width:46px;height:28px;border-radius:14px;background:#2a2f39;border:0;padding:0;flex-shrink:0;transition:background .15s}
+.hb-switch::after{content:'';position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:11px;background:#fff;transition:transform .15s}
+.hb-switch[aria-checked="true"]{background:var(--bike-deep)}
+.hb-switch[aria-checked="true"]::after{transform:translateX(18px)}
+
+/* race day */
+.hb-count{display:flex;align-items:flex-end;gap:14px}
+.hb-count .hb-days{display:flex;flex-direction:column;align-items:center}
+.hb-count .hb-days b{font-family:var(--display);font-size:44px;font-weight:800;font-style:italic;letter-spacing:-.04em;line-height:1;color:#fff}
+.hb-count .hb-days span{font-size:12px;font-weight:700;letter-spacing:.1em;color:#98a2b5}
+.hb-count .hb-track{display:flex;flex-direction:column;gap:2px;padding-bottom:4px;min-width:0}
+.hb-count .hb-track strong{font-family:var(--display);font-size:21px;font-weight:800;color:#fff;line-height:1.15}
+.hb-count .hb-track span{font-size:14px;color:#98a2b5}
+.hb-progress{height:6px;border-radius:3px;background:#1a1e25;overflow:hidden}
+.hb-progress i{display:block;height:100%;border-radius:3px;background:linear-gradient(90deg,var(--bike-deep),var(--bike-accent))}
+.hb-change{border-left:3px solid var(--bike-accent);padding-left:10px;display:flex;flex-direction:column;gap:2px}
+.hb-change em{font-style:normal;font-size:11.5px;font-weight:800;letter-spacing:.08em;color:#9aa2ae;text-transform:uppercase}
+.hb-change strong{font-size:15.5px;font-weight:700;color:#fff}
+.hb-change span{font-size:13.5px;line-height:1.4;color:#98a2b5}
+.hb-now{display:grid;grid-template-columns:1fr 1fr;row-gap:12px;column-gap:10px}
+.hb-now div{display:flex;flex-direction:column;gap:2px}
+.hb-now span{font-size:12px;color:#9aa2ae}
+.hb-now b{font-size:16px;font-weight:700;color:#fff}
+.hb-today-entry{display:flex;flex-direction:column;gap:2px;padding:4px 0}
+.hb-today-entry strong{font-size:15.5px;font-weight:700;color:#fff}
+.hb-today-entry span{font-size:13.5px;color:#98a2b5}
+.hb-center{align-self:center;padding:10px 0;color:#98a2b5;font-size:15px}
+.hb-race-head{display:flex;flex-direction:column;gap:6px}
+.hb-race-head .eyebrow{margin:0;display:inline-flex;align-items:center;gap:8px}
+
+/* chat composer chips (phone style) */
+.composer .hb-composer-chips{flex:1;min-width:0;padding:0}
+.chat-page .conversation>.hb-notes{margin:10px 18px 0}
+.conversation>.hb-notes{margin:0 22px}
+.hb-composer-chips{display:flex;align-items:center;gap:6px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding:0 2px 8px}
+.hb-composer-chips::-webkit-scrollbar{display:none}
+.hb-cchip{position:relative;display:inline-flex;align-items:center;gap:5px;height:30px;padding:0 10px;border-radius:15px;border:1px solid #2a2f39;background:rgba(255,255,255,.03);color:#c9cfd9;font-size:13px;font-weight:600;max-width:190px;white-space:nowrap;flex-shrink:0}
+.hb-cchip span{overflow:hidden;text-overflow:ellipsis}
+.hb-cchip svg{color:#b2b9c4;flex-shrink:0}
+.hb-cchip svg.down{color:#8f97a4}
+.hb-cchip.on{border-color:var(--bike-accent);background:var(--bike-tint);color:#fff}
+.hb-cchip.on svg{color:var(--bike-accent)}
+.hb-cchip.quiet{color:#8f97a4}
+.hb-cchip.quiet svg{color:#8f97a4}
+.hb-cchip select{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer;font-size:16px}
+.hb-cchip:focus-within,.hb-cchip:focus-visible{outline:2px solid var(--bike-accent);outline-offset:2px}
+.hb-cchip:disabled,.hb-cchip[aria-disabled="true"]{opacity:.45}
+.hb-cchip-spacer{flex:1}
+.hb-working{margin:0 0 8px;font-size:12.5px;color:#b2b9c4;display:flex;align-items:center;gap:8px}
+.hb-working .dot{width:7px;height:7px;border-radius:50%;background:var(--bike-accent);display:inline-block;animation:hbpulse 1.2s ease-in-out infinite}
+@keyframes hbpulse{0%,100%{opacity:.35}50%{opacity:1}}
+@media(prefers-reduced-motion:reduce){.hb-working .dot{animation:none}}
+.hb-chat-list{display:flex;flex-direction:column}
+.hb-chat-list button{display:flex;align-items:center;gap:10px;padding:13px 2px;border-bottom:1px solid var(--line);text-align:left;color:#eef1f6;font-size:15px}
+.hb-chat-list button svg{color:#b2b9c4;flex-shrink:0}
+.hb-chat-list button.on{color:#fff;font-weight:700}
+.hb-chat-list button.on svg{color:var(--bike-accent)}
+.hb-chat-list button span{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hb-chat-list button small{color:#7d8593;font-size:12.5px;flex-shrink:0}
+
+/* answer tables as rows on a phone */
+.hb-rows{display:flex;flex-direction:column;gap:8px;margin:6px 0 12px}
+.hb-rows p{margin:0;font-size:15px;line-height:1.5}
+.hb-rows p span.hb-rows-h{color:#98a2b5}
+
+/* disclosures inside an answer */
+.hb-disclosure{margin:8px 0 0}
+.hb-disclosure>summary{display:inline-flex;align-items:center;gap:6px;list-style:none;cursor:pointer;padding:8px 14px;border:1px solid var(--line-strong);border-radius:8px;background:#0f1218;font-family:var(--display);font-size:12.5px;font-weight:600;color:#dfe5ef}
+.hb-disclosure>summary::-webkit-details-marker{display:none}
+.hb-disclosure>summary::after{content:'+';color:var(--bike-accent);font-weight:700}
+.hb-disclosure[open]>summary::after{content:'–'}
+.hb-disclosure[open]>summary{border-color:#3b4556;color:#fff;margin-bottom:10px}
+.hb-disclosure .hypothesis{margin-bottom:12px}
+
+/* tuning notes under the chat */
+.hb-notes{border-top:1px solid var(--line);margin:10px 0 0}
+.hb-notes-toggle{display:flex;align-items:center;gap:10px;width:100%;padding:12px 2px;text-align:left;color:#eef1f6}
+.hb-notes-toggle svg:first-child{color:#b2b9c4}
+.hb-notes-toggle .hb-grow{display:flex;flex-direction:column;gap:2px}
+.hb-notes-toggle b{font-size:16px;font-weight:600}
+.hb-notes-toggle small{font-size:13px;color:#adb5c1}
+.hb-notes-toggle svg:last-child{color:#7d8593}
+.hb-notes-body{display:flex;flex-direction:column;gap:12px;padding:0 2px 10px}
+.hb-notes-body .button{align-self:flex-start;display:inline-flex;align-items:center}
+.hb-note-item{display:flex;flex-direction:column;gap:2px;padding-top:8px;border-top:1px solid var(--line)}
+.hb-note-item small{font-size:12.5px;color:#adb5c1}
+.hb-note-item p{margin:0;font-size:15px;line-height:1.5;white-space:pre-wrap}
+
+/* VIN check under the Garage editor's VIN field */
+.hb-vin{margin:0;font-size:12.5px;line-height:1.45;color:#98a2b5}
+.hb-vin.ok{color:#9fdcb3}
+.hb-vin.check{color:#e8c15a}
+.hb-vin.error{color:#f0a3ad}
+
+.hb-stack>.home-bike{margin-top:0!important}
+@media(max-width:760px){
+ .hb-tiles{grid-template-columns:1fr;gap:0}
+ .hb-block{padding:18px 16px 16px}
+ .hb-sheet-backdrop{padding:0;align-items:flex-end}
+ .hb-sheet{width:100%;max-height:94vh;border-radius:20px 20px 0 0;border-bottom:0;padding:20px 16px calc(26px + env(safe-area-inset-bottom))}
+ .hb-title.big{font-size:28px}
+ .hb-count .hb-days b{font-size:40px}
+}

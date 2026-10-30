@@ -19,11 +19,10 @@ import {RacePrepCard,RacePrepSheet,useRacePrep,Progress} from './RacePrep';
 import {RACE_PHASES,phaseForDaysOut} from '../../../shared/race-prep';
 import {setRaceWidget} from './widgets/sync';
 import {RichText} from './RichText';
+import {OFF_RACE as OFF,dayOf,today,activeRace,raceToday,daysToGo,whenText,QUICK,CHANGES,MOTOS,quickAskText,tryNextText,raceSetupTitle,raceSetupQuestion,raceSetupField,raceSetupKey,raceSetupStale,plain,knownTrack,trackSuggestions,trackPicks,type RaceDay,type KnownTrack} from '../../../shared/race-day';
+export {daysToGo,whenText,type RaceDay};
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
-/** The rider's own calendar day (not UTC), so an evening practice still counts as today. */
-const dayOf=(d:Date)=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
-const today=()=>dayOf(new Date());
 const when=(iso:string)=>new Date(iso).toLocaleDateString([],{weekday:'short',month:'short',day:'numeric'});
 const time=(iso:string)=>new Date(iso).toLocaleTimeString([],{hour:'numeric',minute:'2-digit'});
 
@@ -139,15 +138,10 @@ export function CoachingBlock({bike,onOpen}:{bike:Bike;onOpen:()=>void}){
 }
 
 // ------------------------------------------------------------------ race day
-/** A race the rider set up: the track, the date (today or ahead) and whether the Home Screen widget counts down to it. */
-export type RaceDay={on:boolean;track:string;day:string;widget?:boolean};
-const OFF:RaceDay={on:false,track:'',day:''};
 /** The rider's race, today or still ahead; a past one is over. Read fresh each time so other screens see it at once. */
-export function readRace(account:string):RaceDay|null{const r=readProgress<RaceDay|null>(account,'race-day',null);return r&&r.on&&typeof r.day==='string'&&r.day>=today()?r:null;}
+export function readRace(account:string):RaceDay|null{return activeRace(readProgress<RaceDay|null>(account,'race-day',null));}
 /** Today's race day, if one is running (Ask BAK's race mode). */
-export function readRaceDay(account:string):RaceDay|null{const r=readRace(account);return r&&r.day===today()?r:null;}
-export const daysToGo=(day:string)=>{const [y,m,d]=day.split('-').map(Number);const t=new Date();t.setHours(0,0,0,0);return Math.round((new Date(y,m-1,d).getTime()-t.getTime())/864e5);};
-export const whenText=(day:string)=>{const n=daysToGo(day);return n<=0?'Today':n===1?'Tomorrow':`In ${n} days`;};
+export function readRaceDay(account:string):RaceDay|null{return raceToday(readProgress<RaceDay|null>(account,'race-day',null));}
 export function useRaceDay(account:string){
  const [race,setRace]=useState<RaceDay>(()=>readRace(account)??OFF);
  // Tabs stay mounted: re-read on focus so a race that passed or started elsewhere shows right.
@@ -158,27 +152,21 @@ export function useRaceDay(account:string){
 }
 
 // ------------------------------------------------------------------ BAK's starting setup for the race
-/** Short lines on the card show as plain text: no markdown asterisks. */
-const plain=(t:string)=>t.replace(/\*\*/g,'').replace(/(^|\s)\*(\S)/g,'$1$2');
 type RaceSetup={key:string;at:string;summary:string;answer:string;changes:{setting:string;change:string;expect:string;go_back_if:string}[];next:string;conversation:string};
-const setupKey=(bike:Bike,track:string,day:string)=>`${bike.id}|${track.trim().toLowerCase()}|${day}`;
 /** BAK works out a starting setup for this track, date and forecast from what is on the bike now. Saved on the phone. */
 export function RaceSetupCard({account,bike,track,day,onOpenChat}:{account:string;bike:Bike;track:string;day:string;onOpenChat:(conversation:string)=>void}){
- const key=setupKey(bike,track,day);
+ const key=raceSetupKey(bike.id,track,day);
  const [saved,setSaved]=useState<RaceSetup|null>(()=>{const r=readProgress<RaceSetup|null>(account,'race-setup',null);return r&&r.key===key?r:null;});
  const [live,setLive]=useState<{summary:string;answer:string}|null>(null),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
  useEffect(()=>{const r=readProgress<RaceSetup|null>(account,'race-setup',null);setSaved(r&&r.key===key?r:null);},[account,key]);
  const consent=readProgress<boolean>(account,'ai-consent-'+AI_CONSENT_VERSION,false)===true;
- const away=daysToGo(day);
- // The forecast only exists inside a week; a setup made before that is worth refreshing once it does.
- const stale=!!saved&&away<=6&&daysToGo(saved.at.slice(0,10))>-1&&(Date.parse(day)-Date.parse(saved.at))/864e5>6.5;
+ const stale=!!saved&&raceSetupStale(day,saved.at);
  async function get(){
   if(busy)return;if(!consent){setNotice('Open Ask BAK once and agree to the AI terms, then come back.');return;}
   setBusy(true);setNotice('');setLive({summary:'',answer:''});
   try{
-   const conv=await api<Conversation>('/api/conversations','POST',{bike_id:bike.id,title:`Race setup · ${track||'track'} · ${day}`.slice(0,100),mode:'setup',create_id:randomUUID()});
-   const when=new Date(day+'T12:00:00').toLocaleDateString('en-US',{weekday:'long',month:'short',day:'numeric'});
-   const r=await apiStream<{response:EngineeringResponse}>('/api/chat',{conversation_id:conv.id,request_id:randomUUID(),message:`Starting setup for ${track||'my next race'} on ${when}. Work it out for the track and the conditions, starting from what's on my bike now.`.slice(0,8000),race:{...(track?{track:track.slice(0,120)}:{}),date:day,setup:true}},ev=>{if(ev.type==='draft')setLive({summary:String(ev.summary||''),answer:String(ev.answer||'')});});
+   const conv=await api<Conversation>('/api/conversations','POST',{bike_id:bike.id,title:raceSetupTitle(track,day),mode:'setup',create_id:randomUUID()});
+   const r=await apiStream<{response:EngineeringResponse}>('/api/chat',{conversation_id:conv.id,request_id:randomUUID(),message:raceSetupQuestion(track,day),race:raceSetupField(track,day)},ev=>{if(ev.type==='draft')setLive({summary:String(ev.summary||''),answer:String(ev.answer||'')});});
    const next:RaceSetup={key,at:new Date().toISOString(),summary:r.response.summary,answer:r.response.answer??'',changes:r.response.setup_changes??[],next:r.response.next_step?.action??'',conversation:conv.id};
    setSaved(next);success();try{writeProgress(account,'race-setup',next);}catch{}
   }catch(e){setNotice(errorText(e));}finally{setBusy(false);setLive(null);}
@@ -238,7 +226,6 @@ export function RaceCountdown({account,bike,race,onPrep,onEnd,onOpenChat}:{accou
  </>;
 }
 
-const CHANGES=['Fork compression','Fork rebound','Shock low-speed','Shock high-speed','Shock rebound','Sag','Front tire','Rear tire','Fork height','Other'];
 /** Setup logs from the server or cache, plus any logged here with no signal that are still waiting to send. */
 export function setupLogsWithPending(rows:SetupLog[],bikeId:string):SetupLog[]{
  const store=currentStore();if(!store)return rows;
@@ -247,8 +234,6 @@ export function setupLogsWithPending(rows:SetupLog[],bikeId:string):SetupLog[]{
 const config=(b:Bike,k:string)=>{const v=b.configuration?.[k];return v==null||v===''?'':String(v);};
 
 /** The race-day Home: today's setup, the between-motos check, a fast change log and today's entries. */
-/** What riders feel between motos, in their words. One tap sends it to BAK in race mode. */
-const QUICK=['Front pushes in turns','Front harsh on braking bumps','Rear kicks on braking bumps','Rear squats out of turns','Bottoms on jumps','Harsh on landings','Headshake on the straights','Won’t hold the rut','No rear hookup','Bogs out of turns'];
 export function RaceDayHome({bike,account,track,onEnd,onAsk,onQuick,onOpenChat}:{bike:Bike;account:string;track:string;onEnd:()=>void;onAsk:(text:string)=>void;onQuick:(text:string)=>void;onOpenChat:(c:string)=>void}){
  const [prepOpen,setPrepOpen]=useState(false);
  const [logs,setLogs]=useState<SetupLog[]>([]),[moto,setMoto]=useState('Moto 1'),[what,setWhat]=useState(''),[detail,setDetail]=useState(''),[result,setResult]=useState<SetupResult>('not_tested'),[note,setNote]=useState(''),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
@@ -280,12 +265,12 @@ export function RaceDayHome({bike,account,track,onEnd,onAsk,onQuick,onOpenChat}:
   </Card>
   <Card><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="bolt" size={16} color={colors.accent}/><Eyebrow>QUICK ASK</Eyebrow></View>
    <Text style={{color:colors.muted,fontSize:13.5,lineHeight:19}}>Tap what the bike did. BAK answers in race mode: the one change to make, short and fast.</Text>
-   <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{QUICK.map(q=>chip(q,false,()=>onQuick(`Race day${track?` at ${track}`:''}, between motos: ${q.toLowerCase()}. What's the one change to make?`)))}</View>
+   <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{QUICK.map(q=>chip(q,false,()=>onQuick(quickAskText(track,q))))}</View>
   </Card>
   <RacePrepCard account={account} bike={bike} onOpen={()=>setPrepOpen(true)}/>
   <RacePrepSheet visible={prepOpen} onClose={()=>setPrepOpen(false)} account={account} bike={bike} startPhase="motos"/>
   <Card><Eyebrow>LOG A CHANGE</Eyebrow>
-   <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{['Practice','Moto 1','Moto 2','Moto 3'].map(m=>chip(m,moto===m,()=>setMoto(m)))}</View>
+   <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{MOTOS.map(m=>chip(m,moto===m,()=>setMoto(m)))}</View>
    <Text style={{color:'#adb5c1',fontSize:12.5,fontWeight:'600'}}>What did you change?</Text>
    <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{CHANGES.map(c=>chip(c,what===c,()=>setWhat(what===c?'':c)))}</View>
    <TextInput value={detail} onChangeText={setDetail} maxLength={200} placeholder="e.g. 2 clicks softer, or 13 psi" placeholderTextColor="#7d8593" style={{color:colors.text,fontSize:16,borderBottomWidth:1,borderBottomColor:'#2f3540',paddingVertical:10}}/>
@@ -300,13 +285,12 @@ export function RaceDayHome({bike,account,track,onEnd,onAsk,onQuick,onOpenChat}:
     <Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>{l.change_made}</Text>
     <Text style={{color:colors.muted,fontSize:13.5}}>{time(l.recorded_at)} · {l.conditions.replace('Race day · ','')}{isLocal(l.id)?' · waiting for signal':''} · <Text style={{color:l.result==='better'?'#7fd09a':l.result==='worse'?'#ef9aa1':colors.muted,fontWeight:'700'}}>{SETUP_RESULT_LABELS[l.result]}</Text>{l.notes?` · ${l.notes}`:''}</Text>
    </View>)}
-   <Pressable accessibilityRole="button" onPress={()=>onAsk(`Race day${track?` at ${track}`:''}. Here's what I changed today and how it rode:\n${logs.slice().reverse().map(l=>`- ${l.conditions.replace('Race day · ','')}: ${l.change_made} → ${SETUP_RESULT_LABELS[l.result]}${l.notes?` (${l.notes})`:''}`).join('\n')}\nWhat should I try next?`)} hitSlop={6}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>Ask BAK what to try next</Text></Pressable>
+   <Pressable accessibilityRole="button" onPress={()=>onAsk(tryNextText(track,logs))} hitSlop={6}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>Ask BAK what to try next</Text></Pressable>
   </Card>}
   <Pressable accessibilityRole="button" onPress={onEnd} style={{alignSelf:'center',paddingVertical:10}}><Text style={{color:colors.muted,fontSize:15}}>End race day</Text></Pressable>
  </>;
 }
 
-type KnownTrack={name:string;city:string|null;state:string;aliases?:string[];weather:boolean};
 /** Starts race day: shows the bike it's for (switchable) and asks which track, with one-tap picks from the rider's recent
  *  setup-log tracks and the events they're going to. */
 export function RaceDayStart({visible,bike,bikes,onSwitch,onStart,onClose}:{visible:boolean;bike:Bike;bikes:Bike[];onSwitch:(id:string)=>void;onStart:(track:string,day:string,widget:boolean)=>void;onClose:()=>void}){
@@ -314,14 +298,11 @@ export function RaceDayStart({visible,bike,bikes,onSwitch,onStart,onClose}:{visi
  useEffect(()=>{if(!visible)return;let live=true;setTrack('');setDay(today());setChoosing(false);
   Promise.all([api<SetupLog[]>(`/api/setup-logs?bike_id=${bike.id}`).catch(()=>[] as SetupLog[]),api<RideEvent[]>('/api/events?scope=upcoming').catch(()=>[] as RideEvent[])]).then(([logs,events])=>{
    const soon=events.filter(e=>!e.canceled_at&&(e.my_rsvp==='going'||e.mine)&&Date.parse(e.starts_at)-Date.now()<30*864e5).map(e=>e.location_name);
-   const seen=new Set<string>(),list=[...soon,...logs.map(l=>l.track)].map(t=>t.trim()).filter(t=>t&&!seen.has(t.toLowerCase())&&!!seen.add(t.toLowerCase()));
-   if(live)setPicks(list.slice(0,6));});
+   if(live)setPicks(trackPicks(soon,logs.map(l=>l.track)));});
   return()=>{live=false;};},[visible,bike.id]);
  // BAK's tracks, kept on the phone so the picker works with no signal at the track.
  useEffect(()=>{if(!visible)return;api<KnownTrack[]>('/api/tracks').then(r=>{if(Array.isArray(r)&&r.length){setDir(r);try{writeProgress('device','track-directory',r);}catch{}}}).catch(()=>{});},[visible]);
- const norm=(x:string)=>x.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
- const typed=norm(track),known=dir.find(t=>norm(t.name)===typed||(t.aliases??[]).some(a=>norm(a)===typed));
- const suggestions=typed.length<2||known?[]:dir.filter(t=>[t.name,t.city??'',...(t.aliases??[])].some(x=>norm(x).includes(typed))).slice(0,5);
+ const known=knownTrack(dir,track),suggestions=trackSuggestions(dir,track);
  const name=(b:Bike)=>b.nickname||`${b.model_year} ${b.manufacturer} ${b.model}`;
  return <Modal visible={visible} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
   <ScrollView keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive" automaticallyAdjustKeyboardInsets style={{flex:1,backgroundColor:colors.bg}} contentContainerStyle={{padding:20,paddingBottom:insets.bottom+20,gap:18}}>
