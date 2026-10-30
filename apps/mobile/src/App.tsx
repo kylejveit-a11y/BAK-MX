@@ -39,6 +39,7 @@ import {applyTheme,motion} from './theme';
 import {setHapticsEnabled} from './haptics';
 import {RacePlate} from './RacePlate';
 import {RacePrepSheet,RacePrepBlock} from './RacePrep';
+import {FirstSetupSheet,needsFirstSetup} from './FirstSetup';
 import {HomeEditor,useHomeLayout,useRaceDay,readRaceDay,RaceCountdown,useRaceWidget,daysToGo,RaceDayHome,RaceDayStart,ServiceDueBlock,LastSetupBlock,EventsBlock,CoachingBlock,type HomeBlock} from './HomeBlocks';
 import {themeFor,allThemes,type ThemeMode} from '../../../shared/brand-theme';
 import {Section,Segmented,MetalMark,MetalBubble,BlueFace,blueLift,Button,Card,Copy,Field,Notice,Page,PageTitle,Select,colors,tint,Brand,Eyebrow,Chip,Tile,TileGrid,AskBar,LinkAction,Icon,type IconName} from './ui';
@@ -137,13 +138,15 @@ function CommunityTab({navigation}:BottomTabScreenProps<Tabs,'Community'>){const
 function EventsTab({navigation}:BottomTabScreenProps<Tabs,'Events'>){return <EventsScreen onMessage={rider=>navigation.navigate('Messages',{rider})}/>;}
 function MessagesTab({navigation,route}:BottomTabScreenProps<Tabs,'Messages'>){return <MessagesScreen startWith={route.params?.rider} onStarted={()=>navigation.setParams({rider:undefined})}/>;}
 function WorkshopJob({navigation}:BottomTabScreenProps<Tabs,'Workshop'>){const{bike,session}=useContext(Ctx);return <WorkshopScreen bike={bike} ownerId={session.user.id} onAsk={context=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',context:`Help me with this workshop step on my ${bike.model_year} ${bike.manufacturer} ${bike.model}, ${bike.variant}, ${bike.region}.\n\n${context}`,contextToken:randomUUID(),contextBikeId:bike.id});}}/>;}
-function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,session,bikesLoaded,select}=useContext(Ctx);
+function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,session,bikesLoaded,select,reload}=useContext(Ctx);
  const {layout,save,reset}=useHomeLayout(session.user.id),{race,start,end,isToday,upcoming}=useRaceDay(session.user.id),[editing,setEditing]=useState(false),[starting,setStarting]=useState(false),[prepOpen,setPrepOpen]=useState(false);
  const ask=(text:string)=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',context:text,contextToken:randomUUID(),contextBikeId:bike.id});};
  // Quick ask on race day: sent straight away, no typing.
  const quick=(text:string)=>{if(bike)navigation.navigate('Ask BAK',{mode:'ask',prompt:text,promptToken:randomUUID()});};
  const openChat=(thread:string)=>navigation.navigate('Ask BAK',{thread,threadToken:randomUUID()});
  useRaceWidget(session.user.id,bike,race);
+ const [firstOpen,setFirstOpen]=useState(false);
+ const first=bike?needsFirstSetup(bike):false;
  if(isToday&&bike)return <Page title=""><RaceDayHome bike={bike} account={session.user.id} track={race.track} onEnd={end} onAsk={ask} onQuick={quick} onOpenChat={openChat}/><AskBar onPress={()=>navigation.navigate('Ask BAK')} onSnap={()=>navigation.navigate('Ask BAK',{camera:randomUUID()})}/></Page>;
  const blocks:Record<HomeBlock,React.ReactNode>={
   ask:<AskBar onPress={()=>navigation.navigate('Ask BAK')} onSnap={bike?()=>navigation.navigate('Ask BAK',{camera:randomUUID()}):undefined}/>,
@@ -154,7 +157,7 @@ function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,s
   setup:bike?<LastSetupBlock bike={bike} onOpen={()=>navigation.navigate('Setup')}/>:null,
   events:<EventsBlock onOpen={()=>navigation.navigate('Events')}/>,
   coaching:bike?<CoachingBlock bike={bike} onOpen={()=>navigation.navigate('Garage')}/>:null,
-  tools:<TileGrid><Tile icon="gauge" title="Something’s wrong" detail="Bogs, won’t start, overheating" onPress={()=>navigation.navigate('Ask BAK',{mode:'diagnose'})}/><Tile icon="shock" title="Setup log" detail="What you changed, how it rode" onPress={()=>navigation.navigate('Setup')}/><Tile icon="notes" title="Know-how" detail="What every adjuster does, in plain words" onPress={()=>navigation.navigate('Learn')}/><Tile icon="thandle" title="Workshop" detail="Guided jobs step by step, and job notes" onPress={()=>navigation.navigate('Workshop')}/><Tile icon="bolt" title="Specs & parts" detail="For your exact bike" onPress={()=>navigation.navigate('Specs')}/><Tile icon="oil" title="Service log" detail="Oil, filters, top ends" onPress={()=>navigation.navigate('Maintenance')}/><Tile icon="messages" title="Messages" detail="Talk to other riders" onPress={()=>navigation.navigate('Messages')}/><Tile icon="verified" title="Supported bikes" detail="What BAK covers, by year" onPress={()=>navigation.navigate('Bikes')}/></TileGrid>,
+  tools:<TileGrid>{bike&&<Tile icon="shock" title={first?'Starting setup in 60 seconds':'Fresh starting setup'} detail={first?'Your weight, level and riding, then BAK sets the bike up':'BAK sets the bike up again from your details'} onPress={()=>setFirstOpen(true)}/>}<Tile icon="gauge" title="Something’s wrong" detail="Bogs, won’t start, overheating" onPress={()=>navigation.navigate('Ask BAK',{mode:'diagnose'})}/><Tile icon="shock" title="Setup log" detail="What you changed, how it rode" onPress={()=>navigation.navigate('Setup')}/><Tile icon="notes" title="Know-how" detail="What every adjuster does, in plain words" onPress={()=>navigation.navigate('Learn')}/><Tile icon="thandle" title="Workshop" detail="Guided jobs step by step, and job notes" onPress={()=>navigation.navigate('Workshop')}/><Tile icon="bolt" title="Specs & parts" detail="For your exact bike" onPress={()=>navigation.navigate('Specs')}/><Tile icon="oil" title="Service log" detail="Oil, filters, top ends" onPress={()=>navigation.navigate('Maintenance')}/><Tile icon="messages" title="Messages" detail="Talk to other riders" onPress={()=>navigation.navigate('Messages')}/><Tile icon="verified" title="Supported bikes" detail="What BAK covers, by year" onPress={()=>navigation.navigate('Bikes')}/></TileGrid>,
  };
  return <Page title=""><View style={{gap:10,paddingTop:6}}><Text style={{color:colors.text,fontWeight:'900',fontStyle:'italic',fontSize:34,lineHeight:38,letterSpacing:-1.2}}>Know what works.{'\n'}<Text style={{color:'#7a8291'}}>Before your next ride.</Text></Text><Copy>Tell BAK what the bike is doing, the way you’d tell your buddy.</Copy></View>
  <WhatsNewCard account={session.user.id}/>
@@ -166,6 +169,7 @@ function Home({navigation}:BottomTabScreenProps<Tabs,'Home'>){const{bike,bikes,s
  </View>
  {bike&&<RacePrepSheet visible={prepOpen} onClose={()=>setPrepOpen(false)} account={session.user.id} bike={bike} startPhase={upcoming?phaseForDaysOut(daysToGo(race.day)):'week'}/>}
  <HomeEditor visible={editing} layout={layout} onChange={save} onReset={reset} onClose={()=>setEditing(false)}/>
+ {bike&&<FirstSetupSheet visible={firstOpen} bike={bike} onClose={()=>setFirstOpen(false)} onSaved={()=>{void reload().catch(()=>{});}} onAsk={q=>navigation.navigate('Ask BAK',{mode:'setup',prompt:q,promptToken:randomUUID()})}/>}
  {bike&&<RaceDayStart visible={starting} bike={bike} bikes={bikes} onSwitch={select} onClose={()=>setStarting(false)} onStart={(t,d,w)=>{start(t,d,w);setStarting(false);}}/>}
  </Page>}
 type Coverage={specs:number;suspension_settings:number;torque_values:number;parts_catalog:{complete:boolean;part_count:number}|null;workshop_guides:number};
