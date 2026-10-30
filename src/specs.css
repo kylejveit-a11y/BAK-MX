@@ -36,3 +36,15 @@
 .sp-src a{color:#c9cfd9;text-decoration:underline;text-decoration-color:var(--bike-accent);text-underline-offset:3px}
 .sp-results .subtle{margin:0 0 6px}
 @media(min-width:761px){.sp-quick{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sp-tile.wide{grid-column:1/-1}
+.sp-tile span{font-size:13.5px;color:#c9cfd9;font-weight:600}
+.sp-yours{margin:0 0 18px;padding:14px 16px;border:1px solid #23272f;border-radius:16px;background:#0e1015}
+.sp-yours-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.sp-yours ul{list-style:none;margin:0;padding:0}
+.sp-yours li{display:grid;grid-template-columns:1fr auto;column-gap:12px;padding:9px 0;border-top:1px solid #17191f}
+.sp-yours li:first-child{border-top:0}
+.sp-yours li span{font-size:14.5px;color:#c9cfd9}
+.sp-yours li b{font-size:15px;color:#f6f7f9;text-align:right}
+.sp-yours li small{grid-column:1/-1;font-size:12.5px;color:#8f97a4}
+.sp-row.stack .sp-row-main{flex-direction:column;align-items:flex-start;gap:3px}
+.sp-row.stack .sp-value{text-align:left;flex:none;font-weight:600;color:#e7e9ee;font-size:13.5px}

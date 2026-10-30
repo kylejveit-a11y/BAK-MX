@@ -29,20 +29,24 @@ export function splitFact(statement:string):{section:string;name:string;value:st
 const KINDS:{k:FactKind|'all';label:string}[]=[{k:'all',label:'All'},{k:'torque',label:'Torques'},{k:'setting',label:'Settings'},{k:'service',label:'Service'},{k:'spec',label:'Specs'}];
 const ORDER:FactSystem[]=['Suspension','Oils & fluids','Engine','Wheels & tires','Brakes','Chain & sprockets','Clutch','Transmission','Cooling','Fuel & air','Exhaust','Electrical & ignition','Controls','Chassis','Dimensions & weight','General'];
 
-/** The values riders look up most, found by the words the manuals use. The first match wins; nothing is invented. */
-const QUICK:{label:string;rx:RegExp;kind?:FactKind}[]=[
- {label:'Engine oil',rx:/engine oil.*(quantity|capacity|amount)|capacities.*engine oil|oil change quantity|engine oil \(.*\)|^engine oil \/ quantity/i},
- {label:'Oil type',rx:/(recommended|specified) (engine )?oil|engine oil.*(grade|type|viscosity)/i},
- {label:'Valve clearance · intake',rx:/valve clearance.*(intake|in\b)/i},
- {label:'Valve clearance · exhaust',rx:/valve clearance.*(exhaust|ex\b)/i},
+/** The values riders look up most, found by the words the manuals use. The first match wins; nothing is invented.
+ *  Workshop-only numbers (valve clearances, torques) stay in the list and the search, not up here. */
+const QUICK:{label:string;rx:RegExp}[]=[
  {label:'Riding sag',rx:/riding sag|race sag|rider sag/i},
- {label:'Static sag',rx:/static sag|free sag/i},
- {label:'Fork compression · stock',rx:/fork.*compression.*(standard|stock)|front fork.*compression damping.*standard/i},
- {label:'Fork rebound · stock',rx:/fork.*rebound.*(standard|stock)|front fork.*rebound damping.*standard/i},
- {label:'Shock rebound · stock',rx:/shock.*rebound.*(standard|stock)/i},
  {label:'Tire pressure',rx:/tire (air )?pressure|tyre pressure|offroad tire pressure/i},
- {label:'Spark plug',rx:/spark plug(?!.*(torque|gap))|specified spark plug/i},
- {label:'Coolant',rx:/coolant.*(quantity|capacity|amount)|capacities.*coolant/i},
+ {label:'Spark plug',rx:/spark plug(?!.*(torque|gap|tightening))|specified spark plug/i},
+ {label:'Coolant',rx:/coolant.*(quantity|capacity|amount)|capacities.*coolant|^coolant$/i},
+];
+const OIL_AMOUNT=/engine oil.*(quantity|capacity|amount)|capacities.*engine oil|oil change quantity|^engine oil \/ quantity|engine oil quantity/i;
+const OIL_GRADE=/\b\d{1,2}W[-/ ]?\d{2}\b|SAE\s*\d|JASO|API\s*S[A-Z]/i;
+/** Your settings next to stock: Garage key, label, and the words of the stock value in the manual. */
+const YOURS:{key:string;label:string;rx:RegExp}[]=[
+ {key:'fork_compression',label:'Fork compression',rx:/fork.*compression.*(standard|stock)/i},
+ {key:'fork_rebound',label:'Fork rebound',rx:/fork.*rebound.*(standard|stock)/i},
+ {key:'shock_compression',label:'Shock compression',rx:/shock.*(low-speed )?compression.*(standard|stock)/i},
+ {key:'shock_rebound',label:'Shock rebound',rx:/shock.*rebound.*(standard|stock)/i},
+ {key:'rider_sag_mm',label:'Race sag',rx:/riding sag|race sag|rider sag/i},
+ {key:'tire_pressures',label:'Tire pressure',rx:/tire (air )?pressure|tyre pressure/i},
 ];
 
 export function SpecsPage({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
@@ -52,12 +56,22 @@ export function SpecsPage({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
   else setClaims([]);
   return()=>{live=false};},[bike?.id]);
  const rows=useMemo<Row[]>(()=>(claims??[]).map(c=>{const f=splitFact(c.statement);return {c,system:factSystem(c),kind:factKind(c),...f};}),[claims]);
- const quick=useMemo(()=>{const used=new Set<string>();return QUICK.map(q=>{const r=rows.find(r=>!used.has(r.c.id)&&r.value&&q.rx.test(r.section+' / '+r.name)&&r.kind!=='service'&&r.kind!=='torque');if(r)used.add(r.c.id);return r?{label:q.label,row:r}:null;}).filter((x):x is {label:string;row:Row}=>!!x).slice(0,6);},[rows]);
+ const fits=(r:Row)=>r.value&&r.kind!=='service'&&r.kind!=='torque';
+ const quick=useMemo(()=>QUICK.map(q=>{const r=rows.find(r=>fits(r)&&q.rx.test(r.section+' / '+r.name));return r?{label:q.label,row:r}:null;}).filter((x):x is {label:string;row:Row}=>!!x),[rows]);
+ const oil=useMemo(()=>{const amount=rows.find(r=>fits(r)&&OIL_AMOUNT.test(r.section+' / '+r.name));
+  const inAmount=amount?.value.split(';').slice(1).join(';').trim();
+  const full=rows.find(r=>fits(r)&&/engine oil (requirement|specification|recommend)|recommended engine oil|specified engine oil/i.test(r.name)&&OIL_GRADE.test(r.value))?.value.replace(/;\s*/g,' · ');
+  const grade=full??(inAmount&&OIL_GRADE.test(inAmount)?inAmount:rows.find(r=>fits(r)&&r.system==='Oils & fluids'&&/engine oil|oil/i.test(r.section+' '+r.name)&&OIL_GRADE.test(r.value))?.value);
+  return amount||grade?{amount:amount?.value.split(';')[0].trim(),grade:grade?.replace(/^engine oil\s*/i,'').replace(/^\((.*)\)$/,'$1').trim(),row:amount??null}:null;},[rows]);
+ const cfg=bike?.configuration??{};const val=(k:string)=>{const v=cfg[k];return v==null||String(v).trim()===''?'':String(v);};
+ const yours=YOURS.map(y=>({...y,mine:y.key==='rider_sag_mm'&&/^\d+(\.\d+)?$/.test(val(y.key))?val(y.key)+' mm':val(y.key),stock:rows.find(r=>fits(r)&&y.rx.test(r.section+' / '+r.name))?.value.split(';')[0]}));
+ const hasYours=yours.some(y=>y.mine);
+ const jump=(r:Row)=>{setKind('all');setOpen(r.system);setOpenRow(r.c.id);requestAnimationFrame(()=>document.getElementById('sp-'+r.c.id)?.scrollIntoView({block:'center',behavior:'smooth'}));};
  const shown=kind==='all'?rows:rows.filter(r=>r.kind===kind);
  const systems=ORDER.map(s=>({s,items:shown.filter(r=>r.system===s).sort((a,b)=>a.name.localeCompare(b.name))})).filter(g=>g.items.length);
  async function search(e:FormEvent){e.preventDefault();if(!bike)return;const q=query.trim();if(!q){setFound(null);return;}setSearching(true);setError('');try{setFound(await api<Claim[]>('/claims/search?bike_id='+bike.id+'&q='+encodeURIComponent(q)));}catch(err){setError((err as Error).message);}finally{setSearching(false);}}
  const count=(k:FactKind|'all')=>k==='all'?rows.length:rows.filter(r=>r.kind===k).length;
- const row=(r:Row)=>{const id=r.c.id,on=openRow===id;return <li key={id} id={'sp-'+id} className={'sp-row'+(on?' on':'')}>
+ const row=(r:Row)=>{const id=r.c.id,on=openRow===id,stack=r.kind==='service'||r.value.length>34;return <li key={id} id={'sp-'+id} className={'sp-row'+(on?' on':'')+(stack?' stack':'')}>
   <button type="button" className="sp-row-main" aria-expanded={on} onClick={()=>setOpenRow(on?'':id)}><span className="sp-name">{r.name}</span><span className="sp-value">{r.value||'—'}</span></button>
   {on&&<div className="sp-detail">{r.section&&<p className="sp-section">{r.section}</p>}{r.note&&<p>{r.note}</p>}<p className="sp-src">{r.c.source_locator}{/^https?:\/\//.test(r.c.source_url)&&<> · <a href={r.c.source_url} target="_blank" rel="noreferrer">Maker document <ArrowUpRight size={12}/></a></>}</p></div>}
  </li>;};
@@ -69,7 +83,15 @@ export function SpecsPage({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
   <form className="sp-search" onSubmit={search} role="search"><Search size={17} aria-hidden="true"/><input aria-label="Search this bike’s specs" value={query} onChange={e=>{setQuery(e.target.value);if(!e.target.value.trim())setFound(null);}} placeholder="Rear axle nut, valve clearance, fork oil…" enterKeyHint="search"/>{query&&<button type="button" className="sp-clear" aria-label="Clear search" onClick={()=>{setQuery('');setFound(null);}}><X size={15}/></button>}<button type="submit" className="sp-go" disabled={searching||!query.trim()}>{searching?'…':'Search'}</button></form>
   {claims!==null&&!rows.length&&!error?<p className="notice">No published specs on file for this exact bike yet. Ask BAK: it says plainly when a number isn’t confirmed.</p>:
   found?<div className="sp-results"><p className="subtle">{found.length?`${found.length} match${found.length===1?'':'es'}`:'Nothing published matches that for this bike. Try the words a service manual would use.'}</p><ul className="sp-list">{found.map(c=>row({c,system:factSystem(c),kind:factKind(c),...splitFact(c.statement)}))}</ul></div>:<>
-   {quick.length>0&&kind==='all'&&<div className="sp-quick" aria-label="Most looked-up values">{quick.map(q=><button type="button" key={q.label} className="sp-tile" onClick={()=>{setOpen(q.row.system);setOpenRow(q.row.c.id);requestAnimationFrame(()=>document.getElementById('sp-'+q.row.c.id)?.scrollIntoView({block:'center',behavior:'smooth'}));}}><small>{q.label}</small><b>{q.row.value.split(';')[0]}</b></button>)}</div>}
+   {kind==='all'&&<>
+   <div className="sp-quick" aria-label="Most looked-up values">
+    {oil&&<button type="button" className="sp-tile wide" onClick={()=>oil.row&&jump(oil.row)}><small>Engine oil</small><b>{oil.amount||'Amount not published'}</b>{oil.grade&&<span>{oil.grade}</span>}</button>}
+    {quick.map(q=><button type="button" key={q.label} className="sp-tile" onClick={()=>jump(q.row)}><small>{q.label}</small><b>{q.row.value.split(';')[0]}</b></button>)}
+   </div>
+   <div className="sp-yours"><div className="sp-yours-head"><span className="eyebrow">YOUR SETTINGS NOW</span><button type="button" className="hb-link" onClick={onGarage}>{hasYours?'Update':'Add yours'}</button></div>
+    {hasYours?<ul>{yours.filter(y=>y.mine||y.stock).map(y=><li key={y.key}><span>{y.label}</span><b>{y.mine||'—'}</b><small>{y.stock?`stock ${y.stock}`:'stock not published'}</small></li>)}</ul>:<p className="subtle">Put your clickers, sag and tire pressure in Garage and they show here next to stock, so you always know where you are.</p>}
+   </div>
+  </>}
    <div className="sp-kinds" role="tablist" aria-label="Kind of value">{KINDS.map(k=><button key={k.k} type="button" role="tab" aria-selected={kind===k.k} className={kind===k.k?'on':''} onClick={()=>setKind(k.k)} disabled={k.k!=='all'&&!count(k.k)}>{k.label}<span>{count(k.k)}</span></button>)}</div>
    <div className="sp-groups">{systems.map(g=>{const isOpen=open===g.s||systems.length===1;return <div key={g.s} className={'sp-group'+(isOpen?' open':'')}>
     <button type="button" className="sp-group-head" aria-expanded={isOpen} onClick={()=>setOpen(isOpen?'':g.s)}><span>{g.s}</span><small>{g.items.length}</small><ChevronDown size={17}/></button>
