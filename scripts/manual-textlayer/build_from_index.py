@@ -10,6 +10,11 @@ def flags(p,v):
     if not p.startswith('Service') and len(lab)>75: f.append('longlabel')
     if v.startswith(('(',')',';')) or re.search(r'\) US$|liq\. gal\b(?!.*\))',v) or '  ' in p: f.append('shape')
     if v.count('(')!=v.count(')') or lab.count('(')!=lab.count(')'): f.append('parens')
+    # Torque rows (added 2026-10-30): the value must start with a torque figure, a range, "hand-tight" or a printed
+    # tightening sequence, and the label must not carry stage numbers ("1.", "2.") from a multi-stage row the new
+    # layout prints over several lines; those rows otherwise come out as a single stage or a remark fragment.
+    if p.startswith(('Engine tightening torques','Chassis tightening torques')):
+        if not re.match(r'^(\d+(\.\d+)? Nm|\d+(\.\d+)? … \d+(\.\d+)? Nm|hand-tight|Tightening sequence|1st (tightening )?stage)',v) or re.search(r'(^|[\s(])\d\.(\s|\)|$)',lab): f.append('torque')
     return f
 PARTIAL={('GasGas','MC 250F',2024),('Husqvarna','FC 250',2023),('Husqvarna','FC 250',2024),('Husqvarna','FC 450',2023),('Husqvarna','FC 450',2024)}
 def main():
@@ -29,8 +34,10 @@ def main():
                 report.append({'i':None,'make':make,'model':model,'yr':yr,'doc':doc,'layout':'','n':0,'sched':0,'sched_problems':[],'secs':{},'damp':0,'dropped':[],'flagged':[],'notes':['NOT ON COVER: '+cover[:120]]}); continue
             f,q=mod.facts(rows,model)
             # A bike that already has a reviewed table on file only receives suspension rows and the service schedule.
+            # Tightening torques are kept as well (2026-10-30): the reviewed tables on file predate the torque reader,
+            # so these rows are new paths; the loader's ON CONFLICT DO NOTHING leaves the rows already on file untouched.
             partial=(make,model,int(yr)) in PARTIAL
-            allr=[(r['pdf'],r['printed'],p,v) for r,p,v in f if not partial or p.startswith(('Fork','Shock absorber'))]; ns=0
+            allr=[(r['pdf'],r['printed'],p,v) for r,p,v in f if not partial or p.startswith(('Fork','Shock absorber','Engine tightening torques','Chassis tightening torques'))]; ns=0
             for a,b,p,v in sched:
                 p2,ok,notes=V.strip(p,model); q.update(notes)
                 if ok: allr.append((a,b,p2,v)); ns+=1
