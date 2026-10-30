@@ -362,7 +362,7 @@ export function Messages({signedIn,onSignIn,startWith,onStarted}:{signedIn:boole
    {listError&&<div className="error" role="alert">{listError}</div>}
    {threads===null&&<SkeletonList kind="thread"/>}
    {threads&&!threads.length&&<p className="subtle">No conversations yet. Use “Message” on a post or event to start one. Messages are private between you and the other rider.</p>}
-   {threads?.map(t=><button key={t.rider.user_id} className={'rd-thread'+(active?.user_id===t.rider.user_id?' selected':'')+(t.unread?' unread':'')} aria-label={`${riderName(t.rider)}${t.unread?`, ${t.unread} new`:''}`} onClick={()=>void open(t.rider)}>
+   {threads?.map(t=><button key={t.rider.user_id} className={'rd-thread'+(active?.user_id===t.rider.user_id?' selected':'')+(t.unread?' rd-has-unread':'')} aria-label={`${riderName(t.rider)}${t.unread?`, ${t.unread} new`:''}`} onClick={()=>void open(t.rider)}>
     <Avatar rider={t.rider} size={42}/>
     <span className="rd-thread-text"><span className="rd-thread-top"><strong>{riderName(t.rider)}</strong><time>{ago(t.last_message.created_at)}</time></span><small>{t.last_message.mine?'You: ':''}{t.last_message.body}</small></span>
     {t.unread>0&&<i className="rd-unread" aria-hidden="true"/>}

@@ -199,3 +199,16 @@ textarea.hb-input{resize:vertical;min-height:72px}
  .hb-title.big{font-size:28px}
  .hb-count .hb-days b{font-size:40px}
 }
+
+/* Garage: one active bike, a chip row to switch, tabs in one line */
+.garage-switch{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:0 0 12px;margin-top:-4px}
+.garage-switch::-webkit-scrollbar{display:none}
+.garage-switch .hb-cchip{height:34px;max-width:none}
+.tabs.garage-tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin:4px 0 18px;border-bottom:1px solid #1b1f27}
+.tabs.garage-tabs button{padding:12px 4px;font-size:14px;white-space:nowrap;text-align:center}
+@media(max-width:760px){
+ .shell>.app-header,.shell.bars-hidden>.app-header{background:#07080a;backdrop-filter:none;-webkit-backdrop-filter:none}
+ .tabs.garage-tabs button{font-size:13.5px}
+}
+.tabs.garage-tabs button{border:0;border-radius:0;background:none;color:#9ea6b3;font-weight:700;box-shadow:none;border-bottom:2px solid transparent;margin-bottom:-1px}
+.tabs.garage-tabs button.active{color:#fff;background:none;border-bottom-color:var(--bike-accent)}

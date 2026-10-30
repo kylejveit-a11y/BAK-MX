@@ -165,10 +165,10 @@
 .rd-thread-text{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
 .rd-thread-top{display:flex;align-items:center;gap:8px}
 .rd-thread-top strong{flex:1;min-width:0;font-size:15.5px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.rd-thread.unread .rd-thread-top strong{font-weight:800}
+.rd-thread.rd-has-unread .rd-thread-top strong{font-weight:800}
 .rd-thread-top time{font-size:12px;color:#7c858e;flex-shrink:0}
 .rd-thread small{font-size:14px;color:#adb5c1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.rd-thread.unread small{color:#eef0f4}
+.rd-thread.rd-has-unread small{color:#eef0f4}
 .rd-unread{width:9px;height:9px;border-radius:50%;background:var(--bike-accent);flex-shrink:0}
 .rd-chat-head{align-items:center;position:relative}
 .rd-chat-head>div:not(.rd-chat-more){flex:1;min-width:0}

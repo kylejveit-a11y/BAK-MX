@@ -1,0 +1,34 @@
+// Sample data for the signed-in visual check. Nothing here reaches a real backend: Playwright answers every /api call
+// and every Supabase call with these objects, so the screens render the way a rider with a bike and an answer sees them.
+const USER='00000000-0000-4000-8000-000000000001';
+const now=Date.now(),iso=(ms)=>new Date(ms).toISOString(),day=86400000;
+const rider={user_id:USER,handle:'bakrider',display_name:'Visual Check',location:'Tampa, FL',riding_class:'Vet B',race_number:'817',avatar_url:undefined};
+const bike={id:'11111111-1111-4111-8111-111111111111',user_id:USER,manufacturer:'KTM',model:'450 SX-F',model_year:2025,variant:'standard',region:'US',nickname:'',engine_hours:64,
+ configuration:{geared_weight_lb:'200',skill_level:'Intermediate',discipline:'Motocross',usual_dirt:'Sand',fork_compression:'14',fork_rebound:'15',shock_compression:'15',shock_rebound:'15',rider_sag_mm:'105',front_tire_psi:'12.5',rear_tire_psi:'12.5',exhaust_brand:'FMF',exhaust_name:'Factory 4.1',handlebar_brand:'ODI'},
+ created_at:iso(now-40*day),updated_at:iso(now-2*day)};
+const bike2={...bike,id:'22222222-2222-4222-8222-222222222222',manufacturer:'Kawasaki',model:'KX450',model_year:2026,engine_hours:3,configuration:{}};
+const conversation={id:'33333333-3333-4333-8333-333333333333',user_id:USER,bike_id:bike.id,title:'What does high-speed compression actually do?',mode:'ask',created_at:iso(now-3600000),updated_at:iso(now-3600000)};
+const answer={kind:'answer',summary:'High-speed compression controls how the shock resists fast shaft movement, not bike speed.',
+ answer:'**High-speed compression controls the shock’s resistance to fast shaft movement—not bike speed.** A square-edged bump at low riding speed can activate it; a smooth roller at high riding speed may be mostly low-speed compression.\n\nOn your 450 SX-F it mainly affects sharp bumps, hard landings and how much the rear gives way under a big hit:\n\n- **More damping, clockwise:** more support and bottoming resistance; too much makes the rear harsh or deflect sideways off edges.\n- **Less damping, counterclockwise:** lets the rear absorb sharp hits more easily; too little can let it blow through travel and bottom.\n\nIt’s the larger outer adjuster on the shock reservoir; the centre clicker controls low-speed compression.\n\n| Setting | Stock | Yours |\n|---|---|---|\n| High-speed compression | 1.5 turns | 1.5 turns |\n| Low-speed compression | 15 clicks | 15 clicks |',
+ observations:[],systems:['rear suspension'],hypotheses:[{mechanism:'Rear harshness on square edges often comes from too much high-speed compression for the rider weight.',explains:'Deflection off braking bumps',confirm:'Go 1/4 turn out and ride the same section',reject:'No change after 1/2 turn'}],
+ unknowns:['Your current spring rate'],next_step:{action:'Ride the same rough section once at the stock setting, then 1/4 turn softer.',purpose:'Feel the difference before changing anything else.',stop_conditions:['Stop if the rear bottoms hard on landings.']},
+ evidence_ids:[],specifications:[{claim_id:'c1',value:'Shock absorber / High-speed compression damping / Standard: 1.5 turns'}],confidence:'SUPPORTED',references:[]};
+const messages=[
+ {id:'m1',conversation_id:conversation.id,user_id:USER,role:'user',content:'What does high-speed compression actually do?',response:null,created_at:iso(now-3600000)},
+ {id:'m2',conversation_id:conversation.id,user_id:USER,role:'assistant',content:answer.answer,response:answer,created_at:iso(now-3590000)}];
+const services=[{id:'s1',user_id:USER,bike_id:bike.id,category:'Engine oil',performed_at:iso(now-9*day),engine_hours:58,notes:'Motorex 10W-60, new filter',next_due_hours:73,interval_source:'rider',created_at:iso(now-9*day)},
+ {id:'s2',user_id:USER,bike_id:bike.id,category:'Air filter',performed_at:iso(now-2*day),engine_hours:63,notes:'',next_due_hours:null,interval_source:'rider',created_at:iso(now-2*day)}];
+const plan=[{category:'Engine oil',every_hours:15,first_hours:1,task:'Change the engine oil and the oil filter',claim_id:'c2',note:null},{category:'Air filter',every_hours:5,first_hours:null,task:'Clean the air filter',claim_id:'c3',note:null},{category:'Valve check',every_hours:30,first_hours:null,task:'Check the valve clearance',claim_id:'c4',note:null}];
+const setupLogs=[{id:'l1',user_id:USER,bike_id:bike.id,recorded_at:iso(now-5*day),track:'Dade City MX',conditions:'Loamy, watered, 85°F',engine_hours:62,settings:{fork_compression:'14',shock_rebound:'15'},change_made:'Fork compression 2 clicks softer',result:'better',notes:'Front stopped deflecting off braking bumps.',created_at:iso(now-5*day)}];
+const events=[{id:'e1',user_id:'other',title:'Practice day',event_type:'practice',starts_at:iso(now+2*day),ends_at:null,location_name:'Dade City MX',description:'Open practice, all classes.',created_at:iso(now-3*day),canceled_at:null,host:{...rider,user_id:'other',handle:'dademx',display_name:'Dade City MX'},mine:false,going_count:12,interested_count:4,my_rsvp:'going'},
+ {id:'e2',user_id:'other',title:'Florida Winter Series Rd 1',event_type:'race',starts_at:iso(now+9*day),ends_at:null,location_name:'Bostwick Creek',description:'Round one.',created_at:iso(now-3*day),canceled_at:null,host:{...rider,user_id:'other2',handle:'fws',display_name:'FWS'},mine:false,going_count:40,interested_count:9,my_rsvp:null}];
+const posts=[{id:'p1',user_id:'other',category:'build',body:'Fresh top end, new FMF and a Rekluse. Ready for the winter series.',bike_label:'2025 KTM 450 SX-F',created_at:iso(now-8*day),author:{...rider,user_id:'other',handle:'godfather817',display_name:'God Father 817'},mine:false,like_count:7,liked:false,comment_count:2,photos:[]},
+ {id:'p2',user_id:USER,category:'setup_question',body:'Anyone running a 5.0 rear spring at 200 lb geared on the 450? Sag numbers?',bike_label:'2025 KTM 450 SX-F',created_at:iso(now-1*day),author:rider,mine:true,like_count:2,liked:true,comment_count:0,photos:[]}];
+const threads=[{rider:{...rider,user_id:'other',handle:'godfather817',display_name:'God Father 817'},last_message:{body:'See you at Dade Saturday?',created_at:iso(now-2*3600000),mine:false},unread:1}];
+const coaching=[];
+const checklist={items:null};
+const tracks=[{name:'Dade City MX',state:'FL',lat:28.4,lng:-82.2},{name:'Bostwick Creek',state:'FL',lat:29.8,lng:-81.6},{name:'WW Ranch',state:'FL',lat:30.2,lng:-81.9}];
+module.exports={USER,bike,bike2,conversation,messages,answer,services,plan,setupLogs,events,posts,threads,coaching,checklist,tracks,rider,
+ profile:{...rider,bio:'Vet B. Sand tracks mostly.',created_at:iso(now-200*day),avatar_photo_id:null},
+ entitlement:{status:'trialing',current_period_end:iso(now+20*day),cancel_at_period_end:false},
+ coverage:{specs:1581,suspension_settings:41,torque_values:631,parts_catalog:{complete:true,part_count:912},workshop_guides:18}};
