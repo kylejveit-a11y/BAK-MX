@@ -1,0 +1,239 @@
+/* Rider surfaces (Community, Events, Messages, Profile, Feedback, Setup log).
+   Scoped under rd- names. Reuses the app's tokens: --accent, --bike-accent, --bike-tint, --bike-wash, --steel, --hair.
+   The bike colour marks things (checks, dots, chevrons, selected borders, tints); it never colours lettering. */
+
+.rd-plain{padding:0;text-align:left;display:flex;align-items:center;min-width:0}
+.rd-danger-text{color:#e4a0ac}
+.rd-danger{color:#f0b7c0}
+.rd-note{margin-left:auto}
+
+/* Sign-in line */
+.rd-signin{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.rd-signin p{margin:0;font-size:15px;color:var(--ink-2,#a3aab6)}
+
+/* Avatar */
+.rd-avatar{flex-shrink:0;object-fit:cover;border-radius:50%;font-weight:800;font-style:italic;display:grid;place-items:center}
+
+/* Choices: chips with a check in the bike colour on the chosen one */
+.rd-choices{display:flex;flex-direction:column;gap:8px;margin-bottom:17px}
+.rd-choices-label{font-size:12px;font-weight:600;color:#b5c0d4}
+.rd-chips{display:flex;flex-wrap:wrap;gap:8px}
+.rd-chip{display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:0 14px;border-radius:12px;border:1px solid #2a2f39;background:transparent;color:#b2b9c4;font-size:14px;font-weight:500;transition:border-color .15s,background .15s}
+.rd-chip:hover{border-color:#3a414d;color:#e2e6ec}
+.rd-chip.on{border-color:var(--bike-accent);background:var(--bike-tint);color:#fff;font-weight:700}
+.rd-chip.on svg{color:var(--bike-accent)}
+.rd-chip:focus-visible{outline-color:var(--bike-accent)}
+
+/* "⋯" menu */
+.rd-more{position:relative;flex-shrink:0;margin-left:auto}
+.rd-more-button{color:#adb5c1;border-radius:50%}
+.rd-more-button[aria-expanded=true]{color:#fff;background:#1c1f27}
+.rd-menu{position:absolute;right:0;top:calc(100% + 6px);z-index:30;min-width:180px;padding:6px;border-radius:14px;background:linear-gradient(180deg,#171a21,#0f1116);border:1px solid #2a2f3a;box-shadow:0 18px 50px rgba(0,0,0,.6),inset 0 1px 0 rgba(255,255,255,.06)}
+.rd-menu-item{display:block;width:100%;text-align:left;padding:11px 12px;border-radius:9px;font-size:14.5px;font-weight:600;color:#e4e7ed}
+.rd-menu-item:hover,.rd-menu-item:focus-visible{background:#1e222b}
+.rd-menu-item.danger{color:#efb5be}
+
+/* Report / block panel */
+.rd-mod{margin:12px 0 4px;padding:14px 16px;border-radius:14px;background:#0f1116;border:1px solid var(--hair,#1d2129)}
+.rd-mod p{font-size:14px;margin:0 0 10px;color:#d5dbe7}
+.rd-mod .field{margin-bottom:10px}
+.rd-mod .button-row{margin-top:8px}
+.rd-actions{display:inline-flex;flex-direction:column;min-width:0}
+.rd-actions-row{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.rd-actions-row .rd-more{margin-left:0}
+
+/* Skeleton placeholders */
+.rd-skeleton{display:flex;flex-direction:column;gap:22px;padding:8px 0;animation:rd-pulse 1.4s ease-in-out infinite}
+.rd-skeleton i{display:block;background:#1a1d24;border-radius:6px}
+.rd-sk-row{display:flex;align-items:center;gap:12px}
+.rd-sk-row>div{display:flex;flex-direction:column;gap:7px;min-width:0}
+.rd-sk-circle{width:36px;height:36px;border-radius:50%!important;flex-shrink:0}
+.rd-sk-square{width:46px;height:50px;border-radius:10px!important;flex-shrink:0}
+.rd-sk-bar{height:12px;max-width:100%}.rd-sk-bar.thin{height:10px;background:#15181e!important}
+.rd-sk-post{display:flex;flex-direction:column;gap:12px}
+.rd-sk-block{height:190px;border-radius:14px!important;background:#121418!important}
+@keyframes rd-pulse{0%,100%{opacity:.45}50%{opacity:.9}}
+@media(prefers-reduced-motion:reduce){.rd-skeleton{animation:none;opacity:.6}}
+.rd-spin{display:inline-block;width:14px;height:14px;border-radius:50%;border:2px solid rgba(255,255,255,.25);border-top-color:#fff;animation:rd-spin .8s linear infinite}
+@keyframes rd-spin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.rd-spin{animation:none}}
+
+/* Profile */
+.rd-profile-head{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+.rd-profile-name{flex:1;min-width:0}
+.rd-profile-name h2{margin:0;font-size:22px;overflow-wrap:anywhere}
+.rd-profile-name p{margin:3px 0 0}
+.rd-avatar-button{position:relative;padding:0;border-radius:50%;flex-shrink:0}
+.rd-avatar-badge{position:absolute;right:-2px;bottom:-2px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:var(--steel,#d9dde4);color:#0b0d12;border:1px solid rgba(255,255,255,.35);box-shadow:0 2px 8px rgba(0,0,0,.6)}
+.rd-avatar-button:disabled{opacity:.7}
+.rd-bio{font-size:15px;line-height:1.55;margin:0 0 12px;color:#d5dbe7}
+.rd-photo-hint{margin:-4px 0 14px}
+
+/* Community: start row and filters */
+.rd-feedhead{display:flex;flex-direction:column;gap:14px;margin-bottom:18px}
+.rd-start{display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:0}
+.rd-start>span{flex:1;min-height:44px;display:flex;align-items:center;padding:0 16px;border:1px solid #2f3540;border-radius:22px;color:#adb5c1;font-size:15px}
+.rd-start>svg{color:var(--bike-accent);flex-shrink:0}
+.rd-start:hover>span{border-color:#3d4452;color:#d5dbe7}
+.rd-filters{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin:0 -4px;padding:2px 4px}
+.rd-filters::-webkit-scrollbar{display:none}
+.rd-filter{flex-shrink:0;padding:7px 13px;border-radius:16px;border:1px solid #2f3540;color:#c9cfd9;font-size:13px;font-weight:500;white-space:nowrap}
+.rd-filter.on{border-color:var(--bike-accent);background:var(--bike-tint);color:#fff;font-weight:700}
+
+/* Composer */
+.rd-compose{margin-bottom:18px}
+.rd-compose-head{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.rd-compose-head>div{flex:1;min-width:0;display:flex;flex-direction:column;gap:6px}
+.rd-compose-head strong{font-size:16px}
+.rd-biketag{display:inline-flex;align-items:center;gap:6px;align-self:flex-start;max-width:100%;padding:4px 10px;border-radius:14px;border:1px solid #2f3540;color:#adb5c1;font-size:12.5px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rd-biketag.on{border-color:var(--bike-accent);color:#fff;background:var(--bike-wash)}
+.rd-biketag.on svg{color:var(--bike-accent)}
+.rd-compose .rd-choices{margin-bottom:12px}
+.rd-compose-text{background:transparent;border:0;border-radius:0;padding:6px 0;font-size:18px;line-height:1.5;min-height:140px;resize:vertical;color:#eef0f4}
+.rd-compose-text::placeholder{font-size:17px;color:#7d8593}
+.rd-compose-text:focus{outline:none;border-color:transparent}
+.rd-thumbs{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 4px}
+.rd-thumb{position:relative;width:104px;height:104px;border-radius:14px;overflow:hidden;background:#101217;border:1px solid var(--hair,#1d2129)}
+.rd-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.rd-thumb.uploading{display:grid;place-items:center}
+.rd-thumb-x{position:absolute;top:6px;right:6px;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:rgba(6,8,12,.78);color:#fff;border:1px solid rgba(255,255,255,.2)}
+.rd-compose-bar{display:flex;align-items:center;gap:16px;padding-top:12px;margin-top:8px;border-top:1px solid var(--hair,#1d2129);flex-wrap:wrap}
+.rd-tool{display:inline-flex;align-items:center;gap:7px;padding:8px 4px;color:#eef0f4;font-size:14px;font-weight:600}
+.rd-tool svg{color:var(--bike-accent)}
+.rd-tool:disabled{opacity:.35}
+.rd-count{margin-left:auto;font-size:12.5px}
+.rd-compose-bar .button{flex-shrink:0}
+
+/* Post card */
+.rd-post{display:flex;flex-direction:column;gap:12px}
+.rd-post-head{display:flex;align-items:center;gap:12px;margin:0}
+.rd-post-who{flex:1;flex-direction:column;align-items:flex-start;gap:2px}
+.rd-post-who strong{font-size:15.5px;font-weight:700;line-height:1.3}
+.rd-post-who strong .subtle{font-weight:500;font-size:13px}
+.rd-context{display:block;font-size:12.5px;color:#adb5c1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.rd-context b{color:#eef0f4;font-weight:700}
+.rd-body{margin:0;font-size:16px;line-height:1.55}
+.rd-body.clipped{display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical;overflow:hidden}
+.rd-seemore{padding:0;font-size:14px;color:#adb5c1;align-self:flex-start;margin-top:-6px}
+.rd-post .post-photos{margin:0}
+.rd-post-foot{display:flex;align-items:center;gap:22px;padding-top:4px}
+.rd-act{display:inline-flex;align-items:center;gap:6px;padding:4px 0;color:#eef0f4;font-size:14px;font-weight:600;transition:transform .12s}
+.rd-act:active{transform:scale(.92)}
+.rd-act.liked{color:#e8607a}
+.rd-viewcomments{padding:0;font-size:14px;color:#adb5c1;font-weight:500;align-self:flex-start}
+
+/* Comments */
+.rd-comments{display:flex;flex-direction:column;gap:12px;padding-top:4px}
+.rd-comment{display:flex;gap:10px;align-items:flex-start}
+.rd-comment-body{flex:1;min-width:0}
+.rd-comment-body .plain-message{font-size:14.5px;line-height:1.5;margin:0 0 2px}
+.rd-comment-body strong{font-weight:700}
+.rd-comment-body>.subtle{font-size:12px}
+.rd-comment .rd-more{margin-left:0}
+.rd-comment-form{display:flex;align-items:center;gap:8px;border:1px solid #2f3540;border-radius:22px;padding:4px 5px 4px 14px}
+.rd-comment-form input{flex:1;background:none;border:0;padding:8px 0;font-size:15px;min-width:0}
+.rd-comment-form input:focus{outline:none;border-color:transparent}
+.rd-send{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;flex-shrink:0;background:var(--steel,#d9dde4);color:#0b0d12}
+.rd-send:disabled{background:#23272f;color:#7d8593;opacity:1}
+
+/* Events */
+.rd-tags{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:8px}
+.rd-tag{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:600;color:#b6bfcc;text-transform:capitalize}
+.rd-tag i{width:6px;height:6px;border-radius:50%;background:var(--bike-accent);display:inline-block}
+.rd-badge{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:700;padding:4px 10px;border-radius:999px;border:1px solid #2a2f39;color:#c9cfd9;background:#0f1116}
+.rd-badge.good{color:#bfe3c8;border-color:#2c5a3a;background:#0f1c14}
+.rd-badge.good svg{color:#6cc28a}
+.rd-badge.bad{color:#efb5be;border-color:#5a2c33;background:#1c0f12}
+.rd-badge.past{color:#8f97a4;border-color:#262a33;background:transparent}
+.rd-eventform .panel-title{margin-bottom:14px}
+.rd-event .event-body h3{margin:4px 0 8px}
+.rd-event.canceled .event-body h3{text-decoration:line-through;color:#8f9bb0}
+.rd-eventline{display:flex;align-items:center;gap:8px;margin:0 0 6px;font-size:14.5px;color:#c9cfd9}
+.rd-eventline svg{color:#adb5c1;flex-shrink:0}
+.rd-host{display:flex;align-items:center;gap:8px;margin:4px 0 12px}
+.rd-rsvp{display:flex;gap:10px;margin-bottom:12px}
+.rd-rsvp-button{flex:1;display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:42px;padding:0 14px;border-radius:var(--r-ctl,9px);border:1px solid #2a2f39;background:#0f1116;color:#eef0f4;font-size:14px;font-weight:700;transition:border-color .15s,background .15s}
+.rd-rsvp-button:hover{border-color:#3a414d}
+.rd-rsvp-button.on{border-color:var(--bike-accent);background:var(--bike-tint)}
+.rd-rsvp-button.on svg{color:var(--bike-accent)}
+.rd-event .rd-actions-row{gap:16px}
+
+/* Messages */
+.rd-threads{padding:14px 10px}
+.rd-thread{display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:12px 8px;border-radius:14px}
+.rd-thread:hover,.rd-thread.selected{background:#15171d}
+.rd-thread-text{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
+.rd-thread-top{display:flex;align-items:center;gap:8px}
+.rd-thread-top strong{flex:1;min-width:0;font-size:15.5px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rd-thread.unread .rd-thread-top strong{font-weight:800}
+.rd-thread-top time{font-size:12px;color:#7c858e;flex-shrink:0}
+.rd-thread small{font-size:14px;color:#adb5c1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rd-thread.unread small{color:#eef0f4}
+.rd-unread{width:9px;height:9px;border-radius:50%;background:var(--bike-accent);flex-shrink:0}
+.rd-chat-head{align-items:center;position:relative}
+.rd-chat-head>div:not(.rd-chat-more){flex:1;min-width:0}
+.rd-chat-head strong{font-size:15px}
+.rd-chat-head p{font-size:12px;margin:2px 0 0;color:#9ba8bb}
+.rd-chat-more{margin-left:auto}
+.rd-chat-more .rd-mod{position:absolute;right:16px;left:16px;z-index:20}
+.rd-messages{display:flex;flex-direction:column;gap:10px;padding:20px}
+.rd-bubble{align-self:flex-start;max-width:85%;padding:10px 14px;border-radius:18px;background:#121418;display:flex;flex-direction:column;gap:3px}
+.rd-bubble.mine{align-self:flex-end;background:#1b2130}
+.rd-bubble .plain-message{font-size:16px;line-height:1.4;margin:0;color:#eef0f4}
+.rd-bubble time{font-size:11px;color:#7c858e}
+.rd-composer textarea{min-height:44px}
+
+/* Feedback */
+.rd-feedback .rd-choices{margin-bottom:14px}
+.rd-feedback-note{margin:-6px 0 14px}
+
+/* Setup log */
+.rd-logform .rd-choices{margin-bottom:17px}
+.rd-logs{display:flex;flex-direction:column}
+.rd-log{border-top:1px solid var(--hair,#1d2129);padding:18px 0 14px;display:flex;flex-direction:column;gap:6px}
+.rd-log h3{font-size:18px;font-weight:700;margin:0}
+.rd-log .plain-message{font-size:15px;line-height:1.5;margin:0}
+.rd-log>.subtle{margin:0}
+.rd-log .rd-tags{margin-bottom:2px}
+.rd-diff{margin:0;padding-left:18px;font-size:14px;line-height:1.5;color:#d5dbe7}
+.rd-log details summary{font-size:13px;color:#9aa7bb;cursor:pointer;margin:4px 0}
+.rd-log .rd-actions-row{margin-top:4px}
+
+/* Rider profile (modal) */
+.rd-rider-head{display:flex;flex-direction:column;align-items:center;text-align:center;gap:8px;padding:8px 0 4px}
+.rd-rider-head h2{margin:0;font-size:26px;font-weight:900;font-style:italic;letter-spacing:-.02em}
+.rd-rider-head p{margin:0}
+.rd-rider-head .rd-bio{max-width:48ch}
+.rd-rider-head .rd-actions{align-items:center}
+.rd-rider-head .rd-mod{text-align:left}
+.rd-rider-post{padding:16px 0;border-top:1px solid var(--hair,#1d2129);display:flex;flex-direction:column;gap:8px}
+.rd-rider-post .plain-message{font-size:15.5px;line-height:1.55;margin:0}
+
+/* Phone width */
+@media(max-width:760px){
+ .rd-feedhead{gap:12px}
+ .rd-filters{margin:0 -18px;padding:2px 18px}
+ .rd-post{padding:18px 0;gap:12px}
+ .rd-compose-text{font-size:17px}
+ .rd-compose-bar{gap:12px}
+ .rd-compose-bar .button{width:auto}
+ .rd-thumb{width:92px;height:92px}
+ .rd-event{gap:14px}
+ .rd-rsvp{flex-direction:row}
+ .rd-rsvp-button{min-height:44px}
+ .rd-chat .rd-threads{padding:0 18px}
+ .rd-thread{padding:12px 0;border-radius:0;border-bottom:1px solid var(--hair,#1d2129)}
+ .rd-thread:hover,.rd-thread.selected{background:none}
+ .rd-chat-more .rd-mod{right:0;left:0}
+ .rd-messages{padding:16px}
+ .rd-log h3{font-size:17px}
+ .rd-log .rd-tags{gap:10px}
+ .rd-rider-head h2{font-size:24px}
+ .rd-signin{flex-direction:column;align-items:flex-start}
+ .rd-signin .button{width:100%}
+}
+@media(max-width:390px){
+ .rd-chip{min-height:36px;padding:0 12px;font-size:13.5px}
+ .rd-rsvp-button{font-size:13.5px;padding:0 10px}
+ .rd-post-foot{gap:18px}
+}
