@@ -7,6 +7,7 @@ import {ArrowUpRight,BookOpen,ChevronDown,Search,X} from 'lucide-react';
 import type {Bike,Claim} from '../shared/types';
 import {factSystem,factKind,type FactKind,type FactSystem} from '../shared/fact-system';
 import {api} from './client';
+import {plainName,plainInterval,sameJob} from '../shared/plain-facts';
 import './specs.css';
 
 type Row={c:Claim;system:FactSystem;kind:FactKind;name:string;value:string;note:string;section:string};
@@ -49,13 +50,18 @@ const YOURS:{key:string;label:string;rx:RegExp}[]=[
  {key:'tire_pressures',label:'Tire pressure',rx:/tire (air )?pressure|tyre pressure/i},
 ];
 
+/** One list row in rider words: plain part name, and for service jobs the one interval a rider follows. */
+function toRow(c:Claim):Row{const f=splitFact(c.statement),kind=factKind(c);
+ return {c,system:factSystem(c),kind,...f,name:plainName(f.name),value:kind==='service'?plainInterval(f.value):f.value};}
+const everyH=(v:string)=>{const m=v.match(/Every (\d+(?:\.\d+)?) h/);return m?Number(m[1]):Infinity;};
+
 export function SpecsPage({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
  const [claims,setClaims]=useState<Claim[]|null>(null),[error,setError]=useState(''),[kind,setKind]=useState<FactKind|'all'>('all'),[open,setOpen]=useState<string>(''),[query,setQuery]=useState(''),[found,setFound]=useState<Claim[]|null>(null),[searching,setSearching]=useState(false),[openRow,setOpenRow]=useState('');
  useEffect(()=>{let live=true;setClaims(null);setError('');setFound(null);setQuery('');setOpen('');
   if(bike)api<Claim[]>('/claims?bike_id='+bike.id).then(d=>{if(live)setClaims(d.filter(c=>c.manufacturer===bike.manufacturer&&c.model===bike.model&&c.model_year===bike.model_year&&c.variant===bike.variant&&c.region===bike.region&&c.status==='VERIFIED'&&!c.has_conflict))}).catch(e=>{if(live){setError((e as Error).message);setClaims([]);}});
   else setClaims([]);
   return()=>{live=false};},[bike?.id]);
- const rows=useMemo<Row[]>(()=>(claims??[]).map(c=>{const f=splitFact(c.statement);return {c,system:factSystem(c),kind:factKind(c),...f};}),[claims]);
+ const rows=useMemo<Row[]>(()=>{const out:Row[]=[];for(const c of claims??[]){const r=toRow(c);if(out.some(o=>o.kind===r.kind&&o.system===r.system&&sameJob(o.name,r.name)&&o.value===r.value))continue;out.push(r);}return out;},[claims]);
  const fits=(r:Row)=>r.value&&r.kind!=='service'&&r.kind!=='torque';
  const quick=useMemo(()=>QUICK.map(q=>{const r=rows.find(r=>fits(r)&&q.rx.test(r.section+' / '+r.name));return r?{label:q.label,row:r}:null;}).filter((x):x is {label:string;row:Row}=>!!x),[rows]);
  const oil=useMemo(()=>{const amount=rows.find(r=>fits(r)&&OIL_AMOUNT.test(r.section+' / '+r.name));
@@ -68,10 +74,10 @@ export function SpecsPage({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
  const hasYours=yours.some(y=>y.mine);
  const jump=(r:Row)=>{setKind('all');setOpen(r.system);setOpenRow(r.c.id);requestAnimationFrame(()=>document.getElementById('sp-'+r.c.id)?.scrollIntoView({block:'center',behavior:'smooth'}));};
  const shown=kind==='all'?rows:rows.filter(r=>r.kind===kind);
- const systems=ORDER.map(s=>({s,items:shown.filter(r=>r.system===s).sort((a,b)=>a.name.localeCompare(b.name))})).filter(g=>g.items.length);
+ const systems=ORDER.map(s=>({s,items:shown.filter(r=>r.system===s).sort((a,b)=>a.kind==='service'&&b.kind==='service'?everyH(a.value)-everyH(b.value)||a.name.localeCompare(b.name):a.name.localeCompare(b.name))})).filter(g=>g.items.length);
  async function search(e:FormEvent){e.preventDefault();if(!bike)return;const q=query.trim();if(!q){setFound(null);return;}setSearching(true);setError('');try{setFound(await api<Claim[]>('/claims/search?bike_id='+bike.id+'&q='+encodeURIComponent(q)));}catch(err){setError((err as Error).message);}finally{setSearching(false);}}
  const count=(k:FactKind|'all')=>k==='all'?rows.length:rows.filter(r=>r.kind===k).length;
- const row=(r:Row)=>{const id=r.c.id,on=openRow===id,stack=r.kind==='service'||r.value.length>34;return <li key={id} id={'sp-'+id} className={'sp-row'+(on?' on':'')+(stack?' stack':'')}>
+ const row=(r:Row)=>{const id=r.c.id,on=openRow===id,stack=r.value.length>34;return <li key={id} id={'sp-'+id} className={'sp-row'+(on?' on':'')+(stack?' stack':'')}>
   <button type="button" className="sp-row-main" aria-expanded={on} onClick={()=>setOpenRow(on?'':id)}><span className="sp-name">{r.name}</span><span className="sp-value">{r.value||'—'}</span></button>
   {on&&<div className="sp-detail">{r.section&&<p className="sp-section">{r.section}</p>}{r.note&&<p>{r.note}</p>}<p className="sp-src">{r.c.source_locator}{/^https?:\/\//.test(r.c.source_url)&&<> · <a href={r.c.source_url} target="_blank" rel="noreferrer">Maker document <ArrowUpRight size={12}/></a></>}</p></div>}
  </li>;};
@@ -82,7 +88,7 @@ export function SpecsPage({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
   {error&&<div className="error" role="alert">{error}</div>}
   <form className="sp-search" onSubmit={search} role="search"><Search size={17} aria-hidden="true"/><input aria-label="Search this bike’s specs" value={query} onChange={e=>{setQuery(e.target.value);if(!e.target.value.trim())setFound(null);}} placeholder="Rear axle nut, valve clearance, fork oil…" enterKeyHint="search"/>{query&&<button type="button" className="sp-clear" aria-label="Clear search" onClick={()=>{setQuery('');setFound(null);}}><X size={15}/></button>}<button type="submit" className="sp-go" disabled={searching||!query.trim()}>{searching?'…':'Search'}</button></form>
   {claims!==null&&!rows.length&&!error?<p className="notice">No published specs on file for this exact bike yet. Ask BAK: it says plainly when a number isn’t confirmed.</p>:
-  found?<div className="sp-results"><p className="subtle">{found.length?`${found.length} match${found.length===1?'':'es'}`:'Nothing published matches that for this bike. Try the words a service manual would use.'}</p><ul className="sp-list">{found.map(c=>row({c,system:factSystem(c),kind:factKind(c),...splitFact(c.statement)}))}</ul></div>:<>
+  found?<div className="sp-results"><p className="subtle">{found.length?`${found.length} match${found.length===1?'':'es'}`:'Nothing published matches that for this bike. Try the words a service manual would use.'}</p><ul className="sp-list">{found.map(c=>row(toRow(c)))}</ul></div>:<>
    {kind==='all'&&<>
    <div className="sp-quick" aria-label="Most looked-up values">
     {oil&&<button type="button" className="sp-tile wide" onClick={()=>oil.row&&jump(oil.row)}><small>Engine oil</small><b>{oil.amount||'Amount not published'}</b>{oil.grade&&<span>{oil.grade}</span>}</button>}
