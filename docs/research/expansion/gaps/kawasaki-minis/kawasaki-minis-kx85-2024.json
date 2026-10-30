@@ -1,0 +1,36 @@
+{
+ "target": {
+  "manufacturer": "Kawasaki",
+  "model": "KX85",
+  "model_year": 2024,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "Kawasaki owner's manual 99803-0399-o5kx85crf (US English e-book; text layer file search.xml, Kawasaki KTIVS manual server) - KX85 2024 (KX85C)",
+  "source_url": "https://pws.ktivs.net/assets/manuals/99803-0399-o5kx85crf-us-en-500aa56a345979ea5fcb69d6095420d5/search.xml",
+  "kind": "owners_manual_ebook",
+  "document_revision": "99803-0399 (e-book published 2023/05/25 21:02:36)",
+  "sha256": "2754c865821a7a84c2a2f5f25ee129fc8d37efae6fd73fdb81fedff43b6a837e"
+ },
+ "values": [
+  {
+   "joint": "Front fork / Fork oil amount, cylinder unit (standard)",
+   "value": "310 mL (10.5 US oz.)",
+   "unit": "mL",
+   "property": "setting",
+   "conditions": [
+    "Standard Fork Oil Amount (Cylinder Unit); the fork oil change pours 310 mL (10.5 US oz.) with the piston rod fully stretched"
+   ],
+   "page": "e-book page 121"
+  },
+  {
+   "joint": "Front fork / Suspension oil",
+   "value": "KHL15-10 (1 L): P/No. 44091-0004",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "e-book page 121"
+  }
+ ]
+}

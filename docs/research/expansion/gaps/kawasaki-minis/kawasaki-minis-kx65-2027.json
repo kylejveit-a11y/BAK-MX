@@ -1,0 +1,80 @@
+{
+ "target": {
+  "manufacturer": "Kawasaki",
+  "model": "KX65",
+  "model_year": 2027,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "Kawasaki owner's manual 99814-0231-o5kx65cv (US English e-book; text layer file search.xml, Kawasaki KTIVS manual server) - KX65 2027 (KX65C)",
+  "source_url": "https://pws.ktivs.net/assets/manuals/99814-0231-o5kx65cv-us-en_ebook-6b968ac1054914bb04f3d9462ae0a092/search.xml",
+  "kind": "owners_manual_ebook",
+  "document_revision": "99814-0231 (e-book published 2026/02/13 09:17:55)",
+  "sha256": "433c3323c902f1d3ded6eee496c66d7f55dcdcb7833e4877e4ef658401acc8fd"
+ },
+ "values": [
+  {
+   "joint": "Front fork / Standard fork height",
+   "value": "20 mm (0.79 in.)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "below the top of the outer tube (printed note: '*: Below the top of the outer tube'; figure legend: Outer Tube Top end / Standard Fork Height / Upper Surface)"
+   ],
+   "page": "e-book page 93"
+  },
+  {
+   "joint": "Front fork / Rebound damping adjuster positions",
+   "value": "4",
+   "unit": "positions",
+   "property": "setting",
+   "conditions": [
+    "printed: 'Depending on the model, the fork rebound damping adjuster has 4 positions'",
+    "fully seated (adjuster turned fully clockwise) is the hardest setting; 3 clicks counterclockwise is the standard setting; 4 or more clicks out (depending on the model) is the softest setting"
+   ],
+   "page": "e-book page 89"
+  },
+  {
+   "joint": "Rear shock / Spring rate (standard)",
+   "value": "K = 48 N/mm",
+   "unit": "N/mm",
+   "property": "setting",
+   "conditions": [
+    "printed 'K = 48 (standard) N/mm' in the spring preload adjusting nut table"
+   ],
+   "page": "e-book page 96"
+  },
+  {
+   "joint": "Rear shock / Spring rate options (N/mm)",
+   "value": "K = 44, 46, 48 (standard), 50 N/mm",
+   "unit": "N/mm",
+   "property": "setting",
+   "conditions": [
+    "the spring preload adjusting nut table lists one adjustable range per spring"
+   ],
+   "page": "e-book page 96"
+  },
+  {
+   "joint": "Front fork / Spring rate options (N/mm)",
+   "value": "K = 2.45, 2.55, 2.65, 2.75, 2.84 N/mm",
+   "unit": "N/mm",
+   "property": "setting",
+   "conditions": [
+    "the fork oil level table lists one standard level and one adjustable range per spring"
+   ],
+   "page": "e-book page 92"
+  },
+  {
+   "joint": "Front fork / Spring rate (standard)",
+   "value": "K = 0.27 kgf/mm",
+   "unit": "kgf/mm",
+   "property": "setting",
+   "conditions": [
+    "marked '*: Standard equipment' in the optional parts suspension spring table",
+    "0.27 kgf/mm = 2.65 N/mm, the spring whose standard fork oil level in the fork oil level table (132 mm) is the level given in the Specifications chapter"
+   ],
+   "page": "e-book page 132"
+  }
+ ]
+}

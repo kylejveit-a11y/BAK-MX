@@ -1,0 +1,46 @@
+{
+ "target": {
+  "manufacturer": "Kawasaki",
+  "model": "KX112",
+  "model_year": 2026,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "Kawasaki owner's manual 99814-0181-o5kx112btf (US English e-book; text layer file search.xml, Kawasaki KTIVS manual server) - KX112 2026 (KX112B)",
+  "source_url": "https://pws.ktivs.net/assets/manuals/99814-0181-o5kx112btf-us-en_ebook-2dc4140bc3e7c4a0813614aec6ad0a17/search.xml",
+  "kind": "owners_manual_ebook",
+  "document_revision": "99814-0181 (e-book published 2025/10/30 21:35:24)",
+  "sha256": "ae4b7addf1700dc01a7f629b124299ae86d02371cbea0bb5cffcc3efb0530dc0"
+ },
+ "values": [
+  {
+   "joint": "Front fork / Standard air pressure",
+   "value": "atmospheric",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "printed: 'The standard air pressure in the front fork legs is atmospheric'; release air pressure through the relief screw in the fork top plug before each race, forks fully extended"
+   ],
+   "page": "e-book page 107"
+  },
+  {
+   "joint": "Front fork / Suspension oil",
+   "value": "00M01 (1 L): P/No. 44091-0024",
+   "unit": "",
+   "property": "setting",
+   "conditions": [],
+   "page": "e-book page 115"
+  },
+  {
+   "joint": "Front fork / Fork oil amount, cylinder unit (standard)",
+   "value": "494 mL (16.7 US oz.)",
+   "unit": "mL",
+   "property": "setting",
+   "conditions": [
+    "Standard Fork Oil Amount (Cylinder Unit); the fork oil change pours 494 mL (16.7 US oz.) with the piston rod fully stretched"
+   ],
+   "page": "e-book page 115"
+  }
+ ]
+}

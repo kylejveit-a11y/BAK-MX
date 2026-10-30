@@ -1,0 +1,38 @@
+{
+ "target": {
+  "manufacturer": "Kawasaki",
+  "model": "KX112",
+  "model_year": 2023,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "Kawasaki owner's manual 99803-0304-o5kx85cpf (US English e-book; text layer file search.xml, Kawasaki KTIVS manual server) - KX112 2023 (KX112A)",
+  "source_url": "https://pws.ktivs.net/assets/manual-files/99803-0304-o5kx85cpf-us-en-321638c3053159040e760ab5da539c86/search.xml",
+  "kind": "owners_manual_ebook",
+  "document_revision": "99803-0304 (e-book published 2022/10/22 1:28:56 +09:00)",
+  "sha256": "1ba467a5d2ae6d7dc4b626a25d1f5607927ef81a1af2f829bbe1dd1b8a89326f"
+ },
+ "values": [
+  {
+   "joint": "Front fork / Fork oil amount, cylinder unit (standard)",
+   "value": "310 mL (10.5 US oz.)",
+   "unit": "mL",
+   "property": "setting",
+   "conditions": [
+    "Standard Fork Oil Amount (Cylinder Unit); the fork oil change pours 310 mL (10.5 US oz.) with the piston rod fully stretched"
+   ],
+   "page": "e-book page 122"
+  },
+  {
+   "joint": "Front fork / Suspension oil",
+   "value": "P/No. 44091-0004 (1 L)",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "the oil name in front of the part number is garbled in the text layer of this page; the Specifications chapter names Kawasaki Fork Oil KHL15-10"
+   ],
+   "page": "e-book page 122"
+  }
+ ]
+}

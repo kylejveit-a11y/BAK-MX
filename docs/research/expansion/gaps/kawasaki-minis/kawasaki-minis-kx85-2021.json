@@ -1,0 +1,34 @@
+{
+ "target": {
+  "manufacturer": "Kawasaki",
+  "model": "KX85",
+  "model_year": 2021,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "Kawasaki owner's manual 99803-0128-o5kx85cmf (US English e-book; text layer file search.xml, Kawasaki KTIVS manual server) - KX85 2021 (KX85C)",
+  "source_url": "https://pws.ktivs.net/assets/manual-files/99803-0128-o5kx85cmf-us-en-c60f8057b858c4f976f737b319d94bf7/search.xml",
+  "kind": "owners_manual_ebook",
+  "document_revision": "99803-0128 (e-book published 2023/03/21 10:50:21)",
+  "sha256": "6c04ee5abcbd5f7016c8cce48a5ed8974b5c2cfb1b3b72307389e98a15553f25"
+ },
+ "values": [
+  {
+   "joint": "Specifications / Front fork oil / Type",
+   "value": "Kawasaki Fork Oil KHL15-10",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "e-book page 17"
+  },
+  {
+   "joint": "Specifications / Front fork oil / Amount",
+   "value": "295 ~ 325 mL (9.97 ~ 11.0 US oz.)",
+   "unit": "mL",
+   "property": "capacity",
+   "conditions": [],
+   "page": "e-book page 17"
+  }
+ ]
+}

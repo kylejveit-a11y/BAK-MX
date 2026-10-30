@@ -1,0 +1,28 @@
+{
+ "target": {
+  "manufacturer": "Kawasaki",
+  "model": "KX85",
+  "model_year": 2026,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "Kawasaki owner's manual 99814-0182-o5kx85etf (US English e-book; text layer file search.xml, Kawasaki KTIVS manual server) - KX85 2026 (KX85E)",
+  "source_url": "https://pws.ktivs.net/assets/manuals/99814-0182-o5kx85etf-us-en_ebook-890ee7783884019f4355edd47cccbd6f/search.xml",
+  "kind": "owners_manual_ebook",
+  "document_revision": "99814-0182 (e-book published 2025/10/30 21:40:14)",
+  "sha256": "be7f93abc3bc885f0c3da2c3d8267d3be5d0e3971be503a697f80433f5f940cb"
+ },
+ "values": [
+  {
+   "joint": "Front fork / Standard air pressure",
+   "value": "atmospheric",
+   "unit": "",
+   "property": "setting",
+   "conditions": [
+    "printed: 'The standard air pressure in the front fork legs is atmospheric'; release air pressure through the relief screw in the fork top plug before each race, forks fully extended"
+   ],
+   "page": "e-book page 107"
+  }
+ ]
+}
