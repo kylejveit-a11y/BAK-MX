@@ -1,0 +1,1355 @@
+{
+ "target": {
+  "manufacturer": "Triumph",
+  "model": "TF 450-X",
+  "model_year": 2027,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "OHB_TF250-X and TF450-X_3850823-US",
+  "source_url": "https://api.triumphtechnicalinformation.com/handbooks/documents/6ab239eb1685389dfa339f9a/pdf",
+  "kind": "owners_handbook",
+  "document_revision": "3850823-US (portal attaches this handbook to ZB3 = TF250-X 2027 only; the handbook also carries TF450-X columns; the portal product TF450-X 2027 (ZD3) has no handbook attached as of 2026-10-30). Values verified against the 2026-edition extraction (3850672-US) row by row: each printed value re-located in this edition's text layer.",
+  "sha256": "e1cf3fb2e9210c91e441e610e69d1705daf93c16867729745e8ae5a7f87b77cc"
+ },
+ "values": [
+  {
+   "joint": "Payload / Maximum payload (rider in full protective clothing)",
+   "value": "203 lb (92 kg)",
+   "unit": "kg",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "218"
+  },
+  {
+   "joint": "Engine / Engine configuration",
+   "value": "1 Cylinder 4 Valve SOHC",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "218"
+  },
+  {
+   "joint": "Engine / Displacement",
+   "value": "27.4 cu in (449.5 cc)",
+   "unit": "cc",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "218"
+  },
+  {
+   "joint": "Engine / Bore x stroke",
+   "value": "3.74 x 2.5 in (95 x 63.4 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "218"
+  },
+  {
+   "joint": "Engine / Compression ratio",
+   "value": "13.1:1",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "218"
+  },
+  {
+   "joint": "Lubrication / Lubrication system",
+   "value": "Pressure lubrication, with two trochoidal pumps",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "218"
+  },
+  {
+   "joint": "Lubrication / Oil capacity (dry fill)",
+   "value": "0.32 gallons (1.20 liter)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "218"
+  },
+  {
+   "joint": "Lubrication / Oil capacity (wet fill including oil filter)",
+   "value": "0.30 gallons (1.15 liter)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "218"
+  },
+  {
+   "joint": "Lubrication / Oil capacity (wet fill excluding oil filter)",
+   "value": "0.28 gallons (1.05 liter)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "218"
+  },
+  {
+   "joint": "Cooling System / Coolant type",
+   "value": "Triumph D2053 OAT coolant (premixed)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "219, 222"
+  },
+  {
+   "joint": "Cooling System / Coolant ratio",
+   "value": "50/50 (premixed as supplied by Triumph)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "219"
+  },
+  {
+   "joint": "Cooling System / Cooling system capacity",
+   "value": "0.25 gallons (0.95 liters)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "219"
+  },
+  {
+   "joint": "Fuel System / Type",
+   "value": "Electronic fuel injection",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "219"
+  },
+  {
+   "joint": "Fuel System / Injector type",
+   "value": "Solenoid operated",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "219"
+  },
+  {
+   "joint": "Fuel System / Fuel pump type",
+   "value": "Submerged electric",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "219"
+  },
+  {
+   "joint": "Fuel System / Fuel pressure (nominal)",
+   "value": "50.8 lb/in\u00b2 (3.5 bar)",
+   "unit": "psi",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "219"
+  },
+  {
+   "joint": "Fuel / Type",
+   "value": "95 RON unleaded",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "219"
+  },
+  {
+   "joint": "Fuel / Fuel tank capacity (motorcycle upright)",
+   "value": "1.85 gallons (7 liters)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "219"
+  },
+  {
+   "joint": "Ignition / Ignition system",
+   "value": "Digital electronic",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "219"
+  },
+  {
+   "joint": "Ignition / Electronic rev limiter",
+   "value": "11,400 rpm",
+   "unit": "rpm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "219"
+  },
+  {
+   "joint": "Ignition / Spark plug type",
+   "value": "NGK LMAR9AI-8",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "219"
+  },
+  {
+   "joint": "Ignition / Spark plug gap",
+   "value": "0.031 in +0/-0.004 (0.8 mm +0/-0.1)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "219"
+  },
+  {
+   "joint": "Transmission / Transmission type",
+   "value": "5 Speed, Constant Mesh",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "220"
+  },
+  {
+   "joint": "Transmission / Clutch type",
+   "value": "Wet multiplate",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "220"
+  },
+  {
+   "joint": "Transmission / Final drive chain",
+   "value": "DID 520DMA4K SDH, 114 link non-O-ring",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "220"
+  },
+  {
+   "joint": "Transmission / Primary drive ratio",
+   "value": "2.34:1 (75/32)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "220"
+  },
+  {
+   "joint": "Transmission / Final drive ratio",
+   "value": "3.69:1 (48/13)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "220"
+  },
+  {
+   "joint": "Transmission / Gear ratios - 1st gear",
+   "value": "2.14:1 (30/14)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "220"
+  },
+  {
+   "joint": "Transmission / Gear ratios - 2nd gear",
+   "value": "1.72:1 (31/18)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "220"
+  },
+  {
+   "joint": "Transmission / Gear ratios - 3rd gear",
+   "value": "1.45:1 (29/20)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "220"
+  },
+  {
+   "joint": "Transmission / Gear ratios - 4th gear",
+   "value": "1.23:1 (27/22)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "220"
+  },
+  {
+   "joint": "Transmission / Gear ratios - 5th gear",
+   "value": "1.04:1 (25/24)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "220"
+  },
+  {
+   "joint": "Tires / Front tire size",
+   "value": "80/100 x 21",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "221"
+  },
+  {
+   "joint": "Tires / Rear tire size",
+   "value": "110/90-19",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "221"
+  },
+  {
+   "joint": "Tires / Front tire pressure",
+   "value": "14 lb/in\u00b2 (0.97 bar)",
+   "unit": "psi",
+   "property": "setting",
+   "conditions": [
+    "TF450-X",
+    "cold"
+   ],
+   "page": "221"
+  },
+  {
+   "joint": "Tires / Rear tire pressure",
+   "value": "14 lb/in\u00b2 (0.97 bar)",
+   "unit": "psi",
+   "property": "setting",
+   "conditions": [
+    "TF450-X",
+    "cold"
+   ],
+   "page": "221"
+  },
+  {
+   "joint": "Electrical Equipment / Battery type",
+   "value": "HJTZ5S-FP",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "221"
+  },
+  {
+   "joint": "Electrical Equipment / Battery rating",
+   "value": "12V 2.0Ah",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "221"
+  },
+  {
+   "joint": "Electrical Equipment / Alternator rating",
+   "value": "5 Amp at 2,000 rpm. 6 Amp at 8,000 rpm",
+   "unit": "rpm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "221"
+  },
+  {
+   "joint": "Frame / Rake",
+   "value": "27.4\u00b0",
+   "unit": "deg",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "221"
+  },
+  {
+   "joint": "Frame / Trail",
+   "value": "4.57 in (116 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "221"
+  },
+  {
+   "joint": "Specifications / Torque Figures / Battery Terminals",
+   "value": "40 lbf in (4.5 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Specifications / Torque Figures / Clutch Lever Nut",
+   "value": "53 lbf in (6 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Specifications / Torque Figures / Oil Filter",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Specifications / Torque Figures / Spark Plug",
+   "value": "11 lbf ft (15 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Specifications / Torque Figures / Sump Plug",
+   "value": "15 lbf ft (20 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Specifications / Torque Figures / Rear Wheel Spindle Nut",
+   "value": "89 lbf ft (120 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Fluids and Lubricants / Bearings and pivots",
+   "value": "Triumph Performance RG2 grease (NLGI 2)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Fluids and Lubricants / Coolant",
+   "value": "Triumph D2053 OAT coolant (premixed)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "219, 222"
+  },
+  {
+   "joint": "Fluids and Lubricants / Drive chain",
+   "value": "Triumph Performance chain lubricant",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Torque / Oil filter cover fasteners",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Torque / Oil drain plug",
+   "value": "15 lbf ft (20 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "101"
+  },
+  {
+   "joint": "Torque / Oil strainer plugs",
+   "value": "11 lbf ft (15 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "102"
+  },
+  {
+   "joint": "Torque / Coolant drain fastener (water pump cover)",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "107"
+  },
+  {
+   "joint": "Torque / Spark plug",
+   "value": "11 lbf ft (15 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "124, 125"
+  },
+  {
+   "joint": "Torque / Muffler transition piece fasteners",
+   "value": "62 lbf in (7 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "127"
+  },
+  {
+   "joint": "Torque / Muffler end cap fasteners",
+   "value": "62 lbf in (7 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "127"
+  },
+  {
+   "joint": "Torque / Fuel tank center fastener",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "129"
+  },
+  {
+   "joint": "Torque / Side panel rear fastener",
+   "value": "27 lbf in (3 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "131"
+  },
+  {
+   "joint": "Torque / Side panel front fasteners",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "129"
+  },
+  {
+   "joint": "Torque / Side panel upper fastener",
+   "value": "27 lbf in (3 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "131"
+  },
+  {
+   "joint": "Torque / Drive chain adjuster lock nuts",
+   "value": "18 lbf ft (25 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "137"
+  },
+  {
+   "joint": "Torque / Rear wheel spindle",
+   "value": "89 lbf ft (120 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "175"
+  },
+  {
+   "joint": "Torque / Rear brake master cylinder reservoir cap",
+   "value": "13 lbf ft (17 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "154"
+  },
+  {
+   "joint": "Torque / Front brake disc fasteners",
+   "value": "9 lbf ft (12 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "157"
+  },
+  {
+   "joint": "Torque / Front fork air bleed screw",
+   "value": "11.5 lbf in (1.3 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "167"
+  },
+  {
+   "joint": "Torque / Drive chain upper slider to engine fastener",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "170"
+  },
+  {
+   "joint": "Torque / Drive chain lower slider fastener",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "170"
+  },
+  {
+   "joint": "Torque / Drive chain upper slider guard to frame fastener",
+   "value": "18 lbf ft (25 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "170"
+  },
+  {
+   "joint": "Torque / Front wheel spindle nut",
+   "value": "44 lbf ft (60 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "172"
+  },
+  {
+   "joint": "Torque / Front wheel spindle clamp bolts (outer)",
+   "value": "14 lbf ft (19 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "172, 173"
+  },
+  {
+   "joint": "Torque / Front wheel spindle clamp bolts (inner)",
+   "value": "14 lbf ft (19 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "172, 173"
+  },
+  {
+   "joint": "Torque / Front wheel spoke nipple",
+   "value": "53 lbf in (6 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "176"
+  },
+  {
+   "joint": "Torque / Rear wheel spoke nipple",
+   "value": "53 lbf in (6 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "176"
+  },
+  {
+   "joint": "Torque / Rim lock fastener",
+   "value": "9 lbf ft (12 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "180"
+  },
+  {
+   "joint": "Torque / Front fork protector fasteners",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "184"
+  },
+  {
+   "joint": "Torque / Front brake hose retaining clamp fasteners",
+   "value": "27 lbf in (3 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "185"
+  },
+  {
+   "joint": "Torque / Battery terminal fasteners",
+   "value": "40 lbf in (4.5 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "222"
+  },
+  {
+   "joint": "Torque / Battery strap flanged fasteners",
+   "value": "53 lbf in (6 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "195"
+  },
+  {
+   "joint": "Torque / Gear shift pedal pinch bolt",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "83"
+  },
+  {
+   "joint": "Torque / Seat fasteners",
+   "value": "71 lbf in (8 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "39"
+  },
+  {
+   "joint": "Controls / Throttle twist grip free play",
+   "value": "0.08 - 0.12 in (2 - 3 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "112, 113"
+  },
+  {
+   "joint": "Fuel / Fill level below filler neck",
+   "value": "1.38 in (35 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "34"
+  },
+  {
+   "joint": "Quickshifter / Minimum engine speed for upshift",
+   "value": "2,500 rpm",
+   "unit": "rpm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "47"
+  },
+  {
+   "joint": "Cooling / Coolant level above radiator fins",
+   "value": "0.39 in (10 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "109"
+  },
+  {
+   "joint": "Final drive / Drive chain free movement (swinging arm to chain at force point)",
+   "value": "2.17 - 2.28 in (55 - 58 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "136"
+  },
+  {
+   "joint": "Final drive / Drive chain wear limit (length across 20 links)",
+   "value": "12.6 in (320 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "138"
+  },
+  {
+   "joint": "Brakes / Front brake pad minimum thickness (carrier plate and lining)",
+   "value": "0.15 in (3.70 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "146"
+  },
+  {
+   "joint": "Wheels / Front wheel rim axial run-out limit",
+   "value": "0.07 in (1.8 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "177"
+  },
+  {
+   "joint": "Wheels / Front wheel rim radial run-out limit",
+   "value": "0.07 in (1.8 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "177"
+  },
+  {
+   "joint": "Wheels / Rear wheel rim axial run-out limit",
+   "value": "0.07 in (1.8 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "177"
+  },
+  {
+   "joint": "Wheels / Rear wheel rim radial run-out limit",
+   "value": "0.07 in (1.8 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "177"
+  },
+  {
+   "joint": "Handlebar / Reach adjustment (forward offset from rear position)",
+   "value": "0.35 in (9 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "TF450-X",
+    "printed once for all models in this handbook"
+   ],
+   "page": "75"
+  },
+  {
+   "joint": "Rear shock / Spring rate (standard)",
+   "value": "58 N/mm",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "63"
+  },
+  {
+   "joint": "Front fork / Spring rate (standard)",
+   "value": "5.0 N/mm",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "70"
+  },
+  {
+   "joint": "Suspension / Factory setting rider weight",
+   "value": "165 - 187 lb (75 - 85 kg)",
+   "unit": "kg",
+   "property": "specification",
+   "conditions": [
+    "TF450-X",
+    "rider wearing full protective clothing"
+   ],
+   "page": "71"
+  },
+  {
+   "joint": "Engine / Idle speed",
+   "value": "2100 - 2200 rpm",
+   "unit": "rpm",
+   "property": "setting",
+   "conditions": [
+    "TF450-X",
+    "engine warm, cold start lever not engaged"
+   ],
+   "page": "115"
+  },
+  {
+   "joint": "Brakes / Front disc thickness (standard)",
+   "value": "0.12 in (3.00 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "155"
+  },
+  {
+   "joint": "Brakes / Front disc thickness (service limit)",
+   "value": "0.11 in (2.70 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "155"
+  },
+  {
+   "joint": "Brakes / Rear disc thickness (standard)",
+   "value": "0.157 in (4.0 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "156"
+  },
+  {
+   "joint": "Brakes / Rear disc thickness (service limit)",
+   "value": "0.14 in (3.6 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "156"
+  },
+  {
+   "joint": "Torque / Rear brake disc fasteners",
+   "value": "9 lbf ft (12 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "new fasteners"
+   ],
+   "page": "159"
+  },
+  {
+   "joint": "Chassis setup / Factory suspension setting rider weight (full protective clothing)",
+   "value": "165 - 187 lb (75 - 85 kg)",
+   "unit": "kg",
+   "property": "setting",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "61"
+  },
+  {
+   "joint": "Rear shock / Spring options available",
+   "value": "five springs with spring ratings ranging from 52 N/mm to 60 N/mm",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "62"
+  },
+  {
+   "joint": "Rear shock / Spring color identification",
+   "value": "52 N/mm Yellow; 54 N/mm Pink; 56 N/mm White; 58 N/mm Gold; 60 N/mm Brown",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "63"
+  },
+  {
+   "joint": "Rear shock / Static sag",
+   "value": "1.42 in (36 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "TF450-X",
+    "TF250-X and TF450-X"
+   ],
+   "page": "64"
+  },
+  {
+   "joint": "Front fork / Oil volume / Fork damper assembly",
+   "value": "11.9 cu in (195 cc)",
+   "unit": "cc",
+   "property": "capacity",
+   "conditions": [
+    "TF450-X",
+    "Fork Oil Volume Table"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Front fork / Oil volume / Fork outer tube",
+   "value": "19.2 cu in (315 cc)",
+   "unit": "cc",
+   "property": "capacity",
+   "conditions": [
+    "TF450-X",
+    "Fork Oil Volume Table"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Front fork / Oil volume / Total",
+   "value": "31.1 cu in (510 cc)",
+   "unit": "cc",
+   "property": "capacity",
+   "conditions": [
+    "TF450-X",
+    "Fork Oil Volume Table"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Front fork / Outer tube oil adjustment range",
+   "value": "17.7 - 22.3 cu in (290 - 365 cc)",
+   "unit": "cc",
+   "property": "setting",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Front fork / Oil volume adjustment step",
+   "value": "0.17 fl oz (5 cc)",
+   "unit": "cc",
+   "property": "setting",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "73"
+  },
+  {
+   "joint": "Torque / Handlebar riser bolt",
+   "value": "30 lbf ft (40 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "76"
+  },
+  {
+   "joint": "Torque / Handlebar clamp fasteners",
+   "value": "18 lbf ft (25 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "74, 77"
+  },
+  {
+   "joint": "Controls / Handlebar reach adjustment (forward position offset)",
+   "value": "0.35 in (9 mm)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X",
+    "from the factory the handlebar is set to the rear position"
+   ],
+   "page": "75"
+  },
+  {
+   "joint": "Brakes / Brake pedal free play",
+   "value": "0.24 - 0.35 in (6 - 9 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "79, 80"
+  },
+  {
+   "joint": "Brakes / Rear master cylinder push rod free play (minimum)",
+   "value": "0.04 in (1 mm)",
+   "unit": "mm",
+   "property": "setting",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "80"
+  },
+  {
+   "joint": "Torque / Brake pedal height adjuster lock nut",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed as \"89 lbf in (89 lbf in (10 Nm))\""
+   ],
+   "page": "79"
+  },
+  {
+   "joint": "Torque / Rear brake master cylinder push rod lock nut",
+   "value": "89 lbf in (10 Nm)",
+   "unit": "Nm",
+   "property": "torque",
+   "conditions": [
+    "TF450-X",
+    "printed as \"89 lbf in (89 lbf in (10 Nm))\""
+   ],
+   "page": "80"
+  },
+  {
+   "joint": "Rear shock / Factory spring rate",
+   "value": "58 N/mm",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "63"
+  },
+  {
+   "joint": "Rear shock / Spring selection by rider weight",
+   "value": "65 - 75 kg (143 - 165 lbs): 56 N/mm; 75 - 85 kg (165 - 187 lbs): 58 N/mm; 85 - 95 kg (187 - 209 lbs): 60 N/mm",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X",
+    "guide table"
+   ],
+   "page": "63"
+  },
+  {
+   "joint": "Rear shock / Rebound damping",
+   "value": "12 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "TF450-X",
+    "Standard",
+    "adjuster clicks counterclockwise from the fully clockwise position"
+   ],
+   "page": "65"
+  },
+  {
+   "joint": "Rear shock / Low speed compression damping",
+   "value": "12 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "TF450-X",
+    "Standard",
+    "adjuster clicks counterclockwise from the fully clockwise position"
+   ],
+   "page": "65"
+  },
+  {
+   "joint": "Rear shock / High speed compression damping",
+   "value": "1 1/4 turn",
+   "unit": "turns",
+   "property": "setting",
+   "conditions": [
+    "TF450-X",
+    "Standard",
+    "adjuster turns counterclockwise from the fully clockwise position"
+   ],
+   "page": "65"
+  },
+  {
+   "joint": "Front fork / Spring options available (identification marks)",
+   "value": "4.8 N/mm (1 - 5); 4.9 N/mm (2 - 2); 5.0 N/mm (2 - 3); 5.1 N/mm (2 - 4)",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X",
+    "four springs"
+   ],
+   "page": "69, 70"
+  },
+  {
+   "joint": "Front fork / Factory spring rate",
+   "value": "5.0 N/mm",
+   "unit": "N/mm",
+   "property": "specification",
+   "conditions": [
+    "TF450-X"
+   ],
+   "page": "70"
+  },
+  {
+   "joint": "Front fork / Compression damping",
+   "value": "13 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "TF450-X",
+    "Standard",
+    "adjuster clicks counterclockwise from the fully clockwise position"
+   ],
+   "page": "71"
+  },
+  {
+   "joint": "Front fork / Rebound damping",
+   "value": "11 clicks",
+   "unit": "clicks",
+   "property": "setting",
+   "conditions": [
+    "TF450-X",
+    "Standard",
+    "adjuster clicks counterclockwise from the fully clockwise position"
+   ],
+   "page": "71"
+  }
+ ]
+}

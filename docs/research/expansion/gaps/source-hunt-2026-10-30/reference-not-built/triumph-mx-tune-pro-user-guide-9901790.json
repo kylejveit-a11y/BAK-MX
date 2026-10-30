@@ -1,0 +1,121 @@
+{
+ "target": {
+  "manufacturer": "Triumph",
+  "model": "TF (MX Tune Pro app, all TF models with Wifi Module Kit)",
+  "model_year": 0,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "MX Tune Pro User Guide 9901790 Issue 2 English (Triumph Designs Ltd. 2025)",
+  "source_url": "https://www.triumphinstructions.com/ProdDocs/9901790-EN.pdf",
+  "kind": "maker_app_user_guide",
+  "document_revision": "9901790 Issue 2; linked from https://www.triumphmotorcycles.com/owners/off-road/app",
+  "sha256": "a38dc0b5d4249b13299ef654f6afd0f1caf976aebb82925e43268f72f9d97461"
+ },
+ "note": "Kept out of the build folder on purpose: the guide is not tied to a model year, and build_claims.py needs one.",
+ "values": [
+  {
+   "joint": "MX Tune Pro / Engine ECM wake-up window (engine not running)",
+   "value": "3 minutes",
+   "unit": "min",
+   "property": "specification",
+   "conditions": [
+    "MX Tune Pro User Guide, publication 9901790 Issue 2 (2025); the guide names no model year; applies to Triumph TF models fitted with the genuine Wifi Module Kit"
+   ],
+   "page": "3"
+  },
+  {
+   "joint": "MX Tune Pro / Base maps on the motorcycle",
+   "value": "2 base map settings (MAP 1 and MAP 2); M button illuminated blue when MAP 2 is selected",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "MX Tune Pro User Guide, publication 9901790 Issue 2 (2025); the guide names no model year; applies to Triumph TF models fitted with the genuine Wifi Module Kit"
+   ],
+   "page": "16"
+  },
+  {
+   "joint": "MX Tune Pro / Factory map FI value meaning",
+   "value": "FI (fuel injection) is displayed as a percentage change to the base map",
+   "unit": "%",
+   "property": "specification",
+   "conditions": [
+    "MX Tune Pro User Guide, publication 9901790 Issue 2 (2025); the guide names no model year; applies to Triumph TF models fitted with the genuine Wifi Module Kit"
+   ],
+   "page": "17"
+  },
+  {
+   "joint": "MX Tune Pro / Factory map IG value meaning",
+   "value": "IG (ignition) is displayed as a degree change to the base map",
+   "unit": "deg",
+   "property": "specification",
+   "conditions": [
+    "MX Tune Pro User Guide, publication 9901790 Issue 2 (2025); the guide names no model year; applies to Triumph TF models fitted with the genuine Wifi Module Kit"
+   ],
+   "page": "17"
+  },
+  {
+   "joint": "MX Tune Pro / Factory maps target",
+   "value": "All conditions and ability factory maps make adjustments to the base map of MAP 2 only",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "MX Tune Pro User Guide, publication 9901790 Issue 2 (2025); the guide names no model year; applies to Triumph TF models fitted with the genuine Wifi Module Kit"
+   ],
+   "page": "18"
+  },
+  {
+   "joint": "MX Tune Pro / GPA (traction control) adjustment range",
+   "value": "1 - 10 (1 least, 10 most traction control); 0 = traction control off",
+   "unit": "level",
+   "property": "setting",
+   "conditions": [
+    "MX Tune Pro User Guide, publication 9901790 Issue 2 (2025); the guide names no model year; applies to Triumph TF models fitted with the genuine Wifi Module Kit"
+   ],
+   "page": "19"
+  },
+  {
+   "joint": "MX Tune Pro / LC (launch control) adjustment range",
+   "value": "0 - 20 (0 least, 20 most launch control); at 0 launch assist acts as a rev limiter only",
+   "unit": "level",
+   "property": "setting",
+   "conditions": [
+    "MX Tune Pro User Guide, publication 9901790 Issue 2 (2025); the guide names no model year; applies to Triumph TF models fitted with the genuine Wifi Module Kit"
+   ],
+   "page": "19"
+  },
+  {
+   "joint": "MX Tune Pro / Training mode high temperature warning threshold",
+   "value": "110\u00b0C",
+   "unit": "degC",
+   "property": "specification",
+   "conditions": [
+    "MX Tune Pro User Guide, publication 9901790 Issue 2 (2025); the guide names no model year; applies to Triumph TF models fitted with the genuine Wifi Module Kit",
+    "LC-GPA module fitted; threshold set by the engine ECM and cannot be edited"
+   ],
+   "page": "28"
+  },
+  {
+   "joint": "MX Tune Pro / Training mode shift assist light RPM threshold",
+   "value": "9050 RPM",
+   "unit": "rpm",
+   "property": "specification",
+   "conditions": [
+    "MX Tune Pro User Guide, publication 9901790 Issue 2 (2025); the guide names no model year; applies to Triumph TF models fitted with the genuine Wifi Module Kit",
+    "LC-GPA module fitted"
+   ],
+   "page": "28"
+  },
+  {
+   "joint": "MX Tune Pro / ECU Factory Reset scope",
+   "value": "restores MAP 1 and MAP 2 to the original motorcycle map settings only; does not remove added maps, run time or maintenance logs",
+   "unit": "",
+   "property": "specification",
+   "conditions": [
+    "MX Tune Pro User Guide, publication 9901790 Issue 2 (2025); the guide names no model year; applies to Triumph TF models fitted with the genuine Wifi Module Kit"
+   ],
+   "page": "28"
+  }
+ ]
+}

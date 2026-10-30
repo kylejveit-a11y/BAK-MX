@@ -1,0 +1,218 @@
+{
+ "target": {
+  "manufacturer": "Suzuki",
+  "model": "RM-Z450",
+  "model_year": 2026,
+  "variant": "standard",
+  "region": "US"
+ },
+ "source_document": {
+  "title": "2026 RM-Z450 product brochure PDF (suzukicycles.com, Suzuki Motor USA)",
+  "source_url": "https://suzukicycles.com/-/media/project/cycles/files/product-brochures/2026/motocross/2026motocrossrmz450pbr20.pdf",
+  "kind": "maker_brochure",
+  "document_revision": "fetched 2026-10-30",
+  "sha256": "d425a916a9896f197fab5a98bff2da7e6f27b0f5d9be66e2c22948c36dc91d67"
+ },
+ "values": [
+  {
+   "joint": "Specifications - Engine / Engine",
+   "value": "449cc, 4-stroke, liquid-cooled, single cylinder, DOHC",
+   "unit": "cc",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Engine / Bore x Stroke",
+   "value": "96.0 mm x 62.1 mm (3.78 in. x 2.40 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Engine / Compression Ratio",
+   "value": "12.5:1",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Engine / Fuel System",
+   "value": "Fuel injection, 44mm throttle body",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Engine / Starter",
+   "value": "Primary kickstarter with automatic decompressor",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Engine / Lubrication",
+   "value": "Semi-dry sump",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Drivetrain / Clutch",
+   "value": "Wet multi-plate",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Drivetrain / Transmission",
+   "value": "5-speed constant mesh",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Drivetrain / Final Drive",
+   "value": "Chain, DID 520DMA2K, 114 links",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Chassis / Suspension, Front",
+   "value": "Inverted telescopic, coil spring, oil damped, adjustable damping force",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Chassis / Suspension, Rear",
+   "value": "BFRC-link type, coil spring, oil damped, adjustable spring preload, and damping force",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Chassis / Brake, Front",
+   "value": "Disc brake, single rotor",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Chassis / Brake, Rear",
+   "value": "Disc brake, single rotor",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Chassis / Tire, Front",
+   "value": "80/100-21 M/C 51M, tube type",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Chassis / Tire, Rear",
+   "value": "110/90-19 M/C 62M, tube type",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Chassis / Fuel Tank Capacity",
+   "value": "6.3 L (1.7 US gal.)",
+   "unit": "L",
+   "property": "capacity",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Electrical / Ignition",
+   "value": "Electronic ignition (CDI)",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Electrical / Spark plug",
+   "value": "NGK DIMR8C10",
+   "unit": "",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Dimensions / Overall Length",
+   "value": "2175 mm (85.6 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Dimensions / Overall Width",
+   "value": "835 mm (32.9 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Dimensions / Overall Height",
+   "value": "1260 mm (49.6 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Dimensions / Wheelbase",
+   "value": "1480 mm (58.3 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Dimensions / Ground Clearance",
+   "value": "330 mm (13.0 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Dimensions / Seat Height",
+   "value": "960 mm (37.8 in.)",
+   "unit": "mm",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  },
+  {
+   "joint": "Specifications - Dimensions / Curb Weight",
+   "value": "112 kg (247 lb.)",
+   "unit": "kg",
+   "property": "specification",
+   "conditions": [],
+   "page": "5"
+  }
+ ]
+}
