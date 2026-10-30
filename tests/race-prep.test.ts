@@ -29,3 +29,16 @@ test('prep items for the other engine type are hidden, custom items always show'
 test('the prep phase follows the days to go',()=>{
  assert.equal(phaseForDaysOut(5),'week');assert.equal(phaseForDaysOut(2),'week');assert.equal(phaseForDaysOut(1),'night');assert.equal(phaseForDaysOut(0),'track');
 });
+
+import {engineOf,disciplineOf} from '../shared/race-prep.ts';
+test('engine and discipline come from the roster; unknown bikes show every item',()=>{
+ assert.equal(engineOf({manufacturer:'KTM',model:'250 SX'}),'2-stroke');
+ assert.equal(engineOf({manufacturer:'Yamaha',model:'YZ450F'}),'4-stroke');
+ assert.equal(engineOf({manufacturer:'Acme',model:'X'}),null);assert.equal(engineOf(undefined),null);
+ assert.equal(disciplineOf({manufacturer:'KTM',model:'250 SX'}),'mx');
+ assert.equal(disciplineOf({manufacturer:'KTM',model:'300 XC-W'}),'offroad');
+ assert.equal(disciplineOf(undefined),'mx');
+ const premix=PREP_ITEMS.find(i=>i.engine==='2-stroke')!;
+ assert.ok(fitsEngine(premix,'2-stroke'));assert.ok(!fitsEngine(premix,'4-stroke'));assert.ok(fitsEngine(premix,null));
+ assert.equal(phaseForDaysOut(0),'track');assert.equal(phaseForDaysOut(1),'night');assert.equal(phaseForDaysOut(5),'week');
+});

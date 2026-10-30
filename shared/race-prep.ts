@@ -29,3 +29,8 @@ export function hydratePrepList(saved:{id:string;label:string;phase:RacePhase;cu
  return saved.map(s=>{const base=PREP_ITEMS.find(i=>i.id===s.id);return {...s,...(base&&!s.custom?{why:base.why}:{})};});
 }
 export const toSaved=(list:PrepItem[])=>list.map(({id,label,phase,custom})=>({id,label,phase,...(custom?{custom:true}:{})}));
+import {garageModelInfo} from './garage-models.ts';
+/** The bike's engine type from the roster, or null for a bike BAK doesn't list (then every item is shown). */
+export const engineOf=(bike?:{manufacturer:string;model:string}|null)=>bike?garageModelInfo[`${bike.manufacturer}|${bike.model}`]?.engine??null:null;
+/** The kind of riding the prep list starts from: motocross bikes get the MX list, everything else (and no bike) the off-road one. */
+export const disciplineOf=(bike?:{manufacturer:string;model:string}|null)=>bike&&garageModelInfo[`${bike.manufacturer}|${bike.model}`]?.discipline!=='motocross'?'offroad' as const:'mx' as const;

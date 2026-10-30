@@ -41,3 +41,28 @@ test('statement splitting keeps the task and drops the source note',()=>{
  assert.equal(p.task,'Change the spark plug and spark plug connector');assert.equal(p.intervals,'every 45 operating hours; every 90 operating hours');
  assert.deepEqual(hoursIn('every 15 operating hours; every 24 months'),{repeat:[15],first:null});
 });
+
+import {serviceDueRows,comingUp,dueLine} from '../shared/service-plan.ts';
+test('due rows: last log sets the next one, break-in applies before the first interval, soonest first, unknown hours give no figures',()=>{
+ const plan=buildServicePlan(ktm);
+ const events=[{category:'Engine oil',engine_hours:20},{category:'Engine oil',engine_hours:5},{category:'Air filter',engine_hours:null}];
+ const rows=serviceDueRows(plan,events,32);
+ const oil=rows.find(r=>r.item.category==='Engine oil')!;
+ assert.equal(oil.last?.engine_hours,20);assert.equal(oil.due,35);assert.equal(oil.left,3);
+ const air=rows.find(r=>r.item.category==='Air filter')!;
+ assert.equal(air.last,null);assert.equal(air.due,15);assert.equal(air.left,-17);
+ assert.equal(dueLine(air),'every 15 h · due now · not logged yet');
+ assert.equal(dueLine(oil),'every 15 h · 3 h to go');
+ assert.deepEqual(rows.map(r=>r.left),[...rows.map(r=>r.left)].sort((a,b)=>(a??1e9)-(b??1e9)));
+ // a new bike still inside the break-in window: the first service is the break-in one
+ const fresh=serviceDueRows(plan,[],0.5).find(r=>r.item.category==='Valve check')!;
+ assert.equal(fresh.due,1);assert.equal(fresh.left,0.5);
+ const unknown=serviceDueRows(plan,events,null);
+ assert.ok(unknown.every(r=>r.due===null&&r.left===null));
+ assert.equal(dueLine(unknown.find(r=>r.item.category==='Engine oil')!),'every 15 h');
+});
+test('coming up: the rider\'s own reminders, closest first, capped',()=>{
+ const events=[{id:'1',next_due_hours:50},{id:'2',next_due_hours:null},{id:'3',next_due_hours:33},{id:'4',next_due_hours:40},{id:'5',next_due_hours:90}];
+ assert.deepEqual(comingUp(events,30).map(x=>[x.e.id,x.left]),[['3',3],['4',10],['1',20]]);
+ assert.deepEqual(comingUp(events,null,2).map(x=>[x.e.id,x.left]),[['1',null],['3',null]]);
+});

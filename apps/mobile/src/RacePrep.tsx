@@ -5,8 +5,7 @@ import React,{useCallback,useEffect,useMemo,useRef,useState} from 'react';
 import {Modal,ScrollView,Text,TextInput,View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import Svg,{Defs,LinearGradient,Rect,Stop} from 'react-native-svg';
-import {RACE_PHASES,hydratePrepList,toSaved,defaultPrepList,fitsEngine,type PrepItem,type RacePhase} from '../../../shared/race-prep';
-import {garageModelInfo} from '../../../shared/garage-models';
+import {RACE_PHASES,hydratePrepList,toSaved,defaultPrepList,fitsEngine,engineOf,disciplineOf,type PrepItem,type RacePhase} from '../../../shared/race-prep';
 import type {Bike} from '../../../shared/types';
 import {api} from './api';
 import {readProgress,writeProgress} from './localProgress';
@@ -16,8 +15,7 @@ import {metalHighlight} from './theme';
 import {select as hSelect,success} from './haptics';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
-export const engineOf=(bike?:Bike)=>bike?garageModelInfo[`${bike.manufacturer}|${bike.model}`]?.engine??null:null;
-export const disciplineOf=(bike?:Bike)=>bike&&garageModelInfo[`${bike.manufacturer}|${bike.model}`]?.discipline!=='motocross'?'offroad' as const:'mx' as const;
+export {engineOf,disciplineOf};
 
 /** Every open copy of the list hears about a change, so Home's counts and the widget follow the sheet at once. */
 const listeners=new Set<()=>void>();
