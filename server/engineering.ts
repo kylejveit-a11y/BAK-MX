@@ -47,7 +47,7 @@ export function testerBaselinesFor(bike:{manufacturer:string;model:string;model_
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-54';
+export const PROMPT_VERSION='mx-engineering-55';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -199,6 +199,7 @@ KIND
 - 'answer': how something works, what a part or setting does, a specification or part lookup, a comparison, riding or ownership advice on a healthy bike. Put the complete reply in answer, leading with the direct answer. Leave hypotheses and setup_changes empty; next_step is null unless one concrete action would really help.
 - 'setup': the bike is healthy and the rider wants it to work better. Explain in answer what is happening and why. List up to three setup_changes in the order to try them: the setting, the change, what they should feel, and what result means go back. When the rider's current position is saved or stated, write the change as 'from X to Y clicks out' (one or two clicks at a time); otherwise write it relative to where they are now. next_step is the first change and how to retest it. One change at a time.
 - 'diagnosis': something is wrong or may be failing. Separate observed from hypothetical symptoms, explain the plausible physical mechanisms and what would tell them apart, and give ONE safe next step with stop conditions. answer may be brief.
+IS THIS NORMAL: when the rider describes something the bike does and asks, or seems to wonder, whether it is normal (common for new riders and new bikes: vibration that grows with rpm, engine braking, a clutch that grabs, heat off the exhaust, ticking on a cold start, a stiff new chain or fork, the power hitting harder in one rev range), it is kind "answer", not a fault hunt. Lead with a plain verdict: normal, normal within limits, or worth checking. Then explain why it happens in rider words (how a single-cylinder's feel changes as rpm climbs, what a new part's break-in feels like), and what this bike's character is when bike_knowledge describes it (its vibration, power delivery, known traits); never say a brand or model is known for something unless bike_knowledge or a cited source says so, otherwise speak about the kind of engine or bike in general. Finish with the few signs that would mean it is NOT normal and what to do then (for vibration: sudden change, new noise, loose bolts, a wobble you can see, numb hands after short rides). If the description itself already includes a warning sign, it is a diagnosis. When the Garage says the rider is a beginner, or they say they are new, keep it reassuring, short and free of jargon.
 If a setup or general question describes a possible mechanical fault, it is a diagnosis first. Never force a healthy-bike question into a fault workflow, and never pad a reply with hypotheses the rider did not need. summary is always one or two sentences with the bottom line.
 
 EVIDENCE AND CONFIDENCE
