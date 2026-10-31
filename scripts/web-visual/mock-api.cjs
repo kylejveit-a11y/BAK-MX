@@ -28,7 +28,46 @@ const threads=[{rider:{...rider,user_id:'other',handle:'godfather817',display_na
 const coaching=[];
 const checklist={items:null};
 const tracks=[{name:'Dade City MX',state:'FL',lat:28.4,lng:-82.2},{name:'Bostwick Creek',state:'FL',lat:29.8,lng:-81.6},{name:'WW Ranch',state:'FL',lat:30.2,lng:-81.9}];
-module.exports={USER,bike,bike2,conversation,messages,answer,services,plan,setupLogs,events,posts,threads,coaching,checklist,tracks,rider,
- profile:{...rider,bio:'Vet B. Sand tracks mostly.',created_at:iso(now-200*day),avatar_photo_id:null},
- entitlement:{status:'trialing',current_period_end:iso(now+20*day),cancel_at_period_end:false},
- coverage:{specs:1581,suspension_settings:41,torque_values:631,parts_catalog:{complete:true,part_count:912},workshop_guides:18}};
+const profile={...rider,bio:'Vet B. Sand tracks mostly.',created_at:iso(now-200*day),avatar_photo_id:null};
+const entitlement={status:'trialing',current_period_end:iso(now+20*day),cancel_at_period_end:false};
+const coverage={specs:1581,suspension_settings:41,torque_values:631,parts_catalog:{complete:true,part_count:912},workshop_guides:18};
+const J=(body,status=200)=>({status,body});const ndjsonR=events=>({status:200,events});
+const CL=(i,st,prop)=>({id:'cl'+i,manufacturer:'KTM',model:'450 SX-F',model_year:2025,variant:'standard',region:'US',domain:prop==='service_interval'?'maintenance':'specification',property:prop||'specification',statement:st,source_url:'https://example.invalid/manual.pdf',source_locator:'PDF page '+(100+i)+'; printed '+(98+i),status:'VERIFIED',has_conflict:false});
+const CLAIMS=[CL(1,'Capacities / Engine oil: 1.10 l (1.16 qt.); Engine oil (SAE 10W/50). Applies to the US standard model named.'),CL(2,'Engine / Valve clearance / Intake at: 0.10 … 0.15 mm (0.0039 … 0.0059 in). Applies to the US standard model named.'),CL(3,'Engine / Valve clearance / Exhaust at: 0.20 … 0.25 mm (0.0079 … 0.0098 in). Applies to the US standard model named.'),CL(4,'Shock absorber / Riding sag: 105 mm. Applies to the US standard model named.'),CL(5,'Shock absorber / Static sag: 35 mm. Applies to the US standard model named.'),CL(6,'Fork / Compression damping / Standard: 12 clicks. Counted counterclockwise.'),CL(7,'Fork / Rebound damping / Standard: 18 clicks. Counted counterclockwise.'),CL(8,'Shock absorber / Rebound damping / Standard: 15 clicks. Counted counterclockwise.'),CL(9,'Chassis / Offroad tire pressure / front: 1.0 bar (15 psi). Applies to the US standard model named.'),CL(10,'Chassis tightening torques / Nut, rear wheel spindle (M20x1.5): 80 Nm (59 lbf ft). Applies to the US standard model named.','torque'),CL(11,'Chassis tightening torques / Screw, front brake caliper (M8): 25 Nm (18.4 lbf ft); Loctite® 243. Applies to the US standard model named.','torque'),CL(12,'Engine tightening torques / Spark plug (M10x1): 10 … 12 Nm (7.4 … 8.9 lbf ft). Applies to the US standard model named.','torque'),CL(13,'Service schedule / Change the engine oil and the oil filter: every 10 operating hours. From the manufacturer service schedule.','service_interval'),CL(14,'Engine / Spark plug: NGK LMAR8DI-10. Applies to the US standard model named.'),CL(18,'Service schedule / Check the fork bearing for play: every 45 operating hours; every 90 operating hours. From the manufacturer service schedule.','service_interval'),CL(19,'Service schedule / Check that the brake linings of the front brake are secured: once after 1 operating hour; every 15 operating hours; every 45 operating hours; every 90 operating hours; every 24 months. From the manufacturer service schedule.','service_interval'),CL(20,'Service schedule / Service the fork: every 45 operating hours; every 90 operating hours. From the manufacturer service schedule.','service_interval'),CL(21,'Service schedule / Service the fork.: every 45 operating hours; every 90 operating hours. From the manufacturer service schedule.','service_interval'),CL(16,'Engine oil requirements: Fully synthetic SAE10W/50; JASO T903 MA2.'),CL(17,'Service schedule / Change the engine oil and the oil filter, clean the oil screens: once after 1 operating hour; every 15 operating hours. From the manufacturer service schedule.','service_interval'),CL(15,'Capacities / Coolant: 1.20 l (1.27 qt.); Coolant. Applies to the US standard model named.')];
+let sent=false;
+/** Answers one /api call: {status,body} for JSON or {status,events} for the streamed chat. q has get(name). */
+function respond(p,q,method,post){
+ if(p==='/api/bikes')return J(method==='GET'?[bike,bike2]:{...bike});
+ if(p==='/api/coverage')return J(coverage);
+ if(p==='/api/entitlement')return J(entitlement);
+ if(p==='/api/profile')return J(profile);
+ if(p==='/api/profiles')return J({profile:profile,bikes:[{id:bike.id,label:'2025 KTM 450 SX-F',photos:[],sheet:'mine'}],posts:[],mine:true});
+ if(p==='/api/conversations')return J(method==='GET'?(q.get('bike_id')===bike.id?[conversation]:[]):{...conversation,id:'44444444-4444-4444-8444-444444444444',title:(post&&post.title)||'New chat',mode:(post&&post.mode)||'ask'});
+ if(p==='/api/messages'){const cid=q.get('conversation_id');return J((sent||cid===conversation.id)?messages.map(m=>({...m,conversation_id:cid})):[]);}
+ if(p==='/api/chat'){sent=true;const m={...messages[1],id:'m-new',conversation_id:(post&&post.conversation_id)||conversation.id,created_at:new Date().toISOString()};return ndjsonR([{type:'status',stage:'reading'},{type:'draft',summary:answer.summary,answer:answer.answer.slice(0,120)},{type:'status',stage:'writing'},{type:'done',message:m}]);}
+ if(p==='/api/services')return method==='GET'?J(services):J(method==='DELETE'?{ok:true}:{...services[0],id:'s-new'});
+ if(p==='/api/service-plan')return J({items:plan,source:'manufacturer schedule'});
+ if(p==='/api/setup-logs')return J(method==='GET'?setupLogs:{...setupLogs[0],id:'l-new'});
+ if(p==='/api/events')return J(method==='GET'?events:{...events[0],id:'e-new'});
+ if(p==='/api/posts')return J(method==='GET'?posts:{...posts[0],id:'p-new'});
+ if(p.startsWith('/api/posts/'))return J([]);
+ if(p==='/api/threads')return J(threads);
+ if(p==='/api/thread')return J({rider:threads[0].rider,messages:[{id:'t1',body:'See you at Dade Saturday?',created_at:new Date(Date.now()-7200000).toISOString(),mine:false}]});
+ if(p==='/api/comments')return J([]);
+ if(p==='/api/parts/catalog')return J({catalog:{id:'pc',source:'KTM',source_url:'',scope_label:'',complete:true,assembly_count:8,part_count:300},assemblies:['FRONT FORK, TRIPLE CLAMP','SHOCK ABSORBER','SWING ARM','CYLINDER HEAD','CLUTCH','FRONT WHEEL','REAR BRAKE CALIPER','TANK, SEAT','HANDLEBAR, CONTROLS','EXHAUST SYSTEM','WP SHIMS FOR SETTING','TRANSMISSION II - COUNTERSHAFT'].map((n,i)=>({id:'a'+i,name:n,diagram_url:'',source_url:'',position:i}))});
+ if(p==='/api/coaching')return J(coaching);
+ if(p==='/api/race-checklist')return J(checklist);
+ if(p==='/api/tracks')return J(tracks);
+ if(p==='/api/photos')return J([]);
+ if(p==='/api/garage-sharing')return J({show_on_profile:false,photo_ids:[],build_sheet_public:false});
+ if(p==='/api/build-sheet')return J(null,404);
+ if(p==='/api/claims')return J(CLAIMS);
+ if(p==='/api/claims/search')return J(CLAIMS.filter(c=>c.statement.toLowerCase().includes((q.get('q')||'').toLowerCase().split(' ')[0])));
+ if(p==='/api/parts-catalog'||p.startsWith('/api/parts'))return J(null,404);
+ if(p==='/api/blocks')return J([]);
+ if(p==='/api/reports')return J([]);
+ if(p==='/api/preferences')return J({});
+ return J([]);
+}
+module.exports={respond,CLAIMS,USER,bike,bike2,conversation,messages,answer,services,plan,setupLogs,events,posts,threads,coaching,checklist,tracks,rider,
+profile,entitlement,coverage};

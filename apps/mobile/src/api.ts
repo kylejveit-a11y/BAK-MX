@@ -10,6 +10,17 @@ export const configured=Boolean(mxProject&&key&&apiOrigin&&/^https:\/\//.test(ap
 // Chunk encrypted values to avoid legacy iOS SecureStore payload limits.
 const storage=createSessionStorage(SecureStore);
 export const supabase=mxProject&&key?createClient(url,key,{auth:{storage,persistSession:true,autoRefreshToken:true,detectSessionInUrl:false,lock:processLock,flowType:'pkce'}}):null;
+// Development-only sample mode (see sample/sampleMode.ts). In a release build __DEV__ is false, so this is null and
+// Metro leaves the sample module and its data out of the app entirely.
+// eslint-disable-next-line @typescript-eslint/no-require-imports
+const sample:typeof import('./sample/sampleMode')|null=__DEV__?require('./sample/sampleMode'):null;
+const SAMPLE=!!sample?.SAMPLE;
+if(SAMPLE&&supabase&&sample){const session=sample.sampleSession();const auth=supabase.auth as unknown as Record<string,unknown>;
+ auth.getSession=async()=>({data:{session},error:null});
+ auth.onAuthStateChange=(cb:(e:string,s:unknown)=>void)=>{setTimeout(()=>cb('SIGNED_IN',session),0);return {data:{subscription:{unsubscribe(){}}}};};
+ auth.startAutoRefresh=async()=>{};auth.stopAutoRefresh=async()=>{};auth.signOut=async()=>({error:null});
+ // eslint-disable-next-line @typescript-eslint/no-require-imports
+ require('react-native').LogBox.ignoreAllLogs(true);}
 export class ApiError extends Error{constructor(message:string,public status:number){super(message);}}
 /** Reads and writes keyed to the signed-in account; null before sign-in. */
 export function accountStore(userId:string):Store{return {read:(k,f)=>readProgress(userId,k,f),write:(k,v)=>writeProgress(userId,k,v)};}
@@ -19,6 +30,7 @@ export const currentStore=()=>lastUser?accountStore(lastUser):null;
 async function request<T>(path:string,method:string,body:unknown,token:string):Promise<T>{const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),90000);let response:Response;try{response=await fetch(apiOrigin+path,{signal:controller.signal,method,headers:{Authorization:`Bearer ${token}`,'Content-Type':'application/json'},...(body!==undefined?{body:JSON.stringify(body)}:{})});}catch(e){if(controller.signal.aborted)throw new Error('Connection timed out. Refresh your saved data before retrying; the request may have completed.');throw new Error('Could not reach BAK MX. Check your connection and try again.');}finally{clearTimeout(timeout);}let json:any;try{json=await response.json();}catch{throw new ApiError('BAK MX returned an incomplete response. Refresh your history before retrying.',response.status||502);}if(!response.ok)throw new ApiError(json.error??'Request failed. Please try again.',response.status);return json as T;}
 /** GET answers are kept on the phone and served when there is no signal (the rider is told). Any success flushes queued writes. */
 export async function api<T>(path:string,method='GET',body?:unknown):Promise<T>{
+ if(SAMPLE&&sample)return sample.sampleApi<T>(path,method,body);
  if(!configured||!supabase)throw new Error('BAK MX services are not configured in this build.');
  const {data,error}=await supabase.auth.getSession();if(error)throw error;if(!data.session)throw new Error('Sign in to continue.');
  lastUser=data.session.user.id;const store=accountStore(lastUser);
@@ -50,6 +62,7 @@ export async function apiQueued<T extends {id:string}>(path:string,body:unknown,
  *  then "done" or "error"). React Native's fetch cannot read a body in pieces, so this uses XMLHttpRequest, whose progress
  *  events carry the text received so far. If the server answers with plain JSON instead, that is used as is. */
 export async function apiStream<T>(path:string,body:unknown,onEvent:(event:{type:string;[key:string]:unknown})=>void):Promise<T>{
+ if(SAMPLE&&sample)return sample.sampleStream<T>(path,body,onEvent);
  if(!configured||!supabase)throw new Error('BAK MX services are not configured in this build.');
  const {data,error}=await supabase.auth.getSession();if(error)throw error;if(!data.session)throw new Error('Sign in to continue.');
  const token=data.session.access_token;
