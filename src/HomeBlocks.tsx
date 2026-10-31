@@ -1,6 +1,7 @@
 // Home, the rider's way, on the website: blocks they can turn on, off and reorder (saved on this browser), the phone app's
 // tile list, a bike cover photo, and the small pieces the chat borrows (disclosures, tuning notes, a sheet). Mirrors
 // apps/mobile/src/HomeBlocks.tsx so the phone-sized site reads like the app.
+import {chatTopic} from '../shared/chat-topic';
 import './home.css';
 import {useEffect,useState,type ReactNode} from 'react';
 import {ChevronDown,ChevronRight,ChevronUp,MessageSquare,NotebookPen,X} from 'lucide-react';
@@ -220,11 +221,11 @@ export function TuningNotes({account,bikeId,conversation}:{account:string;bikeId
 }
 
 // ------------------------------------------------------------------ chats sheet (the phone's Chats chip)
-export function ChatsSheet({conversations,active,busy,onPick,onClose}:{conversations:{id:string;title:string;created_at:string}[];active:string;busy:boolean;onPick:(id:string)=>void;onClose:()=>void}){
+export function ChatsSheet({conversations,active,busy,onPick,onClose}:{conversations:{id:string;title:string;created_at:string;mode?:string|null}[];active:string;busy:boolean;onPick:(id:string)=>void;onClose:()=>void}){
  return <Sheet title="Your chats" onClose={onClose}>
   <div className="hb-chat-list">
    <button type="button" className={active?'':'on'} disabled={busy} onClick={()=>{onPick('');onClose();}}><MessageSquare size={16}/><span>New chat</span></button>
-   {conversations.map(c=><button type="button" key={c.id} className={active===c.id?'on':''} disabled={busy} onClick={()=>{onPick(c.id);onClose();}}><MessageSquare size={16}/><span>{c.title}</span><small>{new Date(c.created_at).toLocaleDateString()}</small></button>)}
+   {conversations.map(c=><button type="button" key={c.id} className={active===c.id?'on':''} disabled={busy} onClick={()=>{onPick(c.id);onClose();}}><MessageSquare size={16}/><span><em className="chat-topic">{chatTopic(c.title,c.mode)}</em>{c.title}</span><small>{new Date(c.created_at).toLocaleDateString()}</small></button>)}
   </div>
   {!conversations.length&&<p className="hb-copy">Your saved chats for this bike will appear here.</p>}
  </Sheet>;

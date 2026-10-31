@@ -1,5 +1,6 @@
 import {splitFact} from '../../../shared/specs-view';
 import {plainName} from '../../../shared/plain-facts';
+import {chatTopic} from '../../../shared/chat-topic';
 import {SpecsView} from './SpecsScreen';
 import {authErrorText} from '../../../shared/auth-errors';
 import {checkVin,cleanVin} from '../../../shared/vin';
@@ -305,7 +306,7 @@ function ChatForBike({route}:BottomTabScreenProps<Tabs,'Ask BAK'>){
   <View style={{flexDirection:'row',alignItems:'center',gap:6,paddingHorizontal:8,paddingTop:8}}>
    {bikes.length>1?<PickButton title="Current bike" accessibilityLabel={`Bike: ${bike.model_year} ${bike.manufacturer} ${bike.model}. Change`} disabled={busy} value={bike.id} options={bikes.map(b=>({value:b.id,label:`${b.model_year} ${b.manufacturer} ${b.model}`}))} onChange={select}><View style={chip}><Icon name="moto" size={14} color="#b2b9c4"/><Text numberOfLines={1} style={chipText}>{bike.manufacturer} {bike.model}</Text><Icon name="chevronDown" size={12} color="#8f97a4"/></View></PickButton>
    :<View style={chip}><Icon name="moto" size={14} color="#b2b9c4"/><Text numberOfLines={1} style={chipText}>{bike.manufacturer} {bike.model}</Text></View>}
-   {(threads.length>0||!!id)&&<PickButton title="Your chats" accessibilityLabel={`Chats: ${id?threads.find(t=>t.id===id)?.title??'this chat':'new chat'}. Change`} disabled={busy} value={id} options={[{value:'',label:'New chat'},...threads.map(t=>({value:t.id,label:t.title}))]} onChange={v=>{if(sending.current)return;refreshVersion.current.invalidate();setId(v);setMessages([]);setDraft('');setNotice('');rememberRequest(null);}}><View style={chip}><Icon name="messages" size={14} color="#b2b9c4"/><Text style={chipText}>{id?'Chats':'New chat'}</Text><Icon name="chevronDown" size={12} color="#8f97a4"/></View></PickButton>}
+   {(threads.length>0||!!id)&&<PickButton title="Your chats" accessibilityLabel={`Chats: ${id?threads.find(t=>t.id===id)?.title??'this chat':'new chat'}. Change`} disabled={busy} value={id} options={[{value:'',label:'New chat'},...threads.map(t=>({value:t.id,label:`${chatTopic(t.title,t.mode)} · ${t.title}`}))]} onChange={v=>{if(sending.current)return;refreshVersion.current.invalidate();setId(v);setMessages([]);setDraft('');setNotice('');rememberRequest(null);}}><View style={chip}><Icon name="messages" size={14} color="#b2b9c4"/><Text style={chipText}>{id?'Chats':'New chat'}</Text><Icon name="chevronDown" size={12} color="#8f97a4"/></View></PickButton>}
    <View style={{flex:1}}/>
    <Pressable haptic="select" accessibilityRole="switch" accessibilityState={{checked:fast}} accessibilityLabel="Race mode: short, fast answers" accessibilityHint={fast?'On. Answers are the one change to make, short.':'Off. Answers are full depth.'} disabled={busy} onPress={()=>setFastPick({day:new Date().toDateString(),on:!fast})} style={({pressed})=>[chip,fast&&{borderColor:colors.accent,backgroundColor:tint(0.14)},{opacity:pressed?0.7:1}]}><Icon name="bolt" size={14} color={fast?colors.accent:'#8f97a4'}/><Text style={[chipText,{color:fast?colors.text:'#8f97a4'}]}>Race{fast?' on':''}</Text></Pressable>
   </View>

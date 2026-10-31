@@ -1412,3 +1412,5 @@ body:has(.bars-hidden)::after,body:has(.content.chat-page)::after,body:has(.comp
 .shell .content.chat-page .composer .send-button{flex:0 0 auto;width:40px;height:40px;margin:0}
 .shell .content.chat-page .composer>div>span{display:none}
 }
+/* Desktop chat: the conversation sits level with the chat list, no card gap above the bike line (2026-10-31). Phone has its own rule above. */
+@media(min-width:761px){.shell .chat-page .conversation{margin-top:0!important;padding-top:0!important;border-top:0!important}.shell .chat-page .chat-layout{align-items:start}}
