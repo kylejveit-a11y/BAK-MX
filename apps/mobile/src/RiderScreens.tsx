@@ -3,7 +3,7 @@ import {PublicGarage,type PublicBike} from './GarageSharing';
 import {RacePlate} from './RacePlate';
 import {motion} from './theme';
 import {usedLinkTokens} from './appLinks';
-import {PART_AREAS,partArea} from '../../../shared/specs-view';
+import {PART_AREAS,partArea,niceName} from '../../../shared/specs-view';
 import React,{useCallback,useContext,useEffect,useRef,useState} from 'react';
 import {ActivityIndicator,Alert,Animated,Image,KeyboardAvoidingView,Linking,Modal,Platform,ScrollView,Share,StyleSheet,Text,TextInput,View} from 'react-native';
 import {Pressable} from './Touch';
@@ -34,7 +34,7 @@ function Tag({text,tone='info'}:{text:string;tone?:'info'|'good'|'bad'}){
  return <View style={{alignSelf:'flex-start',flexDirection:'row',alignItems:'center',gap:6}}><View style={{width:6,height:6,borderRadius:3,backgroundColor:palette[2]}}/><Text style={{color:palette[2],fontSize:12.5,fontWeight:'600'}}>{text}</Text></View>;
 }
 function Link({title,onPress,danger=false}:{title:string;onPress:()=>void;danger?:boolean}){
- return <Pressable accessibilityRole="button" onPress={onPress} hitSlop={8} style={({pressed})=>({opacity:pressed?0.5:1,paddingVertical:6})}><Text style={{color:danger?'#efb5be':colors.accent,fontSize:14,fontWeight:'600'}}>{title}</Text></Pressable>;
+ return <Pressable accessibilityRole="button" onPress={onPress} hitSlop={8} style={({pressed})=>({opacity:pressed?0.5:1,paddingVertical:6})}><Text style={{color:danger?'#efb5be':colors.text,fontSize:14,fontWeight:'700'}}>{title}</Text></Pressable>;
 }
 function Row({children}:{children:React.ReactNode}){return <View style={{flexDirection:'row',flexWrap:'wrap',gap:18,alignItems:'center'}}>{children}</View>;}
 function Segments<T extends string>({value,items,onChange}:{value:T;items:{value:T;label:string}[];onChange:(v:T)=>void}){
@@ -376,7 +376,7 @@ export function SetupLogCard({bike,onAsk,prefill}:{bike?:Bike;onAsk:(text:string
 
 /* ------------------------------------------------------------------ Parts catalog */
 /** Catalog section names arrive in capitals ("FRONT FORK, TRIPLE CLAMP"); show them in normal case, keeping known abbreviations. */
-const sectionName=(n:string)=>n===n.toUpperCase()?n.toLowerCase().replace(/(^|[\s,(/-])([a-z])/g,(_m,a,b)=>a+b.toUpperCase()).replace(/\b(Wp|Ecu|Abs|Pds|Cdi|Led|Usa|Eu)\b/g,x=>x.toUpperCase()):n;
+const sectionName=niceName;
 const hasDiagram=(u:string)=>/^https:\/\//.test(u)&&!/NoImage/i.test(u);
 /** The exploded diagram for a parts section, right above its numbered list. Tap to open it full screen and pinch to zoom. */
 function Diagram({uri,title}:{uri:string;title:string}){

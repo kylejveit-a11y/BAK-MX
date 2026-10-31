@@ -19,8 +19,9 @@ export async function sampleApi<T>(path:string,method:string,body:unknown):Promi
  return r.body as T;
 }
 export async function sampleStream<T>(path:string,body:unknown,onEvent:(e:{type:string;[k:string]:unknown})=>void):Promise<T>{
+ // Like the real stream, the result is the whole 'done' event ({type:'done', message, ...}).
  const {p,q}=split(path);const r=mock().respond(p,q,'POST',body);let done:unknown;
- for(const e of r.events??[]){await new Promise(res=>setTimeout(res,350));onEvent(e);if(e.type==='done')done=e.message;}
+ for(const e of r.events??[]){await new Promise(res=>setTimeout(res,350));onEvent(e);if(e.type==='done')done=e;}
  return (done??r.body) as T;
 }
 export function sampleSession(){const id=mock().USER;const at=Math.floor(Date.now()/1000);

@@ -45,7 +45,7 @@ export function SpecsView({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
     {quick.map(t=><View key={t.label} style={{flexBasis:'47%',flexGrow:1,padding:14,borderRadius:18,backgroundColor:'#12141a',borderWidth:1,borderColor:'rgba(255,255,255,.08)',gap:4}}><Text style={label}>{t.label.toUpperCase()}</Text><Text selectable numberOfLines={3} style={{color:colors.text,fontSize:16,fontWeight:'700',lineHeight:22}}>{t.value}</Text></View>)}
    </View>}
    <Card>
-    <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><Eyebrow>YOUR SETTINGS NOW</Eyebrow><Pressable accessibilityRole="button" hitSlop={8} onPress={onGarage}><Text style={{color:colors.accent,fontSize:14,fontWeight:'700'}}>{mine.any?'Update':'Add yours'}</Text></Pressable></View>
+    <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}><Eyebrow>YOUR SETTINGS NOW</Eyebrow><Pressable accessibilityRole="button" hitSlop={8} onPress={onGarage}><Text style={{color:colors.text,fontSize:14,fontWeight:'700'}}>{mine.any?'Update':'Add yours'}</Text></Pressable></View>
     {!mine.any&&<Copy>Add your clickers, sag and tire pressure in your Garage and they show here next to stock.</Copy>}
     {mine.list.map(y=><View key={y.key} style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',gap:12,borderTopWidth:1,borderTopColor:colors.line,paddingVertical:10}}><Text style={{color:colors.text,fontSize:15,flex:1}}>{y.label}</Text><View style={{alignItems:'flex-end',maxWidth:'55%'}}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{y.mine||'—'}</Text>{!!y.stock&&<Text style={{color:colors.muted,fontSize:12.5}}>stock {y.stock}</Text>}</View></View>)}
    </Card>
