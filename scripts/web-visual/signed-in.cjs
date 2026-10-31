@@ -55,7 +55,7 @@ function route(url,method,post){
  await page.route(/\/api\//,r=>{const req=r.request();let post=null;try{post=req.postDataJSON();}catch{}try{return r.fulfill(route(req.url(),req.method(),post));}catch(e){console.log('ROUTE FAIL',req.url(),String(e));return r.fulfill(json([]));}});
  const scroll=async(dy)=>{await page.evaluate(y=>window.scrollBy({top:y,behavior:'instant'}),dy);await page.waitForTimeout(350);};
  const window_w=width;const wide=[];const shot=async(name)=>{await page.waitForTimeout(500);const w=await page.evaluate(()=>document.documentElement.scrollWidth);if(w>window_w)wide.push(name+':'+w);await page.screenshot({path:out+name+'.png'});};
- const tab=async(name)=>{await page.getByRole('navigation',{name:'Mobile navigation'}).getByRole('button',{name}).click();};
+ const tab=async(name)=>{const nav=page.getByRole('navigation',{name:'Mobile navigation'});if(await nav.isVisible().catch(()=>false))return nav.getByRole('button',{name}).click();await page.getByRole('button',{name:'Open menu'}).click();await page.waitForTimeout(300);await page.getByRole('button',{name:new RegExp('^'+name)}).last().click();};
  await page.goto('http://localhost:4173/',{waitUntil:'networkidle'});
  await shot('01-home');await scroll(900);await shot('02-home-scrolled');await scroll(900);await shot('03-home-scrolled-2');await scroll(-3000);
  await tab('Chat');await shot('10-chat-welcome');

@@ -233,7 +233,7 @@ textarea.hb-input{resize:vertical;min-height:72px}
 .rx-eyebrow-row .rx-mark{width:16px;height:3px;border-radius:2px;transform:skewX(-24deg);background:var(--metal,var(--bike-accent))}
 /* 3. Chat: the strip between the message box and the tab bar is solid, so the answer never shows through. */
 @media(max-width:760px){
- body:has(.content.chat-page)::after{content:"";position:fixed;left:0;right:0;bottom:0;height:calc(var(--composer-h,150px) + 104px + env(safe-area-inset-bottom));background:linear-gradient(180deg,rgba(7,8,10,0),#07080a 22%);opacity:1;z-index:65;pointer-events:none;transition:none}
+ body:has(.content.chat-page)::after{content:"";position:fixed;left:0;right:0;bottom:0;height:calc(var(--composer-h,150px) + 30px + env(safe-area-inset-bottom));background:linear-gradient(180deg,rgba(7,8,10,0),#07080a 22%);opacity:1;z-index:65;pointer-events:none;transition:none}
  .shell:has(.composer textarea:focus) .content.chat-page~*,body:has(.composer textarea:focus)::after{opacity:1}
  .shell .bottom-nav{z-index:75}
 }

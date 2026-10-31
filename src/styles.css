@@ -1380,9 +1380,9 @@ body:has(.bars-hidden)::after,body:has(.content.chat-page)::after,body:has(.comp
    Matches the app: bike line under the header, messages, a solid composer card above the tab bar, tab bar stays until
    the keyboard is up. The composer's real height feeds --composer-h from App.tsx so nothing renders underneath it. */
 @media(max-width:760px){
-.shell .content.chat-page{padding:0 0 calc(var(--composer-h,150px) + 96px + env(safe-area-inset-bottom))}
-.shell:has(.content.chat-page) .bottom-nav{display:grid}
-.shell:has(.composer textarea:focus) .bottom-nav{display:none}
+.shell .content.chat-page{padding:0 0 calc(var(--composer-h,150px) + 24px + env(safe-area-inset-bottom))}
+/* Chat gets the whole screen: no tab bar here (Menu and the header stay up top), the composer sits at the bottom. */
+.shell:has(.content.chat-page) .bottom-nav{display:none}
 .shell .chat-page .history{display:none}
 .shell .chat-page .chat-context{position:sticky;top:68px;z-index:30;display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 14px 8px 18px;background:#07080a;border-bottom:1px solid #15181e}
 .shell .chat-page .messages{min-height:0;padding:14px 18px 8px}
@@ -1390,7 +1390,7 @@ body:has(.bars-hidden)::after,body:has(.content.chat-page)::after,body:has(.comp
 .shell .chat-page .chat-welcome h2{font-family:var(--display-title,inherit);font-style:italic;font-weight:900;letter-spacing:-.04em;font-size:30px}
 .shell .chat-page .message{position:relative;z-index:0}
 .shell .app-header{z-index:60}
-.shell .content.chat-page .composer,.shell.bars-hidden .content.chat-page .composer,.shell:has(.composer textarea:focus) .content.chat-page .composer{position:fixed;left:10px;right:10px;bottom:calc(84px + env(safe-area-inset-bottom));z-index:70;display:flex;flex-direction:column;align-items:stretch;gap:4px;margin:0;padding:12px 10px 10px 16px;border-radius:26px;border:1px solid rgba(255,255,255,.1);background:#15171d;background-image:none;box-shadow:0 14px 40px rgba(0,0,0,.6),inset 0 1px 0 rgba(255,255,255,.05);backdrop-filter:none;-webkit-backdrop-filter:none;transition:bottom .18s ease}
+.shell .content.chat-page .composer,.shell.bars-hidden .content.chat-page .composer,.shell:has(.composer textarea:focus) .content.chat-page .composer{position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:70;display:flex;flex-direction:column;align-items:stretch;gap:4px;margin:0;padding:12px 10px 10px 16px;border-radius:26px;border:1px solid rgba(255,255,255,.1);background:#15171d;background-image:none;box-shadow:0 14px 40px rgba(0,0,0,.6),inset 0 1px 0 rgba(255,255,255,.05);backdrop-filter:none;-webkit-backdrop-filter:none;transition:bottom .18s ease}
 .shell:has(.composer textarea:focus) .content.chat-page .composer{bottom:calc(8px + env(safe-area-inset-bottom))}
 .shell .content.chat-page .composer textarea{width:100%;height:auto;min-height:30px;max-height:132px;padding:2px 6px 2px 0;margin:0;background:transparent;border:0;border-radius:0;box-shadow:none;font-size:17px;line-height:26px;color:#f1f2f5;resize:none}
 .shell .content.chat-page .composer>div{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0}
