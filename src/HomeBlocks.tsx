@@ -132,7 +132,7 @@ export function ServiceDueBlock({bike,onOpen}:{bike:Bike;onOpen:()=>void}){
   {!show.length&&!error&&<p className="hb-copy">{events.length?'No reminders yet. When you log a service, add when it’s next due and it shows here.':'Log your last oil change or filter, with when it’s next due, and it shows here.'}</p>}
   {show.map(d=>{const left=hours!=null?Math.round((d.at-hours)*10)/10:null;const over=left!=null&&left<=0,soon=left!=null&&left>0&&left<=2;
    return <div key={d.key} className="hb-row"><i className={'hb-dot'+(over?' over':soon?' soon':'')} aria-hidden="true"/><span className="hb-grow hb-strong" style={{fontSize:15.5,fontWeight:600}}>{d.category}</span><span className={'hb-line'+(over?' hb-bad':'')} style={over?{fontWeight:700}:undefined}>{left==null?`at ${d.at} h`:over?`${Math.abs(left)} h overdue`:`in ${left} h`}</span></div>;})}
-  {show.some(d=>d.from==='maker')&&<p className="hb-note">Intervals marked from the maker’s schedule count from your last entry for that item.</p>}
+  {show.some(d=>d.from==='maker')&&<p className="hb-note">Hours to go use the maker’s interval, counted from the last time you logged each job.</p>}
   {show.length>0&&hours==null&&<p className="hb-note">Add the bike’s hours in Garage to count down.</p>}
  </section>;
 }

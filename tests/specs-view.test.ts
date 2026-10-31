@@ -16,3 +16,10 @@ test('engine oil shows amount and kind; settings sit next to stock',()=>{
  const y=yourSettings(rows,{fork_compression:'10 clicks'});assert.ok(y.any);assert.equal(y.list.find(x=>x.key==='fork_compression')?.stock,'12 clicks');
 });
 test('catalog names read normally and group by area',()=>{assert.equal(niceName('FRONT FORK, TRIPLE CLAMP'),'Front Fork, Triple Clamp');assert.equal(partArea('FRONT FORK, TRIPLE CLAMP'),'Suspension');});
+import {settingName} from '../shared/specs-view.ts';
+test('setting names read like a rider says them',()=>{
+ assert.equal(settingName('Fork · Compression damping · Standard'),'Fork compression (stock)');
+ assert.equal(settingName('Shock · Riding sag'),'Riding sag');
+ assert.equal(settingName('Front brake caliper screw (M8)'),'Front brake caliper screw (M8)');
+ assert.equal(settingName('Shock · High-speed compression damping · Standard'),'Shock high-speed compression (stock)');
+});

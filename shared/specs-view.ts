@@ -23,7 +23,17 @@ export function splitFact(statement:string):{section:string;name:string;value:st
 
 /** One list row in rider words: plain part name, and for service jobs the one interval a rider follows. */
 export function toSpecRow(c:Claim):SpecRow{const f=splitFact(c.statement),kind=factKind(c);
- return {c,system:factSystem(c),kind,...f,name:plainName(f.name),value:kind==='service'?plainInterval(f.value):f.value};}
+ return {c,system:factSystem(c),kind,...f,name:settingName(plainName(f.name)),value:kind==='service'?plainInterval(f.value):f.value};}
+/** "Fork · Compression damping · Standard" → "Fork compression (stock)"; "Shock · Riding sag" → "Riding sag". */
+export function settingName(name:string):string{
+ const parts=name.split(' · ').map(p=>p.trim()).filter(Boolean);if(parts.length<2)return name;
+ const stock=parts.some(p=>/^(standard|stock|standard setting|basic setting)$/i.test(p));
+ const rest=parts.filter(p=>!/^(standard|stock|standard setting|basic setting)$/i.test(p));
+ const sag=rest.find(p=>/\b(riding|race|static|free) sag\b/i.test(p));if(sag)return sag.charAt(0).toUpperCase()+sag.slice(1);
+ const [part,...what]=rest;const tail=what.join(' ').replace(/\s*damping\b/i,'').trim();
+ const joined=tail?`${part} ${tail.charAt(0).toLowerCase()+tail.slice(1)}`:part;
+ return stock?`${joined} (stock)`:joined;
+}
 
 /** All rows for a bike, with jobs printed twice in the manual collapsed to one. */
 export function specRows(claims:Claim[]):SpecRow[]{const out:SpecRow[]=[];for(const c of claims){const r=toSpecRow(c);if(out.some(o=>o.kind===r.kind&&o.system===r.system&&sameJob(o.name,r.name)&&o.value===r.value))continue;out.push(r);}return out;}
@@ -69,7 +79,10 @@ const YOURS:{key:string;label:string;rx:RegExp}[]=[
 ];
 export function yourSettings(rows:SpecRow[],configuration:Record<string,unknown>|null|undefined){
  const cfg=configuration??{};const val=(k:string)=>{const v=cfg[k];return v==null||String(v).trim()===''?'':String(v);};
- const list=YOURS.map(y=>{const m=val(y.key);return {key:y.key,label:y.label,mine:y.key==='rider_sag_mm'&&/^\d+(\.\d+)?$/.test(m)?m+' mm':m,stock:rows.find(r=>fits(r)&&y.rx.test(r.section+' / '+r.name))?.value.split(';')[0].trim()};});
+ const list=YOURS.map(y=>{const m=val(y.key);const stock=rows.find(r=>fits(r)&&y.rx.test(r.section+' / '+r.name))?.value.split(';')[0].trim();
+  // A bare number takes the unit stock is given in ("14" next to "stock 12 clicks" reads "14 clicks").
+  const unit=y.key==='rider_sag_mm'?'mm':stock?.match(/^\s*[\d.]+\s*(clicks?|turns?|mm)\b/i)?.[1]??'';
+  return {key:y.key,label:y.label,mine:/^\d+(\.\d+)?$/.test(m)&&unit?`${m} ${unit}`:m,stock};});
  return {list:list.filter(y=>y.mine||y.stock),any:list.some(y=>y.mine)};
 }
 

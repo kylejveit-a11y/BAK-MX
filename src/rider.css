@@ -240,3 +240,5 @@
 .pc-area{margin:18px 0 4px;font-size:11.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#8f97a4;display:flex;align-items:center;gap:8px}
 .pc-area::before{content:"";width:14px;height:3px;border-radius:2px;transform:skewX(-24deg);background:var(--bike-accent)}
 .parts-catalog .assembly-head span{text-transform:none;letter-spacing:0;font-weight:600}
+@media(min-width:761px){.chat-layout.rd-chat{grid-template-columns:300px minmax(0,1fr)}}
+.setup-guide .tabs{display:flex!important;flex-wrap:nowrap!important;overflow-x:auto;-webkit-overflow-scrolling:touch}.setup-guide .tabs button{flex:0 0 auto}

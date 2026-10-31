@@ -259,3 +259,4 @@ textarea.hb-input{resize:vertical;min-height:72px}
 .rider-manual-optional[open]>summary{border-bottom:1px solid rgba(255,255,255,.06)}
 .rider-manual-optional[open]>*:not(summary){margin-left:18px;margin-right:18px}
 .rider-manual-optional[open]>*:last-child{margin-bottom:18px}
+p.hb-note{margin-top:10px}
