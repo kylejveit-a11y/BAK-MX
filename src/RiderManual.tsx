@@ -6,7 +6,7 @@ import {api,supabase} from './client';
 type Manual={id:string;file_name:string;pages:number|null;status:string;reason:string|null;created_at:string};
 
 /** The rider's own manual for this bike: private to them, used only in their chats about this bike. */
-export function RiderManual({bike}:{bike:Bike}){
+export function RiderManual({bike,optional=false}:{bike:Bike;optional?:boolean}){
  const [list,setList]=useState<Manual[]>([]),[file,setFile]=useState<File|null>(null),[busy,setBusy]=useState(''),[error,setError]=useState(''),[confirm,setConfirm]=useState('');
  const load=()=>api<Manual[]>('/rider-manuals?bike_id='+bike.id).then(setList).catch(()=>{});
  useEffect(()=>{void load();},[bike.id]);
@@ -25,11 +25,16 @@ export function RiderManual({bike}:{bike:Bike}){
   }catch(e){setError((e as Error).message);}finally{setBusy('');}
  }
  async function remove(id:string){setBusy('Deleting…');try{await api('/rider-manuals?id='+id,'DELETE');setConfirm('');await load();}catch(e){setError((e as Error).message);}finally{setBusy('');}}
- return <section className="panel rider-manual">
-  <div className="panel-title"><div><span className="eyebrow">YOUR MANUAL</span><h2>Add your own manual</h2></div><Lock size={20}/></div>
+ const body=<>
   <p className="subtle">Have the service or owner's manual for this bike as a PDF? Add it and BAK can look things up in it when you ask about this bike. It stays private to your account: no one else sees it and BAK doesn't use it for anyone else. Delete it any time.</p>
   {list.map(m=><div key={m.id} className="rider-manual-row"><FileText size={17}/><span><b>{m.file_name}</b><small>{m.status==='READY'?`${m.pages} pages · ready`:m.status==='FAILED'?(m.reason??'Could not be read'):m.status==='READING'?'Reading…':'Upload not finished'}</small></span>{confirm===m.id?<><button className="chat-action danger" disabled={!!busy} onClick={()=>void remove(m.id)}>Delete it</button><button className="chat-action" onClick={()=>setConfirm('')}>Keep</button></>:<button className="icon-button" aria-label={`Delete ${m.file_name}`} title="Delete" onClick={()=>setConfirm(m.id)}><Trash2 size={16}/></button>}</div>)}
   <div className="rider-manual-add"><input type="file" accept="application/pdf,.pdf" disabled={!!busy} onChange={e=>setFile(e.target.files?.[0]??null)}/><button className="button secondary" disabled={!file||!!busy} onClick={()=>void upload()}>{busy?<><Loader2 size={16} className="spin"/>{busy}</>:<><Upload size={16}/>Add manual</>}</button></div>
   {error&&<p className="error" role="alert">{error}</p>}
+ </>;
+ // Optional extra, not the point of the Garage: folded away until the rider has added one.
+ if(optional&&!list.length)return <details className="panel rider-manual rider-manual-optional"><summary><Lock size={16}/><span>Have your own manual? <b>Add it</b><small>Optional · private to you</small></span></summary>{body}</details>;
+ return <section className="panel rider-manual">
+  <div className="panel-title"><div><span className="eyebrow">YOUR MANUAL</span><h2>{list.length?'Your manual':'Add your own manual'}</h2></div><Lock size={20}/></div>
+  {body}
  </section>;
 }

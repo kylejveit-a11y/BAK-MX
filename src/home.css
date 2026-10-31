@@ -248,3 +248,14 @@ textarea.hb-input{resize:vertical;min-height:72px}
 .procedure-guide details>summary::-webkit-details-marker{display:none}
 .procedure-guide details>summary::after{content:"";width:7px;height:7px;border-right:2px solid var(--bike-accent);border-bottom:2px solid var(--bike-accent);transform:rotate(45deg);margin-left:auto;transition:transform .2s}
 .procedure-guide details[open]>summary::after{transform:rotate(-135deg)}
+/* Garage overview: what's due and what changed last; the private-manual upload folded away as an optional extra. */
+.garage-overview{display:grid;gap:14px}
+.rider-manual-optional{padding:0}
+.rider-manual-optional>summary{list-style:none;display:flex;align-items:center;justify-content:flex-start;gap:12px;padding:16px 18px;cursor:pointer;color:var(--muted,#a6adbb)}
+.rider-manual-optional>summary::-webkit-details-marker{display:none}
+.rider-manual-optional>summary span{display:block;flex:1;min-width:0;font-size:16px;line-height:1.35}
+.rider-manual-optional>summary b{color:#f1f2f5}
+.rider-manual-optional>summary small{display:block;font-size:13px;opacity:.7;margin-top:2px}
+.rider-manual-optional[open]>summary{border-bottom:1px solid rgba(255,255,255,.06)}
+.rider-manual-optional[open]>*:not(summary){margin-left:18px;margin-right:18px}
+.rider-manual-optional[open]>*:last-child{margin-bottom:18px}

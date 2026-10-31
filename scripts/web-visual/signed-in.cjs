@@ -62,7 +62,7 @@ function route(url,method,post){
  const box=page.getByPlaceholder(/Ask about your bike/).first();await box.fill('What does high-speed compression actually do?');await shot('11-chat-typed');
  await page.getByRole('button',{name:'Send message'}).click();await page.waitForTimeout(1500);await shot('12-chat-answer');await scroll(600);await shot('13-chat-answer-scrolled');
  const chats=page.getByRole('button',{name:/Chats/}).first();if(await chats.count()){await chats.click();await shot('14-chats-sheet');const close=page.getByRole('button',{name:'Close'}).last();if(await close.isVisible().catch(()=>false))await close.click();await page.waitForTimeout(300);}
- await tab('Garage');await shot('20-garage');
+ await tab('Garage');await shot('20-garage');await scroll(1100);await shot('20b-garage-overview');await scroll(-3000);
  for(const [t,n] of [['Build sheet','21-garage-build'],['Photos','22-garage-photos'],['Coaching','23-garage-coaching']]){const bt=page.getByRole('tab',{name:t});if(await bt.count()){await bt.click();await shot(n);}}
  await tab('Community');await shot('30-community');
  await tab('Events');await shot('40-events');
