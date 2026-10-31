@@ -3,6 +3,7 @@ import {PublicGarage,type PublicBike} from './GarageSharing';
 import {RacePlate} from './RacePlate';
 import {motion} from './theme';
 import {usedLinkTokens} from './appLinks';
+import {PART_AREAS,partArea} from '../../../shared/specs-view';
 import React,{useCallback,useContext,useEffect,useRef,useState} from 'react';
 import {ActivityIndicator,Alert,Animated,Image,KeyboardAvoidingView,Linking,Modal,Platform,ScrollView,Share,StyleSheet,Text,TextInput,View} from 'react-native';
 import {Pressable} from './Touch';
@@ -407,14 +408,14 @@ export function PartsCatalogCard({bike}:{bike?:Bike}){
   {!catalog?<Copy>No parts catalog for this bike yet. Parts are only shown when they’re listed for your exact year and version, never borrowed from a neighboring year.</Copy>:<>
    <Copy>{catalog.assembly_count} sections · {catalog.part_count} parts{catalog.complete?'':' · not every section is listed yet'}</Copy>
    <Field label="Find an assembly" value={find} onChangeText={setFind}/>
-   {shown.map(a=><View key={a.id} style={{borderTopWidth:1,borderTopColor:colors.line,paddingTop:10,gap:8}}>
+   {PART_AREAS.flatMap(area=>{const list=shown.filter(a=>partArea(a.name)===area);return list.length?[<Text key={'h-'+area} style={{color:'#9aa2ae',fontSize:11,fontWeight:'800',letterSpacing:1.5,marginTop:10}}>{area.toUpperCase()}</Text>,...list.map(a=><View key={a.id} style={{borderTopWidth:1,borderTopColor:colors.line,paddingTop:10,gap:8}}>
     <Pressable accessibilityRole="button" accessibilityState={{expanded:open===a.id}} onPress={()=>void show(a)} style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center',minHeight:40}}><Text style={{color:colors.text,fontSize:16,flex:1}}>{sectionName(a.name)}</Text><Icon name={open===a.id?'chevronDown':'chevronRight'} size={17} color="#adb5c1"/></Pressable>
     {open===a.id&&<View style={{gap:8}}>
      {hasDiagram(a.diagram_url)&&<Diagram uri={a.diagram_url} title={sectionName(a.name)}/>}
      {!parts.length?<Copy>Loading parts…</Copy>:parts.map(p=><View key={p.id} style={{flexDirection:'row',gap:10}}><Text style={{color:colors.text,width:30,fontWeight:'700'}}>{p.callout}</Text><View style={{flex:1}}><Text selectable style={{color:colors.text,fontSize:15}}>{p.description}</Text><Text selectable style={{color:colors.muted,fontSize:13}}>{[p.part_number||'No part number',p.quantity_raw&&p.quantity_raw!=='0'?`Qty ${p.quantity_raw}`:'',p.remarks].filter(Boolean).join(' · ')}</Text></View></View>)}
      <Copy>Catalog quantities are per assembly as published, not whole-bike totals.</Copy>
     </View>}
-   </View>)}
+   </View>)]:[];})}
   </>}
  </Card>;
 }

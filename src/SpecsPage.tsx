@@ -12,20 +12,8 @@ import './specs.css';
 
 type Row={c:Claim;system:FactSystem;kind:FactKind;name:string;value:string;note:string;section:string};
 
-/** "Section / Sub / Item: value. Conditions." → item name, value and the rest. */
-export function splitFact(statement:string):{section:string;name:string;value:string;note:string}{
- const i=statement.indexOf(':');
- if(i<1)return {section:'',name:statement.split('. ')[0],value:'',note:statement.split('. ').slice(1).join('. ')};
- const head=statement.slice(0,i).trim(),rest=statement.slice(i+1).trim();
- const parts=head.split(' / ').map(s=>s.trim()).filter(Boolean);
- // Broad manual headings ("Chassis", "Capacities", "Engine tightening torques") are dropped; ones that name the part ("Fork", "Shock absorber") stay.
- const generic=/^(chassis|engine|capacities|specifications?|general|electrical|chassis tightening torques|engine tightening torques|tightening torques|service schedule|dimensions|technical data)$/i;
- const name=parts.length>1?(generic.test(parts[0])?parts.slice(1):parts).join(' · '):parts[0]??head;
- const cut=rest.search(/\.\s+(?=[A-Z])/);
- const value=(cut>=0?rest.slice(0,cut):rest).replace(/\.$/,'').trim();
- const note=cut>=0?rest.slice(cut+1).trim():'';
- return {section:parts.length>1?parts[0]:'',name,value,note};
-}
+import {splitFact} from '../shared/specs-view';
+export {splitFact};
 
 const KINDS:{k:FactKind|'all';label:string}[]=[{k:'all',label:'All'},{k:'torque',label:'Torques'},{k:'setting',label:'Settings'},{k:'service',label:'Service'},{k:'spec',label:'Specs'}];
 const ORDER:FactSystem[]=['Suspension','Oils & fluids','Engine','Wheels & tires','Brakes','Chain & sprockets','Clutch','Transmission','Cooling','Fuel & air','Exhaust','Electrical & ignition','Controls','Chassis','Dimensions & weight','General'];
