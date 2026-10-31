@@ -1384,6 +1384,9 @@ body:has(.bars-hidden)::after,body:has(.content.chat-page)::after,body:has(.comp
 /* Chat gets the whole screen: no tab bar here (Menu and the header stay up top), the composer sits at the bottom. */
 .shell:has(.content.chat-page) .bottom-nav{display:none}
 .shell .chat-page .history{display:none}
+/* The conversation is the page here, not a card: no card margin, padding or border above the bike line (the 'double gap'). */
+.shell .chat-page .chat-layout{gap:0;margin:0;padding:0}
+.shell .chat-page .conversation{margin:0!important;padding:0!important;border:0!important;border-radius:0;background:none;box-shadow:none}
 .shell .chat-page .chat-context{position:sticky;top:68px;z-index:30;display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 14px 8px 18px;background:#07080a;border-bottom:1px solid #15181e}
 .shell .chat-page .messages{min-height:0;padding:14px 18px 8px}
 .shell .chat-page .chat-welcome{padding:26px 4px 12px}
