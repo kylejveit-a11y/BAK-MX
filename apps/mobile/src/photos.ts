@@ -95,7 +95,7 @@ export async function pickClipFrames():Promise<ClipFrames|null>{
 /** "Show BAK" sheet in Ask BAK: a photo, photos from the library, or a video clip for coaching. */
 export function chooseChatSource():Promise<'camera'|'library'|'video'|null>{
  return new Promise(resolve=>{
-  const opts=['Take photo','Choose photos','Coach me from a video','Cancel'],pick=(i:number)=>resolve(i===0?'camera':i===1?'library':i===2?'video':null);
+  const opts=['Take photo','Choose photos','Coach me from a video (Pro)','Cancel'],pick=(i:number)=>resolve(i===0?'camera':i===1?'library':i===2?'video':null);
   if(Platform.OS==='ios')ActionSheetIOS.showActionSheetWithOptions({title:'Show BAK',message:'Photos of the bike, a part or the track, or a clip of you riding. Trim the clip to the few seconds that matter.',options:opts,cancelButtonIndex:3},pick);
   else if(Platform.OS==='web')resolve('library');
   else Alert.alert('Show BAK','Photos of the bike, a part or the track, or a clip of you riding. Trim the clip to the few seconds that matter.',[{text:opts[0],onPress:()=>pick(0)},{text:opts[1],onPress:()=>pick(1)},{text:opts[2],onPress:()=>pick(2)},{text:'Cancel',style:'cancel',onPress:()=>pick(3)}],{cancelable:true,onDismiss:()=>resolve(null)});

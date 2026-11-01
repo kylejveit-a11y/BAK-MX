@@ -16,7 +16,7 @@ import {applicableClaims,generateAnswer,planSpecLookups,raceLookups,PROMPT_VERSI
 import type {SupabaseClient} from '@supabase/supabase-js';
 import {handleBilling,hasPaidAccess,prepareAccountDeletion} from './billing.ts';
 import {resolveTier,usageFor,reserveQuestion,ensureTrial,startNextTrialSet} from './plans.ts';
-import {limitMessage} from '../shared/plans.ts';
+import {limitMessage,canCoachClips,CLIP_PRO_NOTE} from '../shared/plans.ts';
 import {handleMobileBilling} from './mobile-billing.ts';
 import {handleRiderSurfaces} from './rider-surfaces.ts';
 import {handleModeration} from './moderation.ts';
@@ -93,6 +93,7 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
   if(!process.env.OPENAI_API_KEY||!process.env.OPENAI_MODEL)throw new HttpError(503,'AI is not configured');
   // Plan rules: Free riders use their trial sets and any credits; Premium and Pro get their daily allowance, then credits.
   const paid=await hasPaidAccess(owner),tier=paid?await resolveTier(owner):'free',mode=aiAccessMode();await ensureTrial(owner,tier);
+  if(data.media?.kind==='clip'&&!canCoachClips(tier))throw new HttpError(403,CLIP_PRO_NOTE);
   const conversation=checked(await db.from('conversations').select('*').eq('id',data.conversation_id).eq('user_id',owner).maybeSingle());if(!conversation)throw new HttpError(404,'Conversation not found');
   const photoIds=data.photo_ids??[];await requireOwnPhotos(owner,photoIds,'chat');
   // A conversation without a build is a general question: no saved bike, no published-value lookup.

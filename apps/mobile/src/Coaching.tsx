@@ -33,7 +33,7 @@ export function CoachingList({bike,onCoach}:{bike:Bike;onCoach:()=>void}){
   {sessions===null&&<ActivityIndicator color={colors.accent}/>}
   <Notice text={error}/>
   {sessions!==null&&!sessions.length&&!error&&<View style={{gap:10}}>
-   <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>Send BAK a short clip of you riding a corner, jump or section. Each session lands here with the fix and a drill, so you can see what you have worked on and send a new clip to check it stuck.</Text>
+   <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>Send BAK a short clip of you riding a corner, jump or section (Pro). Each session lands here with the fix and a drill, so you can see what you have worked on and send a new clip to check it stuck.</Text>
    <Pressable accessibilityRole="button" onPress={onCoach} hitSlop={6}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>Coach me from a clip</Text></Pressable>
   </View>}
   {sessions?.map((s,i)=><Session key={s.id} s={s} first={i===0}/>)}

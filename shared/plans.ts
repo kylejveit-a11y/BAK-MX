@@ -12,7 +12,10 @@ export const TIER_LABEL:Record<Tier,string>={free:'Free',premium:'Premium',pro:'
 export const TIER_BLURB:Record<Tier,string>={
  free:'7 sets of 20 Ask BAK questions to start, plus your Garage, setup log and community.',
  premium:'100 Ask BAK questions a day for riders who tune every weekend.',
- pro:'Unlimited Ask BAK questions (fair use) for racers, mechanics and shops.'};
+ pro:'Unlimited Ask BAK questions (fair use) and coaching from riding clips, for racers, mechanics and shops.'};
+/** Coaching from a riding clip (video frames) is a Pro feature (Kyle, 2026-11-01). Photos stay on every plan. */
+export const canCoachClips=(t:Tier)=>t==='pro';
+export const CLIP_PRO_NOTE='Coaching from a riding clip is part of Pro. Photos of you riding still work on every plan, or upgrade in Account › Ask BAK plan.';
 export const tierRank=(t:Tier)=>TIERS.indexOf(t);
 export const bestTier=(...t:(Tier|null|undefined)[]):Tier=>t.filter((x):x is Tier=>!!x).sort((a,b)=>tierRank(b)-tierRank(a))[0]??'free';
 export function dailyLimit(tier:Tier,env:Record<string,string|undefined>={}):number{

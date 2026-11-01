@@ -31,7 +31,7 @@ import type {Session} from '@supabase/supabase-js';
 import {TIER_LABELS,type Bike,type ServiceEvent,type Conversation,type Message,type Claim} from '../../../shared/types';
 import {finalDrive,sagPercent,gearingChange,speedKmh,displacementCc,springRateNmm,compressionRatio} from '../../../shared/calculators';
 import {createAttempt} from '../../../shared/create-retry';
-import {TRIAL_BLOCKS,TRIAL_BLOCK_SIZE} from '../../../shared/plans';
+import {TRIAL_BLOCKS,TRIAL_BLOCK_SIZE,canCoachClips,CLIP_PRO_NOTE,type Tier} from '../../../shared/plans';
 import {phaseForDaysOut} from '../../../shared/race-prep';
 import type {PlanItem} from '../../../shared/service-plan';
 import {bikeScope,chatScope,createRequestGate,selectedBikeId,validServiceDate,retryRequest,appendWorkshopContext} from './continuity';
@@ -300,7 +300,7 @@ function ChatForBike({route}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  const coachingSessions=useCoachingSessions(bike?.id,true),recentTracks=[...new Set(rideLogs.map(l=>l.track?.trim()).filter((t):t is string=>!!t))].slice(0,4);
  const canSend=!busy&&!!bike&&!uploading&&(!!draft.trim()||attached.length>0)&&draft.length<=8000;
  async function attachClip(){if(attached.length||!bike)return;try{const c=await pickClipFrames();if(!c)return;setUploading(c.frames.length);const done:typeof attached=[];for(const f of c.frames){done.push(await uploadPhoto(f.asset,'chat',bike.id));setUploading(n=>Math.max(0,n-1));}setAttached(done);setClip({duration:c.duration,frames:c.frames.map(f=>Math.round(f.time*100)/100)});}catch(e){setNotice(errorText(e));}finally{setUploading(0);}}
- async function attach(from?:'camera'|'library'){if(attached.length>=4||clip||!bike)return;const source=from??await chooseChatSource();if(!source)return;if(source==='video'){await attachClip();return;}try{const picked=await pickImages(source,4-attached.length);if(!picked.length)return;setUploading(picked.length);for(const a of picked){const p=await uploadPhoto(a,'chat',bike.id);setAttached(old=>[...old,p]);setUploading(n=>Math.max(0,n-1));}}catch(e){setNotice(errorText(e));}finally{setUploading(0);}}
+ async function attach(from?:'camera'|'library'){if(attached.length>=4||clip||!bike)return;const source=from??await chooseChatSource();if(!source)return;if(source==='video'){/* Clip coaching is Pro; the server checks too. */const u=await api<{tier:Tier}>('/api/usage').catch(()=>null);if(u&&!canCoachClips(u.tier)){Alert.alert('Pro feature',CLIP_PRO_NOTE);return;}await attachClip();return;}try{const picked=await pickImages(source,4-attached.length);if(!picked.length)return;setUploading(picked.length);for(const a of picked){const p=await uploadPhoto(a,'chat',bike.id);setAttached(old=>[...old,p]);setUploading(n=>Math.max(0,n-1));}}catch(e){setNotice(errorText(e));}finally{setUploading(0);}}
  const chip={flexDirection:'row' as const,alignItems:'center' as const,gap:5,height:30,paddingHorizontal:10,borderRadius:15,borderWidth:1,borderColor:'#2a2f39',backgroundColor:'rgba(255,255,255,0.03)',maxWidth:170},chipText={color:'#c9cfd9',fontSize:13,fontWeight:'600' as const,flexShrink:1};
  const composer=aiOk&&bike&&!triage?<View style={{gap:2}}>
   <View style={{flexDirection:'row',alignItems:'center',gap:6,paddingHorizontal:8,paddingTop:8}}>

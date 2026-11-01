@@ -34,7 +34,7 @@ export function CoachingList({bike,signedIn=true,onSignIn,onCoach,onAsk}:{bike?:
   {sessions===null&&<div className="rx-center" role="status" aria-label="Loading"><span className="rx-spin"/></div>}
   {error&&<p className="rx-error" role="alert">{error}</p>}
   {sessions!==null&&!sessions.length&&!error&&<div className="rx-panel-gap" style={{gap:10}}>
-   <p className="rx-copy">Send BAK a short clip or photos of you riding a corner, jump or section from the phone app. Each session lands here with the fix and a drill, so you can see what you have worked on and send a new clip to check it stuck.</p>
+   <p className="rx-copy">Send BAK a short clip (Pro) or photos of you riding a corner, jump or section from the phone app. Each session lands here with the fix and a drill, so you can see what you have worked on and send a new clip to check it stuck.</p>
    {onCoach&&<button type="button" className="rx-link" onClick={onCoach}>Coach me from a clip <ChevronRight size={15}/></button>}
   </div>}
   {sessions?.map(s=><Session key={s.id} s={s} onTried={t=>update(s.id,t)} onAsk={onAsk}/>)}
