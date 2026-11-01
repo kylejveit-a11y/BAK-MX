@@ -2,7 +2,7 @@
 // and every Supabase call with these objects, so the screens render the way a rider with a bike and an answer sees them.
 const USER='00000000-0000-4000-8000-000000000001';
 const now=Date.now(),iso=(ms)=>new Date(ms).toISOString(),day=86400000;
-const rider={user_id:USER,handle:'bakrider',display_name:'Visual Check',location:'Tampa, FL',riding_class:'Vet B',race_number:'817',avatar_url:undefined};
+const rider={user_id:USER,handle:'colem22',display_name:'Cole M.',location:'Tampa, FL',riding_class:'Vet B',race_number:'817',avatar_url:undefined};
 const bike={id:'11111111-1111-4111-8111-111111111111',user_id:USER,manufacturer:'KTM',model:'450 SX-F',model_year:2025,variant:'standard',region:'US',nickname:'',engine_hours:64,
  configuration:{geared_weight_lb:'200',skill_level:'Intermediate',discipline:'Motocross',usual_dirt:'Sand',fork_compression:'14',fork_rebound:'15',shock_compression:'15',shock_rebound:'15',rider_sag_mm:'105',front_tire_psi:'12.5',rear_tire_psi:'12.5',exhaust_brand:'FMF',exhaust_name:'Factory 4.1',handlebar_brand:'ODI'},
  created_at:iso(now-40*day),updated_at:iso(now-2*day)};
