@@ -1414,3 +1414,9 @@ body:has(.bars-hidden)::after,body:has(.content.chat-page)::after,body:has(.comp
 }
 /* Desktop chat: the conversation sits level with the chat list, no card gap above the bike line (2026-10-31). Phone has its own rule above. */
 @media(min-width:761px){.shell .chat-page .conversation{margin-top:0!important;padding-top:0!important;border-top:0!important}.shell .chat-page .chat-layout{align-items:start}}
+
+/* Native dropdown lists: dark menus with light text everywhere, so no list reads white on white. */
+:root{color-scheme:dark}
+select{color-scheme:dark}
+select option,select optgroup{background:#16171c;color:#eef1f6}
+select option:disabled{color:#7c8494}
