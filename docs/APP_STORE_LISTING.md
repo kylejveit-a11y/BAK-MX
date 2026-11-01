@@ -70,7 +70,7 @@ motocross,dirt bike,suspension,tuning,setup,sag,clickers,supercross,enduro,servi
 ## App Review notes
 Sign-in is required: use the demo account below. It is on the Free plan with starter question sets.
 
-Ask BAK: open Chat. The first time, the app asks permission to send questions to our AI provider (OpenAI); tap Agree and continue. Try "What does high-speed compression do?" Answers take 20-40 seconds.
+Ask BAK: open Chat. The first time, the app asks permission to share questions with our AI service; tap Agree and continue. Try "What does high-speed compression do?" Answers take 20-40 seconds.
 
 In-app purchases: Account > Ask BAK plan shows Premium, Pro and the two credit packs (StoreKit sandbox works in review). Coaching from a riding clip is a Pro feature; on Free the app explains it is part of Pro.
 

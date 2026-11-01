@@ -8,8 +8,8 @@ export const AI_CONSENT_PREVIOUS=['v1'];
 export const aiConsentUpdatedTitle='Ask BAK has been updated';
 export const aiConsentUpdatedIntro='It can now read photos you attach and manual pages you upload for your bike. Here’s what it sends, so you can agree again.';
 export const aiConsentPoints=[
- 'Ask BAK uses an AI service from OpenAI to write answers.',
- 'To answer, BAK sends OpenAI your question, this conversation, any photo you attach, the bike details in your Garage (model and year, parts and settings, setup log) and pages from manuals you uploaded for that bike.',
+ 'Ask BAK builds each answer from your exact bike’s published specs, your Garage and BAK’s own tuning rules and safety checks.',
+ 'To write the answer, BAK shares your question, this conversation, any photo you attach, your bike details and setup log, and pages from manuals you uploaded with a third-party AI service. Details are in our Privacy Policy.',
  'BAK does not send your email address, password or payment details.',
 ];
 export const aiConsentAgree='Agree and continue';

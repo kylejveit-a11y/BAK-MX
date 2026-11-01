@@ -42,11 +42,11 @@ improve answers; and to contact you about your account.
 
 ## Ask BAK and the AI provider
 
-Ask BAK uses OpenAI to write answers, and the app asks your permission before your first question. To answer, we send OpenAI
-your question, the conversation so far, any photo you attach, your bike's Garage details and setup log, and relevant pages
-from manuals you uploaded. We do not send your email address, password or payment details. We send requests with OpenAI's
-storage turned off; under OpenAI's API terms, API data is not used to train its models and may be kept for a limited time
-for abuse monitoring.
+Ask BAK builds answers with its own bike data, tuning rules and safety checks, and uses a third-party language model
+(currently OpenAI) to write the wording. The app asks your permission before your first question. We share only what an
+answer needs (your question, the conversation, any photo you attach, your bike details and setup log, and relevant manual
+pages you uploaded), never your email address, password or payment details. That data is not used to train the provider's
+models.
 
 ## Who we share it with
 

@@ -45,7 +45,7 @@ import {aiConsentPoints,aiConsentKey} from '../shared/ai-consent.ts';
 import {readFileSync as rf} from 'node:fs';
 test('Ask BAK asks permission before sending anything to the AI provider, on web and iPhone',()=>{
  const text=aiConsentPoints.join(' ');
- assert.match(text,/OpenAI/);assert.match(text,/question/);assert.match(text,/Garage/);assert.match(text,/does not send your email/);
+ assert.match(text,/third-party AI service/);assert.doesNotMatch(text,/OpenAI|ChatGPT/);assert.match(text,/question/);assert.match(text,/Garage/);assert.match(text,/does not send your email/);
  assert.match(aiConsentKey('u1'),/u1$/);
  assert.match(rf('src/App.tsx','utf8'),/!aiOk\?<AiConsent/);
  assert.match(rf('apps/mobile/src/App.tsx','utf8'),/\{!aiOk\?<Card>/);
