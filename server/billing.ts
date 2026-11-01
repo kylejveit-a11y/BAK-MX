@@ -2,6 +2,7 @@ import {isMxProjectUrl} from '../shared/mx-project.ts';
 import Stripe from 'stripe';
 import {createClient,type SupabaseClient} from '@supabase/supabase-js';
 import {hasStoreAccess} from './mobile-billing.ts';
+import {complimentaryTier} from './plans.ts';
 import {stripePlanPrices,creditPacks,grantCredits} from './plans.ts';
 
 const json=(value:unknown,status=200)=>Response.json(value,{status,headers:{'Cache-Control':'no-store'}});
@@ -33,6 +34,7 @@ async function syncCustomer(customerId:string,eventCreated:number,s:Stripe,db:Su
 }
 export async function hasPaidAccess(userId:string):Promise<boolean>{
   if(await hasStoreAccess(userId))return true;
+  if(await complimentaryTier(userId))return true;
   const db=admin();let {data,error}=await db.from('subscriptions').select('*').eq('user_id',userId).maybeSingle();if(error)throw error;
   if(!data)return false;
   // A bounded freshness check prevents an indefinitely stale active entitlement.
