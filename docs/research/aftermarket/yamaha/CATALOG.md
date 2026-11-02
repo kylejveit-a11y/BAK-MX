@@ -4,7 +4,7 @@ Research candidates gathered from public web sources (manufacturer pages, dealer
 
 Files: bars_clamps.json, bars_clamps2.json, bigbikes-gapfill.json, brakes2.json, brakes_controls.json, cg-small-bikes.json, cg-yamaha.json, chains_wheels.json, chassis.json, chassis2.json, cooling_valvetrain.json, dealer-yamaha-genuine.json, drivetrain.json, engine.json, engine2.json, engine3.json, engine4.json, engine_services.json, honda.json, house_brands.json, house_brands2.json, ms-yamaha.json, oils-fluids.json, p4-bearings-mounts.json, p4-gapfill.json, p5-feedback.json, p8-yz250fx-2024.json, small-bikes-power.json, susp-sets-japanese-triumph.json, susp-sets-ktm-group.json, suspension.json, suspension2.json, suzuki.json, tuning.json, valvetrain2.json, wheels_pegs.json, yamaha-research.json. Built by scripts/aftermarket/build_catalog.py.
 
-Counts: 11700 products, 42649 part numbers, 70 rider/tester findings, 8 project-bike builds, 80 of 80 in-scope bike-years with at least one mapped product.
+Counts: 11700 products, 42868 part numbers, 70 rider/tester findings, 8 project-bike builds, 80 of 80 in-scope bike-years with at least one mapped product.
 
 ## Platforms
 
@@ -17,7 +17,7 @@ Counts: 11700 products, 42649 part numbers, 70 rider/tester findings, 8 project-
 
 | Source | Listings | Brands | With part numbers |
 |---|---|---|---|
-| Cycle Gear (retailer, US) | 4014 | 149 | 3893 |
+| Cycle Gear (retailer, US) | 4014 | 149 | 4014 |
 | MotoSport (retailer, US) | 3321 | 232 | 3100 |
 | Yamaha Online Parts (Yamaha dealer, US) | 155 | 2 | 155 |
 
