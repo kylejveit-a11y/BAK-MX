@@ -1,6 +1,6 @@
 # BAK MX Terms of Use
 
-Effective date: October 23, 2026
+Effective date: November 2, 2026
 
 These terms are between you and Kyle Veit, Tarpon Springs, Florida, USA, who operates BAK MX ("BAK MX", "we", "us"). By using
 the BAK MX app or bakmx.com you agree to them.
@@ -53,7 +53,7 @@ the service you used.
 
 ## 5. Community rules
 
-Don't post anything illegal, hateful, harassing, sexual, violent or that infringes someone else's rights; don't impersonate
+BAK MX has zero tolerance for objectionable content and abusive riders. Don't post anything illegal, hateful, harassing, sexual, violent or that infringes someone else's rights; don't impersonate
 others or spam. You keep ownership of what you post and give BAK MX a license to host and display it in the service. We may
 remove content and suspend or close accounts that break these rules. Riders can block and report others, and we review reports
 promptly, normally within 24 hours.
