@@ -42,6 +42,8 @@ export function PlansCard({bare=false}:{bare?:boolean}){
   {packs.length>0&&<View style={{gap:4,paddingTop:6}}><Text style={{color:colors.text,fontSize:16,fontWeight:'800'}}>Credit packs</Text><Text style={{color:colors.muted,fontSize:13}}>Credits never expire and are used after your included questions.</Text></View>}
   {packs.map(p=><Tile key={p.identifier} title={p.product.title} right={p.product.priceString} onPress={()=>{if(!busy)void task(()=>purchase(p),'Credits added.');}}/>)}
   {packages.length>0&&<Text style={{color:'#9aa2ae',fontSize:12,lineHeight:17}}>Subscriptions renew automatically unless cancelled in your store account at least 24 hours before the period ends. The store purchase sheet confirms the billing period and full terms before payment.</Text>}
+  {/* Apple 3.1.2: the Terms of Use (EULA) and Privacy Policy must be reachable from the screen that sells the subscription. */}
+  <View style={{flexDirection:'row',gap:22,flexWrap:'wrap'}}><LinkAction muted arrow={false} title="Terms of Use (EULA)" onPress={()=>void Linking.openURL('https://bakmx.com/terms').catch(e=>setNotice(errorText(e)))}/><LinkAction muted arrow={false} title="Privacy Policy" onPress={()=>void Linking.openURL('https://bakmx.com/privacy').catch(e=>setNotice(errorText(e)))}/></View>
   <View style={{flexDirection:'row',gap:22,flexWrap:'wrap'}}><LinkAction muted arrow={false} disabled={busy} title="Restore purchases" onPress={()=>void task(restore,'Purchases restored.')}/><LinkAction muted arrow={false} title="Manage subscription" onPress={manage}/></View>
  </Wrap>;
 }
