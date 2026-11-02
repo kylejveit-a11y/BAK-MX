@@ -48,8 +48,12 @@ def crawl_bike(make,model,year,url):
                 print('bike',make,model,year,'page',page,'failed; not saved',flush=True); return list(seen.values())
             break
         t=tiles(h); new=[x for x in t if x['slug'] not in seen]
+        if not new and page>1:  # the store sometimes answers a later page with page 1 again: wait and read it once more
+            time.sleep(8); h=get(url+f'?page={page}') or ''; t=tiles(h); new=[x for x in t if x['slug'] not in seen]
         for x in new: seen[x['slug']]=x
-        if not new: break
+        # keep going while the page links to a next one (rel="next"), not only while it brings new items
+        if 'rel="next"' not in h and not new: break
+        if 'rel="next"' not in h: page+=1; break
         page+=1
     json.dump({'make':make,'model':model,'year':year,'url':url,'pages':page-1,'retrieved':time.strftime('%Y-%m-%d'),'products':list(seen.values())},open(f,'w'))
     print('bike',make,model,year,len(seen),flush=True)
