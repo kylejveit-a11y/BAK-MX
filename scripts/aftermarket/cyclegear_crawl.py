@@ -86,7 +86,7 @@ def crawl_product(slug):
                'description':desc,'retrieved':time.strftime('%Y-%m-%d')},open(f,'w'))
 order=[]
 for make in dict.fromkeys(t[0] for t in targets): order.append(make)
-groups=[['KTM','Husqvarna','GasGas'],['Triumph'],['Yamaha'],['Honda'],['Kawasaki']]
+groups=[['KTM','Husqvarna','GasGas'],['Triumph'],['Yamaha'],['Honda'],['Kawasaki'],['Suzuki']]
 for g in groups:
     slugs={}
     for make,model,year,url in sorted([t for t in targets if t[0] in g],key=lambda t:(-t[2],t[0],t[1])):

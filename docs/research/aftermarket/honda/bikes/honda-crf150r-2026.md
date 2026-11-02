@@ -1,6 +1,6 @@
 # Honda CRF150R 2026: aftermarket parts
 
-1236 listings whose stated fitment names this bike: 49 researched parts (with what they change and rider findings), 226 dealer and retailer listings specific to this bike, and 961 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+1417 listings whose stated fitment names this bike: 49 researched parts (with what they change and rider findings), 255 dealer and retailer listings specific to this bike, and 1113 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -11,41 +11,41 @@
 | DP Brakes | DP Brakes Clutch Kit Honda CRF150R / CRF150RB Expert 2007-2026 | DPK203 | Friction/steel plates and springs kit. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/dp-brakes-clutch-kit-honda-crf150r-crf150rb-expert-2007-2023) | medium |
 | Hinson | Hinson FSC Clutch Plate / Spring Kit Honda CRF150R / CRF150R Expert 2007-2026 | FSC290-6-001 | Hinson FSC kit: friction plates, steels and springs. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/hinson-fsc-clutch-plate-spring-kit-honda-crf150r-2007-2016) | medium |
 | Hinson | Hinson Fiber Clutch Plates Honda CRF150R 2007-2026 | FP290-6-001 | Replacement friction plates. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/hinson-fiber-clutch-plates-honda-crf150r-2007-2019) | medium |
-| Rekluse | Rekluse Core Manual Clutch Kit Honda CRF150R / CRF150R Expert 2007-2026 | RMS-7018 | Rekluse Core Manual: replacement clutch pack with more friction surface than stock (per Rekluse product naming); stays a manual clutch. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/rekluse-core-manual-clutch-kit-honda-crf150r-2007-2021) | medium |
 | Rekluse | Rekluse Core EXP 3.0 Clutch Kit Honda CRF150R / CRF150R Expert 2007-2026 | RMS-7718 | Rekluse auto clutch: engages by rpm so the bike will not stall when the lever is not used; lever still works. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/rekluse-core-exp-30-clutch-kit-honda-crf150r-2007-2021) | medium |
-| ARC | ARC Folding Front Brake Lever AC-BR-501 | AC-BR-501, AC-BR-501-R, AC-BR-501-B, AC-BR-501-O, AC-BR-501-SK, AC-BR-501-C, AC-BR-501-CT | Folding front brake lever; ARC levers are built to fold instead of snap in a crash. | ARC fitment list end years vary by model (some stop at 2025, some 2026); 2027 not listed. | [source](https://arclevers.com/products/brake-ac-br-501) | high |
-| ARC | ARC RC8 Folding Clutch Perch Assembly AC-CP-201 | AC-CP-201, AC-CP-201-R, AC-CP-201-B, AC-CP-S201, AC-CP-S201-R, AC-CP-S201-B, AC-CP-S201-O, AC-CP-201-SK, AC-CP-201-C, AC-CP-201-CT, AC-CP-S201-C, AC-CP-S201-CT, | Folding clutch perch assembly (ARC RC8/DC8) replacing stock perch and lever. | ARC fitment list end years vary by model (some stop at 2025, some 2026); 2027 not listed. | [source](https://arclevers.com/products/dc8-rc8-ac-cp-201) | high |
+| Rekluse | Rekluse Core Manual Clutch Kit Honda CRF150R / CRF150R Expert 2007-2026 | RMS-7018 | Rekluse Core Manual: replacement clutch pack with more friction surface than stock (per Rekluse product naming); stays a manual clutch. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/rekluse-core-manual-clutch-kit-honda-crf150r-2007-2021) | medium |
 | ARC | ARC DC8 Folding Clutch Perch Assembly AC-CP-304 | AC-CP-304, AC-CP-304-R, AC-CP-304-B, AC-CP-S304, AC-CP-S304-R, AC-CP-S304-B, AC-CP-S304-O, AC-CP-304-SK, AC-CP-304-C, AC-CP-304-CT, AC-CP-S304-C, AC-CP-S304-CT, | Folding clutch perch assembly (ARC RC8/DC8) replacing stock perch and lever. | ARC fitment list end years vary by model (some stop at 2025, some 2026); 2027 not listed. | [source](https://arclevers.com/products/shorty-clutch-dc8-rc8-ac-cp-304) | high |
 | ARC | ARC Folding Clutch Lever AC-CL-402 | AC-CL-402, AC-CL-402-R, AC-CL-402-B, AC-CL-S402, AC-CL-S402-R, AC-CL-S402-B, AC-CL-S402-O, AC-CL-402-SK, AC-CL-402-C, AC-CL-402-CT, AC-CL-S402-C, AC-CL-S402-CT | Folding clutch (or left-hand rear brake) lever replacing stock. | ARC fitment list end years vary by model (some stop at 2025, some 2026); 2027 not listed. | [source](https://arclevers.com/products/long-clutch-ac-cl-402) | high |
+| ARC | ARC RC8 Folding Clutch Perch Assembly AC-CP-201 | AC-CP-201, AC-CP-201-R, AC-CP-201-B, AC-CP-S201, AC-CP-S201-R, AC-CP-S201-B, AC-CP-S201-O, AC-CP-201-SK, AC-CP-201-C, AC-CP-201-CT, AC-CP-S201-C, AC-CP-S201-CT, | Folding clutch perch assembly (ARC RC8/DC8) replacing stock perch and lever. | ARC fitment list end years vary by model (some stop at 2025, some 2026); 2027 not listed. | [source](https://arclevers.com/products/dc8-rc8-ac-cp-201) | high |
+| ARC | ARC Folding Front Brake Lever AC-BR-501 | AC-BR-501, AC-BR-501-R, AC-BR-501-B, AC-BR-501-O, AC-BR-501-SK, AC-BR-501-C, AC-BR-501-CT | Folding front brake lever; ARC levers are built to fold instead of snap in a crash. | ARC fitment list end years vary by model (some stop at 2025, some 2026); 2027 not listed. | [source](https://arclevers.com/products/brake-ac-br-501) | high |
 | Moose Racing | Moose Racing Forged Flex Clutch Lever Honda CRF150R 2007-2026 | H07-1908CS | Aftermarket clutch lever. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moose-racing-forged-flex-clutch-lever-honda-crf150r-2007-2022) | medium |
-| Moose Racing | Moose Racing Forged Rear Brake Pedal Honda CRF150R / CRF150R Expert 2007-2026 | 82-0102-21-11 | Aftermarket rear brake pedal. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moose-racing-forged-rear-brake-pedal-honda-crf150r-2007-2017) | medium |
 | Moose Racing | Moose Racing Forged Shift Lever Honda CRF150R / CRF150R Expert 2007-2026 | 81-0104-02-10, 81-0104-06-10 | Aftermarket shift lever. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moose-racing-forged-shift-lever-honda-crf150r-crf150r-expert-2007-2025) | medium |
+| Moose Racing | Moose Racing Forged Rear Brake Pedal Honda CRF150R / CRF150R Expert 2007-2026 | 82-0102-21-11 | Aftermarket rear brake pedal. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moose-racing-forged-rear-brake-pedal-honda-crf150r-2007-2017) | medium |
 | ODI | ODI V2 Throttle Cam Honda CRF150R / CRF150R Expert 2007-2026 | H70SCG | Throttle cam that changes throttle pull rate (ODI). | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/odi-v2-throttle-cam-honda-crf150r-2007-2016) | medium |
+| Zeta | Zeta Revolver Shift Lever Honda CRF150R / CRF150RB 2007-2026 | ZE90-3012 | Aftermarket shift lever. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/zeta-revolver-shift-lever-honda-crf150r-crf150rb-2007-2020) | medium |
 | Zeta | Zeta Pivot Clutch Lever Honda CR80R / CR85R / CR125R / CRF150R / CRF150R Expert / CRF450R / XR650R | ZE42-4101 | Aftermarket clutch lever. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/zeta-pivot-clutch-lever-honda-cr80r-cr85r-cr125r-crf150r-crf450r-xr650r) | medium |
 | Zeta | Zeta Forged Shift Lever Honda CRF150R 2007-2026 | ZE90-4012 | Aftermarket shift lever. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/zeta-forged-shift-lever-honda-crf150r-2007-2023) | medium |
-| Zeta | Zeta Revolver Shift Lever Honda CRF150R / CRF150RB 2007-2026 | ZE90-3012 | Aftermarket shift lever. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/zeta-revolver-shift-lever-honda-crf150r-crf150rb-2007-2020) | medium |
 | Boyesen | Boyesen Supercooler water pump kit WPK-09x (CRF150R) | WPK-09B, WPK-09R, WPK-09M | Replaces water pump cover/impeller; Boyesen says the hydro-dynamic design reduces air cavitation for better cooling. | Fitment built from Boyesen's per-year product pages; some years are missing for some models (e.g. a model listed to 2023 or 2025 only), which may be a catalog g | [source](https://boyesen.com/mx-offroad-mini/performance-engine-components/2020-honda-crf-150r/supercooler-kit-wpk-09b) | high |
 | Cylinder Works | Cylinder Works Big Bore Cylinder Kit Honda CRF150R / Expert 2012-2026 | 11004-K02 | Larger-bore cylinder kit raising displacement over stock. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). Big-bore part: confirm displacement class rules. | [source](https://www.cyclegear.com/parts/cylinder-works-big-bore-cylinder-kit-honda-crf150r-expert-2012-2022) | medium |
 | Moose Racing | Moose Racing Piston Kit Honda CRF150R 2007-2026 | MP2044C | Replacement piston kit for a top-end rebuild. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moose-racing-piston-kit-honda-crf150r-2007-2023) | medium |
-| Pro Circuit | CRF150R jetting spec (pilot jet 45) |  | Pilot jet 38 to 45; other jetting stock. |  | [source](None) |  |
-| Pro Circuit | Pro Circuit valve spring kit CRF150R 2007-2026 | VSH07150K | Replacement valve spring set (Pro Circuit item). | Year range from the Pro Circuit item title. | [source](https://www.procircuit.com/valve-spring-kit-crf150r-07-16) | high |
-| Pro Circuit | Pro Circuit high-compression piston CRF150R 2007-2026 | RPH08150R | Higher-compression piston than stock (per product name). | Year range from the Pro Circuit item title. | [source](https://www.procircuit.com/high-compression-piston-crf150r-07-19) | high |
 | Pro Circuit | Pro Circuit camshaft CRF150R 2007-2026 | CSH07150R | Pro Circuit-ground camshaft replacing stock. | Year range from the Pro Circuit item title. | [source](https://www.procircuit.com/pc-cam-shaft-crf150r-07-16) | high |
+| Pro Circuit | Pro Circuit valve spring kit CRF150R 2007-2026 | VSH07150K | Replacement valve spring set (Pro Circuit item). | Year range from the Pro Circuit item title. | [source](https://www.procircuit.com/valve-spring-kit-crf150r-07-16) | high |
 | Pro Circuit | Titanium Intake / Exhaust Valves CRF150R 2007-2026 | IVH07150, EVH07150 | Replacement titanium valves (stock 150R valves are stainless per other sources). |  | [source](None) |  |
-| Pro X | Pro X Exhaust Valve Honda CRF150R 2007-2026 | 28.1227-1 | Replacement exhaust valve. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/pro-x-exhaust-valve-honda-crf150r-2007-2022) | medium |
+| Pro Circuit | Pro Circuit high-compression piston CRF150R 2007-2026 | RPH08150R | Higher-compression piston than stock (per product name). | Year range from the Pro Circuit item title. | [source](https://www.procircuit.com/high-compression-piston-crf150r-07-19) | high |
+| Pro Circuit | CRF150R jetting spec (pilot jet 45) |  | Pilot jet 38 to 45; other jetting stock. |  | [source](None) |  |
 | Pro X | Pro X Piston Kit Honda CRF150R / CRF150R Expert 2012-2026 (A/65.97mm/Standard) | 01.1232.A, 01.1232.B | Replacement piston kit for a top-end rebuild. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/pro-x-piston-kit-honda-crf150r-crf150r-expert-2012-2021) | medium |
+| Pro X | Pro X Exhaust Valve Honda CRF150R 2007-2026 | 28.1227-1 | Replacement exhaust valve. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/pro-x-exhaust-valve-honda-crf150r-2007-2022) | medium |
 | Wiseco | Wiseco High Performance ArmorGlide Piston Kit Honda CRF150R 2012-2026 | PK1935 | Replacement piston kit for a top-end rebuild. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/wiseco-high-performance-armorglide-piston-kit-honda-crf150r-2012-2024) | medium |
-| FMF | FMF Stainless MegaBomb header pipe 041426 (CRF150R) | 041426 | Replaces the stock 4-stroke head pipe (FMF MegaBomb header). | Fitment from FMF's own year/model tags on the product. FMF tags for GasGas MC models often stop at 2026 while KTM/Husqvarna tags run to 2027; verify GasGas 2027 | [source](https://www.fmfracing.com/products/megabomb-041426) | high |
 | FMF | FMF Q4 slip-on silencer 041287 (CRF150R) | 041287 | Replaces the stock 4-stroke muffler with an FMF slip-on that bolts to the stock header. | Fitment from FMF's own year/model tags on the product. FMF tags for GasGas MC models often stop at 2026 while KTM/Husqvarna tags run to 2027; verify GasGas 2027 | [source](https://www.fmfracing.com/products/q4-muffler-041287) | high |
-| FMF | FMF Powercore 4 slip-on silencer 041284 (CRF150R) | 041284 | Replaces the stock 4-stroke muffler with an FMF slip-on that bolts to the stock header. | Fitment from FMF's own year/model tags on the product. FMF tags for GasGas MC models often stop at 2026 while KTM/Husqvarna tags run to 2027; verify GasGas 2027 | [source](https://www.fmfracing.com/products/powercore-4-041284) | high |
 | FMF | FMF Factory4.1 SL (Slip-On) slip-on silencer 041291 (CRF150R) | 041291 | Replaces the stock 4-stroke muffler with an FMF slip-on that bolts to the stock header. | Fitment from FMF's own year/model tags on the product. FMF tags for GasGas MC models often stop at 2026 while KTM/Husqvarna tags run to 2027; verify GasGas 2027 | [source](https://www.fmfracing.com/products/factory-4-1-041291) | high |
+| FMF | FMF Powercore 4 slip-on silencer 041284 (CRF150R) | 041284 | Replaces the stock 4-stroke muffler with an FMF slip-on that bolts to the stock header. | Fitment from FMF's own year/model tags on the product. FMF tags for GasGas MC models often stop at 2026 while KTM/Husqvarna tags run to 2027; verify GasGas 2027 | [source](https://www.fmfracing.com/products/powercore-4-041284) | high |
+| FMF | FMF Stainless MegaBomb header pipe 041426 (CRF150R) | 041426 | Replaces the stock 4-stroke head pipe (FMF MegaBomb header). | Fitment from FMF's own year/model tags on the product. FMF tags for GasGas MC models often stop at 2026 while KTM/Husqvarna tags run to 2027; verify GasGas 2027 | [source](https://www.fmfracing.com/products/megabomb-041426) | high |
 | Pro Circuit | T-6 Exhaust System CRF150R / RB Expert | 0111415G | Full exhaust replacement. |  | [source](None) |  |
 | Pro Circuit | Pro Circuit T-6 Exhaust System Honda CRF150R / RB Expert 2007-2026 | 0111415G | Replaces the full 4-stroke exhaust (header and muffler). | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/pro-circuit-t-6-exhaust-system-honda-crf150r-rb-expert-2007-2022) | medium |
 | Yoshimura | Yoshimura RS-2 Exhaust System Honda CRF150R / CRF150R Expert 2007-2026 Stainless Steel/Aluminum/Stain... [Open Box] | 2215503 | Replaces the full 4-stroke exhaust (header and muffler). | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/yoshimura-rs-2-exhaust-system-honda-crf150r-crf150r-expert-2007-2025-) | medium |
 | Yoshimura | Yoshimura RS-2 Slip-On Exhaust Honda CRF150R / CRF150R Expert 2007-2026 | 2215703 | Replaces the stock 4-stroke muffler; bolts to stock header. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/yoshimura-rs-2-slip-on-exhaust-honda-crf150r-crf150r-expert-2007-2022) | medium |
 | Pro Honda | Pro Honda HP Transmission Fluid | 08C35-A851M01 | Honda's transmission fluid claimed to reduce clutch slip and gear wear. | Honda's page names CRF four-stroke transmissions generally, not CRF150R by name; the 2025 owner's manual itself names GN4 10W-30 for the transmission. | [source](https://powersports.honda.com/pro-honda-oils/vital-fluids/hp-transmission-fluid) | medium |
-| Moose Racing | Moose Racing Skid Plate Honda CRF150R / Expert 2007-2026 | 422 | Bolt-on plate protecting frame rails and engine cases. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moose-racing-skid-plate-honda-crf150r-expert-2007-2020) | medium |
 | Moose Racing | Moose Racing Pro Skid Plate Honda CRF150R / CRF150R Expert 2007-2026 | PX1321 | Bolt-on plate protecting frame rails and engine cases. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moose-racing-pro-skid-plate-honda-crf150r-2007-2018) | medium |
+| Moose Racing | Moose Racing Skid Plate Honda CRF150R / Expert 2007-2026 | 422 | Bolt-on plate protecting frame rails and engine cases. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/moose-racing-skid-plate-honda-crf150r-expert-2007-2020) | medium |
 | P3 | P3 Carbon Fiber Heat Shield Honda CRF125R / CRF150R | 205011 | Pipe heat shield. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/p3-carbon-fiber-heat-shield-honda-crf125r-crf150r) | medium |
 | TM Designworks | TM Designworks Full Coverage Skid Plate Honda CRF150R / CRF150R Expert 2007-2026 | HOMC-150-BK | Bolt-on plate protecting frame rails and engine cases. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/tm-designworks-full-coverage-skid-plate-honda-crf150r-crf150r-expert-2007-2022) | medium |
 | Works Connection | Works Connection MX Skid Plate Honda CRF150R / CRF150R Expert 2007-2026 | 10-008 | Bolt-on plate protecting frame rails and engine cases. | Fitment from the Cycle Gear "This Product Fits" list (retailer data). | [source](https://www.cyclegear.com/parts/works-connection-mx-skid-plate-honda-crf150r-crf150r-expert-2007-2024) | medium |
@@ -60,7 +60,7 @@
 
 Merged across sellers by brand and part number (or brand and name). Lings is a UK dealer (GBP prices, EU-market models).
 
-### Air & Fuel (12)
+### Air & Fuel (13)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -69,6 +69,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Maxima Lubricants | Maxima ProFilter Premium Air Filter Honda CRF150R / CRF150R Expert 2007-2026 | MTX-1005-00 | 30.49 USD | [Cycle Gear](https://www.cyclegear.com/parts/maxima-profilter-premium-air-filter-honda-crf150r-2007-2017) |
 | Moose Racing | Moose Racing Pre Oiled Air Filter Honda CRF150R / Expert 2007-2026 | P1-20-03 | 29.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-pre-oiled-air-filter-honda-crf150r-expert-2007-2018) |
 | No Toil | No Toil Extreme Condition Air Filter Honda CRF150R 2007-2026 | X120-06 | 36.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-extreme-condition-air-filter-honda-crf150r-2007-2021) |
+| No Toil | No Toil Pre Oiled Air Filter Honda CRF150R / CRF150R Expert 2007-2026 | 1206 | 33.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-pre-oiled-air-filter-honda-crf150r-crf150r-expert-2007-2022) |
 | No Toil | No Toil Standard Air Filter Honda CRF150R 2007-2026 | 120-06 | 30.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-standard-air-filter-honda-crf150r-2007-2021) |
 | No Toil | No Toil Super Flo Kit Honda CRF150R 2007-2026 | SFK12006 | 69.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-super-flo-kit-honda-crf150r-2007-2021) |
 | No Toil | No Toil Super Flo Replacement Air Filter Honda CRF150R 2007-2026 | FRF12006 | 36.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/no-toil-super-flo-replacement-air-filter-honda-crf150r-2007-2023) |
@@ -89,7 +90,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Works Connection | Works Connection Rear Caliper Guard Honda 125cc-450cc 2002-2027 | 25-014 | 38.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-rear-caliper-guard-honda-125cc-450cc-2002-2017) |
 | Zeta | Zeta Drive Cover Honda CRF150R / CRF150R Expert / CRF450R / CRF450X  | ZE80-9045 | 105.44 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-drive-cover-honda-crf150r-crf450r-crf450x) |
 
-### Brakes (25)
+### Brakes (26)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -114,12 +115,13 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | GBrakes | GBrakes HH Sintered Rear Brake Pads GB0558-76 | GB0558-76 | 41.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-hh-sintered-rear-brake-pads-gb0558-76) |
 | GBrakes | GBrakes Semi-Metallic Rear Brake Pads GB0558-69 | GB0558-69 | 38.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-semi-metallic-rear-brake-pads-gb0558-69) |
 | Moose Racing | Moose Racing RFX Rear Rotor Honda 80cc-150cc 1992-2026 | FXBD 10105 55NP | 127.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-rfx-rear-rotor-honda-80cc-150cc-1992-2024) |
+| Moto-Master | Moto Master Flame Fixed Front Rotor 260mm Honda 80cc-150cc | 110311-PU | 123.26 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-flame-fixed-front-rotor-260mm-honda-80cc-150cc) |
 | Moto-Master | Moto Master Flame Fixed Rear Rotor Honda 80cc-150cc 1992-2026 | 110205-PU | 98.06 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-flame-fixed-rear-rotor-honda-80cc-150cc-1992-2023) |
 | Moto-Master | Moto Master Nitro Rear Brake Pads Honda / TM | 94321-PU | 24.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-nitro-rear-brake-pads-honda-tm) |
 | Moto-Master | Moto Master Sinter Pro Racing Front Brake Pads Honda 80cc-150cc | 91011-PU | 30.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-sinter-pro-racing-front-brake-pads-honda-80cc-150cc) |
 | Renthal | Renthal RC-1 Works Rear Brake Pads Honda 125cc-450cc 2002-2027 | BP-101 | 50.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-rc-1-works-rear-brake-pads-honda-125cc-450cc-2002-2024) |
 
-### Chain & Sprocket (15)
+### Chain & Sprocket (17)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -129,10 +131,12 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | JT Sprockets | JT Sprockets Rear Steel Sprocket Honda 80cc-150cc | JTR215.46, JTR215.47/JTR21547, JTR215.49/JTR21549, JTR215.50/JTR21550, JTR215.51/JTR21551, JTR215.55/JTR21555, JTR215.56 | 20.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/jt-sprockets-steel-rear-sprocket-honda-80cc-150cc) |
 | Mika Metals | Mika Metals Rear Aluminum Sprocket Honda CRF150R / CRF150R Expert 2007-2026 | 20-1048, 20-1049, 20-1050, 20-1051, 20-1052, 20-1053, 20-1054, 20-1055, 20-1056 | 82.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/mika-metals-rear-aluminum-sprocket-honda-crf150r-2007-2020) |
 | Moto-Master | Moto Master Aluminum Rear Sprocket Honda 80cc-150cc 1986-2026 | 620032248, 620032249, 620032250, 620032251, 620032254, 620032255, 620032256, 620032348, 620032349, 620032350, 620032351, | 62.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-aluminum-rear-sprocket-honda-80cc-150cc-1986-2026) |
+| Moto-Master | Moto Master Front Sprocket Honda CRF150R / Expert 2007-2026 | 610161114, 610161115, 610161116 | 26.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-front-sprocket-honda-crf150r-expert-2007-2026) |
 | Moto-Master | Moto Master Fusion Series Dual Ring Rear Sprocket Honda 80cc-150cc 1986-2026 | 620033248, 620033249, 620033250, 620033348, 620033349, 620033350 | 89.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/moto-master-fusion-series-dual-ring-rear-sprocket-honda-80cc-150cc-1986-2026) |
 | Pro Taper | Pro Taper Race Spec Front Sprocket Honda CRF150R / RB 2007-2026 | 038360, 038369 | 29.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-race-spec-front-sprocket-honda-crf150r-rb-2007-2020) |
 | Pro Taper | Pro Taper Race Spec Rear Aluminum Sprocket Honda 80cc-150cc | 033246, 033247, 033248, 033249, 033250, 033251, 033253, 033254, 033255, 033256, 033257, 033258 | 89.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-race-spec-rear-aluminum-sprocket-honda-80cc-150cc) |
 | Renthal | Renthal Grooved Front Sprocket Honda CRF150R / RB 2007-2026 | 461--420-14GP, 461--420-15GP | 35.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-grooved-front-sprocket-honda-crf150r-rb-2007-2021) |
+| Renthal | Renthal Ultralight Rear Aluminum Sprocket Honda 80cc-150cc 1986-2026 | 189U-420-49GRRD, 189U-420-49GRSI/189U42049GRSI, 189U-420-50GRRD, 189U-420-50GRSI, 189U-420-51GRSI/189U42051GRSI, 189U-42 | 62.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-ultralight-rear-aluminum-sprocket-honda-80cc-150cc-1986-2021) |
 | RFX | RFX Pro Elite Aluminum Rear Sprocket Honda 80cc-150cc 1986-2026 | FXRS 15-48 99RD, FXRS 15-49 99RD, FXRS 15-50 99RD, FXRS 15-51 99RD, FXRS 15-52 99RD, FXRS 15-53 99RD, FXRS 15-54 99RD, F | 79.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-elite-aluminum-rear-sprocket-honda-80cc-150cc-1986-2026) |
 | RFX | RFX Race Series CS Steel Front Sprocket Honda CRF150R / RB 2007-2026 | FXFS 16-14 55ST, FXFS 16-15 55ST | 14.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-race-series-cs-steel-front-sprocket-honda-crf150r-rb-2007-2026) |
 | Sunstar | Sunstar Front Sprocket Honda CRF150R / RB 2007-2026 (14T) | 11114, 11115 | 22.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/sunstar-front-sprocket-honda-crf150r-rb-2007-2022) |
@@ -149,22 +153,24 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Hinson | Hinson FSC Clutch Plate / Spring Kit Honda CRF150R / CRF150R Expert 2007-2026 | FSC290-6-001 | 199.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-fsc-clutch-plate-spring-kit-honda-crf150r-2007-2016) |
 | Hinson | Hinson Fiber Clutch Plates Honda CRF150R 2007-2026 | FP290-6-001 | 79.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-fiber-clutch-plates-honda-crf150r-2007-2019) |
 | Pro X | Pro X Inner Clutch Hub Honda CRF150R 2007-2026 | 18.1227 | 66.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-x-inner-clutch-hub-honda-crf150r-2007-2021) |
-| Rekluse | Rekluse Core EXP 3.0 Clutch Kit Honda CRF150R / CRF150R Expert 2007-2026 | RMS-7718 | 899.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-core-exp-30-clutch-kit-honda-crf150r-2007-2021) |
+| Rekluse | Rekluse Core EXP 3.0 Clutch Kit Honda CRF150R / CRF150R Expert 2007-2026 | RMS-7718 | 899.0 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-core-exp-30-clutch-kit-honda-crf150r-2007-2021) |
 | Rekluse | Rekluse Core Manual Clutch Kit Honda CRF150R / CRF150R Expert 2007-2026 | RMS-7018 | 529.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/rekluse-core-manual-clutch-kit-honda-crf150r-2007-2021) |
 | RFX | RFX Rear Axle Blocks Honda CRF150R 2007-2026 | FXAB 10300 99RD | 39.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-rear-axle-blocks-honda-crf150r-2007-2026) |
 | TM Designworks | TM Designworks Factory Edition #2 Rear Chain Guide Replacement Wear Pad Kawasaki / Suzuki / Yamaha 6 | RCG-150-WP | 35.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/tm-designworks-chain-guide-replacement-wear-pad-kawasaki-suzuki-yamaha-65cc-140cc-2000-2024) |
 | TM Designworks | TM Designworks Factory Edition 2 Rear Chain Guide Honda CRF150R / CRF150R Expert 2007-2026 | RCG-150-BK, RCG-150-RD | 94.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/tm-design-works-factory-edition-2-rear-chain-guide-honda-crf150r-2007-2020) |
 
-### Exhaust (8)
+### Exhaust (10)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | FMF | FMF PowerCore 4 Slip-On Exhaust Honda CRF150R / CRF150R Expert 2007-2026 | 041284/41284 | 427.49 USD | [Cycle Gear](https://www.cyclegear.com/parts/fmf-powercore-4-slip-on-exhaust-honda-crf150r-2007-2014) |
 | FMF | FMF Q4 Slip-On Exhaust Honda CRF150R / CRF150R Expert 2007-2026 | 041287/41287 | 474.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/fmf-q4-slip-on-exhaust-honda-crf150r-2007-2021) |
 | P3 | P3 Carbon Fiber Heat Shield Honda CRF125R / CRF150R | 205011 | 124.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/p3-carbon-fiber-heat-shield-honda-crf125r-crf150r) |
+| Pro Circuit | Pro Circuit T-6 Exhaust System Honda CRF150R / RB Expert 2007-2026 | 0111415G | 1035.45 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-circuit-t-6-exhaust-system-honda-crf150r-rb-expert-2007-2022) |
 | Vertex | Vertex Exhaust Gasket Kit Honda / Kawasaki / Yamaha 80cc-150cc 1979-2027 | 823053 | 8.06 USD | [Cycle Gear](https://www.cyclegear.com/parts/vertex-exhaust-gasket-kit-honda-kawasaki-yamaha-80cc-150cc-1979-2022) |
-| Yoshimura | Yoshimura RS-2 Exhaust System Honda CRF150R / CRF150R Expert 2007-2026 | 2215503 | 649.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/yoshimura-rs-2-exhaust-system-honda-crf150r-crf150r-expert-2007-2025) · [Cycle Gear](https://www.cyclegear.com/parts/yoshimura-rs-2-exhaust-system-honda-crf150r-crf150r-expert-2007-2025-) |
+| Yoshimura | Yoshimura RS-2 Exhaust System Honda CRF150R / CRF150R Expert 2007-2026 | 2215503 | 649.0 USD | [Cycle Gear](https://www.cyclegear.com/parts/yoshimura-rs-2-exhaust-system-honda-crf150r-crf150r-expert-2007-2025) · [Cycle Gear](https://www.cyclegear.com/parts/yoshimura-rs-2-exhaust-system-honda-crf150r-crf150r-expert-2007-2025-) |
 | Yoshimura | Yoshimura RS-2 INS-08-K Low Volume Insert Kit Honda / Kawasaki / Suzuki / Yamaha | INS-08-K | 40.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/yoshimura-rs-2-ins-08-k-low-volume-insert-kit-honda-kawasaki-suzuki-yamaha) |
+| Yoshimura | Yoshimura RS-2 SA-02-K Spark Arrestor Kit Honda / Kawasaki / Suzuki | SA-02-K | 38.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/yoshimura-rs-2-sa-02-k-spark-arrestor-kit-honda-kawasaki-suzuki) |
 | Yoshimura | Yoshimura RS-2 Slip-On Exhaust Honda CRF150R / CRF150R Expert 2007-2026 | 2215703 | 549.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/yoshimura-rs-2-slip-on-exhaust-honda-crf150r-crf150r-expert-2007-2022) |
 
 ### Filters (4)
@@ -182,11 +188,12 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 |---|---|---|---|---|
 | Trail Tech | Trail Tech Endurance II Speedometer Beta / Husqvarna / Honda / Kawasaki / Suzuki / Yamaha | 202-119 | 199.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/trail-tech-endurance-ii-speedometer-beta-husqvarna-honda-kawasaki-suzuki-yamaha) |
 
-### Handlebars & Controls (13)
+### Handlebars & Controls (16)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | Arc Levers | ARC Flex Clutch Lever Honda 125cc-250cc 1997-2026 | AC-CL-402-CT, CL-402-C/AC-CL-402-C, CL-402-R, CL-402/AC-CL-402, CL-S402-R | 78.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/arc-flex-clutch-lever-honda-125cc-250cc-1997-2023) |
+| Arc Levers | ARC Flex Front Brake Lever Honda / Gas Gas / Beta / TM 80cc-450cc 1996-2027 | AC-BR-501-B, AC-BR-501-CT, BR-501-C/AC-BR-501-C, BR-501-R/AC-BR-501-R, BR-501/AC-BR-501 | 79.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/arc-flex-front-brake-lever-honda-gas-gas-beta-tm-80cc-450cc-1996-2024) |
 | BILT FACTORY | BILT FACTORY Folding Lever Set Honda 80cc-450cc | 7101/8206-BLK, 7101/8206-RED | 99.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bilt-factory-folding-lever-set-honda-80cc-450cc) |
 | Moose Racing | Moose Racing Flex Forged Brake Lever Beta 125cc-525cc | H07-5930 BS | 52.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-flex-forged-brake-lever-beta-125cc-525cc) |
 | Moose Racing | Moose Racing Forged Clutch Lever Honda 80cc-500cc 1987-2026 | H07-1921CB, H07-1921CS | 22.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-forged-clutch-lever-honda-80cc-500cc-1987-2022) |
@@ -194,25 +201,29 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Moose Racing | Moose Racing OEM Style Replacement Brake Lever Honda 80cc-650cc 1992-2026 | 1BDHA27, 1BDHA28 | 10.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-oem-style-replacement-brake-lever-honda-80cc-650cc-1992-2018) |
 | Moose Racing | Moose Racing OEM Style Replacement Clutch Lever Honda 80cc-650cc 1985-2026 | 1CDHA27, 1CDHA28 | 10.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-oem-style-replacement-clutch-lever-honda-80cc-650cc-1985-2018) |
 | Motion Pro | Motion Pro Forged Clutch Lever Honda 80cc-500cc 1987-2026 | 14-9216 | 26.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/motion-pro-forged-clutch-lever-honda-80cc-500cc-1987-2026) |
+| Pro Taper | Pro Taper Profile Pro XPS Front Brake Lever Honda 85cc-650cc | 024095 | 134.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/pro-taper-profile-pro-xps-front-brake-lever-honda-85cc-650cc) |
 | Puig | Puig Off Road Clutch Lever Honda 85cc-650cc 1992-2026 | 20001N | 60.12 USD | [Cycle Gear](https://www.cyclegear.com/parts/puig-off-road-clutch-lever-honda-85cc-650cc-1992-2017) |
+| Works Connection | Works Connection Elite Clutch Lever Honda / Kawasaki 85cc-650cc | 16-860, 16-865 | 49.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-elite-clutch-lever-honda-kawasaki-85cc-650cc) |
 | Works Connection | Works Connection Rotating Master Cylinder Clamp Honda / Kawasaki / KTM / Suzuki / Yamaha / Stark | 31-100, 31-200, 31-300, 31-400, 31-500, 31-508 | 36.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-rotating-master-cylinder-clamp-honda-kawasaki-ktm-suzuki-yamaha-stark) |
 | Zeta | Zeta Forged Pivot Brake Lever Honda CR / CRF | ZE41-3606 | 96.88 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-forged-pivot-brake-lever-honda-cr-crf) |
 | Zeta | Zeta Pivot Brake Lever Honda CR / CRF 85cc-450cc | ZE41-3206 | 117.79 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-pivot-brake-lever-honda-cr-crf-85cc-450cc) |
 | Zeta | Zeta Pivot Clutch Lever Honda CR80R / CR85R / CR125R / CRF150R / CRF150R Expert / CRF450R / XR650R | ZE42-4101 | 117.79 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-pivot-clutch-lever-honda-cr80r-cr85r-cr125r-crf150r-crf450r-xr650r) |
 
-### Seats (3)
+### Seats (4)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | DCOR | D'COR Visuals Team Geico Seat Cover Honda CRF150R / CRF150R Expert 2007-2026 | 30-10-151 | 74.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/dcor-team-geico-seat-cover-honda-crf150r-2007-2018) |
 | Factory Effex | Factory Effex All Grip Seat Cover Honda CRF150R / CRF150R Expert 2007-2026 | 10-24318 | 49.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-effex-all-grip-seat-cover-honda-crf150r-2007-2019) |
+| Moose Racing | Moose Racing Ribbed Seat Cover Honda CRF150R / CRF150R Expert 2007-2026 | CRF15007-331RT | 59.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-ribbed-seat-cover-honda-crf150r-crf150r-expert-2007-2022) |
 | RFX | RFX Gripper Seat Cover Honda 150cc | FXSC 10001 55RD | 69.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-gripper-seat-cover-honda-150cc) |
 
-### Suspension (14)
+### Suspension (15)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | All Balls Racing | All Balls Racing Fork Seal Kit Honda / Kawasaki / Suzuki / Cobra 65cc-500cc | 56-123 | 38.50 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-fork-seal-kit-honda-kawasaki-suzuki-cobra-65cc-500cc) |
+| All Balls Racing | All Balls Racing Steering Bearing Kit Honda 125cc-650cc | 22-1021 | 48.85 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-steering-bearing-kit-honda-125cc-650cc) |
 | All Balls Racing | All Balls Racing Swingarm Bearing Kit Honda CR80R / CR85R / CRF150R / Expert 2000-2026 | 28-1019 | 72.01 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-swingarm-bearing-kit-honda-cr80r-cr85r-crf150r-expert-2000-2023) |
 | All Balls Racing | All Balls Racing Swingarm Linkage Bearing Kit Honda CRF150R / Expert 2007-2026 | 27-1153 | 120.65 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-swingarm-linkage-bearing-kit-honda-crf150r-expert-2007-2021) |
 | All Balls Racing | All Balls Racing Upper Shock Bearing Kit Honda 80cc-650cc | 29-5055 | 32.41 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-upper-shock-bearing-kit-honda-80cc-650cc) |
@@ -227,7 +238,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Pivot Works | Pivot Works Swingarm Bearing Kit Honda CR80R / CR85R / CRF150R / RB 2000-2026 | PWSAK-H14-008 | 83.42 USD | [Cycle Gear](https://www.cyclegear.com/parts/pivot-works-swingarm-bearing-kit-honda-cr80r-cr85r-crf150r-rb-2000-2020) |
 | Works Connection | Works Connection Pro Launch Start Device Honda CR80R / CR85R / CRF150R / CRF150R Expert 2000-2026 | 12-200 | 164.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/works-connection-pro-launch-start-device-honda-cr80r-cr85r-crf150r-2000-2020) |
 
-### Uncategorised (110)
+### Uncategorised (127)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
@@ -239,7 +250,9 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Acerbis | Acerbis Rear Fender Honda CRF150R / CRF150R Expert 2007-2026 | 2084550001, 2084550002, 2084550227 | 26.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-rear-fender-honda-crf150r-2007-2020) |
 | Acerbis | Acerbis Side Panels Honda CRF150R / CRF150R Expert 2007-2026 | 2084560001, 2084560002 | 53.06 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-side-panels-honda-crf150r-2007-2020) |
 | Acerbis | Acerbis Standard Plastic Kit Honda CRF150R / CRF150R Expert 2007-2026 | 2084600001, 2084600002, 2084600215 | 128.66 USD | [Cycle Gear](https://www.cyclegear.com/parts/acerbis-standard-plastic-kit-honda-crf150r-2007-2020) |
+| All Balls Racing | All Balls Racing Carburetor Rebuild Kit Honda CRF150R / Expert 2012-2026 | 26-1500 | 85.86 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-carburetor-rebuild-kit-honda-crf150r-expert-2012-2021) |
 | All Balls Racing | All Balls Racing Front Wheel Bearing Kit Honda CRF150R / CRF150R Expert 2007-2026 | 25-1539 | 21.53 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-front-wheel-bearing-kit-honda-crf150r-crf150r-expert-2007-2023) |
+| All Balls Racing | All Balls Racing Petcock Repair Kit Honda 80cc-600cc 1982-2026 | 60-1215 | 22.30 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-fuel-tap-repair-kit-honda-80cc-600cc-1982-2022) |
 | All Balls Racing | All Balls Racing Rear Wheel Bearing Kit Honda CRF150R / Expert 2007-2026 | 25-1540 | 25.91 USD | [Cycle Gear](https://www.cyclegear.com/parts/all-balls-racing-rear-wheel-bearing-kit-honda-crf150r-expert-2007-2023) |
 | Athena | Athena Complete Gasket Kit Honda CRF150R / RB Expert 2007-2026 | P400210850202 | 173.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/athena-complete-gasket-kit-honda-crf150r-rb-expert-2007-2021) |
 | Athena | Athena Water Pump Gasket Kit Honda CRF150R / CRF150R Expert 2007-2026 | P400210475004 | 35.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/athena-water-pump-gasket-kit-honda-crf150r-2007-2016) |
@@ -247,6 +260,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | BILT FACTORY | BILT FACTORY MX Foot Pegs Honda 125cc-450cc 2004-2027 | TRS791B, TRS791R | 89.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bilt-factory-mx-foot-pegs-honda-125cc-450cc-2004-2025) |
 | Bolt Hardware | Bolt Hardware Engine Fastener Kit Honda CRF150R 2007-2026 | E-CF1-0720 | 39.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bolt-hardware-engine-fastener-kit-honda-crf150r-2007-2023) |
 | Bolt Hardware | Bolt Hardware Full Plastics Fastener Kit Honda CRF150R / CRF150R Expert 2007-2026 | HON-0716150 | 22.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bolt-hardware-full-plastics-fastener-kit-honda-crf150r-2007-2018) |
+| Bolt Hardware | Bolt Hardware Oil Change Kit Honda 150cc-450cc 2002-2026 | OILCHG-CRF | 7.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bolt-hardware-oil-change-kit-honda-150cc-450cc-2002-2023) |
 | Bolt Hardware | Bolt Hardware Rotor Bolt Kit Honda CR80R / CR85R / CRF150R / CRF150R Expert 1996-2026 | HRTR85150 | 9.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bolt-hardware-rotor-bolt-kit-honda-cr80r-cr85r-crf150r-1996-2018) |
 | Boyesen | Boyesen Power Wing Honda CRF150R 2007-2026 | PW-20 | 99.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/boyesen-power-wing-honda-crf150r-2007-2023) |
 | Boyesen | Boyesen Spectra Supercooler Kit Honda CRF150R / CRF150R Expert 2007-2026 | WPK-09B, WPK-09M, WPK-09R, WPK-09W | 194.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/boyesen-spectra-supercooler-kit-honda-crf150r-2007-2019) |
@@ -258,8 +272,12 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Dynojet | Dynojet Stage 1 Jet Kit Honda CRF150R / Expert 2012-2026 | 1179 | 133.32 USD | [Cycle Gear](https://www.cyclegear.com/parts/dynojet-stage-1-jet-kit-honda-crf150r-expert-2012-2023) |
 | Enduro Engineering | Enduro Engineering Front Axle Pull Honda / Kawasaki / Suzuki / Yamaha 125cc-450cc | 23-050 | 18.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-front-axle-pull-honda-kawasaki-suzuki-yamaha-125cc-450cc) |
 | Enduro Engineering | Enduro Engineering Rear Axle Pull Honda / Kawasaki / Suzuki / Yamaha / Sherco | 23-061 | 18.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/enduro-engineering-rear-axle-pull-honda-kawasaki-suzuki-yamaha-sherco) |
+| Excel | Excel Front Wheel Spoke Set Honda CRF150R Expert 2007-2026 | XS0-13197 | 109.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/excel-front-wheel-spoke-set-honda-crf150r-expert-2007-2023) |
+| Excel | Excel Rear Wheel Spoke Set Honda CRF150R Expert 2007-2026 | XS0-13167 | 109.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/excel-rear-wheel-spoke-set-honda-crf150r-expert-2007-2023) |
 | Excel | Excel Takasago 1.40" x 17" Front Rim Honda / Kawasaki 80cc-150cc 1986-2027 | EBK406, EBS406 | 153.12 USD | [Cycle Gear](https://www.cyclegear.com/parts/excel-takasago-140-x-17-front-rim-honda-kawasaki-80cc-150cc-1986-2023) |
+| Excel | Excel Takasago 1.40" x 19" Front Rim Honda / Kawasaki 80cc-150cc 1996-2026 | GBK405, GBS405 | 174.63 USD | [Cycle Gear](https://www.cyclegear.com/parts/excel-takasago-140-x-19-front-rim-honda-kawasaki-80cc-150cc-1996-2023) |
 | Excel | Excel Takasago 1.60" x 14" Rear Rim Honda / Suzuki / Yamaha 80cc-150cc 1994-2026 | BCK404, BCS404 | 157.88 USD | [Cycle Gear](https://www.cyclegear.com/parts/excel-takasago-160-x-14-rear-rim-honda-suzuki-yamaha-80cc-150cc-1994-2023) |
+| Excel | Excel Takasago 1.85" x 16" Rear Rim Honda / Suzuki / Yamaha 80cc-150cc 1994-2026 | DDK404, DDS404 | 167.60 USD | [Cycle Gear](https://www.cyclegear.com/parts/excel-takasago-185-x-16-rear-rim-honda-suzuki-yamaha-80cc-150cc-1994-2023) |
 | Factory Effex | Factory Effex Rear Fender Graphic Honda CRF150R / CRF150R Expert 2007-2026 | 17-32304 | 19.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-effex-rear-fender-graphic-honda-crf150r-2007-2016) |
 | Factory Effex | Factory Effex Swingarm Graphics Honda 80cc-150cc | 17-42302 | 14.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/factory-effex-swingarm-graphics-honda-80cc-150cc) |
 | Flo Motorsports | Flo Motorsports Adventure / Snow Bike Foot Pegs Honda / Kawasaki 125cc-450cc 2004-2027 | SPEG-792BLK | 264.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-adventure-snow-bike-foot-pegs-honda-kawasaki-125cc-450cc-2004-2022) |
@@ -267,11 +285,15 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Flo Motorsports | Flo Motorsports Stainless Steel Foot Pegs Honda / Kawasaki 125cc-450cc 2004-2027 | SS-792 | 139.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-stainless-steel-foot-pegs-honda-kawasaki-125cc-450cc-2004-2024) |
 | Flo Motorsports | Flo Motorsports Titanium Foot Pegs Honda / Kawasaki 125cc-450cc 2004-2027 | TI-792JET | 389.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-titanium-foot-pegs-honda-kawasaki-125cc-450cc-2004-2022) |
 | GBrakes | GBrakes Off Road Front Brake Line FK003D480 | FK003D480/FK003D480-1 | 69.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-off-road-front-brake-line-fk003d480) |
+| GBrakes | GBrakes Off Road Rear Brake Line FK003D566R | FK003D566R | 55.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/gbrakes-off-road-rear-brake-line-fk003d566r) |
 | Hinson | Hinson Oil Filler Cap Honda 125cc-500cc 1987-2026 | OC154X | 19.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hinson-oil-filler-cap-honda-125cc-500cc-1987-2023) |
+| Hot Cams |  Hot Cams Valve Shim Kit Honda / Kawasaki / Suzuki / Yamaha 1988-2026 | HCSHIM01 | 124.17 USD | [Cycle Gear](https://www.cyclegear.com/parts/hot-cams-valve-shim-kit-honda-kawasaki-suzuki-yamaha-1988-2018) |
 | IMS | IMS Fuel Tank Honda CRF150R / CRF150R Expert 2007-2026 | 112241-BK1, 112241-N2 | 278.36 USD | [Cycle Gear](https://www.cyclegear.com/parts/ims-fuel-tank-honda-crf150r-crf150r-expert-2007-2024) |
 | IMS | IMS Pro Series Footpegs Honda / Kawasaki / Suzuki 150cc-250cc 2005-2026 | 293119-4 | 140.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/ims-pro-series-footpegs-honda-kawasaki-suzuki-150cc-250cc-2005-2018) |
-| IMS | IMS Super Stock Footpegs Kawasaki / Honda 150cc-250cc | 273119 | 125.0 USD | [Cycle Gear](https://www.cyclegear.com/parts/ims-super-stock-footpegs-kawasaki-honda-150cc-250cc) |
+| IMS | IMS Super Stock Footpegs Kawasaki / Honda 150cc-250cc | 273119 | 125.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/ims-super-stock-footpegs-kawasaki-honda-150cc-250cc) |
+| Moose Racing | Moose Racing Bolt-On Steel Kickstand Honda CRF150R Expert | 047E | 160.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-bolt-on-steel-kickstand-honda-crf150r-expert) |
 | Moose Racing | Moose Racing Complete Motor Gasket Kit Honda CRF150R / Expert 2007-2026 | 811213MSE | 221.09 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-complete-motor-gasket-kit-honda-crf150r-expert-2007-2020) |
+| Moose Racing | Moose Racing Forged Rear Brake Pedal Honda CRF150R / CRF150R Expert 2007-2026 | 82-0102-21-11 | 131.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-forged-rear-brake-pedal-honda-crf150r-2007-2017) |
 | Moose Racing | Moose Racing Forged Shift Lever Honda CRF150R / CRF150R Expert 2007-2026 | 81-0104-02-10, 81-0104-06-10 | 44.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-forged-shift-lever-honda-crf150r-crf150r-expert-2007-2025) |
 | Moose Racing | Moose Racing Front Brake Line Honda CRF150R / Expert 2007-2026 | H02-1-067/P | 78.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-front-brake-line-honda-crf150r-expert-2007-2017) |
 | Moose Racing | Moose Racing Front Wheel Bearing Kit Honda CRF150R / RB 2007-2026 | 25-1539 | 22.17 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-front-wheel-bearing-kit-honda-crf150r-rb-2007-2020) |
@@ -281,6 +303,7 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Moose Racing | Moose Racing Radiator Hose Kit Honda CRF150R 2007-2026 | HON-33-RD | 115.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-radiator-hose-kit-honda-crf150r-2007-2025) |
 | Moose Racing | Moose Racing Rear Axle Pull Handle Honda / Kawasaki / Suzuki / Yamaha | 23-061 | 19.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-rear-axle-pull-handle-honda-kawasaki-suzuki-yamaha) |
 | Moose Racing | Moose Racing Rear Wheel Bearing Kit Honda CRF150R / Expert | 25-1540 | 26.21 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-rear-wheel-bearing-kit-honda-crf150r-expert) |
+| Moose Racing | Moose Racing Stainless Steel Braided Rear Brake Line Honda CRF150R Expert 2018-2026 | H02-2-046/P | 41.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-stainless-steel-braided-rear-brake-line-honda-crf150r-expert-2018-2025) |
 | Moose Racing | Moose Racing Throttle Cable Honda CRF150R / RB Expert 2007-2026 | 45-1009 | 16.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-throttle-cable-honda-crf150r-rb-expert-2007-2018) |
 | Moose Racing | Moose Racing Top End Gasket Kit Honda CRF150R / CRF150R Expert 2007-2026 | 810213MSE | 67.01 USD | [Cycle Gear](https://www.cyclegear.com/parts/moose-racing-top-end-gasket-kit-honda-crf150r-crf150r-expert-2007-2022) |
 | Motion Pro | Motion Pro Push Throttle Cable Honda CRF150R / Expert 2007-2026 | 02-0511 | 8.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/motion-pro-push-throttle-cable-honda-crf150r-expert-2007-2024) |
@@ -315,7 +338,9 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | RFX | RFX Pro Titanium/Aluminum Footpegs Honda | FXFR 10100 99TA | 263.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/rfx-pro-titaniumaluminum-footpegs-honda) |
 | SKF | SKF Front Wheel Bearing / Seal Kit Honda 125cc-450cc 2000-2026 | VKWB-F-20-D | 49.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/skf-front-wheel-bearing-seal-kit-honda-125cc-450cc-2000-2024) |
 | SKF | SKF Rear Wheel Bearing / Seal Kit Honda 125cc-450cc 2000-2026 | VKWB-R-25-D | 49.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/skf-rear-wheel-bearing-seal-kit-honda-125cc-450cc-2000-2024) |
+| Twin Air | Twin Air Air Box Cover Honda CRF150R / CRF150R Expert 2007-2026 | 160052 | 41.75 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-air-box-cover-honda-crf150r-2007-2020) |
 | UFO | UFO Fork Guards Honda CR85R / CRF150R / Expert 2003-2026 | HO04612-070, HO04612-280/HO04612280 | 32.63 USD | [Cycle Gear](https://www.cyclegear.com/parts/ufo-fork-guards-honda-cr85r-crf150r-expert-2003-2023) |
+| UFO | UFO Front Fender Honda CRF150R / Expert 2007-2026 | HO04617-001, HO04617-041, HO04617-070 | 26.77 USD | [Cycle Gear](https://www.cyclegear.com/parts/ufo-front-fender-honda-crf150r-expert-2007-2023) |
 | UFO | UFO Front Number Plate Honda CR80R / CR85R / CRF150R 1996-2026 | HO03624-001, HO03624-041/HO03624041, HO03624-070 | 28.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/ufo-front-number-plate-honda-cr80r-cr85r-crf150r-1996-2023) |
 | UFO | UFO Plastic Kit Honda CRF150R / Expert 2007-2026 | HOKIT111-041, HOKIT111F-P | 144.71 USD | [Cycle Gear](https://www.cyclegear.com/parts/ufo-plastic-kit-honda-crf150r-expert-2007-2025) |
 | UFO | UFO Radiator Shrouds Honda CRF150R 2007-2026 | HO04619-001, HO04619-070 | 55.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/ufo-radiator-shrouds-honda-crf150r-2007-2023) |
@@ -337,22 +362,26 @@ Merged across sellers by brand and part number (or brand and name). Lings is a U
 | Zeta | Zeta Billet Gas Cap Honda CR85R / CRF150R / CRF150R Expert | ZE87-0303 | 148.18 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-billet-gas-cap-honda-cr85r-crf150r) |
 | Zeta | Zeta Brake Clevis Honda CR / CRF | ZE89-5014, ZE89-5015 | 24.65 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-brake-clevis-honda-cr-crf) |
 | Zeta | Zeta Engine Plugs Honda CRF / XR | ZE89-1120 | 33.24 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-engine-plugs-honda-crf-xr) |
-| Zeta | Zeta Front Brake Line Clamp Honda CR / CRF | ZE92-0106, ZE92-0107 | 18.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-front-brake-line-clamp-honda-cr-crf) |
+| Zeta | Zeta Forged Shift Lever Honda CRF150R 2007-2026 | ZE90-4012 | 55.08 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-forged-shift-lever-honda-crf150r-2007-2023) |
+| Zeta | Zeta Front Brake Line Clamp Honda CR / CRF | ZE92-0106, ZE92-0107 | 18.0 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-front-brake-line-clamp-honda-cr-crf) |
 | Zeta | Zeta Max Footpegs Honda CR / CRF / Africa Twin 2002-2027 | ZE93-2600, ZE93-2605 | 134.89 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-max-footpegs-honda-cr-crf-africa-twin-2002-2026) |
 | Zeta | Zeta Oil Filler Plug Honda / Kawasaki / Yamaha | ZE89-2110, ZE89-2111, ZE89-2112 | 20.89 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-oil-filler-plug-honda-kawasaki-yamaha) |
+| Zeta | Zeta Revolver Shift Lever Honda CRF150R / CRF150RB 2007-2026 | ZE90-3012 | 79.78 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-revolver-shift-lever-honda-crf150r-crf150rb-2007-2020) |
+| Zeta | Zeta Rubber Killer Solid Mount Kit Honda CR / CRF | ZE37-0311 | 33.23 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-rubber-killer-solid-mount-kit-honda-cr-crf) |
 | Zeta | Zeta Steering Stem Nut Honda CR / CRF | ZE58-2123 | 23.74 USD | [Cycle Gear](https://www.cyclegear.com/parts/zeta-steering-stem-nut-honda-cr-crf) |
 
-### Utv / Atv Parts (3)
+### Utv / Atv Parts (4)
 
 | Brand | Part | Part numbers | Price | Sellers |
 |---|---|---|---|---|
 | BikeMaster | BikeMaster Oil Filter BM-116 | 171637/BM-116 | 4.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/bikemaster-oil-filter-bm-116) |
+| HiFloFiltro | HiFloFiltro Premium Oil Filter HF116 | HF116 | 4.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/hiflofiltro-premium-oil-filter-hf116) |
 | K&N | K&N Oil Filter KN-116 | KN-116 | 11.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/kn-oil-filter-kn-116) |
-| Motolis | Motolis M-116 Oil Filter  | M-116 | 6.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/motolis-m-116-oil-filter) |
+| Motolis | Motolis M-116 Oil Filter | M-116 | 6.99 USD | [Cycle Gear](https://www.cyclegear.com/parts/motolis-m-116-oil-filter) |
 
 ## Universal retailer listings (counted only)
 
-Uncategorised 291, Handlebars & Controls 224, Chain & Sprocket 126, Exhaust 85, Air & Fuel 44, Batteries & Electrical 41, Lighting 31, Gauges 31, Utv / Atv Parts 27, Bike Protection 27, Suspension 22, Body & Fairing 4, Drive & Transmission 4, Filters 3, Tire Accessories 1
+Uncategorised 354, Handlebars & Controls 254, Chain & Sprocket 143, Exhaust 97, Air & Fuel 49, Batteries & Electrical 44, Lighting 36, Gauges 36, Utv / Atv Parts 30, Bike Protection 30, Suspension 24, Body & Fairing 8, Drive & Transmission 4, Filters 3, Tire Accessories 1
 
-Top brands: Pro Taper 60, Acerbis 56, Cycra 49, Moose Racing 45, Zeta 41, Bolt Hardware 41, Renthal 38, ODI 35, Fire Power 35, Helix Racing Products 29, RFX 29, RK 28, Barkbusters 27, Namz 24, Factory Effex 24, FMF 23, K&N 21, Polisport 17, EK Chain 17, Motion Pro 17, Koso 14, Motolis 14, DID Chain 14, Pro Grip 11, BikeMaster 11
+Top brands: Pro Taper 68, Acerbis 65, Cycra 59, Moose Racing 56, Bolt Hardware 55, Renthal 49, Zeta 46, ODI 45, Fire Power 37, Helix Racing Products 32, RK 32, RFX 31, Barkbusters 30, FMF 26, Namz 25, Factory Effex 24, K&N 22, Motion Pro 21, EK Chain 20, Polisport 20, Motolis 18, Koso 17, DID Chain 15, BikeMaster 13, Yoshimura 12
 

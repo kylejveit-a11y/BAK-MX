@@ -8,10 +8,10 @@
 | Husqvarna Technical Accessories | 1332 | Accessory (546), protection (137), body (127), tools (83), exhaust (70), controls (40) | Lings 546, research 633, MotoSport 153 |
 | GasGas Technical Accessories | 928 | Accessory (377), protection (92), body (81), tools (66), exhaust (65), Uncategorised (47) | Lings 377, MotoSport 76, research 475 |
 | KTM | 694 | Protection (126), Body (118), Exhaust (64), Tools (57), Engine & Maintenance (47), Ergonomics (45) | KTM Twins 691, research 3 |
-| Acerbis | 525 | Uncategorised (172), Handlebars & Controls (67), Bike Protection (64), Body (44), Controls (40), Drive & Transmission (17) | Cycle Gear 347, KTM Twins 17, MotoSport 115, research 46 |
+| Acerbis | 526 | Uncategorised (173), Handlebars & Controls (67), Bike Protection (64), Body (44), Controls (40), Drive & Transmission (17) | Cycle Gear 348, KTM Twins 17, MotoSport 115, research 46 |
 | Moose Racing | 524 | Uncategorised (247), Handlebars & Controls (39), protection (38), Bike Protection (31), wheels (24), controls (24) | Cycle Gear 389, KTM Twins 6, research 129 |
 | FMF | 342 | exhaust (205), Exhaust (132), Uncategorised (2), Tools and Maintenance (2), Body (1) | Cycle Gear 97, KTM Twins 6, research 205, MotoSport 34 |
-| RFX | 341 | Uncategorised (145), controls (33), Chain & Sprocket (20), Air & Fuel (16), Seats (15), Controls (15) | Cycle Gear 237, MotoSport 42, research 62 |
+| RFX | 342 | Uncategorised (145), controls (33), Chain & Sprocket (20), Seats (16), Air & Fuel (16), Controls (15) | Cycle Gear 238, MotoSport 42, research 62 |
 | Pro Circuit | 307 | Exhaust (108), exhaust (84), engine (69), suspension (16), Uncategorised (6), controls (6) | Cycle Gear 90, research 185, MotoSport 32 |
 | Renthal | 265 | Uncategorised (49), gearing (45), Handlebars & Controls (37), Chain & Sprocket (35), Controls (30), controls (26) | Cycle Gear 127, KTM Twins 20, MotoSport 42, research 76 |
 | Pro Taper | 263 | Uncategorised (83), Handlebars & Controls (51), Controls (51), Chain & Sprocket (40), controls (12), Drive (11) | Cycle Gear 182, research 12, MotoSport 69 |
@@ -27,15 +27,15 @@
 | ODI | 146 | Uncategorised (75), Controls (42), Handlebars & Controls (18), Ergonomics (4), controls (4), UTV / ATV Parts (2) | Cycle Gear 95, KTM Twins 4, MotoSport 43, research 4 |
 | Fire Power | 138 | Chain & Sprocket (35), Uncategorised (27), Handlebars & Controls (20), Drive (12), Batteries & Electrical (10), Gauges (8) | Cycle Gear 102, MotoSport 22, research 14 |
 | Pro X | 125 | Uncategorised (70), Engine (18), engine (16), Brakes (5), clutch (5), Drive & Transmission (4) | Cycle Gear 78, research 25, MotoSport 22 |
-| Works Connection | 121 | Suspension (31), Uncategorised (16), chassis (15), protection (11), controls (8), Controls (5) | Cycle Gear 46, KTM Twins 1, research 42, MotoSport 32 |
-| Moto-Master | 112 | Brakes (42), brakes (34), Chain & Sprocket (19), drivetrain (6), gearing (6), Uncategorised (5) | Cycle Gear 53, research 46, MotoSport 13 |
+| Works Connection | 124 | Suspension (33), Uncategorised (17), chassis (15), protection (11), controls (8), Controls (5) | Cycle Gear 49, KTM Twins 1, research 42, MotoSport 32 |
+| Moto-Master | 113 | Brakes (43), brakes (34), Chain & Sprocket (19), drivetrain (6), gearing (6), Uncategorised (5) | Cycle Gear 54, research 46, MotoSport 13 |
 | Enduro Engineering | 107 | Bike Protection (36), protection (17), Handlebars & Controls (16), Uncategorised (11), Exhaust (6), UTV / ATV Parts (4) | Cycle Gear 73, KTM Twins 8, research 26 |
 | Rugged Radios | 105 | Vehicle Communication (60), Accessories (42), Helmets (3) | MotoSport 105 |
 | Twin Air | 104 | Air & Fuel (31), intake (19), Uncategorised (14), Tools and Maintenance (14), Engine (6), Filters (5) | Cycle Gear 55, KTM Twins 1, research 22, MotoSport 26 |
 | Trail Tech | 98 | Lights and Electrical (44), Gauges (17), Engine (12), Uncategorised (11), Engine & Maintenance (3), Body (3) | Cycle Gear 31, KTM Twins 5, research 2, MotoSport 60 |
 | Boyesen | 95 | Uncategorised (24), intake (23), engine (12), clutch (10), cooling (10), Engine (8) | Cycle Gear 24, KTM Twins 5, research 55, MotoSport 11 |
 | P3 | 88 | Bike Protection (32), Exhaust (22), Skid Plates and Guards (12), protection (10), Body (9), Engine (2) | Cycle Gear 45, KTM Twins 2, MotoSport 31, research 10 |
-| Pivot Works | 86 | Suspension (26), Uncategorised (23), wheels (18), suspension (8), Wheels and Rims (7), chassis (4) | Cycle Gear 39, MotoSport 17, research 30 |
+| Pivot Works | 87 | Suspension (27), Uncategorised (23), wheels (18), suspension (8), Wheels and Rims (7), chassis (4) | Cycle Gear 40, MotoSport 17, research 30 |
 | Ride Engineering | 86 | Controls (22), chassis (20), suspension (13), Brakes (9), Suspension (6), engine (6) | Cycle Gear 1, research 40, MotoSport 45 |
 | DRC | 84 | Uncategorised (21), Controls (12), Lights and Electrical (12), Wheels and Rims (10), Exhaust (9), Suspension (8) | Cycle Gear 27, MotoSport 56, research 1 |
 | UFO | 83 | Uncategorised (57), Body (15), Lighting (4), body (4), protection (2), cooling (1) | Cycle Gear 61, KTM Twins 9, MotoSport 6, research 7 |
@@ -74,7 +74,7 @@
 | Cylinder Works | 43 | engine (27), Uncategorised (8), Engine (8) | Cycle Gear 8, MotoSport 8, research 27 |
 | All Balls | 42 | Suspension (11), Brakes (9), Wheels and Rims (6), Engine (6), Fuel System (6), Controls (3) | MotoSport 42 |
 | GBrakes | 42 | Brakes (20), brakes (11), Uncategorised (9), Controls (1), chassis (1) | Cycle Gear 19, MotoSport 11, research 12 |
-| Mika Metals | 40 | Drive (12), Handlebars & Controls (10), Controls (7), Uncategorised (4), Chain & Sprocket (4), drivetrain (1) | Cycle Gear 18, MotoSport 19, research 3 |
+| Mika Metals | 41 | Drive (12), Handlebars & Controls (10), Controls (7), Chain & Sprocket (5), Uncategorised (4), drivetrain (1) | Cycle Gear 19, MotoSport 19, research 3 |
 | Namz Custom Cycle | 40 | Lights and Electrical (40) | MotoSport 40 |
 | XPR Motorsports | 40 | tuning (20), engine (20) | research 40 |
 | Motolis | 39 | Chain & Sprocket (35), Handlebars & Controls (2), Filters (1), engine (1) | Cycle Gear 38, research 1 |

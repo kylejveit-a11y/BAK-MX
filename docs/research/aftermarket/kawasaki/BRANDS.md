@@ -21,7 +21,7 @@
 | Bolt Hardware | 130 | Uncategorised (106), Body & Fairing (10), Exhaust (8), Drive & Transmission (4), Chain & Sprocket (2) | Cycle Gear 130 |
 | Fire Power | 121 | Chain & Sprocket (32), Uncategorised (21), Handlebars & Controls (20), Drive (12), Batteries & Electrical (9), Gauges (8) | Cycle Gear 90, MotoSport 21, research 10 |
 | Works Connection | 121 | Uncategorised (19), Suspension (16), protection (14), controls (11), chassis (11), Bike Protection (10) | Cycle Gear 44, research 39, MotoSport 38 |
-| Vertex | 110 | engine (74), Uncategorised (22), Engine (11), Exhaust (3) | Cycle Gear 25, MotoSport 11, research 74 |
+| Vertex | 111 | engine (74), Uncategorised (23), Engine (11), Exhaust (3) | Cycle Gear 26, MotoSport 11, research 74 |
 | Rugged Radios | 105 | Vehicle Communication (60), Accessories (42), Helmets (3) | MotoSport 105 |
 | Rekluse | 103 | clutch (44), Drive & Transmission (26), Engine (25), engine (4), Uncategorised (2), Controls (1) | Cycle Gear 28, research 48, MotoSport 27 |
 | Ride Engineering | 82 | Controls (20), chassis (18), Brakes (14), suspension (13), engine (6), Drive (3) | Cycle Gear 1, research 37, MotoSport 44 |
@@ -245,6 +245,7 @@
 | P3 Carbon | 4 | protection (4) | research 4 |
 | Preston Petty | 4 | Uncategorised (4) | Cycle Gear 4 |
 | Rox Risers | 4 | UTV / ATV Parts (2), Handlebars & Controls (2) | Cycle Gear 4 |
+| Shindy | 4 | Uncategorised (3), intake (1) | Cycle Gear 3, research 1 |
 | STOMPGRIP | 4 | Graphics (3), Body (1) | MotoSport 4 |
 | Trackside | 4 | Batteries & Electrical (4) | Cycle Gear 4 |
 | WPS | 4 | Tools and Maintenance (3), Wheels and Rims (1) | MotoSport 4 |
@@ -272,7 +273,6 @@
 | Pelican | 3 | Luggage and Racks (3) | MotoSport 3 |
 | Rotopax | 3 | Farming and Hunting (2), Body (1) | MotoSport 3 |
 | Samco | 3 | Uncategorised (2), engine (1) | Cycle Gear 2, research 1 |
-| Shindy | 3 | Uncategorised (2), intake (1) | Cycle Gear 2, research 1 |
 | Slavens Racing | 3 | engine (3) | research 3 |
 | TokyoMods | 3 | tuning (3) | research 3 |
 | Torc1 Racing | 3 | Controls (3) | MotoSport 3 |
