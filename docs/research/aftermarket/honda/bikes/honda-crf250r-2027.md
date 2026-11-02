@@ -1,6 +1,6 @@
 # Honda CRF250R 2027: aftermarket parts
 
-24 listings whose stated fitment names this bike: 24 researched parts (with what they change and rider findings), 0 dealer and retailer listings specific to this bike, and 0 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
+950 listings whose stated fitment names this bike: 24 researched parts (with what they change and rider findings), 8 dealer and retailer listings specific to this bike, and 918 universal retailer listings (oil, grips, batteries and the like, counted below; every listing is in [parts.csv](../parts.csv)). Research candidates: check fitment on the maker's page before relying on a row. Back to [the family catalog](../CATALOG.md).
 
 ## Researched parts
 
@@ -15,19 +15,57 @@
 | Vortex | X10 ECU (fuel & ignition control), CRF250R | ECU-8H2-250R | Retailer copy of Vortex claims: 10 pre-programmed fuel/spark maps, three trim switches (low/mid/high throttle, +12.5% to -10% fuel), plug-in to stock harness, V-Boost, more power and easier starting ( | Listing year selector (2018-2025) and fitment section (2018-2027) disagree. 2025 CRF250R has a new ECU configuration (Yoshimura release) — confirm map compatibi | [CRFs Only](https://www.crfsonly.com/catalog/product_info.php/products_id/7919) | medium |
 | FMF | Factory 4.1 RCT full system - CRF250R, CRF250RX | 041644, 041645 | FMF: Resonance Chamber Technology inside and out, shorter length, muffler moved forward to centralize mass; claims 'massive' power gains across the rpm range and big weight savings; RTS quick-tuning. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/factory-4-1-rct-titanium-anodized-full-system-w-carbon-end-cap-041645) | high |
 | FMF | Factory 4.1 RCT slip-on - CRF250R, CRF250RX | 041642, 041643 | FMF: Resonance Chamber Technology inside and out, shorter length, muffler moved forward to centralize mass; claims 'massive' power gains across the rpm range and big weight savings; RTS quick-tuning. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/factory-4-1-rct-titanium-anodized-sl-slip-on-w-carbon-cap-041643) | high |
-| FMF | MegaBomb header - CRF250R, CRF250RX | 041614, 041615 | FMF MegaBomb four-stroke header (resonance chamber 'bomb' near the port); used with FMF mid/muffler. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/titanium-megabomb-041615) | high |
 | FMF | PowerCore 4 HEX slip-on (Honda CRF250R/RX 2025-2027) | 041616 | PowerCore 4 HEX spark-arrestor slip-on; FMF markets it as a general performance replacement for the stock silencer with the spark arrestor built in (FMF product copy, summarised). | Fitment from FMF fitment tags in the maker store feed (no fitment table text on the page). Competition use only. | [source](https://www.fmfracing.com/products/powercore-4-hex-041616) | high |
-| Pro Circuit | T-6 Stainless Slip-ons CRF250R/RX and CRF450R/RX | 0112425A, 0112225A, 0112025A2, 0112145A, 0111945A2 | Slip-on muffler(s). |  | [source](None) |  |
+| FMF | MegaBomb header - CRF250R, CRF250RX | 041614, 041615 | FMF MegaBomb four-stroke header (resonance chamber 'bomb' near the port); used with FMF mid/muffler. | Fitment from FMF store's year/make/model tags; FMF lists competition/off-road use only. | [FMF Racing (direct)](https://www.fmfracing.com/products/titanium-megabomb-041615) | high |
 | Pro Circuit | T-6 Stainless / Ti-6 / Ti-6 BC Pro systems, CRF250R/RX 22-27 and CRF450R/RX 21-25 | 0112425G, 0312425F, 0312425FP, 0312525BC, 0112145G, 0312145F, 0312545BC | Full single-muffler systems. |  | [source](None) |  |
+| Pro Circuit | T-6 Stainless Slip-ons CRF250R/RX and CRF450R/RX | 0112425A, 0112225A, 0112025A2, 0112145A, 0111945A2 | Slip-on muffler(s). |  | [source](None) |  |
 | Pro Circuit | T-6 Stainless Slip-On, CRF250R/RX '25-27 | 0112425A |  | Slip-ons fit stock head pipe only (Pro Circuit). | [Pro Circuit (maker)](https://www.procircuit.com/t-6-slip-on-crf250-2025) | high |
 | Yoshimura | RS-12 Stainless Full Exhaust w/ Stainless Muffler, CRF250R/RX 25-27 | 228460S520 | Same maker claim as titanium version: 'up to +8% HP gain @12,000rpm and up to +8% torque @8650rpm'; header resonator to 'maximize power across the spectrum' (yoshimura-rd.com). | One customer review on the maker page says it was heavier than stock with minimal power gain (single owner, contradicts maker claim). Sold out at time of readin | [Yoshimura R&D (maker)](https://yoshimura-rd.com/products/crf250r-rx-rs-12-stainless-full-exhaust-w-stainless-muffler-228460s520) | high |
-| Yoshimura | RS-12 Titanium / Stainless Full Exhaust (2025-27 CRF250R/RX) | 228461S720, 228460S520 | Full system for the 2025+ CRF250R. |  | [source](None) |  |
 | Yoshimura | RS-12 Titanium Full Exhaust w/ Titanium Muffler, CRF250R/RX 25-27 | 228461S720 | Yoshimura claims 'up to +8% HP gain @12,000rpm and up to +8% torque @8650rpm' vs stock; hydroformed muffler 'lighter and stronger'; press release states max +8.0% hp and +9.0% torque (yoshimura-rd.com | Maker page showed 'Sold Out - Contact Us' with pre-order. Maker lists CRF250RX only 2025-2026 (2027 RX not listed). No weight figure. Closed-course only. Press  | [Yoshimura R&D (maker)](https://www.yoshimura-rd.com/products/crf250r-rx-rs-12-titanium-full-exhaust-w-titanium-muffler-228461s720) | high |
-| Renthal | Grooved front sprocket 253--520 (Honda 250-500, 1988-2027) | 253--520-13GP, 253--520-14GP, 253--520-15GP | Steel front sprocket with mud-relief grooves; tooth count changes final drive. | Keefer reports a 14T front is blocked by the clutch slave on the CRF450R (Honda pass 1); retailer lists 13-15T. 2027 CRF450R is a new engine; confirm countersha | [source](https://www.cyclegear.com/parts/renthal-grooved-front-sprocket-honda-250cc-500cc-1988-2027) | medium |
+| Yoshimura | RS-12 Titanium / Stainless Full Exhaust (2025-27 CRF250R/RX) | 228461S720, 228460S520 | Full system for the 2025+ CRF250R. |  | [source](None) |  |
 | Renthal | Twinring rear sprocket 1540-520 (Honda) | 1540-520-47GPSI, 1540-520-48GPSI, 1540-520-48GPRD, 1540-520-48GPBK, 1540-520-49GPSI, 1540-520-49GPRD, 1540-520-49GPBK, 1540-520-50GPSI | Two-piece rear sprocket: steel outer ring for wear life, aluminium centre for weight (Renthal copy via retailer). | CONFLICT: the 2027 CRF450R/RX moved to a 160 mm sprocket mounting so older rear sprockets do not fit (Cycle News / Ultimate Motorcycling, Honda pass 1), yet the | [source](https://www.cyclegear.com/parts/renthal-twinring-rear-sprocket-honda-125cc-650cc-1985-2024) | medium |
+| Renthal | Grooved front sprocket 253--520 (Honda 250-500, 1988-2027) | 253--520-13GP, 253--520-14GP, 253--520-15GP | Steel front sprocket with mud-relief grooves; tooth count changes final drive. | Keefer reports a 14T front is blocked by the clutch slave on the CRF450R (Honda pass 1); retailer lists 13-15T. 2027 CRF450R is a new engine; confirm countersha | [source](https://www.cyclegear.com/parts/renthal-grooved-front-sprocket-honda-250cc-500cc-1988-2027) | medium |
 | Factory Connection | Shock Spring (ALL series) Honda CRF250R/CRF450R/RX/R-S/RL/L/X 2017-2027 | ALL-0047, ALL-0049, ALL-0051, ALL-0053, ALL-0057, ALL-0059, ALL-0061, ALL-0063 | Steel shock springs, rate per part number. |  | [source](None) |  |
 | KYB (factory race parts) | Factory spring retainer kit, aluminium 50mm, CRF450 17- / CRF250 18- | 60031007 | Title only. | Open-ended fitment expanded to 2027 as written; 2027 CRF450R has a new shock - verify. Purpose (shock spring retainer) inferred from title. | [Teknik Motorsport (AU)](https://www.teknikmotorsport.com/bike-suspension-parts/honda/crf250r/2026/?pgnum=14) | unverified |
 | Kouba | Lowering Link CRF250R/RX 25-27, CRF450R/RX 25-26 | CRF25-2, CRF25-3 | Rear lowering link reducing seat height; changes geometry. |  | [source](None) |  |
 | Showa (Astemo) | Showa Genuine KIT A - Honda CRF250R/450R 2025-2027 | AKITHON25 | Factory-team-spec coil fork and shock replacing stock Showa units. |  | [source](https://www.teknikmotorsport.com/AKITHON25-Showa-A-Kit-Suspension-for-Honda-CRF-250-450-2025-2026) | medium |
 | D.I.D | Ace wheelset, Honda (21x1.60 / 19x2.15) | ACESET-HONDA | Complete race wheel set: A7075 hubs, steel spokes, Koyo bearings, 21x1.60 front (36 spokes) and 19x2.15 rear (32 spokes); D.I.D says lighter with less rotating mass (maker copy). | Maker says '2013 - Current'; the 2027 CRF450R's new rear sprocket mounting makes 2027 fit doubtful until D.I.D confirms. RX models not named. Listed as pre-orde | [source](https://www.didchain.com/products/ace-wheelsets-honda) | high |
+
+## Dealer and retailer listings for this bike
+
+Merged across sellers by brand and part number (or brand and name). Lings is a UK dealer (GBP prices, EU-market models).
+
+### Air & Fuel (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Twin Air | Twin Air Air Filter Honda 250cc-450cc 2025-2027 | 150233 | 37.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/twin-air-air-filter-honda-250cc-450cc-2025-2027) |
+
+### Chain & Sprocket (3)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Renthal | Renthal Grooved Front Sprocket Honda 250cc-500cc 1988-2027 | 253--520-13GP, 253--520-14GP, 253--520-15GP | 35.96 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-grooved-front-sprocket-honda-250cc-500cc-1988-2027) |
+| Renthal | Renthal Twinring Rear Sprocket Honda 125cc-650cc 1985-2027 | 1540-520-47GPSI, 1540-520-48GPBK, 1540-520-48GPRD, 1540-520-48GPSI, 1540-520-49GPBK, 1540-520-49GPRD, 1540-520-49GPSI, 1 | 137.67 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-twinring-rear-sprocket-honda-125cc-650cc-1985-2024) |
+| Renthal | Renthal Ultralight Rear Aluminum Sprocket Honda 125cc-650cc 1985-2027 | 154U-520-44GRSI, 154U-520-45GRSI, 154U-520-46GRSI, 154U-520-47GRSI, 154U-520-48GRBK, 154U-520-48GRHA, 154U-520-48GRPE, 1 | 93.56 USD | [Cycle Gear](https://www.cyclegear.com/parts/renthal-ultralight-rear-aluminum-sprocket-honda-125cc-650cc-1985-2024) |
+
+### Exhaust (3)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Yoshimura | Yoshimura RS-12 Exhaust System Honda CRF250R / RX 2025-2027 | 228460S520, 228461S720 | 1099.00 USD | [Cycle Gear](https://www.cyclegear.com/parts/yoshimura-rs-12-exhaust-system-honda-crf250r-rx-2025-2027) |
+| Yoshimura | Yoshimura RS-12 Low Volume Insert Kit Yamaha / Honda 250cc 2019-2027 | INS-31-K | 40.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/yoshimura-rs-12-low-volume-insert-kit-yamaha-honda-250cc-2019-2026) |
+| Yoshimura | Yoshimura RS-12 Spark Arrestor Kit Honda / Kawasaki / Husqvarna / KTM / Triumph  | SA-21-K | 49.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/yoshimura-rs-12-spark-arrestor-kit-honda-kawasaki-husqvarna-ktm-triumph) |
+
+### Uncategorised (1)
+
+| Brand | Part | Part numbers | Price | Sellers |
+|---|---|---|---|---|
+| Flo Motorsports | Flo Motorsports Hydraulic Clutch Conversion Line Honda 250cc-450cc 2021-2027 | CMC-791 | 89.95 USD | [Cycle Gear](https://www.cyclegear.com/parts/flo-motorsports-hydraulic-clutch-conversion-line-honda-250cc-450cc-2021-2027) |
+
+## Universal retailer listings (counted only)
+
+Uncategorised 300, Handlebars & Controls 215, Chain & Sprocket 133, Exhaust 77, Air & Fuel 33, Lighting 30, Batteries & Electrical 27, Bike Protection 26, Gauges 21, Suspension 20, Utv / Atv Parts 18, Body & Fairing 8, Drive & Transmission 6, Filters 3, Tire Accessories 1
+
+Top brands: Pro Taper 63, Acerbis 56, Bolt Hardware 50, Moose Racing 46, Cycra 45, Renthal 42, Zeta 37, ODI 35, Fire Power 31, Barkbusters 30, RK 28, Helix Racing Products 25, Factory Effex 23, RFX 22, EK Chain 21, FMF 21, Motolis 19, Polisport 18, Motion Pro 15, Pro Grip 13, K&N 12, Yoshimura 11, DID Chain 11, Namz 11, Koso 10
 
