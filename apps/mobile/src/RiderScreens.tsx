@@ -5,6 +5,7 @@ import {motion} from './theme';
 import {usedLinkTokens} from './appLinks';
 import {PART_AREAS,partArea,niceName} from '../../../shared/specs-view';
 import React,{useCallback,useContext,useEffect,useRef,useState} from 'react';
+import {useKeyboardHeight} from './Glass';
 import {ActivityIndicator,Alert,Animated,Image,KeyboardAvoidingView,Linking,Modal,Platform,ScrollView,Share,StyleSheet,Text,TextInput,View} from 'react-native';
 import {Pressable} from './Touch';
 import {success} from './haptics';
@@ -185,7 +186,7 @@ function PostView({p,open,onOpen,onLike,onMore,onRider,onCount,report}:{p:Post;o
 }
 
 function ComposeSheet({visible,profile,bike,onClose,onPosted}:{visible:boolean;profile:Profile;bike?:Bike;onClose:()=>void;onPosted:()=>void}){
- const insets=useSafeAreaInsets();
+ const insets=useSafeAreaInsets(),kb=useKeyboardHeight();
  const [category,setCategory]=useState<PostCategory>('setup_question'),[body,setBody]=useState(''),[tagBike,setTagBike]=useState(true),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[photos,setPhotos]=useState<Photo[]>([]),[uploading,setUploading]=useState(0);
  const ready=!!body.trim()&&!busy&&!uploading;
  async function publish(){if(!ready)return;setBusy(true);setNotice('');try{await api('/api/posts','POST',{category,body,bike_label:tagBike&&bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:'',photo_ids:photos.map(p=>p.id)});setBody('');setPhotos([]);success();onPosted();}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
@@ -198,7 +199,9 @@ function ComposeSheet({visible,profile,bike,onClose,onPosted}:{visible:boolean;p
  const hint={build:'What you did to the bike and how it turned out',setup_question:'What the bike is doing, where, and what you’ve tried',ride_plan:'Where, when, and who should come',general:'What’s on your mind'}[category];
  const tool=(icon:'camera'|'image',label:string,onPress:()=>void)=><Pressable accessibilityRole="button" accessibilityLabel={label} disabled={photos.length>=4||!!uploading} onPress={onPress} hitSlop={8} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:7,paddingVertical:8,paddingHorizontal:4,opacity:photos.length>=4||uploading?0.35:pressed?0.6:1})}><Icon name={icon} size={23} color={colors.text}/><Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>{label}</Text></Pressable>;
  return <Modal visible={visible} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
-  <KeyboardAvoidingView behavior={Platform.OS==='ios'?'padding':undefined} style={{flex:1,backgroundColor:colors.bg}}>
+  {/* A page sheet sits below the status bar, so KeyboardAvoidingView under-measures it and the keyboard covered the photo
+      buttons. The sheet's bottom is the screen's bottom: lift the content by exactly the keyboard's height instead. */}
+  <View style={{flex:1,backgroundColor:colors.bg,paddingBottom:Platform.OS==='ios'?kb:0}}>
    <View style={{flexDirection:'row',alignItems:'center',paddingHorizontal:16,paddingTop:Platform.OS==='ios'?14:insets.top+10,paddingBottom:12}}>
     <Pressable accessibilityRole="button" hitSlop={10} onPress={onClose} style={{flex:1}}><Text style={{color:'#b2b9c4',fontSize:16}}>Cancel</Text></Pressable>
     <Text style={{color:colors.text,fontSize:17,fontWeight:'800'}}>New post</Text>
@@ -217,12 +220,12 @@ function ComposeSheet({visible,profile,bike,onClose,onPosted}:{visible:boolean;p
     <AttachedPhotos photos={photos} uploading={uploading} size={104} onRemove={id=>{setPhotos(old=>old.filter(p=>p.id!==id));void api('/api/photos?id='+id,'DELETE').catch(()=>{});}}/>
     <Notice text={notice}/>
    </ScrollView>
-   <View style={{flexDirection:'row',alignItems:'center',gap:18,paddingHorizontal:16,paddingTop:8,paddingBottom:Math.max(insets.bottom,10),borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#262b34'}}>
+   <View style={{flexDirection:'row',alignItems:'center',gap:18,paddingHorizontal:16,paddingTop:8,paddingBottom:kb?10:Math.max(insets.bottom,10),borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#262b34'}}>
     {tool('camera','Camera',()=>void add('camera'))}{tool('image','Photos',()=>void add('library'))}
     <View style={{flex:1}}/>
     <Text style={{color:'#9aa2ae',fontSize:12.5}}>{photos.length?`${photos.length}/4 photos`:body.length>3500?`${4000-body.length} left`:'Up to 4 photos'}</Text>
    </View>
-  </KeyboardAvoidingView>
+  </View>
  </Modal>;
 }
 
