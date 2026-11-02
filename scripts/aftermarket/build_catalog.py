@@ -265,6 +265,12 @@ if APP_OUT:
         name=f"{p.get('product') or ''}"; cat=f"{p.get('category') or ''} {p.get('subcategory') or ''}".lower(); t=(name+' '+cat).lower()
         if not name.strip(): return None  # a listing with no name can't be picked
         if JUNK.search(name) and not re.search(r'clutch basket|oil filter',name,re.I): return None
+        # Researched oils and fluids (category "oils") go where the rider uses them, so "what's in it" sits with the part.
+        if str(p.get('category') or '').lower()=='oils':
+            for rx,s in ((r'fork|shock|suspension|damper|\bSS-?\d|\bKHL|\bS1\b|\bM1\b','suspension'),(r'brake','brakes'),(r'air ?filter|filter oil|foam filter','intake'),
+                         (r'chain','gearing'),(r'clutch','clutch')):
+                if re.search(rx,name+' '+str(p.get('subcategory') or ''),re.I): return s
+            return 'engine'
         if re.search(r'\b(riding gear|helmets|luggage|lights|lighting|batteries|electrical|gauges|tools|utv|farming|winch|garage|security|styling|comfort|decal|fluids|graphics|vehicle communication|gps|bags)\b',cat) and not re.search(r'fuel|ecu|tun',t): return None
         for s,rx in RULES:
             if re.search(rx,name,re.I): return s
@@ -293,7 +299,7 @@ if APP_OUT:
     # A part made for another maker's bikes never shows on this family's bikes. Retailer pages for one bike list other
     # makers' accessories (KTM PowerParts on a Triumph page, a "Yamaha YZ/YZF" hardware kit on a KTM page).
     OEM={'KTM':r'^(?:KTM|KTM PowerParts)\b','Husqvarna':r'^Husqvarna\b','GasGas':r'^Gas ?Gas\b','Yamaha':r'^(?:Yamaha|GYTR)\b',
-         'Honda':r'^(?:Honda|Pro Honda|HRC)\b','Kawasaki':r'^Kawasaki\b','Triumph':r'^Triumph\b'}
+         'Honda':r'^(?:Honda|Pro Honda|HRC)\b','Kawasaki':r'^Kawasaki\b','Triumph':r'^Triumph\b','Suzuki':r'^Suzuki\b'}
     NAMED={'KTM':r'\bKTM\b|PowerParts','Husqvarna':r'\bHusqvarna\b|\bHusky\b','GasGas':r'\bGas ?Gas\b','Yamaha':r'\bYamaha\b|\bGYTR\b|\bYZ ?\d{2,3}',
            'Honda':r'\bHonda\b|\bHRC\b|\bCRF ?\d{3}','Kawasaki':r'\bKawasaki\b|\bKX ?\d{3}','Triumph':r'\bTriumph\b','Suzuki':r'\bSuzuki\b|\bRM-?Z\b',
            'Beta':r'\bBeta\b','Sherco':r'\bSherco\b'}

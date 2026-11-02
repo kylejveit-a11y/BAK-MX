@@ -1,0 +1,6609 @@
+{
+ "slice": "KTM-group suspension sets (WP Pro Components, cartridge/conversion kits, small bikes)",
+ "retrieved": "2026-11-02",
+ "products": [
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "0472C104U203220",
+    "00010000362 (required for MY18-20 install)"
+   ],
+   "variants": [
+    "fork set 85cc 2018-2024 = 0472C104U203220",
+    "install part for 2018-2020 bikes = 00010000362"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD: 'KTM SX 85 2018-2024'; WP press via Cycle Canada: 'KTM 85 SX from 2018'"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD: 'KTM SX 85 2018-2024'; WP press via Cycle Canada: 'KTM 85 SX from 2018'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD: 'TC 85 2018-2024'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD: 'MC 85 2021-2024'"
+    }
+   ],
+   "fitment_source_url": "https://bfdmoto.com/products/wp-xact-pro-7543-spring-fork-85cc-models",
+   "what_it_changes": "WP says the Cone Valve closed-cartridge fork gives smoother, less harsh front-end feel with more damping reserve for big hits, steadier damping and lighter CNC parts; fully externally adjustable.",
+   "supporting_parts": "Ships with 3.2 N/mm springs (BFD); other rates to order. 00010000362 needed on 2018-2020 bikes. Pairs with XACT PRO 8946 shock.",
+   "price": {
+    "amount": 2199.0,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-xact-pro-7543-spring-fork-85cc-models"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Improves existing ss-010 (adds set number and per-model fitment). WP's 2024 press release (Cycle Canada) lists the same set number 0472C104U203220 'from 2018'. A newer set number A410C104Y203220 is sold for 18-26 (see next entry); check which one your dealer supplies.",
+   "is_service": false,
+   "subcategory": "complete fork (85cc, closed cartridge, coil)",
+   "brand": "WP",
+   "product": "XACT PRO 7543 Cone Valve spring fork (85 cc, 2018-2024 set)",
+   "id": "sk-001"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "A410C104Y203220"
+   ],
+   "variants": [
+    "85 SX/TC/MC 2018-2026 = A410C104Y203220"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "AOMC title: '85 SX/TC/MC 18-26'"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "AOMC title: '85 SX/TC/MC 18-26'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "AOMC title"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "AOMC title"
+    }
+   ],
+   "fitment_source_url": "https://aomc.mx/XACT-PRO-7543-spring-fork-A410C104Y203220.html",
+   "what_it_changes": "Same 7543 Cone Valve fork; AOMC lists external adjustment, higher bottoming resistance and friction-optimised parts.",
+   "supporting_parts": "Stock springs 165-187 lb riders; AOMC offers custom WP springs and SAE 4 oil (2-3 days).",
+   "price": {
+    "amount": 2699.99,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://aomc.mx/XACT-PRO-7543-spring-fork-A410C104Y203220.html"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "AOMC's fitment table on the page was empty; fitment comes from the product title only. Likely the current set number for 2025+ chassis, but confirm with an authorised WP centre before ordering.",
+   "is_service": false,
+   "subcategory": "complete fork (85cc, closed cartridge, coil)",
+   "brand": "WP",
+   "product": "XACT PRO 7543 Cone Valve spring fork (85 cc, 18-26 set)",
+   "id": "sk-002"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "0472C404U314220",
+    "0472C404U311220"
+   ],
+   "variants": [
+    "BFD (Canada) = 0472C404U314220",
+    "MSliders (EU) 'KTM/Husqvarna/Gas-Gas 85 21-22' = 0472C404U311220"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD: 'KTM 85 SX 2021-2024'"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD: 'KTM 85 SX 2021-2024'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD: 'MC 85 17/14 / 19/16 2021-2024'"
+    }
+   ],
+   "fitment_source_url": "https://bfdmoto.com/products/xact-pro-8946-shock-absorber-85cc-2021-0472c404u314220",
+   "what_it_changes": "WP Supertrax bypass for faster rebound when the wheel unloads (traction), preload, high/low-speed compression and rebound adjustment, lighter build.",
+   "supporting_parts": "Spring to rider weight (WP 85 shock springs 91010xxx). Pairs with XACT PRO 7543 fork.",
+   "price": {
+    "amount": 1999.0,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/xact-pro-8946-shock-absorber-85cc-2021-0472c404u314220"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Improves existing ss-011 (adds part numbers, fitment). Two dealers show set numbers differing in the last digits (…314220 vs …311220); MSliders lists EUR 1,550 for MY21-22. Confirm with WP centre.",
+   "is_service": false,
+   "subcategory": "shock (85cc, Supertrax)",
+   "brand": "WP",
+   "product": "XACT PRO 8946 Supertrax shock (85 cc, 2021-2024)",
+   "id": "sk-003"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "A410C404Y311220"
+   ],
+   "variants": [
+    "2025+ 85 SX/TC/MC = A410C404Y311220"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD lists 2025; WP press (Cycle Canada) 'from 2025'"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD lists 2025; WP press (Cycle Canada) 'from 2025'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "'from 2025'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "'from 2025'"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclecanadaweb.com/2024/07/29/wp-suspension-introduces-cutting-edge-pro-components-for-2025-85cc-motocross-models",
+   "what_it_changes": "WP: Supertrax rebound bypass for rear traction and comfort, lighter shock; all adjustments external.",
+   "supporting_parts": "Waynesburg Powersports sells it built with a WP spring matched to rider weight (USD 1,749).",
+   "price": {
+    "amount": 2339.99,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-xact-pro-8946-shock-absorber-2025-85-a410c404y311220"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "2026-2027 included because WP says 'from 2025'; no source names those years explicitly.",
+   "is_service": false,
+   "subcategory": "shock (85cc, Supertrax)",
+   "brand": "WP",
+   "product": "XACT PRO 8946 Supertrax shock (85 cc, 2025+ chassis)",
+   "id": "sk-004"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "A410C104Y002220"
+   ],
+   "variants": [
+    "85cc 2018+ = A410C104Y002220"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "BFD table 2018-2025; WP press 'from 2018'"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "BFD table 2018-2025; WP press 'from 2018'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "BFD 2018-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "BFD 2021-2025"
+    }
+   ],
+   "fitment_source_url": "https://bfdmoto.com/products/wp-xact-pro-6500-cartridge-85cc-2018-a410c104y002220",
+   "what_it_changes": "Replaces the stock 85 fork internals with a pressurised closed cartridge; WP says less cavitation and damping loss, adjustable externally with standard tools.",
+   "supporting_parts": "Fork springs ordered separately. Delivery includes cartridge, axle clamp incl. inner tube, spring spacer, tools.",
+   "price": {
+    "amount": 1819.99,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-xact-pro-6500-cartridge-85cc-2018-a410c104y002220"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "New to the dataset (no 85cc 6500 kit existed). Later than 2025 not listed by the dealer.",
+   "is_service": false,
+   "subcategory": "fork cartridge kit (85cc, closed cartridge)",
+   "brand": "WP",
+   "product": "XACT PRO 6500 closed-cartridge kit (85 cc)",
+   "id": "sk-005"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "AP09C103V001220"
+   ],
+   "variants": [
+    "65cc = AP09C103V001220"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "65 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "BFD: 'KTM SX 65 2017-2025'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 65",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "BFD 2017-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 65",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "BFD 2021-2025"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclenews.com/2022/01/article/wp-suspension-xact-pro-7500-cartridges-for-50-65cc-mx-bikes/",
+   "what_it_changes": "WP: Cone Valve for linear damping (firmer without losing comfort), open cartridge for heat dissipation and less friction, fully external adjustment.",
+   "supporting_parts": "BFD says 3.0 N/mm fork spring set included.",
+   "price": {
+    "amount": 699.99,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-xact-pro-7500-cartridge-kit-65cc-models"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Cycle News (WP release) gave 2017-22; Enduro21 2017-2024; BFD 2017-2025. 2026 small bikes got a new fork (Lainer sells a separate 2026 kit), so 2026+ not listed. Enduro21 US list price USD 932.",
+   "is_service": false,
+   "subcategory": "fork cartridge kit (65cc, Cone Valve open cartridge)",
+   "brand": "WP",
+   "product": "XACT PRO 7500 Cone Valve cartridge kit (65 cc)",
+   "id": "sk-006"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "AP08C102V001220"
+   ],
+   "variants": [
+    "50cc = AP08C102V001220"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "50 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD: 'KTM SX 50 2017-2024'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 50",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD 2018-2024"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 50",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD 2021-2024"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclenews.com/2022/01/article/wp-suspension-xact-pro-7500-cartridges-for-50-65cc-mx-bikes/",
+   "what_it_changes": "Same Cone Valve open-cartridge concept as the 65 kit, sized for 50cc forks.",
+   "supporting_parts": "BFD says 2.0 N/mm fork spring set included. Also fits SX-E 5 / EE 5 / MC-E 5 electric minis (not app models).",
+   "price": {
+    "amount": 1299.99,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-xact-pro-7500-cartridge-kit-50cc-models"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Enduro21 US list price USD 932 (shared with the 65 kit). 2025+ not listed.",
+   "is_service": false,
+   "subcategory": "fork cartridge kit (50cc, Cone Valve open cartridge)",
+   "brand": "WP",
+   "product": "XACT PRO 7500 Cone Valve cartridge kit (50 cc)",
+   "id": "sk-007"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "A405C403X111220"
+   ],
+   "variants": [
+    "65cc (BFD '2024') = A405C403X111220"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "65 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Enduro21: 'KTM 65 SX MY2017-MY2024'; BFD lists 2024"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 65",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Enduro21 MY2017-2024"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 65",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Enduro21 MY2020-2024"
+    }
+   ],
+   "fitment_source_url": "https://enduro21.com/en/products-reviews/latest/quick-look-latest-gen-wp-pro-components-suspension-for-50cc-and-65cc-off-road-bikes",
+   "what_it_changes": "WP: preload, high/low-speed compression and rebound adjustment plus Supertrax for traction and stability; lighter, friction-optimised.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 2209.99,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-xact-pro-8936-shock-absorber-65cc-2024"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "BFD lists the part number only for 2024 bikes; Enduro21 says the 8936 fits 2017-2024 but gives no part number, so earlier years may use a different set number. Enduro21 list price USD 1,427.",
+   "is_service": false,
+   "subcategory": "shock (65cc, Supertrax)",
+   "brand": "WP",
+   "product": "XACT PRO 8936 Supertrax shock (65 cc)",
+   "id": "sk-008"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "A400C402X113220"
+   ],
+   "variants": [
+    "50cc 2017-2024 = A400C402X113220"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "50 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD: 'KTM 50SX 2013-2024'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 50",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD 2017-2024"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 50",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD 2021-2024"
+    }
+   ],
+   "fitment_source_url": "https://bfdmoto.com/products/wp-xact-pro-6736-shock-absorber-50cc",
+   "what_it_changes": "WP: externally adjustable preload, high/low-speed compression and rebound; aimed at grip and traction for 50cc riders.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 1494.99,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-xact-pro-6736-shock-absorber-50cc"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Enduro21 list price USD 987. 2025+ 50cc not listed. Also listed for 50 SX Mini / TC 50 Mini (not app models).",
+   "is_service": false,
+   "subcategory": "shock (50cc)",
+   "brand": "WP",
+   "product": "XACT PRO 6736 shock (50 cc)",
+   "id": "sk-009"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "A360C109W403220"
+   ],
+   "variants": [
+    "Husqvarna FC 2023+ (940 mm long, 299 mm stroke) = A360C109W403220"
+   ],
+   "fits": [
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD: 'FC 250 2023+'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD: 'FC 350 2023+'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD: 'FC 450 2023+'"
+    }
+   ],
+   "fitment_source_url": "https://bfdmoto.com/products/wp-xact-pro-7548-spring-fork-a360c109w403220",
+   "what_it_changes": "WP Cone Valve + closed cartridge spring fork; WP claims more comfort, higher bottoming resistance and better response; all external adjusters.",
+   "supporting_parts": "Delivered with FC 450 base setting and 5.0 N/mm springs; XACT PRO 485 mm springs 91410112-91410146 for other rates. Pairs with XACT PRO 8950 shock A360C409W411220.",
+   "price": {
+    "amount": 4679.99,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-xact-pro-7548-spring-fork-a360c109w403220"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [
+    "MXA (2019 FC450 test of XACT Pro Cone Valve fork): 'consistent and supple feel', but 'adds 3 pounds to the front end'"
+   ],
+   "caveats": "Adds the part number missing from ss-004/ss2-030. Husqvarna-length fork (10 mm shorter than KTM). '2023+' expanded to app years 2023-2027; confirm for 2025+ chassis.",
+   "is_service": false,
+   "subcategory": "complete fork (Cone Valve, closed cartridge, coil)",
+   "brand": "WP",
+   "product": "XACT PRO 7548 Cone Valve spring fork - Husqvarna FC 2023+",
+   "id": "sk-010"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "A460C109W403220"
+   ],
+   "variants": [
+    "KTM-height 4-stroke 2023+ (950 mm long, 309 mm stroke) = A460C109W403220"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD: '250 SX-F 2023+'"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD"
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD: 'FX 350 2023+'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2022,
+      2023
+     ],
+     "notes": "BFD: 'FC 450 Rockstar Edition 2022-2023' only"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2022
+     ],
+     "notes": "BFD: 'FC 250 Rockstar Edition 2022' only"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2024
+     ],
+     "notes": "BFD: 'MC 250F 2024'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2024
+     ],
+     "notes": "BFD"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2024
+     ],
+     "notes": "BFD"
+    }
+   ],
+   "fitment_source_url": "https://bfdmoto.com/products/wp-xact-pro-7548-spring-fork-fx-2022-a460c109w403220",
+   "what_it_changes": "Same 7548 Cone Valve fork in KTM height; delivered with 450 SX-F base setting and 5.0 N/mm springs.",
+   "supporting_parts": "Pairs with XACT PRO 8950 shock A460C409W411220. Optional WP factory start device 48601164 (Cone Valve 48 mm).",
+   "price": {
+    "amount": 4679.99,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-xact-pro-7548-spring-fork-fx-2022-a460c109w403220"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [
+    "MXA (2019 test): fork 'consistent and supple'; tester noticed the extra weight"
+   ],
+   "caveats": "FC 250/450 entries apply only to the Rockstar Edition (the 2022 Rockstar used the new chassis). GasGas listed only for 2024. Adds part number missing from ss-004.",
+   "is_service": false,
+   "subcategory": "complete fork (Cone Valve, closed cartridge, coil)",
+   "brand": "WP",
+   "product": "XACT PRO 7548 Cone Valve spring fork - KTM SX-F/XC-F, Husqvarna FX, GasGas MC-F 2023+",
+   "id": "sk-011"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "A460C101W403220"
+   ],
+   "variants": [
+    "AOMC title '250-450 SX-F/XC-F/FX 16-26' = A460C101W403220"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "AOMC title only"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "AOMC title only"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "AOMC title only"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "AOMC title only"
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "AOMC title only"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "AOMC title only"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "AOMC title only"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "AOMC title only"
+    }
+   ],
+   "fitment_source_url": "https://aomc.mx/XACT-PRO-7548-Spring-fork-A460C101W403220.html",
+   "what_it_changes": "WP Cone Valve closed-cartridge coil fork (see other 7548 entries).",
+   "supporting_parts": "",
+   "price": null,
+   "confidence": "unverified",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Seen only as a search-result title; the AOMC page is behind a bot check and could not be opened. '16-26' spans two chassis generations, so this number probably covers one of them only. Do not rely on fitment until confirmed.",
+   "is_service": false,
+   "subcategory": "complete fork (Cone Valve, closed cartridge, coil)",
+   "brand": "WP",
+   "product": "XACT PRO 7548 Cone Valve spring fork (AOMC listing A460C101W403220)",
+   "id": "sk-012"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "A460C409W411220"
+   ],
+   "variants": [
+    "KTM-height 4-stroke 2023+ with 45 N/mm spring (stroke 139.3 mm) = A460C409W411220"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "BFD + MSliders: 2023-2024"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "BFD + MSliders"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "BFD + MSliders"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "BFD"
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "BFD"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "BFD"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "BFD"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "BFD"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2022
+     ],
+     "notes": "BFD: 'FC 250 Rockstar Edition 2022'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2022,
+      2023
+     ],
+     "notes": "BFD: 'FC 450 Rockstar Edition 2022/2023'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2023
+     ],
+     "notes": "BFD: 'MC 250F Factory Edition 2023'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2023
+     ],
+     "notes": "BFD: 'MC 450F Factory Edition 2023'"
+    }
+   ],
+   "fitment_source_url": "https://bfdmoto.com/products/wp-xact-pro-8950-shock-absorber-mc-sx-sxf-tx-fx",
+   "what_it_changes": "WP: Supertrax rebound bypass and linked damping for traction and less rider fatigue; TXN rebound adjuster; high/low-speed compression.",
+   "supporting_parts": "Ships with 45 N/mm spring (450 base setting); MSliders builds with a rider-weight spring. Pairs with 7548 fork A460C109W403220.",
+   "price": {
+    "amount": 3199.99,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-xact-pro-8950-shock-absorber-mc-sx-sxf-tx-fx"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [
+    "MXA (2019 test of Super Trax shock): straight-line stability 'rock solid'"
+   ],
+   "caveats": "Adds part number missing from ss-005/ss2-030. MSliders lists EUR 2,000 for KTM SX-F 2023-2024. GasGas entries only for 2023 Factory Editions.",
+   "is_service": false,
+   "subcategory": "shock (Supertrax, linkage)",
+   "brand": "WP",
+   "product": "XACT PRO 8950 Supertrax shock 45 N - KTM SX-F/XC-F, Husqvarna FX, GasGas MC-F 2023+",
+   "id": "sk-013"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "A360C409W411220"
+   ],
+   "variants": [
+    "Husqvarna FC 2023-2024, 45 N/mm, stroke 134.9 mm = A360C409W411220"
+   ],
+   "fits": [
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "BFD: 'FC 250 2023, 2024'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "BFD"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "BFD"
+    }
+   ],
+   "fitment_source_url": "https://bfdmoto.com/products/wp-xact-pro-8950-shock-absorber-fc-250-350-450-2023",
+   "what_it_changes": "Husqvarna-height version of the 8950 Supertrax shock (shorter stroke).",
+   "supporting_parts": "Pairs with 7548 fork A360C109W403220.",
+   "price": {
+    "amount": 3199.99,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-xact-pro-8950-shock-absorber-fc-250-350-450-2023"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "2025+ FC not listed by the dealer.",
+   "is_service": false,
+   "subcategory": "shock (Supertrax, linkage)",
+   "brand": "WP",
+   "product": "XACT PRO 8950 Supertrax shock - Husqvarna FC 2023-2024",
+   "id": "sk-014"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "A360C401W411220"
+   ],
+   "variants": [
+    "Husqvarna TC 2023+, 39 N/mm, stroke 134.9 mm = A360C401W411220"
+   ],
+   "fits": [
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "BFD: 'TC 125 2023+'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "BFD: 'TC 250 2023+'"
+    }
+   ],
+   "fitment_source_url": "https://bfdmoto.com/products/wp-xact-pro-8950-39n-shock-absorber-tc-2023",
+   "what_it_changes": "Two-stroke Husqvarna 8950 shock delivered with TC 125 base setting and 39 N/mm spring.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 3199.99,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-xact-pro-8950-39n-shock-absorber-tc-2023"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "'2023+' expanded to app years; confirm for 2025+.",
+   "is_service": false,
+   "subcategory": "shock (Supertrax, linkage)",
+   "brand": "WP",
+   "product": "XACT PRO 8950 Supertrax shock 39 N - Husqvarna TC 125/250 2023+",
+   "id": "sk-015"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "A460C401W411220"
+   ],
+   "variants": [
+    "KTM-height 2-stroke = A460C401W411220"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "BFD: 2023, 2024"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "BFD"
+    },
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "BFD"
+    },
+    {
+     "make": "KTM",
+     "model": "125 XC",
+     "years": [
+      2023
+     ],
+     "notes": "BFD: 2023"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2023
+     ],
+     "notes": "BFD: 2023"
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2023
+     ],
+     "notes": "BFD: 2023"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2024
+     ],
+     "notes": "BFD: 2024"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2024
+     ],
+     "notes": "BFD: 2024"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX 300",
+     "years": [
+      2024
+     ],
+     "notes": "BFD: 'TX 300 2024'"
+    }
+   ],
+   "fitment_source_url": "https://bfdmoto.com/products/wp-xact-pro-8950-shock-absorber-23",
+   "what_it_changes": "Two-stroke KTM-height 8950 Supertrax shock.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 3199.99,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-xact-pro-8950-shock-absorber-23"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Adds part number missing from ss-005.",
+   "is_service": false,
+   "subcategory": "shock (Supertrax, linkage)",
+   "brand": "WP",
+   "product": "XACT PRO 8950 Supertrax shock - KTM SX/XC two-stroke, GasGas MC 2T, Husqvarna TX 300",
+   "id": "sk-016"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "18150U07SET"
+   ],
+   "variants": [
+    "Husqvarna -10 mm travel version = 18150U07SET (BFD)",
+    "KTM / GasGas standard-height version = part number not shown"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Waynesburg: '19-22 ... KTM' SX/XC"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Waynesburg"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Waynesburg"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Waynesburg"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Waynesburg"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Waynesburg"
+    },
+    {
+     "make": "KTM",
+     "model": "125 XC",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Waynesburg SX and XC"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Waynesburg"
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Waynesburg"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Waynesburg"
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Waynesburg"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Waynesburg"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "18150U07SET; Waynesburg: 21-22 Husqvarna 10 mm shorter"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "18150U07SET"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "18150U07SET"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "18150U07SET"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "18150U07SET"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Waynesburg: '21-23 GasGas'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Waynesburg"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2022,
+      2023
+     ],
+     "notes": "Waynesburg"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Waynesburg"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2022,
+      2023
+     ],
+     "notes": "Waynesburg"
+    }
+   ],
+   "fitment_source_url": "https://reach.dog/shop/waynesburg-powersports/products/wp-xact-pro-8950-shock-19-22",
+   "what_it_changes": "Earlier-generation 8950 with Supertrax (high/low-speed rebound), linked damping, TXN adjuster and bladder reservoir.",
+   "supporting_parts": "Waynesburg ships it with a rider-weight WP spring.",
+   "price": {
+    "amount": 1599.0,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://reach.dog/shop/waynesburg-powersports/products/wp-xact-pro-8950-shock-19-22"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "BFD titles 18150U07SET '2019-2023' but the 2023 Husqvarna uses the new chassis; 2023 omitted for Husqvarna. KTM-height part number not found. Waynesburg note: 21-22 Husqvarna settings are 10 mm shorter.",
+   "is_service": false,
+   "subcategory": "shock (Supertrax, linkage)",
+   "brand": "WP",
+   "product": "XACT PRO 8950 Supertrax shock (2019-2022 chassis; Husqvarna -10 mm version 18150U07SET)",
+   "id": "sk-017"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "0791L101U400220"
+   ],
+   "variants": [
+    "KTM/GasGas/TX/FX = 0791L101U400220"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD title '2021+'"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "BFD title '2021+'"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "BFD title '2021+'"
+    },
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "BFD title '2021+'"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD title '2021+'"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD title '2021+'"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD title '2021+'"
+    },
+    {
+     "make": "KTM",
+     "model": "125 XC",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD title '2021+'"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD title '2021+'"
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD title '2021+'"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD title '2021+'"
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD title '2021+'"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD title '2021+'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "BFD title '2021+' (MC tags)"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "BFD title '2021+' (MC tags)"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD title '2021+' (MC tags)"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "BFD title '2021+' (MC tags)"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD title '2021+' (MC tags)"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX 300",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD: 'fits the 2021-2022 TX/FX'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD"
+    }
+   ],
+   "fitment_source_url": "https://bfdmoto.com/products/wp-2021-aer-single-spring-conversion-ktm-gasgas",
+   "what_it_changes": "WP's own retrofit: replaces the AER 48 air cartridge in the air leg with a coil-spring cartridge; damping side unchanged.",
+   "supporting_parts": "Spring sold separately: WP L=740 single-leg springs 91410124-91410131 (8.4-11.2 N/mm).",
+   "price": {
+    "amount": 319.99,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-2021-aer-single-spring-conversion-ktm-gasgas"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "'2021+' expanded to app years; WP has not been checked for 2025+ fork compatibility. Existing files list third-party AER conversions but not this WP kit.",
+   "is_service": false,
+   "subcategory": "fork conversion kit (air to coil, single leg)",
+   "brand": "WP",
+   "product": "WP AER 48 single-spring conversion kit - KTM / GasGas / Husqvarna TX-FX",
+   "id": "sk-018"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "0251L101U400220"
+   ],
+   "variants": [
+    "Husqvarna TC/FC = 0251L101U400220"
+   ],
+   "fits": [
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "BFD title '2021+'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "BFD title '2021+'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD title '2021+'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD title '2021+'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD title '2021+'"
+    }
+   ],
+   "fitment_source_url": "https://bfdmoto.com/products/wp-2021-aer-single-spring-conversion-husqvarna",
+   "what_it_changes": "Husqvarna-length version of WP's air-to-coil single-leg kit.",
+   "supporting_parts": "Spring sold separately (WP L=740 single-leg springs).",
+   "price": {
+    "amount": 319.99,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-2021-aer-single-spring-conversion-husqvarna"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "'2021+' expanded to app years; confirm for 2023+ Husqvarna chassis.",
+   "is_service": false,
+   "subcategory": "fork conversion kit (air to coil, single leg)",
+   "brand": "WP",
+   "product": "WP AER 48 single-spring conversion kit - Husqvarna TC / FC",
+   "id": "sk-019"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "91410124",
+    "91410125",
+    "91410126",
+    "91410127",
+    "91410128",
+    "91410129",
+    "91410130",
+    "91410131"
+   ],
+   "variants": [
+    "8.4 N/mm = 91410124",
+    "8.8 = 91410125",
+    "9.2 = 91410126",
+    "9.6 = 91410127",
+    "10.0 = 91410128",
+    "10.4 = 91410129",
+    "10.8 = 91410130",
+    "11.2 = 91410131"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "for 2021+ WP single-leg kits"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "for 2021+ WP single-leg kits"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "for 2021+ WP single-leg kits"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "for 2021+ WP single-leg kits"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "for 2021+ WP single-leg kits"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "for 2021+ WP single-leg kits"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "for 2021+ WP single-leg kits"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "for 2021+ WP single-leg kits"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "for 2021+ WP single-leg kits"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "for 2021+ WP single-leg kits"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "for 2021+ WP single-leg kits"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "for 2021+ WP single-leg kits"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "for 2021+ WP single-leg kits"
+    }
+   ],
+   "fitment_source_url": "https://bfdmoto.com/products/wp-fork-springs-l-740",
+   "what_it_changes": "Single heavy spring used in the converted air leg; sold one per box.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 215.94,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-fork-springs-l-740"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Only useful with the WP single-leg conversion kit; model list follows that kit.",
+   "is_service": false,
+   "subcategory": "fork spring (single-leg conversion)",
+   "brand": "WP",
+   "product": "WP fork springs L=740 for 2021+ single-leg conversion kits",
+   "id": "sk-020"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "91410112",
+    "91410113",
+    "91410114",
+    "91410115",
+    "91410116",
+    "91410117",
+    "91410118",
+    "91410119",
+    "91410146"
+   ],
+   "variants": [
+    "3.8 N/mm = 91410112",
+    "4.0 = 91410113",
+    "4.2 = 91410114",
+    "4.4 = 91410115",
+    "4.6 = 91410116",
+    "4.8 = 91410117",
+    "5.0 = 91410118",
+    "5.2 = 91410119",
+    "5.4 = 91410146"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD fitment list 2021-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD fitment list 2021-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "125 XC",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD fitment list 2021-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD fitment list 2021-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD fitment list 2021-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD fitment list 2021-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD fitment list 2021-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD fitment list 2021-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD fitment list 2021-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD fitment list 2021-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD fitment list 2021-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD fitment list 2021-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD 2021-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD 2021-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD 2021-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD 2021-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD 2021-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD 2021-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD 2021-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX 300",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "BFD 2021-2022"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "BFD 2021-2023"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2022,
+      2023
+     ],
+     "notes": "BFD 2021-2023"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2022,
+      2023
+     ],
+     "notes": "BFD 2021-2023"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "BFD 2021-2023"
+    }
+   ],
+   "fitment_source_url": "https://bfdmoto.com/products/wp-xact-pro-cone-valve-fork-springs",
+   "what_it_changes": "Alternative spring rates for WP XACT Pro / Cone Valve coil forks to match rider weight.",
+   "supporting_parts": "Used in XACT PRO 6500 cartridge kits and 7548 Cone Valve forks.",
+   "price": {
+    "amount": 207.99,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-xact-pro-cone-valve-fork-springs"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "The fitment list is for bikes fitted with the 6500 cartridge or Cone Valve fork, not stock air forks. 2023+ not listed though 7548 forks for 2023+ also use 485 mm springs per WP setting sheets (not verified).",
+   "is_service": false,
+   "subcategory": "fork spring (Cone Valve / XACT Pro)",
+   "brand": "WP",
+   "product": "WP XACT Pro / Cone Valve 485 mm fork springs",
+   "id": "sk-021"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "95010056S",
+    "95010044S",
+    "95010057S",
+    "S80990000900000",
+    "95010049S"
+   ],
+   "variants": [
+    "2.6 N/mm = 95010056S",
+    "2.8 = 95010044S",
+    "3.0 = 95010057S",
+    "3.2 = S80990000900000",
+    "4.4 = 95010049S"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "65 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "BFD title 'TC/SX 65 2020+'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 65",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "BFD title"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 65",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "not named; same WP fork"
+    }
+   ],
+   "fitment_source_url": "https://bfdmoto.com/products/wp-fork-spring-set",
+   "what_it_changes": "OEM WP alternative spring rates for the 65cc fork.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 200.19,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-fork-spring-set"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "GasGas MC 65 not named by the dealer (same fork as SX/TC). '2020+' limited to 2025 because the 2026 65cc fork changed.",
+   "is_service": false,
+   "subcategory": "fork spring set (65cc)",
+   "brand": "WP",
+   "product": "WP fork spring set TC/SX 65 2020+",
+   "id": "sk-022"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "91010271S",
+    "91010240S",
+    "91010161S",
+    "91010201",
+    "91010080",
+    "91010170S"
+   ],
+   "variants": [
+    "30 N/mm = 91010271S",
+    "35 = 91010240S",
+    "40 = 91010161S",
+    "45 = 91010201",
+    "50 = 91010080",
+    "55 = 91010170S"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD: '85 SX 17/14 2018+', '19/16 2018+'"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD: '85 SX 17/14 2018+', '19/16 2018+'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD: 'TC 85 2017+'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "BFD: 'MC 85 2021+'"
+    }
+   ],
+   "fitment_source_url": "https://bfdmoto.com/products/wp-shock-absorber-spring-85-2017",
+   "what_it_changes": "OEM WP shock springs to match rider weight on the 85 PDS / 8946 shock.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 200.19,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-shock-absorber-spring-85-2017"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "'+' years expanded to app years; 2025+ chassis spring length not confirmed.",
+   "is_service": false,
+   "subcategory": "shock spring (85cc)",
+   "brand": "WP",
+   "product": "WP shock spring 85 cc 2017+",
+   "id": "sk-023"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "93010227",
+    "93010218S",
+    "93010217S",
+    "93010219S"
+   ],
+   "variants": [
+    "25 N/mm = 93010227",
+    "30 = 93010218S",
+    "35 = 93010217S",
+    "40 = 93010219S"
+   ],
+   "fits": [
+    {
+     "make": "Husqvarna",
+     "model": "TC 50",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "BFD: 'TC 50 2017-2023'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 50",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "BFD: 'MC 50 2021-2023'"
+    },
+    {
+     "make": "KTM",
+     "model": "50 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "BFD title '50cc (2017-23)'; KTM listed only as SX-E 5"
+    }
+   ],
+   "fitment_source_url": "https://bfdmoto.com/products/wp-shock-spring-absorber-130mm-50cc-2017-23",
+   "what_it_changes": "OEM WP alternative shock spring rates for 50cc minis.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 200.19,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-shock-spring-absorber-130mm-50cc-2017-23"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Dealer fitment names KTM SX-E 5 rather than 50 SX; 50 SX inferred from the title '50cc'.",
+   "is_service": false,
+   "subcategory": "shock spring (50cc)",
+   "brand": "WP",
+   "product": "WP shock spring 130 mm (50 cc)",
+   "id": "sk-024"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "S998020012S0000"
+   ],
+   "variants": [
+    "85cc 7543 fork = S998020012S0000"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD 2021-2024"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD 2021-2024"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD"
+    }
+   ],
+   "fitment_source_url": "https://bfdmoto.com/products/wp-factory-start-device-xact-pro-7543-tc-mc-sx-85-s998020012s0000",
+   "what_it_changes": "Clamps on the fork to hold it compressed for the start, cutting front-wheel lift.",
+   "supporting_parts": "Listed for bikes with the XACT PRO 7543 fork.",
+   "price": {
+    "amount": 163.79,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/wp-factory-start-device-xact-pro-7543-tc-mc-sx-85-s998020012s0000"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Dealer text is ambiguous whether it needs the 7543 fork or fits stock 85 forks.",
+   "is_service": false,
+   "subcategory": "holeshot device (85cc fork)",
+   "brand": "WP",
+   "product": "WP factory start device for XACT PRO 7543 (85 cc)",
+   "id": "sk-025"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "FCX 0101",
+    "08789-xx (springs)",
+    "01330-xx (oil)"
+   ],
+   "variants": [
+    "kit (pair) = FCX 0101",
+    "fork springs series = 08789-xx"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Öhlins: 'KTM 85 SX 2018-2025'"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Öhlins: 'KTM 85 SX 2018-2025'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Öhlins 2018-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Öhlins 2021-2025"
+    }
+   ],
+   "fitment_source_url": "https://www.ohlins.eu/en/products/motorcycle/fcx-0101--7278/",
+   "what_it_changes": "Replaces the 85's stock fork internals with Öhlins STX 22 cartridges (272 mm stroke); sold as a pair.",
+   "supporting_parts": "Springs (08789 series) and oil ordered separately; Öhlins advises service-centre install.",
+   "price": {
+    "amount": 1597.15,
+    "currency": "EUR",
+    "as_of": "2026-11-02",
+    "url": "https://www.ohlins.eu/en/products/motorcycle/fcx-0101--7278/"
+   },
+   "confidence": "high",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Price is Öhlins EU incl. Belgian VAT.",
+   "is_service": false,
+   "subcategory": "fork cartridge kit (85cc, STX 22)",
+   "brand": "Öhlins",
+   "product": "STX 22 cartridge kit MX FCX 0101 (85 cc)",
+   "id": "sk-026"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "DMX 0106",
+    "00698-series spring"
+   ],
+   "variants": [
+    "shock = DMX 0106 (392 mm, 92 mm stroke)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2025
+     ],
+     "notes": "Öhlins: 'KTM 85 SX (2025)'"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2025
+     ],
+     "notes": "Öhlins: 'KTM 85 SX (2025)'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2025
+     ],
+     "notes": "Öhlins"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2025
+     ],
+     "notes": "Öhlins"
+    }
+   ],
+   "fitment_source_url": "https://www.ohlins.eu/en/products/motorcycle/dmx-0106--7672/",
+   "what_it_changes": "Öhlins STX 46 replacement shock for the new-generation 85 chassis.",
+   "supporting_parts": "Delivered without spring; order 00698-series spring for rider weight.",
+   "price": {
+    "amount": 1518.6,
+    "currency": "EUR",
+    "as_of": "2026-11-02",
+    "url": "https://www.ohlins.eu/en/products/motorcycle/dmx-0106--7672/"
+   },
+   "confidence": "high",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Only MY2025 listed; 2026-2027 not confirmed.",
+   "is_service": false,
+   "subcategory": "shock (85cc, STX 46)",
+   "brand": "Öhlins",
+   "product": "STX 46 MX shock DMX 0106 (85 cc, 2025)",
+   "id": "sk-027"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "DMX 0101"
+   ],
+   "variants": [
+    "shock = DMX 0101"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Triple Clamp: 'KTM 85 SX 14\"/17\" and 16\"/19\" 2018-2022'"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Triple Clamp: 'KTM 85 SX 14\"/17\" and 16\"/19\" 2018-2022'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "2018-2022"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "2021-2022"
+    }
+   ],
+   "fitment_source_url": "https://tripleclampmoto.ca/products/ohlins-off-road-s46-shock-dmx-0101",
+   "what_it_changes": "Öhlins 85cc shock; for KTM-group 85s it includes a Position Damping System (PDS) per the dealer.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 1879.14,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://tripleclampmoto.ca/products/ohlins-off-road-s46-shock-dmx-0101"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "2023-2024 not listed by this dealer; check Öhlins for a successor part.",
+   "is_service": false,
+   "subcategory": "shock (85cc, S46 with PDS)",
+   "brand": "Öhlins",
+   "product": "S46 / STX 46 shock DMX 0101 (85 cc, 2018-2022)",
+   "id": "sk-028"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "DMX 0201",
+    "06310-series spring",
+    "15000-02 preload adjuster (optional)"
+   ],
+   "variants": [
+    "shock 477 mm / 142 mm stroke = DMX 0201 (replaces KT 2192)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "dealer: 2016-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "125 XC",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "2021-2023"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2022,
+      2023
+     ],
+     "notes": "2022-2023"
+    }
+   ],
+   "fitment_source_url": "https://tripleclampmoto.ca/products/ohlins-off-road-ttx-flow-dv-shock-dmx-0201",
+   "what_it_changes": "Öhlins TTX twin-tube shock with Flow valve, 16 mm shaft and high-speed compression adjuster.",
+   "supporting_parts": "Spring (06310 series) separate; preload adjuster 15000-02 fits.",
+   "price": {
+    "amount": 2368.42,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://tripleclampmoto.ca/products/ohlins-off-road-ttx-flow-dv-shock-dmx-0201"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "GasGas 2023 MC (old chassis) included; KTM 2023+ uses DMX 0213.",
+   "is_service": false,
+   "subcategory": "shock (TTX Flow DV, linkage)",
+   "brand": "Öhlins",
+   "product": "TTX Flow DV shock DMX 0201 (two-strokes 2016-2023)",
+   "id": "sk-029"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "DMX 0202"
+   ],
+   "variants": [
+    "shock = DMX 0202"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "dealer 2016-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX 300",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2022
+     ],
+     "notes": "dealer: 2022"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2022
+     ],
+     "notes": "dealer: 2022"
+    }
+   ],
+   "fitment_source_url": "https://tripleclampmoto.ca/products/ohlins-off-road-ttx-flow-dv-shock-dmx-0202",
+   "what_it_changes": "Öhlins TTX Flow DV shock for the 2016-2022 chassis.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 2041.91,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://tripleclampmoto.ca/products/ohlins-off-road-ttx-flow-dv-shock-dmx-0202"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Dealer lists FX 450 under this shock and also under DMX 0203; confirm with Öhlins.",
+   "is_service": false,
+   "subcategory": "shock (TTX Flow DV, linkage)",
+   "brand": "Öhlins",
+   "product": "TTX Flow DV shock DMX 0202 (250/350 four-strokes 2016-2022)",
+   "id": "sk-030"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "DMX 0203"
+   ],
+   "variants": [
+    "shock = DMX 0203 (replaced by DMX 0215 for 2023)"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "dealer 2016-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "2021-2022"
+    }
+   ],
+   "fitment_source_url": "https://tripleclampmoto.ca/products/ohlins-off-road-ttx-flow-dv-shock-dmx-0203",
+   "what_it_changes": "Öhlins TTX Flow DV shock for 450s on the 2016-2022 chassis.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 2041.91,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://tripleclampmoto.ca/products/ohlins-off-road-ttx-flow-dv-shock-dmx-0203"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "DMX 0215 (already in ss-064) replaces it for 2023.",
+   "is_service": false,
+   "subcategory": "shock (TTX Flow DV, linkage)",
+   "brand": "Öhlins",
+   "product": "TTX Flow DV shock DMX 0203 (450 four-strokes 2016-2022)",
+   "id": "sk-031"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "DMX 0213",
+    "DMX 0213-3 (Brook listing)"
+   ],
+   "variants": [
+    "shock 457 mm, type T46PR1C2W = DMX 0213"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Brook: 'KTM SX 250 23-25'"
+    },
+    {
+     "make": "KTM",
+     "model": "125 XC",
+     "years": [
+      2023
+     ],
+     "notes": "Öhlins USA page title '2023 KTM 125 XC'"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Teknik: 'KTM 250 XC 2023 2024 2025'"
+    }
+   ],
+   "fitment_source_url": "https://www.brooksuspension.co.uk/motorcycle-shock-absorbers/ktm-sx-250-ohlins-dmx-0213-ttx-flow-dv-shock-absorber-23-25",
+   "what_it_changes": "Öhlins TTX twin-tube shock with high/low-speed compression and rebound adjusters for the 2023+ two-stroke chassis.",
+   "supporting_parts": "Delivered without spring.",
+   "price": {
+    "amount": 1469.0,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://ohlinsusa.com/parts/2023-ktm-125-xc-off-road-ttx-flow-dv-shock-dmx-0213"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Öhlins' application page names KTM 125/150/250 SX, Husqvarna TC 125 and GasGas MC 125 for the T46PR1C2W shock but no years; only the listed models/years are recorded here. Brook price GBP 1,372.82.",
+   "is_service": false,
+   "subcategory": "shock (TTX Flow DV, linkage)",
+   "brand": "Öhlins",
+   "product": "TTX Flow DV shock DMX 0213 (two-strokes 2023-2025)",
+   "id": "sk-032"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "FCX 1204",
+    "08765-xx (springs)",
+    "01330-xx (oil)"
+   ],
+   "variants": [
+    "kit (pair), 950 mm, 302 mm stroke = FCX 1204"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Öhlins 2021-2024"
+    },
+    {
+     "make": "KTM",
+     "model": "125 XC",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Öhlins 2021-2024"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Öhlins 2021-2024"
+    },
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Öhlins 2023-2024"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Öhlins 2021-2023"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Öhlins 2021-2024"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Öhlins 2021-2024"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "'250 XC TPI'"
+    },
+    {
+     "make": "KTM",
+     "model": "300 XC",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "'300 XC TPI'"
+    },
+    {
+     "make": "KTM",
+     "model": "250 XC-F",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "350 XC-F",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "450 XC-F",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 350",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FX 450",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TX 300",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "'TX 300i'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Öhlins 2021-2024"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.ohlins.eu/en/products/motorcycle/fcx-1204--7390/",
+   "what_it_changes": "Öhlins TTX22 pressurised cartridges replace the WP AER internals, converting to coil springs with external compression/rebound adjusters.",
+   "supporting_parts": "Springs (08765 series) and oil (01330) separate.",
+   "price": {
+    "amount": 1669.36,
+    "currency": "EUR",
+    "as_of": "2026-11-02",
+    "url": "https://www.ohlins.eu/en/products/motorcycle/fcx-1204--7390/"
+   },
+   "confidence": "high",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Improves existing ss2-036 (which stops at 2023): Öhlins now lists 2024 for 125/250/300 SX, 350/450 SX-F and GasGas MC. Husqvarna TC/FC are NOT on the list (different fork length). EX models omitted (not in app).",
+   "is_service": false,
+   "subcategory": "fork cartridge kit (closed cartridge, coil; replaces AER internals)",
+   "brand": "Öhlins",
+   "product": "TTX 22 cartridge kit FCX 1204 - updated fitment incl. 2024",
+   "id": "sk-033"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "162017001301"
+   ],
+   "variants": [
+    "2016-2022 chassis = 162017001301"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "MSliders 2016-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "MSliders 2016-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "MSliders 2016-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "MSliders 2016-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "MSliders 2016-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "MSliders 2016-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "MSliders 2016-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "MSliders 2016-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "MSliders 2016-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "MSliders 2016-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "MSliders 2016-2022"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "MSliders"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "MSliders"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "MSliders"
+    }
+   ],
+   "fitment_source_url": "https://msliders.com/products/kyb-factory-kit-shock-absorber-ktm-husqvarna-16-22-gasgas-21-22",
+   "what_it_changes": "KYB kit shock with DLC shaft, friction-optimised internals, 3-way compression and rebound adjusters; built and valved to order.",
+   "supporting_parts": "Includes an Xtrig preload adjuster. Seller needs rider weight, speed and preferred feel.",
+   "price": {
+    "amount": 1800.0,
+    "currency": "EUR",
+    "as_of": "2026-11-02",
+    "url": "https://msliders.com/products/kyb-factory-kit-shock-absorber-ktm-husqvarna-16-22-gasgas-21-22"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Sold in the US through Technical Touch USA (KYB kit supplier per MXA).",
+   "is_service": false,
+   "subcategory": "shock (KYB factory kit, A-kit style)",
+   "brand": "KYB",
+   "product": "KYB Factory Kit shock - KTM/Husqvarna 2016-2022, GasGas 2021-2022",
+   "id": "sk-034"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "162023001301"
+   ],
+   "variants": [
+    "2023-2024 chassis = 162023001301"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "MSliders 2023-2024"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "MSliders 2023-2024"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "MSliders 2023-2024"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "MSliders 2023-2024"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "MSliders 2023-2024"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "MSliders 2023-2024"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "MSliders 2023-2024"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "MSliders 2023-2024"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "MSliders 2023-2024"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "MSliders 2023-2024"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "MSliders 2023-2024"
+    }
+   ],
+   "fitment_source_url": "https://msliders.com/products/kyb-factory-kit-shock-absorber-ktm-husqvarna-2023-2024",
+   "what_it_changes": "Same KYB factory kit shock for the 2023+ KTM-group chassis.",
+   "supporting_parts": "Includes Xtrig preload adjuster.",
+   "price": {
+    "amount": 2100.0,
+    "currency": "EUR",
+    "as_of": "2026-11-02",
+    "url": "https://msliders.com/products/kyb-factory-kit-shock-absorber-ktm-husqvarna-2023-2024"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "GasGas 2024 not named. 2025+ not listed.",
+   "is_service": false,
+   "subcategory": "shock (KYB factory kit, A-kit style)",
+   "brand": "KYB",
+   "product": "KYB Factory Kit shock - KTM/Husqvarna 2023-2024",
+   "id": "sk-035"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "162019000201",
+    "40502000 (Xtrig ROCS Pro clamps, required)"
+   ],
+   "variants": [
+    "fork = 162019000201",
+    "required clamps = Xtrig ROCS Pro 40502000"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Teknik: 'GasGas, Husqvarna, KTM 2015-2022'"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Teknik: 'GasGas, Husqvarna, KTM 2015-2022'"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Teknik: 'GasGas, Husqvarna, KTM 2015-2022'"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Teknik: 'GasGas, Husqvarna, KTM 2015-2022'"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Teknik: 'GasGas, Husqvarna, KTM 2015-2022'"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Teknik: 'GasGas, Husqvarna, KTM 2015-2022'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Teknik 2015-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Teknik 2015-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Teknik 2015-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Teknik 2015-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Teknik 2015-2022"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "Teknik 2015-2022"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "Teknik 2015-2022"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021,
+      2022
+     ],
+     "notes": "Teknik 2015-2022"
+    }
+   ],
+   "fitment_source_url": "https://www.teknikmotorsport.com/162019000201-KYB-kyb-factory-kit-spring-fork-ktm-husky-sx-sxf-tc-fc",
+   "what_it_changes": "Complete KYB A-kit-style coil fork: air-oil separated closed cartridge, DLC tubes, mid-speed valve; valved by tuners in Belgium per Teknik.",
+   "supporting_parts": "Will not fit stock clamps: needs Xtrig ROCS Pro triple clamps 40502000. Pairs with the KYB factory kit shock.",
+   "price": {
+    "amount": 4500.0,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://motocrossactionmag.com/fork-works-kyb-factory-kit-spring-forks-for-ktm-husqvarna"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [
+    "MXA (KTM 450SXF test): forks 'worked wonders' on chop; bottoming resistance 'super plush'"
+   ],
+   "caveats": "Price is MXA's quoted USD 4,500 plus USD 900 for clamps (older article); Teknik shows no price. Exact model list not given by Teknik; models expanded from 'KTM/Husqvarna/GasGas SX/SX-F/TC/FC'.",
+   "is_service": false,
+   "subcategory": "complete fork (KYB factory kit, coil, closed cartridge)",
+   "brand": "KYB",
+   "product": "KYB Factory Kit coil-spring fork - KTM / Husqvarna / GasGas 2015-2022",
+   "id": "sk-036"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "122-018-155-085",
+    "385-580-52",
+    "385-580-56",
+    "385-580-60",
+    "385-580-64",
+    "385-580-68",
+    "385-580-72",
+    "385-580-76"
+   ],
+   "variants": [
+    "kit = 122-018-155-085",
+    "spring 5.2 N (25-30 kg rider) = 385-580-52",
+    "5.6 N = 385-580-56",
+    "6.0 N = 385-580-60",
+    "6.4 N = 385-580-64",
+    "6.8 N = 385-580-68",
+    "7.2 N = 385-580-72",
+    "7.6 N (55-60 kg) = 385-580-76"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD: 'KTM 85 SX 2018-2024'"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD: 'KTM 85 SX 2018-2024'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD 2018-2024"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "BFD 2021-2024"
+    }
+   ],
+   "fitment_source_url": "https://www.ktechsuspensionusa.com/off-road/front-suspension/off-road-spring-system-orss/front-fork-off-road-spring-system-wp-43mm-aer-122-018-155-085.html",
+   "what_it_changes": "Replaces the 85's AER 43 air spring with a coil spring system, external preload and a hydraulic bottoming device; no machining.",
+   "supporting_parts": "Requires one 385-580 series spring (ordered separately).",
+   "price": {
+    "amount": 799.99,
+    "currency": "CAD",
+    "as_of": "2026-11-02",
+    "url": "https://bfdmoto.com/products/k-tech-front-fork-orss-air2spring-conversion-122-018-155-085"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Orient Express lists the cartridges at USD 574.10 MSRP. 2025 not listed by BFD.",
+   "is_service": false,
+   "subcategory": "fork conversion kit (85cc, AER 43 air to coil)",
+   "brand": "K-Tech",
+   "product": "ORSS-2 Air2Spring conversion - WP 43 AER (85 cc)",
+   "id": "sk-037"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "117-600-023-004"
+   ],
+   "variants": [
+    "WP 43 AER piston kit = 117-600-023-004"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "dealer title: 'KTM HUSQ WP 43mm AER 2017 on wards'"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "dealer title: 'KTM HUSQ WP 43mm AER 2017 on wards'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "same"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "not named; same AER 43 fork"
+    }
+   ],
+   "fitment_source_url": "https://www.orientexpressracing.com/ktm-85sx-2024/",
+   "what_it_changes": "K-Tech replacement fork piston/valving for the WP 43 AER damping cartridge.",
+   "supporting_parts": "Install by a suspension tuner.",
+   "price": {
+    "amount": 269.6,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://www.orientexpressracing.com/ktm-85sx-2024/"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Fitment from dealer titles only; 2025+ (which keeps an AER 43 fork per other makers) not confirmed for this kit.",
+   "is_service": false,
+   "subcategory": "valving kit (85cc fork, AER 43)",
+   "brand": "K-Tech",
+   "product": "ORVS fork piston kit - WP 43 mm AER (85 cc)",
+   "id": "sk-038"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "KTASC85",
+    "KTASC85-60N",
+    "KTASC85-64N",
+    "KTASC85-68N",
+    "KTASC85-72N",
+    "KT-WPATS43 (Teknik code)"
+   ],
+   "variants": [
+    "cartridge only = KTASC85",
+    "with 0.60 spring (35-40 kg) = KTASC85-60N",
+    "0.64 (40-45 kg) = KTASC85-64N",
+    "0.68 (45-55 kg) = KTASC85-68N",
+    "0.72 (55+ kg) = KTASC85-72N"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "KroozR: 'All 2018-2023 KTM, Husqvarna and Gas Gas 85cc'"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "KroozR: 'All 2018-2023 KTM, Husqvarna and Gas Gas 85cc'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://ozmx.au/products/wp43-air-to-spring-conversion-kit-kroozr",
+   "what_it_changes": "Drop-in cartridge that removes the AER 43 air system for a preload-adjustable coil spring; KroozR says it avoids the 3-4 psi pressure build over a moto.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 529.95,
+    "currency": "AUD",
+    "as_of": "2026-11-02",
+    "url": "https://ozmx.au/products/wp43-air-to-spring-conversion-kit-kroozr"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Australian retailer price. Teknik's title says '2018-on'.",
+   "is_service": false,
+   "subcategory": "fork conversion kit (85cc, AER 43 air to coil)",
+   "brand": "KroozR (Krooztune)",
+   "product": "WP43 Air-to-Spring conversion kit (85 cc)",
+   "id": "sk-039"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "KT-WP43AERFSK (Teknik code)"
+   ],
+   "variants": [
+    "MX setting",
+    "Offroad setting"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "KroozR: 'KTM, Husqvarna and Gas Gas 85cc Mx Bikes 2018-2025 / WP 43mm AER fork'"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "KroozR: 'KTM, Husqvarna and Gas Gas 85cc Mx Bikes 2018-2025 / WP 43mm AER fork'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://ozmx.au/products/ktm-group-85cc-fork-setup-kit-18-2025-kroozr",
+   "what_it_changes": "Replacement mid-valve and base-valve pistons and shims for a plusher start of stroke without blow-through; soft/medium/firm shim options.",
+   "supporting_parts": "Designed to pair with the KroozR WP43 air-to-spring kit.",
+   "price": {
+    "amount": 309.95,
+    "currency": "AUD",
+    "as_of": "2026-11-02",
+    "url": "https://ozmx.au/products/ktm-group-85cc-fork-setup-kit-18-2025-kroozr"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "",
+   "is_service": false,
+   "subcategory": "valving kit (85cc fork)",
+   "brand": "KroozR (Krooztune)",
+   "product": "KTM Group 85cc fork setup (valving) kit 2018-2025",
+   "id": "sk-040"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "KTSSUK85-OR",
+    "KTSSUK85-MX",
+    "KTSSUK85-ORNB",
+    "KTSSUK85-MXNB"
+   ],
+   "variants": [
+    "Offroad = KTSSUK85-OR",
+    "MX = KTSSUK85-MX",
+    "Offroad + nitrogen bladder = KTSSUK85-ORNB",
+    "MX + nitrogen bladder = KTSSUK85-MXNB"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "KroozR: '2025 KTM 85 ... also fits 2025+ Husqvarna & GASGAS'"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "KroozR: '2025 KTM 85 ... also fits 2025+ Husqvarna & GASGAS'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "'2025+'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "'2025+'"
+    }
+   ],
+   "fitment_source_url": "https://ozmx.au/products/ktm-group-85cc-shock-setup-kit-2025-kroozr",
+   "what_it_changes": "New shock piston with KYB band and valving, plus a balance plate that raises the rear 5 mm to fix the low stock rear; optional bladder conversion.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 309.95,
+    "currency": "AUD",
+    "as_of": "2026-11-02",
+    "url": "https://ozmx.au/products/ktm-group-85cc-shock-setup-kit-2025-kroozr"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "2026-2027 inferred from '2025+'.",
+   "is_service": false,
+   "subcategory": "shock valving kit (85cc)",
+   "brand": "KroozR (Krooztune)",
+   "product": "KTM Group 85cc shock setup kit 2025+",
+   "id": "sk-041"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "KTCK65",
+    "KTCK65-28N",
+    "KTCK65-30N",
+    "KTCK65-30N2",
+    "KTCK50",
+    "KTCK50-24N"
+   ],
+   "variants": [
+    "65 kit only = KTCK65",
+    "65 + 28 N (30-40 kg) = KTCK65-28N",
+    "65 + 30 N (40+ kg) = KTCK65-30N",
+    "65 + 30 N pair = KTCK65-30N2",
+    "50 kit only = KTCK50",
+    "50 + 24 N = KTCK50-24N"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "50 SX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": "KroozR: 'KTM 2017-2021 50 SX / 65 SX'"
+    },
+    {
+     "make": "KTM",
+     "model": "65 SX",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 50",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 65",
+     "years": [
+      2020,
+      2021
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 50",
+     "years": [
+      2021
+     ],
+     "notes": "'Gas Gas 2020-'; limited to 2021 to match KTM/Husqvarna"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 65",
+     "years": [
+      2021
+     ],
+     "notes": "same"
+    }
+   ],
+   "fitment_source_url": "https://ozmx.au/products/wp-aer35-air-to-spring-conversion-65cc-kroozr",
+   "what_it_changes": "Replaces the air leg of the WP AER35 with a spring for a conventional dual-spring fork; less stiction and no air checks.",
+   "supporting_parts": "Install tool (KroozR WP AER35 install tool) required.",
+   "price": {
+    "amount": 264.95,
+    "currency": "AUD",
+    "as_of": "2026-11-02",
+    "url": "https://ozmx.au/products/wp-aer35-air-to-spring-conversion-65cc-kroozr"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "KroozR says GasGas '2020-' open-ended; later years for GasGas not confirmed. See the Flow Kit for 2020-2025.",
+   "is_service": false,
+   "subcategory": "fork conversion kit (50/65cc, AER 35 air to coil)",
+   "brand": "KroozR (Krooztune)",
+   "product": "WP AER35 air-to-spring conversion kit (50/65 cc)",
+   "id": "sk-042"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "KTFFK50-24N",
+    "KTFFK50-28N",
+    "KTFFK50-32N",
+    "KTFFK50-26N",
+    "KTFFK50-28N2S",
+    "KTFFK50-30N",
+    "KTFFK65-24N",
+    "KTFFK65-28N",
+    "KTFFK65-32N",
+    "KTFFK65-26N",
+    "KTFFK65-28N2S",
+    "KTFFK65-30N2S",
+    "KT-WPAER35FFK-65 (Teknik code)"
+   ],
+   "variants": [
+    "50cc single spring 24/28/32 N = KTFFK50-24N/-28N/-32N",
+    "50cc two springs 26/28/30 N = KTFFK50-26N/-28N2S/-30N",
+    "65cc single spring = KTFFK65-24N/-28N/-32N",
+    "65cc two springs = KTFFK65-26N/-28N2S/-30N2S"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "50 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "KroozR 2020-2025; 'WILL NOT fit 2026'"
+    },
+    {
+     "make": "KTM",
+     "model": "65 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 50",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 65",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 50",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 65",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://ozmx.au/products/wp35-fork-flow-kit-ktm-group-50-65cc-2020-2025-including-air-to-spring-conversion-kroozr",
+   "what_it_changes": "Big-piston flow kit with top-out springs and conversion hardware turning the WP35 air fork into a dual-spring fork with real valving.",
+   "supporting_parts": "WP35 socket install tool required.",
+   "price": {
+    "amount": 519.95,
+    "currency": "AUD",
+    "as_of": "2026-11-02",
+    "url": "https://ozmx.au/products/wp35-fork-flow-kit-ktm-group-50-65cc-2020-2025-including-air-to-spring-conversion-kroozr"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "",
+   "is_service": false,
+   "subcategory": "fork valving + conversion kit (50/65cc, AER 35)",
+   "brand": "KroozR (Krooztune)",
+   "product": "WP35 Fork Flow Kit incl. air-to-spring conversion (50/65 cc 2020-2025)",
+   "id": "sk-043"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "KTMINICRG65",
+    "KTMINICRG65-26",
+    "KTMINICRG65-28",
+    "KTMINICRG65-30",
+    "KTMINICRG65-32"
+   ],
+   "variants": [
+    "cartridge only = KTMINICRG65",
+    "with .26 / .28 / .30 / .32 springs = KTMINICRG65-26/-28/-30/-32"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "65 SX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "KroozR: 'Husqvarna, KTM, GasGas 65cc bikes 2021-2025'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 65",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 65",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://ozmx.au/products/wp65-mini-cartridge-kroozr",
+   "what_it_changes": "Complete replacement cartridge for the WP35 fork: dual coil springs, compression 'Flow Adjuster', wide clicker range and hydraulic bottoming.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 1049.95,
+    "currency": "AUD",
+    "as_of": "2026-11-02",
+    "url": "https://ozmx.au/products/wp65-mini-cartridge-kroozr"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "",
+   "is_service": false,
+   "subcategory": "fork cartridge kit (65cc)",
+   "brand": "KroozR (Krooztune)",
+   "product": "WP65 Mini Cartridge (dual-spring, zero air)",
+   "id": "sk-044"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "KTSSUK65",
+    "KTSSUK65-P"
+   ],
+   "variants": [
+    "piston kit + nitrogen bladder = KTSSUK65",
+    "piston kit only = KTSSUK65-P"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "65 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "KroozR 2020-2023"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 65",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 65",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://ozmx.au/products/ktm-group-65cc-shock-setup-kit-kroozr",
+   "what_it_changes": "New shock piston with KYB band, 12 mm shims and three baseline settings; optional nitrogen bladder.",
+   "supporting_parts": "Needs shock-building experience or a tuner.",
+   "price": {
+    "amount": 394.95,
+    "currency": "AUD",
+    "as_of": "2026-11-02",
+    "url": "https://ozmx.au/products/ktm-group-65cc-shock-setup-kit-kroozr"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "",
+   "is_service": false,
+   "subcategory": "shock valving kit (65cc)",
+   "brand": "KroozR (Krooztune)",
+   "product": "KTM Group 65cc shock setup kit",
+   "id": "sk-045"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "KT-WPGAS-XPLOR"
+   ],
+   "variants": [
+    "85cc = KT-WPGAS-XPLOR"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Teknik title: '2017-on KTM / Husky / GasGas 85cc'"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Teknik title: '2017-on KTM / Husky / GasGas 85cc'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.teknikmotorsport.com/KT-WPGAS-XPLOR-Krooztune-wp-xplor-85-nitrogen-gas-bladder-kit",
+   "what_it_changes": "Replaces the stock floating piston with a nitrogen bladder in the 85 shock reservoir.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 199.95,
+    "currency": "AUD",
+    "as_of": "2026-11-02",
+    "url": "https://ozmx.au/products/wp-xplor-85-nitrogen-gas-bladder-kit-kroozr"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Fitment from dealer title only ('2017-on' expanded to app years). KroozR's 2025 85 shock kit offers a separate bladder option, so check 2025+ compatibility.",
+   "is_service": false,
+   "subcategory": "shock bladder kit (85cc)",
+   "brand": "KroozR (Krooztune)",
+   "product": "WP PDS / XPlor nitrogen gas bladder conversion kit (85 cc)",
+   "id": "sk-046"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "KT-WP65FRK-EXT25-23"
+   ],
+   "variants": [
+    "2023-on 65cc = KT-WP65FRK-EXT25-23"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "65 SX",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Teknik title: '65 Axle Lug Clamps +25mm Height (2023-on)'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 65",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 65",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://www.teknikmotorsport.com/KT-WP65FRK-EXT25-23-Krooztune-WP65-Axle-Clamps-25mm-Height-2023-only",
+   "what_it_changes": "Taller fork axle lugs raising the front 25 mm for bigger 65 riders.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 519.95,
+    "currency": "AUD",
+    "as_of": "2026-11-02",
+    "url": "https://ozmx.au/products/wp65-axle-clamps-25mm-height-kroozr"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Title-only fitment; limited to 2025 because the 2026 65 fork is new. Pair with a matching rear lift.",
+   "is_service": false,
+   "subcategory": "fork axle clamps (+25 mm height, 65cc)",
+   "brand": "KroozR (Krooztune)",
+   "product": "WP65 axle lug clamps +25 mm height",
+   "id": "sk-047"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "AER43-SPRING-CVRK039",
+    "AER43-SPRING-CVRK036"
+   ],
+   "variants": [
+    "0.39 kg/mm (120-136 lb rider) = AER43-SPRING-CVRK039",
+    "0.36 kg/mm = AER43-SPRING-CVRK036"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Lainer: 'KTM SX 85 (2018-2025)'"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Lainer: 'KTM SX 85 (2018-2025)'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "2018-2025"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "2021-2025"
+    }
+   ],
+   "fitment_source_url": "https://lainersuspensionusa.com/shop/fork-upgrades/spring-conversion-kit-wp-aer43-ktm-sx-85-husky-tc-85-k-0-39/",
+   "what_it_changes": "Replaces the AER 43 air system with a dual-spring setup plus built-in Hydrostop for bottoming; aluminium/nylon parts replace stock plastic.",
+   "supporting_parts": "Lainer recommends pairing with its WP AER 43 compression kit.",
+   "price": {
+    "amount": 410.0,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://lainersuspensionusa.com/shop/fork-upgrades/spring-conversion-kit-wp-aer43-ktm-sx-85-husky-tc-85-k-0-39/"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "",
+   "is_service": false,
+   "subcategory": "fork conversion kit (85cc, AER 43 air to dual coil)",
+   "brand": "Lainer Suspension",
+   "product": "Spring conversion kit WP AER 43 (85 cc)",
+   "id": "sk-048"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "WP43_85-PRO",
+    "WPXPLORE_WRENCH_PART2 (required tool)"
+   ],
+   "variants": [
+    "kit = WP43_85-PRO"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Lainer: 'KTM SX 85 2018-2025'"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Lainer: 'KTM SX 85 2018-2025'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://lainersuspensionusa.com/shop/fork-upgrades/kit-wp-aer-43-pro-ktm-sx85-husqvarna-tc85-gas-gas-mc85/",
+   "what_it_changes": "35-click compression adjuster adding low-speed adjustment, high/low-speed compression shim stacks and a 23 mm rebound piston.",
+   "supporting_parts": "Wrench WPXPLORE_WRENCH_PART2 needed.",
+   "price": {
+    "amount": 275.0,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://lainersuspensionusa.com/shop/fork-upgrades/kit-wp-aer-43-pro-ktm-sx85-husqvarna-tc85-gas-gas-mc85/"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "",
+   "is_service": false,
+   "subcategory": "valving kit (85cc fork)",
+   "brand": "Lainer Suspension",
+   "product": "KIT WP AER 43 Pro (85 cc)",
+   "id": "sk-049"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "WP43AER_COMPS_ADJ"
+   ],
+   "variants": [
+    "kit = WP43AER_COMPS_ADJ"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Lainer: 'KTM sx 85 2018-2023'"
+    },
+    {
+     "make": "KTM",
+     "model": "85 SX 19/16",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": "Lainer: 'KTM sx 85 2018-2023'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2021,
+      2022,
+      2023
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://lainersuspensionusa.com/shop/fork-upgrades/compression-base-valves-kit/kit-compression-wp-aer-43mm-ktm-husky-85/",
+   "what_it_changes": "35-click compression adjuster adding low-speed adjustment to the AER 43 fork.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 90.0,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://lainersuspensionusa.com/shop/fork-upgrades/compression-base-valves-kit/kit-compression-wp-aer-43mm-ktm-husky-85/"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "",
+   "is_service": false,
+   "subcategory": "valving kit (85cc fork compression)",
+   "brand": "Lainer Suspension",
+   "product": "KIT Compression WP AER 43 mm (85 cc)",
+   "id": "sk-050"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "WP35AER-FULL_KIT",
+    "WR-AER35_KIT (required wrench)"
+   ],
+   "variants": [
+    "kit = WP35AER-FULL_KIT"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "65 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Lainer: 'KTM SX 65 2017-2024'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 65",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 65",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    },
+    {
+     "make": "KTM",
+     "model": "50 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": "Lainer: 'KTM SX 50 2017-2024'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 50",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 50",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://lainersuspensionusa.com/shop/fork-upgrades/wp-aer-35-full-kit-ktm-sx65-tc65-gas-gas-mc65-ktm50/",
+   "what_it_changes": "Converts the base valve and adds a shimmed piston so the AER35 behaves like a closed-cartridge fork with real valving.",
+   "supporting_parts": "Lainer AER 35 wrench needed.",
+   "price": {
+    "amount": 370.0,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://lainersuspensionusa.com/shop/fork-upgrades/wp-aer-35-full-kit-ktm-sx65-tc65-gas-gas-mc65-ktm50/"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "",
+   "is_service": false,
+   "subcategory": "fork valving kit (50/65cc, AER 35)",
+   "brand": "Lainer Suspension",
+   "product": "WP AER 35 Full Kit (50/65 cc)",
+   "id": "sk-051"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "MiniPro_AER35"
+   ],
+   "variants": [
+    "kit = MiniPro_AER35"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "65 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Lainer: 'KTM SX 65 2017-2025'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 65",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 65",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://lainersuspensionusa.com/shop/fork-upgrades/minipro-cartridge-ktm-husky-and-gas-gas-65cc-aer-35-fork/",
+   "what_it_changes": "Drop-in damping rod assembly with base valve; adds full compression and rebound adjustment, closed-cartridge-like behaviour.",
+   "supporting_parts": "Compression adjustment either preset or via a drilled/tapped hole in the lug.",
+   "price": {
+    "amount": 525.0,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://lainersuspensionusa.com/shop/fork-upgrades/minipro-cartridge-ktm-husky-and-gas-gas-65cc-aer-35-fork/"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "",
+   "is_service": false,
+   "subcategory": "fork cartridge kit (65cc, AER 35)",
+   "brand": "Lainer Suspension",
+   "product": "MINIPRO cartridge - WP AER 35 (65 cc, 2017-2025)",
+   "id": "sk-052"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "MINIPRO_2026_AER35"
+   ],
+   "variants": [
+    "2026-2027 kit = MINIPRO_2026_AER35"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "65 SX",
+     "years": [
+      2026,
+      2027
+     ],
+     "notes": "Lainer: 'KTM SX 65 2026-2027'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 65",
+     "years": [
+      2026,
+      2027
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 65",
+     "years": [
+      2026,
+      2027
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://lainersuspensionusa.com/shop/ktm-husqvarna-gasgas-upgrades/minipro-cartridge-2-wp-aer-35-sx65-tc65-mc65-2026-2027/",
+   "what_it_changes": "Replaces the hydraulic side while keeping the air spring; full compression/rebound adjustment and better hydraulic bottoming.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 445.0,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://lainersuspensionusa.com/shop/ktm-husqvarna-gasgas-upgrades/minipro-cartridge-2-wp-aer-35-sx65-tc65-mc65-2026-2027/"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Only upgrade found so far for the 2026-2027 65cc fork.",
+   "is_service": false,
+   "subcategory": "fork cartridge kit (65cc, AER 35, 2026+)",
+   "brand": "Lainer Suspension",
+   "product": "MINIPRO Cartridge-2 - WP AER 35 (65 cc, 2026-2027)",
+   "id": "sk-053"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "MINI39_65CC-2023"
+   ],
+   "variants": [
+    "65cc 2023-24 = MINI39_65CC-2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "65 SX",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Lainer: 'KTM SX 65 2023-24'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 65",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 65",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://lainersuspensionusa.com/shop/ktm-husqvarna-gasgas-upgrades/complete-suspension-systems/fork-minicross39-sx65-tc65-mc65-2023/",
+   "what_it_changes": "Complete fork with 39 mm tubes to stop bent stock tubes; adjustable rebound/compression; bolt-in and reversible.",
+   "supporting_parts": "Standard springs K 0.33 (24-34 kg rider).",
+   "price": {
+    "amount": 2200.0,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://lainersuspensionusa.com/shop/ktm-husqvarna-gasgas-upgrades/complete-suspension-systems/fork-minicross39-sx65-tc65-mc65-2023/"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "",
+   "is_service": false,
+   "subcategory": "complete fork (65cc, 39 mm)",
+   "brand": "Lainer Suspension",
+   "product": "Minicross39 complete fork (65 cc)",
+   "id": "sk-054"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "SHOCK65_2024"
+   ],
+   "variants": [
+    "65cc 2024 = SHOCK65_2024"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "65 SX",
+     "years": [
+      2024
+     ],
+     "notes": "Lainer: 'KTM SX 65 2024'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 65",
+     "years": [
+      2024
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 65",
+     "years": [
+      2024
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://lainersuspensionusa.com/shop/ktm-husqvarna-gasgas-upgrades/impact14-shock-absorber-sx65-tc65-mc65-2024/",
+   "what_it_changes": "Complete shock with 14 mm DLC shaft, bladder, 60-click rebound, 32-click low-speed and turn-type high-speed compression.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 950.0,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://lainersuspensionusa.com/shop/ktm-husqvarna-gasgas-upgrades/impact14-shock-absorber-sx65-tc65-mc65-2024/"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "",
+   "is_service": false,
+   "subcategory": "shock (65cc, complete)",
+   "brand": "Lainer Suspension",
+   "product": "IMPACT14 shock (65 cc 2024)",
+   "id": "sk-055"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "PRO-KIT_65CC"
+   ],
+   "variants": [
+    "kit = PRO-KIT_65CC"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "65 SX",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Lainer: 'KTM SX 65 2018-2025'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 65",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 65",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://lainersuspensionusa.com/shop/ktm-husqvarna-gasgas-upgrades/piston-kit-36-pro-wp-pds-sx65-tc65-mc65/",
+   "what_it_changes": "Ergal shock piston with low-friction band and shim calibration for more low-speed sensitivity and traction.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 210.0,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://lainersuspensionusa.com/shop/ktm-husqvarna-gasgas-upgrades/piston-kit-36-pro-wp-pds-sx65-tc65-mc65/"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "",
+   "is_service": false,
+   "subcategory": "shock valving kit (65cc)",
+   "brand": "Lainer Suspension",
+   "product": "Piston Kit 36 Pro - WP PDS (65 cc)",
+   "id": "sk-056"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "BLADD_KITWP_65_BLU",
+    "BLADD_KITWP_65_BLACK"
+   ],
+   "variants": [
+    "blue cap = BLADD_KITWP_65_BLU",
+    "black cap = BLADD_KITWP_65_BLACK"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "65 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Lainer: 'KTM sx 65 2015-2022'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 65",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://lainersuspensionusa.com/shop/ktm-husqvarna-gasgas-upgrades/shock-upgrade/bladder-kit-wp-ktm-husky-65-2015-2022-blue/",
+   "what_it_changes": "Rubber bladder and CNC reservoir cap replace the plastic floating separator, which Lainer says can break.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 139.0,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://lainersuspensionusa.com/shop/ktm-husqvarna-gasgas-upgrades/shock-upgrade/bladder-kit-wp-ktm-husky-65-2015-2022-blue/"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "GasGas MC 65 not named.",
+   "is_service": false,
+   "subcategory": "shock bladder kit (65cc)",
+   "brand": "Lainer Suspension",
+   "product": "Bladder kit WP (65 cc, 2015-2022)",
+   "id": "sk-057"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "SHOCK18_50LS-1WP_2023"
+   ],
+   "variants": [
+    "2023-2024 chassis = SHOCK18_50LS-1WP_2023"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Lainer 2023-2024"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Lainer 2023-2024"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Lainer 2023-2024"
+    },
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Lainer 2023-2024"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Lainer 2023-2024"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Lainer 2023-2024"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Lainer 2023-2024"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Lainer 2023-2024"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Lainer 2023-2024"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Lainer 2023-2024"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2023,
+      2024
+     ],
+     "notes": "Lainer 2023-2024"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2024
+     ],
+     "notes": "Lainer 2024"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2024
+     ],
+     "notes": "Lainer 2024"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2024
+     ],
+     "notes": "Lainer 2024"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2024
+     ],
+     "notes": "Lainer 2024"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2024
+     ],
+     "notes": "Lainer 2024"
+    }
+   ],
+   "fitment_source_url": "https://lainersuspensionusa.com/shop/pro-suspension-kits/impact-shocks/ktm-husqvarna-gasgas-shock-upgrade/",
+   "what_it_changes": "Built-to-order shock with 18 mm shaft and 50 mm low-friction piston; Lainer claims better control and response.",
+   "supporting_parts": "Build time about 2-3 weeks.",
+   "price": {
+    "amount": 2299.0,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://lainersuspensionusa.com/shop/pro-suspension-kits/impact-shocks/ktm-husqvarna-gasgas-shock-upgrade/"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "",
+   "is_service": false,
+   "subcategory": "shock (complete, linkage)",
+   "brand": "Lainer Suspension",
+   "product": "IMPACT18 shock - KTM/Husqvarna/GasGas 2023-2024",
+   "id": "sk-058"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "SHOCK18_50LS-1WP"
+   ],
+   "variants": [
+    "2012-2022 chassis = SHOCK18_50LS-1WP"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Lainer 2012-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Lainer 2012-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Lainer 2012-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Lainer 2012-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Lainer 2012-2022"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Lainer 2012-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Lainer 2014-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Lainer 2014-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Lainer 2014-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Lainer 2014-2022"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2020,
+      2021,
+      2022
+     ],
+     "notes": "Lainer 2014-2022"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2022
+     ],
+     "notes": "Lainer: 'GAS GAS MC 125 - MC 250/450F 2022'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2022
+     ],
+     "notes": ""
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2022
+     ],
+     "notes": ""
+    }
+   ],
+   "fitment_source_url": "https://lainersuspensionusa.com/shop/pro-suspension-kits/impact18-shock-absorber-by-lainer-suspension-ktm-husky-gas-gas/",
+   "what_it_changes": "Earlier-chassis IMPACT18 shock.",
+   "supporting_parts": "Price excludes spring.",
+   "price": {
+    "amount": 2299.0,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://lainersuspensionusa.com/shop/pro-suspension-kits/impact18-shock-absorber-by-lainer-suspension-ktm-husky-gas-gas/"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "",
+   "is_service": false,
+   "subcategory": "shock (complete, linkage)",
+   "brand": "Lainer Suspension",
+   "product": "IMPACT18 shock - KTM/Husqvarna/GasGas 2012-2022",
+   "id": "sk-059"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "EPIC_FRP-CRT_WPXACT21"
+   ],
+   "variants": [
+    "KTM/GasGas = EPIC_FRP-CRT_WPXACT21"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Lainer title 'KTM SX ... 2021-2026'"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Lainer title 'KTM SX ... 2021-2026'"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Lainer title 'KTM SX ... 2021-2026'"
+    },
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Lainer title 'KTM SX ... 2021-2026'"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Lainer title 'KTM SX ... 2021-2026'"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Lainer title 'KTM SX ... 2021-2026'"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Lainer title 'KTM SX ... 2021-2026'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Lainer title 'GAS GAS MC 2021-2026'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Lainer title 'GAS GAS MC 2021-2026'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Lainer title 'GAS GAS MC 2021-2026'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Lainer title 'GAS GAS MC 2021-2026'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Lainer title 'GAS GAS MC 2021-2026'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2021
+     ],
+     "notes": "Lainer title 'HQV 2021'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2021
+     ],
+     "notes": "Lainer title 'HQV 2021'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2021
+     ],
+     "notes": "Lainer title 'HQV 2021'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2021
+     ],
+     "notes": "Lainer title 'HQV 2021'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2021
+     ],
+     "notes": "Lainer title 'HQV 2021'"
+    }
+   ],
+   "fitment_source_url": "https://lainersuspensionusa.com/shop/fork-upgrades/spring-conversions/epica-frp-cartridge-wp-xact-ktm-sx-gas-gas-mc-2021-2026-hqv-2021/",
+   "what_it_changes": "Closed-cartridge spring conversion replacing the WP XACT air fork internals; Lainer claims better traction, consistency and comfort.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 1650.0,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://lainersuspensionusa.com/shop/fork-upgrades/spring-conversions/epica-frp-cartridge-wp-xact-ktm-sx-gas-gas-mc-2021-2026-hqv-2021/"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Model list expanded from the title 'KTM SX/GAS GAS MC'; XC models not stated.",
+   "is_service": false,
+   "subcategory": "fork cartridge kit (air to coil, closed cartridge)",
+   "brand": "Lainer Suspension",
+   "product": "EPICA-FRP cartridge - WP XACT, KTM SX / GasGas MC 2021-2026, Husqvarna 2021",
+   "id": "sk-060"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "EPIC_FRP-CRT_HQV22+",
+    "EPIC1-PRS_CART-XACT22-HSQ (EPICA non-FRP, FC & TC 2022-2026)"
+   ],
+   "variants": [
+    "EPICA-FRP Husqvarna = EPIC_FRP-CRT_HQV22+",
+    "EPICA (standard) Husqvarna FC & TC = EPIC1-PRS_CART-XACT22-HSQ"
+   ],
+   "fits": [
+    {
+     "make": "Husqvarna",
+     "model": "TC 125",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Lainer title 'Husqvarna 2022-2026' / 'FC & TC (2022-2026)'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 250",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Lainer title 'Husqvarna 2022-2026' / 'FC & TC (2022-2026)'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 250",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Lainer title 'Husqvarna 2022-2026' / 'FC & TC (2022-2026)'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 350",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Lainer title 'Husqvarna 2022-2026' / 'FC & TC (2022-2026)'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "FC 450",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "notes": "Lainer title 'Husqvarna 2022-2026' / 'FC & TC (2022-2026)'"
+    }
+   ],
+   "fitment_source_url": "https://lainersuspensionusa.com/shop/fork-upgrades/spring-conversions/epica-frp-cartridge-wp-xact-husqvarna-2022-2026/",
+   "what_it_changes": "Husqvarna-length EPICA spring conversion with Lainer PDS end-of-stroke hydraulic control.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 1650.0,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://lainersuspensionusa.com/shop/fork-upgrades/spring-conversions/epica-frp-cartridge-wp-xact-husqvarna-2022-2026/"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "",
+   "is_service": false,
+   "subcategory": "fork cartridge kit (air to coil, closed cartridge)",
+   "brand": "Lainer Suspension",
+   "product": "EPICA-FRP cartridge - WP XACT, Husqvarna 2022-2026",
+   "id": "sk-061"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "EPIC1-PRS_CART-WPAER",
+    "EPIC1-PRS_CART-WPXACT21"
+   ],
+   "variants": [
+    "KTM/GasGas/Husqvarna 2021-2025 = EPIC1-PRS_CART-WPAER",
+    "EPICA WP XACT spring conversion (title gives no years) = EPIC1-PRS_CART-WPXACT21"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "125 SX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Lainer title '2021-2025'"
+    },
+    {
+     "make": "KTM",
+     "model": "150 SX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Lainer title '2021-2025'"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Lainer title '2021-2025'"
+    },
+    {
+     "make": "KTM",
+     "model": "300 SX",
+     "years": [
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Lainer title '2021-2025'"
+    },
+    {
+     "make": "KTM",
+     "model": "250 SX-F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Lainer title '2021-2025'"
+    },
+    {
+     "make": "KTM",
+     "model": "350 SX-F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Lainer title '2021-2025'"
+    },
+    {
+     "make": "KTM",
+     "model": "450 SX-F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Lainer title '2021-2025'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 125",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Lainer title"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Lainer title"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 250F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Lainer title"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 350F",
+     "years": [
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Lainer title"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 450F",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+     ],
+     "notes": "Lainer title"
+    }
+   ],
+   "fitment_source_url": "https://lainersuspensionusa.com/shop/fork-upgrades/spring-conversions/epica-cartridge-spring-conversion-wp-aer-xact-48mm-2016-2020/",
+   "what_it_changes": "Standard (non-FRP) EPICA closed-cartridge spring conversion for WP XACT air forks.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 1650.0,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://lainersuspensionusa.com/shop/fork-upgrades/spring-conversions/epica-cartridge-spring-conversion-wp-aer-xact-48mm-2016-2020/"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "URL slug says 2016-2020 while the title says 2021-2025; title used. Husqvarna version listed separately.",
+   "is_service": false,
+   "subcategory": "fork cartridge kit (air to coil, closed cartridge)",
+   "brand": "Lainer Suspension",
+   "product": "EPICA cartridge spring conversion - WP XACT 48 mm KTM/GasGas/Husqvarna 2021-2025",
+   "id": "sk-062"
+  },
+  {
+   "category": "suspension",
+   "part_numbers": [
+    "P401282 (Cycle Gear item)"
+   ],
+   "variants": [
+    "3.0 kg",
+    "4.0 kg",
+    "4.5 kg",
+    "5.0 kg"
+   ],
+   "fits": [
+    {
+     "make": "KTM",
+     "model": "85 SX 17/14",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "Cycle Gear: '85 SX (17/14) 2003-2027'"
+    },
+    {
+     "make": "Husqvarna",
+     "model": "TC 85",
+     "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "'TC85 2015-2027'"
+    },
+    {
+     "make": "GasGas",
+     "model": "MC 85",
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+     ],
+     "notes": "'MC 85 2021-2027'"
+    }
+   ],
+   "fitment_source_url": "https://www.cyclegear.com/parts/factory-connection-shock-spring-ktm-husqvarna-gas-gas-85cc-105cc",
+   "what_it_changes": "Aftermarket shock spring to match rider weight.",
+   "supporting_parts": "",
+   "price": {
+    "amount": 149.99,
+    "currency": "USD",
+    "as_of": "2026-11-02",
+    "url": "https://www.cyclegear.com/parts/factory-connection-shock-spring-ktm-husqvarna-gas-gas-85cc-105cc"
+   },
+   "confidence": "medium",
+   "feedback": [],
+   "rider_feedback": [],
+   "caveats": "Cycle Gear lists 85 SX 19/16 only up to 2016, so it is left out; almost certainly a listing gap. Per-rate part numbers not shown.",
+   "is_service": false,
+   "subcategory": "shock spring (85cc)",
+   "brand": "Factory Connection",
+   "product": "Factory Connection shock spring - KTM / Husqvarna / GasGas 85cc",
+   "id": "sk-063"
+  }
+ ],
+ "gaps": [
+  "Race Tech: racetech.com shows a 25 mm G2-R cartridge kit (FRCK DKTSX6509 00) and G3-S custom shock (RSDKT 04PRNN) for 'KTM 65SX', but gives no model years, so they were not recorded. No Race Tech page found for KTM 85 SX or 50 SX.",
+  "Öhlins: no 50cc or 65cc product found for KTM-group bikes; no Öhlins 85 fork beyond the FCX 0101 cartridge.",
+  "WP: no XACT PRO 7500/6736/8936 part numbers found for 2025+ 50/65 or for the new 2026 65cc fork; no WP 7548/8950 part numbers confirmed for 2025-2027 big bikes (dealers list 2023-2024 or '2023+').",
+  "WP KTM-height part number for the 2019-2022 XACT PRO 8950 shock not found (only the Husqvarna -10 mm 18150U07SET).",
+  "WP linkage: no WP/KTM PowerParts linkage part with stated fitment found (lowering kit 79612955144 has no fitment on the page).",
+  "Showa: no Showa A-kit or Showa conversion for KTM-group MX bikes found (only a Showa-to-WP XPLOR enduro kit, out of scope).",
+  "TBM, Dialed, Xtreme: no KTM-group suspension product pages found.",
+  "Pro Circuit, Enzo, MX-Tech, Technical Touch, REP, Luxon: nothing new for 50/65/85 found; their big-bike items already exist in suspension.json / suspension2.json.",
+  "Factory Connection 65cc shock spring (UPC 401397) exists but the page names no models or years; Factory Connection 85 fork springs fit only pre-2018 bikes.",
+  "Small-bike revalve services: no shop listing a priced, model-specific 50/65/85 revalve service was found (generic revalve services already exist in the other files).",
+  "Prices: many are Canadian (BFD Moto), Australian (OZMX) or EUR (MSliders, Öhlins EU); no USD price found for most WP part numbers."
+ ],
+ "not_done": [
+  "aomc.mx pages blocked by a bot check (curl 403 and WebFetch permission timeout); AOMC fitment tables not read.",
+  "wp-group.com news page for 65cc XACT PRO components: permission request timed out.",
+  "teknikmotorsport.com Krooztune 2021-on 85cc shock performance kit page: permission timed out.",
+  "Race Tech product search (JS-driven) not queried; only the static KTM 65SX page was read.",
+  "Did not check KTM PowerParts catalogue directly for WP factory parts."
+ ]
+}

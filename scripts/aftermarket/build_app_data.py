@@ -9,7 +9,7 @@ sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from textclean import short,brand_name
 root=os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 FAM=[('ktm-family','KTM family','KTM,Husqvarna,GasGas'),('triumph','Triumph TF','Triumph'),('yamaha','Yamaha YZ','Yamaha'),
-     ('honda','Honda CRF','Honda'),('kawasaki','Kawasaki KX','Kawasaki')]
+     ('honda','Honda CRF','Honda'),('kawasaki','Kawasaki KX','Kawasaki'),('suzuki','Suzuki RM-Z','Suzuki')]
 out=os.path.join(root,'public','parts-catalog')
 for d,title,makes in FAM:
     r=subprocess.run([sys.executable,os.path.join(root,'scripts','aftermarket','build_catalog.py'),os.path.join(root,'docs','research','aftermarket',d),title,makes],

@@ -16,7 +16,7 @@ const SELLER:Record<string,string>={cg:'Cycle Gear',ms:'MotoSport',kt:'KTM Twins
 const SITES:[RegExp,string][]=[[/ktm\.com/,'KTM'],[/husqvarna-motorcycles\.com/,'Husqvarna'],[/gasgas\.com/,'GasGas'],[/cyclegear\.com/,'Cycle Gear'],[/motosport\.com/,'MotoSport'],[/ktmtwins\.com/,'KTM Twins'],[/lings\.com/,'Lings'],[/shopfactorylinks\.com/,'Factory Links'],[/fcpracing\.com/,'FCP Racing'],[/triumphpartstore\.com/,'Triumph dealer'],[/yamaha/,'Yamaha dealer']];
 /** The store's name for a link: the seller code, else the site it points at. */
 const sellerName=(code:string,url:string)=>SELLER[code]&&code!=='rs'?SELLER[code]:SITES.find(([re])=>re.test(url))?.[1]??url.replace(/^https?:\/\/(www\.)?/,'').split('/')[0];
-export const familyOf=(make:string)=>['KTM','Husqvarna','GasGas'].includes(make)?'ktm-family':make==='Triumph'?'triumph':make==='Yamaha'?'yamaha':make==='Honda'?'honda':make==='Kawasaki'?'kawasaki':null;
+export const familyOf=(make:string)=>['KTM','Husqvarna','GasGas'].includes(make)?'ktm-family':make==='Triumph'?'triumph':make==='Yamaha'?'yamaha':make==='Honda'?'honda':make==='Kawasaki'?'kawasaki':make==='Suzuki'?'suzuki':null;
 /** Every listed part for this exact bike in a family file, or null when the bike has no list there. */
 export function decodeFamily(f:FamilyFile|null,make:string,model:string,year:number):CatalogPart[]|null{
  const list=f?.bikes[`${make}|${model}|${year}`];
