@@ -1,0 +1,105 @@
+[
+ {
+  "id": "unadilla-mx",
+  "name": "Unadilla MX",
+  "aliases": [
+   "Unadilla",
+   "Unadilla Valley Sports Center",
+   "New Berlin"
+  ],
+  "state": "NY",
+  "city": "New Berlin",
+  "county": "Chenango",
+  "address": "5986 State Hwy 8, New Berlin, NY 13411",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "open",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "national MX track"
+  ],
+  "soil": {
+   "primary": "hardpack",
+   "secondary": null,
+   "notes": "Hard-packed, historically rocky base. Topsoil was reintroduced around 2013, which made it rut; rocks have been cleared over time but 450 roost still throws them.",
+   "confidence": "high"
+  },
+  "layout": {
+   "speed": "medium",
+   "jumps": "big",
+   "elevation_change": "hilly",
+   "traits": [
+    "ruts",
+    "cambered turns",
+    "The Wall uphill",
+    "downhill ruts",
+    "rocks in roost"
+   ],
+   "notes": "Valley track with most sections cambered so riders live on the tire edge. The Wall climb rewards the right line at the bottom."
+  },
+  "conditions": {
+   "dry": "On a sunny day it gets very tricky late; traction varies across the track.",
+   "wet": "Rain the day before soaked topsoil layers and made it rutty but more grippy than the usual hard surface.",
+   "late_day": "Ruts deepen, especially on the downhill approaches; rear wheel climbing a rut wall loses grip.",
+   "watering_prep": "unknown",
+   "seasonal": "Pro national each August (39th in 2025); amateur days around it."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: known for hardpack; Friday rain softened it into rutty but grippier conditions; float over bumps instead of attacking; standing through turns and patient riding won.",
+    "source_url": "https://racerxonline.com/2024/08/12/breakdown-unadilla",
+    "source_type": "article",
+    "date": "2024-08"
+   },
+   {
+    "says": "Analyst: topsoil added about a decade ago created the ruts; stay in the middle of ruts, brake less, keep momentum, small smooth inputs; rocks break visors and plates.",
+    "source_url": "https://racerxonline.com/2023/08/14/breakdown-unadilla",
+    "source_type": "article",
+    "date": "2023-08"
+   },
+   {
+    "says": "Local TV coverage: riders describe a hard-pack, rutty surface.",
+    "source_url": "https://www.wktv.com/news/top-stories/39th-unadilla-national-kicks-off-this-weekend-shining-a-spotlight-on-iconic-motocross-track-in/article_6b967a2e-8117-42d6-9902-ff6a07c61abb.html",
+    "source_type": "article",
+    "date": "2025-08"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxsportsproracing.com/event/unadilla-national/directions",
+    "title": "MX Sports Pro Racing - Unadilla directions",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2024/08/12/breakdown-unadilla",
+    "title": "Racer X - Breakdown: Unadilla 2024",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2023/08/14/breakdown-unadilla",
+    "title": "Racer X - Breakdown: Unadilla 2023",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.wktv.com/news/top-stories/39th-unadilla-national-kicks-off-this-weekend-shining-a-spotlight-on-iconic-motocross-track-in/article_6b967a2e-8117-42d6-9902-ff6a07c61abb.html",
+    "title": "WKTV - 39th Unadilla National (2025)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [
+   "Coordinates",
+   "Track website and phone",
+   "Public practice schedule",
+   "Gravity Cavity and other named sections not confirmed by a fetched source"
+  ],
+  "research_file": "nationals.json"
+ }
+]

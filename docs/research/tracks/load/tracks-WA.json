@@ -1,0 +1,98 @@
+[
+ {
+  "id": "washougal-mx-park",
+  "name": "Washougal MX Park",
+  "aliases": [
+   "Washougal",
+   "Washougal National"
+  ],
+  "state": "WA",
+  "city": "Washougal",
+  "county": "Clark",
+  "address": "40205 NE Borin Road, Washougal, WA 98671",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": "https://washougalmxpk.com/",
+  "phone": "(360) 837-3975",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "national MX track (lit)",
+   "second MX track"
+  ],
+  "soil": {
+   "primary": "hardpack",
+   "secondary": "loam",
+   "notes": "Racers and analysts call it the hardest-packed, most slippery dirt of the summer no matter what is hauled in; the track's own promo calls it deep brown loam that is deceptively slick. Crews rip it deep for nationals.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "medium",
+   "jumps": "medium",
+   "elevation_change": "hilly",
+   "traits": [
+    "Horsepower Hill",
+    "tree-shaded switchbacks",
+    "whoops",
+    "drop-off jump chicane",
+    "hardened ruts"
+   ],
+   "notes": "Set in evergreen forest by the Washougal River. Climbs Horsepower Hill and drops back down. Sun-to-shade transitions blind riders and hide ruts."
+  },
+  "conditions": {
+   "dry": "Hardens and gets slicker as the sun dries it; scoop tires usually come off.",
+   "wet": "Not documented in recent reports.",
+   "late_day": "Early moisture makes ruts that set hard later, limiting line changes; clouds keep moisture longer.",
+   "watering_prep": "Groomed and watered; ripped deep for nationals.",
+   "seasonal": "Seasonal practice/race dates - call first. Pro national each July since 1980 (one year missed)."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: hardest-packed dirt of the summer and dries harder through the day; keep mid-corner roll speed and avoid hard mid-corner acceleration; shadows make ruts hard to see.",
+    "source_url": "https://racerxonline.com/2025/07/17/hard-pack-dirt-and-picturesque-views-jason-thomas-preview-washougal",
+    "source_type": "article",
+    "date": "2025-07"
+   },
+   {
+    "says": "Analyst: dirt ripped deeper than normal gave early grip; ruts formed wet and set hard in high-90s heat; use the sighting lap to find new lines and rough spots to avoid.",
+    "source_url": "https://racerxonline.com/2024/07/21/breakdown-washougal",
+    "source_type": "article",
+    "date": "2024-07"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://promotocross.com/race/washougal-national/track",
+    "title": "Pro Motocross - Washougal track page",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/washington_06351/ride_c4e0.htm",
+    "title": "RiderPlanet USA - Washougal MX Park",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2025/07/17/hard-pack-dirt-and-picturesque-views-jason-thomas-preview-washougal",
+    "title": "Racer X - JT Washougal preview 2025",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2024/07/21/breakdown-washougal",
+    "title": "Racer X - Breakdown: Washougal 2024",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [
+   "Coordinates",
+   "Rain-day behavior",
+   "Soil description conflict between promo (loam) and racers (hardpack)"
+  ],
+  "research_file": "nationals.json"
+ }
+]

@@ -1,0 +1,2632 @@
+[
+ {
+  "id": "battery-park-offroad",
+  "name": "Battery Park Offroad",
+  "aliases": [
+   "Battery Park",
+   "Battery Park Off-road"
+  ],
+  "state": "SC",
+  "city": "Nesmith",
+  "county": "Williamsburg",
+  "address": "98 Harvest Rd, Nesmith, SC 29580",
+  "lat": 33.717197,
+  "lng": -79.580266,
+  "types": [
+   "motocross",
+   "supercross",
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://batteryparkoffroad.com/",
+  "phone": "(843) 319-3504",
+  "facebook": "https://www.facebook.com/batterypark.offroad.3/",
+  "instagram": "https://www.instagram.com/batteryparkoffroad_sc/",
+  "tracks_on_site": [
+   "big MX track",
+   "vet supercross track",
+   "kids MX",
+   "GP track",
+   "30+ mi enduro trails"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Riders repeatedly describe deep, thick sand on the tracks.",
+   "confidence": "high"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "sandy berms",
+    "deep sand"
+   ],
+   "notes": "Big MX track is deep and fast per riders."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "Winter race in wet conditions noted by a rider (Jan 2026).",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "Listed open daily 10-5; winter race series."
+  },
+  "rider_reports": [
+   {
+    "says": "Big MX track is deep sand and fast.",
+    "source_url": "https://www.youtube.com/watch?v=1QL0tjyVhA0",
+    "source_type": "video",
+    "date": "2026-02"
+   },
+   {
+    "says": "Four tracks; the tracks are very thick sand (posted about 3 years before Nov 2026).",
+    "source_url": "https://www.youtube.com/watch?v=oagZnWXPkfM",
+    "source_type": "video",
+    "date": null
+   },
+   {
+    "says": "Wet conditions at a winter series race.",
+    "source_url": "https://www.youtube.com/watch?v=12XqfUTXv-4",
+    "source_type": "video",
+    "date": "2026-01"
+   },
+   {
+    "says": "Rider cased the big jump and fell in a sandy berm.",
+    "source_url": "https://www.youtube.com/watch?v=XfjtFbPesPc",
+    "source_type": "video",
+    "date": "2018-12"
+   },
+   {
+    "says": "Poster planned two races there.",
+    "source_url": "https://www.vitalmx.com/comment/4643731",
+    "source_type": "forum",
+    "date": "2022-12"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/battery-park-offroad-park-nesmith",
+    "title": "MX Parks - Battery Park Offroad Park listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=1QL0tjyVhA0",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=oagZnWXPkfM",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=12XqfUTXv-4",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=XfjtFbPesPc",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4643731",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [
+   "Watering/prep routine"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "carolina-adventure-world",
+  "name": "Carolina Adventure World",
+  "aliases": [],
+  "state": "SC",
+  "city": "Winnsboro",
+  "county": "Fairfield",
+  "address": "1515 Arrowhead Rd, Winnsboro, SC 29180",
+  "lat": 34.485514,
+  "lng": -80.953061,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "http://www.carolinaadventureworld.net/",
+  "phone": "(803) 482-3534",
+  "facebook": "https://www.facebook.com/CarolinaAdventureWorld/",
+  "instagram": "https://www.instagram.com/wheretoride/",
+  "tracks_on_site": [
+   "championship MX",
+   "vintage course",
+   "junior track",
+   "mini track",
+   "enduro course",
+   "100+ mi trails"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/carolina-adventure-world-winnsboro",
+    "title": "MX Parks - Carolina Adventure World listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "MX track condition and soil"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "cedar-grove-mx-park",
+  "name": "Cedar Grove MX Park",
+  "aliases": [
+   "Cedar Grove MX"
+  ],
+  "state": "SC",
+  "city": "Winnsboro",
+  "county": "Fairfield",
+  "address": "10024 State Hwy 200, Winnsboro, SC 29180",
+  "lat": 34.497112,
+  "lng": -81.011681,
+  "types": [
+   "motocross",
+   "training"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": null,
+  "facebook": "https://www.facebook.com/cedargrovemxpark/",
+  "instagram": "https://www.instagram.com/cedar_grove_mx_park/",
+  "tracks_on_site": [
+   "1.1 mi main",
+   "0.7 mi turn track",
+   "woods trails"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Rider says it hooked up like velcro after storms.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "After a line of storms the track was like velcro the next day (Aug 2026).",
+   "late_day": "",
+   "watering_prep": "Rider appreciated lighter vet-style prep instead of deep plowing.",
+   "seasonal": "Open days posted weekly on Facebook."
+  },
+  "rider_reports": [
+   {
+    "says": "After storms the track had perfect moisture and grip; liked the lighter vet prep.",
+    "source_url": "https://www.youtube.com/watch?v=F9XgWbLshJI",
+    "source_type": "video",
+    "date": "2026-08"
+   },
+   {
+    "says": "First visit in a couple years; more technical with better flow.",
+    "source_url": "https://www.youtube.com/watch?v=9v6r26wZuPU",
+    "source_type": "video",
+    "date": "2026-09"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/cedar-grove-mx-park-winnsboro",
+    "title": "MX Parks - Cedar Grove MX Park listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=F9XgWbLshJI",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=9v6r26wZuPU",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Soil type"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "cgi-facility",
+  "name": "CGI Facility",
+  "aliases": [
+   "CGI"
+  ],
+  "state": "SC",
+  "city": "Edgefield",
+  "county": "Edgefield",
+  "address": "344 Turkey Rd, Edgefield, SC 29824",
+  "lat": 33.7936225,
+  "lng": -82.1237216,
+  "types": [
+   "motocross",
+   "supercross",
+   "training"
+  ],
+  "access": "appointment",
+  "status": "open",
+  "website": null,
+  "phone": "(978) 314-5657",
+  "facebook": "https://www.facebook.com/CGIfacility",
+  "instagram": "https://www.instagram.com/cgi_facility/",
+  "tracks_on_site": [
+   "main MX",
+   "supercross track",
+   "corner track",
+   "beginner track",
+   "kids track",
+   "pit bike SX (lit)",
+   "GP course on events"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "A 2023 poster found fresh dozer work turned to a quicksand-like swamp after heavy rain.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "big",
+   "elevation_change": "hilly",
+   "traits": [
+    "massive jumps"
+   ],
+   "notes": "Known for very big jumps; riders call it a moto playground."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "Heavy rain right after dozer work left it swampy (May 2023 report).",
+   "late_day": "",
+   "watering_prep": "Looks great with event-weekend prep per posters.",
+   "seasonal": "Only a few public days or events a year."
+  },
+  "rider_reports": [
+   {
+    "says": "After heavy rain the fresh dozer work was a swamp; poster would not return. Others say it looks great on prepped event weekends and opens only 3-4 times a year.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "source_type": "forum",
+    "date": "2023-10"
+   },
+   {
+    "says": "Fun with massive jumps but rarely open.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/south-carolina-dirt-bikes",
+    "source_type": "forum",
+    "date": "2024-07"
+   },
+   {
+    "says": "Day-before-Thanksgiving ride: rider said conditions were much better and the track was perfect.",
+    "source_url": "https://www.youtube.com/watch?v=aaWF9BKaX94",
+    "source_type": "video",
+    "date": "2019-11"
+   },
+   {
+    "says": "Rider helped sculpt and test very large jumps.",
+    "source_url": "https://www.youtube.com/watch?v=ED_W46orsys",
+    "source_type": "video",
+    "date": "2023-10"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/cgi-facility-edgefield",
+    "title": "MX Parks - CGI Facility listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/south-carolina-dirt-bikes",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=aaWF9BKaX94",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=ED_W46orsys",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Soil type",
+   "Routine prep"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "chauga-valley-mx",
+  "name": "Chauga Valley MX",
+  "aliases": [],
+  "state": "SC",
+  "city": "Westminster",
+  "county": "Oconee",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "unknown",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "clay track",
+   "sand track"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": "sand",
+   "notes": "A 2023 poster said it has two tracks, one clay and one sand.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "Deep ruts reported in Dec 2024.",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Two tracks, one clay and one sand.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "source_type": "forum",
+    "date": "2023-10"
+   },
+   {
+    "says": "Deep ruts on a December ride.",
+    "source_url": "https://www.youtube.com/watch?v=lqPJkpBvwao",
+    "source_type": "video",
+    "date": "2024-12"
+   },
+   {
+    "says": "Sand track moto; video places it in Westminster.",
+    "source_url": "https://www.youtube.com/watch?v=UQ8Fqe49Maw",
+    "source_type": "video",
+    "date": "2024-08"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=lqPJkpBvwao",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=UQ8Fqe49Maw",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Address, contacts, schedule"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "club-mole-creek-mx",
+  "name": "Club Mole Creek MX",
+  "aliases": [],
+  "state": "SC",
+  "city": "Enoree",
+  "county": "Spartanburg",
+  "address": "1150 Watson Road, Enoree, SC 29335",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "unknown",
+  "website": null,
+  "phone": "(864) 237-5533",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "hilly",
+   "traits": [
+    "off-camber",
+    "sand section"
+   ],
+   "notes": "Directory: 1+ mile with hills and a sand section."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "Directory says fully irrigated with sprinkler heads.",
+   "seasonal": ""
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/south_carolina_15230/ride_34c6.htm",
+    "title": "RiderPlanet USA - Club Mole Creek MX",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Current status; no recent rider reports"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "clubmx",
+  "name": "ClubMX Training Facility",
+  "aliases": [
+   "Club MX",
+   "Club MX PF",
+   "ClubMX"
+  ],
+  "state": "SC",
+  "city": "Chesterfield",
+  "county": "Chesterfield",
+  "address": "857 Croft Jones Rd, Chesterfield, SC 29709",
+  "lat": 34.708126,
+  "lng": -80.1661,
+  "types": [
+   "motocross",
+   "supercross",
+   "training"
+  ],
+  "access": "appointment",
+  "status": "open",
+  "website": "https://clubmx.com/",
+  "phone": "(843) 623-3409",
+  "facebook": "https://www.facebook.com/@ClubMx.Training/",
+  "instagram": "https://instagram.com/clubmx",
+  "tracks_on_site": [
+   "several outdoor MX tracks",
+   "several supercross tracks",
+   "public-practice track (front track)",
+   "sand track"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Chesterfield sits in the Carolina Sandhills. Riders describe the ClubMX layouts as true sand, with one forum thread calling the sand track among the gnarliest in the US; a 2025 visitor said the dirt was unreal. Exact mix per track not published.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "big",
+   "elevation_change": "unknown",
+   "traits": [
+    "deep ruts",
+    "sand",
+    "supercross sections"
+   ],
+   "notes": "Pro-level training campus (founded 2010, about 200 acres) with multiple MX and SX tracks. Public riders mostly get the practice/front track, which riders call technical but rideable for amateurs and vets; a 2018 poster said it can feel tight."
+  },
+  "conditions": {
+   "dry": "Sand ruts up deep during open practice; riders describe big jumps and deep ruts on the front track.",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "A 2018 forum poster said it is prepped and watered every weekend it is open.",
+   "seasonal": "Private facility; public days are posted (fall/winter open practices and vet ride schools). Not open midweek to the public per 2022 poster."
+  },
+  "rider_reports": [
+   {
+    "says": "Visitor at an open house called the facility special and the dirt outstanding; public riding mostly happens through winter, and the practice track is more technical but fine for amateurs and vets. Another poster said use may have shifted toward SX.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/track-recommendations-south-carolina",
+    "source_type": "forum",
+    "date": "2025-10"
+   },
+   {
+    "says": "Thread on the ClubMX sand track: poster called it extremely gnarly sand and was humbled on a first visit; others compared it to European sand tracks.",
+    "source_url": "https://www.vitalmx.com/comment/2441672",
+    "source_type": "forum",
+    "date": "2016-02"
+   },
+   {
+    "says": "Poster said ClubMX is prepped and watered every open weekend and is always on point, but can be a little tight and draws serious racers.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/North-Carolina-Tracks,1333768",
+    "source_type": "forum",
+    "date": "2018-01"
+   },
+   {
+    "says": "Youth rider's video says the front track has huge jumps and deep ruts.",
+    "source_url": "https://www.youtube.com/watch?v=A1h8l7KQZAk",
+    "source_type": "video",
+    "date": "2025-12"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/clubmx-training-facility-chesterfield",
+    "title": "MX Parks - ClubMX Training Facility listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/issue/september-2025/americas-fastest-neighborhood",
+    "title": "Racer X Magazine - America's Fastest Neighborhood (ClubMX feature, Sept 2025)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/track-recommendations-south-carolina",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/2441672",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/North-Carolina-Tracks,1333768",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=A1h8l7KQZAk",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://motocrossactionmag.com/brandon-haas-on-making-the-clubmx-training-facility-a-success",
+    "title": "MXA - Brandon Haas on ClubMX (c. 2022)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2014/02/03/inside-club-mx",
+    "title": "Racer X - Inside Club MX (2014)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2013/06/26/mxptv-the-sands-of-club-mx",
+    "title": "Racer X - The sands of Club MX (2013)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Which tracks the public can ride on a given open day",
+   "Per-track soil detail and watering method",
+   "Current public fees"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "dna-motocross-park",
+  "name": "DNA Motorsports Complex",
+  "aliases": [
+   "DNA MX",
+   "DNA MX Park"
+  ],
+  "state": "SC",
+  "city": "Saluda",
+  "county": "Saluda",
+  "address": "259 Mitchell Rd, Saluda, SC 29138",
+  "lat": 34.0412172,
+  "lng": -81.6471816,
+  "types": [
+   "motocross",
+   "supercross",
+   "flat_track"
+  ],
+  "access": "members",
+  "status": "open",
+  "website": "http://dnamotocrosspark.com/",
+  "phone": "(864) 321-1702",
+  "facebook": "https://facebook.com/DNAmotocomplex",
+  "instagram": "https://www.instagram.com/dna.motocross/",
+  "tracks_on_site": [
+   "MX day track",
+   "1/2 mi SX",
+   "clay flat track",
+   "kids turn track"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Listed as clay and mixed.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": "Rider says the day track has nice flow and cool jumps."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Day track has nice flow and some cool jumps (posted about 6 years before Nov 2026).",
+    "source_url": "https://www.youtube.com/watch?v=upW9oO4wts8",
+    "source_type": "video",
+    "date": null
+   },
+   {
+    "says": "Rider had the track alone and had to make his own ruts.",
+    "source_url": "https://www.youtube.com/watch?v=wlPjfc9yScs",
+    "source_type": "video",
+    "date": "2014-05"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/dna-motocross-park-saluda",
+    "title": "MX Parks - DNA Motorsports Complex listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=upW9oO4wts8",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=wlPjfc9yScs",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Recent reports"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "florence-center",
+  "name": "Florence Center",
+  "aliases": [],
+  "state": "SC",
+  "city": "Florence",
+  "county": "Florence",
+  "address": "3300 W Radio Dr, Florence, SC 29501",
+  "lat": 34.185694,
+  "lng": -79.837889,
+  "types": [
+   "arenacross"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": "https://www.florencecenter.com/",
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "temporary indoor arenacross track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Dirt is trucked in for events.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "tight",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": "Temporary arena-floor layout."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "TriStar MX's Red Line Oil Arenacross rounds 11-12 in Jan 2025; AMA Partzilla Arenacross East rounds 3-4 on Nov 6-7, 2026."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/florence-center-florence",
+    "title": "MX Parks - Florence Center listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://au.lifestyle.yahoo.com/neese-hill-sweep-south-carolina-183726773.html",
+    "title": "Red Line Oil Arenacross Rounds 11 & 12 results, Florence Center (Jan 2025)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.cyclenews.com/2026/10/article/2026-27-ama-arenacross-calendar/",
+    "title": "Cycle News - 2026-27 AMA Arenacross Calendar",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Rider reports on the AX track"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "h5-mx-compound",
+  "name": "H5 MX Compound",
+  "aliases": [],
+  "state": "SC",
+  "city": "Manning",
+  "county": "Clarendon",
+  "address": "2003 Driggers Lane, Manning, SC 29102",
+  "lat": 33.6864328,
+  "lng": -80.157996,
+  "types": [
+   "motocross",
+   "training"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": null,
+  "facebook": "https://www.facebook.com/profile.php?id=100088499353575",
+  "instagram": "https://www.instagram.com/h5mxcompound",
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Named as an option; no detail.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/track-recommendations-south-carolina",
+    "source_type": "forum",
+    "date": "2025-10"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/h5-mx-compound-manning",
+    "title": "MX Parks - H5 MX Compound listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/track-recommendations-south-carolina",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil",
+   "Layout",
+   "Rider reports"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "hannah-creek-mx",
+  "name": "Hannah Creek MX",
+  "aliases": [
+   "Hanna Creek MX"
+  ],
+  "state": "SC",
+  "city": "Enoree",
+  "county": "Spartanburg",
+  "address": "1175 Hanna Creek Road, Enoree, SC 29335",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "unknown",
+  "website": null,
+  "phone": "(828) 817-4593",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Directory lists red loamy soil; a rider video says the red clay was muddy.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "hilly",
+   "traits": [],
+   "notes": "Rider mentions hills."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "Muddy red clay on one rider's visit.",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Track was muddy and the red clay made it tough (posted about 3 years before Nov 2026).",
+    "source_url": "https://www.youtube.com/watch?v=6-UAV2hOQMo",
+    "source_type": "video",
+    "date": null
+   },
+   {
+    "says": "Mentioned as just off I-26.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "source_type": "forum",
+    "date": "2023-10"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/south_carolina_16545/ride_c33e.htm",
+    "title": "RiderPlanet USA - Hannah Creek MX",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=6-UAV2hOQMo",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Current status",
+   "Schedule"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "iron-city-mx",
+  "name": "Iron City Motorsports Park",
+  "aliases": [
+   "Iron City MX",
+   "Iron City"
+  ],
+  "state": "SC",
+  "city": "Blacksburg",
+  "county": "Cherokee",
+  "address": "120 Henson Road, Blacksburg, SC 29702",
+  "lat": 35.1207,
+  "lng": -81.5043,
+  "types": [
+   "motocross",
+   "supercross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": null,
+  "facebook": "https://www.facebook.com/ironcitymx/",
+  "instagram": "https://instagram.com/bigoakmx",
+  "tracks_on_site": [
+   "~1.4 mi main MX",
+   "supercross track"
+  ],
+  "soil": {
+   "primary": "loam",
+   "secondary": "clay",
+   "notes": "Listed as loam, clay and sawdust.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "rolling",
+   "traits": [],
+   "notes": "A 2023 poster said the current layout is a shortened version of the old track, expanded somewhat after a rebuild."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "Listing says groomed and irrigated.",
+   "seasonal": "Open on posted days; a poster said ride-day posts come too late to plan."
+  },
+  "rider_reports": [
+   {
+    "says": "Track is a much shorter version of its old layout; open-day announcements come late.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "source_type": "forum",
+    "date": "2023-10"
+   },
+   {
+    "says": "Holds open practice every so often.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-NC,1313098",
+    "source_type": "forum",
+    "date": null
+   },
+   {
+    "says": "Rider at a 2011 series race called the track awesome and really fast.",
+    "source_url": "https://www.youtube.com/watch?v=LImiGxMPwuQ",
+    "source_type": "video",
+    "date": "2011-09"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/iron-city-motorsports-park-blacksburg",
+    "title": "MX Parks - Iron City Motorsports Park listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-NC,1313098",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=LImiGxMPwuQ",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil and conditions from recent riders"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "lakeside-mx",
+  "name": "Lakeside MX",
+  "aliases": [],
+  "state": "SC",
+  "city": "Taylors",
+  "county": "Greenville",
+  "address": "199 Lynn Rd, Taylors, SC 29687",
+  "lat": 34.9760762,
+  "lng": -82.3390344,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "unknown",
+  "website": null,
+  "phone": "(864) 275-0383",
+  "facebook": "https://www.facebook.com/p/Lakeside-MX-100063704256049/",
+  "instagram": null,
+  "tracks_on_site": [
+   "1.2 mi MX",
+   "pee-wee track",
+   "1.3 mi woods loop"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Directory says Upstate red clay mix; not rider-confirmed.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/lakeside-mx-taylors",
+    "title": "MX Parks - Lakeside MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "No recent rider reports; current status unconfirmed"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "masters-motoplex",
+  "name": "The Master's Motoplex",
+  "aliases": [
+   "Masters Motoplex",
+   "Masters MX",
+   "GTR Complex",
+   "GTR"
+  ],
+  "state": "SC",
+  "city": "Gaston",
+  "county": "Lexington",
+  "address": "1465 SC-6, Gaston, SC 29053",
+  "lat": 33.7720622,
+  "lng": -81.1409475,
+  "types": [
+   "motocross",
+   "supercross",
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://mastersmotoplex.com",
+  "phone": "(803) 518-5690",
+  "facebook": "https://facebook.com/TheMastersMotoplex",
+  "instagram": "https://instagram.com/mastersmotoplex",
+  "tracks_on_site": [
+   "outdoor MX track",
+   "supercross track (lit)",
+   "MX2 track",
+   "sand GP turn track",
+   "25+ mi trails"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": "clay",
+   "notes": "Former GTR Complex; a 2022 poster described a large sand moto track, and the listing says the MX2 track is clay with sand sections. Riders call the dirt great.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "bowl turn",
+    "triple step-up",
+    "sand sections"
+   ],
+   "notes": "Big multi-track property (600+ acres). Main MX track on hilly ground with tabletops, a bowl turn and triple step-up. MX2 track got a long winding sand section in 2026."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "Changed owners in 2022; SX Challenge races under lights in summer. Membership plus ride fee."
+  },
+  "rider_reports": [
+   {
+    "says": "GTR (now Master's Motoplex) called great dirt under a new operator.",
+    "source_url": "https://www.vitalmx.com/comment/4643731",
+    "source_type": "forum",
+    "date": "2022-12"
+   },
+   {
+    "says": "As GTR: small SX track and a large sand moto track, open all week, with camping hookups.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Places-to-ride-during-the-week-in-NC-SC,1399527",
+    "source_type": "forum",
+    "date": "2022-02"
+   },
+   {
+    "says": "Poster called it excellent and better than CGI.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "source_type": "forum",
+    "date": "2023-10"
+   },
+   {
+    "says": "Rider family races there and calls it a fairly nice complex with regular races.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/track-recommendations-south-carolina",
+    "source_type": "forum",
+    "date": "2025-10"
+   },
+   {
+    "says": "MX2 track changes in 2026 added a long winding sand section; rider found them fun.",
+    "source_url": "https://www.youtube.com/watch?v=2ZD5KvPfCvc",
+    "source_type": "video",
+    "date": "2026-08"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/the-masters-motoplex-gaston",
+    "title": "MX Parks - The Master's Motoplex listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4643731",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Places-to-ride-during-the-week-in-NC-SC,1399527",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/track-recommendations-south-carolina",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=2ZD5KvPfCvc",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Watering routine",
+   "How the main track rides late day"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "myrtle-beach-mx",
+  "name": "Myrtle Beach MX",
+  "aliases": [
+   "Myrtle Beach ATV & MX Park"
+  ],
+  "state": "SC",
+  "city": null,
+  "county": "Horry",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "2022 poster called it a decent sand track.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Decent sand track about 30 minutes from the beach.",
+    "source_url": "https://www.vitalmx.com/comment/4643731",
+    "source_type": "forum",
+    "date": "2022-12"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/battery-park-offroad-park-nesmith",
+    "title": "MX Parks - Battery Park listing (says it replaced Myrtle Beach ATV & MX Park)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4643731",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Closure only implied by MX Parks; no address confirmed"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "nxt-level-101",
+  "name": "NXT LVL 101",
+  "aliases": [
+   "NXT Level 101",
+   "NXT LVL",
+   "Moto-Vated Sports Complex"
+  ],
+  "state": "SC",
+  "city": "Gray Court",
+  "county": "Laurens",
+  "address": "14499 Hwy 101 S, Gray Court, SC 29645",
+  "lat": 34.566049,
+  "lng": -82.189647,
+  "types": [
+   "motocross",
+   "supercross",
+   "arenacross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://www.sc-moto.com/nxt-lvl-101",
+  "phone": "(850) 251-9698",
+  "facebook": "https://www.facebook.com/nxtlvl101sc/",
+  "instagram": "https://www.instagram.com/NXTLVL101",
+  "tracks_on_site": [
+   "MX track",
+   "arenacross track",
+   "supercross track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Earlier operator at this address (Moto-Vated) listed sand, clay and pee-wee tracks.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "Rider video shows a muddy SX track on a riding-trip day.",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "Race series; free camping; lights."
+  },
+  "rider_reports": [
+   {
+    "says": "Called one of the best tracks around, but the day track is rarely open.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "source_type": "forum",
+    "date": "2023-10"
+   },
+   {
+    "says": "Rider said the track was perfect for A-B practice (posted about 4 years before Nov 2026).",
+    "source_url": "https://www.youtube.com/watch?v=hvAH6ugQAaQ",
+    "source_type": "video",
+    "date": null
+   },
+   {
+    "says": "Rider rode a muddy supercross track (posted about 3 years before Nov 2026).",
+    "source_url": "https://www.youtube.com/watch?v=Dq8mIA-0DD8",
+    "source_type": "video",
+    "date": null
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/nxt-level-101-gray-court",
+    "title": "MX Parks - NXT Level 101 listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/south_carolina_14334/ride_158b.htm",
+    "title": "RiderPlanet USA - Moto-Vated Sports Complex (same address)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=hvAH6ugQAaQ",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=Dq8mIA-0DD8",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil type",
+   "Open-practice frequency"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "oak-and-harrow-mx",
+  "name": "Oak & Harrow MX",
+  "aliases": [
+   "Oak and Harrow"
+  ],
+  "state": "SC",
+  "city": "Edgefield",
+  "county": "Edgefield",
+  "address": "320 McKendree Dr, Edgefield, SC 29824",
+  "lat": 33.952142,
+  "lng": -81.936619,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "open",
+  "website": null,
+  "phone": null,
+  "facebook": "https://www.facebook.com/oakandharrow/",
+  "instagram": "https://www.instagram.com/oakandharrow",
+  "tracks_on_site": [
+   "1.25+ mi main",
+   "youth track"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Listing says red Southeast dirt with several soil types across the layout.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "rolling",
+   "traits": [],
+   "notes": "Rolling hills with jumps, rollers and berms; a 2022 rider rode a new track direction."
+  },
+  "conditions": {
+   "dry": "Summer heat (90F+) limited one rider to five laps.",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Hot 90F+ day; new track direction; rider managed only a few laps in the humidity.",
+    "source_url": "https://www.youtube.com/watch?v=eMV04vX7xFY",
+    "source_type": "video",
+    "date": "2022-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/oak-harrow-mx-edgefield",
+    "title": "MX Parks - Oak & Harrow MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=eMV04vX7xFY",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Schedule and fees",
+   "Rider reports on soil"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "paradise-mx",
+  "name": "Paradise MX",
+  "aliases": [
+   "Paradise Motocross"
+  ],
+  "state": "SC",
+  "city": "Fairfax",
+  "county": "Allendale",
+  "address": "3312 Barton Road, Fairfax, SC 29827",
+  "lat": 32.9362964,
+  "lng": -81.2912654,
+  "types": [
+   "motocross",
+   "training"
+  ],
+  "access": "members",
+  "status": "open",
+  "website": null,
+  "phone": "(609) 618-5565",
+  "facebook": "https://www.facebook.com/paradisemotocross",
+  "instagram": "https://www.instagram.com/paradise_motocross",
+  "tracks_on_site": [
+   "national-style training track",
+   "vet track (added ~2025)",
+   "beginner track",
+   "StaCyc track"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": "clay",
+   "notes": "Listing describes a sand/clay/loam blend; a 2022 forum poster called it semi-sand. A rider said the new vet track has hardpack jump faces.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": "70-acre compound; vet track added after rider requests. Big renovation around 2025."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "A rider went there to escape wetter weather in the Midlands, suggesting it drains better than clay tracks (not confirmed).",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "Weekend public practice; members-only weekdays; Motofest each October."
+  },
+  "rider_reports": [
+   {
+    "says": "Posters praised a big recent renovation and called it an awesome track and facility.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/track-recommendations-south-carolina",
+    "source_type": "forum",
+    "date": "2025-10"
+   },
+   {
+    "says": "Described as a fun semi-sand track, usually open during the week (2022).",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Places-to-ride-during-the-week-in-NC-SC,1399527",
+    "source_type": "forum",
+    "date": "2022-02"
+   },
+   {
+    "says": "Called awesome and a favorite.",
+    "source_url": "https://www.vitalmx.com/comment/4643731",
+    "source_type": "forum",
+    "date": "2022-12"
+   },
+   {
+    "says": "Vet track review: new track built after riders asked, with hardpack jump faces (posted about 1 year before Nov 2026).",
+    "source_url": "https://www.youtube.com/watch?v=bJLdZth8wC8",
+    "source_type": "video",
+    "date": null
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/paradise-mx-fairfax",
+    "title": "MX Parks - Paradise MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/track-recommendations-south-carolina",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Places-to-ride-during-the-week-in-NC-SC,1399527",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4643731",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=bJLdZth8wC8",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Late-day behavior",
+   "Watering method"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "pine-grove-mx",
+  "name": "Pine Grove Motocross",
+  "aliases": [],
+  "state": "SC",
+  "city": "Westminster",
+  "county": "Oconee",
+  "address": "109 E. Spearman Road, Westminster, SC 29678",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "unknown",
+  "website": null,
+  "phone": "(864) 710-7613",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Directory lists earthy red soil.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/south_carolina_13486/ride_7afd.htm",
+    "title": "RiderPlanet USA - Pine Grove Motocross",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Status and rider reports"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "pineville-mx-park",
+  "name": "Pineville MX Park",
+  "aliases": [
+   "Pineville MX"
+  ],
+  "state": "SC",
+  "city": "Pineville",
+  "county": "Berkeley",
+  "address": "1812 Hwy 45, Pineville, SC 29468",
+  "lat": 33.430298,
+  "lng": -80.003148,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(843) 870-4639",
+  "facebook": "https://www.facebook.com/PinevilleMxPark/",
+  "instagram": "https://www.instagram.com/pinevillemxpark/",
+  "tracks_on_site": [
+   "main MX track",
+   "pee-wee track"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Listed as loose dirt and sand; a 2026 rider calls it one of the sandiest tracks around.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "big",
+   "elevation_change": "unknown",
+   "traits": [
+    "long main track",
+    "blind take-off jump"
+   ],
+   "notes": "Long, fast main track; listing gives jumps from about 15 to 115 ft. A rider mentions a big blind take-off jump."
+  },
+  "conditions": {
+   "dry": "Summer heat on sand is the main challenge per a 2026 rider.",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "Select weekends; weather-dependent; cash only. Bar to Bar series races."
+  },
+  "rider_reports": [
+   {
+    "says": "Rider logged 25-30 laps in summer heat and called it one of the sandiest tracks around.",
+    "source_url": "https://www.youtube.com/watch?v=JQonSJjTbQs",
+    "source_type": "video",
+    "date": "2026-08"
+   },
+   {
+    "says": "Rider finally cleared the big jump, noting its blind take-off.",
+    "source_url": "https://www.youtube.com/watch?v=-ffmB_zkN-0",
+    "source_type": "video",
+    "date": null
+   },
+   {
+    "says": "Named as a Lowcountry option that posts race and open days on Facebook.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/track-recommendations-south-carolina",
+    "source_type": "forum",
+    "date": "2025-10"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/pineville-mx-park-pineville",
+    "title": "MX Parks - Pineville MX Park listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=JQonSJjTbQs",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=-ffmB_zkN-0",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/track-recommendations-south-carolina",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "How it rides wet",
+   "Watering/prep routine"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "revolution-mx-park",
+  "name": "Revolution Motocross Park",
+  "aliases": [
+   "Revolution MX",
+   "Revolution Park Motocross",
+   "Revolution MX Track"
+  ],
+  "state": "SC",
+  "city": "Union",
+  "county": "Union",
+  "address": "2195 Carlisle Whitmire Hwy, Union, SC 29379",
+  "lat": 34.563927,
+  "lng": -81.504179,
+  "types": [
+   "motocross",
+   "supercross"
+  ],
+  "access": "members",
+  "status": "open",
+  "website": "https://revolutionmxtrack.com",
+  "phone": null,
+  "facebook": "https://www.facebook.com/p/Revolution-MX-Track-100088935945812/",
+  "instagram": "https://www.instagram.com/revolutionmxpark/",
+  "tracks_on_site": [
+   "1.2 mi national-style MX",
+   "supercross track",
+   "turn track",
+   "50cc track",
+   "2 mi woods loop"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Listed as red dirt (Upstate red clay).",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "big",
+   "elevation_change": "unknown",
+   "traits": [
+    "downhill start",
+    "supercross jumps"
+   ],
+   "notes": "Layout credited to builder Lonnie Taylor; 40-gate start with a long downhill launch."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "Listing says an underground watering system is used.",
+   "seasonal": "Club that opens to the public on posted weekend practice days."
+  },
+  "rider_reports": [
+   {
+    "says": "Poster rode it several times in 2023 and called it one of the best; has SX and MX tracks.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "source_type": "forum",
+    "date": "2023-10"
+   },
+   {
+    "says": "Second visit; rider called the track serious fun.",
+    "source_url": "https://www.youtube.com/watch?v=bO5yao3NZwY",
+    "source_type": "video",
+    "date": "2025-11"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/revolution-motocross-park-union",
+    "title": "MX Parks - Revolution Motocross Park listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=bO5yao3NZwY",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Rider descriptions of soil and wet behavior"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "sand-hill-motorsports-park",
+  "name": "Sand Hill Motorsports Park",
+  "aliases": [
+   "Sandhills MX",
+   "Sandhill Motorsports Park"
+  ],
+  "state": "SC",
+  "city": "Chesterfield",
+  "county": "Chesterfield",
+  "address": "2140 Angelus Road, Chesterfield, SC 29709",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "unknown",
+  "website": null,
+  "phone": "(843) 623-2036",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Directory lists mostly sand; rider describes it as a sand track.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "First time on sand; a blast once they got used to it.",
+    "source_url": "https://www.youtube.com/watch?v=B77iPbZt_Pw",
+    "source_type": "video",
+    "date": "2017-02"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/south_carolina_13489/ride_5410.htm",
+    "title": "RiderPlanet USA - Sand Hill Motorsports Park",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=B77iPbZt_Pw",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Current status; last rider report 2017"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "south-of-the-border-mx",
+  "name": "South of the Border Motocross",
+  "aliases": [
+   "SOBMX",
+   "South of the Border MX",
+   "SOB"
+  ],
+  "state": "SC",
+  "city": "Hamer",
+  "county": "Dillon",
+  "address": "3346 Hwy 301 N, Hamer, SC 29547",
+  "lat": 34.493496,
+  "lng": -79.306846,
+  "types": [
+   "motocross",
+   "supercross",
+   "arenacross",
+   "training"
+  ],
+  "access": "unknown",
+  "status": "open",
+  "website": "https://www.sobmx.com/",
+  "phone": "(803) 757-9580",
+  "facebook": "https://www.facebook.com/p/SOBMX-100057232737039/",
+  "instagram": "https://www.instagram.com/sobmx/",
+  "tracks_on_site": [
+   "1.4 mi MX track",
+   "1.1 mi MX track",
+   "supercross track (licensed riders)",
+   "arenacross track (licensed riders)"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "A 2011 track notice said the soil is very similar to Gatorback (Florida); rider video shows a dedicated sand track. Treat as sand-based.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": "Two outdoor loops plus SX and AX tracks on the South of the Border grounds off I-95."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "Known for winter amateur events and Loretta Lynn area qualifiers; forum posters describe it as mostly private outside events but good for week-long winter riding sessions."
+  },
+  "rider_reports": [
+   {
+    "says": "Track notice: outdoor track redone for Mini O's practice; soil compared to Gatorback.",
+    "source_url": "https://racerxonline.com/2011/11/16/mini-os-practice-at-south-of-the-border",
+    "source_type": "track",
+    "date": "2011-11"
+   },
+   {
+    "says": "Onboard video of the SOB sand track (posted about 2 years before Nov 2026).",
+    "source_url": "https://www.youtube.com/watch?v=xbjwBbqT8xI",
+    "source_type": "video",
+    "date": null
+   },
+   {
+    "says": "Poster said South of the Border is mostly private.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/North-Carolina-Tracks,1333768",
+    "source_type": "forum",
+    "date": "2018-01"
+   },
+   {
+    "says": "Posters called it affordable and fun for week-long riding sessions.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-NC,1313098",
+    "source_type": "forum",
+    "date": null
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/south-of-the-border-motocross-sobmx-hamer",
+    "title": "MX Parks - South of the Border Motocross (SOBMX) listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2011/11/16/mini-os-practice-at-south-of-the-border",
+    "title": "Track page",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=xbjwBbqT8xI",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/North-Carolina-Tracks,1333768",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-NC,1313098",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Current public practice access and fees",
+   "Watering/prep routine"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "strawberry-hill-mx",
+  "name": "Strawberry Hill Motocross Raceway",
+  "aliases": [
+   "Strawberry Hill",
+   "Strawberry Hill MX",
+   "Strawberry Hill Cycle Park"
+  ],
+  "state": "SC",
+  "city": "Fountain Inn",
+  "county": "Greenville",
+  "address": "305 Terry Rd, Fountain Inn, SC 29644",
+  "lat": 34.613858,
+  "lng": -82.274805,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": "(864) 483-1993",
+  "facebook": "https://www.facebook.com/strawberryhillraceway/",
+  "instagram": null,
+  "tracks_on_site": [
+   "~1 mi main MX",
+   "kids track",
+   "2 mi woods loop"
+  ],
+  "soil": {
+   "primary": "loam",
+   "secondary": null,
+   "notes": "Listing calls it loamy natural terrain; riders describe it as old-school natural terrain.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "hilly",
+   "traits": [
+    "natural terrain",
+    "braking bumps",
+    "elevation"
+   ],
+   "notes": "Built in the 1970s; riders call it a fun 80s-style track."
+  },
+  "conditions": {
+   "dry": "A May 2026 rider said the track was prime by afternoon before rain hit.",
+   "wet": "Another May 2026 rider found it a little wet in practice but it dried into a fun track.",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "Regular schedule ended in spring 2026 (per MX Parks); occasional one-off events since."
+  },
+  "rider_reports": [
+   {
+    "says": "Called a fun old-school, mostly natural-terrain track; one poster found it closed on a July 2023 visit.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "source_type": "forum",
+    "date": "2023-10"
+   },
+   {
+    "says": "Race-day rider said the track was prime and felt on rails until a storm hit.",
+    "source_url": "https://www.youtube.com/watch?v=cKqt0eMGr84",
+    "source_type": "video",
+    "date": "2026-05"
+   },
+   {
+    "says": "A little wet in practice but dried into a fun track; second moto was better.",
+    "source_url": "https://www.youtube.com/watch?v=FPL2AB0_Zn0",
+    "source_type": "video",
+    "date": "2026-05"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/strawberry-hill-motocross-raceway-fountain-inn",
+    "title": "MX Parks - Strawberry Hill Motocross Raceway listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=cKqt0eMGr84",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=FPL2AB0_Zn0",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Closure reported only by MX Parks; confirm whether any events continue"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "the-cut-mx",
+  "name": "The Cut MX",
+  "aliases": [
+   "The Cut"
+  ],
+  "state": "SC",
+  "city": "Easley",
+  "county": "Pickens",
+  "address": "4486 Old Easley Bridge Rd, Easley, SC 29642",
+  "lat": 34.82,
+  "lng": -82.5017543,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(864) 346-1523",
+  "facebook": "https://www.facebook.com/thecutmxpark",
+  "instagram": null,
+  "tracks_on_site": [
+   "main MX"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Listed as hard-pack red clay.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "tight",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": "Newer and small, about one-minute laps."
+  },
+  "conditions": {
+   "dry": "Deep ruts in places (Nov 2024 rider).",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "Clay is disced and watered; opens around weather.",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Newer, small track but good fun.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "source_type": "forum",
+    "date": "2023-10"
+   },
+   {
+    "says": "Nice day with some deep ruts here and there (Nov 2024 per title).",
+    "source_url": "https://www.youtube.com/watch?v=AYNR5ntsgW0",
+    "source_type": "video",
+    "date": "2024-11"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/the-cut-mx-easley",
+    "title": "MX Parks - The Cut MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=AYNR5ntsgW0",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Wet behavior"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "the-shoals-mx",
+  "name": "The Shoals MX",
+  "aliases": [
+   "The Shoals",
+   "Shoals MX"
+  ],
+  "state": "SC",
+  "city": "Donalds",
+  "county": "Abbeville",
+  "address": "7614 US-178 N, Donalds, SC 29638",
+  "lat": 34.358041,
+  "lng": -82.313214,
+  "types": [
+   "motocross",
+   "supercross",
+   "training"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "http://www.theshoalsmx.com/",
+  "phone": "(864) 391-6090",
+  "facebook": "https://www.facebook.com/theshoalsmx/",
+  "instagram": "https://www.instagram.com/the_shoals_mx/",
+  "tracks_on_site": [
+   "several MX tracks including a clay track",
+   "lit night track",
+   "supercross track",
+   "woods trails"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Listed as red dirt; a rider video labels one of the tracks as the clay track. Riders praise the dirt as some of the best they have ridden.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "multiple tracks",
+    "night track"
+   ],
+   "notes": "Founded by Steward Baylor Jr.; about 200 acres with several MX loops, a lit night track and SX track."
+  },
+  "conditions": {
+   "dry": "A 2019 rider found it a little dry because a water truck was down, but still good.",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "Water-truck prep (per rider video).",
+   "seasonal": "Riders advise confirming open practice before going; hosts Loretta Lynn area qualifiers."
+  },
+  "rider_reports": [
+   {
+    "says": "Called awesome with some of the best dirt the poster has ridden; check it is open before going.",
+    "source_url": "https://www.vitalmx.com/comment/4643731",
+    "source_type": "forum",
+    "date": "2022-12"
+   },
+   {
+    "says": "Recommended as a must visit and more fun than ClubMX because it has multiple tracks.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Places-to-ride-during-the-week-in-NC-SC,1399527",
+    "source_type": "forum",
+    "date": "2022-02"
+   },
+   {
+    "says": "First visit: great facility; track a little dry because a water truck was down but still good.",
+    "source_url": "https://www.youtube.com/watch?v=Loe3NY0_SJc",
+    "source_type": "video",
+    "date": "2019-02"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/the-shoals-mx-donalds",
+    "title": "MX Parks - The Shoals MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4643731",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Places-to-ride-during-the-week-in-NC-SC,1399527",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=Loe3NY0_SJc",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Current open-practice days and fees",
+   "How the red clay rides wet"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "timber-valley-mx",
+  "name": "Timber Valley MX",
+  "aliases": [
+   "Timbervalley MX"
+  ],
+  "state": "SC",
+  "city": "Ware Shoals",
+  "county": "Greenwood",
+  "address": "436 Elledge Rd, Ware Shoals, SC 29692",
+  "lat": 34.417639,
+  "lng": -82.204489,
+  "types": [
+   "motocross",
+   "supercross"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": "(864) 552-0056",
+  "facebook": "https://www.facebook.com/profile.php?id=61577953933878",
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "loam",
+   "secondary": null,
+   "notes": "Listed as loam, deep-tilled.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Rider review: track coming along with nice conditions that day.",
+    "source_url": "https://www.youtube.com/watch?v=NUhArR1AHU8",
+    "source_type": "video",
+    "date": "2025-12"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/timber-valley-mx-ware-shoals",
+    "title": "MX Parks - Timber Valley MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=NUhArR1AHU8",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Closure (Aug 2026) reported only by MX Parks"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "tnt-motorsports-park",
+  "name": "TNT Motorsports Park",
+  "aliases": [
+   "TNT",
+   "TNT Sports MX"
+  ],
+  "state": "SC",
+  "city": "Chester",
+  "county": "Chester",
+  "address": "1502 Brown Rd, Chester, SC 29706",
+  "lat": 34.642294,
+  "lng": -81.069244,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "public",
+  "status": "unknown",
+  "website": "https://tntsportsmx.com/",
+  "phone": null,
+  "facebook": "https://www.facebook.com/p/TNT-Motorsports-100090121350594/",
+  "instagram": null,
+  "tracks_on_site": [
+   "several MX tracks",
+   "~18 mi trails"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Listed as mixed dirt.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "A 2012 rider found the tracks tacky with the right amount of water.",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Tracks were great, watered just right and tacky.",
+    "source_url": "https://www.youtube.com/watch?v=CZULpJo6PXs",
+    "source_type": "video",
+    "date": "2012-01"
+   },
+   {
+    "says": "Two posters said TNT had closed and the land sat unused; another said it had varied riding but was not always kept perfect.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/North-Carolina-Tracks,1333768",
+    "source_type": "forum",
+    "date": "2018-01"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/tnt-motorsports-park-chester",
+    "title": "MX Parks - TNT Motorsports Park listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=CZULpJo6PXs",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/North-Carolina-Tracks,1333768",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Status conflict: MX Parks lists it open daily, 2018 forum posters said closed"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "travelers-rest-mx",
+  "name": "Travelers Rest Speedway / TR MX",
+  "aliases": [
+   "TR MX",
+   "Travelers Rest MX",
+   "TR Speedway"
+  ],
+  "state": "SC",
+  "city": "Travelers Rest",
+  "county": "Greenville",
+  "address": "1452 US-25, Travelers Rest, SC 29690",
+  "lat": 35.022606,
+  "lng": -82.412102,
+  "types": [
+   "motocross",
+   "supercross"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": "https://trspeedwaysc.com/",
+  "phone": "(786) 402-8088",
+  "facebook": "https://www.facebook.com/p/Travelers-Rest-Mx-100055718456296/",
+  "instagram": "https://instagram.com/trspeedway",
+  "tracks_on_site": [
+   "day MX track",
+   "lit night SX track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "June 2019 rider practiced in mud.",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "Mostly a summer night series; day track rarely open per 2023 poster."
+  },
+  "rider_reports": [
+   {
+    "says": "Has an SX track; usually open only for the summer night series.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "source_type": "forum",
+    "date": "2023-10"
+   },
+   {
+    "says": "Practice in the mud.",
+    "source_url": "https://www.youtube.com/watch?v=xtAVrRIxhZE",
+    "source_type": "video",
+    "date": "2019-06"
+   },
+   {
+    "says": "Listed as a fun track.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/winter-riding-down-south-recommendations-coming-new-england",
+    "source_type": "forum",
+    "date": "2024-10"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/travelers-rest-speedway-tr-mx-travelers-rest",
+    "title": "MX Parks - Travelers Rest Speedway / TR MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=xtAVrRIxhZE",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/winter-riding-down-south-recommendations-coming-new-england",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil type"
+  ],
+  "research_file": "sc.json"
+ },
+ {
+  "id": "turkey-creek-mx",
+  "name": "Turkey Creek MX",
+  "aliases": [
+   "Turkey Creek Motocross"
+  ],
+  "state": "SC",
+  "city": "Edgefield",
+  "county": "Edgefield",
+  "address": "188 Morgan Bussey Rd, Edgefield, SC 29824",
+  "lat": 33.8566555,
+  "lng": -82.0372666,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(803) 637-6747",
+  "facebook": "https://www.facebook.com/turkeycreekmx/",
+  "instagram": null,
+  "tracks_on_site": [
+   "1-3/8 mi main",
+   "beginner/pee-wee track",
+   "TT/scrambles track"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": "sand",
+   "notes": "Listed as intermediate-to-hardpack clay with sand.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "big",
+   "elevation_change": "unknown",
+   "traits": [
+    "off-camber",
+    "step-up triple",
+    "ruts"
+   ],
+   "notes": "Listing names a big step-up triple and 70 ft doubles. A 2018 rider said a rebuild made it flow well though jumps could be bigger."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "Listing says crew waters and tills during riding hours.",
+   "seasonal": "Weekend practice; hosts SCMX series; call before going."
+  },
+  "rider_reports": [
+   {
+    "says": "After a rebuild the track flowed really well; jumps could be bigger.",
+    "source_url": "https://www.youtube.com/watch?v=mp5PKfCcw0Y",
+    "source_type": "video",
+    "date": "2018-02"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/south-carolina/turkey-creek-mx-edgefield",
+    "title": "MX Parks - Turkey Creek MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=mp5PKfCcw0Y",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Recent rider reports",
+   "Wet behavior"
+  ],
+  "research_file": "sc.json"
+ }
+]

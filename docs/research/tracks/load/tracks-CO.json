@@ -1,0 +1,100 @@
+[
+ {
+  "id": "thunder-valley-mx",
+  "name": "Thunder Valley Motocross Park",
+  "aliases": [
+   "Thunder Valley",
+   "TVMX",
+   "Lakewood"
+  ],
+  "state": "CO",
+  "city": "Lakewood",
+  "county": "Jefferson",
+  "address": "701 South Rooney Road, Lakewood, CO 80401",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://www.tvmx.net/",
+  "phone": "(303) 988-3889",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main track (~1 mile)",
+   "peewee track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "No reliable source names the native soil. Race coverage notes softer dirt is brought in before the national and that roost is largely rocks. A track-guide site calls it decomposed granite, but that site's other data was wrong, so it is not used.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "big",
+   "elevation_change": "hilly",
+   "traits": [
+    "altitude (6,000+ ft)",
+    "rocky roost",
+    "deep ruts",
+    "uphill start",
+    "downhill-sloping tabletops"
+   ],
+   "notes": "Foothills track above Denver at roughly 6,100-6,400 ft. Uphill start into a right-hander. Thin air cuts engine power so jumps are harder to clear and riders cannot use power to cover mistakes."
+  },
+  "conditions": {
+   "dry": "Rocky roost is a constant hazard; riders steer off the main line to avoid it.",
+   "wet": "After a rainy week (2025) the dirt stayed soft and rutty all day with ruts everywhere; unrepaired sections got Endurocross-like.",
+   "late_day": "Deteriorates within each moto; crews rework sections between motos.",
+   "watering_prep": "Imported dirt worked in before nationals; heavy equipment between motos.",
+   "seasonal": "Public riding Wed-Fri 10am-dusk, weekends 9am-5pm per directory. Hosts an early-June Pro national; hosted the 2010 Motocross of Nations."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: after rain all week the track was soft and rutty everywhere; altitude sapped power and fitness. Advice: carry power deeper and brake closer to the corner since the soft dirt slows the bike; teams remapped for the uphill start.",
+    "source_url": "https://racerxonline.com/2025/06/09/thomas-on-lawrence-his-race-mind-is-one-of-the-best-ive-ever-seen",
+    "source_type": "article",
+    "date": "2025-06"
+   },
+   {
+    "says": "Analyst: brutal ruts and rocky roost; weight the outside peg on exits, lift the inside leg in ruts, and jump right-to-left onto a tabletop as the ground falls away.",
+    "source_url": "https://racerxonline.com/2018/06/05/breakdown-thunder-valley",
+    "source_type": "article",
+    "date": "2018-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://promotocross.com/race/thunder-valley-national/track",
+    "title": "Pro Motocross - Thunder Valley track page",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/colorado_10643/ride_14ba.htm",
+    "title": "RiderPlanet USA - Thunder Valley (hours, elevation)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2025/06/09/thomas-on-lawrence-his-race-mind-is-one-of-the-best-ive-ever-seen",
+    "title": "Racer X - Thomas on Thunder Valley 2025",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2018/06/05/breakdown-thunder-valley",
+    "title": "Racer X - Breakdown: Thunder Valley 2018",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Native soil type",
+   "Coordinates",
+   "Dry-day hardness and braking-bump behavior",
+   "Jetting/mapping specifics for amateurs"
+  ],
+  "research_file": "nationals.json"
+ }
+]

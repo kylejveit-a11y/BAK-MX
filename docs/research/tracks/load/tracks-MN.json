@@ -1,0 +1,111 @@
+[
+ {
+  "id": "spring-creek-mx",
+  "name": "Spring Creek MX Park",
+  "aliases": [
+   "Spring Creek",
+   "Millville",
+   "Spring Creek National"
+  ],
+  "state": "MN",
+  "city": "Millville",
+  "county": "Wabasha",
+  "address": "63633 298th Avenue, Millville, MN 55957",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": "https://www.springcreekmotocross.com/",
+  "phone": "(507) 753-2779",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "national MX track (lit)",
+   "hare scramble trails"
+  ],
+  "soil": {
+   "primary": "mixed",
+   "secondary": "sand",
+   "notes": "Mix of sand sections (notably the sand whoops) and hardpack; billed as some of the richest soil on the circuit with strong traction. Rain makes the dirt thick and muddy.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "big",
+   "elevation_change": "hilly",
+   "traits": [
+    "sand whoops",
+    "steep downhill",
+    "off-camber",
+    "deep ruts in long right-hander",
+    "tight first turn"
+   ],
+   "notes": "In the Mississippi River valley by the creek. Steep downhills (steeper than TV shows), uphills, off-cambers, sand whoops into a triple; long fast first right narrows sharply and causes pileups."
+  },
+  "conditions": {
+   "dry": "Strong traction; considered easy to set up compared with Southwick.",
+   "wet": "Rain makes dirt thick; mud makes bikes hard to hold; tractors may not get onto wet sections.",
+   "late_day": "Gets rougher through the day; distinct inside/outside lines form in fast turns on rough days; long right-hander always ruts deep.",
+   "watering_prep": "Groomed and watered; crew preps heavily for nationals.",
+   "seasonal": "Open practice on select Saturdays (about twice a month); MN OHV permit required. Pro national each July since 1983 (first pro event 1982)."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: momentum through the first chicane and sand whoops decides whether you clear the triple; work with the track rather than muscling berms; rain before moto two caused crashes.",
+    "source_url": "https://racerxonline.com/2024/07/15/breakdown-spring-creek",
+    "source_type": "article",
+    "date": "2024-07"
+   },
+   {
+    "says": "Analyst: sand whoops, big hills, off-cambers and hardpack with strong traction; easy to dial in; first turn invites contact.",
+    "source_url": "https://racerxonline.com/2023/07/17/breakdown-spring-creek",
+    "source_type": "article",
+    "date": "2023-07"
+   },
+   {
+    "says": "Technique breakdown: keep weight back and front light in sand whoops, stand through downhills, point toes in to avoid catching ruts, use clutch on downhills, keep momentum in mud on a 250.",
+    "source_url": "https://racerxonline.com/2015/07/21/breakdown-spring-creek-technique",
+    "source_type": "article",
+    "date": "2015-07"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://promotocross.com/race/spring-creek-national/track",
+    "title": "Pro Motocross - Spring Creek track page",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://riderplanet-usa.com/atv/trails/info/minnesota_09359/ride_3e62.htm",
+    "title": "RiderPlanet USA - Spring Creek MX Park",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2024/07/15/breakdown-spring-creek",
+    "title": "Racer X - Breakdown: Spring Creek 2024",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2023/07/17/breakdown-spring-creek",
+    "title": "Racer X - Breakdown: Spring Creek 2023",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2015/07/21/breakdown-spring-creek-technique",
+    "title": "Racer X - Breakdown: Spring Creek technique 2015",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [
+   "Coordinates",
+   "Exact soil mix (loam vs sand share) - sources only name sand and hardpack",
+   "County inferred from Millville location, not stated by a source"
+  ],
+  "research_file": "nationals.json"
+ }
+]

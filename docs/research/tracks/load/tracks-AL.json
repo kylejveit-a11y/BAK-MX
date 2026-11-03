@@ -1,0 +1,2945 @@
+[
+ {
+  "id": "atmore-mx-park",
+  "name": "Atmore MX Park",
+  "aliases": [
+   "Atmore Motox Park",
+   "Atmore MX",
+   "Atmore Motocross Park"
+  ],
+  "state": "AL",
+  "city": "Atmore",
+  "county": "Escambia",
+  "address": "1022 Hope Grant Rd, Atmore, AL 36502",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "former main track",
+   "former pee-wee track"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Rider (2011) says almost all sand; directory agrees sand-based.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "big",
+   "elevation_change": "rolling",
+   "traits": [
+    "very wide (4+ lines)",
+    "75 ft triple",
+    "65 ft double"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [
+   {
+    "says": "Rider says it is almost all sand.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-Alabama,1225581",
+    "source_type": "forum",
+    "date": "2011-10"
+   },
+   {
+    "says": "Rider says the owner kept adding sections and freshening the track.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Motocross-in-Alabama,1342350",
+    "source_type": "forum",
+    "date": "2018-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/atmore-mx-park-atmore",
+    "title": "MX Parks - Atmore MX Park (Closed)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_07308/ride_7ebd.htm",
+    "title": "RiderPlanet USA - Atmore Motox Park (closed)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Closure date",
+   "Directory coordinates duplicate another track and were not used"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "big-springs-motocross",
+  "name": "Big Springs Motocross",
+  "aliases": [
+   "Big Springs",
+   "Big Springs MX"
+  ],
+  "state": "AL",
+  "city": "Woodland",
+  "county": "Randolph",
+  "address": "179 County Rd 621, Woodland, AL 36280",
+  "lat": 33.2946128,
+  "lng": -85.3387374,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(678) 925-8704",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "medium",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": "Rider says there are options to go big but it is safe and well built."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "Secondhand: said to be good after a rain.",
+   "late_day": "unknown",
+   "watering_prep": "Rider says the owner takes very good care of the track.",
+   "seasonal": "Posted weekends, usually gates 8 and riding 9-2; $40 cash."
+  },
+  "rider_reports": [
+   {
+    "says": "Riders recommend it as safe and well built with options to go big.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-mx-tracks,1397180",
+    "source_type": "forum",
+    "date": "2021-12"
+   },
+   {
+    "says": "Poster calls it worth the drive; another heard it is good after a rain.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-Tracks-for-a-trip-south,1388051",
+    "source_type": "forum",
+    "date": "2021-02"
+   },
+   {
+    "says": "Rider says the owner takes very good care of the track (placed near Roanoke on the GA line).",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/alabama-tracks",
+    "source_type": "forum",
+    "date": "2023-03"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/big-springs-motocross-woodland",
+    "title": "MX Parks - Big Springs Motocross",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Soil",
+   "Track length"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "birmingham-supercross",
+  "name": "Birmingham Supercross (Protective Stadium)",
+  "aliases": [
+   "Birmingham SX",
+   "Protective Stadium"
+  ],
+  "state": "AL",
+  "city": "Birmingham",
+  "county": "Jefferson",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "supercross"
+  ],
+  "access": "private",
+  "status": "seasonal",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "temporary pro SX track inside Protective Stadium"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "2025 preview describes red clay that grips well when dry.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "tight",
+   "jumps": "big",
+   "elevation_change": "unknown",
+   "traits": [
+    "whoops",
+    "bowl berms",
+    "rhythm sections"
+   ],
+   "notes": "2024 debut layout had a full-length start, netted bowl berms and long rhythm lanes."
+  },
+  "conditions": {
+   "dry": "Red clay gives strong traction when dry.",
+   "wet": "2024 debut was rain-affected; dirt went in very wet and the layout was expected to change.",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "AMA Supercross round in March: 2024 (debut), Mar 22 2025, Mar 21 2026."
+  },
+  "rider_reports": [
+   {
+    "says": "Preview of the debut: rain forecast and very wet dirt going in; expected layout changes.",
+    "source_url": "https://racerxonline.com/2024/03/07/staging-area-birmingham",
+    "source_type": "article",
+    "date": "2024-03"
+   },
+   {
+    "says": "Preview of the second visit: red clay should give great traction in the better weather forecast.",
+    "source_url": "https://racerxonline.com/2025/03/20/what-to-expect-in-supercross-second-visit-to-birmingham",
+    "source_type": "article",
+    "date": "2025-03"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://racerxonline.com/2024/03/07/staging-area-birmingham",
+    "title": "Racer X - Staging Area: Birmingham (2024)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2025/03/20/what-to-expect-in-supercross-second-visit-to-birmingham",
+    "title": "Racer X - Second visit to Birmingham (2025)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/2026_AMA_Supercross_Championship",
+    "title": "2026 AMA Supercross Championship",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Post-race rider accounts of breakdown",
+   "Address/coordinates not verified"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "cash-brothers-mx",
+  "name": "Cash Brothers MX",
+  "aliases": [
+   "Cash Brothers"
+  ],
+  "state": "AL",
+  "city": "Vance",
+  "county": "Tuscaloosa",
+  "address": "21268 Washington Dr, Vance, AL 35490",
+  "lat": 33.2973596,
+  "lng": -87.1374249,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(205) 765-3963",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Sweet Home Alabama MX Series venue."
+  },
+  "rider_reports": [
+   {
+    "says": "Named as an Alabama track; no detail.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/alabama-tracks",
+    "source_type": "forum",
+    "date": "2023-03"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/cash-brothers-mx-vance",
+    "title": "MX Parks - Cash Brothers MX",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil and layout",
+   "Whether it is the same site as the older Cadillac Ranch MX in Vance (2011 rider: mostly red clay, some hardpack)"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "chandler-mountain-mx",
+  "name": "Chandler Mountain MX",
+  "aliases": [],
+  "state": "AL",
+  "city": "Steele",
+  "county": "St. Clair",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Directory says it was a sandy track.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [
+   {
+    "says": "Rider confirms it is closed.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-Alabama,1225581",
+    "source_type": "forum",
+    "date": "2011-10"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_09375/ride_7fb9.htm",
+    "title": "RiderPlanet USA - Chandler Mountain MX (closed)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Address"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "choccolocco-mountain-orv",
+  "name": "Choccolocco Mountain ORV Park and Campground",
+  "aliases": [
+   "Choccolocco"
+  ],
+  "state": "AL",
+  "city": "Jacksonville",
+  "county": "Calhoun",
+  "address": "1312 Louise Dr SE, Jacksonville, AL 36265",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(256) 365-0311",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "450 acres of marked, rated trails"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Fri-Sun and holiday weekends."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_14561/ride_bec1.htm",
+    "title": "RiderPlanet USA - Choccolocco Mountain ORV Park",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil",
+   "Dirt-bike-specific reports"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "corner-mx-park",
+  "name": "Corner Motocross Park",
+  "aliases": [
+   "Corner MX",
+   "Corner MX Park"
+  ],
+  "state": "AL",
+  "city": "Dora",
+  "county": "Walker",
+  "address": "9705 Trammel Rd, Dora, AL 35062",
+  "lat": 33.790878,
+  "lng": -86.9704068,
+  "types": [
+   "motocross",
+   "arenacross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(205) 647-6949",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "outdoor arenacross track",
+   "MX track",
+   "pee-wee track",
+   "quad track"
+  ],
+  "soil": {
+   "primary": "loam",
+   "secondary": "sand",
+   "notes": "Two directories describe dark, soft, rich loam; a 2011 rider called it pretty sandy.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "rolling",
+   "traits": [
+    "doubles",
+    "triples",
+    "step-ups",
+    "tabletops"
+   ],
+   "notes": "Built into natural rolling hills with scattered trees."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Call for dates. Hosts CowTown Promotions / Alabama Arenacross (AAX) outdoor arenacross."
+  },
+  "rider_reports": [
+   {
+    "says": "Rider says it is pretty sandy.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-Alabama,1225581",
+    "source_type": "forum",
+    "date": "2011-10"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/corner-motocross-park-dora",
+    "title": "MX Parks - Corner Motocross Park",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_01810/ride_3f38.htm",
+    "title": "RiderPlanet USA - Corner Motocross Park",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.facebook.com/AlabamaArenacrossSeriesAAX/",
+    "title": "Alabama Arena Cross Series (AAX) Facebook",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Recent rider reports",
+   "AAX schedule"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "crossbone-mx-ranch",
+  "name": "Crossbone MX Ranch",
+  "aliases": [
+   "Crossbones",
+   "Cross Bones MX",
+   "Crossbone MX"
+  ],
+  "state": "AL",
+  "city": "Billingsley",
+  "county": "Autauga",
+  "address": "2417 County Rd 53, Billingsley, AL 36006",
+  "lat": 32.673456,
+  "lng": -86.675997,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(334) 425-7546",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main MX track"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": "clay",
+   "notes": "Riders (2011, 2018) and directory agree it is mostly sand with a little red clay; sprinkler system.",
+   "confidence": "high"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "sand berms",
+    "deep turns"
+   ],
+   "notes": "Riders call it fun and very vet-friendly."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "Full sprinkler system per directory.",
+   "seasonal": "Listed daily 8:30-5; hosts Sweet Home Alabama MX and SE Quads races."
+  },
+  "rider_reports": [
+   {
+    "says": "Rider says almost totally sand with a little red clay.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-Alabama,1225581",
+    "source_type": "forum",
+    "date": "2011-10"
+   },
+   {
+    "says": "Rider says it is fun but gate drops were small; another confirms sand.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Motocross-in-Alabama,1342350",
+    "source_type": "forum",
+    "date": "2018-06"
+   },
+   {
+    "says": "Rider calls it extremely vet-friendly.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/alabama-tracks",
+    "source_type": "forum",
+    "date": "2023-03"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/crossbone-mx-ranch-billingsley",
+    "title": "MX Parks - Crossbone MX Ranch",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-Alabama,1225581",
+    "title": "Vital MX - Tracks in Alabama (2011)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Track length and jump sizes",
+   "Late-day sand ruts"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "cullman-ag-trade-center",
+  "name": "Cullman County Agricultural Trade Center (arenacross)",
+  "aliases": [
+   "Cullman Ag Center",
+   "Outlaw Arenacross Cullman"
+  ],
+  "state": "AL",
+  "city": "Cullman",
+  "county": "Cullman",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "arenacross"
+  ],
+  "access": "private",
+  "status": "seasonal",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "temporary indoor arenacross track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Hosted Outlaw Arenacross (OAX) Pro-Am rounds July 27, Aug 3 and Aug 10, 2024."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.cullmantribune.com/2024/07/06/outlaw-arenacross-pro-am-event-coming-to-cullman-fundraiser-for-cullman-caring-for-kids/",
+    "title": "Cullman Tribune - Outlaw Arenacross in Cullman (2024)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Address",
+   "Whether OAX returned after 2024",
+   "Not a TriStar or Mid-South venue"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "deer-run-mx",
+  "name": "Deer Run MX",
+  "aliases": [],
+  "state": "AL",
+  "city": "Hanceville",
+  "county": "Cullman",
+  "address": "County Rd 508, Hanceville, AL 35077",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [
+   {
+    "says": "Rider says it had been closed a few years; owners focus on SECCA off-road racing but might reopen for practice.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Motocross-in-Alabama,1342350",
+    "source_type": "forum",
+    "date": "2018-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_14758/ride_d7c2.htm",
+    "title": "RiderPlanet USA - Deer Run MX (appears closed)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil",
+   "Layout"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "dodge-city-motosports",
+  "name": "Dodge City Motosports",
+  "aliases": [
+   "Dodge City MX",
+   "Dodge City MX Park",
+   "Dodge City Moto Park"
+  ],
+  "state": "AL",
+  "city": "Bremen",
+  "county": "Cullman",
+  "address": "10070 AL Hwy 69 S, Bremen, AL 35033",
+  "lat": 33.9688622,
+  "lng": -86.9941294,
+  "types": [
+   "motocross",
+   "supercross",
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://dodgecitymotopark.com",
+  "phone": "(256) 759-0072",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main MX track",
+   "night/supercross track (lit)",
+   "GP track",
+   "kids track",
+   "trails"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Organized practice and AMA races (e.g. Allstar Showdown, April 2024); free primitive camping. Next door to Stony Lonesome OHV Park."
+  },
+  "rider_reports": [
+   {
+    "says": "Rider says it is fairly new and the operators are working hard to make it good.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/alabama-tracks",
+    "source_type": "forum",
+    "date": "2023-03"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/dodge-city-motosports-bremen",
+    "title": "MX Parks - Dodge City Motosports",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.cullmantribune.com/?p=107405",
+    "title": "Cullman Tribune - Dodge City MX Park Allstar Showdown (2024)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil",
+   "Layout and jump sizes",
+   "First-hand riding reports"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "extreme-mx-clubhouse",
+  "name": "Extreme MX Clubhouse",
+  "aliases": [],
+  "state": "AL",
+  "city": "Jack",
+  "county": "Coffee",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross",
+   "training"
+  ],
+  "access": "appointment",
+  "status": "unknown",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "three groomed MX tracks (rental property)"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": "clay",
+   "notes": "Listing says sand and clay.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "Prepped weekly on Thursdays for weekend guests.",
+   "seasonal": "Rented with a house to registered guests only."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_16565/ride_eb9c.htm",
+    "title": "RiderPlanet USA - Extreme MX Clubhouse",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Status",
+   "Address",
+   "Rider reports"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "garrett-coliseum",
+  "name": "Garrett Coliseum (arenacross)",
+  "aliases": [
+   "Garrett Coliseum",
+   "Partzilla Arenacross Montgomery"
+  ],
+  "state": "AL",
+  "city": "Montgomery",
+  "county": "Montgomery",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "arenacross"
+  ],
+  "access": "private",
+  "status": "seasonal",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "temporary indoor arenacross track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "tight",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Hosted AMA Partzilla Regional Arenacross rounds 3-4 (TriStar MX series), Oct 31-Nov 1, 2025. Not on the 2026-27 Partzilla calendar."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://motocross.com/news/2025-2026-ama-partzilla-regional-arenacross-series-released",
+    "title": "TransWorld Motocross - 2025/26 Partzilla Regional Arenacross schedule",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://partzillaarenacross.com/blogs/news/its-official-partzilla-takes-the-title-welcome-to-the-2025-2026-partzilla-arenacross-series",
+    "title": "Partzilla Arenacross - TriStar MX series becomes Partzilla (2025)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.cyclenews.com/2026/10/article/2026-27-ama-arenacross-calendar/",
+    "title": "Cycle News - 2026-27 AMA arenacross calendar",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Address and contacts not verified",
+   "Dirt and layout",
+   "No rider reports"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "green-acres-mx",
+  "name": "Green Acres MX",
+  "aliases": [
+   "GreenAcres MX"
+  ],
+  "state": "AL",
+  "city": "Andalusia",
+  "county": "Covington",
+  "address": "16273 County Rd 34, Andalusia, AL 36420",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "unknown",
+  "website": null,
+  "phone": "(334) 504-8926",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main track (about 1 mile)"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [
+   {
+    "says": "Rider calls it a really good track near Dothan.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Motocross-in-Alabama,1342350",
+    "source_type": "forum",
+    "date": "2018-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_16365/ride_c721.htm",
+    "title": "RiderPlanet USA - Green Acres MX",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Current status",
+   "Soil",
+   "Coordinates"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "gulf-coast-motocross",
+  "name": "Gulf Coast Motocross (GCMX)",
+  "aliases": [
+   "GCMX"
+  ],
+  "state": "AL",
+  "city": "Gulf Shores area",
+  "county": "Baldwin",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "unknown",
+  "status": "unknown",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main track (about 1.05 miles)",
+   "pee-wee track",
+   "marked woods trails"
+  ],
+  "soil": {
+   "primary": "mixed",
+   "secondary": "sand",
+   "notes": "Directory says deep sand at one end to hardpack at the other.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/gulf-coast-motocross-gcmx-gulf-shores-area",
+    "title": "MX Parks - Gulf Coast Motocross (status pending)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Exact location",
+   "Status",
+   "Contacts",
+   "Rider reports"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "hawk-pride-mountain-offroad",
+  "name": "Hawk Pride Mountain Offroad",
+  "aliases": [
+   "Hawk Pride"
+  ],
+  "state": "AL",
+  "city": "Tuscumbia",
+  "county": "Colbert",
+  "address": "3834 Hawk Pride Mountain Rd, Tuscumbia, AL 35674",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "offroad",
+   "motocross"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": "https://hawkpridemountainoffroad.com",
+  "phone": "(256) 577-1034",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "about 1,000 acres of woods trails",
+   "MX track",
+   "rock gardens and mud bogs"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Open first and third weekends of each month per listing."
+  },
+  "rider_reports": [
+   {
+    "says": "Rider has heard good things but had not ridden it.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-Alabama,1225581",
+    "source_type": "forum",
+    "date": "2011-10"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_14224/ride_d04e.htm",
+    "title": "RiderPlanet USA - Hawk Pride Mountain Offroad",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "MX track detail",
+   "Soil",
+   "Coordinates"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "hendrix-mx-compound",
+  "name": "Hendrix MX Compound",
+  "aliases": [
+   "Hendrix MX"
+  ],
+  "state": "AL",
+  "city": "Florence",
+  "county": "Lauderdale",
+  "address": "1255 County Rd 11, Florence, AL 35633",
+  "lat": 34.9270886,
+  "lng": -87.7495379,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(256) 710-0554",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "night racing"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Evening practices and weekend events; practice around 4 PM and night racing at 6 PM on event days."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/hendrix-mx-compound-florence",
+    "title": "MX Parks - Hendrix MX Compound",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil",
+   "Layout",
+   "Rider reports"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "indian-mountain-atv-park",
+  "name": "Indian Mountain ATV Park",
+  "aliases": [],
+  "state": "AL",
+  "city": "Piedmont",
+  "county": null,
+  "address": "11620 County Rd 8, Piedmont, AL 36272",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://indianmtnatvpark.com",
+  "phone": "(256) 300-1223",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "4,700 acres of trails"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "hilly",
+   "traits": [
+    "hill climbs",
+    "mud pits"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_16479/ride_001d.htm",
+    "title": "RiderPlanet USA - Indian Mountain ATV Park",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Dirt-bike suitability",
+   "Coordinates",
+   "Rider reports"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "jb-motocross",
+  "name": "JB Motocross",
+  "aliases": [
+   "JB"
+  ],
+  "state": "AL",
+  "city": "Huntsville",
+  "county": "Madison",
+  "address": "125 Short Pike Rd, Huntsville, AL 35824",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "big",
+   "elevation_change": "unknown",
+   "traits": [
+    "big whoops",
+    "large doubles"
+   ],
+   "notes": "Built 2003, over a mile long (directory)."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [
+   {
+    "says": "Rider advised against it, calling it a joke.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-Alabama,1225581",
+    "source_type": "forum",
+    "date": "2011-10"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_02085/ride_b30e.htm",
+    "title": "RiderPlanet USA - JB Motocross (closed)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil",
+   "Closure date"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "kentuck-orv-area",
+  "name": "Kentuck ORV Area (Talladega NF)",
+  "aliases": [
+   "Kentuck"
+  ],
+  "state": "AL",
+  "city": "Munford",
+  "county": "Talladega",
+  "address": "Stephens St trailhead, Munford, AL 36268",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(256) 362-2909",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "four two-way loops through hardwood forest"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "hilly",
+   "traits": [
+    "fast sections",
+    "steep technical sections"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "Very dusty in dry weather.",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_07322/ride_dc8d.htm",
+    "title": "RiderPlanet USA - Kentuck ORV Area",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil",
+   "Coordinates",
+   "Rider reports"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "mclarty-mx-park",
+  "name": "McLarty MX Park",
+  "aliases": [
+   "McLarty",
+   "McClarty",
+   "McLarty MX"
+  ],
+  "state": "AL",
+  "city": "Horton",
+  "county": null,
+  "address": "4015 County Hwy 35, Horton, AL 35980",
+  "lat": 34.18407,
+  "lng": -86.401121,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://mclartymxpark.com",
+  "phone": "(256) 738-7926",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main natural-terrain track (about 1 mile)"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": "loam",
+   "notes": "Sources disagree: one directory says red clay mixed with wood shavings riding like sandy loam; another says loam and sand; riders in 2018 argued over whether it is sand-based. Expect a soft loamy surface, not a true sand track.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "unknown",
+   "elevation_change": "rolling",
+   "traits": [],
+   "notes": "Long, fast natural-terrain track per directory; riders call it safe for vets and beginners."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "Riders in 2018 said it was always in great shape.",
+   "seasonal": "Limited days: race weekends (Sweet Home Alabama series) plus some practice days, mostly Saturdays in 2025; cash/check only."
+  },
+  "rider_reports": [
+   {
+    "says": "Rider says it is open almost every weekend and always in great shape; another says it is not a sand track.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Motocross-in-Alabama,1342350",
+    "source_type": "forum",
+    "date": "2018-06"
+   },
+   {
+    "says": "Rider calls it awesome and worth a three-hour drive for a practice day.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Any-MX-in-Chattanooga-TN-Area,1393796",
+    "source_type": "forum",
+    "date": "2021-08"
+   },
+   {
+    "says": "Riders call it good for newer and vet riders but likely crowded; one stops there on the way home from Monster.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/alabama-tracks",
+    "source_type": "forum",
+    "date": "2023-03"
+   },
+   {
+    "says": "Rider says it has mostly been Saturday-only.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Heading-to-Monster-Mountain-Thursday-and-Need-Advice,1388193",
+    "source_type": "forum",
+    "date": "2025-08"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/mclarty-mx-park-horton",
+    "title": "MX Parks - McLarty MX Park",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_14816/ride_fb3d.htm",
+    "title": "RiderPlanet USA - McLarty MX",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Soil composition conflict",
+   "Wet behavior",
+   "Jump sizes"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "millcreek-mx-barber",
+  "name": "MillCreek MX Park at Barber Motorsports Park",
+  "aliases": [
+   "MillCreek at Barber",
+   "Barber MX",
+   "Mill Creek Barber"
+  ],
+  "state": "AL",
+  "city": "Leeds",
+  "county": null,
+  "address": "6040 Barber Motorsports Pkwy, Leeds, AL 35094",
+  "lat": 33.5334088,
+  "lng": -86.6031972,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": "https://millcreekmx.com",
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "MX race track at Barber Motorsports Park"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Race weekends only (SEVMX, MXL, Loretta Lynn qualifiers, AHRMA Barber Vintage Festival MX). MillCreek Sports membership plus AMA card to race."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/millcreek-motocross-park-pell-city-relocated-to-barber-pell-city",
+    "title": "MX Parks - MillCreek MX Park (Barber)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil and layout of the Barber track",
+   "Rider reports",
+   "Phone"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "millcreek-mx-pell-city",
+  "name": "MillCreek MX Park (Pell City, original site)",
+  "aliases": [
+   "Mill Creek",
+   "MillCreek",
+   "MillCreek MX",
+   "MillCreek MX Park",
+   "Millcreek Motocross"
+  ],
+  "state": "AL",
+  "city": "Pell City",
+  "county": "St. Clair",
+  "address": "1724 Roberts Mill Pond Rd, Pell City, AL 35125",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross",
+   "supercross"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "former main track (about 1.7-2 miles, lit)",
+   "supercross track",
+   "GP track",
+   "pee-wee track"
+  ],
+  "soil": {
+   "primary": "loam",
+   "secondary": "clay",
+   "notes": "Writer at its final event described red loamy dirt.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "medium",
+   "elevation_change": "rolling",
+   "traits": [
+    "long downhills",
+    "step-up to step-over",
+    "sloped infield"
+   ],
+   "notes": "Riders loved the flow and jumps; natural rolling terrain with long flowing downhills."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "Riders said it was great when prepped but practice days could be rough.",
+   "seasonal": "Closed in July 2022; land sold for a housing development. Events moved to Barber Motorsports Park (see millcreek-mx-barber)."
+  },
+  "rider_reports": [
+   {
+    "says": "Rider says it is sweet if you know it is being prepped, otherwise stay away.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-Alabama,1225581",
+    "source_type": "forum",
+    "date": "2011-10"
+   },
+   {
+    "says": "Riders praise the flow and jumps and say big races draw crowds.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Motocross-in-Alabama,1342350",
+    "source_type": "forum",
+    "date": "2018-06"
+   },
+   {
+    "says": "Riders call it a fun track and worth the trip.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Heading-to-Monster-Mountain-Thursday-and-Need-Advice,1388193",
+    "source_type": "forum",
+    "date": "2021-03"
+   },
+   {
+    "says": "Rider says it rarely opened for practice and was pretty rough when it did; layout was fun. Confirmed permanently closed.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/alabama-tracks",
+    "source_type": "forum",
+    "date": "2023-03"
+   },
+   {
+    "says": "Closure article recalls red loamy dirt, long start straight and flowing downhills.",
+    "source_url": "https://www.vurbmoto.com/millcreek-mx-news-you-dont-want-to-hear/",
+    "source_type": "article",
+    "date": "2022-07"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.vurbmoto.com/millcreek-mx-news-you-dont-want-to-hear/",
+    "title": "Vurb Moto - MillCreek MX closing (2022)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_05884/ride_a5d7.htm",
+    "title": "RiderPlanet USA - Millcreek Motocross (old listing)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/millcreek-motocross-park-pell-city-relocated-to-barber-pell-city",
+    "title": "MX Parks - MillCreek MX Park (relocated)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2011/01/12/millcreek-motocross-celebrates-10-years-racing",
+    "title": "Racer X - MillCreek celebrates 10 years (2011)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Coordinates of old site"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "minooka-ohv-park",
+  "name": "Minooka OHV Park",
+  "aliases": [
+   "Minooka"
+  ],
+  "state": "AL",
+  "city": "Jemison",
+  "county": "Chilton",
+  "address": "1922 County Rd 146, Jemison, AL 35085",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(205) 312-1376",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "about 13 miles of two-way multi-use trails"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Wed-Sun 9-6; spark arrestor and 99 dB limit; county park."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_07313/ride_d802.htm",
+    "title": "RiderPlanet USA - Minooka OHV Park",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil",
+   "Coordinates",
+   "Rider reports"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "monster-mountain-mx",
+  "name": "Monster Mountain MX Park",
+  "aliases": [
+   "Monster Mountain",
+   "Monster",
+   "MM",
+   "Monster Mountain Motocross"
+  ],
+  "state": "AL",
+  "city": "Tallassee",
+  "county": null,
+  "address": "3170 Burt Mill Rd, Tallassee, AL 36078",
+  "lat": 32.559106,
+  "lng": -85.979366,
+  "types": [
+   "motocross",
+   "supercross",
+   "training",
+   "pit_bike",
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://monstermx.com",
+  "phone": "(334) 415-0415",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main national track (about 1.35 miles, Stairway to Heaven jump)",
+   "supercross track",
+   "sand GP track",
+   "mini track (50-85cc)",
+   "pit bike track",
+   "vintage GP course",
+   "about 5.5-7 miles of woods trails"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": "sand",
+   "notes": "Riders and a directory agree on a red clay, sand and loam mix. A 2011 rider called it sand and red clay.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "big",
+   "elevation_change": "hilly",
+   "traits": [
+    "big elevation",
+    "uphill/downhill jumps",
+    "long laps"
+   ],
+   "notes": "Mark Barnett-built national-style layout with 80+ ft of elevation change, big jumps and a long lap. Riders repeatedly rank it among the best tracks in the Southeast or the country."
+  },
+  "conditions": {
+   "dry": "Prep is usually best in the morning (2011 rider).",
+   "wet": "Tracks stay closed when too wet; riders report trips lost to rain. A nearby sandy track (Shorter MX) is suggested as a rain-day backup.",
+   "late_day": "unknown",
+   "watering_prep": "Riders describe consistently good prep, with heavy investment after a 2018 ownership change.",
+   "seasonal": "Ride days posted on social media; historically most weekends spring-fall and daily over holidays and Feb-Mar. Weekday group training Mon-Thu. Hosts Loretta Lynn area qualifiers and AHRMA vintage."
+  },
+  "rider_reports": [
+   {
+    "says": "Riders say it is a sand and red clay mix with a huge, long track, big jumps and lots of elevation; prep usually good, especially mornings.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-Alabama,1225581",
+    "source_type": "forum",
+    "date": "2011-10"
+   },
+   {
+    "says": "Riders say new owners put money and effort in and it looked really good; one calls it among the best in the Southeast if not the nation.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Motocross-in-Alabama,1342350",
+    "source_type": "forum",
+    "date": "2018-08"
+   },
+   {
+    "says": "Rider made three trips but only rode once because of rain; others call it the best track around and worth a long drive.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Heading-to-Monster-Mountain-Thursday-and-Need-Advice,1388193",
+    "source_type": "forum",
+    "date": "2021-03"
+   },
+   {
+    "says": "Georgia riders say Monster takes it over any Georgia track and is worth two extra hours of driving.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-Tracks-for-a-trip-south,1388051",
+    "source_type": "forum",
+    "date": "2021-02"
+   },
+   {
+    "says": "Rider says it now opens some weekdays and is worth any drive.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/alabama-tracks",
+    "source_type": "forum",
+    "date": "2023-03"
+   },
+   {
+    "says": "Visitors from the Northeast highly recommend it for winter riding.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/winter-riding-down-south-recommendations-coming-new-england",
+    "source_type": "forum",
+    "date": "2024-10"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/monster-mountain-mx-park-tallassee",
+    "title": "MX Parks - Monster Mountain MX Park",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_07326/ride_b0df.htm",
+    "title": "RiderPlanet USA - Monster Mountain MX Park",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-Alabama,1225581",
+    "title": "Vital MX - Tracks in Alabama (2011)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Heading-to-Monster-Mountain-Thursday-and-Need-Advice,1388193",
+    "title": "Vital MX - Heading to Monster Mountain (2021/2025)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [
+   "How deep ruts get late in the day",
+   "Watering setup",
+   "Exact clay/sand split on the main track"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "mulberry-creek-mx",
+  "name": "Mulberry Creek MX",
+  "aliases": [],
+  "state": "AL",
+  "city": "Stanton",
+  "county": "Chilton",
+  "address": "County Rd 26, Stanton, AL 36790",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "unknown",
+  "status": "unknown",
+  "website": null,
+  "phone": "(205) 412-8836",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "natural-terrain track (about 1 mile)",
+   "pee-wee track",
+   "hare scramble trail"
+  ],
+  "soil": {
+   "primary": "loam",
+   "secondary": "clay",
+   "notes": "Directory lists loamy soil and clay.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_14614/ride_a19d.htm",
+    "title": "RiderPlanet USA - Mulberry Creek MX",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Current status",
+   "Rider reports"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "mx56-track-and-trails",
+  "name": "MX 56 Track and Trails",
+  "aliases": [
+   "MX56"
+  ],
+  "state": "AL",
+  "city": "Wagarville",
+  "county": "Washington",
+  "address": "24940 Hwy 56, Wagarville, AL 36585",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "former 1.3-mile MX track",
+   "former pee-wee track",
+   "about 8-10 miles of ATV trails"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [
+   {
+    "says": "Rider says it was open all the time with an impressive trail system (about 30 min NW of Mobile).",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Motocross-in-Alabama,1342350",
+    "source_type": "forum",
+    "date": "2018-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_14871/ride_3cd4.htm",
+    "title": "RiderPlanet USA - MX 56 Track and Trails (closed)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Closure date",
+   "Soil"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "noahs-motopark",
+  "name": "Noah's Motopark",
+  "aliases": [
+   "Noah's MX",
+   "Windwood Farms MX",
+   "Red Dirt Road MX"
+  ],
+  "state": "AL",
+  "city": "Plantersville",
+  "county": "Dallas",
+  "address": "3339 County Rd 26, Plantersville, AL 36758",
+  "lat": 32.704084,
+  "lng": -86.944213,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "unknown",
+  "status": "unknown",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "large MX track",
+   "pee-wee track",
+   "hare scramble trail"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [
+   {
+    "says": "Rider calls it a great, very vet-friendly track.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-Alabama,1225581",
+    "source_type": "forum",
+    "date": "2011-10"
+   },
+   {
+    "says": "Rider says Windwood Farms (Noah's) was not open often anymore.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Motocross-in-Alabama,1342350",
+    "source_type": "forum",
+    "date": "2018-06"
+   },
+   {
+    "says": "Poster says it now runs as Red Dirt Road MX.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/alabama-tracks",
+    "source_type": "forum",
+    "date": "2023-03"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/noahs-motopark-windwood-farms-mx-plantersville",
+    "title": "MX Parks - Noah's Motopark (Windwood Farms MX)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Current name and status",
+   "Soil",
+   "Contacts"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "phenix-city-motocross",
+  "name": "Phenix City Motocross",
+  "aliases": [
+   "Phenix City MX"
+  ],
+  "state": "AL",
+  "city": "Salem",
+  "county": "Lee",
+  "address": "101 Lamb Rd N, Salem, AL 36874",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(706) 442-8821",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main track (about 1.5 miles, 50 ft wide lanes)",
+   "two other tracks"
+  ],
+  "soil": {
+   "primary": "loam",
+   "secondary": "sand",
+   "notes": "Directory lists sandy loam.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "step-ups",
+    "step-downs",
+    "off-camber turns"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [
+   {
+    "says": "Rider mentions two tracks in Phenix City without details.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Motocross-in-Alabama,1342350",
+    "source_type": "forum",
+    "date": "2018-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/phenix-city-motocross-phenix-city",
+    "title": "MX Parks - Phenix City Motocross",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Directory coordinates are rounded and were not used",
+   "Rider reports with detail"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "reedy-creek-motocross",
+  "name": "Reedy Creek Motocross",
+  "aliases": [
+   "Reedy Creek MX"
+  ],
+  "state": "AL",
+  "city": "Detroit",
+  "county": "Lamar",
+  "address": "14 Vann Loop, Detroit, AL 35552",
+  "lat": 34.0228369,
+  "lng": -88.1433622,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(205) 442-3591",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main track (about 0.75 mile, 28 ft wide)",
+   "pee-wee track planned"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "big",
+   "elevation_change": "unknown",
+   "traits": [
+    "rollable triples",
+    "80 ft double",
+    "90 ft downhill triple"
+   ],
+   "notes": "Opened 2025; jumps built to be rollable."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Practice days announced on Facebook; $30 cash."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/reedy-creek-motocross-detroit",
+    "title": "MX Parks - Reedy Creek Motocross",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil",
+   "Rider reports"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "riverside-motocross-park",
+  "name": "Riverside Motocross Park",
+  "aliases": [
+   "Riverside MX"
+  ],
+  "state": "AL",
+  "city": "Newton",
+  "county": "Dale",
+  "address": "7348 AL-134, Newton, AL 36352",
+  "lat": 31.346453,
+  "lng": -85.618515,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://riversidemotocross.net",
+  "phone": "(334) 791-5440",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main track (about 1 mile)",
+   "pee-wee track"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": "loam",
+   "notes": "Two directories list red clay mixed with loam.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "medium",
+   "jumps": "medium",
+   "elevation_change": "flat",
+   "traits": [
+    "wide sweeping berms",
+    "tabletops",
+    "rhythm sections"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Open daily 9am-dark per listings; since 1994; camping with hookups."
+  },
+  "rider_reports": [
+   {
+    "says": "Rider enjoyed it as much as the bigger tracks but it is a long drive from Tuscaloosa.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-Alabama,1225581",
+    "source_type": "forum",
+    "date": "2011-10"
+   },
+   {
+    "says": "Recommended as a stop near Monster Mountain.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Heading-to-Monster-Mountain-Thursday-and-Need-Advice,1388193",
+    "source_type": "forum",
+    "date": "2021-03"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/riverside-motocross-park-newton",
+    "title": "MX Parks - Riverside Motocross Park",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_07328/ride_bd90.htm",
+    "title": "RiderPlanet USA - Riverside Motocross Park",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Wet behavior",
+   "Recent rider detail"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "sand-mountain-mx",
+  "name": "Sand Mountain MX",
+  "aliases": [
+   "Sand Mountain",
+   "Ride Sand Mountain"
+  ],
+  "state": "AL",
+  "city": "Albertville",
+  "county": "Marshall",
+  "address": "2288 County Rd 568, Albertville, AL 35951",
+  "lat": 34.368507,
+  "lng": -86.098564,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://ridesandmountain.com",
+  "phone": "(256) 572-3449",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main track (about 1.3 miles)",
+   "two additional tracks"
+  ],
+  "soil": {
+   "primary": "loam",
+   "secondary": "sand",
+   "notes": "Two directories say loam with some sand; a 2018 rider says sandy but not a true sand track.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "medium",
+   "jumps": "big",
+   "elevation_change": "rolling",
+   "traits": [
+    "big step-up",
+    "technical sections"
+   ],
+   "notes": "Signature big step-up (directory: about 35 ft rise, 100+ ft). One rider thought it looked tight and technical; another said it is fun and not too technical."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Open most weekends (riders 2018 and 2025); winter weekends weather permitting; owner may allow Monday rides."
+  },
+  "rider_reports": [
+   {
+    "says": "Riders say the owners are nice and honest about conditions.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-Alabama,1225581",
+    "source_type": "forum",
+    "date": "2011-10"
+   },
+   {
+    "says": "Rider says it is open almost every weekend and in great shape; sandy but not a sand track.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Motocross-in-Alabama,1342350",
+    "source_type": "forum",
+    "date": "2018-06"
+   },
+   {
+    "says": "Rider calls it their favorite track in the area and not too technical.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/alabama-tracks",
+    "source_type": "forum",
+    "date": "2023-03"
+   },
+   {
+    "says": "Rider says it is open every weekend.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Heading-to-Monster-Mountain-Thursday-and-Need-Advice,1388193",
+    "source_type": "forum",
+    "date": "2025-08"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/sand-mountain-mx-albertville",
+    "title": "MX Parks - Sand Mountain MX",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_14759/ride_95d8.htm",
+    "title": "RiderPlanet USA - Sand Mountain MX",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Wet and late-day behavior",
+   "Website may be outdated"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "shorter-mx",
+  "name": "Shorter MX",
+  "aliases": [],
+  "state": "AL",
+  "city": "Shorter",
+  "county": "Macon",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "unknown",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Several riders (2021) describe good sand.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "Suggested as a sandy rain-day fallback when Monster Mountain is closed.",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [
+   {
+    "says": "Riders recommend it near Monster Mountain for its good sand, especially if Monster is rained out.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Heading-to-Monster-Mountain-Thursday-and-Need-Advice,1388193",
+    "source_type": "forum",
+    "date": "2021-03"
+   },
+   {
+    "says": "Mentioned as a newer track to ask about.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Motocross-in-Alabama,1342350",
+    "source_type": "forum",
+    "date": "2018-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Heading-to-Monster-Mountain-Thursday-and-Need-Advice,1388193",
+    "title": "Vital MX - Heading to Monster Mountain (2021)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Address, coordinates, contacts",
+   "Current status",
+   "Layout"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "southern-supercross-park",
+  "name": "Southern Supercross Park",
+  "aliases": [
+   "Southern Supercross"
+  ],
+  "state": "AL",
+  "city": "Cleveland",
+  "county": "Blount",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross",
+   "supercross",
+   "arenacross",
+   "training"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "former outdoor MX",
+   "former pro SX track",
+   "former sunken arenacross track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [
+   {
+    "says": "Listed as a local track.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Motocross-in-Alabama,1342350",
+    "source_type": "forum",
+    "date": "2018-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/southern-supercross-park-cleveland",
+    "title": "MX Parks - Southern Supercross Park (Closed)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Address",
+   "Closure date",
+   "Soil"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "stony-lonesome-ohv-park",
+  "name": "Stony Lonesome OHV Park",
+  "aliases": [
+   "Stony Lonesome"
+  ],
+  "state": "AL",
+  "city": "Bremen",
+  "county": "Cullman",
+  "address": "10075 AL Hwy 69 S, Bremen, AL 35033",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://stonylonesomeohv.us",
+  "phone": "(256) 287-1133",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "trails across ~1,470 acres: narrow ATV trails to rocky 4x4 ledges and climbs"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "hilly",
+   "traits": [
+    "rock ledges",
+    "steep climbs",
+    "mud bogs"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "May close on short notice for weather.",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Fri-Mon; county-run. Next door to Dodge City Motosports."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_14226/ride_0d7f.htm",
+    "title": "RiderPlanet USA - Stony Lonesome OHV Park",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Dirt-bike-specific reports (park is 4x4/ATV oriented)",
+   "Coordinates"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "styx-river-mx-atv-park",
+  "name": "Styx River MX & ATV Park",
+  "aliases": [
+   "Styx River",
+   "Styx River ATV Park"
+  ],
+  "state": "AL",
+  "city": "Robertsdale",
+  "county": "Baldwin",
+  "address": "26091 Waterworld Rd, Robertsdale, AL 36567",
+  "lat": 30.6188975,
+  "lng": -87.5793781,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(251) 960-1161",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "full-size MX track (about 1.3-1.6 miles)",
+   "oval track",
+   "kids circle track",
+   "70-150 acres of woods trails and mud pits"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Directory says heavy sand base, irrigated and groomed.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "Closes ahead of tropical storms (Oct 2026 advisory).",
+   "late_day": "unknown",
+   "watering_prep": "Irrigated and groomed per directory.",
+   "seasonal": "Daily 9am-7pm or dark; Sweet Home Alabama MX venue."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/styx-river-mx-atv-park-robertsdale",
+    "title": "MX Parks - Styx River MX & ATV Park",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_14553/ride_5be2.htm",
+    "title": "RiderPlanet USA - Styx River ATV Park",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Rider reports on the MX track",
+   "Layout"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "the-ridge-alabama",
+  "name": "The Ridge - Alabama Outdoor Adventure Park",
+  "aliases": [
+   "The Ridge",
+   "Ridge Riding"
+  ],
+  "state": "AL",
+  "city": "Springville",
+  "county": "St. Clair",
+  "address": "8745 Pine Mountain Rd, Springville, AL 35146",
+  "lat": 33.812931,
+  "lng": -86.497319,
+  "types": [
+   "offroad",
+   "motocross",
+   "enduro"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://ridgeriding.com",
+  "phone": "(205) 467-7433",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "35+ miles of one-way OHV trails",
+   "15+ miles motorcycle-only single track",
+   "MX track",
+   "practice supercross",
+   "pee-wee track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "hilly",
+   "traits": [
+    "hill climbs",
+    "rocky sections",
+    "mud bogs"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Fri-Sun (weekdays by arrangement)."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/the-ridge-alabama-outdoor-adventure-park-springville",
+    "title": "MX Parks - The Ridge",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_04286/ride_e4b7.htm",
+    "title": "RiderPlanet USA - The Ridge",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil",
+   "MX track detail",
+   "Rider reports"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "tnt-motorsports-park",
+  "name": "TnT Motorsports Park",
+  "aliases": [
+   "TnT MX",
+   "TNT Sports MX"
+  ],
+  "state": "AL",
+  "city": "Athens",
+  "county": "Limestone",
+  "address": "10124 Hardaway Hills Rd, Athens, AL 35614",
+  "lat": 34.886756,
+  "lng": -87.140688,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://tntsportsmx.com",
+  "phone": "(256) 729-0202",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/tnt-motorsports-park-athens",
+    "title": "MX Parks - TnT Motorsports Park",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil",
+   "Layout",
+   "Schedule",
+   "Rider reports"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "top-trails-ohv-park",
+  "name": "TOP Trails OHV Park",
+  "aliases": [
+   "Top Trails",
+   "TOP Trails Outdoor Park"
+  ],
+  "state": "AL",
+  "city": "Talladega",
+  "county": "Talladega",
+  "address": "1247 Horne Dr, Talladega, AL 35160 (older listing: 550 Welch Ave)",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://toptrails.net",
+  "phone": "(256) 649-0245",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "about 100 miles of OHV trails on 2,800+ acres",
+   "kiddie track",
+   "dirt-bike single track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "stream crossings",
+    "mud",
+    "jumps"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Thu-Sun per older listing."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/top-trails-ohv-park-talladega",
+    "title": "MX Parks - Top Trails OHV Park",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/alabama_14760/ride_815f.htm",
+    "title": "RiderPlanet USA - TOP Trails",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Two addresses and phones listed",
+   "Soil",
+   "Rider reports"
+  ],
+  "research_file": "al.json"
+ },
+ {
+  "id": "war-eagle-mx-park",
+  "name": "War Eagle MX Park",
+  "aliases": [
+   "War Eagle MX",
+   "WarEagle MX"
+  ],
+  "state": "AL",
+  "city": "Auburn",
+  "county": "Lee",
+  "address": "140 Lewis Ln, Auburn, AL 36830",
+  "lat": 32.53756,
+  "lng": -85.534116,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main MX track",
+   "kids track",
+   "turn track",
+   "2-mile woods loop"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [
+   {
+    "says": "Riders call it really nice, open several days a week with strong turnout.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Motocross-in-Alabama,1342350",
+    "source_type": "forum",
+    "date": "2018-06"
+   },
+   {
+    "says": "Rider says it usually had Wednesday practices.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-mx-tracks,1397180",
+    "source_type": "forum",
+    "date": "2021-12"
+   },
+   {
+    "says": "Recommended as close to Monster Mountain.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Heading-to-Monster-Mountain-Thursday-and-Need-Advice,1388193",
+    "source_type": "forum",
+    "date": "2021-03"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/alabama/war-eagle-mx-park-auburn",
+    "title": "MX Parks - War Eagle MX Park (Closed)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://aotourism.com/Recreation/32/War-Eagle-MX-Park/",
+    "title": "Auburn-Opelika Tourism - War Eagle MX Park",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Closure date (tourism page still lists it)",
+   "Soil"
+  ],
+  "research_file": "al.json"
+ }
+]

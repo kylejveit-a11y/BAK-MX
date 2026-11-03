@@ -1,0 +1,1899 @@
+[
+ {
+  "id": "pala-raceway",
+  "name": "Pala Raceway (formerly Fox Raceway at Pala)",
+  "aliases": [
+   "Fox Raceway",
+   "Fox Raceway at Pala",
+   "Pala",
+   "Pala Raceway",
+   "Fox Raceway National"
+  ],
+  "state": "CA",
+  "city": "Pala",
+  "county": "San Diego",
+  "address": "12799 Hwy 76, Pala, CA 92059 (Pala Band of Mission Indians land)",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross",
+   "supercross",
+   "training",
+   "pit_bike"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://raceway.palatribe.com",
+  "phone": "(760) 891-3570",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "national/pro outdoor track (practice layout differs from the race layout)",
+   "supercross track (opened late 2021; AMA pro license required)",
+   "amateur track",
+   "vet track",
+   "peewee and 60/80cc tracks",
+   "small ATV/UTV track (80cc and under)"
+  ],
+  "soil": {
+   "primary": "hardpack",
+   "secondary": "sand",
+   "notes": "Race coverage describes a very hard base under a sandy, slippery top layer that hardens if ridden aggressively or baked by sun. Riders call the dirt among the best in SoCal but warn of rocks on the hillsides. A directory says groomed loam; that is promo-level and not confirmed by racers.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "big",
+   "elevation_change": "hilly",
+   "traits": [
+    "hard base",
+    "hardened ruts",
+    "rocks on hills",
+    "long fast sections",
+    "few passing spots"
+   ],
+   "notes": "Hillside national layout with long, fast sections that make passing hard. Pros note rocks that appear on the hills without warning."
+  },
+  "conditions": {
+   "dry": "Loose top layer blows off or bakes hard in sun, leaving a slick hard base. Warmer September dates harden more than cool May dates.",
+   "wet": "Watering the night before and morning of creates heavy ruts early; no true rain-race reports found.",
+   "late_day": "Ruts harden by second motos and become hazardous (2024 report called the back section a land mine).",
+   "watering_prep": "Track watered Friday night and Saturday morning before nationals.",
+   "seasonal": "Public practice Mon-Tue 9am-2pm and Fri-Sun 9am-4pm per directory (Feb 2025). Hosts the Pro Motocross opener (late May). Renamed Pala Raceway presented by Fox Racing in Oct 2026."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: base is very hard; once loose dirt blows off, ruts in the back section set up hard and make second motos treacherous.",
+    "source_url": "https://racerxonline.com/2024/05/28/breakdown-fox-raceway-2024",
+    "source_type": "article",
+    "date": "2024-05"
+   },
+   {
+    "says": "Preview: sandy yet slippery surface with deep sections; best riders stay light on the bike and short-shift to a taller gear to limit wheelspin.",
+    "source_url": "https://racerxonline.com/2023/05/25/staging-area-fox-raceway",
+    "source_type": "article",
+    "date": "2023-05"
+   },
+   {
+    "says": "Pros praise the dirt but flag big rocks on the hills, long fast sections and few passing spots; one calls it the best practice track in California.",
+    "source_url": "https://racerxonline.com/2019/05/23/3-on-3-riders-weigh-in-on-pala",
+    "source_type": "article",
+    "date": "2019-05"
+   },
+   {
+    "says": "A veteran pro called it a hard, blown-out California track that did not suit his style.",
+    "source_url": "https://racerxonline.com/2022/05/30/breakdown-fox-raceway-1",
+    "source_type": "article",
+    "date": "2022-05"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/california_13989/ride_5f21.htm",
+    "title": "RiderPlanet USA - Fox Raceway (address, hours, fees, tracks)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.cyclenews.com/2026/10/article/fox-raceway-renames-to-pala-raceway-presented-by-fox-racing/",
+    "title": "Cycle News - Fox Raceway renames to Pala Raceway (Oct 2026; headline only, page did not load)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.floracing.com/article/57214-pala-raceway-improvements-make-this-a-motocrosser-s-destination",
+    "title": "FloRacing - Pala Raceway improvements (2017)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2021/11/23/fox-raceway-at-pala-opens-all-new-supercross-track",
+    "title": "Racer X - Fox Raceway opens new supercross track (2021)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2024/05/28/breakdown-fox-raceway-2024",
+    "title": "Racer X - Breakdown: Fox Raceway 2024",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2023/05/25/staging-area-fox-raceway",
+    "title": "Racer X - Staging Area: Fox Raceway 2023",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2019/05/23/3-on-3-riders-weigh-in-on-pala",
+    "title": "Racer X - Riders weigh in on Pala (2019)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Coordinates",
+   "Rename details (Cycle News article would not load; only headline seen)",
+   "Rain-day behavior",
+   "Current track count and which are open to the public each day",
+   "Braking-bump behavior not described"
+  ]
+ },
+ {
+  "id": "hangtown-prairie-city",
+  "name": "Hangtown Motocross Classic track (Prairie City SVRA)",
+  "aliases": [
+   "Hangtown",
+   "Prairie City",
+   "Hangtown Motocross Classic",
+   "Prairie City OHV"
+  ],
+  "state": "CA",
+  "city": "Rancho Cordova",
+  "county": "Sacramento",
+  "address": "13300 White Rock Road, Rancho Cordova, CA 95742",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "unknown",
+  "status": "open",
+  "website": "http://www.hangtownmx.com",
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "national MX track inside Prairie City State Vehicular Recreation Area"
+  ],
+  "soil": {
+   "primary": "hardpack",
+   "secondary": "sand",
+   "notes": "Naturally hard-packed - once called the hardest dirt on the schedule. Sand and rice hulls have been added for about 20 years, and more sand went in for 2024, giving more depth and grip. The hillside stays rock hard and edgy.",
+   "confidence": "high"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "medium",
+   "elevation_change": "hilly",
+   "traits": [
+    "long downhills",
+    "big braking bumps at downhill bottoms",
+    "rollers",
+    "hard hillside"
+   ],
+   "notes": "Long downhills where most passes happen by out-braking at the bottom; two lines usually form over large braking bumps. Layout was opened up in 2024 with fewer tight switchbacks; a downhill double section had its lips removed after crashes."
+  },
+  "conditions": {
+   "dry": "Hot (often near 100F) and dries quickly; surface water just puddles on hard dirt and makes it slicker.",
+   "wet": "Not documented in recent reports.",
+   "late_day": "Dries and firms up by second motos and deteriorates through the day.",
+   "watering_prep": "Testers say it only works when soaked and ripped in deep ahead of time; late surface watering fails.",
+   "seasonal": "Pro national held each late May/early June by the Dirt Diggers North club (since 1969; at Prairie City since 1979)."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: imported soils made it far better than the old hardpack, but it is still not RedBud-soft; the hillside is rock hard, and scoop tires trade hard-pack feel for start traction.",
+    "source_url": "https://racerxonline.com/2025/05/30/jason-thomas-on-hangtown-this-is-going-to-be-a-brutal-round",
+    "source_type": "article",
+    "date": "2025-05"
+   },
+   {
+    "says": "Analyst: sand added for 2024 gave more traction and depth; track dried and hardened by moto two and a big braking bump formed at a downhill double takeoff.",
+    "source_url": "https://racerxonline.com/2024/06/03/breakdown-hangtown",
+    "source_type": "article",
+    "date": "2024-06"
+   },
+   {
+    "says": "Analyst: 2023 prep missed; hot sun dried it, late watering puddled and reduced traction; hard base gives choppy, jarring bumps. Riders said more water should have gone down earlier.",
+    "source_url": "https://racerxonline.com/2023/06/05/breakdown-hangtown",
+    "source_type": "article",
+    "date": "2023-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://promotocross.com/race/hangtown-motocross-classic/track",
+    "title": "Pro Motocross - Hangtown track page",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2025/05/30/jason-thomas-on-hangtown-this-is-going-to-be-a-brutal-round",
+    "title": "Racer X - Jason Thomas on Hangtown (2025)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2024/06/03/breakdown-hangtown",
+    "title": "Racer X - Breakdown: Hangtown 2024",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2023/06/05/breakdown-hangtown",
+    "title": "Racer X - Breakdown: Hangtown 2023",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [
+   "Coordinates",
+   "Whether the national track is open for public practice outside the event",
+   "Rain/mud behavior",
+   "Track phone"
+  ]
+ },
+ {
+  "id": "thunder-valley-mx",
+  "name": "Thunder Valley Motocross Park",
+  "aliases": [
+   "Thunder Valley",
+   "TVMX",
+   "Lakewood"
+  ],
+  "state": "CO",
+  "city": "Lakewood",
+  "county": "Jefferson",
+  "address": "701 South Rooney Road, Lakewood, CO 80401",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://www.tvmx.net/",
+  "phone": "(303) 988-3889",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main track (~1 mile)",
+   "peewee track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "No reliable source names the native soil. Race coverage notes softer dirt is brought in before the national and that roost is largely rocks. A track-guide site calls it decomposed granite, but that site's other data was wrong, so it is not used.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "big",
+   "elevation_change": "hilly",
+   "traits": [
+    "altitude (6,000+ ft)",
+    "rocky roost",
+    "deep ruts",
+    "uphill start",
+    "downhill-sloping tabletops"
+   ],
+   "notes": "Foothills track above Denver at roughly 6,100-6,400 ft. Uphill start into a right-hander. Thin air cuts engine power so jumps are harder to clear and riders cannot use power to cover mistakes."
+  },
+  "conditions": {
+   "dry": "Rocky roost is a constant hazard; riders steer off the main line to avoid it.",
+   "wet": "After a rainy week (2025) the dirt stayed soft and rutty all day with ruts everywhere; unrepaired sections got Endurocross-like.",
+   "late_day": "Deteriorates within each moto; crews rework sections between motos.",
+   "watering_prep": "Imported dirt worked in before nationals; heavy equipment between motos.",
+   "seasonal": "Public riding Wed-Fri 10am-dusk, weekends 9am-5pm per directory. Hosts an early-June Pro national; hosted the 2010 Motocross of Nations."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: after rain all week the track was soft and rutty everywhere; altitude sapped power and fitness. Advice: carry power deeper and brake closer to the corner since the soft dirt slows the bike; teams remapped for the uphill start.",
+    "source_url": "https://racerxonline.com/2025/06/09/thomas-on-lawrence-his-race-mind-is-one-of-the-best-ive-ever-seen",
+    "source_type": "article",
+    "date": "2025-06"
+   },
+   {
+    "says": "Analyst: brutal ruts and rocky roost; weight the outside peg on exits, lift the inside leg in ruts, and jump right-to-left onto a tabletop as the ground falls away.",
+    "source_url": "https://racerxonline.com/2018/06/05/breakdown-thunder-valley",
+    "source_type": "article",
+    "date": "2018-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://promotocross.com/race/thunder-valley-national/track",
+    "title": "Pro Motocross - Thunder Valley track page",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/colorado_10643/ride_14ba.htm",
+    "title": "RiderPlanet USA - Thunder Valley (hours, elevation)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2025/06/09/thomas-on-lawrence-his-race-mind-is-one-of-the-best-ive-ever-seen",
+    "title": "Racer X - Thomas on Thunder Valley 2025",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2018/06/05/breakdown-thunder-valley",
+    "title": "Racer X - Breakdown: Thunder Valley 2018",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Native soil type",
+   "Coordinates",
+   "Dry-day hardness and braking-bump behavior",
+   "Jetting/mapping specifics for amateurs"
+  ]
+ },
+ {
+  "id": "high-point-raceway",
+  "name": "High Point Raceway",
+  "aliases": [
+   "High Point",
+   "Mt. Morris",
+   "HPR"
+  ],
+  "state": "PA",
+  "city": "Mt. Morris",
+  "county": "Greene",
+  "address": "281 Taylortown Road, Mt. Morris, PA 15349",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "unknown",
+  "status": "open",
+  "website": "https://highpointmx.com/",
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "pro track (~1.2 mi)",
+   "amateur track (~1.0 mi)"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": "loam",
+   "notes": "Listed as clay. Very hard base in its natural state; once watered and disced it turns loamy and rutty. Heavy rain turns the loam to mud and ruts cut down to a shiny, grip-free hard base.",
+   "confidence": "high"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "medium",
+   "elevation_change": "hilly",
+   "traits": [
+    "off-camber",
+    "deep long ruts",
+    "steep downhills",
+    "long uphills",
+    "ruts at bottoms of hills"
+   ],
+   "notes": "Built in a deep valley on a family farm (since 1977); constant elevation change, no flat section. Many turns and even straights are off-camber. Steep hill before the finish."
+  },
+  "conditions": {
+   "dry": "Hard base; off-cambers never feel fully planted.",
+   "wet": "Mud first, then deep ruts down to a slick hard base; very MXGP-like. Summer rain is the main risk.",
+   "late_day": "Long deep ruts form in corners and at bottoms of downhills; after rain the second motos are a different track.",
+   "watering_prep": "Watered and disced deep for nationals.",
+   "seasonal": "Pro national each June (moved from Memorial Day); also GNCC and DC Vet Homecoming."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: hard base turns loamy and rutty when prepped; rain made long ruts that cut to a shiny slick base. Some riders muscle through muck, others weave ruts - you need both. Make only small setup changes between motos.",
+    "source_url": "https://racerxonline.com/2023/06/19/breakdown-high-point",
+    "source_type": "article",
+    "date": "2023-06"
+   },
+   {
+    "says": "Preview: deep long ruts in corners and at hill bottoms; brake less, lean back, keep the front light and upshift rather than braking into ruts; carry corner speed for the uphills.",
+    "source_url": "https://racerxonline.com/2022/06/16/staging-area-high-point",
+    "source_type": "article",
+    "date": "2022-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://promotocross.com/race/high-point-national/track",
+    "title": "Pro Motocross - High Point track page",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/High_Point_Raceway",
+    "title": "Wikipedia - High Point Raceway",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2023/06/19/breakdown-high-point",
+    "title": "Racer X - Breakdown: High Point 2023",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2022/06/16/staging-area-high-point",
+    "title": "Racer X - Staging Area: High Point 2022",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [
+   "Coordinates",
+   "Public practice schedule",
+   "Phone",
+   "Braking-bump behavior"
+  ]
+ },
+ {
+  "id": "redbud-mx",
+  "name": "RedBud MX",
+  "aliases": [
+   "RedBud",
+   "Red Bud",
+   "Buchanan",
+   "RedBud Track N Trail"
+  ],
+  "state": "MI",
+  "city": "Buchanan",
+  "county": "Berrien",
+  "address": "North Red Bud Trail, just north of Buchanan, MI (west side of the road)",
+  "lat": 41.8714,
+  "lng": -86.37,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "open",
+  "website": "https://redbudmx.com",
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "pro national track (LaRocco's Leap, ~120 ft)",
+   "KTM kids track",
+   "night track"
+  ],
+  "soil": {
+   "primary": "loam",
+   "secondary": "clay",
+   "notes": "Once a hard clay track; now mostly deep loam with some sandy and some hard sections. Analysts say the modern surface gives consistent traction and needs the meat of the power.",
+   "confidence": "high"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "big",
+   "elevation_change": "rolling",
+   "traits": [
+    "deep ruts",
+    "LaRocco's Leap",
+    "fast inside lines",
+    "low spots that rut"
+   ],
+   "notes": "Classic layout largely unchanged for decades; LaRocco's Leap (built 1991) is the longest jump on the circuit. Inside lines are often too fast to ignore, which makes passing hard."
+  },
+  "conditions": {
+   "dry": "Loam with hard spots; normally calls for a compromise setup.",
+   "wet": "Rain softens the base; low areas rut easily and ruts get softer and longer than normal. Approach to LaRocco's Leap gets hard to build speed for.",
+   "late_day": "Crews keep adding soft dirt during the day, so it may not harden as expected.",
+   "watering_prep": "Heavy prep with soft dirt brought in through the day at nationals.",
+   "seasonal": "Pro national over the July 4th weekend (30,000+ fans); hosted Motocross of Nations 2018 and 2022."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: once hard clay, now deep loam with sandy bits; use smooth arcs and the meat of the power; deep ruts punish over-aggression.",
+    "source_url": "https://racerxonline.com/2025/07/03/pro-motocross-returns-to-redbud-and-jt-weighs-in-on-how-the-iconic-venue-has-changed-over-the-years",
+    "source_type": "article",
+    "date": "2025-07"
+   },
+   {
+    "says": "Analyst: Friday rain left soft, long ruts in low areas; scoop rear tire worked better than a traditional tire chosen for hard sections; few 250s cleared LaRocco's Leap.",
+    "source_url": "https://racerxonline.com/2024/07/08/breakdown-redbud",
+    "source_type": "article",
+    "date": "2024-07"
+   },
+   {
+    "says": "Analyst: fast inside lines make passing hard; stay out of roost to save tear-offs; rushing corners caused washouts.",
+    "source_url": "https://racerxonline.com/2022/07/05/breakdown-redbud",
+    "source_type": "article",
+    "date": "2022-07"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Red_Bud_MX",
+    "title": "Wikipedia - Red Bud MX (coordinates, history, tracks)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2025/07/03/pro-motocross-returns-to-redbud-and-jt-weighs-in-on-how-the-iconic-venue-has-changed-over-the-years",
+    "title": "Racer X - JT on how RedBud changed (2025)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2024/07/08/breakdown-redbud",
+    "title": "Racer X - Breakdown: RedBud 2024",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2022/07/05/breakdown-redbud",
+    "title": "Racer X - Breakdown: RedBud 2022",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [
+   "Street number",
+   "Phone",
+   "Public practice schedule",
+   "Braking-bump behavior"
+  ]
+ },
+ {
+  "id": "the-wick-338",
+  "name": "The Wick 338 (Southwick)",
+  "aliases": [
+   "Southwick",
+   "The Wick",
+   "Wick 338",
+   "Moto 338"
+  ],
+  "state": "MA",
+  "city": "Southwick",
+  "county": "Hampden",
+  "address": "Legion Road, Southwick, MA 01077",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "open",
+  "website": "https://thewick338.com/",
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "national sand track"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": "hardpack",
+   "notes": "The closest thing to a full sand race in the US, but over a deceptively hard base - not as deep as Lommel. Crews add sand for depth.",
+   "confidence": "high"
+  },
+  "layout": {
+   "speed": "medium",
+   "jumps": "medium",
+   "elevation_change": "unknown",
+   "traits": [
+    "sand ruts",
+    "square-edged sand bumps",
+    "blown-out berms",
+    "sand rollers"
+   ],
+   "notes": "Bumps are more square-edged than European sand. Local sand riders often run well here."
+  },
+  "conditions": {
+   "dry": "Ruts and bumps form quickly; very physical.",
+   "wet": "Sand takes light rain well; heavy rain can wash added sand away. Rain the week before leaves a slippery base that causes wheelspin.",
+   "late_day": "Gets slower through the day, not faster; second qualifying slower than first; class that runs last gets the roughest track.",
+   "watering_prep": "Sand added to build depth.",
+   "seasonal": "Pro national late June / early July; 50 years of pro racing in 2026. Hot, humid, with possible afternoon storms."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: sand over a hard base with square-edged bumps; ride the berm sweet spot - too low spins, too deep buries the rear; stay light on entry, then commit to throttle.",
+    "source_url": "https://racerxonline.com/2025/06/26/jason-thomas-on-why-southwick-is-the-most-unqiue-stop-on-the-calendar",
+    "source_type": "article",
+    "date": "2025-06"
+   },
+   {
+    "says": "Analyst: after a wet week the base was slippery and riders dug through it with wheelspin; track slowed through the afternoon; late-moto fitness made the difference.",
+    "source_url": "https://racerxonline.com/2024/07/01/breakdown-southwick",
+    "source_type": "article",
+    "date": "2024-07"
+   },
+   {
+    "says": "Preview: deep sand where ruts form fast and line choice keeps changing; conditioning matters most.",
+    "source_url": "https://www.njmotocross.com/nj-motocross/2025/2025-southwick-national-at-the-wick-338-only-the-strong-survive/",
+    "source_type": "article",
+    "date": "2025-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://promotocross.com/race/southwick-national/track",
+    "title": "Pro Motocross - Southwick track page",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2025/06/26/jason-thomas-on-why-southwick-is-the-most-unqiue-stop-on-the-calendar",
+    "title": "Racer X - JT on Southwick (2025)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2024/07/01/breakdown-southwick",
+    "title": "Racer X - Breakdown: Southwick 2024",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.njmotocross.com/nj-motocross/2025/2025-southwick-national-at-the-wick-338-only-the-strong-survive/",
+    "title": "NJ Motocross - 2025 Southwick preview",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [
+   "Coordinates",
+   "Street number",
+   "Phone",
+   "Public practice schedule",
+   "Elevation/hill profile"
+  ]
+ },
+ {
+  "id": "spring-creek-mx",
+  "name": "Spring Creek MX Park",
+  "aliases": [
+   "Spring Creek",
+   "Millville",
+   "Spring Creek National"
+  ],
+  "state": "MN",
+  "city": "Millville",
+  "county": "Wabasha",
+  "address": "63633 298th Avenue, Millville, MN 55957",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": "https://www.springcreekmotocross.com/",
+  "phone": "(507) 753-2779",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "national MX track (lit)",
+   "hare scramble trails"
+  ],
+  "soil": {
+   "primary": "mixed",
+   "secondary": "sand",
+   "notes": "Mix of sand sections (notably the sand whoops) and hardpack; billed as some of the richest soil on the circuit with strong traction. Rain makes the dirt thick and muddy.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "big",
+   "elevation_change": "hilly",
+   "traits": [
+    "sand whoops",
+    "steep downhill",
+    "off-camber",
+    "deep ruts in long right-hander",
+    "tight first turn"
+   ],
+   "notes": "In the Mississippi River valley by the creek. Steep downhills (steeper than TV shows), uphills, off-cambers, sand whoops into a triple; long fast first right narrows sharply and causes pileups."
+  },
+  "conditions": {
+   "dry": "Strong traction; considered easy to set up compared with Southwick.",
+   "wet": "Rain makes dirt thick; mud makes bikes hard to hold; tractors may not get onto wet sections.",
+   "late_day": "Gets rougher through the day; distinct inside/outside lines form in fast turns on rough days; long right-hander always ruts deep.",
+   "watering_prep": "Groomed and watered; crew preps heavily for nationals.",
+   "seasonal": "Open practice on select Saturdays (about twice a month); MN OHV permit required. Pro national each July since 1983 (first pro event 1982)."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: momentum through the first chicane and sand whoops decides whether you clear the triple; work with the track rather than muscling berms; rain before moto two caused crashes.",
+    "source_url": "https://racerxonline.com/2024/07/15/breakdown-spring-creek",
+    "source_type": "article",
+    "date": "2024-07"
+   },
+   {
+    "says": "Analyst: sand whoops, big hills, off-cambers and hardpack with strong traction; easy to dial in; first turn invites contact.",
+    "source_url": "https://racerxonline.com/2023/07/17/breakdown-spring-creek",
+    "source_type": "article",
+    "date": "2023-07"
+   },
+   {
+    "says": "Technique breakdown: keep weight back and front light in sand whoops, stand through downhills, point toes in to avoid catching ruts, use clutch on downhills, keep momentum in mud on a 250.",
+    "source_url": "https://racerxonline.com/2015/07/21/breakdown-spring-creek-technique",
+    "source_type": "article",
+    "date": "2015-07"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://promotocross.com/race/spring-creek-national/track",
+    "title": "Pro Motocross - Spring Creek track page",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://riderplanet-usa.com/atv/trails/info/minnesota_09359/ride_3e62.htm",
+    "title": "RiderPlanet USA - Spring Creek MX Park",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2024/07/15/breakdown-spring-creek",
+    "title": "Racer X - Breakdown: Spring Creek 2024",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2023/07/17/breakdown-spring-creek",
+    "title": "Racer X - Breakdown: Spring Creek 2023",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2015/07/21/breakdown-spring-creek-technique",
+    "title": "Racer X - Breakdown: Spring Creek technique 2015",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [
+   "Coordinates",
+   "Exact soil mix (loam vs sand share) - sources only name sand and hardpack",
+   "County inferred from Millville location, not stated by a source"
+  ]
+ },
+ {
+  "id": "washougal-mx-park",
+  "name": "Washougal MX Park",
+  "aliases": [
+   "Washougal",
+   "Washougal National"
+  ],
+  "state": "WA",
+  "city": "Washougal",
+  "county": "Clark",
+  "address": "40205 NE Borin Road, Washougal, WA 98671",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": "https://washougalmxpk.com/",
+  "phone": "(360) 837-3975",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "national MX track (lit)",
+   "second MX track"
+  ],
+  "soil": {
+   "primary": "hardpack",
+   "secondary": "loam",
+   "notes": "Racers and analysts call it the hardest-packed, most slippery dirt of the summer no matter what is hauled in; the track's own promo calls it deep brown loam that is deceptively slick. Crews rip it deep for nationals.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "medium",
+   "jumps": "medium",
+   "elevation_change": "hilly",
+   "traits": [
+    "Horsepower Hill",
+    "tree-shaded switchbacks",
+    "whoops",
+    "drop-off jump chicane",
+    "hardened ruts"
+   ],
+   "notes": "Set in evergreen forest by the Washougal River. Climbs Horsepower Hill and drops back down. Sun-to-shade transitions blind riders and hide ruts."
+  },
+  "conditions": {
+   "dry": "Hardens and gets slicker as the sun dries it; scoop tires usually come off.",
+   "wet": "Not documented in recent reports.",
+   "late_day": "Early moisture makes ruts that set hard later, limiting line changes; clouds keep moisture longer.",
+   "watering_prep": "Groomed and watered; ripped deep for nationals.",
+   "seasonal": "Seasonal practice/race dates - call first. Pro national each July since 1980 (one year missed)."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: hardest-packed dirt of the summer and dries harder through the day; keep mid-corner roll speed and avoid hard mid-corner acceleration; shadows make ruts hard to see.",
+    "source_url": "https://racerxonline.com/2025/07/17/hard-pack-dirt-and-picturesque-views-jason-thomas-preview-washougal",
+    "source_type": "article",
+    "date": "2025-07"
+   },
+   {
+    "says": "Analyst: dirt ripped deeper than normal gave early grip; ruts formed wet and set hard in high-90s heat; use the sighting lap to find new lines and rough spots to avoid.",
+    "source_url": "https://racerxonline.com/2024/07/21/breakdown-washougal",
+    "source_type": "article",
+    "date": "2024-07"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://promotocross.com/race/washougal-national/track",
+    "title": "Pro Motocross - Washougal track page",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/washington_06351/ride_c4e0.htm",
+    "title": "RiderPlanet USA - Washougal MX Park",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2025/07/17/hard-pack-dirt-and-picturesque-views-jason-thomas-preview-washougal",
+    "title": "Racer X - JT Washougal preview 2025",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2024/07/21/breakdown-washougal",
+    "title": "Racer X - Breakdown: Washougal 2024",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [
+   "Coordinates",
+   "Rain-day behavior",
+   "Soil description conflict between promo (loam) and racers (hardpack)"
+  ]
+ },
+ {
+  "id": "unadilla-mx",
+  "name": "Unadilla MX",
+  "aliases": [
+   "Unadilla",
+   "Unadilla Valley Sports Center",
+   "New Berlin"
+  ],
+  "state": "NY",
+  "city": "New Berlin",
+  "county": "Chenango",
+  "address": "5986 State Hwy 8, New Berlin, NY 13411",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "open",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "national MX track"
+  ],
+  "soil": {
+   "primary": "hardpack",
+   "secondary": null,
+   "notes": "Hard-packed, historically rocky base. Topsoil was reintroduced around 2013, which made it rut; rocks have been cleared over time but 450 roost still throws them.",
+   "confidence": "high"
+  },
+  "layout": {
+   "speed": "medium",
+   "jumps": "big",
+   "elevation_change": "hilly",
+   "traits": [
+    "ruts",
+    "cambered turns",
+    "The Wall uphill",
+    "downhill ruts",
+    "rocks in roost"
+   ],
+   "notes": "Valley track with most sections cambered so riders live on the tire edge. The Wall climb rewards the right line at the bottom."
+  },
+  "conditions": {
+   "dry": "On a sunny day it gets very tricky late; traction varies across the track.",
+   "wet": "Rain the day before soaked topsoil layers and made it rutty but more grippy than the usual hard surface.",
+   "late_day": "Ruts deepen, especially on the downhill approaches; rear wheel climbing a rut wall loses grip.",
+   "watering_prep": "unknown",
+   "seasonal": "Pro national each August (39th in 2025); amateur days around it."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: known for hardpack; Friday rain softened it into rutty but grippier conditions; float over bumps instead of attacking; standing through turns and patient riding won.",
+    "source_url": "https://racerxonline.com/2024/08/12/breakdown-unadilla",
+    "source_type": "article",
+    "date": "2024-08"
+   },
+   {
+    "says": "Analyst: topsoil added about a decade ago created the ruts; stay in the middle of ruts, brake less, keep momentum, small smooth inputs; rocks break visors and plates.",
+    "source_url": "https://racerxonline.com/2023/08/14/breakdown-unadilla",
+    "source_type": "article",
+    "date": "2023-08"
+   },
+   {
+    "says": "Local TV coverage: riders describe a hard-pack, rutty surface.",
+    "source_url": "https://www.wktv.com/news/top-stories/39th-unadilla-national-kicks-off-this-weekend-shining-a-spotlight-on-iconic-motocross-track-in/article_6b967a2e-8117-42d6-9902-ff6a07c61abb.html",
+    "source_type": "article",
+    "date": "2025-08"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxsportsproracing.com/event/unadilla-national/directions",
+    "title": "MX Sports Pro Racing - Unadilla directions",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2024/08/12/breakdown-unadilla",
+    "title": "Racer X - Breakdown: Unadilla 2024",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2023/08/14/breakdown-unadilla",
+    "title": "Racer X - Breakdown: Unadilla 2023",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.wktv.com/news/top-stories/39th-unadilla-national-kicks-off-this-weekend-shining-a-spotlight-on-iconic-motocross-track-in/article_6b967a2e-8117-42d6-9902-ff6a07c61abb.html",
+    "title": "WKTV - 39th Unadilla National (2025)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [
+   "Coordinates",
+   "Track website and phone",
+   "Public practice schedule",
+   "Gravity Cavity and other named sections not confirmed by a fetched source"
+  ]
+ },
+ {
+  "id": "budds-creek-mx",
+  "name": "Budds Creek Motocross Park",
+  "aliases": [
+   "Budds Creek",
+   "Budds Creek National",
+   "Mechanicsville"
+  ],
+  "state": "MD",
+  "city": "Mechanicsville",
+  "county": "St. Mary's",
+  "address": "27963 Budds Creek Road, Mechanicsville, MD 20659",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "open",
+  "website": "https://buddscreek.com/",
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "national MX track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Series page calls it deep, tacky soil. Analyst notes the insides of corners can pack too hard to use in dry years; a hard rain beforehand gives a soft base that hardens through the day.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "big",
+   "elevation_change": "hilly",
+   "traits": [
+    "off-camber",
+    "hills",
+    "one fast line",
+    "inside-line corners",
+    "first-turn pileups"
+   ],
+   "notes": "Classic hills, jumps and off-cambers. Mostly one fast line; most corners favor the inside so passing is hard and starts matter. First turn often has bikes down."
+  },
+  "conditions": {
+   "dry": "Insides of corners can get too hard-packed; passing very hard.",
+   "wet": "Hard rain before the race soaks deep, giving traction on every line; can wash out the bottoms of downhills.",
+   "late_day": "Soft base hardens as the day goes; ruts form but crews work them between motos.",
+   "watering_prep": "Crews rework ruts between motos.",
+   "seasonal": "Pro national each August; hot and humid."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: Friday rain soaked in, gave grip on insides and outsides, and the base hardened over the day; washouts at bottoms of downhills; hard to pass.",
+    "source_url": "https://racerxonline.com/2021/08/23/breakdown-budds-creek",
+    "source_type": "article",
+    "date": "2021-08"
+   },
+   {
+    "says": "Analyst: one fast line and inside-favoring corners make passing very hard even when dry; starts and first-turn survival matter; a freshly groomed first lap changes jump approach speed.",
+    "source_url": "https://racerxonline.com/2024/08/19/breakdown-budds-creek",
+    "source_type": "article",
+    "date": "2024-08"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://promotocross.com/race/budds-creek-national/track",
+    "title": "Pro Motocross - Budds Creek track page",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2021/08/23/breakdown-budds-creek",
+    "title": "Racer X - Breakdown: Budds Creek 2021",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2024/08/19/breakdown-budds-creek",
+    "title": "Racer X - Breakdown: Budds Creek 2024",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Soil type named only by promo copy",
+   "Coordinates",
+   "Phone",
+   "Public practice schedule",
+   "Braking-bump/rut depth on a dry year"
+  ]
+ },
+ {
+  "id": "ironman-raceway",
+  "name": "Ironman Raceway",
+  "aliases": [
+   "Ironman",
+   "Crawfordsville",
+   "Offield Creek",
+   "Ironman National"
+  ],
+  "state": "IN",
+  "city": "Crawfordsville",
+  "county": "Montgomery",
+  "address": "1389 W 200 S, Crawfordsville, IN 47933",
+  "lat": 40.00556,
+  "lng": -86.92917,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": "https://ironmanraceway.com/",
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "pro track (~1.3 mi)",
+   "amateur track (~1.1 mi)",
+   "GNCC course"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Listed as clay. Analysts describe a firm base with sawdust mixed in at times, the west side harder than the east; series page calls it deep soil that ends the day rough and rutted.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "big",
+   "elevation_change": "hilly",
+   "traits": [
+    "square-edged bumps",
+    "big uphill jump (Godzilla)",
+    "tree-canopy section",
+    "ruts"
+   ],
+   "notes": "Flat farmland outside, but the track drops into a creek valley with some of the biggest jump-and-hill combos on the series. A newer start and woods section were added in 2024."
+  },
+  "conditions": {
+   "dry": "Lots of square-edged bumps; firm base.",
+   "wet": "Rain before Saturday makes it very rutty.",
+   "late_day": "Rough and rutted by the end of the day; rewards standing and changing lines.",
+   "watering_prep": "Sawdust added at times for texture.",
+   "seasonal": "Open for racing on select weekends; GNCC since 1995, Pro MX since 2014; often the Pro Motocross finale (late August)."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: typical regional dirt that gets very rutty if it rains before race day; firm base with sawdust; west side harder; plenty of square-edged bumps; new canopy section adds shadows.",
+    "source_url": "https://racerxonline.com/2025/08/07/whats-in-store-for-riders-at-ironman-jt-previews-pro-motocross-return",
+    "source_type": "article",
+    "date": "2025-08"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Ironman_Raceway",
+    "title": "Wikipedia - Ironman Raceway (coords, surface, lengths)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://promotocross.com/race/ironman-national/track",
+    "title": "Pro Motocross - Ironman track page",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/indiana_14988/ride_819e.htm",
+    "title": "RiderPlanet USA - Ironman Raceway",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2025/08/07/whats-in-store-for-riders-at-ironman-jt-previews-pro-motocross-return",
+    "title": "Racer X - JT Ironman preview 2025",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2024/08/22/track-changes-to-ironman-raceway-new-start-and-woods-section",
+    "title": "Racer X - Ironman track changes (2024)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Address conflict: series and Wikipedia give 1389 W 200 S; RiderPlanet gives 1389 S 200 W",
+   "Track phone (directory lists an out-of-state number, not used)",
+   "Public practice days"
+  ]
+ },
+ {
+  "id": "loretta-lynn-ranch",
+  "name": "Loretta Lynn's Ranch",
+  "aliases": [
+   "Loretta's",
+   "Loretta Lynn's",
+   "Loretta Lynn Ranch",
+   "The Ranch",
+   "Hurricane Mills"
+  ],
+  "state": "TN",
+  "city": "Hurricane Mills",
+  "county": "Humphreys",
+  "address": "44 Hurricane Mills Rd, Hurricane Mills, TN 37078",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "private",
+  "status": "seasonal",
+  "website": "http://www.lorettalynn.com",
+  "phone": "(931) 296-7700",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "amateur national MX track (lit, starting gate)"
+  ],
+  "soil": {
+   "primary": "mixed",
+   "secondary": "sand",
+   "notes": "After a major flood the track was rebuilt with river-bottom soil and flood sand, with white sand in many sections. Crew mixes in measured sand and mulch and rips deep; riders say sand replaced sawdust. Fine sand over the hard base can feel awkward.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "medium",
+   "jumps": "medium",
+   "elevation_change": "rolling",
+   "traits": [
+    "deep ruts",
+    "sand corners",
+    "Ten Commandments",
+    "whoops",
+    "finish-line jumps",
+    "narrow"
+   ],
+   "notes": "Narrow track, so starts matter and passing is hard. Jumps are simple; whoops, finish-line section and sand corners are the hard parts. Woods sections and banked berms."
+  },
+  "conditions": {
+   "dry": "Ultra-rough and rutted; inside ruts so deep riders commit to one; square-edged bumps hidden by late-day shadows.",
+   "wet": "Rains often and racing continues; storms have flooded the track and cancelled days.",
+   "late_day": "Long slow inside ruts form; sections dozed every 3-5 motos; sand chop builds as each class runs.",
+   "watering_prep": "Prep called second to none: sand and mulch mixed in, ripped deep, watered on schedule; Monday practice breaks it in.",
+   "seasonal": "Only open for the AMA Amateur National (late July / early August) and select events; riders must qualify. Extreme heat and humidity."
+  },
+  "rider_reports": [
+   {
+    "says": "Racer X writer: prep is excellent but the track gets extremely rough and rutted and is one of the most technical to go fast on; fresh mulch makes odd bumps until it mixes in by Tuesday.",
+    "source_url": "https://racerxonline.com/2025/08/07/the-loretta-lynns-experience-racing-watching-and-everything-in-between",
+    "source_type": "article",
+    "date": "2025-08"
+   },
+   {
+    "says": "Forum racers: deep inside ruts you pick and keep for several turns, hidden late-day square edges, brutal humidity, narrow track; sand prep now used instead of sawdust.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/For-Those-Of-Us-Who-Have-Never-Raced-LL,1405258",
+    "source_type": "forum",
+    "date": null
+   },
+   {
+    "says": "Track walk: rebuilt with river-bottom soil and white sand; deep sand corners rut heavily and chop up as classes run; Ten Commandments get very rough over the week.",
+    "source_url": "https://racerxonline.com/2010/08/03/loretta-lynns-ilap",
+    "source_type": "article",
+    "date": "2010-08"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://riderplanet-usa.com/atv/trails/info/tennessee_05888/ride_7b57.htm",
+    "title": "RiderPlanet USA - Loretta Lynn's Ranch",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2025/08/07/the-loretta-lynns-experience-racing-watching-and-everything-in-between",
+    "title": "Racer X - The Loretta Lynn's experience (2025)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2010/08/03/loretta-lynns-ilap",
+    "title": "Racer X - Loretta Lynn's iLap (2010)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/For-Those-Of-Us-Who-Have-Never-Raced-LL,1405258",
+    "title": "Vital MX forum - For those who have never raced LL",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://ultimatemotorcycling.com/2013/08/01/rain-halts-action-wednesday-at-loretta-lynn-ranch-amateur-mx/",
+    "title": "Ultimate Motorcycling - Rain halts action (2013)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Coordinates",
+   "Forum thread post dates not visible",
+   "Layout changes year to year",
+   "access set to private because riding requires qualifying - not a public practice track"
+  ]
+ },
+ {
+  "id": "ponca-city-mx",
+  "name": "Ponca City MX",
+  "aliases": [
+   "Ponca City",
+   "Ponca",
+   "Ponca City Motocross"
+  ],
+  "state": "OK",
+  "city": "Ponca City",
+  "county": "Kay",
+  "address": "West Prospect Ave area near Ponca City Regional Airport, Ponca City, OK (street number not confirmed)",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "unknown",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main MX track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "No source describes the soil.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": "City-owned land developed into a nationally known amateur venue."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "Prone to flooding: a 2013 storm submerged the track and cancelled a day; severe flooding moved the 2025 South Central Area Qualifier to Sweet 16 MX (Muskogee).",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Long-time home of the NMA Grand National (moved to Norman, OK in 2012); since then hosts Loretta Lynn regional/area qualifiers and a fall MotoPlayground race."
+  },
+  "rider_reports": [
+   {
+    "says": "Race report: overnight storm left the track under water and wind damage; Wednesday motos were cancelled and run Thursday.",
+    "source_url": "https://www.cyclenews.com/2013/07/article/amateur-motocross-matt-bisceglia-perfect-at-ponca-city",
+    "source_type": "article",
+    "date": "2013-07"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://poncacitynews.com/node/29782",
+    "title": "Ponca City News - Ponca City welcomes racers (undated)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2011/12/15/ponca-city-to-relocate",
+    "title": "Racer X - Ponca City (NMA Grand National) to relocate (2011)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://mxsports.com/2025/05/05/competition-bulletin-2025-6-ponca-city-area-qualifier-venue-change",
+    "title": "MX Sports - 2025 Ponca City area qualifier moved for flooding",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.cyclenews.com/2013/07/article/amateur-motocross-matt-bisceglia-perfect-at-ponca-city",
+    "title": "Cycle News - Ponca City 2013",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil and layout",
+   "Street address and coordinates",
+   "Website/phone",
+   "Current status after 2025 flooding",
+   "Rider reports on how it rides"
+  ]
+ },
+ {
+  "id": "mammoth-motocross",
+  "name": "Mammoth Motocross",
+  "aliases": [
+   "Mammoth",
+   "Mammoth Mountain Motocross",
+   "Mammoth MX"
+  ],
+  "state": "CA",
+  "city": "Mammoth Lakes",
+  "county": "Mono",
+  "address": "Motocross Access Road, Mammoth Lakes, CA 93546",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": "https://www.mammothmountain.com/motocross/home",
+  "phone": "(559) 899-0371",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main track (~1 mile, natural terrain)"
+  ],
+  "soil": {
+   "primary": "mixed",
+   "secondary": "sand",
+   "notes": "Directory lists loamy soil, decomposed granite and sand. A 2006 rider account says the loose winter topsoil gets roosted into the trees after a few practices, leaving a rocky track.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "big",
+   "elevation_change": "hilly",
+   "traits": [
+    "altitude",
+    "steep hills",
+    "off-camber",
+    "60-80 ft tabletops",
+    "rocks after topsoil goes"
+   ],
+   "notes": "Natural mountain layout at about 7,700-8,000 ft. Thin air cuts engine power sharply."
+  },
+  "conditions": {
+   "dry": "Smooth early, then very rough and rocky once topsoil is roosted off.",
+   "wet": "unknown",
+   "late_day": "Much rougher by heat races than in morning practice.",
+   "watering_prep": "Listed as watered and groomed.",
+   "seasonal": "Open only for the late-June Mammoth Motocross race event; limited practice passes."
+  },
+  "rider_reports": [
+   {
+    "says": "Rider column: practice starts smooth but loose topsoil is roosted away within a few sessions, leaving a rocky track; thin air makes a 125 feel badly down on power.",
+    "source_url": "https://racerxonline.com/2006/06/22/rev-up-mammoth",
+    "source_type": "article",
+    "date": "2006-06"
+   },
+   {
+    "says": "MXA columnist: at altitude tire pressure, fork air and shock nitrogen pressure rise; check and bleed before riding.",
+    "source_url": "https://motocrossactionmag.com/bare-bones-my-mammoth-motocross-experiences",
+    "source_type": "article",
+    "date": null
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/california_08488/ride_7914.htm",
+    "title": "RiderPlanet USA - Mammoth Motocross",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2006/06/22/rev-up-mammoth",
+    "title": "Racer X - Rev Up: Mammoth (2006)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://motocrossactionmag.com/bare-bones-my-mammoth-motocross-experiences",
+    "title": "MXA - Bare Bones: Mammoth experiences (c. 2020)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://fasttimes.fasthouse.com/photos/racing-high-at-8-000ft",
+    "title": "Fasthouse - Racing high at 8,000 ft",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Coordinates",
+   "Recent rider reports on soil and ruts",
+   "Altitude claims vary (8,000 ft per directory; one 2006 writer says ~10,000 ft)",
+   "MXA column is undated (content suggests about 2020)"
+  ]
+ },
+ {
+  "id": "freestone-raceway",
+  "name": "Freestone County Raceway",
+  "aliases": [
+   "Freestone",
+   "Freestone Raceway",
+   "Freestone MX",
+   "Miller Ranch",
+   "Wortham"
+  ],
+  "state": "TX",
+  "city": "Wortham",
+  "county": "Freestone",
+  "address": "Off CR-995 near CR-996 and SR-246, Wortham, TX (no street number found)",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "http://www.freestonemx.com",
+  "phone": "(713) 962-3386",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main MX track",
+   "second MX track"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Race coverage describes deep, sandy soil with a big sand section and loose sand throughout; owner added lots of sand for the 2011 national. One directory checklist says no sand, which conflicts with every race report.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "medium",
+   "jumps": "medium",
+   "elevation_change": "flat",
+   "traits": [
+    "sand whoops",
+    "sand ruts",
+    "wide track"
+   ],
+   "notes": "Basically flat, wide and flowing with a few good jumps and a sand whoop section before the finish."
+  },
+  "conditions": {
+   "dry": "Deep and sandy; heat (90s+) and wind are big factors.",
+   "wet": "unknown",
+   "late_day": "Heavily watered early so even 450s bog; dries out to one main line by moto one, then multiple lines develop by moto two.",
+   "watering_prep": "Heavy watering early for dust.",
+   "seasonal": "Several practice dates a year but mainly open for events; hosted Pro nationals 2007-2012 and amateur spring championships."
+  },
+  "rider_reports": [
+   {
+    "says": "Notebook: flat with deep sandy soil; over-watered morning so deep that 450s struggled, then one dry line in moto one and several lines by moto two; heat and 30 mph wind wore riders down.",
+    "source_url": "https://racerxonline.com/2011/05/30/racer-x-notebook-freestone",
+    "source_type": "article",
+    "date": "2011-05"
+   },
+   {
+    "says": "Team report: loose sand, rough and rutted, 99F heat and gusty wind; a rut grabbed the front wheel late in moto one.",
+    "source_url": "https://racerxonline.com/2011/06/03/moto-innovations-race-report-freestone",
+    "source_type": "article",
+    "date": "2011-06"
+   },
+   {
+    "says": "Practice report: owner dumped a lot of sand on it, making practice rough; sand whoops reshaped.",
+    "source_url": "https://racerxonline.com/2011/05/28/freestone-practice-report",
+    "source_type": "article",
+    "date": "2011-05"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/texas_01961/ride_5ff0.htm",
+    "title": "RiderPlanet USA - Freestone County Raceway (status May 2025)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2008/05/28/freestone-county-raceway-eager-to-build-upon-success",
+    "title": "Racer X - Freestone eager to build on success (2008)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2011/05/30/racer-x-notebook-freestone",
+    "title": "Racer X - Notebook: Freestone 2011",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2011/06/03/moto-innovations-race-report-freestone",
+    "title": "Racer X - Moto Innovations race report Freestone 2011",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2011/05/28/freestone-practice-report",
+    "title": "Racer X - Freestone practice report 2011",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "All rider reports are from 2011 pro nationals; no recent amateur reports",
+   "Official website could not be fetched",
+   "Coordinates",
+   "Rain behavior"
+  ]
+ },
+ {
+  "id": "lake-whitney-cycle-ranch",
+  "name": "Lake Whitney Cycle Ranch",
+  "aliases": [
+   "Lake Whitney",
+   "WB Ranch"
+  ],
+  "state": "TX",
+  "city": "Whitney",
+  "county": null,
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "private",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "No source names the soil.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "deep ruts (2004 memory)"
+   ],
+   "notes": "Former national (1970s-80s) and big amateur venue (spring/winter events into ~2010)."
+  },
+  "conditions": {
+   "seasonal": "Closed; forum posters (2024) say the land sits unused or is used privately for hunting.",
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown"
+  },
+  "rider_reports": [
+   {
+    "says": "Former racers recall back-section ruts so deep you picked one and went; called it a favorite track; it is now closed.",
+    "source_url": "https://www.vitalmx.com/comment/6958936",
+    "source_type": "forum",
+    "date": "2024-09"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://promotocross.com/track/lake-whitney-cycle-ranch",
+    "title": "Pro Motocross - Lake Whitney Cycle Ranch (1973-1983 events)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2010/02/11/otcmx-com-named-track-builder-for-lake-whitney",
+    "title": "Racer X - Track builder named for Lake Whitney (2010)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/6958936",
+    "title": "Vital MX forum - Lake Whitney (2024)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Exact location/county",
+   "Closing date",
+   "Kept only so the app can resolve the name riders still use"
+  ]
+ },
+ {
+  "id": "millcreek-mx-park",
+  "name": "MillCreek MX Park",
+  "aliases": [
+   "MillCreek MX",
+   "Mill Creek",
+   "Millcreek Motocross"
+  ],
+  "state": "AL",
+  "city": "Pell City",
+  "county": "St. Clair",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "private",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "loam",
+   "secondary": null,
+   "notes": "Described as red loamy dirt.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "medium",
+   "elevation_change": "rolling",
+   "traits": [
+    "long start straight",
+    "sloped infield",
+    "long flowing downhills",
+    "step-up to step-over"
+   ],
+   "notes": "Not in Tennessee - the real MillCreek MX was in Pell City, Alabama (2000-2022)."
+  },
+  "conditions": {
+   "seasonal": "Closed July 2022; land sold for a housing development.",
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown"
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.vurbmoto.com/millcreek-mx-news-you-dont-want-to-hear/",
+    "title": "Vurb Moto - MillCreek MX closing (2022)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2011/01/12/millcreek-motocross-celebrates-10-years-racing",
+    "title": "Racer X - MillCreek celebrates 10 years (2011)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "No Mill Creek track found in Tennessee",
+   "County inferred from Pell City, not stated by a source",
+   "Kept only for name resolution"
+  ]
+ },
+ {
+  "id": "clubmx",
+  "name": "ClubMX Training Facility",
+  "aliases": [
+   "ClubMX",
+   "Club MX"
+  ],
+  "state": "SC",
+  "city": "Chesterfield",
+  "county": "Chesterfield",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "training",
+   "motocross",
+   "supercross"
+  ],
+  "access": "unknown",
+  "status": "open",
+  "website": "https://clubmx-sc.com",
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "about four MX tracks (different dirt each)",
+   "about four supercross tracks",
+   "original sandy GP track",
+   "public practice track"
+  ],
+  "soil": {
+   "primary": "mixed",
+   "secondary": "sand",
+   "notes": "One side of the property is mostly sand, the other mostly clay; each track has different dirt. The sand track is known as notorious.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "big",
+   "elevation_change": "rolling",
+   "traits": [
+    "sand",
+    "clay",
+    "pro SX sections"
+   ],
+   "notes": "About 200 acres in the hills ~60 miles SE of Charlotte; full-time pro/amateur program."
+  },
+  "conditions": {
+   "seasonal": "Year-round programs; public practice track can draw 100-200 riders on winter weekends; weekend camps.",
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "Track builder on staff."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://motocrossactionmag.com/brandon-haas-on-making-the-clubmx-training-facility-a-success",
+    "title": "MXA - Brandon Haas on ClubMX (c. 2022)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2014/02/03/inside-club-mx",
+    "title": "Racer X - Inside Club MX (2014)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2013/06/26/mxptv-the-sands-of-club-mx",
+    "title": "Racer X - The sands of Club MX (2013)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Street address/coordinates",
+   "Public practice days and fees",
+   "How the sand ruts/bumps (no rider report)"
+  ]
+ },
+ {
+  "id": "millsaps-training-facility",
+  "name": "Millsaps Training Facility",
+  "aliases": [
+   "MTF",
+   "Millsaps"
+  ],
+  "state": "GA",
+  "city": "Cairo",
+  "county": "Grady",
+  "address": "867 Bold Springs Road, Cairo, GA 39828",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "training",
+   "motocross",
+   "supercross",
+   "arenacross"
+  ],
+  "access": "appointment",
+  "status": "open",
+  "website": "https://mtfmx.com/",
+  "phone": "(229) 377-8502",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "national-caliber MX tracks",
+   "supercross track (pro license)",
+   "arenacross track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "No source states the soil.",
+   "confidence": "low"
+  },
+  "layout": {
+   "notes": "210-acre training facility (since 2003) run as coached camps and full-time programs, Mon-Fri.",
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": []
+  },
+  "conditions": {
+   "seasonal": "Mon-Fri 8am-5pm; training programs and week-long camps rather than open practice.",
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "Watered and groomed."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mtfmx.com/",
+    "title": "Millsaps Training Facility - official site",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_13982/ride_d5d8.htm",
+    "title": "RiderPlanet USA - Millsaps Training Facility",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.dirtrider.com/features/online-exclusives/141_0503_roadtrip_millsaps_training_facility",
+    "title": "Dirt Rider - Road trip to MTF (2009)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Soil",
+   "Rider reports on how the tracks ride",
+   "Coordinates",
+   "County inferred from Cairo, not stated by a source"
+  ]
+ },
+ {
+  "id": "lawrence-brothers-compound",
+  "name": "Lawrence brothers' training compound",
+  "aliases": [
+   "Lawrence compound",
+   "Jett and Hunter Lawrence compound"
+  ],
+  "state": "FL",
+  "city": null,
+  "county": null,
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "training"
+  ],
+  "access": "private",
+  "status": "unknown",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not public.",
+   "confidence": "low"
+  },
+  "layout": {
+   "notes": "Private compound of pro riders Jett and Hunter Lawrence; only public fact is that it is outside Tampa, Florida.",
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": []
+  },
+  "conditions": {
+   "seasonal": "Private; not open to the public.",
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown"
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://adventureawaits.progressive.com/articles/dirt-biker-paradise-inside-the-lawrence-brothers-training-compound/",
+    "title": "Progressive - Inside the Lawrence brothers' training compound (2026)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vurbmoto.com/compound-revival-from-22-to-83/",
+    "title": "Vurb Moto - Compound Revival (2021, Lawrences at Chad Reed's 83 Compound)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Location beyond 'outside Tampa' (private; do not pin)",
+   "Whether it is the former Chad Reed 83 Compound - not confirmed",
+   "Tracks and soil",
+   "Belongs geographically with FL files; listed here as a named pro compound"
+  ]
+ }
+]

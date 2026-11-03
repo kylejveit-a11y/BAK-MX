@@ -9,15 +9,17 @@ import json, re, sys, glob, os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DIR = os.path.join(ROOT, 'docs', 'research', 'tracks')
-BOX = {'FL': (24.3, 31.1, -87.7, -79.9)}
+BOX = {'FL': (24.3, 31.1, -87.7, -79.9), 'GA': (30.3, 35.1, -85.7, -80.7), 'AL': (30.1, 35.1, -88.6, -84.8),
+       'SC': (32.0, 35.3, -83.4, -78.5), 'NC': (33.7, 36.7, -84.4, -75.4), 'TN': (34.9, 36.7, -90.4, -81.6)}
 TYPES = {'motocross', 'supercross', 'arenacross', 'offroad', 'enduro', 'training', 'pit_bike', 'flat_track'}
 ACCESS = {'public', 'members', 'private', 'appointment', 'unknown'}
 STATUS = {'open', 'closed', 'seasonal', 'unknown'}
 CONF = {'high', 'medium', 'low'}
 # Same facility researched under two ids at a regional border: second id folds into the first.
-SAME = {'motobros-okeechobee-mx': 'moto-bros-okeechobee'}
+SAME = {'motobros-okeechobee-mx': 'moto-bros-okeechobee', 'loretta-lynns-ranch': 'loretta-lynn-ranch', 'millcreek-mx-park': 'millcreek-mx-pell-city'}
 # Never loaded: a private person's home or property is not a track listing (privacy), whatever its history.
 EXCLUDE = {'chad-reed-compound': "a rider's private home compound",
+           'lawrence-brothers-compound': "a rider's private home compound",
            'stc-mx-panama-city': 'a coaching business with no public track (2026-10-25 review)'}
 
 def norm(r, file):
@@ -55,9 +57,12 @@ def weight(r):
 def main():
     state = (sys.argv[1] if len(sys.argv) > 1 else 'FL').upper()
     merged, problems = {}, []
-    for f in sorted(glob.glob(os.path.join(DIR, f'{state.lower()}-*.json'))):
+    # Regional files (<state>-<region>.json), a whole-state file (<state>.json) and the multi-state nationals file,
+    # which holds records for many states: only this state's records are read from it.
+    files = sorted(glob.glob(os.path.join(DIR, f'{state.lower()}-*.json'))) + [f for f in (os.path.join(DIR, f'{state.lower()}.json'), os.path.join(DIR, 'nationals.json')) if os.path.exists(f)]
+    for f in files:
         if '-update-' in os.path.basename(f): continue
-        data = json.load(open(f))
+        data = [r for r in json.load(open(f)) if os.path.basename(f) != 'nationals.json' or r.get('state') == state]
         for r in data:
             if r.get('id') in EXCLUDE:
                 problems.append(f"{r['id']}: left out ({EXCLUDE[r['id']]})"); continue

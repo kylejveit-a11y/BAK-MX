@@ -1,0 +1,3140 @@
+[
+ {
+  "id": "221-mx",
+  "name": "221 MX",
+  "aliases": [],
+  "state": "NC",
+  "city": "Union Mills",
+  "county": "Rutherford",
+  "address": "2901 US Hwy 221 N, Union Mills, NC 28139",
+  "lat": 35.462331,
+  "lng": -81.982005,
+  "types": [
+   "motocross"
+  ],
+  "access": "appointment",
+  "status": "open",
+  "website": "https://www.victory-sports.com",
+  "phone": "(828) 778-1429",
+  "facebook": "https://www.facebook.com/p/221MX-100069102121226",
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Poster says good river-bottom dirt.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "big",
+   "elevation_change": "unknown",
+   "traits": [
+    "rough"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Fast, big and rough with good riverbed dirt; open for a private rental on one visit.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "source_type": "forum",
+    "date": "2023-10"
+   },
+   {
+    "says": "Fun, but often rented or racing rather than open practice.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Practice-Tracks-East-Tennessee-Area,1408753",
+    "source_type": "forum",
+    "date": "2023-08"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/221-mx-rutherfordton",
+    "title": "MX Parks - 221 MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Practice-Tracks-East-Tennessee-Area,1408753",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Public practice schedule"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "421-mx",
+  "name": "421 MX",
+  "aliases": [
+   "MX 421",
+   "APMX",
+   "421 MX 2.0"
+  ],
+  "state": "NC",
+  "city": "Yadkinville",
+  "county": "Yadkin",
+  "address": "2055 Thunder Trail, Yadkinville, NC 27055",
+  "lat": 36.110344,
+  "lng": -80.726341,
+  "types": [
+   "motocross",
+   "arenacross"
+  ],
+  "access": "members",
+  "status": "open",
+  "website": null,
+  "phone": null,
+  "facebook": "https://facebook.com/421mxnc",
+  "instagram": "https://instagram.com/421mx2.0inc",
+  "tracks_on_site": [
+   "~1 mi main",
+   "arenacross-style track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "deep ruts"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "Riders mention deep ruts.",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "Weekend afternoons; usually not open midweek."
+  },
+  "rider_reports": [
+   {
+    "says": "Track was dialed: fast, deep ruts.",
+    "source_url": "https://www.youtube.com/watch?v=UXnIlmfhVgA",
+    "source_type": "video",
+    "date": "2026-01"
+   },
+   {
+    "says": "Too deep for the rider (June 2025 per title).",
+    "source_url": "https://www.youtube.com/watch?v=6akW9NxeXhE",
+    "source_type": "video",
+    "date": "2025-06"
+   },
+   {
+    "says": "As APMX Compound: usually not open during the week.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Places-to-ride-during-the-week-in-NC-SC,1399527",
+    "source_type": "forum",
+    "date": "2022-02"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/421-mx-mx-421-yadkinville",
+    "title": "MX Parks - 421 MX (MX 421) listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=UXnIlmfhVgA",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=6akW9NxeXhE",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Places-to-ride-during-the-week-in-NC-SC,1399527",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil type"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "5-points-mx",
+  "name": "5 Points MX Park",
+  "aliases": [],
+  "state": "NC",
+  "city": "Pinetown",
+  "county": "Beaufort",
+  "address": "979 Jefferson Rd, Pinetown, NC 27865",
+  "lat": 35.576953,
+  "lng": -76.861011,
+  "types": [
+   "motocross",
+   "supercross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://5pointsmx.com",
+  "phone": "(252) 944-1239",
+  "facebook": "https://www.facebook.com/p/5-Points-MX-Park-100057436098494",
+  "instagram": null,
+  "tracks_on_site": [
+   "1 mi lit track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "July 2026 night race was a mudder.",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "CCMX night race in deep mud.",
+    "source_url": "https://www.youtube.com/watch?v=HBITC11m2kw",
+    "source_type": "video",
+    "date": "2026-07"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/5-points-mx-park-pinetown",
+    "title": "MX Parks - 5 Points MX Park listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=HBITC11m2kw",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "ball-creek-mx",
+  "name": "Ball Creek MX",
+  "aliases": [],
+  "state": "NC",
+  "city": "Burlington",
+  "county": "Alamance",
+  "address": "2031 Hughes Mill Road, Burlington, NC 27217",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross",
+   "supercross"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "loam",
+   "secondary": null,
+   "notes": "Directory: loam with clay and sand.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/north_carolina_15320/ride_d314.htm",
+    "title": "RiderPlanet USA - Ball Creek MX (temporarily closed)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Directory says closed until further notice"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "black-ankle-raceway",
+  "name": "New Black Ankle Raceway",
+  "aliases": [
+   "Black Ankle",
+   "Black Ankle MX"
+  ],
+  "state": "NC",
+  "city": "Star",
+  "county": "Montgomery",
+  "address": "1250 Black Ankle Road, Star, NC 27356",
+  "lat": 35.5084642,
+  "lng": -79.8177311,
+  "types": [
+   "motocross",
+   "supercross",
+   "flat_track",
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(336) 239-1894",
+  "facebook": "https://www.facebook.com/profile.php?id=100063967965985",
+  "instagram": "https://www.instagram.com/theblackankleraceway",
+  "tracks_on_site": [
+   "main MX",
+   "TT flat track",
+   "lit night track with mini SX",
+   "pee-wee and mini tracks",
+   "woods trails"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "A 2025 rider called it a hardpack track.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "big",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": "Rider: hardpack with big jumps."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "Weekday riding is usually unprepped; official practice days get full prep and water.",
+   "seasonal": "Open most days; message before going."
+  },
+  "rider_reports": [
+   {
+    "says": "Fun track for anyone who likes hardpack and big jumps.",
+    "source_url": "https://www.youtube.com/watch?v=XdQ-Dx5kpSI",
+    "source_type": "video",
+    "date": "2025-09"
+   },
+   {
+    "says": "Rider first on the track in perfect conditions.",
+    "source_url": "https://www.youtube.com/watch?v=EEMww2xb3O0",
+    "source_type": "video",
+    "date": "2026-08"
+   },
+   {
+    "says": "New and very cool, with a new amateur SX track.",
+    "source_url": "https://www.vitalmx.com/comment/4643731",
+    "source_type": "forum",
+    "date": "2022-12"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/new-black-ankle-raceway-star",
+    "title": "MX Parks - New Black Ankle Raceway listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=XdQ-Dx5kpSI",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=EEMww2xb3O0",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4643731",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Wet behavior"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "blackjack-mx",
+  "name": "Blackjack MX",
+  "aliases": [],
+  "state": "NC",
+  "city": "Greenville",
+  "county": "Pitt",
+  "address": "4048 Hudson's Crossroads Rd, Greenville, NC 27858",
+  "lat": 35.523121,
+  "lng": -77.238075,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://blackjackmx.com",
+  "phone": "(252) 945-6056",
+  "facebook": "https://facebook.com/blackjackmx",
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Directory: sand and mulch; riders call it sandy.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Sand track humbled the rider (posted about 1 year before Nov 2026).",
+    "source_url": "https://www.youtube.com/watch?v=wo6wtiu8ZqU",
+    "source_type": "video",
+    "date": null
+   },
+   {
+    "says": "Sandy track; new dirt had been added.",
+    "source_url": "https://www.youtube.com/watch?v=_vaqKgUIrTQ",
+    "source_type": "video",
+    "date": null
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/blackjack-mx-greenville",
+    "title": "MX Parks - Blackjack MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=wo6wtiu8ZqU",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=_vaqKgUIrTQ",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "bob-martin-center",
+  "name": "Senator Bob Martin Eastern Agricultural Center",
+  "aliases": [
+   "Bob Martin Center"
+  ],
+  "state": "NC",
+  "city": "Williamston",
+  "county": "Martin",
+  "address": "2900 NC-125, Williamston, NC 27892",
+  "lat": 35.8201182,
+  "lng": -77.1154368,
+  "types": [
+   "arenacross",
+   "pit_bike"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": "https://www.pitbikemoto.com/bob-martin-center--williamston-nc",
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "temporary indoor arenacross track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "tight",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "Red Line Oil (TriStar MX) Arenacross rounds 13-14 in Jan 2025; Pit Bike Moto weekends."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/bob-martin-eastern-agricultural-center-williamston",
+    "title": "MX Parks - Bob Martin Eastern Agricultural Center listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://au.lifestyle.yahoo.com/neese-hill-sweep-south-carolina-183726773.html",
+    "title": "Red Line Oil Arenacross results (next rounds at Bob Martin Center, Jan 2025)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Rider reports"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "brushy-mountain",
+  "name": "Brushy Mountain Motor Sports Park",
+  "aliases": [],
+  "state": "NC",
+  "city": "Taylorsville",
+  "county": "Alexander",
+  "address": "2491 Lambert Fork Road, Taylorsville, NC 28681",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "offroad",
+   "motocross"
+  ],
+  "access": "members",
+  "status": "unknown",
+  "website": "http://bmmspark.com",
+  "phone": "(828) 635-7766",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "MX track",
+   "mini track",
+   "100+ mi trails"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Good single track about two hours from Greenville.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "source_type": "forum",
+    "date": "2023-10"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/north_carolina_11800/ride_af9f.htm",
+    "title": "RiderPlanet USA - Brushy Mountain Motor Sports Park",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "MX track condition"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "cape-fear-atv-mx",
+  "name": "Cape Fear ATV and MX Park",
+  "aliases": [],
+  "state": "NC",
+  "city": "Elizabethtown",
+  "county": "Bladen",
+  "address": "74 Kemp Woods Drive, Elizabethtown, NC 28337",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "offroad",
+   "motocross"
+  ],
+  "access": "public",
+  "status": "unknown",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Rider video calls the park very sandy.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Insanely sandy off-road park (posted about 4 years before Nov 2026).",
+    "source_url": "https://www.youtube.com/watch?v=vsLnTeHbHgs",
+    "source_type": "video",
+    "date": null
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/north_carolina_14304/ride_9618.htm",
+    "title": "RiderPlanet USA - Cape Fear ATV and MX Park",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=vsLnTeHbHgs",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Status"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "catheys-creek-mx",
+  "name": "Cathey's Creek MX",
+  "aliases": [],
+  "state": "NC",
+  "city": "Forest City",
+  "county": "Rutherford",
+  "address": "1744 Whitesides Rd, Forest City, NC 28043",
+  "lat": 35.3958722,
+  "lng": -81.9037105,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://bigoakmx.com",
+  "phone": "(828) 778-1429",
+  "facebook": "https://www.facebook.com/p/Catheys-Creek-Mx-100082832543022",
+  "instagram": "https://www.instagram.com/catheyscreekmx",
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Directory: red clay with sawdust mixed in.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "uphill triple"
+   ],
+   "notes": "Poster called it a three-quarter scale moto track."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "Occasional open practices with long waits between sessions (2023)."
+  },
+  "rider_reports": [
+   {
+    "says": "Three-quarter scale track; occasional open practices with many classes and long waits.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "source_type": "forum",
+    "date": "2023-10"
+   },
+   {
+    "says": "Race with two classes on one gate; deep gate spot (posted about 1 year before Nov 2026).",
+    "source_url": "https://www.youtube.com/watch?v=fSIyNs2DxJg",
+    "source_type": "video",
+    "date": null
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/catheys-creek-mx-forest-city",
+    "title": "MX Parks - Cathey's Creek MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/greenville-sc-mx-tracks",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=fSIyNs2DxJg",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "county-line-mx",
+  "name": "County Line MX",
+  "aliases": [
+   "County Line Motocross Park",
+   "County Line MX Park"
+  ],
+  "state": "NC",
+  "city": "Bolton",
+  "county": "Columbus",
+  "address": "10632 Green Swamp Rd S, Bolton, NC 28423",
+  "lat": 34.199802,
+  "lng": -78.376448,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://countylinemx.com",
+  "phone": "(910) 448-3386",
+  "facebook": "https://www.facebook.com/countylinemx",
+  "instagram": "https://www.instagram.com/county_line_mx",
+  "tracks_on_site": [
+   "main MX"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Directory says clay with strong irrigation; a 2022 poster said it is harder-packed than the sandy eastern NC tracks.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "big",
+   "elevation_change": "unknown",
+   "traits": [
+    "big triple",
+    "big lines"
+   ],
+   "notes": "Riders highlight big jumps including a big triple."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "Directory credits a strong irrigation system.",
+   "seasonal": "Weekends 10-5."
+  },
+  "rider_reports": [
+   {
+    "says": "Fun track, more hardpacked than the sand tracks nearby.",
+    "source_url": "https://www.vitalmx.com/comment/4643731",
+    "source_type": "forum",
+    "date": "2022-12"
+   },
+   {
+    "says": "Reopened under new owners (2018).",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/North-Carolina-Tracks,1333768",
+    "source_type": "forum",
+    "date": "2018-01"
+   },
+   {
+    "says": "Rider calls it a super fun track with huge lines.",
+    "source_url": "https://www.youtube.com/watch?v=V1UXCLyN2RM",
+    "source_type": "video",
+    "date": "2025-12"
+   },
+   {
+    "says": "Fast-rider chase video on Feb 15, 2025.",
+    "source_url": "https://www.youtube.com/watch?v=GNLhXBU7vbI",
+    "source_type": "video",
+    "date": "2025-02"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/county-line-mx-bolton",
+    "title": "MX Parks - County Line MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4643731",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/North-Carolina-Tracks,1333768",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=V1UXCLyN2RM",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=GNLhXBU7vbI",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "How clay rides wet",
+   "Late-day behavior"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "cow-branch-mx",
+  "name": "Cow Branch MX",
+  "aliases": [
+   "Cowbranch MX"
+  ],
+  "state": "NC",
+  "city": "Macclesfield",
+  "county": "Edgecombe",
+  "address": "1267 Stallings Rd, Macclesfield, NC 27852",
+  "lat": 35.745741,
+  "lng": -77.605121,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(252) 908-1435",
+  "facebook": "https://www.facebook.com/cowbranchmx",
+  "instagram": "https://www.instagram.com/cowbranchmx",
+  "tracks_on_site": [
+   "1.5 mi main",
+   "pee-wee track"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": "clay",
+   "notes": "Riders call it sandy with a hard base.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "deep ruts"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "One older forum post said prep is hit or miss.",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Sandy.",
+    "source_url": "https://www.vitalmx.com/comment/4643731",
+    "source_type": "forum",
+    "date": "2022-12"
+   },
+   {
+    "says": "Sandy with a hard base; prep hit or miss; jumps not easy for kids.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/East-NC-tracks,1328124",
+    "source_type": "forum",
+    "date": null
+   },
+   {
+    "says": "Never disappoints: deep ruts, fast.",
+    "source_url": "https://www.youtube.com/watch?v=i9VYH_46P8U",
+    "source_type": "video",
+    "date": "2026-08"
+   },
+   {
+    "says": "Listed as a favorite.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/winter-riding-down-south-recommendations-coming-new-england",
+    "source_type": "forum",
+    "date": "2024-10"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/cow-branch-mx-macclesfield",
+    "title": "MX Parks - Cow Branch MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4643731",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/East-NC-tracks,1328124",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=i9VYH_46P8U",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/winter-riding-down-south-recommendations-coming-new-england",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "crmx",
+  "name": "CRMX Motocross",
+  "aliases": [],
+  "state": "NC",
+  "city": "Boonville",
+  "county": "Yadkin",
+  "address": "2521 Spencer Road, Boonville, NC 27011",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "members",
+  "status": "unknown",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/north_carolina_01754/ride_42ee.htm",
+    "title": "RiderPlanet USA - CRMX Motocross",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Status; no rider reports"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "daniels-ridge-mx",
+  "name": "Daniels Ridge MX",
+  "aliases": [],
+  "state": "NC",
+  "city": "Taylorsville",
+  "county": "Alexander",
+  "address": "641 Daniels Ridge Rd, Taylorsville, NC 28681",
+  "lat": 36.006767,
+  "lng": -81.126968,
+  "types": [
+   "motocross",
+   "supercross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://danielsridgemx.com",
+  "phone": "(828) 850-1421",
+  "facebook": "https://www.facebook.com/p/Daniels-Ridge-Mx-100063537641906",
+  "instagram": null,
+  "tracks_on_site": [
+   "lit SX-style track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "Directory says sprinkler irrigation.",
+   "seasonal": "Thursday evening practice; Saturday night spring series."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/daniels-ridge-mx-taylorsville",
+    "title": "MX Parks - Daniels Ridge MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Rider reports",
+   "Soil"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "devils-ridge-mx",
+  "name": "Devil's Ridge MX",
+  "aliases": [
+   "The Ridge MX",
+   "Devils Ridge"
+  ],
+  "state": "NC",
+  "city": "Sanford",
+  "county": "Lee",
+  "address": "983 King Farm Rd, Sanford, NC 27330",
+  "lat": 35.446427,
+  "lng": -79.300535,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": "(919) 776-1767",
+  "facebook": null,
+  "instagram": "https://instagram.com/devilsridgemx",
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Red clay with sprinklers.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "ruts"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Beginner rider got wrecked by ruts; called it an awesome track.",
+    "source_url": "https://www.youtube.com/watch?v=tDizLExg278",
+    "source_type": "video",
+    "date": "2023-04"
+   },
+   {
+    "says": "Riders said it was groomed better than usual; some slick spots.",
+    "source_url": "https://www.youtube.com/watch?v=iR_8J2Max8g",
+    "source_type": "video",
+    "date": "2020-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/devils-ridge-mx-the-ridge-mx-sanford",
+    "title": "MX Parks - Devil's Ridge MX (The Ridge MX) listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=tDizLExg278",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=iR_8J2Max8g",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Sale and closure in 2024 reported only by MX Parks"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "dpg-mx-compound",
+  "name": "DPG MX Compound",
+  "aliases": [],
+  "state": "NC",
+  "city": "Kings Mountain",
+  "county": "Cleveland",
+  "address": "1036 Mary's Grove Church Road, Kings Mountain, NC 28086",
+  "lat": 35.3354175,
+  "lng": -81.3950218,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "appointment",
+  "status": "open",
+  "website": null,
+  "phone": "(980) 404-5805",
+  "facebook": "https://www.facebook.com/profile.php?id=61577735366814",
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "big",
+   "elevation_change": "unknown",
+   "traits": [
+    "100 ft triple",
+    "big ruts"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Massive ruts and big jumps.",
+    "source_url": "https://www.youtube.com/watch?v=nu6FT-Sgqzw",
+    "source_type": "video",
+    "date": "2026-01"
+   },
+   {
+    "says": "Awesome layout and great prep; 100 ft triple.",
+    "source_url": "https://www.youtube.com/watch?v=izixieacc6I",
+    "source_type": "video",
+    "date": "2026-10"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/dpg-mx-compound-kings-mountain",
+    "title": "MX Parks - DPG MX Compound listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=nu6FT-Sgqzw",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=izixieacc6I",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil type"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "dreamville-mx",
+  "name": "Dreamville MX",
+  "aliases": [
+   "Wide Open MX",
+   "Wide Open MX Park",
+   "DV"
+  ],
+  "state": "NC",
+  "city": "Raeford",
+  "county": "Hoke",
+  "address": "2356 Chisolm Rd, Raeford, NC 28376",
+  "lat": 34.9403199,
+  "lng": -79.2477903,
+  "types": [
+   "motocross",
+   "supercross",
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(919) 907-9584",
+  "facebook": "https://www.facebook.com/dreamvillemotocross",
+  "instagram": "https://www.instagram.com/dreamvillemx/",
+  "tracks_on_site": [
+   "1.2-1.4 mi main",
+   "amateur SX track",
+   "pee-wee track",
+   "~6 mi woods trails"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": "clay",
+   "notes": "Riders describe a sandy to sandy-hard mix; sand was added in 2026.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "Sept 2026: deep and wet, then rough.",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "Several weekdays plus weekends; schedule moves with weather."
+  },
+  "rider_reports": [
+   {
+    "says": "Part sandy, sandy-hard mix; called awesome.",
+    "source_url": "https://www.vitalmx.com/comment/4643731",
+    "source_type": "forum",
+    "date": "2022-12"
+   },
+   {
+    "says": "As Wide Open: awesome track, rode there most weekends in college.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/North-Carolina-Tracks,1333768",
+    "source_type": "forum",
+    "date": "2018-01"
+   },
+   {
+    "says": "Track was tough: deep and wet, then rough.",
+    "source_url": "https://www.youtube.com/watch?v=BLzu_v3UjKI",
+    "source_type": "video",
+    "date": "2026-09"
+   },
+   {
+    "says": "Added sand and changes give technical sections.",
+    "source_url": "https://www.youtube.com/watch?v=C_86aKuZefQ",
+    "source_type": "video",
+    "date": "2026-04"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/dreamville-mx-raeford",
+    "title": "MX Parks - Dreamville MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4643731",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/North-Carolina-Tracks,1333768",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=BLzu_v3UjKI",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=C_86aKuZefQ",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Watering routine"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "east-bend-motorsports",
+  "name": "East Bend Motorsports",
+  "aliases": [
+   "East Bend MX"
+  ],
+  "state": "NC",
+  "city": "East Bend",
+  "county": "Yadkin",
+  "address": "1036 Speedway Dr, East Bend, NC 27018",
+  "lat": 36.212643,
+  "lng": -80.489975,
+  "types": [
+   "motocross"
+  ],
+  "access": "members",
+  "status": "open",
+  "website": "https://eastbendmotorsports.com/",
+  "phone": "(336) 699-3629",
+  "facebook": "https://www.facebook.com/p/East-Bend-Motorsports-100064869661026",
+  "instagram": "https://www.instagram.com/eastbendmx",
+  "tracks_on_site": [
+   "main MX",
+   "beginner/StaCyc track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "Hot summer day reported June 2026.",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "Main track prepped and watered for every open day per the track.",
+   "seasonal": "Thursday evening and Sunday practice; Carolina MX spring and fall series."
+  },
+  "rider_reports": [
+   {
+    "says": "Poster praised its series and turnout but prefers tracks with more sand or loam that get rough.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/North-Carolina-Tracks,1333768",
+    "source_type": "forum",
+    "date": "2018-01"
+   },
+   {
+    "says": "Very hot day of riding.",
+    "source_url": "https://www.youtube.com/watch?v=hT99v2HfOKc",
+    "source_type": "video",
+    "date": "2026-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/east-bend-motorsports-east-bend",
+    "title": "MX Parks - East Bend Motorsports listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/North-Carolina-Tracks,1333768",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=hT99v2HfOKc",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil type"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "elevation-mx",
+  "name": "Elevation Motocross",
+  "aliases": [
+   "Elevation MX"
+  ],
+  "state": "NC",
+  "city": "Brasstown",
+  "county": "Clay",
+  "address": "775 Dog Branch Rd, Brasstown, NC 28902",
+  "lat": 35.0427542,
+  "lng": -83.9422018,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(828) 557-5776",
+  "facebook": "https://www.facebook.com/profile.php?id=61556285937714",
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "clay",
+   "secondary": "loam",
+   "notes": "Directory: loam/clay blend with rocky red clay in spots.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "hilly",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "Public Sundays; opened around 2024."
+  },
+  "rider_reports": [
+   {
+    "says": "Racer calls it a true motocross track worth racing.",
+    "source_url": "https://www.youtube.com/watch?v=OA3GWq5kHlQ",
+    "source_type": "video",
+    "date": "2026-07"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/elevation-motocross-brasstown",
+    "title": "MX Parks - Elevation Motocross listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=OA3GWq5kHlQ",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "elizabeth-city-mx",
+  "name": "Elizabeth City Motocross Club",
+  "aliases": [
+   "ECMX",
+   "Elizabeth City MX"
+  ],
+  "state": "NC",
+  "city": "Elizabeth City",
+  "county": "Pasquotank",
+  "address": "1520 Northside Rd, Elizabeth City, NC 27909",
+  "lat": 36.406656,
+  "lng": -76.329435,
+  "types": [
+   "motocross"
+  ],
+  "access": "members",
+  "status": "open",
+  "website": "https://ecmx.com",
+  "phone": "+1 252-305-0899",
+  "facebook": "https://facebook.com/elizabethcity.motocross",
+  "instagram": "https://instagram.com/ecmx_park",
+  "tracks_on_site": [
+   "main sand track"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Known as a deep sand track; riders say sand tracks there are tough.",
+   "confidence": "high"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "rolling",
+   "traits": [
+    "deep sand",
+    "bowls",
+    "off-camber"
+   ],
+   "notes": "Directory notes hills, bowls and off-camber sections."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "A Loretta Lynn qualifier (around 2013) was a mudder.",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "Member club, public on race weekends; hosts District 13 races and LL qualifiers."
+  },
+  "rider_reports": [
+   {
+    "says": "Area qualifier highlights from a muddy race (posted about 13 years before Nov 2026).",
+    "source_url": "https://www.youtube.com/watch?v=Bo04RWrABzk",
+    "source_type": "video",
+    "date": null
+   },
+   {
+    "says": "250C qualifier rider: sand tracks are tough.",
+    "source_url": "https://www.youtube.com/watch?v=hznK4cWTuD8",
+    "source_type": "video",
+    "date": null
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/elizabeth-city-motocross-club-elizabeth-city",
+    "title": "MX Parks - Elizabeth City Motocross Club listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://mxsports.com/event/elizabeth-city-mx",
+    "title": "MX Sports - Elizabeth City MX event page",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=Bo04RWrABzk",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=hznK4cWTuD8",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Recent rider reports",
+   "Prep routine"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "halfmoon-mx",
+  "name": "Halfmoon Motocross Park",
+  "aliases": [
+   "Halfmoon MX",
+   "Half Moon MX"
+  ],
+  "state": "NC",
+  "city": "Jacksonville",
+  "county": "Onslow",
+  "address": "1037 Ramsey Rd, Jacksonville, NC 28546",
+  "lat": 34.8183456,
+  "lng": -77.4304304,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(910) 382-4394",
+  "facebook": "https://www.facebook.com/HalfmoonMX/",
+  "instagram": null,
+  "tracks_on_site": [
+   "~1 mi main (lit)"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": "clay",
+   "notes": "Directory: sand/clay mix; riders describe firmer, sometimes hard-packed dirt.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "tight",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": "Smaller arena-style track per a 2022 poster."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "Owner grooms often per older forum post.",
+   "seasonal": "CCMX Saturday night races."
+  },
+  "rider_reports": [
+   {
+    "says": "Fun, smaller arena-style track with firmer dirt.",
+    "source_url": "https://www.vitalmx.com/comment/4643731",
+    "source_type": "forum",
+    "date": "2022-12"
+   },
+   {
+    "says": "Can be hard-packed; owner grooms often; not very busy.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/East-NC-tracks,1328124",
+    "source_type": "forum",
+    "date": null
+   },
+   {
+    "says": "Great track conditions at the Halloween race.",
+    "source_url": "https://www.youtube.com/watch?v=zbIKOBr_jx0",
+    "source_type": "video",
+    "date": "2026-11"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/halfmoon-motocross-park-jacksonville",
+    "title": "MX Parks - Halfmoon Motocross Park listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4643731",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/East-NC-tracks,1328124",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=zbIKOBr_jx0",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "hog-heaven-mx",
+  "name": "Hog Heaven MX",
+  "aliases": [],
+  "state": "NC",
+  "city": "Godwin",
+  "county": "Cumberland",
+  "address": "5760 Percy Strickland Rd, Godwin, NC 28344",
+  "lat": 35.166039,
+  "lng": -78.693105,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "unknown",
+  "website": null,
+  "phone": "(910) 237-6618",
+  "facebook": "https://www.facebook.com/p/Hog-Heaven-MX-100069656438485",
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "sand",
+   "secondary": "clay",
+   "notes": "Directory listing only.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Called awesome, but poster unsure whether it closed.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-NC,1313098",
+    "source_type": "forum",
+    "date": null
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/hog-heaven-mx-godwin",
+    "title": "MX Parks - Hog Heaven MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-NC,1313098",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Status"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "ironclad-mx",
+  "name": "Ironclad Motorsports",
+  "aliases": [
+   "Ironclad MX"
+  ],
+  "state": "NC",
+  "city": "Kinston",
+  "county": "Lenoir",
+  "address": "400 Fairgrounds Rd, Kinston, NC 28504",
+  "lat": 35.239755,
+  "lng": -77.619211,
+  "types": [
+   "motocross",
+   "supercross"
+  ],
+  "access": "unknown",
+  "status": "unknown",
+  "website": "https://ironcladmotorsports.com",
+  "phone": "(252) 624-9808",
+  "facebook": "https://www.facebook.com/p/Ironclad-Motocross-100057460899476",
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "sand",
+   "secondary": "clay",
+   "notes": "Directory: clay to sand.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Track was dusty and very soft (posted about 11 years before Nov 2026).",
+    "source_url": "https://www.youtube.com/watch?v=lzYX-yaQA7g",
+    "source_type": "video",
+    "date": null
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/ironclad-motorsports-kinston",
+    "title": "MX Parks - Ironclad Motorsports listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=lzYX-yaQA7g",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Current status"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "jwtf-mx",
+  "name": "JWTF MX (Jimmy Weinert Training Facility)",
+  "aliases": [
+   "JWTF",
+   "Weinert's"
+  ],
+  "state": "NC",
+  "city": "Maysville",
+  "county": "Jones",
+  "address": "6502 NC Hwy 58 S, Maysville, NC 28555",
+  "lat": 34.864675,
+  "lng": -77.194064,
+  "types": [
+   "motocross",
+   "training"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://jwtfmx.com",
+  "phone": "(845) 313-6590",
+  "facebook": "https://www.facebook.com/JWTFMX",
+  "instagram": "https://www.instagram.com/jwtfmx/",
+  "tracks_on_site": [
+   "main/national track",
+   "several smaller tracks"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": "loam",
+   "notes": "Riders describe sand; a 2018 poster called the region deep sandy loam.",
+   "confidence": "high"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "big",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": "Multiple tracks; main track has the biggest jumps."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "Handles a lot of rain per a 2022 poster.",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "Weekends best; weekdays may have classes."
+  },
+  "rider_reports": [
+   {
+    "says": "Typically open during the week; can handle a lot of rain.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Places-to-ride-during-the-week-in-NC-SC,1399527",
+    "source_type": "forum",
+    "date": "2022-02"
+   },
+   {
+    "says": "Worth it if prepped; open daily.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/winter-riding-down-south-recommendations-coming-new-england",
+    "source_type": "forum",
+    "date": "2024-10"
+   },
+   {
+    "says": "Sand is a challenge; rider needs work on ruts and corners.",
+    "source_url": "https://www.youtube.com/watch?v=zD1my3VlH2Y",
+    "source_type": "video",
+    "date": null
+   },
+   {
+    "says": "Fine sand at JWTF.",
+    "source_url": "https://www.youtube.com/watch?v=M9t30AkZ4x8",
+    "source_type": "video",
+    "date": "2020-01"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/jwtf-mx-jimmy-weinert-training-facility-maysville",
+    "title": "MX Parks - JWTF MX (Jimmy Weinert Training Facility) listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Places-to-ride-during-the-week-in-NC-SC,1399527",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/winter-riding-down-south-recommendations-coming-new-england",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=zD1my3VlH2Y",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=M9t30AkZ4x8",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [
+   "Prep schedule"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "lost-valley-mx",
+  "name": "Lost Valley Motorsports Park",
+  "aliases": [
+   "Lost Valley MX"
+  ],
+  "state": "NC",
+  "city": "Connelly Springs",
+  "county": "Burke",
+  "address": "8092 Hoyle Farm Rd, Connelly Springs, NC 28612",
+  "lat": 35.5874456,
+  "lng": -81.5529746,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(828) 638-6197",
+  "facebook": "https://www.facebook.com/lostvalleymotorsportsparkLLC",
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/lost-valley-motorsports-park-connelly-springs",
+    "title": "MX Parks - Lost Valley Motorsports Park listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "MX track reports"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "morgans-corner",
+  "name": "Morgan's Corner Proving Grounds",
+  "aliases": [],
+  "state": "NC",
+  "city": null,
+  "county": null,
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "open",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Riders describe sand.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Great sand track, mainly open weekends.",
+    "source_url": "https://www.vitalmx.com/comment/4643731",
+    "source_type": "forum",
+    "date": "2022-12"
+   },
+   {
+    "says": "First time riding sand there (Aug 16, 2026).",
+    "source_url": "https://www.youtube.com/watch?v=yuyPb-6nWzQ",
+    "source_type": "video",
+    "date": "2026-08"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.vitalmx.com/comment/4643731",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=yuyPb-6nWzQ",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Address, contacts"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "moto-129",
+  "name": "Moto 129",
+  "aliases": [],
+  "state": "NC",
+  "city": "Robbinsville",
+  "county": "Graham",
+  "address": "400 Snowbird Rd, Robbinsville, NC 28771",
+  "lat": 35.3148395,
+  "lng": -83.8147836,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": null,
+  "facebook": "https://www.facebook.com/MotoX129",
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Promo for the new track built by a local rider.",
+    "source_url": "https://www.youtube.com/watch?v=jAz15B2rkKE",
+    "source_type": "video",
+    "date": "2026-08"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/moto-129-robbinsville",
+    "title": "MX Parks - Moto 129 listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=jAz15B2rkKE",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Rider reports on soil"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "moto-40",
+  "name": "Moto 40 MX Park",
+  "aliases": [
+   "Dirt World Motorsport Complex"
+  ],
+  "state": "NC",
+  "city": "Statesville",
+  "county": "Iredell",
+  "address": "217 Purebred Drive, Statesville, NC 28677",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Closed per a poster.",
+    "source_url": "https://www.vitalmx.com/comment/4643731",
+    "source_type": "forum",
+    "date": "2022-12"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/north_carolina_16383/ride_76de.htm",
+    "title": "RiderPlanet USA - Moto 40 MX Park",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4643731",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Closure only from one forum post"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "ncmp",
+  "name": "North Carolina Motorsports Park",
+  "aliases": [
+   "NCMP"
+  ],
+  "state": "NC",
+  "city": "Henderson",
+  "county": "Vance",
+  "address": "900 Cheeks Quarter Rd, Henderson, NC 27537",
+  "lat": 36.263973,
+  "lng": -78.283191,
+  "types": [
+   "motocross",
+   "supercross",
+   "offroad"
+  ],
+  "access": "members",
+  "status": "open",
+  "website": "https://ncmp.net",
+  "phone": "(252) 767-6671",
+  "facebook": "https://www.facebook.com/northcarolina.motorsportspark",
+  "instagram": "https://www.instagram.com/ncmpmx/",
+  "tracks_on_site": [
+   "1-3/4 mi main",
+   "3/4 mi practice track",
+   "supercross track",
+   "pee-wee track",
+   "8 mi woods trails"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Directory describes a clay-and-dirt mix with sprinkler irrigation; riders do not describe the soil in detail.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "rough",
+    "rollers"
+   ],
+   "notes": "Big multi-track park on 230+ acres. Riders call it the biggest and best track in the state."
+  },
+  "conditions": {
+   "dry": "Excellent when dry and prepped (2022 poster).",
+   "wet": "Muddy after rain in a Dec 2022 report.",
+   "late_day": "",
+   "watering_prep": "Best prep on weekends; weekday and winter visits can be unprepped and rough.",
+   "seasonal": "Open daily weather permitting; shorter winter hours."
+  },
+  "rider_reports": [
+   {
+    "says": "Called the biggest and best track in the state; best prep on weekends; in mid-December it was not regularly prepped and was muddy after rain, while the SX track was in good shape.",
+    "source_url": "https://www.vitalmx.com/comment/4643731",
+    "source_type": "forum",
+    "date": "2022-12"
+   },
+   {
+    "says": "Typically open during the week; one poster compared it to Disney Land.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Places-to-ride-during-the-week-in-NC-SC,1399527",
+    "source_type": "forum",
+    "date": "2022-02"
+   },
+   {
+    "says": "Unprepped earlier visit was rough; likely better on weekends; open seven days; people base RV trips there.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/winter-riding-down-south-recommendations-coming-new-england",
+    "source_type": "forum",
+    "date": "2024-10"
+   },
+   {
+    "says": "March 2026 race: rider making passes on a rough NCMP track.",
+    "source_url": "https://www.youtube.com/watch?v=ryj8lD8qgxY",
+    "source_type": "video",
+    "date": "2026-04"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/north-carolina-motorsports-park-ncmp-henderson",
+    "title": "MX Parks - North Carolina Motorsports Park (NCMP) listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4643731",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Places-to-ride-during-the-week-in-NC-SC,1399527",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/winter-riding-down-south-recommendations-coming-new-england",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=ryj8lD8qgxY",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Soil detail from riders",
+   "Exact watering setup"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "outback-motorsports",
+  "name": "Outback MotorSports Complex",
+  "aliases": [
+   "Outback ATV Park",
+   "Outback"
+  ],
+  "state": "NC",
+  "city": "Laurinburg",
+  "county": "Scotland",
+  "address": "18576 McGirts Bridge Rd, Laurinburg, NC 28352",
+  "lat": 34.790942,
+  "lng": -79.400983,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://outbackmsc.com",
+  "phone": "(910) 704-9900",
+  "facebook": "https://www.facebook.com/outback.park",
+  "instagram": "https://www.instagram.com/outbackmotorsportscomplex",
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Rider: all-sand MX track.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Updated track is all sand with safe jumps and challenging rollers.",
+    "source_url": "https://www.youtube.com/watch?v=wyaV0cInf1s",
+    "source_type": "video",
+    "date": "2024-09"
+   },
+   {
+    "says": "Near South of the Border and always open.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-NC,1313098",
+    "source_type": "forum",
+    "date": null
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/outback-motorsports-complex-laurinburg",
+    "title": "MX Parks - Outback MotorSports Complex listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=wyaV0cInf1s",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-NC,1313098",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "sandridge-mx",
+  "name": "Sandridge MX",
+  "aliases": [],
+  "state": "NC",
+  "city": "Chinquapin",
+  "county": "Duplin",
+  "address": "2088 Lyman Rd, Chinquapin, NC 28521",
+  "lat": 34.8230625,
+  "lng": -77.7513125,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(910) 271-1557",
+  "facebook": "https://www.facebook.com/profile.php?id=100057483578928",
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Riders confirm sand with deep ruts.",
+   "confidence": "high"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Lots of deep sandy ruts.",
+    "source_url": "https://www.youtube.com/watch?v=SpqtLBfnkms",
+    "source_type": "video",
+    "date": "2023-05"
+   },
+   {
+    "says": "Sandy track that is developing well.",
+    "source_url": "https://www.youtube.com/watch?v=OG9pcuIaikE",
+    "source_type": "video",
+    "date": "2024-03"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/sandridge-mx-chinquapin",
+    "title": "MX Parks - Sandridge MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=SpqtLBfnkms",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=OG9pcuIaikE",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "shelby-mx-express",
+  "name": "Shelby MX Express",
+  "aliases": [
+   "Shelby Motocross Express",
+   "MX Express"
+  ],
+  "state": "NC",
+  "city": "Shelby",
+  "county": "Cleveland",
+  "address": "331 Bradley Rd, Shelby, NC 28150",
+  "lat": 35.283604,
+  "lng": -81.640755,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(704) 692-6366",
+  "facebook": "https://www.facebook.com/ShelbyMotocrossExpress",
+  "instagram": "https://www.instagram.com/shelby-motocross-express",
+  "tracks_on_site": [
+   "main",
+   "beginner",
+   "vet track",
+   "3 mi trails"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "Can be a dust bowl at times (older rider video).",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "A Jan 2026 rider found it rough and inconsistent.",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Rough and inconsistent in spots; not one the rider would go out of the way for.",
+    "source_url": "https://www.youtube.com/watch?v=k3IlUsOQ_rk",
+    "source_type": "video",
+    "date": "2026-01"
+   },
+   {
+    "says": "Dust bowl at times but fun.",
+    "source_url": "https://www.youtube.com/watch?v=6LmZy1jF730",
+    "source_type": "video",
+    "date": null
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/shelby-mx-express-shelby",
+    "title": "MX Parks - Shelby MX Express listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=k3IlUsOQ_rk",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=6LmZy1jF730",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil type"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "silver-creek-mx",
+  "name": "Silver Creek MX",
+  "aliases": [],
+  "state": "NC",
+  "city": "Morganton",
+  "county": "Burke",
+  "address": "3981 Bollinger Gap St, Morganton, NC 28655",
+  "lat": 35.583019,
+  "lng": -81.821333,
+  "types": [
+   "motocross"
+  ],
+  "access": "appointment",
+  "status": "open",
+  "website": "https://silvercreekmx.com",
+  "phone": "(828) 448-5643",
+  "facebook": "https://www.facebook.com/silver.creekmx",
+  "instagram": "https://www.instagram.com/silvercreekmx",
+  "tracks_on_site": [
+   "1 mi clay track (lit)",
+   "50cc track"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Listed as clay; a 2026 rider loved the soil.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "Private rentals plus posted practice days, including evening sessions under lights."
+  },
+  "rider_reports": [
+   {
+    "says": "First visit; rider loved the soil composition.",
+    "source_url": "https://www.youtube.com/watch?v=FXKy_CeWCgw",
+    "source_type": "video",
+    "date": "2026-07"
+   },
+   {
+    "says": "Lit, runs night practices and races.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-NC,1313098",
+    "source_type": "forum",
+    "date": null
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/silver-creek-mx-morganton",
+    "title": "MX Parks - Silver Creek MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=FXKy_CeWCgw",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-NC,1313098",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "svmx-park",
+  "name": "SVMX Park (Silver Valley MX)",
+  "aliases": [
+   "Silver Valley MX",
+   "SVMX"
+  ],
+  "state": "NC",
+  "city": "Lexington",
+  "county": "Davidson",
+  "address": "502 Hill Rd, Lexington, NC 27292",
+  "lat": 35.722794,
+  "lng": -80.061722,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "open",
+  "website": "https://svmxpark.com",
+  "phone": "(336) 906-8565",
+  "facebook": "https://www.facebook.com/@svmxpark",
+  "instagram": "https://instagram.com/silvervalleymx",
+  "tracks_on_site": [
+   "~2 mi MX"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Riders praise very tacky dirt and deep ruts.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "rolling",
+   "traits": [
+    "deep ruts"
+   ],
+   "notes": "Long track through hills and pines."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "A favorite but very little open time.",
+    "source_url": "https://www.vitalmx.com/comment/4643731",
+    "source_type": "forum",
+    "date": "2022-12"
+   },
+   {
+    "says": "Dirt was awesome with deep ruts.",
+    "source_url": "https://www.youtube.com/watch?v=RVgoOb-Z3XE",
+    "source_type": "video",
+    "date": null
+   },
+   {
+    "says": "At a 2022 shootout riders called it gnarly with the tackiest dirt they had ridden.",
+    "source_url": "https://www.youtube.com/watch?v=zmvRLdMh4Ww",
+    "source_type": "video",
+    "date": null
+   },
+   {
+    "says": "Video asks if it has the deepest ruts on the East Coast.",
+    "source_url": "https://www.youtube.com/watch?v=bQnlhRBMUwA",
+    "source_type": "video",
+    "date": null
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/svmx-park-silver-valley-mx-lexington",
+    "title": "MX Parks - SVMX Park (Silver Valley MX) listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4643731",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=RVgoOb-Z3XE",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=zmvRLdMh4Ww",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=bQnlhRBMUwA",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Soil type",
+   "Open schedule"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "top-gun-mx",
+  "name": "Top Gun MX",
+  "aliases": [],
+  "state": "NC",
+  "city": "Iron Station",
+  "county": "Lincoln",
+  "address": "3636 East Highway 27, Iron Station, NC 28080",
+  "lat": 35.471222,
+  "lng": -81.179134,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://topgunmx.com",
+  "phone": "(704) 797-1712",
+  "facebook": "https://www.facebook.com/TopGunMxPark",
+  "instagram": "http://instagram.com/topgunmx",
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Poster rode there around Thanksgiving 2022 when few tracks were open.",
+    "source_url": "https://www.vitalmx.com/comment/4643731",
+    "source_type": "forum",
+    "date": "2022-12"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/top-gun-mx-iron-station",
+    "title": "MX Parks - Top Gun MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4643731",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil",
+   "Layout",
+   "MX Parks says opened 2024, conflicting with a 2022 forum ride report"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "walnut-tree-mx",
+  "name": "Walnut Tree MX",
+  "aliases": [],
+  "state": "NC",
+  "city": "Bakersville",
+  "county": "Mitchell",
+  "address": "5786 NC-226, Bakersville, NC 28705",
+  "lat": 35.9593,
+  "lng": -82.1073,
+  "types": [
+   "motocross"
+  ],
+  "access": "appointment",
+  "status": "open",
+  "website": null,
+  "phone": "(828) 284-8254",
+  "facebook": "https://www.facebook.com/mcmahan039racing",
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/walnut-tree-mx-bakersville",
+    "title": "MX Parks - Walnut Tree MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Rider reports"
+  ],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "west-craven-mx",
+  "name": "West Craven MX",
+  "aliases": [
+   "WCMX"
+  ],
+  "state": "NC",
+  "city": "Vanceboro",
+  "county": "Craven",
+  "address": "1183 State Camp Rd, Vanceboro, NC 28586",
+  "lat": 35.276037,
+  "lng": -77.1669151,
+  "types": [
+   "motocross",
+   "supercross",
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://blackjackmx.wixsite.com/wcmx",
+  "phone": "(252) 259-9502",
+  "facebook": "https://www.facebook.com/wcmx.track",
+  "instagram": null,
+  "tracks_on_site": [
+   "main MX",
+   "supercross track",
+   "kids track",
+   "3-4 mi woods loop"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Riders consistently describe deep sand.",
+   "confidence": "high"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "deep sand",
+    "ruts"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "Stays rideable after rain due to sand (2024 poster).",
+   "late_day": "",
+   "watering_prep": "Deep-tilled and watered on weekends; SX track left rough.",
+   "seasonal": "Open 7 days, year-round; popular winter base."
+  },
+  "rider_reports": [
+   {
+    "says": "Sandy, deep sand; fun; camping with hookups.",
+    "source_url": "https://www.vitalmx.com/comment/4643731",
+    "source_type": "forum",
+    "date": "2022-12"
+   },
+   {
+    "says": "Plenty of sand so it rides after rain; open daily; RV base.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/winter-riding-down-south-recommendations-coming-new-england",
+    "source_type": "forum",
+    "date": "2024-10"
+   },
+   {
+    "says": "Owner on site weekends, prepping and watering through the day.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/East-NC-tracks,1328124",
+    "source_type": "forum",
+    "date": null
+   },
+   {
+    "says": "Rider called it the deepest prep ever.",
+    "source_url": "https://www.youtube.com/watch?v=wtYtqphPWPg",
+    "source_type": "video",
+    "date": "2026-03"
+   },
+   {
+    "says": "Deep sand made corners and ruts hard for the rider.",
+    "source_url": "https://www.youtube.com/watch?v=IJvw7TnHydM",
+    "source_type": "video",
+    "date": "2025-12"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/west-craven-mx-vanceboro",
+    "title": "MX Parks - West Craven MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4643731",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/winter-riding-down-south-recommendations-coming-new-england",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/East-NC-tracks,1328124",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=wtYtqphPWPg",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=IJvw7TnHydM",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "windy-hill-mx",
+  "name": "Windy Hill Motocross",
+  "aliases": [
+   "Windy Hill Sports",
+   "Windy Hill MX"
+  ],
+  "state": "NC",
+  "city": "Ellerbe",
+  "county": "Richmond",
+  "address": "2782 US-220 N, Ellerbe, NC 28338",
+  "lat": 35.123028,
+  "lng": -79.736424,
+  "types": [
+   "motocross",
+   "training"
+  ],
+  "access": "members",
+  "status": "open",
+  "website": "https://www.windyhillsports.info/",
+  "phone": null,
+  "facebook": "https://www.facebook.com/windyhillsports",
+  "instagram": "https://www.instagram.com/windyhillsports/",
+  "tracks_on_site": [
+   "main MX",
+   "pee-wee track"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Sandhills sand; riders call it a flowy sand track.",
+   "confidence": "high"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "Fully prepped on announced practice days.",
+   "seasonal": "Closes in hot dry midsummer; rebuilt by MotoCreations in 2026."
+  },
+  "rider_reports": [
+   {
+    "says": "Sandy.",
+    "source_url": "https://www.vitalmx.com/comment/4643731",
+    "source_type": "forum",
+    "date": "2022-12"
+   },
+   {
+    "says": "Best shape the rider had seen, but getting rough by the last moto.",
+    "source_url": "https://www.youtube.com/watch?v=v6BM0o2y238",
+    "source_type": "video",
+    "date": "2026-10"
+   },
+   {
+    "says": "Safe and easy track for a newer racer.",
+    "source_url": "https://www.youtube.com/watch?v=c5n_m91dh4c",
+    "source_type": "video",
+    "date": "2021-02"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/windy-hill-motocross-ellerbe",
+    "title": "MX Parks - Windy Hill Motocross listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4643731",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=v6BM0o2y238",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=c5n_m91dh4c",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [],
+  "research_file": "nc.json"
+ },
+ {
+  "id": "zoo-city-mx",
+  "name": "Zoo City Motor Sports Park",
+  "aliases": [
+   "Zoo City MX"
+  ],
+  "state": "NC",
+  "city": "Asheboro",
+  "county": "Randolph",
+  "address": "279 Joe Farlow Rd, Asheboro, NC 27205",
+  "lat": 35.663797,
+  "lng": -79.793144,
+  "types": [
+   "motocross"
+  ],
+  "access": "members",
+  "status": "closed",
+  "website": null,
+  "phone": "(336) 964-6699",
+  "facebook": "https://www.facebook.com/zoocityrcraceway",
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "Rain turned it very muddy and slick (older video).",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "More tamed down with smaller jumps and more youth riders.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-NC,1313098",
+    "source_type": "forum",
+    "date": null
+   },
+   {
+    "says": "Brief heavy rain made the track muddy and slick (posted about 15 years before Nov 2026).",
+    "source_url": "https://www.youtube.com/watch?v=xLdKtQ9lcw4",
+    "source_type": "video",
+    "date": null
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/north-carolina/zoo-city-motor-sports-park-asheboro",
+    "title": "MX Parks - Zoo City Motor Sports Park listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-NC,1313098",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=xLdKtQ9lcw4",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Closed per MX Parks"
+  ],
+  "research_file": "nc.json"
+ }
+]

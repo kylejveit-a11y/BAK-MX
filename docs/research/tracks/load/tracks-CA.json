@@ -1,0 +1,338 @@
+[
+ {
+  "id": "hangtown-prairie-city",
+  "name": "Hangtown Motocross Classic track (Prairie City SVRA)",
+  "aliases": [
+   "Hangtown",
+   "Prairie City",
+   "Hangtown Motocross Classic",
+   "Prairie City OHV"
+  ],
+  "state": "CA",
+  "city": "Rancho Cordova",
+  "county": "Sacramento",
+  "address": "13300 White Rock Road, Rancho Cordova, CA 95742",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "unknown",
+  "status": "open",
+  "website": "http://www.hangtownmx.com",
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "national MX track inside Prairie City State Vehicular Recreation Area"
+  ],
+  "soil": {
+   "primary": "hardpack",
+   "secondary": "sand",
+   "notes": "Naturally hard-packed - once called the hardest dirt on the schedule. Sand and rice hulls have been added for about 20 years, and more sand went in for 2024, giving more depth and grip. The hillside stays rock hard and edgy.",
+   "confidence": "high"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "medium",
+   "elevation_change": "hilly",
+   "traits": [
+    "long downhills",
+    "big braking bumps at downhill bottoms",
+    "rollers",
+    "hard hillside"
+   ],
+   "notes": "Long downhills where most passes happen by out-braking at the bottom; two lines usually form over large braking bumps. Layout was opened up in 2024 with fewer tight switchbacks; a downhill double section had its lips removed after crashes."
+  },
+  "conditions": {
+   "dry": "Hot (often near 100F) and dries quickly; surface water just puddles on hard dirt and makes it slicker.",
+   "wet": "Not documented in recent reports.",
+   "late_day": "Dries and firms up by second motos and deteriorates through the day.",
+   "watering_prep": "Testers say it only works when soaked and ripped in deep ahead of time; late surface watering fails.",
+   "seasonal": "Pro national held each late May/early June by the Dirt Diggers North club (since 1969; at Prairie City since 1979)."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: imported soils made it far better than the old hardpack, but it is still not RedBud-soft; the hillside is rock hard, and scoop tires trade hard-pack feel for start traction.",
+    "source_url": "https://racerxonline.com/2025/05/30/jason-thomas-on-hangtown-this-is-going-to-be-a-brutal-round",
+    "source_type": "article",
+    "date": "2025-05"
+   },
+   {
+    "says": "Analyst: sand added for 2024 gave more traction and depth; track dried and hardened by moto two and a big braking bump formed at a downhill double takeoff.",
+    "source_url": "https://racerxonline.com/2024/06/03/breakdown-hangtown",
+    "source_type": "article",
+    "date": "2024-06"
+   },
+   {
+    "says": "Analyst: 2023 prep missed; hot sun dried it, late watering puddled and reduced traction; hard base gives choppy, jarring bumps. Riders said more water should have gone down earlier.",
+    "source_url": "https://racerxonline.com/2023/06/05/breakdown-hangtown",
+    "source_type": "article",
+    "date": "2023-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://promotocross.com/race/hangtown-motocross-classic/track",
+    "title": "Pro Motocross - Hangtown track page",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2025/05/30/jason-thomas-on-hangtown-this-is-going-to-be-a-brutal-round",
+    "title": "Racer X - Jason Thomas on Hangtown (2025)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2024/06/03/breakdown-hangtown",
+    "title": "Racer X - Breakdown: Hangtown 2024",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2023/06/05/breakdown-hangtown",
+    "title": "Racer X - Breakdown: Hangtown 2023",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [
+   "Coordinates",
+   "Whether the national track is open for public practice outside the event",
+   "Rain/mud behavior",
+   "Track phone"
+  ],
+  "research_file": "nationals.json"
+ },
+ {
+  "id": "mammoth-motocross",
+  "name": "Mammoth Motocross",
+  "aliases": [
+   "Mammoth",
+   "Mammoth Mountain Motocross",
+   "Mammoth MX"
+  ],
+  "state": "CA",
+  "city": "Mammoth Lakes",
+  "county": "Mono",
+  "address": "Motocross Access Road, Mammoth Lakes, CA 93546",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": "https://www.mammothmountain.com/motocross/home",
+  "phone": "(559) 899-0371",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main track (~1 mile, natural terrain)"
+  ],
+  "soil": {
+   "primary": "mixed",
+   "secondary": "sand",
+   "notes": "Directory lists loamy soil, decomposed granite and sand. A 2006 rider account says the loose winter topsoil gets roosted into the trees after a few practices, leaving a rocky track.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "big",
+   "elevation_change": "hilly",
+   "traits": [
+    "altitude",
+    "steep hills",
+    "off-camber",
+    "60-80 ft tabletops",
+    "rocks after topsoil goes"
+   ],
+   "notes": "Natural mountain layout at about 7,700-8,000 ft. Thin air cuts engine power sharply."
+  },
+  "conditions": {
+   "dry": "Smooth early, then very rough and rocky once topsoil is roosted off.",
+   "wet": "unknown",
+   "late_day": "Much rougher by heat races than in morning practice.",
+   "watering_prep": "Listed as watered and groomed.",
+   "seasonal": "Open only for the late-June Mammoth Motocross race event; limited practice passes."
+  },
+  "rider_reports": [
+   {
+    "says": "Rider column: practice starts smooth but loose topsoil is roosted away within a few sessions, leaving a rocky track; thin air makes a 125 feel badly down on power.",
+    "source_url": "https://racerxonline.com/2006/06/22/rev-up-mammoth",
+    "source_type": "article",
+    "date": "2006-06"
+   },
+   {
+    "says": "MXA columnist: at altitude tire pressure, fork air and shock nitrogen pressure rise; check and bleed before riding.",
+    "source_url": "https://motocrossactionmag.com/bare-bones-my-mammoth-motocross-experiences",
+    "source_type": "article",
+    "date": null
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/california_08488/ride_7914.htm",
+    "title": "RiderPlanet USA - Mammoth Motocross",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2006/06/22/rev-up-mammoth",
+    "title": "Racer X - Rev Up: Mammoth (2006)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://motocrossactionmag.com/bare-bones-my-mammoth-motocross-experiences",
+    "title": "MXA - Bare Bones: Mammoth experiences (c. 2020)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://fasttimes.fasthouse.com/photos/racing-high-at-8-000ft",
+    "title": "Fasthouse - Racing high at 8,000 ft",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Coordinates",
+   "Recent rider reports on soil and ruts",
+   "Altitude claims vary (8,000 ft per directory; one 2006 writer says ~10,000 ft)",
+   "MXA column is undated (content suggests about 2020)"
+  ],
+  "research_file": "nationals.json"
+ },
+ {
+  "id": "pala-raceway",
+  "name": "Pala Raceway (formerly Fox Raceway at Pala)",
+  "aliases": [
+   "Fox Raceway",
+   "Fox Raceway at Pala",
+   "Pala",
+   "Pala Raceway",
+   "Fox Raceway National"
+  ],
+  "state": "CA",
+  "city": "Pala",
+  "county": "San Diego",
+  "address": "12799 Hwy 76, Pala, CA 92059 (Pala Band of Mission Indians land)",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross",
+   "supercross",
+   "training",
+   "pit_bike"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://raceway.palatribe.com",
+  "phone": "(760) 891-3570",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "national/pro outdoor track (practice layout differs from the race layout)",
+   "supercross track (opened late 2021; AMA pro license required)",
+   "amateur track",
+   "vet track",
+   "peewee and 60/80cc tracks",
+   "small ATV/UTV track (80cc and under)"
+  ],
+  "soil": {
+   "primary": "hardpack",
+   "secondary": "sand",
+   "notes": "Race coverage describes a very hard base under a sandy, slippery top layer that hardens if ridden aggressively or baked by sun. Riders call the dirt among the best in SoCal but warn of rocks on the hillsides. A directory says groomed loam; that is promo-level and not confirmed by racers.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "big",
+   "elevation_change": "hilly",
+   "traits": [
+    "hard base",
+    "hardened ruts",
+    "rocks on hills",
+    "long fast sections",
+    "few passing spots"
+   ],
+   "notes": "Hillside national layout with long, fast sections that make passing hard. Pros note rocks that appear on the hills without warning."
+  },
+  "conditions": {
+   "dry": "Loose top layer blows off or bakes hard in sun, leaving a slick hard base. Warmer September dates harden more than cool May dates.",
+   "wet": "Watering the night before and morning of creates heavy ruts early; no true rain-race reports found.",
+   "late_day": "Ruts harden by second motos and become hazardous (2024 report called the back section a land mine).",
+   "watering_prep": "Track watered Friday night and Saturday morning before nationals.",
+   "seasonal": "Public practice Mon-Tue 9am-2pm and Fri-Sun 9am-4pm per directory (Feb 2025). Hosts the Pro Motocross opener (late May). Renamed Pala Raceway presented by Fox Racing in Oct 2026."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: base is very hard; once loose dirt blows off, ruts in the back section set up hard and make second motos treacherous.",
+    "source_url": "https://racerxonline.com/2024/05/28/breakdown-fox-raceway-2024",
+    "source_type": "article",
+    "date": "2024-05"
+   },
+   {
+    "says": "Preview: sandy yet slippery surface with deep sections; best riders stay light on the bike and short-shift to a taller gear to limit wheelspin.",
+    "source_url": "https://racerxonline.com/2023/05/25/staging-area-fox-raceway",
+    "source_type": "article",
+    "date": "2023-05"
+   },
+   {
+    "says": "Pros praise the dirt but flag big rocks on the hills, long fast sections and few passing spots; one calls it the best practice track in California.",
+    "source_url": "https://racerxonline.com/2019/05/23/3-on-3-riders-weigh-in-on-pala",
+    "source_type": "article",
+    "date": "2019-05"
+   },
+   {
+    "says": "A veteran pro called it a hard, blown-out California track that did not suit his style.",
+    "source_url": "https://racerxonline.com/2022/05/30/breakdown-fox-raceway-1",
+    "source_type": "article",
+    "date": "2022-05"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/california_13989/ride_5f21.htm",
+    "title": "RiderPlanet USA - Fox Raceway (address, hours, fees, tracks)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.cyclenews.com/2026/10/article/fox-raceway-renames-to-pala-raceway-presented-by-fox-racing/",
+    "title": "Cycle News - Fox Raceway renames to Pala Raceway (Oct 2026; headline only, page did not load)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.floracing.com/article/57214-pala-raceway-improvements-make-this-a-motocrosser-s-destination",
+    "title": "FloRacing - Pala Raceway improvements (2017)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2021/11/23/fox-raceway-at-pala-opens-all-new-supercross-track",
+    "title": "Racer X - Fox Raceway opens new supercross track (2021)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2024/05/28/breakdown-fox-raceway-2024",
+    "title": "Racer X - Breakdown: Fox Raceway 2024",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2023/05/25/staging-area-fox-raceway",
+    "title": "Racer X - Staging Area: Fox Raceway 2023",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2019/05/23/3-on-3-riders-weigh-in-on-pala",
+    "title": "Racer X - Riders weigh in on Pala (2019)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Coordinates",
+   "Rename details (Cycle News article would not load; only headline seen)",
+   "Rain-day behavior",
+   "Current track count and which are open to the public each day",
+   "Braking-bump behavior not described"
+  ],
+  "research_file": "nationals.json"
+ }
+]

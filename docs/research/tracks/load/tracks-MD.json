@@ -1,0 +1,95 @@
+[
+ {
+  "id": "budds-creek-mx",
+  "name": "Budds Creek Motocross Park",
+  "aliases": [
+   "Budds Creek",
+   "Budds Creek National",
+   "Mechanicsville"
+  ],
+  "state": "MD",
+  "city": "Mechanicsville",
+  "county": "St. Mary's",
+  "address": "27963 Budds Creek Road, Mechanicsville, MD 20659",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "open",
+  "website": "https://buddscreek.com/",
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "national MX track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Series page calls it deep, tacky soil. Analyst notes the insides of corners can pack too hard to use in dry years; a hard rain beforehand gives a soft base that hardens through the day.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "big",
+   "elevation_change": "hilly",
+   "traits": [
+    "off-camber",
+    "hills",
+    "one fast line",
+    "inside-line corners",
+    "first-turn pileups"
+   ],
+   "notes": "Classic hills, jumps and off-cambers. Mostly one fast line; most corners favor the inside so passing is hard and starts matter. First turn often has bikes down."
+  },
+  "conditions": {
+   "dry": "Insides of corners can get too hard-packed; passing very hard.",
+   "wet": "Hard rain before the race soaks deep, giving traction on every line; can wash out the bottoms of downhills.",
+   "late_day": "Soft base hardens as the day goes; ruts form but crews work them between motos.",
+   "watering_prep": "Crews rework ruts between motos.",
+   "seasonal": "Pro national each August; hot and humid."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: Friday rain soaked in, gave grip on insides and outsides, and the base hardened over the day; washouts at bottoms of downhills; hard to pass.",
+    "source_url": "https://racerxonline.com/2021/08/23/breakdown-budds-creek",
+    "source_type": "article",
+    "date": "2021-08"
+   },
+   {
+    "says": "Analyst: one fast line and inside-favoring corners make passing very hard even when dry; starts and first-turn survival matter; a freshly groomed first lap changes jump approach speed.",
+    "source_url": "https://racerxonline.com/2024/08/19/breakdown-budds-creek",
+    "source_type": "article",
+    "date": "2024-08"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://promotocross.com/race/budds-creek-national/track",
+    "title": "Pro Motocross - Budds Creek track page",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2021/08/23/breakdown-budds-creek",
+    "title": "Racer X - Breakdown: Budds Creek 2021",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2024/08/19/breakdown-budds-creek",
+    "title": "Racer X - Breakdown: Budds Creek 2024",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Soil type named only by promo copy",
+   "Coordinates",
+   "Phone",
+   "Public practice schedule",
+   "Braking-bump/rut depth on a dry year"
+  ],
+  "research_file": "nationals.json"
+ }
+]

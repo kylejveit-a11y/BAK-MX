@@ -1,0 +1,101 @@
+[
+ {
+  "id": "high-point-raceway",
+  "name": "High Point Raceway",
+  "aliases": [
+   "High Point",
+   "Mt. Morris",
+   "HPR"
+  ],
+  "state": "PA",
+  "city": "Mt. Morris",
+  "county": "Greene",
+  "address": "281 Taylortown Road, Mt. Morris, PA 15349",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "unknown",
+  "status": "open",
+  "website": "https://highpointmx.com/",
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "pro track (~1.2 mi)",
+   "amateur track (~1.0 mi)"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": "loam",
+   "notes": "Listed as clay. Very hard base in its natural state; once watered and disced it turns loamy and rutty. Heavy rain turns the loam to mud and ruts cut down to a shiny, grip-free hard base.",
+   "confidence": "high"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "medium",
+   "elevation_change": "hilly",
+   "traits": [
+    "off-camber",
+    "deep long ruts",
+    "steep downhills",
+    "long uphills",
+    "ruts at bottoms of hills"
+   ],
+   "notes": "Built in a deep valley on a family farm (since 1977); constant elevation change, no flat section. Many turns and even straights are off-camber. Steep hill before the finish."
+  },
+  "conditions": {
+   "dry": "Hard base; off-cambers never feel fully planted.",
+   "wet": "Mud first, then deep ruts down to a slick hard base; very MXGP-like. Summer rain is the main risk.",
+   "late_day": "Long deep ruts form in corners and at bottoms of downhills; after rain the second motos are a different track.",
+   "watering_prep": "Watered and disced deep for nationals.",
+   "seasonal": "Pro national each June (moved from Memorial Day); also GNCC and DC Vet Homecoming."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: hard base turns loamy and rutty when prepped; rain made long ruts that cut to a shiny slick base. Some riders muscle through muck, others weave ruts - you need both. Make only small setup changes between motos.",
+    "source_url": "https://racerxonline.com/2023/06/19/breakdown-high-point",
+    "source_type": "article",
+    "date": "2023-06"
+   },
+   {
+    "says": "Preview: deep long ruts in corners and at hill bottoms; brake less, lean back, keep the front light and upshift rather than braking into ruts; carry corner speed for the uphills.",
+    "source_url": "https://racerxonline.com/2022/06/16/staging-area-high-point",
+    "source_type": "article",
+    "date": "2022-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://promotocross.com/race/high-point-national/track",
+    "title": "Pro Motocross - High Point track page",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/High_Point_Raceway",
+    "title": "Wikipedia - High Point Raceway",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2023/06/19/breakdown-high-point",
+    "title": "Racer X - Breakdown: High Point 2023",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2022/06/16/staging-area-high-point",
+    "title": "Racer X - Staging Area: High Point 2022",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [
+   "Coordinates",
+   "Public practice schedule",
+   "Phone",
+   "Braking-bump behavior"
+  ],
+  "research_file": "nationals.json"
+ }
+]

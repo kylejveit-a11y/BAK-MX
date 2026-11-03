@@ -1,0 +1,2999 @@
+[
+ {
+  "id": "aonia-pass-mx",
+  "name": "Aonia Pass MX",
+  "aliases": [
+   "Aonia Pass",
+   "Aonia Pass MX Park",
+   "Aonia"
+  ],
+  "state": "GA",
+  "city": "Washington",
+  "county": "Wilkes",
+  "address": "3030 Thomson Rd, Washington, GA 30673",
+  "lat": 33.682226,
+  "lng": -82.636773,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": "(762) 994-6721",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main MX track (listed as about 1.7 miles, 25 ft wide)"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Directory lists natural red clay with mulch worked into the corners and a watering/tilling setup. No rider source describes the dirt.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "rolling",
+   "traits": [],
+   "notes": "Directory describes a long, wide AMA-sanctioned track on rolling Piedmont ground. Riders in 2018 named it as the serious-MX option near Durhamtown (about 20 minutes away)."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "Directory claims regular grooming plus watering and tilling; unconfirmed by riders.",
+   "seasonal": "In 2021 riders said it ran mostly race weekends only. Also hosted AHRMA vintage/trials/flat-track events (2021 and earlier)."
+  },
+  "rider_reports": [
+   {
+    "says": "Riders recommend it (with Mill Creek and Monster Mountain) over Durhamtown's tracks for real motocross.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Anyone-ride-at-Durhamtown,1275693",
+    "source_type": "forum",
+    "date": "2018-05"
+   },
+   {
+    "says": "Poster says it is mostly race-only, not regular practice.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-Tracks-for-a-trip-south,1388051",
+    "source_type": "forum",
+    "date": "2021-02"
+   },
+   {
+    "says": "Directory reviewer says the gate is closed every time they drive by and they could find no info newer than 2024.",
+    "source_url": "https://mxparks.com/motocross-tracks/georgia/aonia-pass-mx-washington",
+    "source_type": "review",
+    "date": "2026-08"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/aonia-pass-mx-washington",
+    "title": "MX Parks - Aonia Pass MX (listing marked Closed)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-Tracks-for-a-trip-south,1388051",
+    "title": "Vital MX - Georgia Tracks for a trip south (2021)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Anyone-ride-at-Durhamtown,1275693",
+    "title": "Vital MX - Anyone ride at Durhamtown",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://ahrma.motorsportreg.com/events/trials-aonia-pass-mx-2021-redwood-engineering-park-ahrma-816841",
+    "title": "AHRMA - Trials at Aonia Pass MX 2021",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Current status: listing and a 2026 reviewer say closed; no official closure notice found",
+   "Directory body text (130 RV hookups, daily practice) appears outdated and conflicts with the Closed status",
+   "No rider description of soil, ruts or prep"
+  ]
+ },
+ {
+  "id": "calhoun-motocross",
+  "name": "Calhoun Motocross",
+  "aliases": [
+   "Calhoun Supercross",
+   "Calhoun MX",
+   "Calhoun Classic SX"
+  ],
+  "state": "GA",
+  "city": "Calhoun",
+  "county": "Gordon",
+  "address": "335 Beamer Rd SW, Calhoun, GA 30701",
+  "lat": 34.49641,
+  "lng": -84.972807,
+  "types": [
+   "motocross",
+   "supercross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(706) 622-1308",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main SX-style race track (lit for Saturday night racing)"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "A 2017 local news piece calls the dirt soft; no other source states soil type.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "tight",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "night racing under lights",
+    "supercross-style sections"
+   ],
+   "notes": "Runs a supercross-style layout (its own Calhoun Classic SX series). Local paper says the course is changed every year. Directory notes a recent redesign."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Saturday night races and organized practice nights; one of Georgia's longest-running night tracks (local paper: founded 1984 by the Satterfield family; directory says 1980). Hosts AMA SAS and Big Classic rounds."
+  },
+  "rider_reports": [
+   {
+    "says": "Local paper notes soft dirt, a layout that changes yearly, and a history of hosting future pros like Carmichael and Stewart.",
+    "source_url": "https://www.pressreader.com/usa/calhoun-times/20170315/282389809290931",
+    "source_type": "article",
+    "date": "2017-03"
+   },
+   {
+    "says": "Poster places it right on I-75 and lists it among north Georgia options.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-mx-tracks,1397180",
+    "source_type": "forum",
+    "date": "2021-12"
+   },
+   {
+    "says": "Poster lists Calhoun and Talking Rock as the Georgia tracks within an hour of Chattanooga.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Any-MX-in-Chattanooga-TN-Area,1393796",
+    "source_type": "forum",
+    "date": "2021-08"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/calhoun-motocross-calhoun",
+    "title": "MX Parks - Calhoun Motocross",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.pressreader.com/usa/calhoun-times/20170315/282389809290931",
+    "title": "Calhoun Times - Local track has hosted top names (2017)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.exploregordoncounty.com/directory/calhoun-motocross",
+    "title": "Explore Gordon County - Calhoun Motocross",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Soil type",
+   "Jump sizes and track length",
+   "Founding year conflict (1980 vs 1984)",
+   "Website/socials not confirmed"
+  ]
+ },
+ {
+  "id": "lazy-river-mx",
+  "name": "Lazy River MX",
+  "aliases": [
+   "Lazy River",
+   "Lazy River Motocross"
+  ],
+  "state": "GA",
+  "city": "Dalton",
+  "county": "Whitfield",
+  "address": "4779 Brown Bridge Rd SE, Dalton, GA 30721",
+  "lat": 34.706187,
+  "lng": -84.880518,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": "https://georgiamotocross.com",
+  "phone": "(706) 278-1620",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main MX track",
+   "vet track",
+   "pee-wee track"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Directory lists clay. No rider description of the dirt found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Race weekends only, no public practice; Saturday organized practice and Sunday racing (THOR Mega Series, Big Classic, Ultra Series weekends). Has hosted AMA Pro-Am doubleheaders (2015) and a national qualifier."
+  },
+  "rider_reports": [
+   {
+    "says": "Poster says it is really only open for practice or race weekends.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-mx-tracks,1397180",
+    "source_type": "forum",
+    "date": "2021-12"
+   },
+   {
+    "says": "Poster calls it a great track, about 45 minutes from Chattanooga; owners also run a Dalton dealership.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Any-MX-in-Chattanooga-TN-Area,1393796",
+    "source_type": "forum",
+    "date": "2021-08"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/lazy-river-mx-dalton",
+    "title": "MX Parks - Lazy River MX",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2015/05/21/lazy-river-mx-hosting-ama-pro-am-events",
+    "title": "Racer X - Lazy River MX hosting AMA Pro-Am (2015, phone)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Any-MX-in-Chattanooga-TN-Area,1393796",
+    "title": "Vital MX - Any MX in Chattanooga area (2021)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Layout, elevation and jump sizes",
+   "How the clay rides wet or late in the day",
+   "Phone is from a 2015 article; may be outdated"
+  ]
+ },
+ {
+  "id": "talking-rock-arena",
+  "name": "Talking Rock Arena",
+  "aliases": [
+   "Talking Rock",
+   "Talking Rock MX"
+  ],
+  "state": "GA",
+  "city": "Talking Rock",
+  "county": "Pickens",
+  "address": "2019 Antioch Church Rd, Talking Rock, GA 30175",
+  "lat": 34.506348,
+  "lng": -84.544685,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(706) 253-7778",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main MX track",
+   "pee-wee track",
+   "vet/oval track",
+   "about 5.5 miles of one-way woods trails (per directory)"
+  ],
+  "soil": {
+   "primary": "loam",
+   "secondary": "sawdust/wood chips",
+   "notes": "Two directories agree the surface is loamy dirt mixed with sawdust and wood chips. A 2021 rider praised the dirt.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "small",
+   "elevation_change": "unknown",
+   "traits": [
+    "tabletops",
+    "fast berms"
+   ],
+   "notes": "Main track listed with tabletops and fast berms; a rider called the facility basic. Directory calls the pee-wee track one of the best in Georgia."
+  },
+  "conditions": {
+   "dry": "Long dry spells can keep it closed (see wet note).",
+   "wet": "Directory says the track only opens when there has been enough rain to prep it.",
+   "late_day": "unknown",
+   "watering_prep": "Groomed regularly per directory; opening depends on moisture.",
+   "seasonal": "Select dates only; call first."
+  },
+  "rider_reports": [
+   {
+    "says": "Rider calls it super basic but says the dirt has been really good the last few visits; ranks it between Highland Park and Calhoun.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-Tracks-for-a-trip-south,1388051",
+    "source_type": "forum",
+    "date": "2021-02"
+   },
+   {
+    "says": "Listed as about 1.5 hours from Chattanooga.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Any-MX-in-Chattanooga-TN-Area,1393796",
+    "source_type": "forum",
+    "date": "2021-08"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/talking-rock-arena-talking-rock",
+    "title": "MX Parks - Talking Rock Arena",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_05850/ride_9cd0.htm",
+    "title": "RiderPlanet USA - Talking Rock Arena",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-Tracks-for-a-trip-south,1388051",
+    "title": "Vital MX - Georgia Tracks for a trip south (2021)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Track length and jump sizes",
+   "Late-day behavior",
+   "Current open-day pattern"
+  ]
+ },
+ {
+  "id": "fannin-county-mx",
+  "name": "Fannin County MX",
+  "aliases": [
+   "Fannin County Motocross"
+  ],
+  "state": "GA",
+  "city": "Mineral Bluff",
+  "county": "Fannin",
+  "address": "2323 Cutcane Rd, Mineral Bluff, GA 30559",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(706) 633-7838",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main MX track (listed as about 1 mile)"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": "clay",
+   "notes": "Directory lists a sand and Georgia clay mix. Unconfirmed by riders.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "hilly",
+   "traits": [],
+   "notes": "Directory describes natural mountain elevation with climbs and drops."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Race series and ride days; schedule posted on Facebook."
+  },
+  "rider_reports": [
+   {
+    "says": "Poster places it in north Georgia about 1.5 hours east of Calhoun; no track detail.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Any-MX-in-Chattanooga-TN-Area,1393796",
+    "source_type": "forum",
+    "date": "2021-08"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/fannin-county-mx-mineral-bluff",
+    "title": "MX Parks - Fannin County MX",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Any-MX-in-Chattanooga-TN-Area,1393796",
+    "title": "Vital MX - Any MX in Chattanooga area (2021)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Coordinates in directory are rounded and were not used",
+   "Soil and layout only from directory copy",
+   "No rider description of conditions"
+  ]
+ },
+ {
+  "id": "highland-park-off-road-resort",
+  "name": "Highland Park Off-Road Resort",
+  "aliases": [
+   "Highland Park",
+   "Highland Park MX",
+   "KTM World",
+   "HP"
+  ],
+  "state": "GA",
+  "city": "Cedartown",
+  "county": "Polk",
+  "address": "1501 Culp Lake Rd, Cedartown, GA 30125",
+  "lat": 33.933961,
+  "lng": -85.355744,
+  "types": [
+   "motocross",
+   "offroad",
+   "enduro"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://highlandparkresort.com",
+  "phone": "(770) 748-0771",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "GP-style natural-terrain MX track (directory: about 2.3 miles)",
+   "additional MX tracks (2-3 depending on source)",
+   "pee-wee track",
+   "about 85-90 miles of marked trails, roughly 40 miles one-way single track (rated 1-5 diamonds)"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Riders describe Georgia red clay; after about three weeks without rain it turns to powder. Trails are rocky.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "small",
+   "elevation_change": "hilly",
+   "traits": [
+    "rocks",
+    "steep climbs",
+    "ruts on hard trails"
+   ],
+   "notes": "Mostly a trail destination. Riders call the MX tracks small, fun but sketchy and rarely maintained; trails are the draw, with real elevation and rock."
+  },
+  "conditions": {
+   "dry": "Red clay goes dusty to powdery in dry spells.",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "Riders in 2023 said the MX tracks get little or no prep.",
+   "seasonal": "Open daily for trail riding except Thanksgiving and Christmas; on-site KTM dealer and bike rentals."
+  },
+  "rider_reports": [
+   {
+    "says": "Riders say the trails are excellent, rated by difficulty and closer to single track, with good elevation and rocks; MX tracks get almost no maintenance and red clay goes to powder after weeks without rain.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/durham-town-or-higland-park",
+    "source_type": "forum",
+    "date": "2023-10"
+   },
+   {
+    "says": "Rider says Highland Park is more bike-friendly than Durhamtown, with quads limited to a few trails.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Anyone-ride-at-Durhamtown,1275693",
+    "source_type": "forum",
+    "date": "2018-05"
+   },
+   {
+    "says": "Rider says it has better trails than Durhamtown due to more elevation change.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Going-to-durhamtown-for-a-week-Thoughts,1311682",
+    "source_type": "forum",
+    "date": "2016-12"
+   },
+   {
+    "says": "Poster calls it better for off-road, though it has MX tracks.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-Tracks-for-a-trip-south,1388051",
+    "source_type": "forum",
+    "date": "2021-02"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/highland-park-off-road-resort-cedartown",
+    "title": "MX Parks - Highland Park Off-Road Resort",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_12857/ride_e9fa.htm",
+    "title": "RiderPlanet USA - Highland Park Resort",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/durham-town-or-higland-park",
+    "title": "Vital MX - Durham town or Highland Park (2023)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Exact number and length of MX tracks (sources differ)",
+   "Wet-weather trail behavior",
+   "Whether MX prep has improved since 2023"
+  ]
+ },
+ {
+  "id": "durhamtown",
+  "name": "Off Road Adventures at Durhamtown",
+  "aliases": [
+   "Durhamtown",
+   "Durhamtown Plantation",
+   "Georgia Offroad Adventures",
+   "DT",
+   "The Bomber"
+  ],
+  "state": "GA",
+  "city": "Union Point",
+  "county": "Greene",
+  "address": "2350 Randolph Church Rd, Union Point, GA 30669",
+  "lat": 33.6716875,
+  "lng": -82.9983125,
+  "types": [
+   "motocross",
+   "offroad",
+   "arenacross",
+   "pit_bike"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://durhamtown.com",
+  "phone": "(706) 486-0091",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "The Bomber pro MX track (1.3+ miles, Mark Barnett design)",
+   "MX 1, MX 2, MX 4, MX 5, MX 6",
+   "GP track",
+   "arenacross track",
+   "straight rhythm",
+   "PeeWee MX, Armadillo (10 and under) and Stacyc tracks",
+   "about 150 miles of one-way trails incl. ~35 miles bike-only single track",
+   "flat track and dirt drag strip"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": "sand",
+   "notes": "Riders consistently describe hard-packed Georgia red clay that can feel like concrete when dry and is hard on tires. The Bomber is a clay/sand mix and MX 1 has noticeable sand and drains well.",
+   "confidence": "high"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "medium",
+   "elevation_change": "rolling",
+   "traits": [
+    "hardpack",
+    "few ruts",
+    "whoops",
+    "dragon's back",
+    "sand sweeper"
+   ],
+   "notes": "Bomber is the flagship: 2+ minute laps with a dragon's back, big ski jump, long whoops and a sand sweeper. Other tracks are smaller, some just wooded loops with jumps. Riders call the tracks tamer and better for families than for serious MX."
+  },
+  "conditions": {
+   "dry": "Hard, slick and dusty; ruts rarely form. Bring fresh tires and good goggles.",
+   "wet": "A few days of rain makes the clay tackier and much better; riders say quality swings with the weather.",
+   "late_day": "unknown",
+   "watering_prep": "Bomber gets most of the attention; other tracks prepped inconsistently.",
+   "seasonal": "Open daily 9-5 (trails close 4:30); race weekends can close tracks. Youth MX Series and other races on site."
+  },
+  "rider_reports": [
+   {
+    "says": "Riders describe red clay that gets very hard, few ruts, hard on tires; jump faces hold up but need the right rain. Weekends are crowded and dusty; weekdays recommended.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Anyone-ride-at-Durhamtown,1275693",
+    "source_type": "forum",
+    "date": "2018-05"
+   },
+   {
+    "says": "Rider reports bringing worn tires on a multi-day trip and getting badly hurt on a Bomber double; says the surface is hard and slick.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Anyone-ride-at-Durhamtown,1275693",
+    "source_type": "forum",
+    "date": "2020-05"
+   },
+   {
+    "says": "Riders say after drought the dirt gets like concrete and dusty; rain makes it much better; MX6 and the Bomber are the best when prepped.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Going-to-durhamtown-for-a-week-Thoughts,1311682",
+    "source_type": "forum",
+    "date": "2016-12"
+   },
+   {
+    "says": "Riders say DT has more and better tracks than Highland Park but prep is hit or miss; trails can be torn up by quads and UTVs.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/durham-town-or-higland-park",
+    "source_type": "forum",
+    "date": "2023-10"
+   },
+   {
+    "says": "Poster says it is open every day but the MX tracks are not worth the trip for a serious rider.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-Tracks-for-a-trip-south,1388051",
+    "source_type": "forum",
+    "date": "2021-02"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/durhamtown-plantation-union-point",
+    "title": "MX Parks - Off Road Adventures at Durhamtown",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_09666/ride_8ac0.htm",
+    "title": "RiderPlanet USA - Georgia Offroad Adventures (former Durhamtown)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2012/04/05/real-motocross-track-profile-durhamtown",
+    "title": "Racer X - Track profile: Durhamtown (2012)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Anyone-ride-at-Durhamtown,1275693",
+    "title": "Vital MX - Anyone ride at Durhamtown",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [
+   "Operator name has changed (Durhamtown Plantation / Georgia Offroad Adventures / Off Road Adventures at Durhamtown); current official site not fetched",
+   "Per-track soil for MX 2/4/5/6",
+   "Watering practices"
+  ]
+ },
+ {
+  "id": "scrubn-dirt-mx",
+  "name": "Scrub'n Dirt MX",
+  "aliases": [
+   "Scrub N Dirt",
+   "Scrubndirt",
+   "A Place To Ride MX"
+  ],
+  "state": "GA",
+  "city": "Monroe",
+  "county": "Walton",
+  "address": "1217 Roscoe Davis Rd, Monroe, GA 30656",
+  "lat": 33.827859,
+  "lng": -83.757911,
+  "types": [
+   "motocross",
+   "pit_bike"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://scrubndirt.com",
+  "phone": "(678) 315-0334",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "big track (about 1.2 miles, runs counterclockwise)",
+   "mini track",
+   "turn track",
+   "Stacyc track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "medium",
+   "elevation_change": "unknown",
+   "traits": [
+    "tabletops",
+    "multiple lines"
+   ],
+   "notes": "Directory: big but safe jumps, mostly tabletops, no big gaps, features changed often."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "Directory says the big track is prepped and watered.",
+   "seasonal": "Listed open Tue/Thu mornings, Saturday and Sunday afternoons, weather permitting; cash only; call before hauling."
+  },
+  "rider_reports": [
+   {
+    "says": "Poster says it is open on weekends; another says Georgia MX would be in trouble if it shut down.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-Tracks-for-a-trip-south,1388051",
+    "source_type": "forum",
+    "date": "2021-02"
+   },
+   {
+    "says": "Listed as a Georgia track likely open during a December visit.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-mx-tracks,1397180",
+    "source_type": "forum",
+    "date": "2021-12"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/scrubn-dirt-mx-monroe",
+    "title": "MX Parks - Scrub'n Dirt MX",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_14730/ride_446e.htm",
+    "title": "RiderPlanet USA - A Place To Ride MX (same address)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-Tracks-for-a-trip-south,1388051",
+    "title": "Vital MX - Georgia Tracks for a trip south (2021)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Soil type",
+   "No rider description of how it rides dry, wet or late",
+   "Elevation"
+  ]
+ },
+ {
+  "id": "echeconnee-mx",
+  "name": "Echeconnee MX",
+  "aliases": [
+   "Echeconnee",
+   "Echeconnee Motocross",
+   "Echeconnee MotoX",
+   "Kings Cup"
+  ],
+  "state": "GA",
+  "city": "Lizella",
+  "county": "Bibb",
+  "address": "5070 Marshall Mill Rd, Lizella, GA 31052",
+  "lat": 32.745757,
+  "lng": -83.838024,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": "https://echeconneemotox.com",
+  "phone": "(478) 956-1222",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main MX track (listed as about 1.5 miles)"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": "clay",
+   "notes": "A 2024 ATV national race report calls it the most brutal sand track on that circuit; the directory lists deep sand and loam. A 2026 report from the same series mentions Georgia clay and deep ruts, so expect sand with clay/loam in places.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "rolling",
+   "traits": [
+    "deep ruts",
+    "sand holes",
+    "braking bumps"
+   ],
+   "notes": "Old-school natural-terrain layout with elevation and 2+ minute laps per directory; race reports confirm deep ruts and holes."
+  },
+  "conditions": {
+   "dry": "Deep sand with big ruts and holes (2024 race report).",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Not a weekly practice park; select weekends and pre-race practice. Hosts the Kings Cup, ATVMX national rounds and a Vet Masters event (Nov 2026)."
+  },
+  "rider_reports": [
+   {
+    "says": "ATV race report calls it the most brutal sand on the circuit; a rider hit huge ruts and holes, lost a front tire bead and got stuck in a sandy corner.",
+    "source_url": "https://atvmotocross.com/2024/05/01/unitedmotorsportscom-musick-racing-media-allstars-the-good-the-bad-and-the-ugly-echeconnee-mx-race-report",
+    "source_type": "article",
+    "date": "2024-04"
+   },
+   {
+    "says": "ATV national report: deep ruts, the track kept breaking down through the day and conditions got tougher in later motos.",
+    "source_url": "https://atvmotocross.com/2026/04/02/echeconnee-atvmx-national-race-report",
+    "source_type": "article",
+    "date": "2026-03"
+   },
+   {
+    "says": "Poster reported nothing going on there and thought it might be closed.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-Tracks-for-a-trip-south,1388051",
+    "source_type": "forum",
+    "date": "2021-02"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/echeconnee-mx-lizella",
+    "title": "MX Parks - Echeconnee MX",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://atvmotocross.com/2024/05/01/unitedmotorsportscom-musick-racing-media-allstars-the-good-the-bad-and-the-ugly-echeconnee-mx-race-report",
+    "title": "ATV Motocross - Echeconnee race report (2024)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://atvmotocross.com/2026/04/02/echeconnee-atvmx-national-race-report",
+    "title": "ATV Motocross - Echeconnee national report (2026)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Sand vs clay balance (sources differ)",
+   "Watering",
+   "Directory claim of being Georgia's oldest track not verified",
+   "Practice-day schedule"
+  ]
+ },
+ {
+  "id": "silver-dollar-motorsports-park",
+  "name": "Silver Dollar Motorsports Park",
+  "aliases": [
+   "Silver Dollar",
+   "Silver Dollar MX",
+   "Silver Dollar Raceway"
+  ],
+  "state": "GA",
+  "city": "Reynolds",
+  "county": "Taylor",
+  "address": "42 Raceway Dr, Reynolds, GA 31076",
+  "lat": 32.558706,
+  "lng": -84.117796,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": "https://silverdollarmp.com",
+  "phone": "(850) 533-6272",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "MX track (about 20 acres per directory)",
+   "NHRA quarter-mile dragstrip and drift pad on same property"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "rolling",
+   "traits": [],
+   "notes": "Directory lists elevation changes, rhythm sections, jumps and berms; no rider detail."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Organized practice on announced weekends (Sat-Sun 10-3); not weekly. Call or text before hauling."
+  },
+  "rider_reports": [
+   {
+    "says": "Poster says it is mostly race-only.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-Tracks-for-a-trip-south,1388051",
+    "source_type": "forum",
+    "date": "2021-02"
+   },
+   {
+    "says": "Listed as a Macon-area track.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-mx-tracks,1397180",
+    "source_type": "forum",
+    "date": "2021-12"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/silver-dollar-motorsports-park-reynolds",
+    "title": "MX Parks - Silver Dollar Motorsports Park",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-Tracks-for-a-trip-south,1388051",
+    "title": "Vital MX - Georgia Tracks for a trip south (2021)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil",
+   "Layout detail",
+   "Rider condition reports"
+  ]
+ },
+ {
+  "id": "motox-compound",
+  "name": "MotoX Compound",
+  "aliases": [
+   "Moto X Compound",
+   "Matt Walker's MotoX Compound"
+  ],
+  "state": "GA",
+  "city": "Culloden",
+  "county": "Monroe",
+  "address": "4637 US-341, Culloden, GA 31016",
+  "lat": 32.8903447,
+  "lng": -84.0885331,
+  "types": [
+   "training",
+   "motocross",
+   "supercross"
+  ],
+  "access": "private",
+  "status": "open",
+  "website": "https://motoxcompound.com",
+  "phone": "(678) 860-3038",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "2 outdoor MX tracks",
+   "2 supercross tracks (Dream-Traxx built)"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Directory lists a red clay property. No rider confirmation.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "big",
+   "elevation_change": "unknown",
+   "traits": [
+    "pro-size SX sections"
+   ],
+   "notes": "Pro-level training compound run by former pro Matt Walker; SX tracks built near stadium scale."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "Tracks groomed and watered regularly per two directories.",
+   "seasonal": "Training-program access only; camps most weeks except August."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/motox-compound-culloden",
+    "title": "MX Parks - MotoX Compound",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_09100/ride_cd6a.htm",
+    "title": "RiderPlanet USA - MotoX Compound",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2014/02/11/matt-walkers-motoxcompound-opens-sx",
+    "title": "Racer X - MotoX Compound opens SX (2014)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "No rider reports",
+   "Soil only from directory",
+   "Track lengths"
+  ]
+ },
+ {
+  "id": "tenmile-mx",
+  "name": "TenMile MX",
+  "aliases": [
+   "10 Mile MX",
+   "Ten Mile MX",
+   "TenMile"
+  ],
+  "state": "GA",
+  "city": "Cadwell",
+  "county": "Laurens",
+  "address": "430 Smith Rd, Cadwell, GA 31009",
+  "lat": 32.3501875,
+  "lng": -83.0946875,
+  "types": [
+   "motocross",
+   "supercross",
+   "arenacross",
+   "training"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://tenmilemx.com",
+  "phone": "(478) 290-0137",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main sand MX track",
+   "lit SX/arenacross section",
+   "sand turn track",
+   "pee-wee track"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Directory describes deep, fluffy white sand. Not yet confirmed by a dated rider report.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "sand ruts",
+    "night riding"
+   ],
+   "notes": "Fast sand main track plus a lit stadium-style section."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Day riders welcome; members ride 7 days outside race weekends; hosts Battle of the South rounds (Nov-Dec 2026)."
+  },
+  "rider_reports": [
+   {
+    "says": "Recommended as a track likely open during a December visit (named 10 Mile).",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-mx-tracks,1397180",
+    "source_type": "forum",
+    "date": "2021-12"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/tenmile-mx-cadwell",
+    "title": "MX Parks - TenMile MX",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Rider description of the sand and how it ruts",
+   "Coordinates from directory only"
+  ]
+ },
+ {
+  "id": "moto-vip",
+  "name": "Moto-VIP",
+  "aliases": [
+   "Moto VIP"
+  ],
+  "state": "GA",
+  "city": "Adrian",
+  "county": null,
+  "address": "83 Waldon Way, Adrian, GA 31002",
+  "lat": 32.602409,
+  "lng": -82.529831,
+  "types": [
+   "motocross",
+   "arenacross",
+   "training"
+  ],
+  "access": "appointment",
+  "status": "open",
+  "website": null,
+  "phone": "(571) 451-8493",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main natural-terrain MX track",
+   "arenacross track"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": "sand",
+   "notes": "Directory describes a clay and sand blend that ruts deep and drains well. Unconfirmed by riders.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "deep ruts",
+    "rhythm sections"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "Directory says it drains well after heavy rain.",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Listed open Sat-Thu, closed Fridays; books academy weeks, so call ahead."
+  },
+  "rider_reports": [
+   {
+    "says": "Rider says they have heard good things but had not ridden it.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-mx-tracks,1397180",
+    "source_type": "forum",
+    "date": "2021-12"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/moto-vip-adrian",
+    "title": "MX Parks - Moto-VIP",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "First-hand rider reports",
+   "Website"
+  ]
+ },
+ {
+  "id": "lane-farm-mx",
+  "name": "Lane Farm MX",
+  "aliases": [
+   "Lane Farm"
+  ],
+  "state": "GA",
+  "city": "Garfield",
+  "county": "Emanuel",
+  "address": "352 Petunia Rd, Garfield, GA 30425",
+  "lat": 32.5853646,
+  "lng": -82.0484386,
+  "types": [
+   "motocross",
+   "training",
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://lanefarmmx.com",
+  "phone": "(912) 690-2143",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main MX track",
+   "two flat turn tracks",
+   "several miles of wooded trail loops"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Directory says native farm dirt that is deep-disced and heavily watered.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "medium",
+   "elevation_change": "unknown",
+   "traits": [
+    "rounded jumps"
+   ],
+   "notes": "Directory: safe, rounded jumps in a mix of sizes; layout changed regularly."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "Deep discing and heavy watering per directory.",
+   "seasonal": "Usually Saturdays only."
+  },
+  "rider_reports": [
+   {
+    "says": "Posters shared it and said it looks amazing; one praised grassroots owner-run tracks.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-mx-tracks,1397180",
+    "source_type": "forum",
+    "date": "2021-12"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/lane-farm-mx-garfield",
+    "title": "MX Parks - Lane Farm MX",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-mx-tracks,1397180",
+    "title": "Vital MX - Georgia mx tracks (2021)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil type",
+   "First-hand riding reports"
+  ]
+ },
+ {
+  "id": "alma-mx-park",
+  "name": "Alma MX Park",
+  "aliases": [
+   "Alma MX",
+   "Alma Motocross"
+  ],
+  "state": "GA",
+  "city": "Alma",
+  "county": "Bacon",
+  "address": "1748 US Hwy 1 S, Alma, GA 31510 (older listing: 121 Honeydew Ln)",
+  "lat": 31.480851,
+  "lng": -82.449387,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://almamxpark.wixsite.com/almamxpark",
+  "phone": "(904) 894-3730",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main MX track (about 1-1.25 miles)",
+   "beginner/pee-wee track"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Two directories describe soft, smooth clay kept dust-free by watering.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "medium",
+   "jumps": "medium",
+   "elevation_change": "flat",
+   "traits": [
+    "tabletops",
+    "doubles",
+    "rolling whoops",
+    "wide berms"
+   ],
+   "notes": "About 16 jumps a lap per directory. Rider calls it mellow."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "Groomed at least weekly and watered.",
+   "seasonal": "Weekend open practice, about 9-10am to dark."
+  },
+  "rider_reports": [
+   {
+    "says": "Rider calls it a mellow but fun track.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-Tracks-for-a-trip-south,1388051",
+    "source_type": "forum",
+    "date": "2021-02"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/alma-mx-park-alma",
+    "title": "MX Parks - Alma MX Park",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_11813/ride_7878.htm",
+    "title": "RiderPlanet USA - Alma MX Park",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Two different street addresses listed",
+   "Wet/late-day behavior"
+  ]
+ },
+ {
+  "id": "okefenokee-mx-park",
+  "name": "Okefenokee MX Park",
+  "aliases": [
+   "Okefenokee MX",
+   "Dirt Farm MX",
+   "Dirt Farm Off Road MX"
+  ],
+  "state": "GA",
+  "city": "Folkston",
+  "county": "Charlton",
+  "address": "23943 GA-121, Folkston, GA 31537",
+  "lat": 30.678883,
+  "lng": -82.063502,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(904) 563-0282",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main MX track (about 1.25 miles)",
+   "mini track"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Two directories list a clay track.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "medium",
+   "jumps": "big",
+   "elevation_change": "flat",
+   "traits": [
+    "75 ft tabletops",
+    "doubles",
+    "singles"
+   ],
+   "notes": "About 16 jumps a lap with 75-foot tables; aimed at C riders and faster; about a 2-minute lap."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "Groomed twice weekly; layout changed through the year (directory).",
+   "seasonal": "Scheduled ride weekends and most federal holidays; weekdays for pro training."
+  },
+  "rider_reports": [
+   {
+    "says": "Rider says it was originally Dirt Farm and is open certain weekdays.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-Tracks-for-a-trip-south,1388051",
+    "source_type": "forum",
+    "date": "2021-02"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/okefenokee-mx-park-folkston",
+    "title": "MX Parks - Okefenokee MX Park",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/dirt-farm-off-road-mx-folkston",
+    "title": "MX Parks - Dirt Farm Off Road MX (former name)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_11689/ride_2685.htm",
+    "title": "RiderPlanet USA - Okefenokee MX Park",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Two phone numbers listed ((904) 563-0282 and (904) 449-5229)",
+   "Wet behavior",
+   "Rider soil reports"
+  ]
+ },
+ {
+  "id": "hazlehurst-mx-park",
+  "name": "Hazlehurst MX Park",
+  "aliases": [
+   "Hazlehurst MX"
+  ],
+  "state": "GA",
+  "city": "Hazlehurst",
+  "county": "Jeff Davis",
+  "address": "886 Kirkland Still Rd, Hazlehurst, GA 31539",
+  "lat": 31.839073,
+  "lng": -82.700108,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "unknown",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main MX track (lit)"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": "sand",
+   "notes": "Two directories list a clay and sand mix.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "flat",
+   "traits": [
+    "night riding"
+   ],
+   "notes": "Standard obstacles; stadium lights."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/hazlehurst-mx-park-hazlehurst",
+    "title": "MX Parks - Hazlehurst MX Park (marked Closed)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_15078/ride_930e.htm",
+    "title": "RiderPlanet USA - Hazlehurst MX Park (marked Open)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Status conflict: MX Parks says closed, RiderPlanet says open",
+   "Two different phone numbers in listings",
+   "No rider reports"
+  ]
+ },
+ {
+  "id": "southern-training-facility-raceway",
+  "name": "Southern Training Facility & Raceway",
+  "aliases": [
+   "STF Raceway",
+   "STF",
+   "Southern Raceway"
+  ],
+  "state": "GA",
+  "city": "Bainbridge",
+  "county": "Decatur",
+  "address": "2216 Tallahassee Hwy, Bainbridge, GA 39819",
+  "lat": 30.845994,
+  "lng": -84.54166,
+  "types": [
+   "training",
+   "motocross",
+   "supercross",
+   "arenacross",
+   "pit_bike",
+   "flat_track"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://stfraceway.com",
+  "phone": "(229) 400-2522",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "sand track (built by Brian Deegan)",
+   "pro track",
+   "night track (lit)",
+   "supercross track",
+   "arenacross track",
+   "turn track",
+   "hill track",
+   "pit bike track",
+   "flat track"
+  ],
+  "soil": {
+   "primary": "mixed",
+   "secondary": "sand",
+   "notes": "Directory says soil runs from clay at one end of the property to deep sand at the other; clay national-style layout. Not rider-confirmed.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "rolling",
+   "traits": [
+    "night riding"
+   ],
+   "notes": "Directory claims about 100 ft of elevation on the clay layout. Local TV (2024) reports 160 acres and 10 tracks."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Listed open daily 9am-9pm; pay online. Owner says the site has operated since 1997 and was revived about 2021."
+  },
+  "rider_reports": [
+   {
+    "says": "Rider suggests it (with GPF) for winter riding because south Georgia weather is more consistent.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/winter-riding-down-south-recommendations-coming-new-england",
+    "source_type": "forum",
+    "date": "2024-10"
+   },
+   {
+    "says": "Local TV piece: owner says riders come from Ohio and the Carolinas and that the Bainbridge-Cairo-Tallahassee area has five training facilities.",
+    "source_url": "https://www.wtxl.com/bainbridge/see-why-bainbridge-motocross-training-facility-bringing-more-people-to-the-city",
+    "source_type": "article",
+    "date": "2024-10"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/southern-training-facility-raceway-bainbridge",
+    "title": "MX Parks - Southern Training Facility & Raceway",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.wtxl.com/bainbridge/see-why-bainbridge-motocross-training-facility-bringing-more-people-to-the-city",
+    "title": "WTXL - Bainbridge training facility (2024)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Rider description of the sand vs clay tracks",
+   "Elevation claim unverified",
+   "Watering"
+  ]
+ },
+ {
+  "id": "georgia-practice-facility",
+  "name": "Georgia Practice Facility (GPF)",
+  "aliases": [
+   "GPF",
+   "GPF MX"
+  ],
+  "state": "GA",
+  "city": "Cairo",
+  "county": "Grady",
+  "address": "891 Bold Springs Rd, Cairo, GA 39828",
+  "lat": 30.899998,
+  "lng": -84.108582,
+  "types": [
+   "training",
+   "motocross",
+   "supercross",
+   "arenacross"
+  ],
+  "access": "members",
+  "status": "open",
+  "website": "https://gpfmx.com",
+  "phone": "(229) 977-0637",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "pro supercross replica (pro license only)",
+   "large MX track",
+   "arenacross track",
+   "turn track"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": "clay",
+   "notes": "2012 Racer X profile: MX track is a sand and clay mix.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "big",
+   "elevation_change": "unknown",
+   "traits": [
+    "SX rhythm sections",
+    "dirt and concrete starts"
+   ],
+   "notes": "SX and AX tracks rebuilt yearly to AMA series dimensions (2012)."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "Prepped daily for training sessions (2012).",
+   "seasonal": "Limited-membership training facility; hosts AHRMA Deep South Vintage events."
+  },
+  "rider_reports": [
+   {
+    "says": "Riders call it awesome and worth the drive.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-Tracks-for-a-trip-south,1388051",
+    "source_type": "forum",
+    "date": "2021-02"
+   },
+   {
+    "says": "Recommended for winter for more consistent weather.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/winter-riding-down-south-recommendations-coming-new-england",
+    "source_type": "forum",
+    "date": "2024-10"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/georgia-practice-facility-gpf-mx-cairo",
+    "title": "MX Parks - GPF",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2012/10/18/track-preview-georgia-practice-facility",
+    "title": "Racer X - Track preview: GPF (2012)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Current track details (profile is from 2012)",
+   "Wet behavior"
+  ]
+ },
+ {
+  "id": "millsaps-training-facility",
+  "name": "Millsaps Training Facility (MTF)",
+  "aliases": [
+   "MTF",
+   "Millsaps"
+  ],
+  "state": "GA",
+  "city": "Cairo",
+  "county": "Grady",
+  "address": "867 Bold Springs Rd, Cairo, GA 39828",
+  "lat": 30.895934,
+  "lng": -84.108127,
+  "types": [
+   "training",
+   "motocross",
+   "supercross",
+   "arenacross"
+  ],
+  "access": "members",
+  "status": "open",
+  "website": "https://mtfmx.com",
+  "phone": "(229) 377-8502",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "four tracks incl. a supercross track for AMA pro license holders (RiderPlanet)",
+   "MX track",
+   "arenacross-style track"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Directory says south Georgia sandy mix that dries quickly. Not rider-confirmed.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Training membership; founded 2003; RV hookups, bunkhouses, gym."
+  },
+  "rider_reports": [
+   {
+    "says": "Listed among south Georgia training tracks near Cairo/Thomasville.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-mx-tracks,1397180",
+    "source_type": "forum",
+    "date": "2021-12"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/millsaps-training-facility-mtf-cairo",
+    "title": "MX Parks - MTF",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_13982/ride_d5d8.htm",
+    "title": "RiderPlanet USA - Millsaps Training Facility",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil and layout detail",
+   "First-hand reports"
+  ]
+ },
+ {
+  "id": "next-level-motocross",
+  "name": "Next Level Motocross",
+  "aliases": [
+   "Next Level MX"
+  ],
+  "state": "GA",
+  "city": "Cairo",
+  "county": "Grady",
+  "address": "3712 GA Hwy 188, Cairo, GA 39827",
+  "lat": 30.940405,
+  "lng": -84.142308,
+  "types": [
+   "training",
+   "motocross"
+  ],
+  "access": "members",
+  "status": "open",
+  "website": null,
+  "phone": "(740) 502-7801",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "sand MX track (dirt bikes only)"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Two directories list a sand track.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Training academy; call for schedule."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/next-level-motocross-cairo",
+    "title": "MX Parks - Next Level Motocross",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_13983/ride_ad30.htm",
+    "title": "RiderPlanet USA - Next Level Motocross",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Layout",
+   "Rider reports"
+  ]
+ },
+ {
+  "id": "fast-track-mx-ranch",
+  "name": "Fast Track MX Ranch",
+  "aliases": [
+   "Fast-traxx",
+   "Fast Track MX"
+  ],
+  "state": "GA",
+  "city": "Cairo",
+  "county": "Grady",
+  "address": "1096 Sherman Rd, Cairo, GA 39828",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "former main track",
+   "former pee-wee track"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": "loam",
+   "notes": "Directories list red clay with loam/black dirt.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "unknown",
+   "elevation_change": "rolling",
+   "traits": [
+    "step-up/step-down",
+    "fast sweeper"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [
+   {
+    "says": "Listed among south Georgia tracks (as Fast-traxx).",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-mx-tracks,1397180",
+    "source_type": "forum",
+    "date": "2021-12"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/fast-track-mx-ranch-cairo",
+    "title": "MX Parks - Fast Track MX Ranch (Closed)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_09741/ride_57a4.htm",
+    "title": "RiderPlanet USA - Fast Track MX Ranch (closed)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Closure date",
+   "Whether the 2021 mention refers to this site"
+  ]
+ },
+ {
+  "id": "victory-training-facility",
+  "name": "Victory Training Facility",
+  "aliases": [
+   "VTF",
+   "Climax Motorsports Park",
+   "Climax MX"
+  ],
+  "state": "GA",
+  "city": "Climax",
+  "county": "Decatur",
+  "address": "750 Cedar Grove Rd, Climax, GA 39834",
+  "lat": 30.8349419,
+  "lng": -84.4391257,
+  "types": [
+   "training",
+   "motocross",
+   "supercross",
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://victorytrainingfacility.com",
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "National track",
+   "Night Cross track",
+   "pro supercross (pros only)",
+   "amateur supercross",
+   "vet track",
+   "training/cornering tracks",
+   "GNCC-style trails"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Daily booked open-ride sessions (about 9-3); coaching programs; Mini O's prep camps Nov 2026."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/climax-motorsports-park-climax",
+    "title": "MX Parks - Victory Training Facility (formerly Climax Motorsports Park)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil",
+   "Layout",
+   "Rider reports",
+   "Phone"
+  ]
+ },
+ {
+  "id": "rockcrusher-farm",
+  "name": "Rockcrusher Farm",
+  "aliases": [
+   "Rock Crusher Farm"
+  ],
+  "state": "GA",
+  "city": "Young Harris",
+  "county": "Towns",
+  "address": "126 Rockcrusher Rd, Young Harris, GA 30582",
+  "lat": 34.9873125,
+  "lng": -83.8569375,
+  "types": [
+   "motocross",
+   "offroad",
+   "enduro"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": null,
+  "phone": "(706) 897-0597",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "four MX tracks",
+   "mini MX track",
+   "20+ miles of one-way woods trails",
+   "10-mile hard enduro loop"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "hilly",
+   "traits": [
+    "off-camber",
+    "rock slabs",
+    "ravines"
+   ],
+   "notes": "Mountain property; extreme loop has hosted SEER hard enduro events and Graham Jarvis clinics."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Open only on posted ride days, races and clinics; dirt bikes only on open ride days."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/rockcrusher-farm-young-harris",
+    "title": "MX Parks - Rockcrusher Farm",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil",
+   "MX track detail",
+   "Rider reports"
+  ]
+ },
+ {
+  "id": "paradise-off-road-park",
+  "name": "Paradise Off-Road Park",
+  "aliases": [
+   "Paradise MX",
+   "Paradise Offroad Park"
+  ],
+  "state": "GA",
+  "city": "Macon",
+  "county": null,
+  "address": "1276 Sgoda Rd, Macon, GA 31217",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "former MX track",
+   "former pee-wee track",
+   "woods loops"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Hosted GNCC and regional qualifiers in its time."
+  },
+  "rider_reports": [
+   {
+    "says": "Listed as Paradise MX in a 2021 Georgia track roundup.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-mx-tracks,1397180",
+    "source_type": "forum",
+    "date": "2021-12"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/paradise-off-road-park-macon",
+    "title": "MX Parks - Paradise Off-Road Park (Closed)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_13004/ride_0c99.htm",
+    "title": "RiderPlanet USA - Paradise Offroad Park (closed)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2011/05/17/paradise-off-road-park-grand-opening",
+    "title": "Racer X - Paradise Off-Road Park grand opening (2011)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Closure date",
+   "Soil"
+  ]
+ },
+ {
+  "id": "live-oak-motorpark",
+  "name": "Live Oak Motorpark",
+  "aliases": [
+   "Live Oak MX"
+  ],
+  "state": "GA",
+  "city": "Daisy",
+  "county": "Evans",
+  "address": "521 Sheppard Ave, Daisy, GA 30417",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "former main MX track (about 1 mile)",
+   "youth track",
+   "about 20 miles of one-way woods trails"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": "clay",
+   "notes": "Directory listed sand mixed with red clay, groomed and watered.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "whoops",
+    "tabletops",
+    "triples",
+    "doubles"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_14439/ride_928e.htm",
+    "title": "RiderPlanet USA - Live Oak Motorpark (temporarily closed until further notice)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Listed as temporarily closed; reopening unknown",
+   "No rider reports"
+  ]
+ },
+ {
+  "id": "bremen-race-park",
+  "name": "Bremen Race Park",
+  "aliases": [
+   "Bremen",
+   "Bremen MX"
+  ],
+  "state": "GA",
+  "city": "Bremen",
+  "county": "Haralson",
+  "address": "372 Reid Rd, Bremen, GA 30110",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "former MX track",
+   "former pee-wee track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Formerly hosted AMA Pro-Am events (2006) and King of the Ranch (2013)."
+  },
+  "rider_reports": [
+   {
+    "says": "Riders recalled loving Bremen; another confirmed it is gone.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Georgia-Tracks-for-a-trip-south,1388051",
+    "source_type": "forum",
+    "date": "2021-02"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_01701/ride_24e6.htm",
+    "title": "RiderPlanet USA - Bremen Race Park (closed)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2013/09/19/king-of-the-ranch-at-bremen",
+    "title": "Racer X - King of the Ranch at Bremen (2013)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil and layout",
+   "Closure date"
+  ]
+ },
+ {
+  "id": "tunnel-hill-motocross",
+  "name": "Tunnel Hill Motocross",
+  "aliases": [
+   "Southern SX",
+   "Tunnel Hill MX"
+  ],
+  "state": "GA",
+  "city": "Tunnel Hill",
+  "county": "Whitfield",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross",
+   "supercross"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "big",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": "Riders remember big jumps; it moved between sites west of I-75 before closing."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Riders recall Tue/Thu night practice and Saturday night racing in the early 2000s."
+  },
+  "rider_reports": [
+   {
+    "says": "Riders say jumps were big, it was first called Southern SX, and it closed around 2012; the site is now an empty field.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/relocating-aus-ga-chasing-minded-families",
+    "source_type": "forum",
+    "date": "2023-05"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.vitalmx.com/forums/moto-related/relocating-aus-ga-chasing-minded-families",
+    "title": "Vital MX - Relocating to GA (2023)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Address and coordinates",
+   "Exact closure date",
+   "Soil"
+  ]
+ },
+ {
+  "id": "iron-mountain-park",
+  "name": "Iron Mountain Park",
+  "aliases": [
+   "Iron Mountain Resort"
+  ],
+  "state": "GA",
+  "city": "Dahlonega",
+  "county": "Lumpkin",
+  "address": "116 Iron Mountain Pkwy, Dahlonega, GA 30533",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://ironmountainresort.com",
+  "phone": "(706) 216-7275",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "about 150 miles of one-way trails on 4,300 acres"
+  ],
+  "soil": {
+   "primary": "loam",
+   "secondary": null,
+   "notes": "Directory says rich dirt in dense woods.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "rolling",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_16431/ride_72b3.htm",
+    "title": "RiderPlanet USA - Iron Mountain Park",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Dirt-bike-specific reports",
+   "Whether any MX track exists"
+  ]
+ },
+ {
+  "id": "moto-mountain-atv-park",
+  "name": "Moto Mountain ATV Park",
+  "aliases": [
+   "Moto Mountain Park"
+  ],
+  "state": "GA",
+  "city": "Marble Hill / Fairmount",
+  "county": null,
+  "address": "1150 Young Loop Rd, Marble Hill, GA (other listing: 12878 Hwy 53 W, Fairmount)",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "offroad",
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "about 76-79 miles of trails",
+   "pee-wee and junior MX tracks"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/georgia/moto-mountain-atv-park-marble-hill",
+    "title": "MX Parks - Moto Mountain ATV Park (closure reported)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_14466/ride_9439.htm",
+    "title": "RiderPlanet USA - Moto Mountain Park (temporarily closed, 2025)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Status and reopening plans",
+   "Two different addresses listed",
+   "No rider reports"
+  ]
+ },
+ {
+  "id": "houston-valley-orv",
+  "name": "Houston Valley ORV Area",
+  "aliases": [
+   "Houston Valley OHV"
+  ],
+  "state": "GA",
+  "city": "Ringgold",
+  "county": null,
+  "address": "Capehart Rd staging, near Ringgold, GA",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(706) 695-6736",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "about 25 miles of two-way trails, easy to most difficult"
+  ],
+  "soil": {
+   "primary": "hardpack",
+   "secondary": null,
+   "notes": "Directory: smooth hard-pack to rugged steep climbs with mud puddles and water crossings.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "hilly",
+   "traits": [
+    "water crossings",
+    "steep climbs"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "May close for several days after significant rain.",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Fee at self-pay kiosk; paved staging."
+  },
+  "rider_reports": [
+   {
+    "says": "Named as a north Georgia riding area.",
+    "source_url": "https://www.vitalmx.com/forums/moto-related/relocating-aus-ga-chasing-minded-families",
+    "source_type": "forum",
+    "date": "2023-05"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_11801/ride_f9eb.htm",
+    "title": "RiderPlanet USA - Houston Valley ORV Area",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Coordinates",
+   "Dated dirt-bike reports"
+  ]
+ },
+ {
+  "id": "beasley-knob-ohv",
+  "name": "Beasley Knob OHV Trail System",
+  "aliases": [
+   "Beasley Knob"
+  ],
+  "state": "GA",
+  "city": "Blairsville",
+  "county": "Union",
+  "address": "Old Satterfield Rd, Blairsville, GA 30512",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "offroad"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": null,
+  "phone": "(706) 970-9776",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "about 13 miles of connected loops, mostly difficult/most difficult"
+  ],
+  "soil": {
+   "primary": "mixed",
+   "secondary": null,
+   "notes": "Steep and rocky per directory.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "hilly",
+   "traits": [
+    "rocks",
+    "steep climbs"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "Gets harder in wet weather.",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Closed to motorized use roughly Jan-Mar; day pass required."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_08744/ride_854a.htm",
+    "title": "RiderPlanet USA - Beasley Knob OHV",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Coordinates",
+   "Rider reports"
+  ]
+ },
+ {
+  "id": "windy-gap-ohv",
+  "name": "Windy Gap OHV Trail System",
+  "aliases": [
+   "Windy Gap"
+  ],
+  "state": "GA",
+  "city": "Chatsworth",
+  "county": "Murray",
+  "address": "Conasauga Lake Rd, Chatsworth, GA 30705",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "offroad",
+   "enduro"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(706) 695-6736",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "two ATV trails",
+   "one linear motorcycle trail (out and back)"
+  ],
+  "soil": {
+   "primary": "mixed",
+   "secondary": null,
+   "notes": "Rugged, rocky; motorcycle trail has big rocks and roots.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "hilly",
+   "traits": [
+    "steep hill climbs",
+    "roots",
+    "switchbacks",
+    "creek crossings"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_12860/ride_072a.htm",
+    "title": "RiderPlanet USA - Windy Gap OHV",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Coordinates",
+   "Rider reports"
+  ]
+ },
+ {
+  "id": "town-creek-ohv",
+  "name": "Town Creek OHV Trail System",
+  "aliases": [
+   "Town Creek"
+  ],
+  "state": "GA",
+  "city": "Union Point",
+  "county": "Greene",
+  "address": "Hensley Rd, Union Point, GA 30669",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "offroad",
+   "enduro"
+  ],
+  "access": "public",
+  "status": "unknown",
+  "website": null,
+  "phone": "(706) 485-3180",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "Loop A motorcycle-only single track",
+   "Loop B easy ATV loop (about 15 miles total)"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "flat",
+   "traits": [
+    "water-filled ruts",
+    "roots",
+    "tight turns",
+    "long swamp bridge"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "unknown"
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_05987/ride_e410.htm",
+    "title": "RiderPlanet USA - Town Creek OHV (listed temporarily closed)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Listed temporarily closed; reopening unknown",
+   "Soil"
+  ]
+ },
+ {
+  "id": "locust-stake-ohv",
+  "name": "Locust Stake OHV Trail System",
+  "aliases": [
+   "Locust Stake"
+  ],
+  "state": "GA",
+  "city": "Toccoa",
+  "county": null,
+  "address": "Locust Stake Rd, Toccoa, GA 30577",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(706) 754-6221",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "about 10 miles of two-way loops (48 in width limit)"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "Dusty in dry weather.",
+   "wet": "May close on short notice when wet.",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Daylight only; no overnight parking."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_06042/ride_f34b.htm",
+    "title": "RiderPlanet USA - Locust Stake OHV",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Soil",
+   "Coordinates"
+  ]
+ },
+ {
+  "id": "whissenhunt-ohv",
+  "name": "Whissenhunt OHV Trail System",
+  "aliases": [
+   "Whissenhunt"
+  ],
+  "state": "GA",
+  "city": "Dahlonega",
+  "county": "Lumpkin",
+  "address": "Camp Wahsega Rd, Dahlonega, GA 30533",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "offroad"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": null,
+  "phone": "(706) 745-6928",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "about 11 miles of marked trail"
+  ],
+  "soil": {
+   "primary": "hardpack",
+   "secondary": null,
+   "notes": "Mostly hard-packed with loose rock and gravel.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "Dusty; best after a light rain.",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Seasonal closure in winter."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_09678/ride_3ec3.htm",
+    "title": "RiderPlanet USA - Whissenhunt OHV",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Coordinates"
+  ]
+ },
+ {
+  "id": "oakey-mountain-ohv",
+  "name": "Oakey Mountain OHV Trails",
+  "aliases": [
+   "Oakey Mountain",
+   "Moates Knob"
+  ],
+  "state": "GA",
+  "city": "Clarkesville",
+  "county": "Habersham",
+  "address": "Burton Dam Rd, Clarkesville, GA 30523",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "offroad"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": null,
+  "phone": "(706) 754-6221",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "Oakey Mountain trail",
+   "Moates Knob trail"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "hilly",
+   "traits": [
+    "rocky",
+    "narrow",
+    "switchbacks"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Closes for the season from January, usually reopening mid-March."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/georgia_05982/ride_bf93.htm",
+    "title": "RiderPlanet USA - Oakey Mountain OHV",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Soil",
+   "Coordinates"
+  ]
+ },
+ {
+  "id": "macon-coliseum",
+  "name": "Macon Coliseum (arenacross)",
+  "aliases": [
+   "Macon Centreplex",
+   "Partzilla Arenacross Macon"
+  ],
+  "state": "GA",
+  "city": "Macon",
+  "county": "Bibb",
+  "address": "200 Coliseum Dr, Macon, GA 31217",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "arenacross"
+  ],
+  "access": "private",
+  "status": "seasonal",
+  "website": "https://www.maconcentreplex.org",
+  "phone": "(478) 803-1593",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "temporary indoor arenacross track (dirt hauled in for the event)"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "tight",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": "Indoor event track; no layout or dirt description published."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Hosted AMA Partzilla Regional Arenacross (TriStar MX series) Dec 12-13, 2025. Not on the 2026-27 Partzilla calendar."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.maconcentreplex.org/event/ama-partzilla-regioal-arenacross-series",
+    "title": "Macon Centreplex - AMA Partzilla Regional Arenacross (Dec 2025)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://visitmacon.org/events/ama-partzilla-regional-arenacross-series",
+    "title": "Visit Macon - Partzilla Arenacross",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://partzillaarenacross.com/blogs/news/its-official-partzilla-takes-the-title-welcome-to-the-2025-2026-partzilla-arenacross-series",
+    "title": "Partzilla Arenacross - TriStar MX series becomes Partzilla (2025)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.cyclenews.com/2026/10/article/2026-27-ama-arenacross-calendar/",
+    "title": "Cycle News - 2026-27 AMA arenacross calendar",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Dirt type and track layout",
+   "No rider reports",
+   "Not on the 2026-27 calendar; a TriStar 2024-25 Atlanta round was announced but its venue was not found"
+  ]
+ },
+ {
+  "id": "atlanta-supercross",
+  "name": "Atlanta Supercross",
+  "aliases": [
+   "Atlanta SX"
+  ],
+  "state": "GA",
+  "city": "Atlanta area",
+  "county": null,
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "supercross"
+  ],
+  "access": "private",
+  "status": "unknown",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "temporary pro SX track (venue has varied, incl. stadium and speedway settings)"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "Not stated by any source found.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "tight",
+   "jumps": "big",
+   "elevation_change": "unknown",
+   "traits": [
+    "whoops",
+    "ruts"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "Rain-hit years (2021, 2023) left the dirt soft and tacky with ruts and crashes; the track dried lap by lap in 2021.",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Pro round held most years through 2023; no Georgia round on the 2025 or 2026 calendars."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: rain before the race kept the dirt soft and tacky; ruts, bumps and whoop wear were obvious and aggressive riders crashed.",
+    "source_url": "https://racerxonline.com/2023/04/18/breakdown-atlanta",
+    "source_type": "article",
+    "date": "2023-04"
+   },
+   {
+    "says": "Analyst: heats were a muddy mess; the track dried each lap but ruts made it more treacherous and lines kept changing.",
+    "source_url": "https://racerxonline.com/2021/04/12/breakdown-atlanta-1",
+    "source_type": "article",
+    "date": "2021-04"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://racerxonline.com/2023/04/18/breakdown-atlanta",
+    "title": "Racer X - Breakdown: Atlanta (2023)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2021/04/12/breakdown-atlanta-1",
+    "title": "Racer X - Breakdown: Atlanta 1 (2021)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/2026_AMA_Supercross_Championship",
+    "title": "2026 AMA Supercross Championship (no Georgia round)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Exact venue per year not confirmed here",
+   "Dirt source/type",
+   "Whether Atlanta returns to the calendar"
+  ]
+ }
+]

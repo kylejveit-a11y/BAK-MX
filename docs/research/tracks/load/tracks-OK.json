@@ -1,0 +1,88 @@
+[
+ {
+  "id": "ponca-city-mx",
+  "name": "Ponca City MX",
+  "aliases": [
+   "Ponca City",
+   "Ponca",
+   "Ponca City Motocross"
+  ],
+  "state": "OK",
+  "city": "Ponca City",
+  "county": "Kay",
+  "address": "West Prospect Ave area near Ponca City Regional Airport, Ponca City, OK (street number not confirmed)",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "unknown",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main MX track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "No source describes the soil.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": "City-owned land developed into a nationally known amateur venue."
+  },
+  "conditions": {
+   "dry": "unknown",
+   "wet": "Prone to flooding: a 2013 storm submerged the track and cancelled a day; severe flooding moved the 2025 South Central Area Qualifier to Sweet 16 MX (Muskogee).",
+   "late_day": "unknown",
+   "watering_prep": "unknown",
+   "seasonal": "Long-time home of the NMA Grand National (moved to Norman, OK in 2012); since then hosts Loretta Lynn regional/area qualifiers and a fall MotoPlayground race."
+  },
+  "rider_reports": [
+   {
+    "says": "Race report: overnight storm left the track under water and wind damage; Wednesday motos were cancelled and run Thursday.",
+    "source_url": "https://www.cyclenews.com/2013/07/article/amateur-motocross-matt-bisceglia-perfect-at-ponca-city",
+    "source_type": "article",
+    "date": "2013-07"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://poncacitynews.com/node/29782",
+    "title": "Ponca City News - Ponca City welcomes racers (undated)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2011/12/15/ponca-city-to-relocate",
+    "title": "Racer X - Ponca City (NMA Grand National) to relocate (2011)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://mxsports.com/2025/05/05/competition-bulletin-2025-6-ponca-city-area-qualifier-venue-change",
+    "title": "MX Sports - 2025 Ponca City area qualifier moved for flooding",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.cyclenews.com/2013/07/article/amateur-motocross-matt-bisceglia-perfect-at-ponca-city",
+    "title": "Cycle News - Ponca City 2013",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil and layout",
+   "Street address and coordinates",
+   "Website/phone",
+   "Current status after 2025 flooding",
+   "Rider reports on how it rides"
+  ],
+  "research_file": "nationals.json"
+ }
+]

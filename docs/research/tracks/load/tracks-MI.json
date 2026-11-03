@@ -1,0 +1,107 @@
+[
+ {
+  "id": "redbud-mx",
+  "name": "RedBud MX",
+  "aliases": [
+   "RedBud",
+   "Red Bud",
+   "Buchanan",
+   "RedBud Track N Trail"
+  ],
+  "state": "MI",
+  "city": "Buchanan",
+  "county": "Berrien",
+  "address": "North Red Bud Trail, just north of Buchanan, MI (west side of the road)",
+  "lat": 41.8714,
+  "lng": -86.37,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "open",
+  "website": "https://redbudmx.com",
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "pro national track (LaRocco's Leap, ~120 ft)",
+   "KTM kids track",
+   "night track"
+  ],
+  "soil": {
+   "primary": "loam",
+   "secondary": "clay",
+   "notes": "Once a hard clay track; now mostly deep loam with some sandy and some hard sections. Analysts say the modern surface gives consistent traction and needs the meat of the power.",
+   "confidence": "high"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "big",
+   "elevation_change": "rolling",
+   "traits": [
+    "deep ruts",
+    "LaRocco's Leap",
+    "fast inside lines",
+    "low spots that rut"
+   ],
+   "notes": "Classic layout largely unchanged for decades; LaRocco's Leap (built 1991) is the longest jump on the circuit. Inside lines are often too fast to ignore, which makes passing hard."
+  },
+  "conditions": {
+   "dry": "Loam with hard spots; normally calls for a compromise setup.",
+   "wet": "Rain softens the base; low areas rut easily and ruts get softer and longer than normal. Approach to LaRocco's Leap gets hard to build speed for.",
+   "late_day": "Crews keep adding soft dirt during the day, so it may not harden as expected.",
+   "watering_prep": "Heavy prep with soft dirt brought in through the day at nationals.",
+   "seasonal": "Pro national over the July 4th weekend (30,000+ fans); hosted Motocross of Nations 2018 and 2022."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: once hard clay, now deep loam with sandy bits; use smooth arcs and the meat of the power; deep ruts punish over-aggression.",
+    "source_url": "https://racerxonline.com/2025/07/03/pro-motocross-returns-to-redbud-and-jt-weighs-in-on-how-the-iconic-venue-has-changed-over-the-years",
+    "source_type": "article",
+    "date": "2025-07"
+   },
+   {
+    "says": "Analyst: Friday rain left soft, long ruts in low areas; scoop rear tire worked better than a traditional tire chosen for hard sections; few 250s cleared LaRocco's Leap.",
+    "source_url": "https://racerxonline.com/2024/07/08/breakdown-redbud",
+    "source_type": "article",
+    "date": "2024-07"
+   },
+   {
+    "says": "Analyst: fast inside lines make passing hard; stay out of roost to save tear-offs; rushing corners caused washouts.",
+    "source_url": "https://racerxonline.com/2022/07/05/breakdown-redbud",
+    "source_type": "article",
+    "date": "2022-07"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Red_Bud_MX",
+    "title": "Wikipedia - Red Bud MX (coordinates, history, tracks)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2025/07/03/pro-motocross-returns-to-redbud-and-jt-weighs-in-on-how-the-iconic-venue-has-changed-over-the-years",
+    "title": "Racer X - JT on how RedBud changed (2025)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2024/07/08/breakdown-redbud",
+    "title": "Racer X - Breakdown: RedBud 2024",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2022/07/05/breakdown-redbud",
+    "title": "Racer X - Breakdown: RedBud 2022",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [
+   "Street number",
+   "Phone",
+   "Public practice schedule",
+   "Braking-bump behavior"
+  ],
+  "research_file": "nationals.json"
+ }
+]

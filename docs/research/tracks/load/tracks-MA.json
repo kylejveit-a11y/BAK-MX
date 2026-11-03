@@ -1,0 +1,106 @@
+[
+ {
+  "id": "the-wick-338",
+  "name": "The Wick 338 (Southwick)",
+  "aliases": [
+   "Southwick",
+   "The Wick",
+   "Wick 338",
+   "Moto 338"
+  ],
+  "state": "MA",
+  "city": "Southwick",
+  "county": "Hampden",
+  "address": "Legion Road, Southwick, MA 01077",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "open",
+  "website": "https://thewick338.com/",
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "national sand track"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": "hardpack",
+   "notes": "The closest thing to a full sand race in the US, but over a deceptively hard base - not as deep as Lommel. Crews add sand for depth.",
+   "confidence": "high"
+  },
+  "layout": {
+   "speed": "medium",
+   "jumps": "medium",
+   "elevation_change": "unknown",
+   "traits": [
+    "sand ruts",
+    "square-edged sand bumps",
+    "blown-out berms",
+    "sand rollers"
+   ],
+   "notes": "Bumps are more square-edged than European sand. Local sand riders often run well here."
+  },
+  "conditions": {
+   "dry": "Ruts and bumps form quickly; very physical.",
+   "wet": "Sand takes light rain well; heavy rain can wash added sand away. Rain the week before leaves a slippery base that causes wheelspin.",
+   "late_day": "Gets slower through the day, not faster; second qualifying slower than first; class that runs last gets the roughest track.",
+   "watering_prep": "Sand added to build depth.",
+   "seasonal": "Pro national late June / early July; 50 years of pro racing in 2026. Hot, humid, with possible afternoon storms."
+  },
+  "rider_reports": [
+   {
+    "says": "Analyst: sand over a hard base with square-edged bumps; ride the berm sweet spot - too low spins, too deep buries the rear; stay light on entry, then commit to throttle.",
+    "source_url": "https://racerxonline.com/2025/06/26/jason-thomas-on-why-southwick-is-the-most-unqiue-stop-on-the-calendar",
+    "source_type": "article",
+    "date": "2025-06"
+   },
+   {
+    "says": "Analyst: after a wet week the base was slippery and riders dug through it with wheelspin; track slowed through the afternoon; late-moto fitness made the difference.",
+    "source_url": "https://racerxonline.com/2024/07/01/breakdown-southwick",
+    "source_type": "article",
+    "date": "2024-07"
+   },
+   {
+    "says": "Preview: deep sand where ruts form fast and line choice keeps changing; conditioning matters most.",
+    "source_url": "https://www.njmotocross.com/nj-motocross/2025/2025-southwick-national-at-the-wick-338-only-the-strong-survive/",
+    "source_type": "article",
+    "date": "2025-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://promotocross.com/race/southwick-national/track",
+    "title": "Pro Motocross - Southwick track page",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2025/06/26/jason-thomas-on-why-southwick-is-the-most-unqiue-stop-on-the-calendar",
+    "title": "Racer X - JT on Southwick (2025)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2024/07/01/breakdown-southwick",
+    "title": "Racer X - Breakdown: Southwick 2024",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.njmotocross.com/nj-motocross/2025/2025-southwick-national-at-the-wick-338-only-the-strong-survive/",
+    "title": "NJ Motocross - 2025 Southwick preview",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [
+   "Coordinates",
+   "Street number",
+   "Phone",
+   "Public practice schedule",
+   "Elevation/hill profile"
+  ],
+  "research_file": "nationals.json"
+ }
+]

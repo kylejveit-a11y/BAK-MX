@@ -1,0 +1,189 @@
+[
+ {
+  "id": "freestone-raceway",
+  "name": "Freestone County Raceway",
+  "aliases": [
+   "Freestone",
+   "Freestone Raceway",
+   "Freestone MX",
+   "Miller Ranch",
+   "Wortham"
+  ],
+  "state": "TX",
+  "city": "Wortham",
+  "county": "Freestone",
+  "address": "Off CR-995 near CR-996 and SR-246, Wortham, TX (no street number found)",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "http://www.freestonemx.com",
+  "phone": "(713) 962-3386",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "main MX track",
+   "second MX track"
+  ],
+  "soil": {
+   "primary": "sand",
+   "secondary": null,
+   "notes": "Race coverage describes deep, sandy soil with a big sand section and loose sand throughout; owner added lots of sand for the 2011 national. One directory checklist says no sand, which conflicts with every race report.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "medium",
+   "jumps": "medium",
+   "elevation_change": "flat",
+   "traits": [
+    "sand whoops",
+    "sand ruts",
+    "wide track"
+   ],
+   "notes": "Basically flat, wide and flowing with a few good jumps and a sand whoop section before the finish."
+  },
+  "conditions": {
+   "dry": "Deep and sandy; heat (90s+) and wind are big factors.",
+   "wet": "unknown",
+   "late_day": "Heavily watered early so even 450s bog; dries out to one main line by moto one, then multiple lines develop by moto two.",
+   "watering_prep": "Heavy watering early for dust.",
+   "seasonal": "Several practice dates a year but mainly open for events; hosted Pro nationals 2007-2012 and amateur spring championships."
+  },
+  "rider_reports": [
+   {
+    "says": "Notebook: flat with deep sandy soil; over-watered morning so deep that 450s struggled, then one dry line in moto one and several lines by moto two; heat and 30 mph wind wore riders down.",
+    "source_url": "https://racerxonline.com/2011/05/30/racer-x-notebook-freestone",
+    "source_type": "article",
+    "date": "2011-05"
+   },
+   {
+    "says": "Team report: loose sand, rough and rutted, 99F heat and gusty wind; a rut grabbed the front wheel late in moto one.",
+    "source_url": "https://racerxonline.com/2011/06/03/moto-innovations-race-report-freestone",
+    "source_type": "article",
+    "date": "2011-06"
+   },
+   {
+    "says": "Practice report: owner dumped a lot of sand on it, making practice rough; sand whoops reshaped.",
+    "source_url": "https://racerxonline.com/2011/05/28/freestone-practice-report",
+    "source_type": "article",
+    "date": "2011-05"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.riderplanet-usa.com/atv/trails/info/texas_01961/ride_5ff0.htm",
+    "title": "RiderPlanet USA - Freestone County Raceway (status May 2025)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2008/05/28/freestone-county-raceway-eager-to-build-upon-success",
+    "title": "Racer X - Freestone eager to build on success (2008)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2011/05/30/racer-x-notebook-freestone",
+    "title": "Racer X - Notebook: Freestone 2011",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2011/06/03/moto-innovations-race-report-freestone",
+    "title": "Racer X - Moto Innovations race report Freestone 2011",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2011/05/28/freestone-practice-report",
+    "title": "Racer X - Freestone practice report 2011",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "All rider reports are from 2011 pro nationals; no recent amateur reports",
+   "Official website could not be fetched",
+   "Coordinates",
+   "Rain behavior"
+  ],
+  "research_file": "nationals.json"
+ },
+ {
+  "id": "lake-whitney-cycle-ranch",
+  "name": "Lake Whitney Cycle Ranch",
+  "aliases": [
+   "Lake Whitney",
+   "WB Ranch"
+  ],
+  "state": "TX",
+  "city": "Whitney",
+  "county": null,
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "private",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "No source names the soil.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "deep ruts (2004 memory)"
+   ],
+   "notes": "Former national (1970s-80s) and big amateur venue (spring/winter events into ~2010)."
+  },
+  "conditions": {
+   "seasonal": "Closed; forum posters (2024) say the land sits unused or is used privately for hunting.",
+   "dry": "unknown",
+   "wet": "unknown",
+   "late_day": "unknown",
+   "watering_prep": "unknown"
+  },
+  "rider_reports": [
+   {
+    "says": "Former racers recall back-section ruts so deep you picked one and went; called it a favorite track; it is now closed.",
+    "source_url": "https://www.vitalmx.com/comment/6958936",
+    "source_type": "forum",
+    "date": "2024-09"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://promotocross.com/track/lake-whitney-cycle-ranch",
+    "title": "Pro Motocross - Lake Whitney Cycle Ranch (1973-1983 events)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2010/02/11/otcmx-com-named-track-builder-for-lake-whitney",
+    "title": "Racer X - Track builder named for Lake Whitney (2010)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/6958936",
+    "title": "Vital MX forum - Lake Whitney (2024)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Exact location/county",
+   "Closing date",
+   "Kept only so the app can resolve the name riders still use"
+  ],
+  "research_file": "nationals.json"
+ }
+]

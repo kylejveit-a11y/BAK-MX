@@ -1,0 +1,2106 @@
+[
+ {
+  "id": "agricenter-showplace-arena",
+  "name": "Agricenter ShowPlace Arena",
+  "aliases": [],
+  "state": "TN",
+  "city": "Memphis",
+  "county": "Shelby",
+  "address": "105 S Germantown Pkwy, Cordova, TN",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "arenacross"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "temporary indoor arenacross track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "MidSouth Arenacross round Feb 20, 2027."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.midsoutharenacross.com/",
+    "title": "MidSouth ArenaCross - 2026-2027 schedule",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Rider reports"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "back-40-mx",
+  "name": "Back 40 Motocross",
+  "aliases": [
+   "Back40MX"
+  ],
+  "state": "TN",
+  "city": "Bradford",
+  "county": "Gibson",
+  "address": "John Vick Rd, Bradford, TN 38316",
+  "lat": 36.0338418,
+  "lng": -88.7940077,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(731) 217-7036",
+  "facebook": "https://www.facebook.com/back40mx/",
+  "instagram": "https://www.instagram.com/back40_mx/",
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Riders used it for Loretta's vet prep practice.",
+    "source_url": "https://www.youtube.com/watch?v=Bfe3g_1jA8w",
+    "source_type": "video",
+    "date": "2021-07"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/back-40-motocross-bradford",
+    "title": "MX Parks - Back 40 Motocross listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=Bfe3g_1jA8w",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil",
+   "Layout"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "battleground-mx",
+  "name": "Battleground MX",
+  "aliases": [],
+  "state": "TN",
+  "city": "Savannah",
+  "county": "Hardin",
+  "address": "8115 Hwy 128, Savannah, TN 38372",
+  "lat": 35.162,
+  "lng": -88.2436,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "open",
+  "website": null,
+  "phone": "(731) 315-8040",
+  "facebook": "https://www.facebook.com/profile.php?id=61574759515901",
+  "instagram": "https://www.instagram.com/battleground_mx",
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/battleground-mx-savannah",
+    "title": "MX Parks - Battleground MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "New track; nothing published on soil or layout"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "christiana-mx",
+  "name": "Christiana MX Park",
+  "aliases": [],
+  "state": "TN",
+  "city": "Christiana",
+  "county": "Rutherford",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "unknown",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [],
+  "sources": [],
+  "confidence": "low",
+  "gaps": [
+   "Address and status unknown"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "cooper-steel-arena",
+  "name": "Cooper Steel Arena",
+  "aliases": [
+   "Calsonic Arena"
+  ],
+  "state": "TN",
+  "city": "Shelbyville",
+  "county": "Bedford",
+  "address": "721 Whitthorne St, Shelbyville, TN 37160",
+  "lat": 35.4905095,
+  "lng": -86.4462376,
+  "types": [
+   "arenacross"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": "https://coopersteelarena.com/",
+  "phone": "(931) 684-5915",
+  "facebook": "https://www.facebook.com/SouthernKentuckyArenacrossSeries/",
+  "instagram": null,
+  "tracks_on_site": [
+   "temporary indoor arenacross track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "tight",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "TriStar MX arenacross finals Mar 2024; Southern AX Tour round Jan 2027."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/cooper-steel-arena-shelbyville",
+    "title": "MX Parks - Cooper Steel Arena listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://t-g.com/stories/arenacross-championship-set-for-championship-rounds-at-cooper-steel-arena-this-weekend,125187",
+    "title": "Shelbyville Times-Gazette - TriStar arenacross at Cooper Steel Arena (Mar 2024)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Rider reports"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "fast-farms-mx",
+  "name": "Fast Farms MX Park",
+  "aliases": [
+   "Fast Farms",
+   "Fast Farms MX"
+  ],
+  "state": "TN",
+  "city": "Altamont",
+  "county": "Grundy",
+  "address": "287 McCarter Rd, Altamont, TN 37301",
+  "lat": 35.42555,
+  "lng": -85.818372,
+  "types": [
+   "motocross"
+  ],
+  "access": "members",
+  "status": "open",
+  "website": "https://fastfarmsmxpark.com/",
+  "phone": null,
+  "facebook": "https://www.facebook.com/p/Fast-Farms-MX-Park-100063705066811/",
+  "instagram": "https://instagram.com/fastfarmsmx",
+  "tracks_on_site": [
+   "1.25 mi national-style track"
+  ],
+  "soil": {
+   "primary": "loam",
+   "secondary": null,
+   "notes": "Directory says loam mixed with sawdust. One older rider said the dirt was good but got slick as it dried.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "rolling",
+   "traits": [
+    "whoops",
+    "elevation"
+   ],
+   "notes": "Fun layout with some elevation; a rider said obstacles were easy but the whoops needed speed."
+  },
+  "conditions": {
+   "dry": "Gets slick as it dries out (older forum report).",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "Track leveled and jumps refaced weekly per the listing; recent riders call prep on point.",
+   "seasonal": "Members ride often; public open practices sporadic; hosts LL area qualifiers."
+  },
+  "rider_reports": [
+   {
+    "says": "Layout fun with elevation; dirt good but slick as it dried; whoops need entry speed.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-Tennessee,1235421",
+    "source_type": "forum",
+    "date": null
+   },
+   {
+    "says": "Track prep was on point.",
+    "source_url": "https://www.youtube.com/watch?v=V-6m0VumFHk",
+    "source_type": "video",
+    "date": "2025-12"
+   },
+   {
+    "says": "Youth rider said the track was mint.",
+    "source_url": "https://www.youtube.com/watch?v=mGymBCRW7Kg",
+    "source_type": "video",
+    "date": "2026-04"
+   },
+   {
+    "says": "Good but hardly ever open (2022); later poster said open a few times a week (2023).",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Practice-Tracks-East-Tennessee-Area,1408753",
+    "source_type": "forum",
+    "date": "2022-11"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/fast-farms-mx-altamont",
+    "title": "MX Parks - Fast Farms MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Tracks-in-Tennessee,1235421",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=V-6m0VumFHk",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=mGymBCRW7Kg",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Practice-Tracks-East-Tennessee-Area,1408753",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Wet behavior"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "fm-bank-arena",
+  "name": "F&M Bank Arena",
+  "aliases": [],
+  "state": "TN",
+  "city": "Clarksville",
+  "county": "Montgomery",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "arenacross"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "temporary indoor arenacross track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "tight",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "AMA Partzilla Arenacross East rounds 1-2, Oct 16-17, 2026."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.cyclenews.com/2026/10/article/2026-27-ama-arenacross-calendar/",
+    "title": "Cycle News - 2026-27 AMA Arenacross Calendar",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Address",
+   "Rider reports"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "greenbrier-mx",
+  "name": "Greenbrier MX",
+  "aliases": [],
+  "state": "TN",
+  "city": "Byrdstown",
+  "county": "Pickett",
+  "address": "6496 Greenbrier Rd, Byrdstown, TN 38549",
+  "lat": 36.620428,
+  "lng": -85.1369687,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(931) 310-1225",
+  "facebook": "https://www.facebook.com/p/Greenbrier-MX-61552285984327/",
+  "instagram": "https://www.instagram.com/greenbriermx/",
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "deep ruts"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "100F heat noted Sept 2026.",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "Deep prep; sawdust and sand added Oct 2026 per listing.",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Deeper prep made deep ruts and a workout.",
+    "source_url": "https://www.youtube.com/watch?v=R46jzXJb_l4",
+    "source_type": "video",
+    "date": "2025-12"
+   },
+   {
+    "says": "Too hot to push in 100F heat.",
+    "source_url": "https://www.youtube.com/watch?v=b2wuwY7X_uU",
+    "source_type": "video",
+    "date": "2026-09"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/greenbrier-mx-byrdstown",
+    "title": "MX Parks - Greenbrier MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=R46jzXJb_l4",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=b2wuwY7X_uU",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil type"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "hidden-valley-mx-tn",
+  "name": "Hidden Valley MX",
+  "aliases": [],
+  "state": "TN",
+  "city": "Covington",
+  "county": "Tipton",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "unknown",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "Bit dry and slick in Oct 2021.",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Used to be awesome; needs some TLC; dirt looked good in a Facebook post.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Mid-South-Area-Places-to-ride,1384666",
+    "source_type": "forum",
+    "date": "2020-12"
+   },
+   {
+    "says": "Second visit: a bit dry and slick.",
+    "source_url": "https://www.youtube.com/watch?v=-fHThONumLw",
+    "source_type": "video",
+    "date": "2021-10"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Mid-South-Area-Places-to-ride,1384666",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=-fHThONumLw",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Address, status"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "hyder-burks-pavilion",
+  "name": "Hyder-Burks Agricultural Pavilion",
+  "aliases": [],
+  "state": "TN",
+  "city": "Cookeville",
+  "county": "Putnam",
+  "address": "2390 Gainesboro Grade, Cookeville, TN",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "arenacross"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": null,
+  "phone": null,
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "temporary indoor arenacross track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "MidSouth Arenacross double-points round Feb 27, 2027."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://www.midsoutharenacross.com/",
+    "title": "MidSouth ArenaCross - 2026-2027 schedule",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/USA-Southeast,13/AX-Tour-Heads-to-Cookeville-TN-Feb-2nd,1250194",
+    "title": "Vital MX forum - AX Tour heads to Cookeville TN",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Rider reports"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "i-40-motocross",
+  "name": "I-40 Motocross",
+  "aliases": [],
+  "state": "TN",
+  "city": "Lenoir City",
+  "county": "Loudon",
+  "address": "2293 Buttermilk Road West, Lenoir City, TN 37771",
+  "lat": 35.7424,
+  "lng": -84.3842,
+  "types": [
+   "motocross",
+   "supercross"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": "(865) 604-4062",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Saturday night racing under lights in spring 2014 (per description).",
+    "source_url": "https://www.youtube.com/watch?v=4aExx2BBHhY",
+    "source_type": "video",
+    "date": null
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/i-40-motocross-lenoir-city",
+    "title": "MX Parks - I-40 Motocross listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=4aExx2BBHhY",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Closed; site converted per MX Parks"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "i-81-motorsports-park",
+  "name": "I-81 Motorsports Park & Campground",
+  "aliases": [
+   "I-81"
+  ],
+  "state": "TN",
+  "city": "Greeneville",
+  "county": "Greene",
+  "address": "3705 W Pines Rd, Greeneville, TN 37745",
+  "lat": 36.342433,
+  "lng": -82.71526,
+  "types": [
+   "motocross",
+   "flat_track",
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(423) 732-0304",
+  "facebook": "https://www.facebook.com/profile.php?id=61591694442254",
+  "instagram": "https://www.instagram.com/i81_motorsportspark/",
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "A poster said years ago it rode like pavement; a rider found it slick and hardpacked in mud.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "Hardpacked and slick when muddy.",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Used to ride like pavement over 10 years ago; reportedly changed.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Practice-Tracks-East-Tennessee-Area,1408753",
+    "source_type": "forum",
+    "date": "2023-11"
+   },
+   {
+    "says": "Hardpacked, slick muddy track.",
+    "source_url": "https://www.youtube.com/watch?v=IilILPh3WEs",
+    "source_type": "video",
+    "date": null
+   },
+   {
+    "says": "On race days it usually isn't bad.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Ride-in-east-Tennessee,1403831",
+    "source_type": "forum",
+    "date": "2022-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/i-81-motorsports-park-campground-greeneville",
+    "title": "MX Parks - I-81 Motorsports Park & Campground listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Practice-Tracks-East-Tennessee-Area,1408753",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=IilILPh3WEs",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Ride-in-east-Tennessee,1403831",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "indian-mound-mx",
+  "name": "Indian Mound MX Park",
+  "aliases": [],
+  "state": "TN",
+  "city": "Sparta",
+  "county": "White",
+  "address": "575 South Pinhook Rd, Sparta, TN 38583",
+  "lat": null,
+  "lng": null,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": null,
+  "facebook": "https://www.facebook.com/people/Indian-Mound-Mx-Park/100063687004790/",
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "loam",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "One track with a few technical sections and a step-up (posted about 5 years before Nov 2026).",
+    "source_url": "https://www.youtube.com/watch?v=s-AEWG26Zbk",
+    "source_type": "video",
+    "date": null
+   },
+   {
+    "says": "Listed as a TN track.",
+    "source_url": "https://www.vitalmx.com/comment/4127470",
+    "source_type": "forum",
+    "date": "2022-02"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/indian-mound-mx-park-sparta",
+    "title": "MX Parks - Indian Mound MX Park listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=s-AEWG26Zbk",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4127470",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Closed 2026 per MX Parks; MX Parks coordinates did not match Sparta and were dropped"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "little-valley-mx",
+  "name": "Little Valley MX",
+  "aliases": [],
+  "state": "TN",
+  "city": "Maynardville",
+  "county": "Union",
+  "address": "152 Little Valley Rd, Maynardville, TN 37807",
+  "lat": 36.284512,
+  "lng": -83.763222,
+  "types": [
+   "motocross"
+  ],
+  "access": "members",
+  "status": "open",
+  "website": null,
+  "phone": null,
+  "facebook": "https://www.facebook.com/littlevalleymxclub/",
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "hilly",
+   "traits": [],
+   "notes": "Natural hillside layout."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "Hillside drains so weather hits it less (2023 poster).",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Natural hillside terrain so weather affects it less; opening is hit or miss.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Practice-Tracks-East-Tennessee-Area,1408753",
+    "source_type": "forum",
+    "date": "2023-08"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/little-valley-mx-maynardville",
+    "title": "MX Parks - Little Valley MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Practice-Tracks-East-Tennessee-Area,1408753",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "loretta-lynn-ranch",
+  "name": "Loretta Lynn's Ranch",
+  "aliases": [
+   "Hurricane Mills",
+   "LL",
+   "Loretta Lynn Ranch",
+   "Loretta Lynn's",
+   "Loretta's",
+   "The Ranch"
+  ],
+  "state": "TN",
+  "city": "Hurricane Mills",
+  "county": "Humphreys",
+  "address": "44 Hurricane Mills Rd, Hurricane Mills, TN 37078",
+  "lat": 35.976698,
+  "lng": -87.771329,
+  "types": [
+   "motocross"
+  ],
+  "access": "private",
+  "status": "seasonal",
+  "website": "https://lorettalynn.com/",
+  "phone": null,
+  "facebook": "https://www.facebook.com/LorettaLynnMX",
+  "instagram": null,
+  "tracks_on_site": [
+   "amateur national track"
+  ],
+  "soil": {
+   "primary": "loam",
+   "secondary": "sand",
+   "notes": "Loamy river-bottom soil with sawdust/mulch and sand worked in by the prep crew before each national.",
+   "confidence": "high"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "ruts",
+    "rough",
+    "technical"
+   ],
+   "notes": "Riders say the layout is easy to learn but the rough, rutted conditions make it very technical."
+  },
+  "conditions": {
+   "dry": "Hot and humid early August; track gets very rough and rutted through the week.",
+   "wet": "Summer storms have turned it into a muddy mess and forced rain delays (2013, 2023).",
+   "late_day": "",
+   "watering_prep": "Prepped like a national: sand and mulch mixed in, ripped deep to hold moisture, watered on schedule. Fresh mulch can make odd bumps until mixed in.",
+   "seasonal": "Closed to practice all year; used only for the AMA Amateur National (early August) and ATV national."
+  },
+  "rider_reports": [
+   {
+    "says": "Vet racer: prep is excellent, with sand and mulch mixed and ripped deep; track gets very rough and rutted and is highly technical.",
+    "source_url": "https://racerxonline.com/2025/08/07/the-loretta-lynns-experience-racing-watching-and-everything-in-between",
+    "source_type": "article",
+    "date": "2025-08"
+   },
+   {
+    "says": "Summer storms caused long delays and turned the track muddy after a hot, rough practice week.",
+    "source_url": "https://racerxonline.com/2023/08/04/racerhead-31",
+    "source_type": "article",
+    "date": "2023-08"
+   },
+   {
+    "says": "Day one ended with a heavy downpour leaving the track a muddy mess.",
+    "source_url": "https://www.cyclenews.com/2013/07/article/amateur-motocross-muddy-day-one-at-loretta-lynns/",
+    "source_type": "article",
+    "date": "2013-07"
+   },
+   {
+    "says": "Crew adds sawdust and sand to loamy river-bottom soil; track is grass the rest of the year.",
+    "source_url": "https://racerxonline.com/2012/07/26/first-look-loretta-lynn-ranch",
+    "source_type": "article",
+    "date": "2012-07"
+   },
+   {
+    "says": "Open to spectators; poster called it nice.",
+    "source_url": "https://www.vitalmx.com/comment/4127470",
+    "source_type": "forum",
+    "date": "2022-02"
+   },
+   {
+    "says": "Racer X writer: prep is excellent but the track gets extremely rough and rutted and is one of the most technical to go fast on; fresh mulch makes odd bumps until it mixes in by Tuesday.",
+    "source_url": "https://racerxonline.com/2025/08/07/the-loretta-lynns-experience-racing-watching-and-everything-in-between",
+    "source_type": "article",
+    "date": "2025-08"
+   },
+   {
+    "says": "Forum racers: deep inside ruts you pick and keep for several turns, hidden late-day square edges, brutal humidity, narrow track; sand prep now used instead of sawdust.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/For-Those-Of-Us-Who-Have-Never-Raced-LL,1405258",
+    "source_type": "forum",
+    "date": null
+   },
+   {
+    "says": "Track walk: rebuilt with river-bottom soil and white sand; deep sand corners rut heavily and chop up as classes run; Ten Commandments get very rough over the week.",
+    "source_url": "https://racerxonline.com/2010/08/03/loretta-lynns-ilap",
+    "source_type": "article",
+    "date": "2010-08"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/loretta-lynns-ranch-hurricane-mills",
+    "title": "MX Parks - Loretta Lynn's Ranch listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2025/08/07/the-loretta-lynns-experience-racing-watching-and-everything-in-between",
+    "title": "Article",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2023/08/04/racerhead-31",
+    "title": "Article",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.cyclenews.com/2013/07/article/amateur-motocross-muddy-day-one-at-loretta-lynns/",
+    "title": "Article",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2012/07/26/first-look-loretta-lynn-ranch",
+    "title": "Article",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4127470",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://riderplanet-usa.com/atv/trails/info/tennessee_05888/ride_7b57.htm",
+    "title": "RiderPlanet USA - Loretta Lynn's Ranch",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2010/08/03/loretta-lynns-ilap",
+    "title": "Racer X - Loretta Lynn's iLap (2010)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/For-Those-Of-Us-Who-Have-Never-Raced-LL,1405258",
+    "title": "Vital MX forum - For those who have never raced LL",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://ultimatemotorcycling.com/2013/08/01/rain-halts-action-wednesday-at-loretta-lynn-ranch-amateur-mx/",
+    "title": "Ultimate Motorcycling - Rain halts action (2013)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "mountain-mx",
+  "name": "The Mountain MX",
+  "aliases": [],
+  "state": "TN",
+  "city": "Madisonville",
+  "county": "Monroe",
+  "address": "144 Bethlehem Church Rd, Madisonville, TN 37354",
+  "lat": 35.5098,
+  "lng": -84.3312,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": "(423) 420-9216",
+  "facebook": "https://www.facebook.com/themountainmx/",
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "clay",
+   "secondary": null,
+   "notes": "Tennessee red clay per directory.",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Muddy night race (posted about 12 years before Nov 2026).",
+    "source_url": "https://www.youtube.com/watch?v=glnmM2V-_ek",
+    "source_type": "video",
+    "date": null
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/mountain-motocross-madisonville",
+    "title": "MX Parks - The Mountain MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=glnmM2V-_ek",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Community rebuild effort reported; reopening not confirmed"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "muddy-creek-raceway",
+  "name": "Muddy Creek Raceway",
+  "aliases": [
+   "Muddy Creek",
+   "Tennessee National"
+  ],
+  "state": "TN",
+  "city": "Blountville",
+  "county": "Sullivan",
+  "address": "450 Ridgeway Dr, Blountville, TN 37617",
+  "lat": 36.495024,
+  "lng": -82.373831,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://www.victory-sports.com/muddy-creek-raceway/",
+  "phone": "(423) 323-5497",
+  "facebook": "https://www.facebook.com/muddycreekraceway/",
+  "instagram": null,
+  "tracks_on_site": [
+   "1.5 mi national track",
+   "vet track"
+  ],
+  "soil": {
+   "primary": "clay",
+   "secondary": "loam",
+   "notes": "Hard clay base with large amounts of mulch, wood chips and water worked in. Pro previews describe it as very tacky in one corner and rock-hard, slick clay in the next; tilled before a moto it is among the best dirt in the country. Directories simply call it loamy.",
+   "confidence": "high"
+  },
+  "layout": {
+   "speed": "fast",
+   "jumps": "big",
+   "elevation_change": "hilly",
+   "traits": [
+    "ruts",
+    "uphill first turn",
+    "hillside berms",
+    "big tabletops"
+   ],
+   "notes": "Natural-terrain hillside layout. The tight 180 first turn at the top of the hill is known for pileups."
+  },
+  "conditions": {
+   "dry": "Where mulch blows off, the base clay goes hard and shiny with little grip; stay in the softer dirt.",
+   "wet": "Clay does not absorb heavy rain well; expect puddles and very sticky mud. Recent Top Gun events (Oct 2026) ran in mud.",
+   "late_day": "",
+   "watering_prep": "Heavy watering and disking with mulch; pro events started a bit muddy to keep moisture deep. Later years managed moisture more evenly.",
+   "seasonal": "Event weekends only (Victory Sports): THOR Mega Series, Tennessee State Championship, Hot Summer Nights, Top Gun Showdown in October. Pro national 2013-2018."
+  },
+  "rider_reports": [
+   {
+    "says": "Preview: dirt is sticky in one turn and rock-hard clay in the next; superb when tilled; often muddy for practice, then ruts harden as it dries.",
+    "source_url": "https://racerxonline.com/2015/06/04/staging-area-muddy-creek",
+    "source_type": "article",
+    "date": "2015-06"
+   },
+   {
+    "says": "Race observer called 2015 the best version yet: some rain, shallow ruts, good traction; narrow spots and a sketchy first turn.",
+    "source_url": "https://racerxonline.com/2015/06/10/btosportscom-observations-tennessee",
+    "source_type": "article",
+    "date": "2015-06"
+   },
+   {
+    "says": "Preview: hard clay plus mulch and water gives great traction, but shiny bare clay on hillside berms has almost no grip.",
+    "source_url": "https://racerxonline.com/2016/06/23/staging-area-tennessee",
+    "source_type": "article",
+    "date": "2016-06"
+   },
+   {
+    "says": "With a storm coming, writer warned the slick clay does not soak up heavy rain and turns to puddles and sticky mud.",
+    "source_url": "https://racerxonline.com/2017/06/22/staging-area-muddy-creek",
+    "source_type": "article",
+    "date": "2017-06"
+   },
+   {
+    "says": "Writer recalls amateur years there: mulch-heavy dirt was good prep for Loretta's; moisture now managed more evenly; uphill first-turn 180 known for pileups.",
+    "source_url": "https://racerxonline.com/2018/06/21/staging-area-muddy-creek",
+    "source_type": "article",
+    "date": "2018-06"
+   },
+   {
+    "says": "D-class rider at the 2025 Top Gun Showdown describes deep ruts, big jumps and rough terrain.",
+    "source_url": "https://www.youtube.com/watch?v=uEVfUx7Rqtg",
+    "source_type": "video",
+    "date": "2025-10"
+   },
+   {
+    "says": "2026 Top Gun Showdown race video titled around mud carnage.",
+    "source_url": "https://www.youtube.com/watch?v=9qtKrssNm_4",
+    "source_type": "video",
+    "date": "2026-10"
+   },
+   {
+    "says": "Rider recommends racing it every chance you get.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Ride-in-east-Tennessee,1403831",
+    "source_type": "forum",
+    "date": "2022-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/muddy-creek-raceway-blountville",
+    "title": "MX Parks - Muddy Creek Raceway listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2015/06/04/staging-area-muddy-creek",
+    "title": "Article",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2015/06/10/btosportscom-observations-tennessee",
+    "title": "Article",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2016/06/23/staging-area-tennessee",
+    "title": "Article",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2017/06/22/staging-area-muddy-creek",
+    "title": "Article",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://racerxonline.com/2018/06/21/staging-area-muddy-creek",
+    "title": "Article",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=uEVfUx7Rqtg",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=9qtKrssNm_4",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Ride-in-east-Tennessee,1403831",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "high",
+  "gaps": [
+   "Amateur-weekend prep differs from the pro years; few recent amateur condition reports"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "ned-mcwherter-ag-complex",
+  "name": "Ned McWherter Agricultural Complex",
+  "aliases": [],
+  "state": "TN",
+  "city": "Martin",
+  "county": "Weakley",
+  "address": "111 Moody Ave, Martin, TN 38237",
+  "lat": 36.3463508,
+  "lng": -88.8609036,
+  "types": [
+   "arenacross"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": null,
+  "phone": null,
+  "facebook": "https://www.facebook.com/SouthernKentuckyArenacrossSeries/",
+  "instagram": null,
+  "tracks_on_site": [
+   "temporary indoor arenacross track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "Southern AX Tour home base for 2026-27 (per MX Parks)."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/ned-mcwherter-agricultural-complex-martin",
+    "title": "MX Parks - Ned McWherter Agricultural Complex (UT Martin) listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Rider reports"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "plateau-mx",
+  "name": "Plateau MX",
+  "aliases": [],
+  "state": "TN",
+  "city": "Crossville",
+  "county": "Cumberland",
+  "address": "102 Waylon Rd, Crossville, TN 38571",
+  "lat": 36.0810096,
+  "lng": -85.107264,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(931) 210-4719",
+  "facebook": "https://www.facebook.com/profile.php?id=61572123788631",
+  "instagram": "https://www.instagram.com/plateaumx38571",
+  "tracks_on_site": [
+   "main MX",
+   "pee-wee track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "rolling",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "Full prep Saturday, lighter Sunday.",
+   "seasonal": ""
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/plateau-mx",
+    "title": "MX Parks - Plateau MX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Rider reports",
+   "Soil"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "powerline-sx",
+  "name": "PowerLine SX",
+  "aliases": [
+   "Powerline Supercross"
+  ],
+  "state": "TN",
+  "city": "Atwood",
+  "county": "Carroll",
+  "address": "11500 Hwy 220, Atwood, TN 38220",
+  "lat": 35.9464402,
+  "lng": -88.6545202,
+  "types": [
+   "supercross",
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": "(731) 686-0558",
+  "facebook": "https://www.facebook.com/powerline.supercross",
+  "instagram": null,
+  "tracks_on_site": [
+   "lit SX-style track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "tight",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "Friday practice; Saturday night racing; mostly summer."
+  },
+  "rider_reports": [
+   {
+    "says": "Small night track with good crowds and a fun atmosphere.",
+    "source_url": "https://www.vitalmx.com/comment/4127470",
+    "source_type": "forum",
+    "date": "2022-02"
+   },
+   {
+    "says": "Mostly open in summer.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Mid-South-Area-Places-to-ride,1384666",
+    "source_type": "forum",
+    "date": "2020-12"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/powerline-sx-atwood",
+    "title": "MX Parks - PowerLine SX listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4127470",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Mid-South-Area-Places-to-ride,1384666",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Soil",
+   "Conditions"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "r3-motoworx",
+  "name": "R3 Motoworx",
+  "aliases": [
+   "R3",
+   "R3 Moto"
+  ],
+  "state": "TN",
+  "city": "Jamestown",
+  "county": "Fentress",
+  "address": "1641 S. Les Franklin Rd, Jamestown, TN 38556",
+  "lat": 36.364462,
+  "lng": -84.8566752,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://r3motoworx.com/",
+  "phone": "(931) 752-6686",
+  "facebook": "https://www.facebook.com/p/R3-Moto-61555026906989/",
+  "instagram": "https://instagram.com/r3moto",
+  "tracks_on_site": [
+   "national track",
+   "vet track",
+   "sand track",
+   "pee-wee track"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [
+    "ruts",
+    "rough"
+   ],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "Rough and rutted on a Sept 2024 rider visit.",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "Open often; hosts TRISTAR MX rounds."
+  },
+  "rider_reports": [
+   {
+    "says": "Great facility.",
+    "source_url": "https://www.vitalmx.com/comment/4127470",
+    "source_type": "forum",
+    "date": "2022-02"
+   },
+   {
+    "says": "Open often, more than 10 days a month.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Practice-Tracks-East-Tennessee-Area,1408753",
+    "source_type": "forum",
+    "date": "2023-11"
+   },
+   {
+    "says": "Rough and rutted on a Sept 2024 visit (per title).",
+    "source_url": "https://www.youtube.com/watch?v=TVnp9GXUM3w",
+    "source_type": "video",
+    "date": "2024-09"
+   },
+   {
+    "says": "Rider in the sand section.",
+    "source_url": "https://www.youtube.com/watch?v=Vw7PqjoJLJg",
+    "source_type": "video",
+    "date": "2023-03"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/r3-motoworx-jamestown",
+    "title": "MX Parks - R3 Motoworx listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4127470",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Practice-Tracks-East-Tennessee-Area,1408753",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=TVnp9GXUM3w",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=Vw7PqjoJLJg",
+    "title": "Rider video (YouTube)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [
+   "Soil detail"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "robertson-county-fairgrounds",
+  "name": "Robertson County Fairgrounds",
+  "aliases": [],
+  "state": "TN",
+  "city": "Springfield",
+  "county": "Robertson",
+  "address": "4635 US-41, Springfield, TN 37172",
+  "lat": 36.5205206,
+  "lng": -86.8819311,
+  "types": [
+   "arenacross"
+  ],
+  "access": "public",
+  "status": "seasonal",
+  "website": "https://robertsoncountyfair.com/",
+  "phone": null,
+  "facebook": "https://www.facebook.com/RobertsonCountyFair/",
+  "instagram": "https://www.instagram.com/robertsoncountyfair/",
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "One fair-week motocross night per year."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/robertson-county-fairgrounds-springfield",
+    "title": "MX Parks - Robertson County Fairgrounds listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Rider reports"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "shiloh-mx",
+  "name": "Shiloh MX Park",
+  "aliases": [],
+  "state": "TN",
+  "city": "Seymour",
+  "county": "Sevier",
+  "address": "1471 Shiloh Church Rd, Seymour, TN 37865",
+  "lat": 35.8744344,
+  "lng": -83.6953057,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "unknown",
+  "website": null,
+  "phone": "(865) 774-4669",
+  "facebook": null,
+  "instagram": null,
+  "tracks_on_site": [
+   "0.75 mi MX"
+  ],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/shiloh-mx-park-seymour",
+    "title": "MX Parks - Shiloh MX Park listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "No rider reports; status unconfirmed"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "sunvalley-mx",
+  "name": "SunValley MX Practice Track",
+  "aliases": [
+   "SunValley Raceway"
+  ],
+  "state": "TN",
+  "city": "Waverly",
+  "county": "Humphreys",
+  "address": "3253 Greenbriar Rd, Waverly, TN 37185",
+  "lat": 35.973194,
+  "lng": -87.76877,
+  "types": [
+   "motocross"
+  ],
+  "access": "public",
+  "status": "unknown",
+  "website": null,
+  "phone": null,
+  "facebook": "https://www.facebook.com/p/SunValley-Raceway-100057060505540/",
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/sunvalley-mx-practice-track-waverly",
+    "title": "MX Parks - SunValley MX Practice Track listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "No rider reports"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "thunder-valley-tn",
+  "name": "Thunder Valley Motocross",
+  "aliases": [],
+  "state": "TN",
+  "city": "Livingston",
+  "county": "Overton",
+  "address": "250 Eckles Cemetery Rd, Livingston, TN 38570",
+  "lat": 36.295249,
+  "lng": -85.384702,
+  "types": [
+   "motocross"
+  ],
+  "access": "unknown",
+  "status": "closed",
+  "website": null,
+  "phone": "(931) 498-6686",
+  "facebook": "https://www.facebook.com/thundervalleymotocross761/",
+  "instagram": "http://www.instagram.com/thundervalleymxtn",
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "unknown",
+   "secondary": null,
+   "notes": "",
+   "confidence": "low"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [
+   {
+    "says": "Usually hosts an LL qualifier.",
+    "source_url": "https://www.vitalmx.com/comment/4127470",
+    "source_type": "forum",
+    "date": "2022-02"
+   },
+   {
+    "says": "One of the best nearby but only open for Victory Sports races.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Ride-in-east-Tennessee,1403831",
+    "source_type": "forum",
+    "date": "2022-06"
+   },
+   {
+    "says": "Asked if still running; no answer.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Practice-Tracks-East-Tennessee-Area,1408753",
+    "source_type": "forum",
+    "date": "2023-11"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/thunder-valley-motocross-livingston",
+    "title": "MX Parks - Thunder Valley Motocross listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/comment/4127470",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Ride-in-east-Tennessee,1403831",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Practice-Tracks-East-Tennessee-Area,1408753",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Closure reported only by MX Parks"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "trials-training-center",
+  "name": "Trials Training Center",
+  "aliases": [
+   "TTC"
+  ],
+  "state": "TN",
+  "city": "Sequatchie",
+  "county": "Marion",
+  "address": "300 Woodland Rd, Sequatchie, TN 37374",
+  "lat": 35.139588,
+  "lng": -85.607915,
+  "types": [
+   "offroad",
+   "enduro"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://trialstrainingcenter.com/",
+  "phone": "(423) 942-8688",
+  "facebook": "https://www.facebook.com/trialstrainingcenter/",
+  "instagram": null,
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "rock",
+   "secondary": null,
+   "notes": "Mountain rock and natural terrain.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": "Hosts Red Bull TKO extreme enduro each August."
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/trials-training-center-sequatchie",
+    "title": "MX Parks - Trials Training Center listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Not an MX track"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "windrock-park",
+  "name": "Windrock Park",
+  "aliases": [],
+  "state": "TN",
+  "city": "Oliver Springs",
+  "county": "Anderson",
+  "address": "921 Windrock Road, Oliver Springs, TN 37840",
+  "lat": 36.0572,
+  "lng": -84.3356,
+  "types": [
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": "https://windrockpark.com/",
+  "phone": "(865) 435-3492",
+  "facebook": "https://facebook.com/windrockoffroadpark",
+  "instagram": "https://instagram.com/windrock_park",
+  "tracks_on_site": [],
+  "soil": {
+   "primary": "rock",
+   "secondary": null,
+   "notes": "Mountain rock and dirt trails.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "unknown",
+   "jumps": "unknown",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": ""
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "",
+   "seasonal": ""
+  },
+  "rider_reports": [],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/windrock-park-oliver-springs",
+    "title": "MX Parks - Windrock Park listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "low",
+  "gaps": [
+   "Trail park, not a prepared MX track"
+  ],
+  "research_file": "tn.json"
+ },
+ {
+  "id": "wmmx-tn",
+  "name": "Wild Mines Motocross (WMMX-TN)",
+  "aliases": [
+   "WMMX",
+   "Wild Mines MX"
+  ],
+  "state": "TN",
+  "city": "Sweetwater",
+  "county": "Monroe",
+  "address": "152 County Road 355, Sweetwater, TN 37874",
+  "lat": 35.5259375,
+  "lng": -84.4809375,
+  "types": [
+   "motocross",
+   "offroad"
+  ],
+  "access": "public",
+  "status": "open",
+  "website": null,
+  "phone": null,
+  "facebook": "https://www.facebook.com/wmmxtrack",
+  "instagram": "https://www.instagram.com/wmmxtrack/",
+  "tracks_on_site": [
+   "~1 mi main",
+   "beginner track",
+   "~5 mi trail loop"
+  ],
+  "soil": {
+   "primary": "loam",
+   "secondary": null,
+   "notes": "Directory says loose loam; riders note decent deep ruts.",
+   "confidence": "medium"
+  },
+  "layout": {
+   "speed": "tight",
+   "jumps": "small",
+   "elevation_change": "unknown",
+   "traits": [],
+   "notes": "Riders call it small with few real jumps."
+  },
+  "conditions": {
+   "dry": "",
+   "wet": "",
+   "late_day": "",
+   "watering_prep": "Very good but basic morning grooming per riders.",
+   "seasonal": "Announced weekend practice; closes when rain or wind is likely. Most consistently open track near Knoxville and Chattanooga (2023)."
+  },
+  "rider_reports": [
+   {
+    "says": "Small, mini-bike style; prep very good but basic; decent deep ruts.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Practice-Tracks-East-Tennessee-Area,1408753",
+    "source_type": "forum",
+    "date": "2023-08"
+   },
+   {
+    "says": "Owner closes it when rain or wind is likely; most consistently open nearby.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Practice-Tracks-East-Tennessee-Area,1408753",
+    "source_type": "forum",
+    "date": "2023-11"
+   },
+   {
+    "says": "Called a strong practice track.",
+    "source_url": "https://www.vitalmx.com/forums/Moto-Related,20/Ride-in-east-Tennessee,1403831",
+    "source_type": "forum",
+    "date": "2022-06"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://mxparks.com/motocross-tracks/tennessee/wmmx-tn-sweetwater",
+    "title": "MX Parks - Wild Mines Motocross listing (address, coordinates, schedule, fees, layout notes)",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Practice-Tracks-East-Tennessee-Area,1408753",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   },
+   {
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Ride-in-east-Tennessee,1403831",
+    "title": "Forum thread",
+    "accessed": "2026-11-03"
+   }
+  ],
+  "confidence": "medium",
+  "gaps": [],
+  "research_file": "tn.json"
+ }
+]
