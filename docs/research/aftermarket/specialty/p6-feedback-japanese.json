@@ -1,0 +1,3411 @@
+{
+ "slice": "rider and tester feedback pass 6",
+ "feedback": [
+  {
+   "id": "jf6-001",
+   "category": "seat",
+   "brand": "Yamaha GYTR",
+   "product": "Tall seat (3/4 in taller through the middle, complete with base, foam and gripper cover)",
+   "part_numbers": [
+    "BR9-F47C0-V0-00"
+   ],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2020"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2019-10-08",
+   "conditions": "Tester 6 ft 0; stock foam broken in (about 15 hours). Two shorter testers (5 ft 9-10) also tried it. Price stated USD 129.99.",
+   "observed": "Changed: firmer, flatter seat that removes the sunken pocket feel of worn stock foam; easier sit-to-stand and a more neutral attack position into corners. Suits: riders about 5 ft 9 and up who feel they sit in the bike. Downsides: tester felt 1/2 in would have been enough; would add a ribbed cover for grip. Verdict: worth the money for a roomier rider triangle.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2019-10-7-yz450f-gytr-tall-seat/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-002",
+   "category": "exhaust",
+   "brand": "Pro Circuit / FMF",
+   "product": "Pro Circuit vs FMF 4.1 titanium muffler systems (comparison)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2020"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2019-11-25",
+   "conditions": "Back-to-back on track against the stock system. FMF price stated USD 1099.99; both save about 1.5 lb over stock (FMF figure).",
+   "observed": "Changed: Pro Circuit gives more low-end connection and lets you lug third gear; FMF pulls harder through the mid and has a freer top. Both lose over-rev to stock. FMF insert in adds back pressure and bottom end at the cost of some mid freedom. Suits: riders wanting a lighter system with a more linear feel than stock. Downsides: stock system is already very good; Pro Circuit does not keep the stock heat shield. Verdict: both match or beat stock in places; pick PC for bottom, FMF for mid/top.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2019-11-25-fmf-vs-pro-circuit-2020-yamaha-yz450f-muffler-comparison/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-003",
+   "category": "intake",
+   "brand": "Twin Air",
+   "product": "Power Flow filter kit (aluminium mounting plate, open cage, billet knob, no backfire screen)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2018-2020"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2019-12-03",
+   "conditions": "Dyno and track. Price stated USD 259.95.",
+   "observed": "Changed: better filter sealing and airflow; more rpm response out of corners and pull in loamy berms. Suits: riders wanting a cheap power gain and a better seal than the stock cage. Downsides: with no backfire screen, dirt can drop into the boot during filter changes (vacuum it out before turning the throttle). Verdict: recommended; about one horsepower for far less than a muffler.",
+   "measured": "Almost 1 hp gain on the dyno (as stated).",
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2019-12-2-twin-air-power-flow-filter-kit-yamaha-yz450f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-004",
+   "category": "exhaust",
+   "brand": "FMF",
+   "product": "Factory 4.1 RCT stainless full system with carbon end cap",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2020"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Michael Allen",
+   "date": "2019-12-16",
+   "conditions": "Fitted after stock system turned raspy at about 20 hours; over 10 hours on the FMF at time of writing.",
+   "observed": "Changed: with the spark arrestor insert in, slightly more bottom end and a slightly longer mid than stock, over-rev about equal; insert out trades torque for over-rev. Suits: riders wanting trail legality plus a tunable insert. Downsides: gains over stock are small; sticker bubbles from heat; FMF has no repack service, repack yourself about every 20 hours. Verdict: well made, modest but real gains; tester kept insert in.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2019-12-16-fmf-41-rct-stainless-muffler-system-for-2020-yz250f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-005",
+   "category": "exhaust",
+   "brand": "Pro Circuit / FMF",
+   "product": "Pro Circuit Works pipe + R-304 silencer vs FMF pipe and silencer",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ125",
+    "year": "2020"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer and Aden Keefer",
+   "date": "2020-01-30",
+   "conditions": "Two riders including a 14-year-old coming up from an 85. Needle clip raised to position 2 (from 3), best from sea level to 3500 ft.",
+   "observed": "Changed: Pro Circuit adds bottom and mid pull, deeper sound, less clutch work; FMF pulls longer on top and suits fast tracks. Suits: PC for tight tracks and kids moving up from 85s; FMF for GP-style fast tracks. Downsides: PC signs off earlier on top; FMF slower to come on out of corners. Verdict: both better than stock; younger tester preferred PC by a nose.",
+   "measured": null,
+   "other_mods": "Needle clip position 2.",
+   "url": "https://www.keeferinctesting.com/2020-1-30-yamaha-yz125-pipesilencer-comparison-pro-circuit-vs-fmf/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-006",
+   "category": "linkage",
+   "brand": "Pro Circuit",
+   "product": "Billet linkage (pull-rod) arms, 143.5 mm (stock 142.0 mm)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2020"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2020-03-10",
+   "conditions": "Shock HSC opened 1/4 turn after the first session to soften acceleration chop.",
+   "observed": "Changed: rear sits higher, flatter and less front-heavy off throttle; better braking-bump control and easier lean mid to exit of corners; more rear traction once HSC softened. Suits: aggressive riders chasing braking-bump control. Downsides: firmer rear off throttle if you are not pushing; corner entry not improved. Verdict: positive change for fast riders, not a priority buy for relaxed weekend riders.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2020-3-9-pro-circuit-link-arm-2020-yamaha-yz450f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-007",
+   "category": "exhaust",
+   "brand": "FMF / Yoshimura / Akrapovic",
+   "product": "Three-way full system comparison: FMF, Yoshimura, Akrapovic Evolution",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": "2020"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2020-04-05",
+   "conditions": "Back-to-back with stock. Prices stated: FMF USD 1499.99, Yoshimura USD 1499.99, Akrapovic USD 1549.99.",
+   "observed": "Changed: FMF best bottom end and low/mid rpm response; Yoshimura best mid pull and top rpm response; Akrapovic best top end, over-rev and controllability, with less engine braking and much quieter. Akrapovic with quiet inserts let the tester go from map 2 to map 1. Suits: owners who want a broader, more forgiving connection rather than more power. Downsides: Akrapovic stickers discolour and blow off; costly. Verdict: all three beat stock by calming the chassis in different ways.",
+   "measured": "Weights: FMF 8.5 lb, Yoshimura 8.4 lb, Akrapovic 8.4 lb. Sound: FMF 121.1 dB, Yoshimura 116.8 dB, Akrapovic 116.1 dB (Keefer figures).",
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2020-4-5-2020-honda-crf450r-three-way-muffler-system-comparison/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-008",
+   "category": "ecu",
+   "brand": "Vortex (mapped by XPR Motorsports)",
+   "product": "Vortex aftermarket ECU with XPR maps (10 maps, low/mid/high trim knobs)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2020"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2020-04-28",
+   "conditions": "Mapped to a Pro Circuit exhaust; VP Pro 6 map too strong down low, so a VP T4/pump-fuel map was made. Cost about USD 1000 as stated.",
+   "observed": "Changed: broader, smoother bottom with more pull in second and third, crisper mapping with no decel pop. Suits: picky, competitive riders who like stock character but want more control and pull. Downsides: lose Power Tuner features (maintenance log, run time); expensive; benefit smaller than on a KTM because Yamaha stock mapping is good. Verdict: tester happier with it but says most riders can stay on the stock ECU.",
+   "measured": null,
+   "other_mods": "Pro Circuit exhaust.",
+   "url": "https://www.keeferinctesting.com/2020-4-28-vortex-ignition-for-2020-yz450f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-009",
+   "category": "handlebar",
+   "brand": "Pro Taper / ODI",
+   "product": "Recommended bar bends for 2020 Suzuki RM-Z450/250 and Kawasaki KX450/250",
+   "part_numbers": [],
+   "bike": {
+    "make": "Suzuki",
+    "model": "RM-Z450 / RM-Z250",
+    "year": "2020"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2020-05-19",
+   "conditions": "Tester preference guide; heights by rider size.",
+   "observed": "Changed: Suzuki stock bend has a lot of sweep and feels small; tester prefers Pro Taper EVO SX Race (W800 H87 R54.5 S54) or ODI Podium Flight CountryBoy (W803 H92), Pro Taper EVO Factory Suzuki for 6 ft 0-6 ft 2. Kawasaki: keep 7/8 bars (Renthal 983 W808 H95), Pro Taper Fuzion Henry/Reed as oversize option. Suits: riders wanting a roomier cockpit. Downsides: 7/8 bars flex more for aggressive riders. Verdict: personal-fit guidance, not a single product test.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2020-5-18-recommended-handlebar-specs-for-2020-mx-machines/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-010",
+   "category": "controls",
+   "brand": "Pro Circuit",
+   "product": "CNC aluminium throttle tube (Teflon-coated inside)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Multiple",
+    "model": "Honda, Yamaha, Suzuki, Kawasaki and KTM models (sold per model)",
+    "year": "2020"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2020-05-25",
+   "conditions": "Tested on a Husqvarna; the tube is sold for most Japanese two- and four-strokes.",
+   "observed": "Changed: smaller in the hand than other aluminium tubes and smoother than the stock plastic tube, staying smooth after washes; much stronger in crashes. Suits: riders who break tubes or get arm pump from fat grips. Downsides: slightly stiffer feel on landings than plastic. Verdict: recommended for picky cockpit riders.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2020-5-25-the-truth-about-aluminum-throttle-tubes/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-011",
+   "category": "triple_clamp",
+   "brand": "Ride Engineering",
+   "product": "22 mm offset triple clamps (stock 21.5 mm) with one-piece 12 mm-post bar mounts",
+   "part_numbers": [],
+   "bike": {
+    "make": "Suzuki",
+    "model": "RM-Z450",
+    "year": "2020"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2020-07-06",
+   "conditions": "Fork 5 mm up in the clamps. Prices stated USD 549.99 clamps, USD 104.95 mounts.",
+   "observed": "Changed: lower clamp grips 12 mm higher, adding flex; calmer corner entry without off-throttle front wiggle and better stability in chopped ruts; three cone durometers tune bar-mount give. Suits: RM-Z450 riders wanting a more forgiving front without losing turning. Downsides: anodising fades if left in the sun; soft cones can feel vague for fast riders. Verdict: mostly a positive handling change, real value.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2020-7-6-ride-engineering-22mm-triple-clamp-and-one-piece-bar-mount-suzuki-rm-z450/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-012",
+   "category": "footpegs",
+   "brand": "FLO Motorsports",
+   "product": "3.0 lowering footpegs (2 mm lower, 10 mm back on 2016+ YZ450F; 57 mm wide)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2020-2021"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2020-10-07",
+   "conditions": "Tester 6 ft 0; bar mounts in rear hole. Price stated USD 149.95. Reuses stock pins.",
+   "observed": "Changed: feet land on the balls more naturally, hips sit further back, easier standing through ruts; rearward move felt more than the height change. Suits: taller, long-legged Yamaha riders. Downsides: thread-on cleats rather than teeth; tester wanted an even lower option. Verdict: small but useful ergonomic gain.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2020-10-7-flo-motorsports-lowering-footpegs-yamaha-yz450f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-013",
+   "category": "exhaust",
+   "brand": "FMF / Kawasaki (stock grommet)",
+   "product": "Rubber-mount mod for an aftermarket muffler using the stock grommet",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2020-2021"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Matt Sirevaag",
+   "date": "2020-10-08",
+   "conditions": "Test bike broke a muffler bracket with a solid-mounted aftermarket muffler.",
+   "observed": "Changed: drilling the aftermarket muffler mount to 5/8 in and fitting the stock rubber grommet and hardware protects the subframe tab. Suits: any KX450 owner fitting a solid-mount aftermarket can. Downsides: slight float at the muffler rear (no vibration noticed). Verdict: cheap, easy fix worth doing.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2020-10-8-how-to-save-your-subframe-on-your-2019-2021-kawasaki-kx450/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-014",
+   "category": "exhaust",
+   "brand": "Pro Circuit",
+   "product": "Ti-6 full muffler system",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": "2021"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer and Aden Keefer",
+   "date": "2020-10-15",
+   "conditions": "Stock muffler sounded blown out even new. Tested by adult and a 14-year-old.",
+   "observed": "Changed: a little more bottom-end pull than stock (unusual for PC), stronger mid with no empty feel after shifting to third, top pulls harder, over-rev unchanged. Screen out gives more low rpm response but loses mid; punching a small hole in the screen is a middle option. Suits: riders wanting pull out of deep, tilled corners. Downsides: softer initial low-rpm response than stock. Verdict: pleased; pair with the \"Chavez\" map for more pull.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2020-10-14-pro-circuit-ti-6-muffler-system-2021-kawasaki-kx250/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-015",
+   "category": "intake",
+   "brand": "Slater Skins",
+   "product": "Vented air box lid cover",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F / YZ450F",
+    "year": "2020-2021"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2020-10-19",
+   "conditions": "Tested on a 2020 YZ250F and a 2021 YZ450F, stock filter cage and also with a Twin Air Power Flow. Price stated USD 80.",
+   "observed": "Changed: crisper, lighter feel and more mid rpm in third gear on the YZ250F; little difference on the YZ450F. Suits: YZ250F riders wanting a cheap bit of bottom-end and response. Downsides: louder intake noise; filter gets dirtier in sand and silt; larger-vent versions too loud. Verdict: noticeable but not dramatic, good value on the 250F.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2020-10-19-slater-skins-air-box-cover-yamaha-yz250f450f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-016",
+   "category": "clutch",
+   "brand": "Hinson",
+   "product": "Momentum steel clutch basket (heavier than stock aluminium)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2020-2021"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2020-11-05",
+   "conditions": "2021 YZ450F test bike; paired with a Power Tuner TP 5 map to reduce engine braking. Price stated USD 310. About 90 minutes to fit.",
+   "observed": "Changed: acts like added flywheel: calmer delivery out of ruts, less wheelspin on hard pack, chassis more planted with more front traction off throttle. Suits: riders on loamy-to-hard-pack tracks; less needed in soft East Coast dirt. Downsides: slightly more engine braking. Verdict: worth it to smooth the YZ450F.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2020-11-4-hinson-momentum-steel-clutch-basket/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-017",
+   "category": "linkage",
+   "brand": "Pro Circuit",
+   "product": "Linkage system for 2021 KX250 and 2019-2021 KX450",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": "2021"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer and Aden Keefer",
+   "date": "2021-01-19",
+   "conditions": "Light rider 125 lb (stock spring) and Keefer (moved from 54 to 56 N/mm as PC recommends, sag 103 mm). Also tried with PC re-valved suspension. Price stated USD 445.",
+   "observed": "Changed: plusher small-bump feel, more end-stroke support and more rear traction; lighter riders can avoid a spring change, heavier riders need about 0.2 kg/mm stiffer. Suits: light riders and aggressive heavier riders who sit low in the stroke. Downsides: expensive; may need a spring change. Verdict: improves comfort and traction.",
+   "measured": null,
+   "other_mods": "Shock spring 56 N/mm for Keefer.",
+   "url": "https://www.keeferinctesting.com/2021-1-18-pro-circuit-linkage-2021-kawasaki-kx250/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-018",
+   "category": "exhaust",
+   "brand": "Akrapovic",
+   "product": "Evolution titanium full system",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": "2020"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2019-11-05",
+   "conditions": "Quiet inserts left in. Price stated USD 1547; about 1.5 lb lighter than stock.",
+   "observed": "Changed: smoother roll-on and longer mid pull, more over-rev, less abrupt second-gear hit and less engine braking (fork feels less harsh on decel bumps); very quiet. Tester moved from map 2 to map 1. Suits: riders who find the stock CRF450R too aggressive and tiring. Downsides: less mid-range recovery than stock; expensive. Verdict: one of the best systems on the bike, but a mapped Vortex ECU does more for less money.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2019-11-5-akrapovic-evolution-muffler-system-2020-honda-crf450r/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-019",
+   "category": "exhaust",
+   "brand": "Yoshimura",
+   "product": "RS-12 stainless full system (rubber-mounted to subframe)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2021"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2021-03-29",
+   "conditions": "Back-to-back with stock. Price stated USD 850.",
+   "observed": "Changed: smoother build from about 5000-7000 rpm, less on/off feel, calmer mid-corner, stronger pull out of corners and earlier third-gear shifts, better hard-pack traction, top equal or slightly more over-rev. Rubber mount protects the subframe tab. Suits: riders wanting pull and traction plus a better sound. Downsides: less snappy throttle response than FMF or stock; still looks large. Verdict: a good buy, stainless lasts longer than titanium.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2021-3-28-yoshimura-rs-12-stainless-muffler-system-2021-kawasaki-kx450/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-020",
+   "category": "exhaust",
+   "brand": "Akrapovic",
+   "product": "Evolution titanium full system",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2021"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2021-04-27",
+   "conditions": "Stock gearing; Power Tuner map tuned to suit. Price stated USD 1300; 1.5 lb lighter than stock.",
+   "observed": "Changed: no extra bottom end, but harder and longer pull mid to top, better over-rev, freer revving with less engine braking that helps corner entry; easier to roll third. Suits: riders wanting mid/top and connection with a clean fit under the side panel. Downsides: cost; no low-end gain. Verdict: excellent once mapped; tester pairs it with an XPR-mapped Vortex ECU for best results.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2021-4-27-akrapovic-evolution-muffler-2021-yamaha-yz450f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-021",
+   "category": "suspension_revalve",
+   "brand": "Race Tech",
+   "product": "Showa fork and shock re-valve with spring change",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2021"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2021-05-17",
+   "conditions": "Tester had previously used only spring changes and a PC link; with the re-valve the stock linkage was used. Sag 103 mm, a little more HSC.",
+   "observed": "Changed: flatter on/off throttle ride, no rear kick on big braking bumps, better initial shock control without squatting out of choppy ruts; traction kept. Suits: heavier or aggressive riders for whom springs alone are a band-aid. Downsides: still slightly soft on G-outs and flat landings; tester may ask for more LSC. Verdict: clear improvement over stock; give the tuner detailed rider info.",
+   "measured": "Settings: fork 5.4 kg spring, comp 14 out, reb 10 out, height 3 mm; shock 5.8 kg spring, LSC 11 out, HSC 1-1/4 turns out, reb 9 out.",
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2021-5-16-2021-kawasaki-kx450-race-tech-suspension-review/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-022",
+   "category": "exhaust",
+   "brand": "FMF / Yoshimura / Pro Circuit",
+   "product": "Slip-on vs full system guide: CRF450R and CRF250R",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R / CRF250R",
+    "year": "2021"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2021-05-19",
+   "conditions": "Tester summary of systems tried on 2021 Hondas.",
+   "observed": "Changed: CRF450R: a slip-on is the best value; FMF slip-on gives snappier response with smoother mid; Yoshimura tames it but feels lethargic low-mid. CRF250R needs a full system: Yoshimura RS-9 less bottom, more mid/top; FMF 4.1 RCT more bottom and mid, less top, much louder (inserts kill its benefit); Pro Circuit Ti-6 better low response, longer mid, deeper sound. Suits: 450 riders wanting to calm the hit; 250 riders wanting low-mid pull. Verdict: slip-on for the 450, full system for the 250.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2021-5-19-slip-on-or-full-system-2021-honda-crf450250r/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-023",
+   "category": "ecu_map",
+   "brand": "Yamaha Power Tuner (Keefer maps)",
+   "product": "Two optional Power Tuner maps incl. \"Keefer Connection Map\"",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450FX",
+    "year": "2021"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2021-05-25",
+   "conditions": "Developed over a couple of weeks on MX tracks and tight rocky terrain. Map values are in images, not text.",
+   "observed": "Changed: one map for less hit and more rear traction, one for broader pull with more connection. Suits: YZ450FX riders in technical terrain. Downsides: check the map POSITION setting; values not readable as text here. Verdict: tester favourites.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2021-5-24-2021-yamaha-yz450fx-optional-maps/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-024",
+   "category": "chassis",
+   "brand": "REC MX",
+   "product": "Seat nuts (OEM replacement, press into rear fender)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450 / KX250",
+    "year": "2021"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2021-05-27",
+   "conditions": "Price stated USD 29.95 a pair.",
+   "observed": "Changed: replaces soft stock seat nuts that strip; uses OEM bolts. Suits: any KX owner with stripped seat threads. Downsides: some work to press in; pricey for nuts. Verdict: peace of mind against losing the seat.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2021-5-27-rec-seat-nuts-kawasaki-kx-450250/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-025",
+   "category": "wheels",
+   "brand": "Dubya USA",
+   "product": "Edge wheel set (stainless spokes, brand-coloured hubs, bike-specific spacers)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Multiple",
+    "model": "Yamaha and other Japanese MX models (Suzuki not offered at time)",
+    "year": "2021"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2021-06-16",
+   "conditions": "Nearly 50 hours of use. Price stated USD 639. Sizes 21x1.60 front, 19x1.85, 19x2.15 or 18x2.15 rear.",
+   "observed": "Changed: tough, not overly rigid hub, rims held up, hub colour did not fade; included spacers ease swapping between bikes. Suits: riders wanting a spare or tougher set without paying USD 1500. Downsides: spokes needed truing a few times after break-in; about 0.5 lb heavier than stock (not felt). Verdict: a good-value set the tester would buy.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2021-6-16-dubya-edge-wheel-set/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-026",
+   "category": "footpegs",
+   "brand": "Raptor Titanium",
+   "product": "Offset titanium footpegs (10 mm back or 7 mm down; 300 g per set)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F / YZ250F",
+    "year": "2021"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2021-07-18",
+   "conditions": "Tester 6 ft 0, size 10 boots; Pro Taper SX Race bend. Price about USD 300.",
+   "observed": "Changed: 7 mm down eased the cramped seated position and made standing easier with no clearance issue; 10 mm back helped seated cornering but put knees awkwardly when braking and made shift/brake harder to reach. Sharp teeth keep you on the balls of the feet. Suits: tall riders on the YZ-F (combine with a tall seat). Downsides: price; 10 mm back too far for him (5 mm suggested). Verdict: pricey but worth it for Yamaha cockpit comfort.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2021-7-18-raptor-titanium-offset-footpegs-yamaha-yz250f450f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-027",
+   "category": "triple_clamp",
+   "brand": "X-Trig",
+   "product": "ROCS Tech triple clamp with PHDS bar mounts",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2022"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2021-09-23",
+   "conditions": "Hard-pack West Coast tracks.",
+   "observed": "Changed: firmer, more stable front when diving into deep ruts with less wallow; PHDS mounts soften slap-down landings. Suits: faster or heavier riders who feel the stock clamp wiggle and dive in deep ruts. Downsides: less compliance leaning into braking bumps, harsher on fast choppy sweepers, worse straight-line comfort, almost 1 lb heavier. Verdict: not worth it on this Yamaha for most riders (worked better on a KTM).",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2021-9-22-x-trig-rocs-tech-triple-clamp-2022-yz450f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-028",
+   "category": "exhaust",
+   "brand": "FMF",
+   "product": "Factory Fatty pipe vs Gnarly pipe, each with Powercore 2 silencer",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250",
+    "year": "2022"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2021-10-03",
+   "conditions": "With the Gnarly the needle clip was raised one and the main jet dropped one size.",
+   "observed": "Changed: Fatty cleans up the rich bottom, adds mid pull from second to third and longer top/over-rev; Gnarly adds bottom hit, lugability, recovery and rear traction, mid only slightly better than stock. Suits: Fatty for faster tracks and revving; Gnarly for tight tracks and four-stroke style riders. Downsides: Fatty slightly less rear traction; Gnarly runs rich on top and needs rejetting, still less top than Fatty. Verdict: both nice upgrades over stock.",
+   "measured": null,
+   "other_mods": "Gnarly test: clip up one, main jet down one size.",
+   "url": "https://www.keeferinctesting.com/2021-10-2-fmf-fattygnarly-pipe-amp-powercore-2-silencer-2022-yz250/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-029",
+   "category": "engine_kit",
+   "brand": "Yamaha GYTR",
+   "product": "High Performance Engine Kit (tested with stock cams; GYTR/FMF muffler, insert out)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2022"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2021-10-11",
+   "conditions": "Raced in a Keefer vs Keefer event. Tested with stock cams and the FMF system insert out.",
+   "observed": "Changed: more mid torque in soft dirt, wider third-gear cornering window, freer revving with less engine braking, slightly more top and over-rev per gear. Suits: vets and amateurs wanting a factory-tested engine package instead of a USD 2500-5000 custom build. Downsides: lacks low rpm response (possibly the muffler insert out); still less over-rev than KTM/Honda for high-revving B riders; rewards short shifting. Verdict: worth the money for riders who want engine work; add GYTR cams or a Vortex map for more top.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2021-10-10-2022-yamaha-yz250f-gytr-high-performance-engine-kit/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-030",
+   "category": "exhaust",
+   "brand": "Akrapovic",
+   "product": "Evolution titanium full system",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": "2021-2022"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2021-10-21",
+   "conditions": "Borrowed after a MotoConcepts team test. Price stated USD 1547; about 2 lb lighter than stock.",
+   "observed": "Changed: wider pull than the FMF, softer hit, less engine braking, very quiet; tester moved from map 2 to map 1. Durable packing. Suits: deep-pocket owners already buying a system. Downsides: fiddly to line up on install; costly. Verdict: one of the best on the 21-22 CRF450R, but a mapped Vortex ECU is better value; best of all combined.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2021-10-20-akrapovic-evolution-muffler-system-2021-2022-honda-crf450r/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-031",
+   "category": "exhaust",
+   "brand": "Yoshimura",
+   "product": "RS-12 stainless full system",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF250R",
+    "year": "2022"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Keefer Inc Testing staff",
+   "date": "2022-01-09",
+   "conditions": "Back-to-back with stock same days. Prices stated: slip-on USD 719, stainless full USD 949, titanium full USD 1259. Under 20 minutes to fit.",
+   "observed": "Changed: can hold second longer out of tight inside ruts without slipping the clutch, quicker recovery when a gear high, lighter feel in the mid, big gain mid to top with harder pull per gear. Suits: 2022 CRF250R riders wanting mid-top. Downsides: no extra low-end response; louder (throaty, not obnoxious). Verdict: a true bolt-on benefit, recommended.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/yoshimura-rs-12-full-stainless-system-2022-honda-crf250r/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-032",
+   "category": "exhaust",
+   "brand": "Pro Circuit / HGS / FMF",
+   "product": "Pro Circuit T-6 stainless system, with HGS and FMF compared",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": "2022"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer and Aden Keefer",
+   "date": "2022-01-17",
+   "conditions": "Ti-6 versions hard to get, so stainless T-6 used.",
+   "observed": "Changed: PC: bit more bottom pull, strong mid with no empty feel in third, harder top, over-rev unchanged, softer initial response. HGS: PC-like bottom, weaker mid, most top/over-rev (suits sand). FMF: most bottom, mid between PC and HGS, short top. Suits: PC for all-round pull, HGS for sand and revving, FMF for bottom. Downsides: PC screen-out gains response but loses mid and sound. Verdict: pleased with the PC.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/pro-circuit-t-6-stainless-system-2022-kawasaki-kx250/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-033",
+   "category": "intake",
+   "brand": "Yamaha GYTR",
+   "product": "Air Flow Kit (two filters, base plate, cage, taller Cycra airbox cover)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2022"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2022-01-24",
+   "conditions": "About 30 minutes to fit. Price stated USD 150. Compared with the Twin Air Powerflow kit he had run.",
+   "observed": "Changed: quicker low rpm response, freer revving, more mid pull and top/over-rev; claimed one horsepower; filter seals better than stock. Suits: riders wanting more pull in second without buying a muffler. Downsides: louder intake noise; no backfire screen so dirt can fall in on filter changes (lay the bike on its side). Verdict: tester would buy it before an aftermarket muffler; prefers Twin Air aluminium parts but cannot feel a power difference.",
+   "measured": "About 1 hp gain (claimed).",
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/yamaha-gytr-air-flow-kit-yz450f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-034",
+   "category": "controls",
+   "brand": "ARC",
+   "product": "Hydraulic folding clutch lever and six-way Power Lever (brake)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250 / KX450",
+    "year": "2022"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2022-02-02",
+   "conditions": "Used on a KX250 by Aden with crashes; Power Lever flip chips 14-19 mm; combined with a Braking Batfly rotor. Prices stated: clutch USD 79.99, Power Lever USD 129.99.",
+   "observed": "Changed: wider blade than the skinny stock lever (no blisters), more linear engagement, folds and survived crashes; brake feel tunable, all testers chose the 16 mm chip for a firm but not touchy brake. Suits: any KX owner tired of bent levers or the thin stock blades. Downsides: none noted. Verdict: good purchase, lifetime guarantee.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/arc-hydraulic-folding-clutch-lever-power-lever-kawasaki-kx250-450/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-035",
+   "category": "footpegs",
+   "brand": "FLO Motorsports",
+   "product": "Titanium footpegs (6Al4V, 60x90 mm platform, 11 oz)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX (model not stated)",
+    "year": "2022"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2022-03-28",
+   "conditions": "Stock springs reused. Price stated USD 389.95.",
+   "observed": "Changed: flat stance like OEM, much more grip on the balls of the feet thanks to sharp teeth, self-clean better than OEM, held up. Suits: riders who slip off dull stock pegs. Downsides: price; no offset options. Verdict: best FLO pegs they have run.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/flo-titanium-footpegs/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-036",
+   "category": "suspension_revalve",
+   "brand": "Race Tech",
+   "product": "Fork and shock re-valve (average blue-collar rider)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Suzuki",
+    "model": "RM-Z450",
+    "year": "2021"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Preston Jordan",
+   "date": "2022-04-05",
+   "conditions": "Returning rider, mostly desert trail riding; sag not checked (editor notes this).",
+   "observed": "Changed: far more comfortable and predictable than stock, made small chop manageable. Suits: returning or average riders wanting comfort. Downsides: headshake while standing in whoops remained, possibly setup or chassis rigidity. Verdict: rider calls it the most comfortable suspension he has had.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/rm-z450-race-tech-re-valve/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-037",
+   "category": "engine_mounts",
+   "brand": "Works Chassis Labs",
+   "product": "Titanium front engine mounts (soft and medium) and stainless top mounts (medium)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": "2022"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer and Aden Keefer",
+   "date": "2022-05-03",
+   "conditions": "Two riders, one about 140 lb B class. Prices stated: front mounts USD 219.99, top mounts USD 199.99.",
+   "observed": "Changed: medium front mounts gave wider tyre contact feel and more front traction mid-corner but made the front sit low (stinkbug) off throttle; soft front + medium top kept the traction, removed the low-front feel and added chatter and braking-bump compliance. Top mounts alone help slap-down and first-bump comfort. Suits: riders who find the KX250 vague mid-corner. Downsides: slight wallow under heavy load (jump faces, rolling whoops); a touch more LSC suggested. Verdict: soft front / medium top was the favourite, clearly felt against stock.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/works-chassis-labs-engine-mounts-2022-kawasaki-kx250/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-038",
+   "category": "exhaust",
+   "brand": "Akrapovic",
+   "product": "Evolution titanium full system",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF250R",
+    "year": "2022"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2022-05-17",
+   "conditions": "Fitted during a Racer X garage build; almost 20 hours. Price about USD 1600.",
+   "observed": "Changed: softer crack of throttle than stock but more roll-on meat, gets on top of deep soft dirt sooner, more mid pull and later shifts thanks to more over-rev; lighter feel flopping into corners. Packing lasted about twice as long as rivals. Suits: faster riders on flowing longer tracks wanting mid-top. Downsides: lose the stock blip response; least low hit of the three tried (Yoshimura, FMF, Akrapovic); big can looks. Verdict: noticeable even for weekend riders, at a steep price.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/akrapovic-evolution-system-2022-honda-crf250r/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-039",
+   "category": "tires",
+   "brand": "Bridgestone",
+   "product": "Battlecross X31 front tire (with X20 rear)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda / Yamaha",
+    "model": "CRF250R and YZ450F (years not stated)",
+    "year": "2022"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2022-05-30",
+   "conditions": "Front-steering rider; 13.5-14 psi. X31 rear not available at the time.",
+   "observed": "Changed: more compliant carcass than X30 yet a stiffer-feeling sidewall for lean in flat corners; predictable break-away, bump comfort close to a Dunlop MX3S; consistent over six hours and wears better than an MX3S. Suits: front-steering riders on soft-to-intermediate dirt that hardens through the day. Downsides: less carcass comfort than a Pirelli MX32 Mid-Soft; MX3S slightly better on soft terrain. Verdict: impressive soft-intermediate front.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/bridgestone-battlecross-x31-front-tire/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-040",
+   "category": "brakes",
+   "brand": "KTM / Brembo with Yamaha caliper",
+   "product": "Nissin/Brembo hybrid front brake (\"Dubach method\"): KTM Brembo master cylinder on stock YZ-F caliper and 270 mm carrier",
+   "part_numbers": [
+    "54813001200",
+    "54813002100",
+    "50213025000",
+    "1C3-2580T-00-00",
+    "5MV-W0045-01-00"
+   ],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F / YZ450F",
+    "year": "2022"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2022-06-06",
+   "conditions": "Parts listed: stock 2022 YZ-F hose (needs 2022 YZ-F caliper carrier), KTM master cylinder 54813001200, spare Brembo lever 54813002100, KTM banjo bolt 50213025000, Yamaha caliper 1C3-2580T-00-00, pads 5MV-W0045-01-00. Move the thin pad clip to the 270 mm carrier.",
+   "observed": "Changed: replaces the spongy stock Yamaha front brake feel with a more linear, stronger lever than even an all-Brembo set-up, per the tester. Suits: Yamaha riders unhappy with front brake feel. Downsides: mix of parts from two makers; must match the pad clip. Verdict: best-feeling front brake he had used in a while.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/how-to-turn-your-yz-nissin-brakes-into-ktm-brembo-brakes/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-041",
+   "category": "exhaust",
+   "brand": "FMF",
+   "product": "4.1 slip-on muffler",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2022"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2022-06-27",
+   "conditions": "Compared with stock before a dual-injector kit was fitted. Best map with it: \"Keefer Free Feeling\" (on Keefer site). Five-minute install.",
+   "observed": "Changed: insert out loses some bottom end; insert in keeps most of the stock bottom, stays quiet and trail-legal; adds mid and a little top; saves over 1 lb. Suits: owners whose stock can turns raspy or who want a bit more mid/top. Downsides: repack about every 10 hours or risk burning the can and rivets. Verdict: happy; keep the insert in.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/fmf-4-1-slip-on-muffler-2022-yamaha-yz250f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-042",
+   "category": "footpegs",
+   "brand": "PDR Performance",
+   "product": "-15 mm down offset footpeg mounts (1018 steel)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2022"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2022-07-13",
+   "conditions": "Tester 6 ft 0; tried in Oklahoma ruts, not East Coast conditions. Price stated USD 240 a set; limited quantity via email.",
+   "observed": "Changed: lowers the peg from the mount (cleaner than an offset peg), less bent leg seated, easier to get on the balls of the feet. Suits: riders 6 ft 1 and over (tester preferred -7 mm pegs at 6 ft 0). Downsides: steel is heavy; pegs catch ruts a little easier. Verdict: good value lowering option others cannot match.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/pdr-performance-offset-footpeg-mount-yamaha-yz450f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-043",
+   "category": "exhaust",
+   "brand": "FMF",
+   "product": "4.1 stainless full system",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2022-12-01",
+   "conditions": "Gearing 13/51 kept; insert left in. Price stated USD 949.99. Repack 10-12 hours.",
+   "observed": "Changed: initial crack mellowed but second/third-gear pull out of corners clearly better, more recovery and rear traction, longer mid with better response; top and over-rev about stock; just over 1 lb lighter; much better sound. Suits: riders wanting low-mid pull (PC gives more top). Downsides: stainless looks plainer than titanium (but slip joints last longer). Verdict: a reasonable upgrade over stock.",
+   "measured": null,
+   "other_mods": "Gearing 13/51.",
+   "url": "https://www.keeferinctesting.com/fmf-4-1-stainless-muffler-system-2023-kawasaki-kx250/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-044",
+   "category": "ecu_map",
+   "brand": "Yamaha R&D / Keefer (Power Tuner)",
+   "product": "\"Control Torque\" (Yamaha R&D) and \"Keefer Exciting Connect\" maps",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-01-05",
+   "conditions": "Map grids published as images.",
+   "observed": "Changed: Control Torque softens roll-on and limits the free-revving feel exiting corners, helpful on rough tracks; Exciting Connect adds low-end excitement and fills the gap before the big mid hit so second-gear roll-on is less abrupt. Suits: riders caught out by the YZ450F mid-range surge. Verdict: optional maps worth trying.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2023-yamaha-yz450f-optional-power-tuner-maps/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-045",
+   "category": "exhaust",
+   "brand": "Akrapovic",
+   "product": "Evolution titanium full system",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-03-06",
+   "conditions": "Tested with stock gearing and Keefer maps. Price about USD 1600.",
+   "observed": "Changed: smoother roll-on and more rear-wheel connection without breaking loose, harder and longer pull down straights, better over-rev, less engine braking aiding corner entry. Suits: riders who value control and traction over low-end snap. Downsides: no extra low rpm response; expensive. Verdict: excellent and under-rated, you get what you pay for.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/akrapovic-evolution-muffler-system-2023-yamaha-yz450f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-046",
+   "category": "suspension_kit",
+   "brand": "WP Pro Components (TCD Racing setting)",
+   "product": "WP Pro Components fork and Trax shock fitted to a Kawasaki",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-03-22",
+   "conditions": "Tester 175 lb; TCD Racing valving; Glen Helen and softer tracks. About USD 6000 total as stated.",
+   "observed": "Changed: Trax shock gave better braking-bump comfort and rear traction in choppy shallow ruts, with a wider adjustment range than the stock Showa (HSC tweak fixed a high rear); fork clickers make clear changes. Suits: vet A-B riders about 175-195 lb chasing comfort. Downsides: very expensive; shock is awkward to fit (bigger reservoir); slight deflection on heavy throttle across bumps. Verdict: tester would choose this over a Showa A-kit for plushness.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/wp-suspension-on-a-kawasaki-kx450/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-047",
+   "category": "handlebar",
+   "brand": "Pro Taper / Renthal",
+   "product": "Recommended bar bends for 2023 Suzuki RM-Z250/450",
+   "part_numbers": [],
+   "bike": {
+    "make": "Suzuki",
+    "model": "RM-Z250 / RM-Z450",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-03-27",
+   "conditions": "Tester fit guide by rider height; stock bar mount height.",
+   "observed": "Changed: stock Suzuki bend has much sweep and feels small; preferred Pro Taper EVO SX Race (W800 H87 R54.5 S54); tall riders Renthal Fatbar 827 cut to 803 mm; short riders Pro Taper EVO MX Race cut to 803 mm. FASST Co Flexx bars suggested for bad wrists. Suits: riders wanting a more open cockpit. Verdict: fit guidance, not a product test.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2023-handlebar-bend-spec-recommendations/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-048",
+   "category": "ecu_map",
+   "brand": "Keefer (Yamaha Power Tuner)",
+   "product": "\"Keefer Race\" and \"Keefer Connection Torque\" maps, TC set to Low",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-04-23",
+   "conditions": "Map grids published as images; TH% POSITION values changed; traction control must be on LOW.",
+   "observed": "Changed: Race map for second motos, Connection Torque for first motos; both usable all day. Suits: a wide range of riders on race day. Downsides: set POSITION and TC correctly or the maps will not match. Verdict: tester race-day maps.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2023-yamaha-yz450f-optional-yamaha-power-tuner-maps/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-049",
+   "category": "engine_mounts",
+   "brand": "FCP Racing",
+   "product": "Engine mounts: solid 9 mm titanium front plate (replaces split 4 mm plates)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-04-24",
+   "conditions": "About 50 hours on stock and 20 on FCP; tried across three suspension specs on two bikes. Price stated USD 429.",
+   "observed": "Changed: less harshness into braking bumps, more front-tyre feel leaning on throttle, calmer unload downhill, better edge traction and straight-line stability, consistent across suspension specs. Suits: 2023 YZ450F riders wanting stability and bump comfort. Downsides: initial lean into corners slightly heavier; coloured finish not to his taste. Verdict: worth it if you want more stability; skip if happy with stock.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/fcp-engine-mounts-2023-yz450f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-050",
+   "category": "clutch",
+   "brand": "Kawasaki (OEM)",
+   "product": "2023 KX250/450 clutch master cylinder kit with lever, fitted to a Honda",
+   "part_numbers": [
+    "43015-0742"
+   ],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-05-01",
+   "conditions": "Tip from Johnny and Preston Campbell; quick ride. Stock Honda line can be flipped end to end for better routing. Under USD 200 as stated.",
+   "observed": "Changed: smoother pull and a longer engagement window than the on/off stock Honda clutch. Suits: CRF450R owners who dislike the narrow stock clutch engagement. Downsides: only a short ride reported. Verdict: simple, cheap and much better.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/honda-crf450r-hydraulic-clutch-improvement/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-051",
+   "category": "exhaust",
+   "brand": "Pro Circuit",
+   "product": "Ti-6 full system (insert and screen left in)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-05-15",
+   "conditions": "Price stated USD 1270; about 1.5 lb lighter. Paired with the \"CHA\" map on Keefer site. Repack every 12-15 hours.",
+   "observed": "Changed: harder low end, longer second-gear pull and third-gear corners, healthier mid and slightly more top (helps in sand). Insert in smooths the initial hit; insert out is louder and snappier. Suits: KX450 riders wanting more pull and excitement than the linear stock delivery. Downsides: louder than he likes; does not fix the 0-10 % on/off throttle feel. Strong note: reinforce/re-weld the KX subframe muffler tab, it breaks with any aftermarket system even if rubber-mounted. Verdict: happy with the gains.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2023-kawasaki-kx450-pro-circuit-ti-6-muffler-system/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-052",
+   "category": "intake",
+   "brand": "Twin Air",
+   "product": "Power Flow kit (aluminium cage, no backfire screen, support bracket)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-05-16",
+   "conditions": "With mapping. Price about USD 250.",
+   "observed": "Changed: bracket stops the cage floating and breaking the seal under hard acceleration; more rpm response and pull out of soft loamy berms, snappy yet connected with lots of rear traction. Suits: 2023 YZ450F owners worried about the stock cage seal. Downsides: dirt can drop into the boot on filter changes (lean bike over, vacuum, do not twist throttle). Verdict: best all-round filter system for the YZ450F airbox.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/twin-air-power-flow-kit-2023-yamaha-yz450f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-053",
+   "category": "triple_clamp",
+   "brand": "Talon",
+   "product": "Raptor split triple clamps with interchangeable offset inserts (19-25 mm)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": "2022"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Keefer Inc Testing staff",
+   "date": "2023-05-19",
+   "conditions": "Multiple tracks; 24 mm offset chosen (stock 22 mm). 181 g lighter than OE (Talon figure).",
+   "observed": "Changed: 24 mm calmed the twitchy, oversteering Honda into corners, better lean stability and less popping out of ruts; split clamp improved slap-down and bump compliance (helps arm pump). Bar-mount plate resists twisting in tip-overs. Suits: 2020-2023 CRF450R riders who find the bike nervous. Downsides: many mount positions can confuse; bar mount must come off to adjust steering stem tension. Verdict: very positive.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/talon-raptor-clamps-review-honda-crf450r/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-054",
+   "category": "linkage",
+   "brand": "REP Suspension",
+   "product": "REP linkage (flatter first 70 %, more progressive last 30 %) with REP valving",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-05-25",
+   "conditions": "Tested on a CRF450RWE with REP valving; REP runs a spring about four rates lighter with this link.",
+   "observed": "Changed: acceleration harshness roughly halved, more plush on square edges, more rear traction and track toughness; rear rides less deep in the stroke. Suits: Honda owners fighting a harsh rear on baked, square-edged tracks. Downsides: not all harshness gone; best results tied to REP valving. Verdict: good enough that he wanted to race it on rough tracks.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/rep-linkage-system-2023-honda-crf450r/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-055",
+   "category": "project_bike_test",
+   "brand": "Multiple (REP, GET, Akrapovic, Hinson, Works Connection, Dunlop, Twin Air)",
+   "product": "Weekend race set-up: GET ECU (stock tune), Akrapovic Evolution, REP suspension, Hinson 9-plate clutch, WC 26 mm ratio lever, Dunlop MX34/MX14",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-05-31",
+   "conditions": "Fox Raceway, sandy top soil AM and hard pack PM; rider 172 lb; 10.6 engine hours; gearing 13/49; holeshot 140 mm; tyres 13.5 front / 12.5 rear psi; ETS MX18 fuel.",
+   "observed": "Changed: Dunlop MX14 rear excellent off the start and in straight-line drive; GET ECU gives linear roll-on and broader pull; REP fork better small-bump comfort and lean initiation; Akrapovic smooths bottom-to-mid and adds traction out of choppy corners; WC 26 mm lever ratio gives wider, less grabby engagement; Hinson 9-plate pack resists fade. Downsides: stock seat shape painful (thin foam edges); shock wants more comfort on acceleration chop. Verdict: a race-ready template; result DNQ due to a crash, not the parts.",
+   "measured": "REP spec fork KK2551BF C12 R11 height 2 mm; shock KK2551BS LSC 10 HSC 1.25 R12, sag 104 mm.",
+   "other_mods": "Pro Taper SX Race bar, Renthal full-waffle soft grips, WC perch, WC offset footpeg mounts and Pro Pegs, Renthal sprockets, DID ERT3 chain, WC Pro Launch, Polisport plastics, Blud 10/40 oil.",
+   "url": "https://www.keeferinctesting.com/weekend-race-set-up-2023-yamaha-yz450f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-056",
+   "category": "triple_clamp",
+   "brand": "Generic (McMaster-Carr spacer)",
+   "product": "Lower triple clamp bolt spacer mod (13 mm OD x 5 mm aluminium spacer drilled to M8, 15-18 Nm)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-07-03",
+   "conditions": "Stock clamps and 22 mm offset; West Coast hard pack; back-to-back at several tracks; tester used 16 Nm.",
+   "observed": "Changed: more front traction on lean and better feel on sharp decel bumps; front more planted when chopping the throttle; can open corners wider without push. Suits: riders who find the 2023 front light in shallow ruts. Downsides: not tried with aftermarket clamps; torque choice changes the effect. Verdict: cheap mod that gives some aftermarket-clamp feel.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2023-yamaha-yz450f-triple-clamp-mod/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-057",
+   "category": "tips_list",
+   "brand": "Multiple (REC, Pro Circuit, Ride Engineering)",
+   "product": "Top mods for the 2023 KX250: seat nuts, side panel cut-out, steering bearing grease, 13/51 gearing, linkage",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-07-10",
+   "conditions": "Several 2023 KX250s ridden by a teenage B rider.",
+   "observed": "Changed: cutting the snout off the left side panel opens the airbox intake for more low-end and response (free); steering head bearings arrive with no grease and fail in under 20 hours unless greased; 13/51 closes the 2-3 gap and helps starts; stock KYB fork too stiff for riders under about 165 lb; PC or Ride Engineering linkage with 102 mm sag adds rear traction. Suits: new 2023 KX250 owners. Downsides: some are durability chores rather than performance. Verdict: the 2023 is more reliable than earlier KX250s but grease the steering bearings first.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/top-mods-for-your-2023-kawasaki-kx250/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-058",
+   "category": "linkage",
+   "brand": "Ride Engineering",
+   "product": "Full linkage system (pull rods and knuckle) for 2023 KX450 / KX450SR",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-08-16",
+   "conditions": "Sag moved from 105-106 mm to 103 mm; shock spring raised two rates (5.7 to 6.0 kg). Price stated USD 475 plus spring.",
+   "observed": "Changed: drives through square edges under acceleration, more rear traction, and the front tracks better mid-corner. Suits: KX450 riders wanting cornering and traction. Downsides: must go up at least two spring rates or the rear feels mushy; cost. Verdict: a bigger change than most linkages he has tested; everyone will feel it.",
+   "measured": null,
+   "other_mods": "Shock spring 6.0 kg.",
+   "url": "https://www.keeferinctesting.com/ride-engineering-full-linkage-system-2023-kx450-sr/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-059",
+   "category": "seat",
+   "brand": "GUTS Racing",
+   "product": "\"Wide Top\" seat foam, stock height",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2023-2024"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-08-31",
+   "conditions": "Price stated USD 99.99. Taller foams available.",
+   "observed": "Changed: squarer, box-shaped top stops bottoming on the seat pan when loaded and cured the soreness from the stock seat. Suits: 2023-24 YZ450F riders who get sore. Downsides: still take the seat off before washing. Verdict: a must-have for comfort.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/guts-racing-wide-top-seat-foam-2023-2024-yz450f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-060",
+   "category": "clutch",
+   "brand": "Yamaha GYTR",
+   "product": "Hydraulic clutch kit (Brembo-based) for 2023-2024 YZ450F",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2023-2024"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-10-10",
+   "conditions": "Back-to-back with cable for starts; rider covers the clutch constantly; 10/40 non-synthetic oil. Price stated USD 299.99.",
+   "observed": "Changed: engagement moves toward the end of the lever throw with a wider, less on/off window; more consistent starts; lighter pull with enough feel at the engagement point. Suits: riders who prefer hydraulic feel or keep re-adjusting a cable. Downsides: plate life unchanged (about 10-12 hours for this hard user). Verdict: tester kept it; stay with cable if it works for you.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/should-you-hydraulic-or-cable-23-24-yz450f-gytr-hydraulic-clutch-kit/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-061",
+   "category": "exhaust",
+   "brand": "Pro Circuit",
+   "product": "Ti-6 full system",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2024"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-12-17",
+   "conditions": "Map used shown on Keefer site. Price stated USD 1400; 1.8 lb lighter. Open-end wrench needed for the headpipe nuts.",
+   "observed": "Changed: livelier throttle and lighter side-to-side feel, much harder pull and better pick-up from soft berms, slightly more mid in second and third and more lugability; top/over-rev about stock. Quieter than older Ti-6 with insert in. Suits: 2024 KX450 riders who find the stock bike lethargic down low; vets. Downsides: awkward install. Verdict: a no-brainer for more low-mid.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/pro-circuit-ti-6-muffler-system-2024-kx450/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-062",
+   "category": "exhaust",
+   "brand": "Pro Circuit",
+   "product": "Ti-6 Pro titanium system (carbon end cap)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2024"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2024-01-05",
+   "conditions": "Run with the \"Keefer Race Map\"; dry choppy SoCal tracks. Price stated USD 1352.95; almost 2 lb lighter. Loosely fit the mid pipe before tightening the headpipe nuts.",
+   "observed": "Changed: slightly softer response at about 10 % throttle, then stronger mid with crisp mid-rpm response, second and third usable longer, top as stock with slightly more over-rev; more bottom than the Akrapovic. Deeper, quieter note than older Ti-6. Suits: older riders and those wanting connection rather than snap. Downsides: softer low rpm hit (fix with a more aggressive map). Verdict: impressed; spreads power well.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/pro-circuit-ti-6-muffler-system-2024-yamaha-yz450f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-063",
+   "category": "intake",
+   "brand": "Slater Skins",
+   "product": "Vented air box lid cover",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F / YZ450F",
+    "year": "2024"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2024-02-25",
+   "conditions": "Stock cage and screen, also tried with Twin Air Power Flow. Price stated USD 100.",
+   "observed": "Changed: a bit more snap off the bottom and in third-gear mid on the 2024 YZ250F (which lost low end with its new air boot); crisper over square edges. Suits: 2024 YZ250F owners wanting cheap low-end response. Downsides: a lot louder (ear plugs suggested); filter gets dirtier in sand/silt; small effect on the YZ450F. Verdict: noticeable, not dramatic, good value.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/slater-skins-air-box-cover-2024-yz250f-450f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-064",
+   "category": "exhaust",
+   "brand": "FMF",
+   "product": "4.1 slip-on muffler",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2024"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2024-03-04",
+   "conditions": "Price stated USD 899.99; almost 1.5 lb lighter.",
+   "observed": "Changed: more usable low-end pull and torque out of corners while staying linear, much better throttle-to-rear-wheel connection on hard pack, livelier over bumps, more mid so third gear corners are more usable; slight top gain. Suits: riders wanting the 2024 KX450 to feel less flat. Downsides: none significant noted. Verdict: you can feel where the money went.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/fmf-4-1-slip-on-muffler-2024-kx450/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-065",
+   "category": "seat",
+   "brand": "Seat Concepts",
+   "product": "Race 2.0 complete seat (OEM shape, firmer foam)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2023-2024"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2024-04-10",
+   "conditions": "About 25 engine hours, washed with seat on (worst case). Price stated USD 349.99.",
+   "observed": "Changed: plush but supportive foam that did not break down after 25 hours (stock goes in 8-12); no soreness on multi-day riding; perfect fit. Suits: YZ450F riders whose stock foam collapses; anyone wanting a spare seat. Downsides: cover loses some grip over time; about USD 170 more than foam plus cover. Verdict: pleased; this model needs better foam.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/seat-concepts-race-2-0-complete-seat-23-24-yz450f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-066",
+   "category": "intake",
+   "brand": "Twin Air",
+   "product": "Power Flow kit (uses Power Flow filter)",
+   "part_numbers": [
+    "151129FRX"
+   ],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2024"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2024-05-09",
+   "conditions": "About one hour to install (plastics, tank, battery, ECU and subframe off). Price stated USD 214.",
+   "observed": "Changed: tabbed filter/cage ensures a proper seal (stock filter can be sucked concave and lets dirt in); small low-mid rpm response gain. Suits: KX450 owners wanting insurance against dirt ingestion. Downsides: painful install; must use the proprietary filter 151129FRX. Verdict: mainly engine protection, not a power mod on this bike.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/twin-air-powerflow-kit-2024-kx450/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-067",
+   "category": "chassis",
+   "brand": "FCP Racing",
+   "product": "Race Cups (20-degree offset steering head races)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2023-2024"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2024-06-23",
+   "conditions": "Sag moved 105 to 103 mm; fork compression may need softening a couple of clicks. Price stated USD 589-599; works with any clamp; also for Kawasaki and Honda.",
+   "observed": "Changed: slower but more stable steering, more front-tyre weight and contact on lean, less headshake moving from on to off throttle on rough straights. Suits: riders wanting a calmer YZ450F on fast rough tracks and long bumpy ruts. Downsides: turns a little slower; costly. Verdict: a bigger handling change than some offset clamps; you will feel it.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/fcp-race-cups/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-068",
+   "category": "exhaust",
+   "brand": "Akrapovic",
+   "product": "Evolution titanium full system",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2024"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2024-06-30",
+   "conditions": "Stock gearing. Price about USD 1700. Almost 30 hours without repacking.",
+   "observed": "Changed: more low-end torque than stock, harder and longer pull mid-top, better over-rev, more rear connection without breaking loose, less engine braking and pitching into corners; very quiet for the power. Suits: riders wanting a quiet, long-lasting system with real gains. Downsides: price. Verdict: excellent, you actually get what you pay for.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/akrapovic-evolution-muffler-system-2024-kawasaki-kx450/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-069",
+   "category": "exhaust",
+   "brand": "Yoshimura",
+   "product": "RS-12 stainless full system",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2024"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Eddie Laret and Kris Keefer",
+   "date": "2024-08-06",
+   "conditions": "230 lb rider. Price stated USD 979; system weighs 8 lb 3 oz, almost 2 lb heavier than stock.",
+   "observed": "Changed: more low-end torque and mid-rpm response while keeping a smooth, linear delivery; exits corners harder so the bike rides over acceleration chop; small mid-top gain; deeper, slightly quieter note. Suits: heavier riders who find the stock KX450 too lazy. Downsides: heavier than stock; big can. Verdict: a great buy; Yoshimura offers a repack service.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/yoshimura-rs-12-stainless-system-2024-kx450/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-070",
+   "category": "handlebar_mount",
+   "brand": "XC Gear",
+   "product": "MAKO 360 handlebar mounts (polymer-isolated)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2024"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Victor Guerrero and Kris Keefer",
+   "date": "2024-09-02",
+   "conditions": "Glen Helen. Price stated USD 439.99-529.99. Weights: stock 15.4 oz, MAKO 29.3 oz. Adds 6 mm bar rise on this bike.",
+   "observed": "Changed: little vibration reduction (slight at idle and high rpm) but more forgiveness on bumps and slap-down landings, less hand/arm fatigue. Suits: long-distance trail and desert riders. Downsides: almost double the weight of stock; cannot tie down by the bars; bar pad needs shaping; very expensive. Verdict: real comfort gain but a big spend.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/mako-360-handlebar-mount/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-071",
+   "category": "ecu_map",
+   "brand": "Keefer (Kawasaki ECU)",
+   "product": "Optional 2025 KX450 map for pull and recovery",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2024-10-11",
+   "conditions": "Map grid published as an image.",
+   "observed": "Changed: more pick-up out of corners and more torque feel in second and third. Important: Kawasaki raised the ignition timing adjustment limit from +1 to +10 for 2025, so this map only works on a 2025; loading it on a 2024 clips timing to +1. Verdict: worth trying on 2025 bikes only.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2025-kawasaki-kx450-optional-ecu-map/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-072",
+   "category": "gearing",
+   "brand": "Yamaha (stock) / REP starting numbers",
+   "product": "Swingarm length (pivot to axle) targets by gearing: 13/49, 13/50, 14/52",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2023-2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2024-10-29",
+   "conditions": "Starting measurements from REP Suspension; ballpark values, chain tension affects them.",
+   "observed": "Changed: 13/49 with 114 links, 585.4-586.8 mm, sag 105, fork 3 mm = best all-round; 13/48 is more stable but hurts third-gear recovery. 13/50 with 114 links, 581.1-582.6 mm, fork flush, sag 106 = better corner entry for vets. 14/52 with 116 links, 584.7-586.0 mm, fork 2 mm, sag 105 = smoother roll-on and more hard-pack traction. Suits: tinkerers fine-tuning geometry. Verdict: practical gearing and length targets.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2023-2025-yamaha-yz450f-optimal-swingarm-measurements/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-073",
+   "category": "brakes",
+   "brand": "KTM / Brembo with Yamaha caliper",
+   "product": "Brembo master + Nissin caliper front brake mod (re-visit): 2007 YZ450F-type Nissin caliper and 2007 450 SX-F-type Brembo master for piston sizing",
+   "part_numbers": [
+    "54813001200",
+    "54813002100",
+    "50213025000",
+    "1C3-2580T-00-00",
+    "5MV-W0045-01-00"
+   ],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F / YZ450F",
+    "year": "2024-2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2024-11-11",
+   "conditions": "Same parts list as the 2022 article: current YZ-F hose and caliper carrier, move the pad clip from the 250 mm to the 270 mm carrier.",
+   "observed": "Changed: more linear, firmer front brake than the spongy stock Yamaha feel. Suits: current YZ-F riders wanting a stronger lever. Downsides: mixed-brand parts and older-spec pieces to source. Verdict: still his best-feeling front brake set-up.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/yz-250-450f-brembo-brake-mod-re-visit/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-074",
+   "category": "exhaust",
+   "brand": "Pro Circuit",
+   "product": "Ti-6 full system for the 2025 KX250 (new headpipe and muffler)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer and Aden Keefer",
+   "date": "2024-12-16",
+   "conditions": "Glen Helen, a desert track and Sunfair 42 MX. Price stated USD 1269.95; just over 1.8 lb lighter.",
+   "observed": "Changed: a little more bottom pull and snappier response, strong mid with no empty feel in third, pulls harder into the top; over-rev unchanged; much better sound. Cutting the screen out but keeping the insert adds low response; fully insert-out gave the younger rider more mid. Suits: 2025 KX250 riders who find the bike heavy-feeling. Downsides: still wants more low end overall. Verdict: makes the 2025 feel lighter, a positive.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/pro-circuit-ti-6-muffler-system-2025-kx250/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-075",
+   "category": "engine",
+   "brand": "Bundy Built Engines",
+   "product": "80 g flywheel weight (welded to your stock flywheel, mail-in service)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-01-04",
+   "conditions": "Tried with several Power Tuner maps. No price given. YZ450FX/WR flywheels do not work with the YZ harness (per Yamaha).",
+   "observed": "Changed: calmer rpm build, more rear traction and less front lift on corner exits, more lugability in a high gear without stalling, and no added engine braking. Suits: vets and pros who find the YZ450F a handful on rough or technical tracks. Downsides: none found by tester; must send away your flywheel. Verdict: close to a must-do mod for traction and control.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/yamaha-yz450f-flywheel-weight/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-076",
+   "category": "cooling",
+   "brand": "Moto Hose",
+   "product": "\"Works\" silicone Y radiator hose kit with billet water jackets and clamps",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Eddie Laret",
+   "date": "2025-01-07",
+   "conditions": "Fitted on the Keefer 2025 KX450 garage build. Price stated USD 399.99.",
+   "observed": "Changed: replaces the 2024-25 KX450 temp-sensor jacket and metal water-pump tube with two Y hoses, fewer clamps and joints that could fail. Suits: owners wanting a cleaner, factory look and fewer failure points. Downsides: costly; coolant smell for the first rides (no leak found); do not over-tighten clamps. Verdict: mainly looks, with a small reliability gain.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/28564-2/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-077",
+   "category": "linkage",
+   "brand": "REP Suspension",
+   "product": "REP linkage for 2023-2025 YZ450F (\"in between\" ratio)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2023-2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-01-13",
+   "conditions": "Sag 104-105 mm. Stock spring works on 2023-24; 2025 (stock 5.6 N/mm with stiffer stock link) may need one rate up. Price stated USD 450; order by phone/email.",
+   "observed": "Changed: on 2023-24 the rear stays up under acceleration (less squat) with more traction and less harshness; on 2025 it adds compliance over chop and stops the rear overpowering the fork off throttle. Works even with stock suspension. Suits: YZ450F riders wanting rear traction and comfort. Downsides: check sag after fitting; not sold online at the time. Verdict: a good buy.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/rep-linkage-2023-2025-yamaha-yz450f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-078",
+   "category": "suspension_baseline",
+   "brand": "Showa (stock)",
+   "product": "2025 CRF450R Works Edition baseline settings",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-01-22",
+   "conditions": "Works Edition (18 mm shock shaft). Heavier spring option for riders over 180 lb.",
+   "observed": "Changed: WE fork moves quicker and feels softer mid-stroke than the standard R; shock feels tougher on throttle (vs the R with its emptier end stroke). Suits: CRF450RWE owners needing a start point.",
+   "measured": "Fork stock 5.0 N/mm: height flush-2 mm, comp 8-9 out, reb 8 out. Heavier option 5.1 (one 5.2 spring one side): comp 11, reb 9. Shock 56 N/mm, sag 106 mm, LSC 9 out, HSC 1.75 out, reb 10 out.",
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2025-honda-crf450rwe-baseline-suspension-settings/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-079",
+   "category": "wheels",
+   "brand": "Yamaha (OEM / GYTR parts)",
+   "product": "Fully assembled OEM wheel sets (hub, bearings, seals, rim, spokes, disc, sprocket, rim lock)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ125 / YZ250 / YZ250F / YZ450F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-02-26",
+   "conditions": "Prices stated for YZ450F: front USD 599.99, rear USD 439.99. Blue or black.",
+   "observed": "Changed: a ready-to-run spare set including disc and sprocket, which other OEMs do not include. Tester ranks OEM wheel toughness Yamaha, Honda, Kawasaki, Triumph, Suzuki, then KTM group. Suits: Yamaha owners wanting tough spares without aftermarket rigidity worries. Downsides: still need rim tape, tube and tyre. Verdict: great buy.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/oem-yamaha-fully-assembled-wheelsets-are-they-worth-it/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-080",
+   "category": "triple_clamp",
+   "brand": "Ride Engineering",
+   "product": "23.5 mm offset split triple clamps (redesigned)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Jesse Heninger (owner) via Kris Keefer",
+   "date": "2025-04-09",
+   "conditions": "Owner test over several weeks at Glen Helen, Cal City and DT1; dry edgy SoCal tracks. Fork raised (Keefer suggests 2 mm stock, up to 5 mm with these).",
+   "observed": "Changed: more comfort and flex loading into corners and on slap-downs, calmer chassis in rough sections, less edge-of-tyre deflection. Suits: faster intermediate to pro riders who want stability. Downsides: front less planted exiting flat corners until the fork was raised; novices may not feel much. Verdict: owner gained stability and confidence.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/ride-engineering-23-5mm-triple-clamps-2025-honda-crf450r/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-081",
+   "category": "engine_mounts",
+   "brand": "FCP Racing",
+   "product": "Engine mounts for 2025 KX250",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer and Aden Keefer",
+   "date": "2025-06-25",
+   "conditions": "Amateur racer and Keefer; West and East Coast tracks; fork height flush on hard pack, 2 mm in deep East Coast ruts. Price stated USD 450.",
+   "observed": "Changed: more front lean-angle grip in flat corners, more planted and less twitchy off throttle, better slap-down and bump touch on soft tall tracks; on-throttle \"busy\" front not improved but not worse. Suits: KX250 riders wanting comfort and front traction. Downsides: may need fork height and clicker changes; cost. Verdict: noticeable change, worth it if you need front grip.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/fcp-engine-mounts-2025-kawasaki-kx250/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-082",
+   "category": "footpegs",
+   "brand": "Works Connection",
+   "product": "Aluminium offset footpeg mounts (a further -5 mm down and -5 mm back; 7075-T6)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F / YZ450F",
+    "year": "2024-2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-07-10",
+   "conditions": "Over 35 hours. Price stated USD 199.95 a pair (kit includes titanium pins). Works with stock or aftermarket pegs; shifter and brake pedal did not need moving.",
+   "observed": "Changed: more cockpit room, less bent knees, easier sit-to-stand, better leverage on the pegs in flat corners, less leg fatigue. Suits: Yamaha riders about 5 ft 10 and taller. Downsides: modest change, not Honda-like ergonomics. Verdict: worthwhile comfort mod.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/works-connection-aluminum-offset-footpeg-mounts-yamaha-yz250f-450f/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-083",
+   "category": "ecu_map",
+   "brand": "Travis Preston / Keefer (Power Tuner)",
+   "product": "\"Travis Preston\" map and \"Keefer Exciting Connect\" map for 2026 YZ450F",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-09-23",
+   "conditions": "Map grids published as images (Preston map shown blank).",
+   "observed": "Changed: Preston map adds low-end excitement because the 2026 is more plugged up than the 2025; Keefer map adds rear connection and torque feel shifting from second to third. Verdict: optional maps to try.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/optional-2026-yamaha-yz450f-maps/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-084",
+   "category": "exhaust",
+   "brand": "Yoshimura",
+   "product": "RS-12 stainless full system",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF250R",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-10-20",
+   "conditions": "Back-to-back with stock. Prices stated: stainless USD 1149, titanium USD 1679. Under 20 minutes to fit.",
+   "observed": "Changed: holds second longer out of tight ruts without slipping the clutch, quicker recovery, lighter mid, clear mid-to-top gain and crisper third-gear response; keeps the 2025-26 low end. Suits: CRF250R riders wanting mid-top and recovery. Downsides: not much extra low-end response; price. Verdict: a true bolt-on benefit.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/yoshimura-rs-12-stainless-muffler-system-2026-honda-crf250r/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-085",
+   "category": "brakes",
+   "brand": "Ride Engineering",
+   "product": "Pulse replacement front rotor 270 mm (non-floating) with billet hanger for 260-to-270 conversions",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda / Yamaha / Kawasaki",
+    "model": "CRF450R, YZ450F, KX (years not stated)",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-11-11",
+   "conditions": "Tested on Honda, Kawasaki and Yamaha. Prices stated: Yamaha/Kawasaki replacement USD 120; 260-to-270 kits USD 179.95 (OEM Yamaha rotor USD 155).",
+   "observed": "Changed: slightly stronger initial bite on the Honda with no drag; no change on the YZ450F versus the stock floating rotor. Suits: Yamaha/Kawasaki owners needing a cheaper replacement, or Honda owners wanting an oversize rotor. Downsides: gains are small. Verdict: good-value replacement, modest upgrade.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/ride-engineering-pulse-replacement-rotor/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-086",
+   "category": "exhaust",
+   "brand": "Yoshimura",
+   "product": "RS-12 full titanium system (hydroformed muffler)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-11-19",
+   "conditions": "Fitted to the Keefer 2026 CRF450R garage build with no other engine work. Price stated USD 1700; about 1.8 lb lighter.",
+   "observed": "Changed: smoother low-rpm delivery and more rear connection, calmer mid-to-exit cornering, earlier throttle, smoother but torquier third-gear pull; top/over-rev about stock; quieter, nicer sound; packing outlasts rivals. Suits: CRF450R riders wanting traction and cornering. Downsides: steep price; large-looking can. Verdict: makes the Honda corner and perform better.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/tested-yoshimura-rs-12-full-titanium-system/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-087",
+   "category": "ecu_map",
+   "brand": "Keefer (Power Tuner)",
+   "product": "2026 YZ450F map to reduce engine braking",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-11-20",
+   "conditions": "Map grid published as an image.",
+   "observed": "Changed: relaxes the 2026 engine on decel so the extra engine braking (versus 2024-25) no longer upsets the chassis into corners; easier to roll corners. Suits: 2026 owners who notice the added engine braking. Verdict: try it if you feel it.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2026-yamaha-yz450f-optional-yamaha-power-tuner-map/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-088",
+   "category": "exhaust",
+   "brand": "Pro Circuit",
+   "product": "Ti-6 Pro \"BC\" full system (no carbon end cap)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2024-2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-11-25",
+   "conditions": "Insert in for AMA events; insert out gives more low snap. Map used shown on site. Price stated USD 1400.",
+   "observed": "Changed: livelier throttle, lighter-feeling bike, harder pull and pick-up from soft berms, more lugability and slightly more mid in second-third, second gear longer so third comes sooner; top slightly better. Quieter than older Pro. Suits: 2024-26 KX450 riders wanting low-mid; vets. Downsides: those wanting a carbon cap. Verdict: a no-brainer where the price is felt on track.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/review-pro-circuit-ti-6-pro-bc-2024-2026-kx450/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-089",
+   "category": "clutch",
+   "brand": "Hinson Racing",
+   "product": "Small Diameter Clutch Kit (five coil springs, Billetproof hard parts)",
+   "part_numbers": [
+    "HC663-2102"
+   ],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2024-2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-02-03",
+   "conditions": "Deep sand tracks and Glen Helen to provoke fade. Price stated USD 1224.99. Previously ran the Hinson Billetproof complete clutch.",
+   "observed": "Changed: positive lever feel with more pressure, clear bite point, more pop off corners (more low rpm feel) and no engagement drift or fade under abuse; stock clutch fades, drifts and slips after several hours. Suits: KX450 riders in deep dirt or long motos. Downsides: expensive. Verdict: a must-have for hard use.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/hinson-racing-small-diameter-clutch-for-2024-2026-kx450/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-090",
+   "category": "clutch",
+   "brand": "Rekluse",
+   "product": "APEX manual clutch system (Fixed-Pin hub, TorqDrive pack, billet pressure plate and cover)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2024-2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-02-11",
+   "conditions": "Several hours. Price stated USD 1199.99.",
+   "observed": "Changed: smoother, more consistent engagement under abuse, steel-on-steel hub avoids notching, more friction plates improve drive and resist fade in sand and long motos. Suits: aggressive riders and racers keeping the bike long term. Downsides: price; spring combinations need setting up. Verdict: one of the best manual clutch upgrades for the KX450.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/rekluse-apex-clutch-system-review-2024-2026-kawasaki-kx450/",
+   "confidence": "high"
+  },
+  {
+   "id": "jf6-091",
+   "category": "project_bike_test",
+   "brand": "Rekluse / FMF / enzo racing / ODI",
+   "product": "Mod Squad 2020 CRF450R: Rekluse TorqDrive clutch pack, FMF Factory 4.1 RCT Ti dual system, enzo fork/shock revalve and spring tubes, ODI RC4 Flite bars",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": "2020"
+   },
+   "source_type": "magazine",
+   "publication": "Swapmoto Live",
+   "author": "Swapmoto Live staff",
+   "date": "2019-12-21",
+   "conditions": "Built after their 2020 450 shootout (CRF was third). Prices stated: enzo fork and shock revalve USD 200 each, spring tubes USD 250, HS shock adjuster USD 250, FMF USD 1499.99, Rekluse TorqDrive pack USD 349, ODI bar USD 99.95.",
+   "observed": "Changed: TorqDrive pack (12 fibres / 11 steels in the stock space) cured the stiff stock clutch pull and greatly improved low-end drive so taller gears became easy; FMF gives a throaty note. Bars flatter and straighter than the stock sweep. Suits: CRF450R owners with a heavy clutch pull. Downsides: you may need to re-learn acceleration points. Verdict: they call the TorqDrive the best dollar-for-dollar performance part.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://swapmotolive.com/mod-squad-2020-honda-crf450r/track-tested/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-092",
+   "category": "clutch",
+   "brand": "Rekluse",
+   "product": "Core Manual TorqDrive clutch (hub, pressure plate, TorqDrive pack)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2022"
+   },
+   "source_type": "magazine",
+   "publication": "Swapmoto Live",
+   "author": "Swapmoto Live staff",
+   "date": "2021-11-01",
+   "conditions": "Paired with a Yoshimura RS-12 exhaust. Price stated USD 999 (TorqDrive pack alone USD 359 with stock basket/hub).",
+   "observed": "Changed: brought back the off-idle snap the RS-12 exhaust had taken away (Power Tuner could not fully restore it), less clutch slip so more traction and forward drive, quick fan of the lever recovers mid-corner mistakes. Separately, the RS-12 gave stronger mid and much better top but average testers missed the low-end response. Suits: riders who lost bottom end with an exhaust. Downsides: may have to rethink throttle into jumps. Verdict: rated the best performance value.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://swapmotolive.com/rekluse-core-manual-torqdrive-clutch-in-22-yamaha-yz450f-track-tested/track-tested/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-093",
+   "category": "intake",
+   "brand": "Yamaha GYTR",
+   "product": "Air Flow Kit (two filters, new cage, larger airbox cover)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2023"
+   },
+   "source_type": "magazine",
+   "publication": "Swapmoto Live",
+   "author": "Swapmoto Live staff",
+   "date": "2023-02-13",
+   "conditions": "Price stated USD 149.99. 5-10 minute install.",
+   "observed": "Changed: noticeable gains in throttle response and top-end power; cleaner-sounding rev; bigger cover gives knee grip. Suits: YZ250F/YZ450F owners wanting more top before engine or ECU work. Downsides: stock-size filters no longer fit; needs a new airbox graphic. Verdict: try this before more involved mods.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://swapmotolive.com/yamaha-gytr-air-flow-kit-track-tested/track-tested/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-094",
+   "category": "project_bike_test",
+   "brand": "enzo racing / Technical Touch Moto-Master / Hinson / FMF / Maxxis",
+   "product": "Mod Squad 2024 CRF450R upgrades: enzo revalve, Moto-Master 270 mm front rotor kit and rear caliper, Hinson plates and cover, FMF Factory 4.1 RCT, Maxxis SI tyres",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": "2024"
+   },
+   "source_type": "magazine",
+   "publication": "Swapmoto Live",
+   "author": "Swapmoto Live staff",
+   "date": "2024-02-09",
+   "conditions": "Goal: comfort and predictability. Prices stated: enzo fork revalve USD 220 plus parts; Moto-Master oversize front kit USD 308, rear caliper USD 136, pads USD 39.95; Hinson plates USD 219.99, cover USD 199.99; FMF Ti USD 1374.99 (stainless USD 1049.99, same performance); Maxxis SI front USD 102, rear USD 139.",
+   "observed": "Changed: FMF 4.1 evens out the powerband for easier control over a moto without losing power; Moto-Master brakes rated the best they have used; Maxxis SI a big step over the ST in grip and life. Suits: CRF450R owners who find it rigid and unpredictable. Downsides: no per-part back-to-back data given. Verdict: an easier, more trustworthy bike.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://swapmotolive.com/mod-squad-2024-honda-crf450r-a-upgrades/features/mod-squad/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-095",
+   "category": "clutch",
+   "brand": "Yamaha GYTR",
+   "product": "Hydraulic clutch kit (Magura master, braided line, slave)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2024"
+   },
+   "source_type": "magazine",
+   "publication": "Swapmoto Live",
+   "author": "Swapmoto Live staff",
+   "date": "2024-04-10",
+   "conditions": "Fitted at the track in under 20 minutes for back-to-back laps; compared with a Works Connection Pro Perch cable set-up. Lever reach set at notch 10 of 22. Price stated USD 299.99.",
+   "observed": "Changed: smoother, less grabby engagement makes slipping into the powerband more controllable and less likely to break the rear loose on hard pack; better starts for them. Suits: most riders on the hard-hitting YZ450F. Downsides: cable gives a more precise feel taking up chain slack on the line; lever felt firm versus the WC perch. Verdict: staying on the bike all year.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://swapmotolive.com/gytr-hydraulic-clutch-kit-track-tested/track-tested/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-096",
+   "category": "exhaust",
+   "brand": "FMF",
+   "product": "Factory 4.1 RCT titanium system with carbon end cap",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Swapmoto Live",
+   "author": "Swapmoto Live staff",
+   "date": "2025-05-01",
+   "conditions": "All three maps tried, spark arrestor in and out. Price stated USD 1374.99 (stainless/aluminium version USD 1049.99 with the same performance).",
+   "observed": "Changed: broader, more controllable hit with slightly better off-idle response, linear pull into high rpm; Map 1 felt excellent and let the shock work in acceleration chop; Map 3 became manageable. Spark arrestor out = louder and less low-end roll-on. Suits: 2025 CRF450R riders wanting better, not more, power. Downsides: price; Map 2 still feels slow. Verdict: leave the arrestor in; easier to ride.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://swapmotolive.com/fmf-factory-4-1-exhaust-for-the-2025-honda-crf450r-track-tested/track-tested/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-097",
+   "category": "exhaust",
+   "brand": "Pro Circuit",
+   "product": "T-6 stainless system",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Swapmoto Live",
+   "author": "Mike Bush (Swapmoto Live)",
+   "date": "2026-02-11",
+   "conditions": "Perris Raceway; mostly a video review, short written summary.",
+   "observed": "Changed: improved power right off idle on a bike whose low-end response and torque are lacking; easy install, throaty note. Suits: 2026 KX250 riders wanting low-end. Verdict: tester impressed.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://swapmotolive.com/track-tested-pro-circuit-t-6-exhaust-for-the-2026-kawasaki-kx250/track-tested/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-098",
+   "category": "exhaust",
+   "brand": "Yoshimura",
+   "product": "RS-12 Hybrid full system (header resonance chamber, keeps stock heat shield)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Swapmoto Live",
+   "author": "Swapmoto Live staff",
+   "date": "2026-04-22",
+   "conditions": "Price stated USD 1129. Tests at 110 dB; insert makes it 109 dB compliant. Stock 2026 pipe is hard to remove.",
+   "observed": "Changed: freer-revving and lighter feel, snappier throttle, and gains low, mid and top over-rev while keeping the 2026 friendly character with no spikes; consistent across maps, so they rode the standard map more. Suits: 2026 owners who find the quieter stock bike a little muted. Downsides: stock system removal is a chore. Verdict: works amazingly well; staying on.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://swapmotolive.com/yoshimura-rs-12-hybrid-exhaust-system-for-the-2026-yamaha-yz450f-track-tested/track-tested/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-099",
+   "category": "engine_mounts",
+   "brand": "FCP Racing",
+   "product": "Titanium front and aluminium top engine mount kit",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2020"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Bike Magazine",
+   "author": "Dirt Bike Magazine staff",
+   "date": "2020-07-02",
+   "conditions": "Kit for 2019-20 KX450. Price stated USD 399 per set.",
+   "observed": "Changed: more front traction and bite so inside lines were easier, plusher overall with less fatigue. Suits: riders wanting a plusher, better-turning KX450. Downsides: costly; buy it to fix a specific problem. Verdict: a considerable difference even on a good bike.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://dirtbikemagazine.com/product-review-fcp-racing-2020-kawasaki-engine-mounts/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-100",
+   "category": "exhaust",
+   "brand": "Pro Circuit",
+   "product": "T-6 stainless dual exhaust (aluminium canisters, USFS spark arrestors)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R / CRF450RX",
+    "year": "2020"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Bike Magazine",
+   "author": "Dirt Bike Magazine staff",
+   "date": "2020-07-05",
+   "conditions": "Long-term use. Price stated USD 939.76. Model years not stated in the text (published 2020).",
+   "observed": "Changed: power gains across the whole curve with no dips, throatier note; meets AMA amateur sound rules and is trail legal with arrestors. Suits: riders who mix MX and off-road. Downsides: no weight saving over stock; do not pull the arrestor while hot; replace the copper crush washer at the head. Verdict: a cost-effective dual system with real gains.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://dirtbikemagazine.com/product-test-pro-circuit-crf450r-t6-dual-exhaust/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-101",
+   "category": "fuel_tank",
+   "brand": "RedMoto",
+   "product": "2-gallon fuel tank (uses R shrouds on the RX)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450RX",
+    "year": "2022"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Bike Magazine",
+   "author": "Dirt Bike Magazine staff",
+   "date": "2022-06-15",
+   "conditions": "Sold in the US by Checkpoint Off-Road; listed for 2021-22 CRF450R/RX and 2022 CRF250R/RX. Price stated USD 399. Stock R tank 1.6 gal, RX 2.25 gal.",
+   "observed": "Changed: on the RX, a much slimmer, less bulky tank with over 40 miles range; on the R, more fuel with no more intrusion than stock. Suits: RX owners who hate the bulky stock tank; R owners going off-road. Downsides: less range than the RX tank; R owners need extra parts. Verdict: they love it on their CRF450RX.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://dirtbikemagazine.com/redmoto-crf-fuel-tank-review/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-102",
+   "category": "wheels",
+   "brand": "Kite",
+   "product": "Elite wheelset (17/14 in, billet 6082-T6 hubs, Excel Takasago rims, double drive-side bearing)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX85",
+    "year": "2020-2023"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Bike Magazine",
+   "author": "Dirt Bike Magazine staff",
+   "date": "2023-02-14",
+   "conditions": "A full year of off-road, high-level off-road racing and amateur national MX. Price about USD 900. Listed for 1998-2023 KX85 standard.",
+   "observed": "Changed: survived a year of abuse with only scratches; double bearing adds strength for fast mini riders; reuses OEM spacers; many colour options. Suits: fast or heavy-use KX85 riders. Downsides: expensive; spokes loosened early (watch those next to the rim lock); hub colour can vary. Verdict: well worth it for quality.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://dirtbikemagazine.com/kite-elite-kawasaki-kx85-wheelset-product-review/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-103",
+   "category": "ecu_map",
+   "brand": "STR Racing (Shock Therapy) / FMF",
+   "product": "Mod Squad 2025 KX450: FMF Factory 4.1 stainless Megabomb, STR fork/shock revalve, STR airbox mods, STR remap of the stock ECU",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Swapmoto Live",
+   "author": "Swapmoto Live staff",
+   "date": "2025-07-28",
+   "conditions": "Prices stated: FMF USD 1049.99; STR shock revalve from USD 235.95, fork from USD 245.95 plus parts; airbox mods USD 160; stock ECU remap USD 60.",
+   "observed": "Changed: exhaust, airbox mods, a remap and firmer suspension took the mild stock KX450 to a bike the testers were happy with. Suits: riders who find the 2025 KX450 too mild. Downsides: no per-part detail in the text. Verdict: little is needed to wake the bike up.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://swapmotolive.com/2025-kawasaki-kx450-project-bike-mod-squad/features/mod-squad/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-104",
+   "category": "wheels",
+   "brand": "D.I.D / Nacstar USA",
+   "product": "DirtStar ST-X rims laced to Nacstar USA hubs (complete wheelset)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha / Honda",
+    "model": "YZ450F and CRF450R (years not stated)",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "Josh Mosiman (MXA)",
+   "date": "2026-03-04",
+   "conditions": "Raced at three AMA 450 Nationals and Mammoth. Prices stated: ST-X rim front USD 260.85, rear USD 241.72; complete Nacstar/D.I.D wheelset USD 999.",
+   "observed": "Changed: stronger than stock with little break-in; only a few spokes needed about 1/8 turn, and about five rear spokes loosened after jumping a huge Hangtown double. ST-X has a stiffer contour than standard DirtStar (softer, better for off-road). Suits: hard-hitting racers wanting a factory look. Downsides: expensive. Verdict: stout wheels, no complaints.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-team-tested-d-i-d-dirtstar-st-x-rims/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-105",
+   "category": "fuel_system",
+   "brand": "Lectron",
+   "product": "Pro-4 32 mm carburetor with metering rod, Domino throttle and cable",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF150R",
+    "year": "not stated (2026 article)"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2026-03-04",
+   "conditions": "Multiple mini riders, GP races, high-desert trails and hill climbs; Lectron cold-start procedure followed; only the Torque Jet idle adjusted. Price stated USD 899.99.",
+   "observed": "Changed: ended the CRF150R bog, hesitation and constant jetting; strong in every condition and elevation; external adjusters replace jet swaps. Suits: any CRF150R family fighting the stock carb. Downsides: needs active throttle until warm; price. Verdict: no complaints; the carb Honda should have fitted.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/team-tested-lectron-pro-4-honda-crf150r-carb/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-106",
+   "category": "drivetrain",
+   "brand": "TM Designworks",
+   "product": "Factory Edition SX Slide-N-Guide kit and chain guide",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF450R",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2025-03-26",
+   "conditions": "Listed fit: 2021-2025 CRF450R/RX/WE and 2022-2025 CRF250R/RX. Price stated USD 155.95. Set 65-70 mm chain slack; bolts have little thread in the swingarm.",
+   "observed": "Changed: durable chain slider and guide with damping pads that cut chain-slap noise while keeping correct slack. Suits: racers who wear out stock sliders. Downsides: not the cheapest; do not over-torque the swingarm bolts. Verdict: among the best guides available.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-team-tested-tm-designworks-crf450-slide-n-glide-kit/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-107",
+   "category": "intake",
+   "brand": "Twin Air / SRP (Slater Skins)",
+   "product": "Twin Air PowerFlow kit (grommet filter, aluminium cage, L-bracket) plus SRP High Flow airbox cover",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2024"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2024-01-04",
+   "conditions": "Prices stated: PowerFlow kit USD 249.95, filter USD 36.95, SRP cover USD 100. Stock 2023-24 filter can let dirt in at the front because its rubber strap is too loose.",
+   "observed": "Changed: grommeted filter stops dirt getting under the cage; combo revs quicker and broadened the power rather than making it wild; over 2 hp gain claimed for the combo. Suits: pro-level riders wanting more power; most riders just need the grommet filter. Downsides: very loud with the vented cover; no backfire screen on a downdraft intake; about USD 350. Verdict: a win for pros.",
+   "measured": "Over 2 hp gain for the combination (as stated).",
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-team-tested-2024-yz450f-twin-air-powerflow-kit-srp-high-flow-airbox-cover/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-108",
+   "category": "linkage",
+   "brand": "REP Suspension",
+   "product": "Rising-rate linkage (revised bell crank) for 2023-2024 CRF250R",
+   "part_numbers": [],
+   "bike": {
+    "make": "Honda",
+    "model": "CRF250R",
+    "year": "2023-2024"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2024-06-18",
+   "conditions": "Price stated USD 600; stiffer overall curve lets the shock run a much lighter spring.",
+   "observed": "Changed: calmer, more stable rear, more compliant tracking in rough, better square-edge absorption; flatter first three-quarters and more progressive last quarter keep it from riding deep. Suits: CRF250R riders wanting rear comfort. Downsides: needs a spring change, so the total cost rises. Verdict: more initial comfort and a more positive feel in the rough.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-team-tested-rep-honda-crf250-rising-rate-linkage/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-109",
+   "category": "clutch",
+   "brand": "Yamaha GYTR",
+   "product": "Hydraulic clutch kit (Brembo lever, master, braided line, slave seal kit, push rod)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2023-2025"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2025-04-24",
+   "conditions": "Race-tested. Fits 2023-2025 YZ450F and 2024-2025 YZ450FX (cases designed to accept it). Price stated USD 299.99.",
+   "observed": "Changed: broader, more forgiving engagement, no lever play to keep adjusting, calms the YZ450F initial hit and builds confidence. Suits: most riders, especially those used to KTM hydraulics. Downsides: slips badly if you rev against a held clutch before the gate drops, causing wheelies off the line. Verdict: they loved it and will not go back to cable.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-team-tested-gytr-hydraulic-clutch-kit/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-110",
+   "category": "intake",
+   "brand": "Twin Air",
+   "product": "PowerFlow kit (base plate, glass-fibre cage, domed pre-oiled filter)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2024"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2024-07-15",
+   "conditions": "Dyno and track. Subframe must come off to fit. Price stated USD 214.95; vented airbox plug USD 62.95.",
+   "observed": "Changed: little felt alone, but it stops dirt getting past the poorly sealing stock flat filter; paired with an FMF or Pro Circuit slip-on the bike came alive. Pro Circuit race mod (trim plastic around the filter plus T-6 slip-on) filled the stock mid dip. Suits: every 2024 KX450 owner as engine insurance. Downsides: long install. Verdict: a longevity mod, not a power mod.",
+   "measured": "Dyno: 57.3 to 57.9 hp, torque 35.6 to 35.8 lb-ft with the kit; PC race mod with T-6 slip-on peak torque 37.7 lb-ft.",
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-team-tested-twin-air-2024-kx450-powerflow-kit/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-111",
+   "category": "setup_advice",
+   "brand": "Suzuki (stock)",
+   "product": "2025 RM-Z250 set-up advice: fuel couplers, fork and shock springs",
+   "part_numbers": [],
+   "bike": {
+    "make": "Suzuki",
+    "model": "RM-Z250",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2025-07-17",
+   "conditions": "Ask the MXperts reply to a new owner; 2025 is identical to 2019.",
+   "observed": "Changed: use the white coupler (most aggressive, revs faster), skip grey and black; power is best below 8000 rpm so do not over-rev. Forks very stiff: drop 5.0 to 4.8 N/mm (or lower for light riders) and open compression 3-5 clicks from 11 out; shock spring 52 to 50 N/mm with 107 mm sag. Suits: novices; the bike is down almost 6 hp on its class. Verdict: easy to ride once softened.",
+   "measured": "Fork 4.8 N/mm, comp 14-16 out; shock 50 N/mm, sag 107 mm.",
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/ask-the-mxperts-what-do-i-need-to-know-about-the-2025-rm-z250/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-112",
+   "category": "triple_clamp",
+   "brand": "Luxon MX",
+   "product": "Gen3 Pro triple clamps with adjustable offset 21-24 mm and stiffening bracket; rubber bar mounts",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2024"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2024-02-15",
+   "conditions": "Glen Helen National track. Prices stated: clamps USD 999.95, rubber mounts USD 189.95, solid USD 109.95 (standard Gen3 USD 699.95). Fits 2023-2024 YZ250F/YZ450F.",
+   "observed": "Changed: even at stock 22 mm, more front traction and planted cornering without over-tightening the steering stem as a damper; 23 mm best (calmer corner entry, less wiggle, headshake and wag); 24 mm more stable but less nimble. Stiffening bracket too stiff outdoors. Suits: high-level YZ riders. Downsides: price. Verdict: solved their biggest YZ450F handling complaints.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-team-tested-luxon-mx-gen3-pro-yz250-450-triple-clamp/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-113",
+   "category": "hardware",
+   "brand": "Bolt Hardware",
+   "product": "Kawasaki Pro-Pack bolt kit (incl. collared T-nuts, steel fork-guard bolts, M22 axle nut)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250 / KX450 (years not stated)",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2025-06-20",
+   "conditions": "Price stated USD 79.99.",
+   "observed": "Changed: replaces lost or weak hardware; T-nuts with a 1 mm collar stay in the rear fender; 8 mm hex steel fork-guard bolts replace soft aluminium Allen bolts. Suits: anyone maintaining a KX. Verdict: practical spares kit.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-team-tested-bolt-hardware-kawasaki-pro-pack/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-114",
+   "category": "exhaust",
+   "brand": "FMF",
+   "product": "Factory 4.1 RCT titanium slip-on",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2025-05-06",
+   "conditions": "Listed for 2019-2025 YZ250F. About six hours on it. Price stated USD 849.99; stock muffler 3 lb heavier. Transfer the stock rubber bushing and collar.",
+   "observed": "Changed: same initial crack as stock but more mid-to-top pull to the limiter so gears can be held longer instead of falling flat; far better sound than the loud stock can; packing fine after tip-overs. Suits: YZ250F riders who rev it out on fast tracks. Downsides: not cheap. Verdict: turned the stock bike into a race bike.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-team-tested-fmf-racings-2025-yamaha-yz250f-slip-on-muffler/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-115",
+   "category": "protection",
+   "brand": "Works Connection",
+   "product": "Skid plate with Rubber Isolator Mounting System (6061-T6)",
+   "part_numbers": [
+    "10-299"
+   ],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2024"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2024-02-07",
+   "conditions": "Product spotlight (no riding results). Also fits 2024 KX450X. Price stated USD 94.95.",
+   "observed": "Changed: protects frame rails and cases without stiffening the frame (rubber-isolated mounts); oil drain hole pre-cut. Suits: KX450/KX450X riders wanting protection. Verdict: spotlight only, no test verdict.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-product-spotlight-works-connection-2024-kx450-skid-plate/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-116",
+   "category": "cooling",
+   "brand": "Moto Hose",
+   "product": "Works Y radiator hose kit with billet fittings and silicone-rated clamps",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2025-04-15",
+   "conditions": "15-minute install; also for KX450X. Price stated USD 399.99.",
+   "observed": "Changed: removes the stock cross-over metal tube and fragile Y-fittings (as factory Kawasaki runs), fewer failure points, high temperature/pressure rating. Suits: racers wanting reliability and colour. Downsides: price; bleed air and check for leaks after. Verdict: positive, matching Keefer findings on the same kit.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-team-tested-moto-hose-kx450-y-hose-kit/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-117",
+   "category": "chassis",
+   "brand": "Bolt MX",
+   "product": "Kawasaki rear-fender Perma-Nut (replaces loose T-nut plate)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250 / KX450",
+    "year": "2019-2023"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2023-08-06",
+   "conditions": "Price stated USD 14.99 for two.",
+   "observed": "Changed: stops the seat/airbox T-nut plate falling out of the fender every time the airbox cover is removed (glue fixes failed). Suits: 2019-2023 KX owners. Verdict: a true fix for a long-standing annoyance.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-team-tested-bolt-mx-kawasaki-kx250-kx450-perma-nut/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-118",
+   "category": "engine_mounts",
+   "brand": "Luxon MX",
+   "product": "Rubber-isolated head stays and engine mounts (soft/medium/hard elastomers)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2023-2025"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2025-12-25",
+   "conditions": "Price stated USD 379.95. Front mounts later strengthened by Luxon. Only made for the YZ450F so far.",
+   "observed": "Changed: rubber head stays took the edge off bumps, improved hand feel and made the suspension feel plusher; testers felt the change from stock but not between damper hardnesses. Suits: outdoor riders wanting more comfort. Downsides: not recommended for supercross. Verdict: made an already comfortable chassis more compliant.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-team-tested-luxon-mx-yz450f-rubber-isolated-head-stays/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-119",
+   "category": "reliability_note",
+   "brand": "Kawasaki (OEM)",
+   "product": "Right side-case gasket oil leak",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2024-2025"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2024-12-29",
+   "conditions": "Two MXA 2025 test bikes leaked within about 3-4 hours; a racer reported replacing the gasket three times.",
+   "observed": "Changed: n/a. Observed: oil seeping from the gasket on the right side case under the cylinder, first after a crash and then on a second bike without one. Suits: owners chasing an unexplained right-side leak. Verdict: check and replace the right side-case gasket.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/ask-the-mxperts-mysterious-2024-2025-kawasaki-kx450-oil-leak/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-120",
+   "category": "jetting",
+   "brand": "Yamaha (stock)",
+   "product": "YZ250 and YZ250X carburettor needles (N3EW vs NYHW)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250 / YZ250X",
+    "year": "2023"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2025-11-06",
+   "conditions": "Ask the MXperts technical reply.",
+   "observed": "Changed: the YZ250 still uses the N3EW needle (stock since 2007); the 2023 YZ250X uses NYHW, one clip leaner, because its head drops compression from 8.9:1 to 7.9:1 (21.5 to 23.6 cc) with less mid-high ignition advance. Do not lean a YZ250 to NYHW spec; any pipe, porting or head change could make it run lean. Verdict: keep stock YZ250 jetting unless the engine is modified.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/ask-the-mxperts-whats-the-deal-with-the-new-yamaha-yz250-needle/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-121",
+   "category": "suspension_setup",
+   "brand": "Showa (stock)",
+   "product": "Split fork spring trick: one 0.52 and one 0.50 kg/mm spring for an effective 0.51",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2025-12-18",
+   "conditions": "Ask the MXperts reply; Showa offers no 0.51 spring.",
+   "observed": "Changed: mixing springs gives a 0.51 kg/mm average for owners who find 0.50 soft but 0.52 too stiff; put the stiffer spring in the brake-side leg. 2025 KX450 forks are close to race-ready for vets and novices. Verdict: cheap, simple fix.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/ask-the-mxperts-quick-suspension-fix-for-kx450-owners/",
+   "confidence": "medium"
+  },
+  {
+   "id": "jf6-122",
+   "category": "intake",
+   "brand": "Twin Air",
+   "product": "PowerFlow kit for 2025-2026 KX250 (hand-screw bolt filter mount)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX250",
+    "year": "2025-2026"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2025-12-02",
+   "conditions": "Subframe off to install. Price stated USD 359.95. Only works with the 2025-26 KX250 PowerFlow filter.",
+   "observed": "Changed: negligible power gain but a secure seal that stops dirt being pushed past the slide-in stock filter. Suits: KX250 owners wanting engine protection. Downsides: long install; costly. Verdict: a durability upgrade, insurance for the engine.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-team-tested-twin-air-2025-2026-kx250-powerflow-kit/",
+   "confidence": "medium"
+  }
+ ],
+ "builds": [
+  {
+   "id": "jb6-001",
+   "title": "Dunlop MX53 launch Suzuki RM-Z250 (Jay Clark build)",
+   "bike": {
+    "make": "Suzuki",
+    "model": "RM-Z250",
+    "year": "not stated (2019 launch bike)"
+   },
+   "publication": "Swapmoto Live",
+   "date": "2019-10-29",
+   "url": "https://swapmotolive.com/track-tested-dunlop-mx53-suzuki-rm-z250/track-tested/",
+   "notes": "Ridden by Alex Ray. Article says the engine mods addressed the RM-Z250 power deficit and Race Tech softer fork springs addressed the harsh stock fork; per-part results not given.",
+   "parts": [
+    {
+     "category": "engine",
+     "brand": "Vertex",
+     "product": "High compression piston kit",
+     "part_numbers": [],
+     "purpose": "More power (stated aim)",
+     "observed": null
+    },
+    {
+     "category": "exhaust",
+     "brand": "FMF",
+     "product": "Factory 4.1 RCT Ti muffler",
+     "part_numbers": [],
+     "purpose": "Open up the power",
+     "observed": null
+    },
+    {
+     "category": "suspension",
+     "brand": "Race Tech",
+     "product": "Set-up with softer fork springs",
+     "part_numbers": [],
+     "purpose": "Fix harsh stock fork",
+     "observed": null
+    },
+    {
+     "category": "tires",
+     "brand": "Dunlop",
+     "product": "MX53 80/100-21 front, 100/90-19 rear",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "drivetrain",
+     "brand": "Supersprox",
+     "product": "Front and rear sprockets, chain",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "handlebar",
+     "brand": "Renthal",
+     "product": "604 Fatbar",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "controls",
+     "brand": "Works Connection",
+     "product": "Elite perch, front brake lever, chain blocks, rotating bar clamp, steering stem nut",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "clutch",
+     "brand": "Hinson",
+     "product": "Fibres, steels, springs, outer cover",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "footpegs",
+     "brand": "Scar",
+     "product": "Titanium footpegs",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "intake",
+     "brand": "Uni Filter",
+     "product": "Air filter",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "plastics",
+     "brand": "UFO",
+     "product": "Full FLO yellow plastic kit",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "fuel",
+     "brand": "VP",
+     "product": "U4.4 mixed with pump",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    }
+   ]
+  },
+  {
+   "id": "jb6-002",
+   "title": "Powerlift (Rob Healy) 2023 Yamaha YZ450F",
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2023"
+   },
+   "publication": "Swapmoto Live",
+   "date": "2024-03-01",
+   "url": "https://swapmotolive.com/mod-squad-we-test-powerlifts-yamaha-yz450f/features/mod-squad/",
+   "notes": "Owner build test-ridden by Swapmoto; text is a parts list only (ride impressions in video).",
+   "parts": [
+    {
+     "category": "engine",
+     "brand": "Boyko Racing",
+     "product": "Ported and polished head",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "exhaust",
+     "brand": "FMF",
+     "product": "4.1 titanium exhaust",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "clutch",
+     "brand": "Hinson",
+     "product": "Complete clutch components",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "suspension",
+     "brand": "enzo racing",
+     "product": "Fork and shock modifications",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "engine_mounts",
+     "brand": "Works Chassis Labs",
+     "product": "Titanium motor mounts",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "controls",
+     "brand": "ASV",
+     "product": "Levers",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "handlebar",
+     "brand": "ODI",
+     "product": "Handlebars and grips",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "tires",
+     "brand": "Pirelli",
+     "product": "Scorpion MX32",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "brakes",
+     "brand": "Galfer",
+     "product": "Rotors, braided lines, pads",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "wheels",
+     "brand": "Faster USA / Excel",
+     "product": "Faster USA hubs, Excel A60 rims",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "drivetrain",
+     "brand": "Vortex",
+     "product": "Chain and sprockets, stock gearing",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "protection",
+     "brand": "Lightspeed",
+     "product": "Glide plate, rear rotor guard, front disc cover, caliper guard, upper fork guards",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "controls",
+     "brand": "Hammerhead",
+     "product": "Shifter and rear brake pedal",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "protection",
+     "brand": "Works Connection",
+     "product": "Radiator guards, chain adjuster blocks",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "fuel",
+     "brand": "VP",
+     "product": "U4.4",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    }
+   ]
+  },
+  {
+   "id": "jb6-003",
+   "title": "Swapmoto project 2024 Yamaha YZ250F",
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250F",
+    "year": "2024"
+   },
+   "publication": "Swapmoto Live",
+   "date": "2024-06-30",
+   "url": "https://swapmotolive.com/project-yamaha-yz250f-mod-squad/features/mod-squad/",
+   "notes": "Shootout-winning 2024 YZ250F improved \"without getting too crazy\". Prices as stated; ride impressions in video only.",
+   "parts": [
+    {
+     "category": "engine",
+     "brand": "Yamaha GYTR",
+     "product": "Performance ported cylinder head assembly (USD 2299.99)",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "triple_clamp",
+     "brand": "Xtrig",
+     "product": "ROCS Pro triple clamps (USD 899.99)",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "handlebar",
+     "brand": "Pro Taper",
+     "product": "ACF handlebar (USD 139.99)",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "suspension",
+     "brand": "enzo racing",
+     "product": "Fork revalve USD 220, shock revalve USD 220",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "clutch",
+     "brand": "Hinson Racing",
+     "product": "Billetproof clutch assembly (USD 1119.99)",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    }
+   ]
+  },
+  {
+   "id": "jb6-004",
+   "title": "Bill's Pipes 300 cc Yamaha YZ250 (Two-Stroke World Championship bike)",
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250",
+    "year": "2025"
+   },
+   "publication": "Swapmoto Live",
+   "date": "2025-05-13",
+   "url": "https://swapmotolive.com/bills-pipes-yamaha-yz300-mod-squad/features/mod-squad/",
+   "notes": "Trevor Stewart finished in the money in the Pro class; no per-part results in text.",
+   "parts": [
+    {
+     "category": "engine",
+     "brand": "Athena",
+     "product": "300 cc big-bore kit",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "intake",
+     "brand": "Moto Tassinari",
+     "product": "Reed block",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "clutch",
+     "brand": "Hinson",
+     "product": "Billet clutch",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "exhaust",
+     "brand": "Bill's Pipes",
+     "product": "Custom pipe and silencer",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "suspension",
+     "brand": "enzo racing",
+     "product": "Suspension tuned for the rider",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "handlebar",
+     "brand": "Pro Taper",
+     "product": "Bars",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "footpegs",
+     "brand": "Moto Stuff",
+     "product": "Titanium footpegs",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "seat",
+     "brand": "GUTS Racing",
+     "product": "Seat cover",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "plastics",
+     "brand": "Acerbis",
+     "product": "Plastic kit",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    }
+   ]
+  },
+  {
+   "id": "jb6-005",
+   "title": "Swapmoto 2026 Kawasaki KX450SR build, phase one",
+   "bike": {
+    "make": "Kawasaki",
+    "model": "KX450",
+    "year": "2026 (KX450SR)"
+   },
+   "publication": "Swapmoto Live",
+   "date": "2026-03-17",
+   "url": "https://swapmotolive.com/2026-kawasaki-kx450sr-build-phase-one-mod-squad/features/mod-squad/",
+   "notes": "Aim: fix stock coated Showa suspension that moves through the stroke too quickly. Results in video only.",
+   "parts": [
+    {
+     "category": "suspension",
+     "brand": "REP Suspension",
+     "product": "Revalve",
+     "part_numbers": [],
+     "purpose": "Slow the rapid stroke progression",
+     "observed": null
+    },
+    {
+     "category": "wheels",
+     "brand": "D.I.D / Haan / Dubya USA",
+     "product": "D.I.D STX rims with Haan hubs",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "seat",
+     "brand": "GUTS Racing",
+     "product": "Foam and cover",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "controls",
+     "brand": "ASV",
+     "product": "Levers",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "chassis",
+     "brand": "Works Connection",
+     "product": "Bling parts",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "plastics",
+     "brand": "Acerbis",
+     "product": "Plastics",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    }
+   ]
+  },
+  {
+   "id": "jb6-006",
+   "title": "Swapmoto (Donn Maeda) 2026 Yamaha YZ250",
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ250",
+    "year": "2026"
+   },
+   "publication": "Swapmoto Live",
+   "date": "2026-09-30",
+   "url": "https://swapmotolive.com/mod-squad-why-our-yamaha-yz250-two-stroke-rules/features/mod-squad/",
+   "notes": "Bolt-ons to make the bike easier, safer and more fun; ridden by pro tester Bradley Lionnet. Prices as stated; impressions in video.",
+   "parts": [
+    {
+     "category": "suspension",
+     "brand": "enzo racing",
+     "product": "Technica QS fork sub tank kit with spring tubes (USD 500); fork revalve USD 393; shock revalve USD 368",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "exhaust",
+     "brand": "Bill's Pipes",
+     "product": "MX2 Works pipe cone look (USD 399.99), MX2 carbon silencer (USD 229.99)",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "intake",
+     "brand": "Boyesen",
+     "product": "Rad Valve Torque (USD 209.95), Power X Wing (USD 129.95)",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "handlebar",
+     "brand": "Phoenix",
+     "product": "118 handlebars (USD 114), 50/50 grip",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "seat",
+     "brand": "GUTS Racing",
+     "product": "Interactive Rib seat cover",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "tires",
+     "brand": "Maxxis",
+     "product": "Maxxcross MX-IH and MX-SI",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "protection",
+     "brand": "FASST Co",
+     "product": "Gripper Stikkers",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    }
+   ]
+  },
+  {
+   "id": "jb6-007",
+   "title": "Swapmoto Yamaha YZ125 bolt-on build",
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ125",
+    "year": "not stated (2026 article)"
+   },
+   "publication": "Swapmoto Live",
+   "date": "2026-10-12",
+   "url": "https://swapmotolive.com/mod-squad-yamaha-yz125-build/features/mod-squad/",
+   "notes": "A few simple bolt-ons; ridden at Cahuilla by Bradley Lionnet and Chase Curtis; impressions in video.",
+   "parts": [
+    {
+     "category": "suspension",
+     "brand": "enzo racing",
+     "product": "Fork revalve USD 393, shock revalve USD 368",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "exhaust",
+     "brand": "Bill's Pipes",
+     "product": "MX2 Works pipe (USD 299.99), MX2 silencer (USD 169.99)",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "seat",
+     "brand": "GUTS Racing",
+     "product": "Complete ribbed seat (USD 304.99)",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "handlebar",
+     "brand": "ProTaper",
+     "product": "ACF handlebars (USD 162.99), clamp-on grips",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    }
+   ]
+  },
+  {
+   "id": "jb6-008",
+   "title": "Keefer weekend race set-up 2023 Yamaha YZ450F",
+   "bike": {
+    "make": "Yamaha",
+    "model": "YZ450F",
+    "year": "2023"
+   },
+   "publication": "Keefer Inc Testing",
+   "date": "2023-05-31",
+   "url": "https://www.keeferinctesting.com/weekend-race-set-up-2023-yamaha-yz450f/",
+   "notes": "Also recorded as a feedback finding; parts listed here for the Garage.",
+   "parts": [
+    {
+     "category": "ecu",
+     "brand": "GET",
+     "product": "ECU (stock tune)",
+     "part_numbers": [],
+     "purpose": "Linear roll-on",
+     "observed": "Broader pulling power"
+    },
+    {
+     "category": "exhaust",
+     "brand": "Akrapovic",
+     "product": "Evolution system",
+     "part_numbers": [],
+     "purpose": "Smoother bottom-to-mid",
+     "observed": "More traction out of choppy corners"
+    },
+    {
+     "category": "suspension",
+     "brand": "REP Suspension",
+     "product": "Fork KK2551BF / shock KK2551BS spec",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": "Better small-bump comfort; shock wants more comfort on acceleration chop"
+    },
+    {
+     "category": "clutch",
+     "brand": "Hinson",
+     "product": "9-plate clutch pack, stock basket",
+     "part_numbers": [],
+     "purpose": "Longevity",
+     "observed": "Less fade"
+    },
+    {
+     "category": "controls",
+     "brand": "Works Connection",
+     "product": "Perch with Honda 26 mm ratio lever",
+     "part_numbers": [],
+     "purpose": "Clutch feel",
+     "observed": "Wider, less grabby engagement"
+    },
+    {
+     "category": "tires",
+     "brand": "Dunlop",
+     "product": "MX34 front / MX14 rear",
+     "part_numbers": [],
+     "purpose": "Sandy over hard pack",
+     "observed": "MX14 superb off the start"
+    },
+    {
+     "category": "footpegs",
+     "brand": "Works Connection / Pro Pegs",
+     "product": "Aluminium offset mounts, open-cleat pegs",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "intake",
+     "brand": "Twin Air",
+     "product": "PowerFlow",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "holeshot",
+     "brand": "Works Connection",
+     "product": "Pro Launch at 140 mm",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "drivetrain",
+     "brand": "Renthal / DID",
+     "product": "Renthal sprockets 13/49, DID ERT3 chain",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "handlebar",
+     "brand": "Pro Taper",
+     "product": "SX Race EVO",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "plastics",
+     "brand": "Polisport",
+     "product": "Plastics",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "Small bikes are thin: no written aftermarket tests found for YZ65, YZ85, KX65, KX112 or RM-Z-class minis in the sources read; only Kite Elite KX85 wheels (Dirt Bike) and Lectron CRF150R carb (MXA).",
+  "No written Showa or KYB A-kit, Ohlins or WP-conversion tests for Japanese bikes beyond the WP Pro Components KX450 test (Keefer); Keefer says he struggled to find plushness with Showa A-kits but gives no specific test.",
+  "No Honda HRC tuning-tool or Kawasaki coupler product tests found; Suzuki coupler advice only (MXA). ECU items are mostly Keefer Power Tuner and Kawasaki maps published as images, so map values are not captured.",
+  "No 2020+ piston tests found for Japanese 450s/250Fs (the Keefer Pro Circuit KX450 piston review is already in the existing files).",
+  "Many Keefer posts after 2023 are video-only (content is an embed), e.g. Keefer Tested GET RX1 Pro ECU 2023 YZ450F, FMF 4.1 slip-on 2023 YZ450F, Top 5 mods 2023 YZ450F, YZ450F flywheel weights tested (2025-11), Flo 10 mm clutch master cylinder CRF450R, Top 5 mods 2025 KX250, Kawasaki KX450 mods you can feel, Yoshimura RS-12 2027 CRF450R/YZ450F (2026-10-28); no findings were taken from them.",
+  "Many Swapmoto Mod Squad pieces are video-only; parts lists were recorded as builds without results, and no outcomes were inferred.",
+  "Dubya Edge wheels, Pro Circuit throttle tube, FLO titanium pegs, Bridgestone X31 and Ride Engineering Pulse rotor did not name a single test bike/year; bike fields say so.",
+  "Prices are as stated on the publication date and are not current."
+ ],
+ "not_done": [
+  "Racer X \"Tested\", Vital MX product reviews, Cycle News product tests and Dirt Rider were not crawled in this pass (time); Cycle News returned HTTP 403 to direct fetch.",
+  "MXA site search, tag and category feeds are behind a bot check; only the main RSS feed (pages 1-250, July 2023 to Nov 2026) was readable, so MXA tests before mid-2023 are not covered.",
+  "Keefer Tested YouTube descriptions were not read; only keeferinctesting.com and pulpmx.com WordPress posts.",
+  "PulpMX product posts largely duplicate keeferinctesting.com posts; the PulpMX copies were not added separately.",
+  "Keefer 2026-01-10 Yoshimura RS-12 KX450 review largely repeats the 2024-08-06 review (price USD 1099 vs 979); not added as a separate finding.",
+  "Handlebar-bend guides for 2024-2026 (Keefer) and pro bar-bend lists were skipped except Suzuki notes for 2020 and 2023."
+ ]
+}

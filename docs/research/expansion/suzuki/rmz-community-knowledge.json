@@ -1,0 +1,4738 @@
+{
+ "title": "Suzuki RM-Z250 / RM-Z450 community and second-hand knowledge (COMMUNITY tier)",
+ "date": "2026-11-03",
+ "rule": "A value is loaded only when at least two independent sources agree; a manual copy and a site copying the same manual count as one. Two different editions of the owner's manual are counted as two sources but never earn high confidence on their own. Disagreements are stored as a spread with low confidence or left out.",
+ "not_applied_to_2027": "Suzuki moved the 2027 RM-Z450 to KYB suspension and re-tuned the 2027 RM-Z250 KYB suspension (see source dr27); no row is applied to 2027.",
+ "blocked": [
+  "web.archive.org (connection reset through the agent proxy, so no archived suzukicycles.com pages were read)",
+  "amsoil.com and knfilters.com lookups (site refused)",
+  "manualslib.com page views after about 15 requests (served the same page for every page number)"
+ ],
+ "sources": {
+  "om250": {
+   "type": "manual_copy",
+   "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+   "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+   "date": "n.d.",
+   "scope": "Edition matches the 2019+ RM-Z250 (NGK CR8EIB-10, 1485 mm wheelbase, 955 mm seat height, 6.3 L tank)."
+  },
+  "om450a": {
+   "type": "manual_copy",
+   "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+   "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+   "date": "2021",
+   "scope": "ManualsLib lists it for the 2021 RM-Z450; NGK DIMR8C10, 1480 mm wheelbase, 960 mm seat height."
+  },
+  "om450b": {
+   "type": "manual_copy",
+   "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+   "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+   "date": "2023",
+   "scope": "Model year not printed; read from a local copy (sha256 de83fcc69335517ecab0700697c84e66d22cb31308bd8da372fa9540ae08b837) whose page count, 110 mm sag and oil figures match ManualsLib 3539725."
+  },
+  "mxa250": {
+   "type": "magazine",
+   "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+   "date": "2019-2025",
+   "also": [
+    "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z250",
+    "https://motocrossactionmag.com/mxa-tech-spec-10-things-you-need-to-know-about-the-2023-suzuki-rm-z250",
+    "https://motocrossactionmag.com/mxa-race-test-2025-suzuki-rm-z250"
+   ]
+  },
+  "dr250": {
+   "type": "magazine",
+   "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+   "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+   "date": "2023"
+  },
+  "dr450": {
+   "type": "magazine",
+   "name": "Dirt Rider, 2023 Suzuki RM-Z450 Technical Information",
+   "url": "https://www.dirtrider.com/story/dirt-bikes/suzuki-rm-z450-technical-information-2023/",
+   "date": "2023"
+  },
+  "vital250a": {
+   "type": "forum",
+   "name": "Vital MX forum: Latest Gen RMZ250 Suspension Help",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Latest-Gen-RMZ250-Suspension-Help,1386404",
+   "date": "2021"
+  },
+  "vital250b": {
+   "type": "forum",
+   "name": "Vital MX forum: 2021 RMZ250 suspension and rigidity",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/2021-RMZ250-suspension-and-rigidity,1403306",
+   "date": "2022"
+  },
+  "mxa450": {
+   "type": "magazine",
+   "name": "Motocross Action race tests of the 2020, 2021, 2023, 2024 and 2025 RM-Z450 (setup boxes repeat across years; counted as one source)",
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+   "date": "2020-2025",
+   "also": [
+    "https://motocrossactionmag.com/mxa-2020-suzuki-rm-z450",
+    "https://motocrossactionmag.com/mxa-race-test-2023-suzuki-rm-z450",
+    "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2024-suzuki-rm-z450",
+    "https://motocrossactionmag.com/mxa-race-test-2025-suzuki-rm-z450"
+   ]
+  },
+  "cn23": {
+   "type": "magazine",
+   "name": "Cycle News, 2023 Suzuki RM-Z250 & RM-Z450 Review",
+   "url": "https://www.cyclenews.com/2022/10/article/2023-suzuki-rm-z250-rm-z450-review/",
+   "date": "2022-10"
+  },
+  "ngk": {
+   "type": "retailer",
+   "name": "THS Moto product page, NGK DIMR8C10 (lists gap and RM-Z450 fitment)",
+   "url": "https://www.thsmoto.co.nz/products/ngkdimr8c10",
+   "date": "n.d."
+  },
+  "kit450": {
+   "type": "retailer",
+   "name": "Counties Honda: sprocket kit Suzuki RMZ450 '13- U-Ring GB520MXU 13/50 (OEM-spec replacement kit)",
+   "url": "https://shop.countieshonda.co.nz/products/skmxs383o",
+   "date": "n.d."
+  },
+  "dr27": {
+   "type": "magazine",
+   "name": "Dueruote, Suzuki rinnova le RM-Z 2027 (2027 changes: KYB suspension on the RM-Z450, new KYB tuning on the RM-Z250)",
+   "url": "https://www.dueruote.it/news/moto-scooter/2026/07/09/suzuki-rinnova-le-rm-z-2027-ecco-le-novita.amp/",
+   "date": "2026-07"
+  }
+ },
+ "records": [
+  {
+   "id": "rmzc-250-01",
+   "model": "RM-Z250",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "domain": "suspension",
+   "topic": "fork compression standard setting",
+   "statement": "Fork compression standard: 11 clicks out from fully in (commonly listed for the {y} RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "values": {
+    "fork_compression_clicks_out": 11
+   },
+   "sources": [
+    "om250",
+    "mxa250"
+   ],
+   "confidence": "high",
+   "notes": "An owner's-manual copy and repeated magazine test bikes agree on 11 clicks out. The 2027 model changed suspension, so this is not applied to 2027."
+  },
+  {
+   "id": "rmzc-250-02",
+   "model": "RM-Z250",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "domain": "suspension",
+   "topic": "fork rebound standard setting",
+   "statement": "Fork rebound standard: 13 clicks out from fully in (commonly listed for the {y} RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "values": {
+    "fork_rebound_clicks_out": 13
+   },
+   "sources": [
+    "om250",
+    "mxa250"
+   ],
+   "confidence": "medium",
+   "notes": "The owner's-manual copy gives 13 clicks out; magazine testers run 13 out and describe rebound as left at stock. The 2027 model changed suspension, so this is not applied to 2027."
+  },
+  {
+   "id": "rmzc-250-03",
+   "model": "RM-Z250",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "domain": "suspension",
+   "topic": "shock clicker standard settings (four-way KYB shock)",
+   "statement": "Shock standard settings, counted out from fully in: low-speed compression 14 clicks, high-speed compression 14 clicks, low-speed rebound 14 clicks, high-speed rebound (on the shock clevis) 16 clicks, where its two punch marks line up (commonly listed for the {y} RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "values": {
+    "shock_lsc_clicks_out": 14,
+    "shock_hsc_clicks_out": 14,
+    "shock_lsr_clicks_out": 14,
+    "shock_hsr_clicks_out": 16
+   },
+   "sources": [
+    "om250",
+    "mxa250",
+    "dr250"
+   ],
+   "confidence": "medium",
+   "notes": "The owner's-manual copy lists these as standard; magazine testers run the identical four settings and call the stock shock clickers sound. The four-way layout (high-speed rebound on the clevis) is confirmed by a separate test. The 2027 model changed suspension, so this is not applied to 2027."
+  },
+  {
+   "id": "rmzc-250-04",
+   "model": "RM-Z250",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "domain": "suspension",
+   "topic": "stock fork spring rate",
+   "statement": "Stock fork spring rate: 5.0 N/mm (0.51 kgf/mm) (commonly listed for the {y} RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "values": {
+    "fork_spring_n_mm": 5.0
+   },
+   "sources": [
+    "om250",
+    "mxa250",
+    "dr250"
+   ],
+   "confidence": "high",
+   "notes": "Three independent sources agree. Testers commonly call it stiff for a 250 and fit 4.6-4.9 N/mm for lighter riders. The 2027 model changed suspension, so this is not applied to 2027."
+  },
+  {
+   "id": "rmzc-250-05",
+   "model": "RM-Z250",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "domain": "suspension",
+   "topic": "stock shock spring rate",
+   "statement": "Stock shock spring rate: 52 N/mm (5.3 kgf/mm) (commonly listed for the {y} RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "values": {
+    "shock_spring_n_mm": 52
+   },
+   "sources": [
+    "om250",
+    "mxa250",
+    "dr250",
+    "vital250b"
+   ],
+   "confidence": "high",
+   "notes": "Four independent sources agree (owners quote it as 5.3 kg/mm). The 2027 model changed suspension, so this is not applied to 2027."
+  },
+  {
+   "id": "rmzc-250-06",
+   "model": "RM-Z250",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "domain": "suspension",
+   "topic": "race sag standard",
+   "statement": "Race (rider) sag standard: 110 mm (4.33 in) (commonly listed for the {y} RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "values": {
+    "race_sag_mm": 110
+   },
+   "sources": [
+    "om250",
+    "mxa250",
+    "vital250a"
+   ],
+   "confidence": "high",
+   "notes": "Three independent sources agree. Testers often run 104-107 mm. The 2027 model changed suspension, so this is not applied to 2027."
+  },
+  {
+   "id": "rmzc-250-07",
+   "model": "RM-Z250",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "domain": "suspension",
+   "topic": "fork oil quantity standard",
+   "statement": "Fork oil quantity standard: 360 ml (12.2 US oz) per leg with the standard spring (commonly listed for the {y} RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "values": {
+    "fork_oil_ml_per_leg": 360
+   },
+   "sources": [
+    "om250",
+    "vital250a"
+   ],
+   "confidence": "high",
+   "notes": "An owner's-manual copy and owner reports agree on 360 ml; owners and tuners often lower it about 20 ml to soften the stiff fork. The 2027 model changed suspension, so this is not applied to 2027."
+  },
+  {
+   "id": "rmzc-450-01",
+   "model": "RM-Z450",
+   "years": [
+    2020,
+    2021
+   ],
+   "domain": "suspension",
+   "topic": "shock clicker standard settings (Showa BFRC)",
+   "statement": "Shock standard settings: compression 1-1/2 turns out, rebound 3 turns out from fully in; the BFRC shock has a single compression adjuster and no separate high-speed adjuster (commonly listed for the {y} RM-Z450; not from a Suzuki-published source).",
+   "values": {
+    "shock_compression_turns_out": 1.5,
+    "shock_rebound_turns_out": 3,
+    "shock_high_speed_adjuster": false
+   },
+   "sources": [
+    "om450a",
+    "mxa450"
+   ],
+   "confidence": "high",
+   "notes": "The 2021 owner's-manual copy and magazine test bikes agree. A later manual edition (model year not printed) lists 2 turns compression and 1 turn rebound, so these figures are applied only to 2020-2021."
+  },
+  {
+   "id": "rmzc-450-02",
+   "model": "RM-Z450",
+   "years": [
+    2020,
+    2021
+   ],
+   "domain": "suspension",
+   "topic": "fork compression standard setting",
+   "statement": "Fork compression standard: riders and manual copies list 6-8 clicks out from fully in for the {y} RM-Z450 (not from a Suzuki-published source).",
+   "values": {
+    "fork_compression_clicks_out_min": 6,
+    "fork_compression_clicks_out_max": 8
+   },
+   "sources": [
+    "om450a",
+    "mxa450"
+   ],
+   "confidence": "low",
+   "notes": "Sources disagree: the 2021 owner's-manual copy gives 8 clicks out, magazine test bikes list 6 out as stock. Stored as a spread; a later manual edition gives 9 out."
+  },
+  {
+   "id": "rmzc-450-03",
+   "model": "RM-Z450",
+   "years": [
+    2020,
+    2021
+   ],
+   "domain": "suspension",
+   "topic": "race sag standard",
+   "statement": "Race (rider) sag standard: listed as 105-108 mm for the {y} RM-Z450 (not from a Suzuki-published source).",
+   "values": {
+    "race_sag_mm_min": 105,
+    "race_sag_mm_max": 108
+   },
+   "sources": [
+    "om450a",
+    "mxa450"
+   ],
+   "confidence": "low",
+   "notes": "Sources disagree: the 2021 owner's-manual copy gives 105 mm, magazine test bikes list 108 mm as stock. A later manual edition and 2023 test bikes use 110 mm."
+  },
+  {
+   "id": "rmzc-450-04",
+   "model": "RM-Z450",
+   "years": [
+    2020,
+    2021
+   ],
+   "domain": "suspension",
+   "topic": "stock shock spring rate",
+   "statement": "Stock shock spring rate: 54 N/mm (5.5 kgf/mm) (commonly listed for the {y} RM-Z450; not from a Suzuki-published source).",
+   "values": {
+    "shock_spring_n_mm": 54
+   },
+   "sources": [
+    "om450a",
+    "mxa450"
+   ],
+   "confidence": "medium",
+   "notes": "The 2021 owner's-manual copy lists part 62211-37K00 as standard in a 52/54/56 N/mm soft/standard/hard table; magazine testers say Suzuki fitted 54 N/mm from 2019. The later manual edition and a 2023 test list 56 N/mm as standard, so this is applied only to 2020-2021."
+  },
+  {
+   "id": "rmzc-450-05",
+   "model": "RM-Z450",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "domain": "suspension",
+   "topic": "stock fork spring rate",
+   "statement": "Stock fork spring rate: 5.0 N/mm (0.51 kgf/mm) (commonly listed for the {y} RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "values": {
+    "fork_spring_n_mm": 5.0
+   },
+   "sources": [
+    "om450a",
+    "om450b",
+    "dr250"
+   ],
+   "confidence": "high",
+   "notes": "Two separate owner's-manual editions and an independent test agree. The 2027 model changed suspension, so this is not applied to 2027."
+  },
+  {
+   "id": "rmzc-450-06",
+   "model": "RM-Z450",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "domain": "suspension",
+   "topic": "fork rebound standard setting",
+   "statement": "Fork rebound standard: 11 clicks out from fully in (commonly listed for the {y} RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "values": {
+    "fork_rebound_clicks_out": 11
+   },
+   "sources": [
+    "om450a",
+    "om450b"
+   ],
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree; no independent test confirmation. The 2027 model changed suspension, so this is not applied to 2027."
+  },
+  {
+   "id": "rmzc-450-07",
+   "model": "RM-Z450",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "domain": "suspension",
+   "topic": "fork oil quantity standard and range",
+   "statement": "Fork oil quantity standard: 365 ml (12.3 US oz) per leg with the standard 5.0 N/mm spring, adjustable range 297-398 ml (commonly listed for the {y} RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "values": {
+    "fork_oil_ml_per_leg": 365,
+    "fork_oil_range_ml": "297-398"
+   },
+   "sources": [
+    "om450a",
+    "om450b"
+   ],
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree; no independent confirmation. The 2027 model changed suspension, so this is not applied to 2027."
+  },
+  {
+   "id": "rmzc-450-08",
+   "model": "RM-Z450",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "domain": "maintenance",
+   "topic": "engine oil capacity and grade",
+   "statement": "Engine oil: about 1050 ml (1.1 US qt) at an oil change, 1100 ml (1.2 US qt) with a filter change; SAE 10W-40, JASO MA (commonly listed for the {y} RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "values": {
+    "oil_change_ml": 1050,
+    "oil_and_filter_ml": 1100,
+    "viscosity": "10W-40",
+    "jaso": "MA"
+   },
+   "sources": [
+    "om450a",
+    "om450b"
+   ],
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree."
+  },
+  {
+   "id": "rmzc-450-09",
+   "model": "RM-Z450",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "domain": "maintenance",
+   "topic": "coolant capacity",
+   "statement": "Coolant capacity: 1100 ml (1.2 US qt), 50:50 glycol coolant for aluminium engines with distilled water (commonly listed for the {y} RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "values": {
+    "coolant_ml": 1100,
+    "mix": "50:50"
+   },
+   "sources": [
+    "om450a",
+    "om450b"
+   ],
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree."
+  },
+  {
+   "id": "rmzc-450-10",
+   "model": "RM-Z450",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "domain": "maintenance",
+   "topic": "spark plug gap",
+   "statement": "Spark plug gap: 0.9-1.0 mm (0.035-0.039 in); the NGK DIMR8C10 comes pre-gapped at 1.0 mm (commonly listed for the {y} RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "values": {
+    "plug_gap_mm": "0.9-1.0",
+    "ngk_preset_gap_mm": 1.0
+   },
+   "sources": [
+    "om450a",
+    "om450b",
+    "ngk"
+   ],
+   "confidence": "high",
+   "notes": "Owner's-manual copies and the plug seller's listing agree."
+  },
+  {
+   "id": "rmzc-450-11",
+   "model": "RM-Z450",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "domain": "maintenance",
+   "topic": "oil filter cap bolt torque",
+   "statement": "Oil filter cap bolt torque: 11 N·m (8.5 lbf-ft) (commonly listed for the {y} RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "values": {
+    "oil_filter_cap_bolt_nm": 11
+   },
+   "sources": [
+    "om450a",
+    "om450b"
+   ],
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree."
+  },
+  {
+   "id": "rmzc-450-12",
+   "model": "RM-Z450",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "domain": "maintenance",
+   "topic": "drive chain slack",
+   "statement": "Drive chain slack: 35-45 mm (1.4-1.7 in), measured midway between the chain buffer and rear sprocket with the rear wheel off the ground (commonly listed for the {y} RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "values": {
+    "chain_slack_mm": "35-45"
+   },
+   "sources": [
+    "om450a",
+    "om450b"
+   ],
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree. The 2027 model changed suspension and chassis parts, so this is not applied to 2027."
+  },
+  {
+   "id": "rmzc-450-13",
+   "model": "RM-Z450",
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "domain": "drivetrain",
+   "topic": "stock gearing",
+   "statement": "Stock gearing: 13-tooth front, 50-tooth rear sprocket on a 520 chain (commonly listed for the {y} RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "values": {
+    "front_sprocket": 13,
+    "rear_sprocket": 50,
+    "chain_pitch": 520
+   },
+   "sources": [
+    "mxa450",
+    "kit450"
+   ],
+   "confidence": "medium",
+   "notes": "Magazine test bikes list 13/50 as stock and OEM-spec replacement kits for the RM-Z450 are sized 13/50. Testers commonly go one tooth larger on the rear (51). The 2027 model changed suspension and chassis parts, so this is not applied to 2027."
+  }
+ ],
+ "pending_not_loaded": [
+  {
+   "model": "RM-Z450",
+   "item": "later-edition suspension settings (fork compression 9 clicks, rebound 11; shock compression 2 turns, rebound 1 turn; sag 110 mm; standard shock spring 56 N/mm)",
+   "sources": [
+    "om450b",
+    "dr450 (56 N/mm, 2023)",
+    "cn23 (110 mm sag, 2023)"
+   ],
+   "why_not_loaded": "Edition model year not printed; conflicts with the 2021 edition and with magazine stock boxes for 2023 (6 clicks, 1.5/3 turns, 108 mm, 54 N/mm). Needs the year of the edition confirmed."
+  },
+  {
+   "model": "RM-Z450",
+   "item": "rear axle nut 100 N·m; oil drain plug 12 N·m; oil strainer cap 21 N·m; spark plug 11 N·m; bead stopper 14 N·m; spoke nipples 5.5/6.0 N·m; idle 2100 ± 50 r/min; tire pressure 70-110 kPa (10-16 psi); maintenance chart (oil every 6 h, filter, piston/rings and valve-clearance check every 12 h)",
+   "sources": [
+    "om450b"
+   ],
+   "why_not_loaded": "Single source (one manual edition); no second independent match found."
+  },
+  {
+   "model": "RM-Z250",
+   "item": "engine oil 950 ml change / 1000 ml with filter / 1100 ml overhaul; coolant 1100 ml; spark plug torque 11 N·m; shock spring set length 242 mm; fork oil range 310-375 ml; Suzuki L-05 fork oil",
+   "sources": [
+    "om250"
+   ],
+   "why_not_loaded": "Single source (one manual copy); no second independent match found."
+  }
+ ],
+ "rows": [
+  {
+   "id": "rmzc-250-01|Suzuki|RM-Z250|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2020,
+   "domain": "suspension",
+   "topic": "2020 RM-Z250 fork compression standard setting",
+   "statement": "Fork compression standard: 11 clicks out from fully in (commonly listed for the 2020 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_compression_clicks_out": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "An owner's-manual copy and repeated magazine test bikes agree on 11 clicks out. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-01"
+  },
+  {
+   "id": "rmzc-250-01|Suzuki|RM-Z250|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2021,
+   "domain": "suspension",
+   "topic": "2021 RM-Z250 fork compression standard setting",
+   "statement": "Fork compression standard: 11 clicks out from fully in (commonly listed for the 2021 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_compression_clicks_out": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "An owner's-manual copy and repeated magazine test bikes agree on 11 clicks out. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-01"
+  },
+  {
+   "id": "rmzc-250-01|Suzuki|RM-Z250|2022",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2022,
+   "domain": "suspension",
+   "topic": "2022 RM-Z250 fork compression standard setting",
+   "statement": "Fork compression standard: 11 clicks out from fully in (commonly listed for the 2022 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_compression_clicks_out": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "An owner's-manual copy and repeated magazine test bikes agree on 11 clicks out. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-01"
+  },
+  {
+   "id": "rmzc-250-01|Suzuki|RM-Z250|2023",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2023,
+   "domain": "suspension",
+   "topic": "2023 RM-Z250 fork compression standard setting",
+   "statement": "Fork compression standard: 11 clicks out from fully in (commonly listed for the 2023 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_compression_clicks_out": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "An owner's-manual copy and repeated magazine test bikes agree on 11 clicks out. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-01"
+  },
+  {
+   "id": "rmzc-250-01|Suzuki|RM-Z250|2024",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2024,
+   "domain": "suspension",
+   "topic": "2024 RM-Z250 fork compression standard setting",
+   "statement": "Fork compression standard: 11 clicks out from fully in (commonly listed for the 2024 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_compression_clicks_out": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "An owner's-manual copy and repeated magazine test bikes agree on 11 clicks out. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-01"
+  },
+  {
+   "id": "rmzc-250-01|Suzuki|RM-Z250|2025",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2025,
+   "domain": "suspension",
+   "topic": "2025 RM-Z250 fork compression standard setting",
+   "statement": "Fork compression standard: 11 clicks out from fully in (commonly listed for the 2025 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_compression_clicks_out": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "An owner's-manual copy and repeated magazine test bikes agree on 11 clicks out. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-01"
+  },
+  {
+   "id": "rmzc-250-01|Suzuki|RM-Z250|2026",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2026,
+   "domain": "suspension",
+   "topic": "2026 RM-Z250 fork compression standard setting",
+   "statement": "Fork compression standard: 11 clicks out from fully in (commonly listed for the 2026 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_compression_clicks_out": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "An owner's-manual copy and repeated magazine test bikes agree on 11 clicks out. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-01"
+  },
+  {
+   "id": "rmzc-250-02|Suzuki|RM-Z250|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2020,
+   "domain": "suspension",
+   "topic": "2020 RM-Z250 fork rebound standard setting",
+   "statement": "Fork rebound standard: 13 clicks out from fully in (commonly listed for the 2020 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_rebound_clicks_out": 13
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "The owner's-manual copy gives 13 clicks out; magazine testers run 13 out and describe rebound as left at stock. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-02"
+  },
+  {
+   "id": "rmzc-250-02|Suzuki|RM-Z250|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2021,
+   "domain": "suspension",
+   "topic": "2021 RM-Z250 fork rebound standard setting",
+   "statement": "Fork rebound standard: 13 clicks out from fully in (commonly listed for the 2021 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_rebound_clicks_out": 13
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "The owner's-manual copy gives 13 clicks out; magazine testers run 13 out and describe rebound as left at stock. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-02"
+  },
+  {
+   "id": "rmzc-250-02|Suzuki|RM-Z250|2022",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2022,
+   "domain": "suspension",
+   "topic": "2022 RM-Z250 fork rebound standard setting",
+   "statement": "Fork rebound standard: 13 clicks out from fully in (commonly listed for the 2022 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_rebound_clicks_out": 13
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "The owner's-manual copy gives 13 clicks out; magazine testers run 13 out and describe rebound as left at stock. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-02"
+  },
+  {
+   "id": "rmzc-250-02|Suzuki|RM-Z250|2023",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2023,
+   "domain": "suspension",
+   "topic": "2023 RM-Z250 fork rebound standard setting",
+   "statement": "Fork rebound standard: 13 clicks out from fully in (commonly listed for the 2023 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_rebound_clicks_out": 13
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "The owner's-manual copy gives 13 clicks out; magazine testers run 13 out and describe rebound as left at stock. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-02"
+  },
+  {
+   "id": "rmzc-250-02|Suzuki|RM-Z250|2024",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2024,
+   "domain": "suspension",
+   "topic": "2024 RM-Z250 fork rebound standard setting",
+   "statement": "Fork rebound standard: 13 clicks out from fully in (commonly listed for the 2024 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_rebound_clicks_out": 13
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "The owner's-manual copy gives 13 clicks out; magazine testers run 13 out and describe rebound as left at stock. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-02"
+  },
+  {
+   "id": "rmzc-250-02|Suzuki|RM-Z250|2025",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2025,
+   "domain": "suspension",
+   "topic": "2025 RM-Z250 fork rebound standard setting",
+   "statement": "Fork rebound standard: 13 clicks out from fully in (commonly listed for the 2025 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_rebound_clicks_out": 13
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "The owner's-manual copy gives 13 clicks out; magazine testers run 13 out and describe rebound as left at stock. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-02"
+  },
+  {
+   "id": "rmzc-250-02|Suzuki|RM-Z250|2026",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2026,
+   "domain": "suspension",
+   "topic": "2026 RM-Z250 fork rebound standard setting",
+   "statement": "Fork rebound standard: 13 clicks out from fully in (commonly listed for the 2026 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_rebound_clicks_out": 13
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "The owner's-manual copy gives 13 clicks out; magazine testers run 13 out and describe rebound as left at stock. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-02"
+  },
+  {
+   "id": "rmzc-250-03|Suzuki|RM-Z250|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2020,
+   "domain": "suspension",
+   "topic": "2020 RM-Z250 shock clicker standard settings (four-way KYB shock)",
+   "statement": "Shock standard settings, counted out from fully in: low-speed compression 14 clicks, high-speed compression 14 clicks, low-speed rebound 14 clicks, high-speed rebound (on the shock clevis) 16 clicks, where its two punch marks line up (commonly listed for the 2020 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "shock_lsc_clicks_out": 14,
+    "shock_hsc_clicks_out": 14,
+    "shock_lsr_clicks_out": 14,
+    "shock_hsr_clicks_out": 16
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "The owner's-manual copy lists these as standard; magazine testers run the identical four settings and call the stock shock clickers sound. The four-way layout (high-speed rebound on the clevis) is confirmed by a separate test. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-03"
+  },
+  {
+   "id": "rmzc-250-03|Suzuki|RM-Z250|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2021,
+   "domain": "suspension",
+   "topic": "2021 RM-Z250 shock clicker standard settings (four-way KYB shock)",
+   "statement": "Shock standard settings, counted out from fully in: low-speed compression 14 clicks, high-speed compression 14 clicks, low-speed rebound 14 clicks, high-speed rebound (on the shock clevis) 16 clicks, where its two punch marks line up (commonly listed for the 2021 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "shock_lsc_clicks_out": 14,
+    "shock_hsc_clicks_out": 14,
+    "shock_lsr_clicks_out": 14,
+    "shock_hsr_clicks_out": 16
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "The owner's-manual copy lists these as standard; magazine testers run the identical four settings and call the stock shock clickers sound. The four-way layout (high-speed rebound on the clevis) is confirmed by a separate test. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-03"
+  },
+  {
+   "id": "rmzc-250-03|Suzuki|RM-Z250|2022",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2022,
+   "domain": "suspension",
+   "topic": "2022 RM-Z250 shock clicker standard settings (four-way KYB shock)",
+   "statement": "Shock standard settings, counted out from fully in: low-speed compression 14 clicks, high-speed compression 14 clicks, low-speed rebound 14 clicks, high-speed rebound (on the shock clevis) 16 clicks, where its two punch marks line up (commonly listed for the 2022 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "shock_lsc_clicks_out": 14,
+    "shock_hsc_clicks_out": 14,
+    "shock_lsr_clicks_out": 14,
+    "shock_hsr_clicks_out": 16
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "The owner's-manual copy lists these as standard; magazine testers run the identical four settings and call the stock shock clickers sound. The four-way layout (high-speed rebound on the clevis) is confirmed by a separate test. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-03"
+  },
+  {
+   "id": "rmzc-250-03|Suzuki|RM-Z250|2023",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2023,
+   "domain": "suspension",
+   "topic": "2023 RM-Z250 shock clicker standard settings (four-way KYB shock)",
+   "statement": "Shock standard settings, counted out from fully in: low-speed compression 14 clicks, high-speed compression 14 clicks, low-speed rebound 14 clicks, high-speed rebound (on the shock clevis) 16 clicks, where its two punch marks line up (commonly listed for the 2023 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "shock_lsc_clicks_out": 14,
+    "shock_hsc_clicks_out": 14,
+    "shock_lsr_clicks_out": 14,
+    "shock_hsr_clicks_out": 16
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "The owner's-manual copy lists these as standard; magazine testers run the identical four settings and call the stock shock clickers sound. The four-way layout (high-speed rebound on the clevis) is confirmed by a separate test. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-03"
+  },
+  {
+   "id": "rmzc-250-03|Suzuki|RM-Z250|2024",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2024,
+   "domain": "suspension",
+   "topic": "2024 RM-Z250 shock clicker standard settings (four-way KYB shock)",
+   "statement": "Shock standard settings, counted out from fully in: low-speed compression 14 clicks, high-speed compression 14 clicks, low-speed rebound 14 clicks, high-speed rebound (on the shock clevis) 16 clicks, where its two punch marks line up (commonly listed for the 2024 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "shock_lsc_clicks_out": 14,
+    "shock_hsc_clicks_out": 14,
+    "shock_lsr_clicks_out": 14,
+    "shock_hsr_clicks_out": 16
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "The owner's-manual copy lists these as standard; magazine testers run the identical four settings and call the stock shock clickers sound. The four-way layout (high-speed rebound on the clevis) is confirmed by a separate test. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-03"
+  },
+  {
+   "id": "rmzc-250-03|Suzuki|RM-Z250|2025",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2025,
+   "domain": "suspension",
+   "topic": "2025 RM-Z250 shock clicker standard settings (four-way KYB shock)",
+   "statement": "Shock standard settings, counted out from fully in: low-speed compression 14 clicks, high-speed compression 14 clicks, low-speed rebound 14 clicks, high-speed rebound (on the shock clevis) 16 clicks, where its two punch marks line up (commonly listed for the 2025 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "shock_lsc_clicks_out": 14,
+    "shock_hsc_clicks_out": 14,
+    "shock_lsr_clicks_out": 14,
+    "shock_hsr_clicks_out": 16
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "The owner's-manual copy lists these as standard; magazine testers run the identical four settings and call the stock shock clickers sound. The four-way layout (high-speed rebound on the clevis) is confirmed by a separate test. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-03"
+  },
+  {
+   "id": "rmzc-250-03|Suzuki|RM-Z250|2026",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2026,
+   "domain": "suspension",
+   "topic": "2026 RM-Z250 shock clicker standard settings (four-way KYB shock)",
+   "statement": "Shock standard settings, counted out from fully in: low-speed compression 14 clicks, high-speed compression 14 clicks, low-speed rebound 14 clicks, high-speed rebound (on the shock clevis) 16 clicks, where its two punch marks line up (commonly listed for the 2026 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "shock_lsc_clicks_out": 14,
+    "shock_hsc_clicks_out": 14,
+    "shock_lsr_clicks_out": 14,
+    "shock_hsr_clicks_out": 16
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "The owner's-manual copy lists these as standard; magazine testers run the identical four settings and call the stock shock clickers sound. The four-way layout (high-speed rebound on the clevis) is confirmed by a separate test. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-03"
+  },
+  {
+   "id": "rmzc-250-04|Suzuki|RM-Z250|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2020,
+   "domain": "suspension",
+   "topic": "2020 RM-Z250 stock fork spring rate",
+   "statement": "Stock fork spring rate: 5.0 N/mm (0.51 kgf/mm) (commonly listed for the 2020 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_spring_n_mm": 5.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Three independent sources agree. Testers commonly call it stiff for a 250 and fit 4.6-4.9 N/mm for lighter riders. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-04"
+  },
+  {
+   "id": "rmzc-250-04|Suzuki|RM-Z250|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2021,
+   "domain": "suspension",
+   "topic": "2021 RM-Z250 stock fork spring rate",
+   "statement": "Stock fork spring rate: 5.0 N/mm (0.51 kgf/mm) (commonly listed for the 2021 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_spring_n_mm": 5.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Three independent sources agree. Testers commonly call it stiff for a 250 and fit 4.6-4.9 N/mm for lighter riders. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-04"
+  },
+  {
+   "id": "rmzc-250-04|Suzuki|RM-Z250|2022",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2022,
+   "domain": "suspension",
+   "topic": "2022 RM-Z250 stock fork spring rate",
+   "statement": "Stock fork spring rate: 5.0 N/mm (0.51 kgf/mm) (commonly listed for the 2022 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_spring_n_mm": 5.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Three independent sources agree. Testers commonly call it stiff for a 250 and fit 4.6-4.9 N/mm for lighter riders. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-04"
+  },
+  {
+   "id": "rmzc-250-04|Suzuki|RM-Z250|2023",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2023,
+   "domain": "suspension",
+   "topic": "2023 RM-Z250 stock fork spring rate",
+   "statement": "Stock fork spring rate: 5.0 N/mm (0.51 kgf/mm) (commonly listed for the 2023 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_spring_n_mm": 5.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Three independent sources agree. Testers commonly call it stiff for a 250 and fit 4.6-4.9 N/mm for lighter riders. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-04"
+  },
+  {
+   "id": "rmzc-250-04|Suzuki|RM-Z250|2024",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2024,
+   "domain": "suspension",
+   "topic": "2024 RM-Z250 stock fork spring rate",
+   "statement": "Stock fork spring rate: 5.0 N/mm (0.51 kgf/mm) (commonly listed for the 2024 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_spring_n_mm": 5.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Three independent sources agree. Testers commonly call it stiff for a 250 and fit 4.6-4.9 N/mm for lighter riders. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-04"
+  },
+  {
+   "id": "rmzc-250-04|Suzuki|RM-Z250|2025",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2025,
+   "domain": "suspension",
+   "topic": "2025 RM-Z250 stock fork spring rate",
+   "statement": "Stock fork spring rate: 5.0 N/mm (0.51 kgf/mm) (commonly listed for the 2025 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_spring_n_mm": 5.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Three independent sources agree. Testers commonly call it stiff for a 250 and fit 4.6-4.9 N/mm for lighter riders. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-04"
+  },
+  {
+   "id": "rmzc-250-04|Suzuki|RM-Z250|2026",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2026,
+   "domain": "suspension",
+   "topic": "2026 RM-Z250 stock fork spring rate",
+   "statement": "Stock fork spring rate: 5.0 N/mm (0.51 kgf/mm) (commonly listed for the 2026 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_spring_n_mm": 5.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Three independent sources agree. Testers commonly call it stiff for a 250 and fit 4.6-4.9 N/mm for lighter riders. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-04"
+  },
+  {
+   "id": "rmzc-250-05|Suzuki|RM-Z250|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2020,
+   "domain": "suspension",
+   "topic": "2020 RM-Z250 stock shock spring rate",
+   "statement": "Stock shock spring rate: 52 N/mm (5.3 kgf/mm) (commonly listed for the 2020 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "shock_spring_n_mm": 52
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     },
+     {
+      "type": "forum",
+      "name": "Vital MX forum: 2021 RMZ250 suspension and rigidity",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/2021-RMZ250-suspension-and-rigidity,1403306",
+      "date": "2022"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Four independent sources agree (owners quote it as 5.3 kg/mm). The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-05"
+  },
+  {
+   "id": "rmzc-250-05|Suzuki|RM-Z250|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2021,
+   "domain": "suspension",
+   "topic": "2021 RM-Z250 stock shock spring rate",
+   "statement": "Stock shock spring rate: 52 N/mm (5.3 kgf/mm) (commonly listed for the 2021 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "shock_spring_n_mm": 52
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     },
+     {
+      "type": "forum",
+      "name": "Vital MX forum: 2021 RMZ250 suspension and rigidity",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/2021-RMZ250-suspension-and-rigidity,1403306",
+      "date": "2022"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Four independent sources agree (owners quote it as 5.3 kg/mm). The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-05"
+  },
+  {
+   "id": "rmzc-250-05|Suzuki|RM-Z250|2022",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2022,
+   "domain": "suspension",
+   "topic": "2022 RM-Z250 stock shock spring rate",
+   "statement": "Stock shock spring rate: 52 N/mm (5.3 kgf/mm) (commonly listed for the 2022 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "shock_spring_n_mm": 52
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     },
+     {
+      "type": "forum",
+      "name": "Vital MX forum: 2021 RMZ250 suspension and rigidity",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/2021-RMZ250-suspension-and-rigidity,1403306",
+      "date": "2022"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Four independent sources agree (owners quote it as 5.3 kg/mm). The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-05"
+  },
+  {
+   "id": "rmzc-250-05|Suzuki|RM-Z250|2023",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2023,
+   "domain": "suspension",
+   "topic": "2023 RM-Z250 stock shock spring rate",
+   "statement": "Stock shock spring rate: 52 N/mm (5.3 kgf/mm) (commonly listed for the 2023 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "shock_spring_n_mm": 52
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     },
+     {
+      "type": "forum",
+      "name": "Vital MX forum: 2021 RMZ250 suspension and rigidity",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/2021-RMZ250-suspension-and-rigidity,1403306",
+      "date": "2022"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Four independent sources agree (owners quote it as 5.3 kg/mm). The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-05"
+  },
+  {
+   "id": "rmzc-250-05|Suzuki|RM-Z250|2024",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2024,
+   "domain": "suspension",
+   "topic": "2024 RM-Z250 stock shock spring rate",
+   "statement": "Stock shock spring rate: 52 N/mm (5.3 kgf/mm) (commonly listed for the 2024 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "shock_spring_n_mm": 52
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     },
+     {
+      "type": "forum",
+      "name": "Vital MX forum: 2021 RMZ250 suspension and rigidity",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/2021-RMZ250-suspension-and-rigidity,1403306",
+      "date": "2022"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Four independent sources agree (owners quote it as 5.3 kg/mm). The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-05"
+  },
+  {
+   "id": "rmzc-250-05|Suzuki|RM-Z250|2025",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2025,
+   "domain": "suspension",
+   "topic": "2025 RM-Z250 stock shock spring rate",
+   "statement": "Stock shock spring rate: 52 N/mm (5.3 kgf/mm) (commonly listed for the 2025 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "shock_spring_n_mm": 52
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     },
+     {
+      "type": "forum",
+      "name": "Vital MX forum: 2021 RMZ250 suspension and rigidity",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/2021-RMZ250-suspension-and-rigidity,1403306",
+      "date": "2022"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Four independent sources agree (owners quote it as 5.3 kg/mm). The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-05"
+  },
+  {
+   "id": "rmzc-250-05|Suzuki|RM-Z250|2026",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2026,
+   "domain": "suspension",
+   "topic": "2026 RM-Z250 stock shock spring rate",
+   "statement": "Stock shock spring rate: 52 N/mm (5.3 kgf/mm) (commonly listed for the 2026 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "shock_spring_n_mm": 52
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     },
+     {
+      "type": "forum",
+      "name": "Vital MX forum: 2021 RMZ250 suspension and rigidity",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/2021-RMZ250-suspension-and-rigidity,1403306",
+      "date": "2022"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Four independent sources agree (owners quote it as 5.3 kg/mm). The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-05"
+  },
+  {
+   "id": "rmzc-250-06|Suzuki|RM-Z250|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2020,
+   "domain": "suspension",
+   "topic": "2020 RM-Z250 race sag standard",
+   "statement": "Race (rider) sag standard: 110 mm (4.33 in) (commonly listed for the 2020 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "race_sag_mm": 110
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "forum",
+      "name": "Vital MX forum: Latest Gen RMZ250 Suspension Help",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Latest-Gen-RMZ250-Suspension-Help,1386404",
+      "date": "2021"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Three independent sources agree. Testers often run 104-107 mm. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-06"
+  },
+  {
+   "id": "rmzc-250-06|Suzuki|RM-Z250|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2021,
+   "domain": "suspension",
+   "topic": "2021 RM-Z250 race sag standard",
+   "statement": "Race (rider) sag standard: 110 mm (4.33 in) (commonly listed for the 2021 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "race_sag_mm": 110
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "forum",
+      "name": "Vital MX forum: Latest Gen RMZ250 Suspension Help",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Latest-Gen-RMZ250-Suspension-Help,1386404",
+      "date": "2021"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Three independent sources agree. Testers often run 104-107 mm. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-06"
+  },
+  {
+   "id": "rmzc-250-06|Suzuki|RM-Z250|2022",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2022,
+   "domain": "suspension",
+   "topic": "2022 RM-Z250 race sag standard",
+   "statement": "Race (rider) sag standard: 110 mm (4.33 in) (commonly listed for the 2022 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "race_sag_mm": 110
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "forum",
+      "name": "Vital MX forum: Latest Gen RMZ250 Suspension Help",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Latest-Gen-RMZ250-Suspension-Help,1386404",
+      "date": "2021"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Three independent sources agree. Testers often run 104-107 mm. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-06"
+  },
+  {
+   "id": "rmzc-250-06|Suzuki|RM-Z250|2023",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2023,
+   "domain": "suspension",
+   "topic": "2023 RM-Z250 race sag standard",
+   "statement": "Race (rider) sag standard: 110 mm (4.33 in) (commonly listed for the 2023 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "race_sag_mm": 110
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "forum",
+      "name": "Vital MX forum: Latest Gen RMZ250 Suspension Help",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Latest-Gen-RMZ250-Suspension-Help,1386404",
+      "date": "2021"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Three independent sources agree. Testers often run 104-107 mm. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-06"
+  },
+  {
+   "id": "rmzc-250-06|Suzuki|RM-Z250|2024",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2024,
+   "domain": "suspension",
+   "topic": "2024 RM-Z250 race sag standard",
+   "statement": "Race (rider) sag standard: 110 mm (4.33 in) (commonly listed for the 2024 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "race_sag_mm": 110
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "forum",
+      "name": "Vital MX forum: Latest Gen RMZ250 Suspension Help",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Latest-Gen-RMZ250-Suspension-Help,1386404",
+      "date": "2021"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Three independent sources agree. Testers often run 104-107 mm. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-06"
+  },
+  {
+   "id": "rmzc-250-06|Suzuki|RM-Z250|2025",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2025,
+   "domain": "suspension",
+   "topic": "2025 RM-Z250 race sag standard",
+   "statement": "Race (rider) sag standard: 110 mm (4.33 in) (commonly listed for the 2025 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "race_sag_mm": 110
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "forum",
+      "name": "Vital MX forum: Latest Gen RMZ250 Suspension Help",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Latest-Gen-RMZ250-Suspension-Help,1386404",
+      "date": "2021"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Three independent sources agree. Testers often run 104-107 mm. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-06"
+  },
+  {
+   "id": "rmzc-250-06|Suzuki|RM-Z250|2026",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2026,
+   "domain": "suspension",
+   "topic": "2026 RM-Z250 race sag standard",
+   "statement": "Race (rider) sag standard: 110 mm (4.33 in) (commonly listed for the 2026 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "race_sag_mm": 110
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2019, 2021 and 2025 RM-Z250 and 2023 tech-spec article",
+      "url": "https://motocrossactionmag.com/mxa-race-test-2019-suzuki-rm-z250",
+      "date": "2019-2025"
+     },
+     {
+      "type": "forum",
+      "name": "Vital MX forum: Latest Gen RMZ250 Suspension Help",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Latest-Gen-RMZ250-Suspension-Help,1386404",
+      "date": "2021"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Three independent sources agree. Testers often run 104-107 mm. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-06"
+  },
+  {
+   "id": "rmzc-250-07|Suzuki|RM-Z250|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2020,
+   "domain": "suspension",
+   "topic": "2020 RM-Z250 fork oil quantity standard",
+   "statement": "Fork oil quantity standard: 360 ml (12.2 US oz) per leg with the standard spring (commonly listed for the 2020 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_oil_ml_per_leg": 360
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "forum",
+      "name": "Vital MX forum: Latest Gen RMZ250 Suspension Help",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Latest-Gen-RMZ250-Suspension-Help,1386404",
+      "date": "2021"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "An owner's-manual copy and owner reports agree on 360 ml; owners and tuners often lower it about 20 ml to soften the stiff fork. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-07"
+  },
+  {
+   "id": "rmzc-250-07|Suzuki|RM-Z250|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2021,
+   "domain": "suspension",
+   "topic": "2021 RM-Z250 fork oil quantity standard",
+   "statement": "Fork oil quantity standard: 360 ml (12.2 US oz) per leg with the standard spring (commonly listed for the 2021 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_oil_ml_per_leg": 360
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "forum",
+      "name": "Vital MX forum: Latest Gen RMZ250 Suspension Help",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Latest-Gen-RMZ250-Suspension-Help,1386404",
+      "date": "2021"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "An owner's-manual copy and owner reports agree on 360 ml; owners and tuners often lower it about 20 ml to soften the stiff fork. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-07"
+  },
+  {
+   "id": "rmzc-250-07|Suzuki|RM-Z250|2022",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2022,
+   "domain": "suspension",
+   "topic": "2022 RM-Z250 fork oil quantity standard",
+   "statement": "Fork oil quantity standard: 360 ml (12.2 US oz) per leg with the standard spring (commonly listed for the 2022 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_oil_ml_per_leg": 360
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "forum",
+      "name": "Vital MX forum: Latest Gen RMZ250 Suspension Help",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Latest-Gen-RMZ250-Suspension-Help,1386404",
+      "date": "2021"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "An owner's-manual copy and owner reports agree on 360 ml; owners and tuners often lower it about 20 ml to soften the stiff fork. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-07"
+  },
+  {
+   "id": "rmzc-250-07|Suzuki|RM-Z250|2023",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2023,
+   "domain": "suspension",
+   "topic": "2023 RM-Z250 fork oil quantity standard",
+   "statement": "Fork oil quantity standard: 360 ml (12.2 US oz) per leg with the standard spring (commonly listed for the 2023 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_oil_ml_per_leg": 360
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "forum",
+      "name": "Vital MX forum: Latest Gen RMZ250 Suspension Help",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Latest-Gen-RMZ250-Suspension-Help,1386404",
+      "date": "2021"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "An owner's-manual copy and owner reports agree on 360 ml; owners and tuners often lower it about 20 ml to soften the stiff fork. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-07"
+  },
+  {
+   "id": "rmzc-250-07|Suzuki|RM-Z250|2024",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2024,
+   "domain": "suspension",
+   "topic": "2024 RM-Z250 fork oil quantity standard",
+   "statement": "Fork oil quantity standard: 360 ml (12.2 US oz) per leg with the standard spring (commonly listed for the 2024 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_oil_ml_per_leg": 360
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "forum",
+      "name": "Vital MX forum: Latest Gen RMZ250 Suspension Help",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Latest-Gen-RMZ250-Suspension-Help,1386404",
+      "date": "2021"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "An owner's-manual copy and owner reports agree on 360 ml; owners and tuners often lower it about 20 ml to soften the stiff fork. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-07"
+  },
+  {
+   "id": "rmzc-250-07|Suzuki|RM-Z250|2025",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2025,
+   "domain": "suspension",
+   "topic": "2025 RM-Z250 fork oil quantity standard",
+   "statement": "Fork oil quantity standard: 360 ml (12.2 US oz) per leg with the standard spring (commonly listed for the 2025 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_oil_ml_per_leg": 360
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "forum",
+      "name": "Vital MX forum: Latest Gen RMZ250 Suspension Help",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Latest-Gen-RMZ250-Suspension-Help,1386404",
+      "date": "2021"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "An owner's-manual copy and owner reports agree on 360 ml; owners and tuners often lower it about 20 ml to soften the stiff fork. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-07"
+  },
+  {
+   "id": "rmzc-250-07|Suzuki|RM-Z250|2026",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2026,
+   "domain": "suspension",
+   "topic": "2026 RM-Z250 fork oil quantity standard",
+   "statement": "Fork oil quantity standard: 360 ml (12.2 US oz) per leg with the standard spring (commonly listed for the 2026 RM-Z250, 2019-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_oil_ml_per_leg": 360
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z250 owner's manual, 2019+ edition (third-party copy, ManualsLib 3557200)",
+    "url": "https://www.manualslib.com/manual/3557200/Suzuki-Rm-Z250.html",
+    "date": "n.d.",
+    "corroborating": [
+     {
+      "type": "forum",
+      "name": "Vital MX forum: Latest Gen RMZ250 Suspension Help",
+      "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Latest-Gen-RMZ250-Suspension-Help,1386404",
+      "date": "2021"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "An owner's-manual copy and owner reports agree on 360 ml; owners and tuners often lower it about 20 ml to soften the stiff fork. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-250-07"
+  },
+  {
+   "id": "rmzc-450-01|Suzuki|RM-Z450|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2020,
+   "domain": "suspension",
+   "topic": "2020 RM-Z450 shock clicker standard settings (Showa BFRC)",
+   "statement": "Shock standard settings: compression 1-1/2 turns out, rebound 3 turns out from fully in; the BFRC shock has a single compression adjuster and no separate high-speed adjuster (commonly listed for the 2020 RM-Z450; not from a Suzuki-published source).",
+   "vals": {
+    "shock_compression_turns_out": 1.5,
+    "shock_rebound_turns_out": 3,
+    "shock_high_speed_adjuster": false
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2020, 2021, 2023, 2024 and 2025 RM-Z450 (setup boxes repeat across years; counted as one source)",
+      "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+      "date": "2020-2025"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "The 2021 owner's-manual copy and magazine test bikes agree. A later manual edition (model year not printed) lists 2 turns compression and 1 turn rebound, so these figures are applied only to 2020-2021.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-01"
+  },
+  {
+   "id": "rmzc-450-01|Suzuki|RM-Z450|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2021,
+   "domain": "suspension",
+   "topic": "2021 RM-Z450 shock clicker standard settings (Showa BFRC)",
+   "statement": "Shock standard settings: compression 1-1/2 turns out, rebound 3 turns out from fully in; the BFRC shock has a single compression adjuster and no separate high-speed adjuster (commonly listed for the 2021 RM-Z450; not from a Suzuki-published source).",
+   "vals": {
+    "shock_compression_turns_out": 1.5,
+    "shock_rebound_turns_out": 3,
+    "shock_high_speed_adjuster": false
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2020, 2021, 2023, 2024 and 2025 RM-Z450 (setup boxes repeat across years; counted as one source)",
+      "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+      "date": "2020-2025"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "The 2021 owner's-manual copy and magazine test bikes agree. A later manual edition (model year not printed) lists 2 turns compression and 1 turn rebound, so these figures are applied only to 2020-2021.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-01"
+  },
+  {
+   "id": "rmzc-450-02|Suzuki|RM-Z450|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2020,
+   "domain": "suspension",
+   "topic": "2020 RM-Z450 fork compression standard setting",
+   "statement": "Fork compression standard: riders and manual copies list 6-8 clicks out from fully in for the 2020 RM-Z450 (not from a Suzuki-published source).",
+   "vals": {
+    "fork_compression_clicks_out_min": 6,
+    "fork_compression_clicks_out_max": 8
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2020, 2021, 2023, 2024 and 2025 RM-Z450 (setup boxes repeat across years; counted as one source)",
+      "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+      "date": "2020-2025"
+     }
+    ]
+   },
+   "confidence": "low",
+   "notes": "Sources disagree: the 2021 owner's-manual copy gives 8 clicks out, magazine test bikes list 6 out as stock. Stored as a spread; a later manual edition gives 9 out.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-02"
+  },
+  {
+   "id": "rmzc-450-02|Suzuki|RM-Z450|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2021,
+   "domain": "suspension",
+   "topic": "2021 RM-Z450 fork compression standard setting",
+   "statement": "Fork compression standard: riders and manual copies list 6-8 clicks out from fully in for the 2021 RM-Z450 (not from a Suzuki-published source).",
+   "vals": {
+    "fork_compression_clicks_out_min": 6,
+    "fork_compression_clicks_out_max": 8
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2020, 2021, 2023, 2024 and 2025 RM-Z450 (setup boxes repeat across years; counted as one source)",
+      "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+      "date": "2020-2025"
+     }
+    ]
+   },
+   "confidence": "low",
+   "notes": "Sources disagree: the 2021 owner's-manual copy gives 8 clicks out, magazine test bikes list 6 out as stock. Stored as a spread; a later manual edition gives 9 out.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-02"
+  },
+  {
+   "id": "rmzc-450-03|Suzuki|RM-Z450|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2020,
+   "domain": "suspension",
+   "topic": "2020 RM-Z450 race sag standard",
+   "statement": "Race (rider) sag standard: listed as 105-108 mm for the 2020 RM-Z450 (not from a Suzuki-published source).",
+   "vals": {
+    "race_sag_mm_min": 105,
+    "race_sag_mm_max": 108
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2020, 2021, 2023, 2024 and 2025 RM-Z450 (setup boxes repeat across years; counted as one source)",
+      "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+      "date": "2020-2025"
+     }
+    ]
+   },
+   "confidence": "low",
+   "notes": "Sources disagree: the 2021 owner's-manual copy gives 105 mm, magazine test bikes list 108 mm as stock. A later manual edition and 2023 test bikes use 110 mm.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-03"
+  },
+  {
+   "id": "rmzc-450-03|Suzuki|RM-Z450|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2021,
+   "domain": "suspension",
+   "topic": "2021 RM-Z450 race sag standard",
+   "statement": "Race (rider) sag standard: listed as 105-108 mm for the 2021 RM-Z450 (not from a Suzuki-published source).",
+   "vals": {
+    "race_sag_mm_min": 105,
+    "race_sag_mm_max": 108
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2020, 2021, 2023, 2024 and 2025 RM-Z450 (setup boxes repeat across years; counted as one source)",
+      "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+      "date": "2020-2025"
+     }
+    ]
+   },
+   "confidence": "low",
+   "notes": "Sources disagree: the 2021 owner's-manual copy gives 105 mm, magazine test bikes list 108 mm as stock. A later manual edition and 2023 test bikes use 110 mm.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-03"
+  },
+  {
+   "id": "rmzc-450-04|Suzuki|RM-Z450|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2020,
+   "domain": "suspension",
+   "topic": "2020 RM-Z450 stock shock spring rate",
+   "statement": "Stock shock spring rate: 54 N/mm (5.5 kgf/mm) (commonly listed for the 2020 RM-Z450; not from a Suzuki-published source).",
+   "vals": {
+    "shock_spring_n_mm": 54
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2020, 2021, 2023, 2024 and 2025 RM-Z450 (setup boxes repeat across years; counted as one source)",
+      "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+      "date": "2020-2025"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "The 2021 owner's-manual copy lists part 62211-37K00 as standard in a 52/54/56 N/mm soft/standard/hard table; magazine testers say Suzuki fitted 54 N/mm from 2019. The later manual edition and a 2023 test list 56 N/mm as standard, so this is applied only to 2020-2021.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-04"
+  },
+  {
+   "id": "rmzc-450-04|Suzuki|RM-Z450|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2021,
+   "domain": "suspension",
+   "topic": "2021 RM-Z450 stock shock spring rate",
+   "statement": "Stock shock spring rate: 54 N/mm (5.5 kgf/mm) (commonly listed for the 2021 RM-Z450; not from a Suzuki-published source).",
+   "vals": {
+    "shock_spring_n_mm": 54
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "magazine",
+      "name": "Motocross Action race tests of the 2020, 2021, 2023, 2024 and 2025 RM-Z450 (setup boxes repeat across years; counted as one source)",
+      "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+      "date": "2020-2025"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "The 2021 owner's-manual copy lists part 62211-37K00 as standard in a 52/54/56 N/mm soft/standard/hard table; magazine testers say Suzuki fitted 54 N/mm from 2019. The later manual edition and a 2023 test list 56 N/mm as standard, so this is applied only to 2020-2021.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-04"
+  },
+  {
+   "id": "rmzc-450-05|Suzuki|RM-Z450|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2020,
+   "domain": "suspension",
+   "topic": "2020 RM-Z450 stock fork spring rate",
+   "statement": "Stock fork spring rate: 5.0 N/mm (0.51 kgf/mm) (commonly listed for the 2020 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_spring_n_mm": 5.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Two separate owner's-manual editions and an independent test agree. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-05"
+  },
+  {
+   "id": "rmzc-450-05|Suzuki|RM-Z450|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2021,
+   "domain": "suspension",
+   "topic": "2021 RM-Z450 stock fork spring rate",
+   "statement": "Stock fork spring rate: 5.0 N/mm (0.51 kgf/mm) (commonly listed for the 2021 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_spring_n_mm": 5.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Two separate owner's-manual editions and an independent test agree. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-05"
+  },
+  {
+   "id": "rmzc-450-05|Suzuki|RM-Z450|2022",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2022,
+   "domain": "suspension",
+   "topic": "2022 RM-Z450 stock fork spring rate",
+   "statement": "Stock fork spring rate: 5.0 N/mm (0.51 kgf/mm) (commonly listed for the 2022 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_spring_n_mm": 5.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Two separate owner's-manual editions and an independent test agree. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-05"
+  },
+  {
+   "id": "rmzc-450-05|Suzuki|RM-Z450|2023",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2023,
+   "domain": "suspension",
+   "topic": "2023 RM-Z450 stock fork spring rate",
+   "statement": "Stock fork spring rate: 5.0 N/mm (0.51 kgf/mm) (commonly listed for the 2023 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_spring_n_mm": 5.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Two separate owner's-manual editions and an independent test agree. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-05"
+  },
+  {
+   "id": "rmzc-450-05|Suzuki|RM-Z450|2024",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2024,
+   "domain": "suspension",
+   "topic": "2024 RM-Z450 stock fork spring rate",
+   "statement": "Stock fork spring rate: 5.0 N/mm (0.51 kgf/mm) (commonly listed for the 2024 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_spring_n_mm": 5.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Two separate owner's-manual editions and an independent test agree. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-05"
+  },
+  {
+   "id": "rmzc-450-05|Suzuki|RM-Z450|2025",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2025,
+   "domain": "suspension",
+   "topic": "2025 RM-Z450 stock fork spring rate",
+   "statement": "Stock fork spring rate: 5.0 N/mm (0.51 kgf/mm) (commonly listed for the 2025 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_spring_n_mm": 5.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Two separate owner's-manual editions and an independent test agree. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-05"
+  },
+  {
+   "id": "rmzc-450-05|Suzuki|RM-Z450|2026",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2026,
+   "domain": "suspension",
+   "topic": "2026 RM-Z450 stock fork spring rate",
+   "statement": "Stock fork spring rate: 5.0 N/mm (0.51 kgf/mm) (commonly listed for the 2026 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_spring_n_mm": 5.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     },
+     {
+      "type": "magazine",
+      "name": "Dirt Rider, 2023 Suzuki RM-Z250 Technical Information",
+      "url": "https://dirtrider.com/story/dirt-bikes/suzuki-rm-z250-technical-information-2023",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Two separate owner's-manual editions and an independent test agree. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-05"
+  },
+  {
+   "id": "rmzc-450-06|Suzuki|RM-Z450|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2020,
+   "domain": "suspension",
+   "topic": "2020 RM-Z450 fork rebound standard setting",
+   "statement": "Fork rebound standard: 11 clicks out from fully in (commonly listed for the 2020 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_rebound_clicks_out": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree; no independent test confirmation. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-06"
+  },
+  {
+   "id": "rmzc-450-06|Suzuki|RM-Z450|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2021,
+   "domain": "suspension",
+   "topic": "2021 RM-Z450 fork rebound standard setting",
+   "statement": "Fork rebound standard: 11 clicks out from fully in (commonly listed for the 2021 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_rebound_clicks_out": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree; no independent test confirmation. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-06"
+  },
+  {
+   "id": "rmzc-450-06|Suzuki|RM-Z450|2022",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2022,
+   "domain": "suspension",
+   "topic": "2022 RM-Z450 fork rebound standard setting",
+   "statement": "Fork rebound standard: 11 clicks out from fully in (commonly listed for the 2022 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_rebound_clicks_out": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree; no independent test confirmation. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-06"
+  },
+  {
+   "id": "rmzc-450-06|Suzuki|RM-Z450|2023",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2023,
+   "domain": "suspension",
+   "topic": "2023 RM-Z450 fork rebound standard setting",
+   "statement": "Fork rebound standard: 11 clicks out from fully in (commonly listed for the 2023 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_rebound_clicks_out": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree; no independent test confirmation. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-06"
+  },
+  {
+   "id": "rmzc-450-06|Suzuki|RM-Z450|2024",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2024,
+   "domain": "suspension",
+   "topic": "2024 RM-Z450 fork rebound standard setting",
+   "statement": "Fork rebound standard: 11 clicks out from fully in (commonly listed for the 2024 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_rebound_clicks_out": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree; no independent test confirmation. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-06"
+  },
+  {
+   "id": "rmzc-450-06|Suzuki|RM-Z450|2025",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2025,
+   "domain": "suspension",
+   "topic": "2025 RM-Z450 fork rebound standard setting",
+   "statement": "Fork rebound standard: 11 clicks out from fully in (commonly listed for the 2025 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_rebound_clicks_out": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree; no independent test confirmation. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-06"
+  },
+  {
+   "id": "rmzc-450-06|Suzuki|RM-Z450|2026",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2026,
+   "domain": "suspension",
+   "topic": "2026 RM-Z450 fork rebound standard setting",
+   "statement": "Fork rebound standard: 11 clicks out from fully in (commonly listed for the 2026 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_rebound_clicks_out": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree; no independent test confirmation. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-06"
+  },
+  {
+   "id": "rmzc-450-07|Suzuki|RM-Z450|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2020,
+   "domain": "suspension",
+   "topic": "2020 RM-Z450 fork oil quantity standard and range",
+   "statement": "Fork oil quantity standard: 365 ml (12.3 US oz) per leg with the standard 5.0 N/mm spring, adjustable range 297-398 ml (commonly listed for the 2020 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_oil_ml_per_leg": 365,
+    "fork_oil_range_ml": "297-398"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree; no independent confirmation. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-07"
+  },
+  {
+   "id": "rmzc-450-07|Suzuki|RM-Z450|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2021,
+   "domain": "suspension",
+   "topic": "2021 RM-Z450 fork oil quantity standard and range",
+   "statement": "Fork oil quantity standard: 365 ml (12.3 US oz) per leg with the standard 5.0 N/mm spring, adjustable range 297-398 ml (commonly listed for the 2021 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_oil_ml_per_leg": 365,
+    "fork_oil_range_ml": "297-398"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree; no independent confirmation. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-07"
+  },
+  {
+   "id": "rmzc-450-07|Suzuki|RM-Z450|2022",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2022,
+   "domain": "suspension",
+   "topic": "2022 RM-Z450 fork oil quantity standard and range",
+   "statement": "Fork oil quantity standard: 365 ml (12.3 US oz) per leg with the standard 5.0 N/mm spring, adjustable range 297-398 ml (commonly listed for the 2022 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_oil_ml_per_leg": 365,
+    "fork_oil_range_ml": "297-398"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree; no independent confirmation. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-07"
+  },
+  {
+   "id": "rmzc-450-07|Suzuki|RM-Z450|2023",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2023,
+   "domain": "suspension",
+   "topic": "2023 RM-Z450 fork oil quantity standard and range",
+   "statement": "Fork oil quantity standard: 365 ml (12.3 US oz) per leg with the standard 5.0 N/mm spring, adjustable range 297-398 ml (commonly listed for the 2023 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_oil_ml_per_leg": 365,
+    "fork_oil_range_ml": "297-398"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree; no independent confirmation. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-07"
+  },
+  {
+   "id": "rmzc-450-07|Suzuki|RM-Z450|2024",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2024,
+   "domain": "suspension",
+   "topic": "2024 RM-Z450 fork oil quantity standard and range",
+   "statement": "Fork oil quantity standard: 365 ml (12.3 US oz) per leg with the standard 5.0 N/mm spring, adjustable range 297-398 ml (commonly listed for the 2024 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_oil_ml_per_leg": 365,
+    "fork_oil_range_ml": "297-398"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree; no independent confirmation. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-07"
+  },
+  {
+   "id": "rmzc-450-07|Suzuki|RM-Z450|2025",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2025,
+   "domain": "suspension",
+   "topic": "2025 RM-Z450 fork oil quantity standard and range",
+   "statement": "Fork oil quantity standard: 365 ml (12.3 US oz) per leg with the standard 5.0 N/mm spring, adjustable range 297-398 ml (commonly listed for the 2025 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_oil_ml_per_leg": 365,
+    "fork_oil_range_ml": "297-398"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree; no independent confirmation. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-07"
+  },
+  {
+   "id": "rmzc-450-07|Suzuki|RM-Z450|2026",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2026,
+   "domain": "suspension",
+   "topic": "2026 RM-Z450 fork oil quantity standard and range",
+   "statement": "Fork oil quantity standard: 365 ml (12.3 US oz) per leg with the standard 5.0 N/mm spring, adjustable range 297-398 ml (commonly listed for the 2026 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "fork_oil_ml_per_leg": 365,
+    "fork_oil_range_ml": "297-398"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree; no independent confirmation. The 2027 model changed suspension, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-07"
+  },
+  {
+   "id": "rmzc-450-08|Suzuki|RM-Z450|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2020,
+   "domain": "maintenance",
+   "topic": "2020 RM-Z450 engine oil capacity and grade",
+   "statement": "Engine oil: about 1050 ml (1.1 US qt) at an oil change, 1100 ml (1.2 US qt) with a filter change; SAE 10W-40, JASO MA (commonly listed for the 2020 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "oil_change_ml": 1050,
+    "oil_and_filter_ml": 1100,
+    "viscosity": "10W-40",
+    "jaso": "MA"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-08"
+  },
+  {
+   "id": "rmzc-450-08|Suzuki|RM-Z450|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2021,
+   "domain": "maintenance",
+   "topic": "2021 RM-Z450 engine oil capacity and grade",
+   "statement": "Engine oil: about 1050 ml (1.1 US qt) at an oil change, 1100 ml (1.2 US qt) with a filter change; SAE 10W-40, JASO MA (commonly listed for the 2021 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "oil_change_ml": 1050,
+    "oil_and_filter_ml": 1100,
+    "viscosity": "10W-40",
+    "jaso": "MA"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-08"
+  },
+  {
+   "id": "rmzc-450-08|Suzuki|RM-Z450|2022",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2022,
+   "domain": "maintenance",
+   "topic": "2022 RM-Z450 engine oil capacity and grade",
+   "statement": "Engine oil: about 1050 ml (1.1 US qt) at an oil change, 1100 ml (1.2 US qt) with a filter change; SAE 10W-40, JASO MA (commonly listed for the 2022 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "oil_change_ml": 1050,
+    "oil_and_filter_ml": 1100,
+    "viscosity": "10W-40",
+    "jaso": "MA"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-08"
+  },
+  {
+   "id": "rmzc-450-08|Suzuki|RM-Z450|2023",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2023,
+   "domain": "maintenance",
+   "topic": "2023 RM-Z450 engine oil capacity and grade",
+   "statement": "Engine oil: about 1050 ml (1.1 US qt) at an oil change, 1100 ml (1.2 US qt) with a filter change; SAE 10W-40, JASO MA (commonly listed for the 2023 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "oil_change_ml": 1050,
+    "oil_and_filter_ml": 1100,
+    "viscosity": "10W-40",
+    "jaso": "MA"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-08"
+  },
+  {
+   "id": "rmzc-450-08|Suzuki|RM-Z450|2024",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2024,
+   "domain": "maintenance",
+   "topic": "2024 RM-Z450 engine oil capacity and grade",
+   "statement": "Engine oil: about 1050 ml (1.1 US qt) at an oil change, 1100 ml (1.2 US qt) with a filter change; SAE 10W-40, JASO MA (commonly listed for the 2024 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "oil_change_ml": 1050,
+    "oil_and_filter_ml": 1100,
+    "viscosity": "10W-40",
+    "jaso": "MA"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-08"
+  },
+  {
+   "id": "rmzc-450-08|Suzuki|RM-Z450|2025",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2025,
+   "domain": "maintenance",
+   "topic": "2025 RM-Z450 engine oil capacity and grade",
+   "statement": "Engine oil: about 1050 ml (1.1 US qt) at an oil change, 1100 ml (1.2 US qt) with a filter change; SAE 10W-40, JASO MA (commonly listed for the 2025 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "oil_change_ml": 1050,
+    "oil_and_filter_ml": 1100,
+    "viscosity": "10W-40",
+    "jaso": "MA"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-08"
+  },
+  {
+   "id": "rmzc-450-08|Suzuki|RM-Z450|2026",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2026,
+   "domain": "maintenance",
+   "topic": "2026 RM-Z450 engine oil capacity and grade",
+   "statement": "Engine oil: about 1050 ml (1.1 US qt) at an oil change, 1100 ml (1.2 US qt) with a filter change; SAE 10W-40, JASO MA (commonly listed for the 2026 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "oil_change_ml": 1050,
+    "oil_and_filter_ml": 1100,
+    "viscosity": "10W-40",
+    "jaso": "MA"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-08"
+  },
+  {
+   "id": "rmzc-450-09|Suzuki|RM-Z450|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2020,
+   "domain": "maintenance",
+   "topic": "2020 RM-Z450 coolant capacity",
+   "statement": "Coolant capacity: 1100 ml (1.2 US qt), 50:50 glycol coolant for aluminium engines with distilled water (commonly listed for the 2020 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "coolant_ml": 1100,
+    "mix": "50:50"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-09"
+  },
+  {
+   "id": "rmzc-450-09|Suzuki|RM-Z450|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2021,
+   "domain": "maintenance",
+   "topic": "2021 RM-Z450 coolant capacity",
+   "statement": "Coolant capacity: 1100 ml (1.2 US qt), 50:50 glycol coolant for aluminium engines with distilled water (commonly listed for the 2021 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "coolant_ml": 1100,
+    "mix": "50:50"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-09"
+  },
+  {
+   "id": "rmzc-450-09|Suzuki|RM-Z450|2022",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2022,
+   "domain": "maintenance",
+   "topic": "2022 RM-Z450 coolant capacity",
+   "statement": "Coolant capacity: 1100 ml (1.2 US qt), 50:50 glycol coolant for aluminium engines with distilled water (commonly listed for the 2022 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "coolant_ml": 1100,
+    "mix": "50:50"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-09"
+  },
+  {
+   "id": "rmzc-450-09|Suzuki|RM-Z450|2023",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2023,
+   "domain": "maintenance",
+   "topic": "2023 RM-Z450 coolant capacity",
+   "statement": "Coolant capacity: 1100 ml (1.2 US qt), 50:50 glycol coolant for aluminium engines with distilled water (commonly listed for the 2023 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "coolant_ml": 1100,
+    "mix": "50:50"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-09"
+  },
+  {
+   "id": "rmzc-450-09|Suzuki|RM-Z450|2024",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2024,
+   "domain": "maintenance",
+   "topic": "2024 RM-Z450 coolant capacity",
+   "statement": "Coolant capacity: 1100 ml (1.2 US qt), 50:50 glycol coolant for aluminium engines with distilled water (commonly listed for the 2024 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "coolant_ml": 1100,
+    "mix": "50:50"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-09"
+  },
+  {
+   "id": "rmzc-450-09|Suzuki|RM-Z450|2025",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2025,
+   "domain": "maintenance",
+   "topic": "2025 RM-Z450 coolant capacity",
+   "statement": "Coolant capacity: 1100 ml (1.2 US qt), 50:50 glycol coolant for aluminium engines with distilled water (commonly listed for the 2025 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "coolant_ml": 1100,
+    "mix": "50:50"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-09"
+  },
+  {
+   "id": "rmzc-450-09|Suzuki|RM-Z450|2026",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2026,
+   "domain": "maintenance",
+   "topic": "2026 RM-Z450 coolant capacity",
+   "statement": "Coolant capacity: 1100 ml (1.2 US qt), 50:50 glycol coolant for aluminium engines with distilled water (commonly listed for the 2026 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "coolant_ml": 1100,
+    "mix": "50:50"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-09"
+  },
+  {
+   "id": "rmzc-450-10|Suzuki|RM-Z450|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2020,
+   "domain": "maintenance",
+   "topic": "2020 RM-Z450 spark plug gap",
+   "statement": "Spark plug gap: 0.9-1.0 mm (0.035-0.039 in); the NGK DIMR8C10 comes pre-gapped at 1.0 mm (commonly listed for the 2020 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "plug_gap_mm": "0.9-1.0",
+    "ngk_preset_gap_mm": 1.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     },
+     {
+      "type": "retailer",
+      "name": "THS Moto product page, NGK DIMR8C10 (lists gap and RM-Z450 fitment)",
+      "url": "https://www.thsmoto.co.nz/products/ngkdimr8c10",
+      "date": "n.d."
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Owner's-manual copies and the plug seller's listing agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-10"
+  },
+  {
+   "id": "rmzc-450-10|Suzuki|RM-Z450|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2021,
+   "domain": "maintenance",
+   "topic": "2021 RM-Z450 spark plug gap",
+   "statement": "Spark plug gap: 0.9-1.0 mm (0.035-0.039 in); the NGK DIMR8C10 comes pre-gapped at 1.0 mm (commonly listed for the 2021 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "plug_gap_mm": "0.9-1.0",
+    "ngk_preset_gap_mm": 1.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     },
+     {
+      "type": "retailer",
+      "name": "THS Moto product page, NGK DIMR8C10 (lists gap and RM-Z450 fitment)",
+      "url": "https://www.thsmoto.co.nz/products/ngkdimr8c10",
+      "date": "n.d."
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Owner's-manual copies and the plug seller's listing agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-10"
+  },
+  {
+   "id": "rmzc-450-10|Suzuki|RM-Z450|2022",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2022,
+   "domain": "maintenance",
+   "topic": "2022 RM-Z450 spark plug gap",
+   "statement": "Spark plug gap: 0.9-1.0 mm (0.035-0.039 in); the NGK DIMR8C10 comes pre-gapped at 1.0 mm (commonly listed for the 2022 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "plug_gap_mm": "0.9-1.0",
+    "ngk_preset_gap_mm": 1.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     },
+     {
+      "type": "retailer",
+      "name": "THS Moto product page, NGK DIMR8C10 (lists gap and RM-Z450 fitment)",
+      "url": "https://www.thsmoto.co.nz/products/ngkdimr8c10",
+      "date": "n.d."
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Owner's-manual copies and the plug seller's listing agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-10"
+  },
+  {
+   "id": "rmzc-450-10|Suzuki|RM-Z450|2023",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2023,
+   "domain": "maintenance",
+   "topic": "2023 RM-Z450 spark plug gap",
+   "statement": "Spark plug gap: 0.9-1.0 mm (0.035-0.039 in); the NGK DIMR8C10 comes pre-gapped at 1.0 mm (commonly listed for the 2023 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "plug_gap_mm": "0.9-1.0",
+    "ngk_preset_gap_mm": 1.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     },
+     {
+      "type": "retailer",
+      "name": "THS Moto product page, NGK DIMR8C10 (lists gap and RM-Z450 fitment)",
+      "url": "https://www.thsmoto.co.nz/products/ngkdimr8c10",
+      "date": "n.d."
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Owner's-manual copies and the plug seller's listing agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-10"
+  },
+  {
+   "id": "rmzc-450-10|Suzuki|RM-Z450|2024",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2024,
+   "domain": "maintenance",
+   "topic": "2024 RM-Z450 spark plug gap",
+   "statement": "Spark plug gap: 0.9-1.0 mm (0.035-0.039 in); the NGK DIMR8C10 comes pre-gapped at 1.0 mm (commonly listed for the 2024 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "plug_gap_mm": "0.9-1.0",
+    "ngk_preset_gap_mm": 1.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     },
+     {
+      "type": "retailer",
+      "name": "THS Moto product page, NGK DIMR8C10 (lists gap and RM-Z450 fitment)",
+      "url": "https://www.thsmoto.co.nz/products/ngkdimr8c10",
+      "date": "n.d."
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Owner's-manual copies and the plug seller's listing agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-10"
+  },
+  {
+   "id": "rmzc-450-10|Suzuki|RM-Z450|2025",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2025,
+   "domain": "maintenance",
+   "topic": "2025 RM-Z450 spark plug gap",
+   "statement": "Spark plug gap: 0.9-1.0 mm (0.035-0.039 in); the NGK DIMR8C10 comes pre-gapped at 1.0 mm (commonly listed for the 2025 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "plug_gap_mm": "0.9-1.0",
+    "ngk_preset_gap_mm": 1.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     },
+     {
+      "type": "retailer",
+      "name": "THS Moto product page, NGK DIMR8C10 (lists gap and RM-Z450 fitment)",
+      "url": "https://www.thsmoto.co.nz/products/ngkdimr8c10",
+      "date": "n.d."
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Owner's-manual copies and the plug seller's listing agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-10"
+  },
+  {
+   "id": "rmzc-450-10|Suzuki|RM-Z450|2026",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2026,
+   "domain": "maintenance",
+   "topic": "2026 RM-Z450 spark plug gap",
+   "statement": "Spark plug gap: 0.9-1.0 mm (0.035-0.039 in); the NGK DIMR8C10 comes pre-gapped at 1.0 mm (commonly listed for the 2026 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "plug_gap_mm": "0.9-1.0",
+    "ngk_preset_gap_mm": 1.0
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     },
+     {
+      "type": "retailer",
+      "name": "THS Moto product page, NGK DIMR8C10 (lists gap and RM-Z450 fitment)",
+      "url": "https://www.thsmoto.co.nz/products/ngkdimr8c10",
+      "date": "n.d."
+     }
+    ]
+   },
+   "confidence": "high",
+   "notes": "Owner's-manual copies and the plug seller's listing agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-10"
+  },
+  {
+   "id": "rmzc-450-11|Suzuki|RM-Z450|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2020,
+   "domain": "maintenance",
+   "topic": "2020 RM-Z450 oil filter cap bolt torque",
+   "statement": "Oil filter cap bolt torque: 11 N·m (8.5 lbf-ft) (commonly listed for the 2020 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "oil_filter_cap_bolt_nm": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-11"
+  },
+  {
+   "id": "rmzc-450-11|Suzuki|RM-Z450|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2021,
+   "domain": "maintenance",
+   "topic": "2021 RM-Z450 oil filter cap bolt torque",
+   "statement": "Oil filter cap bolt torque: 11 N·m (8.5 lbf-ft) (commonly listed for the 2021 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "oil_filter_cap_bolt_nm": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-11"
+  },
+  {
+   "id": "rmzc-450-11|Suzuki|RM-Z450|2022",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2022,
+   "domain": "maintenance",
+   "topic": "2022 RM-Z450 oil filter cap bolt torque",
+   "statement": "Oil filter cap bolt torque: 11 N·m (8.5 lbf-ft) (commonly listed for the 2022 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "oil_filter_cap_bolt_nm": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-11"
+  },
+  {
+   "id": "rmzc-450-11|Suzuki|RM-Z450|2023",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2023,
+   "domain": "maintenance",
+   "topic": "2023 RM-Z450 oil filter cap bolt torque",
+   "statement": "Oil filter cap bolt torque: 11 N·m (8.5 lbf-ft) (commonly listed for the 2023 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "oil_filter_cap_bolt_nm": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-11"
+  },
+  {
+   "id": "rmzc-450-11|Suzuki|RM-Z450|2024",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2024,
+   "domain": "maintenance",
+   "topic": "2024 RM-Z450 oil filter cap bolt torque",
+   "statement": "Oil filter cap bolt torque: 11 N·m (8.5 lbf-ft) (commonly listed for the 2024 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "oil_filter_cap_bolt_nm": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-11"
+  },
+  {
+   "id": "rmzc-450-11|Suzuki|RM-Z450|2025",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2025,
+   "domain": "maintenance",
+   "topic": "2025 RM-Z450 oil filter cap bolt torque",
+   "statement": "Oil filter cap bolt torque: 11 N·m (8.5 lbf-ft) (commonly listed for the 2025 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "oil_filter_cap_bolt_nm": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-11"
+  },
+  {
+   "id": "rmzc-450-11|Suzuki|RM-Z450|2026",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2026,
+   "domain": "maintenance",
+   "topic": "2026 RM-Z450 oil filter cap bolt torque",
+   "statement": "Oil filter cap bolt torque: 11 N·m (8.5 lbf-ft) (commonly listed for the 2026 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "oil_filter_cap_bolt_nm": 11
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-11"
+  },
+  {
+   "id": "rmzc-450-12|Suzuki|RM-Z450|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2020,
+   "domain": "maintenance",
+   "topic": "2020 RM-Z450 drive chain slack",
+   "statement": "Drive chain slack: 35-45 mm (1.4-1.7 in), measured midway between the chain buffer and rear sprocket with the rear wheel off the ground (commonly listed for the 2020 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "chain_slack_mm": "35-45"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree. The 2027 model changed suspension and chassis parts, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-12"
+  },
+  {
+   "id": "rmzc-450-12|Suzuki|RM-Z450|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2021,
+   "domain": "maintenance",
+   "topic": "2021 RM-Z450 drive chain slack",
+   "statement": "Drive chain slack: 35-45 mm (1.4-1.7 in), measured midway between the chain buffer and rear sprocket with the rear wheel off the ground (commonly listed for the 2021 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "chain_slack_mm": "35-45"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree. The 2027 model changed suspension and chassis parts, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-12"
+  },
+  {
+   "id": "rmzc-450-12|Suzuki|RM-Z450|2022",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2022,
+   "domain": "maintenance",
+   "topic": "2022 RM-Z450 drive chain slack",
+   "statement": "Drive chain slack: 35-45 mm (1.4-1.7 in), measured midway between the chain buffer and rear sprocket with the rear wheel off the ground (commonly listed for the 2022 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "chain_slack_mm": "35-45"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree. The 2027 model changed suspension and chassis parts, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-12"
+  },
+  {
+   "id": "rmzc-450-12|Suzuki|RM-Z450|2023",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2023,
+   "domain": "maintenance",
+   "topic": "2023 RM-Z450 drive chain slack",
+   "statement": "Drive chain slack: 35-45 mm (1.4-1.7 in), measured midway between the chain buffer and rear sprocket with the rear wheel off the ground (commonly listed for the 2023 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "chain_slack_mm": "35-45"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree. The 2027 model changed suspension and chassis parts, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-12"
+  },
+  {
+   "id": "rmzc-450-12|Suzuki|RM-Z450|2024",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2024,
+   "domain": "maintenance",
+   "topic": "2024 RM-Z450 drive chain slack",
+   "statement": "Drive chain slack: 35-45 mm (1.4-1.7 in), measured midway between the chain buffer and rear sprocket with the rear wheel off the ground (commonly listed for the 2024 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "chain_slack_mm": "35-45"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree. The 2027 model changed suspension and chassis parts, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-12"
+  },
+  {
+   "id": "rmzc-450-12|Suzuki|RM-Z450|2025",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2025,
+   "domain": "maintenance",
+   "topic": "2025 RM-Z450 drive chain slack",
+   "statement": "Drive chain slack: 35-45 mm (1.4-1.7 in), measured midway between the chain buffer and rear sprocket with the rear wheel off the ground (commonly listed for the 2025 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "chain_slack_mm": "35-45"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree. The 2027 model changed suspension and chassis parts, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-12"
+  },
+  {
+   "id": "rmzc-450-12|Suzuki|RM-Z450|2026",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2026,
+   "domain": "maintenance",
+   "topic": "2026 RM-Z450 drive chain slack",
+   "statement": "Drive chain slack: 35-45 mm (1.4-1.7 in), measured midway between the chain buffer and rear sprocket with the rear wheel off the ground (commonly listed for the 2026 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "chain_slack_mm": "35-45"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "manual_copy",
+    "name": "Suzuki RM-Z450 owner's manual, 2021 edition (third-party copy, ManualsLib 2581633)",
+    "url": "https://www.manualslib.com/manual/2581633/Suzuki-Rm-Z450.html",
+    "date": "2021",
+    "corroborating": [
+     {
+      "type": "manual_copy",
+      "name": "Suzuki RM-Z450 owner's manual, later US/Canada edition (third-party copy, ManualsLib 3539725; 113 pp, PDF created 2023-02)",
+      "url": "https://www.manualslib.com/manual/3539725/Suzuki-Rm-Z450.html",
+      "date": "2023"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Two separate owner's-manual editions (third-party copies) agree. The 2027 model changed suspension and chassis parts, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-12"
+  },
+  {
+   "id": "rmzc-450-13|Suzuki|RM-Z450|2020",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2020,
+   "domain": "drivetrain",
+   "topic": "2020 RM-Z450 stock gearing",
+   "statement": "Stock gearing: 13-tooth front, 50-tooth rear sprocket on a 520 chain (commonly listed for the 2020 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "front_sprocket": 13,
+    "rear_sprocket": 50,
+    "chain_pitch": 520
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action race tests of the 2020, 2021, 2023, 2024 and 2025 RM-Z450 (setup boxes repeat across years; counted as one source)",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+    "date": "2020-2025",
+    "corroborating": [
+     {
+      "type": "retailer",
+      "name": "Counties Honda: sprocket kit Suzuki RMZ450 '13- U-Ring GB520MXU 13/50 (OEM-spec replacement kit)",
+      "url": "https://shop.countieshonda.co.nz/products/skmxs383o",
+      "date": "n.d."
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Magazine test bikes list 13/50 as stock and OEM-spec replacement kits for the RM-Z450 are sized 13/50. Testers commonly go one tooth larger on the rear (51). The 2027 model changed suspension and chassis parts, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-13"
+  },
+  {
+   "id": "rmzc-450-13|Suzuki|RM-Z450|2021",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2021,
+   "domain": "drivetrain",
+   "topic": "2021 RM-Z450 stock gearing",
+   "statement": "Stock gearing: 13-tooth front, 50-tooth rear sprocket on a 520 chain (commonly listed for the 2021 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "front_sprocket": 13,
+    "rear_sprocket": 50,
+    "chain_pitch": 520
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action race tests of the 2020, 2021, 2023, 2024 and 2025 RM-Z450 (setup boxes repeat across years; counted as one source)",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+    "date": "2020-2025",
+    "corroborating": [
+     {
+      "type": "retailer",
+      "name": "Counties Honda: sprocket kit Suzuki RMZ450 '13- U-Ring GB520MXU 13/50 (OEM-spec replacement kit)",
+      "url": "https://shop.countieshonda.co.nz/products/skmxs383o",
+      "date": "n.d."
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Magazine test bikes list 13/50 as stock and OEM-spec replacement kits for the RM-Z450 are sized 13/50. Testers commonly go one tooth larger on the rear (51). The 2027 model changed suspension and chassis parts, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-13"
+  },
+  {
+   "id": "rmzc-450-13|Suzuki|RM-Z450|2022",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2022,
+   "domain": "drivetrain",
+   "topic": "2022 RM-Z450 stock gearing",
+   "statement": "Stock gearing: 13-tooth front, 50-tooth rear sprocket on a 520 chain (commonly listed for the 2022 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "front_sprocket": 13,
+    "rear_sprocket": 50,
+    "chain_pitch": 520
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action race tests of the 2020, 2021, 2023, 2024 and 2025 RM-Z450 (setup boxes repeat across years; counted as one source)",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+    "date": "2020-2025",
+    "corroborating": [
+     {
+      "type": "retailer",
+      "name": "Counties Honda: sprocket kit Suzuki RMZ450 '13- U-Ring GB520MXU 13/50 (OEM-spec replacement kit)",
+      "url": "https://shop.countieshonda.co.nz/products/skmxs383o",
+      "date": "n.d."
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Magazine test bikes list 13/50 as stock and OEM-spec replacement kits for the RM-Z450 are sized 13/50. Testers commonly go one tooth larger on the rear (51). The 2027 model changed suspension and chassis parts, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-13"
+  },
+  {
+   "id": "rmzc-450-13|Suzuki|RM-Z450|2023",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2023,
+   "domain": "drivetrain",
+   "topic": "2023 RM-Z450 stock gearing",
+   "statement": "Stock gearing: 13-tooth front, 50-tooth rear sprocket on a 520 chain (commonly listed for the 2023 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "front_sprocket": 13,
+    "rear_sprocket": 50,
+    "chain_pitch": 520
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action race tests of the 2020, 2021, 2023, 2024 and 2025 RM-Z450 (setup boxes repeat across years; counted as one source)",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+    "date": "2020-2025",
+    "corroborating": [
+     {
+      "type": "retailer",
+      "name": "Counties Honda: sprocket kit Suzuki RMZ450 '13- U-Ring GB520MXU 13/50 (OEM-spec replacement kit)",
+      "url": "https://shop.countieshonda.co.nz/products/skmxs383o",
+      "date": "n.d."
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Magazine test bikes list 13/50 as stock and OEM-spec replacement kits for the RM-Z450 are sized 13/50. Testers commonly go one tooth larger on the rear (51). The 2027 model changed suspension and chassis parts, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-13"
+  },
+  {
+   "id": "rmzc-450-13|Suzuki|RM-Z450|2024",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2024,
+   "domain": "drivetrain",
+   "topic": "2024 RM-Z450 stock gearing",
+   "statement": "Stock gearing: 13-tooth front, 50-tooth rear sprocket on a 520 chain (commonly listed for the 2024 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "front_sprocket": 13,
+    "rear_sprocket": 50,
+    "chain_pitch": 520
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action race tests of the 2020, 2021, 2023, 2024 and 2025 RM-Z450 (setup boxes repeat across years; counted as one source)",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+    "date": "2020-2025",
+    "corroborating": [
+     {
+      "type": "retailer",
+      "name": "Counties Honda: sprocket kit Suzuki RMZ450 '13- U-Ring GB520MXU 13/50 (OEM-spec replacement kit)",
+      "url": "https://shop.countieshonda.co.nz/products/skmxs383o",
+      "date": "n.d."
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Magazine test bikes list 13/50 as stock and OEM-spec replacement kits for the RM-Z450 are sized 13/50. Testers commonly go one tooth larger on the rear (51). The 2027 model changed suspension and chassis parts, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-13"
+  },
+  {
+   "id": "rmzc-450-13|Suzuki|RM-Z450|2025",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2025,
+   "domain": "drivetrain",
+   "topic": "2025 RM-Z450 stock gearing",
+   "statement": "Stock gearing: 13-tooth front, 50-tooth rear sprocket on a 520 chain (commonly listed for the 2025 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "front_sprocket": 13,
+    "rear_sprocket": 50,
+    "chain_pitch": 520
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action race tests of the 2020, 2021, 2023, 2024 and 2025 RM-Z450 (setup boxes repeat across years; counted as one source)",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+    "date": "2020-2025",
+    "corroborating": [
+     {
+      "type": "retailer",
+      "name": "Counties Honda: sprocket kit Suzuki RMZ450 '13- U-Ring GB520MXU 13/50 (OEM-spec replacement kit)",
+      "url": "https://shop.countieshonda.co.nz/products/skmxs383o",
+      "date": "n.d."
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Magazine test bikes list 13/50 as stock and OEM-spec replacement kits for the RM-Z450 are sized 13/50. Testers commonly go one tooth larger on the rear (51). The 2027 model changed suspension and chassis parts, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-13"
+  },
+  {
+   "id": "rmzc-450-13|Suzuki|RM-Z450|2026",
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2026,
+   "domain": "drivetrain",
+   "topic": "2026 RM-Z450 stock gearing",
+   "statement": "Stock gearing: 13-tooth front, 50-tooth rear sprocket on a 520 chain (commonly listed for the 2026 RM-Z450, 2018-2026 platform; not from a Suzuki-published source).",
+   "vals": {
+    "front_sprocket": 13,
+    "rear_sprocket": 50,
+    "chain_pitch": 520
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action race tests of the 2020, 2021, 2023, 2024 and 2025 RM-Z450 (setup boxes repeat across years; counted as one source)",
+    "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2021-suzuki-rm-z450",
+    "date": "2020-2025",
+    "corroborating": [
+     {
+      "type": "retailer",
+      "name": "Counties Honda: sprocket kit Suzuki RMZ450 '13- U-Ring GB520MXU 13/50 (OEM-spec replacement kit)",
+      "url": "https://shop.countieshonda.co.nz/products/skmxs383o",
+      "date": "n.d."
+     }
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Magazine test bikes list 13/50 as stock and OEM-spec replacement kits for the RM-Z450 are sized 13/50. Testers commonly go one tooth larger on the rear (51). The 2027 model changed suspension and chassis parts, so this is not applied to 2027.",
+   "status": "APPROVED",
+   "research_id": "rmzc-450-13"
+  }
+ ]
+}

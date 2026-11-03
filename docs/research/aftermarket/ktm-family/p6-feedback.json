@@ -1,0 +1,2604 @@
+{
+ "slice": "Pass 6: aftermarket product tests and rider feedback (MXA team tests, Keefer Tested, Swapmoto Live, Dirt Bike, Dirt Bike Test, Cycle News, Vital MX, Dirt Rider dynos, Racer X builds), KTM / Husqvarna / GasGas / Triumph TF 2020-2027",
+ "feedback": [
+  {
+   "id": "kf6-001",
+   "category": "exhaust",
+   "brand": "Pro Circuit",
+   "product": "Works pipe + R304 Shorty silencer (raw finish)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Husqvarna",
+    "model": "TC 250",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-04-06",
+   "conditions": "Racer X Garage Build TC 250 test bike; track impressions at Glen Helen; no dyno.",
+   "observed": "Changed: more pull out of corners, better midrange recovery, stronger top-end pull (held 2nd and 3rd longer on Glen Helen hills), less rich low-rpm feel; low end neither gained nor lost. Suits: 2023 KTM/Husqvarna 250/300 two-stroke owners wanting a crisper engine. Downsides: none found; third gear still not very lugable and warm-up clearing still slow. Verdict: his favourite of the pipes he tried on this platform (FMF, Bill's), met or beat stock everywhere.",
+   "measured": "Price stated: pipe $334.95, R304 Shorty $172.00",
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/pro-circuit-works-pipe-and-r304-shorty-silencer-2023-ktm-husqvarna-250-300/",
+   "confidence": "high"
+  },
+  {
+   "id": "kf6-002",
+   "category": "exhaust",
+   "brand": "Pro Circuit",
+   "product": "Works pipe + 304 Shorty silencer",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250 SX",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-03-11",
+   "conditions": "Two testers (Keefer, Dallas Dunn), Glen Helen; subjective, no dyno or lap times.",
+   "observed": "Changed: more second-gear pull out of corners, better midrange response and recovery, stronger top-end pull in 2nd/3rd, less rich low-rpm feel; Keefer felt no low-end change, second tester Dallas Dunn felt a slightly stronger low-end hit. Crisp, deep exhaust note. Suits: riders who want a sharper TBI two-stroke, helpful in tight rutted corners. Downsides: none found; third gear still not lugable, slow to clear when cold. Verdict: clear upgrade over stock, his favourite system on this bike.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=28755",
+   "confidence": "high"
+  },
+  {
+   "id": "kf6-003",
+   "category": "engine_big_bore",
+   "brand": "Pro Circuit / KTM PowerParts",
+   "product": "Pro Circuit-tuned KTM 150SX Factory Kit (125 to 150cc) with Pro Circuit pipe and R-304 silencer",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "125 SX",
+    "year": "2021"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2021",
+   "conditions": null,
+   "observed": "Changed: stock 125SX 37.52 hp to 40.70 hp with the plain 150 kit and 43.70 hp Pro Circuit-tuned (ported with a degree wheel); about 2 hp more across the curve and 3 hp at peak, better over-rev. Pilot jet 35 to 37.5, MRX02 fuel. Kit also listed for Husqvarna TC 125 and GasGas MC 125. Suits: experienced two-stroke and 125 racers who want big power. Downsides: harder to ride than a 125; MXA says less experienced riders should buy a pipe and reeds instead; base-gasket choice matters, so Pro Circuit install is advised. Verdict: rated highly; holeshot both 125 Pro motos at the 2021 World Two-Stroke Championship.",
+   "measured": "Dyno: stock 37.52 hp / 17.69 lb-ft; 150 kit 40.70 hp / 18.83 lb-ft; PC-tuned 43.70 hp / 19.77 lb-ft at 11,760 rpm. Prices: PC mods $349.95, KTM 150SX Factory Kit $831.99, install $149.95, PC pipe $278.95, R-304 $155.95",
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-team-tested-pro-circuit-tuned-ktm-150sx-big-bore-kit/",
+   "confidence": "high"
+  },
+  {
+   "id": "kf6-004",
+   "category": "suspension_complete",
+   "brand": "Öhlins, tuned by RD Suspension",
+   "product": "RXF 48 S fork + TTX Flow DV shock (RD Suspension valving, 16 mm spring-perch spacer)",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F",
+    "year": "2023"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2024-03-07",
+   "conditions": null,
+   "observed": "Changed: RD's flow changes made the fork base setting very plush and comfortable on small square-edged chop (oil height raised to hold bottoming); shock gave more rear traction in flat corners and more comfort on acceleration chop out of ruts. Suits: riders wanting plush comfort and grip; vets liked base settings, pros needed only a few clicks. Downsides: about $4,850 for the package; confusing three-screw fork cap (bleeder, compression, nitrogen port). Verdict: MXA's best and most comfortable Öhlins setup tested, 'glued to the track'.",
+   "measured": "Prices stated: fork $3,269, shock $1,578 (article also cites $4,850 package)",
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-team-tested-rd-suspension-tuned-ohlins-forks-shock",
+   "confidence": "high"
+  },
+  {
+   "id": "kf6-005",
+   "category": "ecu_remap",
+   "brand": "Twisted Development",
+   "product": "Stock ECU remap (mail-in) for TBI two-stroke",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "300 SX",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-06-07",
+   "conditions": null,
+   "observed": "Changed: removes the rich, lethargic feel; sharper throttle and low-rpm response; better midrange and 2nd/3rd gear pull out of corners while keeping the lugging, four-stroke-like character. Suits: 2023 300 SX owners who find the stock TBI map rich. Downsides: none discussed; ECU must be mailed in by appointment. Verdict: endorsement, no dyno numbers.",
+   "measured": "Price stated $299.99 plus mailing the stock ECU",
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2023-ktm-300-sx-ecu-remap-tune/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-006",
+   "category": "exhaust",
+   "brand": "Yoshimura",
+   "product": "RS-12 titanium full system",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "350 SX-F",
+    "year": "2024"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2024-04-09",
+   "conditions": null,
+   "observed": "Changed: more pull out of corners and 2nd/3rd gear torque, cleaner midrange; top end and over-rev same as stock; no remap needed. Second tester Eric Phipps (Works Connection) found it slightly quieter than his FMF with a good tone. Suits: riders wanting more bottom/mid pull and less weight. Downsides: loses some of the stock muffler's instant low-end snap; Phipps felt top end slightly down (insert may be the cause); head pipe needed wiggling to line up the frame mount. Verdict: positive; ratings install 10, fit 9.5, look 10, power 9.5.",
+   "measured": "Weight 7.9 lb, about 1.5 lb lighter than stock; dyno +2.7% peak power, +2.6% peak torque",
+   "other_mods": "Stock map",
+   "url": "https://www.keeferinctesting.com/?p=27896",
+   "confidence": "high"
+  },
+  {
+   "id": "kf6-007",
+   "category": "exhaust",
+   "brand": "FMF Racing",
+   "product": "250 SX-F Megabomb header with 350 SX-F Factory 4.1 muffler",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "350 SX-F",
+    "year": "2023-2024 (model year not stated)"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2024-10-20",
+   "conditions": null,
+   "observed": "Changed: versus stock, more low-end and midrange recovery; versus the full FMF 350 system it gives up a little top end; Keefer rates it the most low and low-to-mid response available. Insert in, screen out preferred; insert out adds low end but costs midrange pull. Suits: 350 SX-F riders wanting bottom-end and low-mid response, especially racing 450s. Downsides: slightly less top end than the 350 full system. Verdict: buy the 250 header and the 350 4.1 muffler separately.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/why-a-ktm-250-sx-f-fmf-megabomb-headpipe-is-better-on-a-ktm-350-sx-f",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-008",
+   "category": "exhaust",
+   "brand": "Akrapovič (KTM PowerParts)",
+   "product": "Evolution slip-on muffler (as supplied on the Factory Edition)",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F",
+    "year": "2022-2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-06-25",
+   "conditions": null,
+   "observed": "Changed: more midrange pull, longer and more linear delivery, stronger top end and over-rev, quieter. Suits: riders wanting smooth roll-on power on rough or soft tracks. Downsides: less snap and throttle response than the full Akrapovič system; quiet note hides speed; needs revving longer before shifts; an Akrapovič head pipe will not mate to the slip-on (smaller joint diameter). Verdict: well made and makes the 450 more fun, for riders who value smooth power over snap.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=27122",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-009",
+   "category": "engine_mounts",
+   "brand": "Works Chassis Labs (WCL)",
+   "product": "Medium and soft upper engine mounts",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F",
+    "year": "2023-2024"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-05-29",
+   "conditions": null,
+   "observed": "Changed: medium mount gave a softer slap-down feel, less peg vibration and more lean-angle traction; sag went 103 to 105 mm. Soft mount suited fast desert tracks without jumps. Suits: medium for Glen Helen/Cahuilla/Pala-type tracks. Downsides: medium mount can make the front feel low off throttle, so recheck sag; cutting the centre of the stock mount is a cheap DIY alternative. Verdict: worthwhile comfort mod; FCP mounts not tested.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/8-ways-to-get-less-rigidity-out-of-your-2023-2024-ktm-450-sx-f/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-010",
+   "category": "tires",
+   "brand": "Dunlop",
+   "product": "Geomax MX34 front (replacing MX33)",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F",
+    "year": "2023-2024"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-05-29",
+   "conditions": null,
+   "observed": "Changed: more lean-angle grip and a more forgiving carcass on slap-down landings. Suits: soft to intermediate conditions, riders wanting front grip and comfort. Downsides: none stated. Verdict: recommended at least as an MX33 replacement; part of his list for reducing the 2023 chassis rigidity.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/8-ways-to-get-less-rigidity-out-of-your-2023-2024-ktm-450-sx-f/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-011",
+   "category": "exhaust",
+   "brand": "FMF Racing",
+   "product": "Full exhaust system (model not named; insert removed)",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "350 SX-F",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-04-19",
+   "conditions": null,
+   "observed": "Changed: more midrange and top-end pull, better torque feel out of corners, about 2 lb lighter at the rear. Fits Husqvarna FC 350 and GasGas per the article. Suits: riders wanting more mid/top power. Downsides: slightly less low-rpm response. Verdict: recommended; he passed on Akrapovič, which he thinks suits the 450 better. Ranked 7th of 9 mods by importance.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=26542",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-012",
+   "category": "engine_mounts",
+   "brand": "Works Chassis Labs (WCL)",
+   "product": "Medium and soft upper engine mounts",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "350 SX-F",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-04-19",
+   "conditions": null,
+   "observed": "Changed: medium mount softened the feel, cut peg vibration and added edge traction; sag moved 103 to 106 mm for straight-line stability. Soft mount for fast desert. Suits: varied rough tracks; also helps AER-fork riders. Downsides: medium can make the front feel low off throttle (fixed with sag). Verdict: recommended; 5th of 9 by importance.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=26542",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-013",
+   "category": "ecu",
+   "brand": "Vortex (mapped by XPR or Twisted Development)",
+   "product": "Vortex ECU with custom map",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "350 SX-F",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-04-19",
+   "conditions": null,
+   "observed": "Changed: more low-end pull, longer third-gear pull, more over-rev, lets the engine run lower rpm to relax the chassis. Applies to Husqvarna and GasGas per the article. Suits: riders wanting an immediate engine change. Downsides: cost (about $1,000 stated). Verdict: the most noticeable mod the moment you open the throttle (6th by his importance list, behind comfort mods).",
+   "measured": "Price stated approximately $1,000",
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=26542",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-014",
+   "category": "suspension_conversion",
+   "brand": "WP (tuned by REP Suspension)",
+   "product": "XACT Pro 6500 cartridge kit in the AER fork",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "350 SX-F",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-04-19",
+   "conditions": null,
+   "observed": "Changed: lower rigidity and more front traction; stock WP base setting softer than the AER but more compliant; REP valving improved it further. Suits: motocross riders wanting a spring-fork feel and consistency in long motos. Downsides: base setting a bit soft until tuned. Verdict: ranked 2nd most important mod on this bike.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=26542",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-015",
+   "category": "tires",
+   "brand": "Dunlop",
+   "product": "Geomax MX3S (replacing MX33), 13.5 psi",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "350 SX-F",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-04-19",
+   "conditions": null,
+   "observed": "Changed: better lean-angle traction and cornering than the MX33; ran 13.5 psi instead of 12.5. Suits: riders who put cornering grip first. Downsides: wears faster than the MX33. Verdict: recommended; 3rd most important mod.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=26542",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-016",
+   "category": "triple_clamps",
+   "brand": "Ride Engineering",
+   "product": "23.5 mm offset split triple clamps",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "350 SX-F",
+    "year": "2023"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-04-19",
+   "conditions": null,
+   "observed": "Changed: calmer chassis, better front-end feel, better turn-in in ruts, less deflection on braking bumps; other 23.5-24 mm clamps should work similarly. Suits: most tracks incl. soft East Coast/Midwest dirt; fits Husqvarna and GasGas. Downsides: none noted. Verdict: noticeable improvement on the 2023 chassis.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=26542",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-017",
+   "category": "suspension_complete",
+   "brand": "WP (XACT Pro, short length)",
+   "product": "XACT Pro 7548 Cone Valve fork + XACT Pro 8950 shock (shorter Husqvarna-length), Shock Therapy tuned",
+   "part_numbers": [],
+   "bike": {
+    "make": "Husqvarna",
+    "model": "FC 450",
+    "year": "2021"
+   },
+   "source_type": "magazine",
+   "publication": "Swapmoto Live",
+   "author": "Swapmoto staff (rider 'Dommer')",
+   "date": "2022 (approx., not stated)",
+   "conditions": null,
+   "observed": "Changed: restored Husqvarna's lower 2021 geometry that a standard WP spring conversion had lost; cone-valve fork and XACT Pro shock described as an upgrade over the standard conversion; Shock Therapy stiffened it for the rider. Suits: Husqvarna riders wanting a lower centre of gravity who already like cone-valve feel. Downsides: price plus about $853 tuning. Verdict: positive, one of their favourite Husqvarna mods (rider's own verdict cut off in the page).",
+   "measured": "Prices stated: fork $3,499, shock $2,249; tuning fork about $480, shock about $373",
+   "other_mods": null,
+   "url": "https://www.swapmotolive.com/?p=115160",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-018",
+   "category": "suspension_comparison",
+   "brand": "WP (REP valving)",
+   "product": "XACT Pro 6500 cartridge kit vs XACT Pro 7548 Cone Valve fork",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F",
+    "year": "not stated (article January 2023)"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2023-01-12",
+   "conditions": null,
+   "observed": "Changed: both replace the AER air fork; 6500 uses a shim-stack mid valve, Cone Valve uses conical damping and thicker tubes. Suits: 6500 for weekend/vet racers and hard-pack; Cone Valve for serious racers, deep soft tracks and bigger budgets. Downsides: 6500 has less front stiffness and holds up less under heavy braking; Cone Valve feels less active ('dead') and costs about $2,200 more. Verdict: 6500 with REP valving is the pick for most riders.",
+   "measured": "Prices stated: 6500 kit $1,299.99 + $500 REP valving; 7548 fork $3,499 + $500 valving",
+   "other_mods": null,
+   "url": "https://keeferinctesting.com/?p=24536",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-019",
+   "category": "brakes",
+   "brand": "Brembo (KTM PowerParts Factory)",
+   "product": "Brembo Factory front and rear calipers",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F",
+    "year": "2021"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2021 (approx., not stated)",
+   "conditions": "MXA project 450 SX-F with Twisted Development engine and Vortex map, AHM revalve, Husqvarna Rockstar wheels and clamps, Akrapovič system.",
+   "observed": "Changed: brakes ran cooler, were quiet, and gave better lever and pedal modulation than stock; faster riders praised them most. Existing lines and masters can be reused. Suits: fast riders. Downsides: over $1,000 per caliper (about $2,000 a set). Verdict: praised as part of an expensive build; calipers carry serials checkable with Brembo.",
+   "measured": "Price stated: over $1,000 each",
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-builds-a-ktm-450sxf-thats-too-fast-for-mortal-men",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-020",
+   "category": "suspension_revalve",
+   "brand": "AHM Factory Services",
+   "product": "Revalve of stock WP AER fork and shock with anodized fork legs and black-chrome shock shaft",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F",
+    "year": "2021"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2021 (approx., not stated)",
+   "conditions": null,
+   "observed": "Changed: first valving was too soft and dove; after raising fork air 10.7 to 11.0 bar, three clicks more shock LSC and sag 100 to 103 mm, initial travel was plusher with better bottoming resistance and mid-stroke support. Suits: riders keeping stock WP hardware. Downsides: needed setup changes. Verdict: good after setup.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-builds-a-ktm-450sxf-thats-too-fast-for-mortal-men",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-021",
+   "category": "engine_and_ecu",
+   "brand": "Twisted Development",
+   "product": "Engine build + Vortex ECU with two maps (traction control on map 2)",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F",
+    "year": "2021"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2021 (approx., not stated)",
+   "conditions": null,
+   "observed": "Changed: about 3 hp more than Broc Tickle's 2021 supercross setup on MXA's dyno; map 1 strong smooth bottom then a sharp midrange surge; map 2 mellower with a connected feel; TC on map 2 tamed it more. Suits: skilled fast riders only. Downsides: deceptively fast, testers over-jumped and tired; map 1 too aggressive for many; expensive. Verdict: praised but beyond most riders.",
+   "measured": "No absolute dyno figures published (relative only)",
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-builds-a-ktm-450sxf-thats-too-fast-for-mortal-men",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-022",
+   "category": "exhaust",
+   "brand": "Yoshimura",
+   "product": "RS-12 stainless full system with aluminium muffler",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 250F",
+    "year": "2021"
+   },
+   "source_type": "magazine",
+   "publication": "Vital MX (Tested product review)",
+   "author": "Klinger",
+   "date": "2021-04-19",
+   "conditions": null,
+   "observed": "Changed: big improvement over stock, mostly bottom end, still pulls well on top. Suits: GasGas/KTM/Husqvarna 250-350 four-stroke owners (page lists KTM and Husqvarna 2021 fitment). Downsides: still expensive for a stainless system; hardware has to be assembled. Verdict: positive.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.vitalmx.com/comment/391",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-023",
+   "category": "exhaust",
+   "brand": "Pro Circuit",
+   "product": "Ti-6 full system (head pipe and muffler)",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250 SX-F",
+    "year": "2024"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Gardner Tarlow",
+   "date": "2023-12-14",
+   "conditions": "2024 KTM / Husqvarna / GasGas 250 four-stroke comparison; same tester on all three; no dyno.",
+   "observed": "Changed: slight gain on top end and over-rev, lighter. Suits: owners replacing a worn stock system. Downsides: stock was slightly better off the bottom. Verdict: tester likes the look but would not make it a first purchase; would spend first on a Vortex ECU and intake work.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=27549",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-024",
+   "category": "exhaust",
+   "brand": "Pro Circuit",
+   "product": "Ti-6 full system (head pipe and muffler)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Husqvarna",
+    "model": "FC 250",
+    "year": "2024"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Gardner Tarlow",
+   "date": "2023-12-14",
+   "conditions": "2024 KTM / Husqvarna / GasGas 250 four-stroke comparison; same tester on all three; no dyno.",
+   "observed": "Changed: biggest gain of the three: more top end and over-rev and a stronger midrange, lighter. Suits: owners replacing a worn stock system. Downsides: stock bottom end was cleaner; may feel worse when bogged or on dirty throttle. Verdict: tester likes the look but would not make it a first purchase; would spend first on a Vortex ECU and intake work.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=27549",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-025",
+   "category": "exhaust",
+   "brand": "Pro Circuit",
+   "product": "Ti-6 full system (head pipe and muffler)",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 250F",
+    "year": "2024"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Gardner Tarlow",
+   "date": "2023-12-14",
+   "conditions": "2024 KTM / Husqvarna / GasGas 250 four-stroke comparison; same tester on all three; no dyno.",
+   "observed": "Changed: slight gain on top end and over-rev, lighter. Suits: owners replacing a worn stock system. Downsides: bottom end not improved. Verdict: tester likes the look but would not make it a first purchase; would spend first on a Vortex ECU and intake work.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=27549",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-026",
+   "category": "map_switch",
+   "brand": "GasGas (dealer accessory map switch)",
+   "product": "Handlebar map switch (plug-and-play on the harness)",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 250F",
+    "year": "2024"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Gardner Tarlow",
+   "date": "2023-12-14",
+   "conditions": null,
+   "observed": "Changed: the harness accepts the switch plug-and-play; in the standard map the MC 250F already felt comparable to the KTM and Husqvarna green maps. Suits: riders wanting the second map/TC. Downsides: under $150 extra; not tested head to head. Verdict: bike feels worthy without it; tester would use maps sparingly.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=27549",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-027",
+   "category": "map_switch_and_suspension",
+   "brand": "KTM PowerParts / Race Tech",
+   "product": "'Mod Squad' budget package: KTM PowerParts map switch ($97.44), Race Tech fork spring conversion ($549.99) and fork springs ($109.99), stiffer shock spring ($149.99)",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 250F",
+    "year": "not stated (article about April 2025)"
+   },
+   "source_type": "magazine",
+   "publication": "Swapmoto Live (Mod Squad)",
+   "author": "Swapmoto staff",
+   "date": "2025-04 (approx., from comment dates)",
+   "conditions": null,
+   "observed": "Changed: aimed to close the gap to the KTM 250 SX-F; stiffer springs address the GasGas's softer, friendlier but less controlled suspension and the map switch adds the power-delivery option. Total about $907 with home install. Suits: MC 250F owners riding at KTM pace. Downsides: not stated. Verdict: not given in text (result is in the video).",
+   "measured": "Prices stated: map switch $97.44, Race Tech conversion $549.99, fork springs $109.99, shock spring $149.99",
+   "other_mods": null,
+   "url": "https://swapmotolive.com/can-900-make-the-gas-gas-mc-250f-as-good-as-the-ktm-250-sx-f-mod-squad/features/mod-squad",
+   "confidence": "unverified"
+  },
+  {
+   "id": "kf6-028",
+   "category": "engine_mounts",
+   "brand": "FCP Racing (Factory Chassis Parts)",
+   "product": "Engine mount kit for 2023+ KTM (lower mounts, titanium bolt, upper hangers with separate exhaust mount)",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 XC-F",
+    "year": "2023"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Bike Test",
+   "author": "Todd Davis",
+   "date": "2023-12 (approx.)",
+   "conditions": null,
+   "observed": "Changed: less harshness through the bars when decelerating, better front edge grip in hard flat turns, calmer and more compliant chassis; held up at later MX and GP events. Listed fitment 2022.5+ SX-F and 2023+ SX-F/XC-F 450. Suits: bikes that are fine in soft round bumps but harsh on hard-pack and square edges; easy install. Downsides: $429, change not dramatic, exhaust mount uses a back-side nut. Verdict: delivered as advertised.",
+   "measured": "Price stated $429.00",
+   "other_mods": null,
+   "url": "https://dirtbiketest.com/product-tests/fcp-racing-engine-mounts-for-2023-ktm/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-029",
+   "category": "engine_mounts",
+   "brand": "FCP Racing (Factory Chassis Parts)",
+   "product": "Engine hanger mounts",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 450F Factory Edition",
+    "year": "2023"
+   },
+   "source_type": "magazine",
+   "publication": "Swapmoto Live",
+   "author": "Swapmoto staff (rider Rene Garcia)",
+   "date": "not stated",
+   "conditions": null,
+   "observed": "Changed: page says the mounts improved rider feel and comfort on the new-generation chassis that some riders dislike. Suits: riders unhappy with the 2023+ chassis feel. Downsides: none stated. Verdict: positive but promotional; rider feedback not in text.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.swapmotolive.com/?p=162573",
+   "confidence": "unverified"
+  },
+  {
+   "id": "kf6-030",
+   "category": "handlebar",
+   "brand": "Renthal",
+   "product": "Fatbar bend recommendations by rider height",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250/350/450 SX-F",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-12-10",
+   "conditions": null,
+   "observed": "Average height (5'8\"-6'0\"): Fatbar 821 (W813 H78 R42 S54) cut to 802 mm. Tall (6'1\"-6'4\"): 839 (W802 H91 R51 S51). Short: 822 (W808 H83 R53 S41) cut to 802. With +5 mm bar mounts (Ride Engineering sells them) run the 672 bend. Reason: the Austrian bikes have a taller front end than Japanese/British bikes, so a flatter, lower bar suits them. Downside: stock bar is too stiff and too wide. Verdict: tester recommendation, not a measured test.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=29444",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-031",
+   "category": "handlebar",
+   "brand": "Renthal",
+   "product": "Fatbar bend recommendations by rider height",
+   "part_numbers": [],
+   "bike": {
+    "make": "Husqvarna",
+    "model": "FC 250/350/450",
+    "year": "2025 (carried into 2026 guide)"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-12-10",
+   "conditions": null,
+   "observed": "Average: Fatbar 821 cut to 803 mm, or 672 (W806 H85 R51 S56). Short: 822 cut to 802. Tall: 839, or +5 mm mounts with the 672. Reason: very low stock bend suits the bike; tall front end wants a flat bar. Downside: stock bar too wide. Verdict: tester recommendation, not a measured test.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=29444",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-032",
+   "category": "handlebar",
+   "brand": "Renthal",
+   "product": "Fatbar bend recommendations by rider height",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 250F/350F/450F",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-12-10",
+   "conditions": null,
+   "observed": "Average: Fatbar 821 cut to 802 mm. Tall: 839. Short: 822. +5 mm mounts with the 672 bend as an option. Same tall-front-end reasoning as KTM. Verdict: tester recommendation, not a measured test.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=29444",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-033",
+   "category": "handlebar",
+   "brand": "Renthal",
+   "product": "Fatbar bend recommendations by rider height",
+   "part_numbers": [],
+   "bike": {
+    "make": "Triumph",
+    "model": "TF 250-X / TF 450-X",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-12-10",
+   "conditions": null,
+   "observed": "Average: Fatbar 839 (W802 H91 R51 S51), alternate 661 (W802 H86 R54 S54). Tall: 827 (W811 H92 R52 S52) cut to 802. Short: 821 cut to 802. Stock mounts. Reason: stock bar is flat and long; RC Edition bend is good but he prefers more height and runs the 839 on his own Triumphs. Verdict: tester recommendation, not a measured test.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=29444",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-034",
+   "category": "exhaust",
+   "brand": "Akrapovič (factory-fitted)",
+   "product": "Slip-on muffler on the 2026.5 Factory Edition",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F Factory Edition",
+    "year": "2026.5"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Bike Magazine (Ron's Wrap)",
+   "author": "Ron Lawson",
+   "date": "2026-02-02",
+   "conditions": null,
+   "observed": "Changed: somewhat quieter than the standard SX-F muffler; very little performance difference. Suits: riders facing sound limits. Downsides: little or no power gain. Verdict: mainly a noise benefit ahead of tighter sound rules.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://dirtbikemagazine.com/?p=102346",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-035",
+   "category": "electronics_accessory",
+   "brand": "KTM (Connectivity Unit Offroad) / LitPro",
+   "product": "CUO Bluetooth tuning and GPS module",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F Factory Edition",
+    "year": "2026.5"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Bike Magazine (Ron's Wrap)",
+   "author": "Ron Lawson",
+   "date": "2026-02-02",
+   "conditions": null,
+   "observed": "Changed: phone tuning via Bluetooth plus GPS; with a LitPro subscription shows section times, speeds, jump distances, gear and rpm. Suits: riders who test a lot. Downsides: separate LitPro subscription; not needed by everyone. Verdict: invaluable for heavy track testing.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://dirtbikemagazine.com/?p=102346",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-036",
+   "category": "suspension_revalve_linkage",
+   "brand": "Pro Circuit",
+   "product": "WP XACT air fork revalve, shock revalve, shock reservoir bladder conversion, linkage (optional aluminium shock collar)",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F",
+    "year": "2021-2022"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "not stated (2021-2022 era)",
+   "conditions": null,
+   "observed": "Changed: fork gets a stiffer mid-valve and a low-speed stack in place of the free-bleed hole for more initial control; shock bladder replaces the floating piston for less friction and a smoother stroke; linkage is softer early and ramps up deeper (needs a stiffer shock spring). Suits: intermediate, pro and heavier riders on rough tracks needing more hold-up. Downsides: less plush than stock, less front dive changes turn-in. Verdict: plug-and-play upgrade for fast riders; stock stays more comfortable.",
+   "measured": "Prices stated: fork revalve $164.95, shock revalve $164.95, bladder kit $265.54, linkage $445.00, aluminium shock collar $69.95",
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-team-tested-pro-circuit-ktm-450sxf-fork-shock-linkage-mods/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-037",
+   "category": "intake",
+   "brand": "KTM (vented airbox cover, stock option) / sprocket",
+   "product": "Vented airbox cover plus one extra rear sprocket tooth",
+   "part_numbers": [],
+   "bike": {
+    "make": "Husqvarna",
+    "model": "FC 350 Heritage",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2025-03-05",
+   "conditions": null,
+   "observed": "Changed: vented cover with one more rear tooth gives a more aggressive throttle response. MXA also notes coil conversion kits (Öhlins, MX-Tech, KYB) give better hand comfort and ground-following and skip air checks, while the stock XACT air fork is 3.5 lb lighter; such kits cost $2,000-$7,000, which MXA calls unnecessary. 2023-24 aftermarket linkages will not fit the 2025 (smaller bolts). Suits: riders wanting crisper response. Downsides: louder intake; kit costs. Verdict: recommended cheap change; fork kits optional.",
+   "measured": null,
+   "other_mods": "Recommended Nihilo / Ride Engineering kill-button relocation and Nihilo radiator-cap tool",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2025-husqvarna-fc350-heritage/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-038",
+   "category": "intake_and_controls",
+   "brand": "KTM / Xtrig / Rekluse / ODI",
+   "product": "Vented airbox cover; KTM quick-turn black throttle cam; Xtrig preload adjuster; Rekluse clutch rubbers; ODI lock-on grips",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F",
+    "year": "2022"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2022-04-22",
+   "conditions": null,
+   "observed": "Changed: vented cover sharpened throttle response and midrange and added about 1 hp at high rpm (taped over in slick or wet conditions); quick-turn black cam replaces the long-throw grey cam; Xtrig preload adjuster avoids notching the plastic preload ring; Rekluse clutch rubbers outlast stock (change bumpers every six months); ODI lock-ons can be swapped trackside. Also runs a 2016 one-piece bottom bar mount with the 2022 top mount to cut bar twist. Suits: all riders. Downsides: vented cover not for wet tracks. Verdict: MXA's standard setup choices.",
+   "measured": "About 1 hp at high rpm claimed for the vented cover (not tied to a published dyno chart)",
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-race-test-2022-ktm-450sxf/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-039",
+   "category": "exhaust",
+   "brand": "Yoshimura",
+   "product": "RS-12 titanium full system",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F",
+    "year": "2023"
+   },
+   "source_type": "magazine",
+   "publication": "Swapmoto Live",
+   "author": "Swapmoto staff",
+   "date": "not stated",
+   "conditions": null,
+   "observed": "Changed: smoothed the engine's hit off corners; strong but controllable roll-on from bottom to top; revs far in each gear; excellent fit and quick install (spring puller included). Suits: riders who find the stock KTM hit abrupt and want less tiring power. Downsides: low-end hit felt too tamed at first (Barona Oaks), took laps to adapt; gain smaller than on the 350 because the stock 450 system is already strong. Verdict: well-built upgrade in rideability.",
+   "measured": "Price stated $1,299.00",
+   "other_mods": null,
+   "url": "https://www.swapmotolive.com/?p=153259",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-040",
+   "category": "exhaust",
+   "brand": "Akrapovič / FMF / Yoshimura",
+   "product": "Owner reports: aftermarket exhausts on the 2023+ 350 SX-F",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "350 SX-F",
+    "year": "2023-2025"
+   },
+   "source_type": "forum",
+   "publication": "Vital MX forum ('Best Exhaust for 23+ KTM 350 SXF')",
+   "author": "multiple owners",
+   "date": "2024-06-30 to 2025-04-10",
+   "conditions": null,
+   "observed": "Akrapovič slip-on: smoother roll-on, more mid-top pull, quieter; with insert out more low-end snap; still looked good at 60+ hours. Akrapovič full system: linear pull but OEM stronger off the bottom with less over-rev. FMF full: mid-top gain 'nothing extreme', not worth the cost for one owner; another felt it with a vented airbox and Powerflow kit. Yoshimura named best by two owners (second-hand). Several owners say the stock exhaust is good and an ECU (Vortex) is better money. Verdict: mixed; exhaust mainly for weight and sound on this bike.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.vitalmx.com/forums/moto-related/best-exhaust-23-ktm-350-sxf",
+   "confidence": "unverified"
+  },
+  {
+   "id": "kf6-041",
+   "category": "triple_clamps",
+   "brand": "KTM PowerParts (Factory Edition)",
+   "product": "Orange split triple clamps",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "350 XC-F Factory Edition",
+    "year": "2022"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Bike Magazine (Ron's Wrap)",
+   "author": "Ron Lawson (rider Fant)",
+   "date": "2021-11-19",
+   "conditions": null,
+   "observed": "Changed: less rigid feel through the bars in cross-country racing. Suits: XC racers. Downsides: none noted. Verdict: rider called them 'the unsung hero of any KTM'.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://dirtbikemagazine.com/race-testing-the-ktm-350xcf-factory-edition-the-wrap/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-042",
+   "category": "brakes",
+   "brand": "KTM (Factory Edition fitment)",
+   "product": "Solid (non-vented) rear brake disc",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "350 XC-F Factory Edition",
+    "year": "2022"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Bike Magazine (Ron's Wrap)",
+   "author": "Ron Lawson (rider Fant)",
+   "date": "2021-11-19",
+   "conditions": null,
+   "observed": "Changed: solid rotor in place of a vented one, because vented rotors wear pads fast in mud. Suits: mud and woods racers. Downsides: none noted. Verdict: positive. Same test: IMS-made quick-fill tank lasted a two-hour race; rider recommends Acerbis frame guards over the stock plastic guards in the wet.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://dirtbikemagazine.com/race-testing-the-ktm-350xcf-factory-edition-the-wrap/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-043",
+   "category": "engine_and_suspension",
+   "brand": "Race Tech / T-Rex Racing / Pro Taper / Bill's Pipes",
+   "product": "Race Tech Gold Valve revalve and cylinder work (decked, honed, ported); T-Rex billet top clamp, throttle and Teflon cable; Pro Taper SE 7/8 in bars; Bill's Pipes cone pipe + MX2 silencer",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 65",
+    "year": "2024"
+   },
+   "source_type": "magazine",
+   "publication": "Swapmoto Live (Mod Squad)",
+   "author": "Swapmoto staff",
+   "date": "not stated",
+   "conditions": null,
+   "observed": "Changed (as claimed): reworked valving front and rear with Gold Valves; higher compression, truer bore and better port flow for more power across the range; billet throttle stronger and smoother; T-Rex top clamp stock-class legal, resists fork twist and lets forks sit lower for high-speed stability; straight 7/8 in Pro Taper SE bar damps vibration better than the tapered stock bar; Bill's pipe credited with notable gains. Suits: 65 racers. Downsides: none described; no dyno or lap data. Verdict: presented as a success, claims not measured.",
+   "measured": null,
+   "other_mods": "Maxxis ST tires, Backyard Designs graphics, T-Rex 7075 rear sprocket",
+   "url": "https://www.swapmotolive.com/?p=171275",
+   "confidence": "unverified"
+  },
+  {
+   "id": "kf6-044",
+   "category": "exhaust",
+   "brand": "Pro Circuit / FMF / HGS / Bill's Pipes",
+   "product": "Owner reports: aftermarket pipes on 2018+ KTM/Husqvarna/GasGas 85s",
+   "part_numbers": [],
+   "bike": {
+    "make": "Husqvarna",
+    "model": "TC 85",
+    "year": "2018-2022 (thread about a 2022 TC 85)"
+   },
+   "source_type": "forum",
+   "publication": "Vital MX forum ('22 tc85')",
+   "author": "multiple owners",
+   "date": "2021-11-20 to 2021-11-24",
+   "conditions": null,
+   "observed": "One owner ran stock, Pro Circuit and FMF on three bikes and felt no major difference; jetting mattered more. Another tested stock, FMF, BUD/HGS and Bill's: Bill's best overall, HGS close but weaker build and fit, FMF worse than stock, stock pipe very good. Others say suspension work gives more progress than a pipe on these engines. Verdict: on 2018+ 85s the stock pipe is strong; spend on suspension and jetting first.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.vitalmx.com/comment/4079126",
+   "confidence": "unverified"
+  },
+  {
+   "id": "kf6-045",
+   "category": "exhaust_comparison",
+   "brand": "Pro Circuit / FMF",
+   "product": "Pro Circuit pipe + R-304 Shorty silencer vs FMF Factory Fatty + Powercore 2",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250 SX (300 cc PowerParts kit)",
+    "year": "2020"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "Josh Mosiman / MXA staff",
+   "date": "2020 (approx., not stated)",
+   "conditions": "MXA test rider Josh Mosiman's 2020 World Two-Stroke Championship bike: 2020 250 SX with KTM PowerParts 300 kit, Twisted Development engine work, Mikuni TMX 38 carb.",
+   "observed": "Changed: Pro Circuit gave a smooth bottom, strong midrange and more over-rev; FMF Fatty gave stronger bottom and mid but did not rev as far. Suits: Pro Circuit for fast Glen Helen-type tracks, FMF for deep soft tracks. Downsides: Pro Circuit has less bottom punch. Verdict: Pro Circuit raced, FMF carried as backup.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxas-zero-excuses-world-two-stroke-championship-ktm-300sx",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-046",
+   "category": "power_valve",
+   "brand": "Kreft Moto",
+   "product": "Power Dial 2.0 (hand-adjustable power-valve main spring preload); auxiliary spring removed",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250 SX (300 cc PowerParts kit)",
+    "year": "2020"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "Josh Mosiman / MXA staff",
+   "date": "2020 (approx., not stated)",
+   "conditions": "MXA test rider Josh Mosiman's 2020 World Two-Stroke Championship bike: 2020 250 SX with KTM PowerParts 300 kit, Twisted Development engine work, Mikuni TMX 38 carb.",
+   "observed": "Changed: lets the rider change power-valve preload trackside; removing the auxiliary spring (after trying a red spring) opened the valve sooner for a snappier throttle. Suits: carbureted 2017-2022 KTM/Husqvarna 250/300 owners tuning bottom-end lag. Downsides: did not cure the bottom-end lag on its own; jetting (pilot and needle clip) finished the fix. Verdict: helpful.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxas-zero-excuses-world-two-stroke-championship-ktm-300sx",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-047",
+   "category": "triple_clamps",
+   "brand": "Luxon MX",
+   "product": "Top and bottom triple clamps",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250 SX (300 cc PowerParts kit)",
+    "year": "2020"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "Josh Mosiman / MXA staff",
+   "date": "2020 (approx., not stated)",
+   "conditions": "MXA test rider Josh Mosiman's 2020 World Two-Stroke Championship bike: 2020 250 SX with KTM PowerParts 300 kit, Twisted Development engine work, Mikuni TMX 38 carb.",
+   "observed": "Changed: lighter and claimed 33% stronger than stock, but caused sharper-than-stock oversteer. Suits: not this rider at Glen Helen. Downsides: oversteer. Verdict: rejected for the race; stock clamps kept.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxas-zero-excuses-world-two-stroke-championship-ktm-300sx",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-048",
+   "category": "engine_mounts_and_axle_blocks",
+   "brand": "FCP Racing / Works Connection",
+   "product": "FCP prototype motor mounts and titanium front engine bolt; Works Connection Elite floating axle blocks",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250 SX (300 cc PowerParts kit)",
+    "year": "2020"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "Josh Mosiman / MXA staff",
+   "date": "2020 (approx., not stated)",
+   "conditions": "MXA test rider Josh Mosiman's 2020 World Two-Stroke Championship bike: 2020 250 SX with KTM PowerParts 300 kit, Twisted Development engine work, Mikuni TMX 38 carb.",
+   "observed": "Changed: FCP mounts made the bike feel more planted over bumps into corners (torques 22 lb-ft mounts, 35 lb-ft bolt); WC floating blocks improved rear suspension feel. Suits: racers on rough tracks. Downsides: FCP parts were prototypes. Verdict: both kept.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxas-zero-excuses-world-two-stroke-championship-ktm-300sx",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-049",
+   "category": "suspension_springs",
+   "brand": "WP (XACT Pro Cone Valve fork and shock)",
+   "product": "Spring rate changes: 4.6 N/mm fork (from 4.8), 42 vs 45 N/mm shock",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250 SX (300 cc PowerParts kit)",
+    "year": "2020"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "Josh Mosiman / MXA staff",
+   "date": "2020 (approx., not stated)",
+   "conditions": "MXA test rider Josh Mosiman's 2020 World Two-Stroke Championship bike: 2020 250 SX with KTM PowerParts 300 kit, Twisted Development engine work, Mikuni TMX 38 carb.",
+   "observed": "Changed: softer 4.6 fork springs kept; a 42 N/mm shock spring let the rear ride too low, so 45 N/mm went back in with revised compression for hold-up. Suits: data point for 300 two-stroke racers on cone-valve kits. Downsides: long, costly testing; final fork valving ended up matching the starting spec. Verdict: 4.6 fork / 45 shock.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxas-zero-excuses-world-two-stroke-championship-ktm-300sx",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-050",
+   "category": "ecu_map_and_exhaust",
+   "brand": "Twisted Development / FMF / Pro Circuit",
+   "product": "Twisted Development alternative maps with FMF and Pro Circuit pipes and silencers",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "300 SX",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2025 (approx., not stated)",
+   "conditions": null,
+   "observed": "Changed: TD maps made the TBI 250/300 feel more like a traditional two-stroke, with a harder hit and better third-gear turning; stock map 1 (white) pulled longer and was preferred over the harder-hitting map 2 (green). Also tested on the 2025 TC 250. MXA notes Twisted Development will not remap the 125/150 ECUs. Suits: riders who find the TBI delivery flat. Downsides: none stated; no dyno published. Verdict: worthwhile for the 250/300; check XACT air pressure often.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/austrian-two-stroke-showdown-tc125-vs-150sx-vs-tc250-vs-300sx",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-051",
+   "category": "ecu_map_and_exhaust",
+   "brand": "Twisted Development / FMF / Pro Circuit",
+   "product": "Twisted Development alternative maps with FMF and Pro Circuit pipes and silencers",
+   "part_numbers": [],
+   "bike": {
+    "make": "Husqvarna",
+    "model": "TC 250",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2025 (approx., not stated)",
+   "conditions": null,
+   "observed": "Changed: harder hit and better third-gear turning than stock maps; the stock white map was preferred to the stock green map. Suits: TC 250 riders wanting more two-stroke character. Downsides: none stated. Verdict: positive (shared test with the 2025 300 SX).",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/austrian-two-stroke-showdown-tc125-vs-150sx-vs-tc250-vs-300sx",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-052",
+   "category": "factory_edition_parts",
+   "brand": "Husqvarna / Nihilo Concepts / KTM",
+   "product": "Vented airbox cover, Nihilo start/stop retrofit and radiator-cap tool, KTM-spec linkage and unlowered suspension on the Factory Edition",
+   "part_numbers": [],
+   "bike": {
+    "make": "Husqvarna",
+    "model": "FC 450 Factory Edition",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2025-03-19",
+   "conditions": null,
+   "observed": "Changed: vented cover preferred except on dusty or wet tracks; the FE uses a KTM linkage and full-height WP (not the lowered Husqvarna setup), keeping the rear higher; MXA suggests pairing the vented cover with a remapped ECU and full exhaust for more response. Suits: taller riders (FE height). Downsides: shorter riders lose the lowered fit; radiator cap needs the Nihilo tool; shroud blocks shock clickers (MXA cuts a hole-saw access). Verdict: Factory parts are a bolt-on package; recommended Nihilo items.",
+   "measured": "60.1 hp peak at 9,400 rpm (MXA; no torque given)",
+   "other_mods": "FMF Factory 4.1 muffler, Rekluse clutch cover, split 20/22 mm clamps, Excel rims (factory-fitted)",
+   "url": "https://motocrossactionmag.com/mxa-race-test-2025-husqvarna-fc450-factory-edition",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-053",
+   "category": "suspension_conversion",
+   "brand": "Technical Touch (TCS Powersports valving)",
+   "product": "WP-to-KYB conversion kit (KYB internals, springs, custom lugs; reuses stock tubes)",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "EX 250F (cross-country; same AER fork as MC 250F)",
+    "year": "2021 (page also says 2022)"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Bike Test",
+   "author": "Trevor Hunter",
+   "date": "2022-07 (last modified 2022-07-22)",
+   "conditions": null,
+   "observed": "Changed: front more supple on small bumps, better bottoming resistance, planted feel; heavier front slows steering. Suits: faster riders wanting stability, front traction and comfort at speed. Downsides: $1,750 plus labour, heavier and slower steering, less suited to tight technical terrain. Verdict: preferred over stock air forks at speed and in rough terrain, and over the dearer WP cone-valve; kit can move between bikes.",
+   "measured": "Prices stated: kit $1,750.00, revalve/install $200+, KYB 01-M fluid $40",
+   "other_mods": null,
+   "url": "https://dirtbiketest.com/product-tests/technical-touch-kyb-conversion-kit/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-054",
+   "category": "suspension_conversion",
+   "brand": "Enzo Racing",
+   "product": "Technica KYB conversion kit for WP AER/XACT 48 fork (KYB AOS cartridge, machined lugs)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Husqvarna",
+    "model": "FC 350",
+    "year": "2020"
+   },
+   "source_type": "magazine",
+   "publication": "Swapmoto Live",
+   "author": "Swapmoto staff",
+   "date": "not stated",
+   "conditions": null,
+   "observed": "Changed: turns the AER fork into a KYB-style spring fork; better comfort, front-wheel contact and predictability in choppy corners; no air checks. Suits: AER owners who dislike initial harshness and pressure checks. Downsides: none listed; cost. Verdict: 'out-performs the standard fork in every way', removing the FC 350's main weakness.",
+   "measured": "Prices stated: $1,595 base, $1,975 as tested (anodised base valve caps and spring tubes)",
+   "other_mods": null,
+   "url": "https://www.swapmotolive.com/?p=58166",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-055",
+   "category": "exhaust",
+   "brand": "FMF Racing",
+   "product": "Factory 4.1 titanium muffler + Megabomb head pipe",
+   "part_numbers": [],
+   "bike": {
+    "make": "Triumph",
+    "model": "TF 450-RC Edition",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-06-30",
+   "conditions": null,
+   "observed": "Changed: stronger 2nd/3rd gear pull out of corners, more midrange recovery and longer midrange; top end slightly better; over-rev same; off-idle crack slightly softer than stock; deeper sound. Insert in, screen cut out for better low-end feel and rear traction. Suits: TF 450 riders wanting more torque feel. Downsides: cost, about 1 lb saved only, repack every 10-12 h, Megabomb needs fiddling to line up with the mount. Verdict: reasonable upgrade, best with 13/49 gearing and the ECU update.",
+   "measured": "Prices stated: muffler $899.99, head pipe $474.99; muffler just over 1 lb lighter",
+   "other_mods": "13/49 gearing (stock 13/48), ECU update",
+   "url": "https://www.keeferinctesting.com/fmf-4-1-muffler-system-for-triumph-tf-450-rc-edition/",
+   "confidence": "high"
+  },
+  {
+   "id": "kf6-056",
+   "category": "ecu_and_exhaust_flange",
+   "brand": "Twisted Development / Pro Circuit",
+   "product": "Vortex ECU with per-gear custom map, TD port-matched exhaust flange, Pro Circuit Ti-6 system (replacing the Akrapovič slip-on)",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 450F Factory Edition",
+    "year": "2023.5"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "Josh Mosiman",
+   "date": "2023 (approx., not stated)",
+   "conditions": "MXA test rider Josh Mosiman's 2023 Hangtown National race bike (2023.5 MC 450F Factory Edition, 2023 KTM platform).",
+   "observed": "Changed: smoother bottom end, second gear pulls longer, easier to ride hard; the flange (blueprinted to the port instead of the round stock flange) changed power noticeably. Suits: racers. Downsides: flange still needed back-to-back testing against stock. Verdict: liked so far; rider kept stock 13/49 gearing over the 14/52 some testers use.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/innermost-secrets-josh-mosimans-hangtown-national-gasgas-mc450f/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-057",
+   "category": "suspension_revalve",
+   "brand": "Pro Circuit (tuning) / WP",
+   "product": "WP XACT Pro Cone Valve fork and Trax shock with Pro Circuit 450 SX-F National settings",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 450F Factory Edition",
+    "year": "2023.5"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "Josh Mosiman",
+   "date": "2023 (approx., not stated)",
+   "conditions": "MXA test rider Josh Mosiman's 2023 Hangtown National race bike (2023.5 MC 450F Factory Edition, 2023 KTM platform).",
+   "observed": "Changed: matched his best 2022 results; felt too stiff in small ruts on press day, so fork compression went four clicks softer and shock rebound two clicks faster. Suits: pro-level national racers. Downsides: stiff in small ruts at base. Verdict: liked.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/innermost-secrets-josh-mosimans-hangtown-national-gasgas-mc450f/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-058",
+   "category": "body_and_protection",
+   "brand": "GasGas (stock side plate) / Twin Air",
+   "product": "Stock side number plate/airbox cover; Twin Air mesh radiator screens; frame guards removed with clear grip tape",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 450F Factory Edition",
+    "year": "2023.5"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "Josh Mosiman",
+   "date": "2023 (approx., not stated)",
+   "conditions": "MXA test rider Josh Mosiman's 2023 Hangtown National race bike (2023.5 MC 450F Factory Edition, 2023 KTM platform).",
+   "observed": "Changed: stock side plate flew off at speed (no tool-less lock, no aftermarket plastics yet); MXA suggests a wood screw into the airbox; 2024 plastics have stronger tabs. Twin Air mesh screens keep sticky mud out of the radiator fins. Removing frame guards for grip tape made the bike feel slimmer but left worn paint exposed. Verdict: side-plate retention is a known 2023 issue; screens worthwhile in mud.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/innermost-secrets-josh-mosimans-hangtown-national-gasgas-mc450f/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-059",
+   "category": "engine_big_bore",
+   "brand": "Cylinder Works / Twisted Development / WP",
+   "product": "Cylinder Works 366 cc big-bore kit, Vortex ECU (TD map), Akrapovič exhaust, WP Cone Valve fork lowered to Husqvarna spec, Husqvarna linkage, revalved Trax shock with 6 mm taller seal head",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 350F",
+    "year": "2023"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff (owner Kent Reed)",
+   "date": "not stated",
+   "conditions": null,
+   "observed": "Changed: displacement up to 366 cc; Husqvarna longer-arm linkage lowers the rear; taller shock seal head keeps the tyre off the fender with the lowered setup. Suits: vet riders wanting more torque in a 350 chassis. Downsides: none stated; results are in the video only. Verdict: raced by the MXA crew; no written results. Notable as the only 2023+ big-bore kit found for this engine.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-video-we-build-the-ultimate-vet-bike-mc366-big-bore",
+   "confidence": "unverified"
+  },
+  {
+   "id": "kf6-060",
+   "category": "factory_edition_parts",
+   "brand": "KTM (Factory Edition fitment)",
+   "product": "2026 250 SX-F Factory Edition package: WP XACT Pro 7548 / 8950, Akrapovič slip-on, D.I.D rims with orange hubs, Hinson clutch cover, CNC clamps, CUO",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250 SX-F Factory Edition",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Cycle News",
+   "author": "Ryan Nitzen",
+   "date": "2026-08-30",
+   "conditions": null,
+   "observed": "Changed: closed-cartridge cone-valve fork replaces the air fork; shock adds adjustment and a bypass valve; open airbox with optional vented cover made the KTM rev slightly quicker than the Husqvarna. Author values the bolt-on parts at about $2,800 retail (clamps ~$600, wheels ~$1,000, slip-on ~$900, graphics ~$200) and the suspension at nearly $6,000 if bought separately. Suits: taller riders (taller seat and bar setup). Downsides: highest price; KTMConnect app $69/year. Verdict: strong value; better fit for the 6 ft author. Best in the green map for bottom-end roll-on.",
+   "measured": "MSRP $12,599; claimed 231.48 lb without fuel",
+   "other_mods": null,
+   "url": "https://www.cyclenews.com/2026/08/article/ktm-250-sx-f-factory-edition-vs-husqvarna-fc-250-factory-edition/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-061",
+   "category": "factory_edition_parts",
+   "brand": "Husqvarna (Factory Edition fitment)",
+   "product": "2026 FC 250 Factory Edition package: WP XACT Pro 7548 / 8950, FMF Factory 4.1 titanium slip-on, Excel rims, Rekluse clutch cover, ProTaper bars, ODI lock-ons, Guts seat cover, sealed airbox",
+   "part_numbers": [],
+   "bike": {
+    "make": "Husqvarna",
+    "model": "FC 250 Factory Edition",
+    "year": "2026"
+   },
+   "source_type": "magazine",
+   "publication": "Cycle News",
+   "author": "Ryan Nitzen",
+   "date": "2026-08-30",
+   "conditions": null,
+   "observed": "Changed: same WP Pro suspension as the KTM FE; sealed airbox and FMF slip-on revved slightly slower than the KTM. Suits: shorter riders (lower stance). Downsides: ProTaper bend and lower stance felt cramped for a 6 ft rider; Husqvarna's racing programme ending raises questions about future FE parts. Verdict: strong value package; best in the green map.",
+   "measured": "MSRP $12,699; claimed 232.36 lb without fuel",
+   "other_mods": null,
+   "url": "https://www.cyclenews.com/2026/08/article/ktm-250-sx-f-factory-edition-vs-husqvarna-fc-250-factory-edition/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-062",
+   "category": "triple_clamps",
+   "brand": "WP (Husqvarna Factory / PowerParts)",
+   "product": "WP split triple clamps (Rockstar Edition fitment)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Husqvarna",
+    "model": "FC 250 Rockstar Edition",
+    "year": "2025.5"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Gardner Tarlow",
+   "date": "2025-04-21",
+   "conditions": null,
+   "observed": "Changed: more compliant front end, more positive tyre feel on edge, softer slap-down landings than the stock FC 250 clamps. Suits: any FC 250 owner. Downsides: none noted. Verdict: would 'absolutely' upgrade a stock bike.",
+   "measured": "Price stated about $550",
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2025-5-husqvarna-fc250-rockstar-edition-is-the-juice-worth-the-squeeze/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-063",
+   "category": "electronics_accessory",
+   "brand": "Husqvarna / KTM (Connectivity Unit Offroad)",
+   "product": "CUO app tuning: engine output, engine braking, throttle response, quickshift sensitivity",
+   "part_numbers": [],
+   "bike": {
+    "make": "Husqvarna",
+    "model": "FC 250 Rockstar Edition",
+    "year": "2025.5"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Gardner Tarlow",
+   "date": "2025-04-21",
+   "conditions": null,
+   "observed": "Changed: factory CUO settings (output standard, engine braking 3/5, throttle response 3/5) felt tight with on-off, jerky engine braking in corners; preferred output aggressive, engine braking 1/5, throttle response 4/5, which freed the bottom end, improved mid/top and calmed the chassis. Throttle response 5/5 broke the rear loose on hard-base tracks. Suits: FC 250 owners. Downsides: needs setting; 5/5 too aggressive on hard pack. Verdict: works very well; would buy for a stock FC 250.",
+   "measured": "Price stated about $250",
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2025-5-husqvarna-fc250-rockstar-edition-is-the-juice-worth-the-squeeze/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-064",
+   "category": "exhaust",
+   "brand": "FMF Racing",
+   "product": "Factory 4.1 RCT titanium slip-on (Rockstar Edition fitment)",
+   "part_numbers": [],
+   "bike": {
+    "make": "Husqvarna",
+    "model": "FC 250 Rockstar Edition",
+    "year": "2025.5"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Gardner Tarlow",
+   "date": "2025-04-21",
+   "conditions": null,
+   "observed": "Changed: with the CUO unit, better mid and top end than stock. Suits: stock FC 250 owners adding a CUO. Downsides: $850; tester normally waits until the stock pipe is damaged before replacing it. Verdict: worth it only paired with the CUO. Overall the Rockstar add-ons are worth under 50 cents per dollar of the $1,200 premium; GUTS ribbed seat liked; Rekluse cover cosmetic without a Rekluse clutch.",
+   "measured": "Price stated about $850; MSRP FC 250 $10,499 vs Rockstar $11,699",
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/2025-5-husqvarna-fc250-rockstar-edition-is-the-juice-worth-the-squeeze/",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-065",
+   "category": "steering_head",
+   "brand": "FCP Racing / Ride Engineering",
+   "product": "FCP race cups (steering head angle cups) vs Ride Engineering 23.5 mm clamps",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F",
+    "year": "2024"
+   },
+   "source_type": "forum",
+   "publication": "Vital MX forum ('FCP race cups vs offset triple clamps')",
+   "author": "zwolf734 and others",
+   "date": "2024-09-11 to 2025-10-22",
+   "conditions": null,
+   "observed": "One 2024 450 SX-F owner felt no difference from Ride Engineering 23.5 mm clamps, but FCP cups stopped bar headshake; they were expensive and needed new fork clicks and a shock spring afterwards. Others question the roughly $600 price for about 0.33 degrees of head-angle change, smaller non-OEM bearings (a clamp maker's view, disclosed), and resale; several suggest settings changes first. Verdict: mixed, owner reports only.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.vitalmx.com/comment/6969401",
+   "confidence": "unverified"
+  },
+  {
+   "id": "kf6-066",
+   "category": "gearing_and_suspension_baseline",
+   "brand": "Stock sprockets / KYB (stock) / Ride Engineering or X-Trig clamps (suggested)",
+   "product": "2026 gearing and baseline: Triumph TF 450-X",
+   "part_numbers": [],
+   "bike": {
+    "make": "Triumph",
+    "model": "TF 450-X",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-03-30 and 2026-05-01",
+   "conditions": null,
+   "observed": "Gearing (2026 gearing guide, https://www.keeferinctesting.com/?p=29762): stock 13/48, recommended 13/49 to quicken third-gear engagement or carry third longer. Suspension: soft but comfortable baseline that feels unbalanced off throttle and needs stiffening; Keefer suggests Ride Engineering or X-Trig triple clamps to improve front-end behaviour. Verdict: good comfort starting point; one more rear tooth recommended.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=29670",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-067",
+   "category": "suspension_baseline",
+   "brand": "KYB (stock)",
+   "product": "2026 250 MX baseline settings: Triumph TF 250-X",
+   "part_numbers": [],
+   "bike": {
+    "make": "Triumph",
+    "model": "TF 250-X",
+    "year": "2026"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2026-06-10",
+   "conditions": null,
+   "observed": "Balanced out of the box; Keefer added some hold-up at both ends for loaded corners while keeping comfort. Fork 4.7 N/mm spring, compression 8 clicks out; shock 56 N/mm, 103 mm sag, HSC 1 turn out (riders about 140-180 lb). Gearing guide recommends 13/49 over stock 13/48. Verdict: middle-ground setting.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=29823",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-068",
+   "category": "triple_clamps",
+   "brand": "X-Trig / KTM PowerParts",
+   "product": "X-Trig vs KTM PowerParts triple clamps; bottom-clamp bolt torque 10 Nm vs stock 12 Nm",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250 SX-F",
+    "year": "2022"
+   },
+   "source_type": "forum",
+   "publication": "Vital MX forum ('FC350 Xtrig or Luxon?')",
+   "author": "Brent and others",
+   "date": "2021-09-22 to 2021-09-24",
+   "conditions": null,
+   "observed": "A team-side poster's pro rider chose X-Trig over PowerParts clamps by a small margin on a 2022 250 SX-F, and preferred 10 Nm bottom-clamp torque to the stock 12 Nm; another rider could not feel the torque change. Owners call the stock KTM clamp rigid and prone to twisting and the stock bar mount soft; FASST inserts helped vibration. X-Trig called heavy and bulky by one owner; Luxon praise is mostly from the vendor or repeat buyers. Verdict: anecdotal.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.vitalmx.com/forums/Moto-Related,20/FC350-Xtrig-or-Luxon,1395024",
+   "confidence": "unverified"
+  },
+  {
+   "id": "kf6-069",
+   "category": "dyno_test",
+   "brand": "KTM (stock)",
+   "product": "2025 450 SX-F dyno",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 SX-F",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Rider",
+   "author": "Andrew Oldar",
+   "date": "2024-09-02",
+   "conditions": null,
+   "observed": "Stock baseline for exhaust/ECU comparisons. Test rider: lots of power but very rideable, smooth delivery for easy corner exits.",
+   "measured": "53.2 hp, 32.9 lb-ft at the rear wheel (Dynojet 250i)",
+   "other_mods": null,
+   "url": "https://dirtrider.com/tests/ktm-450-sx-f-dyno-test-2025",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-070",
+   "category": "dyno_test",
+   "brand": "KTM (stock)",
+   "product": "2025 450 XC-F dyno",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "450 XC-F",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Rider",
+   "author": "Andrew Oldar",
+   "date": "2024-10-29 (updated)",
+   "conditions": null,
+   "observed": "Stock cross-country baseline.",
+   "measured": "54.2 hp, 33.6 lb-ft (Dynojet 250i); 0.4 hp less and 0.6 lb-ft more than the 2023",
+   "other_mods": null,
+   "url": "https://www.dirtrider.com/tests/ktm-450-xc-f-dyno-test-2025",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-071",
+   "category": "dyno_test",
+   "brand": "Husqvarna (stock)",
+   "product": "2025 FC 450 dyno",
+   "part_numbers": [],
+   "bike": {
+    "make": "Husqvarna",
+    "model": "FC 450",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Rider",
+   "author": "Andrew Oldar",
+   "date": "2024-09-10",
+   "conditions": null,
+   "observed": "Stock baseline; Dirt Rider suggests the different airbox explains the small gap to the KTM. 2025 has a one-piece air inlet sleeve and snorkel.",
+   "measured": "53.0 hp, 32.7 lb-ft (Dynojet 250i); 0.2 hp / 0.2 lb-ft below the KTM 450 SX-F",
+   "other_mods": null,
+   "url": "https://dirtrider.com/tests/husqvarna-fc-450-dyno-test-2025",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-072",
+   "category": "dyno_test",
+   "brand": "GasGas (stock)",
+   "product": "2025 MC 250F dyno",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 250F",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Rider",
+   "author": "Andrew Oldar",
+   "date": "2024-10-19 (updated)",
+   "conditions": null,
+   "observed": "Softer than the KTM/Husqvarna, partly from the closed airbox with no optional vented cover; tester wanted more low end but says it shines at high rpm. Useful baseline for map-switch and airbox mods.",
+   "measured": "39.5 hp, 18.8 lb-ft; 0.7 hp below the KTM 250 SX-F and 0.9 hp below the FC 250",
+   "other_mods": null,
+   "url": "https://www.dirtrider.com/tests/gasgas-mc-250f-dyno-test-2025",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-073",
+   "category": "dyno_test",
+   "brand": "KTM (stock)",
+   "product": "2023 125 SX dyno",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "125 SX",
+    "year": "2023"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Rider",
+   "author": "Andrew Oldar",
+   "date": "2023-09-15",
+   "conditions": null,
+   "observed": "First TBI 125 SX: strong low end and quick throttle; bogs if rpm drops too low or in the wrong gear. Stock baseline.",
+   "measured": "30.9 hp at 10,800 rpm, 15.3 lb-ft at 10,700 rpm (Dynojet 250i)",
+   "other_mods": null,
+   "url": "https://dirtrider.com/tests/ktm-125-sx-dyno-test-2023",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-074",
+   "category": "dyno_test",
+   "brand": "Husqvarna (stock)",
+   "product": "2025 FC 250 Factory Edition dyno",
+   "part_numbers": [],
+   "bike": {
+    "make": "Husqvarna",
+    "model": "FC 250 Factory Edition",
+    "year": "2025"
+   },
+   "source_type": "magazine",
+   "publication": "Dirt Rider",
+   "author": "Andrew Oldar",
+   "date": "2025-03-05",
+   "conditions": null,
+   "observed": "Similar to the 2024 Rockstar Edition (no mechanical changes). FE ships with an FMF slip-on, but the page does not say what exhaust was on the dyno run.",
+   "measured": "40.7 hp, 19.4 lb-ft (Dynojet 250i)",
+   "other_mods": null,
+   "url": "https://www.dirtrider.com:443/tests/husqvarna-fc-250-factory-edition-dyno-test-2025",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-075",
+   "category": "suspension_baseline",
+   "brand": "WP (stock AER fork)",
+   "product": "2025 250 MX baseline settings: KTM 250 SX-F",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "250 SX-F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-02-18",
+   "conditions": null,
+   "observed": "Fork: 10.6 bar (10.5 during break-in), 5 mm height, C12 out (15 with 10.7 bar), R10 out. Shock: 42 N/mm, 102 mm sag, HSC 1.75 turns out, LSC 10, R11. For 150-180 lb; under 150 lb run about 10.3 bar. AER fork needs 6-7 engine hours to break in and feels stiff before that.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=28690",
+   "confidence": "high"
+  },
+  {
+   "id": "kf6-076",
+   "category": "suspension_baseline",
+   "brand": "WP (stock AER fork)",
+   "product": "2025 250 MX baseline settings: GasGas MC 250F",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 250F",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-02-18",
+   "conditions": null,
+   "observed": "Fork same as the KTM: 10.6 bar, 5 mm height, C12 (15 with 10.7 bar), R10. Shock: 42 N/mm, 102-103 mm sag, HSC 1.75-2 turns out, LSC 11, R11 (slightly more compression than the KTM).",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=28690",
+   "confidence": "high"
+  },
+  {
+   "id": "kf6-077",
+   "category": "suspension_baseline",
+   "brand": "KYB (stock)",
+   "product": "2025 250 MX baseline settings: Triumph TF 250-X",
+   "part_numbers": [],
+   "bike": {
+    "make": "Triumph",
+    "model": "TF 250-X",
+    "year": "2025"
+   },
+   "source_type": "tester",
+   "publication": "Keefer Inc Testing",
+   "author": "Kris Keefer",
+   "date": "2025-02-18",
+   "conditions": null,
+   "observed": "Fork: 4.7 N/mm spring, 3 mm height, C8, R8. Shock: 56 N/mm, 103 mm sag, HSC 1 turn out, LSC 7, R10. Well balanced from the factory; middle-ground setting adds hold-up front and rear under load while keeping comfort.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.keeferinctesting.com/?p=28690",
+   "confidence": "high"
+  },
+  {
+   "id": "kf6-078",
+   "category": "intake_and_map_switch",
+   "brand": "UFO Plastic / GasGas / Honda OEM",
+   "product": "UFO vented airbox cover; GasGas accessory map switch ($170); Honda rear brake pedal spring; 45 N/mm shock spring; +1 rear tooth",
+   "part_numbers": [],
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 350F",
+    "year": "2023"
+   },
+   "source_type": "magazine",
+   "publication": "Motocross Action (MXA)",
+   "author": "MXA staff",
+   "date": "2023 (approx., not stated)",
+   "conditions": null,
+   "observed": "Changed: the stock airbox cover is very closed; a UFO vented cover makes the engine noticeably more responsive; the map switch unlocks the two extra maps, traction control and launch control the stock MC lacks; one more rear tooth gives quicker low-mid response (many 350 racers add two); a Honda pedal spring replaces the weak stock one; a 45 N/mm shock spring (stock 42) for riders over 185 lb or fast riders. MXA also says the GasGas lacks a head-pipe resonance chamber, so an aftermarket exhaust can recover midrange, and that KTM-spec billet clamps turn in more precisely than the forgiving forged GasGas clamps. Verdict: MXA's recommended changes.",
+   "measured": "54.5 hp peak (MXA); map switch $170",
+   "other_mods": null,
+   "url": "https://motocrossactionmag.com/mxa-race-test-the-real-test-of-the-2023-gasgas-mc350f",
+   "confidence": "medium"
+  },
+  {
+   "id": "kf6-079",
+   "category": "exhaust_and_ecu",
+   "brand": "Pro Circuit / XPR (Vortex) / Akrapovič",
+   "product": "Pro Circuit full system, then XPR-mapped Vortex ECU; later Akrapovič system",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "350 XC-F",
+    "year": "2024"
+   },
+   "source_type": "forum",
+   "publication": "Vital MX forum (bike build log)",
+   "author": "prida28",
+   "date": "2023-07-29 to 2023-12-12",
+   "conditions": "Owner build log (prida28, 200 lb, mostly track riding), July-December 2023.",
+   "observed": "Pro Circuit full system: map 1 lost some roll-on but pulled better mid-top; map 2 better. XPR Vortex ECU restored the lost throttle response and pulled better overall. Akrapovič (replacing the PC) was linear, smooth and quiet but had slightly less low-end response than the PC. Owner later suggests stock exhaust for pure performance and a ZRT throttle as a cheap upgrade.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.vitalmx.com/forums/bike-builds/2024-ktm-350-xc-f",
+   "confidence": "unverified"
+  },
+  {
+   "id": "kf6-080",
+   "category": "linkage_and_mounts",
+   "brand": "REP Suspension / FCP Racing",
+   "product": "REP linkage; FCP engine mounts",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "350 XC-F",
+    "year": "2024"
+   },
+   "source_type": "forum",
+   "publication": "Vital MX forum (bike build log)",
+   "author": "prida28",
+   "date": "2023 (fall)",
+   "conditions": "Owner build log (prida28, 200 lb, mostly track riding), July-December 2023.",
+   "observed": "REP linkage calmed the rear and tracked straighter over acceleration bumps ('definitely worth the cost'). FCP engine mounts fitted at about 10 hours: no noticeable difference for this owner.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.vitalmx.com/forums/bike-builds/2024-ktm-350-xc-f",
+   "confidence": "unverified"
+  },
+  {
+   "id": "kf6-081",
+   "category": "triple_clamps_and_bar_mounts",
+   "brand": "Ride Engineering",
+   "product": "23.5 mm offset clamps and 5 mm bar-mount spacers",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "350 XC-F",
+    "year": "2024"
+   },
+   "source_type": "forum",
+   "publication": "Vital MX forum (bike build log)",
+   "author": "prida28",
+   "date": "2023-fall to 2023-12-12",
+   "conditions": "Owner build log (prida28, 200 lb, mostly track riding), July-December 2023.",
+   "observed": "23.5 mm clamps were the biggest chassis change: regained stability with little loss of turning. 5 mm bar spacers felt more comfortable leaning in ruts, though the bike turned a little less easily.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.vitalmx.com/forums/bike-builds/2024-ktm-350-xc-f",
+   "confidence": "unverified"
+  },
+  {
+   "id": "kf6-082",
+   "category": "handlebar_gearing_springs",
+   "brand": "ProTaper / stock sprocket / suspension revalve",
+   "product": "ProTaper ACF bars; 49T rear sprocket; stiffer springs and revalve",
+   "part_numbers": [],
+   "bike": {
+    "make": "KTM",
+    "model": "350 XC-F",
+    "year": "2024"
+   },
+   "source_type": "forum",
+   "publication": "Vital MX forum (bike build log)",
+   "author": "prida28",
+   "date": "2023-07-29 to 2023-12-08",
+   "conditions": "Owner build log (prida28, 200 lb, mostly track riding), July-December 2023.",
+   "observed": "ProTaper ACF bars cut vibration and improved feedback; 49T rear made third gear more usable; stock suspension was soft (especially the rear spring) for a 200 lb rider, so springs went up (fork about 4.6 to 4.8, shock 45 to 48 N/mm); after a revalve the bike was very stable but turned slower and felt firm (107 mm sag may be high). Owner called the bike 'amazing' at 24 hours.",
+   "measured": null,
+   "other_mods": null,
+   "url": "https://www.vitalmx.com/forums/bike-builds/2024-ktm-350-xc-f",
+   "confidence": "unverified"
+  }
+ ],
+ "builds": [
+  {
+   "id": "kb6-001",
+   "title": "Racer X Films: 2022 GasGas MC 250 (Big Bore) Garage Build",
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 250",
+    "year": "2022"
+   },
+   "publication": "Racer X",
+   "date": "2022-07-08",
+   "url": "https://racerxonline.com/2022/07/08/racer-x-films-2022-gasgas-mc-250-big-bore-garage-build",
+   "notes": "Text Kris Keefer, build Scott McDonough. Parts list only; no per-part results, prices or part numbers in the text (results are in the video).",
+   "parts": [
+    {
+     "category": "engine",
+     "brand": "KTM PowerParts",
+     "product": "300 cc kit",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "engine",
+     "brand": "Phathead Racing",
+     "product": "Billet cylinder head",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "fuel",
+     "brand": "Lectron",
+     "product": "Billetron carburetor",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "intake",
+     "brand": "Moto Tassinari",
+     "product": "VForce3 reed cage",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "exhaust",
+     "brand": "Motoes / Scalvini",
+     "product": "Stainless cone pipe / carbon silencer",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "suspension",
+     "brand": "Öhlins (RD Suspension valving)",
+     "product": "RXF 48 fork, TTX Flow shock",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "triple_clamps",
+     "brand": "Ride Engineering",
+     "product": "Split clamps and bar mounts",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "wheels",
+     "brand": "Dubya USA",
+     "product": "Edge wheelset",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "clutch",
+     "brand": "Hinson",
+     "product": "Basket, inner hub, pressure plate",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "engine_mounts",
+     "brand": "CMT Compositi",
+     "product": "Carbon engine mounts",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "controls",
+     "brand": "ODI / Fastway",
+     "product": "RC4 bars, half-waffle grips; Ankle Saver pegs (lower position)",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "tires",
+     "brand": "Dunlop",
+     "product": "MX3S front, rear listed as MX33",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    }
+   ]
+  },
+  {
+   "id": "kb6-002",
+   "title": "Racer X Films: 2023 GasGas MC 450F Garage Build",
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 450F",
+    "year": "2023"
+   },
+   "publication": "Racer X",
+   "date": "2023-01-13",
+   "url": "https://racerxonline.com/2023/01/13/racer-x-films-2023-gasgas-mc-450f-garage-build",
+   "notes": "Text Kris Keefer, build Eddie Laret. Same bike as Keefer's 'Parts that we have tried that work (2023 MC450)' (pass 1). Parts list only; no part numbers or prices.",
+   "parts": [
+    {
+     "category": "ecu",
+     "brand": "Twisted Development",
+     "product": "Vortex ECU remap, exhaust flange",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "clutch",
+     "brand": "Hinson",
+     "product": "Complete Billetproof clutch kit and cover",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "exhaust",
+     "brand": "Pro Circuit",
+     "product": "Ti-6 full system",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "suspension",
+     "brand": "Technical Touch / Shock Therapy",
+     "product": "WP-to-KYB conversion, revalve",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "triple_clamps",
+     "brand": "Xtrig",
+     "product": "ROCS Pro 20-22 split clamps, PHDS mounts, preload adjuster",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "brakes",
+     "brand": "Moto-Master",
+     "product": "270 mm front disc and adapter, MXC calipers, braided lines",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "gearing",
+     "brand": "Moto-Master",
+     "product": "13T front, 49T 7075 rear, GP 520 chain",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "controls",
+     "brand": "Pro Taper / ZRT",
+     "product": "Fuzion Race Team bend, 1/3 waffle grips; ZRT throttle tube",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "intake",
+     "brand": "Twin Air",
+     "product": "Power-Flow kit",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "wheels",
+     "brand": "GasGas Factory PowerParts",
+     "product": "1.85x21 / 2.15x19 wheels",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "chassis",
+     "brand": "Works Connection",
+     "product": "Elite axle blocks, Pro-Launch, caps, rotating bar clamps",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    }
+   ]
+  },
+  {
+   "id": "kb6-003",
+   "title": "Racer X Films: 2023 GasGas MC 250F FE Garage Build",
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 250F Factory Edition",
+    "year": "2023"
+   },
+   "publication": "Racer X",
+   "date": "2023-06-16",
+   "url": "https://racerxonline.com/2023/06/16/racer-x-films-2023-gasgas-mc-250f-fe-garage-build",
+   "notes": "Text Kris Keefer, build Jay Clark. Simple build with minimal engine work; KTM two-stroke filter cage with the backfire screen removed is also mentioned.",
+   "parts": [
+    {
+     "category": "ecu",
+     "brand": "Twisted Development",
+     "product": "Vortex ECU, custom map",
+     "part_numbers": [],
+     "purpose": "Add torque",
+     "observed": null
+    },
+    {
+     "category": "suspension",
+     "brand": "Factory Connection",
+     "product": "WP 6500 dual-spring fork kit, revalve",
+     "part_numbers": [],
+     "purpose": "Ground feel",
+     "observed": "Better front-end ground feel than the stock AER fork"
+    },
+    {
+     "category": "exhaust",
+     "brand": "FMF",
+     "product": "4.1 slip-on",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "clutch",
+     "brand": "Rekluse",
+     "product": "TorqDrive plates, outer cover",
+     "part_numbers": [],
+     "purpose": "Handle added performance",
+     "observed": null
+    },
+    {
+     "category": "gearing",
+     "brand": "ProX",
+     "product": "14/51 sprockets, 118-link X-ring chain",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "tires",
+     "brand": "Dunlop",
+     "product": "MX3S front 13.5 psi, MX14 rear 12.5 psi",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "controls",
+     "brand": "ODI / Scar",
+     "product": "CFT Podium Champ bars, Emig 2.0 V2 lock-ons; titanium pegs",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "intake",
+     "brand": "Uni Filter",
+     "product": "Two-stage filter",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    }
+   ]
+  },
+  {
+   "id": "kb6-004",
+   "title": "Racer X Films: 2023 GasGas MC 350F Garage Build",
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 350F",
+    "year": "2023"
+   },
+   "publication": "Racer X",
+   "date": "2023-03-10",
+   "url": "https://racerxonline.com/2023/03/10/racer-x-films-2023-gasgas-mc-350-f-garage-build",
+   "notes": "Text Kris Keefer, build Spencer Luczak (Eleven Eight Racing / Ride Rad). Parts list only; rider rode about an hour at Mesquite MX and wanted more time on it.",
+   "parts": [
+    {
+     "category": "exhaust",
+     "brand": "Akrapovič",
+     "product": "Full Evolution titanium system",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "engine",
+     "brand": "Proven Moto",
+     "product": "Head, port, high-compression piston, micro transmission, mapping",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "ecu",
+     "brand": "Vortex",
+     "product": "ECU",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "suspension",
+     "brand": "MX-Tech",
+     "product": "Blackjack fork, National shock",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "brakes",
+     "brand": "Brembo / Moto-Master",
+     "product": "Factory calipers; Flame rotors (270 mm front)",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "chassis",
+     "brand": "Luxon",
+     "product": "Triple clamps, linkage, caliper hanger, axle block",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "wheels",
+     "brand": "Dubya",
+     "product": "Kite hubs, Excel Takasago A60 rims",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "controls",
+     "brand": "Pro Taper / Raptor / ZRT",
+     "product": "Race Team bars; Apex Ti pegs; throttle tube",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "intake",
+     "brand": "Twin Air",
+     "product": "Powerflow cage",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "chassis",
+     "brand": "Warp9 / RaceTech Titanium / Ride Engineering",
+     "product": "Ti axles and pivot bolt; Ti bolt kit; steering damper",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    }
+   ]
+  },
+  {
+   "id": "kb6-005",
+   "title": "2021 KTM 125 SX Two-Stroke Garage Build",
+   "bike": {
+    "make": "KTM",
+    "model": "125 SX",
+    "year": "2021"
+   },
+   "publication": "Racer X",
+   "date": "2021-06-17",
+   "url": "https://racerxonline.com/2021/06/17/2021-ktm-125-sx-two-stroke-garage-build",
+   "notes": "Text Kris Keefer, build Chad Braun / XPR Motorsports, for a Schoolboy-class rider. Parts list only; no per-part results.",
+   "parts": [
+    {
+     "category": "engine",
+     "brand": "XPR Motorsports",
+     "product": "Cylinder porting, power-valve mod, jetting",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "engine",
+     "brand": "Vertex",
+     "product": "Race piston",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "engine",
+     "brand": "VHM",
+     "product": "Two-piece head",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "intake",
+     "brand": "Moto Tassinari",
+     "product": "V-Force 4 reed cage",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "exhaust",
+     "brand": "HGS",
+     "product": "Pipe and silencer",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "suspension",
+     "brand": "Race Tech",
+     "product": "Fork spring conversion, shock revalve",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "intake",
+     "brand": "Twin Air",
+     "product": "Powerflow kit",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "tires",
+     "brand": "Dunlop",
+     "product": "MX33 80/100-21, 110/90-19",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    }
+   ]
+  },
+  {
+   "id": "kb6-006",
+   "title": "Racer X Films: 2024 KTM 112cc Supermini Garage Build",
+   "bike": {
+    "make": "KTM",
+    "model": "85 SX 19/16",
+    "year": "2024"
+   },
+   "publication": "Racer X",
+   "date": "2024-07-19",
+   "url": "https://racerxonline.com/2024/07/19/racer-x-films-2024-ktm-112cc-supermini-garage-build",
+   "notes": "Text Kris Keefer, build RJR Motorsports. Base bike is a stock 85 cc KTM (tagged ktm85sx; wheel size implied by 19/16 tyres) built to 112 cc. Parts list only; no results in the text.",
+   "parts": [
+    {
+     "category": "engine",
+     "brand": "RJR Motorsports",
+     "product": "Billet head with 112 cc insert, 112 cc piston kit",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "engine",
+     "brand": "Crankworks",
+     "product": "Billet stroker crankshaft",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "clutch",
+     "brand": "Rekluse",
+     "product": "Clutch disc kit, billet cover",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "intake",
+     "brand": "Moto Tassinari",
+     "product": "VForce4R reed cage",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "exhaust",
+     "brand": "Bill's Pipes",
+     "product": "Cone pipe, carbon MX2 silencer",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "suspension",
+     "brand": "Cloverhill Racing Services",
+     "product": "Custom spring conversion",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "triple_clamps",
+     "brand": "Xtrig",
+     "product": "Billet clamps, PHDS mounts",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "engine_mounts",
+     "brand": "FCP Racing",
+     "product": "Titanium upper mount kit",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "wheels",
+     "brand": "Nacstar USA",
+     "product": "Supermini wheelset",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "tires",
+     "brand": "Dunlop",
+     "product": "MX34 70/100-19, 90/100-16",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "controls",
+     "brand": "Mika Metals",
+     "product": "Bars, chain, sprockets",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "protection",
+     "brand": "P3 Carbon",
+     "product": "Skid plate",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    }
+   ]
+  },
+  {
+   "id": "kb6-007",
+   "title": "2025 Triumph TF 450-RC Edition Garage Build",
+   "bike": {
+    "make": "Triumph",
+    "model": "TF 450-RC Edition",
+    "year": "2025"
+   },
+   "publication": "Racer X",
+   "date": "2025-12-03",
+   "url": "https://racerxonline.com/2025/12/03/triumph-tf-450-rc-edition-garage-build",
+   "notes": "Build and text Kris Keefer, photos/video Simon Cudby. Aim: keep the linear power but add excitement; verdict 'Fun!', a friendly 450. No per-part results or part numbers.",
+   "parts": [
+    {
+     "category": "ecu",
+     "brand": "XPR Motorsports",
+     "product": "Remapped GET ignition",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "exhaust",
+     "brand": "FMF",
+     "product": "4.1 stainless full system",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "clutch",
+     "brand": "Hinson",
+     "product": "Clutch pack with heavier spring",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "intake",
+     "brand": "Twin Air",
+     "product": "Power-Flow kit",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "triple_clamps",
+     "brand": "Ride Engineering",
+     "product": "22 mm split clamps, anti-twist mounts, caps, axle blocks",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "engine_mounts",
+     "brand": "FCP Racing",
+     "product": "Top engine mounts, Ti peg pins",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "suspension",
+     "brand": "Enzo Racing",
+     "product": "Revalve and respring",
+     "part_numbers": [],
+     "purpose": "Suspension and chassis control",
+     "observed": null
+    },
+    {
+     "category": "controls",
+     "brand": "Renthal / Works Connection / G2",
+     "product": "Fatbar 839, half-waffle grips; Open Cleat Pro pegs; throttle tube",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "gearing",
+     "brand": "Renthal",
+     "product": "13/49 sprockets",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "tires",
+     "brand": "Dunlop",
+     "product": "AT82 front, MX14 rear 120/90-19",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    }
+   ]
+  },
+  {
+   "id": "kb6-008",
+   "title": "Racer X Films: 2021 GasGas MC 450F Garage Build",
+   "bike": {
+    "make": "GasGas",
+    "model": "MC 450F",
+    "year": "2021"
+   },
+   "publication": "Racer X",
+   "date": "2022-05-06",
+   "url": "https://racerxonline.com/2022/05/06/racer-x-films-2021-gasgas-mc-450f-garage-build",
+   "notes": "Text and build Kris Keefer. Goal a more comfortable chassis and KYB-like feel; stock WP said to 'leave something to be desired'. No per-part results.",
+   "parts": [
+    {
+     "category": "triple_clamps",
+     "brand": "Ride Engineering",
+     "product": "Rubber-mounted split clamps",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "suspension",
+     "brand": "Ride Engineering / Shock Therapy",
+     "product": "KYB conversion kit, revalve, shock bladder kit, DLC sliders",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "linkage",
+     "brand": "Ride Engineering",
+     "product": "Full rear linkage",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "brakes",
+     "brand": "Ride Engineering",
+     "product": "270 mm front rotor kit",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "chassis",
+     "brand": "Ride Engineering",
+     "product": "CRF floating axle/axle block kit, steering damper bracket with Showa damper",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "ecu",
+     "brand": "Vortex (XPR map)",
+     "product": "ECU",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "exhaust",
+     "brand": "Akrapovič",
+     "product": "Full Evolution system",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "controls",
+     "brand": "ProTaper",
+     "product": "Evo bars (Husqvarna bend, cut to 805 mm), 14/52 sprockets, 520 chain",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "wheels",
+     "brand": "DID",
+     "product": "Dirt Star rims",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    },
+    {
+     "category": "tires",
+     "brand": "Bridgestone",
+     "product": "X31 front, X20 rear",
+     "part_numbers": [],
+     "purpose": "Not stated",
+     "observed": null
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "WP Cone Valve / Trax for 50, 65 and 85 cc bikes: no written test found (2020-2027). The only small-bike suspension tests are the MX-Tech 85 shock (pass 1) and the Race Tech MC 65 revalve (Swapmoto, claims only).",
+  "KTM 50 SX / TC 50 / MC 50: no aftermarket test or owner review found. 65 cc: only the Swapmoto Race Tech MC 65 Mod Squad (no measurements); Cycle News 2026 TC 65 review tested no parts.",
+  "85 cc: only a 2021 Vital forum thread on pipes for 2018+ 85s and the Racer X 112 cc supermini build (parts list only). No 2025+ 85 SX aftermarket test.",
+  "2026-2027 KTM-family aftermarket tests: written items are factory-fitted Factory Edition parts (Dirt Bike 2026.5 450 FE, Cycle News 2026 250 FE comparison) and Keefer handlebar/gearing/baseline guides. No 2027 part test.",
+  "Pistons, cams, crank kits for 2023+ four-strokes: no magazine test; only the MXA Cylinder Works 366 cc MC 350F build (no written results).",
+  "Wheels: no wheel test found (Haan, Talon, Dubya, Kite) for KTM-family 2020+; wheels appear only in build lists and Factory Edition notes.",
+  "Brakes: Brembo Factory calipers (MXA 2021 build), Ride Engineering Pulse rotor (Keefer, tested on a YZ450F only, KTM-family fitment price only; not recorded as a finding), solid rear disc (Dirt Bike 2022 350 XC-F FE). No Galfer or Moto-Master test on 2023+ KTM-family found.",
+  "Clutches: no new written Rekluse or Hinson test on 2023+ KTM-family four-strokes; Revzilla Rekluse RadiusX 2023-24 250/300 page had no customer reviews.",
+  "Öhlins: only the RD Suspension-tuned RXF 48 / TTX Flow DV on a 2023 450 SX-F (MXA). Dal Soggio and Öhlins RXF 48S are only mentioned (p2).",
+  "Triumph: aftermarket product tests remain the FMF 4.1 (TF 250-X in triumph-feedback.json, TF 450-RC here). No Pro Circuit, Yoshimura, Rekluse or Hinson TF test with results; Rekluse TF 250-X clutch article is maker marketing (recall already noted in README).",
+  "Part numbers: none of the magazine or forum sources in this pass gave manufacturer part numbers; matching to catalog items must go by brand, product name and fitment years."
+ ],
+ "not_done": [
+  "Keefer pages blocked by fetch provenance (URLs only seen in fetched listing pages, not search results): KTM category pages 4-8 (keeferinctesting.com/category/bikebrands/ktm/page/4..8), 'Yoshimura RS-12 Stainless Full System Review' (2026-01-10) and 'Tested: Yoshimura RS-12 Full Titanium System' (2025-11-19) (bikes not identified), 'Dunlop Factory Spec Tire Review' (2024-11-06), 'Moto Products Showcase (Video)'.",
+  "Keefer podcast pages are audio only (no written results): Show #464 (2026 350 SX-F mods), #468 (2026 450 FE), #380 (2024 450 FE East Coast), #476 (2024 300 SX build), #422 (2025 FC250 Rockstar).",
+  "Racer X 'First ride on 2025 Husqvarna FC 250 Rockstar Edition' is video only; Racer X 2024 GasGas MC 450F Factory Edition test is video only.",
+  "Vital MX 'FMF 4.1 RCT Full Exhaust System - 2024 KTM 450 SX-F | TESTED' page returned only prices and comments, not the review body; not recorded.",
+  "Swapmoto 2025 KTM 450 SX-F In Depth and 2024 250 shootout pages returned only intro text; Swapmoto Mod Squad MC 250F verdict is in the video only.",
+  "MXA 'Full-race KTM 250SXF AMA National build' (2025 250 SX-F FE, REP / Twisted Development) returned no parts or results text; MXA '60 hp KTM 350 vs 450' gives dyno peaks only (350 SX-F 2024 modified to 60 hp, 31 ft-lb) without a parts list; not recorded as findings.",
+  "MXA product-review category listing pages return teasers without links, so individual MXA team tests were found only by search; MXA Bill's Pipes MX2 TC250 test has no model year and was not recorded; MXA Pro Circuit 250SX (2017), FMF Fatty/Gnarly (2017), Scalvini 2019 125SX, Pro Circuit 2019 FC350 Ti-6, WP Cone Valve / Super Trax on a 2019 FC450 and the Husqvarna TC150 kit (2016) are outside 2020-2027 and were not recorded.",
+  "Vital MX rate-limited several fetches; the '2024 KTM 300sx' bike check (vitalmx.com/community/x329/2024-ktm-300sx) was not read.",
+  "Transmoto KTM Factory Racing adjustable clamp test was on a 500 EXC-F (enduro, out of scope); not recorded.",
+  "Enduro models skipped: Racer X 2021 GasGas EC 300 and 2024 GasGas ES 500 garage builds, Keefer 2024 GasGas ES500 build, 2023 Husqvarna TE300 build."
+ ]
+}

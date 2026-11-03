@@ -85,9 +85,27 @@ for p in products:
                 if (mk2,model,y) in roster: bike[(mk2,model,y)].add(p['id']); hit=True
     if not hit: unmapped.append(p['id'])
 # feedback to products
-words=lambda s:set(w for w in re.findall(r'[a-z0-9]{3,}',str(s).lower()) if w not in {'the','and','for','with','kit','system','full','ktm','husqvarna','gasgas'})
+GENERIC={'the','and','for','with','kit','set','system','full','ktm','husqvarna','gasgas','yamaha','honda','kawasaki','suzuki','triumph','factory','edition',
+ 'technical','accessories','powerparts','race','racing','pro','new','series','carbon','titanium','stainless','steel','aluminum','black','blue','orange','red',
+ 'white','front','rear','stroke','2023','2024','2025','2026','2027','2022','2021','2020','oem','stock','upgrade','performance','mx','off','road'}
+words=lambda s:set(w for w in re.findall(r'[a-z0-9]{3,}',str(s).lower()) if w not in GENERIC)
+norm_m=lambda s:re.sub(r'[^a-z0-9]','',str(s).lower())
+def same_bike(p,x):
+    # A finding names the bike it was tested on: link it only to a product listed for that make and model (or one with no
+    # fitment published). Findings without a bike link on product words alone.
+    b=x.get('bike') or {}
+    if not isinstance(b,dict) or not b.get('model'): return True
+    fits=p.get('fits') or []
+    if not fits: return True
+    return any(norm_m(b.get('model')) and (norm_m(b.get('model')) in norm_m(f.get('model')) or norm_m(f.get('model')) in norm_m(b.get('model'))) for f in fits if isinstance(f,dict))
+SMALLW={'cap','caps','cover','covers','guard','guards','spacer','spacers','bolt','bolts','sticker','decal','seal','seals','bearing','bearings','screw',
+ 'nut','cable','endcap','packing','repack','insert','reservoir','lever','levers','perch','grips','bracket','clamp','mount','mounts','sleeve','end'}
+def word_match(p,x):
+    a,b=words(p.get('product')),words(x.get('product'))
+    if (a&SMALLW)-b: return False   # a small part (end cap, cover, guard) never takes a finding about the whole product
+    return len(a&b)>=(1 if len(b)<=1 else 2)
 for x in feedback:
-    best=[p for p in products if str(p.get('brand','')).lower()[:5]==str(x.get('brand','')).lower()[:5] and len(words(p.get('product'))&words(x.get('product')))>=1]
+    best=[p for p in products if str(p.get('brand','')).lower()[:5]==str(x.get('brand','')).lower()[:5] and word_match(p,x) and same_bike(p,x)]
     x['_linked']=[p['id'] for p in best]
     for p in best: p.setdefault('_feedback',[]).append(x)
 esc=lambda s:re.sub(r'\s+',' ',str(s if s is not None else '')).replace('|','/')
@@ -338,7 +356,7 @@ if APP_OUT:
             if src=='research':
                 it['r']=p['id']; it['n']=name; it['conf']=p.get('confidence')
                 it['w']=short(p.get('what_it_changes'),220); it['c']=short(' '.join((' '.join(map(str,x)) if isinstance(x,list) else str(x)) for x in (p.get('supporting_parts'),p.get('caveats')) if x),220)
-                fb=[short(x.get('observed'),160) for x in p.get('_feedback',[]) if x.get('observed')][:2] or [short(x,160) for x in (p.get('rider_feedback') or []) if isinstance(x,str) and x.strip()][:2]
+                fb=[short(x.get('observed'),160) for x in p.get('_feedback',[]) if x.get('observed')][:2] or [short(x,160) for x in (p.get('rider_feedback') or []) if isinstance(x,str) and x.strip() and not re.fullmatch(r'[A-Za-z0-9]+-\d+',x.strip())][:2]
                 if fb: it['t']=fb
                 if not it['p'] and pns: it['p']=' '.join(pns)[:80]
                 # Colours the maker lists for this product (only verified ones): the build sheet asks which one is fitted.
