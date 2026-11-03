@@ -1,0 +1,1797 @@
+{
+ "pass": "pass5-terrain-racecraft",
+ "date": "2026-11-03",
+ "notes": "Summaries in our own words, short; nothing copied. Every item names its source URL(s). Items marked 'advanced' must stay gated behind consistent basic jumping in riding-coach.ts. ridelikeaninja.com is a mountain-bike coaching source, used only for generic landing drills that transfer. new_keys entries are {key, sources} objects so each item carries attribution.",
+ "sources": [
+  {
+   "title": "Pro Secrets: Two Ways to Jump (Dirt Rider)",
+   "url": "https://dirtrider.com/features/protips/riding/141_0807_pro_secrets_two_ways_to_jump",
+   "kind": "article",
+   "used_for": "Launch (load and spring) versus absorb (soak) takeoffs; alternating drill on a tabletop"
+  },
+  {
+   "title": "Gary Semics: How fast to hit a new big jump (MotoSport)",
+   "url": "https://motosport.com/blog/motocross-riding-tips-with-gary-semics-jumps",
+   "kind": "article",
+   "used_for": "Timing compression and rebound on the face, visualising the jump's throw, coming up short as the main danger"
+  },
+  {
+   "title": "Gary Semics: Jumping techniques (MotoSport)",
+   "url": "https://www.motosport.com/blog/motocross-riding-tips-with-gary-semics-jumping-techniques",
+   "kind": "video",
+   "used_for": "Launching versus absorbing as named techniques (video page; details in video only)"
+  },
+  {
+   "title": "How to motocross scrub (Australasian Dirt Bike)",
+   "url": "https://adbmag.com.au/editorial/how-to-motocross-scrub/",
+   "kind": "article",
+   "used_for": "Scrub steps, over-leaning on the face, scrub toward the next turn"
+  },
+  {
+   "title": "Answer Racing Moto Tips: Scrubbing (Swap Moto Live)",
+   "url": "https://www.swapmotolive.com/?p=38771",
+   "kind": "video",
+   "used_for": "When not to scrub, toe catch, straighten bars before landing"
+  },
+  {
+   "title": "Motocross 101: Scrubbing (Racer X Illustrated, Nov 2019)",
+   "url": "https://digital.racerxonline.com/issue/november-2019sb/motocross-101/",
+   "kind": "article",
+   "used_for": "Throttle-off scrub, slight angle approach, coasting tabletop drill"
+  },
+  {
+   "title": "How to hit supercross whoops with Tom Vialle (KTM)",
+   "url": "https://www.ktm.com/en-au/ktm-world/stories/how-to-hit-supercross-whoops-with-double-250-sx-champ-tom-vialle.html",
+   "kind": "article",
+   "used_for": "Whoops body position, dry vs tacky dirt, skim vs jump by condition"
+  },
+  {
+   "title": "Tech Tuesday: Mastering the Whoops (WSX)",
+   "url": "https://worldsupercrosschampionship.com/tech-tuesday-mastering-the-whoops/",
+   "kind": "article",
+   "used_for": "Commitment, high gear for stability, when to jump instead"
+  },
+  {
+   "title": "Mastering the whoops (MXLarge)",
+   "url": "https://www.mxlarge.com/news/mastering-the-whoops",
+   "kind": "article",
+   "used_for": "Same points as the WSX piece (gear, commitment); corroboration only"
+  },
+  {
+   "title": "Breakdown: Jumping too soon (Racer X, Jason Thomas)",
+   "url": "https://racerxonline.com/2018/01/16/breakdown-jumping-too-soon",
+   "kind": "article",
+   "used_for": "Whoops not yet ready for jumping; signs they are; do not switch styles mid-set"
+  },
+  {
+   "title": "Pro Riding Tips: Attacking Whoops with Doug Dubach (Dirt Rider)",
+   "url": "https://www.dirtrider.com/features/protips/riding/141_0412_attacking_whoops",
+   "kind": "article",
+   "used_for": "Weight back, gear higher, leg squeeze, exit forward for drive"
+  },
+  {
+   "title": "Ricky Carmichael riding tips: whoops (Dirt Rider)",
+   "url": "https://dirtrider.com/features/protips/riding/141_0503_ricky_carmichael_riding_tips",
+   "kind": "article",
+   "used_for": "Skim tops, keep wheels out of the bottoms, rhythm"
+  },
+  {
+   "title": "Pro Tips: Irregular whoops (Dirt Rider)",
+   "url": "https://www.dirtrider.com/features/protips/riding/141_0402_irregular_whoops",
+   "kind": "article",
+   "used_for": "Uneven whoops: smoothest line, use a bigger bump to loft the front, round vs square bumps"
+  },
+  {
+   "title": "Breakdown: Rhythm decisions (Racer X, Jason Thomas)",
+   "url": "https://racerxonline.com/2015/03/24/breakdown-rhythm-decisions",
+   "kind": "article",
+   "used_for": "Choosing rhythm combos that hold up for a whole race"
+  },
+  {
+   "title": "Breakdown: Is going bigger always better? (Racer X)",
+   "url": "https://racerxonline.com/2014/02/05/breakdown-is-going-bigger-always-better",
+   "kind": "article",
+   "used_for": "Bigger combo vs corner speed before it; 'corners are for dough'"
+  },
+  {
+   "title": "Motocross 101: Rhythm sections (Racer X Illustrated, Jan 2020)",
+   "url": "https://digital.racerxonline.com/issue/january-2020wv/motocross-101/",
+   "kind": "article",
+   "used_for": "Absorb then push into the next face, landing on balls of feet, double-double vs single-double-triple"
+  },
+  {
+   "title": "Breakdown: Technique talk (Racer X)",
+   "url": "https://racerxonline.com/2015/04/14/breakdown-technique-talk",
+   "kind": "article",
+   "used_for": "Soaking vs lifting rhythm jumps, setting up passes in whoops, over-pulled front on jumps"
+  },
+  {
+   "title": "Breakdown: Rider positions (Racer X)",
+   "url": "https://racerxonline.com/2015/03/31/breakdown-rider-positions",
+   "kind": "article",
+   "used_for": "Leg squeeze, seat bounce caveat, grabbing throttle before a double"
+  },
+  {
+   "title": "Breakdown: Crash analysis (Racer X)",
+   "url": "https://racerxonline.com/2015/06/02/breakdown-crash-analysis",
+   "kind": "article",
+   "used_for": "Risk vs reward when leading; respect for dangerous sections"
+  },
+  {
+   "title": "Riding Tip: Landing into a turn (Dirt Action)",
+   "url": "https://www.dirtaction.com.au/?p=10181",
+   "kind": "article",
+   "used_for": "Choose the turn line before takeoff, braking after landing, panic faults"
+  },
+  {
+   "title": "Jumping mistakes and how to fix them (Ride Like a Ninja, MTB coaching)",
+   "url": "https://ridelikeaninja.com/2019/10/14/jumping-mistakes-and-how-to-fix-them",
+   "kind": "article",
+   "used_for": "Generic, transferable drills: landing-target marker, quiet-landing off-bike drill"
+  },
+  {
+   "title": "Riding Tip: 6 secrets to surviving sand (Dirt Action)",
+   "url": "https://www.dirtaction.com.au/?p=10153",
+   "kind": "article",
+   "used_for": "Sand momentum, braking, wide lines, body position"
+  },
+  {
+   "title": "Sand Secrets with Cade Clason (Swap Moto Live)",
+   "url": "https://www.swapmotolive.com/?p=127581",
+   "kind": "video",
+   "used_for": "Sand: lean back, gear up, round arcs, no dabbing, loose body"
+  },
+  {
+   "title": "The Breakdown: Walker on sand (Racer X)",
+   "url": "https://racerxonline.com/2012/08/17/the-breakdown-walker-on-sand",
+   "kind": "article",
+   "used_for": "Keep the front light, clutch-assisted shifts, low in berms, line memory"
+  },
+  {
+   "title": "Riding Tip: Sand turns (Dirt Action)",
+   "url": "https://www.dirtaction.com.au/?p=10079",
+   "kind": "article",
+   "used_for": "Sand rut entry, seated forward, clutch on exit"
+  },
+  {
+   "title": "Riding Tip: Whooped-out turns (Dirt Action)",
+   "url": "https://www.dirtaction.com.au/?p=10165",
+   "kind": "article",
+   "used_for": "Sand whoops in turns: standing, lofting front top to top, clutch"
+  },
+  {
+   "title": "Ten Things About Racing Motocross in the Mud (Motocross Action)",
+   "url": "https://motocrossactionmag.com/ten-things-about-racing-motocross-in-the-mud",
+   "kind": "article",
+   "used_for": "Mud: weight back, momentum to save clutch, goggles, bike prep"
+  },
+  {
+   "title": "The Breakdown: Mud riding (Racer X)",
+   "url": "https://racerxonline.com/2012/03/30/the-breakdown-mud-riding",
+   "kind": "article",
+   "used_for": "Lean less, head back, rear-first landings in mud, where corner crashes happen"
+  },
+  {
+   "title": "Going through mud on a motocross bike (MX247 Coaches Corner)",
+   "url": "https://www.mx247.com/coaches-corner/going-through-mud-on-a-motocross-bike",
+   "kind": "article",
+   "used_for": "Puddles, avoid hard braking; low-gear view (disagreement)"
+  },
+  {
+   "title": "Answer Racing Moto Tip: Sloppy conditions (Swap Moto Live)",
+   "url": "https://www.swapmotolive.com/?p=25729",
+   "kind": "video",
+   "used_for": "Ride loose, feet by mud type, positive mindset"
+  },
+  {
+   "title": "How to ride mud on your motocross bike (Dirt Action)",
+   "url": "https://www.dirtaction.com.au/?p=40616",
+   "kind": "article",
+   "used_for": "Mud race prep: goggles, helmet, spare gear, standing water"
+  },
+  {
+   "title": "The Breakdown: Hard pack (Racer X)",
+   "url": "https://racerxonline.com/2013/02/20/the-breakdown-hard-pack",
+   "kind": "article",
+   "used_for": "Hardpack pushes riders outside, harder crashes, holeshot device trade-off"
+  },
+  {
+   "title": "How to basic: traction on slippery corners (Australasian Dirt Bike)",
+   "url": "https://adbmag.com.au/?p=3998",
+   "kind": "article",
+   "used_for": "Slick corners: gentle radius, pivot point, steady throttle in a slide, water at the apex"
+  },
+  {
+   "title": "How to climb steep hills and what to do if you don't make it (RidersWest, Sam King)",
+   "url": "https://riderswestmag.com/schooled/article/how_to_climb_steep_hills_on_your_dirt_bike_and_what_to_do_if_you_dont_make",
+   "kind": "article",
+   "used_for": "Technical climbs: speed before the slope, throttle bursts, turning across the slope on a failed climb"
+  },
+  {
+   "title": "Moto Tip: Dominate downhills (Swap Moto Live)",
+   "url": "https://www.swapmotolive.com/?p=89662",
+   "kind": "video",
+   "used_for": "Downhill body, g-outs, angled bump line, gear choice"
+  },
+  {
+   "title": "How-To: Tear up hills (Transmoto)",
+   "url": "https://transmoto.com.au/?p=67513",
+   "kind": "article",
+   "used_for": "Uphill and downhill technique, recovery, ease off before a blind crest"
+  },
+  {
+   "title": "Off cambers with Shane Watts (Dirt Rider)",
+   "url": "https://www.dirtrider.com/features/protips/riding/141_0611_off_cambers_with_shane_watts",
+   "kind": "article",
+   "used_for": "Off-camber hillsides: downhill peg, steady throttle, fingers on levers"
+  },
+  {
+   "title": "BCP Moto Coach: Arm pump (MotoOnline)",
+   "url": "https://www.motoonline.com/au/bcp-moto-coach-arm-pump/",
+   "kind": "article",
+   "used_for": "Arm pump causes (stance, nerves, setup), legs-vs-hands grip ratio, relaxing in the air"
+  },
+  {
+   "title": "The curious problem of arm pump, part I (American Public University, on Medium)",
+   "url": "https://medium.com/@AmericanPublicU/the-curious-problem-of-arm-pump-in-motocross-racing-part-i-7595304d57d9",
+   "kind": "article",
+   "used_for": "Physiology of arm pump; view that forearm bulk can worsen it"
+  },
+  {
+   "title": "What is arm pump and how to avoid it (Risk Racing)",
+   "url": "https://ca.riskracing.com/blogs/news/what-is-arm-pump-in-motocross-and-how-to-avoid-it",
+   "kind": "article",
+   "used_for": "Causes after a break; grip training view (disagreement); retailer source, treated with caution"
+  },
+  {
+   "title": "That dreaded arm-pump (Bike Sport NZ)",
+   "url": "https://www.bikesportnz.com/?p=30756",
+   "kind": "article",
+   "used_for": "Stay active between rides, warm-up options, fasciotomy not guaranteed"
+  },
+  {
+   "title": "Arm pump solved: mental strategies (Peak Performance Sports)",
+   "url": "https://peaksports.com/arm-pump-solved-motocross",
+   "kind": "article",
+   "used_for": "Arm pump from over-trying and self-pressure"
+  },
+  {
+   "title": "Moto Tip: Concentration and pre-race nerves (Swap Moto Live)",
+   "url": "https://www.swapmotolive.com/?p=49356",
+   "kind": "video",
+   "used_for": "Breathing on the line, caffeine, nothing new on race day"
+  },
+  {
+   "title": "Virtual Trainer: Get psyched for starts (Racer X)",
+   "url": "https://racerxonline.com/2006/06/29/virtual-trainer-get-psyched-for-starts",
+   "kind": "article",
+   "used_for": "Race plan, first-person start rehearsal, no predicting finishes, one cue at a time"
+  },
+  {
+   "title": "The Breakdown: Matt Walker on the details (Racer X)",
+   "url": "https://racerxonline.com/2012/04/07/the-breakdown-matt-walker-on-the-details",
+   "kind": "article",
+   "used_for": "Inside gate view, running wide in turn 1, commit block passes early"
+  },
+  {
+   "title": "30 Stories from the Ranch: Adam's gate picks (Racer X)",
+   "url": "https://racerxonline.com/2021/07/17/30-stories-from-the-ranch-adams-gate-picks",
+   "kind": "article",
+   "used_for": "A bad gate pick is not fatal; technique beats the pick"
+  },
+  {
+   "title": "Moto Tips: Learning a new track on race day (Swap Moto Live)",
+   "url": "https://www.swapmotolive.com/?p=110386",
+   "kind": "video",
+   "used_for": "Track walk checks, staged pace in practice laps"
+  },
+  {
+   "title": "Moto Tip: Slower here, faster there (Swap Moto Live)",
+   "url": "https://www.swapmotolive.com/moto-tip-slower-here-faster-there/videos-theater/moto-tips/",
+   "kind": "video",
+   "used_for": "Give up speed in one spot to nail the next section"
+  },
+  {
+   "title": "Answer Racing Moto Tips: Forming the first lines (Swap Moto Live)",
+   "url": "https://www.swapmotolive.com/?p=87016",
+   "kind": "video",
+   "used_for": "Breaking in lines on a fresh track (page text is thin)"
+  },
+  {
+   "title": "Ten Things About Pro Riding Tips (Motocross Action)",
+   "url": "https://motocrossactionmag.com/ten-things-about-pro-riding-tips",
+   "kind": "article",
+   "used_for": "Stand-up and feet-on-pegs drills, full motos, varied tracks, race experience"
+  },
+  {
+   "title": "Moto tips for parents and youth riders (Swap Moto Live)",
+   "url": "https://swapmotolive.com/?p=31519",
+   "kind": "video",
+   "used_for": "What parents get wrong, coaching kids at the track"
+  },
+  {
+   "title": "How to coach your kids to ride a motorcycle (TeamMotorcycle)",
+   "url": "https://www.teammotorcycle.com/blogs/guides/how-to-coach-your-kids-to-ride-a-motorcycle",
+   "kind": "article",
+   "used_for": "Child-led, kneel at their level, plain language, patience"
+  },
+  {
+   "title": "How to teach your kids to ride a dirt bike (FRP Moto)",
+   "url": "https://www.frpmoto.com/blogs/dirt-bike-tips-and-tricks/how-to-teach-your-kids-to-ride-a-dirt-bike-safely-and-confidently",
+   "kind": "article",
+   "used_for": "Short sessions, one skill at a time, skill order, limiter"
+  },
+  {
+   "title": "3 reminders for motocross parents (RidersWest)",
+   "url": "https://riderswestmag.com/motorcyclezone/article/3_reminders_for_motocross_parents",
+   "kind": "article",
+   "used_for": "Same reaction win or lose, name strengths after a race"
+  },
+  {
+   "title": "How old is too old to start motocross? (Risk Racing)",
+   "url": "https://riskracing.com/blogs/news/how-old-is-too-old-to-start-motocross",
+   "kind": "article",
+   "used_for": "Older riders: fitness first, tabletops before doubles, lessons, injury cost"
+  },
+  {
+   "title": "Getting back to moto/riding at 60+? (Vital MX forum)",
+   "url": "https://www.vitalmx.com/comment/3850006",
+   "kind": "article",
+   "used_for": "Rider-community consensus for returning vets (forum, anecdotal)"
+  }
+ ],
+ "skills": [
+  {
+   "id": "jumps",
+   "new_keys": [
+    {
+     "key": "Two ways to leave a face: launch (push down into the face with the legs, then spring up as the bike rebounds) for height and distance, or absorb (let the bike rise into bent knees and elbows) to stay low over jumps you would otherwise overjump. Pick by what the landing needs.",
+     "sources": [
+      "https://dirtrider.com/features/protips/riding/141_0807_pro_secrets_two_ways_to_jump",
+      "https://www.motosport.com/blog/motocross-riding-tips-with-gary-semics-jumping-techniques"
+     ]
+    },
+    {
+     "key": "Before a new jump, picture how the face will throw the bike (height and distance) and decide the speed from that; speed alone is only part of the answer, the face technique matters as much.",
+     "sources": [
+      "https://motosport.com/blog/motocross-riding-tips-with-gary-semics-jumps"
+     ]
+    },
+    {
+     "key": "Keep the body steady front to back from face to air; leaning forward or back at the lip changes the bike's pitch.",
+     "sources": [
+      "https://dirtrider.com/features/protips/riding/141_0807_pro_secrets_two_ways_to_jump"
+     ]
+    },
+    {
+     "key": "Landing into a turn: choose the turn line (inside or berm) before takeoff, because you cannot change it in the air. Eyes on the landing, then up to the line.",
+     "sources": [
+      "https://www.dirtaction.com.au/?p=10181"
+     ]
+    },
+    {
+     "key": "After a downside landing into a turn, stay standing while braking; brake lightly at first and add front brake only once the front is loaded; sit when the bike is settled and slow enough.",
+     "sources": [
+      "https://www.dirtaction.com.au/?p=10181"
+     ]
+    },
+    {
+     "key": "Pulling the bars up hard on a face lifts the front too high and makes the jump harder to clear; lift with the legs, not a yank.",
+     "sources": [
+      "https://racerxonline.com/2015/04/14/breakdown-technique-talk"
+     ]
+    }
+   ],
+   "new_faults": [
+    {
+     "fault": "Coming up short off a big jump",
+     "looks_like": "Rear wheel hits the landing face or lip; rider's feet bounce off the pegs on impact.",
+     "why": "Approach speed slightly short or the face was ridden passively; on big jumps there is little margin.",
+     "fix": "On doubles and gaps do not creep up; follow a rider who clears it at a known speed or roll it. On tabletops add face technique (load and spring) before adding speed.",
+     "drill": "Tabletop only: jump to a marker on the top, then move the marker a little further each set once you hit the current one three times running.",
+     "sources": [
+      "https://motosport.com/blog/motocross-riding-tips-with-gary-semics-jumps",
+      "https://ridelikeaninja.com/2019/10/14/jumping-mistakes-and-how-to-fix-them"
+     ]
+    },
+    {
+     "fault": "Cruising off the lip (no height)",
+     "looks_like": "Bike barely leaves the face, flat trajectory, lands short on a tabletop even at decent speed.",
+     "why": "Rider just rides up the face without loading the suspension, or absorbs when the jump needs a launch.",
+     "fix": "Push down with the legs going up the face and stand tall at the lip as the suspension rebounds, like a bicycle bunny hop.",
+     "drill": "Alternate one absorb jump and one launch jump on the same small tabletop to feel the difference.",
+     "sources": [
+      "https://dirtrider.com/features/protips/riding/141_0807_pro_secrets_two_ways_to_jump",
+      "https://www.motosport.com/blog/motocross-riding-tips-with-gary-semics-jumping-techniques"
+     ]
+    },
+    {
+     "fault": "Panic on a landing into a turn",
+     "looks_like": "Rider drops to the seat on landing, stabs the rear brake, or shoots past the turn.",
+     "why": "Line not chosen before takeoff; jump distance wrong (too short bounces off the down ramp, too long overshoots).",
+     "fix": "Decide the line before the face; land standing; light brakes then progressive front; if the inside goes wrong, commit early to the berm.",
+     "sources": [
+      "https://www.dirtaction.com.au/?p=10181"
+     ]
+    },
+    {
+     "fault": "Grabbing throttle out of a turn before a jump",
+     "looks_like": "Bike squirts sideways or into the next lane on the face of a jump that follows a corner.",
+     "why": "A handful of throttle mid-exit breaks traction just before the face.",
+     "fix": "One smooth, steady roll-on from exit to face.",
+     "sources": [
+      "https://racerxonline.com/2015/03/31/breakdown-rider-positions"
+     ]
+    }
+   ],
+   "drills": [
+    {
+     "name": "Launch vs absorb on one tabletop",
+     "how": "On a small tabletop you already clear easily, alternate a launch jump (load and spring) and an absorb jump (soak the face) at the same speed.",
+     "progression": "Same speed throughout; only once both feel controlled, use the absorb version on a roller where you would otherwise overjump.",
+     "done_when": "Ten in a row where you can tell the two apart and land balanced each time.",
+     "sources": [
+      "https://dirtrider.com/features/protips/riding/141_0807_pro_secrets_two_ways_to_jump"
+     ]
+    },
+    {
+     "name": "Landing target",
+     "how": "Put a visible marker (cone placed off the line by a helper, or a fixed mark) on a tabletop landing; look at it in the air and aim the front wheel at it.",
+     "progression": "Move the marker shorter and longer in small steps, tabletops only.",
+     "done_when": "You land within about a bike length of the marker on most attempts.",
+     "sources": [
+      "https://ridelikeaninja.com/2019/10/14/jumping-mistakes-and-how-to-fix-them"
+     ]
+    },
+    {
+     "name": "Quiet landings (off the bike)",
+     "how": "Jump on the spot and land as quietly as possible, using ankles, knees and hips as suspension.",
+     "progression": "Then apply the same soft legs to small tabletop landings, landing on the balls of the feet.",
+     "done_when": "Landings on the bike feel soft and the bike settles straight away.",
+     "sources": [
+      "https://ridelikeaninja.com/2019/10/14/jumping-mistakes-and-how-to-fix-them",
+      "https://digital.racerxonline.com/issue/january-2020wv/motocross-101/"
+     ]
+    }
+   ],
+   "pro_tips": [
+    {
+     "tip": "Seat-bouncing a big jump (Zach Osborne style) can add distance, but coaches call it not ideal; treat it as advanced and only out of a slow corner where there is no other way.",
+     "sources": [
+      "https://motosport.com/blog/motocross-riding-tips-with-gary-semics-jumps",
+      "https://racerxonline.com/2015/03/31/breakdown-rider-positions"
+     ]
+    },
+    {
+     "tip": "Land on the balls of the feet, not the arches, on normal landings: more ankle travel and control.",
+     "sources": [
+      "https://digital.racerxonline.com/issue/january-2020wv/motocross-101/"
+     ]
+    },
+    {
+     "tip": "Off the throttle as you come into the landing, then back on once the bike settles.",
+     "sources": [
+      "https://motosport.com/blog/motocross-riding-tips-with-gary-semics-jumps"
+     ]
+    }
+   ],
+   "disagreements": [
+    "Sighting-lap jumping: Swap Moto Live advises not to roll jumps in early laps and to jump tabletops part way first; riding-coach.ts rightly warns that creeping up on doubles and gaps lands you on the lip. Reconcile: partial jumping is for tabletops only. (https://www.swapmotolive.com/?p=110386)",
+    "Landing attitude: Dirt Action suggests landing slightly front-first when landing into a turn so the front brake can be used; Racer X says in deep mud land rear-first with the throttle on. Both are context-specific (downside into a corner vs. mud). (https://www.dirtaction.com.au/?p=10181, https://racerxonline.com/2012/03/30/the-breakdown-mud-riding)"
+   ]
+  },
+  {
+   "id": "scrubbing",
+   "new_keys": [
+    {
+     "key": "Scrub toward the direction the track turns next (into a left-hander, lay it toward the left).",
+     "sources": [
+      "https://www.swapmotolive.com/?p=38771",
+      "https://adbmag.com.au/editorial/how-to-motocross-scrub/"
+     ]
+    },
+    {
+     "key": "Do not scrub jumps you must accelerate hard to clear, or on very fast straights; scrubbing sheds distance.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=38771"
+     ]
+    },
+    {
+     "key": "Approach the face at only a slight angle; steep angles up the face are elite-level.",
+     "sources": [
+      "https://digital.racerxonline.com/issue/november-2019sb/motocross-101/"
+     ]
+    },
+    {
+     "key": "Lean the bike before the lip; how far depends on face steepness and ruts. Ruts in the face make it hard to get sideways.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=38771",
+      "https://adbmag.com.au/editorial/how-to-motocross-scrub/"
+     ]
+    },
+    {
+     "key": "Keep the inside foot on the peg so the toe cannot catch; tuck the outside knee and elbow, steer the bike with arms and legs while head and torso stay neutral.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=38771",
+      "https://adbmag.com.au/editorial/how-to-motocross-scrub/",
+      "https://digital.racerxonline.com/issue/november-2019sb/motocross-101/"
+     ]
+    },
+    {
+     "key": "Straighten the bars before the front touches down so the front wheel does not catch; aim the bike at the next corner and get back on the throttle or brakes, not coasting.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=38771",
+      "https://adbmag.com.au/editorial/how-to-motocross-scrub/"
+     ]
+    }
+   ],
+   "new_faults": [
+    {
+     "fault": "Over-leaning on the face",
+     "looks_like": "Rear steps out on the face, bike lands still leaned, rider bails or highsides.",
+     "why": "Too much lean too early for the traction available on the face.",
+     "fix": "Less lean, start at normal jump speed, add lean only as it stays repeatable.",
+     "drill": "Small tabletop, a few degrees of lean, straighten early.",
+     "sources": [
+      "https://adbmag.com.au/editorial/how-to-motocross-scrub/"
+     ]
+    },
+    {
+     "fault": "Toe catch on takeoff",
+     "looks_like": "Inside foot off the peg or dangling at the lip; leg dragged back.",
+     "why": "Rider lifts the inside foot thinking it helps the lean.",
+     "fix": "Inside foot stays on the peg; it is the outside foot and knee that tuck.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=38771",
+      "https://adbmag.com.au/editorial/how-to-motocross-scrub/"
+     ]
+    },
+    {
+     "fault": "Landing with bars still turned",
+     "looks_like": "Front wheel crossed up at touchdown, bike tucks or deflects.",
+     "why": "Straightened too late.",
+     "fix": "Turn the bars back and straighten earlier; reduce the scrub until timing is consistent.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=38771",
+      "https://digital.racerxonline.com/issue/november-2019sb/motocross-101/"
+     ]
+    },
+    {
+     "fault": "Scrub that will not happen",
+     "looks_like": "Bike goes up the face straight despite the rider leaning.",
+     "why": "Blipping the throttle on the face, poor knee grip, steering with the upper body.",
+     "fix": "Steady approach, squeeze with the knees, use legs and arms rather than the torso.",
+     "sources": [
+      "https://digital.racerxonline.com/issue/november-2019sb/motocross-101/"
+     ]
+    }
+   ],
+   "drills": [
+    {
+     "name": "Coasting tabletop",
+     "how": "On a small tabletop you clear easily, practise going off the face without blipping the throttle to learn how the bike behaves with engine braking.",
+     "progression": "Then add a slight lean at the same speed; only later, a little more speed so you clear the table while scrubbing.",
+     "done_when": "You land straight on the downside every time with a small scrub angle.",
+     "sources": [
+      "https://digital.racerxonline.com/issue/november-2019sb/motocross-101/"
+     ]
+    },
+    {
+     "name": "Small-jump scrub ladder",
+     "how": "Start on the smallest jump you jump consistently; small angle, straighten early.",
+     "progression": "Increase angle first, then speed, then jump size; never on a jump you are not already clearing comfortably.",
+     "done_when": "Repeatable, straight landings at each step before moving up.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=38771",
+      "https://adbmag.com.au/editorial/how-to-motocross-scrub/"
+     ]
+    }
+   ],
+   "pro_tips": [
+    {
+     "tip": "A scrub is an overjump-prevention tool: come in with more speed than the jump needs and scrub to shorten it, keeping speed into the landing.",
+     "sources": [
+      "https://digital.racerxonline.com/issue/november-2019sb/motocross-101/",
+      "https://racerxonline.com/2015/04/14/breakdown-technique-talk"
+     ]
+    },
+    {
+     "tip": "Turning on the face of a jump to shed speed before whoops (as Tomac does) is very advanced and not for home practice.",
+     "sources": [
+      "https://racerxonline.com/2015/03/31/breakdown-rider-positions"
+     ]
+    }
+   ],
+   "disagreements": [
+    "Throttle during the scrub: Racer X 'Motocross 101' says a scrub only works fully off the throttle; riding-coach.ts currently says keep the throttle on. Australasian Dirt Bike has the rider brake and compress before the face. Recommend BAK revise to: steady on the approach, no blips on the face, the bike typically scrubs off the throttle; back on the gas for the landing. (https://digital.racerxonline.com/issue/november-2019sb/motocross-101/, https://adbmag.com.au/editorial/how-to-motocross-scrub/)"
+   ]
+  },
+  {
+   "id": "whoops",
+   "new_keys": [
+    {
+     "key": "Gear one higher than feels natural: the rear drives instead of spinning and the bike stays more stable.",
+     "sources": [
+      "https://www.dirtrider.com/features/protips/riding/141_0412_attacking_whoops",
+      "https://worldsupercrosschampionship.com/tech-tuesday-mastering-the-whoops/",
+      "https://www.mxlarge.com/news/mastering-the-whoops"
+     ]
+    },
+    {
+     "key": "Weight toward the rear but not so far back that the front misses the tops; head over the bars, elbows high, feet back on the pegs.",
+     "sources": [
+      "https://www.ktm.com/en-au/ktm-world/stories/how-to-hit-supercross-whoops-with-double-250-sx-champ-tom-vialle.html"
+     ]
+    },
+    {
+     "key": "Squeeze hard with the legs to keep the bike straight; that saves the upper body.",
+     "sources": [
+      "https://www.dirtrider.com/features/protips/riding/141_0412_attacking_whoops"
+     ]
+    },
+    {
+     "key": "Dry whoops: carry speed but do not over-rev, or the rear spins. Tacky or soft whoops: manage the throttle; jumping may suit them better.",
+     "sources": [
+      "https://www.ktm.com/en-au/ktm-world/stories/how-to-hit-supercross-whoops-with-double-250-sx-champ-tom-vialle.html",
+      "https://worldsupercrosschampionship.com/tech-tuesday-mastering-the-whoops/"
+     ]
+    },
+    {
+     "key": "Choose the line through the whoops that links best to the next section.",
+     "sources": [
+      "https://www.dirtrider.com/features/protips/riding/141_0412_attacking_whoops"
+     ]
+    },
+    {
+     "key": "On the exit move forward for drive and expect some wheelspin.",
+     "sources": [
+      "https://www.dirtrider.com/features/protips/riding/141_0412_attacking_whoops"
+     ]
+    },
+    {
+     "key": "Skimming is committing: hesitation on entry or mid-set is what causes the big crashes. If you are not committed, roll them.",
+     "sources": [
+      "https://worldsupercrosschampionship.com/tech-tuesday-mastering-the-whoops/",
+      "https://www.mxlarge.com/news/mastering-the-whoops"
+     ]
+    },
+    {
+     "key": "Irregular whoops: pick the smoothest line, use a bigger bump to loft the front over smaller ones, and treat square-edged bumps with more caution than round ones.",
+     "sources": [
+      "https://www.dirtrider.com/features/protips/riding/141_0402_irregular_whoops"
+     ]
+    }
+   ],
+   "new_faults": [
+    {
+     "fault": "Switching style mid-section",
+     "looks_like": "Rider starts skimming, then tries to jump (or the reverse) and lands in a trough.",
+     "why": "Indecision, or the whoops were not suited to the chosen style.",
+     "fix": "Decide before entry; if unsure, roll through at a speed you control.",
+     "sources": [
+      "https://racerxonline.com/2018/01/16/breakdown-jumping-too-soon",
+      "https://worldsupercrosschampionship.com/tech-tuesday-mastering-the-whoops/"
+     ]
+    },
+    {
+     "fault": "Jumping whoops that are not ready",
+     "looks_like": "Bike catches the sharp edge of a fresh or rebuilt whoop and kicks.",
+     "why": "Fresh whoops have abrupt transitions that do not allow a consistent jumping speed.",
+     "fix": "Skim or roll fresh whoops; jumping works better once they are worn in and smoother.",
+     "sources": [
+      "https://racerxonline.com/2018/01/16/breakdown-jumping-too-soon",
+      "https://www.ktm.com/en-au/ktm-world/stories/how-to-hit-supercross-whoops-with-double-250-sx-champ-tom-vialle.html"
+     ]
+    },
+    {
+     "fault": "Wheels dropping into the bottoms",
+     "looks_like": "Suspension bottoming in each trough, rhythm lost, front tucking.",
+     "why": "Too slow to skim, weight forward, or lost rhythm.",
+     "fix": "Hips back, steady throttle, higher gear; build speed gradually and roll them if you cannot stay on top yet.",
+     "sources": [
+      "https://dirtrider.com/features/protips/riding/141_0503_ricky_carmichael_riding_tips",
+      "https://www.dirtrider.com/features/protips/riding/141_0412_attacking_whoops"
+     ]
+    }
+   ],
+   "drills": [
+    {
+     "name": "Whoop speed ladder",
+     "how": "On a short set of small, rounded whoops, ride standing with hips back, legs squeezing, one gear high.",
+     "progression": "Start slow and roll them; add a little speed each pass only while the bike tracks straight.",
+     "done_when": "The rear tracks straight, the front stays on the tops, and you feel less effort than rolling.",
+     "sources": [
+      "https://www.dirtrider.com/features/protips/riding/141_0412_attacking_whoops"
+     ]
+    },
+    {
+     "name": "Sand whoops in a turn: front lofting",
+     "how": "Standing, both feet on the pegs, lean with the bike and loft the front wheel from top to top with a touch of clutch and throttle.",
+     "progression": "Small sand turns first; keep the loft low so the front does not drop into the next hole.",
+     "done_when": "The bike does not stand up mid-turn and the front stays light.",
+     "sources": [
+      "https://www.dirtaction.com.au/?p=10165"
+     ]
+    }
+   ],
+   "pro_tips": [
+    {
+     "tip": "Pros say you learn whoops mostly in races because practice time on them is limited; know your own and the bike's limit.",
+     "sources": [
+      "https://www.ktm.com/en-au/ktm-world/stories/how-to-hit-supercross-whoops-with-double-250-sx-champ-tom-vialle.html"
+     ]
+    },
+    {
+     "tip": "Whoops are a passing place: a faster line through them can set up a pass in the next turn.",
+     "sources": [
+      "https://racerxonline.com/2015/04/14/breakdown-technique-talk"
+     ]
+    },
+    {
+     "tip": "Jumpers have to slow to find jumping speed; blitzers can pass them, so jumping is the consistent option, skimming the fast one.",
+     "sources": [
+      "https://racerxonline.com/2018/01/16/breakdown-jumping-too-soon",
+      "https://worldsupercrosschampionship.com/tech-tuesday-mastering-the-whoops/"
+     ]
+    }
+   ],
+   "disagreements": [
+    "Skim or jump by condition: Vialle skims fresh or very dry whoops and jumps when they are breaking down but still grippy; WSX says jump when they are breaking down or very tacky; Racer X warns against jumping fresh, abrupt whoops. Consistent theme: condition decides, not preference. (https://www.ktm.com/en-au/ktm-world/stories/how-to-hit-supercross-whoops-with-double-250-sx-champ-tom-vialle.html, https://worldsupercrosschampionship.com/tech-tuesday-mastering-the-whoops/, https://racerxonline.com/2018/01/16/breakdown-jumping-too-soon)",
+    "How far back: Dubach says weight to the back; Vialle and Dirt Action warn not so far back the front misses tops or rises too high. (https://www.dirtrider.com/features/protips/riding/141_0412_attacking_whoops, https://www.dirtaction.com.au/?p=10165)"
+   ]
+  },
+  {
+   "id": "rhythm",
+   "new_keys": [
+    {
+     "key": "Pick a combination you can repeat every lap for the whole race; a line that works once in qualifying may fall apart with fatigue.",
+     "sources": [
+      "https://racerxonline.com/2015/03/24/breakdown-rhythm-decisions"
+     ]
+    },
+    {
+     "key": "Bigger combos usually save time, but not if you must nearly stop in the corner before to make them; compare what you gain on the jump against what you lose in the turn.",
+     "sources": [
+      "https://racerxonline.com/2014/02/05/breakdown-is-going-bigger-always-better"
+     ]
+    },
+    {
+     "key": "Out of a corner, the simplest combo (often double-double-double) is the safe base; single-double-triple is quicker but more technical.",
+     "sources": [
+      "https://digital.racerxonline.com/issue/january-2020wv/motocross-101/"
+     ]
+    },
+    {
+     "key": "Absorb the first jump and push the bike down into the face of the next to carry speed; then look at the landing of the last jump.",
+     "sources": [
+      "https://digital.racerxonline.com/issue/january-2020wv/motocross-101/",
+      "https://racerxonline.com/2015/04/14/breakdown-technique-talk"
+     ]
+    },
+    {
+     "key": "Squeeze the bike with feet and knees; your legs do the work, not your upper body.",
+     "sources": [
+      "https://digital.racerxonline.com/issue/january-2020wv/motocross-101/",
+      "https://racerxonline.com/2015/03/31/breakdown-rider-positions"
+     ]
+    },
+    {
+     "key": "Triples: entry speed comes from the corner before, so set up that corner first.",
+     "sources": [
+      "https://racerxonline.com/2014/02/05/breakdown-is-going-bigger-always-better",
+      "https://racerxonline.com/2015/03/31/breakdown-rider-positions"
+     ]
+    }
+   ],
+   "new_faults": [
+    {
+     "fault": "Overjumping the second or third jump",
+     "looks_like": "Bike flies past the landing of a combo and lands flat or on the next face.",
+     "why": "Not absorbing the first jump, so too much speed carries through.",
+     "fix": "Soak the first jump, push into the next face, eyes on the final landing.",
+     "sources": [
+      "https://digital.racerxonline.com/issue/january-2020wv/motocross-101/",
+      "https://racerxonline.com/2015/04/14/breakdown-technique-talk"
+     ]
+    },
+    {
+     "fault": "Muscling the rhythm with the arms",
+     "looks_like": "Stiff arms, elbows locked, bike kicking off peaked faces.",
+     "why": "Upper body doing the work, landing on the arches.",
+     "fix": "Legs extend like a trampoline from bent to straight, balls of the feet, light hands.",
+     "sources": [
+      "https://digital.racerxonline.com/issue/january-2020wv/motocross-101/"
+     ]
+    },
+    {
+     "fault": "Chasing the big combo out of a broken corner",
+     "looks_like": "Rider nearly stops in the turn to make a triple and loses time to riders taking a smaller line.",
+     "why": "Corner before the section has broken down.",
+     "fix": "Take the smaller line and attack the corner instead; recheck as the track changes.",
+     "sources": [
+      "https://racerxonline.com/2014/02/05/breakdown-is-going-bigger-always-better",
+      "https://racerxonline.com/2015/03/24/breakdown-rhythm-decisions"
+     ]
+    }
+   ],
+   "drills": [
+    {
+     "name": "Rhythm by pieces",
+     "how": "On a safe section of round rollers, ride the simplest combo (doubles) until it is smooth, absorbing and pushing each face.",
+     "progression": "Only add the next combination when the current one is repeatable for a full practice moto, not one lap.",
+     "done_when": "Same landing spot lap after lap with legs, not arms, doing the work.",
+     "sources": [
+      "https://digital.racerxonline.com/issue/january-2020wv/motocross-101/",
+      "https://racerxonline.com/2015/03/24/breakdown-rhythm-decisions"
+     ]
+    }
+   ],
+   "pro_tips": [
+    {
+     "tip": "'Corners are for dough, jumps are for show': often the time is in the corner before the rhythm, not in the bigger jump.",
+     "sources": [
+      "https://racerxonline.com/2014/02/05/breakdown-is-going-bigger-always-better"
+     ]
+    },
+    {
+     "tip": "Peaked rhythm jumps punish mistimed riders more than round ones; practise timing on rounder sections first.",
+     "sources": [
+      "https://digital.racerxonline.com/issue/january-2020wv/motocross-101/"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "id": "sand",
+   "new_keys": [
+    {
+     "key": "A little throttle almost the whole lap: losing speed lets the weight come forward and the front bury.",
+     "sources": [
+      "https://www.dirtaction.com.au/?p=10153"
+     ]
+    },
+    {
+     "key": "Wide, round lines and large arcs; squaring off corners digs a trench and kills speed.",
+     "sources": [
+      "https://www.dirtaction.com.au/?p=10153",
+      "https://www.swapmotolive.com/?p=127581"
+     ]
+    },
+    {
+     "key": "Let the sand slow you into a corner instead of stabbing into it; brake gradually.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=127581",
+      "https://www.dirtaction.com.au/?p=10153"
+     ]
+    },
+    {
+     "key": "Shift with a touch of clutch and stay on the throttle; letting off to shift bleeds speed.",
+     "sources": [
+      "https://racerxonline.com/2012/08/17/the-breakdown-walker-on-sand"
+     ]
+    },
+    {
+     "key": "In berms stay low, where the sand is usually firmest.",
+     "sources": [
+      "https://racerxonline.com/2012/08/17/the-breakdown-walker-on-sand"
+     ]
+    },
+    {
+     "key": "Look further ahead than usual and remember how each section looked last lap; sand lines change every lap.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=127581",
+      "https://racerxonline.com/2012/08/17/the-breakdown-walker-on-sand"
+     ]
+    },
+    {
+     "key": "Keep feet on the pegs; a dabbed foot drags in sand and upsets balance.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=127581"
+     ]
+    },
+    {
+     "key": "Ride loose but grip with the knees; you cannot ride stiff in sand.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=127581"
+     ]
+    }
+   ],
+   "new_faults": [
+    {
+     "fault": "Front knifing while standing",
+     "looks_like": "Front tire digs and turns in, rider pitched over the bars.",
+     "why": "Leaning too far forward when standing, or rolling off.",
+     "fix": "Weight back, keep the front light, stay on the throttle.",
+     "sources": [
+      "https://racerxonline.com/2012/08/17/the-breakdown-walker-on-sand",
+      "https://www.dirtaction.com.au/?p=10153"
+     ]
+    },
+    {
+     "fault": "Bogging the rut",
+     "looks_like": "Bike sinks mid-corner, rear spinning, roost but little drive.",
+     "why": "Turning too sharply, rushing the entry, too low a gear.",
+     "fix": "Wider radius, set up patiently, gear higher with a finger on the clutch.",
+     "sources": [
+      "https://www.dirtaction.com.au/?p=10079",
+      "https://www.swapmotolive.com/?p=127581"
+     ]
+    },
+    {
+     "fault": "Wheelie on a sand exit",
+     "looks_like": "Front lifts as the rider drives out of a sand turn.",
+     "why": "Too much throttle with weight back.",
+     "fix": "Slip the clutch a little and lean forward for the exit.",
+     "sources": [
+      "https://www.dirtaction.com.au/?p=10079"
+     ]
+    }
+   ],
+   "drills": [
+    {
+     "name": "Big-arc sand turn",
+     "how": "In one sand corner, ride a wide round arc a gear higher than usual, staying on a light throttle from entry to exit with feet on the pegs.",
+     "progression": "Tighten the arc a little each set only while the bike keeps driving.",
+     "done_when": "No dabbing and no bogging for a full set of laps.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=127581",
+      "https://www.dirtaction.com.au/?p=10153"
+     ]
+    }
+   ],
+   "pro_tips": [
+    {
+     "tip": "Standing a lot in sand loads the lower back; a kidney belt helps some riders.",
+     "sources": [
+      "https://racerxonline.com/2012/08/17/the-breakdown-walker-on-sand"
+     ]
+    },
+    {
+     "tip": "In sand berms keep the body neutral and the inside leg toward the middle of the bike to put weight on the rear tire.",
+     "sources": [
+      "https://racerxonline.com/2015/04/14/breakdown-technique-talk"
+     ]
+    }
+   ],
+   "disagreements": [
+    "Body position: Cade Clason says lean further back for drive; Dirt Action's sand-turn tip has the rider seated at the front of the seat, head over the bars, in turns. Reconcile as in riding-coach.ts: back to drive on straights and through whoops, forward to turn. (https://www.swapmotolive.com/?p=127581, https://www.dirtaction.com.au/?p=10079)",
+    "Rear brake: Dirt Action says the rear brake works better in sand; Clason says use less of it for smoother control. (https://www.dirtaction.com.au/?p=10153, https://www.swapmotolive.com/?p=127581)",
+    "Inside foot: Clason says no dabbing; Dirt Action keeps the inside leg out with the toe pointed so it slides rather than digs. Both agree the foot must not plant. (https://www.swapmotolive.com/?p=127581, https://www.dirtaction.com.au/?p=10079)"
+   ]
+  },
+  {
+   "id": "mud",
+   "new_keys": [
+    {
+     "key": "Lean the bike less in mud; normal cornering lean makes it slide out.",
+     "sources": [
+      "https://racerxonline.com/2012/03/30/the-breakdown-mud-riding"
+     ]
+    },
+    {
+     "key": "Keep the head back (not over the bar pad) so legs stay high and the front stays light.",
+     "sources": [
+      "https://racerxonline.com/2012/03/30/the-breakdown-mud-riding",
+      "https://motocrossactionmag.com/ten-things-about-racing-motocross-in-the-mud"
+     ]
+    },
+    {
+     "key": "Keep momentum to slip the clutch less; mud heats and wears the clutch.",
+     "sources": [
+      "https://motocrossactionmag.com/ten-things-about-racing-motocross-in-the-mud"
+     ]
+    },
+    {
+     "key": "Most mud corner crashes happen between halfway and three-quarters through the turn where the line breaks down; enter slower and do not gas too hard too soon.",
+     "sources": [
+      "https://racerxonline.com/2012/03/30/the-breakdown-mud-riding"
+     ]
+    },
+    {
+     "key": "Feet: in sandy mud dragging a foot for balance can work; in thick clay keep feet up, the clay grabs boots.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=25729"
+     ]
+    },
+    {
+     "key": "Avoid deep standing water; it can stall the bike and hide holes.",
+     "sources": [
+      "https://www.mx247.com/coaches-corner/going-through-mud-on-a-motocross-bike",
+      "https://www.dirtaction.com.au/?p=40616"
+     ]
+    },
+    {
+     "key": "Ride loose and expect the bike to move by itself; a tight grip tires you and upsets balance.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=25729"
+     ]
+    },
+    {
+     "key": "Vision decides mud races: a start near the front matters more than usual because roost blinds riders behind.",
+     "sources": [
+      "https://racerxonline.com/2012/03/30/the-breakdown-mud-riding"
+     ]
+    }
+   ],
+   "new_faults": [
+    {
+     "fault": "Front-first landing in mud",
+     "looks_like": "Front plants and bars twist on landing.",
+     "why": "Nose-low attitude in the air.",
+     "fix": "Land rear-first with the throttle on in deep mud.",
+     "sources": [
+      "https://racerxonline.com/2012/03/30/the-breakdown-mud-riding"
+     ]
+    },
+    {
+     "fault": "Riding the mud tight",
+     "looks_like": "Elbows locked, white knuckles, rider fighting every slide.",
+     "why": "Fear of the bike moving under them.",
+     "fix": "Softer grip, knees on the bike, let it move.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=25729"
+     ]
+    },
+    {
+     "fault": "Losing vision",
+     "looks_like": "Rider pulls goggles off early, rides blind or slows sharply mid-race.",
+     "why": "No goggle plan: no tear-offs or roll-offs, no fresh pairs.",
+     "fix": "Fresh prepared goggles each moto, tear-offs or roll-offs, a visor extension; wipe rag tucked in the pants.",
+     "sources": [
+      "https://www.dirtaction.com.au/?p=40616",
+      "https://motocrossactionmag.com/ten-things-about-racing-motocross-in-the-mud"
+     ]
+    }
+   ],
+   "drills": [],
+   "pro_tips": [
+    {
+     "tip": "Mud evens the field; a positive attitude before the start is part of the job.",
+     "sources": [
+      "https://motocrossactionmag.com/ten-things-about-racing-motocross-in-the-mud",
+      "https://www.swapmotolive.com/?p=25729",
+      "https://www.dirtaction.com.au/?p=40616"
+     ]
+    },
+    {
+     "tip": "Prep: foam in mud traps, silicone under fenders, radiator mesh in severe mud, spare boots and helmet; wash the bike between motos so it cools.",
+     "sources": [
+      "https://motocrossactionmag.com/ten-things-about-racing-motocross-in-the-mud",
+      "https://www.swapmotolive.com/?p=25729",
+      "https://www.dirtaction.com.au/?p=40616"
+     ]
+    },
+    {
+     "tip": "Coolant puking from the overflow means hot but still full; worry when the steaming stops.",
+     "sources": [
+      "https://motocrossactionmag.com/ten-things-about-racing-motocross-in-the-mud"
+     ]
+    }
+   ],
+   "disagreements": [
+    "Gear choice: riding-coach.ts and most race sources favour a higher gear and momentum; MX247's coaching page says low gears for traction and to avoid stalling. Low gears may suit slow, sticky trail mud; race sources favour taller gears. (https://www.mx247.com/coaches-corner/going-through-mud-on-a-motocross-bike, https://motocrossactionmag.com/ten-things-about-racing-motocross-in-the-mud)",
+    "Braking: MX247 says ease off the throttle rather than brake; others simply say avoid sudden braking. (https://www.mx247.com/coaches-corner/going-through-mud-on-a-motocross-bike)"
+   ]
+  },
+  {
+   "id": "hardpack",
+   "new_keys": [
+    {
+     "key": "Approach on the gentlest radius and pivot near the middle of the corner; a wider line carries speed on slick dirt.",
+     "sources": [
+      "https://adbmag.com.au/?p=3998"
+     ]
+    },
+    {
+     "key": "Keep the time rolling (off brakes, off gas) short; release the brakes at the pivot point and get to the throttle.",
+     "sources": [
+      "https://adbmag.com.au/?p=3998"
+     ]
+    },
+    {
+     "key": "Sit forward and slide toward the outside of the seat to press the tires into the ground; weight the outside peg.",
+     "sources": [
+      "https://adbmag.com.au/?p=3998"
+     ]
+    },
+    {
+     "key": "If the rear starts to slide on exit, hold the throttle steady rather than snapping it shut; backing off mid-slide raises highside risk.",
+     "sources": [
+      "https://adbmag.com.au/?p=3998"
+     ]
+    },
+    {
+     "key": "In wet hardpack avoid the apex where water collects.",
+     "sources": [
+      "https://adbmag.com.au/?p=3998"
+     ]
+    },
+    {
+     "key": "On a hard, slick track the inside often has no grip, so lines move to the berms; passing gets harder, so starts matter more.",
+     "sources": [
+      "https://racerxonline.com/2013/02/20/the-breakdown-hard-pack"
+     ]
+    },
+    {
+     "key": "Crashes hurt more on hardpack; ride a margin below your limit.",
+     "sources": [
+      "https://racerxonline.com/2013/02/20/the-breakdown-hard-pack"
+     ]
+    }
+   ],
+   "new_faults": [
+    {
+     "fault": "Snapping the throttle shut mid-slide",
+     "looks_like": "Rear steps out, rider rolls off, rear suddenly grips and bucks the bike.",
+     "why": "Instinct to back off on a slide.",
+     "fix": "Hold the throttle steady and let the rear come back; use a taller gear so slides are gentler.",
+     "sources": [
+      "https://adbmag.com.au/?p=3998"
+     ]
+    },
+    {
+     "fault": "Entering in too low a gear",
+     "looks_like": "Wheelspin the moment the throttle opens.",
+     "why": "Too much torque at the rear tire for the grip.",
+     "fix": "One gear higher, smooth roll-on.",
+     "sources": [
+      "https://adbmag.com.au/?p=3998"
+     ]
+    }
+   ],
+   "drills": [
+    {
+     "name": "Pivot-point corner",
+     "how": "Pick one slick flat corner, mark a pivot point near the middle, brake smoothly to it, release, and roll on from there.",
+     "progression": "Move the braking a little later only while the front never pushes.",
+     "done_when": "Consistent exits with no wheelspin roost.",
+     "sources": [
+      "https://adbmag.com.au/?p=3998"
+     ]
+    }
+   ],
+   "pro_tips": [
+    {
+     "tip": "On hardpack a holeshot device that pulls the front down also reduces rear grip; balance wheelie against wheelspin.",
+     "sources": [
+      "https://racerxonline.com/2013/02/20/the-breakdown-hard-pack"
+     ]
+    },
+    {
+     "tip": "Experiment with dropping tire pressure a pound or two within maker range and compare.",
+     "sources": [
+      "https://adbmag.com.au/?p=3998"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "id": "hills",
+   "new_keys": [
+    {
+     "key": "Look at the hill before riding it; build most speed before the slope starts, and on technical climbs keep the wheels turning.",
+     "sources": [
+      "https://transmoto.com.au/?p=67513",
+      "https://riderswestmag.com/schooled/article/how_to_climb_steep_hills_on_your_dirt_bike_and_what_to_do_if_you_dont_make"
+     ]
+    },
+    {
+     "key": "Technical climb: short bursts of throttle before holes, rocks and ruts to carry over them, easing between so the rear does not break loose.",
+     "sources": [
+      "https://riderswestmag.com/schooled/article/how_to_climb_steep_hills_on_your_dirt_bike_and_what_to_do_if_you_dont_make"
+     ]
+    },
+    {
+     "key": "Ease off before a blind crest: you cannot see what is beyond.",
+     "sources": [
+      "https://transmoto.com.au/?p=67513"
+     ]
+    },
+    {
+     "key": "Lean forward as the climb steepens, but not so far that the rear spins.",
+     "sources": [
+      "https://riderswestmag.com/schooled/article/how_to_climb_steep_hills_on_your_dirt_bike_and_what_to_do_if_you_dont_make"
+     ]
+    },
+    {
+     "key": "Downhill: low gear chosen before the top, start slow, keep the rear wheel behind the front; pulse the rear brake rather than locking it.",
+     "sources": [
+      "https://transmoto.com.au/?p=67513"
+     ]
+    },
+    {
+     "key": "Downhill: on bumpy descents with few ruts a slight diagonal line hits bumps at an angle and kicks the bike less; watch speed into g-outs.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=89662"
+     ]
+    },
+    {
+     "key": "Off-camber hillsides: weight the downhill peg, steady throttle, eyes on a spot across the camber, fingers on clutch and brake.",
+     "sources": [
+      "https://www.dirtrider.com/features/protips/riding/141_0611_off_cambers_with_shane_watts"
+     ]
+    }
+   ],
+   "new_faults": [
+    {
+     "fault": "Stopping in a spot with no restart",
+     "looks_like": "Rider stalls mid-steep slope and cannot turn or restart.",
+     "why": "Pushed on past the point of doubt.",
+     "fix": "If you doubt the climb, stop early on a flatter, stable spot; think about what went wrong before trying again.",
+     "sources": [
+      "https://transmoto.com.au/?p=67513"
+     ]
+    },
+    {
+     "fault": "Too fast into a g-out on a descent",
+     "looks_like": "Suspension bottoms hard at the bottom, rider thrown forward, feet off the pegs.",
+     "why": "Speed builds fast downhill; coasting with weak leg grip.",
+     "fix": "Control speed early, squeeze with the legs, weight slightly back.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=89662"
+     ]
+    },
+    {
+     "fault": "Bike gets sideways downhill",
+     "looks_like": "Rear swings out, bike slides across the slope.",
+     "why": "Locked rear brake.",
+     "fix": "Pulse the rear, progressive front, rear wheel tracking behind the front.",
+     "sources": [
+      "https://transmoto.com.au/?p=67513"
+     ]
+    }
+   ],
+   "drills": [],
+   "pro_tips": [
+    {
+     "tip": "Over-revving a two-stroke on long descents can foul the plug; a hot four-stroke can be hard to restart after a failed climb.",
+     "sources": [
+      "https://transmoto.com.au/?p=67513"
+     ]
+    },
+    {
+     "tip": "On descents stay in a gear you are comfortable with: too low a gear binds the chassis when the clutch is released, too high bogs.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=89662"
+     ]
+    }
+   ],
+   "disagreements": [
+    "Throttle on climbs: Sam King (trials coach) eases the throttle while climbing and uses bursts at obstacles; Transmoto says on straight, wide climbs keep accelerating. Context: technical vs open climbs. (https://riderswestmag.com/schooled/article/how_to_climb_steep_hills_on_your_dirt_bike_and_what_to_do_if_you_dont_make, https://transmoto.com.au/?p=67513)",
+    "Failed climb recovery: Sam King turns the bike 90 degrees across the slope with a foot on the high side; Transmoto (and riding-coach.ts) stall it, hold the brake and get off on the uphill side to turn it. Both work in different terrain; BAK should not present one as the only way. (https://riderswestmag.com/schooled/article/how_to_climb_steep_hills_on_your_dirt_bike_and_what_to_do_if_you_dont_make, https://transmoto.com.au/?p=67513)",
+    "Climb body position: Transmoto says sit over the rear for traction on climbs and shift forward when the front lifts; riding-coach.ts says stand with weight forward. Depends on steepness and grip. (https://transmoto.com.au/?p=67513)"
+   ]
+  },
+  {
+   "id": "passing",
+   "new_keys": [
+    {
+     "key": "Block pass: commit before halfway through the turn; later than that and you are too committed to change line.",
+     "sources": [
+      "https://racerxonline.com/2012/04/07/the-breakdown-matt-walker-on-the-details"
+     ]
+    },
+    {
+     "key": "Whoops and rough sections are places to set up a pass: a faster line there gives the drive to pass in the next turn.",
+     "sources": [
+      "https://racerxonline.com/2015/04/14/breakdown-technique-talk"
+     ]
+    },
+    {
+     "key": "When leading by a margin, ride what is needed; extra risk earns no extra points.",
+     "sources": [
+      "https://racerxonline.com/2015/06/02/breakdown-crash-analysis"
+     ]
+    }
+   ],
+   "new_faults": [],
+   "drills": [],
+   "pro_tips": [
+    {
+     "tip": "Running wide in a turn invites a rider underneath; hit your marks.",
+     "sources": [
+      "https://racerxonline.com/2012/04/07/the-breakdown-matt-walker-on-the-details"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "id": "race_starts_first_turn",
+   "new_keys": [
+    {
+     "key": "A poor gate pick is not fatal: a clean start and committed throttle from an outside gate can still win.",
+     "sources": [
+      "https://racerxonline.com/2021/07/17/30-stories-from-the-ranch-adams-gate-picks"
+     ]
+    },
+    {
+     "key": "On many start straights a middle gate is about as good as any; a single-digit pick is no guarantee.",
+     "sources": [
+      "https://racerxonline.com/2021/07/17/30-stories-from-the-ranch-adams-gate-picks"
+     ]
+    },
+    {
+     "key": "Decide the start strategy and the lines for the first laps before reaching the line; stay committed but adapt.",
+     "sources": [
+      "https://racerxonline.com/2006/06/29/virtual-trainer-get-psyched-for-starts"
+     ]
+    },
+    {
+     "key": "In turn 1, inside riders must avoid being hit from behind; outside riders who run wide get cut under.",
+     "sources": [
+      "https://racerxonline.com/2012/04/07/the-breakdown-matt-walker-on-the-details"
+     ]
+    }
+   ],
+   "new_faults": [],
+   "drills": [
+    {
+     "name": "First-person start rehearsal",
+     "how": "Before the moto, mentally rehearse the gate drop, the first shifts and the line into turn 1 from your own viewpoint.",
+     "progression": "Do it before practice starts too, so it becomes part of the routine.",
+     "done_when": "You react to the gate without thinking about the steps.",
+     "sources": [
+      "https://racerxonline.com/2006/06/29/virtual-trainer-get-psyched-for-starts"
+     ]
+    }
+   ],
+   "pro_tips": [],
+   "disagreements": [
+    "Inside vs other gates: Matt Walker calls the inside safer and the outside risky, especially on short supercross starts; the Loretta Lynn's story shows outside gates winning and the middle being just as good on that straight; riding-coach.ts says pick by dirt and line. Track-specific. (https://racerxonline.com/2012/04/07/the-breakdown-matt-walker-on-the-details, https://racerxonline.com/2021/07/17/30-stories-from-the-ranch-adams-gate-picks)"
+   ]
+  },
+  {
+   "id": "race_day",
+   "new_keys": [
+    {
+     "key": "Track walk: note hazards near the line (trees, rocks), soft spots and filled holes that will reappear as bumps, how each face will launch you and what is after each landing.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=110386"
+     ]
+    },
+    {
+     "key": "Practice pace in stages: moderate for the first laps, harder in the middle, full pace only at the end.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=110386"
+     ]
+    },
+    {
+     "key": "Tabletops in early laps: jump part way, then further; never creep up on doubles (see jumps).",
+     "sources": [
+      "https://www.swapmotolive.com/?p=110386"
+     ]
+    },
+    {
+     "key": "Sometimes give up speed in one place (brake earlier, roll off, shorten a jump) to hit the next section right; choose the approach you can repeat every lap.",
+     "sources": [
+      "https://www.swapmotolive.com/moto-tip-slower-here-faster-there/videos-theater/moto-tips/"
+     ]
+    },
+    {
+     "key": "On a fresh track, help form the lines early by riding them consistently.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=87016"
+     ]
+    }
+   ],
+   "new_faults": [
+    {
+     "fault": "Wide open from lap one",
+     "looks_like": "Mistakes and near-misses in the first practice laps on a new track.",
+     "why": "Treating practice as a time trial before learning the dirt.",
+     "fix": "Staged pace: moderate, then harder, then full.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=110386"
+     ]
+    }
+   ],
+   "drills": [],
+   "pro_tips": [
+    {
+     "tip": "Practise on varied tracks and in varied conditions, and ride full race-length motos, not just a few hot laps.",
+     "sources": [
+      "https://motocrossactionmag.com/ten-things-about-pro-riding-tips"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "id": "mental_game",
+   "new_keys": [
+    {
+     "key": "Expect nerves: even experienced pros feel them on the line.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=49356"
+     ]
+    },
+    {
+     "key": "Slow, deliberate breaths while staged; then narrow focus to one cue at a time: the bike, the gate, your line to turn 1.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=49356",
+      "https://racerxonline.com/2006/06/29/virtual-trainer-get-psyched-for-starts"
+     ]
+    },
+    {
+     "key": "Do not predict finishing positions or rank rivals before the gate; it limits you.",
+     "sources": [
+      "https://racerxonline.com/2006/06/29/virtual-trainer-get-psyched-for-starts"
+     ]
+    },
+    {
+     "key": "Focus on your own gate prep, not the riders beside you.",
+     "sources": [
+      "https://racerxonline.com/2006/06/29/virtual-trainer-get-psyched-for-starts"
+     ]
+    },
+    {
+     "key": "Moderate caffeine; too much leaves you tense. Try any supplement or caffeine at practice, never new on race day.",
+     "sources": [
+      "https://www.swapmotolive.com/?p=49356"
+     ]
+    },
+    {
+     "key": "After the start, park thoughts about the last moto, the result and what others think.",
+     "sources": [
+      "https://racerxonline.com/2006/06/29/virtual-trainer-get-psyched-for-starts"
+     ]
+    },
+    {
+     "key": "Over-trying and self-pressure (expecting a podium, feeling outclassed) tighten the grip and bring on arm pump.",
+     "sources": [
+      "https://peaksports.com/arm-pump-solved-motocross"
+     ]
+    }
+   ],
+   "new_faults": [
+    {
+     "fault": "Psyched out on the line",
+     "looks_like": "Rider watching other riders, fidgeting, late off the gate.",
+     "why": "Attention on rivals and outcome, not on the routine.",
+     "fix": "Same pre-race routine every time, breathing, one cue at a time.",
+     "sources": [
+      "https://racerxonline.com/2006/06/29/virtual-trainer-get-psyched-for-starts",
+      "https://www.swapmotolive.com/?p=49356"
+     ]
+    }
+   ],
+   "drills": [
+    {
+     "name": "Pre-gate routine rehearsal",
+     "how": "Write a short routine (breaths, gear, check, line) and use it before every practice start.",
+     "progression": "Use it at a practice day, then at a race.",
+     "done_when": "It runs the same at a race as at practice.",
+     "sources": [
+      "https://racerxonline.com/2006/06/29/virtual-trainer-get-psyched-for-starts",
+      "https://peaksports.com/arm-pump-solved-motocross"
+     ]
+    }
+   ],
+   "pro_tips": [],
+   "disagreements": []
+  },
+  {
+   "id": "arm_pump_fitness",
+   "new_keys": [
+    {
+     "key": "Aim for most of the hold from the legs (one coach suggests roughly 70 percent legs, 30 percent hands).",
+     "sources": [
+      "https://www.motoonline.com/au/bcp-moto-coach-arm-pump/"
+     ]
+    },
+    {
+     "key": "Use jumps and straights to relax the hands briefly.",
+     "sources": [
+      "https://www.motoonline.com/au/bcp-moto-coach-arm-pump/"
+     ]
+    },
+    {
+     "key": "Arm pump often comes back after a break from riding, when riding more than usual, or from race-day nerves and a faster pace than practice.",
+     "sources": [
+      "https://ca.riskracing.com/blogs/news/what-is-arm-pump-in-motocross-and-how-to-avoid-it",
+      "https://www.bikesportnz.com/?p=30756",
+      "https://www.motoonline.com/au/bcp-moto-coach-arm-pump/"
+     ]
+    },
+    {
+     "key": "Ease into the first laps rather than going full speed immediately.",
+     "sources": [
+      "https://www.motoonline.com/au/bcp-moto-coach-arm-pump/"
+     ]
+    },
+    {
+     "key": "Stay active between ride days (cycling, jump rope, gym), and plan rest days.",
+     "sources": [
+      "https://www.bikesportnz.com/?p=30756"
+     ]
+    },
+    {
+     "key": "A stiff fork that chatters into the arms, hard-to-reach or sticky controls and a tight clutch cable all add grip effort.",
+     "sources": [
+      "https://www.motoonline.com/au/bcp-moto-coach-arm-pump/",
+      "https://www.bikesportnz.com/?p=30756",
+      "https://ca.riskracing.com/blogs/news/what-is-arm-pump-in-motocross-and-how-to-avoid-it"
+     ]
+    },
+    {
+     "key": "Practise at closer to race pace (ride with faster riders) so race day is not a shock.",
+     "sources": [
+      "https://www.motoonline.com/au/bcp-moto-coach-arm-pump/"
+     ]
+    }
+   ],
+   "new_faults": [
+    {
+     "fault": "Squatting low with weak leg grip",
+     "looks_like": "Hips low behind the pegs, knees off the bike, forearms hard after a few laps.",
+     "why": "Legs are not holding the bike so the hands do.",
+     "fix": "Taller attack position, knees in, grip with legs.",
+     "sources": [
+      "https://www.motoonline.com/au/bcp-moto-coach-arm-pump/"
+     ]
+    }
+   ],
+   "drills": [],
+   "pro_tips": [
+    {
+     "tip": "Many pros warm up on a stationary bike before racing; jogging in place or dynamic stretches work without one.",
+     "sources": [
+      "https://www.bikesportnz.com/?p=30756"
+     ]
+    },
+    {
+     "tip": "Fasciotomy surgery exists for chronic arm pump but results are not guaranteed; any consideration is for a doctor, after technique, fitness and setup are fixed.",
+     "sources": [
+      "https://www.bikesportnz.com/?p=30756",
+      "https://ca.riskracing.com/blogs/news/what-is-arm-pump-in-motocross-and-how-to-avoid-it"
+     ]
+    }
+   ],
+   "disagreements": [
+    "Forearm strength training: Risk Racing recommends grip trainers and forearm work, built up gradually; the American Public University piece argues extra forearm bulk leaves less room in the fascia and can make arm pump worse, and Bike Sport NZ advises against building muscle mass. All agree time on the bike and cardio help most. (https://ca.riskracing.com/blogs/news/what-is-arm-pump-in-motocross-and-how-to-avoid-it, https://medium.com/@AmericanPublicU/the-curious-problem-of-arm-pump-in-motocross-racing-part-i-7595304d57d9, https://www.bikesportnz.com/?p=30756)",
+    "Diet claims (avoid sugar, specific foods) and icing or massage advice come from coaching articles, not medical studies; BAK should present them as optional, not proven. (https://www.motoonline.com/au/bcp-moto-coach-arm-pump/, https://www.bikesportnz.com/?p=30756)"
+   ]
+  },
+  {
+   "id": "youth_coaching",
+   "new_keys": [
+    {
+     "key": "Let riding be the child's idea; do not push, bribe or hint.",
+     "sources": [
+      "https://www.teammotorcycle.com/blogs/guides/how-to-coach-your-kids-to-ride-a-motorcycle"
+     ]
+    },
+    {
+     "key": "Short, positive sessions; stop while it is still fun.",
+     "sources": [
+      "https://www.frpmoto.com/blogs/dirt-bike-tips-and-tricks/how-to-teach-your-kids-to-ride-a-dirt-bike-safely-and-confidently"
+     ]
+    },
+    {
+     "key": "One skill at a time, in order: balance (sit and walk the bike), throttle, braking, then turns, posture and pace.",
+     "sources": [
+      "https://www.frpmoto.com/blogs/dirt-bike-tips-and-tricks/how-to-teach-your-kids-to-ride-a-dirt-bike-safely-and-confidently"
+     ]
+    },
+    {
+     "key": "Throttle first on a stand or with the engine off-ground: slow twists, then short on-off.",
+     "sources": [
+      "https://www.frpmoto.com/blogs/dirt-bike-tips-and-tricks/how-to-teach-your-kids-to-ride-a-dirt-bike-safely-and-confidently"
+     ]
+    },
+    {
+     "key": "Teach both brakes: rear to slow, front to stop firmly; drill stopping until automatic.",
+     "sources": [
+      "https://www.frpmoto.com/blogs/dirt-bike-tips-and-tricks/how-to-teach-your-kids-to-ride-a-dirt-bike-safely-and-confidently"
+     ]
+    },
+    {
+     "key": "Open the throttle limiter only as control improves.",
+     "sources": [
+      "https://www.frpmoto.com/blogs/dirt-bike-tips-and-tricks/how-to-teach-your-kids-to-ride-a-dirt-bike-safely-and-confidently"
+     ]
+    },
+    {
+     "key": "Coach face to face at their level (kneel in front of the bike) so you can read their reactions; plain words, no technical detail.",
+     "sources": [
+      "https://www.teammotorcycle.com/blogs/guides/how-to-coach-your-kids-to-ride-a-motorcycle"
+     ]
+    },
+    {
+     "key": "Correct one habit on one section at a time, right after it happens, patiently.",
+     "sources": [
+      "https://swapmotolive.com/?p=31519"
+     ]
+    },
+    {
+     "key": "Kids should not copy what pros do on big bikes; much of it does not suit small bikes.",
+     "sources": [
+      "https://swapmotolive.com/?p=31519"
+     ]
+    },
+    {
+     "key": "Racing experience in varied conditions helps kids keep their skills when emotions run high.",
+     "sources": [
+      "https://swapmotolive.com/?p=31519"
+     ]
+    },
+    {
+     "key": "After a race, react the same way whether they won or struggled; name one or two things they did well.",
+     "sources": [
+      "https://riderswestmag.com/motorcyclezone/article/3_reminders_for_motocross_parents"
+     ]
+    }
+   ],
+   "new_faults": [
+    {
+     "fault": "Parent pushing past the child's comfort",
+     "looks_like": "Child hesitant, crying, or riding tense on features they did not choose.",
+     "why": "Parent focus on results or keeping up with others.",
+     "fix": "Let the child set the pace; return to features they ride happily.",
+     "sources": [
+      "https://swapmotolive.com/?p=31519",
+      "https://www.teammotorcycle.com/blogs/guides/how-to-coach-your-kids-to-ride-a-motorcycle"
+     ]
+    },
+    {
+     "fault": "Too many instructions at once",
+     "looks_like": "Child freezes or ignores cues; nothing changes.",
+     "why": "Over-explaining, technical language.",
+     "fix": "One simple cue per session block, praise when it shows.",
+     "sources": [
+      "https://www.teammotorcycle.com/blogs/guides/how-to-coach-your-kids-to-ride-a-motorcycle",
+      "https://www.frpmoto.com/blogs/dirt-bike-tips-and-tricks/how-to-teach-your-kids-to-ride-a-dirt-bike-safely-and-confidently"
+     ]
+    },
+    {
+     "fault": "Skipping steps",
+     "looks_like": "Child has speed but cannot stop or balance at walking pace.",
+     "why": "Moving to speed before balance and braking are solid.",
+     "fix": "Go back to balance and stopping drills on flat open ground.",
+     "sources": [
+      "https://www.frpmoto.com/blogs/dirt-bike-tips-and-tricks/how-to-teach-your-kids-to-ride-a-dirt-bike-safely-and-confidently"
+     ]
+    }
+   ],
+   "drills": [
+    {
+     "name": "Stop on the mark",
+     "how": "Flat open area, limiter low; ride to a cone and stop using both brakes.",
+     "progression": "Slightly more speed and a later cone only once stops are smooth and straight.",
+     "done_when": "Child stops at the cone without skidding, every time.",
+     "sources": [
+      "https://www.frpmoto.com/blogs/dirt-bike-tips-and-tricks/how-to-teach-your-kids-to-ride-a-dirt-bike-safely-and-confidently"
+     ]
+    },
+    {
+     "name": "Stand-up and feet-on-pegs",
+     "how": "Easy loops standing, elbows up, feet always on the pegs.",
+     "progression": "Add gentle turns, then small rollers.",
+     "done_when": "Child stands without being reminded on straights.",
+     "sources": [
+      "https://motocrossactionmag.com/ten-things-about-pro-riding-tips"
+     ]
+    }
+   ],
+   "pro_tips": [
+    {
+     "tip": "A professional coach can work better than a parent for some kids; parent coaching is harder to make work.",
+     "sources": [
+      "https://www.teammotorcycle.com/blogs/guides/how-to-coach-your-kids-to-ride-a-motorcycle",
+      "https://swapmotolive.com/?p=31519"
+     ]
+    },
+    {
+     "tip": "Readiness depends on size and on following instructions, not age alone: feet reach the ground, can listen and stop.",
+     "sources": [
+      "https://www.frpmoto.com/blogs/dirt-bike-tips-and-tricks/how-to-teach-your-kids-to-ride-a-dirt-bike-safely-and-confidently"
+     ]
+    },
+    {
+     "tip": "No gear, no ride: helmet, goggles, gloves, boots and pads every time.",
+     "sources": [
+      "https://www.frpmoto.com/blogs/dirt-bike-tips-and-tricks/how-to-teach-your-kids-to-ride-a-dirt-bike-safely-and-confidently",
+      "https://www.teammotorcycle.com/blogs/guides/how-to-coach-your-kids-to-ride-a-motorcycle"
+     ]
+    }
+   ],
+   "disagreements": []
+  },
+  {
+   "id": "vet_returning_riders",
+   "new_keys": [
+    {
+     "key": "Fitness matters more than age; build cardio and strength before the first rides back.",
+     "sources": [
+      "https://riskracing.com/blogs/news/how-old-is-too-old-to-start-motocross",
+      "https://www.vitalmx.com/comment/3850006"
+     ]
+    },
+    {
+     "key": "Start on practice days at a calm pace; tabletops before doubles, and rebuild basics first (standing, knee grip, braking).",
+     "sources": [
+      "https://riskracing.com/blogs/news/how-old-is-too-old-to-start-motocross"
+     ]
+    },
+    {
+     "key": "Crashes cost more with age (bones and time off work); ride a margin under your limit even after you feel comfortable.",
+     "sources": [
+      "https://riskracing.com/blogs/news/how-old-is-too-old-to-start-motocross",
+      "https://www.vitalmx.com/comment/3850006"
+     ]
+    },
+    {
+     "key": "Replace old gear: helmets and boots age; full protection.",
+     "sources": [
+      "https://www.vitalmx.com/comment/3850006",
+      "https://riskracing.com/blogs/news/how-old-is-too-old-to-start-motocross"
+     ]
+    },
+    {
+     "key": "Set suspension for your weight.",
+     "sources": [
+      "https://riskracing.com/blogs/news/how-old-is-too-old-to-start-motocross"
+     ]
+    },
+    {
+     "key": "A smaller or milder bike (125, 250 two-stroke, 250F or 350 rather than a 450) is a common, sensible choice for returning riders.",
+     "sources": [
+      "https://www.vitalmx.com/comment/3850006"
+     ]
+    },
+    {
+     "key": "Race your age class where there is one; mixing it with young racers led to repeat injuries for some.",
+     "sources": [
+      "https://www.vitalmx.com/comment/3850006"
+     ]
+    },
+    {
+     "key": "Consistent riding a few days a month is enough to enjoy it without wearing the body out.",
+     "sources": [
+      "https://www.vitalmx.com/comment/3850006"
+     ]
+    }
+   ],
+   "new_faults": [
+    {
+     "fault": "Riding at old speed on old memory",
+     "looks_like": "Returning rider hits jumps and pace they rode years ago in the first session.",
+     "why": "Muscle memory outruns current fitness and reactions.",
+     "fix": "Staged return: basics, small features, then build over weeks; consider a lesson.",
+     "sources": [
+      "https://riskracing.com/blogs/news/how-old-is-too-old-to-start-motocross",
+      "https://www.vitalmx.com/comment/3850006"
+     ]
+    }
+   ],
+   "drills": [],
+   "pro_tips": [
+    {
+     "tip": "A few private lessons cost less than an injury or bike repairs.",
+     "sources": [
+      "https://riskracing.com/blogs/news/how-old-is-too-old-to-start-motocross"
+     ]
+    }
+   ],
+   "disagreements": [
+    "Bike choice for returning vets: forum riders lean toward 125s, 250 two-strokes or 350s for less fatigue; others ride 450s geared tall. No coach source settled it; treat as preference. (https://www.vitalmx.com/comment/3850006)"
+   ]
+  }
+ ],
+ "gaps": [
+  "YouTube transcripts and chapter lists were not readable from this session: Gary Semics, Ryan Hughes (mxdose whoops video), Shane Watts DirtWise, Novik MX, Moto Mind, Brian Wheeler, Mike Brown, Jeremy McGrath, Team Green tips. Only article/video pages with text were used.",
+  "Blocked or empty pages: Dirt Rider review of Ryan Hughes 'Functional Techniques' DVD (fetch blocked); MotoSport 'how to reduce arm pump' (site error); Red Bull motocross psychology tips (no body text); Dirt Action 'How to jump your dirt bike' and the Honda/Rui Goncalves hardpack lesson (content only in video).",
+  "Casing and overjumping recovery in the moment (what to do the instant you know you are short or long) was not found in any readable coaching source; unknown.",
+  "Face kicks: no new coaching source beyond existing riding-coach.ts content; unknown beyond that.",
+  "Triples: specific triple technique (beyond entry speed from the corner and combo choice) not found.",
+  "Sand whoops on straights: only the Dirt Action whooped-turn piece; nothing specific for long sand whoop sections.",
+  "Youth 50/65/85 skill-specific drills from named coaches not found; youth items above are from parent and beginner guides. Swap Moto Live parent tips page text is thin.",
+  "Vet and returning-rider sources are a retailer blog and a forum thread; no coaching-school source found.",
+  "Mental game sources are thin (Racer X 2006, Swap Moto Live, a sports psychology sales page).",
+  "Arm pump medical claims (diet, icing, surgery success rates) are not from medical studies; BAK should keep the existing 'see a doctor' line.",
+  "Motocross Action 'Ten Things' series did not have readable pieces for jumping, whoops or sand; only mud and pro riding tips were used."
+ ]
+}
