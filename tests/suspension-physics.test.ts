@@ -30,3 +30,9 @@ test('oil thins as it heats: a hot afternoon is a real drop in low-speed damping
  assert.ok(oilThinning(95,60).viscosity_change_pct>0);
  assert.ok(physicsContext(yz,{}).geometry);
 });
+test('Kawasaki and Honda wordings, and KTM geometry from head angle and clamp offset',()=>{
+ const kx=chassisFromStatements(['Frame / Trail: 0.06 in (116 mm). Applies to the US standard model named','Frame / Caster: 27.0°. Applies','Rear shock / Spring rate (standard): K = 54 N/mm (K = 5.5 kgf/mm).','Rear shock / Optional spring rate (harder): K = 56 N/mm','Front fork / Spring rate (standard): 5.0 N/mm (0.51 kgf/mm).','Frame / Tire Size/Type / Front: 80/100-21 51M/DUNLOP MX34F.','Dimensions / Wheelbase: 1480 mm.']);
+ assert.equal(kx.trailMm,116);assert.equal(kx.shockSpringNmm,54);assert.equal(kx.forkSpringNmm,5);assert.deepEqual(kx.frontTire,{width:80,aspect:100,rim:21});
+ const k=geometry(chassisFromStatements(['Steering head angle: 63.9 degrees.','Fork offset: 22 mm.','Original front tire: 80/100-21 51M TT','Wheelbase: 1493 +/- 10 mm.']))!;
+ assert.ok(k&&k.clamp_offset_plus_2mm.trail_change_mm<0);assert.match(k.worked_out_from[0],/isn't published/);
+});

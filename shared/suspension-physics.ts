@@ -21,7 +21,7 @@ export function chassisFromStatements(statements:string[]):PublishedChassis{
  for(const raw of statements){const s=raw.replace(/\s+/g,' ');let m;
   if(c.rakeDeg==null&&(m=s.match(/\bcaster(?: angle)?[^:]*:\s*([\d.]+)\s*°?/i)))c.rakeDeg=num(m[1]);
   else if(c.rakeDeg==null&&(m=s.match(/\b(?:steering )?head angle[^:]*:\s*([\d.]+)/i))){const v=num(m[1]);c.rakeDeg=v>45?90-v:v;}
-  if(c.trailMm==null&&(m=s.match(/(?:^|\/ |\b)trail[^:]*:\s*([\d.]+)\s*mm/i)))c.trailMm=num(m[1]);
+  if(c.trailMm==null&&(m=s.match(/(?:^|\/ |\b)trail[^:]*:[^;]*?(\d{2,3}(?:\.\d+)?)\s*mm/i)))c.trailMm=num(m[1]);
   if(c.wheelbaseMm==null&&(m=s.match(/\bwheelbase[^:]*:\s*([\d,.]+)\s*(?:\+\/-\s*\d+\s*)?mm/i)))c.wheelbaseMm=num(m[1]);
   if(c.clampOffsetMm==null&&(m=s.match(/\b(?:fork|triple clamp|clamp) offset[^:]*:\s*([\d.]+)\s*mm/i)))c.clampOffsetMm=num(m[1]);
   if(c.frontTravelMm==null&&(m=s.match(/\b(?:front|fork)[^:]{0,30}travel[^:]*:\s*([\d.]+)\s*mm/i)))c.frontTravelMm=num(m[1]);
@@ -29,9 +29,9 @@ export function chassisFromStatements(statements:string[]):PublishedChassis{
   if(c.raceSagMm==null&&(m=s.match(/\b(?:riding|race|rider) sag[^:]*:\s*([\d.]+)\s*mm/i)))c.raceSagMm=num(m[1]);
   if(c.staticSagMm==null&&(m=s.match(/\b(?:static|free) sag[^:]*:\s*([\d.]+)\s*mm/i)))c.staticSagMm=num(m[1]);
   if((m=s.match(/recommended shock spring rate[^:]*:\s*([\d.]+)\s*N\/mm\.?\s*Rider mass\s*([\d.]+)\s*[–-]\s*([\d.]+)\s*kg/i)))by.push({rate:num(m[1]),min:num(m[2]),max:num(m[3])});
-  else if(c.shockSpringNmm==null&&(m=s.match(/\bshock[^:]{0,40}(?:standard|stock)[^:]{0,20}spring rate[^:]*:\s*([\d.]+)\s*N\/mm/i)||s.match(/\bshock[^:]*spring rate(?! optional)[^:]*\(?standard\)?[^:]*:\s*([\d.]+)\s*N\/mm/i)))c.shockSpringNmm=num(m[1]);
-  if(c.forkSpringNmm==null&&(m=s.match(/\bfork[^:]{0,40}(?:standard|stock)[^:]{0,20}spring rate[^:]*:\s*([\d.]+)\s*N\/mm/i)))c.forkSpringNmm=num(m[1]);
-  if(!c.frontTire&&(m=s.match(/\bfront tire[^:]*:\s*(\d{2,3})\/(\d{2,3})-(\d{2})\b/i)))c.frontTire={width:num(m[1]),aspect:num(m[2]),rim:num(m[3])};
+  else if(c.shockSpringNmm==null&&!/optional/i.test(s.split(':')[0])&&(m=s.match(/\bshock[^:]{0,40}(?:standard|stock)[^:]{0,20}spring rate[^:]*:\s*(?:K\s*=\s*)?([\d.]+)\s*N\/mm/i)||s.match(/\bshock[^:]*spring rate[^:]*\((?:standard|stock)\)[^:]*:\s*(?:K\s*=\s*)?([\d.]+)\s*N\/mm/i)))c.shockSpringNmm=num(m[1]);
+  if(c.forkSpringNmm==null&&!/optional/i.test(s.split(':')[0])&&(m=s.match(/\bfork[^:]{0,40}(?:standard|stock)[^:]{0,20}spring rate[^:]*:\s*(?:K\s*=\s*)?([\d.]+)\s*N\/mm/i)||s.match(/\bfork[^:]*spring rate[^:]*\((?:standard|stock)\)[^:]*:\s*(?:K\s*=\s*)?([\d.]+)\s*N\/mm/i)))c.forkSpringNmm=num(m[1]);
+  if(!c.frontTire&&/\b(tire|tyre)/i.test(s)&&/\bfront\b/i.test(s.split(/:\s/)[0])&&(m=s.match(/:\s*(\d{2,3})\/(\d{2,3})-(\d{2})\b/)))c.frontTire={width:num(m[1]),aspect:num(m[2]),rim:num(m[3])};
  }
  if(by.length)c.shockSpringByRiderKg=by.sort((a,b)=>a.min-b.min);
  return c;
@@ -66,17 +66,21 @@ export function springCheck(p:PublishedChassis,r:RiderSettings){
 /** Steering geometry changes. Published caster and trail give the effective offset (clamp plus axle lug), so changes are
  *  worked out from the bike's own numbers. Angles from vertical. */
 export function geometry(p:PublishedChassis){
- if(p.rakeDeg==null||p.trailMm==null||!p.frontTire)return null;
+ if(p.rakeDeg==null||!p.frontTire)return null;
  const R=p.frontTire.rim*25.4/2+p.frontTire.width*p.frontTire.aspect/100,th=p.rakeDeg*Math.PI/180;
- const d=R*Math.sin(th)-p.trailMm*Math.cos(th);           // effective offset implied by the published trail
+ // Effective offset (clamp plus axle lug) implied by the published trail. Without a published trail, the clamp offset alone
+ // is used: the size of each change is still close (it hardly depends on offset), but the trail figure itself is not known.
+ const estimated=p.trailMm==null;if(estimated&&p.clampOffsetMm==null)return null;
+ const d=estimated?p.clampOffsetMm!:R*Math.sin(th)-p.trailMm!*Math.cos(th);
+ const base=estimated?(R*Math.sin(th)-d)/Math.cos(th):p.trailMm!;
  const trailAt=(t:number,off:number)=>(R*Math.sin(t)-off)/Math.cos(t);
  const wb=p.wheelbaseMm;
- const forkHeight=(mm:number)=>{if(!wb)return null;const t=th-mm/wb;return {head_angle_change_deg:r1(-(mm/wb)*180/Math.PI),trail_change_mm:r1(trailAt(t,d)-p.trailMm!)};};
- const rearSag=(mm:number)=>{if(!wb)return null;const t=th+mm/wb;return {head_angle_change_deg:r1((mm/wb)*180/Math.PI),trail_change_mm:r1(trailAt(t,d)-p.trailMm!)};};
- const offset=(mm:number)=>({trail_change_mm:r1(trailAt(th,d+mm)-p.trailMm!)});
+ const forkHeight=(mm:number)=>{if(!wb)return null;const t=th-mm/wb;return {head_angle_change_deg:r1(-(mm/wb)*180/Math.PI),trail_change_mm:r1(trailAt(t,d)-base)};};
+ const rearSag=(mm:number)=>{if(!wb)return null;const t=th+mm/wb;return {head_angle_change_deg:r1((mm/wb)*180/Math.PI),trail_change_mm:r1(trailAt(t,d)-base)};};
+ const offset=(mm:number)=>({trail_change_mm:r1(trailAt(th,d+mm)-base)});
  return {
-  worked_out_from:[`caster ${p.rakeDeg}° and trail ${p.trailMm} mm (maker's)`,`front tire ${p.frontTire.width}/${p.frontTire.aspect}-${p.frontTire.rim} (unloaded radius ${r0(R)} mm)`,...(wb?[`wheelbase ${wb} mm`]:[])],
-  effective_offset_mm:r1(d),
+  worked_out_from:[estimated?`head angle ${r1(90-p.rakeDeg)}° and ${p.clampOffsetMm} mm clamp offset (maker's); trail itself isn't published for this bike, so only the size of each change is worked out`:`caster ${p.rakeDeg}° and trail ${p.trailMm} mm (maker's)`,`front tire ${p.frontTire.width}/${p.frontTire.aspect}-${p.frontTire.rim} (unloaded radius ${r0(R)} mm)`,...(wb?[`wheelbase ${wb} mm`]:[])],
+  ...(estimated?{}:{effective_offset_mm:r1(d)}),
   fork_tubes_up_5mm:forkHeight(5), fork_tubes_up_10mm:forkHeight(10),
   rear_sag_plus_5mm:rearSag(5), rear_sag_plus_10mm:rearSag(10),
   clamp_offset_plus_2mm:offset(2), clamp_offset_minus_2mm:offset(-2), clamp_offset_plus_3mm:offset(3), clamp_offset_minus_3mm:offset(-3),
