@@ -32,6 +32,7 @@ export const garageFieldGroups:Record<string,GarageField[]>={
   {key:'shock_compression',label:'Shock compression',placeholder:'12 out / 1.5 turns',hint:'Low-speed clicks / high-speed turns'},
   {key:'shock_rebound',label:'Shock rebound',placeholder:'15 out'},
   {key:'rider_sag_mm',label:'Race sag',numeric:true,unit:'mm',placeholder:'105',hint:'Measured with you on the bike in gear'},
+  {key:'free_sag_mm',label:'Free sag',numeric:true,unit:'mm',placeholder:'35',hint:'Bike on its wheels, you off it. With race sag it shows whether the spring suits you'},
   {key:'fork_spring_rate',label:'Fork springs',placeholder:'Stock, or 4.6 N/mm / air psi'},
   {key:'shock_spring_rate',label:'Shock spring',placeholder:'Stock, or 48 N/mm'},
   {key:'fork_height_mm',label:'Fork tubes above top clamp',numeric:true,unit:'mm',placeholder:'5',more:true}],

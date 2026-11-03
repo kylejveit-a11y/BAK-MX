@@ -23,6 +23,7 @@ import {handleModeration} from './moderation.ts';
 import {handleEval} from './eval-access.ts';
 import {proceduresForBike} from '../shared/procedures.ts';
 import {exactBikeScope} from '../shared/bike-identity.ts';
+import {physicsFor} from './physics-context.ts';
 export function json(data:unknown,status=200){return new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});}
 /** The first validation problem in plain words when we wrote it ("An event cannot end before it starts"); zod's own
  *  wording ("Required", "Invalid uuid") becomes a plain prompt instead. */
@@ -116,7 +117,8 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
    const tracks=await trackContext(db,owner,[...(data.media?.track?[data.media.track]:[]),...(data.race?.track?[data.race.track]:[]),data.message,...history.filter(m=>m.role==='user').slice(-3).map(m=>m.content)]);
    // Race setup ahead of a race: the forecast for that track and date, when there is one.
    const race=data.race?{...data.race,...(data.race.date&&data.race.track?{forecast:await raceForecast(...raceTrackAt(tracks,data.race.track),data.race.date,new Date().toISOString().slice(0,10))}:{})}:null;
-   const {response,raw}=await generateAnswer(bike,history,claims,data.message,lookups,draft=>{const size=draft.summary.length+draft.answer.length;if(size-sent<24)return;sent=size;emit({type:'draft',summary:draft.summary,answer:draft.answer});},setupHistory,knowledge,data.guided??null,data.voice===true,bike?await riderManualExcerpts(owner,bike.id,data.message,lookups):[],await (async()=>{const links=await photoLinks(photoIds,900);return photoIds.map(id=>links.get(id)?.url).filter((u):u is string=>!!u);})(),tracks,data.media??null,data.media&&bike?{history:await coachingHistory(db,owner,bike.id,data.request_id),before:data.media.kind==='clip'&&data.media.compare_to?await beforeClip(owner,data.media.compare_to):null}:null,await riderPreferences(db,owner),race);
+   const physics=await physicsFor(db,bike,[data.message,...history.filter(m=>m.role==='user').slice(-2).map(m=>m.content??'')]);
+   const {response,raw}=await generateAnswer(bike,history,claims,data.message,lookups,draft=>{const size=draft.summary.length+draft.answer.length;if(size-sent<24)return;sent=size;emit({type:'draft',summary:draft.summary,answer:draft.answer});},setupHistory,knowledge,data.guided??null,data.voice===true,bike?await riderManualExcerpts(owner,bike.id,data.message,lookups):[],await (async()=>{const links=await photoLinks(photoIds,900);return photoIds.map(id=>links.get(id)?.url).filter((u):u is string=>!!u);})(),tracks,data.media??null,data.media&&bike?{history:await coachingHistory(db,owner,bike.id,data.request_id),before:data.media.kind==='clip'&&data.media.compare_to?await beforeClip(owner,data.media.compare_to):null}:null,await riderPreferences(db,owner),race,physics);
    emit({type:'status',stage:'checking'});
    checked(await admin.rpc('complete_ai_request',{p_user_id:owner,p_request_id:data.request_id,p_response:response,p_raw_output:{...raw,bakmx_plan_ms:t1-t0,bakmx_search_ms:t2-t1,bakmx_streamed:emit!==quiet}}));
    if(bike&&response.data_gaps?.length){const scope=exactBikeScope(bike);/* Best effort: a logging failure must not cost the rider a saved answer. */await admin.from('data_gaps').insert(response.data_gaps.map(gap=>({request_id:data.request_id,user_id:owner,...scope,gap:gap.slice(0,300)}))).then(()=>{},()=>{});}
