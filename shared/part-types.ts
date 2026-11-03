@@ -12,10 +12,12 @@ export const partTypes:Partial<Record<PartSystem,PartType[]>>={
   {label:'Insert or spark arrester',match:/\b(insert|spark|quiet|noise|db)\b/i}],
  suspension:[
   {label:'Bearings and seals',match:/^(?!.*\b(?:crank(?:shaft)?|main|transmission|countershaft|gearbox|engine|water pump|wheel|steering)\s+(?:bearing|seal)).*\b(bearings?|seals?|seal kit|seal head)\b/i,keep:true},
-  {label:'Fork springs',match:/\bfork\b.*\bsprings?\b|\bsprings?\b.*\bfork\b/i},
+  {label:'Fork and shock oil',match:/\b(oil|fluid)\b/i},
+  {label:'Fork springs',match:/^(?!.*\bspring[- ]?forks?\b).*(\bfork\b.*\bsprings?\b|\bsprings?\b.*\bfork\b)/i},
   {label:'Shock spring',match:/\bshock\b.*\bsprings?\b|\bsprings?\b.*\bshock\b/i},
-  {label:'Valving, bladder or perch kit',match:/\b(valving|revalve|bladder|perch(es)?|gold valve|mid-?valve|valve kit)\b/i},
+  {label:'Valving, bladder or perch kit',match:/\b(valving|revalves?|bladder|perch(es)?|gold valve|mid-?valve|valve kit)\b/i},
   {label:'Preload adjuster',match:/\bpre-?load\b/i},
+  {label:'Clicker adjusters',match:/\b(compression|rebound|clicker|damping) adjusters?\b|\badjuster knobs?\b/i},
   {label:'Linkage',match:/\b(linkage|link|pull ?rod|dog ?bone)\b/i},
   {label:'Fork (cartridge, conversion, kit)',match:/\b(fork|cartridge|conversion|cone valve)\b/i},
   {label:'Shock',match:/\bshock\b/i}],
@@ -84,7 +86,7 @@ export const partTypes:Partial<Record<PartSystem,PartType[]>>={
 /** Accessories that name a main part but are not one ("silencer guard", "pipe mounts"), per system. */
 const NOT_THE_PART:Partial<Record<PartSystem,RegExp>>={
  exhaust:/\b(guards?|protectors?|armou?r|clamps?|mounts?|repacking|coating|heat|hangers?)\b/i,
- suspension:/\b(guards?|covers?|socks?|protectors?|tools?|wraps?|bumpers?|seal ?heads?|collars?|clevis|eyelets?|reservoir caps?|nitrogen|valves? caps?|lowering|gas valves?|air ports?|repair kits?|bushing kits?|service kits?)\b/i,
+ suspension:/\b(guards?|covers?|socks?|protectors?|tools?|wraps?|bumpers?|seal ?heads?|collars?|clevis|eyelets?|reservoir caps?|nitrogen|valves? caps?|lowering|gas valves?|air ports?|repair kits?|bushing kits?|service kits?|gaa?i?ters?|gators?|mud scrapers?|scrapers?|shoes?|skins?|bleeders?|air ?pumps?|pumps?|pump adapters?|supports?|savers?|oil filters?|re-?pack|ez fill|bolt kits?|stands?|blocks?)\b/i,
  engine:/\b(guards?|protectors?|caps?)\b/i,
  brakes:/\b(guards?|covers?|protectors?)\b/i,
  controls:/\b(covers?|protectors?)\b/i,

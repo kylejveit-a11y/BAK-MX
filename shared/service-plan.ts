@@ -104,3 +104,12 @@ export function dueLine(row:{item:PlanItem;last:unknown|null;left:number|null}):
  return parts.join(' · ');
 }
 const round1=(n:number)=>Math.round(n*10)/10;
+/** "Coming up" in rider words: the rider's own reminders plus the maker's jobs that are due now or within `soonHours`,
+ *  one line per job, soonest first. A job the rider set a reminder for keeps the sooner of the two. */
+export function upNext<E extends {category:string;next_due_hours:number|null;engine_hours:number|null}>(plan:PlanItem[]|null,events:E[],hours:number|null|undefined,limit=3,soonHours=10):{key:string;category:string;left:number|null;at:number|null}[]{
+ const h=hours??null,by=new Map<string,{key:string;category:string;left:number|null;at:number|null}>();
+ const keep=(r:{key:string;category:string;left:number|null;at:number|null})=>{const k=r.category.toLowerCase(),o=by.get(k);if(!o||(r.left??1e9)<(o.left??1e9))by.set(k,r);};
+ for(const {e,left} of comingUp(events,h,50))keep({key:'r-'+e.category,category:e.category,left,at:e.next_due_hours});
+ if(plan&&h!=null)for(const r of serviceDueRows(plan,events,h))if(r.left!=null&&r.left<=soonHours)keep({key:'p-'+r.item.category,category:r.item.category,left:r.left,at:r.due});
+ return [...by.values()].sort((a,b)=>(a.left??1e9)-(b.left??1e9)).slice(0,limit);
+}

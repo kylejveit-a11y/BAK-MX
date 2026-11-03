@@ -4,7 +4,7 @@
 import {useCallback,useEffect,useRef,useState,type FormEvent} from 'react';
 import {ChevronDown,ChevronRight,Droplets,Plus,RefreshCw,Wrench} from 'lucide-react';
 import type {Bike,ServiceEvent} from '../shared/types';
-import {serviceDueRows,comingUp,dueLine,type PlanItem} from '../shared/service-plan';
+import {serviceDueRows,upNext,dueLine,type PlanItem} from '../shared/service-plan';
 import {api} from './client';
 import {createSubmission,finishCreate} from './createSubmission';
 import './rider-extras.css';
@@ -56,7 +56,10 @@ function MaintenanceForBike({bike}:{bike:Bike}){
   setDueOpen(true);setAdding(true);window.scrollTo({top:0,behavior:'smooth'});
  }
  useEffect(()=>{if(!notice)return;const t=setTimeout(()=>setNotice(''),4000);return()=>clearTimeout(t);},[notice]);
- const hours=bike.engine_hours??null,list=events??[],coming=comingUp(list,hours);
+ // The maker's schedule is loaded here so Coming up can show its due jobs too, not only the rider's own reminders.
+ const [plan,setPlan]=useState<PlanItem[]|null>(null);
+ useEffect(()=>{let live=true;setPlan(null);api<{items:PlanItem[]}>('/service-plan?bike_id='+bike.id).then(r=>{if(live)setPlan(r.items);}).catch(()=>{if(live)setPlan([]);});return()=>{live=false;};},[bike.id]);
+ const hours=bike.engine_hours??null,list=events??[],coming=upNext(plan,list,hours);
  const quick=SERVICE_QUICK.includes(draft.category);
  return <div className="rx-stack rx-service">
   {notice&&<p className="notice" role="status">{notice}</p>}
@@ -80,11 +83,11 @@ function MaintenanceForBike({bike}:{bike:Bike}){
   :<button className="rx-start" onClick={()=>setAdding(true)}><span className="rx-start-icon"><Droplets size={20}/></span><span><b>Log service</b><small>What you did and at how many hours</small></span><ChevronRight size={18}/></button>}
 
   {coming.length>0&&<section className="panel"><span className="eyebrow">COMING UP</span>
-   <ul className="rx-coming">{coming.map(({e,left})=><li key={e.id} className={left!==null&&left<=0?'due':''}>{e.category}: {left===null?`at ${e.next_due_hours} hours`:left<=0?`due now (${e.next_due_hours} h)`:`in ${left} hours`}</li>)}</ul>
+   <ul className="rx-coming">{coming.map(({key,category,left,at})=><li key={key} className={left!==null&&left<=0?'due':''}>{category}: {left===null?`at ${at} hours`:left<=0?'due now':`in ${left} hours`}</li>)}</ul>
    {hours===null&&<p className="rx-note">Add the hours on the bike in Garage and BAK counts down to each one.</p>}
   </section>}
 
-  {!adding&&events!==null&&<ServicePlanCard bike={bike} events={list} onLog={logFromPlan}/>}
+  {!adding&&events!==null&&<ServicePlanCard bike={bike} plan={plan} events={list} onLog={logFromPlan}/>}
 
   <section className="panel">
    <div className="rx-head"><div><span className="eyebrow">HISTORY</span><h2 className="rx-title md">{bike.model_year} {bike.manufacturer} {bike.model}</h2><p className="rx-copy">{hours!==null?`${hours} hours on the bike`:'Hours not set'}{list.length?` · ${list.length} ${list.length===1?'entry':'entries'}`:''}</p></div>
@@ -97,9 +100,8 @@ function MaintenanceForBike({bike}:{bike:Bike}){
 }
 
 /** The maker's own service schedule for this exact bike, as reminders: what's due next by the hours on the bike. */
-function ServicePlanCard({bike,events,onLog}:{bike:Bike;events:ServiceEvent[];onLog:(item:PlanItem)=>void}){
- const [plan,setPlan]=useState<PlanItem[]|null>(null),[open,setOpen]=useState(false);
- useEffect(()=>{let live=true;setPlan(null);api<{items:PlanItem[]}>('/service-plan?bike_id='+bike.id).then(r=>{if(live)setPlan(r.items);}).catch(()=>{if(live)setPlan([]);});return()=>{live=false;};},[bike.id]);
+function ServicePlanCard({bike,plan,events,onLog}:{bike:Bike;plan:PlanItem[]|null;events:ServiceEvent[];onLog:(item:PlanItem)=>void}){
+ const [open,setOpen]=useState(false);
  if(!plan||!plan.length)return null;
  const h=bike.engine_hours??null,rows=serviceDueRows(plan,events,h),shown=open?rows:rows.slice(0,4);
  return <section className="panel">
