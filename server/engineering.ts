@@ -13,6 +13,7 @@ import {getMechanismLibrary} from '../shared/mechanisms.ts';
 import {setupKnowledge} from '../shared/setup-knowledge.ts';
 import {manufacturerSetupGuidance} from '../shared/manufacturer-setup-guidance.ts';
 import {partOptionsFor} from './part-options.ts';
+import {coachingExtrasFor} from '../shared/riding-coach-pass5.ts';
 import {installedPartsContext,withoutBuildSheet,withoutVin} from './installed-parts-context.ts';
 import {partSystems,readInstalled} from '../shared/installed-parts.ts';
 import {disciplinesKnowledge} from '../shared/disciplines.ts';
@@ -48,7 +49,7 @@ export function testerBaselinesFor(bike:{manufacturer:string;model:string;model_
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-56';
+export const PROMPT_VERSION='mx-engineering-57';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -409,8 +410,9 @@ export type RiderPreferences={units:'us'|'metric';answer_length:'quick'|'full';t
 export async function generateAnswer(bike:Bike|null,history:Message[],claims:Claim[],message:string,lookups:string[]=[],onDraft?:(draft:{summary:string;answer:string})=>void,setupHistory:SetupResultRow[]=[],knowledge:Knowledge[]=[],guided?:GuidedStep|null,voice=false,riderManual:{page:number;text:string}[]=[],images:string[]=[],tracks:TrackProfile[]=[],media:ChatMedia|null=null,coaching:Coaching|null=null,preferences:RiderPreferences|null=null,race:RaceMode|null=null){
  const before=coaching?.before&&media?.kind==='clip'?coaching.before:null;if(before)images=[...images,...before.urls];
  const started=Date.now(),fitted=bike?readInstalled(bike.configuration).parts.map(p=>p.b).filter(Boolean):[];
+ const coachingMore=coachingExtrasFor([message,...history.filter(m=>m.role==='user').slice(-2).map(m=>typeof m.content==='string'?m.content:'')].join(' ')+(media?' '+(media.focus??''):''));
  const partOptions=await partOptionsFor(bike,message,history.map(m=>({role:m.role,content:typeof m.content==='string'?m.content:null}))).catch(()=>null);
- const input={...buildEngineeringInput(bike,history,claims,message,setupHistory,knowledge,guided,voice,riderManual,tracks),...(partOptions?{part_options:{rules:'Parts from this bike\'s own parts list that match what the rider is choosing between. Follow PARTS ADVICE.',...partOptions}}:{}),spec_lookups_performed:lookups,rider_photos_attached:images.length,...(images.length?{rider_media:riderMedia(media,images.length-(before?.urls.length??0),before)}:{}),...(coaching?.history.length?{coaching_history:coaching.history}:{}),...(preferences?{rider_preferences:preferences}:{}),...(race?{race_mode:{on:true,...(race.track?{track:race.track}:{}),...(race.date?{date:race.date}:{}),...(race.setup?{request:'starting_setup'}:{}),...(race.forecast?{forecast:race.forecast}:{})}}:{})};
+ const input={...buildEngineeringInput(bike,history,claims,message,setupHistory,knowledge,guided,voice,riderManual,tracks),...(Object.keys(coachingMore).length?{coaching_more:{rules:'More from coaches for the skills this question is about: extra keys, faults (how they look, why, fix, drill), drills with how to know you have it, pro tips, and coaches_differ (where coaches disagree: give the rider the choice and when each works, never a pretend consensus). Use with coaching_knowledge; never name a coach or outlet.',skills:coachingMore}}:{}),...(partOptions?{part_options:{rules:'Parts from this bike\'s own parts list that match what the rider is choosing between. Follow PARTS ADVICE.',...partOptions}}:{}),spec_lookups_performed:lookups,rider_photos_attached:images.length,...(images.length?{rider_media:riderMedia(media,images.length-(before?.urls.length??0),before)}:{}),...(coaching?.history.length?{coaching_history:coaching.history}:{}),...(preferences?{rider_preferences:preferences}:{}),...(race?{race_mode:{on:true,...(race.track?{track:race.track}:{}),...(race.date?{date:race.date}:{}),...(race.setup?{request:'starting_setup'}:{}),...(race.forecast?{forecast:race.forecast}:{})}}:{})};
  const {wire:full,real}=toWire(input);
  // The provider caches the instructions block as a unit. The reference library is identical on every request, so it rides
  // there; only what changes per question (bike, conversation, retrieved evidence, message) is sent as input.

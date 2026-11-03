@@ -15,3 +15,9 @@ test('Fork list holds forks and kits, not guards, seals tools or oil filters',()
  for(const n of ['XACT PRO 7548 Cone Valve Fork','Factory Kit coil-spring fork','MXT Blackjack Cartridge System'])assert.equal(typeOf('suspension',n),'Fork (cartridge, conversion, kit)',n);
  assert.equal(typeOf('suspension','WP SUSPENSION FLUID SAE 4'),'Fork and shock oil');
 });
+import {coachingExtrasFor} from '../shared/riding-coach-pass5.ts';
+test('A coaching question brings the extra drills and faults for its skills, and only those',()=>{
+ const x=coachingExtrasFor('I keep casing the double and my son struggles in ruts');
+ assert.ok(x.jumps&&x.cornering_ruts);assert.ok(Object.keys(x).length<=3);
+ assert.deepEqual(coachingExtrasFor('what oil does my bike take'),{});
+});

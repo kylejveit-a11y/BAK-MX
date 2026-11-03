@@ -2,7 +2,7 @@
 // clip, and how to read a track from pictures. Sent with every request as reference data (like setup_knowledge), so
 // coaching answers stay consistent and specific. Written in BAK's own words from established coaching practice.
 // Coaching is general guidance, never a substitute for in-person coaching, and never pushes a rider past their level.
-export const COACHING_VERSION='bak-coach-4';
+export const COACHING_VERSION='bak-coach-5';
 
 type Fault={fault:string;looks_like:string;why:string;fix:string;drill?:string};
 type Skill={id:string;skill:string;goal:string;keys:string[];faults:Fault[];setup_link?:string};
@@ -82,7 +82,7 @@ export const skills:Skill[]=[
    {fault:'Looping out',looks_like:'Front climbing high in the air, rider behind the bike.',why:'Too much throttle off the face, sitting or hips too far back.',fix:'Centered body, smoother throttle, a touch of rear brake in the air.'}],
   setup_link:'Kicking and harsh landings can also be suspension: shock rebound, high-speed compression, sag and fork oil level. Fix the bike before blaming technique.'},
  {id:'scrubbing',skill:'Scrubbing and whips',goal:'Stay low and fast over jumps, and only once jumping is solid.',
-  keys:['Only after the rider jumps a section consistently. Lean the bike over before the lip, turn the bars into the lean, push the bike down with the outside leg and keep the throttle on.','The bike should come back straight before landing. Practise on small jumps first.'],
+  keys:['Only after the rider jumps a section consistently. Lean the bike over before the lip, turn the bars into the lean, push the bike down with the outside leg. Throttle: steady up the face, then most coaches roll off at the lip so the bike stays low; some keep a little on for drive. Pick one and keep it the same every time.','The bike should come back straight before landing. Practise on small jumps first.'],
   faults:[{fault:'Landing crossed up',looks_like:'Bike still sideways at the landing.',why:'Started the scrub too late or held it too long.',fix:'Start earlier, straighten earlier, smaller angle until it is repeatable.'}]},
  {id:'whoops',skill:'Whoops',goal:'Skim or jump through with the bike tracking straight.',
   keys:['Skimming: standing, hips back but not on the fender, knees in, arms loose, steady throttle and enough speed to skim the tops; the rear wheel tracks across the faces.','Jumping or doubling: use rhythm; only when timing is consistent.',
