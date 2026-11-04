@@ -1,0 +1,1158 @@
+{
+ "grades": [
+  {
+   "id": "q001",
+   "expert_take": "Set rider sag ~105 mm first; to turn tighter and hold ruts, slide the fork tubes up 2-3 mm or take a little rear sag out, and slow fork rebound a click or two if the front pops out of the rut on the gas; stock fork is soft/divey for many riders.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 4,
+    "concise": 4,
+    "flags": [],
+    "note": "Good baseline and technique, cited clickers, right first step; no fix direction offered for the 'plops out' symptom, closes with a fair diagnostic question."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 5,
+    "concise": 3,
+    "flags": [],
+    "note": "Same baseline plus cited spring rates and a clear dive-vs-climb branch (more support vs slower rebound) that maps to the rider's symptom; table adds length."
+   },
+   "better": "Y",
+   "why": "Y ties the rut symptom to a damping direction (dive -> support, climb out -> slower rebound); X only gives baseline and technique.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q002",
+   "expert_take": "Move in 1-2 mm steps: more tube showing turns sharper, less is more stable at speed. What are you trying to fix?",
+   "X": {
+    "overall": "A",
+    "correct": 5,
+    "useful": 5,
+    "safe": 5,
+    "rider_words": 5,
+    "bike_specific": 4,
+    "concise": 5,
+    "flags": [],
+    "note": "Matches the A anchor exactly: both directions, step size, asks the goal; cites Kawasaki reference."
+   },
+   "Y": {
+    "overall": "D",
+    "correct": 3,
+    "useful": 2,
+    "safe": 4,
+    "rider_words": 4,
+    "bike_specific": 4,
+    "concise": 4,
+    "flags": [
+     "wrong_direction"
+    ],
+    "note": "Picks 6->4 mm (more stability, slower turn-in) with no stated goal, then asks the goal afterwards; this is the D anchor."
+   },
+   "better": "X",
+   "why": "X explains both directions and asks the goal; Y commits to a direction without knowing what the rider wants.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q003",
+   "expert_take": "Both changes point the right way for a front that kicks back: softer compression takes the edge off hits, slower rebound stops it springing back. Ride it; if it gets harsher through a whoop section, take a click or two of rebound back out.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Correct explanation of each change and of the packing risk; notes the 2009/2025 mismatch; no concrete next test and never says it was probably a sensible move."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Same explanation plus a concrete one-variable test (rebound back to 12, keep comp 14). Sound method, though it undoes the change aimed at the actual complaint."
+   },
+   "better": "Y",
+   "why": "Y gives a concrete isolation test; X only explains.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q010",
+   "expert_take": "Lighter springs do not fix harshness that comes from the valving; check steering-head bearing tightness and fork alignment, then open fork compression clickers or revalve. Don't loosen chassis bolts for 'flex'.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Good ordered checks (steering drag, fork binding, sag); notes springs now possibly too soft. Does not mention compression clickers/valving as the harshness fix."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Same checks, mentions damping inside the fork, but less structured and with no sag/spring follow-up beyond a line."
+   },
+   "better": "X",
+   "why": "X is better structured and catches that lighter springs can make the fork ride deep and feel harsh.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q018",
+   "expert_take": "At 170 lb intermediate, stock CRF450RX springs are about right; set ~100-105 mm rider sag, check static sag, start at stock clickers and adjust from there. 2017 and 2018 RX are near-identical chassis-wise.",
+   "X": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 4,
+    "flags": [
+     "asked_instead_of_answered"
+    ],
+    "note": "Generic sag range and free-sag logic; asks whether it is really an RX after the rider said so; no direct verdict on springs for 170 lb."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Gives a concrete 105 mm start, free-sag screen, direction of sag change and step size; asks whether weight includes gear (fair). Still no verdict that stock springs likely suit 170 lb."
+   },
+   "better": "Y",
+   "why": "Y answers with numbers and steps; X asks something the rider already told it.",
+   "numbers_to_verify": [
+    "Y: 30-40 mm free/static sag 'screening range' for a 2017 CRF450RX (uncited; Honda manual value should be checked)",
+    "X/Y: 100-108 mm rider sag range (uncited general figure)"
+   ]
+  },
+  {
+   "id": "q019",
+   "expert_take": "At 95-100 kg on a 2023 YZ450F, most go about one to two rates up: fork around 5.2-5.3 N/mm and shock 60-62 N/mm, then set 95-100 mm race sag and check static sag.",
+   "X": {
+    "overall": "C",
+    "correct": 3,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 4,
+    "concise": 4,
+    "flags": [],
+    "note": "Gives a fork pick (5.1, the top Yamaha optional) and sag spec; fork pick likely light for 210-220 lb and no shock rate pick."
+   },
+   "Y": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 2,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 4,
+    "concise": 4,
+    "flags": [
+     "asked_instead_of_answered"
+    ],
+    "note": "Accurate cited rates and options (incl. 60 N/mm shock) but declines to pick and asks fork or shock when the rider asked about springs generally."
+   },
+   "better": "X",
+   "why": "X at least gives a pick and the sag check; Y lists options without choosing.",
+   "numbers_to_verify": [
+    "X: 5.1 N/mm fork as starting point for 95-100 kg (expect about 5.2-5.4 N/mm commonly; uncited)"
+   ]
+  },
+  {
+   "id": "q021",
+   "expert_take": "Tuck under braking at 220 lb on an AER fork = not enough front support: add fork air pressure in small steps (0.2-0.3 bar), add a couple clicks fork compression, check rear sag isn't too low on a stock shock spring (likely needs a stiffer spring).",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Right diagnosis, mentions air fork pressure as spring support, concrete clicker branches and technique. Doesn't say plainly to add air pressure."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Right diagnosis, records fork pressure, notes high rear can overload the front and that a dive needs more support; no concrete clicker step."
+   },
+   "better": "X",
+   "why": "X gives a concrete test per branch; both stop short of 'add air pressure'.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q025",
+   "expert_take": "Get Race Tech's valving sheet and recommended clicker/sag settings for your weight; check for binding/alignment from reassembly, verify springs and sag, then tune from their baseline. If still harsh, send it back - they'll rework it.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Right sequence (binding, Race Tech baseline, first-hit vs repeated-hit split); in-app save line fine."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Same sequence plus fork alignment note and sag; BFRC turns note is plausible but uncited."
+   },
+   "better": "tie",
+   "why": "Essentially equivalent content and quality.",
+   "numbers_to_verify": [
+    "Y: stock 2025 RM-Z450 rear shock is a BFRC unit with turn-based damping adjusters (uncited)"
+   ]
+  },
+  {
+   "id": "q026",
+   "expert_take": "Check sag (105 mm rider / ~35 mm static per KTM); if the rear hammers on sharp hits, soften shock high-speed compression; if it gets worse through a series, speed up rebound. Heavy rider may need a stiffer spring.",
+   "X": {
+    "overall": "A",
+    "correct": 5,
+    "useful": 5,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 5,
+    "concise": 4,
+    "flags": [],
+    "note": "Cited KTM sag figures, correct spring logic, and both damping branches with directions; good closing question."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 5,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 5,
+    "bike_specific": 5,
+    "concise": 4,
+    "flags": [],
+    "note": "Same cited sag, adds tire pressure, but gives no damping direction, only the question."
+   },
+   "better": "X",
+   "why": "X gives the branch-specific fixes; Y only asks.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q028",
+   "expert_take": "Yes, the TC 250 uses Husky's lowered setup too (shorter rear stroke/linkage, ~10 mm lower). On a light 2-stroke it's mostly a plus for cornering and reach; if you're tall or fast in big ruts/jumps, the 250 SX or raising the Husky is the answer.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 4,
+    "concise": 4,
+    "flags": [],
+    "note": "Answers yes, explains the trade-off and gives a pick by priority; cited travel/seat figures."
+   },
+   "Y": {
+    "overall": "C",
+    "correct": 3,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 3,
+    "flags": [],
+    "note": "Says 'no, not an inherent drawback' without clearly confirming the TC is lowered too; spends space disputing the 10 mm claim via fork length."
+   },
+   "better": "X",
+   "why": "X directly answers whether the TC shares the lowering and gives a pick.",
+   "numbers_to_verify": [
+    "X: lowered design described as rear linkage plus restricted shock stroke on 2022 TC 250 (uncited)"
+   ]
+  },
+  {
+   "id": "q032",
+   "expert_take": "Need the symptom. Pull the plug: wet/black = fouled (common on stock YZ125 jetting at low speed), check the fuel and air filter; if it seized or lost compression, do a compression test before riding.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 5,
+    "concise": 4,
+    "flags": [],
+    "note": "Stock jetting and plug cited, plug inspection first, asks symptom, safety stops."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 5,
+    "concise": 3,
+    "flags": [],
+    "note": "Same, plus more cited carb settings (air screw, float, power jet) that aren't needed yet."
+   },
+   "better": "tie",
+   "why": "Same advice; Y adds reference numbers, X is tighter.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q033",
+   "expert_take": "Depends on the carb, but colder air needs richer: a setup right at 75F will be lean at 30F, so plan a richer clip or pilot for cold days. Tell me the bike.",
+   "X": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 4,
+    "flags": [],
+    "note": "Correct temperature direction and safety note; can't do more without bike."
+   },
+   "Y": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 4,
+    "flags": [],
+    "note": "Same; slightly clearer on which circuit each part controls."
+   },
+   "better": "tie",
+   "why": "Equivalent.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q034",
+   "expert_take": "5,000 ft and 80F is thin air, so go leaner (roughly one main size and maybe a clip) from a sea-level cool setup; EFI handles it.",
+   "X": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 4,
+    "flags": [],
+    "note": "Right direction, asks what setting; no step size."
+   },
+   "Y": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 5,
+    "flags": [],
+    "note": "Same, slightly more concise."
+   },
+   "better": "tie",
+   "why": "Equivalent.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q035",
+   "expert_take": "Classic hot-stall: check the tank vent, then fuel pump/filter pressure hot, then valve clearances (tight intake valves are common on these 250Fs); confirm hot idle speed.",
+   "X": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Correct to not mask with idle; jumps straight to shop fuel-pressure test, misses vent and valve clearances."
+   },
+   "Y": {
+    "overall": "A",
+    "correct": 5,
+    "useful": 5,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 4,
+    "concise": 4,
+    "flags": [],
+    "note": "Ordered list a mechanic would use: vent, hot fuel pressure, valves, ignition; correct idle spec; good question."
+   },
+   "better": "Y",
+   "why": "Y's diagnostic order (vent first, valves) matches what a mechanic would check; X misses both.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q038",
+   "expert_take": "Decel pop is usually exhaust leak or lean decel cells, not lean under acceleration. If you richen fuel, keep ignition the same and change one thing at a time.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Answers 'keep ignition the same', explains afterfire and exhaust leak check."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 5,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Same answer with slightly clearer afterfire explanation and the warning signs list."
+   },
+   "better": "Y",
+   "why": "Slightly clearer explanation; otherwise equivalent.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q039",
+   "expert_take": "Power Tuner lets you change the low-rpm/closed-throttle cells, which affect idle and decel; no, it isn't made crazy rich at idle for cooling. Bikes overheat idling because of no airflow.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 4,
+    "concise": 4,
+    "flags": [],
+    "note": "Correct, cited idle speed, clear no on the cooling myth."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 4,
+    "concise": 4,
+    "flags": [],
+    "note": "Correct and adds that high-rpm closed-throttle cells are decel, not idle; the 'while running' aside is padding."
+   },
+   "better": "tie",
+   "why": "Equivalent quality.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q041",
+   "expert_take": "Check what the unplugged state does before deleting: put a meter on the switch in each position; if Performance is open-circuit, unplugging gives Performance. Otherwise leave it in I.",
+   "X": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 2,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 5,
+    "flags": [],
+    "note": "Safe but no way to find out beyond 'ask a technician'."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Gives a practical engine-off continuity test with correct logic and keeps it safe."
+   },
+   "better": "Y",
+   "why": "Y gives the rider a way to answer his own question.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q043",
+   "expert_take": "Yes: factory tuner app/handheld where offered, mail-in ECU flash, or aftermarket ECU; tell me the bike.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 4,
+    "flags": [],
+    "note": "Clear options and caveats."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 4,
+    "flags": [],
+    "note": "Same options; note about locked ECUs useful."
+   },
+   "better": "tie",
+   "why": "Equivalent.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q044",
+   "expert_take": "Most non-oxygenated 110 runs fine on stock mapping (slightly slower burn, may lose a touch); oxygenated fuels need more fuel. Octane alone doesn't add power.",
+   "X": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 3,
+    "bike_specific": 2,
+    "concise": 4,
+    "flags": [
+     "chatbot_voice"
+    ],
+    "note": "Correct content but opens with 'I don't have a personal bike setup'."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 5,
+    "flags": [],
+    "note": "Same content, answers directly."
+   },
+   "better": "Y",
+   "why": "Same substance without the chatbot opener.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q045",
+   "expert_take": "Need when it bogs; check plug, air filter, fuel flow/vent, and a clogged pilot jet if it sat; power-valve sticking on a YZ125 is also a cause.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Useful symptom-to-cause map plus filter check and good question."
+   },
+   "Y": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 4,
+    "flags": [],
+    "note": "Correct but thin; just filter check and question."
+   },
+   "better": "X",
+   "why": "X gives the symptom branches that help the rider diagnose.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q046",
+   "expert_take": "Off-idle bog on a TMX 38: pilot/air screw circuit first; try air screw in 1/2-turn steps either side of 1.5 and see if pickup improves; check filter, boot and choke.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 4,
+    "concise": 4,
+    "flags": [],
+    "note": "Cited pilot jet and air screw, filter/choke checks, good question."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 4,
+    "concise": 4,
+    "flags": [],
+    "note": "Targets pilot and needle transition, wet vs dry stumble cues, cited carb/air screw."
+   },
+   "better": "Y",
+   "why": "Y points more directly at the off-idle circuit the symptom implicates.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q047",
+   "expert_take": "Pull the plug and read it; check filter and choke; tell me where in the throttle it stutters - off idle is pilot/air screw, mid is needle/clip.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 4,
+    "concise": 4,
+    "flags": [],
+    "note": "Plug first with cited spec, symptom branches, good question."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 4,
+    "concise": 4,
+    "flags": [],
+    "note": "Same plug check, fewer branches."
+   },
+   "better": "X",
+   "why": "X gives more usable symptom branches.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q049",
+   "expert_take": "Plenty of tuners run 32-40:1 for hard riding with a good synthetic; it helps under sustained rpm, but check jetting and keep the filter clean - those matter more for top-end life.",
+   "X": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 4,
+    "flags": [],
+    "note": "Correct caveats but won't say whether 40:1 is reasonable."
+   },
+   "Y": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 4,
+    "flags": [],
+    "note": "Same, explains it depends on current ratio; also no pick."
+   },
+   "better": "tie",
+   "why": "Both hedge equally.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q052",
+   "expert_take": "Yes, take it seriously: run good fuel (higher octane if pinging), don't run it lean, check the plug and piston crown; richen the main if it pings under load.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Stop riding, causes, don't lean the jetting, plug check; doesn't suggest better fuel."
+   },
+   "Y": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 4,
+    "concise": 4,
+    "flags": [],
+    "note": "Cites inspection interval, safe, but downplays whether it is a real issue and is less direct on causes."
+   },
+   "better": "X",
+   "why": "X is more direct about causes and what to avoid.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q058",
+   "expert_take": "Can't diagnose without hearing it; at 35 h check valve clearances and oil (both due every 15 h), and stop if it's a knock.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 4,
+    "concise": 4,
+    "flags": [],
+    "note": "Noise categories with locations, cited interval, oil check and stop rules."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 5,
+    "concise": 4,
+    "flags": [],
+    "note": "Cited clearances and intervals, but less help sorting what the noise is."
+   },
+   "better": "X",
+   "why": "X helps the rider classify the noise; Y gives specs only.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q059",
+   "expert_take": "Typical A-rider: 250F piston 20-30 h, 450F 30-50 h, valves checked every 10-15 h and replaced when they keep tightening, crank ~60-100 h, clutch by measurement.",
+   "X": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 1,
+    "concise": 3,
+    "flags": [],
+    "note": "Sound principles but no ballpark hours an A rider would expect."
+   },
+   "Y": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 1,
+    "concise": 3,
+    "flags": [],
+    "note": "Same."
+   },
+   "better": "tie",
+   "why": "Both refuse numbers equally.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q061",
+   "expert_take": "Finger-follower engines do tick more than bucket-and-shim ones; a steady light tick is normal, a new or louder clatter means check valve clearance.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 4,
+    "flags": [],
+    "note": "Correct, safe, asks bike."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 4,
+    "flags": [],
+    "note": "Same plus brief explanation of what finger followers are."
+   },
+   "better": "Y",
+   "why": "Slightly more explanatory.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q063",
+   "expert_take": "Guides don't really 'break in' to stop whining; a steady whine on a new bike is often gear noise. Have the dealer check under warranty if it's loud or getting louder.",
+   "X": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 4,
+    "flags": [],
+    "note": "Safe, sends to dealer, but little to help tell what it is."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 4,
+    "flags": [],
+    "note": "Gives sorting cues (gear whine vs chain/tensioner) and stop signs."
+   },
+   "better": "Y",
+   "why": "Y helps the rider judge the noise; X just says see dealer.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q066",
+   "expert_take": "10 h is fine for track; shorten in heat/sand; change filter per schedule, clean air filter often in desert.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 5,
+    "flags": [],
+    "note": "Endorses 10 h, adds desert air-filter point."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 4,
+    "flags": [],
+    "note": "Similar; asks engine vs gearbox oil (fair for 2-strokes)."
+   },
+   "better": "X",
+   "why": "X is more direct and adds the dust/air-filter point.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q067",
+   "expert_take": "Don't. Use a JASO MA/MA2 oil; friction-modified fluids can slip plates and the thin oil hurts the gearbox.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 4,
+    "flags": [],
+    "note": "Clear opinion with sound reasoning."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 4,
+    "flags": [],
+    "note": "Same pick and reasoning plus warning signs."
+   },
+   "better": "tie",
+   "why": "Equivalent.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q075",
+   "expert_take": "Soft map, 1-2 teeth bigger rear, heavier flywheel weight for lugging; stock guide is fine with a 1-2 tooth change if it clears.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 4,
+    "flags": [],
+    "note": "Sensible map and throttle-cam ideas, but no concrete gear step."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 2,
+    "concise": 4,
+    "flags": [],
+    "note": "Gives the 1-2 tooth step and map; neither mentions a flywheel weight."
+   },
+   "better": "Y",
+   "why": "Y gives a concrete gearing change.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q080",
+   "expert_take": "For bottom end, a slip-on on the stock header (or a full system with a remap) - FMF 4.1 is a common choice; expect small gains, not a transformation.",
+   "X": {
+    "overall": "C",
+    "correct": 3,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Picks the full system for bottom-end though its own evidence favors the slip-on for low-end drive."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 3,
+    "flags": [],
+    "note": "Pick is consistent with the bottom-end priority; ends with a dyno-chart hedge."
+   },
+   "better": "Y",
+   "why": "Y's pick follows from the rider's priority and the evidence it cites.",
+   "numbers_to_verify": [
+    "X/Y: FMF 4.1 titanium full system saves about 2 lb on 2023 350 SX-F (uncited tester figure)"
+   ]
+  },
+  {
+   "id": "q081",
+   "expert_take": "A 450 has plenty of bottom; pick a full system marketed for torque or a slip-on for sound/weight, and a remap/airbox mod gives more low-end than the pipe.",
+   "X": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Correct guidance but no pick; asks budget."
+   },
+   "Y": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Picks a 'torque-focused full system' and notes the airbox, still no specific pipe."
+   },
+   "better": "Y",
+   "why": "Y makes a pick and flags the airbox restriction.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q082",
+   "expert_take": "No pipe adds power everywhere; on 19-22 KX450 most liked a slip-on with stock header and a coupler change; ask HGS for a dyno overlay.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Correct framing, owner preference, asks full vs slip-on."
+   },
+   "Y": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [
+     "chatbot_voice"
+    ],
+    "note": "Same content but leads with 'I don't have firsthand riding experience' (capped at C)."
+   },
+   "better": "X",
+   "why": "Same substance without the firsthand disclaimer.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q085",
+   "expert_take": "No - KX250 and KX450 engines differ; check Kawasaki part numbers, but expect different covers.",
+   "X": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 5,
+    "flags": [],
+    "note": "Recommends buying the listed KX250 cover and checking part numbers; no verdict."
+   },
+   "Y": {
+    "overall": "C",
+    "correct": 4,
+    "useful": 2,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [
+     "asked_instead_of_answered"
+    ],
+    "note": "No verdict, asks brand and part number."
+   },
+   "better": "X",
+   "why": "X gives a pick.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q094",
+   "expert_take": "Not normal: check choke fully off, float overflow, plug cap, and mix - 1:60 spec; heavy oil or rich stock jetting plus idling fouls these plugs.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 5,
+    "concise": 4,
+    "flags": [],
+    "note": "Cited plug, gap, mix, interval; ordered checks including float overflow."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 5,
+    "concise": 4,
+    "flags": [],
+    "note": "Cited specs incl. torque; covers ignition causes and mix check."
+   },
+   "better": "tie",
+   "why": "Both solid and specific.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q096",
+   "expert_take": "Choke helping = lean off-idle; check the pilot jet isn't partly blocked and the air screw is set right (PWK air screw in richens), or go one pilot size up.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 3,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 4,
+    "concise": 4,
+    "flags": [],
+    "note": "Correct lean diagnosis, sends to dealer on a new bike."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 4,
+    "concise": 4,
+    "flags": [],
+    "note": "Same diagnosis with a check order (pilot/air screw, float, leaks)."
+   },
+   "better": "Y",
+   "why": "Y gives the check order a mechanic would follow.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q097",
+   "expert_take": "Try 17 mm (2 mm step), not 23; a low rear can make the front look high, so check free sag first.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Right step size and direction, free-sag question."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 3,
+    "concise": 4,
+    "flags": [],
+    "note": "Same, plus explains a low rear can make the front look high."
+   },
+   "better": "Y",
+   "why": "Slightly better reasoning about why it looks high.",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "q099",
+   "expert_take": "Yes, kits shorten fork and shock internally; on the 50 SX use the factory low setting first, then a matched kit or lower seat.",
+   "X": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 4,
+    "concise": 4,
+    "flags": [],
+    "note": "Correct and practical; cited seat range."
+   },
+   "Y": {
+    "overall": "B",
+    "correct": 4,
+    "useful": 4,
+    "safe": 5,
+    "rider_words": 4,
+    "bike_specific": 4,
+    "concise": 4,
+    "flags": [],
+    "note": "Same plus travel figures and lower-seat option."
+   },
+   "better": "Y",
+   "why": "Y adds the lower-seat option.",
+   "numbers_to_verify": []
+  }
+ ]
+}
