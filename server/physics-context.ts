@@ -4,7 +4,10 @@ import type {SupabaseClient} from '@supabase/supabase-js';
 import type {Bike} from '../shared/types.ts';
 import {searchBikeClaims} from './claims.ts';
 import {physicsContext} from '../shared/suspension-physics.ts';
-import {engineContext,ENGINE_ABOUT} from '../shared/engine-physics-context.ts';
+import {engineContext,ENGINE_ABOUT,AIR_ABOUT} from '../shared/engine-physics-context.ts';
+import {exactBikeScope} from '../shared/bike-identity.ts';
+import type {Claim} from '../shared/types.ts';
+const CLAIM_COLUMNS='id,manufacturer,model,model_year,variant,region,domain,property,statement,source_url,source_locator,status,has_conflict';
 
 const ABOUT=/\b(sag|spring|preload|harsh|stiff|soft|wallow|dives?|diving|bottom(s|ing)?|kicks?|headshake|shake|wobble|unstable|stable|stability|turn(s|ing)? in|pushes|pushing|tucks|steer(s|ing)?|oversteer|understeer|triple clamps?|offset|fork height|tubes? (up|down)|slide the fork|rake|trail|geometry|clickers?|compression|rebound|damping|heat|hot|temperature|fade|setup|set up|suspension|fork|shock)\b/i;
 const n=(v:unknown)=>v==null||v===''||!Number.isFinite(Number(String(v).replace(/[^\d.]/g,'')))?undefined:Number(String(v).replace(/[^\d.]/g,''));
@@ -14,15 +17,25 @@ export async function physicsFor(db:SupabaseClient,bike:Bike|null,texts:string[]
  if(!bike)return null;
  const [chassis,engine]=await Promise.all([chassisFor(db,bike,texts),engineFor(db,bike,texts,env)]);
  if(!chassis&&!engine)return null;
- return {...(chassis??{}),...(engine??{})};
+ const out={...(chassis??{}),...(engine??{})};
+ const ev=(engine as {evidence?:Claim[]}|null)?.evidence;
+ if(ev?.length)Object.defineProperty(out,'evidence',{value:ev,enumerable:false});
+ return out;
 }
 async function engineFor(db:SupabaseClient,bike:Bike,texts:string[],env:{tracks?:{name:string;elevation_ft:number|null}[];raceTrack?:string|null;forecastHighF?:number|null;raceMode?:boolean}){
  try{
   const text=texts.join(' ');
   const claims=ENGINE_ABOUT.test(text)||env.raceMode?await searchBikeClaims(db,bike,['bore stroke compression ratio displacement','fuel system carburetor fuel injection throttle body','chain size drive chain links sprocket']):[];
   const track=(env.raceTrack?env.tracks?.find(t=>t.name.toLowerCase()===env.raceTrack!.toLowerCase()):undefined)??env.tracks?.find(t=>t.elevation_ft!=null);
-  return engineContext(text,{model:bike.model,configuration:(bike.configuration??{}) as Record<string,unknown>,statements:claims.map(c=>c.statement),
-   track:track&&track.elevation_ft!=null?{name:track.name,elevationFt:track.elevation_ft}:null,forecastHighF:env.forecastHighF??null,raceMode:env.raceMode===true});
+  // The maker's jetting chart, when this bike has one: only fetched for air and jetting questions.
+  const jet=(AIR_ABOUT.test(text)||env.raceMode)?(((await db.from('claims').select(CLAIM_COLUMNS).match({...exactBikeScope(bike),status:'VERIFIED',has_conflict:false}).like('statement','Carburetor tuning%').limit(400)).data??[]) as Claim[]):[];
+  const ctx=engineContext(text,{model:bike.model,configuration:(bike.configuration??{}) as Record<string,unknown>,statements:claims.map(c=>c.statement),
+   track:track&&track.elevation_ft!=null?{name:track.name,elevationFt:track.elevation_ft}:null,forecastHighF:env.forecastHighF??null,raceMode:env.raceMode===true,jetting:jet.map(c=>({id:c.id,statement:c.statement}))});
+  // The chart rows the numbers came from go to the answer as published evidence (see app.ts).
+  const air=ctx?.air as {published_jetting?:{evidence_id:string}[];published_jetting_hot?:{evidence_id:string}[]}|undefined;
+  const used=new Set([...(air?.published_jetting??[]),...(air?.published_jetting_hot??[])].map(x=>x.evidence_id));
+  if(ctx&&used.size)Object.defineProperty(ctx,'evidence',{value:jet.filter(c=>used.has(c.id)),enumerable:false});
+  return ctx;
  }catch{return null;}
 }
 async function chassisFor(db:SupabaseClient,bike:Bike,texts:string[]){

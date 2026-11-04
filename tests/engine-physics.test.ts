@@ -56,3 +56,19 @@ test('Ask BAK context: gearing from the Garage, air from the track and forecast,
  assert.deepEqual(airFromText("we're at 6,000 ft and it's 95 degrees, 80% humidity"),{elevationFt:6000,tempF:95,humidity:80});
  assert.deepEqual(['YZ250F','YZ250','KX250','KX112','CRF150R','TF 250-X','MC 125','RM-Z450'].map(isFourStroke),[true,false,true,false,true,true,false,true]);
 });
+test('published jetting: picks the maker\'s chart cell for the elevation and air, per chart',async()=>{
+ const {jettingCells,jettingFor,engineContext}=await import('../shared/engine-physics-context.ts');
+ const rows=[
+  {id:'a',statement:'Carburetor tuning (standard mode) / 301 to 750 m (987 to 2,460 ft) / 16 to 24 °C (60.8 to 75.2 °F): idle air screw 2 turns open; idling jet 55; jet needle NRK C; needle clip position 3 from top; main jet 140. Applies to the US standard model named.'},
+  {id:'b',statement:'Carburetor tuning (standard mode) / 301 to 750 m (987 to 2,460 ft) / 25 to 36 °C (77 to 96.8 °F): idle air screw 2 turns open; idling jet 55; jet needle NRJ C; needle clip position 3 from top; main jet 140. Applies.'},
+  {id:'c',statement:'Carburetor tuning (lean) / 301 to 750 m (987 to 2,460 ft) / 16 to 24 °C (60.8 to 75.2 °F): idle air screw 2 turns open; idling jet 55; jet needle NRJ C; needle clip position 3 from top; main jet 140. Applies.'},
+  {id:'d',statement:'Carburetor tuning / 0 to 300 m (0 to 984 ft) / 16 to 24 °C (61 to 75 °F): idle air screw 1.5 turns open; idling jet 30; jet needle 43-71; needle clip position 2 from top; main jet 480. Applies.'}];
+ const cells=jettingCells(rows);assert.equal(cells.length,4);
+ const r=jettingFor(cells.filter(c=>c.chart!=='standard'),1500,76.5);
+ assert.deepEqual(r.map(x=>[x.chart,x.evidence_id]),[['standard mode','b'],['lean','c']],'76.5 °F sits between the bands: nearer one');
+ assert.match(r[0].settings,/main jet 140/);
+ assert.match(jettingFor(cells.filter(c=>c.chart==='standard'),5000,70)[0].note??'',/stops at 984 ft/);
+ const env={model:'85 SX 19/16',configuration:{},statements:[],track:{name:'Home',elevationFt:1600},forecastHighF:70,raceMode:false,jetting:rows.slice(0,3)};
+ const a=engineContext('how should I jet it for this weekend?',env) as {air:{published_jetting:{evidence_id:string}[];fuel_system:string}};
+ assert.equal(a.air.fuel_system,'carburetor');assert.deepEqual(a.air.published_jetting.map(x=>x.evidence_id),['a','c']);
+});

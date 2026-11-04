@@ -11,7 +11,38 @@ const num=(v:unknown)=>{if(v==null||v==='')return undefined;const x=Number(Strin
 export const isFourStroke=(model:string)=>/(SX-F|XC-F|\d+F\b|\bF[CX]\b|^F[CX]|CRF|RM-?Z|^KX\s?(250|450)\b|^TF\s|\bMC \d+F\b)/i.test(model.trim());
 const classCc=(model:string)=>{const m=model.match(/(\d{2,3})/);return m?Number(m[1]):undefined;};
 
-export type EngineEnv={model:string;configuration:Record<string,unknown>;statements:string[];track:{name:string;elevationFt:number}|null;forecastHighF:number|null;raceMode:boolean};
+export type EngineEnv={model:string;configuration:Record<string,unknown>;statements:string[];track:{name:string;elevationFt:number}|null;forecastHighF:number|null;raceMode:boolean;
+ /** The maker's carburetor tuning chart rows for this bike ("Carburetor tuning / 301 to 750 m (...) / 16 to 24 °C (...): ..."). */
+ jetting?:{id:string;statement:string}[]};
+
+type JetCell={id:string;chart:string;ft:[number,number];f:[number,number];band:string;air:string;settings:string};
+const JET=/^Carburetor tuning(?: \(([^)]+)\))? \/ (.+? m) \((-?[\d,.]+) to (-?[\d,.]+) ft\) \/ (.+? °C) \((-?[\d,.]+) to (-?[\d,.]+) °F\): (.+?)\.(?= [A-Z]|$)/;
+const fnum=(x:string)=>Number(x.replace(/,/g,''));
+export function jettingCells(rows:{id:string;statement:string}[]):JetCell[]{
+ const out:JetCell[]=[];
+ for(const r of rows){const m=r.statement.match(JET);if(!m)continue;
+  out.push({id:r.id,chart:m[1]??'standard',ft:[fnum(m[3]),fnum(m[4])],f:[fnum(m[6]),fnum(m[7])],band:`${m[2]} (${m[3]} to ${m[4]} ft)`,air:`${m[5]} (${m[6]} to ${m[7]} °F)`,settings:m[8]});}
+ return out;
+}
+/** The chart cell for this elevation and air temperature, per chart. A value between two printed bands goes to the nearer one. */
+export function jettingFor(cells:JetCell[],elevationFt:number,tempF:number){
+ const near=(x:number,[a,b]:[number,number])=>x<a?a-x:x>b?x-b:0;
+ const byChart=new Map<string,JetCell[]>();for(const c of cells){const l=byChart.get(c.chart)??[];l.push(c);byChart.set(c.chart,l);}
+ const res:{chart:string;evidence_id:string;elevation_band:string;air_band:string;settings:string;note?:string}[]=[];
+ for(const [chart,list] of byChart){
+  const top=Math.max(...list.map(c=>c.ft[1])),coldest=Math.min(...list.map(c=>c.f[0])),hottest=Math.max(...list.map(c=>c.f[1]));
+  const bandDist=Math.min(...list.map(c=>near(elevationFt,c.ft)));
+  const inBand=list.filter(c=>near(elevationFt,c.ft)===bandDist);
+  const tDist=Math.min(...inBand.map(c=>near(tempF,c.f)));
+  const cell=inBand.find(c=>near(tempF,c.f)===tDist);if(!cell)continue;
+  const notes:string[]=[];
+  if(elevationFt>top+50)notes.push(`the chart stops at ${top.toLocaleString('en-US')} ft; this is above it`);
+  if(tempF<coldest-2||tempF>hottest+2)notes.push('the air is outside the chart\'s temperature range');
+  if(tDist>2)notes.push('the maker prints no setting for exactly this air in that band; the nearest printed column is shown');
+  res.push({chart,evidence_id:cell.id,elevation_band:cell.band,air_band:cell.air,settings:cell.settings,...(notes.length?{note:notes.join('; ')}:{})});
+ }
+ return res;
+}
 
 function chainFromStatements(statements:string[]):string|undefined{
  for(const s of statements){if(!/chain/i.test(s))continue;const m=s.match(/\b(420|428|520|525|530)\b/);if(m)return m[1];}
@@ -80,6 +111,12 @@ export function engineContext(text:string,env:EngineEnv):Record<string,unknown>|
    fuel_system:fuelSystem(env.statements)==='unknown'?'not in this bike\'s published values; if unsure, ask whether it has a carburetor or fuel injection':fuelSystem(env.statements),
    days:temps.map(t=>airDensity(elevation,t,said.humidity??null)),
    versus_sea_level_60F:temps.map(t=>({temp_f:t,...pick(airChange({elevationFt:0,tempF:60},{elevationFt:elevation,tempF:t,humidityPct:said.humidity??null}))}))};
+  const cells=jettingCells(env.jetting??[]);
+  if(cells.length){
+   const t0=temps[0];a.published_jetting=jettingFor(cells,elevation,t0);
+   if(temps.length>1)a.published_jetting_hot=jettingFor(cells,elevation,temps[1]);
+   a.fuel_system='carburetor';
+  }
   out.air=a;
  }else if(AIR_ABOUT.test(text)&&elevation==null&&/\b(altitude|elevation|jet|carb|density|mountain)/i.test(text))out.air={missing:'No elevation for this question: ask where they ride (track or town) or the elevation in feet before sizing a jetting change.'};
  // Engine geometry and two-stroke ports
