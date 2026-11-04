@@ -71,7 +71,7 @@ function compression(statements:string[]):number|undefined{
 
 /** Elevation, temperature and humidity the rider wrote ("we're at 6,000 ft", "95 degrees", "80% humidity"). */
 export function airFromText(text:string){
- const e=text.match(/\b(\d{1,2},?\d{3}|\d{3,4})\s*(?:ft|feet|foot|')\b(?:\s*(?:up|elevation|altitude|above sea level))?/i);
+ const e=text.match(/\b(\d{1,2},\d{3}|\d{1,5})\s*(?:ft|feet|foot)\b/i)??text.match(/\b(\d{1,2},?\d{3}|\d{3,4})\s*'(?!\w)/)??(/\bsea[ -]?level\b/i.test(text)?['','0']:null);
  const t=text.match(/\b(\d{2,3})\s*(?:°\s*f?|degrees?(?:\s*f(?:ahrenheit)?)?|deg\b)/i);
  const h=text.match(/\b(\d{1,3})\s*%\s*(?:humidity|humid|rh)\b/i);
  const elevationFt=e?Number(e[1].replace(',','')):undefined,tempF=t?Number(t[1]):undefined,humidity=h?Number(h[1]):undefined;

@@ -87,3 +87,16 @@ test('rider jetting: the chart change between home air and today is applied to t
  assert.equal(riderJetting(cells,{},6000,70),null);
  assert.equal(turns('1-3/4 turns out'),1.75);assert.equal(turns('2'),2);
 });
+test('chart reader takes Honda band charts and Kawasaki point tables',async()=>{
+ const {jettingCells,jettingFor,riderJetting}=await import('../shared/engine-physics-context.ts');
+ const h=jettingCells([{id:'h',statement:'Carburetor tuning (optional ama-compliant muffler) / 2,300 to 3,050 m (7,500 to 10,000 ft) / 4 to 16 °C (39 to 60 °F): pilot screw 1-1/2 turns out; slow jet 38; jet needle NMRT; needle clip position 3rd from top; main jet 130. Applies to the US standard model named.'}]);
+ assert.equal(h.length,1);assert.equal(h[0].chart,'optional ama-compliant muffler');assert.deepEqual(h[0].ft,[7500,10000]);
+ const k=jettingCells([
+  {id:'k1',statement:'Carburetor tuning / at 1,000 m (3,200 ft) / at 20 °C (68 °F): correction factor 0.97; air screw 2 turns out; slow jet 38; needle clip position 3rd from top; main jet 138. Applies to the US model named.'},
+  {id:'k0',statement:'Carburetor tuning / at 0 m (0 ft) / at 30 °C (86 °F): correction factor 0.98; air screw 2 turns out; slow jet 38; needle clip position 3rd from top; main jet 138. Applies.'},
+  {id:'k2',statement:'Carburetor tuning / at 0 m (0 ft) / at 20 °C (68 °F): correction factor 1.00; air screw 1 1/2 turns out; slow jet 38; needle clip position 3rd from top; main jet 140. Applies.'}]);
+ assert.equal(k.length,3);assert.deepEqual(k[0].ft,[3200,3200]);
+ const r=jettingFor(k,3000,70);assert.equal(r[0].evidence_id,'k1');assert.match(r[0].note??'',/nearest printed/);
+ const rel=riderJetting(k,{main_jet:'150',air_screw:'1 1/2',jetted_for:'Florida, 50 ft, 70 degrees'},3200,68) as {suggested_start:Record<string,string>};
+ assert.match(rel.suggested_start.main_jet,/about #148/,'150 × 138/140');assert.match(rel.suggested_start.air_screw,/about 2 turns/);
+});
