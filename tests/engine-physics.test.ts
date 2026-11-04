@@ -72,3 +72,18 @@ test('published jetting: picks the maker\'s chart cell for the elevation and air
  const a=engineContext('how should I jet it for this weekend?',env) as {air:{published_jetting:{evidence_id:string}[];fuel_system:string}};
  assert.equal(a.air.fuel_system,'carburetor');assert.deepEqual(a.air.published_jetting.map(x=>x.evidence_id),['a','c']);
 });
+test('rider jetting: the chart change between home air and today is applied to the rider\'s own jets',async()=>{
+ const {jettingCells,riderJetting,turns}=await import('../shared/engine-physics-context.ts');
+ const cells=jettingCells([
+  {id:'home',statement:'Carburetor tuning / 0 to 300 m (0 to 984 ft) / 25 to 36 °C (77 to 97 °F): idle air screw 2 turns open; idling jet 45; jet needle NRK C; needle clip position 3 from top; main jet 142. Applies.'},
+  {id:'mtn',statement:'Carburetor tuning / 1,501 to 2,300 m (4,925 to 7,546 ft) / 16 to 24 °C (61 to 75 °F): idle air screw 1.5 turns open; idling jet 42; jet needle NRK C; needle clip position 3 from top; main jet 138. Applies.'}]);
+ const r=riderJetting(cells,{main_jet:'#148',pilot_jet:'45',needle_clip:'NRKC clip 4',air_screw:'2 1/4 turns',jetted_for:'home in Florida, about 100 ft, 90 degrees'},6000,70) as {suggested_start:Record<string,string>;chart_for_today:{evidence_id:string}};
+ assert.match(r.suggested_start.main_jet,/about #144/,'148 × 138/142');
+ assert.match(r.suggested_start.pilot_jet,/about #42/);
+ assert.match(r.suggested_start.air_screw,/about 1.75 turns/);
+ assert.match(r.suggested_start.needle_clip,/stay at clip 4/);
+ assert.equal(r.chart_for_today.evidence_id,'mtn');
+ const ask=riderJetting(cells,{main_jet:'148'},6000,70) as {missing:string};assert.match(ask.missing,/where and in what weather/);
+ assert.equal(riderJetting(cells,{},6000,70),null);
+ assert.equal(turns('1-3/4 turns out'),1.75);assert.equal(turns('2'),2);
+});

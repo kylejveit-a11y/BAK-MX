@@ -116,6 +116,8 @@ export function engineContext(text:string,env:EngineEnv):Record<string,unknown>|
    const t0=temps[0];a.published_jetting=jettingFor(cells,elevation,t0);
    if(temps.length>1)a.published_jetting_hot=jettingFor(cells,elevation,temps[1]);
    a.fuel_system='carburetor';
+   const rel=riderJetting(cells,cfg,elevation,t0);
+   if(rel)a.from_rider_jetting=rel;
   }
   out.air=a;
  }else if(AIR_ABOUT.test(text)&&elevation==null&&/\b(altitude|elevation|jet|carb|density|mountain)/i.test(text))out.air={missing:'No elevation for this question: ask where they ride (track or town) or the elevation in feet before sizing a jetting change.'};
@@ -135,5 +137,40 @@ export function engineContext(text:string,env:EngineEnv):Record<string,unknown>|
   out.engine=e;
  }
  return Object.keys(out).length?out:null;
+}
+/** Turns written the way riders write them: "2", "1.5", "1 1/2", "1-3/4", "2 1/4 turns out". */
+export function turns(v:unknown):number|undefined{
+ const t=String(v??'').trim();const m=t.match(/(\d+(?:\.\d+)?)(?:[\s-]+(\d)\/(\d))?/);if(!m)return undefined;
+ const x=Number(m[1])+(m[2]?Number(m[2])/Number(m[3]):0);return Number.isFinite(x)&&x>=0&&x<10?x:undefined;
+}
+const jetNo=(v:unknown,label:RegExp)=>{const m=String(v??'').match(label);return m?Number(m[1]):undefined;};
+const cellNums=(s:string)=>({mj:jetNo(s,/main jet #?(\d+(?:\.\d+)?)/i),ij:jetNo(s,/(?:idling|idle|pilot|slow) jet #?(\d+(?:\.\d+)?)/i),clip:jetNo(s,/clip position (\d)/i),aso:turns((s.match(/screw ([\d.\/ -]+?) turns?/i)??[])[1])});
+/**
+ * The rider's own jets moved by the same steps the maker's chart takes between where the bike runs right now and the day's
+ * air. A rider who needed a bigger main jet at home keeps that difference: the chart's change is applied to their jets, not
+ * the chart's numbers. Main and pilot jets scale by the chart's ratio (the way makers' correction factors work); clip
+ * position and air-screw turns move by the chart's difference.
+ */
+export function riderJetting(cells:JetCell[],cfg:Record<string,unknown>,elevationFt:number,tempF:number){
+ const mine={mj:jetNo(cfg.main_jet,/#?\s*(\d+(?:\.\d+)?)/),ij:jetNo(cfg.pilot_jet,/#?\s*(\d+(?:\.\d+)?)/),clip:jetNo(cfg.needle_clip,/(?:clip|position|groove)\D{0,12}(\d)/i),aso:turns(cfg.air_screw)};
+ if(mine.mj==null&&mine.ij==null)return null;
+ const ref=airFromText(String(cfg.jetted_for??''));
+ const now={main_jet:cfg.main_jet??null,pilot_jet:cfg.pilot_jet??null,needle_clip:cfg.needle_clip??null,air_screw:cfg.air_screw??null,jetted_for:cfg.jetted_for??null};
+ if(ref.elevationFt==null||ref.tempF==null)return {rider_now:now,missing:'To carry the rider\'s own jetting to today\'s air, ask where and in what weather it runs right now (elevation or town, and about how hot). Then the maker\'s chart change can be applied to their jets.'};
+ const charts=[...new Set(cells.map(c=>c.chart))].sort((a,b)=>(a==='standard'||a==='standard mode'?-1:0)-(b==='standard'||b==='standard mode'?-1:0));
+ const chart=charts[0],list=cells.filter(c=>c.chart===chart);
+ const from=jettingFor(list,ref.elevationFt,ref.tempF)[0],to=jettingFor(list,elevationFt,tempF)[0];
+ if(!from||!to)return null;
+ const a=cellNums(from.settings),b=cellNums(to.settings),out:Record<string,string>={};
+ if(mine.mj!=null&&a.mj&&b.mj)out.main_jet=`about #${Math.round(mine.mj*b.mj/a.mj)} (chart goes #${a.mj} → #${b.mj}; yours is #${mine.mj})`;
+ if(mine.ij!=null&&a.ij&&b.ij)out.pilot_jet=`about #${Math.round(mine.ij*b.ij/a.ij*10)/10} (chart goes #${a.ij} → #${b.ij}; yours is #${mine.ij})`;
+ if(mine.clip!=null&&a.clip!=null&&b.clip!=null)out.needle_clip=b.clip===a.clip?`stay at clip ${mine.clip}`:`clip ${Math.min(5,Math.max(1,mine.clip+(b.clip-a.clip)))} (chart moves ${b.clip>a.clip?'down':'up'} ${Math.abs(b.clip-a.clip)})`;
+ if(mine.aso!=null&&a.aso!=null&&b.aso!=null)out.air_screw=b.aso===a.aso?`stay at ${mine.aso} turns`:`about ${Math.round((mine.aso+(b.aso-a.aso))*4)/4} turns (chart moves ${b.aso>a.aso?'out':'in'} ${Math.abs(b.aso-a.aso)})`;
+ if(!Object.keys(out).length)return null;
+ return {chart,rider_now:now,chart_where_it_runs_right_now:{evidence_id:from.evidence_id,elevation_band:from.elevation_band,air_band:from.air_band,settings:from.settings},
+  chart_for_today:{evidence_id:to.evidence_id,elevation_band:to.elevation_band,air_band:to.air_band,settings:to.settings},
+  suggested_start:out,
+  method:'The maker\'s chart change between the two airs applied to the rider\'s own jets (jets by ratio, clip and screw by difference). Use the nearest jet size the rider has; confirm by plug and feel.',
+  ...(from.evidence_id===to.evidence_id?{note:'Both airs fall in the same chart box: no change needed from the air alone.'}:{})};
 }
 function pick(c:ReturnType<typeof airChange>){return {power_change_pct:c.power_change_pct,carb_mixture_change_pct:c.carb_mixture_change_pct,direction:c.direction};}

@@ -32,8 +32,9 @@ async function engineFor(db:SupabaseClient,bike:Bike,texts:string[],env:{tracks?
   const ctx=engineContext(text,{model:bike.model,configuration:(bike.configuration??{}) as Record<string,unknown>,statements:claims.map(c=>c.statement),
    track:track&&track.elevation_ft!=null?{name:track.name,elevationFt:track.elevation_ft}:null,forecastHighF:env.forecastHighF??null,raceMode:env.raceMode===true,jetting:jet.map(c=>({id:c.id,statement:c.statement}))});
   // The chart rows the numbers came from go to the answer as published evidence (see app.ts).
-  const air=ctx?.air as {published_jetting?:{evidence_id:string}[];published_jetting_hot?:{evidence_id:string}[]}|undefined;
-  const used=new Set([...(air?.published_jetting??[]),...(air?.published_jetting_hot??[])].map(x=>x.evidence_id));
+  const air=ctx?.air as {published_jetting?:{evidence_id:string}[];published_jetting_hot?:{evidence_id:string}[];from_rider_jetting?:{chart_where_it_runs_right_now?:{evidence_id:string};chart_for_today?:{evidence_id:string}}}|undefined;
+  const rel=air?.from_rider_jetting;
+  const used=new Set([...(air?.published_jetting??[]),...(air?.published_jetting_hot??[]),...(rel?.chart_where_it_runs_right_now?[rel.chart_where_it_runs_right_now]:[]),...(rel?.chart_for_today?[rel.chart_for_today]:[])].map(x=>x.evidence_id));
   if(ctx&&used.size)Object.defineProperty(ctx,'evidence',{value:jet.filter(c=>used.has(c.id)),enumerable:false});
   return ctx;
  }catch{return null;}

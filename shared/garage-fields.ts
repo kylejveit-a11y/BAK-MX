@@ -40,7 +40,12 @@ export const garageFieldGroups:Record<string,GarageField[]>={
   {key:'front_sprocket',label:'Front sprocket',numeric:true,placeholder:'13'},
   {key:'rear_sprocket',label:'Rear sprocket',numeric:true,placeholder:'50'},
   {key:'tire_pressures',label:'Tire pressure',placeholder:'13 / 13 psi'},
-  {key:'active_map',label:'Map you run',placeholder:'Map 2, TC on'}],
+  {key:'active_map',label:'Map you run',placeholder:'Map 2, TC on'},
+  {key:'main_jet',label:'Main jet',placeholder:'#148',hint:'Carburetor bikes: what is in it now',more:true},
+  {key:'pilot_jet',label:'Pilot / idle jet',placeholder:'#45',more:true},
+  {key:'needle_clip',label:'Needle and clip',placeholder:'NRKC, clip 3 from top',more:true},
+  {key:'air_screw',label:'Air / pilot screw',placeholder:'2 turns out',more:true},
+  {key:'jetted_for',label:'Jetted for',placeholder:'Home track, about 100 ft, 85 °F',hint:'Where and in what weather it runs right with these jets',more:true}],
 };
 /** Rider measurements are kept in US units. Builds saved before that change stored kilograms and centimetres; convert them once, here. */
 export function usConfiguration(configuration:Record<string,unknown>|null|undefined):Record<string,unknown>{
