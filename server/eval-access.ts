@@ -9,11 +9,13 @@ import {bikeKnowledge,comparisonKnowledge} from './knowledge.ts';
 import {trackContext} from './tracks.ts';
 import {raceForecast,raceTrackAt} from './weather.ts';
 import {generateAnswer,planSpecLookups,raceLookups,PROMPT_VERSION} from './engineering.ts';
+import {physicsFor} from './physics-context.ts';
 /** Test access to Ask BAK for automated evaluation (POST /api/eval/ask), approved by Kyle 2026-10-15. Gated by a bearer
  *  token whose SHA-256 is in eval_access_tokens (expiring, revocable, capped per day). The bike, prior turns and ride results
  *  come in the request, so a run never reads or writes any rider's account, bikes, conversations or AI allowance. Each run is
  *  logged in eval_runs. Any failure to authenticate answers 404 so the route does not advertise itself. */
-const turn=z.object({role:z.enum(['user','assistant']),content:z.string().max(8000)});
+// An assistant turn may carry its full earlier reply, as the live conversation does (messages.response).
+const turn=z.object({role:z.enum(['user','assistant']),content:z.string().max(8000),response:z.record(z.string(),z.unknown()).optional()});
 const body=z.object({
  bike:z.object({manufacturer:z.string().min(1).max(40),model:z.string().min(1).max(60),model_year:z.number().int().min(1990).max(2030),
   variant:z.string().max(40).default('standard'),region:z.string().max(10).default('US'),engine_hours:z.number().nullable().default(null),
@@ -43,7 +45,7 @@ export async function handleEval(req:Request):Promise<Response>{
  const data=body.parse(await readJson(req,4_000_000)),now=new Date().toISOString();
  if(data.media?.kind==='clip'&&data.media.frames.length!==data.images.length)throw new HttpError(400,'Send one frame time per image.');
  const bike:Bike|null=data.bike?{id:ID+'01',user_id:ID+'02',nickname:'Test bike',created_at:now,updated_at:now,...data.bike} as unknown as Bike:null;
- const history:Message[]=data.history.map((t,i)=>({id:ID+String(10+i),conversation_id:ID+'03',user_id:ID+'02',role:t.role,content:t.content,response:null,created_at:new Date(Date.now()-(data.history.length-i)*1000).toISOString()}));
+ const history:Message[]=data.history.map((t,i)=>({id:ID+String(10+i),conversation_id:ID+'03',user_id:ID+'02',role:t.role,content:t.content,response:(t.response??null) as never,created_at:new Date(Date.now()-(data.history.length-i)*1000).toISOString()}));
  const t0=Date.now(),label=bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:'no bike';
  const log=(ok:boolean,error?:string)=>admin.from('eval_runs').insert({token_id:tok.id,bike:label,message:data.message.slice(0,500),prompt_version:PROMPT_VERSION,ms:Date.now()-t0,ok,error:error?.slice(0,300)??null}).then(()=>{},()=>{});
  try{
@@ -52,7 +54,11 @@ export async function handleEval(req:Request):Promise<Response>{
   const knowledge=bike?[...await bikeKnowledge(admin,bike,data.message,lookups),...await comparisonKnowledge(admin,bike,data.message)]:[];
   const tracks=data.race?.track?await trackContext(admin,ID+'02',[data.race.track,data.message]):[];
   const race=data.race?{...data.race,...(data.race.date&&data.race.track?{forecast:await raceForecast(...raceTrackAt(tracks,data.race.track),data.race.date,new Date().toISOString().slice(0,10))}:{})}:null;
-  const {response}=await generateAnswer(bike,history,claims,data.message,lookups,()=>{},data.setup_history as never,knowledge,data.guided??null,data.voice===true,[],data.images,tracks,data.media??null,null,data.preferences??null,race);
+  // Same engineering numbers as the live route (chassis, gearing, air and jetting), so tests cover them too.
+  const physics=bike?await physicsFor(admin,bike,[data.message,...history.filter(m=>m.role==='user').slice(-2).map(m=>m.content??'')],{tracks,raceTrack:data.race?.track??null,forecastHighF:race?.forecast&&race.forecast.available?race.forecast.high_f:null,raceMode:!!data.race}):null;
+  const physicsEvidence=(physics as {evidence?:typeof claims}|null)?.evidence;
+  if(physicsEvidence?.length)for(const c of physicsEvidence)if(!claims.some(x=>x.id===c.id))claims.push(c);
+  const {response}=await generateAnswer(bike,history,claims,data.message,lookups,()=>{},data.setup_history as never,knowledge,data.guided??null,data.voice===true,[],data.images,tracks,data.media??null,null,data.preferences??null,race,physics);
   await log(true);
   return new Response(JSON.stringify({prompt_version:PROMPT_VERSION,model:process.env.OPENAI_MODEL,ms:Date.now()-t0,published_claims:claims.length,lookups,response}),{headers:{'content-type':'application/json','cache-control':'no-store'}});
  }catch(e){await log(false,String((e as Error)?.message??e));throw e;}
