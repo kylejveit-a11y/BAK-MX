@@ -1,0 +1,1419 @@
+[
+ {
+  "id": "q001",
+  "message_sent": "23 kx450 any tips to help cornering? The bike feels long and likes to turn super wide or unstable. ... If I carry speed and there's a rut the bike just plops out of the rut. And won't plant.",
+  "bike": {
+   "manufacturer": "Kawasaki",
+   "model": "KX450",
+   "model_year": 2023
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Start with chassis balance and a smoother rut entry—not a big fork-height change. We need to distinguish the front climbing out from the rear hopping out before choosing a clicker direction.",
+   "answer": "Don’t chase this with a big fork-height change yet—balance and how the bike unloads in the rut matter more. Several testers found this generation KX450 can feel long and vague mid-corner, although it normally lays into ruts willingly.\n\n**Check the baseline first:** measure rider sag in full gear, then free sag with you off and the bike on its wheels. **105 mm rider sag is a tester-used starting point**, not Kawasaki’s published target; an exact factory sag target isn’t confirmed here. Free sag helps establish whether the shock spring suits you before chasing clickers.\n\nFor reference, Kawasaki’s stock settings are fork compression **14 out**, fork rebound **12 out**, shock low-speed compression **18 out**, high-speed compression **1¼ turns out**, and rebound **12 out**—counted from lightly seated. These apply to stock suspension, not a revalve.\n\n**Next ride:** finish braking before the rut, sit forward smoothly, look through the exit, and hold steady throttle with pressure through your outside peg. Rear brake while leaned over can make the rear hop out. Practice six controlled passes through one shallow rut before adding speed.\n\nIs the **front climbing over the rut wall or the rear hopping out**, and does it happen before or after you open the throttle?",
+   "next_step": {
+    "action": "Measure rider sag in full gear and free sag before changing clickers.",
+    "purpose": "Establish rear ride height and check spring suitability before altering chassis balance.",
+    "stop_conditions": [
+     "If steering or wheel play, binding, or suspension leakage is found, fix it before testing settings."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [
+   "Front fork / Compression damping standard setting: 14 clicks. counterclockwise from the fully seated position (adjuster turned fully clockwise)",
+   "Front fork / Rebound damping standard setting: 12 clicks. counterclockwise from the fully seated position (adjuster turned fully clockwise)",
+   "Rear shock / Low-speed compression damping standard setting: 18 clicks. counterclockwise from the fully seated position (adjuster turned fully clockwise)",
+   "Rear shock / High-speed compression damping standard setting: 1 1/4 turns out. counterclockwise from the fully seated position (adjuster turned fully clockwise)",
+   "Rear shock / Rebound damping standard setting: 12 clicks. counterclockwise from the fully seated position (adjuster turned fully clockwise)"
+  ],
+  "reply_Y": {
+   "summary": "Start with chassis balance and how the front leaves the rut—not a big fork-height change. This generation can feel long and vague, but a diving fork and a front that springs out need different fixes.",
+   "answer": "Your ’23 can corner tighter, but **don’t raise the forks to chase this yet**—that can make the instability worse. Several testers found this generation long and vague mid-corner; testers consistently report a soft, divey stock fork.\n\nFirst establish your baseline. Kawasaki’s stock settings—not necessarily where yours are now—are:\n\n| Adjuster | Stock position out |\n|---|---:|\n| Fork compression | 14 clicks |\n| Fork rebound | 12 clicks |\n| Shock low-speed compression | 18 clicks |\n| Shock high-speed compression | 1¼ turns |\n| Shock rebound | 12 clicks |\n\nCount from lightly seated; don’t force the stops. Stock springs are **fork spring 5.0 N/mm** and **shock spring 54 N/mm**. Check rider sag in full gear, then static sag before choosing springs or chasing clickers. Exact factory sag targets aren’t confirmed for this bike; **105 mm rider sag** is a tester-used starting point, not Kawasaki’s specification.\n\nThe tell matters: a front that dives and knifes needs more support; one that springs upward and climbs out as you accelerate may need slower fork rebound. Softening everything can make the first case worse.\n\nFor your next practice, sit forward gently, look through the exit, press the outside peg and keep steady throttle. Do six controlled passes through one shallow rut, finishing rear braking before entry.\n\n**Does the front climb up and out as you open the throttle, or dive/tuck before it escapes?**",
+   "next_step": {
+    "action": "Measure rider sag in full gear and static sag before changing adjusters.",
+    "purpose": "Establish rear ride height and check spring suitability before tuning cornering balance.",
+    "stop_conditions": [
+     "Stop riding and inspect first if steering binds, components are loose or suspension leaks."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": [
+   "Front fork / Compression damping standard setting: 14 clicks. counterclockwise from the fully seated position (adjuster turned fully clockwise)",
+   "Front fork / Rebound damping standard setting: 12 clicks. counterclockwise from the fully seated position (adjuster turned fully clockwise)",
+   "Rear shock / Low-speed compression damping standard setting: 18 clicks. counterclockwise from the fully seated position (adjuster turned fully clockwise)",
+   "Rear shock / High-speed compression damping standard setting: 1 1/4 turns out. counterclockwise from the fully seated position (adjuster turned fully clockwise)",
+   "Rear shock / Rebound damping standard setting: 12 clicks. counterclockwise from the fully seated position (adjuster turned fully clockwise)",
+   "Front fork / Spring rate (standard): 5.0 N/mm (0.51 kgf/mm).",
+   "Rear shock / Spring rate (standard): K = 54 N/mm (K = 5.5 kgf/mm)."
+  ]
+ },
+ {
+  "id": "q002",
+  "message_sent": "I'm currently at 6mm on the fork height how much should I go?",
+  "bike": {
+   "manufacturer": "Kawasaki",
+   "model": "KX450",
+   "model_year": 2023
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Move fork height in 1–2 mm steps, but choose the direction based on whether you want quicker turning or more stability.",
+   "answer": "From your **6 mm**, use **1–2 mm steps**: more fork tube showing above the clamps sharpens turning; less showing adds stability. That’s general tuning practice, not a reason to move it either way yet.\n\nKawasaki’s standard is **0 mm below the top surface of the fork top plug**—check that measurement reference before comparing it with your 6 mm.\n\nWhat are you trying to improve: getting it to turn tighter, or calming a nervous front end at speed?",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_X": [
+   "Front fork / Standard fork height: 0 mm (0 in.). below the surface of the top plug"
+  ],
+  "reply_Y": {
+   "summary": "For a more neutral, stable starting point, reduce fork projection from 6 mm to 4 mm, then retest before moving farther.",
+   "answer": "For a more neutral starting point, go **from 6 mm to 4 mm showing**—slide both fork legs down 2 mm in the clamps. That raises the front slightly for more stability, but makes turn-in a little slower.\n\nKawasaki’s stock fork height is **0 mm below the top surface of the fork top plug**. Make sure you’re using that same reference; don’t jump straight back to stock unless the handling calls for it. Keep both legs equal and tighten the clamp bolts to Kawasaki’s specified torque before riding.\n\nAre you trying to calm twitchiness, or get it to turn tighter?\n\nYou can save your current 6 mm setting with the button below.",
+   "next_step": {
+    "action": "For a neutral baseline, try 4 mm projection and compare over the same corners and rough straight for a few laps.",
+    "purpose": "Judge whether raising the front improves balance without sacrificing corner grip.",
+    "stop_conditions": [
+     "Do not ride until both legs are equal and clamp bolts are correctly torqued.",
+     "Stop if handling becomes unstable."
+    ]
+   },
+   "setup_changes": [
+    {
+     "setting": "Fork height in the clamps",
+     "change": "Reduce projection from 6 mm to 4 mm, moving both legs down equally.",
+     "expect": "A calmer front end and more stability, with slightly slower turn-in.",
+     "go_back_if": "The front pushes wider or becomes harder to hold in a rut."
+    }
+   ]
+  },
+  "cited_facts_Y": [
+   "Front fork / Standard fork height: 0 mm (0 in.). below the surface of the top plug"
+  ]
+ },
+ {
+  "id": "q003",
+  "message_sent": "09 kx250f. ... Felt like the front end was kicking back at me very hard. Orgininally comp and rebound were both 12 out. I changed them to 14 out on comp and 10 out on rebound. Did I do a good thing or a bad thing?",
+  "bike": {
+   "manufacturer": "Kawasaki",
+   "model": "KX250",
+   "model_year": 2025
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "You softened compression but slowed rebound—one may help while the other makes it worse. Whether the kick happens on the first bump or builds through several bumps decides.",
+   "answer": "**Not automatically good or bad—you changed two things in different directions.**\n\n- **Compression: 12 → 14 clicks out** makes the fork easier to compress. That can help if it was too stiff and deflecting off bumps, but hurt if it was already diving too deep.\n- **Rebound: 12 → 10 clicks out** slows how fast the fork extends. That can calm a fork that springs back at you after one hit. But through repeated bumps, it can stop the fork recovering, making it ride lower and hit your hands harder.\n\nChanging both together makes the result harder to read. Don’t keep moving both; test one adjuster at a time over the same section. Check for fork leaks, sticking or steering play before tuning around a hard kick.\n\nYou said **2009 KX250F**, but the selected build is a **2025 KX250**; its factory settings don’t apply, and the exact 2009 baseline isn’t confirmed here.\n\n**Does it kick back on the first bump, or get harder through a series of bumps?**",
+   "next_step": {
+    "action": "With the engine off and bike securely supported, check for fork leakage, sticking and steering play before further tuning.",
+    "purpose": "Exclude mechanical problems that clicker changes cannot fix.",
+    "stop_conditions": [
+     "Loose or damaged steering components.",
+     "Fork binding or oil reaching the brake or tire."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "You softened compression but slowed rebound—those changes can help a fork that springs back, but slower rebound can worsen harshness through repeated bumps.",
+   "answer": "Not necessarily bad—you made **compression softer and rebound slower**, which do two different jobs.\n\n- **Compression: 12 to 14 clicks out** lets the fork compress more easily. That can help if it was too stiff and deflecting off bumps.\n- **Rebound: 12 to 10 clicks out** slows how quickly it extends afterward. That can help if the front was springing back at your hands after a hit. But through repeated bumps, it can leave the fork too low and make each hit harsher.\n\nYou changed both together, so you can't tell which helped. For a clean comparison, keep compression at **14 out** and return rebound to **12 out**, then compare over the same section at a controlled pace. Count from lightly seated—never force the adjusters.\n\nYour selected build is a 2025 KX250, but you said **2009 KX250F**; I'm answering for the 2009, not applying the newer bike's settings.\n\nWas the kick immediately after one hit, or did it get harder through a series of bumps?",
+   "next_step": {
+    "action": "Return fork rebound from 10 to 12 clicks out and compare on the same familiar section, keeping compression at 14 out.",
+    "purpose": "Separate compression improvement from rebound-induced harshness.",
+    "stop_conditions": [
+     "Stop if the front becomes unstable or the impacts compromise control.",
+     "Fix any leakage, looseness or binding before further tuning."
+    ]
+   },
+   "setup_changes": [
+    {
+     "setting": "Fork rebound",
+     "change": "From 10 to 12 clicks out; leave compression at 14 clicks out.",
+     "expect": "A faster return between bumps; isolates whether slowing rebound helped or hurt.",
+     "go_back_if": "The fork springs back harder after individual hits or feels less controlled."
+    }
+   ]
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q010",
+  "message_sent": "I got a 2021 RMZ250. Installed Race Tech lighter springs front and rear. ... it is very rigid compared to my 18 CRF 450. Steering was stiff also. Anyone got ideas on how to loosen it up, get more flex, and handlebar shock?",
+  "bike": {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z250",
+   "model_year": 2021
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Rule out steering-head drag and fork binding before chasing chassis flex. Lighter springs won’t cure friction, and they can make the bike ride harshly if it sits too deep in the travel.",
+   "answer": "**Check for steering drag and fork binding first—not more chassis flex.** Testers consistently report a harsh, stiff-feeling front end on this RM-Z250 generation, but your lighter Race Tech fork and shock springs mean stock spring advice no longer applies.\n\n1. With the engine off and the bike securely supported, lift the front wheel and slowly sweep the bars side to side. A tight spot, notch, or cable pulling tight needs fixing before tuning. Don’t loosen the steering-head bearings just to make it turn easier.\n2. If the steering moves freely, check fork action and front-wheel alignment—especially if the wheel came out during the spring work. Bound fork legs send sharp hits straight into the bars; lighter springs won’t fix that.\n3. Once movement is free, measure rider sag and free sag with your gear on. Springs that are now too soft can let the fork ride deep and feel harsh. Get Race Tech’s baseline for the fitted rates and your weight before chasing clickers.\n\nDon’t drill mounts or loosen chassis fasteners for flex. If steering binds or has play, **don’t ride until corrected**.\n\nIs the steering stiff with the front wheel lifted, or only while riding?",
+   "next_step": {
+    "action": "With the engine off and bike securely supported, unload the front wheel and check steering movement and visible cable routing.",
+    "purpose": "Separate mechanical steering drag from a handling or damping complaint.",
+    "stop_conditions": [
+     "Unsafe bike support.",
+     "Binding, notches, steering play, or damaged components: do not ride until corrected."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "Check the stiff steering for binding before trying to soften the suspension. Lighter springs won’t fix tight steering bearings, fork misalignment, or harsh damping.",
+   "answer": "**Check the stiff steering before chasing more frame flex.** Testers consistently report a rigid, harsh feel from this RM-Z250 generation, but steering that physically binds isn’t something to tune around.\n\nYour lighter Race Tech springs address spring stiffness—not tight steering bearings, fork binding, or the damping inside the fork. If the harshness started after the spring installation, fork alignment and assembly deserve particular attention.\n\nWith the engine off and the bike securely supported with the front wheel clear, gently sweep the bars from side to side. Look for cables pulling tight, resistance through the sweep, or a notch near straight ahead. Don’t loosen steering or clamp bolts by guesswork.\n\nIf steering is smooth, the next checks are fork alignment, installed spring rates, and rider/static sag before changing clickers. Don’t drill engine mounts or loosen chassis fasteners to create flex.\n\n**Does the steering feel stiff with the front wheel off the ground, or only while riding?**\n\nThe Race Tech springs belong under Suspension; you can save them with the buttons below.",
+   "next_step": {
+    "action": "With the engine off and bike securely supported, unload the front wheel and gently sweep the steering side to side.",
+    "purpose": "Separate physical steering restriction from a stiff handling feel.",
+    "stop_conditions": [
+     "Do not ride if steering binds, catches, or has obvious play; have it inspected.",
+     "Do not lift or test the bike on an unstable support."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q018",
+  "message_sent": "G'day crew, wondered if anyone has any feedback on settings and sag? ... Mine is a 17 model, I think 18 potentially the same? ... I am intermediate level and around 170 pounds",
+  "bike": {
+   "manufacturer": "Honda",
+   "model": "CRF450RX",
+   "model_year": 2020
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Confirm the model year before using stock settings: you said 2017, but the selected bike is a 2020 CRF450RX. Start with sag and spring suitability before adjusting clickers.",
+   "answer": "**Don’t assume the 2017 and 2018 settings are identical.** Your Garage has a 2020 CRF450RX selected; you said yours is a 2017, so I wouldn’t apply those 2020 settings to it.\n\nFor now, general setup guidance—not Honda’s confirmed 2017 specification:\n- Around **100–108 mm rider sag** is a typical full-size dirt-bike starting range, measured wearing all your riding gear.\n- Then measure free sag: how much the rear settles under the bike’s own weight, without you. Very little free sag with correct rider sag usually means the shock spring is too soft; excessive free sag suggests too stiff.\n- At around 170 lb and intermediate pace, don’t buy springs on weight alone. Whether that weight includes gear, your sag measurements and terrain matter.\n- Record the current clickers before changing anything, then test one adjuster at a time over the same section.\n\nThe exact 2017 baselines aren’t confirmed here. **Is yours definitely a 2017 CRF450RX, rather than a CRF450R?**\n\nYou can save your intermediate riding level with the button below.",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "For your stated 2017 CRF450RX, start around 105 mm rider sag as general guidance and check free sag before changing springs. The selected Garage bike is a 2020, so its factory settings should not be applied to your 2017.",
+   "answer": "For your **2017 CRF450RX**, I’d start around **105 mm rider sag** as common tuning practice—not a confirmed 2017 Honda specification. Your Garage has a 2020 selected, but you’ve said yours is a ’17, so I wouldn’t transfer those factory clickers or assume the ’18 is identical.\n\n- Measure sag in full riding gear, with your normal fuel load. General full-size off-road guidance is roughly **100–108 mm rider sag**, then check free sag with you off the bike: roughly **30–40 mm** is a common screening range, not Honda’s confirmed target for your year.\n- Correct rider sag with very little free sag suggests the shock spring is too soft; excessive free sag suggests too stiff. At **170 lb and intermediate pace**, weight alone isn’t enough to call a spring change.\n- More rider sag lowers the rear and favors stability; less sharpens turning. Test **2–3 mm at a time**. Leave clickers at a known baseline until you identify what needs improving, then move only **1–2 clicks on one adjuster**.\n\nIs your **170 lb with riding gear or without**?",
+   "next_step": {
+    "action": "Measure rider sag in full gear, then free sag without the rider.",
+    "purpose": "Establish rear balance and screen shock spring suitability before damping changes.",
+    "stop_conditions": [
+     "Resolve suspension leakage, binding or bearing play before tuning."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q019",
+  "message_sent": "If you are reading this and are around 95-100kg (~210lbs) would you mind sharing what spring you are running?",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2023
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "At 95–100 kg (209–220 lb), a firmer fork spring is worth considering, but choose the shock spring from rider sag and free sag—not weight alone.",
+   "answer": "For a **95–100 kg (209–220 lb) motocross rider**, a **fork coil spring 5.1 N/mm** is a reasonable common-practice starting point—not a Yamaha weight-chart recommendation. Pace and whether that weight includes gear matter.\n\nYamaha’s stock 2023 YZ450F rates are **fork coil spring 5.0 N/mm** and **shock coil spring 58 N/mm**. Yamaha lists optional rates but doesn’t give a rider-weight chart here.\n\nFor the shock, measure before buying: Yamaha specifies **90–100 mm rider sag** on stock suspension. With rider sag set correctly, very little free sag means the spring is too soft; adding more preload isn’t the fix. If that weight is without gear, allow roughly another 15–20 lb dressed to ride.\n\nWhat rider sag and free sag—bike upright on its wheels, rider off—are you getting with the current shock spring?",
+   "next_step": {
+    "action": "Measure rider sag and free sag with the current shock spring.",
+    "purpose": "Check spring suitability before choosing a replacement.",
+    "stop_conditions": [
+     "Resolve suspension leakage, binding or bearing play before interpreting sag."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [
+   "Front fork spring / Standard spring rate: 5.0 N/mm. Stock fork spring as delivered; optional rates are listed separately.",
+   "Rear shock spring / Standard spring rate: 58.0 N/mm. Stock shock spring as delivered; set race sag after any spring change.",
+   "Front fork spring / Optional spring rates (Yamaha part numbers): 4.5 (BR9-23141-20), 4.6 (BR9-23141-30), 4.7 (BR9-23141-40), 4.8 (BR9-23141-50), 4.9 (BR9-23141-60), 5.0 (BR9-23141-70), 5.1 (BR9-23141-80) N/mm. Yamaha optional springs; after a change, reset rebound and compression as the manual describes.",
+   "Rear suspension setting / Choosing set length / Standard figure (sunken length, rider seated): 90–100 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault. Yamaha calls this the sunken length: rear axle to rear fender mark measured with the rear wheel off the ground, minus the same measurement with the rider seated. Set it before changing damping."
+  ],
+  "reply_Y": {
+   "summary": "The 2023 YZ450F comes with fork springs rated 5.0 N/mm and a shock spring rated 58 N/mm. At 210–220 lb, confirm sag before choosing a heavier spring.",
+   "answer": "For a **210–220 lb rider**, I wouldn’t pick a spring from weight alone. On the 2023 YZ450F, Yamaha’s stock rates are **fork springs 5.0 N/mm** and **shock spring 58 N/mm**.\n\nYamaha lists fork springs up to 5.1 N/mm and a shock spring 60 N/mm, but doesn’t give a rider-weight chart here—neither is automatically the right choice for that weight.\n\nFor the shock, start with Yamaha’s **90–100 mm rider sag**, then measure free sag with the rider off and the bike on its wheels. General tuning guidance: very little free sag with correct rider sag points to a shock spring that’s too soft; adding more preload won’t fix that.\n\nAre you asking about the fork or shock, and is the 95–100 kg weight with riding gear?",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_Y": [
+   "Front fork spring / Standard spring rate: 5.0 N/mm. Stock fork spring as delivered; optional rates are listed separately.",
+   "Rear shock spring / Standard spring rate: 58.0 N/mm. Stock shock spring as delivered; set race sag after any spring change.",
+   "Front fork spring / Optional spring rates (Yamaha part numbers): 4.5 (BR9-23141-20), 4.6 (BR9-23141-30), 4.7 (BR9-23141-40), 4.8 (BR9-23141-50), 4.9 (BR9-23141-60), 5.0 (BR9-23141-70), 5.1 (BR9-23141-80) N/mm. Yamaha optional springs; after a change, reset rebound and compression as the manual describes.",
+   "Rear shock spring / Optional spring rates: 52, 54, 56, 58, 60 N/mm. Yamaha optional springs; the spring colour mark identifies the rate.",
+   "Rear suspension setting / Choosing set length / Standard figure (sunken length, rider seated): 90–100 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault. Yamaha calls this the sunken length: rear axle to rear fender mark measured with the rear wheel off the ground, minus the same measurement with the rider seated. Set it before changing damping."
+  ]
+ },
+ {
+  "id": "q021",
+  "message_sent": "I have been struggling with front end tuck on my 2018 ktm 350sxf. ... I'm 220 without gear. The front tuck occurs before \"turn in\" mainly during braking or as I have finished breaking.",
+  "bike": {
+   "manufacturer": "KTM",
+   "model": "350 SX-F",
+   "model_year": 2025
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Tucking before turn-in points toward the fork diving or staying compressed under braking—not simply a bike that turns too sharply. Check spring support and sag before chasing clickers.",
+   "answer": "That timing points toward the **fork diving or staying down under braking**, rather than a cornering-line problem.\n\nYour Garage lists a **2025**, but you’re describing a **2018 350 SX-F**; I wouldn’t apply the newer bike’s settings. Exact 2018 baselines aren’t confirmed here.\n\nAt **220 lb without gear**, spring support deserves checking first. Measure rider sag fully geared and free sag with you off the bike; don’t choose a shock spring from rider sag alone. If yours has an air fork, its pressure supplies the fork’s spring support—not a coil spring rate.\n\nBefore tuning, check front-tire condition and cold pressure, steering-bearing play, fork leakage and sticking. Then use these general tuning directions:\n- **Dives on the first braking load:** try fork compression **2 clicks firmer**.\n- **Starts fine, then gets lower through braking bumps:** try fork rebound **2 clicks faster** instead.\n\nFor technique, set your hips back over the pegs before squeezing the brake, keep your arms loose and stay standing until braking is nearly finished. Practice five gentle straight-line stops on clear, flat ground.\n\n**Does it dive immediately, or get progressively lower through a series of braking bumps?**",
+   "next_step": {
+    "action": "After checking spring support and mechanical condition, test only the clicker branch matching the fork's behavior at reduced speed on the same braking section.",
+    "purpose": "Separate insufficient compression support from slow rebound recovery.",
+    "stop_conditions": [
+     "Stop riding if steering is loose, the fork binds or suspension oil reaches the brake or tire.",
+     "End the test if the front continues to tuck or feels unpredictable."
+    ]
+   },
+   "setup_changes": [
+    {
+     "setting": "Fork compression—only if it dives immediately",
+     "change": "Turn in 2 clicks from its current position, toward lightly seated.",
+     "expect": "Less brake dive and a front end that holds its height better.",
+     "go_back_if": "The front becomes sharper, deflects or loses grip without reducing dive."
+    },
+    {
+     "setting": "Fork rebound—alternative only if it packs through bumps",
+     "change": "Turn out 2 clicks from its current position; do not combine with the compression test.",
+     "expect": "The fork recovers between bumps instead of riding progressively lower.",
+     "go_back_if": "The front becomes springy or unsettled as the brakes release."
+    }
+   ]
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "Tucking before turn-in points toward braking support or a fork staying too deep through braking bumps. Check spring support and sag before chasing clickers; the selected 2025 build does not match your 2018.",
+   "answer": "**Tucking before you turn points toward the front losing support under braking—not simply needing more cornering grip.** At 220 lb without gear, spring support and chassis balance need checking before clickers.\n\nYour selected build is a **2025**, but you’re describing a **2018 350 SX-F**. The exact 2018 suspension settings and sag targets aren’t confirmed here, so I wouldn’t apply the newer bike’s numbers.\n\nStart by recording fork pressure cold, then rider sag in full gear and static sag without you aboard. Too little static sag with correct rider sag indicates a shock spring that’s too soft; excessive rear ride height can also overload the front.\n\nThe important distinction:\n- If the fork **dives immediately**, it may need more spring or compression support—not softer compression.\n- If it starts controlled but gets **lower through successive braking bumps**, slow rebound may be preventing recovery.\n\nMeanwhile, set your standing position before braking: hips back over the pegs, knees holding the bike, arms loose, and squeeze rather than grab. Practice five easy straight-line stops on smooth ground.\n\n**Does the fork dive on the first brake application, or get progressively lower through the braking bumps?**",
+   "next_step": {
+    "action": "Record cold fork pressure, rider sag in full gear and static sag before changing adjusters.",
+    "purpose": "Establish spring support and chassis balance before testing damping changes.",
+    "stop_conditions": [
+     "Do not continue riding if inspection reveals loose components, binding or suspension oil near a brake or tire."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q025",
+  "message_sent": "Race Tech suspension - riding rough after revalve?",
+  "bike": {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2025
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Roughness after a revalve needs a mechanical check and the tuner's baseline verified before chasing clickers. The stock settings may no longer suit the new valving.",
+   "answer": "A revalve shouldn’t simply leave the bike riding rougher—don’t assume it just needs softer clickers. Binding after reassembly, incorrect spring/preload setup, or damping that doesn’t suit your pace can feel similar but need different fixes.\n\n**First, with the engine off and the bike securely supported, inspect for leaks and check whether the suspension compresses and returns smoothly.** Sticky movement or a noticeably different resting height after pushing down versus lifting up points toward friction. Don’t loosen axle or clamp hardware without the correct tightening procedure and torque.\n\nIf movement is smooth, compare your settings with Race Tech’s baseline for this particular revalve—not Suzuki’s stock settings. Harshness on the first hit can mean excessive compression damping; getting lower and harsher through repeated bumps can mean the suspension returns too slowly. Softening compression blindly can make that worse.\n\n**Is the roughness mainly through the handlebars or the seat, and does it happen on the first bump or build through a series?**\n\nYou can record the Race Tech revalve under Suspension with the save button below.",
+   "next_step": {
+    "action": "Perform an engine-off inspection for leaks and sticky or inconsistent suspension movement.",
+    "purpose": "Rule out a mechanical problem before changing damping settings.",
+    "stop_conditions": [
+     "Oil near a tire or brake.",
+     "Loose or damaged components.",
+     "Binding or unsafe bike support."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "Roughness after a revalve is worth checking before changing damping. Rule out binding, then use Race Tech’s baseline rather than stock settings.",
+   "answer": "**Don’t keep softening it blindly—rough after a revalve can mean binding, too much damping, or suspension riding too deep.**\n\nFirst, with the engine off and bike securely supported, inspect for leaks and check that the suspension moves smoothly without sticking. If the front wheel was removed during the work, fork alignment deserves particular attention.\n\nGet Race Tech’s baseline for your actual springs, riding weight and sag. That takes priority over Suzuki’s stock settings; the exact baseline for your revalve isn’t confirmed here. If the stock BFRC shock remains fitted, its damping adjustments are measured in turns, not clicks.\n\n**Which end feels rough—front or rear—and is it harsh on the first bump, or does it build through repeated bumps?** That separates compression or friction from slow rebound that prevents recovery between hits.\n\nStop riding if anything binds, is loose, or leaks oil toward a tire or brake.\n\nYour Race Tech revalve can be saved under Suspension with the button below.",
+   "next_step": {
+    "action": "With the engine off and bike securely supported, inspect for leaks and check suspension movement for sticking.",
+    "purpose": "Exclude a mechanical problem before tuning damping.",
+    "stop_conditions": [
+     "Binding or loose components.",
+     "Oil reaching a tire or brake.",
+     "Bike cannot be supported safely."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q026",
+  "message_sent": "The bike feels like it wants to cram my spine out the top of my helmet. ... What say you?",
+  "bike": {
+   "manufacturer": "KTM",
+   "model": "350 SX-F",
+   "model_year": 2021
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Don’t automatically soften it—a bike riding too deep can hit just as hard as one that’s too stiff. Establish rear sag, then separate first-hit harshness from harshness that builds through bumps.",
+   "answer": "That sounds like a rear end transmitting the hit straight into you—but **harsh doesn’t always mean too stiff**. Too much compression can make it bounce off bumps; slow rebound can leave it lower and harder with every successive hit.\n\nStart with rear ride height: KTM specifies **105 mm (4.13 in) rider sag**, measured in full gear, and **35 mm (1.38 in) static sag**, bike on its wheels without you. Very little static sag with correct rider sag points toward a shock spring that’s too soft—not something softer clickers will cure. If it’s revalved or has aftermarket linkage, use the tuner’s baseline instead.\n\nAs general tuning guidance, once sag and mechanical condition check out:\n- Hard on the first sharp bump, with little suspension movement: try shock compression softer.\n- First bump is okay, then it gets lower and nastier: try shock rebound faster instead.\n\nCheck for suspension leaks or binding before tuning around either.\n\n**Does it hammer you on the first bump, or build through a run of bumps?**",
+   "next_step": {
+    "action": "Measure rear rider sag in full gear and static sag before changing damping.",
+    "purpose": "Separate ride-height or spring mismatch from a damping problem.",
+    "stop_conditions": [
+     "Visible suspension leakage, binding, or loose components: fix before testing."
+    ]
+   },
+   "setup_changes": [
+    {
+     "setting": "Rear sag baseline",
+     "change": "Measure rider sag and static sag; for stock suspension, establish 105 mm rider sag and check against 35 mm static sag.",
+     "expect": "A known rear ride height and an initial check that the shock spring suits you.",
+     "go_back_if": "Do not keep adding preload if correct rider sag leaves very little static sag; address spring suitability first."
+    }
+   ]
+  },
+  "cited_facts_X": [
+   "Shock absorber / Riding sag: 105 mm (4.13 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.",
+   "Shock absorber / Static sag: 35 mm (1.38 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual."
+  ],
+  "reply_Y": {
+   "summary": "Don’t automatically soften it: suspension that rides too deep can hammer you just as badly as suspension that’s too stiff. Check rear sag first, then separate those two feels before changing clickers.",
+   "answer": "That’s harshness—not something you should have to put up with. But **don’t just wind the compression softer**: a bike that barely moves needs a different fix from one that sinks deep and then hammers you.\n\nFor your stock US 2021 350 SX-F, KTM specifies **105 mm (4.13 in) rider sag** in full gear and **35 mm (1.38 in) static sag** without you aboard. Check both before chasing damping; very little static sag with correct rider sag points toward a shock spring that’s too soft.\n\nAlso look for suspension leaks or sticky movement, and check cold tire pressures—a hard tire can send those hits straight through the seat.\n\n**On the hits that hammer your spine, does the rear barely compress and bounce off them, or sink deep/use all its travel?** That tells us whether to free it up or give it more support.",
+   "next_step": {
+    "action": "Measure rear rider sag in full gear and static sag without the rider.",
+    "purpose": "Check spring support and rear ride height before changing damping.",
+    "stop_conditions": [
+     "Visible suspension leakage, binding or loose components: fix those before further testing."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": [
+   "Shock absorber / Riding sag: 105 mm (4.13 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.",
+   "Shock absorber / Static sag: 35 mm (1.38 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual."
+  ]
+ },
+ {
+  "id": "q028",
+  "message_sent": "I heard a lot of negative feedback of the 10mm lowered suspension on the Husky FC450. I'm looking for a new TC250 or 250SX, and wondering is this also a drawback on the TC250?",
+  "bike": {
+   "manufacturer": "Husqvarna",
+   "model": "TC 250",
+   "model_year": 2022
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "The 2022 TC 250 uses Husqvarna’s lowered-chassis approach, but that is not automatically a drawback. Favor the TC for easier footing and cornering confidence; favor the KTM if maximum clearance and rough-track margin matter most.",
+   "answer": "**Yes, the 2022 TC 250 shares Husky’s lowered-chassis approach—but I wouldn’t rule it out because of FC 450 feedback.** Lower ride height and soft suspension are different things: spring support and damping determine whether it dives, wallows or bottoms.\n\nFor the **2022 TC 250**, Husqvarna lists **300 mm (11.81 in) front travel, 293 mm (11.54 in) rear travel**, and a **940 mm (37.01 in) unloaded seat height**. The rear linkage and restricted shock stroke are part of the lowered design—not simply a shock with less preload.\n\nAs a general handling trade-off:\n- **TC 250:** lower stance helps footing and can make cornering and direction changes feel easier. The compromise is clearance and some suspension-travel margin.\n- **250 SX:** the taller layout is worth favoring for deep ruts, big hits and fast rough tracks, especially if seat height does not bother you.\n\nA two-stroke also loads the chassis differently from a 450 four-stroke, particularly off-throttle, so an FC 450 complaint does not transfer directly.\n\n**My pick: don’t reject the TC over this alone; choose the KTM if clearance and big-hit margin are your priorities.** Which model year are you shopping? These figures apply to 2022, not every newer generation.",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_X": [
+   "Chassis / Suspension travel / front: 300 mm (11.81 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+   "Chassis / Suspension travel / rear: 293 mm (11.54 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+   "Chassis / Seat height unloaded: 940 mm (37.01 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only."
+  ],
+  "reply_Y": {
+   "summary": "The lowered Husqvarna layout is not automatically a drawback on the TC 250. For the 2022 models, don’t assume the FC 450’s suspension differences transfer directly to the TC 250 versus KTM 250 SX.",
+   "answer": "**No—not an inherent drawback, and I wouldn’t rule out the TC 250 because of FC 450 feedback.** Lower ride height can make a bike easier to manage and settle into corners; the trade-offs are ground clearance and, where travel is reduced, less room to absorb big hits. Spring support and damping still determine whether it bottoms or feels harsh.\n\nFor the **2022 TC 250**, Husqvarna lists **300 mm (11.81 in) front travel, 293 mm (11.54 in) rear travel and a 950 mm (37.4 in) fork length**. KTM also lists a **950 mm fork length** for the 2022 250 SX, so describing this comparison simply as “the Husky fork is 10 mm shorter” isn’t supported by those specifications.\n\nThe Husky’s lowered rear layout uses coordinated linkage and shock changes—not merely a shorter shock. Also, testers reported good cornering from the lowered FC chassis, so the feedback isn’t universally negative, nor does a heavier four-stroke’s feel establish how the TC will ride.\n\n**Choose on fit, cornering feel and suspension support at your pace—not the lowering alone.** Are you shopping the 2022 models, or a newer model year?",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_Y": [
+   "Chassis / Suspension travel / rear: 293 mm (11.54 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+   "Fork / Fork length: 950 mm (37.4 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+   "Chassis / Suspension travel / front: 300 mm (11.81 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only."
+  ]
+ },
+ {
+  "id": "q032",
+  "message_sent": "2024 yz125 stock jetting 2hrs what went wrong the bike ran great?",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ125",
+   "model_year": 2024
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Two hours on stock jetting doesn’t establish what went wrong. The actual symptom and plug condition matter before changing jets.",
+   "answer": "Two hours on stock jetting doesn’t mean the jetting was wrong—especially if it ran cleanly beforehand. **Don’t change jets until we know what changed.**\n\nYamaha’s stock baseline is a **#160 main, #75 pilot and NYDF needle in clip position 2**. Testers consistently report low-speed richness and plug fouling on this generation, but that doesn’t prove yours fouled.\n\nWith the engine off and cool, inspect the spark plug: wet and sooty supports fouling, but can also mean fuel isn’t being ignited. A blistered electrode or metallic specks needs investigation before restarting. The specified plug is **NGK BR9EVX**, gap **0.6–0.7 mm (0.024–0.028 in)**.\n\n**What happened after those two hours—won’t start, bogs, suddenly stopped, or developed a noise?** If it knocked, lost coolant, or felt like the engine tightened up, don’t restart it.",
+   "next_step": {
+    "action": "With the engine off and cool, remove and inspect the spark plug.",
+    "purpose": "Look for fouling or signs of overheating before changing jetting.",
+    "stop_conditions": [
+     "Knocking, coolant loss or reported engine tightening.",
+     "Blistered electrode or metallic debris on the plug."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [
+   "Carburetor / Main jet: #160. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.",
+   "Carburetor / Pilot jet: #75. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.",
+   "Carburetor / Jet needle: NYDF-2. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.",
+   "Spark plug(s) / Spark plug gap: 0.6–0.7 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+   "Spark plug(s) / Manufacturer/model: NGK/BR9EVX. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+  ],
+  "reply_Y": {
+   "summary": "Two hours of running doesn't identify a failure or prove the stock jetting is wrong. The missing piece is what the bike actually did when it stopped running well.",
+   "answer": "**Don't change the jetting yet—running great for two hours doesn't tell us what went wrong.** A fouled plug, interrupted fuel supply and a mechanical problem need different fixes.\n\nFor reference, Yamaha's stock carb settings are **#160 main, #75 pilot, NYDF needle in clip 2 and #35 power jet**. The nominal air screw setting is **2-5/8 turns out**, but Yamaha sets it individually, so record yours before moving it. Stock float height is **6.5 mm (0.26 in)**; don't bend the float tang without checking it correctly.\n\nWith the engine off and cool, inspect the plug and note whether it's wet/sooty, dry or visibly damaged. Yamaha specifies an **NGK BR9EVX**, gap **0.6–0.7 mm (0.024–0.028 in)**. A wet plug alone doesn't prove rich jetting—it can also mean the fuel wasn't igniting.\n\nIf it knocked, suddenly lost power or felt tight, don't restart it.\n\n**What actually happened after two hours: bogging, cutting out, refusing to start, or something else?**",
+   "next_step": {
+    "action": "With the engine off and cool, inspect the spark plug and record its condition.",
+    "purpose": "Gather evidence before changing carburetor settings or replacing parts.",
+    "stop_conditions": [
+     "Do not restart after knocking, sudden power loss or engine tightening.",
+     "Stop inspection if fuel is leaking or strong fuel fumes are present."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": [
+   "Carburetor / Main jet: #160. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.",
+   "Carburetor / Air screw turns out: 2-5/8. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.",
+   "Spark plug(s) / Spark plug gap: 0.6–0.7 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+   "Carburetor / Float height: 6.5 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.",
+   "Carburetor / Pilot jet: #75. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.",
+   "Spark plug(s) / Manufacturer/model: NGK/BR9EVX. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+   "Carburetor / Jet needle: NYDF-2. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.",
+   "Carburetor / Power Jet: #35. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual."
+  ]
+ },
+ {
+  "id": "q033",
+  "message_sent": "Do you think CCL needle and 6.0 slide will work between 30-75F sea level?",
+  "bike": null,
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "A CCL needle and 6.0 slide might work, but temperature and elevation alone cannot establish whether they suit the carburetor and engine.",
+   "answer": "Possibly, but **I wouldn’t call a CCL needle and 6.0 slide safe across 30–75°F at sea level without knowing the bike and carburetor**. Needle codes and slide numbers aren’t universal across carbs.\n\nAs general jetting guidance, a setup that runs clean at 75°F will run leaner at 30°F because the colder air is denser. The slide and needle mainly affect partial throttle; the pilot and main still need to be right, so those two parts alone don’t establish a safe setup across that range. On a two-stroke, stop if it pings or detonates—don’t keep testing under load.\n\n**What bike/year and exact carburetor are these going into?** Selecting your build under the message box lets us check the published starting settings for that bike.",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "A CCL needle and 6.0 slide might work, but those markings alone cannot confirm safe jetting across 30–75°F at sea level.",
+   "answer": "**Possibly—but I wouldn’t call that combination good across 30–75°F without knowing the bike and carburetor.** Needle and slide markings aren’t universal, and the pilot, main jet and needle clip also determine whether it runs cleanly.\n\nAs general guidance, colder air needs richer jetting: a setup that’s right at 75°F can run lean at 30°F, even at the same elevation. The slide mainly affects low-throttle response; the needle controls much of the middle—not the entire throttle range.\n\nOn a two-stroke, stop if it pings or detonates rather than continuing to test.\n\n**What bike and carburetor—including bore size—is this for?** Pick your build below the message box for exact-bike published guidance.",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q034",
+  "message_sent": "how would you change that setting for 5000' and 80 f ?",
+  "bike": null,
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "If you mean fueling, 5,000 feet and 80°F generally calls for leaner carburetor settings than a cooler, lower-elevation baseline.",
+   "answer": "If you mean **carburetor fueling**, 5,000 feet and 80°F means thinner air, so you generally go leaner than a cooler, lower-elevation setup. The actual change depends on where it was jetted to run correctly—not elevation alone. On fuel injection, the ECU generally compensates; you don’t automatically need a different map.\n\nWhich setting are you referring to, and on what bike/year? Picking your build below the message box lets us use its exact published settings. If a two-stroke pings or detonates, stop riding.",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "At 5,000 ft and 80°F, carburetor jetting generally needs to be leaner than a cool, low-elevation baseline—but the setting you're referring to isn't clear.",
+   "answer": "If you mean **carburetor jetting**, 5,000 ft and 80°F generally calls for leaner jetting than a cool, low-elevation baseline because the air is thinner. The actual change depends on where it runs clean now and its current jetting; those conditions alone don't establish a jet size. On fuel injection, the ECU generally compensates within its operating range—don't automatically change maps for altitude.\n\nWhich setting are you referring to, and on what bike?",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q035",
+  "message_sent": "I have a 2022 mc250f ... it runs great when cold but after about a 20 min moto of hard riding it bogs and stalls out at idle",
+  "bike": {
+   "manufacturer": "GasGas",
+   "model": "MC 250F",
+   "model_year": 2022
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Bogging and stalling only after a hard moto is not normal. Heat-related fuel delivery or ignition trouble needs checking before changing maps or idle settings.",
+   "answer": "This sounds like a **heat-related running fault**, not something to tune around. Fuel delivery falling off when hot is one possibility; an ignition component failing with heat can feel similar. The symptoms alone do not prove the pump is bad.\n\nGasGas specifies **2,250–2,350 rpm idle**, but raising it should not be used to hide the bog. The exact fuel-pressure test value for your bike isn't confirmed here; the fuel-system testing section of GasGas's service manual provides it.\n\n**Have a shop check fuel pressure and pump electrical supply together as the engine reaches the problem temperature**, under controlled conditions. Pressure dropping with steady supply points toward a delivery restriction, pump or regulator; unstable supply points toward wiring or power delivery instead.\n\nDon't keep riding motos with it stalling unpredictably. Does it restart and idle immediately while hot, or only after cooling down?",
+   "next_step": {
+    "action": "Arrange a controlled technician fuel-pressure test with simultaneous pump-supply monitoring through the hot complaint.",
+    "purpose": "Determine whether fuel delivery or electrical supply changes when the bogging begins.",
+    "stop_conditions": [
+     "Fuel leakage or strong fuel odor.",
+     "Severe overheating or abnormal mechanical noise.",
+     "No suitable controlled testing equipment or facility."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [
+   "Engine / Idle speed: 2,250 … 2,350 rpm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only."
+  ],
+  "reply_Y": {
+   "summary": "Bोगging and stalling after a hard 20-minute moto is worth checking—not normal warm-engine behavior. Start with tank venting, then verify fuel delivery while hot rather than changing fueling or replacing the pump on suspicion.",
+   "answer": "**That’s not normal warm-engine behavior.** The heat-and-time pattern puts restricted tank venting or fuel delivery first, followed by tight valve clearance and heat-sensitive ignition trouble.\n\n1. **With the engine off and fully cool, inspect the tank vent hose** for kinks, pinching or blockage. Don’t test it by riding with the cap loose or opening a hot tank.\n2. If the vent looks clear, have fuel pressure and pump electrical supply checked **while the fault is present**. A cold pressure test can miss a heat-related failure. The exact fuel-pressure and flow limits aren’t confirmed here; GasGas’s fuel-system service procedure provides them.\n3. If fuel delivery checks out hot, check valve clearances and ignition. Tight valves can lose sealing as the engine heats; an ignition component can also start misfiring hot.\n\nGasGas specifies **2,250–2,350 rpm idle**. Verify that once it’s running correctly warm—don’t raise idle to hide the bog.\n\nStop riding if it keeps stalling; shut it down immediately for steam, coolant loss or abnormal mechanical noise.\n\n**When it stalls hot, will it restart immediately, or only after cooling down?**",
+   "next_step": {
+    "action": "With the engine off and fully cool, visually inspect the accessible tank vent hose for pinching, kinks or blockage.",
+    "purpose": "Check the simplest time-dependent fuel-starvation cause before component replacement.",
+    "stop_conditions": [
+     "Fuel leakage or strong fuel odor.",
+     "Tank or engine still hot.",
+     "Unknown vent-valve orientation: do not reverse or bypass it."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": [
+   "Engine / Idle speed: 2,250 … 2,350 rpm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only."
+  ]
+ },
+ {
+  "id": "q038",
+  "message_sent": "On more than one occasion I got a backfire after high revving acceleration as soon as I shut off the throttle. I believe this is indicating a lean situation ... If I do this then what should I do with the Ingition values? Keep them the same?",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ250F",
+   "model_year": 2020
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Leave ignition unchanged; a pop when you close the throttle does not, by itself, prove the engine is lean.",
+   "answer": "**Keep the ignition values unchanged for now—and don’t richen the fuel map based on the backfire alone.** An occasional exhaust pop immediately after shutting off from high rpm can be normal within limits on a fuel-injected four-stroke.\n\nWhen you close the throttle, unburned fuel can ignite in the hot exhaust. Extra air entering through a leaking exhaust joint can make that louder; it doesn’t necessarily mean the cylinder was running lean during acceleration. Ignition changes aren’t the right way to correct that.\n\nWith the engine and exhaust cold, check the header-to-head connection and exhaust joints for looseness, damage or soot trails. If a fueling change is later justified, leave ignition alone so you’re testing one variable at a time.\n\n**Stop riding if it develops violent bangs, misfiring or power loss, or metallic pinging under load.**\n\nWhich map is currently loaded, and is the exhaust stock or aftermarket?",
+   "next_step": {
+    "action": "With the engine and exhaust cold, visually inspect the header connection and exhaust joints.",
+    "purpose": "Look for an exhaust leak before changing fueling or ignition.",
+    "stop_conditions": [
+     "Violent bangs, misfiring or power loss",
+     "Metallic pinging under load"
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "Keep ignition values unchanged for now. Popping when you close the throttle does not, by itself, prove the engine is running lean.",
+   "answer": "**Keep the ignition values the same—and don’t add fuel solely to cure the popping.** A pop from the exhaust after high-rpm acceleration is usually afterfire: leftover fuel burns in the exhaust when oxygen reaches it. An exhaust leak can cause that without the engine running lean under acceleration.\n\nA few light pops on closed throttle can be normal within limits. Repeated loud bangs, popping through the intake, hesitation under load, or metallic pinging need investigation before tuning; stop riding if it pings.\n\nFirst, with the engine off and completely cold, inspect the header connection and exhaust joints for looseness, cracks or soot trails. Don’t change fuel and ignition together—you’ll lose track of what helped, and ignition advance is not a safe cure for an assumed lean condition.\n\n**Which ECU/map and exhaust are you running?** That determines whether any stock-map advice applies.",
+   "next_step": {
+    "action": "With the engine off and completely cold, visually inspect exhaust joints and the header connection for damage, looseness and soot trails.",
+    "purpose": "Check for an oxygen-entry path before changing calibration.",
+    "stop_conditions": [
+     "Do not run the bike to reproduce metallic pinging or intake backfiring.",
+     "Repair a loose or damaged exhaust before further testing."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q039",
+  "message_sent": "Can you actually adjust the mapping at idle? ... Do they make the bike crazy rich at idle to make it cool better?",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ250F",
+   "model_year": 2025
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Power Tuner lets you change low-throttle fueling, but that does not establish control over the ECU’s true idle mixture. There is no confirmed evidence that Yamaha makes this bike extremely rich at idle for cooling.",
+   "answer": "You can edit low-rpm, low-throttle fueling with Power Tuner, **but that isn’t necessarily direct control of the mixture at idle**. Yamaha confirms fuel and ignition mapping adjustment; exactly how those changes interact with this bike’s idle-control strategy isn’t confirmed here. Yamaha’s specified idle speed is **1900–2100 r/min**.\n\nAnd no—I wouldn’t assume they make it crazy rich at idle to cool it. As a general engine principle, adding fuel can help control combustion temperatures under load, but excessively rich idle wastes fuel, can foul the plug and can dilute the oil. It isn’t a substitute for radiator airflow.\n\nA motocross bike gets hot sitting still mainly because there’s little air moving through its radiators. **Don’t richen the map just to let it sit idling longer.** Also, a low-throttle map change can affect initial throttle pickup and deceleration, not just idle.",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_X": [
+   "Idling condition / Engine idling speed: 1900–2100 r/min. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+  ],
+  "reply_Y": {
+   "summary": "Power Tuner adjusts fuel and ignition, but adjustment authority at the actual idle speed isn’t confirmed here. There’s no evidence Yamaha makes this bike excessively rich at idle for cooling.",
+   "answer": "**You can adjust low-rpm, small-throttle mapping—but that doesn’t confirm direct control of the idle mixture.** Yamaha’s stock idle speed is **1900–2100 r/min**. Whether Power Tuner’s lowest cells directly change fueling there isn’t confirmed for your 2025 YZ250F; adjustable running maps aren’t necessarily an idle-mixture adjustment.\n\nIf you mean changing or uploading a map *while it’s running*, that capability isn’t confirmed either—make and upload changes with the engine stopped.\n\n**No evidence says Yamaha makes it “crazy rich” at idle to keep it cool.** General engine principle: extra fuel can cool combustion under load, but excessive richness isn’t an effective fix for a bike heating up while stationary. With little air moving through the radiators, coolant heat builds even with correct fueling.\n\nAlso, the near-closed-throttle cells at high rpm mainly affect deceleration and engine-braking feel—not idle. Don’t richen those expecting better cooling while sitting.",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_Y": [
+   "Idling condition / Engine idling speed: 1900–2100 r/min. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+  ]
+ },
+ {
+  "id": "q041",
+  "message_sent": "if I completely remove the switch will the bike default to \"map 1/performance\"?",
+  "bike": {
+   "manufacturer": "Husqvarna",
+   "model": "TC 250",
+   "model_year": 2020
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Don’t assume unplugging the switch selects Performance; the disconnected default isn’t confirmed for your 2020 TC 250.",
+   "answer": "**I can’t confirm that unplugging it defaults to Map I/Performance on your 2020 TC 250.** Husqvarna identifies switch position **I as Performance** and **II as Soft**, but that doesn’t establish which map runs with the switch disconnected.\n\nIf you want Performance for sure, leave the switch connected and set to I. Before deleting it, verify the disconnected behavior from Husqvarna’s ignition wiring information or have a technician check the map-select circuit—don’t bridge wires by guesswork.",
+   "next_step": {
+    "action": "Keep the switch connected in position I until disconnected-map behavior is verified.",
+    "purpose": "Retain confirmed Performance map selection.",
+    "stop_conditions": []
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "The disconnected default isn’t confirmed for your 2020 TC 250. Check whether position I leaves the switch circuit open before removing it.",
+   "answer": "**Don’t assume unplugged means Performance—the disconnected default isn’t confirmed for your 2020 TC 250.** Husqvarna identifies position **I as Performance** and **II as Soft**, but that doesn’t establish which map an unplugged switch selects.\n\nYou can check without running the engine: ignition off, unplug the switch and use a multimeter to check continuity across its switch terminals in both positions. On a simple two-wire switch, if position I is open circuit and II has continuity, unplugging reproduces the Performance switch input. If I has continuity, removing it does **not** reproduce position I.\n\nUntil that’s checked, leave it connected in I. Unplug at the connector rather than cutting wires.",
+   "next_step": {
+    "action": "With the engine off, check the disconnected switch’s continuity in positions I and II.",
+    "purpose": "Determine whether unplugging reproduces the Performance switch input.",
+    "stop_conditions": [
+     "Switch is not a simple two-wire circuit or terminal identity is unclear."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q043",
+  "message_sent": "Is there a way around taking the bike to a dealer and paying to have the map flashed...",
+  "bike": null,
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Possibly—some bikes allow owner-adjustable mapping, while others need a compatible flashing tool or an ECU sent to a tuner.",
+   "answer": "Yes—**you may be able to skip the dealer**, depending on the bike and what you want changed.\n\n- **Factory tuning app or handheld tool:** Some bikes let you adjust fuel and ignition yourself. That isn’t necessarily the same as installing a different ECU firmware or unlocking restricted settings.\n- **Mail-in ECU flash:** A compatible tuner may flash your ECU without you taking the whole bike in. You’ll have downtime while it’s away.\n- **Aftermarket ECU or compatible flashing interface:** Can give you control, but the hardware may cost more than a one-time flash. Fitment and the starting map need to match your bike and modifications.\n\nA handlebar map switch usually selects maps already loaded—it doesn’t flash a new one. Don’t load an unknown map just because the connector fits.\n\n**What year, make and model is it, and what are you trying to change with the flash?** Selecting your build under the message box also lets us narrow down the compatible options.",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "Sometimes—you can avoid the dealer if the bike supports owner-adjustable maps or a mail-in ECU service. A map switch alone usually cannot install a new tune.",
+   "answer": "**Sometimes, yes—but it comes down to the bike and ECU.** Common alternatives are:\n\n- **Factory tuning app or tool:** on supported bikes, you can change fueling and ignition yourself within the adjustment range provided.\n- **Mail-in ECU flash:** send the ECU to a reputable dirt-bike tuner instead of taking the whole bike to a dealer. There’s still a charge, but no dealer visit.\n- **Owner-programmable aftermarket ECU:** useful if you’ll keep changing the setup, though usually a bigger upfront expense than one flash.\n\nA handlebar map switch generally selects maps already loaded—it doesn’t flash a new one. Some stock ECUs are locked and need specialist equipment, so don’t buy a cable or programmer until compatibility is confirmed.\n\n**What year/model is it, and is the ECU stock or aftermarket?** Picking your build in the selector under the message box also lets us narrow this to your exact bike.",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q044",
+  "message_sent": "are you running 110 with stock ECU mapping or have you had the bike mapped specifically for 110?",
+  "bike": null,
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "110-octane fuel does not automatically require a dedicated ECU map; the specific fuel formulation matters.",
+   "answer": "I don’t have a personal bike setup. If you’re asking whether **110-octane fuel needs its own ECU map**, not automatically—the exact fuel matters more than the octane number alone.\n\nGeneral guidance: some non-oxygenated race fuels can work with stock mapping when approved for the engine; oxygenated fuels can need fueling changes. Higher octane alone doesn’t guarantee more power, and a stock ECU shouldn’t be assumed to compensate for any race fuel.\n\nWhich bike and exact 110 fuel are you talking about?",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "110-octane fuel does not automatically need a remap; the exact fuel formulation matters.",
+   "answer": "If you mean **110-octane race gas**, it doesn’t automatically need a special map—the fuel’s formulation matters more than its octane number. Some non-oxygenated fuels can work with stock mapping; oxygenated race fuels may need fueling changes. Higher octane alone won’t add power if the engine doesn’t need the extra knock resistance.\n\nWhich bike and exact brand/type of 110 are you asking about?",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q045",
+  "message_sent": "I'm getting a weird bogging issue that I've never encountered before.",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ125",
+   "model_year": 2021
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Narrow the bog down by throttle position before changing jets. Start with an engine-off intake check rather than trying to tune around a possible fault.",
+   "answer": "Don’t change jets yet—a new bog on your YZ125 could be a restricted carb circuit, poor fuel delivery, or a fouled plug, and each needs a different fix.\n\nAs general troubleshooting guidance:\n- **Blubbers and won’t clean out:** excess fuel, a choke that isn’t seating, or a fouled plug are likely.\n- **Hollow hesitation or power fading under load:** restricted fuel flow or a blocked carb passage moves up the list.\n- **Sharp, irregular cutting:** check ignition and plug condition before chasing jetting.\n\nFirst, with the engine off and cool, inspect the air filter for heavy dirt, water, excess oil or poor seating, and look for an obvious split or loose intake connection. Don’t run it if dirt can bypass the filter. Stop riding if it pings, overheats or makes a new mechanical noise.\n\n**Does it bog just as you open the throttle, through the middle, or only at wide-open throttle under load?**",
+   "next_step": {
+    "action": "With the engine off and cool, inspect the accessible air filter and intake connections.",
+    "purpose": "Rule out an obvious restriction or dirt-entry risk before carburetor adjustments.",
+    "stop_conditions": [
+     "Loose material or an intake opening could admit dirt.",
+     "Fuel leakage is visible or fuel odor is strong.",
+     "Pinging, overheating or abnormal mechanical noise occurs."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "A new bog needs a basic fault check before changing jetting. Where it happens in the throttle opening will narrow the cause.",
+   "answer": "**Don’t change jets yet**—a new bog can come from restricted fuel flow, an overloaded air filter, or an ignition misfire, not just incorrect jetting.\n\nFirst, with the engine off and cool, inspect the air filter and its seating. Look for heavy dirt, excess oil, water, or a gap around the sealing edge. Don’t run it without the filter to test it.\n\n**Does it bog just as you open the throttle, through the middle, or only while holding it wide open?**\n\nIf it pings, overheats, or makes a new mechanical noise, stop riding rather than trying to clear it out.",
+   "next_step": {
+    "action": "Inspect air-filter condition and seating with the engine off and cool.",
+    "purpose": "Identify an accessible intake problem before changing carburetor settings.",
+    "stop_conditions": [
+     "Filter damage or dirt beyond its sealing edge.",
+     "Loose material that could enter the engine.",
+     "Fuel leakage."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q046",
+  "message_sent": "I'm having a bog when I crack the throttle open.",
+  "bike": {
+   "manufacturer": "Husqvarna",
+   "model": "TC 125",
+   "model_year": 2021
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "A bog when you snap the throttle can come from either too little fuel or an overly rich mixture. Check the intake and choke before changing jets.",
+   "answer": "**Don’t change jets yet—a snap-throttle bog can be lean or rich, and those need opposite fixes.** A brief hesitation snapping the throttle at idle doesn’t tell us how it fuels under riding load.\n\nFirst, with the engine off and cool, check that the air filter is clean and properly seated, the intake boot is secure, and the choke returns fully off. A blocked filter or stuck choke can make it load up; an intake leak or restricted pilot circuit can leave it short of fuel.\n\nFor reference, Husqvarna lists a **35 pilot jet and air screw 1.5 turns out** as the basic setting for the stock carburetor. Those are reference settings—not a fix to apply blindly; temperature, elevation and modifications affect the right setup.\n\n**Does it bog while riding under load, or only when you snap the throttle sitting in neutral?** Stop riding if it pings, overheats or the idle hangs unusually high.",
+   "next_step": {
+    "action": "With the engine off and cool, inspect filter seating and condition, intake-boot security, and choke return.",
+    "purpose": "Exclude visible airflow and choke faults before adjusting fueling.",
+    "stop_conditions": [
+     "Do not restart if loose dirt could enter the intake.",
+     "Do not run with a damaged or disconnected intake boot.",
+     "Stop if fuel leakage is present."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [
+   "Carburetor / Idling jet: 35 (30 / 32.5 / 37.5 / 40). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Factory carburetor setting for the stock engine and exhaust named in this manual.",
+   "Carburetor / Idle air adjusting screw / open: 1.5 turns. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Factory carburetor setting for the stock engine and exhaust named in this manual."
+  ],
+  "reply_Y": {
+   "summary": "A snap-throttle bog can come from the idle-to-needle transition, but first separate a stand-only hesitation from a bog under riding load. Don’t change the main jet based on this symptom alone.",
+   "answer": "If it bogs just as you open the throttle from idle, the **pilot circuit and transition onto the needle** are the first suspects—not automatically the main jet. A wet, blubbery stumble suggests excess fuel; a dry cough or hanging idle suggests too little fuel or an intake leak, though sound alone doesn’t prove either.\n\nFirst, with the engine off and cool, check that the air filter is clean and seated properly and the intake boot is secure and undamaged. Don’t tune around an intake leak.\n\nFor reference, Husqvarna’s stock Mikuni TMX 38 air-screw baseline is **1.5 turns out from lightly seated**; that’s a reference, not a reason to reset unknown jetting or modifications.\n\n**Does it happen fully warmed up while riding under load, or only when snapping the throttle in neutral?** A stand-only hesitation doesn’t necessarily mean it needs rejetting. Stop riding if it pings, overheats, or the throttle hangs.",
+   "next_step": {
+    "action": "Inspect the filter seating and accessible intake boot with the engine off and cool.",
+    "purpose": "Exclude visible intake faults before changing carburetor settings.",
+    "stop_conditions": [
+     "Loose material or dirt could enter the engine.",
+     "An intake boot is split or unsecured.",
+     "Pinging, overheating, or hanging throttle occurs."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": [
+   "Carburetor / Carburetor type: MIKUNI TMX 38. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Factory carburetor setting for the stock engine and exhaust named in this manual.",
+   "Carburetor / Idle air adjusting screw / open: 1.5 turns. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Factory carburetor setting for the stock engine and exhaust named in this manual."
+  ]
+ },
+ {
+  "id": "q047",
+  "message_sent": "Any suggestions on how to clear out that stutter would be great",
+  "bike": {
+   "manufacturer": "KTM",
+   "model": "150 SX",
+   "model_year": 2022
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Don’t change jets blindly: first rule out a fouled plug, then separate a rich burble from a lean hesitation by where the stutter happens.",
+   "answer": "**Start with the spark plug—not a jet change.** A fouled plug can make your 150 SX stutter just like rich jetting.\n\nWith the engine cool, remove and inspect the plug for wet fouling, heavy deposits or damage. KTM specifies **NGK BR9 ECMVX**, a **0.60 mm (0.0236 in) gap**, and **25 Nm (18.4 ft-lb)** tightening torque. Replace it if fouled or damaged; if that clears the stutter but it returns, the plug was likely a symptom rather than the root cause.\n\nAs general troubleshooting guidance:\n- A muffled, blubbery stutter under steady throttle suggests excess fuel or incomplete ignition; check filter condition and that the choke fully closes.\n- A dry hesitation with surging or a hanging idle points toward lean running, restricted fuel delivery or an intake leak—not a reason to fit smaller jets.\n- A sharp, irregular cut can be ignition-related.\n\n**Stop riding if it pings, overheats or loses power severely.**\n\nDoes it stutter just off idle, at steady mid-throttle, or near full throttle—and is it worse cold or fully warmed up?",
+   "next_step": {
+    "action": "With the engine cool, remove and inspect the spark plug; replace it if fouled or damaged with the specified plug.",
+    "purpose": "Rule out a common ignition mimic before changing carburetor settings.",
+    "stop_conditions": [
+     "Do not restart if the plug shows melted electrodes or impact damage.",
+     "Stop riding for pinging, overheating or severe power loss."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [
+   "Engine / Spark plug electrode gap: 0.60 mm (0.0236 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+   "Engine / Spark plug: NGK BR9 ECMVX. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+   "Engine tightening torques / Spark plug (M14x1.25): 25 Nm (18.4 lbf ft). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only."
+  ],
+  "reply_Y": {
+   "summary": "Don’t change jets blindly: a rich misfire, weak ignition, and lean hesitation can all feel like a stutter. Start with the spark plug and identify where in the throttle it happens.",
+   "answer": "Don’t lean the carb out just to clear the stutter—too much fuel and weak spark can feel similar to fuel starvation.\n\nWith the engine off and cool, inspect the plug for fouling, damage, and a loose plug cap. KTM specifies **NGK BR9 ECMVX**, a **0.60 mm (0.0236 in) gap**, and **25 Nm (18.4 ft-lb)** tightening torque. A wet or black plug supports fouling, but doesn’t prove the jetting is too rich.\n\nIf it blubbers under steady throttle, excess fuel is one possibility; if it goes flat or surges under load, restricted fuel delivery or a lean mixture needs checking. **Stop riding if it pings, overheats, or loses power sharply.**\n\nDoes it stutter just off idle, around half throttle, or near full throttle under load?",
+   "next_step": {
+    "action": "With the engine off and cool, inspect the spark plug and plug-cap seating.",
+    "purpose": "Check a basic ignition cause before changing carburetor settings.",
+    "stop_conditions": [
+     "Do not run the engine if pinging, overheating, or sharp power loss occurs.",
+     "Do not perform ignition testing near fuel leaks or fumes."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": [
+   "Engine / Spark plug electrode gap: 0.60 mm (0.0236 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+   "Engine / Spark plug: NGK BR9 ECMVX. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+   "Engine tightening torques / Spark plug (M14x1.25): 25 Nm (18.4 lbf ft). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only."
+  ]
+ },
+ {
+  "id": "q049",
+  "message_sent": "As he progresses and when I'm riding harder should I look for a 40:1 mix to get more life out of my top ends?",
+  "bike": null,
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Harder riding makes lubrication more demanding, but 40:1 is not automatically the right mix or a guarantee of longer top-end life.",
+   "answer": "**Don’t switch to 40:1 just because you’re riding harder.** More sustained rpm and load increase lubrication demands, but the right ratio depends on the engine and the premix oil—not skill level alone.\n\nAs general two-stroke guidance, more oil can improve lubrication when the engine needs it, but it won’t prevent wear caused by dirt getting past the filter, overheating or detonation. Consistent mixing, a properly sealed air filter and checking piston condition before it wears too far matter more than chasing one ratio.\n\nOn a carbureted bike, adding more oil also slightly reduces the gasoline passing through the jets, so fueling may need checking rather than assuming more oil is automatically safer.\n\nThe correct ratio isn’t confirmed without the bike details; selecting the build below lets us check its published recommendation. **What bike/year and premix oil and ratio are you running now?**",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "Harder riding can increase lubrication demands, but switching to 40:1 does not automatically extend top-end life. Match the ratio to the engine and premix oil rather than changing it for pace alone.",
+   "answer": "**Not automatically—40:1 isn’t a guaranteed way to get longer top-end life.** Harder riding puts more heat and load into a two-stroke, so adequate lubrication matters, but the engine and premix oil determine the right ratio.\n\nIf you’re currently running 50:1, 40:1 supplies more oil; if you’re running 32:1, it supplies less. On a carbureted bike, adding more oil also displaces some gasoline, so the fuel mixture becomes slightly leaner and jetting needs checking—not simply leaving alone.\n\nGeneral practice: keep a consistent, suitable premix ratio and prioritize a clean, properly sealed air filter, correct fueling and cooling. More oil won’t compensate for dirt ingestion or a worn piston.\n\n**What bike/year, premix oil and ratio are you running now?** Selecting the build below the message box will let us check its exact requirements.",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q052",
+  "message_sent": "KX112 Detonation and Cylinder Damage ... Is this worth worrying about?",
+  "bike": {
+   "manufacturer": "Kawasaki",
+   "model": "KX112",
+   "model_year": 2025
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Actual detonation or cylinder damage is worth worrying about. Stop riding until you establish whether it is combustion knock, piston damage, or another noise.",
+   "answer": "**Yes—actual detonation or cylinder damage means stop riding, not tune around it.** Detonation is uncontrolled combustion that can damage the piston crown and ring lands; cylinder scoring can also come from poor lubrication, overheating or dirt ingestion, so damage alone does not prove detonation.\n\nThe first suspects for genuine detonation are unsuitable or deteriorated fuel, a lean mixture from fuel restriction or an intake leak, then overheating or altered ignition/compression. Don’t lean the jetting or adjust the timing to chase the noise.\n\nWith the engine off and fully cool, remove and inspect the spark plug for a damaged electrode, metallic flecks or melted surfaces. Kawasaki specifies **NGK R6252K-105**; plug appearance alone cannot clear the piston or cylinder. If damage is already visible, leave it stopped for a top-end inspection.\n\nThe exact fuel-octane requirement and cylinder/piston inspection limits aren’t confirmed here; Kawasaki’s fuel requirements and engine inspection sections provide those values.\n\nAre you hearing metallic pinging under load, or have you actually found piston/cylinder damage?",
+   "next_step": {
+    "action": "With the engine off and fully cool, remove and inspect the spark plug without restarting.",
+    "purpose": "Look for obvious combustion damage and verify the installed plug identity.",
+    "stop_conditions": [
+     "Metallic debris, melted surfaces or a damaged electrode.",
+     "Known piston or cylinder damage.",
+     "Binding or abnormal mechanical noise; do not restart."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [
+   "Specifications / Engine / Spark plug: NGK R6252K-105."
+  ],
+  "reply_Y": {
+   "summary": "Actual detonation or cylinder damage is worth taking seriously, but a report title alone does not establish a problem with your KX112.",
+   "answer": "**Yes—if yours is pinging or showing piston/cylinder damage, stop riding until it’s checked.** If you’re referring to an article or owner report, that alone doesn’t establish a widespread 2025 KX112 problem.\n\nDetonation is abnormal combustion that hammers the piston and can damage its crown, ring grooves and cylinder. General causes include unsuitable fuel, lean carburetion, an intake air leak, overheating or altered engine setup; none is confirmed here. Cylinder scoring alone does not prove detonation.\n\nKawasaki specifies **NGK R6252K-105** for the spark plug and calls for cylinder/head inspection and piston/ring checking every **3 races or 7.5 hours**. The exact fuel-octane requirement isn’t confirmed here; Kawasaki’s fuel section gives the requirement to verify before riding.\n\nIf you suspect it’s happening, start with a cold spark-plug inspection. I can walk you through **“Inspect or replace the spark plug”**—tap **“Start a guided job”** above the message box. Melted electrodes or metallic specks need further inspection; a normal-looking plug does not rule damage out.\n\n**Are you hearing pinging or seeing damage on yours, or asking about a report you read?**",
+   "next_step": {
+    "action": "If detonation is suspected, leave the engine off and begin the guided cold spark-plug inspection.",
+    "purpose": "Check for visible combustion damage without running the engine again.",
+    "stop_conditions": [
+     "Do not restart with pinging, abnormal mechanical noise or visible piston/cylinder damage.",
+     "Melted electrodes or metallic debris require further engine inspection."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": [
+   "Specifications / Engine / Spark plug: NGK R6252K-105.",
+   "Periodic maintenance chart / Periodic inspection (engine) / Cylinder head and cylinder - inspect: Every 3 races (or 7.5 hours) races/hours.",
+   "Periodic maintenance chart / Periodic inspection (engine) / Piston and piston ring - clean/check: Every 3 races (or 7.5 hours) races/hours."
+  ]
+ },
+ {
+  "id": "q058",
+  "message_sent": "I have a friend who has an odd noise coming from his Honda's engine. ... Has anyone heard this noise before? ... Bike has about 35 hours on it.",
+  "bike": {
+   "manufacturer": "Honda",
+   "model": "CRF250R",
+   "model_year": 2020
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "An unexplained engine noise at 35 hours is worth checking before more riding. Without a recording or description, the cause cannot be identified reliably.",
+   "answer": "I can’t identify the noise without hearing it—there’s no audio or video attached. **Don’t keep riding or rev it to reproduce a new, abnormal engine noise.**\n\nFor the 2020 CRF250R selected here, Honda calls for valve-clearance/decompressor inspection every **6 races or about 15 hours**, plus after the first break-in ride. At about **35 hours**, check whether those inspections were done; hours alone don’t prove anything has failed.\n\nThe sound helps separate the possibilities:\n- A light tick from the cylinder head points toward valve gear, decompressor or an exhaust leak.\n- A metallic rattle near the cylinder points toward the cam chain or tensioner.\n- A deep knock from the crankcase raises concern for piston, crank or bearing damage.\n\nStart with the engine off and cool: check for oil loss and inspect the oil level by Honda’s prescribed method. **A deep knock, metal in the oil or significant oil loss means no restart until inspected.**\n\nIs it a light top-end tick, a loose metallic rattle, or a deep knock?",
+   "next_step": {
+    "action": "With the engine off and cool, inspect for oil loss and check the oil level by Honda's prescribed method.",
+    "purpose": "Screen for lubrication trouble before any further engine operation.",
+    "stop_conditions": [
+     "Deep mechanical knock",
+     "Significant oil loss or low oil level",
+     "Metal contamination"
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [
+   "Maintenance schedule / Valve clearance/decompressor system / Inspect: Every 6 races or about 15.0 hours. Value printed for the CRF250R in this owner's manual, which also covers other variants. Stock OEM parts only. From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate. Schedule note: inspect after the first break-in ride."
+  ],
+  "reply_Y": {
+   "summary": "An unexplained engine noise needs checking before more riding. No audio or video came through, and 35 hours alone does not identify the cause.",
+   "answer": "I can’t identify the noise without hearing it—no clip came through. **Don’t keep running it to reproduce an abnormal engine noise**, especially a knock or grinding sound.\n\nA light top-end tick, cam-chain rattle and deeper engine knock can sound similar in a phone recording but need different checks. Hours alone won’t tell us which it is.\n\nIf his bike is also a **2020 CRF250R**, Honda calls for valve-clearance/decompressor inspection every **6 races or about 15 hours**, plus inspection after break-in. Cold clearances are **0.09 ± 0.03 mm intake** and **0.19 ± 0.03 mm exhaust**. Oil and filter replacement are also due every **6 races or about 15 hours**—so at 35 hours, the service history matters.\n\nFirst, leave the engine off and check for visible oil loss and confirm when the oil, filter and valves were last serviced. Have a mechanic inspect it before restarting if the noise is new or pronounced.\n\nCan you upload an existing recording and confirm his Honda’s model and year?",
+   "next_step": {
+    "action": "With the engine off, inspect for visible oil loss and establish its service history.",
+    "purpose": "Identify warning signs without running a potentially damaged engine.",
+    "stop_conditions": [
+     "Do not restart with significant oil loss, known metal contamination, knocking or grinding.",
+     "Arrange mechanical inspection if the noise is new or pronounced."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": [
+   "Maintenance Schedule / Valve clearance and decompressor system / Inspect: every 6 races or about 15.0 hours interval. CRF250R",
+   "Engine / Valve clearance / Intake: 0.09 ± 0.03 mm (0.004 ± 0.001 in). CRF250R cold",
+   "Engine / Valve clearance / Exhaust: 0.19 ± 0.03 mm (0.007 ± 0.001 in). CRF250R cold",
+   "Maintenance schedule / Engine oil / Replace: Every 6 races or about 15.0 hours. Value printed for the CRF250R in this owner's manual, which also covers other variants. Stock OEM parts only. From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate. Schedule note: replace after the first break-in ride. Schedule note: replace the engine oil if the clutch discs and plates are replaced.",
+   "Maintenance schedule / Engine oil filter / Replace: Every 6 races or about 15.0 hours. Value printed for the CRF250R in this owner's manual, which also covers other variants. Stock OEM parts only. From this model's column of the owner's manual maintenance schedule, whichever of races or hours is printed; the schedule assumes average riding conditions and severe use needs more frequent service. Legend: I = inspect and clean, adjust, lubricate or replace if necessary; C = clean; R = replace; L = lubricate. Schedule note: replace after the first break-in ride."
+  ]
+ },
+ {
+  "id": "q059",
+  "message_sent": "For those A riders specifically, what are your replacement intervals for say - top end, valves, bottom, clutch",
+  "bike": null,
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "For A-class racing, plan the piston and crank preventively; replace valves and clutch parts based on measured condition. Hour targets need the exact engine—not just the rider’s class.",
+   "answer": "**For A riders, I’d schedule the piston and crank preventively, but not automatically replace valves or a clutch at a fixed hour count.** A hard-revved 250F, a 450 ridden a gear tall, and a 125 need different plans; exact hour figures aren’t confirmed without the bike.\n\nAs general race-shop practice:\n\n| Item | How I’d manage it |\n|---|---|\n| Top end | Use the maker’s competition schedule as the starting point, then tailor preventive piston replacement to race load and teardown measurements. Don’t wait for smoke or lost power. |\n| Valves—four-stroke | Track clearance changes and check sealing. Repeatedly tightening clearances warrant valve-and-seat inspection, not endless reshimming. Replacement is condition-based. |\n| Bottom end | Plan crank/rod inspection and replacement around that engine’s competition schedule and rebuild findings. A fresh piston doesn’t establish bottom-end health. |\n| Clutch | Inspect plate thickness, warpage, basket wear and actuation against the applicable limits. Replace for measured wear, slip or persistent drag—not class alone. |\n\n**What year/model and engine size are we talking about?** Pick that build under the message box to get the published intervals for the exact bike.",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "A-class pace calls for preventive engine maintenance, but there isn’t one replacement schedule that fits every race bike.",
+   "answer": "**For A riders, I schedule the top end preventively—not when it starts losing power.** But I wouldn’t give the same hour limits to a high-revving 250F, a 450F, and a two-stroke. Exact intervals aren’t confirmed without the bike.\n\n| Item | How I’d manage it for A-class racing |\n|---|---|\n| Top end | Use the maker’s competition schedule as the ceiling; shorten it for sustained high rpm, engine modifications, or severe use. Don’t wait for smoke or hard starting. |\n| Valves, on a four-stroke | Check clearance and log movement. Replacement depends on clearance stability and valve/seat condition—not automatically every piston. Repeatedly tightening clearances need investigation, not endless reshimming. |\n| Bottom end | Plan inspection around scheduled engine work and the competition schedule. Crank, rod, and bearing condition determine replacement; noise is not a maintenance reminder to wait for. |\n| Clutch | Inspect against wear limits and track how heavily it’s used. Replace for measured wear, slip, or damaged components—not rider class alone. |\n\n**What year and model are we talking about?** Selecting that build below lets us use its published competition schedule rather than guess an expensive hour limit.",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q061",
+  "message_sent": "Are these newer motors with the finger follower valve trains just super noisy?",
+  "bike": null,
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Some ticking is normal on modern four-stroke dirt bikes, but finger followers alone don’t make a loud engine normal.",
+   "answer": "**Some ticking is normal; “super noisy” isn’t automatically normal just because it has finger followers.** As general guidance, modern four-stroke dirt-bike engines can sound mechanically busy—lightweight engine covers let valve-train, injector and cam-chain sounds come through clearly.\n\nA light, consistent tick that follows rpm can be normal. Finger followers themselves aren’t proof of a problem—or an excuse to ignore one. A new or worsening clatter, deep knock, hard starting or noise accompanied by oil loss means shut it down and check it before riding again.\n\n**Which bike and year are you hearing it on?** Picking that build in the selector under the message box helps narrow down its normal character and exact check specifications.",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "A light, even tick can be normal, but finger followers alone don’t make a loud valvetrain normal.",
+   "answer": "**Normal within limits—a light, steady ticking can be normal, but they shouldn’t all be “super noisy.”** Finger followers are small levers between the cams and valves; their presence alone doesn’t tell you how loud an engine should be. Modern four-stroke dirt bikes can also transmit injector clicks and cam-chain noise that sounds like it’s coming from the valves.\n\nA consistent tick that follows rpm is less concerning than a sudden change. **If it’s newly louder, clatters persistently once warm, knocks, or comes with hard starting or power loss, shut it down and have it checked** rather than assuming it’s normal.\n\nWhat year and model are you hearing it on?",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q063",
+  "message_sent": "can it be cam chain plastic slides that whines before broken in ?",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 250-X",
+   "model_year": 2025
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Cam-chain contact with its guides can make a whirring sound, but a distinct whine should not be dismissed as break-in. Have the cam drive checked before riding again.",
+   "answer": "Possible, but **don’t assume the cam-chain guides just need breaking in**. A chain sliding over its guides can make a light whir, but a distinct whine can also come from excessive chain tension, a tensioner problem, or another rotating component—not necessarily the guides.\n\nI can’t confirm the guide material or a normal break-in whine for your 2025 TF 250-X. Sound alone won’t establish which part is responsible.\n\n**Don’t keep running it to wear the noise away.** Have your Triumph dealer check the noise and cam-chain tensioner/guide condition before riding again, especially if it is new or getting louder.\n\nFrom when you’ve already heard it, is the whine only there cold, or does it remain fully warm?",
+   "next_step": {
+    "action": "Leave the engine off and arrange a Triumph dealer cam-drive noise inspection.",
+    "purpose": "Distinguish normal running sound from tensioner, guide, or other rotating-component trouble.",
+    "stop_conditions": [
+     "Do not restart to reproduce a worsening whine, rattle, or knock.",
+     "Do not ride with significant oil loss or an oil-pressure warning."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "The cam-chain guides can contribute to a whine, but don’t assume it is harmless break-in noise. A new or increasing whine needs checking before more riding.",
+   "answer": "Possible—the cam chain runs against plastic-faced guides—but **I wouldn’t write off a whine as the guides bedding in**. I can’t confirm that as normal break-in behavior for your TF 250-X.\n\nGeneral mechanical possibilities, in order to distinguish:\n- **Steady, smooth whine:** gear drive or normal chain contact can sound like this; the sound alone doesn’t prove guide wear.\n- **Whine concentrated at the cylinder/head:** cam-chain tension or a tensioner/guide issue becomes more suspect. A loose chain more often rattles than whines.\n- **New or worsening noise:** inadequate lubrication or bearing trouble must be ruled out—not ridden through to “break it in.”\n\nDon’t keep riding hoping it disappears. If there’s rattling, scraping, hard starting, power loss or oil loss, shut it down and don’t restart.\n\nDoes it whine only when cold, or stay there once warm?",
+   "next_step": {
+    "action": "With the engine off and cool, inspect for external oil leaks before any further running.",
+    "purpose": "Identify an obvious lubrication warning without running the engine to reproduce the noise.",
+    "stop_conditions": [
+     "Oil loss",
+     "Rattling or scraping accompanying the whine",
+     "Hard starting or power loss",
+     "Rapidly increasing noise"
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q066",
+  "message_sent": "I usually change mine every ten hours I ride 90% track 10% desert. What do yall do as far as oil change schedule?",
+  "bike": null,
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Your 10-hour oil-change routine is a reasonable general baseline for mostly track riding, but hard use can call for changing it sooner.",
+   "answer": "**Every 10 hours is a reasonable general baseline for mostly track riding**—not a confirmed service interval for your bike. With 90% track and 10% desert, I’d shorten that routine for sustained high-rpm riding, heavy clutch use, or extreme heat rather than stretch it longer.\n\nCheck the oil level before each ride, and service the oil filter or screens as your bike requires. Desert dust also makes air-filter care critical; fresh engine oil won’t protect an engine pulling dirt through the intake.\n\nWhat bike and year are you riding? Picking your build in the selector under the message box lets us check the exact published schedule.",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "With 90% track use, follow the bike’s race-use oil interval. Don’t stretch your current 10-hour routine without checking the exact bike’s requirements.",
+   "answer": "With **90% track riding, I’d follow the bike’s race-use oil interval**, not an easy-trail schedule. Your **10-hour routine** might suit it, but it isn’t automatically right for every engine.\n\nGeneral guidance: sustained high revs, heavy clutch use, and hot, slow desert sections are reasons to change sooner. Don’t judge oil life by color alone, and follow the specified filter schedule too.\n\nWhat year/model are you riding, and do you mean engine oil or separate gearbox oil? Picking your build in the selector below gets the published interval for that exact bike.",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q067",
+  "message_sent": "what is your opinion on potential clutch life if a ULV ATF is used with friction modifiers?",
+  "bike": null,
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "I wouldn’t use ULV ATF to maximize a dirt bike’s clutch life unless that exact fluid is approved for the application. Friction modifiers alone don’t determine compatibility; the complete formulation and clutch materials do.",
+   "answer": "My opinion: **ULV ATF is an unnecessary gamble if clutch life is the priority**, unless the bike or clutch manufacturer approves that exact fluid.\n\nATF already works with wet clutches in automatic transmissions, so “friction modifiers” does **not** automatically mean clutch slip. The issue is whether its friction characteristics suit your dirt bike’s plates and clamping load. A mismatch can cause sustained slip under load, generating heat that accelerates friction-plate wear and can damage the steel plates.\n\nThe ultra-low viscosity is a separate concern: it may reduce drag, but doesn’t establish adequate protection for the gearbox—or the engine if they share oil. A clutch that feels smooth initially isn’t proof of long-term compatibility.\n\nAs general guidance, I’d use a lubricant meeting the bike’s specified requirements rather than experiment with ULV ATF. **There’s no defensible percentage or hours-of-life prediction** from viscosity and the presence of friction modifiers alone. If it starts slipping or smells burned, stop riding rather than testing it further.\n\nWhich bike and exact ULV ATF are you considering?",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "I would not choose friction-modified ULV ATF for a dirt-bike clutch unless its suitability is specifically established. Clutch life cannot be predicted from viscosity or the presence of friction modifiers alone.",
+   "answer": "**My pick would be the bike’s specified transmission oil, not ULV ATF as an experiment to extend clutch life.** There’s no defensible hours-to-failure estimate from the fluid description alone.\n\nGeneral guidance: ATF already works with wet clutches in automatic transmissions, so “friction modifiers” does **not** automatically mean clutch slip. The issue is whether that particular friction chemistry matches your clutch plates and maintains enough grip under load. If it allows sustained slip, the extra heat can glaze the plates and shorten clutch life quickly.\n\nULV’s thinner oil film also raises a separate concern for gearbox gears and bearings—especially if the oil also lubricates the engine. A clutch that feels fine does not prove the fluid protects everything else.\n\nI’d avoid adding aftermarket friction modifiers. If you’ve already filled it, stop riding if revs flare without matching acceleration, engagement changes noticeably, or there’s a burning smell.\n\n**What bike/year and exact ATF are you considering, and are the modifiers factory-blended or an added treatment?** Picking the build below the message box helps establish the exact oil requirements.",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q075",
+  "message_sent": "Looking for recommendations on how to make my 2023 FX350 a little more tame and luggable for single track, hare scrambles and enduro riding. ... Also will I need a different chain guide vs stock for a bigger sprocket?",
+  "bike": {
+   "manufacturer": "Husqvarna",
+   "model": "FX 350",
+   "model_year": 2023
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Start with smoother power delivery, then slightly shorter gearing if tight sections demand too much clutch. A bigger rear sprocket does not automatically require a different chain guide, but clearance must be checked.",
+   "answer": "For single track, hare scrambles and enduro, I’d prioritize **smoother throttle response and easier low-speed gearing**, not engine power mods.\n\n1. **Try the gentler map, if your fitted ECU and switch offer one.** That can soften the hit, but it won’t make the engine impossible to stall. Your exact map functions aren’t confirmed here; an ECU flash could change them.\n2. **Consider a progressive throttle cam** if small wrist movements bring too much power. It makes initial throttle opening easier to control—not more engine torque. Verify fitment for your 2023 FX 350 before buying.\n3. **Go slightly shorter on gearing** if you constantly slip the clutch in tight sections. A larger rear sprocket lets you ride slower at the same engine rpm, reducing the need to lug near stalling. The trade-off is stronger wheel torque and earlier shifts—not inherently mellower power.\n\n**Keep the stock chain guide unless clearance or condition says otherwise.** A larger rear sprocket doesn’t automatically require another guide, but the exact size limit isn’t confirmed for your bike. Check guide clearance through a full wheel rotation, chain length, axle adjustment and chain slack before riding; don’t force a chain through interference.\n\nWhat front/rear sprocket sizes are fitted now, and what rear size are you considering?",
+   "next_step": {
+    "action": "Identify the fitted front/rear sprocket sizes and intended rear sprocket size.",
+    "purpose": "Size a modest gearing change and establish chain-guide clearance requirements.",
+    "stop_conditions": []
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "Start with smoother power delivery and modestly shorter gearing, not engine work. A larger rear sprocket does not automatically require a different chain guide, but clearance and chain length need checking.",
+   "answer": "For your FX 350, I’d start with the **milder available map and a modestly larger rear sprocket** for tight single track, hare scrambles and enduro.\n\n- **Power delivery:** If your fitted ECU offers a softer map, try that first. It smooths response; it does not create extra low-rpm torque. The exact map selection and stock gearing aren’t confirmed here.\n- **Gearing:** Common practice is **one or two teeth larger at the rear**. That lets you ride slower in the same gear with less clutch work and less tendency to stall. The trade-off is stronger rear-wheel pull and earlier shifts—not a softer engine hit. Don’t lug it so low that it chugs or threatens to stall.\n- **Next money spent:** Match suspension springs and setup to your geared weight and woods pace before buying engine parts. Consider an auto clutch only if stalling remains the main problem; it helps prevent stalls, not add torque.\n\n**Keep the stock chain guide if the larger sprocket clears it throughout the usable axle-adjustment range.** Exact tooth-count clearance isn’t confirmed for your bike. Check the sprocket maker’s fitment guidance, chain length and axle adjustment before buying; don’t assume the current chain reaches.\n\nWhat front and rear sprocket tooth counts are fitted now?",
+   "next_step": {
+    "action": "Identify the fitted front and rear sprocket tooth counts.",
+    "purpose": "Choose a modest gearing change and check chain-guide and chain compatibility.",
+    "stop_conditions": [
+     "Do not ride with sprocket-to-guide interference or insufficient chain adjustment."
+    ]
+   },
+   "setup_changes": [
+    {
+     "setting": "Engine map",
+     "change": "If the fitted ECU supports it, select its milder map before changing gearing.",
+     "expect": "Smoother roll-on and less abrupt drive on slick or technical ground.",
+     "go_back_if": "Response becomes too dull and requires noticeably more clutch work."
+    },
+    {
+     "setting": "Final-drive gearing",
+     "change": "After testing the map, consider one or two additional rear sprocket teeth from the current tooth count; verify guide clearance and chain compatibility first.",
+     "expect": "Lower ground speed in each gear and less clutch slipping in tight sections.",
+     "go_back_if": "First gear becomes too short, shifting becomes excessive, or rear-wheel pull is harder to control."
+    }
+   ]
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q080",
+  "message_sent": "Which full exhaust and slip-on will provide the best performance improvement? I am most interested in increasing the bottom-end or at least not hampering it.",
+  "bike": {
+   "manufacturer": "KTM",
+   "model": "350 SX-F",
+   "model_year": 2023
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "My pick is the FMF 4.1 full system, but the evidence supports improved midrange—not a proven biggest bottom-end gain. The slip-on is the lower-cost choice if you keep the stock ECU.",
+   "answer": "**My pick is the FMF 4.1 full system—but I wouldn’t promise a major bottom-end gain from the exhaust alone.** There isn’t a confirmed back-to-back exhaust comparison for your 2023 350 SX-F that establishes a bottom-end winner.\n\n- **Full system:** A tuner-tested FMF 4.1 titanium system improved midrange response and pull, retained stock-like over-rev, and saved about **2 lb**. That makes it my performance pick, although those results don’t establish stronger torque right off idle.\n- **Slip-on:** A tester using the FMF muffler with the stock ECU found better torque driving out of corners, but slightly slower rpm pickup. That’s the lower-cost route if you want useful drive rather than sharper response; don’t expect the full system’s reported gains automatically.\n\nFor your bottom-end priority, I’d choose the **full FMF 4.1 with fueling and ignition checked for your exhaust and fuel**, rather than spend on titanium expecting it alone to transform low-rpm pull. Confirm the exact 2023 350 SX-F fitment before buying.\n\nAre you keeping the stock ECU, or is it already flashed or replaced?",
+   "next_step": {
+    "action": "Confirm the selected FMF system's fitment for the 2023 KTM 350 SX-F.",
+    "purpose": "Avoid buying a system intended for another model or generation.",
+    "stop_conditions": [
+     "The manufacturer does not confirm exact-year fitment."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "The FMF 4.1 full system is the strongest supported option here for more midrange without sacrificing over-rev, but a clear bottom-end gain is not proven. For your priority, a torque-focused slip-on on the stock header is the more conservative purchase.",
+   "answer": "**For your bottom-end priority, I’d lean toward an FMF 4.1 slip-on with the stock header rather than buying a full system purely for more low-end.** Exact 2023 fitment needs confirming with FMF before ordering.\n\n- **Slip-on:** One tester found the FMF muffler improved torque driving out of corners with the stock ECU, but softened initial rpm response slightly. That means better pull is possible without a sharper throttle hit—those are different things.\n- **Full system:** Testers reported that the FMF 4.1 titanium system improved midrange response and pull, slightly improved top-end power, retained over-rev, and saved about **2 lb**. That supports it as an all-around upgrade, not proof of the biggest bottom-end gain.\n\nThere isn’t a matched exhaust dyno comparison here establishing which system makes the most low-rpm torque on your 2023 350 SX-F. I wouldn’t promise another brand beats it—or that the full system buys appreciably more bottom-end than the slip-on.\n\nBefore buying, ask for a same-bike, same-map torque curve below the midrange, with the exact insert you’ll run. If that evidence isn’t available, keeping the stock exhaust is safer value than paying for an unproven low-end gain.",
+   "next_step": {
+    "action": "Confirm exact 2023 350 SX-F fitment and request a same-map low-rpm torque comparison before ordering.",
+    "purpose": "Choose for bottom-end pull rather than peak horsepower or sound.",
+    "stop_conditions": [
+     "Fitment is not confirmed for the exact year and model."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q081",
+  "message_sent": "looking to put an exhaust on my mc450, looking for help on what you guys put on and where it moved the power at. also i am not a rev type of rider.",
+  "bike": {
+   "manufacturer": "GasGas",
+   "model": "MC 450F",
+   "model_year": 2021
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "For your low-rev riding style, prioritize smooth bottom-to-midrange pull—not an exhaust built around peak horsepower.",
+   "answer": "For how you ride, I’d look for an exhaust that strengthens **low-to-midrange roll-on without adding a sharp hit**. A top-end-focused race pipe would put the benefit where you rarely use it.\n\nTesters consistently report that the 2021 MC 450F is mellow off the bottom, then builds harder through the middle. They attribute that partly to the restricted intake and stock exhaust, so an exhaust alone isn’t the whole picture.\n\n- **Slip-on:** makes sense if you mainly want to replace the muffler or change sound; don’t assume it will noticeably improve low-rpm pull.\n- **Full system:** worth paying for only if its torque curve shows stronger bottom-to-midrange—not just a bigger peak-power number. Header design matters, not simply how open or loud it is.\n\nI can’t confirm brand-specific power shifts or aftermarket fitment for your bike here, so I wouldn’t sell you a particular pipe on reputation alone. Check explicit **2021 MC 450F fitment**, noise limits, and any required fueling changes before buying.\n\nWhat’s your budget for the exhaust?",
+   "next_step": {
+    "action": "Set the exhaust budget before narrowing down compatible options.",
+    "purpose": "Choose between a slip-on and a full system based on useful low-to-midrange gains.",
+    "stop_conditions": []
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "For your low-rev riding, choose an exhaust for stronger bottom-to-mid pull, not peak horsepower. A torque-focused full system is the better fit than buying a slip-on expecting a major power change.",
+   "answer": "**For your 2021 MC 450F, my pick is a torque-focused full system—not a high-rpm race pipe.** You want stronger roll-on out of corners and less clutch work, rather than extra pull near the limiter.\n\nTesters consistently report that this generation’s restricted airbox and stock exhaust soften its bottom-end response. Exact aftermarket exhaust gains aren’t confirmed for your bike here, so I wouldn’t promise a particular brand moves the power lower without a matching dyno comparison.\n\n- **Slip-on:** generally buys sound and weight savings first; don’t expect it alone to transform low-end pull.\n- **Full system:** gives the builder more control over power delivery through the header and muffler together. Look for gains below the peak, not just the biggest advertised horsepower number.\n\nThe airbox restriction also matters—an expensive pipe won’t remove that bottleneck. Confirm exact-year fitment and any fueling requirements before buying; don’t assume your stock EFI compensates for every modification.\n\n**What’s your exhaust budget?**",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q082",
+  "message_sent": "Does anyone have first hand experience with the 2019-2022 KX450 with the HGS exhaust on it? Does it add power everywhere?",
+  "bike": {
+   "manufacturer": "Kawasaki",
+   "model": "KX450",
+   "model_year": 2020
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "An HGS exhaust isn’t a guaranteed power gain everywhere. Its gains on the 2019–2022 KX450 need a same-bike, stock-versus-HGS dyno comparison to back them up.",
+   "answer": "**Don’t assume the HGS adds power everywhere.** I can’t confirm an HGS-specific back-to-back test or consistent owner reports for the 2019–2022 KX450.\n\nAs general exhaust-tuning practice, a system can strengthen one part of the rev range while leaving another unchanged—or sacrificing some pull. A sharper response and louder exhaust can also feel faster without adding much usable power.\n\nFor this KX450 generation, owners commonly favor **a slip-on with the stock header and an ECU remap** for usable delivery. That supports the combination, not an HGS-specific gain. Testers also report that aftermarket exhausts can make the low-throttle response sharper and increase deceleration popping.\n\nMy pick: don’t buy the HGS on an “everywhere” claim alone. Ask for an overlaid stock/HGS dyno graph with the same coupler and mapping, and check exact-year fitment. Are you looking at the full HGS system or just the muffler?",
+   "next_step": null,
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "I wouldn’t assume the HGS adds power everywhere. Its gains on the 2019–2022 KX450 aren’t confirmed here, and a stronger hit isn’t necessarily a broader powerband.",
+   "answer": "**I wouldn’t buy it expecting more power everywhere.** I don’t have firsthand riding experience with that HGS system, and I can’t confirm an HGS-specific power curve for the 2019–2022 KX450.\n\nAn exhaust can strengthen one rpm range while trading away another. A louder, sharper response can also feel faster without giving more usable drive.\n\nOwners of this KX450 generation repeatedly recommend a **slip-on with the stock header** for controllable power, but that’s general owner experience—not proof that the HGS does the same. Tester reports also describe some aftermarket full systems making the initial hit harder to control.\n\nMy call: ask for a stock-versus-HGS dyno overlay from the same bike, same dyno and same ECU calibration—not just peak horsepower. Confirm fitment for your 2020 before buying.\n\nAre you looking at the HGS full system or just the slip-on?",
+   "next_step": {
+    "action": "Request a same-bike stock-versus-HGS dyno overlay with ECU calibration identified.",
+    "purpose": "Check gains and losses across the usable rpm range.",
+    "stop_conditions": []
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q085",
+  "message_sent": "Would anybody know if the 250 clutch cover for the 21 and 22 is the same as the 19-22 four fifty clutch cover ?",
+  "bike": {
+   "manufacturer": "Kawasaki",
+   "model": "KX250",
+   "model_year": 2021
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Cross-fit between the 2021–2022 KX250 and 2019–2022 KX450 clutch covers isn’t confirmed. Buy a cover explicitly listed for your KX250.",
+   "answer": "I wouldn’t buy the **2019–2022 KX450 clutch cover for your 2021 KX250** unless the cover manufacturer explicitly lists both bikes—interchangeability isn’t confirmed here.\n\nFor an OEM cover, compare Kawasaki’s cover part numbers and any superseded numbers for those exact years. Matching bolt holes alone doesn’t prove the cover clears the clutch inside.\n\n**My pick: a cover explicitly listed for the 2021–2022 KX250**, rather than gambling on the 450 listing.",
+   "next_step": {
+    "action": "Compare the exact cover’s manufacturer fitment listing or Kawasaki OEM part numbers before buying.",
+    "purpose": "Confirm whether the same cover fits both models.",
+    "stop_conditions": [
+     "Do not install a cover with unconfirmed fit or internal clearance."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "Interchangeability between the 2021–22 KX250 and 2019–22 KX450 clutch covers isn’t confirmed—verify the exact cover before buying.",
+   "answer": "**Don’t assume they’re the same.** Fit between the 2021–22 KX250 clutch cover and the 2019–22 KX450 cover isn’t confirmed here.\n\nFor an OEM cover, compare the cover part numbers and any superseded numbers in Kawasaki’s parts diagrams for those exact years. For an aftermarket cover, the manufacturer needs to list both models and year ranges for that exact part—not just “KX250/KX450.” Having hydraulic clutches doesn’t establish matching cover fit.\n\nWhat brand and part number is the cover you’re looking at?",
+   "next_step": {
+    "action": "Check the exact cover’s OEM part-number cross-reference or manufacturer fitment listing.",
+    "purpose": "Confirm interchangeability before buying or fitting it.",
+    "stop_conditions": [
+     "The exact model and year are not listed or cross-referenced."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q094",
+  "message_sent": "I have a 2020 KTM SX65 with only 14hrs from new. ... Its literally needing a new plug every ride! ... Can anyone give me an idea of what else to try or look for?",
+  "bike": {
+   "manufacturer": "KTM",
+   "model": "65 SX",
+   "model_year": 2020
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Needing a plug every ride at only 14 hours is worth checking—not normal maintenance. First establish whether the plug is fouling or ignition is failing before changing jets.",
+   "answer": "**A new plug every ride isn’t normal, even at only 14 hours.** A fresh plug can temporarily hide rich running or weak ignition; it doesn’t prove the plug itself was faulty.\n\nFor your 2020 65 SX, KTM specifies **NGK LR 8 B**, a **0.60 mm (0.0236 in) gap**, and **1:60 oil-to-fuel premix**. Its scheduled plug-and-connector replacement is every **20 operating hours**, not every ride.\n\nCheck these in order:\n1. **Read the failed plug before cleaning it.** Dry, fluffy black deposits suggest rich running; wetness can mean excess fuel/oil or fuel that isn’t being ignited.\n2. Check that the choke shuts fully and the air filter isn’t clogged or excessively oiled. Prolonged idling and low-load riding can also foul a two-stroke plug.\n3. With the engine off and cool, look for carb overflow and check the plug cap is firmly attached with no visible lead damage. Overflow points toward a float/needle-valve problem. The exact float-height figure isn’t confirmed here; KTM’s carburetor service section carries that specification.\n\nDon’t lean the jetting blindly—settings must match temperature, elevation and any engine/exhaust changes. Stop riding if it pings or repeatedly cuts out.\n\n**When it fails, is the plug dry and sooty, wet with fuel, or oily?**",
+   "next_step": {
+    "action": "With the engine off and cool, remove the failed plug and photograph its firing end before cleaning it.",
+    "purpose": "Separate deposit-related fouling from an apparent ignition failure.",
+    "stop_conditions": [
+     "Do not perform exposed spark tests near fuel.",
+     "Do not ride with repeated cutting out or detonation."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [
+   "Engine / Spark plug electrode gap: 0.60 mm (0.0236 in).",
+   "Required work / Change the spark plug and spark plug connector.: Every 20 operating hours. also marked periodic: Every 40 operating hours, Every 80 operating hours",
+   "Capacities - Fuel / Fuel tank capacity, approx.: 3.5 l (3.7 qt.). Super unleaded (95 octane) mixed with 2-stroke engine oil (1:60)",
+   "Engine / Spark plug: NGK LR 8 B."
+  ],
+  "reply_Y": {
+   "summary": "A new plug every ride is not normal, even at only 14 hours. First establish whether the plug is fouling or ignition is failing before changing jets or replacing parts.",
+   "answer": "**A plug every ride is not normal.** A fresh plug getting it running again suggests fouling, but it does not prove the plug itself is faulty.\n\nKTM specifies an **NGK LR 8 B**, with **0.60 mm (0.0236 in) gap**, tightened to **10–12 Nm (7.4–8.9 ft-lb)**. The stock fuel/oil ratio is **1:60**—verify your actual mix rather than reducing oil to chase fouling. KTM lists plug and connector replacement every **20 operating hours**; failure every ride needs investigating.\n\nThe main possibilities are:\n- **Excess fuel:** choke not closing fully, restricted/over-oiled filter, leaking float valve, or jetting too rich for the conditions. Extended idling can contribute.\n- **Weak ignition:** a poor plug-cap connection, damaged lead, coil or wiring fault can leave a fuel-wet plug too.\n\nWith the engine off and cool, remove the failed plug and photograph its firing end before cleaning it. Don’t fit hotter plugs or lean the jetting blindly; KTM’s chart depends on temperature and elevation, and assumes a stock engine and exhaust.\n\n**Is the failed plug wet/oily, dry and black, or clean-looking?**",
+   "next_step": {
+    "action": "With the engine off and cool, remove and photograph the failed plug’s firing end.",
+    "purpose": "Distinguish deposit fouling from a clean-looking plug that warrants ignition testing.",
+    "stop_conditions": [
+     "Do not restart if there is fuel leakage or strong accumulated fuel vapor.",
+     "Do not perform exposed-spark testing near fuel."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": [
+   "Engine / Spark plug: NGK LR 8 B.",
+   "Engine / Spark plug electrode gap: 0.60 mm (0.0236 in).",
+   "Engine tightening torques / Spark plug: 10 … 12 Nm (7.4 … 8.9 lbf ft). thread M10x1",
+   "Capacities - Fuel / Fuel tank capacity, approx.: 3.5 l (3.7 qt.). Super unleaded (95 octane) mixed with 2-stroke engine oil (1:60)",
+   "Required work / Change the spark plug and spark plug connector.: Every 20 operating hours. also marked periodic: Every 40 operating hours, Every 80 operating hours"
+  ]
+ },
+ {
+  "id": "q096",
+  "message_sent": "I bought my son a new YZ65. It runs great, starts first kick but if you open the throttle too quickly it bogs. It is worse when cold and improves with the choke on.",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ65",
+   "model_year": 2025
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Choke improving the bog points toward a lean hesitation, but a cold engine can behave similarly. Establish whether it persists fully warm before changing carburetor settings.",
+   "answer": "**The choke helping points toward a lean hesitation—not automatically a wrong jet.** Your YZ65 uses a PWK28 carburetor, per Yamaha. The choke adds fuel; if that improves the response, insufficient fuel during the sudden throttle opening is more likely than an overly rich mixture.\n\nSome hesitation when cold, or when snapping the throttle wide open from idle without load, can occur on a small carbureted two-stroke. A persistent bog during normal acceleration once warm deserves checking. Possible causes include the pilot circuit, restricted fuel delivery or an intake air leak—even on a new bike.\n\nSince it is new, have the selling dealer verify the warm-running complaint and inspect the carburetor and intake before buying jets or turning screws. Exact pilot-jet, air-screw and float-height settings aren't confirmed here; Yamaha’s carburetor service section supplies those values.\n\n**Does it still bog fully warm while accelerating in gear, or only when snapping the throttle at idle?** Stop riding if it pings, holds a high idle after release, or loses power sharply.",
+   "next_step": {
+    "action": "Have the selling dealer assess the warm-running bog and inspect the carburetor and intake before adjusting jetting.",
+    "purpose": "Separate cold transient behavior from an actual lean-running fault.",
+    "stop_conditions": [
+     "Pinging or detonation.",
+     "Hanging high idle after throttle release.",
+     "Sharp or unpredictable loss of power.",
+     "Visible fuel leakage."
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [
+   "Specifications / Carburetor - Type × quantity: PWK28 × 1."
+  ],
+  "reply_Y": {
+   "summary": "Improving with the choke points toward a lean off-idle hesitation, but cold-engine response alone does not prove the jetting is wrong. Establish whether it persists fully warm before changing anything.",
+   "answer": "**The choke helping points toward a lean off-idle hesitation—not automatically a need for bigger jets.** Cold engines need extra fuel, and snapping open a small two-stroke’s throttle from idle can briefly weaken the fuel signal through the carburetor.\n\nYour YZ65 has a **PWK28 carburetor**, per Yamaha. If it still bogs fully warm during normal acceleration, I’d check the pilot circuit and air-screw setting first, fuel supply/float level next, then intake leaks. First-kick starting and otherwise good running make a major engine problem less likely, but don’t rule out a restricted pilot circuit.\n\nThe exact jetting, air-screw and float-height figures aren’t confirmed here; Yamaha’s carburetor tuning/service section supplies those. Don’t guess settings or leave the choke on to hide it—on a new bike, have the selling dealer check a persistent warm bog.\n\n**Does it happen fully warm while he’s riding, or only when snapping the throttle at a standstill?** Stop riding if it pings, surges, hangs at high idle or loses power.",
+   "next_step": {
+    "action": "Warm the engine with gentle riding in a clear area and assess normal, progressive acceleration without deliberately provoking repeated bogs.",
+    "purpose": "Separate cold or standstill throttle response from a persistent warm fueling fault.",
+    "stop_conditions": [
+     "Pinging or detonation",
+     "Surging or hanging high idle",
+     "Loss of dependable power"
+    ]
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": [
+   "Specifications / Carburetor - Type × quantity: PWK28 × 1."
+  ]
+ },
+ {
+  "id": "q097",
+  "message_sent": "My kid has a 2014 KX85. ... Sag is set to 85mm and it looks like the bike is sitting high in the front end. Currently the forks are raised 15mm from flush, stock is 18mm. ... should I raise them to 23mm?",
+  "bike": {
+   "manufacturer": "Kawasaki",
+   "model": "KX85",
+   "model_year": 2020
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Don't jump from 15 mm to 23 mm. Try 17 mm first to lower the front slightly, then judge the handling rather than its parked stance.",
+   "answer": "**Try 15 mm to 17 mm first—not straight to 23 mm.** More fork tube above the upper clamp lowers the front and sharpens steering; less showing raises it and adds stability. General tuning practice is roughly 2 mm per test.\n\nYou said **2014 KX85**, but the selected build is a **2020**. The exact 2014 fork-height baseline, sag targets and clamp-bolt torques aren't confirmed here, so I wouldn't treat the selected bike's figures as your kid's specifications.\n\nYour stated 18 mm stock position would be a more sensible reference than jumping 8 mm to 23 mm. Measure both tubes from the same points, excluding the caps, and keep them equal. Use the 2014 fork-installation torque values before riding.\n\nWith **85 mm rider sag**, check the spring and rear balance before making a bigger geometry change; appearance alone doesn't establish that the front is too high. What is the **free sag**, with the rider off and the bike resting on its wheels?",
+   "next_step": {
+    "action": "Try 17 mm fork protrusion after verifying the 2014 clamp torques, then compare on the same familiar section at a comfortable pace.",
+    "purpose": "Test a small front ride-height change without an 8 mm jump.",
+    "stop_conditions": [
+     "Do not ride with unsecured clamps or any component interference.",
+     "Return to 15 mm if steering becomes nervous or the front starts tucking."
+    ]
+   },
+   "setup_changes": [
+    {
+     "setting": "Fork tube height above upper clamp",
+     "change": "From 15 mm to 17 mm, with both legs equal.",
+     "expect": "Slightly easier turn-in and more front-tire bite.",
+     "go_back_if": "Steering becomes nervous, the front tucks, or stability gets worse."
+    }
+   ]
+  },
+  "cited_facts_X": [],
+  "reply_Y": {
+   "summary": "Don’t jump from 15 to 23 mm. Try 17 mm first, and confirm the rear spring and sag before making a larger geometry change.",
+   "answer": "**I’d try 17 mm showing, not jump straight to 23 mm.** Raising the tubes through the clamps lowers the front and sharpens steering; that 8 mm jump could make it nervous or prone to tucking.\n\nThe selected build is a **2020 KX85**, but you’ve described a **2014**. The exact 2014 fork-height baseline and adjustment limits aren’t confirmed here, so I wouldn’t treat the stated 18 mm as verified for that year.\n\nWith rider sag at 85 mm, check the rear spring before chasing the bike’s appearance: a rear sitting too low can make the front look high. Judge it by whether it pushes or steers slowly, not looks alone.\n\nIf the forks move freely and the rear setup checks out, try the small height change below. Keep both legs identical, verify handlebar and full-compression clearance, and use the correct 2014 clamp-bolt torque.\n\n**What’s the free sag—fully extended versus bike-only on its wheels—with rider sag set at 85 mm?**",
+   "next_step": {
+    "action": "Measure free sag before testing fork height from 15 to 17 mm.",
+    "purpose": "Check rear spring suitability before changing front-to-rear balance.",
+    "stop_conditions": [
+     "Do not test with binding, loose components or clearance interference.",
+     "Return to 15 mm if steering becomes nervous or the front tucks."
+    ]
+   },
+   "setup_changes": [
+    {
+     "setting": "Fork tube height above the upper clamp",
+     "change": "From 15 mm to 17 mm showing, using the same measurement reference.",
+     "expect": "Slightly easier turn-in and more front-tire bite.",
+     "go_back_if": "New headshake, nervous steering, front tucking, or any clearance interference."
+    }
+   ]
+  },
+  "cited_facts_Y": []
+ },
+ {
+  "id": "q099",
+  "message_sent": "I have heard there are kits you can buy to have the suspension lowered ... is this actually a thing?",
+  "bike": {
+   "manufacturer": "KTM",
+   "model": "50 SX",
+   "model_year": 2025
+  },
+  "saved_weight_lb": null,
+  "reply_X": {
+   "summary": "Yes—suspension lowering kits are real, but check the KTM’s factory height options before buying one. Exact aftermarket kit fitment for your 2025 50 SX is not confirmed here.",
+   "answer": "Yes—**suspension lowering kits are a real thing**. Common practice is to fit internal spacers in the fork and shock that limit how far they extend, bringing the bike down. That usually sacrifices some suspension travel and ground clearance; it isn’t just a softer spring.\n\nFor your **2025 KTM 50 SX**, KTM lists an unloaded seat-height range of **634–683 mm (24.96–26.89 inches)**. First check where yours is set within that factory range—you may not need an aftermarket kit. That range alone doesn’t establish which parts or adjustments are required.\n\nExact aftermarket lowering-kit fitment for your bike isn’t confirmed here. If the factory low configuration still isn’t low enough, my pick is a suspension shop’s **matched internal fork-and-shock lowering setup**, confirmed for this year—not lowering only one end or backing off spring preload to make it sit down.",
+   "next_step": {
+    "action": "Check whether the bike is already in its factory low-height configuration before ordering lowering parts.",
+    "purpose": "Avoid buying an unnecessary kit or compromising suspension travel.",
+    "stop_conditions": []
+   },
+   "setup_changes": []
+  },
+  "cited_facts_X": [
+   "Chassis / Seat height unloaded: 634 … 683 mm (24.96 … 26.89 in)."
+  ],
+  "reply_Y": {
+   "summary": "Yes—suspension lowering kits are real, but fitment must be confirmed for your 2025 KTM 50 SX. Check its factory height-adjustment options before buying a kit.",
+   "answer": "Yes—**suspension lowering kits are a real thing**, usually installed inside the fork and shock to limit how far they extend. That lowers the bike, but typically reduces available suspension travel too.\n\nFor your **2025 KTM 50 SX**, KTM lists an unloaded seat-height range of **634–683 mm (24.96–26.89 inches)**. I'd check its factory height-adjustment options first—you may not need aftermarket lowering. That range is the seat height, not a stated amount of suspension lowering.\n\nStock travel is **200.6 mm (7.898 inches) front** and **190.5 mm (7.5 inches) rear**, so preserving travel matters if the rider is jumping.\n\nGeneral guidance: have a suspension shop match the front and rear lowering so the bike stays balanced. Don't just back off shock preload to make it shorter; that changes sag and support rather than properly lowering it. A lower seat is another option that preserves suspension travel.\n\nA specific lowering kit's fitment for your year isn't confirmed here—check the maker's exact **2025 50 SX** listing before buying.",
+   "next_step": {
+    "action": "Check the bike's current factory height configuration before choosing a lowering kit.",
+    "purpose": "Find out whether the required reduction is possible without shortening suspension travel.",
+    "stop_conditions": []
+   },
+   "setup_changes": []
+  },
+  "cited_facts_Y": [
+   "Chassis / Seat height unloaded: 634 … 683 mm (24.96 … 26.89 in).",
+   "Chassis / Suspension travel - Front: 200.6 mm (7.898 in).",
+   "Chassis / Suspension travel - Rear: 190.5 mm (7.5 in)."
+  ]
+ }
+]
