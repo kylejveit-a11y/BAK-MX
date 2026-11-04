@@ -4,13 +4,14 @@ One row per chart cell: path "Carburetor tuning[ (chart)] / <elevation band> / <
 printed in that cell. Cells the maker leaves empty are not stored."""
 import sys,json,hashlib,os,re,collections
 def h(s): return hashlib.sha256(s.encode()).hexdigest()
-LABEL={'ASO':'idle air screw {} turns open','IJ':'idling jet {}','PJ':'pilot jet {}','NDL':'jet needle {}','POS':'needle clip position {} from top','MJ':'main jet {}'}
-ORDER=['ASO','IJ','PJ','NDL','POS','MJ']
+LABEL={'ASO':'idle air screw {} turns open','PS':'pilot screw {} turns out','IJ':'idling jet {}','PJ':'pilot jet {}','SJ':'slow jet {}','NDL':'jet needle {}','JN':'jet needle {}','POS':'needle clip position {} from top','CLIP':'needle clip position {} from top','MJ':'main jet {}'}
+ORDER=['ASO','PS','IJ','PJ','SJ','NDL','JN','POS','CLIP','MJ']
 def clean(v): return re.sub(r'^(\d),(\d)$',r'\1.\2',v.replace('‑','-').strip())   # "1,5" printed once for 1.5 turns
 def g(x): return f'{x:,.0f}' if float(x).is_integer() else f'{x:g}'
 def chart_for(name,model):
     n=name.lower()
     if n in ('standard',): return ''
+    if n.startswith('optional'): return f' ({n})'
     m=re.fullmatch(r'(?:all )?(125|150|250|300)(?: sx| models)',n)
     if m: return '' if model.startswith(m.group(1)+' SX') or (n.startswith('all') and model.startswith(m.group(1)+' ')) else None
     if re.fullmatch(r'\d+ xc.*',n): return None
@@ -41,10 +42,13 @@ def main():
             if not rows: summary.append({'doc':j['doc'],'make':make,'model':model,'yr':yr,'skipped':'no chart for this model'}); continue
             assert len({r[2] for r in rows})==len(rows),(j['doc'],model)
             lines=[f'{a}|{p}|{q}|{v}|' for a,p,q,v in sorted(rows,key=lambda r:h(r[2]))]
-            art=j['doc'].split('_')[1]; i+=1
-            rec={'make':make,'model':model,'yr':yr,'doc':j['doc'],'sha':j['sha'],'url':f"https://azwecdnepstoragewebsiteuploads.azureedge.net/{j['doc']}.pdf",
-                 'rev':f"{make} Owner's Manual {yr}; Art. no. {art}{j['doc'].split('_')[2]}",
-                 'ref':f"docs/research/expansion/ktm-group/jetting/REVIEW_2026-11-03.md; {j['doc']}; carburetor tuning chart read from the text layer by column position; every main jet, idling jet and idle air screw row matched a second read with pdftotext.",
+            i+=1
+            if j.get('url'): url,rev,ref=j['url'],j['rev'],j['ref']
+            else:
+                art=j['doc'].split('_')[1]; url=f"https://azwecdnepstoragewebsiteuploads.azureedge.net/{j['doc']}.pdf"
+                rev=f"{make} Owner's Manual {yr}; Art. no. {art}{j['doc'].split('_')[2]}"
+                ref=f"docs/research/expansion/ktm-group/jetting/REVIEW_2026-11-03.md; {j['doc']}; carburetor tuning chart read from the text layer by column position; every main jet, idling jet and idle air screw row matched a second read with pdftotext."
+            rec={'make':make,'model':model,'yr':yr,'doc':j['doc'],'sha':j['sha'],'url':url,'rev':rev,'ref':ref,
                  'want':h('\n'.join(lines)),'delta':'\n'.join('+|'+l for l in lines),'n':len(rows)}
             json.dump(rec,open(f'{out}/{i}.json','w'),ensure_ascii=False)
             summary.append({'i':i,'doc':j['doc'],'make':make,'model':model,'yr':yr,'n':len(rows),'charts':sorted({r[2].split(' / ')[0] for r in rows})})

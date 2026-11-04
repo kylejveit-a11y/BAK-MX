@@ -16,12 +16,16 @@ export type EngineEnv={model:string;configuration:Record<string,unknown>;stateme
  jetting?:{id:string;statement:string}[]};
 
 type JetCell={id:string;chart:string;ft:[number,number];f:[number,number];band:string;air:string;settings:string};
-const JET=/^Carburetor tuning(?: \(([^)]+)\))? \/ (.+? m) \((-?[\d,.]+) to (-?[\d,.]+) ft\) \/ (.+? °C) \((-?[\d,.]+) to (-?[\d,.]+) °F\): (.+?)\.(?= [A-Z]|$)/;
 const fnum=(x:string)=>Number(x.replace(/,/g,''));
+const RANGE=(unit:string,alt:string)=>new RegExp(`^(?:at )?(?:(-?[\\d,.]+) to )?(-?[\\d,.]+) ${unit} \\((?:(-?[\\d,.]+) to )?(-?[\\d,.]+) ${alt}\\)$`);
+const ELEV=RANGE('m','ft'),TEMP=RANGE('°C','°F');
+/** Chart rows: "Carburetor tuning[ (chart)] / <a to b m (c to d ft) | at a m (c ft)> / <a to b °C (c to d °F) | at a °C (c °F)>: settings." */
 export function jettingCells(rows:{id:string;statement:string}[]):JetCell[]{
  const out:JetCell[]=[];
- for(const r of rows){const m=r.statement.match(JET);if(!m)continue;
-  out.push({id:r.id,chart:m[1]??'standard',ft:[fnum(m[3]),fnum(m[4])],f:[fnum(m[6]),fnum(m[7])],band:`${m[2]} (${m[3]} to ${m[4]} ft)`,air:`${m[5]} (${m[6]} to ${m[7]} °F)`,settings:m[8]});}
+ for(const r of rows){
+  const m=r.statement.match(/^Carburetor tuning(?: \(([^)]+)\))? \/ (.+?) \/ (.+?): (.+?)\.(?= [A-Z]|$)/);if(!m)continue;
+  const e=m[2].match(ELEV),t=m[3].match(TEMP);if(!e||!t)continue;
+  out.push({id:r.id,chart:m[1]??'standard',ft:[fnum(e[3]??e[4]),fnum(e[4])],f:[fnum(t[3]??t[4]),fnum(t[4])],band:m[2],air:m[3],settings:m[4]});}
  return out;
 }
 /** The chart cell for this elevation and air temperature, per chart. A value between two printed bands goes to the nearer one. */
@@ -38,7 +42,9 @@ export function jettingFor(cells:JetCell[],elevationFt:number,tempF:number){
   const notes:string[]=[];
   if(elevationFt>top+50)notes.push(`the chart stops at ${top.toLocaleString('en-US')} ft; this is above it`);
   if(tempF<coldest-2||tempF>hottest+2)notes.push('the air is outside the chart\'s temperature range');
-  if(tDist>2)notes.push('the maker prints no setting for exactly this air in that band; the nearest printed column is shown');
+  const points=list.every(c=>c.f[0]===c.f[1]&&c.ft[0]===c.ft[1]);
+  if(points&&(bandDist>0||tDist>0))notes.push('the chart is printed at set elevations and temperatures; the nearest printed one is shown');
+  else if(tDist>2)notes.push('the maker prints no setting for exactly this air in that band; the nearest printed column is shown');
   res.push({chart,evidence_id:cell.id,elevation_band:cell.band,air_band:cell.air,settings:cell.settings,...(notes.length?{note:notes.join('; ')}:{})});
  }
  return res;
