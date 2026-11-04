@@ -30,7 +30,7 @@ export const postSchema=z.object({category:z.enum(POST_CATEGORIES),body:text(400
 export const commentSchema=z.object({post_id:uuid,body:text(2000)}).strict();
 const instant=z.string().refine(v=>Number.isFinite(Date.parse(v)),{message:'Use a valid date and time'}).transform(v=>new Date(v).toISOString());
 export const eventSchema=z.object({title:text(120),event_type:z.enum(EVENT_TYPES),starts_at:instant,ends_at:instant.nullable().default(null),location_name:text(160),description:optionalText(4000)}).strict().refine(v=>!v.ends_at||v.ends_at>=v.starts_at,{message:'An event cannot end before it starts'});
-export const rsvpSchema=z.object({event_id:uuid,status:z.enum(['going','interested'])}).strict();
+export const rsvpSchema=z.object({event_id:uuid,status:z.enum(['going','interested']),public:z.boolean().optional()}).strict();
 export const messageSchema=z.object({recipient_id:uuid,body:text(4000)}).strict();
 export const garageSharingSchema=z.object({bike_id:uuid,show_on_profile:z.boolean(),build_sheet_public:z.boolean().default(false),photo_ids:z.array(z.string().uuid()).max(8).default([])}).strict();
 export const reportSchema=z.object({target_type:z.enum(['post','comment','event','message','profile']),target_id:uuid,reason:text(1000)}).strict();
@@ -155,8 +155,9 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
  if(path==='/api/comments'){
   if(method==='GET'){
    const comments=(checked(await db.from('post_comments').select('id,post_id,user_id,body,created_at').eq('post_id',id('post_id')).is('removed_at',null).order('created_at',{ascending:true}).limit(200))??[]) as Row[];
-   const profiles=await profilesFor(db,comments.map(c=>c.user_id));
-   return json(comments.map(c=>({...c,author:author(profiles,c.user_id),mine:c.user_id===owner})));
+   const [profiles,likes]=await Promise.all([profilesFor(db,comments.map(c=>c.user_id)),comments.length?db.from('comment_likes').select('comment_id,user_id').in('comment_id',comments.map(c=>c.id)).limit(5000):none]);
+   const likeRows=(checked(likes)??[]) as Row[];
+   return json(comments.map(c=>({...c,author:author(profiles,c.user_id),mine:c.user_id===owner,like_count:likeRows.filter(l=>l.comment_id===c.id).length,liked:likeRows.some(l=>l.comment_id===c.id&&l.user_id===owner)})));
   }
   if(method==='POST'){
    const data=commentSchema.parse(await readJson(req));screen(data.body);await requireProfile(db,owner);
@@ -168,6 +169,22 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
    const rows=checked(await db.from('post_comments').delete().eq('id',id('id')).eq('user_id',owner).select('id'));
    if(!rows?.length)throw new HttpError(404,'Comment not found');return json({deleted:true});
   }
+ }
+ // Who liked a post or a comment: riders hidden by a block are left out, as everywhere else.
+ if((path==='/api/likes'||path==='/api/comment-likes')&&method==='GET'){
+  const [table,col]=path==='/api/likes'?['post_likes','post_id']:['comment_likes','comment_id'];
+  const rows=(checked(await db.from(table).select('user_id,created_at').eq(col,id(col)).order('created_at',{ascending:false}).limit(500))??[]) as Row[];
+  const profiles=await profilesFor(db,rows.map(r=>r.user_id));
+  return json(rows.filter(r=>profiles.has(r.user_id)).map(r=>({...author(profiles,r.user_id),me:r.user_id===owner})));
+ }
+ if(path==='/api/comment-likes'){
+  const comment=id('comment_id');
+  if(method==='PUT'){
+   const result=await db.from('comment_likes').insert({comment_id:comment,user_id:owner});
+   if(result.error&&result.error.code!=='23505')saveFailed(result.error,'');
+   return json({liked:true});
+  }
+  if(method==='DELETE'){checked(await db.from('comment_likes').delete().eq('comment_id',comment).eq('user_id',owner));return json({liked:false});}
  }
  if(path==='/api/likes'){
   const post=id('post_id');
@@ -187,9 +204,15 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
    query=past?query.lt('starts_at',now).order('starts_at',{ascending:false}):query.gte('starts_at',now).order('starts_at',{ascending:true});
    const type=q('type');if(type)query=query.eq('event_type',z.enum(EVENT_TYPES).parse(type));
    const events=(checked(await query)??[]) as Row[],ids=events.map(e=>e.id);
-   const [profiles,rsvps]=await Promise.all([profilesFor(db,events.map(e=>e.user_id)),ids.length?db.from('event_rsvps').select('event_id,user_id,status').in('event_id',ids).limit(5000):none]);
-   const rows=(checked(rsvps)??[]) as Row[];
-   return json(events.map(e=>({...e,host:author(profiles,e.user_id),mine:e.user_id===owner,going_count:rows.filter(r=>r.event_id===e.id&&r.status==='going').length,interested_count:rows.filter(r=>r.event_id===e.id&&r.status==='interested').length,my_rsvp:rows.find(r=>r.event_id===e.id&&r.user_id===owner)?.status??null})));
+   // Totals count every RSVP (a definer function returns numbers only); the rows readable here are the rider's own and
+   // the ones riders chose to make public, which is who the going list shows.
+   const [counts,rsvps]=await Promise.all([ids.length?db.rpc('event_rsvp_counts',{p_event_ids:ids}):none,ids.length?db.from('event_rsvps').select('event_id,user_id,status,public,created_at').in('event_id',ids).order('created_at',{ascending:true}).limit(5000):none]);
+   const countRows=(checked(counts)??[]) as Row[],rows=(checked(rsvps)??[]) as Row[];
+   const goingPublic=rows.filter(r=>r.status==='going'&&r.public);
+   const profiles=await profilesFor(db,[...events.map(e=>e.user_id),...goingPublic.map(r=>r.user_id)]);
+   return json(events.map(e=>{const c=countRows.find(r=>r.event_id===e.id),mine=rows.find(r=>r.event_id===e.id&&r.user_id===owner);
+    return {...e,host:author(profiles,e.user_id),mine:e.user_id===owner,going_count:Number(c?.going??0),interested_count:Number(c?.interested??0),my_rsvp:mine?.status??null,my_rsvp_public:!!mine?.public,
+     going_riders:goingPublic.filter(r=>r.event_id===e.id&&profiles.has(r.user_id)).slice(0,50).map(r=>({...author(profiles,r.user_id),me:r.user_id===owner}))};}));
   }
   if(method==='POST'){
    const data=eventSchema.parse(await readJson(req));screen(data.title,data.description,data.location_name);await requireProfile(db,owner);
@@ -211,10 +234,12 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
  if(path==='/api/rsvps'){
   if(method==='PUT'){
    const data=rsvpSchema.parse(await readJson(req));
-   const existing=checked(await db.from('event_rsvps').select('event_id').eq('event_id',data.event_id).eq('user_id',owner).maybeSingle());
-   const result=existing?await db.from('event_rsvps').update({status:data.status}).eq('event_id',data.event_id).eq('user_id',owner):await db.from('event_rsvps').insert({...data,user_id:owner});
+   const existing=checked(await db.from('event_rsvps').select('event_id,public').eq('event_id',data.event_id).eq('user_id',owner).maybeSingle()) as Row|null;
+   // Public only when the rider chose it; changing going/interested keeps their earlier choice.
+   const pub=data.public??existing?.public??false;
+   const result=existing?await db.from('event_rsvps').update({status:data.status,public:pub}).eq('event_id',data.event_id).eq('user_id',owner):await db.from('event_rsvps').insert({event_id:data.event_id,status:data.status,public:pub,user_id:owner});
    if(result.error)saveFailed(result.error,'');
-   return json({status:data.status});
+   return json({status:data.status,public:pub});
   }
   if(method==='DELETE'){checked(await db.from('event_rsvps').delete().eq('event_id',id('event_id')).eq('user_id',owner));return json({status:null});}
  }

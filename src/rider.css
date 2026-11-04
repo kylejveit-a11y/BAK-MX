@@ -242,3 +242,24 @@
 .parts-catalog .assembly-head span{text-transform:none;letter-spacing:0;font-weight:600}
 @media(min-width:761px){.chat-layout.rd-chat{grid-template-columns:300px minmax(0,1fr)}}
 .setup-guide .tabs{display:flex!important;flex-wrap:nowrap!important;overflow-x:auto;-webkit-overflow-scrolling:touch}.setup-guide .tabs button{flex:0 0 auto}
+/* Who liked / who's going */
+.rd-likecount{font-size:13.5px;font-weight:600;color:#c9ced8;padding:4px 2px;margin-left:-8px}
+.rd-likecount:hover{color:#fff;text-decoration:underline}
+.rd-likecount.small{font-size:12px;margin-left:0;color:#9aa1ad}
+.rd-comment-meta{display:flex;align-items:center;gap:10px}
+.rd-clike{display:inline-flex;color:#9aa1ad;padding:2px}
+.rd-clike.liked{color:#e8607a}
+.rd-riderlist{margin:10px 0 4px;padding:10px 12px;border:1px solid rgba(255,255,255,.08);border-radius:12px;background:rgba(255,255,255,.03)}
+.rd-riderlist-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;font-size:13.5px}
+.rd-riderlist ul{list-style:none;margin:0;padding:0;display:grid;gap:4px;max-height:280px;overflow:auto}
+.rd-riderrow{display:flex;align-items:center;gap:10px;width:100%;text-align:left;padding:5px 2px;font-size:14px;color:#eef0f4}
+.rd-riderrow:disabled{cursor:default;opacity:1}
+.rd-riderrow b{font-weight:600}
+.rd-going{margin:6px 0 2px}
+.rd-going-row{display:flex;align-items:center;gap:8px;font-size:13px}
+.rd-going-faces{display:inline-flex}
+.rd-going-faces>*{margin-left:-6px;box-shadow:0 0 0 2px #10131a;border-radius:50%}
+.rd-going-faces>*:first-child{margin-left:0}
+.rd-confirm{margin:10px 0;padding:12px 14px;border-radius:12px;border:1px solid rgba(74,144,255,.35);background:rgba(74,144,255,.08)}
+.rd-confirm p{margin:0 0 10px;font-size:14px;line-height:1.45}
+.rd-visibility{font-size:12.5px;margin:4px 0}

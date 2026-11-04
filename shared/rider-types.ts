@@ -4,9 +4,11 @@ export type RiderRef={user_id:string;handle:string;display_name:string;location:
 export type Profile=RiderRef&{bio:string;created_at:string;updated_at?:string;avatar_photo_id?:string|null};
 export type PostCategory='build'|'setup_question'|'ride_plan'|'general';
 export type Post={id:string;user_id:string;category:PostCategory;body:string;bike_label:string;created_at:string;author:RiderRef;mine:boolean;like_count:number;liked:boolean;comment_count:number;photos?:PhotoRef[]};
-export type PostComment={id:string;post_id:string;user_id:string;body:string;created_at:string;author:RiderRef;mine:boolean};
+export type PostComment={id:string;post_id:string;user_id:string;body:string;created_at:string;author:RiderRef;mine:boolean;like_count?:number;liked?:boolean};
+/** A rider in a likes or going list; me marks the signed-in rider. */
+export type ListedRider=RiderRef&{me?:boolean};
 export type EventType='ride_day'|'race'|'practice'|'clinic'|'meetup';
-export type RideEvent={id:string;user_id:string;title:string;event_type:EventType;starts_at:string;ends_at:string|null;location_name:string;description:string;created_at:string;canceled_at:string|null;host:RiderRef;mine:boolean;going_count:number;interested_count:number;my_rsvp:'going'|'interested'|null};
+export type RideEvent={id:string;user_id:string;title:string;event_type:EventType;starts_at:string;ends_at:string|null;location_name:string;description:string;created_at:string;canceled_at:string|null;host:RiderRef;mine:boolean;going_count:number;interested_count:number;my_rsvp:'going'|'interested'|null;my_rsvp_public?:boolean;going_riders?:ListedRider[]};
 export type ThreadSummary={rider:RiderRef;last_message:{body:string;created_at:string;mine:boolean};unread:number};
 export type ThreadMessage={id:string;body:string;created_at:string;mine:boolean};
 export type SetupResult='better'|'worse'|'no_change'|'not_tested';

@@ -16,7 +16,7 @@ import {DateField,rideDays,recentDays} from './DateSheet';
 import {AttachedPhotos,PostPhotos} from './PhotoUI';
 import {addPhotos,pickImages,uploadPhoto,type Photo} from './photos';
 import type {Bike} from '../../../shared/types';
-import {COMMUNITY_RULES,EVENT_TYPE_LABELS,POST_CATEGORY_LABELS,SETUP_FIELDS,SETUP_RESULT_LABELS,riderName,setupDifferences,type Part,type PartAssembly,type PartCatalog,type Post,type PostCategory,type PostComment,type Profile,type RideEvent,type RiderRef,type SetupLog,type SetupResult,type ThreadMessage,type ThreadSummary} from '../../../shared/rider-types';
+import {COMMUNITY_RULES,EVENT_TYPE_LABELS,POST_CATEGORY_LABELS,SETUP_FIELDS,SETUP_RESULT_LABELS,riderName,setupDifferences,type Part,type PartAssembly,type PartCatalog,type Post,type PostCategory,type PostComment,type ListedRider,type Profile,type RideEvent,type RiderRef,type SetupLog,type SetupResult,type ThreadMessage,type ThreadSummary} from '../../../shared/rider-types';
 import {setupLogsWithPending} from './HomeBlocks';
 import {api,apiQueued} from './api';
 import {adjusters,beforeYouTune,symptomGuides} from '../../../shared/setup-knowledge';
@@ -123,7 +123,7 @@ const FILTERS:{value:PostCategory|'';label:string}[]=[{value:'',label:'All'},{va
 /** Community: a feed first. One-line composer, small filters, then posts that use the full width. */
 export function CommunityScreen({bike,onMessage}:{bike?:Bike;onMessage:(r:RiderRef)=>void}){
  const {profile,setProfile}=useProfile();
- const [posts,setPosts]=useState<Post[]>([]),[filter,setFilter]=useState<PostCategory|''>(''),[notice,setNotice]=useState(''),[loading,setLoading]=useState(false),[composing,setComposing]=useState(false),[open,setOpen]=useState(''),[viewing,setViewing]=useState(''),[reporting,setReporting]=useState(''),[reason,setReason]=useState('');
+ const [posts,setPosts]=useState<Post[]>([]),[filter,setFilter]=useState<PostCategory|''>(''),[notice,setNotice]=useState(''),[loading,setLoading]=useState(false),[composing,setComposing]=useState(false),[open,setOpen]=useState(''),[viewing,setViewing]=useState(''),[reporting,setReporting]=useState(''),[reason,setReason]=useState(''),[likers,setLikers]=useState<{title:string;path:string}|null>(null);
  const run=useRef(0);
  const load=useCallback(async()=>{const mine=++run.current;setLoading(true);try{const data=await api<Post[]>('/api/posts'+(filter?'?category='+filter:''));if(mine===run.current){setPosts(data);setNotice('');}}catch(e){if(mine===run.current)setNotice(errorText(e));}finally{if(mine===run.current)setLoading(false);}},[filter]);
  useFocusEffect(useCallback(()=>{if(profile)void load();},[load,profile?.user_id]));
@@ -151,14 +151,15 @@ export function CommunityScreen({bike,onMessage}:{bike?:Bike;onMessage:(r:RiderR
   <Notice text={notice}/>
   {loading&&!posts.length&&<SkeletonList kind="post"/>}
   {!loading&&!posts.length&&<View style={{paddingVertical:40,alignItems:'center',gap:10}}><Icon name="riders" size={40} color="#7d8593" bg="#060609"/><Text style={{color:colors.text,fontSize:18,fontWeight:'800'}}>Nothing here yet</Text><Text style={{color:'#adb5c1',fontSize:14,textAlign:'center'}}>Be the first to post a build, a setup question or a ride plan.</Text></View>}
-  <View style={{marginHorizontal:-20}}>{posts.map(p=><PostView key={p.id} p={p} open={open===p.id} onOpen={()=>setOpen(open===p.id?'':p.id)} onLike={()=>void like(p)} onMore={()=>more(p)} onRider={()=>setViewing(p.user_id)} onCount={n=>setPosts(old=>old.map(x=>x.id===p.id?{...x,comment_count:n}:x))}
+  <View style={{marginHorizontal:-20}}>{posts.map(p=><PostView key={p.id} p={p} open={open===p.id} onOpen={()=>setOpen(open===p.id?'':p.id)} onLike={()=>void like(p)} onMore={()=>more(p)} onRider={()=>setViewing(p.user_id)} onLikers={path=>setLikers({title:'Liked by',path})} onCount={n=>setPosts(old=>old.map(x=>x.id===p.id?{...x,comment_count:n}:x))}
    report={reporting===p.id?<View style={{gap:10,paddingHorizontal:20}}><Field label="What’s wrong with this post?" value={reason} onChangeText={setReason} multiline maxLength={1000} autoCapitalize="sentences"/><View style={{flexDirection:'row',gap:22}}><LinkActionLite title="Send report" onPress={()=>void report(p)}/><LinkActionLite muted title="Cancel" onPress={()=>setReporting('')}/></View></View>:null}/>)}</View>
+  <RiderListSheet list={likers} onClose={()=>setLikers(null)} onRider={id=>{setLikers(null);setViewing(id);}}/>
   <ComposeSheet visible={composing} profile={profile} bike={bike} onClose={()=>setComposing(false)} onPosted={()=>{setComposing(false);void load();}}/>
  </Page>;
 }
 function LinkActionLite({title,onPress,muted=false}:{title:string;onPress:()=>void;muted?:boolean}){return <Pressable accessibilityRole="button" hitSlop={8} onPress={onPress}><Text style={{color:muted?'#adb5c1':colors.accent,fontSize:15,fontWeight:'700'}}>{title}</Text></Pressable>;}
 
-function PostView({p,open,onOpen,onLike,onMore,onRider,onCount,report}:{p:Post;open:boolean;onOpen:()=>void;onLike:()=>void;onMore:()=>void;onRider:()=>void;onCount:(n:number)=>void;report:React.ReactNode}){
+function PostView({p,open,onOpen,onLike,onMore,onRider,onLikers,onCount,report}:{p:Post;open:boolean;onOpen:()=>void;onLike:()=>void;onMore:()=>void;onRider:()=>void;onLikers:(path:string)=>void;onCount:(n:number)=>void;report:React.ReactNode}){
  const [full,setFull]=useState(false),long=p.body.length>320||p.body.split('\n').length>6;
  return <View style={{paddingTop:18,paddingBottom:6,gap:12,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#262b34'}}>
   <View style={{flexDirection:'row',alignItems:'center',gap:12,paddingHorizontal:20}}>
@@ -176,12 +177,12 @@ function PostView({p,open,onOpen,onLike,onMore,onRider,onCount,report}:{p:Post;o
   {!!p.photos?.length&&<PostPhotos photos={p.photos}/>}
   {report}
   <View style={{flexDirection:'row',alignItems:'center',gap:22,paddingHorizontal:20}}>
-   <Pressable accessibilityRole="button" haptic={false} accessibilityLabel={p.liked?'Unlike':'Like'} accessibilityState={{selected:p.liked}} hitSlop={8} onPress={onLike} style={{flexDirection:'row',alignItems:'center',gap:6}}><Icon name={p.liked?'heartOn':'heart'} size={23} color={p.liked?'#e8607a':colors.text}/>{p.like_count>0&&<Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>{p.like_count}</Text>}</Pressable>
+   <Pressable accessibilityRole="button" haptic={false} accessibilityLabel={p.liked?'Unlike':'Like'} accessibilityState={{selected:p.liked}} hitSlop={8} onPress={onLike} style={{flexDirection:'row',alignItems:'center',gap:6}}><Icon name={p.liked?'heartOn':'heart'} size={23} color={p.liked?'#e8607a':colors.text}/></Pressable>{p.like_count>0&&<Pressable accessibilityRole="button" accessibilityLabel="See who liked this" hitSlop={8} onPress={()=>onLikers('/api/likes?post_id='+p.id)} style={{marginLeft:-14}}><Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>{p.like_count===1?'1 like':p.like_count+' likes'}</Text></Pressable>}
    <Pressable accessibilityRole="button" accessibilityLabel="Comments" hitSlop={8} onPress={onOpen} style={{flexDirection:'row',alignItems:'center',gap:6}}><Icon name="comment" size={22} color={colors.text}/>{p.comment_count>0&&<Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>{p.comment_count}</Text>}</Pressable>
    <Pressable accessibilityRole="button" accessibilityLabel="Share" hitSlop={8} onPress={()=>void Share.share({message:`${riderName(p.author)} on BAK MX:\n\n${p.body}`}).catch(()=>{})}><Icon name="share" size={22} color={colors.text}/></Pressable>
   </View>
   {!open&&p.comment_count>0&&<Pressable onPress={onOpen} style={{paddingHorizontal:20}}><Text style={{color:'#adb5c1',fontSize:14}}>View {p.comment_count===1?'1 comment':`all ${p.comment_count} comments`}</Text></Pressable>}
-  {open&&<Comments postId={p.id} onCount={onCount}/>}
+  {open&&<Comments postId={p.id} onCount={onCount} onLikers={onLikers}/>}
  </View>;
 }
 
@@ -229,13 +230,14 @@ function ComposeSheet({visible,profile,bike,onClose,onPosted}:{visible:boolean;p
  </Modal>;
 }
 
-function Comments({postId,onCount}:{postId:string;onCount:(n:number)=>void}){
+function Comments({postId,onCount,onLikers}:{postId:string;onCount:(n:number)=>void;onLikers:(path:string)=>void}){
  const [comments,setComments]=useState<PostComment[]>([]),[text,setText]=useState(''),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
+ async function likeComment(c:PostComment){hSelect();setComments(old=>old.map(x=>x.id===c.id?{...x,liked:!c.liked,like_count:(c.like_count??0)+(c.liked?-1:1)}:x));try{await api('/api/comment-likes?comment_id='+c.id,c.liked?'DELETE':'PUT');}catch(e){setNotice(errorText(e));void load();}}
  const load=useCallback(async()=>{try{const data=await api<PostComment[]>('/api/comments?post_id='+postId);setComments(data);onCount(data.length);}catch(e){setNotice(errorText(e));}},[postId]);
  useEffect(()=>{void load();},[load]);
  async function add(){if(busy||!text.trim())return;setBusy(true);try{await api('/api/comments','POST',{post_id:postId,body:text});setText('');await load();}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
  return <View style={{gap:12,paddingHorizontal:20,paddingTop:4}}>
-  {comments.map(c=><View key={c.id} style={{flexDirection:'row',gap:10}}><Avatar name={riderName(c.author)} uri={c.author.avatar_url} size={30}/><View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:14.5,lineHeight:21}}><Text style={{fontWeight:'700'}}>{riderName(c.author)} </Text>{c.body}</Text><View style={{flexDirection:'row',gap:14}}><Text style={{color:'#9aa2ae',fontSize:12}}>{ago(c.created_at)}</Text>{c.mine&&<Pressable hitSlop={8} onPress={()=>void api('/api/comments?id='+c.id,'DELETE').then(load).catch(e=>setNotice(errorText(e)))}><Text style={{color:'#efb5be',fontSize:12,fontWeight:'600'}}>Delete</Text></Pressable>}</View></View></View>)}
+  {comments.map(c=><View key={c.id} style={{flexDirection:'row',gap:10}}><Avatar name={riderName(c.author)} uri={c.author.avatar_url} size={30}/><View style={{flex:1,gap:2}}><Text style={{color:colors.text,fontSize:14.5,lineHeight:21}}><Text style={{fontWeight:'700'}}>{riderName(c.author)} </Text>{c.body}</Text><View style={{flexDirection:'row',gap:14}}><Text style={{color:'#9aa2ae',fontSize:12}}>{ago(c.created_at)}</Text><Pressable accessibilityRole="button" accessibilityLabel={c.liked?'Unlike comment':'Like comment'} accessibilityState={{selected:!!c.liked}} hitSlop={8} onPress={()=>void likeComment(c)}><Icon name={c.liked?'heartOn':'heart'} size={14} color={c.liked?'#e8607a':'#9aa2ae'}/></Pressable>{(c.like_count??0)>0&&<Pressable accessibilityRole="button" accessibilityLabel="See who liked this comment" hitSlop={8} onPress={()=>onLikers('/api/comment-likes?comment_id='+c.id)}><Text style={{color:'#9aa2ae',fontSize:12,fontWeight:'600'}}>{c.like_count===1?'1 like':c.like_count+' likes'}</Text></Pressable>}{c.mine&&<Pressable hitSlop={8} onPress={()=>void api('/api/comments?id='+c.id,'DELETE').then(load).catch(e=>setNotice(errorText(e)))}><Text style={{color:'#efb5be',fontSize:12,fontWeight:'600'}}>Delete</Text></Pressable>}</View></View></View>)}
   <Notice text={notice}/>
   <View style={{flexDirection:'row',alignItems:'center',gap:8,borderWidth:1,borderColor:'#2f3540',borderRadius:22,paddingLeft:14,paddingRight:5,paddingVertical:4}}><TextInput editable={!busy} value={text} onChangeText={setText} maxLength={2000} autoCapitalize="sentences" placeholder="Add a comment…" placeholderTextColor="#7d8593" accessibilityLabel="Add a comment" style={{flex:1,color:colors.text,fontSize:15,paddingVertical:8}} onSubmitEditing={()=>void add()} returnKeyType="send"/><Pressable accessibilityRole="button" accessibilityLabel="Post comment" disabled={busy||!text.trim()} onPress={()=>void add()} style={[{width:32,height:32,borderRadius:16,alignItems:'center',justifyContent:'center'},!!text.trim()&&blueLift]}>{!!text.trim()&&<BlueFace radius={16}/>}<Icon name="arrowUp" size={17} color={text.trim()?'#ffffff':'#7d8593'} weight={2.2}/></Pressable></View>
  </View>;
@@ -251,7 +253,7 @@ export function parseLocalStamp(value:string):Date|null{
 }
 export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
  const {profile,setProfile}=useProfile();
- const [formNotice,setFormNotice]=useState('');const [events,setEvents]=useState<RideEvent[]>([]),[scope,setScope]=useState<'upcoming'|'past'>('upcoming'),[notice,setNotice]=useState(''),[loading,setLoading]=useState(false),[creating,setCreating]=useState(false),[busy,setBusy]=useState(false),[open,setOpen]=useState('');
+ const [formNotice,setFormNotice]=useState('');const [events,setEvents]=useState<RideEvent[]>([]),[scope,setScope]=useState<'upcoming'|'past'>('upcoming'),[notice,setNotice]=useState(''),[loading,setLoading]=useState(false),[creating,setCreating]=useState(false),[busy,setBusy]=useState(false),[open,setOpen]=useState(''),[viewing,setViewing]=useState(''),[going,setGoing]=useState<RideEvent|null>(null);
  const [title,setTitle]=useState(''),[type,setType]=useState('practice'),[starts,setStarts]=useState(()=>{const d=new Date(Date.now()+86400000);d.setHours(9,0,0,0);return localStamp(d);}),[ends,setEnds]=useState(''),[place,setPlace]=useState(''),[details,setDetails]=useState('');
  const load=useCallback(async()=>{setLoading(true);try{setEvents(await api<RideEvent[]>('/api/events?scope='+scope));setNotice('');}catch(e){setNotice(errorText(e));}finally{setLoading(false);}},[scope]);
  useFocusEffect(useCallback(()=>{if(profile)void load();},[load,profile?.user_id]));
@@ -266,7 +268,13 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
    success();setTitle('');setPlace('');setDetails('');setEnds('');setCreating(false);setScope('upcoming');await load();
   }catch(e){setFormNotice(errorText(e));}finally{setBusy(false);}
  }
- async function rsvp(ev:RideEvent,status:'going'|'interested'){try{if(ev.my_rsvp===status)await api('/api/rsvps?event_id='+ev.id,'DELETE');else await api('/api/rsvps','PUT',{event_id:ev.id,status});await load();}catch(e){setNotice(errorText(e));}}
+ async function save(ev:RideEvent,status:'going'|'interested',pub?:boolean){try{if(ev.my_rsvp===status&&pub===undefined)await api('/api/rsvps?event_id='+ev.id,'DELETE');else await api('/api/rsvps','PUT',{event_id:ev.id,status,...(pub===undefined?{}:{public:pub})});await load();}catch(e){setNotice(errorText(e));}}
+ /** Saying "going" confirms first and asks whether to show the rider on the going list; the total counts them either way. */
+ function rsvp(ev:RideEvent,status:'going'|'interested'){
+  if(status==='going'&&ev.my_rsvp!=='going')Alert.alert('You’re going to '+ev.title,'Show your profile on the going list? You’re counted in the total either way.',[{text:'Show me',onPress:()=>void save(ev,'going',true)},{text:'Keep me private',onPress:()=>void save(ev,'going',false)},{text:'Cancel',style:'cancel'}]);
+  else void save(ev,status);
+ }
+ if(viewing)return <RiderProfileView riderId={viewing} onBack={()=>setViewing('')} onMessage={r=>{setViewing('');onMessage(r);}}/>;
  if(profile===undefined)return <Page title="Events"><Copy>Loading…</Copy></Page>;
  if(!profile)return <Page title="Events"><Copy>Ride days, races, practice nights, clinics and meetups posted by riders.</Copy><NeedsProfile onSaved={setProfile}/></Page>;
  return <Page title="Events">
@@ -289,12 +297,18 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
    <View style={{gap:6}}><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="clock" size={17} color="#adb5c1"/><Text style={{color:'#c9cfd9',fontSize:15}}>{when(ev.starts_at)}{ev.ends_at?' – '+when(ev.ends_at):''}</Text></View><View style={{flexDirection:'row',alignItems:'center',gap:8}}><Icon name="location" size={17} color="#adb5c1"/><Text style={{color:'#c9cfd9',fontSize:15,flex:1}}>{ev.location_name}</Text></View></View>
    <Copy>Hosted by {riderName(ev.host)} · {ev.going_count} going · {ev.interested_count} interested</Copy>
    {open===ev.id&&!!ev.description&&<Text selectable style={{color:colors.text,fontSize:15,lineHeight:23}}>{ev.description}</Text>}
+   {ev.going_count>0&&<Pressable accessibilityRole="button" accessibilityLabel="See who's going" onPress={()=>setGoing(ev)} style={{flexDirection:'row',alignItems:'center',gap:8}}>
+    <View style={{flexDirection:'row'}}>{(ev.going_riders??[]).slice(0,5).map((r,i)=><View key={r.user_id} style={{marginLeft:i?-8:0,borderRadius:14,borderWidth:2,borderColor:colors.panel}}><Avatar name={riderName(r)} uri={r.avatar_url} size={24}/></View>)}</View>
+    <Text style={{color:'#adb5c1',fontSize:13.5,flex:1}}>{(ev.going_riders??[]).length?`${(ev.going_riders??[]).slice(0,2).map(r=>r.me?'You':riderName(r)).join(', ')}${ev.going_count>2?` and ${ev.going_count-Math.min(2,(ev.going_riders??[]).length)} more`:''} going`:`${ev.going_count} going`}</Text>
+   </Pressable>}
+   {!ev.canceled_at&&scope==='upcoming'&&ev.my_rsvp==='going'&&<Link title={ev.my_rsvp_public?'Shown on the going list · Hide me':'Private, counted only · Show me'} onPress={()=>void save(ev,'going',!ev.my_rsvp_public)}/>}
    {!ev.canceled_at&&scope==='upcoming'&&<View style={{flexDirection:'row',gap:10}}><View style={{flex:1}}><Button secondary={ev.my_rsvp!=='going'} title={ev.my_rsvp==='going'?'Going':'I’m going'} onPress={()=>void rsvp(ev,'going')}/></View><View style={{flex:1}}><Button secondary={ev.my_rsvp!=='interested'} title="Interested" onPress={()=>void rsvp(ev,'interested')}/></View></View>}
    <Row>{!!ev.description&&<Link title={open===ev.id?'Hide details':'Details'} onPress={()=>setOpen(open===ev.id?'':ev.id)}/>}
     {ev.mine&&<Link title={ev.canceled_at?'Restore event':'Cancel event'} onPress={()=>void api('/api/events?id='+ev.id,'PATCH',{canceled:!ev.canceled_at}).then(load).catch(e=>setNotice(errorText(e)))}/>}
     {ev.mine&&<Link danger title="Delete" onPress={()=>Alert.alert('Delete this event?','',[{text:'Cancel',style:'cancel'},{text:'Delete',style:'destructive',onPress:()=>void api('/api/events?id='+ev.id,'DELETE').then(load).catch(e=>setNotice(errorText(e)))}])}/>}</Row>
    {!ev.mine&&<RiderActions rider={ev.host} target={{type:'event',id:ev.id}} onMessage={onMessage} onBlocked={()=>void load()}/>}
   </Card>)}
+  <RiderListSheet list={going?{title:`Going · ${going.going_count}`,riders:going.going_riders??[],footer:going.going_count>(going.going_riders??[]).length?`${going.going_count-(going.going_riders??[]).length===1?'1 more rider is':`${going.going_count-(going.going_riders??[]).length} more riders are`} going and kept it private.`:''}:null} onClose={()=>setGoing(null)} onRider={id=>{setGoing(null);setViewing(id);}}/>
  </Page>;
 }
 
@@ -472,4 +486,30 @@ function SkeletonList({kind}:{kind:'post'|'event'}){
    ?<View key={i} style={{gap:12}}><View style={{flexDirection:'row',gap:10,alignItems:'center'}}><View style={{width:36,height:36,borderRadius:18,backgroundColor:'#20242c'}}/><View style={{gap:7}}>{bar(130)}{bar(90,10)}</View></View>{bar('70%')}<View style={{height:190,borderRadius:14,backgroundColor:'#121418'}}/></View>
    :<View key={i} style={{flexDirection:'row',gap:14,alignItems:'center'}}><View style={{width:46,height:50,borderRadius:10,backgroundColor:'#20242c'}}/><View style={{flex:1,gap:8}}>{bar('75%',14)}{bar('50%',10)}</View></View>)}
  </Animated.View>;
+}
+
+/** A list of riders in a sheet: who liked a post or comment (loaded from path), or who is going (given). */
+function RiderListSheet({list,onClose,onRider}:{list:{title:string;path?:string;riders?:ListedRider[];footer?:string}|null;onClose:()=>void;onRider:(id:string)=>void}){
+ const insets=useSafeAreaInsets();
+ const [riders,setRiders]=useState<ListedRider[]|null>(null),[notice,setNotice]=useState('');
+ useEffect(()=>{setNotice('');if(!list){setRiders(null);return;}if(list.riders){setRiders(list.riders);return;}setRiders(null);let live=true;
+  api<ListedRider[]>(list.path!).then(r=>{if(live)setRiders(r);}).catch(e=>{if(live)setNotice(errorText(e));});return()=>{live=false;};},[list?.path,list?.title]);
+ return <Modal visible={!!list} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
+  <View style={{flex:1,backgroundColor:colors.bg}}>
+   <View style={{flexDirection:'row',alignItems:'center',paddingHorizontal:16,paddingTop:Platform.OS==='ios'?14:insets.top+10,paddingBottom:12,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:'#262b34'}}>
+    <View style={{flex:1}}/><Text style={{color:colors.text,fontSize:17,fontWeight:'800'}}>{list?.title}</Text>
+    <View style={{flex:1,alignItems:'flex-end'}}><Pressable accessibilityRole="button" hitSlop={10} onPress={onClose}><Text style={{color:'#b2b9c4',fontSize:16}}>Done</Text></Pressable></View>
+   </View>
+   <ScrollView contentContainerStyle={{padding:20,gap:14,paddingBottom:insets.bottom+20}}>
+    <Notice text={notice}/>
+    {riders===null&&!notice&&<ActivityIndicator color={colors.accent}/>}
+    {riders?.length===0&&!list?.footer&&<Copy>No one yet.</Copy>}
+    {riders?.map(r=><Pressable key={r.user_id} accessibilityRole="button" disabled={r.me} onPress={()=>onRider(r.user_id)} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:12,opacity:pressed?0.6:1})}>
+     <Avatar name={riderName(r)} uri={r.avatar_url} size={40}/>
+     <View style={{flex:1}}><Text style={{color:colors.text,fontSize:15.5,fontWeight:'700'}}>{r.me?'You':riderName(r)}</Text>{!!(r.riding_class||r.location)&&<Text style={{color:'#9aa2ae',fontSize:13}}>{[r.riding_class,r.location].filter(Boolean).join(' · ')}</Text>}</View>
+    </Pressable>)}
+    {!!list?.footer&&<Copy>{list.footer}</Copy>}
+   </ScrollView>
+  </View>
+ </Modal>;
 }

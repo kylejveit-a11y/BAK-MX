@@ -6,7 +6,7 @@ import {api} from './client';
 import {addPhotos,type Photo} from './photos';
 import {garageModelInfo} from '../shared/garage-models';
 import {adjusters,beforeYouTune,symptomGuides,mechanicalMimics,talkingToYourTuner,workOrder} from '../shared/setup-knowledge';
-import {COMMUNITY_RULES,EVENT_TYPE_LABELS,POST_CATEGORY_LABELS,SETUP_FIELDS,SETUP_RESULT_LABELS,riderName,setupDifferences,type EventType,yearRanges,type Part,type PartAssembly,type PartCatalog,type PartFit,type Post,type PostCategory,type PostComment,type Profile,type RideEvent,type RiderRef,type SetupLog,type SetupResult,type ThreadMessage,type ThreadSummary} from '../shared/rider-types';
+import {COMMUNITY_RULES,EVENT_TYPE_LABELS,POST_CATEGORY_LABELS,SETUP_FIELDS,SETUP_RESULT_LABELS,riderName,setupDifferences,type EventType,yearRanges,type Part,type PartAssembly,type PartCatalog,type PartFit,type Post,type PostCategory,type PostComment,type ListedRider,type Profile,type RideEvent,type RiderRef,type SetupLog,type SetupResult,type ThreadMessage,type ThreadSummary} from '../shared/rider-types';
 import './rider.css';
 
 /* Rider surfaces for the web client: Community, Events, Messages, Profile, Feedback, Setup log, Parts.
@@ -189,7 +189,7 @@ export function Community({signedIn,bike,onSignIn,onMessage}:{signedIn:boolean;b
   {viewing&&<RiderProfile riderId={viewing} onClose={()=>setViewing('')} onMessage={onMessage}/>}
   {loading&&!posts.length&&<SkeletonList kind="post"/>}
   {!loading&&!posts.length&&<Gate icon={<Users size={26}/>} title="Nothing here yet.">Be the first to post a build, a setup question or a ride plan.</Gate>}
-  <div className="feed rd-feed">{posts.map(p=><PostCard key={p.id} post={p} open={openPost===p.id} onOpen={()=>setOpenPost(openPost===p.id?'':p.id)} onLike={()=>void toggleLike(p)} onDelete={()=>void remove(p)} onRider={()=>setViewing(p.user_id)} onMessage={onMessage} onBlocked={()=>setPosts(old=>old.filter(x=>x.user_id!==p.user_id))} onCount={n=>setPosts(prev=>prev.map(x=>x.id===p.id?{...x,comment_count:n}:x))}/>)}</div>
+  <div className="feed rd-feed">{posts.map(p=><PostCard key={p.id} post={p} open={openPost===p.id} onOpen={()=>setOpenPost(openPost===p.id?'':p.id)} onLike={()=>void toggleLike(p)} onDelete={()=>void remove(p)} onRider={()=>setViewing(p.user_id)} onViewRider={setViewing} onMessage={onMessage} onBlocked={()=>setPosts(old=>old.filter(x=>x.user_id!==p.user_id))} onCount={n=>setPosts(prev=>prev.map(x=>x.id===p.id?{...x,comment_count:n}:x))}/>)}</div>
  </>;
 }
 /** Share through the device sheet when the browser has one; otherwise copy the text and link. */
@@ -200,8 +200,8 @@ async function sharePost(p:Post):Promise<string>{
   await navigator.clipboard.writeText(text+'\n\n'+url);return 'Copied. Paste it anywhere.';
  }catch(e){return (e as Error).name==='AbortError'?'':'Could not share this post.';}
 }
-function PostCard({post:p,open,onOpen,onLike,onDelete,onRider,onMessage,onBlocked,onCount}:{post:Post;open:boolean;onOpen:()=>void;onLike:()=>void;onDelete:()=>void;onRider:()=>void;onMessage:(r:RiderRef)=>void;onBlocked:()=>void;onCount:(n:number)=>void}){
- const [full,setFull]=useState(false),[mode,setMode]=useState<''|'report'|'block'>(''),[note,setNote]=useState('');
+function PostCard({post:p,open,onOpen,onLike,onDelete,onRider,onViewRider,onMessage,onBlocked,onCount}:{post:Post;open:boolean;onOpen:()=>void;onLike:()=>void;onDelete:()=>void;onRider:()=>void;onViewRider:(id:string)=>void;onMessage:(r:RiderRef)=>void;onBlocked:()=>void;onCount:(n:number)=>void}){
+ const [full,setFull]=useState(false),[mode,setMode]=useState<''|'report'|'block'>(''),[note,setNote]=useState(''),[likers,setLikers]=useState(false);
  const long=p.body.length>320||p.body.split('\n').length>6;
  const menu:MenuItem[]=p.mine?[{label:'Delete post',danger:true,onPick:onDelete}]:[{label:'Message',onPick:()=>onMessage(p.author)},{label:'View profile',onPick:onRider},{label:'Report post',onPick:()=>setMode('report')},{label:'Block',danger:true,onPick:()=>setMode('block')}];
  return <article className="panel post rd-post">
@@ -218,13 +218,14 @@ function PostCard({post:p,open,onOpen,onLike,onDelete,onRider,onMessage,onBlocke
   {!!p.photos?.length&&<div className={'post-photos n'+Math.min(p.photos.length,4)}>{p.photos.map(ph=><a key={ph.id} href={ph.url} target="_blank" rel="noreferrer"><img src={ph.url} alt="" loading="lazy"/></a>)}</div>}
   {mode&&<ModerationPanel mode={mode} rider={p.author} target={{type:'post',id:p.id}} onClose={()=>setMode('')} onBlocked={onBlocked}/>}
   <footer className="rd-post-foot">
-   <button type="button" className={'rd-act'+(p.liked?' liked':'')} aria-pressed={p.liked} aria-label={p.liked?'Unlike':'Like'} onClick={onLike}><Heart size={21} fill={p.liked?'currentColor':'none'}/>{p.like_count>0&&<span>{p.like_count}</span>}</button>
+   <button type="button" className={'rd-act'+(p.liked?' liked':'')} aria-pressed={p.liked} aria-label={p.liked?'Unlike':'Like'} onClick={onLike}><Heart size={21} fill={p.liked?'currentColor':'none'}/></button>{p.like_count>0&&<button type="button" className="rd-likecount" aria-expanded={likers} onClick={()=>setLikers(!likers)}>{p.like_count===1?'1 like':p.like_count+' likes'}</button>}
    <button type="button" className="rd-act" aria-expanded={open} aria-label="Comments" onClick={onOpen}><MessageSquare size={20}/>{p.comment_count>0&&<span>{p.comment_count}</span>}</button>
    <button type="button" className="rd-act" aria-label="Share" onClick={()=>void sharePost(p).then(n=>{setNote(n);if(n)setTimeout(()=>setNote(''),2500);})}><Share2 size={20}/></button>
    {note&&<span className="subtle rd-note" role="status">{note}</span>}
   </footer>
+  {likers&&<RiderList title="Liked by" load={()=>api<ListedRider[]>('/likes?post_id='+p.id)} onRider={onViewRider} onClose={()=>setLikers(false)} empty="No likes yet."/>}
   {!open&&p.comment_count>0&&<button type="button" className="text-button rd-viewcomments" onClick={onOpen}>View {p.comment_count===1?'1 comment':`all ${p.comment_count} comments`}</button>}
-  {open&&<Comments post={p} onCount={onCount}/>}
+  {open&&<Comments post={p} onCount={onCount} onViewRider={onViewRider}/>}
  </article>;
 }
 /** New post: category chips, the bike tag, up to four photos. */
@@ -255,7 +256,9 @@ function Composer({profile,bike,onClose,onPosted}:{profile:Profile;bike?:Bike;on
   </div>
  </form></section>;
 }
-function Comments({post,onCount}:{post:Post;onCount:(n:number)=>void}){
+function Comments({post,onCount,onViewRider}:{post:Post;onCount:(n:number)=>void;onViewRider:(id:string)=>void}){
+ const [likers,setLikers]=useState('');
+ async function likeComment(c:PostComment){setComments(old=>old.map(x=>x.id===c.id?{...x,liked:!c.liked,like_count:(c.like_count??0)+(c.liked?-1:1)}:x));try{await api('/comment-likes?comment_id='+c.id,c.liked?'DELETE':'PUT');}catch(e){setError(errorText(e));void load();}}
  const [comments,setComments]=useState<PostComment[]>([]),[text,setText]=useState(''),[busy,setBusy]=useState(false),[error,setError]=useState(''),[loaded,setLoaded]=useState(false),[mod,setMod]=useState<{id:string;mode:'report'|'block'}|null>(null);
  async function load(){try{const data=await api<PostComment[]>('/comments?post_id='+post.id);setComments(data);onCount(data.length);setError('');}catch(e){setError(errorText(e));}finally{setLoaded(true);}}
  useEffect(()=>{void load();},[post.id]);
@@ -265,7 +268,8 @@ function Comments({post,onCount}:{post:Post;onCount:(n:number)=>void}){
   {!loaded&&<SkeletonList kind="thread"/>}
   {comments.map(c=><div className="rd-comment" key={c.id}>
    <Avatar rider={c.author} size={30}/>
-   <div className="rd-comment-body"><p className="plain-message"><strong>{riderName(c.author)} </strong>{c.body}</p><span className="subtle">{ago(c.created_at)}</span>
+   <div className="rd-comment-body"><p className="plain-message"><strong>{riderName(c.author)} </strong>{c.body}</p><span className="rd-comment-meta"><span className="subtle">{ago(c.created_at)}</span><button type="button" className={'rd-clike'+(c.liked?' liked':'')} aria-pressed={!!c.liked} aria-label={c.liked?'Unlike comment':'Like comment'} onClick={()=>void likeComment(c)}><Heart size={14} fill={c.liked?'currentColor':'none'}/></button>{(c.like_count??0)>0&&<button type="button" className="rd-likecount small" onClick={()=>setLikers(likers===c.id?'':c.id)}>{c.like_count===1?'1 like':c.like_count+' likes'}</button>}</span>
+    {likers===c.id&&<RiderList title="Liked by" load={()=>api<ListedRider[]>('/comment-likes?comment_id='+c.id)} onRider={onViewRider} onClose={()=>setLikers('')} empty="No likes yet."/>}
     {mod?.id===c.id&&<ModerationPanel mode={mod.mode} rider={c.author} target={{type:'comment',id:c.id}} onClose={()=>setMod(null)} onBlocked={()=>{setMod(null);setComments(old=>old.filter(x=>x.user_id!==c.user_id));}}/>}
    </div>
    <MoreMenu size={17} label="More about this comment" items={c.mine?[{label:'Delete comment',danger:true,onPick:()=>void remove(c)}]:[{label:'Report comment',onPick:()=>setMod({id:c.id,mode:'report'})},{label:'Block',danger:true,onPick:()=>setMod({id:c.id,mode:'block'})}]}/>
@@ -278,7 +282,7 @@ function Comments({post,onCount}:{post:Post;onCount:(n:number)=>void}){
 /* ------------------------------------------------------------------ Events */
 export function Events({signedIn,onSignIn,onMessage}:{signedIn:boolean;onSignIn:()=>void;onMessage:(r:RiderRef)=>void}){
  const {profile,setProfile}=useProfile(signedIn);
- const [events,setEvents]=useState<RideEvent[]>([]),[scope,setScope]=useState<'upcoming'|'past'>('upcoming'),[creating,setCreating]=useState(false),[busy,setBusy]=useState(false),[error,setError]=useState(''),[formError,setFormError]=useState(''),[open,setOpen]=useState(''),[loading,setLoading]=useState(false),[type,setType]=useState<EventType>('practice'),[rsvpBusy,setRsvpBusy]=useState('');
+ const [events,setEvents]=useState<RideEvent[]>([]),[scope,setScope]=useState<'upcoming'|'past'>('upcoming'),[creating,setCreating]=useState(false),[busy,setBusy]=useState(false),[error,setError]=useState(''),[formError,setFormError]=useState(''),[open,setOpen]=useState(''),[loading,setLoading]=useState(false),[type,setType]=useState<EventType>('practice'),[rsvpBusy,setRsvpBusy]=useState(''),[askPublic,setAskPublic]=useState(''),[viewing,setViewing]=useState(''),[whoGoing,setWhoGoing]=useState('');
  async function load(){setLoading(true);try{setEvents(await api<RideEvent[]>('/events?scope='+scope));setError('');}catch(e){setError(errorText(e));}finally{setLoading(false);}}
  useEffect(()=>{if(signedIn&&profile)void load();},[signedIn,profile?.user_id,scope]);
  async function create(e:FormEvent<HTMLFormElement>){
@@ -294,9 +298,11 @@ export function Events({signedIn,onSignIn,onMessage}:{signedIn:boolean;onSignIn:
    form.reset();setCreating(false);setScope('upcoming');await load();
   }catch(err){setFormError(errorText(err));}finally{setBusy(false);}
  }
- async function rsvp(ev:RideEvent,status:'going'|'interested'){
-  setRsvpBusy(ev.id);
-  try{if(ev.my_rsvp===status)await api('/rsvps?event_id='+ev.id,'DELETE');else await api('/rsvps','PUT',{event_id:ev.id,status});await load();}catch(e){setError(errorText(e));}finally{setRsvpBusy('');}
+ async function rsvp(ev:RideEvent,status:'going'|'interested',pub?:boolean){
+  // Saying "going" asks first whether to show the rider on the public going list; the total counts them either way.
+  if(status==='going'&&ev.my_rsvp!=='going'&&pub===undefined){setAskPublic(ev.id);return;}
+  setRsvpBusy(ev.id);setAskPublic('');
+  try{if(ev.my_rsvp===status&&pub===undefined)await api('/rsvps?event_id='+ev.id,'DELETE');else await api('/rsvps','PUT',{event_id:ev.id,status,...(pub===undefined?{}:{public:pub})});await load();}catch(e){setError(errorText(e));}finally{setRsvpBusy('');}
  }
  if(!signedIn)return <SignInLine onSignIn={onSignIn}>Sign in to see ride days, races, practice nights, clinics and meetups posted by riders.</SignInLine>;
  if(profile===undefined)return <SkeletonList kind="event"/>;
@@ -317,6 +323,7 @@ export function Events({signedIn,onSignIn,onMessage}:{signedIn:boolean;onSignIn:
    {formError&&<div className="error" role="alert">{formError}</div>}
    <div className="button-row"><button className="button" type="submit" disabled={busy}>{busy?'Saving…':'Publish event'}</button></div>
   </form></section>}
+  {viewing&&<RiderProfile riderId={viewing} onClose={()=>setViewing('')} onMessage={onMessage}/>}
   {loading&&!events.length&&<SkeletonList kind="event"/>}
   {!loading&&!events.length&&<Gate icon={<CalendarDays size={26}/>} title={scope==='upcoming'?'No upcoming events yet.':'No past events.'}>{scope==='upcoming'?'Post the next ride day or practice night so other riders can plan around it.':'Events you could see are listed here after they happen.'}</Gate>}
   <div className="feed rd-events">{events.map(ev=>{const past=scope==='past',canceled=!!ev.canceled_at;return <article className={'panel event rd-event'+(canceled?' canceled':'')} key={ev.id}>
@@ -328,6 +335,12 @@ export function Events({signedIn,onSignIn,onMessage}:{signedIn:boolean;onSignIn:
     <p className="rd-eventline"><MapPin size={15}/><span>{ev.location_name}</span></p>
     <p className="rd-host"><Avatar rider={ev.host} size={22}/><span className="subtle">Hosted by {riderName(ev.host)} · {ev.going_count} going · {ev.interested_count} interested</span></p>
     {open===ev.id&&ev.description&&<p className="plain-message">{ev.description}</p>}
+    <GoingList ev={ev} open={whoGoing===ev.id} onToggle={()=>setWhoGoing(whoGoing===ev.id?'':ev.id)} onRider={setViewing}/>
+    {askPublic===ev.id&&<div className="rd-confirm" role="dialog" aria-label="Confirm you are going">
+     <p><strong>You’re going to {ev.title}.</strong> Show your profile on the going list? You’re counted in the total either way.</p>
+     <div className="button-row"><button type="button" className="button" disabled={rsvpBusy===ev.id} onClick={()=>void rsvp(ev,'going',true)}>Yes, show me</button><button type="button" className="button secondary" disabled={rsvpBusy===ev.id} onClick={()=>void rsvp(ev,'going',false)}>Keep me private</button><button type="button" className="text-button" onClick={()=>setAskPublic('')}>Cancel</button></div>
+    </div>}
+    {!canceled&&!past&&ev.my_rsvp==='going'&&<button type="button" className="text-button rd-visibility" disabled={rsvpBusy===ev.id} onClick={()=>void rsvp(ev,'going',!ev.my_rsvp_public)}>{ev.my_rsvp_public?'Shown on the going list · Hide me':'Private, counted only · Show me on the list'}</button>}
     {!canceled&&!past&&<div className="rd-rsvp" role="group" aria-label="Your RSVP">
      <button type="button" className={'rd-rsvp-button'+(ev.my_rsvp==='going'?' on':'')} aria-pressed={ev.my_rsvp==='going'} disabled={rsvpBusy===ev.id} onClick={()=>void rsvp(ev,'going')}>{ev.my_rsvp==='going'&&<Check size={15} strokeWidth={2.6}/>}{ev.my_rsvp==='going'?'Going':'I’m going'}</button>
      <button type="button" className={'rd-rsvp-button'+(ev.my_rsvp==='interested'?' on':'')} aria-pressed={ev.my_rsvp==='interested'} disabled={rsvpBusy===ev.id} onClick={()=>void rsvp(ev,'interested')}>{ev.my_rsvp==='interested'&&<Check size={15} strokeWidth={2.6}/>}Interested</button>
@@ -581,4 +594,30 @@ export function ReportQueue({signedIn}:{signedIn:boolean}){
    <p className="plain-message">{r.content?text(r.content)||'(no text)':'The reported item no longer exists.'}</p>
    <div className="button-row">{['post','comment','event'].includes(r.target_type)&&r.content&&<button className="button" disabled={busy===r.id} onClick={()=>resolve(r,'remove_content')}>Remove content</button>}<button className="button secondary" disabled={busy===r.id} onClick={()=>resolve(r,'dismiss')}>Dismiss</button></div></div>)}
  </section>;
+}
+
+/** A list of riders (who liked something, who is going). Riders hidden by a block never appear. */
+function RiderList({title,load,onRider,onClose,empty}:{title:string;load:()=>Promise<ListedRider[]>;onRider:(id:string)=>void;onClose:()=>void;empty:string}){
+ const [riders,setRiders]=useState<ListedRider[]|null>(null),[error,setError]=useState('');
+ useEffect(()=>{let live=true;load().then(r=>{if(live)setRiders(r);}).catch(e=>{if(live)setError(errorText(e));});return()=>{live=false;};},[]);
+ return <div className="rd-riderlist" role="region" aria-label={title}>
+  <div className="rd-riderlist-head"><strong>{title}</strong><button type="button" className="icon-button" aria-label="Close" onClick={onClose}><X size={16}/></button></div>
+  {error?<div className="error" role="alert">{error}</div>:riders===null?<span className="subtle">Loading…</span>:!riders.length?<span className="subtle">{empty}</span>:
+   <ul>{riders.map(r=><li key={r.user_id}><button type="button" className="rd-plain rd-riderrow" onClick={()=>!r.me&&onRider(r.user_id)} disabled={r.me}><Avatar rider={r} size={30}/><span><b>{r.me?'You':riderName(r)}</b>{(r.riding_class||r.location)&&<span className="subtle"> · {[r.riding_class,r.location].filter(Boolean).join(' · ')}</span>}</span></button></li>)}</ul>}
+ </div>;
+}
+/** Who's going: the riders who chose to be shown, plus how many more are going privately. */
+function GoingList({ev,open,onToggle,onRider}:{ev:RideEvent;open:boolean;onToggle:()=>void;onRider:(id:string)=>void}){
+ const shown=ev.going_riders??[],hidden=Math.max(0,ev.going_count-shown.length);
+ if(!ev.going_count)return null;
+ return <div className="rd-going">
+  <button type="button" className="rd-plain rd-going-row" aria-expanded={open} onClick={onToggle}>
+   <span className="rd-going-faces">{shown.slice(0,5).map(r=><Avatar key={r.user_id} rider={r} size={24}/>)}</span>
+   <span className="subtle">{shown.length?`${shown.slice(0,2).map(r=>r.me?'You':riderName(r)).join(', ')}${ev.going_count>2?` and ${ev.going_count-Math.min(2,shown.length)} more`:''} going`:`${ev.going_count} going`}</span>
+  </button>
+  {open&&<div className="rd-riderlist"><div className="rd-riderlist-head"><strong>Going · {ev.going_count}</strong><button type="button" className="icon-button" aria-label="Close" onClick={onToggle}><X size={16}/></button></div>
+   {shown.length?<ul>{shown.map(r=><li key={r.user_id}><button type="button" className="rd-plain rd-riderrow" onClick={()=>!r.me&&onRider(r.user_id)} disabled={r.me}><Avatar rider={r} size={30}/><span><b>{r.me?'You':riderName(r)}</b>{(r.riding_class||r.location)&&<span className="subtle"> · {[r.riding_class,r.location].filter(Boolean).join(' · ')}</span>}</span></button></li>)}</ul>:null}
+   {hidden>0&&<span className="subtle">{hidden===1?'1 more rider is':`${hidden} more riders are`} going and kept it private.</span>}
+  </div>}
+ </div>;
 }
