@@ -439,13 +439,16 @@ export async function generateAnswer(bike:Bike|null,history:Message[],claims:Cla
  let firstText=0;
  const first=await callWithBackup(answerModel(),onDraft?{...call,onText:soFar=>{const draft={summary:partialJsonString(soFar,'summary'),answer:partialJsonString(soFar,'answer')};if(!firstText&&(draft.summary||draft.answer))firstText=Date.now()-started;onDraft(draft);}}:call);
  let parsed=responseSchema.safeParse(fitToLimits(fromWire(first.parsed,real))),raw=first.raw,repaired=false;
- let violations=parsed.success?responseViolations(parsed.data,claims,fitted,knowledge):[shapeProblem(parsed.error)];
+ // A walkthrough's claims may rest on the reviewed job in front of the model: its id, or job:step, counts as the maker's own data.
+ const ops=(input.reviewed_workshop?.relevant_operations??[]) as {id:string;steps:{id:string}[]}[];
+ const checkKnowledge=[...knowledge,...ops.flatMap(o=>[o.id,...o.steps.flatMap(st=>[`${o.id}:${st.id}`,`${o.id}/${st.id}`,st.id])]).map(id=>({id,tier:'OEM'}) as unknown as Knowledge)];
+ let violations=parsed.success?responseViolations(parsed.data,claims,fitted,checkKnowledge):[shapeProblem(parsed.error)];
  if(violations.length&&Date.now()-started<(race?20000:50000)){
   // One repair, with the exact rules that were broken. A second failure is reported honestly rather than patched over.
   try{
    const second=await callModel(first.model,{...call,timeoutMs:25000,instructions:briefing+'\n\nYour previous draft broke these rules. Fix them and return the full corrected reply:\n- '+violations.join('\n- '),input:{...wire,previous_draft:first.parsed}});
    const again=responseSchema.safeParse(fitToLimits(fromWire(second.parsed,real)));
-   const remaining=again.success?responseViolations(again.data,claims,fitted,knowledge):violations;
+   const remaining=again.success?responseViolations(again.data,claims,fitted,checkKnowledge):violations;
    if(again.success&&remaining.length<violations.length){parsed=again;raw=second.raw;violations=remaining;repaired=true;}
   }catch{/* keep the first draft's verdict */}
  }
