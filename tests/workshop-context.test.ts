@@ -25,3 +25,14 @@ test('follow-up retrieval preserves rider context but assistant text alone canno
  const refs=workshopReferences(bike,prior,'What comes next?');
  assert.ok(refs.length&&refs.every(r=>r.kind==='SOURCE_REVIEWED_OPERATION'&&!r.title.includes('-v1')));
 });
+test('an engine rebuild walkthrough keeps its job and finds the job that covers each question',()=>{
+ const yz:any={...bike,model:'YZ125',model_year:2022};
+ const first=(h:string[],m:string)=>workshopContext(yz,h.map(content=>({role:'user',content})) as any,m).relevant_operations[0]?.title??'';
+ const start='I want to rebuild the motor on my 2022 YZ125. Can you walk me through it step by step?';
+ assert.match(first([],start),/engine out of the frame/i);
+ assert.match(first([start],'Done. What\'s next?'),/engine out of the frame/i);
+ assert.match(first([start],'How tight do the cylinder head bolts go, and in what order?'),/top end/i);
+ assert.match(first([start],'It\'s all back together. What\'s the break-in?'),/break-in/i);
+ const f:any={...bike,model:'YZ450F',model_year:2022};
+ assert.ok(workshopContext(f,[],'How tight do the cylinder head bolts go?').relevant_operations.every(p=>!/brake|caliper/i.test(p.title)));
+});
