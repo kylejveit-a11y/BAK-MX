@@ -22,6 +22,7 @@ export default function ProcedureGuide({bike,ownerId,onClose,onAsk}:{bike:Bike;o
  const scroll=useRef<ScrollView>(null);
  const {available,groups,coverage}=procedureCatalog(bike),procedure=available.find(p=>p.id===selected);
  useEffect(()=>{scroll.current?.scrollTo({y:0,animated:false});if(!procedure)setFooter(null);},[selected]);
+ const [openGroup,setOpenGroup]=useState<string|null>(()=>groups.find(g=>g.procedures.some(p=>p.id===selected||progressOf(ownerId,bike,p)))?.id??null);
  return <Page title={procedure?'':'Guided jobs'} scrollRef={scroll} footer={procedure?footer:undefined}>
   {procedure?<>
    <BackLink title="All guides" onPress={()=>setSelected('')}/>
@@ -30,10 +31,12 @@ export default function ProcedureGuide({bike,ownerId,onClose,onAsk}:{bike:Bike;o
    <BackLink title="Workshop" onPress={onClose}/>
    <Copy strong>{bike.model_year} {bike.manufacturer} {bike.model}</Copy>
    {!available.length&&<Copy>No step-by-step guide is available for this exact bike yet. Job notes in Workshop still keep your own measurements.</Copy>}
-   {groups.map(group=>group.procedures.length>0&&<View key={group.title} style={{gap:2}}>
-    <Eyebrow>{group.title.toUpperCase()}</Eyebrow>
-    <TileGrid>{group.procedures.map(p=>{const prog=progressOf(ownerId,bike,p);return <Tile key={p.id} title={p.title} detail={`${p.steps.length} steps`} right={prog||undefined} onPress={()=>setSelected(p.id)}/>;})}</TileGrid>
-   </View>)}
+   {/* Closed until the rider picks a system, so the list starts as three short rows instead of every job at once. */}
+   {groups.map(group=>{if(!group.procedures.length)return null;const isOpen=openGroup===group.id;const busy=group.procedures.some(p=>progressOf(ownerId,bike,p));
+    return <View key={group.title} style={{gap:2}}>
+    <Tile title={group.title} detail={`${group.procedures.length} ${group.procedures.length===1?'job':'jobs'}${busy?' · one in progress':''}`} right={isOpen?'Hide':'Show'} onPress={()=>setOpenGroup(isOpen?null:group.id)}/>
+    {isOpen&&<TileGrid>{group.procedures.map(p=>{const prog=progressOf(ownerId,bike,p);return <Tile key={p.id} title={p.title} detail={`${p.steps.length} steps`} right={prog||undefined} onPress={()=>setSelected(p.id)}/>;})}</TileGrid>}
+   </View>;})}
    {available.length>0&&<Disclosure title="What these guides cover">
     <Copy>Each guide is written for this exact year and model with stock parts. Some start with the engine or part already out; the start of each guide says where it begins.</Copy>
     {coverage.map(item=><Copy key={item.system}>{item.system}: {item.available} {item.remaining}</Copy>)}

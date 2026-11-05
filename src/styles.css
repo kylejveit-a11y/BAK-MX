@@ -1420,3 +1420,13 @@ body:has(.bars-hidden)::after,body:has(.content.chat-page)::after,body:has(.comp
 select{color-scheme:dark}
 select option,select optgroup{background:#16171c;color:#eef1f6}
 select option:disabled{color:#7c8494}
+.job-picker{display:grid;gap:8px;margin-top:6px}
+.job-group{border:1px solid var(--line,rgba(255,255,255,.12));border-radius:12px;background:rgba(255,255,255,.03);overflow:hidden}
+.job-group.open{border-color:rgba(255,255,255,.22)}
+.job-group-head{all:unset;box-sizing:border-box;display:flex;align-items:center;gap:10px;width:100%;padding:12px 14px;cursor:pointer;font-weight:650}
+.job-group-head span{flex:1}.job-group-head small,.job-option small{opacity:.6;font-weight:500;white-space:nowrap}
+.job-group-head:focus-visible,.job-option:focus-visible{outline:2px solid var(--accent,#c8a46a);outline-offset:-2px}
+.job-group-list{display:grid;border-top:1px solid var(--line,rgba(255,255,255,.1))}
+.job-option{all:unset;box-sizing:border-box;display:flex;gap:12px;justify-content:space-between;align-items:baseline;padding:11px 14px 11px 40px;cursor:pointer;line-height:1.35}
+.job-option:hover,.job-option.selected{background:rgba(255,255,255,.06)}.job-option.selected{font-weight:650}
+.guided-pick .field>.job-picker{width:100%}

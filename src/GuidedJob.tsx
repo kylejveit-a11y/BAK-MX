@@ -3,6 +3,7 @@ import {ChevronLeft,ChevronRight,Mic,MicOff,RotateCcw,Volume2,X,Wrench} from 'lu
 import type {Bike} from '../shared/types';
 import {buildIdentity} from '../shared/bike-identity';
 import {procedureCatalog} from '../shared/procedure-catalog';
+import {JobPicker} from './JobPicker';
 import {createProcedureRun,validateProcedureRun,recordProcedureStep,followProcedureBranch,procedureStepRecorded,type ProcedureRun,type ReviewedProcedure} from '../shared/procedures';
 import {parseGuidedInput,stepSpeech,guidedHelp,riderText,toSpeech,type GuidedCommand} from '../shared/guided-job';
 
@@ -121,7 +122,7 @@ export function GuidedJobCard({job,voice,onSay,busy}:{job:GuidedJob;voice:Return
  const {procedure,run,step,finished}=job;
  const say=(text:string)=>{if(text)onSay(text)};
  if(!job.available.length)return null;
- if(!procedure||!run)return <div className="guided-launch">{picking?<div className="guided-pick"><label className="field"><span>Guided job for this bike</span><select defaultValue="" onChange={e=>{if(e.target.value){say(job.start(e.target.value));setPicking(false);}}}><option value="">Choose a job</option>{job.groups.map(g=><optgroup key={g.id} label={g.title}>{g.procedures.map(p=><option key={p.id} value={p.id}>{p.title} · {p.steps.length} steps</option>)}</optgroup>)}</select></label><button type="button" className="chat-action" onClick={()=>setPicking(false)}>Cancel</button></div>:<button type="button" className="triage-launch" onClick={()=>setPicking(true)}><span><b>Working on the bike?</b> BAK can walk you through the job one step at a time, hands-free.</span><Wrench size={16}/></button>}</div>;
+ if(!procedure||!run)return <div className="guided-launch">{picking?<div className="guided-pick"><div className="field"><span>Guided job for this bike</span><JobPicker groups={job.groups} onPick={id=>{say(job.start(id));setPicking(false);}}/></div><button type="button" className="chat-action" onClick={()=>setPicking(false)}>Cancel</button></div>:<button type="button" className="triage-launch" onClick={()=>setPicking(true)}><span><b>Working on the bike?</b> BAK can walk you through the job one step at a time, hands-free.</span><Wrench size={16}/></button>}</div>;
  const done=procedure.steps.filter(s=>procedureStepRecorded(run,s.id)).length;
  const link=step?.diagram_reference_required?step.source_links.find(l=>/^https?:\/\//.test(l)):undefined;
  const micLabel=voice.on?'Listening':'Hands-free';
