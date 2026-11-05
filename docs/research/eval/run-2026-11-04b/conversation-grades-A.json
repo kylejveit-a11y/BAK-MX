@@ -1,0 +1,889 @@
+{
+ "grader": "A",
+ "grades": [
+  {
+   "id": "c01",
+   "expert_take": "T1: each mm more tube = quicker turn-in/less stability, 1 mm steps, ask what he wants. T2: pushing in flat turns -> 7 mm (maybe 8), check sag first. T3: 8 mm went too far -> drop to 7 as the compromise, or keep 8 and add a little rear sag/fork compression for downhill stability; never higher.",
+   "turns": [
+    {
+     "overall": "A",
+     "note": "Both directions, 1 mm step, asks the goal - matches the anchor."
+    },
+    {
+     "overall": "B",
+     "note": "Correct direction 6->7 mm using the goal, good push-entry vs exit question; sag/pressure check fair but long with technique filler."
+    },
+    {
+     "overall": "B",
+     "note": "Recognises the trade-off and the correct geometry reason; going all the way back to 6 before testing 7 costs a session - a mechanic would go straight to 7. No damping option offered."
+    }
+   ],
+   "continuity": 5,
+   "memory": 5,
+   "adapts": 5,
+   "correct": 5,
+   "useful": 4,
+   "concise": 3,
+   "checks_met": [
+    {
+     "check": "turn 1: explains both directions and the step, asks the goal",
+     "result": "met",
+     "why": "7 mm vs 5 mm with effects, 1 mm steps, asks turning or stability."
+    },
+    {
+     "check": "turn 2: uses the goal (turn tighter): more fork showing in 1-2 mm steps, no re-asking",
+     "result": "met",
+     "why": "6->7 mm, no re-ask of height or goal."
+    },
+    {
+     "check": "turn 3: recognises the trade-off, offers split (about 7 mm) or damping fix, not higher",
+     "result": "partly",
+     "why": "Lands on 7 mm and does not go higher, but routes through 6 first and offers no damping/sag alternative."
+    }
+   ],
+   "flags": [],
+   "overall": "B",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "c02",
+   "expert_take": "T1: 12 out is already softer than stock; harsh on braking bumps into corners at 205 lb usually means the fork is diving into the stiff part - check sag, try 1-2 clicks firmer or check spring. T2: softening made it dive/bottom -> back to 12 out immediately, then go firmer (10 out). T3: next in order: comp 10 out, rebound check, oil height, and 205 lb on a 4.7 N/mm stock spring likely wants ~4.8-4.9.",
+   "turns": [
+    {
+     "overall": "C",
+     "note": "Good diagnostic split but gives three conditional options instead of one change; the 'stays high' branch (softer) is what led to the failure."
+    },
+    {
+     "overall": "A",
+     "note": "Undoes the 2 clicks, explains why, names the next firmer step (10 out), does not repeat the softer change."
+    },
+    {
+     "overall": "D",
+     "note": "'So what now?' answered by repeating turn 2 almost word for word; no new cause in order (rebound, oil height, spring rate for 205 lb)."
+    }
+   ],
+   "continuity": 3,
+   "memory": 4,
+   "adapts": 3,
+   "correct": 4,
+   "useful": 3,
+   "concise": 3,
+   "checks_met": [
+    {
+     "check": "turn 1: gives one change from the saved positions (12 out)",
+     "result": "partly",
+     "why": "Uses 12 out correctly but offers two opposite changes and a question rather than one change."
+    },
+    {
+     "check": "turn 2: put compression back to 12 out first, no more of the same",
+     "result": "met",
+     "why": "Explicit undo, 'don't keep opening compression'."
+    },
+    {
+     "check": "turn 3: next cause in order (rebound, oil height, spring for 205 lb) without re-asking",
+     "result": "missed",
+     "why": "Repeats the undo; only re-mentions 12->10 and a vague spring check; no oil height or rebound, no spring pick for 205 lb."
+    }
+   ],
+   "flags": [
+    "lost_thread"
+   ],
+   "overall": "C",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "c03",
+   "expert_take": "T1: sideways kick on braking bumps on a CRF450R is usually the shock too stiff in HSC or rebound too fast; ask whether it's on brakes or accel. T2: hard on the brakes, rear steps out and hops -> rear is unloaded and extending: slow rebound 1-2 clicks (or soften comp) and check sag/rear ride height; mention engine braking. T3: 104 race / 25 free sag at 190 lb -> sag fine, free sag on the low side means a lot of preload, spring slightly soft or just right; 56 N/mm is the next step if free sag stays under ~30.",
+   "turns": [
+    {
+     "overall": "B",
+     "note": "Commits to a first guess (HSC 1/12 softer) with a separating question; summary says 'compression too firm' while the answer hedges - minor inconsistency."
+    },
+    {
+     "overall": "D",
+     "note": "Rider gave the key detail; reply drops suspension entirely for braking technique and engine braking, retracts its own HSC suggestion and picks no rebound/compression direction."
+    },
+    {
+     "overall": "B",
+     "note": "Uses 190/104/25 correctly: sag fine, free sag low, 56 N/mm as candidate; keeps the open brake test. Asks fitted spring rate though stock 54 is the given baseline."
+    }
+   ],
+   "continuity": 4,
+   "memory": 4,
+   "adapts": 3,
+   "correct": 3,
+   "useful": 3,
+   "concise": 3,
+   "checks_met": [
+    {
+     "check": "turn 1: one separating question or a best first guess",
+     "result": "met",
+     "why": "Both: HSC softer guess and first-bump vs series question."
+    },
+    {
+     "check": "turn 2: picks rebound/compression direction from the detail",
+     "result": "missed",
+     "why": "Explicitly holds off any damping change; technique-only answer."
+    },
+    {
+     "check": "turn 3: uses 190 lb, 104 mm, 25 mm: free sag points to soft-ish or right spring, no re-asking",
+     "result": "met",
+     "why": "Reads free sag as low, spring possibly soft, names 56 N/mm as candidate, no re-ask of weight/sag."
+    }
+   ],
+   "flags": [],
+   "overall": "C",
+   "numbers_to_verify": [
+    "'Honda specifies that adjustment step' (1/12 turn HSC) not cited",
+    "Tuner chart: 170-185 lb -> 56 N/mm for this generation (uncited)"
+   ]
+  },
+  {
+   "id": "c04",
+   "expert_take": "Off-idle bog on a hot sea-level 85 SX: KTM chart for 0-984 ft/77-97F is 45 pilot, NRKC clip 3, 142 main; he's rich on the main (145) and likely on the pilot if it's the stock 48. Drop main to 142, fit 45 pilot, set air screw for best response, check power valve and filter, read the plug.",
+   "turns": [
+    {
+     "overall": "B",
+     "note": "Sensible filter/choke checks and lean vs rich sound test; did not ask where they ride (rider volunteered it)."
+    },
+    {
+     "overall": "A",
+     "note": "Pulls the exact chart box for sea level/85F and reconciles it with the earlier 48 baseline."
+    },
+    {
+     "overall": "C",
+     "note": "Correctly says 145 is richer than the 142 chart and clip matches, but never says 'change to 142'; no plug check; re-asks pilot jet."
+    }
+   ],
+   "continuity": 5,
+   "memory": 4,
+   "adapts": 4,
+   "correct": 5,
+   "useful": 3,
+   "concise": 3,
+   "checks_met": [
+    {
+     "check": "turn 1: carb direction, asks or uses where they ride",
+     "result": "partly",
+     "why": "Gives both directions and a sound question; does not ask location/temperature."
+    },
+    {
+     "check": "turn 2: uses sea level and 85F with the maker's chart",
+     "result": "met",
+     "why": "0-300 m, 25-36C box cited."
+    },
+    {
+     "check": "turn 3: compares 145/clip 3 to the chart box, says what to change, with a plug check",
+     "result": "partly",
+     "why": "Comparison done; no explicit change and no plug reading."
+    }
+   ],
+   "flags": [],
+   "overall": "C",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "c05",
+   "expert_take": "13/50->13/52 = 4% shorter, more drive, earlier shifts; good for tight SX. Corrected 13/49->13/52 = 6.1% shorter. Same chain: axle moves ~1.5 pitch/2 = ~12 mm forward; check adjuster room, add two links only if it runs out.",
+   "turns": [
+    {
+     "overall": "A",
+     "note": "Exact %, feel, a pick and a middle option - anchor A."
+    },
+    {
+     "overall": "A",
+     "note": "Redoes 6.1% / 5.8% cleanly from 49, offers 51 at 4.1%; no stale figure."
+    },
+    {
+     "overall": "A",
+     "note": "~12 mm (1/2 in) axle move for 3 teeth on 520, two links if it runs out - correct."
+    }
+   ],
+   "continuity": 5,
+   "memory": 5,
+   "adapts": 5,
+   "correct": 5,
+   "useful": 5,
+   "concise": 4,
+   "checks_met": [
+    {
+     "check": "turn 1: % change and feel",
+     "result": "met",
+     "why": "4% shorter, torque/speed, shift feel."
+    },
+    {
+     "check": "turn 2: redoes the numbers from 13/49 to 13/52 (~+6%)",
+     "result": "met",
+     "why": "6.1% and drops the old 4%."
+    },
+    {
+     "check": "turn 3: axle forward ~12 mm; adjuster room; chain two links only if it runs out",
+     "result": "met",
+     "why": "All three stated."
+    }
+   ],
+   "flags": [],
+   "overall": "A",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "c06",
+   "expert_take": "230 lb geared is above Husky's chart top (48 N/mm for 187-209); one band up projects ~51 N/mm, so a 50-52 N/mm shock spring, woods rider can sit at the softer end (50-51) with softer compression. Air fork: run pressure above stock for 230 lb (roughly 11-11.5 bar) and soften compression for roots, rather than dropping pressure.",
+   "turns": [
+    {
+     "overall": "B",
+     "note": "Correctly says above the chart and one band beyond; stops short of naming ~51 N/mm."
+    },
+    {
+     "overall": "C",
+     "note": "Mostly repeats turn 1 and re-asks the same static-sag question; little woods-specific adjustment of the spring pick."
+    },
+    {
+     "overall": "B",
+     "note": "Correct that it's an XACT air fork, sensible 'support via pressure, comfort via damping'; never says to raise pressure for 230 lb."
+    }
+   ],
+   "continuity": 4,
+   "memory": 4,
+   "adapts": 3,
+   "correct": 5,
+   "useful": 3,
+   "concise": 3,
+   "checks_met": [
+    {
+     "check": "turn 1: uses 230 lb with the chart, above/at top",
+     "result": "met",
+     "why": "States 48 N/mm for 187-209 and that 230 is one band beyond."
+    },
+    {
+     "check": "turn 2: adjusts for woods (softer side, compliance), no re-asking weight",
+     "result": "partly",
+     "why": "Talks compliance through damping but keeps the same answer; repeats the static-sag question."
+    },
+    {
+     "check": "turn 3: air fork pressure for weight for woods, ties to 1/2",
+     "result": "partly",
+     "why": "Identifies the air fork and ties to the shock spring first, but no pressure direction for 230 lb."
+    }
+   ],
+   "flags": [
+    "re_asked"
+   ],
+   "overall": "C",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "c07",
+   "expert_take": "Plug fouling on a 2022 YZ125: known to run rich low-mid; check premix ratio (not too oily), riding style (lugging/trail), plug heat (BR9EVX stock; a BR8 is common for slow riding), then lean the pilot/air screw or drop the needle clip one position. Fork for 180 lb: stock 4.2 is soft, 4.4-4.5 N/mm.",
+   "turns": [
+    {
+     "overall": "B",
+     "note": "Good order of causes, plug spec, inspect the plug; no premix ratio, and says don't use a hotter plug without discussing heat range for slow riding."
+    },
+    {
+     "overall": "C",
+     "note": "Points to pilot/needle but picks no leaner step; asks elevation instead of giving the common lean-the-clip fix."
+    },
+    {
+     "overall": "A",
+     "note": "Clean topic switch, uses 180 lb, 4.4 N/mm from Yamaha's optional list, no jetting leftovers."
+    }
+   ],
+   "continuity": 5,
+   "memory": 5,
+   "adapts": 5,
+   "correct": 5,
+   "useful": 3,
+   "concise": 3,
+   "checks_met": [
+    {
+     "check": "turn 1: plug heat range, premix ratio, riding style, jetting",
+     "result": "partly",
+     "why": "Plug, riding style, jetting covered; premix ratio missed; heat range only as 'don't go hotter'."
+    },
+    {
+     "check": "turn 2: jetting direction for fouling (leaner pilot/clip), stays on YZ125",
+     "result": "partly",
+     "why": "Right circuit named, no leaner change picked."
+    },
+    {
+     "check": "turn 3: switches cleanly, uses 180 lb for a fork spring answer",
+     "result": "met",
+     "why": "4.4 N/mm pick with optional-rate list."
+    }
+   ],
+   "flags": [],
+   "overall": "B",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "c08",
+   "expert_take": "Stock: creeping/grabby = drag - bleed/check hydraulic release, warped steels, notched basket, wrong oil. With a Rekluse: if auto-clutch, idle too high or install gap/free-play gain wrong causes creep; if Core Manual, check pack height/release. Plates only if out of spec or basket notched.",
+   "turns": [
+    {
+     "overall": "A",
+     "note": "Clear hydraulic-clutch causes in order with safe checks."
+    },
+    {
+     "overall": "B",
+     "note": "Switches to Rekluse-specific causes (gap, free-play gain, idle) and asks which kit; could say more directly which stock advice no longer applies."
+    },
+    {
+     "overall": "B",
+     "note": "Correct 'not yet', setup before plates, basket mention; stays Rekluse-specific."
+    }
+   ],
+   "continuity": 5,
+   "memory": 5,
+   "adapts": 5,
+   "correct": 5,
+   "useful": 4,
+   "concise": 4,
+   "checks_met": [
+    {
+     "check": "turn 1: stock hydraulic clutch causes",
+     "result": "met",
+     "why": "Release, plates/oil, basket."
+    },
+    {
+     "check": "turn 2: Rekluse-specific causes, corrects earlier advice",
+     "result": "partly",
+     "why": "Rekluse causes given; earlier advice partly carried over rather than corrected."
+    },
+    {
+     "check": "turn 3: plates vs adjustment for a Rekluse, doesn't revert",
+     "result": "met",
+     "why": "Adjustment first, plates only if out of Rekluse limits."
+    }
+   ],
+   "flags": [],
+   "overall": "B",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "c09",
+   "expert_take": "Keep the 13-out shock rebound that worked, put fork compression back 2 clicks, start from that for Dade City sand. Squat on sand exits: 1-2 clicks firmer shock LSC or a touch more preload (less sag), confirm 48 N/mm suits 200 lb; don't touch the fork compression again.",
+   "turns": [
+    {
+     "overall": "A",
+     "note": "Builds directly on the log: keeps rebound, reverses the failed fork change; good spring check for 200 lb."
+    },
+    {
+     "overall": "A",
+     "note": "LSC 2 clicks firmer with spring/sag gate, keeps rebound, does not re-suggest fork compression."
+    }
+   ],
+   "continuity": 5,
+   "memory": 5,
+   "adapts": 5,
+   "correct": 5,
+   "useful": 5,
+   "concise": 4,
+   "checks_met": [
+    {
+     "check": "turn 1: builds on the log: keep shock rebound, put fork compression back, sand start",
+     "result": "met",
+     "why": "Both log items used; sand-specific start limited but reasonable."
+    },
+    {
+     "check": "turn 2: next change for squat without suggesting fork compression again",
+     "result": "met",
+     "why": "Shock LSC firmer; fork change only mentioned as an undo."
+    }
+   ],
+   "flags": [],
+   "overall": "A",
+   "numbers_to_verify": [
+    "KTM 2025 450 SX-F fork air 10.5 bar (uncited in this conversation; cited only for 250 SX-F elsewhere)"
+   ]
+  },
+  {
+   "id": "c10",
+   "expert_take": "Warm top-end tick: check oil first, then valves vs cam chain/decompressor; idle-only that clears with revs points to decompressor/valvetrain at low rpm or a slack cam chain. 60 h with no valve check vs Honda's ~15 h interval = overdue, check cold with feelers against spec before riding.",
+   "turns": [
+    {
+     "overall": "B",
+     "note": "Good safety and oil first, gives interval and clearances; a bit long."
+    },
+    {
+     "overall": "B",
+     "note": "Narrows correctly (decompressor, idle speed) without dismissing cam chain."
+    },
+    {
+     "overall": "A",
+     "note": "Overdue vs 15 h, clearances, keeps earlier narrowing, offers the guided job."
+    }
+   ],
+   "continuity": 5,
+   "memory": 5,
+   "adapts": 5,
+   "correct": 5,
+   "useful": 5,
+   "concise": 4,
+   "checks_met": [
+    {
+     "check": "turn 1: how to narrow it down, stop conditions",
+     "result": "met",
+     "why": "Suspects in order and clear stop conditions."
+    },
+    {
+     "check": "turn 2: narrows causes from idle-only detail",
+     "result": "met",
+     "why": "Decompressor/idle speed vs chain."
+    },
+    {
+     "check": "turn 3: uses 60 hours, overdue, clearance spec and how to check, keeps narrowing",
+     "result": "met",
+     "why": "All covered."
+    }
+   ],
+   "flags": [],
+   "overall": "A",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "c11",
+   "expert_take": "Mud on the TF 250-X: smoother map (standard Map 1 or the app's wet preset) with TC on; TC on for slick mud; tires at maker's baseline then ~1 psi lower for grip.",
+   "turns": [
+    {
+     "overall": "B",
+     "note": "Map 1 + TC is right; app preset details (names, GPA 4, loads into Map 2) are uncited."
+    },
+    {
+     "overall": "A",
+     "note": "Consistent TC answer with how to toggle it and when to try it off."
+    },
+    {
+     "overall": "A",
+     "note": "14 psi from Triumph, test 13 psi, stop conditions, mousse note."
+    }
+   ],
+   "continuity": 5,
+   "memory": 5,
+   "adapts": 5,
+   "correct": 4,
+   "useful": 5,
+   "concise": 5,
+   "checks_met": [
+    {
+     "check": "map choice for mud on this bike",
+     "result": "met",
+     "why": "Map 1 with TC; wet preset if app fitted."
+    },
+    {
+     "check": "traction control for mud, consistent with the map answer",
+     "result": "met",
+     "why": "TC on, compare off in deep mud."
+    },
+    {
+     "check": "tire pressure from the maker's figure, ~1 psi lower for mud",
+     "result": "met",
+     "why": "14 -> 13 psi."
+    }
+   ],
+   "flags": [],
+   "overall": "A",
+   "numbers_to_verify": [
+    "MX Tune Pro 'Hard Pack Wet' preset: very soft delivery, mid-high engine braking, TC level GPA 4, loads into Map 2 (uncited)"
+   ]
+  },
+  {
+   "id": "c12",
+   "expert_take": "75 lb is light for a KX85 with 2.84/47 N/mm stock springs; for a beginner it will likely be stiff - set sag, check free sag, and the softest Kawasaki options (2.65 fork, 43 shock) are the likely move; soften clickers meanwhile. 90 mm sag is about right (~1/3 travel); if free sag is large, spring too stiff.",
+   "turns": [
+    {
+     "overall": "B",
+     "note": "Honest, gives stock and softer factory options; does not commit to softening clickers in the meantime."
+    },
+    {
+     "overall": "C",
+     "note": "Largely repeats turn 1; comfort point made but no concrete change for a beginner."
+    },
+    {
+     "overall": "B",
+     "note": "Interprets 90 mm as ~33% of 275 mm, explains free sag direction, no re-ask of weight."
+    }
+   ],
+   "continuity": 4,
+   "memory": 5,
+   "adapts": 4,
+   "correct": 5,
+   "useful": 3,
+   "concise": 3,
+   "checks_met": [
+    {
+     "check": "turn 1: answers for 75 lb (likely too stiff), honest",
+     "result": "met",
+     "why": "Says likely firm, lists softer options."
+    },
+    {
+     "check": "turn 2: beginner context, comfort over performance",
+     "result": "partly",
+     "why": "Says comfort matters, but repeats turn 1 with no change suggested."
+    },
+    {
+     "check": "turn 3: interprets 90 mm against target, what to change, no re-asking weight",
+     "result": "met",
+     "why": "Interprets sag; next step free sag."
+    }
+   ],
+   "flags": [],
+   "overall": "B",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "c13",
+   "expert_take": "EFI RM-Z450 hesitation in 3rd: filter/intake, then fuel. Worse when hot = lean condition/heat soak/fuel delivery. Full FMF system on a stock map is the prime suspect for a lean hesitation that worsens in heat: try the rich coupler or FMF's MX-Tuner map first, then fuel pressure if it persists.",
+   "turns": [
+    {
+     "overall": "B",
+     "note": "EFI-appropriate checks, no jetting talk, good separating question."
+    },
+    {
+     "overall": "C",
+     "note": "Fuel delivery/ignition/vent named but no lean-running or heat-soak explanation."
+    },
+    {
+     "overall": "D",
+     "note": "The full exhaust on a stock map is the obvious cause and fits 'worse when hot', but the reply downplays it, puts installation checks first and asks another question instead of telling him to try the rich coupler/map."
+    }
+   ],
+   "continuity": 4,
+   "memory": 4,
+   "adapts": 2,
+   "correct": 3,
+   "useful": 2,
+   "concise": 3,
+   "checks_met": [
+    {
+     "check": "turn 1: diagnosis steps for an EFI bike, no carb jetting talk",
+     "result": "met",
+     "why": "Explicitly says not a jetting adjustment."
+    },
+    {
+     "check": "turn 2: heat clue (lean, fuel, heat soak)",
+     "result": "partly",
+     "why": "Fuel delivery and vent, no lean/heat-soak reasoning."
+    },
+    {
+     "check": "turn 3: ties hesitation to the exhaust and stock fuelling, coupler/map or ECU",
+     "result": "partly",
+     "why": "Mentions couplers/MX-Tuner but argues against assuming a richer map and defers."
+    }
+   ],
+   "flags": [
+    "wrong_direction"
+   ],
+   "overall": "D",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "c14",
+   "expert_take": "Race mode, arm pump + harsh front on a TC 250 air fork: bleed the fork, open compression 2 clicks, keep pressure. With 20 minutes: one change - fork compression 2 clicks softer.",
+   "turns": [
+    {
+     "overall": "B",
+     "note": "Short-ish and actionable but branches into the opposite case and adds technique."
+    },
+    {
+     "overall": "A",
+     "note": "One change with clicks, decisive; a trailing conditional, otherwise race-ready."
+    }
+   ],
+   "continuity": 5,
+   "memory": 5,
+   "adapts": 5,
+   "correct": 5,
+   "useful": 5,
+   "concise": 4,
+   "checks_met": [
+    {
+     "check": "turn 1: short, race-mode answer",
+     "result": "partly",
+     "why": "Reasonably short but conditional two-way advice."
+    },
+    {
+     "check": "turn 2: one change with clicks, decisive, no questions, no long theory",
+     "result": "met",
+     "why": "2 clicks out, leave pressure/rebound; no question."
+    }
+   ],
+   "flags": [],
+   "overall": "B",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "c15",
+   "expert_take": "2024 YZ450F: Yamalube 10W-40 JASO MA, ~0.94 L oil only / 0.96 L with filter; filter every fifth race per schedule (many change it every time); valves every third race, cold clearances from the manual.",
+   "turns": [
+    {
+     "overall": "A",
+     "note": "Spec, grades and both capacities from the manual."
+    },
+    {
+     "overall": "A",
+     "note": "Schedule-correct, consistent, practical note."
+    },
+    {
+     "overall": "A",
+     "note": "Interval and cold clearances, short."
+    }
+   ],
+   "continuity": 5,
+   "memory": 5,
+   "adapts": 5,
+   "correct": 5,
+   "useful": 5,
+   "concise": 5,
+   "checks_met": [
+    {
+     "check": "turn 1: published oil spec and capacity (with/without filter)",
+     "result": "met",
+     "why": "Both given."
+    },
+    {
+     "check": "turn 2: filter interval from the schedule",
+     "result": "met",
+     "why": "Every fifth race ~12.5 h."
+    },
+    {
+     "check": "turn 3: valve interval and clearances, short",
+     "result": "met",
+     "why": "Every third race, IN 0.10-0.17 / EX 0.15-0.22."
+    }
+   ],
+   "flags": [],
+   "overall": "A",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "c16",
+   "expert_take": "Hard enduro 300 XC: protection (skid with linkage guard, rad guards, handguards), gummy rear + mousse, gearing/clutch control, springs for weight then softer clickers. $800: protection first, then tire/mousse. 160 lb newbie: likely 42-45 N/mm band, soften compression/rebound clickers, softest map, clutch lever setup.",
+   "turns": [
+    {
+     "overall": "A",
+     "note": "Good priority list; correctly notes the 2024 XC coil-spring fork."
+    },
+    {
+     "overall": "B",
+     "note": "Clear order within $800; re-asks weight/level/terrain it already asked; protection cap looks low."
+    },
+    {
+     "overall": "B",
+     "note": "Uses 160 lb with KTM chart, Map 1, keeps budget; no softer-clicker advice and asks gear-or-not again."
+    }
+   ],
+   "continuity": 5,
+   "memory": 4,
+   "adapts": 4,
+   "correct": 5,
+   "useful": 4,
+   "concise": 3,
+   "checks_met": [
+    {
+     "check": "turn 1: short priority list",
+     "result": "met",
+     "why": "Protection, tires, suspension, controls/gearing."
+    },
+    {
+     "check": "turn 2: fits the list into $800 with a clear order",
+     "result": "met",
+     "why": "Caps and order given."
+    },
+    {
+     "check": "turn 3: adjusts for 160 lb beginner (softer clickers, mapping/clutch), keeps budget, no re-asking",
+     "result": "partly",
+     "why": "Map 1 and spring chart; no clicker softening; re-asks whether weight includes gear."
+    }
+   ],
+   "flags": [
+    "re_asked"
+   ],
+   "overall": "B",
+   "numbers_to_verify": [
+    "$350 covering skid plate with linkage guard + radiator guards + wraparound handguards seems low",
+    "$300 for gummy rear tire + mousse seems tight"
+   ]
+  },
+  {
+   "id": "c17",
+   "expert_take": "No-start after tip-over on EFI KX450: it's probably flooded or oil in the airbox. Check for leaks, look in the airbox/filter for fuel/oil, pull and dry the plug, crank with the plug out (or clear-flood per manual), refit and start. Gas smell = flooded: same procedure, ventilate.",
+   "turns": [
+    {
+     "overall": "B",
+     "note": "Good safety checks and crank-vs-click question; declines to give the clear-flood procedure."
+    },
+    {
+     "overall": "B",
+     "note": "Plug inspection first with correct plug spec, gap and torque."
+    },
+    {
+     "overall": "C",
+     "note": "Safety-first leak check is fair, but never gets to the flooded fix: dry plug, crank plug-out, airbox check."
+    }
+   ],
+   "continuity": 5,
+   "memory": 5,
+   "adapts": 4,
+   "correct": 5,
+   "useful": 3,
+   "concise": 4,
+   "checks_met": [
+    {
+     "check": "turn 1: flooded/fuel/air filter checks after a tip-over, safety",
+     "result": "partly",
+     "why": "Flooding and leaks covered; air filter/airbox not checked."
+    },
+    {
+     "check": "turn 2: cranks no fire narrowing",
+     "result": "met",
+     "why": "Wet vs dry plug, stop wire."
+    },
+    {
+     "check": "turn 3: clear-flood procedure / dry plug / airbox fuel, stop conditions",
+     "result": "partly",
+     "why": "Stop conditions and leak check only; no clearing procedure or airbox check."
+    }
+   ],
+   "flags": [],
+   "overall": "C",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "c18",
+   "expert_take": "KTM 125 SX at 5,000 ft: use the chart box 4,925-7,546 ft; 60F sits on the 59/61 boundary, so start between 490 and 500 equivalent. From his home 470 (sea level/80F box = 500), apply the chart ratio: 500->500 (cool) or 500->490 (mild) = 460-470; pilot/clip unchanged per chart; plug chop in practice.",
+   "turns": [
+    {
+     "overall": "B",
+     "note": "Correct chart box and temperature columns; mentions 'around 60F' before the rider gave any temperature."
+    },
+    {
+     "overall": "B",
+     "note": "Correct richer-row pick at 60F; re-asks the current-jetting question from turn 1."
+    },
+    {
+     "overall": "A",
+     "note": "Applies the chart change to his 470 (no change), notes the 490 column, plug check in practice."
+    }
+   ],
+   "continuity": 5,
+   "memory": 4,
+   "adapts": 5,
+   "correct": 5,
+   "useful": 4,
+   "concise": 4,
+   "checks_met": [
+    {
+     "check": "turn 1: uses the chart at 5,000 ft, asks temperature or gives a range",
+     "result": "met",
+     "why": "All three temperature columns; asks race temperature."
+    },
+    {
+     "check": "turn 2: chart box for 4,925-7,546 ft and 61-75F/43-59F, nearest",
+     "result": "met",
+     "why": "Both bordering columns, picks the richer one."
+    },
+    {
+     "check": "turn 3: applies home-to-race change to 470 main (ratio), clip/air screw, plug check",
+     "result": "partly",
+     "why": "Ratio applied, plug check; does not say the chart also leaves pilot/clip/air screw unchanged."
+    }
+   ],
+   "flags": [],
+   "overall": "B",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "c19",
+   "expert_take": "95 lb 13-year-old on a CRF150R: start at Honda's standard turns, set 85 mm sag, then 1/8-1/4 turn softer on compression for the light rider. Sand: firm the fork a touch back toward stock, keep rebound. Stock 49 N/mm shock is likely stiff at 95 lb; Honda's optional softer spring (47 N/mm) is the pick if free sag is high.",
+   "turns": [
+    {
+     "overall": "B",
+     "note": "Correct published turns and sag; explicitly refuses any softer start for 95 lb."
+    },
+    {
+     "overall": "B",
+     "note": "Sensible small firmer fork step for sand, consistent with the 'support' line."
+    },
+    {
+     "overall": "C",
+     "note": "Gives stock rates but misses Honda's optional softer spring; repeats the free-sag question for a third time."
+    }
+   ],
+   "continuity": 4,
+   "memory": 3,
+   "adapts": 4,
+   "correct": 4,
+   "useful": 3,
+   "concise": 3,
+   "checks_met": [
+    {
+     "check": "turn 1: published standard positions (turns), softer start for 95 lb",
+     "result": "partly",
+     "why": "Turns correct; no softer start."
+    },
+    {
+     "check": "turn 2: adjusts for sand without losing the light-rider point",
+     "result": "met",
+     "why": "Firmer fork 1/8 turn, keeps sag/spring check."
+    },
+    {
+     "check": "turn 3: shock spring for 95 lb from Honda's optional 47 N/mm vs 49",
+     "result": "missed",
+     "why": "No optional rate offered; 'stock is a reasonable starting point'."
+    }
+   ],
+   "flags": [
+    "re_asked"
+   ],
+   "overall": "C",
+   "numbers_to_verify": []
+  },
+  {
+   "id": "c20",
+   "expert_take": "Head shake: check head bearings, wheel, tire pressure, fork height, sag. He moved forks up 5 mm with new tires and risers: put the forks back first, check bead/pressure. Damper only after the cause is fixed; it costs $400-700.",
+   "turns": [
+    {
+     "overall": "B",
+     "note": "Good mechanical checks and sag; tire pressure and fork height not raised (rider supplied them)."
+    },
+    {
+     "overall": "A",
+     "note": "Names the 5 mm fork move as prime suspect with the right geometry reason and says put it back."
+    },
+    {
+     "overall": "B",
+     "note": "Not yet, fix the cause, cost given; heavy repetition of turn 2 and listing-style prices with an odd 'no demonstrated advantage' line."
+    }
+   ],
+   "continuity": 5,
+   "memory": 5,
+   "adapts": 5,
+   "correct": 5,
+   "useful": 5,
+   "concise": 3,
+   "checks_met": [
+    {
+     "check": "turn 1: causes and checks (head bearing, fork height, rear sag, tire pressure)",
+     "result": "partly",
+     "why": "Bearings, tire condition, sag; no tire pressure or fork height."
+    },
+    {
+     "check": "turn 2: points at the 5 mm fork change and new parts, put forks back first",
+     "result": "met",
+     "why": "Explicit."
+    },
+    {
+     "check": "turn 3: damper later after fixing setup cause, honest about cost",
+     "result": "met",
+     "why": "Keep your money, prices given."
+    }
+   ],
+   "flags": [],
+   "overall": "B",
+   "numbers_to_verify": [
+    "Ride Engineering WP damper $359.99 and Showa $433.76 (uncited listing prices)"
+   ]
+  }
+ ]
+}

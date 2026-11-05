@@ -1,0 +1,1712 @@
+[
+ {
+  "id": "c01",
+  "bike": {
+   "manufacturer": "KTM",
+   "model": "250 SX-F",
+   "model_year": 2024,
+   "configuration": {
+    "geared_weight_lb": 175
+   }
+  },
+  "setup_history": null,
+  "race": null,
+  "checks": [
+   "turn 1: explains both directions and the step, asks the goal",
+   "turn 2: uses the goal (turn tighter): more fork showing in 1-2 mm steps, no re-asking",
+   "turn 3: recognises the trade-off it caused, offers to split the difference (about 7 mm) or a damping fix for stability, does not suggest going higher still"
+  ],
+  "turns": [
+   {
+    "rider": "I'm at 6mm on the fork height, how much should I go?",
+    "reply": {
+     "summary": "Move fork height 1 mm at a time from your current 6 mm; the direction depends on whether you want quicker turning or more stability.",
+     "answer": "From **6 mm**, use **1 mm steps**: go to **7 mm showing above the top clamp** for quicker turn-in and more front bite, or **5 mm showing** for more stability and calmer steering. That’s general tuning guidance, not a factory target.\n\nKeep both legs equal and test one change over the same section. What are you trying to improve—turning or stability?",
+     "next_step": null,
+     "setup_changes": []
+    },
+    "cited_facts": [],
+    "ms": 11093,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "I want it to turn tighter in the flat corners, it pushes the front",
+    "reply": {
+     "summary": "For tighter flat corners, test fork height from 6 to 7 mm showing—but confirm sag and fork pressure first so you’re not masking a balance problem.",
+     "answer": "**Try 6 → 7 mm of fork tube showing above the upper clamp** for quicker turn-in and more front bite. That’s a small general tuning step, not KTM’s published height target; keep both legs equal.\n\nBefore moving them, check the balance: KTM specifies **105 mm rider sag, 35 mm static sag**, and **10.5 bar (152 psi)** cold fork pressure for your US model. Excess rear sag or excessive fork pressure can both make the front push; correct those before chasing fork height. The clamp-bolt torque isn’t confirmed here—verify it in KTM’s chassis tightening-torque section before moving the forks.\n\nIn flat turns, sit forward as you release the brakes, keep your body upright and weight the outside peg. Practice six easy figure-eights with relaxed hands and a smooth throttle, then repeat the same corner to compare.\n\nDoes it push entering off the gas, or driving out under power? That separates a front that won’t settle from a rear that squats and lightens it.\n\nYou can save your stated 6 mm fork height with the button below.",
+     "next_step": {
+      "action": "Confirm sag and cold fork pressure before testing fork height from 6 to 7 mm.",
+      "purpose": "Test quicker steering from a sound chassis baseline over the same corner for a few laps.",
+      "stop_conditions": [
+       "Do not move the forks without confirming clamp-bolt torque.",
+       "Return to 6 mm if the front tucks or steering becomes nervous."
+      ]
+     },
+     "setup_changes": [
+      {
+       "setting": "Fork height above upper triple clamp",
+       "change": "After confirming sag and cold fork pressure, move from 6 to 7 mm showing, with both legs equal.",
+       "expect": "Quicker turn-in and better ability to hold a tight flat-corner line.",
+       "go_back_if": "The front tucks, steering becomes nervous, or stability worsens; return to 6 mm."
+      }
+     ]
+    },
+    "cited_facts": [
+     "Shock absorber / Riding sag: 105 mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.",
+     "Shock absorber / Static sag: 35 mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.",
+     "Fork / Air pressure: 10.5 bar. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only."
+    ],
+    "ms": 22668,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "Ok went to 8mm. Turns better but now it feels nervous on the fast downhill",
+    "reply": {
+     "summary": "The 8 mm position improved turning but cost downhill stability. Return to 6 mm first, then test 7 mm as the compromise.",
+     "answer": "**Go back from 8 to 6 mm showing first**, then test **7 mm** once the downhill feels settled again. You gained corner bite at 8 mm, but raising the tubes lowered the front and sharpened the steering; downhill braking loads the front further and makes that trade-off more noticeable.\n\nLeave the clickers alone for this test. Keep both fork legs equal; the exact clamp-bolt torque isn't confirmed here—verify it in KTM’s chassis tightening-torque section before moving them.\n\nRetest the same corner and descent at a controlled pace. On the downhill, stand with hips slightly back, knees gripping and hands relaxed; make three easy passes using progressive braking rather than grabbing the front.\n\nYour current fork height is now 8 mm; you can save that reported position with the button below. If the nervousness becomes actual bar swapping, stop the test rather than riding through it.",
+     "next_step": {
+      "action": "Return fork height from 8 to 6 mm and retest the same descent at a controlled pace.",
+      "purpose": "Confirm that the height change caused the loss of stability before testing 7 mm.",
+      "stop_conditions": [
+       "Confirm exact clamp-bolt torque before adjustment.",
+       "Stop testing if the bars swap, the front tucks, or instability persists at the previous baseline."
+      ]
+     },
+     "setup_changes": [
+      {
+       "setting": "Fork height above upper triple clamp",
+       "change": "Return from 8 to 6 mm showing, equally on both legs.",
+       "expect": "Restore the downhill stability you had before the change.",
+       "go_back_if": "If instability remains at 6 mm, stop geometry testing and inspect the front end before further tuning."
+      },
+      {
+       "setting": "Fork height above upper triple clamp",
+       "change": "Only after stability returns, test from 6 to 7 mm showing.",
+       "expect": "Some of the tighter turning gained at 8 mm, with less nervousness downhill.",
+       "go_back_if": "Return to 6 mm if nervousness returns or the front starts to tuck."
+      }
+     ]
+    },
+    "cited_facts": [],
+    "ms": 21005,
+    "prompt_version": "mx-engineering-63"
+   }
+  ]
+ },
+ {
+  "id": "c02",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ250F",
+   "model_year": 2023,
+   "configuration": {
+    "geared_weight_lb": 205,
+    "fork_compression": "12 out",
+    "fork_rebound": "10 out"
+   }
+  },
+  "setup_history": null,
+  "race": null,
+  "checks": [
+   "turn 1: gives one change from the saved positions (12 out)",
+   "turn 2: tells him to put compression back to 12 out first, does not suggest more of the same",
+   "turn 3: next cause in order (rebound, oil height, spring for 205 lb) without re-asking settings or weight"
+  ],
+  "turns": [
+   {
+    "rider": "Front end feels harsh on braking bumps into corners",
+    "reply": {
+     "summary": "Don’t automatically soften the fork: braking-bump harshness can mean too stiff, too deep in the travel, or too slow to recover.",
+     "answer": "The key is whether the fork **stays high or dives deep**—those need opposite changes. Your fork compression is **12 out**, rebound **10 out**; Yamaha’s stock settings are compression **10 out**, rebound **7 out**, so you’re already softer and faster-returning than stock.\n\nGeneral tuning guidance, once binding and trapped fork air are ruled out:\n- **Stays high and deflects:** try compression from **12 to 14 clicks out**.\n- **Dives and feels harsh deep in the travel:** try compression from **12 to 10 clicks out**. Softening can make this worse.\n- **First bump feels fine, then it gets lower and harsher:** that points toward slow recovery rather than compression.\n\nAt **205 lb geared**, spring support also matters. Yamaha’s stock fork spring is **4.7 N/mm**, but weight alone doesn’t establish the right replacement. Check rear rider sag against Yamaha’s **90–100 mm** target before chasing clickers.\n\nFor the riding side, stay standing through the bumps, grip with your legs and keep your arms loose; practice five controlled passes using the same braking marker.\n\n**Does the fork stay high and bounce off the bumps, dive deep immediately, or get progressively harsher through the series?**",
+     "next_step": {
+      "action": "Observe the fork’s behavior through the same braking-bump section at a controlled pace before changing an adjuster.",
+      "purpose": "Separate excessive stiffness from insufficient support or slow recovery.",
+      "stop_conditions": [
+       "Stop if there is binding, visible leakage, loose components or severe instability."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Front suspension / Compression damping / Adjustment value from the start position (STD): 10 click. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault. Counted in clicks toward softer from the start position, which the adjustment section of the same manual defines as the adjuster fully turned in the harder direction; do not force the adjuster past its range. Factory click and turn counts can vary between units; check the actual range on the bike. Adjust both fork legs equally.",
+     "Front suspension / Rebound damping / Adjustment value from the start position (STD): 7 click. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault. Counted in clicks toward softer from the start position, which the adjustment section of the same manual defines as the adjuster fully turned in the harder direction; do not force the adjuster past its range. Factory click and turn counts can vary between units; check the actual range on the bike. Adjust both fork legs equally.",
+     "Front fork spring / Standard spring rate: 4.7 N/mm. Stock fork spring as delivered; optional rates are listed separately.",
+     "Rear suspension setting / Choosing set length / Standard figure (sunken length, rider seated): 90–100 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault. Yamaha calls this the sunken length: rear axle to rear fender mark measured with the rear wheel off the ground, minus the same measurement with the rider seated. Set it before changing damping."
+    ],
+    "ms": 23144,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "I went 2 clicks softer on fork compression like you said, now it dives and bottoms on the jump faces",
+    "reply": {
+     "summary": "Undo the softer compression change: turn both fork compression adjusters 2 clicks in. The added dive and bottoming mean that direction reduced the support you needed.",
+     "answer": "**Go back 2 clicks firmer on fork compression—clockwise, both legs—to undo that change.** Leave rebound alone. Softening made it worse, so don’t keep chasing the original harshness by opening compression farther.\n\nThat result points toward insufficient hold-up: the fork drops deeper into its stroke and feels harsh there. Yamaha’s suspension setting table calls for firmer compression when the fork rides low, dives and bottoms. Your previous saved compression position was **12 clicks out**; Yamaha’s stock baseline is **10 clicks out**, counted from lightly seated.\n\nRetest the restored setting over the same braking bumps at controlled pace; avoid the jumps that are bottoming for now. If it still dives at the restored 12-out baseline, the next separate test is **12 to 10 clicks out**.\n\nAt **205 lb geared**, spring support deserves checking if that doesn’t help. Yamaha’s standard **fork spring is 4.7 N/mm**, but weight alone doesn’t establish your replacement rate. Confirm rear rider sag at Yamaha’s **90–100 mm** target before further tuning.\n\nStay standing, knees gripping and arms loose; use five controlled braking passes—not bigger jumps—to compare.",
+     "next_step": {
+      "action": "Undo the compression change by turning both adjusters 2 clicks in, then compare five controlled passes through the same braking bumps.",
+      "purpose": "Restore the known baseline and check whether front support returns.",
+      "stop_conditions": [
+       "Avoid jumps that produce hard bottoming until support is restored.",
+       "Stop testing if the fork leaks, binds or becomes severely unstable."
+      ]
+     },
+     "setup_changes": [
+      {
+       "setting": "Fork compression",
+       "change": "Turn both adjusters 2 clicks in from their current position to undo the softer change; leave rebound unchanged.",
+       "expect": "Less dive and better support, returning to the previous baseline.",
+       "go_back_if": "Do not return to the softer setting that caused bottoming. If restoring the baseline does not restore the previous behavior, check fork condition before further tuning."
+      }
+     ]
+    },
+    "cited_facts": [
+     "Front suspension / Compression damping / Adjustment value from the start position (STD): 10 click. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault. Counted in clicks toward softer from the start position, which the adjustment section of the same manual defines as the adjuster fully turned in the harder direction; do not force the adjuster past its range. Factory click and turn counts can vary between units; check the actual range on the bike. Adjust both fork legs equally.",
+     "Front fork spring / Standard spring rate: 4.7 N/mm. Stock fork spring as delivered; optional rates are listed separately.",
+     "Rear suspension setting / Choosing set length / Standard figure (sunken length, rider seated): 90–100 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault. Yamaha calls this the sunken length: rear axle to rear fender mark measured with the rear wheel off the ground, minus the same measurement with the rider seated. Set it before changing damping."
+    ],
+    "ms": 22654,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "So what now?",
+    "reply": {
+     "summary": "Undo the two-click softer change first; don’t stack another adjustment onto a setting that made the fork worse.",
+     "answer": "**Turn both fork compression adjusters 2 clicks clockwise to undo the softer change, if you haven’t already.** Leave rebound at **10 clicks out**. We haven’t established how it rides after restoring the baseline, so don’t change anything else yet.\n\nThe softer setting added dive and bottoming—that direction lost support rather than fixing the harshness. Retest through the same braking bumps for three controlled passes, staying standing with your legs holding the bike and your hands relaxed. **Avoid the jumps that caused hard bottoming.**\n\nIf you confirm compression is back at **12 clicks out** and it still dives, the next separate test is **12 to 10 clicks out**, Yamaha’s stock compression setting. Count from lightly seated and match both legs.\n\nAt **205 lb geared**, persistent dive also warrants checking the fitted fork springs and chassis balance—not endlessly adding damping. Yamaha specifies **90–100 mm rider sag**; measure free sag too before deciding on a spring change.",
+     "next_step": {
+      "action": "Undo the two-click softer compression change, then compare three controlled passes through the same braking bumps.",
+      "purpose": "Recover the known baseline before testing any further adjustment.",
+      "stop_conditions": [
+       "Avoid jumps that cause hard bottoming.",
+       "Stop testing if the fork leaks, binds or becomes severely unstable."
+      ]
+     },
+     "setup_changes": [
+      {
+       "setting": "Fork compression",
+       "change": "Turn both adjusters 2 clicks in from the softer position to restore the previous baseline. Leave fork rebound at 10 clicks out.",
+       "expect": "Restore the support lost with the softer setting and reduce the added dive.",
+       "go_back_if": "Do not return to the softer setting that caused bottoming. If previous behavior does not return, inspect for leakage or binding before further tuning."
+      }
+     ]
+    },
+    "cited_facts": [
+     "Front suspension / Compression damping / Adjustment value from the start position (STD): 10 click. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault. Counted in clicks toward softer from the start position, which the adjustment section of the same manual defines as the adjuster fully turned in the harder direction; do not force the adjuster past its range. Factory click and turn counts can vary between units; check the actual range on the bike. Adjust both fork legs equally.",
+     "Rear suspension setting / Choosing set length / Standard figure (sunken length, rider seated): 90–100 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault. Yamaha calls this the sunken length: rear axle to rear fender mark measured with the rear wheel off the ground, minus the same measurement with the rider seated. Set it before changing damping."
+    ],
+    "ms": 20354,
+    "prompt_version": "mx-engineering-63"
+   }
+  ]
+ },
+ {
+  "id": "c03",
+  "bike": {
+   "manufacturer": "Honda",
+   "model": "CRF450R",
+   "model_year": 2022,
+   "configuration": {}
+  },
+  "setup_history": null,
+  "race": null,
+  "checks": [
+   "turn 1: one separating question or a best first guess",
+   "turn 2: picks rebound/compression direction from the detail",
+   "turn 3: uses 190 lb, 104 mm and 25 mm: free sag 25 mm points to a soft-ish or right spring per the engineering check, says what it means, no re-asking"
+  ],
+  "turns": [
+   {
+    "rider": "Rear end kicks to the side on braking bumps",
+    "reply": {
+     "summary": "A sideways kick off braking bumps usually points to shock compression that is too firm. After checking chain slack and rear suspension movement, try the shock high-speed compression 1/12 turn softer.",
+     "answer": "**A sideways kick usually points to the rear deflecting off sharp bumps—not automatically rebound that’s too fast.** Common tuner practice is to soften shock high-speed compression first.\n\nBefore tuning, check chain slack and make sure the linkage moves freely without play or leaks. Confirm rider sag: Honda specifies **105 mm with the standard shock spring 54 N/mm**. A rear sitting too high can also kick.\n\nTry **1/12 turn counterclockwise on shock high-speed compression**, leaving rebound alone. Honda specifies that adjustment step; its stock high-speed baseline is 1 11/12–2 5/12 turns out. If yours is revalved, use your tuner's baseline instead.\n\nFor braking technique, stay standing with hips over the pegs, knees gripping and arms loose; squeeze the brakes progressively rather than locking the rear. Practice five controlled passes through the same section at an easy pace, keeping your braking marker consistent.\n\nDoes it kick sideways on the first bump, or start okay and get lower and harsher through the series? The second pattern points toward rebound packing and needs a different fix.",
+     "next_step": {
+      "action": "After checking chain slack and free rear suspension movement, soften shock high-speed compression 1/12 turn and compare a few controlled passes through the same bumps.",
+      "purpose": "Test whether excessive compression resistance is causing sideways deflection.",
+      "stop_conditions": [
+       "Loose or binding suspension components.",
+       "Shock leakage or severe instability.",
+       "New bottoming or worse tracking; restore the previous setting."
+      ]
+     },
+     "setup_changes": [
+      {
+       "setting": "Shock high-speed compression",
+       "change": "From your current position, turn counterclockwise 1/12 turn; leave rebound unchanged.",
+       "expect": "Less sideways deflection and better rear tracking across sharp braking bumps.",
+       "go_back_if": "The rear starts blowing through its travel, bottoming, or feeling noticeably low and loose."
+      }
+     ]
+    },
+    "cited_facts": [
+     "Shock / Race sag / Standard (standard spring): 105 mm. Applies to the standard R model named in this handbook; other variants covered by the same handbook have different values. Stock OEM parts only. Race sag is the unloaded measurement minus the rider-aboard measurement with the bike at race weight, per the procedure on the cited page.",
+     "Suspension / Shock spring / Standard spring rate: 54 N/mm (308.3 lbf/in). standard spring",
+     "Shock / High speed compression damping adjuster / Standard position: 1 11/12 – 2 5/12 turns. Applies to the standard R model named in this handbook; other variants covered by the same handbook have different values. Stock OEM parts only. Turns counterclockwise (softer) from the stiffest, fully clockwise position."
+    ],
+    "ms": 23064,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "It's when I'm hard on the brakes coming into the corner, the rear steps out and hops",
+    "reply": {
+     "summary": "Hard braking unloads the rear tire, so rear-brake lockup or engine braking can make it hop sideways. Separate that from suspension deflection before changing the shock.",
+     "answer": "**Check rear-wheel lockup and engine braking before softening the shock.** Hard braking transfers weight forward; the lightly loaded rear tire can skip sideways when the rear brake or a downshift slows it too much. That’s general braking guidance, not a confirmed fault.\n\nHold off on the high-speed compression change I suggested earlier until you separate those causes:\n- Stay standing through the bumps, hips back over the pegs—not over the rear fender—with knees gripping and arms loose.\n- Squeeze the front brake progressively and ease rear-pedal pressure enough to keep the rear wheel turning. Avoid an abrupt downshift into the bumps.\n- Make **five controlled passes at an easy pace**, using the same braking marker. On one comparison pass, briefly pull the clutch in while keeping the lighter rear-brake pressure; don’t increase entry speed.\n\nIf that settles it, brake input or engine braking is contributing. If it still deflects sideways, shock compression remains a possibility; if it gets lower and harsher with each bump, suspect slow rebound instead.\n\nDoes it still hop with lighter rear-brake pressure and the clutch pulled in?",
+     "next_step": {
+      "action": "Compare easy-paced passes with lighter rear-brake pressure, then briefly disengage the clutch on one pass.",
+      "purpose": "Separate braking and engine-braking effects from suspension deflection before adjusting damping.",
+      "stop_conditions": [
+       "Stop the test if the rear becomes difficult to control.",
+       "Do not ride with brake leakage, abnormal lever or pedal feel, or loose suspension components."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [],
+    "ms": 21339,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "I weigh 190 in gear and race sag is 104mm, free sag 25mm",
+    "reply": {
+     "summary": "Your 104 mm race sag is close to Honda’s standard target; 25 mm free sag suggests checking spring suitability, not adding preload or immediately changing rebound.",
+     "answer": "**104 mm race sag is close enough to Honda’s 105 mm standard-spring target that I wouldn’t change preload yet.** Your 25 mm free sag is on the low side by general tuner practice, but it doesn’t prove the spring is too soft or explain the braking hop by itself.\n\nAt **190 lb in gear**, you’re roughly 170–175 lb without gear. A tuner’s chart for this generation puts 170–185 lb riders, weighed in everyday clothes with gear already allowed for, on a **shock spring 56 N/mm**. That makes it a sensible candidate *if yours is still the standard shock spring 54 N/mm*, not a confirmed fix. Confirm spring suitability before chasing clickers.\n\nDon’t slow rebound just because it hops: that can worsen packing through repeated bumps. We also haven’t established whether lighter rear-brake pressure and disengaging the clutch settled it. Keep that controlled comparison at an easy pace, standing with hips back over the pegs and arms loose.\n\n**What shock spring rate is fitted now?** You can save your weight and sag measurements with the button below.",
+     "next_step": {
+      "action": "Confirm the fitted shock spring rate before changing preload or damping.",
+      "purpose": "Determine whether the measured sag requires excessive preload for this rider.",
+      "stop_conditions": [
+       "Do not ride with brake leakage, abnormal brake feel, loose components or severe instability."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Shock / Race sag / Standard (standard spring): 105 mm. Applies to the standard R model named in this handbook; other variants covered by the same handbook have different values. Stock OEM parts only. Race sag is the unloaded measurement minus the rider-aboard measurement with the bike at race weight, per the procedure on the cited page.",
+     "Suspension / Shock spring / Standard spring rate: 54 N/mm (308.3 lbf/in). standard spring"
+    ],
+    "ms": 23182,
+    "prompt_version": "mx-engineering-63"
+   }
+  ]
+ },
+ {
+  "id": "c04",
+  "bike": {
+   "manufacturer": "KTM",
+   "model": "85 SX 19/16",
+   "model_year": 2024,
+   "configuration": {}
+  },
+  "setup_history": null,
+  "race": null,
+  "checks": [
+   "turn 1: carb direction, asks or uses where they ride",
+   "turn 2: uses sea level and 85F with the maker's chart for the 85 SX if available",
+   "turn 3: compares his 145/clip 3 to the chart box for sea level 77-97F and says what to change, with a plug check"
+  ],
+  "turns": [
+   {
+    "rider": "My son's 85 bogs off the bottom when he cracks the throttle",
+    "reply": {
+     "summary": "Check the filter and choke before changing jets. An off-idle bog can be lean hesitation or rich loading-up, and those need opposite fixes.",
+     "answer": "That points first to the **pilot circuit or rich loading-up**, not automatically the main jet. The sound of the bog helps separate them.\n\nStart with the engine off and cool: check that the air filter isn’t dirty or soaked with excess oil, is seated correctly, and the choke plunger returns fully.\n\nFor reference, KTM’s stock carb baseline is a **48 pilot jet and air screw 2 turns out** from lightly seated. Those are reference settings—not a reason to replace jets before checking what’s fitted and the riding temperature/elevation.\n\n- A hollow “bwaaah” hesitation suggests a lean pilot circuit, restricted pilot passage, or intake leak.\n- A wet, burbling stumble that clears as revs rise suggests excess fuel, a choke not closing, or restricted airflow.\n\nDon’t make it leaner by guesswork; stop riding if it pings, overheats, or the idle hangs high.\n\nOnce fully warm, is it a hollow “bwaaah,” or a wet, burbling stumble?",
+     "next_step": {
+      "action": "With the engine off and cool, inspect filter condition and seating, and verify the choke returns fully.",
+      "purpose": "Exclude simple airflow and enrichment faults before changing carburetor settings.",
+      "stop_conditions": [
+       "Loose material or dirt could enter the intake.",
+       "Fuel leakage is present.",
+       "Pinging, overheating or a hanging high idle occurs."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Carburetor / Idling jet: 48 (45, 50). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Factory carburetor setting for the stock engine and exhaust named in this manual.",
+     "Carburetor / Idle air adjusting screw / open: 2 turns. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Factory carburetor setting for the stock engine and exhaust named in this manual."
+    ],
+    "ms": 25413,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "We ride at home in Florida, sea level, it's about 85 degrees most days",
+    "reply": {
+     "summary": "At sea level and 85°F, KTM’s chart calls for a 45 pilot jet—not the general 48 baseline mentioned earlier. That makes rich loading-up plausible, but confirm what’s fitted and how it bogs before leaning it out.",
+     "answer": "For **sea level and 85°F**, KTM’s stock-engine jetting chart specifies:\n\n| Setting | KTM starting point |\n|---|---|\n| Pilot jet | **45** |\n| Air screw | **2 turns out**, from lightly seated |\n| Needle | **NRKC** |\n| Needle clip | **3rd from top** |\n| Main jet | **142** |\n\nThat is the chart’s **0–984 ft, 77–97°F** band. The 48 pilot I mentioned earlier is the general baseline; **45 is the chart setting for your conditions**. These numbers assume the stock engine, carburetor and exhaust.\n\nIf it currently has a 48 pilot, rich loading-up is a possibility in that heat—but a restricted pilot passage or intake leak can cause a lean bog, so don’t swap jets on temperature alone. The main jet is not the first thing to change for an off-idle stumble.\n\nWith the engine off and cool, identify the installed pilot and current air-screw position before changing anything. Stop riding if it pings, overheats or hangs at a high idle.\n\nFully warm, does it make a wet, burbling stumble, or a hollow “bwaaah” that nearly kills the engine?",
+     "next_step": {
+      "action": "With the engine off and cool, identify the installed pilot jet and record the air-screw position without changing the baseline.",
+      "purpose": "Compare actual settings with KTM’s chart before choosing a richer or leaner direction.",
+      "stop_conditions": [
+       "Fuel leakage or unsafe fuel handling.",
+       "Do not ride if it pings, overheats or hangs at high idle."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Carburetor tuning / 0 to 300 m (0 to 984 ft) / 25 to 36 °C (77 to 97 °F): idle air screw 2 turns open; idling jet 45; jet needle NRK C; needle clip position 3 from top; main jet 142. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Factory carburetor setting for the stock engine and exhaust named in this manual."
+    ],
+    "ms": 24291,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "He's on a 145 main and the clip is in the 3rd groove, what should it be?",
+    "reply": {
+     "summary": "For sea level and 85°F, KTM specifies a 142 main and the needle clip in the third groove from the top. That chart baseline does not establish the cause of the off-idle bog.",
+     "answer": "For your **sea-level, 85°F** riding, KTM’s stock-engine-and-exhaust chart calls for a **142 main jet** and **NRKC needle, clip in the 3rd groove from the top**. Your clip position matches—provided that’s the needle fitted; the 145 main is richer than that chart setting.\n\nThe same chart specifies a **45 pilot jet** and **air screw 2 turns out** from lightly seated, for 0–984 ft and 77–97°F.\n\nDon’t expect changing the main alone to cure the bottom-end bog: the pilot circuit and needle’s straight section matter more just off idle. Before leaning anything, identify the installed pilot and confirm the filter and choke checks; a lean hesitation needs the opposite fix from rich burbling.\n\n**What pilot jet is fitted?** Stop riding if it pings, overheats or hangs at a high idle.\n\nYou can save the current 145 main and clip position with the button below.",
+     "next_step": {
+      "action": "With the engine off and cool, identify the fitted pilot jet and needle marking without changing settings.",
+      "purpose": "Establish the actual low-throttle baseline before choosing a richer or leaner correction.",
+      "stop_conditions": [
+       "Fuel leakage or fuel vapor near ignition sources.",
+       "Do not ride with pinging, overheating or a hanging high idle."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Carburetor tuning / 0 to 300 m (0 to 984 ft) / 25 to 36 °C (77 to 97 °F): idle air screw 2 turns open; idling jet 45; jet needle NRK C; needle clip position 3 from top; main jet 142. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Factory carburetor setting for the stock engine and exhaust named in this manual."
+    ],
+    "ms": 20541,
+    "prompt_version": "mx-engineering-63"
+   }
+  ]
+ },
+ {
+  "id": "c05",
+  "bike": {
+   "manufacturer": "Kawasaki",
+   "model": "KX250",
+   "model_year": 2021,
+   "configuration": {}
+  },
+  "setup_history": null,
+  "race": null,
+  "checks": [
+   "turn 1: % change and feel",
+   "turn 2: redoes the numbers from 13/49 to 13/52 (about +6%), does not repeat the old figure",
+   "turn 3: axle moves forward about 3 rear teeth x 1/4 pitch (~12 mm); checks adjuster room, chain change two links at a time only if it runs out"
+  ],
+  "turns": [
+   {
+    "rider": "Going 13/50 to 13/52 for a tight supercross-style track, good idea?",
+    "reply": {
+     "summary": "Yes—13/52 is a sensible choice for a tight supercross-style track, giving stronger pull at the cost of earlier shifts.",
+     "answer": "**Yes—I’d pick 13/52 for that track.** Tight corners and short jump approaches favor getting back into the power quickly rather than stretching each gear.\n\nWorked out from your 13/50 to 13/52 change, gearing becomes **4% shorter**: about 4% more rear-wheel torque at the same engine torque, with about 3.8% less speed at the same rpm. Expect stronger corner exits, but earlier shifts—make sure it doesn’t force a shift right before a jump face.\n\nWith the same chain, the rear axle moves forward slightly. Check adjustment room, chain slack and the sprocket maker’s fitment for your 2021 KX250 before buying; 52T fitment isn’t confirmed here.\n\n**My pick: 52T for tight, grippy conditions; 51T if it’s slick or you’re already shifting too often.** Test whether you can carry your chosen gear from the corner through the next feature.\n\nYou can save your current 13/50 gearing with the button below.",
+     "next_step": {
+      "action": "Check 52T fitment and chain-adjuster room, then test corner-to-feature gear choice.",
+      "purpose": "Confirm stronger drive without an awkward extra shift.",
+      "stop_conditions": [
+       "Correct chain slack cannot be achieved within the adjustment range.",
+       "Chain or sprocket interference."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [],
+    "ms": 19117,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "Actually I meant 13/49 is what I'm running now, not 13/50",
+    "reply": {
+     "summary": "From your actual 13/49, going to 13/52 is 6.1% shorter—not 4%. I’d still choose 52T for the tight track, provided it doesn’t add a shift before a jump.",
+     "answer": "**13/49 to 13/52 is a 6.1% shorter gearing change**, rather than the 4% I calculated from 13/50. Assuming the same engine torque, that means about **6.1% more rear-wheel torque** and **5.8% less speed at the same rpm**.\n\nI’d still pick **13/52 for the tight supercross-style track** if you’re struggling to pull out of slow corners. It’s a bigger change than we first discussed, so expect noticeably earlier shifts. **13/51 is the middle ground—4.1% shorter than your current gearing**—if 52T would force a shift just before a jump face.\n\nWith your existing chain, the axle must move forward; confirm adjustment room and the sprocket maker’s 2021 KX250 fitment before buying. Exact 52T fitment isn’t confirmed here.\n\nYour corrected 13/49 gearing can be saved under Gearing & chain with the button below.",
+     "next_step": {
+      "action": "Check 52T fitment and chain-adjuster room before buying.",
+      "purpose": "Confirm the shorter gearing can be installed with correct chain slack.",
+      "stop_conditions": [
+       "Correct chain slack cannot be achieved within the adjustment range.",
+       "Chain or sprocket interference."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [],
+    "ms": 18258,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "Will I need a longer chain?",
+    "reply": {
+     "summary": "Not necessarily: going from your corrected 13/49 to 13/52 needs roughly 1/2 inch of forward axle adjustment with the same chain.",
+     "answer": "**Not necessarily—you can keep the same chain if the rear axle can move forward roughly 1/2 inch** and still achieve correct slack.\n\nThat estimate is for your corrected **13/49 → 13/52**, assuming a 520 chain: three extra rear teeth need about 12 mm of forward axle movement. Check the chain’s size marking before relying on that estimate.\n\nIf the axle reaches the front of its adjustment before the slack is right, you’ll need a longer chain, normally **two links longer**—then confirm that it fits within the adjuster range. Exact available adjustment travel isn’t confirmed for your bike here.\n\n**Check your current axle position before buying.** Don’t force the existing chain to fit by running it tight; if it’s worn or kinked, replace it rather than extending it.",
+     "next_step": {
+      "action": "Check whether the axle has roughly 1/2 inch of forward adjustment available.",
+      "purpose": "Determine whether the existing chain is likely to accommodate the 52T sprocket.",
+      "stop_conditions": [
+       "Correct chain slack cannot be achieved within the adjuster range.",
+       "Chain is worn, kinked or damaged."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [],
+    "ms": 22755,
+    "prompt_version": "mx-engineering-63"
+   }
+  ]
+ },
+ {
+  "id": "c06",
+  "bike": {
+   "manufacturer": "Husqvarna",
+   "model": "FC 350",
+   "model_year": 2023,
+   "configuration": {
+    "geared_weight_lb": 230
+   }
+  },
+  "setup_history": null,
+  "race": null,
+  "checks": [
+   "turn 1: uses 230 lb with the maker chart, says it's above or at the top of the chart",
+   "turn 2: adjusts for woods (softer side, compliance), no re-asking weight",
+   "turn 3: fork answer for this bike (air fork: pressure for weight) for woods, ties to turn 1/2"
+  ],
+  "turns": [
+   {
+    "rider": "What shock spring should I run?",
+    "reply": {
+     "summary": "At 230 lb in gear, you’re above Husqvarna’s published shock-spring chart. Check static sag at the correct rider sag before choosing the replacement rate.",
+     "answer": "You’ll likely need a heavier shock spring than Husqvarna’s chart-top **shock spring 48 N/mm**, but I’d check sag before buying.\n\nHusqvarna specifies that rate for **187–209 lb** riders; you’re **230 lb in gear**. The chart increases the shock spring rate by 3 N/mm per roughly 22 lb, putting you about one weight band beyond its published range—not at a confirmed factory recommendation. The chart already includes riding gear, so don’t subtract it.\n\nSet **105 mm (4.13 in) rider sag**, then measure static sag with you off the bike and both wheels on the ground. Husqvarna’s target is **35 mm (1.38 in)**. As general guidance, too little static sag at correct rider sag means the spring is too soft; confirm the same measurements after replacement.\n\n**What static sag do you get with rider sag set to 105 mm?**",
+     "next_step": {
+      "action": "Set 105 mm rider sag, then measure static sag without the rider.",
+      "purpose": "Confirm spring suitability before selecting a replacement rate.",
+      "stop_conditions": [
+       "If suspension binds or has bearing play, resolve that before interpreting sag."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Shock absorber / Spring rate / Weight of rider: 85 … 95 kg (187 … 209 lb.): 48 N/mm (274 lb/in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+     "Shock absorber / Riding sag: 105 mm (4.13 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.",
+     "Shock absorber / Static sag: 35 mm (1.38 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.",
+     "Shock absorber / Spring rate / Weight of rider: 75 … 85 kg (165 … 187 lb.): 45 N/mm (257 lb/in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only."
+    ],
+    "ms": 21247,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "I ride mostly woods and hare scrambles, not much jumping",
+    "reply": {
+     "summary": "Woods and hare scrambles call for compliant damping, not an undersprung shock. At 230 lb geared, confirm static sag before choosing the replacement spring.",
+     "answer": "For woods and hare scrambles, **keep the shock spring matched to your 230 lb geared weight**—get the comfort over roots and rocks through damping, rather than fitting a spring that lets the rear ride too low.\n\nHusqvarna’s chart tops out at **shock spring 48 N/mm for 85–95 kg (187–209 lb)**. Its steps are 3 N/mm per 10 kg, putting you roughly one band above the chart; that’s a projection, not a published recommendation for your weight.\n\nBefore picking the replacement rate, set Husqvarna’s **105 mm (4.13 in) rider sag** and measure static sag with you off and both wheels grounded. The published static target is **35 mm (1.38 in)**; substantially less means the spring is too soft despite your limited jumping.\n\n**What static sag do you get at 105 mm rider sag?** You can save your riding discipline with the button below.",
+     "next_step": {
+      "action": "Measure static sag after setting rider sag to 105 mm in full gear.",
+      "purpose": "Confirm spring suitability before selecting a replacement rate.",
+      "stop_conditions": [
+       "Resolve suspension binding or bearing play before interpreting sag."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Shock absorber / Spring rate / Weight of rider: 85 … 95 kg (187 … 209 lb.): 48 N/mm (274 lb/in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+     "Shock absorber / Spring rate / Weight of rider: 75 … 85 kg (165 … 187 lb.): 45 N/mm (257 lb/in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+     "Shock absorber / Riding sag: 105 mm (4.13 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.",
+     "Shock absorber / Static sag: 35 mm (1.38 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual."
+    ],
+    "ms": 21174,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "Can I keep the stock fork or do I need to do something there too?",
+    "reply": {
+     "summary": "Keep the stock air fork for now. At 230 lb geared, it needs its pressure and damping matched to you—not an automatic coil conversion.",
+     "answer": "**Yes—keep the stock fork.** Your FC 350 has a WP XACT air fork, so air pressure does the job of a coil spring. Your 230 lb geared weight doesn’t automatically mean you need replacement internals.\n\nHusqvarna’s US baseline is **10.6 bar (154 psi)**, with fork compression **12 clicks out** and rebound **18 clicks out**, counted from lightly seated. Those are factory starting settings, not a weight-specific recommendation for you. Check pressure cold with the front wheel off the ground.\n\nFor woods and hare scrambles with little jumping, common tuning practice is to retain enough air pressure for support and use damping for comfort over roots and chop. Don’t simply drop pressure to make it plush: riding too deep can make it harsher. If it rides high and deflects, try compression 1–2 clicks farther out from wherever it is now; if it dives and rides deep, don’t soften it further.\n\n**My pick: spend on the correct shock spring first, then evaluate the stock fork with the bike balanced.** Consider a woods revalve only if adjustment cannot give both comfort and support; a coil conversion is optional.\n\nYou can save your woods/hare-scramble discipline with the button below.",
+     "next_step": {
+      "action": "Check and record cold fork pressure with the front wheel off the ground before evaluating its support and comfort.",
+      "purpose": "Establish the existing air-spring setting before buying fork parts.",
+      "stop_conditions": [
+       "Resolve visible leaks, binding or damaged components before tuning."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Fork / Fork: WP XACT 5448. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+     "Fork / Air pressure: 10.6 bar (154 psi). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+     "Fork / Compression damping / Standard: 12 clicks. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Counted counterclockwise (softer) from the adjuster turned clockwise to its stop or last click, as the adjustment section of the same manual describes.",
+     "Fork / Rebound damping / Standard: 18 clicks. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Counted counterclockwise (softer) from the adjuster turned clockwise to its stop or last click, as the adjustment section of the same manual describes."
+    ],
+    "ms": 22298,
+    "prompt_version": "mx-engineering-63"
+   }
+  ]
+ },
+ {
+  "id": "c07",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ125",
+   "model_year": 2022,
+   "configuration": {}
+  },
+  "setup_history": null,
+  "race": null,
+  "checks": [
+   "turn 1: plug heat range, premix ratio, riding style, jetting",
+   "turn 2: carb jetting direction for fouling (richer -> leaner pilot/clip), stays on the YZ125",
+   "turn 3: switches topic cleanly, uses 180 lb for a fork spring answer, no jetting leftovers"
+  ],
+  "turns": [
+   {
+    "rider": "Fouling plugs every couple rides",
+    "reply": {
+     "summary": "Fouling plugs every couple rides is worth checking, not accepting as normal. Rich low-speed running is the first suspect, but inspect the failed plug before changing jets.",
+     "answer": "**You shouldn’t have to replace plugs every couple rides.** Owners consistently report rich low-to-mid running on the 2022-on YZ125, especially during slow trail riding, but that doesn’t prove yours needs smaller jets.\n\nMost likely, in order:\n- Rich low-speed running or spending long periods below the powerband.\n- A dirty/over-oiled air filter or choke plunger that isn’t fully seating.\n- Excess fuel from a float/float-valve problem; weak ignition is another possibility if a fresh plug doesn’t restore clean running.\n\n**With the engine cold, remove the failed plug and inspect it:** black and wet supports fouling, but can also mean the fuel isn’t being ignited. Check the filter and choke seating before buying jets.\n\nYamaha specifies **NGK BR9EVX, gap 0.6–0.7 mm (0.024–0.028 in)**. Stock carb baseline is **160 main, 75 pilot, NYDF needle in clip 2 from the top, 35 power jet, air screw 2-5/8 turns out**—a comparison point, not a prescription for different engine parts or conditions. Don’t mask the problem with a hotter plug.\n\nDoes it foul after slow/idling riding, or while you’re riding it hard?\n\nStop riding if it pings, overheats, or leaks fuel.",
+     "next_step": {
+      "action": "With the engine cold and off, remove and inspect the failed spark plug.",
+      "purpose": "Distinguish black/wet fouling from a different plug or combustion problem before altering jetting.",
+      "stop_conditions": [
+       "Fuel leakage",
+       "Pinging or overheating reported during operation",
+       "Metal deposits or damaged plug electrodes"
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Spark plug(s) / Spark plug gap: 0.6–0.7 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Spark plug(s) / Manufacturer/model: NGK/BR9EVX. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Carburetor / Main jet: #160. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.",
+     "Carburetor / Pilot jet: #75. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.",
+     "Carburetor / Jet needle: NYDF-2. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.",
+     "Carburetor / Power Jet: #35. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.",
+     "Carburetor / Air screw turns out: 2-5/8. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual."
+    ],
+    "ms": 29634,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "Ok what about the jetting then",
+    "reply": {
+     "summary": "Rich low-speed jetting is a likely cause, but confirm what is fitted and your riding conditions before choosing smaller jets.",
+     "answer": "**Start with the pilot circuit and needle—not a smaller main jet blindly.** Owners consistently report rich low-to-mid running on this generation, but a wet plug alone doesn’t prove the jetting is wrong.\n\nYamaha’s stock baseline for your 2022 YZ125 is:\n- **Main: #160**\n- **Pilot: #75**\n- **Needle: NYDF, clip 2 from the top**\n- **Power jet: #35**\n- **Air screw: 2-5/8 turns out**, though Yamaha sets it individually—record yours before moving it.\n\nThose are stock-engine/exhaust comparison settings, not an instruction to replace whatever is fitted. Once the filter and choke seating check out, fouling during slow riding points first toward the pilot/air-screw circuit; burbling under part throttle also brings the needle into play. Turning the air screw out leans the lowest-throttle mixture. Keep the premix consistent rather than reducing oil to hide fouling.\n\n**What town or elevation do you ride at, and roughly what temperature?** That determines the jetting direction before we pick a change.\n\nStop if it pings, overheats or leaks fuel.",
+     "next_step": {
+      "action": "With the engine off and cool, record the installed carburetor settings before changing anything.",
+      "purpose": "Compare the actual setup with Yamaha’s baseline and avoid tuning from assumed settings.",
+      "stop_conditions": [
+       "Fuel leakage or accumulated fuel fumes.",
+       "Do not ride to test if pinging or overheating occurs."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Carburetor / Main jet: #160. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.",
+     "Carburetor / Pilot jet: #75. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.",
+     "Carburetor / Jet needle: NYDF-2. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.",
+     "Carburetor / Air screw turns out: 2-5/8. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual.",
+     "Carburetor / Power Jet: #35. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Factory standard carburetor setting for the stock engine, exhaust and fuel named in this manual."
+    ],
+    "ms": 21588,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "Back to the fork, it's way too soft for me at 180, what's the spring I need?",
+    "reply": {
+     "summary": "At 180 lb, a fork spring 4.4 N/mm is a sensible first estimate if that weight includes riding gear. Yamaha’s stock fork spring is 4.2 N/mm, but it does not publish a rider-weight chart here.",
+     "answer": "**I’d start with fork springs 4.4 N/mm at 180 lb**, assuming that’s your weight in riding gear and you’re riding motocross. That’s a general tuning estimate—not Yamaha’s published weight recommendation.\n\nYamaha specifies **fork springs 4.2 N/mm stock** and lists **4.4 N/mm** as an available option. If yours still has the stock springs, that’s a sensible increase for more braking support and less blowing through the travel without making a big jump in stiffness.\n\nFit a matched pair, keep oil volume unchanged initially, and test the same braking zone and landing. You want less dive while still using most of the travel on your biggest normal hits. If only the last part of the stroke is too soft, oil volume may be the answer instead of more spring.\n\n**Is that 180 lb with riding gear or without?**",
+     "next_step": {
+      "action": "Confirm whether 180 lb includes gear before ordering the matched fork spring pair.",
+      "purpose": "Check the weight assumption behind the provisional 4.4 N/mm recommendation.",
+      "stop_conditions": [
+       "Resolve any fork leakage or binding before tuning."
+      ]
+     },
+     "setup_changes": [
+      {
+       "setting": "Fork spring rate",
+       "change": "If currently stock, change both fork springs from 4.2 N/mm to 4.4 N/mm; provisional estimate assuming 180 lb includes gear.",
+       "expect": "More support under braking and on jump faces, with less excessive travel use.",
+       "go_back_if": "The fork deflects, loses front grip, or leaves substantial travel unused on your normal biggest hits."
+      }
+     ]
+    },
+    "cited_facts": [
+     "Front fork spring / Standard spring rate: 4.2 N/mm. Stock fork spring as delivered; optional rates are listed separately.",
+     "Front fork spring / Optional spring rates (Yamaha part numbers): 4.1 (B3J-23141-10), 4.2 (B3J-23141-20), 4.3 (B3J-23141-30), 4.4 (B3J-23141-40), 4.5 (BR9-23141-20), 4.6 (BR9-23141-30), 4.7 (BR9-23141-40), 4.8 (BR9-23141-50), 4.9 (BR9-23141-60), 5.0 (BR9-23141-70), 5.1 (BR9-23141-80) N/mm. Yamaha optional springs; after a change, reset rebound and compression as the manual describes."
+    ],
+    "ms": 21391,
+    "prompt_version": "mx-engineering-63"
+   }
+  ]
+ },
+ {
+  "id": "c08",
+  "bike": {
+   "manufacturer": "GasGas",
+   "model": "MC 250F",
+   "model_year": 2024,
+   "configuration": {}
+  },
+  "setup_history": null,
+  "race": null,
+  "checks": [
+   "turn 1: stock hydraulic clutch causes",
+   "turn 2: switches to Rekluse-specific causes (engagement setting, free play/install gap), corrects earlier advice where it doesn't apply",
+   "turn 3: answers plates vs adjustment for a Rekluse, doesn't revert to stock-clutch advice"
+  ],
+  "turns": [
+   {
+    "rider": "Clutch is grabby and the bike creeps in gear",
+    "reply": {
+     "summary": "Creeping with the clutch fully pulled points to clutch drag. Check that the lever can complete its stroke before blaming the clutch pack.",
+     "answer": "**If it creeps with the clutch fully pulled in, the clutch isn’t releasing completely.** Slight drag when cold can happen with a wet clutch, but persistent creeping once warm—or a sudden grab—is worth checking.\n\nYour MC 250F has a hydraulic clutch, so there’s no cable slack to adjust. Most likely causes, in order:\n- Restricted lever travel, or a hydraulic problem preventing full release—especially if the lever feels soft or its bite point changes.\n- Plates sticking together, unsuitable gearbox oil, or warped plates—more likely if lever pressure stays firm.\n- Grooves worn into the clutch basket that stop the plates separating smoothly.\n\n**First, engine off:** pull the lever fully and check that a handguard or another obstruction isn’t stopping it. Look for fluid around the master cylinder, hose connections and slave cylinder; don’t open the system or add unidentified fluid.\n\nDon’t ride if it pulls forward against the brake, lunges, or loses lever pressure.\n\nDoes the creeping disappear once warm, or remain with the lever fully pulled?",
+     "next_step": {
+      "action": "With the engine off, check full lever travel and visually inspect the hydraulic circuit for leaks.",
+      "purpose": "Rule out external release problems before opening the clutch.",
+      "stop_conditions": [
+       "Fluid leakage or loss of lever pressure.",
+       "Uncontrolled creeping, lunging, or pulling against the brake."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [],
+    "ms": 27202,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "I have a Rekluse in it if that matters",
+    "reply": {
+     "summary": "Yes—the Rekluse changes the checks. Identify whether it’s an auto-clutch or a conventional Rekluse pack before adjusting anything.",
+     "answer": "**Yes—that matters, especially if it’s a Rekluse auto-clutch.** My earlier checks for restricted lever travel and hydraulic leaks still apply, but don’t assume the stock clutch adjustment or inspection limits apply.\n\n- **If it’s an auto-clutch:** insufficient installed gap, incorrect free-play gain, or idle speed near its engagement point can cause creeping and grabby engagement. Free-play gain is a specific Rekluse check—not ordinary lever slack. Check it against the instructions for the exact kit before adjusting the slave cylinder.\n- **If it’s a conventional Rekluse clutch pack:** hydraulic release travel, pack installation and plate condition remain the main suspects.\n\nThe exact Rekluse adjustment and limits aren’t confirmed for your kit here; its model-specific installation sheet supplies those.\n\n**Don’t ride it if it lunges, pulls against the brake, or loses lever pressure.**\n\nWhich Rekluse model is fitted—an auto-clutch such as Radius/EXP, or a conventional manual pack?\n\nI’ve listed it under **Clutch**; you can save it with the button below.",
+     "next_step": {
+      "action": "Identify the Rekluse model from its kit paperwork or product marking before making adjustments.",
+      "purpose": "Select the correct release and free-play-gain checks.",
+      "stop_conditions": [
+       "Do not ride with lunging or pulling against the brake.",
+       "Do not ride with hydraulic leakage or loss of lever pressure."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [],
+    "ms": 20233,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "So do I need new plates?",
+    "reply": {
+     "summary": "Not yet—grabbing and creeping do not prove the plates need replacing. Identify the Rekluse kit and verify its release setup before buying parts.",
+     "answer": "**Not yet—don’t buy plates based on creeping alone.** With a Rekluse, incorrect release setup can feel like bad plates.\n\n- **If it’s an auto-clutch:** check its installed-gap/free-play-gain setup and idle against that exact kit’s instructions first.\n- **If it’s a manual Rekluse pack:** check full lever travel and hydraulic release first.\n\nNew plates make sense if inspection finds warped steels, damaged friction material, or measurements outside **Rekluse’s limits for that kit**. Basket grooves can also prevent clean release; plates alone won’t fix that. Worn friction plates more commonly cause slipping under power than creeping.\n\nThe exact plate limits aren’t confirmed for your kit; its installation/service instructions supply them. **Don’t ride if it lunges, pulls against the brake, or loses lever pressure.**",
+     "next_step": {
+      "action": "Identify the exact Rekluse kit from its paperwork or markings before adjusting or ordering plates.",
+      "purpose": "Establish the applicable release checks and plate inspection limits.",
+      "stop_conditions": [
+       "Do not ride with lunging or pulling against the brake.",
+       "Do not ride with hydraulic leakage or loss of lever pressure."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [],
+    "ms": 20887,
+    "prompt_version": "mx-engineering-63"
+   }
+  ]
+ },
+ {
+  "id": "c09",
+  "bike": {
+   "manufacturer": "KTM",
+   "model": "450 SX-F",
+   "model_year": 2025,
+   "configuration": {
+    "geared_weight_lb": 200
+   }
+  },
+  "setup_history": [
+   {
+    "track": "Dade City",
+    "conditions": "sandy, rough",
+    "change_made": "Shock rebound 2 clicks slower (15 to 13 out)",
+    "result": "better",
+    "notes": "less kick on the whoops"
+   },
+   {
+    "track": "Dade City",
+    "conditions": "sandy, rough",
+    "change_made": "Fork compression 2 clicks stiffer",
+    "result": "worse",
+    "notes": "harsh on braking bumps"
+   }
+  ],
+  "race": null,
+  "checks": [
+   "turn 1: builds on the log: keep the shock rebound change, put fork compression back, sand-track start",
+   "turn 2: next change for squat (shock LSC/HSC or preload/sag) without suggesting the fork compression change again"
+  ],
+  "turns": [
+   {
+    "rider": "Going back to Dade City this weekend, what should I start with?",
+    "reply": {
+     "summary": "Start with shock rebound at 13 clicks out and undo the fork-compression change that made braking bumps harsher.",
+     "answer": "Start with **shock rebound at 13 clicks out**, and **back fork compression out 2 clicks from your last tested setting** to undo the change that made it worse.\n\nAt Dade City last time, slowing shock rebound from 15 to 13 out reduced the whoop kick; keep that improvement. The firmer fork-compression test hurt braking-bump comfort, so don't add more compression just because it's sandy.\n\nBefore riding, check these references for the original suspension:\n- KTM's US fork-air baseline is **10.5 bar (152 psi)**, checked cold with the front wheel unloaded—not a weight-specific recommendation.\n- KTM's sag targets are **105 mm riding / 35 mm static**.\n- At your **200 lb geared weight**, KTM's chart points to a **shock spring 48 N/mm** for 187–209 lb; verify what's fitted and confirm with both sag measurements.\n\nThis starts from your last sandy, rough visit—not a confirmed weekend forecast. Prep can differ on the day. Ride a few laps over the same braking bumps and whoops before changing anything else.",
+     "next_step": {
+      "action": "Undo the unsuccessful fork-compression change if not already reversed, then ride a few comparison laps with shock rebound held at 13 out.",
+      "purpose": "Start from the better-performing combination rather than repeat a change that hurt comfort.",
+      "stop_conditions": [
+       "Stop testing if suspension leaks, binding or severe instability appear."
+      ]
+     },
+     "setup_changes": [
+      {
+       "setting": "Fork compression",
+       "change": "Back out 2 clicks from the last tested position, returning to the setting before the unsuccessful firmer test.",
+       "expect": "Less harshness through braking bumps while retaining the improved rear control.",
+       "go_back_if": "If the restored setting now causes excessive dive or bottoming, stop further softening and reassess air pressure and travel use."
+      }
+     ]
+    },
+    "cited_facts": [
+     "Shock absorber / Riding sag: 105 mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.",
+     "Shock absorber / Static sag: 35 mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.",
+     "Shock absorber / Spring rate / Weight of rider: 85 … 95 kg (187 … 209 lb.): 48 N/mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only."
+    ],
+    "ms": 27334,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "Rear still squats a bit coming out of the sand corners",
+    "reply": {
+     "summary": "For squat as you roll on the throttle, try 2 clicks firmer shock low-speed compression—but confirm the spring and sag first.",
+     "answer": "For rear squat as you open the throttle, **go 2 clicks in on shock low-speed compression**, provided the spring and sag are right. That slows how quickly the rear settles under power; leave high-speed compression alone for this first test.\n\nAt **200 lb geared**, KTM’s chart calls for a **shock spring 48 N/mm** in the 187–209 lb band, with **105 mm rider sag and 35 mm static sag**. Verify what’s fitted: clickers won’t correct an undersprung rear.\n\nKeep shock rebound at **13 out**—your 15-to-13 change reduced whoop kick. If you haven’t already, undo the 2-click firmer fork-compression test that worsened braking bumps.\n\nOnce the spring/sag check passes, test the compression change through the same sand exit for a few laps. You want less settling without the rear skipping or losing drive. Keep your chest forward as you accelerate rather than sliding back on the seat.\n\n**With rider sag set at 105 mm, what static sag do you measure with you off the bike?**",
+     "next_step": {
+      "action": "Verify the fitted shock spring and measure static sag with rider sag at 105 mm before testing firmer compression.",
+      "purpose": "Separate insufficient spring support from excessive settling controlled by damping.",
+      "stop_conditions": [
+       "Resolve binding, bearing play or shock leakage before tuning."
+      ]
+     },
+     "setup_changes": [
+      {
+       "setting": "Shock low-speed compression",
+       "change": "After confirming spring and sag, turn clockwise 2 clicks from the current position; record the starting count first.",
+       "expect": "Less immediate squat as throttle opens, with more consistent corner-exit attitude.",
+       "go_back_if": "Rear traction decreases or the tire starts skipping across acceleration chop."
+      }
+     ]
+    },
+    "cited_facts": [
+     "Shock absorber / Riding sag: 105 mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.",
+     "Shock absorber / Static sag: 35 mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.",
+     "Shock absorber / Spring rate / Weight of rider: 85 … 95 kg (187 … 209 lb.): 48 N/mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only."
+    ],
+    "ms": 23655,
+    "prompt_version": "mx-engineering-63"
+   }
+  ]
+ },
+ {
+  "id": "c10",
+  "bike": {
+   "manufacturer": "Honda",
+   "model": "CRF250R",
+   "model_year": 2022,
+   "configuration": {}
+  },
+  "setup_history": null,
+  "race": null,
+  "checks": [
+   "turn 1: how to narrow it down, stop conditions",
+   "turn 2: narrows causes from idle-only detail",
+   "turn 3: uses 60 hours: valve check is overdue vs Honda's interval, gives the clearance spec and how to check, keeps earlier narrowing"
+  ],
+  "turns": [
+   {
+    "rider": "Weird ticking noise from the top end when it's warm",
+    "reply": {
+     "summary": "A new warm top-end tick needs checking before more riding. Start with the oil level, then separate valve noise from cam-chain or tensioner noise.",
+     "answer": "**Don’t keep riding a new or noticeably louder top-end tick until it’s checked.** Warm oil gets thinner and can make valve-train or cam-chain noise more noticeable, but that alone doesn’t establish the cause.\n\nFirst, check for oil loss with the engine off. If you’ve just shut it down warm, Honda specifies waiting **3 minutes**, holding the bike upright and checking that the oil is between the inspection-window marks. Don’t restart it just to reproduce the noise or warm it for this check.\n\nThe main suspects are valve-train clearance or wear, then the cam chain/tensioner; inadequate lubrication is the urgent one to rule out. A crisp, regular tap suggests valve-train noise; a loose metallic rattle suggests the chain—but sound alone won’t confirm either.\n\nHonda calls for valve/decompressor inspection every **6 races or about 15 hours**, plus after the first break-in ride. Stock clearances, measured cold below **35°C (95°F)**, are intake **0.10 ± 0.03 mm** and exhaust **0.20 ± 0.03 mm**.\n\nDoes the ticking speed up with engine rpm while the bike is stationary in neutral?",
+     "next_step": {
+      "action": "With the engine off, inspect for oil loss; if just shut down warm, wait 3 minutes and check the window with the bike upright.",
+      "purpose": "Rule out an immediately apparent lubrication problem without running the engine again.",
+      "stop_conditions": [
+       "Oil below the lower mark or significant oil leakage: do not restart.",
+       "Knocking, pronounced chain rattle or rapidly worsening noise: leave the engine off pending inspection."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Engine / Engine oil / Level check: Idle 3 minutes, stop, wait 3 minutes, bike upright; level between marks in inspection window. CRF250R",
+     "Maintenance Schedule / Valve clearance and decompressor system / Inspect: every 6 races or about 15.0 hours interval. CRF250R",
+     "Maintenance Schedule / Valve clearance and decompressor system / Break-in: Inspect after the first break-in ride. CRF250R",
+     "Engine / Valve clearance / Intake: 0.10 ± 0.03 mm (0.004 ± 0.001 in). CRF250R cold, below 35 C (95 F)",
+     "Engine / Valve clearance / Exhaust: 0.20 ± 0.03 mm (0.008 ± 0.001 in). CRF250R cold, below 35 C (95 F)"
+    ],
+    "ms": 26263,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "It's only at idle and goes away when I rev it",
+    "reply": {
+     "summary": "An idle-only tick narrows the possibilities, but does not clear the cam chain or lubrication. Low idle and decompressor chatter are worth separating from a loose chain.",
+     "answer": "**Only at idle makes low-idle/decompressor chatter more plausible, but it doesn’t prove the noise is harmless.** Cam-chain or tensioner noise can also quiet as rpm rises; valve clearance alone is less clearly indicated by that pattern.\n\nHonda specifies a warm idle of **2,000 ± 100 rpm**. An idle that’s too low or uneven can let the automatic decompressor chatter. Don’t turn the idle up just to hide a new noise, or restart it solely to reproduce it.\n\nFirst, finish the oil check we discussed: if you’ve just shut it down warm, wait **3 minutes**, hold it upright and check the inspection window. A cold reading isn’t the complete Honda level-check procedure.\n\n**Leave it off if the oil is low, the sound becomes a loose metallic rattle or knock, or it’s getting louder.**\n\nFrom when you last heard it, was the idle steady, or slow and stumbling?",
+     "next_step": {
+      "action": "With the engine off, check for oil loss; if just shut down warm, wait 3 minutes and inspect the oil window with the bike upright.",
+      "purpose": "Check the urgent lubrication concern without running the engine to reproduce the noise.",
+      "stop_conditions": [
+       "Low oil or significant leakage: do not restart.",
+       "Metallic rattle, knocking or worsening noise: leave the engine off pending inspection."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Engine / Idle speed: 2,000 ± 100 rpm. CRF250R engine warm fast idle knob pushed fully in",
+     "Engine / Engine oil / Level check: Idle 3 minutes, stop, wait 3 minutes, bike upright; level between marks in inspection window. CRF250R"
+    ],
+    "ms": 26725,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "I have 60 hours on it and never checked the valves",
+    "reply": {
+     "summary": "At 60 hours without a valve check, the valve clearances and decompressor need inspecting before more riding. That maintenance history does not prove they caused the warm idle tick.",
+     "answer": "**Get the valve clearances and decompressor checked before riding again.** Honda calls for inspection every **6 races or about 15 hours**, plus after the first break-in ride—you’re at **60 hours** without one.\n\nThat makes inspection overdue, but it doesn’t prove loose valves caused the tick. Valves can also tighten as they wear, without getting louder. Your warm, idle-only noise still leaves the decompressor and cam chain/tensioner in play.\n\nFor the stock engine, Honda’s cold clearance targets, measured below **35°C (95°F)**, are:\n- Intake: **0.10 ± 0.03 mm (0.004 ± 0.001 in)**.\n- Exhaust: **0.20 ± 0.03 mm (0.008 ± 0.001 in)**.\n\nI can walk you through **“Check and adjust the valve clearances.”** Tap **“Start a guided job”** above the message box. Have feeler gauges and basic hand tools ready; measure first, then determine whether replacement shims are needed. The job covers access, cold measurements, the decompressor check and adjustment if required.\n\n**Don’t restart it just to hear the tick again; a metallic rattle, knock or low oil means leave it off pending inspection.**",
+     "next_step": {
+      "action": "Start the guided valve-clearance job with the engine fully cold.",
+      "purpose": "Measure clearances and inspect the decompressor before attributing the noise to either.",
+      "stop_conditions": [
+       "Low oil, metallic rattle or knocking: do not restart.",
+       "Visible valvetrain damage or abnormal cam-chain slack: stop before adjustment or further running."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Maintenance Schedule / Valve clearance and decompressor system / Inspect: every 6 races or about 15.0 hours interval. CRF250R",
+     "Engine / Valve clearance / Exhaust: 0.20 ± 0.03 mm (0.008 ± 0.001 in). CRF250R cold, below 35 C (95 F)",
+     "Engine / Valve clearance / Intake: 0.10 ± 0.03 mm (0.004 ± 0.001 in). CRF250R cold, below 35 C (95 F)"
+    ],
+    "ms": 24021,
+    "prompt_version": "mx-engineering-63"
+   }
+  ]
+ },
+ {
+  "id": "c11",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 250-X",
+   "model_year": 2025,
+   "configuration": {}
+  },
+  "setup_history": null,
+  "race": null,
+  "checks": [
+   "map choice for mud on this bike",
+   "traction control on this bike for mud, consistent with the map answer",
+   "tire pressure from the maker's figure, about 1 psi lower for mud, stays in the same mud context"
+  ],
+  "turns": [
+   {
+    "rider": "Which map should I run for a muddy track?",
+    "reply": {
+     "summary": "For the stock calibration, start with Map 1 and traction control on. With MX Tune Pro, choose Hard Pack Wet for slick, greasy mud.",
+     "answer": "On the stock calibration, run **Map 1 with traction control on** as your muddy-track starting point. Triumph lists Map 1 as standard response and Map 2 as full power—don’t assume Map 2 is the soft option.\n\nIf you have the accessory Wi-Fi module and MX Tune Pro, my pick for slick, greasy mud is **Hard Pack Wet**: Triumph describes very soft delivery, mid-high engine braking and traction-control level GPA 4. It loads into Map 2, so select that slot afterward. For deep, loose loamy mud, Loam Wet is the better-matched preset.\n\nUse smooth roll-on and carry momentum. If traction control cuts drive too much in deep mud, compare it switched off over the same section.",
+     "next_step": {
+      "action": "Start with stock Map 1 and traction control on, or select Hard Pack Wet if the app module is fitted.",
+      "purpose": "Find controllable drive without excessive wheelspin.",
+      "stop_conditions": []
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Rider aids / Engine maps: MAP 1: standard engine response and traction control; MAP 2: full power engine response and traction control. TF250-X 2025 TF250-X is split by VIN (BS4847 to CC7868: handbook 3850529; CF3825 onward: handbook 3850672); only rows printed identically in both handbooks are listed"
+    ],
+    "ms": 18266,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "What about traction control too?",
+    "reply": {
+     "summary": "Start with traction control on for slick mud; compare it off only if it noticeably costs drive in deep, sticky sections.",
+     "answer": "**Yes—start with traction control on for the muddy track.** On your TF 250-X, a short press of the **TC button** toggles it; **LED lit means on**, per Triumph.\n\nFor slick, greasy mud, leave it on to help control wheelspin. In deep, sticky mud, if it dulls the pull enough that you lose momentum, compare it off through the same section while keeping the map unchanged. Keep whichever gives cleaner forward drive—not just more revs and roost. Roll the throttle on smoothly either way.",
+     "next_step": {
+      "action": "Turn TC on, confirm its LED is lit, and assess drive through a familiar muddy section.",
+      "purpose": "Check whether reduced wheelspin improves forward drive without costing momentum.",
+      "stop_conditions": []
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Rider aids / Traction control: on/off with a short press of the TC switch (LED lit when on). TF250-X 2025 TF250-X is split by VIN (BS4847 to CC7868: handbook 3850529; CF3825 onward: handbook 3850672); only rows printed identically in both handbooks are listed"
+    ],
+    "ms": 11671,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "Thanks. And tire pressure for that mud?",
+    "reply": {
+     "summary": "Start from Triumph’s 14 psi cold baseline front and rear; for soft, slick mud, test 1 psi lower at a time.",
+     "answer": "Triumph specifies **14 lb/in² (0.97 bar) cold, front and rear** for your TF 250-X. For soft, slick mud, common practice is to test **1 psi (0.07 bar) lower**, giving you 13 psi front and rear for the first comparison.\n\nThat should add grip and compliance. Keep the 14 psi baseline if the mud hides rocks or you’re hitting hard edges and landings. Stop lowering pressure at the first tire squirm, rim strike or pinch flat; return to the previous pressure. With mousse inserts, there’s no pressure to adjust.",
+     "next_step": {
+      "action": "Check pressures cold and compare the 1 psi reduction over the same familiar muddy section.",
+      "purpose": "Confirm improved grip without sacrificing tire support.",
+      "stop_conditions": [
+       "Tire squirm",
+       "Rim strike",
+       "Pinch flat"
+      ]
+     },
+     "setup_changes": [
+      {
+       "setting": "Front and rear cold tire pressure",
+       "change": "Check against Triumph’s 14 psi baseline, then test 13 psi front and rear for soft, slick mud.",
+       "expect": "Better grip and compliance without vague steering or tire squirm.",
+       "go_back_if": "The tires squirm, a rim strikes, or a pinch flat occurs."
+      }
+     ]
+    },
+    "cited_facts": [
+     "Tires / Front tire pressure: 14 lb/in² (0.97 bar). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+     "Tires / Rear tire pressure: 14 lb/in² (0.97 bar). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only."
+    ],
+    "ms": 13195,
+    "prompt_version": "mx-engineering-63"
+   }
+  ]
+ },
+ {
+  "id": "c12",
+  "bike": {
+   "manufacturer": "Kawasaki",
+   "model": "KX85",
+   "model_year": 2024,
+   "configuration": {}
+  },
+  "setup_history": null,
+  "race": null,
+  "checks": [
+   "turn 1: answers for 75 lb (likely too stiff/heavy springs?), honest",
+   "turn 2: beginner context, comfort over performance",
+   "turn 3: interprets 90 mm against the target and what to change, no re-asking weight"
+  ],
+  "turns": [
+   {
+    "rider": "My kid is 75 lbs, is the stock suspension ok for him?",
+    "reply": {
+     "summary": "Stock suspension is a usable starting point, but it may be firm for a 75 lb rider. Check sag in full gear before buying softer springs.",
+     "answer": "**The stock suspension can work, but at 75 lb he may find it firm—especially at a beginner’s pace.** That’s general setup guidance, not a Kawasaki weight-chart recommendation.\n\nKawasaki’s stock rates are **fork springs 2.84 N/mm** and **shock spring 47 N/mm**. Softer factory options include fork springs 2.65 or 2.75 N/mm and shock springs 43 or 45 N/mm, but weight alone isn’t enough to pick one.\n\nFirst measure rear sag with him in full gear, then free sag with him off and the bike on its wheels. Too much free sag after setting rider sag points toward a shock spring that’s too stiff. Up front, look for whether the fork absorbs ordinary bumps or barely moves and deflects; don’t judge it only by whether he uses full travel. Exact rider/free-sag targets for this bike aren’t confirmed here.\n\n**Is his 75 lb weight with riding gear or without?**",
+     "next_step": {
+      "action": "Measure rear rider sag in full gear and free sag with the rider off.",
+      "purpose": "Assess the stock shock spring before selecting a replacement.",
+      "stop_conditions": [
+       "Support the bike securely for the fully extended measurement."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Front fork / Spring rate (standard): K = 2.84 N/mm (0.29 kgf/mm).",
+     "Rear shock / Spring rate (standard): K = 47 N/mm (4.8 kgf/mm).",
+     "Front fork / Spring rate options: K = 2.65 (0.27), 2.75 (0.28), 2.84 (0.29) standard, 2.94 (0.30) N/mm (kgf/mm).",
+     "Rear shock / Spring rate options: K = 43 (4.4), 45 (4.6), 47 (4.8) standard, 49 (5.0) N/mm (kgf/mm)."
+    ],
+    "ms": 21432,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "He's a beginner, just trail and the small track",
+    "reply": {
+     "summary": "For a 75 lb beginner riding trails and a small track, the stock suspension may be firm. Check how it moves under him before buying softer springs.",
+     "answer": "**For his 75 lb weight and beginner trail pace, the stock suspension may be too firm—but don’t buy springs on weight alone.** That’s general setup guidance, not a Kawasaki rider-weight recommendation.\n\nKawasaki specifies **fork springs 2.84 N/mm** and a **shock spring 47 N/mm** as stock. At his pace, absorbing ordinary bumps and keeping the tires planted matters more than support for big jumps.\n\nMeasure rear rider sag with him in full gear, then free sag with him off the bike. Also watch whether the fork absorbs small bumps or barely moves and knocks the bars around. Exact Kawasaki rider/free-sag targets aren’t confirmed here, so those measurements need interpreting before choosing a rate.\n\nIf it follows the ground comfortably, leave it alone while he learns. If it consistently deflects and barely settles under him, softer springs are worth assessing—not just backing the clickers all the way out.",
+     "next_step": {
+      "action": "Measure rear rider sag in full gear and free sag with the rider off.",
+      "purpose": "Assess whether the shock spring suits him before buying replacements.",
+      "stop_conditions": [
+       "Support the bike securely for the fully extended measurement."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Front fork / Spring rate (standard): K = 2.84 N/mm (0.29 kgf/mm).",
+     "Rear shock / Spring rate (standard): K = 47 N/mm (4.8 kgf/mm)."
+    ],
+    "ms": 20423,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "Sag is 90mm right now",
+    "reply": {
+     "summary": "90 mm is a reasonable starting point if measured with him in full gear. Free sag is the next check before deciding whether the stock shock spring is too stiff.",
+     "answer": "**If that’s 90 mm with him aboard in full gear, leave the preload there for now.** That’s about 33% of Kawasaki’s published **275 mm rear-wheel travel**—a reasonable general starting point, not a confirmed Kawasaki sag target for this bike.\n\nIt doesn’t prove the spring suits your 75 lb beginner: a stiff spring can reach that sag with very little preload.\n\n**How much free sag does it have with him off?** Measure from the rear axle to the same fixed point with the rear wheel hanging, then again with the bike upright on its wheels, no rider, after settling the suspension. The difference is free sag. Excessive free sag with suitable rider sag points toward a spring that’s too stiff; very little points toward one that’s too soft.\n\nYou can save the 90 mm sag with the button below.",
+     "next_step": {
+      "action": "Measure rear free sag with the rider off and the bike upright.",
+      "purpose": "Check spring suitability before changing preload or buying a spring.",
+      "stop_conditions": [
+       "Support the bike securely when measuring fully extended suspension."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Specifications / Suspension / Rear wheel travel: 275 mm (10.83 in.)."
+    ],
+    "ms": 22093,
+    "prompt_version": "mx-engineering-63"
+   }
+  ]
+ },
+ {
+  "id": "c13",
+  "bike": {
+   "manufacturer": "Suzuki",
+   "model": "RM-Z450",
+   "model_year": 2022,
+   "configuration": {}
+  },
+  "setup_history": null,
+  "race": null,
+  "checks": [
+   "turn 1: diagnosis steps for an EFI bike, no carb jetting talk",
+   "turn 2: heat clue (lean, fuel, heat soak)",
+   "turn 3: ties hesitation to the exhaust and stock fuelling, suggests coupler/map or ECU adjustment, consistent with turns 1-2"
+  ],
+  "turns": [
+   {
+    "rider": "Bike hesitates when I open it up in 3rd",
+    "reply": {
+     "summary": "Third-gear hesitation needs separating into a low-rpm stumble versus a fuel or ignition fault under load. Check the intake first; don’t try to cover it with a richer or more aggressive map.",
+     "answer": "If it breaks up as you open the throttle in third, **check fuel delivery and ignition before changing maps**. A brief stumble when you snap it open at low rpm can also be the engine struggling in too tall a gear.\n\nStart with the engine off and cool: check that the air filter isn’t heavily clogged or over-oiled, is seated properly, and the intake boot has no loose clamps or visible cracks. Your 2022 has EFI and Suzuki’s fuel-coupler system, so this isn’t a jetting adjustment.\n\nIf the revs flare cleanly but the bike doesn’t accelerate, that points toward wheelspin or clutch slip instead of an engine hesitation. Stop riding if it knocks, overheats, leaks fuel, or cuts out unpredictably.\n\n**Does it stumble only when you snap the throttle open from low rpm, or also when it’s already pulling hard in third?**",
+     "next_step": {
+      "action": "With the engine off and cool, inspect the filter seating, filter condition, and accessible intake boot.",
+      "purpose": "Identify an airflow restriction or intake defect before changing tuning or replacing parts.",
+      "stop_conditions": [
+       "Loose material or dirt could enter the engine.",
+       "Fuel leakage or strong fuel odor.",
+       "Knocking, overheating, or unpredictable cutting out."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [],
+    "ms": 23187,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "It's worse on hot days",
+    "reply": {
+     "summary": "Hot-weather worsening raises suspicion of fuel delivery or a heat-sensitive ignition fault, but doesn’t prove either. Check the tank vent routing before changing maps or replacing parts.",
+     "answer": "**Worse on hot days makes fuel delivery or a heat-sensitive ignition fault more suspect.** Hot air can soften power normally, but repeated stumbling or cutting out isn’t normal.\n\nThe main possibilities are fuel delivery falling short under load, an ignition component or connection failing as it heats up, or a restricted tank vent gradually limiting fuel flow. Your earlier intake check still matters, but we haven’t established its result.\n\nWith the engine off and fully cool, **inspect the accessible tank vent hose for pinching or blockage**. Don’t ride with the cap loose or open a hot tank. If that looks clear, the useful next workshop test is fuel pressure and electrical supply during the fault—not a different map.\n\nStop riding if it knocks, leaks fuel, overheats, or cuts out unpredictably.\n\n**Is it worse immediately on a hot day, or only after several minutes of riding?**",
+     "next_step": {
+      "action": "With the engine off and fully cool, visually inspect accessible tank vent routing for pinching or blockage.",
+      "purpose": "Check a simple fuel-flow restriction before component testing.",
+      "stop_conditions": [
+       "Fuel leakage or strong fuel odor.",
+       "Tank or engine remains hot.",
+       "Unknown vent-valve routing: do not reverse or bypass it."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [],
+    "ms": 23904,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "I put a full FMF system on it last month and didn't change the map",
+    "reply": {
+     "summary": "The full FMF exhaust makes mapping worth checking, but it doesn’t prove the hesitation is a fueling mismatch. First check the installation and establish whether the symptom started with the exhaust.",
+     "answer": "**The FMF system could have changed throttle response, but don’t assume it needs a richer map—or that mapping explains why it’s worse hot.** An exhaust changes how the engine breathes; whether fueling needs adjustment depends on the exact system and loaded map.\n\nFirst, with the engine off and fully cool, check the header seating and exhaust joints for loose fittings or soot tracks, and look for wiring disturbed or trapped during installation. The intake and tank-vent checks discussed earlier still have no reported results.\n\nSuzuki provides fuel couplers and MX-Tuner 2.0 for this model, but an exact map for your FMF system isn’t confirmed here. Once the installation checks out, get the system-specific mapping recommendation rather than guessing at fuel changes. If the hesitation predates the pipe or remains with appropriate mapping, fuel delivery and heat-sensitive ignition still need testing.\n\nStop riding if it knocks, leaks fuel, overheats, or cuts out unpredictably.\n\n**Did the hesitation start immediately after fitting the FMF, or was it already happening?**\n\nYou can save the FMF under **Exhaust** with the button below.",
+     "next_step": {
+      "action": "With the engine off and fully cool, visually inspect the exhaust installation and nearby wiring.",
+      "purpose": "Find installation defects before changing calibration.",
+      "stop_conditions": [
+       "Fuel leakage or strong fuel odor.",
+       "Burned or damaged wiring.",
+       "Loose or damaged exhaust components; repair before riding."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [],
+    "ms": 24701,
+    "prompt_version": "mx-engineering-63"
+   }
+  ]
+ },
+ {
+  "id": "c14",
+  "bike": {
+   "manufacturer": "Husqvarna",
+   "model": "TC 250",
+   "model_year": 2024,
+   "configuration": {}
+  },
+  "setup_history": null,
+  "race": {
+   "track": "Thunder Ridge",
+   "setup": false
+  },
+  "checks": [
+   "turn 1: short, race-mode answer",
+   "turn 2: one change with clicks, decisive, no questions, no long theory"
+  ],
+  "turns": [
+   {
+    "rider": "Arms are pumping up in the second moto, front feels harsh",
+    "reply": {
+     "summary": "If the fork is riding high and deflecting, soften fork compression 2 clicks for the next moto.",
+     "answer": "Open fork compression **2 clicks out from where it is now**—the most likely fix if the front rides high and jars your hands. Before adjusting, let the forks cool, unload the front wheel and bleed the outer chambers; keep the main air spring pressure unchanged. If instead it dives and feels harsh deep in the travel under braking, go **2 clicks firmer**, not softer. Grip with your knees and keep your hands light: practice that on one clear straight each lap rather than hanging on harder.",
+     "next_step": {
+      "action": "Bleed the cool, unloaded outer fork chambers, then test the appropriate 2-click compression change over the same braking section.",
+      "purpose": "Reduce hand impacts while retaining fork support.",
+      "stop_conditions": [
+       "Fork leakage, binding or loose components.",
+       "Pain or numbness—stop riding rather than pushing through."
+      ]
+     },
+     "setup_changes": [
+      {
+       "setting": "Fork compression",
+       "change": "Open 2 clicks from the current position, provided the fork rides high and deflects; if it dives and rides deep, close 2 clicks instead.",
+       "expect": "Less impact through the hands without losing braking support.",
+       "go_back_if": "The softer setting increases dive or bottoming, or the firmer setting increases deflection."
+      }
+     ]
+    },
+    "cited_facts": [],
+    "ms": 11681,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "Moto 2 starts in 20 minutes, what one thing do I change?",
+    "reply": {
+     "summary": "Open fork compression 2 clicks softer from where it is now.",
+     "answer": "**Open fork compression 2 clicks out from its current position** for Moto 2; leave air pressure and rebound alone. That should soften the hits through your hands and help you loosen your grip—Husqvarna’s stock compression baseline is 12 clicks out, but don’t reset to that without counting your current setting. If instead the fork dives and feels harsh deep under braking, go 2 clicks firmer rather than softer. Keep your knees holding the bike and your hands light.",
+     "next_step": {
+      "action": "Open fork compression 2 clicks and assess it through the familiar braking section on the sighting lap.",
+      "purpose": "Reduce hand impacts without changing multiple settings.",
+      "stop_conditions": [
+       "Visible fork leakage, binding or loose components.",
+       "Pain or numbness affecting control."
+      ]
+     },
+     "setup_changes": [
+      {
+       "setting": "Fork compression",
+       "change": "Open 2 clicks out from the current position, counted from lightly seated.",
+       "expect": "Less sharp impact through the hands while retaining braking support.",
+       "go_back_if": "Dive or bottoming increases, or steering becomes less controlled."
+      }
+     ]
+    },
+    "cited_facts": [
+     "Fork / Compression damping / Standard: 12 clicks. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Counted counterclockwise (softer) from the adjuster turned clockwise to its stop or last click, as the adjustment section of the same manual describes."
+    ],
+    "ms": 9766,
+    "prompt_version": "mx-engineering-63"
+   }
+  ]
+ },
+ {
+  "id": "c15",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2024,
+   "configuration": {}
+  },
+  "setup_history": null,
+  "race": null,
+  "checks": [
+   "turn 1: published oil spec and capacity (with/without filter)",
+   "turn 2: filter interval from the schedule, consistent with turn 1",
+   "turn 3: valve check interval and clearances from the manual, short"
+  ],
+  "turns": [
+   {
+    "rider": "What oil do I need and how much?",
+    "reply": {
+     "summary": "Use Yamalube or equivalent motorcycle oil meeting API SG or higher and JASO MA. Fill quantity is 0.94 L without a filter change or 0.96 L with a new filter.",
+     "answer": "For your **2024 YZ450F**, use **Yamalube 10W-40 or an equivalent motorcycle oil meeting API SG or higher and JASO MA**.\n\nYamaha’s oil-change quantities are:\n- **Oil only: 0.94 L (0.99 US qt)**.\n- **Oil and filter: 0.96 L (1.01 US qt)**.\n\nBuy two quarts if you’re replacing the filter—one US quart is slightly short. Verify the final level with Yamaha’s prescribed oil-level check; don’t judge it from a cold sight-glass reading alone.\n\nYamaha also permits 10W-50, 15W-40, 20W-40 and 20W-50; 10W-40 is a straightforward general-use choice.",
+     "next_step": null,
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Engine oil / Recommended engine oil grade: API service SG type or higher, JASO standard MA. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Engine oil / Engine oil quantity / With oil filter removal: 0.96 L. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Retain the stated oil-change/filter-removal/disassembled fill condition; verify level by OEM procedure.",
+     "Engine oil / Engine oil quantity / Oil change: 0.94 L. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Retain the stated oil-change/filter-removal/disassembled fill condition; verify level by OEM procedure.",
+     "Engine oil / Recommended brand: YAMALUBE. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Engine oil / SAE viscosity grades: 10W-40, 10W-50, 15W-40, 20W-40 or 20W-50. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+    ],
+    "ms": 10380,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "And the oil filter, every change?",
+    "reply": {
+     "summary": "No—Yamaha schedules the oil filter after break-in and every fifth race, about 12.5 hours, rather than every oil change.",
+     "answer": "No—not every change per Yamaha’s schedule for your **2024 YZ450F**:\n- **Engine oil:** after break-in, then every third race (about **7.5 hours**).\n- **Oil filter:** after break-in, then every fifth race (about **12.5 hours**).\n\nAs general workshop practice, I’d replace the filter with every oil change—it keeps the service simple and gives you a chance to inspect the old filter for metal. That’s extra precaution, not Yamaha’s required interval.",
+     "next_step": null,
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Service schedule / Engine oil – Replace: after break-in; every third race (about 7.5 hours). From the maintenance-interval table of the US Owner's Service Manual. Intervals are per race with the approximate hours as printed. The same table says the life of parts varies with the environment the machine runs in (rain, dirt) and earlier inspection is then required, and that items marked for a Yamaha dealer need special tools, data and technical skills. After a break-in or before each race, also check the torque-check points in the same manual.",
+     "Service schedule / Oil filter element – Replace: after break-in; every fifth race (about 12.5 hours). From the maintenance-interval table of the US Owner's Service Manual. Intervals are per race with the approximate hours as printed. The same table says the life of parts varies with the environment the machine runs in (rain, dirt) and earlier inspection is then required, and that items marked for a Yamaha dealer need special tools, data and technical skills. After a break-in or before each race, also check the torque-check points in the same manual."
+    ],
+    "ms": 8213,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "Ok and the valves, how often?",
+    "reply": {
+     "summary": "Check valve clearances after break-in, then every third race—about 7.5 hours—per Yamaha’s schedule.",
+     "answer": "On your **2024 YZ450F**, Yamaha calls for checking valve clearances **after break-in, then every third race (about 7.5 hours)**. That’s an inspection interval—not automatic adjustment or valve replacement.\n\nMeasure with the **engine cold**:\n- **Intake: 0.10–0.17 mm (0.0039–0.0067 in)**.\n- **Exhaust: 0.15–0.22 mm (0.0059–0.0087 in)**.\n\nRecord each clearance so you can spot tightening over time. If it becomes hard to start or won’t hold an idle, check sooner rather than waiting for the interval.",
+     "next_step": null,
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Service schedule / Valve – Check the valve clearances: after break-in; every third race (about 7.5 hours); marked for a Yamaha dealer. From the maintenance-interval table of the US Owner's Service Manual. Intervals are per race with the approximate hours as printed. The same table says the life of parts varies with the environment the machine runs in (rain, dirt) and earlier inspection is then required, and that items marked for a Yamaha dealer need special tools, data and technical skills. After a break-in or before each race, also check the torque-check points in the same manual.",
+     "Valve, valve seat, valve guide / Valve clearance (cold) / Intake: 0.10–0.17 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Measure valve clearance with engine cold.",
+     "Valve, valve seat, valve guide / Valve clearance (cold) / Exhaust: 0.15–0.22 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Measure valve clearance with engine cold."
+    ],
+    "ms": 7509,
+    "prompt_version": "mx-engineering-63"
+   }
+  ]
+ },
+ {
+  "id": "c16",
+  "bike": {
+   "manufacturer": "KTM",
+   "model": "300 XC",
+   "model_year": 2024,
+   "configuration": {}
+  },
+  "setup_history": null,
+  "race": null,
+  "checks": [
+   "turn 1: short priority list (protection, gearing, tires, suspension setup)",
+   "turn 2: fits the list into $800 with a clear order",
+   "turn 3: adjusts for 160 lb beginner (softer suspension clickers, mapping/clutch), keeps budget, no re-asking"
+  ],
+  "turns": [
+   {
+    "rider": "What should I do to my new 300 XC for hard enduro?",
+    "reply": {
+     "summary": "For hard enduro, prioritize protection, traction and compliant suspension—not more engine power. Keep the first round of changes simple until the new bike has settled in.",
+     "answer": "Build it for **protection, traction and smooth control**—leave the engine and exhaust alone initially.\n\n1. **Protection:** Fit a skid plate with linkage coverage, radiator guards and wraparound handguards. Choose radiator protection that preserves airflow; a compatible cooling fan is worthwhile for prolonged crawling.\n2. **Tires:** A gummy rear tire with a matching soft-enduro mousse is my first performance purchase for rocks and roots. It improves grip and avoids pinch flats, but feels less precise on fast ground and wears faster. Mousse has no pressure to set.\n3. **Suspension:** Your 2024 has a **coil-spring closed-cartridge fork**, not an air fork. Match springs to your geared weight, then set KTM’s **100 mm riding sag and 35 mm static sag**. Let the new suspension settle before judging it. Hard enduro generally wants softer compression for obstacles—not blindly slower rebound, which can make it pack down through repeated hits.\n4. **Power and controls:** Try the milder stock map first, and set lever reach for easy clutch control. Consider shorter gearing only if first gear needs constant clutch slipping; don’t buy an auto-clutch before deciding whether you need one.\n\n**My first purchases:** protection and the gummy rear/matched mousse; suspension work next if it still deflects after setup.\n\nWhat’s your weight in full gear, riding level, main terrain and budget?",
+     "next_step": {
+      "action": "Establish geared weight, riding level, terrain and budget before choosing springs or ordering the build.",
+      "purpose": "Prioritize parts and suspension work for the rider rather than copying a generic hard-enduro build.",
+      "stop_conditions": []
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Shock absorber / Riding sag: 100 mm (3.94 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.",
+     "Shock absorber / Static sag: 35 mm (1.38 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual."
+    ],
+    "ms": 25986,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "Budget is about $800",
+    "reply": {
+     "summary": "With $800, prioritize protection and rear-tire grip; use the stock suspension adjustments before paying for a revalve.",
+     "answer": "**Put the $800 into protection and traction—not engine mods.** These are spending caps, not quoted parts prices:\n\n1. **About $350 for protection:** skid plate with linkage coverage, radiator guards that preserve airflow, and wraparound handguards. Buy whichever of these the bike still needs first.\n2. **About $300 for traction:** a gummy rear tire, then a matching soft-enduro mousse if the actual package price fits. If it doesn’t, keep a sound tube temporarily rather than cutting protection to afford mousse. Gummy rubber trades faster wear and less precise fast-ground handling for obstacle grip.\n3. **Keep $150 in reserve:** put it toward a compatible cooling fan for prolonged crawling, or a spring correction once your weight and sag are checked.\n\nUse the suspension you already paid for: KTM specifies **100 mm riding sag and 35 mm static sag**. Match springs before chasing clickers; don’t automatically slow rebound for hard enduro—it can pack down through repeated obstacles.\n\n**My pick:** protection plus the gummy rear first; skip exhaust, flywheel weight and auto-clutch for now. Verify each part fits the 2024 300 XC before buying.\n\nWhat’s your weight in full gear, riding level, and main terrain?",
+     "next_step": {
+      "action": "Check existing protection, then price the missing guards and a gummy rear tire against the spending caps.",
+      "purpose": "Avoid duplicate purchases and protect the bike before optional upgrades.",
+      "stop_conditions": []
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Shock absorber / Riding sag: 100 mm (3.94 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.",
+     "Shock absorber / Static sag: 35 mm (1.38 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual."
+    ],
+    "ms": 27361,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "I'm 160 lbs and pretty new to the hard stuff",
+    "reply": {
+     "summary": "At 160 lb and new to hard enduro, keep the $800 focused on protection and traction—not power mods or an immediate revalve. Confirm whether that weight includes gear before buying springs.",
+     "answer": "**Keep the power stock and spend your $800 on protection and grip.** Being new to technical riding is a reason to make the bike forgiving, not add more hit.\n\n- **Springs:** KTM’s shock chart specifies a **shock spring 42 N/mm for 143–165 lb (65–75 kg)** and **shock spring 45 N/mm for 165–187 lb (75–85 kg)**, including gear. If your 160 lb is without gear, you’ll likely land in the second band. Check the fitted spring before buying anything; these are shock rates, not fork rates.\n- **Free setup first:** Set KTM’s **100 mm riding sag**, then check **35 mm static sag**. Use **Map 1**, which KTM describes as linear and predictable. Don’t pay for a revalve until you’ve tried the correctly sprung, balanced bike.\n- **Purchases:** Missing skid/linkage protection, radiator guards and wraparound handguards first; a gummy rear tire next. Add a matched mousse only if the budget allows. Skip exhaust and auto-clutch for now; verify protection fits your 2024 300 XC.\n\nFor practice, spend five minutes on flat ground riding walking-speed figure eights: eyes through the turn, steady gentle throttle, and clutch control to regulate speed before tackling obstacles.\n\n**Is that 160 lb in full riding gear or without it?**",
+     "next_step": {
+      "action": "Check the fitted shock spring marking and measure riding and static sag in full gear.",
+      "purpose": "Avoid spending the limited budget on an unnecessary or incorrect spring.",
+      "stop_conditions": []
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Shock absorber / Spring rate / Weight of rider: 65 … 75 kg (143 … 165 lb.): 42 N/mm (240 lb/in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+     "Shock absorber / Spring rate / Weight of rider: 75 … 85 kg (165 … 187 lb.): 45 N/mm (257 lb/in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+     "Shock absorber / Riding sag: 100 mm (3.94 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual.",
+     "Shock absorber / Static sag: 35 mm (1.38 in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Static sag is the unloaded-to-standing difference with no rider; riding sag is measured with the rider aboard in full gear, per the procedure in the same manual."
+    ],
+    "ms": 26275,
+    "prompt_version": "mx-engineering-63"
+   }
+  ]
+ },
+ {
+  "id": "c17",
+  "bike": {
+   "manufacturer": "Kawasaki",
+   "model": "KX450",
+   "model_year": 2023,
+   "configuration": {
+    "geared_weight_lb": 185
+   }
+  },
+  "setup_history": null,
+  "race": null,
+  "checks": [
+   "turn 1: flooded/fuel/air filter checks after a tip-over, safety",
+   "turn 2: cranks no fire narrowing",
+   "turn 3: flooded EFI clear-flood procedure / dry plug / check airbox for fuel, stop conditions"
+  ],
+  "turns": [
+   {
+    "rider": "Bike won't start after it fell over",
+    "reply": {
+     "summary": "Check for crash damage and leaks before another start attempt. Whether the starter turns the engine normally separates a likely fueling issue from an electrical or mechanical problem.",
+     "answer": "If it cranks normally after the tip-over, temporary flooding is a likely cause; if it only clicks or stays silent, check the stop button, wiring and battery connections instead.\n\n1. Stand it upright, switch it off and put it in neutral. Check for fuel or oil leaks, a trapped stop button, pulled wiring and a throttle that won’t snap shut.\n2. If everything looks normal, let it settle briefly, then try a short start attempt with the throttle closed. Don’t keep grinding the starter or pumping the throttle.\n\n**Stop trying if the engine stops turning abruptly, makes a new mechanical noise, or you find leaking fuel or significant oil loss.** Fluid entering the intake while it was lying down can prevent the engine turning safely.\n\nThe exact post-fall restart procedure isn’t confirmed here; Kawasaki’s starting section carries it, so don’t assume a wide-open-throttle clearing routine applies.\n\nWhen you press start, does it turn the engine normally, turn slowly, or just click/stay silent?",
+     "next_step": {
+      "action": "With the engine off and bike upright, inspect for leaks, trapped controls and disturbed wiring before attempting another start.",
+      "purpose": "Exclude an unsafe crash-related condition before narrowing down the no-start.",
+      "stop_conditions": [
+       "Fuel leak or significant oil loss.",
+       "Throttle does not snap shut.",
+       "Engine stops turning abruptly or makes abnormal mechanical noise."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [],
+    "ms": 22995,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "It cranks fine but won't fire",
+    "reply": {
+     "summary": "Normal cranking shifts attention toward a fuel-wet plug or interrupted ignition after the fall. Inspect the plug before replacing fuel-system parts or changing maps.",
+     "answer": "With normal cranking after a tip-over, **a fuel-wet spark plug is the first thing I’d check**; a disturbed stop-button wire or plug connection is another possibility. Normal cranking makes a locked engine less likely, but doesn’t prove it has spark.\n\nIf the leak and control checks are clear, stop repeated start attempts and inspect the plug with the engine cool:\n- **Wet with gasoline:** fuel is reaching the cylinder, but flooding and missing spark can both cause this.\n- **Dry:** fuel delivery becomes more suspect; it isn’t proof of a failed pump.\n\nI can walk you through **Inspect or replace the spark plug**—tap **Start a guided job** above the message box. Have a plug socket, gap gauge and small torque wrench ready. Kawasaki specifies **NGK CPR8EB-9**, a **0.8–0.9 mm (0.03–0.04 in.) gap**, and **13 N·m (9.6 ft-lb)** plug torque.\n\nDon’t test an exposed spark near fuel. Stop if you find leaking fuel, significant oil in the intake, or abnormal mechanical noise.",
+     "next_step": {
+      "action": "With the bike cool and leak-free, start the guided spark-plug inspection and check whether the plug is wet or dry.",
+      "purpose": "Separate excess fuel or missing ignition from possible lack of fuel delivery.",
+      "stop_conditions": [
+       "Fuel leakage or accumulated fuel fumes.",
+       "Significant oil in the intake.",
+       "Abnormal mechanical noise or abrupt resistance during cranking."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Specifications / Engine / Spark plug: NGK CPR8EB-9.",
+     "Spark plug / Gap: 0.8 ~ 0.9 mm (0.03 ~ 0.04 in.). CPR8EB-9 or CPR9EB-9",
+     "Tightening torque (procedure) / Spark Plug: 13 N·m (1.3 kgf·m, 115 in·lb)."
+    ],
+    "ms": 22967,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "Smells like a lot of gas",
+    "reply": {
+     "summary": "Stop cranking and rule out an external fuel leak before checking the plug. A strong gas smell can mean flooding or unburned fuel, but it does not prove either.",
+     "answer": "**Stop trying to start it for now—rule out a fuel leak first.** Keep it upright in a well-ventilated area, away from flames, heaters and anything that could spark.\n\nWith the engine off, visually check around the tank, cap, fuel hose connections and beneath the bike for wetness or dripping. Don’t disconnect fuel lines or remove the plug while strong fumes remain.\n\nIf everything outside is dry and the smell comes only from the exhaust after cranking, excess fuel or missing ignition becomes more likely. Your normal cranking doesn’t distinguish those two; the plug inspection we discussed is next once the bike is cool and the fumes have cleared.\n\n**Any fuel dripping or persistent external wetness means no more start attempts until the leak is repaired.**\n\nIs the smell coming from the exhaust, or around the tank and underneath the bike?",
+     "next_step": {
+      "action": "With the engine off, visually inspect for external fuel wetness without disconnecting anything.",
+      "purpose": "Separate a fire-risk fuel leak from unburned fuel at the exhaust.",
+      "stop_conditions": [
+       "Visible fuel leakage or persistent external wetness: do not attempt to start.",
+       "Strong accumulated fumes: avoid electrical operation and ignition sources."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [],
+    "ms": 24249,
+    "prompt_version": "mx-engineering-63"
+   }
+  ]
+ },
+ {
+  "id": "c18",
+  "bike": {
+   "manufacturer": "KTM",
+   "model": "125 SX",
+   "model_year": 2022,
+   "configuration": {}
+  },
+  "setup_history": null,
+  "race": null,
+  "checks": [
+   "turn 1: uses the maker chart for the 125 SX 2022 at 5,000 ft, asks temperature or gives a range",
+   "turn 2: chart box for 4,925-7,546 ft and 16-24C/61-75F (60F is between bands: nearest)",
+   "turn 3: applies the chart's change from home box to race box to his 470 main (ratio), clip/air screw steps, plug check"
+  ],
+  "turns": [
+   {
+    "rider": "Jetting for a race at about 5,000 feet this weekend?",
+    "reply": {
+     "summary": "At 5,000 feet, use KTM’s high-altitude jetting chart, with the main and pilot selected for race temperature. These are stock-engine and stock-carburetor starting points.",
+     "answer": "For your **2022 KTM 125 SX at about 5,000 feet**, KTM’s standard chart gives these settings for **1,501–2,300 m (4,925–7,546 ft)**:\n\n| Race temperature | Main jet | Pilot jet |\n|---|---:|---:|\n| 6–15 °C (43–59 °F) | **500** | **32.5** |\n| 16–24 °C (61–75 °F) | **490** | **30** |\n| 25–36 °C (77–97 °F) | **480** | **30** |\n\nAll three use the **43-71 needle, clip 2 from the top, and air screw 2 turns open**. Around 60 °F, you’re between printed columns; start with the richer, cooler-weather row.\n\nThese settings assume the stock carb, engine and exhaust. If your current jetting is already dialed for modifications, use its change with altitude rather than blindly replacing it with the stock chart. General practice: confirm clean response under load during practice; **stop if it pings or detonates**.\n\nWhat jetting runs clean now, at what elevation, and what race temperature are you expecting?",
+     "next_step": null,
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Carburetor tuning / 1,501 to 2,300 m (4,925 to 7,546 ft) / 6 to 15 °C (43 to 59 °F): idle air screw 2 turns open; idling jet 32.5; jet needle 43-71; needle clip position 2 from top; main jet 500. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Factory carburetor setting for the stock engine and exhaust named in this manual.",
+     "Carburetor tuning / 1,501 to 2,300 m (4,925 to 7,546 ft) / 16 to 24 °C (61 to 75 °F): idle air screw 2 turns open; idling jet 30; jet needle 43-71; needle clip position 2 from top; main jet 490. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Factory carburetor setting for the stock engine and exhaust named in this manual.",
+     "Carburetor tuning / 1,501 to 2,300 m (4,925 to 7,546 ft) / 25 to 36 °C (77 to 97 °F): idle air screw 2 turns open; idling jet 30; jet needle 43-71; needle clip position 2 from top; main jet 480. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Factory carburetor setting for the stock engine and exhaust named in this manual."
+    ],
+    "ms": 16542,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "Forecast is about 60 degrees",
+    "reply": {
+     "summary": "At 5,000 feet and about 60°F, start with KTM’s cooler-temperature row: 500 main and 32.5 pilot, assuming stock carburetor, engine and exhaust.",
+     "answer": "At **5,000 feet and about 60°F**, I’d start with the richer, cooler-weather row of KTM’s standard chart for your 2022 125 SX.\n\nYour forecast falls between these two printed temperature columns, both for **1,501–2,300 m (4,925–7,546 ft)**:\n\n| Temperature | Main jet | Pilot jet |\n|---|---:|---:|\n| 6–15°C (43–59°F) | **500** | **32.5** |\n| 16–24°C (61–75°F) | **490** | **30** |\n\nBoth specify the **43-71 needle, clip 2 from the top, air screw 2 turns open**. Those are stock-carb, stock-engine and stock-exhaust settings—not an automatic replacement for jetting already dialed for modifications.\n\nGeneral practice: start richer and confirm clean response under load in practice before leaning it. **Stop if it pings or detonates.**\n\nWhat jetting runs clean now, at what elevation, and is the carb, engine or exhaust modified?",
+     "next_step": null,
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Carburetor tuning / 1,501 to 2,300 m (4,925 to 7,546 ft) / 6 to 15 °C (43 to 59 °F): idle air screw 2 turns open; idling jet 32.5; jet needle 43-71; needle clip position 2 from top; main jet 500. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Factory carburetor setting for the stock engine and exhaust named in this manual.",
+     "Carburetor tuning / 1,501 to 2,300 m (4,925 to 7,546 ft) / 16 to 24 °C (61 to 75 °F): idle air screw 2 turns open; idling jet 30; jet needle 43-71; needle clip position 2 from top; main jet 490. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Factory carburetor setting for the stock engine and exhaust named in this manual."
+    ],
+    "ms": 15594,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "I'm jetted for home right now, about 500 feet and 80 degrees, running a 470 main",
+    "reply": {
+     "summary": "Keep your 470 main as the first-practice starting point, provided it runs clean at home. Applying KTM’s chart change to your existing jetting points to no main-jet change.",
+     "answer": "**Start practice with your current 470 main**, provided it runs clean at home without pinging or running hot—not the stock-chart 500 I mentioned earlier.\n\nKTM’s chart calls for a **500 main at 0–300 m and 25–36°C (77–97°F)**, covering your home conditions. It also calls for **500 at 1,501–2,300 m and 6–15°C (43–59°F)**, covering the cooler side of your race forecast. The altitude and temperature changes offset in those chart cells: **500 → 500**, so applying that same change to your 470 gives **470 → 470**. That’s an engineering starting point, not KTM’s published race setting.\n\nAt 60°F you’re between columns; the warmer **16–24°C (61–75°F)** column lists a 490 main, but don’t lean yours automatically. Confirm clean response under load and plug condition in practice before racing. **Stop if it pings, detonates or overheats.** Your pilot and needle settings still need separate consideration.",
+     "next_step": {
+      "action": "Test the current 470 main during controlled practice before racing, provided it runs correctly at home.",
+      "purpose": "Confirm the chart-adjusted starting point works with the actual carburetor and engine configuration.",
+      "stop_conditions": [
+       "Pinging or detonation",
+       "Overheating",
+       "Surging or loss of power under load"
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Carburetor tuning / 0 to 300 m (0 to 984 ft) / 25 to 36 °C (77 to 97 °F): idle air screw 2 turns open; idling jet 32.5; jet needle 43-71; needle clip position 2 from top; main jet 500. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Factory carburetor setting for the stock engine and exhaust named in this manual.",
+     "Carburetor tuning / 1,501 to 2,300 m (4,925 to 7,546 ft) / 6 to 15 °C (43 to 59 °F): idle air screw 2 turns open; idling jet 32.5; jet needle 43-71; needle clip position 2 from top; main jet 500. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Factory carburetor setting for the stock engine and exhaust named in this manual.",
+     "Carburetor tuning / 1,501 to 2,300 m (4,925 to 7,546 ft) / 16 to 24 °C (61 to 75 °F): idle air screw 2 turns open; idling jet 30; jet needle 43-71; needle clip position 2 from top; main jet 490. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only. Factory carburetor setting for the stock engine and exhaust named in this manual."
+    ],
+    "ms": 19457,
+    "prompt_version": "mx-engineering-63"
+   }
+  ]
+ },
+ {
+  "id": "c19",
+  "bike": {
+   "manufacturer": "Honda",
+   "model": "CRF150R",
+   "model_year": 2024,
+   "configuration": {}
+  },
+  "setup_history": null,
+  "race": null,
+  "checks": [
+   "turn 1: published standard positions (turns), softer start for 95 lb",
+   "turn 2: adjusts for sand without losing the light-rider point",
+   "turn 3: shock spring answer for 95 lb from Honda's optional soft spring (47 N/mm) vs standard 49"
+  ],
+  "turns": [
+   {
+    "rider": "Where do I start with clickers for my 13 year old, 95 lbs?",
+    "reply": {
+     "summary": "Start with Honda’s stock damping positions and 85 mm rider sag. At 95 lb, check spring fit before softening the damping just for their weight.",
+     "answer": "Start with **Honda’s stock baseline**, not an across-the-board softer setting for your 13-year-old. For the stock suspension on your 2024 CRF150R, these settings are measured in **turns—not clicks**:\n\n| Adjuster | Out from lightly seated clockwise |\n|---|---:|\n| Fork compression | 1¼ turns |\n| Fork rebound | 1¼ turns |\n| Shock compression | 1–1¼ turns; align reference marks |\n| Shock rebound | ⅜–⅝ turn; align reference marks |\n\nSet **85 mm rider sag** with them in full riding gear. Honda allows 75–95 mm, but start at 85 mm rather than using sag to compensate for the wrong spring.\n\nGeneral tuning guidance: at 95 lb, weight alone doesn’t establish whether the springs fit. Check free sag after setting rider sag; very little free sag suggests the shock spring is too soft, excessive free sag suggests too stiff. The exact free-sag target isn’t confirmed here. If it’s revalved, use the tuner’s baseline instead.\n\nOnce balanced, test the same section for a few laps before changing one adjuster. What free sag do you measure with the rider off and the bike standing on its wheels?",
+     "next_step": {
+      "action": "Measure and set rider sag to 85 mm in full gear, then record free sag.",
+      "purpose": "Check ride height and spring fit before tuning damping.",
+      "stop_conditions": [
+       "Binding, bearing play or suspension leakage is found."
+      ]
+     },
+     "setup_changes": [
+      {
+       "setting": "Rider sag",
+       "change": "Set to 85 mm with the rider in full gear, then measure free sag.",
+       "expect": "Establish rear ride height and check spring suitability before damping changes.",
+       "go_back_if": "Do not force the target with excessive preload; investigate spring fit if free sag is unsuitable."
+      },
+      {
+       "setting": "Fork damping baseline",
+       "change": "Set compression and rebound each to 1¼ turns out from lightly seated, recording existing positions first.",
+       "expect": "A known Honda baseline for evaluating front-end support and recovery.",
+       "go_back_if": "The fork is modified or revalved; use its tuner's baseline instead."
+      },
+      {
+       "setting": "Shock damping baseline",
+       "change": "Set compression to 1–1¼ turns out and rebound to ⅜–⅝ turn out, aligning the reference marks.",
+       "expect": "A known Honda baseline before symptom-led, one-adjuster testing.",
+       "go_back_if": "The shock is modified or revalved; use its tuner's baseline instead."
+      }
+     ]
+    },
+    "cited_facts": [
+     "Fork / Compression damping, standard position: 1 1/4 turn counterclockwise from full hard (adjuster turned clockwise until it lightly seats). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+     "Fork / Rebound damping, standard position: 1 1/4 turn counterclockwise from full hard (adjuster turned clockwise until it lightly seats). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+     "Shock absorber / Compression damping, standard position: 1 – 1 1/4 turns counterclockwise from full hard, punch mark aligned with the reference mark. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+     "Shock absorber / Rebound damping, standard position: 3/8 – 5/8 turns counterclockwise from full hard, punch mark aligned with the reference mark. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+     "Shock absorber / Race sag (standard): 85 mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+     "Shock absorber / Race sag adjustment range: 75 – 95 mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only."
+    ],
+    "ms": 20620,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "He rides a lot of sand",
+    "reply": {
+     "summary": "For sand, keep Honda’s baseline rather than softening everything for his 95 lb weight. Once sag is checked, try slightly firmer fork compression for extra support.",
+     "answer": "For sand, **don’t automatically soften everything because he’s 95 lb**—deep sand needs support to keep the front from diving and plowing.\n\nKeep **85 mm rider sag**, Honda’s stock target, measured with him in full gear, and check free sag before deciding whether he needs different springs. Weight alone isn’t enough to choose them; the exact free-sag target isn’t confirmed here.\n\nWith stock suspension, start at the Honda settings above. Then, as a **general sand-tuning test**, move fork compression from **1¼ to 1⅛ turns out** from lightly seated. That small firmer move should help the front stay up through rolling sand bumps. Leave rebound and shock settings alone for the first test; undo it if the front becomes harsh or won’t settle into turns.\n\nHave him ride the same section for a few controlled laps. In sand, steady throttle and loose arms help—don’t use extra damping to compensate for chopping the throttle. If it’s revalved, use the tuner’s baseline instead of Honda’s.",
+     "next_step": {
+      "action": "Check rider sag against 85 mm in full gear and record free sag before the fork-compression test.",
+      "purpose": "Confirm the spring and chassis baseline before adding sand support.",
+      "stop_conditions": [
+       "Suspension binding, leakage, or bearing play is found."
+      ]
+     },
+     "setup_changes": [
+      {
+       "setting": "Rider sag",
+       "change": "Check against Honda’s 85 mm target with the rider in full gear, then measure free sag.",
+       "expect": "Establish rear ride height and assess spring suitability before damping tests.",
+       "go_back_if": "Do not force the target with excessive preload or an almost unloaded spring."
+      },
+      {
+       "setting": "Fork compression",
+       "change": "After establishing the stock baseline, test from 1¼ to 1⅛ turns out from lightly seated.",
+       "expect": "More front-end support through deep sand and rolling bumps.",
+       "go_back_if": "The front feels harsh, deflects, or stops settling into turns."
+      }
+     ]
+    },
+    "cited_facts": [
+     "Shock absorber / Race sag (standard): 85 mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+     "Fork / Compression damping, standard position: 1 1/4 turn counterclockwise from full hard (adjuster turned clockwise until it lightly seats). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only."
+    ],
+    "ms": 27784,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "Is the stock spring ok for him?",
+    "reply": {
+     "summary": "Keep the stock springs for now; 95 lb and sand riding alone don’t justify softer springs. Confirm the rear spring with rider sag and free sag before buying anything.",
+     "answer": "**The stock springs are a reasonable starting point for him—don’t buy softer ones just because he’s 95 lb.** Sand needs support, but that doesn’t prove the springs fit.\n\nHonda lists the standard **fork spring at 3.33 N/mm** and **shock spring at 49.0 N/mm** for your 2024 CRF150R. There isn’t a confirmed rider-weight spring chart here to match those directly to your 13-year-old.\n\nCheck the rear this way:\n1. Set **85 mm rider sag** with him wearing all his gear. Honda’s adjustment range is **75–95 mm**; start at 85.\n2. Measure free sag with him off and the bike on its wheels.\n\nGeneral spring-check guidance: excessive free sag with correct rider sag points to a shock spring that’s too stiff; very little free sag points to one that’s too soft. The fork needs its own check for usable travel, grip and bottoming—not a decision based on rear sag alone.\n\n**What free sag does it have after setting 85 mm rider sag?**",
+     "next_step": {
+      "action": "Set 85 mm rider sag in full gear, then measure free sag.",
+      "purpose": "Assess stock shock spring suitability before purchasing springs.",
+      "stop_conditions": [
+       "Binding, bearing play or suspension leakage is found."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Fork / Spring rate, standard spring (CRF150R): 3.33 N/mm (19.0 lbf/in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+     "Shock absorber / Spring rate, standard spring (CRF150R): 49.0 N/mm (279.8 lbf/in). Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+     "Shock absorber / Race sag (standard): 85 mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only.",
+     "Shock absorber / Race sag adjustment range: 75 – 95 mm. Applies to the US standard model named; other regions and special editions covered by the same manual can differ. Stock OEM parts only."
+    ],
+    "ms": 20230,
+    "prompt_version": "mx-engineering-63"
+   }
+  ]
+ },
+ {
+  "id": "c20",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ250F",
+   "model_year": 2022,
+   "configuration": {}
+  },
+  "setup_history": null,
+  "race": null,
+  "checks": [
+   "turn 1: common causes and checks (head bearing, fork height, rear sag, tire pressure)",
+   "turn 2: points straight at the fork height change (5 mm up = less trail) and the new parts, suggests putting forks back first",
+   "turn 3: damper as a later option after fixing the setup cause, honest about cost"
+  ],
+  "turns": [
+   {
+    "rider": "Head shake at speed on the straights",
+    "reply": {
+     "summary": "Check front-end play and tire condition before tuning around the headshake. Whether it happens under power or braking determines the setup direction.",
+     "answer": "**Don’t try to ride through it faster—check the front end before changing clickers.** Steering-bearing play, a damaged tire or a loose wheel can feel like a suspension problem.\n\nWith the engine off and the bike securely supported, lift the front wheel. Rock the lower fork legs fore-and-aft while checking for movement at the steering head, then turn the bars slowly and feel for notches. Check the front wheel for bearing play, loose spokes and tire damage.\n\nIf those checks pass, measure rider sag in full gear: Yamaha’s stock target is **90–100 mm (3.5–3.9 in)**. Too little sag raises the rear and can make the steering nervous. Don’t tighten the steering bearings to mask the shake.\n\n**Does it happen on the gas or when braking/rolling off, and is it light jitter or bars swapping hard?** Those cases can need opposite adjustments. If the bars swap hard, or you find looseness, binding or damage, stop riding until it’s resolved.",
+     "next_step": {
+      "action": "Perform the engine-off, securely supported front-end play and steering-smoothness check.",
+      "purpose": "Exclude a mechanical safety fault before prescribing setup changes.",
+      "stop_conditions": [
+       "Steering or wheel-bearing play",
+       "Notchy or binding steering",
+       "Loose spokes or visible tire/wheel damage",
+       "Hard bar swapping"
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Rear suspension setting / Choosing set length / Standard figure (sunken length, rider seated): 90–100 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Stock OEM suspension only; do not apply to aftermarket/revalved components or tune around an unresolved fault. Yamaha calls this the sunken length: rear axle to rear fender mark measured with the rear wheel off the ground, minus the same measurement with the rider seated. Set it before changing damping."
+    ],
+    "ms": 25714,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "I just put new tires on, bar risers and moved the forks up 5mm in the clamps last week",
+    "reply": {
+     "summary": "Raising the forks 5 mm can make the steering more nervous, but check the recent tire and wheel installation before changing geometry.",
+     "answer": "**The 5 mm fork move is the strongest setup suspect:** more tube above the clamps lowers the front and makes steering quicker, with less stability at speed. The new tires also make wheel installation worth checking before blaming suspension.\n\n1. With the engine off and the bike securely supported, check tire seating—the molded bead line should sit evenly above the rim all the way around, both sides. Check wheel-bearing play, axle security, spokes and whether the fork moves freely after the wheel refit.\n2. If those checks pass, **slide both fork tubes back down by the 5 mm you added**, returning to your previous position—not an assumed stock height. Use the correct clamp torque, and leave the clickers alone so you can judge that change.\n3. Check the risers and bar mounts for movement and make sure cables aren’t pulled tight at either steering lock. Risers change your position, but loose mounts are a fault, not setup.\n\n**Don’t speed-test it with looseness, binding, an uneven bead or hard bar swapping.**\n\nDid the headshake start only after those changes?",
+     "next_step": {
+      "action": "Inspect the recent tire and wheel installation with the engine off and the bike securely supported.",
+      "purpose": "Exclude an installation fault before restoring the previous fork height.",
+      "stop_conditions": [
+       "Uneven tire bead seating",
+       "Wheel or steering play",
+       "Loose risers or bar mounts",
+       "Fork binding",
+       "Hard bar swapping"
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [],
+    "ms": 24382,
+    "prompt_version": "mx-engineering-63"
+   },
+   {
+    "rider": "Should I get a steering damper?",
+    "reply": {
+     "summary": "Don’t buy a steering damper yet. Check the recent installation work and undo the 5 mm fork-height change before adding a part to control the shake.",
+     "answer": "**Not yet—fix the cause before buying a steering damper.** Raising the fork tubes 5 mm makes the steering quicker and can reduce stability; with new tires and risers fitted at the same time, installation faults still need ruling out.\n\nCheck tire bead seating, wheel and steering-bearing play, axle/fork alignment, and riser security first. If those pass, return both fork tubes down by the **5 mm you added**, using the correct clamp torques, and leave the clickers alone. That restores your previous geometry—not an assumed stock height.\n\nA damper can calm sharp steering deflections on a healthy bike, but it won’t fix looseness, binding or poor chassis balance. **Don’t speed-test it if the bars swap hard or anything is loose or binding.**\n\nMy pick now: keep your money. If you still want a damper after sorting the bike, the Ride Engineering WP option is listed at **$359.99**, versus **$433.76** for the Showa; confirm the complete mounting kit clears your risers before buying. There’s no demonstrated performance advantage between those listings to justify the extra cost here.\n\nYou can record the tires and risers with the save button below.",
+     "next_step": {
+      "action": "With the engine off and bike securely supported, inspect the recent wheel, tire, fork and riser installation.",
+      "purpose": "Exclude an installation fault before restoring the previous fork height or buying a damper.",
+      "stop_conditions": [
+       "Wheel or steering-bearing play",
+       "Uneven tire bead seating",
+       "Loose risers or clamps",
+       "Fork binding",
+       "Hard bar swapping"
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [],
+    "ms": 28536,
+    "prompt_version": "mx-engineering-63"
+   }
+  ]
+ }
+]
