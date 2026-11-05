@@ -1,0 +1,409 @@
+{
+  "items": [
+    {
+      "id": "rb-450sxf-2025",
+      "bike": "2025 KTM 450 SX-F",
+      "turns": [
+        {
+          "turn": 1,
+          "topic": "Overall plan and documenting the bike",
+          "manual_says": "The engine chapter runs removal from the frame, teardown on a work stand, inspection of individual parts, reassembly, then refitting with fluid refill, an initialization run with the diagnostics tool and a test ride; the first step is putting the bike on a lift stand.",
+          "manual_pages": [
+            253,
+            261,
+            262,
+            275,
+            312
+          ],
+          "verdict": "matches",
+          "issues": [
+            "Photographing and bagging hardware is general practice, not a manual step, but it does not conflict with the manual.",
+            "Stage list puts 'finish the top end' as a separate stage after the bottom end, which matches the manual's assembly order (cases, clutch side, alternator side, then head and cylinder)."
+          ],
+          "specs": [],
+          "easy_to_follow": 5,
+          "overwhelming": "no"
+        },
+        {
+          "turn": 2,
+          "topic": "Secure the bike on the stand",
+          "manual_says": "Removal starts with the bike raised on a lift stand, and the manual warns to keep the bike secured against falling over when the swingarm pivot is pulled and the engine is lifted out.",
+          "manual_pages": [
+            253,
+            256
+          ],
+          "verdict": "matches",
+          "issues": [
+            "Repeats the photograph-everything instruction already given in turn 1 even though the rider said that was done; adds no new manual step beyond strapping the bike."
+          ],
+          "specs": [],
+          "easy_to_follow": 4,
+          "overwhelming": "no"
+        },
+        {
+          "turn": 3,
+          "topic": "Drain engine oil and remove filter",
+          "manual_says": "In the rebuild sequence the oil is drained and the filter pulled after the engine is mounted on the work stand (drain plug with magnet and seal ring, plug with oil screen and O-ring, plug with O-ring, then filter cover and filter with lock-ring pliers); the in-frame oil-change procedure drains it warm and says not to remove the small screw next to the M16 plug.",
+          "manual_pages": [
+            263,
+            264,
+            352,
+            353,
+            354
+          ],
+          "verdict": "partly",
+          "issues": [
+            "Order differs from the manual: removal (p.253) does not drain the oil; it is drained on the engine stand in disassembly (p.263-264). Draining in the frame is a workable variant but is not the manual's sequence.",
+            "Says to drain with the engine cold; the manual's in-frame oil-change procedure says to drain at operating temperature (p.352).",
+            "Plug identities, the M16 and M20 sizes, the long oil screen, the 'leave the small screw alone' note and the lock-ring pliers all agree with the manual."
+          ],
+          "specs": [
+            {
+              "reply_value": "M16 screw plug with O-ring",
+              "manual_value": "M16x1.5 crankcase screw plug with O-ring",
+              "page": 353,
+              "status": "ok"
+            },
+            {
+              "reply_value": "M20 plug with long oil screen",
+              "manual_value": "M20x1.5 oil-screen screw plug with long oil screen and O-rings",
+              "page": 353,
+              "status": "ok"
+            }
+          ],
+          "easy_to_follow": 4,
+          "overwhelming": "no"
+        },
+        {
+          "turn": 4,
+          "topic": "Drain coolant",
+          "manual_says": "With the engine cold and the bike upright, remove the drain screw on the water pump cover and the radiator cap, drain fully, then refit the screw with a new seal ring at 10 Nm with Loctite 243.",
+          "manual_pages": [
+            344,
+            345
+          ],
+          "verdict": "partly",
+          "issues": [
+            "Tells the rider to put the drain screw back finger-tight and fit the new seal ring 'at final assembly' without giving the manual's value; the manual fits the new seal ring and tightens to 10 Nm (7.4 lbf ft) with Loctite 243 at this step (p.345). Nothing later in the walkthrough gives that torque, so the screw could be left finger-tight.",
+            "Cold-engine condition, upright bike, screw-then-cap order and the hot-system warning match p.344-345."
+          ],
+          "specs": [],
+          "easy_to_follow": 5,
+          "overwhelming": "no"
+        },
+        {
+          "turn": 5,
+          "topic": "Cylinder head screw torque and order",
+          "manual_says": "Fit the M6x75 screw loosely, tighten the M10x1.25 head screws with oiled collars and threads in three stages of 10, 30 and 50 Nm, then tighten the M6 screw to 10 Nm; the screws come out with washers and are loosened criss-cross.",
+          "manual_pages": [
+            265,
+            325,
+            373
+          ],
+          "verdict": "matches",
+          "issues": [
+            "The manual does not spell out a criss-cross pattern for tightening (it does for loosening, p.265); the reply's criss-cross advice is sound practice and does not conflict."
+          ],
+          "specs": [
+            {
+              "reply_value": "M10x1.25",
+              "manual_value": "M10x1.25",
+              "page": 325,
+              "status": "ok"
+            },
+            {
+              "reply_value": "10 Nm (7.4 ft-lb) 1st stage",
+              "manual_value": "10 Nm (7.4 lbf ft)",
+              "page": 325,
+              "status": "ok"
+            },
+            {
+              "reply_value": "30 Nm (22.1 ft-lb) 2nd stage",
+              "manual_value": "30 Nm (22.1 lbf ft)",
+              "page": 325,
+              "status": "ok"
+            },
+            {
+              "reply_value": "50 Nm (36.9 ft-lb) 3rd stage",
+              "manual_value": "50 Nm (36.9 lbf ft)",
+              "page": 325,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Collars and threads oiled",
+              "manual_value": "Collar and thread oiled",
+              "page": 325,
+              "status": "ok"
+            },
+            {
+              "reply_value": "M6x75 last, 10 Nm (7.4 ft-lb)",
+              "manual_value": "M6x75, 10 Nm (7.4 lbf ft), tightened after the M10 screws",
+              "page": 325,
+              "status": "ok"
+            }
+          ],
+          "easy_to_follow": 5,
+          "overwhelming": "no"
+        },
+        {
+          "turn": 6,
+          "topic": "Piston and cylinder measurements",
+          "manual_says": "Check the bore at several X/Y points against size I/II ranges, check head-gasket face distortion, ring groove clearance, piston skirt diameter at 7 mm, ring end gap 10 mm below the top, and calculate mounting clearance with a wear limit; the piston is replaced at the minor engine service every 45 operating hours.",
+          "manual_pages": [
+            286,
+            287,
+            288,
+            289,
+            371,
+            386
+          ],
+          "verdict": "matches",
+          "issues": [
+            "Correctly says the manual gives no separate taper/out-of-round limit (only the size ranges and an instruction to look for oval wear, p.286, p.371).",
+            "Small softening: for excessive pin play in the connecting rod the manual says change the conrod and piston pin (p.287); the reply says get a specialist small-end inspection. Not unsafe, but not the manual's action.",
+            "Dense six-row table plus extra notes in one reply."
+          ],
+          "specs": [
+            {
+              "reply_value": "Bore size I 95.000-95.012 mm",
+              "manual_value": "95.000-95.012 mm",
+              "page": 286,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Bore size II 95.013-95.025 mm",
+              "manual_value": "95.013-95.025 mm",
+              "page": 286,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Skirt measured 7 mm (0.28 in) up",
+              "manual_value": "7 mm (0.28 in)",
+              "page": 288,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Piston size I 94.93-94.96 mm",
+              "manual_value": "94.93-94.96 mm",
+              "page": 288,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Piston size II 94.94-94.97 mm",
+              "manual_value": "94.94-94.97 mm",
+              "page": 288,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Clearance size I 0.040-0.082 mm",
+              "manual_value": "0.040-0.082 mm",
+              "page": 289,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Clearance size II 0.043-0.085 mm",
+              "manual_value": "0.043-0.085 mm",
+              "page": 289,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Clearance wear limit 0.120 mm (0.00472 in)",
+              "manual_value": "0.120 mm (0.00472 in)",
+              "page": 289,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Ring groove clearance max 0.08 mm (0.0031 in)",
+              "manual_value": "<= 0.08 mm (0.0031 in)",
+              "page": 287,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Ring gap measured 10 mm (0.39 in) below top",
+              "manual_value": "10 mm (0.39 in) below upper edge",
+              "page": 288,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Compression ring gap max 1.00 mm (0.0394 in)",
+              "manual_value": "<= 1.00 mm (0.0394 in)",
+              "page": 288,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Oil ring gap max 1.20 mm (0.0472 in)",
+              "manual_value": "<= 1.20 mm (0.0472 in)",
+              "page": 288,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Sealing face distortion max 0.10 mm (0.0039 in)",
+              "manual_value": "<= 0.10 mm (0.0039 in)",
+              "page": 286,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Piston replaced every 45 operating hours (minor engine service)",
+              "manual_value": "Minor engine service incl. piston change at the 45 h interval",
+              "page": 386,
+              "status": "ok"
+            }
+          ],
+          "easy_to_follow": 4,
+          "overwhelming": "yes"
+        },
+        {
+          "turn": 7,
+          "topic": "Remove the seat",
+          "manual_says": "Remove the seat screw, raise the seat, pull it toward the fuel tank and lift it off; seat removal comes after draining coolant in the engine-removal prep list.",
+          "manual_pages": [
+            191,
+            253
+          ],
+          "verdict": "matches",
+          "issues": [
+            "The manual's caution that the voltage regulator under the seat gets hot is not mentioned, but the rider is already working on a cold bike."
+          ],
+          "specs": [],
+          "easy_to_follow": 5,
+          "overwhelming": "no"
+        },
+        {
+          "turn": 8,
+          "topic": "Cam timing on reassembly",
+          "manual_says": "With the crank locked, fit the camshaft so its LOCK mark faces up flush with the head mark, fit the lock washer and bracket at 15 Nm, the tensioner with a new gasket at 10 Nm and its plug at 8 Nm; then remove the locking screw, turn the engine over, turn counterclockwise until the LOCK mark lines up with the bracket center and the crank notch is visible, refit the locking screw at 10 Nm and check valve clearance; finally remove the locking tool and fit the crankshaft screw plug at 10 Nm.",
+          "manual_pages": [
+            263,
+            326,
+            327,
+            328,
+            373
+          ],
+          "verdict": "partly",
+          "issues": [
+            "Missing step: after the timing and valve-clearance check, the manual removes the locking tool and fits the M8 crankshaft fixing screw plug at 10 Nm (7.4 lbf ft) (p.328). The reply never tells the rider to refit that plug, which would leave an open hole in the case.",
+            "Missing: refit the locking screw (10 Nm) before measuring valve clearance (p.327), and if clearance is out, check the rocker arm rollers for radial play first (p.327).",
+            "Every torque given is correct."
+          ],
+          "specs": [
+            {
+              "reply_value": "Crank locking screw 10 Nm (7.4 ft-lb)",
+              "manual_value": "Crankshaft fixing screw M8, 10 Nm (7.4 lbf ft)",
+              "page": 327,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Camshaft bracket screws 15 Nm (11.1 ft-lb)",
+              "manual_value": "M7x1, 15 Nm (11.1 lbf ft)",
+              "page": 326,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Tensioner screws 10 Nm (7.4 ft-lb)",
+              "manual_value": "M6, 10 Nm (7.4 lbf ft)",
+              "page": 326,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Tensioner plug 8 Nm (5.9 ft-lb)",
+              "manual_value": "M8, 8 Nm (5.9 lbf ft)",
+              "page": 326,
+              "status": "ok"
+            }
+          ],
+          "easy_to_follow": 4,
+          "overwhelming": "no"
+        },
+        {
+          "turn": 9,
+          "topic": "Fluids, first start and break-in",
+          "manual_says": "After refitting, fill 1.20 l of SAE 10W/50 JASO MA2 oil and 0.95 l of coolant, do the diagnostics-tool initialization (clear adaptation values, program gear position sensor, program quickshifter, then initialization run), take a short test ride, read the fault memory, and check leaks, oil and coolant levels; the manual gives no run-in schedule, and the 1-hour service covers valve clearance, oil and filter, chain, fasteners, hoses and coolant.",
+          "manual_pages": [
+            261,
+            342,
+            344,
+            352,
+            365,
+            370,
+            373,
+            385,
+            386,
+            394
+          ],
+          "verdict": "partly",
+          "issues": [
+            "Correctly says the manual gives no timed break-in schedule.",
+            "Order of the diagnostic steps differs: the manual programs the gear position sensor and quickshifter before running the initialization (p.365); the reply lists initialization first and quickshifter teaching last.",
+            "Missing: read the fault memory with the KTM diagnostics tool after the first test ride (p.261, p.385-386).",
+            "Warm-up and riding advice is general practice, not from the manual, and is labelled reasonably.",
+            "Long reply covering several separate jobs at once."
+          ],
+          "specs": [
+            {
+              "reply_value": "Oil 1.20 l (1.27 US qt)",
+              "manual_value": "1.20 l (1.27 qt)",
+              "page": 373,
+              "status": "ok"
+            },
+            {
+              "reply_value": "SAE 10W/50, JASO T903 MA2, fully synthetic",
+              "manual_value": "SAE 10W/50, JASO T903 MA2, fully synthetic",
+              "page": 394,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Coolant 0.95 l (1 US qt)",
+              "manual_value": "0.95 l (1 qt)",
+              "page": 373,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Wait one minute before oil check",
+              "manual_value": "one minute after switching off",
+              "page": 352,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Oil between middle and top of sight glass (warm)",
+              "manual_value": "between middle and upper edge of level viewer at operating temperature",
+              "page": 352,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Intake clearance 0.10-0.15 mm at 20 C (68 F)",
+              "manual_value": "0.10-0.15 mm at 20 C (68 F)",
+              "page": 370,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Exhaust clearance 0.12-0.17 mm at 20 C (68 F)",
+              "manual_value": "0.12-0.17 mm at 20 C (68 F)",
+              "page": 370,
+              "status": "ok"
+            },
+            {
+              "reply_value": "Checks after first operating hour",
+              "manual_value": "One-time checks after 1 operating hour: valve clearance, oil and filter change, chain, screws, hoses, coolant level, fault memory",
+              "page": 385,
+              "status": "ok"
+            }
+          ],
+          "easy_to_follow": 3,
+          "overwhelming": "yes"
+        }
+      ],
+      "walkthrough": {
+        "correct_vs_manual": 4,
+        "easy_to_follow": 4,
+        "not_overwhelming": 3,
+        "top_fixes": [
+          "Turn 8: after the timing and valve-clearance check, tell the rider to remove the crank locking tool and fit the M8 crankshaft screw plug at 10 Nm (p.328), and to refit the locking screw at 10 Nm before measuring valve clearance (p.327).",
+          "Turn 4: give the coolant drain screw value (new seal ring, 10 Nm, Loctite 243, p.345) instead of leaving it finger-tight with no later torque.",
+          "Turn 3 and turn 9: follow the manual's order. Drain oil on the engine stand after removal (p.263) or drain it warm in the frame (p.352). Do the diagnostic steps in order (clear adaptation, gear sensor, quickshifter, initialization run, p.365), then read the fault memory after the test ride (p.261)."
+        ],
+        "overall": "B",
+        "overall_reason": "Every number checked against the manual is correct and no step could damage the engine, but it leaves out the crankshaft screw plug and the coolant drain screw torque, drains oil out of the manual's order, and turns 6 and 9 are dense."
+      }
+    }
+  ]
+}

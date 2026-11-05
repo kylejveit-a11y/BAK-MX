@@ -1,0 +1,952 @@
+{
+ "items": [
+  {
+   "id": "rb-yz250f-2022",
+   "turns": [
+    {
+     "turn": 1,
+     "manual_says": "Engine removal begins with exhaust/side cover per ENGINE REMOVAL (5-6); no rebuild overview in manual.",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 2,
+     "manual_says": "Manual has no photo/strap step; seat and side covers removed per GENERAL CHASSIS (4-1).",
+     "verdict": "matches",
+     "what_is_wrong": "General prep only; nothing contradicts manual.",
+     "specs": [],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 3,
+     "manual_says": "CHANGING THE ENGINE OIL: warm engine several minutes, stop, wait about 5 min, then remove filler cap and drain bolt (3-13); filter cover/filter removal (3-13).",
+     "verdict": "partly",
+     "what_is_wrong": "Says drain completely cold; manual warms the engine first (3-13). Otherwise steps and 2 filter-cover bolts match (2-11).",
+     "specs": [
+      {
+       "reply": "2 oil-filter cover bolts",
+       "manual": "Oil filter element cover bolt Q'ty 2",
+       "page": "2-11",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 4,
+     "manual_says": "CHANGING THE COOLANT: remove coolant drain bolt, slowly loosen radiator cap, coolant gushes out sideways; refit with new copper washer at 10 N·m (3-21).",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [
+      {
+       "reply": "10 Nm (7.4 ft-lb) coolant drain bolt, new copper washer",
+       "manual": "10 N·m (7.4 lb·ft), copper washer New",
+       "page": "3-21; 2-10",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 5,
+     "manual_says": "30 N·m all bolts in order; remove one bolt at a time, 15 N·m then 60°; finally all +60° (total 120°); nuts [5],[6] 10 N·m (2-12; 5-24, 5-25). Lubricant: 2-12 TIP says moly oil, 5-24 steps b/f say moly grease.",
+     "verdict": "partly",
+     "what_is_wrong": "All torques/angles/order of stages correct and the oil-vs-grease conflict is real, but it says the numbered bolt order is unconfirmed and tells the rider to pause, though the order diagram is printed (2-12, 5-24).",
+     "specs": [
+      {
+       "reply": "30 N·m (22 ft-lb) 1st",
+       "manual": "30 N·m (22 lb·ft)",
+       "page": "2-12; 5-24",
+       "status": "ok"
+      },
+      {
+       "reply": "15 N·m (11 ft-lb) 2nd",
+       "manual": "15 N·m (11 lb·ft)",
+       "page": "5-24",
+       "status": "ok"
+      },
+      {
+       "reply": "60° + 60° = 120°",
+       "manual": "60° + 60° = 120°",
+       "page": "2-12; 5-25",
+       "status": "ok"
+      },
+      {
+       "reply": "M6 head nuts 10 N·m (7.4 ft-lb) last",
+       "manual": "Nut [5],[6] 10 N·m (7.4 lb·ft), step l after bolts",
+       "page": "5-25; 2-10",
+       "status": "ok"
+      },
+      {
+       "reply": "4 x M9 bolts",
+       "manual": "Cylinder head bolt M9 Q'ty 4",
+       "page": "2-10",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 6,
+     "manual_says": "Bore 77.000–77.010, limit 77.060; piston 76.955–76.970 at 4.0 mm; clearance 0.030–0.055; top ring side 0.030–0.065 / 0.115; end gap limit 0.50; pin OD limit 15.971; pin bore limit 16.043; pin clearance 0.002–0.022 (2-3; 5-34 to 5-36).",
+     "verdict": "matches",
+     "what_is_wrong": "All values correct; manual gives no taper/out-of-round or piston wear limit, so saying so is right.",
+     "specs": [
+      {
+       "reply": "Bore 77.000–77.010 mm, limit 77.060 mm",
+       "manual": "same",
+       "page": "2-3; 5-34",
+       "status": "ok"
+      },
+      {
+       "reply": "Piston 76.955–76.970 mm at 4.0 mm",
+       "manual": "same",
+       "page": "2-3; 5-35",
+       "status": "ok"
+      },
+      {
+       "reply": "Clearance 0.030–0.055 mm",
+       "manual": "same",
+       "page": "2-3; 5-35",
+       "status": "ok"
+      },
+      {
+       "reply": "Top ring side 0.030–0.065 mm, limit 0.115 mm",
+       "manual": "same",
+       "page": "2-3; 5-35",
+       "status": "ok"
+      },
+      {
+       "reply": "Top ring end gap max 0.50 mm",
+       "manual": "End gap limit 0.50 mm (limit only)",
+       "page": "2-3; 5-35",
+       "status": "ok"
+      },
+      {
+       "reply": "Pin min 15.971 mm",
+       "manual": "Pin OD limit 15.971 mm",
+       "page": "2-3; 5-36",
+       "status": "ok"
+      },
+      {
+       "reply": "Pin bore max 16.043 mm",
+       "manual": "16.043 mm",
+       "page": "2-3; 5-36",
+       "status": "ok"
+      },
+      {
+       "reply": "Pin clearance 0.002–0.022 mm",
+       "manual": "same",
+       "page": "2-3",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "yes"
+    },
+    {
+     "turn": 7,
+     "manual_says": "Seat and side covers removed per GENERAL CHASSIS (4-1).",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 8,
+     "manual_says": "Crank CCW to rotor TDC mark; moly oil on cams, oil decompressor, fill head to lifter tops; marks c (exhaust) and d (intake) aligned with head edge; clips, caps 10 N·m in shown sequence; tensioner wound CW, UP up, bolts 10 N·m, cap bolt 6 N·m; turn CCW several turns, recheck (5-18 to 5-20).",
+     "verdict": "partly",
+     "what_is_wrong": "Sequence and torques correct, but it says the sprocket marks are unconfirmed (manual names marks c/d, 5-19) and calls the manual's own sequence 'workshop guidance'; cap order given as 'innermost outward' instead of the printed numbered sequence (5-19).",
+     "specs": [
+      {
+       "reply": "Cam cap bolts 10 N·m (7.4 ft-lb)",
+       "manual": "10 N·m (7.4 lb·ft)",
+       "page": "5-19; 2-10",
+       "status": "ok"
+      },
+      {
+       "reply": "Tensioner bolts 10 N·m",
+       "manual": "10 N·m",
+       "page": "5-20; 2-10",
+       "status": "ok"
+      },
+      {
+       "reply": "Tensioner cap bolt 6 N·m (4.4 ft-lb)",
+       "manual": "6 N·m (4.4 lb·ft)",
+       "page": "5-20; 2-10",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 9,
+     "manual_says": "Break-in: 20 min at 1/2 throttle or less, pit stop, 40 min at 3/4 or less (1-25); piston/ring/valve/cam/gear ~30 min at 1/2 or less; cylinder/crank ~1 hour (1-25). Oil-pressure check bolt: oil must seep within 1 min, 10 N·m (3-14, 3-15).",
+     "verdict": "matches",
+     "what_is_wrong": "Correct; only carries over the head-bolt 'uncertainty' from turn 5.",
+     "specs": [
+      {
+       "reply": "20 min ≤1/2, 40 min ≤3/4",
+       "manual": "same",
+       "page": "1-25",
+       "status": "ok"
+      },
+      {
+       "reply": "30 min ≤1/2 for piston/rings etc.",
+       "manual": "same",
+       "page": "1-25",
+       "status": "ok"
+      },
+      {
+       "reply": "Oil check bolt 10 Nm",
+       "manual": "10 N·m (7.4 lb·ft)",
+       "page": "3-15; 2-10",
+       "status": "ok"
+      },
+      {
+       "reply": "Seep within 1 minute",
+       "manual": "If no oil after one minute, turn off",
+       "page": "3-15",
+       "status": "ok"
+      },
+      {
+       "reply": "0.75 L with filter",
+       "manual": "0.75 L (0.79 US qt)",
+       "page": "2-2; 3-14",
+       "status": "ok"
+      },
+      {
+       "reply": "Wait ~1 min then check level",
+       "manual": "warm 2–3 min, stop, wait about 1 min",
+       "page": "3-13",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    }
+   ],
+   "correct_vs_manual": 4,
+   "easy_to_follow": 3,
+   "not_overwhelming": 3,
+   "top_fixes": [
+    "Give the head-bolt tightening order from the printed diagram (2-12, 5-24) instead of saying it is unconfirmed and telling the rider to pause.",
+    "On lubricant, state the manual's own conflict plainly (2-12 TIP: moly oil; 5-24 steps b/f: moly grease) without blocking the job.",
+    "Cam timing: name marks c (exhaust) and d (intake) level with the head edge (5-19), use the printed cap sequence, and stop calling the manual's own steps 'workshop guidance'; drain oil after warming per 3-13."
+   ],
+   "overall": "B-"
+  },
+  {
+   "id": "rb-yz250f-2025",
+   "turns": [
+    {
+     "turn": 1,
+     "manual_says": "Engine removal per ENGINE REMOVAL (chapter 5); no rebuild overview in manual.",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 2,
+     "manual_says": "No photo/strap step in manual; general prep.",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 3,
+     "manual_says": "CHANGING THE ENGINE OIL: warm engine several minutes, stop and wait, then drain (3-14).",
+     "verdict": "partly",
+     "what_is_wrong": "Tells rider to keep the engine cold and not warm it; manual warms first (3-14).",
+     "specs": [],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 4,
+     "manual_says": "CHANGING THE COOLANT: drain bolt out, slowly loosen radiator cap, coolant gushes sideways; refit with new copper washer, 10 N·m (3-22).",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [
+      {
+       "reply": "10 N·m (7.4 ft-lb), new copper washer",
+       "manual": "10 N·m (7.4 lb·ft), copper washer New",
+       "page": "3-22; 2-10",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 5,
+     "manual_says": "30 N·m all bolts; one bolt at a time out, 15 N·m + 60°; finally all +60° (120°); nuts [5],[6] 10 N·m (2-12; 5-28, 5-29). 2-12 TIP says moly oil; 5-28 steps b/f say moly grease.",
+     "verdict": "partly",
+     "what_is_wrong": "Torques, angles and one-at-a-time stage are correct, but it states 'moly oil—not grease' as fact while the installation steps on 5-28 specify moly grease (the manual conflicts with itself, 2-12 vs 5-28); also says bolt positions are unconfirmed though the order diagram is printed (2-12, 5-28).",
+     "specs": [
+      {
+       "reply": "30 Nm (22 ft-lb)",
+       "manual": "30 N·m (22 lb·ft)",
+       "page": "2-12; 5-28",
+       "status": "ok"
+      },
+      {
+       "reply": "15 Nm (11 ft-lb) + 60°",
+       "manual": "15 N·m + 60°",
+       "page": "5-28",
+       "status": "ok"
+      },
+      {
+       "reply": "another 60°, 120° total",
+       "manual": "60° + 60° = 120°",
+       "page": "5-29",
+       "status": "ok"
+      },
+      {
+       "reply": "M6 nuts 10 Nm (7.4 ft-lb) last",
+       "manual": "Nut [5],[6] 10 N·m",
+       "page": "5-29; 2-10",
+       "status": "ok"
+      },
+      {
+       "reply": "longer bolt in original hole",
+       "manual": "one M9 x 145 mm bolt, others 135 mm",
+       "page": "5-27",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 6,
+     "manual_says": "Same values as 2022: bore 77.000–77.010 / 77.060; piston 76.955–76.970 at 4.0 mm; clearance 0.030–0.055; top ring side 0.030–0.065 / 0.115; end gap limit 0.50; pin 15.971; bore 16.043; pin clearance 0.002–0.022 (2-3; 5-38 to 5-40). Piston/rings/pin/clip replaced every fifth race (~12.5 h) (3-2).",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [
+      {
+       "reply": "Bore 77.000–77.010, limit 77.060 mm",
+       "manual": "same",
+       "page": "2-3; 5-38",
+       "status": "ok"
+      },
+      {
+       "reply": "Piston 76.955–76.970 at 4.0 mm",
+       "manual": "same",
+       "page": "2-3; 5-39",
+       "status": "ok"
+      },
+      {
+       "reply": "Clearance 0.030–0.055 mm",
+       "manual": "same",
+       "page": "2-3; 5-39",
+       "status": "ok"
+      },
+      {
+       "reply": "Top ring side 0.030–0.065 / 0.115 mm",
+       "manual": "same",
+       "page": "2-3; 5-39",
+       "status": "ok"
+      },
+      {
+       "reply": "End gap max 0.50 mm",
+       "manual": "End gap limit 0.50 mm",
+       "page": "2-3; 5-39",
+       "status": "ok"
+      },
+      {
+       "reply": "Pin min 15.971 mm; bore max 16.043 mm",
+       "manual": "same",
+       "page": "2-3; 5-40",
+       "status": "ok"
+      },
+      {
+       "reply": "Pin clearance 0.002–0.022 mm",
+       "manual": "same",
+       "page": "2-3",
+       "status": "ok"
+      },
+      {
+       "reply": "Replace every fifth race ~12.5 h",
+       "manual": "Every fifth race (about 12.5 hours)",
+       "page": "3-2",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "yes"
+    },
+    {
+     "turn": 7,
+     "manual_says": "Seat, side covers, shrouds per GENERAL CHASSIS (chapter 4).",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 8,
+     "manual_says": "Crank CCW to TDC; moly oil on cams, oil decompressor, fill head to lifter tops; marks c/d aligned with head edge; caps 10 N·m; tensioner CW, UP up, bolts 10 N·m, cap bolt 6 N·m; turn several turns and recheck (5-22 to 5-24).",
+     "verdict": "matches",
+     "what_is_wrong": "'Innermost outward' cap order matches 5-21 TIP (crisscross from innermost).",
+     "specs": [
+      {
+       "reply": "Cam cap 10 Nm",
+       "manual": "10 N·m",
+       "page": "5-23; 2-10",
+       "status": "ok"
+      },
+      {
+       "reply": "Tensioner bolts 10 Nm",
+       "manual": "10 N·m",
+       "page": "5-24; 2-10",
+       "status": "ok"
+      },
+      {
+       "reply": "Tensioner cap 6 Nm",
+       "manual": "6 N·m",
+       "page": "5-24; 2-10",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 9,
+     "manual_says": "20 min ≤1/2 then 40 min ≤3/4 (1-29); piston etc. ~30 min ≤1/2, cylinder/crank ~1 hour (1-29); oil check bolt seep within 1 min, 10 N·m (3-15).",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [
+      {
+       "reply": "0.95 L disassembled",
+       "manual": "0.95 L (1.00 US qt)",
+       "page": "2-2; 3-15",
+       "status": "ok"
+      },
+      {
+       "reply": "Seep within one minute",
+       "manual": "after one minute, turn off",
+       "page": "3-15",
+       "status": "ok"
+      },
+      {
+       "reply": "Check bolt 10 Nm",
+       "manual": "10 N·m",
+       "page": "3-15; 2-10",
+       "status": "ok"
+      },
+      {
+       "reply": "20 / 40 min",
+       "manual": "20 min ≤1/2, 40 min ≤3/4",
+       "page": "1-29",
+       "status": "ok"
+      },
+      {
+       "reply": "0.75 L with filter",
+       "manual": "0.75 L (0.79 US qt)",
+       "page": "2-2; 3-15",
+       "status": "ok"
+      },
+      {
+       "reply": "30 min / about an hour",
+       "manual": "same",
+       "page": "1-29",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    }
+   ],
+   "correct_vs_manual": 4,
+   "easy_to_follow": 4,
+   "not_overwhelming": 3,
+   "top_fixes": [
+    "Do not say 'moly oil, not grease': the installation steps on 5-28 say moly grease while the 2-12 TIP says oil; give both.",
+    "Give the bolt order from the printed diagram (2-12, 5-28) instead of saying corner positions are unconfirmed.",
+    "Oil drain: manual warms the engine several minutes first (3-14); trim the 8-row piston table into smaller steps."
+   ],
+   "overall": "B"
+  },
+  {
+   "id": "rb-yz450f-2022",
+   "turns": [
+    {
+     "turn": 1,
+     "manual_says": "Engine removal per chapter 5; manual gives no torque for the oil check bolt (only window/check-bolt level check, 3-13).",
+     "verdict": "partly",
+     "what_is_wrong": "Invents a blocking prerequisite: rider must get the oil check-bolt torque from a dealer before starting. The manual gives no such torque and the teardown does not need that bolt (3-13).",
+     "specs": [],
+     "easy_to_follow": 2,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 2,
+     "manual_says": "No photo/clutch-record step in manual; clutch free play 7.0–12.0 mm (2-3).",
+     "verdict": "partly",
+     "what_is_wrong": "Repeats the invented oil-check-bolt gate.",
+     "specs": [],
+     "easy_to_follow": 3,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 3,
+     "manual_says": "Throttle grip free play 3.0–6.0 mm (2-4; 3-11).",
+     "verdict": "partly",
+     "what_is_wrong": "Free play correct; repeats the invented oil-check-bolt gate.",
+     "specs": [
+      {
+       "reply": "3–6 mm (0.12–0.24 in)",
+       "manual": "3.0–6.0 mm (0.12–0.24 in)",
+       "page": "2-4",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 4,
+     "manual_says": "Warm engine several minutes, stop, wait about 5 min; remove filler cap and drain bolt; new gasket, drain bolt 20 N·m (3-13, 3-14).",
+     "verdict": "partly",
+     "what_is_wrong": "Drain steps and torque correct, but tells the rider to drain only after getting the oil-check-bolt torque from a dealer, which the manual never requires.",
+     "specs": [
+      {
+       "reply": "Wait about 5 minutes",
+       "manual": "about 5 minutes",
+       "page": "3-13",
+       "status": "ok"
+      },
+      {
+       "reply": "Drain bolt 20 Nm (15 ft-lb), new gasket",
+       "manual": "20 N·m (15 lb·ft), gasket New",
+       "page": "3-14; 2-11",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 2,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 5,
+     "manual_says": "Moly grease; 40 N·m in sequence; loosen bolt [1] only, regrease, 23 N·m, mark, +90°; repeat [2]–[4] one by one; final +60° in sequence; bolts [5],[6] 10 N·m (5-23, 5-24; 2-10).",
+     "verdict": "matches",
+     "what_is_wrong": "Correct per chapter 5. 'Clean, dry threads' on the small bolts is not in the manual.",
+     "specs": [
+      {
+       "reply": "40 Nm (30 ft-lb)",
+       "manual": "40 N·m (30 lb·ft)",
+       "page": "5-23; 2-12",
+       "status": "ok"
+      },
+      {
+       "reply": "23 Nm (17 ft-lb)",
+       "manual": "23 N·m (17 lb·ft)",
+       "page": "5-23",
+       "status": "ok"
+      },
+      {
+       "reply": "+90° per bolt",
+       "manual": "90°",
+       "page": "5-24",
+       "status": "ok"
+      },
+      {
+       "reply": "final +60°",
+       "manual": "60°",
+       "page": "5-24",
+       "status": "ok"
+      },
+      {
+       "reply": "Small bolts 5,6 10 Nm (7.4 ft-lb)",
+       "manual": "Bolt [5],[6] 10 N·m",
+       "page": "5-24; 2-10",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 6,
+     "manual_says": "Bore 97.000–97.010 / 97.060; piston 96.955–96.970 at 9.0 mm; clearance 0.010–0.045, limit 0.15 mm; top ring side 0.015–0.065 / 0.120, end gap limit 0.55; 2nd ring side 0.020–0.060 / 0.100, end gap limit 0.85; pin 17.981; bore 18.045; pin clearance 0.004–0.024 (2-3; 5-33 to 5-35).",
+     "verdict": "partly",
+     "what_is_wrong": "All values given are correct, but the piston-to-cylinder clearance limit 0.15 mm (5-34) is missing.",
+     "specs": [
+      {
+       "reply": "Bore 97.000–97.010, limit 97.060 mm",
+       "manual": "same",
+       "page": "2-3; 5-33",
+       "status": "ok"
+      },
+      {
+       "reply": "Piston 96.955–96.970 at 9.0 mm",
+       "manual": "same",
+       "page": "2-3; 5-34",
+       "status": "ok"
+      },
+      {
+       "reply": "Clearance 0.010–0.045 mm (no limit given)",
+       "manual": "0.010–0.045 mm; Limit 0.15 mm",
+       "page": "5-34",
+       "status": "missing limit"
+      },
+      {
+       "reply": "Top ring side 0.015–0.065 / 0.120 mm",
+       "manual": "same",
+       "page": "2-3; 5-34",
+       "status": "ok"
+      },
+      {
+       "reply": "2nd ring side 0.020–0.060 / 0.100 mm",
+       "manual": "same",
+       "page": "2-3; 5-34",
+       "status": "ok"
+      },
+      {
+       "reply": "End gap limits 0.55 / 0.85 mm",
+       "manual": "same",
+       "page": "2-3; 5-34",
+       "status": "ok"
+      },
+      {
+       "reply": "Pin min 17.981 mm; bore max 18.045 mm",
+       "manual": "same",
+       "page": "2-3; 5-35",
+       "status": "ok"
+      },
+      {
+       "reply": "Pin clearance 0.004–0.024 mm",
+       "manual": "same",
+       "page": "2-3",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "yes"
+    },
+    {
+     "turn": 7,
+     "manual_says": "Fuel tank cap cover: fingers under it, lift up toward the rear; bands under the seat (1-23); cover and seat joined by plastic band (4-3).",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 8,
+     "manual_says": "Crank CCW to TDC; moly oil on cams, oil on decompressor; marks c aligned with cam-cap surface edges d; clips, caps 10 N·m in shown order (7 bolts); tensioner CW, UP up, bolts 10 N·m, cap 6 N·m; turn several turns, recheck (5-17 to 5-19; 2-10).",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [
+      {
+       "reply": "7 cam cap bolts, 10 Nm",
+       "manual": "Camshaft cap bolt M6 Q'ty 7, 10 N·m",
+       "page": "2-10; 5-18",
+       "status": "ok"
+      },
+      {
+       "reply": "Tensioner bolts 10 Nm",
+       "manual": "10 N·m",
+       "page": "5-19",
+       "status": "ok"
+      },
+      {
+       "reply": "Tensioner cap 6 Nm",
+       "manual": "6 N·m",
+       "page": "5-19",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 9,
+     "manual_says": "Piston/ring/valve/cam/gear ~30 min ≤1/2; cylinder/crank ~1 hour; general break-in 20 min ≤1/2 then 40 min ≤3/4 (1-25); oil change after break-in (1-26).",
+     "verdict": "partly",
+     "what_is_wrong": "Break-in values correct, but repeats the invented oil-check-bolt requirement as a blocker before riding.",
+     "specs": [
+      {
+       "reply": "30 min ≤1/2",
+       "manual": "same",
+       "page": "1-25",
+       "status": "ok"
+      },
+      {
+       "reply": "20 min ≤1/2, 40 min ≤3/4",
+       "manual": "same",
+       "page": "1-25",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "no"
+    }
+   ],
+   "correct_vs_manual": 4,
+   "easy_to_follow": 2,
+   "not_overwhelming": 3,
+   "top_fixes": [
+    "Remove the invented oil-check-bolt torque prerequisite repeated in turns 1–4 and 9; the manual gives no torque and the teardown does not need it (3-13, 3-14).",
+    "Add the piston-to-cylinder clearance limit 0.15 mm (5-34).",
+    "Drop 'clean, dry threads' for head bolts [5],[6]; the manual only gives 10 N·m (5-24)."
+   ],
+   "overall": "C+"
+  },
+  {
+   "id": "rb-yz450f-2025",
+   "turns": [
+    {
+     "turn": 1,
+     "manual_says": "Engine removal per chapter 5.",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 2,
+     "manual_says": "No photo/support step in manual; general prep.",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 3,
+     "manual_says": "Clutch free play 7.0–12.0 mm (2-3); throttle 3.0–6.0 mm (2-4).",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 4,
+     "manual_says": "Warm engine several minutes; remove filler cap, crankcase and oil-tank drain bolts; new gaskets; oil tank 10 N·m, crankcase 20 N·m (3-14, 3-15; 2-11).",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [
+      {
+       "reply": "Clutch 7–12 mm",
+       "manual": "7.0–12.0 mm",
+       "page": "2-3",
+       "status": "ok"
+      },
+      {
+       "reply": "Throttle 3–6 mm",
+       "manual": "3.0–6.0 mm",
+       "page": "2-4",
+       "status": "ok"
+      },
+      {
+       "reply": "Oil tank drain 10 N·m (7.4 ft-lb)",
+       "manual": "10 N·m (7.4 lb·ft)",
+       "page": "3-15; 2-11",
+       "status": "ok"
+      },
+      {
+       "reply": "Crankcase drain 20 N·m (14.8 ft-lb)",
+       "manual": "20 N·m (15 lb·ft)",
+       "page": "3-15; 2-11",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 5,
+     "manual_says": "Moly grease; 36 N·m; remove bolt [1] only, regrease, 18 N·m + 90°; repeat [2]–[4]; final +60° (150° total); bolts [5],[6] 12 N·m with LOCTITE (2-12; 5-21, 5-22; 2-10).",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [
+      {
+       "reply": "36 N·m (27 ft-lb)",
+       "manual": "36 N·m (27 lb·ft)",
+       "page": "2-12; 5-21",
+       "status": "ok"
+      },
+      {
+       "reply": "18 N·m (13 ft-lb) + 90°",
+       "manual": "18 N·m + 90°",
+       "page": "5-21, 5-22",
+       "status": "ok"
+      },
+      {
+       "reply": "final +60°",
+       "manual": "60° (total 150°)",
+       "page": "2-12; 5-22",
+       "status": "ok"
+      },
+      {
+       "reply": "Small bolts 12 N·m (8.9 ft-lb), LOCTITE",
+       "manual": "Bolt [5],[6] 12 N·m, LOCTITE",
+       "page": "5-22; 2-10",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 6,
+     "manual_says": "Bore 97.000–97.010 / 97.060; piston 96.955–96.970 at 9.0 mm; clearance 0.010–0.045, limit 0.15 mm; ring side 0.015–0.065/0.120 and 0.020–0.060/0.100; end gap limits 0.55/0.85; pin 17.981; bore 18.045; clearance 0.004–0.024 (2-3; 5-32 to 5-34).",
+     "verdict": "partly",
+     "what_is_wrong": "Values correct but omits the piston-to-cylinder clearance limit 0.15 mm (5-33).",
+     "specs": [
+      {
+       "reply": "Bore 97.000–97.010 / 97.060 mm",
+       "manual": "same",
+       "page": "2-3; 5-32",
+       "status": "ok"
+      },
+      {
+       "reply": "Piston 96.955–96.970 at 9.0 mm",
+       "manual": "same",
+       "page": "2-3; 5-33",
+       "status": "ok"
+      },
+      {
+       "reply": "Clearance 0.010–0.045 mm (no limit)",
+       "manual": "0.010–0.045; Limit 0.15 mm",
+       "page": "5-33",
+       "status": "missing limit"
+      },
+      {
+       "reply": "Ring side clearances and limits",
+       "manual": "same",
+       "page": "2-3; 5-33",
+       "status": "ok"
+      },
+      {
+       "reply": "End gap 0.55 / 0.85 mm",
+       "manual": "same",
+       "page": "2-3; 5-33",
+       "status": "ok"
+      },
+      {
+       "reply": "Pin 17.981; bore 18.045 mm",
+       "manual": "same",
+       "page": "2-3; 5-34",
+       "status": "ok"
+      },
+      {
+       "reply": "Pin clearance 0.004–0.024 mm",
+       "manual": "same",
+       "page": "2-3",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "yes"
+    },
+    {
+     "turn": 7,
+     "manual_says": "Fuel cap under sub-seat with quick fastener (1-25); sub-seat removed before seat, joined by plastic band (4-4); side covers (4-5).",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 8,
+     "manual_says": "Crank CCW to TDC; moly oil cams, oil decompressor; marks c with cap-surface edges d; caps (8 bolts) 10 N·m in shown order; tensioner CW, UP up, bolts 10 N·m, cap 6 N·m; several turns, recheck (5-15 to 5-17). Valve clearance cold IN 0.10–0.17, EX 0.15–0.22 (2-2, 2-3).",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [
+      {
+       "reply": "8 cam cap bolts, 10 N·m",
+       "manual": "Q'ty 8, 10 N·m",
+       "page": "2-10; 5-16",
+       "status": "ok"
+      },
+      {
+       "reply": "Tensioner bolts 10 N·m",
+       "manual": "10 N·m",
+       "page": "5-16",
+       "status": "ok"
+      },
+      {
+       "reply": "Tensioner cap 6 N·m",
+       "manual": "6 N·m",
+       "page": "5-16",
+       "status": "ok"
+      },
+      {
+       "reply": "Intake 0.10–0.17 mm",
+       "manual": "same",
+       "page": "2-2",
+       "status": "ok"
+      },
+      {
+       "reply": "Exhaust 0.15–0.22 mm",
+       "manual": "same",
+       "page": "2-3",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 9,
+     "manual_says": "Piston/ring/valve/cam/gear ~30 min at 1/2 or less; cylinder/crank ~1 hour; general 20 min ≤1/2 then 40 min ≤3/4 (1-28); oil change after (1-29).",
+     "verdict": "partly",
+     "what_is_wrong": "Labels a '20 min + 10 more min at 1/2' split as Yamaha's procedure; manual says only about 30 min at 1/2 or less (1-28). Says crank/gear replacement needs a separate route, but the manual covers gear (30 min) and crank (~1 hour) in the same list (1-28).",
+     "specs": [
+      {
+       "reply": "~30 min ≤1/2",
+       "manual": "about 30 min at 1/2 or less",
+       "page": "1-28",
+       "status": "ok"
+      },
+      {
+       "reply": "20 + 10 min split",
+       "manual": "not in manual",
+       "page": "1-28",
+       "status": "wrong (invented split)"
+      },
+      {
+       "reply": "Cylinder ~1 hour; 20 ≤1/2 + 40 ≤3/4",
+       "manual": "about an hour; 20/40",
+       "page": "1-28",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "no"
+    }
+   ],
+   "correct_vs_manual": 4,
+   "easy_to_follow": 4,
+   "not_overwhelming": 3,
+   "top_fixes": [
+    "Break-in: state the manual's 'about 30 minutes at 1/2 throttle or less' (1-28); do not present a 20+10 split as Yamaha's.",
+    "Add the piston-to-cylinder clearance limit 0.15 mm (5-33).",
+    "Do not say crank/gear replacement needs a separate route; the manual covers gear (30 min) and crank (about an hour) on 1-28."
+   ],
+   "overall": "B"
+  }
+ ]
+}

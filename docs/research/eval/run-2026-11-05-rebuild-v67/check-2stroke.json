@@ -1,0 +1,964 @@
+{
+ "items": [
+  {
+   "id": "rb-yz125-2022",
+   "manual": "B4X-2819U-10",
+   "turns": [
+    {
+     "turn": 1,
+     "manual_says": "Engine removal (5-2) starts with draining transmission oil, then seat/fuel tank, carburetor, exhaust, radiator; 5-4 tip: support swingarm with a shaft when pivot shaft is pulled.",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 2,
+     "manual_says": "Changing transmission oil (3-6/3-7): warm engine several minutes, wait five minutes, stand level, remove oil drain bolt and filler cap, drain; refit with new aluminum washer.",
+     "verdict": "partly",
+     "what_is_wrong": "Says drain with engine cold; manual 3-6 step 1 warms engine several minutes and waits five minutes first (minor for a teardown).",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 3,
+     "manual_says": "Changing the coolant (3-11/3-12): cold engine, rag over cap; procedure removes coolant drain bolt first, then slowly loosens radiator cap; refit drain bolt with new copper washer at 10 N·m.",
+     "verdict": "partly",
+     "what_is_wrong": "Order reversed vs 3-11 (manual: drain bolt, then cap); otherwise correct.",
+     "specs": [
+      {
+       "reply_value": "10 Nm (7.4 ft-lb)",
+       "item": "Coolant drain bolt",
+       "manual_value": "10 N·m (7.4 lb·ft)",
+       "page": "3-12, 2-10",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 4,
+     "manual_says": "Seat, air scoops, side covers (4-1); side cover drawn backward because claws sit in air filter case (4-2); fuel tank removal removes fuel cock assembly, O-ring, tank, 2 breather hoses (7-1).",
+     "verdict": "partly",
+     "what_is_wrong": "Manual 7-1 removes the fuel cock assembly from the tank (not hose at carburetor) and lists 2 breather hoses; minor.",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 5,
+     "manual_says": "Install new greased O-rings and dowels, head, new copper washers, nuts 28 N·m tightened in stages crisscross (5-15); head stud 13 N·m (2-10).",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [
+      {
+       "reply_value": "28 N·m (21 ft-lb)",
+       "item": "Cylinder head nut x5",
+       "manual_value": "28 N·m (21 lb·ft)",
+       "page": "5-15, 2-10",
+       "status": "ok"
+      },
+      {
+       "reply_value": "13 N·m (9.6 ft-lb)",
+       "item": "Cylinder head stud bolt",
+       "manual_value": "13 N·m (9.6 lb·ft)",
+       "page": "2-10",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 6,
+     "manual_says": "Bore 54.000–54.014, limit 54.064, C = max of 6 readings (5-9); piston 53.957–53.972 at 17.5 mm, clearance 0.040–0.045 (5-10); ring side 0.035–0.070/limit 0.100, end gap limit 1.20 (5-11); pin/bore limits and 0.008–0.023 clearance, limit 0.065 (5-11/5-12); no taper/out-of-round figure in manual.",
+     "verdict": "matches",
+     "what_is_wrong": "All values correct; omits pin-to-bore clearance limit 0.065 mm (5-12). Manual gives no taper/out-of-round limit, so 'not confirmed' is acceptable.",
+     "specs": [
+      {
+       "reply_value": "54.000–54.014 mm",
+       "item": "Cylinder bore",
+       "manual_value": "54.000–54.014 mm",
+       "page": "5-9, 2-2",
+       "status": "ok"
+      },
+      {
+       "reply_value": "54.064 mm",
+       "item": "Bore wear limit",
+       "manual_value": "54.064 mm",
+       "page": "5-9",
+       "status": "ok"
+      },
+      {
+       "reply_value": "53.957–53.972 mm",
+       "item": "Piston diameter",
+       "manual_value": "53.957–53.972 mm",
+       "page": "5-10",
+       "status": "ok"
+      },
+      {
+       "reply_value": "17.5 mm (0.69 in)",
+       "item": "Piston measuring point",
+       "manual_value": "17.5 mm (0.69 in)",
+       "page": "5-10",
+       "status": "ok"
+      },
+      {
+       "reply_value": "0.040–0.045 mm",
+       "item": "Piston-to-cylinder clearance",
+       "manual_value": "0.040–0.045 mm",
+       "page": "5-10",
+       "status": "ok"
+      },
+      {
+       "reply_value": "0.035–0.070 mm / 0.100 mm",
+       "item": "Ring side clearance / limit",
+       "manual_value": "0.035–0.070 / 0.100 mm",
+       "page": "5-11",
+       "status": "ok"
+      },
+      {
+       "reply_value": "1.20 mm (0.0472 in)",
+       "item": "Ring end gap limit",
+       "manual_value": "1.20 mm (limit only)",
+       "page": "5-11",
+       "status": "ok"
+      },
+      {
+       "reply_value": "14.975 mm",
+       "item": "Pin OD limit",
+       "manual_value": "14.975 mm",
+       "page": "5-11",
+       "status": "ok"
+      },
+      {
+       "reply_value": "15.040 mm",
+       "item": "Pin bore ID limit",
+       "manual_value": "15.040 mm",
+       "page": "5-11",
+       "status": "ok"
+      },
+      {
+       "reply_value": "0.008–0.023 mm",
+       "item": "Pin-to-bore clearance",
+       "manual_value": "0.008–0.023 mm (limit 0.065)",
+       "page": "5-12",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 7,
+     "manual_says": "Exhaust removal (5-1): right side cover, washers, silencer, collars, grommets, 2 tension springs, exhaust pipe.",
+     "verdict": "matches",
+     "what_is_wrong": "Says carburetor next; 5-2 lists carburetor before exhaust (harmless order difference).",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 8,
+     "manual_says": "Ring installed near cylinder bottom levelled with piston crown; end gap limit 1.20 mm, replace ring if out (5-11); manual gives only a limit.",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [
+      {
+       "reply_value": "1.20 mm (0.0472 in)",
+       "item": "End gap limit",
+       "manual_value": "1.20 mm (0.0472 in)",
+       "page": "5-11",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 9,
+     "manual_says": "Break-in premix YAMALUBE 2R 15:1, warm 1–2 min, ~20 min at ≤1/2 throttle, pit stop, ~40 min at ≤3/4 (1-18); cylinder/crank ~1 hour, piston/ring/gear ~30 min ≤1/2 (1-19); after break-in change transmission oil, check chips (1-20); normal premix 30 (2-2).",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [
+      {
+       "reply_value": "15:1",
+       "item": "Break-in premix",
+       "manual_value": "15",
+       "page": "1-18",
+       "status": "ok"
+      },
+      {
+       "reply_value": "30 min ≤1/2",
+       "item": "Piston/ring/gear break-in",
+       "manual_value": "about 30 min, 1/2 or less",
+       "page": "1-19",
+       "status": "ok"
+      },
+      {
+       "reply_value": "20 min ≤1/2 + 40 min ≤3/4",
+       "item": "Break-in stages",
+       "manual_value": "about 20 min 1/2, about 40 min 3/4",
+       "page": "1-18",
+       "status": "ok"
+      },
+      {
+       "reply_value": "1–2 min",
+       "item": "Warm-up",
+       "manual_value": "one or two minutes",
+       "page": "1-18",
+       "status": "ok"
+      },
+      {
+       "reply_value": "0.70 L (0.74 US qt) 10W-40 SG",
+       "item": "Transmission oil (change)",
+       "manual_value": "0.70 L (0.74 US qt), SAE 10W-40 SG or higher",
+       "page": "2-2, 3-7",
+       "status": "ok"
+      },
+      {
+       "reply_value": "20 Nm (15 ft-lb)",
+       "item": "Oil drain bolt",
+       "manual_value": "20 N·m (15 lb·ft)",
+       "page": "3-7, 2-11",
+       "status": "ok"
+      },
+      {
+       "reply_value": "30:1",
+       "item": "Normal premix",
+       "manual_value": "30",
+       "page": "2-2",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    }
+   ],
+   "correct_vs_manual": 4,
+   "easy_to_follow": 4,
+   "not_overwhelming": 4,
+   "top_fixes": [
+    "Follow 3-11 order for coolant: remove drain bolt, then slowly loosen radiator cap",
+    "Tank removal per 7-1 (fuel cock assembly, two breather hoses)",
+    "State plainly the manual gives no taper/out-of-round or new-ring gap figure, and add pin clearance limit 0.065 mm (5-12)"
+   ],
+   "overall": "B"
+  },
+  {
+   "id": "rb-yz125-2025",
+   "manual": "D68-2819U-10",
+   "turns": [
+    {
+     "turn": 1,
+     "manual_says": "Engine removal (5-2): drain transmission oil, seat/fuel tank, carburetor, exhaust/silencer, radiator, then engine.",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 2,
+     "manual_says": "Changing transmission oil (3-7/3-8): warm engine several minutes and wait five minutes, drain; new aluminum washer, drain bolt 20 N·m.",
+     "verdict": "partly",
+     "what_is_wrong": "Says drain with engine cold; manual 3-7 step 1 warms engine first (minor).",
+     "specs": [
+      {
+       "reply_value": "20 Nm (15 ft-lb)",
+       "item": "Oil drain bolt",
+       "manual_value": "20 N·m (15 lb·ft)",
+       "page": "3-8, 2-11",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 3,
+     "manual_says": "Changing the coolant (3-12): when cooled, rag over cap; remove coolant drain bolt, then slowly loosen cap; new copper washer, 10 N·m.",
+     "verdict": "partly",
+     "what_is_wrong": "Order reversed vs 3-12 (manual: drain bolt, then cap).",
+     "specs": [
+      {
+       "reply_value": "10 Nm (7.4 ft-lb)",
+       "item": "Coolant drain bolt",
+       "manual_value": "10 N·m (7.4 lb·ft)",
+       "page": "3-12, 2-10",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 4,
+     "manual_says": "Seat, scoops, side covers (4-1); side cover drawn backward (4-2); tank removal: fuel cock assembly, O-ring, tank, 2 breather hoses (7-1).",
+     "verdict": "partly",
+     "what_is_wrong": "Manual 7-1 removes fuel cock assembly, two breather hoses; reply disconnects hose at carburetor, one breather hose (minor).",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 5,
+     "manual_says": "New greased O-rings, dowels, head, new copper washers, nuts 28 N·m in stages crisscross (5-15); stud 13 N·m (2-10).",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [
+      {
+       "reply_value": "28 Nm (21 ft-lb)",
+       "item": "Cylinder head nut x5",
+       "manual_value": "28 N·m (21 lb·ft)",
+       "page": "5-15, 2-10",
+       "status": "ok"
+      },
+      {
+       "reply_value": "13 Nm (9.6 ft-lb)",
+       "item": "Cylinder head stud bolt",
+       "manual_value": "13 N·m (9.6 lb·ft)",
+       "page": "2-10",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 6,
+     "manual_says": "Bore 54.000–54.014/limit 54.064, max of 6 readings (5-9); piston 53.957–53.972 at 17.5 mm, clearance 0.040–0.045 (2-2, 5-10); ring side 0.035–0.070/0.100, end gap limit 1.20 (5-11); pin limits, clearance 0.008–0.023, limit 0.065 (5-11/5-12); manual has no taper/out-of-round limit.",
+     "verdict": "partly",
+     "what_is_wrong": "Claims 'Yamaha’s cylinder inspection section carries' taper/out-of-round criteria; manual 5-9/5-10 has none (invented pointer). Specs all correct.",
+     "specs": [
+      {
+       "reply_value": "54.000–54.014 mm",
+       "item": "Cylinder bore",
+       "manual_value": "54.000–54.014 mm",
+       "page": "5-9",
+       "status": "ok"
+      },
+      {
+       "reply_value": "54.064 mm",
+       "item": "Bore wear limit",
+       "manual_value": "54.064 mm",
+       "page": "5-9",
+       "status": "ok"
+      },
+      {
+       "reply_value": "17.5 mm (0.69 in)",
+       "item": "Piston measuring point",
+       "manual_value": "17.5 mm",
+       "page": "2-2, 5-10",
+       "status": "ok"
+      },
+      {
+       "reply_value": "53.957–53.972 mm",
+       "item": "Piston diameter",
+       "manual_value": "53.957–53.972 mm",
+       "page": "2-2, 5-10",
+       "status": "ok"
+      },
+      {
+       "reply_value": "0.040–0.045 mm",
+       "item": "Piston-to-cylinder clearance",
+       "manual_value": "0.040–0.045 mm",
+       "page": "5-10",
+       "status": "ok"
+      },
+      {
+       "reply_value": "0.035–0.070 / 0.100 mm",
+       "item": "Ring side clearance / limit",
+       "manual_value": "0.035–0.070 / 0.100 mm",
+       "page": "5-11",
+       "status": "ok"
+      },
+      {
+       "reply_value": "1.20 mm",
+       "item": "End gap limit",
+       "manual_value": "1.20 mm",
+       "page": "5-11",
+       "status": "ok"
+      },
+      {
+       "reply_value": "14.975 mm / 15.040 mm",
+       "item": "Pin OD / pin bore limits",
+       "manual_value": "14.975 / 15.040 mm",
+       "page": "5-11",
+       "status": "ok"
+      },
+      {
+       "reply_value": "0.008–0.023 mm",
+       "item": "Pin-to-bore clearance",
+       "manual_value": "0.008–0.023 mm (limit 0.065)",
+       "page": "5-12",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 7,
+     "manual_says": "Exhaust removal (5-1): right side cover, silencer, collars, grommets, 2 tension springs, exhaust pipe.",
+     "verdict": "matches",
+     "what_is_wrong": "Says leave carburetor fitted; 5-2 lists carburetor before exhaust (harmless).",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 8,
+     "manual_says": "Ring levelled with piston crown near cylinder bottom; end gap limit 1.20 mm (5-11); manual gives only a limit.",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [
+      {
+       "reply_value": "1.20 mm (0.0472 in)",
+       "item": "End gap limit",
+       "manual_value": "1.20 mm (0.0472 in)",
+       "page": "5-11",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 9,
+     "manual_says": "Break-in 15:1 YAMALUBE 2R, warm 1–2 min, ~20 min ≤1/2, pit stop, ~40 min ≤3/4 (1-21); cylinder/crank ~1 hour, piston/ring/gear ~30 min ≤1/2 (1-22); normal premix 30 (2-2).",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [
+      {
+       "reply_value": "15:1",
+       "item": "Break-in premix",
+       "manual_value": "15",
+       "page": "1-21",
+       "status": "ok"
+      },
+      {
+       "reply_value": "30 min ≤1/2",
+       "item": "Piston/ring/gear break-in",
+       "manual_value": "about 30 min, 1/2 or less",
+       "page": "1-22",
+       "status": "ok"
+      },
+      {
+       "reply_value": "20 + 40 min",
+       "item": "Break-in stages",
+       "manual_value": "about 20 min 1/2, about 40 min 3/4",
+       "page": "1-21",
+       "status": "ok"
+      },
+      {
+       "reply_value": "1–2 min",
+       "item": "Warm-up",
+       "manual_value": "one or two minutes",
+       "page": "1-21",
+       "status": "ok"
+      },
+      {
+       "reply_value": "0.70 L (0.74 US qt) 10W-40 SG",
+       "item": "Transmission oil",
+       "manual_value": "0.70 L (0.74 US qt)",
+       "page": "2-2, 3-8",
+       "status": "ok"
+      },
+      {
+       "reply_value": "30:1",
+       "item": "Normal premix",
+       "manual_value": "30",
+       "page": "2-2",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    }
+   ],
+   "correct_vs_manual": 4,
+   "easy_to_follow": 4,
+   "not_overwhelming": 4,
+   "top_fixes": [
+    "Remove the claim that the manual's cylinder section has taper/out-of-round criteria (5-9/5-10 give none)",
+    "Coolant drain order per 3-12: drain bolt, then cap",
+    "Tank removal per 7-1 (fuel cock assembly, two breather hoses)"
+   ],
+   "overall": "B"
+  },
+  {
+   "id": "rb-yz250-2023",
+   "manual": "BCR-2819U-11",
+   "turns": [
+    {
+     "turn": 1,
+     "manual_says": "Engine removal (5-2): drain transmission oil, seat, fuel tank, neutral switch lead, sprocket, brake pedal, engine brackets, engine.",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 2,
+     "manual_says": "Changing transmission oil (3-6/3-7): warm engine several minutes, wait five minutes, drain; new aluminum washer, drain bolt 23 N·m.",
+     "verdict": "partly",
+     "what_is_wrong": "Says drain with engine cold; manual 3-6 warms engine first (minor).",
+     "specs": [
+      {
+       "reply_value": "23 N·m (17 ft-lb)",
+       "item": "Oil drain bolt",
+       "manual_value": "23 N·m (17 lb·ft)",
+       "page": "3-7, 2-11",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 3,
+     "manual_says": "Changing the coolant (3-11): when cooled, rag over cap; remove coolant drain bolt, then slowly loosen cap; new copper washer, 10 N·m.",
+     "verdict": "partly",
+     "what_is_wrong": "Order reversed vs 3-11 (manual: drain bolt, then cap).",
+     "specs": [
+      {
+       "reply_value": "10 N·m (7.4 ft-lb)",
+       "item": "Coolant drain bolt",
+       "manual_value": "10 N·m (7.4 lb·ft)",
+       "page": "3-11, 2-10",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 4,
+     "manual_says": "Side cover drawn backward, claws in air filter case (4-2); tank removal per 7-1 (fuel cock assembly, breather hoses).",
+     "verdict": "partly",
+     "what_is_wrong": "Manual 7-1 removes fuel cock assembly from tank; reply disconnects hose at carburetor (minor).",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 5,
+     "manual_says": "New greased O-rings, dowels, head, new copper washers, six nuts 25 N·m in stages crisscross (5-14, 2-10).",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [
+      {
+       "reply_value": "25 N·m (18 ft-lb)",
+       "item": "Cylinder head nut x6",
+       "manual_value": "25 N·m (18 lb·ft)",
+       "page": "5-14, 2-10",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 6,
+     "manual_says": "Bore 66.400–66.414/limit 66.464 (5-7); piston 66.352–66.367 at 17.5 mm, clearance 0.045–0.050 (5-8); both rings side 0.030–0.065/0.100, end gap limit 0.95 (5-9); pin 17.975, bore 18.040, clearance 0.004–0.020, limit 0.065 (5-9/5-10); no taper/out-of-round limit in manual.",
+     "verdict": "partly",
+     "what_is_wrong": "Says 'Yamaha’s cylinder-inspection specifications would settle' taper/out-of-round; manual has none (misleading pointer). Specs correct; omits pin clearance limit 0.065 mm.",
+     "specs": [
+      {
+       "reply_value": "66.400–66.414 mm",
+       "item": "Cylinder bore",
+       "manual_value": "66.400–66.414 mm",
+       "page": "5-7, 2-2",
+       "status": "ok"
+      },
+      {
+       "reply_value": "66.464 mm",
+       "item": "Bore wear limit",
+       "manual_value": "66.464 mm",
+       "page": "5-7",
+       "status": "ok"
+      },
+      {
+       "reply_value": "66.352–66.367 mm",
+       "item": "Piston diameter",
+       "manual_value": "66.352–66.367 mm",
+       "page": "5-8, 2-2",
+       "status": "ok"
+      },
+      {
+       "reply_value": "17.5 mm",
+       "item": "Piston measuring point",
+       "manual_value": "17.5 mm",
+       "page": "5-8",
+       "status": "ok"
+      },
+      {
+       "reply_value": "0.045–0.050 mm",
+       "item": "Piston-to-cylinder clearance",
+       "manual_value": "0.045–0.050 mm",
+       "page": "2-2",
+       "status": "ok"
+      },
+      {
+       "reply_value": "0.030–0.065 / 0.100 mm",
+       "item": "Ring side clearance / limit (both rings)",
+       "manual_value": "0.030–0.065 / 0.100 mm",
+       "page": "5-9",
+       "status": "ok"
+      },
+      {
+       "reply_value": "0.95 mm",
+       "item": "End gap limit (both rings)",
+       "manual_value": "0.95 mm (limit only)",
+       "page": "5-9",
+       "status": "ok"
+      },
+      {
+       "reply_value": "17.975 mm / 18.040 mm",
+       "item": "Pin OD / pin bore limits",
+       "manual_value": "17.975 / 18.040 mm",
+       "page": "5-9",
+       "status": "ok"
+      },
+      {
+       "reply_value": "0.004–0.020 mm",
+       "item": "Pin-to-bore clearance",
+       "manual_value": "0.004–0.020 mm (limit 0.065)",
+       "page": "5-10",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 7,
+     "manual_says": "Exhaust removal (5-1): right side cover, silencer, collars, grommets, 2 tension springs, exhaust pipe.",
+     "verdict": "matches",
+     "what_is_wrong": "Omits removing the right side cover first (5-1), minor.",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 8,
+     "manual_says": "Ring levelled with piston crown near cylinder bottom; end gap limit 0.95 mm top and 2nd ring (5-9, 2-2/2-3); only a limit is given.",
+     "verdict": "partly",
+     "what_is_wrong": "Says Yamaha's ring-inspection section is where to verify new-ring fitting requirements; 5-9 gives only the 0.95 mm limit (misleading pointer).",
+     "specs": [
+      {
+       "reply_value": "0.95 mm (0.0374 in)",
+       "item": "End gap limit, top and 2nd",
+       "manual_value": "0.95 mm (0.0374 in)",
+       "page": "5-9, 2-3",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 9,
+     "manual_says": "Break-in 15:1 YAMALUBE 2R, warm 1–2 min, ~20 min ≤1/2, pit stop, ~40 min ≤3/4 (1-18); cylinder/crank ~1 hour, piston/ring/gear ~30 min (1-19); set pin removed at assembly (5-14); oil 0.75 L (2-2).",
+     "verdict": "matches",
+     "what_is_wrong": "'YPVS holding pin' is the manual's set pin (5-14); fine.",
+     "specs": [
+      {
+       "reply_value": "15:1",
+       "item": "Break-in premix",
+       "manual_value": "15",
+       "page": "1-18",
+       "status": "ok"
+      },
+      {
+       "reply_value": "30 min ≤1/2",
+       "item": "Piston/ring/gear",
+       "manual_value": "about 30 min, 1/2 or less",
+       "page": "1-19",
+       "status": "ok"
+      },
+      {
+       "reply_value": "20 + 40 min",
+       "item": "Break-in stages",
+       "manual_value": "about 20 min 1/2, about 40 min 3/4",
+       "page": "1-18",
+       "status": "ok"
+      },
+      {
+       "reply_value": "1–2 min",
+       "item": "Warm-up",
+       "manual_value": "one or two minutes",
+       "page": "1-18",
+       "status": "ok"
+      },
+      {
+       "reply_value": "0.75 L (0.79 US qt) 10W-40",
+       "item": "Transmission oil",
+       "manual_value": "0.75 L (0.79 US qt)",
+       "page": "2-2",
+       "status": "ok"
+      },
+      {
+       "reply_value": "30:1",
+       "item": "Normal premix",
+       "manual_value": "30",
+       "page": "2-2",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    }
+   ],
+   "correct_vs_manual": 4,
+   "easy_to_follow": 4,
+   "not_overwhelming": 4,
+   "top_fixes": [
+    "Stop pointing riders to manual sections for taper/out-of-round or new-ring gap figures the manual does not contain (5-7, 5-9)",
+    "Coolant drain order per 3-11: drain bolt, then cap",
+    "Add pin-to-bore clearance limit 0.065 mm (5-10) to the reuse checklist"
+   ],
+   "overall": "B"
+  },
+  {
+   "id": "rb-yz250-2025",
+   "manual": "D69-2819U-10",
+   "turns": [
+    {
+     "turn": 1,
+     "manual_says": "Engine removal (5-2): drain transmission oil, seat, fuel tank, neutral switch lead, sprocket, brake pedal, engine brackets, engine.",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 2,
+     "manual_says": "Changing transmission oil (3-7/3-8): start engine, warm several minutes, wait five minutes, drain; new aluminum washer, 23 N·m.",
+     "verdict": "partly",
+     "what_is_wrong": "Explicitly says don't run it to warm the oil, contradicting 3-7 step 1 (minor for teardown).",
+     "specs": [
+      {
+       "reply_value": "23 Nm (17 ft-lb)",
+       "item": "Oil drain bolt",
+       "manual_value": "23 N·m (17 lb·ft)",
+       "page": "3-8, 2-11",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 3,
+     "manual_says": "Changing the coolant (3-12/3-13): when cooled, rag over cap; remove drain bolt, then slowly loosen cap; new copper washer, 10 N·m.",
+     "verdict": "partly",
+     "what_is_wrong": "Order reversed vs 3-12 (manual: drain bolt, then cap).",
+     "specs": [
+      {
+       "reply_value": "10 Nm (7.4 ft-lb)",
+       "item": "Coolant drain bolt",
+       "manual_value": "10 N·m (7.4 lb·ft)",
+       "page": "3-13, 2-10",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 4,
+     "manual_says": "Side cover drawn backward (4-2); tank removal per 7-1 (fuel cock assembly, breather hoses).",
+     "verdict": "partly",
+     "what_is_wrong": "Manual 7-1 removes fuel cock assembly; reply disconnects hose at carburetor (minor).",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 5,
+     "manual_says": "Install new O-rings (greased) and dowels, head, new copper washers, nuts 25 N·m in stages crisscross (5-14, 2-10).",
+     "verdict": "partly",
+     "what_is_wrong": "Torque and pattern correct but omits new copper washers and new greased O-rings (5-14).",
+     "specs": [
+      {
+       "reply_value": "25 Nm (18 ft-lb)",
+       "item": "Cylinder head nut x6",
+       "manual_value": "25 N·m (18 lb·ft)",
+       "page": "5-14, 2-10",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 6,
+     "manual_says": "Bore 66.400–66.414/limit 66.464 (5-7); piston 66.352–66.367 at 17.5 mm, clearance 0.045–0.050 (5-8); both rings side 0.030–0.065/0.100, end gap limit 0.95 (5-9); pin 17.975/bore 18.040/clearance 0.004–0.020, limit 0.065 (5-9/5-10); no taper/out-of-round limit.",
+     "verdict": "matches",
+     "what_is_wrong": "All correct; omits pin clearance limit 0.065 mm (5-10).",
+     "specs": [
+      {
+       "reply_value": "66.400–66.414 mm",
+       "item": "Cylinder bore",
+       "manual_value": "66.400–66.414 mm",
+       "page": "5-7, 2-2",
+       "status": "ok"
+      },
+      {
+       "reply_value": "66.464 mm",
+       "item": "Bore wear limit",
+       "manual_value": "66.464 mm",
+       "page": "5-7",
+       "status": "ok"
+      },
+      {
+       "reply_value": "66.352–66.367 mm",
+       "item": "Piston diameter",
+       "manual_value": "66.352–66.367 mm",
+       "page": "5-8, 2-2",
+       "status": "ok"
+      },
+      {
+       "reply_value": "17.5 mm",
+       "item": "Piston measuring point",
+       "manual_value": "17.5 mm",
+       "page": "5-8",
+       "status": "ok"
+      },
+      {
+       "reply_value": "0.045–0.050 mm",
+       "item": "Piston-to-cylinder clearance",
+       "manual_value": "0.045–0.050 mm",
+       "page": "2-2",
+       "status": "ok"
+      },
+      {
+       "reply_value": "0.030–0.065 / 0.100 mm",
+       "item": "Ring side clearance / limit (both)",
+       "manual_value": "0.030–0.065 / 0.100 mm",
+       "page": "5-9, 2-3",
+       "status": "ok"
+      },
+      {
+       "reply_value": "0.95 mm",
+       "item": "End gap limit (both)",
+       "manual_value": "0.95 mm (limit only)",
+       "page": "5-9",
+       "status": "ok"
+      },
+      {
+       "reply_value": "17.975 / 18.040 mm",
+       "item": "Pin OD / bore limits",
+       "manual_value": "17.975 / 18.040 mm",
+       "page": "5-9",
+       "status": "ok"
+      },
+      {
+       "reply_value": "0.004–0.020 mm",
+       "item": "Pin-to-bore clearance",
+       "manual_value": "0.004–0.020 mm (limit 0.065)",
+       "page": "5-10",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 7,
+     "manual_says": "Exhaust removal (5-1): right side cover, silencer, collars, grommets, 2 tension springs, exhaust pipe.",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 8,
+     "manual_says": "Ring levelled with piston crown near cylinder bottom; end gap limit 0.95 mm both rings (5-9); only a limit is given.",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [
+      {
+       "reply_value": "0.95 mm (0.0374 in)",
+       "item": "End gap limit, top and 2nd",
+       "manual_value": "0.95 mm (0.0374 in)",
+       "page": "5-9, 2-3",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 9,
+     "manual_says": "Break-in 15:1 YAMALUBE 2R, warm 1–2 min, ~20 min ≤1/2, pit stop, ~40 min ≤3/4 (1-21); cylinder/crank ~1 hour, piston/ring/gear ~30 min ≤1/2 (1-22); oil 0.75 L (2-2).",
+     "verdict": "matches",
+     "what_is_wrong": "",
+     "specs": [
+      {
+       "reply_value": "15:1",
+       "item": "Break-in premix",
+       "manual_value": "15",
+       "page": "1-21",
+       "status": "ok"
+      },
+      {
+       "reply_value": "30 min ≤1/2",
+       "item": "Piston/ring/gear",
+       "manual_value": "about 30 min, 1/2 or less",
+       "page": "1-22",
+       "status": "ok"
+      },
+      {
+       "reply_value": "20 + 40 min",
+       "item": "Break-in stages",
+       "manual_value": "about 20 min 1/2, about 40 min 3/4",
+       "page": "1-21",
+       "status": "ok"
+      },
+      {
+       "reply_value": "1–2 min",
+       "item": "Warm-up",
+       "manual_value": "one or two minutes",
+       "page": "1-21",
+       "status": "ok"
+      },
+      {
+       "reply_value": "0.75 L (0.79 US qt) 10W-40",
+       "item": "Transmission oil",
+       "manual_value": "0.75 L (0.79 US qt)",
+       "page": "2-2",
+       "status": "ok"
+      },
+      {
+       "reply_value": "30:1",
+       "item": "Normal premix",
+       "manual_value": "30",
+       "page": "2-2",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    }
+   ],
+   "correct_vs_manual": 4,
+   "easy_to_follow": 4,
+   "not_overwhelming": 4,
+   "top_fixes": [
+    "Head install: add new greased O-rings and new copper washers (5-14)",
+    "Don't tell rider to drain transmission oil cold contrary to 3-7, or note why it differs",
+    "Coolant drain order per 3-12: drain bolt, then cap"
+   ],
+   "overall": "B"
+  }
+ ]
+}
