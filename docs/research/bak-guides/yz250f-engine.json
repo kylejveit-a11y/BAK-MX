@@ -8258,5 +8258,1529 @@
     "model_year": 2027
    }
   ]
+ },
+ {
+  "id": "bak-yamaha-yz250f-top-end-v1",
+  "component": "engine",
+  "affected_components": [
+   "cylinder_head",
+   "camshaft",
+   "valves",
+   "cylinder",
+   "piston",
+   "timing_chain"
+  ],
+  "entry_state": [
+   "Yamaha YZ250F engine on a bench (or in the frame with tank, exhaust, throttle body, radiator hoses and upper engine bracket off), oil and coolant drained, engine cold."
+  ],
+  "exit_state": [
+   "Top end rebuilt with new gaskets, valve clearance in spec and recorded; engine ready for refit or for the bottom end guide."
+  ],
+  "title": "Top end: tear down, measure and rebuild the head, cylinder and piston",
+  "completeness": "Covers taking the cylinder head, cylinder and piston off, measuring every part against its limits, refitting with new gaskets and setting the valve clearance. Valve guide replacement and seat cutting are described as machine shop jobs.",
+  "excluded": [
+   "Valve guide replacement and seat refacing (machine shop)",
+   "Crankshaft, gearbox and clutch work (bottom end guide)"
+  ],
+  "required_tools": [
+   {
+    "name": "Torque wrench covering 6 to 35 Nm, and an angle gauge or protractor",
+    "size": null
+   },
+   {
+    "name": "Feeler gauge set (Yamaha thickness gauge 90890-03268 / YU-26900-9)",
+    "size": null
+   },
+   {
+    "name": "Micrometers 0 to 100 mm and a cylinder bore gauge",
+    "size": null
+   },
+   {
+    "name": "Dial gauge and V-blocks",
+    "size": null
+   },
+   {
+    "name": "Straightedge",
+    "size": null
+   },
+   {
+    "name": "Plastigauge",
+    "size": null
+   },
+   {
+    "name": "Caliper",
+    "size": null
+   },
+   {
+    "name": "Valve spring compressor (Yamaha 90890-04200 / YM-04019) and attachment (90890-04108 / YM-04108)",
+    "size": null
+   },
+   {
+    "name": "Valve lapper/suction tool (Yamaha 90890-04101 / YM-A8998)",
+    "size": null
+   },
+   {
+    "name": "Piston pin puller set (Yamaha 90890-01304 / YU-01304)",
+    "size": null
+   },
+   {
+    "name": "Blue marking fluid",
+    "size": null
+   },
+   {
+    "name": "Wire to hold the chain",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Cylinder head gasket and cylinder base gasket",
+    "purpose": "Single use."
+   },
+   {
+    "name": "Head cover gasket and spark plug hole seal",
+    "purpose": "Single use."
+   },
+   {
+    "name": "Tensioner gaskets",
+    "purpose": "Both renewed."
+   },
+   {
+    "name": "Valve stem seals",
+    "purpose": "Always renewed when valves come out."
+   },
+   {
+    "name": "Piston pin clips",
+    "purpose": "Single use."
+   },
+   {
+    "name": "Crankshaft end access screw O-ring",
+    "purpose": "Renewed at refit."
+   },
+   {
+    "name": "Molybdenum disulfide grease and oil, engine oil, lithium-soap grease and Yamaha Bond No. 1215 (ThreeBond 1215)",
+    "purpose": "Needed during assembly."
+   },
+   {
+    "name": "Shims of the needed sizes",
+    "purpose": "Only if a clearance is out of spec."
+   }
+  ],
+  "prerequisites": [
+   "Engine clean and cold.",
+   "A clean bench and labelled trays for each valve."
+  ],
+  "critical_stop_conditions": [
+   "Any reading past its limit: stop and order the part; do not reassemble out-of-limit parts.",
+   "A clip, shim or small part drops into the crankcase: stop and recover it before turning the engine.",
+   "Timing marks will not line up after turning: do not start the engine; reset the cam timing.",
+   "Signs of overheating (blue piston pin, scored bore, seized parts): check the oil and cooling systems before rebuilding."
+  ],
+  "steps": [
+   {
+    "id": "clean",
+    "title": "Clean around the top of the engine",
+    "instruction": "With the engine on the bench, blow and wipe all dirt off the cylinder head cover, spark plug well and the joints between head, cylinder and cases. Grit that falls in now ends up in the bearings later.",
+    "depends_on": [],
+    "verification": [
+     "Head area clean and dry."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cover-off",
+    "title": "Take off the spark plug and head cover",
+    "instruction": "Pull the cylinder head breather hose off and unscrew the spark plug. Note the plug colour and any oil or coolant on it. Remove the two cylinder head cover bolts and lift off the cover, the top timing chain guide and the cover gasket.",
+    "depends_on": [
+     "clean"
+    ],
+    "verification": [
+     "Plug out and its condition noted.",
+     "Camshafts and chain visible."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "access",
+    "title": "Open the timing access screws",
+    "instruction": "Unscrew the timing mark access screw and the crankshaft end access screw from the left crankcase cover, with their O-rings.",
+    "depends_on": [
+     "cover-off"
+    ],
+    "verification": [
+     "Both access screws out; rotor mark visible."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tdc",
+    "title": "Turn the engine to top dead centre",
+    "instruction": "Turn the crankshaft counterclockwise with a wrench on the crank end until the TDC mark on the generator rotor lines up with the mark on the crankcase cover. At the same time the timing marks on both camshaft sprockets must sit level with the top edge of the cylinder head. If they do not, turn one more full turn.",
+    "depends_on": [
+     "access"
+    ],
+    "verification": [
+     "Rotor TDC mark aligned.",
+     "Both cam sprocket marks level with the head edge."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "clearance-before",
+    "title": "Measure the valve clearance as found",
+    "instruction": "Engine cold (room temperature). Slide feeler blades between each cam lobe and its bucket and find the thickest blade that passes with a light drag. Spec is 0.12–0.19 mm (0.0047–0.0075 in) intake and 0.17–0.24 mm (0.0067–0.0094 in) exhaust. Write down all four readings and their positions.",
+    "depends_on": [
+     "tdc"
+    ],
+    "verification": [
+     "All four clearances recorded with position.",
+     "Out-of-spec valves flagged."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "tensioner-off",
+    "title": "Remove the cam chain tensioner",
+    "instruction": "Remove the tensioner cap bolt and its gasket, then the two mounting bolts, and lift the tensioner off with its gasket.",
+    "depends_on": [
+     "clearance-before"
+    ],
+    "verification": [
+     "Tensioner and both gaskets off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "caps-off",
+    "title": "Remove the camshaft caps",
+    "instruction": "Loosen the eight camshaft cap bolts a little at a time in a crisscross pattern, working from the outside in, so the two caps come off evenly. Lift the caps off carefully and take out the two clips under them so neither can drop into the crankcase.",
+    "depends_on": [
+     "tensioner-off"
+    ],
+    "verification": [
+     "Caps off and both clips accounted for."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cams-out",
+    "title": "Lift out the camshafts",
+    "instruction": "Lift out the exhaust and intake camshafts, slipping the chain off the sprockets. Tie the chain up with wire so it cannot fall into the crankcase.",
+    "depends_on": [
+     "caps-off"
+    ],
+    "verification": [
+     "Both camshafts out.",
+     "Chain tied up."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "head-bolts",
+    "title": "Unbolt the cylinder head",
+    "instruction": "Loosen the two small M6 nuts first, then the four large M9 head bolts, in a crisscross order and half a turn at a time, until everything is loose. Only then take them all out, with the bolt washers. Three bolts are 135 mm (5.31 in) long and one is 145 mm (5.71 in); note where the long one goes. Take a photo of the bolt positions.",
+    "depends_on": [
+     "cams-out"
+    ],
+    "verification": [
+     "All head fasteners out and bagged with their washers.",
+     "Position of the 145 mm bolt noted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "head-off",
+    "title": "Lift the head off",
+    "instruction": "Lift the head straight up while feeding the timing chain through its tunnel. Lift out the intake-side chain guide, the dowels and the head gasket.",
+    "depends_on": [
+     "head-bolts"
+    ],
+    "verification": [
+     "Head off and on a clean surface.",
+     "Dowels accounted for."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cylinder-off",
+    "title": "Lift the cylinder off",
+    "instruction": "Remove the cylinder bolt, stuff a clean rag around the connecting rod in the case mouth and lift the cylinder straight up, feeding the chain and its exhaust-side guide through. Peel off the base gasket and keep the two dowels.",
+    "depends_on": [
+     "head-off"
+    ],
+    "verification": [
+     "Cylinder off; rag in the case mouth."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "piston-off",
+    "title": "Remove the piston",
+    "instruction": "With the rag still in place, pick out one piston pin clip. Push the pin out by hand; never hammer it. If it is tight, clean the burr from the clip groove and pin bore and use a piston pin puller set (Yamaha 90890-01304 / YU-01304). Lift the piston off. Spread the ring ends with your fingers and lift each ring off over the crown.",
+    "depends_on": [
+     "cylinder-off"
+    ],
+    "verification": [
+     "Piston and rings off.",
+     "Case mouth still covered."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "valve-seal-test",
+    "title": "Check the valves seal before taking them out",
+    "instruction": "Turn the head over and pour clean solvent into the intake and then the exhaust ports. Watch the valve seats for a few minutes. Any solvent seeping into the combustion chamber means that valve is not sealing; check its face, seat and seat width in the later steps.",
+    "depends_on": [
+     "piston-off"
+    ],
+    "verification": [
+     "Leak result recorded for each valve."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "lifters-out",
+    "title": "Remove the buckets and shims",
+    "instruction": "Put a cloth in the timing chain tunnel so a shim cannot fall into the crankcase. Lift out the valve buckets and the adjusting pads (shims) with a suction tool such as the Yamaha valve lapper 90890-04101 / YM-A8998. Put each in a labelled tray slot for its exact valve and write down the number printed on each shim.",
+    "depends_on": [
+     "valve-seal-test"
+    ],
+    "verification": [
+     "Every bucket and shim stored by position.",
+     "Shim numbers recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "valves-out",
+    "title": "Take the valves out",
+    "instruction": "Compress each valve spring with a valve spring compressor (Yamaha 90890-04200 / YM-04019) and attachment (90890-04108 / YM-04108), pick out the two cotters and release the spring. Remove the retainer, spring, valve, stem seal and spring seat. Keep every part of each valve together and labelled.",
+    "depends_on": [
+     "lifters-out"
+    ],
+    "verification": [
+     "All four valve sets out and stored by position."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "clean-head",
+    "title": "Clean and inspect the head",
+    "instruction": "Scrape carbon from the combustion chamber with a rounded scraper only, keeping clear of the seats and the spark plug threads. Clear any scale or rust from the coolant passages and wash the head. Look for damage or scratches; a damaged head is replaced, and new valves go in with a new head.",
+    "depends_on": [
+     "valves-out"
+    ],
+    "verification": [
+     "Chamber clean; threads undamaged.",
+     "Head condition recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "head-warp",
+    "title": "Check the head gasket face for warp",
+    "instruction": "Lay a straightedge across the gasket face in several directions and try feeler blades underneath. Limit 0.05 mm (0.0020 in). If over the limit, the face can be trued on 400 to 600 grit wet paper on a surface plate with a figure-eight motion, turning the head several times as you go.",
+    "depends_on": [
+     "clean-head"
+    ],
+    "verification": [
+     "Warp reading recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cam-lobes",
+    "title": "Inspect and measure the camshafts",
+    "instruction": "Look at the lobes for blue colour, pitting or scratches; any of these means a new camshaft. Measure each lobe height with a micrometer: intake limit 32.130 mm (1.2650 in), exhaust limit 33.460 mm (1.3173 in). A lobe under its limit means a new camshaft. Check the decompressor cam on the exhaust camshaft moves smoothly and its lever pin stands out of the camshaft.",
+    "depends_on": [
+     "head-warp"
+    ],
+    "verification": [
+     "Lobe heights recorded.",
+     "Decompressor moves freely."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cam-clearance",
+    "title": "Check the camshaft journal clearance",
+    "instruction": "Lay the cams in the head without oil, put a strip of Plastigauge across each journal, fit the dowels and caps and tighten the cap bolts to 10 Nm (7.4 lb-ft) in a crisscross from the innermost bolts outward. Do not turn the cams. Take the caps off and read the squashed strip. Spec is 0.028–0.062 mm (0.0011–0.0024 in); the wear limit is 0.080 mm (0.0032 in).",
+    "depends_on": [
+     "cam-lobes"
+    ],
+    "verification": [
+     "Clearance recorded for each journal."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "cam-cl-ok",
+      "label": "Clearance in spec",
+      "next_step": "chain-check",
+      "condition": "Every journal reads inside the spec."
+     },
+     {
+      "id": "cam-cl-out",
+      "label": "Clearance out of spec",
+      "next_step": "cam-journal",
+      "condition": "Any journal reads outside the spec."
+     }
+    ]
+   },
+   {
+    "id": "cam-journal",
+    "title": "Find which part is worn",
+    "instruction": "Measure the camshaft journal diameter with a micrometer. Spec is 21.959–21.972 mm (0.8645–0.8650 in). If the journal is out of spec, replace the camshaft. If the journal is in spec, the wear is in the bores (new bore 22.000–22.021 mm (0.8661–0.8670 in)), and the cylinder head and caps must be replaced together as a set.",
+    "depends_on": [
+     "cam-clearance"
+    ],
+    "verification": [
+     "Journal diameters recorded and the worn part identified."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "chain-check",
+    "title": "Check the timing chain, sprockets and guides",
+    "instruction": "Look for damaged or stiff links in the timing chain; either means a new chain and camshaft as a set. Look for worn sprocket teeth; more than a quarter-tooth of wear means a new camshaft and chain together. Check the intake-side chain guide for wear or damage and replace it if worn.",
+    "depends_on": [
+     "cam-journal"
+    ],
+    "verification": [
+     "Chain, sprockets and guide condition recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "tensioner-check",
+    "title": "Test the chain tensioner",
+    "instruction": "Look for cracks or damage on the tensioner. Push the tensioner rod lightly with a finger and wind it fully in clockwise with a thin screwdriver. Let the screwdriver go while still pressing lightly: the rod must come out smoothly. If not, replace the tensioner assembly.",
+    "depends_on": [
+     "chain-check"
+    ],
+    "verification": [
+     "Tensioner works smoothly."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "guides",
+    "title": "Check the valve guides",
+    "instruction": "Measure each guide bore (new 5.000–5.012 mm (0.1969–0.1973 in) intake, 4.500–4.512 mm (0.1772–0.1776 in) exhaust) and the matching valve stem (limit 4.945 mm (0.1947 in) intake, 4.430 mm (0.1744 in) exhaust) and subtract: the clearance limit is 0.080 mm (0.0032 in) intake and 0.100 mm (0.0039 in) exhaust. A guide over the limit must be replaced. That job needs the head heated to 100 °C (212 °F) in an oven, the Yamaha guide remover, installer and reamer, guide installed heights of 10.8–11.2 mm (0.43–0.44 in) intake and 11.2–11.6 mm (0.44–0.46 in) exhaust, and the seats refaced afterwards. If you do not have those tools, hand the bare head to a machine shop.",
+    "depends_on": [
+     "tensioner-check"
+    ],
+    "verification": [
+     "Guide clearances recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "valves",
+    "title": "Inspect the valves",
+    "instruction": "Clean carbon off the valve faces and seats. Check each face for pitting or wear; a worn face needs regrinding. Check each stem end: a mushroomed end, or one wider than the stem, means a new valve. Spin each valve in V-blocks with a dial gauge: stem runout limit 0.020 mm (0.0008 in); over the limit means a new valve. Always fit a new guide with a new valve.",
+    "depends_on": [
+     "guides"
+    ],
+    "verification": [
+     "Each valve passed or marked for replacement."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "seats",
+    "title": "Check the valve seat contact band",
+    "instruction": "Paint the valve face with blue marking fluid, put the valve in its guide and press it firmly onto the seat, then measure the width of the band where the blue was rubbed off. Limit is 1.6 mm (0.06 in) for both intake and exhaust. A pitted or worn seat, or a band over the limit, means a new cylinder head. These are titanium valves: a valve used for lapping must never go back in. If you lap a seat, use a new valve for lapping, coarse then fine compound kept out of the guide, clean off all compound, re-check the band, and then fit another new valve.",
+    "depends_on": [
+     "valves"
+    ],
+    "verification": [
+     "Seat widths recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "springs",
+    "title": "Measure the valve springs",
+    "instruction": "Measure the free length of every valve spring with a caliper. Intake limit 34.94 mm (1.38 in); exhaust limit 33.82 mm (1.33 in). Replace any spring under its limit.",
+    "depends_on": [
+     "seats"
+    ],
+    "verification": [
+     "Spring lengths recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "lifters-check",
+    "title": "Check the buckets",
+    "instruction": "Look at each bucket and its bore in the head. Damage or scratches mean new buckets and a new head.",
+    "depends_on": [
+     "springs"
+    ],
+    "verification": [
+     "Buckets and bores condition recorded."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "bore",
+    "title": "Measure the cylinder bore",
+    "instruction": "Look for vertical scratches in the bore and on the piston skirt; scratches mean a new cylinder, piston and rings as a set. With a bore gauge, measure at the top, middle and bottom, front-to-back and side-to-side, and take the largest of the six readings. New bore is 77.000–77.010 mm (3.0315–3.0319 in); the wear limit is 77.060 mm (3.0339 in).",
+    "depends_on": [
+     "lifters-check"
+    ],
+    "verification": [
+     "Six bore readings recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "piston",
+    "title": "Measure the piston and work out the clearance",
+    "instruction": "Measure the piston skirt with a micrometer at right angles to the pin, 4.0 mm (0.16 in) up from the bottom of the skirt. New piston is 76.955–76.970 mm (3.0297–3.0303 in). Subtract the piston diameter from the largest bore reading: the clearance must be 0.030–0.055 mm (0.0012–0.0022 in).",
+    "depends_on": [
+     "bore"
+    ],
+    "verification": [
+     "Piston diameter and clearance recorded."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "piston-ok",
+      "label": "Bore, piston and clearance in spec",
+      "next_step": "rings",
+      "condition": "All readings inside spec."
+     },
+     {
+      "id": "piston-out",
+      "label": "Out of spec",
+      "next_step": "rings",
+      "condition": "Bore past its limit, piston out of spec or clearance outside spec: rebore or replace the cylinder and fit a new piston and rings as a set; measure the new parts in the next steps."
+     }
+    ]
+   },
+   {
+    "id": "rings",
+    "title": "Check the rings",
+    "instruction": "Clean carbon off the rings and out of the ring grooves. With the top ring in its groove, measure the side clearance with feeler blades: 0.030–0.065 mm (0.0012–0.0026 in) new, limit 0.115 mm (0.0045 in); over the limit means a new piston and rings as a set. Then push the top ring squarely into the bottom of the bore with the piston crown, where the bore wears least, and measure the gap between its ends. End gap limit 0.50 mm (0.0197 in); over the limit means a new ring. The oil ring expander gap cannot be measured; if an oil ring rail gap is too big, replace the oil ring set.",
+    "depends_on": [
+     "piston"
+    ],
+    "verification": [
+     "Side clearance and end gap recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "pin",
+    "title": "Check the piston pin",
+    "instruction": "Look for blue colour or grooves on the pin; either means a new pin and a check of the oil supply. Measure the pin outside diameter: limit 15.971 mm (0.6288 in); under it means a new pin. Measure the pin bore in the piston: limit 16.043 mm (0.6316 in); over it means a new piston. Subtract pin from bore: the clearance should be 0.002–0.022 mm (0.0001–0.0009 in).",
+    "depends_on": [
+     "rings"
+    ],
+    "verification": [
+     "Pin, pin bore and clearance recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "decide-bottom",
+    "title": "Decide whether to open the bottom end",
+    "instruction": "Look over your records. If you found metal in the oil, a damaged crank or gearbox, or the engine is due its major service, stop here and do the bottom end guide now, then come back to the next step. Otherwise carry on.",
+    "depends_on": [
+     "pin"
+    ],
+    "verification": [
+     "Decision recorded: top end only, or bottom end first."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "valves-in",
+    "title": "Fit the valves",
+    "instruction": "Clean each stem end. Coat each valve stem and new stem seal with molybdenum disulfide oil. Fit the spring seat, the new stem seal, the valve in its original guide, the spring with the wider-spaced coils at the top, and the retainer. Compress the spring, set the cotters, release slowly and tap the stem end lightly with a soft-face hammer to seat the cotters; hard blows can damage the valve.",
+    "depends_on": [
+     "decide-bottom"
+    ],
+    "verification": [
+     "All valves in their own guides.",
+     "Cotters seated."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "lifters-in",
+    "title": "Refit shims and buckets",
+    "instruction": "Oil the shims and buckets with engine oil and put each back in its original place, number side up, without forcing or twisting them. Each bucket must turn smoothly by finger.",
+    "depends_on": [
+     "valves-in"
+    ],
+    "verification": [
+     "Every shim and bucket in its own place.",
+     "Buckets turn freely."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rings-on",
+    "title": "Fit the rings to the piston",
+    "instruction": "Fit the oil ring expander, lower rail, upper rail and then the top ring, with the maker marks or numbers facing up. Turn the gaps: the oil ring expander gap on the exhaust side in line with the piston mark, the lower and upper rail gaps 15 degrees either side of it, and the top ring gap on the intake side 15 degrees off the centre line.",
+    "depends_on": [
+     "lifters-in"
+    ],
+    "verification": [
+     "Rings fitted marks up.",
+     "Gaps spaced as described."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "piston-on",
+    "title": "Fit the piston to the rod",
+    "instruction": "With a rag in the case mouth, oil the pin with engine oil and fit the piston with its mark pointing to the exhaust (rear). Push the pin through and fit new pin clips, with the clip end away from the cut-out in the piston. Check both clips are fully in their grooves.",
+    "depends_on": [
+     "rings-on"
+    ],
+    "verification": [
+     "Piston mark to the exhaust.",
+     "Both new clips seated."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cylinder-on",
+    "title": "Fit the cylinder",
+    "instruction": "Fit the two dowels and a new base gasket. Oil the bore, piston and rings. Squeeze the rings with one hand and lower the cylinder over the piston with the other, feeding the chain and exhaust-side guide through the tunnel. Pull the rag out before the cylinder reaches the gasket. Fit the cylinder bolt at 10 Nm (7.4 lb-ft).",
+    "depends_on": [
+     "piston-on"
+    ],
+    "verification": [
+     "Cylinder down flat on the gasket.",
+     "Cylinder bolt 10 Nm (7.4 lb-ft)."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "head-on",
+    "title": "Fit the head",
+    "instruction": "Fit the intake-side chain guide, the dowels and a new head gasket the right way round. Lower the head on, pulling the chain up through the tunnel as it goes.",
+    "depends_on": [
+     "cylinder-on"
+    ],
+    "verification": [
+     "Head flat on the gasket; chain pulled up."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "head-torque",
+    "title": "Torque the cylinder head",
+    "instruction": "Wash the bolt threads and seats, the washers, the head contact surface and the threads in the crankcase. Coat the bolt threads, the bolt seats and both faces of each washer with molybdenum disulfide grease. Fit the washers and the four M9 bolts (long one in its own hole) and tighten them in the crisscross order to 30 Nm (22 lb-ft) in two or three steps. Then, one bolt at a time in the same order and without touching the others: remove it, re-grease it, refit it and tighten it to 15 Nm (11 lb-ft), then mark the bolt head and the head and turn it a further 60 degrees. When all four are done, mark them again and turn each bolt a final 60 degrees in the same order, for 120 degrees in total. Last, tighten the two small M6 nuts to 10 Nm (7.4 lb-ft).",
+    "depends_on": [
+     "head-on"
+    ],
+    "verification": [
+     "Each M9 bolt went through 30 Nm (22 lb-ft), re-grease, 15 Nm (11 lb-ft), then 60 + 60 degrees.",
+     "M6 nuts 10 Nm (7.4 lb-ft)."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cams-in",
+    "title": "Fit the camshafts in time",
+    "instruction": "Coat the camshafts with molybdenum disulfide oil and put engine oil on the decompressor. Fill the head pockets with engine oil up to the tops of the buckets. Turn the crank counterclockwise to TDC with the rotor mark aligned. Fit the chain over both sprockets and lay the cams in with both sprocket timing marks level with the top edge of the head. Cover the head with a clean cloth and fit the two clips. Fit the caps, oil the bolt threads and seats with engine oil, and tighten the eight bolts to 10 Nm (7.4 lb-ft) in two or three steps, starting at the innermost bolts and working outward. Do not turn the crank while doing this.",
+    "depends_on": [
+     "head-torque"
+    ],
+    "verification": [
+     "Timing marks aligned.",
+     "Cap bolts 10 Nm (7.4 lb-ft)."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tensioner-on",
+    "title": "Fit the chain tensioner",
+    "instruction": "Press the tensioner rod lightly and wind it fully in clockwise with a thin screwdriver. With the UP mark facing up, fit a new gasket and the tensioner and tighten its two bolts to 10 Nm (7.4 lb-ft). Release the screwdriver and check the rod comes out smoothly. Fit the cap bolt with a new gasket at 6 Nm (4.4 lb-ft).",
+    "depends_on": [
+     "cams-in"
+    ],
+    "verification": [
+     "Tensioner bolts 10 Nm (7.4 lb-ft); cap bolt 6 Nm (4.4 lb-ft).",
+     "Chain tight on the front run."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "turn-check",
+    "title": "Turn the engine and check the timing",
+    "instruction": "Turn the crank counterclockwise through several full turns, feeling for any hard spot, and stop at TDC. The rotor mark and both cam sprocket marks must line up with their marks again (rotor with the crankcase cover mark, sprockets with the head edge).",
+    "depends_on": [
+     "tensioner-on"
+    ],
+    "verification": [
+     "Engine turns freely.",
+     "All marks line up."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "timing-wrong",
+      "label": "Marks do not line up",
+      "next_step": "cams-in",
+      "condition": "Remove the tensioner and caps and set the chain on the sprockets again."
+     }
+    ]
+   },
+   {
+    "id": "clearance-after",
+    "title": "Check the valve clearance",
+    "instruction": "With the engine cold and at TDC, measure all four clearances again. Spec is 0.12–0.19 mm (0.0047–0.0075 in) intake and 0.17–0.24 mm (0.0067–0.0094 in) exhaust.",
+    "depends_on": [
+     "turn-check"
+    ],
+    "verification": [
+     "Readings recorded."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "clearance-ok",
+      "label": "All in spec",
+      "next_step": "cover-on",
+      "condition": "All four valves in spec."
+     },
+     {
+      "id": "clearance-out",
+      "label": "Out of spec",
+      "next_step": "shims",
+      "condition": "Any valve out of spec."
+     }
+    ]
+   },
+   {
+    "id": "shims",
+    "title": "Work out and fit the right shims",
+    "instruction": "Read the number on the old shim: the number is the thickness in hundredths of a millimetre (for example 148 is 1.48 mm). Round its last digit: 0, 1 or 2 down to 0, 4, 5 or 6 to 5, 8 or 9 up to the next 10 (148 becomes 150). New shim = rounded old shim + measured clearance − the clearance you aim for (pick the middle of the spec). Shims come in 25 sizes from 1.20 mm (0.0472 in) to 2.40 mm (0.0945 in) in 0.05 mm (0.0020 in) steps. Remove the tensioner and camshafts as before, with a cloth in the chain tunnel, swap the shims (number side up, moly oil on the valve stem ends, engine oil on the buckets), refit the cams in time, refit the tensioner and measure again. Repeat until every valve is in spec.",
+    "depends_on": [
+     "clearance-after"
+    ],
+    "verification": [
+     "New shim size listed for each changed valve.",
+     "Final clearances in spec and recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cover-on",
+    "title": "Close the head",
+    "instruction": "Fit the top chain guide. Fit a new spark plug hole seal into the underside of the cover. Put Yamaha Bond No. 1215 (ThreeBond 1215) on the new cover gasket at its half-moon sections over the camshaft ends and fit the gasket. Fit the cover and tighten its two bolts to 10 Nm (7.4 lb-ft). Refit the breather hose.",
+    "depends_on": [
+     "shims"
+    ],
+    "verification": [
+     "Cover bolts 10 Nm (7.4 lb-ft).",
+     "Gasket sitting evenly all round."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "plugs",
+    "title": "Refit the access screws and spark plug",
+    "instruction": "Put lithium-soap grease on both access screw O-rings (a new O-ring on the crankshaft end screw) and engine oil on the threads. Fit the timing mark access screw at 6 Nm (4.4 lb-ft) and the crankshaft end access screw at 10 Nm (7.4 lb-ft). Fit the spark plug at 13 Nm (9.6 lb-ft).",
+    "depends_on": [
+     "cover-on"
+    ],
+    "verification": [
+     "Access screws 6 Nm (4.4 lb-ft) and 10 Nm (7.4 lb-ft).",
+     "Spark plug 13 Nm (9.6 lb-ft)."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "final",
+    "title": "Final bench check",
+    "instruction": "Turn the engine through two full turns by hand to feel for anything binding. Check every opening is closed or capped and keep the record sheet with the engine.",
+    "depends_on": [
+     "plugs"
+    ],
+    "verification": [
+     "Engine turns freely.",
+     "Records complete."
+    ],
+    "record_required": false
+   }
+  ],
+  "targets": [
+   {
+    "manufacturer": "Yamaha",
+    "model": "YZ250F",
+    "model_year": 2022
+   }
+  ]
+ },
+ {
+  "id": "bak-yamaha-yz250f-top-end-v1",
+  "component": "engine",
+  "affected_components": [
+   "cylinder_head",
+   "camshaft",
+   "valves",
+   "cylinder",
+   "piston",
+   "timing_chain"
+  ],
+  "entry_state": [
+   "Yamaha YZ250F engine on a bench (or in the frame with tank, exhaust, throttle body, radiator hoses and upper engine bracket off), oil and coolant drained, engine cold."
+  ],
+  "exit_state": [
+   "Top end rebuilt with new gaskets, valve clearance in spec and recorded; engine ready for refit or for the bottom end guide."
+  ],
+  "title": "Top end: tear down, measure and rebuild the head, cylinder and piston",
+  "completeness": "Covers taking the cylinder head, cylinder and piston off, measuring every part against its limits, refitting with new gaskets and setting the valve clearance. Valve guide replacement and seat cutting are described as machine shop jobs.",
+  "excluded": [
+   "Valve guide replacement and seat refacing (machine shop)",
+   "Crankshaft, gearbox and clutch work (bottom end guide)"
+  ],
+  "required_tools": [
+   {
+    "name": "Torque wrench covering 6 to 35 Nm, and an angle gauge or protractor",
+    "size": null
+   },
+   {
+    "name": "Feeler gauge set (Yamaha thickness gauge 90890-03268 / YU-26900-9)",
+    "size": null
+   },
+   {
+    "name": "Micrometers 0 to 100 mm and a cylinder bore gauge",
+    "size": null
+   },
+   {
+    "name": "Dial gauge and V-blocks",
+    "size": null
+   },
+   {
+    "name": "Straightedge",
+    "size": null
+   },
+   {
+    "name": "Plastigauge",
+    "size": null
+   },
+   {
+    "name": "Caliper",
+    "size": null
+   },
+   {
+    "name": "Valve spring compressor (Yamaha 90890-04200 / YM-04019) and attachment (90890-04108 / YM-04108)",
+    "size": null
+   },
+   {
+    "name": "Valve lapper/suction tool (Yamaha 90890-04101 / YM-A8998)",
+    "size": null
+   },
+   {
+    "name": "Piston pin puller set (Yamaha 90890-01304 / YU-01304)",
+    "size": null
+   },
+   {
+    "name": "Blue marking fluid",
+    "size": null
+   },
+   {
+    "name": "Wire to hold the chain",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Cylinder head gasket and cylinder base gasket",
+    "purpose": "Single use."
+   },
+   {
+    "name": "Head cover gasket and spark plug hole seal",
+    "purpose": "Single use."
+   },
+   {
+    "name": "Tensioner gaskets",
+    "purpose": "Both renewed."
+   },
+   {
+    "name": "Valve stem seals",
+    "purpose": "Always renewed when valves come out."
+   },
+   {
+    "name": "Piston pin clips",
+    "purpose": "Single use."
+   },
+   {
+    "name": "Crankshaft end access screw O-ring",
+    "purpose": "Renewed at refit."
+   },
+   {
+    "name": "Molybdenum disulfide grease and oil, engine oil, lithium-soap grease and Yamaha Bond No. 1215 (ThreeBond 1215)",
+    "purpose": "Needed during assembly."
+   },
+   {
+    "name": "Shims of the needed sizes",
+    "purpose": "Only if a clearance is out of spec."
+   }
+  ],
+  "prerequisites": [
+   "Engine clean and cold.",
+   "A clean bench and labelled trays for each valve."
+  ],
+  "critical_stop_conditions": [
+   "Any reading past its limit: stop and order the part; do not reassemble out-of-limit parts.",
+   "A clip, shim or small part drops into the crankcase: stop and recover it before turning the engine.",
+   "Timing marks will not line up after turning: do not start the engine; reset the cam timing.",
+   "Signs of overheating (blue piston pin, scored bore, seized parts): check the oil and cooling systems before rebuilding."
+  ],
+  "steps": [
+   {
+    "id": "clean",
+    "title": "Clean around the top of the engine",
+    "instruction": "With the engine on the bench, blow and wipe all dirt off the cylinder head cover, spark plug well and the joints between head, cylinder and cases. Grit that falls in now ends up in the bearings later.",
+    "depends_on": [],
+    "verification": [
+     "Head area clean and dry."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cover-off",
+    "title": "Take off the spark plug and head cover",
+    "instruction": "Pull the cylinder head breather hose off and unscrew the spark plug. Note the plug colour and any oil or coolant on it. Remove the two cylinder head cover bolts and lift off the cover, the top timing chain guide and the cover gasket.",
+    "depends_on": [
+     "clean"
+    ],
+    "verification": [
+     "Plug out and its condition noted.",
+     "Camshafts and chain visible."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "access",
+    "title": "Open the timing access screws",
+    "instruction": "Unscrew the timing mark access screw and the crankshaft end access screw from the left crankcase cover, with their O-rings.",
+    "depends_on": [
+     "cover-off"
+    ],
+    "verification": [
+     "Both access screws out; rotor mark visible."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tdc",
+    "title": "Turn the engine to top dead centre",
+    "instruction": "Turn the crankshaft counterclockwise with a wrench on the crank end until the TDC mark on the generator rotor lines up with the mark on the crankcase cover. At the same time the timing marks on both camshaft sprockets must sit level with the top edge of the cylinder head. If they do not, turn one more full turn.",
+    "depends_on": [
+     "access"
+    ],
+    "verification": [
+     "Rotor TDC mark aligned.",
+     "Both cam sprocket marks level with the head edge."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "clearance-before",
+    "title": "Measure the valve clearance as found",
+    "instruction": "Engine cold (room temperature). Slide feeler blades between each cam lobe and its bucket and find the thickest blade that passes with a light drag. Spec is 0.12–0.19 mm (0.0047–0.0075 in) intake and 0.17–0.24 mm (0.0067–0.0094 in) exhaust. Write down all four readings and their positions.",
+    "depends_on": [
+     "tdc"
+    ],
+    "verification": [
+     "All four clearances recorded with position.",
+     "Out-of-spec valves flagged."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "tensioner-off",
+    "title": "Remove the cam chain tensioner",
+    "instruction": "Remove the tensioner cap bolt and its gasket, then the two mounting bolts, and lift the tensioner off with its gasket.",
+    "depends_on": [
+     "clearance-before"
+    ],
+    "verification": [
+     "Tensioner and both gaskets off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "caps-off",
+    "title": "Remove the camshaft caps",
+    "instruction": "Loosen the eight camshaft cap bolts a little at a time in a crisscross pattern, working from the outside in, so the two caps come off evenly. Lift the caps off carefully and take out the two clips under them so neither can drop into the crankcase.",
+    "depends_on": [
+     "tensioner-off"
+    ],
+    "verification": [
+     "Caps off and both clips accounted for."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cams-out",
+    "title": "Lift out the camshafts",
+    "instruction": "Lift out the exhaust and intake camshafts, slipping the chain off the sprockets. Tie the chain up with wire so it cannot fall into the crankcase.",
+    "depends_on": [
+     "caps-off"
+    ],
+    "verification": [
+     "Both camshafts out.",
+     "Chain tied up."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "head-bolts",
+    "title": "Unbolt the cylinder head",
+    "instruction": "Loosen the two small M6 nuts first, then the four large M9 head bolts, in a crisscross order and half a turn at a time, until everything is loose. Only then take them all out, with the bolt washers. Three bolts are 135 mm (5.31 in) long and one is 145 mm (5.71 in); note where the long one goes. Take a photo of the bolt positions.",
+    "depends_on": [
+     "cams-out"
+    ],
+    "verification": [
+     "All head fasteners out and bagged with their washers.",
+     "Position of the 145 mm bolt noted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "head-off",
+    "title": "Lift the head off",
+    "instruction": "Lift the head straight up while feeding the timing chain through its tunnel. Lift out the intake-side chain guide, the dowels and the head gasket.",
+    "depends_on": [
+     "head-bolts"
+    ],
+    "verification": [
+     "Head off and on a clean surface.",
+     "Dowels accounted for."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cylinder-off",
+    "title": "Lift the cylinder off",
+    "instruction": "Remove the cylinder bolt, stuff a clean rag around the connecting rod in the case mouth and lift the cylinder straight up, feeding the chain and its exhaust-side guide through. Peel off the base gasket and keep the two dowels.",
+    "depends_on": [
+     "head-off"
+    ],
+    "verification": [
+     "Cylinder off; rag in the case mouth."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "piston-off",
+    "title": "Remove the piston",
+    "instruction": "With the rag still in place, pick out one piston pin clip. Push the pin out by hand; never hammer it. If it is tight, clean the burr from the clip groove and pin bore and use a piston pin puller set (Yamaha 90890-01304 / YU-01304). Lift the piston off. Spread the ring ends with your fingers and lift each ring off over the crown.",
+    "depends_on": [
+     "cylinder-off"
+    ],
+    "verification": [
+     "Piston and rings off.",
+     "Case mouth still covered."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "valve-seal-test",
+    "title": "Check the valves seal before taking them out",
+    "instruction": "Turn the head over and pour clean solvent into the intake and then the exhaust ports. Watch the valve seats for a few minutes. Any solvent seeping into the combustion chamber means that valve is not sealing; check its face, seat and seat width in the later steps.",
+    "depends_on": [
+     "piston-off"
+    ],
+    "verification": [
+     "Leak result recorded for each valve."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "lifters-out",
+    "title": "Remove the buckets and shims",
+    "instruction": "Put a cloth in the timing chain tunnel so a shim cannot fall into the crankcase. Lift out the valve buckets and the adjusting pads (shims) with a suction tool such as the Yamaha valve lapper 90890-04101 / YM-A8998. Put each in a labelled tray slot for its exact valve and write down the number printed on each shim.",
+    "depends_on": [
+     "valve-seal-test"
+    ],
+    "verification": [
+     "Every bucket and shim stored by position.",
+     "Shim numbers recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "valves-out",
+    "title": "Take the valves out",
+    "instruction": "Compress each valve spring with a valve spring compressor (Yamaha 90890-04200 / YM-04019) and attachment (90890-04108 / YM-04108), pick out the two cotters and release the spring. Remove the retainer, spring, valve, stem seal and spring seat. Keep every part of each valve together and labelled.",
+    "depends_on": [
+     "lifters-out"
+    ],
+    "verification": [
+     "All four valve sets out and stored by position."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "clean-head",
+    "title": "Clean and inspect the head",
+    "instruction": "Scrape carbon from the combustion chamber with a rounded scraper only, keeping clear of the seats and the spark plug threads. Clear any scale or rust from the coolant passages and wash the head. Look for damage or scratches; a damaged head is replaced, and new valves go in with a new head.",
+    "depends_on": [
+     "valves-out"
+    ],
+    "verification": [
+     "Chamber clean; threads undamaged.",
+     "Head condition recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "head-warp",
+    "title": "Check the head gasket face for warp",
+    "instruction": "Lay a straightedge across the gasket face in several directions and try feeler blades underneath. Limit 0.05 mm (0.0020 in). If over the limit, the face can be trued on 400 to 600 grit wet paper on a surface plate with a figure-eight motion, turning the head several times as you go.",
+    "depends_on": [
+     "clean-head"
+    ],
+    "verification": [
+     "Warp reading recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cam-lobes",
+    "title": "Inspect and measure the camshafts",
+    "instruction": "Look at the lobes for blue colour, pitting or scratches; any of these means a new camshaft. Measure each lobe height with a micrometer: intake limit 32.130 mm (1.2650 in), exhaust limit 33.460 mm (1.3173 in). A lobe under its limit means a new camshaft. Check the decompressor cam on the exhaust camshaft moves smoothly and its lever pin stands out of the camshaft.",
+    "depends_on": [
+     "head-warp"
+    ],
+    "verification": [
+     "Lobe heights recorded.",
+     "Decompressor moves freely."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cam-clearance",
+    "title": "Check the camshaft journal clearance",
+    "instruction": "Lay the cams in the head without oil, put a strip of Plastigauge across each journal, fit the dowels and caps and tighten the cap bolts to 10 Nm (7.4 lb-ft) in a crisscross from the innermost bolts outward. Do not turn the cams. Take the caps off and read the squashed strip. Spec is 0.028–0.062 mm (0.0011–0.0024 in); the wear limit is 0.080 mm (0.0032 in).",
+    "depends_on": [
+     "cam-lobes"
+    ],
+    "verification": [
+     "Clearance recorded for each journal."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "cam-cl-ok",
+      "label": "Clearance in spec",
+      "next_step": "chain-check",
+      "condition": "Every journal reads inside the spec."
+     },
+     {
+      "id": "cam-cl-out",
+      "label": "Clearance out of spec",
+      "next_step": "cam-journal",
+      "condition": "Any journal reads outside the spec."
+     }
+    ]
+   },
+   {
+    "id": "cam-journal",
+    "title": "Find which part is worn",
+    "instruction": "Measure the camshaft journal diameter with a micrometer. Spec is 21.959–21.972 mm (0.8645–0.8650 in). If the journal is out of spec, replace the camshaft. If the journal is in spec, the wear is in the bores (new bore 22.000–22.021 mm (0.8661–0.8670 in)), and the cylinder head and caps must be replaced together as a set.",
+    "depends_on": [
+     "cam-clearance"
+    ],
+    "verification": [
+     "Journal diameters recorded and the worn part identified."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "chain-check",
+    "title": "Check the timing chain, sprockets and guides",
+    "instruction": "Look for damaged or stiff links in the timing chain; either means a new chain and camshaft as a set. Look for worn sprocket teeth; more than a quarter-tooth of wear means a new camshaft and chain together. Check the intake-side chain guide for wear or damage and replace it if worn.",
+    "depends_on": [
+     "cam-journal"
+    ],
+    "verification": [
+     "Chain, sprockets and guide condition recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "tensioner-check",
+    "title": "Test the chain tensioner",
+    "instruction": "Look for cracks or damage on the tensioner. Push the tensioner rod lightly with a finger and wind it fully in clockwise with a thin screwdriver. Let the screwdriver go while still pressing lightly: the rod must come out smoothly. If not, replace the tensioner assembly.",
+    "depends_on": [
+     "chain-check"
+    ],
+    "verification": [
+     "Tensioner works smoothly."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "guides",
+    "title": "Check the valve guides",
+    "instruction": "Measure each guide bore (new 5.000–5.012 mm (0.1969–0.1973 in) intake, 4.500–4.512 mm (0.1772–0.1776 in) exhaust) and the matching valve stem (limit 4.945 mm (0.1947 in) intake, 4.430 mm (0.1744 in) exhaust) and subtract: the clearance limit is 0.080 mm (0.0032 in) intake and 0.100 mm (0.0039 in) exhaust. A guide over the limit must be replaced. That job needs the head heated to 100 °C (212 °F) in an oven, the Yamaha guide remover, installer and reamer, guide installed heights of 11.8–12.2 mm (0.46–0.48 in) intake and 11.2–11.6 mm (0.44–0.46 in) exhaust, and the seats refaced afterwards. If you do not have those tools, hand the bare head to a machine shop.",
+    "depends_on": [
+     "tensioner-check"
+    ],
+    "verification": [
+     "Guide clearances recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "valves",
+    "title": "Inspect the valves",
+    "instruction": "Clean carbon off the valve faces and seats. Check each face for pitting or wear; a worn face needs regrinding. Check each stem end: a mushroomed end, or one wider than the stem, means a new valve. Spin each valve in V-blocks with a dial gauge: stem runout limit 0.020 mm (0.0008 in); over the limit means a new valve. Always fit a new guide with a new valve.",
+    "depends_on": [
+     "guides"
+    ],
+    "verification": [
+     "Each valve passed or marked for replacement."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "seats",
+    "title": "Check the valve seat contact band",
+    "instruction": "Paint the valve face with blue marking fluid, put the valve in its guide and press it firmly onto the seat, then measure the width of the band where the blue was rubbed off. Limit is 1.6 mm (0.06 in) for both intake and exhaust. A pitted or worn seat, or a band over the limit, means a new cylinder head. These are titanium valves: a valve used for lapping must never go back in. If you lap a seat, use a new valve for lapping, coarse then fine compound kept out of the guide, clean off all compound, re-check the band, and then fit another new valve.",
+    "depends_on": [
+     "valves"
+    ],
+    "verification": [
+     "Seat widths recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "springs",
+    "title": "Measure the valve springs",
+    "instruction": "Measure the free length of every valve spring with a caliper. Intake limit 34.94 mm (1.38 in); exhaust limit 33.82 mm (1.33 in). Replace any spring under its limit.",
+    "depends_on": [
+     "seats"
+    ],
+    "verification": [
+     "Spring lengths recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "lifters-check",
+    "title": "Check the buckets",
+    "instruction": "Look at each bucket and its bore in the head. Damage or scratches mean new buckets and a new head.",
+    "depends_on": [
+     "springs"
+    ],
+    "verification": [
+     "Buckets and bores condition recorded."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "bore",
+    "title": "Measure the cylinder bore",
+    "instruction": "Look for vertical scratches in the bore and on the piston skirt; scratches mean a new cylinder, piston and rings as a set. With a bore gauge, measure at the top, middle and bottom, front-to-back and side-to-side, and take the largest of the six readings. New bore is 77.000–77.010 mm (3.0315–3.0319 in); the wear limit is 77.060 mm (3.0339 in).",
+    "depends_on": [
+     "lifters-check"
+    ],
+    "verification": [
+     "Six bore readings recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "piston",
+    "title": "Measure the piston and work out the clearance",
+    "instruction": "Measure the piston skirt with a micrometer at right angles to the pin, 4.0 mm (0.16 in) up from the bottom of the skirt. New piston is 76.955–76.970 mm (3.0297–3.0303 in). Subtract the piston diameter from the largest bore reading: the clearance must be 0.030–0.055 mm (0.0012–0.0022 in).",
+    "depends_on": [
+     "bore"
+    ],
+    "verification": [
+     "Piston diameter and clearance recorded."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "piston-ok",
+      "label": "Bore, piston and clearance in spec",
+      "next_step": "rings",
+      "condition": "All readings inside spec."
+     },
+     {
+      "id": "piston-out",
+      "label": "Out of spec",
+      "next_step": "rings",
+      "condition": "Bore past its limit, piston out of spec or clearance outside spec: rebore or replace the cylinder and fit a new piston and rings as a set; measure the new parts in the next steps."
+     }
+    ]
+   },
+   {
+    "id": "rings",
+    "title": "Check the rings",
+    "instruction": "Clean carbon off the rings and out of the ring grooves. With the top ring in its groove, measure the side clearance with feeler blades: 0.030–0.065 mm (0.0012–0.0026 in) new, limit 0.115 mm (0.0045 in); over the limit means a new piston and rings as a set. Then push the top ring squarely into the bottom of the bore with the piston crown, where the bore wears least, and measure the gap between its ends. End gap limit 0.50 mm (0.0197 in); over the limit means a new ring. The oil ring expander gap cannot be measured; if an oil ring rail gap is too big, replace the oil ring set.",
+    "depends_on": [
+     "piston"
+    ],
+    "verification": [
+     "Side clearance and end gap recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "pin",
+    "title": "Check the piston pin",
+    "instruction": "Look for blue colour or grooves on the pin; either means a new pin and a check of the oil supply. Measure the pin outside diameter: limit 15.971 mm (0.6288 in); under it means a new pin. Measure the pin bore in the piston: limit 16.043 mm (0.6316 in); over it means a new piston. Subtract pin from bore: the clearance should be 0.002–0.022 mm (0.0001–0.0009 in).",
+    "depends_on": [
+     "rings"
+    ],
+    "verification": [
+     "Pin, pin bore and clearance recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "decide-bottom",
+    "title": "Decide whether to open the bottom end",
+    "instruction": "Look over your records. If you found metal in the oil, a damaged crank or gearbox, or the engine is due its major service, stop here and do the bottom end guide now, then come back to the next step. Otherwise carry on.",
+    "depends_on": [
+     "pin"
+    ],
+    "verification": [
+     "Decision recorded: top end only, or bottom end first."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "valves-in",
+    "title": "Fit the valves",
+    "instruction": "Clean each stem end. Coat each valve stem and new stem seal with molybdenum disulfide oil. Fit the spring seat, the new stem seal, the valve in its original guide, the spring with the wider-spaced coils at the top, and the retainer. Compress the spring, set the cotters, release slowly and tap the stem end lightly with a soft-face hammer to seat the cotters; hard blows can damage the valve.",
+    "depends_on": [
+     "decide-bottom"
+    ],
+    "verification": [
+     "All valves in their own guides.",
+     "Cotters seated."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "lifters-in",
+    "title": "Refit shims and buckets",
+    "instruction": "Oil the shims and buckets with engine oil and put each back in its original place, number side up, without forcing or twisting them. Each bucket must turn smoothly by finger.",
+    "depends_on": [
+     "valves-in"
+    ],
+    "verification": [
+     "Every shim and bucket in its own place.",
+     "Buckets turn freely."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rings-on",
+    "title": "Fit the rings to the piston",
+    "instruction": "Fit the oil ring expander, lower rail, upper rail and then the top ring, with the maker marks or numbers facing up. Turn the gaps: the oil ring expander gap on the exhaust side in line with the piston mark, the lower and upper rail gaps 15 degrees either side of it, and the top ring gap on the intake side 15 degrees off the centre line.",
+    "depends_on": [
+     "lifters-in"
+    ],
+    "verification": [
+     "Rings fitted marks up.",
+     "Gaps spaced as described."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "piston-on",
+    "title": "Fit the piston to the rod",
+    "instruction": "With a rag in the case mouth, oil the pin with engine oil and fit the piston with its mark pointing to the exhaust (rear). Push the pin through and fit new pin clips, with the clip end away from the cut-out in the piston. Check both clips are fully in their grooves.",
+    "depends_on": [
+     "rings-on"
+    ],
+    "verification": [
+     "Piston mark to the exhaust.",
+     "Both new clips seated."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "cylinder-on",
+    "title": "Fit the cylinder",
+    "instruction": "Fit the two dowels and a new base gasket. Oil the bore, piston and rings. Squeeze the rings with one hand and lower the cylinder over the piston with the other, feeding the chain and exhaust-side guide through the tunnel. Pull the rag out before the cylinder reaches the gasket. Fit the cylinder bolt at 10 Nm (7.4 lb-ft).",
+    "depends_on": [
+     "piston-on"
+    ],
+    "verification": [
+     "Cylinder down flat on the gasket.",
+     "Cylinder bolt 10 Nm (7.4 lb-ft)."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "head-on",
+    "title": "Fit the head",
+    "instruction": "Fit the intake-side chain guide, the dowels and a new head gasket the right way round. Lower the head on, pulling the chain up through the tunnel as it goes.",
+    "depends_on": [
+     "cylinder-on"
+    ],
+    "verification": [
+     "Head flat on the gasket; chain pulled up."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "head-torque",
+    "title": "Torque the cylinder head",
+    "instruction": "Wash the bolt threads and seats, the washers, the head contact surface and the threads in the crankcase. Coat the bolt threads, the bolt seats and both faces of each washer with molybdenum disulfide grease. Fit the washers and the four M9 bolts (long one in its own hole) and tighten them in the crisscross order to 30 Nm (22 lb-ft) in two or three steps. Then, one bolt at a time in the same order and without touching the others: remove it, re-grease it, refit it and tighten it to 15 Nm (11 lb-ft), then mark the bolt head and the head and turn it a further 60 degrees. When all four are done, mark them again and turn each bolt a final 60 degrees in the same order, for 120 degrees in total. Last, tighten the two small M6 nuts to 10 Nm (7.4 lb-ft).",
+    "depends_on": [
+     "head-on"
+    ],
+    "verification": [
+     "Each M9 bolt went through 30 Nm (22 lb-ft), re-grease, 15 Nm (11 lb-ft), then 60 + 60 degrees.",
+     "M6 nuts 10 Nm (7.4 lb-ft)."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cams-in",
+    "title": "Fit the camshafts in time",
+    "instruction": "Coat the camshafts with molybdenum disulfide oil and put engine oil on the decompressor. Fill the head pockets with engine oil up to the tops of the buckets. Turn the crank counterclockwise to TDC with the rotor mark aligned. Fit the chain over both sprockets and lay the cams in with both sprocket timing marks level with the top edge of the head. Cover the head with a clean cloth and fit the two clips. Fit the caps, oil the bolt threads and seats with engine oil, and tighten the eight bolts to 10 Nm (7.4 lb-ft) in two or three steps, starting at the innermost bolts and working outward. Do not turn the crank while doing this.",
+    "depends_on": [
+     "head-torque"
+    ],
+    "verification": [
+     "Timing marks aligned.",
+     "Cap bolts 10 Nm (7.4 lb-ft)."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tensioner-on",
+    "title": "Fit the chain tensioner",
+    "instruction": "Press the tensioner rod lightly and wind it fully in clockwise with a thin screwdriver. With the UP mark facing up, fit a new gasket and the tensioner and tighten its two bolts to 10 Nm (7.4 lb-ft). Release the screwdriver and check the rod comes out smoothly. Fit the cap bolt with a new gasket at 6 Nm (4.4 lb-ft).",
+    "depends_on": [
+     "cams-in"
+    ],
+    "verification": [
+     "Tensioner bolts 10 Nm (7.4 lb-ft); cap bolt 6 Nm (4.4 lb-ft).",
+     "Chain tight on the front run."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "turn-check",
+    "title": "Turn the engine and check the timing",
+    "instruction": "Turn the crank counterclockwise through several full turns, feeling for any hard spot, and stop at TDC. The rotor mark and both cam sprocket marks must line up with their marks again (rotor with the crankcase cover mark, sprockets with the head edge).",
+    "depends_on": [
+     "tensioner-on"
+    ],
+    "verification": [
+     "Engine turns freely.",
+     "All marks line up."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "timing-wrong",
+      "label": "Marks do not line up",
+      "next_step": "cams-in",
+      "condition": "Remove the tensioner and caps and set the chain on the sprockets again."
+     }
+    ]
+   },
+   {
+    "id": "clearance-after",
+    "title": "Check the valve clearance",
+    "instruction": "With the engine cold and at TDC, measure all four clearances again. Spec is 0.12–0.19 mm (0.0047–0.0075 in) intake and 0.17–0.24 mm (0.0067–0.0094 in) exhaust.",
+    "depends_on": [
+     "turn-check"
+    ],
+    "verification": [
+     "Readings recorded."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "clearance-ok",
+      "label": "All in spec",
+      "next_step": "cover-on",
+      "condition": "All four valves in spec."
+     },
+     {
+      "id": "clearance-out",
+      "label": "Out of spec",
+      "next_step": "shims",
+      "condition": "Any valve out of spec."
+     }
+    ]
+   },
+   {
+    "id": "shims",
+    "title": "Work out and fit the right shims",
+    "instruction": "Read the number on the old shim: the number is the thickness in hundredths of a millimetre (for example 148 is 1.48 mm). Round its last digit: 0, 1 or 2 down to 0, 4, 5 or 6 to 5, 8 or 9 up to the next 10 (148 becomes 150). New shim = rounded old shim + measured clearance − the clearance you aim for (pick the middle of the spec). Shims come in 25 sizes from 1.20 mm (0.0472 in) to 2.40 mm (0.0945 in) in 0.05 mm (0.0020 in) steps. Remove the tensioner and camshafts as before, with a cloth in the chain tunnel, swap the shims (number side up, moly oil on the valve stem ends, engine oil on the buckets), refit the cams in time, refit the tensioner and measure again. Repeat until every valve is in spec.",
+    "depends_on": [
+     "clearance-after"
+    ],
+    "verification": [
+     "New shim size listed for each changed valve.",
+     "Final clearances in spec and recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "cover-on",
+    "title": "Close the head",
+    "instruction": "Fit the top chain guide. Press a new spark plug hole seal into the underside of the cover so its flange sits 0–1.0 mm (0–0.04 in) from the cover face it seats against. Put Yamaha Bond No. 1215 (ThreeBond 1215) on the new cover gasket at its half-moon sections over the camshaft ends and fit the gasket. Fit the cover and tighten its two bolts to 10 Nm (7.4 lb-ft). Refit the breather hose.",
+    "depends_on": [
+     "shims"
+    ],
+    "verification": [
+     "Cover bolts 10 Nm (7.4 lb-ft).",
+     "Gasket sitting evenly all round."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "plugs",
+    "title": "Refit the access screws and spark plug",
+    "instruction": "Put lithium-soap grease on both access screw O-rings (a new O-ring on the crankshaft end screw) and engine oil on the threads. Fit the timing mark access screw at 6 Nm (4.4 lb-ft) and the crankshaft end access screw at 10 Nm (7.4 lb-ft). Fit the spark plug at 13 Nm (9.6 lb-ft).",
+    "depends_on": [
+     "cover-on"
+    ],
+    "verification": [
+     "Access screws 6 Nm (4.4 lb-ft) and 10 Nm (7.4 lb-ft).",
+     "Spark plug 13 Nm (9.6 lb-ft)."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "final",
+    "title": "Final bench check",
+    "instruction": "Turn the engine through two full turns by hand to feel for anything binding. Check every opening is closed or capped and keep the record sheet with the engine.",
+    "depends_on": [
+     "plugs"
+    ],
+    "verification": [
+     "Engine turns freely.",
+     "Records complete."
+    ],
+    "record_required": false
+   }
+  ],
+  "targets": [
+   {
+    "manufacturer": "Yamaha",
+    "model": "YZ250F",
+    "model_year": 2025
+   }
+  ]
  }
 ]

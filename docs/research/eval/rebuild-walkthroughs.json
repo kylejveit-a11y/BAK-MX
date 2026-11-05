@@ -257,6 +257,37 @@
     "torques, clearances and limits are the manual's, in its units",
     "says when a special tool or a measurement decides whether a part is reused"
    ]
+  },
+  {
+   "id": "rb-450sxf-2025",
+   "bike": {
+    "manufacturer": "KTM",
+    "model": "450 SX-F",
+    "model_year": 2025,
+    "configuration": {}
+   },
+   "manual": {
+    "publication": "KTM 450 SX-F 2025 repair manual",
+    "type": "rider's licensed copy, checked locally, never stored"
+   },
+   "turns": [
+    "I want to rebuild the motor on my 2025 KTM 450 SX-F. Can you walk me through it step by step?",
+    "Ok, the bike is clean and on the stand. What's the first thing I do?",
+    "Done. What's next?",
+    "Next step",
+    "How tight do the cylinder head bolts go, and in what order?",
+    "What do I need to measure on the piston and cylinder before I reuse them?",
+    "Ok, next step",
+    "How do I line up the cam timing when it goes back together?",
+    "It's all back together. What's the break-in?"
+   ],
+   "checks": [
+    "every step, spec and order matches the repair manual for this exact year",
+    "one step (or a small group) per reply, never the whole manual at once",
+    "plain words a home mechanic can follow, with what to check before moving on",
+    "torques, clearances and limits are the manual's, in its units",
+    "says when a special tool or a measurement decides whether a part is reused"
+   ]
   }
  ]
 }
