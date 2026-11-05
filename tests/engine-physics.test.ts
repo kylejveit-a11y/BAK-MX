@@ -100,3 +100,14 @@ test('chart reader takes Honda band charts and Kawasaki point tables',async()=>{
  const rel=riderJetting(k,{main_jet:'150',air_screw:'1 1/2',jetted_for:'Florida, 50 ft, 70 degrees'},3200,68) as {suggested_start:Record<string,string>};
  assert.match(rel.suggested_start.main_jet,/about #148/,'150 × 138/140');assert.match(rel.suggested_start.air_screw,/about 2 turns/);
 });
+test('conversation jetting: home reference in the latest message, race air from earlier turns, jets written in chat',async()=>{
+ const {engineContext}=await import('../shared/engine-physics-context.ts');
+ const row=(id:string,band:string,air:string,mj:number)=>({id,statement:`Carburetor tuning / ${band} / ${air}: idle air screw 2 turns open; idling jet 32.5; jet needle 43-71; needle clip position 2 from top; main jet ${mj}. Applies.`});
+ const jetting=[row('home','0 to 300 m (0 to 984 ft)','25 to 36 °C (77 to 97 °F)',500),row('race-cool','1,501 to 2,300 m (4,925 to 7,546 ft)','6 to 15 °C (43 to 59 °F)',500),row('race-mid','1,501 to 2,300 m (4,925 to 7,546 ft)','16 to 24 °C (61 to 75 °F)',490)];
+ const current="I'm jetted for home right now, about 500 feet and 80 degrees, running a 470 main",earlier='Forecast is about 60 degrees Jetting for a race at about 5,000 feet this weekend?';
+ const ctx=engineContext(current+' '+earlier,{model:'125 SX',configuration:{},statements:[],track:null,forecastHighF:null,raceMode:false,jetting,current,earlier}) as {air:{elevation_ft:number;published_jetting:{evidence_id:string;also?:{evidence_id:string}}[];from_rider_jetting:{suggested_start:Record<string,string>;chart_where_it_runs_right_now:{evidence_id:string}}}};
+ assert.equal(ctx.air.elevation_ft,5000,'race elevation, not home');
+ assert.equal(ctx.air.published_jetting[0].evidence_id,'race-cool');assert.equal(ctx.air.published_jetting[0].also?.evidence_id,'race-mid','60 °F sits between 43-59 and 61-75');
+ assert.equal(ctx.air.from_rider_jetting.chart_where_it_runs_right_now.evidence_id,'home');
+ assert.match(ctx.air.from_rider_jetting.suggested_start.main_jet,/about #470/,'470 × 500/500');
+});

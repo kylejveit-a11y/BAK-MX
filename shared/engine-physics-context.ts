@@ -13,7 +13,9 @@ const classCc=(model:string)=>{const m=model.match(/(\d{2,3})/);return m?Number(
 
 export type EngineEnv={model:string;configuration:Record<string,unknown>;statements:string[];track:{name:string;elevationFt:number}|null;forecastHighF:number|null;raceMode:boolean;
  /** The maker's carburetor tuning chart rows for this bike ("Carburetor tuning / 301 to 750 m (...) / 16 to 24 °C (...): ..."). */
- jetting?:{id:string;statement:string}[]};
+ jetting?:{id:string;statement:string}[];
+ /** The rider's latest message on its own (text holds it plus the last turns). */
+ current?:string;earlier?:string};
 
 type JetCell={id:string;chart:string;ft:[number,number];f:[number,number];band:string;air:string;settings:string};
 const fnum=(x:string)=>Number(x.replace(/,/g,''));
@@ -45,7 +47,10 @@ export function jettingFor(cells:JetCell[],elevationFt:number,tempF:number){
   const points=list.every(c=>c.f[0]===c.f[1]&&c.ft[0]===c.ft[1]);
   if(points&&(bandDist>0||tDist>0))notes.push('the chart is printed at set elevations and temperatures; the nearest printed one is shown');
   else if(tDist>2)notes.push('the maker prints no setting for exactly this air in that band; the nearest printed column is shown');
-  res.push({chart,evidence_id:cell.id,elevation_band:cell.band,air_band:cell.air,settings:cell.settings,...(notes.length?{note:notes.join('; ')}:{})});
+  // Between two printed temperature bands (e.g. 60 °F between 43-59 and 61-75): give both, so neither is guessed.
+  const other=points?undefined:inBand.find(c=>c.id!==cell.id&&near(tempF,c.f)>0&&near(tempF,c.f)<=4&&tDist>0);
+  if(other)notes.push(`the air falls between two printed columns; ${other.air} is also shown`);
+  res.push({chart,evidence_id:cell.id,elevation_band:cell.band,air_band:cell.air,settings:cell.settings,...(other?{also:{evidence_id:other.id,air_band:other.air,settings:other.settings}}:{}),...(notes.length?{note:notes.join('; ')}:{})});
  }
  return res;
 }
@@ -107,7 +112,12 @@ export function engineContext(text:string,env:EngineEnv):Record<string,unknown>|
   }
  }
  // Air density and jetting
- const said=airFromText(text);
+ // A message about where the bike runs right now ("I'm jetted for home, 500 ft and 80 degrees, running a 470 main") is the
+ // reference, not the destination: the destination then comes from the earlier turns or the track.
+ const current=env.current??text,earlier=env.earlier??'';
+ const homeRef=/\b(jetted (for|at)|at home|home (is|track)|runs? (right|good|great|perfect)|where (it|i) (runs|ride)|currently (jetted|running))\b/i.test(current)&&airFromText(current).elevationFt!=null;
+ const said=homeRef?airFromText(earlier):airFromText(current+' '+earlier);
+ const refFromText=homeRef?airFromText(current):null;
  const elevation=said.elevationFt??env.track?.elevationFt,temp=said.tempF??env.forecastHighF??undefined;
  if((AIR_ABOUT.test(text)||env.raceMode)&&elevation!=null){
   const where=said.elevationFt!=null?'the elevation the rider gave':`${env.track!.name} (track elevation on file)`;
@@ -122,7 +132,13 @@ export function engineContext(text:string,env:EngineEnv):Record<string,unknown>|
    const t0=temps[0];a.published_jetting=jettingFor(cells,elevation,t0);
    if(temps.length>1)a.published_jetting_hot=jettingFor(cells,elevation,temps[1]);
    a.fuel_system='carburetor';
-   const rel=riderJetting(cells,cfg,elevation,t0);
+   // Jets the rider wrote in the conversation count the same as Garage ones ("running a 470 main", "clip in the 3rd groove").
+   const all=current+' '+earlier,mj=all.match(/\b(?:#\s*)?(\d{2,3}(?:\.\d)?)\s*(?:main(?: jet)?)\b|\bmain(?: jet)?\s*(?:is|of|at|=)?\s*#?\s*(\d{2,3}(?:\.\d)?)\b/i),
+    pj=all.match(/\b(?:#\s*)?(\d{2}(?:\.\d)?)\s*(?:pilot|slow|idle|idling)(?: jet)?\b|\b(?:pilot|slow|idle|idling)(?: jet)?\s*(?:is|of|at|=)?\s*#?\s*(\d{2}(?:\.\d)?)\b/i),
+    clip=all.match(/\bclip\D{0,20}?(\d)(?:st|nd|rd|th)?\b|\b(\d)(?:st|nd|rd|th)\s*(?:clip|groove|position)\b/i);
+   const jetCfg={...cfg,...(cfg.main_jet==null&&mj?{main_jet:mj[1]??mj[2]}:{}),...(cfg.pilot_jet==null&&pj?{pilot_jet:pj[1]??pj[2]}:{}),...(cfg.needle_clip==null&&clip?{needle_clip:`clip ${clip[1]??clip[2]}`}:{}),
+    ...(refFromText&&refFromText.tempF!=null?{jetted_for:`${refFromText.elevationFt} ft, ${refFromText.tempF} degrees`}:{})};
+   const rel=riderJetting(cells,jetCfg,elevation,t0);
    if(rel)a.from_rider_jetting=rel;
   }
   out.air=a;
