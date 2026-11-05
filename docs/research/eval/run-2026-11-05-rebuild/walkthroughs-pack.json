@@ -1,0 +1,1635 @@
+[
+ {
+  "id": "rb-yz125-2022",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ125",
+   "model_year": 2022,
+   "configuration": {}
+  },
+  "manual": {
+   "publication": "B4X-2819U-10",
+   "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4X-2819U-10_02.pdf",
+   "type": "Yamaha Owner's Service Manual"
+  },
+  "manual_text": "/tmp/claude-0/-home-claude/6efe62a0-cd5f-5b6c-9409-a557e03a6696/scratchpad/osm/B4X-2819U-10.txt",
+  "checks": [
+   "every step, spec and order matches the Owner's Service Manual for this exact year",
+   "one step (or a small group) per reply, never the whole manual at once",
+   "plain words a home mechanic can follow, with what to check before moving on",
+   "torques, clearances and limits are the manual's, in its units",
+   "says when a special tool or a measurement decides whether a part is reused"
+  ],
+  "turns": [
+   {
+    "rider": "I want to rebuild the motor on my 2022 YZ125. Can you walk me through it step by step?",
+    "reply": {
+     "summary": "Yes—use the guided engine jobs in order, from removal through first start. For a full rebuild, measure the crankshaft, cylinder and gearbox before ordering all the replacement parts.",
+     "answer": "Yes—we can walk through your **2022 YZ125 motor rebuild step by step in this chat**. Tap **“Start a guided job” above the message box**, beginning with **“Take the engine out of the frame.”** Once it’s running, say **“next”** to continue.\n\nFor a full rebuild, this is the order:\n\n1. **Take the engine out of the frame:** drain fluids, disconnect the intake, exhaust and controls, then remove the mounting hardware and lift it out.\n2. **Top end:** remove the head, cylinder, YPVS and piston; inspect and measure before deciding what needs replacing.\n3. **Bottom end:** remove the ignition, clutch and drive mechanisms, split the cases, then inspect the crankshaft, gearbox, bearings and seals before rebuilding.\n4. **Put the engine back in the frame and reconnect everything:** mounting hardware, carburetor, exhaust, cooling connections and fluid fill.\n5. **First start, break-in, premix and jetting checks:** complete the pre-start checks, staged break-in and follow-up inspection.\n\n**Have ready:** a clean bench, labeled trays, torque wrenches and measuring tools. Common full-rebuild tooling also includes the correct flywheel puller, holding tools, case splitter and crankshaft installer; confirm the exact tools in each guided job before dismantling. Don’t hammer the crankshaft into the bearings or pull the cases together with their bolts.\n\nPlan for gaskets, seals and replacement locking hardware identified by the procedures. Choose the piston and crankshaft work after inspection—not just from a rebuild-kit listing. This is the job plan; the guided jobs supply the actual removal order, measurements and assembly steps.",
+     "next_step": {
+      "action": "Tap “Start a guided job” and choose “Take the engine out of the frame.”",
+      "purpose": "Begin the source-reviewed removal sequence before opening the engine.",
+      "stop_conditions": [
+       "Do not drain or disconnect a hot cooling or fuel system.",
+       "Pause if the required tools are unavailable or the fitted hardware differs from the procedure."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "Ok, the bike is clean and on the stand. What's the first thing I do?",
+    "reply": {
+     "summary": "With the engine completely cold, turn the fuel petcock OFF before disconnecting anything.",
+     "answer": "**Turn the fuel petcock OFF with the engine completely cold.** Leave the fuel hose connected for now—the carburetor still contains fuel even with the tap shut.\n\nPut drain pans underneath and have separate labeled containers ready for coolant and transmission oil. Don’t start it just to warm the oil for this teardown.\n\nThen tap **“Start a guided job”** above the message box and choose **“Take the engine out of the frame.”** That starts the removal procedure for your 2022 YZ125, including the draining and disconnection order.",
+     "next_step": {
+      "action": "With the engine completely cold, turn the fuel petcock OFF.",
+      "purpose": "Shut off tank fuel flow before beginning engine removal.",
+      "stop_conditions": [
+       "Do not disconnect fuel or cooling components while hot.",
+       "If fuel is leaking, address it before proceeding."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "Done. What's next?",
+    "reply": {
+     "summary": "Next, remove the seat to expose the fuel-tank mounting area. Leave the tank and fuel hose connected for now.",
+     "answer": "**Next, remove the seat.** With the engine cold and the fuel tap OFF:\n\n1. Undo the seat-retaining bolts and put them in a labeled tray.\n2. Carefully disengage the seat from its locating tabs and lift it clear. If it catches, don’t force it—check for a remaining fastener or hooked tab.\n\nLeave the tank, fuel hose and radiator cap alone for now.\n\nTo follow the exact engine-removal sequence, tap **“Start a guided job” → “Take the engine out of the frame.”** If that job is already running, say **“next”** there.",
+     "next_step": {
+      "action": "Remove the seat and label its retaining hardware.",
+      "purpose": "Expose the fuel-tank mounting area without opening the fuel system.",
+      "stop_conditions": [
+       "Stop if the bike is unstable on its stand.",
+       "Do not force the seat if a fastener or locating tab still holds it."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "Next step",
+    "reply": {
+     "summary": "With the seat off, disconnect the fuel hose at the petcock, keeping the engine cold and fuel tap OFF.",
+     "answer": "**Next, disconnect the fuel hose at the petcock.** Keep the engine cold and the fuel tap OFF.\n\n1. Put a fuel-safe container beneath the connection to catch fuel remaining in the hose.\n2. Move the retaining clip back along the hose, then gently twist and pull the hose off. Don’t pry against the petcock or pull hard on it.\n3. Keep the open hose clean and wipe up any spilled fuel. Leave the tank mounted for now.\n\nIf fuel keeps flowing or the hose is hardened and stuck, stop rather than forcing it. Work away from flames, sparks and heaters.\n\nThis is general disconnection guidance; tap **“Start a guided job” → “Take the engine out of the frame”** for the reviewed removal sequence.",
+     "next_step": {
+      "action": "With the engine cold and fuel tap OFF, disconnect the fuel hose at the petcock into a fuel-safe container.",
+      "purpose": "Separate the tank fuel supply before removing the tank.",
+      "stop_conditions": [
+       "Fuel continues flowing with the tap OFF.",
+       "Hose is stuck, cracked or hardened.",
+       "Engine is hot or ignition sources are nearby."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "How tight do the cylinder head bolts go, and in what order?",
+    "reply": {
+     "summary": "The five cylinder-head nuts tighten to 28 N·m (21 ft-lb), progressively in a crisscross pattern.",
+     "answer": "Your 2022 YZ125’s **five cylinder-head nuts take 28 N·m (21 ft-lb)** per Yamaha—not the studs threaded into the cylinder.\n\n1. With the engine cold, fit the head over its dowels with **new head O-rings and copper washers**; grease the O-rings before fitting.\n2. Start all five nuts by hand and snug them evenly.\n3. Tighten in several stages, crossing to the opposite side each time rather than working around the head in a circle. Finish with every nut at **28 N·m (21 ft-lb)** in that same crisscross pattern.\n\nIf a stud starts pulling out or a nut won’t tighten smoothly, stop and inspect the threads.",
+     "next_step": null,
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Tightening torques / Engine / Cylinder head nut (M8, qty 5): 28 N·m. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+    ]
+   },
+   {
+    "rider": "What do I need to measure on the piston and cylinder before I reuse them?",
+    "reply": {
+     "summary": "Measure the bore, piston skirt, piston-to-cylinder clearance and ring clearances before reuse. Inspect for scoring or cracks first—acceptable dimensions don’t make damaged parts reusable.",
+     "answer": "**Check the bore and piston for scoring, cracks and damaged ring grooves before measuring.** Clean off carbon first; measure the parts cool, using a bore gauge and outside micrometer—not calipers.\n\nFor your **2022 YZ125’s stock cylinder and piston**, Yamaha gives:\n\n| Check | How to measure | Yamaha’s figure |\n|---|---|---|\n| Cylinder bore | Measure front-to-back and side-to-side at three heights: six readings. Record all six. | Standard **54.000–54.014 mm**; wear limit **54.064 mm** |\n| Piston skirt diameter | Measure perpendicular to the piston pin, **17.5 mm (0.69 in)** above the skirt’s bottom edge. | Standard **53.957–53.972 mm** |\n| Piston-to-cylinder clearance | Subtract measured piston diameter from the largest bore reading. | **0.040–0.045 mm (0.0016–0.0018 in)** |\n| Ring side clearance | Clean the groove, fit the ring and measure between ring and groove with feeler gauges. | Standard **0.035–0.070 mm**; limit **0.100 mm** |\n| Ring end gap | Square the ring in the bottom of the bore using the piston, then measure the gap. | Wear limit **1.20 mm (0.0472 in)**—not a new-ring target |\n\nCompare the bore readings for taper and out-of-round. **Separate acceptance limits for those aren’t confirmed here**; Yamaha’s cylinder inspection section is where to verify them. Don’t approve a visibly uneven bore just because its largest diameter is below the wear limit.\n\nAlso check the piston pin: minimum outside diameter **14.975 mm**, maximum piston pin-bore diameter **15.040 mm**; pin clearance is **0.008–0.023 mm**, with a **0.065 mm** wear limit. Replace heat-discolored, grooved or damaged parts regardless of size.\n\nThese figures apply to stock parts; an aftermarket piston needs its maker’s measuring point and clearance. Yamaha’s piston and cylinder size marks must match.",
+     "next_step": {
+      "action": "Record all six bore readings, piston skirt diameter and piston/cylinder size marks before deciding on reuse.",
+      "purpose": "Establish clearance and identify uneven cylinder wear.",
+      "stop_conditions": [
+       "Cracks, deep scoring or damaged ring grooves.",
+       "Measurements outside the applicable specification.",
+       "Aftermarket piston without its maker’s clearance instructions."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Piston / Piston pin outside diameter limit: 14.975 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston pin bore inside diameter limit: 15.04 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston-to-cylinder clearance: 0.040–0.045 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Cylinder / Wear limit: 54.064 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston ring / Top ring / End gap limit: 1.2 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston ring / Top ring / Side clearance limit: 0.1 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston-pin-to-piston-pin-bore clearance: 0.008–0.023 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / Top ring / Ring side clearance: 0.035–0.070 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Cylinder / Bore: 54.000–54.014 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston / Measuring point (from piston skirt bottom): 17.5 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+    ]
+   },
+   {
+    "rider": "Ok, next step",
+    "reply": {
+     "summary": "Next, inspect the piston pin and small-end needle bearing before moving on to the power valve. Keep the crankcase opening covered so nothing falls inside.",
+     "answer": "**Next, check the piston pin and small-end needle bearing**—the bearing inside the connecting rod’s upper eye.\n\nWith the cylinder and piston removed:\n\n1. Keep clean, lint-free rags packed around the connecting rod to protect the crankcase opening.\n2. Inspect the pin for grooves, scoring or blue heat marks. Damage means replacement; heat marks also need the lubrication or fueling cause checked before running again.\n3. Inspect every bearing needle and the cage. **Pitting, flattened needles, heat discoloration or a cracked cage means replace the bearing.**\n4. Check the rod’s upper eye for scoring or heat damage. If damaged, pause the top-end rebuild for crankshaft assessment—don’t simply fit a new bearing.\n\nBag and label the inspected parts. Don’t approve the piston and cylinder for reuse until their actual measurements are recorded. After this inspection, the next operation is stripping and cleaning the cylinder’s YPVS power valve.",
+     "next_step": {
+      "action": "Inspect the piston pin, small-end bearing and connecting rod upper eye with the crankcase opening protected.",
+      "purpose": "Identify damage before reusing parts or proceeding to power-valve service.",
+      "stop_conditions": [
+       "Anything falls into the crankcase: recover it before continuing.",
+       "Connecting rod upper eye is scored or heat-damaged."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "What's the ring end gap spec, and how do I check it?",
+    "reply": {
+     "summary": "Yamaha’s top-ring end-gap wear limit is 1.20 mm (0.0472 in), not a new-ring target. Check it with the ring squared inside the bottom of the cylinder bore.",
+     "answer": "Yamaha’s **top-ring end-gap wear limit is 1.20 mm (0.0472 in)** for your 2022 YZ125. That is a replacement limit—not the gap to aim for with a new ring. A new-ring nominal gap isn’t confirmed here; for an aftermarket ring, use its maker’s target.\n\nWith the cylinder removed:\n\n1. Clean carbon from the ring and bore without scratching either. Don’t use a cracked, chipped or distorted ring.\n2. Insert the ring alone into the **bottom of the cylinder bore**, where wear is least.\n3. Use the piston crown to push the ring evenly into the bore so it sits square—not tilted.\n4. Slide feeler gauges between the ring ends. Find the blade thickness that fits with light drag; don’t force the ends apart.\n5. Record the gap. **Over 1.20 mm means replace the ring.** A gap below that limit alone doesn’t prove the ring, piston and bore are reusable.\n\nDon’t file the ring to that wear limit. If a new ring’s gap looks too tight, confirm the correct ring and its installation specification before modifying it.",
+     "next_step": {
+      "action": "Square the ring in the bottom of the bore with the piston crown and measure its end gap with feeler gauges.",
+      "purpose": "Compare the measured gap with Yamaha’s wear limit before deciding on reuse.",
+      "stop_conditions": [
+       "Ring is cracked, chipped or distorted.",
+       "Gap exceeds 1.20 mm.",
+       "New ring appears too tight and its installation specification is unknown."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Piston ring / Top ring / End gap limit: 1.2 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+    ]
+   },
+   {
+    "rider": "It's all back together. What's the break-in?",
+    "reply": {
+     "summary": "Break-in depends on what you replaced: about 30 minutes for piston/rings only, or about one hour for a new cylinder or crankshaft. Vary the load, then inspect and change the transmission oil.",
+     "answer": "**Piston/rings only: about 30 minutes at half throttle or less. New cylinder or crankshaft: about one hour total.** Follow the rebuild break-in sequence below—not prolonged idling.\n\nBefore starting, confirm transmission oil and coolant levels, filter sealing, and that the throttle snaps shut at both steering locks. **The exact break-in premix ratio isn't confirmed here; confirm it before firing the engine.**\n\n1. **Warm up outdoors:** run at idle or slightly above for one to two minutes, until it responds cleanly with the choke off. Check for leaks.\n2. **Piston, rings or gears only:** ride about **30 minutes at half throttle or less**, varying speed and load. Avoid lugging, hard revving and sustained steady throttle.\n3. **New cylinder or crankshaft:** ride about **20 minutes at half throttle or less**, stop to check for leaks and loose hardware, then ride about **40 more minutes at three-quarter throttle or less**.\n4. **Afterward:** inspect for leaks and loose fasteners, check the specified torque-check points, controls, chain and spokes, then change and inspect the transmission oil. Metal chips mean stop and investigate.\n\n**Stop immediately for knocking, pinging, steam, fluid loss, sudden power loss or the engine tightening up.** Never remove a hot radiator cap.\n\nTap **“Start a guided job” → “First start, break-in, premix and jetting checks after an engine rebuild”** for the pre-start checks and staged procedure.",
+     "next_step": {
+      "action": "Open the first-start guided job and complete its pre-start checks, including confirmation of break-in premix.",
+      "purpose": "Verify readiness before starting the rebuilt engine and select the appropriate break-in branch.",
+      "stop_conditions": [
+       "Break-in premix remains unconfirmed.",
+       "Throttle does not snap shut at both steering locks.",
+       "Fuel, coolant or transmission oil leaks.",
+       "Knocking, pinging, steam, sudden power loss or engine tightening."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   }
+  ]
+ },
+ {
+  "id": "rb-yz125-2025",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ125",
+   "model_year": 2025,
+   "configuration": {}
+  },
+  "manual": {
+   "publication": "D68-2819U-10",
+   "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D68-2819U-10_02.pdf",
+   "type": "Yamaha Owner's Service Manual"
+  },
+  "manual_text": "/tmp/claude-0/-home-claude/6efe62a0-cd5f-5b6c-9409-a557e03a6696/scratchpad/osm/D68-2819U-10.txt",
+  "checks": [
+   "every step, spec and order matches the Owner's Service Manual for this exact year",
+   "one step (or a small group) per reply, never the whole manual at once",
+   "plain words a home mechanic can follow, with what to check before moving on",
+   "torques, clearances and limits are the manual's, in its units",
+   "says when a special tool or a measurement decides whether a part is reused"
+  ],
+  "turns": [
+   {
+    "rider": "I want to rebuild the motor on my 2025 YZ125. Can you walk me through it step by step?",
+    "reply": {
+     "summary": "Yes—use the guided engine-removal, top-end, bottom-end, refit and first-start jobs, in that order. A full rebuild needs inspection and measurement, not just new parts.",
+     "answer": "Yes—I can walk you through a **full engine rebuild step by step in this chat**. Tap **“Start a guided job” above the message box**, beginning with **“Take the engine out of the frame.”** Once it starts, say **“next”** to advance.\n\nThis is the overall job plan—not an executable teardown or assembly procedure:\n\n1. **Take the engine out of the frame.** Drain fluids, disconnect the carburetor, exhaust, cooling and electrical connections, then remove the mounting hardware in the guided order.\n2. **Top end: tear down, measure and rebuild the cylinder, piston and power valve.** Inspect the cylinder plating, measure piston clearance and ring condition, and check the piston pin, small-end bearing and YPVS. Keep removed parts organized for inspection.\n3. **Bottom end: split the cases and rebuild the crankshaft, gearbox and clutch.** Remove the external assemblies, split the cases with the proper tools, and inspect the crankshaft, bearings, gearbox and shift mechanism before deciding what needs replacing.\n4. **Put the engine back in the frame and reconnect everything.** Follow the assembly checks, mounting torques, reconnections and fluid-fill steps.\n5. **First start, break-in, premix and jetting checks after an engine rebuild.** Complete the pre-start checks and staged break-in before loading the engine hard.\n\n**Have ready:** a clean bench, labeled trays, torque wrenches, micrometers and a bore gauge, plus YZ125-compatible flywheel puller, clutch holder, case splitter and crankshaft installation tools. Plan for gaskets, seals, locking hardware and inspection-selected replacement parts; confirm the piston size before ordering.\n\nDon’t hammer the crank into the bearings or pull the cases together with their bolts. Start with the engine completely cool and clean the bike before opening anything.",
+     "next_step": {
+      "action": "Tap “Start a guided job” and select “Take the engine out of the frame.”",
+      "purpose": "Begin the source-reviewed removal procedure before opening the engine.",
+      "stop_conditions": [
+       "Engine or cooling system is still hot.",
+       "The bike or engine cannot be supported securely.",
+       "A required special tool is unavailable."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "Ok, the bike is clean and on the stand. What's the first thing I do?",
+    "reply": {
+     "summary": "With the engine completely cold, turn the fuel cock OFF before disconnecting anything.",
+     "answer": "**First, make sure the engine is completely cold and turn the fuel cock OFF.** Leave the fuel hose connected for now—fuel remains in the carburetor even with the tap shut.\n\nThen tap **“Start a guided job”** above the message box and select **“Take the engine out of the frame.”** That starts the removal sequence, including draining the fluids and disconnecting everything in order. Have drain pans, a fuel-safe container and labeled hardware trays ready; don’t loosen engine mounts yet.",
+     "next_step": {
+      "action": "With the engine cold, turn the fuel cock OFF and leave the fuel hose connected.",
+      "purpose": "Isolate the tank's fuel supply before beginning engine removal.",
+      "stop_conditions": [
+       "Fuel is leaking: resolve the leak before continuing.",
+       "The engine or cooling system is still hot: let it cool completely."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "Done. What's next?",
+    "reply": {
+     "summary": "Open the guided engine-removal job next; leave hoses and engine mounts connected until its removal sequence starts.",
+     "answer": "**Next, tap “Start a guided job” above the message box and select “Take the engine out of the frame.”** Once it opens, say **“next”** there to begin the removal steps.\n\nHave drain pans, a fuel-safe container and labeled hardware trays beside the bike. Leave hoses and engine mounts connected for now—the exact removal sequence isn’t confirmed here, and I won’t guess it.",
+     "next_step": {
+      "action": "Tap “Start a guided job” and select “Take the engine out of the frame.”",
+      "purpose": "Load the reviewed removal sequence before draining fluids or disconnecting components.",
+      "stop_conditions": [
+       "Fuel is leaking.",
+       "The engine is still hot.",
+       "The bike is not securely supported."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "Next step",
+    "reply": {
+     "summary": "Remove the seat next for access; leave the fuel tank, hoses and engine mounts connected.",
+     "answer": "**Next, remove the seat for access to the fuel tank mounts.** With the engine cold and fuel tap already OFF, undo the seat’s retaining fasteners and lift the seat clear without forcing it. Keep its hardware in a labeled tray.\n\nThis is general workshop access prep—the exact engine-removal sequence isn’t confirmed here. Leave the tank, fuel hose and engine mounts connected for now. If the seat won’t release easily, stop rather than prying against the plastics.",
+     "next_step": {
+      "action": "Remove the seat and label its retaining hardware.",
+      "purpose": "Expose the fuel-tank mounting area without opening fuel or cooling connections.",
+      "stop_conditions": [
+       "Seat remains caught after its retaining fasteners are removed.",
+       "Bike is unstable on its stand.",
+       "Fuel leakage is present."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "How tight do the cylinder head bolts go, and in what order?",
+    "reply": {
+     "summary": "The five cylinder-head nuts tighten to 28 N·m (21 ft-lb), in stages using a crisscross pattern.",
+     "answer": "Yamaha specifies **28 N·m (21 ft-lb)** for the **five cylinder-head nuts** on your 2025 YZ125—not the studs threaded into the cylinder.\n\nWith the engine cold, seat all five nuts lightly, then tighten progressively in a **crisscross pattern**, alternating across the head rather than going clockwise. Don’t take one nut straight to full torque; finish with a crisscross pass checking all five at 28 N·m.\n\nIf the head has been removed, fit new head O-rings and copper washers before tightening.",
+     "next_step": null,
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Tightening torques / Engine / Cylinder head nut (M8, qty 5): 28 N·m. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+    ]
+   },
+   {
+    "rider": "What do I need to measure on the piston and cylinder before I reuse them?",
+    "reply": {
+     "summary": "Measure the bore, piston skirt, piston-to-cylinder clearance, ring clearances and piston pin fit. Passing the dimensions alone does not make cracked, scored or heat-damaged parts reusable.",
+     "answer": "**Measure the bore and piston separately, then calculate their clearance—don’t judge reuse by appearance or ring gap alone.** For your 2025 YZ125, Yamaha gives:\n\n| Check | How to measure | Yamaha specification |\n|---|---|---|\n| Cylinder bore | Bore gauge, front-to-back and side-to-side at three heights; record all six readings | Standard **54.000–54.014 mm** (2.1260–2.1265 in); wear limit **54.064 mm** (2.1285 in) |\n| Piston skirt diameter | Outside micrometer, perpendicular to the pin, **17.5 mm** (0.69 in) above the skirt’s bottom edge | **53.957–53.972 mm** (2.1243–2.1249 in) |\n| Piston-to-cylinder clearance | Largest bore reading minus measured skirt diameter | **0.040–0.045 mm** (0.0016–0.0018 in) |\n| Ring side clearance | Clean the groove, fit the ring and measure between ring and groove with feeler gauges | Standard **0.035–0.070 mm** (0.0014–0.0028 in); limit **0.100 mm** (0.0039 in) |\n| Ring end gap | Square the ring in the bottom of the bore with the piston crown; measure its gap | Wear limit **1.20 mm** (0.0472 in)—not a new-ring target |\n| Piston pin outside diameter | Micrometer across its bearing surfaces | Minimum **14.975 mm** (0.5896 in) |\n| Piston’s pin-bore diameter | Suitable small-bore measuring equipment | Maximum **15.040 mm** (0.5921 in) |\n| Pin-to-piston clearance | Pin-bore diameter minus pin diameter | **0.008–0.023 mm** (0.0003–0.0009 in) |\n\nThe six cylinder readings also reveal taper and out-of-round; **their exact acceptance limits aren’t confirmed here**, so don’t invent a tolerance or approve reuse from the largest reading alone.\n\nInspect for piston cracks, vertical scoring, damaged plating, worn ring grooves and blue or grooved pin surfaces. **Don’t reuse damaged parts just because the measurements pass.** Check the small-end bearing for pitted or flattened needles and cage damage. Match the piston’s size grade to the cylinder’s letter.\n\nYou’ll need a bore gauge, outside micrometer and feeler gauges—not just calipers. If you lack the measuring equipment, have an engine shop measure the cleaned parts before ordering replacements. The guided **“Top end: tear down, measure and rebuild the cylinder, piston and power valve”** job can walk you through the checks; tap **“Start a guided job”** above the message box.",
+     "next_step": {
+      "action": "Record six cylinder-bore readings and the piston skirt diameter at Yamaha’s specified measuring point.",
+      "purpose": "Calculate piston-to-cylinder clearance and identify uneven cylinder wear before deciding on reuse.",
+      "stop_conditions": [
+       "Cracks, vertical scoring or damaged cylinder plating are found.",
+       "Accurate bore-gauge and micrometer measurements are unavailable."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Cylinder / Bore: 54.000–54.014 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Cylinder / Wear limit: 54.064 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Measuring point (from piston skirt bottom): 17.5 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston / Piston-to-cylinder clearance: 0.040–0.045 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / Top ring / Ring side clearance: 0.035–0.070 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / Top ring / Side clearance limit: 0.1 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston ring / Top ring / End gap limit: 1.2 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston pin outside diameter limit: 14.975 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston pin bore inside diameter limit: 15.04 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston-pin-to-piston-pin-bore clearance: 0.008–0.023 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+    ]
+   },
+   {
+    "rider": "Ok, next step",
+    "reply": {
+     "summary": "Next, measure the cylinder bore in six places and record every reading before deciding whether it can be reused.",
+     "answer": "**Next, measure the cylinder bore—don’t approve reuse until we have the actual readings.** With the removed cylinder clean, dry and at room temperature:\n\n1. Calibrate a dial bore gauge against an outside micrometer. Calipers aren’t accurate enough for this check.\n2. Measure **front-to-back and side-to-side at three heights** in the bore: six readings total. Keep the gauge contacts on intact cylinder wall, not in a port opening.\n3. Gently rock the gauge through square at each location to find the true diameter. Record each reading and its location; don’t average them.\n\nYamaha specifies a standard bore of **54.000–54.014 mm (2.1260–2.1265 in)** and a wear limit of **54.064 mm (2.1285 in)**. Keep the largest reading for the piston-clearance calculation, but retain all six to identify uneven wear.\n\n**Stop if you find vertical scoring or damaged plating**—passing the diameter check doesn’t make that cylinder reusable. Send the six readings before moving on to the piston measurement.",
+     "next_step": {
+      "action": "Measure and record the cylinder bore in two directions at three heights.",
+      "purpose": "Establish bore size and uneven wear before calculating piston clearance.",
+      "stop_conditions": [
+       "Vertical scoring or damaged cylinder plating is found.",
+       "A calibrated bore gauge and micrometer are unavailable."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Cylinder / Bore: 54.000–54.014 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Cylinder / Wear limit: 54.064 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+    ]
+   },
+   {
+    "rider": "What's the ring end gap spec, and how do I check it?",
+    "reply": {
+     "summary": "Yamaha’s top-ring end-gap wear limit is 1.2 mm (0.0472 in), not a new-ring target. Check it with the ring squared in the bottom of the cylinder bore.",
+     "answer": "Yamaha gives a **top-ring end-gap wear limit of 1.2 mm (0.0472 in)** for your 2025 YZ125. That’s the replacement limit—not the target for a new ring. The new-ring end-gap range isn’t confirmed here.\n\n1. Clean the removed ring and cylinder bore without scratching them. Check the ring for cracks or damage first.\n2. Place the ring into the **bottom of the cylinder bore, where wear is least**.\n3. Use the piston crown to push the ring evenly into the bore so it sits square—not tilted.\n4. Slide feeler gauges between the ring ends. Find the blade or stack that fits with light drag, without spreading the ends, and record the gap.\n\n**Replace the ring if the gap exceeds 1.2 mm or it’s damaged.** Don’t file a new ring to that wear limit. An acceptable gap alone doesn’t approve the piston and cylinder for reuse; their condition and measured clearance still matter.",
+     "next_step": {
+      "action": "Square the ring in the bottom of the bore and measure its end gap with feeler gauges.",
+      "purpose": "Compare the measured gap with Yamaha’s wear limit.",
+      "stop_conditions": [
+       "Ring is cracked or damaged.",
+       "Cylinder has vertical scoring or damaged plating."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Piston ring / Top ring / End gap limit: 1.2 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+    ]
+   },
+   {
+    "rider": "It's all back together. What's the break-in?",
+    "reply": {
+     "summary": "Use a staged, varying-load break-in: about 30 minutes for piston/rings only, or about one hour if the cylinder or crankshaft is new. Confirm the break-in premix ratio before starting.",
+     "answer": "**Break it in under light, varying load—not prolonged idling or hard revving.** The guided rebuild procedure gives these two routes:\n\n- **Piston, rings or gears replaced only:** about **30 minutes at half throttle or less**, varying speed and load.\n- **New cylinder or crankshaft:** about **20 minutes at half throttle or less**, stop for a leak/fastener check, then about **40 minutes at three-quarter throttle or less**. Don’t lug it or hold steady high rpm.\n\nBefore starting, confirm transmission oil and coolant levels, filter sealing, and that the throttle snaps shut with the bars turned both ways. **The exact break-in premix ratio isn’t confirmed here**; verify that in Yamaha’s break-in instructions before fueling. Yamaha specifies **YAMALUBE 2R** premix oil.\n\nStart outdoors and warm it briefly until it responds cleanly with the choke off, then ride gently. **Stop immediately for knocking, pinging, new mechanical noise, leaks, steam or sudden power loss.** Let it cool fully before opening the radiator.\n\nAfterward, check fasteners, cables, chain and spokes, then change and inspect the transmission oil before normal riding. Metal chips need investigation.\n\nTap **“Start a guided job” → “First start, break-in, premix and jetting checks after an engine rebuild”** for the step-by-step checks.",
+     "next_step": {
+      "action": "Complete the guided first-start prechecks and confirm the break-in premix ratio before starting.",
+      "purpose": "Establish safe lubrication, fluid levels and control operation before loading the rebuilt engine.",
+      "stop_conditions": [
+       "Break-in premix ratio remains unconfirmed.",
+       "Throttle does not snap shut at either steering lock.",
+       "Fuel, coolant or transmission oil leakage is present.",
+       "Knocking, pinging, steam or new mechanical noise occurs."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Engine oil / Engine oil: YAMALUBE 2R. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rb-yz250-2023",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ250",
+   "model_year": 2023,
+   "configuration": {}
+  },
+  "manual": {
+   "publication": "BCR-2819U-11",
+   "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BCR-2819U-11_02.pdf",
+   "type": "Yamaha Owner's Service Manual"
+  },
+  "manual_text": "/tmp/claude-0/-home-claude/6efe62a0-cd5f-5b6c-9409-a557e03a6696/scratchpad/osm/BCR-2819U-11.txt",
+  "checks": [
+   "every step, spec and order matches the Owner's Service Manual for this exact year",
+   "one step (or a small group) per reply, never the whole manual at once",
+   "plain words a home mechanic can follow, with what to check before moving on",
+   "torques, clearances and limits are the manual's, in its units",
+   "says when a special tool or a measurement decides whether a part is reused"
+  ],
+  "turns": [
+   {
+    "rider": "I want to rebuild the motor on my 2023 YZ250. Can you walk me through it step by step?",
+    "reply": {
+     "summary": "Yes—your 2023 YZ250 has guided jobs covering engine removal, top end, bottom end, refitting and first start. Start with engine removal and work through them in that order.",
+     "answer": "Yes—we can walk through the rebuild step by step here. Tap **“Start a guided job” above the message box**, then choose **“Take the engine out of the frame.”** Once it is running, say **“next”** to advance.\n\nHere is the full rebuild plan—not an assembly procedure to skip ahead through:\n\n1. **Remove the engine.** Start with a clean, fully cooled bike securely supported; the guided job covers draining, disconnections and mounting-hardware order.\n2. **Top end and power valves.** Strip and inspect the piston, cylinder, head and YPVS parts. Keep each valve component organized by position; measure the cylinder before choosing the replacement piston.\n3. **Bottom end.** Remove the ignition, clutch and primary drive; split the cases; inspect the crankshaft, gearbox and shift mechanism; renew bearings and seals as required. Reassemble the bottom end before completing top-end assembly.\n4. **Refit and reconnect.** Install the engine, carburetor, exhaust and cooling connections, then fill the fluids.\n5. **First start and break-in.** Follow the separate pre-start, premix, starting, staged break-in and post-break-in checks.\n\n**Have ready:** a clean bench, labeled trays, torque wrenches, the correct flywheel puller and clutch-holding tool, case splitter, crankshaft installation tool, and suitable measuring equipment. Confirm exact tool fit before buying. Plan on gaskets, seals, piston-pin clips and other required replacement hardware; choose the piston, crank and bearings after inspection.\n\nDo not hammer the crankshaft into place or pull misaligned cases together with their bolts. We’ll use each guided job’s sequence and checks—not just a torque list.",
+     "next_step": {
+      "action": "Tap “Start a guided job” and select “Take the engine out of the frame.”",
+      "purpose": "Begin with the reviewed removal sequence before opening the engine.",
+      "stop_conditions": [
+       "Engine or cooling system is still hot.",
+       "Bike cannot be supported securely.",
+       "Fuel leakage is present."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "Ok, the bike is clean and on the stand. What's the first thing I do?",
+    "reply": {
+     "summary": "With the engine fully cold, turn the fuel cock OFF, then remove the seat to begin engine-removal access.",
+     "answer": "**Turn the fuel cock OFF with the engine fully cold.** Then remove the seat retaining bolt, lift the seat off, and put the bolt in a labeled tray.\n\nLeave the fuel hose connected for now—we’ll remove the tank as a separate step so fuel stays contained. Don’t open the radiator cap while the engine is warm.\n\nTap **“Start a guided job” → “Take the engine out of the frame”** to follow the removal sequence here.",
+     "next_step": {
+      "action": "With the engine cold and fuel cock OFF, remove the seat and label its retaining bolt.",
+      "purpose": "Expose access for the next engine-removal step without opening the fuel system.",
+      "stop_conditions": [
+       "Bike is unstable on the stand.",
+       "Fuel is leaking."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "Done. What's next?",
+    "reply": {
+     "summary": "Next, disconnect the tank’s fuel hose with the engine cold and fuel cock OFF. Leave the tank mounts in place for now.",
+     "answer": "**Next, disconnect the fuel hose from the fuel cock.** This is a general workshop step before removing the tank.\n\n1. Confirm the engine is fully cold and the fuel cock is **OFF**. Work away from flames, sparks and heaters.\n2. Put a gasoline-safe catch container beneath the connection—some fuel remains in the hose.\n3. Move the hose clamp back, then gently work the hose off the fuel-cock outlet. Don’t yank it or lever against the fitting.\n4. Protect the open hose and outlet with clean, fuel-resistant caps to keep dirt out.\n\n**If fuel keeps flowing rather than stopping after the residual drains, stop—the fuel cock may not be shutting off.** Leave the tank mounting bolts alone for this step.",
+     "next_step": {
+      "action": "With the engine cold and fuel cock OFF, disconnect and protect the tank fuel-hose connection.",
+      "purpose": "Isolate the fuel connection before tank removal.",
+      "stop_conditions": [
+       "Engine or exhaust is still hot.",
+       "Fuel continues flowing with the fuel cock OFF.",
+       "Hose is stuck or the outlet fitting starts moving."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "Next step",
+    "reply": {
+     "summary": "Next, remove the fuel tank with the fuel cock OFF and the disconnected fuel hose protected.",
+     "answer": "**Next, remove the fuel tank.** With the seat and fuel hose disconnected:\n\n1. Remove the radiator-shroud fasteners needed to free the tank. Leave the radiator mounting bolts alone.\n2. Note the tank vent-hose routing, then free the hose so it won’t snag.\n3. Remove the tank retaining hardware, keeping track of its washers, collars and rubber mounts.\n4. Lift the tank gently, checking underneath for anything still attached. If it catches, stop and find the attachment—don’t force it.\n5. Set it upright on a stable surface away from your work area, heat and sparks. Keep the cap installed and the fuel cock OFF; don’t rest it on the fuel-cock outlet.\n\nThis is the general tank-removal step. The **“Take the engine out of the frame”** guided job provides the complete removal sequence; tap **“Start a guided job”** above the message box to open it.",
+     "next_step": {
+      "action": "Free the shrouds and vent hose, remove the tank retaining hardware, and lift the tank off gently.",
+      "purpose": "Clear engine access before draining fluids and disconnecting engine components.",
+      "stop_conditions": [
+       "Fuel leaks or continues flowing.",
+       "The tank catches on an unidentified attachment.",
+       "The bike becomes unstable on the stand."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "How tight do the cylinder head bolts go, and in what order?",
+    "reply": {
+     "summary": "The six cylinder-head nuts tighten to 25 N·m (18 ft-lb), progressively in a crisscross pattern.",
+     "answer": "Your 2023 YZ250’s **six cylinder-head nuts—not the studs—tighten to 25 N·m (18 ft-lb)** per Yamaha.\n\nFor reassembly:\n1. Fit **new head O-rings and six new copper washers**; grease the O-rings with lithium-soap grease.\n2. Seat the head on its dowels and start all six nuts by hand.\n3. Tighten progressively in a **crisscross pattern**, alternating across the head rather than going around in a circle. Bring all six up evenly before the final torque pass.\n\nThat torque is for the stock head and hardware; aftermarket parts may require their maker’s instructions.",
+     "next_step": null,
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Tightening torques / Engine / Cylinder head nut (M8, qty 6): 25 N·m. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+    ]
+   },
+   {
+    "rider": "What do I need to measure on the piston and cylinder before I reuse them?",
+    "reply": {
+     "summary": "Measure the bore in six places, the piston skirt, actual piston-to-cylinder clearance, both rings and the piston pin fit. Passing the bore wear limit alone does not make the piston and cylinder reusable.",
+     "answer": "**The deciding measurement is actual bore minus actual piston diameter—not how clean they look.** These figures are Yamaha’s for the stock 2023 YZ250 piston and cylinder; an aftermarket piston needs its maker’s clearance instructions.\n\n1. **Inspect first.** Clean off carbon without scratching anything. Look for vertical scoring, damaged plating, cracks, worn ring grooves and heat discoloration. Measurements do not override physical damage.\n2. **Measure the cylinder with a dial bore gauge.** Measure front-to-back and side-to-side at three heights—six readings total. Record them all; use the **largest bore** for the clearance calculation. Differences reveal taper and out-of-round.\n3. **Measure the piston with an outside micrometer**, across the skirt perpendicular to the pin, **17.5 mm (0.69 in) above the skirt bottom**. Calipers are not accurate enough for this decision.\n\n| Check | Yamaha specification |\n|---|---|\n| Standard cylinder bore | **66.400–66.414 mm** |\n| Cylinder bore wear limit | **66.464 mm maximum** |\n| Standard piston skirt diameter | **66.352–66.367 mm**, depending on grade |\n| Largest bore minus measured piston diameter | **0.045–0.050 mm** specified clearance |\n| Top and second ring side clearance | **0.030–0.065 mm**; **0.100 mm maximum** |\n| Top and second ring end gap | **0.95 mm maximum**, each |\n\nCheck side clearance with each ring in its cleaned groove. For end gap, square each ring near the bottom of the bore with the piston crown, then measure with feeler gauges. **The end-gap maximum is a wear limit, not a new-ring fitting target.**\n\nAlso check the pin and small-end bearing: pin diameter must not be below **17.975 mm**, piston pin bore must not exceed **18.040 mm**, and specified pin-to-bore clearance is **0.004–0.020 mm**. Reject a grooved or blue pin and a heat-discolored bearing.\n\nSeparate taper/out-of-round limits and a piston-to-cylinder wear-clearance limit aren’t confirmed here—don’t invent an allowance beyond the specified clearance. If you lack the bore gauge and micrometer, have a machine shop measure these parts before buying replacements.\n\nFor the measurement diagrams and sequence, tap **“Start a guided job” → “Rebuild the stock two-stroke top end and cylinder power valves — prepared engine.”**",
+     "next_step": {
+      "action": "Record all six bore readings and the piston skirt diameter before deciding on reuse.",
+      "purpose": "Calculate actual clearance and identify uneven cylinder wear.",
+      "stop_conditions": [
+       "Cracks, damaged plating or significant scoring are found.",
+       "Measurements exceed a wear limit or fall outside specified assembly clearance.",
+       "Suitable measuring equipment is unavailable."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Cylinder / Bore: 66.400–66.414 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Cylinder / Wear limit: 66.464 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Measuring point (from piston skirt bottom): 17.5 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston / Piston-to-cylinder clearance: 0.045–0.050 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / Top ring / Ring side clearance: 0.030–0.065 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / 2nd ring / Ring side clearance: 0.030–0.065 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / Top ring / Side clearance limit: 0.1 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston ring / 2nd ring / Side clearance limit: 0.1 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston ring / Top ring / End gap limit: 0.95 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston ring / 2nd ring / End gap limit: 0.95 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston pin outside diameter limit: 17.975 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston pin bore inside diameter limit: 18.04 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston-pin-to-piston-pin-bore clearance: 0.004–0.020 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+    ]
+   },
+   {
+    "rider": "Ok, next step",
+    "reply": {
+     "summary": "Next is cylinder inspection and bore measurement, provided the cylinder is already removed. Record six bore readings before deciding whether to reuse it.",
+     "answer": "**Next, inspect and measure the cylinder—if it is already off the engine.** We haven’t confirmed that teardown is complete, so don’t skip ahead from tank removal.\n\nFor the removed cylinder:\n1. Keep the open crankcase covered with a clean, lint-free rag.\n2. Inspect the bore for vertical scoring, damaged plating and cracks. Damage rules out simply approving it by diameter.\n3. Using a calibrated bore gauge, measure front-to-back and side-to-side at the three heights shown in the guided job’s diagram—**six readings total**. Record each reading; don’t substitute guessed measuring heights.\n4. Yamaha’s standard bore is **66.400–66.414 mm**, with a **66.464 mm maximum wear limit**. Keep the largest reading for the piston-clearance calculation; being below the wear limit alone doesn’t establish reuse.\n\nTap **“Start a guided job” → “Rebuild the stock two-stroke top end and cylinder power valves — prepared engine”** for the measurement sequence and diagrams. Have a bore gauge and outside micrometer ready.\n\n**Are the cylinder and piston removed now, or are you still at engine removal?**",
+     "next_step": {
+      "action": "Confirm the teardown stage; if the cylinder is removed, inspect it and record six bore readings at the illustrated positions.",
+      "purpose": "Establish cylinder condition before calculating piston clearance or approving reuse.",
+      "stop_conditions": [
+       "Cracks, damaged plating or significant scoring are found.",
+       "Bore exceeds the published wear limit.",
+       "Measuring equipment or the measurement-position diagram is unavailable."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Cylinder / Bore: 66.400–66.414 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Cylinder / Wear limit: 66.464 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+    ]
+   },
+   {
+    "rider": "What's the ring end gap spec, and how do I check it?",
+    "reply": {
+     "summary": "Yamaha’s ring end-gap limit is 0.95 mm (0.0374 in) for both rings. That is the maximum wear limit—not a new-ring fitting target.",
+     "answer": "For your stock 2023 YZ250, Yamaha gives **0.95 mm (0.0374 in) maximum end gap for both the top and second rings**. That is a **wear limit**, not the gap to file new rings to; a new-ring minimum isn’t confirmed here.\n\nWith the cylinder removed:\n1. Clean the bore and rings without scratching them. Check each ring for cracks or damage.\n2. Put **one ring at a time** into the cylinder near the bottom of the bore, where wear is lowest.\n3. Use the piston crown to gently push the ring square in the bore—its edge must sit level, not tilted.\n4. Slide feeler gauges between the ring ends. Use the blade that fits with light drag; don’t force the ends apart.\n5. Record the top and second-ring gaps separately. **Replace any ring exceeding 0.95 mm**, and reject damaged rings regardless of gap.\n\nDon’t file a new ring based on that maximum. If a replacement ring’s gap appears too tight, stop and verify its maker’s installation requirement. Passing this check alone does not approve the piston and cylinder for reuse.",
+     "next_step": {
+      "action": "Square each ring near the bottom of the removed cylinder and record its end gap with feeler gauges.",
+      "purpose": "Compare both rings against Yamaha’s maximum wear limit.",
+      "stop_conditions": [
+       "A ring is cracked or damaged.",
+       "Either ring exceeds 0.95 mm end gap.",
+       "A replacement ring has insufficient gap or its installation requirement is unknown."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Piston ring / 2nd ring / End gap limit: 0.95 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston ring / Top ring / End gap limit: 0.95 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+    ]
+   },
+   {
+    "rider": "It's all back together. What's the break-in?",
+    "reply": {
+     "summary": "For piston/rings only, use about 30 minutes of varied riding at half throttle or less. A new cylinder or crankshaft needs the longer, roughly one-hour sequence.",
+     "answer": "**Piston/rings only: about 30 minutes at half throttle or less, varying the load.** If you also replaced the cylinder or crankshaft, use **20 minutes at half throttle or less, check for leaks and loose hardware, then 40 minutes at three-quarter throttle or less**.\n\n1. **Before starting:** confirm transmission oil and coolant levels, filter sealing, and that the throttle snaps shut with the bars turned both ways. The exact break-in premix ratio isn't confirmed here—verify it in the guided job before fueling; don't assume the normal riding ratio applies.\n2. Start outdoors and warm it briefly, about **1–2 minutes**, until it responds cleanly with the choke off. Check for leaks; don't leave it idling on the stand for the break-in.\n3. Ride the appropriate sequence above. Alternate gentle acceleration and easing off; avoid constant-speed running, lugging, hard revving and full throttle.\n4. Afterward, let it cool fully. Check coolant, leaks, controls, chain and the specified fastener check points. Change the transmission oil and inspect what drains out before normal riding.\n\n**Stop immediately for knocking/pinging, new mechanical noise, steam, fluid leaks or sudden power loss.** Never open the radiator hot.\n\nTap **“Start a guided job” → “First start, break-in, premix and jetting checks after an engine rebuild.”** Have a premix measuring jug, timer and torque wrench ready.",
+     "next_step": {
+      "action": "Open the first-start guided job and confirm pre-start checks and break-in premix before starting.",
+      "purpose": "Begin the correct break-in branch without assuming assembly checks are complete.",
+      "stop_conditions": [
+       "Break-in premix requirement remains unverified.",
+       "Throttle fails to snap shut or fluids leak.",
+       "Knocking, new mechanical noise, steam or sudden power loss occurs."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   }
+  ]
+ },
+ {
+  "id": "rb-yz250-2025",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ250",
+   "model_year": 2025,
+   "configuration": {}
+  },
+  "manual": {
+   "publication": "D69-2819U-10",
+   "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D69-2819U-10_02.pdf",
+   "type": "Yamaha Owner's Service Manual"
+  },
+  "manual_text": "/tmp/claude-0/-home-claude/6efe62a0-cd5f-5b6c-9409-a557e03a6696/scratchpad/osm/D69-2819U-10.txt",
+  "checks": [
+   "every step, spec and order matches the Owner's Service Manual for this exact year",
+   "one step (or a small group) per reply, never the whole manual at once",
+   "plain words a home mechanic can follow, with what to check before moving on",
+   "torques, clearances and limits are the manual's, in its units",
+   "says when a special tool or a measurement decides whether a part is reused"
+  ],
+  "turns": [
+   {
+    "rider": "I want to rebuild the motor on my 2025 YZ250. Can you walk me through it step by step?",
+    "reply": {
+     "summary": "Yes—your 2025 YZ250 has guided jobs covering engine removal, top end, bottom end, refitting and first start. Start with engine removal and work through them in order.",
+     "answer": "Yes—I can walk you through a **complete engine rebuild**, step by step. Tap **“Start a guided job” above the message box**, then choose **“Take the engine out of the frame.”** Once it’s running, say **“next”** to move through the steps.\n\nHere’s the job order—not a substitute for the detailed assembly steps:\n\n1. **Take the engine out of the frame:** start with the engine cold, drain fluids, disconnect the intake, exhaust and controls, then remove the mounting hardware in order.\n2. **Top end and power valves:** remove the head, cylinder and piston; inspect and measure the cylinder, piston, rings, pin and YPVS parts. Final reassembly comes after the bottom end.\n3. **Bottom end:** remove the ignition, clutch and drive components; split the cases; inspect the crankshaft, gearbox and shift mechanism; renew bearings and seals as needed, then reassemble.\n4. **Finish the top end:** fit the measured, matched parts and check power-valve operation.\n5. **Put the engine back in the frame and reconnect everything.**\n6. **First start, break-in, premix and jetting checks:** complete the pre-start checks before running it.\n\nCommon workshop equipment includes torque wrenches, measuring tools, the correct flywheel puller, clutch holder, case splitter and crankshaft installer. Confirm exact tool fitment before buying; don’t hammer the crank through the bearings or pull the cases together with bolts.\n\nHave gasket and seal kits ready, but choose piston sizing and crankshaft replacements from inspection results—not guesswork.",
+     "next_step": {
+      "action": "Tap “Start a guided job” and select “Take the engine out of the frame.”",
+      "purpose": "Begin the source-reviewed removal sequence before opening the engine.",
+      "stop_conditions": [
+       "Do not drain or disconnect hot cooling or fuel systems.",
+       "Pause if the fitted components differ from the stock operation or required tools are unavailable."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "Ok, the bike is clean and on the stand. What's the first thing I do?",
+    "reply": {
+     "summary": "With the engine completely cold, turn the fuel tap OFF before starting engine removal.",
+     "answer": "First, **make sure the engine is completely cold, then turn the fuel tap OFF**. Leave the fuel hose and radiator cap connected for now, and make sure the bike cannot tip or roll on the stand.\n\nTap **“Start a guided job” above the message box** and choose **“Take the engine out of the frame.”** That job walks through draining, disconnections and mounting hardware in order. Have drain pans and labeled containers for the hardware ready; once the job is running, say **“next.”**",
+     "next_step": {
+      "action": "With the engine cold, turn the fuel tap OFF.",
+      "purpose": "Prepare safely for the guided engine-removal sequence.",
+      "stop_conditions": [
+       "Do not disconnect fuel lines or open the cooling system while hot.",
+       "Do not begin removal if the bike is unstable on the stand."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "Done. What's next?",
+    "reply": {
+     "summary": "Next, remove the seat for access, leaving the tank and fuel hose connected.",
+     "answer": "Next, **remove the seat**. Leave the fuel tank and fuel hose connected for now.\n\nGeneral workshop method:\n1. Remove the seat retaining bolt and put it in a labeled tray.\n2. Lift the rear of the seat slightly and slide it rearward to release the front locating tab—don’t force it if it catches.\n3. Set the seat aside and keep dirt out of the exposed airbox.\n\nFor reassembly, Yamaha specifies **11 N·m (8.1 ft-lb)** for the seat bolt.\n\nThe guided **“Take the engine out of the frame”** job covers the exact removal sequence; tap **“Start a guided job”** above the message box to run it.",
+     "next_step": {
+      "action": "Remove the seat and store its retaining bolt in a labeled tray.",
+      "purpose": "Expose access for the following engine-removal steps.",
+      "stop_conditions": [
+       "Stop if the bike is unstable or the seat will not release without force."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Tightening torques / Chassis / Seat bolt (M6, qty 1; remark: torque-check mark (check after break-in and before each race)): 11 N·m. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+    ]
+   },
+   {
+    "rider": "Next step",
+    "reply": {
+     "summary": "Remove the radiator shrouds next, leaving the fuel tank and fuel hose connected.",
+     "answer": "**Remove the radiator shrouds—the plastic panels beside the fuel tank—next.** Leave the tank and fuel hose connected for now.\n\nGeneral workshop method:\n1. Photograph the shroud mounting points so you can match the hardware on reassembly.\n2. Remove the fasteners securing the plastic to the tank and radiator mounts. Keep each bolt and collar grouped by location; don’t loosen radiator or coolant-hose fittings.\n3. Ease the panels free without bending them. If one catches, check for another fastener or locating tab rather than pulling harder.\n\nKeep the fuel tap OFF and the tank cap installed.",
+     "next_step": {
+      "action": "Remove the radiator shrouds and organize their mounting hardware.",
+      "purpose": "Clear access around the fuel tank before disconnecting or removing it.",
+      "stop_conditions": [
+       "Stop if a panel requires force or the bike becomes unstable.",
+       "Stop if fuel is leaking."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "How tight do the cylinder head bolts go, and in what order?",
+    "reply": {
+     "summary": "Tighten the six cylinder-head nuts to 25 N·m (18 ft-lb), progressively in a crisscross pattern.",
+     "answer": "Yamaha specifies **25 N·m (18 ft-lb) for the six cylinder-head nuts** on your 2025 YZ250.\n\n1. Fit the head on its dowels with **new head O-rings and six new copper washers**. Grease the O-rings with lithium-soap grease.\n2. Start all six nuts by hand and snug them evenly.\n3. Tighten progressively in a **crisscross pattern**: one nut, the nut diagonally opposite, then another opposing pair, then the remaining pair. Repeat that pattern up to final torque—don’t work clockwise around the head or fully tighten one nut first.\n\nThat value is for the **nuts**, not the threaded studs. If you removed the studs from the cylinder, their separate torque is **13 N·m (9.6 ft-lb)**.",
+     "next_step": null,
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Tightening torques / Engine / Cylinder head nut (M8, qty 6): 25 N·m. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Tightening torques / Engine / Cylinder head stud bolt (M8, qty 6): 13 N·m. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+    ]
+   },
+   {
+    "rider": "What do I need to measure on the piston and cylinder before I reuse them?",
+    "reply": {
+     "summary": "Measure the bore in six places, the piston skirt at Yamaha’s specified measuring point, and calculate actual piston-to-cylinder clearance. Check both rings, their grooves, and the piston pin before deciding anything is reusable.",
+     "answer": "**Start with actual bore and piston measurements—not the size stamped on the parts.** For your stock 2025 YZ250, Yamaha specifies:\n\n| Check | Specification |\n|---|---|\n| Cylinder bore, standard | **66.400–66.414 mm** |\n| Cylinder bore, wear limit | **66.464 mm** |\n| Piston skirt diameter, standard | **66.352–66.367 mm** |\n| Piston measuring point | **17.5 mm (0.69 in) above the skirt bottom**, in Yamaha’s illustrated orientation |\n| Piston-to-cylinder clearance | **0.045–0.050 mm (0.0018–0.0020 in)** |\n| Both rings: groove side clearance | **0.030–0.065 mm**; limit **0.100 mm** |\n| Both rings: end-gap limit | **0.95 mm (0.0374 in)** |\n\n1. **Clean and inspect first.** Look for piston cracks, vertical scoring, aluminum transfer, damaged ring grooves or locating pins, and damaged cylinder plating. Acceptable dimensions do not make damaged parts reusable.\n2. **Measure the cylinder with a dial bore gauge:** side-to-side and front-to-back at each of Yamaha’s three illustrated heights—six readings. Record all six; use the largest bore reading for the clearance calculation. Their differences reveal taper and out-of-round.\n3. **Measure the piston with an outside micrometer** at the specified point—not across the crown or with calipers. Subtract measured piston diameter from the largest bore reading. Yamaha’s specified clearance is the acceptance check; don’t substitute nominal dimensions.\n4. **Check each ring separately.** Measure groove side clearance with a feeler gauge. For end gap, use the piston crown to square the ring near the bottom of the bore, then measure the gap. The end-gap figure above is a wear limit, **not a new-ring filing target**.\n\nAlso check the pin: minimum outside diameter **17.975 mm**, maximum piston pin-bore diameter **18.040 mm**, and specified pin-to-bore clearance **0.004–0.020 mm**. Inspect the small-end bearing for damage or heat discoloration.\n\nSeparate taper/out-of-round limits, a standalone piston-diameter wear limit, and a new-ring minimum gap aren’t confirmed here—don’t invent acceptance numbers for them. The guided **“Rebuild the stock two-stroke top end and cylinder power valves”** job supplies the measuring diagrams; tap **“Start a guided job”** above the message box. Stop assembly if damage or an out-of-spec measurement is found.",
+     "next_step": {
+      "action": "Clean and inspect the parts, then record all six bore readings and the piston skirt measurement using the guided job’s diagrams.",
+      "purpose": "Calculate actual clearance and distinguish dimensional wear from physical damage.",
+      "stop_conditions": [
+       "Cracks, damaged plating, significant scoring or damaged ring locating pins.",
+       "Any measurement outside Yamaha’s applicable specification.",
+       "Aftermarket parts requiring their maker’s measurement method or clearance."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Piston / Piston pin outside diameter limit: 17.975 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Cylinder / Wear limit: 66.464 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston-to-cylinder clearance: 0.045–0.050 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / 2nd ring / End gap limit: 0.95 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston ring / 2nd ring / Ring side clearance: 0.030–0.065 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston / Piston pin bore inside diameter limit: 18.04 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston-pin-to-piston-pin-bore clearance: 0.004–0.020 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / Top ring / End gap limit: 0.95 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston ring / Top ring / Ring side clearance: 0.030–0.065 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston / Measuring point (from piston skirt bottom): 17.5 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / 2nd ring / Side clearance limit: 0.1 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston ring / Top ring / Side clearance limit: 0.1 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Cylinder / Bore: 66.400–66.414 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+    ]
+   },
+   {
+    "rider": "Ok, next step",
+    "reply": {
+     "summary": "Next, measure and record the cylinder bore in six places before deciding whether to reuse it.",
+     "answer": "**Next, measure the cylinder bore.** We’ve covered what to check, but you haven’t reported measurements yet—don’t move to assembly until those checks are complete.\n\n1. With the removed cylinder clean, inspect the plating for scoring, flaking or damage. Stop if you find any.\n2. Use a calibrated **dial bore gauge**, not calipers. Measure side-to-side and front-to-back at each of Yamaha’s three illustrated heights—**six readings total**. Keep the gauge clear of the ports.\n3. Label and record each reading. Yamaha’s standard bore is **66.400–66.414 mm**; the wear limit is **66.464 mm**. That limit is not a rebuilding target, and bore size alone doesn’t establish that the cylinder is reusable.\n\nThe guided **“Rebuild the stock two-stroke top end and cylinder power valves”** job provides the measuring diagram; tap **“Start a guided job”** above the message box to open it.\n\nWhat are your six bore readings?",
+     "next_step": {
+      "action": "Inspect the removed cylinder and record its six bore readings at the illustrated measuring locations.",
+      "purpose": "Establish bore condition before calculating piston clearance or choosing replacement parts.",
+      "stop_conditions": [
+       "Scoring, flaking plating or other cylinder damage.",
+       "Measurements outside the applicable specification.",
+       "Measuring locations or gauge calibration cannot be established."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Cylinder / Bore: 66.400–66.414 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Cylinder / Wear limit: 66.464 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+    ]
+   },
+   {
+    "rider": "What's the ring end gap spec, and how do I check it?",
+    "reply": {
+     "summary": "Yamaha’s ring end-gap wear limit is 0.95 mm (0.0374 in) for both rings. Check each ring separately, squared near the bottom of the cylinder bore.",
+     "answer": "Yamaha specifies a **0.95 mm (0.0374 in) maximum ring end gap for both the top and second rings** on your stock 2025 YZ250. That is a **wear limit—not a new-ring gap target**. A new-ring minimum isn’t confirmed here, so don’t file new rings to that figure.\n\n1. Clean the cylinder bore and ring. Check for chipped edges, cracks or other damage.\n2. Put **one ring at a time** into the removed cylinder.\n3. Use the piston crown to push the ring squarely into the **lower part of the bore, where wear is lowest**, following the measuring illustration in the guided top-end job. The ring must sit level, not tilted.\n4. Slide a feeler gauge between the ring ends. Find the blade that fits with light drag—don’t force it and spread the ring.\n5. Record the top and second-ring gaps separately. **Replace any ring exceeding 0.95 mm**, or showing damage.\n\nBore wear also enlarges end gap, so keep your cylinder measurements in the reuse decision. For new rings, verify the ring maker’s installation specification before any filing.",
+     "next_step": {
+      "action": "Square each ring near the bottom of the cylinder and measure its end gap separately.",
+      "purpose": "Check both rings against Yamaha’s wear limit.",
+      "stop_conditions": [
+       "Ring damage or cylinder plating damage.",
+       "Either ring exceeds the wear limit.",
+       "A new ring appears too tight and its installation minimum is unavailable."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Piston ring / 2nd ring / End gap limit: 0.95 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston ring / Top ring / End gap limit: 0.95 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+    ]
+   },
+   {
+    "rider": "It's all back together. What's the break-in?",
+    "reply": {
+     "summary": "Break-in length depends on what you replaced: about 30 minutes for piston/rings only, or about one hour for a new cylinder or crankshaft. Complete the pre-start checks before running it.",
+     "answer": "**Piston/rings only: about 30 minutes at half throttle or less. New cylinder or crankshaft: about one hour in two stages.** These are the stock-engine guided procedure; aftermarket parts may require their maker’s instructions.\n\n1. **Before starting:** confirm transmission oil and cold coolant levels, an oiled and seated air filter, and a throttle that snaps shut at both steering locks. The exact break-in premix ratio isn’t confirmed here—verify Yamaha’s break-in fuel instructions before fueling.\n2. **Start outdoors and warm briefly:** roughly one to two minutes, until it responds cleanly with the choke off. Check for fuel, oil and coolant leaks; don’t do the break-in sitting on the stand.\n3. **Ride with varying speed and load:**\n   - **Piston, rings or gears only:** about **30 minutes, half throttle or less**.\n   - **New cylinder or crankshaft:** about **20 minutes, half throttle or less**; stop and inspect for leaks or loose hardware, then about **40 minutes, three-quarter throttle or less**.\n   Avoid lugging, hard revving and sustained constant throttle.\n4. **Afterward:** inspect for leaks and loose fasteners, check the specified torque-check points, controls, chain and spokes, then change and inspect the transmission oil before normal riding.\n\n**Stop immediately for pinging, knocking, steam, fluid loss, sudden power loss or the engine tightening up.** Let it cool before opening the radiator.\n\nTap **“Start a guided job”** above the message box and choose **“First start, break-in, premix and jetting checks after an engine rebuild.”** Have a torque wrench, plug tools, measuring jug and fresh fuel ready.",
+     "next_step": {
+      "action": "Complete the guided first-start prechecks and verify break-in premix before starting.",
+      "purpose": "Confirm the rebuilt engine is ready for its first run.",
+      "stop_conditions": [
+       "Unverified break-in fuel mixture.",
+       "Throttle does not snap shut.",
+       "Fuel, coolant or transmission oil leakage.",
+       "Pinging, knocking, steam, sudden power loss or tightening."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   }
+  ]
+ },
+ {
+  "id": "rb-yz250f-2022",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ250F",
+   "model_year": 2022,
+   "configuration": {}
+  },
+  "manual": {
+   "publication": "B7B-2819U-13",
+   "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-13_02.pdf",
+   "type": "Yamaha Owner's Service Manual"
+  },
+  "manual_text": "/tmp/claude-0/-home-claude/6efe62a0-cd5f-5b6c-9409-a557e03a6696/scratchpad/osm/B7B-2819U-13.txt",
+  "checks": [
+   "every step, spec and order matches the Owner's Service Manual for this exact year",
+   "one step (or a small group) per reply, never the whole manual at once",
+   "plain words a home mechanic can follow, with what to check before moving on",
+   "torques, clearances and limits are the manual's, in its units",
+   "says when a special tool or a measurement decides whether a part is reused"
+  ],
+  "turns": [
+   {
+    "rider": "I want to rebuild the motor on my 2022 YZ250F. Can you walk me through it step by step?",
+    "reply": {
+     "summary": "Yes—use the guided jobs to work through the rebuild in stages. Engine removal, inspection and bottom-end work are covered, but the complete top-end installation and cam-timing procedure still needs confirmation.",
+     "answer": "Yes—I can walk you through it here, **one checked step at a time**. Tap **“Start a guided job”** above the message box and choose **“Take the engine out of the frame.”** Once it starts, say **“next”** to continue.\n\nFor a complete rebuild, this is the job order—not an executable teardown procedure:\n\n1. **Remove the engine:** clean the bike first, then follow the removal job through draining fluids, disconnecting systems and lifting the engine onto a clean bench.\n2. **Disassemble and measure the prepared top end:** inspect the head, valves, piston and cylinder before deciding what needs replacing.\n3. **Bottom end:** follow the case-splitting job through the crankshaft, gearbox, clutch, bearings and pumps, then crankcase assembly.\n4. **Rebuild the top end:** the original-head reassembly job covers accepted original valve assemblies and sealing checks. **Piston/cylinder installation, head mounting and cam timing are not covered by the listed walkthroughs; those procedures must be confirmed before assembly.**\n5. **Refit the engine**, then use **“First start, break-in and checks after an engine rebuild.”** Don’t start it before the assembly and pre-start checks are complete.\n\nAs general workshop preparation, have torque wrenches, an angle gauge, measuring tools, labeled trays and a clean bench ready. Full bottom-end work commonly needs a matching flywheel puller, case splitter, crank installer and clutch holder; confirm exact tools in each job before dismantling. Plan on gaskets, seals and required replacement locking hardware, but choose internal parts from inspection results—not guesswork.\n\nAre you planning a **top-end refresh or a complete crank-and-gearbox rebuild**?",
+     "next_step": {
+      "action": "Tap “Start a guided job” and select “Take the engine out of the frame.”",
+      "purpose": "Begin with the bounded engine-removal procedure rather than an abbreviated teardown checklist.",
+      "stop_conditions": [
+       "Bike or engine cannot be supported securely.",
+       "Required tools or safe lifting help are unavailable.",
+       "A connection or fastener does not match the procedure."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "Ok, the bike is clean and on the stand. What's the first thing I do?",
+    "reply": {
+     "summary": "First, switch the bike off and disconnect the battery’s negative lead before unplugging anything else.",
+     "answer": "**First, isolate the battery.** With the engine fully cool and the bike secure on the stand:\n\n1. Switch the bike off and remove the seat to access the battery.\n2. Disconnect the **negative (–) battery lead first**. Keep your tool clear of the positive terminal.\n3. Secure the disconnected lead away from the terminal so it cannot spring back into contact.\n\nDon’t drain fluids or disconnect fuel lines yet.\n\nTap **“Start a guided job”** above the message box and choose **“Take the engine out of the frame.”** That job takes us through draining oil and coolant, disconnecting the systems and lifting the engine onto the bench. Have drain pans, basic hand tools, labeled containers and a secure engine support ready; arrange help for the lift. Once the job is running, say **“next.”**",
+     "next_step": {
+      "action": "With the bike switched off, disconnect and isolate the negative battery lead.",
+      "purpose": "Prevent accidental cranking and reduce short-circuit risk during engine removal.",
+      "stop_conditions": [
+       "Bike is unstable on the stand.",
+       "Battery is hot, swollen or damaged.",
+       "Battery terminal polarity cannot be identified."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "Done. What's next?",
+    "reply": {
+     "summary": "Next, drain the engine oil into a clean pan. Leave the battery disconnected and don’t restart the engine to warm it.",
+     "answer": "**Next, drain the engine oil.** Leave the battery negative lead isolated; don’t restart it just to warm the oil.\n\n1. With the bike secure and engine cool, place a clean drain pan beneath the engine. Remove any skid plate blocking access.\n2. Clean around the oil filler and engine-oil drain bolt, then remove the filler cap and drain bolt. **Don’t confuse the drain bolt with the oil-pressure check bolt**—if you cannot positively identify it, stop and send a photo.\n3. Let the oil drain fully. Keep the drain bolt and sealing washer together, and inspect the drained oil for metal fragments or milky contamination before disposing of it.\n\nYamaha specifies **20 N·m (15 ft-lb)** for the engine-oil drain bolt when refitted; check the washer’s condition first.\n\nFor the complete removal sequence, tap **“Start a guided job” → “Take the engine out of the frame.”** Have separate oil and coolant pans, labeled hardware trays and secure engine support ready. Leave the fuel lines connected for now.",
+     "next_step": {
+      "action": "Drain the engine oil into a clean pan with the engine cool and battery disconnected.",
+      "purpose": "Prepare for engine removal while preserving the oil for visual inspection.",
+      "stop_conditions": [
+       "Bike is unstable.",
+       "Drain bolt cannot be positively identified.",
+       "Drain bolt is seized or its head begins to round."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Engine oil drain bolt: 20 N·m. Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements."
+    ]
+   },
+   {
+    "rider": "Next step",
+    "reply": {
+     "summary": "Next, drain the coolant with the engine completely cold. Keep it separate from the drained oil.",
+     "answer": "**Next, drain the coolant—with the engine completely cold.** Leave the battery disconnected.\n\n1. Put a separate drain pan beneath the water-pump area. Keep coolant out of the oil pan so you can inspect both fluids separately.\n2. Clean around the radiator cap and coolant drain bolt. Only when everything is cold, remove the radiator cap.\n3. Positively identify the **coolant drain bolt**, then remove it and retain its sealing washer. Don’t remove a water-pump cover bolt or the coolant-temperature sensor by mistake. If identification is uncertain, stop and send a clear photo.\n4. Let the coolant drain fully. Check for oil contamination, rust or debris; keep the hoses connected for now.\n\nYamaha specifies **10 N·m (7.4 ft-lb)** for the coolant drain bolt when refitted. Inspect its sealing washer before reinstalling.\n\nFor the complete engine-removal sequence, tap **“Start a guided job” → “Take the engine out of the frame.”** Have separate drain pans, labeled hardware trays and secure engine support ready.",
+     "next_step": {
+      "action": "With the engine completely cold, identify the coolant drain bolt and drain coolant into a separate pan.",
+      "purpose": "Empty the cooling system before disconnecting hoses for engine removal.",
+      "stop_conditions": [
+       "Engine or cooling system is still hot.",
+       "Coolant drain bolt cannot be positively identified.",
+       "Bike is unstable or the fastener begins to round."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Coolant drain bolt: 10 N·m. Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements."
+    ]
+   },
+   {
+    "rider": "How tight do the cylinder head bolts go, and in what order?",
+    "reply": {
+     "summary": "The four main cylinder-head bolts use a staged torque-and-angle procedure, not one final torque. Don’t tighten them yet: the numbered bolt order and conflicting lubricant instructions need resolving first.",
+     "answer": "The **four main cylinder-head bolts use 30 N·m seating, then 15 N·m + 60° + 60°**—not a single final torque. Yamaha’s procedure is:\n\n1. Tighten all four evenly, in Yamaha’s numbered order, to **30 N·m (22 ft-lb)**.\n2. Following that same order, remove **one bolt only**, reinstall it, tighten to **15 N·m (11 ft-lb)**, then turn it another **60°**. Repeat individually for the remaining bolts; leave the others installed.\n3. Following the numbered order again, turn every bolt another **60°**. Each gets **120° total** after the 15 N·m stage.\n\n**Don’t start tightening yet.** The exact numbered diagram isn’t confirmed here, so I won’t guess which corner goes first. There is also an unresolved conflict in the head-bolt lubricant instructions; lubrication changes bolt load, so that must be settled before applying these figures. Have a torque wrench and angle gauge ready.\n\nThe **10 N·m (7.4 ft-lb)** cylinder-head *nut* specification is for the separate M6 nuts—not these four main bolts. Head mounting is outside the detached-head reassembly guided job.",
+     "next_step": {
+      "action": "Obtain Yamaha’s numbered head-installation diagram and resolve the lubricant conflict before tightening.",
+      "purpose": "Establish the physical bolt order and correct friction conditions for the staged procedure.",
+      "stop_conditions": [
+       "Numbered tightening order remains unidentified.",
+       "Head-bolt lubricant requirements remain contradictory."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Cylinder head nut: 10 N·m. Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements."
+    ]
+   },
+   {
+    "rider": "What do I need to measure on the piston and cylinder before I reuse them?",
+    "reply": {
+     "summary": "Measure the bore at six points, piston skirt diameter, piston-to-cylinder clearance, ring clearances and piston-pin fit. Passing dimensions does not clear cracked, scored or otherwise damaged parts for reuse.",
+     "answer": "**Use a dial bore gauge and outside micrometers—not a caliper—to make the reuse decision.** These figures apply to the stock piston and cylinder on your 2022 YZ250F; aftermarket pistons need their maker’s measuring point and clearance.\n\n| Check | How to check | Yamaha’s specification |\n|---|---|---|\n| Cylinder bore | Measure front-to-back and side-to-side at three heights; record all six readings | Standard **77.000–77.010 mm**; wear limit **77.060 mm** |\n| Piston skirt diameter | Measure at the illustrated skirt position, **4.0 mm above the skirt bottom** | Standard **76.955–76.970 mm** |\n| Piston-to-cylinder clearance | Subtract measured piston diameter from the largest measured bore | **0.030–0.055 mm (0.0012–0.0022 in)** |\n| Top-ring side clearance | Clean the ring and groove; check with feeler gauges | Standard **0.030–0.065 mm**; limit **0.115 mm** |\n| Top-ring end gap | Square the ring near the cylinder bottom with the piston crown; measure the gap | Limit **0.50 mm (0.0197 in)** |\n| Piston pin | Measure outside diameter and inspect for grooves or discoloration | Minimum **15.971 mm** |\n| Piston pin bore | Measure inside diameter | Maximum **16.043 mm** |\n| Pin-to-piston clearance | Subtract pin diameter from pin-bore diameter | **0.002–0.022 mm** |\n\nAlso inspect for **cracks, damaged ring lands, skirt damage and vertical cylinder scoring**. Any failed dimension or visible damage means don’t approve reuse just because the other readings pass. The bore wear limit is not a target clearance for fitting a piston.\n\nSeparate taper, out-of-round and oil-ring rail-gap limits aren’t confirmed here. Keep all six bore readings—don’t judge uneven wear from the largest reading alone.\n\nYamaha also schedules **piston, pin, clips and rings replacement together every fifth race—about 12.5 hours—or as required**. Passing measurements doesn’t override that replacement schedule.\n\nTap **“Start a guided job” → “Disassemble and measure the prepared top end”** for the illustrated measuring locations. Have bore gauges, micrometers, feeler gauges and labeled trays ready; that job covers teardown and inspection, not reassembly.",
+     "next_step": {
+      "action": "Once the cylinder is removed and clean, record all six bore readings before calculating piston clearance.",
+      "purpose": "Establish bore size and uneven wear before deciding whether the parts can be reused.",
+      "stop_conditions": [
+       "Components differ from the stock parts covered by these specifications.",
+       "Cracks or cylinder-wall scoring are found.",
+       "Measuring tools cannot resolve the specified clearances reliably."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Cylinder / Bore: 77.000–77.010 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Cylinder / Wear limit: 77.06 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Measuring point (from piston skirt bottom): 4 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston / Piston-to-cylinder clearance: 0.030–0.055 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / Top ring / Ring side clearance: 0.030–0.065 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / Top ring / Side clearance limit: 0.115 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston ring / Top ring / End gap limit: 0.5 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston pin outside diameter limit: 15.971 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston pin bore inside diameter limit: 16.043 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston-pin-to-piston-pin-bore clearance: 0.002–0.022 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Service schedule / Piston – Replace the piston, piston pin, piston pin clip, and piston ring all as a set: every fifth race (about 12.5 hours); as required; marked for a Yamaha dealer. From the maintenance-interval table of the US Owner's Service Manual. Intervals are per race with the approximate hours as printed. The same table says the life of parts varies with the environment the machine runs in (rain, dirt) and earlier inspection is then required, and that items marked for a Yamaha dealer need special tools, data and technical skills. After a break-in or before each race, also check the torque-check points in the same manual."
+    ]
+   },
+   {
+    "rider": "Ok, next step",
+    "reply": {
+     "summary": "After recording the six bore readings, measure the piston skirt and calculate piston-to-cylinder clearance before approving either part for reuse.",
+     "answer": "**Next, measure the piston skirt and work out piston-to-cylinder clearance.** If you haven’t recorded all six bore readings yet, finish those first.\n\n1. Clean the piston skirt without sanding or removing material. Check for cracks, damaged ring lands and heavy scoring before measuring.\n2. For the stock piston, Yamaha specifies a measuring point **4 mm (0.16 in) above the skirt bottom**. Use an outside micrometer; general measuring practice is across the skirt, perpendicular to the piston pin—not across the pin bosses. An aftermarket piston needs its maker’s measuring location.\n3. Subtract the measured piston diameter from the largest recorded bore diameter. Yamaha specifies **0.030–0.055 mm (0.0012–0.0022 in)** piston-to-cylinder clearance.\n\nThe cylinder’s **77.06 mm (3.0339 in) wear limit** is a separate check: being below that limit does **not** mean the piston clearance passes.\n\nRecord the piston diameter and calculated clearance. Don’t approve reuse if there’s damage or a failed measurement. The guided job **“Disassemble and measure the prepared top end”**, under **“Start a guided job,”** covers the illustrated inspection locations.",
+     "next_step": {
+      "action": "Measure the stock piston skirt at Yamaha’s specified location and calculate clearance from the largest bore reading.",
+      "purpose": "Check piston fit before deciding on reuse.",
+      "stop_conditions": [
+       "Piston identity or measuring location is uncertain.",
+       "Cracks, damaged ring lands or heavy scoring are found.",
+       "Measurements fall outside the specified clearance range."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Piston / Measuring point (from piston skirt bottom): 4 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston / Piston-to-cylinder clearance: 0.030–0.055 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Cylinder / Wear limit: 77.06 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+    ]
+   },
+   {
+    "rider": "How do I line up the cam timing when it goes back together?",
+    "reply": {
+     "summary": "Set the crank at compression TDC, then index both cams to Yamaha’s timing illustration. The exact marks, chain-pin count and tensioner installation sequence aren’t confirmed here, so don’t time it by guesswork.",
+     "answer": "**The crank must be at compression top dead center, with both cams indexed to Yamaha’s timing marks—not just the lobes looking roughly right.** The exact mark illustration and installation sequence for your 2022 YZ250F aren’t confirmed here.\n\nThis is the general checking sequence, **not a complete installation procedure**:\n\n1. Establish the specified crankshaft TDC mark. Piston position alone doesn’t establish correct cam timing.\n2. Position the intake and exhaust cams against the specified cylinder-head references, keeping the chain engaged at the crank and slack on the tensioner side. Don’t guess a chain-pin count or which sprocket marks to use.\n3. Install the cam caps and reset/install the tensioner in Yamaha’s prescribed sequence. A tensioner-bolt torque alone isn’t enough to establish that procedure.\n4. Once correctly assembled and tensioned, turn the crank slowly by hand through **two complete revolutions**, return to the TDC reference and recheck every timing mark and cold valve clearance. **Stop at any hard resistance—never force it or use the starter to check timing.**\n\nThe needed illustration is in Yamaha’s **Camshafts—installation/valve timing** section. The available detached-head reassembly job does **not** cover cam timing; resolve that procedure before installing the cams.",
+     "next_step": {
+      "action": "Confirm Yamaha’s exact camshaft-installation illustration and tensioner procedure before positioning or tightening the cams.",
+      "purpose": "Establish the correct crank-to-cam relationship without guessing marks or installation order.",
+      "stop_conditions": [
+       "Timing marks or component identity cannot be positively established.",
+       "Tensioner reset and installation sequence remains unconfirmed.",
+       "Crankshaft meets hard resistance during subsequent hand rotation."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "It's all back together. What's the break-in?",
+    "reply": {
+     "summary": "Use the guided first-start and break-in job, but verify cam timing and oil circulation before riding. Run progressively under light load, then change the oil and filter and inspect for debris.",
+     "answer": "**Prove oil circulation first, then break it in progressively—not by leaving it idling on the stand.** Since cam timing wasn’t confirmed earlier, verify timing, tensioner operation and cold valve clearances before starting; “back together” doesn’t establish those checks passed.\n\nTap **“Start a guided job” → “First start, break-in and checks after an engine rebuild.”** Have a torque wrench, oil-check-bolt wrench, fresh oil and filter ready. The guided plan is:\n\n1. **Before starting:** check oil and coolant, service the air filter, check for leaks and confirm the throttle snaps shut.\n2. **Prove oil circulation:** follow the job’s oil-check-bolt step. Idle without revving; if oil hasn’t seeped out within **one minute, stop immediately**. The check bolt tightens to **10 N·m (7.4 ft-lb)** per Yamaha.\n3. Warm briefly, inspect for leaks, stop and verify oil level. Check coolant only after cooling.\n4. **First 20 minutes:** ride at half throttle or less, varying rpm and load. Avoid lugging, sustained rpm and hard acceleration. Stop and inspect.\n5. **Next 40 minutes:** progress to three-quarter throttle or less, continuing to vary load. Stop and recheck leaks, controls and fasteners.\n6. Change the oil and filter, inspecting the drained oil for debris. Yamaha’s filter-change fill is **0.75 L (0.79 US qt)**; verify the final level.\n\nThose running times are the guided job’s plan, not a separately confirmed Yamaha overhaul interval. **Stop for knocking, overheating, oil loss or metal flakes/chunks.**",
+     "next_step": {
+      "action": "Start the first-start guided job and complete its pre-start checks before running the engine.",
+      "purpose": "Verify assembly and lubrication before applying riding load.",
+      "stop_conditions": [
+       "Cam timing or tensioner installation remains uncertain.",
+       "No oil seeps from the check bolt within one minute.",
+       "Knocking, overheating, significant leaks or metal fragments appear."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Engine oil / Engine oil quantity / With oil filter removal: 0.75 L. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Retain the stated oil-change/filter-removal/disassembled fill condition; verify level by OEM procedure."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rb-yz250f-2025",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ250F",
+   "model_year": 2025,
+   "configuration": {}
+  },
+  "manual": {
+   "publication": "D01-2819U-10",
+   "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D01-2819U-10_02.pdf",
+   "type": "Yamaha Owner's Service Manual"
+  },
+  "manual_text": "/tmp/claude-0/-home-claude/6efe62a0-cd5f-5b6c-9409-a557e03a6696/scratchpad/osm/D01-2819U-10.txt",
+  "checks": [
+   "every step, spec and order matches the Owner's Service Manual for this exact year",
+   "one step (or a small group) per reply, never the whole manual at once",
+   "plain words a home mechanic can follow, with what to check before moving on",
+   "torques, clearances and limits are the manual's, in its units",
+   "says when a special tool or a measurement decides whether a part is reused"
+  ],
+  "turns": [
+   {
+    "rider": "I want to rebuild the motor on my 2025 YZ250F. Can you walk me through it step by step?",
+    "reply": {
+     "summary": "Yes—start with engine removal, then teardown and measurement before ordering internal parts. Guided jobs cover the major stages, but the listed top-end procedures do not cover complete top-end reassembly.",
+     "answer": "Yes—I can walk you through it in stages. **Tap “Start a guided job” above the message box**, beginning with **“Take the engine out of the frame.”** Once it’s running, say “next” to work through each step.\n\nFor a full rebuild, this is the order:\n\n1. **Remove the engine:** drain oil and coolant, disconnect the systems and lift the engine onto a clean bench.\n2. **Disassemble and measure the prepared top end:** inspect the head, cams, cylinder, piston and pin. Measure before deciding what can be reused.\n3. **Bottom end:** remove the clutch and primary drive, split the cases, inspect the crankshaft, gearbox, bearings and pumps, then rebuild and close the cases.\n4. **Reassemble the top end:** the available head job covers accepted original valve assemblies in a detached head—not piston/cylinder installation, head mounting or cam timing. Those missing stages need a confirmed procedure before proceeding.\n5. **Refit the engine**, then run the separate **“First start, break-in and checks after an engine rebuild”** job—only after assembly and timing checks are complete.\n\nGeneral preparation: a clean bench, labeled trays, torque wrenches, measuring tools, and the correct holding/pulling tools. Follow each job’s exact tool and replacement-parts requirements; don’t buy a piston or crank solely on appearance.\n\n**Are you planning a piston/head refresh, or a full rebuild with the crankcases split?**",
+     "next_step": {
+      "action": "Tap “Start a guided job” and select “Take the engine out of the frame.”",
+      "purpose": "Begin the rebuild with the bounded engine-removal procedure.",
+      "stop_conditions": [
+       "Do not drain or open a hot cooling system.",
+       "Stop if the bike or engine cannot be supported securely.",
+       "Do not proceed into uncovered top-end assembly or timing stages without a confirmed procedure."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "Ok, the bike is clean and on the stand. What's the first thing I do?",
+    "reply": {
+     "summary": "Let the engine cool completely, then disconnect and isolate the battery’s negative cable before starting engine removal.",
+     "answer": "**With the engine completely cold, disconnect the battery’s negative (–) cable first** and tuck it away so it cannot spring back onto the terminal. That’s the first preparation step: it prevents accidental cranking or a short while you disconnect the engine wiring.\n\nLeave the radiator cap and fuel connections alone for now.\n\nThen tap **“Start a guided job”** above the message box and choose **“Take the engine out of the frame.”** That job walks through draining oil and coolant, disconnecting everything and lifting the engine onto the bench. Have drain pans, basic sockets and wrenches, labeled bags and a secure engine support ready. Once the job is running, say **“next.”**",
+     "next_step": {
+      "action": "With the engine cold and power off, disconnect and isolate the battery’s negative cable.",
+      "purpose": "Prevent accidental starter operation and electrical shorts during removal.",
+      "stop_conditions": [
+       "Stop if the bike is unstable on the stand.",
+       "Do not proceed if the battery or wiring is hot, swollen or damaged."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "Done. What's next?",
+    "reply": {
+     "summary": "Next, drain the engine oil. Leave the battery disconnected; don’t start the engine to warm the oil.",
+     "answer": "**Next, drain the engine oil.** Leave the battery disconnected—cold oil just takes longer to drain.\n\n1. Put a drain pan beneath the engine. Remove the engine guard if it blocks access.\n2. Clean around the oil filler cap and engine oil drain bolt, then remove the cap and drain bolt. Don’t loosen an unidentified crankcase bolt.\n3. Let the oil drain completely. Keep the drained oil for inspection, and check the bolt and sealing washer for damage.\n4. Refit the drain bolt with a sound sealing washer. **Yamaha specifies 20 N·m (15 ft-lb)** for the engine oil drain bolt. Refit the filler cap to keep dirt out; don’t refill yet.\n\nIf you find metal flakes or fragments, photograph them and keep the oil—we’ll use that evidence during teardown.",
+     "next_step": {
+      "action": "Drain the engine oil into a clean pan and inspect it.",
+      "purpose": "Empty the lubrication system before engine removal and preserve wear evidence.",
+      "stop_conditions": [
+       "Stop if the bike is unstable.",
+       "Do not remove a bolt unless positively identified as the engine oil drain bolt."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Engine oil drain bolt: 20 N·m. Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements."
+    ]
+   },
+   {
+    "rider": "Next step",
+    "reply": {
+     "summary": "Next is draining the coolant, with the engine completely cold. Keep the battery disconnected and don’t refill the oil.",
+     "answer": "**Next is draining the coolant—with the engine completely cold.** Keep the battery disconnected and leave the engine oil empty.\n\nPut a clean drain pan beneath the water-pump area. Don’t disconnect hoses or remove an unidentified cover bolt.\n\nTap **“Start a guided job” → “Take the engine out of the frame”** and continue to its coolant-draining step for bolt identification, draining order and sealing requirements. The exact removal procedure isn’t confirmed here, so the torque figure alone isn’t enough to walk you through that step safely.\n\nFor refitting, Yamaha specifies **10 N·m (7.4 ft-lb)** for the **coolant drain bolt**—not the coolant temperature sensor.\n\n**Never open the radiator cap while the cooling system is hot or pressurized.**",
+     "next_step": {
+      "action": "With the engine cold, open the engine-removal guided job and continue to coolant draining.",
+      "purpose": "Drain the cooling system using the operation’s exact identification and sealing instructions.",
+      "stop_conditions": [
+       "Cooling system is hot or pressurized.",
+       "Drain bolt cannot be positively identified.",
+       "Bike is unstable on the stand."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Coolant drain bolt: 10 N·m. Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements."
+    ]
+   },
+   {
+    "rider": "How tight do the cylinder head bolts go, and in what order?",
+    "reply": {
+     "summary": "The four main cylinder-head bolts use a torque-plus-angle procedure, not one final torque. Don’t tighten them yet: the exact numbered sequence and a lubricant conflict must be resolved first.",
+     "answer": "For the **four main M9 cylinder-head bolts**, Yamaha’s torque table lists **30 N·m (22 ft-lb) for initial seating**, followed by **15 N·m (11 ft-lb), then 60° + 60°**—not a single final torque.\n\nThe table describes seating all four first, then removing and retightening **one bolt at a time** in Yamaha’s specified order, followed by the final angle pass. **Don’t simply torque them all to 30 N·m and add the angles.**\n\n**Hold off on tightening:** the numbered bolt-order diagram isn’t confirmed here, and the head-installation instructions have an unresolved lubricant conflict. Lubrication changes bolt tension, so those details must be settled before using these figures. Don’t substitute a guessed crisscross pattern.\n\nThe **M6 cylinder-head nuts are separate: 10 N·m (7.4 ft-lb)**. That figure is not for the four main bolts.\n\nCan you send a clear photo of Yamaha’s cylinder-head installation page showing the numbered sequence and bolt-lubrication instructions?",
+     "next_step": {
+      "action": "Provide the cylinder-head installation page showing the numbered sequence and lubrication instructions before tightening.",
+      "purpose": "Confirm the complete mounting procedure rather than applying torque-table values alone.",
+      "stop_conditions": [
+       "Do not tighten the main head bolts until sequence and lubrication requirements are resolved."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Cylinder head nut: 10 N·m. Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements."
+    ]
+   },
+   {
+    "rider": "What do I need to measure on the piston and cylinder before I reuse them?",
+    "reply": {
+     "summary": "Measure the cylinder at six points, the piston skirt at Yamaha’s specified height, actual piston clearance, ring clearances and piston-pin fit. Passing one wear limit alone does not establish that the assembly is reusable.",
+     "answer": "**Check bore size and shape, piston-to-cylinder clearance, rings and piston-pin fit—not just how the skirt looks.** These figures apply to the original stock piston and cylinder on your 2025 YZ250F.\n\nUse an outside micrometer, dial bore gauge and feeler gauges; a caliper isn’t accurate enough for these clearances.\n\n| Check | How to measure | Yamaha’s figures |\n|---|---|---|\n| Cylinder bore | Measure front-to-back and side-to-side at each of the three illustrated bore heights; record all six readings | Standard **77.000–77.010 mm**; wear limit **77.060 mm** |\n| Piston diameter | Measure across the skirt at the illustrated axis, **4.0 mm above the skirt bottom** | Standard **76.955–76.970 mm** |\n| Actual piston clearance | Subtract measured piston diameter from the **largest measured bore** | **0.030–0.055 mm** |\n| Top-ring side clearance | Clean the groove and ring, then measure clearance between them | Standard **0.030–0.065 mm**; limit **0.115 mm** |\n| Top-ring end gap | Square the ring near the cylinder bottom with the piston crown, then measure its gap | Limit **0.50 mm**—not a new-ring fitting target |\n| Piston-pin outside diameter | Measure with a micrometer | Minimum **15.971 mm** |\n| Piston’s pin-bore inside diameter | Measure with a suitable small-bore gauge | Maximum **16.043 mm** |\n| Actual pin clearance | Subtract pin diameter from piston pin-bore diameter | **0.002–0.022 mm** |\n\nCompare bore readings at different heights for taper and the two directions for out-of-round. **The separate taper/out-of-round limits aren’t confirmed here**; Yamaha’s cylinder inspection section is needed before accepting a questionable bore. Don’t accept it solely because it is below the maximum diameter.\n\nInspect for vertical scoring, damaged cylinder coating, piston cracks and damaged ring grooves. Yamaha’s inspection procedure calls for cylinder/piston/ring replacement together when scoring or failed piston clearance requires it. A discolored or grooved pin also needs a lubrication investigation. No numerical oil-ring rail-gap tolerance is confirmed here.\n\n**Yamaha’s race schedule calls for piston, rings, pin and clips replaced as a set every fifth race—about 12.5 hours—and as required.** Measurements don’t cancel that replacement schedule.\n\nFor the measurement locations and sequence, tap **“Start a guided job” → “Disassemble and measure the prepared top end.”** It requires a cold, drained engine secured on the bench; it does not cover reassembly.",
+     "next_step": {
+      "action": "Record all six bore readings and the piston skirt diameter at Yamaha’s illustrated measuring locations.",
+      "purpose": "Establish bore shape and calculate actual piston-to-cylinder clearance before deciding reuse.",
+      "stop_conditions": [
+       "Scoring, coating damage or piston cracks.",
+       "Measurements outside the applicable ranges.",
+       "Uncertain measurement locations or insufficiently accurate measuring tools."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Piston / Piston pin bore inside diameter limit: 16.043 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Cylinder / Wear limit: 77.06 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Service schedule / Piston – Replace the piston, piston pin, piston pin clip, and piston ring all as a set: every fifth race (about 12.5 hours); as required; marked for a Yamaha dealer. From the maintenance-interval table of the US Owner's Service Manual. Intervals are per race with the approximate hours as printed. The same table says the life of parts varies with the environment the machine runs in (rain, dirt) and earlier inspection is then required, and that items marked for a Yamaha dealer need special tools, data and technical skills. After a break-in or before each race, also check the torque-check points in the same manual.",
+     "Piston / Piston-to-cylinder clearance: 0.030–0.055 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / Top ring / End gap limit: 0.5 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston pin outside diameter limit: 15.971 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Cylinder / Bore: 77.000–77.010 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / Top ring / Side clearance limit: 0.115 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston-pin-to-piston-pin-bore clearance: 0.002–0.022 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / Top ring / Ring side clearance: 0.030–0.065 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston / Measuring point (from piston skirt bottom): 4 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+    ]
+   },
+   {
+    "rider": "Ok, next step",
+    "reply": {
+     "summary": "Next, calculate piston-to-cylinder clearance and record the actual readings before deciding what can be reused.",
+     "answer": "**Next, calculate piston-to-cylinder clearance—don’t start reassembly yet.**\n\n1. Record the six cylinder-bore readings: two directions at each of Yamaha’s three illustrated measuring heights.\n2. Record the piston skirt diameter measured **4 mm (0.16 in) above the skirt bottom**, on the specified measuring axis.\n3. Subtract the piston diameter from the largest bore reading. Yamaha specifies **0.030–0.055 mm (0.0012–0.0022 in)** clearance.\n\nA passing clearance does not clear damaged cylinder coating, a cracked piston or worn ring grooves for reuse. Yamaha also calls for the piston, rings, pin and clips replaced together **every fifth race—about 12.5 hours—or as required**.\n\nIf you haven’t taken the measurements, continue **“Disassemble and measure the prepared top end”** through **“Start a guided job”** for the measuring locations.\n\n**What are your six bore readings and piston skirt diameter?**",
+     "next_step": {
+      "action": "Record the six bore readings and piston skirt diameter, then calculate their clearance.",
+      "purpose": "Establish measured fit before accepting parts for reuse.",
+      "stop_conditions": [
+       "Measuring locations or instrument accuracy are uncertain.",
+       "Cylinder coating damage, scoring or piston cracks are present.",
+       "Calculated clearance falls outside Yamaha’s specified range."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Piston / Piston-to-cylinder clearance: 0.030–0.055 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston / Measuring point (from piston skirt bottom): 4 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Service schedule / Piston – Replace the piston, piston pin, piston pin clip, and piston ring all as a set: every fifth race (about 12.5 hours); as required; marked for a Yamaha dealer. From the maintenance-interval table of the US Owner's Service Manual. Intervals are per race with the approximate hours as printed. The same table says the life of parts varies with the environment the machine runs in (rain, dirt) and earlier inspection is then required, and that items marked for a Yamaha dealer need special tools, data and technical skills. After a break-in or before each race, also check the torque-check points in the same manual."
+    ]
+   },
+   {
+    "rider": "How do I line up the cam timing when it goes back together?",
+    "reply": {
+     "summary": "Cam timing requires the crank at compression TDC and both cams aligned to Yamaha’s timing diagram. The exact mark orientation and tensioner installation procedure aren’t confirmed here, so don’t guess or use the starter.",
+     "answer": "**Set the crank at compression top dead center, then align both cams to Yamaha’s timing diagram—not by lobe position alone.** The exact timing-mark orientation, chain indexing and tensioner reset/release procedure for your 2025 aren’t confirmed here.\n\nThis is the general assembly order, **not a complete installation procedure**:\n\n1. Position the crank at its designated TDC timing mark.\n2. Position the intake and exhaust cams using the specified sprocket marks and cylinder-head reference surface. Keep the driving side of the chain taut; slack belongs on the tensioner side.\n3. Install the cam caps and reset, install and release the tensioner using the exact Yamaha procedure.\n4. Once assembled and tensioned, turn the crank slowly by hand through **two complete revolutions** in the specified running direction. Return precisely to TDC and recheck every timing mark. Check cold valve clearances before startup.\n\n**Keep the battery disconnected. If rotation meets a hard stop, stop—never force it or use the starter.** Also resolve the head-bolt lubrication conflict identified earlier before mounting the head; the available head-reassembly job does not cover cam timing.\n\n**Can you send a clear photo of Yamaha’s camshaft-installation diagram and its adjoining tensioner instructions?**",
+     "next_step": {
+      "action": "Provide Yamaha’s camshaft-installation diagram and adjoining tensioner instructions before installing the cams.",
+      "purpose": "Confirm exact timing references and installation order rather than guessing from general principles.",
+      "stop_conditions": [
+       "Do not use the starter before timing and hand-rotation checks are complete.",
+       "Stop at any hard resistance during hand rotation.",
+       "Do not proceed with head mounting until its lubrication requirements are resolved."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "It's all back together. What's the break-in?",
+    "reply": {
+     "summary": "Verify timing and lubrication before the first start, then break it in progressively under light-to-moderate load and change the oil and filter afterward.",
+     "answer": "**Don’t go straight into a hard moto—verify oil delivery first, then build load progressively.** “Back together” doesn’t confirm the cam-timing and head-tightening checks we left unresolved.\n\n1. **Before starting:** confirm head tightening, cam timing, tensioner operation, free hand rotation and cold valve clearances. Check oil, coolant, throttle return and all connections.\n2. **First start:** prove oil delivery at the designated oil-pressure check bolt before revving. Then warm it briefly while checking for leaks—don’t leave it sitting and getting hot.\n3. **Initial riding:** use light load, vary rpm and shift normally. Avoid lugging, sustained high rpm and full-throttle pulls. Stop and inspect for leaks and loose fasteners.\n4. **Next session:** progressively increase load, still varying rpm, then inspect again. The exact Yamaha timed/throttle break-in schedule isn’t confirmed here; don’t substitute a guessed duration.\n5. **After break-in:** change the oil and filter and inspect the drained oil. Yamaha specifies **0.75 L (0.79 US qt) with filter replacement**, followed by the proper level check—not the dry-rebuild fill quantity.\n\nTap **“Start a guided job” → “First start, break-in and checks after an engine rebuild”** for the first-start checks and staged run-in. Have a torque wrench, oil, filter and drain pan ready.\n\n**Stop immediately for absent oil delivery, knocking, significant smoke, overheating or leaks.**",
+     "next_step": {
+      "action": "Open the first-start and break-in guided job and complete its pre-start checks before running the engine.",
+      "purpose": "Verify assembly and lubrication before applying riding load.",
+      "stop_conditions": [
+       "Unresolved head tightening or cam timing.",
+       "Hard resistance during hand rotation.",
+       "No oil delivery during the prescribed check.",
+       "Knocking, significant smoke, overheating or fluid leakage."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Engine oil / Engine oil quantity / With oil filter removal: 0.75 L. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Retain the stated oil-change/filter-removal/disassembled fill condition; verify level by OEM procedure."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rb-yz450f-2022",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2022,
+   "configuration": {}
+  },
+  "manual": {
+   "publication": "B2W-2819U-12",
+   "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+   "type": "Yamaha Owner's Service Manual"
+  },
+  "manual_text": "/tmp/claude-0/-home-claude/6efe62a0-cd5f-5b6c-9409-a557e03a6696/scratchpad/osm/B2W-2819U-12.txt",
+  "checks": [
+   "every step, spec and order matches the Owner's Service Manual for this exact year",
+   "one step (or a small group) per reply, never the whole manual at once",
+   "plain words a home mechanic can follow, with what to check before moving on",
+   "torques, clearances and limits are the manual's, in its units",
+   "says when a special tool or a measurement decides whether a part is reused"
+  ],
+  "turns": [
+   {
+    "rider": "I want to rebuild the motor on my 2022 YZ450F. Can you walk me through it step by step?",
+    "reply": {
+     "summary": "Yes—use the guided major-engine rebuild route for your 2022 YZ450F. Start with inspection and preparation, then work through removal, measured teardown, assembly and commissioning in order.",
+     "answer": "Yes. Tap **“Start a guided job” above the message box** and choose **“Major engine rebuild and bike reassembly.”** That covers the assembled bike through top and bottom end, engine refit and commissioning; once running, say **“next”** to advance.\n\nThis is the job plan—not an executable teardown procedure. The guided steps supply the access order, illustrations and checks before each operation.\n\n1. **Prepare and inspect.** Clean the bike, document why you’re rebuilding, and check the drained oil/filter for debris. Resolve required specifications before dismantling: the exact oil-level check-bolt closure specification isn’t confirmed here and must be verified from Yamaha’s service information.\n2. **Remove the engine.** Follow the supported removal route, including the exhaust-clearance work around the shock/linkage joints. Label connections and keep hardware grouped.\n3. **Strip and measure the top end.** Inspect the piston, rings, cylinder, head, valves, cams and timing components. Measure before deciding what to reuse or order.\n4. **Strip and inspect the bottom end.** Check the crank, cases, bearings, gearbox, shift mechanism, oil pump and drives. The route covers complete crank replacement—not rebuilding the pressed crank itself.\n5. **Reassemble and verify.** Follow the bearing/seal, lubrication, tightening and timing steps. Yamaha’s cold valve clearances are **intake 0.10–0.17 mm (0.0039–0.0067 in)** and **exhaust 0.15–0.22 mm (0.0059–0.0087 in)**.\n6. **Refit and commission.** Complete leak checks, lubrication/cooling checks and the prescribed break-in follow-up before riding.\n\nTypical equipment includes torque wrenches, an angle gauge, micrometers/bore gauge, feeler gauges, flywheel/clutch holding tools, case splitter, crank installer and suitable bearing tools. Confirm the exact tools and replacement parts in the guided preparation steps before buying.",
+     "next_step": {
+      "action": "Tap “Start a guided job” and select “Major engine rebuild and bike reassembly.”",
+      "purpose": "Begin with preparation, component confirmation and prerequisite checks before removing parts.",
+      "stop_conditions": [
+       "Installed components do not match the stock procedure.",
+       "Required tools or exact closure specifications are unresolved.",
+       "Measurements reveal damage outside the route’s retained-component scope."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Valve, valve seat, valve guide / Valve clearance (cold) / Intake: 0.10–0.17 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Measure valve clearance with engine cold.",
+     "Valve, valve seat, valve guide / Valve clearance (cold) / Exhaust: 0.15–0.22 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Measure valve clearance with engine cold."
+    ]
+   },
+   {
+    "rider": "Ok, the bike is clean and on the stand. What's the first thing I do?",
+    "reply": {
+     "summary": "First, isolate the battery: engine off and cool, disconnect the negative lead and secure it away from the terminal.",
+     "answer": "**Disconnect the battery’s negative (–) lead first.** With the engine off and fully cool, remove the seat to access the battery, identify the terminal marked “–,” then disconnect that lead and secure it so it cannot touch the terminal again. Leave the positive lead connected for now, and keep your tool from bridging the terminals.\n\nThat prevents an accidental starter operation while you work. Don’t disconnect fuel lines or open the cooling system yet.\n\nTap **“Start a guided job” → “Major engine rebuild and bike reassembly”** so we can follow the engine-removal checks in order; once it’s running, say **“next.”**",
+     "next_step": {
+      "action": "Disconnect and secure the battery negative lead with the engine off and cool.",
+      "purpose": "Prevent accidental starter operation before dismantling.",
+      "stop_conditions": [
+       "Battery is swollen, leaking or hot.",
+       "Terminal polarity is unclear or wiring is damaged.",
+       "Bike is unstable on its stand."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "Done. What's next?",
+    "reply": {
+     "summary": "Next, drain the engine oil into a clean pan and inspect it for debris. Leave the battery disconnected and do not start the engine to warm the oil.",
+     "answer": "**Next, drain the engine oil and keep it for inspection.** Leave the battery negative lead disconnected; don’t start the engine to warm the oil now—cold oil will simply drain more slowly.\n\n1. Put a clean drain pan under the engine. Have the correct socket, gloves and a clean sample container ready.\n2. Identify the **engine oil drain bolt**, not the oil-level check bolt. If you cannot positively identify it, stop rather than guessing.\n3. Remove the drain bolt, catch its sealing washer and let the oil drain completely. Keep dirt from the underside of the bike out of the sample.\n4. Look for metallic glitter, flakes or chunks. Photograph any debris and retain the oil; that evidence helps determine what needs inspection during teardown.\n\nWhen refitting the original engine oil drain bolt, Yamaha specifies **20 N·m (15 ft-lb)**. Inspect the bolt, threads and sealing washer first.\n\nFor the reviewed removal sequence, tap **“Start a guided job” → “Major engine rebuild and bike reassembly.”**",
+     "next_step": {
+      "action": "Drain the engine oil into a clean pan and inspect for metallic debris.",
+      "purpose": "Remove oil before engine removal and preserve evidence of internal wear.",
+      "stop_conditions": [
+       "The drain bolt cannot be positively identified.",
+       "The bike is unstable on its stand.",
+       "The drain bolt or threads are damaged; do not force them."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Engine oil drain bolt: 20 N·m. Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements."
+    ]
+   },
+   {
+    "rider": "Next step",
+    "reply": {
+     "summary": "With the oil drained, drain the coolant next—but only with the engine and radiators fully cold.",
+     "answer": "**Next, drain the coolant with the engine and radiators fully cold.** Keep the battery disconnected and collect coolant separately from the oil.\n\n1. Place a clean catch pan beneath the water-pump area.\n2. Only when fully cold, slowly remove the radiator cap.\n3. Positively identify the **coolant drain bolt** before removing it; don’t confuse it with a cover bolt or the coolant-temperature sensor. Catch its sealing washer and let the coolant drain.\n4. Inspect the drained coolant for oil, sediment or metal, and keep a sample if anything looks abnormal. Keep coolant away from pets.\n\nYamaha specifies **10 N·m (7.4 ft-lb)** for refitting the stock coolant drain bolt; inspect its threads and sealing washer first.\n\nThe exact drain-bolt identification and access steps aren’t confirmed here. Tap **“Start a guided job” → “Major engine rebuild and bike reassembly”** for the reviewed removal sequence rather than guessing which bolt to undo. Leave fuel lines connected for now.",
+     "next_step": {
+      "action": "After oil draining, drain the fully cold cooling system once the coolant drain bolt is positively identified.",
+      "purpose": "Remove coolant before engine removal without opening a hot pressurized system.",
+      "stop_conditions": [
+       "Engine or radiators are still warm.",
+       "Coolant drain bolt cannot be positively identified.",
+       "Bike is unstable or drain-bolt threads appear damaged."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Coolant drain bolt: 10 N·m. Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements."
+    ]
+   },
+   {
+    "rider": "How tight do the cylinder head bolts go, and in what order?",
+    "reply": {
+     "summary": "The four main M10 head bolts use a staged torque-and-angle procedure—not one final torque. The exact numbered tightening pattern requires Yamaha’s illustration; don’t guess the bolt positions.",
+     "answer": "For your **2022 YZ450F’s stock cylinder head**, Yamaha specifies:\n\n| Fasteners | Tightening procedure |\n|---|---|\n| Four main **M10 head bolts** | **40 N·m (30 ft-lb)** in the illustrated order, then remove the bolts. Reinstall and tighten to **23 N·m (17 ft-lb)** in that order, then turn each **90° in a diagonal sequence**, followed by another **60° in the specified order**. |\n| Two smaller **M6 head bolts** | **10 N·m (7.4 ft-lb)**. These do **not** get the M10 angle procedure. |\n\nFor both M10 tightening passes, apply **molybdenum disulfide grease to the threads, bolt seats and both faces of the washers**. Have a torque wrench and angle gauge ready; don’t substitute a guessed final torque for the angle stages.\n\n**The exact numbered bolt-position illustration isn’t confirmed here**, including where the smaller bolts enter the assembly sequence. Don’t assign numbers from a generic cross-pattern. Tap **“Start a guided job” → “Rebuild the top end and reassemble the bike”** for the illustrated assembly checks before tightening.\n\nThese are **reassembly instructions**—if you’re still stripping the engine, don’t tighten the head bolts now.",
+     "next_step": {
+      "action": "Open the guided top-end job and verify its illustrated head-bolt sequence before assembly.",
+      "purpose": "Match each torque-and-angle stage to the correct bolt positions and assembly prerequisites.",
+      "stop_conditions": [
+       "The bolt-position illustration is unavailable or unclear.",
+       "Head or fasteners differ from the stock configuration."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Cylinder head bolt: 10 N·m. Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements.",
+     "Cylinder head bolt: 40 N·m in specified order; remove bolts; retighten to 23 N·m in specified order; then 90 degrees diagonally, followed by 60 degrees in specified order.. Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements. Molybdenum disulfide grease specified by the table; use joint procedure for application location. Molybdenum disulfide grease on threads, seats and both washer faces during both tightening passes. Illustrated sequence is required."
+    ]
+   },
+   {
+    "rider": "What do I need to measure on the piston and cylinder before I reuse them?",
+    "reply": {
+     "summary": "Measure bore wear, piston-to-cylinder clearance, ring fit and piston-pin fit before reuse. Passing measurements alone does not override cracks, scoring, damaged plating or Yamaha’s replacement schedule.",
+     "answer": "**Check the bore, piston clearance, rings and pin fit—not just how the piston looks.** Use an outside micrometer, dial bore gauge and feeler gauges; calipers aren’t accurate enough for these clearances.\n\nFor your stock **2022 YZ450F**, Yamaha gives:\n\n| Check | Specification / rejection limit |\n|---|---|\n| Cylinder bore | Standard **97.000–97.010 mm**; wear limit **97.060 mm** |\n| Piston-to-cylinder clearance | Standard **0.010–0.045 mm** (0.0004–0.0018 in) |\n| Top-ring end gap | Wear limit **0.55 mm** (0.0217 in) |\n| Second-ring end gap | Wear limit **0.85 mm** (0.0335 in) |\n| Piston pin outside diameter | Minimum **17.981 mm** |\n| Piston pin bore inside diameter | Maximum **18.045 mm** |\n| Pin-to-piston clearance | Standard **0.004–0.024 mm** |\n\n1. **Inspect first.** Clean without scratching the surfaces. Cracks, damaged ring lands, heavy skirt scoring or peeling cylinder plating rule out straightforward reuse—even with acceptable dimensions.\n2. **Map the cylinder.** General workshop practice is to measure in two perpendicular directions at upper, middle and lower bore positions. Record every reading; differences reveal taper and out-of-round. Avoid the unworn ridge.\n3. **Measure the piston skirt.** Yamaha specifies a measuring point **9 mm above the skirt bottom**. Confirm the measuring orientation in the guided illustration. Subtract piston diameter from the corresponding bore diameter to calculate clearance.\n4. **Check rings and grooves.** Square each ring in the bore before measuring end gap. Check groove wear too: top-ring side clearance is **0.015–0.065 mm**, limit **0.120 mm**; second-ring clearance is **0.020–0.060 mm**, limit **0.100 mm**.\n5. **Measure pin fit.** Check both piston pin bores and the pin for wear, scoring and discoloration.\n\n**Exact taper/out-of-round limits and a separate piston-clearance wear limit aren’t confirmed here.** Don’t treat the maximum bore diameter as the only reuse test.\n\nYamaha schedules piston, rings, pin and clips replacement together every **fifth race—about 12.5 hours—or as required**. Wear limits aren’t new-part targets.\n\nTap **“Start a guided job” → “Rebuild the top end and reassemble the bike”** for the illustrated inspection sequence before deciding what to retain.",
+     "next_step": {
+      "action": "Record the cylinder bore readings and piston skirt diameter in the guided top-end inspection.",
+      "purpose": "Establish actual wear and calculated piston-to-cylinder clearance before reuse.",
+      "stop_conditions": [
+       "Cracks, damaged ring lands or peeling cylinder plating.",
+       "Measurements reach wear limits or exceed standard clearance without an applicable reuse criterion.",
+       "Measuring tools or piston measuring orientation cannot be verified."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Cylinder / Bore: 97.000–97.010 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Cylinder / Wear limit: 97.06 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston-to-cylinder clearance: 0.010–0.045 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / Top ring / End gap limit: 0.55 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston ring / 2nd ring / End gap limit: 0.85 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston pin outside diameter limit: 17.981 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston pin bore inside diameter limit: 18.045 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston-pin-to-piston-pin-bore clearance: 0.004–0.024 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston / Measuring point (from piston skirt bottom): 9 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / Top ring / Ring side clearance: 0.015–0.065 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / Top ring / Side clearance limit: 0.12 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston ring / 2nd ring / Ring side clearance: 0.020–0.060 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / 2nd ring / Side clearance limit: 0.1 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Service schedule / Piston – Replace the piston, piston pin, piston pin clip, and piston ring all as a set: every fifth race (about 12.5 hours); as required; marked for a Yamaha dealer. From the maintenance-interval table of the US Owner's Service Manual. Intervals are per race with the approximate hours as printed. The same table says the life of parts varies with the environment the machine runs in (rain, dirt) and earlier inspection is then required, and that items marked for a Yamaha dealer need special tools, data and technical skills. After a break-in or before each race, also check the torque-check points in the same manual."
+    ]
+   },
+   {
+    "rider": "Ok, next step",
+    "reply": {
+     "summary": "Next, inspect the removed cylinder head for damage and check its gasket face for warpage. Keep the piston and cylinder reuse decision open until their measurements are recorded.",
+     "answer": "**Next, check the cylinder head’s condition and gasket-face flatness.** This is an inspection step with the head removed—not an instruction to remove the cams or valves yet.\n\n1. **Clean the gasket face carefully.** Remove gasket residue without scratching the aluminum; general workshop practice is to avoid powered abrasive discs, which can remove metal and leave abrasive debris.\n2. **Inspect visually.** Look for cracks around the valve seats and spark-plug hole, damaged gasket sealing areas, and corrosion in the coolant passages.\n3. **Check flatness.** Using a precision straightedge and feeler gauges, check across the cleaned face in several directions, including diagonally. Yamaha’s cylinder-head warpage limit is **0.05 mm (0.0020 in)**. Record the largest gap; don’t sand the head flat yourself.\n\nKeep the piston/cylinder measurements recorded separately—nothing has passed inspection just because we’ve moved to the head.\n\nFor the illustrated inspection and subsequent valve checks, tap **“Start a guided job” → “Rebuild the top end and reassemble the bike.”** Have a precision straightedge, feeler gauges and good lighting ready.",
+     "next_step": {
+      "action": "With the cylinder head removed, inspect its cleaned gasket face and record the largest straightedge-to-face gap.",
+      "purpose": "Identify head damage or distortion before deciding what can be reused.",
+      "stop_conditions": [
+       "Cracks or damaged gasket sealing surfaces are found.",
+       "Measured warpage reaches or exceeds 0.05 mm.",
+       "The head is still installed; follow the guided removal sequence first."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Cylinder head / Warpage limit: 0.05 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+    ]
+   },
+   {
+    "rider": "How do I line up the cam timing when it goes back together?",
+    "reply": {
+     "summary": "Set the crank at compression TDC, then align both cams to Yamaha’s illustrated timing marks before tensioning the chain. The exact mark positions and tensioner procedure need confirmation before assembly.",
+     "answer": "**The crank must be at compression top dead center, with both cams aligned to Yamaha’s timing illustration—not just with the piston at the top.** Being one tooth out can cause piston-to-valve contact.\n\nThe exact crank reference, cam-sprocket marks and tensioner reset procedure for your 2022 aren’t confirmed here, so I won’t guess a mark or chain-pin count.\n\nThe general assembly order is:\n1. **Establish crank TDC** using the specified crank mark and pointer. Piston height alone isn’t precise enough.\n2. **Position both cams** using the exact intake/exhaust marks and lobe orientations shown in the assembly illustration. Keep slack on the tensioner side, not between the crank and cams.\n3. **Secure the cams and install/release the tensioner** in the prescribed sequence. Recheck alignment with the chain tensioned.\n4. **Verify by hand before using the starter.** General workshop practice is to remove the spark plug, turn the crank slowly through two complete revolutions in the specified direction, return to the timing reference and recheck every mark. **Stop at any hard resistance—never force it.**\n\nTap **“Start a guided job” → “Rebuild the top end and reassemble the bike”** for the illustrated timing and tensioner steps. Have a torque wrench and the timing illustrations ready; this overview isn’t a substitute for those steps.",
+     "next_step": {
+      "action": "Open the guided top-end job and confirm the illustrated crank, cam and tensioner steps before installing the cams.",
+      "purpose": "Establish exact timing references and assembly prerequisites without guessing.",
+      "stop_conditions": [
+       "Timing marks or installed components do not match the illustration.",
+       "The tensioner reset or release procedure is unclear.",
+       "The crank meets hard resistance during hand rotation.",
+       "Timing marks fail to realign after hand rotation."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "It's all back together. What's the break-in?",
+    "reply": {
+     "summary": "Verify the engine’s commissioning checks before riding, then use controlled, varying loads rather than extended idling. The break-in route must match the parts actually replaced, followed by an oil and filter change.",
+     "answer": "**Break it in by riding under controlled, varying loads—not by leaving it idling on the stand.** First confirm cam timing, cold valve clearances, oil supply and level, coolant, throttle return and leak checks. “All back together” doesn’t establish that those checks passed.\n\nThe exact timed riding and throttle-limit schedule isn’t confirmed here. Common workshop practice is:\n\n1. Warm it normally, then ride in a controlled off-road area with smooth acceleration and changing rpm and gears. Avoid lugging, full-throttle pulls and sustained high rpm.\n2. Stop early to inspect for oil/coolant leaks and loose mounts. Continue only if it runs cleanly and the checks pass.\n3. After break-in, **change the oil and replace the oil filter**, as Yamaha specifies. Inspect the drained oil and filter for debris, and complete the required fastener, controls, chain and spoke checks.\n\n**Stop immediately for knocking, oil loss, coolant loss or overheating; metal chips require investigation before restarting.**\n\nTap **“Start a guided job” → “Commission the repaired engine and complete break-in follow-up.”** It covers the replacement-part riding route, cooling test and follow-up inspections. Have torque tools, a clean drain pan, oil, filter, cover O-ring and drain gasket ready; the cooling test requires a Mityvac MV4560 with a confirmed correct adapter.\n\n**Which parts did you replace?**",
+     "next_step": {
+      "action": "Open the commissioning guided job and verify the pre-start checks.",
+      "purpose": "Establish readiness to run and select the route matching the replacement parts.",
+      "stop_conditions": [
+       "Unresolved timing, valve-clearance, lubrication or fastening checks.",
+       "Failed cooling test or visible leaks.",
+       "Abnormal mechanical noise, metal chips or overheating."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Service schedule / Engine oil – Replace: after break-in; every third race (about 7.5 hours). From the maintenance-interval table of the US Owner's Service Manual. Intervals are per race with the approximate hours as printed. The same table says the life of parts varies with the environment the machine runs in (rain, dirt) and earlier inspection is then required, and that items marked for a Yamaha dealer need special tools, data and technical skills. After a break-in or before each race, also check the torque-check points in the same manual.",
+     "Service schedule / Oil filter element – Replace: after break-in; every fifth race (about 12.5 hours). From the maintenance-interval table of the US Owner's Service Manual. Intervals are per race with the approximate hours as printed. The same table says the life of parts varies with the environment the machine runs in (rain, dirt) and earlier inspection is then required, and that items marked for a Yamaha dealer need special tools, data and technical skills. After a break-in or before each race, also check the torque-check points in the same manual."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rb-yz450f-2025",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2025,
+   "configuration": {}
+  },
+  "manual": {
+   "publication": "D02-2819U-10",
+   "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf",
+   "type": "Yamaha Owner's Service Manual"
+  },
+  "manual_text": "/tmp/claude-0/-home-claude/6efe62a0-cd5f-5b6c-9409-a557e03a6696/scratchpad/osm/D02-2819U-10.txt",
+  "checks": [
+   "every step, spec and order matches the Owner's Service Manual for this exact year",
+   "one step (or a small group) per reply, never the whole manual at once",
+   "plain words a home mechanic can follow, with what to check before moving on",
+   "torques, clearances and limits are the manual's, in its units",
+   "says when a special tool or a measurement decides whether a part is reused"
+  ],
+  "turns": [
+   {
+    "rider": "I want to rebuild the motor on my 2025 YZ450F. Can you walk me through it step by step?",
+    "reply": {
+     "summary": "Yes—use the guided Major engine rebuild and bike reassembly job for your 2025 YZ450F. It takes you from the assembled bike through inspection, rebuilding, refitting and break-in checks.",
+     "answer": "Yes—tap **“Start a guided job” above the message box**, then choose **“Major engine rebuild and bike reassembly.”** I can walk you through that job step by step here, checking measurements before moving on—not just handing you a torque list.\n\nThe job runs in this order:\n1. **Prepare and remove the engine:** clean the bike, drain fluids, disconnect the required systems and support the engine for removal.\n2. **Strip and inspect the top end:** check the head, valves, cams, cylinder, piston and rings. Record wear before deciding what stays.\n3. **Strip and inspect the lower end:** work through the clutch and drives, split the cases, then inspect the gearbox, bearings, crank assembly and oil pump.\n4. **Rebuild the lower end:** fit the required serviceable or replacement components. This route uses a **complete crank assembly**, not a home connecting-rod pressing job.\n5. **Rebuild and time the top end:** verify piston/ring fit, valve condition, cam timing and cold valve clearances. Yamaha specifies **0.10–0.17 mm intake** and **0.15–0.22 mm exhaust**.\n6. **Refit and commission:** complete the required lubrication, cooling, leak and operating checks, followed by replacement-part break-in and follow-up inspections.\n\nFor general preparation, have a clean bench, engine support, labeled trays, torque wrenches, an angle gauge, feeler gauges, micrometers and bore-measuring equipment available. The guided steps identify the exact special tools and replacement parts before their use; don’t buy every internal part before measuring.\n\nThis route assumes stock engine hardware and sound, reusable cases. Damaged cases, specialist valve-seat work and excluded component internals need separate work before assembly can continue.",
+     "next_step": {
+      "action": "Tap “Start a guided job” and select “Major engine rebuild and bike reassembly.”",
+      "purpose": "Begin the exact-year assembled-bike rebuild route with preparation and tool checks.",
+      "stop_conditions": [
+       "Installed engine hardware differs from the stock operation.",
+       "Required tools, measurements or safe engine support are unavailable."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Valve, valve seat, valve guide / Valve clearance (cold) / Intake: 0.10–0.17 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Measure valve clearance with engine cold.",
+     "Valve, valve seat, valve guide / Valve clearance (cold) / Exhaust: 0.15–0.22 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Measure valve clearance with engine cold."
+    ]
+   },
+   {
+    "rider": "Ok, the bike is clean and on the stand. What's the first thing I do?",
+    "reply": {
+     "summary": "First, switch the bike off and disconnect the battery’s negative terminal so the starter cannot operate during teardown.",
+     "answer": "**First, disconnect the battery’s negative (–) lead.** With the engine fully cool and the bike secure on its stand:\n\n1. Make sure the ignition is off and remove the seat to access the battery.\n2. Identify the terminal marked **–**—don’t rely on cable color alone.\n3. Disconnect that lead first, keeping your tool clear of the positive terminal.\n4. Insulate and secure the disconnected lead so it cannot spring back onto the terminal.\n\nDon’t drain fluids or disconnect fuel lines yet. Tap **“Start a guided job” above the message box** and choose **“Major engine rebuild and bike reassembly”** so we follow the removal checks in order. Once it’s running, say **“next”** after completing this step.",
+     "next_step": {
+      "action": "With ignition off, disconnect, insulate and secure the battery negative lead.",
+      "purpose": "Prevent accidental starter operation during engine removal preparations.",
+      "stop_conditions": [
+       "Battery polarity cannot be positively identified.",
+       "Battery or wiring is hot, swollen or damaged.",
+       "Bike is not securely supported."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "Done. What's next?",
+    "reply": {
+     "summary": "Next, drain the engine oil without restarting the engine. Keep the two drain bolts and their sealing washers separately labeled.",
+     "answer": "**Next, drain the engine oil—leave the battery disconnected and don’t start it to warm the oil.** Let the engine and exhaust cool before working underneath.\n\nAs general workshop guidance:\n1. Put a drain pan underneath and clean around the oil filler and drain points before opening them.\n2. Positively identify **both the oil-tank drain and crankcase drain** before removing anything; don’t mistake a nearby case bolt for a drain.\n3. Remove the filler cap, then drain both points. Cold oil drains more slowly, so give it time.\n4. Keep each bolt and sealing washer separately labeled. Look for metal flakes, fragments or milky oil; photograph anything suspicious before disposing of the oil.\n\nFor later refitting, Yamaha specifies **10 N·m (7.4 ft-lb) for the oil-tank drain bolt** and **20 N·m (15 ft-lb) for the crankcase drain bolt**. Those are different joints—don’t interchange them.\n\nTap **“Start a guided job” → “Major engine rebuild and bike reassembly”** for the exact drain-point illustrations and sealing-part requirements before proceeding. Leave the coolant and fuel lines alone for now.",
+     "next_step": {
+      "action": "With the engine cool and battery disconnected, identify and drain both engine-oil drain points into a clean pan.",
+      "purpose": "Remove the oil before engine removal and preserve evidence of internal wear.",
+      "stop_conditions": [
+       "Either drain bolt cannot be positively identified.",
+       "Engine or exhaust remains hot, or bike support is unstable.",
+       "A drain bolt is seized or its head begins rounding."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Engine oil drain bolt (oil tank): 10 N·m. Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements.",
+     "Engine oil drain bolt (crankcase): 20 N·m. Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements."
+    ]
+   },
+   {
+    "rider": "Next step",
+    "reply": {
+     "summary": "Next, drain the coolant with the engine completely cold. Keep the battery disconnected.",
+     "answer": "**Next, drain the coolant—with the engine completely cold.** Keep the battery disconnected and collect the coolant separately from the used oil.\n\nGeneral workshop sequence:\n1. Place a clean drain pan under the coolant drain area. Yamaha lists total cooling-system capacity as **1.03 L (1.09 US qt)**.\n2. Positively identify the coolant drain bolt before loosening anything; don’t mistake a nearby cover bolt for it.\n3. With the system fully cold, slowly remove the radiator cap, then remove the coolant drain bolt and collect the coolant. Keep its sealing parts labeled with the bolt.\n4. Check the drained coolant for oil, rust or debris before disposal. Keep it away from pets.\n\nFor later refitting, Yamaha specifies **10 N·m (7.4 ft-lb)** for the coolant drain bolt—not the surrounding cover bolts.\n\nThe exact drain-point illustration and sealing-part requirements aren’t confirmed here. Tap **“Start a guided job” → “Major engine rebuild and bike reassembly”** to identify them before loosening the bolt. Leave fuel lines and engine mounts connected for now.",
+     "next_step": {
+      "action": "With the engine fully cold, identify the coolant drain point in the guided job, then drain coolant into a separate pan.",
+      "purpose": "Remove coolant before disconnecting cooling hoses for engine removal.",
+      "stop_conditions": [
+       "Engine or cooling system is still warm or pressurized.",
+       "Coolant drain bolt cannot be positively identified.",
+       "Bike support is unstable or the bolt begins rounding."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Coolant drain bolt: 10 N·m. Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements.",
+     "Cooling system / Coolant quantity / Radiator (including all routes): 1.03 L. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required."
+    ]
+   },
+   {
+    "rider": "How tight do the cylinder head bolts go, and in what order?",
+    "reply": {
+     "summary": "The four main M10 cylinder-head bolts use a staged torque-and-angle procedure—not one final torque. Follow the guided job’s illustrated bolt order; the numbered corner sequence isn’t confirmed here.",
+     "answer": "**The four main M10 cylinder-head bolts go through 36 N·m, then individually 18 N·m + 90°, then a final 60° pass**, per Yamaha.\n\n1. Apply **molybdenum disulfide grease** to the threads, bolt seats and both faces of the plain washers for both torque stages.\n2. Tighten all four bolts evenly in Yamaha’s illustrated order to **36 N·m (27 ft-lb)**.\n3. Following that same order, remove **one bolt only**, renew the specified lubrication, reinstall and tighten to **18 N·m (13 ft-lb), then another 90°**. Repeat individually for the remaining bolts—**do not loosen all four together**.\n4. Following the illustrated order again, turn every bolt another **60°**. Use an angle gauge; don’t substitute a final torque reading.\n\nThe **two smaller M6 cylinder-head bolts are 12 N·m (8.9 ft-lb)** with the specified locking agent; they do **not** get the M10 angle procedure.\n\n**The numbered corner order isn’t confirmed here, so don’t guess it.** Tap **“Start a guided job” → “Major engine rebuild and bike reassembly”** for the head-installation illustration and assembly checks before tightening.",
+     "next_step": {
+      "action": "Open the guided rebuild’s head-installation step and identify each bolt against its illustrated tightening order.",
+      "purpose": "Apply the staged tightening procedure to the correct joints in the correct physical sequence.",
+      "stop_conditions": [
+       "Illustrated bolt order cannot be positively identified.",
+       "Required lubrication, torque wrench or angle gauge is unavailable.",
+       "Installed head hardware differs from the stock configuration."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Cylinder head bolt: 36 N·m initial ordered pass; individually remove and retighten each bolt to 18 N·m + 90 degrees; then all bolts another 60 degrees in source order.. Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements. Molybdenum disulfide grease specified by the table; use joint procedure for application location. Molybdenum disulfide grease on threads, seats and both faces of plain washers at both passes. Preserve illustrated order; do not loosen all bolts together.",
+     "Cylinder head bolt: 12 N·m. Exact OEM joint and stock configuration only; consult linked service procedure for order, tool and replacement requirements. Apply locking agent (LOCTITE); grade and application location require the joint procedure, not inferred from the table."
+    ]
+   },
+   {
+    "rider": "What do I need to measure on the piston and cylinder before I reuse them?",
+    "reply": {
+     "summary": "Measure bore wear and shape, piston diameter and running clearance, ring fit, and piston-pin fit before reusing anything. Passing one wear limit does not establish that the complete assembly is reusable.",
+     "answer": "**Check the cylinder at several heights, then measure the piston and calculate their actual clearance.** Use a calibrated outside micrometer and dial bore gauge—not a caliper—for the close measurements.\n\n### Cylinder and piston\n- **Inspect first:** look for cylinder scoring, damaged bore coating, piston cracks, skirt scuffing and damaged ring lands. Dimensions alone cannot clear damaged parts for reuse.\n- **Cylinder bore:** measure near the top, middle and bottom of ring travel in two perpendicular directions. This general measuring pattern reveals taper and out-of-round. Yamaha lists a standard bore of **97.000–97.010 mm** and a wear limit of **97.060 mm (3.8213 in)**.\n- **Piston diameter:** Yamaha’s measuring height is **9 mm (0.35 in) above the skirt bottom**. Use the guided job’s illustration for the measuring orientation. Standard diameter is **96.955–96.970 mm**; that is a standard range, not a separate wear limit.\n- **Piston-to-cylinder clearance:** subtract the measured piston diameter from the applicable measured bore diameter. Yamaha specifies **0.010–0.045 mm (0.0004–0.0018 in)**. A bore below its wear limit can still have excessive piston clearance.\n\n### Rings and pin\n| Measurement | Yamaha specification |\n|---|---|\n| Top-ring end gap | **0.55 mm maximum** |\n| Second-ring end gap | **0.85 mm maximum** |\n| Top-ring groove side clearance | **0.015–0.065 mm**; wear limit **0.120 mm** |\n| Second-ring groove side clearance | **0.020–0.060 mm**; wear limit **0.100 mm** |\n| Piston-pin outside diameter | Wear limit **17.981 mm** |\n| Piston pin-bore inside diameter | Wear limit **18.045 mm** |\n| Pin-to-piston clearance | **0.004–0.024 mm** |\n\nSquare each ring in the bore before checking its gap; clean the grooves before measuring side clearance. Ring-gap figures above are **wear limits, not new-ring fitting targets**.\n\nSeparate taper/out-of-round limits and a minimum reusable piston diameter aren’t confirmed here. Tap **“Start a guided job” → “Rebuild the top end and reassemble the bike”** for the measurement illustrations and inspection sequence before making the reuse decision.",
+     "next_step": {
+      "action": "Record cylinder bore measurements at three heights in two directions, plus piston diameter at Yamaha’s specified measuring location.",
+      "purpose": "Establish bore shape and actual running clearance before deciding on reuse.",
+      "stop_conditions": [
+       "Cracks, damaged bore coating or significant scoring are found.",
+       "The correct measuring orientation cannot be identified.",
+       "Accurate micrometer and bore-gauge measurements cannot be obtained."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Piston / Piston pin bore inside diameter limit: 18.045 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Cylinder / Wear limit: 97.06 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston pin outside diameter limit: 17.981 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston / Piston-to-cylinder clearance: 0.010–0.045 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / 2nd ring / End gap limit: 0.85 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston ring / Top ring / End gap limit: 0.55 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston ring / 2nd ring / Ring side clearance: 0.020–0.060 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / Top ring / Ring side clearance: 0.015–0.065 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston / Piston-pin-to-piston-pin-bore clearance: 0.004–0.024 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston / Measuring point (from piston skirt bottom): 9 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required.",
+     "Piston ring / Top ring / Side clearance limit: 0.12 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston ring / 2nd ring / Side clearance limit: 0.1 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure."
+    ]
+   },
+   {
+    "rider": "Ok, next step",
+    "reply": {
+     "summary": "Next, check the compression-ring end gaps. Don’t approve piston or cylinder reuse until the bore and piston measurements are recorded too.",
+     "answer": "**Next, check the top and second compression-ring end gaps**, keeping each ring identified separately. You haven’t given the bore or piston readings, so those checks aren’t signed off yet.\n\nGeneral workshop method:\n1. Clean the bore and rings without scratching their surfaces.\n2. Place one ring in the cylinder and use the piston to square it evenly—not tilted. Don’t force it past a ridge or damaged area.\n3. Measure between the ring ends with a feeler gauge, without spreading the ends. Record each result separately.\n\nYamaha’s wear limits are:\n- **Top-ring end gap: 0.55 mm (0.0217 in).**\n- **Second-ring end gap: 0.85 mm (0.0335 in).**\n\nThese are rejection limits, **not new-ring fitting targets**. The exact checking depth and new-ring gap targets aren’t confirmed here; use the measurement illustration in **“Rebuild the top end and reassemble the bike”** before accepting the readings. Tap **“Start a guided job”** above the message box to follow that inspection sequence.\n\nFor the rebuild decision, Yamaha schedules the piston, rings, pin and clips for replacement together every fifth race—about **12.5 hours**—or as required; passing a gap check doesn’t override that replacement schedule.",
+     "next_step": {
+      "action": "Identify the illustrated checking position, then measure and record each compression-ring end gap.",
+      "purpose": "Assess ring wear without confusing service limits with new-ring fitting targets.",
+      "stop_conditions": [
+       "The ring-checking position cannot be identified.",
+       "A ring binds, is cracked or encounters damaged bore coating.",
+       "The ring cannot be squared reliably."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Piston ring / Top ring / End gap limit: 0.55 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Piston ring / 2nd ring / End gap limit: 0.85 mm. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Service or wear limit, not a nominal manufacturing target; measure using the OEM procedure.",
+     "Service schedule / Piston – Replace the piston, piston pin, piston pin clip, and piston ring all as a set: every fifth race (about 12.5 hours); as required; marked for a Yamaha dealer. From the maintenance-interval table of the US Owner's Service Manual. Intervals are per race with the approximate hours as printed. The same table says the life of parts varies with the environment the machine runs in (rain, dirt) and earlier inspection is then required, and that items marked for a Yamaha dealer need special tools, data and technical skills. After a break-in or before each race, also check the torque-check points in the same manual."
+    ]
+   },
+   {
+    "rider": "How do I line up the cam timing when it goes back together?",
+    "reply": {
+     "summary": "Set the crank at compression TDC, then align both cams to Yamaha’s illustrated timing references. Verify again with the chain tensioned before turning the engine by hand.",
+     "answer": "**Set the crank at compression top dead center, then position both cams against Yamaha’s timing illustration—not by eyeballing the lobes alone.** The exact crank mark, sprocket-mark orientation and tensioner release procedure for your 2025 aren’t confirmed here.\n\nThis is the general sequence, **not a substitute for the illustrated installation steps**:\n1. **Locate crank TDC:** align the specified crank timing mark with its fixed reference. Don’t assume every mark visible through the inspection opening means TDC.\n2. **Position the cams:** both valves’ operating lobes must be off their followers for compression TDC. Use the exact sprocket references to establish tooth position; lobe direction is only a cross-check.\n3. **Fit the chain:** keep the driving side taut, with installation slack toward the tensioner. Recheck that the crank hasn’t moved while placing the chain.\n4. **Secure the cams and correctly install/release the tensioner** in the illustrated sequence. Recheck all timing references with chain tension applied.\n5. **Turn the crank slowly by hand through two complete revolutions** in the specified running direction, return to the same TDC reference and recheck alignment. Never use the starter for this check. **Stop at any hard resistance—don’t force it.**\n\nTap **“Start a guided job” → “Rebuild the top end and reassemble the bike”** for the exact timing illustrations, cam-cap tightening sequence and tensioner steps before assembly.",
+     "next_step": {
+      "action": "Open the guided top-end job’s cam installation and timing illustrations before fitting the cams.",
+      "purpose": "Identify the correct crank and sprocket references and tensioner sequence.",
+      "stop_conditions": [
+       "Timing references cannot be positively identified.",
+       "Installed hardware differs from the stock procedure.",
+       "The crank encounters hard resistance during hand rotation.",
+       "Timing marks fail to realign after two crank revolutions."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": []
+   },
+   {
+    "rider": "It's all back together. What's the break-in?",
+    "reply": {
+     "summary": "Use a staged, varying-load break-in after the commissioning checks pass. The correct route depends on whether you replaced only top-end parts or also the cylinder, crankshaft or gearbox.",
+     "answer": "**Break it in with gentle, varying load—not prolonged idling or immediate race-speed laps.** The exact timed and throttle-limit schedule for your replacement parts isn’t confirmed here.\n\nBefore riding, confirm cam timing, cold valve clearances, oil flow and level, coolant fill, throttle return and leak checks. A replaced head gasket also needs the cooling-system test covered by the guided commissioning job; being assembled doesn’t mean those checks passed.\n\nCommon workshop practice once those checks pass:\n- Warm it normally, then ride in a controlled off-road area, varying rpm and load gently.\n- Avoid lugging, full-throttle pulls and prolonged stationary idling.\n- Stop during the initial riding to inspect for leaks and looseness before continuing.\n\n**Stop immediately for abnormal mechanical noise, oil-flow failure, leaks or overheating.**\n\nAfter break-in, Yamaha calls for **oil and filter replacement** and follow-up inspections. With filter removal, the refill is **0.96 L (1.01 US qt)**, followed by the proper oil-level check. Metal chips in the drained oil mean investigate before restarting.\n\nTap **“Start a guided job” → “Commission the repaired engine and complete break-in follow-up”** for the checks and replacement-part stages in order. Crankshaft or gearbox replacement needs the major-engine route, not just this top-end companion.\n\n**Which parts did you replace—including the cylinder, crankshaft or gearbox?**",
+     "next_step": {
+      "action": "Identify the replaced parts and start the applicable guided commissioning route before riding.",
+      "purpose": "Select the correct break-in stages and verify the rebuilt engine is ready.",
+      "stop_conditions": [
+       "Unresolved timing, clearance, oil-flow or cooling checks.",
+       "Abnormal mechanical noise, leaks or overheating.",
+       "Crankshaft or gearbox replacement without the applicable commissioning route."
+      ]
+     },
+     "setup_changes": []
+    },
+    "cited_facts": [
+     "Service schedule / Engine oil – Replace: after break-in; every third race (about 7.5 hours). From the maintenance-interval table of the US Owner's Service Manual. Intervals are per race with the approximate hours as printed. The same table says the life of parts varies with the environment the machine runs in (rain, dirt) and earlier inspection is then required, and that items marked for a Yamaha dealer need special tools, data and technical skills. After a break-in or before each race, also check the torque-check points in the same manual.",
+     "Engine oil / Engine oil quantity / With oil filter removal: 0.96 L. Exact US standard-model OEM configuration; measurement/assembly procedure and its prerequisites remain required. Retain the stated oil-change/filter-removal/disassembled fill condition; verify level by OEM procedure."
+    ]
+   }
+  ]
+ }
+]
