@@ -1,0 +1,517 @@
+{
+ "items": [
+  {
+   "id": "rb-yz450f-2022",
+   "manual": "B2W-2819U-12",
+   "turns": [
+    {
+     "turn": 1,
+     "manual_says": "Valve clearance (cold) intake 0.10-0.17 mm, exhaust 0.15-0.22 mm (p.2-2, 3-6). Chapter 5 order: engine removal 5-6..5-12, camshaft 5-13, cylinder head 5-20, valves 5-25, cylinder/piston 5-32, then generator, clutch, crankcase, crank, transmission (ch.5 contents). No oil check bolt torque is listed in the manual.",
+     "verdict": "matches",
+     "problems": "Overview only; order and the valve clearances agree with the manual. Lists a lot of tools and six phases at once; leans on an in-app guided job rather than giving the first step.",
+     "specs": [
+      {
+       "item": "Intake valve clearance (cold)",
+       "reply": "0.10-0.17 mm",
+       "manual": "0.10-0.17 mm",
+       "page": "2-2, 3-6",
+       "status": "ok"
+      },
+      {
+       "item": "Exhaust valve clearance (cold)",
+       "reply": "0.15-0.22 mm",
+       "manual": "0.15-0.22 mm",
+       "page": "2-2, 3-6",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": true
+    },
+    {
+     "turn": 2,
+     "manual_says": "The engine removal job lists start with: raise the front wheel with a maintenance stand, then remove seat, side covers, air scoops, fuel tank (p.5-7, 5-8). Battery disconnect is not a listed engine-removal step; the general notice says disconnect the negative lead first, then the positive (p.1-11).",
+     "verdict": "partly",
+     "problems": "Negative-lead-first agrees with the manual's battery notice (p.1-11), but disconnecting the battery is not the manual's first engine-removal step; the manual starts with stand under the frame raising the front wheel, seat, side covers, air scoops, fuel tank (p.5-7). Not harmful, but not the manual's order.",
+     "specs": [],
+     "easy_to_follow": 5,
+     "overwhelming": false
+    },
+    {
+     "turn": 3,
+     "manual_says": "Changing the oil: warm the engine several minutes, stop, wait about 5 min, place pan, remove oil filler cap and drain bolt with gasket (p.3-13); refit drain bolt with a NEW gasket at 20 N·m (p.3-14, 2-11).",
+     "verdict": "partly",
+     "problems": "Tells the rider NOT to warm the engine, which contradicts the manual's first step (p.3-13); does not say to remove the oil filler cap; says to inspect and reuse the sealing washer where the manual requires a new gasket (p.3-14). Torque is correct.",
+     "specs": [
+      {
+       "item": "Engine oil drain bolt",
+       "reply": "20 N·m (15 ft-lb)",
+       "manual": "20 N·m (15 lb·ft), gasket New",
+       "page": "2-11, 3-14",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": false
+    },
+    {
+     "turn": 4,
+     "manual_says": "Changing the coolant (cold engine only): container under engine, remove coolant drain bolt, then slowly loosen the radiator cap to drain (p.3-21); refit drain bolt with a NEW copper washer at 10 N·m (p.3-21, 2-10). Radiator removal also begins with draining coolant (p.6-2).",
+     "verdict": "partly",
+     "problems": "Removes the radiator cap before the drain bolt (manual: drain bolt first, then cap, p.3-21); suggests reusing the sealing washer where the manual says new copper washer; says the drain bolt location is not confirmed, though the manual shows it (p.3-21 figure). Spec correct.",
+     "specs": [
+      {
+       "item": "Coolant drain bolt",
+       "reply": "10 N·m (7.4 ft-lb)",
+       "manual": "10 N·m (7.4 lb·ft), copper washer New",
+       "page": "2-10, 3-21",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": false
+    },
+    {
+     "turn": 5,
+     "manual_says": "M10 bolts [1]-[4]: wash, moly grease threads/seats/both washer faces, 40 N·m in 2-3 steps in the illustrated order; then loosen bolt [1] ONLY, regrease, 23 N·m, mark and turn 90 deg; repeat bolts [2]-[4] one at a time, not loosening any other bolt until one is complete; then final 60 deg in sequence; M6 bolts [5],[6] last at 10 N·m (p.5-23, 5-24). The summary TIP on p.2-12 says 'remove them' and '90 deg in a diagonal sequence'. Sequence illustration on p.5-23.",
+     "verdict": "wrong",
+     "problems": "Wrong order: tells the rider to remove all four bolts after the 40 N·m pass, then torque all to 23 N·m, then 90 deg on each. The detailed procedure (p.5-23/5-24) says loosen one bolt at a time and complete its 23 N·m + 90 deg before touching the next. Loosening all four at once unloads the new gasket. Also says the bolt order and where the M6 bolts fit are not confirmed, but the manual shows the order (p.5-23) and puts M6 [5],[6] last (p.5-24). Leaves out washing the threads and the new head gasket.",
+     "specs": [
+      {
+       "item": "M10 head bolt 1st",
+       "reply": "40 N·m (30 ft-lb)",
+       "manual": "40 N·m (30 lb·ft)",
+       "page": "2-12, 5-23",
+       "status": "ok"
+      },
+      {
+       "item": "M10 head bolt 2nd",
+       "reply": "23 N·m (17 ft-lb)",
+       "manual": "23 N·m (17 lb·ft)",
+       "page": "2-12, 5-23, 5-24",
+       "status": "ok"
+      },
+      {
+       "item": "M10 angle stages",
+       "reply": "90 deg then 60 deg",
+       "manual": "90 deg then 60 deg",
+       "page": "2-12, 5-24",
+       "status": "ok"
+      },
+      {
+       "item": "M6 head bolts",
+       "reply": "10 N·m (7.4 ft-lb)",
+       "manual": "10 N·m (7.4 lb·ft)",
+       "page": "2-10, 5-24",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": true
+    },
+    {
+     "turn": 6,
+     "manual_says": "Check piston/cylinder walls for vertical scratches; bore 97.000-97.010 mm, wear limit 97.060 mm, C = max of six readings D1-D6 (p.5-33); piston diameter 96.955-96.970 mm at 9.0 mm from skirt bottom; clearance 0.010-0.045 mm, limit 0.15 mm; ring side clearance top 0.015-0.065 (limit 0.120), 2nd 0.020-0.060 (limit 0.100); end gap limit top 0.55, 2nd 0.85, with the ring levelled by the piston crown near the bottom of the cylinder (p.5-34); pin OD limit 17.981, pin bore ID limit 18.045, pin clearance 0.004-0.024 (p.5-35, 2-3). Piston, pin, clip and rings replaced as a set every fifth race (about 12.5 h) or as required (p.3-1).",
+     "verdict": "partly",
+     "problems": "All numbers given are correct, but it says a piston-clearance limit is not confirmed when the manual gives 0.15 mm (p.5-34); leaves out the standard piston diameter 96.955-96.970 mm; does not say to level the ring near the bottom of the bore for the end gap (p.5-34); describes bore mapping as 'general workshop practice' instead of the manual's D1-D6 maximum. Puts every measurement in one reply.",
+     "specs": [
+      {
+       "item": "Bore",
+       "reply": "97.000-97.010 mm, limit 97.060",
+       "manual": "97.000-97.010 mm, wear limit 97.060 mm",
+       "page": "2-3, 5-33",
+       "status": "ok"
+      },
+      {
+       "item": "Piston-to-cylinder clearance",
+       "reply": "0.010-0.045 mm",
+       "manual": "0.010-0.045 mm, limit 0.15 mm",
+       "page": "2-3, 5-34",
+       "status": "ok (limit 0.15 mm missing)"
+      },
+      {
+       "item": "Piston measuring point",
+       "reply": "9 mm above skirt bottom",
+       "manual": "9.0 mm",
+       "page": "2-3, 5-34",
+       "status": "ok"
+      },
+      {
+       "item": "Top ring end gap limit",
+       "reply": "0.55 mm",
+       "manual": "0.55 mm",
+       "page": "2-3, 5-34",
+       "status": "ok"
+      },
+      {
+       "item": "2nd ring end gap limit",
+       "reply": "0.85 mm",
+       "manual": "0.85 mm",
+       "page": "2-3, 5-34",
+       "status": "ok"
+      },
+      {
+       "item": "Top ring side clearance",
+       "reply": "0.015-0.065, limit 0.120 mm",
+       "manual": "0.015-0.065, limit 0.120 mm",
+       "page": "2-3, 5-34",
+       "status": "ok"
+      },
+      {
+       "item": "2nd ring side clearance",
+       "reply": "0.020-0.060, limit 0.100 mm",
+       "manual": "0.020-0.060, limit 0.100 mm",
+       "page": "2-3, 5-34",
+       "status": "ok"
+      },
+      {
+       "item": "Piston pin OD limit",
+       "reply": "17.981 mm",
+       "manual": "17.981 mm",
+       "page": "2-3, 5-35",
+       "status": "ok"
+      },
+      {
+       "item": "Pin bore ID limit",
+       "reply": "18.045 mm",
+       "manual": "18.045 mm",
+       "page": "2-3, 5-35",
+       "status": "ok"
+      },
+      {
+       "item": "Pin-to-bore clearance",
+       "reply": "0.004-0.024 mm",
+       "manual": "0.004-0.024 mm",
+       "page": "2-3",
+       "status": "ok"
+      },
+      {
+       "item": "Piston set replacement interval",
+       "reply": "every fifth race, about 12.5 h, or as required",
+       "manual": "every fifth race (about 12.5 h) or as required",
+       "page": "3-1",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": true
+    },
+    {
+     "turn": 7,
+     "manual_says": "Checking the cylinder head: remove combustion chamber carbon with a rounded scraper, check for damage/scratches, clear mineral deposits/rust from coolant passages, measure warpage with straightedge and thickness gauge, limit 0.05 mm; if exceeded, resurface on 400-600 grit wet paper on a surface plate in a figure-eight pattern (p.5-22, 2-2).",
+     "verdict": "partly",
+     "problems": "Warpage limit is correct, but it tells the rider not to sand the head flat, while the manual gives a figure-eight resurfacing method on a surface plate (p.5-22); does not mention removing carbon with a rounded scraper. Otherwise a clear single step.",
+     "specs": [
+      {
+       "item": "Cylinder head warpage limit",
+       "reply": "0.05 mm (0.0020 in)",
+       "manual": "0.05 mm (0.0020 in)",
+       "page": "2-2, 5-22",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": false
+    },
+    {
+     "turn": 8,
+     "manual_says": "Turn the crank counterclockwise and align the TDC mark on the generator rotor with the mark on the crankcase cover; fit the chain to both sprockets so sprocket marks align with the edge of the camshaft cap surfaces; do not turn the crank during installation; cap bolts 10 N·m in 2-3 steps in sequence; wind tensioner rod fully clockwise, UP mark up, bolts 10 N·m, release, cap bolt 6 N·m; turn crank counterclockwise several turns and recheck marks (p.5-18, 5-19).",
+     "verdict": "partly",
+     "problems": "General order is right, but it says the crank mark, sprocket marks and tensioner procedure are not confirmed, when the manual gives all of them (p.5-18/5-19); does not give the rotation direction (counterclockwise), cam cap bolt torque 10 N·m, tensioner bolt 10 N·m or cap bolt 6 N·m. No wrong numbers.",
+     "specs": [],
+     "easy_to_follow": 3,
+     "overwhelming": false
+    },
+    {
+     "turn": 9,
+     "manual_says": "Do air filter maintenance before running; after warm-up ride about 20 min at 1/2 throttle or less, pit stop and check, then about 40 min at 3/4 or less, pit stop and check thoroughly; replaced piston/rings/valves/cam/gears need about 30 min at 1/2 throttle or less, cylinder/crank about 1 hour (p.1-25). After break-in: change oil and check for metal chips, check torque-check points (p.1-26); oil and filter replaced after break-in (p.3-2). Cooling-system tester kit listed (p.6-4).",
+     "verdict": "partly",
+     "problems": "Says the timed schedule is not confirmed and substitutes generic workshop advice, while the manual gives a specific schedule (p.1-25). Oil and filter change after break-in matches (p.1-26, 3-2). The Mityvac tester is a manual-listed tool (p.6-4). Misses air filter maintenance before running.",
+     "specs": [],
+     "easy_to_follow": 3,
+     "overwhelming": false
+    }
+   ],
+   "correct_vs_manual": 3,
+   "easy_to_follow": 3,
+   "not_overwhelming": 3,
+   "top_fixes": [
+    "Head bolts (p.5-23/5-24): after the 40 N·m pass, loosen only bolt [1], regrease, 23 N·m + 90 deg, then do [2]-[4] one at a time without loosening any other bolt; final 60 deg in sequence; M6 bolts [5],[6] last at 10 N·m. Do not remove all four at once. Give the numbered order from p.5-23.",
+    "Use the manual data it says is unconfirmed: piston clearance limit 0.15 mm and ring levelled near the bore bottom for end gap (p.5-34); cam timing marks, counterclockwise rotation, tensioner wind-up and 10/10/6 N·m (p.5-18/5-19); break-in 20 min at 1/2 or less then 40 min at 3/4 or less, 30 min / 1 h for replaced parts (p.1-25).",
+    "Fluid drains: warm engine before draining oil, remove the filler cap, new drain-bolt gasket (p.3-13/3-14); coolant drain bolt before cap and new copper washer (p.3-21); allow head resurfacing per p.5-22 instead of forbidding it."
+   ],
+   "overall": "C"
+  },
+  {
+   "id": "rb-yz450f-2025",
+   "manual": "D02-2819U-10",
+   "turns": [
+    {
+     "turn": 1,
+     "manual_says": "Valve clearance (cold) intake 0.10-0.17 mm, exhaust 0.15-0.22 mm (p.2-2, 2-3, 3-7). Chapter 5 order: engine removal from 5-3, camshaft, cylinder head, valves, cylinder/piston (5-32), then lower end.",
+     "verdict": "matches",
+     "problems": "Overview order and valve clearances agree with the manual. Long six-phase overview with a tool list.",
+     "specs": [
+      {
+       "item": "Intake valve clearance (cold)",
+       "reply": "0.10-0.17 mm",
+       "manual": "0.10-0.17 mm",
+       "page": "2-2, 3-7",
+       "status": "ok"
+      },
+      {
+       "item": "Exhaust valve clearance (cold)",
+       "reply": "0.15-0.22 mm",
+       "manual": "0.15-0.22 mm",
+       "page": "2-3, 3-7",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": true
+    },
+    {
+     "turn": 2,
+     "manual_says": "Engine removal lists start with: maintenance stand to raise the front wheel, seat, side covers, shrouds, fuel tank (p.5-5, 5-6). Battery notice: disconnect negative lead first (p.1-14).",
+     "verdict": "partly",
+     "problems": "Negative-first agrees with p.1-14, but battery disconnect is not the manual's first engine-removal step (stand, seat, side covers, shrouds, fuel tank, p.5-6). Clear and safe.",
+     "specs": [],
+     "easy_to_follow": 5,
+     "overwhelming": false
+    },
+    {
+     "turn": 3,
+     "manual_says": "Dry sump: warm engine several minutes and turn it off, pan under drain bolts, remove oil filler cap (with O-ring), remove crankcase drain bolt and oil tank drain bolt with gaskets, drain completely (p.3-14); refit both with NEW gaskets, oil tank 10 N·m, crankcase 20 N·m (p.3-15, 2-11).",
+     "verdict": "partly",
+     "problems": "Correctly identifies both drain points and both torques, and removes the filler cap. But it tells the rider not to warm the engine (manual says warm it first, p.3-14) and suggests keeping the sealing washers, where the manual requires new gaskets (p.3-15).",
+     "specs": [
+      {
+       "item": "Oil tank drain bolt",
+       "reply": "10 N·m (7.4 ft-lb)",
+       "manual": "10 N·m (7.4 lb·ft), gasket New",
+       "page": "2-11, 3-15",
+       "status": "ok"
+      },
+      {
+       "item": "Crankcase drain bolt",
+       "reply": "20 N·m (15 ft-lb)",
+       "manual": "20 N·m (15 lb·ft), gasket New",
+       "page": "2-11, 3-15",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": false
+    },
+    {
+     "turn": 4,
+     "manual_says": "Cold engine only: container under engine, remove coolant drain bolt and copper washer, then slowly loosen the radiator cap (p.3-22); refit with a NEW copper washer at 10 N·m (p.3-23, 2-10). Capacity 1.03 L (p.2-2). Radiator removal begins with draining coolant (p.6-3).",
+     "verdict": "partly",
+     "problems": "Opens the cap before removing the drain bolt (manual: drain bolt then cap, p.3-22); says sealing-part requirements are not confirmed, though the manual says new copper washer (p.3-22/3-23). Specs correct.",
+     "specs": [
+      {
+       "item": "Coolant capacity",
+       "reply": "1.03 L (1.09 US qt)",
+       "manual": "1.03 L (1.09 US qt)",
+       "page": "2-2",
+       "status": "ok"
+      },
+      {
+       "item": "Coolant drain bolt",
+       "reply": "10 N·m (7.4 ft-lb)",
+       "manual": "10 N·m (7.4 lb·ft), copper washer New",
+       "page": "2-10, 3-23",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": false
+    },
+    {
+     "turn": 5,
+     "manual_says": "Wash threads/contact faces; moly grease; M10 [1]-[4] to 36 N·m in 2-3 steps in the illustrated order; remove bolt [1] only, regrease, 18 N·m, mark, 90 deg; repeat [2]-[4] one at a time; final 60 deg in sequence; M6 [5],[6] at 12 N·m with LOCTITE (p.2-12 TIP, 5-21, 5-22, 2-10). Order illustration on p.5-21.",
+     "verdict": "partly",
+     "problems": "Procedure and all specs match, including one-bolt-at-a-time. Gap: the rider asked for the order and the reply says it is not confirmed, though the manual shows it (p.5-21); leaves out washing threads and the new head gasket (p.5-20/5-21); does not say M6 bolts go last.",
+     "specs": [
+      {
+       "item": "M10 head bolt 1st",
+       "reply": "36 N·m (27 ft-lb)",
+       "manual": "36 N·m (27 lb·ft)",
+       "page": "2-12, 5-21",
+       "status": "ok"
+      },
+      {
+       "item": "M10 head bolt 2nd",
+       "reply": "18 N·m (13 ft-lb)",
+       "manual": "18 N·m (13 lb·ft)",
+       "page": "2-12, 5-21, 5-22",
+       "status": "ok"
+      },
+      {
+       "item": "M10 angle stages",
+       "reply": "90 deg then 60 deg",
+       "manual": "90 deg + 60 deg = 150 deg",
+       "page": "2-12, 5-22",
+       "status": "ok"
+      },
+      {
+       "item": "M6 head bolts",
+       "reply": "12 N·m (8.9 ft-lb), locking agent",
+       "manual": "12 N·m (8.9 lb·ft), LOCTITE",
+       "page": "2-10, 5-22",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": false
+    },
+    {
+     "turn": 6,
+     "manual_says": "Bore 97.000-97.010 mm, wear limit 97.060 mm, C = max of D1-D6 (p.5-32); piston diameter 96.955-96.970 mm at 9.0 mm from skirt bottom; clearance 0.010-0.045 mm, limit 0.15 mm; side clearances top 0.015-0.065 (limit 0.120), 2nd 0.020-0.060 (limit 0.100); end gap limits 0.55 / 0.85 mm (p.5-33); pin OD limit 17.981, pin bore ID limit 18.045 (p.5-34); pin clearance 0.004-0.024 (p.2-3).",
+     "verdict": "partly",
+     "problems": "All numbers correct, including piston diameter. Misses the manual's piston-to-cylinder clearance limit of 0.15 mm (p.5-33) and the ring-gap check position. Large table plus bullets in one reply.",
+     "specs": [
+      {
+       "item": "Bore",
+       "reply": "97.000-97.010 mm, limit 97.060",
+       "manual": "97.000-97.010 mm, wear limit 97.060 mm",
+       "page": "2-3, 5-32",
+       "status": "ok"
+      },
+      {
+       "item": "Piston diameter",
+       "reply": "96.955-96.970 mm at 9 mm",
+       "manual": "96.955-96.970 mm at 9.0 mm",
+       "page": "2-3, 5-33",
+       "status": "ok"
+      },
+      {
+       "item": "Piston-to-cylinder clearance",
+       "reply": "0.010-0.045 mm",
+       "manual": "0.010-0.045 mm, limit 0.15 mm",
+       "page": "2-3, 5-33",
+       "status": "ok (limit 0.15 mm missing)"
+      },
+      {
+       "item": "Top ring end gap limit",
+       "reply": "0.55 mm",
+       "manual": "0.55 mm",
+       "page": "2-3, 5-33",
+       "status": "ok"
+      },
+      {
+       "item": "2nd ring end gap limit",
+       "reply": "0.85 mm",
+       "manual": "0.85 mm",
+       "page": "2-3, 5-33",
+       "status": "ok"
+      },
+      {
+       "item": "Top ring side clearance",
+       "reply": "0.015-0.065, limit 0.120 mm",
+       "manual": "0.015-0.065, limit 0.120 mm",
+       "page": "2-3, 5-33",
+       "status": "ok"
+      },
+      {
+       "item": "2nd ring side clearance",
+       "reply": "0.020-0.060, limit 0.100 mm",
+       "manual": "0.020-0.060, limit 0.100 mm",
+       "page": "2-3, 5-33",
+       "status": "ok"
+      },
+      {
+       "item": "Piston pin OD limit",
+       "reply": "17.981 mm",
+       "manual": "17.981 mm",
+       "page": "2-3, 5-34",
+       "status": "ok"
+      },
+      {
+       "item": "Pin bore ID limit",
+       "reply": "18.045 mm",
+       "manual": "18.045 mm",
+       "page": "2-3, 5-34",
+       "status": "ok"
+      },
+      {
+       "item": "Pin-to-bore clearance",
+       "reply": "0.004-0.024 mm",
+       "manual": "0.004-0.024 mm",
+       "page": "2-3",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": true
+    },
+    {
+     "turn": 7,
+     "manual_says": "Install ring into cylinder, level it with the piston crown near the bottom of the cylinder where wear is lowest, measure end gap; limits top 0.55 mm, 2nd 0.85 mm; oil ring expander gap cannot be measured (p.5-33). Piston/pin/clip/rings replaced as a set every fifth race (about 12.5 h) or as required (p.3-2).",
+     "verdict": "partly",
+     "problems": "Limits and replacement interval correct and a good single step, but says the checking depth is not confirmed; the manual says near the bottom of the cylinder (p.5-33). Does not mention the oil-ring rail note.",
+     "specs": [
+      {
+       "item": "Top ring end gap limit",
+       "reply": "0.55 mm (0.0217 in)",
+       "manual": "0.55 mm (0.0217 in)",
+       "page": "5-33",
+       "status": "ok"
+      },
+      {
+       "item": "2nd ring end gap limit",
+       "reply": "0.85 mm (0.0335 in)",
+       "manual": "0.85 mm (0.0335 in)",
+       "page": "5-33",
+       "status": "ok"
+      },
+      {
+       "item": "Piston set replacement interval",
+       "reply": "every fifth race, about 12.5 h, or as required",
+       "manual": "every fifth race (about 12.5 h) or as required",
+       "page": "3-2",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": false
+    },
+    {
+     "turn": 8,
+     "manual_says": "Turn crank counterclockwise; align TDC mark on generator rotor with crankcase cover mark; fit chain so sprocket marks align with the edge of the cam cap surfaces; do not turn crank during installation; cap bolts 10 N·m in 2-3 steps; tensioner rod wound fully clockwise, UP mark up, bolts 10 N·m, release, cap bolt 6 N·m; turn crank counterclockwise several turns and recheck (p.5-15, 5-16, 5-17).",
+     "verdict": "partly",
+     "problems": "Sound general order, but says the crank mark, sprocket marks and tensioner procedure are not confirmed, when the manual gives them (p.5-15/5-16); no rotation direction, cam cap bolt 10 N·m, tensioner bolt 10 N·m or cap bolt 6 N·m. No wrong numbers.",
+     "specs": [],
+     "easy_to_follow": 3,
+     "overwhelming": false
+    },
+    {
+     "turn": 9,
+     "manual_says": "Air filter maintenance before running; about 20 min at 1/2 throttle or less, pit stop, about 40 min at 3/4 or less, pit stop; replaced piston/rings/valves/cam/gears about 30 min at 1/2 or less, cylinder/crank about 1 hour (p.1-28). After break-in: change oil, check for metal chips, torque-check points (p.1-29); oil and filter replaced after break-in (p.3-3). Oil with filter removal 0.96 L (p.2-2, 3-15).",
+     "verdict": "partly",
+     "problems": "Oil and filter change and refill quantity match, but it says the timed schedule is not confirmed and gives generic advice instead of the manual's schedule (p.1-28); misses air filter maintenance before running.",
+     "specs": [
+      {
+       "item": "Oil quantity with filter removal",
+       "reply": "0.96 L (1.01 US qt)",
+       "manual": "0.96 L (1.01 US qt)",
+       "page": "2-2, 3-15",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": false
+    }
+   ],
+   "correct_vs_manual": 4,
+   "easy_to_follow": 3,
+   "not_overwhelming": 3,
+   "top_fixes": [
+    "Give the manual data it says is unconfirmed: head bolt numbered order (p.5-21) with M6 bolts last; cam timing marks, counterclockwise rotation, tensioner wind-up and 10/10/6 N·m (p.5-15/5-16); ring end gap checked near the bore bottom (p.5-33); break-in schedule (p.1-28).",
+    "Add the piston-to-cylinder clearance limit 0.15 mm (p.5-33) and split the measurement dump in turn 6 into one measurement per reply.",
+    "Fluid drains: warm engine before draining oil and fit new gaskets on both drain bolts (p.3-14/3-15); remove coolant drain bolt before the cap and fit a new copper washer (p.3-22/3-23)."
+   ],
+   "overall": "B"
+  }
+ ]
+}

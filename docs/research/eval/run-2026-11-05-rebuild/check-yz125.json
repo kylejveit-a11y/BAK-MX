@@ -1,0 +1,443 @@
+{
+ "items": [
+  {
+   "id": "rb-yz125-2022",
+   "manual": "B4X-2819U-10",
+   "turns": [
+    {
+     "turn": 1,
+     "rider": "Rebuild walkthrough request",
+     "manual_says": "Chapter 5 order: engine removal (5-1 to 5-5), cylinder head/cylinder/piston (5-6 on), then CDI magneto, clutch, crankcase and crankshaft, transmission. Special tools: piston pin puller set 5-8, flywheel puller 5-17, clutch holder 5-30/5-32, crankshaft installer pot/bolt 5-41/5-44, crankcase separating tool 5-44 (tool list 1-13 to 1-14).",
+     "verdict": "matches: overall job order and named tools all exist in the manual. Small gap: does not name the piston pin puller (5-8), which the top end needs.",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 2,
+     "rider": "Bike clean, what first?",
+     "manual_says": "Engine removal (5-1, 5-2) starts with right side cover and exhaust pipe/silencer (5-1), then drain transmission oil (3-6), seat/fuel tank (4-1, 7-1), carburetor (7-3), clutch cable, radiator (6-2), spark plug, CDI magneto lead, sprocket cover. The manual has no separate 'fuel cock OFF' step.",
+     "verdict": "partly: turning the fuel cock off on a cold engine is sound prep and not against the manual, but it is not the manual's first step and gives the rider almost nothing to do; the manual's removal list (5-1, 5-2) is not used.",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 3,
+     "rider": "Done, what next?",
+     "manual_says": "Seat is removed first under GENERAL CHASSIS (4-1, item 1); the manual's engine removal lists seat/fuel tank after draining transmission oil (5-2).",
+     "verdict": "partly: removing the seat is correct and safe, but the order differs from 5-2 (drain transmission oil and remove exhaust first) and the reply still points to a guided job instead of giving the manual sequence.",
+     "specs": [],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 4,
+     "rider": "Next step",
+     "manual_says": "Fuel tank removal (7-1) lists seat, side covers, air scoops, then fuel cock assembly, O-ring, tank, breather hoses; the manual does not list a separate fuel hose disconnection.",
+     "verdict": "partly: disconnecting the fuel hose at the fuel cock is reasonable shop practice and not wrong, but it is not a manual step; side covers and air scoops (7-1, 4-1) are skipped. Labeled 'general guidance' honestly.",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 5,
+     "rider": "Head bolt torque and order",
+     "manual_says": "Cylinder head nuts M8 x5 at 28 N·m (2.8 kgf·m, 21 lb·ft) (2-10, 5-15); tighten in stages in a crisscross pattern (5-15, also 2-9). Head install: grease (lithium-soap) and fit new O-rings, dowel pins, new copper washers (5-15). Head stud bolt is a separate 13 N·m spec (2-10).",
+     "verdict": "matches: torque, nut count, staged crisscross order, new O-rings greased, new copper washers, nuts not studs all agree.",
+     "specs": [
+      {
+       "item": "Cylinder head nut torque",
+       "reply_value": "28 N·m (21 ft-lb), 5 nuts",
+       "manual_value": "28 N·m (21 lb·ft), M8 x5",
+       "page": "2-10, 5-15",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 6,
+     "rider": "What to measure on piston and cylinder",
+     "manual_says": "Check walls for vertical scratches (replace cylinder, piston and rings as a set); bore C = max of D1-D6 side-to-side and front-to-back, 54.000-54.014 mm, limit 54.064 mm (5-9); piston skirt 53.957-53.972 mm at 17.5 mm from skirt bottom; clearance 0.040-0.045 mm; piston and cylinder size marks A-D must match (5-10); ring side clearance 0.035-0.070, limit 0.100 mm; ring end gap limit 1.20 mm with ring leveled near bottom by piston crown (5-11); pin OD limit 14.975, pin bore limit 15.040 (5-11); pin-to-bore clearance 0.008-0.023, limit 0.065 mm (5-12). Specs also on 2-2. No taper/out-of-round limit is given.",
+     "verdict": "partly: every number is correct, but it says taper/out-of-round limits can be verified in Yamaha's cylinder section, which has none (5-9 uses only the largest of six readings). It does not say the manual's reject actions (piston out of spec: replace piston and rings; clearance out: replace cylinder, piston and rings, 5-10). Dense table.",
+     "specs": [
+      {
+       "item": "Bore standard",
+       "reply_value": "54.000-54.014 mm",
+       "manual_value": "54.000-54.014 mm",
+       "page": "2-2, 5-9",
+       "status": "ok"
+      },
+      {
+       "item": "Bore wear limit",
+       "reply_value": "54.064 mm",
+       "manual_value": "54.064 mm",
+       "page": "2-2, 5-9",
+       "status": "ok"
+      },
+      {
+       "item": "Piston skirt diameter",
+       "reply_value": "53.957-53.972 mm",
+       "manual_value": "53.957-53.972 mm",
+       "page": "2-2, 5-10",
+       "status": "ok"
+      },
+      {
+       "item": "Measuring point",
+       "reply_value": "17.5 mm (0.69 in)",
+       "manual_value": "17.5 mm (0.69 in)",
+       "page": "2-2, 5-10",
+       "status": "ok"
+      },
+      {
+       "item": "Piston-to-cylinder clearance",
+       "reply_value": "0.040-0.045 mm (0.0016-0.0018 in)",
+       "manual_value": "0.040-0.045 mm (0.0016-0.0018 in)",
+       "page": "2-2, 5-10",
+       "status": "ok"
+      },
+      {
+       "item": "Ring side clearance",
+       "reply_value": "0.035-0.070 mm, limit 0.100 mm",
+       "manual_value": "0.035-0.070 mm, limit 0.100 mm",
+       "page": "2-2, 5-11",
+       "status": "ok"
+      },
+      {
+       "item": "Ring end gap limit",
+       "reply_value": "1.20 mm (0.0472 in)",
+       "manual_value": "1.20 mm (0.0472 in)",
+       "page": "2-2, 5-11",
+       "status": "ok"
+      },
+      {
+       "item": "Piston pin OD limit",
+       "reply_value": "14.975 mm",
+       "manual_value": "14.975 mm",
+       "page": "2-2, 5-11",
+       "status": "ok"
+      },
+      {
+       "item": "Pin bore ID limit",
+       "reply_value": "15.040 mm",
+       "manual_value": "15.040 mm",
+       "page": "2-2, 5-11",
+       "status": "ok"
+      },
+      {
+       "item": "Pin-to-bore clearance",
+       "reply_value": "0.008-0.023 mm, limit 0.065 mm",
+       "manual_value": "0.008-0.023 mm, limit 0.065 mm",
+       "page": "2-2, 5-12",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "yes"
+    },
+    {
+     "turn": 7,
+     "rider": "Next step",
+     "manual_says": "After piston/pin checks the manual checks the small end bearing (heat discoloration: replace) then the power valve (5-12). Pin with blue discoloration/grooves: replace pin and check fuel/mixing oil (5-11). Cover crankcase opening with a rag when handling pin clips (5-8, 5-14).",
+     "verdict": "matches: order (pin, small end bearing, then power valve) agrees with 5-11 and 5-12; heat-mark advice matches 5-11. Extra checks (pitting, cage, rod eye) are sensible additions, not contrary.",
+     "specs": [],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 8,
+     "rider": "Ring end gap spec and method",
+     "manual_says": "Top ring end gap limit 1.20 mm (0.0472 in); install ring into cylinder, level it with the piston crown near the bottom where wear is lowest, measure; out of spec: replace ring (5-11, 2-2). No new-ring nominal gap is given.",
+     "verdict": "matches: limit, method and action agree; correctly says the manual gives no new-ring target.",
+     "specs": [
+      {
+       "item": "Ring end gap limit",
+       "reply_value": "1.20 mm (0.0472 in)",
+       "manual_value": "1.20 mm (0.0472 in)",
+       "page": "2-2, 5-11",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 9,
+     "rider": "Break-in",
+     "manual_says": "Before running service the air filter; fill with break-in mix YAMALUBE 2R at premix ratio 15 (normal 30); warm up 1-2 min until it responds with choke off; about 20 min at 1/2 throttle or less, pit stop check, about 40 min at 3/4 or less, check again (1-18). Cylinder/crankshaft replaced: about 1 hour; piston, rings, gear: about 30 min at 1/2 or less; check torque-check points after (1-19). After break-in: change transmission oil and check for metal chips (1-20).",
+     "verdict": "partly: durations, throttle limits, warm-up and post-break-in oil change all match, but it says the break-in premix ratio is not confirmed when the manual gives 15 (YAMALUBE 2R) on 1-18, and it does not name the oil. Air filter service before running is only hinted ('filter sealing').",
+     "specs": [
+      {
+       "item": "Break-in, piston/rings",
+       "reply_value": "30 min at 1/2 throttle or less",
+       "manual_value": "about 30 min at 1/2 or less",
+       "page": "1-19",
+       "status": "ok"
+      },
+      {
+       "item": "Break-in, cylinder/crank",
+       "reply_value": "about 1 hour (20 min at 1/2, then 40 min at 3/4)",
+       "manual_value": "about 1 hour; procedure 20 min at 1/2 or less then 40 min at 3/4 or less",
+       "page": "1-18, 1-19",
+       "status": "ok"
+      },
+      {
+       "item": "Warm-up",
+       "reply_value": "1-2 minutes",
+       "manual_value": "about one or two minutes",
+       "page": "1-18",
+       "status": "ok"
+      },
+      {
+       "item": "Break-in premix ratio",
+       "reply_value": "not given ('not confirmed')",
+       "manual_value": "YAMALUBE 2R, premix ratio 15",
+       "page": "1-18",
+       "status": "missing"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "yes"
+    }
+   ],
+   "correct_vs_manual": 4,
+   "easy_to_follow": 4,
+   "not_overwhelming": 3,
+   "top_fixes": [
+    "Give the break-in premix: YAMALUBE 2R at ratio 15 (normal 30), page 1-18, instead of saying it is not confirmed; also say to service the air filter before running (1-18).",
+    "Use the manual's engine-removal list (5-1, 5-2): exhaust/silencer, drain transmission oil, seat/fuel tank, carburetor, clutch cable, radiator, spark plug, CDI lead, sprocket, brake pedal, brackets, pivot shaft, engine out to the right (5-4), instead of generic one-line prep turns.",
+    "Drop the claim that taper/out-of-round limits exist in the cylinder section (5-9 has none; it uses the largest of D1-D6) and state the manual's reject actions (5-9, 5-10); split the measurement table into one measurement per turn."
+   ],
+   "overall": "B"
+  },
+  {
+   "id": "rb-yz125-2025",
+   "manual": "D68-2819U-10",
+   "turns": [
+    {
+     "turn": 1,
+     "rider": "Rebuild walkthrough request",
+     "manual_says": "Chapter 5 order: engine removal (5-1 to 5-5), cylinder head/cylinder/piston, CDI magneto, clutch, crankcase/crankshaft, transmission. Tools: piston pin puller set 5-8, flywheel puller 5-17, clutch holder 5-30/5-32, crankshaft installer pot/bolt 5-42/5-45, crankcase separating tool 5-45 (list ends on 1-16).",
+     "verdict": "matches: order and tools agree; adds bore gauge and micrometers. Does not name the piston pin puller (5-8).",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 2,
+     "rider": "Bike clean, what first?",
+     "manual_says": "Engine removal starts with exhaust pipe/silencer (5-1), then drain transmission oil (3-7), seat/fuel tank (4-1, 7-1), carburetor (7-3), exhaust stay, clutch cable, radiator (6-3), spark plug cap, CDI magneto lead, sprocket cover (5-2). No separate fuel cock step.",
+     "verdict": "partly: fuel cock OFF on a cold engine is sound and not contrary, but it is not the manual's first step and the manual sequence (5-1, 5-2) is not given.",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 3,
+     "rider": "Done, what next?",
+     "manual_says": "Same list (5-2): drain transmission oil, seat/fuel tank, carburetor, exhaust, clutch cable, radiator, spark plug cap, CDI lead, sprocket, brake pedal, engine brackets, pivot shaft, engine out from the right (5-4).",
+     "verdict": "partly: gives no actual step and says the removal sequence 'isn't confirmed here', but the manual lays it out on 5-1 to 5-4. A wasted turn for the rider.",
+     "specs": [],
+     "easy_to_follow": 2,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 4,
+     "rider": "Next step",
+     "manual_says": "Seat is item 1 under GENERAL CHASSIS (4-1); engine removal lists seat/fuel tank after draining transmission oil (5-2).",
+     "verdict": "partly: removing the seat is correct, but out of the manual's order and it again says the sequence isn't confirmed when 5-2 gives it.",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 5,
+     "rider": "Head bolt torque and order",
+     "manual_says": "Cylinder head nuts M8 x5 at 28 N·m (2.8 kgf·m, 21 lb·ft) (2-10, 5-15); tighten in stages, crisscross (5-15, 2-9). Head install: grease O-ring with lithium-soap grease, new O-rings, dowel pins, new copper washers (5-15).",
+     "verdict": "matches: torque, count, staged crisscross, new O-rings and copper washers agree. Leaves out greasing the O-rings and the dowel pins (5-15) - minor.",
+     "specs": [
+      {
+       "item": "Cylinder head nut torque",
+       "reply_value": "28 N·m (21 ft-lb), 5 nuts",
+       "manual_value": "28 N·m (21 lb·ft), M8 x5",
+       "page": "2-10, 5-15",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 6,
+     "rider": "What to measure on piston and cylinder",
+     "manual_says": "Vertical scratches: replace cylinder, piston and rings (5-9); bore = max of D1-D6, 54.000-54.014 mm, limit 54.064 mm (5-9); skirt 53.957-53.972 mm at 17.5 mm; clearance 0.040-0.045 mm; size marks A-D must match (5-10); ring side 0.035-0.070, limit 0.100; end gap limit 1.20 mm (5-11); pin OD limit 14.975, pin bore limit 15.040 (5-11); pin clearance 0.008-0.023, limit 0.065 mm (5-12); small end bearing heat discoloration: replace (5-12). Specs on 2-2. No taper/out-of-round limits.",
+     "verdict": "partly: all numbers and inch conversions are correct; omits the 0.065 mm pin-clearance limit (5-12) and the manual's reject actions (5-10); says taper/out-of-round limits 'aren't confirmed' when the manual simply has none. Eight-row table plus four paragraphs is a lot at once.",
+     "specs": [
+      {
+       "item": "Bore standard",
+       "reply_value": "54.000-54.014 mm (2.1260-2.1265 in)",
+       "manual_value": "same",
+       "page": "2-2, 5-9",
+       "status": "ok"
+      },
+      {
+       "item": "Bore wear limit",
+       "reply_value": "54.064 mm (2.1285 in)",
+       "manual_value": "same",
+       "page": "2-2, 5-9",
+       "status": "ok"
+      },
+      {
+       "item": "Piston skirt diameter",
+       "reply_value": "53.957-53.972 mm (2.1243-2.1249 in)",
+       "manual_value": "same",
+       "page": "2-2, 5-10",
+       "status": "ok"
+      },
+      {
+       "item": "Measuring point",
+       "reply_value": "17.5 mm (0.69 in)",
+       "manual_value": "same",
+       "page": "2-2, 5-10",
+       "status": "ok"
+      },
+      {
+       "item": "Piston-to-cylinder clearance",
+       "reply_value": "0.040-0.045 mm (0.0016-0.0018 in)",
+       "manual_value": "same",
+       "page": "2-2, 5-10",
+       "status": "ok"
+      },
+      {
+       "item": "Ring side clearance",
+       "reply_value": "0.035-0.070 mm, limit 0.100 mm",
+       "manual_value": "same",
+       "page": "2-2, 5-11",
+       "status": "ok"
+      },
+      {
+       "item": "Ring end gap limit",
+       "reply_value": "1.20 mm (0.0472 in)",
+       "manual_value": "same",
+       "page": "2-2, 5-11",
+       "status": "ok"
+      },
+      {
+       "item": "Piston pin OD limit",
+       "reply_value": "14.975 mm (0.5896 in)",
+       "manual_value": "same",
+       "page": "2-2, 5-11",
+       "status": "ok"
+      },
+      {
+       "item": "Pin bore ID limit",
+       "reply_value": "15.040 mm (0.5921 in)",
+       "manual_value": "same",
+       "page": "2-2, 5-11",
+       "status": "ok"
+      },
+      {
+       "item": "Pin-to-bore clearance",
+       "reply_value": "0.008-0.023 mm (0.0003-0.0009 in), no limit given",
+       "manual_value": "0.008-0.023 mm, limit 0.065 mm (0.0026 in)",
+       "page": "2-2, 5-12",
+       "status": "ok (limit missing)"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "yes"
+    },
+    {
+     "turn": 7,
+     "rider": "Next step",
+     "manual_says": "Measure bore with cylinder bore gauge side-to-side and front-to-back; C = maximum of D1-D6; standard 54.000-54.014 mm, limit 54.064 mm; out of spec: replace cylinder, piston and rings as a set (5-9).",
+     "verdict": "matches: six readings, take the maximum, correct spec and limit; stops on vertical scoring as 5-9 does. One clear task, asks for readings before moving on.",
+     "specs": [
+      {
+       "item": "Bore standard",
+       "reply_value": "54.000-54.014 mm",
+       "manual_value": "54.000-54.014 mm",
+       "page": "5-9",
+       "status": "ok"
+      },
+      {
+       "item": "Bore wear limit",
+       "reply_value": "54.064 mm",
+       "manual_value": "54.064 mm",
+       "page": "5-9",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 8,
+     "rider": "Ring end gap spec and method",
+     "manual_says": "End gap limit 1.20 mm (0.0472 in); level ring with piston crown near bottom of cylinder; out of spec: replace ring (5-11, 2-2). No new-ring nominal given.",
+     "verdict": "matches: limit, method and action agree.",
+     "specs": [
+      {
+       "item": "Ring end gap limit",
+       "reply_value": "1.2 mm (0.0472 in)",
+       "manual_value": "1.20 mm (0.0472 in)",
+       "page": "2-2, 5-11",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 9,
+     "rider": "Break-in",
+     "manual_says": "Service air filter before running; break-in mix YAMALUBE 2R at premix ratio 15 (normal 30); warm up 1-2 min; about 20 min at 1/2 or less, pit stop, about 40 min at 3/4 or less, check again (1-21). Cylinder/crank: about 1 hour; piston, ring, gear: about 30 min at 1/2 or less; check torque-check points (1-22). After break-in: change transmission oil, check for metal chips (1-23).",
+     "verdict": "partly: durations, throttle limits, oil type (YAMALUBE 2R) and post-break-in checks match, but it tells the rider the break-in premix ratio is not confirmed when the manual gives 15 on 1-21 - the rider cannot start without it.",
+     "specs": [
+      {
+       "item": "Break-in, piston/rings",
+       "reply_value": "30 min at 1/2 or less",
+       "manual_value": "about 30 min at 1/2 or less",
+       "page": "1-22",
+       "status": "ok"
+      },
+      {
+       "item": "Break-in, cylinder/crank",
+       "reply_value": "20 min at 1/2, then 40 min at 3/4",
+       "manual_value": "about 1 hour; 20 min at 1/2 or less then 40 min at 3/4 or less",
+       "page": "1-21, 1-22",
+       "status": "ok"
+      },
+      {
+       "item": "Premix oil",
+       "reply_value": "YAMALUBE 2R",
+       "manual_value": "YAMALUBE 2R",
+       "page": "1-21",
+       "status": "ok"
+      },
+      {
+       "item": "Break-in premix ratio",
+       "reply_value": "not given ('not confirmed')",
+       "manual_value": "15 (break-in); 30 normal",
+       "page": "1-21",
+       "status": "missing"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "yes"
+    }
+   ],
+   "correct_vs_manual": 4,
+   "easy_to_follow": 3,
+   "not_overwhelming": 3,
+   "top_fixes": [
+    "Give the break-in premix ratio 15 with YAMALUBE 2R (page 1-21) instead of 'not confirmed', plus air filter service before running.",
+    "Stop saying the removal sequence 'isn't confirmed' (turns 3-4): the manual gives it on 5-1 to 5-4; walk through it one item at a time, starting with exhaust/silencer and draining transmission oil.",
+    "Add the pin-to-bore clearance limit 0.065 mm (5-12) and the manual's replace actions (5-9, 5-10); remove the implied taper/out-of-round spec; break the 8-row table into steps like turn 7 does."
+   ],
+   "overall": "B"
+  }
+ ]
+}

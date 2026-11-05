@@ -1,0 +1,537 @@
+{
+ "items": [
+  {
+   "id": "rb-yz250f-2022",
+   "manual": "B7B-2819U-13",
+   "turns": [
+    {
+     "turn": 1,
+     "manual_says": "Chapter 5 covers the whole job in order: engine removal (5-6 to 5-12), camshafts (5-18 to 5-20), cylinder head (5-21 to 5-25), valves, cylinder and piston incl. installation (5-34 to 5-37), clutch, crankcase etc.; break-in on 1-25.",
+     "verdict": "partly",
+     "issues": "Job order is reasonable, but it tells the rider that piston/cylinder installation, head mounting and cam timing are not covered and 'must be confirmed' when the manual covers all three (5-18 to 5-20, 5-23 to 5-25, 5-36 to 5-37). Tool list is general, not the manual's special tools.",
+     "specs": [],
+     "easy_to_follow": 3,
+     "overwhelming": "yes"
+    },
+    {
+     "turn": 2,
+     "manual_says": "General battery precaution: disconnect negative lead first, then positive (1-11). Engine removal starts with raising the front wheel on a maintenance stand, then seat, side covers, air scoops, fuel tank (5-8, 5-9).",
+     "verdict": "matches",
+     "issues": "Negative-first is per 1-11. Battery isolation is not itself a line in the removal table (5-8); fine as preparation. Repeats the guided-job pitch.",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 3,
+     "manual_says": "Changing the engine oil: warm engine several minutes, stop, wait ~5 min, pan under drain bolt, remove filler cap and drain bolt (3-13); refit drain bolt with a NEW gasket at 20 N·m (3-14, also 2-11).",
+     "verdict": "partly",
+     "issues": "Torque correct. Says to check the washer's condition and reuse it; the manual lists the drain-bolt gasket as New (3-14). Skips the manual's warm-up step (reasonable with battery isolated, but differs from 3-13).",
+     "specs": [
+      {
+       "item": "Engine oil drain bolt torque",
+       "reply_value": "20 N·m (15 ft-lb)",
+       "manual_value": "20 N·m (15 lb·ft)",
+       "page": "2-11, 3-14",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 4,
+     "manual_says": "Changing the coolant: only when cold; container under engine, remove coolant drain bolt, then slowly loosen radiator cap; refit drain bolt with a NEW copper washer at 10 N·m (3-21; torque also 2-10).",
+     "verdict": "partly",
+     "issues": "Torque correct. Order differs: reply removes the radiator cap first, the manual removes the drain bolt first and then slowly loosens the cap (3-21). Says to inspect and reuse the sealing washer; manual says new copper washer (3-21).",
+     "specs": [
+      {
+       "item": "Coolant drain bolt torque",
+       "reply_value": "10 N·m (7.4 ft-lb)",
+       "manual_value": "10 N·m (7.4 lb·ft)",
+       "page": "2-10, 3-21",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 5,
+     "manual_says": "Four M9 head bolts: all evenly in the numbered order to 30 N·m; then one at a time remove, re-apply moly, retighten 15 N·m + 60°; finally all another 60° in order (120° total); two M6 nuts 10 N·m. Order diagram (1-4) on 2-12 and 5-24. Torque page TIP says moly oil (2-12); install procedure says wash threads then apply molybdenum disulfide grease (5-24, 5-25).",
+     "verdict": "partly",
+     "issues": "All figures and the staged sequence are correct. But it says the numbered order is 'not confirmed' when the diagram is printed on 2-12 and 5-24, so the rider is left without the order. The lubricant conflict it flags is real (oil on 2-12 vs grease on 5-24) but it could have said the install procedure on 5-24 calls for grease (and the M symbol). Leaves out washing the threads first and the new head gasket and dowels (5-23, 5-24).",
+     "specs": [
+      {
+       "item": "Head bolt 1st stage",
+       "reply_value": "30 N·m (22 ft-lb)",
+       "manual_value": "30 N·m (22 lb·ft)",
+       "page": "2-12, 5-24",
+       "status": "ok"
+      },
+      {
+       "item": "Head bolt retighten",
+       "reply_value": "15 N·m (11 ft-lb)",
+       "manual_value": "15 N·m (11 lb·ft)",
+       "page": "2-12, 5-24",
+       "status": "ok"
+      },
+      {
+       "item": "Head bolt angle",
+       "reply_value": "60° + 60° = 120°",
+       "manual_value": "60° + 60° = 120°",
+       "page": "2-12, 5-25",
+       "status": "ok"
+      },
+      {
+       "item": "Cylinder head nut",
+       "reply_value": "10 N·m (7.4 ft-lb), M6",
+       "manual_value": "10 N·m (7.4 lb·ft), M6 x2",
+       "page": "2-10, 5-25",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 6,
+     "manual_says": "Bore 77.000-77.010 mm, limit 77.060 mm, C = largest of six readings D1-D6; piston 76.955-76.970 mm at 4.0 mm from skirt bottom; clearance 0.030-0.055 mm; top ring side clearance 0.030-0.065 mm, limit 0.115 mm; end gap limit 0.50 mm, ring levelled near cylinder bottom; pin OD limit 15.971 mm; pin bore ID limit 16.043 mm; pin-to-bore 0.002-0.022 mm (2-3, 5-34 to 5-36). Piston/pin/clip/rings replaced as a set every fifth race (~12.5 h) and as required (3-1). No separate taper/out-of-round limit given.",
+     "verdict": "matches",
+     "issues": "Every figure agrees with the manual; correctly says no taper/out-of-round or oil-ring rail-gap number is given (manual: replace oil ring set if rail gap excessive, 5-35). Too much at once: 8-row table plus 4 paragraphs.",
+     "specs": [
+      {
+       "item": "Bore",
+       "reply_value": "77.000-77.010 mm",
+       "manual_value": "77.000-77.010 mm",
+       "page": "2-3, 5-34",
+       "status": "ok"
+      },
+      {
+       "item": "Bore wear limit",
+       "reply_value": "77.060 mm",
+       "manual_value": "77.060 mm",
+       "page": "2-3, 5-34",
+       "status": "ok"
+      },
+      {
+       "item": "Piston diameter",
+       "reply_value": "76.955-76.970 mm",
+       "manual_value": "76.955-76.970 mm",
+       "page": "2-3, 5-35",
+       "status": "ok"
+      },
+      {
+       "item": "Piston measuring point",
+       "reply_value": "4.0 mm above skirt bottom",
+       "manual_value": "4.0 mm",
+       "page": "2-3, 5-35",
+       "status": "ok"
+      },
+      {
+       "item": "Piston-to-cylinder clearance",
+       "reply_value": "0.030-0.055 mm",
+       "manual_value": "0.030-0.055 mm",
+       "page": "2-3, 5-35",
+       "status": "ok"
+      },
+      {
+       "item": "Top ring side clearance",
+       "reply_value": "0.030-0.065 mm, limit 0.115 mm",
+       "manual_value": "0.030-0.065 mm, limit 0.115 mm",
+       "page": "2-3, 5-35",
+       "status": "ok"
+      },
+      {
+       "item": "Top ring end gap limit",
+       "reply_value": "0.50 mm",
+       "manual_value": "0.50 mm",
+       "page": "2-3, 5-35",
+       "status": "ok"
+      },
+      {
+       "item": "Piston pin OD limit",
+       "reply_value": "15.971 mm",
+       "manual_value": "15.971 mm",
+       "page": "2-3, 5-35/5-36",
+       "status": "ok"
+      },
+      {
+       "item": "Pin bore ID limit",
+       "reply_value": "16.043 mm",
+       "manual_value": "16.043 mm",
+       "page": "2-3, 5-36",
+       "status": "ok"
+      },
+      {
+       "item": "Pin-to-pin-bore clearance",
+       "reply_value": "0.002-0.022 mm",
+       "manual_value": "0.002-0.022 mm",
+       "page": "2-3",
+       "status": "ok"
+      },
+      {
+       "item": "Piston set replacement interval",
+       "reply_value": "every fifth race (~12.5 h) or as required",
+       "manual_value": "every fifth race (~12.5 h) and as required",
+       "page": "3-1",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "yes"
+    },
+    {
+     "turn": 7,
+     "manual_says": "Measure piston OD at 4.0 mm from skirt bottom with a micrometer; clearance = largest bore C minus piston diameter, 0.030-0.055 mm; out of spec replace cylinder, piston and rings as a set (5-34, 5-35).",
+     "verdict": "matches",
+     "issues": "Correct and one step. 'Perpendicular to the pin' is labelled as general practice, which is honest.",
+     "specs": [
+      {
+       "item": "Measuring point",
+       "reply_value": "4 mm (0.16 in)",
+       "manual_value": "4.0 mm (0.16 in)",
+       "page": "5-35",
+       "status": "ok"
+      },
+      {
+       "item": "Piston-to-cylinder clearance",
+       "reply_value": "0.030-0.055 mm",
+       "manual_value": "0.030-0.055 mm",
+       "page": "5-35",
+       "status": "ok"
+      },
+      {
+       "item": "Bore wear limit",
+       "reply_value": "77.06 mm",
+       "manual_value": "77.060 mm",
+       "page": "5-34",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 8,
+     "manual_says": "Turn crank counterclockwise; align rotor TDC mark with crankcase cover mark; fit chain on both sprockets so exhaust mark and intake mark line up with the head edge; do not turn crank during cam install; caps 10 N·m in 2-3 steps in the numbered sequence; wind tensioner rod fully clockwise, UP mark up, bolts 10 N·m, release, cap bolt 6 N·m; turn crank counterclockwise several turns and recheck marks (5-18 to 5-20).",
+     "verdict": "partly",
+     "issues": "Nothing stated is wrong, but it says the marks and tensioner sequence are 'not confirmed' when the manual gives them all (5-19, 5-20), so the rider gets no usable procedure. Misses crank direction (counterclockwise), cam cap torque 10 N·m and order, tensioner bolts 10 N·m and cap bolt 6 N·m, and the warning not to turn the crank during cam install.",
+     "specs": [],
+     "easy_to_follow": 2,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 9,
+     "manual_says": "Air filter maintenance before running; after warm-up ~20 min at 1/2 throttle or less, pit stop, ~40 min at 3/4 or less, pit stop and full checks; replaced piston/rings/valves/cams need ~30 min at 1/2 or less, cylinder/crank ~1 h (1-25); then oil change and torque-check points (1-26). Oil pressure check: if no oil seeps in 1 minute stop engine; check bolt 10 N·m (3-14, 3-15). Oil with filter 0.75 L; after full disassembly 0.95 L (2-2, 3-14).",
+     "verdict": "partly",
+     "issues": "Times and throttle limits match 1-25, but the reply wrongly says they are only the guided job's plan and not a Yamaha figure. Does not give the 0.95 L fill needed after a full rebuild (2-2, 3-14), and leaves out the replaced-parts note on 1-25. Oil-check and figures it does give are correct.",
+     "specs": [
+      {
+       "item": "Oil pressure check bolt",
+       "reply_value": "10 N·m (7.4 ft-lb)",
+       "manual_value": "10 N·m (7.4 lb·ft)",
+       "page": "2-10, 3-15",
+       "status": "ok"
+      },
+      {
+       "item": "Oil seep wait",
+       "reply_value": "1 minute",
+       "manual_value": "1 minute",
+       "page": "3-15",
+       "status": "ok"
+      },
+      {
+       "item": "Break-in stage 1",
+       "reply_value": "20 min at 1/2 throttle or less",
+       "manual_value": "about 20 min at 1/2 or less",
+       "page": "1-25",
+       "status": "ok"
+      },
+      {
+       "item": "Break-in stage 2",
+       "reply_value": "40 min at 3/4 throttle or less",
+       "manual_value": "about 40 min at 3/4 or less",
+       "page": "1-25",
+       "status": "ok"
+      },
+      {
+       "item": "Oil with filter change",
+       "reply_value": "0.75 L (0.79 US qt)",
+       "manual_value": "0.75 L (0.79 US qt)",
+       "page": "2-2, 3-14",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "yes"
+    }
+   ],
+   "correct_vs_manual": 4,
+   "easy_to_follow": 3,
+   "not_overwhelming": 3,
+   "top_fixes": [
+    "Give the cam timing procedure from 5-18 to 5-20 (crank counterclockwise to the rotor TDC mark; exhaust and intake sprocket marks level with the head edge; caps 10 N·m in 2-3 steps in order; tensioner wound, UP mark up, bolts 10 N·m, cap bolt 6 N·m; turn crank and recheck) instead of saying it is unconfirmed.",
+    "Give the head-bolt order from the diagram on 2-12 / 5-24 and say the install procedure (5-24) calls for washed threads plus molybdenum disulfide grease, with a new head gasket.",
+    "Fix the reuse and fill items: new oil drain-bolt gasket (3-14) and new coolant copper washer (3-21); drain bolt before radiator cap (3-21); 0.95 L first fill after a full rebuild (2-2, 3-14); call the 20/40-minute break-in Yamaha's own (1-25)."
+   ],
+   "overall": "B"
+  },
+  {
+   "id": "rb-yz250f-2025",
+   "manual": "D01-2819U-10",
+   "turns": [
+    {
+     "turn": 1,
+     "manual_says": "Chapter 5 covers engine removal (5-11 to 5-15), camshafts (5-22 to 5-24), cylinder head incl. installation (5-25 to 5-29), cylinder and piston (5-38 to 5-40), clutch, crankcase; break-in on 1-29.",
+     "verdict": "partly",
+     "issues": "Order is reasonable, but it says piston/cylinder installation, head mounting and cam timing need 'a confirmed procedure' when the manual has them (5-22 to 5-24, 5-27 to 5-29, 5-40).",
+     "specs": [],
+     "easy_to_follow": 3,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 2,
+     "manual_says": "Disconnect the negative battery lead first (1-14). Removal begins with front wheel raised on a maintenance stand, seat, left side cover, shroud (5-12).",
+     "verdict": "matches",
+     "issues": "Negative-first agrees with 1-14; not a listed removal step but sound preparation.",
+     "specs": [],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 3,
+     "manual_says": "Warm engine several minutes, stop, wait ~5 min, remove filler cap and drain bolt; refit drain bolt with NEW gasket at 20 N·m (3-14, 3-15; torque also 2-11).",
+     "verdict": "partly",
+     "issues": "Torque correct; says refit 'with a sound sealing washer' but the manual lists the gasket as New (3-15). Skips the warm-up (differs from 3-14).",
+     "specs": [
+      {
+       "item": "Engine oil drain bolt torque",
+       "reply_value": "20 N·m (15 ft-lb)",
+       "manual_value": "20 N·m (15 lb·ft)",
+       "page": "2-11, 3-15",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 4,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 4,
+     "manual_says": "Cold engine only; container under engine, remove coolant drain bolt, then slowly loosen radiator cap; flush; refit drain bolt with NEW copper washer at 10 N·m (3-22; also 2-10).",
+     "verdict": "partly",
+     "issues": "Torque correct and the hot-cap warning is good, but it gives no actual draining steps, claiming the procedure 'isn't confirmed here' when it is on 3-22. Misses the new copper washer.",
+     "specs": [
+      {
+       "item": "Coolant drain bolt torque",
+       "reply_value": "10 N·m (7.4 ft-lb)",
+       "manual_value": "10 N·m (7.4 lb·ft)",
+       "page": "2-10, 3-22",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 2,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 5,
+     "manual_says": "Same as 2022: 30 N·m all in order; one at a time 15 N·m + 60°; final 60° all in order (120° total); M6 nuts 10 N·m. Diagram on 2-13 and 5-28. Torque TIP says moly oil (2-12); install procedure says wash then moly grease (5-28).",
+     "verdict": "partly",
+     "issues": "Figures and sequence correct, and it warns not to just add the angles. But it says the order diagram is 'not confirmed' and asks the rider to photograph the manual, though the diagram is on 2-13 and 5-28. Conflict flag is real but resolvable from 5-28 (grease). Misses washing threads and new gasket (5-27, 5-28).",
+     "specs": [
+      {
+       "item": "Head bolt 1st stage",
+       "reply_value": "30 N·m (22 ft-lb)",
+       "manual_value": "30 N·m (22 lb·ft)",
+       "page": "2-12, 5-28",
+       "status": "ok"
+      },
+      {
+       "item": "Head bolt retighten",
+       "reply_value": "15 N·m (11 ft-lb)",
+       "manual_value": "15 N·m (11 lb·ft)",
+       "page": "2-12, 5-28",
+       "status": "ok"
+      },
+      {
+       "item": "Head bolt angle",
+       "reply_value": "60° + 60°",
+       "manual_value": "60° + 60° = 120°",
+       "page": "2-12, 5-29",
+       "status": "ok"
+      },
+      {
+       "item": "Cylinder head nut",
+       "reply_value": "10 N·m (7.4 ft-lb)",
+       "manual_value": "10 N·m (7.4 lb·ft)",
+       "page": "2-10, 5-29",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 2,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 6,
+     "manual_says": "Same values as 2022: bore 77.000-77.010 mm, limit 77.060 mm (largest of six); piston 76.955-76.970 mm at 4.0 mm; clearance 0.030-0.055 mm; side clearance 0.030-0.065 mm, limit 0.115 mm; end gap limit 0.50 mm; pin OD limit 15.971 mm; pin bore limit 16.043 mm; pin clearance 0.002-0.022 mm (2-3, 5-38 to 5-40). Set replacement every fifth race (~12.5 h) and as required (3-2).",
+     "verdict": "matches",
+     "issues": "All figures correct; correctly notes no taper/out-of-round number. Long: table plus five paragraphs.",
+     "specs": [
+      {
+       "item": "Bore",
+       "reply_value": "77.000-77.010 mm",
+       "manual_value": "77.000-77.010 mm",
+       "page": "2-3, 5-38",
+       "status": "ok"
+      },
+      {
+       "item": "Bore wear limit",
+       "reply_value": "77.060 mm",
+       "manual_value": "77.060 mm",
+       "page": "2-3, 5-38",
+       "status": "ok"
+      },
+      {
+       "item": "Piston diameter",
+       "reply_value": "76.955-76.970 mm",
+       "manual_value": "76.955-76.970 mm",
+       "page": "2-3, 5-39",
+       "status": "ok"
+      },
+      {
+       "item": "Measuring point",
+       "reply_value": "4.0 mm",
+       "manual_value": "4.0 mm",
+       "page": "2-3, 5-39",
+       "status": "ok"
+      },
+      {
+       "item": "Piston-to-cylinder clearance",
+       "reply_value": "0.030-0.055 mm",
+       "manual_value": "0.030-0.055 mm",
+       "page": "2-3, 5-39",
+       "status": "ok"
+      },
+      {
+       "item": "Top ring side clearance",
+       "reply_value": "0.030-0.065 mm, limit 0.115 mm",
+       "manual_value": "0.030-0.065 mm, limit 0.115 mm",
+       "page": "2-3, 5-39",
+       "status": "ok"
+      },
+      {
+       "item": "Top ring end gap limit",
+       "reply_value": "0.50 mm",
+       "manual_value": "0.50 mm",
+       "page": "2-3, 5-39",
+       "status": "ok"
+      },
+      {
+       "item": "Piston pin OD limit",
+       "reply_value": "15.971 mm",
+       "manual_value": "15.971 mm",
+       "page": "2-3, 5-40",
+       "status": "ok"
+      },
+      {
+       "item": "Pin bore ID limit",
+       "reply_value": "16.043 mm",
+       "manual_value": "16.043 mm",
+       "page": "2-3, 5-40",
+       "status": "ok"
+      },
+      {
+       "item": "Pin-to-pin-bore clearance",
+       "reply_value": "0.002-0.022 mm",
+       "manual_value": "0.002-0.022 mm",
+       "page": "2-3",
+       "status": "ok"
+      },
+      {
+       "item": "Piston set replacement interval",
+       "reply_value": "every fifth race (~12.5 h), as required",
+       "manual_value": "every fifth race (~12.5 h), as required",
+       "page": "3-2",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 3,
+     "overwhelming": "yes"
+    },
+    {
+     "turn": 7,
+     "manual_says": "Clearance = largest bore minus piston OD at 4.0 mm; 0.030-0.055 mm; out of spec replace cylinder, piston, rings as a set (5-38, 5-39).",
+     "verdict": "matches",
+     "issues": "Correct, one step, asks for the readings.",
+     "specs": [
+      {
+       "item": "Measuring point",
+       "reply_value": "4 mm (0.16 in)",
+       "manual_value": "4.0 mm (0.16 in)",
+       "page": "5-39",
+       "status": "ok"
+      },
+      {
+       "item": "Piston-to-cylinder clearance",
+       "reply_value": "0.030-0.055 mm",
+       "manual_value": "0.030-0.055 mm",
+       "page": "5-39",
+       "status": "ok"
+      },
+      {
+       "item": "Piston set replacement interval",
+       "reply_value": "every fifth race (~12.5 h)",
+       "manual_value": "every fifth race (~12.5 h)",
+       "page": "3-2",
+       "status": "ok"
+      }
+     ],
+     "easy_to_follow": 5,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 8,
+     "manual_says": "Same as 2022: crank counterclockwise to rotor TDC mark vs crankcase cover mark; exhaust and intake sprocket marks level with head edge; do not turn crank during install; caps 10 N·m in 2-3 steps in sequence; tensioner wound clockwise, UP mark up, bolts 10 N·m, cap bolt 6 N·m; turn crank counterclockwise several turns and recheck (5-22 to 5-24).",
+     "verdict": "partly",
+     "issues": "Nothing wrong, but it withholds the procedure as 'not confirmed' and asks the rider for a photo of the manual, though everything is on 5-23 and 5-24. Misses crank direction, cap and tensioner torques, and the do-not-turn-crank warning.",
+     "specs": [],
+     "easy_to_follow": 2,
+     "overwhelming": "no"
+    },
+    {
+     "turn": 9,
+     "manual_says": "Air filter maintenance first; ~20 min at 1/2 throttle or less, pit stop, ~40 min at 3/4 or less, pit stop; replaced piston/rings/valves/cams ~30 min at 1/2 or less, cylinder/crank ~1 h (1-29); oil change and torque checks after (1-30). Oil pressure check, stop if no seep in 1 minute, bolt 10 N·m (3-15). Oil with filter 0.75 L; disassembled 0.95 L (2-2, 3-15).",
+     "verdict": "wrong",
+     "issues": "It says the Yamaha timed/throttle schedule 'isn't confirmed here' and gives only vague 'light load' advice; the schedule is on 1-29 (20 min at 1/2 or less, then 40 min at 3/4 or less). Leaves out the air-filter step, and refers to the 'dry-rebuild fill' without giving 0.95 L (3-15). The 0.75 L figure is correct for the post-break-in change.",
+     "specs": [
+      {
+       "item": "Oil with filter change",
+       "reply_value": "0.75 L (0.79 US qt)",
+       "manual_value": "0.75 L (0.79 US qt)",
+       "page": "2-2, 3-15",
+       "status": "ok"
+      },
+      {
+       "item": "Break-in schedule",
+       "reply_value": "not given (claimed unconfirmed)",
+       "manual_value": "20 min at 1/2 or less, then 40 min at 3/4 or less",
+       "page": "1-29",
+       "status": "wrong (missing)"
+      }
+     ],
+     "easy_to_follow": 2,
+     "overwhelming": "no"
+    }
+   ],
+   "correct_vs_manual": 4,
+   "easy_to_follow": 2,
+   "not_overwhelming": 4,
+   "top_fixes": [
+    "Give the break-in schedule from 1-29 (air filter first; 20 min at 1/2 throttle or less, pit stop, 40 min at 3/4 or less, pit stop; replaced-parts break-in) and the 0.95 L disassembled fill (3-15) instead of saying it is unconfirmed.",
+    "Give the cam timing (5-23, 5-24) and head-bolt order (2-13, 5-28) from the manual instead of asking the rider to photograph the manual.",
+    "Give the actual coolant drain steps from 3-22 (drain bolt, then slowly loosen cap, new copper washer, 10 N·m) and use a new oil drain-bolt gasket (3-15)."
+   ],
+   "overall": "C"
+  }
+ ]
+}
