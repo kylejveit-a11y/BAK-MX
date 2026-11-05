@@ -98,3 +98,6 @@ Unchanged and confirmed: head bolt method and numbers, cam cap torque and order,
 - Where the Yamaha Bond goes on the cover gasket (the half-moon sections) is read from the diagram arrows (5-14 / 5-18).
 - The shim formula (rounded old shim + measured − target) is BAK's simplified version of the selection chart (3-9 to 3-10 / 3-10 to 3-11), carried over from the template.
 - Oil passage plug (head, 10 Nm) and the exhaust pipe studs (7 Nm; 2025 adds "tighten until they bottom") appear in the head removal list. They are not needed for a top-end rebuild, so the guide leaves them out.
+
+## Head bolt order (added 2026-11-05)
+Read from the printed tightening-order picture (2022: 5-24, 2025: 5-28; same layout both years): viewed from above, front at the top: [1] rear left, [2] front right, [3] front left, [4] rear right; nuts [5] front left, [6] rear left. The 2-12 torque-table note says moly oil, the 5-24/5-28 steps say moly grease; the guide now names both.
