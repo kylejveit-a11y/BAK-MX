@@ -1,0 +1,553 @@
+[
+ {
+  "id": "s2-001",
+  "expert_take": "No more HSC yet: a maxed LSC is likely the harshness, back it out to baseline, confirm the shock spring (~45 N/mm at ~200 lb geared) and sag, then add HSC a little at a time if it still bottoms.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [
+   "asked_instead_of_answered"
+  ],
+  "better": "A",
+  "why": "A gives a concrete plan (back LSC to 15 out, check spring/sag) while B stops at asking which way the LSC is maxed.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-004",
+  "expert_take": "Stock springs are about right for 158 lb; set rider sag, check free sag, keep stock valving and only revalve if clickers can't balance comfort and hold-up.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same facts, same verdict and same sag check; A names the 54 N/mm option, B explains both free-sag outcomes.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-005",
+  "expert_take": "Everything is already fully softened, so clickers are out of range: get a revalve matched to the softer springs and slow terrain, and check sag with the link before buying .44s.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Both recommend a revalve over .44 springs with the same mechanical checks; B adds sag with the link, A adds when .44s would help.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-006",
+  "expert_take": "Bleed the outer chambers and confirm the clicker direction, try small 2-3 psi drops from 140 only if it rides high, and don't chase full travel; reset rear sag after the 45 N/mm spring.",
+  "grade_A": "A",
+  "grade_B": "A",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Near-identical, correct advice with the same 137 psi test; B catches the possible clicker-direction mistake a bit more clearly.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-007",
+  "expert_take": "Go back to 13 out on the fork, take sag from 98 toward 105 mm to stop the knifing, then try a couple of psi less or faster fork rebound for braking-bump harshness.",
+  "grade_A": "B",
+  "grade_B": "A",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "B",
+  "why": "B deals with the fork harshness he asked about (2 psi less, rebound for packing) as well as sag; A changes only sag and shock LSC.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-008",
+  "expert_take": "At 210-215 lb geared, start near the top of the range (~170 psi cold), then drop 2-3 psi only if it rides high and deflects.",
+  "grade_A": "A",
+  "grade_B": "A",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same pick, method and caveats; both correctly ignore the 2025 garage specs for the 2018.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-009",
+  "expert_take": "For trail, soften fork compression ~2 clicks and shock HSC a little, maybe LSC a click; keep rebound, sag and fork height as they are.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same three changes; A orders them one at a time, B gives them as a starting set. Both are reasonable with no test time.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-010",
+  "expert_take": "Probably both: the 2020 KX450 fork is soft and dives, and a returning rider shutting the throttle on faces or grabbing the brake pitches it forward. Check fork condition and sag, and ask where it happened.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same content, technique tips and question; both are good.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-011",
+  "expert_take": "Bleed the outer chambers, and don't go lower than 130 psi since too little air makes it ride deep and harsh; work out whether it is stiff early or ramps up late before blaming oil volume.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "B",
+  "why": "B's symptom table (stiff early vs ramps late vs packing) gives a clearer path to diagnosis; A is similar but thinner.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-012",
+  "expert_take": "Give him the stock clicker settings, but at 375 lb he needs custom springs at both ends before clickers matter; stiff optional OEM springs won't be enough.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Identical clicker tables, spring facts and sag advice; B adds the terrain tests as setup changes, A as bullets.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-013",
+  "expert_take": "At 203 lb geared, 133 psi is low and likely letting it ride deep and harsh; try going back up toward 140, bleed the outer chambers, and change oil volume only if it is harsh deep in the stroke.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "A",
+  "why": "A answers the oil question with Husqvarna's outer-chamber oil spec and range, while B says the oil amount isn't confirmed.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-014",
+  "expert_take": "Unlikely to be frame flex; harshness even in the pits that clickers don't change points to binding (linkage/bearings/fork alignment) or something loose. Check the handlebar-clamp recall.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same diagnosis order, recall warning and closing question.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-015",
+  "expert_take": "Fork too soft after the changes: go back to 135 psi / 22 out, check whether the stiffer shock spring now holds the rear high (free sag), and check the fork moves freely.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Both reach the same return-to-135/22 plan and free-sag check; A sequences the changes, B combines them.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-016",
+  "expert_take": "At 220 lb geared, stiffer fork springs are likely; check the shock spring with free sag; springs don't need a revalve, so test stock valving first.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Equivalent answers covering both of his questions.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-017",
+  "expert_take": "Pull the legs to set oil volume properly (380 to 375 cc); it only affects deep travel. At 161 lb, consider the softer optional 4.6 fork springs if it barely moves.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "A",
+  "why": "A adds the softer optional spring, which fits a light rider; B covers the oil job equally well.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-018",
+  "expert_take": "2 out is very firm compression, likely set by a fast or heavy rider for sand; return all four settings to standard as a baseline for a novice and expect a plusher bike with more dive.",
+  "grade_A": "A",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "A",
+  "why": "A gives a concrete reset test with correct directions for all four adjusters; B explains them correctly but sets no test.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-019",
+  "expert_take": "Remove the subframe/airbox for hook-spanner access; measure rider sag in gear (~105 mm start) and free sag; turn the ring down for less sag and lock it.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [
+   "too_long"
+  ],
+  "flags_B": [
+   "too_long"
+  ],
+  "better": "tie",
+  "why": "Same correct procedure, directions and specs; B adds more disassembly detail.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-020",
+  "expert_take": "Not proven oversprung; measure free sag, and check the brand-new SFF install for binding before changing damping; fork diving deep needs support, not softness.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same reasoning and same question about free sag.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-021",
+  "expert_take": "At 230 lb, budget for stiffer springs both ends and set sag; keep stock valving first and revalve only if a problem remains.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Equivalent content and verdict.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-022",
+  "expert_take": "Use the 2006 manual's stock clicker settings and sag ~95-100 mm as a baseline, then tune 1-2 clicks at a time.",
+  "grade_A": "C",
+  "grade_B": "C",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Both give only generic mid-range starting points because the 2006 specs aren't available.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-023",
+  "expert_take": "Check steering bearings and front wheel; a steering damper and fork height/sag balance are the usual cures for headshake on hard bases, plus fork compression or rebound depending on the symptom.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "B",
+  "why": "B gives a concrete 2-click fork compression test; neither mentions a steering damper or fork height.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-024",
+  "expert_take": "Don't spend $1,500 yet: set sag (105/35 mm), reset to stock air and clickers, check service history, then decide.",
+  "grade_A": "A",
+  "grade_B": "A",
+  "flags_A": [
+   "too_long"
+  ],
+  "flags_B": [
+   "too_long"
+  ],
+  "better": "tie",
+  "why": "Same plan and specs, with clear sag steps in both.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-025",
+  "expert_take": "Check sag and the chain/linkage; kicking straight up means slower rebound, packing means faster rebound, deflecting off edges points to compression; don't buy a shock yet.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same baseline, the same three-way breakdown of the kick, and the same advice to keep the stock shock.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-026",
+  "expert_take": "Altitude-jet it leaner: roughly 2-3 main sizes smaller, needle clip up one, possibly a smaller pilot; Yamaha's manual has an altitude/temperature chart to start from.",
+  "grade_A": "C",
+  "grade_B": "C",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "B",
+  "why": "B adds a concrete one-size-leaner main test and the dealer step; A's 'start conservatively rich' muddies the direction.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-027",
+  "expert_take": "Fouling this often is a fault: have the crankcase pressure sensor, injector and fuel pressure tested before replacing parts, run the spec plug and 60:1, and read the plugs.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "B",
+  "why": "B gives a fuller ordered diagnostic list (fault codes, fuel pressure/injector, the 15-hour service) and the plug spec.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-028",
+  "expert_take": "Low-load fouling: use fresh correctly mixed fuel and avoid idling; a hotter plug only if one is approved; read the plug; and for the TBI, check the EFI/fuel side.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same specs and same advice; A adds idle and torque specs, B adds reading the plug.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-029",
+  "expert_take": "Yes: zero all fuel and ignition cells (zero means no correction) and send it to both map slots.",
+  "grade_A": "A",
+  "grade_B": "A",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same correct answer.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-030",
+  "expert_take": "Check the filter and cage sealing first; stalling on a snap in neutral is normal-ish. If it hesitates in gear, add a little fuel in the low-rpm/small-throttle cells.",
+  "grade_A": "C",
+  "grade_B": "C",
+  "flags_A": [],
+  "flags_B": [
+   "numbers_to_verify"
+  ],
+  "better": "A",
+  "why": "A names which cells to look at; B's '6x6 grid' has no cited fact behind it.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-031",
+  "expert_take": "Go to a #48 pilot first after checking the float level (6.5 mm); his 2-3 turns out confirms the pilot is rich.",
+  "grade_A": "A",
+  "grade_B": "A",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same pick, float check and direction.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-032",
+  "expert_take": "Yes: one main size richer is a common first step for 40F colder air, with the needle clip down one if the midrange is lean.",
+  "grade_A": "A",
+  "grade_B": "A",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Both correct on direction; B also mentions the pilot circuit.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-033",
+  "expert_take": "A hanging then dying idle points to a pilot circuit or float problem or an air leak (crank seals under vacuum); clean the passages, vacuum-test, and restore stock timing and the TPS.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "B",
+  "why": "B adds the choke-test interpretation, the float spec and advice to restore timing.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-034",
+  "expert_take": "Stop racing it; check the TPS connector, kill switch, harness, tank vent and fuel screen; ask the dealer for intermittent-fault checks.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same checks and safety advice; B's question about a clean cut vs a sputter is slightly more useful.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-035",
+  "expert_take": "Check the idle adjuster's effect and the TPS basic setting, then intake/reed leaks, then fuel pressure and the injector; don't ride it until it idles.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same order of checks; B is slightly more structured.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-036",
+  "expert_take": "Put the screen back (little gain); the ECU won't fully compensate; with fouling at 15 min, check for Honda's early-2021 ECU update.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same answer; B adds the plug spec, A asks a better question about the battery.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-037",
+  "expert_take": "Give the stock 2022 jetting, check what GYTR parts are actually fitted, and check for air leaks; a bog can also be rich.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same stock table and checks; B adds the float height.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-038",
+  "expert_take": "Likely heat-related fuel delivery or electrical fault, or possibly HSTC; check the vent and connectors and have the shop test it while the fault is present; stop jumping it.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Both correct; B raises traction control and the warning light, A asks a useful hot-vs-restart question.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-039",
+  "expert_take": "If you rarely switch maps, losing the switch is minor, but traction control, launch control and the quickshifter go with it; confirm the old ECUs are compatible with the 2023 before reusing them.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "B",
+  "why": "B ends with a concrete step (send Vortex both part numbers) and explains what the maps do.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-040",
+  "expert_take": "The CUO gives app tweaks to power delivery and GPS lap analysis, not full ECU tuning or navigation; check compatibility and subscription.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same content.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-041",
+  "expert_take": "350 on that gauge is severe overheating if real: stop riding, check coolant, radiator and cap; recheck the dealer's cover-seal job and the oil level (don't overfill).",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "A",
+  "why": "A adds the chain-guide seating cause and the oil interval; B is equally safe but less specific.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-042",
+  "expert_take": "They come with oil; blue smoke on throttle is oil burning, so check for overfill or breather carryover first, then rings or valve seals; take it back under warranty.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same order and same warranty advice.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-043",
+  "expert_take": "Stop: likely loose mounts or exhaust, or crank/rod/balancer trouble; check the external mounts, then the oil and screens for metal before restarting.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "B",
+  "why": "B puts the quick external checks before draining oil and gives a clearer order.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-044",
+  "expert_take": "Idling on the stand boils MX bikes; extra oil won't help; check coolant level, the cap and the radiator, and don't idle it.",
+  "grade_A": "A",
+  "grade_B": "A",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same answer.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-045",
+  "expert_take": "15 hours is KTM's piston-replacement interval for racing; recreational riders often go longer, but inspect at the first one and decide based on how you ride.",
+  "grade_A": "A",
+  "grade_B": "A",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same answer.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-046",
+  "expert_take": "Stop: likely underfilled at delivery or a leak; pressure-test the cooling system at the dealer before running it again; bad gas doesn't explain a missing coolant.",
+  "grade_A": "A",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "A",
+  "why": "A gives the likely-cause order and the normal overflow-loss spec; B is safe but less specific.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-047",
+  "expert_take": "Buy on condition and history: check clutch wear, chain, airbox/filter sealing, valves and cold starting; 2023 and 2024 are carryovers.",
+  "grade_A": "A",
+  "grade_B": "A",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same checklist and pick.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-048",
+  "expert_take": "Recurring weep-hole drips aren't normal: work out whether it is coolant or oil and go back to warranty; don't plug the hole.",
+  "grade_A": "A",
+  "grade_B": "A",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same answer.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-049",
+  "expert_take": "It's the water-pump weep hole; check the oil level properly and identify the fluid; a dealer warranty check; don't plug it.",
+  "grade_A": "A",
+  "grade_B": "A",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same answer and specs.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-050",
+  "expert_take": "Spooge at the pipe joint is common on a 2-stroke and mostly harmless, but a persistent leak means reseating the pipe or new sealing rings under warranty.",
+  "grade_A": "A",
+  "grade_B": "A",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "tie",
+  "why": "Same answer.",
+  "regression_risk": false
+ },
+ {
+  "id": "s2-051",
+  "expert_take": "Don't run it with a knock; check the power valve operation and the Rekluse setup (slip vs drag), and have the knock diagnosed first.",
+  "grade_A": "B",
+  "grade_B": "B",
+  "flags_A": [],
+  "flags_B": [],
+  "better": "B",
+  "why": "B treats the knock more seriously (detonation or piston) and adds the jetting check for the FMF pipe; A puts the exhaust-rattle explanation first.",
+  "regression_risk": false
+ }
+]
