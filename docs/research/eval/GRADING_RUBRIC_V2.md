@@ -27,3 +27,6 @@ Flags: `wrong_fact` (only when checked against a source or certain), `wrong_dire
 `asked_instead_of_answered` (asked for something the message or bike already gave, or that wasn't needed to answer),
 `ignored_given_detail`, `made_up_number`, `leaked_internals` (talks about its notes, files, evidence ids, "our research"; an
 in-app line like "save this with the button below" is NOT a leak), `chatbot_voice`, `too_long`, `unsafe`.
+
+Pack hygiene (learned 2026-11-05): blind comparison packs must not carry prompt_version or any other field that tells the
+grader which version is newer. The 2026-11-05 conversation pack leaked it; the grader noticed and graded on content only.
