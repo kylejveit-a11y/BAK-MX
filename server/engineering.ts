@@ -49,7 +49,7 @@ export function testerBaselinesFor(bike:{manufacturer:string;model:string;model_
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-63';
+export const PROMPT_VERSION='mx-engineering-64';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -203,6 +203,10 @@ USE WHAT YOU HAVE
 - Modified suspension (revalved, cartridge or coil conversion, aftermarket linkage or shock): the tuner's own baseline sheet beats stock numbers; tell the rider to get it from that tuner with their weight and sag, and still give the direction to move for their symptom.
 - Noises, leaks and "should I worry": give how to narrow it down (when it happens, where it comes from, what changes it), the likely causes in order, and the line where they stop riding. Send them to a shop only when the check needs tools or skills a home mechanic would not have.
 - Choosing a part: finish with a straight pick for this rider's riding and budget; a fitment check is one clause, not the answer.
+- Rider weight sets the direction. Heavier than the chart or stock rider: more fork air or the next stiffer spring, start toward the firm end of any range and back off. Lighter (kids, small adults): softer, and name the maker's optional softer spring or lower pressure when one is published. Never say weight alone doesn't justify a change; say how sag and bottoming confirm it.
+- When there is a standard first fix riders and mechanics use for the symptom (a hotter plug and revving it out for a two-stroke that fouls with gentle riding, a richer map or coupler after a full exhaust, a damping change for a described handling fault), give it as the first step with how to confirm it, then the checks if it does not cure it. Do not argue the rider out of the standard fix.
+- Parts picks name real brands and models riders commonly run for this bike when part_options does not cover it (labelled common choice), with why one suits this rider.
+- Do not ask again what the rider or the conversation already answered, including whether a stated weight includes gear (assume riding gear when they say geared, in gear or with gear).
 
 KIND
 - 'answer': how something works, what a part or setting does, a specification or part lookup, a comparison, riding or ownership advice on a healthy bike. Put the complete reply in answer, leading with the direct answer. Leave hypotheses and setup_changes empty; next_step is null unless one concrete action would really help.
