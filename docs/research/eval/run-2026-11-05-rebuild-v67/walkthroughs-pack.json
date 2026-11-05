@@ -1,0 +1,1448 @@
+[
+ {
+  "id": "rb-yz125-2022",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ125",
+   "model_year": 2022,
+   "configuration": {}
+  },
+  "manual": {
+   "publication": "B4X-2819U-10",
+   "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B4X-2819U-10_02.pdf",
+   "type": "Yamaha Owner's Service Manual"
+  },
+  "manual_text": "/tmp/claude-0/-home-claude/6efe62a0-cd5f-5b6c-9409-a557e03a6696/scratchpad/osm/B4X-2819U-10.txt",
+  "checks": [
+   "every step, spec and order matches the Owner's Service Manual for this exact year",
+   "one step (or a small group) per reply, never the whole manual at once",
+   "plain words a home mechanic can follow, with what to check before moving on",
+   "torques, clearances and limits are the manual's, in its units",
+   "says when a special tool or a measurement decides whether a part is reused"
+  ],
+  "turns": [
+   {
+    "turn": 1,
+    "rider": "I want to rebuild the motor on my 2022 YZ125. Can you walk me through it step by step?",
+    "reply": {
+     "summary": "Yes—we’ll work through the rebuild one stage at a time, starting with preparation and engine removal.",
+     "answer": "Yes—we’ll do it **one step at a time**, checking each stage before moving on. For a complete motor rebuild, the job order is:\n\n1. Take the engine out of the frame.\n2. Top end: strip, measure and rebuild the cylinder, piston and power valve.\n3. Bottom end: split the cases and inspect/rebuild the crankshaft, gearbox and clutch.\n4. Put the engine back in the frame and reconnect everything.\n5. First start, premix and break-in checks.\n\nYou can tap **“Start a guided job” above the message box**, beginning with “Take the engine out of the frame,” or we can continue here.\n\nFor removal, have a frame stand, tie-down straps, metric tools, exhaust spring hook, separate drain pans, labelled bags, an engine support block and a helper. You’ll also need a dummy shaft to support the swingarm when its pivot comes out. Have new transmission-oil and coolant drain washers ready; we’ll identify internal replacement parts and special tools before opening the engine.\n\n**Step 1 — Record everything before touching it.** With the engine and exhaust completely cold, wash and dry the engine/intake area and turn the fuel cock off. Photograph both sides closely: wiring connectors, clutch and throttle cables, coolant hoses, and carburetor vent routing. Label bags for each area’s hardware.\n\nOnce the routing is clearly recorded, reply **“done.”** Next is securing the chassis before draining fluids.",
+     "next_step": {
+      "action": "With the bike cold, clean the engine area, turn fuel off, photograph routing and label hardware bags.",
+      "purpose": "Preserve a clear reconnection reference before engine removal.",
+      "stop_conditions": [
+       "Do not begin disconnection while the engine or exhaust is hot.",
+       "If fuel is leaking, address it before proceeding."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 2,
+    "rider": "Ok, the bike is clean and on the stand. What's the first thing I do?",
+    "reply": {
+     "summary": "Secure the bike on the stand, then drain and inspect the transmission oil.",
+     "answer": "**Strap the frame securely to the stand before draining anything.** Both wheels should be off the floor, and the bike must not rock when you push at the bars or seat—the swingarm pivot will come out later.\n\nIf you haven’t taken the routing photos yet, photograph both sides of the engine before disconnecting anything, and turn the fuel cock off.\n\n**Next, drain the transmission oil:**\n1. With the engine cold and the bike level, put a drain pan underneath.\n2. Remove the transmission-oil drain bolt and oil filler cap. Let the oil drain completely.\n3. Inspect the oil and wipe the drain bolt. Look for metal flakes, chunks, heavy glitter or a milky appearance. Keep the bolt with its labelled hardware; have a new aluminum sealing washer ready for refitting.\n\n**Stop here and tell me what the drained oil looks like.** Photograph any metal or milkiness before disposing of it.",
+     "next_step": {
+      "action": "Secure the chassis, then drain and inspect the transmission oil.",
+      "purpose": "Prepare safely for engine removal and preserve evidence of internal wear or contamination.",
+      "stop_conditions": [
+       "The bike rocks or is unstable on the stand.",
+       "Metal chunks, flakes or heavy glitter appear: photograph and record before proceeding.",
+       "Milky oil appears: record it before continuing the teardown."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 3,
+    "rider": "Done. What's next?",
+    "reply": {
+     "summary": "Next, drain the coolant with the engine completely cold and inspect it for contamination.",
+     "answer": "**Next is draining the coolant—only with the engine completely cold.**\n\n1. Place a drain pan beneath the water-pump cover. Lay a thick rag over the radiator cap, turn it slowly to the first stop to release any residual pressure, then remove it. If it hisses, pause until the pressure is fully released; if anything is warm, let it cool before continuing.\n2. Remove the **coolant drain bolt on the water-pump cover**. Hold the pan close—the coolant can spray sideways. Let it drain completely.\n3. Note the coolant’s color and any oil film. Bag and label the drain bolt; it needs a **new copper sealing washer** when refitted. Yamaha’s refit torque is **10 Nm (7.4 ft-lb)**—we’re not refitting it yet.\n\nBefore we move on: what did the transmission oil look like—clean, milky, or metallic? Photograph any contamination in either fluid and keep it recorded for the internal inspection.",
+     "next_step": {
+      "action": "Drain the cold cooling system and record coolant color and any oil film.",
+      "purpose": "Prepare for engine removal while preserving signs of internal contamination.",
+      "stop_conditions": [
+       "Engine, radiator or coolant is warm: allow complete cooling before opening.",
+       "Pressure hisses at the cap: pause at the first stop until released.",
+       "Oil contamination appears: photograph and record it before continuing."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 4,
+    "rider": "Next step",
+    "reply": {
+     "summary": "With the coolant drained, remove the seat, side covers, radiator shrouds and fuel tank.",
+     "answer": "**Next, remove the bodywork and fuel tank.** With the coolant drained and the bike still securely strapped to the stand:\n\n1. Remove the **seat, both side covers and both radiator shrouds**. Slide the side covers backward to release their tabs from the air-filter case—don’t pull them straight outward.\n2. Confirm the **fuel cock is OFF**. Put a rag beneath the fuel-hose connection at the carburetor, disconnect the hose and cap it to prevent drips.\n3. Remove the tank mounting bolts, then lift the tank away with its breather hose. Keep it upright, away from sparks, flames and your work area.\n\nBag and label the fasteners by location, keeping their collars and washers together. Stop here with the tank off; the exhaust comes next.\n\nWhat did the drained transmission oil and coolant look like—any metal, milkiness or oil film?",
+     "next_step": {
+      "action": "After coolant draining is complete, remove the bodywork and fuel tank in the order above.",
+      "purpose": "Expose the engine for the next removal stage.",
+      "stop_conditions": [
+       "Fuel continues flowing with the fuel cock off: stop and contain the leak before proceeding.",
+       "The bike rocks or shifts on its stand."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 5,
+    "rider": "How tight do the cylinder head bolts go, and in what order?",
+    "reply": {
+     "summary": "The five cylinder head nuts tighten to 28 N·m (21 ft-lb), progressively in a crisscross pattern.",
+     "answer": "On your 2022 YZ125, the **five cylinder head nuts tighten to 28 N·m (21 ft-lb)**—not the studs threaded into the cylinder.\n\nFor reassembly:\n1. Grease and install **new head O-rings**, with the dowel pins in place.\n2. Fit the head, **new copper washers** and the nuts.\n3. Tighten progressively in stages using a **crisscross pattern**—move across the head rather than around it—until all five reach 28 N·m. Don’t fully tighten one while the others are loose. No separate intermediate torque values are specified in this procedure.\n\nIf a head stud came out, reinstall it first at **13 N·m (9.6 ft-lb)**. That is separate from the head-nut torque.\n\nThat’s the reassembly step; we’re still at engine removal in your walkthrough. After the tank and bodywork are off, we’ll continue with exhaust removal.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 6,
+    "rider": "What do I need to measure on the piston and cylinder before I reuse them?",
+    "reply": {
+     "summary": "Check cylinder bore, piston skirt diameter, piston clearance, ring clearances and piston-pin fit before deciding on reuse. Passing measurements does not make damaged parts reusable.",
+     "answer": "**Measure the bore and piston first, then check the rings and piston-pin fit.** For your 2022 YZ125, you’ll need a bore gauge, outside micrometers and feeler gauges—ordinary calipers aren’t accurate enough for piston clearance.\n\nThis is the inspection overview for when the top end is apart and cleaned, not the next teardown step.\n\n| Check | Measurement method | Yamaha’s specification |\n|---|---|---|\n| Cylinder bore | Front-to-back and side-to-side at three heights; record all six readings | Standard **54.000–54.014 mm**; wear limit **54.064 mm** |\n| Piston skirt | Perpendicular to the pin, **17.5 mm (0.69 in)** above the skirt’s bottom edge | **53.957–53.972 mm** |\n| Piston-to-cylinder clearance | Largest bore reading minus piston skirt diameter | **0.040–0.045 mm (0.0016–0.0018 in)** |\n| Ring side clearance | Clean groove, ring installed; measure between ring and groove side | **0.035–0.070 mm**; wear limit **0.100 mm** |\n| Ring end gap | Square the ring in the bottom of the bore using the piston crown | Wear limit **1.20 mm (0.0472 in)**—not a new-ring target |\n\nFor the pin, measure its outside diameter and the piston’s pin-bore diameter:\n- Pin minimum diameter: **14.975 mm (0.5896 in)**.\n- Piston pin-bore maximum diameter: **15.040 mm (0.5921 in)**.\n- Pin-bore diameter minus pin diameter: standard clearance **0.008–0.023 mm (0.0003–0.0009 in)**.\n\n**Don’t reuse cracked, scored or heat-damaged parts just because the dimensions pass.** Inspect the ring locating pin, ring groove and small-end bearing too. Match replacement piston sizing to the cylinder’s size letter; aftermarket pistons require their maker’s clearance instructions.\n\nSeparate Yamaha taper and out-of-round limits aren’t confirmed here. Record the differences between bore readings, but don’t treat the maximum bore limit as an allowance for distortion.\n\nOur walkthrough is still at exhaust removal after the tank comes off; we’ll take these measurements individually once the top end is apart.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 7,
+    "rider": "Ok, next step",
+    "reply": {
+     "summary": "Back to engine removal: remove the silencer first, then the exhaust pipe, with everything completely cold.",
+     "answer": "**Next, remove the silencer and exhaust pipe.** The piston and cylinder measurements come later, once the top end is apart.\n\nWith the tank and bodywork off and the bike securely strapped to its stand:\n\n1. Remove the right side cover if it’s still fitted. Support the silencer, remove its mounting bolts, and slide it off the pipe joint.\n2. Use an exhaust spring hook to unhook the **two pipe tension springs**. Keep your face and fingers clear of their path.\n3. Support the pipe, remove its mounting bolts and stay bolts, then carefully lift it off the cylinder. Don’t pry against the cylinder or force a stuck mount.\n4. Bag the bolts with their washers and collars. Check the exhaust port, pipe joint and seal for damage; note any seal needing replacement.\n\nStop here with the exhaust off; **the carburetor comes next**.",
+     "next_step": {
+      "action": "Remove the silencer, then the exhaust pipe, and bag the mounting hardware.",
+      "purpose": "Clear access for carburetor and engine removal.",
+      "stop_conditions": [
+       "Engine or exhaust is still hot.",
+       "Bike shifts or rocks on its stand.",
+       "A seized fastener or stuck joint prevents removal; do not force it."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 8,
+    "rider": "What's the ring end gap spec, and how do I check it?",
+    "reply": {
+     "summary": "Yamaha’s ring end-gap wear limit is 1.20 mm (0.0472 in), not a new-ring target. Measure with the ring squared in the bottom of the cylinder bore.",
+     "answer": "Yamaha’s **top-ring end-gap wear limit is 1.20 mm (0.0472 in)** for your 2022 YZ125—not a new-ring installation target. The exact new-ring target isn’t confirmed here; with an aftermarket kit, follow its ring instructions before filing anything.\n\nOnce the cylinder and piston are removed and cleaned:\n1. Insert the ring alone into the **bottom of the cylinder bore**, where wear is least.\n2. Gently use the piston crown to square the ring so it sits level, not tilted.\n3. Measure between the ring ends with feeler gauges. Find the blade combination that fits with light drag; don’t force the ends apart.\n4. Record the gap. **Beyond 1.20 mm, replace the ring.**\n\nSquaring the ring with the piston is standard measurement practice. Passing end gap alone doesn’t approve reuse—also inspect ring damage, groove clearance and cylinder condition. **Don’t file a new ring toward the wear limit.**\n\nOur walkthrough is still at exhaust removal; this measurement comes after the top end is apart.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 9,
+    "rider": "It's all back together. What's the break-in?",
+    "reply": {
+     "summary": "Use 15:1 premix for break-in: 30 minutes for piston/rings/gears only, or one hour if you fitted a new cylinder or crankshaft. Follow the throttle limits below, inspect afterward, then switch to 30:1.",
+     "answer": "**Run 15:1 break-in premix and vary the speed while riding—not sitting on the stand.** For your 2022 YZ125, follow this schedule:\n\n| Parts replaced | Break-in riding |\n|---|---|\n| Piston, rings or gears only | **30 minutes at half throttle or less** |\n| New cylinder or crankshaft | **20 minutes at half throttle or less**, stop and inspect, then **40 more minutes at three-quarter throttle or less** |\n\n1. **Before starting:** check coolant and transmission-oil levels, filter oiling and seating, and that the throttle snaps shut at both steering locks. Mix fresh premium gasoline with **YAMALUBE 2R or equivalent at 15:1**. Don’t mix different two-stroke oils together.\n2. Start in neutral, choke on, throttle closed. Warm it for **one to two minutes**, returning the choke once it responds cleanly. Check for leaks and make sure turning the bars doesn’t raise the idle.\n3. Ride the applicable schedule above. Vary speed and load; **don’t lug it or rev it hard**. At the intermediate stop, check for leaks and loose fasteners.\n4. After break-in, inspect cables, brake operation, chain slack and spokes; check the specified torque-check fasteners.\n5. Change and inspect the transmission oil: **0.70 L (0.74 US qt), SAE 10W-40 SG or higher**. Fit a new drain-bolt washer; tighten the drain bolt to **20 Nm (15 ft-lb)**. Metal chips require investigation before running again. Inspect the plug, then switch to **30:1** with the same premix oil.\n\n**Stop immediately for pinging, knocking, new mechanical noise, leaks, steam or sudden power loss.** Never open the cooling system hot.\n\nFor individual checks, tap **“Start a guided job”** above the message box and select **“First start, break-in, premix and jetting checks after an engine rebuild.”**",
+     "next_step": {
+      "action": "Complete the pre-start checks and prepare fresh 15:1 break-in premix.",
+      "purpose": "Verify safe operation and lubrication before starting the rebuilt engine.",
+      "stop_conditions": [
+       "Throttle fails to snap shut at either steering lock.",
+       "Fuel, coolant or oil leakage.",
+       "Pinging, knocking, new mechanical noise, steam or sudden power loss."
+      ]
+     },
+     "setup_changes": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "rb-yz125-2025",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ125",
+   "model_year": 2025,
+   "configuration": {}
+  },
+  "manual": {
+   "publication": "D68-2819U-10",
+   "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D68-2819U-10_02.pdf",
+   "type": "Yamaha Owner's Service Manual"
+  },
+  "manual_text": "/tmp/claude-0/-home-claude/6efe62a0-cd5f-5b6c-9409-a557e03a6696/scratchpad/osm/D68-2819U-10.txt",
+  "checks": [
+   "every step, spec and order matches the Owner's Service Manual for this exact year",
+   "one step (or a small group) per reply, never the whole manual at once",
+   "plain words a home mechanic can follow, with what to check before moving on",
+   "torques, clearances and limits are the manual's, in its units",
+   "says when a special tool or a measurement decides whether a part is reused"
+  ],
+  "turns": [
+   {
+    "turn": 1,
+    "rider": "I want to rebuild the motor on my 2025 YZ125. Can you walk me through it step by step?",
+    "reply": {
+     "summary": "We’ll rebuild it in stages, starting with engine removal. First, photograph and label everything before disconnecting anything.",
+     "answer": "Yes—we’ll go **one step at a time**, checking each stage before moving on.\n\nThe job order is:\n1. Take the engine out of the frame.\n2. Top end: strip and inspect the cylinder, piston and YPVS.\n3. Bottom end: split the cases and inspect/rebuild the crankshaft, gearbox and clutch.\n4. Reassemble the engine, then refit and reconnect it.\n5. First start and break-in.\n\nYou can tap **“Start a guided job”** above the message box, beginning with “Take the engine out of the frame,” or continue here.\n\nHave ready: a frame stand, tie-down straps, metric tools, drain pans, exhaust spring hook, engine support, a swingarm-support dummy shaft, labeled bags and a helper. For refitting, have new transmission-oil and coolant-drain sealing washers; internal replacement parts follow inspection.\n\n### Step 1 — Photograph and label\nWith the engine, exhaust and radiators completely cold, turn the fuel cock off. Clean and dry the engine area. Photograph both sides closely: wiring connectors, coolant hoses, clutch and throttle cables, and carburetor vent-hose routing.\n\nLabel bags for exhaust, bodywork/tank, carburetor, wiring, drive side, clutch side and mounts. **Don’t disconnect anything yet.** Reply “done” once the routing photos and bags are ready.",
+     "next_step": {
+      "action": "Photograph all engine connections and prepare labeled parts bags.",
+      "purpose": "Preserve routing and hardware locations before engine removal.",
+      "stop_conditions": [
+       "Wait until the engine, exhaust and cooling system are completely cold."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 2,
+    "rider": "Ok, the bike is clean and on the stand. What's the first thing I do?",
+    "reply": {
+     "summary": "Secure the bike on the stand, then drain and inspect the transmission oil before removing anything.",
+     "answer": "**Strap the frame securely to the stand, then drain the transmission oil.** Both wheels should be clear of the floor, and the bike must not rock when pushed at the bars or seat.\n\nIf you haven’t taken the routing photos and labeled the parts bags yet, do that before disconnecting anything.\n\n1. With the engine cold and the bike level, put a clean drain pan underneath.\n2. Remove the **transmission-oil drain bolt** and oil filler cap. Let the oil drain completely.\n3. Inspect the oil and wipe the drain bolt: look for metal flakes, chunks, heavy glitter or a milky appearance. Photograph anything suspicious and keep the drained oil for inspection.\n\nFor later refitting, Yamaha specifies **20 Nm (15 ft-lb)** for the drain bolt with a new aluminum sealing washer—don’t refill it now.\n\nTell me whether the oil looks clean, metallic or milky before we move to draining the coolant.",
+     "next_step": {
+      "action": "Secure the bike, then drain and inspect the transmission oil.",
+      "purpose": "Prepare safely for engine removal and record evidence of internal wear or coolant contamination.",
+      "stop_conditions": [
+       "Do not proceed if the bike rocks or is unstable on the stand.",
+       "If metal chunks, heavy glitter or milky oil appear, record them before continuing."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 3,
+    "rider": "Done. What's next?",
+    "reply": {
+     "summary": "Next, drain the coolant with the engine completely cold and inspect it for contamination.",
+     "answer": "**Drain the coolant next—with the engine completely cold.**\n\n1. Place a separate drain pan under the water-pump cover.\n2. Lay a thick rag over the radiator cap. Turn it slowly to the first stop; if it hisses or releases pressure, stop and let the system cool fully before removing the cap.\n3. Remove the **coolant drain bolt on the water-pump cover**. Hold the pan close—the coolant can spray sideways. Let it drain completely.\n4. Note the coolant’s color and look for an oily film. Bag and label the drain bolt.\n\nFor refitting later, Yamaha specifies **10 Nm (7.4 ft-lb)** with a **new copper washer**. Don’t refill it now.\n\nBefore moving on, tell me what the drained coolant and transmission oil looked like—especially any oil film, milkiness, metal flakes or heavy glitter.",
+     "next_step": {
+      "action": "With the engine completely cold, drain and inspect the coolant.",
+      "purpose": "Empty the cooling system before engine removal and record contamination.",
+      "stop_conditions": [
+       "Stop if the radiator is hot or the cap releases pressure; let it cool fully.",
+       "If oil contamination, milky transmission oil or significant metal appears, document it before proceeding."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 4,
+    "rider": "Next step",
+    "reply": {
+     "summary": "Next, remove the seat, side covers, radiator shrouds and fuel tank with the fuel cock off.",
+     "answer": "**Remove the bodywork and fuel tank next.** With the engine cold and the bike securely strapped to the stand:\n\n1. Remove the seat, then both side covers—slide the covers backward to release their tabs from the air-filter case. Remove both radiator shrouds.\n2. Confirm the **fuel cock is OFF**. Place a rag beneath the fuel-hose connection at the carburetor, disconnect the hose and cap it to contain residual fuel.\n3. Remove the tank mounting bolts and lift the tank off with its breather hose. Store it upright, away from sparks, flames and your work area.\n4. Bag and label the hardware by location; photograph the hose routing before moving it.\n\n**If fuel keeps flowing with the cock off, stop before lifting the tank.**\n\nThe oil and coolant condition still hasn’t been reported—note any metal, milkiness or oily film before disposing of either.",
+     "next_step": {
+      "action": "Remove the seat, side covers, shrouds and fuel tank in that order.",
+      "purpose": "Expose the engine connections for the next stage of removal.",
+      "stop_conditions": [
+       "Fuel continues flowing with the fuel cock off.",
+       "Fuel leakage cannot be contained safely.",
+       "Bike is unstable on the stand."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 5,
+    "rider": "How tight do the cylinder head bolts go, and in what order?",
+    "reply": {
+     "summary": "Tighten the five cylinder-head nuts to 28 Nm (21 ft-lb), progressively in a crisscross pattern—not around the head.",
+     "answer": "Yamaha specifies **28 Nm (21 ft-lb)** for the five **cylinder-head nuts** on your 2025 YZ125—not the studs themselves.\n\nAt reassembly:\n1. Grease and fit new head O-rings, with the dowel pins in place.\n2. Install the head, new copper washers and all five nuts finger-tight.\n3. Tighten in stages using a **crisscross pattern**, moving across the head rather than working around its perimeter. Repeat that pattern until all five reach **28 Nm**. Don’t take one nut straight to full torque while the others are loose.\n\nIf a head stud came out, refit that stud at **13 Nm (9.6 ft-lb)** first. That is a separate specification from the head-nut torque.\n\nThis is for reassembly later; our walkthrough resumes with exhaust removal once the tank is off.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 6,
+    "rider": "What do I need to measure on the piston and cylinder before I reuse them?",
+    "reply": {
+     "summary": "Measure the cylinder bore, piston skirt, running clearance, rings and piston-pin fit before reusing them. Passing dimensions does not clear cracked, scored or heat-damaged parts.",
+     "answer": "**Check bore size, piston diameter and piston-to-cylinder clearance first, then the rings and piston-pin fit.** Use a bore gauge, outside micrometer and feeler gauges—not calipers for running clearance. This is the inspection checklist for later; our walkthrough hasn’t reached teardown yet.\n\nThe methods below are standard inspection practice; the dimensions are Yamaha’s values for your 2025 YZ125.\n\n| Check | Where/how | Specification |\n|---|---|---|\n| Cylinder bore | Front-to-back and side-to-side at three heights; record all six readings | **54.000–54.014 mm** standard; **54.064 mm (2.1285 in)** wear limit |\n| Piston diameter | Across the skirt, perpendicular to the pin, **17.5 mm (0.69 in)** above its bottom edge | **53.957–53.972 mm (2.1243–2.1249 in)** standard |\n| Piston-to-cylinder clearance | Largest bore reading minus piston skirt diameter | **0.040–0.045 mm (0.0016–0.0018 in)** |\n| Ring side clearance | Clean the groove, fit the ring and measure between ring and groove | **0.035–0.070 mm** standard; **0.100 mm (0.0039 in)** limit |\n| Ring end gap | Square the ring in the bottom of the bore with the piston crown; measure its gap | **1.20 mm (0.0472 in)** limit—not a new-ring target |\n| Piston-pin fit | Measure pin outside diameter and piston pin-bore diameter; subtract pin from bore | Pin minimum **14.975 mm**; bore maximum **15.040 mm**; clearance **0.008–0.023 mm (0.0003–0.0009 in)** |\n\nAs general inspection practice, reject cracked pistons, damaged rings and vertically scored running surfaces; match the replacement piston’s size grade to the cylinder. Check the small-end bearing for pitting, flat needles, heat marks or cage damage.\n\nSeparate cylinder taper/out-of-round limits aren’t confirmed here; Yamaha’s cylinder inspection section carries those criteria. Keep all six readings—one acceptable diameter alone doesn’t establish that the bore is reusable.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 7,
+    "rider": "Ok, next step",
+    "reply": {
+     "summary": "Resume engine removal: with the tank and bodywork off, remove the silencer first, then the exhaust pipe.",
+     "answer": "**Remove the silencer, then the exhaust pipe.** We’re continuing engine removal—the piston measurements come after teardown.\n\nWith the exhaust completely cold and the bike securely strapped down:\n\n1. Remove the right side cover if it’s still fitted. Support the silencer, remove its mounting bolts, and slide it off the pipe joint.\n2. Using an exhaust spring hook, carefully unhook the **two pipe tension springs**. Wear eye protection and keep your face out of their path.\n3. Support the pipe while removing its mounting and stay bolts, then ease it off the cylinder. Don’t force it against the exhaust outlet.\n4. Bag the bolts, washers and collars by location. Inspect the exhaust joint and seal for damage; note whether a replacement is needed.\n\nLeave the carburetor fitted for now.",
+     "next_step": {
+      "action": "Remove the cold silencer and exhaust pipe, keeping their hardware organized.",
+      "purpose": "Clear access before removing the carburetor and engine connections.",
+      "stop_conditions": [
+       "The exhaust is still hot.",
+       "The bike is unstable on its stand.",
+       "A seized fastener or stuck joint requires force that could damage the cylinder outlet."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 8,
+    "rider": "What's the ring end gap spec, and how do I check it?",
+    "reply": {
+     "summary": "Yamaha’s top-ring end-gap wear limit is 1.20 mm (0.0472 in), not a new-ring target. Measure with the ring squared in the bottom of the cylinder bore.",
+     "answer": "Yamaha specifies a **top-ring end-gap wear limit of 1.20 mm (0.0472 in)** for your 2025 YZ125. That’s the rejection limit—not a new-ring target; the nominal new-ring gap isn’t confirmed here.\n\nOnce the cylinder and piston are removed:\n1. Clean the ring and cylinder bore.\n2. Insert the ring into the **bottom of the bore**, where wear is least.\n3. Use the piston crown to square the ring so it sits evenly—not tilted.\n4. Measure between the ring ends with feeler gauges. As general measuring practice, use the blade that fits with light drag without forcing the ends apart.\n\n**Replace the ring if the gap exceeds 1.20 mm**, or if it’s damaged. Don’t file a new ring to this wear-limit figure. Passing end gap alone doesn’t clear the piston, ring groove or cylinder for reuse.\n\nOur engine-removal walkthrough remains at exhaust removal; this check comes after top-end teardown.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 9,
+    "rider": "It's all back together. What's the break-in?",
+    "reply": {
+     "summary": "Break in under varying load: 30 minutes for piston/rings/gears only, or one hour with a new cylinder or crankshaft. Use the break-in fuel mix, inspect afterward, and change the transmission oil.",
+     "answer": "**Use 15:1 premix during break-in**, with fresh premium unleaded and YAMALUBE 2R or equivalent. The rebuild procedure gives two routes:\n\n| Parts replaced | Break-in riding |\n|---|---|\n| Piston, rings or gears only | **30 minutes at half throttle or less**, varying speed |\n| New cylinder or crankshaft | **20 minutes at half throttle or less**; stop and inspect, then **40 minutes at three-quarter throttle or less** |\n\nBefore starting, check coolant and transmission-oil levels, filter sealing, and throttle return at both steering locks. Start outdoors; warm it for **1–2 minutes**, until it responds cleanly with the choke off, then check for leaks.\n\nRide under varying load—**don’t lug it, rev it hard, or substitute prolonged idling for riding**.\n\nAfter break-in:\n1. Check for leaks, loose hardware, chain slack, spoke tension and control free play. Recheck the designated torque-check fasteners.\n2. Change the transmission oil and inspect for chips or debris. Yamaha specifies **0.70 L (0.74 US qt), SAE 10W-40, SG or higher**; verify the final level.\n3. Switch to Yamaha’s normal **30:1 premix**, keeping the same oil. Don’t mix different oil types in one batch.\n\n**Stop immediately for pinging, knocking, steam, fluid loss, sudden power loss or tightening/seizing.** Let it cool fully before opening the radiator.\n\nFor a check-by-check walkthrough, tap **“Start a guided job”** and select **“First start, break-in, premix and jetting checks after an engine rebuild.”** Have a measuring jug, fresh fuel can, timer and torque wrench ready.",
+     "next_step": {
+      "action": "Check fluids, filter sealing and throttle return before preparing break-in fuel.",
+      "purpose": "Verify the rebuilt engine is ready for its first start.",
+      "stop_conditions": [
+       "Throttle fails to snap shut at either steering lock.",
+       "Fuel, coolant or oil leakage.",
+       "Pinging, knocking, steam, sudden power loss or engine tightening."
+      ]
+     },
+     "setup_changes": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "rb-yz250-2023",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ250",
+   "model_year": 2023,
+   "configuration": {}
+  },
+  "manual": {
+   "publication": "BCR-2819U-11",
+   "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BCR-2819U-11_02.pdf",
+   "type": "Yamaha Owner's Service Manual"
+  },
+  "manual_text": "/tmp/claude-0/-home-claude/6efe62a0-cd5f-5b6c-9409-a557e03a6696/scratchpad/osm/BCR-2819U-11.txt",
+  "checks": [
+   "every step, spec and order matches the Owner's Service Manual for this exact year",
+   "one step (or a small group) per reply, never the whole manual at once",
+   "plain words a home mechanic can follow, with what to check before moving on",
+   "torques, clearances and limits are the manual's, in its units",
+   "says when a special tool or a measurement decides whether a part is reused"
+  ],
+  "turns": [
+   {
+    "turn": 1,
+    "rider": "I want to rebuild the motor on my 2023 YZ250. Can you walk me through it step by step?",
+    "reply": {
+     "summary": "Yes—we’ll work through the complete rebuild one step at a time, starting with engine removal. Don’t buy a piston or crankshaft until inspection tells us what needs replacing.",
+     "answer": "Yes—we’ll rebuild it **one step at a time**, checking each stage before moving on.\n\nThe job order is:\n1. Take the engine out of the frame.\n2. Strip and inspect the top end and cylinder power valves.\n3. Split the cases and inspect/rebuild the crankshaft, gearbox and clutch.\n4. Reassemble the bottom end, then the top end and power valves.\n5. Refit the engine, then complete pre-start checks and break-in.\n\nYou can tap **“Start a guided job” above the message box**, beginning with **“Take the engine out of the frame,”** or follow along here.\n\nFor removal, have metric hand tools, an exhaust spring hook, drain pans, a sturdy stand and straps, a swingarm support shaft, labelled bags and a helper ready. The internal work also needs measuring equipment, calibrated torque wrenches and the correct engine pullers/separators. Plan on replacement gaskets, seals, locking hardware and piston-pin clips; choose major engine parts after measuring.\n\n### Step 1 — Photograph and label\nWith the engine and exhaust completely cold and the fuel cock off, photograph both engine sides closely: wiring, coolant hoses, clutch and throttle cables, carburetor vents, clamps and ties.\n\nLabel bags: exhaust, seat/tank, carburetor, wiring, drive side, clutch side and mounts. **Don’t disconnect anything yet.** Reply “done” once the routing photos and bags are ready.",
+     "next_step": {
+      "action": "Photograph engine routing and prepare labelled hardware bags before disassembly.",
+      "purpose": "Preserve hose, cable, wiring and hardware locations for correct refitting.",
+      "stop_conditions": [
+       "Engine or exhaust is still hot.",
+       "Fuel leakage or nearby ignition sources."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 2,
+    "rider": "Ok, the bike is clean and on the stand. What's the first thing I do?",
+    "reply": {
+     "summary": "Finish the routing photos and secure the bike, then drain the transmission oil before the coolant.",
+     "answer": "**Drain the transmission oil first—once the routing photos are taken and the bike is strapped securely.**\n\n1. If you haven’t taken the photos yet, photograph both engine sides, especially wiring, clutch cable, throttle cable and carburetor hoses. Label your hardware bags.\n2. Strap the frame to the stand with both wheels clear. Check that it doesn’t rock when pushed at the bars and seat; the swingarm will need support later when its pivot shaft comes out.\n3. With the engine cold and bike level, put a clean drain pan underneath. Remove the **transmission oil drain bolt and oil filler cap**, and let it drain completely. Inspect the oil and drain bolt for metal flakes, chunks or a milky appearance.\n\nFor later refitting, Yamaha specifies **23 N·m (17 ft-lb)** for that drain bolt with a new aluminum washer.\n\n**If you find chunks or heavy metallic glitter, stop disassembly long enough to photograph and record it.** Tell me what the drained oil looks like before we move to the coolant.",
+     "next_step": {
+      "action": "After photographing routing and securing the bike, drain and inspect the transmission oil.",
+      "purpose": "Prepare for engine removal and preserve evidence of internal wear or contamination.",
+      "stop_conditions": [
+       "Bike rocks or is insecure on the stand.",
+       "Engine remains hot.",
+       "Metal chunks, flakes or heavy glitter appear: photograph and record before proceeding."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 3,
+    "rider": "Done. What's next?",
+    "reply": {
+     "summary": "Next, drain the coolant with the engine completely cold and record its condition.",
+     "answer": "**Drain the coolant next—with the engine completely cold.** Keep the bike strapped securely on the stand.\n\n1. Place a drain pan beneath the water pump. Lay a thick rag over the radiator cap, turn it slowly to the first stop, then remove it. **If it hisses under pressure, stop and let it cool fully.**\n2. Remove the **coolant drain bolt on the water-pump cover**. Hold the pan close—the coolant can spray sideways—and let it drain completely.\n3. Note the coolant’s color and any oil film. Bag the bolt and mark it for a **new copper washer** at refit. Yamaha specifies **10 N·m (7.4 ft-lb)** for this bolt; we’re leaving the system drained for removal.\n\nRecord the transmission oil’s condition too if you haven’t already. Reply “done” with what both fluids looked like before we move to the seat and fuel tank.",
+     "next_step": {
+      "action": "Drain the cold cooling system and record coolant condition.",
+      "purpose": "Prepare the engine for removal while preserving evidence of contamination.",
+      "stop_conditions": [
+       "Engine or cooling system remains hot or pressurized.",
+       "Bike is unstable on the stand."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 4,
+    "rider": "Next step",
+    "reply": {
+     "summary": "Remove the seat, side covers, radiator shrouds and fuel tank next. Keep the fuel cock off and cap the disconnected fuel hose.",
+     "answer": "**Next, remove the bodywork and fuel tank.** With the coolant draining step finished:\n\n1. Remove the seat, then both side covers—**slide the covers backward to release their tabs from the airbox**, rather than pulling them straight outward.\n2. Remove both radiator shrouds. Bag and label their bolts and any collars.\n3. Check the **fuel cock is OFF**, place a rag beneath the fuel connection, disconnect the fuel hose at the carburetor and cap the hose to contain residual fuel.\n4. Remove the tank mounting bolts and lift the tank off with its breather hose, watching for anything snagged underneath. Store it upright, away from sparks and your work area.\n\nStop if fuel keeps flowing with the cock off; resolve that before continuing. Leave the exhaust fitted for now.\n\nBefore moving on, record whether the drained oil was milky or metallic and whether the coolant had an oil film—those findings affect the internal inspection.",
+     "next_step": {
+      "action": "Remove the seat, side covers, shrouds and fuel tank; label the hardware.",
+      "purpose": "Expose the engine and clear the fuel tank before exhaust removal.",
+      "stop_conditions": [
+       "Fuel continues flowing with the fuel cock off.",
+       "Fuel leakage or nearby ignition sources.",
+       "Bike becomes unstable on the stand."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 5,
+    "rider": "How tight do the cylinder head bolts go, and in what order?",
+    "reply": {
+     "summary": "The six cylinder-head nuts tighten progressively in a crisscross pattern to 25 N·m (18 ft-lb), not one at a time to full torque.",
+     "answer": "Yamaha specifies **25 N·m (18 ft-lb)** for the **six cylinder-head nuts** on your 2023 YZ250—not the studs threaded into the cylinder.\n\nTighten them **progressively in a crisscross pattern**: snug one nut, move to the nut opposite it, then repeat with the other opposing pairs. Repeat that pattern in small, even increments until all six reach final torque. Don’t fully tighten one while the others are loose.\n\nWhen assembling, grease both **new head O-rings with lithium-soap grease**, install the dowels and head, and use **six new copper washers** under the nuts.\n\nThat’s for reassembly later—we’re still at engine removal, with the silencer and exhaust pipe next.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 6,
+    "rider": "What do I need to measure on the piston and cylinder before I reuse them?",
+    "reply": {
+     "summary": "Check bore size, piston-to-cylinder clearance, ring clearances and piston-pin fit before reuse. Passing dimensions does not make a damaged piston or cylinder reusable.",
+     "answer": "**Measure the cylinder and piston as a matched pair—not just by appearance.** These checks come after removal; we haven’t reached inspection in our walkthrough yet. The figures below apply to the stock 2023 YZ250 components.\n\n| Check | Measurement method | Yamaha’s specification |\n|---|---|---|\n| Cylinder bore | Bore gauge, front-to-back and side-to-side at three heights; record all six readings | **66.400–66.414 mm** standard; **66.464 mm** wear limit |\n| Piston skirt diameter | Outside micrometer in the illustrated measuring orientation, **17.5 mm from the skirt bottom** | **66.352–66.367 mm** standard |\n| Piston-to-cylinder clearance | Largest measured bore minus measured piston diameter | **0.045–0.050 mm** |\n| Ring side clearance | Feeler gauge between each ring and its cleaned groove | Both rings: **0.030–0.065 mm** standard; **0.100 mm** limit |\n| Ring end gap | Square each ring near the cylinder bottom using the piston crown; measure with feeler gauges | Both rings: **0.95 mm** wear limit—not a new-ring fitting target |\n| Piston pin and piston pin bore | Outside micrometer on pin; suitable internal measuring tool in piston bosses | Pin minimum **17.975 mm**; bore maximum **18.040 mm** |\n| Pin-to-piston clearance | Measured pin-bore diameter minus pin diameter | **0.004–0.020 mm** standard |\n\nAlso inspect for vertical scoring, cracks, damaged ring grooves, pin grooves and blue heat discoloration. **Reject damaged parts even if their dimensions pass.** Excessive ring side clearance requires replacing the piston and rings as a set.\n\nSeparate cylinder taper and out-of-round limits aren’t confirmed here; Yamaha’s cylinder-inspection specifications would settle those. Keep all six bore readings so distortion isn’t hidden by one acceptable measurement. Use a bore gauge and micrometers—not calipers—for the reuse decision.\n\nThis is the inspection checklist for later; our next teardown step remains removing the silencer and exhaust pipe.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 7,
+    "rider": "Ok, next step",
+    "reply": {
+     "summary": "Next, remove the silencer and expansion chamber. We’re continuing engine removal; piston and cylinder measurements come after teardown.",
+     "answer": "**Remove the silencer and expansion chamber next.** We’re picking up after the fuel-tank removal—not starting the piston measurements yet.\n\n1. With the exhaust completely cold, support the silencer, remove its mounting bolts and slide it off the pipe joint. Bag its bolts, washers and collars together.\n2. Use an exhaust spring hook to unhook the **two springs at the cylinder connection**. Wear eye protection and keep your face out of the springs’ path.\n3. Support the expansion chamber, remove its mounting and stay bolts, then carefully work it free from the cylinder. Don’t pry against the exhaust port.\n\nInspect the exhaust-port connection and joint seals for damage, and note anything that needs replacing. Label the pipe hardware separately. **Leave the carburetor fitted for now.**",
+     "next_step": {
+      "action": "Remove the cold silencer and expansion chamber; label hardware and inspect joint seals.",
+      "purpose": "Clear the exhaust before carburetor removal.",
+      "stop_conditions": [
+       "Exhaust remains hot.",
+       "A seized fastener or stuck joint requires force that could damage the cylinder.",
+       "Bike becomes unstable on its stand."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 8,
+    "rider": "What's the ring end gap spec, and how do I check it?",
+    "reply": {
+     "summary": "Yamaha’s end-gap wear limit is 0.95 mm (0.0374 in) for both rings—not a new-ring fitting target. Check each ring separately, squared near the bottom of the cylinder.",
+     "answer": "Yamaha specifies a **0.95 mm (0.0374 in) ring end-gap wear limit for both the top and second rings** on your stock 2023 YZ250. That’s a wear limit—not a target for filing new rings. A new-ring minimum isn’t confirmed here; Yamaha’s piston-ring inspection section is where to verify the stock fitting requirements.\n\nOnce the cylinder and rings are removed and cleaned:\n\n1. Insert one ring **near the bottom of the cylinder bore**, where wear is lowest.\n2. Use the piston crown to push it evenly into position so the ring sits square, not tilted.\n3. Measure between the ring ends with feeler gauges. Use the blade thickness that fits with light drag without pushing the ends apart.\n4. Record the measurement and repeat separately for the other ring.\n\n**Replace a ring exceeding 0.95 mm**, or any cracked or damaged ring regardless of gap. Don’t file new rings toward that wear limit. Aftermarket rings need their manufacturer’s fitting instructions.\n\nThis inspection comes later in our rebuild—we’re still at engine removal, following the exhaust-removal step.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 9,
+    "rider": "It's all back together. What's the break-in?",
+    "reply": {
+     "summary": "Use about 30 minutes at half throttle or less for piston/rings/gears only; allow about one hour if you fitted a new cylinder or crankshaft. Complete the pre-start checks before riding.",
+     "answer": "**Break-in depends on what you replaced:**\n\n- **Piston, rings or gears only:** about **30 minutes at half throttle or less**, varying speed.\n- **New cylinder or crankshaft:** about **20 minutes at half throttle or less**, stop and check for leaks or loose hardware, then **40 more minutes at three-quarter throttle or less**.\n\nThat schedule comes from the workshop break-in guidance.\n\n1. Before starting, confirm coolant and transmission oil levels, air-filter sealing, free throttle return and removal of the **YPVS holding pin**. Use fresh premium fuel with **YAMALUBE 2R or equivalent at 15:1** for break-in; don’t mix oil types.\n2. Start outdoors. Warm it for **one to two minutes**, until it responds cleanly with the choke off. Check for leaks and ensure turning the bars doesn’t raise the idle.\n3. Ride the applicable schedule, varying speed and load. **No lugging, hard revving or prolonged stationary idling.**\n4. Afterward, inspect leaks, fasteners, controls, chain and spokes; recheck the rebuild’s torque-check points. Check coolant only when cold.\n5. Change and inspect the transmission oil: Yamaha specifies **0.75 L (0.79 US qt) of SAE 10W-40**. Switch to Yamaha’s normal **30:1 premix** afterward.\n\n**Stop immediately for pinging, knocking, abnormal mechanical noise, steam, fluid loss, sudden power loss or tightening-up.**",
+     "next_step": {
+      "action": "Complete the pre-start checks, then follow the break-in route matching the replaced components.",
+      "purpose": "Verify readiness before loading the rebuilt engine.",
+      "stop_conditions": [
+       "YPVS holding pin removal is unconfirmed.",
+       "Throttle fails to return freely or idle rises when steering.",
+       "Pinging, knocking, abnormal mechanical noise, steam, leaks or sudden power loss."
+      ]
+     },
+     "setup_changes": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "rb-yz250-2025",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ250",
+   "model_year": 2025,
+   "configuration": {}
+  },
+  "manual": {
+   "publication": "D69-2819U-10",
+   "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D69-2819U-10_02.pdf",
+   "type": "Yamaha Owner's Service Manual"
+  },
+  "manual_text": "/tmp/claude-0/-home-claude/6efe62a0-cd5f-5b6c-9409-a557e03a6696/scratchpad/osm/D69-2819U-10.txt",
+  "checks": [
+   "every step, spec and order matches the Owner's Service Manual for this exact year",
+   "one step (or a small group) per reply, never the whole manual at once",
+   "plain words a home mechanic can follow, with what to check before moving on",
+   "torques, clearances and limits are the manual's, in its units",
+   "says when a special tool or a measurement decides whether a part is reused"
+  ],
+  "turns": [
+   {
+    "turn": 1,
+    "rider": "I want to rebuild the motor on my 2025 YZ250. Can you walk me through it step by step?",
+    "reply": {
+     "summary": "Yes—we’ll work through the rebuild one stage at a time, starting with engine removal and recording each inspection before reassembly.",
+     "answer": "Yes—we’ll walk through your **2025 YZ250 engine rebuild step by step**, checking measurements before deciding which parts to replace.\n\nThe job order is:\n1. Take the engine out of the frame.\n2. Strip the top end and cylinder power valves.\n3. Rebuild the bottom end: crankshaft, gearbox and clutch.\n4. Finish the measured top-end and power-valve assembly.\n5. Refit the engine and reconnect everything.\n6. Complete pre-start checks, first start and break-in.\n\nYou can tap **“Start a guided job” above the message box**, starting with **“Take the engine out of the frame,”** or continue here.\n\nHave a frame stand, tie-down straps, metric tools, drain pans, labelled bags, an engine support and a helper ready. The rebuild also needs calibrated torque tools, measuring equipment and operation-specific pullers; we’ll identify those before their stage. Plan on new gaskets, O-rings, piston-pin clips and drain washers; choose piston and crank parts after inspection.\n\n### Step 1 — Record the bike before dismantling\nWith the engine completely cold, bike clean and fuel cock off, photograph both engine sides. Capture wiring, coolant hoses, clutch and throttle cables, and carburetor vent routing. Label separate fastener bags for each area.\n\n**Once the photos and bags are ready, say “done.”**",
+     "next_step": {
+      "action": "Photograph engine-side routing and label fastener bags before dismantling.",
+      "purpose": "Preserve routing and hardware locations for correct reassembly.",
+      "stop_conditions": [
+       "Do not begin dismantling while the engine, exhaust or cooling system is hot."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 2,
+    "rider": "Ok, the bike is clean and on the stand. What's the first thing I do?",
+    "reply": {
+     "summary": "Record the routing and secure the bike, then drain and inspect the transmission oil.",
+     "answer": "**Start by recording the routing, then drain the transmission oil.** Leave the engine cold—don’t run it to warm the oil.\n\n1. If you haven’t taken them yet, photograph both engine sides: wiring, coolant hoses, clutch cable, throttle cable and carburetor vent hoses. Label your fastener bags.\n2. With the bike already on the stand, **strap the frame securely** and check that both wheels are clear of the floor. It must not rock when pushed at the bars or seat; removing the swingarm pivot later takes away the swingarm’s support.\n3. Put a clean drain pan underneath. Remove the transmission oil drain bolt and oil filler cap, and let it drain fully. Check the oil and drain bolt for metal flakes, chunks, heavy glitter or a milky appearance. Keep the bolt with its labelled hardware; at refit, Yamaha specifies **23 Nm (17 ft-lb)** with a new aluminum washer.\n\nTell me what the drained oil looks like before we move to the coolant.",
+     "next_step": {
+      "action": "Record routing, secure the frame, then drain and inspect transmission oil.",
+      "purpose": "Prepare safe engine removal and preserve evidence of internal condition.",
+      "stop_conditions": [
+       "Bike rocks or is insecure on its stand.",
+       "Metal chunks, flakes or heavy glitter: record findings before continuing dismantling."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 3,
+    "rider": "Done. What's next?",
+    "reply": {
+     "summary": "Next, drain the coolant with the engine completely cold and inspect it for contamination.",
+     "answer": "**Next: drain the coolant.** Keep the bike strapped securely on the stand.\n\n1. With the engine and radiator completely cold, place a thick rag over the radiator cap. Turn it slowly to the first stop; if it hisses under pressure, stop and let it cool further before removing it.\n2. Position a drain pan beside the water pump. Remove the **coolant drain bolt on the water-pump cover**—coolant can spray sideways, so hold the pan close—and let it drain fully.\n3. Check the coolant for an oily film and record its color. Bag the drain bolt separately. At refit, Yamaha specifies **10 Nm (7.4 ft-lb)** with a new copper washer.\n\nIf the transmission oil you just drained contained chunks, flakes, heavy glitter or looked milky, record that before continuing; it changes what we need to inspect inside.\n\nOnce the coolant is drained, tell me its condition and we’ll move to the seat, bodywork and fuel tank.",
+     "next_step": {
+      "action": "Drain the cold cooling system and record coolant condition.",
+      "purpose": "Prepare the engine for removal and preserve evidence of contamination.",
+      "stop_conditions": [
+       "Engine or radiator is still hot, or pressure escapes at the cap.",
+       "Bike rocks or is insecure on the stand."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 4,
+    "rider": "Next step",
+    "reply": {
+     "summary": "Next, remove the seat, side covers, radiator shrouds and fuel tank with the fuel cock off.",
+     "answer": "**Next: remove the seat, bodywork and fuel tank.** With the coolant drained and the bike still strapped securely:\n\n1. Remove the seat, both side covers and both radiator shrouds. **Slide the side covers backward** to release their tabs from the air-filter case—don’t pull them straight outward.\n2. Turn the fuel cock **OFF**. Place a rag beneath the fuel-hose connection at the carburetor, disconnect the hose and cap it to prevent drips.\n3. Remove the tank mounting bolts, then lift the tank off with its breather hose, watching for anything snagging. Store it upright away from sparks, flames and your work area.\n\nBag and label the hardware by location. If fuel keeps flowing with the cock off, stop and resolve that before continuing.\n\nOnce the tank and bodywork are off, say “done.”",
+     "next_step": {
+      "action": "Remove the seat, side covers, shrouds and fuel tank in that order.",
+      "purpose": "Expose the engine and disconnect the tank before exhaust removal.",
+      "stop_conditions": [
+       "Fuel continues flowing with the fuel cock off.",
+       "Fuel spills or vapors accumulate; stop and clear them before continuing.",
+       "Bike is unstable on its stand."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 5,
+    "rider": "How tight do the cylinder head bolts go, and in what order?",
+    "reply": {
+     "summary": "The six cylinder-head nuts tighten progressively in a crisscross pattern to 25 Nm (18 ft-lb).",
+     "answer": "Yamaha specifies **25 Nm (18 ft-lb) for the six cylinder-head nuts** on your 2025 YZ250—not the studs threaded into the cylinder.\n\nStart all six nuts by hand, then **tighten progressively in a crisscross pattern**, alternating across the head rather than working around it in a circle. Bring them up evenly, finishing each at 25 Nm (18 ft-lb); don’t fully tighten one while the others are loose.\n\nWe’re still at the bodywork and tank-removal stage of your walkthrough; we’ll return to head installation during reassembly.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 6,
+    "rider": "What do I need to measure on the piston and cylinder before I reuse them?",
+    "reply": {
+     "summary": "Measure the cylinder in six places, piston skirt diameter, actual running clearance, both rings and piston-pin fit. Good measurements do not clear cracked, scored or heat-damaged parts for reuse.",
+     "answer": "**The main check is the largest measured cylinder bore minus the measured piston diameter.** For your stock 2025 YZ250, Yamaha specifies:\n\n| Check | Measurement | Yamaha specification |\n|---|---|---|\n| Cylinder bore | Bore gauge in two directions at three heights; record all six readings | **66.400–66.414 mm**; wear limit **66.464 mm** |\n| Piston skirt | Micrometer at Yamaha’s illustrated orientation, **17.5 mm from the skirt bottom** | **66.352–66.367 mm** |\n| Piston-to-cylinder clearance | Largest bore reading minus piston diameter | **0.045–0.050 mm** |\n| Both ring side clearances | Clean grooves; check each ring with a feeler gauge | **0.030–0.065 mm**; wear limit **0.100 mm** each |\n| Both ring end gaps | Square each ring near the cylinder bottom with the piston crown, then measure | Wear limit **0.95 mm** each—not a new-ring target |\n| Piston pin and piston pin bore | Measure pin OD and piston pin-bore ID | Pin minimum **17.975 mm**; bore maximum **18.040 mm** |\n| Pin-to-piston clearance | Pin-bore ID minus pin OD | Standard **0.004–0.020 mm** |\n\nAlso inspect for vertical scoring, piston cracks, damaged ring lands, and a grooved or blue-discolored pin. Excessive ring side clearance requires **piston and rings together**. Don’t treat the cylinder wear limit as acceptable piston clearance.\n\nSeparate cylinder taper/out-of-round limits and a new-ring minimum gap aren’t confirmed here; don’t invent a filing target.\n\nThis is your inspection checklist for later—we’re still at tank/bodywork removal in the walkthrough, unless you’ve progressed further.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 7,
+    "rider": "Ok, next step",
+    "reply": {
+     "summary": "Back to engine removal: next remove the silencer and expansion chamber.",
+     "answer": "**Next: remove the silencer and expansion chamber.** We’re continuing from tank and bodywork removal—not starting the piston measurements yet.\n\n1. With the exhaust completely cold and the right side cover off, support the silencer, remove its mounting bolts and slide it off the pipe joint.\n2. Use an exhaust-spring hook or suitable pliers to unhook the **two springs at the cylinder**. Wear eye protection and keep your face clear of their path.\n3. Support the expansion chamber, remove its mounting and stay bolts, then carefully work it free of the cylinder. Don’t lever against the exhaust port.\n\nBag the washers, collars and bolts by location. Inspect the exhaust joint and seal for damage, and note anything needing replacement.\n\nOnce both exhaust pieces are off, say “done.”",
+     "next_step": {
+      "action": "Remove the cold silencer, then the expansion chamber.",
+      "purpose": "Clear the exhaust before carburetor removal.",
+      "stop_conditions": [
+       "Exhaust is still hot.",
+       "A seized fastener or stuck joint requires excessive force."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 8,
+    "rider": "What's the ring end gap spec, and how do I check it?",
+    "reply": {
+     "summary": "Yamaha’s ring end-gap wear limit is 0.95 mm (0.0374 in) for both rings—not a new-ring fitting target. Measure each ring separately, squared near the bottom of the cylinder.",
+     "answer": "For your stock 2025 YZ250, Yamaha specifies **0.95 mm (0.0374 in) as the end-gap wear limit for both the top and second rings**. That is **not a new-ring fitting target**.\n\nWith the cylinder removed:\n1. Clean carbon from the rings without scratching or bending them, and clean the bore.\n2. Insert one ring near the **bottom of the cylinder**, where wear is lowest.\n3. Use the piston crown to push it evenly into position so the ring sits square to the bore—not tilted.\n4. Measure between the ring ends with a feeler gauge. Use a blade that slides through with light drag; don’t force the ends apart. Record the measurement and repeat for the other ring.\n\n**Replace a ring exceeding the limit**, and reject cracked or damaged rings regardless of gap. Cylinder wear also needs checking before accepting replacement rings.\n\nThe minimum fitting gap for new stock rings isn’t confirmed here; **don’t file rings toward the wear limit**. Aftermarket rings need their maker’s fitting instructions.\n\nThis is a reference check for later—we’re still at exhaust removal in the walkthrough.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 9,
+    "rider": "It's all back together. What's the break-in?",
+    "reply": {
+     "summary": "Use about 30 minutes at half throttle or less for piston/rings only, or a staged hour for a new cylinder or crankshaft. Finish with leak and fastener checks and a transmission-oil change.",
+     "answer": "**Piston/rings only: about 30 minutes at half throttle or less. New cylinder or crankshaft: about one hour in two stages.** Follow this workshop break-in plan:\n\n1. **Before starting:** verify transmission oil and coolant levels, an oiled and sealed air filter, and a throttle that snaps shut at both steering locks. Prepare fresh premium fuel with YAMALUBE 2R or equivalent at **15:1 for break-in**; don’t mix different oil types.\n2. Start outdoors. Warm it at idle or slightly above for **1–2 minutes**, until it responds cleanly with the choke off. Check for leaks. Do the riding portion on the ground—not idling on the stand.\n3. **Only piston, rings or gears replaced:** ride about **30 minutes at half throttle or less**, varying speed. Don’t lug it or rev it hard.\n4. **New cylinder or crankshaft:** ride about **20 minutes at half throttle or less**, stop and inspect for leaks and loose fasteners, then ride another **40 minutes at three-quarter throttle or less**.\n5. Afterwards, check leaks, cables, chain slack, spokes and the rebuild’s torque-check points. Change and inspect the transmission oil. Yamaha specifies **0.75 L (0.79 US qt) of SAE 10W-40**. Inspect the plug, then switch to Yamaha’s normal **30:1 premix**, using the same oil.\n\n**Stop immediately for pinging, knocking, new mechanical noise, fluid loss, steam, sudden power loss or the engine tightening up.**\n\nThis is the commissioning plan; it doesn’t assume you’ve completed any first-start checks yet.",
+     "next_step": {
+      "action": "Complete the pre-start checks and prepare the break-in premix before starting outdoors.",
+      "purpose": "Confirm safe commissioning before following the applicable riding stage.",
+      "stop_conditions": [
+       "Throttle fails to snap shut at either steering lock.",
+       "Incorrect fluid levels or visible leaks.",
+       "Pinging, knocking, new mechanical noise, steam or sudden power loss."
+      ]
+     },
+     "setup_changes": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "rb-yz250f-2022",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ250F",
+   "model_year": 2022,
+   "configuration": {}
+  },
+  "manual": {
+   "publication": "B7B-2819U-13",
+   "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-13_02.pdf",
+   "type": "Yamaha Owner's Service Manual"
+  },
+  "manual_text": "/tmp/claude-0/-home-claude/6efe62a0-cd5f-5b6c-9409-a557e03a6696/scratchpad/osm/B7B-2819U-13.txt",
+  "checks": [
+   "every step, spec and order matches the Owner's Service Manual for this exact year",
+   "one step (or a small group) per reply, never the whole manual at once",
+   "plain words a home mechanic can follow, with what to check before moving on",
+   "torques, clearances and limits are the manual's, in its units",
+   "says when a special tool or a measurement decides whether a part is reused"
+  ],
+  "turns": [
+   {
+    "turn": 1,
+    "rider": "I want to rebuild the motor on my 2022 YZ250F. Can you walk me through it step by step?",
+    "reply": {
+     "summary": "We’ll work through the rebuild one stage at a time, starting with preparation and engine removal—not opening the motor in the frame.",
+     "answer": "Yes—we’ll walk through it **one step at a time**, checking each stage before moving on.\n\nThe job order is:\n1. Take the engine out of the frame.\n2. Strip and measure the top end.\n3. Rebuild the bottom end: crank, gearbox, clutch and pumps.\n4. Reassemble the top end and set valve clearances.\n5. Refit the engine and reconnect everything.\n6. Complete first-start checks and break-in.\n\nYou can also tap **“Start a guided job” above the message box**, beginning with “Take the engine out of the frame.”\n\nHave a solid stand and straps, metric tools, drain pans, fuel-joint caps, an engine support, labelled bags and a helper ready. Later stages need torque wrenches, measuring tools and engine-specific pullers/holders. Choose internal replacement parts after inspection; have fresh gaskets, seals and required single-use locking hardware ready for assembly.\n\n### Step 1 — Record the starting point\nWith the bike **washed, dry and completely cold**, photograph both sides of the engine closely: every wiring connector, hose route, cable tie, throttle cable and clutch cable. Lay out labelled bags for bodywork, tank, exhaust, intake, electrics and engine mounts.\n\nDon’t disconnect anything yet. Once those photos and bags are ready, say **“next.”**",
+     "next_step": {
+      "action": "Photograph all engine connections and prepare labelled parts bags.",
+      "purpose": "Preserve routing and hardware locations before engine removal.",
+      "stop_conditions": [
+       "Do not begin disconnection while the engine or exhaust is hot."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 2,
+    "rider": "Ok, the bike is clean and on the stand. What's the first thing I do?",
+    "reply": {
+     "summary": "Photograph the engine connections before disconnecting anything, then strap the bike securely to the stand.",
+     "answer": "**First, photograph every engine connection before you unbolt anything.** Get close shots of both sides showing wiring plugs, hose routing, cable ties, throttle cables and the clutch cable. These will guide reassembly.\n\nLay out labelled bags for bodywork, tank, exhaust, intake, electrics and engine mounts.\n\nThen **strap the frame securely to the stand or a suitable overhead anchor**, with the front wheel clear of the ground. Check that the bike stays steady when gently pushed at the bars and seat—the stand alone isn’t enough once we remove the swingarm pivot shaft later.\n\nKeep the engine and exhaust completely cold. Once the photos, bags and straps are ready, say **“next.”**",
+     "next_step": {
+      "action": "Photograph engine connections, prepare labelled bags and secure the bike with straps.",
+      "purpose": "Preserve routing details and establish safe support before engine removal.",
+      "stop_conditions": [
+       "The bike shifts or rocks on the stand.",
+       "The engine or exhaust is still hot."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 3,
+    "rider": "Done. What's next?",
+    "reply": {
+     "summary": "Next, drain the engine oil and remove the oil filter. Inspect both for debris before moving on.",
+     "answer": "**Next, drain the oil and pull the filter—with the engine completely cold.**\n\n1. Place a clean drain pan under the engine. Remove the oil filler cap, then the engine oil drain bolt and its gasket. Let the oil drain fully.\n2. Remove the two oil-filter cover bolts, lift off the cover and remove the filter. Keep the cover, bolts and O-ring together.\n3. Inspect the drained oil and filter for metal flakes, heavy glitter or chunks. Photograph anything suspicious and keep the old filter for inspection.\n\n**If you find substantial metal, pause here:** we need to record it before continuing because it changes what must be inspected inside the engine.\n\nLeave the engine off. Tell me what the oil and filter look like when you’re done.",
+     "next_step": {
+      "action": "Drain the engine oil, remove the filter and inspect both for debris.",
+      "purpose": "Empty the lubrication system and preserve evidence of internal wear before engine removal.",
+      "stop_conditions": [
+       "Engine or exhaust is still hot.",
+       "Bike shifts on its stand.",
+       "Metal chunks, flakes or heavy glitter are found; photograph and report before continuing."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 4,
+    "rider": "Next step",
+    "reply": {
+     "summary": "Next, drain the coolant with the engine completely cold. Leave the drain bolt finger-tight for now.",
+     "answer": "**Next, drain the coolant—with the engine completely cold.** If the oil or filter showed metal flakes, chunks or heavy glitter, pause and report that before continuing.\n\n1. Put a drain pan under the water-pump cover on the right side of the engine.\n2. Remove the **coolant drain bolt and its copper washer**—not the cover bolts.\n3. Hold the pan close, then slowly loosen the radiator cap to let the coolant flow. It can shoot sideways as air enters.\n4. Once draining stops, thread the drain bolt back in **finger-tight only** so it doesn’t get lost. Store the radiator cap with the cooling-system parts.\n\nAt refit, that bolt gets a **new copper washer and 10 Nm (7.4 ft-lb)** per Yamaha—not final tightening now.\n\nNote any oil in the coolant or milky oil from the previous step; either finding changes what we inspect during the rebuild.",
+     "next_step": {
+      "action": "Drain the cold cooling system and reinstall the drain bolt finger-tight.",
+      "purpose": "Empty the cooling system before removing bodywork and disconnecting engine hoses.",
+      "stop_conditions": [
+       "Engine or cooling system is still hot.",
+       "Metal flakes, chunks or heavy glitter were found in the oil or filter."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 5,
+    "rider": "How tight do the cylinder head bolts go, and in what order?",
+    "reply": {
+     "summary": "The four main head bolts use a staged 30 N·m, then 15 N·m + 60° + 60° procedure—not a single torque. There is a lubricant conflict to resolve before tightening.",
+     "answer": "**The four M9 cylinder-head bolts use 30 N·m (22 ft-lb), then 15 N·m (11 ft-lb) + 60° + 60°.** Yamaha’s procedure is:\n\n1. Tighten all four evenly in the specified crisscross order to **30 N·m**, in two or three passes.\n2. Following that same order, **remove only one bolt at a time**, relubricate and reinstall it. Tighten that bolt to **15 N·m**, then turn it **60°** before moving to the next bolt. Leave the other bolts untouched.\n3. After all four have completed that stage, turn each another **60°**, in the same order—**120° total angle tightening**.\n4. Finally, tighten the two small **M6 cylinder-head nuts to 10 N·m (7.4 ft-lb)**.\n\n**Pause before applying this:** Yamaha’s torque-table note specifies molybdenum-disulfide **oil** on threads, bolt seats and both washer faces, while the assembly instructions supplied here specify **grease**. Those aren’t interchangeable for torque-controlled assembly. The exact numbered bolt-position diagram also needs checking; I won’t invent the corner numbering.\n\nWe’re still at engine removal in your walkthrough, so don’t tighten or disturb the head bolts now. Once this lookup is settled, we’ll carry on from draining the coolant.",
+     "next_step": {
+      "action": "Verify Yamaha’s head-installation diagram and reconcile oil versus grease before tightening.",
+      "purpose": "Establish the exact bolt order and correct friction conditions for the torque-angle procedure.",
+      "stop_conditions": [
+       "Do not tighten the head bolts while the lubricant conflict or numbered sequence remains unresolved."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 6,
+    "rider": "What do I need to measure on the piston and cylinder before I reuse them?",
+    "reply": {
+     "summary": "Measure six bore diameters, the piston skirt and actual piston-to-cylinder clearance, then check the rings and piston pin. A bore below its wear limit does not automatically mean the piston fits correctly.",
+     "answer": "**Measure the cylinder and piston separately, then calculate their actual clearance.** Use a bore gauge and micrometers—not a caliper—for these checks, with the parts clean and at the same room temperature.\n\n| Check | Where/how | Yamaha’s specification |\n|---|---|---|\n| Cylinder bore | Top, middle and bottom; front-to-back and side-to-side at each height. Record all six readings. | Standard **77.000–77.010 mm**; wear limit **77.060 mm** |\n| Piston skirt diameter | Perpendicular to the pin, **4.0 mm above the skirt bottom** | Standard **76.955–76.970 mm** |\n| Piston-to-cylinder clearance | Largest measured bore minus measured piston diameter | **0.030–0.055 mm (0.0012–0.0022 in)** |\n| Top-ring side clearance | Clean the ring and groove; check with feeler gauges | Standard **0.030–0.065 mm**; wear limit **0.115 mm** |\n| Top-ring end gap | Square the ring near the bore bottom using the piston crown | Maximum **0.50 mm (0.0197 in)**—not a new-ring target |\n| Piston-pin diameter | Micrometer; also inspect for grooves or blue discoloration | Minimum **15.971 mm** |\n| Piston pin-bore diameter | Measure the pin bores inside the piston | Maximum **16.043 mm** |\n| Pin clearance | Measured pin-bore diameter minus pin diameter | **0.002–0.022 mm** |\n\nInspect for cracks, damaged ring lands and vertical scoring too. **Don’t approve scored or out-of-clearance parts for reuse.** General repair practice is to resolve cylinder damage and select matching piston/rings, then measure the replacement fit before assembly.\n\nSeparate taper/out-of-round limits and a separate piston wear-limit diameter aren’t confirmed here; the piston diameter above is a standard range. The six bore readings reveal uneven wear, but don’t establish an allowable amount by themselves.\n\nThis is your inspection checklist, not the next teardown step—we’re still at coolant draining unless you’ve progressed further.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 7,
+    "rider": "Ok, next step",
+    "reply": {
+     "summary": "Return to engine-removal preparation: remove the seat and side covers for access, leaving the fuel system connected.",
+     "answer": "**Next, remove the seat and side covers for access—we’re continuing engine removal, not starting piston measurements yet.**\n\nWith the coolant-draining step finished and the bike cold and securely supported:\n\n1. Remove the seat, keeping its hardware in a labelled bag.\n2. Remove the side covers, keeping left- and right-side hardware separated. Don’t force any locating tabs.\n3. Photograph the exposed battery connections and wiring before disturbing them.\n\n**Leave the tank, fuel line and electrical connectors attached for now.** If the drained oil or filter contained metal flakes, chunks or heavy glitter, pause and report that before continuing.",
+     "next_step": {
+      "action": "Remove the seat and side covers, label their hardware and photograph exposed wiring.",
+      "purpose": "Establish access for the next engine-removal stage without opening the fuel system.",
+      "stop_conditions": [
+       "Bike is unstable on its support.",
+       "Bodywork binds or requires force.",
+       "Metal flakes, chunks or heavy glitter were found in the oil or filter."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 8,
+    "rider": "How do I line up the cam timing when it goes back together?",
+    "reply": {
+     "summary": "Align the crank at TDC and both cam-sprocket timing marks with the head edge, then install the tensioner and recheck by hand.",
+     "answer": "**Set the crank at TDC and align both cam-sprocket timing marks level with the cylinder head’s top edge.** The reassembly sequence is:\n\n1. Turn the crank **counterclockwise** until the rotor TDC mark aligns with the crankcase-cover mark.\n2. Lubricate the cams with molybdenum-disulfide oil and the decompressor with engine oil. Fill the head pockets with engine oil to the bucket tops. Fit the chain and lay both cams in with their timing marks level with the head edge. Don’t guess which sprocket marks to use—the exact mark illustration isn’t confirmed here.\n3. Protect the chain tunnel while installing the retaining clips; account for the cloth afterward. Fit the dowels and original matched caps. Oil the cap-bolt threads and seats. Tighten progressively, innermost outward, in two or three passes. **Yamaha’s cam-cap bolt torque is 10 N·m (7.4 ft-lb).** Don’t turn the crank during this step.\n4. Retract the tensioner clockwise with a thin screwdriver. Install with a new gasket and **UP facing up**. Yamaha specifies **10 N·m (7.4 ft-lb)** for its mounting bolts. Release the mechanism and confirm extension; install the cap with a new gasket at **6 N·m (4.4 ft-lb)**.\n5. Slowly hand-turn counterclockwise through several full revolutions, return to TDC and recheck all three marks. Then check cold valve clearances.\n\nThe installation sequence above is workshop guidance; the quoted torques are Yamaha’s published values. **Stop at any hard spot—never force it or use the starter.** Misaligned marks mean reset the timing before starting.\n\nThis is a reassembly lookup; we’ll resume your walkthrough at engine-removal preparation.",
+     "next_step": {
+      "action": "During reassembly, verify timing again after hand rotation with the tensioner installed.",
+      "purpose": "Confirm the crank and cams remain correctly synchronized under chain tension.",
+      "stop_conditions": [
+       "Any binding or hard stop during hand rotation.",
+       "Timing marks do not align together at TDC.",
+       "Timing-mark identity is uncertain.",
+       "Any clip, dowel, cloth or small part is unaccounted for."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 9,
+    "rider": "It's all back together. What's the break-in?",
+    "reply": {
+     "summary": "For a full rebuild, use 20 minutes at half throttle or less, then 40 minutes at three-quarter throttle or less. Verify oil circulation before riding, then change the oil and filter afterward.",
+     "answer": "**For a full rebuild: ride 20 minutes at half throttle or less, then 40 minutes at three-quarter throttle or less.** Here’s the first-start and break-in sequence.\n\nBefore starting, verify cam timing, cold valve clearances and head tightening. **Resolve the head-bolt lubricant and tightening-order uncertainty discussed earlier before running it.**\n\n1. **Pre-start:** Check oil and coolant levels, the clean/oiled air filter, fresh fuel, throttle return, clutch operation and loose hardware.\n2. **Verify oil circulation:** Slightly loosen the oil-pressure check bolt. Start in neutral and idle—don’t rev it. Oil must seep out **within one minute**; otherwise shut down immediately. Once oil appears, tighten that bolt to **10 Nm (7.4 ft-lb)**.\n3. **Warm and inspect:** Check for leaks. Shut down, wait about **one minute**, then check oil with the bike upright. Check coolant only after it cools completely.\n4. **Ride:** Complete the **20-minute** stage, stop and inspect, then complete the **40-minute** stage. General break-in practice: vary rpm and gears; avoid lugging, sustained steady rpm and full-throttle pulls.\n5. **Service afterward:** Change oil and filter and inspect for metal. Yamaha specifies **0.75 L (0.79 US qt) with filter replacement**; verify the level afterward. Recheck chain slack, spokes, controls and fastening points.\n\nFor replacement of only the piston/rings, valves, camshaft or gears—not the cylinder or crankshaft—the workshop sequence specifies about **30 minutes at half throttle or less** instead.\n\n**Stop for knocking, abnormal smoke, overheating or leaks. Metal flakes or chunks require investigation before restarting.**",
+     "next_step": {
+      "action": "Verify final assembly checks, then perform the idle oil-circulation check before riding.",
+      "purpose": "Confirm lubrication before loading the rebuilt engine.",
+      "stop_conditions": [
+       "Head tightening, valve clearance or cam timing remains uncertain.",
+       "No oil seeps from the check bolt within one minute.",
+       "Knocking, abnormal smoke, overheating or leaks occur."
+      ]
+     },
+     "setup_changes": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "rb-yz250f-2025",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ250F",
+   "model_year": 2025,
+   "configuration": {}
+  },
+  "manual": {
+   "publication": "D01-2819U-10",
+   "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D01-2819U-10_02.pdf",
+   "type": "Yamaha Owner's Service Manual"
+  },
+  "manual_text": "/tmp/claude-0/-home-claude/6efe62a0-cd5f-5b6c-9409-a557e03a6696/scratchpad/osm/D01-2819U-10.txt",
+  "checks": [
+   "every step, spec and order matches the Owner's Service Manual for this exact year",
+   "one step (or a small group) per reply, never the whole manual at once",
+   "plain words a home mechanic can follow, with what to check before moving on",
+   "torques, clearances and limits are the manual's, in its units",
+   "says when a special tool or a measurement decides whether a part is reused"
+  ],
+  "turns": [
+   {
+    "turn": 1,
+    "rider": "I want to rebuild the motor on my 2025 YZ250F. Can you walk me through it step by step?",
+    "reply": {
+     "summary": "We’ll work through the rebuild one stage at a time, starting with engine removal—not opening the motor while it is still in the bike.",
+     "answer": "Yes—we can walk through your **2025 YZ250F rebuild step by step here**, checking each stage before moving on.\n\nThe job order is:\n1. Take the engine out of the frame.\n2. Strip and inspect the top end.\n3. Split the cases; inspect and rebuild the crankshaft, gearbox, clutch and pumps.\n4. Rebuild the top end and set valve clearances.\n5. Refit and reconnect the engine.\n6. First start, break-in and final checks.\n\nYou can also tap **“Start a guided job” above the message box**, starting with “Take the engine out of the frame.”\n\nFor removal, have a solid stand and straps, metric tools, drain pans, fuel-joint caps, engine support blocks, a dummy swingarm-pivot shaft, labelled bags and a helper. Have replacement drain seals, a sprocket lock washer, exhaust gasket, oil filter and filter-cover O-ring ready for refitting. We’ll cover internal measuring tools and replacement parts before those stages.\n\n**Step 1 — Record the routing.** With the bike washed, dry and completely cold, photograph both sides of the engine closely: every wiring connector, hose, cable tie, throttle cable and clutch-cable run. Lay out labelled bags for each area before removing anything.\n\nOnce those photos and bags are ready, reply **“done.”**",
+     "next_step": {
+      "action": "Photograph all engine connections and prepare labelled parts bags.",
+      "purpose": "Preserve routing and fastener locations before engine removal.",
+      "stop_conditions": [
+       "Wait until the engine and exhaust are completely cold."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 2,
+    "rider": "Ok, the bike is clean and on the stand. What's the first thing I do?",
+    "reply": {
+     "summary": "Photograph all engine connections before removing anything, and make sure the bike is strapped securely to the stand.",
+     "answer": "**First, photograph the engine’s wiring, hoses and cable routing before disconnecting anything.** With the engine and exhaust completely cold, take close photos of both sides showing:\n- Every electrical connector and ground lead.\n- Radiator and breather hose routing.\n- Throttle cables, clutch cable and cable-tie locations.\n\nLay out labelled bags for bodywork, fuel tank, exhaust, intake, electrics and engine mounts.\n\nSince it’s already on the stand, **strap the frame securely** and check that the bike stays steady when gently pushed at the bars and seat. This matters later when we remove the swingarm pivot shaft.\n\nOnce the photos, bags and straps are ready, reply **“done”**—next is draining the oil and inspecting the filter.",
+     "next_step": {
+      "action": "Photograph engine connections, prepare labelled bags and secure the frame with straps.",
+      "purpose": "Preserve routing and keep the chassis stable throughout engine removal.",
+      "stop_conditions": [
+       "Wait if the engine or exhaust is still hot.",
+       "Do not proceed if the bike moves or tips on its stand."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 3,
+    "rider": "Done. What's next?",
+    "reply": {
+     "summary": "Next, drain the engine oil and remove the oil filter, checking both for metal before continuing.",
+     "answer": "**Next—drain the oil and inspect the filter.** Keep the engine cold; don’t start it to warm the oil for this teardown.\n\n1. Put a clean drain pan under the engine. Remove the oil filler cap, then the engine oil drain bolt and its sealing gasket. Let the oil drain completely.\n2. Remove the two oil-filter cover bolts, the cover and the filter. Keep these parts together in a labelled bag or tray.\n3. Inspect the drained oil and filter closely for metal flakes, heavy glitter or chunks. Photograph anything suspicious and record what you find.\n\n**If you find flakes, chunks or heavy glitter, pause here—don’t restart the engine.** Those findings need to guide the internal inspection.\n\nWhat do you see in the oil and filter?",
+     "next_step": {
+      "action": "Drain the engine oil, remove the filter and inspect both for debris.",
+      "purpose": "Prepare for engine removal and preserve evidence of internal wear.",
+      "stop_conditions": [
+       "Engine or exhaust is still hot.",
+       "Bike is unstable on its stand.",
+       "Metal flakes, chunks or heavy glitter are found; pause and document them."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 4,
+    "rider": "Next step",
+    "reply": {
+     "summary": "Next, drain the coolant with the engine completely cold. Leave the coolant drain bolt finger-tight for now.",
+     "answer": "**Next—drain the coolant, with the engine completely cold.** If the oil or filter showed metal flakes, chunks or heavy glitter, pause and report that before continuing.\n\n1. Put a separate drain pan under the water-pump cover on the right side of the engine.\n2. Remove the coolant drain bolt and its copper sealing washer.\n3. Slowly loosen the radiator cap. Coolant can shoot sideways from the drain opening, so hold the pan close and keep your face clear.\n4. Let it drain completely, then thread the drain bolt back in **finger-tight only** so it doesn’t get lost. Store the radiator cap with the cooling-system parts.\n\nAt refit, that bolt gets a **new copper washer and 10 N·m (7.4 ft-lb)** per Yamaha.\n\nNote any oil in the coolant or milky contamination in the drained engine oil. Once drained, reply “done”; next is removing the seat, side covers and shrouds.",
+     "next_step": {
+      "action": "Drain the cold cooling system and reinstall its drain bolt finger-tight.",
+      "purpose": "Prepare the engine for removal while preserving contamination findings.",
+      "stop_conditions": [
+       "Engine or cooling system is still hot.",
+       "Metal flakes, chunks or heavy glitter were found in the oil or filter; pause and report them."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 5,
+    "rider": "How tight do the cylinder head bolts go, and in what order?",
+    "reply": {
+     "summary": "The four main M9 head bolts use a staged procedure: 30 Nm seating torque, then individually reset to 15 Nm plus 60°, followed by another 60° on all four.",
+     "answer": "**The four main M9 cylinder-head bolts are not a straight torque-and-done job.** Yamaha specifies this sequence for your 2025 YZ250F:\n\n1. Clean the bolt threads, seating surfaces and washers. Apply **molybdenum disulfide oil—not grease** to the threads, bolt seats and both washer faces. Keep the longer bolt in its original hole.\n2. Tighten all four evenly in a crisscross pattern, in two or three passes, to **30 Nm (22 ft-lb)**.\n3. In that same order, **remove only one bolt at a time**, leaving the other three untouched. Reapply the moly oil, reinstall and tighten to **15 Nm (11 ft-lb), then turn 60°**. Repeat for each remaining bolt.\n4. Once all four have completed that stage, turn each bolt **another 60°**, in the same order. That is **120° total after the 15 Nm stage**.\n5. Tighten the two small M6 cylinder-head nuts last to **10 Nm (7.4 ft-lb)**.\n\nUse an angle gauge. The exact numbered corner locations aren't confirmed here; don't guess the starting corner from this description.\n\n**This is the refitting procedure—not our next teardown step.** We're still at draining fluids and preparing to remove the bodywork.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 6,
+    "rider": "What do I need to measure on the piston and cylinder before I reuse them?",
+    "reply": {
+     "summary": "Check bore size, piston diameter, actual running clearance, ring clearances and piston-pin fit before approving reuse. Scoring, cracks or heat damage can reject parts even when dimensions pass.",
+     "answer": "**Check the piston and cylinder together—not just bore diameter.** Once the top end is stripped and the parts are clean and cold, these are Yamaha’s figures for your 2025 YZ250F:\n\n| Check | Measurement method | Standard or limit |\n|---|---|---|\n| Cylinder bore | Bore gauge at three heights, front-to-back and side-to-side; record all six readings | Standard **77.000–77.010 mm**; wear limit **77.060 mm** |\n| Piston diameter | Outside micrometer perpendicular to the pin, **4.0 mm (0.16 in)** above the skirt bottom | **76.955–76.970 mm** |\n| Piston-to-cylinder clearance | Largest bore reading minus measured piston diameter | **0.030–0.055 mm (0.0012–0.0022 in)** |\n| Top-ring side clearance | Clean groove, ring installed, feeler gauge between ring and groove | Standard **0.030–0.065 mm**; wear limit **0.115 mm** |\n| Top-ring end gap | Square ring near the bore bottom using the piston crown; measure between ends | Maximum **0.50 mm (0.0197 in)** |\n| Piston-pin outside diameter | Outside micrometer | Minimum **15.971 mm** |\n| Piston pin-bore diameter | Suitable small-bore gauge | Maximum **16.043 mm** |\n| Pin-to-piston clearance | Pin-bore diameter minus pin diameter | **0.002–0.022 mm** |\n\nAs general inspection practice, **don’t approve scored, cracked or heat-damaged parts from dimensions alone**. A blue or grooved pin needs replacement and investigation of the lubrication supply. Wear limits aren’t targets for a fresh rebuild.\n\nSeparate taper/out-of-round limits and an oil-ring rail-gap tolerance aren’t confirmed here; keep every bore reading, not an average.\n\nAlso, Yamaha schedules piston, rings, pin and clips replacement together every fifth race—about **12.5 hours**—and as required; passing measurements alone doesn’t override that schedule.\n\nThis is your inspection checklist for later, not a jump ahead from our engine-removal preparation.",
+     "next_step": {
+      "action": "At the cylinder-inspection stage, record all six bore readings before calculating piston clearance.",
+      "purpose": "Evaluate actual fit and uneven wear rather than relying on appearance or average bore size.",
+      "stop_conditions": [
+       "Do not approve scored, cracked, heat-damaged or out-of-limit parts for assembly.",
+       "Do not skip teardown steps to obtain these measurements."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 7,
+    "rider": "Ok, next step",
+    "reply": {
+     "summary": "Continue engine-removal preparation: remove the seat, side covers and radiator shrouds, leaving the fuel tank connected for now.",
+     "answer": "**Next—remove the seat, side covers and radiator shrouds.** We’re continuing engine-removal preparation; the piston measurements are for later, once it’s apart.\n\nWith the engine cold and the coolant drained:\n1. Remove the seat and place its fasteners in a labelled bag.\n2. Remove the side covers and radiator shrouds. Keep each panel’s bolts separate so different lengths return to their original holes.\n3. Photograph the newly exposed tank mounts, fuel-line routing and electrical connections before disturbing them.\n\nDon’t force a panel that won’t release—check for a remaining fastener or locating tab. **Leave the tank, fuel hose and pump connector attached for now.**",
+     "next_step": {
+      "action": "Remove the seat, side covers and radiator shrouds; label their fasteners and photograph the exposed connections.",
+      "purpose": "Expose the fuel tank and engine connections for the next removal stage.",
+      "stop_conditions": [
+       "Bike is unstable on the stand.",
+       "A panel remains secured or requires force to release.",
+       "Fuel leakage is visible."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 8,
+    "rider": "How do I line up the cam timing when it goes back together?",
+    "reply": {
+     "summary": "Set the crank at TDC and align both cam-sprocket timing marks with the cylinder-head edge. Install and release the tensioner, then verify alignment again after turning the engine by hand.",
+     "answer": "**Line up the crank’s TDC mark first, then both cam-sprocket timing marks—not the cam marks alone.** This is for the reassembly stage later; we’re still at engine-removal preparation.\n\n1. With the head installed and secured, turn the crank **counterclockwise by hand** until the rotor TDC mark aligns with the crankcase-cover mark.\n2. Coat the camshafts with molybdenum disulfide oil and oil the decompressor with engine oil. Fill the head’s oil pockets to the tops of the buckets.\n3. Fit the chain and position both cams with their sprocket timing marks **level with the cylinder head’s top edge**, keeping the crank at TDC. Use the designated timing marks—not arbitrary sprocket lettering.\n4. Protect the chain tunnel while fitting the retaining clips. Install the matching dowels and caps. Oil the cap-bolt threads and seats; tighten in two or three passes, innermost outward, to Yamaha’s **10 Nm (7.4 ft-lb)**. Don’t turn the crank during tightening.\n5. Lightly press the tensioner rod while winding it fully clockwise with a thin screwdriver. Fit a new gasket and install it **UP mark upward**. Tighten its mounting bolts to **10 Nm (7.4 ft-lb)**, then release the screwdriver and confirm smooth extension. Fit the cap with a new gasket at **6 Nm (4.4 ft-lb)**.\n6. Turn the crank counterclockwise several full revolutions by hand, return to compression TDC and recheck the rotor and both cam marks. Then measure the cold valve clearances before closing up.\n\n**Stop at any hard resistance—never force it or use the starter. If the marks don’t realign, reset the timing before proceeding.**",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 9,
+    "rider": "It's all back together. What's the break-in?",
+    "reply": {
+     "summary": "For the full rebuild, use 20 minutes at half throttle or less, then 40 minutes at three-quarter throttle or less. Confirm oil delivery before riding, then change the oil and filter afterward.",
+     "answer": "**For the full rebuild: ride 20 minutes at half throttle or less, then 40 minutes at three-quarter throttle or less.** Confirm lubrication before putting any load on it.\n\n1. **Before starting:** check oil, coolant, air-filter seating, connections and controls. Yamaha’s disassembled-engine oil quantity is **0.95 L (1.00 US qt)**; that is the rebuild fill, not an amount to add again if already filled.\n2. **Prove oil delivery:** slightly loosen the oil-pressure check bolt. Start in neutral and idle—do not rev. Oil must seep from the bolt within **one minute**. If it doesn’t, stop immediately. Once oil appears, tighten the bolt to **10 Nm (7.4 ft-lb)**.\n3. Warm briefly while checking for leaks. Shut down, wait about **one minute**, then check oil level with the bike upright. Let it cool completely before checking coolant.\n4. Ride **20 minutes at half throttle or less**, then stop and inspect for leaks and loose fasteners. Follow with **40 minutes at three-quarter throttle or less**. As general break-in practice, vary rpm and load; avoid lugging, full throttle and prolonged steady rpm.\n5. **Change the oil and filter afterward.** Yamaha specifies **0.75 L (0.79 US qt)** with filter removal; verify the final level. Inspect the drained oil and recheck chain slack, spokes, controls and torque-check points.\n\nIf only the piston, rings, valves, camshaft or gears were replaced, the procedure gives **about 30 minutes at half throttle or less**; a new cylinder or crankshaft gets about an hour.\n\n**Stop for knocking, abnormal smoke, overheating or leaks. Metal flakes or chunks require investigation before restarting.**",
+     "next_step": {
+      "action": "Complete the pre-start checks, then verify oil delivery at idle before riding.",
+      "purpose": "Confirm lubrication before loading the rebuilt engine.",
+      "stop_conditions": [
+       "No oil seeps from the check bolt within one minute.",
+       "Knocking, abnormal smoke, overheating or fluid leakage."
+      ]
+     },
+     "setup_changes": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "rb-yz450f-2022",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2022,
+   "configuration": {}
+  },
+  "manual": {
+   "publication": "B2W-2819U-12",
+   "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf",
+   "type": "Yamaha Owner's Service Manual"
+  },
+  "manual_text": "/tmp/claude-0/-home-claude/6efe62a0-cd5f-5b6c-9409-a557e03a6696/scratchpad/osm/B2W-2819U-12.txt",
+  "checks": [
+   "every step, spec and order matches the Owner's Service Manual for this exact year",
+   "one step (or a small group) per reply, never the whole manual at once",
+   "plain words a home mechanic can follow, with what to check before moving on",
+   "torques, clearances and limits are the manual's, in its units",
+   "says when a special tool or a measurement decides whether a part is reused"
+  ],
+  "turns": [
+   {
+    "turn": 1,
+    "rider": "I want to rebuild the motor on my 2022 YZ450F. Can you walk me through it step by step?",
+    "reply": {
+     "summary": "Yes—we’ll work through it one step at a time, starting with preparation and engine removal. First record the engine’s condition and routing; don’t loosen anything yet.",
+     "answer": "Yes—we’ll do it **one step at a time**, measuring and inspecting before deciding what needs replacing.\n\nThe order is engine removal → top-end teardown → lower-engine rebuild → top-end assembly → engine refit → commissioning. You can tap **“Start a guided job”** above the message box and choose **Major engine rebuild and bike reassembly**, or we can walk through it here.\n\nHave a stable stand, independent engine/swingarm/shock supports, a helper, torque wrenches, measuring tools, rotor puller, clutch holder, crank separator and crank installer ready. Plan for new gaskets, seals, O-rings and locking hardware; choose major replacement parts after inspection.\n\n### Step 1 — Record and prepare\n- Record the engine’s condition and any internal modifications.\n- Photograph wiring, hoses, brackets and cable routing before disturbing anything.\n- Measure and record the existing clutch-lever free play and cable-adjuster positions.\n- Before teardown, obtain the exact oil-level check-bolt tightening and sealing requirements from a qualified Yamaha service provider. **That closure isn’t confirmed here**, and it must be resolved before starting this route.\n\n**What prompted the rebuild—preventive maintenance, oil consumption, hard starting, noise or a failure?** Don’t run a knocking or oil-starved engine to warm it.",
+     "next_step": {
+      "action": "Record engine condition, modifications, routing photographs and existing clutch free play before loosening parts.",
+      "purpose": "Establish the starting condition and prepare for engine removal.",
+      "stop_conditions": [
+       "Do not begin teardown without stable independent supports.",
+       "Resolve the exact oil-level check-bolt closure requirements before proceeding.",
+       "Do not run an engine with knocking or suspected lubrication failure."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 2,
+    "rider": "Ok, the bike is clean and on the stand. What's the first thing I do?",
+    "reply": {
+     "summary": "First photograph the routing and record the existing clutch adjustment—don’t remove anything yet.",
+     "answer": "**Start with routing photos and the existing clutch adjustment.** The bike is clean and supported, so leave the panels, battery and oil untouched for this step.\n\n1. Photograph both sides of the engine, including wiring connectors, hoses, cable routing and engine brackets. Get close-ups wherever parts overlap.\n2. With the clutch lever released, gently move it until you feel cable resistance. Measure and record that free movement at the lever tip, then photograph the cable-adjuster positions. Don’t adjust it yet.\n3. Write down the engine’s running condition, why it needs rebuilding and any known internal modifications.\n\nBefore teardown, resolve the **oil-level check-bolt torque and sealing requirements** with a qualified Yamaha service provider; that exact closure isn’t confirmed here. Have independent engine, swingarm and shock supports ready—the stand alone won’t support everything when those joints are released.",
+     "next_step": {
+      "action": "Photograph routing and record existing clutch free play and adjuster positions.",
+      "purpose": "Preserve the starting arrangement before engine-removal access.",
+      "stop_conditions": [
+       "Do not begin teardown until the oil-level check-bolt closure requirements are resolved.",
+       "Do not release engine or suspension mounting joints without independent supports."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 3,
+    "rider": "Done. What's next?",
+    "reply": {
+     "summary": "Next, record throttle-grip free play and identify the pull and return cables before disconnecting anything.",
+     "answer": "**Next, record the throttle setup—engine off, nothing disconnected yet.**\n\n1. Photograph the throttle housing, cable adjusters and both cables’ routing. Identify the pull and return cables so they cannot get swapped later.\n2. Gently rotate the grip until you feel cable resistance. Measure that free movement at the grip’s outside edge. Yamaha specifies **3–6 mm (0.12–0.24 in)**; record your actual measurement without adjusting it.\n3. Check that the throttle returns smoothly with the bars centered, fully left and fully right. Record any sticking; don’t start the engine if it binds.\n\nBefore we move on to draining the oil, **have you obtained the exact oil-level check-bolt torque and sealing requirements?** That closure isn’t confirmed here and must be resolved before teardown.",
+     "next_step": {
+      "action": "Identify both throttle cables and record grip free play and return through steering travel.",
+      "purpose": "Preserve the original throttle setup before engine-removal access.",
+      "stop_conditions": [
+       "Do not start the engine if the throttle binds or fails to return.",
+       "Do not proceed to teardown until exact oil-level check-bolt closure requirements are resolved."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 4,
+    "rider": "Next step",
+    "reply": {
+     "summary": "Next is draining the engine oil, once the oil-level check-bolt tightening and sealing requirements are resolved.",
+     "answer": "**Next, drain the engine oil—but only after resolving the oil-level check-bolt closure requirements.** That check-bolt torque and sealing detail isn’t confirmed here; obtain it from a qualified Yamaha service provider before teardown.\n\nOnce that prerequisite is settled:\n1. If the engine runs normally, warm it for several minutes, stop it and wait about **5 minutes**. Do not run a knocking or suspected oil-starved engine just to warm the oil.\n2. Keep the bike upright and level. Position a drain pan, remove the oil filler cap, then remove the single engine-oil drain bolt. Let the oil drain completely.\n3. Leave the oil filter and strainer installed for this step. Fit a new drain gasket and tighten the engine-oil drain bolt to Yamaha’s **20 Nm (15 ft-lb)**. Mark the engine **“NO OIL—DO NOT START.”**\n\nHave you obtained the exact oil-level check-bolt torque and sealing requirements?",
+     "next_step": {
+      "action": "Resolve the oil-level check-bolt closure prerequisite, then drain the engine oil.",
+      "purpose": "Continue engine removal with final oil-system closure planned.",
+      "stop_conditions": [
+       "Do not begin teardown with unresolved oil-level check-bolt closure requirements.",
+       "Do not run an engine with knocking or suspected lubrication failure.",
+       "Do not proceed with unstable bike support."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 5,
+    "rider": "How tight do the cylinder head bolts go, and in what order?",
+    "reply": {
+     "summary": "The four main head bolts require 40 Nm initially, then individual removal, regreasing and 23 Nm + 90°, followed by a final 60° pass. The two small bolts take 10 Nm.",
+     "answer": "**The four main cylinder-head bolts use torque plus angle—not one final torque.** Yamaha’s procedure for your stock 2022 YZ450F is:\n\n1. Clean the main-bolt threads/contact surfaces, both washer faces, head contact faces and crankcase threads. Apply **molybdenum-disulfide grease** to the main-bolt threads/contact faces and both washer faces.\n2. Following installation order **1 → 2 → 3 → 4**, tighten the four main bolts to **40 Nm (30 ft-lb)** in two or three stages.\n3. Remove **bolt 1 only**, leaving the others tight. Regrease its threads/contact face and both washer faces. Reinstall at **23 Nm (17 ft-lb)**, make reference marks, then turn it **90° farther**. Complete that entire operation on bolts **2, then 3, then 4**, individually—finish each before removing the next.\n4. In order **1 → 2 → 3 → 4**, turn each main bolt **another 60°**.\n5. Tighten the two small head bolts at installation positions **5 and 6** to **10 Nm (7.4 ft-lb)** with clean, dry threads.\n\nUse [Yamaha’s installation-sequence illustration](https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=209) to locate those positions; **the removal diagram has different numbering**. Use a calibrated torque wrench and angle gauge.\n\nThis is for later reassembly; your walkthrough remains at the oil-draining step.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 6,
+    "rider": "What do I need to measure on the piston and cylinder before I reuse them?",
+    "reply": {
+     "summary": "Measure the cylinder and piston as a matched pair, then check ring and wrist-pin fit. Reuse requires sound surfaces and acceptable actual clearances—not merely dimensions below wear limits.",
+     "answer": "**Check bore size, piston diameter and actual clearance first, then rings and wrist pin.** These checks are for the cleaned, dismantled top end—not the next step in your teardown.\n\n### Cylinder and piston\n- **Cylinder bore:** use a dial bore gauge front-to-back and side-to-side at Yamaha’s three illustrated heights—six readings. Yamaha’s standard is **97.000–97.010 mm**, with a **97.060 mm wear limit**. Record every reading; use the largest for piston-clearance calculation.\n- **Piston diameter:** use an outside micrometer on Yamaha’s illustrated measuring axis, **9.0 mm above the skirt bottom**. Standard diameter is **96.955–96.970 mm**. General measuring practice: don’t use a caliper to accept this close fit.\n- **Actual clearance:** subtract measured piston diameter from the largest bore reading. Yamaha specifies **0.010–0.045 mm (0.0004–0.0018 in)**. Individually acceptable bore and piston diameters do not guarantee an acceptable pair.\n- Inspect for vertical scoring, cracks and damaged ring lands. Yamaha’s repair procedure calls for cylinder, piston and rings replacement together for scratched walls. Exact taper/out-of-round acceptance limits aren’t confirmed here; keep all six readings for assessment.\n\n### Rings and wrist pin\n| Measurement | Yamaha standard | Wear limit |\n|---|---|---|\n| Top-ring side clearance | 0.015–0.065 mm | 0.120 mm |\n| Second-ring side clearance | 0.020–0.060 mm | 0.100 mm |\n| Top-ring end gap | — | 0.55 mm |\n| Second-ring end gap | — | 0.85 mm |\n| Wrist-pin outside diameter | — | 17.981 mm minimum |\n| Piston pin-bore diameter | — | 18.045 mm maximum |\n| Pin-to-bore clearance | 0.004–0.024 mm | — |\n\nClean the grooves before measuring ring side clearance. Square each ring near the cylinder bottom with the piston crown before checking end gap. Failed groove clearance requires piston and rings together. **A blue or grooved pin requires replacement and lubrication investigation before assembly.**\n\nWear limits are rejection boundaries, not fresh-rebuild targets. Don’t approve reuse until all the final parts pass together.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 7,
+    "rider": "Ok, next step",
+    "reply": {
+     "summary": "After the oil drain is resealed, let the bike cool completely and empty the fuel tank before removing the bodywork.",
+     "answer": "**Next, let the engine cool completely and empty the fuel tank.** Continue only after the oil has drained and the drain bolt is resealed; don’t start the engine again.\n\n1. Keep the bike securely supported. Clean around the fuel-cap area and prepare an approved gasoline container and gasoline-rated transfer pump, away from flames, sparks and hot surfaces.\n2. Put your fingers beneath both sides of the fuel-cap cover and lift it **upward toward the rear**. Keep its plastic-band attachment to the seat intact—don’t pull it off.\n3. Remove the fuel cap and transfer the fuel into the container with the pump—never siphon by mouth. Refit the cap securely afterward.\n\nLeave the seat, fuel hose and electrical connectors installed for now.",
+     "next_step": {
+      "action": "With the engine fully cold, release the fuel-cap cover, transfer the fuel safely and secure the cap.",
+      "purpose": "Prepare for bodywork and tank removal without opening fuel connections yet.",
+      "stop_conditions": [
+       "Engine or exhaust is still hot.",
+       "Fuel leakage, ignition sources or unsuitable transfer equipment.",
+       "Oil drain is not resealed or bike support is unstable."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 8,
+    "rider": "How do I line up the cam timing when it goes back together?",
+    "reply": {
+     "summary": "Align the crankshaft TDC mark, then both cam-sprocket marks with the cam-cap surface edges. After releasing the tensioner, turn the crank by hand and recheck all three marks.",
+     "answer": "**Set the crank at TDC, then align both cam-sprocket marks with the cam-cap surface edges—not by counting chain pins.** Yamaha’s stock 2022 YZ450F reassembly procedure is:\n\n1. Remove protective cloths from the head and chain cavity. Turn the crank **counterclockwise by hand** until the rotor TDC mark aligns with the cover reference mark.\n2. Apply molybdenum-disulfide oil to the cams and engine oil to the decompressor. Fit the chain onto both sprockets with both cam marks aligned at the cap-surface edges shown in [Yamaha’s timing illustration](https://library.ymcapps.net/library/om/contents/pdf/10/B2W-2819U-12_02.pdf#page=204). **Do not move the crank while installing the cams.**\n3. Install both retaining clips, dowels and matching caps without dropping anything inside. Oil cap-bolt threads and contact surfaces; tighten in the illustrated seven-bolt sequence, in two or three stages, to **10 Nm (7.4 ft-lb)**. Don’t guess the sequence from bolt location.\n4. Retract the tensioner rod fully clockwise with light finger pressure. Fit new gaskets with **UP facing upward**. Tighten mounting bolts to **10 Nm (7.4 ft-lb)**, release the screwdriver and confirm smooth extension. Install the cap with its new gasket at **6 Nm (4.4 ft-lb)**.\n5. Turn the crank counterclockwise several turns by hand, return to rotor TDC and recheck both cam marks. Recheck cold valve clearances before closing the cover.\n\n**Stop for abnormal resistance or mismatched marks; never force it or use the starter to test timing.** This answers the later reassembly step—your teardown walkthrough stays where we left it.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 9,
+    "rider": "It's all back together. What's the break-in?",
+    "reply": {
+     "summary": "Yamaha calls for about 30 minutes at no more than half throttle for new piston/rings, valves, cams or gears; a new cylinder or crankshaft gets about one hour. Complete commissioning checks before riding, then change the oil and filter afterward.",
+     "answer": "**For your 2022 YZ450F, use Yamaha’s break-in route for the parts actually replaced:**\n\n| New parts | Riding break-in |\n|---|---|\n| Piston, rings, valves, camshaft or gears | About **30 minutes at no more than half throttle** |\n| Cylinder or crankshaft | About **20 minutes at no more than half throttle**, inspect, then **40 minutes at no more than three-quarter throttle** |\n\nFor both groups together, a conservative overlap is **half throttle or less for the first 30 minutes**, then finish the hour at no more than three-quarter throttle.\n\nBefore riding, confirm timing, cold valve clearances, lubrication, coolant, throttle return and leak checks have passed—including the cooling-system pressure test after head-gasket replacement. Resolve the oil-check-bolt fastening/sealing requirement flagged earlier.\n\nRide in a controlled off-road area; stationary idling does not replace riding time. General practice: vary rpm and load smoothly, without lugging. **Stop and inspect after the first 20 minutes and again at the end** for leaks and looseness. Stop immediately for abnormal noise, overheating or oil loss.\n\nAfterward, **change the oil and filter**, inspect for metal chips, and complete the post-break-in inspections—not just an oil change. Metal chips require investigation before running again.\n\nTap **“Start a guided job” → “Commission the repaired engine and complete break-in follow-up”** for the test and inspection sequence. Have a compatible cooling pressure tester, torque tools, fresh oil/filter, drain gasket and filter-cover O-ring ready.\n\n**Which internal parts did you replace?**",
+     "next_step": {
+      "action": "Complete the commissioning checks before beginning the applicable riding break-in.",
+      "purpose": "Verify the repaired engine is ready to run under load.",
+      "stop_conditions": [
+       "Unresolved timing, valve clearance or oil-check-bolt closure.",
+       "Failed lubrication or cooling-system checks.",
+       "Abnormal noise, leakage or overheating.",
+       "Metal chips in drained oil."
+      ]
+     },
+     "setup_changes": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "rb-yz450f-2025",
+  "bike": {
+   "manufacturer": "Yamaha",
+   "model": "YZ450F",
+   "model_year": 2025,
+   "configuration": {}
+  },
+  "manual": {
+   "publication": "D02-2819U-10",
+   "url": "https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf",
+   "type": "Yamaha Owner's Service Manual"
+  },
+  "manual_text": "/tmp/claude-0/-home-claude/6efe62a0-cd5f-5b6c-9409-a557e03a6696/scratchpad/osm/D02-2819U-10.txt",
+  "checks": [
+   "every step, spec and order matches the Owner's Service Manual for this exact year",
+   "one step (or a small group) per reply, never the whole manual at once",
+   "plain words a home mechanic can follow, with what to check before moving on",
+   "torques, clearances and limits are the manual's, in its units",
+   "says when a special tool or a measurement decides whether a part is reused"
+  ],
+  "turns": [
+   {
+    "turn": 1,
+    "rider": "I want to rebuild the motor on my 2025 YZ450F. Can you walk me through it step by step?",
+    "reply": {
+     "summary": "Yes—we’ll work through the rebuild one step at a time, starting with recording the engine’s condition and preparing for removal. Inspection and measurements will determine which parts need replacing.",
+     "answer": "Yes—we’ll do it **one step at a time**, checking each stage before moving on.\n\nThe job order is:\n1. Remove the complete engine.\n2. Strip and inspect the top end.\n3. Inspect and rebuild the lower engine as required.\n4. Assemble the top end, set cam timing and check valve clearances.\n5. Refit the engine, verify lubrication and cooling, then complete commissioning and break-in checks.\n\nYou can follow here or tap **“Start a guided job”** above the message box and select **“Major engine rebuild and bike reassembly.”** The lower-engine route covers complete crank assembly replacement, not pressing apart and rebuilding the connecting rod.\n\nHave a stable stand, independent engine and swingarm supports, a helper, labeled trays and a clean bench ready. Internal work needs calibrated torque wrenches, measuring tools, the correct rotor puller, clutch holder, crank separator and crank installer. Plan for new disturbed gaskets, seals, one-use locking hardware and an oil filter; choose hard parts after inspection.\n\n**Step 1—record the starting condition; don’t dismantle anything yet.** Photograph the engine identity and hose, wiring, cable and bracket routing. Note whether it starts, any noise or leaks already observed, and arrange a secure engine bench and lifting help. Don’t start a suspect engine just to gather those details.\n\nWhat prompted the rebuild—preventive maintenance, or a specific symptom or failure?",
+     "next_step": {
+      "action": "Record engine identity and existing symptoms, photograph routing, and prepare the supported bench and lifting plan.",
+      "purpose": "Establish the starting condition before following the engine-removal sequence.",
+      "stop_conditions": [
+       "Do not start the engine with abnormal mechanical noise or suspected lubrication failure.",
+       "Do not release engine mounts or the swingarm pivot without secure independent supports."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 2,
+    "rider": "Ok, the bike is clean and on the stand. What's the first thing I do?",
+    "reply": {
+     "summary": "First, photograph and record the engine’s starting condition before disconnecting anything.",
+     "answer": "**First, record how everything is fitted—engine off, nothing disconnected yet.**\n\n1. Take clear photos of both sides of the engine, then close-ups of hose connections, wiring plugs, grounds, clutch-cable routing and engine brackets.\n2. Record the engine identification and any starting trouble, noise or leaks you’ve already noticed. Don’t start a suspect engine just to check.\n3. Prepare a secure engine bench, independent engine and swingarm supports, and a helper for the eventual lift. The bike stand alone won’t support everything when the swingarm pivot comes out.\n\nLeave the cables, engine mounts and pivot untouched for now. We’ll record the control free play before moving on to draining the oil.",
+     "next_step": {
+      "action": "Photograph the routing and engine identification, record existing symptoms, and prepare the bench and independent supports.",
+      "purpose": "Preserve the original layout and establish a safe removal plan.",
+      "stop_conditions": [
+       "Do not start an engine with abnormal mechanical noise or suspected lubrication failure.",
+       "Do not loosen engine mounts or withdraw the swingarm pivot without independent supports."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 3,
+    "rider": "Done. What's next?",
+    "reply": {
+     "summary": "Next, record the clutch and throttle free play before disconnecting or adjusting either cable.",
+     "answer": "**Next, record the controls as they are—engine off, cables still connected.**\n\n1. Gently move the clutch lever until you feel cable tension. Measure and write down its free movement before that point; leave the adjuster alone.\n2. Gently rotate the throttle until the opening cable takes up tension. Record the free movement at the grip’s circumference, then photograph the cable routing and adjuster positions so you can restore them later.\n3. Check that the throttle returns fully closed with the bars centered and at both steering locks. **If it binds or won’t return, keep the engine off.**\n\nKeep both controls assembled. Tell me the two measurements; draining the engine oil is the next step.",
+     "next_step": {
+      "action": "Measure and record clutch and throttle free play without changing either adjuster.",
+      "purpose": "Preserve the starting control setup before engine-removal disassembly.",
+      "stop_conditions": [
+       "Keep the engine off if the throttle binds or fails to return fully."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 4,
+    "rider": "Next step",
+    "reply": {
+     "summary": "Next, drain the oil from both the oil tank and crankcase, then reseal both drains with new gaskets.",
+     "answer": "**Next—drain both engine-oil compartments.** Keep your control measurements recorded; Yamaha’s targets are clutch **7–12 mm** and throttle **3–6 mm**.\n\n1. Keep the bike securely upright and place drain pans underneath. If the engine has abnormal noise or suspected damage, drain it cold—**don’t start it just to warm the oil**.\n2. Remove the oil filler cap, then remove **both** drain bolts: the oil-tank drain and the crankcase drain. Keep each bolt identified and let both compartments drain completely. Leave the oil filter installed for now.\n3. Fit a **new gasket on each drain bolt**, then tighten:\n   - Oil-tank drain: **10 N·m (7.4 ft-lb)**.\n   - Crankcase drain: **20 N·m (14.8 ft-lb)**.\n\nThose are Yamaha’s values for the original drain fasteners. Mark the engine **“NO OIL—DO NOT START.”** Don’t refill it yet.",
+     "next_step": {
+      "action": "Drain both oil compartments and reinstall both drain bolts with new gaskets at their specified torques.",
+      "purpose": "Empty and reseal the engine before continuing removal.",
+      "stop_conditions": [
+       "Do not start a suspect engine to warm the oil.",
+       "Stop if drain-bolt identity is unclear or threads are damaged.",
+       "Do not start the engine after draining."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 5,
+    "rider": "How tight do the cylinder head bolts go, and in what order?",
+    "reply": {
+     "summary": "The four main head bolts use a staged torque-and-angle procedure—not one final torque. Follow Yamaha’s installation numbering, which differs from the removal order.",
+     "answer": "**Main cylinder-head bolts: 36 N·m (27 ft-lb), then individually 18 N·m (13 ft-lb) + 90°, followed by another 60° on all four.** Yamaha’s stock procedure is:\n\n1. Clean the main-bolt threads and contact surfaces, both washer faces, head contact faces and crankcase threads. Apply **molybdenum disulfide grease** to the main-bolt threads, bolt seats and both washer faces.\n2. In **installation order 1 → 2 → 3 → 4**, tighten the four main bolts evenly to **36 N·m**, reaching that torque in two or three stages.\n3. Remove **bolt 1 only**, leaving the others tight. Reapply the same grease, reinstall at **18 N·m**, then turn **90°**. Complete that entire operation individually on bolts **2, 3 and 4**, in order.\n4. In order **1 → 2 → 3 → 4**, turn each main bolt a further **60°**.\n5. Apply **LOCTITE locking agent** to the two small head bolts and tighten installation positions **5 → 6** to **12 N·m (8.9 ft-lb)**. Yamaha does not specify the LOCTITE grade here.\n\nUse [Yamaha’s installation-order drawing](https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=220) to identify the bolt positions—**not the removal drawing**.\n\nThis is for reassembly later; don’t tighten the head now during teardown. We’re still at engine-removal access after draining the oil.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 6,
+    "rider": "What do I need to measure on the piston and cylinder before I reuse them?",
+    "reply": {
+     "summary": "Check the cylinder, piston, rings and pin as a matched assembly before reuse. Individual diameter checks do not establish acceptable clearance—you must calculate the actual fit.",
+     "answer": "**Measure the bore, piston, rings and pin—not just the piston diameter.** This is the inspection checklist for later; our walkthrough is still at engine-removal access.\n\nYamaha’s stock dimensions for your 2025 YZ450F are:\n\n| Check | Method and acceptance |\n|---|---|\n| Cylinder bore | Measure in two perpendicular directions at three heights—six readings. Standard **97.000–97.010 mm**; wear limit **97.060 mm**. Retain every reading. |\n| Piston diameter | Measure on Yamaha’s illustrated axis **9.0 mm above the skirt bottom**. Standard **96.955–96.970 mm**. |\n| Piston-to-cylinder clearance | Subtract measured piston diameter from the largest bore reading. Standard **0.010–0.045 mm**. |\n| Ring-to-groove side clearance | Clean carbon first. Top **0.015–0.065 mm**, limit **0.120 mm**; second **0.020–0.060 mm**, limit **0.100 mm**. |\n| Ring end gaps | Square each ring near the cylinder bottom with the piston crown. Top limit **0.55 mm**; second limit **0.85 mm**. |\n| Pin and piston pin bore | Pin minimum **17.981 mm**; pin-bore maximum **18.045 mm**. Subtract actual pin diameter from actual bore diameter: clearance **0.004–0.024 mm**. |\n\nUse a calibrated bore gauge, outside micrometers, a small-bore gauge and feeler gauges—not a caliper alone. Measure clean parts at room temperature.\n\n**Surface condition can reject parts even when dimensions pass.** As general rebuild practice, don’t reuse scored parts without resolving the damage; a blue or grooved pin also calls for lubrication investigation before assembly.\n\nCalculate the actual paired clearances; don’t assume two individually acceptable diameters fit correctly. Wear limits aren’t rebuild targets. Separate taper/out-of-round limits and a numerical oil-rail gap limit aren’t confirmed here, so those need resolving before accepting questionable parts.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 7,
+    "rider": "Ok, next step",
+    "reply": {
+     "summary": "Continue engine-removal access: with the engine cold and oil drains resealed, empty the fuel tank, then remove the seat and side covers.",
+     "answer": "**Next—empty the fuel tank and remove the seat and side covers.** The piston measurements were a look ahead; we’re continuing engine removal, not opening the engine yet.\n\nOnce both oil drains are resealed and the engine is fully cool:\n\n1. Release the **sub-seat quick fastener** and lift the sub-seat carefully—it’s tethered to the main seat.\n2. Remove the fuel cap and use a **fuel-safe transfer pump** to transfer the gasoline into an approved fuel container. Secure the cap afterward. Work with good ventilation, away from flames, sparks and heaters; never siphon by mouth.\n3. Remove the main-seat bolts and slide the seat rearward. Remove both side covers, labeling their bolts and collars. Slide the right cover’s locating projection out of its slot—don’t force the tab apart.\n\nLeave the fuel hose and pump connector attached for now. **Do not start the engine after draining its oil.**",
+     "next_step": {
+      "action": "With the engine cold and drains resealed, transfer the fuel out and remove the main seat and both side covers.",
+      "purpose": "Expose the next engine-removal access points while preserving hardware locations.",
+      "stop_conditions": [
+       "Do not handle fuel near hot components or ignition sources.",
+       "Stop and contain any fuel spill before continuing.",
+       "Do not start the engine after its oil has been drained.",
+       "Stop if a panel will not release without force."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 8,
+    "rider": "How do I line up the cam timing when it goes back together?",
+    "reply": {
+     "summary": "Align the crankshaft TDC mark and both cam-sprocket marks, then install and release the tensioner. Recheck all marks after rotating the crank by hand.",
+     "answer": "**Set the crank at top dead center, then align both cam-sprocket marks with Yamaha’s illustrated cam-cap surface edges.** This is for reassembly later; our walkthrough remains at engine-removal access.\n\nYamaha’s stock procedure:\n\n1. Account for and remove protective cloths from the head and chain space. Turn the crank **counterclockwise by hand** until the rotor TDC mark aligns with the cover mark.\n2. Apply molybdenum disulfide oil to the cams and engine oil to the decompressor. Fit the chain over both sprockets with both cam marks aligned as shown in [Yamaha’s timing drawing](https://library.ymcapps.net/library/om/contents/pdf/10/D02-2819U-10_02.pdf#page=215). **Do not rotate the crank while installing the cams.**\n3. Install matching caps and dowels. Oil cap-bolt threads and contact faces; tighten evenly in the illustrated eight-bolt sequence, in two or three stages, to **10 N·m (7.4 ft-lb)**. Don’t force uneven seating.\n4. Wind the tensioner rod fully clockwise while applying light finger pressure. Install new gaskets, with the **UP mark upward**; tighten mounting bolts to **10 N·m (7.4 ft-lb)**. Release the screwdriver and confirm smooth extension. Fit the new cap gasket and tighten the cap bolt to **6 N·m (4.4 ft-lb)**.\n5. Turn the crank counterclockwise several turns by hand. Return to rotor TDC and recheck both cam marks. Then measure room-temperature valve clearances: intake **0.10–0.17 mm**, exhaust **0.15–0.22 mm**.\n\n**Stop for unexpected resistance or mismatched marks—never use the starter to test unresolved timing.**",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 9,
+    "rider": "It's all back together. What's the break-in?",
+    "reply": {
+     "summary": "For top-end replacements, Yamaha specifies about 30 minutes at half throttle or less; a new cylinder requires about one hour of staged riding. Confirm the commissioning checks before riding.",
+     "answer": "**New piston, rings, valves or camshaft: about 30 minutes at no more than half throttle. New cylinder: about one hour.** Yamaha’s replacement-part procedure is:\n\n| Parts replaced | Riding break-in |\n|---|---|\n| Piston/rings, valves or camshaft; cylinder retained | **20 minutes at half throttle or less**, stop and inspect for looseness/leaks, then **10 more minutes at half throttle or less**. |\n| Cylinder | **20 minutes at half throttle or less**, stop and inspect, then **40 minutes at three-quarter throttle or less**, and inspect again. |\n\nWith both groups replaced, conservatively keep the first **30 minutes at half throttle or less**, then finish the hour at three-quarter throttle or less. That overlap is a conservative adaptation, not a separate Yamaha specification. Count riding time—not idling.\n\nBefore riding, confirm timing, cold valve clearances, oil flow/level, coolant and controls have passed; complete the post-head-gasket cooling-pressure test. Assembly alone doesn’t confirm those checks.\n\nAfterward, change the **oil and filter**, inspect drained oil for metal chips, and complete the remaining post-break-in inspections. **Stop immediately for abnormal noise, lubrication failure, overheating or leaks.**\n\nWhich parts did you replace—including the cylinder, crank assembly or gearbox? Crank/gear replacement needs its own commissioning route; this top-end schedule alone isn’t sufficient.",
+     "next_step": {
+      "action": "Identify the replaced parts and confirm commissioning checks before riding.",
+      "purpose": "Select the applicable break-in route without assuming reassembly establishes readiness.",
+      "stop_conditions": [
+       "Unresolved timing, clearance or lubrication checks.",
+       "Abnormal noise, overheating or leaks.",
+       "Metal chips in drained oil."
+      ]
+     },
+     "setup_changes": []
+    }
+   }
+  ]
+ },
+ {
+  "id": "rb-450sxf-2025",
+  "bike": {
+   "manufacturer": "KTM",
+   "model": "450 SX-F",
+   "model_year": 2025,
+   "configuration": {}
+  },
+  "manual": {
+   "publication": "KTM 450 SX-F 2025 repair manual",
+   "type": "rider's licensed copy, checked locally, never stored"
+  },
+  "manual_text": "/tmp/claude-0/-home-claude/6efe62a0-cd5f-5b6c-9409-a557e03a6696/scratchpad/ktmrm/rm.txt",
+  "checks": [
+   "every step, spec and order matches the repair manual for this exact year",
+   "one step (or a small group) per reply, never the whole manual at once",
+   "plain words a home mechanic can follow, with what to check before moving on",
+   "torques, clearances and limits are the manual's, in its units",
+   "says when a special tool or a measurement decides whether a part is reused"
+  ],
+  "turns": [
+   {
+    "turn": 1,
+    "rider": "I want to rebuild the motor on my 2025 KTM 450 SX-F. Can you walk me through it step by step?",
+    "reply": {
+     "summary": "Yes—we’ll work through the rebuild one stage at a time, starting with engine removal. First, clean the cold bike and photograph every hose, wire and cable route before disconnecting anything.",
+     "answer": "Yes—we’ll take it from a complete bike to a rebuilt, running engine, **one step at a time**.\n\nThe job order is:\n1. Take the engine out of the frame.\n2. Top end: strip the head, cylinder and piston.\n3. Bottom end: split the cases, inspect and rebuild the crank, gearbox, clutch and pumps.\n4. Finish the top-end rebuild and valve-clearance checks.\n5. Put the engine back in the frame.\n6. Fill fluids, first start and break-in checks.\n\nHave a stable lift stand and tie-downs, metric tools, torque wrenches, drain pans, fuel-line caps, an exhaust spring hook and an engine work stand ready. You’ll also need measuring tools and engine-specific tools as we reach those stages. Crankshaft pressing goes to a specialist. Plan on fresh gaskets, seals, an oil filter and fluids; choose size-dependent parts after inspection.\n\n**Step 1 — document the bike.** With the engine and exhaust completely cold, wash and dry the bike thoroughly. Photograph both sides of the engine, especially wiring connectors, hose routing, throttle cables, fuel line, clips and cable ties. Prepare labelled bags for each assembly. Don’t disconnect anything yet.\n\nTap **“Start a guided job”** above the message box and choose **“Take the engine out of the frame,”** or reply **“next”** to continue here.",
+     "next_step": {
+      "action": "Clean the cold bike, photograph routing and prepare labelled hardware bags.",
+      "purpose": "Establish a clear refit reference before engine removal.",
+      "stop_conditions": [
+       "Wait until the engine and exhaust are completely cold before starting."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 2,
+    "rider": "Ok, the bike is clean and on the stand. What's the first thing I do?",
+    "reply": {
+     "summary": "Before undoing anything, photograph the routing around the engine and secure the bike to the stand.",
+     "answer": "**First, photograph everything before disconnecting it.** Take close-ups of both sides of the engine showing wiring plugs, hose runs, throttle cables, fuel-line routing, clips and cable ties. These are your reference when it goes back together.\n\nThen strap the frame securely to the stand, with both wheels clear of the floor. Check that it cannot rock when you gently push at the bars and seat—the chassis needs to stay supported when we remove the swingarm pivot later.\n\nLay out labelled hardware bags for the exhaust, tank/seat, subframe, wiring, drive side, clutch side and engine mounts. **Don’t loosen any plugs or disconnect lines yet.**",
+     "next_step": {
+      "action": "Photograph engine routing, prepare labelled bags and strap the chassis securely to the stand.",
+      "purpose": "Preserve refit references and establish stable support before engine removal.",
+      "stop_conditions": [
+       "Do not proceed if the bike rocks or shifts on the stand.",
+       "Let the engine and exhaust cool completely before proceeding."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 3,
+    "rider": "Done. What's next?",
+    "reply": {
+     "summary": "Next, drain the engine oil and remove the oil filter. Inspect and photograph the magnet and screen before cleaning them.",
+     "answer": "**Next—drain the oil, with the engine cold and the bike securely strapped down.**\n\n1. Put a drain pan under the engine. Remove the **magnetic drain plug and its seal ring**, the **M16 screw plug and its O-ring**, and the **M20 plug carrying the long oil screen**. Leave the smaller screw beside these plugs alone. Let the oil drain completely.\n2. Inspect the drain-plug magnet and oil screen. Photograph what you find before wiping or cleaning them.\n3. Remove the oil-filter cover screws, then the cover and O-ring. Pull the filter out with lock-ring pliers and let its housing drain. Bag the cover, screws and plugs together; keep the old filter for inspection.\n\n**If you find metal chunks, flakes or heavy glitter, pause and preserve them for the bottom-end inspection.** As general workshop practice, keeping that debris helps trace what has worn or failed.\n\nLeave the drain hardware out for now; coolant draining comes next.",
+     "next_step": {
+      "action": "Drain the engine oil, inspect the magnet and screen, then remove the oil filter.",
+      "purpose": "Empty the lubrication system and preserve inspection evidence before engine removal.",
+      "stop_conditions": [
+       "Do not proceed if the bike shifts or rocks on the stand.",
+       "Pause if substantial metal debris appears; photograph and preserve it before cleaning."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 4,
+    "rider": "Next step",
+    "reply": {
+     "summary": "Next, drain the coolant with the engine completely cold. Put the drain screw back finger-tight afterward; final assembly gets a new seal ring.",
+     "answer": "**Next—drain the coolant, with the engine completely cold.**\n\n1. Keep the bike upright and securely strapped to the stand. Place a drain pan under the **water-pump cover**.\n2. Remove the coolant drain screw from the water-pump cover, then remove the radiator cap to let the system drain fully.\n3. When the flow stops, thread the drain screw back in **finger-tight only** so it doesn’t get lost. Fit a new seal ring at final assembly; don’t tighten it fully now. Store the radiator cap somewhere clean.\n\n**Never remove the radiator cap while the cooling system is hot or pressurized.** If the coolant is oily, photograph it and preserve that observation for the engine inspection.\n\nLeave the radiator hoses attached for now.",
+     "next_step": {
+      "action": "Drain the cold cooling system and reinstall the drain screw finger-tight.",
+      "purpose": "Empty the cooling system before continuing engine removal.",
+      "stop_conditions": [
+       "Engine or cooling system is still hot.",
+       "Bike shifts or rocks on the stand."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 5,
+    "rider": "How tight do the cylinder head bolts go, and in what order?",
+    "reply": {
+     "summary": "Tighten the M10 head screws criss-cross in three stages: 10, 30, then 50 Nm, with threads and collars oiled. Tighten the small M6 head screw last to 10 Nm.",
+     "answer": "For your **2025 KTM 450 SX-F**, the cylinder-head tightening procedure is:\n\n1. Oil the **M10×1.25 head-screw threads and collars**, and fit their washers. Start the small M6 screw, but leave it loose.\n2. Tighten the M10 screws **criss-cross—opposite corners**, completing each stage on all screws before moving to the next:\n   - **10 Nm (7.4 ft-lb)**\n   - **30 Nm (22.1 ft-lb)**\n   - **50 Nm (36.9 ft-lb)**\n3. Tighten the **M6×75 head screw last to 10 Nm (7.4 ft-lb)**.\n\nThose are successive torque targets, not amounts to add together or angle turns. Don’t take one screw straight to final torque while the others are loose.\n\nThis is for reassembly later; we’ll resume your walkthrough after the coolant-draining step.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 6,
+    "rider": "What do I need to measure on the piston and cylinder before I reuse them?",
+    "reply": {
+     "summary": "Measure bore shape, piston diameter, running clearance, ring clearances and cylinder flatness; inspect the pin fit too. KTM calls for piston replacement at the 45-hour minor engine service, even if it passes these checks.",
+     "answer": "**Check the cylinder, piston skirt, running clearance, rings and pin fit—but KTM specifies a new piston at the minor engine service, every 45 operating hours.** Measuring still tells you whether the cylinder is reusable and which piston fits.\n\nThese checks come **after engine removal and top-end teardown**, with the parts clean and at room temperature. Have a bore gauge, outside micrometer, feeler gauges and precision straightedge ready.\n\n| Check | How to measure | Specification |\n|---|---|---|\n| Cylinder bore | Measure at several heights in two directions 90° apart; record every reading and the cylinder’s size group | Size I: **95.000–95.012 mm**; size II: **95.013–95.025 mm** |\n| Piston skirt | Micrometer perpendicular to the pin axis, **7 mm (0.28 in)** above the skirt’s lower edge | Size I: **94.93–94.96 mm**; size II: **94.94–94.97 mm** |\n| Piston-to-cylinder clearance | Subtract piston diameter from bore diameter; calculate the tightest and loosest combinations | New fit: **0.040–0.082 mm**, size I; **0.043–0.085 mm**, size II. Wear limit: **0.120 mm (0.00472 in)** |\n| Ring-to-groove clearance | Feeler gauge between each ring and its groove | Maximum **0.08 mm (0.0031 in)** |\n| Ring end gap | Square each ring in the bore with the piston, **10 mm (0.39 in)** below the top; measure between the ends | Compression-ring wear maximum: **1.00 mm (0.0394 in)**; oil-ring maximum: **1.20 mm (0.0472 in)** |\n| Cylinder top-face flatness | Straightedge and feeler gauges in several directions | Maximum distortion: **0.10 mm (0.0039 in)** |\n\nInspect for bore scoring or damaged coating, piston cracks/scuffing and pin blueing. Check pin rocking separately in the piston and rod: piston play calls for a new piston and pin; rod play needs specialist small-end inspection before assembly.\n\n**Ring wear maxima are not new-ring fitting targets.** Separate taper and out-of-round rejection limits aren’t confirmed here; record both differences for assessment rather than approving the cylinder from one bore reading.\n\nWe’ll resume the walkthrough with seat removal after coolant draining.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 7,
+    "rider": "Ok, next step",
+    "reply": {
+     "summary": "Next, remove the seat and bag its fixing screw. Leave the fuel line and tank connected for now.",
+     "answer": "**Next—remove the seat.** We’re continuing engine removal; the piston and cylinder measurements come after teardown.\n\n1. Remove the seat fixing screw at the back and put it in your labelled tank/seat bag.\n2. Lift the rear of the seat, slide it toward the tank to free the front, then lift it away.\n\nIf it catches, check the attachment rather than forcing it. Leave the fuel line and tank connected for now.",
+     "next_step": {
+      "action": "Remove the seat and bag its fixing screw.",
+      "purpose": "Gain access for the fuel-line and tank removal steps.",
+      "stop_conditions": [
+       "Seat catches or requires force: stop and check its attachment."
+      ]
+     },
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 8,
+    "rider": "How do I line up the cam timing when it goes back together?",
+    "reply": {
+     "summary": "Lock the crank at TDC, align the cam’s LOCK mark with the head mark, and keep the front chain run taut. Install the tensioner, then remove the crank lock and rotate by hand to verify timing.",
+     "answer": "**Fit the cam with the crank locked at TDC, the cam’s LOCK mark facing up and aligned with the head mark, and no slack in the front chain run.** This comes after the cylinder head is installed and torqued.\n\n1. Confirm the crank-web notch is visible through the locking-screw hole. Install the proper crank-locking screw at **10 Nm (7.4 ft-lb)**—never force it into position.\n2. Fit the camshaft and engage the chain with the **LOCK mark facing up and flush with the mark in the head**. Keep the front chain run taut while fitting it.\n3. Fit the lock washer and camshaft retaining bracket. KTM specifies **15 Nm (11.1 ft-lb)** for its screws.\n4. Fit the tensioner body with a **new gasket**; tighten its screws to **10 Nm (7.4 ft-lb)**. Insert the spring, then fit the plug with its seal ring at **8 Nm (5.9 ft-lb)**.\n5. **Remove the crank-locking screw.** Turn the crank counterclockwise several full turns by hand, then return to compression TDC. The cam LOCK mark must align with the bracket’s center while the crank notch is visible through the locking hole. Both rockers should have free play.\n\n**Stop at any hard spot—never force it or use the starter to check timing.** Verify all four valve clearances before closing the cover.\n\nThis answers the reassembly step; your engine-removal walkthrough remains at seat removal.",
+     "next_step": null,
+     "setup_changes": []
+    }
+   },
+   {
+    "turn": 9,
+    "rider": "It's all back together. What's the break-in?",
+    "reply": {
+     "summary": "Use short, easy rides with varying rpm, then increase load progressively—not prolonged idling. Complete first-start checks and diagnostic initialization before riding, then inspect it after the first operating hour.",
+     "answer": "**Start with short, easy rides at varying rpm, then build throttle and load gradually.** There’s no fixed timed break-in schedule confirmed here; follow any instructions supplied by your piston/ring maker.\n\n1. **Before starting:** confirm fluids are filled. KTM specifies **1.20 l (1.27 US qt)** of fully synthetic SAE 10W/50, JASO T903 MA2 oil and **0.95 l (1 US qt)** coolant. Check throttle return and look for leaks.\n2. **First start:** warm gently at idle and light throttle—no hard revving cold or prolonged stationary idling. Watch for leaks and uneven radiator warming. Shut down, wait **one minute** with the bike upright, then check oil between the middle and top of the sight glass. Recheck coolant only when completely cold.\n3. **Before riding:** the rebuild procedure calls for dealer diagnostic initialization, adaptation reset and gear-position programming, followed by quickshifter teaching.\n4. **Break-in rides:** vary rpm, short-shift and avoid full throttle, constant-speed running and lugging. Cool fully and check fluids/leaks after each session; progressively increase throttle and rpm over subsequent sessions.\n5. **After the first operating hour:** check cold valve clearances, chain, fasteners, hose clamps and coolant. Intake clearance is **0.10–0.15 mm**; exhaust **0.12–0.17 mm**, measured at **20°C (68°F)**. Change oil/filter, clean both screens and inspect the magnet after break-in.\n\n**Shut down immediately for knocking, persistent metallic clatter, leaks, boiling coolant or loss of power.**\n\nTap **“Start a guided job” → “Fill, first start and break-in after an engine rebuild”** for the complete sequence.",
+     "next_step": {
+      "action": "Confirm oil, coolant, throttle return and leak-free connections before first start.",
+      "purpose": "Establish safe readiness before warming and break-in.",
+      "stop_conditions": [
+       "No oil visible after filling or oil/coolant cross-contamination.",
+       "Throttle does not snap shut.",
+       "Any fuel, oil or coolant leak."
+      ]
+     },
+     "setup_changes": []
+    }
+   }
+  ]
+ }
+]
