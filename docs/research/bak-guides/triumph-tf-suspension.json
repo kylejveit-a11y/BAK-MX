@@ -46,6 +46,16 @@
     "manufacturer": "Triumph",
     "model": "TF 450-E",
     "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
    }
   ],
   "component": "fork",
@@ -223,6 +233,16 @@
     "manufacturer": "Triumph",
     "model": "TF 450-C",
     "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
    }
   ],
   "component": "fork",
@@ -649,9 +669,9 @@
    "Bike at riding weight, rider in full gear available."
   ],
   "exit_state": [
-   "Static sag measured and compared with the target, any change recorded."
+   "Static and riding sag measured and compared with the target for this frame batch, any change recorded."
   ],
-  "completeness": "Covers preparing the bike, measuring the extended length and static sag and deciding between preload and spring change.",
+  "completeness": "Covers preparing the bike, measuring the extended length and static and riding sag (target by frame batch) and deciding between preload and spring change.",
   "excluded": [
    "Shock removal and preload adjustment"
   ],
@@ -720,6 +740,18 @@
     ],
     "verification": [
      "Static sag worked out."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "b-ride",
+    "title": "Measure riding sag",
+    "instruction": "The rider, in full gear, sits on the bike with feet on the footrests and bounces a few times to settle it. Measure B again with the rider on. A minus B is the riding sag. The target depends on the 2025 frame batch (VIN on the frame): 105 mm (4.1 in) for frames before VIN CC7868, 102 mm (4.02 in) for frames from VIN CF3825.",
+    "depends_on": [
+     "b-static"
+    ],
+    "verification": [
+     "Riding sag worked out and compared with the target for this frame."
     ],
     "record_required": true
    },
@@ -871,6 +903,157 @@
     "id": "b-ride",
     "title": "Measure riding sag",
     "instruction": "The rider, in full gear, sits on the bike with feet on the footrests and bounces a few times to settle it. Measure B again with the rider on. A minus B is the riding sag; it should be 102 mm (4.02 in).",
+    "depends_on": [
+     "b-static"
+    ],
+    "verification": [
+     "Riding sag worked out."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "judge",
+    "title": "Judge the result",
+    "instruction": "Small differences are corrected with shock spring preload; large ones mean a different spring rate (see the spring choice guide). Preload is set with the shock removed from the bike, which is a specialist job.",
+    "depends_on": [
+     "b-ride"
+    ],
+    "verification": [
+     "Decision made."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "ok",
+      "label": "Sag correct",
+      "next_step": "record-out",
+      "condition": "Within the target."
+     },
+     {
+      "id": "change",
+      "label": "Sag wrong",
+      "next_step": "record-out",
+      "condition": "Note the change needed and book the shock work."
+     }
+    ]
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down A, B, the sag figures and any spring or preload change planned.",
+    "depends_on": [
+     "judge"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-rear-sag-v1-tf250x27-tf450x27",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
+   }
+  ],
+  "component": "shock",
+  "affected_components": [
+   "shock",
+   "shock_spring",
+   "suspension"
+  ],
+  "title": "Measure the rear sag",
+  "entry_state": [
+   "Bike at riding weight, rider in full gear available."
+  ],
+  "exit_state": [
+   "Static sag measured and compared with the target, riding sag recorded, any change recorded."
+  ],
+  "completeness": "Covers preparing the bike, measuring the extended length and static and riding sag and deciding between preload and spring change.",
+  "excluded": [
+   "Shock removal and preload adjustment"
+  ],
+  "required_tools": [
+   {
+    "name": "Sag gauge or long rule",
+    "size": null
+   },
+   {
+    "name": "Stand that lifts the rear wheel",
+    "size": null
+   },
+   {
+    "name": "A helper",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Tyres at their usual pressure."
+  ],
+  "critical_stop_conditions": [
+   "Never adjust the shock spring without removing the shock correctly."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Write down the date, rider weight in full gear and current clicker settings.",
+    "depends_on": [],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "weight",
+    "title": "Bring the bike to riding weight",
+    "instruction": "Fill the tank, and set the engine oil and coolant to their correct levels, so the bike weighs what it does on track.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Fuel full, oil and coolant correct."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "a",
+    "title": "Measure fully extended (A)",
+    "instruction": "Put the bike on a stand with the rear wheel off the ground and the shock fully extended. Measure A from the centre of the rear axle to the SAG mark on the rear fender with a sag gauge.",
+    "depends_on": [
+     "weight"
+    ],
+    "verification": [
+     "A written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "b-static",
+    "title": "Measure static sag (B)",
+    "instruction": "Take the bike off the stand and have a helper hold it upright with no rider. Measure B the same way. A minus B is the static sag; it should be 36 mm (1.42 in).",
+    "depends_on": [
+     "a"
+    ],
+    "verification": [
+     "Static sag worked out."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "b-ride",
+    "title": "Measure riding sag",
+    "instruction": "The rider, in full gear, sits on the bike with feet on the footrests and bounces a few times to settle it. Measure B again with the rider on. A minus B is the riding sag. Triumph gives the method but prints no riding sag figure for the 2027 bikes, so write yours down as your own reference and set the spring by the static sag.",
     "depends_on": [
      "b-static"
     ],
@@ -1368,9 +1551,10 @@
     "model_year": 2025
    }
   ],
-  "component": "fork",
+  "component": "shock",
   "affected_components": [
    "suspension",
+   "shock_damper",
    "fork"
   ],
   "title": "Return the clickers to the stock setting",
@@ -1378,13 +1562,12 @@
    "Bike on level ground."
   ],
   "exit_state": [
-   "Every fork adjuster at the stock setting, both fork legs equal, settings recorded."
+   "Every shock and fork adjuster at the stock setting for this frame batch, both fork legs equal, settings recorded."
   ],
-  "completeness": "Covers recording, setting fork damping adjusters to stock and the order for tuning.",
+  "completeness": "Covers recording, finding the frame batch from the VIN, setting shock and fork damping adjusters to stock and the order for tuning.",
   "excluded": [
    "Spring changes",
-   "Internal suspension service",
-   "Shock clickers"
+   "Internal suspension service"
   ],
   "required_tools": [
    {
@@ -1412,11 +1595,69 @@
     "record_required": true
    },
    {
+    "id": "vin",
+    "title": "Check which 2025 frame you have",
+    "instruction": "The 2025 TF 250-X was built in two batches with different factory shock settings. Read the VIN on the frame: frames before VIN CC7868 are the first batch, frames from VIN CF3825 the second. If yours is in neither range or you are unsure, enter the VIN in Triumph's VIN search or ask a Triumph dealer before setting the shock.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Batch known from the VIN."
+    ],
+    "record_required": true,
+    "branches": [
+     {
+      "id": "early",
+      "label": "Frame before VIN CC7868",
+      "next_step": "shock-early",
+      "condition": "First batch."
+     },
+     {
+      "id": "late",
+      "label": "Frame from VIN CF3825",
+      "next_step": "shock-late",
+      "condition": "Second batch."
+     }
+    ]
+   },
+   {
+    "id": "shock-early",
+    "title": "Shock to stock (frames before VIN CC7868)",
+    "instruction": "The rebound adjuster is at the bottom of the shock on the right: turn it gently clockwise to the stop, then counterclockwise 12 clicks. The low-speed compression adjuster is the slotted screw at the top of the shock on the right: clockwise to the stop, then counterclockwise 10 clicks; do not loosen the adjuster housing. The high-speed compression adjuster is the outer part of the same housing: clockwise to the stop, then counterclockwise one turn.",
+    "depends_on": [
+     "vin"
+    ],
+    "verification": [
+     "Shock rebound, low-speed and high-speed compression at stock."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "to-fork",
+      "label": "Shock set",
+      "next_step": "fork-comp",
+      "condition": "Go on to the fork."
+     }
+    ]
+   },
+   {
+    "id": "shock-late",
+    "title": "Shock to stock (frames from VIN CF3825)",
+    "instruction": "The rebound adjuster is at the bottom of the shock on the right: turn it gently clockwise to the stop, then counterclockwise 11 clicks. The low-speed compression adjuster is the slotted screw at the top of the shock on the right: clockwise to the stop, then counterclockwise 11 clicks; do not loosen the adjuster housing. The high-speed compression adjuster is the outer part of the same housing: clockwise to the stop, then counterclockwise seven eighths of a turn.",
+    "depends_on": [
+     "vin"
+    ],
+    "verification": [
+     "Shock rebound, low-speed and high-speed compression at stock."
+    ],
+    "record_required": false
+   },
+   {
     "id": "fork-comp",
     "title": "Fork compression to stock",
     "instruction": "The compression adjuster is at the top of each fork leg. Turn it clockwise to the stop, then counterclockwise 10 clicks. Set both legs the same.",
     "depends_on": [
-     "record"
+     "vin"
     ],
     "verification": [
      "Both legs at stock compression."
@@ -1708,6 +1949,282 @@
     "id": "fork-reb",
     "title": "Fork rebound to stock",
     "instruction": "The rebound adjuster is at the bottom of each fork leg. Turn it clockwise to the stop, then counterclockwise 12 clicks. Set both legs the same.",
+    "depends_on": [
+     "fork-comp"
+    ],
+    "verification": [
+     "Both legs at stock rebound."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "ride",
+    "title": "Test and tune from here",
+    "instruction": "Set the rear first, then the front, and keep them balanced. Change one adjuster by one or two clicks at a time and ride the same section to compare. Stock settings suit a rider of 75–85 kg (165–187 lb) in full gear.",
+    "depends_on": [
+     "fork-reb"
+    ],
+    "verification": [
+     "Baseline ridden."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the baseline and every change with the track and the result.",
+    "depends_on": [
+     "ride"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-clickers-stock-v1-tf250x27",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
+   }
+  ],
+  "component": "shock",
+  "affected_components": [
+   "suspension",
+   "shock_damper",
+   "fork"
+  ],
+  "title": "Return the clickers to the stock setting",
+  "entry_state": [
+   "Bike on level ground."
+  ],
+  "exit_state": [
+   "Every shock and fork adjuster at the stock setting, both fork legs equal, settings recorded."
+  ],
+  "completeness": "Covers recording, setting shock and fork damping adjusters to stock and the order for tuning.",
+  "excluded": [
+   "Spring changes",
+   "Internal suspension service"
+  ],
+  "required_tools": [
+   {
+    "name": "Flat screwdriver",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Clicker positions recorded first."
+  ],
+  "critical_stop_conditions": [
+   "Fork legs set differently: correct before riding.",
+   "Never force an adjuster past its stop."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record your current settings",
+    "instruction": "Before touching anything, count each adjuster in to the fully clockwise stop, write the count down, then return it to where it was. That is your way back.",
+    "depends_on": [],
+    "verification": [
+     "Every adjuster position recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "shock-rebound",
+    "title": "Shock rebound to stock",
+    "instruction": "The rebound adjuster is at the bottom of the shock on the right. Turn it gently clockwise to the stop, then counterclockwise 13 clicks. Clockwise adds damping, counterclockwise reduces it.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Shock rebound at stock."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "shock-lsc",
+    "title": "Shock low-speed compression to stock",
+    "instruction": "The low-speed compression adjuster is the slotted screw at the top of the shock on the right. Turn it clockwise to the stop, then counterclockwise 13 clicks. Do not loosen the adjuster housing.",
+    "depends_on": [
+     "shock-rebound"
+    ],
+    "verification": [
+     "Low-speed compression at stock."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "shock-hsc",
+    "title": "Shock high-speed compression to stock",
+    "instruction": "The high-speed compression adjuster is the outer part of the same housing. Turn it clockwise to the stop, then counterclockwise one and a half turns. High speed affects fast hits like jump landings; low speed affects slow movement over long bumps.",
+    "depends_on": [
+     "shock-lsc"
+    ],
+    "verification": [
+     "High-speed compression at stock."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fork-comp",
+    "title": "Fork compression to stock",
+    "instruction": "The compression adjuster is at the top of each fork leg. Turn it clockwise to the stop, then counterclockwise 12 clicks. Set both legs the same.",
+    "depends_on": [
+     "shock-hsc"
+    ],
+    "verification": [
+     "Both legs at stock compression."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fork-reb",
+    "title": "Fork rebound to stock",
+    "instruction": "The rebound adjuster is at the bottom of each fork leg. Turn it clockwise to the stop, then counterclockwise 12 clicks. Set both legs the same.",
+    "depends_on": [
+     "fork-comp"
+    ],
+    "verification": [
+     "Both legs at stock rebound."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "ride",
+    "title": "Test and tune from here",
+    "instruction": "Set the rear first, then the front, and keep them balanced. Change one adjuster by one or two clicks at a time and ride the same section to compare. Stock settings suit a rider of 75–85 kg (165–187 lb) in full gear.",
+    "depends_on": [
+     "fork-reb"
+    ],
+    "verification": [
+     "Baseline ridden."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the baseline and every change with the track and the result.",
+    "depends_on": [
+     "ride"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-clickers-stock-v1-tf450x27",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
+   }
+  ],
+  "component": "shock",
+  "affected_components": [
+   "suspension",
+   "shock_damper",
+   "fork"
+  ],
+  "title": "Return the clickers to the stock setting",
+  "entry_state": [
+   "Bike on level ground."
+  ],
+  "exit_state": [
+   "Every shock and fork adjuster at the stock setting, both fork legs equal, settings recorded."
+  ],
+  "completeness": "Covers recording, setting shock and fork damping adjusters to stock and the order for tuning.",
+  "excluded": [
+   "Spring changes",
+   "Internal suspension service"
+  ],
+  "required_tools": [
+   {
+    "name": "Flat screwdriver",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Clicker positions recorded first."
+  ],
+  "critical_stop_conditions": [
+   "Fork legs set differently: correct before riding.",
+   "Never force an adjuster past its stop."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record your current settings",
+    "instruction": "Before touching anything, count each adjuster in to the fully clockwise stop, write the count down, then return it to where it was. That is your way back.",
+    "depends_on": [],
+    "verification": [
+     "Every adjuster position recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "shock-rebound",
+    "title": "Shock rebound to stock",
+    "instruction": "The rebound adjuster is at the bottom of the shock on the right. Turn it gently clockwise to the stop, then counterclockwise 12 clicks. Clockwise adds damping, counterclockwise reduces it.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Shock rebound at stock."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "shock-lsc",
+    "title": "Shock low-speed compression to stock",
+    "instruction": "The low-speed compression adjuster is the slotted screw at the top of the shock on the right. Turn it clockwise to the stop, then counterclockwise 12 clicks. Do not loosen the adjuster housing.",
+    "depends_on": [
+     "shock-rebound"
+    ],
+    "verification": [
+     "Low-speed compression at stock."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "shock-hsc",
+    "title": "Shock high-speed compression to stock",
+    "instruction": "The high-speed compression adjuster is the outer part of the same housing. Turn it clockwise to the stop, then counterclockwise one and a quarter turns. High speed affects fast hits like jump landings; low speed affects slow movement over long bumps.",
+    "depends_on": [
+     "shock-lsc"
+    ],
+    "verification": [
+     "High-speed compression at stock."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fork-comp",
+    "title": "Fork compression to stock",
+    "instruction": "The compression adjuster is at the top of each fork leg. Turn it clockwise to the stop, then counterclockwise 13 clicks. Set both legs the same.",
+    "depends_on": [
+     "shock-hsc"
+    ],
+    "verification": [
+     "Both legs at stock compression."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fork-reb",
+    "title": "Fork rebound to stock",
+    "instruction": "The rebound adjuster is at the bottom of each fork leg. Turn it clockwise to the stop, then counterclockwise 11 clicks. Set both legs the same.",
     "depends_on": [
      "fork-comp"
     ],
@@ -2288,6 +2805,11 @@
     "manufacturer": "Triumph",
     "model": "TF 450-C",
     "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
    }
   ],
   "component": "shock",
@@ -2398,6 +2920,11 @@
     "manufacturer": "Triumph",
     "model": "TF 450-X",
     "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
    }
   ],
   "component": "shock",

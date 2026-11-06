@@ -46,6 +46,16 @@
     "manufacturer": "Triumph",
     "model": "TF 450-E",
     "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
    }
   ],
   "component": "engine",
@@ -272,6 +282,11 @@
     "manufacturer": "Triumph",
     "model": "TF 250-X",
     "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
    }
   ],
   "component": "engine",
@@ -529,6 +544,11 @@
     "manufacturer": "Triumph",
     "model": "TF 450-X",
     "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
    }
   ],
   "component": "engine",
@@ -1938,7 +1958,7 @@
    {
     "id": "fill",
     "title": "Fill",
-    "instruction": "With the bike upright, pour Triumph D2053 OAT coolant (premixed) slowly into the radiator until it is 10 mm (0.39 in) above the fins. The system holds about 2.4 L.",
+    "instruction": "With the bike upright, pour Triumph D2053 OAT coolant (premixed) slowly into the radiator until it is 10 mm (0.39 in) above the fins. Fill to that level rather than by a measured volume.",
     "depends_on": [
      "drain-refit"
     ],
@@ -2215,6 +2235,16 @@
     "manufacturer": "Triumph",
     "model": "TF 450-C",
     "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
    }
   ],
   "component": "engine",
@@ -2885,6 +2915,16 @@
     "manufacturer": "Triumph",
     "model": "TF 450-C",
     "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
    }
   ],
   "component": "engine",
@@ -3519,6 +3559,11 @@
     "manufacturer": "Triumph",
     "model": "TF 250-C",
     "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
    }
   ],
   "component": "engine",
@@ -3682,6 +3727,175 @@
   ]
  },
  {
+  "id": "bak-triumph-throttle-idle-v1-tf250x25",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "controls",
+   "engine_management",
+   "intake"
+  ],
+  "title": "Check throttle free play and set the idle speed",
+  "entry_state": [
+   "Bike on a stand, outdoors."
+  ],
+  "exit_state": [
+   "Throttle returns cleanly, free play and idle in range, idle steady lock to lock."
+  ],
+  "completeness": "Covers throttle return, grip free play, cable adjustment at the grip, warm idle setting and the lock-to-lock check.",
+  "excluded": [
+   "Throttle cable replacement or rerouting",
+   "Throttle body service"
+  ],
+  "required_tools": [
+   {
+    "name": "Digital tachometer",
+    "size": null
+   },
+   {
+    "name": "Small spanners for the cable lock nuts",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Air filter clean.",
+   "Ventilated area: never run the engine indoors."
+  ],
+  "critical_stop_conditions": [
+   "Throttle sticking or slow to close: do not ride.",
+   "Idle changes as the bars turn: correct the cables before riding."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Check the idle speed after the first operating hour and then every 15 operating hours, and check throttle free play at the same time or whenever the throttle feels different. Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "throttle-return",
+    "title": "Check the throttle action",
+    "instruction": "With the bars straight ahead, open the throttle fully and let go. It must open smoothly without force and snap shut on its own spring every time.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Throttle returns on its own."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "sticky",
+      "label": "Throttle sticks",
+      "next_step": "record-out",
+      "condition": "Any sticking or slow return: do not ride. Record it and have the throttle and cables inspected."
+     }
+    ]
+   },
+   {
+    "id": "free-play",
+    "title": "Measure free play",
+    "instruction": "Turn the grip gently back and forth: free play at the grip must be 2–3 mm (0.08–0.12 in).",
+    "depends_on": [
+     "throttle-return"
+    ],
+    "verification": [
+     "Free play measured."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "in-range",
+      "label": "Free play correct",
+      "next_step": "idle-prep",
+      "condition": "Within range."
+     },
+     {
+      "id": "adjust",
+      "label": "Free play wrong",
+      "next_step": "cable-adjust",
+      "condition": "Outside the range."
+     }
+    ]
+   },
+   {
+    "id": "cable-adjust",
+    "title": "Adjust the cables",
+    "instruction": "Slide the rubber sleeve off the adjusters at the twist grip, loosen both lock nuts, screw both adjusters fully in, then screw the opening and closing adjusters out together until the free play is 2–3 mm (0.08–0.12 in). Tighten both lock nuts and refit the sleeve. A loose lock nut can make the throttle stick.",
+    "depends_on": [
+     "free-play"
+    ],
+    "verification": [
+     "Free play correct, both lock nuts tight."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "idle-prep",
+    "title": "Prepare for the idle check",
+    "instruction": "A dirty air filter or wrong free play gives a false idle, so sort those first. Warm the engine fully outdoors and make sure the cold start lever is pushed in. Fit a digital tachometer.",
+    "depends_on": [
+     "free-play"
+    ],
+    "verification": [
+     "Engine warm, cold start lever in, tachometer fitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "idle-set",
+    "title": "Set the idle",
+    "instruction": "Idle must sit at 2200–2400 rpm on frames before VIN CC7868 and 2250–2350 rpm on frames from VIN CF3825 (VIN on the frame). Turn the idle screw on the throttle body clockwise to raise it or counterclockwise to lower it, a little at a time, letting it settle after each turn.",
+    "depends_on": [
+     "idle-prep"
+    ],
+    "verification": [
+     "Idle within range."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "lock-to-lock",
+    "title": "Check at full lock",
+    "instruction": "With the engine idling, turn the bars to full left and full right lock. The idle must not change. If it rises, the throttle cables are routed or adjusted wrongly: fix them before riding.",
+    "depends_on": [
+     "idle-set"
+    ],
+    "verification": [
+     "Idle unchanged lock to lock."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the free play, idle speed and anything adjusted.",
+    "depends_on": [
+     "lock-to-lock"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
   "id": "bak-triumph-throttle-idle-v1-tf450rc25-tf450x26-tf450c26-tf450e26",
   "targets": [
    {
@@ -3703,6 +3917,11 @@
     "manufacturer": "Triumph",
     "model": "TF 450-E",
     "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
    }
   ],
   "component": "engine",
@@ -4061,6 +4280,16 @@
     "manufacturer": "Triumph",
     "model": "TF 450-X",
     "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
    }
   ],
   "component": "engine",
@@ -4735,6 +4964,154 @@
     "instruction": "After the session, write down the map, traction, quickshifter and launch settings with the track conditions and how the bike felt.",
     "depends_on": [
      "holeshot"
+    ],
+    "verification": [
+     "Settings and results recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-rider-aids-v1-tf250x27-tf450x27",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
+   }
+  ],
+  "component": "engine",
+  "affected_components": [
+   "engine_management",
+   "controls",
+   "electrical"
+  ],
+  "title": "Set the engine map, traction, quickshifter and launch control",
+  "entry_state": [
+   "Bike ready to ride."
+  ],
+  "exit_state": [
+   "Rider aids set for the conditions and recorded."
+  ],
+  "completeness": "Covers map choice, switch brightness, traction control, quickshifter use and reset, launch control arming and cancelling, and reading a fault on the quickshifter light.",
+  "excluded": [
+   "Engine calibration changes with a diagnostic tool"
+  ],
+  "required_tools": [],
+  "required_parts": [],
+  "prerequisites": [
+   "Bike started and warm."
+  ],
+  "critical_stop_conditions": [
+   "Switch lights not responding: check the electrical system before relying on any rider aid."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the current setup",
+    "instruction": "Note which map, traction control, launch control and quickshifter settings you ride with now, and the track conditions, so you can compare.",
+    "depends_on": [],
+    "verification": [
+     "Current settings recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "map",
+    "title": "Choose the engine map",
+    "instruction": "On this model year MAP 1 is the full-power setting for engine response and traction control, and MAP 2 is the softened setting (the reverse of the 2024-2026 Triumph off-road bikes, where MAP 2 is full power). A short press on the MAP switch on the left switch housing swaps between them. The MAP switch is dark with MAP 1 and lit with MAP 2.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Map chosen and confirmed by the switch light."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "brightness",
+    "title": "Set the switch light brightness",
+    "instruction": "A long press on the MAP switch changes the brightness of the switch housing lights. Set it so you can read them in sun.",
+    "depends_on": [
+     "map"
+    ],
+    "verification": [
+     "Switch lights readable."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tc",
+    "title": "Set traction control",
+    "instruction": "A short press on the TC switch turns traction control on (its light comes on) or off (light off). Start with it on for slippery or hard-pack tracks.",
+    "depends_on": [
+     "brightness"
+    ],
+    "verification": [
+     "Traction control state confirmed by the light."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "qs",
+    "title": "Set the quickshifter",
+    "instruction": "A short press on the quickshifter switch turns it on or off. It only works on upshifts from 2nd gear and above 2,500 rpm, and does nothing if you try to shift up from 5th. You still need the clutch for first to second, all downshifts, stopping and pulling away.",
+    "depends_on": [
+     "tc"
+    ],
+    "verification": [
+     "Quickshifter state chosen."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "qs-reset",
+    "title": "Reset the quickshifter if shifts feel wrong",
+    "instruction": "Start the engine, pull in the clutch and select first gear. Keeping the clutch in, let go of the shift pedal, then push it fully down and hold it there. Press and hold the quickshifter switch: its light flashes slowly while it resets and quickly when done, then goes off. Release the pedal and select neutral.",
+    "depends_on": [
+     "qs"
+    ],
+    "verification": [
+     "Quickshifter light flashed quickly and went off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fault-light",
+    "title": "Know the fault light",
+    "instruction": "The quickshifter switch light is also the engine management warning light. If the engine management finds a fault, all the left switch housing lights go out and the quickshifter light flashes for 5 seconds, pauses 10 seconds and repeats; the switches do nothing while it flashes and the quickshifter cannot be switched or reset. Do not race the bike until the fault has been found and cleared.",
+    "depends_on": [
+     "qs-reset"
+    ],
+    "verification": [
+     "No fault flashing before the start."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "lc",
+    "title": "Arm launch control at the gate",
+    "instruction": "With the bike stopped, engine idling and the gearbox in neutral, press and hold the LC switch until its light comes on. Use the clutch exactly as normal for the start. The light flashes during the start and launch control switches itself off a few seconds after the start; a long press on the LC switch or a fully open throttle also cancels it.",
+    "depends_on": [
+     "fault-light"
+    ],
+    "verification": [
+     "Launch control light on before the start."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record what worked",
+    "instruction": "After the session, write down the map, traction, quickshifter and launch settings with the track conditions and how the bike felt.",
+    "depends_on": [
+     "lc"
     ],
     "verification": [
      "Settings and results recorded."

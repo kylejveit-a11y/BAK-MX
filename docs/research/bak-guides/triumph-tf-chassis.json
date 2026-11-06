@@ -46,6 +46,16 @@
     "manufacturer": "Triumph",
     "model": "TF 450-E",
     "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
    }
   ],
   "component": "frame",
@@ -463,6 +473,16 @@
     "manufacturer": "Triumph",
     "model": "TF 450-C",
     "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
    }
   ],
   "component": "frame",
@@ -564,6 +584,188 @@
     "id": "stretch",
     "title": "Stretch and measure",
     "instruction": "Hang a moderate weight on the chain to pull it taut. On the straight run, measure from the centre of one pin to the centre of the pin 20 links further on. Measure in several places, because chains wear unevenly. Replace the chain if any length exceeds 320 mm (12.6 in).",
+    "depends_on": [
+     "damage"
+    ],
+    "verification": [
+     "Several 20-link lengths measured."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "worn",
+      "label": "Over the limit",
+      "next_step": "replace",
+      "condition": "Any measurement over the limit."
+     }
+    ]
+   },
+   {
+    "id": "sprockets",
+    "title": "Check the sprockets",
+    "instruction": "Turn the wheel and look at both sprockets for hooked, uneven or damaged teeth.",
+    "depends_on": [
+     "stretch"
+    ],
+    "verification": [
+     "Both sprockets inspected."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "sprockets-worn",
+      "label": "Sprockets worn",
+      "next_step": "replace",
+      "condition": "Worn sprockets: replace both sprockets with the chain, since a new chain on worn sprockets wears out fast."
+     }
+    ]
+   },
+   {
+    "id": "sliders",
+    "title": "Check the rubbing strips",
+    "instruction": "Inspect the chain rubbing strip on the swingarm and the upper and lower sliders for wear, cracks and missing pieces. If a rubbing strip or slider is worn, cracked or missing, replace it: upper slider to engine fastener 10 N·m (89 lbf·in), upper slider guard to frame fastener 25 N·m (18 lbf·ft), lower slider fastener 10 N·m (89 lbf·in).",
+    "depends_on": [
+     "sprockets"
+    ],
+    "verification": [
+     "Strips and sliders sound, any replaced part torqued."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "replace",
+    "title": "Plan the replacement",
+    "instruction": "If anything failed, fit a new chain (DID 520DMA4K SDH, 114 link non-O-ring) and sprockets as a set, then set the free movement with the chain adjustment guide. A chain that breaks or jumps off can lock the rear wheel.",
+    "depends_on": [
+     "damage"
+    ],
+    "verification": [
+     "Replacement planned or done."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the 20-link lengths, sprocket and slider condition and anything replaced.",
+    "depends_on": [
+     "replace"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-chain-wear-v1-tf250x25",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "chain",
+   "sprockets",
+   "swingarm"
+  ],
+  "title": "Check chain, sprocket and rubbing strip wear",
+  "entry_state": [
+   "Bike clean, on a stand."
+  ],
+  "exit_state": [
+   "Chain, sprockets and sliders measured and inspected, worn parts identified, results recorded."
+  ],
+  "completeness": "Covers damage check, 20-link stretch measurement, sprocket wear and rubbing strip and slider inspection with fastener torques.",
+  "excluded": [
+   "Chain riveting and sprocket fitting"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand that lifts the rear wheel",
+    "size": null
+   },
+   {
+    "name": "Steel rule or vernier",
+    "size": null
+   },
+   {
+    "name": "Weight to tension the chain",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Drive chain",
+    "purpose": "DID 520DMA4K SDH, 114 link non-O-ring, if replacement is needed."
+   },
+   {
+    "name": "Rubbing strips or sliders",
+    "purpose": "If worn."
+   }
+  ],
+  "prerequisites": [
+   "Chain cleaned."
+  ],
+  "critical_stop_conditions": [
+   "Chain over the limit or damaged: do not ride.",
+   "Missing or worn-through slider: the chain will cut the frame or swingarm."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Check chain, sprockets and rubbing strips every 15 operating hours. Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "stand",
+    "title": "Lift the rear wheel",
+    "instruction": "Put the bike on a stand with the rear wheel off the ground and the rear suspension unloaded.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Rear wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "damage",
+    "title": "Look for damage",
+    "instruction": "Turn the wheel slowly and check every link for damaged rollers, loose pins and stiff links. Never try to free a stiff link; it means the chain is finished.",
+    "depends_on": [
+     "stand"
+    ],
+    "verification": [
+     "Whole chain inspected."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "damaged",
+      "label": "Damaged",
+      "next_step": "replace",
+      "condition": "Any damaged roller, loose pin or stiff link."
+     }
+    ]
+   },
+   {
+    "id": "stretch",
+    "title": "Stretch and measure",
+    "instruction": "Hang a moderate weight on the chain to pull it taut. On the straight run, measure from the centre of one pin to the centre of the pin 20 links further on. Measure in several places, because chains wear unevenly. Replace the chain if any length exceeds the limit for your 2025 frame batch (VIN on the frame): 317.5 mm (12.5 in) for frames before VIN CC7868, 320 mm (12.6 in) for frames from VIN CF3825.",
     "depends_on": [
      "damage"
     ],
@@ -867,6 +1069,11 @@
     "manufacturer": "Triumph",
     "model": "TF 450-E",
     "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025
    }
   ],
   "component": "frame",
@@ -1091,6 +1298,241 @@
   ]
  },
  {
+  "id": "bak-triumph-brakes-check-v1-tf250x27-tf450x27",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "brakes",
+   "front_brake",
+   "rear_brake"
+  ],
+  "title": "Check brake fluid, pads and discs",
+  "entry_state": [
+   "Bike on level ground, brakes cool."
+  ],
+  "exit_state": [
+   "Fluid at the marks, pads and discs inside their limits, firm lever and pedal."
+  ],
+  "completeness": "Covers fluid levels and top-up, pad measurement and change, disc thickness and run-out checks and bedding in.",
+  "excluded": [
+   "Brake fluid replacement and bleeding",
+   "Disc replacement",
+   "Caliper rebuild"
+  ],
+  "required_tools": [
+   {
+    "name": "Vernier or pad gauge",
+    "size": null
+   },
+   {
+    "name": "Micrometer for the discs",
+    "size": null
+   },
+   {
+    "name": "Dial gauge",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Soft tool to push pistons back",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Brake fluid",
+    "purpose": "DOT 4 from a sealed container."
+   },
+   {
+    "name": "Brake pads",
+    "purpose": "Full set per wheel when worn."
+   },
+   {
+    "name": "Cable ties",
+    "purpose": "Two new ones for the rear master cylinder cover."
+   }
+  ],
+  "prerequisites": [
+   "Rags over paint: brake fluid strips it."
+  ],
+  "critical_stop_conditions": [
+   "Soft or spongy lever or pedal: do not ride.",
+   "Pad at or below its minimum: replace before riding.",
+   "Disc cracked or out of limits: do not ride.",
+   "Never get fluid, wax or lube on the discs."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Check brake fluid levels, pads and discs after the first operating hour and every 15 operating hours, and before every race. Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "front-level",
+    "title": "Check the front fluid",
+    "instruction": "Turn the bars so the front reservoir is level and look at the sight glass on the reservoir. Fluid must reach the upper level mark.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Front level seen."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-level",
+    "title": "Check the rear fluid",
+    "instruction": "Hold the bike upright on level ground and look at the sight glass on the rear master cylinder. Fluid must reach the top of the glass.",
+    "depends_on": [
+     "front-level"
+    ],
+    "verification": [
+     "Rear level seen."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "low",
+      "label": "A level is low",
+      "next_step": "top-up",
+      "condition": "Below the mark."
+     },
+     {
+      "id": "ok",
+      "label": "Both levels correct",
+      "next_step": "front-pads",
+      "condition": "Both at their marks."
+     }
+    ]
+   },
+   {
+    "id": "top-up",
+    "title": "Top up",
+    "instruction": "Cover painted parts. Front: clean the cap, remove its small fasteners, cap and diaphragm, fill to the upper line with new DOT 4 fluid from a sealed container, refit with the diaphragm seated and tighten the fasteners gently. Rear: remove the two cable ties and the master cylinder cover, clean round the cap, remove the cap with its O-ring and diaphragm, fill to the upper line, refit the cap at 17 N·m (13 lbf·ft) and refit the cover with new cable ties. A clear drop since last time means worn pads or a leak.",
+    "depends_on": [
+     "rear-level"
+    ],
+    "verification": [
+     "Both levels correct, caps sealed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "front-pads",
+    "title": "Measure the front pads",
+    "instruction": "Look into the caliper and measure each pad including its carrier plate. Replace both front pads if either is at or under 3.7 mm (0.15 in).",
+    "depends_on": [
+     "rear-level"
+    ],
+    "verification": [
+     "Front pads measured."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-pads",
+    "title": "Measure the rear pads",
+    "instruction": "Measure the rear pads including carrier plate: the inner pad must be more than 4.5 mm (0.18 in) and the outer pad (with its insulator and shim) more than 6.4 mm (0.25 in).",
+    "depends_on": [
+     "front-pads"
+    ],
+    "verification": [
+     "Rear pads measured."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "pads-worn",
+      "label": "Pads at the limit",
+      "next_step": "pad-change",
+      "condition": "Any pad at or under its minimum."
+     },
+     {
+      "id": "pads-ok",
+      "label": "Pads fine",
+      "next_step": "discs",
+      "condition": "All pads above their minimum."
+     }
+    ]
+   },
+   {
+    "id": "pad-change",
+    "title": "Change the pads",
+    "instruction": "Pads are always changed as a set per wheel. Open the reservoir, push the old pads back to retract the pistons without letting fluid overflow, remove the two R-clips and the retaining pin and take the pads out. Check the anti-rattle spring (rear: arrow pointing forward) and the sliding plate are in place, fit the new pads, the pin and the R-clips the same way round. Pump the lever or pedal until firm, set the fluid level and close the reservoir (rear cap 17 N·m (13 lbf·ft)). Use pads with the correct carrier plate thickness; thin aftermarket backing plates can fall out of the caliper.",
+    "depends_on": [
+     "rear-pads"
+    ],
+    "verification": [
+     "New pads fitted, lever and pedal firm, levels set."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "discs",
+    "title": "Check the discs",
+    "instruction": "Look for cracks and damage, then measure thickness at several points on the braking surface. Front service limit 2.7 mm (0.11 in), rear 3.6 mm (0.14 in). Run-out, measured with a dial gauge, must not exceed 0.182 mm (0.007 in) front and 0.182 mm (0.007 in) rear.",
+    "depends_on": [
+     "rear-pads"
+    ],
+    "verification": [
+     "Both discs measured."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "disc-bad",
+      "label": "Disc out of limits",
+      "next_step": "record-out",
+      "condition": "Cracked, too thin or too much run-out: replace the disc before riding."
+     }
+    ]
+   },
+   {
+    "id": "bed-in",
+    "title": "Bed in new parts",
+    "instruction": "After new pads or discs, ride with care and avoid hard braking until they have bedded in.",
+    "depends_on": [
+     "discs"
+    ],
+    "verification": [
+     "Bedding-in done or not needed."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down fluid levels, pad thicknesses, disc readings and what was replaced.",
+    "depends_on": [
+     "bed-in"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
   "id": "bak-triumph-brake-pedal-v1-tf250x24-tf250x25-tf250x26-tf450rc25-tf450x26-tf250c26-tf450c26-tf250e26-tf450e26",
   "targets": [
    {
@@ -1137,6 +1579,16 @@
     "manufacturer": "Triumph",
     "model": "TF 450-E",
     "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
    }
   ],
   "component": "frame",
@@ -1339,6 +1791,16 @@
     "manufacturer": "Triumph",
     "model": "TF 450-X",
     "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
    }
   ],
   "component": "frame",
@@ -2192,6 +2654,16 @@
     "manufacturer": "Triumph",
     "model": "TF 450-E",
     "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
    }
   ],
   "component": "frame",
@@ -2354,6 +2826,1422 @@
     "instruction": "Note anything found while washing: cracks, leaks, loose parts, worn grips.",
     "depends_on": [
      "run"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-wheels-spokes-v1-tf250x24-tf250x25-tf250x26-tf250x27-tf450rc25-tf450x26-tf450x27-tf250c26-tf450c26-tf250e26-tf450e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-RC Edition",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-E",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "wheels",
+   "front_wheel",
+   "rear_wheel",
+   "tires"
+  ],
+  "title": "Check the spokes, rim run-out and tyre seating",
+  "entry_state": [
+   "Bike cool, on a lift stand."
+  ],
+  "exit_state": [
+   "Every spoke tight at its torque, rims inside the run-out limit, tyre and rim lock correctly seated, recorded."
+  ],
+  "completeness": "Covers spoke inspection, the ring test, tightening spokes in stages to torque, measuring rim run-out, spotting a slipped tyre and refitting the tube and rim lock.",
+  "excluded": [
+   "Spoke replacement and wheel truing or rebuilding",
+   "Tyre fitting technique"
+  ],
+  "required_tools": [
+   {
+    "name": "Lift stand",
+    "size": null
+   },
+   {
+    "name": "Spoke wrench from the tool kit",
+    "size": null
+   },
+   {
+    "name": "Spoke torque wrench",
+    "size": null
+   },
+   {
+    "name": "Dial gauge on a truing stand",
+    "size": null
+   },
+   {
+    "name": "Something to tap the spokes with",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Inner tube",
+    "purpose": "New one if the tyre has slipped on the rim."
+   }
+  ],
+  "prerequisites": [
+   "Bike stable on a lift stand with the wheel off the ground."
+  ],
+  "critical_stop_conditions": [
+   "Damaged or bent spoke: do not ride, have it replaced.",
+   "Spokes cannot be brought to torque or run-out over the limit: the wheel needs rebuilding by a wheel builder.",
+   "Never tighten a spoke nipple more than half a turn at a time."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Spokes and rim run-out are checked after the first operating hour and every 15 operating hours. Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "support",
+    "title": "Lift the wheel",
+    "instruction": "Raise the bike on a lift stand so the wheel turns freely off the ground. Do the same check on both wheels.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Wheel off the ground, bike stable."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "look",
+    "title": "Look at every spoke",
+    "instruction": "Turn the wheel slowly and look for bent or damaged spokes and dents in the rim.",
+    "depends_on": [
+     "support"
+    ],
+    "verification": [
+     "Every spoke seen."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "bent",
+      "label": "Bent or damaged spoke",
+      "next_step": "record-out",
+      "condition": "Do not ride; have the spoke replaced by a specialist and record it."
+     }
+    ]
+   },
+   {
+    "id": "ring",
+    "title": "Ring test",
+    "instruction": "Tap each spoke briefly. A tight spoke gives a clear ringing note; a loose one sounds flat. Mark the loose ones.",
+    "depends_on": [
+     "look"
+    ],
+    "verification": [
+     "Loose spokes marked."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "tighten",
+    "title": "Tighten loose spokes in stages",
+    "instruction": "With the spoke wrench and a spoke torque wrench, tighten each loose nipple to 6 N·m (53 lbf·in), but never more than half a turn (180°) at a time: if it needs more, stop at half a turn and move to the next loose spoke, then come back round. Repeat until every spoke rings.",
+    "depends_on": [
+     "ring"
+    ],
+    "verification": [
+     "All spokes at 6 N·m (53 lbf·in) and ringing."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "runout",
+    "title": "Check rim run-out",
+    "instruction": "After any spoke tightening, check run-out with the tyre off and the wheel on a truing stand (or in the bike without the brake caliper fitted). Measure side-to-side (axial) and up-and-down (radial) run-out with a dial gauge. Limit: 1.8 mm (0.07 in) each way, front and rear.",
+    "depends_on": [
+     "tighten"
+    ],
+    "verification": [
+     "Axial and radial run-out within 1.8 mm (0.07 in)."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "over",
+      "label": "Run-out over the limit",
+      "next_step": "record-out",
+      "condition": "The wheel must be rebuilt by a specialist wheel builder."
+     }
+    ]
+   },
+   {
+    "id": "valve",
+    "title": "Check the tyre has not slipped",
+    "instruction": "Look at the inflation valve: it should point straight at the hub. If it leans, the tyre has slipped on the rim and can pull the valve out.",
+    "depends_on": [
+     "runout"
+    ],
+    "verification": [
+     "Valve straight."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "slipped",
+      "label": "Valve leaning",
+      "next_step": "reseat",
+      "condition": "Tyre has slipped."
+     },
+     {
+      "id": "fine",
+      "label": "Valve straight",
+      "next_step": "pressures",
+      "condition": "Tyre seated."
+     }
+    ]
+   },
+   {
+    "id": "reseat",
+    "title": "Refit the tube and rim lock",
+    "instruction": "Loosen the rim lock, take the tyre off, throw the inner tube away and fit a new one, refit the tyre, position the rim lock and tighten its nut to 12 N·m (9 lbf·ft).",
+    "depends_on": [
+     "valve"
+    ],
+    "verification": [
+     "New tube fitted, rim lock at 12 N·m (9 lbf·ft)."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "pressures",
+    "title": "Set the pressures",
+    "instruction": "Set the cold tyre pressures to the figure for your bike (see the pre-ride check). After new tyres or tubes, check the pressures and the seating again 24 hours later.",
+    "depends_on": [
+     "valve"
+    ],
+    "verification": [
+     "Pressures set cold."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down which spokes needed tightening, the run-out readings and anything replaced or booked in.",
+    "depends_on": [
+     "look"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-bearings-check-v1-tf250x24-tf250x25",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "bearings",
+   "steering",
+   "wheels",
+   "fork"
+  ],
+  "title": "Check the steering head, wheel bearings and fork",
+  "entry_state": [
+   "Bike on level ground, stand available."
+  ],
+  "exit_state": [
+   "Steering head, wheel bearings and fork checked, findings recorded."
+  ],
+  "completeness": "Covers the steering head play check, wheel bearing rock and spin checks and the fork pump and leak check.",
+  "excluded": [
+   "Steering head bearing adjustment and lubrication",
+   "Wheel bearing and seal replacement",
+   "Fork service"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand that lifts either wheel",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Bike stable on its stand."
+  ],
+  "critical_stop_conditions": [
+   "Any steering head or wheel bearing play: do not ride until it is put right.",
+   "Fork leaking or binding: do not ride."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Steering head bearings are checked after the first operating hour and then at every service, more often when racing; wheel bearings every 15 operating hours. Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "front-up",
+    "title": "Lift the front",
+    "instruction": "On level ground, put the bike on a stand with the front wheel off the ground and make sure it cannot tip. Do not rock the wheels hard during these checks: the bike can fall off the stand.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Front wheel off the ground, bike secure."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "steering",
+    "title": "Check the steering head for play",
+    "instruction": "Stand in front of the bike, hold the bottom of both fork outer tubes and try to push them forward and back. Then turn the bars lock to lock: they should move freely.",
+    "depends_on": [
+     "front-up"
+    ],
+    "verification": [
+     "No play felt, steering free."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "play",
+      "label": "Play or tight spots",
+      "next_step": "front-wheel",
+      "condition": "Note it: steering head bearing adjustment is a dealer job and must be done before riding."
+     }
+    ]
+   },
+   {
+    "id": "front-wheel",
+    "title": "Check the front wheel bearings",
+    "instruction": "Stand at the side and gently rock the top of the front wheel from side to side, then spin it. Play in the hub, noise or rough turning means the bearings must be replaced.",
+    "depends_on": [
+     "steering"
+    ],
+    "verification": [
+     "Front wheel bearings checked."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-wheel",
+    "title": "Check the rear wheel bearings",
+    "instruction": "Move the stand so the rear wheel is off the ground and repeat the rock and spin check on the rear wheel.",
+    "depends_on": [
+     "front-wheel"
+    ],
+    "verification": [
+     "Rear wheel bearings checked."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fork",
+    "title": "Check the fork",
+    "instruction": "With the bike back on the ground, hold the bars, apply the front brake and pump the fork up and down several times. It should move smoothly without roughness or excessive stiffness. Check each leg for damage, scratches on the sliding tube and oil leaks.",
+    "depends_on": [
+     "rear-wheel"
+    ],
+    "verification": [
+     "Fork smooth, dry and undamaged."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the result for the steering head, each wheel bearing and the fork, and book any bearing or fork work before the next ride.",
+    "depends_on": [
+     "fork"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-bearings-check-v1-tf250x26-tf250x27-tf450rc25-tf450x26-tf450x27-tf250c26-tf450c26-tf250e26-tf450e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-RC Edition",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-E",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "bearings",
+   "steering",
+   "wheels",
+   "fork"
+  ],
+  "title": "Check the steering head, wheel bearings and fork",
+  "entry_state": [
+   "Bike on level ground, stand available."
+  ],
+  "exit_state": [
+   "Steering head, wheel bearings, seals and fork checked, findings recorded."
+  ],
+  "completeness": "Covers the steering head play check, wheel bearing rock and spin checks, bearing seal inspection and the fork pump and leak check.",
+  "excluded": [
+   "Steering head bearing adjustment and lubrication",
+   "Wheel bearing and seal replacement",
+   "Fork service"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand that lifts either wheel",
+    "size": null
+   }
+  ],
+  "required_parts": [],
+  "prerequisites": [
+   "Bike stable on its stand."
+  ],
+  "critical_stop_conditions": [
+   "Any steering head or wheel bearing play: do not ride until it is put right.",
+   "Fork leaking or binding: do not ride."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Steering head bearings are checked after the first operating hour and then at every service, more often when racing; wheel bearings every 15 operating hours. Write down the date and hours.",
+    "depends_on": [],
+    "verification": [
+     "Date and hours written down."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "front-up",
+    "title": "Lift the front",
+    "instruction": "On level ground, put the bike on a stand with the front wheel off the ground and make sure it cannot tip. Do not rock the wheels hard during these checks: the bike can fall off the stand.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Front wheel off the ground, bike secure."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "steering",
+    "title": "Check the steering head for play",
+    "instruction": "Stand in front of the bike, hold the bottom of both fork outer tubes and try to push them forward and back. Then turn the bars lock to lock: they should move freely.",
+    "depends_on": [
+     "front-up"
+    ],
+    "verification": [
+     "No play felt, steering free."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "play",
+      "label": "Play or tight spots",
+      "next_step": "front-wheel",
+      "condition": "Note it: steering head bearing adjustment is a dealer job and must be done before riding."
+     }
+    ]
+   },
+   {
+    "id": "front-wheel",
+    "title": "Check the front wheel bearings",
+    "instruction": "Stand at the side and gently rock the top of the front wheel from side to side, then spin it. Play in the hub, noise or rough turning means the bearings must be replaced.",
+    "depends_on": [
+     "steering"
+    ],
+    "verification": [
+     "Front wheel bearings checked."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "rear-wheel",
+    "title": "Check the rear wheel bearings",
+    "instruction": "Move the stand so the rear wheel is off the ground and repeat the rock and spin check on the rear wheel.",
+    "depends_on": [
+     "front-wheel"
+    ],
+    "verification": [
+     "Rear wheel bearings checked."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "seals",
+    "title": "Check the wheel bearing seals",
+    "instruction": "Look at the bearing seals on both wheels for damage or wear; worn seals are replaced.",
+    "depends_on": [
+     "rear-wheel"
+    ],
+    "verification": [
+     "Seals checked."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "fork",
+    "title": "Check the fork",
+    "instruction": "With the bike back on the ground, hold the bars, apply the front brake and pump the fork up and down several times. It should move smoothly without roughness or excessive stiffness. Check each leg for damage, scratches on the sliding tube and oil leaks.",
+    "depends_on": [
+     "seals"
+    ],
+    "verification": [
+     "Fork smooth, dry and undamaged."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the result for the steering head, each wheel bearing and the fork, and book any bearing or fork work before the next ride.",
+    "depends_on": [
+     "fork"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-front-wheel-v1-tf250x24-tf250x25-tf250x26-tf250x27-tf450rc25-tf450x26-tf450x27-tf250c26-tf450c26-tf250e26-tf450e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-RC Edition",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-E",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "front_wheel",
+   "wheels",
+   "front_brake",
+   "fork"
+  ],
+  "title": "Remove and refit the front wheel",
+  "entry_state": [
+   "Bike cool, on a lift stand."
+  ],
+  "exit_state": [
+   "Front wheel refitted with the spindle and clamps at torque, fork free, brake working."
+  ],
+  "completeness": "Covers retracting the pads, removing the spindle and wheel, greasing the spacers and spindle, refitting, the torque order for the nut and clamp bolts and the brake check.",
+  "excluded": [
+   "Tyre, tube, bearing or disc replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Lift stand",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Soft tool to push the pads back",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "High temperature grease",
+    "purpose": "Spacer faces and spindle."
+   }
+  ],
+  "prerequisites": [
+   "Bike stable on a lift stand with the front wheel off the ground."
+  ],
+  "critical_stop_conditions": [
+   "Brake lever soft after refitting: pump it firm before moving the bike.",
+   "Never lever against the disc, caliper or pad lining."
+  ],
+  "steps": [
+   {
+    "id": "support",
+    "title": "Lift the front",
+    "instruction": "Raise the bike on a lift stand so the front wheel is off the ground. Keep brake fluid off the bodywork.",
+    "depends_on": [],
+    "verification": [
+     "Front wheel off the ground."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "pads",
+    "title": "Push the pads back",
+    "instruction": "With a soft tool, gently push the brake pads into the caliper to retract the pistons. Never lever against the disc or the pad lining.",
+    "depends_on": [
+     "support"
+    ],
+    "verification": [
+     "Pads retracted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "spindle-out",
+    "title": "Remove the spindle and wheel",
+    "instruction": "Remove the spindle nut, loosen the four spindle clamp bolts, support the wheel and pull the spindle out from the right side. Lift the wheel out and take the two spacers out of the hub.",
+    "depends_on": [
+     "pads"
+    ],
+    "verification": [
+     "Wheel and spacers out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "grease",
+    "title": "Grease and fit the spacers",
+    "instruction": "Put a thin layer of high temperature grease on the spacer faces that touch the bearing seals and fit both spacers to the hub.",
+    "depends_on": [
+     "spindle-out"
+    ],
+    "verification": [
+     "Spacers greased and fitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wheel-in",
+    "title": "Fit the wheel and spindle",
+    "instruction": "Put the wheel between the fork legs with the disc inside the caliper. Grease the outside of the spindle thinly, but not the face that bears on the spacer, and slide it in.",
+    "depends_on": [
+     "grease"
+    ],
+    "verification": [
+     "Disc in the caliper, spindle through."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "nut",
+    "title": "Tighten the spindle nut",
+    "instruction": "Fit the spindle nut and, holding the spindle, tighten it to 60 N·m (44 lbf·ft).",
+    "depends_on": [
+     "wheel-in"
+    ],
+    "verification": [
+     "Nut at 60 N·m (44 lbf·ft)."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "float",
+    "title": "Let the fork settle",
+    "instruction": "Lower the bike to the ground and pump the fork a few times so the left leg settles in its natural position on the spindle.",
+    "depends_on": [
+     "nut"
+    ],
+    "verification": [
+     "Fork pumped."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "clamps",
+    "title": "Tighten the clamp bolts in order",
+    "instruction": "Tighten the outer spindle clamp bolts to 19 N·m (14 lbf·ft), then the inner ones to 19 N·m (14 lbf·ft), then the outer ones again to 19 N·m (14 lbf·ft).",
+    "depends_on": [
+     "float"
+    ],
+    "verification": [
+     "All four clamp bolts at 19 N·m (14 lbf·ft) in the right order."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "brake",
+    "title": "Clean the disc and check the brake",
+    "instruction": "Clean and degrease the disc, pump the lever until firm and check the front brake works and the wheel turns freely.",
+    "depends_on": [
+     "clamps"
+    ],
+    "verification": [
+     "Brake firm, wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the date, hours and why the wheel was removed.",
+    "depends_on": [
+     "brake"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-rear-wheel-v1-tf250x24-tf250x25-tf250x26-tf250x27-tf450rc25-tf450x26-tf450x27-tf250c26-tf450c26-tf250e26-tf450e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-RC Edition",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-E",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "rear_wheel",
+   "wheels",
+   "rear_brake",
+   "chain"
+  ],
+  "title": "Remove and refit the rear wheel",
+  "entry_state": [
+   "Bike cool, on a lift stand."
+  ],
+  "exit_state": [
+   "Rear wheel refitted, chain free movement set, spindle at torque, brake working."
+  ],
+  "completeness": "Covers retracting the pads, removing the spindle, chain and wheel, greasing the spacers and spindle, refitting with the adjuster blocks, setting the chain and torquing the spindle.",
+  "excluded": [
+   "Tyre, tube, bearing, sprocket or disc replacement"
+  ],
+  "required_tools": [
+   {
+    "name": "Lift stand",
+    "size": null
+   },
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Soft tool to push the pads back",
+    "size": null
+   },
+   {
+    "name": "Ruler",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "High temperature grease",
+    "purpose": "Spacer faces and spindle."
+   }
+  ],
+  "prerequisites": [
+   "Bike stable on a lift stand with the rear wheel off the ground."
+  ],
+  "critical_stop_conditions": [
+   "Brake pedal soft after refitting: pump it firm before moving the bike.",
+   "Never ride with the spindle not at its torque."
+  ],
+  "steps": [
+   {
+    "id": "support",
+    "title": "Lift the rear",
+    "instruction": "Raise the bike on a lift stand so the rear wheel is off the ground. Keep brake fluid off the bodywork.",
+    "depends_on": [],
+    "verification": [
+     "Rear wheel off the ground."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "pads",
+    "title": "Push the pads back",
+    "instruction": "With a soft tool, gently push the brake pads into the caliper to retract the pistons.",
+    "depends_on": [
+     "support"
+    ],
+    "verification": [
+     "Pads retracted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "nut-off",
+    "title": "Remove the nut and adjuster block",
+    "instruction": "Remove the spindle nut and washer and take off the chain adjuster block on that side.",
+    "depends_on": [
+     "pads"
+    ],
+    "verification": [
+     "Nut, washer and block off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "chain-off",
+    "title": "Take the chain off",
+    "instruction": "Push the spindle through just far enough to let the wheel move forward, push the wheel fully forward and lift the chain off the rear sprocket.",
+    "depends_on": [
+     "nut-off"
+    ],
+    "verification": [
+     "Chain off the sprocket."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wheel-out",
+    "title": "Remove the wheel",
+    "instruction": "Support the wheel, pull out the spindle with its adjuster block and lift the wheel out. Take the two spacers out of the hub.",
+    "depends_on": [
+     "chain-off"
+    ],
+    "verification": [
+     "Wheel and spacers out."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "grease",
+    "title": "Grease and fit the spacers",
+    "instruction": "Put a thin layer of high temperature grease on the spacer faces that touch the bearing seals and fit both spacers.",
+    "depends_on": [
+     "wheel-out"
+    ],
+    "verification": [
+     "Spacers greased and fitted."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "wheel-in",
+    "title": "Fit the wheel",
+    "instruction": "Put the wheel in the swingarm with the disc inside the caliper. Grease the outside of the spindle thinly, but not the face that bears on the spacer. Fit the adjuster block and spindle, put the chain on the sprocket, then fit the other adjuster block, washer and nut without tightening. Make sure both adjuster blocks sit up against the adjuster screws.",
+    "depends_on": [
+     "grease"
+    ],
+    "verification": [
+     "Wheel in, chain on, nut loose, blocks against the screws."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "chain",
+    "title": "Set the chain",
+    "instruction": "Check the chain free movement (55-58 mm (2.17-2.28 in) at the tightest point) and adjust if needed, with the same adjuster mark on both sides (see the chain guide).",
+    "depends_on": [
+     "wheel-in"
+    ],
+    "verification": [
+     "Chain free movement correct, marks equal."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "torque",
+    "title": "Tighten the spindle",
+    "instruction": "Tighten the rear spindle nut to 120 N·m (89 lbf·ft).",
+    "depends_on": [
+     "chain"
+    ],
+    "verification": [
+     "Spindle at 120 N·m (89 lbf·ft)."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "brake",
+    "title": "Check the brake",
+    "instruction": "Pump the pedal until firm and check the rear brake works and the wheel turns freely.",
+    "depends_on": [
+     "torque"
+    ],
+    "verification": [
+     "Brake firm, wheel free."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the date, hours and why the wheel was removed.",
+    "depends_on": [
+     "brake"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-controls-setup-v1-tf250x24-tf250x25-tf250x26-tf250x27-tf450rc25-tf450x26-tf450x27-tf250c26-tf450c26-tf250e26-tf450e26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2024
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-RC Edition",
+    "model_year": 2025
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-X",
+    "model_year": 2027
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-E",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-E",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "handlebar",
+   "controls",
+   "shift_mechanism"
+  ],
+  "title": "Set up the handlebar, levers and shift pedal",
+  "entry_state": [
+   "Bike on a stand, engine off."
+  ],
+  "exit_state": [
+   "Bar height and reach, lever span and shift pedal set for the rider, fasteners at torque, throttle checked at full lock."
+  ],
+  "completeness": "Covers handlebar height, moving the bar to the forward reach position, brake and clutch lever span and the shift pedal position.",
+  "excluded": [
+   "Throttle cable routing and free play adjustment (see the throttle guide)"
+  ],
+  "required_tools": [
+   {
+    "name": "Torque wrench",
+    "size": null
+   },
+   {
+    "name": "Hex keys and sockets",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Thread locker",
+    "purpose": "Lower bar clamp bolts when the clamp is turned (ThreeBond 1324 or equivalent)."
+   }
+  ],
+  "prerequisites": [
+   "Bike stable on a stand."
+  ],
+  "critical_stop_conditions": [
+   "Engine speed changes when the bars are turned: correct the throttle cables before riding.",
+   "Shift pedal touching anything through its travel: reposition it.",
+   "Never adjust controls while riding; try new settings in a safe area first."
+  ],
+  "steps": [
+   {
+    "id": "record",
+    "title": "Record the starting point",
+    "instruction": "Write down the bar position (mark on the bar against the clamp), lever span settings and shift pedal position, so you can go back.",
+    "depends_on": [],
+    "verification": [
+     "Current settings recorded."
+    ],
+    "record_required": true
+   },
+   {
+    "id": "pad",
+    "title": "Remove the bar pad",
+    "instruction": "Undo the hook-and-loop strips at the back of the bar pad, release the cover and lift the pad off.",
+    "depends_on": [
+     "record"
+    ],
+    "verification": [
+     "Bar pad off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "height",
+    "title": "Set the bar angle",
+    "instruction": "Loosen the four upper clamp fasteners until the bar turns, rotate it to the angle you want within the degree marks on the bar, then tighten the four fasteners to 25 N·m (18 lbf·ft) in the Triumph clamp tightening sequence.",
+    "depends_on": [
+     "pad"
+    ],
+    "verification": [
+     "Bar set, clamp at 25 N·m (18 lbf·ft)."
+    ],
+    "record_required": false,
+    "branches": [
+     {
+      "id": "reach",
+      "label": "Also want the forward reach",
+      "next_step": "reach",
+      "condition": "The bar comes from the factory in the rear position; it can be moved 9 mm (0.35 in) forward."
+     },
+     {
+      "id": "no-reach",
+      "label": "Keep the reach",
+      "next_step": "throttle",
+      "condition": "Reach unchanged."
+     }
+    ]
+   },
+   {
+    "id": "reach",
+    "title": "Move the bar forward",
+    "instruction": "Note the bar alignment mark, remove the four fasteners and the upper clamp and lift the bar out, keeping the brake and clutch master cylinders upright (a helper helps). Hold the nuts under the lower clamp and remove its bolts, refit the rubber bushes if they came out, turn the lower clamp round 180°, clean the bolt threads and old thread locker from the nuts, apply thread locker and tighten the riser bolts to 40 N·m (30 lbf·ft) while holding the nuts. Refit the bar and upper clamp, line up the alignment mark and tighten the four fasteners to 25 N·m (18 lbf·ft) in the Triumph clamp tightening sequence for the forward position.",
+    "depends_on": [
+     "height"
+    ],
+    "verification": [
+     "Lower clamp turned, risers at 40 N·m (30 lbf·ft), clamp at 25 N·m (18 lbf·ft)."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "throttle",
+    "title": "Check the throttle at full lock",
+    "instruction": "Refit the bar pad. Start the engine and, at idle, turn the bars to full left and full right lock: the idle speed must not change. If it does, correct the throttle cable routing and free play before riding.",
+    "depends_on": [
+     "height"
+    ],
+    "verification": [
+     "Idle steady at both locks."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "levers",
+    "title": "Set the lever span",
+    "instruction": "Turn the span adjuster on the brake lever and on the clutch lever to bring each lever to a comfortable reach; fully counterclockwise gives the shortest reach. Then lift the front wheel, check it turns without the brake dragging, apply and release the brake and check again.",
+    "depends_on": [
+     "throttle"
+    ],
+    "verification": [
+     "Both levers set, front brake not dragging."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "pedal",
+    "title": "Set the shift pedal",
+    "instruction": "Stock position is with the mark on the pedal lined up with the mark on the selector shaft. To change it, remove the pinch bolt and the pedal, clean both splines, line the splines up so the pedal sits where you want it, refit it and tighten the pinch bolt to 10 N·m (89 lbf·in). Work the pedal up and down: it must not touch anything.",
+    "depends_on": [
+     "levers"
+    ],
+    "verification": [
+     "Pedal set, pinch bolt at 10 N·m (89 lbf·in), free through its travel."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the new bar, lever and pedal settings, and ride them in a safe area first.",
+    "depends_on": [
+     "pedal"
+    ],
+    "verification": [
+     "Recorded."
+    ],
+    "record_required": true
+   }
+  ]
+ },
+ {
+  "id": "bak-triumph-side-stand-v1-tf250c26-tf450c26",
+  "targets": [
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 250-C",
+    "model_year": 2026
+   },
+   {
+    "manufacturer": "Triumph",
+    "model": "TF 450-C",
+    "model_year": 2026
+   }
+  ],
+  "component": "frame",
+  "affected_components": [
+   "frame"
+  ],
+  "title": "Clean and grease the side stand",
+  "entry_state": [
+   "Bike raised and supported, side stand up."
+  ],
+  "exit_state": [
+   "Side stand clean, greased, new split pin fitted, spring hooked on and returning the stand fully."
+  ],
+  "completeness": "Covers removing the spring and stand, cleaning and inspecting, greasing the friction and pivot surfaces and refitting with a new split pin.",
+  "excluded": [
+   "Side stand bracket or frame repair"
+  ],
+  "required_tools": [
+   {
+    "name": "Stand that lifts the bike",
+    "size": null
+   },
+   {
+    "name": "Pliers",
+    "size": null
+   },
+   {
+    "name": "Eye protection",
+    "size": null
+   }
+  ],
+  "required_parts": [
+   {
+    "name": "Split pin",
+    "purpose": "New one every time."
+   },
+   {
+    "name": "General purpose grease",
+    "purpose": "For example Triumph Performance RG2 (NLGI 2)."
+   }
+  ],
+  "prerequisites": [
+   "Bike raised and supported so it cannot fall."
+  ],
+  "critical_stop_conditions": [
+   "The spring is under tension: wear eye protection and release it slowly.",
+   "Stand does not snap fully up: do not ride."
+  ],
+  "steps": [
+   {
+    "id": "support",
+    "title": "Raise the bike",
+    "instruction": "Raise and support the bike so it cannot fall, with the side stand up.",
+    "depends_on": [],
+    "verification": [
+     "Bike secure, stand up."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "spring-off",
+    "title": "Unhook the spring",
+    "instruction": "Wearing eye protection, unhook the spring from its upper mount and take it off the spring bracket, letting it go slowly.",
+    "depends_on": [
+     "support"
+    ],
+    "verification": [
+     "Spring off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "stand-off",
+    "title": "Remove the stand",
+    "instruction": "Remove and throw away the split pin, collect the washer, pull out the pivot pin and take the stand off.",
+    "depends_on": [
+     "spring-off"
+    ],
+    "verification": [
+     "Stand off."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "clean",
+    "title": "Clean and inspect",
+    "instruction": "Clean all old grease and dirt off the friction and pivot surfaces of the stand, the bracket and the pivot pin. Replace any part that is damaged or badly worn.",
+    "depends_on": [
+     "stand-off"
+    ],
+    "verification": [
+     "Parts clean and sound."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "grease",
+    "title": "Grease and refit",
+    "instruction": "Put a thin layer of general purpose grease on the friction and pivot surfaces of the stand, bracket and pivot pin. Line the stand up with the bracket, fit the pivot pin, the washer and a new split pin and fold its ends over.",
+    "depends_on": [
+     "clean"
+    ],
+    "verification": [
+     "Stand refitted with a new split pin."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "spring-on",
+    "title": "Refit the spring",
+    "instruction": "With the stand up, hook the spring on the spring bracket and then onto the upper mount, wearing eye protection. Check the stand swings freely and snaps fully up.",
+    "depends_on": [
+     "grease"
+    ],
+    "verification": [
+     "Stand returns fully."
+    ],
+    "record_required": false
+   },
+   {
+    "id": "record-out",
+    "title": "Record",
+    "instruction": "Write down the date, hours and anything replaced.",
+    "depends_on": [
+     "spring-on"
     ],
     "verification": [
      "Recorded."
