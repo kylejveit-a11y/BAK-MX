@@ -184,3 +184,76 @@ TE 150 2025-2027 torque values with no label ("NOLABEL") were not stored.
 ## What this review is not
 
 Rows were machine-read from the document's text layer with the checks above. They were not each compared by eye against a rendered page.
+
+## Second pass (validity fixes)
+
+`validity.py` was changed after the first pass so that it understands "All standard EXC/XC-W models, All ERZBERGRODEO …",
+"All except HARDENDURO models" / "All HARDENDURO models", "all except PRO models" / "all PRO models", "All standard models except 250 US" /
+"TE 300 PRO", and KTM's "XC ‑ W" / "XCF ‑ W" spacing. The 27 affected manuals were downloaded again and re-read with the same pipeline:
+every KTM 150 / 250 / 300 XC-W and 450 XCF-W manual of this pass (21) and the Husqvarna TE manuals for 2025-2027 (25_3402806, 25_3402807,
+26_3402892, 26_3402893, 27_3402950, 27_3402951). Each file matched the host's Content-Length and the SHA-256 already recorded in `load/`
+(27 of 27), and was deleted afterwards. Nothing else changed: `load/` and `stage/` are as they were.
+
+| Path | What |
+|---|---|
+| `stage2/<document>/`, `stage2/<document>.report.json`, `stage2/<document>.dampers` | `build_from_index.py` and `check_dampers.py` output for the 27 manuals |
+| `load2/<i>.json` | 24 replacement payloads, numbered like `load/<i>.json` for the same bike-year; full payload, same JSON shape, `want` recomputed as `finalize_payloads.py` does |
+| `load2.summary.json` | index, bike, old n, new n, rows added by section |
+
+### Rule for load2
+
+Each new payload was compared row by row with `load/<i>.json` for the same bike-year (same document, same `sha`). A payload was written only
+if every old row is still present with the same path and value, so a load2 payload only adds rows. Bike-years with no new rows were not
+written (KTM 150 XC-W 2025-2027, 450 XCF-W 2025-2027, Husqvarna TE 150 2025-2027).
+
+### What was recovered (194 rows over 24 bike-years)
+
+| i | Bike-year | old n → new n | Added |
+|---|---|---|---|
+| 0, 6, 13, 21, 31 | KTM 150 XC-W 2020, 2021, 2022, 2023, 2024 | +2 each | Secondary ratio 13:50 ("150 XC‑W (TPI) US"), nut pull switch (0.4 Nm 2020-2021, 0.8 Nm 2022-2024) |
+| 1, 2 | KTM 250 / 300 XC-W 2020 | 236 → 256 | Fork 14 (WP XPLOR 5348, 14.18.8T.63, compression and rebound 18/15/12 clicks, spring rates, length, oil); brake-disc wear limit 2.5 / 3.5 mm; top steering stem, top and bottom triple clamp; pull switch |
+| 7, 8 | KTM 250 / 300 XC-W 2021 | 245 → 252 | Brake-disc wear limits, top steering stem, top and bottom triple clamp, pull switch 0.8 Nm, side-stand screw M8x26. No fork (see below) |
+| 14, 15, 22, 23 | KTM 250 / 300 XC-W 2022, 2023 | +2 each | Pull switch 0.8 Nm, side-stand screw M8x26 33 Nm |
+| 32, 33 | KTM 250 / 300 XC-W 2024 | 278 → 279 | Pull switch 0.8 Nm |
+| 46, 47 | KTM 250 / 300 XC-W 2025 | 259 → 261 | Tires (front 80/100 - 21 M/C 51M M+S TT, rear 140/80 - 18 M/C 64M M+S TT, "All XC-W standard models and XC-W HARDENDURO") |
+| 50, 51 | Husqvarna TE 250 / TE 300 2025 | 245 → 267 | Fork 15 (XACT, A390C163X402000, compression 17/15/7, rebound 19/17/9 clicks, spring rates, length, oil 175 / 390 ml, "all except PRO models"); transmission and gear ratios 7 |
+| 55, 56 | KTM 250 / 300 XC-W 2026 | 240 → 256 | Fork 15 (WP XPLOR CC, A490C163Z402000, 17/15/7 and 19/17/9 clicks, oil 175 / 350 ml, "All except HARDENDURO models"); schedule "Carry out fork service" |
+| 59 | Husqvarna TE 250 2026 | 268 → 271 | Tires ("All US models": 80/100 - 21 Dunlop GEOMAX AT82F, 110/100 - 18 AT82); weight without fuel 106.8 kg ("All AR and US models except TE PRO 300") |
+| 60 | Husqvarna TE 300 2026 | 253 → 272 | Fork 15 (WP XACT CC, A390C163Z402000, "All standard models except 250 US"); tires and weight as TE 250; schedule "Carry out fork service" |
+| 68 | Husqvarna TE 300 2027 | 252 → 270 | Fork 15 (as 2026); tires; weight 106.8 kg |
+
+By section: Fork 118 (48 of them damper clicks), chassis torques 33, chassis 16, engine 14, tires 10, service schedule 3.
+
+Checks: every new fork value was compared with the rendered text of its page; each comes from the section headed for the standard model
+("22.7.1 All standard EXC/XC-W models, All ERZBERGRODEO"; "Technical data - fork (all except PRO models)"; "(All except HARDENDURO models)";
+"(All standard models except 250 US)"), never from the Six Days, Hardenduro, PRO or "TE 250 US" sections printed next to it. `check_dampers.py`
+confirmed every new fork compression and rebound triple in the adjustment section of the same manual; the groups it withholds are the same as in
+the first pass (shock high-speed compression on TE 250 / TE 300 2025, KTM 250 / 300 XC-W 2026-2027, TE 250 / TE 300 2026, TE 300 2027), so those
+stay out. The non-fork additions were also read against their pages (each carries an XC-W, US or standard-model note). Every load2 payload's
+`want` was recomputed from its rows and its `sha` equals the one in `load/`.
+
+### Not written to load2 (an old row would change)
+
+- **KTM 450 XCF-W 2023 (i 24)** and **2024 (i 34)**: the first pass kept rows whose label still carried the unread note, e.g.
+  "Chassis / Final drive (XCF ‑ W)". With the note now understood the same values come out without it ("Chassis / Final drive"), so the old
+  path disappears. Values are unchanged. 2023: total fuel tank capacity 8.5 l, street tire pressure front 2.0 bar, intake air temperature
+  sensor screw 2.7 Nm, final drive 14:48, weight without fuel 109.5 kg, schedule "Check the inlet membrane." and "Clean the spark arrestor."
+  (7 paths renamed, nothing new). 2024: final drive 13:52, weight without fuel 107.4 kg, fuel vapor retention system lock screw 5 Nm
+  (3 renamed) plus one new row (combination switch screw 2 Nm). Loading these would need the old paths removed or the loader told to
+  replace them.
+- **KTM 250 / 300 XC-W 2027 (i 64, 65)**: 15 fork rows recovered, but the old row "Chassis tightening torques / Screw-in nozzle, cooling system
+  (M24x1.5)" = "7.5 Nm; (All except HARDENDURO models)" is no longer produced. The page (PDF 182) shows that the note belongs to the next row
+  (Spoke nipple, front wheel), not to the nozzle; with the note now recognised the reader treats the block as per-variant and stores neither.
+  The value already in `load/64.json` and `load/65.json` carries that stray note in its text; the nozzle torque itself is 7.5 Nm.
+
+### Still missing
+
+- **KTM 250 / 300 XC-W 2021 fork**: the 2021 manual (21_3214220, PDF 166) labels each fork row "(All Standard and Six Days models)", with a
+  separate ERZBERGRODEO block. `validity.py` rejects the note because it names Six Days (and "Standard" is capitalised), so the standard fork
+  (WP XPLOR 5548, 14.18.8T.64, 18/15/12 clicks) is still not loaded.
+- **Tires** for KTM 250 / 300 XC-W 2020-2024 and 2026-2027 and 450 XCF-W 2023-2024 are still dropped as printed two ways for one bike.
+  The tables carry readable notes ("All XC‑W models", "XCF‑W"), so this is the tire-table reader putting two rows on the bike, not a validity note.
+- Fork rebound damping on KTM 150 / 250 / 300 XC-W 2022 (two values), fuse rows 2020-2023, the 2027 bottom triple clamp screw, and the shock
+  damper groups listed above are unchanged from the first pass.
+- Notes still not understood in these manuals, each dropping only its own rows: "All special models", "EXC ‑ F EU, XCF ‑ W" and other
+  EXC-F / XW-F combinations (450 XCF-W 2023-2024), "All except XW-F", "All EXC F models", "All BR-models", "All EXC-EU models", "125 EU/ 150 US".
