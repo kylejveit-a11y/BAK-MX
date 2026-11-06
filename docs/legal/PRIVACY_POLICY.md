@@ -1,6 +1,6 @@
 # BAK MX Privacy Policy
 
-Effective date: October 23, 2026
+Effective date: November 6, 2026
 
 BAK MX is operated by Kyle Veit, Tarpon Springs, Florida, USA ("BAK MX", "we", "us"). This policy explains what we collect
 when you use the BAK MX iPhone app and the website at bakmx.com, how we use it, and the choices you have.
@@ -13,9 +13,10 @@ when you use the BAK MX iPhone app and the website at bakmx.com, how we use it, 
 sheet; suspension, gearing, tire and rider settings you enter (including weight in riding gear and height if you add them);
 service history and setup log entries (changes tried, results, tracks, notes).
 
-**Photos and files you add.** Pictures of your bikes, photos in posts, photos you send to Ask BAK, your profile picture, and any
-owner's manual you upload for your own bike. They are stored privately and shown only where you put them: post photos and your
-profile picture are visible to other riders; bike photos, chat photos and your manuals stay private to you.
+**Photos, clips and files you add.** Pictures of your bikes, photos and video clips in posts, photos you send to Ask BAK,
+photos you Action edit, your profile picture, and any owner's manual you upload for your own bike. They are stored privately and
+shown only where you put them: post photos, post clips and your profile picture are visible to other riders; bike photos, chat
+photos, your edits until you post them, and your manuals stay private to you.
 
 **Ask BAK conversations.** Your questions, the answers, and a record of each request (the bike details and published
 specifications used to answer, the AI model and timing) so answers can be checked and improved. We also log specifications
@@ -45,13 +46,15 @@ improve answers; and to contact you about your account.
 Ask BAK builds answers with its own bike data, tuning rules and safety checks, and uses a third-party language model
 (currently OpenAI) to write the wording. The app asks your permission before your first question. We share only what an
 answer needs (your question, the conversation, any photo you attach, your bike details and setup log, and relevant manual
-pages you uploaded), never your email address, password or payment details. That data is not used to train the provider's
-models.
+pages you uploaded), never your email address, password or payment details. When you choose to Action edit a photo, that photo
+is sent to OpenAI to make the edit; your original is kept and the edit is saved as a new photo in your account. Ask BAK can
+suggest changes in the app (adding a bike, an RSVP, an event, a post draft); nothing happens until you tap Apply, and posts wait
+for you to tap Post. That data is not used to train the provider's models.
 
 ## Who we share it with
 
 Service providers that run BAK MX for us, only as needed: Supabase (database, file storage and sign-in), Vercel (hosting),
-OpenAI (writing Ask BAK answers), RevenueCat and Apple (App Store purchases) and Stripe (web purchases). Other riders see what
+OpenAI (writing Ask BAK answers and making photo edits you ask for), RevenueCat and Apple (App Store purchases) and Stripe (web purchases). Other riders see what
 you post in the community (profile, posts, comments, events) and the messages you send them. We may disclose information when
 the law requires it or to protect riders and the service.
 

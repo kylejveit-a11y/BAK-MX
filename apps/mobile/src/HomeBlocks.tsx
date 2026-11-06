@@ -42,8 +42,9 @@ type Layout={id:HomeBlock;on:boolean}[];
 const DEFAULT_LAYOUT:Layout=HOME_BLOCKS.map(b=>({id:b.id,on:true}));
 /** Saved order, with any block added in a later version appended (on) so riders always see new things once. */
 export function useHomeLayout(account:string){
- const [layout,setLayout]=useState<Layout>(()=>{const saved=readProgress<Layout|null>(account,'home-layout',null);if(!saved)return DEFAULT_LAYOUT;const known=saved.filter(b=>HOME_BLOCKS.some(h=>h.id===b.id));const out=[...known];DEFAULT_LAYOUT.forEach((d,i)=>{if(out.some(k=>k.id===d.id))return;const prev=DEFAULT_LAYOUT[i-1],at=prev?out.findIndex(k=>k.id===prev.id):-1;out.splice(at+1,0,d);});return out;});
- const save=(next:Layout)=>{setLayout(next);try{writeProgress(account,'home-layout',next);}catch{}};
+ const [layout,setLayout]=useState<Layout>(()=>(()=>{const saved=readProgress<Layout|null>(account,'home-layout',null);if(!saved)return DEFAULT_LAYOUT;const known=saved.filter(b=>HOME_BLOCKS.some(h=>h.id===b.id));const out=[...known];DEFAULT_LAYOUT.forEach((d,i)=>{if(out.some(k=>k.id===d.id))return;const prev=DEFAULT_LAYOUT[i-1],at=prev?out.findIndex(k=>k.id===prev.id):-1;out.splice(at+1,0,d);});return out;})().map(b=>b.id==='tools'?{...b,on:true}:b));
+ // Shortcuts is the way into Messages, Workshop, Specs and the logs, so it always stays on.
+ const save=(next:Layout)=>{next=next.map(b=>b.id==='tools'?{...b,on:true}:b);setLayout(next);try{writeProgress(account,'home-layout',next);}catch{}};
  return {layout,save,reset:()=>save(DEFAULT_LAYOUT)};
 }
 
@@ -63,7 +64,7 @@ export function HomeEditor({visible,layout,onChange,onReset,onClose}:{visible:bo
      <View style={{flex:1,gap:2}}><Text style={{color:b.on?colors.text:'#7d8593',fontSize:16,fontWeight:'700'}}>{meta.label}</Text><Text style={{color:colors.muted,fontSize:12.5}}>{meta.detail}</Text></View>
      {arrow('chevronUp','Move up',i===0,()=>move(i,-1))}
      {arrow('chevronDown','Move down',i===layout.length-1,()=>move(i,1))}
-     <Switch value={b.on} onValueChange={v=>onChange(layout.map(x=>x.id===b.id?{...x,on:v}:x))} trackColor={{true:colors.primary,false:'#2a2f39'}} accessibilityLabel={`Show ${meta.label}`}/>
+     {b.id==='tools'?<Text style={{color:colors.muted,fontSize:12.5,width:51,textAlign:'center'}}>Always on</Text>:<Switch value={b.on} onValueChange={v=>onChange(layout.map(x=>x.id===b.id?{...x,on:v}:x))} trackColor={{true:colors.primary,false:'#2a2f39'}} accessibilityLabel={`Show ${meta.label}`}/>}
     </View>;})}
     <Pressable accessibilityRole="button" onPress={onReset} style={{paddingVertical:18}}><Text style={{color:colors.muted,fontSize:15}}>Reset to the standard layout</Text></Pressable>
    </ScrollView>

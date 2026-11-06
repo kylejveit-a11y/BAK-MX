@@ -26,8 +26,8 @@ export function PlansCard({bare=false}:{bare?:boolean}){
  return <Wrap style={bare?{gap:12}:undefined}>
   {!bare&&<Eyebrow>ASK BAK PLAN</Eyebrow>}
   {!usage?<Copy>Checking your plan…</Copy>:<>
-   <View style={{flexDirection:'row',alignItems:'baseline',gap:10}}><Text style={{color:colors.text,fontSize:24,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.6}}>{TIER_LABEL[tier]}</Text>{usage.access_mode==='beta'&&<Text style={{color:'#9aa2ae',fontSize:12,fontWeight:'800',letterSpacing:1.2}}>BETA</Text>}</View>
-   <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>{usage.access_mode==='beta'?`Everyone gets ${usage.daily_limit} questions a day during the beta.`:TIER_BLURB[tier]}</Text>
+   <View style={{flexDirection:'row',alignItems:'baseline',gap:10}}><Text style={{color:colors.text,fontSize:24,fontWeight:'900',fontStyle:'italic',letterSpacing:-0.6}}>{TIER_LABEL[tier]}</Text>{usage.access_mode==='beta'&&<Text style={{color:'#9aa2ae',fontSize:12,fontWeight:'800',letterSpacing:1.2}}>LAUNCH OFFER</Text>}</View>
+   <Text style={{color:colors.muted,fontSize:14,lineHeight:20}}>{usage.access_mode==='beta'?`Launch offer: every rider gets ${usage.daily_limit} questions a day for now.`:TIER_BLURB[tier]}</Text>
    <View style={{gap:8,paddingTop:2}}>
     {usage.unlimited?line('Questions','Unlimited'):usage.daily_limit>0&&<>{line('Used today',`${usage.used_today} of ${usage.daily_limit}`)}{meter(usage.used_today,usage.daily_limit)}</>}
     {(tier==='free'||usage.credits>0)&&line(tier==='free'?'Extra questions':'Credits',String(usage.credits??0))}

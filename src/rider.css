@@ -286,3 +286,5 @@
 .pe-style:focus-visible{outline:2px solid var(--accent,#c8a46a)}
 .pe-note{margin:0;font-size:13px}.pe-buy{display:grid;gap:8px}.pe-buy p{margin:0}.pe-packs,.pe-actions{display:flex;gap:10px;flex-wrap:wrap}
 @media (max-width:560px){.pe-compare.two{grid-template-columns:1fr}}
+.pe-consent{display:grid;gap:6px;padding:14px;border:1px solid rgba(255,255,255,.12);border-radius:12px}.pe-consent p{margin:0}
+.post-photos a{position:relative}.post-edited{position:absolute;left:8px;top:8px;background:rgba(0,0,0,.62);color:#fff;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:7px}

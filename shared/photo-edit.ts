@@ -36,4 +36,5 @@ export function editAllowance(tier:Tier,env:Record<string,string|undefined>={}):
 export function allowanceSince(a:EditAllowance,now=new Date()):string{
  return a.period==='month'?new Date(Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),1)).toISOString():'1970-01-01T00:00:00.000Z';
 }
-export type EditUsage={tier:Tier;period:'lifetime'|'month';included:number;used:number;left:number;credits:number;packs:{id:string;edits:number}[]};
+export type EditUsage={tier:Tier;period:'lifetime'|'month';included:number;used:number;left:number;credits:number;/** packs that can be bought right now; price is the shop's own label ("$2.49"), filled in on the web, by the store on the phone */
+ packs:{id:string;edits:number;price?:string}[]};

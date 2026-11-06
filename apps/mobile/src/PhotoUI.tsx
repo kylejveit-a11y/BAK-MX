@@ -31,7 +31,7 @@ export function PostPhotos({photos}:{photos:Photo[]}){
  const h=Math.round(width*ratio(photos[0]));
  return <View>
   <ScrollView horizontal pagingEnabled showsHorizontalScrollIndicator={false} onMomentumScrollEnd={e=>setPage(Math.round(e.nativeEvent.contentOffset.x/width))} scrollEventThrottle={16}>
-   {photos.map((p,i)=><Pressable key={p.id} accessibilityRole="imagebutton" accessibilityLabel={`Photo ${i+1} of ${photos.length}`} onPress={()=>setViewer(i)}><LoadingImage source={{uri:p.url}} style={{width,height:h}} resizeMode="cover" accessibilityIgnoresInvertColors/></Pressable>)}
+   {photos.map((p,i)=><Pressable key={p.id} accessibilityRole="imagebutton" accessibilityLabel={`Photo ${i+1} of ${photos.length}`} onPress={()=>setViewer(i)}><LoadingImage source={{uri:p.url}} style={{width,height:h}} resizeMode="cover" accessibilityIgnoresInvertColors/>{(p as Photo&{edited?:boolean}).edited&&<Text style={{position:'absolute',left:10,top:10,color:'#fff',fontSize:11,fontWeight:'800',letterSpacing:0.6,backgroundColor:'rgba(0,0,0,0.6)',paddingHorizontal:7,paddingVertical:2,borderRadius:8,overflow:'hidden'}}>EDITED</Text>}</Pressable>)}
   </ScrollView>
   {photos.length>1&&<><View style={st.counter}><Text style={{color:C.text,fontSize:12,fontWeight:'700'}}>{page+1}/{photos.length}</Text></View>
    <View style={{flexDirection:'row',justifyContent:'center',gap:5,paddingTop:8}}>{photos.map((p,i)=><View key={p.id} style={{width:i===page?14:5,height:5,borderRadius:3,backgroundColor:i===page?C.accent:'#3a404b'}}/>)}</View></>}

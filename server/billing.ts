@@ -8,7 +8,7 @@ import {stripePlanPrices,creditPacks,grantCredits,grantPhotoEditCredits} from '.
 const json=(value:unknown,status=200)=>Response.json(value,{status,headers:{'Cache-Control':'no-store'}});
 function required(name:string):string {const value=process.env[name];if(!value)throw new Error(`${name} is not configured`);return value;}
 function admin():SupabaseClient{if(!isMxProjectUrl(process.env.SUPABASE_URL))throw new Error('MX database configuration is invalid');return createClient(required('SUPABASE_URL'),required('SUPABASE_SERVICE_ROLE_KEY'),{auth:{persistSession:false,autoRefreshToken:false}});}
-function stripe():Stripe{return new Stripe(required('STRIPE_SECRET_KEY'),{maxNetworkRetries:1,timeout:15_000});}
+export function stripe():Stripe{return new Stripe(required('STRIPE_SECRET_KEY'),{maxNetworkRetries:1,timeout:15_000});}
 function appUrl():string {const u=new URL(required('APP_URL'));if(u.protocol!=='https:'&&u.hostname!=='localhost')throw new Error('APP_URL must use HTTPS');return u.origin;}
 export function subscriptionEligible(s:{status:string;current_period_end:string|null},now=Date.now()):boolean{return ['active','trialing'].includes(s.status)&&!!s.current_period_end&&Date.parse(s.current_period_end)>now;}
 export function subscriptionSnapshot(subscription:Stripe.Subscription,prices:string|Iterable<string>){

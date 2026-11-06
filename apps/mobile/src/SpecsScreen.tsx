@@ -6,7 +6,7 @@ import {Pressable} from './Touch';
 import {api} from './api';
 import {Card,Copy,Eyebrow,Field,Icon,LinkAction,Notice,colors} from './ui';
 import type {Bike,Claim} from '../../../shared/types';
-import {specRows,groupSpecRows,quickSpecs,oilSummary,yourSettings,SPEC_KINDS,type SpecRow} from '../../../shared/specs-view';
+import {friendlyLocator,specRows,groupSpecRows,quickSpecs,oilSummary,yourSettings,SPEC_KINDS,type SpecRow} from '../../../shared/specs-view';
 import type {FactKind} from '../../../shared/fact-system';
 
 const errorText=(e:unknown)=>e instanceof Error?e.message:'Something went wrong. Please try again.';
@@ -21,7 +21,7 @@ function Row({r,open,onToggle}:{r:SpecRow;open:boolean;onToggle:()=>void}){
   </Pressable>
   {open&&<View style={{paddingBottom:12,gap:6}}>
    {!!r.note&&<Copy>{r.note}</Copy>}
-   <Text style={{color:colors.muted,fontSize:12.5,lineHeight:18}}>{r.c.model_year} · {r.c.variant} · {r.c.region} · from the maker’s published manual{r.c.source_locator?` · ${r.c.source_locator}`:''}</Text>
+   <Text style={{color:colors.muted,fontSize:12.5,lineHeight:18}}>{r.c.model_year} · {r.c.variant} · {r.c.region} · from the maker’s published manual{friendlyLocator(r.c.source_locator,r.c.source_url)?` · ${friendlyLocator(r.c.source_locator,r.c.source_url)}`:''}</Text>
    {r.c.source_url?.startsWith('https://')&&<LinkAction title="Open source" onPress={()=>{void Linking.openURL(r.c.source_url).catch(()=>{});}}/>}
   </View>}
  </View>;

@@ -99,3 +99,11 @@ export function partArea(name:string):typeof PART_AREAS[number]{const n=name.toL
  if(/frame|seat|tank|fender|mask|plastic|cover|decal|guard|skid|number|side panel|footpeg|stand/.test(n))return 'Frame & body';
  if(/handlebar|control|wiring|harness|switch|electric|battery|light|cable|grip/.test(n))return 'Controls & electrics';
  return 'Other';}
+
+/** Where a spec was printed, in rider words: "Page 24". Internal notes ("one-based", PDF/printed page bookkeeping, file
+ *  names) never reach riders, and nothing is shown for a source that is not a public maker document. */
+export function friendlyLocator(locator:string|null|undefined,url:string|null|undefined):string{
+ if(!locator||!/^https:\/\//.test(url??''))return '';
+ const printed=locator.match(/printed page\s*([0-9]+(?:[-–][0-9]+)?)/i)??locator.match(/\bpage\s*([0-9]+(?:[-–][0-9]+)?)/i);
+ return printed?`Page ${printed[1]}`:'';
+}

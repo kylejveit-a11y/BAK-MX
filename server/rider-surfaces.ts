@@ -1,6 +1,7 @@
 import type {SupabaseClient} from '@supabase/supabase-js';
 import {photoLinks,pick,photoIds,requireOwnPhotos} from './rider-photos.ts';
 import {videoLinks,requireOwnVideo} from './rider-videos.ts';
+import {editedPhotos} from './photo-edits.ts';
 import {z} from 'zod';
 import {checked} from './database.ts';
 import {readInstalled,systemLabel,partLabel} from '../shared/installed-parts.ts';
@@ -99,8 +100,8 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
   const found=checked(await db.from('profiles').select('user_id,handle,display_name,bio,location,riding_class,race_number,created_at,avatar_photo_id').eq('user_id',rider).maybeSingle()) as Row|null;const profile=found?(await withAvatars([found]))[0]:null;
   if(!profile)throw new HttpError(404,'Rider not found');
   const posts=(checked(await db.from('posts').select('id,category,body,bike_label,created_at,photo_ids,video_id').eq('user_id',rider).is('removed_at',null).order('created_at',{ascending:false}).limit(20))??[]) as Row[];
-  const [plinks,vlinks]=await Promise.all([photoLinks(posts.flatMap(p=>p.photo_ids??[])),videoLinks(posts.map(p=>p.video_id??'').filter(Boolean))]);
-  return json({profile,posts:posts.map(({photo_ids,video_id,...p})=>({...p,photos:pick(plinks,photo_ids),video:video_id?vlinks.get(video_id)??null:null})),bikes:await publicGarage(db,rider,owner),mine:rider===owner});
+  const [plinks,vlinks,edited]=await Promise.all([photoLinks(posts.flatMap(p=>p.photo_ids??[])),videoLinks(posts.map(p=>p.video_id??'').filter(Boolean)),editedPhotos(posts.flatMap(p=>p.photo_ids??[]))]);
+  return json({profile,posts:posts.map(({photo_ids,video_id,...p})=>({...p,photos:pick(plinks,photo_ids).map(ph=>edited.has(ph.id)?{...ph,edited:true}:ph),video:video_id?vlinks.get(video_id)??null:null})),bikes:await publicGarage(db,rider,owner),mine:rider===owner});
  }
 
  // ---- Service plan: the maker's own schedule for this exact bike, as reminder suggestions
@@ -139,8 +140,8 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
     ids.length?db.from('post_likes').select('post_id,user_id').in('post_id',ids).limit(5000):none,
     ids.length?db.from('post_comments').select('post_id').in('post_id',ids).is('removed_at',null).limit(5000):none]);
    const likeRows=(checked(likes)??[]) as Row[],commentRows=(checked(comments)??[]) as Row[];
-   const [plinks,vlinks]=await Promise.all([photoLinks(posts.flatMap(p=>p.photo_ids??[])),videoLinks(posts.map(p=>p.video_id??'').filter(Boolean))]);
-   return json(posts.map(({photo_ids,video_id,...p})=>({...p,photos:pick(plinks,photo_ids),video:video_id?vlinks.get(video_id)??null:null,author:author(profiles,p.user_id),mine:p.user_id===owner,like_count:likeRows.filter(l=>l.post_id===p.id).length,liked:likeRows.some(l=>l.post_id===p.id&&l.user_id===owner),comment_count:commentRows.filter(c=>c.post_id===p.id).length})));
+   const [plinks,vlinks,edited]=await Promise.all([photoLinks(posts.flatMap(p=>p.photo_ids??[])),videoLinks(posts.map(p=>p.video_id??'').filter(Boolean)),editedPhotos(posts.flatMap(p=>p.photo_ids??[]))]);
+   return json(posts.map(({photo_ids,video_id,...p})=>({...p,photos:pick(plinks,photo_ids).map(ph=>edited.has(ph.id)?{...ph,edited:true}:ph),video:video_id?vlinks.get(video_id)??null:null,author:author(profiles,p.user_id),mine:p.user_id===owner,like_count:likeRows.filter(l=>l.post_id===p.id).length,liked:likeRows.some(l=>l.post_id===p.id&&l.user_id===owner),comment_count:commentRows.filter(c=>c.post_id===p.id).length})));
   }
   if(method==='POST'){
    const data=postSchema.parse(await readJson(req));screen(data.body);await requireProfile(db,owner);await requireOwnPhotos(owner,data.photo_ids,['post','chat']);await requireOwnVideo(owner,data.video_id);

@@ -232,7 +232,7 @@ function PostCard({post:p,open,onOpen,onLike,onDelete,onRider,onViewRider,onMess
   <p className={'plain-message rd-body'+(long&&!full?' clipped':'')}>{p.body}</p>
   {long&&<button type="button" className="text-button rd-seemore" onClick={()=>setFull(!full)}>{full?'Show less':'See more'}</button>}
   {p.video&&<PostClip video={p.video}/>}
-  {!!p.photos?.length&&<div className={'post-photos n'+Math.min(p.photos.length,4)}>{p.photos.map(ph=><a key={ph.id} href={ph.url} target="_blank" rel="noreferrer"><img src={ph.url} alt="" loading="lazy"/></a>)}</div>}
+  {!!p.photos?.length&&<div className={'post-photos n'+Math.min(p.photos.length,4)}>{p.photos.map(ph=><a key={ph.id} href={ph.url} target="_blank" rel="noreferrer"><img src={ph.url} alt="" loading="lazy"/>{(ph as Photo&{edited?:boolean}).edited&&<span className="post-edited">Edited</span>}</a>)}</div>}
   {mode&&<ModerationPanel mode={mode} rider={p.author} target={{type:'post',id:p.id}} onClose={()=>setMode('')} onBlocked={onBlocked}/>}
   <footer className="rd-post-foot">
    <button type="button" className={'rd-act'+(p.liked?' liked':'')} aria-pressed={p.liked} aria-label={p.liked?'Unlike':'Like'} onClick={onLike}><Heart size={21} fill={p.liked?'currentColor':'none'}/></button>{p.like_count>0&&<button type="button" className="rd-likecount" aria-expanded={likers} onClick={()=>setLikers(!likers)}>{p.like_count===1?'1 like':p.like_count+' likes'}</button>}
@@ -273,7 +273,7 @@ function Composer({profile,bike,seed,onClose,onPosted}:{profile:Profile;bike?:Bi
   {(photos.length>0||uploading>0)&&<div className="rd-thumbs">{photos.map(ph=><div className="rd-thumb" key={ph.id}><img src={ph.url} alt=""/><button type="button" className="rd-thumb-x" aria-label="Remove photo" onClick={()=>removePhoto(ph.id)}><X size={13} strokeWidth={2.6}/></button><button type="button" className="rd-thumb-edit" aria-label="Action edit this photo" title="Action edit" onClick={()=>setEditing(ph)}><Sparkles size={14}/></button></div>)}{Array.from({length:uploading},(_,i)=><div className="rd-thumb uploading" key={'up'+i} aria-label="Uploading photo"><span className="rd-spin"/></div>)}</div>}
   {(clip||clipStage)&&<div className="rd-clip">{clip?<><video src={clip.url} poster={clip.poster_url??undefined} muted playsInline controls preload="metadata"/><span className="rd-clip-len">{secs(clip.duration_s)}</span><button type="button" className="rd-thumb-x" aria-label="Remove clip" onClick={()=>setClip(null)}><X size={13} strokeWidth={2.6}/></button></>:<div className="rd-clip-busy"><span className="rd-spin"/>{clipStage}</div>}</div>}
   {error&&<div className="error" role="alert">{error}</div>}
-  {editing&&<PhotoEditor photo={editing} onClose={()=>setEditing(null)} onUse={p=>{setPhotos(old=>old.map(x=>x.id===editing.id?p:x));setEditing(null);}}/>}
+  {editing&&<PhotoEditor photo={editing} owner={profile.user_id} onClose={()=>setEditing(null)} onUse={p=>{setPhotos(old=>old.map(x=>x.id===editing.id?p:x));setEditing(null);}}/>}
   <div className="rd-compose-bar">
    <button type="button" className="rd-tool" disabled={room<1||!!uploading} onClick={()=>void add(true)}><Camera size={21}/>Camera</button>
    <button type="button" className="rd-tool" disabled={room<1||!!uploading} onClick={()=>void add(false)}><ImagePlus size={21}/>Photos</button>

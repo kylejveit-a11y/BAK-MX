@@ -6,7 +6,7 @@ import type {SupabaseClient} from '@supabase/supabase-js';
 import {adminDb} from './database.ts';
 import {HttpError,readJson} from './validation.ts';
 import {photoLinks,PHOTO_BUCKET} from './rider-photos.ts';
-import {hasPaidAccess} from './billing.ts';
+import {hasPaidAccess,stripe} from './billing.ts';
 import {creditPacks,resolveTier} from './plans.ts';
 import {allowanceSince,editAllowance,editPrompt,EDIT_STYLES,type EditUsage} from '../shared/photo-edit.ts';
 import type {Tier} from '../shared/plans.ts';
@@ -16,13 +16,21 @@ const editSchema=z.object({photo_id:z.string().uuid(),style:z.enum(EDIT_STYLES),
 
 async function tierOf(owner:string):Promise<Tier>{return await hasPaidAccess(owner)?await resolveTier(owner):'free';}
 
+/** Which of these photos are Action edits, so posts can say "Edited" (riders should know a photo was regraded by AI). */
+export async function editedPhotos(ids:string[]):Promise<Set<string>>{
+ const unique=[...new Set(ids.filter(Boolean))];if(!unique.length)return new Set();
+ const rows=(await adminDb().from('photo_edits').select('result_photo_id').in('result_photo_id',unique).eq('status','done')).data as {result_photo_id:string}[]|null;
+ return new Set((rows??[]).map(r=>r.result_photo_id));
+}
 export async function editUsage(owner:string,tier?:Tier,store=false):Promise<EditUsage>{
  const t=tier??await tierOf(owner),a=editAllowance(t,process.env),admin=adminDb();
  const [used,bal]=await Promise.all([
   admin.from('photo_edits').select('id',{count:'exact',head:true}).eq('user_id',owner).eq('funded_by','included').neq('status','failed').gte('created_at',allowanceSince(a)),
   admin.rpc('photo_edit_credit_balance',{p_user_id:owner})]);
  if(used.error||bal.error)throw new HttpError(503,'Photo edits could not be checked right now');
- const n=used.count??0,packs=[...creditPacks(store?process.env.PHOTO_EDIT_PACKS_STORE:process.env.STRIPE_PHOTO_EDIT_PRICES)].map(([id,edits])=>({id,edits}));
+ const n=used.count??0;let packs:EditUsage['packs']=[...creditPacks(store?process.env.PHOTO_EDIT_PACKS_STORE:process.env.STRIPE_PHOTO_EDIT_PRICES)].map(([id,edits])=>({id,edits}));
+ // On the web a pack is shown only with its real Stripe price; the phone asks the App Store for its own price.
+ if(!store&&packs.length){const s=stripe();packs=(await Promise.all(packs.map(async p=>{try{const pr=await s.prices.retrieve(p.id);return pr.active&&!pr.recurring&&pr.unit_amount!==null?{...p,price:new Intl.NumberFormat('en-US',{style:'currency',currency:pr.currency.toUpperCase()}).format(pr.unit_amount/100)}:null;}catch{return null;}}))).filter((p):p is NonNullable<typeof p>=>!!p);}
  return {tier:t,period:a.period,included:a.included,used:n,left:Math.max(0,a.included-n),credits:Number(bal.data)||0,packs};
 }
 

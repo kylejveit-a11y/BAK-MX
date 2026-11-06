@@ -10,6 +10,8 @@ import {identifyPurchaser} from './billing';
 import type {Photo} from './photos';
 import type {VideoRef} from '../../../shared/rider-types';
 import {EDIT_STYLES,EDIT_STYLE_LABELS,type EditStyle,type EditUsage} from '../../../shared/photo-edit';
+import {AI_CONSENT_VERSION,aiConsentPoints,aiConsentAgree} from '../../../shared/ai-consent';
+import {readProgress,writeProgress} from './localProgress';
 
 const errorText=(e:unknown)=>e instanceof Error&&e.message?e.message:'Something went wrong. Try again.';
 const uuid=()=>'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g,c=>{const r=Math.random()*16|0;return (c==='x'?r:(r&0x3)|0x8).toString(16);});
@@ -39,10 +41,15 @@ export function editsLeftText(u:EditUsage){
 
 /** Action-sports edit for one of the rider's own photos: light, colour and sharpness only. The rider keeps the original and
  *  chooses whether the post uses the edit. Out of edits: buy a pack in the app (App Store). */
-export function PhotoEditSheet({photo,onUse,onClose}:{photo:Photo|null;onUse:(p:Photo)=>void;onClose:()=>void}){
+export function PhotoEditSheet({photo,owner,onUse,onClose}:{photo:Photo|null;owner:string;onUse:(p:Photo)=>void;onClose:()=>void}){
  const insets=useSafeAreaInsets();
+ // The photo goes to the AI service, so the same permission as Ask BAK comes first.
+ const [agreed,setAgreed]=useState(()=>readProgress<boolean>(owner,'ai-consent-'+AI_CONSENT_VERSION,false)===true);
  const [usage,setUsage]=useState<EditUsage|null>(null),[style,setStyle]=useState<EditStyle>('magazine'),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[result,setResult]=useState<Photo|null>(null),[request,setRequest]=useState(uuid),[buying,setBuying]=useState('');
- const load=()=>api<EditUsage>('/api/photo-edits/usage?store=1').then(setUsage).catch(e=>setNotice(errorText(e)));
+ // Packs are shown only when the App Store returns them, with the App Store's own price.
+ const load=()=>api<EditUsage>('/api/photo-edits/usage?store=1').then(async u=>{let packs:EditUsage['packs']=[];
+  if(u.packs.length){try{const found=await Purchases.getProducts(u.packs.map(p=>p.id),PRODUCT_CATEGORY.NON_SUBSCRIPTION);packs=u.packs.flatMap(p=>{const f=found.find(x=>x.identifier===p.id);return f?[{...p,price:f.priceString}]:[];});}catch{/* no store here: no packs */}}
+  setUsage({...u,packs});}).catch(e=>setNotice(errorText(e)));
  useEffect(()=>{if(photo){setResult(null);setNotice('');void load();}},[photo?.id]);
  if(!photo)return null;
  const out=!!usage&&usage.left+usage.credits<1;
@@ -70,16 +77,18 @@ export function PhotoEditSheet({photo,onUse,onClose}:{photo:Photo|null;onUse:(p:
      {busy&&<View style={{flexDirection:'row',gap:10,alignItems:'center'}}><ActivityIndicator color={colors.accent}/><Text style={{color:'#cfd5de'}}>Editing… about 20 to 40 seconds</Text></View>}
      {result&&<Text style={{color:'#9aa2ae',fontSize:13}}>Showing the {EDIT_STYLE_LABELS[style].title} edit. Your original is kept.</Text>}
     </View>
+    {!agreed&&<View style={{gap:8,borderWidth:1,borderColor:'#2a2f38',borderRadius:12,padding:14}}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>Before your first edit</Text>{aiConsentPoints.map(t=><Text key={t} style={{color:'#b2b9c4',fontSize:13.5,lineHeight:19}}>• {t}</Text>)}<Button title={aiConsentAgree} onPress={()=>{writeProgress(owner,'ai-consent-'+AI_CONSENT_VERSION,true);setAgreed(true);}}/></View>}
     {!result&&<View style={{gap:8}}>{EDIT_STYLES.map(s=>{const on=style===s;return <Pressable key={s} haptic="select" accessibilityRole="radio" accessibilityState={{checked:on,disabled:busy}} disabled={busy} onPress={()=>setStyle(s)} style={{borderWidth:1,borderColor:on?colors.accent:'#2a2f38',backgroundColor:on?'rgba(255,255,255,0.06)':'transparent',borderRadius:12,padding:12,gap:3}}>
      <Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>{EDIT_STYLE_LABELS[s].title}</Text><Text style={{color:'#9aa2ae',fontSize:13.5,lineHeight:19}}>{EDIT_STYLE_LABELS[s].blurb}</Text></Pressable>;})}</View>}
     <Text style={{color:'#9aa2ae',fontSize:13,lineHeight:19}}>Only the light, colour and sharpness change. You, your bike, your numbers and the track stay exactly as shot.{usage?' '+editsLeftText(usage)+'.':''}</Text>
     {!!notice&&<Text style={{color:'#f0a39b',fontSize:14}} accessibilityRole="alert">{notice}</Text>}
     {out&&!result&&<View style={{gap:8}}>
-     <Text style={{color:colors.text,fontSize:14.5}}>{usage!.period==='lifetime'?'Your free edits are used. Pro includes 15 a month, or buy a pack:':'This month’s edits are used. Buy a pack to keep going:'}</Text>
-     {usage!.packs.length?usage!.packs.map(p=><Button key={p.id} secondary disabled={!!buying} title={buying===p.id?'Buying…':`Buy ${p.edits} edits`} onPress={()=>void buy(p.id)}/>):<Text style={{color:'#9aa2ae'}}>Edit packs are coming soon.</Text>}
+     <Text style={{color:colors.text,fontSize:14.5}}>{usage!.packs.length?(usage!.period==='lifetime'?'Your free edits are used. Pro includes 15 a month, or buy a pack:':'This month’s edits are used. Buy a pack to keep going:'):(usage!.period==='lifetime'?'Your free edits are used. Pro includes 15 edits a month.':'This month’s edits are used. They refill on the 1st.')}</Text>
+     {usage!.packs.map(p=><Button key={p.id} secondary disabled={!!buying} title={buying===p.id?'Buying…':`${p.edits} edits${p.price?' · '+p.price:''}`} onPress={()=>void buy(p.id)}/>)}
     </View>}
+
     {result?<View style={{gap:10}}><Button title="Use the edit" onPress={()=>onUse(result)}/><Button secondary title="Try another look" onPress={()=>setResult(null)}/><Button secondary title="Keep the original" onPress={onClose}/></View>
-     :<Button disabled={busy||!usage||out} title={busy?'Editing…':`Make it ${EDIT_STYLE_LABELS[style].title}`} onPress={()=>void run()}/>}
+     :<Button disabled={busy||!usage||out||!agreed} title={busy?'Editing…':`Make it ${EDIT_STYLE_LABELS[style].title}`} onPress={()=>void run()}/>}
    </ScrollView>
   </View>
  </Modal>;

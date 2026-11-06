@@ -34,7 +34,7 @@ export function Plans({entitlement}:{entitlement:Entitlement|null}){
     <div><dt>{tier==='free'?'Questions left':'Credits'}</dt><dd>{usage.credits}</dd></div>
     {usage.trial&&<div><dt>Free sets left</dt><dd>{usage.trial.remaining_sets} of {usage.trial.blocks}</dd></div>}
    </dl>
-   {usage.access_mode==='beta'&&<p className="subtle">Beta: every rider gets {usage.daily_limit} questions a day while BAK MX is in beta.</p>}
+   {usage.access_mode==='beta'&&<p className="subtle">Launch offer: every rider gets {usage.daily_limit} questions a day for now.</p>}
    {usage.trial&&usage.trial.remaining_sets>0&&<p className="subtle">Each free set is {usage.trial.size} questions. When a set runs out, start the next one when you're ready. We suggest spacing them across the week.</p>}
    {canStartTrialSet(usage)&&<div className="button-row"><button className="button" disabled={busy} onClick={nextSet}>Start next free set</button></div>}
   </div>}

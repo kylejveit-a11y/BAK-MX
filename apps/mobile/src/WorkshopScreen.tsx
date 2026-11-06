@@ -9,7 +9,7 @@ import {useProgress} from './localProgress';
 import ProcedureGuide from './ProcedureGuide';
 import WorkshopRecovery from './WorkshopRecovery';
 
-export default function WorkshopScreen({bike,ownerId,onAsk}:{bike?:Bike;ownerId:string;onAsk?:(context:string)=>void}){const[revision,setRevision]=useState(0),[recoveryNotice,setRecoveryNotice]=useState('');return bike?<BikeJournal key={ownerId+':'+bike.id+':'+revision} bike={bike} ownerId={ownerId} onAsk={onAsk} recoveryNotice={recoveryNotice} onRestored={message=>{setRecoveryNotice(message);setRevision(value=>value+1);}}/>:<Page title="Workshop"><Copy>Add and select your bike in Garage to start a job.</Copy></Page>;}
+export default function WorkshopScreen({bike,ownerId,onAsk,onAddBike}:{bike?:Bike;ownerId:string;onAsk?:(context:string)=>void;onAddBike?:()=>void}){const[revision,setRevision]=useState(0),[recoveryNotice,setRecoveryNotice]=useState('');return bike?<BikeJournal key={ownerId+':'+bike.id+':'+revision} bike={bike} ownerId={ownerId} onAsk={onAsk} recoveryNotice={recoveryNotice} onRestored={message=>{setRecoveryNotice(message);setRevision(value=>value+1);}}/>:<Page title="Workshop"><Copy>Add your bike to start a job. The jobs are written for your exact model and year.</Copy>{onAddBike&&<Button title="Add your bike" onPress={onAddBike}/>}</Page>;}
 function BikeJournal({bike,ownerId,onAsk,recoveryNotice,onRestored}:{bike:Bike;ownerId:string;onAsk?:(context:string)=>void;recoveryNotice:string;onRestored:(message:string)=>void}){
  const [guide,setGuide]=useState(false);
  const [stored,saveStored,storageError]=useProgress<WorkshopJournal[]>(ownerId,'workshop-'+bike.id,[]);

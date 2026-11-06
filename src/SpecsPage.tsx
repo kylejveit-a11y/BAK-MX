@@ -9,7 +9,7 @@ import type {FactKind} from '../shared/fact-system';
 import {api} from './client';
 import './specs.css';
 
-import {splitFact,toSpecRow as toRow,specRows,groupSpecRows,quickSpecs,oilSummary,yourSettings,SPEC_KINDS as KINDS,type SpecRow as Row} from '../shared/specs-view';
+import {friendlyLocator,splitFact,toSpecRow as toRow,specRows,groupSpecRows,quickSpecs,oilSummary,yourSettings,SPEC_KINDS as KINDS,type SpecRow as Row} from '../shared/specs-view';
 export {splitFact};
 
 export function SpecsPage({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
@@ -30,7 +30,7 @@ export function SpecsPage({bike,onGarage}:{bike?:Bike;onGarage:()=>void}){
  const count=(k:FactKind|'all')=>k==='all'?rows.length:rows.filter(r=>r.kind===k).length;
  const row=(r:Row)=>{const id=r.c.id,on=openRow===id,stack=r.value.length>34;return <li key={id} id={'sp-'+id} className={'sp-row'+(on?' on':'')+(stack?' stack':'')}>
   <button type="button" className="sp-row-main" aria-expanded={on} onClick={()=>setOpenRow(on?'':id)}><span className="sp-name">{r.name}</span><span className="sp-value">{r.value||'—'}</span></button>
-  {on&&<div className="sp-detail">{r.section&&<p className="sp-section">{r.section}</p>}{r.note&&<p>{r.note}</p>}<p className="sp-src">{r.c.source_locator}{/^https?:\/\//.test(r.c.source_url)&&<> · <a href={r.c.source_url} target="_blank" rel="noreferrer">Maker document <ArrowUpRight size={12}/></a></>}</p></div>}
+  {on&&<div className="sp-detail">{r.section&&<p className="sp-section">{r.section}</p>}{r.note&&<p>{r.note}</p>}<p className="sp-src">{friendlyLocator(r.c.source_locator,r.c.source_url)||'Maker’s published manual'}{/^https?:\/\//.test(r.c.source_url)&&<> · <a href={r.c.source_url} target="_blank" rel="noreferrer">Maker document <ArrowUpRight size={12}/></a></>}</p></div>}
  </li>;};
 
  if(!bike)return <section className="panel sp"><div className="empty"><div className="empty-icon"><BookOpen size={27}/></div><h3>Specs start with your bike.</h3><p>Add the make, model and year in Garage and BAK shows the published numbers for that exact bike.</p><button className="button" onClick={onGarage}>Open Garage</button></div></section>;
