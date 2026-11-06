@@ -142,11 +142,12 @@
      2026
     ]
    },
-   "statement": "The 2026 TF 450-X is the standard version of the RC: same engine, mapping, chassis and KYB settings, but with a new higher-capacity Exedy clutch hub, new Belleville spring, new gearbox selector star and revised engine mounts. It drops the RC extras (Wi-Fi module, holeshot device, Hinson cover, ODI bars, Dunlop tyres) and uses ProTaper ACF bars, Neken clamps, Pirelli MX32 tyres and 13/49 gearing.",
+   "statement": "The 2026 TF 450-X is the standard version of the RC: same engine, mapping, chassis and KYB settings, but with a new higher-capacity Exedy clutch hub, new Belleville spring, new gearbox selector star and revised engine mounts. It drops the RC extras (Wi-Fi module, holeshot device, Hinson cover, ODI bars, Dunlop tyres) and uses ProTaper ACF bars, Neken clamps and Pirelli MX32 tyres. Launch tests reported 13/49 gearing, but Triumph's US owner's handbook lists 13/48 (3.69:1) final drive for the US 2026 TF 450-X, the same as the 2025 RC.",
    "values": {
     "msrp_uk": "GBP 9,995",
     "msrp_us": "$10,695 (Dirt Rider) / $10,395 (Dirt Bike)",
-    "final_drive": "13/49"
+    "final_drive_press_report": "13/49 (launch test; conflicts with the US handbook)",
+    "final_drive_us_handbook": "13/48 (3.69:1)"
    },
    "tier": "OEM",
    "source": {
@@ -156,7 +157,7 @@
     "date": "2025-09"
    },
    "confidence": "high",
-   "notes": "Gearing and rear tyre per ADB launch test; Dirt Bike says clutch and selector changes are mainly for durability."
+   "notes": "Rear tyre and the 13/49 gearing are per ADB launch test; the 13/49 figure conflicts with Triumph's US owner's handbook (13/48, 3.69:1) for the US model, so the handbook value applies there (see conflicts). Dirt Bike says clutch and selector changes are mainly for durability."
   },
   {
    "id": "tf-006",
@@ -2586,6 +2587,15 @@
     "Triumph page electronics": "dual engine maps"
    },
    "spread": "2 on bar; app adds more"
+  },
+  {
+   "topic": "2026 TF 450-X stock final drive (US)",
+   "values": {
+    "Triumph US owner's handbook (2026 TF 450-X; 2025 TF 450-RC Edition)": "13/48 (3.69:1)",
+    "ADB launch test (record tf-005)": "13/49"
+   },
+   "spread": "13/48 vs 13/49",
+   "note": "The maker's document wins for the US model: use 13/48. 13/49 is a press launch-test figure and is kept in tf-005 only as a labelled press report."
   }
  ],
  "not_found": [

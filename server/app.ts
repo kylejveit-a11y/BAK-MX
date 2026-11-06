@@ -5,7 +5,8 @@ import {handlePhotoEdits} from './photo-edits.ts';
 import {handleRiderPhotos,photoLinks,pick,requireOwnPhotos,PHOTO_BUCKET} from './rider-photos.ts';
 import {createInput,createRecord} from './create-record.ts';
 import {aiAccessMode} from './ai-access.ts';
-import {getBikeClaims,searchBikeClaims} from './claims.ts';
+import {comparisonClaims,getBikeClaims,mergeSearchResults,searchBikeClaims} from './claims.ts';
+import {supplementalLookups} from './answer-guards.ts';
 import {bikeKnowledge,comparisonKnowledge} from './knowledge.ts';
 import {trackContext} from './tracks.ts';
 import {handleCoaching,coachingHistory,beforeClip} from './coaching.ts';
@@ -114,8 +115,8 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
   const run=async(emit:Emit)=>{
    /* A re-run was already counted against the allowance when it first ran ('duplicate'). */const reserved=await reserveQuestion(owner,data.request_id,tier,mode);if(reserved==='limit'||(reserved==='duplicate'&&!rerun))throw new HttpError(429,reserved==='limit'?limitMessage((await usageFor(owner,tier,mode))):'Daily AI allowance reached');
    emit({type:'status',stage:'specs'});
-   const t0=Date.now();const lookups=bike?(data.race?raceLookups(data.message):await planSpecLookups(bike,history,data.message)):[];const t1=Date.now();const claims=bike?await searchBikeClaims(db,bike,lookups):[];const knowledge=bike?[...await bikeKnowledge(db,bike,data.message,lookups),...await comparisonKnowledge(db,bike,data.message)]:[];const t2=Date.now();
-   checked(await admin.from('ai_requests').update({claims_snapshot:claims}).eq('request_id',data.request_id).eq('user_id',owner).eq('state','processing'));
+   const t0=Date.now();const lookups=bike?(data.race?raceLookups(data.message):await planSpecLookups(bike,history,data.message)):[];const t1=Date.now();const extra=bike?supplementalLookups(data.message,bike):[];const claims=bike?(extra.length?mergeSearchResults([await searchBikeClaims(db,bike,lookups),await searchBikeClaims(db,bike,extra)]):await searchBikeClaims(db,bike,lookups)):[];const knowledge=bike?[...await bikeKnowledge(db,bike,data.message,lookups),...await comparisonKnowledge(db,bike,data.message)]:[];const compared=bike?await comparisonClaims(db,bike,data.message,lookups):[];const t2=Date.now();
+   checked(await admin.from('ai_requests').update({claims_snapshot:[...claims,...compared.flatMap(c=>c.claims)]}).eq('request_id',data.request_id).eq('user_id',owner).eq('state','processing'));
    emit({type:'status',stage:'writing',published:claims.length});
    let sent=0;
    // what the rider tried and how it rode; a log that cannot be read never blocks the answer
@@ -126,8 +127,8 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
    const physics=await physicsFor(db,bike,[data.message,...history.filter(m=>m.role==='user').slice(-2).map(m=>m.content??'')],{tracks,raceTrack:data.race?.track??null,forecastHighF:race?.forecast&&race.forecast.available?race.forecast.high_f:null,raceMode:!!data.race});
    // Published jetting-chart rows behind the air numbers join the answer's evidence, so they can be cited as PUBLISHED.
    const physicsEvidence=(physics as {evidence?:typeof claims}|null)?.evidence;
-   if(physicsEvidence?.length){for(const c of physicsEvidence)if(!claims.some(x=>x.id===c.id))claims.push(c);checked(await admin.from('ai_requests').update({claims_snapshot:claims}).eq('request_id',data.request_id).eq('user_id',owner).eq('state','processing'));}
-   const {response,raw}=await generateAnswer(bike,history,claims,data.message,lookups,draft=>{const size=draft.summary.length+draft.answer.length;if(size-sent<24)return;sent=size;emit({type:'draft',summary:draft.summary,answer:draft.answer});},setupHistory,knowledge,data.guided??null,data.voice===true,bike?await riderManualExcerpts(owner,bike.id,data.message,lookups):[],await (async()=>{const links=await photoLinks(photoIds,900);return photoIds.map(id=>links.get(id)?.url).filter((u):u is string=>!!u);})(),tracks,data.media??null,data.media&&bike?{history:await coachingHistory(db,owner,bike.id,data.request_id),before:data.media.kind==='clip'&&data.media.compare_to?await beforeClip(owner,data.media.compare_to):null}:null,await riderPreferences(db,owner),race,physics,({...await appContext(db,owner,bike,data.message,history,data.tz),photos:photoIds}));
+   if(physicsEvidence?.length){for(const c of physicsEvidence)if(!claims.some(x=>x.id===c.id))claims.push(c);checked(await admin.from('ai_requests').update({claims_snapshot:[...claims,...compared.flatMap(c=>c.claims)]}).eq('request_id',data.request_id).eq('user_id',owner).eq('state','processing'));}
+   const {response,raw}=await generateAnswer(bike,history,claims,data.message,lookups,draft=>{const size=draft.summary.length+draft.answer.length;if(size-sent<24)return;sent=size;emit({type:'draft',summary:draft.summary,answer:draft.answer});},setupHistory,knowledge,data.guided??null,data.voice===true,bike?await riderManualExcerpts(owner,bike.id,data.message,lookups):[],await (async()=>{const links=await photoLinks(photoIds,900);return photoIds.map(id=>links.get(id)?.url).filter((u):u is string=>!!u);})(),tracks,data.media??null,data.media&&bike?{history:await coachingHistory(db,owner,bike.id,data.request_id),before:data.media.kind==='clip'&&data.media.compare_to?await beforeClip(owner,data.media.compare_to):null}:null,await riderPreferences(db,owner),race,physics,({...await appContext(db,owner,bike,data.message,history,data.tz),photos:photoIds}),compared);
    emit({type:'status',stage:'checking'});
    checked(await admin.rpc('complete_ai_request',{p_user_id:owner,p_request_id:data.request_id,p_response:response,p_raw_output:{...raw,bakmx_plan_ms:t1-t0,bakmx_search_ms:t2-t1,bakmx_streamed:emit!==quiet}}));
    if(bike&&response.data_gaps?.length){const scope=exactBikeScope(bike);/* Best effort: a logging failure must not cost the rider a saved answer. */await admin.from('data_gaps').insert(response.data_gaps.map(gap=>({request_id:data.request_id,user_id:owner,...scope,gap:gap.slice(0,300)}))).then(()=>{},()=>{});}

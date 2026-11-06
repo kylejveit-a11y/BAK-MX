@@ -4,6 +4,7 @@ import {collectPages} from './pagination.ts';
 import {applicableClaims} from './engineering.ts';
 import {exactBikeScope} from '../shared/bike-identity.ts';
 import {HttpError} from './validation.ts';
+import {comparisonBikes} from './knowledge.ts';
 const columns='id,manufacturer,model,model_year,variant,region,domain,property,statement,source_url,source_locator,status,has_conflict';
 /** Read the complete exact-bike claim set, without sending audit envelopes to the model. */
 export async function getBikeClaims(db:SupabaseClient,bike:Bike):Promise<Claim[]>{
@@ -28,4 +29,20 @@ export function mergeSearchResults(lists:Claim[][],max=MAX_RETRIEVED):Claim[]{
  const found=new Map<string,Claim>();
  for(let i=0;found.size<max&&lists.some(l=>i<l.length);i++)for(const l of lists){const c=l[i];if(c&&!found.has(c.id)){found.set(c.id,c);if(found.size>=max)break;}}
  return [...found.values()];
+}
+
+/** Verified facts of a bike the question compares with, labelled with that bike ("2026 Triumph TF 450-X"). */
+export type ComparisonFacts={bike:string;relation:'other_year'|'other_model';claims:Claim[]};
+const MAX_COMPARED=24;
+/** "What changed for 2027", "RC vs X", "how is the E different": the same searches run for the compared bike (the previous or
+ *  named year of the rider's model, or another roster model named in the message), at most two bikes and 24 facts each.
+ *  Comparison evidence is additive: a failed search leaves it out rather than costing the rider the answer. */
+export async function comparisonClaims(db:SupabaseClient,bike:Bike,message:string,queries:string[]):Promise<ComparisonFacts[]>{
+ const out:ComparisonFacts[]=[];
+ for(const t of comparisonBikes(message,bike)){
+  // Another year keeps the rider's variant; another model is its standard version in the rider's region.
+  const other:Bike={...bike,manufacturer:t.manufacturer,model:t.model,model_year:t.model_year,variant:t.relation==='other_year'?bike.variant:'standard'};
+  try{const found=await searchBikeClaims(db,other,[...queries,message.slice(0,200)]);if(found.length)out.push({bike:t.label,relation:t.relation,claims:found.slice(0,MAX_COMPARED)});}catch{/* additive */}
+ }
+ return out;
 }

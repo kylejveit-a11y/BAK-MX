@@ -6,7 +6,18 @@ import {garageModels,garageModelInfo,garageModelYears} from '../shared/garage-mo
 /** Deep bike knowledge (docs/research/BIKE_KNOWLEDGE_STANDARD.md): power and feel, dynos, ECU maps, engine architecture,
  *  porting, mods, known issues and setups, each with its source tier. Selected per question for the exact bike. */
 export type KnowledgeTier='OEM'|'MEASURED'|'TUNER'|'DERIVED'|'COMMUNITY';
-export type Knowledge={bike?:string;id:string;domain:string;topic:string;statement:string;tier:KnowledgeTier;values:Record<string,unknown>;notes:string;confidence:string};
+/** reported_by: an OEM-tier row whose source is not the maker's own document (a magazine or dealer quoting the maker).
+ *  maker_conflict: set in code when the row disagrees with a verified maker fact for the same bike (server/answer-guards.ts). */
+export type Knowledge={bike?:string;id:string;domain:string;topic:string;statement:string;tier:KnowledgeTier;values:Record<string,unknown>;notes:string;confidence:string;reported_by?:string;maker_conflict?:string;recall?:{vin_range:boolean;rider_vin:string}};
+/** Source types that are the maker's own word. An OEM-tier row from any other source is a maker figure as quoted by someone else. */
+const MAKER_SOURCES=new Set(['manufacturer','official recall notice','press release','calculation','']);
+export function reportedBy(tier:string,sourceType:unknown):string|undefined{
+ const t=String(sourceType??'').trim().toLowerCase();if(tier!=='OEM'||MAKER_SOURCES.has(t))return undefined;
+ return t==='magazine'||t==='tester'?'press':t;
+}
+type Row={id:string;domain:string;topic:string;statement:string;tier:KnowledgeTier;vals:Record<string,unknown>|null;notes:string|null;confidence:string;source?:{type?:string}|null};
+const toKnowledge=(r:Row,bike?:string):Knowledge=>{const by=reportedBy(r.tier,r.source?.type);return {...(bike?{bike}:{}),id:'K-'+r.id,domain:r.domain,topic:r.topic,statement:r.statement,tier:r.tier,values:r.vals??{},notes:r.notes??'',confidence:r.confidence,...(by?{reported_by:by}:{})};};
+const KNOWLEDGE_COLUMNS='id,domain,topic,statement,tier,vals,notes,confidence,source';
 const MAX_ROWS=28;
 const DOMAIN_HINTS:[RegExp,string][]=[
  [/\b(map|maps|mapping|power tuner|ecu|ignition|fuel(ing)?|traction control|launch|quickshift|tc\b|mode|app)\b/i,'ecu_electronics'],
@@ -54,9 +65,9 @@ export function withinBudget(rows:Knowledge[],budget=36000):Knowledge[]{
 }
 export async function bikeKnowledge(db:SupabaseClient,bike:Bike,message:string,lookups:string[]=[]):Promise<Knowledge[]>{
  const s=exactBikeScope(bike);
- const {data,error}=await db.from('bike_knowledge').select('id,domain,topic,statement,tier,vals,notes,confidence').eq('manufacturer',s.manufacturer).eq('model',s.model).eq('model_year',s.model_year).eq('status','APPROVED').limit(600);
+ const {data,error}=await db.from('bike_knowledge').select(KNOWLEDGE_COLUMNS).eq('manufacturer',s.manufacturer).eq('model',s.model).eq('model_year',s.model_year).eq('status','APPROVED').limit(600);
  if(error||!Array.isArray(data))return [];// Deep knowledge is additive; a read failure must not block the answer.
- const rows=data.map(r=>({id:'K-'+r.id,domain:r.domain,topic:r.topic,statement:r.statement,tier:r.tier,values:r.vals??{},notes:r.notes??'',confidence:r.confidence})) as Knowledge[];
+ const rows=(data as Row[]).map(r=>toKnowledge(r));
  const q=[message,...lookups].join(' ');
  return withinBudget(rankKnowledge(rows,q).map(k=>focusRow(k,q)));
 }
@@ -78,14 +89,54 @@ export function mentionedBikes(message:string,bike:Pick<Bike,'manufacturer'|'mod
  }
  return [...out.values()].slice(0,2);
 }
-/** Knowledge for bikes the rider compares against, labelled with the bike so BAK never mixes them up with the rider's own. */
+/** Words that make a year or a short model name a comparison rather than a passing mention. */
+const COMPARE=/\b(vs\.?|versus|compared?|comparing|comparison|differen\w*|differ|changed?|changes|new|same as|than|update[sd]?|upgrades?|swap|over the)\b/i;
+/** Asking what changed or is new, without naming a year: compare with the previous model year of the same model. */
+const PREVIOUS_YEAR=/\b(what(?:'s|\s+is|\s+has|\s+have)?\s+(?:changed|new|different)|changes?\s+(?:for|from|since|between)|new\s+for\s+20\d\d|(?:vs\.?|versus|than|compared\s+(?:to|with))\s+(?:the\s+)?(?:last|previous|prior|older|old)\b|(?:last|previous|prior)\s+(?:year'?s?|model(?:\s+year)?|gen\w*)\b|year[- ]over[- ]year)/i;
+const esc=(s:string)=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+/** Short names riders use for a roster model of the same make: "450-X", "450 RC", "250F"; and, for a model of the active
+ *  bike's displacement, the suffix alone: "RC", "RX", "XC-F", "the X", "the E". An alias that fits two models is not used. */
+function aliasModels(message:string,bike:Pick<Bike,'manufacturer'|'model'>):string[]{
+ const list=garageModels[bike.manufacturer]??[],mine=disp(bike.model);
+ const parts=list.map(model=>{const d=model.match(/\d{2,3}/);if(!d||d.index===undefined)return null;const token=model.slice(d.index+d[0].length).replace(/^[-\s]+/,'').trim().split(/\s+/)[0]??'';return token?{model,disp:d[0],token}:null;}).filter((p):p is {model:string;disp:string;token:string}=>!!p);
+ const count=new Map<string,number>();const key=(a:string,b:string)=>a+'|'+b.toLowerCase();
+ for(const p of parts)count.set(key(p.disp,p.token),(count.get(key(p.disp,p.token))??0)+1);
+ const found:string[]=[];
+ for(const p of parts){
+  if(p.model===bike.model||count.get(key(p.disp,p.token))!==1)continue;
+  const tok=esc(p.token).replace(/-/g,'[- ]?');
+  if(new RegExp('(?<![A-Za-z0-9])'+p.disp+'[- ]?'+tok+'(?![A-Za-z0-9])','i').test(message)&&COMPARE.test(message)){found.push(p.model);continue;}
+  if(p.disp!==mine)continue;
+  // The suffix alone: one letter only as "the X" in capitals; longer ones anywhere as a word.
+  const alone=p.token.length===1?new RegExp('(?:^|\\s)(?:[Tt]he|[Aa]n?|vs\\.?|versus|than|to|with|from)\\s+'+tok+'(?![A-Za-z0-9-])'):new RegExp('(?<![A-Za-z0-9-])'+tok+'(?![A-Za-z0-9])','i');
+  if(alone.test(message)&&COMPARE.test(message))found.push(p.model);
+ }
+ return found;
+}
+export type CompareTarget={manufacturer:string;model:string;model_year:number;relation:'other_year'|'other_model';label:string};
+/** The bikes a question compares with: other roster models the rider names (full name, short name or bare make), and another
+ *  model year of the same model (a year named in a comparison, or the previous year for "what changed"). At most two. */
+export function comparisonBikes(message:string,bike:Pick<Bike,'manufacturer'|'model'|'model_year'>):CompareTarget[]{
+ const out=new Map<string,CompareTarget>(),named=[...message.matchAll(/(?<![0-9])(20[1-3]\d)(?![0-9])/g)].map(m=>Number(m[1]));
+ const label=(make:string,model:string,y:number)=>`${y} ${make} ${model}`;
+ const nearest=(make:string,model:string)=>{const ys=garageModelYears(make,model);if(!ys.length)return null;const n=named.find(y=>ys.includes(y)&&y!==bike.model_year)??named.find(y=>ys.includes(y));if(n)return n;return ys.includes(bike.model_year)?bike.model_year:ys.reduce((a,b)=>Math.abs(b-bike.model_year)<Math.abs(a-bike.model_year)?b:a);};
+ const addModel=(make:string,model:string)=>{if(make===bike.manufacturer&&model===bike.model)return;const y=nearest(make,model);if(y)out.set(make+'|'+model,{manufacturer:make,model,model_year:y,relation:'other_model',label:label(make,model,y)});};
+ for(const b of mentionedBikes(message,bike))addModel(b.manufacturer,b.model);
+ for(const model of aliasModels(message,bike))addModel(bike.manufacturer,model);
+ const years=garageModelYears(bike.manufacturer,bike.model);
+ const otherYear=named.find(y=>y!==bike.model_year&&years.includes(y))??null;
+ const year=otherYear&&COMPARE.test(message)?otherYear:!out.size&&PREVIOUS_YEAR.test(message)?Math.max(-Infinity,...years.filter(y=>y<bike.model_year)):null;
+ if(year&&Number.isFinite(year))out.set('year',{manufacturer:bike.manufacturer,model:bike.model,model_year:year,relation:'other_year',label:label(bike.manufacturer,bike.model,year)});
+ return [...out.values()].slice(0,2);
+}
+/** Knowledge for other models the rider compares against, labelled with the bike so BAK never mixes them up with the rider's own.
+ *  (Another year of the same model shares most rows with the rider's bike; its verified facts come through server/claims.ts.) */
 export async function comparisonKnowledge(db:SupabaseClient,bike:Bike,message:string):Promise<Knowledge[]>{
  const out:Knowledge[]=[];
- for(const other of mentionedBikes(message,bike)){
-  const {data,error}=await db.from('bike_knowledge').select('id,domain,topic,statement,tier,vals,notes,confidence').eq('manufacturer',other.manufacturer).eq('model',other.model).eq('model_year',other.model_year).eq('status','APPROVED').limit(400);
+ for(const other of comparisonBikes(message,bike).filter(t=>t.relation==='other_model')){
+  const {data,error}=await db.from('bike_knowledge').select(KNOWLEDGE_COLUMNS).eq('manufacturer',other.manufacturer).eq('model',other.model).eq('model_year',other.model_year).eq('status','APPROVED').limit(400);
   if(error||!Array.isArray(data))continue;
-  const label=`${other.model_year} ${other.manufacturer} ${other.model}`;
-  out.push(...rankKnowledge(data.map(r=>({bike:label,id:'K-'+r.id,domain:r.domain,topic:r.topic,statement:r.statement,tier:r.tier,values:r.vals??{},notes:r.notes??'',confidence:r.confidence})) as Knowledge[],message,12));
+  out.push(...rankKnowledge((data as Row[]).map(r=>toKnowledge(r,other.label)),message,12));
  }
  return out;
 }

@@ -6,7 +6,8 @@ import type {Bike,Message} from '../shared/types.ts';
 import {adminDb,checked} from './database.ts';
 import {HttpError,readJson} from './validation.ts';
 import {COACH_FOCUS_IDS,CLIP_MAX_FRAMES} from '../shared/coach-focus.ts';
-import {searchBikeClaims} from './claims.ts';
+import {comparisonClaims,mergeSearchResults,searchBikeClaims} from './claims.ts';
+import {supplementalLookups} from './answer-guards.ts';
 import {bikeKnowledge,comparisonKnowledge} from './knowledge.ts';
 import {trackContext} from './tracks.ts';
 import {raceForecast,raceTrackAt} from './weather.ts';
@@ -68,7 +69,9 @@ export async function handleEval(req:Request):Promise<Response>{
  const log=(ok:boolean,error?:string)=>admin.from('eval_runs').insert({token_id:tok.id,bike:label,message:data.message.slice(0,500),prompt_version:PROMPT_VERSION,ms:Date.now()-t0,ok,error:error?.slice(0,300)??null}).then(()=>{},()=>{});
  try{
   const lookups=bike?(data.race?raceLookups(data.message):await planSpecLookups(bike,history,data.message)):[];
-  const claims=bike?await searchBikeClaims(admin,bike,lookups):[];
+  const extra=bike?supplementalLookups(data.message,bike):[];
+  const claims=bike?(extra.length?mergeSearchResults([await searchBikeClaims(admin,bike,lookups),await searchBikeClaims(admin,bike,extra)]):await searchBikeClaims(admin,bike,lookups)):[];
+  const compared=bike?await comparisonClaims(admin,bike,data.message,lookups):[];
   const knowledge=bike?[...await bikeKnowledge(admin,bike,data.message,lookups),...await comparisonKnowledge(admin,bike,data.message)]:[];
   const tracks=data.race?.track?await trackContext(admin,ID+'02',[data.race.track,data.message]):[];
   const race=data.race?{...data.race,...(data.race.date&&data.race.track?{forecast:await raceForecast(...raceTrackAt(tracks,data.race.track),data.race.date,new Date().toISOString().slice(0,10))}:{})}:null;
@@ -76,8 +79,8 @@ export async function handleEval(req:Request):Promise<Response>{
   const physics=bike?await physicsFor(admin,bike,[data.message,...history.filter(m=>m.role==='user').slice(-2).map(m=>m.content??'')],{tracks,raceTrack:data.race?.track??null,forecastHighF:race?.forecast&&race.forecast.available?race.forecast.high_f:null,raceMode:!!data.race}):null;
   const physicsEvidence=(physics as {evidence?:typeof claims}|null)?.evidence;
   if(physicsEvidence?.length)for(const c of physicsEvidence)if(!claims.some(x=>x.id===c.id))claims.push(c);
-  const {response}=await generateAnswer(bike,history,claims,data.message,lookups,()=>{},data.setup_history as never,knowledge,data.guided??null,data.voice===true,[],data.images,tracks,data.media??null,null,data.preferences??null,race,physics,data.app??null);
+  const {response}=await generateAnswer(bike,history,claims,data.message,lookups,()=>{},data.setup_history as never,knowledge,data.guided??null,data.voice===true,[],data.images,tracks,data.media??null,null,data.preferences??null,race,physics,data.app??null,compared);
   await log(true);
-  return new Response(JSON.stringify({prompt_version:PROMPT_VERSION,model:process.env.OPENAI_MODEL,ms:Date.now()-t0,published_claims:claims.length,lookups,response}),{headers:{'content-type':'application/json','cache-control':'no-store'}});
+  return new Response(JSON.stringify({prompt_version:PROMPT_VERSION,model:process.env.OPENAI_MODEL,ms:Date.now()-t0,published_claims:claims.length,compared:compared.map(c=>({bike:c.bike,claims:c.claims.length})),lookups,response}),{headers:{'content-type':'application/json','cache-control':'no-store'}});
  }catch(e){await log(false,String((e as Error)?.message??e));throw e;}
 }
