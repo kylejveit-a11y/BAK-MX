@@ -257,3 +257,11 @@ stay out. The non-fork additions were also read against their pages (each carrie
   damper groups listed above are unchanged from the first pass.
 - Notes still not understood in these manuals, each dropping only its own rows: "All special models", "EXC ‑ F EU, XCF ‑ W" and other
   EXC-F / XW-F combinations (450 XCF-W 2023-2024), "All except XW-F", "All EXC F models", "All BR-models", "All EXC-EU models", "125 EU/ 150 US".
+
+## Loaded (2026-11-06)
+
+`load/` (69 payloads) and `load2/` (24 additive payloads) were loaded with `private.kg(make, model, yr, doc, sha, null, null, want, '', delta)`;
+every payload matched its hash. 18,741 rows staged, all passing `public.evidence_approved`; 18,739 promoted to VERIFIED for the 69 bike-years.
+Left STAGED on purpose: "Screw-in nozzle, cooling system (M24x1.5)" on KTM 250/300 XC-W 2027 (first-pass value carries the next row's
+"All except HARDENDURO models" note; the torque itself is 7.5 Nm). Spot check through Ask BAK (KTM 300 XC-W 2026 suspension, Husqvarna
+TE 150 2023 oil, GasGas EC 450F 2025 oil) answered from these rows.
