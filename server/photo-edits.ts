@@ -7,14 +7,16 @@ import {adminDb} from './database.ts';
 import {HttpError,readJson} from './validation.ts';
 import {photoLinks,PHOTO_BUCKET} from './rider-photos.ts';
 import {hasPaidAccess,stripe} from './billing.ts';
-import {creditPacks,resolveTier} from './plans.ts';
-import {allowanceSince,editAllowance,editPrompt,EDIT_STYLES,type EditUsage} from '../shared/photo-edit.ts';
+import {creditPacks,resolveTier,unlimitedAccess,UNLIMITED_EDITS} from './plans.ts';
+import {allowanceSince,editAllowance,editPrompt,EDIT_STYLES,type EditAllowance,type EditUsage} from '../shared/photo-edit.ts';
 import type {Tier} from '../shared/plans.ts';
 
 const json=(data:unknown,status=200)=>new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json','Cache-Control':'no-store'}});
 const editSchema=z.object({photo_id:z.string().uuid(),style:z.enum(EDIT_STYLES),request_id:z.string().uuid()}).strict();
 
 async function tierOf(owner:string):Promise<Tier>{return await hasPaidAccess(owner)?await resolveTier(owner):'free';}
+/** The rider's allowance; team accounts get a monthly set large enough to never meet. */
+async function allowanceOf(owner:string,tier:Tier):Promise<EditAllowance>{return await unlimitedAccess(owner)?{period:'month',included:UNLIMITED_EDITS}:editAllowance(tier,process.env);}
 
 /** Which of these photos are Action edits, so posts can say "Edited" (riders should know a photo was regraded by AI). */
 export async function editedPhotos(ids:string[]):Promise<Set<string>>{
@@ -23,7 +25,7 @@ export async function editedPhotos(ids:string[]):Promise<Set<string>>{
  return new Set((rows??[]).map(r=>r.result_photo_id));
 }
 export async function editUsage(owner:string,tier?:Tier,store=false):Promise<EditUsage>{
- const t=tier??await tierOf(owner),a=editAllowance(t,process.env),admin=adminDb();
+ const t=tier??await tierOf(owner),a=await allowanceOf(owner,t),admin=adminDb();
  const [used,bal]=await Promise.all([
   admin.from('photo_edits').select('id',{count:'exact',head:true}).eq('user_id',owner).eq('funded_by','included').neq('status','failed').gte('created_at',allowanceSince(a)),
   admin.rpc('photo_edit_credit_balance',{p_user_id:owner})]);
@@ -61,7 +63,7 @@ export async function handlePhotoEdits(req:Request,path:string,method:string,url
  const data=editSchema.parse(await readJson(req)),admin=adminDb();
  const src=(await admin.from('rider_photos').select('id,storage_path,content_type,width,height').eq('id',data.photo_id).eq('user_id',owner).maybeSingle()).data as {id:string;storage_path:string;content_type:string;width:number|null;height:number|null}|null;
  if(!src)throw new HttpError(404,'That photo could not be found. Add it again.');
- const tier=await tierOf(owner),a=editAllowance(tier,process.env);
+ const tier=await tierOf(owner),a=await allowanceOf(owner,tier);
  // An edit cut off by the server time limit never finished: hand it back so it does not use up the allowance.
  const stale=(await admin.from('photo_edits').select('request_id').eq('user_id',owner).eq('status','pending').lt('created_at',new Date(Date.now()-150_000).toISOString()).limit(5)).data as {request_id:string}[]|null;
  for(const r of stale??[])await admin.rpc('refund_photo_edit',{p_request_id:r.request_id});

@@ -41,6 +41,13 @@ export async function complimentaryTier(userId:string,db=admin()):Promise<Tier|n
  const {data,error}=await db.from('complimentary_access').select('tier').eq('user_id',userId).maybeSingle();
  if(error||!data)return null;return data.tier==='pro'||data.tier==='premium'?data.tier:null;
 }
+/** Team accounts (complimentary_access.unlimited, every confirmed bakmx.com address): no daily cap and no edit allowance.
+ *  The numbers stay finite only as a runaway guard. Never fails the request: no row or an error means a normal account. */
+export const UNLIMITED_DAILY=5000,UNLIMITED_EDITS=1000;
+export async function unlimitedAccess(userId:string,db=admin()):Promise<boolean>{
+ const {data,error}=await db.from('complimentary_access').select('unlimited').eq('user_id',userId).maybeSingle();
+ return !error&&data?.unlimited===true;
+}
 /** Free riders: the first trial set is ready as soon as they use Ask BAK or open their plan. Safe to call repeatedly. */
 export async function ensureTrial(userId:string,tier:Tier,db=admin()):Promise<void>{
  if(tier!=='free')return;const {blocks,size}=trialConfig(process.env);if(!blocks)return;
@@ -55,13 +62,13 @@ export async function usageFor(userId:string,tier:Tier,mode:Mode,db=admin()):Pro
  const start=new Date();start.setUTCHours(0,0,0,0);
  const [used,credits,started]=await Promise.all([db.from('ai_usage').select('request_id',{count:'exact',head:true}).eq('user_id',userId).eq('funded_by','included').gte('created_at',start.toISOString()),db.rpc('ai_credit_balance',{p_user_id:userId}),db.rpc('trial_blocks_started',{p_user_id:userId})]);
  if(used.error)throw used.error;if(credits.error)throw credits.error;if(started.error)throw started.error;
- const limit=effectiveDailyLimit(tier,mode,process.env),usedToday=used.count??0,{blocks,size}=trialConfig(process.env),n=Number(started.data)||0;
+ const limit=await unlimitedAccess(userId,db)?UNLIMITED_DAILY:effectiveDailyLimit(tier,mode,process.env),usedToday=used.count??0,{blocks,size}=trialConfig(process.env),n=Number(started.data)||0;
  return {tier,daily_limit:limit,unlimited:tier==='pro',used_today:usedToday,remaining_today:Math.max(0,limit-usedToday),credits:Number(credits.data)||0,
   trial:tier==='free'&&blocks>0?{blocks,size,started:n,remaining_sets:Math.max(0,blocks-n)}:null};
 }
 export type Reservation='included'|'credit'|'limit'|'duplicate';
 export async function reserveQuestion(userId:string,requestId:string,tier:Tier,mode:Mode):Promise<Reservation>{
- const {data,error}=await admin().rpc('reserve_ai_request_v2',{p_user_id:userId,p_request_id:requestId,p_daily_limit:effectiveDailyLimit(tier,mode,process.env)});if(error)throw error;
+ const {data,error}=await admin().rpc('reserve_ai_request_v2',{p_user_id:userId,p_request_id:requestId,p_daily_limit:await unlimitedAccess(userId)?UNLIMITED_DAILY:effectiveDailyLimit(tier,mode,process.env)});if(error)throw error;
  if(!['included','credit','limit','duplicate'].includes(data))throw new Error('Unexpected quota result');return data as Reservation;
 }
 /** Idempotent on reference; returns true when newly granted. */
