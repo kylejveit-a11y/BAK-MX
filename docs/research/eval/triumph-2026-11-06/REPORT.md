@@ -23,3 +23,14 @@ Score: good 29, weak 6, wrong 2, missing data 3. Stock numbers (clickers, sag, s
 - VIN-split answer does not name the VIN ranges or where the VIN is (Q28).
 - Recall banner repeated in 8 TF 450 answers regardless of VIN: once per conversation, VIN-scoped.
 - Numbers only in the setup card (Q04, Q08): keep a one-line summary of each change in the text.
+
+## Rerun on mx-engineering-73 (same 40 questions, answers-v73.json)
+- Q34 / Q19 (2027 changes): now a side-by-side table of the changed clickers. Still says the 2026 spring rates are not confirmed
+  (those rows are REVIEWED, being verified) and Q34 does not yet list the 2027 release-note hardware changes.
+- Q22 (RC vs X): 13/48 for both, launch-test figure flagged; full spec table. Fixed.
+- Q04 (pro SX): structured five-part plan with springs from the chart, fork outer oil 315 → 320 cc within 290–365 cc, compression,
+  rebound, sag; says plainly Triumph publishes no factory SX setup. Fixed.
+- Q28 (VIN unknown): names both VIN ranges with each column. Fixed.
+- Q21 (quickshifter): gives the 2,500 rpm threshold and racing use; still misses the on/off button and clutch-for-1st→2nd details.
+- Recalls: now a conditional, VIN-range line ("check your VIN; if it falls within ...") instead of "your bike is covered";
+  shown once per conversation (12 of the 40 fresh single-question conversations).

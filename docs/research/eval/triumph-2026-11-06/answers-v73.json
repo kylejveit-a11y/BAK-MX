@@ -1,0 +1,442 @@
+[
+ {
+  "id": "Q01",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2026
+  },
+  "message": "What are the stock fork and shock clicker settings, riding sag, static sag and stock spring rates on my bike?",
+  "status": 200,
+  "answer": "For your **2026 Triumph TF 450-X**, Triumph specifies:\n\n| Setting | Stock value |\n|---|---:|\n| Fork compression | **14 clicks out** |\n| Fork rebound | **12 clicks out** |\n| Shock low-speed compression | **14 clicks out** |\n| Shock high-speed compression | **1¼ turns out** |\n| Shock rebound | **12 clicks out** |\n| Riding sag | **102 mm (4.02 in)** |\n| Static sag — bike only | **36 mm (1.4 in)** |\n| Fork springs | **5.0 N/mm**, both legs |\n| Shock spring | **58 N/mm** |\n\nCount all damping settings counterclockwise from lightly seated clockwise—never force the adjusters. Measure sag with a full fuel tank; riding sag is measured seated in full gear with feet on the pegs. The factory setup is for **75–85 kg (165–187 lb) in full gear**.\n\nOne important recall check: Triumph's exhaust-rocker/cylinder-head recall covers a VIN range published as **...CD4981 to ...CP1597**. Check your full VIN at triumphmotorcycles.com/owners/recalls or with a dealer; if it falls within the affected range, Triumph says to stop riding until the remedy is completed."
+ },
+ {
+  "id": "Q02",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2026
+  },
+  "message": "I'm a pro, 75 kg without gear. What fork and shock spring rates should I run?",
+  "status": 200,
+  "answer": "Assuming outdoor motocross, I’d start you on **fork springs 5.1 N/mm in both legs and a shock spring 60 N/mm** for pro pace.\n\nYour 75 kg without gear is about 165 lb; allowing roughly 15–20 lb for gear puts you around **180–185 lb geared**. Triumph’s 165–187 lb geared baseline is fork springs **5.0 N/mm** and a shock spring **58 N/mm**. Your weight fits stock, but the extra support of the next available rates is a common-practice starting point for pro-speed braking, jump faces and landings—not Triumph’s published pro setup.\n\nConfirm the shock choice at **102 mm rider sag**, checking against **36 mm static sag**. Too much static sag with correct rider sag points toward a spring that’s too stiff; too little points toward too soft. Confirm the fork choice by controlled travel use without excessive dive or repeated hard bottoming.\n\nIf the suspension is revalved, use your tuner’s spring recommendation and baseline ahead of stock guidance. Supercross would need a different plan."
+ },
+ {
+  "id": "Q03",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2026
+  },
+  "message": "I'm 90 kg in full gear. Stock springs are too soft. Which fork and shock springs from Triumph, and what sag do I set?",
+  "status": 200,
+  "answer": "Fit **fork springs 5.1 N/mm in both legs** and a **shock spring 60 N/mm**.\n\n- **Fork:** Triumph’s 5.1 N/mm option has identification marks **2-4**, up from stock 5.0 N/mm. That is my starting recommendation for your 90 kg (198 lb) geared weight and soft-stock feel—not a published fork weight-chart assignment.\n- **Shock:** **60 N/mm, Brown** is Triumph’s published choice for **85–95 kg (187–209 lb) in full gear**, up from stock 58 N/mm.\n- **Sag:** Set **102 mm (4.02 in) rider sag**, seated in full gear with a full fuel tank. Then check **36 mm (1.4 in) static sag**, bike upright without you. Too little static sag with correct rider sag means the shock spring is still too soft.\n\nSet the rear first; both fork legs must have equal-rate springs. I can walk you through “Choose shock and fork springs for rider weight,” then “Measure the rear sag”—tap **Start a guided job** above the message box.\n\nSeparately, the US cylinder-head recall covers a VIN range ending **CD4981 to CP1597**. Check your VIN through Triumph’s recall lookup or a dealer; if it is in range, Triumph says stop riding until repaired."
+ },
+ {
+  "id": "Q04",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2026
+  },
+  "message": "Supercross: I need the bike to skim whoops without blowing through. Give me a pro-level setup change list from stock, clicker by clicker.",
+  "status": 200,
+  "answer": "For skimming without blowing through, add support first—not slower rebound everywhere. Triumph publishes no factory supercross setup for this bike; the changes below are common tuning practice using its published stock baseline.\n\n### 1. Springs first\nStock is **fork springs 5.0 N/mm and shock spring 58 N/mm**, based on **165–187 lb in full gear**. Triumph’s shock chart is 143–165 lb: 56 N/mm; 165–187 lb: 58 N/mm; 187–209 lb: 60 N/mm.\nFor a 165–187 lb pro rider, a common SX starting test is **fork springs 5.0 → 5.1 N/mm; shock spring 58 → 60 N/mm**, both listed options. Don’t apply that blindly at another weight. Confirm with sag; stock static sag is **36 mm**. True pro SX loads may need purpose-built valving beyond these changes.\n\n### 2. Fork outer oil\n**315 → 320 cc per leg**, leaving the damper’s **195 cc** unchanged. Triumph allows **290–365 cc**, adjusted in **5 cc** steps. This adds end-stroke resistance; have the suspension technician make this service change.\n\n### 3. Compression—test separately\n- Fork compression: **14 → 12 clicks out** for more hold-up.\n- Shock high-speed compression: **1¼ → 1⅛ turns out** for stronger support on sharp impacts.\n- Shock low-speed compression: **14 → 12 clicks out** if it still collapses under rolling loads.\n\n### 4. Rebound\nStock is **12 clicks out at both ends**. If the bike gets progressively lower through the set, test **12 → 13 out at the affected end** to recover faster. If it instead kicks straight up after one hit, test shock rebound **12 → 11 out**—not both directions together.\n\n### 5. Sag\nAfter springs are correct, test riding sag **102 → 100 mm** for a higher rear and more front loading; return if it becomes nervous or loses drive.\n\nCount adjusters out from lightly seated. Change one item per test on the same controlled section; stop if it swaps severely. Keep legs gripping, arms loose and throttle steady; use small rounded whoops for repeat passes before a full-size set.\n\nWhat do you weigh in full riding gear?\n\n**Changes to try, one at a time:**\n- **Fork and shock springs:** Only if 165–187 lb geared: fork springs from 5.0 to 5.1 N/mm; shock spring from 58 to 60 N/mm. Otherwise select for actual weight first.\n- **Fork outer-tube oil volume:** From stock 315 to 320 cc per leg, performed by a suspension technician."
+ },
+ {
+  "id": "Q05",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2026
+  },
+  "message": "Outdoor nationals, deep rough ruts and long rollers. How should I set the bike up versus stock? Be specific.",
+  "status": 200,
+  "answer": "For deep outdoor ruts and long rollers, start **slightly firmer on compression—not supercross-stiff**. You need support without making the wheels skip across the rough stuff.\n\nTriumph’s stock springs are **fork springs 5.0 N/mm and shock spring 58 N/mm**, based on a **165–187 lb rider in full protective clothing**. Start at **102 mm rider sag and 36 mm static sag**, measured with a full tank. If your weight falls outside that band, settle spring choice before chasing clickers.\n\nAssuming your adjusters are still stock, test these individually, in this order:\n1. **Shock low-speed compression: 14 → 12 clicks out.** Adds support under power and through rolling loads.\n2. **Fork compression: 14 → 12 clicks out.** Adds braking and roller-face support while retaining usable compliance.\n3. **Only if the rear still rides low through rollers:** shock high-speed compression **1¼ → 1⅛ turns out**, a common-practice test for more moving ride height. Undo it if sharp edges start kicking the rear sideways.\n\nKeep **fork and shock rebound at the stock 12 clicks out** initially. If either end gets progressively lower and harsher through successive bumps, test that end’s rebound one click farther out—not slower.\n\nCount from lightly seated. Compare each change over the same section for a few laps before moving on.\n\nWhat’s your weight in full gear and your class/pace?"
+ },
+ {
+  "id": "Q06",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2026
+  },
+  "message": "Front end pushes and washes out in flat corners on hardpack. What do I change first?",
+  "status": 200,
+  "answer": "Start with **front tire pressure**, not fork height or random clicker changes.\n\n- Triumph’s cold baseline is **0.97 bar (14 psi)**. With a conventional tube, establish that baseline, then test **14 to 13 psi cold at the front** for slick hardpack—general tuning practice for more grip. Return to 14 if it squirms or strikes the rim.\n- Confirm **102 mm riding sag and 36 mm static sag**, with riding sag measured in full gear and a full tank. Too much riding sag lowers the rear and takes weight off the front; incorrect springs need sorting before clickers.\n\nFor suspension, entry push with a high, harsh fork usually wants softer fork compression; exit push with a squatting rear wants more rear support. **Does it wash off the gas entering the turn, or as you accelerate out?**\n\nMeanwhile, sit forward, keep your upper body upright and press the outside peg. Practice six easy passes through the same flat corner, finishing braking before leaning and rolling on smoothly.\n\nAlso, a US cylinder-head recall covers a VIN range published as **...CD4981 to ...CP1597**. Check your VIN through Triumph’s recall lookup or a dealer; if it falls in range, Triumph says stop riding until repaired.\n\n**Changes to try, one at a time:**\n- **Front tire pressure, conventional tube:** Establish Triumph’s 14 psi cold baseline, then test from 14 to 13 psi cold."
+ },
+ {
+  "id": "Q07",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2026
+  },
+  "message": "Rear end kicks hard on braking bumps into corners and on jump faces. What do I adjust?",
+  "status": 200,
+  "answer": "**Straight-up bucking off a jump face points toward shock rebound returning too fast—but don’t automatically slow it for braking bumps.** If it gets lower and harsher with each bump, slower rebound makes it worse.\n\nFirst check rear sag: Triumph specifies **102 mm riding sag and 36 mm static sag**. Check chain slack and look for shock leakage or linkage play; stop and fix any leak or looseness before tuning.\n\nCommon tuner adjustments—choose only the matching one:\n- **Straight up after one hit:** turn shock rebound **1 click in from your current position** to slow the return.\n- **First bump fine, then progressively harsher:** turn shock rebound **1 click out from your current position** so it recovers between bumps.\n- **Sideways deflection off sharp edges:** turn shock high-speed compression **1/8 turn out from your current position** to soften the hit.\n\nTriumph’s stock shock baseline is rebound **12 clicks out**, low-speed compression **14 clicks out**, high-speed compression **1¼ turns out**, counted from lightly seated—not necessarily where yours is now.\n\nStay standing through braking bumps, knees bent and arms loose; keep steady throttle up jump faces. Practice three controlled passes through the same braking section, not bigger jumps.\n\n**Does it kick straight up or sideways, and is the first braking bump okay before it gets worse?**\n\n**Changes to try, one at a time:**\n- **Shock rebound—only for straight-up kick after one hit:** From your current position, turn 1 click in.\n- **Shock rebound—only for packing through consecutive bumps:** From your current position, turn 1 click out.\n- **Shock high-speed compression—only for sideways sharp-edge deflection:** From your current position, turn 1/8 turn out."
+ },
+ {
+  "id": "Q08",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2026
+  },
+  "message": "Bike is harsh on square-edge hits (rocks, roots, step-down landings) front and rear. Where do I start?",
+  "status": 200,
+  "answer": "**Don’t soften both ends together: first establish whether it’s deflecting off the hit or crashing through the travel.** Rocks and roots often expose excessive compression damping; a step-down landing can instead expose bottoming.\n\nBefore changing damping:\n- Check cold tire pressures against Triumph’s **0.97 bar (14 psi) front and rear**. Don’t lower pressure first for sharp rocks and hard landings.\n- Bleed the cool forks with the front wheel unloaded; check for sticky movement or leaks.\n- Check **102 mm riding sag and 36 mm static sag**. Stock fork springs are **5.0 N/mm**, and the stock shock spring is **58 N/mm**; the factory setup suits **165–187 lb in full gear**. Get spring support right before chasing clickers.\n\nIf it’s a sharp deflection **with travel left**, common tuner practice is:\n1. **Fork compression: 2 clicks farther out from its current position**, to absorb the edge. Triumph’s stock reference is 14 clicks out.\n2. Separately, **shock high-speed compression: 1/8 turn farther out from its current position**, to soften the sharp hit. Stock reference is 1¼ turns out.\n\nTest one change over the same safe section for a few passes. Undo it if dive, wallow or bottoming increases. Count positions from lightly seated; never force an adjuster.\n\nAre the hits sharp deflections with travel left, or are the fork and shock using all their travel and clunking?"
+ },
+ {
+  "id": "Q09",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2026
+  },
+  "message": "Explain MAP 1 vs MAP 2, traction control and launch control. Which combo for a slick hardpack start and for the race?",
+  "status": 200,
+  "answer": "**Slick hardpack: MAP 1 + TC on + launch control for the start; MAP 1 + TC on for the race.** That’s my starting recommendation for putting power down rather than spinning.\n\n- **MAP 1:** Triumph specifies standard engine response and traction control. **MAP 2:** full-power response and traction control—not the softer map. Short-press MAP to toggle; light off = MAP 1, light on = MAP 2.\n- **Traction control:** helps control wheelspin. Short-press TC; its light means on. Leave it on while the track is slick. If it noticeably holds back acceleration once grip improves, test TC off before changing maps.\n- **Launch control:** stationary, engine idling, gearbox in neutral—hold LC until its light comes on, then select your start gear. Use the clutch normally. Its light flashes during the start, and it cancels automatically a few seconds afterward; holding LC or fully opening the throttle also cancels it.\n\nUse steady revs and a smooth clutch release; test three practice starts for straight, repeatable drive.\n\n**Recall check before riding:** the US cylinder-head recall covers a VIN range published as ...CD4981 to ...CP1597. Check yours at triumphmotorcycles.com/owners/recalls or with a dealer; if in range, Triumph says stop riding until repaired.\n\nFor a switch-by-switch walkthrough, tap **Start a guided job** and choose **Set the engine map, traction, quickshifter and launch control**; no tools or parts needed."
+ },
+ {
+  "id": "Q10",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2026
+  },
+  "message": "Tight, slow supercross-style track and I keep lugging out of corners in 2nd. What are stock sprockets and what gearing would you run?",
+  "status": 200,
+  "answer": "Stock on your US 2026 TF 450-X is **13-tooth front / 48-tooth rear**, per Triumph. For that tight, slow supercross-style track, my pick is **13/50**—keep the front and add two teeth at the rear.\n\nThat shorter gearing gets the engine into its useful revs sooner in second, with less clutch work leaving corners. The trade-off is earlier shifts and less speed in each gear. Common tuner practice for supercross-style tracks is one or two extra rear teeth; your lugging complaint points me toward two.\n\nTriumph specifies a **114-link stock chain**; testers running 13/50 used a **116-link chain**. Check sprocket fitment for your year and chain length against the axle-adjuster range before buying—don’t assume the stock chain will reach.\n\nConfirm your fitted tooth counts first, then test the same second-gear exit: it should pull cleanly without needing a downshift or excessive clutch slipping."
+ },
+ {
+  "id": "Q11",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2026
+  },
+  "message": "Engine oil: what type, how much with a filter change, and how often for a pro racing every weekend?",
+  "status": 200,
+  "answer": "- **Type:** Fully synthetic **10W/50 motorcycle oil, API SN or higher, JASO MA-2**. Triumph recommends its Performance fully synthetic oil; avoid oil additives.\n- **With a new filter:** **1.15 L (1.22 US qt)**. Treat that as the refill quantity, then confirm the sight-glass level with the engine warm and the bike upright and level—don’t simply pour in extra to empty the bottle.\n- **Pro racing:** Change the **oil and filter and clean both oil strainers after the first operating hour, then every 2.5 hours of race use**. Count practice, qualifying and motos—not just race time. Service sooner if necessary to avoid exceeding that limit during the next session; the 15-hour general interval is not the racing interval.\n\nSeparate safety note: Canadian recall 2026378 names the 2025 TF 450-RC and 2026 TF 450-X/C/E for an engine-stalling issue requiring a replacement cylinder head. Have a Triumph dealer confirm whether your US bike is affected and whether the remedy has been completed."
+ },
+ {
+  "id": "Q12",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2026
+  },
+  "message": "What are the intake and exhaust valve clearance specs and when do I check them?",
+  "status": 200,
+  "answer": "For your **2026 TF 450-X**, Triumph specifies valve-clearance checks **after the first operating hour, then every 45 hours**—including the 90-hour service.\n\nThe exact **intake and exhaust clearance specs aren’t confirmed here**. Triumph gives the schedule but not the clearances; those figures and the measurement conditions are (Triumph's spec). Don’t substitute another 450’s numbers.\n\nAlso, a US cylinder-head recall covers a VIN range published as **…CD4981 to …CP1597** because the exhaust rocker can stick or seize. Check your full VIN at triumphmotorcycles.com/owners/recalls or with a Triumph dealer; if it’s covered, Triumph says to stop riding until the remedy is completed."
+ },
+ {
+  "id": "Q13",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2026
+  },
+  "message": "Give me torque specs for front axle nut, front axle pinch bolts, rear axle nut, triple clamp bolts top and bottom, and linkage bolts.",
+  "status": 200,
+  "answer": "For your **2026 Triumph TF 450-X**, Triumph specifies:\n\n| Fastener | Torque |\n|---|---:|\n| Front axle nut | **60 Nm (44 ft-lb)** |\n| Front axle pinch bolts—inner and outer | **19 Nm (14 ft-lb)** |\n| Rear axle nut | **120 Nm (89 ft-lb)** |\n| Upper triple-clamp pinch bolts | Exact torque not confirmed here |\n| Lower triple-clamp pinch bolts | Exact torque not confirmed here |\n| Suspension linkage bolts | Exact torques not confirmed here |\n\nFor the front axle pinch bolts, Triumph gives the sequence **outer → inner → outer again**.\n\nThe upper/lower triple-clamp and individual linkage fastener torques need Triumph’s service-manual chassis/suspension sections. Don’t substitute handlebar-clamp torque or use one assumed torque for every linkage bolt; leave those fasteners untouched until confirmed."
+ },
+ {
+  "id": "Q14",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2026
+  },
+  "message": "Fork service: fork oil type, volumes per leg, adjustment range, and service interval?",
+  "status": 200,
+  "answer": "For your **2026 TF 450-X**, Triumph specifies these quantities **per fork leg**:\n\n| Location | Oil volume |\n|---|---:|\n| Damper assembly | **195 cc** (6.59 US fl oz) |\n| Outer tube, standard | **315 cc** (10.65 US fl oz) |\n| Total per leg | **510 cc** (17.25 US fl oz) |\n\n- **Oil type:** the exact fork-oil brand/grade isn't confirmed here. Verify it in the Triumph service manual’s front-fork lubrication specifications before filling; don't substitute engine oil or choose by a generic “5W” label alone.\n- **Adjustment range:** outer tube only, **290–365 cc per leg**, in **5 cc (0.17 US fl oz) steps**. Keep both legs equal. More oil increases end-stroke resistance; less oil softens that part of the stroke. The 510 cc total is split between two chambers—not poured entirely into the outer tube.\n- **Service interval:** **every 45 operating hours**, including the scheduled 90-hour service. Triumph also lists leak/wear inspections at 15 and 30 hours; inspect sooner if leakage or changed damping appears.\n\nChanging outer-tube volume requires fork removal; those quantities alone aren't a complete fork-service procedure."
+ },
+ {
+  "id": "Q15",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2026
+  },
+  "message": "Tire pressures for deep sand vs hard intermediate? What does Triumph spec?",
+  "status": 200,
+  "answer": "Triumph specifies **14 psi (0.97 bar) cold, front and rear** for your 2026 TF 450-X.\n\nTerrain adjustments below are general tuning guidance, not separate Triumph specifications:\n- **Deep sand:** try **14 → 13 psi**, one tire at a time, for more footprint and grip. Keep 14 psi if there’s a hard base underneath or hard landings.\n- **Hard/intermediate:** start at **14 psi both ends**. For sharp square edges, rocks or rim impacts, try **14 → 15 psi** at the affected end for more protection. On smooth, slick hardpack, try 1 psi lower for grip instead.\n\nCompare over the same section for a few laps. Stop lowering pressure at the first rim strike, pinch flat or tire squirm. These adjustments assume pneumatic tires; mousse inserts have no pressure to set."
+ },
+ {
+  "id": "Q16",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2026
+  },
+  "message": "Give me a pro race-day checklist for this bike, pre-gate and between motos.",
+  "status": 200,
+  "answer": "Run this checklist on your **2026 TF 450-X**—race day is for confirming a proven setup, not changing everything.\n\n### Before practice / first moto\n- **Tires:** Triumph’s cold baseline is **14 psi (0.97 bar), front and rear**. Inspect knobs, sidewalls, rims and rim locks; check spokes, especially on a fresh bike.\n- **Chain:** find the tightest position. Triumph specifies **55–58 mm (2.17–2.28 in)** between the swingarm and lower chain edge at its prescribed force point—not ordinary up-and-down slack. Check axle security, sprockets and slider wear.\n- **Fluids and intake:** check engine oil by Triumph’s dry-sump level procedure. With the engine cold, coolant should sit **10 mm (0.39 in) above the radiator core**. Confirm a clean, properly oiled filter seated securely, and enough fuel for the moto plus staging.\n- **Controls:** throttle snaps shut at both steering locks; grip free play **2–3 mm (0.08–0.12 in)**. Check firm brakes, clutch operation and leaks. This is a hydraulic clutch—don’t chase cable-style lever free play.\n- **Chassis:** inspect fork/shock leaks, wheel and steering play, brake-pedal return spring, pegs and critical fasteners. Record clickers and confirm sag with your gear on.\n\n### Pre-gate\n- Warm up yourself and the bike; avoid prolonged stationary idling.\n- Confirm your practiced map and TC choice: **MAP 1 = standard response; MAP 2 = full-power response**. TC light on means enabled.\n- Launch control: stopped, idling, in neutral; hold **LC** until illuminated. Use the clutch normally. Fully opening the throttle cancels LC, so don’t accidentally disarm it before the start.\n- Quickshifter works from **second gear upward, above 2,500 rpm**; use the clutch for first-to-second and downshifts.\n- Pick a clean, straight pad, your practiced starting gear and a first-turn line with an escape route. Set a holeshot device only if fitted and practiced.\n\n### Between motos\n- Inspect crash damage, leaks, loose spokes, chain, controls and brake feel before touching clickers.\n- Clear radiator blockage and packed pegs; inspect the filter in dusty conditions. Refuel safely with the engine off.\n- Recheck tire pressures, noting they’re hot—don’t blindly bleed them to the cold figure. Recheck sag if mud buildup changes ride height.\n- Log one handling issue; make only one tested adjustment. Cool down in shade, drink, eat familiar food and check changing lines.\n- Track engine time: Triumph specifies oil/filter replacement and screen cleaning every **2.5 hours of race riding**, plus clutch wear checks.\n\n**Recall check:** the US cylinder-head recall covers a VIN range published as **...CD4981 to ...CP1597**. Check your full VIN through Triumph’s recall lookup or a dealer; if it falls in range, Triumph says stop riding until the remedy is completed."
+ },
+ {
+  "id": "Q17",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2026
+  },
+  "message": "Air filter cleaning interval and what filter oil? Also spark plug and gap.",
+  "status": 200,
+  "answer": "Clean the air filter every **2.5 operating hours in race conditions**, and at **15, 30, 45 and 90 operating hours, or every 24 months**, as applicable in Triumph’s maintenance schedule. Use purpose-made oil for foam air filters and follow its directions; the exact Triumph-specified product isn’t confirmed here.\n\nThe spark plug is **NGK LMAR9AI-8**; gap **0.8 mm +0/−0.1 (0.031 in +0/−0.004)**. Triumph lists replacement at **45 and 90 operating hours**."
+ },
+ {
+  "id": "Q18",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2026
+  },
+  "message": "What is the factory cam lift and cam duration for this engine, and the crank horsepower Triumph claims?",
+  "status": 200,
+  "answer": "Triumph claims **62.4 PS (45.9 kW, about 61.5 hp) at 9,500 rpm** for your 2026 TF 450-X. That is crankshaft power, not rear-wheel dyno power.\n\nThe exact factory **intake and exhaust cam lift and duration aren't confirmed here**. Triumph's service-manual camshaft data or a measured cam profile would settle those figures; duration also needs its checking height stated to make a useful comparison. I wouldn't substitute aftermarket cam figures or another engine's numbers.\n\nOne safety item: the US cylinder-head recall covers a VIN range published as **...CD4981 to ...CP1597**. Check your full VIN at Triumph's recall lookup or with a dealer; if it falls in that range, Triumph says to stop riding until the remedy is completed."
+ },
+ {
+  "id": "Q19",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2027
+  },
+  "message": "What changed on the 2027 TF 450-X compared to the 2026? Especially suspension settings.",
+  "status": 200,
+  "answer": "**Three stock damping settings changed for 2027:**\n\n| Standard setting | 2026 TF 450-X | 2027 TF 450-X |\n|---|---:|---:|\n| Fork compression | 14 clicks out | **13 clicks out** |\n| Fork rebound | 12 clicks out | **11 clicks out** |\n| Shock low-speed compression | 14 clicks out | **12 clicks out** |\n| Shock rebound | 12 clicks out | 12 clicks out |\n| Shock high-speed compression | 1¼ turns out | 1¼ turns out |\n\nTriumph counts these outward, counterclockwise from the fully clockwise position—seat the adjusters lightly. In general, the changes give more fork support, slower fork return and more rear support against squat. **They do not prove the internal valving changed.**\n\nOther suspension details:\n- Outer-tube fork oil stays at **19.2 cu in (315 cc)** for both years.\n- Optional fork springs remain **4.8, 4.9, 5.0 and 5.1 N/mm**.\n- The 2027 standard springs are **fork spring 5.0 N/mm** and **shock spring 58 N/mm**, with factory setup for **165–187 lb (75–85 kg)** in full protective clothing. The 2026 standard spring rates aren't confirmed here.\n- The 2026 riding-sag target is **4.02 in (102 mm)**; 2027 static sag is **1.42 in (36 mm)**. These are different measurements—not evidence of a changed sag target. The 2027 riding-sag target isn't confirmed here.\n\nI can confirm those setting differences, but not broader year-to-year engine, chassis or suspension hardware changes."
+ },
+ {
+  "id": "Q20",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2027
+  },
+  "message": "Stock clickers, springs and sag on the 2027?",
+  "status": 200,
+  "answer": "Triumph’s stock settings for the **2027 TF 450-X**:\n\n| Setting | Stock value |\n|---|---:|\n| Fork compression | 13 clicks out |\n| Fork rebound | 11 clicks out |\n| Shock low-speed compression | 12 clicks out |\n| Shock high-speed compression | 1¼ turns out |\n| Shock rebound | 12 clicks out |\n| Fork spring | 5.0 N/mm |\n| Shock spring | 58 N/mm |\n| Static sag — bike only, no rider | 36 mm (1.42 in) |\n\nCount adjusters counterclockwise from **lightly seated clockwise**—don’t force the stops.\n\nThe factory setup is for **165–187 lb in full protective gear**. The exact **rider-sag** target isn’t confirmed here; Triumph’s service manual rear-suspension setup section carries that figure. Don’t use the 36 mm static-sag figure as rider sag."
+ },
+ {
+  "id": "Q21",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2027
+  },
+  "message": "Does it have a quickshifter and how does it work? When should a racer use it?",
+  "status": 200,
+  "answer": "Yes—Triumph lists a quickshifter for your 2027 TF 450-X, with a **minimum engine speed of 2,500 rpm for upshifts**.\n\nIn general, a quickshifter senses pressure on the shift lever and briefly reduces engine torque, unloading the gearbox so you can shift up without pulling the clutch or rolling off the throttle. That minimum rpm is an operating threshold—not a recommended racing shift point.\n\n**Use it when accelerating out of corners and along straights:** keep driving and make one positive upshift. As general racing practice, finish the shift before a jump face rather than upsetting drive halfway up it. The benefit is less interruption to acceleration and less clutch work.\n\nKeep using the clutch for starts, slow maneuvering and downshifts; auto-blipping downshift capability isn't confirmed for your bike. If an upshift resists, don't force the lever—use the clutch."
+ },
+ {
+  "id": "Q22",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-RC Edition",
+   "model_year": 2025
+  },
+  "message": "What is different on the RC Edition versus a standard TF 450-X? Suspension, engine, parts.",
+  "status": 200,
+  "answer": "**Your 2025 RC Edition isn’t a higher-output or stiffer-suspension version of the 2026 TF 450-X.** The main differences are fitted equipment and the X’s later mechanical revisions.\n\n### Suspension\nTriumph’s published baseline is the same on both:\n\n| Item | 2025 RC Edition | 2026 TF 450-X |\n|---|---|---|\n| Fork | KYB 48 mm AOS coil | Same |\n| Fork springs | 5.0 N/mm | 5.0 N/mm |\n| Shock spring | 58 N/mm | 58 N/mm |\n| Fork compression / rebound | 14 / 12 clicks out | Same |\n| Shock low-speed compression / rebound | 14 / 12 clicks out | Same |\n| Shock high-speed compression | 1¼ turns out | Same |\n| Rider / static sag | 102 / 36 mm | Same |\n\nClicks and turns are counted out from lightly seated. There’s no separate, firmer RC suspension package indicated.\n\n### Engine and drivetrain\n- Same **449.5 cc SOHC four-valve engine and mapping**—the RC map isn’t an extra power advantage over the X.\n- The X gets a higher-capacity Exedy clutch hub, revised Belleville spring and gearbox selector star, plus revised engine mounts.\n- Both US models use **13/48 gearing**; launch coverage reported a different X rear sprocket, but Triumph specifies 13/48.\n\n### Fitted parts\nThe RC comes with the **Wi-Fi tuning module, holeshot device, Hinson clutch cover, ODI RC4 bars, RC gripper seat and Dunlop MX34 tires**. The X drops those RC-specific extras and uses ProTaper ACF bars and Pirelli MX32 tires. The Hinson cover alone does **not** mean a complete Hinson clutch.\n\n**Bottom line:** the RC buys equipment and the RC finish—not a different performance class. The X brings the later clutch and shifting revisions.\n\nOne safety check: the cylinder-head recall covers a VIN range ending **…CD4981 through …CP1597**. Check your full VIN at Triumph’s recall lookup or with a dealer; if covered, Triumph says stop riding until the remedy is completed."
+ },
+ {
+  "id": "Q23",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-RC Edition",
+   "model_year": 2025
+  },
+  "message": "Stock clickers and springs on the RC Edition, and what do I change for a 90 kg rider?",
+  "status": 200,
+  "answer": "For **90 kg (198 lb) in full gear**, Triumph’s chart points to a **60 N/mm shock spring**. Here’s the RC Edition’s stock baseline:\n\n| Setting | Stock |\n|---|---:|\n| Fork compression | 14 clicks out |\n| Fork rebound | 12 clicks out |\n| Shock low-speed compression | 14 clicks out |\n| Shock high-speed compression | 1¼ turns out |\n| Shock rebound | 12 clicks out |\n| Fork springs | 5.0 N/mm |\n| Shock spring | 58 N/mm |\n\nCount out counterclockwise from **lightly seated**; set both fork legs equally.\n\n1. **Shock spring: stock 58 → 60 N/mm**, matching Triumph’s 85–95 kg (187–209 lb) rider band. Set riding sag to **102 mm (4.02 in)**, then check static sag against **36 mm (1.4 in)**. Too little static sag with correct riding sag means it is still too soft.\n2. **Fork springs: stock 5.0 → 5.1 N/mm in both legs** is a common-practice starting choice for your extra weight—not a published weight-chart recommendation. Triumph lists that spring option; confirm it gives better braking support without deflection or losing useful travel.\n\nKeep damping at stock while testing the springs, one end at a time. Is your 90 kg weight with riding gear on?"
+ },
+ {
+  "id": "Q24",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-RC Edition",
+   "model_year": 2025
+  },
+  "message": "How do I use the holeshot device and launch control together for a start?",
+  "status": 200,
+  "answer": "**Set the holeshot device first, then arm launch control—they do different jobs and work together.** The device holds the front down; launch control manages engine delivery.\n\n1. **Engine off, gearbox in neutral:** select the holeshot piston with the lever. Top piston gives minimum fork compression; bottom gives maximum. Compress the fork fully, release the lever slowly as the piston reaches the locking area, and check that the fork stays latched.\n2. Start and warm the engine. With the bike **stationary, idling and in neutral**, hold the **LC button until its light comes on**.\n3. Pull the clutch in, select your starting gear—second is a common starting point on a 450—and stage at the gate. Keep your chest forward and elbows up; hold steady revs and feed the clutch out smoothly. Launch control does **not** replace clutch control.\n4. The LC light flashes during the start and control switches off automatically a few seconds afterward. **Full throttle also cancels it**, as does a long LC-button press. The holeshot device releases separately when the fork compresses hard, usually under first-turn braking or over a bump.\n\nPractise three controlled starts in a clear area before racing. For the guided walkthrough, tap **Start a guided job** and choose **Set the engine map, traction, quickshifter and launch control**."
+ },
+ {
+  "id": "Q25",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 250-X",
+   "model_year": 2024
+  },
+  "message": "Stock fork and shock clickers and sag on my 2024 TF 250-X?",
+  "status": 200,
+  "answer": "Triumph’s stock settings for your **2024 TF 250-X** are:\n\n| Adjuster | Stock position |\n|---|---:|\n| Fork compression — top of both legs | **10 clicks out** |\n| Fork rebound — bottom of both legs | **12 clicks out** |\n| Shock low-speed compression — slotted screw | **10 clicks out** |\n| Shock high-speed compression — outer adjuster | **1 turn out** |\n| Shock rebound — bottom of shock | **12 clicks out** |\n\nCount out counterclockwise from **lightly seated clockwise**—never force the stops. Set both fork legs equally and record your existing positions first.\n\n- **Rider sag: 105 mm (4.1 in)**, seated in full riding gear with a full fuel tank.\n- **Static sag: 36 mm (1.4 in)**, bike on its wheels without the rider, measured from fully extended.\n\nThis baseline is intended for **75–85 kg (165–187 lb) in full gear**. Set rear sag and shock first, then tune the fork."
+ },
+ {
+  "id": "Q26",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 250-X",
+   "model_year": 2024
+  },
+  "message": "Rear axle torque and front axle torque? I heard the rear was revised.",
+  "status": 200,
+  "answer": "For your 2024 TF 250-X, Triumph specifies:\n- **Rear axle nut: 120 Nm (89 ft-lb)** — yes, revised up from the original 80 Nm (59 ft-lb).\n- **Front axle nut: 60 Nm (44 ft-lb).**\n\nThe front axle pinch bolts are **19 Nm (14 ft-lb)**, tightened outer, then inner, then outer again. After tightening the rear, recheck chain slack and wheel alignment."
+ },
+ {
+  "id": "Q27",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 250-X",
+   "model_year": 2025
+  },
+  "message": "What tire pressure and rear axle torque do I run? I don't know my VIN range.",
+  "status": 200,
+  "answer": "Triumph’s current settings for your 2025 TF 250-X are:\n- **Front and rear tires: 14 psi (0.97 bar), cold.**\n- **Rear wheel axle/spindle nut: 120 Nm (89 ft-lb).**\n\nThese figures are the same across both VIN ranges, including the earlier bike’s revised specifications—you don’t need your VIN for these two items. After tightening the axle, recheck wheel alignment, chain slack and rear brake operation."
+ },
+ {
+  "id": "Q28",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 250-X",
+   "model_year": 2025
+  },
+  "message": "Stock shock clickers? I bought it used and I don't know my VIN.",
+  "status": 200,
+  "answer": "**There are two stock shock baselines for your 2025 TF 250-X—Triumph splits them by VIN.**\n\n| Shock adjuster | BS4847 to CC7868: handbook 3850529 | CF3825 onward: handbook 3850672 |\n|---|---:|---:|\n| Low-speed compression | **10 clicks out** | **11 clicks out** |\n| High-speed compression | **1 turn out** | **⅞ turn out** |\n| Rebound | **12 clicks out** | **11 clicks out** |\n\nCount counterclockwise from gently seated fully clockwise; never force an adjuster. High-speed compression is counted in turns, not clicks.\n\nRecord the current positions before changing anything. Without the VIN, neither column can be picked as your exact factory baseline; when you locate it, the last six characters are enough to identify the range."
+ },
+ {
+  "id": "Q29",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 250-X",
+   "model_year": 2025
+  },
+  "message": "I'm 75 kg in gear. Which shock spring?",
+  "status": 200,
+  "answer": "Triumph specifies a **56 N/mm shock spring** for the 75–85 kg (165–187 lb) rider band in full protective clothing. After fitting, check rider sag and static sag to confirm the spring suits you."
+ },
+ {
+  "id": "Q30",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 250-X",
+   "model_year": 2026
+  },
+  "message": "Engine oil capacity with filter, viscosity, and change interval for racing?",
+  "status": 200,
+  "answer": "For your 2026 TF 250-X, Triumph specifies:\n- **With a new filter: 0.95 L (1.00 US qt).**\n- **Oil: 10W/50 fully synthetic motorcycle oil**, API SN or higher and JASO MA-2. Triumph Performance fully synthetic is recommended.\n- **Racing interval: after the first operating hour, then every 2.5 hours of race riding**—replace the oil and filter and clean both oil screens.\n\nConfirm the level rather than relying on quantity alone: after filling, idle for at least half a minute before revving, stop, and wait at least a minute. Hold the bike upright and level; warm oil should read between the sight-glass middle and upper mark."
+ },
+ {
+  "id": "Q31",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 250-X",
+   "model_year": 2026
+  },
+  "message": "Gearing for a tight track and where is the rev limiter? Should I go up on the rear sprocket?",
+  "status": 200,
+  "answer": "Yes—**go one tooth bigger on the rear** first for stronger pull out of tight corners. Your 2026 TF 250-X’s rev limiter is **14,000 rpm**, per Triumph.\n\n- **Rear sprocket: add 1 tooth to your current rear**, leaving the front unchanged. Triumph’s stock gearing is **13/48**, so if yours is stock, try **13/49**.\n\nTesters consistently find the stock gearing tall, and commonly use 13/49–13/50. The trade-off is more shifting and less speed in each gear; it does not close the gearbox’s internal ratio gaps. This engine likes revs—let it pull toward the limiter rather than short-shifting, but shift before repeatedly hitting the cut.\n\nCheck chain length and axle-adjuster room before buying. What front/rear tooth counts are fitted now?\n\n**Changes to try, one at a time:**\n- **Final-drive gearing:** Add 1 rear sprocket tooth to the current gearing; leave the front unchanged."
+ },
+ {
+  "id": "Q32",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 250-X",
+   "model_year": 2026
+  },
+  "message": "Front end pushes on corner entry and the rear squats too much exiting ruts. Setup fix?",
+  "status": 200,
+  "answer": "**Start with rear ride height, then firm the shock’s low-speed compression.** Testers consistently find this bike’s stock suspension soft; a low rear also takes bite away from the front.\n\n1. **Rear sag:** measure before changing preload. Triumph specifies **102 mm rider sag and 36 mm static sag**, with full fuel and riding gear. Too little static sag at correct rider sag points to a shock spring that’s too soft—fix that before clickers.\n2. **Shock low-speed compression:** go **2 clicks firmer from your current position** to reduce throttle-induced squat. If still stock, that’s **11 to 9 clicks out**. Leave high-speed compression alone initially.\n3. **Fork compression, only after retesting the rear:** if it stays high and won’t settle on entry, go **2 clicks softer**—stock **10 to 12 out**. If it dives and pushes while deep in its travel, go **2 clicks firmer instead**—stock **10 to 8 out**.\n\nMake one change at a time; repeat the same rut for three laps. These clicker steps are general tuning guidance, not Triumph’s prescribed symptom fix.\n\nKeep your seat position forward and roll on smoothly; practice five controlled passes through that rut without changing technique between setup tests.\n\n**What do you weigh in riding gear?**\n\n**Changes to try, one at a time:**\n- **Rear sag and spring suitability:** Measure current sag; target 102 mm rider sag and check against 36 mm static sag before damping changes.\n- **Shock low-speed compression:** Turn in 2 clicks from current position; if stock, from 11 to 9 clicks out."
+ },
+ {
+  "id": "Q33",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 250-X",
+   "model_year": 2026
+  },
+  "message": "Valve clearance specs and check interval? And when is piston replacement due?",
+  "status": 200,
+  "answer": "For your **2026 TF 250-X**:\n- **Valve check interval:** Triumph lists after the **first operating hour**, then at **45 and 90 operating hours**.\n- **Intake/exhaust clearances:** the exact figures aren’t confirmed here. They’re in the valve-clearance section of Triumph’s service manual; don’t set them from another model’s numbers.\n- **Piston replacement:** press coverage reports a **45-hour piston/top-end service interval**, but that isn’t confirmed here as Triumph’s mandatory piston replacement schedule. Triumph’s verified schedule lists an **engine major service at 90 hours**—that does not establish that the piston can safely wait until then.\n\nAs general race-maintenance practice, plan a top-end inspection around that reported 45-hour point and have the replacement decision based on piston, ring and cylinder measurements, riding load and service history."
+ },
+ {
+  "id": "Q34",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 250-X",
+   "model_year": 2027
+  },
+  "message": "What changed for 2027 on the TF 250-X versus 2026? Clickers and anything else.",
+  "status": 200,
+  "answer": "**For 2027, four damping adjusters have more-open stock settings; fork rebound is unchanged.** Triumph’s published settings compare like this, counted out from lightly seated:\n\n| Adjuster | 2026 | 2027 |\n|---|---:|---:|\n| Fork compression | 10 clicks out | **12 clicks out** |\n| Fork rebound | 12 clicks out | 12 clicks out |\n| Shock low-speed compression | 11 clicks out | **13 clicks out** |\n| Shock high-speed compression | ⅞ turn out | **1½ turns out** |\n| Shock rebound | 11 clicks out | **13 clicks out** |\n\nWith comparable internals, those directions mean less compression damping and faster shock return. **Different stock settings do not establish different internal valving**, so I wouldn’t promise the 2027 actually rides softer without that confirmation.\n\nOther confirmed details:\n- **Unchanged bore × stroke:** 78 × 52.3 mm.\n- **Unchanged fork outer-tube oil volume:** 315 cc per leg.\n- **Unchanged spring options:** fork springs 4.5–4.9 N/mm; shock springs 52–60 N/mm.\n- **2027 standard springs:** fork spring 4.7 N/mm and shock spring 56 N/mm. The equivalent 2026 standard rates aren’t confirmed here, so those cannot be called changes.\n\nEngine, frame, electronics and internal suspension hardware revisions aren’t confirmed for this comparison. Tester impressions supplied for the 2024–2026 generation do not establish how the 2027 rides."
+ },
+ {
+  "id": "Q35",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 250-X",
+   "model_year": 2027
+  },
+  "message": "I'm 90 kg. Stock spring rates and what Triumph recommends for me?",
+  "status": 200,
+  "answer": "For your **2027 TF 250-X**, Triumph specifies:\n\n| Item | Spring rate |\n|---|---|\n| Stock fork springs | **4.7 N/mm** |\n| Stock shock spring | **56 N/mm** |\n| Shock spring for 85–95 kg (187–209 lb) | **60 N/mm**, brown identification |\n\nAt **90 kg (198 lb)**, you fall in Triumph’s **60 N/mm shock spring** band. The factory suspension setup suits 75–85 kg (165–187 lb) wearing full protective clothing.\n\nFor the fork, Triumph lists optional fork springs from **4.5 to 4.9 N/mm**, but an exact weight-to-rate recommendation isn’t confirmed here. **Fork springs 4.8 N/mm** would be a common-practice first step for your weight—not Triumph’s published weight match. Confirm support through braking dive and bottoming, and check sag after fitting the shock spring; Triumph specifies **36 mm static sag**.\n\nOne important limit: Triumph lists **92 kg (203 lb) maximum rider weight including protective clothing**. Is your 90 kg with riding gear?"
+ },
+ {
+  "id": "Q36",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 250-C",
+   "model_year": 2026
+  },
+  "message": "Stock clickers and springs on the TF 250-C, and how is it different from the TF 250-X setup?",
+  "status": 200,
+  "answer": "**Your 2026 TF 250-C has softer stock clicker settings than the 2026 TF 250-X—not softer springs.** Triumph lists these baselines:\n\n| Setting | TF 250-C | TF 250-X |\n|---|---:|---:|\n| Fork compression | **12 clicks out** | 10 clicks out |\n| Fork rebound | **13 clicks out** | 12 clicks out |\n| Shock low-speed compression | **12 clicks out** | 11 clicks out |\n| Shock high-speed compression | **1½ turns out** | ⅞ turn out |\n| Shock rebound | **12 clicks out** | 11 clicks out |\n| Fork springs, each leg | **4.7 N/mm** | 4.7 N/mm |\n| Shock spring | **56 N/mm** | 56 N/mm |\n| Rider sag | **105 mm (4.1 in)** | 102 mm (4.02 in) |\n| Static sag | **36 mm (1.42 in)** | 36 mm (1.42 in) |\n\nCount everything counterclockwise from **lightly seated clockwise**; never force the stops. Set both fork legs equally. Both baselines suit **75–85 kg (165–187 lb) in full riding gear**.\n\nThe C's settings allow easier compression and quicker suspension return; its extra rider sag lowers the rear slightly. That fits its cross-country role, versus the X's motocross baseline. Different clicker numbers alone do **not** prove different internal valving.\n\nBoth also share the listed spring options: **fork springs 4.5–4.9 N/mm in 0.1 N/mm steps**, and **shock springs 52–60 N/mm in 2 N/mm steps**. Start with the C baseline rather than copying the X; Triumph specifies setting the rear before the fork."
+ },
+ {
+  "id": "Q37",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-E",
+   "model_year": 2026
+  },
+  "message": "Stock fork and shock settings and fork oil volumes on the TF 450-E? Is it the same as the 450-X?",
+  "status": 200,
+  "answer": "**No—the 2026 TF 450-E and TF 450-X have different stock baselines.** Triumph specifies:\n\n| Damping adjuster | TF 450-E | TF 450-X |\n|---|---:|---:|\n| Fork compression | **6 clicks out** | 14 clicks out |\n| Fork rebound | **6 clicks out** | 12 clicks out |\n| Shock low-speed compression | **10 clicks out** | 14 clicks out |\n| Shock high-speed compression | **1 turn out** | 1¼ turns out |\n| Shock rebound | **12 clicks out** | 12 clicks out |\n\nCount counterclockwise from lightly seated clockwise; never force the stop. Different clicker positions alone do not prove different internal valving.\n\n**Fork oil volumes, per leg:**\n\n| Location | TF 450-E | TF 450-X |\n|---|---:|---:|\n| Damper assembly | 195 cc (6.59 fl oz) | 195 cc (6.59 fl oz) |\n| Outer tube | **290 cc (9.81 fl oz)** | 315 cc (10.65 fl oz) |\n| Total | **485 cc (16.40 fl oz)** | 510 cc (17.25 fl oz) |\n| Outer-tube adjustment range | **260–330 cc** | 290–365 cc |\n\nBoth use **5 cc (0.17 fl oz) adjustment steps**. Keep both legs equal. More outer-tube oil increases deep-stroke resistance; do not use the X’s adjustment range for the E.\n\nThe E’s stock sag targets are **102 mm riding sag and 44 mm static sag**, with the factory setup based on a **75–85 kg (165–187 lb) rider in full riding gear**.\n\nSeparate safety item: the US cylinder-head recall covers VINs in the published range **...CD4981 to ...CP1597 (last six characters)**. Check your VIN with Triumph’s recall lookup or a dealer; if it falls in range, Triumph says to stop riding until the remedy is completed."
+ },
+ {
+  "id": "Q38",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2026
+  },
+  "message": "Steering head bearing and linkage service: how often for a racer, and what grease?",
+  "status": 200,
+  "answer": "Use **Triumph Performance RG2 grease (NLGI 2)** for the steering-head and linkage bearings.\n\nFor your 2026 TF 450-X, Triumph specifies:\n- **Steering head:** check/adjust after the first operating hour and every **2.5 hours of race riding**. Lubricate every **90 operating hours or 24 months**, whichever comes first.\n- **Rear linkage:** check for wear at **15, 30, 45 and 90 operating hours**. A separate scheduled linkage-regreasing interval isn't confirmed here.\n\n**Common race practice:** don't wait for the scheduled strip-down if you've raced through deep mud or water, or suspect wash water has reached the bearings. Inspect and repack earlier; clean out contaminated grease rather than adding fresh grease over it. Rough, rusty or loose bearings need replacement, not just grease.\n\nSeparate safety item: the US cylinder-head recall covers a VIN range ending **…CD4981 to …CP1597**. Check your full VIN through Triumph's recall lookup or a dealer; if it falls within the affected range, Triumph says to stop riding until the remedy is completed."
+ },
+ {
+  "id": "Q39",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 450-X",
+   "model_year": 2026
+  },
+  "message": "OK, I fitted the 60 N/mm shock spring. Exact clicker starting point now, and how do I set sag with it?",
+  "status": 200,
+  "answer": "With the **60 N/mm shock spring**, start at Triumph’s stock damping baseline—not automatically firmer just because the spring is stiffer:\n\n| Adjuster | Starting position |\n|---|---:|\n| Shock low-speed compression | **14 clicks out** |\n| Shock high-speed compression | **1¼ turns out** |\n| Shock rebound | **12 clicks out** |\n| Fork compression | **14 clicks out** |\n| Fork rebound | **12 clicks out** |\n\nCount counterclockwise from gently seated clockwise; never force the stops. Record your existing positions first.\n\nTo measure sag:\n1. Fill the fuel tank, check oil/coolant levels and use your usual tire pressures.\n2. On a secure stand with the rear wheel hanging, measure **A** from the rear axle center to the fender’s SAG mark.\n3. Off the stand, have a helper hold the bike upright without you. Measure **B** between the same points: **A − B = static sag**, target **36 mm (1.4 in)**.\n4. Sit aboard in full gear, feet on the pegs, bounce to settle, then measure **C**: **A − C = rider sag**, target **102 mm (4.02 in)**.\n\nMore preload reduces sag; less preload increases it. **Triumph requires shock removal for preload adjustment—have a suspension mechanic do that work.** Recheck both measurements afterward; too little static sag with correct rider sag suggests the spring remains too soft.\n\nFor a walkthrough, tap **Start a guided job** and choose **Measure the rear sag**. You can save your fitted spring with the button below."
+ },
+ {
+  "id": "Q40",
+  "bike": {
+   "manufacturer": "Triumph",
+   "model": "TF 250-X",
+   "model_year": 2025
+  },
+  "message": "My VIN ends in CF4102. Does that change any of the answers?",
+  "status": 200,
+  "answer": "**No—those answers stay the same.** Your VIN ending CF4102 falls in **CF3825 onward: handbook 3850672**. Triumph specifies:\n- **Front and rear tires: 14 psi (0.97 bar), cold.**\n- **Rear wheel spindle nut: 120 Nm (89 ft-lb).**\n\nRecheck chain slack and wheel alignment after tightening the spindle nut.\n\nSeparate safety note: the TF 250-X has a right-hand switch-cube recall because cracking can cause unexpected starting. Have a Triumph dealer confirm whether the remedy has been done; for an unrepaired affected bike, Triumph says to stop riding and disconnect the battery until it is fixed."
+ }
+]
