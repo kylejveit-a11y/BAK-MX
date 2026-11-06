@@ -1,0 +1,62 @@
+[
+ {
+  "i": 0,
+  "make": "KTM",
+  "model": "150 XC-W",
+  "yr": "2027",
+  "doc": "27_3240386_en_BA",
+  "layout": "2025_plus",
+  "n": 271,
+  "sched": 59,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 29,
+   "Capacities": 4,
+   "Chassis": 22,
+   "Tires": 2,
+   "Electrics": 4,
+   "Fork": 15,
+   "Shock absorber": 21,
+   "Engine tightening torques": 44,
+   "Chassis tightening torques": 71,
+   "Service schedule": 59
+  },
+  "damp": 15,
+  "dropped": [],
+  "flagged": [
+   [
+    "Chassis tightening torques / Screw, light switch (M5)",
+    "(0.7 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Screw, oil tank on frame (M6x10)",
+    "(4.4 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Screw, oil tank cap for oil tank (M6x13)",
+    "(4.4 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ]
+  ],
+  "notes": [
+   "(XC-W EU)",
+   "(XC-W US)",
+   "VARIANT Screw, frame protector",
+   "VARIANT Screw, seat installation",
+   "VARIANT Screw, shock absorber adjusting ring",
+   "XC-W EU",
+   "XC-W US"
+  ]
+ }
+]

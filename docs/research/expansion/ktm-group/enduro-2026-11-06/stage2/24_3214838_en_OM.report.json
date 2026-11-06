@@ -1,0 +1,116 @@
+[
+ {
+  "i": 0,
+  "make": "KTM",
+  "model": "250 XC-W",
+  "yr": "2024",
+  "doc": "24_3214838_en_OM",
+  "layout": "2020_2025",
+  "n": 285,
+  "sched": 59,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 28,
+   "Engine tightening torques": 43,
+   "Capacities": 5,
+   "Chassis": 23,
+   "Electrical system": 6,
+   "Fork": 15,
+   "Shock absorber": 21,
+   "Chassis tightening torques": 85,
+   "Service schedule": 59
+  },
+  "damp": 15,
+  "dropped": [
+   "Tires / Front tire",
+   "Tires / Rear tire"
+  ],
+  "flagged": [
+   [
+    "Electrical system / Indicator lamps (All special mod-",
+    "W2.3W / socket W2x4.6d; 12 V",
+    [
+     "parens"
+    ]
+   ],
+   [
+    "Electrical system / els, All XC ‑ W models, All 250 models, 300 EXC EU)",
+    "2.3 W",
+    [
+     "parens"
+    ]
+   ]
+  ],
+  "notes": [
+   "(All XC ‑ W models)",
+   "(All special models)",
+   "(All standard EXC models)",
+   "300 EXC BR",
+   "All 250 models",
+   "All 300 models",
+   "All EXC models",
+   "All HARDENDURO mod-",
+   "All SIX DAYS models",
+   "All XC ‑ W models",
+   "All standard models",
+   "UNRECOGNIZED All special models"
+  ]
+ },
+ {
+  "i": 1,
+  "make": "KTM",
+  "model": "300 XC-W",
+  "yr": "2024",
+  "doc": "24_3214838_en_OM",
+  "layout": "2020_2025",
+  "n": 285,
+  "sched": 59,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 28,
+   "Engine tightening torques": 43,
+   "Capacities": 5,
+   "Chassis": 23,
+   "Electrical system": 6,
+   "Fork": 15,
+   "Shock absorber": 21,
+   "Chassis tightening torques": 85,
+   "Service schedule": 59
+  },
+  "damp": 15,
+  "dropped": [
+   "Tires / Front tire",
+   "Tires / Rear tire"
+  ],
+  "flagged": [
+   [
+    "Electrical system / Indicator lamps (All special mod-",
+    "W2.3W / socket W2x4.6d; 12 V",
+    [
+     "parens"
+    ]
+   ],
+   [
+    "Electrical system / els, All XC ‑ W models, All 250 models, 300 EXC EU)",
+    "2.3 W",
+    [
+     "parens"
+    ]
+   ]
+  ],
+  "notes": [
+   "(All XC ‑ W models)",
+   "(All special models)",
+   "(All standard EXC models)",
+   "300 EXC BR",
+   "All 250 models",
+   "All 300 models",
+   "All EXC models",
+   "All HARDENDURO mod-",
+   "All SIX DAYS models",
+   "All XC ‑ W models",
+   "All standard models",
+   "UNRECOGNIZED All special models"
+  ]
+ }
+]

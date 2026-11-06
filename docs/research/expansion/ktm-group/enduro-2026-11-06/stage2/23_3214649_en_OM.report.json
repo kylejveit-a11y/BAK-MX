@@ -1,0 +1,48 @@
+[
+ {
+  "i": 0,
+  "make": "KTM",
+  "model": "450 XCF-W",
+  "yr": "2023",
+  "doc": "23_3214649_en_OM",
+  "layout": "2020_2025",
+  "n": 256,
+  "sched": 55,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 31,
+   "Engine tightening torques": 48,
+   "Capacities": 4,
+   "Chassis": 23,
+   "Electrical system": 7,
+   "Fork": 17,
+   "Shock absorber": 21,
+   "Chassis tightening torques": 50,
+   "Service schedule": 55
+  },
+  "damp": 15,
+  "dropped": [
+   "Electrical system / Fuse",
+   "Tires / Front tire",
+   "Tires / Rear tire"
+  ],
+  "flagged": [],
+  "notes": [
+   "(EXC ‑ F EU)",
+   "(EXC ‑ F SIX DAYS EU)",
+   "(XCF ‑ W)",
+   "450 EXC ‑ F EU, 450 EXC ‑ F SIX DAYS EU",
+   "450 EXC ‑ F SIX DAYS EU",
+   "500 EXC ‑ F SIX DAYS EU",
+   "All 450 models",
+   "All 500 models",
+   "All EU models",
+   "EXC ‑ F SIX DAYS EU",
+   "EXC- F SIX DAYS, XCF-W",
+   "UNRECOGNIZED 450 EXC ‑ F EU",
+   "UNRECOGNIZED 500 EXC ‑ F EU",
+   "UNRECOGNIZED EXC ‑ F EU, XCF ‑ W",
+   "XCF ‑ W"
+  ]
+ }
+]

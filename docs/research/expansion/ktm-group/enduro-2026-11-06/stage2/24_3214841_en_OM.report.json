@@ -1,0 +1,55 @@
+[
+ {
+  "i": 0,
+  "make": "KTM",
+  "model": "450 XCF-W",
+  "yr": "2024",
+  "doc": "24_3214841_en_OM",
+  "layout": "2020_2025",
+  "n": 282,
+  "sched": 57,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 32,
+   "Engine tightening torques": 59,
+   "Capacities": 3,
+   "Chassis": 23,
+   "Electrical system": 8,
+   "Fork": 15,
+   "Shock absorber": 21,
+   "Chassis tightening torques": 64,
+   "Service schedule": 57
+  },
+  "damp": 15,
+  "dropped": [
+   "Tires / Front tire",
+   "Tires / Rear tire"
+  ],
+  "flagged": [
+   [
+    "Engine tightening torques / Oil nozzle for the clutch lubrication (alternator cover sealing surface) (M4)",
+    "0.8 Nm (0.59 lbf ft)",
+    [
+     "longlabel"
+    ]
+   ]
+  ],
+  "notes": [
+   "(All EXC ‑ F SIX DAYS models)",
+   "(All EXC ‑ F models)",
+   "(XCF ‑ W)",
+   "(XW-F)",
+   "450 EXC ‑ F EU, 450 EXC ‑ F SIX DAYS EU",
+   "All 450 models",
+   "All 500 EXC-F models",
+   "All EXC ‑ F SIX DAYS models",
+   "All EXC ‑ F SIX DAYS models, XCF ‑ W",
+   "UNRECOGNIZED All 500 EXC-F models, XW-F",
+   "UNRECOGNIZED All EXC ‑ F models",
+   "UNRECOGNIZED All EXC ‑ F models, All 450 models",
+   "UNRECOGNIZED All EXC ‑ F models, XW- F",
+   "UNRECOGNIZED All EXC ‑ F, XCF ‑ W, XW-F",
+   "XCF ‑ W"
+  ]
+ }
+]

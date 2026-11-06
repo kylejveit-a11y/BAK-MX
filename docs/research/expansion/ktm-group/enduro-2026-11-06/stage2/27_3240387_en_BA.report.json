@@ -1,0 +1,280 @@
+[
+ {
+  "i": 0,
+  "make": "KTM",
+  "model": "250 XC-W",
+  "yr": "2027",
+  "doc": "27_3240387_en_BA",
+  "layout": "2025_plus",
+  "n": 258,
+  "sched": 59,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 25,
+   "Capacities": 4,
+   "Chassis": 19,
+   "Tires": 2,
+   "Electrics": 4,
+   "Fork": 15,
+   "Shock absorber": 21,
+   "Engine tightening torques": 39,
+   "Chassis tightening torques": 70,
+   "Service schedule": 59
+  },
+  "damp": 15,
+  "dropped": [
+   "Tires / Front tire",
+   "Tires / Rear tire",
+   "Chassis tightening torques / Screw, bottom triple clamp (M8)"
+  ],
+  "flagged": [
+   [
+    "Chassis / Weight without fuel approx. (All standard models ex-",
+    "104.6 kg",
+    [
+     "parens"
+    ]
+   ],
+   [
+    "Engine tightening torques / Exhaust port adapter screw cap (M5)",
+    "(4.4 ft ⋅ lb); Loctite® 243 (All models apart from US)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Engine tightening torques / Injector holder screw cap (M5)",
+    "(4.4 ft ⋅ lb); Loctite® 243",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Engine tightening torques / Stud, exhaust flange (M6)",
+    "(4.4 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Engine tightening torques / Nut, primary gear (M18LHx1.5)",
+    "150 Nm; ) Loctite® 243",
+    [
+     "parens"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Screw, turn signal switch (M5)",
+    "(0.7 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Screw, top triple clamp (M8)",
+    "(12.5 ft ⋅ lb); (All special models)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Nut, pull switch (M8)",
+    "(0.59 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Spoke nipple, front wheel (M4,5)",
+    "(4.4 ft ⋅ lb); Loctite® 243",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Screw, start/kill button (K50x18)",
+    "(1.5 ft ⋅ lb); EJOT PT®",
+    [
+     "shape",
+     "torque"
+    ]
+   ]
+  ],
+  "notes": [
+   "(All 250 XC-W EU and 300 EXC",
+   "(All 300 EXC EU special edition",
+   "(All BR models)",
+   "(All US models)",
+   "250 XC-W",
+   "250 XC-W EU",
+   "250 XC-W US",
+   "All 300 XC-W models",
+   "All 300 models",
+   "All BR models",
+   "All EXC models",
+   "All HARDENDURO models",
+   "All Six Days and BR mod-",
+   "All except HARDENDURO models",
+   "All standard models",
+   "Capacities - fork (All HARDENDURO models)",
+   "EU standard models)",
+   "Technical data - fork (All HARDENDURO models)",
+   "UNRECOGNIZED All EXC-EU models",
+   "UNRECOGNIZED All special models",
+   "VARIANT Nut, brake pedal stop",
+   "VARIANT Screw, light switch",
+   "VARIANT Screw, top triple clamp",
+   "VARIANT Screw, upper steering stem",
+   "VARIANT Screw-in nozzle, cooling system",
+   "VARIANT Spoke nipple, front wheel",
+   "VARIANT Spoke nipple, rear wheel",
+   "models)"
+  ]
+ },
+ {
+  "i": 1,
+  "make": "KTM",
+  "model": "300 XC-W",
+  "yr": "2027",
+  "doc": "27_3240387_en_BA",
+  "layout": "2025_plus",
+  "n": 258,
+  "sched": 59,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 25,
+   "Capacities": 4,
+   "Chassis": 19,
+   "Tires": 2,
+   "Electrics": 4,
+   "Fork": 15,
+   "Shock absorber": 21,
+   "Engine tightening torques": 39,
+   "Chassis tightening torques": 70,
+   "Service schedule": 59
+  },
+  "damp": 15,
+  "dropped": [
+   "Tires / Front tire",
+   "Tires / Rear tire",
+   "Chassis tightening torques / Screw, bottom triple clamp (M8)"
+  ],
+  "flagged": [
+   [
+    "Chassis / Weight without fuel approx. (All standard models ex-",
+    "104.6 kg",
+    [
+     "parens"
+    ]
+   ],
+   [
+    "Engine tightening torques / Exhaust port adapter screw cap (M5)",
+    "(4.4 ft ⋅ lb); Loctite® 243 (All models apart from US)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Engine tightening torques / Injector holder screw cap (M5)",
+    "(4.4 ft ⋅ lb); Loctite® 243",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Engine tightening torques / Stud, exhaust flange (M6)",
+    "(4.4 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Engine tightening torques / Nut, primary gear (M18LHx1.5)",
+    "150 Nm; ) Loctite® 243",
+    [
+     "parens"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Screw, turn signal switch (M5)",
+    "(0.7 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Screw, top triple clamp (M8)",
+    "(12.5 ft ⋅ lb); (All special models)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Nut, pull switch (M8)",
+    "(0.59 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Spoke nipple, front wheel (M4,5)",
+    "(4.4 ft ⋅ lb); Loctite® 243",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Screw, start/kill button (K50x18)",
+    "(1.5 ft ⋅ lb); EJOT PT®",
+    [
+     "shape",
+     "torque"
+    ]
+   ]
+  ],
+  "notes": [
+   "(All 250 XC-W EU and 300 EXC",
+   "(All 300 EXC EU special edition",
+   "(All BR models)",
+   "(All US models)",
+   "250 XC-W",
+   "250 XC-W EU",
+   "250 XC-W US",
+   "All 300 XC-W models",
+   "All 300 models",
+   "All BR models",
+   "All EXC models",
+   "All HARDENDURO models",
+   "All Six Days and BR mod-",
+   "All except HARDENDURO models",
+   "All standard models",
+   "Capacities - fork (All HARDENDURO models)",
+   "EU standard models)",
+   "Technical data - fork (All HARDENDURO models)",
+   "UNRECOGNIZED All EXC-EU models",
+   "UNRECOGNIZED All special models",
+   "VARIANT Nut, brake pedal stop",
+   "VARIANT Screw, light switch",
+   "VARIANT Screw, top triple clamp",
+   "VARIANT Screw, upper steering stem",
+   "VARIANT Screw-in nozzle, cooling system",
+   "VARIANT Spoke nipple, front wheel",
+   "VARIANT Spoke nipple, rear wheel",
+   "models)"
+  ]
+ }
+]

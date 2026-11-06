@@ -1,0 +1,39 @@
+[
+ {
+  "i": 0,
+  "make": "KTM",
+  "model": "150 XC-W",
+  "yr": "2022",
+  "doc": "22_3214420_en_OM",
+  "layout": "2020_2025",
+  "n": 282,
+  "sched": 59,
+  "sched_problems": [],
+  "secs": {
+   "engine": 29,
+   "Engine tightening torques": 50,
+   "Capacities": 5,
+   "Chassis": 24,
+   "Electrical system": 6,
+   "Tires": 2,
+   "Fork": 11,
+   "Shock absorber": 21,
+   "Chassis tightening torques": 75,
+   "Service schedule": 59
+  },
+  "damp": 12,
+  "dropped": [
+   "Electrical system / Fuse",
+   "Fork / Rebound damping / Comfort",
+   "Fork / Rebound damping / Standard",
+   "Fork / Rebound damping / Sport"
+  ],
+  "flagged": [],
+  "notes": [
+   "(150 EXC TPI EU)",
+   "(150 XC ‑ W TPI US)",
+   "150 EXC TPI EU",
+   "150 XC ‑ W TPI US"
+  ]
+ }
+]

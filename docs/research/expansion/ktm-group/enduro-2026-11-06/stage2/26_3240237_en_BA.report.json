@@ -1,0 +1,34 @@
+[
+ {
+  "i": 0,
+  "make": "KTM",
+  "model": "150 XC-W",
+  "yr": "2026",
+  "doc": "26_3240237_en_BA",
+  "layout": "2025_plus",
+  "n": 274,
+  "sched": 59,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 22,
+   "Capacities": 4,
+   "Chassis": 20,
+   "Tires": 4,
+   "Electrics": 4,
+   "Fork": 15,
+   "Shock absorber": 21,
+   "Engine tightening torques": 45,
+   "Chassis tightening torques": 80,
+   "Service schedule": 59
+  },
+  "damp": 15,
+  "dropped": [],
+  "flagged": [],
+  "notes": [
+   "(125 XC-W)",
+   "(150 XC-W)",
+   "125 XC-W",
+   "150 XC-W"
+  ]
+ }
+]
