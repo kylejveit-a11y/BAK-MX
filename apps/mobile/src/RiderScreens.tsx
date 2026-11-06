@@ -8,6 +8,8 @@ import React,{useCallback,useContext,useEffect,useRef,useState} from 'react';
 import {useKeyboardHeight} from './Glass';
 import {ActivityIndicator,Alert,Animated,Image,KeyboardAvoidingView,Linking,Modal,Platform,ScrollView,Share,StyleSheet,Text,TextInput,View} from 'react-native';
 import {Pressable} from './Touch';
+import {File as FsFile,Paths} from 'expo-file-system';
+import * as Sharing from 'expo-sharing';
 import {success} from './haptics';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {tap as hTap,select as hSelect} from './haptics';
@@ -121,7 +123,21 @@ const ago=(iso:string)=>{const m=Math.round((Date.now()-new Date(iso).getTime())
 const FILTERS:{value:PostCategory|'';label:string}[]=[{value:'',label:'All'},{value:'build',label:'Builds'},{value:'setup_question',label:'Setup questions'},{value:'ride_plan',label:'Ride plans'},{value:'general',label:'General'}];
 
 /** Community: a feed first. One-line composer, small filters, then posts that use the full width. */
-export function CommunityScreen({bike,onMessage,draft,draftToken}:{bike?:Bike;onMessage:(r:RiderRef)=>void;draft?:{category:PostCategory;body:string};draftToken?:string}){
+/** Share a post out of the app. Your own post goes as yours, caption plus the first photo, so it lands in Instagram,
+ *  Facebook, TikTok or Messages ready to post. Someone else's post is shared as theirs, text only. */
+async function sharePost(p:Post){
+ const caption=p.mine?p.body:`${riderName(p.author)} on BAK MX:\n\n${p.body}`,photo=p.mine?p.photos?.[0]:undefined;
+ try{
+  if(photo){
+   const file=await FsFile.downloadFileAsync(photo.url,new FsFile(Paths.cache,`bak-mx-post-${p.id}.jpg`),{idempotent:true});
+   if(Platform.OS==='ios'){await Share.share({url:file.uri,message:caption});return;}
+   // Android shares one file at a time: the caption goes first so it can be pasted, then the photo.
+   await Share.share({message:caption});if(await Sharing.isAvailableAsync())await Sharing.shareAsync(file.uri,{mimeType:'image/jpeg'});return;
+  }
+  await Share.share({message:caption});
+ }catch{Alert.alert('Could not share','Try again in a moment.');}
+}
+export function CommunityScreen({bike,onMessage,draft,draftToken}:{bike?:Bike;onMessage:(r:RiderRef)=>void;draft?:{category:PostCategory;body:string;photoIds?:string[]};draftToken?:string}){
  const {profile,setProfile}=useProfile();
  const [posts,setPosts]=useState<Post[]>([]),[filter,setFilter]=useState<PostCategory|''>(''),[notice,setNotice]=useState(''),[loading,setLoading]=useState(false),[composing,setComposing]=useState(false),[open,setOpen]=useState(''),[viewing,setViewing]=useState(''),[reporting,setReporting]=useState(''),[reason,setReason]=useState(''),[likers,setLikers]=useState<{title:string;path:string}|null>(null);
  // A post Ask BAK drafted opens in the composer; the rider still checks it and taps Post.
@@ -181,16 +197,17 @@ function PostView({p,open,onOpen,onLike,onMore,onRider,onLikers,onCount,report}:
   <View style={{flexDirection:'row',alignItems:'center',gap:22,paddingHorizontal:20}}>
    <Pressable accessibilityRole="button" haptic={false} accessibilityLabel={p.liked?'Unlike':'Like'} accessibilityState={{selected:p.liked}} hitSlop={8} onPress={onLike} style={{flexDirection:'row',alignItems:'center',gap:6}}><Icon name={p.liked?'heartOn':'heart'} size={23} color={p.liked?'#e8607a':colors.text}/></Pressable>{p.like_count>0&&<Pressable accessibilityRole="button" accessibilityLabel="See who liked this" hitSlop={8} onPress={()=>onLikers('/api/likes?post_id='+p.id)} style={{marginLeft:-14}}><Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>{p.like_count===1?'1 like':p.like_count+' likes'}</Text></Pressable>}
    <Pressable accessibilityRole="button" accessibilityLabel="Comments" hitSlop={8} onPress={onOpen} style={{flexDirection:'row',alignItems:'center',gap:6}}><Icon name="comment" size={22} color={colors.text}/>{p.comment_count>0&&<Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>{p.comment_count}</Text>}</Pressable>
-   <Pressable accessibilityRole="button" accessibilityLabel="Share" hitSlop={8} onPress={()=>void Share.share({message:`${riderName(p.author)} on BAK MX:\n\n${p.body}`}).catch(()=>{})}><Icon name="share" size={22} color={colors.text}/></Pressable>
+   <Pressable accessibilityRole="button" accessibilityLabel="Share" hitSlop={8} onPress={()=>void sharePost(p)}><Icon name="share" size={22} color={colors.text}/></Pressable>
   </View>
   {!open&&p.comment_count>0&&<Pressable onPress={onOpen} style={{paddingHorizontal:20}}><Text style={{color:'#adb5c1',fontSize:14}}>View {p.comment_count===1?'1 comment':`all ${p.comment_count} comments`}</Text></Pressable>}
   {open&&<Comments postId={p.id} onCount={onCount} onLikers={onLikers}/>}
  </View>;
 }
 
-function ComposeSheet({visible,profile,bike,seed,onClose,onPosted}:{visible:boolean;profile:Profile;bike?:Bike;seed?:{category:PostCategory;body:string};onClose:()=>void;onPosted:()=>void}){
+function ComposeSheet({visible,profile,bike,seed,onClose,onPosted}:{visible:boolean;profile:Profile;bike?:Bike;seed?:{category:PostCategory;body:string;photoIds?:string[]};onClose:()=>void;onPosted:()=>void}){
  const insets=useSafeAreaInsets(),kb=useKeyboardHeight();
  const [category,setCategory]=useState<PostCategory>(seed?.category??'setup_question'),[body,setBody]=useState(seed?.body??''),[tagBike,setTagBike]=useState(true),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[photos,setPhotos]=useState<Photo[]>([]),[uploading,setUploading]=useState(0);
+ useEffect(()=>{const ids=seed?.photoIds??[];if(!ids.length)return;let live=true;api<Photo[]>('/api/photos?ids='+ids.join(',')).then(p=>{if(live)setPhotos(p.slice(0,4));}).catch(()=>{});return()=>{live=false};},[seed?.photoIds?.join(',')]);
  const ready=!!body.trim()&&!busy&&!uploading;
  async function publish(){if(!ready)return;setBusy(true);setNotice('');try{await api('/api/posts','POST',{category,body,bike_label:tagBike&&bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:'',photo_ids:photos.map(p=>p.id)});setBody('');setPhotos([]);success();onPosted();}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
  async function add(source:'camera'|'library'){

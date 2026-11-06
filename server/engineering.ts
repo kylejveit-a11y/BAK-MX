@@ -50,7 +50,7 @@ export function testerBaselinesFor(bike:{manufacturer:string;model:string;model_
  *  3. answer   – one call writes the reply; every factual claim carries a confidence tier
  *  4. check    – code verifies citations and exact published values; one repair attempt, then an honest failure
  *  A backup model is tried when the provider fails. Model names come only from configuration. */
-export const PROMPT_VERSION='mx-engineering-71';
+export const PROMPT_VERSION='mx-engineering-72';
 
 /** How solid a claim is. PUBLISHED must cite retrieved evidence; nothing may be presented above its real tier. */
 export const TIERS=['PUBLISHED','RIDER_SAVED','ENGINEERING','GENERAL','COMMUNITY','UNKNOWN'] as const;
@@ -283,7 +283,7 @@ The rider can ask you to do things in the app for them. You cannot do anything y
 - update_profile: any of display_name, bio, location, riding_class, race_number (1 to 3 digits). Only the fields they asked to change.
 - rsvp_event: event_id, status "going"|"interested"|"not_going", public "true" only when they said to show their name in the going list, otherwise "false".
 - create_event: title, event_type (ride_day, race, practice, clinic, meetup), starts_local "YYYY-MM-DDTHH:MM" in the rider's local time (app_context.today is today's date and app_context.weekday its day; "Saturday" means the coming Saturday, "next Saturday" the one after that if today is Friday or Saturday; ask for the date and time if they did not give them), location_name, description.
-- draft_post: category (build, setup_question, ride_plan, general), body. Write the post in the rider's voice from what they told you; it opens in the post editor for them to check and post themselves.
+- draft_post: category (build, setup_question, ride_plan, general), body. It opens in the post editor for them to check and post themselves, with any photos they attached to this message already in it (app_context.photos). When they ask you to post a photo or clip, or make a post for them, write it like a strong motocross social post in the rider's own voice: a short punchy first line, then one to three lines on what is actually in the photo (the bike, the track, the moment, what you can see them doing) and the build or work behind it from their Garage and this conversation, then 3 to 6 relevant hashtags (the bike, the brand, the track or riding type, #motocross, #bakmx). Never invent results, speeds, places, sponsors or people that are not in the photo or the conversation; no emoji walls (two at most). Show the post text in your answer too, so they can read it before opening it. A video clip cannot go into a post yet: write the caption anyway and tell them to add their best still or the clip when they share it.
 - log_setup: change_made, track, conditions, result (better, worse, no_change, not_tested), notes, bike_id (optional).
 - open: screen (home, garage, build_sheet, ask, community, events, messages, workshop, setup_log, maintenance, specs, account).
 Settings and parts on the bike itself (clickers, sag, springs, jetting, gearing, tires, the build sheet) go in garage_updates, not app_actions. You cannot change privacy or sharing settings, blocks, reports, the account, billing or sign-in, send messages to other riders, or delete anything: if asked, say plainly that the rider does that themselves and open the screen for them with an open action.

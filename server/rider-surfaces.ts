@@ -142,7 +142,7 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
    return json(posts.map(({photo_ids,...p})=>({...p,photos:pick(plinks,photo_ids),author:author(profiles,p.user_id),mine:p.user_id===owner,like_count:likeRows.filter(l=>l.post_id===p.id).length,liked:likeRows.some(l=>l.post_id===p.id&&l.user_id===owner),comment_count:commentRows.filter(c=>c.post_id===p.id).length})));
   }
   if(method==='POST'){
-   const data=postSchema.parse(await readJson(req));screen(data.body);await requireProfile(db,owner);await requireOwnPhotos(owner,data.photo_ids,'post');
+   const data=postSchema.parse(await readJson(req));screen(data.body);await requireProfile(db,owner);await requireOwnPhotos(owner,data.photo_ids,['post','chat']);
    const result=await db.from('posts').insert({...data,user_id:owner}).select('id,user_id,category,body,bike_label,created_at').single();
    if(result.error)saveFailed(result.error,'This post already exists.');
    return json(result.data,201);

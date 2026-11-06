@@ -21,12 +21,14 @@ export type AppAction=
  |{type:'update_profile';display_name?:string;bio?:string;location?:string;riding_class?:string;race_number?:string}
  |{type:'rsvp_event';event_id:string;title:string;status:'going'|'interested'|'not_going';public:boolean}
  |{type:'create_event';title:string;event_type:EventType;starts_local:string;location_name:string;description:string}
- |{type:'draft_post';category:PostCategory;body:string}
+ |{type:'draft_post';category:PostCategory;body:string;photo_ids:string[]}
  |{type:'log_setup';bike_id:string;track:string;conditions:string;change_made:string;result:SetupResult;notes:string}
  |{type:'open';screen:AppScreen};
 
 /** What the model sees about the rider's app, so actions point at real bikes and events. */
-export type AppContext={bikes:{id:string;label:string;active:boolean}[];events:{id:string;title:string;type:string;starts_at:string;location:string;my_rsvp:string|null}[];today:string;weekday?:string};
+export type AppContext={bikes:{id:string;label:string;active:boolean}[];events:{id:string;title:string;type:string;starts_at:string;location:string;my_rsvp:string|null}[];today:string;weekday?:string;
+ /** photos the rider attached to this message; a drafted post carries them */
+ photos?:string[]};
 
 const clip=(v:unknown,n:number)=>typeof v==='string'?v.replace(/\s+/g,' ').trim().slice(0,n):'';
 const long=(v:unknown,n:number)=>typeof v==='string'?v.replace(/\r/g,'').trim().slice(0,n):'';
@@ -54,7 +56,7 @@ export function cleanAppActions(raw:unknown,ctx:AppContext,activeBikeId:string|n
   else if(type==='update_profile'){const a:AppAction={type};for(const [k,n] of [['display_name',60],['bio',500],['location',80],['riding_class',60],['race_number',3]] as const)if(f[k]!==undefined)(a as Record<string,unknown>)[k]=k==='bio'?long(f[k],n):clip(f[k],n);if(a.type==='update_profile'&&a.race_number!==undefined&&!/^\d{0,3}$/.test(a.race_number))delete a.race_number;if(Object.keys(a).length>1)out.push(a);}
   else if(type==='rsvp_event'){const e=ctx.events.find(x=>x.id===f.event_id?.trim()),status=oneOf(f.status,['going','interested','not_going'] as const);if(e&&status)out.push({type,event_id:e.id,title:e.title,status,public:f.public==='true'});}
   else if(type==='create_event'){const et=oneOf(f.event_type,Object.keys(EVENT_TYPE_LABELS) as EventType[]),starts=/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(f.starts_local??'')?f.starts_local:'';const title=clip(f.title,120),where=clip(f.location_name,160);if(et&&starts&&title&&where&&starts.slice(0,10)>=ctx.today)out.push({type,title,event_type:et,starts_local:starts,location_name:where,description:long(f.description,4000)});}
-  else if(type==='draft_post'){const c=oneOf(f.category,Object.keys(POST_CATEGORY_LABELS) as PostCategory[])??'general',body=long(f.body,4000);if(body)out.push({type,category:c,body});}
+  else if(type==='draft_post'){const c=oneOf(f.category,Object.keys(POST_CATEGORY_LABELS) as PostCategory[])??'general',body=long(f.body,4000);if(body)out.push({type,category:c,body,photo_ids:(ctx.photos??[]).slice(0,4)});}
   else if(type==='log_setup'){const id=bikeFor(f),change=clip(f.change_made,1000);if(id&&change)out.push({type,bike_id:id,track:clip(f.track,120),conditions:clip(f.conditions,200),change_made:change,result:oneOf(f.result,Object.keys(SETUP_RESULT_LABELS) as SetupResult[])??'not_tested',notes:long(f.notes,4000)});}
   else if(type==='open'){const screen=oneOf(f.screen,APP_SCREENS);if(screen)out.push({type,screen});}
  }
@@ -78,7 +80,7 @@ export function describeAppAction(a:AppAction,bikes:Pick<Bike,'id'|'model_year'|
   case 'update_profile':return {title:'Update your rider profile',detail:[a.display_name!==undefined&&`Name: ${a.display_name||'(blank)'}`,a.location!==undefined&&`Location: ${a.location||'(blank)'}`,a.riding_class!==undefined&&`Class: ${a.riding_class||'(blank)'}`,a.race_number!==undefined&&`Number: ${a.race_number||'(blank)'}`,a.bio!==undefined&&`Bio: ${a.bio.length>90?a.bio.slice(0,90)+'…':a.bio||'(blank)'}`].filter(Boolean).join(' · ')};
   case 'rsvp_event':return {title:a.status==='not_going'?`Take back your RSVP for ${a.title}`:`Mark ${a.status==='going'?'Going':'Interested'} for ${a.title}`,detail:a.status==='going'?(a.public?'Your profile shows in the going list.':'Counted in the total; your profile stays private.'):''};
   case 'create_event':return {title:`Create ${EVENT_TYPE_LABELS[a.event_type].toLowerCase()}: ${a.title}`,detail:`${when(a.starts_local)} · ${a.location_name}. Other riders can see it.`};
-  case 'draft_post':return {title:`Draft a ${POST_CATEGORY_LABELS[a.category].toLowerCase()} post`,detail:'Opens the post with this text so you can check it, add photos and post it yourself.'};
+  case 'draft_post':return {title:`Draft a ${POST_CATEGORY_LABELS[a.category].toLowerCase()} post${a.photo_ids.length?` with your ${a.photo_ids.length===1?'photo':a.photo_ids.length+' photos'}`:''}`,detail:a.body.length>140?a.body.slice(0,140)+'…':a.body};
   case 'log_setup':return {title:`Add to ${bikeName(a.bike_id)}'s setup log`,detail:[a.change_made,a.track&&`at ${a.track}`,a.result!=='not_tested'&&SETUP_RESULT_LABELS[a.result].toLowerCase()].filter(Boolean).join(' · ')};
   case 'open':return {title:`Open ${SCREEN_LABELS[a.screen]}`,detail:''};
  }
@@ -93,7 +95,7 @@ export type AppActionHost={
  selectBike:(id:string)=>void;
  setTheme:(mode:'bike'|'bak')=>void;
  open:(screen:AppScreen)=>void;
- draftPost:(category:PostCategory,body:string)=>void;
+ draftPost:(category:PostCategory,body:string,photoIds:string[])=>void;
  newId:()=>string;
 };
 
@@ -113,7 +115,7 @@ export async function runAppAction(a:AppAction,host:AppActionHost):Promise<strin
    const keep=['handle','display_name','bio','avatar_photo_id','location','riding_class','race_number'];await host.api('/profile','PUT',{...Object.fromEntries(keep.filter(k=>now[k]!==undefined&&now[k]!==null).map(k=>[k,now[k]])),...change});return 'Profile saved';}
   case 'rsvp_event':if(a.status==='not_going'){await host.api('/rsvps?event_id='+a.event_id,'DELETE');return 'RSVP removed';}await host.api('/rsvps','PUT',{event_id:a.event_id,status:a.status,public:a.public});return a.status==='going'?'You’re going':'Marked interested';
   case 'create_event':{const start=new Date(a.starts_local);if(Number.isNaN(start.getTime()))throw new Error('That date did not make sense.');await host.api('/events','POST',{title:a.title,event_type:a.event_type,starts_at:start.toISOString(),ends_at:null,location_name:a.location_name,description:a.description});host.open('events');return 'Event created';}
-  case 'draft_post':host.draftPost(a.category,a.body);return 'Draft opened';
+  case 'draft_post':host.draftPost(a.category,a.body,a.photo_ids??[]);return 'Draft opened. Check it and tap Post.';
   case 'log_setup':{const b=bike(a.bike_id);await host.api('/setup-logs','POST',{bike_id:b.id,recorded_at:new Date().toISOString(),track:a.track,conditions:a.conditions,engine_hours:b.engine_hours??null,settings:{},change_made:a.change_made,result:a.result,notes:a.notes});return 'Logged';}
   case 'open':host.open(a.screen);return 'Opened';
  }

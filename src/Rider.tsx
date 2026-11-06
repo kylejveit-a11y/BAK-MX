@@ -165,13 +165,13 @@ function RiderActions({rider,target,onBlocked,onMessage,showMessage=true}:{rider
 
 /* ------------------------------------------------------------------ Community */
 const FILTERS:{value:PostCategory|'';label:string}[]=[{value:'',label:'All'},{value:'build',label:'Builds'},{value:'setup_question',label:'Setup questions'},{value:'ride_plan',label:'Ride plans'},{value:'general',label:'General'}];
-export function Community({signedIn,bike,onSignIn,onMessage,draft,onDraftUsed}:{signedIn:boolean;bike?:Bike;onSignIn:()=>void;onMessage:(r:RiderRef)=>void;draft?:{id:string;category:PostCategory;body:string}|null;onDraftUsed?:()=>void}){
+export function Community({signedIn,bike,onSignIn,onMessage,draft,onDraftUsed}:{signedIn:boolean;bike?:Bike;onSignIn:()=>void;onMessage:(r:RiderRef)=>void;draft?:{id:string;category:PostCategory;body:string;photoIds?:string[]}|null;onDraftUsed?:()=>void}){
  const {profile,setProfile}=useProfile(signedIn);
  const [posts,setPosts]=useState<Post[]>([]),[filter,setFilter]=useState<PostCategory|''>(''),[loading,setLoading]=useState(false),[error,setError]=useState(''),[composing,setComposing]=useState(false),[openPost,setOpenPost]=useState(''),[viewing,setViewing]=useState('');
  const live=useRef(0);
  // A post Ask BAK drafted opens in the composer; the rider still checks it and taps Post.
- const [seed,setSeed]=useState<{category:PostCategory;body:string}|null>(null);
- useEffect(()=>{if(draft){setSeed({category:draft.category,body:draft.body});setComposing(true);onDraftUsed?.();}},[draft?.id]);
+ const [seed,setSeed]=useState<{category:PostCategory;body:string;photoIds?:string[]}|null>(null);
+ useEffect(()=>{if(draft){setSeed({category:draft.category,body:draft.body,photoIds:draft.photoIds});setComposing(true);onDraftUsed?.();}},[draft?.id]);
  async function load(){const run=++live.current;setLoading(true);try{const data=await api<Post[]>('/posts'+(filter?'?category='+filter:''));if(run===live.current){setPosts(data);setError('');}}catch(e){if(run===live.current)setError(errorText(e));}finally{if(run===live.current)setLoading(false);}}
  useEffect(()=>{if(signedIn&&profile)void load();},[signedIn,profile?.user_id,filter]);
  async function toggleLike(p:Post){
@@ -196,11 +196,19 @@ export function Community({signedIn,bike,onSignIn,onMessage,draft,onDraftUsed}:{
  </>;
 }
 /** Share through the device sheet when the browser has one; otherwise copy the text and link. */
+/** Share a post out of the app. Your own post goes as yours: the caption and the first photo, so it lands in Instagram,
+ *  Facebook, TikTok or Messages ready to post. Someone else's post is shared as theirs, text only. */
 async function sharePost(p:Post):Promise<string>{
- const text=`${riderName(p.author)} on BAK MX:\n\n${p.body}`,url=location.origin+location.pathname;
+ const caption=p.mine?p.body:`${riderName(p.author)} on BAK MX:\n\n${p.body}`,url=location.origin+location.pathname;
  try{
-  if(typeof navigator.share==='function'){await navigator.share({title:'BAK MX',text,url});return '';}
-  await navigator.clipboard.writeText(text+'\n\n'+url);return 'Copied. Paste it anywhere.';
+  const photo=p.mine?p.photos?.[0]:undefined;
+  if(photo&&typeof navigator.share==='function'&&typeof navigator.canShare==='function'){
+   const blob=await fetch(photo.url).then(r=>r.ok?r.blob():Promise.reject(new Error('photo')));
+   const file=new File([blob],'bak-mx-post.'+(blob.type.split('/')[1]||'jpg'),{type:blob.type||'image/jpeg'});
+   if(navigator.canShare({files:[file]})){try{await navigator.clipboard?.writeText(caption);}catch{/* the share carries the text too */}await navigator.share({text:caption,files:[file]});return 'Caption copied too, for apps that drop it (Instagram).';}
+  }
+  if(typeof navigator.share==='function'){await navigator.share({title:'BAK MX',text:caption,...(p.mine?{}:{url})});return '';}
+  await navigator.clipboard.writeText(p.mine?caption:caption+'\n\n'+url);return p.mine&&p.photos?.length?'Caption copied. Save the photo and paste the caption in Instagram or Facebook.':'Copied. Paste it anywhere.';
  }catch(e){return (e as Error).name==='AbortError'?'':'Could not share this post.';}
 }
 function PostCard({post:p,open,onOpen,onLike,onDelete,onRider,onViewRider,onMessage,onBlocked,onCount}:{post:Post;open:boolean;onOpen:()=>void;onLike:()=>void;onDelete:()=>void;onRider:()=>void;onViewRider:(id:string)=>void;onMessage:(r:RiderRef)=>void;onBlocked:()=>void;onCount:(n:number)=>void}){
@@ -232,8 +240,9 @@ function PostCard({post:p,open,onOpen,onLike,onDelete,onRider,onViewRider,onMess
  </article>;
 }
 /** New post: category chips, the bike tag, up to four photos. */
-function Composer({profile,bike,seed,onClose,onPosted}:{profile:Profile;bike?:Bike;seed?:{category:PostCategory;body:string}|null;onClose:()=>void;onPosted:()=>void}){
+function Composer({profile,bike,seed,onClose,onPosted}:{profile:Profile;bike?:Bike;seed?:{category:PostCategory;body:string;photoIds?:string[]}|null;onClose:()=>void;onPosted:()=>void}){
  const [category,setCategory]=useState<PostCategory>(seed?.category??'setup_question'),[body,setBody]=useState(seed?.body??''),[tagBike,setTagBike]=useState(true),[busy,setBusy]=useState(false),[error,setError]=useState(''),[photos,setPhotos]=useState<Photo[]>([]),[uploading,setUploading]=useState(0);
+ useEffect(()=>{const ids=seed?.photoIds??[];if(!ids.length)return;let live=true;api<Photo[]>('/photos?ids='+ids.join(',')).then(p=>{if(live)setPhotos(p.slice(0,4));}).catch(()=>{});return()=>{live=false};},[seed?.photoIds?.join(',')]);
  const ready=!!body.trim()&&!busy&&!uploading,room=4-photos.length;
  const hint={build:'What you did to the bike and how it turned out',setup_question:'What the bike is doing, where, and what you’ve tried',ride_plan:'Where, when, and who should come',general:'What’s on your mind'}[category];
  async function publish(e:FormEvent){e.preventDefault();if(!ready)return;setBusy(true);setError('');try{await api('/posts','POST',{category,body,bike_label:tagBike&&bike?bikeLabel(bike):'',photo_ids:photos.map(p=>p.id)});onPosted();}catch(err){setError(errorText(err));}finally{setBusy(false);}}

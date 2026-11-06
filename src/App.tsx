@@ -69,7 +69,7 @@ export function App(){
  // While adding a bike the page colour follows the make being picked, like the phone.
  const [draftMake,setDraftMake]=useState<string|null>(null);
  const messageRider=(rider:RiderRef)=>{setMessageTarget(rider);go('Messages');};
- const [postDraft,setPostDraft]=useState<{id:string;category:PostCategory;body:string}|null>(null);
+ const [postDraft,setPostDraft]=useState<{id:string;category:PostCategory;body:string;photoIds:string[]}|null>(null);
  const currentUser=useRef(session?.user.id);currentUser.current=session?.user.id;
  const bikes=fetchedBikes.filter(b=>b.user_id===session?.user.id);
  const bike=bikes.find(b=>b.id===selected)||bikes[0];
@@ -92,7 +92,7 @@ export function App(){
  const appHost:Omit<AppActionHost,'bikes'>={api:(path,method,body)=>api(path,method,body),refreshBikes:refresh,selectBike:id=>{selectBike(id);setGeneral(false);},
   setTheme:m=>{setColorMode(m);try{localStorage.setItem('bak.app-color',m);}catch{/* this tab only */}},
   open:screen=>{const to:Record<AppScreen,Page>={home:'Overview',garage:'Garage',build_sheet:'Garage',ask:'Ask BAK',community:'Community',events:'Events',messages:'Messages',workshop:'Workshop',setup_log:'Setup',maintenance:'Maintenance',specs:'Specs',account:'Account'};if(screen==='build_sheet')setGtab('build');else if(screen==='garage')setGtab('overview');go(to[screen]);},
-  draftPost:(category,body)=>{setPostDraft({id:crypto.randomUUID(),category,body});go('Community');},newId:()=>crypto.randomUUID()};
+  draftPost:(category,body,photoIds)=>{setPostDraft({id:crypto.randomUUID(),category,body,photoIds});go('Community');},newId:()=>crypto.randomUUID()};
  const firstNeeded=!!bike&&needsFirstSetup(bike);
  /** Put text in the Ask BAK box for the current bike (and send it when asked). */
  const askAbout=(text:string,send=false,mode:'ask'|'setup'='ask')=>{if(!bike)return;setGeneral(false);setAskMode(mode);setAskThread(null);setAskPrefill({id:crypto.randomUUID(),identity:buildIdentity(bike),text,send});go('Ask BAK');};

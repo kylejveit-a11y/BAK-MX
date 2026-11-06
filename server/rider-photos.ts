@@ -30,9 +30,9 @@ export async function photoLinks(ids:string[],seconds=3600):Promise<Map<string,P
 export const pick=(links:Map<string,PhotoRef>,ids:string[]|null|undefined)=>(ids??[]).map(id=>links.get(id)).filter((x):x is PhotoRef=>!!x);
 
 /** Throws unless every id is the owner's photo of that kind. */
-export async function requireOwnPhotos(owner:string,ids:string[],kind:PhotoKind){
+export async function requireOwnPhotos(owner:string,ids:string[],kind:PhotoKind|PhotoKind[]){
  if(!ids.length)return;
- const rows=checked(await adminDb().from('rider_photos').select('id').eq('user_id',owner).eq('kind',kind).in('id',ids)) as {id:string}[]|null;
+ const rows=checked(await adminDb().from('rider_photos').select('id').eq('user_id',owner).in('kind',Array.isArray(kind)?kind:[kind]).in('id',ids)) as {id:string}[]|null;
  if((rows?.length??0)!==new Set(ids).size)throw new HttpError(400,'One of those photos could not be found. Add it again.');
 }
 
@@ -52,6 +52,12 @@ export async function handleRiderPhotos(req:Request,path:string,method:string,ur
   return json({id,path:storage_path,token:signed.data.token},201);
  }
  if(path==='/api/photos'&&method==='GET'){
+  // ?ids=a,b: the rider's own photos by id, any kind (a photo sent to Ask BAK going into a post Ask BAK drafted).
+  if(url.searchParams.has('ids')){
+   const ids=z.array(z.string().uuid()).max(8).parse((url.searchParams.get('ids')??'').split(',').filter(Boolean));
+   const rows=ids.length?(checked(await db.from('rider_photos').select('id').eq('user_id',owner).in('id',ids)) as {id:string}[]):[];
+   const links=await photoLinks(rows.map(r=>r.id));return json(ids.filter(id=>links.has(id)).map(id=>links.get(id)!));
+  }
   const kind=z.enum(PHOTO_KINDS).parse(url.searchParams.get('kind')??'bike');
   let query=db.from('rider_photos').select('id,bike_id,created_at').eq('user_id',owner).eq('kind',kind).order('created_at',{ascending:false}).limit(100);
   const bike=url.searchParams.get('bike_id');if(bike)query=query.eq('bike_id',z.string().uuid().parse(bike));

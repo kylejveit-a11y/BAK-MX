@@ -63,7 +63,7 @@ import {garageFieldGroups,buildProgress,multiValues,multiString} from '../../../
 import {systemsRecorded,partSystems} from '../../../shared/installed-parts';
 import {CommunityScreen,EventsScreen,MessagesScreen,SetupLogCard,PartsCatalogCard,ProfileCard,FeedbackCard,StartRow,FormHead,SetupGuideCard} from './RiderScreens';
 import type {RiderRef} from '../../../shared/rider-types';
-type Tabs={Home:undefined;Garage:{open?:'edit'|'build';token?:string}|undefined;'Ask BAK':{mode?:Conversation['mode'];context?:string;contextToken?:string;contextBikeId?:string;prompt?:string;promptToken?:string;camera?:string;clip?:string;thread?:string;threadToken?:string}|undefined;Maintenance:undefined;Account:undefined;Setup:{note?:string;noteToken?:string}|undefined;Learn:undefined;Specs:undefined;Workshop:undefined;Bikes:undefined;Community:{draft?:{category:PostCategory;body:string};draftToken?:string}|undefined;Events:undefined;Messages:{rider?:RiderRef}|undefined};
+type Tabs={Home:undefined;Garage:{open?:'edit'|'build';token?:string}|undefined;'Ask BAK':{mode?:Conversation['mode'];context?:string;contextToken?:string;contextBikeId?:string;prompt?:string;promptToken?:string;camera?:string;clip?:string;thread?:string;threadToken?:string}|undefined;Maintenance:undefined;Account:undefined;Setup:{note?:string;noteToken?:string}|undefined;Learn:undefined;Specs:undefined;Workshop:undefined;Bikes:undefined;Community:{draft?:{category:PostCategory;body:string;photoIds?:string[]};draftToken?:string}|undefined;Events:undefined;Messages:{rider?:RiderRef}|undefined};
 const Tab=createBottomTabNavigator<Tabs>();
 // Siri, Shortcuts and the Action button open screens through these links (see appLinks.ts).
 const navRef=createNavigationContainerRef<Tabs>();let queuedLink:AppLink|null=null,initialLinkSeen=false;
@@ -252,7 +252,7 @@ function ChatForBike({route,navigation}:BottomTabScreenProps<Tabs,'Ask BAK'>){
  const appHost:AppActionHost={api:(path,method,body)=>api('/api'+path,method,body),bikes,refreshBikes:reload,selectBike:select,setTheme:setColorMode,newId:randomUUID,
   open:(screen:AppScreen)=>{const to:Record<AppScreen,keyof Tabs>={home:'Home',garage:'Garage',build_sheet:'Garage',ask:'Ask BAK',community:'Community',events:'Events',messages:'Messages',workshop:'Workshop',setup_log:'Setup',maintenance:'Maintenance',specs:'Specs',account:'Account'};
    if(screen==='build_sheet')navigation.navigate('Garage',{open:'build',token:randomUUID()});else navigation.navigate(to[screen] as never);},
-  draftPost:(category,body)=>navigation.navigate('Community',{draft:{category,body},draftToken:randomUUID()})};
+  draftPost:(category,body,photoIds)=>navigation.navigate('Community',{draft:{category,body,photoIds},draftToken:randomUUID()})};
  const[attached,setAttached]=useState<Photo[]>([]),[clip,setClip]=useState<{duration:number;frames:number[]}|null>(null),[focus,setFocus]=useState<CoachFocus|null>(null),[slowmo,setSlowmo]=useState(false),[compareTo,setCompareTo]=useState<string|null>(null),[where,setWhere]=useState<string|null>(null),[uploading,setUploading]=useState(0);
  const[agreedBefore]=useState(()=>AI_CONSENT_PREVIOUS.some(v=>readProgress<boolean>(session.user.id,'ai-consent-'+v,false)===true));
  const returning=()=>agreedBefore||messages.length>0||threads.length>0;

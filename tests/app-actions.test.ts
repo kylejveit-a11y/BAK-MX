@@ -33,3 +33,9 @@ test('running an action uses the rider\'s own API calls',async()=>{
  await runAppAction(add,host);
  assert.equal(calls[0][0],'/bikes');assert.equal(calls[0][1],'POST');assert.equal((calls[0][2] as {nickname:string}).nickname,'Race bike');assert.equal(selected,'new');
 });
+
+test('a drafted post carries the photos the rider attached to that message, and posts may use them',()=>{
+ const [post]=cleanAppActions([a('draft_post',{category:'build',body:'Fresh top end. Runs mint. #ktm #motocross'})],{...ctx,photos:['p1','p2']},'b1');
+ assert.ok(post.type==='draft_post'&&post.photo_ids.join()==='p1,p2');
+ assert.match(describeAppAction(post).title,/with your 2 photos/);
+});
