@@ -252,7 +252,7 @@ function Options({type,system,choices,have,onAdd,onCustom,pendingRef}:{type:stri
  const build=()=>chosen.map(c=>{const s=sel[id(c)],o=c.opts?.find(x=>x.label===s.opt),pn=o?.pn||chosenPartNumber(c,s.size),named=posOf(c.name);
   const where=positioned&&!named?(pos==='front'?'Front':pos==='rear'?'Rear':'Front & rear'):'';
   const v=[where,s.size].filter(Boolean).join(' · ');
-  return {s:system,b:c.brand,n:c.name,...(pn?{p:pn}:{}),...(c.r?{r:c.r}:{}),...(v?{v}:{}),...(s.opt?{k:s.opt}:s.color?{k:s.color}:{})} as InstalledPart;});
+  return {s:system,b:c.brand,n:c.name,...(pn?{p:pn}:{}),...(c.r?{r:c.r}:{}),...(v||s.opt?{v:[v,s.opt].filter(Boolean).join(' ').slice(0,40)}:{}),...(s.color?{k:s.color}:{})} as InstalledPart;});
  function add(){onAdd(build());}
  // a ticked part that still needs its size isn't added on the way out
  pendingRef.current=()=>chosen.length&&!missing.length?build():null;

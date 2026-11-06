@@ -68,7 +68,7 @@ export function readInstalled(configuration:Record<string,unknown>|null|undefine
  for(const raw of Array.isArray(c.installed_parts)?c.installed_parts:[]){
   if(!raw||typeof raw!=='object')continue;const o=raw as Record<string,unknown>,s=String(o.s) as PartSystem;
   if(!partSystemKeys.includes(s))continue;const n=clip(o.n,90),b=clip(o.b,60);if(!n&&!b)continue;
-  const part:InstalledPart={s:placeSystem(s,b,n),b,n};const p=clip(o.p,48);if(p)part.p=p;const r=clip(o.r,120);if(r&&/^[a-z0-9-]+$/i.test(r))part.r=r;if(o.x)part.x=true;const d=clip(o.d,120);if(d)part.d=d;const k=clip(o.k,30);if(k)part.k=k;if(o.o)part.o=true;const v=clip(o.v,20);if(v)part.v=v;
+  const part:InstalledPart={s:placeSystem(s,b,n),b,n};const p=clip(o.p,48);if(p)part.p=p;const r=clip(o.r,120);if(r&&/^[a-z0-9-]+$/i.test(r))part.r=r;if(o.x)part.x=true;const d=clip(o.d,120);if(d)part.d=d;const k=clip(o.k,30);if(k)part.k=k;if(o.o)part.o=true;const v=clip(o.v,40);if(v)part.v=v;
   parts.push(part);if(parts.length>=MAX_PARTS)break;
  }
  parts.splice(0,parts.length,...sortInstalled(parts));
