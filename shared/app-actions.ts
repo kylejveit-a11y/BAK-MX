@@ -26,7 +26,7 @@ export type AppAction=
  |{type:'open';screen:AppScreen};
 
 /** What the model sees about the rider's app, so actions point at real bikes and events. */
-export type AppContext={bikes:{id:string;label:string;active:boolean}[];events:{id:string;title:string;type:string;starts_at:string;location:string;my_rsvp:string|null}[];today:string};
+export type AppContext={bikes:{id:string;label:string;active:boolean}[];events:{id:string;title:string;type:string;starts_at:string;location:string;my_rsvp:string|null}[];today:string;weekday?:string};
 
 const clip=(v:unknown,n:number)=>typeof v==='string'?v.replace(/\s+/g,' ').trim().slice(0,n):'';
 const long=(v:unknown,n:number)=>typeof v==='string'?v.replace(/\r/g,'').trim().slice(0,n):'';

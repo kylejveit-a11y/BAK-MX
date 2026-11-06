@@ -25,7 +25,7 @@ const body=z.object({
  guided:z.object({procedure_id:z.string().min(1).max(200),step_index:z.number().int().min(0).max(2000)}).optional(),
  voice:z.boolean().optional(),
  // App-action tests: the rider's bikes and upcoming events as the live route would give them (ids are test ids).
- app:z.object({bikes:z.array(z.object({id:z.string().max(60),label:z.string().max(120),active:z.boolean()})).max(30),events:z.array(z.object({id:z.string().max(60),title:z.string().max(120),type:z.string().max(20),starts_at:z.string().max(40),location:z.string().max(160),my_rsvp:z.string().nullable()})).max(25),today:z.string().regex(/^\d{4}-\d{2}-\d{2}$/)}).optional(),
+ app:z.object({bikes:z.array(z.object({id:z.string().max(60),label:z.string().max(120),active:z.boolean()})).max(30),events:z.array(z.object({id:z.string().max(60),title:z.string().max(120),type:z.string().max(20),starts_at:z.string().max(40),location:z.string().max(160),my_rsvp:z.string().nullable()})).max(25),today:z.string().regex(/^\d{4}-\d{2}-\d{2}$/),weekday:z.string().max(12).optional()}).optional(),
  // Coaching tests: still frames as inline JPEGs (never links), and the clip details the app would send with them.
  images:z.array(z.string().regex(/^data:image\/jpeg;base64,[A-Za-z0-9+/=]+$/).max(400000)).max(CLIP_MAX_FRAMES).default([]),
  media:z.discriminatedUnion('kind',[z.object({kind:z.literal('clip'),duration:z.number().min(0).max(120),frames:z.array(z.number().min(0).max(120)).min(2).max(CLIP_MAX_FRAMES),focus:z.enum(COACH_FOCUS_IDS).optional(),slowmo:z.boolean().optional()}).strict(),z.object({kind:z.literal('photos'),focus:z.enum(COACH_FOCUS_IDS)}).strict()]).optional(),
