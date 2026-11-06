@@ -1,0 +1,85 @@
+[
+ {
+  "i": 0,
+  "make": "Husqvarna",
+  "model": "TE 300",
+  "yr": "2027",
+  "doc": "27_3402951_en_BA",
+  "layout": "2025_plus",
+  "n": 273,
+  "sched": 60,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 25,
+   "Capacities": 2,
+   "Chassis": 20,
+   "Tires": 4,
+   "Electrics": 5,
+   "Fork": 15,
+   "Shock absorber": 20,
+   "Engine tightening torques": 40,
+   "Chassis tightening torques": 82,
+   "Service schedule": 60
+  },
+  "damp": 15,
+  "dropped": [],
+  "flagged": [
+   [
+    "Engine tightening torques / Exhaust port adapter screw cap (M5)",
+    "(4.4 ft ⋅ lb); Loctite® 243",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Engine tightening torques / Injector holder screw cap (M5)",
+    "(4.4 ft ⋅ lb); Loctite® 243",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Engine tightening torques / Stud, exhaust flange (M6)",
+    "(4.4 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Screw, turn signal switch (M5)",
+    "(0.7 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ]
+  ],
+  "notes": [
+   "(All EU and AR models)",
+   "(All US models)",
+   "(TE 300 PRO BR)",
+   "All 300 EU models and AR",
+   "All 300 EU, 300 AR and 300 PRO models",
+   "All 300 US and AR models",
+   "All 300 models",
+   "All AR and US models except TE PRO 300",
+   "All EU models",
+   "All except US models",
+   "All standard models",
+   "All standard models except 250 US",
+   "TE 250",
+   "TE 250 EU",
+   "TE 250 US",
+   "TE 300 EU",
+   "TE 300 PRO BR",
+   "TE 300 PRO EU",
+   "TE 300 PRO US",
+   "UNRECOGNIZED ?Capacities - fork (All special models)",
+   "UNRECOGNIZED ?Technical data - fork (All special models)",
+   "UNRECOGNIZED All special models"
+  ]
+ }
+]

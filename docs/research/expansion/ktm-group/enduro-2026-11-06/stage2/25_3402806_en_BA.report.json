@@ -1,0 +1,61 @@
+[
+ {
+  "i": 0,
+  "make": "Husqvarna",
+  "model": "TE 150",
+  "yr": "2025",
+  "doc": "25_3402806_en_BA",
+  "layout": "2025_plus",
+  "n": 269,
+  "sched": 59,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 22,
+   "Capacities": 4,
+   "Chassis": 19,
+   "Tires": 4,
+   "Electrics": 4,
+   "Fork": 15,
+   "Shock absorber": 21,
+   "Engine tightening torques": 43,
+   "Chassis tightening torques": 79,
+   "Service schedule": 58
+  },
+  "damp": 15,
+  "dropped": [],
+  "flagged": [
+   [
+    "Chassis tightening torques / Screw, oil pump holder on oil tank (M6)",
+    "(4.4 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Nut, pull switch (M8)",
+    "(0.59 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Service schedule /",
+    "every 45 operating hours; every 90 operating hours",
+    []
+   ]
+  ],
+  "notes": [
+   "(All EU models)",
+   "(TE 150 US)",
+   "NOLABEL ['0.8 Nm']",
+   "NOLABEL ['6 Nm']",
+   "TE 125",
+   "TE 150",
+   "TE 150 EU",
+   "TE 150 US",
+   "UNRECOGNIZED 125 EU/ 150 US"
+  ]
+ }
+]
