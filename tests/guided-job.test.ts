@@ -46,15 +46,18 @@ test('BAK-written guides are original, reference-free and scoped to the exact bi
  assert.ok(bakGuideLibrary.length>=18);
  for(const p of bakGuideLibrary){
   assert.match(p.id,/^bak-/);assert.equal(p.source.source_url,'');assert.equal(p.source.review_status,'BAK_AUTHORED');
-  assert.doesNotMatch(JSON.stringify(p),/repair manual|service manual|page \d|@|065920|070143|veit/i);
+  // content hashes are random hex and can contain any digit run by chance, so they are left out of the text check
+  assert.doesNotMatch(JSON.stringify({...p,content_sha256:'',source:{...p.source,document_sha256:''}}),/repair manual|service manual|page \d|@|065920|070143|veit/i);
   // each guide is bound to one exact roster bike-year, US standard
   assert.equal(p.target.variant,'standard');assert.equal(p.target.region,'US');assert.ok(isRosterBike(p.target.manufacturer,p.target.model,p.target.model_year),p.id);
  }
  const std=rebuildStandard({manufacturer:'KTM',model:'450 SX-F',model_year:2025,variant:'standard',region:'US'});
  assert.equal(std.items.length,9);assert.ok(std.met);
  assert.ok(std.items.find(i=>i.id==='linkage')!.met&&std.items.find(i=>i.id==='shock_rebuild')!.met);
- // a neighboring year only gets a guide when that guide was checked for it and listed as a target (2022 has none)
- assert.equal(rebuildStandard({manufacturer:'KTM',model:'450 SX-F',model_year:2022,variant:'standard',region:'US'}).guides,0);
+ // a neighboring year only gets a guide when that guide was checked for it and listed as a target (2022 has only its own
+ // routine maintenance jobs, no rebuild jobs)
+ const y22=rebuildStandard({manufacturer:'KTM',model:'450 SX-F',model_year:2022,variant:'standard',region:'US'});
+ assert.ok(y22.items.every(i=>!i.met));
 });
 
 test('workshop voice: realistic transcripts, misheard names and shop talk',()=>{
