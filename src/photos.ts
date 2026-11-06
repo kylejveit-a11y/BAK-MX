@@ -51,3 +51,32 @@ export async function addPhotos(kind:PhotoKind,{limit=1,bikeId,square=false,capt
  onProgress?.(out.length,files.length);
  return out;
 }
+
+export type Clip={id:string;url:string;poster_url:string|null;duration_s:number;width:number|null;height:number|null};
+export const CLIP_MAX_SECONDS=60,CLIP_MAX_BYTES=100*1024*1024;
+/** Reads a clip's length and size and grabs a poster frame about half a second in. */
+function inspectClip(file:File):Promise<{duration:number;width:number;height:number;poster:Blob|null}>{
+ return new Promise((resolve,reject)=>{
+  const url=URL.createObjectURL(file),v=document.createElement('video');v.preload='metadata';v.muted=true;v.playsInline=true;v.src=url;
+  const done=(r:{duration:number;width:number;height:number;poster:Blob|null}|Error)=>{URL.revokeObjectURL(url);r instanceof Error?reject(r):resolve(r);};
+  v.onerror=()=>done(new Error('That clip could not be read. Try an MP4 or MOV.'));
+  v.onloadedmetadata=()=>{v.currentTime=Math.min(0.5,(v.duration||1)/2);};
+  v.onseeked=()=>{const w=v.videoWidth,h=v.videoHeight,scale=Math.min(1,1600/Math.max(w,h,1)),c=document.createElement('canvas');c.width=Math.round(w*scale);c.height=Math.round(h*scale);
+   try{c.getContext('2d')!.drawImage(v,0,0,c.width,c.height);c.toBlob(b=>done({duration:v.duration,width:w,height:h,poster:b}),'image/jpeg',0.85);}catch{done({duration:v.duration,width:w,height:h,poster:null});}};
+ });
+}
+/** Uploads one clip (60 seconds and 100 MB at most) with its poster frame, for a Community post. */
+export async function uploadClip(file:File,onProgress?:(stage:string)=>void):Promise<Clip>{
+ if(!supabase)throw new Error('Clips are not available in this preview.');
+ const type=file.type==='video/quicktime'||file.type==='video/webm'?file.type:'video/mp4';
+ if(file.size>CLIP_MAX_BYTES)throw new Error('That clip is over 100 MB. Trim it to the best 60 seconds or less.');
+ onProgress?.('Reading the clip…');const info=await inspectClip(file);
+ if(!Number.isFinite(info.duration)||info.duration>CLIP_MAX_SECONDS+0.5)throw new Error('Clips can be up to 60 seconds. Trim it to the best part and add it again.');
+ let poster:Photo|null=null;
+ if(info.poster){onProgress?.('Saving the cover frame…');poster=await uploadPhoto(new File([info.poster],'poster.jpg',{type:'image/jpeg'}),'post');}
+ onProgress?.('Uploading the clip…');
+ const start=await api<{id:string;path:string;token:string;bucket:string}>('/videos/upload','POST',{content_type:type,bytes:file.size,duration_s:Math.max(0.1,info.duration),width:info.width||null,height:info.height||null,poster_photo_id:poster?.id??null});
+ const up=await supabase.storage.from(start.bucket).uploadToSignedUrl(start.path,start.token,file,{contentType:type});
+ if(up.error)throw new Error('The clip could not upload. Check your connection and try again.');
+ return {id:start.id,url:URL.createObjectURL(file),poster_url:poster?.url??null,duration_s:info.duration,width:info.width||null,height:info.height||null};
+}

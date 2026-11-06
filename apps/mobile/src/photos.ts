@@ -101,3 +101,27 @@ export function chooseChatSource():Promise<'camera'|'library'|'video'|null>{
   else Alert.alert('Show BAK','Photos of the bike, a part or the track, or a clip of you riding. Trim the clip to the few seconds that matter.',[{text:opts[0],onPress:()=>pick(0)},{text:opts[1],onPress:()=>pick(1)},{text:opts[2],onPress:()=>pick(2)},{text:'Cancel',style:'cancel',onPress:()=>pick(3)}],{cancelable:true,onDismiss:()=>resolve(null)});
  });
 }
+
+export type Clip={id:string;url:string;poster_url:string|null;duration_s:number;width:number|null;height:number|null};
+export const POST_CLIP_MAX=60,POST_CLIP_MAX_BYTES=100*1024*1024;
+/** A clip for a Community post: picked from the library (iOS trims it to 60 seconds), a cover frame pulled from it, then
+ *  the clip itself uploaded. Returns null when the rider cancels. */
+export async function pickAndUploadClip(onStage?:(s:string)=>void):Promise<Clip|null>{
+ if(!supabase)throw new Error('Clips are not available in this build.');
+ if(!await allowed('library'))return null;
+ const r=await ImagePicker.launchImageLibraryAsync({mediaTypes:['videos'],allowsEditing:true,videoMaxDuration:POST_CLIP_MAX,quality:1,videoExportPreset:ImagePicker.VideoExportPreset.H264_1920x1080});
+ if(r.canceled||!r.assets?.[0])return null;
+ const a=r.assets[0],seconds=(a.duration??0)/1000;
+ if(seconds>POST_CLIP_MAX+0.5)throw new Error('Clips can be up to 60 seconds. Trim it to the best part and add it again.');
+ const size=a.fileSize??0;if(size>POST_CLIP_MAX_BYTES)throw new Error('That clip is over 100 MB. Trim it shorter and add it again.');
+ const type=a.mimeType==='video/quicktime'?'video/quicktime':'video/mp4';
+ onStage?.('Saving the cover frame…');
+ let poster:Photo|null=null;
+ try{const t=await VideoThumbnails.getThumbnailAsync(a.uri,{time:Math.min(500,Math.max(0,(a.duration??1000)/2)),quality:0.85});poster=await uploadPhoto({...a,uri:t.uri,width:t.width,height:t.height,type:'image',mimeType:'image/jpeg'} as ImagePicker.ImagePickerAsset,'post');}catch{/* a clip without a cover still posts */}
+ onStage?.('Uploading the clip…');
+ const data=await bytes(a.uri);
+ const start=await api<{id:string;path:string;token:string;bucket:string}>('/api/videos/upload','POST',{content_type:type,bytes:data.byteLength,duration_s:Math.max(0.1,seconds||1),width:a.width||null,height:a.height||null,poster_photo_id:poster?.id??null});
+ const up=await supabase.storage.from(start.bucket).uploadToSignedUrl(start.path,start.token,data,{contentType:type});
+ if(up.error)throw new Error('The clip could not upload. Check your connection and try again.');
+ return {id:start.id,url:a.uri,poster_url:poster?.url??null,duration_s:seconds,width:a.width||null,height:a.height||null};
+}

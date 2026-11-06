@@ -8,6 +8,7 @@ import React,{useCallback,useContext,useEffect,useRef,useState} from 'react';
 import {useKeyboardHeight} from './Glass';
 import {ActivityIndicator,Alert,Animated,Image,KeyboardAvoidingView,Linking,Modal,Platform,ScrollView,Share,StyleSheet,Text,TextInput,View} from 'react-native';
 import {Pressable} from './Touch';
+import {PostClip,PhotoEditSheet,clipLength} from './PostMedia';
 import {File as FsFile,Paths} from 'expo-file-system';
 import * as Sharing from 'expo-sharing';
 import {success} from './haptics';
@@ -16,7 +17,7 @@ import {tap as hTap,select as hSelect} from './haptics';
 import {useFocusEffect} from '@react-navigation/native';
 import {DateField,rideDays,recentDays} from './DateSheet';
 import {AttachedPhotos,PostPhotos} from './PhotoUI';
-import {addPhotos,pickImages,uploadPhoto,type Photo} from './photos';
+import {addPhotos,pickImages,pickAndUploadClip,uploadPhoto,type Clip,type Photo} from './photos';
 import type {Bike} from '../../../shared/types';
 import {COMMUNITY_RULES,EVENT_TYPE_LABELS,POST_CATEGORY_LABELS,SETUP_FIELDS,SETUP_RESULT_LABELS,riderName,setupDifferences,type Part,type PartAssembly,type PartCatalog,type Post,type PostCategory,type PostComment,type ListedRider,type Profile,type RideEvent,type RiderRef,type SetupLog,type SetupResult,type ThreadMessage,type ThreadSummary} from '../../../shared/rider-types';
 import {setupLogsWithPending} from './HomeBlocks';
@@ -126,13 +127,13 @@ const FILTERS:{value:PostCategory|'';label:string}[]=[{value:'',label:'All'},{va
 /** Share a post out of the app. Your own post goes as yours, caption plus the first photo, so it lands in Instagram,
  *  Facebook, TikTok or Messages ready to post. Someone else's post is shared as theirs, text only. */
 async function sharePost(p:Post){
- const caption=p.mine?p.body:`${riderName(p.author)} on BAK MX:\n\n${p.body}`,photo=p.mine?p.photos?.[0]:undefined;
+ const caption=p.mine?p.body:`${riderName(p.author)} on BAK MX:\n\n${p.body}`,photo=p.mine?(p.video?{url:p.video.url,ext:'mp4',mime:'video/mp4'}:p.photos?.[0]?{url:p.photos[0].url,ext:'jpg',mime:'image/jpeg'}:undefined):undefined;
  try{
   if(photo){
-   const file=await FsFile.downloadFileAsync(photo.url,new FsFile(Paths.cache,`bak-mx-post-${p.id}.jpg`),{idempotent:true});
+   const file=await FsFile.downloadFileAsync(photo.url,new FsFile(Paths.cache,`bak-mx-post-${p.id}.${photo.ext}`),{idempotent:true});
    if(Platform.OS==='ios'){await Share.share({url:file.uri,message:caption});return;}
    // Android shares one file at a time: the caption goes first so it can be pasted, then the photo.
-   await Share.share({message:caption});if(await Sharing.isAvailableAsync())await Sharing.shareAsync(file.uri,{mimeType:'image/jpeg'});return;
+   await Share.share({message:caption});if(await Sharing.isAvailableAsync())await Sharing.shareAsync(file.uri,{mimeType:photo.mime});return;
   }
   await Share.share({message:caption});
  }catch{Alert.alert('Could not share','Try again in a moment.');}
@@ -192,6 +193,7 @@ function PostView({p,open,onOpen,onLike,onMore,onRider,onLikers,onCount,report}:
    <Text selectable numberOfLines={full||!long?undefined:6} style={{color:colors.text,fontSize:16.5,lineHeight:25}}>{p.body}</Text>
    {long&&<Text style={{color:'#adb5c1',fontSize:14,fontWeight:'600',marginTop:4}}>{full?'Show less':'See more'}</Text>}
   </Pressable>
+  {p.video&&<PostClip video={p.video}/>}
   {!!p.photos?.length&&<PostPhotos photos={p.photos}/>}
   {report}
   <View style={{flexDirection:'row',alignItems:'center',gap:22,paddingHorizontal:20}}>
@@ -206,10 +208,10 @@ function PostView({p,open,onOpen,onLike,onMore,onRider,onLikers,onCount,report}:
 
 function ComposeSheet({visible,profile,bike,seed,onClose,onPosted}:{visible:boolean;profile:Profile;bike?:Bike;seed?:{category:PostCategory;body:string;photoIds?:string[]};onClose:()=>void;onPosted:()=>void}){
  const insets=useSafeAreaInsets(),kb=useKeyboardHeight();
- const [category,setCategory]=useState<PostCategory>(seed?.category??'setup_question'),[body,setBody]=useState(seed?.body??''),[tagBike,setTagBike]=useState(true),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[photos,setPhotos]=useState<Photo[]>([]),[uploading,setUploading]=useState(0);
+ const [category,setCategory]=useState<PostCategory>(seed?.category??'setup_question'),[body,setBody]=useState(seed?.body??''),[tagBike,setTagBike]=useState(true),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[photos,setPhotos]=useState<Photo[]>([]),[uploading,setUploading]=useState(0),[clip,setClip]=useState<Clip|null>(null),[clipStage,setClipStage]=useState(''),[editing,setEditing]=useState<Photo|null>(null);
  useEffect(()=>{const ids=seed?.photoIds??[];if(!ids.length)return;let live=true;api<Photo[]>('/api/photos?ids='+ids.join(',')).then(p=>{if(live)setPhotos(p.slice(0,4));}).catch(()=>{});return()=>{live=false};},[seed?.photoIds?.join(',')]);
- const ready=!!body.trim()&&!busy&&!uploading;
- async function publish(){if(!ready)return;setBusy(true);setNotice('');try{await api('/api/posts','POST',{category,body,bike_label:tagBike&&bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:'',photo_ids:photos.map(p=>p.id)});setBody('');setPhotos([]);success();onPosted();}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
+ const ready=!!body.trim()&&!busy&&!uploading&&!clipStage;
+ async function publish(){if(!ready)return;setBusy(true);setNotice('');try{await api('/api/posts','POST',{category,body,bike_label:tagBike&&bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:'',photo_ids:photos.map(p=>p.id),video_id:clip?.id??null});setBody('');setPhotos([]);setClip(null);success();onPosted();}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
  async function add(source:'camera'|'library'){
   const room=4-photos.length;if(room<1)return;
   try{const picked=await pickImages(source,room);if(!picked.length)return;setUploading(picked.length);
@@ -237,13 +239,20 @@ function ComposeSheet({visible,profile,bike,seed,onClose,onPosted}:{visible:bool
     </View>
     <View style={{flexDirection:'row',flexWrap:'wrap',gap:8}}>{options(POST_CATEGORY_LABELS).map(o=>{const on=category===o.value;return <Pressable key={o.value} haptic="select" accessibilityRole="button" accessibilityState={{selected:on}} onPress={()=>setCategory(o.value)} style={({pressed})=>[{paddingHorizontal:13,paddingVertical:6,borderRadius:16,borderWidth:on?0:1,margin:on?1:0,borderColor:'#2f3540',opacity:pressed?0.7:1},on&&blueLift]}>{on&&<BlueFace radius={16}/>}<Text style={[{color:on?'#ffffff':'#c9cfd9',fontSize:13.5,fontWeight:on?'700':'500'},on&&onBlueText]}>{o.label}</Text></Pressable>;})}</View>
     <TextInput autoFocus multiline value={body} onChangeText={setBody} maxLength={4000} autoCapitalize="sentences" placeholder={hint} placeholderTextColor="#7d8593" selectionColor={colors.accent} accessibilityLabel="Post" style={{color:colors.text,fontSize:19,lineHeight:27,minHeight:140,textAlignVertical:'top',outlineStyle:'none'} as never}/>
-    <AttachedPhotos photos={photos} uploading={uploading} size={104} onRemove={id=>{setPhotos(old=>old.filter(p=>p.id!==id));void api('/api/photos?id='+id,'DELETE').catch(()=>{});}}/>
+    <AttachedPhotos photos={photos} uploading={uploading} size={104} onEdit={setEditing} onRemove={id=>{setPhotos(old=>old.filter(p=>p.id!==id));void api('/api/photos?id='+id,'DELETE').catch(()=>{});}}/>
+    {(clip||!!clipStage)&&<View style={{width:220,height:124,borderRadius:12,overflow:'hidden',backgroundColor:'#000',alignItems:'center',justifyContent:'center'}}>
+     {clip?<>{clip.poster_url&&<Image source={{uri:clip.poster_url}} style={{position:'absolute',width:220,height:124}} accessibilityIgnoresInvertColors/>}<Icon name="video" size={26}/><Text style={{position:'absolute',left:8,bottom:8,color:'#fff',fontSize:12,fontWeight:'700'}}>{clipLength(clip.duration_s)}</Text>
+      <Pressable accessibilityRole="button" accessibilityLabel="Remove clip" hitSlop={8} onPress={()=>setClip(null)} style={{position:'absolute',top:6,right:6,width:24,height:24,borderRadius:12,backgroundColor:'rgba(0,0,0,0.7)',alignItems:'center',justifyContent:'center'}}><Icon name="close" size={12} weight={2.6}/></Pressable></>
+      :<View style={{flexDirection:'row',gap:8,alignItems:'center'}}><ActivityIndicator color={colors.accent}/><Text style={{color:'#cfd5de',fontSize:13}}>{clipStage}</Text></View>}
+    </View>}
+    <PhotoEditSheet photo={editing} onClose={()=>setEditing(null)} onUse={p=>{const was=editing;setPhotos(old=>old.map(x=>x.id===was?.id?p:x));setEditing(null);}}/>
     <Notice text={notice}/>
    </ScrollView>
    <View style={{flexDirection:'row',alignItems:'center',gap:18,paddingHorizontal:16,paddingTop:8,paddingBottom:kb?10:Math.max(insets.bottom,10),borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#262b34'}}>
     {tool('camera','Camera',()=>void add('camera'))}{tool('image','Photos',()=>void add('library'))}
+    <Pressable accessibilityRole="button" accessibilityLabel="Add a clip, up to 60 seconds" disabled={!!clip||!!clipStage} onPress={()=>void (async()=>{setNotice('');try{const c=await pickAndUploadClip(setClipStage);if(c)setClip(c);}catch(e){setNotice(errorText(e));}finally{setClipStage('');}})()} hitSlop={8} style={({pressed})=>({flexDirection:'row',alignItems:'center',gap:7,paddingVertical:8,paddingHorizontal:4,opacity:clip||clipStage?0.35:pressed?0.6:1})}><Icon name="video" size={23} color={colors.text}/><Text style={{color:colors.text,fontSize:14,fontWeight:'600'}}>Clip</Text></Pressable>
     <View style={{flex:1}}/>
-    <Text style={{color:'#9aa2ae',fontSize:12.5}}>{photos.length?`${photos.length}/4 photos`:body.length>3500?`${4000-body.length} left`:'Up to 4 photos'}</Text>
+    <Text style={{color:'#9aa2ae',fontSize:12.5}}>{photos.length?`${photos.length}/4 photos${clip?' + clip':''}`:clip?'1 clip':body.length>3500?`${4000-body.length} left`:'4 photos or a clip'}</Text>
    </View>
   </View>
  </Modal>;
@@ -475,7 +484,7 @@ export function SetupGuideCard({onAsk,bike}:{onAsk?:(text:string)=>void;bike?:Bi
 
 /* ------------------------------------------------------------------ Rider profile */
 export function RiderProfileView({riderId,onBack,onMessage}:{riderId:string;onBack:()=>void;onMessage:(r:RiderRef)=>void}){
- const [data,setData]=useState<{profile:Profile;posts:{id:string;category:PostCategory;body:string;bike_label:string;created_at:string;photos?:Photo[]}[];bikes?:PublicBike[];mine:boolean}|null>(null),[notice,setNotice]=useState('');
+ const [data,setData]=useState<{profile:Profile;posts:{id:string;category:PostCategory;body:string;bike_label:string;created_at:string;photos?:Photo[];video?:Post['video']}[];bikes?:PublicBike[];mine:boolean}|null>(null),[notice,setNotice]=useState('');
  useEffect(()=>{let live=true;setData(null);setNotice('');api<NonNullable<typeof data>>('/api/profiles?id='+riderId).then(d=>{if(live)setData(d);}).catch(e=>{if(live)setNotice(errorText(e));});return()=>{live=false;};},[riderId]);
  return <Page title=""><BackLink title="Community" onPress={onBack}/><Notice text={notice}/>
   {!data&&!notice&&<Copy>Loading rider…</Copy>}
@@ -490,7 +499,7 @@ export function RiderProfileView({riderId,onBack,onMessage}:{riderId:string;onBa
    </View>
    <PublicGarage bikes={data.bikes??[]} raceNumber={data.profile.race_number}/>
    <Eyebrow>RECENT POSTS</Eyebrow>{!data.posts.length&&<Copy>No posts yet.</Copy>}
-   <View style={{marginHorizontal:-20}}>{data.posts.map(p=><View key={p.id} style={{paddingVertical:16,gap:10,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#262b34'}}><Text style={{color:'#adb5c1',fontSize:12.5,paddingHorizontal:20}}><Text style={{color:colors.text,fontWeight:'700'}}>{POST_CATEGORY_LABELS[p.category]}</Text>{p.bike_label?' · '+p.bike_label:''} · {ago(p.created_at)}</Text><Text selectable style={{color:colors.text,fontSize:16,lineHeight:24,paddingHorizontal:20}}>{p.body}</Text>{!!p.photos?.length&&<PostPhotos photos={p.photos}/>}</View>)}</View>
+   <View style={{marginHorizontal:-20}}>{data.posts.map(p=><View key={p.id} style={{paddingVertical:16,gap:10,borderTopWidth:StyleSheet.hairlineWidth,borderTopColor:'#262b34'}}><Text style={{color:'#adb5c1',fontSize:12.5,paddingHorizontal:20}}><Text style={{color:colors.text,fontWeight:'700'}}>{POST_CATEGORY_LABELS[p.category]}</Text>{p.bike_label?' · '+p.bike_label:''} · {ago(p.created_at)}</Text><Text selectable style={{color:colors.text,fontSize:16,lineHeight:24,paddingHorizontal:20}}>{p.body}</Text>{p.video&&<PostClip video={p.video}/>}{!!p.photos?.length&&<PostPhotos photos={p.photos}/>}</View>)}</View>
   </>}
  </Page>;
 }

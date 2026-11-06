@@ -12,12 +12,13 @@ const C={bg:'#060609',text:'#f6f7f9',muted:'#adb5c1',get accent(){return colors.
 const ratio=(p?:Photo)=>p?.width&&p?.height?Math.min(1.25,Math.max(0.5625,p.height/p.width)):1;
 
 /** Thumbnails of photos attached to something being written, each with a remove button. */
-export function AttachedPhotos({photos,uploading=0,onRemove,size=72}:{photos:Photo[];uploading?:number;onRemove:(id:string)=>void;size?:number}){
+export function AttachedPhotos({photos,uploading=0,onRemove,onEdit,size=72}:{photos:Photo[];uploading?:number;onRemove:(id:string)=>void;onEdit?:(p:Photo)=>void;size?:number}){
  if(!photos.length&&!uploading)return null;
  return <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap:8,paddingVertical:4}} style={{flexGrow:0}}>
   {photos.map(p=><View key={p.id} style={{width:size,height:size}}>
    <Image source={{uri:p.url}} style={{width:size,height:size,borderRadius:10,backgroundColor:'#14171d'}} accessibilityIgnoresInvertColors/>
    <Pressable accessibilityRole="button" accessibilityLabel="Remove photo" hitSlop={8} onPress={()=>onRemove(p.id)} style={st.remove}><Icon name="close" size={12} color={C.text} weight={2.6}/></Pressable>
+   {onEdit&&<Pressable accessibilityRole="button" accessibilityLabel="Action edit this photo" hitSlop={8} onPress={()=>onEdit(p)} style={[st.remove,{top:undefined,right:undefined,bottom:4,left:4,width:28,height:28,borderRadius:14}]}><Icon name="sparkle" size={16} color={C.text}/></Pressable>}
   </View>)}
   {Array.from({length:uploading}).map((_,i)=><View key={'u'+i} style={{width:size,height:size,borderRadius:10,backgroundColor:'#14171d',alignItems:'center',justifyContent:'center'}}><ActivityIndicator color={C.accent}/></View>)}
  </ScrollView>;

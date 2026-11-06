@@ -1,9 +1,10 @@
 import {PublicGarage,type PublicBike} from './GarageSharing';
 import {Fragment,useEffect,useRef,useState,type FormEvent,type ReactNode} from 'react';
-import {ArrowLeft,ArrowRight,CalendarDays,Camera,Check,Clock3,Heart,ImagePlus,MapPin,MessageCircle,MessageSquare,MoreHorizontal,Plus,Send,Share2,Trash2,Users,X} from 'lucide-react';
+import {ArrowLeft,ArrowRight,CalendarDays,Camera,Check,Clock3,Heart,ImagePlus,MapPin,Film,Sparkles,MessageCircle,MessageSquare,MoreHorizontal,Plus,Send,Share2,Trash2,Users,X} from 'lucide-react';
 import type {Bike} from '../shared/types';
 import {api} from './client';
-import {addPhotos,type Photo} from './photos';
+import {addPhotos,uploadClip,CLIP_MAX_SECONDS,type Clip,type Photo} from './photos';
+import {PhotoEditor} from './PhotoEditor';
 import {garageModelInfo} from '../shared/garage-models';
 import {adjusters,beforeYouTune,symptomGuides,mechanicalMimics,talkingToYourTuner,workOrder} from '../shared/setup-knowledge';
 import {COMMUNITY_RULES,EVENT_TYPE_LABELS,POST_CATEGORY_LABELS,SETUP_FIELDS,SETUP_RESULT_LABELS,riderName,setupDifferences,type EventType,yearRanges,type Part,type PartAssembly,type PartCatalog,type PartFit,type Post,type PostCategory,type PostComment,type ListedRider,type Profile,type RideEvent,type RiderRef,type SetupLog,type SetupResult,type ThreadMessage,type ThreadSummary} from '../shared/rider-types';
@@ -201,15 +202,19 @@ export function Community({signedIn,bike,onSignIn,onMessage,draft,onDraftUsed}:{
 async function sharePost(p:Post):Promise<string>{
  const caption=p.mine?p.body:`${riderName(p.author)} on BAK MX:\n\n${p.body}`,url=location.origin+location.pathname;
  try{
-  const photo=p.mine?p.photos?.[0]:undefined;
-  if(photo&&typeof navigator.share==='function'&&typeof navigator.canShare==='function'){
-   const blob=await fetch(photo.url).then(r=>r.ok?r.blob():Promise.reject(new Error('photo')));
-   const file=new File([blob],'bak-mx-post.'+(blob.type.split('/')[1]||'jpg'),{type:blob.type||'image/jpeg'});
+  const media=p.mine?(p.video?{url:p.video.url,name:'bak-mx-clip'}:p.photos?.[0]?{url:p.photos[0].url,name:'bak-mx-post'}:undefined):undefined;
+  if(media&&typeof navigator.share==='function'&&typeof navigator.canShare==='function'){
+   const blob=await fetch(media.url).then(r=>r.ok?r.blob():Promise.reject(new Error('photo')));
+   const file=new File([blob],media.name+'.'+(blob.type==='video/quicktime'?'mov':blob.type.split('/')[1]||'jpg'),{type:blob.type||'image/jpeg'});
    if(navigator.canShare({files:[file]})){try{await navigator.clipboard?.writeText(caption);}catch{/* the share carries the text too */}await navigator.share({text:caption,files:[file]});return 'Caption copied too, for apps that drop it (Instagram).';}
   }
   if(typeof navigator.share==='function'){await navigator.share({title:'BAK MX',text:caption,...(p.mine?{}:{url})});return '';}
-  await navigator.clipboard.writeText(p.mine?caption:caption+'\n\n'+url);return p.mine&&p.photos?.length?'Caption copied. Save the photo and paste the caption in Instagram or Facebook.':'Copied. Paste it anywhere.';
+  await navigator.clipboard.writeText(p.mine?caption:caption+'\n\n'+url);return p.mine&&(p.photos?.length||p.video)?'Caption copied. Save the photo or clip and paste the caption in Instagram or Facebook.':'Copied. Paste it anywhere.';
  }catch(e){return (e as Error).name==='AbortError'?'':'Could not share this post.';}
+}
+/** A post's clip: tap to play, sound off until the rider turns it up. */
+function PostClip({video}:{video:NonNullable<Post['video']>}){
+ return <div className="post-clip"><video src={video.url} poster={video.poster_url??undefined} controls playsInline preload="none" muted/></div>;
 }
 function PostCard({post:p,open,onOpen,onLike,onDelete,onRider,onViewRider,onMessage,onBlocked,onCount}:{post:Post;open:boolean;onOpen:()=>void;onLike:()=>void;onDelete:()=>void;onRider:()=>void;onViewRider:(id:string)=>void;onMessage:(r:RiderRef)=>void;onBlocked:()=>void;onCount:(n:number)=>void}){
  const [full,setFull]=useState(false),[mode,setMode]=useState<''|'report'|'block'>(''),[note,setNote]=useState(''),[likers,setLikers]=useState(false);
@@ -226,6 +231,7 @@ function PostCard({post:p,open,onOpen,onLike,onDelete,onRider,onViewRider,onMess
   </header>
   <p className={'plain-message rd-body'+(long&&!full?' clipped':'')}>{p.body}</p>
   {long&&<button type="button" className="text-button rd-seemore" onClick={()=>setFull(!full)}>{full?'Show less':'See more'}</button>}
+  {p.video&&<PostClip video={p.video}/>}
   {!!p.photos?.length&&<div className={'post-photos n'+Math.min(p.photos.length,4)}>{p.photos.map(ph=><a key={ph.id} href={ph.url} target="_blank" rel="noreferrer"><img src={ph.url} alt="" loading="lazy"/></a>)}</div>}
   {mode&&<ModerationPanel mode={mode} rider={p.author} target={{type:'post',id:p.id}} onClose={()=>setMode('')} onBlocked={onBlocked}/>}
   <footer className="rd-post-foot">
@@ -241,29 +247,37 @@ function PostCard({post:p,open,onOpen,onLike,onDelete,onRider,onViewRider,onMess
 }
 /** New post: category chips, the bike tag, up to four photos. */
 function Composer({profile,bike,seed,onClose,onPosted}:{profile:Profile;bike?:Bike;seed?:{category:PostCategory;body:string;photoIds?:string[]}|null;onClose:()=>void;onPosted:()=>void}){
- const [category,setCategory]=useState<PostCategory>(seed?.category??'setup_question'),[body,setBody]=useState(seed?.body??''),[tagBike,setTagBike]=useState(true),[busy,setBusy]=useState(false),[error,setError]=useState(''),[photos,setPhotos]=useState<Photo[]>([]),[uploading,setUploading]=useState(0);
+ const [category,setCategory]=useState<PostCategory>(seed?.category??'setup_question'),[body,setBody]=useState(seed?.body??''),[tagBike,setTagBike]=useState(true),[busy,setBusy]=useState(false),[error,setError]=useState(''),[photos,setPhotos]=useState<Photo[]>([]),[uploading,setUploading]=useState(0),[clip,setClip]=useState<Clip|null>(null),[clipStage,setClipStage]=useState(''),[editing,setEditing]=useState<Photo|null>(null);
  useEffect(()=>{const ids=seed?.photoIds??[];if(!ids.length)return;let live=true;api<Photo[]>('/photos?ids='+ids.join(',')).then(p=>{if(live)setPhotos(p.slice(0,4));}).catch(()=>{});return()=>{live=false};},[seed?.photoIds?.join(',')]);
- const ready=!!body.trim()&&!busy&&!uploading,room=4-photos.length;
+ const ready=!!body.trim()&&!busy&&!uploading&&!clipStage,room=4-photos.length;
  const hint={build:'What you did to the bike and how it turned out',setup_question:'What the bike is doing, where, and what you’ve tried',ride_plan:'Where, when, and who should come',general:'What’s on your mind'}[category];
- async function publish(e:FormEvent){e.preventDefault();if(!ready)return;setBusy(true);setError('');try{await api('/posts','POST',{category,body,bike_label:tagBike&&bike?bikeLabel(bike):'',photo_ids:photos.map(p=>p.id)});onPosted();}catch(err){setError(errorText(err));}finally{setBusy(false);}}
+ async function publish(e:FormEvent){e.preventDefault();if(!ready)return;setBusy(true);setError('');try{await api('/posts','POST',{category,body,bike_label:tagBike&&bike?bikeLabel(bike):'',photo_ids:photos.map(p=>p.id),video_id:clip?.id??null});onPosted();}catch(err){setError(errorText(err));}finally{setBusy(false);}}
  async function add(capture:boolean){
   if(room<1||uploading)return;setError('');
   try{const added=await addPhotos('post',{limit:room,capture,onProgress:(done,total)=>setUploading(Math.max(0,total-done))});setPhotos(old=>[...old,...added].slice(0,4));}
   catch(err){setError(errorText(err));}finally{setUploading(0);}
  }
  function removePhoto(id:string){setPhotos(old=>old.filter(p=>p.id!==id));void api('/photos?id='+id,'DELETE').catch(()=>{});}
+ function pickClip(){
+  if(clip||clipStage)return;const input=document.createElement('input');input.type='file';input.accept='video/mp4,video/quicktime,video/webm,video/*';
+  input.onchange=async()=>{const f=input.files?.[0];if(!f)return;setError('');try{setClip(await uploadClip(f,setClipStage));}catch(err){setError(errorText(err));}finally{setClipStage('');}};input.click();
+ }
+ const secs=(n:number)=>`${Math.floor(n/60)}:${String(Math.round(n%60)).padStart(2,'0')}`;
  return <section className="panel rd-compose"><form onSubmit={publish}>
   <div className="rd-compose-head"><Avatar rider={profile} size={44}/><div><strong>{riderName(profile)}</strong>
    {bike&&<button type="button" role="checkbox" aria-checked={tagBike} className={'rd-biketag'+(tagBike?' on':'')} onClick={()=>setTagBike(!tagBike)}>{tagBike&&<Check size={13} strokeWidth={2.6} aria-hidden="true"/>}{tagBike?bikeLabel(bike):'Tag my bike'}</button>}
   </div><button type="button" className="icon-button" aria-label="Cancel" onClick={onClose}><X size={18}/></button></div>
   <Choices value={category} items={options(POST_CATEGORY_LABELS)} onChange={setCategory} disabled={busy}/>
   <textarea className="rd-compose-text" autoFocus value={body} onChange={e=>setBody(e.target.value)} maxLength={4000} rows={5} placeholder={hint} aria-label="Post" disabled={busy}/>
-  {(photos.length>0||uploading>0)&&<div className="rd-thumbs">{photos.map(ph=><div className="rd-thumb" key={ph.id}><img src={ph.url} alt=""/><button type="button" className="rd-thumb-x" aria-label="Remove photo" onClick={()=>removePhoto(ph.id)}><X size={13} strokeWidth={2.6}/></button></div>)}{Array.from({length:uploading},(_,i)=><div className="rd-thumb uploading" key={'up'+i} aria-label="Uploading photo"><span className="rd-spin"/></div>)}</div>}
+  {(photos.length>0||uploading>0)&&<div className="rd-thumbs">{photos.map(ph=><div className="rd-thumb" key={ph.id}><img src={ph.url} alt=""/><button type="button" className="rd-thumb-x" aria-label="Remove photo" onClick={()=>removePhoto(ph.id)}><X size={13} strokeWidth={2.6}/></button><button type="button" className="rd-thumb-edit" aria-label="Action edit this photo" title="Action edit" onClick={()=>setEditing(ph)}><Sparkles size={14}/></button></div>)}{Array.from({length:uploading},(_,i)=><div className="rd-thumb uploading" key={'up'+i} aria-label="Uploading photo"><span className="rd-spin"/></div>)}</div>}
+  {(clip||clipStage)&&<div className="rd-clip">{clip?<><video src={clip.url} poster={clip.poster_url??undefined} muted playsInline controls preload="metadata"/><span className="rd-clip-len">{secs(clip.duration_s)}</span><button type="button" className="rd-thumb-x" aria-label="Remove clip" onClick={()=>setClip(null)}><X size={13} strokeWidth={2.6}/></button></>:<div className="rd-clip-busy"><span className="rd-spin"/>{clipStage}</div>}</div>}
   {error&&<div className="error" role="alert">{error}</div>}
+  {editing&&<PhotoEditor photo={editing} onClose={()=>setEditing(null)} onUse={p=>{setPhotos(old=>old.map(x=>x.id===editing.id?p:x));setEditing(null);}}/>}
   <div className="rd-compose-bar">
    <button type="button" className="rd-tool" disabled={room<1||!!uploading} onClick={()=>void add(true)}><Camera size={21}/>Camera</button>
    <button type="button" className="rd-tool" disabled={room<1||!!uploading} onClick={()=>void add(false)}><ImagePlus size={21}/>Photos</button>
-   <span className="subtle rd-count">{photos.length?`${photos.length}/4 photos`:body.length>3500?`${4000-body.length} left`:'Up to 4 photos'}</span>
+   <button type="button" className="rd-tool" disabled={!!clip||!!clipStage} onClick={pickClip} title="One clip, up to {CLIP_MAX_SECONDS} seconds"><Film size={21}/>Clip</button>
+   <span className="subtle rd-count">{photos.length?`${photos.length}/4 photos${clip?' + clip':''}`:clip?'1 clip':body.length>3500?`${4000-body.length} left`:'Up to 4 photos or a clip'}</span>
    <button className="button" type="submit" disabled={!ready}>{busy?'Posting…':'Post'}<Send size={15}/></button>
   </div>
  </form></section>;
@@ -564,7 +578,7 @@ export function SetupGuide({onAsk,bike}:{onAsk?:(text:string)=>void;bike?:Bike})
 }
 
 /* ------------------------------------------------------------------ Rider profile */
-type PublicProfile={profile:Profile;posts:{id:string;category:PostCategory;body:string;bike_label:string;created_at:string;photos?:Photo[]}[];bikes?:PublicBike[];mine:boolean};
+type PublicProfile={profile:Profile;posts:{id:string;category:PostCategory;body:string;bike_label:string;created_at:string;photos?:Photo[];video?:Post["video"]}[];bikes?:PublicBike[];mine:boolean};
 export function RiderProfile({riderId,onClose,onMessage}:{riderId:string;onClose:()=>void;onMessage:(r:RiderRef)=>void}){
  const [data,setData]=useState<PublicProfile|null>(null),[error,setError]=useState('');
  useEffect(()=>{let live=true;setData(null);setError('');api<PublicProfile>('/profiles?id='+riderId).then(d=>{if(live)setData(d);}).catch(e=>{if(live)setError(errorText(e));});return()=>{live=false};},[riderId]);
@@ -584,7 +598,7 @@ export function RiderProfile({riderId,onClose,onMessage}:{riderId:string;onClose
    <PublicGarage bikes={data.bikes??[]}/>
    <div className="section-line"><h2>Recent posts</h2></div>
    {!data.posts.length&&<p className="subtle">No posts yet.</p>}
-   {data.posts.map(p=><div className="rd-rider-post" key={p.id}><span className="rd-context"><b>{POST_CATEGORY_LABELS[p.category]}</b>{p.bike_label?' · '+p.bike_label:''} · {ago(p.created_at)}</span><p className="plain-message">{p.body}</p>{!!p.photos?.length&&<div className={'post-photos n'+Math.min(p.photos.length,4)}>{p.photos.map(ph=><a key={ph.id} href={ph.url} target="_blank" rel="noreferrer"><img src={ph.url} alt="" loading="lazy"/></a>)}</div>}</div>)}
+   {data.posts.map(p=><div className="rd-rider-post" key={p.id}><span className="rd-context"><b>{POST_CATEGORY_LABELS[p.category]}</b>{p.bike_label?' · '+p.bike_label:''} · {ago(p.created_at)}</span><p className="plain-message">{p.body}</p>{p.video&&<PostClip video={p.video}/>}{!!p.photos?.length&&<div className={'post-photos n'+Math.min(p.photos.length,4)}>{p.photos.map(ph=><a key={ph.id} href={ph.url} target="_blank" rel="noreferrer"><img src={ph.url} alt="" loading="lazy"/></a>)}</div>}</div>)}
   </>}
  </section></div>;
 }
