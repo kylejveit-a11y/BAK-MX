@@ -121,9 +121,11 @@ const ago=(iso:string)=>{const m=Math.round((Date.now()-new Date(iso).getTime())
 const FILTERS:{value:PostCategory|'';label:string}[]=[{value:'',label:'All'},{value:'build',label:'Builds'},{value:'setup_question',label:'Setup questions'},{value:'ride_plan',label:'Ride plans'},{value:'general',label:'General'}];
 
 /** Community: a feed first. One-line composer, small filters, then posts that use the full width. */
-export function CommunityScreen({bike,onMessage}:{bike?:Bike;onMessage:(r:RiderRef)=>void}){
+export function CommunityScreen({bike,onMessage,draft,draftToken}:{bike?:Bike;onMessage:(r:RiderRef)=>void;draft?:{category:PostCategory;body:string};draftToken?:string}){
  const {profile,setProfile}=useProfile();
  const [posts,setPosts]=useState<Post[]>([]),[filter,setFilter]=useState<PostCategory|''>(''),[notice,setNotice]=useState(''),[loading,setLoading]=useState(false),[composing,setComposing]=useState(false),[open,setOpen]=useState(''),[viewing,setViewing]=useState(''),[reporting,setReporting]=useState(''),[reason,setReason]=useState(''),[likers,setLikers]=useState<{title:string;path:string}|null>(null);
+ // A post Ask BAK drafted opens in the composer; the rider still checks it and taps Post.
+ useEffect(()=>{if(draftToken&&draft)setComposing(true);},[draftToken]);
  const run=useRef(0);
  const load=useCallback(async()=>{const mine=++run.current;setLoading(true);try{const data=await api<Post[]>('/api/posts'+(filter?'?category='+filter:''));if(mine===run.current){setPosts(data);setNotice('');}}catch(e){if(mine===run.current)setNotice(errorText(e));}finally{if(mine===run.current)setLoading(false);}},[filter]);
  useFocusEffect(useCallback(()=>{if(profile)void load();},[load,profile?.user_id]));
@@ -154,7 +156,7 @@ export function CommunityScreen({bike,onMessage}:{bike?:Bike;onMessage:(r:RiderR
   <View style={{marginHorizontal:-20}}>{posts.map(p=><PostView key={p.id} p={p} open={open===p.id} onOpen={()=>setOpen(open===p.id?'':p.id)} onLike={()=>void like(p)} onMore={()=>more(p)} onRider={()=>setViewing(p.user_id)} onLikers={path=>setLikers({title:'Liked by',path})} onCount={n=>setPosts(old=>old.map(x=>x.id===p.id?{...x,comment_count:n}:x))}
    report={reporting===p.id?<View style={{gap:10,paddingHorizontal:20}}><Field label="What’s wrong with this post?" value={reason} onChangeText={setReason} multiline maxLength={1000} autoCapitalize="sentences"/><View style={{flexDirection:'row',gap:22}}><LinkActionLite title="Send report" onPress={()=>void report(p)}/><LinkActionLite muted title="Cancel" onPress={()=>setReporting('')}/></View></View>:null}/>)}</View>
   <RiderListSheet list={likers} onClose={()=>setLikers(null)} onRider={id=>{setLikers(null);setViewing(id);}}/>
-  <ComposeSheet visible={composing} profile={profile} bike={bike} onClose={()=>setComposing(false)} onPosted={()=>{setComposing(false);void load();}}/>
+  <ComposeSheet key={draftToken??'new'} visible={composing} profile={profile} bike={bike} seed={draftToken?draft:undefined} onClose={()=>setComposing(false)} onPosted={()=>{setComposing(false);void load();}}/>
  </Page>;
 }
 function LinkActionLite({title,onPress,muted=false}:{title:string;onPress:()=>void;muted?:boolean}){return <Pressable accessibilityRole="button" hitSlop={8} onPress={onPress}><Text style={{color:muted?'#adb5c1':colors.accent,fontSize:15,fontWeight:'700'}}>{title}</Text></Pressable>;}
@@ -186,9 +188,9 @@ function PostView({p,open,onOpen,onLike,onMore,onRider,onLikers,onCount,report}:
  </View>;
 }
 
-function ComposeSheet({visible,profile,bike,onClose,onPosted}:{visible:boolean;profile:Profile;bike?:Bike;onClose:()=>void;onPosted:()=>void}){
+function ComposeSheet({visible,profile,bike,seed,onClose,onPosted}:{visible:boolean;profile:Profile;bike?:Bike;seed?:{category:PostCategory;body:string};onClose:()=>void;onPosted:()=>void}){
  const insets=useSafeAreaInsets(),kb=useKeyboardHeight();
- const [category,setCategory]=useState<PostCategory>('setup_question'),[body,setBody]=useState(''),[tagBike,setTagBike]=useState(true),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[photos,setPhotos]=useState<Photo[]>([]),[uploading,setUploading]=useState(0);
+ const [category,setCategory]=useState<PostCategory>(seed?.category??'setup_question'),[body,setBody]=useState(seed?.body??''),[tagBike,setTagBike]=useState(true),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[photos,setPhotos]=useState<Photo[]>([]),[uploading,setUploading]=useState(0);
  const ready=!!body.trim()&&!busy&&!uploading;
  async function publish(){if(!ready)return;setBusy(true);setNotice('');try{await api('/api/posts','POST',{category,body,bike_label:tagBike&&bike?`${bike.model_year} ${bike.manufacturer} ${bike.model}`:'',photo_ids:photos.map(p=>p.id)});setBody('');setPhotos([]);success();onPosted();}catch(e){setNotice(errorText(e));}finally{setBusy(false);}}
  async function add(source:'camera'|'library'){

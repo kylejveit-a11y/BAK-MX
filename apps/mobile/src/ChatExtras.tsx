@@ -6,6 +6,8 @@ import type {SetupLog,SetupResult} from '../../../shared/rider-types';
 import {complaintGroups,complaintLabel,deciderAnswers,throttleAnswers,whereAnswers,trackAnswers,triageSteps,composeTriage,type TriageAnswers} from '../../../shared/triage';
 import {pendingGarageUpdates,applyGarageUpdates,garageFieldLabel,type GarageUpdate} from '../../../shared/garage-updates';
 import {systemLabel} from '../../../shared/installed-parts';
+import {describeAppAction,runAppAction,type AppAction,type AppActionHost} from '../../../shared/app-actions';
+import {readProgress,writeProgress} from './localProgress';
 import {api} from './api';
 import {BlueFace,blueLift,onBlueText,Button,Card,Copy,Icon,Notice,colors} from './ui';
 
@@ -110,6 +112,36 @@ export function GarageUpdatesCard({bike,updates,onSaved}:{bike:Bike;updates:Gara
   </View>)}
   <Notice text={error}/>
   <Button disabled={busy||!chosen.length} title={busy?'Saving…':chosen.length===pending.length?'Save to Garage':`Save ${chosen.length} to Garage`} onPress={()=>void save()}/>
+ </View>;
+}
+/** Under a BAK reply: what the rider asked BAK to do in the app, spelled out. Nothing runs until they tap Apply; each action
+ *  runs with their own session and the card says what happened to each. Same rules as the website. */
+export function AppActionsCard({ownerId,messageId,actions,host}:{ownerId:string;messageId:string;actions:AppAction[]|undefined;host:AppActionHost}){
+ const key='actions-done-'+messageId;
+ const [off,setOff]=useState<Set<number>>(new Set()),[busy,setBusy]=useState(false),[results,setResults]=useState<(string|{error:string})[]>([]),[dismissed,setDismissed]=useState(()=>readProgress<boolean>(ownerId,key,false)===true);
+ if(!actions?.length||dismissed&&!results.length)return null;
+ const lines=actions.map(a=>describeAppAction(a,host.bikes)),chosen=actions.length-off.size,finished=results.length>0&&!busy;
+ async function apply(){
+  setBusy(true);const out:(string|{error:string})[]=[];
+  for(const [i,a] of actions!.entries()){if(off.has(i)){out.push('Skipped');continue;}
+   try{out.push(await runAppAction(a,host));}catch(e){out.push({error:errorText(e)});}
+   setResults([...out]);}
+  writeProgress(ownerId,key,true);setBusy(false);
+ }
+ return <View style={tx.box}>
+  <View style={{flexDirection:'row',gap:8,alignItems:'center'}}>{finished&&<Icon name="check" size={16} color="#7fd09a" weight={2.2}/>}<Text style={{color:colors.text,fontSize:16,fontWeight:'700'}}>{finished?'Done':'Want BAK to do this?'}</Text></View>
+  {actions.map((_,i)=>{const r=results[i];return <View key={i} style={{flexDirection:'row',alignItems:'center',gap:12}}>
+   {!results.length&&<Switch value={!off.has(i)} disabled={busy} onValueChange={()=>{const n=new Set(off);n.has(i)?n.delete(i):n.add(i);setOff(n);}} accessibilityLabel={lines[i].title}/>}
+   <View style={{flex:1,gap:2}}>
+    <Text style={{color:colors.text,fontSize:15,fontWeight:'600'}}>{lines[i].title}</Text>
+    {!!lines[i].detail&&<Text style={tx.small}>{lines[i].detail}</Text>}
+    {!!r&&<Text style={{fontSize:14,fontWeight:'600',color:typeof r==='string'?'#7fd09a':'#f0a39b'}}>{typeof r==='string'?r:r.error}</Text>}
+   </View>
+  </View>;})}
+  {!results.length&&<View style={{flexDirection:'row',gap:10}}>
+   <View style={{flex:1}}><Button disabled={busy||!chosen} title={busy?'Working…':chosen===actions.length?(actions.length===1?'Apply':'Apply all'):`Apply ${chosen}`} onPress={()=>void apply()}/></View>
+   <View style={{flex:1}}><Button secondary disabled={busy} title="Not now" onPress={()=>{setDismissed(true);writeProgress(ownerId,key,true);}}/></View>
+  </View>}
  </View>;
 }
 const tx={

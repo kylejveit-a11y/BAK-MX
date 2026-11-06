@@ -165,10 +165,13 @@ function RiderActions({rider,target,onBlocked,onMessage,showMessage=true}:{rider
 
 /* ------------------------------------------------------------------ Community */
 const FILTERS:{value:PostCategory|'';label:string}[]=[{value:'',label:'All'},{value:'build',label:'Builds'},{value:'setup_question',label:'Setup questions'},{value:'ride_plan',label:'Ride plans'},{value:'general',label:'General'}];
-export function Community({signedIn,bike,onSignIn,onMessage}:{signedIn:boolean;bike?:Bike;onSignIn:()=>void;onMessage:(r:RiderRef)=>void}){
+export function Community({signedIn,bike,onSignIn,onMessage,draft,onDraftUsed}:{signedIn:boolean;bike?:Bike;onSignIn:()=>void;onMessage:(r:RiderRef)=>void;draft?:{id:string;category:PostCategory;body:string}|null;onDraftUsed?:()=>void}){
  const {profile,setProfile}=useProfile(signedIn);
  const [posts,setPosts]=useState<Post[]>([]),[filter,setFilter]=useState<PostCategory|''>(''),[loading,setLoading]=useState(false),[error,setError]=useState(''),[composing,setComposing]=useState(false),[openPost,setOpenPost]=useState(''),[viewing,setViewing]=useState('');
  const live=useRef(0);
+ // A post Ask BAK drafted opens in the composer; the rider still checks it and taps Post.
+ const [seed,setSeed]=useState<{category:PostCategory;body:string}|null>(null);
+ useEffect(()=>{if(draft){setSeed({category:draft.category,body:draft.body});setComposing(true);onDraftUsed?.();}},[draft?.id]);
  async function load(){const run=++live.current;setLoading(true);try{const data=await api<Post[]>('/posts'+(filter?'?category='+filter:''));if(run===live.current){setPosts(data);setError('');}}catch(e){if(run===live.current)setError(errorText(e));}finally{if(run===live.current)setLoading(false);}}
  useEffect(()=>{if(signedIn&&profile)void load();},[signedIn,profile?.user_id,filter]);
  async function toggleLike(p:Post){
@@ -184,7 +187,7 @@ export function Community({signedIn,bike,onSignIn,onMessage}:{signedIn:boolean;b
    {!composing&&<button type="button" className="rd-start" onClick={()=>setComposing(true)}><Avatar rider={profile} size={38}/><span>What’s on the bike?</span><Plus size={18} aria-hidden="true"/></button>}
    <div className="rd-filters" role="tablist" aria-label="Post filters">{FILTERS.map(f=><button type="button" role="tab" key={f.label} aria-selected={filter===f.value} className={'rd-filter'+(filter===f.value?' on':'')} onClick={()=>setFilter(f.value)}>{f.label}</button>)}</div>
   </div>
-  {composing&&<Composer profile={profile} bike={bike} onClose={()=>setComposing(false)} onPosted={()=>{setComposing(false);void load();}}/>}
+  {composing&&<Composer profile={profile} bike={bike} seed={seed} onClose={()=>{setComposing(false);setSeed(null);}} onPosted={()=>{setComposing(false);setSeed(null);void load();}}/>}
   {error&&<div className="error" role="alert">{error}<button className="icon-button" aria-label="Dismiss" onClick={()=>setError('')}><X size={16}/></button></div>}
   {viewing&&<RiderProfile riderId={viewing} onClose={()=>setViewing('')} onMessage={onMessage}/>}
   {loading&&!posts.length&&<SkeletonList kind="post"/>}
@@ -229,8 +232,8 @@ function PostCard({post:p,open,onOpen,onLike,onDelete,onRider,onViewRider,onMess
  </article>;
 }
 /** New post: category chips, the bike tag, up to four photos. */
-function Composer({profile,bike,onClose,onPosted}:{profile:Profile;bike?:Bike;onClose:()=>void;onPosted:()=>void}){
- const [category,setCategory]=useState<PostCategory>('setup_question'),[body,setBody]=useState(''),[tagBike,setTagBike]=useState(true),[busy,setBusy]=useState(false),[error,setError]=useState(''),[photos,setPhotos]=useState<Photo[]>([]),[uploading,setUploading]=useState(0);
+function Composer({profile,bike,seed,onClose,onPosted}:{profile:Profile;bike?:Bike;seed?:{category:PostCategory;body:string}|null;onClose:()=>void;onPosted:()=>void}){
+ const [category,setCategory]=useState<PostCategory>(seed?.category??'setup_question'),[body,setBody]=useState(seed?.body??''),[tagBike,setTagBike]=useState(true),[busy,setBusy]=useState(false),[error,setError]=useState(''),[photos,setPhotos]=useState<Photo[]>([]),[uploading,setUploading]=useState(0);
  const ready=!!body.trim()&&!busy&&!uploading,room=4-photos.length;
  const hint={build:'What you did to the bike and how it turned out',setup_question:'What the bike is doing, where, and what you’ve tried',ride_plan:'Where, when, and who should come',general:'What’s on your mind'}[category];
  async function publish(e:FormEvent){e.preventDefault();if(!ready)return;setBusy(true);setError('');try{await api('/posts','POST',{category,body,bike_label:tagBike&&bike?bikeLabel(bike):'',photo_ids:photos.map(p=>p.id)});onPosted();}catch(err){setError(errorText(err));}finally{setBusy(false);}}

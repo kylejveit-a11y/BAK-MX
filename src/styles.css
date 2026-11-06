@@ -1430,3 +1430,7 @@ select option:disabled{color:#7c8494}
 .job-option{all:unset;box-sizing:border-box;display:flex;gap:12px;justify-content:space-between;align-items:baseline;padding:11px 14px 11px 40px;cursor:pointer;line-height:1.35}
 .job-option:hover,.job-option.selected{background:rgba(255,255,255,.06)}.job-option.selected{font-weight:650}
 .guided-pick .field>.job-picker{width:100%}
+.app-actions .aa-buttons{display:flex;gap:10px;flex-wrap:wrap}
+.app-actions .gu-text .aa-ok{color:#9fd3a8;font-weight:600}
+.app-actions .gu-text .aa-error{color:#f0a39b}
+.app-actions.done{opacity:.92}
