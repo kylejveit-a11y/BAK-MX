@@ -48,8 +48,9 @@ export function PhotoEditSheet({photo,onUse,onClose}:{photo:Photo|null;onUse:(p:
  const out=!!usage&&usage.left+usage.credits<1;
  async function run(){
   setBusy(true);setNotice('');
-  try{const r=await api<{photo:Photo;usage:EditUsage}>('/api/photo-edits','POST',{photo_id:photo!.id,style,request_id:request});setResult(r.photo);setUsage(r.usage);}
-  catch(e){setNotice(errorText(e));void load();}finally{setRequest(uuid());setBusy(false);}
+  try{const r=await api<{photo:Photo;usage:EditUsage}>('/api/photo-edits','POST',{photo_id:photo!.id,style,request_id:request});setResult(r.photo);setUsage(r.usage);setRequest(uuid());}
+  // A dropped connection keeps the same request, so asking again returns that edit instead of paying for a second one.
+  catch(e){setNotice(errorText(e));const st=(e as {status?:number}).status;if(st&&st!==504)setRequest(uuid());void load();}finally{setBusy(false);}
  }
  async function buy(product:string){
   setBuying(product);setNotice('');

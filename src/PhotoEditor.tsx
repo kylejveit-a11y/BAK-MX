@@ -21,7 +21,8 @@ export function PhotoEditor({photo,onUse,onClose}:{photo:Photo;onUse:(p:Photo)=>
  async function run(){
   setBusy(true);setError('');
   try{const r=await api<{photo:Photo;usage:EditUsage}>('/photo-edits','POST',{photo_id:photo.id,style,request_id:request});setResult(r.photo);setUsage(r.usage);setRequest(crypto.randomUUID());}
-  catch(e){setError(errorText(e));setRequest(crypto.randomUUID());api<EditUsage>('/photo-edits/usage').then(setUsage).catch(()=>{});}
+  // A dropped connection keeps the same request, so asking again returns that edit instead of paying for a second one.
+  catch(e){setError(errorText(e));const st=(e as {status?:number}).status;if(st&&st!==504)setRequest(crypto.randomUUID());api<EditUsage>('/photo-edits/usage').then(setUsage).catch(()=>{});}
   finally{setBusy(false);}
  }
  async function buy(price:string){setError('');try{const r=await api<{url:string}>('/billing/credits','POST',{price_id:price});location.href=r.url;}catch(e){setError(errorText(e));}}

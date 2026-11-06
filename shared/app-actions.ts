@@ -104,11 +104,14 @@ const bikeBody=(b:Bike,change:Partial<Bike>)=>({manufacturer:b.manufacturer,mode
 /** Runs one confirmed action. Returns a short line for the card ("Done: …"). Throws with the server's message on failure. */
 export async function runAppAction(a:AppAction,host:AppActionHost):Promise<string>{
  const bike=(id:string)=>{const b=host.bikes.find(x=>x.id===id);if(!b)throw new Error('That bike is no longer in your Garage.');return b;};
+ // A bike is changed from what the server has right now, not from the screen's copy, so one action never undoes another
+ // (hours then a name on the same card) or a Garage save made just before.
+ const fresh=async(id:string)=>{const list=await host.api<Bike[]>('/bikes');const b=list.find(x=>x.id===id);if(!b)throw new Error('That bike is no longer in your Garage.');return b;};
  switch(a.type){
   case 'add_bike':{const saved=await host.api<Bike>('/bikes','POST',{create_id:host.newId(),manufacturer:a.manufacturer,model:a.model,model_year:a.model_year,variant:'standard',region:'US',nickname:a.nickname,configuration:{}});await host.refreshBikes();host.selectBike(saved.id);return 'Added to your Garage';}
   case 'switch_bike':host.selectBike(a.bike_id);return 'Switched';
-  case 'set_engine_hours':{const b=bike(a.bike_id);await host.api('/bikes?id='+b.id,'PATCH',bikeBody(b,{engine_hours:a.hours}));await host.refreshBikes();return 'Hours saved';}
-  case 'set_nickname':{const b=bike(a.bike_id);await host.api('/bikes?id='+b.id,'PATCH',bikeBody(b,{nickname:a.nickname}));await host.refreshBikes();return 'Name saved';}
+  case 'set_engine_hours':{const b=await fresh(a.bike_id);await host.api('/bikes?id='+b.id,'PATCH',bikeBody(b,{engine_hours:a.hours}));await host.refreshBikes();return 'Hours saved';}
+  case 'set_nickname':{const b=await fresh(a.bike_id);await host.api('/bikes?id='+b.id,'PATCH',bikeBody(b,{nickname:a.nickname}));await host.refreshBikes();return 'Name saved';}
   case 'set_theme':host.setTheme(a.mode);return 'Colour changed';
   case 'set_preferences':{const now=await host.api<Record<string,string>>('/preferences');const {type:_t,...next}=a;await host.api('/preferences','PUT',{units:now.units,answer_length:now.answer_length,tone:now.tone,...Object.fromEntries(Object.entries(next).filter(([,v])=>v!==undefined))});return 'Saved';}
   case 'update_profile':{const now=await host.api<Record<string,unknown>|null>('/profile');if(!now)throw new Error('Set up your rider profile first (Account), then BAK can edit it.');const {type:_t,...change}=a;

@@ -257,7 +257,8 @@ function Composer({profile,bike,seed,onClose,onPosted}:{profile:Profile;bike?:Bi
   try{const added=await addPhotos('post',{limit:room,capture,onProgress:(done,total)=>setUploading(Math.max(0,total-done))});setPhotos(old=>[...old,...added].slice(0,4));}
   catch(err){setError(errorText(err));}finally{setUploading(0);}
  }
- function removePhoto(id:string){setPhotos(old=>old.filter(p=>p.id!==id));void api('/photos?id='+id,'DELETE').catch(()=>{});}
+ // A photo that came from Ask BAK stays in that conversation; only photos added here are deleted when taken off the post.
+ function removePhoto(id:string){setPhotos(old=>old.filter(p=>p.id!==id));if(!seed?.photoIds?.includes(id))void api('/photos?id='+id,'DELETE').catch(()=>{});}
  function pickClip(){
   if(clip||clipStage)return;const input=document.createElement('input');input.type='file';input.accept='video/mp4,video/quicktime,video/webm,video/*';
   input.onchange=async()=>{const f=input.files?.[0];if(!f)return;setError('');try{setClip(await uploadClip(f,setClipStage));}catch(err){setError(errorText(err));}finally{setClipStage('');}};input.click();
@@ -276,7 +277,7 @@ function Composer({profile,bike,seed,onClose,onPosted}:{profile:Profile;bike?:Bi
   <div className="rd-compose-bar">
    <button type="button" className="rd-tool" disabled={room<1||!!uploading} onClick={()=>void add(true)}><Camera size={21}/>Camera</button>
    <button type="button" className="rd-tool" disabled={room<1||!!uploading} onClick={()=>void add(false)}><ImagePlus size={21}/>Photos</button>
-   <button type="button" className="rd-tool" disabled={!!clip||!!clipStage} onClick={pickClip} title="One clip, up to {CLIP_MAX_SECONDS} seconds"><Film size={21}/>Clip</button>
+   <button type="button" className="rd-tool" disabled={!!clip||!!clipStage} onClick={pickClip} title={`One clip, up to ${CLIP_MAX_SECONDS} seconds`}><Film size={21}/>Clip</button>
    <span className="subtle rd-count">{photos.length?`${photos.length}/4 photos${clip?' + clip':''}`:clip?'1 clip':body.length>3500?`${4000-body.length} left`:'Up to 4 photos or a clip'}</span>
    <button className="button" type="submit" disabled={!ready}>{busy?'Posting…':'Post'}<Send size={15}/></button>
   </div>

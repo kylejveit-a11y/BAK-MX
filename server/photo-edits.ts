@@ -36,7 +36,7 @@ export async function runEdit(source:Blob,style:typeof EDIT_STYLES[number]):Prom
  form.append('size','auto');
  form.append('output_format','jpeg');
  form.append('n','1');
- const r=await fetch('https://api.openai.com/v1/images/edits',{method:'POST',headers:{Authorization:'Bearer '+key},body:form,signal:AbortSignal.timeout(100_000)});
+ const r=await fetch('https://api.openai.com/v1/images/edits',{method:'POST',headers:{Authorization:'Bearer '+key},body:form,signal:AbortSignal.timeout(95_000)});
  const body=await r.json().catch(()=>null) as {data?:{b64_json?:string}[];error?:{message?:string;code?:string}}|null;
  if(!r.ok||!body?.data?.[0]?.b64_json){
   // A photo the model refuses (its own safety checks) is not the rider's fault and is not charged.
@@ -54,11 +54,18 @@ export async function handlePhotoEdits(req:Request,path:string,method:string,url
  const src=(await admin.from('rider_photos').select('id,storage_path,content_type,width,height').eq('id',data.photo_id).eq('user_id',owner).maybeSingle()).data as {id:string;storage_path:string;content_type:string;width:number|null;height:number|null}|null;
  if(!src)throw new HttpError(404,'That photo could not be found. Add it again.');
  const tier=await tierOf(owner),a=editAllowance(tier,process.env);
+ // An edit cut off by the server time limit never finished: hand it back so it does not use up the allowance.
+ const stale=(await admin.from('photo_edits').select('request_id').eq('user_id',owner).eq('status','pending').lt('created_at',new Date(Date.now()-150_000).toISOString()).limit(5)).data as {request_id:string}[]|null;
+ for(const r of stale??[])await admin.rpc('refund_photo_edit',{p_request_id:r.request_id});
  const reserved=await admin.rpc('reserve_photo_edit',{p_user_id:owner,p_request_id:data.request_id,p_limit:a.included,p_since:allowanceSince(a),p_source:src.id,p_style:data.style});
  if(reserved.error)throw new HttpError(503,'Photo edits could not be checked right now');
  if(reserved.data==='duplicate'){
-  const done=(await admin.from('photo_edits').select('result_photo_id,status').eq('request_id',data.request_id).eq('user_id',owner).maybeSingle()).data as {result_photo_id:string|null;status:string}|null;
+  // The same request again (the app lost the connection and asked again): hand back the finished edit, say it failed
+  // (it was handed back already), or, for one stuck past the server time limit, hand it back now.
+  const done=(await admin.from('photo_edits').select('result_photo_id,status,created_at').eq('request_id',data.request_id).eq('user_id',owner).maybeSingle()).data as {result_photo_id:string|null;status:string;created_at:string}|null;
   if(done?.result_photo_id){const p=(await photoLinks([done.result_photo_id])).get(done.result_photo_id);if(p)return json({photo:p,usage:await editUsage(owner,tier)});}
+  if(done?.status==='pending'&&Date.now()-new Date(done.created_at).getTime()>150_000)await admin.rpc('refund_photo_edit',{p_request_id:data.request_id});
+  if(done?.status!=='pending'||Date.now()-new Date(done.created_at).getTime()>150_000)throw new HttpError(410,'That edit did not finish and nothing was used. Tap Make it again.');
   throw new HttpError(409,'That edit is still running. Give it a moment.');
  }
  if(reserved.data==='limit')throw new HttpError(402,tier==='free'?'You have used your 3 free photo edits. Pro includes 15 a month, or buy a pack of edits.':`You have used this month's ${a.included} photo edits. Buy a pack of edits to keep going.`);

@@ -273,7 +273,7 @@ function ChatSession({bike,general=false,ownerId='',bikes,onSelectBike,signedIn,
    const request=pending.current;
    try{localStorage.setItem(storageKey,JSON.stringify({input:text,active:id,pending:request}));}catch{setStorageError('Retry identity could not be saved on this browser. Keep this page open if the connection fails.');}
    setLive({text,summary:'',answer:'',stage:'start'});setInput('');
-   const reply=await apiStream<{message:Message}>('/chat',{conversation_id:id,message:text,request_id:request.id,...(fast?{race:race?.track?{track:race.track.slice(0,120)}:{}}:{}),...(job.guided?{guided:job.guided}:{}),...(voice.on?{voice:true}:{})},event=>{if(!current())return;
+   const reply=await apiStream<{message:Message}>('/chat',{conversation_id:id,message:text,request_id:request.id,tz:(()=>{try{return Intl.DateTimeFormat().resolvedOptions().timeZone||undefined;}catch{return undefined;}})(),...(fast?{race:race?.track?{track:race.track.slice(0,120)}:{}}:{}),...(job.guided?{guided:job.guided}:{}),...(voice.on?{voice:true}:{})},event=>{if(!current())return;
     if(event.type==='draft')setLive(l=>l&&{...l,summary:String(event.summary||''),answer:String(event.answer||''),stage:'writing'});
     else if(event.type==='status')setLive(l=>l&&{...l,stage:String(event.stage)});});
    if(!current())return;

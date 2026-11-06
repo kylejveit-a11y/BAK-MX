@@ -6,9 +6,11 @@ import type {AppContext} from '../shared/app-actions.ts';
 
 const EVENT_WORDS=/\b(events?|ride ?days?|races?|racing|practice|clinic|meet ?ups?|rsvp|going to|sign me up|count me in|interested in)\b/i;
 
-export async function appContext(db:SupabaseClient,owner:string,active:Bike|null,message:string,history:Message[]):Promise<AppContext>{
- // Riders say "Saturday" and "next week": the weekday comes with the date. US Eastern until the app sends the rider's zone.
- const now=new Date(),today=now.toLocaleDateString('en-CA',{timeZone:'America/New_York'}),weekday=now.toLocaleDateString('en-US',{timeZone:'America/New_York',weekday:'long'});
+export async function appContext(db:SupabaseClient,owner:string,active:Bike|null,message:string,history:Message[],tz?:string):Promise<AppContext>{
+ // Riders say "Saturday" and "tomorrow": the date and weekday are the rider's own, from the time zone the app sends
+ // (US Eastern if it sends none or one this server does not know).
+ let zone='America/New_York';try{if(tz){new Intl.DateTimeFormat('en-US',{timeZone:tz});zone=tz;}}catch{/* unknown zone */}
+ const now=new Date(),today=now.toLocaleDateString('en-CA',{timeZone:zone}),weekday=now.toLocaleDateString('en-US',{timeZone:zone,weekday:'long'});
  // A rider who cannot be read back still gets an answer; actions just cannot point at bikes or events then.
  const bikes=((await db.from('bikes').select('id,manufacturer,model,model_year,nickname').eq('user_id',owner).order('created_at',{ascending:false}).limit(30)).data??[]) as Pick<Bike,'id'|'manufacturer'|'model'|'model_year'|'nickname'>[];
  const recent=[message,...history.filter(m=>m.role==='user').slice(-2).map(m=>m.content??'')].join(' ');
