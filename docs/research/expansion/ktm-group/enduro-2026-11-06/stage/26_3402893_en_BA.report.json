@@ -1,0 +1,149 @@
+[
+ {
+  "i": 0,
+  "make": "Husqvarna",
+  "model": "TE 250",
+  "yr": "2026",
+  "doc": "26_3402893_en_BA",
+  "layout": "2025_plus",
+  "n": 271,
+  "sched": 60,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 25,
+   "Capacities": 4,
+   "Chassis": 19,
+   "Tires": 2,
+   "Electrics": 5,
+   "Fork": 15,
+   "Shock absorber": 20,
+   "Engine tightening torques": 41,
+   "Chassis tightening torques": 80,
+   "Service schedule": 60
+  },
+  "damp": 15,
+  "dropped": [
+   "Tires / Front tire",
+   "Tires / Rear tire"
+  ],
+  "flagged": [
+   [
+    "Chassis tightening torques / Screw, turn signal switch (M5)",
+    "(0.7 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Screw, start button/kill switch (EJOT PT® ‒ K50x18)",
+    "(1.5 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ]
+  ],
+  "notes": [
+   "(All EU models and 300 AR)",
+   "(All US models)",
+   "(TE 300 PRO BR)",
+   "All 300 EU models and AR",
+   "All 300 US and AR models",
+   "All 300 models",
+   "All EU models",
+   "All US models",
+   "All standard models",
+   "NOLABEL ['2 Nm']",
+   "TE 250",
+   "TE 250 EU",
+   "TE 250 US",
+   "TE 300 EU",
+   "UNRECOGNIZED ?Capacities - fork (All standard models except 250 US)",
+   "UNRECOGNIZED ?Capacities - fork (TE 300 PRO)",
+   "UNRECOGNIZED ?Technical data - fork (All standard models except 250 US)",
+   "UNRECOGNIZED ?Technical data - fork (TE 300 PRO)",
+   "UNRECOGNIZED All 300 PRO, 300 AR and 300 EU models",
+   "UNRECOGNIZED All AR and US models except TE PRO 300",
+   "UNRECOGNIZED All standard models except 250 US",
+   "UNRECOGNIZED TE 300 PRO",
+   "UNRECOGNIZED TE 300 PRO BR",
+   "UNRECOGNIZED TE 300 PRO EU",
+   "UNRECOGNIZED TE 300 PRO US",
+   "all except US models"
+  ]
+ },
+ {
+  "i": 1,
+  "make": "Husqvarna",
+  "model": "TE 300",
+  "yr": "2026",
+  "doc": "26_3402893_en_BA",
+  "layout": "2025_plus",
+  "n": 256,
+  "sched": 60,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 25,
+   "Capacities": 4,
+   "Chassis": 19,
+   "Tires": 2,
+   "Electrics": 5,
+   "Shock absorber": 20,
+   "Engine tightening torques": 41,
+   "Chassis tightening torques": 80,
+   "Service schedule": 60
+  },
+  "damp": 9,
+  "dropped": [
+   "Tires / Front tire",
+   "Tires / Rear tire"
+  ],
+  "flagged": [
+   [
+    "Chassis tightening torques / Screw, turn signal switch (M5)",
+    "(0.7 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Screw, start button/kill switch (EJOT PT® ‒ K50x18)",
+    "(1.5 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ]
+  ],
+  "notes": [
+   "(All EU models and 300 AR)",
+   "(All US models)",
+   "(TE 300 PRO BR)",
+   "All 300 EU models and AR",
+   "All 300 US and AR models",
+   "All 300 models",
+   "All EU models",
+   "All US models",
+   "All standard models",
+   "NOLABEL ['2 Nm']",
+   "TE 250",
+   "TE 250 EU",
+   "TE 250 US",
+   "TE 300 EU",
+   "UNRECOGNIZED ?Capacities - fork (All standard models except 250 US)",
+   "UNRECOGNIZED ?Capacities - fork (TE 300 PRO)",
+   "UNRECOGNIZED ?Technical data - fork (All standard models except 250 US)",
+   "UNRECOGNIZED ?Technical data - fork (TE 300 PRO)",
+   "UNRECOGNIZED All 300 PRO, 300 AR and 300 EU models",
+   "UNRECOGNIZED All AR and US models except TE PRO 300",
+   "UNRECOGNIZED All standard models except 250 US",
+   "UNRECOGNIZED TE 300 PRO",
+   "UNRECOGNIZED TE 300 PRO BR",
+   "UNRECOGNIZED TE 300 PRO EU",
+   "UNRECOGNIZED TE 300 PRO US",
+   "all except US models"
+  ]
+ }
+]

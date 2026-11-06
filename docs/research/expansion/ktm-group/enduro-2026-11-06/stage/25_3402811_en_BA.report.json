@@ -1,0 +1,67 @@
+[
+ {
+  "i": 0,
+  "make": "Husqvarna",
+  "model": "FE 450",
+  "yr": "2025",
+  "doc": "25_3402811_en_BA",
+  "layout": "2025_plus",
+  "n": 279,
+  "sched": 56,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 32,
+   "Capacities": 2,
+   "Chassis": 22,
+   "Tires": 2,
+   "Electrics": 5,
+   "Fork": 14,
+   "Shock absorber": 20,
+   "Engine tightening torques": 54,
+   "Chassis tightening torques": 72,
+   "Service schedule": 56
+  },
+  "damp": 15,
+  "dropped": [],
+  "flagged": [
+   [
+    "Chassis / Brake discs - diameter / Front",
+    "(All US models) 260 mm, (FE 450 EU) 271 mm, (FE 450 Heritage EU) 272 mm, (FE 501) 273 mm, (FE 501 Heritage) 274 mm",
+    [
+     "shape"
+    ]
+   ],
+   [
+    "Chassis / Brake discs - diameter / Rear",
+    "(All US models) 220 mm, (FE 450 EU) 231 mm, (FE 450 Heritage EU) 232 mm, (FE 501) 233 mm, (FE 501 Heritage) 234 mm",
+    [
+     "shape"
+    ]
+   ],
+   [
+    "Engine tightening torques / Oil nozzle for the clutch lubrication (alternator cover sealing surface) (M4)",
+    "0.8 Nm",
+    [
+     "longlabel"
+    ]
+   ],
+   [
+    "Engine tightening torques / Screw, cylinder head (1. M10x1.25 Engine oil 2. 3. 4.)",
+    "Apply oil to collar and",
+    [
+     "torque"
+    ]
+   ]
+  ],
+  "notes": [
+   "(All EU models)",
+   "(All US models)",
+   "All 450 EU models",
+   "All 501 models",
+   "All EU models",
+   "All US models",
+   "All except FE 501 US",
+   "All standard models"
+  ]
+ }
+]

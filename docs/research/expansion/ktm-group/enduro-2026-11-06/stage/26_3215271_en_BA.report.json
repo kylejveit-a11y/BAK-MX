@@ -1,0 +1,45 @@
+[
+ {
+  "i": 0,
+  "make": "GasGas",
+  "model": "EC 300",
+  "yr": "2026",
+  "doc": "26_3215271_en_BA",
+  "layout": "2025_plus",
+  "n": 273,
+  "sched": 60,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 25,
+   "Capacities": 4,
+   "Chassis": 20,
+   "Tires": 6,
+   "Electrics": 5,
+   "Fork": 14,
+   "Shock absorber": 21,
+   "Engine tightening torques": 41,
+   "Chassis tightening torques": 77,
+   "Service schedule": 60
+  },
+  "damp": 15,
+  "dropped": [],
+  "flagged": [
+   [
+    "Chassis tightening torques / Screw, turn signal switch (M5)",
+    "(0.7 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ]
+  ],
+  "notes": [
+   "(EC 300 EU)",
+   "(EC 300 US)",
+   "EC 300 EU",
+   "EC 300 US",
+   "VARIANT Screw, light switch",
+   "VARIANT Screw, shock absorber adjusting ring"
+  ]
+ }
+]

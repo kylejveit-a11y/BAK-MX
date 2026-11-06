@@ -1,0 +1,64 @@
+[
+ {
+  "i": 0,
+  "make": "GasGas",
+  "model": "EC 300",
+  "yr": "2027",
+  "doc": "27_3215292_en_BA",
+  "layout": "2025_plus",
+  "n": 272,
+  "sched": 60,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 25,
+   "Capacities": 5,
+   "Chassis": 20,
+   "Tires": 6,
+   "Electrics": 5,
+   "Fork": 14,
+   "Shock absorber": 21,
+   "Engine tightening torques": 38,
+   "Chassis tightening torques": 78,
+   "Service schedule": 60
+  },
+  "damp": 15,
+  "dropped": [],
+  "flagged": [
+   [
+    "Engine tightening torques / Injector holder screw cap (M5)",
+    "(4.4 ft ⋅ lb); Loctite® 243",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Engine tightening torques / Stud, exhaust flange (M6)",
+    "(4.4 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Screw, turn signal switch (M5)",
+    "(0.7 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ]
+  ],
+  "notes": [
+   "(EU model)",
+   "(US model)",
+   "EU model",
+   "US model",
+   "VARIANT Cylinder head bleed screw",
+   "VARIANT Exhaust port adapter screw cap",
+   "VARIANT Screw, light switch",
+   "VARIANT Screw, shock absorber adjusting ring",
+   "VARIANT Stator screw"
+  ]
+ }
+]

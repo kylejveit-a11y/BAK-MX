@@ -1,0 +1,82 @@
+[
+ {
+  "i": 0,
+  "make": "KTM",
+  "model": "250 XC-W",
+  "yr": "2023",
+  "doc": "23_3214644_en_OM",
+  "layout": "2020_2025",
+  "n": 277,
+  "sched": 59,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 29,
+   "Engine tightening torques": 45,
+   "Capacities": 5,
+   "Chassis": 24,
+   "Electrical system": 6,
+   "Fork": 17,
+   "Shock absorber": 21,
+   "Chassis tightening torques": 71,
+   "Service schedule": 59
+  },
+  "damp": 15,
+  "dropped": [
+   "Electrical system / Fuse",
+   "Tires / Front tire",
+   "Tires / Rear tire"
+  ],
+  "flagged": [],
+  "notes": [
+   "(All XC ‑ W models)",
+   "(All special models)",
+   "(All standard EXC models)",
+   "All 250 models",
+   "All 300 models",
+   "All EXC models",
+   "All standard models",
+   "UNRECOGNIZED All XC ‑ W models",
+   "UNRECOGNIZED All special models"
+  ]
+ },
+ {
+  "i": 1,
+  "make": "KTM",
+  "model": "300 XC-W",
+  "yr": "2023",
+  "doc": "23_3214644_en_OM",
+  "layout": "2020_2025",
+  "n": 277,
+  "sched": 59,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 29,
+   "Engine tightening torques": 45,
+   "Capacities": 5,
+   "Chassis": 24,
+   "Electrical system": 6,
+   "Fork": 17,
+   "Shock absorber": 21,
+   "Chassis tightening torques": 71,
+   "Service schedule": 59
+  },
+  "damp": 15,
+  "dropped": [
+   "Electrical system / Fuse",
+   "Tires / Front tire",
+   "Tires / Rear tire"
+  ],
+  "flagged": [],
+  "notes": [
+   "(All XC ‑ W models)",
+   "(All special models)",
+   "(All standard EXC models)",
+   "All 250 models",
+   "All 300 models",
+   "All EXC models",
+   "All standard models",
+   "UNRECOGNIZED All XC ‑ W models",
+   "UNRECOGNIZED All special models"
+  ]
+ }
+]

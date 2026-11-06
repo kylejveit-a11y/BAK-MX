@@ -1,0 +1,53 @@
+[
+ {
+  "i": 0,
+  "make": "GasGas",
+  "model": "EC 450F",
+  "yr": "2025",
+  "doc": "25_3215229_en_BA",
+  "layout": "2025_plus",
+  "n": 282,
+  "sched": 58,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 32,
+   "Capacities": 2,
+   "Chassis": 24,
+   "Tires": 2,
+   "Electrics": 5,
+   "Fork": 14,
+   "Shock absorber": 21,
+   "Engine tightening torques": 54,
+   "Chassis tightening torques": 70,
+   "Service schedule": 58
+  },
+  "damp": 15,
+  "dropped": [],
+  "flagged": [
+   [
+    "Engine tightening torques / Oil nozzle for the clutch lubrication (alternator cover sealing surface) (M4)",
+    "0.8 Nm",
+    [
+     "longlabel"
+    ]
+   ],
+   [
+    "Engine tightening torques / Screw, cylinder head (1. M10x1.25 Engine oil 2. 3. 4.)",
+    "Apply oil to collar and",
+    [
+     "torque"
+    ]
+   ]
+  ],
+  "notes": [
+   "(All EU models)",
+   "(EC 450F US)",
+   "All 450 models",
+   "All EU models",
+   "EC 450F EU",
+   "EC 450F US",
+   "EC 500F",
+   "VARIANT Screw, battery terminal Screw, light switch Screw, turn signal switch"
+  ]
+ }
+]

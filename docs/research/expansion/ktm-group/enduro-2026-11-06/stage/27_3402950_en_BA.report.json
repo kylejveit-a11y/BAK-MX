@@ -1,0 +1,93 @@
+[
+ {
+  "i": 0,
+  "make": "Husqvarna",
+  "model": "TE 150",
+  "yr": "2027",
+  "doc": "27_3402950_en_BA",
+  "layout": "2025_plus",
+  "n": 276,
+  "sched": 60,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 29,
+   "Capacities": 4,
+   "Chassis": 20,
+   "Tires": 4,
+   "Electrics": 4,
+   "Fork": 15,
+   "Shock absorber": 21,
+   "Engine tightening torques": 44,
+   "Chassis tightening torques": 75,
+   "Service schedule": 60
+  },
+  "damp": 15,
+  "dropped": [],
+  "flagged": [
+   [
+    "Chassis tightening torques / Hose connector, active carbon filter",
+    "(2.80 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Screw, turn signal switch (M5)",
+    "(0.7 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Screw, oil tank on frame (M6)",
+    "(4.4 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Screw, oil pump (M6)",
+    "(4.4 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Screw, oil tank cap (M6)",
+    "(4.4 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Screw, magnetic pump to oil tank (M6)",
+    "(4.4 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Nut, pull switch (M8)",
+    "(0.59 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ]
+  ],
+  "notes": [
+   "(TE 125)",
+   "(TE 150)",
+   "NOLABEL ['0.8 Nm']",
+   "NOLABEL ['6 Nm']",
+   "TE 125",
+   "TE 150"
+  ]
+ }
+]

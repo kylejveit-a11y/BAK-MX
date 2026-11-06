@@ -1,0 +1,65 @@
+[
+ {
+  "i": 0,
+  "make": "KTM",
+  "model": "450 XCF-W",
+  "yr": "2025",
+  "doc": "25_3240051_en_BA",
+  "layout": "2025_plus",
+  "n": 271,
+  "sched": 57,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 32,
+   "Capacities": 2,
+   "Chassis": 24,
+   "Tires": 2,
+   "Electrics": 5,
+   "Fork": 14,
+   "Shock absorber": 20,
+   "Engine tightening torques": 54,
+   "Chassis tightening torques": 61,
+   "Service schedule": 57
+  },
+  "damp": 15,
+  "dropped": [],
+  "flagged": [
+   [
+    "Engine tightening torques / Oil nozzle for the clutch lubrication (alternator cover sealing surface) (M4)",
+    "0.8 Nm",
+    [
+     "longlabel"
+    ]
+   ],
+   [
+    "Engine tightening torques / Screw, cylinder head (1. M10x1.25 Engine oil 2. 3. 4.)",
+    "Apply oil to collar and",
+    [
+     "torque"
+    ]
+   ]
+  ],
+  "notes": [
+   "(All Champion Edition)",
+   "(All EXC-F EU)",
+   "(All Six Days)",
+   "(XCF-W)",
+   "(XW-F)",
+   "All 450 EXC-F",
+   "All 450 models",
+   "All 500 EXC-F",
+   "All 500 models",
+   "All EXC-F models",
+   "All Six Days",
+   "All US models",
+   "All except Six Days",
+   "UNRECOGNIZED All except XW-F",
+   "VARIANT Screw, emergency OFF switch Combination switch screw",
+   "VARIANT Screw, front brake caliper Milled upper triple clamp screw Forged upper triple clamp screw Milled lower triple clamp screw Forged lower triple clamp screw",
+   "VARIANT Screw, turn signal switch Screw, intake air temperature sensor",
+   "VARIANT Screw-in nozzle, cooling system Inner diaphragm fitting Outer diaphragm fitting",
+   "VARIANT Spoke nipple, rear wheel Screw, intake air temperature sensor",
+   "XCF-W"
+  ]
+ }
+]

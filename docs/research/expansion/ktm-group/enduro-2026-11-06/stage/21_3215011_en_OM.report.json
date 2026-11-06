@@ -1,0 +1,38 @@
+[
+ {
+  "i": 0,
+  "make": "GasGas",
+  "model": "EC 300",
+  "yr": "2021",
+  "doc": "21_3215011_en_OM",
+  "layout": "2020_2025",
+  "n": 271,
+  "sched": 60,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 29,
+   "Engine tightening torques": 45,
+   "Capacities": 5,
+   "Chassis": 23,
+   "Electrical system": 6,
+   "Tires": 2,
+   "Fork": 14,
+   "Shock absorber": 21,
+   "Chassis tightening torques": 66,
+   "Service schedule": 60
+  },
+  "damp": 15,
+  "dropped": [
+   "Electrical system / Fuse"
+  ],
+  "flagged": [],
+  "notes": [
+   "(All EU models)",
+   "(EC 300 US)",
+   "All 300 models",
+   "All EU models",
+   "EC 250 EU",
+   "EC 300 US"
+  ]
+ }
+]

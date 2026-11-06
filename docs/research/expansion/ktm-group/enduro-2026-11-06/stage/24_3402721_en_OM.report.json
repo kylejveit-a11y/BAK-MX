@@ -1,0 +1,49 @@
+[
+ {
+  "i": 0,
+  "make": "Husqvarna",
+  "model": "FE 450",
+  "yr": "2024",
+  "doc": "24_3402721_en_OM",
+  "layout": "2020_2025",
+  "n": 296,
+  "sched": 56,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 31,
+   "Engine tightening torques": 60,
+   "Capacities": 4,
+   "Chassis": 26,
+   "Electrical system": 6,
+   "Tires": 2,
+   "Fork": 15,
+   "Shock absorber": 21,
+   "Chassis tightening torques": 75,
+   "Service schedule": 56
+  },
+  "damp": 15,
+  "dropped": [],
+  "flagged": [
+   [
+    "Engine tightening torques / Oil nozzle for the clutch lubrication (alternator cover sealing surface) (M4)",
+    "0.8 Nm (0.59 lbf ft)",
+    [
+     "longlabel"
+    ]
+   ]
+  ],
+  "notes": [
+   "(All EU models)",
+   "(All US models)",
+   "All 450 models",
+   "All 501 models",
+   "All EU models",
+   "All EU models, All 501 models",
+   "All EU models, FE 450 US",
+   "FE 450 EU",
+   "FE 450 US",
+   "FE 501 EU",
+   "UNRECOGNIZED FE 501w US"
+  ]
+ }
+]

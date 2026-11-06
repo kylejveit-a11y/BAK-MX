@@ -1,0 +1,39 @@
+[
+ {
+  "i": 0,
+  "make": "Husqvarna",
+  "model": "FE 450",
+  "yr": "2023",
+  "doc": "23_3402639_en_OM",
+  "layout": "2020_2025",
+  "n": 287,
+  "sched": 55,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 31,
+   "Engine tightening torques": 49,
+   "Capacities": 4,
+   "Chassis": 26,
+   "Electrical system": 5,
+   "Tires": 2,
+   "Fork": 17,
+   "Shock absorber": 21,
+   "Chassis tightening torques": 77,
+   "Service schedule": 55
+  },
+  "damp": 15,
+  "dropped": [
+   "Electrical system / Fuse"
+  ],
+  "flagged": [],
+  "notes": [
+   "(All EU models)",
+   "(US)",
+   "All EU models",
+   "FE 450 EU",
+   "FE 501 EU",
+   "US",
+   "US, FE 450 EU"
+  ]
+ }
+]

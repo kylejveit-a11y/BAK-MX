@@ -1,0 +1,74 @@
+[
+ {
+  "i": 0,
+  "make": "GasGas",
+  "model": "EC 250",
+  "yr": "2023",
+  "doc": "23_3215102_en_OM",
+  "layout": "2020_2025",
+  "n": 280,
+  "sched": 59,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 29,
+   "Engine tightening torques": 46,
+   "Capacities": 5,
+   "Chassis": 24,
+   "Electrical system": 6,
+   "Tires": 2,
+   "Fork": 14,
+   "Shock absorber": 21,
+   "Chassis tightening torques": 74,
+   "Service schedule": 59
+  },
+  "damp": 15,
+  "dropped": [
+   "Electrical system / Fuse"
+  ],
+  "flagged": [],
+  "notes": [
+   "(All EU models)",
+   "(All US models)",
+   "All 250 models",
+   "All 300 models",
+   "All EU models",
+   "All US models"
+  ]
+ },
+ {
+  "i": 1,
+  "make": "GasGas",
+  "model": "EC 300",
+  "yr": "2023",
+  "doc": "23_3215102_en_OM",
+  "layout": "2020_2025",
+  "n": 280,
+  "sched": 59,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 29,
+   "Engine tightening torques": 46,
+   "Capacities": 5,
+   "Chassis": 24,
+   "Electrical system": 6,
+   "Tires": 2,
+   "Fork": 14,
+   "Shock absorber": 21,
+   "Chassis tightening torques": 74,
+   "Service schedule": 59
+  },
+  "damp": 15,
+  "dropped": [
+   "Electrical system / Fuse"
+  ],
+  "flagged": [],
+  "notes": [
+   "(All EU models)",
+   "(All US models)",
+   "All 250 models",
+   "All 300 models",
+   "All EU models",
+   "All US models"
+  ]
+ }
+]

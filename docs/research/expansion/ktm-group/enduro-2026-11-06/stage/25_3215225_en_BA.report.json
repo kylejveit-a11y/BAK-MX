@@ -1,0 +1,84 @@
+[
+ {
+  "i": 0,
+  "make": "GasGas",
+  "model": "EC 250",
+  "yr": "2025",
+  "doc": "25_3215225_en_BA",
+  "layout": "2025_plus",
+  "n": 274,
+  "sched": 60,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 25,
+   "Capacities": 4,
+   "Chassis": 20,
+   "Tires": 4,
+   "Electrics": 5,
+   "Fork": 14,
+   "Shock absorber": 21,
+   "Engine tightening torques": 41,
+   "Chassis tightening torques": 80,
+   "Service schedule": 60
+  },
+  "damp": 15,
+  "dropped": [
+   "Tires / Front tire",
+   "Tires / Rear tire"
+  ],
+  "flagged": [],
+  "notes": [
+   "(250 / 300 EU models)",
+   "(All US models)",
+   "(EC 300 GP EU)",
+   "All 250 models",
+   "All 300 models",
+   "All EU models",
+   "All US models",
+   "All standard models",
+   "UNRECOGNIZED All special models",
+   "VARIANT Screw, shock absorber adjusting ring Screw, light switch Screw, turn signal switch"
+  ]
+ },
+ {
+  "i": 1,
+  "make": "GasGas",
+  "model": "EC 300",
+  "yr": "2025",
+  "doc": "25_3215225_en_BA",
+  "layout": "2025_plus",
+  "n": 274,
+  "sched": 60,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 25,
+   "Capacities": 4,
+   "Chassis": 20,
+   "Tires": 4,
+   "Electrics": 5,
+   "Fork": 14,
+   "Shock absorber": 21,
+   "Engine tightening torques": 41,
+   "Chassis tightening torques": 80,
+   "Service schedule": 60
+  },
+  "damp": 15,
+  "dropped": [
+   "Tires / Front tire",
+   "Tires / Rear tire"
+  ],
+  "flagged": [],
+  "notes": [
+   "(250 / 300 EU models)",
+   "(All US models)",
+   "(EC 300 GP EU)",
+   "All 250 models",
+   "All 300 models",
+   "All EU models",
+   "All US models",
+   "All standard models",
+   "UNRECOGNIZED All special models",
+   "VARIANT Screw, shock absorber adjusting ring Screw, light switch Screw, turn signal switch"
+  ]
+ }
+]

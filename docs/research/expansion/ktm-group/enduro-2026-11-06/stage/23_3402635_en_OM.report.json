@@ -1,0 +1,114 @@
+[
+ {
+  "i": 0,
+  "make": "Husqvarna",
+  "model": "TE 250",
+  "yr": "2023",
+  "doc": "23_3402635_en_OM",
+  "layout": "2020_2025",
+  "n": 285,
+  "sched": 59,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 28,
+   "Engine tightening torques": 48,
+   "Capacities": 5,
+   "Chassis": 24,
+   "Electrical system": 6,
+   "Tires": 2,
+   "Fork": 17,
+   "Shock absorber": 21,
+   "Chassis tightening torques": 75,
+   "Service schedule": 59
+  },
+  "damp": 15,
+  "dropped": [
+   "Electrical system / Fuse"
+  ],
+  "flagged": [
+   [
+    "Electrical system / Turn signal (All EU/AR standard",
+    "R10W/socket BA15s; 12 V",
+    [
+     "parens"
+    ]
+   ],
+   [
+    "Electrical system / models)",
+    "10 W",
+    [
+     "parens"
+    ]
+   ]
+  ],
+  "notes": [
+   "(All EU/AR/CN standard models)",
+   "(All US standard models)",
+   "All EU/AR standard models",
+   "All EU/AR/CN standard models",
+   "All TE 250 models",
+   "All TE 300 models",
+   "All US standard models",
+   "TE 250 EU",
+   "TE 250 US, TE 250 CN",
+   "TE 300 EU, TE 300 AR",
+   "TE 300 US"
+  ]
+ },
+ {
+  "i": 1,
+  "make": "Husqvarna",
+  "model": "TE 300",
+  "yr": "2023",
+  "doc": "23_3402635_en_OM",
+  "layout": "2020_2025",
+  "n": 285,
+  "sched": 59,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 28,
+   "Engine tightening torques": 48,
+   "Capacities": 5,
+   "Chassis": 24,
+   "Electrical system": 6,
+   "Tires": 2,
+   "Fork": 17,
+   "Shock absorber": 21,
+   "Chassis tightening torques": 75,
+   "Service schedule": 59
+  },
+  "damp": 15,
+  "dropped": [
+   "Electrical system / Fuse"
+  ],
+  "flagged": [
+   [
+    "Electrical system / Turn signal (All EU/AR standard",
+    "R10W/socket BA15s; 12 V",
+    [
+     "parens"
+    ]
+   ],
+   [
+    "Electrical system / models)",
+    "10 W",
+    [
+     "parens"
+    ]
+   ]
+  ],
+  "notes": [
+   "(All EU/AR/CN standard models)",
+   "(All US standard models)",
+   "All EU/AR standard models",
+   "All EU/AR/CN standard models",
+   "All TE 250 models",
+   "All TE 300 models",
+   "All US standard models",
+   "TE 250 EU",
+   "TE 250 US, TE 250 CN",
+   "TE 300 EU, TE 300 AR",
+   "TE 300 US"
+  ]
+ }
+]

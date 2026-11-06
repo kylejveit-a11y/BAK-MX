@@ -1,0 +1,34 @@
+[
+ {
+  "i": 0,
+  "make": "Husqvarna",
+  "model": "TE 150",
+  "yr": "2024",
+  "doc": "24_3402716_en_OM",
+  "layout": "2020_2025",
+  "n": 291,
+  "sched": 60,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 28,
+   "Engine tightening torques": 47,
+   "Capacities": 5,
+   "Chassis": 24,
+   "Electrical system": 7,
+   "Tires": 2,
+   "Fork": 15,
+   "Shock absorber": 21,
+   "Chassis tightening torques": 82,
+   "Service schedule": 60
+  },
+  "damp": 15,
+  "dropped": [],
+  "flagged": [],
+  "notes": [
+   "(TE 150 EU)",
+   "(TE 150 US)",
+   "TE 150 EU",
+   "TE 150 US"
+  ]
+ }
+]

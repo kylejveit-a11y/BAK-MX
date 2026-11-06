@@ -1,0 +1,103 @@
+[
+ {
+  "i": 0,
+  "make": "KTM",
+  "model": "450 XCF-W",
+  "yr": "2027",
+  "doc": "27_3240391_en_BA",
+  "layout": "2025_plus",
+  "n": 276,
+  "sched": 57,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 32,
+   "Capacities": 2,
+   "Chassis": 23,
+   "Tires": 2,
+   "Electrics": 5,
+   "Fork": 15,
+   "Shock absorber": 21,
+   "Engine tightening torques": 49,
+   "Chassis tightening torques": 70,
+   "Service schedule": 57
+  },
+  "damp": 15,
+  "dropped": [],
+  "flagged": [
+   [
+    "Engine tightening torques / Oil nozzle for the clutch lubrication (alternator cover sealing surface) (M4)",
+    "0.8 Nm",
+    [
+     "longlabel"
+    ]
+   ],
+   [
+    "Engine tightening torques / Screw, cylinder head (1. M10x1.25 Engine oil 2. 3.)",
+    "Apply oil to collar and",
+    [
+     "torque"
+    ]
+   ],
+   [
+    "Engine tightening torques / Screw, cylinder head (4. M10x1.25 Engine oil)",
+    "50 Nm",
+    [
+     "torque"
+    ]
+   ],
+   [
+    "Engine tightening torques / Spark plug (M10x1)",
+    "10 Nm … 12 Nm; 8.9 ft ⋅ lb )",
+    [
+     "parens"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Screw, intake air temperature sensor (M5)",
+    "(1.99 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Forged lower triple clamp screw (M8)",
+    "(11.1 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Combination switch screw (K50x18)",
+    "(1.5 ft ⋅ lb); EJOT PT®",
+    [
+     "shape",
+     "torque"
+    ]
+   ]
+  ],
+  "notes": [
+   "(450 EXC-F)",
+   "(500 EXC-F EU model)",
+   "(All Six Days)",
+   "(XCF-W)",
+   "450 EXC-F SIX DAYS",
+   "500 EXC-F EU model",
+   "500 EXC-F SIX DAYS",
+   "All 450 EXC-F",
+   "All 450 models",
+   "All 500 models",
+   "All Six Days",
+   "All standard models",
+   "UNRECOGNIZED All EXC F models",
+   "VARIANT Forged upper triple clamp screw",
+   "VARIANT Milled lower triple clamp screw",
+   "VARIANT Milled upper triple clamp screw",
+   "VARIANT Screw, emergency OFF switch",
+   "VARIANT Screw, front brake caliper",
+   "VARIANT Screw, turn signal switch",
+   "XCF-W"
+  ]
+ }
+]

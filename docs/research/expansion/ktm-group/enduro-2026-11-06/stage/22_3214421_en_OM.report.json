@@ -1,0 +1,88 @@
+[
+ {
+  "i": 0,
+  "make": "KTM",
+  "model": "250 XC-W",
+  "yr": "2022",
+  "doc": "22_3214421_en_OM",
+  "layout": "2020_2025",
+  "n": 262,
+  "sched": 59,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 29,
+   "Engine tightening torques": 45,
+   "Capacities": 5,
+   "Chassis": 24,
+   "Electrical system": 6,
+   "Fork": 11,
+   "Shock absorber": 21,
+   "Chassis tightening torques": 62,
+   "Service schedule": 59
+  },
+  "damp": 12,
+  "dropped": [
+   "Electrical system / Fuse",
+   "Tires / Front tire",
+   "Tires / Rear tire",
+   "Fork / Rebound damping / Comfort",
+   "Fork / Rebound damping / Standard",
+   "Fork / Rebound damping / Sport"
+  ],
+  "flagged": [],
+  "notes": [
+   "(All XC ‑ W models)",
+   "(All special models)",
+   "(All standard EXC models)",
+   "All 250 models",
+   "All 300 models",
+   "All EXC models",
+   "All standard XC-W models, All standard EXC models",
+   "UNRECOGNIZED All XC ‑ W models",
+   "UNRECOGNIZED All special models"
+  ]
+ },
+ {
+  "i": 1,
+  "make": "KTM",
+  "model": "300 XC-W",
+  "yr": "2022",
+  "doc": "22_3214421_en_OM",
+  "layout": "2020_2025",
+  "n": 262,
+  "sched": 59,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 29,
+   "Engine tightening torques": 45,
+   "Capacities": 5,
+   "Chassis": 24,
+   "Electrical system": 6,
+   "Fork": 11,
+   "Shock absorber": 21,
+   "Chassis tightening torques": 62,
+   "Service schedule": 59
+  },
+  "damp": 12,
+  "dropped": [
+   "Electrical system / Fuse",
+   "Tires / Front tire",
+   "Tires / Rear tire",
+   "Fork / Rebound damping / Comfort",
+   "Fork / Rebound damping / Standard",
+   "Fork / Rebound damping / Sport"
+  ],
+  "flagged": [],
+  "notes": [
+   "(All XC ‑ W models)",
+   "(All special models)",
+   "(All standard EXC models)",
+   "All 250 models",
+   "All 300 models",
+   "All EXC models",
+   "All standard XC-W models, All standard EXC models",
+   "UNRECOGNIZED All XC ‑ W models",
+   "UNRECOGNIZED All special models"
+  ]
+ }
+]

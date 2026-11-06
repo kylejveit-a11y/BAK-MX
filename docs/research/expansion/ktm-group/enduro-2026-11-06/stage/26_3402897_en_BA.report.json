@@ -1,0 +1,83 @@
+[
+ {
+  "i": 0,
+  "make": "Husqvarna",
+  "model": "FE 450",
+  "yr": "2026",
+  "doc": "26_3402897_en_BA",
+  "layout": "2025_plus",
+  "n": 283,
+  "sched": 57,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 32,
+   "Capacities": 2,
+   "Chassis": 24,
+   "Tires": 2,
+   "Electrics": 5,
+   "Fork": 14,
+   "Shock absorber": 20,
+   "Engine tightening torques": 51,
+   "Chassis tightening torques": 76,
+   "Service schedule": 57
+  },
+  "damp": 15,
+  "dropped": [],
+  "flagged": [
+   [
+    "Engine tightening torques / Oil nozzle for the clutch lubrication (alternator cover sealing surface) (M4)",
+    "0.8 Nm",
+    [
+     "longlabel"
+    ]
+   ],
+   [
+    "Engine tightening torques / Screw, cylinder head (1. M10x1.25 Engine oil 2. 3. 4.)",
+    "Apply oil to collar and",
+    [
+     "torque"
+    ]
+   ],
+   [
+    "Engine tightening torques / Spark plug (M10x1)",
+    "10 Nm … 12 Nm; 8.9 ft ⋅ lb )",
+    [
+     "parens"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Screw, turn signal switch (M5)",
+    "(0.7 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Screw, intake air temperature sensor (EJOT DELTA PT® ‒ K50x18 ‒ T20)",
+    "(0.52 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ],
+   [
+    "Chassis tightening torques / Combination switch screw (EJOT PT® ‒ K50x18)",
+    "(1.5 ft ⋅ lb)",
+    [
+     "shape",
+     "torque"
+    ]
+   ]
+  ],
+  "notes": [
+   "(All EU models)",
+   "(FE 450 US)",
+   "All EU models",
+   "FE 450",
+   "FE 450 EU",
+   "FE 450 US",
+   "FE 501"
+  ]
+ }
+]

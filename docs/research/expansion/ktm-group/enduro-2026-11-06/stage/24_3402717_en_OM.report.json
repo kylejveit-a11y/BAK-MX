@@ -1,0 +1,82 @@
+[
+ {
+  "i": 0,
+  "make": "Husqvarna",
+  "model": "TE 250",
+  "yr": "2024",
+  "doc": "24_3402717_en_OM",
+  "layout": "2020_2025",
+  "n": 274,
+  "sched": 60,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 24,
+   "Engine tightening torques": 43,
+   "Capacities": 5,
+   "Chassis": 22,
+   "Electrical system": 7,
+   "Tires": 2,
+   "Fork": 15,
+   "Shock absorber": 21,
+   "Chassis tightening torques": 75,
+   "Service schedule": 60
+  },
+  "damp": 15,
+  "dropped": [],
+  "flagged": [],
+  "notes": [
+   "(All EU/AR/CN models)",
+   "(TE US)",
+   "All EU/AR models",
+   "All TE standard models",
+   "TE 250",
+   "TE 250 EU",
+   "TE 300",
+   "TE 300 US",
+   "TE US",
+   "UNRECOGNIZED All TE special models",
+   "UNRECOGNIZED TE 250 US/CN",
+   "UNRECOGNIZED TE 300 EU/AR"
+  ]
+ },
+ {
+  "i": 1,
+  "make": "Husqvarna",
+  "model": "TE 300",
+  "yr": "2024",
+  "doc": "24_3402717_en_OM",
+  "layout": "2020_2025",
+  "n": 276,
+  "sched": 60,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 24,
+   "Engine tightening torques": 43,
+   "Capacities": 5,
+   "Chassis": 24,
+   "Electrical system": 7,
+   "Tires": 2,
+   "Fork": 15,
+   "Shock absorber": 21,
+   "Chassis tightening torques": 75,
+   "Service schedule": 60
+  },
+  "damp": 15,
+  "dropped": [],
+  "flagged": [],
+  "notes": [
+   "(All EU/AR/CN models)",
+   "(TE US)",
+   "All EU/AR models",
+   "All TE standard models",
+   "TE 250",
+   "TE 250 EU",
+   "TE 300",
+   "TE 300 US",
+   "TE US",
+   "UNRECOGNIZED All TE special models",
+   "UNRECOGNIZED TE 250 US/CN",
+   "UNRECOGNIZED TE 300 EU/AR"
+  ]
+ }
+]

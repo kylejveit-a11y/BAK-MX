@@ -1,0 +1,37 @@
+[
+ {
+  "i": 0,
+  "make": "KTM",
+  "model": "150 XC-W",
+  "yr": "2023",
+  "doc": "23_3214643_en_OM",
+  "layout": "2020_2025",
+  "n": 287,
+  "sched": 59,
+  "sched_problems": [],
+  "secs": {
+   "Engine": 29,
+   "Engine tightening torques": 51,
+   "Capacities": 5,
+   "Chassis": 23,
+   "Electrical system": 6,
+   "Tires": 2,
+   "Fork": 17,
+   "Shock absorber": 21,
+   "Chassis tightening torques": 74,
+   "Service schedule": 59
+  },
+  "damp": 15,
+  "dropped": [
+   "Electrical system / Fuse"
+  ],
+  "flagged": [],
+  "notes": [
+   "(150 EXC EU)",
+   "(150 XC ‑ W US)",
+   "150 EXC EU",
+   "150 EXC TPI EU",
+   "UNRECOGNIZED 150 XC ‑ W US"
+  ]
+ }
+]
