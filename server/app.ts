@@ -1,5 +1,7 @@
 import {appContext} from './app-context.ts';
 import {handleRiderManuals,riderManualExcerpts} from './rider-manuals.ts';
+import {handleRiderVideos} from './rider-videos.ts';
+import {handlePhotoEdits} from './photo-edits.ts';
 import {handleRiderPhotos,photoLinks,pick,requireOwnPhotos,PHOTO_BUCKET} from './rider-photos.ts';
 import {createInput,createRecord} from './create-record.ts';
 import {aiAccessMode} from './ai-access.ts';
@@ -21,7 +23,7 @@ import {limitMessage,canCoachClips,CLIP_PRO_NOTE} from '../shared/plans.ts';
 import {handleMobileBilling} from './mobile-billing.ts';
 import {handleRiderSurfaces} from './rider-surfaces.ts';
 import {handleModeration} from './moderation.ts';
-import {handleEval} from './eval-access.ts';
+import {handleEval,handleEvalPhotoEdit} from './eval-access.ts';
 import {proceduresForBike} from '../shared/procedures.ts';
 import {exactBikeScope} from '../shared/bike-identity.ts';
 import {physicsFor} from './physics-context.ts';
@@ -43,12 +45,15 @@ async function route(req:Request):Promise<Response>{const url=new URL(req.url),o
  if((path==='/api/billing/webhook'&&method==='POST')||(path==='/api/billing/price'&&method==='GET')||(path==='/api/billing/plans'&&method==='GET')){return await handleBilling(req,null,null)??json({error:'Not found'},404);}
  if(path==='/api/mobile/webhook'&&method==='POST')return await handleMobileBilling(req,null)??json({error:'Not found'},404);
  if(path==='/api/eval/ask'&&method==='POST')return await handleEval(req);
+ if(path==='/api/eval/photo-edit'&&method==='POST')return await handleEvalPhotoEdit(req);
  const {db,user,token}=await authenticate(req);
  if(path.startsWith('/api/mobile/'))return await handleMobileBilling(req,user)??json({error:'Not found'},404);
  if(path.startsWith('/api/billing/')){return await handleBilling(req,user,db)??json({error:'Not found'},404);}
  const owner=user.id;
  {const manuals=await handleRiderManuals(req,path,method,url,owner,db);if(manuals)return manuals;}
  {const photos=await handleRiderPhotos(req,path,method,url,owner,db);if(photos)return photos;}
+ {const videos=await handleRiderVideos(req,path,method,url,owner,db);if(videos)return videos;}
+ {const edits=await handlePhotoEdits(req,path,method,url,owner,db);if(edits)return edits;}
  {const coaching=await handleCoaching(req,path,method,url,owner,db);if(coaching)return json(coaching);}
  if(path==='/api/bikes'){
   if(method==='GET')return json(checked(await db.from('bikes').select('*').eq('user_id',owner).order('created_at',{ascending:false})));

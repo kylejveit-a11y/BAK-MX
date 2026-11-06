@@ -1,3 +1,5 @@
+import {runEdit} from './photo-edits.ts';
+import {EDIT_STYLES} from '../shared/photo-edit.ts';
 import {createHash} from 'node:crypto';
 import {z} from 'zod';
 import type {Bike,Message} from '../shared/types.ts';
@@ -35,7 +37,7 @@ const body=z.object({
   change_made:z.string().max(1000).default(''),result:z.enum(['better','no_change','worse','not_tested']),notes:z.string().max(1000).default('')})).max(8).default([]),
 });
 const ID='00000000-0000-4000-8000-0000000000';
-export async function handleEval(req:Request):Promise<Response>{
+async function evalToken(req:Request){
  const m=(req.headers.get('authorization')??'').match(/^Bearer (bakeval_[a-f0-9]{48})$/);
  if(!m)throw new HttpError(404,'Not found');
  const admin=adminDb(),hash=createHash('sha256').update(m[1]).digest('hex');
@@ -43,6 +45,20 @@ export async function handleEval(req:Request):Promise<Response>{
  if(!tok||tok.revoked_at||new Date(tok.expires_at)<new Date())throw new HttpError(404,'Not found');
  const {count}=await admin.from('eval_runs').select('id',{count:'exact',head:true}).eq('token_id',tok.id).gte('created_at',new Date(Date.now()-864e5).toISOString());
  if((count??0)>=tok.daily_limit)throw new HttpError(429,'Daily test limit reached');
+ return {admin,tok};
+}
+/** Photo-edit test: one image in, the edited image back. Nothing is saved and no rider is charged; it counts as a test run. */
+export async function handleEvalPhotoEdit(req:Request):Promise<Response>{
+ const {admin,tok}=await evalToken(req);
+ const data=z.object({image:z.string().regex(/^data:image\/(jpeg|png|webp);base64,/).max(3_900_000),style:z.enum(EDIT_STYLES)}).strict().parse(await readJson(req,4_000_000));
+ const [head,b64]=data.image.split(',');const type=head.slice(5,head.indexOf(';'));
+ const t0=Date.now(),out=await runEdit(new Blob([Uint8Array.from(atob(b64),c=>c.charCodeAt(0))],{type}),data.style);
+ await admin.from('eval_runs').insert({token_id:tok.id,bike:'photo edit',message:data.style,prompt_version:'photo-edit',ms:Date.now()-t0,ok:true}).then(()=>{},()=>{});
+ let s='';for(const b of out)s+=String.fromCharCode(b);
+ return Response.json({image:'data:image/jpeg;base64,'+btoa(s),ms:Date.now()-t0},{headers:{'Cache-Control':'no-store'}});
+}
+export async function handleEval(req:Request):Promise<Response>{
+ const {admin,tok}=await evalToken(req);
  if(!process.env.OPENAI_API_KEY||!process.env.OPENAI_MODEL)throw new HttpError(503,'AI is not configured');
  const data=body.parse(await readJson(req,4_000_000)),now=new Date().toISOString();
  if(data.media?.kind==='clip'&&data.media.frames.length!==data.images.length)throw new HttpError(400,'Send one frame time per image.');

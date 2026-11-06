@@ -65,6 +65,10 @@ export async function reserveQuestion(userId:string,requestId:string,tier:Tier,m
  if(!['included','credit','limit','duplicate'].includes(data))throw new Error('Unexpected quota result');return data as Reservation;
 }
 /** Idempotent on reference; returns true when newly granted. */
+/** Photo-edit credit packs, kept apart from Ask BAK credits: one edit per credit. */
+export async function grantPhotoEditCredits(userId:string,credits:number,reference:string,product:string|null,reason:'purchase'|'grant'='purchase'):Promise<boolean>{
+ const {data,error}=await admin().rpc('grant_photo_edit_credits',{p_user_id:userId,p_credits:credits,p_reference:reference,p_reason:reason,p_product:product});if(error)throw error;return data===true;
+}
 export async function grantCredits(userId:string,credits:number,reference:string,product:string|null,reason:'purchase'|'grant'='purchase'):Promise<boolean>{
  const {data,error}=await admin().rpc('grant_ai_credits',{p_user_id:userId,p_credits:credits,p_reference:reference,p_reason:reason,p_product:product});if(error)throw error;return data===true;
 }

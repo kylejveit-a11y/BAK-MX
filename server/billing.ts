@@ -3,7 +3,7 @@ import Stripe from 'stripe';
 import {createClient,type SupabaseClient} from '@supabase/supabase-js';
 import {hasStoreAccess} from './mobile-billing.ts';
 import {complimentaryTier} from './plans.ts';
-import {stripePlanPrices,creditPacks,grantCredits} from './plans.ts';
+import {stripePlanPrices,creditPacks,grantCredits,grantPhotoEditCredits} from './plans.ts';
 
 const json=(value:unknown,status=200)=>Response.json(value,{status,headers:{'Cache-Control':'no-store'}});
 function required(name:string):string {const value=process.env[name];if(!value)throw new Error(`${name} is not configured`);return value;}
@@ -56,6 +56,9 @@ async function grantStripeCredits(session:Stripe.Checkout.Session,db:SupabaseCli
   const items=await stripe().checkout.sessions.listLineItems(session.id,{limit:10});const packs=creditPacks(process.env.STRIPE_CREDIT_PRICES);
   let credits=0,product:string|null=null;for(const i of items.data){const n=i.price?packs.get(i.price.id):undefined;if(n){credits+=n*(i.quantity??1);product=i.price!.id;}}
   if(credits>0)await grantCredits(row.user_id,credits,'stripe:'+session.id,product);
+  const photoPacks=creditPacks(process.env.STRIPE_PHOTO_EDIT_PRICES);let edits=0,editProduct:string|null=null;
+  for(const i of items.data){const n=i.price?photoPacks.get(i.price.id):undefined;if(n){edits+=n*(i.quantity??1);editProduct=i.price!.id;}}
+  if(edits>0)await grantPhotoEditCredits(row.user_id,edits,'stripe-edit:'+session.id,editProduct);
 }
 async function ensureCustomer(user:{id:string;email?:string},existing:{stripe_customer_id?:string|null}|null,s:Stripe,db:SupabaseClient):Promise<string>{
   if(existing?.stripe_customer_id)return existing.stripe_customer_id;
@@ -108,11 +111,12 @@ export async function handleBilling(req:Request,user:{id:string;email?:string}|n
     }
     const body=await req.json().catch(()=>({})) as {price_id?:unknown};
     if(path==='/api/billing/credits'){
-      const packs=creditPacks(process.env.STRIPE_CREDIT_PRICES),priceId=typeof body.price_id==='string'?body.price_id:'';
+      // Ask BAK credit packs and photo-edit packs check out the same way; the webhook grants each kind from its own price list.
+      const packs=new Map([...creditPacks(process.env.STRIPE_CREDIT_PRICES),...creditPacks(process.env.STRIPE_PHOTO_EDIT_PRICES)]),priceId=typeof body.price_id==='string'?body.price_id:'';
       if(!packs.has(priceId))return json({error:'That credit pack is not available.'},400);
       const price=await s.prices.retrieve(priceId);if(!price.active||price.recurring||price.unit_amount===null)return json({error:'That credit pack is not available.'},503);
       const customerId=await ensureCustomer(user,existing,s,db);
-      const session=await s.checkout.sessions.create({mode:'payment',customer:customerId,line_items:[{price:priceId,quantity:1}],client_reference_id:user.id,metadata:{product:'bakmx',kind:'credits',user_id:user.id},success_url:appUrl()+'/account?credits=success',cancel_url:appUrl()+'/account?credits=canceled'});
+      const session=await s.checkout.sessions.create({mode:'payment',customer:customerId,line_items:[{price:priceId,quantity:1}],client_reference_id:user.id,metadata:{product:'bakmx',kind:'credits',user_id:user.id},success_url:appUrl()+(creditPacks(process.env.STRIPE_PHOTO_EDIT_PRICES).has(priceId)?'/community?edits=success':'/account?credits=success'),cancel_url:appUrl()+'/account?credits=canceled'});
       return json({url:session.url});
     }
     if(path==='/api/billing/checkout'){

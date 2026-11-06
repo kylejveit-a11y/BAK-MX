@@ -2,7 +2,7 @@ import {isMxProjectUrl} from '../shared/mx-project.ts';
 import {createClient} from '@supabase/supabase-js';
 import {timingSafeEqual} from 'node:crypto';
 import {z} from 'zod';
-import {storeProducts,creditPacks,grantCredits} from './plans.ts';
+import {storeProducts,creditPacks,grantCredits,grantPhotoEditCredits} from './plans.ts';
 const json=(data:unknown,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store'}});
 function db(){if(!isMxProjectUrl(process.env.SUPABASE_URL)||!process.env.SUPABASE_URL||!process.env.SUPABASE_SERVICE_ROLE_KEY)throw new Error('Database not configured');return createClient(process.env.SUPABASE_URL,process.env.SUPABASE_SERVICE_ROLE_KEY,{auth:{persistSession:false,autoRefreshToken:false}});}
 const providerSchema=z.object({request_date_ms:z.number().finite().positive(),subscriber:z.object({entitlements:z.record(z.object({expires_date:z.string().nullable(),product_identifier:z.string()})),subscriptions:z.record(z.object({is_sandbox:z.boolean(),store:z.string(),refunded_at:z.string().nullable().optional()})),
@@ -33,6 +33,7 @@ export async function syncStoreEntitlement(userId:string){
  const snap=mobileSnapshot(body,products,sandbox);
  // Credit packs bought in the app: each store transaction grants once, however many times this sync runs.
  for(const c of storeCreditPurchases(body,creditPacks(process.env.CREDIT_PACKS_STORE),sandbox))await grantCredits(userId,c.credits,c.reference,c.product);
+ for(const c of storeCreditPurchases(body,creditPacks(process.env.PHOTO_EDIT_PACKS_STORE),sandbox))await grantPhotoEditCredits(userId,c.credits,c.reference.replace(/^rc:/,'rc-edit:'),c.product);
  const {error}=await db().rpc('sync_mobile_entitlement',{p_user_id:userId,p_status:snap.status,p_period_end:snap.current_period_end,p_product:snap.product_identifier,p_store:snap.store,p_sandbox:snap.is_sandbox,p_request_at:snap.provider_request_at});if(error)throw error;return snap;
 }
 export async function hasStoreAccess(userId:string):Promise<boolean>{

@@ -1,5 +1,6 @@
 import type {SupabaseClient} from '@supabase/supabase-js';
 import {photoLinks,pick,photoIds,requireOwnPhotos} from './rider-photos.ts';
+import {videoLinks,requireOwnVideo} from './rider-videos.ts';
 import {z} from 'zod';
 import {checked} from './database.ts';
 import {readInstalled,systemLabel,partLabel} from '../shared/installed-parts.ts';
@@ -26,7 +27,7 @@ export const preferencesSchema=z.object({units:z.enum(['us','metric']),answer_le
 export const RACE_PHASES=['week','night','track','motos','after'] as const;
 export const raceChecklistSchema=z.object({items:z.array(z.object({id:z.string().trim().min(1).max(64),label:z.string().trim().min(1).max(80),phase:z.enum(RACE_PHASES),custom:z.boolean().optional()}).strict()).max(200).nullable()}).strict();
 export const DEFAULT_PREFERENCES={units:'us',answer_length:'full',tone:'straight'} as const;
-export const postSchema=z.object({category:z.enum(POST_CATEGORIES),body:text(4000),bike_label:optionalText(120),photo_ids:photoIds(4)}).strict();
+export const postSchema=z.object({category:z.enum(POST_CATEGORIES),body:text(4000),bike_label:optionalText(120),photo_ids:photoIds(4),video_id:z.string().uuid().nullable().default(null)}).strict();
 export const commentSchema=z.object({post_id:uuid,body:text(2000)}).strict();
 const instant=z.string().refine(v=>Number.isFinite(Date.parse(v)),{message:'Use a valid date and time'}).transform(v=>new Date(v).toISOString());
 export const eventSchema=z.object({title:text(120),event_type:z.enum(EVENT_TYPES),starts_at:instant,ends_at:instant.nullable().default(null),location_name:text(160),description:optionalText(4000)}).strict().refine(v=>!v.ends_at||v.ends_at>=v.starts_at,{message:'An event cannot end before it starts'});
@@ -97,9 +98,9 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
   const rider=id('id');
   const found=checked(await db.from('profiles').select('user_id,handle,display_name,bio,location,riding_class,race_number,created_at,avatar_photo_id').eq('user_id',rider).maybeSingle()) as Row|null;const profile=found?(await withAvatars([found]))[0]:null;
   if(!profile)throw new HttpError(404,'Rider not found');
-  const posts=(checked(await db.from('posts').select('id,category,body,bike_label,created_at,photo_ids').eq('user_id',rider).is('removed_at',null).order('created_at',{ascending:false}).limit(20))??[]) as Row[];
-  const plinks=await photoLinks(posts.flatMap(p=>p.photo_ids??[]));
-  return json({profile,posts:posts.map(({photo_ids,...p})=>({...p,photos:pick(plinks,photo_ids)})),bikes:await publicGarage(db,rider,owner),mine:rider===owner});
+  const posts=(checked(await db.from('posts').select('id,category,body,bike_label,created_at,photo_ids,video_id').eq('user_id',rider).is('removed_at',null).order('created_at',{ascending:false}).limit(20))??[]) as Row[];
+  const [plinks,vlinks]=await Promise.all([photoLinks(posts.flatMap(p=>p.photo_ids??[])),videoLinks(posts.map(p=>p.video_id??'').filter(Boolean))]);
+  return json({profile,posts:posts.map(({photo_ids,video_id,...p})=>({...p,photos:pick(plinks,photo_ids),video:video_id?vlinks.get(video_id)??null:null})),bikes:await publicGarage(db,rider,owner),mine:rider===owner});
  }
 
  // ---- Service plan: the maker's own schedule for this exact bike, as reminder suggestions
@@ -128,7 +129,7 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
  // ---- Community
  if(path==='/api/posts'){
   if(method==='GET'){
-   let query=db.from('posts').select('id,user_id,category,body,bike_label,created_at,photo_ids').is('removed_at',null).order('created_at',{ascending:false}).limit(PAGE);
+   let query=db.from('posts').select('id,user_id,category,body,bike_label,created_at,photo_ids,video_id').is('removed_at',null).order('created_at',{ascending:false}).limit(PAGE);
    const category=q('category');if(category)query=query.eq('category',z.enum(POST_CATEGORIES).parse(category));
    const before=q('before');if(before)query=query.lt('created_at',instant.parse(before));
    const posts=(checked(await query)??[]) as Row[];
@@ -138,11 +139,11 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
     ids.length?db.from('post_likes').select('post_id,user_id').in('post_id',ids).limit(5000):none,
     ids.length?db.from('post_comments').select('post_id').in('post_id',ids).is('removed_at',null).limit(5000):none]);
    const likeRows=(checked(likes)??[]) as Row[],commentRows=(checked(comments)??[]) as Row[];
-   const plinks=await photoLinks(posts.flatMap(p=>p.photo_ids??[]));
-   return json(posts.map(({photo_ids,...p})=>({...p,photos:pick(plinks,photo_ids),author:author(profiles,p.user_id),mine:p.user_id===owner,like_count:likeRows.filter(l=>l.post_id===p.id).length,liked:likeRows.some(l=>l.post_id===p.id&&l.user_id===owner),comment_count:commentRows.filter(c=>c.post_id===p.id).length})));
+   const [plinks,vlinks]=await Promise.all([photoLinks(posts.flatMap(p=>p.photo_ids??[])),videoLinks(posts.map(p=>p.video_id??'').filter(Boolean))]);
+   return json(posts.map(({photo_ids,video_id,...p})=>({...p,photos:pick(plinks,photo_ids),video:video_id?vlinks.get(video_id)??null:null,author:author(profiles,p.user_id),mine:p.user_id===owner,like_count:likeRows.filter(l=>l.post_id===p.id).length,liked:likeRows.some(l=>l.post_id===p.id&&l.user_id===owner),comment_count:commentRows.filter(c=>c.post_id===p.id).length})));
   }
   if(method==='POST'){
-   const data=postSchema.parse(await readJson(req));screen(data.body);await requireProfile(db,owner);await requireOwnPhotos(owner,data.photo_ids,['post','chat']);
+   const data=postSchema.parse(await readJson(req));screen(data.body);await requireProfile(db,owner);await requireOwnPhotos(owner,data.photo_ids,['post','chat']);await requireOwnVideo(owner,data.video_id);
    const result=await db.from('posts').insert({...data,user_id:owner}).select('id,user_id,category,body,bike_label,created_at').single();
    if(result.error)saveFailed(result.error,'This post already exists.');
    return json(result.data,201);
