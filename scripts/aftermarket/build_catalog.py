@@ -197,7 +197,7 @@ with open(os.path.join(fam_dir,'parts.csv'),'w',newline='') as fh:
                     '; '.join(f"{f.get('make')} {f.get('model')} {yr(f.get('years') or [])}".strip() for f in p.get('fits') or []),p.get('confidence'),p['id']])
 norm=lambda s:re.sub(r'[^a-z0-9]+',' ',str(s).lower()).strip()
 for (mk,model,y),ids in bike.items():
-    ps=[byid[i] for i in ids]
+    ps=[byid[i] for i in sorted(ids)]
     res=[p for p in ps if src_of(p)=='research']; uni=[p for p in ps if universal(p)]; spec=[p for p in ps if src_of(p)!='research' and not universal(p)]
     B=[f'# {mk} {model} {y}: aftermarket parts','',
        f'{len(ids)} listings whose stated fitment names this bike: {len(res)} researched parts (with what they change and rider findings), '
@@ -238,7 +238,7 @@ for b in sorted(br,key=lambda b:(-len(br[b]),b.lower())):
     R.append(f"| {esc(b)} | {len(ps)} | {esc(', '.join(f'{c} ({n})' for c,n in cats.most_common(6)))} | {esc(', '.join(f'{k} {v}' for k,v in src.items()))} |")
 open(os.path.join(fam_dir,'BRANDS.md'),'w').write('\n'.join(R)+'\n')
 json.dump({'by_bike':{f'{a}|{b}|{c}':sorted(i for i in v if src_of(byid[i])=='research') for (a,b,c),v in sorted(bike.items())},
-           'listing_counts':{f'{a}|{b}|{c}':dict(collections.Counter(src_of(byid[i]) for i in v)) for (a,b,c),v in sorted(bike.items())},'unmapped':unmapped,
+           'listing_counts':{f'{a}|{b}|{c}':dict(collections.Counter(src_of(byid[i]) for i in sorted(v))) for (a,b,c),v in sorted(bike.items())},'unmapped':unmapped,
            'feedback_links':{x.get('id'):x['_linked'] for x in feedback}},open(os.path.join(fam_dir,'index.json'),'w'),indent=0)
 print(len(products),'products',len(feedback),'feedback',len(builds),'builds;',len(bike),'of',len(roster),'bike-years mapped; unmapped',len(unmapped))
 
