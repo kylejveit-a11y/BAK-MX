@@ -1,6 +1,6 @@
 # Triumph TF: aftermarket brands
 
-406 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
+408 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
 
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
@@ -23,11 +23,14 @@
 | Ride Engineering | 66 | chassis (17), Controls (14), suspension (13), Brakes (9), engine (6), Engine (2) | MotoSport 30, research 36 |
 | D'COR Visuals | 65 | Graphics (64), Body (1) | MotoSport 65 |
 | Fire Power | 64 | Chain & Sprocket (13), Drive (11), Handlebars & Controls (10), Uncategorised (8), Tools and Maintenance (5), Batteries & Electrical (4) | Cycle Gear 39, MotoSport 19, research 6 |
+| Dunlop | 63 | Tires (63) | MotoSport 31, research 32 |
 | Bolt Hardware | 62 | Uncategorised (50), Body & Fairing (5), Exhaust (4), Drive & Transmission (2), Chain & Sprocket (1) | Cycle Gear 62 |
+| Kenda | 62 | Tires (62) | MotoSport 32, research 30 |
 | Rekluse | 62 | clutch (42), Engine (11), engine (4), Controls (2), Drive & Transmission (1), Brakes (1) | Cycle Gear 1, MotoSport 14, research 47 |
 | Trail Tech | 62 | Lights and Electrical (39), Engine (10), Gauges (7), Uncategorised (2), Body (2), Batteries & Electrical (1) | Cycle Gear 10, MotoSport 52 |
 | Zeta | 57 | Handlebars & Controls (29), Uncategorised (12), controls (7), UTV / ATV Parts (2), Suspension (2), Lighting (1) | Cycle Gear 49, research 8 |
 | DRC | 56 | Lights and Electrical (12), Wheels and Rims (10), Suspension (7), Exhaust (6), Controls (6), Uncategorised (5) | Cycle Gear 8, MotoSport 48 |
+| Pirelli | 55 | Tires (53), Mousse or tube (2) | MotoSport 32, research 23 |
 | Twisted Development | 55 | engine (32), tuning (23) | research 55 |
 | Yoshimura | 55 | exhaust (29), Exhaust (22), Lights and Electrical (2), Body & Fairing (1), Body (1) | Cycle Gear 17, MotoSport 9, research 29 |
 | Bolt | 53 | Body (43), Drive (6), Wheels and Rims (2), Exhaust (1), Engine (1) | MotoSport 53 |
@@ -38,10 +41,12 @@
 | SP Connect | 51 | Lights and Electrical (51) | MotoSport 51 |
 | ARC | 49 | controls (23), Controls (17), brakes (5), Brakes (4) | MotoSport 21, research 28 |
 | Polisport | 49 | Exhaust (8), Handlebars & Controls (7), Lights and Electrical (7), Lighting (6), Bike Protection (6), Body (6) | Cycle Gear 23, MotoSport 22, research 4 |
+| Bridgestone | 45 | Tires (44), Mousse or tube (1) | MotoSport 12, research 33 |
 | Hinson | 45 | clutch (27), Engine (7), engine (6), Drive & Transmission (5) | Cycle Gear 5, MotoSport 7, research 33 |
 | Kriega | 45 | Luggage and Racks (27), Riding Gear (13), Farming and Hunting (2), Uncategorised (1), Bike Protection (1), Suspension (1) | Cycle Gear 2, MotoSport 43 |
 | Enduro Engineering | 44 | protection (20), Bike Protection (9), Handlebars & Controls (7), Uncategorised (3), UTV / ATV Parts (2), Exhaust (1) | Cycle Gear 22, research 22 |
 | JT Sprockets | 44 | gearing (43), Chain & Sprocket (1) | Cycle Gear 1, research 43 |
+| Michelin | 41 | Tires (39), wheels (1), Mousse or tube (1) | MotoSport 23, research 18 |
 | Namz Custom Cycle | 40 | Lights and Electrical (40) | MotoSport 40 |
 | XPR Motorsports | 40 | tuning (20), engine (20) | research 40 |
 | Moto-Master | 39 | brakes (25), Brakes (8), gearing (6) | MotoSport 8, research 31 |
@@ -57,25 +62,23 @@
 | Giant Loop | 33 | Luggage and Racks (23), Lights and Electrical (3), Exhaust (2), Accessories (2), Farming and Hunting (1), Graphics (1) | Cycle Gear 1, MotoSport 32 |
 | Husqvarna Technical Accessories | 32 | Controls (15), Body (5), Lights and Electrical (2), Skid Plates and Guards (2), Wheels and Rims (2), Fuel System (1) | MotoSport 31, research 1 |
 | K&N | 32 | Air & Fuel (21), Tools and Maintenance (9), Uncategorised (1), Intake (1) | Cycle Gear 22, MotoSport 10 |
-| Kenda | 32 | Tires (32) | MotoSport 32 |
-| Pirelli | 32 | Tires (32) | MotoSport 32 |
-| Dunlop | 31 | Tires (31) | MotoSport 31 |
+| Maxxis | 31 | Tires (31) | MotoSport 6, research 25 |
 | Maxima | 29 | oils (20), Suspension (5), Tools and Maintenance (4) | MotoSport 9, research 20 |
 | Fastway | 28 | Controls (18), Body (4), Exhaust (3), Tools and Maintenance (1), Farming and Hunting (1), controls (1) | MotoSport 27, research 1 |
 | Koso | 28 | Gauges (15), Lights and Electrical (7), Uncategorised (2), Lighting (2), Controls (2) | Cycle Gear 19, MotoSport 9 |
 | Cylinder Works | 27 | engine (27) | research 27 |
 | Pro-X | 27 | engine (25), clutch (2) | research 27 |
 | Supersprox | 27 | gearing (24), Drive (3) | MotoSport 3, research 24 |
+| IRC | 25 | Tires (25) | MotoSport 22, research 3 |
 | KYB | 25 | suspension (25) | research 25 |
 | Namz | 25 | Batteries & Electrical (25) | Cycle Gear 25 |
+| Plews | 25 | Tires (24), Mousse or tube (1) | research 25 |
 | WP | 25 | suspension (25) | research 25 |
 | Givi | 24 | Luggage and Racks (19), Farming and Hunting (5) | MotoSport 24 |
-| Michelin | 24 | Tires (23), wheels (1) | MotoSport 23, research 1 |
 | Race Tech | 24 | suspension (18), Suspension (5), engine (1) | Cycle Gear 1, MotoSport 4, research 19 |
 | Hot Cams | 23 | engine (22), Uncategorised (1) | Cycle Gear 1, research 22 |
 | Mikuni | 23 | Fuel System (23) | MotoSport 23 |
 | EK Chain | 22 | Chain & Sprocket (22) | Cycle Gear 22 |
-| IRC | 22 | Tires (22) | MotoSport 22 |
 | Mika Metals | 22 | Controls (7), Drive (6), Handlebars & Controls (5), Uncategorised (2), controls (1), gearing (1) | Cycle Gear 7, MotoSport 13, research 2 |
 | ProX | 22 | engine (22) | research 22 |
 | Xtrig | 22 | suspension (12), chassis (8), Controls (2) | MotoSport 2, research 20 |
@@ -115,9 +118,9 @@
 | OXA | 13 | Exhaust (13) | MotoSport 13 |
 | Battery Tender | 12 | Tools and Maintenance (6), Lights and Electrical (6) | MotoSport 12 |
 | Big Gun | 12 | Exhaust (10), exhaust (2) | Cycle Gear 5, MotoSport 5, research 2 |
-| Bridgestone | 12 | Tires (12) | MotoSport 12 |
 | EBC | 12 | brakes (9), Brakes (3) | MotoSport 3, research 9 |
 | Factory Links | 12 | wheels (5), chassis (3), suspension (3), Suspension (1) | Cycle Gear 1, research 11 |
+| Metzeler | 12 | Tires (12) | MotoSport 6, research 6 |
 | Moto Tassinari | 12 | intake (12) | research 12 |
 | Scott | 12 | Uncategorised (7), Controls (4), UTV / ATV Parts (1) | Cycle Gear 8, MotoSport 4 |
 | Yamalube | 12 | oils (9), Engine (2), Suspension (1) | MotoSport 3, research 9 |
@@ -136,6 +139,7 @@
 | EBC Brakes | 9 | Air & Fuel (7), Brakes (1), brakes (1) | Cycle Gear 8, research 1 |
 | KroozR (Krooztune) | 9 | suspension (9) | research 9 |
 | Krooztune (KroozR) | 9 | suspension (9) | research 9 |
+| Mitas | 9 | Tires (9) | research 9 |
 | MotoSport | 9 | Graphics (4), Body (2), Tools and Maintenance (1), Suspension (1), Controls (1) | MotoSport 9 |
 | Powermadd | 9 | Controls (9) | MotoSport 9 |
 | TM Designworks | 9 | protection (4), gearing (3), Drive (1), chassis (1) | MotoSport 1, research 8 |
@@ -165,8 +169,6 @@
 | FMF Racing | 6 | exhaust (6) | research 6 |
 | GET | 6 | Lights and Electrical (3), Gauges (2), tuning (1) | Cycle Gear 2, MotoSport 3, research 1 |
 | Goldentyre | 6 | Tires (6) | MotoSport 6 |
-| Maxxis | 6 | Tires (6) | MotoSport 6 |
-| Metzeler | 6 | Tires (6) | MotoSport 6 |
 | NGK Spark Plugs | 6 | Batteries & Electrical (6) | Cycle Gear 6 |
 | PC Racing | 6 | Filters (2), Suspension (2), Air & Fuel (1), Intake (1) | Cycle Gear 4, MotoSport 2 |
 | Phoenix Handlebars | 6 | Handlebars & Controls (3), Uncategorised (3) | Cycle Gear 6 |
@@ -238,6 +240,7 @@
 | Magura | 3 | Uncategorised (1), Handlebars & Controls (1), clutch (1) | Cycle Gear 2, research 1 |
 | MotoStart | 3 | Lights and Electrical (3) | MotoSport 3 |
 | MX-Tech | 3 | suspension (3) | research 3 |
+| Nuetech | 3 | Mousse or tube (2), Wheels and Rims (1) | MotoSport 1, research 2 |
 | Oxbow | 3 | Luggage and Racks (1), Tools and Maintenance (1), Lights and Electrical (1) | MotoSport 3 |
 | Oxford Products | 3 | Lighting (1), Exhaust (1), Uncategorised (1) | Cycle Gear 3 |
 | Pelican | 3 | Luggage and Racks (3) | MotoSport 3 |
@@ -354,7 +357,6 @@
 | Motorex / KTM | 1 | oils (1) | research 1 |
 | Nelson Rigg | 1 | Exhaust (1) | Cycle Gear 1 |
 | NO-MAR | 1 | Uncategorised (1) | Cycle Gear 1 |
-| Nuetech | 1 | Wheels and Rims (1) | MotoSport 1 |
 | Nuetech Nitro Mousse | 1 | wheels (1) | research 1 |
 | Nuetech TUbliss | 1 | wheels (1) | research 1 |
 | Parts Unlimited | 1 | Chain & Sprocket (1) | Cycle Gear 1 |

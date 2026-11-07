@@ -69,9 +69,12 @@ export const partTypes:Partial<Record<PartSystem,PartType[]>>={
   {label:'Chain guide or slider',match:/\b(chain guide|slider|rollers?)\b/i}],
  wheels:[
   {label:'Wheel bearings',match:/\bbearings?\b/i,keep:true},
-  {label:'Wheels',match:/\b(wheels?|wheel set|rims?|hubs?)\b/i},
-  {label:'Tires',match:/\b(tires?|tyres?)\b/i},
-  {label:'Mousse or tube',match:/\b(mousse|tubes?|tubliss|foam)\b/i},
+  {label:'Wheels',match:/\b(wheels?|wheel set|rims?(?! ?locks?\b)|hubs?)\b/i},
+  // a tire named only in brackets ("Bib Mousse (for Michelin tires)") is what the part fits, not what it is
+  {label:'Tires',match:/\b(tires?|tyres?)\b(?![^(]*\))/i},
+  // only tire inserts: a mousse, TUbliss or an inner tube named as one ("TR-4 tubes", "heavy duty tube", "tube 110/90-19"), not
+  // vent tubes, throttle tubes or Pro Taper's Twister Tube Insert
+  {label:'Mousse or tube',match:/\w*mousse\b|\btubliss\b|\b(?:inner|tire|tyre|tr-?\d+|(?:mx-?)?u?hd|heavy[- ]duty)\s+tubes?\b|^tubes?\b(?!.*\b(?:caps?|vent|throttle|insert)\b)|\btubes?\b.*\b\d{2,3}\/\d{2,3}-\d{2}\b|\b\d{2,3}\/\d{2,3}-\d{2}\b.*\btubes?\b/i},
   {label:'Rim locks',match:/\brim ?locks?\b/i}],
  protection:[
   {label:'Skid plate',match:/\b(skid|glide|bash)\b/i},
@@ -90,7 +93,8 @@ const NOT_THE_PART:Partial<Record<PartSystem,RegExp>>={
  engine:/\b(guards?|protectors?|caps?)\b/i,
  brakes:/\b(guards?|covers?|protectors?)\b/i,
  controls:/\b(covers?|protectors?)\b/i,
- wheels:/\b(stands?|spoon|irons?|covers?|valves?|spacers?)\b/i,
+ // balancing beads and weights, tire studs and valve/vent bits are listed under Wheels but are not tires
+ wheels:/\b(stands?|spoon|irons?|covers?|valves?|spacers?|balanc\w*|studs?|vent|twister)\b/i,
 };
 /** The type a listed part belongs to, or null for small service parts and accessories. */
 export function typeOf(system:PartSystem,name:string):string|null{

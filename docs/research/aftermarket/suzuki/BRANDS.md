@@ -1,6 +1,6 @@
 # Suzuki RM-Z: aftermarket brands
 
-278 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
+288 brands with at least one part listed for these bikes, with the categories they cover and where the listings come from.
 
 | Brand | Parts | Categories | Sources |
 |---|---|---|---|
@@ -35,19 +35,25 @@
 | RK | 35 | Chain & Sprocket (33), gearing (2) | Cycle Gear 33, research 2 |
 | Öhlins | 35 | suspension (35) | research 35 |
 | Factory Effex | 34 | Uncategorised (22), Handlebars & Controls (9), Seats (2), Bike Protection (1) | Cycle Gear 34 |
+| Bridgestone | 33 | Tires (32), Mousse or tube (1) | research 33 |
 | Motion Pro | 33 | Uncategorised (15), Suspension (7), Air & Fuel (6), Handlebars & Controls (2), UTV / ATV Parts (1), Gauges (1) | Cycle Gear 32, research 1 |
+| Dunlop | 32 | Tires (32) | research 32 |
+| Kenda | 30 | Tires (30) | research 30 |
 | ARC | 28 | controls (23), brakes (5) | research 28 |
 | Twin Air | 28 | intake (13), Uncategorised (6), Air & Fuel (4), Filters (3), Bike Protection (1), Exhaust (1) | Cycle Gear 15, research 13 |
 | Cylinder Works | 27 | engine (27) | research 27 |
 | Pro X | 27 | Uncategorised (13), engine (8), clutch (4), Drive & Transmission (2) | Cycle Gear 15, research 12 |
 | Pro-X | 27 | engine (25), clutch (2) | research 27 |
 | Hot Cams | 25 | engine (22), Uncategorised (3) | Cycle Gear 3, research 22 |
+| Maxxis | 25 | Tires (25) | research 25 |
 | Namz | 25 | Batteries & Electrical (25) | Cycle Gear 25 |
+| Plews | 25 | Tires (24), Mousse or tube (1) | research 25 |
 | WP | 25 | suspension (25) | research 25 |
 | Enduro Engineering | 24 | protection (8), Handlebars & Controls (7), Bike Protection (3), UTV / ATV Parts (2), Uncategorised (2), Exhaust (1) | Cycle Gear 15, research 9 |
 | KYB | 24 | suspension (24) | research 24 |
 | Supersprox | 24 | gearing (24) | research 24 |
 | K&N | 23 | Air & Fuel (21), Filters (1), Uncategorised (1) | Cycle Gear 23 |
+| Pirelli | 23 | Tires (21), Mousse or tube (2) | research 23 |
 | EK Chain | 22 | Chain & Sprocket (22) | Cycle Gear 22 |
 | ProX | 22 | engine (22) | research 22 |
 | BILT FACTORY | 21 | Uncategorised (10), Handlebars & Controls (4), Brakes (3), controls (3), Exhaust (1) | Cycle Gear 18, research 3 |
@@ -56,6 +62,7 @@
 | Race Tech | 20 | suspension (18), Suspension (1), engine (1) | Cycle Gear 1, research 19 |
 | Xtrig | 20 | suspension (12), chassis (8) | research 20 |
 | Koso | 19 | Gauges (15), Lighting (2), Uncategorised (2) | Cycle Gear 19 |
+| Michelin | 18 | Tires (16), wheels (1), Mousse or tube (1) | research 18 |
 | Factory Connection | 17 | suspension (14), Suspension (3) | Cycle Gear 3, research 14 |
 | GBrakes | 16 | Brakes (9), Uncategorised (6), brakes (1) | Cycle Gear 15, research 1 |
 | Luxon MX | 16 | suspension (9), chassis (7) | research 16 |
@@ -95,6 +102,7 @@
 | KroozR (Krooztune) | 9 | suspension (9) | research 9 |
 | Krooztune (KroozR) | 9 | suspension (9) | research 9 |
 | KTM PowerParts | 9 | chassis (3), engine (3), protection (2), tuning (1) | research 9 |
+| Mitas | 9 | Tires (9) | research 9 |
 | Scott | 9 | Uncategorised (8), UTV / ATV Parts (1) | Cycle Gear 9 |
 | Yamalube | 9 | oils (9) | research 9 |
 | Arc Levers | 8 | Handlebars & Controls (8) | Cycle Gear 8 |
@@ -112,6 +120,7 @@
 | AXP Racing | 6 | protection (6) | research 6 |
 | DCOR | 6 | Uncategorised (4), Seats (1), Bike Protection (1) | Cycle Gear 6 |
 | Hardline | 6 | Gauges (5), Uncategorised (1) | Cycle Gear 6 |
+| Metzeler | 6 | Tires (6) | research 6 |
 | NGK Spark Plugs | 6 | Batteries & Electrical (6) | Cycle Gear 6 |
 | P3 | 6 | protection (4), Exhaust (1), Bike Protection (1) | Cycle Gear 2, research 4 |
 | Phoenix Handlebars | 6 | Uncategorised (3), Handlebars & Controls (3) | Cycle Gear 6 |
@@ -155,6 +164,7 @@
 | FLU DESIGNS INC. | 3 | Uncategorised (2), Seats (1) | Cycle Gear 3 |
 | Haan Wheels | 3 | wheels (3) | research 3 |
 | HGS | 3 | exhaust (3) | research 3 |
+| IRC | 3 | Tires (3) | research 3 |
 | JE Pistons | 3 | engine (3) | research 3 |
 | K&S Technologies | 3 | Lighting (3) | Cycle Gear 3 |
 | K-Tech Suspension | 3 | suspension (3) | research 3 |
@@ -188,6 +198,7 @@
 | Kawasaki Genuine (KYB-sourced) | 2 | oils (2) | research 2 |
 | Kriega | 2 | Bike Protection (1), Uncategorised (1) | Cycle Gear 2 |
 | LeoVince | 2 | Exhaust (2) | Cycle Gear 2 |
+| Nuetech | 2 | Mousse or tube (2) | research 2 |
 | Orbit | 2 | Chain & Sprocket (2) | Cycle Gear 2 |
 | Preston Petty | 2 | Uncategorised (2) | Cycle Gear 2 |
 | RAM Mounts | 2 | Uncategorised (2) | Cycle Gear 2 |
@@ -240,7 +251,6 @@
 | Kouba | 1 | suspension (1) | research 1 |
 | KoubaLink | 1 | suspension (1) | research 1 |
 | Matrix Concepts | 1 | Suspension (1) | Cycle Gear 1 |
-| Michelin | 1 | wheels (1) | research 1 |
 | Misc | 1 | Suspension (1) | Cycle Gear 1 |
 | Moose Racing (Moose Utility) | 1 | engine (1) | research 1 |
 | Motorex / KTM | 1 | oils (1) | research 1 |

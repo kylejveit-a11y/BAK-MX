@@ -82,6 +82,8 @@ export function isFourStroke(model:string){return /F\b|F$|CRF|RM-?Z|^KX ?(250|45
 const GROUPS:[string,RegExp][]=[['kawasaki',/\bkx\s?\d{2,3}|\bkxf?\b/i],['honda',/\bcrf?\s?\d{3}|\bcrf\b/i],['yamaha',/\b(yz|wr)\s?\d{2,3}|\byzf?\b/i],['suzuki',/\brm-?z/i],
  ['ktm',/\b(sx-?f?|xc-?f?|xcf-?w|exc-?f?)\b|\b(fc|tc|fx|tx|fe|te|mc|ex)\s?\d{2,3}f?\b/i]];
 export function forOtherBike(name:string,model:string){
+ // tire line and compound codes are not bike names: Maxxcross SM and Terra Force-MX SM (soft-medium), Mitas MC360
+ if(/\b(tires?|tyres?)\b/i.test(name))name=name.replace(/\b(?:SM|MC ?\d{3}(?=\s+(?:mid|soft|hard|medium)\b))\b/gi,'');
  if(ROAD.test(name)||(isFourStroke(model)?TWO.test(name):FOUR.test(name)))return true;
  const mine=GROUPS.find(([,re])=>re.test(model))?.[0];if(!mine)return false;
  const named=GROUPS.filter(([,re])=>re.test(name)).map(([g])=>g);return named.length>0&&!named.includes(mine);

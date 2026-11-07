@@ -1,5 +1,5 @@
 {
- "note": "Researched motocross tire and insert rows (tire knowledge mx-tires-2, 2026-11-07), copied from docs/research/tires/catalog-add-rows.json per docs/research/tires/CATALOG_PLAN.md. position, rim_inch and research_ids are notes the builder ignores.",
+ "note": "Researched motocross tire and insert rows (tire knowledge mx-tires-2, 2026-11-07), copied from docs/research/tires/catalog-add-rows.json per docs/research/tires/CATALOG_PLAN.md. position, rim_inch and research_ids are notes the builder ignores. Plews rows link to plewstyres.com (the research read its product feed, see docs/research/tires/SOURCES.md plews-tyres) so riders get a page, not a JSON feed.",
  "products": [
   {
    "id": "tire-dunlop-geomax-mx34-front-10",
@@ -51799,7 +51799,7 @@
    "confidence": "high",
    "what_it_changes": "sand, mud: Soft rear for deep sand and mud; Plews says it stays within the 19.5 mm tread-depth limit.",
    "caveats": "Marked NHS.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -51903,7 +51903,7 @@
    "confidence": "high",
    "what_it_changes": "sand, mud: Soft rear for deep sand and mud; Plews says it stays within the 19.5 mm tread-depth limit.",
    "caveats": "Marked NHS.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -52019,7 +52019,7 @@
    "confidence": "high",
    "what_it_changes": "sand, mud: Soft rear for deep sand and mud; Plews says it stays within the 19.5 mm tread-depth limit.",
    "caveats": "Marked NHS.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -52543,7 +52543,7 @@
    "confidence": "high",
    "what_it_changes": "sand, mud: Soft rear for deep sand and mud; Plews says it stays within the 19.5 mm tread-depth limit.",
    "caveats": "Marked NHS.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -52606,7 +52606,7 @@
    "confidence": "high",
    "what_it_changes": "intermediate: Intermediate, built for tracks that change from wet morning to hard afternoon.",
    "caveats": "Marked NHS.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -52698,7 +52698,7 @@
    "confidence": "high",
    "what_it_changes": "intermediate: Intermediate, built for tracks that change from wet morning to hard afternoon.",
    "caveats": "Marked NHS.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -52802,7 +52802,7 @@
    "confidence": "high",
    "what_it_changes": "intermediate: Intermediate, built for tracks that change from wet morning to hard afternoon.",
    "caveats": "Marked NHS.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -52918,7 +52918,7 @@
    "confidence": "high",
    "what_it_changes": "intermediate: Intermediate, built for tracks that change from wet morning to hard afternoon.",
    "caveats": "Marked NHS.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -53643,7 +53643,7 @@
    "confidence": "high",
    "what_it_changes": "intermediate: Intermediate, built for tracks that change from wet morning to hard afternoon.",
    "caveats": "Marked NHS.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -53706,7 +53706,7 @@
    "confidence": "high",
    "what_it_changes": "intermediate: Intermediate, built for tracks that change from wet morning to hard afternoon.",
    "caveats": "Marked NHS.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -53798,7 +53798,7 @@
    "confidence": "high",
    "what_it_changes": "intermediate: Intermediate, built for tracks that change from wet morning to hard afternoon.",
    "caveats": "Marked NHS.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -53902,7 +53902,7 @@
    "confidence": "high",
    "what_it_changes": "intermediate: Intermediate, built for tracks that change from wet morning to hard afternoon.",
    "caveats": "Marked NHS.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -54018,7 +54018,7 @@
    "confidence": "high",
    "what_it_changes": "intermediate: Intermediate, built for tracks that change from wet morning to hard afternoon.",
    "caveats": "Marked NHS.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -54542,7 +54542,7 @@
    "confidence": "high",
    "what_it_changes": "intermediate: Intermediate, built for tracks that change from wet morning to hard afternoon.",
    "caveats": "Marked NHS.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -54605,7 +54605,7 @@
    "confidence": "high",
    "what_it_changes": "hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking.",
    "caveats": "Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -54696,7 +54696,7 @@
    "confidence": "high",
    "what_it_changes": "hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking.",
    "caveats": "Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -54800,7 +54800,7 @@
    "confidence": "high",
    "what_it_changes": "hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking.",
    "caveats": "Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -54916,7 +54916,7 @@
    "confidence": "high",
    "what_it_changes": "hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking.",
    "caveats": "Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -55641,7 +55641,7 @@
    "confidence": "high",
    "what_it_changes": "hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking.",
    "caveats": "Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -55732,7 +55732,7 @@
    "confidence": "high",
    "what_it_changes": "hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking.",
    "caveats": "Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -55836,7 +55836,7 @@
    "confidence": "high",
    "what_it_changes": "hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking.",
    "caveats": "Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -55952,7 +55952,7 @@
    "confidence": "high",
    "what_it_changes": "hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking.",
    "caveats": "Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -56177,7 +56177,7 @@
    "confidence": "high",
    "what_it_changes": "hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking.",
    "caveats": "Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -56701,7 +56701,7 @@
    "confidence": "high",
    "what_it_changes": "hard: Super-hard, fast and stony tracks; compound and tread made against chipping and chunking.",
    "caveats": "Marked NHS; 80/100-21 and 120/90-18 also DOT/ECE.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ],
@@ -59089,7 +59089,7 @@
    "confidence": "high",
    "what_it_changes": "Four compounds: High Durability, Standard, Soft, Extreme (see feel).",
    "caveats": "Offer only the variant rows that match the bike's tire sizes.",
-   "fitment_source_url": "https://plewstyres.com/products.json?limit=250",
+   "fitment_source_url": "https://plewstyres.com/",
    "research_ids": [
     "plews-tyres"
    ]

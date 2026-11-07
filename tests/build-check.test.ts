@@ -46,6 +46,9 @@ test('listings for road or other-stroke bikes are kept out of a 450 SX-F list',(
  assert.ok(forOtherBike('Rear Sprocket (42T-52T) /Duke/SM/SMC','450 SX-F'));
  assert.ok(forOtherBike('Stock ECU remap (two-stroke TBI)','450 SX-F'));
  assert.ok(!forOtherBike('Twinring Rear Sprocket','450 SX-F'));
+ assert.ok(!forOtherBike('Maxxcross SM Rear Tire 19-inch','YZ250F'),'SM is a tire compound, not supermoto');
+ assert.ok(!forOtherBike('MC360 Mid Soft Front Tire 21-inch','RM-Z250'),'MC360 is a Mitas tire line, not a GasGas MC');
+ assert.ok(forOtherBike('Supermoto Front Tire','YZ250F'));
  assert.ok(!forOtherBike('Stock ECU remap (two-stroke TBI)','300 SX'));
 });
 

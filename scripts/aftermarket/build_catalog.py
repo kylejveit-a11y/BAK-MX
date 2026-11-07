@@ -12,6 +12,12 @@ fam_dir,title,makes=sys.argv[1],sys.argv[2],sys.argv[3].split(',')
 root=os.path.dirname(os.path.abspath(fam_dir.rstrip('/')))
 ENDURO_MODELS=re.compile(r'(XC-W|XCF-W|^TE |^FE |^EC |^WR)')   # enduro / trail models are out of the aftermarket scope for now
 roster=[tuple(r) for r in json.load(open(os.path.join(root,'roster-2020-2027.json'))) if r[0] in makes and not ENDURO_MODELS.search(r[1])]
+# Listings not offered to riders ({product id: reason}, docs/research/tires/CATALOG_PLAN.md): an enduro, cross-country or
+# desert tire stays on the cross-country / off-road models (same split as shared/tire-knowledge.ts wheelsFor); every other
+# hidden listing (adventure, trials, street tires, repair kits) shows on no bike. Research pages still list them.
+HIDDEN=json.load(open(os.path.join(root,'hidden-listings.json'))) if os.path.exists(os.path.join(root,'hidden-listings.json')) else {}
+OFFROAD_MODEL=re.compile(r'\bXC(?!-?W)|\b(?:FX|TX|EX) \d|YZ\d{3}F?X\b|CRF\d{3}RX\b|KX\d{3}X\b|TF \d{3}-E\b')
+hidden_on=lambda i,model:i in HIDDEN and not (OFFROAD_MODEL.search(model) and re.search(r'enduro|cross-country|desert',HIDDEN[i],re.I))
 ENDURO=re.compile(r'\b(EXC|XC-W|XCW|XCF-W|TE|FE|EC|EC-F|ECF|out of scope|enduro)\b',re.I)
 def family(model):
     m=model.upper().replace(' ','')
@@ -347,6 +353,7 @@ if APP_OUT:
             if not s: continue
             if other_maker(p): dropped['other maker']+=1; continue
             if outside_years(p,y): dropped['outside title years']+=1; continue
+            if hidden_on(i,model): dropped['hidden listing']+=1; continue
             src=src_of(p); b=bi(brand_name(p.get('brand')) if src=='research' else p.get('brand')); pns=sorted(p.get('part_numbers') or [])
             name=clean(brands[b],p.get('product'))
             key=(b,tuple(pns)) if pns else (b,re.sub(r'[^a-z0-9]','',name.lower()))
