@@ -1,0 +1,407 @@
+{
+  "target": {
+    "manufacturer": "Honda",
+    "model": "CR125R",
+    "model_year": 2007,
+    "variant": "standard",
+    "region": "US"
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "honda-2007-cr125r-dimension-overall-length",
+      "property": "dimensions",
+      "joint": "Dimension / Overall length",
+      "value": "2163",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr125r.pdf",
+      "locator": "PDF page 124; printed page 119",
+      "document_sha256": "7e156620331d6fc5eb4322a95476601727b1b7f33a6b390e603d7727e4fd2aab",
+      "document_revision": "2007 Honda CR125R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.761499+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr125r-dimension-overall-width",
+      "property": "dimensions",
+      "joint": "Dimension / Overall width",
+      "value": "821",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr125r.pdf",
+      "locator": "PDF page 124; printed page 119",
+      "document_sha256": "7e156620331d6fc5eb4322a95476601727b1b7f33a6b390e603d7727e4fd2aab",
+      "document_revision": "2007 Honda CR125R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.761521+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr125r-dimension-overall-height",
+      "property": "dimensions",
+      "joint": "Dimension / Overall height",
+      "value": "1282",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr125r.pdf",
+      "locator": "PDF page 124; printed page 119",
+      "document_sha256": "7e156620331d6fc5eb4322a95476601727b1b7f33a6b390e603d7727e4fd2aab",
+      "document_revision": "2007 Honda CR125R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.761529+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr125r-dimension-wheelbase",
+      "property": "dimensions",
+      "joint": "Dimension / Wheelbase",
+      "value": "1470",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr125r.pdf",
+      "locator": "PDF page 124; printed page 119",
+      "document_sha256": "7e156620331d6fc5eb4322a95476601727b1b7f33a6b390e603d7727e4fd2aab",
+      "document_revision": "2007 Honda CR125R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.761535+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr125r-dimension-seat-height",
+      "property": "dimensions",
+      "joint": "Dimension / Seat height",
+      "value": "954",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr125r.pdf",
+      "locator": "PDF page 124; printed page 119",
+      "document_sha256": "7e156620331d6fc5eb4322a95476601727b1b7f33a6b390e603d7727e4fd2aab",
+      "document_revision": "2007 Honda CR125R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.761541+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr125r-dimension-foot-peg-height",
+      "property": "dimensions",
+      "joint": "Dimension / Foot peg height",
+      "value": "439",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr125r.pdf",
+      "locator": "PDF page 124; printed page 119",
+      "document_sha256": "7e156620331d6fc5eb4322a95476601727b1b7f33a6b390e603d7727e4fd2aab",
+      "document_revision": "2007 Honda CR125R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.761547+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr125r-dimension-ground-clearance",
+      "property": "dimensions",
+      "joint": "Dimension / Ground clearance",
+      "value": "352",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr125r.pdf",
+      "locator": "PDF page 124; printed page 119",
+      "document_sha256": "7e156620331d6fc5eb4322a95476601727b1b7f33a6b390e603d7727e4fd2aab",
+      "document_revision": "2007 Honda CR125R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.761553+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr125r-engine-gearing-frame-fuel-tank-capacity",
+      "property": "other",
+      "joint": "Frame / Fuel tank capacity",
+      "value": "7.7",
+      "unit": "L",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr125r.pdf",
+      "locator": "PDF page 124; printed page 119",
+      "document_sha256": "7e156620331d6fc5eb4322a95476601727b1b7f33a6b390e603d7727e4fd2aab",
+      "document_revision": "2007 Honda CR125R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.761499+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr125r-engine-gearing-dimension-trail-length",
+      "property": "dimensions",
+      "joint": "Dimension / Trail length",
+      "value": "100",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr125r.pdf",
+      "locator": "PDF page 124; printed page 119",
+      "document_sha256": "7e156620331d6fc5eb4322a95476601727b1b7f33a6b390e603d7727e4fd2aab",
+      "document_revision": "2007 Honda CR125R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.761499+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr125r-engine-gearing-engine-bore",
+      "property": "dimensions",
+      "joint": "Engine / Bore",
+      "value": "54.0",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr125r.pdf",
+      "locator": "PDF page 124; printed page 119",
+      "document_sha256": "7e156620331d6fc5eb4322a95476601727b1b7f33a6b390e603d7727e4fd2aab",
+      "document_revision": "2007 Honda CR125R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.761499+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr125r-engine-gearing-engine-stroke",
+      "property": "dimensions",
+      "joint": "Engine / Stroke",
+      "value": "54.5",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr125r.pdf",
+      "locator": "PDF page 124; printed page 119",
+      "document_sha256": "7e156620331d6fc5eb4322a95476601727b1b7f33a6b390e603d7727e4fd2aab",
+      "document_revision": "2007 Honda CR125R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.761499+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr125r-engine-gearing-engine-displacement",
+      "property": "other",
+      "joint": "Engine / Displacement",
+      "value": "124.8",
+      "unit": "cm³",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr125r.pdf",
+      "locator": "PDF page 124; printed page 119",
+      "document_sha256": "7e156620331d6fc5eb4322a95476601727b1b7f33a6b390e603d7727e4fd2aab",
+      "document_revision": "2007 Honda CR125R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.761499+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr125r-engine-gearing-engine-compression-ratio",
+      "property": "other",
+      "joint": "Engine / Compression ratio",
+      "value": "8.6:1",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr125r.pdf",
+      "locator": "PDF page 124; printed page 119",
+      "document_sha256": "7e156620331d6fc5eb4322a95476601727b1b7f33a6b390e603d7727e4fd2aab",
+      "document_revision": "2007 Honda CR125R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.761499+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr125r-engine-gearing-drive-train-primary-reduction",
+      "property": "other",
+      "joint": "Drive train / Primary reduction",
+      "value": "3.150",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr125r.pdf",
+      "locator": "PDF page 124; printed page 119",
+      "document_sha256": "7e156620331d6fc5eb4322a95476601727b1b7f33a6b390e603d7727e4fd2aab",
+      "document_revision": "2007 Honda CR125R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.761499+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr125r-engine-gearing-drive-train-gear-ratio-i",
+      "property": "other",
+      "joint": "Drive train / Gear ratio I",
+      "value": "2.308",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr125r.pdf",
+      "locator": "PDF page 124; printed page 119",
+      "document_sha256": "7e156620331d6fc5eb4322a95476601727b1b7f33a6b390e603d7727e4fd2aab",
+      "document_revision": "2007 Honda CR125R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.761499+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr125r-engine-gearing-drive-train-gear-ratio-ii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio II",
+      "value": "1.867",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr125r.pdf",
+      "locator": "PDF page 124; printed page 119",
+      "document_sha256": "7e156620331d6fc5eb4322a95476601727b1b7f33a6b390e603d7727e4fd2aab",
+      "document_revision": "2007 Honda CR125R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.761499+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr125r-engine-gearing-drive-train-gear-ratio-iii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio III",
+      "value": "1.529",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr125r.pdf",
+      "locator": "PDF page 124; printed page 119",
+      "document_sha256": "7e156620331d6fc5eb4322a95476601727b1b7f33a6b390e603d7727e4fd2aab",
+      "document_revision": "2007 Honda CR125R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.761499+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr125r-engine-gearing-drive-train-gear-ratio-iv",
+      "property": "other",
+      "joint": "Drive train / Gear ratio IV",
+      "value": "1.294",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr125r.pdf",
+      "locator": "PDF page 124; printed page 119",
+      "document_sha256": "7e156620331d6fc5eb4322a95476601727b1b7f33a6b390e603d7727e4fd2aab",
+      "document_revision": "2007 Honda CR125R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.761499+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr125r-engine-gearing-drive-train-gear-ratio-v",
+      "property": "other",
+      "joint": "Drive train / Gear ratio V",
+      "value": "1.130",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr125r.pdf",
+      "locator": "PDF page 124; printed page 119",
+      "document_sha256": "7e156620331d6fc5eb4322a95476601727b1b7f33a6b390e603d7727e4fd2aab",
+      "document_revision": "2007 Honda CR125R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.761499+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2007-cr125r-engine-gearing-drive-train-final-reduction",
+      "property": "other",
+      "joint": "Drive train / Final reduction",
+      "value": "4.000",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2007/2007_cr125r.pdf",
+      "locator": "PDF page 124; printed page 119",
+      "document_sha256": "7e156620331d6fc5eb4322a95476601727b1b7f33a6b390e603d7727e4fd2aab",
+      "document_revision": "2007 Honda CR125R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:37.761499+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    }
+  ],
+  "mappings": []
+}

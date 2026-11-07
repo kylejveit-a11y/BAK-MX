@@ -1,0 +1,407 @@
+{
+  "target": {
+    "manufacturer": "Honda",
+    "model": "CRF450R",
+    "model_year": 2020,
+    "variant": "standard",
+    "region": "US"
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "honda-2020-crf450r-dimension-overall-length",
+      "property": "dimensions",
+      "joint": "Dimension / Overall length",
+      "value": "2183",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "locator": "PDF page 178; printed page 173",
+      "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+      "document_revision": "2020 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.904734+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf450r-dimension-overall-width",
+      "property": "dimensions",
+      "joint": "Dimension / Overall width",
+      "value": "827",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "locator": "PDF page 178; printed page 173",
+      "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+      "document_revision": "2020 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.904757+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf450r-dimension-overall-height",
+      "property": "dimensions",
+      "joint": "Dimension / Overall height",
+      "value": "1260",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "locator": "PDF page 178; printed page 173",
+      "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+      "document_revision": "2020 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.904767+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf450r-dimension-wheelbase",
+      "property": "dimensions",
+      "joint": "Dimension / Wheelbase",
+      "value": "1482",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "locator": "PDF page 178; printed page 173",
+      "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+      "document_revision": "2020 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.904774+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf450r-dimension-seat-height",
+      "property": "dimensions",
+      "joint": "Dimension / Seat height",
+      "value": "960",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "locator": "PDF page 178; printed page 173",
+      "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+      "document_revision": "2020 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.904782+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf450r-dimension-footpeg-height",
+      "property": "dimensions",
+      "joint": "Dimension / Footpeg height",
+      "value": "418",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "locator": "PDF page 178; printed page 173",
+      "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+      "document_revision": "2020 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.904788+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf450r-dimension-ground-clearance",
+      "property": "dimensions",
+      "joint": "Dimension / Ground clearance",
+      "value": "328",
+      "unit": "mm",
+      "conditions": [
+        "Exact US stock model only; RX and RWE variants excluded from this target."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "locator": "PDF page 178; printed page 173",
+      "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+      "document_revision": "2020 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.904793+00:00",
+      "review_status": "PENDING",
+      "review_note": "Selected dimension rows visually inspected. Independent identity and cross-corpus conflict review pending; remaining specifications not extracted.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf450r-engine-gearing-frame-fuel-tank-capacity",
+      "property": "other",
+      "joint": "Frame / Fuel tank capacity",
+      "value": "6.3",
+      "unit": "L",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "locator": "PDF page 178; printed page 173",
+      "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+      "document_revision": "2020 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.904734+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf450r-engine-gearing-dimension-trail-length",
+      "property": "dimensions",
+      "joint": "Dimension / Trail length",
+      "value": "116",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "locator": "PDF page 178; printed page 173",
+      "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+      "document_revision": "2020 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.904734+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf450r-engine-gearing-engine-bore",
+      "property": "dimensions",
+      "joint": "Engine / Bore",
+      "value": "96.000",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "locator": "PDF page 178; printed page 173",
+      "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+      "document_revision": "2020 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.904734+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf450r-engine-gearing-engine-stroke",
+      "property": "dimensions",
+      "joint": "Engine / Stroke",
+      "value": "62.138",
+      "unit": "mm",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "locator": "PDF page 178; printed page 173",
+      "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+      "document_revision": "2020 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.904734+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf450r-engine-gearing-engine-displacement",
+      "property": "other",
+      "joint": "Engine / Displacement",
+      "value": "449.77",
+      "unit": "cm³",
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "locator": "PDF page 178; printed page 173",
+      "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+      "document_revision": "2020 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.904734+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf450r-engine-gearing-engine-compression-ratio",
+      "property": "other",
+      "joint": "Engine / Compression ratio",
+      "value": "13.5:1",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "locator": "PDF page 178; printed page 173",
+      "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+      "document_revision": "2020 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.904734+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf450r-engine-gearing-drive-train-primary-reduction",
+      "property": "other",
+      "joint": "Drive train / Primary reduction",
+      "value": "2.357",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "locator": "PDF page 179; printed page 174",
+      "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+      "document_revision": "2020 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.904734+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf450r-engine-gearing-drive-train-gear-ratio-i",
+      "property": "other",
+      "joint": "Drive train / Gear ratio I",
+      "value": "2.133",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "locator": "PDF page 179; printed page 174",
+      "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+      "document_revision": "2020 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.904734+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf450r-engine-gearing-drive-train-gear-ratio-ii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio II",
+      "value": "1.706",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "locator": "PDF page 179; printed page 174",
+      "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+      "document_revision": "2020 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.904734+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf450r-engine-gearing-drive-train-gear-ratio-iii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio III",
+      "value": "1.421",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "locator": "PDF page 179; printed page 174",
+      "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+      "document_revision": "2020 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.904734+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf450r-engine-gearing-drive-train-gear-ratio-iv",
+      "property": "other",
+      "joint": "Drive train / Gear ratio IV",
+      "value": "1.211",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "locator": "PDF page 179; printed page 174",
+      "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+      "document_revision": "2020 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.904734+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf450r-engine-gearing-drive-train-gear-ratio-v",
+      "property": "other",
+      "joint": "Drive train / Gear ratio V",
+      "value": "1.043",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "locator": "PDF page 179; printed page 174",
+      "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+      "document_revision": "2020 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.904734+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2020-crf450r-engine-gearing-drive-train-final-reduction",
+      "property": "other",
+      "joint": "Drive train / Final reduction",
+      "value": "3.769",
+      "unit": null,
+      "conditions": [
+        "Exact stock model and model-year in this target only; no cross-year inheritance.",
+        "RX and RWE targets excluded. Shared values used only when the manual explicitly includes this model."
+      ],
+      "source_url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+      "locator": "PDF page 179; printed page 174",
+      "document_sha256": "b459f7ff3ab7fb6d075e053ef75808c100650c294e89da03874cd2e46185fef2",
+      "document_revision": "2020 Honda CRF450R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:47:52.904734+00:00",
+      "review_status": "PENDING",
+      "review_note": "Bounded engine/gearing, trail and tank rows visually checked against this exact specification page. Independent identity and conflict review pending; service procedures not covered.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    }
+  ],
+  "mappings": []
+}

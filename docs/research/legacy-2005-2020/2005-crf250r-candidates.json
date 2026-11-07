@@ -1,0 +1,1938 @@
+{
+  "target": {
+    "manufacturer": "Honda",
+    "model": "CRF250R",
+    "model_year": 2005,
+    "variant": "standard",
+    "region": "US"
+  },
+  "assemblies": [],
+  "parts": [],
+  "facts": [
+    {
+      "id": "honda-2005-crf250r-spec-dimension-overall-length",
+      "property": "dimensions",
+      "joint": "Dimension / Overall length",
+      "value": "2172",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-dimension-overall-width",
+      "property": "dimensions",
+      "joint": "Dimension / Overall width",
+      "value": "827",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-dimension-overall-height",
+      "property": "dimensions",
+      "joint": "Dimension / Overall height",
+      "value": "1277",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-dimension-wheelbase",
+      "property": "dimensions",
+      "joint": "Dimension / Wheelbase",
+      "value": "1479",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-dimension-seat-height",
+      "property": "dimensions",
+      "joint": "Dimension / Seat height",
+      "value": "965",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-dimension-footpeg-height",
+      "property": "dimensions",
+      "joint": "Dimension / Footpeg height",
+      "value": "446",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-dimension-ground-clearance",
+      "property": "dimensions",
+      "joint": "Dimension / Ground clearance",
+      "value": "361",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-dimension-dry-weight",
+      "property": "dimensions",
+      "joint": "Dimension / Dry weight",
+      "value": "92.7",
+      "unit": "kg",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-frame-type",
+      "property": "other",
+      "joint": "Frame / Type",
+      "value": "Twin tube",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-frame-fuel-capacity",
+      "property": "other",
+      "joint": "Frame / Fuel capacity",
+      "value": "7.3",
+      "unit": "L",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-frame-caster-angle",
+      "property": "other",
+      "joint": "Frame / Caster angle",
+      "value": "27.50˚",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-frame-trail-length",
+      "property": "dimensions",
+      "joint": "Frame / Trail length",
+      "value": "123",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-engine-type",
+      "property": "other",
+      "joint": "Engine / Type",
+      "value": "Liquid cooled, 4-stroke",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-engine-cylinder-arrangement",
+      "property": "other",
+      "joint": "Engine / Cylinder arrangement",
+      "value": "Single 10˚ inclined from vertical",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-engine-bore-and-stroke",
+      "property": "dimensions",
+      "joint": "Engine / Bore and stroke",
+      "value": "78.0 x 52.2",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-engine-displacement",
+      "property": "other",
+      "joint": "Engine / Displacement",
+      "value": "249.4",
+      "unit": "cm³",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-engine-compression-ratio",
+      "property": "other",
+      "joint": "Engine / Compression ratio",
+      "value": "12.9 : 1",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-carburetor-type",
+      "property": "other",
+      "joint": "Carburetor / Type",
+      "value": "Piston valve",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-carburetor-identification-number",
+      "property": "other",
+      "joint": "Carburetor / Identification number",
+      "value": "FCR01B",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-carburetor-main-jet-standard",
+      "property": "other",
+      "joint": "Carburetor / Main jet (standard)",
+      "value": "# 172",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-carburetor-jet-needle-standard",
+      "property": "other",
+      "joint": "Carburetor / Jet needle (standard)",
+      "value": "NCYQ",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-carburetor-needle-clip-position-standard",
+      "property": "other",
+      "joint": "Carburetor / Needle clip position (standard)",
+      "value": "3rd groove",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-carburetor-slow-jet-standard",
+      "property": "other",
+      "joint": "Carburetor / Slow jet (standard)",
+      "value": "# 42",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-carburetor-pilot-screw-opening",
+      "property": "other",
+      "joint": "Carburetor / Pilot screw opening",
+      "value": "1–3/4 turns out",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-carburetor-float-level",
+      "property": "dimensions",
+      "joint": "Carburetor / Float level",
+      "value": "8.0",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-drive-train-clutch-type",
+      "property": "other",
+      "joint": "Drive train / Clutch type",
+      "value": "Wet, multi-plate type",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-drive-train-transmission",
+      "property": "other",
+      "joint": "Drive train / Transmission",
+      "value": "5-speed, constant mesh",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-drive-train-primary-reduction",
+      "property": "other",
+      "joint": "Drive train / Primary reduction",
+      "value": "3.166",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-drive-train-gear-ratio-i",
+      "property": "other",
+      "joint": "Drive train / Gear ratio I",
+      "value": "2.142",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-drive-train-gear-ratio-ii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio II",
+      "value": "1.750",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-drive-train-gear-ratio-iii",
+      "property": "other",
+      "joint": "Drive train / Gear ratio III",
+      "value": "1.450",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-drive-train-gear-ratio-iv",
+      "property": "other",
+      "joint": "Drive train / Gear ratio IV",
+      "value": "1.227",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-drive-train-gear-ratio-v",
+      "property": "other",
+      "joint": "Drive train / Gear ratio V",
+      "value": "1.041",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-drive-train-final-reduction",
+      "property": "other",
+      "joint": "Drive train / Final reduction",
+      "value": "3.923",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-drive-train-gear-shift-pattern",
+      "property": "other",
+      "joint": "Drive train / Gear shift pattern",
+      "value": "Left foot-operated return system 1-N-2-3-4-5",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-electrical-ignition",
+      "property": "other",
+      "joint": "Electrical / Ignition",
+      "value": "ICM",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-electrical-starting-system",
+      "property": "other",
+      "joint": "Electrical / Starting system",
+      "value": "Kickstarter",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-engine-engine-oil-capacity-after-draining",
+      "property": "other",
+      "joint": "Engine / Engine oil capacity / After draining",
+      "value": "660",
+      "unit": "cm³",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-engine-engine-oil-capacity-after-draining-and-oil-filter-change",
+      "property": "other",
+      "joint": "Engine / Engine oil capacity / After draining and oil filter change",
+      "value": "690",
+      "unit": "cm³",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-engine-engine-oil-capacity-after-disassembly",
+      "property": "other",
+      "joint": "Engine / Engine oil capacity / After disassembly",
+      "value": "850",
+      "unit": "cm³",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-engine-transmission-oil-capacity-after-disassembly",
+      "property": "other",
+      "joint": "Engine / Transmission oil capacity / After disassembly",
+      "value": "700",
+      "unit": "cm³",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-electrical-spark-plug-standard-ngk",
+      "property": "other",
+      "joint": "Electrical / Spark plug / Standard NGK",
+      "value": "R0409 B-8",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-electrical-spark-plug-extended-high-speed-ngk",
+      "property": "other",
+      "joint": "Electrical / Spark plug / Extended high speed NGK",
+      "value": "R0409 B-9",
+      "unit": null,
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 143; printed page 139",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-suspension-front-rebound-damping-std",
+      "property": "other",
+      "joint": "Suspension / Front rebound damping STD",
+      "value": "8",
+      "unit": "click",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Counterclockwise out from gently seated full-hard position; retain factory range where given.",
+        "Set both fork legs equally for front settings; align shock adjuster punch marks for rear settings."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 98; printed page 94",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-suspension-front-compression-damping-std",
+      "property": "other",
+      "joint": "Suspension / Front compression damping STD",
+      "value": "10",
+      "unit": "click",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Counterclockwise out from gently seated full-hard position; retain factory range where given.",
+        "Set both fork legs equally for front settings; align shock adjuster punch marks for rear settings."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 98; printed page 94",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-suspension-rear-high-speed-compression-std",
+      "property": "other",
+      "joint": "Suspension / Rear high speed compression STD",
+      "value": "1.75–2.25",
+      "unit": "turn",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Counterclockwise out from gently seated full-hard position; retain factory range where given.",
+        "Set both fork legs equally for front settings; align shock adjuster punch marks for rear settings."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-suspension-rear-low-speed-compression-std",
+      "property": "other",
+      "joint": "Suspension / Rear low speed compression STD",
+      "value": "7",
+      "unit": "click",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Counterclockwise out from gently seated full-hard position; retain factory range where given.",
+        "Set both fork legs equally for front settings; align shock adjuster punch marks for rear settings."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-suspension-rear-rebound-damping-std",
+      "property": "other",
+      "joint": "Suspension / Rear rebound damping STD",
+      "value": "9",
+      "unit": "click",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Counterclockwise out from gently seated full-hard position; retain factory range where given.",
+        "Set both fork legs equally for front settings; align shock adjuster punch marks for rear settings."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 112; printed page 108",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-spec-suspension-standard-race-sag",
+      "property": "dimensions",
+      "joint": "Suspension / Standard race sag",
+      "value": "100",
+      "unit": "mm",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Normal racing weight including fuel and fluids; rider wearing normal protective gear; use the manual measurement procedure."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 113; printed page 109",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Source page visually inspected; candidate only, cross-corpus conflict and independent promotion review pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-steering-stem-nut",
+      "property": "torque",
+      "joint": "Chassis torque / Steering stem nut",
+      "value": "108",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 1; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-fork-bridge-upper-pinch-bolts",
+      "property": "torque",
+      "joint": "Chassis torque / Fork bridge upper pinch bolts",
+      "value": "22",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 2; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-fork-bridge-lower-pinch-bolts",
+      "property": "torque",
+      "joint": "Chassis torque / Fork bridge lower pinch bolts",
+      "value": "20",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 3; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-handlebar-upper-holder-bolts",
+      "property": "torque",
+      "joint": "Chassis torque / Handlebar upper holder bolts",
+      "value": "22",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 4; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-handlebar-holder-nuts",
+      "property": "torque",
+      "joint": "Chassis torque / Handlebar holder nuts",
+      "value": "44",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 5; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-front-axle-nut",
+      "property": "torque",
+      "joint": "Chassis torque / Front axle nut",
+      "value": "88",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 6; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-front-axle-pinch-bolts",
+      "property": "torque",
+      "joint": "Chassis torque / Front axle pinch bolts",
+      "value": "20",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 7; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-rear-axle-nut",
+      "property": "torque",
+      "joint": "Chassis torque / Rear axle nut",
+      "value": "128",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 8; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction.",
+        "Table remark: U-nut."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-chain-adjuster-lock-nuts",
+      "property": "torque",
+      "joint": "Chassis torque / Chain adjuster lock nuts",
+      "value": "27",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 9; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction.",
+        "Table remark: UBS nut."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-engine-mounting-bolts",
+      "property": "torque",
+      "joint": "Chassis torque / Engine mounting bolts",
+      "value": "64",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 10; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-front-engine-hanger-bracket-bolts",
+      "property": "torque",
+      "joint": "Chassis torque / Front engine hanger bracket bolts",
+      "value": "64",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 11; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-mid-engine-hanger-bracket-bolt",
+      "property": "torque",
+      "joint": "Chassis torque / Mid engine hanger bracket bolt",
+      "value": "64",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 12; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-upper-engine-hanger-plate-bolts-engine-side",
+      "property": "torque",
+      "joint": "Chassis torque / Upper engine hanger plate bolts engine side",
+      "value": "54",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 13; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-shock-absorber-upper",
+      "property": "torque",
+      "joint": "Chassis torque / Shock absorber upper",
+      "value": "44",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 14; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction.",
+        "Table remark: U-nut."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-shock-absorber-lower",
+      "property": "torque",
+      "joint": "Chassis torque / Shock absorber lower",
+      "value": "44",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 14; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction.",
+        "Table remark: U-nut."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-swingarm-pivot-nut",
+      "property": "torque",
+      "joint": "Chassis torque / Swingarm pivot nut",
+      "value": "88",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 15; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction.",
+        "Table remark: U-nut."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-fork-damper",
+      "property": "torque",
+      "joint": "Chassis torque / Fork damper",
+      "value": "34",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 16; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-fork-cap",
+      "property": "torque",
+      "joint": "Chassis torque / Fork cap",
+      "value": "30",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 16; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-rear-shock-arm-nuts-swingarm-side",
+      "property": "torque",
+      "joint": "Chassis torque / Rear shock arm nuts swingarm side",
+      "value": "52",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 17; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction.",
+        "Table remark: U-nut.",
+        "Table remark: apply oil to the threads and flange surface."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-rear-shock-arm-nuts-shock-link-side",
+      "property": "torque",
+      "joint": "Chassis torque / Rear shock arm nuts shock link side",
+      "value": "52",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 17; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction.",
+        "Table remark: U-nut.",
+        "Table remark: apply oil to the threads and flange surface."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-rear-shock-link-nuts-frame-side",
+      "property": "torque",
+      "joint": "Chassis torque / Rear shock link nuts frame side",
+      "value": "53",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 18; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction.",
+        "Table remark: U-nut.",
+        "Table remark: apply oil to the threads and flange surface."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-shock-spring-lock-nut",
+      "property": "torque",
+      "joint": "Chassis torque / Shock spring lock nut",
+      "value": "44",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 19; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-kickstarter-arm-bolt",
+      "property": "torque",
+      "joint": "Chassis torque / Kickstarter arm bolt",
+      "value": "38",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 20; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 145; printed page 141",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-front-brake-master-cylinder-holder-bolts",
+      "property": "torque",
+      "joint": "Chassis torque / Front brake master cylinder holder bolts",
+      "value": "9.9",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 21; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-brake-hose-bolts",
+      "property": "torque",
+      "joint": "Chassis torque / Brake hose bolts",
+      "value": "34",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 22; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-caliper-mounting-bolts",
+      "property": "torque",
+      "joint": "Chassis torque / Caliper mounting bolts",
+      "value": "30",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 23; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction.",
+        "Table remark: Alock bolt."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-front-brake-disc-nuts",
+      "property": "torque",
+      "joint": "Chassis torque / Front brake disc nuts",
+      "value": "16",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 24; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction.",
+        "Table remark: U-nut."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-rear-brake-disc-nuts",
+      "property": "torque",
+      "joint": "Chassis torque / Rear brake disc nuts",
+      "value": "16",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 25; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction.",
+        "Table remark: U-nut."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-brake-pedal-pivot-bolt",
+      "property": "torque",
+      "joint": "Chassis torque / Brake pedal pivot bolt",
+      "value": "31",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 26; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-front-spoke",
+      "property": "torque",
+      "joint": "Chassis torque / Front spoke",
+      "value": "3.68",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 27; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-rear-spoke",
+      "property": "torque",
+      "joint": "Chassis torque / Rear spoke",
+      "value": "3.7",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 28; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-rim-locks",
+      "property": "torque",
+      "joint": "Chassis torque / Rim locks",
+      "value": "13",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 29; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-subframe-bolts-upper",
+      "property": "torque",
+      "joint": "Chassis torque / Subframe bolts upper",
+      "value": "30",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 30; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-subframe-bolts-lower",
+      "property": "torque",
+      "joint": "Chassis torque / Subframe bolts lower",
+      "value": "49",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 30; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-fork-center-bolt",
+      "property": "torque",
+      "joint": "Chassis torque / Fork center bolt",
+      "value": "69",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 31; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-fork-center-lock-nut",
+      "property": "torque",
+      "joint": "Chassis torque / Fork center lock nut",
+      "value": "22",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 32; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-disc-cover-bolts",
+      "property": "torque",
+      "joint": "Chassis torque / Disc cover bolts",
+      "value": "13",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 33; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-fork-protector-bolts",
+      "property": "torque",
+      "joint": "Chassis torque / Fork protector bolts",
+      "value": "7",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 34; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction.",
+        "Table remark: Alock bolt."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-muffler-mounting-bolts-front",
+      "property": "torque",
+      "joint": "Chassis torque / Muffler mounting bolts front",
+      "value": "26",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 35; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-muffler-mounting-bolts-rear",
+      "property": "torque",
+      "joint": "Chassis torque / Muffler mounting bolts rear",
+      "value": "26",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 35; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-muffler-clamp-bolt",
+      "property": "torque",
+      "joint": "Chassis torque / Muffler clamp bolt",
+      "value": "21",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 36; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-sprocket-nuts",
+      "property": "torque",
+      "joint": "Chassis torque / Sprocket nuts",
+      "value": "32",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 37; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction.",
+        "Table remark: U-nut."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-seat-mounting-bolts",
+      "property": "torque",
+      "joint": "Chassis torque / Seat mounting bolts",
+      "value": "26",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 38; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-front-brake-reservoir-cap-screws",
+      "property": "torque",
+      "joint": "Chassis torque / Front brake reservoir cap screws",
+      "value": "1.0",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 39; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-rear-brake-reservoir-cap-bolts",
+      "property": "torque",
+      "joint": "Chassis torque / Rear brake reservoir cap bolts",
+      "value": "1.0",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 40; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    },
+    {
+      "id": "honda-2005-crf250r-chassis-torque-fork-air-pressure-release-screw",
+      "property": "torque",
+      "joint": "Chassis torque / Fork air pressure release screw",
+      "value": "1.2",
+      "unit": "N·m",
+      "conditions": [
+        "Exact 2005 US stock model only; no cross-year or aftermarket inheritance.",
+        "Frame torque table and diagram item 41; follow the matching manufacturer service procedure.",
+        "Table-only candidate: tightening sequence, replacement requirements and procedure-specific preparation remain to be reconciled. A blank remark is not a dry-thread instruction."
+      ],
+      "source_url": "https://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf250r.pdf",
+      "locator": "PDF page 146; printed page 142",
+      "document_sha256": "7dc5fc359f27b2d6f1df5dae77e8b8ae2d5e80139daad2e8cb488390fc4fc16e",
+      "document_revision": "2005 Honda CRF250R Owner’s Manual & Competition Handbook",
+      "retrieved_at": "2026-10-16T15:27:42.929117+00:00",
+      "review_status": "PENDING",
+      "review_note": "Frame table, diagram item and remark alignment visually inspected. Independent review and procedure reconciliation pending.",
+      "reviewer_id": "codex-source-inspection-20261016",
+      "approval_reference": null
+    }
+  ],
+  "mappings": []
+}
