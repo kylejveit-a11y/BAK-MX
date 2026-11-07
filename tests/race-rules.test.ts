@@ -119,8 +119,39 @@ test('answers point at the right rules and carry the confirm-before-race-day adv
  assert.ok(tech.unknown.some((u:any)=>/bar-end/i.test(u.what)));
 });
 
+test('second pass covers flags, starts, scoring, protests, entry, paddock and the series Kyle races',()=>{
+ const pick=(q:string)=>(raceRules(q) as any);
+ const text=(q:string)=>JSON.stringify(pick(q).items);
+ // Pro red cross: every obstacle one at a time, no passing; amateur yellow: no passing, roll jumps, 5 positions.
+ assert.match(text('what does the red cross flag mean in supercross'),/no doubles, triples/);
+ assert.match(text('can you pass under a yellow flag at an AMA amateur race'),/lose 5 positions/);
+ assert.match(text('when does the gate drop after the 30 second card'),/between 5 and 10 seconds/);
+ assert.match(text('how are motos scored'),/class size plus 30/);
+ assert.match(text('how much is a protest fee'),/\$1,500/);
+ assert.match(text('what is the claiming rule'),/50% over its MSRP/);
+ assert.match(text('can grandma take my daughter to race without me'),/notarized/);
+ // TriStar runs Partzilla Arenacross; its own page is the source, and its missing rulebook is an unknown.
+ const ax=pick('my son races tristar, does he need a minor release?');
+ assert.ok(ax.items.some((i:any)=>i.source.includes('TriStar')&&/minor waiver/.test(i.rule)));
+ assert.ok(pick('what classes does partzilla arenacross have').unknown.some((u:any)=>/TriStar MX \/ Partzilla/.test(u.what)));
+ assert.match(text('can I use a pit bike at mini o\'s'),/7 mph/);
+ assert.match(text('what are the florida winter am classes'),/all five rounds/);
+ assert.match(text('how many road to supercross points do I need for a 250 license'),/four points/);
+ // Older or secondary sources keep their caution.
+ const smx=pick('how do the smx playoffs work').items.find((i:any)=>i.source.includes('Playoffs'));
+ assert.ok(smx&&smx.year===2025&&smx.caution);
+ const fim=pick('mxgp displacement rules').items.find((i:any)=>i.source.includes('FIM'));
+ assert.ok(fim&&fim.year===2021&&fim.caution);
+ // A plain plate question stays on plates and classes, not the arenacross plate list.
+ assert.ok(pick('What plate color for 250 B?').items.every((i:any)=>['plates','classes'].includes(i.topic)));
+ // Every topic has items, and keywords never leak into the output.
+ for(const t of ['classes','eligibility','entry','sound','fuel','tech','plates','gear','flags','starts','scoring','protests','paddock','qualifying','arenacross','local'])
+  assert.ok(RACE_RULES.some(r=>r.topic===t),t);
+ assert.doesNotMatch(JSON.stringify(pick('what does the red cross flag mean in supercross')),/"kw"|"core"|"who"/);
+});
+
 test('amateur rules come from the 2026 AMA book, not the 2023 edition or the forum memo',()=>{
- assert.equal(RACE_RULES_VERSION,'race-rules-2026.2');
+ assert.equal(RACE_RULES_VERSION,'race-rules-2026.3');
  for(const r of RACE_RULES)assert.doesNotMatch(r.source,/2023|memo|repost/i,r.id);
  const am:any=raceRules('What is the sound limit for my 250F at a local AMA amateur race?');
  const text=JSON.stringify(am.items);
