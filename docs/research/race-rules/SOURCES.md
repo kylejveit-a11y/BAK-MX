@@ -1,6 +1,6 @@
 # Race rules sources
 
-Sources behind `shared/race-rules.ts` (version `race-rules-2026.1`). All were public pages, read on **2026-11-07**. No paywalls or bot protection were worked around. The module holds short summaries in BAK's own words, never rule text. The **Label** column is the `source` string the module uses.
+Sources behind `shared/race-rules.ts` (version `race-rules-2026.2`). All were public pages, read on **2026-11-07**. No paywalls or bot protection were worked around. The module holds short summaries in BAK's own words, never rule text. The **Label** column is the `source` string the module uses.
 
 Rules change every season. Re-read each source when a new edition comes out, update the items and their `year`, and bump `RACE_RULES_VERSION`.
 
@@ -17,16 +17,20 @@ Rules change every season. Re-read each source when a new edition comes out, upd
 | (corroborating) | MX Sports, Competition Bulletin 2026-1: classes and supplemental rules finalized | 2026 (Dec 29 2025) | https://mxsports.com/2025/12/29/competition-bulletin-2026-1-2026-classes-and-supplemental-rules-finalized | Confirms no class changes for 2026 and the flag penalties |
 | AMA Limited Class Clarification Chart | AMA, 2026 Motocross Limited Class Clarification Chart v.2026.01.28 (PDF) | 2026 | https://americanmotorcyclist.com/wp-content/uploads/2026/02/2026-Limited-Class-Clarification-Chart-1.28.2026.pdf | What may and may not change in Limited classes |
 | (referenced) | AMA, 2026 approved racing minicycles/motorcycles list (PDF) | 2026 | https://americanmotorcyclist.com/wp-content/uploads/2026/02/2026-Amateur-Eligible-Equipment-SH.pdf | Only to say bikes must be on the approved list; no per-model data was taken |
+| AMA Racing Rulebook (amateur motocross) | AMA, 2026 AMA Racing Rulebook, complete, rev 03/17/26 (PDF, 401 pages). Motocross chapter 1.1–1.3 and Appendix 5.2 / 5.9 | 2026 (rev 03/17/26) | https://americanmotorcyclist.com/wp-content/uploads/2026/03/26_AMA_RacingRulebook_Complete_rev031726-1-compressed.pdf | Amateur ages (12 minimum; 14 for 201–250cc; 16 for 251cc and up; 14 minimum from 2027), A/B/C and RPV advancement, youth and amateur class menus, Limited-class rules and penalties, equipment (controls, pegs, chain guard, brakes, fork cover, tank, fender, exhaust, tires), fuel (ASTM D4814), plates, apparel (chest and back protection mandatory, helmet standards), transponder check, 20-inch sound test limits and rpm (Appendix 5.2, read from a rendered page image because the table has no text layer), 2-meter max limits from 2028 (Appendix 5.9), arenacross definition |
 | AMA motocross rules page | AMA, Motocross Rules (web page) | 2026 (lists the 2026 AMA Competition Rulebook) | https://americanmotorcyclist.com/motocross-rules/ | 50cc to over 450cc and ages 4 to 50+; two motos with combined overall; links to bulletins and supplemental rules |
 
-## Older or secondary sources (flagged with a `caution` in the module)
+## Secondary sources (flagged with a `caution` in the module)
 
 | Label | Publisher / document | Edition | URL | Used for | Why flagged |
 |---|---|---|---|---|---|
-| AMA Competition Rulebook (amateur sections) | AMA 2023 Competition Rulebook (PDF), third-party mirror | 2023 | https://www.speedwaybikes.com/AMA/2023-AMA-Competition-Rulebook.pdf | Amateur sound test method (20 in, 45°, fixed rpm), Limited-class sound table, amateur fuel (ASTM D4814), plates, helmet standards, boots, chest protection (Youth), chain guard, controls and footpegs | Old edition on a mirror. The 2026 AMA rulebook page could not be read (see Blocked). The fixed-rpm/limit table in the sound appendix did not come through as text, so those numbers are not used. |
-| AMA rulebook change memo (secondary repost) | AMA memo "Changes in the 2026 AMA Rulebook", reposted on a forum | 2026 | https://pitracer.com/posts/706228 | Chest and back protection required for all MX riders; 250 two-strokes in Schoolboy 2; Supermini 12–15; Limited/displacement suspensions; 2027 amateur minimum age 12 to 14; 2025 sound rules postponed one year; helmet standards updated | A repost, not the rulebook. Partly confirmed by the MX Sports class list (Schoolboy 2 122–250cc, Supermini 1 12–15). |
 | AMA arenacross announcement (secondary report) | motorcycle.com report "AMA To Back Three Arenacross Series for 2026-2027" | 2026 (Oct 15 2026) | https://www.motorcycle.com/bikes/news/ama-to-back-three-arenacross-series-for-2026-2027-44672767 | Partzilla (national, East/West), GT Arenacross (Midwest), Throttlecross (Rocky Mountain); top 5 amateurs per East/West/Midwest to the Lincoln Trail finale | A news report. The official AMA Arenacross supplemental rules could not be read. The article gives two different finale dates, so no date is used. |
 | Unlimited Sports rider meeting, Gatorback Cycle Park FL | Unlimited Sports, 2025 rider meeting sheet (PDF), Gatorback event | 2025 | https://unlimitedsportsmx.com/wp-content/uploads/2025/11/2025-RIDERS-MEETING-.pdf | Florida local example: AMA rules apply, local flag/gate penalties, red flag 60% rule, plate colours, transponder charging, adults at staging for minis | 2025 single-event sheet that does not name the series; shows local rules can differ from the National. |
+
+## Replaced in version 2026.2 (no longer a `source` label)
+
+- AMA 2023 Competition Rulebook on a third-party mirror (https://www.speedwaybikes.com/AMA/2023-AMA-Competition-Rulebook.pdf), read 2026-11-07. Every amateur item now cites the 2026 AMA Racing Rulebook instead.
+- Forum repost of AMA's 2026 change memo (https://pitracer.com/posts/706228), read 2026-11-07. Replaced by the 2026 book. The 2026 book disagrees with it on one point: it gives the youth Supermini class as 12–16, not 12–15 (Loretta's Supermini 1 is 12–15, Supermini 2 is 13–16). It also shows the sound change as a move to the 2-meter max method from 2028, not a one-year postponement.
 
 ## Corroboration only (not a `source` label)
 
@@ -38,7 +42,7 @@ Rules change every season. Re-read each source when a new edition comes out, upd
 
 ## Blocked or not read
 
-- https://americanmotorcyclist.com/racing/racing-resources/racing-rulebook/ (AMA 2026 Competition Rulebook page). The fetch was stopped at a permission prompt that went unanswered, so it was not retried. This is the main gap: the 2026 amateur sound limit, fuel wording, plate and gear rules come from the 2023 edition or the memo until it is read.
+- The AMA rulebook page (https://americanmotorcyclist.com/racing/racing-resources/racing-rulebook/) was blocked on the first pass. The 2026 PDF it links was read on 2026-11-07 (see above). The PDF was downloaded only to a scratch folder for reading and then deleted.
 - https://www.arenacrossusa.com/rules/ (AMA Arenacross supplemental rules). Blocked the same way.
 - FIM Motocross technical and sound rules: not looked up in an English official copy.
 - TriStar Arenacross, Mid-South Arenacross and Florida Winter AM rules: no published rulebook found in a quick search.

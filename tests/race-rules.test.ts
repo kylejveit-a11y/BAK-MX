@@ -92,6 +92,17 @@ test('answers point at the right rules and carry the confirm-before-race-day adv
  assert.ok(tech.unknown.some((u:any)=>/bar-end/i.test(u.what)));
 });
 
+test('amateur rules come from the 2026 AMA book, not the 2023 edition or the forum memo',()=>{
+ assert.equal(RACE_RULES_VERSION,'race-rules-2026.2');
+ for(const r of RACE_RULES)assert.doesNotMatch(r.source,/2023|memo|repost/i,r.id);
+ const am:any=raceRules('What is the sound limit for my 250F at a local AMA amateur race?');
+ const text=JSON.stringify(am.items);
+ assert.match(text,/94 dB\/A/);assert.match(text,/126–250cc 5,000/);assert.match(text,/2028/);
+ assert.ok(am.items.filter((i:any)=>/AMA amateur/.test(i.applies)).every((i:any)=>i.year===2026&&!i.caution));
+ const age:any=raceRules('how old do you have to be to race a 450 in AMA amateur?');
+ assert.ok(age.items.some((i:any)=>/16 to ride 251cc/.test(i.rule)));
+});
+
 test('every source label is listed in SOURCES.md',()=>{
  const md=readFileSync(new URL('../docs/research/race-rules/SOURCES.md',import.meta.url),'utf8');
  const labels=new Set(RACE_RULES.flatMap(r=>r.source.split('; ').map(s=>s.replace(/ \(\d{4}\)$/,''))));

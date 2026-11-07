@@ -9,9 +9,9 @@
  * Rules change every season and clubs add their own supplemental rules, so every answer built from this tells the
  * rider to confirm with the current rulebook and the series running the race before race day.
  *
- * Status: RESEARCHED 2026-11-07, pending review by Kyle. Edit here; the runtime reads this file.
+ * Status: RESEARCHED 2026-11-07 (amateur items moved to the 2026 AMA Racing Rulebook rev 03/17/26 the same day), pending review by Kyle. Edit here; the runtime reads this file.
  */
-export const RACE_RULES_VERSION='race-rules-2026.1';
+export const RACE_RULES_VERSION='race-rules-2026.2';
 /** The day these sources were read. */
 export const RACE_RULES_AS_OF='2026-11-07';
 
@@ -40,10 +40,9 @@ export type RaceRuleUnknown={topic:RaceRuleTopic;year:number;what:string};
 
 const SX='AMA Supercross Rulebook',MX='AMA Pro Racing Pro Motocross Rulebook',NEXT='SMX Next Supplemental Rulebook',
  LL='MX Sports Amateur National Supplemental Rules',LLC='MX Sports Amateur National class list',LLQ='MX Sports How to Qualify',
- LIM='AMA Limited Class Clarification Chart',AMA23='AMA Competition Rulebook (amateur sections)',AMAWEB='AMA motocross rules page',
- MEMO='AMA rulebook change memo (secondary repost)',AXR='AMA arenacross announcement (secondary report)',
+ LIM='AMA Limited Class Clarification Chart',AMA26='AMA Racing Rulebook (amateur motocross)',AMAWEB='AMA motocross rules page',
+ AXR='AMA arenacross announcement (secondary report)',
  FL='Unlimited Sports rider meeting, Gatorback Cycle Park FL';
-const OLD='Older AMA amateur edition: the 2026 amateur rulebook was not read. Treat as a starting point only.';
 const SECONDARY='Secondary report of an AMA announcement, not the rulebook itself.';
 
 export const RACE_RULES:RaceRule[]=[
@@ -62,16 +61,21 @@ export const RACE_RULES:RaceRule[]=[
   means:'A Micro rider may qualify in more than one Micro class but can race only one at the National.'},
  {id:'ll-supermini',topic:'classes',applies:"Loretta Lynn's Supermini and Girls",year:2026,source:`${LLC}; ${LL}`,who:'amateur',
   rule:'Supermini 1 (12–15) and Supermini 2 (13–16): 79–112cc two-strokes or 75–150cc four-strokes, wheels up to 19 in front / 16 rear. Girls (11–16) uses the same bikes. A rider must be 12 on the day of the Area Qualifier to ride a Supermini in any class.'},
- {id:'ll-125-schoolboy',topic:'classes',applies:"Loretta Lynn's 125 and Schoolboy classes",year:2026,source:`${LLC}; ${MEMO}`,who:'amateur',
-  rule:'125 Jr (12–17) B/C: 122–125cc two-strokes. Schoolboy 1 (12–17) B/C: 86–125cc two-strokes or 75–150cc four-strokes, on full-size wheels of at least 19 in front / 16 rear. Schoolboy 2 (12–17) B/C: 122–250cc, and for 2026 AMA opened Schoolboy 2 to 250cc two-strokes.',
-  means:'Schoolboy classes are for big-wheel bikes; a rider must be 14 to ride a 250cc.'},
+ {id:'ll-125-schoolboy',topic:'classes',applies:"Loretta Lynn's 125 and Schoolboy classes",year:2026,source:`${LLC}; ${AMA26}`,who:'amateur',
+  rule:'125 Jr (12–17) B/C: 122–125cc two-strokes. Schoolboy 1 (12–17) B/C: 86–125cc two-strokes or 75–150cc four-strokes, on full-size wheels of at least 19 in front / 16 rear. Schoolboy 2 (12–17) B/C: 122–250cc two-strokes or 126–250cc four-strokes, at least a 53 in wheelbase, no minicycles or Superminis.',
+  means:'Schoolboy classes are for big-wheel bikes; a rider must be 14 to ride anything over 200cc.'},
  {id:'ll-big-bike',topic:'classes',applies:"Loretta Lynn's amateur big-bike classes",year:2026,source:LLC,who:'amateur',core:true,
   rule:'250 B, 250 B Limited, 250 C, 250 C Limited and 250 C Jr (12–17) Limited all use 122–250cc. 450 B, 450 B Limited and 450 C use 122cc to open. 125 C is 122–125cc. Open Pro Sport (122cc–open) and 250 Pro Sport (122–250cc) are for the fastest amateurs.'},
  {id:'ll-age-classes',topic:'classes',applies:"Loretta Lynn's age and women's classes",year:2026,source:LLC,who:'amateur',
   rule:'Women 122–250cc (must be 14 to ride a 250). College 18–24, Junior 25+, Vet 30+, Senior 40+, Senior 45+ and Masters 50+ all run 122cc to open. College, Vet 30+ and Senior 45+ are Sportsman classes: anyone who ever earned an AMA pro point cannot enter them.'},
- {id:'ll-limited',topic:'classes',applies:'AMA Limited classes',year:2026,source:`${LIM}; ${LL}`,who:'amateur',core:true,
-  rule:'In Limited classes the whole OEM exhaust for that model year stays stock (an end cap may change only to fit a spark arrestor), and engine internals, bore and stroke, high-compression pistons, carburetor or throttle body, electronics, airbox, intake boot, reeds, hubs, axles and rim size stay stock. Allowed: suspension internals and springs, linkage, sprockets and chain, pegs, levers, bars and top clamp, jetting, radiators, plastics and graphics, cosmetic changes with no performance gain. A Limited bike may also race a non-Limited class.',
-  means:'Violations mean disqualification from the class (or reassignment at a qualifier if the referee rules it unintentional); a second within a year can bring a one-year suspension.'},
+ {id:'ama-youth-classes',topic:'classes',applies:'AMA youth classes (any AMA-sanctioned race)',year:2026,source:AMA26,who:'amateur',
+  rule:'The menu clubs pick from: 51cc Micro classes (Jr 4–6, Sr 7–8, shaft drive 4–8, a named-model Special class 4–8) with an intake restrictor and wheel and seat limits per class; Mini-E Jr (4–6, 1 kWh) and Sr (7–8, 1.5 kWh); 65cc (59–65cc two-stroke) for 7–9, 7–11 and 10–11 on 12–14 in front wheels; 85cc (79–85cc two-stroke) for 9–11, 12–13 and 14–15, wheels up to 19/16 (17/14 for 9–11); Supermini 12–16 (79–112cc two-stroke or 75–150cc four-stroke, up to 19/16 wheels); Girls Jr 9–12 (59–85cc) and Girls Sr 12–16 (Supermini-size bikes). Mini bikes race the class they were built for.',
+  means:'The club or series decides which classes run that day, so check its class list.'},
+ {id:'ama-amateur-classes',topic:'classes',applies:'AMA amateur classes (any AMA-sanctioned race)',year:2026,source:AMA26,who:'amateur',
+  rule:'Approved amateur classes: 125 (122–125cc two-stroke only), 250 (122–250cc), a 14–24 age class and Open (122cc–open), Vet 25+, 30+, 35+, Senior 40+, 45+, 50+, 55+, 60+ (all 122cc–open), Women 12+ (99–250cc) and an Electric class (16+). Every amateur class except Women needs at least a 53 in wheelbase. Electric bikes cannot practise or race with gas bikes in amateur classes.'},
+ {id:'ll-limited',topic:'classes',applies:'AMA Limited classes',year:2026,source:`${AMA26}; ${LIM}; ${LL}`,who:'amateur',core:true,
+  rule:'Must stay stock: the complete exhaust and silencer (the tip may change only to fit a spark arrestor), airbox and intake boot, carburetor (jets may change) or throttle body, electronics (remapping the stock ECU is allowed), clutch, transmission, engine internals and bore/stroke (stock-shape pistons, rings and plates allowed; no high-compression pistons), reeds, frame, swingarm, subframe (material may be added for strength), forks and shock (internal changes only; springs and linkage may be any commercially available part), lower triple clamp, hubs, axles, rim size and brake master cylinders. Not allowed to add: adjustable leak jet, metal or wrap-around hand guards, fork brace, radiator fan. Free to change: pegs, levers, bars and top clamp, sprockets, chain and guard, brake pads and lines, holeshot device, radiators, plastics, seat, graphics.',
+  means:'AMA book: a Limited violation means disqualification from the event plus a 60-day suspension from all AMA racing; a second means a one-year suspension. At the Loretta Lynn qualifiers the referee may instead move an unintentional case to the right class. A Limited bike may also race a non-Limited class.'},
  {id:'ll-machine',topic:'classes',applies:'AMA amateur national program',year:2026,source:LL,who:'amateur',
   rule:'2027-model bikes, cases, cylinders or engine internals are not eligible in 2026. Electric bikes are allowed only in the Mini-E class. Mini classes may use fuel injection only if the production model came with it. Bikes must appear on the 2026 AMA approved-motorcycle list.'},
  // ── Eligibility ──
@@ -92,8 +96,11 @@ export const RACE_RULES:RaceRule[]=[
   rule:'Youth classes, 250 C Jr and Schoolboy 2 use the rider’s age on January 1 for the whole year. Other amateur classes use age on the day of the Area Qualifier; Vet classes use age on the first day of the National (Aug 4 2026). A rider must be 14 on the qualifier day to ride a 250cc in any class. Riders under 18 need a parent present or a notarized consent form; proof of age may be asked for at any time.'},
  {id:'ll-pro-sport',topic:'eligibility',applies:"Loretta Lynn's Pro Sport",year:2026,source:LL,who:'amateur',
   rule:'Riders who made the Final 40 at no more than 3 Pro Motocross rounds this year or last may race only Open Pro Sport, 250 Pro Sport and Women. The top 42 Pro Sport entries at the National can take an AMA Pro Motocross license for that year and the next, if age-eligible.'},
- {id:'ama-2027-age',topic:'eligibility',applies:'AMA amateur motocross',year:2026,source:MEMO,who:'amateur',effective:2027,caution:SECONDARY,
-  rule:'AMA announced that from 2027 the minimum age for Amateur (adult) classes rises from 12 to 14, that the Supermini range is 12–15, and that first-time Limited-class or displacement violations now bring suspensions.'},
+ {id:'ama-ages',topic:'eligibility',applies:'AMA amateur motocross',year:2026,source:AMA26,who:'amateur',core:true,
+  rule:'2026: amateur classes are open from age 12; a rider must be 14 to ride a 201–250cc bike and 16 to ride 251cc or bigger. Age is taken on the race date, except in youth competition. Riders must carry proof of age (birth certificate, licence, passport or state ID). The book’s Upcoming Rules raise the amateur minimum age to 14 from January 1, 2027.',
+  means:'Youth classes have their own age bands; the overall AMA minimum for any competition is 4.'},
+ {id:'ama-classification',topic:'eligibility',applies:'AMA amateur classification (A/B/C)',year:2026,source:AMA26,who:'amateur',
+  rule:'A is the top class, then B, then C. Riders move up by rider performance value (RPV): at the end of each advancement year (Nov 1–Oct 31) a B or C rider with an RPV of 15 or more, from at least six points-paying finishes, moves up from January 1. B riders aged 12–16 are not forced into A by RPV. Racing a higher class anywhere, AMA or not, counts as moving up for good. Women may drop one class when racing outside a Women class. One appeal a year, with a US$50 fee.'},
  // ── Sound ──
  {id:'pro-sound-limits',topic:'sound',applies:'Pro Supercross and Pro Motocross',year:2026,source:`${SX}; ${MX}`,who:'pro',core:true,
   rule:'2-meter max test. 2026 limit: 112 dB/A at pre-race inspection, 113 dB/A post-race. The 2027 books drop it to 109 dB/A pre-race and 110 dB/A post-race. A rider can be sent to the sound test at any time and must go straight there.'},
@@ -106,35 +113,40 @@ export const RACE_RULES:RaceRule[]=[
  {id:'pro-sound-fail',topic:'sound',applies:'Pro Supercross and Pro Motocross',year:2026,source:`${SX}; ${MX}`,who:'pro',core:true,
   rule:'Fail at pre-race: fix it and present the bike again (repeat attempts are allowed). Fail after qualifying: your fastest time is thrown out. Fail after the race: loss of 3 points. Race direction can waive it if the failure was accidental (crash damage) and gave no performance gain. Passed silencers are marked; only one marked spare per bike, the outlet cannot be altered, and a removable quiet insert that falls off during a race counts as a modified silencer.',
   means:'Carry a marked spare and check end caps and packing between motos; a crash-bent or blown-out silencer is the usual way a legal bike fails post-race.'},
- {id:'ama-amateur-sound',topic:'sound',applies:'AMA amateur motocross',year:2023,source:AMA23,who:'amateur',core:true,caution:OLD,
-  rule:'Amateur bikes are checked with a stationary test at a fixed rpm: microphone 20 in from the exhaust outlet at 45°, at pipe height but at least 8 in off the ground, engine warm, transmission in neutral, rider or mechanic on the bike. Clubs must sound test; the lower of the AMA limit and the state limit applies; a bike that fails may be penalized. Silencers are marked after passing and the outlet cannot be altered afterwards. Limited classes listed 96 dB/A for post-2011 two-strokes, 94 dB/A for post-2011 four-strokes, 99 dB/A for pre-2011 bikes.'},
- {id:'ama-sound-postponed',topic:'sound',applies:'AMA amateur motocross',year:2026,source:MEMO,who:'amateur',caution:SECONDARY,
-  rule:'AMA reported that the new sound rules passed in 2025 were postponed by one year.'},
+ {id:'ama-amateur-sound',topic:'sound',applies:'AMA amateur motocross (through 2027)',year:2026,source:AMA26,who:'amateur',core:true,
+  rule:'Limits: pre-race 96 dB/A for two-strokes, 94 dB/A for four-strokes, 101 dB/A for vintage; post-race 98, 96 and 101 dB/A. Test rpm for race bikes: up to 125cc 6,000 rpm, 126–250cc 5,000, 251–500cc 4,500, over 500cc 4,000. If the state limit is lower, the state limit applies. Clubs must test and may test at any time; a bike that fails may be penalized. (The Limited-class section repeats an older table: 96/94 dB/A for post-2011 two/four-strokes and 99 dB/A for pre-2011 bikes.)',
+  means:'At these fixed rpm a stock silencer with fresh packing is the safe bet; aftermarket tips and worn packing are the usual failures.'},
+ {id:'ama-amateur-sound-method',topic:'sound',applies:'AMA amateur 20-inch test',year:2026,source:AMA26,who:'amateur',core:true,
+  rule:'Microphone 20 in from the exhaust outlet at 45° to its centerline, at pipe height but at least 8 in off the ground. Engine warm, transmission in neutral, rider or mechanic on the bike bringing it slowly to the test rpm on a tachometer; meter on A-weighting, slow response. Readings are rounded down, then 1 dB/A is deducted for a type 1 meter or 2 dB/A for a type 2, plus 1 dB/A below 50°F or 2 dB/A below 32°F. Open ground, nothing reflective within 16 ft, background under 90 dB/A, no testing in winds of 20 mph or more, rain or snow.'},
+ {id:'ama-amateur-silencer',topic:'sound',applies:'AMA amateur motocross',year:2026,source:AMA26,who:'amateur',
+  rule:'Present one spare silencer at the first sound check (others later). Passed silencers are marked and may only be swapped for another marked one; the outlet cannot be altered after marking. Quiet inserts must be permanently fixed, for example welded. Silencers must stay tight and working the whole event.'},
+ {id:'ama-sound-2028',topic:'sound',applies:'AMA amateur motocross',year:2026,source:AMA26,who:'amateur',effective:2028,
+  rule:'Announced in the book’s Upcoming Rules: from January 1, 2028 all amateur classes move to the 2-meter max test, with 111.0 dB/A pre-race (a 109 target plus 2 for method precision) and 112.0 dB/A post-race (111 plus 1 for silencer wear), the same for two- and four-strokes. The 20-inch test stays through December 31, 2027.'},
  // ── Fuel ──
  {id:'pro-fuel-spec',topic:'fuel',applies:'Pro Supercross and Pro Motocross',year:2026,source:`${SX}; ${MX}`,who:'pro',core:true,
   rule:'Unleaded petroleum gasoline to the ASTM D4814 standard, plus: specific gravity 0.715–0.765 at 60°F, oxygen no more than 4.0% by mass, lead no more than 0.025 g/l, oxygenates limited to the ethers and alcohols listed in D4814, epoxides such as propylene oxide do not count as ethers, no nitrogen-bearing compounds. Two-stroke oil and other lubricants are fine if the mix still meets the spec.',
   means:'The books set a fuel spec, not a single mandated brand. Use a fuel its maker states meets this AMA spec, and do not add octane boosters or additives that could push it out.'},
  {id:'pro-fuel-test',topic:'fuel',applies:'Pro Supercross and Pro Motocross',year:2026,source:`${SX}; ${MX}`,who:'pro',
   rule:'Fuel may be sampled at any time, straight from the tank, into three sealed samples. One is lab tested; the second confirms a failure (the team may ask for it at its own cost) and the more favourable result stands. A fuel failure is a serious technical violation: after a race it means race disqualification, with more penalties possible. A protest involving a fuel test needs an extra US$1,000 deposit.'},
- {id:'ama-amateur-fuel',topic:'fuel',applies:'AMA amateur motocross',year:2023,source:AMA23,who:'amateur',core:true,caution:OLD,
-  rule:'Petroleum-based gasoline meeting ASTM D4814, kept in approved containers. No separate oxygen or gravity limits were stated for amateurs in the edition read.',
+ {id:'ama-amateur-fuel',topic:'fuel',applies:'AMA amateur motocross',year:2026,source:AMA26,who:'amateur',core:true,
+  rule:'Every gas bike must run petroleum-based gasoline meeting ASTM D4814, stored in approved containers. The amateur book sets no separate oxygen, gravity or spec-fuel limits.',
   means:'Pump gasoline is made to D4814; a race fuel is fine when its maker states it meets the spec. Ask the club if unsure.'},
  // ── Tech ──
- {id:'tech-controls',topic:'tech',applies:'Pro (and AMA amateur equivalents)',year:2026,source:`${SX}; ${MX}; ${AMA23} (2023)`,who:'all',core:true,
-  rule:'Levers need ball ends at least 1/2 in across. A working kill switch or button on the handlebar, reachable without taking your hand off the grip. A self-closing throttle. No cracked or bent-and-broken bars. The amateur book read (2023) has the same lever, kill switch and throttle rules.',
+ {id:'tech-controls',topic:'tech',applies:'Pro and AMA amateur',year:2026,source:`${SX}; ${MX}; ${AMA26}`,who:'all',core:true,
+  rule:'Levers need ball ends at least 1/2 in across. A working kill device on the handlebar, reachable without taking a hand off the grip (amateur rules accept a mechanical one such as a compression release, or an ignition cut-off). A self-closing throttle. No cracked, broken or repaired bars; amateur bars must be steel, aluminium, titanium or AMA-approved. A tether lanyard is required on ATVs and allowed on electric bikes in place of a tilt cut-off, but not required on gas motorcycles.',
   means:'Check the throttle snaps shut with the bars at full lock both ways, and the kill button works, before tech.'},
- {id:'tech-pegs-frame',topic:'tech',applies:'Pro (and AMA amateur equivalents)',year:2026,source:`${SX}; ${MX}; ${AMA23} (2023)`,who:'all',
-  rule:'Footpegs must fold back to 45°, be no longer than 5 in from the pivot, and sit no lower than the bottom frame tube. Kickstands removed. Cracked frames are banned.'},
+ {id:'tech-pegs-frame',topic:'tech',applies:'Pro and AMA amateur',year:2026,source:`${SX}; ${MX}; ${AMA26}`,who:'all',
+  rule:'Footpegs must fold back at 45° (amateur: with at least 50° of movement), be no longer than 5 in from the pivot, and sit no lower than the bottom frame tube. Kickstands removed; kick-start levers must fold. Cracked frames are banned, and amateur bikes cannot use titanium frames or change the frame they qualified on unless the referee rules it unsafe.'},
  {id:'tech-brakes-wheels',topic:'tech',applies:'Pro Supercross and Pro Motocross',year:2026,source:`${SX}; ${MX}`,who:'pro',
   rule:'Working front and rear brakes of the production type (disc stays disc). Carbon, aluminium or titanium brake discs are banned, as are wheels made entirely of carbon. The primary drive must be fully covered.'},
  {id:'tech-exhaust',topic:'tech',applies:'Pro Supercross and Pro Motocross',year:2026,source:`${SX}; ${MX}`,who:'pro',
   rule:'Exhaust bolted to the frame with internal baffling, outlet no farther back than the rear edge of the rear tire and within 5 in of the outside edge of the tire or frame.'},
- {id:'tech-tires',topic:'tech',applies:'Pro and amateur national',year:2026,source:`${SX}; ${MX}; ${LL}`,who:'all',
-  rule:'Pro: no studs (other than rubber), no paddle tires, knobs no taller than 3/4 in. Amateur National: only production tires on sale to the public.'},
- {id:'tech-chain-amateur',topic:'tech',applies:'AMA amateur motocross',year:2023,source:AMA23,who:'amateur',caution:OLD,
-  rule:'The primary drive must be enclosed; a rear chain guard was not required in the edition read.'},
- {id:'tech-transponder',topic:'tech',applies:'Pro, amateur national and local',year:2026,source:`${SX}; ${MX}; ${LL}`,who:'all',core:true,
-  rule:'Pro: transponder mounted vertically on the left fork leg between the triple clamps, powered whenever on track, returned after your last session (late returns are fined). Amateur National: required for Monday practice and every moto. At local races the rider is usually responsible for charging it and keeping it on the bike.'},
+ {id:'tech-tires',topic:'tech',applies:'Pro and AMA amateur',year:2026,source:`${SX}; ${MX}; ${AMA26}; ${LL}`,who:'all',
+  rule:'Pro: no studs (other than rubber), no paddle tires, knobs no taller than 3/4 in. AMA amateur: no recaps or retreads, nothing added to the tread, no paddles, no liquid as the main filler, and tires must be commercially available (the Amateur National says production tires on sale to the public).'},
+ {id:'tech-amateur-equipment',topic:'tech',applies:'AMA amateur motocross',year:2026,source:AMA26,who:'amateur',
+  rule:'A guard must fully enclose the primary drive (the countershaft sprocket does not count as primary drive); a rear chain guard is not required. Working front and rear brakes; rim-friction brakes and aluminium axles are banned. If fork tubes stick up more than 1 in above the lowest part of the bars, they need a cover. Fuel tank no bigger than 24 litres, no seat tanks, no carbon tank unless homologated, vent lines with a device that stops fuel escaping, no leaks. Rear fender must reach at least the rear axle line. Exhaust secure to the frame, muffler fitted, outlet not past the rear tire. No mirrors, glass lights, license plates or brackets that could hurt someone; no streamlining.'},
+ {id:'tech-transponder',topic:'tech',applies:'Pro, AMA amateur and local',year:2026,source:`${SX}; ${MX}; ${AMA26}; ${LL}`,who:'all',core:true,
+  rule:'Pro: transponder mounted vertically on the left fork leg between the triple clamps, powered whenever on track, returned after your last session (late returns are fined). AMA amateur: the rider must make sure staging has checked the transponder; going out with a dead one in timed practice means last gate pick. Amateur National: required for Monday practice and every moto. At local races the rider usually charges it and keeps it on the bike.'},
  {id:'tech-process-pro',topic:'tech',applies:'Pro Supercross and Pro Motocross',year:2026,source:`${SX}; ${MX}`,who:'pro',
   rule:'Up to two bikes per rider, same make and model, each with its frame number recorded; each must pass tech and the sound test before it is used. Passing tech does not certify the bike legal; it can be rechecked any time, and the top three go to impound. Officials can confiscate illegal parts.'},
  {id:'tech-process-amateur',topic:'tech',applies:"Loretta Lynn's program",year:2026,source:LL,who:'amateur',
@@ -146,8 +158,9 @@ export const RACE_RULES:RaceRule[]=[
   rule:'Supercross: front and side numbers at least 5.5 in tall. Pro Motocross: front at least 6 in, sides at least 5.5 in. About 1/2 in of space around numbers, solid colour with no outline, no squashed or stretched digits. Front plate flat and rigid, with the series header (at least 1 × 8 in). Jersey number on the back at least 8 in tall, last name at the shoulders.'},
  {id:'plates-ll',topic:'plates',applies:"Loretta Lynn's program",year:2026,source:LL,who:'amateur',core:true,
   rule:'Pro Sport: white plate, black numbers. Women: blue (Process Blue) plate, white numbers. B classes: yellow, black numbers. C classes: black, white numbers. All other classes: white, black numbers.'},
- {id:'plates-ama',topic:'plates',applies:'AMA amateur motocross',year:2023,source:AMA23,who:'amateur',caution:OLD,
-  rule:'Three plates, securely mounted. Numbers at least 5 in tall, plain block style, no shading or outline. Only the number on the plate, except the top 2 in of the front plate for a sponsor or name. Mini plates no smaller than stock. Recommended colours: A white/black, B yellow/black, C black/white. Rider and bike numbers must match.'},
+ {id:'plates-ama',topic:'plates',applies:'AMA amateur motocross',year:2026,source:AMA26,who:'amateur',core:true,
+  rule:'Three plates, securely mounted, OEM-style material. Numbers at least 5 in tall, plain block style, no shading or outline. Only the number on the plate, except the top 2 in of the front plate for a sponsor or name. Mini plates no smaller than stock. Recommended colours: A white with black numbers, B yellow with black, C black with white. Rider and bike numbers must match; an 8 in number on the back of the jersey or chest protector is recommended.',
+  means:'Colours are a recommendation in the AMA book; the series (for example the Loretta Lynn program) can make them mandatory.'},
  // ── Gear ──
  {id:'gear-helmet-pro',topic:'gear',applies:'Pro Supercross and Pro Motocross',year:2026,source:`${SX}; ${MX}`,who:'pro',core:true,
   rule:'Full-face helmet with its certification label attached: Snell M2015, M2020D or M2020R; ECE 22.05 or 22.06; or JIS T 8133:2015 Type 2 full face. It must carry the Eject helmet removal system. No helmet cameras or accessories.'},
@@ -155,11 +168,11 @@ export const RACE_RULES:RaceRule[]=[
   rule:'Long-sleeve jersey worn to the wrist, full-length pants, MX boots at least 8 in high (no work boots), gloves at the start of every session, shatter-resistant goggles at the start of each race, no music players. Chest and back protection becomes mandatory with the 2027 books, under or over the jersey. A neck brace is optional; if worn over the jersey your name and number must still show.'},
  {id:'gear-smx-next',topic:'gear',applies:'SMX Next',year:2026,source:NEXT,who:'amateur',
   rule:'Approved chest and back protection is mandatory, under or over the jersey, covering the sternum, front and back ribs and the spine from T1 to T12.'},
- {id:'gear-ama-chest',topic:'gear',applies:'AMA amateur motocross',year:2026,source:MEMO,who:'amateur',core:true,caution:SECONDARY,
-  rule:'For 2026 AMA made chest and back protection required for all motocross riders (the 2023 book required it only in Youth classes and recommended it for everyone else).',
-  means:'Coverage the AMA has described: sternum, front and back ribs, spine T1–T12. Whether a roost deflector alone qualifies was not stated in what was read; ask the club.'},
- {id:'gear-ama-helmet',topic:'gear',applies:'AMA amateur motocross',year:2023,source:AMA23,who:'amateur',core:true,caution:OLD,
-  rule:'Full-face helmet for practice and racing, unmodified, fitted and fastened: Snell M2015/M2020 or DOT FMVSS 218, ECE 22.05/22.06, JIS T 8133:2015, or FIM-approved. Boots at least 8 in high, shatterproof goggles or shield. Gloves, neck brace and knee braces recommended. AMA said in 2026 its helmet standards were updated, so check the current list.'},
+ {id:'gear-ama-chest',topic:'gear',applies:'AMA amateur motocross',year:2026,source:AMA26,who:'amateur',core:true,
+  rule:'Chest and back protection is mandatory for every competitor, under or over the jersey, and should cover the sternum, front and back ribs and the spine from T1 to T12.',
+  means:'Whether a roost deflector alone counts is not stated; look for a protector that clearly covers that area, or ask the club.'},
+ {id:'gear-ama-helmet',topic:'gear',applies:'AMA amateur motocross',year:2026,source:AMA26,who:'amateur',core:true,
+  rule:'Full-face helmet for all practice and racing, intact and unmodified (no cameras or accessories), chin-strap retention, good fit, fastened, with its label: Snell M2020/M2025, M2020R/M2025R, M2020D/M2025D or DOT FMVSS 218; ECE 22.05/22.06 (P); JIS T 8133:2015; or FIM FRHPhe-01/02. Also required: long-sleeve jersey, durable full-length pants, boots at least 8 in high, shatterproof goggles or shield. Recommended: gloves, neck brace, knee braces, an emergency helmet-removal device, and name, allergies and blood type on the helmet base.'},
  // ── Qualifying ──
  {id:'ll-path',topic:'qualifying',applies:"Loretta Lynn's qualifying",year:2026,source:`${LLQ}; ${LL}`,who:'amateur',core:true,
   rule:'Two steps: Area Qualifier (two motos) to Regional Championship (three motos; two at combined regionals), then the National at Loretta Lynn’s. The US is split into eight regions. Ride as many qualifiers in as many regions as you like, but you must attend the regional for the region you qualified in. Up to 4 classes a day at qualifiers and regionals, 2 at the National.'},
@@ -176,6 +189,8 @@ export const RACE_RULES:RaceRule[]=[
  {id:'ax-series',topic:'arenacross',applies:'AMA Arenacross 2026–27',year:2026,source:AXR,who:'all',core:true,caution:SECONDARY,
   rule:'AMA backs three arenacross series for 2026–27: Partzilla Arenacross is the AMA Arenacross National Championship with East and West regions, GT Arenacross is the Midwest regional and Throttlecross the Rocky Mountain regional. The top 5 amateurs in each of the East, West and Midwest regions advance to the AMA Arenacross Amateur Championship finale at Lincoln Trail (Casey, Illinois).',
   means:'Class, sound and gear details are in the AMA Arenacross supplemental rules, which BAK has not read; check them and the series site.'},
+ {id:'ax-definition',topic:'arenacross',applies:'AMA arenacross',year:2026,source:AMA26,who:'all',
+  rule:'The AMA book defines arenacross as racing in an arena or other confined area on a built track, run as heats and finals. Its equipment and class rules are the motocross ones unless the series supplemental rules say otherwise; arenacross-specific rules are in those supplementals.'},
  // ── Florida / local ──
  {id:'local-gatorback',topic:'local',applies:'Unlimited Sports events at Gatorback (Florida)',year:2025,source:FL,who:'amateur',core:true,
   rule:'All AMA rules and supplemental rules apply. Local penalties at that 2025 event: yellow flag jump or pass 2 positions plus riders passed, red cross 4 positions plus riders passed, cutting the course 1 plus riders passed, gate jump 1 lap. A red flag past 60% of the race ends it, earlier means a restart. Numbers as registered, no slashes, black on white or white on black. Riders on 51cc, Mini-E or 65 bikes go to staging with an adult.',
@@ -184,11 +199,10 @@ export const RACE_RULES:RaceRule[]=[
 
 /** What was looked for and not found, so BAK says it does not know instead of guessing. */
 export const raceRuleUnknowns:RaceRuleUnknown[]=[
- {topic:'sound',year:2026,what:'The 2026 AMA amateur sound limit and its fixed test rpm; the 2023 book’s amateur limit table was not readable and the 2026 amateur book was not read.'},
  {topic:'sound',year:2026,what:'The exact penalty a local club gives for a failed amateur sound test; it is set by the club or series.'},
  {topic:'fuel',year:2026,what:'Whether any amateur series in Florida names a spec fuel; none found.'},
- {topic:'tech',year:2026,what:'Rules on bar-end caps, bar pads, countershaft sprocket guards and kill-switch lanyards for motorcycles: none found in the books read (the 2023 amateur book required a tether kill switch only on ATVs).'},
- {topic:'gear',year:2026,what:'The exact 2026 AMA amateur helmet standards list and whether a roost deflector meets the chest and back rule.'},
+ {topic:'tech',year:2026,what:'Bar-end caps, bar pads and countershaft sprocket guards: not addressed in the 2026 AMA or pro books read (the amateur chain-guard rule excludes the countershaft sprocket).'},
+ {topic:'gear',year:2026,what:'Whether a roost deflector alone meets the AMA chest and back rule.'},
  {topic:'arenacross',year:2026,what:'AMA Arenacross supplemental rules (classes, sound, gear): not read.'},
  {topic:'local',year:2026,what:'TriStar and Mid-South arenacross rules and the Florida Winter AM series rules: no published rulebook found.'},
  {topic:'eligibility',year:2026,what:'Age limits for 250SX beyond the license minimum: none published beyond licensing and championship-years rules.'},
