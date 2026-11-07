@@ -1,0 +1,473 @@
+{
+ "slice": "parts fitment and interchange, Honda CRF250R / CRF450R 2020-2025 (OEM part numbers)",
+ "platform": {
+  "make": "Honda",
+  "models": [
+   "CRF450R",
+   "CRF250R"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ]
+ },
+ "conflicts": [],
+ "not_found": [
+  {
+   "item": "Honda CRF250R / CRF450R 2026-2027 part numbers",
+   "searched": "Sun City Motorcycles Honda fiche (Australian catalogue)",
+   "result": "2026-2027 not listed at time of check"
+  }
+ ],
+ "sources": [
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2024/crf450r/air-cleaner",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2024/crf450r/exhaust-muffler",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2024/crf450r/frame-body",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2024/crf450r/front-fork",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2024/crf450r/handle-pipe-top-bridge",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2024/crf450r/seat-side-cover",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2024/crf450r/step-stand",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2024/crf450r/swingarm",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2024/crf450r/wire-harness",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2025/crf250r/rear-wheel",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2025/crf450r/front-wheel",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2025/crf450r/rear-wheel"
+ ],
+ "records": [
+  {
+   "id": "fith-001",
+   "domain": "chassis",
+   "topic": "chassis generations (frame part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Honda chassis families in 2020-2025: CRF450R 2020 (old frame), CRF450R 2021-2024 (frame 50010-MKE-AF0 in 2021-2022, revised 50010-MKE-AS0 in 2023-2024), CRF250R 2020-2021 (old frame), CRF250R 2022-2024 (the CRF450R-style frame 50010-MKE-AF0), and the 2025 CRF250R and CRF450R sharing a new frame 50010-K95-AG0. Parts listed with the same number cross freely inside a family; across families check each part.",
+   "values": {
+    "crf450r_2020": "50010-MKE-AA0",
+    "crf450r_2021_2022": "50010-MKE-AF0",
+    "crf450r_2023_2024": "50010-MKE-AS0",
+    "crf250r_2020_2021": "50010-K95-A60",
+    "crf250r_2022_2024": "50010-MKE-AF0",
+    "both_2025": "50010-K95-AG0"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (Honda Australia parts catalogue, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2024/crf450r/frame-body",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Honda says the 2025 frame has about 70% new parts with relocated subframe mounts, new triple clamps, fork tubes, front axle and one-piece linkage. Part numbers are from the Australian Honda parts catalogue (same CRF-R chassis parts as other markets in the years compared, but confirm against a US fiche if your bike is a US model). 2026-2027 were not in the catalogue checked."
+  },
+  {
+   "id": "fith-002",
+   "domain": "chassis",
+   "topic": "front wheel interchange",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "The front wheel crosses every year: CRF250R and CRF450R share front wheel 44650-MKE-AF0 (450 from 2021, 250 from 2022 through 2025; 2020 bikes list 44650-MKE-A70), and all years use the same front hub 44635-MKE-A60, the same front wheel collars (44311-MKE-A60, 44312-KRN-A30) and the same distance collar. Catch: the 2025 bikes use a new front axle (44301-K95-AG0, 2020-2024 is 44301-MEN-000), new fork tubes and a new front disc and caliper, so a wheel moved between 2025 and earlier bikes must use the axle and disc of the bike it goes on.",
+   "values": {
+    "front_wheel": "44650-MKE-AF0",
+    "front_hub": "44635-MKE-A60 (2020-2025)",
+    "axle": "44301-MEN-000 (2020-2024), 44301-K95-AG0 (2025)",
+    "front_disc": "45351-KRN-A90 (2020-2024), 45351-K95-AG1 (2025)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (Honda Australia parts catalogue, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2025/crf450r/front-wheel",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Part numbers are from the Australian Honda parts catalogue (same CRF-R chassis parts as other markets in the years compared, but confirm against a US fiche if your bike is a US model). 2026-2027 were not in the catalogue checked."
+  },
+  {
+   "id": "fith-003",
+   "domain": "chassis",
+   "topic": "rear wheel interchange",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Rear wheels swap across 2020-2025 CRF250R and CRF450R: the rear axle (42301-KRN-A30), axle collars and final-drive sprocket mount are the same every year, and both models use rear hub 42635-MKE-AF0 from 2022 (450 from 2021). Catch: the CRF450R rear wheel (42650-MKE-AF0) has a 19x2.15 rim and the CRF250R wheel (42650-K95-AA0) a 19x1.85 rim, so a 250 wheel on a 450 runs a narrower rim (and the reverse). The 2025 bikes keep the same rear wheel but use a new rear disc (43351-K95-AG1; 2020-2024 is 43351-KRN-A90). The rear caliper (43150-MKE-A01) is the same 2020-2025.",
+   "values": {
+    "rear_wheel_450": "42650-MKE-AF0 (2021-2025)",
+    "rear_wheel_250": "42650-K95-AA0 (2022-2025)",
+    "rear_axle": "42301-KRN-A30 (2020-2025)",
+    "rear_disc": "43351-KRN-A90 (2020-2024), 43351-K95-AG1 (2025)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (Honda Australia parts catalogue, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2025/crf250r/rear-wheel",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Part numbers are from the Australian Honda parts catalogue (same CRF-R chassis parts as other markets in the years compared, but confirm against a US fiche if your bike is a US model). 2026-2027 were not in the catalogue checked."
+  },
+  {
+   "id": "fith-004",
+   "domain": "drivetrain",
+   "topic": "sprocket and chain",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Rear sprockets bolt onto every 2020-2025 CRF250R and CRF450R: the drive-sprocket part 41201-MKE-A70 and the 48/50/51-tooth driven sprockets (41202-MKE-A00, 41203-MKE-A00, 41204-MKE-A10) are listed across models and years. Both use a 520 chain; Honda lists a 120-link DID 520 DMS chain for the CRF250R (40540-K95-A41) and its own number for the CRF450R (40540-MKE-AF1, 2021-2025). Tooth count sets gearing; fit the chain length to your sprocket choice.",
+   "values": {
+    "chain_size": "520",
+    "chain_250": "40540-K95-A41 (DID520DMS-120RB)",
+    "chain_450": "40540-MKE-AF1",
+    "sprockets": "41202-MKE-A00 48T, 41203-MKE-A00 50T, 41204-MKE-A10 51T"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (Honda Australia parts catalogue, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2025/crf450r/rear-wheel",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Part numbers are from the Australian Honda parts catalogue (same CRF-R chassis parts as other markets in the years compared, but confirm against a US fiche if your bike is a US model). 2026-2027 were not in the catalogue checked."
+  },
+  {
+   "id": "fith-005",
+   "domain": "suspension",
+   "topic": "fork and shock swap (whole units)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Complete forks and shocks carry different numbers almost every year because the valving changes (for example CRF450R right fork 51400-MKE-AF2 in 2022, 51400-MKE-AS1 in 2023-2024, 51400-MKE-BD1 in 2025), but inside one chassis family they bolt in: same steering stem and top bridge family, same shock mounts and linkage. Across families they do not: the 2025 bikes have new fork tubes, triple clamps (top bridge 53300-K95-AG0, stem 53219-K95-AG0) and a one-piece linkage (cushion arm 52465-K95-AG0). A 2021-2024 fork or shock in a 2025 frame, or the reverse, is not a listed fit. Expect different valving and springs when swapping across years.",
+   "values": {
+    "fork_450": "51400/51500-MKE-AF1/AF2 (2021-2022), -MKE-AS1 (2023-2024), -MKE-BD1 (2025)",
+    "fork_250": "51400/51500-K95-AA1 (2022-2024), -K95-AG1 (2025)",
+    "shock_450": "52400-MKE-AF2 (2021-2022), -MKE-AS1 (2023-2024), -MKE-DD1 (2025)",
+    "shock_250": "52400-K95-AA1 (2022-2024), -K95-DG1 (2025)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (Honda Australia parts catalogue, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2024/crf450r/front-fork",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Fit inside a family is inferred from identical clamps, stem, linkage and swingarm part numbers, not from a Honda statement that each fork fits each year. Part numbers are from the Australian Honda parts catalogue (same CRF-R chassis parts as other markets in the years compared, but confirm against a US fiche if your bike is a US model). 2026-2027 were not in the catalogue checked."
+  },
+  {
+   "id": "fith-006",
+   "domain": "chassis",
+   "topic": "triple clamps and handlebar mounts",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Top triple clamp (fork top bridge): 53300-MKE-A70 on 2020 bikes, 53300-MKE-AF0 on the 2021-2022 CRF450R and 2022 CRF250R, 53300-K95-AC0 on both 2023-2024 bikes, and 53300-K95-AG0 in 2025. The steering stem (lower clamp) is 53219-MKE-AF0 from 2021 (450) / 2022 (250) to 2024 and 53219-K95-AG0 in 2025. The handlebar (53100-MKE-A70) and bar holders are the same 2020-2025. So 2021-2024 clamps swap within that range (top clamp changed for 2023, check the rubber-mounted holder), but 2025 clamps go only with 2025 forks.",
+   "values": {
+    "top_bridge": "53300-MKE-A70 (2020), -MKE-AF0 (2021-2022), -K95-AC0 (2023-2024), -K95-AG0 (2025)",
+    "stem": "53219-MKE-AF0 (2021-2024), -K95-AG0 (2025)",
+    "handlebar": "53100-MKE-A70 (2020-2025)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (Honda Australia parts catalogue, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2024/crf450r/handle-pipe-top-bridge",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Honda gives no reason for the 2023 top-bridge number change; treat a 2021-2022 to 2023-2024 swap as likely but unconfirmed. Part numbers are from the Australian Honda parts catalogue (same CRF-R chassis parts as other markets in the years compared, but confirm against a US fiche if your bike is a US model). 2026-2027 were not in the catalogue checked."
+  },
+  {
+   "id": "fith-007",
+   "domain": "chassis",
+   "topic": "plastics, seat and subframe",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "CRF250R and CRF450R share bodywork inside a family: front fender 61110-MKE-AF0ZA, side covers 83510/83610-MKE-AF0ZB, rear fender 80101-MKE-AF0ZB, seat 77100-MKE-AF1ZA (2021-2022) then 77100-K95-AC2ZA (2023-2025), and subframe 50200-MKE-AF0, on the 2021-2024 CRF450R and 2022-2024 CRF250R. 2020 bikes (and the 2021 CRF250R) use older numbers and do not swap with 2021-on bodywork. 2025 bikes have a new subframe (50200-K95-AG0), new side covers (K95-AG0), new front fender (61200-K95-AG0ZA) and new shrouds, but keep the rear fender 80101-MKE-AF0ZB and the 2023-on seat 77100-K95-AC2ZA. Shroud sets differ between 250 and 450 in their graphics numbers.",
+   "values": {
+    "front_fender": "61110-MKE-AF0ZA (450 2021-2024, 250 2022-2024), 61200-K95-AG0ZA (2025)",
+    "side_covers": "83510/83610-MKE-AF0ZB, then K95-AG0ZA (2025)",
+    "rear_fender": "80101-MKE-AF0ZB (450 2021-2025, 250 2022-2025)",
+    "seat": "77100-MKE-AF1ZA (2021-2022), 77100-K95-AC2ZA (2023-2025)",
+    "subframe": "50200-MKE-AF0 (2021-2024), 50200-K95-AG0 (2025)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (Honda Australia parts catalogue, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2024/crf450r/seat-side-cover",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "The 2022 CRF250R left side cover is listed as 83610-K95-DA0ZA (its own part, for the single-exhaust layout). Part numbers are from the Australian Honda parts catalogue (same CRF-R chassis parts as other markets in the years compared, but confirm against a US fiche if your bike is a US model). 2026-2027 were not in the catalogue checked."
+  },
+  {
+   "id": "fith-008",
+   "domain": "suspension",
+   "topic": "swingarm and linkage",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Swingarm 52200-MKE-AF0 is used on the 2021-2024 CRF450R and 2022-2024 CRF250R, with the same cushion arm (52465-MKE-AF0) and connecting rods (52475-MKE-AF0). 2020 bikes (and the 2021 CRF250R) use 52200-MKE-AA0 and older linkage. 2025 bikes have a new swingarm 52200-K95-AG0 and a one-piece linkage (52465-K95-AG0), so linkage parts do not cross into 2025.",
+   "values": {
+    "swingarm": "52200-MKE-AA0 (2020), 52200-MKE-AF0 (2021-2024), 52200-K95-AG0 (2025)",
+    "cushion_arm": "52465-MKE-AF0 (2021-2024), 52465-K95-AG0 (2025)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (Honda Australia parts catalogue, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2024/crf450r/swingarm",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Part numbers are from the Australian Honda parts catalogue (same CRF-R chassis parts as other markets in the years compared, but confirm against a US fiche if your bike is a US model). 2026-2027 were not in the catalogue checked."
+  },
+  {
+   "id": "fith-009",
+   "domain": "engine_mods",
+   "topic": "exhaust (header and muffler)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Exhausts are model- and year-specific. CRF450R: header 18320-MKE-AF0 and muffler 18300-MKE-DF0 (2021-2022), header 18320-MKE-AS0 and muffler 18300-MKE-AS0 (2023-2024), new header 18320-MKE-BD0 and muffler 18300-MKE-DD0 (2025). CRF250R: dual mufflers on 2020-2021, single header 18320-K95-AA0 with muffler 18300-K95-DA0 on 2022-2024, new parts in 2025. A 250 pipe does not fit a 450 and 2020-2021 CRF250R twin-muffler parts do not fit 2022-on.",
+   "values": {
+    "450_2021_2022": "18320-MKE-AF0 / 18300-MKE-DF0",
+    "450_2023_2024": "18320-MKE-AS0 / 18300-MKE-AS0",
+    "450_2025": "18320-MKE-BD0 / 18300-MKE-DD0",
+    "250_2022_2024": "18320-K95-AA0 / 18300-K95-DA0",
+    "250_2025": "18320-K95-AG0 / 18300-K95-DG0"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (Honda Australia parts catalogue, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2024/crf450r/exhaust-muffler",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "The 2023-2024 450 header and muffler changed with the 2023 engine update (smaller throttle body, new cam). Aftermarket systems are sold per year range for the same reason. Part numbers are from the Australian Honda parts catalogue (same CRF-R chassis parts as other markets in the years compared, but confirm against a US fiche if your bike is a US model). 2026-2027 were not in the catalogue checked."
+  },
+  {
+   "id": "fith-010",
+   "domain": "maintenance",
+   "topic": "air filter and radiators",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Air filter element 17213-MKE-AF0 fits the 2021-2024 CRF450R and 2022-2024 CRF250R; 2020 bikes (and the 2021 CRF250R) use older elements and 2025 bikes use 17213-K95-AG0. Radiators are model-specific: CRF450R 19100/19150-MKE-AF0 for 2021-2024, CRF250R 19100/19150-K95-AA0 for 2022-2024, new right radiator on both in 2025. Do not mix 250 and 450 radiators.",
+   "values": {
+    "air_filter": "17213-MKE-AF0 (450 2021-2024, 250 2022-2024), 17213-K95-AG0 (2025)",
+    "radiators_450": "19100/19150-MKE-AF0 (2021-2024)",
+    "radiators_250": "19100/19150-K95-AA0 (2022-2024)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (Honda Australia parts catalogue, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2024/crf450r/air-cleaner",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Part numbers are from the Australian Honda parts catalogue (same CRF-R chassis parts as other markets in the years compared, but confirm against a US fiche if your bike is a US model). 2026-2027 were not in the catalogue checked."
+  },
+  {
+   "id": "fith-011",
+   "domain": "chassis",
+   "topic": "footpegs, pedals, levers and master cylinders",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "These carry over 2020-2025 on both CRF250R and CRF450R: footpeg arms 50660/50670-MKE-A70 and brackets 50610-MEN-B10, rear brake pedal 46510-MKE-A70, shift lever 24700-MKE-A00, front master cylinder 45510-KRN-A91 (Nissin). So pegs, pedals and front master cylinder swap across all these years. The 2025 front caliper (45150-K95-AG1) differs from 2020-2024 (45150-MKE-A71).",
+   "values": {
+    "footpeg_arms": "50660/50670-MKE-A70",
+    "brake_pedal": "46510-MKE-A70",
+    "shift_lever": "24700-MKE-A00",
+    "front_master": "45510-KRN-A91",
+    "front_caliper": "45150-MKE-A71 (2020-2024), 45150-K95-AG1 (2025)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (Honda Australia parts catalogue, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2024/crf450r/step-stand",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Part numbers are from the Australian Honda parts catalogue (same CRF-R chassis parts as other markets in the years compared, but confirm against a US fiche if your bike is a US model). 2026-2027 were not in the catalogue checked."
+  },
+  {
+   "id": "fith-012",
+   "domain": "ecu_electronics",
+   "topic": "ECU: different, do not swap",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF450R",
+     "CRF250R"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Honda lists a different engine control unit (PGM-FI/ignition unit, 38770) for nearly every model year and for 250 versus 450, for example CRF450R 38770-MKE-DF2 (2021-2022), -MKE-DS1 (2023), -MKE-E01 (2024), -MKE-DD1 (2025) and CRF250R 38770-K95-DA1 (2022-2023), -K95-DE1 (2024), -K95-DG1 (2025). Do not fit an ECU from another year or model: the maps match that year's engine, intake and exhaust.",
+   "values": {
+    "crf450r": "38770-MKE-DA1 (2020), -MKE-DF2 (2021-2022), -MKE-DS1 (2023), -MKE-E01 (2024), -MKE-DD1 (2025)",
+    "crf250r": "38770-K95-D61 (2020-2021), -K95-DA1 (2022-2023), -K95-DE1 (2024), -K95-DG1 (2025)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (Honda Australia parts catalogue, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2024/crf450r/wire-harness",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Part numbers are from the Australian Honda parts catalogue (same CRF-R chassis parts as other markets in the years compared, but confirm against a US fiche if your bike is a US model). 2026-2027 were not in the catalogue checked."
+  }
+ ]
+}

@@ -1,0 +1,331 @@
+{
+ "slice": "parts fitment and interchange, Kawasaki KX250 / KX450 2020-2025 (OEM part numbers)",
+ "platform": {
+  "make": "Kawasaki",
+  "models": [
+   "KX450",
+   "KX250"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "conflicts": [],
+ "not_found": [
+  {
+   "item": "KX250 2025-2026 and KX450 2026 part numbers",
+   "searched": "Sun City Motorcycles Kawasaki fiche",
+   "result": "not listed at time of check"
+  }
+ ],
+ "sources": [
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/kawasaki/2021/kx450/36-rear-hub",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/kawasaki/2023/kx450/31-footrests",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/kawasaki/2023/kx450/32-fenders",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/kawasaki/2023/kx450/35-front-hub",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/kawasaki/2023/kx450/36-rear-hub",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/kawasaki/2023/kx450/5-muffler-s",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/kawasaki/2024/kx450-50th-anniversary-edition/27-frame",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/kawasaki/2024/kx450-50th-anniversary-edition/30-suspension"
+ ],
+ "records": [
+  {
+   "id": "fitw-001",
+   "domain": "chassis",
+   "topic": "chassis families (frame part numbers)",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450",
+     "KX250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Kawasaki chassis families: KX450 2020-2023 (main frame 32160-0973, rear frame 32160-0976), KX450 2024-on (new main frame 32160-2088, rear frame 32160-1998), KX250 2020 (its own frame), and KX250 2021-2024 (own main frame 32160-1922/1933 but the same rear frame 32160-0976 as the 2020-2023 KX450). Kawasaki moved the 2025 KX250 to the 2024 KX450-style frame. Swap freely only inside a family unless the part number below is shared.",
+   "values": {
+    "kx450_2020_2023": "main 32160-0973, rear 32160-0976",
+    "kx450_2024_on": "main 32160-2088, rear 32160-1998",
+    "kx250_2021_2024": "main 32160-1922/1933, rear 32160-0976"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (Kawasaki Australia parts catalogue, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/kawasaki/2024/kx450-50th-anniversary-edition/27-frame",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "2025 KX250 frame change from Kawasaki USA 2026 KX press release (content2.kawasaki.com, 2025). Part numbers from the Australian Kawasaki catalogue (2024 KX450 checked on the 50th Anniversary Edition page). Not checked: KX250 2025-2026 and KX450 2026, which were not in the catalogue; Kawasaki says the 2025 KX250 moved to the 2024 KX450-style frame, so expect KX250 2025-on parts to follow the KX450 2024-on numbers, unconfirmed."
+  },
+  {
+   "id": "fitw-002",
+   "domain": "chassis",
+   "topic": "front wheel interchange",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450",
+     "KX250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Front wheels swap between the KX450 2020-2025 and KX250 2021-2024: same front hub (41034-0594), same 22 mm front axle (41068-0633) and collars. Catch 1: the 2020 KX250 uses a 20 mm front axle (41068-0590) and its own hub, so its wheel does not swap with the others without changing hub and axle. Catch 2: the 2024-on KX450 has a new front brake (disc 41080-0771, 270 mm; 2020-2023 is 41080-0692 Wave), so keep the disc that matches your caliper.",
+   "values": {
+    "front_hub": "41034-0594 (KX450 2020-2025, KX250 2021-2024)",
+    "front_axle": "41068-0633 22 mm (KX250 2020: 41068-0590 20 mm)",
+    "front_disc": "41080-0692 (KX450 2020-2023, KX250 2020-2024), 41080-0771 (KX450 2024-on)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (Kawasaki Australia parts catalogue, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/kawasaki/2023/kx450/35-front-hub",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Part numbers from the Australian Kawasaki catalogue (2024 KX450 checked on the 50th Anniversary Edition page). Not checked: KX250 2025-2026 and KX450 2026, which were not in the catalogue; Kawasaki says the 2025 KX250 moved to the 2024 KX450-style frame, so expect KX250 2025-on parts to follow the KX450 2024-on numbers, unconfirmed."
+  },
+  {
+   "id": "fitw-003",
+   "domain": "chassis",
+   "topic": "rear wheel interchange",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450",
+     "KX250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Rear wheels swap between the KX450 2020-2023 and KX250 2021-2024 (same rear hub 41034-0597, same rear axle 41068-0597). The 2024-on KX450 lists a new rear hub (41034-0617) with the same rear axle, and a 240 mm rear disc (41080-0772); the 2020-2023 KX450 has a 250 mm Wave disc (41080-0693) and the KX250 a 240 mm disc (41080-0618). So a KX450 2024-on rear wheel and an older one are not listed as the same part; check the disc size before swapping. Rear sprockets (42041 family) and the DID 520 DMA4 114-link chain (92057-0740) are the same on every KX250 and KX450 2020-2025.",
+   "values": {
+    "rear_hub": "41034-0597 (KX450 2020-2023, KX250 2021-2024), 41034-0617 (KX450 2024-on)",
+    "rear_axle": "41068-0597 (all)",
+    "rear_disc": "41080-0693 250 mm (KX450 2020-2023), 41080-0618 240 mm (KX250), 41080-0772 240 mm (KX450 2024-on)",
+    "chain": "92057-0740 DID520DMA4 114L (all)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (Kawasaki Australia parts catalogue, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/kawasaki/2023/kx450/36-rear-hub",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Part numbers from the Australian Kawasaki catalogue (2024 KX450 checked on the 50th Anniversary Edition page). Not checked: KX250 2025-2026 and KX450 2026, which were not in the catalogue; Kawasaki says the 2025 KX250 moved to the 2024 KX450-style frame, so expect KX250 2025-on parts to follow the KX450 2024-on numbers, unconfirmed."
+  },
+  {
+   "id": "fitw-004",
+   "domain": "drivetrain",
+   "topic": "sprocket and chain",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450",
+     "KX250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Every KX250 and KX450 2020-2025 lists the same 520 chain (DID 520 DMA4, 114 links, 92057-0740) and the same rear-sprocket range (42041 steel and aluminium sprockets, 49T to 52T) on the same hub bolt pattern. Sprockets and chains swap across all these bikes; only tooth count changes gearing.",
+   "values": {
+    "chain": "92057-0740",
+    "rear_sprockets": "42041-1384 49T, 42041-1408 50T, 42041-1428 51T, aluminium 42041-1449/0167/1451"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (Kawasaki Australia parts catalogue, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/kawasaki/2021/kx450/36-rear-hub",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Part numbers from the Australian Kawasaki catalogue (2024 KX450 checked on the 50th Anniversary Edition page). Not checked: KX250 2025-2026 and KX450 2026, which were not in the catalogue; Kawasaki says the 2025 KX250 moved to the 2024 KX450-style frame, so expect KX250 2025-on parts to follow the KX450 2024-on numbers, unconfirmed."
+  },
+  {
+   "id": "fitw-005",
+   "domain": "suspension",
+   "topic": "forks, shock, triple clamps and linkage",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450",
+     "KX250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "KX450 triple clamps (lower 44037-0181, upper 44039-0161) are listed 2020-2025, but the KX450 fork changed for 2024 (outer tube 44008-0115, was 44008-0086) as did the shock (45014-0802, was 45014-0612) and linkage (arm 39007-0510 and tie rod 39111-0403, was 39007-0411 / 39111-0357). The KX250 2021-2024 has its own clamps (44037-0196 / 44039-0109) and fork (outer 44008-0051), but shares the 2020-2023 KX450 linkage arm and tie rod and the swingarm 33001-0713, which the KX450 kept through 2025. So: KX450 2020-2023 and KX250 2021-2024 share swingarm and linkage; a 2024-on KX450 shock needs its own linkage; 250 and 450 forks go with their own clamps.",
+   "values": {
+    "kx450_clamps": "44037-0181 / 44039-0161 (2020-2025)",
+    "kx250_clamps": "44037-0196 / 44039-0109 (2021-2024)",
+    "swingarm": "33001-0713 (KX450 2020-2025, KX250 2021-2024)",
+    "linkage_old": "39007-0411 / 39111-0357",
+    "linkage_kx450_2024": "39007-0510 / 39111-0403",
+    "shock_kx450": "45014-0612 (2020-2023), 45014-0802 (2024-on)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (Kawasaki Australia parts catalogue, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/kawasaki/2024/kx450-50th-anniversary-edition/30-suspension",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "The 2024 KX450 page also lists alternative clamp numbers 44037-0223 / 44039-0218 (Anniversary Edition finish). Part numbers from the Australian Kawasaki catalogue (2024 KX450 checked on the 50th Anniversary Edition page). Not checked: KX250 2025-2026 and KX450 2026, which were not in the catalogue; Kawasaki says the 2025 KX250 moved to the 2024 KX450-style frame, so expect KX250 2025-on parts to follow the KX450 2024-on numbers, unconfirmed."
+  },
+  {
+   "id": "fitw-006",
+   "domain": "chassis",
+   "topic": "plastics, seat and fuel tank",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450",
+     "KX250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The front fender (35038-0008) is the same on every KX250 and KX450 2020-2025. The KX450 2020-2023 and KX250 2021-2024 share rear fender 35023-0445, side covers 36001-0660/0662 and the seat base number 53066-0604. The 2024-on KX450 has a new rear fender (35023-0495), new two-piece side covers (36001-0737/0738/0739) and a new airbox, but keeps the same seat base number (53066-0604, colour suffix changed). So older side covers and rear fender do not fit a 2024-on KX450.",
+   "values": {
+    "front_fender": "35038-0008 (all)",
+    "rear_fender": "35023-0445 (KX450 2020-2023, KX250 2021-2024), 35023-0495 (KX450 2024-on)",
+    "side_covers": "36001-0660/0662 old, 36001-0737/0738/0739 (KX450 2024-on)",
+    "seat": "53066-0604 base (all except KX250 2020)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (Kawasaki Australia parts catalogue, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/kawasaki/2023/kx450/32-fenders",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Part numbers from the Australian Kawasaki catalogue (2024 KX450 checked on the 50th Anniversary Edition page). Not checked: KX250 2025-2026 and KX450 2026, which were not in the catalogue; Kawasaki says the 2025 KX250 moved to the 2024 KX450-style frame, so expect KX250 2025-on parts to follow the KX450 2024-on numbers, unconfirmed."
+  },
+  {
+   "id": "fitw-007",
+   "domain": "engine_mods",
+   "topic": "exhaust, air filter and radiators",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450",
+     "KX250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "These are model- and generation-specific. KX450 header 18088-1465 and muffler 18100-0602 (2021-2023) versus header 18088-1732 and mufflers 18100-0627 (2024) / 18100-0638 (2025); KX250 2021-2024 header 18088-1610/1682 and muffler 18100-0610. Air filter element 11013-0811 fits the KX450 2021-2023 and KX250 2021-2024; the 2024-on KX450 uses 11013-0843. Radiators: KX450 39061-0709/0710 (2020-2023), 39061-0875/0876 (2024-on); KX250 39061-0820/0821.",
+   "values": {
+    "kx450_header_muffler": "18088-1465 / 18100-0602 (2021-2023), 18088-1732 / 18100-0627, -0638 (2024-on)",
+    "kx250_header_muffler": "18088-1610 / 18100-0610",
+    "air_filter": "11013-0811, 11013-0843 (KX450 2024-on)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (Kawasaki Australia parts catalogue, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/kawasaki/2023/kx450/5-muffler-s",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Part numbers from the Australian Kawasaki catalogue (2024 KX450 checked on the 50th Anniversary Edition page). Not checked: KX250 2025-2026 and KX450 2026, which were not in the catalogue; Kawasaki says the 2025 KX250 moved to the 2024 KX450-style frame, so expect KX250 2025-on parts to follow the KX450 2024-on numbers, unconfirmed."
+  },
+  {
+   "id": "fitw-008",
+   "domain": "chassis",
+   "topic": "footpegs, levers and master cylinders",
+   "applies_to": {
+    "make": "Kawasaki",
+    "models": [
+     "KX450",
+     "KX250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Footpeg brackets (32054-0087/0088) are listed on every KX450 2020-2025 and KX250 2021-2024, and the wide pegs 34028-0360/0361 on KX450 2020-2023 and KX250 2021-2024; the 2024-on KX450 has new pegs (34028-0408/0409). Front master cylinder 43015-0695, front brake lever 13236-0807 and clutch master 43015-0742 are shared by the KX450 2020-2023 and KX250 2021-2024; the 2024-on KX450 has a new front master (43015-0863, Brembo front brake) and rear master (43015-0823).",
+   "values": {
+    "footpeg_brackets": "32054-0087/0088",
+    "pegs": "34028-0360/0361, 34028-0408/0409 (KX450 2024-on)",
+    "front_master": "43015-0695 old, 43015-0863 (KX450 2024-on)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (Kawasaki Australia parts catalogue, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/kawasaki/2023/kx450/31-footrests",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Part numbers from the Australian Kawasaki catalogue (2024 KX450 checked on the 50th Anniversary Edition page). Not checked: KX250 2025-2026 and KX450 2026, which were not in the catalogue; Kawasaki says the 2025 KX250 moved to the 2024 KX450-style frame, so expect KX250 2025-on parts to follow the KX450 2024-on numbers, unconfirmed."
+  }
+ ]
+}

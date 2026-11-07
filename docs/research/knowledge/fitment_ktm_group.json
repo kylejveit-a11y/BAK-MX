@@ -53,6 +53,8 @@
  "not_found": [],
  "sources": [
   "https://ktm.com/en-gr/models/motocross/4-stroke/2025-ktm-450-sx-f.html",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/ktm/2024/450-sx-f-us/rear-wheel",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/ktm/2025/125-sx-eu/pro-lever-linking",
   "https://www.cyclenews.com/2022/12/article/2023-gasgas-mc-450f-and-mc-250f-factory-edition-first-look",
   "https://www.gasgas.com/en-us/technical-accessories.html?c1=1002111476&c2=1002150863&product=1003544550",
   "https://www.gasgas.com/en-us/technical-accessories.html?c1=1002111480&c2=1002622609&product=1002199537",
@@ -1199,6 +1201,91 @@
    },
    "confidence": "medium",
    "notes": "Shock length change (15 mm shorter on the 2023 450 SX-F) is from a magazine; KTM press info for the 2022 Factory Edition says \"new WP XACT rear shock design\". Whole fork and shock part numbers per year are compared in the fiche-based records below when available."
+  },
+  {
+   "id": "fitk-027",
+   "domain": "chassis",
+   "topic": "OEM part numbers: wheels, hubs and axles",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "125 SX",
+     "250 SX",
+     "300 SX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "KTM's spare-parts catalogue confirms the split: front wheel complete 7900900144430 and front hub 77709010144 are listed on every 125 SX, 250 SX, 300 SX, 250 SX-F and 450 SX-F from 2020 to 2026, so front wheels swap across all of them. The rear wheel is 7901000134430 on 2020-2022 bikes and A4601000104430 on 2023-on bikes, with a new rear hub (A36010010044) and new rear axle (A46010185044) from 2023, unchanged through 2026. So a 2020-2022 rear wheel and a 2023-on rear wheel are different parts with different hubs and axles: do not swap them.",
+   "values": {
+    "front_wheel": "7900900144430 (2020-2026)",
+    "front_hub": "77709010144 (2020-2026)",
+    "rear_wheel": "7901000134430 (2020-2022), A4601000104430 (2023-on)",
+    "rear_hub_2023_on": "A36010010044",
+    "rear_axle_2023_on": "A46010185044"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (KTM spare-parts catalogue, US and EU models, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/ktm/2024/450-sx-f-us/rear-wheel",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Compared on the 2020-2025 125 SX, 250 SX, 2023-2024 300 SX and 2020-2024 250/450 SX-F pages (US 4T, EU and US 2T) and all 2025-2026 models. 2027 was not in the catalogue. Agrees with the PowerParts wheel listings above."
+  },
+  {
+   "id": "fitk-028",
+   "domain": "chassis",
+   "topic": "OEM part numbers: frames, top clamp, linkage, radiators and air filter",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "125 SX",
+     "250 SX",
+     "300 SX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The spare-parts catalogue shows the frame split at 2023 (450 SX-F 7950300100033 / 79503001000EB in 2020-2022, A46003001000C1 in 2023-2024; 125 SX 50503001000 in 2020-2022, A42003001000C1 in 2023-2024 and A42003001200C1 in 2025). The 2023-on top triple clamp A46001134022C1 (22 mm offset) is the same part on two- and four-strokes. The linkage triangle lever is 7910408004401 (2021-2022), A46004080044 with an M16 pin (2023-2024) and A46004080244 with an M14 pin (2025-2026), confirming the 2025 linkage change; the 2025 frames are new numbers (A46003001200C1 SX-F, A44003001200C1 250/300 SX) and carry into 2026. The 2023-on radiators (A46035007000 left, A46035008000 right) are listed on both the 125 SX and 450 SX-F; for 2026 the right radiator became A46035008100 (threaded cap). Air filter A46006015000 fits every 2023-2026 SX and SX-F, except the 2026 EU-market 125 SX, which lists filter A48006015000 and its own filter support (sound-rule airbox).",
+   "values": {
+    "frame_450_gen_a": "7950300100033 / 79503001000EB",
+    "frame_4t_gen_b": "A46003001000C1",
+    "frame_125_2025": "A42003001200C1",
+    "top_clamp_gen_b": "A46001134022C1",
+    "triangle_lever": "7910408004401 (2021-2022), A46004080044 (2023-2024), A46004080244 (2025)",
+    "radiators_gen_b": "A46035007000 / A46035008000"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche (KTM spare-parts catalogue, US and EU models, part numbers by model year)",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/ktm/2025/125-sx-eu/pro-lever-linking",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "The 250 SX-F 2020-2022 frame is 7910300120033 / 79103001200EB (shared with the 350 SX-F family), the 450 its own 795 frame, so old-generation frames are engine-specific."
   }
  ]
 }

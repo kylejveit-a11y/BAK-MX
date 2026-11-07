@@ -1,0 +1,467 @@
+{
+ "slice": "parts fitment and interchange, Yamaha YZ125 / YZ250 / YZ250F / YZ450F 2020-2027 (OEM part numbers)",
+ "platform": {
+  "make": "Yamaha",
+  "models": [
+   "YZ450F",
+   "YZ250F",
+   "YZ125",
+   "YZ250"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026,
+   2027
+  ]
+ },
+ "conflicts": [],
+ "not_found": [
+  {
+   "item": "2027 YZ450F part numbers",
+   "searched": "City West Yamaha fiche",
+   "result": "not listed yet"
+  },
+  {
+   "item": "2023 YZ250 part numbers",
+   "searched": "City West Yamaha fiche",
+   "result": "no 2023 YZ250 in the Australian catalogue"
+  }
+ ],
+ "sources": [
+  "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz125r-deep-blue/electrical-1",
+  "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz250fr-blue/frame",
+  "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz250r-deep-blue/frame",
+  "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz250r-deep-blue/front-wheel",
+  "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz450fr-deep-blue/exhaust",
+  "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz450fr-deep-blue/fender",
+  "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz450fr-deep-blue/front-fork",
+  "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz450fr-deep-blue/front-wheel",
+  "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz450fr-deep-blue/rear-wheel",
+  "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz450fr-deep-blue/steering"
+ ],
+ "records": [
+  {
+   "id": "fity-001",
+   "domain": "chassis",
+   "topic": "four-stroke chassis families: YZ250F follows the YZ450F a year later",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Yamaha four-stroke chassis families (frame part numbers): YZ450F 2020-2022 (B2W frame), YZ450F 2023-2025 (BHR), YZ450F 2026 (D03). The YZ250F runs one year behind on the same frames: 2021-2023 on the B2W frame, 2024-2026 on the BHR frame (Yamaha: \"frame based on the 2023 YZ450F\"), and 2027 on the D03 frame (Yamaha: YZ450F frame, suspension and bodywork). The 2020 YZ250F is its own (BR9 frame). So inside a family most chassis parts, bodywork and radiators swap between a YZ250F and a YZ450F, and a YZ250F of year N often takes YZ450F parts of year N-1.",
+   "values": {
+    "B2W_family": "YZ450F 2020-2022, YZ250F 2021-2023",
+    "BHR_family": "YZ450F 2023-2025, YZ250F 2024-2026",
+    "D03_family": "YZ450F 2026, YZ250F 2027"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "City West Yamaha OEM parts fiche (Yamaha Australia parts catalogue, part numbers by model year)",
+    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz250fr-blue/frame",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Front frame part numbers: B2W-21101-00/-01, BHR-21101-01, D03-21101-00. Part numbers from the Australian Yamaha catalogue; YZ chassis parts are the same in other markets in the years compared, but confirm on a US fiche for a US bike."
+  },
+  {
+   "id": "fity-002",
+   "domain": "chassis",
+   "topic": "front wheel: one hub and axle for every YZ250F and YZ450F 2021-2027",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Every 2020-2027 YZ250F and YZ450F lists the same front hub (1SL-25111-00), and from 2021 (2020 for the 450) the same front axle (B2W-25181-00), front disc (B2W-2581T-00) and front caliper (B2W-2580T-00). The complete front wheel B2W-25102-00 covers the 2021-2022 YZ450F and 2022 YZ250F, and BSB-25102-00 the 2023-2026 YZ450F and 2023-2026 YZ250F. So a front wheel swaps between any of these bikes. Catch: the 2027 YZ250F lists a new front wheel assembly and front disc (D05) though the hub and axle are unchanged; and the 2020 YZ250F used an older axle (1SL-25181-00).",
+   "values": {
+    "front_hub": "1SL-25111-00 (all)",
+    "front_axle": "B2W-25181-00",
+    "front_wheel": "B2W-25102-00 (450 2021-2022, 250F 2022), BSB-25102-00 (2023-2026 both)",
+    "front_disc": "B2W-2581T-00"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "City West Yamaha OEM parts fiche (Yamaha Australia parts catalogue, part numbers by model year)",
+    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz450fr-deep-blue/front-wheel",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Part numbers from the Australian Yamaha catalogue; YZ chassis parts are the same in other markets in the years compared, but confirm on a US fiche for a US bike."
+  },
+  {
+   "id": "fity-003",
+   "domain": "chassis",
+   "topic": "rear wheel: hub shared from 2022, axle changes with the frame",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The YZ250F and YZ450F share rear hub B2W-25311-00 from 2022 through 2027 (2020-2021 is 17D-25311-00), the rear disc B2W-2582W-00 (2021-2026) and the rear caliper B2W-2580W-00. The YZ450F rear wheel B2W-25302-30 is listed for 2022-2025, crossing the 2023 frame change. Catch: the rear axle changed with the new frame (17D-25381-00 up to the 2022 YZ450F and 2023 YZ250F; BHR-25381-00 after), so use the axle and spacers of the bike the wheel goes on; and 2020-2021 rear wheels have the older hub. YZ250F and YZ450F rear wheels carry different assembly numbers (rim and spoke differences), so check rim width. The 2027 YZ450F has a smaller 220 mm rear disc and new caliper, so its rear brake parts do not match earlier years.",
+   "values": {
+    "rear_hub": "B2W-25311-00 (2022-2027)",
+    "rear_axle": "17D-25381-00 (to 450 2022 / 250F 2023), BHR-25381-00 (450 2023-on, 250F 2024-on)",
+    "rear_wheel_450": "B2W-25302-30 (2022-2025), D03-25302-00 (2026)",
+    "rear_wheel_250f": "B7B-25302-40 (2022-2026), D05-25302-00 (2027)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "City West Yamaha OEM parts fiche (Yamaha Australia parts catalogue, part numbers by model year)",
+    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz450fr-deep-blue/rear-wheel",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "2027 YZ450F rear brake change from Yamaha Australia 2027 spec sheet (yamaha-motor.com.au); the 2027 YZ450F was not yet in the parts catalogue. Part numbers from the Australian Yamaha catalogue; YZ chassis parts are the same in other markets in the years compared, but confirm on a US fiche for a US bike."
+  },
+  {
+   "id": "fity-004",
+   "domain": "drivetrain",
+   "topic": "sprockets and chain",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F",
+     "YZ125",
+     "YZ250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Yamaha lists the same driven-sprocket numbers (B2W-25447 to 25452 range, 47-52T) for every YZ125, YZ250, YZ250F and YZ450F from 2022 to 2027; 2020-2021 bikes list the older 17D sprocket numbers. All use a 520 chain. So rear sprockets swap across all YZ motocross models 2022-on; only tooth count changes gearing.",
+   "values": {
+    "sprockets_2022_on": "B2W-25450-00 50T and siblings",
+    "sprockets_2020_2021": "17D-25450-50 50T and siblings",
+    "chain": "520"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "City West Yamaha OEM parts fiche (Yamaha Australia parts catalogue, part numbers by model year)",
+    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz450fr-deep-blue/rear-wheel",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "The two-stroke rear hub (5ET-25311-00) is unchanged 2020-2027 while the sprocket number changed in 2022, so the older sprockets very likely bolt on, but that is not stated. Part numbers from the Australian Yamaha catalogue; YZ chassis parts are the same in other markets in the years compared, but confirm on a US fiche for a US bike."
+  },
+  {
+   "id": "fity-005",
+   "domain": "chassis",
+   "topic": "triple clamps and handlebar",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The top clamp (handle crown B2W-23435-00) and handlebar (BR9-26111-20) are the same on every YZ450F 2020-2026 and YZ250F 2021-2027. The lower clamp changed with the frame: 33D-23340-20 on the YZ450F 2020-2022 and YZ250F 2020-2023, B7R-23340-00 on the YZ450F 2023-on and YZ250F 2024-on. So a complete clamp set swaps inside a family; the top clamp alone swaps across all years.",
+   "values": {
+    "top_clamp": "B2W-23435-00",
+    "lower_clamp": "33D-23340-20 (old), B7R-23340-00 (new)",
+    "handlebar": "BR9-26111-20"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "City West Yamaha OEM parts fiche (Yamaha Australia parts catalogue, part numbers by model year)",
+    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz450fr-deep-blue/steering",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Part numbers from the Australian Yamaha catalogue; YZ chassis parts are the same in other markets in the years compared, but confirm on a US fiche for a US bike."
+  },
+  {
+   "id": "fity-006",
+   "domain": "suspension",
+   "topic": "fork, shock and linkage swap (whole units)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Complete forks and shocks change number almost every year (valving), for example YZ450F fork B2W-23102-20 (2022), BHR-23102-00 (2023-2024), D02-23102-00 (2025), D03-23102-00 (2026). Inside one frame family they bolt in with the matching lower clamp. The linkage relay arm changed for 2025 on both models (17D-2217A-00 up to 2024, D02-2217A-00 from 2025), and the 2026 YZ450F got a new KYB shock and frame, so 2025-on shocks and linkage are not the same parts as earlier ones.",
+   "values": {
+    "fork_450": "B2W (2020-2022), BHR (2023-2024), D02 (2025), D03 (2026)",
+    "fork_250f": "B7B (2020-2023), BMF (2024), D01 (2025-2026), D05 (2027)",
+    "relay_arm": "17D-2217A-00 (to 2024), D02-2217A-00 (2025-on)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "City West Yamaha OEM parts fiche (Yamaha Australia parts catalogue, part numbers by model year)",
+    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz450fr-deep-blue/front-fork",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Fit inside a family is inferred from identical clamps, frames and linkage part numbers, not a Yamaha statement. Part numbers from the Australian Yamaha catalogue; YZ chassis parts are the same in other markets in the years compared, but confirm on a US fiche for a US bike."
+  },
+  {
+   "id": "fity-007",
+   "domain": "chassis",
+   "topic": "plastics, seat, subframe, tank and radiators",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Bodywork follows the frame family and is shared by both models inside it: front fender BR9-21511 (YZ450F 2020-2022, YZ250F 2020-2023) then BHR-21510 (YZ450F 2023-2026, YZ250F 2024-2027); rear fender, side covers, subframe and tank are BR9 parts on the older bikes, BHR parts on the YZ450F 2023-2025 and YZ250F 2024-2026, and D03 parts on the 2026 YZ450F and 2027 YZ250F. Radiators BR9-12461 (old) and BHR-12461 (YZ450F 2023-2026, YZ250F 2024-2027) are shared by both models. Seats split more often: BR9-24710 (old), BHR-24710 (2023-2024), D02-24710 (2025), D03-24710 (YZ450F 2026, YZ250F 2026-2027).",
+   "values": {
+    "front_fender": "BR9-21511-00 / BHR-21510-00",
+    "subframe": "BR9-21190-10 / BHR-21190-10 / D03-21190-00",
+    "radiator": "BR9-12461-00 / BHR-12461-00",
+    "seat": "BR9-24710-A2 / BHR-24710-21 / D02-24710-01 / D03-24710-01"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "City West Yamaha OEM parts fiche (Yamaha Australia parts catalogue, part numbers by model year)",
+    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz450fr-deep-blue/fender",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Part numbers from the Australian Yamaha catalogue; YZ chassis parts are the same in other markets in the years compared, but confirm on a US fiche for a US bike."
+  },
+  {
+   "id": "fity-008",
+   "domain": "maintenance",
+   "topic": "air filter, footpegs and exhaust",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Air filter element and footpegs follow the frame family and are shared by both models: element B2W-14451-01 and footrest B2W-27411-00 (YZ450F 2020-2022, YZ250F 2021-2023), then BHR-14451-01 and BHR-27411-00 (YZ450F 2023-on, YZ250F 2024-on). Exhausts are model-specific: YZ250F silencer B7B-14750 (2020-2026, D05 for 2027), YZ450F silencer B2W-14750 (2020-2022), BHR-14750 (2023-2024), D03-14750 (2026). A 250F silencer is not a 450 part.",
+   "values": {
+    "air_filter": "B2W-14451-01 / BHR-14451-01",
+    "footrest": "B2W-27411-00 / BHR-27411-00",
+    "silencer_450": "B2W-14750-10, BHR-14750-10, D03-14750-00",
+    "silencer_250f": "B7B-14750-30/-20, D05-14750-00"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "City West Yamaha OEM parts fiche (Yamaha Australia parts catalogue, part numbers by model year)",
+    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz450fr-deep-blue/exhaust",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Part numbers from the Australian Yamaha catalogue; YZ chassis parts are the same in other markets in the years compared, but confirm on a US fiche for a US bike."
+  },
+  {
+   "id": "fity-009",
+   "domain": "chassis",
+   "topic": "two-strokes: YZ125 and YZ250 chassis parts barely change 2020-2027",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ125",
+     "YZ250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The YZ125 (frame 1SR-21101-00) and YZ250 (frame 1SS-21101-00) keep their frames, triple clamps (lower 1SR/1SS-23340-10, top 1SS-23435-10), swingarm (1C3-22110-A0, 2021-2027), linkage, front hub (5NY-25111-00) and axle (5XC-25181-G0), rear hub (5ET-25311-00) and axle, footpegs (17D-27411-00) and air filter element (4XM-14451-01, same on both) from 2020 to 2027. Front and rear wheels therefore swap between any YZ125 and YZ250 of these years. Bodywork, seat, tank and subframe changed in 2022 (BCR seat and tank, new side covers and rear fender), so 2020-2021 plastics do not fit 2022-on. Brake discs and rear caliper changed number in 2022 (B2W discs, BCR rear caliper). Forks and radiators changed in 2025 (D68 on the YZ125, D69 on the YZ250). Exhaust pipes, subframes and radiators are model-specific (125 vs 250).",
+   "values": {
+    "frames": "1SR-21101-00 (YZ125), 1SS-21101-00 (YZ250)",
+    "swingarm": "1C3-22110-A0",
+    "front_hub_axle": "5NY-25111-00 / 5XC-25181-G0",
+    "rear_hub_axle": "5ET-25311-00 / 1C3-25381-90",
+    "bodywork_change": "2022",
+    "fork_radiator_change": "2025"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "City West Yamaha OEM parts fiche (Yamaha Australia parts catalogue, part numbers by model year)",
+    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz250r-deep-blue/frame",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "No 2023 YZ250 was in the Australian catalogue. Part numbers from the Australian Yamaha catalogue; YZ chassis parts are the same in other markets in the years compared, but confirm on a US fiche for a US bike."
+  },
+  {
+   "id": "fity-010",
+   "domain": "chassis",
+   "topic": "two-stroke and four-stroke wheels do not swap",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F",
+     "YZ125",
+     "YZ250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "YZ125/YZ250 wheels use a different front hub (5NY-25111-00) and axle (5XC-25181-G0), and a different rear hub (5ET-25311-00) and axle, from the YZ250F/YZ450F (1SL / B2W front, B2W / 17D or BHR rear). So a four-stroke wheel is not a listed fit on a two-stroke, or the reverse, even though the front master cylinder (5XC-W2587-00) and handlebar are shared.",
+   "values": {
+    "2t_front": "5NY-25111-00 / 5XC-25181-G0",
+    "4t_front": "1SL-25111-00 / B2W-25181-00"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "City West Yamaha OEM parts fiche (Yamaha Australia parts catalogue, part numbers by model year)",
+    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz250r-deep-blue/front-wheel",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Part numbers from the Australian Yamaha catalogue; YZ chassis parts are the same in other markets in the years compared, but confirm on a US fiche for a US bike."
+  },
+  {
+   "id": "fity-011",
+   "domain": "ecu_electronics",
+   "topic": "ECU / CDI: different, do not swap",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F",
+     "YZ125",
+     "YZ250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Ignition units are model- and year-specific: the YZ125 CDI is 1SR-85540-03 (2020-2021), B4X-85540-00 (2022-2025), D68-85540-00 (2026-2027); the YZ250 CDI 1P8-85540-02 (2020-2025), 1P8-85540-03 (2026-2027). Four-stroke ECUs are tied to each year's engine and maps, and the 2026 YZ450F and YZ250F ECUs carry a password lock. Do not swap ignition units between models or across these changes.",
+   "values": {
+    "yz125_cdi": "1SR-85540-03, B4X-85540-00, D68-85540-00",
+    "yz250_cdi": "1P8-85540-02, 1P8-85540-03"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "City West Yamaha OEM parts fiche (Yamaha Australia parts catalogue, part numbers by model year)",
+    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz125r-deep-blue/electrical-1",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "2026 ECU lock from Yamaha 2026 model information (see yz450f_engine.json / yamaha_250f_2t.json). Four-stroke ECU numbers were not compared in this pass. Part numbers from the Australian Yamaha catalogue; YZ chassis parts are the same in other markets in the years compared, but confirm on a US fiche for a US bike."
+  }
+ ]
+}

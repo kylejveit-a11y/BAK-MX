@@ -1,0 +1,245 @@
+{
+ "slice": "parts fitment and interchange, Triumph TF 250-X / TF 450 2024-2026 (OEM part numbers)",
+ "platform": {
+  "make": "Triumph",
+  "models": [
+   "TF 250-X",
+   "TF 450-X",
+   "TF 450-RC Edition"
+  ],
+  "years": [
+   2024,
+   2025,
+   2026
+  ]
+ },
+ "conflicts": [],
+ "not_found": [
+  {
+   "item": "2027 TF 250-X part numbers",
+   "searched": "triumphpartstore.com catalogue",
+   "result": "no 2027 catalogue at time of check"
+  }
+ ],
+ "sources": [
+  "https://www.triumphpartstore.com/us/catalog/assembly/23217?catalogue=T",
+  "https://www.triumphpartstore.com/us/catalog/assembly/23231?catalogue=T",
+  "https://www.triumphpartstore.com/us/catalog/assembly/23233?catalogue=T",
+  "https://www.triumphpartstore.com/us/catalog/assembly/23306?catalogue=T",
+  "https://www.triumphpartstore.com/us/catalog/assembly/23308?catalogue=T",
+  "https://www.triumphpartstore.com/us/catalog/assembly/23338?catalogue=T"
+ ],
+ "records": [
+  {
+   "id": "fitt-001",
+   "domain": "chassis",
+   "topic": "front wheel, rear hub, axles and chain: shared across all TF models",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Every TF motocross bike uses the same front wheel (T2009269, 1.6x21) with the same hub, spindle, spacer and bearings, and the same rear hub (T2015093), rear spindle (T2011135), rear spacers, chain adjuster blocks, 48T rear sprocket (T2015061) and 520 x 114-link chain (T2015057). So a front wheel swaps between any TF 250-X and TF 450. Catch on the rear wheel: the TF 250-X rear wheel (T2015094) has a 1.85x19 rim and the TF 450 (T2015046) a 2.15x19 rim; the hub and axle are the same, so it bolts in, but the rim width (and tire size) differs.",
+   "values": {
+    "front_wheel": "T2009269",
+    "rear_hub": "T2015093",
+    "rear_wheel_250": "T2015094 (1.85x19)",
+    "rear_wheel_450": "T2015046 (2.15x19)",
+    "chain": "T2015057 (520, 114 links)",
+    "rear_sprocket": "T2015061 (48T)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Triumph Waukesha OEM parts catalogue, part numbers per assembly",
+    "url": "https://www.triumphpartstore.com/us/catalog/assembly/23231?catalogue=T",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Catalogues compared: TF 250-X 2024-2025 (catalogue CC7868), TF 250-X 2026 (CF3825), TF 450-RC Edition (2025) and TF 450-X (2026). TF 450-X rear wheel page: https://www.triumphpartstore.com/us/catalog/assembly/23713?catalogue=T."
+  },
+  {
+   "id": "fitt-002",
+   "domain": "chassis",
+   "topic": "frame, swingarm and footpegs: shared; subframe and shock differ 250 vs 450",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "All TF models list the same main frame (T2078475), the same swingarm (T2051612) and pivot spindle, and the same footpegs (T2083238/T2083239) and clevises. The rear subframe differs: T2074959 on the TF 250-X (all years) and T2075413 on the TF 450-RC Edition and TF 450-X. The shock is model-specific (TF 250-X T2051711, TF 450-RC T2053015, TF 450-X T2054044). Engine head-steady brackets also differ by model. So a 450 subframe is not listed for a 250 and the reverse.",
+   "values": {
+    "frame": "T2078475 (all)",
+    "swingarm": "T2051612 (all)",
+    "subframe_250": "T2074959",
+    "subframe_450": "T2075413",
+    "shock_250": "T2051711",
+    "shock_450_rc": "T2053015",
+    "shock_450x": "T2054044"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Triumph Waukesha OEM parts catalogue, part numbers per assembly",
+    "url": "https://www.triumphpartstore.com/us/catalog/assembly/23233?catalogue=T",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Catalogues compared: TF 250-X 2024-2025 (catalogue CC7868), TF 250-X 2026 (CF3825), TF 450-RC Edition (2025) and TF 450-X (2026). TF 450-X frame page: https://www.triumphpartstore.com/us/catalog/assembly/23715?catalogue=T."
+  },
+  {
+   "id": "fitt-003",
+   "domain": "suspension",
+   "topic": "forks and triple clamps: 250 and 450 units differ",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The TF 250-X (2024-2026) uses forks T2043161/T2043162 with lower yoke T2044587 and upper yoke T2044585; the TF 450-RC Edition and TF 450-X use forks T2046481/T2046482 with lower yoke T2046421 and upper yoke T2046411 (different cartridge and base valve). Fork seals, bleed screws and the spring seat are shared, and the 4.8 and 4.9 N/mm spring kits are listed for both. Swap forks as complete sets with their own yokes; a 450 fork in a 250 needs the 450 yokes too, and Triumph lists no such conversion.",
+   "values": {
+    "fork_250": "T2043161 / T2043162",
+    "fork_450": "T2046481 / T2046482",
+    "yokes_250": "T2044587 lower / T2044585 upper",
+    "yokes_450": "T2046421 lower / T2046411 upper",
+    "shared": "fork seal kit T2045341, spring kits K4.8/K4.9"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Triumph Waukesha OEM parts catalogue, part numbers per assembly",
+    "url": "https://www.triumphpartstore.com/us/catalog/assembly/23217?catalogue=T",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Catalogues compared: TF 250-X 2024-2025 (catalogue CC7868), TF 250-X 2026 (CF3825), TF 450-RC Edition (2025) and TF 450-X (2026). Clamp dimensions are not published; \"swap with yokes\" is the safe reading of different yoke part numbers. The 2027 TF 250-X adds Neken clamps (not in this catalogue). TF 450-X fork page: https://www.triumphpartstore.com/us/catalog/assembly/23699?catalogue=T."
+  },
+  {
+   "id": "fitt-004",
+   "domain": "chassis",
+   "topic": "bodywork and seat: 2026 changed side panels and airbox covers",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "Front mudguard T2313252 fits every TF. The seat (T2310994) is the same on the TF 250-X 2024-2026 and TF 450-X (the RC Edition has its own gripper seat). The 2026 TF 250-X and the TF 450-X share new tank side covers (T2313590/T2313591), airbox covers (T2313663/T2313667) and rear mudguard (T2313790); the 2024-2025 TF 250-X uses older covers (T2310630/T2310631 or T2313890/T2313891) and the RC Edition its own. So 2024-2025 TF 250-X side panels are not the 2026 parts. Triumph's MX plastics kit A9700932 is listed for the TF 250-X 2024-2026 and TF 450.",
+   "values": {
+    "front_mudguard": "T2313252 (all)",
+    "seat": "T2310994 (TF 250-X, TF 450-X)",
+    "tank_covers_2026_and_450x": "T2313590 / T2313591",
+    "airbox_covers_2026_and_450x": "T2313663 / T2313667",
+    "tank_covers_250_2024_2025": "T2310630/T2310631, T2313890/T2313891"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Triumph Waukesha OEM parts catalogue, part numbers per assembly",
+    "url": "https://www.triumphpartstore.com/us/catalog/assembly/23338?catalogue=T",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Catalogues compared: TF 250-X 2024-2025 (catalogue CC7868), TF 250-X 2026 (CF3825), TF 450-RC Edition (2025) and TF 450-X (2026). Plastics kit fitment from the Triumph accessory catalogue (dealer-triumph-genuine.json, assembly 23283). Two cover numbers on the 2024-2025 catalogue are likely a supersession."
+  },
+  {
+   "id": "fitt-005",
+   "domain": "engine_mods",
+   "topic": "exhaust and airbox: 2026 TF 250-X changed",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The TF 250-X header pipe (T2205896) is the same 2024-2026, but the silencer changed for 2026 (T2204970 on 2024-2025, T2209937 on 2026) along with the airbox (front and rear) for sound rules. The TF 450 has its own header (T2205916) and silencer (T2208154). The foam air filter (T2205329) fits every TF. Akrapovic systems from Triumph are listed separately for the 2024-2025 TF 250-X (A9601343) and the 2026 TF 250-X (A9601349/A9601360), and for the TF 450 (A9601344/A9601361).",
+   "values": {
+    "header_250": "T2205896 (2024-2026)",
+    "silencer_250": "T2204970 (2024-2025), T2209937 (2026)",
+    "header_450": "T2205916",
+    "silencer_450": "T2208154",
+    "air_filter": "T2205329 (all)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Triumph Waukesha OEM parts catalogue, part numbers per assembly",
+    "url": "https://www.triumphpartstore.com/us/catalog/assembly/23306?catalogue=T",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Catalogues compared: TF 250-X 2024-2025 (catalogue CC7868), TF 250-X 2026 (CF3825), TF 450-RC Edition (2025) and TF 450-X (2026). 2024-2025 exhaust page: https://www.triumphpartstore.com/us/catalog/assembly/23213?catalogue=T."
+  },
+  {
+   "id": "fitt-006",
+   "domain": "maintenance",
+   "topic": "radiators",
+   "applies_to": {
+    "make": "Triumph",
+    "models": [
+     "TF 250-X",
+     "TF 450-X",
+     "TF 450-RC Edition"
+    ],
+    "years": [
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "statement": "The 2026 TF 250-X radiators (T2105040/T2105041) are the same parts as the TF 450-RC and TF 450-X; the 2024-2025 TF 250-X uses T2105030/T2105031. Radiator guards (T2101531/T2101532) fit every TF.",
+   "values": {
+    "2024_2025_250": "T2105030 / T2105031",
+    "2026_250_and_450": "T2105040 / T2105041",
+    "guards": "T2101531 / T2101532"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Triumph Waukesha OEM parts catalogue, part numbers per assembly",
+    "url": "https://www.triumphpartstore.com/us/catalog/assembly/23308?catalogue=T",
+    "date": "2026-11-07"
+   },
+   "confidence": "high",
+   "notes": "Catalogues compared: TF 250-X 2024-2025 (catalogue CC7868), TF 250-X 2026 (CF3825), TF 450-RC Edition (2025) and TF 450-X (2026)."
+  }
+ ]
+}
