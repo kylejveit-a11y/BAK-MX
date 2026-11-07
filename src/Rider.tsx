@@ -9,6 +9,7 @@ import {garageModelInfo} from '../shared/garage-models';
 import {adjusters,beforeYouTune,symptomGuides,mechanicalMimics,talkingToYourTuner,workOrder} from '../shared/setup-knowledge';
 import {COMMUNITY_RULES,EVENT_TYPE_LABELS,POST_CATEGORY_LABELS,SETUP_FIELDS,SETUP_RESULT_LABELS,riderName,setupDifferences,type EventType,yearRanges,type Part,type PartAssembly,type PartCatalog,type PartFit,type Post,type PostCategory,type PostComment,type ListedRider,type Profile,type RideEvent,type RiderRef,type SetupLog,type SetupResult,type ThreadMessage,type ThreadSummary} from '../shared/rider-types';
 import './rider.css';
+import {TrackReportCard} from './TrackReport';
 
 /* Rider surfaces for the web client: Community, Events, Messages, Profile, Feedback, Setup log, Parts.
    Everything here reads and writes through the BAK MX API; nothing is sample data.
@@ -451,9 +452,9 @@ export function Feedback({signedIn,bike}:{signedIn:boolean;bike?:Bike}){
 
 /* ------------------------------------------------------------------ Setup log */
 export function SetupLogPanel({bike,signedIn,onAsk}:{bike?:Bike;signedIn:boolean;onAsk?:(text:string)=>void}){
- const [logs,setLogs]=useState<SetupLog[]|null>(null),[adding,setAdding]=useState(false),[busy,setBusy]=useState(false),[error,setError]=useState(''),[result,setResult]=useState<SetupResult>('not_tested');
+ const [logs,setLogs]=useState<SetupLog[]|null>(null),[adding,setAdding]=useState(false),[busy,setBusy]=useState(false),[error,setError]=useState(''),[result,setResult]=useState<SetupResult>('not_tested'),[justLogged,setJustLogged]=useState<SetupLog|null>(null);
  async function load(){if(!bike)return;try{setLogs(await api<SetupLog[]>('/setup-logs?bike_id='+bike.id));setError('');}catch(e){setError(errorText(e));setLogs(old=>old??[]);}}
- useEffect(()=>{setLogs(null);setAdding(false);if(signedIn&&bike)void load();},[bike?.id,signedIn]);
+ useEffect(()=>{setLogs(null);setAdding(false);setJustLogged(null);if(signedIn&&bike)void load();},[bike?.id,signedIn]);
  if(!signedIn)return <SignInLine>Sign in to keep a setup log for your bike.</SignInLine>;
  if(!bike)return null;
  const latest=logs?.[0];
@@ -465,8 +466,8 @@ export function SetupLogPanel({bike,signedIn,onAsk}:{bike?:Bike;signedIn:boolean
    const date=String(f.get('recorded_at')||'');if(!/^\d{4}-\d{2}-\d{2}$/.test(date))throw Error('Pick the date you rode.');
    const hoursRaw=String(f.get('engine_hours')||'').trim(),hours=hoursRaw===''?null:Number(hoursRaw);
    if(hours!==null&&(!Number.isFinite(hours)||hours<0))throw Error('Hours must be zero or greater.');
-   await api('/setup-logs','POST',{bike_id:bike!.id,recorded_at:new Date(date+'T12:00:00').toISOString(),track:String(f.get('track')||''),conditions:String(f.get('conditions')||''),engine_hours:hours,settings,change_made:String(f.get('change_made')||''),result,notes:String(f.get('notes')||'')});
-   setAdding(false);setResult('not_tested');await load();
+   const saved=await api<SetupLog>('/setup-logs','POST',{bike_id:bike!.id,recorded_at:new Date(date+'T12:00:00').toISOString(),track:String(f.get('track')||''),conditions:String(f.get('conditions')||''),engine_hours:hours,settings,change_made:String(f.get('change_made')||''),result,notes:String(f.get('notes')||'')});
+   setAdding(false);setResult('not_tested');setJustLogged(saved);await load();
   }catch(err){setError(errorText(err));}finally{setBusy(false);}
  }
  function describe(log:SetupLog){const set=SETUP_FIELDS.filter(f=>log.settings[f.key]!==null&&log.settings[f.key]!==undefined&&log.settings[f.key]!=='');return set.map(f=>`${f.label}: ${log.settings[f.key]}`).join('; ');}
@@ -486,6 +487,7 @@ export function SetupLogPanel({bike,signedIn,onAsk}:{bike?:Bike;signedIn:boolean
    <details className="editor-more"><summary>Full settings{latest?' (filled in from last time)':''}</summary>{(['Fork','Shock','Chassis','Engine'] as const).map(group=><div key={group}><h4 className="mini-head">{group}</h4><div className="form-grid">{SETUP_FIELDS.filter(f=>f.group===group).map(f=><label className="field" key={f.key}><span>{f.label}</span><input name={f.key} maxLength={200} defaultValue={latest?.settings[f.key]??''} placeholder="—" disabled={busy}/></label>)}</div></div>)}</details>
    <div className="button-row"><button className="button" type="submit" disabled={busy}>{busy?'Saving…':'Save'}</button><button className="button secondary" type="button" onClick={()=>setAdding(false)}>Cancel</button></div>
   </form>}
+  {justLogged&&!adding&&<TrackReportCard track={justLogged.track} day={new Date(justLogged.recorded_at).toLocaleDateString('en-CA')} setupLogId={justLogged.id} setupLabel={justLogged.change_made} recent={(logs??[]).map(l=>l.track)} showOthers onClose={()=>setJustLogged(null)}/>}
   {logs===null&&!error&&<SkeletonList kind="event"/>}
   {logs&&!logs.length&&!adding&&<div className="empty"><h3>Your tuning notebook starts here.</h3><p>Log the settings you ran and how the bike felt. Next time you’ll know what worked at this track.</p></div>}
   <div className="rd-logs">{logs?.map((log,i)=>{const prior=logs[i+1],diff=prior?setupDifferences(prior.settings,log.settings):[];return <article key={log.id} className="rd-log">

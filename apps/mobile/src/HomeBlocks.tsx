@@ -19,6 +19,7 @@ import {RacePrepCard,RacePrepSheet,useRacePrep,Progress} from './RacePrep';
 import {RACE_PHASES,phaseForDaysOut} from '../../../shared/race-prep';
 import {setRaceWidget} from './widgets/sync';
 import {RichText} from './RichText';
+import {TrackReportCard} from './TrackReport';
 import {OFF_RACE as OFF,dayOf,today,activeRace,raceToday,daysToGo,whenText,QUICK,CHANGES,MOTOS,quickAskText,tryNextText,raceSetupTitle,raceSetupQuestion,raceSetupField,raceSetupKey,raceSetupStale,plain,knownTrack,trackSuggestions,trackPicks,type RaceDay,type KnownTrack} from '../../../shared/race-day';
 export {daysToGo,whenText,type RaceDay};
 
@@ -288,6 +289,7 @@ export function RaceDayHome({bike,account,track,onEnd,onAsk,onQuick,onOpenChat}:
    </View>)}
    <Pressable accessibilityRole="button" onPress={()=>onAsk(tryNextText(track,logs))} hitSlop={6}><Text style={{color:colors.text,fontSize:15,fontWeight:'700'}}>Ask BAK what to try next</Text></Pressable>
   </Card>}
+  <TrackReportCard track={track} day={today()} setupLogId={logs[0]&&!isLocal(logs[0].id)?logs[0].id:null} setupLabel={logs[0]?.change_made} showOthers/>
   <Pressable accessibilityRole="button" onPress={onEnd} style={{alignSelf:'center',paddingVertical:10}}><Text style={{color:colors.muted,fontSize:15}}>End race day</Text></Pressable>
  </>;
 }

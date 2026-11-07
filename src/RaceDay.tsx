@@ -13,6 +13,7 @@ import {api,apiStream} from './client';
 import {createSubmission,finishCreate} from './createSubmission';
 import {RichText} from './RichText';
 import {BlockHead,Chip,Progress,Sheet,errorText,readLocal,writeLocal,timeOf,useRacePrepList} from './HomeBlocks';
+import {TrackReportCard} from './TrackReport';
 
 // ------------------------------------------------------------------ the race itself
 /** The rider's race for this bike, today or ahead, saved on this browser. A race that has passed reads as none. */
@@ -133,6 +134,7 @@ export function RaceDayHome({bike,account,track,onEnd,onAsk,onQuick,onOpenChat}:
    {logs.map(l=><div key={l.id} className="hb-today-entry"><strong>{l.change_made}</strong><span>{timeOf(l.recorded_at)} · {l.conditions.replace('Race day · ','')} · <b className={tone(l.result)}>{SETUP_RESULT_LABELS[l.result]}</b>{l.notes?` · ${l.notes}`:''}</span></div>)}
    <button type="button" className="hb-link" onClick={()=>onAsk(tryNextText(track,logs))}>Ask BAK what to try next</button>
   </section>}
+  <TrackReportCard track={track} day={today()} setupLogId={logs[0]?.id??null} setupLabel={logs[0]?.change_made} showOthers/>
   <button type="button" className="hb-link muted hb-center" onClick={onEnd}>End race day</button>
  </>;
 }

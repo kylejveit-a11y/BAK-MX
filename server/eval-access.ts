@@ -13,6 +13,7 @@ import {trackContext} from './tracks.ts';
 import {raceForecast,raceTrackAt} from './weather.ts';
 import {generateAnswer,planSpecLookups,raceLookups,PROMPT_VERSION} from './engineering.ts';
 import {physicsFor} from './physics-context.ts';
+import {riderWearFor} from './rider-wear.ts';
 /** Test access to Ask BAK for automated evaluation (POST /api/eval/ask), approved by Kyle 2026-10-15. Gated by a bearer
  *  token whose SHA-256 is in eval_access_tokens (expiring, revocable, capped per day). The bike, prior turns and ride results
  *  come in the request, so a run never reads or writes any rider's account, bikes, conversations or AI allowance. Each run is
@@ -79,7 +80,7 @@ export async function handleEval(req:Request):Promise<Response>{
   const physics=bike?await physicsFor(admin,bike,[data.message,...history.filter(m=>m.role==='user').slice(-2).map(m=>m.content??'')],{tracks,raceTrack:data.race?.track??null,forecastHighF:race?.forecast&&race.forecast.available?race.forecast.high_f:null,raceMode:!!data.race}):null;
   const physicsEvidence=(physics as {evidence?:typeof claims}|null)?.evidence;
   if(physicsEvidence?.length)for(const c of physicsEvidence)if(!claims.some(x=>x.id===c.id))claims.push(c);
-  const {response}=await generateAnswer(bike,history,claims,data.message,lookups,()=>{},data.setup_history as never,knowledge,data.guided??null,data.voice===true,[],data.images,tracks,data.media??null,null,data.preferences??null,race,physics,data.app??null,compared);
+  const {response}=await generateAnswer(bike,history,claims,data.message,lookups,()=>{},data.setup_history as never,knowledge,data.guided??null,data.voice===true,[],data.images,tracks,data.media??null,null,data.preferences??null,race,physics,data.app??null,compared,bike?await riderWearFor(admin,bike,[data.message,...history.filter(m=>m.role==='user').slice(-2).map(m=>m.content??'')]):null);
   await log(true);
   return new Response(JSON.stringify({prompt_version:PROMPT_VERSION,model:process.env.OPENAI_MODEL,ms:Date.now()-t0,published_claims:claims.length,compared:compared.map(c=>({bike:c.bike,claims:c.claims.length})),lookups,response}),{headers:{'content-type':'application/json','cache-control':'no-store'}});
  }catch(e){await log(false,String((e as Error)?.message??e));throw e;}
