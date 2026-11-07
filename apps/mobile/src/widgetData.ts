@@ -1,6 +1,9 @@
-// What the Home Screen widget and the guided-job Live Activity show. Pure, so it runs in Node tests.
+// What the Home Screen widgets and the Live Activities (guided job, race day) show. Pure, so it runs in Node tests.
 import type {Bike,ServiceEvent} from '../../../shared/types';
-import type {SetupLog} from '../../../shared/rider-types';
+import type {SetupLog,RideEvent} from '../../../shared/rider-types';
+import {EVENT_TYPE_LABELS} from '../../../shared/rider-types.ts';
+import {dayOf,isPractice,type NextUp,type RaceDay} from '../../../shared/race-day.ts';
+import {clockText,countdownText,nextUpDate} from '../../../shared/practice-day.ts';
 
 const clip=(s:string,n:number)=>{const t=s.replace(/\s+/g,' ').trim();return t.length>n?t.slice(0,n-1).trimEnd()+'…':t;};
 const fmtHours=(h:number)=>Number.isInteger(h)?String(h):h.toFixed(1);
@@ -44,5 +47,60 @@ export function raceTimeline<T extends object>(base:T,race:RaceWidgetInfo|null,n
  if(raceDay.getTime()<midnight.getTime())return [{date:now,props:plain}];
  out.push({date:now,props:props(midnight)});
  for(let i=1;i<=62;i++){const at=new Date(midnight);at.setDate(at.getDate()+i);if(at.getTime()>raceDay.getTime()){out.push({date:at,props:plain});break;}out.push({date:at,props:props(at)});}
+ return out;
+}
+
+// ------------------------------------------------------------------ race-day / practice-day Live Activity
+/** What the Lock Screen and Dynamic Island show while race day or practice day runs. */
+export type RaceActivityInfo={kind:'race'|'practice';track:string;day:string;next:NextUp|null;item:string;done:number;total:number;last:string};
+export type RaceActivityProps={practice:boolean;head:string;track:string;nextLabel:string;nextClock:string;nextAt:number;since:number;live:boolean;nextText:string;item:string;progress:number;count:string;last:string};
+/** `live` means the moto or session is still ahead, so the activity runs its own countdown to `nextAt` (no app updates needed). */
+export function raceActivityProps(i:RaceActivityInfo,now=new Date()):RaceActivityProps{
+ const at=nextUpDate(i.next,i.day),t=at?at.getTime():0;
+ return {practice:i.kind==='practice',head:i.kind==='practice'?'PRACTICE DAY':'RACE DAY',track:clip(i.track||'Track day',30),
+  nextLabel:clip(i.next?.label??'',20),nextClock:i.next?.at?clockText(i.next.at):'',nextAt:t,since:now.getTime(),live:t>now.getTime(),
+  nextText:!i.next?'':at?countdownText(at,now):'Set the time in BAK MX',
+  item:i.item?clip(i.item,70):i.total?'Checklist done':'',progress:i.total?Math.max(0,Math.min(1,i.done/i.total)):-1,count:i.total?`${i.done}/${i.total}`:'',last:clip(i.last,60)};
+}
+/** When iOS may dim the activity: a few minutes after the moto it counts down to, else at the end of the day. */
+export function raceActivityStale(p:RaceActivityProps,day:string):Date{
+ if(p.live)return new Date(p.nextAt+5*60000);
+ const [y,m,d]=day.split('-').map(Number);return new Date(y,m-1,d,23,59);
+}
+
+// ------------------------------------------------------------------ the "Next event" widget
+export type EventLite=Pick<RideEvent,'id'|'title'|'event_type'|'starts_at'|'location_name'|'canceled_at'|'my_rsvp'>&{ends_at?:string|null};
+export type NextEventProps={ready:boolean;hasEvent:boolean;name:string;type:string;when:string;time:string;place:string;days:number;daysText:string;rsvp:string;race:string;raceLive:boolean;url:string};
+export const emptyNextEvent:NextEventProps={ready:false,hasEvent:false,name:'',type:'',when:'',time:'',place:'',days:-1,daysText:'',rsvp:'',race:'',raceLive:false,url:'bakmx://events'};
+const calDays=(from:Date,to:Date)=>{const a=new Date(from);a.setHours(0,0,0,0);const b=new Date(to);b.setHours(0,0,0,0);return Math.round((b.getTime()-a.getTime())/864e5);};
+/** The rider's next event they're going to or interested in: not canceled, not over, soonest first (going wins a tie). */
+export function pickNextEvent(events:EventLite[],now=new Date()):EventLite|null{
+ const today=dayOf(now);
+ const live=events.filter(e=>!e.canceled_at&&(e.my_rsvp==='going'||e.my_rsvp==='interested')&&Number.isFinite(Date.parse(e.starts_at))&&dayOf(new Date(e.ends_at&&Number.isFinite(Date.parse(e.ends_at))?e.ends_at:e.starts_at))>=today);
+ return live.sort((a,b)=>Date.parse(a.starts_at)-Date.parse(b.starts_at)||(a.my_rsvp==='going'?-1:0)-(b.my_rsvp==='going'?-1:0))[0]??null;
+}
+/** Today's race-day status for the widget: "Race day today · Dade City", "Practice day today", "Race in 3 days · Gatorback". */
+export function raceStatus(race:RaceDay|null|undefined,now=new Date()):{race:string;raceLive:boolean}{
+ if(!race||!race.on||!/^\d{4}-\d{2}-\d{2}$/.test(race.day))return {race:'',raceLive:false};
+ const [y,m,d]=race.day.split('-').map(Number),n=calDays(now,new Date(y,m-1,d,12)),where=race.track?` · ${clip(race.track,24)}`:'';
+ if(n<0)return {race:'',raceLive:false};
+ if(n===0)return {race:`${isPractice(race)?'Practice':'Race'} day today${where}`,raceLive:true};
+ if(isPractice(race))return {race:'',raceLive:false};
+ return {race:`${n===1?'Race tomorrow':`Race in ${n} days`}${where}`,raceLive:false};
+}
+export function nextEventProps(events:EventLite[],race:RaceDay|null|undefined,now=new Date()):NextEventProps{
+ const e=pickNextEvent(events,now),status=raceStatus(race,now);
+ if(!e)return {...emptyNextEvent,ready:true,...status,url:status.raceLive?'bakmx://open':'bakmx://events'};
+ const start=new Date(e.starts_at),n=calDays(now,start);
+ return {ready:true,hasEvent:true,name:clip(e.title,48),type:EVENT_TYPE_LABELS[e.event_type]??'',when:start.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'}),
+  time:start.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}),place:clip(e.location_name??'',36),days:Math.max(0,n),daysText:n<0?'On now':n===0?'Today':n===1?'Tomorrow':`In ${n} days`,
+  rsvp:e.my_rsvp==='going'?'Going':'Interested',...status,url:'bakmx://events?event='+encodeURIComponent(e.id)};
+}
+/** Widget entries now and at each local midnight, so "In 3 days" and the race status stay right without opening the app.
+ *  Stops the day after the last thing it shows has passed (at most a month ahead). */
+export function nextEventTimeline(events:EventLite[],race:RaceDay|null|undefined,now=new Date()):{date:Date;props:NextEventProps}[]{
+ const out=[{date:now,props:nextEventProps(events,race,now)}];
+ const last=Math.max(...events.map(e=>Date.parse(e.ends_at??e.starts_at)).filter(Number.isFinite),race?.on&&race.day?Date.parse(race.day+'T23:59:59'):0,0);
+ for(let i=1;i<=31;i++){const at=new Date(now);at.setHours(0,0,0,0);at.setDate(at.getDate()+i);out.push({date:at,props:nextEventProps(events,race,at)});if(at.getTime()>last)break;}
  return out;
 }

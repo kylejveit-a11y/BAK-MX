@@ -4,8 +4,15 @@
 import type {SetupLog} from './rider-types.ts';
 import {SETUP_RESULT_LABELS} from './rider-types.ts';
 
-/** A race the rider set up: the track, the date (today or ahead) and whether the phone's Home Screen widget counts down to it. */
-export type RaceDay={on:boolean;track:string;day:string;widget?:boolean};
+/** What's up next on the day: "Moto 1" at "10:40" (24 h, local). `at` is empty until the rider sets the time. */
+export type NextUp={label:string;at:string};
+/** A race the rider set up: the track, the date (today or ahead) and whether the phone's Home Screen widget counts down to it.
+ *  `kind` is 'practice' for a practice day (today only; no countdown); missing means a race, as saved by older versions.
+ *  `next` is the moto or session up next, with its time if the rider set one. */
+export type RaceDay={on:boolean;track:string;day:string;widget?:boolean;kind?:'race'|'practice';next?:NextUp|null};
+export const isPractice=(r:RaceDay|null|undefined)=>r?.kind==='practice';
+/** "Race day" or "Practice day", for headings and the Lock Screen. */
+export const dayName=(r:RaceDay|null|undefined)=>isPractice(r)?'Practice day':'Race day';
 export const OFF_RACE:RaceDay={on:false,track:'',day:''};
 
 /** The rider's own calendar day (not UTC), so an evening practice still counts as today. */
