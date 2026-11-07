@@ -1,0 +1,1204 @@
+{
+ "slice": "parts fitment and interchange, KTM / Husqvarna / GasGas motocross 2020-2027",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "450 SX-F",
+   "350 SX-F",
+   "250 SX-F",
+   "125 SX",
+   "250 SX",
+   "300 SX",
+   "Husqvarna FC 450",
+   "Husqvarna FC 350",
+   "Husqvarna FC 250",
+   "Husqvarna TC 125",
+   "Husqvarna TC 250",
+   "Husqvarna TC 300",
+   "GasGas MC 450F",
+   "GasGas MC 350F",
+   "GasGas MC 250F",
+   "GasGas MC 125",
+   "GasGas MC 250"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026,
+   2027
+  ]
+ },
+ "conflicts": [
+  {
+   "topic": "GasGas 2023 MC 250F/450F listings",
+   "values": {
+    "GASGAS browser": "listed for both old-generation and new-generation parts"
+   },
+   "spread": "one model year",
+   "note": "2023 Factory Edition is new generation; standard 2023 is old. Records state the catch."
+  },
+  {
+   "topic": "Husqvarna FC 2022 on new-generation parts",
+   "values": {
+    "Husqvarna browser": "FC 250/FC 450 2022 listed on 2023-on parts"
+   },
+   "spread": "one model year",
+   "note": "2022 Rockstar Edition is new generation."
+  }
+ ],
+ "not_found": [],
+ "sources": [
+  "https://ktm.com/en-gr/models/motocross/4-stroke/2025-ktm-450-sx-f.html",
+  "https://www.cyclenews.com/2022/12/article/2023-gasgas-mc-450f-and-mc-250f-factory-edition-first-look",
+  "https://www.gasgas.com/en-us/technical-accessories.html?c1=1002111476&c2=1002150863&product=1003544550",
+  "https://www.gasgas.com/en-us/technical-accessories.html?c1=1002111480&c2=1002622609&product=1002199537",
+  "https://www.gasgas.com/en-us/technical-accessories.html?c1=1002111498&c2=1002172297&product=1003147250",
+  "https://www.gasgas.com/en-us/technical-accessories.html?c1=1002111498&c2=1002172297&product=1004586804",
+  "https://www.gasgas.com/en-us/technical-accessories.html?c1=1002111504&c2=1002150923&product=1003147834",
+  "https://www.gasgas.com/en-us/technical-accessories.html?c1=1002172303&c2=1002866120&product=1003747408",
+  "https://www.husqvarna-motorcycles.com/en-ca/news/2022-rockstar-editions-.html",
+  "https://www.husqvarna-motorcycles.com/en-us/technical-accessories.html?c1=1001563566&c2=1001563613&product=1002627045",
+  "https://www.husqvarna-motorcycles.com/en-us/technical-accessories.html?c1=1001563568&c2=1001563616&product=1003822987",
+  "https://www.ktm.com/en-nl/models/motocross/2-stroke/2026-ktm-250-sx.html",
+  "https://www.ktm.com/en-us/factory-editions-2022-media-info.html",
+  "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509590&c2=1001509592&product=1002627051",
+  "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509590&c2=1001509595&product=1003080637",
+  "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509607&c2=1001509612&product=1003796783",
+  "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509634&c2=1002622597&product=1002621279",
+  "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509634&c2=1002622599&product=1003854878",
+  "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509637&product=1002132791",
+  "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509658&c2=1001509659&product=1000661098",
+  "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509725&c2=1001509728&product=1002626749",
+  "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509725&c2=1001509728&product=1003146909",
+  "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509760&c2=1001509762&product=1002896414",
+  "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509774&c2=1001509775&product=1002437475",
+  "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509774&c2=1001509775&product=1003824876",
+  "https://www.motoonline.com/au/detailed-2025-husqvarna-fc-and-tc-range/"
+ ],
+ "records": [
+  {
+   "id": "fitk-001",
+   "domain": "chassis",
+   "topic": "generation boundary: what changed for 2023 (chassis parts)",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "125 SX",
+     "250 SX",
+     "300 SX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM's 2023 SX and SX-F motocross bikes are a new generation: new hydroformed frame, new die-cast swingarm, new aluminium-polyamide subframe, new bodywork and a new WP XACT shock. Treat 2020-2022 and 2023-on as two separate families for frame, swingarm, subframe, plastics, seat, airbox, rear wheel, triple clamps and exhaust; parts do not cross that line unless KTM lists them for both. Catch: the 2022 450 SX-F and 250 SX-F Factory Edition (released early 2022) already used the 2023-generation chassis, so a \"2022\" Factory Edition takes 2023-on parts, not 2020-2022 parts.",
+   "values": {
+    "generation_a": "2020-2022",
+    "generation_b": "2023-2027",
+    "early_preview": "2022 450/250 SX-F Factory Edition = generation B"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM press info, 2022 450 SX-F and 250 SX-F Factory Edition",
+    "url": "https://www.ktm.com/en-us/factory-editions-2022-media-info.html",
+    "date": "2021-12"
+   },
+   "confidence": "high",
+   "notes": "The 2022 Factory Edition press info lists the new hydroformed frame, die-cast swingarm, aluminium-polyamide hybrid subframe, new bodywork and new XACT fork and shock; the 2023 range carried that chassis. The 2023 two-strokes (125/250/300 SX) moved onto the same new chassis in 2023 (the 250 SX skipped the 2023 US model year). Generation split also visible in every KTM PowerParts fitment list in this file."
+  },
+  {
+   "id": "fitk-002",
+   "domain": "chassis",
+   "topic": "generation boundary: what changed for 2023 (chassis parts)",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 450",
+     "FC 350",
+     "FC 250",
+     "TC 125",
+     "TC 250",
+     "TC 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Husqvarna's TC and FC moved to a new chassis for 2023 (new hydroformed frame, die-cast swingarm, aluminium-polyamide subframe, new bodywork, new WP XACT fork and shock). Treat 2020-2022 and 2023-on as two families for frame, swingarm, subframe, plastics, seat, airbox, rear wheel, triple clamps and exhaust. Catch: the 2022 FC 450 and FC 250 Rockstar Edition already used the 2023-generation chassis, so they take 2023-on parts.",
+   "values": {
+    "generation_a": "2020-2022",
+    "generation_b": "2023-2027",
+    "early_preview": "2022 FC 450/FC 250 Rockstar Edition = generation B"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna news, 2022 Rockstar Editions",
+    "url": "https://www.husqvarna-motorcycles.com/en-ca/news/2022-rockstar-editions-.html",
+    "date": "2021-12"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "fitk-003",
+   "domain": "chassis",
+   "topic": "generation boundary: GasGas changed a year later (2024)",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 450F",
+     "MC 350F",
+     "MC 250F",
+     "MC 125",
+     "MC 250"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "GasGas kept the older chassis through 2023 and moved its MC motocross bikes to the new generation (new frame, die-cast swingarm, new subframe and bodywork) for 2024. So a GasGas 2021-2023 shares old-generation parts with a 2020-2022 KTM or Husqvarna, and a GasGas 2024-on shares new-generation parts with a 2023-on KTM or Husqvarna, where the same part number is listed. Catch: the 2023 MC 450F and MC 250F Factory Edition (released December 2022) previewed the 2024 chassis; a standard 2023 MC-F is the older 2021-2023 chassis. Check which one you have before buying.",
+   "values": {
+    "generation_a": "2021-2023",
+    "generation_b": "2024-2027",
+    "early_preview": "2023 MC 450F/MC 250F Factory Edition = generation B"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "Cycle News 2023 GasGas Factory Edition first look",
+    "url": "https://www.cyclenews.com/2022/12/article/2023-gasgas-mc-450f-and-mc-250f-factory-edition-first-look",
+    "date": "2022-12"
+   },
+   "confidence": "medium",
+   "notes": "Cycle News reprints the GasGas spec list (new generation frame, new aluminium subframe, new die-cast swingarm, new bodywork) for the 2023 Factory Edition and calls it a preview of the 2024 production bike. The 2024 boundary for standard bikes matches every GASGAS Technical Accessories fitment list in this file (old-generation parts end at 2023, new-generation parts start at 2024). Tier OEM because the content is the maker spec list and the maker fitment lists; confidence medium because the article is a reprint."
+  },
+  {
+   "id": "fitk-004",
+   "domain": "suspension",
+   "topic": "2025 frame and linkage update inside the 2023-on generation",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "For 2025 KTM reworked the SX-F frame (material removed around the head tube, engine mounts and shock tower, same geometry), fitted shorter, slimmer linkage arms with smaller bolts and new seals, and new engine mounts. Bodywork, wheels, triple clamps and most bolt-on parts still interchange 2023-2027, but linkage arms, linkage bolts and seals and engine mounts from a 2023-2024 bike are not the same parts as 2025-on. Aftermarket linkages are sold in separate 2023-2024 and 2025-on versions.",
+   "values": {
+    "unchanged_2023_2027": "frame geometry, wheels, triple clamps, most bodywork",
+    "changed_2025": "frame tubes/cut-outs, linkage arms and bolts (smaller), linkage seals, engine mounts, tank shrouds"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM model page, 2025 KTM 450 SX-F",
+    "url": "https://ktm.com/en-gr/models/motocross/4-stroke/2025-ktm-450-sx-f.html",
+    "date": "2024-05"
+   },
+   "confidence": "high",
+   "notes": "Bolt sizes reported by a magazine: 17 to 15 mm and 17 to 14 mm. A suspension tuner sells its linkage in a \"2024.5 and up\" version made to fit the 2025 frames, which matches the change (TUNER tier, one source)."
+  },
+  {
+   "id": "fitk-005",
+   "domain": "suspension",
+   "topic": "2025 frame and linkage update inside the 2023-on generation",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "125 SX",
+     "250 SX",
+     "300 SX"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "For 2025 the KTM SX two-strokes got a revised chromoly frame (wall thickness, front triangle and shock mount), new engine mounts, new linkage and new tank shrouds. Wheels, triple clamps, seat and most bolt-on parts still interchange 2023-2027, but linkage parts, engine mounts and tank shrouds from a 2023-2024 bike are not the same as 2025-on.",
+   "values": {
+    "changed_2025": "frame, engine mounts, linkage, tank shrouds, brake pedal"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM model page, 2026 KTM 250 SX (2025 changes carried over)",
+    "url": "https://www.ktm.com/en-nl/models/motocross/2-stroke/2026-ktm-250-sx.html",
+    "date": "2025-06"
+   },
+   "confidence": "medium",
+   "notes": "The 2025 change list is from a 2025 first-look article (ultimatemotorcycling.com, 2024-04); the KTM model page confirms the 2025 frame and linkage carried into 2026."
+  },
+  {
+   "id": "fitk-006",
+   "domain": "chassis",
+   "topic": "2025 frame and linkage update inside the 2023-on generation",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 450",
+     "FC 350",
+     "FC 250",
+     "TC 125",
+     "TC 250",
+     "TC 300"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Husqvarna's 2025 TC and FC got the same frame material removal around the shock mount, new engine mounts, new linkage seals and smaller linkage bolts, a 5 mm higher and wider seat, new side panels and Brembo brakes and clutch (2023-2024 used Braktec). So 2023-2024 and 2025-on Husqvarnas share wheels and triple clamps, but not seat, side panels, linkage hardware or brake and clutch hydraulics.",
+   "values": {
+    "changed_2025": "frame, engine mounts, linkage seals and bolts, seat (+5 mm), side panels, brakes and clutch to Brembo"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "magazine",
+    "name": "MotoOnline 2025 Husqvarna range detail",
+    "url": "https://www.motoonline.com/au/detailed-2025-husqvarna-fc-and-tc-range/",
+    "date": "2024-06"
+   },
+   "confidence": "medium",
+   "notes": "Husqvarna Technical Accessories list separate seats (A36007040000C1A for 2023-2024, A36007040100C1A for 2025-2026) and separate air-filter-box covers for 2025-on, which agrees."
+  },
+  {
+   "id": "fitk-007",
+   "domain": "chassis",
+   "topic": "front wheel interchange (whole wheel, 21 in)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "125 SX",
+     "250 SX",
+     "300 SX",
+     "FC 450",
+     "FC 350",
+     "FC 250",
+     "TC 125",
+     "TC 250",
+     "TC 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "One front wheel fits every KTM SX/SX-F and Husqvarna TC/FC from 2020 to 2027: KTM lists its Factory front wheel 1.6x21 (A46009901044C1) for all 2020-2027 SX and SX-F models, and Husqvarna lists the same number for all its 2020-2027 TC and FC. The front axle and axle puller are also listed across all years. So a front wheel from any 2020-2027 KTM or Husqvarna motocross bike bolts into any other with its own spacers.",
+   "values": {
+    "part_number": "A46009901044C1 (KTM orange hub A4600990114404)",
+    "fits": "KTM SX/SX-F and Husqvarna TC/FC 2020-2027",
+    "front_axle_puller": "79009981260C1, all years"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM PowerParts browser (ktm.com US), accessory fitment by model year",
+    "url": "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509725&c2=1001509728&product=1002626749",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": "Same number on the Husqvarna browser: https://www.husqvarna-motorcycles.com/en-us/technical-accessories.html?c1=1001563563&c2=1001563604&product=1002626749. The 2023-on Factory Racing front wheel A46009901544C1A is only listed 2023-on; that does not stop the base wheel crossing years. Disc and spacers: keep the disc that matches your caliper (see brake records). Front brake disc A46009960000 is also listed for every year."
+  },
+  {
+   "id": "fitk-008",
+   "domain": "chassis",
+   "topic": "front wheel interchange (whole wheel, 21 in)",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 450F",
+     "MC 350F",
+     "MC 250F",
+     "MC 125",
+     "MC 250"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "GasGas lists the same Factory front wheel 1.6x21 base number for its MC models in both generations (A46009901044C1 for 2021-2023, A46009901044FA red-hub version for 2024-2027), the same wheel KTM and Husqvarna list for 2020-2027. A front wheel from a 2021-2027 GasGas MC, or from a 2020-2027 KTM or Husqvarna, fits a GasGas MC front end.",
+   "values": {
+    "part_number": "A46009901044C1 (2021-2023 listing), A46009901044FA (2024-2027 listing)",
+    "fits": "GasGas MC 2021-2027"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS Technical Accessories browser (gasgas.com US), accessory fitment by model year",
+    "url": "https://www.gasgas.com/en-us/technical-accessories.html?c1=1002111498&c2=1002172297&product=1003147250",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": "Catch on 2024-on GasGas: the front brake is Braktec, not Brembo. The front disc A46009960000 is listed for all GasGas years, so the wheel and disc swap, but keep your own caliper."
+  },
+  {
+   "id": "fitk-009",
+   "domain": "chassis",
+   "topic": "rear wheel: 2020-2022 and 2023-on do not swap",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "125 SX",
+     "250 SX",
+     "300 SX",
+     "FC 450",
+     "FC 350",
+     "FC 250",
+     "TC 125",
+     "TC 250",
+     "TC 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Rear wheels split at the 2023 chassis change. KTM lists its Factory rear wheel 2.15x18/19 as 7901090214430 / 7901090114430 for 2020-2022 and as A4901090104404 / A4601090104404 for 2023-2027, and the 2023-on wheel uses its own spacer set (A46010916044) and its own rear caliper support (A46013975044, 2020-2022 is 77713975044). So a 2020-2022 rear wheel is not listed for a 2023-on bike or the other way round. Within 2020-2022, and within 2023-2027, rear wheels swap freely between SX, SX-F, TC and FC. Catch: the 2022 450 SX-F and 250 SX-F Factory Edition (released early 2022) already used the 2023-generation chassis, so a \"2022\" Factory Edition takes 2023-on parts, not 2020-2022 parts.",
+   "values": {
+    "gen_a_rear_wheel": "7901090214430 (18 in) / 7901090114430 (19 in), 2020-2022",
+    "gen_b_rear_wheel": "A4901090104404 (18 in) / A4601090104404 (19 in), 2023-2027",
+    "gen_b_spacer_set": "A46010916044",
+    "rear_caliper_support": "77713975044 (2020-2022) / A46013975044 (2023-on)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM PowerParts browser (ktm.com US), accessory fitment by model year",
+    "url": "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509725&c2=1001509728&product=1003146909",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": "2020-2022 wheel: https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509725&c2=1001509728&product=1002059116. Husqvarna lists the same split (7901090214430 for 2020-2022, A4901090104468 for 2023-on). KTM gives no reason; the separate spacer set and caliper support show the axle-side hardware changed with the new swingarm. Do not assume a 2022 wheel goes into a 2023 bike with spacers."
+  },
+  {
+   "id": "fitk-010",
+   "domain": "chassis",
+   "topic": "rear wheel: GasGas 2021-2023 and 2024-on do not swap",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 450F",
+     "MC 350F",
+     "MC 250F",
+     "MC 125",
+     "MC 250"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "GasGas lists the old-generation Factory rear wheel (7901090214430 18 in / 7901090114430 19 in) for 2021-2023 MC models and the new-generation wheel (A49010901144FA / A46010901044FA) with spacer set A46010916044 for 2024-2027. A 2021-2023 GasGas rear wheel swaps with a 2020-2022 KTM or Husqvarna rear wheel; a 2024-on GasGas rear wheel swaps with a 2023-on KTM or Husqvarna one. Catch: the 2023 MC 450F and MC 250F Factory Edition (released December 2022) previewed the 2024 chassis; a standard 2023 MC-F is the older 2021-2023 chassis. Check which one you have before buying.",
+   "values": {
+    "gen_a": "7901090214430 / 7901090114430, 2021-2023",
+    "gen_b": "A49010901144FA / A46010901044FA, 2024-2027"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS Technical Accessories browser (gasgas.com US), accessory fitment by model year",
+    "url": "https://www.gasgas.com/en-us/technical-accessories.html?c1=1002111498&c2=1002172297&product=1004586804",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "fitk-011",
+   "domain": "chassis",
+   "topic": "triple clamps and handlebar mounts: split at 2023",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "125 SX",
+     "250 SX",
+     "300 SX",
+     "FC 450",
+     "FC 350",
+     "FC 250",
+     "TC 125",
+     "TC 250",
+     "TC 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Triple clamps and bar mounts do not cross the 2023 change. KTM lists Factory Racing triple clamps 79101999021C1A and stock-type clamps 7810199902204 for 2020-2022, and A46001999021C1A / A4900199902204 for 2023-2027; handlebar mounts are 790019390xx (2020-2022) versus A480010390xx (2023-2027). Inside each range the same clamp fits every SX and SX-F (two- and four-stroke) and the same Factory Racing clamp is listed for Husqvarna TC/FC. The 2023-on Factory Racing clamp offers 20-22 mm adjustable offset. Catch: the 2022 450 SX-F and 250 SX-F Factory Edition (released early 2022) already used the 2023-generation chassis, so a \"2022\" Factory Edition takes 2023-on parts, not 2020-2022 parts.",
+   "values": {
+    "gen_a_clamp": "79101999021C1A (Factory Racing), 7810199902204",
+    "gen_b_clamp": "A46001999021C1A (Factory Racing), A4900199902204",
+    "gen_a_bar_mount": "79001939036 family",
+    "gen_b_bar_mount": "A48001039036 family",
+    "gen_b_offset": "20-22 mm adjustable (Factory Racing)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM PowerParts browser (ktm.com US), accessory fitment by model year",
+    "url": "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509634&c2=1002622597&product=1002621279",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": "2020-2022 clamp listing: https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509634&c2=1002622597&product=1001633447. Husqvarna lists 79101999021C1A for 2020-2022 TC/FC and A46001999021C1A for 2023-on. Whole fork legs: the clamp diameter and fork family differ between generations (new XACT fork for 2023), so swap forks with their own clamps."
+  },
+  {
+   "id": "fitk-012",
+   "domain": "chassis",
+   "topic": "triple clamps and handlebar mounts: GasGas split at 2024",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 450F",
+     "MC 350F",
+     "MC 250F",
+     "MC 125",
+     "MC 250"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "GasGas lists Factory Racing triple clamp 79701999021FAA (or KTM's 79101999021C1A family) for 2021-2023 MC models and A46001999021FAA / A46001999021C1A for 2024-2027; handlebar mount kits are 797019391xx (2021-2023) and A480010390xx (2024-2027). The 2024-on clamp is the same number KTM and Husqvarna list for 2023-on bikes, so a KTM or Husqvarna 2023-on Factory Racing clamp fits a 2024-on GasGas. Stock GasGas clamps are forged rather than CNC-machined. Catch: the 2023 MC 450F and MC 250F Factory Edition (released December 2022) previewed the 2024 chassis; a standard 2023 MC-F is the older 2021-2023 chassis. Check which one you have before buying.",
+   "values": {
+    "gen_a": "79701999021FAA, 2021-2023",
+    "gen_b": "A46001999021FAA / A46001999021C1A, 2024-2027"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS Technical Accessories browser (gasgas.com US), accessory fitment by model year",
+    "url": "https://www.gasgas.com/en-us/technical-accessories.html?c1=1002111480&c2=1002622609&product=1002199537",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "fitk-013",
+   "domain": "chassis",
+   "topic": "plastics and bodywork: 2020-2022 vs 2023-2024 vs 2025-on",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "125 SX",
+     "250 SX",
+     "300 SX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM plastics do not cross the 2023 change: kits 00010000310/311/319/320 are listed for 2020-2022 and the 2023-on kits for 2023-2027 only; front fender 79008010000 (2020-2022) versus A46008010000 (2023-2027), front number plate 79108007100 versus A46008007000, airbox side panel 79106903000 versus A46006903000. Inside 2023-2027 the fender, number plate and side panels carry over, and kit 00010000430K/431K is listed for every 2023-2027 model, but some kits are listed only 2023-2024 (00010000383K) or only 2025-2027 (00010000429K) because KTM changed the tank shrouds for 2025. So a 2023-2024 shroud set is not a 2025-on part.",
+   "values": {
+    "gen_a_kits": "00010000310, 00010000311, 00010000319, 00010000320 (2020-2022)",
+    "gen_b_full_range_kit": "00010000430K / 00010000431K (2023-2027)",
+    "kit_2023_2024": "00010000383K",
+    "kit_2025_2027": "00010000429K",
+    "front_fender": "79008010000 / A46008010000",
+    "number_plate": "79108007100 / A46008007000"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM PowerParts browser (ktm.com US), accessory fitment by model year",
+    "url": "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509774&c2=1001509775&product=1003824876",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": "2025-2027 kit: https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509774&c2=1001509775&product=1003783919. 2025 new shrouds are in KTM's 2025 change list. Plastics are brand-specific: Husqvarna and GasGas bodywork has its own numbers and shape (see their records)."
+  },
+  {
+   "id": "fitk-014",
+   "domain": "chassis",
+   "topic": "plastics and bodywork: Husqvarna splits",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 450",
+     "FC 350",
+     "FC 250",
+     "TC 125",
+     "TC 250",
+     "TC 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Husqvarna plastics kits are listed in three groups: 00010000313/322 for 2020-2022, 00010000373K-379K for 2023-2024, and 00010000433K-435K for 2025-2027 (2025 brought new side panels). Front fender A36008010000 and front number plate A36008007000 carry across 2023-2027; 2020-2022 use 25008010000 and 25108007000. Husqvarna bodywork does not fit a KTM or GasGas: the subframe-side panels and airbox cover differ. Catch: the 2022 FC 450 and FC 250 Rockstar Edition already used the 2023-generation chassis, so they take 2023-on parts.",
+   "values": {
+    "kits_2020_2022": "00010000313, 00010000322",
+    "kits_2023_2024": "00010000373K, 375K, 377K, 379K",
+    "kits_2025_2027": "00010000433K, 434K, 435K",
+    "front_fender_2023_on": "A36008010000"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Technical Accessories browser (husqvarna-motorcycles.com US), accessory fitment by model year",
+    "url": "https://www.husqvarna-motorcycles.com/en-us/technical-accessories.html?c1=1001563568&c2=1001563616&product=1003822987",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "fitk-015",
+   "domain": "chassis",
+   "topic": "plastics and bodywork: GasGas split at 2024",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 450F",
+     "MC 350F",
+     "MC 250F",
+     "MC 125",
+     "MC 250"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "GasGas plastics kits are 00010000348/349 for 2021-2023 and 00010000396K/398K/400K for 2024-2027; front fender A54008010000 (2021-2023) versus A59008010000 (2024-2027); airbox panel A54006003000 versus A59006004000. GasGas bodywork is its own shape and does not take KTM or Husqvarna plastics, even on the shared frame. Catch: the 2023 MC 450F and MC 250F Factory Edition (released December 2022) previewed the 2024 chassis; a standard 2023 MC-F is the older 2021-2023 chassis. Check which one you have before buying.",
+   "values": {
+    "kits_2021_2023": "00010000348, 00010000349",
+    "kits_2024_2027": "00010000396K, 398K, 400K"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS Technical Accessories browser (gasgas.com US), accessory fitment by model year",
+    "url": "https://www.gasgas.com/en-us/technical-accessories.html?c1=1002111504&c2=1002150923&product=1003147834",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "fitk-016",
+   "domain": "chassis",
+   "topic": "seat interchange",
+   "applies_to": {
+    "make": "KTM",
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "125 SX",
+     "250 SX",
+     "300 SX"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM seats split at 2023: Factory Racing seat 79107040100 / 79707240000 for 2020-2022 and A46007040000C1A for 2023-2027, same seat for two- and four-strokes. A 2023-on seat does not fit a 2020-2022 subframe and the reverse. Inside 2023-2027 the same seat is listed for every year.",
+   "values": {
+    "gen_a": "79107040100, 79707240000 (2020-2022)",
+    "gen_b": "A46007040000C1A, A46007040000EBA (2023-2027)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM PowerParts browser (ktm.com US), accessory fitment by model year",
+    "url": "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509760&c2=1001509762&product=1002896414",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": "Husqvarna and GasGas seats are different parts (own subframe-side shape and seat mount)."
+  },
+  {
+   "id": "fitk-017",
+   "domain": "chassis",
+   "topic": "seat interchange",
+   "applies_to": {
+    "make": "Husqvarna",
+    "models": [
+     "FC 450",
+     "FC 350",
+     "FC 250",
+     "TC 125",
+     "TC 250",
+     "TC 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Husqvarna seats come in three groups: 25107240000 for 2020-2022, A36007040000C1A for 2023-2024 (and the 2022 FC Rockstar Edition), and A36007040100C1A for 2025-on, when the seat became 5 mm higher and wider. A 2023-2024 seat is not listed for a 2025-on bike.",
+   "values": {
+    "2020_2022": "25107240000",
+    "2023_2024": "A36007040000C1A",
+    "2025_on": "A36007040100C1A"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Husqvarna Technical Accessories browser (husqvarna-motorcycles.com US), accessory fitment by model year",
+    "url": "https://www.husqvarna-motorcycles.com/en-us/technical-accessories.html?c1=1001563566&c2=1001563613&product=1002627045",
+    "date": "2026-10-22"
+   },
+   "confidence": "medium",
+   "notes": "The 2025-on Factory Racing seat number comes from an official dealer listing (lings.com) rather than the Husqvarna browser."
+  },
+  {
+   "id": "fitk-018",
+   "domain": "chassis",
+   "topic": "seat interchange",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 450F",
+     "MC 350F",
+     "MC 250F",
+     "MC 125",
+     "MC 250"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "GasGas seats split at 2024: Factory Racing seat A54007040000FBA for 2021-2023 and A54107940000FBA (Factory seat A59007040000FBA) for 2024-2027. GasGas seats do not take KTM or Husqvarna seats. Catch: the 2023 MC 450F and MC 250F Factory Edition (released December 2022) previewed the 2024 chassis; a standard 2023 MC-F is the older 2021-2023 chassis. Check which one you have before buying.",
+   "values": {
+    "gen_a": "A54007040000FBA",
+    "gen_b": "A54107940000FBA, A59007040000FBA"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS Technical Accessories browser (gasgas.com US), accessory fitment by model year",
+    "url": "https://www.gasgas.com/en-us/technical-accessories.html?c1=1002172303&c2=1002866120&product=1003747408",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "fitk-019",
+   "domain": "drivetrain",
+   "topic": "rear sprocket and chain: same across all years and models",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "125 SX",
+     "250 SX",
+     "300 SX",
+     "FC 450",
+     "FC 350",
+     "FC 250",
+     "TC 125",
+     "TC 250",
+     "TC 300",
+     "MC 450F",
+     "MC 350F",
+     "MC 250F",
+     "MC 125",
+     "MC 250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Rear sprockets and chains interchange across every KTM SX/SX-F, Husqvarna TC/FC and GasGas MC from 2020 to 2027, two- and four-stroke: KTM lists rear sprockets 5821095104x (and Renthal A4601095104x, Supersprox 81310951045xx) for all of them, and the same chains (520, 118 links: 78910065118, 50310165118, 78010267118 X-ring) for every year. Front sprockets 7973392901x are listed for all KTM SX and SX-F 2020-2027. Only tooth count changes stock gearing.",
+   "values": {
+    "rear_sprocket": "58210951042-52 (steel), A4601095104x (Renthal), 81310951045xx (Supersprox)",
+    "chain": "520 x 118 links (78910065118, 50310165118, 78010267118)",
+    "front_sprocket": "7973392901x (KTM)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM PowerParts browser (ktm.com US), accessory fitment by model year",
+    "url": "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509658&c2=1001509659&product=1000661098",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": "Chain listing: https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509658&c2=1001509661&product=1002059130. Husqvarna and GASGAS browsers list the same rear sprocket and chain numbers for 2020-2027 / 2021-2027. GasGas lists its own front sprocket numbers (A540339290xx) for MC models."
+  },
+  {
+   "id": "fitk-020",
+   "domain": "chassis",
+   "topic": "front brake disc and levers",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "125 SX",
+     "250 SX",
+     "300 SX",
+     "FC 450",
+     "FC 350",
+     "FC 250",
+     "TC 125",
+     "TC 250",
+     "TC 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The front brake disc carries over every year: KTM lists front disc A46009960000 (and Wave disc 25010960000) for all 2020-2027 SX and SX-F, and Husqvarna lists the same numbers. KTM brake lever 7871399204404 and clutch lever 7800293120004 are listed for every 2020-2027 KTM. The rear caliper support changed in 2023 (77713975044 for 2020-2022, A46013975044 for 2023-on). Catch on Husqvarna: 2023-2024 TC/FC used Braktec brake and clutch hydraulics and 2025-on use Brembo, so levers, master cylinders and calipers are not the same parts across those years even though the disc is.",
+   "values": {
+    "front_disc": "A46009960000, 25010960000 (all years)",
+    "brake_lever_ktm": "7871399204404",
+    "clutch_lever_ktm": "7800293120004",
+    "rear_caliper_support": "77713975044 (2020-2022), A46013975044 (2023-on)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM PowerParts browser (ktm.com US), accessory fitment by model year",
+    "url": "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509607&c2=1001509612&product=1003796783",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": "Oversize 270 mm front disc kits need their own caliper support (78913914100). Husqvarna brake brands per year come from the 2025 Husqvarna change list."
+  },
+  {
+   "id": "fitk-021",
+   "domain": "chassis",
+   "topic": "front brake disc and levers",
+   "applies_to": {
+    "make": "GasGas",
+    "models": [
+     "MC 450F",
+     "MC 350F",
+     "MC 250F",
+     "MC 125",
+     "MC 250"
+    ],
+    "years": [
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The front disc A46009960000 is listed for every GasGas MC 2021-2027 (same as KTM), but GasGas uses Braktec brakes and clutch hydraulics, not Brembo, and lists its own levers (78713992044FAA / 78002931200FAA for 2021-2023, A54013901044FAA / A54002931044FAA for 2023-on) and its own Wave disc A59009960000 for 2024-on. So KTM levers, master cylinders and calipers are not listed for GasGas. Note: 2022-2025 GasGas MC and EX front Braktec calipers were recalled in Australia for cracking.",
+   "values": {
+    "shared_disc": "A46009960000",
+    "gasgas_levers": "78713992044FAA/78002931200FAA (2021-2023), A54013901044FAA/A54002931044FAA (2023-on)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "GASGAS Technical Accessories browser (gasgas.com US), accessory fitment by model year",
+    "url": "https://www.gasgas.com/en-us/technical-accessories.html?c1=1002111476&c2=1002150863&product=1003544550",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "fitk-022",
+   "domain": "engine_mods",
+   "topic": "four-stroke exhaust (header and silencer) fit by generation and engine",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna",
+     "GasGas"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "FC 450",
+     "FC 350",
+     "FC 250",
+     "MC 450F",
+     "MC 350F",
+     "MC 250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Four-stroke exhausts are generation- and engine-specific. Akrapovic slip-on 79505979000 fits the 2020-2022 KTM 250 and 450 SX-F (and 2020-2022 FC 250/450, 2021-2023 MC 250F/450F); for the new generation it is A46005979000 for the 250 SX-F and A48005979000 for the 350 and 450 SX-F (2023-2027, also FC and 2024-on MC). Full systems and FMF headers are listed per engine (for example FMF Megabomb header 79505907501 for the 2020-2022 450, A46005907501 for the 2023-on 250). A 2020-2022 pipe does not fit a 2023-on bike. Catch for 2026-on: KTM lists a new slip-on A47005979000 for 2026-2027 SX-F, and US 2027 standard SX-F (and 2026 Factory Editions) use a different airbox and filter for sound rules; to fit the race exhaust KTM says to change the airbox and filter back to 2025 parts and load the matching map, after which the bike no longer meets the sound limit.",
+   "values": {
+    "slipon_gen_a_250_450": "79505979000 (KTM/Husqvarna 2020-2022, GasGas 2021-2023)",
+    "slipon_gen_b_250": "A46005979000",
+    "slipon_gen_b_350_450": "A48005979000",
+    "slipon_2026_2027": "A47005979000",
+    "header_fmf_450_gen_a": "79505907501",
+    "header_fmf_250_gen_b": "A46005907501"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM PowerParts browser (ktm.com US), accessory fitment by model year",
+    "url": "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509590&c2=1001509592&product=1002627051",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": "2026-27 slip-on: https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509590&c2=1001509592&product=1004502429. Airbox note comes from KTM PowerParts fitting notes (see p5_ktm_group_mx.json record on US MY27 intake). The Husqvarna FC 250 is listed for new-generation parts from 2022 because of the Rockstar Edition."
+  },
+  {
+   "id": "fitk-023",
+   "domain": "engine_mods",
+   "topic": "two-stroke pipe and silencer fit by generation",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "300 SX",
+     "TC 125",
+     "TC 250",
+     "TC 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Two-stroke pipes split at 2023: FMF Factory Fatty 50505907001 (125) and 55505907001 (250) fit 2020-2022 KTM SX and Husqvarna TC; for 2023-on it is A42005907001 (125 SX/TC 125) and A44005907001 (250 SX 2024-on, 300 SX, TC 250). Akrapovic silencers follow the same split (50505979000 / 55505979000 old, A42005979000 / A44005979000 new), and KTM lists a separate silencer A45005979000 for 2027 250/300 SX and TC 250. A 2020-2022 pipe does not fit a 2023-on frame.",
+   "values": {
+    "125_gen_a": "50505907001",
+    "125_gen_b": "A42005907001",
+    "250_gen_a": "55505907001",
+    "250_300_gen_b": "A44005907001",
+    "silencer_2027_250_300": "A45005979000"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM PowerParts browser (ktm.com US), accessory fitment by model year",
+    "url": "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509590&c2=1001509595&product=1003080637",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "fitk-024",
+   "domain": "maintenance",
+   "topic": "airbox and air filter: split at 2023",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "125 SX",
+     "250 SX",
+     "300 SX",
+     "FC 450",
+     "FC 350",
+     "FC 250",
+     "TC 125",
+     "TC 250",
+     "TC 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Airbox parts and filters do not cross the 2023 change: KTM lists air filter 79006015000 for 2016-2022, airbox front part 79106001010 and filter wash cover 7900699810004 for 2020-2022, and airbox front part A46006001010 and wash cover A46006998000 for 2023-2027 (same wash cover on 2023-on Husqvarna and 2024-on GasGas). Catch: 2026 Factory Editions and US 2027 standard SX-F use a different airbox and filter to meet sound rules.",
+   "values": {
+    "filter_gen_a": "79006015000",
+    "airbox_front_gen_a": "79106001010",
+    "airbox_front_gen_b": "A46006001010",
+    "wash_cover_gen_b": "A46006998000"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM PowerParts browser (ktm.com US), accessory fitment by model year",
+    "url": "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509774&c2=1001509775&product=1002437475",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "fitk-025",
+   "domain": "chassis",
+   "topic": "footpegs and 450 radiators (old generation)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "125 SX",
+     "250 SX",
+     "300 SX",
+     "FC 450",
+     "FC 350",
+     "FC 250",
+     "TC 125",
+     "TC 250",
+     "TC 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "On the 2020-2022 generation, Pivot Pegz 79703940044 and the footpeg slider kit fit every KTM SX/SX-F and Husqvarna TC/FC, and the Factory Racing radiator kit 79535910044 fits both the 450 SX-F and FC 450. Neither part is listed for the 2023-on chassis, so do not assume they carry over.",
+   "values": {
+    "pivot_pegz": "79703940044 (2020-2022)",
+    "radiator_kit_450": "79535910044 (2020-2022)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM PowerParts browser (ktm.com US), accessory fitment by model year",
+    "url": "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509637&product=1002132791",
+    "date": "2026-10-22"
+   },
+   "confidence": "high",
+   "notes": "GasGas lists the same Pivot Pegz and 450 radiator kit for its 2021-2023 MC models."
+  },
+  {
+   "id": "fitk-026",
+   "domain": "suspension",
+   "topic": "fork and shock: generation-specific, swap as complete units with clamps",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "125 SX",
+     "250 SX",
+     "300 SX",
+     "FC 450",
+     "FC 350",
+     "FC 250",
+     "TC 125",
+     "TC 250",
+     "TC 300"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The 2023 generation brought a new WP XACT fork and a new, shorter XACT shock with new linkage. KTM lists fork adjuster parts (rebound adjuster A46004925033, adjuster kit 00010000413) only for 2023-2027. So a 2020-2022 shock is not a direct fit in a 2023-on frame (the shock and linkage changed together), and forks should be swapped together with their own triple clamps. 2025-on linkage hardware differs again from 2023-2024.",
+   "values": {
+    "gen_b_fork_parts": "A46004925033, 00010000413 (2023-2027)",
+    "shock_change_2023": "shorter shock, new linkage"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "KTM PowerParts browser (ktm.com US), accessory fitment by model year",
+    "url": "https://www.ktm.com/en-us/parts---wear/powerparts/products.html?c1=1001509634&c2=1002622599&product=1003854878",
+    "date": "2026-10-22"
+   },
+   "confidence": "medium",
+   "notes": "Shock length change (15 mm shorter on the 2023 450 SX-F) is from a magazine; KTM press info for the 2022 Factory Edition says \"new WP XACT rear shock design\". Whole fork and shock part numbers per year are compared in the fiche-based records below when available."
+  }
+ ]
+}

@@ -1,0 +1,2958 @@
+{
+ "version": 1,
+ "made": "2026-11-07",
+ "knowledge_version": "mx-tires-1",
+ "status": "PROPOSAL ONLY. Nothing in the database or public/parts-catalog was changed.",
+ "purpose": "A clean motocross tire list for the parts catalog (RANKED_PLAN 3.3), plus tube, mousse and TUbliss entries, to replace the adventure, trials, dual-sport, rally and enduro tires now offered on motocross bikes.",
+ "how_to_apply": [
+  "On motocross models (SX, SX-F, MC, FC, TC, CRF-R, YZ, YZ-F, KX, RM-Z, 85/65/50 minis): offer only the tires below; remove the rows in drop_from_mx_bikes.",
+  "Rows in drop_from_mx_bikes marked enduro, cross-country or desert can stay on XC, XC-W, EXC, TE, FX, EX, KX-X, YZ-X and CRF-RX models.",
+  "Store position (front or rear), size and terrain as fields, not in the colour field (PARTS_AUDIT 2.3); position matters because several lines are rear-only.",
+  "Filter sizes by the bike's own stock size from verified claims (front 80/100-21; rear 100/90-19, 110/90-19 or 120/80-19 on big bikes; 85s by wheel size). 18-inch rears belong to off-road models.",
+  "Give \"Mousse or tube\" its own entries (below) on every bike so it never disappears for lack of listings; tighten the part-type regex in shared/part-types.ts, which today also matches \"Vent Tube Cap\", \"Long Vent Tube\" and \"Twister Tube Insert\".",
+  "review_before_listing rows are motocross-looking tires not researched in this pass; keep or drop after checking the maker's page."
+ ],
+ "sources_file": "docs/research/tires/SOURCES.md",
+ "mx_tires": [
+  {
+   "brand": "Dunlop",
+   "model": "Geomax MX34",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "soft to intermediate"
+   ],
+   "current_line": true,
+   "sizes": {
+    "front": [
+     "80/100-21"
+    ],
+    "rear": [
+     "100/90-19",
+     "110/90-19",
+     "120/80-19"
+    ]
+   },
+   "sizes_status": "Big-bike sizes confirmed as original equipment in bike makers' manuals; Dunlop lists 10, 12, 14, 17, 19 and 21-inch fronts and 10, 12, 14, 16, 18 and 19-inch rears (exact mini sizes to confirm from Dunlop's chart).",
+   "note": "Soft to intermediate with the emphasis on softer dirt; also used from hard-packed to loose loam. Successor to the MX33; mini to big-bike sizes.",
+   "sources": [
+    "dunlop-mx34",
+    "dunlop-offroad-facts",
+    "bike-manuals"
+   ]
+  },
+  {
+   "brand": "Dunlop",
+   "model": "Geomax MX14",
+   "type": "Tires",
+   "position": "rear",
+   "terrain": [
+    "sand",
+    "mud"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Rear for deep sand and mud only.",
+   "sources": [
+    "dunlop-geomax-eu",
+    "dunlop-offroad-facts"
+   ]
+  },
+  {
+   "brand": "Dunlop",
+   "model": "Geomax MX53",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "intermediate to hard",
+    "hard"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Intermediate to hard pack. An MX53 front with an MX34 rear is Dunlop's mixed intermediate pairing.",
+   "sources": [
+    "dunlop-geomax-eu",
+    "dunlop-offroad-facts",
+    "dunlop-mx34"
+   ]
+  },
+  {
+   "brand": "Dunlop",
+   "model": "Geomax MX71",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "hard"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Hard terrain (listed in Dunlop's European range).",
+   "sources": [
+    "dunlop-geomax-eu"
+   ]
+  },
+  {
+   "brand": "Dunlop",
+   "model": "Geomax MX33",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "soft to intermediate"
+   ],
+   "current_line": false,
+   "sizes": {
+    "front": [
+     "80/100-21"
+    ],
+    "rear": [
+     "100/90-19",
+     "110/90-19",
+     "120/80-19"
+    ]
+   },
+   "sizes_status": "Original-equipment sizes from bike makers' manuals; replaced by the MX34.",
+   "note": "Soft, mud and intermediate; replaced by the MX34 and still fitted as original equipment on many bikes.",
+   "sources": [
+    "dunlop-geomax-eu",
+    "dunlop-mx34",
+    "bike-manuals"
+   ]
+  },
+  {
+   "brand": "Dunlop",
+   "model": "Geomax MX3S",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "soft to intermediate"
+   ],
+   "current_line": false,
+   "sizes": {
+    "front": [
+     "80/100-21"
+    ],
+    "rear": [
+     "100/90-19",
+     "110/90-19",
+     "120/80-19"
+    ]
+   },
+   "sizes_status": "Original-equipment sizes from bike makers' manuals; older line.",
+   "note": "Older soft-to-intermediate line, original equipment on many bikes before the MX33 and MX34.",
+   "sources": [
+    "bike-manuals"
+   ]
+  },
+  {
+   "brand": "Dunlop",
+   "model": "Geomax MX12",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "sand",
+    "mud"
+   ],
+   "current_line": false,
+   "sizes": {
+    "front": [],
+    "rear": []
+   },
+   "sizes_status": "21-inch front and 19-inch rear for 250 and 450 bikes; exact sizes to confirm. Older line.",
+   "note": "Older sand and mud line, made for 21-inch front and 19-inch rear.",
+   "sources": [
+    "dunlop-mx12"
+   ]
+  },
+  {
+   "brand": "Michelin",
+   "model": "Starcross 6 Sand",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "sand"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Michelin puts the Sand on both ends for sand.",
+   "sources": [
+    "michelin-choose-mx"
+   ]
+  },
+  {
+   "brand": "Michelin",
+   "model": "Starcross 6 Mud",
+   "type": "Tires",
+   "position": "rear",
+   "terrain": [
+    "mud"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Rear for mud; Michelin pairs it with a Starcross 6 Medium Soft front.",
+   "sources": [
+    "michelin-choose-mx"
+   ]
+  },
+  {
+   "brand": "Michelin",
+   "model": "Starcross 6 Medium Soft",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "soft",
+    "soft to intermediate"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Soft to intermediate ground a finger can push into; the more comfortable of the two middle tires.",
+   "sources": [
+    "michelin-choose-mx",
+    "michelin-starcross-family"
+   ]
+  },
+  {
+   "brand": "Michelin",
+   "model": "Starcross 6 Medium Hard",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "intermediate"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Intermediate; more responsive than the Medium Soft, especially on the gas.",
+   "sources": [
+    "michelin-choose-mx",
+    "michelin-starcross-family"
+   ]
+  },
+  {
+   "brand": "Michelin",
+   "model": "Starcross 6 Hard",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "hard"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Dry, compacted ground with or without stones, where a finger will not go in; Michelin's pick for supercross.",
+   "sources": [
+    "michelin-choose-mx"
+   ]
+  },
+  {
+   "brand": "Michelin",
+   "model": "Starcross 5 Mini",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "minis"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Michelin's line for small bikes.",
+   "sources": [
+    "michelin-starcross-family"
+   ]
+  },
+  {
+   "brand": "Pirelli",
+   "model": "Scorpion MX32 Mid Soft",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "soft to intermediate"
+   ],
+   "current_line": true,
+   "sizes": {
+    "front": [
+     "80/100-21",
+     "90/100-21",
+     "2.50-10",
+     "60/100-12",
+     "80/100-14",
+     "70/100-17",
+     "70/100-19"
+    ],
+    "rear": [
+     "100/90-19",
+     "110/90-19",
+     "120/80-19",
+     "120/90-19",
+     "90/100-12",
+     "2.75-10",
+     "80/100-12",
+     "90/100-14",
+     "90/100-16",
+     "110/90-17"
+    ]
+   },
+   "sizes_status": "From Pirelli's 2026 off-road flyer (front/rear placement of a few rows unclear in its layout).",
+   "note": "Soft (mud, sand) through intermediate (dry soil, gravel); new generation from 2025; minicross sizes too.",
+   "sources": [
+    "pirelli-mx-catalog",
+    "pirelli-offroad-2026"
+   ]
+  },
+  {
+   "brand": "Pirelli",
+   "model": "Scorpion MX32 Mid Hard",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "intermediate to hard"
+   ],
+   "current_line": true,
+   "sizes": {
+    "front": [
+     "80/100-21",
+     "70/100-19"
+    ],
+    "rear": [
+     "100/90-19",
+     "110/90-19",
+     "120/80-19",
+     "90/100-16"
+    ]
+   },
+   "sizes_status": "From Pirelli's 2026 off-road flyer.",
+   "note": "Medium to hard ground.",
+   "sources": [
+    "pirelli-mx-catalog",
+    "pirelli-offroad-2026"
+   ]
+  },
+  {
+   "brand": "Pirelli",
+   "model": "Scorpion MX Soft",
+   "type": "Tires",
+   "position": "rear",
+   "terrain": [
+    "sand",
+    "mud",
+    "soft"
+   ],
+   "current_line": true,
+   "sizes": {
+    "front": [],
+    "rear": [
+     "80/100-12",
+     "90/100-16",
+     "100/90-19",
+     "110/90-19",
+     "120/80-19",
+     "120/90-18"
+    ]
+   },
+   "sizes_status": "From Pirelli's 2026 off-road flyer; the 18-inch size is for off-road models.",
+   "note": "Rear for very soft ground: mud, sand and soft clay.",
+   "sources": [
+    "pirelli-mx-catalog",
+    "pirelli-offroad-2026"
+   ]
+  },
+  {
+   "brand": "Pirelli",
+   "model": "Scorpion MX Extra X",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "all-round"
+   ],
+   "current_line": true,
+   "sizes": {
+    "front": [
+     "80/100-21"
+    ],
+    "rear": [
+     "100/90-19",
+     "110/90-19",
+     "120/90-19"
+    ]
+   },
+   "sizes_status": "From Pirelli's 2026 off-road flyer.",
+   "note": "Long-lasting all-rounder for practice and amateur racing on mixed terrain.",
+   "sources": [
+    "pirelli-mx-catalog",
+    "pirelli-offroad-2026"
+   ]
+  },
+  {
+   "brand": "Bridgestone",
+   "model": "Battlecross X10",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "sand",
+    "mud"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Sand and mud.",
+   "sources": [
+    "bridgestone-gripping"
+   ]
+  },
+  {
+   "brand": "Bridgestone",
+   "model": "Battlecross X20",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "soft"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Soft and muddy ground.",
+   "sources": [
+    "bridgestone-gripping"
+   ]
+  },
+  {
+   "brand": "Bridgestone",
+   "model": "Battlecross X31",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "intermediate"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "A true intermediate that copes with soft and hard; successor to the X30.",
+   "sources": [
+    "bridgestone-x31"
+   ]
+  },
+  {
+   "brand": "Bridgestone",
+   "model": "Battlecross X40",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "intermediate to hard",
+    "hard"
+   ],
+   "current_line": true,
+   "sizes": {
+    "front": [
+     "80/100-21",
+     "90/100-21"
+    ],
+    "rear": [
+     "100/90-19",
+     "110/90-19",
+     "120/80-19",
+     "110/100-18"
+    ]
+   },
+   "sizes_status": "From a dealer listing; confirm with Bridgestone.",
+   "note": "Medium to hard terrain.",
+   "sources": [
+    "bridgestone-gripping",
+    "bridgestone-x40-dealer"
+   ]
+  },
+  {
+   "brand": "Maxxis",
+   "model": "Maxxcross MX-ST",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "soft",
+    "sand"
+   ],
+   "current_line": true,
+   "sizes": {
+    "front": [
+     "80/100-21",
+     "70/100-17",
+     "70/100-19"
+    ],
+    "rear": [
+     "100/90-19",
+     "110/90-19",
+     "90/100-14",
+     "90/100-16"
+    ]
+   },
+   "sizes_status": "MX-ST+ original-equipment sizes from bike makers' manuals (GasGas MC, KTM 85 SX).",
+   "note": "Soft, loamy and sandy tracks; the MX-ST+ is original equipment on several European bikes, including 85s.",
+   "sources": [
+    "maxxis-guide-au",
+    "bike-manuals"
+   ]
+  },
+  {
+   "brand": "Maxxis",
+   "model": "Maxxcross MX-SI",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "soft to intermediate"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Soft to intermediate.",
+   "sources": [
+    "maxxis-offroad",
+    "maxxis-guide-au"
+   ]
+  },
+  {
+   "brand": "Maxxis",
+   "model": "Maxxcross MX-IH",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "intermediate to hard"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Intermediate to hard, including rocky and blue-groove hard pack.",
+   "sources": [
+    "maxxis-offroad",
+    "maxxis-guide-au"
+   ]
+  },
+  {
+   "brand": "Maxxis",
+   "model": "Maxxcross SM",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "sand",
+    "mud"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Mud and sand.",
+   "sources": [
+    "maxxis-offroad"
+   ]
+  },
+  {
+   "brand": "Kenda",
+   "model": "Southwick II",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "sand",
+    "mud"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Sand and mud.",
+   "sources": [
+    "kenda-guide"
+   ]
+  },
+  {
+   "brand": "Kenda",
+   "model": "Millville II",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "soft to intermediate"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Soft to intermediate.",
+   "sources": [
+    "kenda-guide"
+   ]
+  },
+  {
+   "brand": "Kenda",
+   "model": "Washougal II",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "intermediate"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Intermediate.",
+   "sources": [
+    "kenda-guide"
+   ]
+  },
+  {
+   "brand": "Kenda",
+   "model": "Washougal III",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "intermediate"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Intermediate.",
+   "sources": [
+    "kenda-dealer"
+   ]
+  },
+  {
+   "brand": "Kenda",
+   "model": "Sand Mad",
+   "type": "Tires",
+   "position": "rear",
+   "terrain": [
+    "sand",
+    "mud"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Sand and mud rear.",
+   "sources": [
+    "kenda-guide"
+   ]
+  },
+  {
+   "brand": "Kenda",
+   "model": "Triple",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "hard"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Made for arenacross dirt.",
+   "sources": [
+    "kenda-guide"
+   ]
+  },
+  {
+   "brand": "Shinko",
+   "model": "520",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "intermediate to hard"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Intermediate and hard.",
+   "sources": [
+    "shinko-520"
+   ]
+  },
+  {
+   "brand": "Shinko",
+   "model": "546",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "soft to intermediate"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Soft to intermediate.",
+   "sources": [
+    "shinko-546-525"
+   ]
+  },
+  {
+   "brand": "Shinko",
+   "model": "525 Hybrid Cheater",
+   "type": "Tires",
+   "position": "rear",
+   "terrain": [
+    "soft to intermediate"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Soft to intermediate rear.",
+   "sources": [
+    "shinko-546-525"
+   ]
+  },
+  {
+   "brand": "IRC",
+   "model": "VX40",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "intermediate to hard"
+   ],
+   "current_line": true,
+   "sizes": {
+    "front": [
+     "80/100-21",
+     "90/90-21"
+    ],
+    "rear": [
+     "110/90-19",
+     "120/80-19",
+     "110/100-18",
+     "120/90-18"
+    ]
+   },
+   "sizes_status": "From a product note (2023); confirm with IRC.",
+   "note": "Intermediate to hard.",
+   "sources": [
+    "irc-vx40"
+   ]
+  },
+  {
+   "brand": "IRC",
+   "model": "VX30",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "soft to intermediate"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Soft to intermediate.",
+   "sources": [
+    "irc-vx30"
+   ]
+  },
+  {
+   "brand": "Mitas",
+   "model": "Terra Force-MX Sand",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "sand"
+   ],
+   "current_line": true,
+   "sizes": {
+    "front": [
+     "80/100-21"
+    ],
+    "rear": [
+     "100/90-19",
+     "110/90-19",
+     "120/80-19"
+    ]
+   },
+   "sizes_status": "From Mitas' launch release (2019).",
+   "note": "Sand and extra-soft terrain.",
+   "sources": [
+    "mitas-terraforce"
+   ]
+  },
+  {
+   "brand": "Mitas",
+   "model": "Terra Force-MX SM",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "soft to intermediate"
+   ],
+   "current_line": true,
+   "sizes": {
+    "front": [
+     "80/100-21",
+     "90/90-21",
+     "70/100-14"
+    ],
+    "rear": [
+     "100/90-19",
+     "110/90-19",
+     "120/80-19",
+     "100/100-18",
+     "110/100-18",
+     "120/90-18"
+    ]
+   },
+   "sizes_status": "From Mitas' launch release (2019); 18-inch rears are for off-road models.",
+   "note": "Soft to medium.",
+   "sources": [
+    "mitas-terraforce"
+   ]
+  },
+  {
+   "brand": "Mitas",
+   "model": "Terra Force-MX MH",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "intermediate to hard"
+   ],
+   "current_line": true,
+   "sizes": {
+    "front": [
+     "80/100-21",
+     "90/90-21"
+    ],
+    "rear": [
+     "100/90-19",
+     "110/90-19",
+     "120/80-19",
+     "100/100-18",
+     "110/100-18",
+     "120/90-18"
+    ]
+   },
+   "sizes_status": "From Mitas' launch release (2019); 18-inch rears are for off-road models.",
+   "note": "Medium to hard.",
+   "sources": [
+    "mitas-terraforce"
+   ]
+  },
+  {
+   "brand": "Metzeler",
+   "model": "MC360 Mid Soft",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "soft to intermediate"
+   ],
+   "current_line": true,
+   "sizes": null,
+   "sizes_status": "Sizes to confirm from the maker's size chart before listing.",
+   "note": "Soft to medium, made to cope with changing ground.",
+   "sources": [
+    "metzeler-mc360"
+   ]
+  },
+  {
+   "brand": "Metzeler",
+   "model": "MC360 Mid Hard",
+   "type": "Tires",
+   "position": "both",
+   "terrain": [
+    "intermediate to hard"
+   ],
+   "current_line": true,
+   "sizes": {
+    "front": [
+     "80/100-21",
+     "90/90-21"
+    ],
+    "rear": [
+     "100/90-19",
+     "110/90-19",
+     "100/100-18",
+     "110/100-18",
+     "120/100-18",
+     "140/80-18"
+    ]
+   },
+   "sizes_status": "From Metzeler's product page; 18-inch rears are for off-road models.",
+   "note": "Medium to hard.",
+   "sources": [
+    "metzeler-mc360"
+   ]
+  }
+ ],
+ "tubes_mousse_tubliss": [
+  {
+   "brand": "Generic",
+   "model": "Standard inner tube",
+   "type": "Mousse or tube",
+   "position": "both",
+   "sizes_status": "Match the tire size printed on the sidewall.",
+   "note": "New tube with every new tire.",
+   "sources": [
+    "dunlop-care-pdf"
+   ]
+  },
+  {
+   "brand": "Michelin",
+   "model": "Ultra Heavy Duty tube (4 mm)",
+   "type": "Mousse or tube",
+   "position": "both",
+   "sizes": {
+    "front": [
+     "80/100-21",
+     "90/90-21"
+    ],
+    "rear": []
+   },
+   "sizes_status": "21-inch listing seen; rear sizes to confirm.",
+   "note": "4 mm natural-rubber wall for pinch and puncture resistance.",
+   "sources": [
+    "michelin-uhd-listing"
+   ]
+  },
+  {
+   "brand": "Bridgestone",
+   "model": "Ultra Heavy Duty tube",
+   "type": "Mousse or tube",
+   "position": "both",
+   "sizes": null,
+   "sizes_status": "Sizes to confirm.",
+   "note": "Heavy-duty tube; listed by retailers.",
+   "sources": [
+    "mousse-guide-retailer"
+   ]
+  },
+  {
+   "brand": "Michelin",
+   "model": "Bib Mousse",
+   "type": "Mousse or tube",
+   "position": "both",
+   "sizes": null,
+   "sizes_status": "Sizes from Michelin's Bib Mousse chart (one size covers 80/100-21 and 90/90-21).",
+   "note": "Made for Michelin tires; MX, enduro, cross-country and rally; feel about 0.8–1.0 bar; use within 6 months of fitting; 130 km/h maximum; gel every fit.",
+   "sources": [
+    "michelin-bib-mousse",
+    "michelin-choose-mx"
+   ]
+  },
+  {
+   "brand": "Nuetech",
+   "model": "Nitromousse Platinum",
+   "type": "Mousse or tube",
+   "position": "both",
+   "sizes": null,
+   "sizes_status": "18 to 21-inch sizes on Nuetech's fitment chart.",
+   "note": "Mousse aiming at a 10–12 psi feel.",
+   "sources": [
+    "nitromousse-listing"
+   ]
+  },
+  {
+   "brand": "Nuetech",
+   "model": "Nitromousse Plushie",
+   "type": "Mousse or tube",
+   "position": "both",
+   "sizes": null,
+   "sizes_status": "Sizes to confirm.",
+   "note": "6–8 psi feel for slow technical riding; offer on off-road models, not as a motocross default.",
+   "offroad_only": true,
+   "sources": [
+    "nitromousse-listing"
+   ]
+  },
+  {
+   "brand": "Nuetech",
+   "model": "TUbliss Gen 2.0",
+   "type": "Mousse or tube",
+   "position": "both",
+   "sizes": {
+    "front": [
+     "21-inch (1.6 in rim)"
+    ],
+    "rear": [
+     "18-inch (1.85–2.15 in rim)",
+     "19-inch (1.85–2.15 in rim)"
+    ]
+   },
+   "sizes_status": "Big-wheel kits; no mini kit seen.",
+   "note": "Tubeless system with a 100 psi core that holds the bead and takes the place of the rim lock; tire runs lower than with a tube; new tires only; off-road use.",
+   "sources": [
+    "nuetech-tubliss-guide",
+    "tubliss-kit-listing"
+   ]
+  }
+ ],
+ "rim_locks_note": "Rim locks and rim-lock nuts/spacers (Motion Pro, Moose, Turner, DRC, BILT, RFX and others) are already listed under Wheels on every family; keep them, typed as \"Rim locks\".",
+ "drop_from_mx_bikes": [
+  {
+   "name": "IRC | GP-21 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "vintage or trail pattern"
+  },
+  {
+   "name": "Kenda | Klassic K257D DOT Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Pirelli | MT43 Pro Trial Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "trials tire"
+  },
+  {
+   "name": "Kenda | Trakmaster K760 DOT Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Bridgestone | TW301 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Shinko | E804/E805 Adventure Trail Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure or scooter tire"
+  },
+  {
+   "name": "Shinko | Dual Sport 705 Series Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Metzeler | Enduro 3 Sahara Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Dunlop | Trailmax Mission Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Continental | TKC80 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Pirelli | Scorpion Rally STR Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Kenda | Parker DT K772 DOT Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Goldentyre | GT216AA \"Fatty\" Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Kenda | Dual Sport K270 Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Shinko | Dual Sport 705 Series Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "IRC | GP-210 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "vintage or trail pattern"
+  },
+  {
+   "name": "Shinko | Dual Sport 705 Series Front/Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Pirelli | Scorpion Rally STR Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Metzeler | Karoo 4 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Metzeler | Karoo 4 Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Kenda | Knarly K777F Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Michelin | Anakee Wild Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Kenda | Dual Sport K270 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Metzeler | Karoo 4 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Continental | TKC70 Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Pirelli | Scorpion Rally STR Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Continental | TKC 80 2 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Artrax | XC Enduro Fat Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Kenda | Klassic K257D Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Michelin | Anakee Adventure Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Kenda | Big Block K784 Dual Sport Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Maxxis | Maxxcross IT Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Kenda | Big Block K784 Dual Sport Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Shinko | E804 Adventure Trail Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure or scooter tire"
+  },
+  {
+   "name": "Goldentyre | GT723RH Rally Raid Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Kenda | Trakmaster K760 DOT Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Shinko | Golden Boy Dual Sport 244 Series Front/Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Michelin | Anakee Adventure 2 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Kenda | Klassic K257D Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Avon Tire | TrekRider Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Pirelli | Scorpion XC Mid Hard Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Bridgestone | M59 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "vintage or trail pattern"
+  },
+  {
+   "name": "IRC | VE-32 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Michelin | Anakee Wild Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Dunlop | Geomax AT82 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Kenda | Parker DT K772 DOT Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Kenda | Equilibrium K787 DOT Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "trials tire"
+  },
+  {
+   "name": "Pirelli | MT21 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Kenda | Parker DT K772 DOT Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Kenda | Ice Tire K335",
+   "families": [
+    "honda"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Dunlop | Trailmax Mission Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Avon Tire | TrekRider Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Continental | TKC70 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Avon Tire | TrekRider Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Michelin | Anakee Adventure Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Kenda | Big Block K784 Dual Sport Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Pirelli | MT90AT Scorpion Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Metzeler | Enduro 3 Sahara Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Goldentyre | GT216AA Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Continental | TKC70 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Shinko | 421 Front/Rear Scooter Tire",
+   "families": [
+    "honda",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure or scooter tire"
+  },
+  {
+   "name": "IRC | VE-33 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Michelin | Anakee Wild Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Shinko | Dual Sport 705 Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Continental | TKC80 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Shinko | SR241 Trials Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "trials tire"
+  },
+  {
+   "name": "Continental | TKC70 Rocks Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Kenda | Gauntlet K776F Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Continental | TKC 80 2 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Dunlop | Geomax Trials TL01 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "trials tire"
+  },
+  {
+   "name": "Avon Tire | TrailRider Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Dunlop | Trailmax Raid Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Michelin | Anakee Adventure 2 Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Kenda | Ibex K774 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Metzeler | Enduro 3 Sahara Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Shinko | E805 Adventure Trail Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure or scooter tire"
+  },
+  {
+   "name": "Dunlop | Trailmax Mission Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Shinko | Dual Sport 700 Series Front/Rear Tire",
+   "families": [
+    "honda",
+    "ktm-family",
+    "triumph"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Dunlop | Trailmax Raid Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Dunlop | Trailmax Raid Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "IRC | VE-35 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Continental | TKC 80 2 Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Pirelli | Scorpion Rally Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Continental | TKC80 Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Kenda | Ibex K774 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Michelin | Anakee Adventure 2 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Dunlop | D606 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Kenda | Dual Sport K270 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Pirelli | Scorpion MT90AT Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Pirelli | Scorpion Rally Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "IRC | VE-33S GEKKOTA Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Michelin | Desert Race Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Pirelli | Scorpion XC Mid Hard Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Dunlop | K950 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "vintage or trail pattern"
+  },
+  {
+   "name": "Artrax | XC Enduro Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Pirelli | MT43 Pro Trial Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "trials tire"
+  },
+  {
+   "name": "Dunlop | AT81EX Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Dunlop | D908 Rally Raid Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Dunlop | D606 Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Dunlop | Geomax Trials TL01 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "trials tire"
+  },
+  {
+   "name": "IRC | GP-22 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "vintage or trail pattern"
+  },
+  {
+   "name": "Pirelli | MT90AT Scorpion Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "IRC | VE-33 Gekkota Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "IRC | TR-011 Rear Trials Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "trials tire"
+  },
+  {
+   "name": "Pirelli | MT16 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Shinko | 216MX Enduro Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Michelin | Enduro Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Goldentyre | GT516X Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Pirelli | MT21 Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Pirelli | Scorpion Rally Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "IRC | VE-37 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Pirelli | MT21 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Dunlop | Geomax EN91 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Artrax | XC Enduro \"Sticky\" Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Dunlop | D606 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Dunlop | Geomax AT82 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Kenda | Knarly K778 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Pirelli | Scorpion XC Mid Soft Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Dunlop | Geomax EN91EX Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "IRC | TR-8 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "trials tire"
+  },
+  {
+   "name": "Pirelli | MT43 Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "trials tire"
+  },
+  {
+   "name": "Artrax | XC Enduro Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Goldentyre | GT333N Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "enduro, cross-country or desert tire (fits XC/enduro models, not MX models)"
+  },
+  {
+   "name": "Shinko | 421 Scooter Tire Combo",
+   "families": [
+    "kawasaki"
+   ],
+   "why": "adventure or scooter tire"
+  },
+  {
+   "name": "Kenda | Ice Tire K335 Tire Combo",
+   "families": [
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "Shinko | Dual Sport 700 Tire Combo",
+   "families": [
+    "kawasaki",
+    "yamaha"
+   ],
+   "why": "adventure, dual-sport, trail or rally tire"
+  },
+  {
+   "name": "IRC | GP-210 Rear Tire",
+   "families": [
+    "ktm-family"
+   ],
+   "why": "vintage or trail pattern"
+  },
+  {
+   "name": "KTM PowerParts | TYRE REPAIR KIT",
+   "families": [
+    "ktm-family"
+   ],
+   "why": "not a tire (repair kit)"
+  }
+ ],
+ "review_before_listing": [
+  {
+   "name": "Pro Taper | MXT 04 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Bridgestone | Battlecross Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Artrax | Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Maxxis | Maxxcross SI Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Artrax | Front Tire With Front Mousse Insert Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Shinko | 504 Series Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Artrax | Tire Combo With Tubes",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Artrax | Tire Combo With Mousse Inserts",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Shinko | E200 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Shinko | 505 Series Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "IRC | GX20 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Maxxis | Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Pro Taper | MXT 04 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Pirelli | Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Dunlop | Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Shinko | Mobber Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Pro Taper | Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Shinko | Mobber Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Shinko | E200 Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "IRC | M5B EVO Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Michelin | Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family"
+   ]
+  },
+  {
+   "name": "Shinko | 524 Series Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Shinko | E200 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Shinko | 216 Series Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Kenda | MX Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Shinko | Mobber Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "IRC | IX-09 GEKKOTA Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Pro Taper | SMX 04 Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Artrax | Rear Tire With Rear Mousse Insert Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "IRC | M5B EVO Front Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Shinko | 216MX Fat Tyre Cheater",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Maxxis | Maxxcross SI Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "IRC | JX8 GEKKOTA Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "IRC | IX-09 GEKKOTA Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Sedona | Dunatik MX Rear Paddle Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "IRC | GX20 GEKKOTA Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Pro Taper | SMX 04 Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Shinko | 216SX Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Shinko | R520DC Series Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Goldentyre | Off Road Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Shinko | R505 Cheater Rear Tire",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "Pirelli | Closeout Tire Combo",
+   "families": [
+    "honda",
+    "kawasaki",
+    "ktm-family",
+    "triumph",
+    "yamaha"
+   ]
+  },
+  {
+   "name": "IRC | VX-10 Front Tire",
+   "families": [
+    "ktm-family"
+   ]
+  },
+  {
+   "name": "Bridgestone | M23 Front Tire",
+   "families": [
+    "ktm-family"
+   ]
+  },
+  {
+   "name": "Bridgestone | M22 Rear Tire",
+   "families": [
+    "ktm-family"
+   ]
+  },
+  {
+   "name": "Bridgestone | M203 Front Tire",
+   "families": [
+    "ktm-family"
+   ]
+  },
+  {
+   "name": "Bridgestone | M404 Rear Tire",
+   "families": [
+    "ktm-family"
+   ]
+  },
+  {
+   "name": "Artrax | TG5 Soft/Intermediate Terrain Front Tire",
+   "families": [
+    "ktm-family"
+   ]
+  },
+  {
+   "name": "Bridgestone | M403 Front Tire",
+   "families": [
+    "ktm-family"
+   ]
+  },
+  {
+   "name": "Artrax | TG5 Soft/Intermediate Terrain Rear Tire",
+   "families": [
+    "ktm-family"
+   ]
+  },
+  {
+   "name": "Dunlop | Mini Tire Combo",
+   "families": [
+    "ktm-family"
+   ]
+  },
+  {
+   "name": "IRC | IX-05H Rear Tire",
+   "families": [
+    "ktm-family"
+   ]
+  },
+  {
+   "name": "Pirelli | Mini Tire Combo",
+   "families": [
+    "ktm-family"
+   ]
+  },
+  {
+   "name": "Bridgestone | Mini Tire Combo",
+   "families": [
+    "ktm-family"
+   ]
+  },
+  {
+   "name": "IRC | IX-05H Front Tire",
+   "families": [
+    "ktm-family"
+   ]
+  },
+  {
+   "name": "Bridgestone | M204 Rear Tire",
+   "families": [
+    "ktm-family"
+   ]
+  },
+  {
+   "name": "Artrax | Mini Tire Combo",
+   "families": [
+    "ktm-family"
+   ]
+  },
+  {
+   "name": "IRC | VX-10 Rear Tire",
+   "families": [
+    "ktm-family"
+   ]
+  }
+ ],
+ "already_mx_in_catalog": [
+  "Michelin | Starcross 6 Hard Front Tire",
+  "IRC | VX40 Front Tire",
+  "Michelin | Starcross 6 Mud Rear Tire",
+  "Kenda | Millville II K785 Rear Tire",
+  "Bridgestone | Battlecross X20 Rear Tire",
+  "Bridgestone | Battlecross X31 Rear Tire",
+  "Maxxis | Maxxcross Desert IT Front Tire",
+  "Pirelli | 2025 Scorpion MX32 Mid Soft Front Tire",
+  "Artrax | SX2 Soft Terrain Rear Tire",
+  "Pirelli | Scorpion MX32 Mid Soft Rear Tire",
+  "Kenda | Southwick II K780 Front Tire",
+  "Pirelli | Scorpion MX32 Mid Soft Front Tire",
+  "Artrax | SX1 Intermediate/Hard Terrain Rear Tire",
+  "Kenda | Sand Mad K782 Rear Tire",
+  "Bridgestone | Battlecross X20 Front Tire",
+  "Shinko | 525 Series Rear Tire",
+  "Michelin | Starcross 6 Medium Hard Front Tire",
+  "Shinko | 520 Series Front Tire",
+  "Artrax | SE3 Intermediate Terrain Rear Tire",
+  "Bridgestone | Battlecross X10 Front Tire",
+  "Pirelli | Scorpion MX Extra X Tire Combo",
+  "Dunlop | Geomax MX14 Rear Tire",
+  "Dunlop | Geomax MX3S Front Tire",
+  "Pirelli | Scorpion MX Extra X Front Tire",
+  "Kenda | Millville II K785 Front Tire",
+  "Dunlop | Geomax MX54 Rear Tire",
+  "Shinko | 546 Series Rear Tire",
+  "Artrax | TG4 Soft/Intermediate Terrain Front Tire",
+  "Michelin | Starcross 6 Medium Hard Rear Tire",
+  "Dunlop | Geomax MX34 Rear Tire",
+  "Dunlop | Geomax MX53 Rear Tire",
+  "Shinko | 540 Series Rear Tire",
+  "Dunlop | Geomax MX33 Front Tire",
+  "Pirelli | Scorpion MX Extra X Rear Tire",
+  "Shinko | 540 Series Front Tire",
+  "Michelin | Starcross 6 Sand Front Tire",
+  "Artrax | SX1 Intermediate/Hard Terrain Front Tire",
+  "Artrax | TG4 Soft/Intermediate Terrain Rear Tire",
+  "Michelin | Starcross 6 Medium Soft Front Tire",
+  "Artrax | MX-Pro Soft/Intermediate Terrain Front Tire",
+  "Michelin | Starcross 6 Sand Rear Tire",
+  "Bridgestone | Battlecross X10 Rear Tire",
+  "Bridgestone | Battlecross X40 Rear Tire",
+  "Bridgestone | Battlecross X40 Front Tire",
+  "Kenda | Southwick II K780 Rear Tire",
+  "Artrax | SE3 \"Sticky\" Rear Tire",
+  "Dunlop | Geomax MX34 Front Tire",
+  "Pirelli | Scorpion MX Soft Rear Tire",
+  "Shinko | 520 Series Rear Tire",
+  "Pirelli | Scorpion MX32 Mid Hard Rear Tire",
+  "Kenda | Washougal II K786 Rear Tire",
+  "Kenda | Washougal II K775 Front Tire",
+  "Artrax | MX-Pro Soft/Intermediate Terrain Rear Tire",
+  "Bridgestone | Battlecross X31 Front Tire",
+  "Dunlop | Geomax MX53 Front Tire",
+  "Kenda | Washougal III Front Tire",
+  "IRC | VX30 Front Tire",
+  "Kenda | Triple K781 Rear Tire",
+  "Artrax | SX2 Soft Terrain Front Tire",
+  "Dunlop | Geomax MX54 Front Tire",
+  "Pirelli | Scorpion MX32 Mid Hard Front Tire",
+  "Michelin | Starcross 6 Medium Soft Rear Tire",
+  "IRC | VX30 Rear Tire",
+  "Maxxis | Maxxcross Desert IT Rear Tire",
+  "Dunlop | Geomax MX33 Rear Tire",
+  "Bridgestone | Battlecross X30 Rear Tire",
+  "Shinko | R525 Cheater Rear Tire",
+  "IRC | VX40 Rear Tire",
+  "Dunlop | Geomax MX34 Factory Spec Rear Tire",
+  "Michelin | Starcross 6 Hard Rear Tire",
+  "Pirelli | Scorpion MX Stadium Mid Hard Rear Tire",
+  "Pirelli | 2025 Scorpion MX32 Mid Soft Rear Tire",
+  "Michelin | Starcross 5 Medium Front Tire",
+  "Michelin | Starcross 5 Soft Rear Tire",
+  "Bridgestone | Battlecross X30 Front Tire",
+  "Michelin | Starcross 5 Medium Rear Tire",
+  "Michelin | Starcross 6 Tire Combo"
+ ],
+ "gaps": [
+  "Suzuki has almost no tire listings (one balance-bead kit in the audit) and the CRF150R one: the clean list above should be added to both.",
+  "No tube, Bib Mousse, Nitromousse or TUbliss listings exist in any family today; only Artrax tire-plus-mousse combos.",
+  "Michelin, Dunlop (MX14, MX53), Bridgestone (X10, X20, X31), Maxxis (MX-SI, MX-IH, SM), Kenda, Shinko and IRC VX30 size lists were not confirmed in this pass."
+ ]
+}
