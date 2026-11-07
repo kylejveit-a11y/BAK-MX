@@ -366,14 +366,14 @@ export function RaceDayHome({bike,account,track,race,onEnd,onAsk,onQuick,onOpenC
 
 /** Starts race day: shows the bike it's for (switchable) and asks which track, with one-tap picks from the rider's recent
  *  setup-log tracks and the events they're going to. */
-export function RaceDayStart({visible,bike,bikes,onSwitch,onStart,onClose}:{visible:boolean;bike:Bike;bikes:Bike[];onSwitch:(id:string)=>void;onStart:(track:string,day:string,widget:boolean,kind:'race'|'practice')=>void;onClose:()=>void}){
+export function RaceDayStart({visible,initialKind='race',bike,bikes,onSwitch,onStart,onClose}:{visible:boolean;initialKind?:'race'|'practice';bike:Bike;bikes:Bike[];onSwitch:(id:string)=>void;onStart:(track:string,day:string,widget:boolean,kind:'race'|'practice')=>void;onClose:()=>void}){
  const [kind,setKind]=useState<'race'|'practice'>('race'),practice=kind==='practice';
  const [day,setDay]=useState(today()),[widget,setWidget]=useState(true),[dir,setDir]=useState<KnownTrack[]>(()=>readProgress<KnownTrack[]>('device','track-directory',[])),[track,setTrack]=useState(''),[picks,setPicks]=useState<string[]>([]),[choosing,setChoosing]=useState(false);const insets=useSafeAreaInsets();
- useEffect(()=>{if(!visible)return;let live=true;setTrack('');setDay(today());setChoosing(false);setKind('race');
+ useEffect(()=>{if(!visible)return;let live=true;setTrack('');setDay(today());setChoosing(false);setKind(initialKind);
   Promise.all([api<SetupLog[]>(`/api/setup-logs?bike_id=${bike.id}`).catch(()=>[] as SetupLog[]),api<RideEvent[]>('/api/events?scope=upcoming').catch(()=>[] as RideEvent[])]).then(([logs,events])=>{
    const soon=events.filter(e=>!e.canceled_at&&(e.my_rsvp==='going'||e.mine)&&Date.parse(e.starts_at)-Date.now()<30*864e5).map(e=>e.location_name);
    if(live)setPicks(trackPicks(soon,logs.map(l=>l.track)));});
-  return()=>{live=false;};},[visible,bike.id]);
+  return()=>{live=false;};},[visible,bike.id,initialKind]);
  // BAK's tracks, kept on the phone so the picker works with no signal at the track.
  useEffect(()=>{if(!visible)return;api<KnownTrack[]>('/api/tracks').then(r=>{if(Array.isArray(r)&&r.length){setDir(r);try{writeProgress('device','track-directory',r);}catch{}}}).catch(()=>{});},[visible]);
  const known=knownTrack(dir,track),suggestions=trackSuggestions(dir,track);

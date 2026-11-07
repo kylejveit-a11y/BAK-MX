@@ -3,12 +3,13 @@
 // goes into the setup log, and today's entries. The race itself is saved on this browser, per rider and bike, in the same
 // shape as the phone's (shared/race-day.ts holds the rules both follow). Mirrors apps/mobile/src/HomeBlocks.tsx.
 import {useEffect,useState} from 'react';
-import {Flag,Zap} from 'lucide-react';
+import {Clock,Flag,Zap} from 'lucide-react';
 import type {Bike,Conversation,EngineeringResponse,Message} from '../shared/types';
 import {SETUP_RESULT_LABELS,type RideEvent,type SetupLog,type SetupResult} from '../shared/rider-types';
 import {RACE_PHASES,phaseForDaysOut} from '../shared/race-prep';
+import {advanceNextUp,clockText,countdownText,nextUpDate,parseClock,parseNextUp} from '../shared/practice-day';
 import {aiConsentKey} from '../shared/ai-consent';
-import {OFF_RACE,today,dayOf,activeRace,daysToGo,longDay,QUICK,CHANGES,MOTOS,quickAskText,tryNextText,raceSetupTitle,raceSetupQuestion,raceSetupField,raceSetupKey,raceSetupStale,plain,knownTrack,trackSuggestions,trackPicks,type RaceDay,type KnownTrack} from '../shared/race-day';
+import {OFF_RACE,today,dayOf,activeRace,daysToGo,longDay,QUICK,CHANGES,MOTOS,quickAskText,tryNextText,raceSetupTitle,raceSetupQuestion,raceSetupField,raceSetupKey,raceSetupStale,plain,knownTrack,trackSuggestions,trackPicks,type RaceDay,type KnownTrack,type NextUp} from '../shared/race-day';
 import {api,apiStream} from './client';
 import {createSubmission,finishCreate} from './createSubmission';
 import {RichText} from './RichText';
@@ -22,9 +23,13 @@ export function useRaceDay(account:string,bikeId:string|undefined){
  const [race,setRace]=useState<RaceDay>(()=>activeRace(readLocal<RaceDay|null>(account,key,null))??OFF_RACE),[error,setError]=useState('');
  useEffect(()=>{setRace(activeRace(readLocal<RaceDay|null>(account,key,null))??OFF_RACE);},[account,key]);
  // Coming back to the tab the next morning: a race that was tomorrow is now today, or one that passed is over.
- useEffect(()=>{const check=()=>{if(document.visibilityState!=='visible')return;const r=activeRace(readLocal<RaceDay|null>(account,key,null))??OFF_RACE;setRace(old=>old.on===r.on&&old.day===r.day&&old.track===r.track?old:r);};document.addEventListener('visibilitychange',check);return()=>document.removeEventListener('visibilitychange',check);},[account,key]);
+ useEffect(()=>{const check=()=>{if(document.visibilityState!=='visible')return;const r=activeRace(readLocal<RaceDay|null>(account,key,null))??OFF_RACE;setRace(old=>JSON.stringify(old)===JSON.stringify(r)?old:r);};document.addEventListener('visibilitychange',check);return()=>document.removeEventListener('visibilitychange',check);},[account,key]);
  const save=(r:RaceDay)=>{setRace(r);setError(writeLocal(account,key,r.on?r:null)?'':'Race day could not be saved on this browser. It stays until you leave the page.');};
- return {race,error,isToday:race.on&&race.day===today(),upcoming:race.on&&race.day>today(),start:(track:string,day:string=today())=>save({on:true,track:track.trim(),day}),end:()=>save(OFF_RACE)};
+ return {race,error,isToday:race.on&&race.day===today(),upcoming:race.on&&race.day>today(),
+  /** A practice day is always today; a race can be set ahead and Home counts down to it. */
+  start:(track:string,day:string=today(),kind:'race'|'practice'='race')=>save({on:true,track:track.trim(),day:kind==='practice'?today():day,kind,next:null}),end:()=>save(OFF_RACE),
+  /** The moto or session up next ("Moto 1 at 10:40"). */
+  setNext:(next:NextUp|null)=>{const cur=activeRace(readLocal<RaceDay|null>(account,key,null));if(cur)save({...cur,next});}};
 }
 
 // ------------------------------------------------------------------ BAK's starting setup for the race
@@ -86,13 +91,50 @@ export function RaceCountdown({account,bike,race,onEnd,onOpenChat}:{account:stri
 
 // ------------------------------------------------------------------ the day itself
 const config=(b:Bike,k:string)=>{const v=b.configuration?.[k];return v==null||v===''?'':String(v);};
+/** What's on the bike now, in the words the race-day card uses (only the ones that are set). */
+export function bikeSetup(bike:Bike):[string,string][]{
+ const setup:[string,string][]=[['Fork comp',config(bike,'fork_compression')],['Fork reb',config(bike,'fork_rebound')],['Shock comp',config(bike,'shock_compression')],['Shock reb',config(bike,'shock_rebound')],['Race sag',config(bike,'rider_sag_mm')?config(bike,'rider_sag_mm')+' mm':''],['Tires',config(bike,'tire_pressures')]];
+ return setup.filter(([,v])=>v);
+}
+export function BikeNowCard({bike}:{bike:Bike}){
+ const known=bikeSetup(bike);
+ return <section className="panel hb-block"><BlockHead title="ON YOUR BIKE NOW"/>
+  {known.length?<div className="hb-now">{known.map(([k,v])=><div key={k}><span>{k}</span><b>{v}</b></div>)}</div>:<p className="hb-copy">Your clickers, sag and tire pressures show here once they’re in Garage › Edit.</p>}
+ </section>;
+}
+/** "Next up": the moto or session and its time ("Moto 1 at 10:40"), with a countdown. The phone app's Lock Screen counts down to it too. */
+export function NextUpCard({race,labels,onSet}:{race:RaceDay;labels:string[];onSet:(next:NextUp|null)=>void}){
+ const next=race.next??null;
+ const [now,setNow]=useState(()=>new Date()),[editing,setEditing]=useState(!next?.at),[label,setLabel]=useState(next?.label??labels[0]),[time,setTime]=useState(next?.at?clockText(next.at):''),[notice,setNotice]=useState('');
+ useEffect(()=>{const t=setInterval(()=>setNow(new Date()),30000);return()=>clearInterval(t);},[]);
+ useEffect(()=>{setLabel(next?.label??labels[0]);setTime(next?.at?clockText(next.at):'');setEditing(!next?.at);setNotice('');},[next?.label,next?.at,labels[0]]);
+ const save=()=>{const typed=time.trim();if(!typed){setNotice('Type the time, e.g. 10:40.');return;}
+  const parsed=parseNextUp(typed,label)??(parseClock(typed)?{label,at:parseClock(typed)!}:null);
+  if(!parsed){setNotice('Use a time like 10:40, 2:15 pm or “Moto 2 at 11:30”.');return;}
+  setNotice('');onSet(parsed);setEditing(false);};
+ const at=nextUpDate(next,race.day);
+ return <section className="panel hb-block">
+  <div className="hb-block-head"><span className="eyebrow"><Clock size={15} style={{color:'var(--bike-accent)'}}/>NEXT UP</span>
+   {!editing&&next&&<div className="hb-row" style={{gap:16}}><button type="button" className="hb-link" onClick={()=>setEditing(true)}>Change</button><button type="button" className="hb-link muted" onClick={()=>onSet(null)}>Clear</button></div>}</div>
+  {!editing&&next&&<div className="hb-row between"><div className="hb-track"><strong>{next.label}</strong><span>{next.at?clockText(next.at):'Time not set'}</span></div>
+   {at?<b className="hb-strong" style={{fontSize:22,fontStyle:'italic',color:'var(--bike-accent)'}}>{countdownText(at,now)}</b>:<button type="button" className="hb-link" onClick={()=>setEditing(true)}>Set the time</button>}</div>}
+  {editing&&<>
+   <p className="hb-copy" style={{fontSize:13.5}}>Set your next {labels[0].startsWith('Session')?'session':'moto'} time and Home counts down to it. In the phone app, the Lock Screen does too.</p>
+   <div className="hb-chips">{labels.map(l=><Chip key={l} on={label===l} onClick={()=>setLabel(l)}>{l}</Chip>)}</div>
+   <div className="hb-row" style={{gap:12}}>
+    <input className="hb-input line hb-grow" value={time} maxLength={40} placeholder="10:40" aria-label={`${label} time`} onChange={e=>setTime(e.target.value)} onKeyDown={e=>{if(e.key==='Enter'){e.preventDefault();save();}}}/>
+    <button type="button" className="hb-link" onClick={save}>Set</button>
+    {next&&<button type="button" className="hb-link muted" onClick={()=>{setEditing(false);setNotice('');}}>Cancel</button>}
+   </div>
+   {notice&&<p className="hb-error" role="alert">{notice}</p>}
+  </>}
+ </section>;
+}
 /** The race-day Home: today's setup, what is on the bike, quick asks, a fast change log and today's entries. */
-export function RaceDayHome({bike,account,track,onEnd,onAsk,onQuick,onOpenChat}:{bike:Bike;account:string;track:string;onEnd:()=>void;onAsk:(text:string)=>void;onQuick:(text:string)=>void;onOpenChat:(c:string)=>void}){
+export function RaceDayHome({bike,account,track,race,onEnd,onAsk,onQuick,onOpenChat,onNext}:{bike:Bike;account:string;track:string;race?:RaceDay;onEnd:()=>void;onAsk:(text:string)=>void;onQuick:(text:string)=>void;onOpenChat:(c:string)=>void;onNext?:(next:NextUp|null)=>void}){
  const [logs,setLogs]=useState<SetupLog[]>([]),[moto,setMoto]=useState('Moto 1'),[what,setWhat]=useState(''),[detail,setDetail]=useState(''),[result,setResult]=useState<SetupResult>('not_tested'),[note,setNote]=useState(''),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[loadError,setLoadError]=useState('');
  async function load(){try{const all=await api<SetupLog[]>(`/setup-logs?bike_id=${bike.id}`);setLogs(all.filter(l=>dayOf(new Date(l.recorded_at))===today()));setLoadError('');}catch(e){setLoadError('Today’s entries could not load: '+errorText(e));}}
  useEffect(()=>{void load();},[bike.id]);
- const setup:[string,string][]=[['Fork comp',config(bike,'fork_compression')],['Fork reb',config(bike,'fork_rebound')],['Shock comp',config(bike,'shock_compression')],['Shock reb',config(bike,'shock_rebound')],['Race sag',config(bike,'rider_sag_mm')?config(bike,'rider_sag_mm')+' mm':''],['Tires',config(bike,'tire_pressures')]];
- const known=setup.filter(([,v])=>v);
  async function log(){
   if(busy)return;if(!what){setNotice('Pick what you changed.');return;}
   setBusy(true);setNotice('');
@@ -100,6 +142,8 @@ export function RaceDayHome({bike,account,track,onEnd,onAsk,onQuick,onOpenChat}:
    const settings:Record<string,string>={};for(const k of ['fork_compression','fork_rebound','shock_rebound','rider_sag_mm','fork_height_mm']){const v=config(bike,k);if(v)settings[k]=v.slice(0,200);}
    const body={bike_id:bike.id,recorded_at:new Date().toISOString(),track:track.slice(0,120),conditions:`Race day · ${moto}`.slice(0,200),engine_hours:bike.engine_hours??null,settings,change_made:`${what}${detail.trim()?': '+detail.trim():''}`.slice(0,1000),result,notes:note.trim().slice(0,4000)};
    await api<SetupLog>('/setup-logs','POST',body);
+   // Logged the moto that was up next: the next one is the following moto, time to be set.
+   if(onNext&&race?.next){const moved=advanceNextUp(race.next,moto);if(moved!==race.next)onNext(moved);}
    setWhat('');setDetail('');setNote('');setResult('not_tested');await load();
   }catch(e){setNotice('The change could not be saved: '+errorText(e));}finally{setBusy(false);}
  }
@@ -110,10 +154,9 @@ export function RaceDayHome({bike,account,track,onEnd,onAsk,onQuick,onOpenChat}:
    <h2 className="hb-title big">{track||'Track day'}</h2>
    <p className="hb-line">{bike.model_year} {bike.manufacturer} {bike.model}{bike.engine_hours!=null?` · ${bike.engine_hours} h`:''}</p>
   </div>
+  {onNext&&race&&<NextUpCard race={race} labels={MOTOS} onSet={onNext}/>}
   <RaceSetupCard account={account} bike={bike} track={track} day={today()} onOpenChat={onOpenChat}/>
-  <section className="panel hb-block"><BlockHead title="ON YOUR BIKE NOW"/>
-   {known.length?<div className="hb-now">{known.map(([k,v])=><div key={k}><span>{k}</span><b>{v}</b></div>)}</div>:<p className="hb-copy">Your clickers, sag and tire pressures show here once they’re in Garage › Edit.</p>}
-  </section>
+  <BikeNowCard bike={bike}/>
   <section className="panel hb-block"><div className="hb-block-head"><span className="eyebrow"><Zap size={15} style={{color:'var(--bike-accent)'}}/>QUICK ASK</span></div>
    <p className="hb-copy" style={{fontSize:13.5}}>Tap what the bike did. BAK answers in race mode: the one change to make, short and fast.</p>
    <div className="hb-chips">{QUICK.map(q=><Chip key={q} onClick={()=>onQuick(quickAskText(track,q))}>{q}</Chip>)}</div>
@@ -142,7 +185,8 @@ export function RaceDayHome({bike,account,track,onEnd,onAsk,onQuick,onOpenChat}:
 // ------------------------------------------------------------------ starting a race
 /** Starts race day: shows the bike it's for (switchable) and asks which track, with one-tap picks from the events the rider
  *  is going to and their recent setup-log tracks, and a search over BAK's tracks (kept on this browser for the next time). */
-export function RaceDayStart({bike,bikes,onSwitch,onStart,onClose}:{bike:Bike;bikes:Bike[];onSwitch:(id:string)=>void;onStart:(track:string,day:string)=>void;onClose:()=>void}){
+export function RaceDayStart({bike,bikes,onSwitch,onStart,onClose,initialKind='race'}:{bike:Bike;bikes:Bike[];onSwitch:(id:string)=>void;onStart:(track:string,day:string,kind:'race'|'practice')=>void;onClose:()=>void;initialKind?:'race'|'practice'}){
+ const [kind,setKind]=useState<'race'|'practice'>(initialKind),practice=kind==='practice';
  const [day,setDay]=useState(today()),[dir,setDir]=useState<KnownTrack[]>(()=>readLocal<KnownTrack[]>('device','track-directory',[])),[track,setTrack]=useState(''),[picks,setPicks]=useState<string[]>([]),[choosing,setChoosing]=useState(false),[notice,setNotice]=useState(''),[picksNote,setPicksNote]=useState('');
  useEffect(()=>{let live=true;
   let failed='';const miss=(e:unknown)=>{failed=errorText(e);};
@@ -155,8 +199,9 @@ export function RaceDayStart({bike,bikes,onSwitch,onStart,onClose}:{bike:Bike;bi
  const known=knownTrack(dir,track),suggestions=trackSuggestions(dir,track);
  const name=(b:Bike)=>b.nickname||`${b.model_year} ${b.manufacturer} ${b.model}`;
  const minDay=today();
- return <Sheet title="Race day" onClose={onClose} closeLabel="Cancel">
-  <p className="hb-copy">Pick the track and the day. BAK works out a starting setup for that track and the forecast, and Home counts down to it. On the day, Home becomes your track-day screen: quick ask, a change log and today’s entries. It ends by itself the day after.</p>
+ return <Sheet title={practice?'Practice day':'Race day'} onClose={onClose} closeLabel="Cancel">
+  <div className="hb-chips" role="tablist" aria-label="Kind of day">{(['race','practice'] as const).map(k=><Chip key={k} on={kind===k} onClick={()=>setKind(k)}>{k==='race'?'Race day':'Practice day'}</Chip>)}</div>
+  <p className="hb-copy">{practice?'For a day of laps, today. Home shows today’s bike and setup, a short practice checklist, a log for each session (time on track, notes, the setup change, which goes into your setup log), how the track rode, and Ask BAK about today. It ends by itself tonight.':'Pick the track and the day. BAK works out a starting setup for that track and the forecast, and Home counts down to it. On the day, Home becomes your track-day screen: quick ask, a change log and today’s entries. It ends by itself the day after.'}</p>
   <div className="hb-stack" style={{gap:8}}>
    <p className="hb-field-label">Bike</p>
    <div className="hb-row"><span className="hb-grow hb-strong" style={{fontSize:18}}>{name(bike)}</span>{bikes.length>1&&<button type="button" className="hb-link" onClick={()=>setChoosing(!choosing)}>{choosing?'Close':'Change'}</button>}</div>
@@ -170,8 +215,8 @@ export function RaceDayStart({bike,bikes,onSwitch,onStart,onClose}:{bike:Bike;bi
    <p className={'hb-note'+(known?.weather?' ok':'')}>{known?(known.weather?'BAK knows this track and can use the forecast for it.':'BAK knows this track. No forecast for it yet.'):track.trim()?'Not one of BAK’s tracks yet: the setup works from your bike and what you tell it, without a forecast.':'Optional. Pick one of BAK’s tracks for its dirt, layout and the forecast. It also goes on each change you log.'}</p>
    {(notice||picksNote)&&<p className="hb-error" role="alert">{[picksNote,notice].filter(Boolean).join(' ')}</p>}
   </div>
-  <label className="hb-field"><span className="hb-field-label">Race day</span><input className="hb-input" type="date" value={day} min={minDay} onChange={e=>setDay(e.target.value&&e.target.value>=minDay?e.target.value:minDay)}/></label>
-  <button type="button" className="button" onClick={()=>{onStart(track,day);setTrack('');}}>{day===today()?'Start race day':'Set up this race'}</button>
-  <p className="hb-note">Race day is saved on this device, not your account. The changes you log go to your setup log.</p>
+  {!practice&&<label className="hb-field"><span className="hb-field-label">Race day</span><input className="hb-input" type="date" value={day} min={minDay} onChange={e=>setDay(e.target.value&&e.target.value>=minDay?e.target.value:minDay)}/></label>}
+  <button type="button" className="button" onClick={()=>{onStart(track,practice?today():day,kind);setTrack('');}}>{practice?'Start practice day':day===today()?'Start race day':'Set up this race'}</button>
+  <p className="hb-note">{practice?'Practice day':'Race day'} is saved on this device, not your account. The changes you log go to your setup log.</p>
  </Sheet>;
 }

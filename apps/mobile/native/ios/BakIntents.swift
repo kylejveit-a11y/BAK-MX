@@ -1,5 +1,5 @@
 // Siri, Spotlight, Shortcuts and the Action button: "Ask BAK MX", "Snap a part for BAK MX",
-// "Log a setup change in BAK MX", "What's due on my bike in BAK MX".
+// "Log a setup change in BAK MX", "What's due on my bike in BAK MX", "Log how the track rode in BAK MX".
 // Each action opens the app and leaves the request in UserDefaults; the JavaScript side picks it up
 // (React Native's Settings module) and opens the right screen. Nothing here talks to the network.
 import AppIntents
@@ -77,6 +77,18 @@ struct ServiceDueIntent: AppIntent {
 }
 
 @available(iOS 17.0, *)
+struct LogTrackReportIntent: AppIntent {
+  static let title: LocalizedStringResource = "Log How the Track Rode"
+  static let openAppWhenRun: Bool = true
+
+  @MainActor
+  func perform() async throws -> some IntentResult {
+    BakIntentLink.leave("track-report")
+    return .result()
+  }
+}
+
+@available(iOS 17.0, *)
 struct BakShortcuts: AppShortcutsProvider {
   static var appShortcuts: [AppShortcut] {
     AppShortcut(
@@ -118,6 +130,16 @@ struct BakShortcuts: AppShortcutsProvider {
       ],
       shortTitle: "Service Log",
       systemImageName: "wrench.and.screwdriver"
+    )
+    AppShortcut(
+      intent: LogTrackReportIntent(),
+      phrases: [
+        "Log how the track rode in \(.applicationName)",
+        "Tell \(.applicationName) how the track rode",
+        "Add a track report in \(.applicationName)",
+      ],
+      shortTitle: "How Did It Ride?",
+      systemImageName: "mappin.and.ellipse"
     )
   }
 }

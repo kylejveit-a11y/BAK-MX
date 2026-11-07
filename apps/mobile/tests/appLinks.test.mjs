@@ -5,6 +5,7 @@ import {parseAppLink,pendingFrom} from '../src/appLinkParse.ts';
 test('Siri links open the right screen',()=>{
   assert.deepEqual(parseAppLink('bakmx://ask?q=why%20does%20it%20bog'),{screen:'ask',question:'why does it bog'});
   assert.deepEqual(parseAppLink('bakmx://snap'),{screen:'snap'});
+  assert.deepEqual(parseAppLink('bakmx://track-report'),{screen:'trackReport'});
   assert.deepEqual(parseAppLink('bakmx://setup?note=2%20clicks%20softer%20rebound'),{screen:'setup',note:'2 clicks softer rebound'});
   assert.deepEqual(parseAppLink('bakmx://service'),{screen:'service'});
   assert.equal(parseAppLink('bakmx://auth?code=x'),null);
