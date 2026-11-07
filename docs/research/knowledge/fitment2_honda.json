@@ -13,6 +13,7 @@
    2026
   ],
   "models_covered": [
+   "CRF150R",
    "CRF250R",
    "CRF250RX",
    "CRF450R",
@@ -20,8 +21,21 @@
   ]
  },
  "conflicts": [],
- "not_found": [],
+ "not_found": [
+  {
+   "item": "Honda CRF250R/CRF450R/RX 2027 part numbers",
+   "searched": "MotoSport US fiche capture (2020-2026), Sun City Honda fiche (to 2025)",
+   "result": "no 2027 catalogue in any source read; Twin Air already lists a new 2027 CRF450R/RX filter with OEM ref 17213-MKE-B50 (2025-2026: 17213-K95-AG0), so the 2027 450 airbox element changed"
+  },
+  {
+   "item": "Honda CRF150R 2021-2026",
+   "searched": "Sun City Honda fiche (crf150rb)",
+   "result": "2020 read; 2024 not listed; 2021-2023 not read this pass"
+  }
+ ],
  "sources": [
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2020/crf150rb",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2024/crf150rb",
   "https://www.motosport.com/oem-parts/honda/2020/crf250r",
   "https://www.motosport.com/oem-parts/honda/2020/crf250rx",
   "https://www.motosport.com/oem-parts/honda/2020/crf450r",
@@ -74,7 +88,7 @@
      2026
     ]
    },
-   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, frame, subframe and swingarm, by OEM part number. Main frame: 50010-K95-A60 on CRF250R 2020-2021; 50010-K95-A70 on CRF250RX 2020-2021; 50010-MKE-A70 on CRF450R 2020; 50010-MKE-A80 on CRF450RX 2020; 50010-MKE-AA0 on CRF450R 2020; 50010-MKE-AB0 on CRF450RX 2020; 50010-MKE-AF0 on CRF450R, CRF450RX 2021-2022, CRF250R, CRF250RX 2022-2024 and 2 more numbers (see values). Subframe (rear frame): 50200-K95-A40 on CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021; 50200-MKE-AF0 on CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024; 50200-K95-AG0 on CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026. Swingarm: 52200-MKE-AA0 on CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021; 52200-MKE-AF0 on CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024; 52200-K95-AG0 on CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, frame, subframe and swingarm, by OEM part number. Main frame: 50010-K95-A60 (FRAME SET) on CRF250R 2020-2021; 50010-K95-A70 (FRAME SET) on CRF250RX 2020-2021; 50010-MKE-A70 (FRAME SET) on CRF450R 2020; 50010-MKE-A80 (FRAME SET) on CRF450RX 2020 (+5 more in values). Subframe (rear frame): 50200-K95-A40 on CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021; 50200-MKE-AF0 on CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024; 50200-K95-AG0 on CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026. Swingarm: 52200-MKE-AA0 (SWINGARM SUB-ASSY., RR.) on CRF450R, CRF450RX 2020, CRF250R, CRF250RX 2020-2021; 52200-MKE-AF0 (SWINGARM SUB-ASSY., RR.) on CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024; 52200-K95-AG0 (SWINGARM SUB, RR.) on CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026. Same number = same part, it swaps; different number = different part.",
    "values": {
     "main frame": {
      "50010-K95-A60": "FRAME SET | CRF250R 2020-2021",
@@ -130,7 +144,7 @@
      2026
     ]
    },
-   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, rear linkage arms, by OEM part number. Linkage arms (relay arm, pull rod, cushion arm): 52465-MKE-A00 on CRF250R, CRF250RX 2020-2021; 52465-MKE-A70 on CRF450R, CRF450RX 2020; 52475-MKE-A60 on CRF250R, CRF250RX 2020-2021; 52475-MKE-A70 on CRF450R, CRF450RX 2020; 52485-MKE-A60 on CRF250R, CRF250RX 2020-2021; 52485-MKE-A70 on CRF450R, CRF450RX 2020; 52465-MKE-AF0 on CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024 and 4 more numbers (see values). Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, rear linkage arms, by OEM part number. Linkage arms (relay arm, pull rod, cushion arm): 52465-MKE-A00 (ARM SUB-ASSY., CUSHION) on CRF250R, CRF250RX 2020-2021; 52465-MKE-A70 (ARM SUB-ASSY., CUSHION) on CRF450R, CRF450RX 2020; 52475-MKE-A60 (ROD SUB-ASSY., R. CUSHION CONNECTING) on CRF250R, CRF250RX 2020-2021; 52475-MKE-A70 (ROD SUB-ASSY., R. CUSHION CONNECTING) on CRF450R, CRF450RX 2020; 52485-MKE-A60 (ROD SUB-ASSY., L. CUSHION CONNECTING) on CRF250R, CRF250RX 2020-2021; 52485-MKE-A70 (ROD SUB-ASSY., L. CUSHION CONNECTING) on CRF450R, CRF450RX 2020; 52465-MKE-AF0 (ARM SUB-ASSY., CUSHION) on CRF450R, CRF450RX 2021-2024, CRF250R, CRF250RX 2022-2024 and 4 more numbers (see values). Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "linkage arms (relay arm, pull rod, cushion arm)": {
      "52465-MKE-A00": "ARM SUB-ASSY., CUSHION | CRF250R, CRF250RX 2020-2021",
@@ -697,7 +711,7 @@
      2026
     ]
    },
-   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, engine control unit (ECU / CDI), by OEM part number. Engine control unit: 38770-K95-A61 on CRF250R 2020-2021; 38770-K95-A71 on CRF250RX 2020-2021; 38770-MKE-AA1 on CRF450R 2020; 38770-MKE-AB1 on CRF450RX 2020; 38770-MKE-AG2 on CRF450RX 2021-2022; 38770-K95-AA1 on CRF250R 2022-2023; 38770-K95-AB1 on CRF250RX 2022-2023 and 8 more numbers (see values). Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, engine control unit (ECU / CDI), by OEM part number. Engine control unit: 38770-K95-A61 (PGM-FI UNIT) on CRF250R 2020-2021; 38770-K95-A71 (PGM-FI UNIT) on CRF250RX 2020-2021; 38770-MKE-AA1 (PGM-FI UNIT) on CRF450R 2020; 38770-MKE-AB1 (PGM-FI UNIT) on CRF450RX 2020; 38770-MKE-AG2 (PGM-FI UNIT) on CRF450RX 2021-2022; 38770-K95-AA1 (PGM-FI UNIT) on CRF250R 2022-2023; 38770-K95-AB1 (PGM-FI UNIT) on CRF250RX 2022-2023 and 8 more numbers (see values). Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "engine control unit": {
      "38770-K95-A61": "PGM-FI UNIT | CRF250R 2020-2021",
@@ -979,7 +993,7 @@
      2026
     ]
    },
-   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, fork units, fork springs and fork seals, by OEM part number. Fork legs (complete units): 51400-K95-A61 on CRF250R 2020-2021; 51400-K95-A71 on CRF250RX 2020-2021; 51400-MKE-AA1 on CRF450R 2020; 51400-MKE-AB1 on CRF450RX 2020 (+27 more in values). Fork springs: 51401-K95-A21 (SPRING, FR. FORK (4.4N/MM)) on CRF250RX 2020-2024; 51401-MKE-A61 (SPRING, FR. FORK (5.2N/MM)) on CRF450R 2020-2024; 51401-MKE-A71 (SPRING, FR. FORK (5.0N/MM)) on CRF450R 2020-2024, CRF250R 2020-2021, CRF450RX 2021-2024; 51402-MKE-A01 (SPRING, FR. FORK (4.6N/MM)) on CRF250R, CRF450RX, CRF250RX 2020-2024 (+8 more in values). Fork oil and dust seals (size): 51447-KRN-A91 (RING, OIL SEAL STOP) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026; 51490-KRN-A91 (SEAL SET, FR. FORK) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024; 91254-KRN-A91 (DUST SEAL) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024; 51490-K95-AG1 (SEAL SET, FR. FORK) on CRF450R, CRF250R, CRF450RX, CRF250RX 2025-2026 (+1 more in values). Same number = same part, it swaps; different number = different part.",
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, fork units, fork springs and fork seals, by OEM part number. Fork legs (complete units): 51400-K95-A61 (FORK ASSY., R. FR.) on CRF250R 2020-2021; 51400-K95-A71 (FORK ASSY., R. FR.) on CRF250RX 2020-2021; 51400-MKE-AA1 (FORK ASSY., R. FR.) on CRF450R 2020 (+28 more in values). Fork springs: 51401-K95-A21 (SPRING, FR. FORK (4.4N/MM)) on CRF250RX 2020-2024; 51401-MKE-A61 (SPRING, FR. FORK (5.2N/MM)) on CRF450R 2020-2024; 51401-MKE-A71 (SPRING, FR. FORK (5.0N/MM)) on CRF450R 2020-2024, CRF250R 2020-2021, CRF450RX 2021-2024 (+9 more in values). Fork oil and dust seals (size): 51447-KRN-A91 (RING, OIL SEAL STOP) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2026; 51490-KRN-A91 (SEAL SET, FR. FORK) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024; 91254-KRN-A91 (DUST SEAL) on CRF450R, CRF250R, CRF450RX, CRF250RX 2020-2024 (+2 more in values). Same number = same part, it swaps; different number = different part.",
    "values": {
     "fork legs (complete units)": {
      "51400-K95-A61": "FORK ASSY., R. FR. | CRF250R 2020-2021",
@@ -1068,7 +1082,7 @@
      2026
     ]
    },
-   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, shock unit and shock springs, by OEM part number. Rear shock (complete unit): 52400-K95-A61 on CRF250R 2020-2021; 52400-K95-A71 on CRF250RX 2020-2021; 52400-MKE-AA1 on CRF450R 2020; 52400-MKE-AB1 on CRF450RX 2020 (+12 more in values). Shock springs: 52401-K95-A51 (SPRING, RR. SHOCK ABSORBER (50N/MM)) on CRF250R 2020-2021, 2025-2026, CRF250RX 2020-2026; 52401-KRN-A91 (SPRING, RR. SHOCK ABSORBER (52N/MM)) on CRF250R 2020-2021, 2025-2026, CRF450RX 2020, CRF250RX 2020-2021; 52401-MKE-A01 (SPRING, RR. SHOCK ABSORBER (56N/MM)) on CRF450R 2020; 52401-MKE-A61 (SPRING, RR. SHOCK ABSORBER (58N/MM)) on CRF450R 2020 (+8 more in values). Same number = same part, it swaps; different number = different part.",
+   "statement": "Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026, shock unit and shock springs, by OEM part number. Rear shock (complete unit): 52400-K95-A61 (CUSHION ASSY., RR.) on CRF250R 2020-2021; 52400-K95-A71 (CUSHION ASSY., RR.) on CRF250RX 2020-2021; 52400-MKE-AA1 (CUSHION ASSY., RR.) on CRF450R 2020; 52400-MKE-AB1 (CUSHION ASSY., RR.) on CRF450RX 2020 (+12 more in values). Shock springs: 52401-K95-A51 (SPRING, RR. SHOCK ABSORBER (50N/MM)) on CRF250R 2020-2021, 2025-2026, CRF250RX 2020-2026; 52401-KRN-A91 (SPRING, RR. SHOCK ABSORBER (52N/MM)) on CRF250R 2020-2021, 2025-2026, CRF450RX 2020, CRF250RX 2020-2021; 52401-MKE-A01 (SPRING, RR. SHOCK ABSORBER (56N/MM)) on CRF450R 2020; 52401-MKE-A61 (SPRING, RR. SHOCK ABSORBER (58N/MM)) on CRF450R 2020 (+8 more in values). Same number = same part, it swaps; different number = different part.",
    "values": {
     "rear shock (complete unit)": {
      "52400-K95-A61": "CUSHION ASSY., RR. | CRF250R 2020-2021",
@@ -1112,6 +1126,415 @@
    },
    "confidence": "high",
    "notes": "Part numbers read from MotoSport public OEM catalog (US market)."
+  },
+  {
+   "id": "fit2-crf150r-chassis",
+   "domain": "chassis",
+   "topic": "frame, subframe and swingarm interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2020,
+     2024
+    ]
+   },
+   "statement": "Honda CRF150R, frame, subframe and swingarm, by OEM part number. Swingarm: 52200-KSE-N40 (SWINGARM SUB ASSY., RR.) on CRF150R 2020. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "swingarm": {
+     "52200-KSE-N40": "SWINGARM SUB ASSY., RR. | CRF150R 2020"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2020/crf150rb",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Main frame not found in the catalogue for CRF150R 2020, 2024 (unknown, not 'does not exist'). Subframe (rear frame) not found in the catalogue for CRF150R 2020, 2024 (unknown, not 'does not exist'). Swingarm not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Australian Honda catalogue (CRF150RB); the US big-wheel/small-wheel split is not in it, check a US fiche for your exact variant."
+  },
+  {
+   "id": "fit2-crf150r-clamps",
+   "domain": "chassis",
+   "topic": "triple clamps and handlebar mounts interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2020,
+     2024
+    ]
+   },
+   "statement": "Honda CRF150R, triple clamps and handlebar mounts, by OEM part number. Bottom triple clamp (steering stem): 53219-GBF-K40 on CRF150R 2020. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "bottom triple clamp (steering stem)": {
+     "53219-GBF-K40": "STEM SUB ASSY., STEERING | CRF150R 2020"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2020/crf150rb",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Top triple clamp not found in the catalogue for CRF150R 2020, 2024 (unknown, not 'does not exist'). Bottom triple clamp (steering stem) not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Handlebar and bar mounts not found in the catalogue for CRF150R 2020, 2024 (unknown, not 'does not exist'). Australian Honda catalogue (CRF150RB); the US big-wheel/small-wheel split is not in it, check a US fiche for your exact variant."
+  },
+  {
+   "id": "fit2-crf150r-wheels",
+   "domain": "chassis",
+   "topic": "wheels, hubs, axles and rim sizes interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2020,
+     2024
+    ]
+   },
+   "statement": "Honda CRF150R, wheels, hubs, axles and rim sizes, by OEM part number. Rim sizes: 42701-KSE-841 (RIM RR WHEEL) on CRF150R 2020; 44701-KSE-841 (RIM FR WHEEL) on CRF150R 2020. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "rim sizes": {
+     "42701-KSE-841": "RIM RR WHEEL | CRF150R 2020",
+     "44701-KSE-841": "RIM FR WHEEL | CRF150R 2020"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2020/crf150rb",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Front wheel, hub and axle not found in the catalogue for CRF150R 2020, 2024 (unknown, not 'does not exist'). Rear wheel, hub and axle not found in the catalogue for CRF150R 2020, 2024 (unknown, not 'does not exist'). Rim sizes not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Australian Honda catalogue (CRF150RB); the US big-wheel/small-wheel split is not in it, check a US fiche for your exact variant."
+  },
+  {
+   "id": "fit2-crf150r-bearings",
+   "domain": "maintenance",
+   "topic": "wheel, swingarm/linkage and steering-head bearings and seals (sizes) interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2020,
+     2024
+    ]
+   },
+   "statement": "Honda CRF150R, wheel, swingarm/linkage and steering-head bearings and seals (sizes), by OEM part number. Wheel bearings and wheel seals: 90745-GC4-702 (DUST SEAL, 32X21X5.5) on CRF150R 2020; 91051-KSE-003 (BEARING, RADIAL BALL, 6003) on CRF150R 2020; 91052-KSE-003 (BEARING, RADIAL BALL, 6002) on CRF150R 2020. Swingarm pivot and linkage bearings and seals: 52436-KSE-680 (OIL SEAL SET) on CRF150R 2020; 91070-GC4-601 (BEARING, NEEDLE, 20X26X20 (TOYO)) on CRF150R 2020; 91071-KV3-005 (BEARING, NEEDLE (KOYO)) on CRF150R 2020; 91072-KT7-003 (BEARING, NEEDLE, 17X24X20) on CRF150R 2020 (+6 more in values). Steering head bearings: 53214-KA3-732 (DUST SEAL, STEERING HEAD (ARAI)) on CRF150R 2020; 53214-MCJ-751 (DUST SEAL, STEERING HEAD (ARAI)) on CRF150R 2020; 91015-425-832 (BEARING, HEAD PIPE UPPER (NACHI)) on CRF150R 2020. Same number = same part, it swaps; different number = different part.",
+   "values": {
+    "wheel bearings and wheel seals": {
+     "90745-GC4-702": "DUST SEAL, 32X21X5.5 | CRF150R 2020",
+     "91051-KSE-003": "BEARING, RADIAL BALL, 6003 | CRF150R 2020",
+     "91052-KSE-003": "BEARING, RADIAL BALL, 6002 | CRF150R 2020"
+    },
+    "swingarm pivot and linkage bearings and seals": {
+     "52436-KSE-680": "OIL SEAL SET | CRF150R 2020",
+     "91070-GC4-601": "BEARING, NEEDLE, 20X26X20 (TOYO) | CRF150R 2020",
+     "91071-KV3-005": "BEARING, NEEDLE (KOYO) | CRF150R 2020",
+     "91072-KT7-003": "BEARING, NEEDLE, 17X24X20 | CRF150R 2020",
+     "91074-KRN-711": "BEARING, NEEDLE, 19X26X13 | CRF150R 2020",
+     "91077-GS2-702": "BEARING, NEEDLE, 16X22X12 | CRF150R 2020",
+     "91254-KS6-003": "DUST SEAL, 20X26X4.5 (ARAI) | CRF150R 2020",
+     "91262-KV3-831": "DUST SEAL, 17X24X5 (ARAI) | CRF150R 2020",
+     "91351-GS2-701": "DUST SEAL, CUSHION UPPER | CRF150R 2020",
+     "91351-KSE-003": "DUST SEAL, 19X26X3 | CRF150R 2020"
+    },
+    "steering head bearings": {
+     "53214-KA3-732": "DUST SEAL, STEERING HEAD (ARAI) | CRF150R 2020",
+     "53214-MCJ-751": "DUST SEAL, STEERING HEAD (ARAI) | CRF150R 2020",
+     "91015-425-832": "BEARING, HEAD PIPE UPPER (NACHI) | CRF150R 2020"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2020/crf150rb",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Wheel bearings and wheel seals not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Swingarm pivot and linkage bearings and seals not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Steering head bearings not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Australian Honda catalogue (CRF150RB); the US big-wheel/small-wheel split is not in it, check a US fiche for your exact variant."
+  },
+  {
+   "id": "fit2-crf150r-pads",
+   "domain": "maintenance",
+   "topic": "brake pads interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2020,
+     2024
+    ]
+   },
+   "statement": "Honda CRF150R, brake pads, by OEM part number. Front brake pads: 06455-KSE-016 on CRF150R 2020. Rear brake pads: 06435-KRN-712 on CRF150R 2020. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "front brake pads": {
+     "06455-KSE-016": "PAD SET FR | CRF150R 2020"
+    },
+    "rear brake pads": {
+     "06435-KRN-712": "PAD SET RR | CRF150R 2020"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2020/crf150rb",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Front brake pads not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Rear brake pads not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Australian Honda catalogue (CRF150RB); the US big-wheel/small-wheel split is not in it, check a US fiche for your exact variant."
+  },
+  {
+   "id": "fit2-crf150r-brakes",
+   "domain": "chassis",
+   "topic": "brake calipers and master cylinders interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2020,
+     2024
+    ]
+   },
+   "statement": "Honda CRF150R, brake calipers and master cylinders, by OEM part number. Front brake caliper: 45150-KSE-006 on CRF150R 2020. Rear brake caliper: 43150-KSE-006 on CRF150R 2020. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "front brake caliper": {
+     "45150-KSE-006": "CALIPER SUB ASSY., L. FR. | CRF150R 2020"
+    },
+    "rear brake caliper": {
+     "43150-KSE-006": "CALIPER SUB ASSY., RR. BRAKE | CRF150R 2020"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2020/crf150rb",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Front brake caliper not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Rear brake caliper not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Front brake master cylinder not found in the catalogue for CRF150R 2020, 2024 (unknown, not 'does not exist'). Rear brake master cylinder not found in the catalogue for CRF150R 2020, 2024 (unknown, not 'does not exist'). Australian Honda catalogue (CRF150RB); the US big-wheel/small-wheel split is not in it, check a US fiche for your exact variant."
+  },
+  {
+   "id": "fit2-crf150r-body",
+   "domain": "chassis",
+   "topic": "fenders, side covers, seat and fuel tank interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2020,
+     2024
+    ]
+   },
+   "statement": "Honda CRF150R, fenders, side covers, seat and fuel tank, by OEM part number. Rear fender: 80101-KSE-A30ZA on CRF150R 2020. Side covers / number plates: 83510-KSE-000ZA on CRF150R 2020; 83610-KSE-000ZA on CRF150R 2020. Seat: 77100-KSE-A30 on CRF150R 2020. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "rear fender": {
+     "80101-KSE-A30ZA": "FENDER SET, RR. | CRF150R 2020"
+    },
+    "side covers / number plates": {
+     "83510-KSE-000ZA": "COVER, R. SIDE ROSS WHITE | CRF150R 2020",
+     "83610-KSE-000ZA": "COVER, L. SIDE ROSS WHITE | CRF150R 2020"
+    },
+    "seat": {
+     "77100-KSE-A30": "SEAT COMP | CRF150R 2020"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2020/crf150rb",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Front fender not found in the catalogue for CRF150R 2020, 2024 (unknown, not 'does not exist'). Rear fender not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Side covers / number plates not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Seat not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Fuel tank not found in the catalogue for CRF150R 2020, 2024 (unknown, not 'does not exist'). Australian Honda catalogue (CRF150RB); the US big-wheel/small-wheel split is not in it, check a US fiche for your exact variant."
+  },
+  {
+   "id": "fit2-crf150r-chain",
+   "domain": "drivetrain",
+   "topic": "chain size and length, sprocket tooth counts interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2020,
+     2024
+    ]
+   },
+   "statement": "Honda CRF150R, chain size and length, sprocket tooth counts, by OEM part number. Drive chain (size and length): 40530-KSE-841 (CHAIN, DRIVE(DID420DS3-126RB)) on CRF150R 2020; 40540-KSE-003 (CHAIN, DRIVE(DID420DS3-130RB) (STANDARD LINK 120L)) on CRF150R 2020. Rear sprocket tooth counts: 41201-KSE-840 (SPROCKET, FINAL DRIVEN(56T)) on CRF150R 2020. Front (countershaft) sprocket: 23801-KSE-670 (SPROCKET, DRIVE(15T)) on CRF150R 2020. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "drive chain (size and length)": {
+     "40530-KSE-841": "CHAIN, DRIVE(DID420DS3-126RB) | CRF150R 2020",
+     "40540-KSE-003": "CHAIN, DRIVE(DID420DS3-130RB) (STANDARD LINK 120L) | CRF150R 2020"
+    },
+    "rear sprocket tooth counts": {
+     "41201-KSE-840": "SPROCKET, FINAL DRIVEN(56T) | CRF150R 2020"
+    },
+    "front (countershaft) sprocket": {
+     "23801-KSE-670": "SPROCKET, DRIVE(15T) | CRF150R 2020"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2020/crf150rb",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Drive chain (size and length) not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Rear sprocket tooth counts not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Front (countershaft) sprocket not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Australian Honda catalogue (CRF150RB); the US big-wheel/small-wheel split is not in it, check a US fiche for your exact variant."
+  },
+  {
+   "id": "fit2-crf150r-clutch",
+   "domain": "drivetrain",
+   "topic": "clutch plates and springs interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2020,
+     2024
+    ]
+   },
+   "statement": "Honda CRF150R, clutch plates and springs, by OEM part number. Clutch friction plates: 22201-GBF-B40 (DISK, CLUTCH FRICTION) on CRF150R 2020. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "clutch friction plates": {
+     "22201-GBF-B40": "DISK, CLUTCH FRICTION | CRF150R 2020"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2020/crf150rb",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Clutch friction plates not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Clutch steel plates not found in the catalogue for CRF150R 2020, 2024 (unknown, not 'does not exist'). Clutch springs not found in the catalogue for CRF150R 2020, 2024 (unknown, not 'does not exist'). Australian Honda catalogue (CRF150RB); the US big-wheel/small-wheel split is not in it, check a US fiche for your exact variant."
+  },
+  {
+   "id": "fit2-crf150r-airfilter",
+   "domain": "maintenance",
+   "topic": "air filter element interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2020,
+     2024
+    ]
+   },
+   "statement": "Honda CRF150R, air filter element, by OEM part number. Air filter element: 17213-KSE-000 on CRF150R 2020. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "air filter element": {
+     "17213-KSE-000": "ELEMENT, AIR CLEANER | CRF150R 2020"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2020/crf150rb",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Air filter element not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Australian Honda catalogue (CRF150RB); the US big-wheel/small-wheel split is not in it, check a US fiche for your exact variant."
+  },
+  {
+   "id": "fit2-crf150r-fork",
+   "domain": "suspension",
+   "topic": "fork units, fork springs and fork seals interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2020,
+     2024
+    ]
+   },
+   "statement": "Honda CRF150R, fork units, fork springs and fork seals, by OEM part number. Fork legs (complete units): 51480-KSE-N41 (FORK SUB ASSY., R. FR.(SHOWA)) on CRF150R 2020; 51580-KSE-N41 (FORK SUB ASSY., L. FR.(SHOWA)) on CRF150R 2020. Fork springs: 51401-KSE-671 (SPRING, FR. FORK (3.33N/MM,0.34KGF/MM)) on CRF150R 2020; 51401-KSE-841 (SPRING, FR. FORK (3.53N/MM,0.36KGF/MM)) on CRF150R 2020; 51403-KSE-671 (SPRING, FR. FORK (3.73N/MM,0.38KGF/MM)) on CRF150R 2020. Fork oil and dust seals (size): 51447-KR6-003 (RING, OIL SEAL STOPPER) on CRF150R 2020. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "fork legs (complete units)": {
+     "51480-KSE-N41": "FORK SUB ASSY., R. FR.(SHOWA) | CRF150R 2020",
+     "51580-KSE-N41": "FORK SUB ASSY., L. FR.(SHOWA) | CRF150R 2020"
+    },
+    "fork springs": {
+     "51401-KSE-671": "SPRING, FR. FORK (3.33N/MM,0.34KGF/MM) | CRF150R 2020",
+     "51401-KSE-841": "SPRING, FR. FORK (3.53N/MM,0.36KGF/MM) | CRF150R 2020",
+     "51403-KSE-671": "SPRING, FR. FORK (3.73N/MM,0.38KGF/MM) | CRF150R 2020"
+    },
+    "fork oil and dust seals (size)": {
+     "51447-KR6-003": "RING, OIL SEAL STOPPER | CRF150R 2020"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2020/crf150rb",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Fork legs (complete units) not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Fork springs not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Fork oil and dust seals (size) not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Australian Honda catalogue (CRF150RB); the US big-wheel/small-wheel split is not in it, check a US fiche for your exact variant."
+  },
+  {
+   "id": "fit2-crf150r-shock",
+   "domain": "suspension",
+   "topic": "shock unit and shock springs interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2020,
+     2024
+    ]
+   },
+   "statement": "Honda CRF150R, shock unit and shock springs, by OEM part number. Rear shock (complete unit): 52400-KSE-A81 (CUSHION ASSY., RR.) on CRF150R 2020. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "rear shock (complete unit)": {
+     "52400-KSE-A81": "CUSHION ASSY., RR. | CRF150R 2020"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/honda-motorcycles/2020/crf150rb",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Rear shock (complete unit) not found in the catalogue for CRF150R 2024 (unknown, not 'does not exist'). Shock springs not found in the catalogue for CRF150R 2020, 2024 (unknown, not 'does not exist'). Australian Honda catalogue (CRF150RB); the US big-wheel/small-wheel split is not in it, check a US fiche for your exact variant."
   },
   {
    "id": "fit2-usck-fith-001",

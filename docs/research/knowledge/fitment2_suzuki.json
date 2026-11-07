@@ -12,22 +12,37 @@
    2025
   ],
   "models_covered": [
+   "RM-Z250",
    "RM-Z450"
   ]
  },
  "conflicts": [],
- "not_found": [],
+ "not_found": [
+  {
+   "item": "Suzuki RM-Z250/RM-Z450 2026-2027 and RM-Z450 2023",
+   "searched": "Sun City Suzuki fiche (Australian catalogue)",
+   "result": "not listed (2023 RM-Z450 page empty); no US Suzuki fiche reachable without bot protection"
+  },
+  {
+   "item": "RM-Z master cylinders, spark plug, ECU, fork assemblies",
+   "searched": "same",
+   "result": "not listed in the assemblies read"
+  }
+ ],
  "sources": [
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
   "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z450",
   "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2021/rm-z450",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2022/rm-z250",
   "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2022/rm-z450",
   "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2023/rm-z450",
   "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2024/rm-z450",
+  "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2025/rm-z250",
   "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2025/rm-z450"
  ],
  "records": [
   {
-   "id": "fit2-suzuki-chassis",
+   "id": "fit2-suzuki-chassis-a",
    "domain": "chassis",
    "topic": "frame, subframe and swingarm interchange (OEM part numbers)",
    "applies_to": {
@@ -44,25 +59,140 @@
      2025
     ]
    },
-   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, frame, subframe and swingarm, by OEM part number. Subframe (rear frame): 41540-37K00 on RM-Z450 2020; 41542-46K00 on RM-Z450 2021-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, frame, subframe and swingarm, by OEM part number. Main frame: 41100-46K10 (FRAME COMP) on RM-Z250 2020, 2022; 41100-46K20 (FRAME) on RM-Z250 2025. Subframe (rear frame): 41540-37K00 on RM-Z450 2020; 41542-46K00 on RM-Z250 2020, 2022, 2025, RM-Z450 2021-2022, 2024. Swingarm: 61000-37K01 (SWGARM ASSY,REAR) on RM-Z450 2020-2022, 2024; 61000-46K01 (SWGARM ASSY,REAR) on RM-Z250 2020, 2022, 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
+    "main frame": {
+     "41100-46K10": "FRAME COMP | RM-Z250 2020, 2022",
+     "41100-46K20": "FRAME | RM-Z250 2025"
+    },
     "subframe (rear frame)": {
      "41540-37K00": "BRIDGE,SEAT RAIL UPPER | RM-Z450 2020",
-     "41542-46K00": "BRIDGE,SEAT RAIL UPPER | RM-Z450 2021-2022, 2024"
+     "41542-46K00": "BRIDGE,SEAT RAIL UPPER | RM-Z250 2020, 2022, 2025, RM-Z450 2021-2022, 2024"
+    },
+    "swingarm": {
+     "61000-37K01": "SWGARM ASSY,REAR | RM-Z450 2020-2022, 2024",
+     "61000-46K01": "SWGARM ASSY,REAR | RM-Z250 2020, 2022, 2025"
     }
    },
    "tier": "OEM",
    "source": {
     "type": "dealer",
     "name": "Sun City Motorcycles OEM parts fiche",
-    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z450",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
     "date": "2026-11-07"
    },
    "confidence": "medium",
-   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Main frame not found in the catalogue for RM-Z450 2020-2025 (unknown, not 'does not exist'). Subframe (rear frame) not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Swingarm not found in the catalogue for RM-Z450 2020-2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Main frame not found in the catalogue for RM-Z450 2020-2025 (unknown, not 'does not exist'). Subframe (rear frame) not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Swingarm not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
   },
   {
-   "id": "fit2-suzuki-clamps",
+   "id": "fit2-suzuki-chassis-b",
+   "domain": "chassis",
+   "topic": "frame, subframe and swingarm interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2020,
+     2022,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, frame, subframe and swingarm, by OEM part number. Main frame: 41100-46K10 (FRAME COMP) on RM-Z250 2020, 2022; 41100-46K20 (FRAME) on RM-Z250 2025. Subframe (rear frame): 41540-37K00 on RM-Z450 2020; 41542-46K00 on RM-Z250 2020, 2022, 2025, RM-Z450 2021-2022, 2024. Swingarm: 61000-37K01 (SWGARM ASSY,REAR) on RM-Z450 2020-2022, 2024; 61000-46K01 (SWGARM ASSY,REAR) on RM-Z250 2020, 2022, 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "main frame": {
+     "41100-46K10": "FRAME COMP | RM-Z250 2020, 2022",
+     "41100-46K20": "FRAME | RM-Z250 2025"
+    },
+    "subframe (rear frame)": {
+     "41540-37K00": "BRIDGE,SEAT RAIL UPPER | RM-Z450 2020",
+     "41542-46K00": "BRIDGE,SEAT RAIL UPPER | RM-Z250 2020, 2022, 2025, RM-Z450 2021-2022, 2024"
+    },
+    "swingarm": {
+     "61000-37K01": "SWGARM ASSY,REAR | RM-Z450 2020-2022, 2024",
+     "61000-46K01": "SWGARM ASSY,REAR | RM-Z250 2020, 2022, 2025"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Main frame not found in the catalogue for RM-Z450 2020-2025 (unknown, not 'does not exist'). Subframe (rear frame) not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Swingarm not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-linkage-a",
+   "domain": "chassis",
+   "topic": "rear linkage arms interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, rear linkage arms, by OEM part number. Linkage arms (relay arm, pull rod, cushion arm): 62600-37880 (LEVER SET, REAR CUSHION) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 62600-37890 (ROD SET, REAR CUSHION) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "linkage arms (relay arm, pull rod, cushion arm)": {
+     "62600-37880": "LEVER SET, REAR CUSHION | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "62600-37890": "ROD SET, REAR CUSHION | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Linkage arms (relay arm, pull rod, cushion arm) not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-linkage-b",
+   "domain": "chassis",
+   "topic": "rear linkage arms interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2020,
+     2022,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, rear linkage arms, by OEM part number. Linkage arms (relay arm, pull rod, cushion arm): 62600-37880 (LEVER SET, REAR CUSHION) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 62600-37890 (ROD SET, REAR CUSHION) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "linkage arms (relay arm, pull rod, cushion arm)": {
+     "62600-37880": "LEVER SET, REAR CUSHION | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "62600-37890": "ROD SET, REAR CUSHION | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Linkage arms (relay arm, pull rod, cushion arm) not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-clamps-a",
    "domain": "chassis",
    "topic": "triple clamps and handlebar mounts interchange (OEM part numbers)",
    "applies_to": {
@@ -79,27 +209,63 @@
      2025
     ]
    },
-   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, triple clamps and handlebar mounts, by OEM part number. Top triple clamp: 51311-37K20 on RM-Z450 2020-2022, 2024. Handlebar and bar mounts: 56110-37K00 (HANDLEBAR) on RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, triple clamps and handlebar mounts, by OEM part number. Top triple clamp: 51311-37K20 on RM-Z450 2020-2022, 2024; 51311-46K10 on RM-Z250 2020, 2022, 2025. Handlebar and bar mounts: 56110-37K00 (HANDLEBAR) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "top triple clamp": {
-     "51311-37K20": "BRACKET, UPPER | RM-Z450 2020-2022, 2024"
+     "51311-37K20": "BRACKET, UPPER | RM-Z450 2020-2022, 2024",
+     "51311-46K10": "BRACKET,UPPER | RM-Z250 2020, 2022, 2025"
     },
     "handlebar and bar mounts": {
-     "56110-37K00": "HANDLEBAR | RM-Z450 2020-2022, 2024"
+     "56110-37K00": "HANDLEBAR | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
     }
    },
    "tier": "OEM",
    "source": {
     "type": "dealer",
     "name": "Sun City Motorcycles OEM parts fiche",
-    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z450",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
     "date": "2026-11-07"
    },
    "confidence": "medium",
-   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Top triple clamp not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Bottom triple clamp (steering stem) not found in the catalogue for RM-Z450 2020-2025 (unknown, not 'does not exist'). Handlebar and bar mounts not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Top triple clamp not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Bottom triple clamp (steering stem) not found in the catalogue for RM-Z250 2020, 2022, 2025, RM-Z450 2020-2025 (unknown, not 'does not exist'). Handlebar and bar mounts not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
   },
   {
-   "id": "fit2-suzuki-pegs",
+   "id": "fit2-suzuki-clamps-b",
+   "domain": "chassis",
+   "topic": "triple clamps and handlebar mounts interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2020,
+     2022,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, triple clamps and handlebar mounts, by OEM part number. Top triple clamp: 51311-37K20 on RM-Z450 2020-2022, 2024; 51311-46K10 on RM-Z250 2020, 2022, 2025. Handlebar and bar mounts: 56110-37K00 (HANDLEBAR) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "top triple clamp": {
+     "51311-37K20": "BRACKET, UPPER | RM-Z450 2020-2022, 2024",
+     "51311-46K10": "BRACKET,UPPER | RM-Z250 2020, 2022, 2025"
+    },
+    "handlebar and bar mounts": {
+     "56110-37K00": "HANDLEBAR | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Top triple clamp not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Bottom triple clamp (steering stem) not found in the catalogue for RM-Z250 2020, 2022, 2025, RM-Z450 2020-2025 (unknown, not 'does not exist'). Handlebar and bar mounts not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-pegs-a",
    "domain": "chassis",
    "topic": "footpegs and footpeg brackets interchange (OEM part numbers)",
    "applies_to": {
@@ -116,27 +282,61 @@
      2025
     ]
    },
-   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, footpegs and footpeg brackets, by OEM part number. Footpegs and footpeg brackets: 41855-28H10 on RM-Z450 2020-2022, 2024; 41865-28H10 on RM-Z450 2020-2022, 2024; 43551-28H30 on RM-Z450 2020-2022, 2024; 43561-28H10 on RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, footpegs and footpeg brackets, by OEM part number. Footpegs and footpeg brackets: 41855-28H10 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 41865-28H10 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 43551-28H30 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 43561-28H10 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "footpegs and footpeg brackets": {
-     "41855-28H10": "BRACKET, FOOTREST RH | RM-Z450 2020-2022, 2024",
-     "41865-28H10": "BRACKET, FOOTREST LH | RM-Z450 2020-2022, 2024",
-     "43551-28H30": "FOOTREST, RH | RM-Z450 2020-2022, 2024",
-     "43561-28H10": "FOOTREST, LH | RM-Z450 2020-2022, 2024"
+     "41855-28H10": "BRACKET, FOOTREST RH | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "41865-28H10": "BRACKET, FOOTREST LH | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "43551-28H30": "FOOTREST, RH | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "43561-28H10": "FOOTREST, LH | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
     }
    },
    "tier": "OEM",
    "source": {
     "type": "dealer",
     "name": "Sun City Motorcycles OEM parts fiche",
-    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z450",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
     "date": "2026-11-07"
    },
    "confidence": "medium",
    "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Footpegs and footpeg brackets not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
   },
   {
-   "id": "fit2-suzuki-wheels",
+   "id": "fit2-suzuki-pegs-b",
+   "domain": "chassis",
+   "topic": "footpegs and footpeg brackets interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2020,
+     2022,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, footpegs and footpeg brackets, by OEM part number. Footpegs and footpeg brackets: 41855-28H10 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 41865-28H10 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 43551-28H30 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 43561-28H10 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "footpegs and footpeg brackets": {
+     "41855-28H10": "BRACKET, FOOTREST RH | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "41865-28H10": "BRACKET, FOOTREST LH | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "43551-28H30": "FOOTREST, RH | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "43561-28H10": "FOOTREST, LH | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Footpegs and footpeg brackets not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-wheels-a",
    "domain": "chassis",
    "topic": "wheels, hubs, axles and rim sizes interchange (OEM part numbers)",
    "applies_to": {
@@ -153,25 +353,81 @@
      2025
     ]
    },
-   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, wheels, hubs, axles and rim sizes, by OEM part number. Rim sizes: 55311-37K00 (RIM, FRONT WHEEL (21X160)) on RM-Z450 2020-2022, 2024; 65311-37K00 (RIM, REAR WHEEL (19X215)) on RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, wheels, hubs, axles and rim sizes, by OEM part number. Front wheel, hub and axle: 54100-37K01 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 54111-35G01 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 54711-35G00 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Rear wheel, hub and axle: 64100-37K01 on RM-Z450 2020-2022, 2024; 64100-46K01 on RM-Z250 2020, 2022, 2025; 64111-35G30 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 64711-35G10 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Rim sizes: 55311-37K00 (RIM, FRONT WHEEL (21X160)) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 65311-37K00 (RIM, REAR WHEEL (19X215)) on RM-Z450 2020-2022, 2024; 65311-46K00 (RIM,RR WHEEL(19X185)) on RM-Z250 2020, 2022, 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
+    "front wheel, hub and axle": {
+     "54100-37K01": "WHEEL ASSY,FRONT | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "54111-35G01": "HUB, FRONT WHEEL | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "54711-35G00": "AXLE,FRONT | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    },
+    "rear wheel, hub and axle": {
+     "64100-37K01": "WHEEL ASSY,REAR | RM-Z450 2020-2022, 2024",
+     "64100-46K01": "WHEEL ASSY,REAR | RM-Z250 2020, 2022, 2025",
+     "64111-35G30": "HUB,REAR | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "64711-35G10": "AXLE, REAR | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    },
     "rim sizes": {
-     "55311-37K00": "RIM, FRONT WHEEL (21X160) | RM-Z450 2020-2022, 2024",
-     "65311-37K00": "RIM, REAR WHEEL (19X215) | RM-Z450 2020-2022, 2024"
+     "55311-37K00": "RIM, FRONT WHEEL (21X160) | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "65311-37K00": "RIM, REAR WHEEL (19X215) | RM-Z450 2020-2022, 2024",
+     "65311-46K00": "RIM,RR WHEEL(19X185) | RM-Z250 2020, 2022, 2025"
     }
    },
    "tier": "OEM",
    "source": {
     "type": "dealer",
     "name": "Sun City Motorcycles OEM parts fiche",
-    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z450",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
     "date": "2026-11-07"
    },
    "confidence": "medium",
-   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Front wheel, hub and axle not found in the catalogue for RM-Z450 2020-2025 (unknown, not 'does not exist'). Rear wheel, hub and axle not found in the catalogue for RM-Z450 2020-2025 (unknown, not 'does not exist'). Rim sizes not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Front wheel, hub and axle not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Rear wheel, hub and axle not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Rim sizes not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
   },
   {
-   "id": "fit2-suzuki-bearings",
+   "id": "fit2-suzuki-wheels-b",
+   "domain": "chassis",
+   "topic": "wheels, hubs, axles and rim sizes interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2020,
+     2022,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, wheels, hubs, axles and rim sizes, by OEM part number. Front wheel, hub and axle: 54100-37K01 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 54111-35G01 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 54711-35G00 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Rear wheel, hub and axle: 64100-37K01 on RM-Z450 2020-2022, 2024; 64100-46K01 on RM-Z250 2020, 2022, 2025; 64111-35G30 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 64711-35G10 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Rim sizes: 55311-37K00 (RIM, FRONT WHEEL (21X160)) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 65311-37K00 (RIM, REAR WHEEL (19X215)) on RM-Z450 2020-2022, 2024; 65311-46K00 (RIM,RR WHEEL(19X185)) on RM-Z250 2020, 2022, 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "front wheel, hub and axle": {
+     "54100-37K01": "WHEEL ASSY,FRONT | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "54111-35G01": "HUB, FRONT WHEEL | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "54711-35G00": "AXLE,FRONT | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    },
+    "rear wheel, hub and axle": {
+     "64100-37K01": "WHEEL ASSY,REAR | RM-Z450 2020-2022, 2024",
+     "64100-46K01": "WHEEL ASSY,REAR | RM-Z250 2020, 2022, 2025",
+     "64111-35G30": "HUB,REAR | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "64711-35G10": "AXLE, REAR | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    },
+    "rim sizes": {
+     "55311-37K00": "RIM, FRONT WHEEL (21X160) | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "65311-37K00": "RIM, REAR WHEEL (19X215) | RM-Z450 2020-2022, 2024",
+     "65311-46K00": "RIM,RR WHEEL(19X185) | RM-Z250 2020, 2022, 2025"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Front wheel, hub and axle not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Rear wheel, hub and axle not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Rim sizes not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-bearings-a",
    "domain": "maintenance",
    "topic": "wheel, swingarm/linkage and steering-head bearings and seals (sizes) interchange (OEM part numbers)",
    "applies_to": {
@@ -188,36 +444,87 @@
      2025
     ]
    },
-   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, wheel, swingarm/linkage and steering-head bearings and seals (sizes), by OEM part number. Wheel bearings and wheel seals: 09262-22048 (BEARING) on RM-Z450 2020-2022, 2024; 09262-25192 (BEARING) on RM-Z450 2020-2022, 2024; 09283-30073 (SEAL,FRONT HUB) on RM-Z450 2020-2022, 2024; 09283-32049 (SEAL,OIL) on RM-Z450 2020-2022, 2024. Swingarm pivot and linkage bearings and seals: 09263-22064 (BEARING) on RM-Z450 2020-2022, 2024; 09263-22070 (BEARING, PIVOT) on RM-Z450 2020-2022, 2024; 09285-22006 (SEAL,OIL) on RM-Z450 2020-2022, 2024; 61262-36E00 (SEAL,REAR SWGARM PIVOT,OUTER) on RM-Z450 2020-2022, 2024. Steering head bearings: 09265-30035 (BEARING) on RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, wheel, swingarm/linkage and steering-head bearings and seals (sizes), by OEM part number. Wheel bearings and wheel seals: 09262-22048 (BEARING) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 09262-25192 (BEARING) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 09283-30073 (SEAL,FRONT HUB) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 09283-32049 (SEAL,OIL) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Swingarm pivot and linkage bearings and seals: 09263-16033 (BEARING,16X22X12) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 09263-20090 (BEARING) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 09263-22064 (BEARING) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 09263-22070 (BEARING, PIVOT) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024 (+4 more in values). Steering head bearings: 09265-30035 (BEARING) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Same number = same part, it swaps; different number = different part.",
    "values": {
     "wheel bearings and wheel seals": {
-     "09262-22048": "BEARING | RM-Z450 2020-2022, 2024",
-     "09262-25192": "BEARING | RM-Z450 2020-2022, 2024",
-     "09283-30073": "SEAL,FRONT HUB | RM-Z450 2020-2022, 2024",
-     "09283-32049": "SEAL,OIL | RM-Z450 2020-2022, 2024"
+     "09262-22048": "BEARING | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "09262-25192": "BEARING | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "09283-30073": "SEAL,FRONT HUB | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "09283-32049": "SEAL,OIL | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
     },
     "swingarm pivot and linkage bearings and seals": {
-     "09263-22064": "BEARING | RM-Z450 2020-2022, 2024",
-     "09263-22070": "BEARING, PIVOT | RM-Z450 2020-2022, 2024",
-     "09285-22006": "SEAL,OIL | RM-Z450 2020-2022, 2024",
-     "61262-36E00": "SEAL,REAR SWGARM PIVOT,OUTER | RM-Z450 2020-2022, 2024"
+     "09263-16033": "BEARING,16X22X12 | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "09263-20090": "BEARING | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "09263-22064": "BEARING | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "09263-22070": "BEARING, PIVOT | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "09284-22003": "SEAL,22X28X4 | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "09285-22006": "SEAL,OIL | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "09285-24001": "OIL SEAL 24X31X5 | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "61262-36E00": "SEAL,REAR SWGARM PIVOT,OUTER | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
     },
     "steering head bearings": {
-     "09265-30035": "BEARING | RM-Z450 2020-2022, 2024"
+     "09265-30035": "BEARING | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
     }
    },
    "tier": "OEM",
    "source": {
     "type": "dealer",
     "name": "Sun City Motorcycles OEM parts fiche",
-    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z450",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
     "date": "2026-11-07"
    },
    "confidence": "medium",
    "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Wheel bearings and wheel seals not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Swingarm pivot and linkage bearings and seals not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Steering head bearings not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
   },
   {
-   "id": "fit2-suzuki-discs",
+   "id": "fit2-suzuki-bearings-b",
+   "domain": "maintenance",
+   "topic": "wheel, swingarm/linkage and steering-head bearings and seals (sizes) interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2020,
+     2022,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, wheel, swingarm/linkage and steering-head bearings and seals (sizes), by OEM part number. Wheel bearings and wheel seals: 09262-22048 (BEARING) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 09262-25192 (BEARING) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 09283-30073 (SEAL,FRONT HUB) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 09283-32049 (SEAL,OIL) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Swingarm pivot and linkage bearings and seals: 09263-16033 (BEARING,16X22X12) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 09263-20090 (BEARING) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 09263-22064 (BEARING) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 09263-22070 (BEARING, PIVOT) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024 (+4 more in values). Steering head bearings: 09265-30035 (BEARING) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Same number = same part, it swaps; different number = different part.",
+   "values": {
+    "wheel bearings and wheel seals": {
+     "09262-22048": "BEARING | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "09262-25192": "BEARING | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "09283-30073": "SEAL,FRONT HUB | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "09283-32049": "SEAL,OIL | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    },
+    "swingarm pivot and linkage bearings and seals": {
+     "09263-16033": "BEARING,16X22X12 | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "09263-20090": "BEARING | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "09263-22064": "BEARING | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "09263-22070": "BEARING, PIVOT | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "09284-22003": "SEAL,22X28X4 | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "09285-22006": "SEAL,OIL | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "09285-24001": "OIL SEAL 24X31X5 | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "61262-36E00": "SEAL,REAR SWGARM PIVOT,OUTER | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    },
+    "steering head bearings": {
+     "09265-30035": "BEARING | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Wheel bearings and wheel seals not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Swingarm pivot and linkage bearings and seals not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Steering head bearings not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-discs-a",
    "domain": "chassis",
    "topic": "brake discs interchange (OEM part numbers)",
    "applies_to": {
@@ -234,27 +541,284 @@
      2025
     ]
    },
-   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, brake discs, by OEM part number. Front brake disc: 59221-37K00 (DISC, FRONT BRAKE) on RM-Z450 2020-2022, 2024. Rear brake disc: 69211-28H10 (DISC, REAR BRAKE) on RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, brake discs, by OEM part number. Front brake disc: 59221-37K00 (DISC, FRONT BRAKE) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Rear brake disc: 69211-28H10 (DISC, REAR BRAKE) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "front brake disc": {
-     "59221-37K00": "DISC, FRONT BRAKE | RM-Z450 2020-2022, 2024"
+     "59221-37K00": "DISC, FRONT BRAKE | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
     },
     "rear brake disc": {
-     "69211-28H10": "DISC, REAR BRAKE | RM-Z450 2020-2022, 2024"
+     "69211-28H10": "DISC, REAR BRAKE | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
     }
    },
    "tier": "OEM",
    "source": {
     "type": "dealer",
     "name": "Sun City Motorcycles OEM parts fiche",
-    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z450",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
     "date": "2026-11-07"
    },
    "confidence": "medium",
    "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Front brake disc not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Rear brake disc not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
   },
   {
-   "id": "fit2-suzuki-radiators",
+   "id": "fit2-suzuki-discs-b",
+   "domain": "chassis",
+   "topic": "brake discs interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2020,
+     2022,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, brake discs, by OEM part number. Front brake disc: 59221-37K00 (DISC, FRONT BRAKE) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Rear brake disc: 69211-28H10 (DISC, REAR BRAKE) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "front brake disc": {
+     "59221-37K00": "DISC, FRONT BRAKE | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    },
+    "rear brake disc": {
+     "69211-28H10": "DISC, REAR BRAKE | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Front brake disc not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Rear brake disc not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-pads-a",
+   "domain": "maintenance",
+   "topic": "brake pads interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, brake pads, by OEM part number. Front brake pads: 59300-37820 on RM-Z250 2020, 2022, 2025; 59301-36810 on RM-Z450 2020-2022, 2024. Rear brake pads: 69100-28820 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "front brake pads": {
+     "59300-37820": "PAD SET | RM-Z250 2020, 2022, 2025",
+     "59301-36810": "PAD SET | RM-Z450 2020-2022, 2024"
+    },
+    "rear brake pads": {
+     "69100-28820": "PAD SET | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Front brake pads not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Rear brake pads not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-pads-b",
+   "domain": "maintenance",
+   "topic": "brake pads interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2020,
+     2022,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, brake pads, by OEM part number. Front brake pads: 59300-37820 on RM-Z250 2020, 2022, 2025; 59301-36810 on RM-Z450 2020-2022, 2024. Rear brake pads: 69100-28820 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "front brake pads": {
+     "59300-37820": "PAD SET | RM-Z250 2020, 2022, 2025",
+     "59301-36810": "PAD SET | RM-Z450 2020-2022, 2024"
+    },
+    "rear brake pads": {
+     "69100-28820": "PAD SET | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Front brake pads not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Rear brake pads not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-brakes-a",
+   "domain": "chassis",
+   "topic": "brake calipers and master cylinders interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, brake calipers and master cylinders, by OEM part number. Front brake caliper: 59300-37K00-999 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Rear brake caliper: 69100-28H01-999 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "front brake caliper": {
+     "59300-37K00-999": "CALIPER ASSY, FRONT | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    },
+    "rear brake caliper": {
+     "69100-28H01-999": "CALIPER ASSY, REAR | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Front brake caliper not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Rear brake caliper not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Front brake master cylinder not found in the catalogue for RM-Z250 2020, 2022, 2025, RM-Z450 2020-2025 (unknown, not 'does not exist'). Rear brake master cylinder not found in the catalogue for RM-Z250 2020, 2022, 2025, RM-Z450 2020-2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-brakes-b",
+   "domain": "chassis",
+   "topic": "brake calipers and master cylinders interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2020,
+     2022,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, brake calipers and master cylinders, by OEM part number. Front brake caliper: 59300-37K00-999 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Rear brake caliper: 69100-28H01-999 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "front brake caliper": {
+     "59300-37K00-999": "CALIPER ASSY, FRONT | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    },
+    "rear brake caliper": {
+     "69100-28H01-999": "CALIPER ASSY, REAR | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Front brake caliper not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Rear brake caliper not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Front brake master cylinder not found in the catalogue for RM-Z250 2020, 2022, 2025, RM-Z450 2020-2025 (unknown, not 'does not exist'). Rear brake master cylinder not found in the catalogue for RM-Z250 2020, 2022, 2025, RM-Z450 2020-2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-body-a",
+   "domain": "chassis",
+   "topic": "fenders, side covers, seat and fuel tank interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, fenders, side covers, seat and fuel tank, by OEM part number. Front fender: 53110-37K00-B2X on RM-Z250, RM-Z450 2020; 53111-37K00-YU1 on RM-Z250 2022, 2025, RM-Z450 2021-2022, 2024. Rear fender: 63111-37K01-YU1 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Fuel tank: 44110-37K00 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "front fender": {
+     "53110-37K00-B2X": "FENDER,FRONT(YELLOW) | RM-Z250, RM-Z450 2020",
+     "53111-37K00-YU1": "FENDER,FRONT (YELLOW) | RM-Z250 2022, 2025, RM-Z450 2021-2022, 2024"
+    },
+    "rear fender": {
+     "63111-37K01-YU1": "FENDER,REAR | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    },
+    "fuel tank": {
+     "44110-37K00": "TANK, FUEL | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Front fender not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Rear fender not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Side covers / number plates not found in the catalogue for RM-Z250 2020, 2022, 2025, RM-Z450 2020-2025 (unknown, not 'does not exist'). Seat not found in the catalogue for RM-Z250 2020, 2022, 2025, RM-Z450 2020-2025 (unknown, not 'does not exist'). Fuel tank not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-body-b",
+   "domain": "chassis",
+   "topic": "fenders, side covers, seat and fuel tank interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2020,
+     2022,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, fenders, side covers, seat and fuel tank, by OEM part number. Front fender: 53110-37K00-B2X on RM-Z250, RM-Z450 2020; 53111-37K00-YU1 on RM-Z250 2022, 2025, RM-Z450 2021-2022, 2024. Rear fender: 63111-37K01-YU1 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Fuel tank: 44110-37K00 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "front fender": {
+     "53110-37K00-B2X": "FENDER,FRONT(YELLOW) | RM-Z250, RM-Z450 2020",
+     "53111-37K00-YU1": "FENDER,FRONT (YELLOW) | RM-Z250 2022, 2025, RM-Z450 2021-2022, 2024"
+    },
+    "rear fender": {
+     "63111-37K01-YU1": "FENDER,REAR | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    },
+    "fuel tank": {
+     "44110-37K00": "TANK, FUEL | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Front fender not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Rear fender not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Side covers / number plates not found in the catalogue for RM-Z250 2020, 2022, 2025, RM-Z450 2020-2025 (unknown, not 'does not exist'). Seat not found in the catalogue for RM-Z250 2020, 2022, 2025, RM-Z450 2020-2025 (unknown, not 'does not exist'). Fuel tank not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-radiators-a",
    "domain": "chassis",
    "topic": "radiators interchange (OEM part numbers)",
    "applies_to": {
@@ -271,25 +835,59 @@
      2025
     ]
    },
-   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, radiators, by OEM part number. Radiators: 17710-37K01 on RM-Z450 2020-2022, 2024; 17720-37K01 on RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, radiators, by OEM part number. Radiators: 17710-37K01 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 17720-37K01 on RM-Z450 2020-2022, 2024; 17720-46K00 on RM-Z250 2020, 2022, 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "radiators": {
-     "17710-37K01": "RADIATOR COMP, WATER , R | RM-Z450 2020-2022, 2024",
-     "17720-37K01": "RADIATOR COMP, WATER , L | RM-Z450 2020-2022, 2024"
+     "17710-37K01": "RADIATOR COMP, WATER , R | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "17720-37K01": "RADIATOR COMP, WATER , L | RM-Z450 2020-2022, 2024",
+     "17720-46K00": "RADIATOR COMP,WATER,L | RM-Z250 2020, 2022, 2025"
     }
    },
    "tier": "OEM",
    "source": {
     "type": "dealer",
     "name": "Sun City Motorcycles OEM parts fiche",
-    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z450",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
     "date": "2026-11-07"
    },
    "confidence": "medium",
    "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Radiators not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
   },
   {
-   "id": "fit2-suzuki-exhaust",
+   "id": "fit2-suzuki-radiators-b",
+   "domain": "chassis",
+   "topic": "radiators interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2020,
+     2022,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, radiators, by OEM part number. Radiators: 17710-37K01 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 17720-37K01 on RM-Z450 2020-2022, 2024; 17720-46K00 on RM-Z250 2020, 2022, 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "radiators": {
+     "17710-37K01": "RADIATOR COMP, WATER , R | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "17720-37K01": "RADIATOR COMP, WATER , L | RM-Z450 2020-2022, 2024",
+     "17720-46K00": "RADIATOR COMP,WATER,L | RM-Z250 2020, 2022, 2025"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Radiators not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-exhaust-a",
    "domain": "engine_mods",
    "topic": "exhaust header and silencer interchange (OEM part numbers)",
    "applies_to": {
@@ -316,14 +914,45 @@
    "source": {
     "type": "dealer",
     "name": "Sun City Motorcycles OEM parts fiche",
-    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z450",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
     "date": "2026-11-07"
    },
    "confidence": "medium",
-   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Exhaust header and silencer not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Exhaust header and silencer not found in the catalogue for RM-Z250 2020, 2022, 2025, RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
   },
   {
-   "id": "fit2-suzuki-chain",
+   "id": "fit2-suzuki-exhaust-b",
+   "domain": "engine_mods",
+   "topic": "exhaust header and silencer interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2020,
+     2022,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, exhaust header and silencer, by OEM part number. Exhaust header and silencer: 14150-28H60 on RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "exhaust header and silencer": {
+     "14150-28H60": "PIPE, EXHAUST | RM-Z450 2020-2022, 2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Exhaust header and silencer not found in the catalogue for RM-Z250 2020, 2022, 2025, RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-chain-a",
    "domain": "drivetrain",
    "topic": "chain size and length, sprocket tooth counts interchange (OEM part numbers)",
    "applies_to": {
@@ -340,24 +969,79 @@
      2025
     ]
    },
-   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, chain size and length, sprocket tooth counts, by OEM part number. Front (countershaft) sprocket: 27511-28H20 (SPROCKET, ENGINE (NT:13)) on RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, chain size and length, sprocket tooth counts, by OEM part number. Drive chain (size and length): 27600-46K00-114 (CHAIN ASSY,DRIVE) on RM-Z250 2020, 2022, 2025; 27620-28H00 (JOINT SET, CHAIN) on RM-Z450 2020-2022, 2024. Rear sprocket tooth counts: 64511-28E00 (SPROCKET,REAR,NT:49) on RM-Z450 2020-2022, 2024; 64511-29F00 (SPROCKET,REAR,NT:47-520) on RM-Z250 2020, 2022, 2025; 64511-36E00 (SPROCKET,REAR,NT:50) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 64511-37E00 (SPROCKET,REAR,NT:48) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 64511-40261 (SPROCKET,RR NT 51 AL) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Front (countershaft) sprocket: 27511-28H20 (SPROCKET, ENGINE (NT:13)) on RM-Z450 2020-2022, 2024; 27511-49H10 (SPROCKET, ENGINE (NT:13)) on RM-Z250 2020, 2022, 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
+    "drive chain (size and length)": {
+     "27600-46K00-114": "CHAIN ASSY,DRIVE | RM-Z250 2020, 2022, 2025",
+     "27620-28H00": "JOINT SET, CHAIN | RM-Z450 2020-2022, 2024"
+    },
+    "rear sprocket tooth counts": {
+     "64511-28E00": "SPROCKET,REAR,NT:49 | RM-Z450 2020-2022, 2024",
+     "64511-29F00": "SPROCKET,REAR,NT:47-520 | RM-Z250 2020, 2022, 2025",
+     "64511-36E00": "SPROCKET,REAR,NT:50 | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "64511-37E00": "SPROCKET,REAR,NT:48 | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "64511-40261": "SPROCKET,RR NT 51 AL | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    },
     "front (countershaft) sprocket": {
-     "27511-28H20": "SPROCKET, ENGINE (NT:13) | RM-Z450 2020-2022, 2024"
+     "27511-28H20": "SPROCKET, ENGINE (NT:13) | RM-Z450 2020-2022, 2024",
+     "27511-49H10": "SPROCKET, ENGINE (NT:13) | RM-Z250 2020, 2022, 2025"
     }
    },
    "tier": "OEM",
    "source": {
     "type": "dealer",
     "name": "Sun City Motorcycles OEM parts fiche",
-    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z450",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
     "date": "2026-11-07"
    },
    "confidence": "medium",
-   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Drive chain (size and length) not found in the catalogue for RM-Z450 2020-2025 (unknown, not 'does not exist'). Rear sprocket tooth counts not found in the catalogue for RM-Z450 2020-2025 (unknown, not 'does not exist'). Front (countershaft) sprocket not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Drive chain (size and length) not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Rear sprocket tooth counts not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Front (countershaft) sprocket not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
   },
   {
-   "id": "fit2-suzuki-clutch",
+   "id": "fit2-suzuki-chain-b",
+   "domain": "drivetrain",
+   "topic": "chain size and length, sprocket tooth counts interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2020,
+     2022,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, chain size and length, sprocket tooth counts, by OEM part number. Drive chain (size and length): 27600-46K00-114 (CHAIN ASSY,DRIVE) on RM-Z250 2020, 2022, 2025; 27620-28H00 (JOINT SET, CHAIN) on RM-Z450 2020-2022, 2024. Rear sprocket tooth counts: 64511-28E00 (SPROCKET,REAR,NT:49) on RM-Z450 2020-2022, 2024; 64511-29F00 (SPROCKET,REAR,NT:47-520) on RM-Z250 2020, 2022, 2025; 64511-36E00 (SPROCKET,REAR,NT:50) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 64511-37E00 (SPROCKET,REAR,NT:48) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024; 64511-40261 (SPROCKET,RR NT 51 AL) on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Front (countershaft) sprocket: 27511-28H20 (SPROCKET, ENGINE (NT:13)) on RM-Z450 2020-2022, 2024; 27511-49H10 (SPROCKET, ENGINE (NT:13)) on RM-Z250 2020, 2022, 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "drive chain (size and length)": {
+     "27600-46K00-114": "CHAIN ASSY,DRIVE | RM-Z250 2020, 2022, 2025",
+     "27620-28H00": "JOINT SET, CHAIN | RM-Z450 2020-2022, 2024"
+    },
+    "rear sprocket tooth counts": {
+     "64511-28E00": "SPROCKET,REAR,NT:49 | RM-Z450 2020-2022, 2024",
+     "64511-29F00": "SPROCKET,REAR,NT:47-520 | RM-Z250 2020, 2022, 2025",
+     "64511-36E00": "SPROCKET,REAR,NT:50 | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "64511-37E00": "SPROCKET,REAR,NT:48 | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024",
+     "64511-40261": "SPROCKET,RR NT 51 AL | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    },
+    "front (countershaft) sprocket": {
+     "27511-28H20": "SPROCKET, ENGINE (NT:13) | RM-Z450 2020-2022, 2024",
+     "27511-49H10": "SPROCKET, ENGINE (NT:13) | RM-Z250 2020, 2022, 2025"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Drive chain (size and length) not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Rear sprocket tooth counts not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Front (countershaft) sprocket not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-clutch-a",
    "domain": "drivetrain",
    "topic": "clutch plates and springs interchange (OEM part numbers)",
    "applies_to": {
@@ -374,24 +1058,384 @@
      2025
     ]
    },
-   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, clutch plates and springs, by OEM part number. Clutch steel plates: 21441-37F30 (PLATE, CLUTCH DRIVE NO2) on RM-Z450 2020-2022, 2024. Clutch springs: 09440-18044 (SPRING, CLUTCH) on RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, clutch plates and springs, by OEM part number. Clutch friction plates: 21441-37F30 (PLATE, CLUTCH DRIVE NO2) on RM-Z450 2020-2022, 2024; 21441-40F10 (PLATE, CLUTCH DRIVE,NO2) on RM-Z250 2020, 2022, 2025. Clutch steel plates: 21441-35G00 (PLATE,CLUTCH DRIVEN No 1) on RM-Z450 2020-2022, 2024; 21451-10H00 (PLATE, CLUTCH DRIVEN) on RM-Z250 2020, 2022, 2025; 21451-35G00 (PLATE,CLUTCH DRIVEN) on RM-Z450 2020-2022, 2024; 21452-10H00 (PLATE,CLUTCH DRIVEN NO 2) on RM-Z250 2020, 2022, 2025; 21452-35G00 (PLATE,CLUTCH DRIVEN) on RM-Z450 2020-2022, 2024. Clutch springs: 09440-18044 (SPRING, CLUTCH) on RM-Z450 2020-2022, 2024; 21413-46K00 (SPRING,CLUTCH) on RM-Z250 2020, 2022, 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
+    "clutch friction plates": {
+     "21441-37F30": "PLATE, CLUTCH DRIVE NO2 | RM-Z450 2020-2022, 2024",
+     "21441-40F10": "PLATE, CLUTCH DRIVE,NO2 | RM-Z250 2020, 2022, 2025"
+    },
     "clutch steel plates": {
-     "21441-37F30": "PLATE, CLUTCH DRIVE NO2 | RM-Z450 2020-2022, 2024"
+     "21441-35G00": "PLATE,CLUTCH DRIVEN No 1 | RM-Z450 2020-2022, 2024",
+     "21451-10H00": "PLATE, CLUTCH DRIVEN | RM-Z250 2020, 2022, 2025",
+     "21451-35G00": "PLATE,CLUTCH DRIVEN | RM-Z450 2020-2022, 2024",
+     "21452-10H00": "PLATE,CLUTCH DRIVEN NO 2 | RM-Z250 2020, 2022, 2025",
+     "21452-35G00": "PLATE,CLUTCH DRIVEN | RM-Z450 2020-2022, 2024"
     },
     "clutch springs": {
-     "09440-18044": "SPRING, CLUTCH | RM-Z450 2020-2022, 2024"
+     "09440-18044": "SPRING, CLUTCH | RM-Z450 2020-2022, 2024",
+     "21413-46K00": "SPRING,CLUTCH | RM-Z250 2020, 2022, 2025"
     }
    },
    "tier": "OEM",
    "source": {
     "type": "dealer",
     "name": "Sun City Motorcycles OEM parts fiche",
-    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z450",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
     "date": "2026-11-07"
    },
    "confidence": "medium",
-   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Clutch friction plates not found in the catalogue for RM-Z450 2020-2025 (unknown, not 'does not exist'). Clutch steel plates not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Clutch springs not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Clutch friction plates not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Clutch steel plates not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Clutch springs not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-clutch-b",
+   "domain": "drivetrain",
+   "topic": "clutch plates and springs interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2020,
+     2022,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, clutch plates and springs, by OEM part number. Clutch friction plates: 21441-37F30 (PLATE, CLUTCH DRIVE NO2) on RM-Z450 2020-2022, 2024; 21441-40F10 (PLATE, CLUTCH DRIVE,NO2) on RM-Z250 2020, 2022, 2025. Clutch steel plates: 21441-35G00 (PLATE,CLUTCH DRIVEN No 1) on RM-Z450 2020-2022, 2024; 21451-10H00 (PLATE, CLUTCH DRIVEN) on RM-Z250 2020, 2022, 2025; 21451-35G00 (PLATE,CLUTCH DRIVEN) on RM-Z450 2020-2022, 2024; 21452-10H00 (PLATE,CLUTCH DRIVEN NO 2) on RM-Z250 2020, 2022, 2025; 21452-35G00 (PLATE,CLUTCH DRIVEN) on RM-Z450 2020-2022, 2024. Clutch springs: 09440-18044 (SPRING, CLUTCH) on RM-Z450 2020-2022, 2024; 21413-46K00 (SPRING,CLUTCH) on RM-Z250 2020, 2022, 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "clutch friction plates": {
+     "21441-37F30": "PLATE, CLUTCH DRIVE NO2 | RM-Z450 2020-2022, 2024",
+     "21441-40F10": "PLATE, CLUTCH DRIVE,NO2 | RM-Z250 2020, 2022, 2025"
+    },
+    "clutch steel plates": {
+     "21441-35G00": "PLATE,CLUTCH DRIVEN No 1 | RM-Z450 2020-2022, 2024",
+     "21451-10H00": "PLATE, CLUTCH DRIVEN | RM-Z250 2020, 2022, 2025",
+     "21451-35G00": "PLATE,CLUTCH DRIVEN | RM-Z450 2020-2022, 2024",
+     "21452-10H00": "PLATE,CLUTCH DRIVEN NO 2 | RM-Z250 2020, 2022, 2025",
+     "21452-35G00": "PLATE,CLUTCH DRIVEN | RM-Z450 2020-2022, 2024"
+    },
+    "clutch springs": {
+     "09440-18044": "SPRING, CLUTCH | RM-Z450 2020-2022, 2024",
+     "21413-46K00": "SPRING,CLUTCH | RM-Z250 2020, 2022, 2025"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Clutch friction plates not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Clutch steel plates not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Clutch springs not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-airfilter-a",
+   "domain": "maintenance",
+   "topic": "air filter element interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, air filter element, by OEM part number. Air filter element: 13780-37K00 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "air filter element": {
+     "13780-37K00": "FILTER, ASSY | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Air filter element not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-airfilter-b",
+   "domain": "maintenance",
+   "topic": "air filter element interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2020,
+     2022,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, air filter element, by OEM part number. Air filter element: 13780-37K00 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "air filter element": {
+     "13780-37K00": "FILTER, ASSY | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Air filter element not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-oilfilter-a",
+   "domain": "maintenance",
+   "topic": "oil filter interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, oil filter, by OEM part number. Oil filter: 16510-35G00 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "oil filter": {
+     "16510-35G00": "FILTER COMP,ENG OIL (MC) | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Oil filter not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-oilfilter-b",
+   "domain": "maintenance",
+   "topic": "oil filter interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2020,
+     2022,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, oil filter, by OEM part number. Oil filter: 16510-35G00 on RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "oil filter": {
+     "16510-35G00": "FILTER COMP,ENG OIL (MC) | RM-Z250 2020, 2022, 2025, RM-Z450 2020-2022, 2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Oil filter not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-fork-a",
+   "domain": "suspension",
+   "topic": "fork units, fork springs and fork seals interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, fork units, fork springs and fork seals, by OEM part number. Fork springs: 51171-37K00 (SPRING, FRONT STDK=5.0N/MM) on RM-Z450 2020-2022, 2024; 51171-37K10 (SPRING,FRONT(K=4.8N/MM)) on RM-Z450 2020-2022, 2024; 51171-37K20 (SPRING,FRONT(K=5.2N/MM)) on RM-Z450 2020-2022, 2024; 51171-46K00 (SPRING) on RM-Z250 2020, 2022, 2025; 51171-46K10 (SPRING,FRONT(SOFT K=49N/MM)) on RM-Z250 2020, 2022, 2025; 51171-46K20 (SPRING,FRONT(HARD K=51N/MM)) on RM-Z250 2020, 2022, 2025. Fork oil and dust seals (size): 51153-36E00 (SEAL,OIL) on RM-Z450 2020-2022, 2024; 51153-49HE0 (SEAL,OIL) on RM-Z250 2020, 2022, 2025; 51156-49HE0 (RING, OIL SEAL STOPPER) on RM-Z250 2020, 2022, 2025; 51173-37K00 (SEAL, DUST) on RM-Z450 2020-2022, 2024; 51173-49HE0 (SEAL, DUST) on RM-Z250 2020, 2022, 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "fork springs": {
+     "51171-37K00": "SPRING, FRONT STDK=5.0N/MM | RM-Z450 2020-2022, 2024",
+     "51171-37K10": "SPRING,FRONT(K=4.8N/MM) | RM-Z450 2020-2022, 2024",
+     "51171-37K20": "SPRING,FRONT(K=5.2N/MM) | RM-Z450 2020-2022, 2024",
+     "51171-46K00": "SPRING | RM-Z250 2020, 2022, 2025",
+     "51171-46K10": "SPRING,FRONT(SOFT K=49N/MM) | RM-Z250 2020, 2022, 2025",
+     "51171-46K20": "SPRING,FRONT(HARD K=51N/MM) | RM-Z250 2020, 2022, 2025"
+    },
+    "fork oil and dust seals (size)": {
+     "51153-36E00": "SEAL,OIL | RM-Z450 2020-2022, 2024",
+     "51153-49HE0": "SEAL,OIL | RM-Z250 2020, 2022, 2025",
+     "51156-49HE0": "RING, OIL SEAL STOPPER | RM-Z250 2020, 2022, 2025",
+     "51173-37K00": "SEAL, DUST | RM-Z450 2020-2022, 2024",
+     "51173-49HE0": "SEAL, DUST | RM-Z250 2020, 2022, 2025"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Fork legs (complete units) not found in the catalogue for RM-Z250 2020, 2022, 2025, RM-Z450 2020-2025 (unknown, not 'does not exist'). Fork springs not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Fork oil and dust seals (size) not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-fork-b",
+   "domain": "suspension",
+   "topic": "fork units, fork springs and fork seals interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2020,
+     2022,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, fork units, fork springs and fork seals, by OEM part number. Fork springs: 51171-37K00 (SPRING, FRONT STDK=5.0N/MM) on RM-Z450 2020-2022, 2024; 51171-37K10 (SPRING,FRONT(K=4.8N/MM)) on RM-Z450 2020-2022, 2024; 51171-37K20 (SPRING,FRONT(K=5.2N/MM)) on RM-Z450 2020-2022, 2024; 51171-46K00 (SPRING) on RM-Z250 2020, 2022, 2025; 51171-46K10 (SPRING,FRONT(SOFT K=49N/MM)) on RM-Z250 2020, 2022, 2025; 51171-46K20 (SPRING,FRONT(HARD K=51N/MM)) on RM-Z250 2020, 2022, 2025. Fork oil and dust seals (size): 51153-36E00 (SEAL,OIL) on RM-Z450 2020-2022, 2024; 51153-49HE0 (SEAL,OIL) on RM-Z250 2020, 2022, 2025; 51156-49HE0 (RING, OIL SEAL STOPPER) on RM-Z250 2020, 2022, 2025; 51173-37K00 (SEAL, DUST) on RM-Z450 2020-2022, 2024; 51173-49HE0 (SEAL, DUST) on RM-Z250 2020, 2022, 2025. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "fork springs": {
+     "51171-37K00": "SPRING, FRONT STDK=5.0N/MM | RM-Z450 2020-2022, 2024",
+     "51171-37K10": "SPRING,FRONT(K=4.8N/MM) | RM-Z450 2020-2022, 2024",
+     "51171-37K20": "SPRING,FRONT(K=5.2N/MM) | RM-Z450 2020-2022, 2024",
+     "51171-46K00": "SPRING | RM-Z250 2020, 2022, 2025",
+     "51171-46K10": "SPRING,FRONT(SOFT K=49N/MM) | RM-Z250 2020, 2022, 2025",
+     "51171-46K20": "SPRING,FRONT(HARD K=51N/MM) | RM-Z250 2020, 2022, 2025"
+    },
+    "fork oil and dust seals (size)": {
+     "51153-36E00": "SEAL,OIL | RM-Z450 2020-2022, 2024",
+     "51153-49HE0": "SEAL,OIL | RM-Z250 2020, 2022, 2025",
+     "51156-49HE0": "RING, OIL SEAL STOPPER | RM-Z250 2020, 2022, 2025",
+     "51173-37K00": "SEAL, DUST | RM-Z450 2020-2022, 2024",
+     "51173-49HE0": "SEAL, DUST | RM-Z250 2020, 2022, 2025"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Fork legs (complete units) not found in the catalogue for RM-Z250 2020, 2022, 2025, RM-Z450 2020-2025 (unknown, not 'does not exist'). Fork springs not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Fork oil and dust seals (size) not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-shock-a",
+   "domain": "suspension",
+   "topic": "shock unit and shock springs interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, shock unit and shock springs, by OEM part number. Rear shock (complete unit): 62100-37K31-019 (ABSORBER ASSY,RR SHOCK) on RM-Z450 2020-2022; 62100-46K10-019 (ABSORBER ASSY, RR SHOCK) on RM-Z250 2020; 62100-46K11-019 (ABSORBER ASSY,REAR SHOCK (BLAC) on RM-Z250 2022; 62100-46K01-019 (ABSORBER ASSY,REAR SHOCK) on RM-Z250 2025. Shock springs: 62211-37K00-019 (SPRING, REAR STDK=54N/MM) on RM-Z450 2020-2022, 2024; 62211-37K10-019 (SPRING,RR(K=52N/MM)) on RM-Z450 2020-2022, 2024; 62211-37K20-019 (SPRING,RR(K=56N/MM)) on RM-Z450 2020-2022, 2024; 62211-46K10-019 (SPRING,REAR(SOFT K=50N/MM)) on RM-Z250 2020, 2022, 2025; 62211-46K20-019 (SPRING,REAR(HARD K=54N/MM)) on RM-Z250 2020, 2022, 2025; 62220-36F00 (SPRING SEAT SET) on RM-Z450 2020-2022, 2024; 62224-37K00 (SPRING SEAT) on RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "rear shock (complete unit)": {
+     "62100-37K31-019": "ABSORBER ASSY,RR SHOCK | RM-Z450 2020-2022",
+     "62100-46K10-019": "ABSORBER ASSY, RR SHOCK | RM-Z250 2020",
+     "62100-46K11-019": "ABSORBER ASSY,REAR SHOCK (BLAC | RM-Z250 2022",
+     "62100-46K01-019": "ABSORBER ASSY,REAR SHOCK | RM-Z250 2025"
+    },
+    "shock springs": {
+     "62211-37K00-019": "SPRING, REAR STDK=54N/MM | RM-Z450 2020-2022, 2024",
+     "62211-37K10-019": "SPRING,RR(K=52N/MM) | RM-Z450 2020-2022, 2024",
+     "62211-37K20-019": "SPRING,RR(K=56N/MM) | RM-Z450 2020-2022, 2024",
+     "62211-46K10-019": "SPRING,REAR(SOFT K=50N/MM) | RM-Z250 2020, 2022, 2025",
+     "62211-46K20-019": "SPRING,REAR(HARD K=54N/MM) | RM-Z250 2020, 2022, 2025",
+     "62220-36F00": "SPRING SEAT SET | RM-Z450 2020-2022, 2024",
+     "62224-37K00": "SPRING SEAT | RM-Z450 2020-2022, 2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Rear shock (complete unit) not found in the catalogue for RM-Z450 2023-2025 (unknown, not 'does not exist'). Shock springs not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
+  },
+  {
+   "id": "fit2-suzuki-shock-b",
+   "domain": "suspension",
+   "topic": "shock unit and shock springs interchange (OEM part numbers)",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250"
+    ],
+    "years": [
+     2020,
+     2022,
+     2025
+    ]
+   },
+   "statement": "Suzuki RM-Z250 / RM-Z450 2020-2025, shock unit and shock springs, by OEM part number. Rear shock (complete unit): 62100-37K31-019 (ABSORBER ASSY,RR SHOCK) on RM-Z450 2020-2022; 62100-46K10-019 (ABSORBER ASSY, RR SHOCK) on RM-Z250 2020; 62100-46K11-019 (ABSORBER ASSY,REAR SHOCK (BLAC) on RM-Z250 2022; 62100-46K01-019 (ABSORBER ASSY,REAR SHOCK) on RM-Z250 2025. Shock springs: 62211-37K00-019 (SPRING, REAR STDK=54N/MM) on RM-Z450 2020-2022, 2024; 62211-37K10-019 (SPRING,RR(K=52N/MM)) on RM-Z450 2020-2022, 2024; 62211-37K20-019 (SPRING,RR(K=56N/MM)) on RM-Z450 2020-2022, 2024; 62211-46K10-019 (SPRING,REAR(SOFT K=50N/MM)) on RM-Z250 2020, 2022, 2025; 62211-46K20-019 (SPRING,REAR(HARD K=54N/MM)) on RM-Z250 2020, 2022, 2025; 62220-36F00 (SPRING SEAT SET) on RM-Z450 2020-2022, 2024; 62224-37K00 (SPRING SEAT) on RM-Z450 2020-2022, 2024. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "values": {
+    "rear shock (complete unit)": {
+     "62100-37K31-019": "ABSORBER ASSY,RR SHOCK | RM-Z450 2020-2022",
+     "62100-46K10-019": "ABSORBER ASSY, RR SHOCK | RM-Z250 2020",
+     "62100-46K11-019": "ABSORBER ASSY,REAR SHOCK (BLAC | RM-Z250 2022",
+     "62100-46K01-019": "ABSORBER ASSY,REAR SHOCK | RM-Z250 2025"
+    },
+    "shock springs": {
+     "62211-37K00-019": "SPRING, REAR STDK=54N/MM | RM-Z450 2020-2022, 2024",
+     "62211-37K10-019": "SPRING,RR(K=52N/MM) | RM-Z450 2020-2022, 2024",
+     "62211-37K20-019": "SPRING,RR(K=56N/MM) | RM-Z450 2020-2022, 2024",
+     "62211-46K10-019": "SPRING,REAR(SOFT K=50N/MM) | RM-Z250 2020, 2022, 2025",
+     "62211-46K20-019": "SPRING,REAR(HARD K=54N/MM) | RM-Z250 2020, 2022, 2025",
+     "62220-36F00": "SPRING SEAT SET | RM-Z450 2020-2022, 2024",
+     "62224-37K00": "SPRING SEAT | RM-Z450 2020-2022, 2024"
+    }
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "dealer",
+    "name": "Sun City Motorcycles OEM parts fiche",
+    "url": "https://shop.suncitymotorcycles.com.au/partFinder/fiche/suzuki/2020/rm-z250",
+    "date": "2026-11-07"
+   },
+   "confidence": "medium",
+   "notes": "Part numbers read from Sun City Motorcycles OEM parts fiche (AU market). Rear shock (complete unit) not found in the catalogue for RM-Z450 2023-2025 (unknown, not 'does not exist'). Shock springs not found in the catalogue for RM-Z450 2023, 2025 (unknown, not 'does not exist'). Australian Suzuki catalogue; 2026-2027 were not in it. RM-Z chassis parts are normally world parts but silencers and ECUs can be market-specific."
   }
  ]
 }

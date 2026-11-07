@@ -85,3 +85,87 @@ C = confirmed by identical part numbers or maker listing, P = partial (some year
   `docs/research/aftermarket/` hold retailer fitment that can back-fill years the OEM fiche lacks.
 - Retailer source yamahaonlineparts.com was tried but most product pages carry no fitment table; Partzilla, RevZilla,
   Rocky Mountain and other large US fiche sites were blocked by bot protection and not used.
+
+
+---
+
+# Pass 2 (2026-11-07): deeper part groups, US check, new platforms
+
+Records are in `fitment2_honda.json`, `fitment2_yamaha.json`, `fitment2_kawasaki.json`, `fitment2_ktm_group.json`,
+`fitment2_triumph.json`, `fitment2_suzuki.json` and `fitment2_aftermarket.json` (research ids `fit2-*`).
+
+Output: **520 records, 10,922 bike-year rows** (`build_rows.py`, no validation problems, no fit2 record skipped):
+KTM group 203 / 6,005, Yamaha 85 / 1,884, Kawasaki 44 / 980, Honda 44 / 728, Triumph 26 / 210, Suzuki 36 / 162,
+aftermarket (Twin Air, TUNER tier) 82 / 953. OEM tier 9,969 rows, TUNER 953. Not loaded to the database.
+
+## Method (pass 2)
+
+1. **US OEM catalogues.** The repo already held complete US parts catalogues captured in September-October 2026
+   (`docs/research/parts-pass14/`): Honda CRF250R/450R/RX 2020-2026 and Yamaha YZ/YZ-F/FX/X/WR 2020-2027 from the MotoSport
+   public fiche, Kawasaki KX250/450/X 2020-2026 from the Kawasaki USA owner-center catalogue, KTM/Husqvarna/GasGas 2020-2027
+   from the official spare-parts finders, Triumph TF 2024-2026 from Triumph Waukesha. These were re-read offline.
+   New this pass (live, public pages, 1.5-5 s between requests): Kawasaki USA catalogue for KX65/KX85/KX112 2020-2027 and the
+   2027 KX250F/KX250FX; KTM-group spare-parts finders for 50/65 minis (KTM 2020/2023/2025/2027, Husqvarna 2020/2025, GasGas
+   2021/2025); Sun City Motorcycles (Australian) fiche for Suzuki RM-Z250/450 and Honda CRF150R; City West Yamaha (Australian)
+   fiche for YZ65/YZ85.
+2. **Part groups** are matched by catalogue description and assembly (per brand), giving, per bike-year, the part numbers for
+   frame, subframe, swingarm, linkage, triple clamps and bar mounts, footpegs, wheels/hubs/axles/rims, wheel, linkage and
+   steering bearings and seals (sizes from the descriptions), brake discs, pads, calipers, master cylinders, bodywork, seat,
+   tank, radiators, exhaust, ECU, chain (size and link count), sprockets (tooth counts), clutch plates and springs, air
+   filter, oil filter, spark plug, fork units/springs (rates)/seals and shock units/springs (rates; KTM also free length).
+   Same number = same part (swaps); different number = different part. Records only attach to bike-years whose catalogue
+   was read; a part the matcher did not find is written as "not found (unknown)", never as "does not exist".
+3. **US check of pass 1** (`fit2-usck-*`, 36 records): every part number in the Australian-sourced Honda, Kawasaki and
+   Yamaha records (and the Triumph records) was looked up in the US catalogue for the same models. Result: chassis numbers
+   (frames, swingarms, wheels, hubs, axles, clamps, linkage, plastics, filters, footpegs, brakes) match; Kawasaki US numbers
+   add a colour/finish suffix (-290, -21, -49F) to the same base number. **Mismatches are market-specific parts:** Honda
+   silencers (AU 18300-MKE-DF0 / -DD0 / K95-DA0 / -DG0 vs US -AF0 / -BD0 / K95-AA0 ...), Honda ECUs (AU 38770-MKE-DA1 vs US
+   -AA1, AU K95-D61 vs US K95-A61), Yamaha silencers (AU B2W/BHR-14750-10, B7B-14750-30 vs US -00 / -20), Yamaha two-stroke
+   CDIs (AU 1SR-85540-03 vs US 1C3-85540-13; AU 1P8-85540-02 vs US -03), Kawasaki silencers (AU 18100-0602/0610 vs US
+   0601/0611/0625/0627) and one Kawasaki front master (AU 43015-0863 not in the US list). Honda rear fender 80101-MKE-AF0ZB is
+   not listed in the US catalogue (US lists fender set 80010-MKE-307ZB). Triumph numbers were already US and all match.
+4. **Aftermarket (TUNER tier).** Twin Air's public applications database (per make and year) gives air filters, pre-oiled
+   filters, reusable oil filters and Powerflow kits with the OEM filter reference. All Balls/Pivot Works (403 bot challenge),
+   No-Toil (no answer) and Uni were not read.
+
+## Coverage, pass 2
+
+C = part numbers found for every bike-year read, P = found for some bike-years or some sub-parts, U = not found in the
+catalogue read (unknown). Two-stroke oil filter U is expected (no oil filter). KTM-group four-stroke and two-stroke fork
+springs are absent because WP XACT forks are air forks.
+
+| Platform (catalogue, years read) | Frame/sub/swingarm | Linkage | Clamps/bars | Pegs | Wheels/axles/rims | Bearings & seals | Discs | Pads | Calipers/masters | Bodywork/seat/tank | Radiators | Exhaust | ECU | Chain/sprockets | Clutch | Air filter | Oil filter | Spark plug | Fork/springs/seals | Shock/springs |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Honda CRF250R / CRF450R / CRF250RX / CRF450RX 2020-2026 (US, 2020-2026) | C | C | C | C | C | C | C | C | C | C | C | C | P | C | P | C | C | C | C | C |
+| Honda CRF150R (AU, 2020) | P | U | P | U | P | P | U | P | P | P | U | U | U | P | P | P | U | U | P | P |
+| Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027 (US, 2020-2027) | C | C | C | C | C | C | P | C | P | C | P | C | P | P | P | C | C | C | P | P |
+| Yamaha YZ125 / YZ250 / YZ125X / YZ250X 2020-2027 (US, 2020-2027) | C | C | C | C | C | C | P | C | C | P | C | C | C | C | C | C | U | P | C | P |
+| Yamaha YZ65 / YZ85 / YZ85 big wheel (AU, 2020, 2022, 2024, 2026) | C | P | C | U | C | C | P | C | C | P | C | C | C | P | C | U | U | P | C | U |
+| Kawasaki KX250 / KX450 / KX250X / KX450X 2020-2027 (US, 2020-2027) | C | C | C | C | C | C | C | C | P | P | C | C | U | P | C | C | P | C | C | C |
+| Kawasaki KX65 / KX85 / KX112 (US, 2020-2027) | P | P | P | P | P | P | P | P | P | P | P | U | U | P | P | P | U | P | P | P |
+| KTM SX-F / Husqvarna FC / GasGas MC-F four-strokes 2020-2027 (US, 2020-2027) | P | C | P | C | C | C | C | C | P | P | C | C | C | C | C | C | C | P | P | P |
+| KTM XC-F / XCF-W, Husqvarna FX / FE, GasGas EX-F / EC-F four-strokes 2020-2027 (US, 2020-2027) | P | P | P | C | P | C | C | C | P | P | C | C | C | C | C | C | C | P | P | P |
+| KTM SX / Husqvarna TC / GasGas MC two-strokes 2020-2027 (US, 2020-2027) | P | C | P | P | C | C | C | C | P | P | C | C | P | P | P | C | U | C | P | P |
+| KTM XC / XC-W, Husqvarna TX / TE, GasGas EX / EC two-strokes 2020-2027 (US, 2020-2027) | P | P | P | C | P | C | C | P | P | P | C | C | P | P | P | C | U | C | P | P |
+| KTM 50 / 65 / 85 SX, Husqvarna TC 50 / 65 / 85, GasGas MC 50 / 65 / 85 (US, 2020-2027) | P | U | P | C | P | P | P | P | P | P | P | P | U | P | P | C | U | C | P | P |
+| Triumph TF 250 / TF 450 (X, RC Edition, E, C) 2024-2026 (US, 2024-2026) | P | C | C | C | C | C | C | C | C | P | C | C | C | C | P | C | C | C | C | C |
+| Suzuki RM-Z250 / RM-Z450 2020-2025 (AU, 2020-2025) | P | P | P | P | P | P | P | P | P | P | P | P | U | P | P | P | P | U | P | P |
+
+## Gaps after pass 2
+
+- **Still no catalogue:** Honda CRF-R 2027 (no source lists it; Twin Air already shows a new 2027 CRF450R/RX filter, OEM ref
+  17213-MKE-B50, so the 2027 airbox changed), Kawasaki KX450/KX450X 2027 (not in the US model list yet; KX250 2027 is listed as
+  "KX250F"), Triumph TF 2027 (index page exists, no categories), Suzuki RM-Z 2026-2027 and RM-Z450 2023, GasGas MC 250F/450F
+  2027, EX 450F 2025, Yamaha YZ250FX 2024 (missing from the source index).
+- **Sampled years only:** Husqvarna/GasGas 50/65/85 (2020/2021 and 2025), KTM 50/65 (2020, 2023, 2025, 2027), YZ65/YZ85
+  (2020, 2022, 2024, 2026), Suzuki RM-Z250 (2020, 2022, 2025), CRF150R (2020 only). Years in between are not claimed.
+- **Market:** Suzuki RM-Z, CRF150R and YZ65/YZ85 numbers are Australian; pass 2 shows chassis parts are world parts but
+  silencers and ECUs are not, so buy those by a US number. KTM-group minis are world/EU catalogues (no US-labelled catalogue).
+- **Matcher gaps (P cells):** some descriptions did not match the group patterns (e.g. Yamaha clutch springs on some FX/WR
+  years, KTM bottom clamps on Husqvarna, Suzuki master cylinders, spark plugs and ECUs). These are search gaps, not
+  "does not exist"; the full catalogues are in the sources.
+- **Aftermarket bearing kits and pad shape codes:** OEM bearing sizes, seal sizes and OEM pad numbers are in the records;
+  All Balls/Pivot Works kit numbers and EBC/Galfer pad codes were not added (All Balls blocked; pad charts not read).
+- **Footpeg mount type and handlebar clamp size** are given by part number and description (e.g. KTM "HANDLEBAR CLAMP 28MM",
+  Honda/Kawasaki Fatbar holders); a 22/28.6 mm statement per bike is only explicit where the catalogue says so.
+- Cross-brand Japanese swaps are still not claimed.

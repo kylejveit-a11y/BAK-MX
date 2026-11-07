@@ -29,13 +29,27 @@
   ]
  },
  "conflicts": [],
- "not_found": [],
+ "not_found": [
+  {
+   "item": "2024 YZ250FX US catalogue",
+   "searched": "MotoSport capture",
+   "result": "missing from the source index"
+  },
+  {
+   "item": "YZ65/YZ85 odd years and 2027",
+   "searched": "City West Yamaha fiche",
+   "result": "2020/2022/2024/2026 (YZ85 2020/2022/2024/2026) read; 2027 not listed"
+  }
+ ],
  "sources": [
   "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2020/yz65",
   "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2020/yz85",
   "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2022/yz65",
+  "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2022/yz85",
   "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz65",
+  "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2024/yz85",
   "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2026/yz65",
+  "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2026/yz85",
   "https://www.motosport.com/dirtbike/oem-parts/yamaha/2025/yz250f",
   "https://www.motosport.com/oem-parts/yamaha/2020/wr250f",
   "https://www.motosport.com/oem-parts/yamaha/2020/wr450f",
@@ -87,10 +101,7 @@
   "https://www.motosport.com/oem-parts/yamaha/2024/yz450f",
   "https://www.motosport.com/oem-parts/yamaha/2024/yz450fx",
   "https://www.motosport.com/oem-parts/yamaha/2025/wr250f",
-  "https://www.motosport.com/oem-parts/yamaha/2025/wr450f",
-  "https://www.motosport.com/oem-parts/yamaha/2025/yz125",
-  "https://www.motosport.com/oem-parts/yamaha/2025/yz125x",
-  "https://www.motosport.com/oem-parts/yamaha/2025/yz250"
+  "https://www.motosport.com/oem-parts/yamaha/2025/wr450f"
  ],
  "records": [
   {
@@ -117,7 +128,7 @@
      2027
     ]
    },
-   "statement": "Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027, frame, subframe and swingarm, by OEM part number. Main frame: B2W-21101-01-00 on YZ450F 2020-2022, YZ250F 2021-2023; B3J-21101-10-00 on YZ450FX, WR450F 2020, YZ250FX, WR250F 2020-2021; BR9-21101-20-00 on YZ250F 2020; BEX-21101-00-00 on YZ450FX 2021-2022, WR450F 2021 (+6 more in values). Subframe (rear frame): BR9-21190-10-00 on YZ450F 2020-2022, YZ250F, YZ450FX, YZ250FX, WR450F 2020-2023, WR250F 2020-2024; BHR-21190-10-00 on YZ450F 2023-2025, YZ250F, YZ450FX 2024-2026, YZ250FX, WR250F 2025-2027, WR450F 2024-2027; D03-21190-00-00 on YZ450F 2026-2027, YZ250F, YZ450FX 2027. Swingarm: BR9-22110-00-00 on YZ450F, YZ250F, YZ450FX, YZ250FX, WR450F, WR250F 2020; BEX-22110-00-00 on YZ450FX, WR450F 2021-2025, YZ250FX 2022-2023, 2025, WR250F 2022-2025; BR9-22110-10-00 on YZ450F 2021-2022, YZ250F 2021-2023, YZ250FX, WR250F 2021; 1SL-22110-10-00 on YZ450F, YZ250F 2022, 2025-2026 (+4 more in values). Same number = same part, it swaps; different number = different part.",
+   "statement": "Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027, frame, subframe and swingarm, by OEM part number. Main frame: B2W-21101-01-00 (FRONT FRAME COMP.) on YZ450F 2020-2022, YZ250F 2021-2023; B3J-21101-10-00 (FRONT FRAME COMP.) on YZ450FX, WR450F 2020, YZ250FX, WR250F 2020-2021; BR9-21101-20-00 (FRONT FRAME COMP.) on YZ250F 2020; BEX-21101-00-00 (FRONT FRAME COMP.) on YZ450FX 2021-2022, WR450F 2021 (+6 more in values). Subframe (rear frame): BR9-21190-10-00 on YZ450F 2020-2022, YZ250F, YZ450FX, YZ250FX, WR450F 2020-2023, WR250F 2020-2024; BHR-21190-10-00 on YZ450F 2023-2025, YZ250F, YZ450FX 2024-2026, YZ250FX, WR250F 2025-2027, WR450F 2024-2027; D03-21190-00-00 on YZ450F 2026-2027, YZ250F, YZ450FX 2027. Swingarm: BR9-22110-00-00 (REAR ARM COMP.) on YZ450F, YZ250F, YZ450FX, YZ250FX, WR450F, WR250F 2020; BEX-22110-00-00 (REAR ARM COMP.) on YZ450FX, WR450F 2021-2025, YZ250FX 2022-2023, 2025, WR250F 2022-2025; BR9-22110-10-00 (REAR ARM COMP.) on YZ450F 2021-2022, YZ250F 2021-2023, YZ250FX, WR250F 2021; 1SL-22110-10-00 (REAR ARM COMP.) on YZ450F, YZ250F 2022, 2025-2026 (+4 more in values). Same number = same part, it swaps; different number = different part.",
    "values": {
     "main frame": {
      "B2W-21101-01-00": "FRONT FRAME COMP. | YZ450F 2020-2022, YZ250F 2021-2023",
@@ -176,7 +187,7 @@
      2027
     ]
    },
-   "statement": "Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027, frame, subframe and swingarm, by OEM part number. Main frame: B2W-21101-01-00 on YZ450F 2020-2022, YZ250F 2021-2023; B3J-21101-10-00 on YZ450FX, WR450F 2020, YZ250FX, WR250F 2020-2021; BR9-21101-20-00 on YZ250F 2020; BEX-21101-00-00 on YZ450FX 2021-2022, WR450F 2021 (+6 more in values). Subframe (rear frame): BR9-21190-10-00 on YZ450F 2020-2022, YZ250F, YZ450FX, YZ250FX, WR450F 2020-2023, WR250F 2020-2024; BHR-21190-10-00 on YZ450F 2023-2025, YZ250F, YZ450FX 2024-2026, YZ250FX, WR250F 2025-2027, WR450F 2024-2027; D03-21190-00-00 on YZ450F 2026-2027, YZ250F, YZ450FX 2027. Swingarm: BR9-22110-00-00 on YZ450F, YZ250F, YZ450FX, YZ250FX, WR450F, WR250F 2020; BEX-22110-00-00 on YZ450FX, WR450F 2021-2025, YZ250FX 2022-2023, 2025, WR250F 2022-2025; BR9-22110-10-00 on YZ450F 2021-2022, YZ250F 2021-2023, YZ250FX, WR250F 2021; 1SL-22110-10-00 on YZ450F, YZ250F 2022, 2025-2026 (+4 more in values). Same number = same part, it swaps; different number = different part.",
+   "statement": "Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027, frame, subframe and swingarm, by OEM part number. Main frame: B2W-21101-01-00 (FRONT FRAME COMP.) on YZ450F 2020-2022, YZ250F 2021-2023; B3J-21101-10-00 (FRONT FRAME COMP.) on YZ450FX, WR450F 2020, YZ250FX, WR250F 2020-2021; BR9-21101-20-00 (FRONT FRAME COMP.) on YZ250F 2020; BEX-21101-00-00 (FRONT FRAME COMP.) on YZ450FX 2021-2022, WR450F 2021 (+6 more in values). Subframe (rear frame): BR9-21190-10-00 on YZ450F 2020-2022, YZ250F, YZ450FX, YZ250FX, WR450F 2020-2023, WR250F 2020-2024; BHR-21190-10-00 on YZ450F 2023-2025, YZ250F, YZ450FX 2024-2026, YZ250FX, WR250F 2025-2027, WR450F 2024-2027; D03-21190-00-00 on YZ450F 2026-2027, YZ250F, YZ450FX 2027. Swingarm: BR9-22110-00-00 (REAR ARM COMP.) on YZ450F, YZ250F, YZ450FX, YZ250FX, WR450F, WR250F 2020; BEX-22110-00-00 (REAR ARM COMP.) on YZ450FX, WR450F 2021-2025, YZ250FX 2022-2023, 2025, WR250F 2022-2025; BR9-22110-10-00 (REAR ARM COMP.) on YZ450F 2021-2022, YZ250F 2021-2023, YZ250FX, WR250F 2021; 1SL-22110-10-00 (REAR ARM COMP.) on YZ450F, YZ250F 2022, 2025-2026 (+4 more in values). Same number = same part, it swaps; different number = different part.",
    "values": {
     "main frame": {
      "B2W-21101-01-00": "FRONT FRAME COMP. | YZ450F 2020-2022, YZ250F 2021-2023",
@@ -240,7 +251,7 @@
      2027
     ]
    },
-   "statement": "Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027, rear linkage arms, by OEM part number. Linkage arms (relay arm, pull rod, cushion arm): 17D-2217A-00-00 on YZ450F, YZ250F 2020-2024, YZ450FX, WR450F, WR250F 2020-2027, YZ250FX 2020-2023, 2025-2027; BR9-2217F-00-00 on YZ450F, YZ250F, YZ450FX, WR450F, WR250F 2020-2027, YZ250FX 2020-2023, 2025-2027. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027, rear linkage arms, by OEM part number. Linkage arms (relay arm, pull rod, cushion arm): 17D-2217A-00-00 (ARM, RELAY) on YZ450F, YZ250F 2020-2024, YZ450FX, WR450F, WR250F 2020-2027, YZ250FX 2020-2023, 2025-2027; BR9-2217F-00-00 (ROD, CONNECTING 1) on YZ450F, YZ250F, YZ450FX, WR450F, WR250F 2020-2027, YZ250FX 2020-2023, 2025-2027. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "linkage arms (relay arm, pull rod, cushion arm)": {
      "17D-2217A-00-00": "ARM, RELAY | YZ450F, YZ250F 2020-2024, YZ450FX, WR450F, WR250F 2020-2027, YZ250FX 2020-2023, 2025-2027",
@@ -276,7 +287,7 @@
      2027
     ]
    },
-   "statement": "Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027, rear linkage arms, by OEM part number. Linkage arms (relay arm, pull rod, cushion arm): 17D-2217A-00-00 on YZ450F, YZ250F 2020-2024, YZ450FX, WR450F, WR250F 2020-2027, YZ250FX 2020-2023, 2025-2027; BR9-2217F-00-00 on YZ450F, YZ250F, YZ450FX, WR450F, WR250F 2020-2027, YZ250FX 2020-2023, 2025-2027. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027, rear linkage arms, by OEM part number. Linkage arms (relay arm, pull rod, cushion arm): 17D-2217A-00-00 (ARM, RELAY) on YZ450F, YZ250F 2020-2024, YZ450FX, WR450F, WR250F 2020-2027, YZ250FX 2020-2023, 2025-2027; BR9-2217F-00-00 (ROD, CONNECTING 1) on YZ450F, YZ250F, YZ450FX, WR450F, WR250F 2020-2027, YZ250FX 2020-2023, 2025-2027. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "linkage arms (relay arm, pull rod, cushion arm)": {
      "17D-2217A-00-00": "ARM, RELAY | YZ450F, YZ250F 2020-2024, YZ450FX, WR450F, WR250F 2020-2027, YZ250FX 2020-2023, 2025-2027",
@@ -1509,7 +1520,7 @@
      2027
     ]
    },
-   "statement": "Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027, engine control unit (ECU / CDI), by OEM part number. Engine control unit: B3J-8591A-30-00 on YZ450FX 2020; B7R-8591A-50-00 on WR450F 2020; BAK-8591A-10-00 on WR250F 2020-2021; B7B-8591A-60-00 on YZ250F 2021-2023; BDB-8591A-10-00 on WR450F 2021-2023; BEX-8591A-01-00 on YZ450FX 2021-2023; BAK-8591A-50-00 on WR250F 2022-2024 and 18 more numbers (see values). Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027, engine control unit (ECU / CDI), by OEM part number. Engine control unit: B3J-8591A-30-00 (ENGINE CONTROL UNIT) on YZ450FX 2020; B7R-8591A-50-00 (ENGINE CONTROL UNIT ASSY) on WR450F 2020; BAK-8591A-10-00 (ENGINE CONTROL UNIT ASSY) on WR250F 2020-2021; B7B-8591A-60-00 (ENGINE CONTROL UNIT ASSY) on YZ250F 2021-2023; BDB-8591A-10-00 (ENGINE CONTROL UNIT ASSY) on WR450F 2021-2023; BEX-8591A-01-00 (ENGINE CONTROL UNIT ASSY) on YZ450FX 2021-2023; BAK-8591A-50-00 (ENGINE CONTROL UNIT ASSY) on WR250F 2022-2024 and 18 more numbers (see values). Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "engine control unit": {
      "B3J-8591A-30-00": "ENGINE CONTROL UNIT | YZ450FX 2020",
@@ -1568,7 +1579,7 @@
      2027
     ]
    },
-   "statement": "Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027, engine control unit (ECU / CDI), by OEM part number. Engine control unit: B3J-8591A-30-00 on YZ450FX 2020; B7R-8591A-50-00 on WR450F 2020; BAK-8591A-10-00 on WR250F 2020-2021; B7B-8591A-60-00 on YZ250F 2021-2023; BDB-8591A-10-00 on WR450F 2021-2023; BEX-8591A-01-00 on YZ450FX 2021-2023; BAK-8591A-50-00 on WR250F 2022-2024 and 18 more numbers (see values). Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027, engine control unit (ECU / CDI), by OEM part number. Engine control unit: B3J-8591A-30-00 (ENGINE CONTROL UNIT) on YZ450FX 2020; B7R-8591A-50-00 (ENGINE CONTROL UNIT ASSY) on WR450F 2020; BAK-8591A-10-00 (ENGINE CONTROL UNIT ASSY) on WR250F 2020-2021; B7B-8591A-60-00 (ENGINE CONTROL UNIT ASSY) on YZ250F 2021-2023; BDB-8591A-10-00 (ENGINE CONTROL UNIT ASSY) on WR450F 2021-2023; BEX-8591A-01-00 (ENGINE CONTROL UNIT ASSY) on YZ450FX 2021-2023; BAK-8591A-50-00 (ENGINE CONTROL UNIT ASSY) on WR250F 2022-2024 and 18 more numbers (see values). Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "engine control unit": {
      "B3J-8591A-30-00": "ENGINE CONTROL UNIT | YZ450FX 2020",
@@ -2141,7 +2152,7 @@
      2027
     ]
    },
-   "statement": "Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027, fork units, fork springs and fork seals, by OEM part number. Fork legs (complete units): B2W-23102-00-00 on YZ450F 2020-2021; B2W-23103-00-00 on YZ450F 2020-2021; B3J-23102-20-00 on YZ450FX 2020 (+49 more in values). Fork springs: BR9-23141-30-00 (SPRING, FRONT FORK (K=4.6)) on YZ450FX, WR450F 2020-2023, YZ250FX 2020-2023, 2025-2027, WR250F 2020-2027; BR9-23141-70-00 (SPRING, FRONT FORK (K=5.0)) on YZ450F 2020-2027; BR9-23141-90-00 (SPRING, FRONT FORK () on YZ250F 2020 (+2 more in values). Fork oil and dust seals (size): 5XE-23144-L0-00 (SEAL, DUST) on YZ450F 2020-2022, YZ250F, YZ450FX, YZ250FX, WR450F 2020-2023, WR250F 2020-2024; B29-23145-00-00 (FORK SEAL KIT) on YZ450F, YZ250F, YZ450FX, WR450F, WR250F 2020-2027, YZ250FX 2020-2023, 2025-2027; B29-W003B-00-00 (FORK SEAL KIT) on YZ450F, YZ250F, YZ450FX, YZ250FX, WR450F, WR250F 2020 (+1 more in values). Same number = same part, it swaps; different number = different part.",
+   "statement": "Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027, fork units, fork springs and fork seals, by OEM part number. Fork legs (complete units): B2W-23102-00-00 (FRONT FORK ASSY (L.H) on YZ450F 2020-2021; B2W-23103-00-00 (FRONT FORK ASSY (R.H) on YZ450F 2020-2021; B3J-23102-20-00 (FRONT FORK ASSY (L.H) on YZ450FX 2020 (+49 more in values). Fork springs: BR9-23141-30-00 (SPRING, FRONT FORK (K=4.6)) on YZ450FX, WR450F 2020-2023, YZ250FX 2020-2023, 2025-2027, WR250F 2020-2027; BR9-23141-70-00 (SPRING, FRONT FORK (K=5.0)) on YZ450F 2020-2027; BR9-23141-90-00 (SPRING, FRONT FORK () on YZ250F 2020 (+2 more in values). Fork oil and dust seals (size): 5XE-23144-L0-00 (SEAL, DUST) on YZ450F 2020-2022, YZ250F, YZ450FX, YZ250FX, WR450F 2020-2023, WR250F 2020-2024; B29-23145-00-00 (FORK SEAL KIT) on YZ450F, YZ250F, YZ450FX, WR450F, WR250F 2020-2027, YZ250FX 2020-2023, 2025-2027; B29-W003B-00-00 (FORK SEAL KIT) on YZ450F, YZ250F, YZ450FX, YZ250FX, WR450F, WR250F 2020 (+1 more in values). Same number = same part, it swaps; different number = different part.",
    "values": {
     "fork legs (complete units)": {
      "B2W-23102-00-00": "FRONT FORK ASSY (L.H | YZ450F 2020-2021",
@@ -2240,7 +2251,7 @@
      2027
     ]
    },
-   "statement": "Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027, fork units, fork springs and fork seals, by OEM part number. Fork legs (complete units): B2W-23102-00-00 on YZ450F 2020-2021; B2W-23103-00-00 on YZ450F 2020-2021; B3J-23102-20-00 on YZ450FX 2020 (+49 more in values). Fork springs: BR9-23141-30-00 (SPRING, FRONT FORK (K=4.6)) on YZ450FX, WR450F 2020-2023, YZ250FX 2020-2023, 2025-2027, WR250F 2020-2027; BR9-23141-70-00 (SPRING, FRONT FORK (K=5.0)) on YZ450F 2020-2027; BR9-23141-90-00 (SPRING, FRONT FORK () on YZ250F 2020 (+2 more in values). Fork oil and dust seals (size): 5XE-23144-L0-00 (SEAL, DUST) on YZ450F 2020-2022, YZ250F, YZ450FX, YZ250FX, WR450F 2020-2023, WR250F 2020-2024; B29-23145-00-00 (FORK SEAL KIT) on YZ450F, YZ250F, YZ450FX, WR450F, WR250F 2020-2027, YZ250FX 2020-2023, 2025-2027; B29-W003B-00-00 (FORK SEAL KIT) on YZ450F, YZ250F, YZ450FX, YZ250FX, WR450F, WR250F 2020 (+1 more in values). Same number = same part, it swaps; different number = different part.",
+   "statement": "Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027, fork units, fork springs and fork seals, by OEM part number. Fork legs (complete units): B2W-23102-00-00 (FRONT FORK ASSY (L.H) on YZ450F 2020-2021; B2W-23103-00-00 (FRONT FORK ASSY (R.H) on YZ450F 2020-2021; B3J-23102-20-00 (FRONT FORK ASSY (L.H) on YZ450FX 2020 (+49 more in values). Fork springs: BR9-23141-30-00 (SPRING, FRONT FORK (K=4.6)) on YZ450FX, WR450F 2020-2023, YZ250FX 2020-2023, 2025-2027, WR250F 2020-2027; BR9-23141-70-00 (SPRING, FRONT FORK (K=5.0)) on YZ450F 2020-2027; BR9-23141-90-00 (SPRING, FRONT FORK () on YZ250F 2020 (+2 more in values). Fork oil and dust seals (size): 5XE-23144-L0-00 (SEAL, DUST) on YZ450F 2020-2022, YZ250F, YZ450FX, YZ250FX, WR450F 2020-2023, WR250F 2020-2024; B29-23145-00-00 (FORK SEAL KIT) on YZ450F, YZ250F, YZ450FX, WR450F, WR250F 2020-2027, YZ250FX 2020-2023, 2025-2027; B29-W003B-00-00 (FORK SEAL KIT) on YZ450F, YZ250F, YZ450FX, YZ250FX, WR450F, WR250F 2020 (+1 more in values). Same number = same part, it swaps; different number = different part.",
    "values": {
     "fork legs (complete units)": {
      "B2W-23102-00-00": "FRONT FORK ASSY (L.H | YZ450F 2020-2021",
@@ -2344,7 +2355,7 @@
      2027
     ]
    },
-   "statement": "Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027, shock unit and shock springs, by OEM part number. Rear shock (complete unit): B3J-22200-00-00 on YZ450FX 2020; B7B-22200-00-00 on YZ250F 2020; B7B-22200-50-00 on YZ250F 2020; B7R-22200-10-00 on WR450F 2020; BAJ-22200-00-00 on YZ250FX 2020-2021; BAK-22200-10-00 on WR250F 2020-2021; B7B-22200-80-00 on YZ250F 2021 and 15 more numbers (see values). Shock springs: BR9-22212-20-00 (SPRING (K=56 BLUE)) on YZ250F, YZ450FX, YZ250FX, WR450F, WR250F 2020-2021; BR9-22212-30-00 (SPRING (K=58 BLUE)) on YZ450F 2020-2021; BR9-22212-70-00 (SPRING (K=56 BLACK)) on YZ250F 2020; BR9-22212-80-00 (SPRING (K=58 BLACK)) on YZ450F 2020; BR9-22212-A0-00 (SPRING (K=56 SILVER)) on YZ450F 2025-2027, YZ250F 2022-2024, YZ450FX, WR250F 2022-2027, YZ250FX 2022-2023, 2025-2027, WR450F 2022-2026; BR9-22212-B0-00 (SPRING (K=58 SILVER)) on YZ450F 2022-2024, WR450F 2027; D02-22212-00-00 (SPRING (K=54 SILVER)) on YZ250F 2025-2027. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027, shock unit and shock springs, by OEM part number. Rear shock (complete unit): B3J-22200-00-00 (SHOCK ABSORBER ASSY) on YZ450FX 2020; B7B-22200-00-00 (SHOCK ABSORBER ASSY) on YZ250F 2020; B7B-22200-50-00 (SHOCK ABSORBER ASSY) on YZ250F 2020; B7R-22200-10-00 (SHOCK ABSORBER ASSY, REAR) on WR450F 2020 (+18 more in values). Shock springs: BR9-22212-20-00 (SPRING (K=56 BLUE)) on YZ250F, YZ450FX, YZ250FX, WR450F, WR250F 2020-2021; BR9-22212-30-00 (SPRING (K=58 BLUE)) on YZ450F 2020-2021; BR9-22212-70-00 (SPRING (K=56 BLACK)) on YZ250F 2020; BR9-22212-80-00 (SPRING (K=58 BLACK)) on YZ450F 2020 (+3 more in values). Same number = same part, it swaps; different number = different part.",
    "values": {
     "rear shock (complete unit)": {
      "B3J-22200-00-00": "SHOCK ABSORBER ASSY | YZ450FX 2020",
@@ -2409,7 +2420,7 @@
      2027
     ]
    },
-   "statement": "Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027, shock unit and shock springs, by OEM part number. Rear shock (complete unit): B3J-22200-00-00 on YZ450FX 2020; B7B-22200-00-00 on YZ250F 2020; B7B-22200-50-00 on YZ250F 2020; B7R-22200-10-00 on WR450F 2020; BAJ-22200-00-00 on YZ250FX 2020-2021; BAK-22200-10-00 on WR250F 2020-2021; B7B-22200-80-00 on YZ250F 2021 and 15 more numbers (see values). Shock springs: BR9-22212-20-00 (SPRING (K=56 BLUE)) on YZ250F, YZ450FX, YZ250FX, WR450F, WR250F 2020-2021; BR9-22212-30-00 (SPRING (K=58 BLUE)) on YZ450F 2020-2021; BR9-22212-70-00 (SPRING (K=56 BLACK)) on YZ250F 2020; BR9-22212-80-00 (SPRING (K=58 BLACK)) on YZ450F 2020; BR9-22212-A0-00 (SPRING (K=56 SILVER)) on YZ450F 2025-2027, YZ250F 2022-2024, YZ450FX, WR250F 2022-2027, YZ250FX 2022-2023, 2025-2027, WR450F 2022-2026; BR9-22212-B0-00 (SPRING (K=58 SILVER)) on YZ450F 2022-2024, WR450F 2027; D02-22212-00-00 (SPRING (K=54 SILVER)) on YZ250F 2025-2027. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ250F / YZ450F / YZ250FX / YZ450FX / WR250F / WR450F 2020-2027, shock unit and shock springs, by OEM part number. Rear shock (complete unit): B3J-22200-00-00 (SHOCK ABSORBER ASSY) on YZ450FX 2020; B7B-22200-00-00 (SHOCK ABSORBER ASSY) on YZ250F 2020; B7B-22200-50-00 (SHOCK ABSORBER ASSY) on YZ250F 2020; B7R-22200-10-00 (SHOCK ABSORBER ASSY, REAR) on WR450F 2020 (+18 more in values). Shock springs: BR9-22212-20-00 (SPRING (K=56 BLUE)) on YZ250F, YZ450FX, YZ250FX, WR450F, WR250F 2020-2021; BR9-22212-30-00 (SPRING (K=58 BLUE)) on YZ450F 2020-2021; BR9-22212-70-00 (SPRING (K=56 BLACK)) on YZ250F 2020; BR9-22212-80-00 (SPRING (K=58 BLACK)) on YZ450F 2020 (+3 more in values). Same number = same part, it swaps; different number = different part.",
    "values": {
     "rear shock (complete unit)": {
      "B3J-22200-00-00": "SHOCK ABSORBER ASSY | YZ450FX 2020",
@@ -2478,7 +2489,7 @@
      2027
     ]
    },
-   "statement": "Yamaha YZ125 / YZ250 / YZ125X / YZ250X 2020-2027, frame, subframe and swingarm, by OEM part number. Main frame: 1SR-21101-00-00 on YZ125 2020-2027; 1SS-21101-00-00 on YZ250 2020-2027; B1B-21101-00-00 on YZ125X 2020-2027; BF1-21101-00-00 on YZ250X 2020-2027. Subframe (rear frame): 1SS-21190-00-00 on YZ125, YZ250 2020-2021, YZ125X, YZ250X 2020-2022; B4X-21190-00-00 on YZ125 2022-2027, YZ125X 2023-2027; BCR-21190-00-00 on YZ250 2022-2027, YZ250X 2023-2027. Swingarm: 1C3-22110-90-00 on YZ125, YZ250, YZ125X, YZ250X 2020; 1C3-22110-A0-00 on YZ125, YZ250, YZ125X, YZ250X 2021-2027. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ125 / YZ250 / YZ125X / YZ250X 2020-2027, frame, subframe and swingarm, by OEM part number. Main frame: 1SR-21101-00-00 (FRONT FRAME COMP.) on YZ125 2020-2027; 1SS-21101-00-00 (FRONT FRAME COMP.) on YZ250 2020-2027; B1B-21101-00-00 (FRONT FRAME COMP.) on YZ125X 2020-2027; BF1-21101-00-00 (FRONT FRAME COMP.) on YZ250X 2020-2027. Subframe (rear frame): 1SS-21190-00-00 on YZ125, YZ250 2020-2021, YZ125X, YZ250X 2020-2022; B4X-21190-00-00 on YZ125 2022-2027, YZ125X 2023-2027; BCR-21190-00-00 on YZ250 2022-2027, YZ250X 2023-2027. Swingarm: 1C3-22110-90-00 (REAR ARM COMP.) on YZ125, YZ250, YZ125X, YZ250X 2020; 1C3-22110-A0-00 (REAR ARM COMP.) on YZ125, YZ250, YZ125X, YZ250X 2021-2027. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "main frame": {
      "1SR-21101-00-00": "FRONT FRAME COMP. | YZ125 2020-2027",
@@ -2529,7 +2540,7 @@
      2027
     ]
    },
-   "statement": "Yamaha YZ125 / YZ250 / YZ125X / YZ250X 2020-2027, rear linkage arms, by OEM part number. Linkage arms (relay arm, pull rod, cushion arm): 1C3-2217A-00-00 on YZ125, YZ250, YZ125X, YZ250X 2020-2027; 1C3-2217F-50-00 on YZ125, YZ250, YZ125X, YZ250X 2020-2027. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ125 / YZ250 / YZ125X / YZ250X 2020-2027, rear linkage arms, by OEM part number. Linkage arms (relay arm, pull rod, cushion arm): 1C3-2217A-00-00 (ARM, RELAY) on YZ125, YZ250, YZ125X, YZ250X 2020-2027; 1C3-2217F-50-00 (ROD, CONNECTING 1) on YZ125, YZ250, YZ125X, YZ250X 2020-2027. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "linkage arms (relay arm, pull rod, cushion arm)": {
      "1C3-2217A-00-00": "ARM, RELAY | YZ125, YZ250, YZ125X, YZ250X 2020-2027",
@@ -3091,7 +3102,7 @@
      2027
     ]
    },
-   "statement": "Yamaha YZ125 / YZ250 / YZ125X / YZ250X 2020-2027, engine control unit (ECU / CDI), by OEM part number. Engine control unit: 1C3-85540-13-00 on YZ125 2020-2021; 1P8-85540-03-00 on YZ250 2020-2027; B1B-85540-03-00 on YZ125X 2020-2022; BF1-85540-03-00 on YZ250X 2020-2022; B4X-85540-00-00 on YZ125 2022-2025; BRX-85540-00-00 on YZ125X 2023-2025; BRY-85540-00-00 on YZ250X 2023-2025 and 3 more numbers (see values). Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ125 / YZ250 / YZ125X / YZ250X 2020-2027, engine control unit (ECU / CDI), by OEM part number. Engine control unit: 1C3-85540-13-00 (C.D.I. UNIT ASSY) on YZ125 2020-2021; 1P8-85540-03-00 (C.D.I. UNIT ASSY) on YZ250 2020-2027; B1B-85540-03-00 (CDI UNIT ASSY) on YZ125X 2020-2022; BF1-85540-03-00 (C.D.I. UNIT ASSY) on YZ250X 2020-2022; B4X-85540-00-00 (C.D.I. UNIT ASSY) on YZ125 2022-2025; BRX-85540-00-00 (C.D.I. UNIT ASSY) on YZ125X 2023-2025; BRY-85540-00-00 (C.D.I. UNIT ASSY) on YZ250X 2023-2025 and 3 more numbers (see values). Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "engine control unit": {
      "1C3-85540-13-00": "C.D.I. UNIT ASSY | YZ125 2020-2021",
@@ -3332,7 +3343,7 @@
      2027
     ]
    },
-   "statement": "Yamaha YZ125 / YZ250 / YZ125X / YZ250X 2020-2027, fork units, fork springs and fork seals, by OEM part number. Fork legs (complete units): 1SR-23102-00-00 on YZ125 2020-2021; 1SR-23103-00-00 on YZ125 2020-2021; 1SS-23102-00-00 on YZ250 2020-2021; 1SS-23103-00-00 on YZ250 2020-2021 (+22 more in values). Fork springs: 1C3-23141-C1-00 (SPRING, FRONT FORK (K=4.1N/MM)) on YZ125 2020-2021, YZ125X 2020-2022; 1C3-23141-E1-00 (SPRING, FRONT FORK (K=4.3N/MM)) on YZ250 2020-2021, YZ250X 2020-2022; B3J-23141-20-00 (SPRING, FRONT FORK) on YZ125 2022-2027, YZ125X 2023-2027; B3J-23141-40-00 (SPRING, FRONT FORK) on YZ250 2022-2027 (+1 more in values). Fork oil and dust seals (size): 17D-23145-00-00 (OIL SEAL) on YZ125, YZ250 2020-2021, YZ125X, YZ250X 2020-2022; 17D-W003B-00-00 (FORK SEAL KIT) on YZ125, YZ250, YZ125X, YZ250X 2020; 5XE-23144-L0-00 (SEAL, DUST) on YZ125, YZ250, YZ125X, YZ250X 2020-2027; B29-23145-00-00 (FORK SEAL KIT) on YZ125, YZ250 2022-2027, YZ125X, YZ250X 2023-2027. Same number = same part, it swaps; different number = different part.",
+   "statement": "Yamaha YZ125 / YZ250 / YZ125X / YZ250X 2020-2027, fork units, fork springs and fork seals, by OEM part number. Fork legs (complete units): 1SR-23102-00-00 (FRONT FORK ASSY (L.H)) on YZ125 2020-2021; 1SR-23103-00-00 (FRONT FORK ASSY (R.H)) on YZ125 2020-2021; 1SS-23102-00-00 (FRONT FORK ASSY (L.H)) on YZ250 2020-2021; 1SS-23103-00-00 (FRONT FORK ASSY (R.H)) on YZ250 2020-2021 (+22 more in values). Fork springs: 1C3-23141-C1-00 (SPRING, FRONT FORK (K=4.1N/MM)) on YZ125 2020-2021, YZ125X 2020-2022; 1C3-23141-E1-00 (SPRING, FRONT FORK (K=4.3N/MM)) on YZ250 2020-2021, YZ250X 2020-2022; B3J-23141-20-00 (SPRING, FRONT FORK) on YZ125 2022-2027, YZ125X 2023-2027; B3J-23141-40-00 (SPRING, FRONT FORK) on YZ250 2022-2027 (+1 more in values). Fork oil and dust seals (size): 17D-23145-00-00 (OIL SEAL) on YZ125, YZ250 2020-2021, YZ125X, YZ250X 2020-2022; 17D-W003B-00-00 (FORK SEAL KIT) on YZ125, YZ250, YZ125X, YZ250X 2020; 5XE-23144-L0-00 (SEAL, DUST) on YZ125, YZ250, YZ125X, YZ250X 2020-2027; B29-23145-00-00 (FORK SEAL KIT) on YZ125, YZ250 2022-2027, YZ125X, YZ250X 2023-2027. Same number = same part, it swaps; different number = different part.",
    "values": {
     "fork legs (complete units)": {
      "1SR-23102-00-00": "FRONT FORK ASSY (L.H) | YZ125 2020-2021",
@@ -3409,7 +3420,7 @@
      2027
     ]
    },
-   "statement": "Yamaha YZ125 / YZ250 / YZ125X / YZ250X 2020-2027, shock unit and shock springs, by OEM part number. Rear shock (complete unit): 1SR-22200-00-00 on YZ125 2020-2021; 1SS-22200-00-00 on YZ250 2020-2021; BF1-22200-00-00 on YZ250X 2020-2021; B1B-22200-12-00 on YZ125X 2022; BF1-22200-02-00 on YZ250X 2022; BRX-22200-10-00 on YZ125X 2023-2027; BRY-22200-00-00 on YZ250X 2023-2027. Shock springs: 5UN-22212-20-00 (SPRING (K=46N/MM)) on YZ125 2020-2021, YZ125X 2020-2022; 5UN-22212-30-00 (SPRING (K=48N/MM)) on YZ125 2022-2027, YZ250 2020-2021, YZ125X 2023-2027, YZ250X 2020-2027; 5UN-22212-40-00 (SPRING (K=50N/MM)) on YZ250 2022-2027. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ125 / YZ250 / YZ125X / YZ250X 2020-2027, shock unit and shock springs, by OEM part number. Rear shock (complete unit): 1SR-22200-00-00 (SHOCK ABSORBER ASSY, REAR) on YZ125 2020-2021; 1SS-22200-00-00 (SHOCK ABSORBER ASSY, REAR) on YZ250 2020-2021; BF1-22200-00-00 (SHOCK ABSORBER ASSY, REAR) on YZ250X 2020-2021; B1B-22200-12-00 (SHOCK ABSORBER ASSY, REAR) on YZ125X 2022; BF1-22200-02-00 (SHOCK ABSORBER ASSY, REAR) on YZ250X 2022; BRX-22200-10-00 (SHOCK ABSORBER ASSY, REAR) on YZ125X 2023-2027; BRY-22200-00-00 (SHOCK ABSORBER ASSY, REAR) on YZ250X 2023-2027. Shock springs: 5UN-22212-20-00 (SPRING (K=46N/MM)) on YZ125 2020-2021, YZ125X 2020-2022; 5UN-22212-30-00 (SPRING (K=48N/MM)) on YZ125 2022-2027, YZ250 2020-2021, YZ125X 2023-2027, YZ250X 2020-2027; 5UN-22212-40-00 (SPRING (K=50N/MM)) on YZ250 2022-2027. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "rear shock (complete unit)": {
      "1SR-22200-00-00": "SHOCK ABSORBER ASSY, REAR | YZ125 2020-2021",
@@ -3437,33 +3448,41 @@
    "notes": "Part numbers read from MotoSport public OEM catalog (US market). Rear shock (complete unit) not found in the catalogue for YZ125, YZ250 2022-2027, YZ125X 2020-2021 (unknown, not 'does not exist')."
   },
   {
-   "id": "fit2-yzmini-chassis-a",
+   "id": "fit2-yzmini-chassis",
    "domain": "chassis",
    "topic": "frame, subframe and swingarm interchange (OEM part numbers)",
    "applies_to": {
     "make": "Yamaha",
     "models": [
+     "YZ65",
      "YZ85"
     ],
     "years": [
-     2020
+     2020,
+     2022,
+     2024,
+     2026
     ]
    },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, frame, subframe and swingarm, by OEM part number. Main frame: 5PA-21101-15 on YZ85 2020; BR8-21101-00 on YZ65 2020; BR8-21101-01 on YZ65 2022, 2024, 2026. Subframe (rear frame): 5PA-21190-02-33 on YZ85 2020; BR8-21190-00 on YZ65 2020, 2022, 2024, 2026. Swingarm: B4B-22110-00 on YZ85 2020; BR8-22110-00 on YZ65 2020; BR8-22110-10 on YZ65 2022, 2024; BR8-22110-11 on YZ65 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, frame, subframe and swingarm, by OEM part number. Main frame: 5PA-21101-15 (FRONT FRAME COMP.) on YZ85 2020; BR8-21101-00 (FRONT FRAME COMP.) on YZ65 2020; B4B-21101-00 (FRONT FRAME COMP.) on YZ85 2022, 2024, 2026; BR8-21101-01 (FRONT FRAME COMP.) on YZ65 2022, 2024, 2026. Subframe (rear frame): 5PA-21190-02-33 on YZ85 2020; BR8-21190-00 on YZ65 2020, 2022, 2024, 2026; B4B-21190-00 on YZ85 2022, 2024, 2026. Swingarm: B4B-22110-00 (REAR ARM COMP.) on YZ85 2020; BR8-22110-00 (REAR ARM COMP.) on YZ65 2020; B4B-22110-20 (REAR ARM COMP.) on YZ85 2022, 2024; BR8-22110-10 (REAR ARM COMP.) on YZ65 2022, 2024; B4B-22110-21 (REAR ARM COMP.) on YZ85 2026; BR8-22110-11 (REAR ARM COMP.) on YZ65 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "main frame": {
      "5PA-21101-15": "FRONT FRAME COMP. | YZ85 2020",
      "BR8-21101-00": "FRONT FRAME COMP. | YZ65 2020",
+     "B4B-21101-00": "FRONT FRAME COMP. | YZ85 2022, 2024, 2026",
      "BR8-21101-01": "FRONT FRAME COMP. | YZ65 2022, 2024, 2026"
     },
     "subframe (rear frame)": {
      "5PA-21190-02-33": "REAR FRAME COMP. | YZ85 2020",
-     "BR8-21190-00": "REAR FRAME COMP. | YZ65 2020, 2022, 2024, 2026"
+     "BR8-21190-00": "REAR FRAME COMP. | YZ65 2020, 2022, 2024, 2026",
+     "B4B-21190-00": "REAR FRAME COMP. | YZ85 2022, 2024, 2026"
     },
     "swingarm": {
      "B4B-22110-00": "REAR ARM COMP. | YZ85 2020",
      "BR8-22110-00": "REAR ARM COMP. | YZ65 2020",
+     "B4B-22110-20": "REAR ARM COMP. | YZ85 2022, 2024",
      "BR8-22110-10": "REAR ARM COMP. | YZ65 2022, 2024",
+     "B4B-22110-21": "REAR ARM COMP. | YZ85 2026",
      "BR8-22110-11": "REAR ARM COMP. | YZ65 2026"
     }
    },
@@ -3478,13 +3497,14 @@
    "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market).  Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
   },
   {
-   "id": "fit2-yzmini-chassis-b",
+   "id": "fit2-yzmini-linkage",
    "domain": "chassis",
-   "topic": "frame, subframe and swingarm interchange (OEM part numbers)",
+   "topic": "rear linkage arms interchange (OEM part numbers)",
    "applies_to": {
     "make": "Yamaha",
     "models": [
-     "YZ65"
+     "YZ65",
+     "YZ85"
     ],
     "years": [
      2020,
@@ -3493,52 +3513,11 @@
      2026
     ]
    },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, frame, subframe and swingarm, by OEM part number. Main frame: 5PA-21101-15 on YZ85 2020; BR8-21101-00 on YZ65 2020; BR8-21101-01 on YZ65 2022, 2024, 2026. Subframe (rear frame): 5PA-21190-02-33 on YZ85 2020; BR8-21190-00 on YZ65 2020, 2022, 2024, 2026. Swingarm: B4B-22110-00 on YZ85 2020; BR8-22110-00 on YZ65 2020; BR8-22110-10 on YZ65 2022, 2024; BR8-22110-11 on YZ65 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "main frame": {
-     "5PA-21101-15": "FRONT FRAME COMP. | YZ85 2020",
-     "BR8-21101-00": "FRONT FRAME COMP. | YZ65 2020",
-     "BR8-21101-01": "FRONT FRAME COMP. | YZ65 2022, 2024, 2026"
-    },
-    "subframe (rear frame)": {
-     "5PA-21190-02-33": "REAR FRAME COMP. | YZ85 2020",
-     "BR8-21190-00": "REAR FRAME COMP. | YZ65 2020, 2022, 2024, 2026"
-    },
-    "swingarm": {
-     "B4B-22110-00": "REAR ARM COMP. | YZ85 2020",
-     "BR8-22110-00": "REAR ARM COMP. | YZ65 2020",
-     "BR8-22110-10": "REAR ARM COMP. | YZ65 2022, 2024",
-     "BR8-22110-11": "REAR ARM COMP. | YZ65 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "City West Yamaha OEM parts fiche",
-    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2020/yz65",
-    "date": "2026-11-07"
-   },
-   "confidence": "medium",
-   "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market).  Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
-  },
-  {
-   "id": "fit2-yzmini-linkage-a",
-   "domain": "chassis",
-   "topic": "rear linkage arms interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Yamaha",
-    "models": [
-     "YZ85"
-    ],
-    "years": [
-     2020
-    ]
-   },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, rear linkage arms, by OEM part number. Linkage arms (relay arm, pull rod, cushion arm): 4ES-2217F-00 on YZ85 2020; B4B-2217A-00 on YZ85 2020. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, rear linkage arms, by OEM part number. Linkage arms (relay arm, pull rod, cushion arm): 4ES-2217F-00 (ROD, CONNECTING 1) on YZ85 2020, 2022, 2024, 2026; B4B-2217A-00 (ARM, RELAY) on YZ85 2020, 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "linkage arms (relay arm, pull rod, cushion arm)": {
-     "4ES-2217F-00": "ROD, CONNECTING 1 | YZ85 2020",
-     "B4B-2217A-00": "ARM, RELAY | YZ85 2020"
+     "4ES-2217F-00": "ROD, CONNECTING 1 | YZ85 2020, 2022, 2024, 2026",
+     "B4B-2217A-00": "ARM, RELAY | YZ85 2020, 2022, 2024, 2026"
     }
    },
    "tier": "OEM",
@@ -3552,109 +3531,37 @@
    "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market). Linkage arms (relay arm, pull rod, cushion arm) not found in the catalogue for YZ65 2020, 2022, 2024, 2026 (unknown, not 'does not exist'). Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
   },
   {
-   "id": "fit2-yzmini-linkage-b",
-   "domain": "chassis",
-   "topic": "rear linkage arms interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Yamaha",
-    "models": [
-     "YZ65"
-    ],
-    "years": [
-     2020,
-     2022,
-     2024,
-     2026
-    ]
-   },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, rear linkage arms, by OEM part number. Linkage arms (relay arm, pull rod, cushion arm): 4ES-2217F-00 on YZ85 2020; B4B-2217A-00 on YZ85 2020. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "linkage arms (relay arm, pull rod, cushion arm)": {
-     "4ES-2217F-00": "ROD, CONNECTING 1 | YZ85 2020",
-     "B4B-2217A-00": "ARM, RELAY | YZ85 2020"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "City West Yamaha OEM parts fiche",
-    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2020/yz65",
-    "date": "2026-11-07"
-   },
-   "confidence": "medium",
-   "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market). Linkage arms (relay arm, pull rod, cushion arm) not found in the catalogue for YZ65 2020, 2022, 2024, 2026 (unknown, not 'does not exist'). Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
-  },
-  {
-   "id": "fit2-yzmini-clamps-a",
+   "id": "fit2-yzmini-clamps",
    "domain": "chassis",
    "topic": "triple clamps and handlebar mounts interchange (OEM part numbers)",
    "applies_to": {
     "make": "Yamaha",
     "models": [
+     "YZ65",
      "YZ85"
     ],
     "years": [
-     2020
-    ]
-   },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, triple clamps and handlebar mounts, by OEM part number. Top triple clamp: BR8-23435-00 on YZ65 2020, 2022, 2024, 2026, YZ85 2020. Bottom triple clamp (steering stem): BR8-23340-00 on YZ65 2020, 2022, 2024, 2026, YZ85 2020. Handlebar and bar mounts: 18P-23441-00 (HOLDER, HANDLE UPP) on YZ65, YZ85 2020; BR8-23442-00 (HOLDER, HANDLE LOW) on YZ65 2020, 2022, 2024, 2026; BR8-26111-10 (HANDLEBAR (SEE NEWS)) on YZ65, YZ85 2020; BR9-23442-00 (HOLDER, HANDLE LOW) on YZ85 2020; B2W-23441-00 (HOLDER, HANDLE UPP) on YZ65 2022, 2024, 2026; BR8-26111-20 (HANDLEBAR) on YZ65 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "top triple clamp": {
-     "BR8-23435-00": "CROWN, HANDLE | YZ65 2020, 2022, 2024, 2026, YZ85 2020"
-    },
-    "bottom triple clamp (steering stem)": {
-     "BR8-23340-00": "UNDER BRACKET COMP | YZ65 2020, 2022, 2024, 2026, YZ85 2020"
-    },
-    "handlebar and bar mounts": {
-     "18P-23441-00": "HOLDER, HANDLE UPP | YZ65, YZ85 2020",
-     "BR8-23442-00": "HOLDER, HANDLE LOW | YZ65 2020, 2022, 2024, 2026",
-     "BR8-26111-10": "HANDLEBAR (SEE NEWS) | YZ65, YZ85 2020",
-     "BR9-23442-00": "HOLDER, HANDLE LOW | YZ85 2020",
-     "B2W-23441-00": "HOLDER, HANDLE UPP | YZ65 2022, 2024, 2026",
-     "BR8-26111-20": "HANDLEBAR | YZ65 2022, 2024, 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "City West Yamaha OEM parts fiche",
-    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2020/yz65",
-    "date": "2026-11-07"
-   },
-   "confidence": "medium",
-   "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market).  Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
-  },
-  {
-   "id": "fit2-yzmini-clamps-b",
-   "domain": "chassis",
-   "topic": "triple clamps and handlebar mounts interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Yamaha",
-    "models": [
-     "YZ65"
-    ],
-    "years": [
      2020,
      2022,
      2024,
      2026
     ]
    },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, triple clamps and handlebar mounts, by OEM part number. Top triple clamp: BR8-23435-00 on YZ65 2020, 2022, 2024, 2026, YZ85 2020. Bottom triple clamp (steering stem): BR8-23340-00 on YZ65 2020, 2022, 2024, 2026, YZ85 2020. Handlebar and bar mounts: 18P-23441-00 (HOLDER, HANDLE UPP) on YZ65, YZ85 2020; BR8-23442-00 (HOLDER, HANDLE LOW) on YZ65 2020, 2022, 2024, 2026; BR8-26111-10 (HANDLEBAR (SEE NEWS)) on YZ65, YZ85 2020; BR9-23442-00 (HOLDER, HANDLE LOW) on YZ85 2020; B2W-23441-00 (HOLDER, HANDLE UPP) on YZ65 2022, 2024, 2026; BR8-26111-20 (HANDLEBAR) on YZ65 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, triple clamps and handlebar mounts, by OEM part number. Top triple clamp: BR8-23435-00 on YZ65, YZ85 2020, 2022, 2024, 2026. Bottom triple clamp (steering stem): BR8-23340-00 on YZ65, YZ85 2020, 2022, 2024, 2026. Handlebar and bar mounts: 18P-23441-00 (HOLDER, HANDLE UPP) on YZ65, YZ85 2020; BR8-23442-00 (HOLDER, HANDLE LOW) on YZ65 2020, 2022, 2024, 2026; BR8-26111-10 (HANDLEBAR (SEE NEWS)) on YZ65, YZ85 2020; BR9-23442-00 (HOLDER, HANDLE LOW) on YZ85 2020, 2022, 2024, 2026; B2W-23441-00 (HOLDER, HANDLE UPP) on YZ65, YZ85 2022, 2024, 2026; BR8-26111-20 (HANDLEBAR) on YZ65, YZ85 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "top triple clamp": {
-     "BR8-23435-00": "CROWN, HANDLE | YZ65 2020, 2022, 2024, 2026, YZ85 2020"
+     "BR8-23435-00": "CROWN, HANDLE | YZ65, YZ85 2020, 2022, 2024, 2026"
     },
     "bottom triple clamp (steering stem)": {
-     "BR8-23340-00": "UNDER BRACKET COMP | YZ65 2020, 2022, 2024, 2026, YZ85 2020"
+     "BR8-23340-00": "UNDER BRACKET COMP | YZ65, YZ85 2020, 2022, 2024, 2026"
     },
     "handlebar and bar mounts": {
      "18P-23441-00": "HOLDER, HANDLE UPP | YZ65, YZ85 2020",
      "BR8-23442-00": "HOLDER, HANDLE LOW | YZ65 2020, 2022, 2024, 2026",
      "BR8-26111-10": "HANDLEBAR (SEE NEWS) | YZ65, YZ85 2020",
-     "BR9-23442-00": "HOLDER, HANDLE LOW | YZ85 2020",
-     "B2W-23441-00": "HOLDER, HANDLE UPP | YZ65 2022, 2024, 2026",
-     "BR8-26111-20": "HANDLEBAR | YZ65 2022, 2024, 2026"
+     "BR9-23442-00": "HOLDER, HANDLE LOW | YZ85 2020, 2022, 2024, 2026",
+     "B2W-23441-00": "HOLDER, HANDLE UPP | YZ65, YZ85 2022, 2024, 2026",
+     "BR8-26111-20": "HANDLEBAR | YZ65, YZ85 2022, 2024, 2026"
     }
    },
    "tier": "OEM",
@@ -3668,33 +3575,39 @@
    "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market).  Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
   },
   {
-   "id": "fit2-yzmini-wheels-a",
+   "id": "fit2-yzmini-wheels",
    "domain": "chassis",
    "topic": "wheels, hubs, axles and rim sizes interchange (OEM part numbers)",
    "applies_to": {
     "make": "Yamaha",
     "models": [
+     "YZ65",
      "YZ85"
     ],
     "years": [
-     2020
+     2020,
+     2022,
+     2024,
+     2026
     ]
    },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, wheels, hubs, axles and rim sizes, by OEM part number. Front wheel, hub and axle: 4ES-25111-01 on YZ65 2020, 2022, 2024, 2026, YZ85 2020; 4ES-25181-00 on YZ85 2020; BR8-25102-00 on YZ65 2022, 2024, 2026. Rear wheel, hub and axle: 4ES-25311-00 on YZ65 2020, 2022, 2024, 2026, YZ85 2020; BR8-25381-00 on YZ65 2020, 2022, 2024, 2026, YZ85 2020. Rim sizes: 94414-17013 (RIM (1.40-17)) on YZ85 2020; 94416-12005 (RIM (1.60-12)) on YZ65 2020, 2022, 2024, 2026; 94416-14006 (RIM (1.60-14)) on YZ85 2020; 94416-14007 (RIM (1.60-14)) on YZ65 2020, 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, wheels, hubs, axles and rim sizes, by OEM part number. Front wheel, hub and axle: 4ES-25111-01 on YZ65, YZ85 2020, 2022, 2024, 2026; 4ES-25181-00 on YZ85 2020, 2022, 2024, 2026; B4B-25102-00 on YZ85 2022, 2024, 2026; BR8-25102-00 on YZ65 2022, 2024, 2026. Rear wheel, hub and axle: 4ES-25311-00 on YZ65, YZ85 2020, 2022, 2024, 2026; BR8-25381-00 on YZ65 2020, 2022, 2024, 2026, YZ85 2020; B4B-25381-00 on YZ85 2022, 2024, 2026. Rim sizes: 94414-17013 (RIM (1.40-17)) on YZ85 2020, 2022, 2024, 2026; 94416-12005 (RIM (1.60-12)) on YZ65 2020, 2022, 2024, 2026; 94416-14006 (RIM (1.60-14)) on YZ85 2020, 2022, 2024, 2026; 94416-14007 (RIM (1.60-14)) on YZ65 2020, 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "front wheel, hub and axle": {
-     "4ES-25111-01": "HUB, FRONT | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "4ES-25181-00": "AXLE, WHEEL | YZ85 2020",
+     "4ES-25111-01": "HUB, FRONT | YZ65, YZ85 2020, 2022, 2024, 2026",
+     "4ES-25181-00": "AXLE, WHEEL | YZ85 2020, 2022, 2024, 2026",
+     "B4B-25102-00": "FRONT WHEEL KIT BLUE YZ85 '21 | YZ85 2022, 2024, 2026",
      "BR8-25102-00": "FRONT WHEEL KIT BLUE YZ65 '21 | YZ65 2022, 2024, 2026"
     },
     "rear wheel, hub and axle": {
-     "4ES-25311-00": "HUB, REAR | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "BR8-25381-00": "AXLE, WHEEL | YZ65 2020, 2022, 2024, 2026, YZ85 2020"
+     "4ES-25311-00": "HUB, REAR | YZ65, YZ85 2020, 2022, 2024, 2026",
+     "BR8-25381-00": "AXLE, WHEEL | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
+     "B4B-25381-00": "AXLE, WHEEL | YZ85 2022, 2024, 2026"
     },
     "rim sizes": {
-     "94414-17013": "RIM (1.40-17) | YZ85 2020",
+     "94414-17013": "RIM (1.40-17) | YZ85 2020, 2022, 2024, 2026",
      "94416-12005": "RIM (1.60-12) | YZ65 2020, 2022, 2024, 2026",
-     "94416-14006": "RIM (1.60-14) | YZ85 2020",
+     "94416-14006": "RIM (1.60-14) | YZ85 2020, 2022, 2024, 2026",
      "94416-14007": "RIM (1.60-14) | YZ65 2020, 2022, 2024, 2026"
     }
    },
@@ -3709,150 +3622,53 @@
    "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market).  Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
   },
   {
-   "id": "fit2-yzmini-wheels-b",
-   "domain": "chassis",
-   "topic": "wheels, hubs, axles and rim sizes interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Yamaha",
-    "models": [
-     "YZ65"
-    ],
-    "years": [
-     2020,
-     2022,
-     2024,
-     2026
-    ]
-   },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, wheels, hubs, axles and rim sizes, by OEM part number. Front wheel, hub and axle: 4ES-25111-01 on YZ65 2020, 2022, 2024, 2026, YZ85 2020; 4ES-25181-00 on YZ85 2020; BR8-25102-00 on YZ65 2022, 2024, 2026. Rear wheel, hub and axle: 4ES-25311-00 on YZ65 2020, 2022, 2024, 2026, YZ85 2020; BR8-25381-00 on YZ65 2020, 2022, 2024, 2026, YZ85 2020. Rim sizes: 94414-17013 (RIM (1.40-17)) on YZ85 2020; 94416-12005 (RIM (1.60-12)) on YZ65 2020, 2022, 2024, 2026; 94416-14006 (RIM (1.60-14)) on YZ85 2020; 94416-14007 (RIM (1.60-14)) on YZ65 2020, 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "front wheel, hub and axle": {
-     "4ES-25111-01": "HUB, FRONT | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "4ES-25181-00": "AXLE, WHEEL | YZ85 2020",
-     "BR8-25102-00": "FRONT WHEEL KIT BLUE YZ65 '21 | YZ65 2022, 2024, 2026"
-    },
-    "rear wheel, hub and axle": {
-     "4ES-25311-00": "HUB, REAR | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "BR8-25381-00": "AXLE, WHEEL | YZ65 2020, 2022, 2024, 2026, YZ85 2020"
-    },
-    "rim sizes": {
-     "94414-17013": "RIM (1.40-17) | YZ85 2020",
-     "94416-12005": "RIM (1.60-12) | YZ65 2020, 2022, 2024, 2026",
-     "94416-14006": "RIM (1.60-14) | YZ85 2020",
-     "94416-14007": "RIM (1.60-14) | YZ65 2020, 2022, 2024, 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "City West Yamaha OEM parts fiche",
-    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2020/yz65",
-    "date": "2026-11-07"
-   },
-   "confidence": "medium",
-   "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market).  Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
-  },
-  {
-   "id": "fit2-yzmini-bearings-a",
+   "id": "fit2-yzmini-bearings",
    "domain": "maintenance",
    "topic": "wheel, swingarm/linkage and steering-head bearings and seals (sizes) interchange (OEM part numbers)",
    "applies_to": {
     "make": "Yamaha",
     "models": [
+     "YZ65",
      "YZ85"
     ],
     "years": [
-     2020
-    ]
-   },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, wheel, swingarm/linkage and steering-head bearings and seals (sizes), by OEM part number. Wheel bearings and wheel seals: 93102-20009 (OIL SEAL 20X35X7) on YZ65 2020, 2022, 2024, 2026, YZ85 2020; 93306-20119 (BEARING) on YZ65 2020, 2022, 2024, 2026, YZ85 2020; 93306-20204 (BEARING (B6202Z)) on YZ65 2020, 2022, 2024, 2026, YZ85 2020. Swingarm pivot and linkage bearings and seals: 4ES-22216-00 (BUSH, REAR SHOCK ABSORBER) on YZ65 2020, 2022, 2024, 2026, YZ85 2020; 5PA-22151-00 (SEAL, GUARD) on YZ85 2020; 5PA-22176-00 (BEARING) on YZ85 2020; 5PA-22184-00 (BUSH) on YZ85 2020 (+13 more in values). Steering head bearings: 1J7-23415-00 (COVER, BALL RACE 1) on YZ65 2020, 2022, 2024, 2026, YZ85 2020; 4ES-23144-00 (SEAL, DUST) on YZ65 2020, 2022, 2024, 2026, YZ85 2020; 93332-00079 (BEARING) on YZ65 2020, 2022, 2024, 2026, YZ85 2020. Same number = same part, it swaps; different number = different part.",
-   "values": {
-    "wheel bearings and wheel seals": {
-     "93102-20009": "OIL SEAL 20X35X7 | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "93306-20119": "BEARING | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "93306-20204": "BEARING (B6202Z) | YZ65 2020, 2022, 2024, 2026, YZ85 2020"
-    },
-    "swingarm pivot and linkage bearings and seals": {
-     "4ES-22216-00": "BUSH, REAR SHOCK ABSORBER | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "5PA-22151-00": "SEAL, GUARD | YZ85 2020",
-     "5PA-22176-00": "BEARING | YZ85 2020",
-     "5PA-22184-00": "BUSH | YZ85 2020",
-     "5PA-22475-00": "SEAL, DUST | YZ85 2020",
-     "90380-12219": "BUSH, SOLID | YZ85 2020",
-     "90381-12091": "BUSH, SOLID | YZ85 2020",
-     "90385-17042": "BUSH | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "93101-17062": "OIL SEAL | YZ85 2020",
-     "93109-17071": "OIL SEAL | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "93315-31759": "BEARING | YZ85 2020",
-     "93317-21746": "BEARING | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "93317-31771": "BEARING | YZ85 2020",
-     "BR8-22151-00": "SEAL, GUARD | YZ65 2020, 2022, 2024, 2026",
-     "5NY-22475-00": "SEAL, DUST | YZ65 2022, 2024, 2026",
-     "5UN-22176-00": "BEARING | YZ65 2022, 2024, 2026",
-     "BR8-22184-00": "BUSH | YZ65 2022, 2024, 2026"
-    },
-    "steering head bearings": {
-     "1J7-23415-00": "COVER, BALL RACE 1 | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "4ES-23144-00": "SEAL, DUST | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "93332-00079": "BEARING | YZ65 2020, 2022, 2024, 2026, YZ85 2020"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "City West Yamaha OEM parts fiche",
-    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2020/yz65",
-    "date": "2026-11-07"
-   },
-   "confidence": "medium",
-   "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market).  Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
-  },
-  {
-   "id": "fit2-yzmini-bearings-b",
-   "domain": "maintenance",
-   "topic": "wheel, swingarm/linkage and steering-head bearings and seals (sizes) interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Yamaha",
-    "models": [
-     "YZ65"
-    ],
-    "years": [
      2020,
      2022,
      2024,
      2026
     ]
    },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, wheel, swingarm/linkage and steering-head bearings and seals (sizes), by OEM part number. Wheel bearings and wheel seals: 93102-20009 (OIL SEAL 20X35X7) on YZ65 2020, 2022, 2024, 2026, YZ85 2020; 93306-20119 (BEARING) on YZ65 2020, 2022, 2024, 2026, YZ85 2020; 93306-20204 (BEARING (B6202Z)) on YZ65 2020, 2022, 2024, 2026, YZ85 2020. Swingarm pivot and linkage bearings and seals: 4ES-22216-00 (BUSH, REAR SHOCK ABSORBER) on YZ65 2020, 2022, 2024, 2026, YZ85 2020; 5PA-22151-00 (SEAL, GUARD) on YZ85 2020; 5PA-22176-00 (BEARING) on YZ85 2020; 5PA-22184-00 (BUSH) on YZ85 2020 (+13 more in values). Steering head bearings: 1J7-23415-00 (COVER, BALL RACE 1) on YZ65 2020, 2022, 2024, 2026, YZ85 2020; 4ES-23144-00 (SEAL, DUST) on YZ65 2020, 2022, 2024, 2026, YZ85 2020; 93332-00079 (BEARING) on YZ65 2020, 2022, 2024, 2026, YZ85 2020. Same number = same part, it swaps; different number = different part.",
+   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, wheel, swingarm/linkage and steering-head bearings and seals (sizes), by OEM part number. Wheel bearings and wheel seals: 93102-20009 (OIL SEAL 20X35X7) on YZ65, YZ85 2020, 2022, 2024, 2026; 93306-20119 (BEARING) on YZ65, YZ85 2020, 2022, 2024, 2026; 93306-20204 (BEARING (B6202Z)) on YZ65, YZ85 2020, 2022, 2024, 2026. Swingarm pivot and linkage bearings and seals: 4ES-22216-00 (BUSH, REAR SHOCK ABSORBER) on YZ65, YZ85 2020, 2022, 2024, 2026; 5PA-22151-00 (SEAL, GUARD) on YZ85 2020; 5PA-22176-00 (BEARING) on YZ85 2020, 2022, 2024, 2026; 5PA-22184-00 (BUSH) on YZ85 2020, 2022, 2024, 2026 (+14 more in values). Steering head bearings: 1J7-23415-00 (COVER, BALL RACE 1) on YZ65, YZ85 2020, 2022, 2024, 2026; 4ES-23144-00 (SEAL, DUST) on YZ65, YZ85 2020, 2022, 2024, 2026; 93332-00079 (BEARING) on YZ65, YZ85 2020, 2022, 2024, 2026. Same number = same part, it swaps; different number = different part.",
    "values": {
     "wheel bearings and wheel seals": {
-     "93102-20009": "OIL SEAL 20X35X7 | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "93306-20119": "BEARING | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "93306-20204": "BEARING (B6202Z) | YZ65 2020, 2022, 2024, 2026, YZ85 2020"
+     "93102-20009": "OIL SEAL 20X35X7 | YZ65, YZ85 2020, 2022, 2024, 2026",
+     "93306-20119": "BEARING | YZ65, YZ85 2020, 2022, 2024, 2026",
+     "93306-20204": "BEARING (B6202Z) | YZ65, YZ85 2020, 2022, 2024, 2026"
     },
     "swingarm pivot and linkage bearings and seals": {
-     "4ES-22216-00": "BUSH, REAR SHOCK ABSORBER | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
+     "4ES-22216-00": "BUSH, REAR SHOCK ABSORBER | YZ65, YZ85 2020, 2022, 2024, 2026",
      "5PA-22151-00": "SEAL, GUARD | YZ85 2020",
-     "5PA-22176-00": "BEARING | YZ85 2020",
-     "5PA-22184-00": "BUSH | YZ85 2020",
-     "5PA-22475-00": "SEAL, DUST | YZ85 2020",
-     "90380-12219": "BUSH, SOLID | YZ85 2020",
-     "90381-12091": "BUSH, SOLID | YZ85 2020",
-     "90385-17042": "BUSH | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "93101-17062": "OIL SEAL | YZ85 2020",
-     "93109-17071": "OIL SEAL | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "93315-31759": "BEARING | YZ85 2020",
-     "93317-21746": "BEARING | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "93317-31771": "BEARING | YZ85 2020",
+     "5PA-22176-00": "BEARING | YZ85 2020, 2022, 2024, 2026",
+     "5PA-22184-00": "BUSH | YZ85 2020, 2022, 2024, 2026",
+     "5PA-22475-00": "SEAL, DUST | YZ85 2020, 2022, 2024, 2026",
+     "90380-12219": "BUSH, SOLID | YZ85 2020, 2022, 2024, 2026",
+     "90381-12091": "BUSH, SOLID | YZ85 2020, 2022, 2024, 2026",
+     "90385-17042": "BUSH | YZ65, YZ85 2020, 2022, 2024, 2026",
+     "93101-17062": "OIL SEAL | YZ85 2020, 2022, 2024, 2026",
+     "93109-17071": "OIL SEAL | YZ65, YZ85 2020, 2022, 2024, 2026",
+     "93315-31759": "BEARING | YZ85 2020, 2022, 2024, 2026",
+     "93317-21746": "BEARING | YZ65, YZ85 2020, 2022, 2024, 2026",
+     "93317-31771": "BEARING | YZ85 2020, 2022, 2024, 2026",
      "BR8-22151-00": "SEAL, GUARD | YZ65 2020, 2022, 2024, 2026",
      "5NY-22475-00": "SEAL, DUST | YZ65 2022, 2024, 2026",
      "5UN-22176-00": "BEARING | YZ65 2022, 2024, 2026",
+     "B4B-22151-00": "SEAL, GUARD | YZ85 2022, 2024, 2026",
      "BR8-22184-00": "BUSH | YZ65 2022, 2024, 2026"
     },
     "steering head bearings": {
-     "1J7-23415-00": "COVER, BALL RACE 1 | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "4ES-23144-00": "SEAL, DUST | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "93332-00079": "BEARING | YZ65 2020, 2022, 2024, 2026, YZ85 2020"
+     "1J7-23415-00": "COVER, BALL RACE 1 | YZ65, YZ85 2020, 2022, 2024, 2026",
+     "4ES-23144-00": "SEAL, DUST | YZ65, YZ85 2020, 2022, 2024, 2026",
+     "93332-00079": "BEARING | YZ65, YZ85 2020, 2022, 2024, 2026"
     }
    },
    "tier": "OEM",
@@ -3866,24 +3682,30 @@
    "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market).  Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
   },
   {
-   "id": "fit2-yzmini-discs-a",
+   "id": "fit2-yzmini-discs",
    "domain": "chassis",
    "topic": "brake discs interchange (OEM part numbers)",
    "applies_to": {
     "make": "Yamaha",
     "models": [
+     "YZ65",
      "YZ85"
     ],
     "years": [
-     2020
+     2020,
+     2022,
+     2024,
+     2026
     ]
    },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, brake discs, by OEM part number. Front brake disc: BR8-2582T-00 (DISC, BRAKE (LEFT)) on YZ65 2022, 2024, 2026. Rear brake disc: BR8-2582W-00 (DISK, REAR BRAKE 2) on YZ65 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, brake discs, by OEM part number. Front brake disc: B4B-2582T-00 (DISC, BRAKE (LEFT)) on YZ85 2022, 2024, 2026; BR8-2582T-00 (DISC, BRAKE (LEFT)) on YZ65 2022, 2024, 2026. Rear brake disc: B4B-2582W-01 (DISK, REAR BRAKE 2) on YZ85 2022, 2024, 2026; BR8-2582W-00 (DISK, REAR BRAKE 2) on YZ65 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "front brake disc": {
+     "B4B-2582T-00": "DISC, BRAKE (LEFT) | YZ85 2022, 2024, 2026",
      "BR8-2582T-00": "DISC, BRAKE (LEFT) | YZ65 2022, 2024, 2026"
     },
     "rear brake disc": {
+     "B4B-2582W-01": "DISK, REAR BRAKE 2 | YZ85 2022, 2024, 2026",
      "BR8-2582W-00": "DISK, REAR BRAKE 2 | YZ65 2022, 2024, 2026"
     }
    },
@@ -3898,13 +3720,14 @@
    "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market). Front brake disc not found in the catalogue for YZ65, YZ85 2020 (unknown, not 'does not exist'). Rear brake disc not found in the catalogue for YZ65, YZ85 2020 (unknown, not 'does not exist'). Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
   },
   {
-   "id": "fit2-yzmini-discs-b",
-   "domain": "chassis",
-   "topic": "brake discs interchange (OEM part numbers)",
+   "id": "fit2-yzmini-pads",
+   "domain": "maintenance",
+   "topic": "brake pads interchange (OEM part numbers)",
    "applies_to": {
     "make": "Yamaha",
     "models": [
-     "YZ65"
+     "YZ65",
+     "YZ85"
     ],
     "years": [
      2020,
@@ -3913,45 +3736,13 @@
      2026
     ]
    },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, brake discs, by OEM part number. Front brake disc: BR8-2582T-00 (DISC, BRAKE (LEFT)) on YZ65 2022, 2024, 2026. Rear brake disc: BR8-2582W-00 (DISK, REAR BRAKE 2) on YZ65 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "front brake disc": {
-     "BR8-2582T-00": "DISC, BRAKE (LEFT) | YZ65 2022, 2024, 2026"
-    },
-    "rear brake disc": {
-     "BR8-2582W-00": "DISK, REAR BRAKE 2 | YZ65 2022, 2024, 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "City West Yamaha OEM parts fiche",
-    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2020/yz65",
-    "date": "2026-11-07"
-   },
-   "confidence": "medium",
-   "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market). Front brake disc not found in the catalogue for YZ65, YZ85 2020 (unknown, not 'does not exist'). Rear brake disc not found in the catalogue for YZ65, YZ85 2020 (unknown, not 'does not exist'). Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
-  },
-  {
-   "id": "fit2-yzmini-pads-a",
-   "domain": "maintenance",
-   "topic": "brake pads interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Yamaha",
-    "models": [
-     "YZ85"
-    ],
-    "years": [
-     2020
-    ]
-   },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, brake pads, by OEM part number. Front brake pads: 5PA-W0045-00 on YZ65 2020, 2022, 2024, 2026, YZ85 2020. Rear brake pads: 5PA-W0046-50 on YZ85 2020; BR8-25806-00 on YZ65 2020, 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, brake pads, by OEM part number. Front brake pads: 5PA-W0045-00 on YZ65, YZ85 2020, 2022, 2024, 2026. Rear brake pads: 5PA-W0046-50 on YZ85 2020, 2022, 2024, 2026; BR8-25806-00 on YZ65 2020, 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "front brake pads": {
-     "5PA-W0045-00": "SINTERED BRAKE PAD KIT | YZ65 2020, 2022, 2024, 2026, YZ85 2020"
+     "5PA-W0045-00": "SINTERED BRAKE PAD KIT | YZ65, YZ85 2020, 2022, 2024, 2026"
     },
     "rear brake pads": {
-     "5PA-W0046-50": "SINTERED BRAKE PAD KIT 2 | YZ85 2020",
+     "5PA-W0046-50": "SINTERED BRAKE PAD KIT 2 | YZ85 2020, 2022, 2024, 2026",
      "BR8-25806-00": "BRAKE PAD KIT 2 | YZ65 2020, 2022, 2024, 2026"
     }
    },
@@ -3966,97 +3757,29 @@
    "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market).  Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
   },
   {
-   "id": "fit2-yzmini-pads-b",
-   "domain": "maintenance",
-   "topic": "brake pads interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Yamaha",
-    "models": [
-     "YZ65"
-    ],
-    "years": [
-     2020,
-     2022,
-     2024,
-     2026
-    ]
-   },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, brake pads, by OEM part number. Front brake pads: 5PA-W0045-00 on YZ65 2020, 2022, 2024, 2026, YZ85 2020. Rear brake pads: 5PA-W0046-50 on YZ85 2020; BR8-25806-00 on YZ65 2020, 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "front brake pads": {
-     "5PA-W0045-00": "SINTERED BRAKE PAD KIT | YZ65 2020, 2022, 2024, 2026, YZ85 2020"
-    },
-    "rear brake pads": {
-     "5PA-W0046-50": "SINTERED BRAKE PAD KIT 2 | YZ85 2020",
-     "BR8-25806-00": "BRAKE PAD KIT 2 | YZ65 2020, 2022, 2024, 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "City West Yamaha OEM parts fiche",
-    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2020/yz65",
-    "date": "2026-11-07"
-   },
-   "confidence": "medium",
-   "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market).  Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
-  },
-  {
-   "id": "fit2-yzmini-brakes-a",
+   "id": "fit2-yzmini-brakes",
    "domain": "chassis",
    "topic": "brake calipers and master cylinders interchange (OEM part numbers)",
    "applies_to": {
     "make": "Yamaha",
     "models": [
+     "YZ65",
      "YZ85"
     ],
     "years": [
-     2020
-    ]
-   },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, brake calipers and master cylinders, by OEM part number. Front brake caliper: 5PA-2580T-00 on YZ65 2020, 2022, 2024, 2026, YZ85 2020. Rear brake caliper: 5PA-2580W-00 on YZ85 2020; BR8-2580W-00 on YZ65 2020, 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "front brake caliper": {
-     "5PA-2580T-00": "CALIPER ASSY (LEFT) | YZ65 2020, 2022, 2024, 2026, YZ85 2020"
-    },
-    "rear brake caliper": {
-     "5PA-2580W-00": "CALIPER ASSY, REAR 2 | YZ85 2020",
-     "BR8-2580W-00": "CALIPER ASSY, REAR | YZ65 2020, 2022, 2024, 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "City West Yamaha OEM parts fiche",
-    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2020/yz65",
-    "date": "2026-11-07"
-   },
-   "confidence": "medium",
-   "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market). Front brake master cylinder not found in the catalogue for YZ65 2020, 2022, 2024, 2026, YZ85 2020 (unknown, not 'does not exist'). Rear brake master cylinder not found in the catalogue for YZ65 2020, 2022, 2024, 2026, YZ85 2020 (unknown, not 'does not exist'). Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
-  },
-  {
-   "id": "fit2-yzmini-brakes-b",
-   "domain": "chassis",
-   "topic": "brake calipers and master cylinders interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Yamaha",
-    "models": [
-     "YZ65"
-    ],
-    "years": [
      2020,
      2022,
      2024,
      2026
     ]
    },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, brake calipers and master cylinders, by OEM part number. Front brake caliper: 5PA-2580T-00 on YZ65 2020, 2022, 2024, 2026, YZ85 2020. Rear brake caliper: 5PA-2580W-00 on YZ85 2020; BR8-2580W-00 on YZ65 2020, 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, brake calipers and master cylinders, by OEM part number. Front brake caliper: 5PA-2580T-00 on YZ65, YZ85 2020, 2022, 2024, 2026. Rear brake caliper: 5PA-2580W-00 on YZ85 2020, 2022, 2024, 2026; BR8-2580W-00 on YZ65 2020, 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "front brake caliper": {
-     "5PA-2580T-00": "CALIPER ASSY (LEFT) | YZ65 2020, 2022, 2024, 2026, YZ85 2020"
+     "5PA-2580T-00": "CALIPER ASSY (LEFT) | YZ65, YZ85 2020, 2022, 2024, 2026"
     },
     "rear brake caliper": {
-     "5PA-2580W-00": "CALIPER ASSY, REAR 2 | YZ85 2020",
+     "5PA-2580W-00": "CALIPER ASSY, REAR 2 | YZ85 2020, 2022, 2024, 2026",
      "BR8-2580W-00": "CALIPER ASSY, REAR | YZ65 2020, 2022, 2024, 2026"
     }
    },
@@ -4068,26 +3791,34 @@
     "date": "2026-11-07"
    },
    "confidence": "medium",
-   "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market). Front brake master cylinder not found in the catalogue for YZ65 2020, 2022, 2024, 2026, YZ85 2020 (unknown, not 'does not exist'). Rear brake master cylinder not found in the catalogue for YZ65 2020, 2022, 2024, 2026, YZ85 2020 (unknown, not 'does not exist'). Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
+   "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market). Front brake master cylinder not found in the catalogue for YZ65, YZ85 2020, 2022, 2024, 2026 (unknown, not 'does not exist'). Rear brake master cylinder not found in the catalogue for YZ65, YZ85 2020, 2022, 2024, 2026 (unknown, not 'does not exist'). Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
   },
   {
-   "id": "fit2-yzmini-body-a",
+   "id": "fit2-yzmini-body",
    "domain": "chassis",
    "topic": "fenders, side covers, seat and fuel tank interchange (OEM part numbers)",
    "applies_to": {
     "make": "Yamaha",
     "models": [
+     "YZ65",
      "YZ85"
     ],
     "years": [
-     2020
+     2020,
+     2022,
+     2024,
+     2026
     ]
    },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, fenders, side covers, seat and fuel tank, by OEM part number. Front fender: 1SN-21510-00 on YZ85 2020; BR8-21511-00 on YZ65 2020, 2022, 2024, 2026. Side covers / number plates: 1SN-21710-00 on YZ85 2020; 1SN-21720-00 on YZ85 2020; 1SN-21730-00 on YZ85 2020; BR8-21710-00 on YZ65 2020; BR8-21720-00 on YZ65 2020; BR8-21730-00 on YZ65 2020, 2022, 2024, 2026; BR8-21740-00 on YZ65 2020, 2022, 2024, 2026 and 2 more numbers (see values). Seat: BR8-24710-01 on YZ65 2020, 2022; BR8-24710-20 on YZ65 2024, 2026. Fuel tank: 5PA-24110-30 on YZ85 2020; BR8-24110-10 on YZ65 2020, 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, fenders, side covers, seat and fuel tank, by OEM part number. Front fender: 1SN-21510-00 on YZ85 2020; BR8-21511-00 on YZ65 2020, 2022, 2024, 2026; B4B-21510-00 on YZ85 2022, 2024, 2026. Rear fender: B4B-21610-10 on YZ85 2022, 2024, 2026. Side covers / number plates: 1SN-21710-00 on YZ85 2020; 1SN-21720-00 on YZ85 2020; 1SN-21730-00 on YZ85 2020; BR8-21710-00 on YZ65 2020; BR8-21720-00 on YZ65 2020; BR8-21730-00 on YZ65 2020, 2022, 2024, 2026; BR8-21740-00 on YZ65 2020, 2022, 2024, 2026 and 6 more numbers (see values). Seat: BR8-24710-01 on YZ65 2020, 2022; B4B-24710-00 on YZ85 2022; B4B-24710-10 on YZ85 2024, 2026; BR8-24710-20 on YZ65 2024, 2026. Fuel tank: 5PA-24110-30 on YZ85 2020; BR8-24110-10 on YZ65 2020, 2022, 2024, 2026; B4B-24110-00 on YZ85 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "front fender": {
      "1SN-21510-00": "FRONT FENDER COMP. | YZ85 2020",
-     "BR8-21511-00": "FENDER, FRONT | YZ65 2020, 2022, 2024, 2026"
+     "BR8-21511-00": "FENDER, FRONT | YZ65 2020, 2022, 2024, 2026",
+     "B4B-21510-00": "FRONT FENDER COMP. | YZ85 2022, 2024, 2026"
+    },
+    "rear fender": {
+     "B4B-21610-10": "REAR FENDER COMP. | YZ85 2022, 2024, 2026"
     },
     "side covers / number plates": {
      "1SN-21710-00": "SIDE COVER ASSY 1 | YZ85 2020",
@@ -4097,16 +3828,23 @@
      "BR8-21720-00": "SIDE COVER ASSY 2 | YZ65 2020",
      "BR8-21730-00": "SIDE COVER ASSY 3 | YZ65 2020, 2022, 2024, 2026",
      "BR8-21740-00": "SIDE COVER ASSY 4 | YZ65 2020, 2022, 2024, 2026",
+     "B4B-21710-00": "SIDE COVER ASSY 1 | YZ85 2022, 2024, 2026",
+     "B4B-21720-00": "SIDE COVER ASSY 2 | YZ85 2022, 2024, 2026",
+     "B4B-21730-00": "SIDE COVER ASSY 3 WOG | YZ85 2022, 2024, 2026",
+     "B4B-21740-00": "SIDE COVER ASSY 4 | YZ85 2022, 2024, 2026",
      "BR8-21710-10": "SIDE COVER ASSY 1 | YZ65 2022, 2024, 2026",
      "BR8-21720-10": "SIDE COVER ASSY 2 | YZ65 2022, 2024, 2026"
     },
     "seat": {
      "BR8-24710-01": "SINGLE SEAT ASSY | YZ65 2020, 2022",
+     "B4B-24710-00": "SINGLE SEAT ASSY | YZ85 2022",
+     "B4B-24710-10": "SINGLE SEAT ASSY | YZ85 2024, 2026",
      "BR8-24710-20": "SINGLE SEAT ASSY | YZ65 2024, 2026"
     },
     "fuel tank": {
      "5PA-24110-30": "FUEL TANK COMP. | YZ85 2020",
-     "BR8-24110-10": "FUEL TANK COMP. | YZ65 2020, 2022, 2024, 2026"
+     "BR8-24110-10": "FUEL TANK COMP. | YZ65 2020, 2022, 2024, 2026",
+     "B4B-24110-00": "FUEL TANK COMP. | YZ85 2022, 2024, 2026"
     }
    },
    "tier": "OEM",
@@ -4120,108 +3858,28 @@
    "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market). Rear fender not found in the catalogue for YZ65 2020, 2022, 2024, 2026, YZ85 2020 (unknown, not 'does not exist'). Seat not found in the catalogue for YZ85 2020 (unknown, not 'does not exist'). Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
   },
   {
-   "id": "fit2-yzmini-body-b",
-   "domain": "chassis",
-   "topic": "fenders, side covers, seat and fuel tank interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Yamaha",
-    "models": [
-     "YZ65"
-    ],
-    "years": [
-     2020,
-     2022,
-     2024,
-     2026
-    ]
-   },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, fenders, side covers, seat and fuel tank, by OEM part number. Front fender: 1SN-21510-00 on YZ85 2020; BR8-21511-00 on YZ65 2020, 2022, 2024, 2026. Side covers / number plates: 1SN-21710-00 on YZ85 2020; 1SN-21720-00 on YZ85 2020; 1SN-21730-00 on YZ85 2020; BR8-21710-00 on YZ65 2020; BR8-21720-00 on YZ65 2020; BR8-21730-00 on YZ65 2020, 2022, 2024, 2026; BR8-21740-00 on YZ65 2020, 2022, 2024, 2026 and 2 more numbers (see values). Seat: BR8-24710-01 on YZ65 2020, 2022; BR8-24710-20 on YZ65 2024, 2026. Fuel tank: 5PA-24110-30 on YZ85 2020; BR8-24110-10 on YZ65 2020, 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "front fender": {
-     "1SN-21510-00": "FRONT FENDER COMP. | YZ85 2020",
-     "BR8-21511-00": "FENDER, FRONT | YZ65 2020, 2022, 2024, 2026"
-    },
-    "side covers / number plates": {
-     "1SN-21710-00": "SIDE COVER ASSY 1 | YZ85 2020",
-     "1SN-21720-00": "SIDE COVER ASSY 2 | YZ85 2020",
-     "1SN-21730-00": "SIDE COVER ASSY 3 | YZ85 2020",
-     "BR8-21710-00": "SIDE COVER ASSY 1 | YZ65 2020",
-     "BR8-21720-00": "SIDE COVER ASSY 2 | YZ65 2020",
-     "BR8-21730-00": "SIDE COVER ASSY 3 | YZ65 2020, 2022, 2024, 2026",
-     "BR8-21740-00": "SIDE COVER ASSY 4 | YZ65 2020, 2022, 2024, 2026",
-     "BR8-21710-10": "SIDE COVER ASSY 1 | YZ65 2022, 2024, 2026",
-     "BR8-21720-10": "SIDE COVER ASSY 2 | YZ65 2022, 2024, 2026"
-    },
-    "seat": {
-     "BR8-24710-01": "SINGLE SEAT ASSY | YZ65 2020, 2022",
-     "BR8-24710-20": "SINGLE SEAT ASSY | YZ65 2024, 2026"
-    },
-    "fuel tank": {
-     "5PA-24110-30": "FUEL TANK COMP. | YZ85 2020",
-     "BR8-24110-10": "FUEL TANK COMP. | YZ65 2020, 2022, 2024, 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "City West Yamaha OEM parts fiche",
-    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2020/yz65",
-    "date": "2026-11-07"
-   },
-   "confidence": "medium",
-   "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market). Rear fender not found in the catalogue for YZ65 2020, 2022, 2024, 2026, YZ85 2020 (unknown, not 'does not exist'). Seat not found in the catalogue for YZ85 2020 (unknown, not 'does not exist'). Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
-  },
-  {
-   "id": "fit2-yzmini-radiators-a",
+   "id": "fit2-yzmini-radiators",
    "domain": "chassis",
    "topic": "radiators interchange (OEM part numbers)",
    "applies_to": {
     "make": "Yamaha",
     "models": [
+     "YZ65",
      "YZ85"
     ],
     "years": [
-     2020
-    ]
-   },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, radiators, by OEM part number. Radiators: 5PA-12461-00 on YZ85 2020; BR8-1240A-00 on YZ65 2020, 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "radiators": {
-     "5PA-12461-00": "RADIATOR ASSY | YZ85 2020",
-     "BR8-1240A-00": "RADIATOR ASSY | YZ65 2020, 2022, 2024, 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "City West Yamaha OEM parts fiche",
-    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2020/yz65",
-    "date": "2026-11-07"
-   },
-   "confidence": "medium",
-   "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market).  Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
-  },
-  {
-   "id": "fit2-yzmini-radiators-b",
-   "domain": "chassis",
-   "topic": "radiators interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Yamaha",
-    "models": [
-     "YZ65"
-    ],
-    "years": [
      2020,
      2022,
      2024,
      2026
     ]
    },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, radiators, by OEM part number. Radiators: 5PA-12461-00 on YZ85 2020; BR8-1240A-00 on YZ65 2020, 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, radiators, by OEM part number. Radiators: 5PA-12461-00 on YZ85 2020; BR8-1240A-00 on YZ65 2020, 2022, 2024, 2026; B4B-12461-00 on YZ85 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "radiators": {
      "5PA-12461-00": "RADIATOR ASSY | YZ85 2020",
-     "BR8-1240A-00": "RADIATOR ASSY | YZ65 2020, 2022, 2024, 2026"
+     "BR8-1240A-00": "RADIATOR ASSY | YZ65 2020, 2022, 2024, 2026",
+     "B4B-12461-00": "RADIATOR COMP | YZ85 2022, 2024, 2026"
     }
    },
    "tier": "OEM",
@@ -4235,23 +3893,27 @@
    "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market).  Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
   },
   {
-   "id": "fit2-yzmini-exhaust-a",
+   "id": "fit2-yzmini-exhaust",
    "domain": "engine_mods",
    "topic": "exhaust header and silencer interchange (OEM part numbers)",
    "applies_to": {
     "make": "Yamaha",
     "models": [
+     "YZ65",
      "YZ85"
     ],
     "years": [
-     2020
+     2020,
+     2022,
+     2024,
+     2026
     ]
    },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, exhaust header and silencer, by OEM part number. Exhaust header and silencer: 4ES-14753-30 on YZ85 2020; B4B-14610-00 on YZ85 2020; BR8-14610-00 on YZ65 2020, 2022, 2024, 2026; BR8-14753-00 on YZ65 2020, 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, exhaust header and silencer, by OEM part number. Exhaust header and silencer: 4ES-14753-30 on YZ85 2020, 2022, 2024, 2026; B4B-14610-00 on YZ85 2020, 2022, 2024, 2026; BR8-14610-00 on YZ65 2020, 2022, 2024, 2026; BR8-14753-00 on YZ65 2020, 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "exhaust header and silencer": {
-     "4ES-14753-30": "SILENCER, EXHAUST | YZ85 2020",
-     "B4B-14610-00": "EXHAUST PIPE ASSY | YZ85 2020",
+     "4ES-14753-30": "SILENCER, EXHAUST | YZ85 2020, 2022, 2024, 2026",
+     "B4B-14610-00": "EXHAUST PIPE ASSY | YZ85 2020, 2022, 2024, 2026",
      "BR8-14610-00": "EXHAUST PIPE ASSY | YZ65 2020, 2022, 2024, 2026",
      "BR8-14753-00": "SILENCER, EXHAUST | YZ65 2020, 2022, 2024, 2026"
     }
@@ -4267,13 +3929,14 @@
    "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market).  Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
   },
   {
-   "id": "fit2-yzmini-exhaust-b",
-   "domain": "engine_mods",
-   "topic": "exhaust header and silencer interchange (OEM part numbers)",
+   "id": "fit2-yzmini-ecu",
+   "domain": "ecu_electronics",
+   "topic": "engine control unit (ECU / CDI) interchange (OEM part numbers)",
    "applies_to": {
     "make": "Yamaha",
     "models": [
-     "YZ65"
+     "YZ65",
+     "YZ85"
     ],
     "years": [
      2020,
@@ -4282,44 +3945,14 @@
      2026
     ]
    },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, exhaust header and silencer, by OEM part number. Exhaust header and silencer: 4ES-14753-30 on YZ85 2020; B4B-14610-00 on YZ85 2020; BR8-14610-00 on YZ65 2020, 2022, 2024, 2026; BR8-14753-00 on YZ65 2020, 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "exhaust header and silencer": {
-     "4ES-14753-30": "SILENCER, EXHAUST | YZ85 2020",
-     "B4B-14610-00": "EXHAUST PIPE ASSY | YZ85 2020",
-     "BR8-14610-00": "EXHAUST PIPE ASSY | YZ65 2020, 2022, 2024, 2026",
-     "BR8-14753-00": "SILENCER, EXHAUST | YZ65 2020, 2022, 2024, 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "City West Yamaha OEM parts fiche",
-    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2020/yz65",
-    "date": "2026-11-07"
-   },
-   "confidence": "medium",
-   "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market).  Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
-  },
-  {
-   "id": "fit2-yzmini-ecu-a",
-   "domain": "ecu_electronics",
-   "topic": "engine control unit (ECU / CDI) interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Yamaha",
-    "models": [
-     "YZ85"
-    ],
-    "years": [
-     2020
-    ]
-   },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, engine control unit (ECU / CDI), by OEM part number. Engine control unit: B4B-85540-00 on YZ85 2020; BR8-85540-00 on YZ65 2020; BR8-85540-01 on YZ65 2022, 2024; BR8-85540-02 on YZ65 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, engine control unit (ECU / CDI), by OEM part number. Engine control unit: B4B-85540-00 (C.D.I. UNIT ASSY) on YZ85 2020; BR8-85540-00 (C.D.I. UNIT ASSY) on YZ65 2020; B4B-85540-01 (C.D.I. UNIT ASSY) on YZ85 2022, 2024; BR8-85540-01 (C.D.I. UNIT ASSY) on YZ65 2022, 2024; B4B-85540-02 (C.D.I. UNIT ASSY) on YZ85 2026; BR8-85540-02 (C.D.I. UNIT ASSY) on YZ65 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "engine control unit": {
      "B4B-85540-00": "C.D.I. UNIT ASSY | YZ85 2020",
      "BR8-85540-00": "C.D.I. UNIT ASSY | YZ65 2020",
+     "B4B-85540-01": "C.D.I. UNIT ASSY | YZ85 2022, 2024",
      "BR8-85540-01": "C.D.I. UNIT ASSY | YZ65 2022, 2024",
+     "B4B-85540-02": "C.D.I. UNIT ASSY | YZ85 2026",
      "BR8-85540-02": "C.D.I. UNIT ASSY | YZ65 2026"
     }
    },
@@ -4334,13 +3967,14 @@
    "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market).  Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
   },
   {
-   "id": "fit2-yzmini-ecu-b",
-   "domain": "ecu_electronics",
-   "topic": "engine control unit (ECU / CDI) interchange (OEM part numbers)",
+   "id": "fit2-yzmini-chain",
+   "domain": "drivetrain",
+   "topic": "chain size and length, sprocket tooth counts interchange (OEM part numbers)",
    "applies_to": {
     "make": "Yamaha",
     "models": [
-     "YZ65"
+     "YZ65",
+     "YZ85"
     ],
     "years": [
      2020,
@@ -4349,53 +3983,21 @@
      2026
     ]
    },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, engine control unit (ECU / CDI), by OEM part number. Engine control unit: B4B-85540-00 on YZ85 2020; BR8-85540-00 on YZ65 2020; BR8-85540-01 on YZ65 2022, 2024; BR8-85540-02 on YZ65 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "engine control unit": {
-     "B4B-85540-00": "C.D.I. UNIT ASSY | YZ85 2020",
-     "BR8-85540-00": "C.D.I. UNIT ASSY | YZ65 2020",
-     "BR8-85540-01": "C.D.I. UNIT ASSY | YZ65 2022, 2024",
-     "BR8-85540-02": "C.D.I. UNIT ASSY | YZ65 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "City West Yamaha OEM parts fiche",
-    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2020/yz65",
-    "date": "2026-11-07"
-   },
-   "confidence": "medium",
-   "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market).  Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
-  },
-  {
-   "id": "fit2-yzmini-chain-a",
-   "domain": "drivetrain",
-   "topic": "chain size and length, sprocket tooth counts interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Yamaha",
-    "models": [
-     "YZ85"
-    ],
-    "years": [
-     2020
-    ]
-   },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, chain size and length, sprocket tooth counts, by OEM part number. Drive chain (size and length): 9Y582-43117 (CHAIN) on YZ85 2020; 9Y582-48113 (CHAIN) on YZ65 2020, 2022, 2024, 2026. Rear sprocket tooth counts: 5PA-25446-00 (SPROCKET, DRIVEN (46T)) on YZ85 2020; 5PA-25448-00 (SPROCKET, DRIVEN (48T)) on YZ85 2020; 5PA-25449-00 (SPROCKET, DRIVEN (49T)) on YZ85 2020. Front (countershaft) sprocket: 9381A-14243 (SPROCKET, DRIVE (1) on YZ65 2020, 2022, 2024, 2026; 9382A-14227 (SPROCKET, DRIVE (14T)) on YZ85 2020; 9382A-15228 (SPROCKET, DRIVE (15T)) on YZ85 2020. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, chain size and length, sprocket tooth counts, by OEM part number. Drive chain (size and length): 9Y582-43117 (CHAIN) on YZ85 2020, 2022, 2024, 2026; 9Y582-48113 (CHAIN) on YZ65 2020, 2022, 2024, 2026. Rear sprocket tooth counts: 5PA-25446-00 (SPROCKET, DRIVEN (46T)) on YZ85 2020, 2022, 2024, 2026; 5PA-25448-00 (SPROCKET, DRIVEN (48T)) on YZ85 2020, 2022, 2024, 2026; 5PA-25449-00 (SPROCKET, DRIVEN (49T)) on YZ85 2020, 2022, 2024, 2026. Front (countershaft) sprocket: 9381A-14243 (SPROCKET, DRIVE (1) on YZ65 2020, 2022, 2024, 2026; 9382A-14227 (SPROCKET, DRIVE (14T)) on YZ85 2020, 2022, 2024, 2026; 9382A-15228 (SPROCKET, DRIVE (15T)) on YZ85 2020, 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "drive chain (size and length)": {
-     "9Y582-43117": "CHAIN | YZ85 2020",
+     "9Y582-43117": "CHAIN | YZ85 2020, 2022, 2024, 2026",
      "9Y582-48113": "CHAIN | YZ65 2020, 2022, 2024, 2026"
     },
     "rear sprocket tooth counts": {
-     "5PA-25446-00": "SPROCKET, DRIVEN (46T) | YZ85 2020",
-     "5PA-25448-00": "SPROCKET, DRIVEN (48T) | YZ85 2020",
-     "5PA-25449-00": "SPROCKET, DRIVEN (49T) | YZ85 2020"
+     "5PA-25446-00": "SPROCKET, DRIVEN (46T) | YZ85 2020, 2022, 2024, 2026",
+     "5PA-25448-00": "SPROCKET, DRIVEN (48T) | YZ85 2020, 2022, 2024, 2026",
+     "5PA-25449-00": "SPROCKET, DRIVEN (49T) | YZ85 2020, 2022, 2024, 2026"
     },
     "front (countershaft) sprocket": {
      "9381A-14243": "SPROCKET, DRIVE (1 | YZ65 2020, 2022, 2024, 2026",
-     "9382A-14227": "SPROCKET, DRIVE (14T) | YZ85 2020",
-     "9382A-15228": "SPROCKET, DRIVE (15T) | YZ85 2020"
+     "9382A-14227": "SPROCKET, DRIVE (14T) | YZ85 2020, 2022, 2024, 2026",
+     "9382A-15228": "SPROCKET, DRIVE (15T) | YZ85 2020, 2022, 2024, 2026"
     }
    },
    "tier": "OEM",
@@ -4409,105 +4011,30 @@
    "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market). Rear sprocket tooth counts not found in the catalogue for YZ65 2020, 2022, 2024, 2026 (unknown, not 'does not exist'). Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
   },
   {
-   "id": "fit2-yzmini-chain-b",
-   "domain": "drivetrain",
-   "topic": "chain size and length, sprocket tooth counts interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Yamaha",
-    "models": [
-     "YZ65"
-    ],
-    "years": [
-     2020,
-     2022,
-     2024,
-     2026
-    ]
-   },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, chain size and length, sprocket tooth counts, by OEM part number. Drive chain (size and length): 9Y582-43117 (CHAIN) on YZ85 2020; 9Y582-48113 (CHAIN) on YZ65 2020, 2022, 2024, 2026. Rear sprocket tooth counts: 5PA-25446-00 (SPROCKET, DRIVEN (46T)) on YZ85 2020; 5PA-25448-00 (SPROCKET, DRIVEN (48T)) on YZ85 2020; 5PA-25449-00 (SPROCKET, DRIVEN (49T)) on YZ85 2020. Front (countershaft) sprocket: 9381A-14243 (SPROCKET, DRIVE (1) on YZ65 2020, 2022, 2024, 2026; 9382A-14227 (SPROCKET, DRIVE (14T)) on YZ85 2020; 9382A-15228 (SPROCKET, DRIVE (15T)) on YZ85 2020. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "drive chain (size and length)": {
-     "9Y582-43117": "CHAIN | YZ85 2020",
-     "9Y582-48113": "CHAIN | YZ65 2020, 2022, 2024, 2026"
-    },
-    "rear sprocket tooth counts": {
-     "5PA-25446-00": "SPROCKET, DRIVEN (46T) | YZ85 2020",
-     "5PA-25448-00": "SPROCKET, DRIVEN (48T) | YZ85 2020",
-     "5PA-25449-00": "SPROCKET, DRIVEN (49T) | YZ85 2020"
-    },
-    "front (countershaft) sprocket": {
-     "9381A-14243": "SPROCKET, DRIVE (1 | YZ65 2020, 2022, 2024, 2026",
-     "9382A-14227": "SPROCKET, DRIVE (14T) | YZ85 2020",
-     "9382A-15228": "SPROCKET, DRIVE (15T) | YZ85 2020"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "City West Yamaha OEM parts fiche",
-    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2020/yz65",
-    "date": "2026-11-07"
-   },
-   "confidence": "medium",
-   "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market). Rear sprocket tooth counts not found in the catalogue for YZ65 2020, 2022, 2024, 2026 (unknown, not 'does not exist'). Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
-  },
-  {
-   "id": "fit2-yzmini-clutch-a",
+   "id": "fit2-yzmini-clutch",
    "domain": "drivetrain",
    "topic": "clutch plates and springs interchange (OEM part numbers)",
    "applies_to": {
     "make": "Yamaha",
     "models": [
+     "YZ65",
      "YZ85"
     ],
     "years": [
-     2020
-    ]
-   },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, clutch plates and springs, by OEM part number. Clutch friction plates: 3XP-16321-00 (PLATE, FRICTION) on YZ65 2020, 2022, 2024, 2026, YZ85 2020; 4ES-16321-00 (PLATE, FRICTION) on YZ65 2020, 2022, 2024, 2026, YZ85 2020. Clutch springs: 90501-204A0 (SPRING, COMPRESSION) on YZ65 2020, 2022, 2024, 2026, YZ85 2020. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "clutch friction plates": {
-     "3XP-16321-00": "PLATE, FRICTION | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "4ES-16321-00": "PLATE, FRICTION | YZ65 2020, 2022, 2024, 2026, YZ85 2020"
-    },
-    "clutch springs": {
-     "90501-204A0": "SPRING, COMPRESSION | YZ65 2020, 2022, 2024, 2026, YZ85 2020"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "City West Yamaha OEM parts fiche",
-    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2020/yz65",
-    "date": "2026-11-07"
-   },
-   "confidence": "medium",
-   "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market). Clutch steel plates not found in the catalogue for YZ65 2020, 2022, 2024, 2026, YZ85 2020 (unknown, not 'does not exist'). Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
-  },
-  {
-   "id": "fit2-yzmini-clutch-b",
-   "domain": "drivetrain",
-   "topic": "clutch plates and springs interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Yamaha",
-    "models": [
-     "YZ65"
-    ],
-    "years": [
      2020,
      2022,
      2024,
      2026
     ]
    },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, clutch plates and springs, by OEM part number. Clutch friction plates: 3XP-16321-00 (PLATE, FRICTION) on YZ65 2020, 2022, 2024, 2026, YZ85 2020; 4ES-16321-00 (PLATE, FRICTION) on YZ65 2020, 2022, 2024, 2026, YZ85 2020. Clutch springs: 90501-204A0 (SPRING, COMPRESSION) on YZ65 2020, 2022, 2024, 2026, YZ85 2020. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, clutch plates and springs, by OEM part number. Clutch friction plates: 3XP-16321-00 (PLATE, FRICTION) on YZ65, YZ85 2020, 2022, 2024, 2026; 4ES-16321-00 (PLATE, FRICTION) on YZ65, YZ85 2020, 2022, 2024, 2026. Clutch springs: 90501-204A0 (SPRING, COMPRESSION) on YZ65, YZ85 2020, 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "clutch friction plates": {
-     "3XP-16321-00": "PLATE, FRICTION | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "4ES-16321-00": "PLATE, FRICTION | YZ65 2020, 2022, 2024, 2026, YZ85 2020"
+     "3XP-16321-00": "PLATE, FRICTION | YZ65, YZ85 2020, 2022, 2024, 2026",
+     "4ES-16321-00": "PLATE, FRICTION | YZ65, YZ85 2020, 2022, 2024, 2026"
     },
     "clutch springs": {
-     "90501-204A0": "SPRING, COMPRESSION | YZ65 2020, 2022, 2024, 2026, YZ85 2020"
+     "90501-204A0": "SPRING, COMPRESSION | YZ65, YZ85 2020, 2022, 2024, 2026"
     }
    },
    "tier": "OEM",
@@ -4518,24 +4045,29 @@
     "date": "2026-11-07"
    },
    "confidence": "medium",
-   "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market). Clutch steel plates not found in the catalogue for YZ65 2020, 2022, 2024, 2026, YZ85 2020 (unknown, not 'does not exist'). Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
+   "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market). Clutch steel plates not found in the catalogue for YZ65, YZ85 2020, 2022, 2024, 2026 (unknown, not 'does not exist'). Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
   },
   {
-   "id": "fit2-yzmini-plug-a",
+   "id": "fit2-yzmini-plug",
    "domain": "maintenance",
    "topic": "spark plug interchange (OEM part numbers)",
    "applies_to": {
     "make": "Yamaha",
     "models": [
+     "YZ65",
      "YZ85"
     ],
     "years": [
-     2020
+     2020,
+     2022,
+     2024,
+     2026
     ]
    },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, spark plug, by OEM part number. Spark plug: BR9ECM (NGK BR9ECM SPARK PLUG: RESISTOR (10)) on YZ65 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, spark plug, by OEM part number. Spark plug: 94702-00368 (PLUG, SPARK (NGK BR10EG)) on YZ85 2022, 2024, 2026; BR9ECM (NGK BR9ECM SPARK PLUG: RESISTOR (10)) on YZ65 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "spark plug": {
+     "94702-00368": "PLUG, SPARK (NGK BR10EG) | YZ85 2022, 2024, 2026",
      "BR9ECM": "NGK BR9ECM SPARK PLUG: RESISTOR (10) | YZ65 2022, 2024, 2026"
     }
    },
@@ -4550,112 +4082,41 @@
    "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market). Spark plug not found in the catalogue for YZ65, YZ85 2020 (unknown, not 'does not exist'). Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
   },
   {
-   "id": "fit2-yzmini-plug-b",
-   "domain": "maintenance",
-   "topic": "spark plug interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Yamaha",
-    "models": [
-     "YZ65"
-    ],
-    "years": [
-     2020,
-     2022,
-     2024,
-     2026
-    ]
-   },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, spark plug, by OEM part number. Spark plug: BR9ECM (NGK BR9ECM SPARK PLUG: RESISTOR (10)) on YZ65 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "spark plug": {
-     "BR9ECM": "NGK BR9ECM SPARK PLUG: RESISTOR (10) | YZ65 2022, 2024, 2026"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "City West Yamaha OEM parts fiche",
-    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2020/yz65",
-    "date": "2026-11-07"
-   },
-   "confidence": "medium",
-   "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market). Spark plug not found in the catalogue for YZ65, YZ85 2020 (unknown, not 'does not exist'). Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
-  },
-  {
-   "id": "fit2-yzmini-fork-a",
+   "id": "fit2-yzmini-fork",
    "domain": "suspension",
    "topic": "fork units, fork springs and fork seals interchange (OEM part numbers)",
    "applies_to": {
     "make": "Yamaha",
     "models": [
+     "YZ65",
      "YZ85"
     ],
     "years": [
-     2020
-    ]
-   },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, fork units, fork springs and fork seals, by OEM part number. Fork legs (complete units): B4B-23102-00 on YZ85 2020; B4B-23103-00 on YZ85 2020; BR8-23102-00 on YZ65 2020, 2022; BR8-23103-00 on YZ65 2020, 2022; BR8-23102-02 on YZ65 2024, 2026; BR8-23103-02 on YZ65 2024, 2026. Fork springs: 4ES-23141-40 (SPRING, FRONT FORK(K=2.8N/MM)) on YZ85 2020; BR8-23141-20 (SPRING (K=2.8N/MM)) on YZ65 2020, 2022, 2024, 2026. Fork oil and dust seals (size): 4ES-23144-00 (SEAL, DUST) on YZ65 2020, 2022, 2024, 2026, YZ85 2020; 4ES-23145-00 (OIL SEAL) on YZ65 2020, 2022, 2024, 2026, YZ85 2020. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
-   "values": {
-    "fork legs (complete units)": {
-     "B4B-23102-00": "FRONT FORK ASSY (L | YZ85 2020",
-     "B4B-23103-00": "FRONT FORK ASSY (R | YZ85 2020",
-     "BR8-23102-00": "FRONT FORK ASSY (L.H) | YZ65 2020, 2022",
-     "BR8-23103-00": "FRONT FORK ASSY (R.H) | YZ65 2020, 2022",
-     "BR8-23102-02": "FRONT FORK ASSY (L. H) | YZ65 2024, 2026",
-     "BR8-23103-02": "FRONT FORK ASSY (R.H) | YZ65 2024, 2026"
-    },
-    "fork springs": {
-     "4ES-23141-40": "SPRING, FRONT FORK(K=2.8N/MM) | YZ85 2020",
-     "BR8-23141-20": "SPRING (K=2.8N/MM) | YZ65 2020, 2022, 2024, 2026"
-    },
-    "fork oil and dust seals (size)": {
-     "4ES-23144-00": "SEAL, DUST | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "4ES-23145-00": "OIL SEAL | YZ65 2020, 2022, 2024, 2026, YZ85 2020"
-    }
-   },
-   "tier": "OEM",
-   "source": {
-    "type": "dealer",
-    "name": "City West Yamaha OEM parts fiche",
-    "url": "https://c8software.com.au/bikeshop/citywestyamaha/partFinder/fiche/yamaha/2020/yz65",
-    "date": "2026-11-07"
-   },
-   "confidence": "medium",
-   "notes": "Part numbers read from City West Yamaha OEM parts fiche (AU market).  Australian Yamaha catalogue, 2020, 2022, 2024 and 2026 compared; years in between were not read."
-  },
-  {
-   "id": "fit2-yzmini-fork-b",
-   "domain": "suspension",
-   "topic": "fork units, fork springs and fork seals interchange (OEM part numbers)",
-   "applies_to": {
-    "make": "Yamaha",
-    "models": [
-     "YZ65"
-    ],
-    "years": [
      2020,
      2022,
      2024,
      2026
     ]
    },
-   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, fork units, fork springs and fork seals, by OEM part number. Fork legs (complete units): B4B-23102-00 on YZ85 2020; B4B-23103-00 on YZ85 2020; BR8-23102-00 on YZ65 2020, 2022; BR8-23103-00 on YZ65 2020, 2022; BR8-23102-02 on YZ65 2024, 2026; BR8-23103-02 on YZ65 2024, 2026. Fork springs: 4ES-23141-40 (SPRING, FRONT FORK(K=2.8N/MM)) on YZ85 2020; BR8-23141-20 (SPRING (K=2.8N/MM)) on YZ65 2020, 2022, 2024, 2026. Fork oil and dust seals (size): 4ES-23144-00 (SEAL, DUST) on YZ65 2020, 2022, 2024, 2026, YZ85 2020; 4ES-23145-00 (OIL SEAL) on YZ65 2020, 2022, 2024, 2026, YZ85 2020. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
+   "statement": "Yamaha YZ65 / YZ85 / YZ85 big wheel, fork units, fork springs and fork seals, by OEM part number. Fork legs (complete units): B4B-23102-00 (FRONT FORK ASSY (L) on YZ85 2020, 2022; B4B-23103-00 (FRONT FORK ASSY (R) on YZ85 2020, 2022; BR8-23102-00 (FRONT FORK ASSY (L.H)) on YZ65 2020, 2022; BR8-23103-00 (FRONT FORK ASSY (R.H)) on YZ65 2020, 2022; B4B-23102-02 (FRONT FORK ASSY (LH)) on YZ85 2024, 2026; B4B-23103-02 (FRONT FORK ASSY (RH)) on YZ85 2024, 2026; BR8-23102-02 (FRONT FORK ASSY (L. H)) on YZ65 2024, 2026 and 1 more numbers (see values). Fork springs: 4ES-23141-40 (SPRING, FRONT FORK(K=2.8N/MM)) on YZ85 2020, 2022, 2024, 2026; BR8-23141-20 (SPRING (K=2.8N/MM)) on YZ65 2020, 2022, 2024, 2026. Fork oil and dust seals (size): 4ES-23144-00 (SEAL, DUST) on YZ65, YZ85 2020, 2022, 2024, 2026; 4ES-23145-00 (OIL SEAL) on YZ65, YZ85 2020, 2022, 2024, 2026. Same part number on two bikes means the factory supplies the identical part, so it swaps; a different number means it is a different part (check mounting, size and spacers before assuming it fits).",
    "values": {
     "fork legs (complete units)": {
-     "B4B-23102-00": "FRONT FORK ASSY (L | YZ85 2020",
-     "B4B-23103-00": "FRONT FORK ASSY (R | YZ85 2020",
+     "B4B-23102-00": "FRONT FORK ASSY (L | YZ85 2020, 2022",
+     "B4B-23103-00": "FRONT FORK ASSY (R | YZ85 2020, 2022",
      "BR8-23102-00": "FRONT FORK ASSY (L.H) | YZ65 2020, 2022",
      "BR8-23103-00": "FRONT FORK ASSY (R.H) | YZ65 2020, 2022",
+     "B4B-23102-02": "FRONT FORK ASSY (LH) | YZ85 2024, 2026",
+     "B4B-23103-02": "FRONT FORK ASSY (RH) | YZ85 2024, 2026",
      "BR8-23102-02": "FRONT FORK ASSY (L. H) | YZ65 2024, 2026",
      "BR8-23103-02": "FRONT FORK ASSY (R.H) | YZ65 2024, 2026"
     },
     "fork springs": {
-     "4ES-23141-40": "SPRING, FRONT FORK(K=2.8N/MM) | YZ85 2020",
+     "4ES-23141-40": "SPRING, FRONT FORK(K=2.8N/MM) | YZ85 2020, 2022, 2024, 2026",
      "BR8-23141-20": "SPRING (K=2.8N/MM) | YZ65 2020, 2022, 2024, 2026"
     },
     "fork oil and dust seals (size)": {
-     "4ES-23144-00": "SEAL, DUST | YZ65 2020, 2022, 2024, 2026, YZ85 2020",
-     "4ES-23145-00": "OIL SEAL | YZ65 2020, 2022, 2024, 2026, YZ85 2020"
+     "4ES-23144-00": "SEAL, DUST | YZ65, YZ85 2020, 2022, 2024, 2026",
+     "4ES-23145-00": "OIL SEAL | YZ65, YZ85 2020, 2022, 2024, 2026"
     }
    },
    "tier": "OEM",
