@@ -1,0 +1,1857 @@
+{
+ "slice": "real-world part life versus the maker's interval (wear)",
+ "platform": {
+  "make": "KTM",
+  "models": [
+   "125 SX",
+   "250 SX",
+   "250 SX-F",
+   "300 SX",
+   "350 SX-F",
+   "450 SX-F",
+   "Husqvarna FC 450",
+   "Husqvarna TC 250"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026,
+   2027
+  ]
+ },
+ "sources": [
+  {
+   "type": "magazine",
+   "name": "Motocross Action suspension column, when to service your fork and shock",
+   "url": "https://motocrossactionmag.com/bones-bacon-on-suspension-when-to-service-your-fork-shock/",
+   "date": "accessed 2026-11-07 (page undated)"
+  },
+  {
+   "type": "tuner",
+   "name": "Boyesen tech tip, how to inspect two-stroke reed petals",
+   "url": "https://www.boyesen.com/How-to-check-Reeds-2Stroke",
+   "date": "2019-11-06"
+  },
+  {
+   "type": "tuner",
+   "name": "FMF silencer repacking instructions",
+   "url": "https://4wheelonline.com/images/FMF/000980.pdf",
+   "date": "accessed 2026-11-07 (page undated)"
+  },
+  {
+   "type": "tuner",
+   "name": "Kibblewhite Precision Machining valve FAQ",
+   "url": "https://www.motorcycleid.com/kibblewhite/info/faq.html",
+   "date": "accessed 2026-11-07 (page undated)"
+  },
+  {
+   "type": "dealer",
+   "name": "Maciag Offroad suspension parts page",
+   "url": "https://www.maciag-offroad.com/mx-parts-suspension/ksx/",
+   "date": "accessed 2026-11-07 (page undated)"
+  },
+  {
+   "type": "tuner",
+   "name": "Moto-House MX engine shop, scheduled maintenance and rebuilds page",
+   "url": "https://www.motohousemx.com/pages/motocross-off-road-enduro-bikes-overhauls-rebuilds",
+   "date": "accessed 2026-11-07 (page undated)"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, The tortured life of a piston",
+   "url": "https://motocrossactionmag.com/the-tortured-life-of-the-piston-in-your-trusty-but-rusty-bike/",
+   "date": "accessed 2026-11-07 (page undated)"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, 10 ways to save money on motocross tires",
+   "url": "https://motocrossactionmag.com/10-ways-to-save-money-on-motocross-tires-how-to-keep-your-sneakers-from-breaking-the-bank",
+   "date": "accessed 2026-11-07 (page undated)"
+  },
+  {
+   "type": "dealer",
+   "name": "MXstore guide, When should I rebuild my dirt bike engine",
+   "url": "https://mxstore.com.au/blog/helpful-guides/when-should-i-rebuild-my-dirt-bike-engine",
+   "date": "2020-06-08"
+  },
+  {
+   "type": "tuner",
+   "name": "Pro Circuit FAQ",
+   "url": "https://www.procircuit.com/faqs",
+   "date": "accessed 2026-11-07 (page undated)"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, Do you change your air filter if its barely dirty",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Do-you-change-your-air-filter-if-its-barely-dirty,1403210",
+   "date": "2022-06"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, 2019/2020 KTM 450 first top end maintenance according to real experience",
+   "url": "https://www.vitalmx.com/comment/3875978",
+   "date": "2020-11"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, 60 Hours on a ktm 450 a big deal",
+   "url": "https://www.vitalmx.com/forums/Moto-Related,20/60-Hours-on-a-ktm-450-a-big-deal,1408608",
+   "date": "2022-11-16"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, Drastic valve adjustment (KX450)",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Drastic-valve-adjustment,1396395",
+   "date": "2021-11"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, Which bike (2012-2019) has the most reliable top end",
+   "url": "https://vitalmx.com/forums/Moto-Related,20/Which-bike-2012-2019-has-the-most-reliable-top-end,1360011",
+   "date": "2019-05"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, Average number of hours you are getting on rear and front tires",
+   "url": "https://www.vitalmx.com/comment/4070500",
+   "date": "2021-10"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, Top End. How many hours",
+   "url": "https://www.vitalmx.com/forums/Moto-Related,20/Top-End-How-many-hours,1315430",
+   "date": "2017-03"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, 2024-current yz250f top end hrs",
+   "url": "https://www.vitalmx.com/comment/8513566",
+   "date": "2025-12"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, YZ450F Valves",
+   "url": "https://www.vitalmx.com/forums/tech-helprace-shop/yz450f-valves",
+   "date": "2025-04"
+  }
+ ],
+ "conflicts": [
+  "Real-world figures are spreads from several sources and are kept side by side, never averaged; the maker interval is always given with them."
+ ],
+ "not_found": [
+  "Brake pad life in hours: no public engine-builder, magazine or two-agreeing owner source with hour figures was found; makers say inspect every race and replace as required.",
+  "Wheel bearing and linkage/swingarm bearing replacement hours: makers publish inspection and greasing intervals only; no two agreeing public real-world hour figures were found.",
+  "Spark plug real-world life: makers publish intervals (e.g. Kawasaki 7.5 h, KTM two-strokes 15 h); no independent hour figures found.",
+  "Honda CRF450R/CRF250R 2020-on and Kawasaki KX450/KX250 2020-on: no two agreeing public reports with hours for how often the valves actually tighten on these generations (older-generation Honda titanium-valve reports exist but do not apply). Some owner-forum pages could not be read and were not used."
+ ],
+ "records": [
+  {
+   "id": "wear-ktm4a-01",
+   "domain": "maintenance",
+   "topic": "real-world top-end life (engine shop)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a new piston at the minor engine service every 50 operating hours, with valves and con-rod at the major service every 100 hours. An engine shop that builds motocross and enduro engines publishes 15-30 hours for 250F and 450F pistons and rings in race use, and notes modern makers ask for a piston at about 15 hours or 5-6 races. Riding type: amateur and pro motocross racing.",
+   "values": {
+    "riding_type": "race (motocross/enduro)",
+    "real_world_hours": "15-30 h (250F and 450F)",
+    "maker_interval": "a new piston at the minor engine service every 50 operating hours, with valves and con-rod at the major service every 100 hours"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Moto-House MX engine shop, scheduled maintenance and rebuilds page",
+    "url": "https://www.motohousemx.com/pages/motocross-off-road-enduro-bikes-overhauls-rebuilds",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "wear-ktm4a-02",
+   "domain": "maintenance",
+   "topic": "real-world top-end life (testers, dealers, owners)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a new piston at the minor engine service every 50 operating hours, with valves and con-rod at the major service every 100 hours. In real use, testers and parts dealers put a 250F piston at about 25-40 hours for an amateur racer and a 450F at about 30-60 hours, with some 450 pistons run 100 hours as a gamble; a pro should change a 450 piston by about 20 hours. Owners racing at local level report 30-50 hours. Riding type: pro race vs amateur race; trail riders are not covered and often go longer. Measure ring gap, skirt and bore rather than assume.",
+   "values": {
+    "riding_type": {
+     "pro race": "about 20 h or less (450F)",
+     "amateur race": "250F about 25-40 h; 450F about 30-60 h",
+     "owners local race": "about 30-50 h"
+    },
+    "maker_interval": "a new piston at the minor engine service every 50 operating hours, with valves and con-rod at the major service every 100 hours"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, The tortured life of a piston",
+    "url": "https://motocrossactionmag.com/the-tortured-life-of-the-piston-in-your-trusty-but-rusty-bike/",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "Spread kept as published: one source says 250F 40 h and 450F 60 h for non-pros; another says 25-30 h for a raced 250F and 30-40 h for a 450.",
+   "also_sources": [
+    {
+     "type": "dealer",
+     "name": "MXstore guide, When should I rebuild my dirt bike engine",
+     "url": "https://mxstore.com.au/blog/helpful-guides/when-should-i-rebuild-my-dirt-bike-engine",
+     "date": "2020-06-08"
+    },
+    {
+     "type": "forum",
+     "name": "Vital MX forum, Top End. How many hours",
+     "url": "https://www.vitalmx.com/forums/Moto-Related,20/Top-End-How-many-hours,1315430",
+     "date": "2017-03"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm4a-03",
+   "domain": "maintenance",
+   "topic": "real-world bottom-end and crank life",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a new con-rod, rod bearing and crank pin at the major engine service every 100 operating hours. An engine shop says a well-maintained four-stroke crank can see 150-200 hours and should be inspected at every top end; a parts dealer says a four-stroke bottom end typically lasts about 100 hours but most riders rebuild at about 80 hours, with a fresh top end at the same time. Riding type: amateur race and general use.",
+   "values": {
+    "riding_type": "amateur race / general",
+    "real_world_hours": {
+     "engine shop": "150-200 h if well maintained",
+     "dealer": "about 100 h, often done at about 80 h"
+    },
+    "maker_interval": "a new con-rod, rod bearing and crank pin at the major engine service every 100 operating hours"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Moto-House MX engine shop, scheduled maintenance and rebuilds page",
+    "url": "https://www.motohousemx.com/pages/motocross-off-road-enduro-bikes-overhauls-rebuilds",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "A dealer figure supports the engine shop figure; both agree the bottom end lasts several top ends.",
+   "also_sources": [
+    {
+     "type": "dealer",
+     "name": "MXstore guide, When should I rebuild my dirt bike engine",
+     "url": "https://mxstore.com.au/blog/helpful-guides/when-should-i-rebuild-my-dirt-bike-engine",
+     "date": "2020-06-08"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm4a-04",
+   "domain": "known_issues",
+   "topic": "what tightening valves mean",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a valve-clearance check after the first hour, then every 30 operating hours. Mechanics and owners widely agree that a valve clearance that keeps getting tighter means the valve face or seat is wearing (titanium intakes most often), that the time between adjustments then gets shorter, and that the lasting fix is new valves with the seats cut, usually new springs too, rather than repeated shims. Riding type: all; dirty air filters and running on the rev limiter speed it up.",
+   "values": {
+    "riding_type": "all",
+    "maker_interval": "a valve-clearance check after the first hour, then every 30 operating hours",
+    "sign": "clearance moving tighter at each check; hard starting"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, Drastic valve adjustment (KX450)",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Drastic-valve-adjustment,1396395",
+    "date": "2021-11"
+   },
+   "confidence": "medium",
+   "notes": "A valve maker also recommends a complete new valve and spring kit for engines at or past factory service limits.",
+   "also_sources": [
+    {
+     "type": "forum",
+     "name": "Vital MX forum, YZ450F Valves",
+     "url": "https://www.vitalmx.com/forums/tech-helprace-shop/yz450f-valves",
+     "date": "2025-04"
+    },
+    {
+     "type": "forum",
+     "name": "Vital MX forum, Which bike (2012-2019) has the most reliable top end",
+     "url": "https://vitalmx.com/forums/Moto-Related,20/Which-bike-2012-2019-has-the-most-reliable-top-end,1360011",
+     "date": "2019-05"
+    },
+    {
+     "type": "tuner",
+     "name": "Kibblewhite Precision Machining valve FAQ",
+     "url": "https://www.motorcycleid.com/kibblewhite/info/faq.html",
+     "date": "accessed 2026-11-07 (page undated)"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm4a-05",
+   "domain": "maintenance",
+   "topic": "real-world fork and shock service",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a fork service after 10 hours, then every 40 hours, and a shock service after 20 hours, then every 40 hours. A suspension columnist services a hard-ridden practice bike every 10-15 hours, while a European suspension dealer quotes 20-40 hours depending on the bike; both say sand, hard riding and fast riders shorten it. Oil is usually the last thing to wear; bushings, seals, piston bands and shims go first. Signs: you keep going stiffer and slower on the clickers and they do less. Riding type: race and practice.",
+   "values": {
+    "riding_type": "race / practice",
+    "real_world_hours": {
+     "hard practice bike": "10-15 h",
+     "general": "20-40 h"
+    },
+    "maker_interval": "a fork service after 10 hours, then every 40 hours, and a shock service after 20 hours, then every 40 hours"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action suspension column, when to service your fork and shock",
+    "url": "https://motocrossactionmag.com/bones-bacon-on-suspension-when-to-service-your-fork-shock/",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "dealer",
+     "name": "Maciag Offroad suspension parts page",
+     "url": "https://www.maciag-offroad.com/mx-parts-suspension/ksx/",
+     "date": "accessed 2026-11-07 (page undated)"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm4a-06",
+   "domain": "maintenance",
+   "topic": "how often riders clean the air filter",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule cleaning the air filter after every race. Most racers clean or swap the filter every ride day, many treat it as cheap insurance against valve and top-end wear, and some run 2-3 rides in clean conditions or use a filter skin; oil drying out or draining to the bottom of the foam is a reason to service it even when it looks clean. Riding type: race and practice; dust shortens it to every moto.",
+   "values": {
+    "riding_type": "race / practice",
+    "real_world": "every ride day; 2-3 rides only in clean air",
+    "maker_interval": "cleaning the air filter after every race"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, Do you change your air filter if its barely dirty",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Do-you-change-your-air-filter-if-its-barely-dirty,1403210",
+    "date": "2022-06"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "forum",
+     "name": "Vital MX forum, 2024-current yz250f top end hrs",
+     "url": "https://www.vitalmx.com/comment/8513566",
+     "date": "2025-12"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm4a-07",
+   "domain": "maintenance",
+   "topic": "real-world silencer packing life",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule new glass-fibre packing in the main silencer every 20 operating hours. Exhaust makers recommend repacking an aftermarket silencer about every 10-15 hours of normal use (one says 10-12 hours when properly jetted), and much sooner in the desert. Riding type: normal motocross use.",
+   "values": {
+    "riding_type": "normal motocross use",
+    "real_world_hours": "10-15 h (aftermarket silencers)",
+    "maker_interval": "new glass-fibre packing in the main silencer every 20 operating hours"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Pro Circuit FAQ",
+    "url": "https://www.procircuit.com/faqs",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "tuner",
+     "name": "FMF silencer repacking instructions",
+     "url": "https://4wheelonline.com/images/FMF/000980.pdf",
+     "date": "accessed 2026-11-07 (page undated)"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm4a-08",
+   "domain": "maintenance",
+   "topic": "real-world tire life",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The maker gives no tire hour figure. Riders on 450s and 250Fs report a rear knobby lasting roughly 8-25 hours and a front roughly 15-30 hours on motocross tracks, with slower riders and trail use getting 40 hours or more; fronts last much longer than rears, and flipping a tire extends its life by about a quarter. Riding type: motocross race and practice vs trail.",
+   "values": {
+    "riding_type": {
+     "motocross race/practice": "rear about 8-25 h, front about 15-30 h",
+     "trail/slow": "40 h or more"
+    },
+    "maker_interval": "none published"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, Average number of hours you are getting on rear and front tires",
+    "url": "https://www.vitalmx.com/comment/4070500",
+    "date": "2021-10"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "magazine",
+     "name": "Motocross Action, 10 ways to save money on motocross tires",
+     "url": "https://motocrossactionmag.com/10-ways-to-save-money-on-motocross-tires-how-to-keep-your-sneakers-from-breaking-the-bank",
+     "date": "accessed 2026-11-07 (page undated)"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm4a-09",
+   "domain": "maintenance",
+   "topic": "owner-reported piston life on the KTM-group 450",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a new piston at the minor engine service every 50 operating hours, with valves and con-rod at the major service every 100 hours. Owners of 2019-2022 KTM and Husqvarna 450s and 350s report pistons that still look good at 70-150 hours, many changing them at about 75-100 hours and some running far longer; a fast A-level rider is suggested at about 50 hours and C-level riders 100. Valves are rarely reported as moving on these engines. Riding type: vet and amateur race, off-road racing.",
+   "values": {
+    "riding_type": {
+     "A-level race": "about 50 h",
+     "C-level / vet": "about 100 h",
+     "reported range": "70-150 h"
+    },
+    "maker_interval": "a new piston at the minor engine service every 50 operating hours, with valves and con-rod at the major service every 100 hours",
+    "valves_moved": "rarely reported"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, 2019/2020 KTM 450 first top end maintenance according to real experience",
+    "url": "https://www.vitalmx.com/comment/3875978",
+    "date": "2020-11"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "forum",
+     "name": "Vital MX forum, 60 Hours on a ktm 450 a big deal",
+     "url": "https://www.vitalmx.com/forums/Moto-Related,20/60-Hours-on-a-ktm-450-a-big-deal,1408608",
+     "date": "2022-11-16"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm4a-10",
+   "domain": "maintenance",
+   "topic": "owner-reported cam chain and clutch life (KTM group)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a new con-rod, rod bearing and crank pin at the major engine service every 100 operating hours. Owners report replacing the cam (timing) chain at about 140-150 hours, one not needing it at 70 hours, and a clutch lasting 100-200 hours on 450s. Riding type: vet and amateur race.",
+   "values": {
+    "riding_type": "vet / amateur race",
+    "real_world_hours": {
+     "cam chain": "about 140-150 h",
+     "clutch": "about 100-200 h"
+    },
+    "maker_interval": "a new con-rod, rod bearing and crank pin at the major engine service every 100 operating hours"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, 60 Hours on a ktm 450 a big deal",
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/60-Hours-on-a-ktm-450-a-big-deal,1408608",
+    "date": "2022-11-16"
+   },
+   "confidence": "low",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "forum",
+     "name": "Vital MX forum, 2019/2020 KTM 450 first top end maintenance according to real experience",
+     "url": "https://www.vitalmx.com/comment/3875978",
+     "date": "2020-11"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm4b-01",
+   "domain": "maintenance",
+   "topic": "real-world top-end life (engine shop)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a new piston at the minor engine service every 45 operating hours, with valves and con-rod at the major service every 90 hours. An engine shop that builds motocross and enduro engines publishes 15-30 hours for 250F and 450F pistons and rings in race use, and notes modern makers ask for a piston at about 15 hours or 5-6 races. Riding type: amateur and pro motocross racing.",
+   "values": {
+    "riding_type": "race (motocross/enduro)",
+    "real_world_hours": "15-30 h (250F and 450F)",
+    "maker_interval": "a new piston at the minor engine service every 45 operating hours, with valves and con-rod at the major service every 90 hours"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Moto-House MX engine shop, scheduled maintenance and rebuilds page",
+    "url": "https://www.motohousemx.com/pages/motocross-off-road-enduro-bikes-overhauls-rebuilds",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "wear-ktm4b-02",
+   "domain": "maintenance",
+   "topic": "real-world top-end life (testers, dealers, owners)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a new piston at the minor engine service every 45 operating hours, with valves and con-rod at the major service every 90 hours. In real use, testers and parts dealers put a 250F piston at about 25-40 hours for an amateur racer and a 450F at about 30-60 hours, with some 450 pistons run 100 hours as a gamble; a pro should change a 450 piston by about 20 hours. Owners racing at local level report 30-50 hours. Riding type: pro race vs amateur race; trail riders are not covered and often go longer. Measure ring gap, skirt and bore rather than assume.",
+   "values": {
+    "riding_type": {
+     "pro race": "about 20 h or less (450F)",
+     "amateur race": "250F about 25-40 h; 450F about 30-60 h",
+     "owners local race": "about 30-50 h"
+    },
+    "maker_interval": "a new piston at the minor engine service every 45 operating hours, with valves and con-rod at the major service every 90 hours"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, The tortured life of a piston",
+    "url": "https://motocrossactionmag.com/the-tortured-life-of-the-piston-in-your-trusty-but-rusty-bike/",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "Spread kept as published: one source says 250F 40 h and 450F 60 h for non-pros; another says 25-30 h for a raced 250F and 30-40 h for a 450.",
+   "also_sources": [
+    {
+     "type": "dealer",
+     "name": "MXstore guide, When should I rebuild my dirt bike engine",
+     "url": "https://mxstore.com.au/blog/helpful-guides/when-should-i-rebuild-my-dirt-bike-engine",
+     "date": "2020-06-08"
+    },
+    {
+     "type": "forum",
+     "name": "Vital MX forum, Top End. How many hours",
+     "url": "https://www.vitalmx.com/forums/Moto-Related,20/Top-End-How-many-hours,1315430",
+     "date": "2017-03"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm4b-03",
+   "domain": "maintenance",
+   "topic": "real-world bottom-end and crank life",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a new con-rod, rod bearing and crank pin at the major engine service every 90 operating hours. An engine shop says a well-maintained four-stroke crank can see 150-200 hours and should be inspected at every top end; a parts dealer says a four-stroke bottom end typically lasts about 100 hours but most riders rebuild at about 80 hours, with a fresh top end at the same time. Riding type: amateur race and general use.",
+   "values": {
+    "riding_type": "amateur race / general",
+    "real_world_hours": {
+     "engine shop": "150-200 h if well maintained",
+     "dealer": "about 100 h, often done at about 80 h"
+    },
+    "maker_interval": "a new con-rod, rod bearing and crank pin at the major engine service every 90 operating hours"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Moto-House MX engine shop, scheduled maintenance and rebuilds page",
+    "url": "https://www.motohousemx.com/pages/motocross-off-road-enduro-bikes-overhauls-rebuilds",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "A dealer figure supports the engine shop figure; both agree the bottom end lasts several top ends.",
+   "also_sources": [
+    {
+     "type": "dealer",
+     "name": "MXstore guide, When should I rebuild my dirt bike engine",
+     "url": "https://mxstore.com.au/blog/helpful-guides/when-should-i-rebuild-my-dirt-bike-engine",
+     "date": "2020-06-08"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm4b-04",
+   "domain": "known_issues",
+   "topic": "what tightening valves mean",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a valve-clearance check after the first hour, then every 45 operating hours. Mechanics and owners widely agree that a valve clearance that keeps getting tighter means the valve face or seat is wearing (titanium intakes most often), that the time between adjustments then gets shorter, and that the lasting fix is new valves with the seats cut, usually new springs too, rather than repeated shims. Riding type: all; dirty air filters and running on the rev limiter speed it up.",
+   "values": {
+    "riding_type": "all",
+    "maker_interval": "a valve-clearance check after the first hour, then every 45 operating hours",
+    "sign": "clearance moving tighter at each check; hard starting"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, Drastic valve adjustment (KX450)",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Drastic-valve-adjustment,1396395",
+    "date": "2021-11"
+   },
+   "confidence": "medium",
+   "notes": "A valve maker also recommends a complete new valve and spring kit for engines at or past factory service limits.",
+   "also_sources": [
+    {
+     "type": "forum",
+     "name": "Vital MX forum, YZ450F Valves",
+     "url": "https://www.vitalmx.com/forums/tech-helprace-shop/yz450f-valves",
+     "date": "2025-04"
+    },
+    {
+     "type": "forum",
+     "name": "Vital MX forum, Which bike (2012-2019) has the most reliable top end",
+     "url": "https://vitalmx.com/forums/Moto-Related,20/Which-bike-2012-2019-has-the-most-reliable-top-end,1360011",
+     "date": "2019-05"
+    },
+    {
+     "type": "tuner",
+     "name": "Kibblewhite Precision Machining valve FAQ",
+     "url": "https://www.motorcycleid.com/kibblewhite/info/faq.html",
+     "date": "accessed 2026-11-07 (page undated)"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm4b-05",
+   "domain": "maintenance",
+   "topic": "real-world fork and shock service",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a fork service and a shock service every 45 operating hours. A suspension columnist services a hard-ridden practice bike every 10-15 hours, while a European suspension dealer quotes 20-40 hours depending on the bike; both say sand, hard riding and fast riders shorten it. Oil is usually the last thing to wear; bushings, seals, piston bands and shims go first. Signs: you keep going stiffer and slower on the clickers and they do less. Riding type: race and practice.",
+   "values": {
+    "riding_type": "race / practice",
+    "real_world_hours": {
+     "hard practice bike": "10-15 h",
+     "general": "20-40 h"
+    },
+    "maker_interval": "a fork service and a shock service every 45 operating hours"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action suspension column, when to service your fork and shock",
+    "url": "https://motocrossactionmag.com/bones-bacon-on-suspension-when-to-service-your-fork-shock/",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "dealer",
+     "name": "Maciag Offroad suspension parts page",
+     "url": "https://www.maciag-offroad.com/mx-parts-suspension/ksx/",
+     "date": "accessed 2026-11-07 (page undated)"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm4b-06",
+   "domain": "maintenance",
+   "topic": "how often riders clean the air filter",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule cleaning the air filter and airbox every 15 operating hours. Most racers clean or swap the filter every ride day, many treat it as cheap insurance against valve and top-end wear, and some run 2-3 rides in clean conditions or use a filter skin; oil drying out or draining to the bottom of the foam is a reason to service it even when it looks clean. Riding type: race and practice; dust shortens it to every moto.",
+   "values": {
+    "riding_type": "race / practice",
+    "real_world": "every ride day; 2-3 rides only in clean air",
+    "maker_interval": "cleaning the air filter and airbox every 15 operating hours"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, Do you change your air filter if its barely dirty",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Do-you-change-your-air-filter-if-its-barely-dirty,1403210",
+    "date": "2022-06"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "forum",
+     "name": "Vital MX forum, 2024-current yz250f top end hrs",
+     "url": "https://www.vitalmx.com/comment/8513566",
+     "date": "2025-12"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm4b-07",
+   "domain": "maintenance",
+   "topic": "real-world silencer packing life",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule new packing in the main silencer every 45 operating hours. Exhaust makers recommend repacking an aftermarket silencer about every 10-15 hours of normal use (one says 10-12 hours when properly jetted), and much sooner in the desert. Riding type: normal motocross use.",
+   "values": {
+    "riding_type": "normal motocross use",
+    "real_world_hours": "10-15 h (aftermarket silencers)",
+    "maker_interval": "new packing in the main silencer every 45 operating hours"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Pro Circuit FAQ",
+    "url": "https://www.procircuit.com/faqs",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "tuner",
+     "name": "FMF silencer repacking instructions",
+     "url": "https://4wheelonline.com/images/FMF/000980.pdf",
+     "date": "accessed 2026-11-07 (page undated)"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm4b-08",
+   "domain": "maintenance",
+   "topic": "real-world tire life",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The maker gives no tire hour figure. Riders on 450s and 250Fs report a rear knobby lasting roughly 8-25 hours and a front roughly 15-30 hours on motocross tracks, with slower riders and trail use getting 40 hours or more; fronts last much longer than rears, and flipping a tire extends its life by about a quarter. Riding type: motocross race and practice vs trail.",
+   "values": {
+    "riding_type": {
+     "motocross race/practice": "rear about 8-25 h, front about 15-30 h",
+     "trail/slow": "40 h or more"
+    },
+    "maker_interval": "none published"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, Average number of hours you are getting on rear and front tires",
+    "url": "https://www.vitalmx.com/comment/4070500",
+    "date": "2021-10"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "magazine",
+     "name": "Motocross Action, 10 ways to save money on motocross tires",
+     "url": "https://motocrossactionmag.com/10-ways-to-save-money-on-motocross-tires-how-to-keep-your-sneakers-from-breaking-the-bank",
+     "date": "accessed 2026-11-07 (page undated)"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm4b-09",
+   "domain": "maintenance",
+   "topic": "owner-reported piston life on the KTM-group 450",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a new piston at the minor engine service every 45 operating hours, with valves and con-rod at the major service every 90 hours. Owners of 2019-2022 KTM and Husqvarna 450s and 350s report pistons that still look good at 70-150 hours, many changing them at about 75-100 hours and some running far longer; a fast A-level rider is suggested at about 50 hours and C-level riders 100. Valves are rarely reported as moving on these engines. Riding type: vet and amateur race, off-road racing.",
+   "values": {
+    "riding_type": {
+     "A-level race": "about 50 h",
+     "C-level / vet": "about 100 h",
+     "reported range": "70-150 h"
+    },
+    "maker_interval": "a new piston at the minor engine service every 45 operating hours, with valves and con-rod at the major service every 90 hours",
+    "valves_moved": "rarely reported"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, 2019/2020 KTM 450 first top end maintenance according to real experience",
+    "url": "https://www.vitalmx.com/comment/3875978",
+    "date": "2020-11"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "forum",
+     "name": "Vital MX forum, 60 Hours on a ktm 450 a big deal",
+     "url": "https://www.vitalmx.com/forums/Moto-Related,20/60-Hours-on-a-ktm-450-a-big-deal,1408608",
+     "date": "2022-11-16"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm4b-10",
+   "domain": "maintenance",
+   "topic": "owner-reported cam chain and clutch life (KTM group)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "450 SX-F",
+     "350 SX-F",
+     "250 SX-F",
+     "Husqvarna FC 450"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a new con-rod, rod bearing and crank pin at the major engine service every 90 operating hours. Owners report replacing the cam (timing) chain at about 140-150 hours, one not needing it at 70 hours, and a clutch lasting 100-200 hours on 450s. Riding type: vet and amateur race.",
+   "values": {
+    "riding_type": "vet / amateur race",
+    "real_world_hours": {
+     "cam chain": "about 140-150 h",
+     "clutch": "about 100-200 h"
+    },
+    "maker_interval": "a new con-rod, rod bearing and crank pin at the major engine service every 90 operating hours"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, 60 Hours on a ktm 450 a big deal",
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/60-Hours-on-a-ktm-450-a-big-deal,1408608",
+    "date": "2022-11-16"
+   },
+   "confidence": "low",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "forum",
+     "name": "Vital MX forum, 2019/2020 KTM 450 first top end maintenance according to real experience",
+     "url": "https://www.vitalmx.com/comment/3875978",
+     "date": "2020-11"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm2a-01",
+   "domain": "maintenance",
+   "topic": "real-world two-stroke top-end life (engine shop)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a new piston every 20 operating hours (and at the 10-hour minor service in difficult conditions). An engine shop publishes 10-15 hours for 50-125 cc two-stroke pistons and 15-25 hours for 175-250 cc. Riding type: motocross and enduro racing.",
+   "values": {
+    "riding_type": "race (motocross/enduro)",
+    "real_world_hours": {
+     "125 class": "10-15 h",
+     "250 class": "15-25 h"
+    },
+    "maker_interval": "a new piston every 20 operating hours (and at the 10-hour minor service in difficult conditions)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Moto-House MX engine shop, scheduled maintenance and rebuilds page",
+    "url": "https://www.motohousemx.com/pages/motocross-off-road-enduro-bikes-overhauls-rebuilds",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "wear-ktm2a-02",
+   "domain": "maintenance",
+   "topic": "real-world two-stroke top-end life (testers, dealers, owners)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a new piston every 20 operating hours (and at the 10-hour minor service in difficult conditions). Testers say a 125 piston and rings should be changed about every 15 hours for most riders and every 7 hours for a pro; a 250 two-stroke may go 40 hours for a local vet or novice but about 15 for a pro. A parts dealer gives about 25 hours in general, and owners report 125 rings at 10-15 hours and piston at 20-30, and 250 piston at 40-50. Riding type: pro race vs amateur race vs trail; lean jetting shortens it.",
+   "values": {
+    "riding_type": {
+     "pro race": "125 about 7 h; 250 about 15 h",
+     "amateur race": "125 about 15-30 h; 250 about 25-50 h"
+    },
+    "maker_interval": "a new piston every 20 operating hours (and at the 10-hour minor service in difficult conditions)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, The tortured life of a piston",
+    "url": "https://motocrossactionmag.com/the-tortured-life-of-the-piston-in-your-trusty-but-rusty-bike/",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "dealer",
+     "name": "MXstore guide, When should I rebuild my dirt bike engine",
+     "url": "https://mxstore.com.au/blog/helpful-guides/when-should-i-rebuild-my-dirt-bike-engine",
+     "date": "2020-06-08"
+    },
+    {
+     "type": "forum",
+     "name": "Vital MX forum, Top End. How many hours",
+     "url": "https://www.vitalmx.com/forums/Moto-Related,20/Top-End-How-many-hours,1315430",
+     "date": "2017-03"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm2a-03",
+   "domain": "maintenance",
+   "topic": "real-world two-stroke bottom-end life",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a new con-rod, rod bearing and crank pin at the major engine service every 40 operating hours. A parts dealer says a two-stroke bottom end usually lasts about 70-80 hours, done with a top end; an engine shop says to inspect the crank at every top end and that small cranks (85 cc) rarely reach 200 hours. Riding type: amateur race and general use.",
+   "values": {
+    "riding_type": "amateur race / general",
+    "real_world_hours": "about 70-80 h",
+    "maker_interval": "a new con-rod, rod bearing and crank pin at the major engine service every 40 operating hours"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Moto-House MX engine shop, scheduled maintenance and rebuilds page",
+    "url": "https://www.motohousemx.com/pages/motocross-off-road-enduro-bikes-overhauls-rebuilds",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "dealer",
+     "name": "MXstore guide, When should I rebuild my dirt bike engine",
+     "url": "https://mxstore.com.au/blog/helpful-guides/when-should-i-rebuild-my-dirt-bike-engine",
+     "date": "2020-06-08"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm2a-04",
+   "domain": "maintenance",
+   "topic": "real-world fork and shock service",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a fork service after 10 hours, then every 40 hours, and a shock service after 20 hours, then every 40 hours. A suspension columnist services a hard-ridden practice bike every 10-15 hours, while a European suspension dealer quotes 20-40 hours depending on the bike; sand, hard riding and fast riders shorten it. Riding type: race and practice.",
+   "values": {
+    "riding_type": "race / practice",
+    "real_world_hours": {
+     "hard practice bike": "10-15 h",
+     "general": "20-40 h"
+    },
+    "maker_interval": "a fork service after 10 hours, then every 40 hours, and a shock service after 20 hours, then every 40 hours"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action suspension column, when to service your fork and shock",
+    "url": "https://motocrossactionmag.com/bones-bacon-on-suspension-when-to-service-your-fork-shock/",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "dealer",
+     "name": "Maciag Offroad suspension parts page",
+     "url": "https://www.maciag-offroad.com/mx-parts-suspension/ksx/",
+     "date": "accessed 2026-11-07 (page undated)"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm2a-05",
+   "domain": "maintenance",
+   "topic": "how often riders clean the air filter",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule cleaning the air filter after every race. Most racers clean or swap the filter every ride day; some run 2-3 rides in clean conditions or use a filter skin. Riding type: race and practice; dust shortens it to every moto.",
+   "values": {
+    "riding_type": "race / practice",
+    "real_world": "every ride day; 2-3 rides only in clean air",
+    "maker_interval": "cleaning the air filter after every race"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, Do you change your air filter if its barely dirty",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Do-you-change-your-air-filter-if-its-barely-dirty,1403210",
+    "date": "2022-06"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "forum",
+     "name": "Vital MX forum, Top End. How many hours",
+     "url": "https://www.vitalmx.com/forums/Moto-Related,20/Top-End-How-many-hours,1315430",
+     "date": "2017-03"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm2a-06",
+   "domain": "maintenance",
+   "topic": "real-world silencer packing life",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule new glass-fibre packing in the main silencer every 20 operating hours. Exhaust makers recommend repacking a two-stroke silencer about every 10-12 hours when properly jetted (10-15 hours in general use), and much sooner in the desert; a wet, spooge-soaked packing goes faster. Riding type: normal motocross use.",
+   "values": {
+    "riding_type": "normal motocross use",
+    "real_world_hours": "10-15 h",
+    "maker_interval": "new glass-fibre packing in the main silencer every 20 operating hours"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "FMF silencer repacking instructions",
+    "url": "https://4wheelonline.com/images/FMF/000980.pdf",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "tuner",
+     "name": "Pro Circuit FAQ",
+     "url": "https://www.procircuit.com/faqs",
+     "date": "accessed 2026-11-07 (page undated)"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm2a-07",
+   "domain": "maintenance",
+   "topic": "reed petal life",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a reed-valve check at the minor engine service every 10 operating hours. A reed maker gives no hour figure for replacement: it says to inspect petals 3-4 times a season if you race or ride long hours, that riders who hold the engine at peak rpm get shorter reed life, and that a petal that looks fine can still have lost its seal (look for chips, tears, peeling and a gap to the cage). Riding type: race.",
+   "values": {
+    "riding_type": "race",
+    "real_world": "inspect 3-4 times a season; replace on wear",
+    "maker_interval": "a reed-valve check at the minor engine service every 10 operating hours"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Boyesen tech tip, how to inspect two-stroke reed petals",
+    "url": "https://www.boyesen.com/How-to-check-Reeds-2Stroke",
+    "date": "2019-11-06"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "wear-ktm2a-08",
+   "domain": "maintenance",
+   "topic": "real-world tire life",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022
+    ]
+   },
+   "statement": "The maker gives no tire hour figure. Riders report a rear knobby lasting roughly 8-25 hours and a front roughly 15-30 hours on motocross tracks, and 40 hours or more for slower or trail riders; fronts last much longer than rears. Riding type: motocross race and practice vs trail.",
+   "values": {
+    "riding_type": {
+     "motocross race/practice": "rear about 8-25 h, front about 15-30 h",
+     "trail/slow": "40 h or more"
+    },
+    "maker_interval": "none published"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, Average number of hours you are getting on rear and front tires",
+    "url": "https://www.vitalmx.com/comment/4070500",
+    "date": "2021-10"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "magazine",
+     "name": "Motocross Action, 10 ways to save money on motocross tires",
+     "url": "https://motocrossactionmag.com/10-ways-to-save-money-on-motocross-tires-how-to-keep-your-sneakers-from-breaking-the-bank",
+     "date": "accessed 2026-11-07 (page undated)"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm2b-01",
+   "domain": "maintenance",
+   "topic": "real-world two-stroke top-end life (engine shop)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "300 SX",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a new piston at the minor engine service every 15 operating hours. An engine shop publishes 10-15 hours for 50-125 cc two-stroke pistons and 15-25 hours for 175-250 cc. Riding type: motocross and enduro racing.",
+   "values": {
+    "riding_type": "race (motocross/enduro)",
+    "real_world_hours": {
+     "125 class": "10-15 h",
+     "250 class": "15-25 h"
+    },
+    "maker_interval": "a new piston at the minor engine service every 15 operating hours"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Moto-House MX engine shop, scheduled maintenance and rebuilds page",
+    "url": "https://www.motohousemx.com/pages/motocross-off-road-enduro-bikes-overhauls-rebuilds",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "wear-ktm2b-02",
+   "domain": "maintenance",
+   "topic": "real-world two-stroke top-end life (testers, dealers, owners)",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "300 SX",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a new piston at the minor engine service every 15 operating hours. Testers say a 125 piston and rings should be changed about every 15 hours for most riders and every 7 hours for a pro; a 250 two-stroke may go 40 hours for a local vet or novice but about 15 for a pro. A parts dealer gives about 25 hours in general, and owners report 125 rings at 10-15 hours and piston at 20-30, and 250 piston at 40-50. Riding type: pro race vs amateur race vs trail; lean jetting shortens it.",
+   "values": {
+    "riding_type": {
+     "pro race": "125 about 7 h; 250 about 15 h",
+     "amateur race": "125 about 15-30 h; 250 about 25-50 h"
+    },
+    "maker_interval": "a new piston at the minor engine service every 15 operating hours"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, The tortured life of a piston",
+    "url": "https://motocrossactionmag.com/the-tortured-life-of-the-piston-in-your-trusty-but-rusty-bike/",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "dealer",
+     "name": "MXstore guide, When should I rebuild my dirt bike engine",
+     "url": "https://mxstore.com.au/blog/helpful-guides/when-should-i-rebuild-my-dirt-bike-engine",
+     "date": "2020-06-08"
+    },
+    {
+     "type": "forum",
+     "name": "Vital MX forum, Top End. How many hours",
+     "url": "https://www.vitalmx.com/forums/Moto-Related,20/Top-End-How-many-hours,1315430",
+     "date": "2017-03"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm2b-03",
+   "domain": "maintenance",
+   "topic": "real-world two-stroke bottom-end life",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "300 SX",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a new con-rod, rod bearing and crank pin at the major engine service every 45 operating hours. A parts dealer says a two-stroke bottom end usually lasts about 70-80 hours, done with a top end; an engine shop says to inspect the crank at every top end and that small cranks (85 cc) rarely reach 200 hours. Riding type: amateur race and general use.",
+   "values": {
+    "riding_type": "amateur race / general",
+    "real_world_hours": "about 70-80 h",
+    "maker_interval": "a new con-rod, rod bearing and crank pin at the major engine service every 45 operating hours"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Moto-House MX engine shop, scheduled maintenance and rebuilds page",
+    "url": "https://www.motohousemx.com/pages/motocross-off-road-enduro-bikes-overhauls-rebuilds",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "dealer",
+     "name": "MXstore guide, When should I rebuild my dirt bike engine",
+     "url": "https://mxstore.com.au/blog/helpful-guides/when-should-i-rebuild-my-dirt-bike-engine",
+     "date": "2020-06-08"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm2b-04",
+   "domain": "maintenance",
+   "topic": "real-world fork and shock service",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "300 SX",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a fork service and a shock service every 45 operating hours. A suspension columnist services a hard-ridden practice bike every 10-15 hours, while a European suspension dealer quotes 20-40 hours depending on the bike; sand, hard riding and fast riders shorten it. Riding type: race and practice.",
+   "values": {
+    "riding_type": "race / practice",
+    "real_world_hours": {
+     "hard practice bike": "10-15 h",
+     "general": "20-40 h"
+    },
+    "maker_interval": "a fork service and a shock service every 45 operating hours"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action suspension column, when to service your fork and shock",
+    "url": "https://motocrossactionmag.com/bones-bacon-on-suspension-when-to-service-your-fork-shock/",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "dealer",
+     "name": "Maciag Offroad suspension parts page",
+     "url": "https://www.maciag-offroad.com/mx-parts-suspension/ksx/",
+     "date": "accessed 2026-11-07 (page undated)"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm2b-05",
+   "domain": "maintenance",
+   "topic": "how often riders clean the air filter",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "300 SX",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule cleaning the air filter and airbox every 15 operating hours. Most racers clean or swap the filter every ride day; some run 2-3 rides in clean conditions or use a filter skin. Riding type: race and practice; dust shortens it to every moto.",
+   "values": {
+    "riding_type": "race / practice",
+    "real_world": "every ride day; 2-3 rides only in clean air",
+    "maker_interval": "cleaning the air filter and airbox every 15 operating hours"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, Do you change your air filter if its barely dirty",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Do-you-change-your-air-filter-if-its-barely-dirty,1403210",
+    "date": "2022-06"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "forum",
+     "name": "Vital MX forum, Top End. How many hours",
+     "url": "https://www.vitalmx.com/forums/Moto-Related,20/Top-End-How-many-hours,1315430",
+     "date": "2017-03"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm2b-06",
+   "domain": "maintenance",
+   "topic": "real-world silencer packing life",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "300 SX",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule new packing in the main silencer every 45 operating hours. Exhaust makers recommend repacking a two-stroke silencer about every 10-12 hours when properly jetted (10-15 hours in general use), and much sooner in the desert; a wet, spooge-soaked packing goes faster. Riding type: normal motocross use.",
+   "values": {
+    "riding_type": "normal motocross use",
+    "real_world_hours": "10-15 h",
+    "maker_interval": "new packing in the main silencer every 45 operating hours"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "FMF silencer repacking instructions",
+    "url": "https://4wheelonline.com/images/FMF/000980.pdf",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "tuner",
+     "name": "Pro Circuit FAQ",
+     "url": "https://www.procircuit.com/faqs",
+     "date": "accessed 2026-11-07 (page undated)"
+    }
+   ]
+  },
+  {
+   "id": "wear-ktm2b-07",
+   "domain": "maintenance",
+   "topic": "reed petal life",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "300 SX",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "KTM and Husqvarna schedule a check of the reed valve housing and reeds every 15 operating hours. A reed maker gives no hour figure for replacement: it says to inspect petals 3-4 times a season if you race or ride long hours, that riders who hold the engine at peak rpm get shorter reed life, and that a petal that looks fine can still have lost its seal (look for chips, tears, peeling and a gap to the cage). Riding type: race.",
+   "values": {
+    "riding_type": "race",
+    "real_world": "inspect 3-4 times a season; replace on wear",
+    "maker_interval": "a check of the reed valve housing and reeds every 15 operating hours"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Boyesen tech tip, how to inspect two-stroke reed petals",
+    "url": "https://www.boyesen.com/How-to-check-Reeds-2Stroke",
+    "date": "2019-11-06"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "wear-ktm2b-08",
+   "domain": "maintenance",
+   "topic": "real-world tire life",
+   "applies_to": {
+    "make": [
+     "KTM",
+     "Husqvarna"
+    ],
+    "models": [
+     "125 SX",
+     "250 SX",
+     "300 SX",
+     "Husqvarna TC 250"
+    ],
+    "years": [
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The maker gives no tire hour figure. Riders report a rear knobby lasting roughly 8-25 hours and a front roughly 15-30 hours on motocross tracks, and 40 hours or more for slower or trail riders; fronts last much longer than rears. Riding type: motocross race and practice vs trail.",
+   "values": {
+    "riding_type": {
+     "motocross race/practice": "rear about 8-25 h, front about 15-30 h",
+     "trail/slow": "40 h or more"
+    },
+    "maker_interval": "none published"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, Average number of hours you are getting on rear and front tires",
+    "url": "https://www.vitalmx.com/comment/4070500",
+    "date": "2021-10"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "magazine",
+     "name": "Motocross Action, 10 ways to save money on motocross tires",
+     "url": "https://motocrossactionmag.com/10-ways-to-save-money-on-motocross-tires-how-to-keep-your-sneakers-from-breaking-the-bank",
+     "date": "accessed 2026-11-07 (page undated)"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1051 @@
+{
+ "slice": "real-world part life versus the maker's interval (wear)",
+ "platform": {
+  "make": "Yamaha",
+  "models": [
+   "YZ125",
+   "YZ250",
+   "YZ250F",
+   "YZ450F"
+  ],
+  "years": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026,
+   2027
+  ]
+ },
+ "sources": [
+  {
+   "type": "magazine",
+   "name": "Australasian Dirt Bike, Long term test 8: 2024 Yamaha YZ450F",
+   "url": "https://adbmag.com.au/editorial/long-term-test-8-yamaha-yz450f/",
+   "date": "2024-08-27"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action suspension column, when to service your fork and shock",
+   "url": "https://motocrossactionmag.com/bones-bacon-on-suspension-when-to-service-your-fork-shock/",
+   "date": "accessed 2026-11-07 (page undated)"
+  },
+  {
+   "type": "tuner",
+   "name": "FMF silencer repacking instructions",
+   "url": "https://4wheelonline.com/images/FMF/000980.pdf",
+   "date": "accessed 2026-11-07 (page undated)"
+  },
+  {
+   "type": "tuner",
+   "name": "Kibblewhite Precision Machining valve FAQ",
+   "url": "https://www.motorcycleid.com/kibblewhite/info/faq.html",
+   "date": "accessed 2026-11-07 (page undated)"
+  },
+  {
+   "type": "dealer",
+   "name": "Maciag Offroad suspension parts page",
+   "url": "https://www.maciag-offroad.com/mx-parts-suspension/ksx/",
+   "date": "accessed 2026-11-07 (page undated)"
+  },
+  {
+   "type": "tuner",
+   "name": "Moto-House MX engine shop, scheduled maintenance and rebuilds page",
+   "url": "https://www.motohousemx.com/pages/motocross-off-road-enduro-bikes-overhauls-rebuilds",
+   "date": "accessed 2026-11-07 (page undated)"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, The tortured life of a piston",
+   "url": "https://motocrossactionmag.com/the-tortured-life-of-the-piston-in-your-trusty-but-rusty-bike/",
+   "date": "accessed 2026-11-07 (page undated)"
+  },
+  {
+   "type": "magazine",
+   "name": "Motocross Action, 10 ways to save money on motocross tires",
+   "url": "https://motocrossactionmag.com/10-ways-to-save-money-on-motocross-tires-how-to-keep-your-sneakers-from-breaking-the-bank",
+   "date": "accessed 2026-11-07 (page undated)"
+  },
+  {
+   "type": "dealer",
+   "name": "MXstore guide, When to replace your dirt bike chain",
+   "url": "https://mxstore.com.au/blog/helpful-guides/when-to-replace-your-dirt-bike-chain",
+   "date": "2020-06-08"
+  },
+  {
+   "type": "dealer",
+   "name": "MXstore guide, When should I rebuild my dirt bike engine",
+   "url": "https://mxstore.com.au/blog/helpful-guides/when-should-i-rebuild-my-dirt-bike-engine",
+   "date": "2020-06-08"
+  },
+  {
+   "type": "tuner",
+   "name": "Pro Circuit FAQ",
+   "url": "https://www.procircuit.com/faqs",
+   "date": "accessed 2026-11-07 (page undated)"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, Do you change your air filter if its barely dirty",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Do-you-change-your-air-filter-if-its-barely-dirty,1403210",
+   "date": "2022-06"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, whats the deal on chain life",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/whats-the-deal-on-chain-life,1399835",
+   "date": "2022-02 to 2022-03"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, 60 Hours on a ktm 450 a big deal",
+   "url": "https://www.vitalmx.com/forums/Moto-Related,20/60-Hours-on-a-ktm-450-a-big-deal,1408608",
+   "date": "2022-11-16"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, Drastic valve adjustment (KX450)",
+   "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Drastic-valve-adjustment,1396395",
+   "date": "2021-11"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, Oil change intervals...manufacturer recommendations",
+   "url": "https://www.vitalmx.com/forums/Moto-Related,20/Oil-change-intervals-manufacturer-recomendations,1336782",
+   "date": "2018-03-23"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, Which bike (2012-2019) has the most reliable top end",
+   "url": "https://vitalmx.com/forums/Moto-Related,20/Which-bike-2012-2019-has-the-most-reliable-top-end,1360011",
+   "date": "2019-05"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, Average number of hours you are getting on rear and front tires",
+   "url": "https://www.vitalmx.com/comment/4070500",
+   "date": "2021-10"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, Top End. How many hours",
+   "url": "https://www.vitalmx.com/forums/Moto-Related,20/Top-End-How-many-hours,1315430",
+   "date": "2017-03"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, 2024-current yz250f top end hrs",
+   "url": "https://www.vitalmx.com/comment/8513566",
+   "date": "2025-12"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, 2023-24 Yamaha YZ450 engine hours/longevity",
+   "url": "https://www.vitalmx.com/forums/moto-related/2023-24-yamaha-yz450-engine-hourslongevity",
+   "date": "2023-10 to 2025-08"
+  },
+  {
+   "type": "forum",
+   "name": "Vital MX forum, YZ450F Valves",
+   "url": "https://www.vitalmx.com/forums/tech-helprace-shop/yz450f-valves",
+   "date": "2025-04"
+  }
+ ],
+ "conflicts": [
+  "Real-world figures are spreads from several sources and are kept side by side, never averaged; the maker interval is always given with them."
+ ],
+ "not_found": [
+  "Brake pad life in hours: no public engine-builder, magazine or two-agreeing owner source with hour figures was found; makers say inspect every race and replace as required.",
+  "Wheel bearing and linkage/swingarm bearing replacement hours: makers publish inspection and greasing intervals only; no two agreeing public real-world hour figures were found.",
+  "Spark plug real-world life: makers publish intervals (e.g. Kawasaki 7.5 h, KTM two-strokes 15 h); no independent hour figures found.",
+  "Honda CRF450R/CRF250R 2020-on and Kawasaki KX450/KX250 2020-on: no two agreeing public reports with hours for how often the valves actually tighten on these generations (older-generation Honda titanium-valve reports exist but do not apply). Some owner-forum pages could not be read and were not used."
+ ],
+ "records": [
+  {
+   "id": "wear-yz4-01",
+   "domain": "maintenance",
+   "topic": "real-world top-end life (engine shop)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Yamaha schedules a new piston, pin, clip and rings every fifth race (about 12.5 hours). An engine shop that builds motocross and enduro engines publishes 15-30 hours for 250F and 450F pistons and rings in race use, and notes modern makers ask for a piston at about 15 hours or 5-6 races. Riding type: amateur and pro motocross racing.",
+   "values": {
+    "riding_type": "race (motocross/enduro)",
+    "real_world_hours": "15-30 h (250F and 450F)",
+    "maker_interval": "a new piston, pin, clip and rings every fifth race (about 12.5 hours)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Moto-House MX engine shop, scheduled maintenance and rebuilds page",
+    "url": "https://www.motohousemx.com/pages/motocross-off-road-enduro-bikes-overhauls-rebuilds",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "wear-yz4-02",
+   "domain": "maintenance",
+   "topic": "real-world top-end life (testers, dealers, owners)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Yamaha schedules a new piston, pin, clip and rings every fifth race (about 12.5 hours). In real use, testers and parts dealers put a 250F piston at about 25-40 hours for an amateur racer and a 450F at about 30-60 hours, with some 450 pistons run 100 hours as a gamble; a pro should change a 450 piston by about 20 hours. Owners racing at local level report 30-50 hours. Riding type: pro race vs amateur race; trail riders are not covered and often go longer. Measure ring gap, skirt and bore rather than assume.",
+   "values": {
+    "riding_type": {
+     "pro race": "about 20 h or less (450F)",
+     "amateur race": "250F about 25-40 h; 450F about 30-60 h",
+     "owners local race": "about 30-50 h"
+    },
+    "maker_interval": "a new piston, pin, clip and rings every fifth race (about 12.5 hours)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, The tortured life of a piston",
+    "url": "https://motocrossactionmag.com/the-tortured-life-of-the-piston-in-your-trusty-but-rusty-bike/",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "Spread kept as published: one source says 250F 40 h and 450F 60 h for non-pros; another says 25-30 h for a raced 250F and 30-40 h for a 450.",
+   "also_sources": [
+    {
+     "type": "dealer",
+     "name": "MXstore guide, When should I rebuild my dirt bike engine",
+     "url": "https://mxstore.com.au/blog/helpful-guides/when-should-i-rebuild-my-dirt-bike-engine",
+     "date": "2020-06-08"
+    },
+    {
+     "type": "forum",
+     "name": "Vital MX forum, Top End. How many hours",
+     "url": "https://www.vitalmx.com/forums/Moto-Related,20/Top-End-How-many-hours,1315430",
+     "date": "2017-03"
+    }
+   ]
+  },
+  {
+   "id": "wear-yz4-03",
+   "domain": "maintenance",
+   "topic": "real-world bottom-end and crank life",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Yamaha schedules crankshaft inspection and cleaning every fifth race (about 12.5 hours). An engine shop says a well-maintained four-stroke crank can see 150-200 hours and should be inspected at every top end; a parts dealer says a four-stroke bottom end typically lasts about 100 hours but most riders rebuild at about 80 hours, with a fresh top end at the same time. Riding type: amateur race and general use.",
+   "values": {
+    "riding_type": "amateur race / general",
+    "real_world_hours": {
+     "engine shop": "150-200 h if well maintained",
+     "dealer": "about 100 h, often done at about 80 h"
+    },
+    "maker_interval": "crankshaft inspection and cleaning every fifth race (about 12.5 hours)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Moto-House MX engine shop, scheduled maintenance and rebuilds page",
+    "url": "https://www.motohousemx.com/pages/motocross-off-road-enduro-bikes-overhauls-rebuilds",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "A dealer figure supports the engine shop figure; both agree the bottom end lasts several top ends.",
+   "also_sources": [
+    {
+     "type": "dealer",
+     "name": "MXstore guide, When should I rebuild my dirt bike engine",
+     "url": "https://mxstore.com.au/blog/helpful-guides/when-should-i-rebuild-my-dirt-bike-engine",
+     "date": "2020-06-08"
+    }
+   ]
+  },
+  {
+   "id": "wear-yz4-04",
+   "domain": "known_issues",
+   "topic": "what tightening valves mean",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Yamaha schedules a valve-clearance check every third race (about 7.5 hours). Mechanics and owners widely agree that a valve clearance that keeps getting tighter means the valve face or seat is wearing (titanium intakes most often), that the time between adjustments then gets shorter, and that the lasting fix is new valves with the seats cut, usually new springs too, rather than repeated shims. Riding type: all; dirty air filters and running on the rev limiter speed it up.",
+   "values": {
+    "riding_type": "all",
+    "maker_interval": "a valve-clearance check every third race (about 7.5 hours)",
+    "sign": "clearance moving tighter at each check; hard starting"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, Drastic valve adjustment (KX450)",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Drastic-valve-adjustment,1396395",
+    "date": "2021-11"
+   },
+   "confidence": "medium",
+   "notes": "A valve maker also recommends a complete new valve and spring kit for engines at or past factory service limits.",
+   "also_sources": [
+    {
+     "type": "forum",
+     "name": "Vital MX forum, YZ450F Valves",
+     "url": "https://www.vitalmx.com/forums/tech-helprace-shop/yz450f-valves",
+     "date": "2025-04"
+    },
+    {
+     "type": "forum",
+     "name": "Vital MX forum, Which bike (2012-2019) has the most reliable top end",
+     "url": "https://vitalmx.com/forums/Moto-Related,20/Which-bike-2012-2019-has-the-most-reliable-top-end,1360011",
+     "date": "2019-05"
+    },
+    {
+     "type": "tuner",
+     "name": "Kibblewhite Precision Machining valve FAQ",
+     "url": "https://www.motorcycleid.com/kibblewhite/info/faq.html",
+     "date": "accessed 2026-11-07 (page undated)"
+    }
+   ]
+  },
+  {
+   "id": "wear-yz4-05",
+   "domain": "maintenance",
+   "topic": "how often racers change the oil",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Yamaha schedules engine oil every third race (about 7.5 hours). Racers and owners commonly change engine oil much sooner, about every 3-5 hours or every race day, and some every ride on bikes where engine, gearbox and clutch share the oil; the oil filter is often done every second change. Riding type: amateur race and practice.",
+   "values": {
+    "riding_type": "amateur race / practice",
+    "real_world_hours": "about 3-5 h; some every ride",
+    "maker_interval": "engine oil every third race (about 7.5 hours)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, Oil change intervals...manufacturer recommendations",
+    "url": "https://www.vitalmx.com/forums/Moto-Related,20/Oil-change-intervals-manufacturer-recomendations,1336782",
+    "date": "2018-03-23"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "forum",
+     "name": "Vital MX forum, 2023-24 Yamaha YZ450 engine hours/longevity",
+     "url": "https://www.vitalmx.com/forums/moto-related/2023-24-yamaha-yz450-engine-hourslongevity",
+     "date": "2023-10 to 2025-08"
+    }
+   ]
+  },
+  {
+   "id": "wear-yz4-06",
+   "domain": "maintenance",
+   "topic": "real-world fork and shock service",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Yamaha schedules fork oil every fifth race (about 12.5 hours). A suspension columnist services a hard-ridden practice bike every 10-15 hours, while a European suspension dealer quotes 20-40 hours depending on the bike; both say sand, hard riding and fast riders shorten it. Oil is usually the last thing to wear; bushings, seals, piston bands and shims go first. Signs: you keep going stiffer and slower on the clickers and they do less. Riding type: race and practice.",
+   "values": {
+    "riding_type": "race / practice",
+    "real_world_hours": {
+     "hard practice bike": "10-15 h",
+     "general": "20-40 h"
+    },
+    "maker_interval": "fork oil every fifth race (about 12.5 hours)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action suspension column, when to service your fork and shock",
+    "url": "https://motocrossactionmag.com/bones-bacon-on-suspension-when-to-service-your-fork-shock/",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "dealer",
+     "name": "Maciag Offroad suspension parts page",
+     "url": "https://www.maciag-offroad.com/mx-parts-suspension/ksx/",
+     "date": "accessed 2026-11-07 (page undated)"
+    }
+   ]
+  },
+  {
+   "id": "wear-yz4-07",
+   "domain": "maintenance",
+   "topic": "how often riders clean the air filter",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Yamaha schedules cleaning and oiling the air filter every race (about 2.5 hours). Most racers clean or swap the filter every ride day, many treat it as cheap insurance against valve and top-end wear, and some run 2-3 rides in clean conditions or use a filter skin; oil drying out or draining to the bottom of the foam is a reason to service it even when it looks clean. Riding type: race and practice; dust shortens it to every moto.",
+   "values": {
+    "riding_type": "race / practice",
+    "real_world": "every ride day; 2-3 rides only in clean air",
+    "maker_interval": "cleaning and oiling the air filter every race (about 2.5 hours)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, Do you change your air filter if its barely dirty",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Do-you-change-your-air-filter-if-its-barely-dirty,1403210",
+    "date": "2022-06"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "forum",
+     "name": "Vital MX forum, 2024-current yz250f top end hrs",
+     "url": "https://www.vitalmx.com/comment/8513566",
+     "date": "2025-12"
+    }
+   ]
+  },
+  {
+   "id": "wear-yz4-08",
+   "domain": "maintenance",
+   "topic": "real-world silencer packing life",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Yamaha schedules new silencer packing when the exhaust gets louder or power drops (no hour figure). Exhaust makers recommend repacking an aftermarket silencer about every 10-15 hours of normal use (one says 10-12 hours when properly jetted), and much sooner in the desert. Riding type: normal motocross use.",
+   "values": {
+    "riding_type": "normal motocross use",
+    "real_world_hours": "10-15 h (aftermarket silencers)",
+    "maker_interval": "new silencer packing when the exhaust gets louder or power drops (no hour figure)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Pro Circuit FAQ",
+    "url": "https://www.procircuit.com/faqs",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "tuner",
+     "name": "FMF silencer repacking instructions",
+     "url": "https://4wheelonline.com/images/FMF/000980.pdf",
+     "date": "accessed 2026-11-07 (page undated)"
+    }
+   ]
+  },
+  {
+   "id": "wear-yz4-09",
+   "domain": "maintenance",
+   "topic": "real-world tire life",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F",
+     "YZ250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The maker gives no tire hour figure. Riders on 450s and 250Fs report a rear knobby lasting roughly 8-25 hours and a front roughly 15-30 hours on motocross tracks, with slower riders and trail use getting 40 hours or more; fronts last much longer than rears, and flipping a tire extends its life by about a quarter. Riding type: motocross race and practice vs trail.",
+   "values": {
+    "riding_type": {
+     "motocross race/practice": "rear about 8-25 h, front about 15-30 h",
+     "trail/slow": "40 h or more"
+    },
+    "maker_interval": "none published"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, Average number of hours you are getting on rear and front tires",
+    "url": "https://www.vitalmx.com/comment/4070500",
+    "date": "2021-10"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "magazine",
+     "name": "Motocross Action, 10 ways to save money on motocross tires",
+     "url": "https://motocrossactionmag.com/10-ways-to-save-money-on-motocross-tires-how-to-keep-your-sneakers-from-breaking-the-bank",
+     "date": "accessed 2026-11-07 (page undated)"
+    }
+   ]
+  },
+  {
+   "id": "wear-yz4-10",
+   "domain": "maintenance",
+   "topic": "owner and tester valve reports, 2023-on YZ450F",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Yamaha schedules a valve-clearance check every third race (about 7.5 hours) and a new piston, pin, clip and rings every fifth race (about 12.5 hours). A long-term test found the 2024 YZ450F valve clearances still in spec at 17 hours, and owners of 2023-2024 YZ450Fs report 35-70 hours of local A, B and C racing with no valve or top-end problems and pistons that looked fine at 35 hours. Riding type: amateur race (sand and hard-pack).",
+   "values": {
+    "riding_type": "amateur race",
+    "real_world_hours": "35-70 h without valve or top-end trouble",
+    "maker_interval": "a valve-clearance check every third race (about 7.5 hours); a new piston, pin, clip and rings every fifth race (about 12.5 hours)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Australasian Dirt Bike, Long term test 8: 2024 Yamaha YZ450F",
+    "url": "https://adbmag.com.au/editorial/long-term-test-8-yamaha-yz450f/",
+    "date": "2024-08-27"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "forum",
+     "name": "Vital MX forum, 2023-24 Yamaha YZ450 engine hours/longevity",
+     "url": "https://www.vitalmx.com/forums/moto-related/2023-24-yamaha-yz450-engine-hourslongevity",
+     "date": "2023-10 to 2025-08"
+    }
+   ]
+  },
+  {
+   "id": "wear-yz4-11",
+   "domain": "maintenance",
+   "topic": "owner-reported YZ250F valve and cam chain life",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Yamaha schedules a valve-clearance check every third race (about 7.5 hours). Owners report YZ250F valve clearances still in spec at about 67 hours and engines running about 100 hours without a valve adjustment, and a cam chain measured like new at about 50 hours; earlier-generation owners report two adjustments in over 300 hours. Riding type: vet and amateur race.",
+   "values": {
+    "riding_type": "vet / amateur race",
+    "real_world_hours": "valves in spec about 67-100 h; cam chain like new at about 50 h",
+    "maker_interval": "a valve-clearance check every third race (about 7.5 hours)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, 2024-current yz250f top end hrs",
+    "url": "https://www.vitalmx.com/comment/8513566",
+    "date": "2025-12"
+   },
+   "confidence": "low",
+   "notes": "The second source covers 2008-2014 YZ250Fs, an earlier generation.",
+   "also_sources": [
+    {
+     "type": "forum",
+     "name": "Vital MX forum, Which bike (2012-2019) has the most reliable top end",
+     "url": "https://vitalmx.com/forums/Moto-Related,20/Which-bike-2012-2019-has-the-most-reliable-top-end,1360011",
+     "date": "2019-05"
+    }
+   ]
+  },
+  {
+   "id": "wear-yz4-12",
+   "domain": "maintenance",
+   "topic": "owner-reported clutch life, YZ450F",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ450F"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Yamaha schedules clutch replacement as required after a check (no hour figure). Owners report YZ450F clutch plates replaced anywhere from about 25 hours to 80 hours, and one sand rider found the clutch measuring like new at 45 hours, so clutch life depends far more on how it is used than on hours. Riding type: amateur race.",
+   "values": {
+    "riding_type": "amateur race",
+    "real_world_hours": "about 25-80 h",
+    "maker_interval": "clutch replacement as required after a check (no hour figure)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, 2023-24 Yamaha YZ450 engine hours/longevity",
+    "url": "https://www.vitalmx.com/forums/moto-related/2023-24-yamaha-yz450-engine-hourslongevity",
+    "date": "2023-10 to 2025-08"
+   },
+   "confidence": "low",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "forum",
+     "name": "Vital MX forum, 60 Hours on a ktm 450 a big deal",
+     "url": "https://www.vitalmx.com/forums/Moto-Related,20/60-Hours-on-a-ktm-450-a-big-deal,1408608",
+     "date": "2022-11-16"
+    }
+   ]
+  },
+  {
+   "id": "wear-yz2-01",
+   "domain": "maintenance",
+   "topic": "real-world two-stroke top-end life (engine shop)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250",
+     "YZ125"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Yamaha schedules a new piston every fifth race (about 12.5 hours) and new rings every third race (about 7.5 hours). An engine shop publishes 10-15 hours for 50-125 cc two-stroke pistons and 15-25 hours for 175-250 cc. Riding type: motocross and enduro racing.",
+   "values": {
+    "riding_type": "race (motocross/enduro)",
+    "real_world_hours": {
+     "125 class": "10-15 h",
+     "250 class": "15-25 h"
+    },
+    "maker_interval": "a new piston every fifth race (about 12.5 hours) and new rings every third race (about 7.5 hours)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Moto-House MX engine shop, scheduled maintenance and rebuilds page",
+    "url": "https://www.motohousemx.com/pages/motocross-off-road-enduro-bikes-overhauls-rebuilds",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": ""
+  },
+  {
+   "id": "wear-yz2-02",
+   "domain": "maintenance",
+   "topic": "real-world two-stroke top-end life (testers, dealers, owners)",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250",
+     "YZ125"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Yamaha schedules a new piston every fifth race (about 12.5 hours) and new rings every third race (about 7.5 hours). Testers say a 125 piston and rings should be changed about every 15 hours for most riders and every 7 hours for a pro; a 250 two-stroke may go 40 hours for a local vet or novice but about 15 for a pro. A parts dealer gives about 25 hours in general, and owners report 125 rings at 10-15 hours and piston at 20-30, and 250 piston at 40-50. Riding type: pro race vs amateur race vs trail; lean jetting shortens it.",
+   "values": {
+    "riding_type": {
+     "pro race": "125 about 7 h; 250 about 15 h",
+     "amateur race": "125 about 15-30 h; 250 about 25-50 h"
+    },
+    "maker_interval": "a new piston every fifth race (about 12.5 hours) and new rings every third race (about 7.5 hours)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action, The tortured life of a piston",
+    "url": "https://motocrossactionmag.com/the-tortured-life-of-the-piston-in-your-trusty-but-rusty-bike/",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "dealer",
+     "name": "MXstore guide, When should I rebuild my dirt bike engine",
+     "url": "https://mxstore.com.au/blog/helpful-guides/when-should-i-rebuild-my-dirt-bike-engine",
+     "date": "2020-06-08"
+    },
+    {
+     "type": "forum",
+     "name": "Vital MX forum, Top End. How many hours",
+     "url": "https://www.vitalmx.com/forums/Moto-Related,20/Top-End-How-many-hours,1315430",
+     "date": "2017-03"
+    }
+   ]
+  },
+  {
+   "id": "wear-yz2-03",
+   "domain": "maintenance",
+   "topic": "real-world two-stroke bottom-end life",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250",
+     "YZ125"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Yamaha schedules crankshaft check and cleaning every fifth race (about 12.5 hours). A parts dealer says a two-stroke bottom end usually lasts about 70-80 hours, done with a top end; an engine shop says to inspect the crank at every top end and that small cranks (85 cc) rarely reach 200 hours. Riding type: amateur race and general use.",
+   "values": {
+    "riding_type": "amateur race / general",
+    "real_world_hours": "about 70-80 h",
+    "maker_interval": "crankshaft check and cleaning every fifth race (about 12.5 hours)"
+   },
+   "tier": "TUNER",
+   "source": {
+    "type": "tuner",
+    "name": "Moto-House MX engine shop, scheduled maintenance and rebuilds page",
+    "url": "https://www.motohousemx.com/pages/motocross-off-road-enduro-bikes-overhauls-rebuilds",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "dealer",
+     "name": "MXstore guide, When should I rebuild my dirt bike engine",
+     "url": "https://mxstore.com.au/blog/helpful-guides/when-should-i-rebuild-my-dirt-bike-engine",
+     "date": "2020-06-08"
+    }
+   ]
+  },
+  {
+   "id": "wear-yz2-04",
+   "domain": "maintenance",
+   "topic": "real-world fork and shock service",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250",
+     "YZ125"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Yamaha schedules fork oil every fifth race (about 12.5 hours). A suspension columnist services a hard-ridden practice bike every 10-15 hours, while a European suspension dealer quotes 20-40 hours depending on the bike; sand, hard riding and fast riders shorten it. Riding type: race and practice.",
+   "values": {
+    "riding_type": "race / practice",
+    "real_world_hours": {
+     "hard practice bike": "10-15 h",
+     "general": "20-40 h"
+    },
+    "maker_interval": "fork oil every fifth race (about 12.5 hours)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "magazine",
+    "name": "Motocross Action suspension column, when to service your fork and shock",
+    "url": "https://motocrossactionmag.com/bones-bacon-on-suspension-when-to-service-your-fork-shock/",
+    "date": "accessed 2026-11-07 (page undated)"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "dealer",
+     "name": "Maciag Offroad suspension parts page",
+     "url": "https://www.maciag-offroad.com/mx-parts-suspension/ksx/",
+     "date": "accessed 2026-11-07 (page undated)"
+    }
+   ]
+  },
+  {
+   "id": "wear-yz2-05",
+   "domain": "maintenance",
+   "topic": "how often riders clean the air filter",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250",
+     "YZ125"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Yamaha schedules cleaning the air filter every race (about 2.5 hours). Most racers clean or swap the filter every ride day; some run 2-3 rides in clean conditions or use a filter skin. Riding type: race and practice; dust shortens it to every moto.",
+   "values": {
+    "riding_type": "race / practice",
+    "real_world": "every ride day; 2-3 rides only in clean air",
+    "maker_interval": "cleaning the air filter every race (about 2.5 hours)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, Do you change your air filter if its barely dirty",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/Do-you-change-your-air-filter-if-its-barely-dirty,1403210",
+    "date": "2022-06"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "forum",
+     "name": "Vital MX forum, Top End. How many hours",
+     "url": "https://www.vitalmx.com/forums/Moto-Related,20/Top-End-How-many-hours,1315430",
+     "date": "2017-03"
+    }
+   ]
+  },
+  {
+   "id": "wear-yz2-06",
+   "domain": "maintenance",
+   "topic": "real-world chain and sprocket life",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250",
+     "YZ125"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Yamaha schedules chain replacement as required (no hour figure). Riders report a sealed chain lasting about 50-100 hours with care, and plain chains or hard motocross use about 20-50 hours; dealers advise replacing chain and sprockets together. Riding type: amateur motocross and trail.",
+   "values": {
+    "riding_type": "amateur motocross / trail",
+    "real_world_hours": {
+     "sealed chain": "about 50-100 h",
+     "plain chain or hard MX": "about 20-50 h"
+    },
+    "maker_interval": "chain replacement as required (no hour figure)"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, whats the deal on chain life",
+    "url": "https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/whats-the-deal-on-chain-life,1399835",
+    "date": "2022-02 to 2022-03"
+   },
+   "confidence": "low",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "dealer",
+     "name": "MXstore guide, When to replace your dirt bike chain",
+     "url": "https://mxstore.com.au/blog/helpful-guides/when-to-replace-your-dirt-bike-chain",
+     "date": "2020-06-08"
+    }
+   ]
+  },
+  {
+   "id": "wear-yz2-07",
+   "domain": "maintenance",
+   "topic": "real-world tire life",
+   "applies_to": {
+    "make": "Yamaha",
+    "models": [
+     "YZ250",
+     "YZ125"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "The maker gives no tire hour figure. Riders report a rear knobby lasting roughly 8-25 hours and a front roughly 15-30 hours on motocross tracks, and 40 hours or more for slower or trail riders; fronts last much longer than rears. Riding type: motocross race and practice vs trail.",
+   "values": {
+    "riding_type": {
+     "motocross race/practice": "rear about 8-25 h, front about 15-30 h",
+     "trail/slow": "40 h or more"
+    },
+    "maker_interval": "none published"
+   },
+   "tier": "COMMUNITY",
+   "source": {
+    "type": "forum",
+    "name": "Vital MX forum, Average number of hours you are getting on rear and front tires",
+    "url": "https://www.vitalmx.com/comment/4070500",
+    "date": "2021-10"
+   },
+   "confidence": "medium",
+   "notes": "",
+   "also_sources": [
+    {
+     "type": "magazine",
+     "name": "Motocross Action, 10 ways to save money on motocross tires",
+     "url": "https://motocrossactionmag.com/10-ways-to-save-money-on-motocross-tires-how-to-keep-your-sneakers-from-breaking-the-bank",
+     "date": "accessed 2026-11-07 (page undated)"
+    }
+   ]
+  }
+ ]
+}
