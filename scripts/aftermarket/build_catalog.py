@@ -345,10 +345,102 @@ if APP_OUT:
         # a year range in the part's own title ("... 2019-2022") limits it, even when a retailer lists it for later bikes
         m=re.search(r'\b(20[12]\d)\s*[-–]\s*(20[12]\d)\b',str(p.get('product') or ''))
         return bool(m) and not int(m.group(1))<=y<=int(m.group(2))
+    # Tires and tire inserts: only the sizes that fit this bike's rims (docs/research/tires/CATALOG_PLAN.md). Retailer tire
+    # pages list every size the store sells (10- to 21-inch); a rider on a 21/19 bike should see 80/100-21 and 110/90-19, not
+    # 60/100-10. Wheel sizes follow shared/tire-knowledge.ts wheelsFor() (keep the two in step); tests/catalog-tire-sizes.test.ts
+    # checks the built catalog against it.
+    def wheels_for(make,model):
+        m=f'{make} {model}'.strip()
+        if re.search(r'\b(50 SX|TC 50|MC 50|PW50|CRF50)\b',m,re.I): return ({'10','12'},{'10'})
+        if re.search(r'\b(65 SX|TC 65|MC 65|KX65|YZ65)\b',m,re.I): return ({'14'},{'12'})
+        if re.search(r'19/16|\bLW\b|big wheel|KX112|KX 112',m,re.I): return ({'19'},{'16'})
+        if re.search(r'17/14|small wheel',m,re.I): return ({'17'},{'14'})
+        if re.search(r'\b(85 SX|TC 85|MC 85|KX85|YZ85|RM85|CRF150R|CRF125F)\b',m,re.I): return ({'17','19'},{'14','16'})
+        if re.search(r'\b(XC-?W|XCF-?W|XC(?!-F)\b|TE \d|FE \d|FX \d|TX \d|EX \d|EC \d|WR\d|YZ\d{3}F?X\b|CRF\d{3}RX|KX\d{3}X\b|TF \d{3}-E)\b',m,re.I) or re.search(r'\bXC-F\b',m,re.I):
+            return ({'21'},{'18'})
+        return ({'21'},{'19'})
+    RIM_SIZES={'8','10','12','14','16','17','18','19','21'}
+    # 110/90-19, 120/80R19, 110/90R-19 64M, 120/70ZR-17; 2.50-10, 3.00-21; 19in, 19", 21-inch, "21 inch"; a range "18–21 inch"
+    SZ=re.compile(r'(?<![\d.])(?P<w>\d{2,3})/\d{2,3}[A-Z]{0,2}-?(?P<r>\d{1,2})(?!\d)|(?<![\d.])(?P<iw>\d\.\d{1,2})\s*-\s*(?P<ir>\d{1,2})(?!\d)'
+                  r'|(?<![\d./])(?P<lo>\d{2})\s*[–-]\s*(?P<hi>\d{2})\s*(?:in\b|"|-?inch)|(?<![\d./])(?P<rr>\d{2})\s*(?:in\b|"|-?inch)',re.I)
+    def sizes_in(text):
+        """[(matched text, rim, width in mm or None)] for each tire size in the text."""
+        out=[]
+        for m in SZ.finditer(str(text or '')):
+            if m.group('r'): out.append((m.group(0),str(int(m.group('r'))),float(m.group('w'))))
+            elif m.group('ir'): out.append((m.group(0),str(int(m.group('ir'))),float(m.group('iw'))*25.4))
+            elif m.group('lo'): out+=[(m.group(0),str(r),None) for r in range(int(m.group('lo')),int(m.group('hi'))+1)]
+            else: out.append((m.group(0),str(int(m.group('rr'))),None))
+        return [x for x in out if x[1] in RIM_SIZES]
+    def size_pos(rim,width):
+        """Front or rear for a size when the listing doesn't say: 21 and 17 are fronts, 18 and 16 rears; a narrow 19, 14 or 12
+        is a minibike front (70/100-19, 60/100-14, 60/100-12), a wide one a rear (110/90-19, 90/100-14, 80/100-12)."""
+        if rim in ('21','17'): return 'f'
+        if rim in ('18','16'): return 'r'
+        if width is not None and rim in ('19','14','12'): return 'f' if width<=(80 if rim=='19' else 70) else 'r'
+        return None
+    def size_fits(sz,pos,wheels):
+        _,rim,width=sz; pos=pos or size_pos(rim,width)
+        return rim in wheels[0] if pos=='f' else rim in wheels[1] if pos=='r' else rim in wheels[0]|wheels[1]
+    TIRE_RX=re.compile(r'\b(tires?|tyres?)\b(?![^(]*\))',re.I)
+    INSERT_RX=re.compile(r'\w*mousse\b|\btubliss\b|\b(?:inner|tire|tyre|tr-?\d+|(?:mx-?)?u?hd|heavy[- ]duty)\s+tubes?\b|^tubes?\b(?!.*\b(?:caps?|vent|throttle|insert)\b)|\btubes?\b.*\b\d{2,3}\/\d{2,3}-\d{2}\b|\b\d{2,3}\/\d{2,3}-\d{2}\b.*\btubes?\b',re.I)
+    WHEEL_SMALL=re.compile(r'\b(end ?caps?|springs?|stickers?|decals?|straps?|packing|repack|bolts?|clips?|braces?|brackets?|gaskets?|rings?|o-rings?|grommets?|hardware|replacement|wrap|plugs?|shields?|heat protection|nuts?|washers?|screws?|rebuild|seal kit|bushings?|bearings?|caps?\b(?! kit)|dust|stickers)\b'
+                           r'|\b(stands?|spoon|irons?|covers?|valves?|spacers?|balanc\w*|studs?|vent|twister)\b',re.I)
+    def sized_kind(s,name):
+        """'tire' or 'insert' when the picker types this row Tires or Mousse or tube (shared/part-types.ts typeOf for wheels)."""
+        if s!='wheels' or (WHEEL_SMALL.search(name) and not re.search(r'\b(system|full|complete)\b',name,re.I)): return None
+        if re.search(r'\b(wheels?|wheel set|rims?(?! ?locks?\b)|hubs?)\b',name,re.I): return None
+        return 'tire' if TIRE_RX.search(name) else 'insert' if INSERT_RX.search(name) else None
+    def raw_variants(p):
+        rv=p.get('variants') or []
+        if isinstance(rv,str):
+            rv=[x.strip() for x in re.split(r';\s*',re.split(r'\.\s+[A-Z]',rv)[0]) if x.strip()]
+        return [str(v) for v in rv if isinstance(v,str) and v.strip()]
+    def size_entries(p):
+        """Each option of a tire or insert row: (label, its part numbers, its sizes). "110/90-19: 45273515" is a size with its
+        part number; "M199: 110/90-19, 120/80-19" is a code with the sizes it fits, shown as "M199 (110/90-19, 120/80-19)"."""
+        vs=raw_variants(p); pr_=[str(x) for x in (p.get('part_numbers') or [])]; out=[]
+        for v in vs:
+            left,_,rest=v.partition(': ') if ': ' in v else (v,'','')
+            toks=[x for x in re.split(r'[\s,]+',rest) if x]
+            pnlike=bool(toks) and all(re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9.-]{3,}',t) and re.search(r'\d',t) for t in toks)
+            sz=sizes_in(left)+sizes_in(rest)
+            if re.fullmatch(r'\d{2}',left.strip()) and left.strip() in RIM_SIZES: sz.append((left.strip(),left.strip(),None))  # "21: ..."
+            if rest and not pnlike: out.append({'left':left.strip(),'rest':rest.strip(),'pns':[],'sz':sz})
+            else: out.append({'left':left.strip(),'rest':'','pns':toks,'sz':sz})
+        if out and all(not e['pns'] and not e['rest'] for e in out) and len(out)==len(pr_):
+            for e,pn in zip(out,pr_): e['pns']=[pn]
+        if not out:  # no options listed: the size in the name, if any ("Nitro Mousse 110/100-18")
+            sz=sizes_in(p.get('product'))
+            if sz: out=[{'left':', '.join(dict.fromkeys(x[0] for x in sz)),'rest':'','pns':pr_,'sz':sz}]
+        return out
+    def fit_sizes(p,kind,name,wheels):
+        """The options of a tire or insert row that fit these wheels as [label, part number] pairs, the part numbers they
+        carry, and whether the row has any size at all. None = the row lists sizes and none fit (not offered on this bike)."""
+        es=size_entries(p)
+        if not any(e['sz'] for e in es): return [[short(e['left']+(f" ({e['rest']})" if e['rest'] else ''),90),e['pns'][0][:30] if len(e['pns'])==1 else ''] for e in es],None,False
+        pos='f' if re.search(r'\bfront\b',name,re.I) and not re.search(r'\brear\b',name,re.I) else 'r' if re.search(r'\brear\b',name,re.I) and not re.search(r'\bfront\b',name,re.I) else None
+        vr=[];pns=[]
+        for e in es:
+            # full sizes (110/90-19, 2.50-10) decide when the option lists any; a bare rim ("19 inch", "21:") only otherwise,
+            # so a 19-inch tube for 100/90-19 and up is not offered for an 85's 70/100-19 front
+            real=[x for x in e['sz'] if x[2] is not None]
+            ok=[x for x in (real or e['sz']) if size_fits(x,pos,wheels)]
+            if not ok: continue
+            if e['rest']:
+                # the code with the sizes it takes; only the fitting ones when it spans several wheels ("Minis: ...")
+                shown=', '.join(dict.fromkeys(x[0] for x in ok)) if real and len(ok)<len(real) else e['rest']
+                code=e['left']+'-inch' if e['left'] in RIM_SIZES else e['left']  # "21: 80/100, 90/90 ..." reads "21-inch (...)"
+                lab=f"{code} ({shown})" if code else shown
+            else: lab=e['left']
+            vr.append([short(lab,90),e['pns'][0][:30] if len(e['pns'])==1 else '']); pns+=e['pns']
+        if not vr: return None,None,True
+        toks=set(pns); listed=[x for x in (p.get('part_numbers') or []) if toks & set(re.split(r'[\s,]+',str(x)))]
+        return vr,(sorted(listed) if toks else None),True
     dropped=collections.Counter()
     for (mk,model,y),ids in sorted(bike.items()):
-        lst=set()
-        for i in ids:
+        lst=set(); wheels=wheels_for(mk,model)
+        for i in sorted(ids):
             p=byid[i]; s=system_of(p)
             if not s: continue
             if other_maker(p): dropped['other maker']+=1; continue
@@ -356,9 +448,19 @@ if APP_OUT:
             if hidden_on(i,model): dropped['hidden listing']+=1; continue
             src=src_of(p); b=bi(brand_name(p.get('brand')) if src=='research' else p.get('brand')); pns=sorted(p.get('part_numbers') or [])
             name=clean(brands[b],p.get('product'))
+            kind=sized_kind(s,name); svr=None
+            if kind:
+                svr,kept,has_size=fit_sizes(p,kind,str(p.get('product') or name),wheels)
+                if svr is None: dropped[f'{kind} size not for these rims']+=1; continue
+                if not has_size: dropped[f'{kind} with no size listed (kept)']+=1
+                if kept is not None: pns=kept
             key=(b,tuple(pns)) if pns else (b,re.sub(r'[^a-z0-9]','',name.lower()))
+            if kind: key=key+tuple(tuple(v) for v in svr)  # the same listing offers other sizes on other wheels
             if key not in ikey:
                 ikey[key]=len(items); items.append({'b':b,'n':name,'s':SYSTEMS.index(s),'p':' '.join(pns)[:48],'u':[],'r':None})
+                if kind:
+                    items[-1]['_sz']=1
+                    if svr: items[-1]['vr']=svr[:30]
             it=items[ikey[key]]
             if src=='research':
                 it['r']=p['id']; it['n']=name; it['conf']=p.get('confidence')
@@ -411,7 +513,7 @@ if APP_OUT:
     # The same part listed twice (same brand, name and part numbers once trimmed) shows once; sellers are combined.
     canon={};alias={}
     for i,it in enumerate(items):
-        k=(it['b'],re.sub(r'[^a-z0-9]','',it['n'].lower()),it['p'])
+        k=(it['b'],re.sub(r'[^a-z0-9]','',it['n'].lower()),it['p'])+((json.dumps(it.get('vr')),) if it.get('_sz') else ())
         if k in canon:
             j=canon[k];alias[i]=j;keep=items[j]
             for u in it['u']:

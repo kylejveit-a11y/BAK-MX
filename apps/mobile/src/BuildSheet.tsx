@@ -3,7 +3,7 @@ import {Modal,View,Text,ScrollView,TextInput,ActivityIndicator,KeyboardAvoidingV
 import {Pressable} from './Touch';
 import type {Bike} from '../../../shared/types';
 import {partSystems,readInstalled,writeInstalled,MAX_PARTS,type InstalledPart,type PartSystem} from '../../../shared/installed-parts';
-import {decodeFamily,familyOf,NOTE_HINT,WORK,providersFor,cleanName,canonBrand,pickerChoices,typesWithCounts,choicesOfType,sizesFor,chosenPartNumber,colorsFor,type CatalogPart,type FamilyFile,type Work,type Choice} from '../../../shared/parts-picker';
+import {decodeFamily,familyOf,NOTE_HINT,WORK,providersFor,cleanName,canonBrand,pickerChoices,typesWithCounts,choicesOfType,sizesFor,chosenPartNumber,colorsFor,optionsFor,type CatalogPart,type FamilyFile,type Work,type Choice} from '../../../shared/parts-picker';
 import {checkBuild,typeOfPart,slotOf,type BuildCheck} from '../../../shared/build-check';
 import {fuelSystem,fuelSystemLabel} from '../../../shared/fuel-system';
 import {api,apiOrigin} from './api';
@@ -278,9 +278,9 @@ function Options({type,system,choices,have,onAdd,onCustom,pendingRef}:{type:stri
     {stage==='models'&&<>
      <Text style={st.sub}>{models.length} {models.length===1?'model':'models'}{brand?` from ${brand}`:''} · pick one or more</Text>
      {models.length>8&&<View style={st.searchBox}><Icon name="search" size={16} color="#9ea6b3"/><TextInput value={query} onChangeText={setQuery} placeholder="Search models" placeholderTextColor="#7d8593" autoCorrect={false} accessibilityLabel="Search models" style={{flex:1,color:colors.text,fontSize:16,paddingVertical:10}}/></View>}
-     <Group>{shown.map(c=>{const k=id(c),s=sel[k],on=!!s,fitted=haveKeys.has(k),opts=c.opts&&c.opts.length>1?c.opts:null,cols=opts?[]:colorsFor(c,type??c.type),where=posOf(c.name);
+     <Group>{shown.map(c=>{const k=id(c),s=sel[k],on=!!s,fitted=haveKeys.has(k),oc=optionsFor(c,type??c.type),opts=oc?.options??null,cols=opts?[]:colorsFor(c,type??c.type),where=posOf(c.name);
       return <View key={k} style={st.option}>
-       <Pressable accessibilityRole="checkbox" accessibilityState={{checked:on}} accessibilityLabel={`${c.brand} ${c.name}`} onPress={()=>{hSelect();const n={...sel};if(on)delete n[k];else n[k]={...(cols.length===1?{color:cols[0].name}:{})};setSel(n);}} style={({pressed})=>[{flexDirection:'row',alignItems:'center',gap:12},pressed&&{opacity:0.6}]}>
+       <Pressable accessibilityRole="checkbox" accessibilityState={{checked:on}} accessibilityLabel={`${c.brand} ${c.name}`} onPress={()=>{hSelect();const n={...sel};if(on)delete n[k];else n[k]={...(cols.length===1?{color:cols[0].name}:{}),...(opts?.length===1?{opt:opts[0].label}:{})};setSel(n);}} style={({pressed})=>[{flexDirection:'row',alignItems:'center',gap:12},pressed&&{opacity:0.6}]}>
         <Icon name={on?'checkboxOn':'checkbox'} size={22} color={on?colors.accent:'#7d8593'}/>
         <View style={{flex:1,gap:2}}>
          {direct&&<Text style={st.brand}>{c.brand.toUpperCase()}</Text>}
@@ -290,7 +290,7 @@ function Options({type,system,choices,have,onAdd,onCustom,pendingRef}:{type:stri
         <Pressable accessibilityRole="button" accessibilityLabel="Details" hitSlop={10} onPress={()=>setInfo(info===k?null:k)}><Icon name={info===k?'chevronUp':'chevronDown'} size={16} color="#9ea6b3"/></Pressable>
        </Pressable>
        {on&&sizes&&<Chips label={`${sizes.label}${s.size?'':' (pick one)'}`} options={sizes.options} value={s.size} onPick={v=>setSel({...sel,[k]:{...s,size:v}})}/>}
-       {on&&opts&&<Chips label="Which one" options={opts.map(x=>x.label)} value={s.opt} onPick={v=>setSel({...sel,[k]:{...s,opt:v}})}/>}
+       {on&&opts&&<Chips label={oc!.label} options={opts.map(x=>x.label)} value={s.opt} onPick={v=>setSel({...sel,[k]:{...s,opt:v}})}/>}
        {on&&cols.length>1&&<Chips label="Color" options={cols.map(x=>x.name)} value={s.color} onPick={v=>setSel({...sel,[k]:{...s,color:v}})}/>}
        {info===k&&<View style={{gap:8,paddingLeft:34}}>
         {!!c.what&&<Note label="WHAT IT CHANGES" text={c.what}/>}

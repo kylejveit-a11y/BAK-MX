@@ -98,6 +98,15 @@ export function sizesFor(type:string|null):{label:string;options:string[]}|null{
  if(type==='Front sprocket')return {label:'Teeth',options:['11T','12T','13T','14T','15T']};
  return null;
 }
+/** Tires and tire inserts list the sizes that fit the bike (the catalog keeps only those); the size is always shown and saved,
+ *  even when only one fits. */
+const SIZE_OPTION_TYPES=new Set(['Tires','Mousse or tube']);
+/** The options to pick from on a row, with the chip label, or null when there is nothing to choose. */
+export function optionsFor(c:Pick<Choice,'opts'|'type'>,type?:string|null):{label:string;options:PartOption[]}|null{
+ const o=c.opts??[],sized=SIZE_OPTION_TYPES.has((type??c.type)??'');
+ if(o.length>1||(sized&&o.length===1))return {label:sized?'Size':'Which one',options:o};
+ return null;
+}
 /** The part number for a chosen size, when exactly one of the listing's numbers carries that size; otherwise none. */
 export function partNumberFor(pns:string[],size:string){const n=size.replace(/\D/g,'');if(!n)return '';const hits=pns.filter(p=>p.split(/[^0-9]+/).includes(n));return hits.length===1?hits[0]:'';}
 /** The part number to store for a pick: the one for the chosen size, the only one listed, or none when the listing carries
