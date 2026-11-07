@@ -22,6 +22,7 @@ import type {Bike} from '../../../shared/types';
 import {COMMUNITY_RULES,EVENT_TYPE_LABELS,POST_CATEGORY_LABELS,SETUP_FIELDS,SETUP_RESULT_LABELS,riderName,setupDifferences,type Part,type PartAssembly,type PartCatalog,type Post,type PostCategory,type PostComment,type ListedRider,type Profile,type RideEvent,type RiderRef,type SetupLog,type SetupResult,type ThreadMessage,type ThreadSummary} from '../../../shared/rider-types';
 import {setupLogsWithPending} from './HomeBlocks';
 import {api,apiQueued} from './api';
+import {enablePushAfterReminder} from './push';
 import {TrackReportCard} from './TrackReport';
 import {adjusters,beforeYouTune,symptomGuides} from '../../../shared/setup-knowledge';
 import {BlueFace,blueLift,onBlueText,Avatar,BackLink,Button,Card,CheckRow,Copy,Eyebrow,Field,Icon,IconAction,type IconName,Notice,Page,SectionHead,Tile,TileGrid,colors} from './ui';
@@ -305,7 +306,9 @@ export function EventsScreen({onMessage}:{onMessage:(r:RiderRef)=>void}){
    success();setTitle('');setPlace('');setDetails('');setEnds('');setCreating(false);setScope('upcoming');await load();
   }catch(e){setFormNotice(errorText(e));}finally{setBusy(false);}
  }
- async function save(ev:RideEvent,status:'going'|'interested',pub?:boolean){try{if(ev.my_rsvp===status&&pub===undefined)await api('/api/rsvps?event_id='+ev.id,'DELETE');else await api('/api/rsvps','PUT',{event_id:ev.id,status,...(pub===undefined?{}:{public:pub})});await load();}catch(e){setNotice(errorText(e));}}
+ async function save(ev:RideEvent,status:'going'|'interested',pub?:boolean){try{const removing=ev.my_rsvp===status&&pub===undefined;if(removing)await api('/api/rsvps?event_id='+ev.id,'DELETE');else await api('/api/rsvps','PUT',{event_id:ev.id,status,...(pub===undefined?{}:{public:pub})});
+  // Going or interested turns on this event's reminders: the moment to ask for notifications (never at first launch).
+  if(!removing&&!ev.my_rsvp)void enablePushAfterReminder();await load();}catch(e){setNotice(errorText(e));}}
  /** Saying "going" confirms first and asks whether to show the rider on the going list; the total counts them either way. */
  function rsvp(ev:RideEvent,status:'going'|'interested'){
   if(status==='going'&&ev.my_rsvp!=='going')Alert.alert('You’re going to '+ev.title,'Show your profile on the going list? You’re counted in the total either way.',[{text:'Show me',onPress:()=>void save(ev,'going',true)},{text:'Keep me private',onPress:()=>void save(ev,'going',false)},{text:'Cancel',style:'cancel'}]);

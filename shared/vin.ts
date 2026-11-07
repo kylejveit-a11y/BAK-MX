@@ -3,6 +3,8 @@
 const YEAR:Record<string,number>={L:2020,M:2021,N:2022,P:2023,R:2024,S:2025,T:2026,V:2027,W:2028,X:2029,Y:2030,
  A:2010,B:2011,C:2012,D:2013,E:2014,F:2015,G:2016,H:2017,J:2018,K:2019};
 const MAKER:[RegExp,string][]=[[/^JYA/,'Yamaha'],[/^JH2/,'Honda'],[/^JK[AB]/,'Kawasaki'],[/^JS1/,'Suzuki'],[/^SMT/,'Triumph']];
+// KTM AG's code covers KTM, Husqvarna and GasGas; kept out of MAKER so a saved Husqvarna or GasGas is never flagged as "a KTM".
+const KTM_GROUP=/^VBK/;
 const VALUES:Record<string,number>={A:1,B:2,C:3,D:4,E:5,F:6,G:7,H:8,J:1,K:2,L:3,M:4,N:5,P:7,R:9,S:2,T:3,U:4,V:5,W:6,X:7,Y:8,Z:9};
 const WEIGHTS=[8,7,6,5,4,3,2,10,0,9,8,7,6,5,4,3,2];
 
@@ -22,4 +24,27 @@ export function checkVin(raw:string,bike:{manufacturer:string;model_year:number}
  // US-market Japanese and North American VINs use the check character; European-built bikes may not, so they are not checked.
  if(/^[J1-5]/.test(vin)&&!checkDigitOk(vin))return {level:'check',text:'The check character in this VIN doesn’t add up. It may have a typo.'};
  return {level:'ok',text:year?`VIN matches: ${year}${maker?' '+maker:''} model year.`:'VIN saved.'};
+}
+
+/** What the characters of a 17-character VIN say on their own, for the used-bike checklist. Year letters repeat every 30
+ *  years (F is 1985 and 2015), so the year assumes a modern bike. The check character is only tested where it is known to be
+ *  used: US-market Japanese and North American VINs, and KTM AG VINs from model year 2026 (KTM's 2025 US filing). */
+export type VinRead={vin:string;valid_format:boolean;problem?:string;maker?:string;model_year?:number;check_digit?:'adds up'|'does not add up'|'not checked for this maker';ktm_engine_type?:string;ktm_usage?:string;ktm_plant?:string};
+export function readVin(raw:string):VinRead{
+ const vin=cleanVin(raw);
+ if(vin.length!==17)return {vin,valid_format:false,problem:`A VIN has 17 characters; this one has ${vin.length}.`};
+ if(/[IOQ]/.test(vin))return {vin,valid_format:false,problem:'VINs never use the letters I, O or Q; check for a 1 or 0.'};
+ const out:VinRead={vin,valid_format:true};
+ const maker=MAKER.find(([re])=>re.test(vin))?.[1]??(KTM_GROUP.test(vin)?'KTM AG (KTM, Husqvarna or GasGas)':undefined);
+ if(maker)out.maker=maker;
+ const year=YEAR[vin[9]];if(year)out.model_year=year;
+ const checked=/^[J1-5]/.test(vin)||(KTM_GROUP.test(vin)&&(year??0)>=2026);
+ out.check_digit=checked?(checkDigitOk(vin)?'adds up':'does not add up'):'not checked for this maker';
+ // Position meanings from KTM's September 2025 US filing; earlier filings were not read, so older VINs are not decoded further.
+ if(KTM_GROUP.test(vin)&&(year??0)>=2026){
+  out.ktm_engine_type={'2':'two-stroke','4':'four-stroke','0':'electric'}[vin[6]]??`unknown code ${vin[6]}`;
+  out.ktm_usage={'3':'closed-course competition','0':'other use','E':'electric'}[vin[7]]??`unknown code ${vin[7]}`;
+  out.ktm_plant=vin[10]==='M'?'Mattighofen, Austria':`code ${vin[10]}`;
+ }
+ return out;
 }

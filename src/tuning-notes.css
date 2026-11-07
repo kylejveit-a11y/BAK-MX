@@ -1,0 +1,29 @@
+/* Tuning notes and photo checks (TuningNotes.tsx) */
+.tn-bar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:12px}
+.tn-action{display:inline-flex;align-items:center;gap:6px;height:32px;padding:0 12px;border-radius:16px;border:1px solid var(--line);background:rgba(255,255,255,.03);color:#c9cfd9;font-size:13.5px;font-weight:600;cursor:pointer}
+.tn-action:hover:not(:disabled){border-color:#4a5262;color:#eef1f6}
+.tn-action:disabled{opacity:.5;cursor:default}
+.tn-action.done{border-color:transparent;color:#bfe3c8;cursor:default}
+.tn-action.quiet{border-color:transparent}
+.tn-action.danger{border-color:#c0504d;color:#ffb4ae}
+.tn-fallback{display:inline-flex;flex-wrap:wrap;gap:6px}
+.tn-status{font-size:13px;color:#adb5c1}
+.tn-error{font-size:13px;color:#ffb4ae}
+.tn-panel .tn-note{border-top:1px solid var(--line)}
+.tn-note-head{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;padding:14px 2px;text-align:left;color:#eef1f6;background:none;border:0;cursor:pointer}
+.tn-note-head span{display:flex;flex-direction:column;gap:3px;min-width:0}
+.tn-note-head b{font-size:16px;font-weight:600;overflow-wrap:anywhere}
+.tn-note-head small{font-size:13px;color:#adb5c1}
+.tn-note-body{display:flex;flex-direction:column;gap:8px;padding:0 2px 16px}
+.tn-question{margin:0 0 6px;white-space:pre-wrap;line-height:1.5}
+.tn-table table{width:100%}
+.tn-rename{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:6px}
+.tn-rename input{flex:1;min-width:180px}
+.tn-checks{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:10px 0 0}
+.tn-checks-label{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:#adb5c1;margin-right:4px}
+.tn-check-prompt{border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0 0}
+.tn-check-prompt p{margin:0;line-height:1.5}
+.msg-photos{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 6px}
+.msg-photos img{width:72px;height:72px;object-fit:cover;border-radius:8px}
+.conversation>.tn-checks,.conversation>.tn-check-prompt{margin-left:22px;margin-right:22px}
+@media (max-width:760px){.conversation>.tn-checks,.conversation>.tn-check-prompt{margin-left:14px;margin-right:14px}}

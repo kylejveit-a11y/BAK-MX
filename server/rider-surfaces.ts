@@ -12,6 +12,7 @@ import {objectionable} from './content-rules.ts';
 import {exactBikeScope} from '../shared/bike-identity.ts';
 import {trackDirectory} from './tracks.ts';
 import {buildServicePlan} from '../shared/service-plan.ts';
+import {inBackground,notifyDirectMessage,notifyComment} from './notifications.ts';
 import type {Bike} from '../shared/types.ts';
 
 /** Profile, community, events, messages, moderation, feedback, setup log and parts catalog.
@@ -165,6 +166,8 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
    const data=commentSchema.parse(await readJson(req));screen(data.body);await requireProfile(db,owner);
    const result=await db.from('post_comments').insert({...data,user_id:owner}).select('id,post_id,user_id,body,created_at').single();
    if(result.error)saveFailed(result.error,'This comment already exists.');
+   // The post's owner hears about it (unless it is their own comment, they turned replies off, or either blocked the other).
+   const saved=result.data as Row;inBackground(()=>notifyComment(owner,{id:saved.id,post_id:saved.post_id,body:saved.body}));
    return json(result.data,201);
   }
   if(method==='DELETE'){
@@ -270,6 +273,7 @@ export async function handleRiderSurfaces(req:Request,url:URL,path:string,method
    await requireProfile(db,owner);
    const result=await db.from('direct_messages').insert({...data,sender_id:owner}).select('id,body,created_at').single();
    if(result.error)saveFailed(result.error,'This message already exists.');
+   const sent=result.data as Row;inBackground(()=>notifyDirectMessage(owner,data.recipient_id,{id:sent.id,body:sent.body}));
    return json({...result.data,mine:true},201);
   }
  }

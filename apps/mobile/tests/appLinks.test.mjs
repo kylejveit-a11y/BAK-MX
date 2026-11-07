@@ -20,3 +20,13 @@ test('pending links expire and ignore junk',()=>{
   assert.equal(pendingFrom('{bad',now),null);
   assert.equal(pendingFrom(42,now),null);
 });
+
+test('notification links open messages, posts, events and the service log',()=>{
+  const rider='00000000-0000-4000-8000-0000000000b2',bike='00000000-0000-4000-8000-0000000000d4';
+  assert.deepEqual(parseAppLink(`bakmx://messages?with=${rider}&handle=rider_b&name=Bee`),{screen:'messages',with:rider,handle:'rider_b',name:'Bee'});
+  assert.deepEqual(parseAppLink('bakmx://messages?with=nope'),{screen:'messages',with:null,handle:'',name:''});
+  assert.deepEqual(parseAppLink(`bakmx://community?post=${rider}`),{screen:'community',post:rider});
+  assert.deepEqual(parseAppLink('bakmx://events'),{screen:'events',event:null});
+  assert.deepEqual(parseAppLink(`bakmx://service?bike=${bike}`),{screen:'service',bike});
+  assert.deepEqual(parseAppLink('bakmx://service?bike=x'),{screen:'service'});
+});

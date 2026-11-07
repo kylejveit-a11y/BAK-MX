@@ -77,7 +77,7 @@ function MaintenanceForBike({bike}:{bike:Bike}){
     <div className="rx-grid-2">
      <label className="field"><span>Next due at hours</span><input inputMode="decimal" type="number" min="0" step="0.1" value={draft.due} placeholder="e.g. 45" disabled={busy} onChange={e=>set('due')(e.target.value)}/></label>
      <label className="field"><span>Why that interval (optional)</span><input maxLength={1000} value={draft.source} placeholder="Your own rule, race schedule, dealer advice…" disabled={busy} onChange={e=>set('source')(e.target.value)}/></label>
-    </div></div></details>
+    </div><p className="rx-note">BAK lets you know on your phone and under the bell when it’s within 3 hours or overdue. Turn it off in Account › Notifications.</p></div></details>
    <div className="button-row"><button type="submit" className="button" disabled={busy}>{busy?'Saving…':'Save service'}</button></div>
   </form></section>
   :<button className="rx-start" onClick={()=>setAdding(true)}><span className="rx-start-icon"><Droplets size={20}/></span><span><b>Log service</b><small>What you did and at how many hours</small></span><ChevronRight size={18}/></button>}

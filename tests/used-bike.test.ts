@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,readdirSync} from 'node:fs';
+import {readVin} from '../shared/vin.ts';
 import {usedBike,isUsedBikeQuestion,bikesIn,USED_BIKE_VERSION,USED_BIKE_MAX_CHARS,USED_SOURCES,inspection,hours,vin,paperwork,redFlags,negotiation,testRide,platformChecks} from '../shared/used-bike.ts';
 
 const USED_QUESTIONS=[
@@ -10,6 +11,7 @@ const USED_QUESTIONS=[
  'buying a used RM-Z450 2021','what is my 2020 FC 450 worth','he only has a bill of sale, no MSO','the hour meter says 40, can it be reset?',
  'going to look at a 2022 TC 250 tomorrow','is the frame number supposed to match the engine number?','I bought a used 2023 MC 450F, what should I check first?',
  'pre-purchase inspection on a 2020 CRF250R','how do I negotiate the price on a used 2024 KX250','decode this VIN: what does the 10th character mean',
+ 'JYACG31C7RA012345 is that a 2024?','buying a used 2023 RM-Z250 in California, what paperwork do I need?',
 ];
 const UNRELATED=[
  'should I buy a new chain and sprockets','how do I adjust sag','what oil for my yz250f','rear kicks on braking bumps','my fork seals are leaking',
@@ -38,7 +40,9 @@ test('the right parts are chosen for the question',()=>{
  assert.deepEqual(v.vin.by_make.map((m:any)=>m.make),['Honda']);
  assert.equal(v.vin.year_codes.P,2023);
  const p:any=usedBike('seller has no title for a 2022 KX450, is that a red flag?');
- assert.ok(p.paperwork&&p.red_flags);assert.ok(p.paperwork.florida.length&&p.paperwork.stolen_checks.length);
+ assert.ok(p.paperwork&&p.red_flags);assert.ok(p.paperwork.florida_example.length&&p.paperwork.california_example.length&&p.paperwork.stolen_checks.length);
+ const ca:any=usedBike('buying a used 2023 RM-Z250 in California, what paperwork do I need?');
+ assert.ok(ca.paperwork.california_example&&!ca.paperwork.florida_example,'only the state the rider named');
  const h:any=usedBike('how do I tell real hours on a used KTM 450 SX-F');
  assert.ok(h.hours.meters.length&&h.hours.estimate.length);
  const n:any=usedBike('what is a fair offer on a 2019 YZ250F that needs a top end');
@@ -128,4 +132,33 @@ test('the data covers the ground buyers ask about',()=>{
  for(const m of ['KTM','Honda','Yamaha','Kawasaki','Suzuki','Triumph'])assert.ok(vin.by_make.some(b=>b.make.includes(m)),m);
  for(const m of ['YZ450F','YZ250F','CRF450R','CRF250R','KX450','KX250','RM-Z450','450 SX-F','FC 450','TF 250-X'])assert.ok(platformChecks.some(p=>p.models.includes(m)),m);
  assert.deepEqual(Object.keys(vin.year_codes).length>=13,true);
+});
+
+test('a VIN typed in the message is read character by character',()=>{
+ const y=readVin('JYACG31C7RA012345');assert.equal(y.maker,'Yamaha');assert.equal(y.model_year,2024);assert.equal(y.check_digit,'adds up');
+ assert.equal(readVin('JYACG31C8RA012345').check_digit,'does not add up');
+ assert.equal(readVin('JYACG31C7RA01234').valid_format,false);
+ assert.equal(readVin('JYACG31C7RA0I2345').valid_format,false);
+ const k=readVin('VBKSXJ436TM123456');assert.match(k.maker!,/KTM/);assert.equal(k.model_year,2026);assert.equal(k.check_digit,'adds up');assert.equal(k.ktm_engine_type,'four-stroke');assert.equal(k.ktm_usage,'closed-course competition');
+ const old=readVin('VBKSXJ436NM123456');assert.equal(old.check_digit,'not checked for this maker');assert.equal(old.ktm_engine_type,undefined,'pre-2026 KTM positions are not decoded');
+ const r:any=usedBike('JYACG31C7RA012345 is that a 2024?');
+ assert.ok(r.topics.includes('vin'));assert.equal(r.vin_read.model_year,2024);assert.deepEqual(r.vin.by_make.map((m:any)=>m.make),['Yamaha']);
+ // A VIN from an earlier message is not repeated back.
+ const f:any=usedBike('and the title?',['JYACG31C7RA012345 is that a 2024? buying it used']);
+ assert.ok(f);assert.equal(f.vin_read,undefined);
+});
+
+test('maker VIN facts are fixed where the review found errors',()=>{
+ const honda=vin.by_make.find(m=>m.make==='Honda')!;assert.match(honda.engine_number,/left crankcase of the CRF250R and the right crankcase of the CRF450R/);
+ const ktm=vin.by_make.find(m=>m.make.startsWith('KTM'))!;assert.match(ktm.engine_number,/above or below/);
+ const suz=vin.by_make.find(m=>m.make==='Suzuki')!;assert.equal(suz.confidence,'older maker document');assert.ok(suz.src.length);
+ for(const m of vin.by_make)assert.ok(m.src.includes('vpic-wmi'),`${m.make} maker code is sourced`);
+});
+
+test('a KTM-group model right after a year is still found',()=>{
+ assert.deepEqual(bikesIn('looking at a used 2026 450 SX-F').map(b=>[b.model,b.year]),[['450 SX-F',2026]]);
+ assert.deepEqual(bikesIn('a 2023 fc450').map(b=>b.model),['FC 450']);
+ assert.deepEqual(bikesIn('my 1250sx'),[]);
+ const r:any=usedBike('looking at a used 2026 450 SX-F what should I check');
+ assert.ok(r.platform_checks.some((p:any)=>p.checks.some((c:string)=>/k45-108/.test(c))),'2026-2027 450 SX-F harness check');
 });

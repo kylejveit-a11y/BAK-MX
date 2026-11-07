@@ -37,6 +37,7 @@
   }
  ],
  "sources": [
+  "https://library.ymcapps.net/library/om/contents/pdf/10/B0V-28199-11_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/B0V-2819U-10_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/B1B-2819U-10_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/B1B-2819U-11_02.pdf",
@@ -49,6 +50,7 @@
   "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-28199-11_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-12_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/B7B-2819U-13_02.pdf",
+  "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-11_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-12_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/BAJ-2819U-13_02.pdf",
@@ -59,6 +61,7 @@
   "https://library.ymcapps.net/library/om/contents/pdf/10/BEX-2819U-10_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/BEX-2819U-11_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/BEX-2819U-12_02.pdf",
+  "https://library.ymcapps.net/library/om/contents/pdf/10/BF1-2819U-10_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/BF1-2819U-11_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-10_02.pdf",
   "https://library.ymcapps.net/library/om/contents/pdf/10/BHR-2819U-11_02.pdf",
@@ -1930,6 +1933,104 @@
    },
    "confidence": "high",
    "notes": ""
+  },
+  {
+   "id": "rfit-y-060",
+   "domain": "chassis",
+   "topic": "2020 YZ125/YZ125X: rider-fit adjustments (owner's service manual)",
+   "applies_to": {
+    "models": [
+     "YZ125",
+     "YZ125X"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Yamaha's 2020 YZ125/YZ125X owner's service manual: front brake lever position (lever-to-grip distance in the figure) is 100 mm as standard, adjustable over 86-105 mm with the adjusting bolt and locknut, with no free play at the lever end; the cable clutch needs 7.0-12.0 mm free play at the lever; brake pedal height is set with an adjusting nut and locknut, standard height 0.0 mm above the top of the footrest (level with the peg); installing the lower handlebar holders the other way round changes the bar's fore-aft offset.",
+   "values": {
+    "front_brake_lever_position_mm": 100,
+    "front_brake_lever_range_mm": "86-105",
+    "clutch": "cable",
+    "clutch_lever_free_play_mm": "7.0-12.0",
+    "brake_pedal_height_adjuster": true,
+    "bar_holder_reversible": true,
+    "brake_pedal_height_above_footrest_mm": 0.0
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2020 YZ125/YZ125X Owner's Service Manual (B0V-28199-11)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B0V-28199-11_02.pdf",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "Yamaha manuals do not print the size of the holder offset."
+  },
+  {
+   "id": "rfit-y-061",
+   "domain": "chassis",
+   "topic": "2020 YZ250/YZ250X: rider-fit adjustments (owner's service manual)",
+   "applies_to": {
+    "models": [
+     "YZ250",
+     "YZ250X"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Yamaha's 2020 YZ250/YZ250X owner's service manual: front brake lever position (lever-to-grip distance in the figure) is 100 mm as standard, adjustable over 86-105 mm with the adjusting bolt and locknut, with no free play at the lever end; the cable clutch needs 7.0-12.0 mm free play at the lever; brake pedal height is set with an adjusting nut and locknut, standard height 0.0 mm above the top of the footrest (level with the peg); installing the lower handlebar holders the other way round changes the bar's fore-aft offset.",
+   "values": {
+    "front_brake_lever_position_mm": 100,
+    "front_brake_lever_range_mm": "86-105",
+    "clutch": "cable",
+    "clutch_lever_free_play_mm": "7.0-12.0",
+    "brake_pedal_height_adjuster": true,
+    "bar_holder_reversible": true,
+    "brake_pedal_height_above_footrest_mm": 0.0
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2020 YZ250/YZ250X Owner's Service Manual (B9U-28199-11)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/B9U-28199-11_02.pdf",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "Yamaha manuals do not print the size of the holder offset."
+  },
+  {
+   "id": "rfit-y-062",
+   "domain": "chassis",
+   "topic": "2021 YZ250/YZ250X: rider-fit adjustments (owner's service manual)",
+   "applies_to": {
+    "models": [
+     "YZ250",
+     "YZ250X"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Yamaha's 2021 YZ250/YZ250X owner's service manual: front brake lever position (lever-to-grip distance in the figure) is 100 mm as standard, adjustable over 86-105 mm with the adjusting bolt and locknut, with no free play at the lever end; the cable clutch needs 7.0-12.0 mm free play at the lever; brake pedal height is set with an adjusting nut and locknut, keeping the adjusting bolt end at least 2.0 mm from the pedal; installing the lower handlebar holders the other way round changes the bar's fore-aft offset.",
+   "values": {
+    "front_brake_lever_position_mm": 100,
+    "front_brake_lever_range_mm": "86-105",
+    "clutch": "cable",
+    "clutch_lever_free_play_mm": "7.0-12.0",
+    "brake_pedal_height_adjuster": true,
+    "bar_holder_reversible": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Yamaha 2021 YZ250/YZ250X Owner's Service Manual (BF1-2819U-10)",
+    "url": "https://library.ymcapps.net/library/om/contents/pdf/10/BF1-2819U-10_02.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Yamaha manuals do not print the size of the holder offset."
   }
  ]
 }

@@ -11,6 +11,7 @@
    "450 SX-F",
    "50 SX",
    "65 SX",
+   "CRF150R",
    "CRF250R",
    "CRF250RX",
    "CRF450R",
@@ -46,11 +47,6 @@
  "conflicts": [],
  "not_found": [
   {
-   "item": "Honda 2023-2027 CRF handbooks (lever, pedal, bar holder figures)",
-   "searched": "Honda US documentum CDN",
-   "result": "access denied to automated download; not worked around"
-  },
-  {
    "item": "Husqvarna TC 50/65 and GasGas MC 50/65/85 seat heights",
    "searched": "not in this pass",
    "result": "gap"
@@ -58,6 +54,31 @@
   {
    "item": "CRF150R 2020-2027 seat height",
    "searched": "Honda news (only a 2007 spec sheet found)",
+   "result": "gap"
+  },
+  {
+   "item": "KX65 / KX85 / KX112 and YZ65 / YZ85 owner's manuals (lever, bar, pedal adjustment)",
+   "searched": "Yamaha manual library (502 bot-protection error), KTIVS portal",
+   "result": "gap; seat heights for 2025 only"
+  },
+  {
+   "item": "Husqvarna TC 50/65/85, GasGas MC 50/65/85 and KTM 50/65 SX owner's manuals",
+   "searched": "KTM-group US manual index (not listed)",
+   "result": "gap"
+  },
+  {
+   "item": "Honda 2023-2027 CRF handbooks",
+   "searched": "Honda US documentum CDN (403 to automated download on 2026-11-07)",
+   "result": "read from copies of the same public PDFs already on file for the Honda manual pass; facts added as rfit-h-010..024"
+  },
+  {
+   "item": "KX65 / KX85 / KX112 and YZ65 / YZ85 owner's manuals (lever, bar, pedal adjustment)",
+   "searched": "Yamaha manual library (502 bot-protection error), KTIVS portal",
+   "result": "gap; seat heights for 2025 only"
+  },
+  {
+   "item": "Husqvarna TC 50/65/85, GasGas MC 50/65/85 and KTM 50/65 SX owner's manuals",
+   "searched": "KTM-group US manual index (not listed)",
    "result": "gap"
   }
  ],
@@ -67,15 +88,56 @@
   "https://api.triumphtechnicalinformation.com/handbooks/documents/697b112531d8347c29c5ce2b/pdf",
   "https://api.triumphtechnicalinformation.com/handbooks/documents/697b1c4ec47604be99a352a4/pdf",
   "https://api.triumphtechnicalinformation.com/handbooks/documents/6ab239eb1685389dfa339f9a/pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31k95620_crf250r_rx.pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2021_crf150r-rb_61ksex01_ch_web.pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2021_crf250r-rx_61k95x01_ch_web.pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2021_crf450r-rx-rwe_ch_61mkex00_web.pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf150r_rb_competition_handbook.pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952424chen.pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952525chen.pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952626chen.pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952727chen.pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.akse2323chen.pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.akse2424chen.pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.akse2525chen.pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.akse2626chen.pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2323chen.pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2424chen.pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2525chen.pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf",
+  "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2727chen.pdf",
   "https://guam.kawasaki-la.com/en-la/motorcycle/kx/full-size-mx/kx-450",
   "https://honda-moto.ro/wp-content/uploads/22-CRF250-Handbook-EN-Web.pdf",
   "https://kawasaki.com/en-us/motorcycle/kx/kx-youth-mx/kx-112/2025-kx112",
   "https://ktmdirect.co.uk/collections/ktm-50-sx-powerparts-accessories/products/lowering-kit-68mm-45412955044s",
   "https://ktmdirect.co.uk/products/ktm-low-seat-15mm",
+  "https://pws.ktivs.net/proxy/manual-files/99803-0044-o5kx450jlf-us-en-764600b8626ae5f824b103b6c7273a8a/index.html",
+  "https://pws.ktivs.net/proxy/manual-files/99803-0080-o5kx252blf-us-en-fa9242e822da87d12cf802e076f3ac17/index.html",
+  "https://pws.ktivs.net/proxy/manual-files/99803-0181-o5kx450jmf-us-en-7847af2cc9988937002c7d5d436f18c6/index.html",
+  "https://pws.ktivs.net/proxy/manual-files/99803-0182-o5kx450kmf-us-en-e98b8b5fdd3679694533728ebef10750/index.html",
+  "https://pws.ktivs.net/proxy/manual-files/99803-0183-o5kx252cmf-us-en-9f3956e8048e6b4fb570e871cb92760a/index.html",
+  "https://pws.ktivs.net/proxy/manual-files/99803-0184-o5kx252dmf-us-en-a8e3e9ea015c40df3686836822f81fe5/index.html",
+  "https://pws.ktivs.net/proxy/manual-files/99803-0214-o5kx252cnf-us-en-1f842dd3f7b9d9d58f17b1e64543da8e/index.html",
+  "https://pws.ktivs.net/proxy/manual-files/99803-0216-o5kx450jnf-us-en-6ca0e63b67a4ea3460f89e65b1319bf5/index.html",
+  "https://pws.ktivs.net/proxy/manual-files/99803-0306-o5kx252cpf-us-en-f4f3c05d8cb1cd1f14326ae7a3dc9206/index.html",
+  "https://pws.ktivs.net/proxy/manual-files/99803-0308-o5kx450jpf-us-en-18a2b04b9abfef8f89a978d68ebbb307/index.html",
+  "https://pws.ktivs.net/proxy/manuals/99803-0400-o5kx252crf-us-en-6b10c4b8178fa8aadd9de6768a329cd0/index.html",
+  "https://pws.ktivs.net/proxy/manuals/99803-0401-01-o5kx450mrf-us-en_ebook-90735d052ae7d6b4d2c139d437d61f74/index.html",
+  "https://pws.ktivs.net/proxy/manuals/99803-0402-01-o5kx450nrf-us-en_ebook-6a426975919dd9f878c373b2b69de7d0/index.html",
+  "https://pws.ktivs.net/proxy/manuals/99814-0003-o5kx450msf-us-en_ebook-e1cdd78aa5d28e4144984271960ae3b9/index.html",
+  "https://pws.ktivs.net/proxy/manuals/99814-0061-o5kx252esf-us-en_ebook-1caab68fb1b6f0bd0aca70be564f27dd/index.html",
+  "https://pws.ktivs.net/proxy/manuals/99814-0062-o5kx252fsf-us-en_ebook-8e66f350de0103dd0475cddc0919b277/index.html",
+  "https://pws.ktivs.net/proxy/manuals/99814-0119-o5kx252etf-us-en_ebook-a3ebacd81de28a08cad622f50579814b/index.html",
+  "https://pws.ktivs.net/proxy/manuals/99814-0121-o5kx450mtf-us-en_ebook-cc6574ed9226ee3c6838ff7eaa4cf343/index.html",
+  "https://pws.ktivs.net/proxy/manuals/99814-0239-o5kx252ev-us-en_ebook-cff9f6602a496d838d485829a9158b6b/index.html",
   "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2025-kx65",
   "https://www.kawasaki.com/en-us/products/ProductSpecSheetPDF/2025-kx85",
   "https://www.ktm.com/en-us/models/motocross/2-stroke/2025-ktm-50-sx/technical-specifications.html",
   "https://www.ktm.com/en-us/models/motocross/2-stroke/2025-ktm-65-sx/technical-specifications.html",
+  "https://www.renthal.com/moto/2021-recommendations",
   "https://www.renthal.com/moto/839-01-HA",
   "https://www.triumphmotorcycles.com.au/motorcycles/off-road/motocross/tf-250-x-2024",
   "https://www.yamahamotorsports.com/models/25-yz85/specs",
@@ -721,6 +783,1270 @@
    },
    "confidence": "medium",
    "notes": "The 250 SX-F listing stops at 2021 on that page; 2022 250 SX-F fitment unconfirmed."
+  },
+  {
+   "id": "rfit-h-010",
+   "domain": "chassis",
+   "topic": "2020 CRF250R/CRF250RX: bar positions, levers and pedal (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF250R",
+     "CRF250RX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Honda's 2020 CRF250R/CRF250RX Owner's Manual & Competition Handbook: the lower bar holders are offset 5 mm from their centre line and the top bridge has an optional pair of holes 26 mm ahead of the standard ones, giving four bar positions: 26 mm forward, 16 mm forward, standard and 10 mm back; the front brake lever reach is set with an adjuster and lock nut; clutch lever free play is 10-20 mm at the lever end (cable clutch); the rear brake pedal should sit about level with the right footpeg, set by turning the master-cylinder push rod; Honda's personal-fit page also says to set the levers so they work comfortably seated and standing, set the shift and brake pedals close to the boot without being pressed when sitting or standing, leave the lever clamps just loose enough (or on Teflon tape) to rotate in a fall, and that bar width can be trimmed equally from both ends, a little at a time, for shoulder width.",
+   "values": {
+    "bar_positions": 4,
+    "holder_offset_mm": 5,
+    "turned_holder_shift_mm": 10,
+    "optional_hole_forward_mm": 26,
+    "positions_mm_vs_standard": "+26, +16, 0, -10",
+    "front_brake_lever_adjuster": true,
+    "brake_pedal_height": "about level with the right footpeg",
+    "clutch_lever_free_play_mm": "10-20",
+    "personal_fit_guidance": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2020 CRF250R/CRF250RX Owner's Manual & Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31k95620_crf250r_rx.pdf",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "The 16 mm position is the forward holes with the holders turned (26 - 10); Honda prints it in the 2020 and 2021 position charts."
+  },
+  {
+   "id": "rfit-h-011",
+   "domain": "chassis",
+   "topic": "2020 CRF450R/CRF450RX: bar positions, levers and pedal (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Honda's 2020 CRF450R/CRF450RX/CRF450RWE Owner's Manual & Competition Handbook: the lower bar holders are offset 5 mm from their centre line and the top bridge has an optional pair of holes 26 mm ahead of the standard ones, giving four bar positions: 26 mm forward, 16 mm forward, standard and 10 mm back; the front brake lever reach is set with an adjuster and lock nut; clutch lever free play is 10-20 mm at the lever end (cable clutch); the rear brake pedal should sit about level with the right footpeg, set by turning the master-cylinder push rod; Honda's personal-fit page also says to set the levers so they work comfortably seated and standing, set the shift and brake pedals close to the boot without being pressed when sitting or standing, leave the lever clamps just loose enough (or on Teflon tape) to rotate in a fall, and that bar width can be trimmed equally from both ends, a little at a time, for shoulder width.",
+   "values": {
+    "bar_positions": 4,
+    "holder_offset_mm": 5,
+    "turned_holder_shift_mm": 10,
+    "optional_hole_forward_mm": 26,
+    "positions_mm_vs_standard": "+26, +16, 0, -10",
+    "front_brake_lever_adjuster": true,
+    "brake_pedal_height": "about level with the right footpeg",
+    "clutch_lever_free_play_mm": "10-20",
+    "personal_fit_guidance": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2020 CRF450R/CRF450RX/CRF450RWE Owner's Manual & Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2020_31mke630_crf450r_rx_rwe.pdf",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "The 16 mm position is the forward holes with the holders turned (26 - 10); Honda prints it in the 2020 and 2021 position charts."
+  },
+  {
+   "id": "rfit-h-012",
+   "domain": "chassis",
+   "topic": "2021 CRF250R/CRF250RX: bar positions, levers and pedal (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF250R",
+     "CRF250RX"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Honda's 2021 CRF250R/RX Competition Handbook: the lower bar holders are offset 5 mm from their centre line and the top bridge has an optional pair of holes 26 mm ahead of the standard ones, giving four bar positions: 26 mm forward, 16 mm forward, standard and 10 mm back; the front brake lever reach is set with an adjuster and lock nut; clutch lever free play is 10-20 mm at the lever end (cable clutch); brake pedal height is set by turning the rear master-cylinder push rod to the length shown in the handbook figure.",
+   "values": {
+    "bar_positions": 4,
+    "holder_offset_mm": 5,
+    "turned_holder_shift_mm": 10,
+    "optional_hole_forward_mm": 26,
+    "positions_mm_vs_standard": "+26, +16, 0, -10",
+    "front_brake_lever_adjuster": true,
+    "brake_pedal_height_adjuster": true,
+    "clutch_lever_free_play_mm": "10-20"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2021 CRF250R/RX Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2021_crf250r-rx_61k95x01_ch_web.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "The 16 mm position is the forward holes with the holders turned (26 - 10); Honda prints it in the 2020 and 2021 position charts."
+  },
+  {
+   "id": "rfit-h-013",
+   "domain": "chassis",
+   "topic": "2021 CRF450R/CRF450RX: bar positions, levers and pedal (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Honda's 2021 CRF450R/RX/RWE Competition Handbook: the lower bar holders are offset 5 mm from their centre line and the top bridge has an optional pair of holes 26 mm ahead of the standard ones, giving four bar positions: 26 mm forward, 16 mm forward, standard and 10 mm back; the front brake lever reach is set with an adjuster and lock nut; the clutch lever position has its own adjuster (hydraulic clutch, no free-play figure); brake pedal height is set by turning the rear master-cylinder push rod within its standard length of 78.6-80.6 mm.",
+   "values": {
+    "bar_positions": 4,
+    "holder_offset_mm": 5,
+    "turned_holder_shift_mm": 10,
+    "optional_hole_forward_mm": 26,
+    "positions_mm_vs_standard": "+26, +16, 0, -10",
+    "front_brake_lever_adjuster": true,
+    "brake_pedal_push_rod_length_mm": "78.6-80.6",
+    "clutch_lever_position_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2021 CRF450R/RX/RWE Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2021_crf450r-rx-rwe_ch_61mkex00_web.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "The 16 mm position is the forward holes with the holders turned (26 - 10); Honda prints it in the 2020 and 2021 position charts."
+  },
+  {
+   "id": "rfit-h-014",
+   "domain": "chassis",
+   "topic": "2022 CRF450R/CRF450RX: bar positions, levers and pedal (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Honda's 2022 CRF450R/RX/RWE Competition Handbook: the lower bar holders are offset 5 mm from their centre line and the top bridge has an optional pair of holes 26 mm ahead of the standard ones, giving four bar positions: 26 mm forward, 16 mm forward, standard and 10 mm back; the front brake lever reach is set with an adjuster and lock nut; the clutch lever position has its own adjuster (hydraulic clutch, no free-play figure); brake pedal height is set by turning the rear master-cylinder push rod within its standard length of 78.6-80.6 mm.",
+   "values": {
+    "bar_positions": 4,
+    "holder_offset_mm": 5,
+    "turned_holder_shift_mm": 10,
+    "optional_hole_forward_mm": 26,
+    "positions_mm_vs_standard": "+26, +16, 0, -10",
+    "front_brake_lever_adjuster": true,
+    "brake_pedal_push_rod_length_mm": "78.6-80.6",
+    "clutch_lever_position_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2022 CRF450R/RX/RWE Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf450r_rx_rwe_competition_handbook.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "The 16 mm position is the forward holes with the holders turned (26 - 10); Honda prints it in the 2020 and 2021 position charts."
+  },
+  {
+   "id": "rfit-h-015",
+   "domain": "chassis",
+   "topic": "2023 CRF250R/CRF250RX: bar positions, levers and pedal (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF250R",
+     "CRF250RX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Honda's 2023 CRF250R/RX Competition Handbook: the lower bar holders are offset 5 mm from their centre line and the top bridge has an optional pair of holes 26 mm ahead of the standard ones, giving four bar positions: 26 mm forward, 16 mm forward, standard and 10 mm back; the front brake lever reach is set with an adjuster and lock nut; clutch lever free play is 10-20 mm at the lever end (cable clutch); brake pedal height is set by turning the rear master-cylinder push rod within its standard length of 78.6-80.6 mm.",
+   "values": {
+    "bar_positions": 4,
+    "holder_offset_mm": 5,
+    "turned_holder_shift_mm": 10,
+    "optional_hole_forward_mm": 26,
+    "positions_mm_vs_standard": "+26, +16, 0, -10",
+    "front_brake_lever_adjuster": true,
+    "brake_pedal_push_rod_length_mm": "78.6-80.6",
+    "clutch_lever_free_play_mm": "10-20"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2023 CRF250R/RX Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952323chen.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "The 16 mm position is the forward holes with the holders turned (26 - 10); Honda prints it in the 2020 and 2021 position charts."
+  },
+  {
+   "id": "rfit-h-016",
+   "domain": "chassis",
+   "topic": "2023 CRF450R/CRF450RX: bar positions, levers and pedal (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Honda's 2023 CRF450R/RX/RWE Competition Handbook: the lower bar holders are offset 5 mm from their centre line and the top bridge has an optional pair of holes 26 mm ahead of the standard ones, giving four bar positions: 26 mm forward, 16 mm forward, standard and 10 mm back; the front brake lever reach is set with an adjuster and lock nut; the clutch lever position has its own adjuster (hydraulic clutch, no free-play figure); brake pedal height is set by turning the rear master-cylinder push rod within its standard length of 78.6-80.6 mm.",
+   "values": {
+    "bar_positions": 4,
+    "holder_offset_mm": 5,
+    "turned_holder_shift_mm": 10,
+    "optional_hole_forward_mm": 26,
+    "positions_mm_vs_standard": "+26, +16, 0, -10",
+    "front_brake_lever_adjuster": true,
+    "brake_pedal_push_rod_length_mm": "78.6-80.6",
+    "clutch_lever_position_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2023 CRF450R/RX/RWE Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2323chen.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "The 16 mm position is the forward holes with the holders turned (26 - 10); Honda prints it in the 2020 and 2021 position charts."
+  },
+  {
+   "id": "rfit-h-017",
+   "domain": "chassis",
+   "topic": "2024 CRF250R/CRF250RX: bar positions, levers and pedal (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF250R",
+     "CRF250RX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Honda's 2024 CRF250R/RX Competition Handbook: the lower bar holders are offset 5 mm from their centre line and the top bridge has an optional pair of holes 26 mm ahead of the standard ones, giving four bar positions: 26 mm forward, 16 mm forward, standard and 10 mm back; the front brake lever reach is set with an adjuster and lock nut; clutch lever free play is 10-20 mm at the lever end (cable clutch); brake pedal height is set by turning the rear master-cylinder push rod within its standard length of 78.6-80.6 mm.",
+   "values": {
+    "bar_positions": 4,
+    "holder_offset_mm": 5,
+    "turned_holder_shift_mm": 10,
+    "optional_hole_forward_mm": 26,
+    "positions_mm_vs_standard": "+26, +16, 0, -10",
+    "front_brake_lever_adjuster": true,
+    "brake_pedal_push_rod_length_mm": "78.6-80.6",
+    "clutch_lever_free_play_mm": "10-20"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2024 CRF250R/RX Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952424chen.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "The 16 mm position is the forward holes with the holders turned (26 - 10); Honda prints it in the 2020 and 2021 position charts."
+  },
+  {
+   "id": "rfit-h-018",
+   "domain": "chassis",
+   "topic": "2024 CRF450R/CRF450RX: bar positions, levers and pedal (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Honda's 2024 CRF450R/RX/RWE Competition Handbook: the lower bar holders are offset 5 mm from their centre line and the top bridge has an optional pair of holes 26 mm ahead of the standard ones, giving four bar positions: 26 mm forward, 16 mm forward, standard and 10 mm back; the front brake lever reach is set with an adjuster and lock nut; the clutch lever position has its own adjuster (hydraulic clutch, no free-play figure); brake pedal height is set by turning the rear master-cylinder push rod within its standard length of 78.6-80.6 mm.",
+   "values": {
+    "bar_positions": 4,
+    "holder_offset_mm": 5,
+    "turned_holder_shift_mm": 10,
+    "optional_hole_forward_mm": 26,
+    "positions_mm_vs_standard": "+26, +16, 0, -10",
+    "front_brake_lever_adjuster": true,
+    "brake_pedal_push_rod_length_mm": "78.6-80.6",
+    "clutch_lever_position_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2024 CRF450R/RX/RWE Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2424chen.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "The 16 mm position is the forward holes with the holders turned (26 - 10); Honda prints it in the 2020 and 2021 position charts."
+  },
+  {
+   "id": "rfit-h-019",
+   "domain": "chassis",
+   "topic": "2025 CRF250R/CRF250RX: bar positions, levers and pedal (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF250R",
+     "CRF250RX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Honda's 2025 CRF250R/RX/RWE Competition Handbook: the lower bar holders are offset 5 mm from their centre line and the top bridge has an optional pair of holes 26 mm ahead of the standard ones, giving four bar positions: 26 mm forward, 16 mm forward, standard and 10 mm back; the front brake lever reach is set with an adjuster and lock nut; clutch lever free play is 10-20 mm at the lever end (cable clutch); brake pedal height is set by turning the rear master-cylinder push rod within its standard length of 78.6-80.6 mm.",
+   "values": {
+    "bar_positions": 4,
+    "holder_offset_mm": 5,
+    "turned_holder_shift_mm": 10,
+    "optional_hole_forward_mm": 26,
+    "positions_mm_vs_standard": "+26, +16, 0, -10",
+    "front_brake_lever_adjuster": true,
+    "brake_pedal_push_rod_length_mm": "78.6-80.6",
+    "clutch_lever_free_play_mm": "10-20"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2025 CRF250R/RX/RWE Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952525chen.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "The 16 mm position is the forward holes with the holders turned (26 - 10); Honda prints it in the 2020 and 2021 position charts."
+  },
+  {
+   "id": "rfit-h-020",
+   "domain": "chassis",
+   "topic": "2025 CRF450R/CRF450RX: bar positions, levers and pedal (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Honda's 2025 CRF450R/RX/RWE Competition Handbook: the lower bar holders are offset 5 mm from their centre line and the top bridge has an optional pair of holes 26 mm ahead of the standard ones, giving four bar positions: 26 mm forward, 16 mm forward, standard and 10 mm back; the front brake lever reach is set with an adjuster and lock nut; the clutch lever position has its own adjuster (hydraulic clutch, no free-play figure); brake pedal height is set by turning the rear master-cylinder push rod within its standard length of 78.6-80.6 mm.",
+   "values": {
+    "bar_positions": 4,
+    "holder_offset_mm": 5,
+    "turned_holder_shift_mm": 10,
+    "optional_hole_forward_mm": 26,
+    "positions_mm_vs_standard": "+26, +16, 0, -10",
+    "front_brake_lever_adjuster": true,
+    "brake_pedal_push_rod_length_mm": "78.6-80.6",
+    "clutch_lever_position_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2025 CRF450R/RX/RWE Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2525chen.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "The 16 mm position is the forward holes with the holders turned (26 - 10); Honda prints it in the 2020 and 2021 position charts."
+  },
+  {
+   "id": "rfit-h-021",
+   "domain": "chassis",
+   "topic": "2026 CRF250R/CRF250RX: bar positions, levers and pedal (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF250R",
+     "CRF250RX"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Honda's 2026 CRF250R/RX/RWE Competition Handbook: the lower bar holders are offset 5 mm from their centre line and the top bridge has an optional pair of holes 26 mm ahead of the standard ones, giving four bar positions: 26 mm forward, 16 mm forward, standard and 10 mm back; the front brake lever reach is set with an adjuster and lock nut; clutch lever free play is 10-20 mm at the lever end (cable clutch); brake pedal height is set by turning the rear master-cylinder push rod within its standard length of 78.6-80.6 mm.",
+   "values": {
+    "bar_positions": 4,
+    "holder_offset_mm": 5,
+    "turned_holder_shift_mm": 10,
+    "optional_hole_forward_mm": 26,
+    "positions_mm_vs_standard": "+26, +16, 0, -10",
+    "front_brake_lever_adjuster": true,
+    "brake_pedal_push_rod_length_mm": "78.6-80.6",
+    "clutch_lever_free_play_mm": "10-20"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2026 CRF250R/RX/RWE Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952626chen.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "The 16 mm position is the forward holes with the holders turned (26 - 10); Honda prints it in the 2020 and 2021 position charts."
+  },
+  {
+   "id": "rfit-h-022",
+   "domain": "chassis",
+   "topic": "2026 CRF450R/CRF450RX: bar positions, levers and pedal (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Honda's 2026 CRF450R/RX/RWE Competition Handbook: the lower bar holders are offset 5 mm from their centre line and the top bridge has an optional pair of holes 26 mm ahead of the standard ones, giving four bar positions: 26 mm forward, 16 mm forward, standard and 10 mm back; the front brake lever reach is set with an adjuster and lock nut; the clutch lever position has its own adjuster (hydraulic clutch, no free-play figure); brake pedal height is set by turning the rear master-cylinder push rod within its standard length of 78.6-80.6 mm.",
+   "values": {
+    "bar_positions": 4,
+    "holder_offset_mm": 5,
+    "turned_holder_shift_mm": 10,
+    "optional_hole_forward_mm": 26,
+    "positions_mm_vs_standard": "+26, +16, 0, -10",
+    "front_brake_lever_adjuster": true,
+    "brake_pedal_push_rod_length_mm": "78.6-80.6",
+    "clutch_lever_position_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2026 CRF450R/RX/RWE Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2626chen.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "The 16 mm position is the forward holes with the holders turned (26 - 10); Honda prints it in the 2020 and 2021 position charts."
+  },
+  {
+   "id": "rfit-h-023",
+   "domain": "chassis",
+   "topic": "2027 CRF250R/CRF250RX: bar positions, levers and pedal (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF250R",
+     "CRF250RX"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Honda's 2027 CRF250R/RX/HRC Works Edition Competition Handbook: the lower bar holders are offset 5 mm from their centre line and the top bridge has an optional pair of holes 26 mm ahead of the standard ones, giving four bar positions: 26 mm forward, 16 mm forward, standard and 10 mm back; the front brake lever reach is set with an adjuster and lock nut; clutch lever free play is 10-20 mm at the lever end (cable clutch); brake pedal height is set by turning the rear master-cylinder push rod within its standard length of 78.6-80.6 mm.",
+   "values": {
+    "bar_positions": 4,
+    "holder_offset_mm": 5,
+    "turned_holder_shift_mm": 10,
+    "optional_hole_forward_mm": 26,
+    "positions_mm_vs_standard": "+26, +16, 0, -10",
+    "front_brake_lever_adjuster": true,
+    "brake_pedal_push_rod_length_mm": "78.6-80.6",
+    "clutch_lever_free_play_mm": "10-20"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2027 CRF250R/RX/HRC Works Edition Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.ak952727chen.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "The 16 mm position is the forward holes with the holders turned (26 - 10); Honda prints it in the 2020 and 2021 position charts."
+  },
+  {
+   "id": "rfit-h-024",
+   "domain": "chassis",
+   "topic": "2027 CRF450R/CRF450RX: bar positions, levers and pedal (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2027
+    ]
+   },
+   "statement": "Honda's 2027 CRF450R Competition Handbook: the lower bar holders are offset 5 mm from their centre line and the top bridge has an optional pair of holes 26 mm ahead of the standard ones, giving four bar positions: 26 mm forward, 16 mm forward, standard and 10 mm back; the front brake lever reach is set with an adjuster and lock nut; the clutch lever position has its own adjuster (hydraulic clutch, no free-play figure); brake pedal height is set by turning the rear master-cylinder push rod within its standard length of 78.6-80.6 mm.",
+   "values": {
+    "bar_positions": 4,
+    "holder_offset_mm": 5,
+    "turned_holder_shift_mm": 10,
+    "optional_hole_forward_mm": 26,
+    "positions_mm_vs_standard": "+26, +16, 0, -10",
+    "front_brake_lever_adjuster": true,
+    "brake_pedal_push_rod_length_mm": "78.6-80.6",
+    "clutch_lever_position_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2027 CRF450R Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.amker2727chen.pdf",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "The 16 mm position is the forward holes with the holders turned (26 - 10); Honda prints it in the 2020 and 2021 position charts."
+  },
+  {
+   "id": "rfit-h-040",
+   "domain": "chassis",
+   "topic": "2021 CRF150R: lever, clutch and pedal adjustment (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2021
+    ]
+   },
+   "statement": "Honda's 2021 CRF150R/RB competition handbook: the front brake lever reach is set with an adjusting bolt and lock nut; clutch lever free play is 10-20 mm at the lever end; brake pedal height is set by turning the rear master-cylinder push rod (when lengthened, the push-rod thread must still show inside the joint). The handbook gives no alternative bar-holder positions.",
+   "values": {
+    "front_brake_lever_adjuster": true,
+    "clutch_lever_free_play_mm": "10-20",
+    "brake_pedal_height_adjuster": true,
+    "bar_positions_published": false
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2021 CRF150R/CRF150RB Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2021_crf150r-rb_61ksex01_ch_web.pdf",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-h-041",
+   "domain": "chassis",
+   "topic": "2022 CRF150R: lever, clutch and pedal adjustment (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2022
+    ]
+   },
+   "statement": "Honda's 2022 CRF150R/RB competition handbook: the front brake lever reach is set with an adjusting bolt and lock nut; clutch lever free play is 10-20 mm at the lever end; brake pedal height is set by turning the rear master-cylinder push rod (when lengthened, the push-rod thread must still show inside the joint). The handbook gives no alternative bar-holder positions.",
+   "values": {
+    "front_brake_lever_adjuster": true,
+    "clutch_lever_free_play_mm": "10-20",
+    "brake_pedal_height_adjuster": true,
+    "bar_positions_published": false
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2022 CRF150R/CRF150RB Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.2022_crf150r_rb_competition_handbook.pdf",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-h-042",
+   "domain": "chassis",
+   "topic": "2023 CRF150R: lever, clutch and pedal adjustment (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2023
+    ]
+   },
+   "statement": "Honda's 2023 CRF150R/RB competition handbook: the front brake lever reach is set with an adjusting bolt and lock nut; clutch lever free play is 10-20 mm at the lever end; brake pedal height is set by turning the rear master-cylinder push rod (when lengthened, the push-rod thread must still show inside the joint). The handbook gives no alternative bar-holder positions.",
+   "values": {
+    "front_brake_lever_adjuster": true,
+    "clutch_lever_free_play_mm": "10-20",
+    "brake_pedal_height_adjuster": true,
+    "bar_positions_published": false
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2023 CRF150R/CRF150RB Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.akse2323chen.pdf",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-h-043",
+   "domain": "chassis",
+   "topic": "2024 CRF150R: lever, clutch and pedal adjustment (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2024
+    ]
+   },
+   "statement": "Honda's 2024 CRF150R/RB competition handbook: the front brake lever reach is set with an adjusting bolt and lock nut; clutch lever free play is 10-20 mm at the lever end; brake pedal height is set by turning the rear master-cylinder push rod (when lengthened, the push-rod thread must still show inside the joint). The handbook gives no alternative bar-holder positions.",
+   "values": {
+    "front_brake_lever_adjuster": true,
+    "clutch_lever_free_play_mm": "10-20",
+    "brake_pedal_height_adjuster": true,
+    "bar_positions_published": false
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2024 CRF150R/CRF150RB Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.akse2424chen.pdf",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-h-044",
+   "domain": "chassis",
+   "topic": "2025 CRF150R: lever, clutch and pedal adjustment (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2025
+    ]
+   },
+   "statement": "Honda's 2025 CRF150R/RB competition handbook: the front brake lever reach is set with an adjusting bolt and lock nut; clutch lever free play is 10-20 mm at the lever end; brake pedal height is set by turning the rear master-cylinder push rod (when lengthened, the push-rod thread must still show inside the joint). The handbook gives no alternative bar-holder positions.",
+   "values": {
+    "front_brake_lever_adjuster": true,
+    "clutch_lever_free_play_mm": "10-20",
+    "brake_pedal_height_adjuster": true,
+    "bar_positions_published": false
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2025 CRF150R/CRF150RB Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.akse2525chen.pdf",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-h-045",
+   "domain": "chassis",
+   "topic": "2026 CRF150R: lever, clutch and pedal adjustment (handbook)",
+   "applies_to": {
+    "models": [
+     "CRF150R"
+    ],
+    "years": [
+     2026
+    ]
+   },
+   "statement": "Honda's 2026 CRF150R/RB competition handbook: the front brake lever reach is set with an adjusting bolt and lock nut; clutch lever free play is 10-20 mm at the lever end; brake pedal height is set by turning the rear master-cylinder push rod (when lengthened, the push-rod thread must still show inside the joint). The handbook gives no alternative bar-holder positions.",
+   "values": {
+    "front_brake_lever_adjuster": true,
+    "clutch_lever_free_play_mm": "10-20",
+    "brake_pedal_height_adjuster": true,
+    "bar_positions_published": false
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2026 CRF150R/CRF150RB Competition Handbook (US)",
+    "url": "https://cdn.powersports.honda.com/documentum/MWOM/ml.remawmom.akse2626chen.pdf",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "id": "rfit-w-010",
+   "domain": "chassis",
+   "topic": "2020 KX450: adjustable ergonomics (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2020
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki's owner's manual (Adjustable Ergonomics): to suit different riding positions the handlebar holders can be fitted in the alternative holes and turned around 180 degrees (near and far positions, four in all), and the right and left footpegs can each be mounted in one of two positions; the front brake lever position is adjustable. The manual gives no millimetre figures for the positions.",
+   "values": {
+    "bar_holder_reversible": true,
+    "bar_positions": 4,
+    "footpeg_positions": 2,
+    "front_brake_lever_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2020 KX450 (KX450J) Owner's Manual (part 99803-0044, KTIVS public manual portal)",
+    "url": "https://pws.ktivs.net/proxy/manual-files/99803-0044-o5kx450jlf-us-en-764600b8626ae5f824b103b6c7273a8a/index.html",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "Position count from the manual figure (two holder positions x two directions) and Kawasaki ERGO-FIT pages; millimetre steps for some years are in the Kawasaki 2021 KX250 press kit (record kx-092): 25 and 15 mm forward, stock and 10 mm back; footpegs 5 mm lower in the second position."
+  },
+  {
+   "id": "rfit-w-011",
+   "domain": "chassis",
+   "topic": "2020 KX250: adjustable ergonomics (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2020
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki's owner's manual (Adjustable Ergonomics): to suit different riding positions the handlebar holders can be fitted in the alternative holes and turned around 180 degrees (near and far positions, four in all), and the right and left footpegs can each be mounted in one of two positions. The manual gives no millimetre figures for the positions.",
+   "values": {
+    "bar_holder_reversible": true,
+    "bar_positions": 4,
+    "footpeg_positions": 2
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2020 KX250 (KX252B) Owner's Manual (part 99803-0080, KTIVS public manual portal)",
+    "url": "https://pws.ktivs.net/proxy/manual-files/99803-0080-o5kx252blf-us-en-fa9242e822da87d12cf802e076f3ac17/index.html",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "Position count from the manual figure (two holder positions x two directions) and Kawasaki ERGO-FIT pages; millimetre steps for some years are in the Kawasaki 2021 KX250 press kit (record kx-092): 25 and 15 mm forward, stock and 10 mm back; footpegs 5 mm lower in the second position."
+  },
+  {
+   "id": "rfit-w-012",
+   "domain": "chassis",
+   "topic": "2021 KX450: adjustable ergonomics (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2021
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki's owner's manual (Adjustable Ergonomics): to suit different riding positions the handlebar holders can be fitted in the alternative holes and turned around 180 degrees (near and far positions, four in all), and the right and left footpegs can each be mounted in one of two positions; the front brake lever position is adjustable. The manual gives no millimetre figures for the positions.",
+   "values": {
+    "bar_holder_reversible": true,
+    "bar_positions": 4,
+    "footpeg_positions": 2,
+    "front_brake_lever_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2021 KX450 (KX450J) Owner's Manual (part 99803-0181, KTIVS public manual portal)",
+    "url": "https://pws.ktivs.net/proxy/manual-files/99803-0181-o5kx450jmf-us-en-7847af2cc9988937002c7d5d436f18c6/index.html",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Position count from the manual figure (two holder positions x two directions) and Kawasaki ERGO-FIT pages; millimetre steps for some years are in the Kawasaki 2021 KX250 press kit (record kx-092): 25 and 15 mm forward, stock and 10 mm back; footpegs 5 mm lower in the second position."
+  },
+  {
+   "id": "rfit-w-013",
+   "domain": "chassis",
+   "topic": "2021 KX450X: adjustable ergonomics (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KX450X"
+    ],
+    "years": [
+     2021
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki's owner's manual (Adjustable Ergonomics): to suit different riding positions the handlebar holders can be fitted in the alternative holes and turned around 180 degrees (near and far positions, four in all), and the right and left footpegs can each be mounted in one of two positions; the front brake lever position is adjustable. The manual gives no millimetre figures for the positions.",
+   "values": {
+    "bar_holder_reversible": true,
+    "bar_positions": 4,
+    "footpeg_positions": 2,
+    "front_brake_lever_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2021 KX450XC (KX450K; the 2021 US name of the cross-country KX450X) Owner's Manual (part 99803-0182, KTIVS public manual portal)",
+    "url": "https://pws.ktivs.net/proxy/manual-files/99803-0182-o5kx450kmf-us-en-e98b8b5fdd3679694533728ebef10750/index.html",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Position count from the manual figure (two holder positions x two directions) and Kawasaki ERGO-FIT pages; millimetre steps for some years are in the Kawasaki 2021 KX250 press kit (record kx-092): 25 and 15 mm forward, stock and 10 mm back; footpegs 5 mm lower in the second position."
+  },
+  {
+   "id": "rfit-w-014",
+   "domain": "chassis",
+   "topic": "2021 KX250: adjustable ergonomics (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2021
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki's owner's manual (Adjustable Ergonomics): to suit different riding positions the handlebar holders can be fitted in the alternative holes and turned around 180 degrees (near and far positions, four in all), and the right and left footpegs can each be mounted in one of two positions; the front brake lever position is adjustable. The manual gives no millimetre figures for the positions.",
+   "values": {
+    "bar_holder_reversible": true,
+    "bar_positions": 4,
+    "footpeg_positions": 2,
+    "front_brake_lever_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2021 KX250 (KX252C) Owner's Manual (part 99803-0183, KTIVS public manual portal)",
+    "url": "https://pws.ktivs.net/proxy/manual-files/99803-0183-o5kx252cmf-us-en-9f3956e8048e6b4fb570e871cb92760a/index.html",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Position count from the manual figure (two holder positions x two directions) and Kawasaki ERGO-FIT pages; millimetre steps for some years are in the Kawasaki 2021 KX250 press kit (record kx-092): 25 and 15 mm forward, stock and 10 mm back; footpegs 5 mm lower in the second position."
+  },
+  {
+   "id": "rfit-w-015",
+   "domain": "chassis",
+   "topic": "2021 KX250X: adjustable ergonomics (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KX250X"
+    ],
+    "years": [
+     2021
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki's owner's manual (Adjustable Ergonomics): to suit different riding positions the handlebar holders can be fitted in the alternative holes and turned around 180 degrees (near and far positions, four in all), and the right and left footpegs can each be mounted in one of two positions; the front brake lever position is adjustable. The manual gives no millimetre figures for the positions.",
+   "values": {
+    "bar_holder_reversible": true,
+    "bar_positions": 4,
+    "footpeg_positions": 2,
+    "front_brake_lever_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2021 KX250XC (KX252D; 2021 US name of the cross-country KX250X) Owner's Manual (part 99803-0184, KTIVS public manual portal)",
+    "url": "https://pws.ktivs.net/proxy/manual-files/99803-0184-o5kx252dmf-us-en-a8e3e9ea015c40df3686836822f81fe5/index.html",
+    "date": "2020"
+   },
+   "confidence": "high",
+   "notes": "Position count from the manual figure (two holder positions x two directions) and Kawasaki ERGO-FIT pages; millimetre steps for some years are in the Kawasaki 2021 KX250 press kit (record kx-092): 25 and 15 mm forward, stock and 10 mm back; footpegs 5 mm lower in the second position."
+  },
+  {
+   "id": "rfit-w-016",
+   "domain": "chassis",
+   "topic": "2022 KX250/KX250X: adjustable ergonomics (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2022
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki's owner's manual (Adjustable Ergonomics): to suit different riding positions the handlebar holders can be fitted in the alternative holes and turned around 180 degrees (near and far positions, four in all), and the right and left footpegs can each be mounted in one of two positions; the front brake lever position is adjustable. The manual gives no millimetre figures for the positions.",
+   "values": {
+    "bar_holder_reversible": true,
+    "bar_positions": 4,
+    "footpeg_positions": 2,
+    "front_brake_lever_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2022 KX250 (KX252C) / KX250X (KX252D) Owner's Manual (part 99803-0214, KTIVS public manual portal)",
+    "url": "https://pws.ktivs.net/proxy/manual-files/99803-0214-o5kx252cnf-us-en-1f842dd3f7b9d9d58f17b1e64543da8e/index.html",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Position count from the manual figure (two holder positions x two directions) and Kawasaki ERGO-FIT pages; millimetre steps for some years are in the Kawasaki 2021 KX250 press kit (record kx-092): 25 and 15 mm forward, stock and 10 mm back; footpegs 5 mm lower in the second position."
+  },
+  {
+   "id": "rfit-w-017",
+   "domain": "chassis",
+   "topic": "2022 KX450/KX450X: adjustable ergonomics (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2022
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki's owner's manual (Adjustable Ergonomics): to suit different riding positions the handlebar holders can be fitted in the alternative holes and turned around 180 degrees (near and far positions, four in all), and the right and left footpegs can each be mounted in one of two positions; the front brake lever position is adjustable. The manual gives no millimetre figures for the positions.",
+   "values": {
+    "bar_holder_reversible": true,
+    "bar_positions": 4,
+    "footpeg_positions": 2,
+    "front_brake_lever_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2022 KX450 (KX450J) / KX450X (KX450K) Owner's Manual (part 99803-0216, KTIVS public manual portal)",
+    "url": "https://pws.ktivs.net/proxy/manual-files/99803-0216-o5kx450jnf-us-en-6ca0e63b67a4ea3460f89e65b1319bf5/index.html",
+    "date": "2021"
+   },
+   "confidence": "high",
+   "notes": "Position count from the manual figure (two holder positions x two directions) and Kawasaki ERGO-FIT pages; millimetre steps for some years are in the Kawasaki 2021 KX250 press kit (record kx-092): 25 and 15 mm forward, stock and 10 mm back; footpegs 5 mm lower in the second position."
+  },
+  {
+   "id": "rfit-w-018",
+   "domain": "chassis",
+   "topic": "2023 KX250/KX250X: adjustable ergonomics (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2023
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki's owner's manual (Adjustable Ergonomics): to suit different riding positions the handlebar holders can be fitted in the alternative holes and turned around 180 degrees (near and far positions, four in all), and the right and left footpegs can each be mounted in one of two positions; the front brake lever position is adjustable. The manual gives no millimetre figures for the positions.",
+   "values": {
+    "bar_holder_reversible": true,
+    "bar_positions": 4,
+    "footpeg_positions": 2,
+    "front_brake_lever_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2023 KX250 (KX252C) / KX250X (KX252D) Owner's Manual (part 99803-0306, KTIVS public manual portal)",
+    "url": "https://pws.ktivs.net/proxy/manual-files/99803-0306-o5kx252cpf-us-en-f4f3c05d8cb1cd1f14326ae7a3dc9206/index.html",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Position count from the manual figure (two holder positions x two directions) and Kawasaki ERGO-FIT pages; millimetre steps for some years are in the Kawasaki 2021 KX250 press kit (record kx-092): 25 and 15 mm forward, stock and 10 mm back; footpegs 5 mm lower in the second position."
+  },
+  {
+   "id": "rfit-w-019",
+   "domain": "chassis",
+   "topic": "2023 KX450/KX450X: adjustable ergonomics (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2023
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki's owner's manual (Adjustable Ergonomics): to suit different riding positions the handlebar holders can be fitted in the alternative holes and turned around 180 degrees (near and far positions, four in all), and the right and left footpegs can each be mounted in one of two positions; the front brake lever position is adjustable. The manual gives no millimetre figures for the positions.",
+   "values": {
+    "bar_holder_reversible": true,
+    "bar_positions": 4,
+    "footpeg_positions": 2,
+    "front_brake_lever_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2023 KX450 (KX450J) / KX450X (KX450K) Owner's Manual (part 99803-0308, KTIVS public manual portal)",
+    "url": "https://pws.ktivs.net/proxy/manual-files/99803-0308-o5kx450jpf-us-en-18a2b04b9abfef8f89a978d68ebbb307/index.html",
+    "date": "2022"
+   },
+   "confidence": "high",
+   "notes": "Position count from the manual figure (two holder positions x two directions) and Kawasaki ERGO-FIT pages; millimetre steps for some years are in the Kawasaki 2021 KX250 press kit (record kx-092): 25 and 15 mm forward, stock and 10 mm back; footpegs 5 mm lower in the second position."
+  },
+  {
+   "id": "rfit-w-020",
+   "domain": "chassis",
+   "topic": "2024 KX250/KX250X: adjustable ergonomics (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2024
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki's owner's manual (Adjustable Ergonomics): to suit different riding positions the handlebar holders can be fitted in the alternative holes and turned around 180 degrees (near and far positions, four in all), and the right and left footpegs can each be mounted in one of two positions; the front brake lever position is adjustable. The manual gives no millimetre figures for the positions.",
+   "values": {
+    "bar_holder_reversible": true,
+    "bar_positions": 4,
+    "footpeg_positions": 2,
+    "front_brake_lever_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2024 KX250 (KX252C) / KX250X (KX252D) Owner's Manual (part 99803-0400, KTIVS public manual portal)",
+    "url": "https://pws.ktivs.net/proxy/manuals/99803-0400-o5kx252crf-us-en-6b10c4b8178fa8aadd9de6768a329cd0/index.html",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Position count from the manual figure (two holder positions x two directions) and Kawasaki ERGO-FIT pages; millimetre steps for some years are in the Kawasaki 2021 KX250 press kit (record kx-092): 25 and 15 mm forward, stock and 10 mm back; footpegs 5 mm lower in the second position."
+  },
+  {
+   "id": "rfit-w-021",
+   "domain": "chassis",
+   "topic": "2024 KX450: adjustable ergonomics (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KX450"
+    ],
+    "years": [
+     2024
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki's owner's manual (Adjustable Ergonomics): to suit different riding positions the handlebar holders can be fitted in the alternative holes and turned around 180 degrees (near and far positions, four in all), and the right and left footpegs can each be mounted in one of two positions; the front brake lever position is adjustable. The manual gives no millimetre figures for the positions.",
+   "values": {
+    "bar_holder_reversible": true,
+    "bar_positions": 4,
+    "footpeg_positions": 2,
+    "front_brake_lever_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2024 KX450 (KX450M) Owner's Manual (part 99803-0401, KTIVS public manual portal)",
+    "url": "https://pws.ktivs.net/proxy/manuals/99803-0401-01-o5kx450mrf-us-en_ebook-90735d052ae7d6b4d2c139d437d61f74/index.html",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Position count from the manual figure (two holder positions x two directions) and Kawasaki ERGO-FIT pages; millimetre steps for some years are in the Kawasaki 2021 KX250 press kit (record kx-092): 25 and 15 mm forward, stock and 10 mm back; footpegs 5 mm lower in the second position."
+  },
+  {
+   "id": "rfit-w-022",
+   "domain": "chassis",
+   "topic": "2024 KX450X: adjustable ergonomics (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KX450X"
+    ],
+    "years": [
+     2024
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki's owner's manual (Adjustable Ergonomics): to suit different riding positions the handlebar holders can be fitted in the alternative holes and turned around 180 degrees (near and far positions, four in all), and the right and left footpegs can each be mounted in one of two positions; the front brake lever position is adjustable. The manual gives no millimetre figures for the positions.",
+   "values": {
+    "bar_holder_reversible": true,
+    "bar_positions": 4,
+    "footpeg_positions": 2,
+    "front_brake_lever_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2024 KX450X (KX450N) Owner's Manual (part 99803-0402, KTIVS public manual portal)",
+    "url": "https://pws.ktivs.net/proxy/manuals/99803-0402-01-o5kx450nrf-us-en_ebook-6a426975919dd9f878c373b2b69de7d0/index.html",
+    "date": "2023"
+   },
+   "confidence": "high",
+   "notes": "Position count from the manual figure (two holder positions x two directions) and Kawasaki ERGO-FIT pages; millimetre steps for some years are in the Kawasaki 2021 KX250 press kit (record kx-092): 25 and 15 mm forward, stock and 10 mm back; footpegs 5 mm lower in the second position."
+  },
+  {
+   "id": "rfit-w-023",
+   "domain": "chassis",
+   "topic": "2025 KX450/KX450X: adjustable ergonomics (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2025
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki's owner's manual (Adjustable Ergonomics): to suit different riding positions the handlebar holders can be fitted in the alternative holes and turned around 180 degrees (near and far positions, four in all), and the right and left footpegs can each be mounted in one of two positions; the front brake lever position is adjustable. The manual gives no millimetre figures for the positions.",
+   "values": {
+    "bar_holder_reversible": true,
+    "bar_positions": 4,
+    "footpeg_positions": 2,
+    "front_brake_lever_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2025 KX450 (KX450M) / KX450X (KX450N), English/French edition Owner's Manual (part 99814-0003, KTIVS public manual portal)",
+    "url": "https://pws.ktivs.net/proxy/manuals/99814-0003-o5kx450msf-us-en_ebook-e1cdd78aa5d28e4144984271960ae3b9/index.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Position count from the manual figure (two holder positions x two directions) and Kawasaki ERGO-FIT pages; millimetre steps for some years are in the Kawasaki 2021 KX250 press kit (record kx-092): 25 and 15 mm forward, stock and 10 mm back; footpegs 5 mm lower in the second position."
+  },
+  {
+   "id": "rfit-w-024",
+   "domain": "chassis",
+   "topic": "2025 KX250: adjustable ergonomics (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KX250"
+    ],
+    "years": [
+     2025
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki's owner's manual (Adjustable Ergonomics): to suit different riding positions the handlebar holders can be fitted in the alternative holes and turned around 180 degrees (near and far positions, four in all), and the right and left footpegs can each be mounted in one of two positions; the front brake lever position is adjustable. The manual gives no millimetre figures for the positions.",
+   "values": {
+    "bar_holder_reversible": true,
+    "bar_positions": 4,
+    "footpeg_positions": 2,
+    "front_brake_lever_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2025 KX250 (KX252E) Owner's Manual (part 99814-0061, KTIVS public manual portal)",
+    "url": "https://pws.ktivs.net/proxy/manuals/99814-0061-o5kx252esf-us-en_ebook-1caab68fb1b6f0bd0aca70be564f27dd/index.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Position count from the manual figure (two holder positions x two directions) and Kawasaki ERGO-FIT pages; millimetre steps for some years are in the Kawasaki 2021 KX250 press kit (record kx-092): 25 and 15 mm forward, stock and 10 mm back; footpegs 5 mm lower in the second position."
+  },
+  {
+   "id": "rfit-w-025",
+   "domain": "chassis",
+   "topic": "2025 KX250X: adjustable ergonomics (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KX250X"
+    ],
+    "years": [
+     2025
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki's owner's manual (Adjustable Ergonomics): to suit different riding positions the handlebar holders can be fitted in the alternative holes and turned around 180 degrees (near and far positions, four in all), and the right and left footpegs can each be mounted in one of two positions; the front brake lever position is adjustable. The manual gives no millimetre figures for the positions.",
+   "values": {
+    "bar_holder_reversible": true,
+    "bar_positions": 4,
+    "footpeg_positions": 2,
+    "front_brake_lever_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2025 KX250X (KX252F) Owner's Manual (part 99814-0062, KTIVS public manual portal)",
+    "url": "https://pws.ktivs.net/proxy/manuals/99814-0062-o5kx252fsf-us-en_ebook-8e66f350de0103dd0475cddc0919b277/index.html",
+    "date": "2024"
+   },
+   "confidence": "high",
+   "notes": "Position count from the manual figure (two holder positions x two directions) and Kawasaki ERGO-FIT pages; millimetre steps for some years are in the Kawasaki 2021 KX250 press kit (record kx-092): 25 and 15 mm forward, stock and 10 mm back; footpegs 5 mm lower in the second position."
+  },
+  {
+   "id": "rfit-w-026",
+   "domain": "chassis",
+   "topic": "2026 KX250/KX250X: adjustable ergonomics (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2026
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki's owner's manual (Adjustable Ergonomics): to suit different riding positions the handlebar holders can be fitted in the alternative holes and turned around 180 degrees (near and far positions, four in all), and the right and left footpegs can each be mounted in one of two positions; the front brake lever position is adjustable. The manual gives no millimetre figures for the positions.",
+   "values": {
+    "bar_holder_reversible": true,
+    "bar_positions": 4,
+    "footpeg_positions": 2,
+    "front_brake_lever_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2026 KX250 (KX252E) / KX250X (KX252F) Owner's Manual (part 99814-0119, KTIVS public manual portal)",
+    "url": "https://pws.ktivs.net/proxy/manuals/99814-0119-o5kx252etf-us-en_ebook-a3ebacd81de28a08cad622f50579814b/index.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Position count from the manual figure (two holder positions x two directions) and Kawasaki ERGO-FIT pages; millimetre steps for some years are in the Kawasaki 2021 KX250 press kit (record kx-092): 25 and 15 mm forward, stock and 10 mm back; footpegs 5 mm lower in the second position."
+  },
+  {
+   "id": "rfit-w-027",
+   "domain": "chassis",
+   "topic": "2026 KX450/KX450X: adjustable ergonomics (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KX450",
+     "KX450X"
+    ],
+    "years": [
+     2026
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki's owner's manual (Adjustable Ergonomics): to suit different riding positions the handlebar holders can be fitted in the alternative holes and turned around 180 degrees (near and far positions, four in all), and the right and left footpegs can each be mounted in one of two positions; the front brake lever position is adjustable. The manual gives no millimetre figures for the positions.",
+   "values": {
+    "bar_holder_reversible": true,
+    "bar_positions": 4,
+    "footpeg_positions": 2,
+    "front_brake_lever_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2026 KX450 (KX450M) / KX450X (KX450N); the same book also covers KX450SR (KX450P), not in scope Owner's Manual (part 99814-0121, KTIVS public manual portal)",
+    "url": "https://pws.ktivs.net/proxy/manuals/99814-0121-o5kx450mtf-us-en_ebook-cc6574ed9226ee3c6838ff7eaa4cf343/index.html",
+    "date": "2025"
+   },
+   "confidence": "high",
+   "notes": "Position count from the manual figure (two holder positions x two directions) and Kawasaki ERGO-FIT pages; millimetre steps for some years are in the Kawasaki 2021 KX250 press kit (record kx-092): 25 and 15 mm forward, stock and 10 mm back; footpegs 5 mm lower in the second position."
+  },
+  {
+   "id": "rfit-w-028",
+   "domain": "chassis",
+   "topic": "2027 KX250/KX250X: adjustable ergonomics (owner's manual)",
+   "applies_to": {
+    "models": [
+     "KX250",
+     "KX250X"
+    ],
+    "years": [
+     2027
+    ],
+    "make": "Kawasaki"
+   },
+   "statement": "Kawasaki's owner's manual (Adjustable Ergonomics): to suit different riding positions the handlebar holders can be fitted in the alternative holes and turned around 180 degrees (near and far positions, four in all), and the right and left footpegs can each be mounted in one of two positions; the front brake lever position is adjustable. The manual gives no millimetre figures for the positions.",
+   "values": {
+    "bar_holder_reversible": true,
+    "bar_positions": 4,
+    "footpeg_positions": 2,
+    "front_brake_lever_adjuster": true
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Kawasaki 2027 KX250F (KX252E) / KX250FX (KX252F) - 2027 renames KX250 to KX250F and KX250X to KX250FX Owner's Manual (part 99814-0239, KTIVS public manual portal)",
+    "url": "https://pws.ktivs.net/proxy/manuals/99814-0239-o5kx252ev-us-en_ebook-cff9f6602a496d838d485829a9158b6b/index.html",
+    "date": "2026"
+   },
+   "confidence": "high",
+   "notes": "Position count from the manual figure (two holder positions x two directions) and Kawasaki ERGO-FIT pages; millimetre steps for some years are in the Kawasaki 2021 KX250 press kit (record kx-092): 25 and 15 mm forward, stock and 10 mm back; footpegs 5 mm lower in the second position."
   }
  ]
 }

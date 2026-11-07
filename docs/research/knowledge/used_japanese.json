@@ -1,5 +1,5 @@
 {
- "slice": "Used-bike buying pass (2026-11-07): where the VIN and engine number are on Japanese-brand roster bikes, and the RM-Z450 shifting complaint as a used-buyer check. Suzuki had no known_issues records before this pass. Recalls are not repeated here.",
+ "slice": "Used-bike buying pass (2026-11-07, reviewed the same day): where the VIN and engine number are on Japanese-brand roster bikes (Kawasaki, Yamaha, Honda, Suzuki), and the RM-Z450 shifting complaint as a used-buyer check. Suzuki had no known_issues records before this pass. Recalls are not repeated here.",
  "platform": {
   "make": "Kawasaki",
   "models": [
@@ -124,7 +124,77 @@
     "date": "2019-04"
    },
    "confidence": "low",
-   "notes": "Three posters agree in the 2019 thread (one friend's 2018 needed a transmission rebuild at 44 hours); a 2017 thread on 2014-2016 bikes agrees (https://vitalmx.com/forums/Tech-Help-Race-Shop,42/14-and-newer-RMZ450-shifting,1314043, Feb-Mar 2017) and calls the 2017 much better. Most 2018 owners in the 2019 thread reported no problems. No report read for 2020-2025 bikes specifically; applied to them because the engine and gearbox carried over, so confidence is low. Not a Suzuki bulletin."
+   "notes": "In the 2019 thread (all posts 2019-04-10) two posters report shifting trouble: a friend's 2018 hit false neutrals and was having its transmission rebuilt at 44 hours, and another says a different shift lever helps a lot; a third suggests a longer lever. A 2017 thread on 2014-2016 bikes agrees (https://vitalmx.com/forums/Tech-Help-Race-Shop,42/14-and-newer-RMZ450-shifting,1314043, Feb-Mar 2017): about three owners report false neutrals, mostly 2nd to 3rd under hard acceleration, four recommend a longer lever, and one owner's 2015 had 2nd-5th gears and the shift forks replaced at about 5 hours; one says his 2017 is much better. Four owners in the 2019 thread report no problems at all. No report read for 2020-2025 bikes specifically; applied to them because the 2018-on engine and gearbox carried over, so confidence is low. Not a Suzuki bulletin. Re-read 2026-11-07."
+  },
+  {
+   "id": "used-hon-001",
+   "domain": "identity",
+   "topic": "Honda CRF: where the VIN and engine number are",
+   "applies_to": {
+    "make": "Honda",
+    "models": [
+     "CRF250R",
+     "CRF250RX",
+     "CRF450R",
+     "CRF450RX"
+    ],
+    "years": [
+     2020
+    ]
+   },
+   "statement": "Honda's 2020 owner's manuals put the VIN on the right side of the steering head on both the CRF250R/RX and the CRF450R/RX, but the engine number on different sides: the left crankcase on the CRF250R/RX and the right crankcase on the CRF450R/RX. On a used CRF, read both numbers off the bike and match them to the paperwork; US Honda VINs begin JH2.",
+   "values": {
+    "vin_location": "stamped on the right side of the steering head",
+    "engine_number_crf250r": "stamped on the left crankcase",
+    "engine_number_crf450r": "stamped on the right crankcase",
+    "wmi": "JH2 (Honda Motor Co., motorcycle; NHTSA vPIC)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Honda 2020 CRF250R/RX owner's manual 31K95620, vehicle identification page",
+    "url": "https://2rom-prd-data.hondamotopub.com/om/AHM/CRF250R-RX/2020/CRF250R.RX_31K95620_0.pdf",
+    "date": "2019"
+   },
+   "confidence": "high",
+   "notes": "CRF450R side from Honda's 2020 CRF450R/RX/RWE owner's manual 31MKE630 (https://2rom-prd-data.hondamotopub.com/om/AHM/CRF450RX-R-RWE/2020/CRF450R.RX.RWE_31MKE630_0.pdf, page 172, dated 2019-04-03), already held as p6h-017. This settles the earlier conflict: the left-crankcase reading in an older CRF450R edition matches the CRF250R layout, so the side depends on the model and possibly the generation. Honda's 2025 European CRF250R manual shows the frame and engine numbers only in a drawing. WMI from https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JH2?format=json. Read 2026-11-07."
+  },
+  {
+   "id": "used-suz-001",
+   "domain": "identity",
+   "topic": "Suzuki RM-Z: where the frame and engine numbers are",
+   "applies_to": {
+    "make": "Suzuki",
+    "models": [
+     "RM-Z250",
+     "RM-Z450"
+    ],
+    "years": [
+     2020,
+     2021,
+     2022,
+     2023,
+     2024,
+     2025,
+     2026,
+     2027
+    ]
+   },
+   "statement": "Suzuki's RM-Z450 owner's service manual (2008 edition) says the frame number is stamped on the steering head and the engine serial number on the right side of the crankcase. Later RM-Z owner's service manuals keep a serial number location page; check the one for the bike's year. US Suzuki VINs begin JS1.",
+   "values": {
+    "vin_location": "stamped on the steering head (2008 RM-Z450 manual)",
+    "engine_number": "stamped on the right side of the crankcase (2008 RM-Z450 manual)",
+    "wmi": "JS1 (Suzuki Motor Corporation, motorcycle; NHTSA vPIC)"
+   },
+   "tier": "OEM",
+   "source": {
+    "type": "manufacturer",
+    "name": "Suzuki RM-Z450 (K8) owner's service manual, serial number location",
+    "url": "https://www.cyclechaos.com/images/8/8e/Suzuki_RM-Z450_K8_Owners_Service_Manual.pdf",
+    "date": "2007 (2008 model)"
+   },
+   "confidence": "low",
+   "notes": "The only Suzuki document whose serial-number page could be read in this pass is for the 2008 RM-Z450, twelve or more years before these bikes; a 2021 RM-Z250 owner's manual listing shows a SERIAL NUMBER LOCATION heading but its text was not readable, and one manual site sits behind a bot check, which was not worked around. Applied with low confidence: steering-head frame numbers are the norm, but the crankcase side is not confirmed for current bikes. WMI from https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JS1?format=json. Read 2026-11-07."
   }
  ],
  "conflicts": [
@@ -136,23 +206,30 @@
    "detail": "Several owners report false neutrals; most owners in the same thread report none, and one says the 2017 was much improved."
   },
   {
-   "topic": "Honda CRF450R engine number side",
+   "topic": "Honda CRF engine number side",
    "ids": [
+    "used-hon-001",
     "p6h-017"
    ],
-   "detail": "Honda's 2020 CRF450R manual (p6h-017) puts the engine number on the right crankcase; an older CRF450R owner's manual edition read in this pass says the left crankcase. Not recorded as a new row; the used-bike module tells riders to use the manual for the exact year."
+   "detail": "Resolved in review: Honda's 2020 manuals put the engine number on the left crankcase of the CRF250R and the right crankcase of the CRF450R; an older CRF450R edition says left. The side depends on the model (and possibly the generation), so riders are told to check the manual for the exact bike."
   }
  ],
  "not_found": [
-  "Suzuki RM-Z owner's service manual page with the frame and engine serial locations (manual listings found, page text not readable).",
   "Kawasaki KX engine-number location from a Kawasaki document.",
-  "Reliable Suzuki RM-Z250 2020-2027 weak spots: the per-year 'common issues' pages found were generic and in places wrong (one calls the fuel-injected 2021 RM-Z250 carbureted), so they were not used."
+  "Reliable Suzuki RM-Z250 2020-2027 weak spots: the per-year 'common issues' pages found were generic and in places wrong (one calls the fuel-injected 2021 RM-Z250 carbureted), so they were not used.",
+  "Suzuki RM-Z owner's service manual for 2020-2027 with a readable serial-number page (the 2008 RM-Z450 one is used, low confidence).",
+  "Suzuki RM-Z250 weak spots: a 2024 owners' thread (https://www.vitalmx.com/forums/moto-related/rmz250-reliability, 2024-04-02) and a 2019 RM-Z250 build thread (https://www.vitalmx.com/comment/3776840, 2020-04) report no recurring failure; only single-owner gripes (hot clutch free play, brake fade), so nothing was recorded.",
+  "RM-Z450 clutch judder springs: owners remove them for a crisper, drag-free engagement (https://www.vitalmx.com/forums/Tech-Help-Race-Shop,42/19-rmz450-Judder-spring-removal,1372274, 2020-2025); a modification, not a fault, so not recorded."
  ],
  "sources": [
   "https://kpp.kawasaki.com/Vin-Finder",
   "https://www.cpsc.gov/Recalls/2022/Yamaha-Recalls-Competition-Off-Road-Motorcycles-Due-to-Crash-Hazard-Recall-Alert",
   "https://www.manualslib.com/manual/1161595/Yamaha-Yz450f.html?page=19",
   "https://www.vitalmx.com/forums/Moto-Related,20/Whats-wrong-with-a-2018-RMZ450,1357811",
-  "https://vitalmx.com/forums/Tech-Help-Race-Shop,42/14-and-newer-RMZ450-shifting,1314043"
+  "https://vitalmx.com/forums/Tech-Help-Race-Shop,42/14-and-newer-RMZ450-shifting,1314043",
+  "https://2rom-prd-data.hondamotopub.com/om/AHM/CRF250R-RX/2020/CRF250R.RX_31K95620_0.pdf",
+  "https://2rom-prd-data.hondamotopub.com/om/AHM/CRF450RX-R-RWE/2020/CRF450R.RX.RWE_31MKE630_0.pdf",
+  "https://www.cyclechaos.com/images/8/8e/Suzuki_RM-Z450_K8_Owners_Service_Manual.pdf",
+  "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/JS1?format=json"
  ]
 }

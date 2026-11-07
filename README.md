@@ -20,6 +20,8 @@ Web purchases: set server-owned Stripe recurring `STRIPE_PRICE_ID`, secret and w
 
 Plans: Free (one-time trial of `AI_TRIAL_BLOCKS` sets of `AI_TRIAL_BLOCK_SIZE` questions; the rider starts each next set), Premium (`AI_DAILY_PREMIUM`/day), Pro (unlimited, fair-use `AI_DAILY_PRO`/day). Credits never expire, are spent after included questions, and every grant is a unique ledger reference (`stripe:<checkout session>`, `rc:<store transaction>`, `trial:<user>:<n>`). Set `STRIPE_PLAN_PRICES` and `STRIPE_CREDIT_PRICES`; Stripe credit grants arrive by `checkout.session.completed`. Plan rules apply when `AI_ACCESS_MODE=subscription`; in `beta` every rider also gets `AI_MAX_DAILY_REQUESTS` a day.
 
+Notifications: phone push goes through Expo (`expo-notifications`, in the app from the next store build) and the same records fill the web bell. Set `CRON_SECRET` (32+ random characters) in Vercel; Vercel Cron calls `/api/cron/notifications` hourly (see `vercel.json`, needs a plan that allows hourly cron jobs) with `Authorization: Bearer <CRON_SECRET>`. Upload APNs credentials (iOS) and FCM V1 credentials (Android) to the Expo project with `eas credentials`. Set `EXPO_ACCESS_TOKEN` only if Expo enhanced push security is enabled. Apply migration `20261107180000_notifications.sql`.
+
 AI: configure a supported structured-output OpenAI model and a dedicated key. No default model/pricing is invented. Run independent held-out evaluations against actual retained outputs before launch. Current numeric-spec validator checks the structured specifications field; semantic correctness and unsupported specifications in prose still need broader validation and live review.
 
 ## Verification and release

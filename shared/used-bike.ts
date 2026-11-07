@@ -13,15 +13,17 @@
  * own recall rows once per conversation, scoped to the VIN. This module only tells the model how a used buyer should act
  * on that: ask for proof the recall work was done, and check the VIN with the maker.
  *
- * Status: AUTHORED from public sources on 2026-11-07, pending review by Kyle. Edit here; the runtime reads this file.
+ * Status: AUTHORED from public sources on 2026-11-07 and reviewed the same day (facts re-checked against their sources,
+ * errors fixed), pending review by Kyle. Edit here; the runtime reads this file.
  */
 import {garageModels} from './garage-models.ts';
+import {readVin,type VinRead} from './vin.ts';
 
-export const USED_BIKE_VERSION='mx-used-1';
+export const USED_BIKE_VERSION='mx-used-2';
 
 export type Source={id:string;publisher:string;kind:'regulator'|'state'|'bike_maker'|'insurer_body'|'press'|'retailer'|'lubricant_maker'|'forum'|'shop';url:string;published?:string;accessed:string};
 export type InspectArea={id:string;area:string;how:string[];bad_signs:string[];src:string[]};
-export type MakeId={make:string;vin_location:string;engine_number:string;decode:string;confidence:'maker document'|'maker general page'|'unconfirmed';src:string[]};
+export type MakeId={make:string;vin_location:string;engine_number:string;decode:string;confidence:'maker document'|'older maker document'|'maker general page'|'unconfirmed';src:string[]};
 export type PriceItem={item:string;cost:'low'|'medium'|'high'|'very high';due_when:string;src:string[]};
 export type PlatformCheck={make:string;models:string[];years:[number,number];checks:{check:string;ids:string[]}[]};
 
@@ -33,10 +35,13 @@ export const USED_SOURCES:Source[]=[
  {id:'ktm-om-2025',publisher:'KTM 2025 250 SX / 300 SX owner\'s manual 25_3240042en (identification page, held in this repo as p6k-0084)',kind:'bike_maker',url:'https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240042_en_OM.pdf',published:'2025',accessed:'2026-11-07'},
  {id:'ktm-eps',publisher:'KTM 2025 450 SX-F owner\'s manual 25_3240045_en_OM, service schedule',kind:'bike_maker',url:'https://azwecdnepstoragewebsiteuploads.azureedge.net/25_3240045_en_OM.pdf',published:'2025',accessed:'2026-11-07'},
  {id:'honda-om',publisher:'Honda 2020 CRF450R/RX/RWE owner\'s manual 31MKE630 (held in this repo as p6h-017)',kind:'bike_maker',url:'https://2rom-prd-data.hondamotopub.com/om/AHM/CRF450RX-R-RWE/2020/CRF450R.RX.RWE_31MKE630_0.pdf',published:'2019-04',accessed:'2026-11-07'},
+ {id:'honda-om-250',publisher:'Honda 2020 CRF250R/RX owner\'s manual 31K95620, vehicle identification page',kind:'bike_maker',url:'https://2rom-prd-data.hondamotopub.com/om/AHM/CRF250R-RX/2020/CRF250R.RX_31K95620_0.pdf',published:'2019',accessed:'2026-11-07'},
  {id:'honda-om-old',publisher:'Honda CRF450R owner\'s manual, vehicle identification page (older edition)',kind:'bike_maker',url:'https://www.manualslib.com/manual/1201988/Honda-Crf450r.html?page=157',accessed:'2026-11-07'},
  {id:'honda-recall',publisher:'Honda Powersports recall lookup',kind:'bike_maker',url:'https://powersports.honda.com/recalls',accessed:'2026-11-07'},
  {id:'yamaha-osm',publisher:'Yamaha 2016 YZ450F owner\'s service manual, identification page',kind:'bike_maker',url:'https://www.manualslib.com/manual/1161595/Yamaha-Yz450f.html?page=19',published:'2016',accessed:'2026-11-07'},
  {id:'cpsc-22-746',publisher:'CPSC recall notice 22-746 (Yamaha 2022 YZ125)',kind:'regulator',url:'https://www.cpsc.gov/Recalls/2022/Yamaha-Recalls-Competition-Off-Road-Motorcycles-Due-to-Crash-Hazard-Recall-Alert',published:'2022',accessed:'2026-11-07'},
+ {id:'suzuki-om-2008',publisher:'Suzuki RM-Z450 (K8, 2008) owner\'s service manual, serial number location',kind:'bike_maker',url:'https://www.cyclechaos.com/images/8/8e/Suzuki_RM-Z450_K8_Owners_Service_Manual.pdf',published:'2007',accessed:'2026-11-07'},
+ {id:'vpic-wmi',publisher:'NHTSA vPIC world manufacturer identifier lookup (JH2, JYA, JKA, JKB, JS1, SMT, VBK)',kind:'regulator',url:'https://vpic.nhtsa.dot.gov/api/vehicles/DecodeWMI/VBK?format=json',accessed:'2026-11-07'},
  {id:'kawasaki-vin',publisher:'Kawasaki parts site, VIN finder',kind:'bike_maker',url:'https://kpp.kawasaki.com/Vin-Finder',accessed:'2026-11-07'},
  {id:'triumph-hb',publisher:'Triumph TF 250-C / TF 450-C owner\'s handbook 3850699-US-EN (held in this repo)',kind:'bike_maker',url:'https://api.triumphtechnicalinformation.com/handbooks/documents/697b1c4ec47604be99a352a4/pdf',published:'2025-04',accessed:'2026-11-07'},
  {id:'yamaha-hour',publisher:'Yamaha Motor Canada accessory page, hour meter and tachometer',kind:'bike_maker',url:'https://www.yamaha-motor.ca/en/accessories/motorcycles/handlebars-controls-/hour-meter-and-tachometer/ENG-HR806-12-00',accessed:'2026-11-07'},
@@ -44,6 +49,7 @@ export const USED_SOURCES:Source[]=[
  {id:'yamaha-app',publisher:'Yamaha Power Tuner app store listing',kind:'bike_maker',url:'https://apps.apple.com/us/app/id1235945328',accessed:'2026-11-07'},
  {id:'flhsmv-tl44',publisher:'Florida HSMV procedure TL-44, off-highway vehicle titles',kind:'state',url:'https://www.flhsmv.gov/pdf/proc/tl/tl-44.pdf',accessed:'2026-11-07'},
  {id:'fl-317-0017',publisher:'Florida Statutes 317.0017 (off-highway vehicle offences)',kind:'state',url:'https://m.flsenate.gov/Statutes/317.0017',accessed:'2026-11-07'},
+ {id:'ca-dmv-ohv',publisher:'California DMV, how to register an off-highway vehicle (HTVR 19)',kind:'state',url:'https://www.dmv.ca.gov/portal/how-to-register-an-off-highway-vehicle-ohv-htvr-19',accessed:'2026-11-07'},
  {id:'nicb',publisher:'NICB VINCheck',kind:'insurer_body',url:'https://nicb.org/vincheck',accessed:'2026-11-07'},
  {id:'cpsc-recalls',publisher:'CPSC recall pages for off-road motorcycles (examples in the bike recall rows)',kind:'regulator',url:'https://www.cpsc.gov/Recalls',accessed:'2026-11-07'},
  {id:'guide-dr2009',publisher:'Off-road magazine used-bike buying guide',kind:'press',url:'https://www.dirtrider.com/misc/141_0504_10_things_when_buying_a_used_dirtbike',published:'2009-02-24',accessed:'2026-11-07'},
@@ -106,15 +112,18 @@ export const vin={
  format:[
   '17 characters, never I, O or Q. Position 10 is the model year, 11 the plant, 9 a check digit, 1-3 the maker code.',
   'US road-vehicle VIN rules do not cover off-road bikes; makers still use the 17-character format on US competition bikes and states may require a VIN for titling. Recall notices sometimes quote only part of a VIN.',
+  'The year letters repeat every 30 years (F is 1985 and 2015), so read the letter together with the model.',
+  'Position 9 is a check character worked out from the other 16; on US-market Japanese bikes a wrong check character means a typo or a VIN that was not made by the factory.',
+  'Makers\' codes in positions 1-3: Honda JH2, Yamaha JYA, Kawasaki JKA or JKB, Suzuki JS1, Triumph SMT, and KTM AG VBK for KTM, Husqvarna and GasGas alike.',
  ],
  year_codes:{F:2015,G:2016,H:2017,J:2018,K:2019,L:2020,M:2021,N:2022,P:2023,R:2024,S:2025,T:2026,V:2027,W:2028},
  by_make:[
-  {make:'KTM, Husqvarna, GasGas',vin_location:'Stamped on the right side of the steering head; a type label is on the frame.',engine_number:'Embossed on the left side of the engine above the engine sprocket.',decode:'Starts VBK (KTM AG, all three brands). 4-5 model code, 7 engine type (2 two-stroke, 4 four-stroke), 8 usage (3 = closed-course competition), 10 year, 11 plant (M = Mattighofen), 12 engine size. A 7th character that does not match the engine type is a red flag.',confidence:'maker document',src:['ktm-vin','ktm-om-2025']},
-  {make:'Honda',vin_location:'Stamped on the right side of the steering head.',engine_number:'On the crankcase: Honda\'s 2020 CRF450R manual says the right side, an older edition says the left, so use the manual for the exact year.',decode:'US Honda VINs start JH2. Honda\'s recall lookup (powersports.honda.com/recalls) takes the VIN.',confidence:'maker document',src:['honda-om','honda-om-old','honda-recall']},
-  {make:'Yamaha',vin_location:'Stamped on the frame steering head; the model number label is on both sides of the bike.',engine_number:'Stamped on the raised part of the right side of the engine (older YZ450F manual).',decode:'US Yamaha VINs start JYA.',confidence:'maker document',src:['cpsc-22-746','yamaha-osm']},
-  {make:'Kawasaki',vin_location:'Stamped on the steering head, below the handlebars.',engine_number:'Not confirmed from a Kawasaki document; check the owner\'s manual.',decode:'US Kawasaki VINs start JKA or JKB.',confidence:'maker general page',src:['kawasaki-vin']},
-  {make:'Suzuki',vin_location:'Not confirmed from a Suzuki document in BAK\'s sources; the owner\'s service manual has a serial number location page.',engine_number:'Not confirmed; see the owner\'s service manual.',decode:'US Suzuki VINs start JS1.',confidence:'unconfirmed',src:[]},
-  {make:'Triumph',vin_location:'Stamped into the steering head and repeated on a label on the left of the frame.',engine_number:'Stamped on the crankcase above the clutch cover.',decode:'Triumph VINs start SMT. Triumph splits some specs by VIN, so match the VIN to the right handbook.',confidence:'maker document',src:['triumph-hb']},
+  {make:'KTM, Husqvarna, GasGas',vin_location:'Stamped on the right side of the steering head; older manuals also show a type label on the front of the steering head.',engine_number:'On the left side of the engine next to the engine sprocket (above or below it, depending on model and year).',decode:'Starts VBK (KTM AG, all three brands). KTM\'s 2025 US filing (model year 2026 on): 4-5 model code, 6 power class, 7 engine type (2 two-stroke, 4 four-stroke, 0 electric), 8 usage (3 = closed-course competition), 9 check character, 10 year, 11 plant (M = Mattighofen), 12 engine-size digit. A 7th character that does not match the engine is a red flag. Earlier KTM filings were not read.',confidence:'maker document',src:['ktm-vin','ktm-om-2025','vpic-wmi']},
+  {make:'Honda',vin_location:'Stamped on the right side of the steering head.',engine_number:'Stamped on the crankcase, and the side depends on the model: Honda\'s 2020 manuals put it on the left crankcase of the CRF250R and the right crankcase of the CRF450R. Check the manual for the exact model and year.',decode:'US Honda VINs start JH2. Honda\'s recall lookup (powersports.honda.com/recalls) takes the VIN.',confidence:'maker document',src:['honda-om','honda-om-250','honda-recall','vpic-wmi']},
+  {make:'Yamaha',vin_location:'Stamped on the frame steering head (right side in Yamaha\'s 2016 YZ450F manual); the model number label is on both sides of the bike.',engine_number:'Stamped on the raised part of the right side of the engine (2016 YZ450F manual; check the manual for later years).',decode:'US Yamaha VINs start JYA.',confidence:'maker document',src:['cpsc-22-746','yamaha-osm','vpic-wmi']},
+  {make:'Kawasaki',vin_location:'Stamped on the steering head, below the handlebars.',engine_number:'Not confirmed from a Kawasaki document; check the owner\'s manual.',decode:'US Kawasaki VINs start JKA or JKB.',confidence:'maker general page',src:['kawasaki-vin','vpic-wmi']},
+  {make:'Suzuki',vin_location:'Frame number stamped on the steering head in Suzuki\'s 2008 RM-Z450 manual; later RM-Z owner\'s service manuals have a serial number location page, so check the one for the year.',engine_number:'Stamped on the right side of the crankcase (2008 RM-Z450 manual).',decode:'US Suzuki VINs start JS1.',confidence:'older maker document',src:['suzuki-om-2008','vpic-wmi']},
+  {make:'Triumph',vin_location:'Stamped into the steering head and repeated on a label on the left of the frame.',engine_number:'Stamped on the crankcase above the clutch cover.',decode:'Triumph VINs start SMT. Triumph splits some specs by VIN, so match the VIN to the right handbook.',confidence:'maker document',src:['triumph-hb','vpic-wmi']},
  ] as MakeId[],
  engine_number:[
   'The engine number is its own serial: it will not match the VIN digits, so do not expect it to.',
@@ -122,10 +131,10 @@ export const vin={
   'A ground-off, re-stamped, uneven or painted-over VIN or engine number is a stop sign: in Florida, knowingly possessing or selling an off-highway vehicle with an altered VIN or motor number is a felony and the bike can be seized.',
   'BAK has no tables that decode engine numbers to a model. To check an engine was not swapped from another model or year, ask a dealer for that maker to look the engine number up.',
  ],
- src:['honda-om','yamaha-osm','ktm-om-2025','fl-317-0017','cfr-565','nhtsa-offroad'],
+ src:['honda-om','honda-om-250','yamaha-osm','ktm-om-2025','suzuki-om-2008','fl-317-0017','cfr-565','nhtsa-offroad','vpic-wmi'],
 };
 
-/** Title, bill of sale and stolen-bike practice in the US. State rules vary; Florida is given as a worked example. */
+/** Title, bill of sale and stolen-bike practice in the US. State rules vary; Florida and California are worked examples. */
 export const paperwork={
  general:[
   'Off-road bikes often have no title. Some states title them, many do not; ask the state DMV for its rules before you pay.',
@@ -140,12 +149,17 @@ export const paperwork={
   'A used bike bought in Florida needs the seller\'s Florida title, or a bill of sale with year, make and VIN only if the seller owned it before the titling date and was never required to title it. For a modern bike, expect a title in the seller\'s name.',
   'From a state that does not title off-road bikes: a dealer bill of sale, or the seller\'s registration plus a bill of sale.',
  ],
+ california:[
+  'California identifies off-highway bikes with a green or red ID plate instead of road registration; the ID runs two years and expires on 30 June.',
+  'Red plates go to 2003-and-newer bikes not certified to California emission standards and allow only seasonal riding in state OHV areas; green plates allow year-round riding.',
+  'A bike already identified in California transfers on its California Certificate of Title. One never identified in California, bought from an out-of-state dealer, needs evidence of ownership forming a full chain (maker\'s certificate, out-of-state title or bills of sale) and a DMV vehicle verification.',
+ ],
  stolen_checks:[
-  'Run the VIN through NICB VINCheck: free, five searches a day, but it only knows theft and salvage claims from participating insurers, so a clean result is not proof.',
+  'Run the VIN through NICB VINCheck: free, five searches a day, but it only knows theft and salvage claims from participating insurers and NICB says not to rely on it alone, so a clean result is not proof.',
   'Ask the local police or sheriff\'s non-emergency line whether the VIN is reported stolen.',
   'Ask the maker\'s dealer to run the VIN for open recalls, and ask the seller for dealer paperwork showing recall work was done.',
  ],
- src:['flhsmv-tl44','fl-317-0017','nicb','guide-dirtlegal','guide-maciag','honda-recall','cpsc-recalls'],
+ src:['flhsmv-tl44','fl-317-0017','ca-dmv-ohv','nicb','guide-dirtlegal','guide-maciag','honda-recall','cpsc-recalls'],
 };
 
 /** Red flags. Each one is a reason to slow down or walk away. */
@@ -199,23 +213,29 @@ export const testRide:{step:string;src:string[]}[]=[
  *  Built from the known_issues records in docs/research/knowledge. Recall ids are listed so the model knows to ask for proof
  *  of the work; the recall text itself comes from the recall guard, not from here. */
 export const platformChecks:PlatformCheck[]=[
- {make:'Yamaha',models:['YZ450F'],years:[2018,2022],checks:[{check:'Air filter seal and dirt past the backfire screen.',ids:['ywr-041']},{check:'Hot restart and idle heat.',ids:['ywr-042']}]},
- {make:'Yamaha',models:['YZ450F'],years:[2023,2025],checks:[{check:'Dirt in the airbox past the backfire screen.',ids:['yz45-068']},{check:'Clutch fade or slip under load.',ids:['yz45-069']},{check:'Map/kill button and footpeg brackets.',ids:['yz45-070']}]},
- {make:'Yamaha',models:['YZ250F'],years:[2019,2024],checks:[{check:'Cam chain history and rattle.',ids:['yz25-048']},{check:'Clutch heat and lever free play.',ids:['yz25-050']},{check:'Hard starting and idle on 2019-2021.',ids:['jg8-018']},{check:'Battery, clutch and chain wear on 2019-2020.',ids:['jg8-005']}]},
+ {make:'Yamaha',models:['YZ450F'],years:[2018,2022],checks:[{check:'Air filter seal and dirt past the backfire screen.',ids:['ywr-041']},{check:'Hot restart and idle heat.',ids:['ywr-042']},{check:'Valve clearance history: clearances that keep closing up.',ids:['wear-yz4-04']}]},
+ {make:'Yamaha',models:['YZ450F'],years:[2023,2025],checks:[{check:'Dirt in the airbox past the backfire screen.',ids:['yz45-068']},{check:'Clutch fade or slip under load.',ids:['yz45-069']},{check:'Map/kill button and footpeg brackets.',ids:['yz45-070']},{check:'Valve clearance history.',ids:['wear-yz4-04']}]},
+ {make:'Yamaha',models:['YZ450F'],years:[2026,2027],checks:[{check:'Valve clearance history.',ids:['wear-yz4-04']}]},
+ {make:'Yamaha',models:['YZ250F'],years:[2019,2024],checks:[{check:'Cam chain history and rattle.',ids:['yz25-048']},{check:'Clutch heat and lever free play.',ids:['yz25-050']},{check:'Hard starting and idle on 2019-2021.',ids:['jg8-018']},{check:'Battery, clutch and chain wear on 2019-2020.',ids:['jg8-005']},{check:'Valve clearance history.',ids:['wear-yz4-04']},{check:'Balancer gear recall (Australia) checked by VIN with a dealer.',ids:['yz25-051']}]},
+ {make:'Yamaha',models:['YZ250F'],years:[2025,2027],checks:[{check:'Clutch heat and lever free play.',ids:['yz25-050']},{check:'Owner reports on the 2024-on engine.',ids:['yz25-049']},{check:'Valve clearance history.',ids:['wear-yz4-04']},{check:'Balancer gear recall (Australia) checked by VIN with a dealer.',ids:['yz25-051']}]},
  {make:'Yamaha',models:['YZ250'],years:[2020,2026],checks:[{check:'Power valve working: primary gear bolt, linkage and governor pin.',ids:['y2t8-006','y2t8-007']},{check:'Crank seal leaks.',ids:['y2t8-009']},{check:'Water in the airbox.',ids:['yz25-074']}]},
  {make:'Yamaha',models:['YZ125','YZ125X'],years:[2020,2026],checks:[{check:'Power valve pin.',ids:['y2t8-008']},{check:'Rich running and plug fouling on 2022-2025.',ids:['yz25-077']},{check:'2022 YZ125 shift recall done.',ids:['ki6-013']}]},
- {make:'Honda',models:['CRF450R','CRF450RX'],years:[2021,2026],checks:[{check:'Boiling and coolant loss.',ids:['h45-103']},{check:'Air filter seal on 2021-2024.',ids:['h45-105']},{check:'Exhaust flange studs on 2023-2024.',ids:['h45-104']},{check:'Countershaft sprocket loose on its splines on 2022-2024.',ids:['cd6-103']},{check:'Clutch wear on 2021-2022.',ids:['h45-107']},{check:'2025-2026 handlebar clamp recall done.',ids:['h25-099','ki6-011']}]},
- {make:'Honda',models:['CRF250R','CRF250RX'],years:[2020,2026],checks:[{check:'Overheating and the radiator cap.',ids:['h25-100','jg8-044']},{check:'Air filter clogging on 2022-2024.',ids:['h25-101']},{check:'Clutch and chain wear.',ids:['h25-102']},{check:'2020-2021 issues.',ids:['h25-105']},{check:'2025-2026 handlebar clamp recall done.',ids:['h25-099']}]},
- {make:'Kawasaki',models:['KX450','KX450X'],years:[2021,2026],checks:[{check:'Heat and coolant loss.',ids:['kx-110']},{check:'Right side-case oil leak on 2024-2025.',ids:['kx-106']},{check:'Ignition cover damage on 2024.',ids:['kx-107']},{check:'Clutch plates on 2024+.',ids:['kx-109','cd6-101']},{check:'Rear brake and small parts on 2021-2023.',ids:['kx-111']},{check:'2022 fuel pump and 2025 crankshaft gear recalls done.',ids:['kx-105','kx-104']}]},
- {make:'Kawasaki',models:['KX250','KX250X'],years:[2021,2026],checks:[{check:'Chain roller and guide wear on 2021-2023.',ids:['jg8-070']},{check:'Small parts.',ids:['kx-112']},{check:'2022 fuel pump recall done.',ids:['kx-105']}]},
+ {make:'Honda',models:['CRF450R','CRF450RX'],years:[2021,2026],checks:[{check:'Boiling and coolant loss.',ids:['h45-103']},{check:'Air filter seal on 2021-2024.',ids:['h45-105']},{check:'Exhaust flange studs on 2023-2024.',ids:['h45-104']},{check:'Countershaft sprocket loose on its splines on 2022-2024.',ids:['cd6-103']},{check:'Clutch wear on 2021-2022.',ids:['h45-107']},{check:'Valve clearance history.',ids:['wear-crf450-04']},{check:'2025-2026 handlebar clamp recall done.',ids:['h25-099','ki6-011']}]},
+ {make:'Honda',models:['CRF450R'],years:[2027,2027],checks:[{check:'Valve clearance history.',ids:['wear-crf450_27-04']},{check:'Early complaints: no skid plate, so look at the cases and water-pump cover.',ids:['wk5-057']}]},
+ {make:'Honda',models:['CRF250R','CRF250RX'],years:[2020,2026],checks:[{check:'Overheating and the radiator cap.',ids:['h25-100','jg8-044']},{check:'Air filter clogging on 2022-2024.',ids:['h25-101']},{check:'Clutch and chain wear.',ids:['h25-102']},{check:'2020-2021 issues.',ids:['h25-105']},{check:'Valve clearance history.',ids:['wear-crf250-04']},{check:'2025-2026 handlebar clamp recall done.',ids:['h25-099']}]},
+ {make:'Honda',models:['CRF250R'],years:[2027,2027],checks:[{check:'Valve clearance history.',ids:['wear-crf250-04']}]},
+ {make:'Kawasaki',models:['KX450','KX450X'],years:[2021,2026],checks:[{check:'Heat and coolant loss.',ids:['kx-110']},{check:'Right side-case oil leak on 2024-2025.',ids:['kx-106']},{check:'Ignition cover damage on 2024.',ids:['kx-107']},{check:'Clutch plates on 2024+ (and 450X raced in sand).',ids:['kx-109','cd6-101','tj7-024']},{check:'Rear brake and small parts on 2021-2023.',ids:['kx-111']},{check:'Valve clearance history.',ids:['wear-kx-04']},{check:'2022 fuel pump and 2025 crankshaft gear recalls done.',ids:['kx-105','kx-104']}]},
+ {make:'Kawasaki',models:['KX250','KX250X'],years:[2021,2026],checks:[{check:'Chain roller and guide wear on 2021-2023.',ids:['jg8-070']},{check:'Small parts.',ids:['kx-112']},{check:'Valve clearance history.',ids:['wear-kx-04']},{check:'2022 fuel pump recall done.',ids:['kx-105']}]},
  {make:'Suzuki',models:['RM-Z450'],years:[2020,2025],checks:[{check:'Missed shifts and false neutrals under load.',ids:['used-rmz-001']}]},
- {make:'KTM',models:['250 SX-F','350 SX-F','450 SX-F','FC 250','FC 350','FC 450','MC 250F','MC 350F','MC 450F'],years:[2023,2026],checks:[{check:'Chain wearing into the swingarm and the chain buffer.',ids:['cd6-064','k45-104','k25-081','k35-093']},{check:'Linkage needle bearings.',ids:['k45-101','k25-078','k35-092']},{check:'Spoke tension.',ids:['k45-103','k25-079','k35-096']},{check:'Clutch cutting out: pinched crankcase breather hose.',ids:['ki6-015']},{check:'Rear brake pedal.',ids:['k45-105','k25-082']},{check:'Plastic radiator cap.',ids:['k25-080','k35-097']},{check:'350: swingarm pivot nut.',ids:['k35-100']}]},
+ {make:'KTM',models:['250 SX-F','350 SX-F','450 SX-F','FC 250','FC 350','FC 450','MC 250F','MC 350F','MC 450F'],years:[2023,2026],checks:[{check:'Chain wearing into the swingarm and the chain buffer.',ids:['cd6-064','k45-104','k25-081','k35-093']},{check:'Linkage needle bearings.',ids:['k45-101','k25-078','k35-092']},{check:'Spoke tension.',ids:['k45-103','k25-079','k35-096']},{check:'Clutch cutting out: pinched crankcase breather hose.',ids:['ki6-015']},{check:'Rear brake pedal.',ids:['k45-105','k25-082']},{check:'Plastic radiator cap.',ids:['k25-080','k35-097']},{check:'350: swingarm pivot nut.',ids:['k35-100']},{check:'Valve clearance history.',ids:['wear-ktm4b-04']}]},
+ {make:'KTM',models:['450 SX-F'],years:[2026,2027],checks:[{check:'Fuel connector and wiring harness rubbing (changed for 2026 and 2027).',ids:['k45-108']}]},
  {make:'KTM',models:['250 SX-F','350 SX-F','450 SX-F','FC 250','FC 350','FC 450','MC 250F','MC 450F'],years:[2020,2022],checks:[{check:'Loose hardware.',ids:['kg7-094']},{check:'Finding neutral and the shift locker.',ids:['kg7-095','ki6-016']},{check:'Husqvarna composite subframe cracks.',ids:['kg7-097','used-hq-001']}]},
  {make:'Husqvarna',models:['FC 250','FC 350','FC 450','TC 125','TC 250','FX 350','FX 450','TX 300','FE 450','TE 150','TE 250','TE 300'],years:[2020,2022],checks:[{check:'Composite subframe cracks and airbox seam gaps.',ids:['used-hq-001','used-hq-002','kg7-097']}]},
- {make:'KTM',models:['125 SX','150 SX','250 SX','300 SX','TC 125','TC 250','MC 125','MC 250'],years:[2023,2025],checks:[{check:'TBI detonation, cut-outs and plug fouling.',ids:['k2t-074','k2t-075','k2t-076']},{check:'2022 125/150 connecting-rod recall done (2022 bikes).',ids:['ki6-006']}]},
+ {make:'KTM',models:['125 SX','150 SX','250 SX','300 SX','TC 125','TC 250','MC 125','MC 250'],years:[2023,2025],checks:[{check:'TBI detonation, cut-outs and plug fouling.',ids:['k2t-074','k2t-075','k2t-076']},{check:'2025 125/150: no-starts and fouled plugs.',ids:['p5c-1108']},{check:'2022 125/150 connecting-rod recall done (2022 bikes).',ids:['ki6-006']}]},
+ {make:'KTM',models:['250 SX','300 SX'],years:[2026,2026],checks:[{check:'Wiring harness rubbing and the fuel quick-lock coupling (changed for 2026).',ids:['p5c-1080']}]},
  {make:'KTM',models:['150 XC-W','250 XC-W','300 XC-W','TE 150','TE 250','TE 300','EX 300'],years:[2023,2026],checks:[{check:'Overheating, TPS calibration and water in the TPS connector.',ids:['ko2-089','ko2-093','ko2-094']},{check:'Fuel pump cut-outs.',ids:['ko2-095']}]},
  {make:'GasGas',models:['MC 125','MC 250','MC 250F','MC 350F','MC 450F','EX 250','EX 250F','EX 300','EX 350F','EX 450F','EC 250','EC 300','EC 450F'],years:[2021,2025],checks:[{check:'Front and rear brake caliper recalls done.',ids:['ki6-001','ki6-005']}]},
- {make:'Triumph',models:['TF 250-X'],years:[2024,2025],checks:[{check:'Right switch cube recall done.',ids:['tf-077']},{check:'Clutch.',ids:['tg-019']},{check:'Stiff, notchy gearbox.',ids:['tf-080','tk8-009']},{check:'Jumped timing after a tip-over.',ids:['tk8-010']}]},
+ {make:'Triumph',models:['TF 250-X'],years:[2024,2025],checks:[{check:'Right switch cube recall done.',ids:['tf-077']},{check:'Clutch, and whether the free clutch update (basket, plates, sensor) was fitted.',ids:['tg-019','cd6-100']},{check:'Bog and fuelling on 2024.',ids:['tf-079']},{check:'Stiff, notchy gearbox.',ids:['tf-080','tk8-009']},{check:'Jumped timing after a tip-over.',ids:['tk8-010']}]},
  {make:'Triumph',models:['TF 450-RC Edition','TF 450-X','TF 450-C','TF 450-E'],years:[2025,2026],checks:[{check:'Cylinder head recall done.',ids:['tg-001']},{check:'False neutrals and gearbox.',ids:['tk8-006','tf-080']},{check:'Fuelling and flame-out.',ids:['tf-081']}]},
 ];
 
@@ -227,7 +247,9 @@ const BIKE_WORD=/\b(bike|dirt ?bike|motocross bike|mx bike|enduro bike|it|one|th
 const PART_WORD=/\b(chain|sprockets?|tires?|tyres?|grips?|pipe|exhaust|silencer|muffler|filters?|oil|parts?|plastics?|graphics|springs?|pistons?|kit|levers?|bars?|handlebars?|seat|wheels?|rims?|boots|helmet|gear|goggles|jersey|pants|stand|ramp|trailer|battery|clutch|brake pads?|mousse|tubes?)\b/i;
 const PRICE=/\b(negotiat\w*|lowball\w*|offer|haggl\w*|asking( price)?|worth|fair price|price it|price in|overpa(y|ying|id)|good deal|bad deal|deal)\b/i;
 const VIN=/\b(vins?|frame (number|no\.?|serial)|chassis number|serial numbers?|engine (number|serial)|re-?stamped|ground off|numbers? match\w*|matching numbers)\b/i;
-const PAPER=/\b(titles?|titled|mso|mco|certificate of origin|bill of sale|registration|registered|stolen|theft|lien)\b/i;
+/** A 17-character VIN typed in the message (letters and digits, no I, O or Q, at least one of each). */
+const VIN_TOKEN=/(?<![A-Za-z0-9])(?=[A-Za-z0-9]*\d)(?=[A-Za-z0-9]*[A-Za-z])[A-HJ-NPR-Za-hj-npr-z0-9]{17}(?![A-Za-z0-9])/;
+const PAPER=/\b(paperwork|papers|titles?|titled|mso|mco|certificate of origin|bill of sale|registration|registered|stolen|theft|lien)\b/i;
 const PAPER_STRONG=/\b(stolen|theft|mso|mco|certificate of origin|bill of sale|no title|open title|clean title|title in hand|lost title|without a title)\b/i;
 const HOURS_STRONG=/\b((real|actual|true|claimed|fake|honest|original) hours|hour ?meter|hour counter|rolled back|reset (the )?(hours|meter)|(judge|tell|estimate|check|know|verify|guess|prove) (the |its |real |actual )*hours)\b/i;
 const HOURS_WEAK=/\b(hours on (it|the bike|this|that)|low[- ]hours?|high[- ]hours?|how many hours)\b/i;
@@ -246,7 +268,7 @@ export function aboutBuyingBike(text:string):boolean{
 }
 export type UsedTopic='inspect'|'hours'|'vin'|'paperwork'|'red_flags'|'negotiate'|'test_ride';
 function topicsOf(text:string):Set<UsedTopic>{
- const t=new Set<UsedTopic>(),buy=aboutBuyingBike(text),vin=VIN.test(text);
+ const t=new Set<UsedTopic>(),buy=aboutBuyingBike(text),vin=VIN.test(text)||VIN_TOKEN.test(text);
  if(vin)t.add('vin');
  if(PAPER_STRONG.test(text)||(PAPER.test(text)&&(buy||vin)))t.add('paperwork');
  if(HOURS_STRONG.test(text)||(HOURS_WEAK.test(text)&&buy))t.add('hours');
@@ -276,8 +298,8 @@ export function bikesIn(text:string):{make:string;model:string;year:number|null}
  // Longest names first, so "250 SX-F" wins over "250 SX" and "YZ250F" over "YZ250"; a name inside one already found is skipped.
  for(const m of ROSTER){
   if(m.key.length<4||!flat.includes(m.key)||found.some(f=>f.key.includes(m.key)))continue;
-  // A bare-number KTM name ("250 SX") inside a longer token such as "1250sx" is not a match.
-  const i=flat.indexOf(m.key);if(/^\d/.test(m.key)&&i>0&&/\d/.test(flat[i-1]))continue;
+  // A bare-number KTM name ("250 SX") must stand on its own in the text: not inside "1250sx", but "2026 450 SX-F" is fine.
+  if(/^\d/.test(m.key)&&!new RegExp('(?<![0-9])'+m.model.replace(/[^A-Za-z0-9]/g,'').split('').join('[\\s-]*'),'i').test(text))continue;
   found.push(m);
  }
  for(const [re,make,model] of ALIASES){const r=text.match(re);if(!r)continue;const name=model.replace('$1',r[1]??'');if(!found.some(f=>f.model===name))found.push({make,model:name,key:squash(name)});}
@@ -310,7 +332,7 @@ export function usedBike(message:string,history?:string[]):UsedSection|null{
  if(!topics.size)return null;
  const bikes=bikesIn(text);
  const out:UsedSection={version:USED_BIKE_VERSION,
-  boundary:'BAK-authored used-bike buying guidance from makers\' documents, US regulators and state rules, and agreeing buying guides and owner reports. It is a checklist, not a verdict on any bike: say what to check and what each finding means, and that a pre-purchase look by a trusted mechanic is the surest step. Model-specific weak spots come from the bike\'s own bike_knowledge rows (ids in brackets under platform_checks): use those rows\' tier and wording, and if a row is not supplied, name the check without claiming it as a known fault. RECALLS: the recall_notice and recall rows decide whether a recall is mentioned; for a used bike, tell the rider to ask for dealer proof the work was done and to check the VIN with the maker, never that a VIN is clear from model and year alone. Title and theft rules vary by state: give Florida only as an example and tell the rider to check their own state. Never give a dollar figure as BAK\'s, never name a magazine, tester, retailer or forum, and never accuse a seller; describe the sign and what to ask.',
+  boundary:'BAK-authored used-bike buying guidance from makers\' documents, US regulators and state rules, and agreeing buying guides and owner reports. It is a checklist, not a verdict on any bike: say what to check and what each finding means, and that a pre-purchase look by a trusted mechanic is the surest step. Model-specific weak spots come from the bike\'s own bike_knowledge rows (ids in brackets under platform_checks): use those rows\' tier and wording, and if a row is not supplied, name the check without claiming it as a known fault. RECALLS: the recall_notice and recall rows decide whether a recall is mentioned; for a used bike, tell the rider to ask for dealer proof the work was done and to check the VIN with the maker, never that a VIN is clear from model and year alone. Title and theft rules vary by state: give Florida or California only as examples and tell the rider to check their own state. vin_read, when present, is a mechanical reading of the VIN the rider typed: report it as such, and never say a VIN is clean, stolen or recalled from it. Never give a dollar figure as BAK\'s, never name a magazine, tester, retailer or forum, and never accuse a seller; describe the sign and what to ask.',
   topics:[...topics]};
  if(fromHistory)out.from_history=true;
  const parts:[string,()=>unknown][]=[];
@@ -322,8 +344,15 @@ export function usedBike(message:string,history?:string[]):UsedSection|null{
  // What the rider asked about comes first; the general inspection fills what is left of the budget.
  if(topics.has('red_flags')||topics.has('paperwork'))parts.push(['red_flags',()=>redFlags.map(r=>`${r.flag} ${r.why}`)]);
  if(bikes.length)parts.push(['platform_checks',()=>bikes.flatMap(checksFor).slice(0,4)]);
- if(topics.has('vin'))parts.push(['vin',()=>{const makes=bikes.map(b=>b.make);const by=vin.by_make.filter(m=>!makes.length||makes.some(k=>m.make.includes(k)));return strip({format:vin.format,year_codes:vin.year_codes,by_make:by,engine_number:vin.engine_number});}]);
- if(topics.has('paperwork'))parts.push(['paperwork',()=>strip(paperwork)]);
+ // A VIN typed in this message is read character by character (maker code, year letter, check character); never one from history.
+ const typed=msg.match(VIN_TOKEN)?.[0];
+ if(typed)parts.push(['vin_read',()=>({...readVin(typed),note:'Read from the characters only: it does not show whether the bike is stolen, titled or recalled, and a VIN can be re-stamped. Compare it with the frame and the paperwork.'})]);
+ if(topics.has('vin'))parts.push(['vin',()=>{const read:VinRead|null=typed?readVin(typed):null;const makes=[...bikes.map(b=>b.make),...(read?.maker?[read.maker.startsWith('KTM')?'KTM':read.maker]:[])];const by=vin.by_make.filter(m=>!makes.length||makes.some(k=>m.make.includes(k)));return strip({format:vin.format,year_codes:vin.year_codes,by_make:by,engine_number:vin.engine_number});}]);
+ if(topics.has('paperwork'))parts.push(['paperwork',()=>{
+  // Florida and California are examples; when the rider names one of them, only that one is sent.
+  const fl=/\b(florida|fl)\b/i.test(text),ca=/\b(california|calif|ca)\b/i.test(text);
+  return strip({general:paperwork.general,...(fl||!ca?{florida_example:paperwork.florida}:{}),...(ca||!fl?{california_example:paperwork.california}:{}),stolen_checks:paperwork.stolen_checks,src:[]});
+ }]);
  if(topics.has('hours'))parts.push(['hours',()=>strip(hours)]);
  if(topics.has('negotiate'))parts.push(['negotiation',()=>({rules:negotiation.rules,items:negotiation.items.map(i=>`${i.item}: ${i.cost} cost; due when ${i.due_when.replace(/\.$/,'').replace(/^./,c=>c.toLowerCase())}.`)})]);
  if(topics.has('test_ride'))parts.push(['test_ride',()=>testRide.map(s=>s.step)]);
